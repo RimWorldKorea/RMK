@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Locks_ModName>Locks</Locks_ModName>
+  <Locks_ChildrenLock>잠금장치 사용 아동 최소 연령: {0}</Locks_ChildrenLock>
+  <Lock_ChildrenLock_Description>인간형 종족이 문을 여는 데 필요한 최소 연령</Lock_ChildrenLock_Description>
+  <Locks_AlwaysPensDoor>항상 울타리 문</Locks_AlwaysPensDoor>
+  <Locks_AlwaysPensDoor_Description>활성화 하면 모든 문은 건설 후 "울타리 문" 항목이 활성화 됩니다.</Locks_AlwaysPensDoor_Description>
+  <Locks_Label>잠금</Locks_Label>
+  <Locks_Description>잠금 해제하면 정착민들이 문을 사용할 수 있습니다.\n[추가 항목을 보려면 오른쪽 버튼을 누르세요]</Locks_Description>
+  <Locks_PrisonBreak>탈옥하는 죄수가 잠금장치에 영향을 받음</Locks_PrisonBreak>
+  <Locks_SlaveRebel>저항하는 노예가 잠금장치에 영향을 받음</Locks_SlaveRebel>
+  <Locks_StatePrefix>문</Locks_StatePrefix>
+  <Locks_StateLocked>잠김</Locks_StateLocked>
+  <Locks_StateUnlocked>잠기지 않음</Locks_StateUnlocked>
+  <Locks_StateChanging>바꾸는 중...</Locks_StateChanging>
+  <Locks_ITabLocked>잠김</Locks_ITabLocked>
+  <Locks_ITabLockedDesc>잠금 해제된 문인 경우, 문을 열 수 있는 모든 개체가 통과할 수 있습니다.</Locks_ITabLockedDesc>
+  <Locks_ITabVisitorsAllowed>방문객 허용</Locks_ITabVisitorsAllowed>
+  <Locks_ITabVisitorsAllowedDesc>비활성화 할 경우, 동맹국과 상인들은 이 문을 통과할 수 없습니다. 소유자가 지정된 경우에는 이 설정이 적용되지 않습니다.</Locks_ITabVisitorsAllowedDesc>
+  <Locks_ITabPetDoor>가축 문</Locks_ITabPetDoor>
+  <Locks_ITabPetDoorDesc>활성화 하면 작은 동물들은 문을 통과할 수 있습니다.\n이 설정은 소유자가 없는 문에는 필요하지 않습니다.</Locks_ITabPetDoorDesc>
+  <Locks_ITabPensDoor>울타리 문</Locks_ITabPensDoor>
+  <Locks_ITabPensDoorDesc>활성화 할 경우, 가축들은 문을 지나갈 수 없습니다. 몇 몇 문은 동물을 차단할 수 없습니다 (예:동물 덮개). Def 안에 있는 "roamerCanOpen"을 확인하세요.</Locks_ITabPensDoorDesc>
+  <Locks_ITabSlaveDoors>노예 허용</Locks_ITabSlaveDoors>
+  <Locks_ITabSlaveDoorsDesc>비활성화 하면 노예들은 이 문을 통과할 수 없습니다.\n소유자가 지정된 경우에는 이 설정이 적용되지 않습니다.</Locks_ITabSlaveDoorsDesc>
+  <Locks_ITabAnimalAllowed>동물 허용</Locks_ITabAnimalAllowed>
+  <Locks_ITabAnimalAllowedDesc>비활성화 하면 모든 동물은 이 문을 통과할 수 없습니다.\n이 설정은 울타리 및 가축 문 설정을 확인한 후에 적용됩니다.</Locks_ITabAnimalAllowedDesc>
+  <Locks_ITabChildrenLock>어린이 출입 불가</Locks_ITabChildrenLock>
+  <Locks_ITabChildrenLockDesc>활성화 하면 일정 이상 나이의 인간형 종족(설정에서 확인)만 해당 문을 통과할 수 있습니다. 문과 동일 세력의 인간형에게만 작동합니다.</Locks_ITabChildrenLockDesc>
+  <Locks_ITabOwners>소유자</Locks_ITabOwners>
+  <Locks_ITabChangeLocksNotification>설정을 적용하려면 잠금을 변경하세요!</Locks_ITabChangeLocksNotification>
+  <Locks_LockToggle>잠금</Locks_LockToggle>
+  <Locks_UnlockToggle>잠기지 않음</Locks_UnlockToggle>
+  <Locks_AllowVisitors>방문자 사용 허용</Locks_AllowVisitors>
+  <Locks_ForbidVisitors>방문자 사용 허용 안함</Locks_ForbidVisitors>
+  <Locks_AddPetDoor>가축 문 추가</Locks_AddPetDoor>
+  <Locks_RemovePetDoor>가축 문 제거</Locks_RemovePetDoor>
+  <Locks_AddPensDoor>울타리 문으로 설정</Locks_AddPensDoor>
+  <Locks_RemovePensDoor>울타리 문 제거</Locks_RemovePensDoor>
+  <Locks_SetOwners>소유자 설정</Locks_SetOwners>
+  <Locks_ClearOwners>소유자 삭제</Locks_ClearOwners>
+  <Locks_FailOnWrongUser>잠금이 {0}의 소유가 아닙니다.</Locks_FailOnWrongUser>
+  <Locks_AlertLocksCantBeChanged>잠금을 변경할 수 없습니다.</Locks_AlertLocksCantBeChanged>
+  <Locks_AlertLocksCantBeChangedDesc>일부 잠금 장치의 소유자는 스위치 작업을 수행하지 않으므로 일부 잠금을 변경할 수 없습니다.:\n\n{0}</Locks_AlertLocksCantBeChangedDesc>
+  <Locks_AlertLocksCantBeChangedDefaultDesc>일부 잠금 장치의 소유자는 스위치 작업을 수행하지 않으므로 일부 잠금을 변경할 수 없습니다.</Locks_AlertLocksCantBeChangedDefaultDesc>
+  <Locks_Cancel>취소</Locks_Cancel>
+  <Locks_Copy>복사</Locks_Copy>
+  <Locks_Paste>붙여넣기</Locks_Paste>
+</LanguageData>

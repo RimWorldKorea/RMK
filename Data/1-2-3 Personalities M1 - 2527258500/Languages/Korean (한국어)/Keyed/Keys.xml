@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SP.LoadingLabel>간단한 인격 - 모듈 1</SP.LoadingLabel>
+  <SP.PersonalityHeader>{0}의 인격</SP.PersonalityHeader>
+
+  <SP.HiddenPrisonerPersonality>숨겨짐: 이 사람의 인격은 아직 알려지지 않았습니다.\n인격을 드러내려면 저항심을 낮추세요.</SP.HiddenPrisonerPersonality>
+  <SP.HiddenPersonality>숨겨짐: 이 사람은 아직 정착지의 일원이 아니기 때문에 인격을 아직 알 수 없습니다.</SP.HiddenPersonality>
+
+  <SP.HiddenAnimalPersonality>이 동물의 성격은 아직 알려지지 않았습니다.\n본성을 알아내려면 길들이세요.</SP.HiddenAnimalPersonality>
+  <SP.HiddenAnimalOfFactionPersonality>이 동물의 성격은 아직 알려지지 않았습니다.\n성격을 알아내려면 훈련하거나 며칠 기다리세요.</SP.HiddenAnimalOfFactionPersonality>
+
+  <SP.AnimalReveal.Training>{0}은 {1}과 충분한 시간을 보내 본성을 이해했습니다.</SP.AnimalReveal.Training>
+  <SP.AnimalReveal.Time>며칠 동안 {0}은 망설였지만, 결국 {1}을 집이라고 받아들였습니다. 성격이 드러났습니다.</SP.AnimalReveal.Time>
+
+  <SP.EditingFor>인격 편집 중: {0}</SP.EditingFor>
+  <SP.Change>변경</SP.Change>
+  <SP.MissingPart>없음</SP.MissingPart>
+  <SP.RootLabel>인격 근원: {0}</SP.RootLabel>
+  <SP.VariantLabel>인격 변형: {0}</SP.VariantLabel>
+  <SP.MainTraitLabel>주 특성: {0}</SP.MainTraitLabel>
+  <SP.SecondaryTraitLabel>보조 특성: {0}</SP.SecondaryTraitLabel>
+  <SP.OptionalTraitLabel>선택적 특성: {0}</SP.OptionalTraitLabel>
+  <SP.InvalidWarning>잘못된 인격입니다! 유효한 인격을 만들지 않으면 심각한 오류를 일으킬 것입니다!\n사람은 인격 근원, 변형, 그리고 주, 보조 특성이 필요합니다.\n동물은 인격 근원과 변형이 필요합니다.</SP.InvalidWarning>
+  <SP.RollNewDescription>새로운 설명 굴리기</SP.RollNewDescription>
+  <SP.TweakDescription>설명 바꾸기</SP.TweakDescription>
+  <SP.ApplyToCharacter>새로운 설명 적용하기</SP.ApplyToCharacter>
+  <SP.Seeds>시드:</SP.Seeds>
+  <SP.AddSeed>추가</SP.AddSeed>
+  <SP.RemoveSeed>마지막 제거</SP.RemoveSeed>
+  <SP.EditPersonality>인격 편집</SP.EditPersonality>
+  <SP.EditPersonalities>인격 편집</SP.EditPersonalities>
+  <SP.Personalities>인격</SP.Personalities>
+  <SP.PrepareCarefullyPatchLabel>Prepare Carefully 패치 중...</SP.PrepareCarefullyPatchLabel>
+  <SP.CharacterEditorPatchLabel>Character Editor 패치 중...</SP.CharacterEditorPatchLabel>
+  <SP.DoesNotHavePersonality>이 폰은 인격이 없습니다.</SP.DoesNotHavePersonality>
+  <SP.SeedExplaination>시드를 변경할 때마다 설명의 특정 부분이 바뀝니다.\n설명 종류의 길이에 따라, 몇 가지 시드 값은 아무 것도 하지 않을 수 있습니다.</SP.SeedExplaination>
+  <SP.TabLabel>성격</SP.TabLabel>
+
+  <!-- Settings menu (SPS stands for Simple Personalities Settings) -->
+  <SPS.Header>설명을 보려면 마우스 커서를 올리세요.\n기본값으로 돌리려면 오른쪽 클릭을 하십시오.\n참고: 재시작해야 효과가 나타나는 설정도 있습니다.</SPS.Header>
+  <SPS.ShowAdvanced>상세 설정을 보일까요?</SPS.ShowAdvanced>
+  <SPS.ShowAdvancedDesc>상세 모드 설정을 보이거나 숨깁니다.\n무슨 일을 하고 있는지 이해할 때만 상세 설정을 수정하세요.</SPS.ShowAdvancedDesc>
+  <SPS.ResetAll>모두 재설정</SPS.ResetAll>
+  <SPS.Default>기본값: {0}</SPS.Default>
+  <SPS.Yes>예</SPS.Yes>
+  <SPS.No>아니오</SPS.No>
+
+  <SPS.VisualCat>외관</SPS.VisualCat>
+  <SPS.UseSingleColor>단색 설명 표시: 활성화하면 여러 색으로 된 인격 표시를 한 색으로 바꾸어 읽기 쉽게 합니다.\n효과가 모두 나타나려면 재시작해야 합니다.</SPS.UseSingleColor>
+
+  <SPS.AnimalCat>동물</SPS.AnimalCat>
+  <SPS.AnimalTicksToReveal>성격을 드러내는 데 걸리는 틱: 길들인 동물이 스스로 성격을 드러낼 때까지 걸리는 시간(틱)입니다.\n1초는 60틱입니다.</SPS.AnimalTicksToReveal>
+  <SPS.AnimalPersonalityOnTrainChance>훈련할 때 성격을 드러낼 확률: 훈련 시도 후 길들인 동물이 성격을 드러낼 확률(퍼센트)입니다.</SPS.AnimalPersonalityOnTrainChance>
+  <SPS.ExtraBioHeight>정보창 높이 추가: 캐릭터의 정보 창에서 성격 설명에 맞도록 추가할 높이입니다. 창이 화면 맨 위를 벗어난다면 낮추세요.</SPS.ExtraBioHeight>
+  <SPS.FreezeDescriptions>설명 고정: 랜덤 시드 시스템을 사용하는 대신, 캐릭터의 인격 설명이 맵과 함께 수정되어, 세이브 파일 크기와 불러오는 시간을 대가로 설명의 일관성을 유지합니다.\n이것을 활성화한다면, 단색 설명 표시 설정을 바꾸어도 아무런 효과가 없을 것입니다.</SPS.FreezeDescriptions>
+
+  <SPS.UseWorldviewTab>성격 탭 허용:폰에 성격을 표시하는 탭을 추가하여 캐릭터 탭에 성격을 넣지 않고 추가 탭을 추가합니다.\n앞으로 이 탭에는 모듈 3의 정보도 표시됩니다.</SPS.UseWorldviewTab>
+  <SPS.ShowPersonalityRevealMessage>성격 공개 메시지 표시:동물의 성격이 드러날 때 나오는 메시지 표시를 활성화 또는 비활성화합니다. 정착지에 많은 동물이 있는 경우 메시지가 짜증 날 수 있습니다.</SPS.ShowPersonalityRevealMessage>
+  <SPS.DoAnimalHediffs>동물 버프 활성: 동물 수치에 보너스를 활성화/비활성화합니다.</SPS.DoAnimalHediffs>
+
+</LanguageData>

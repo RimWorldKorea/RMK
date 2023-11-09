@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+
+
+
+  <NamerFactionMinotaurTribe.rulePack.rulesFiles>
+	 <li>MinoPre->WordParts/Misc/HellenicPrefix</li>
+	 <li>MinoTribeSuf->WordParts/Factions/MinotaurTribeSuffix</li>
+  </NamerFactionMinotaurTribe.rulePack.rulesFiles>
+  <NamerFactionMinotaurTribe.rulePack.rulesStrings>
+     <li>r_name(p=7)->[MinoPre][MinoTribeSuf]</li>
+     <li>r_name(p=3)->[SylB][MinotribeSuf]</li>
+     <li>r_name(p=1)->녹시아</li>
+  </NamerFactionMinotaurTribe.rulePack.rulesStrings>
+  
+  
+  
+  
+   <NamerSettlementMinotaurTribe.rulePack.rulesFiles>
+	 <li>MinoPre->WordParts/Misc/HellenicPrefix</li>
+	 <li>MinoTribeLocSuf->WordParts/Locations/LocationTribalSuffix_Minotaur</li>
+  </NamerSettlementMinotaurTribe.rulePack.rulesFiles>
+  <NamerSettlementMinotaurTribe.rulePack.rulesStrings>
+     <li>r_name(p=3)->[MinoPre][MinoTribeLocSuf]</li>
+     <li>r_name(p=1)->[SylB][MinoTribeLocSuf]</li>
+  </NamerSettlementMinotaurTribe.rulePack.rulesStrings>
+  
+  
+  
+  
+  <NamerHellenic_Male.rulePack.rulesFiles>
+	 <li>MinoPre->WordParts/Misc/HellenicPrefix</li>
+	 <li>MinoTribePawnMascSuf->WordParts/Pawn/MinotaurTribe/ForenamesTribeMaleSuffix_Minotaur</li>
+	 <li>MinoTribeUnisex->Names/Pawn/ForenamesTribeUnisex_Minotaur</li>
+  </NamerHellenic_Male.rulePack.rulesFiles>
+  <NamerHellenic_Male.rulePack.rulesStrings>
+     <li>r_name->[MinoPre][MinoTribePawnMascSuf] [MinoTribeUnisex]</li>
+     <li>r_name->[MinoTribeUnisex] [MinoPre][MinoTribePawnMascSuf]</li>
+  </NamerHellenic_Male.rulePack.rulesStrings>
+  
+  
+  
+  
+  <NamerHellenic_Female.rulePack.rulesFiles>
+	 <li>MinoPre->WordParts/Misc/HellenicPrefix</li>
+	 <li>MinoTribePawnFemSuf->WordParts/Pawn/MinotaurTribe/ForenamesTribeFemaleSuffix_Minotaur</li>
+	 <li>MinoTribeUnisex->Names/Pawn/ForenamesTribeUnisex_Minotaur</li>
+  </NamerHellenic_Female.rulePack.rulesFiles>
+  <NamerHellenic_Female.rulePack.rulesStrings>
+     <li>r_name->[MinoPre][MinoTribePawnFemSuf] [MinoTribeUnisex]</li>
+     <li>r_name->[MinoTribeUnisex] [MinoPre][MinoTribePawnFemSuf]</li>
+  </NamerHellenic_Female.rulePack.rulesStrings>
+  
+  
+  
+  
+  <NamerHellenic_Ideo.rulePack.rulesFiles>
+	 <li>MinoPre->WordParts/Misc/HellenicPrefix</li>
+	 <li>MinoIdeoSuf->WordParts/Ideology/MinotaurIdeologySuffix</li>
+  </NamerHellenic_Ideo.rulePack.rulesFiles>	
+  <NamerHellenic_Ideo.rulePack.rulesStrings>
+     <li>r_ideoName(p=30)->[MinoPre][MinoIdeoSuf]</li>
+  </NamerHellenic_Ideo.rulePack.rulesStrings>
+  
+  
+  
+  
+  
+  <NamerHellenic_Deity.rulePack.rulesFiles>
+	 <li>MinoPre->WordParts/Misc/HellenicPrefix</li>
+	 <li>MinoTribePawnFemSuf->WordParts/Pawn/MinotaurTribe/ForenamesTribeFemaleSuffix_Minotaur</li>
+	 <li>MinoTribePawnMascSuf->WordParts/Pawn/MinotaurTribe/ForenamesTribeMaleSuffix_Minotaur</li>
+	 <li>MinoTribeUnisex->Names/Pawn/ForenamesTribeUnisex_Minotaur</li>
+  </NamerHellenic_Deity.rulePack.rulesFiles>
+  <NamerHellenic_Deity.rulePack.rulesStrings>
+     <li>r_deityName(p=3)->[MinoDeity]</li>
+     <li>r_deityName(p=1)->[MinoPre][MinoTribePawnFemSuf]</li>
+     <li>r_deityName(p=1)->[MinoPre][MinoTribePawnMascSuf]</li>
+     <li>r_deityName(p=1)->[MinoTribeUnisex]</li>
+     <li>MinoDeity->하데스</li>
+     <li>MinoDeity->미노스</li>
+     <li>MinoDeity->포세이돈</li>
+     <li>MinoDeity->테세우스</li>
+     <li>MinoDeity->다이달로스</li>
+     <li>MinoDeity->아스테리온</li>
+     <li>MinoDeity->헤라</li>
+     <li>MinoDeity->헤스티아</li>
+     <li>MinoDeity->에로스</li>
+     <li>MinoDeity->아폴로</li>
+     <li>MinoDeity->아르테미스</li>
+     <li>MinoDeity->헤르메스</li>
+     <li>MinoDeity->아테나</li>
+     <li>MinoDeity->아레스</li>
+     <li>MinoDeity->아프로디테</li>
+     <li>MinoDeity->디오니소스</li>
+  </NamerHellenic_Deity.rulePack.rulesStrings>
+  
+  
+  
+  
+  <NamerHellenic_DeityType.rulePack.rulesStrings>
+     <li>r_deityType->[MinoGod]</li>
+     <li>MinoGod->신</li>
+     <li>MinoGod->티탄</li>
+     <li>MinoGod->태초의 신</li>
+     <li>MinoGod->거인</li>
+  </NamerHellenic_DeityType.rulePack.rulesStrings>
+  
+  
+  
+  <NamerHellenic_Leader.rulePack.rulesStrings>
+     <li>r_leaderTitle(p=30)->[MinoLeader]</li>
+     <li>MinoLeader->올림피안</li>
+     <li>MinoLeader->오라클</li>
+     <li>MinoLeader->신들의 전령</li>
+  </NamerHellenic_Leader.rulePack.rulesStrings>
+  
+  
+  
+  
+  
+  <NamerFactionMinotaurOutlander.rulePack.rulesFiles>
+     <li>MinoOutlander->Names/Factions/MinotaurOutlanderNames</li>
+	 <li>MinoPre->WordParts/Misc/HellenicPrefix</li>
+	 <li>MinoTribeSuf->WordParts/Factions/MinotaurTribeSuffix</li>
+  </NamerFactionMinotaurOutlander.rulePack.rulesFiles>
+  <NamerFactionMinotaurOutlander.rulePack.rulesStrings>
+     <li>r_name(p=5)->[MinoOutlander]</li>
+     <li>r_name(p=4)->[MinoOutlander]들</li>
+     <li>r_name(p=3)->[MinoOutlander] [Community]</li>
+     <li>r_name(p=3)->[MinoPre][MinoIdeoSuf] [Community]</li>
+     <li>r_name(p=1)->[MinoPre][MinoTribeSuf]</li>
+     <li>r_name(p=1)->파도바</li>
+  </NamerFactionMinotaurOutlander.rulePack.rulesStrings>
+  
+  
+  
+  
+  
+  
+  <NamerSettlementMinotaurOutlander.rulePack.rulesFiles>
+		<!-- General -->
+	 <li>MinoPre->WordParts/Misc/HellenicPrefix</li>
+	 <li>MinoOutlander->Names/Factions/MinotaurOutlanderNames</li>
+	 <li>MinoTribeLocSuf->WordParts/Locations/LocationTribalSuffix_Minotaur</li>
+	 <li>MinoOutlanderLocPre->WordParts/Locations/LocationColonyPrefix_Minotaur</li>
+	 <li>MinoOutlanderLocSuf->WordParts/Locations/LocationColonySuffix_Minotaur</li>
+  </NamerSettlementMinotaurOutlander.rulePack.rulesFiles>
+  <NamerSettlementMinotaurOutlander.rulePack.rulesStrings>
+     <li>r_name(p=5)->[MinoOutlanderLocPre] [MinoOutlanderLocSuf]</li>
+     <li>r_name(p=2)->[townname_combo]</li>
+     <li>r_name(p=1)->[MinoPre][MinoTribeLocSuf]</li>
+     <li>r_name(p=1)->[MinoOutlander]</li>
+     <li>topicalnoun->[Vegetable]</li>
+     <li>topicalnoun->[Game]</li>
+     <li>topicalnoun->[BodyPart]</li>
+     <li>townname_combo->[topicalnoun] [TerrainFeature]</li>
+     <li>townname_combo->[topicalnoun] [Community]</li>
+     <li>townname_combo->[topicalnoun]의 [TerrainFeature]</li>
+     <li>townname_combo->[topicalnoun]의 [Community]</li>
+     <li>townname_combo(p=2)->[concept_positive]의 [TerrainFeature]</li>
+     <li>townname_combo(p=2)->[concept_positive] [TerrainFeature]</li>
+     <li>townname_combo(p=2)->[concept_positive] [Community]</li>
+     <li>townname_combo(p=3)->[Character]의 [TerrainFeature]</li>
+     <li>townname_combo(p=3)->[Character]의 [Community]</li>
+     <li>townname_near->[nearnameinitial]에서 [TerrainFeature]</li>
+     <li>townname_near->[TerrainFeature]에 의한 [nearnameinitial]</li>
+     <li>townname_near->[TerrainFeature]의 [nearnameinitial]</li>
+     <li>nearnameinitial->[townname_wordgen]</li>
+     <li>nearnameinitial->[Community]</li>
+     <li>townname_wordgen(p=2)->[SylE][SylE]</li>
+     <li>townname_wordgen(p=2)->[SylE][SylE][SylE]</li>
+     <li>townname_wordgen(p=2)->[SylE][MinoTribeLocSuf]</li>
+     <li>townname_wordgen(p=2)->[SylE][SylE][MinoTribeLocSuf]</li>
+     <li>townname_wordgen->[TerrainFeature][MinoTribeLocSuf]</li>
+     <li>townname_wordgen->[topicalnoun][MinoTribeLocSuf]</li>
+  </NamerSettlementMinotaurOutlander.rulePack.rulesStrings>
+  
+  
+  <NamerBovine_Leader.rulePack.rulesStrings>
+     <li>r_leaderTitle->[MinoLeader]</li>
+     <li>MinoLeader->링 지도자</li>
+  </NamerBovine_Leader.rulePack.rulesStrings>
+  
+  
+</LanguageData>

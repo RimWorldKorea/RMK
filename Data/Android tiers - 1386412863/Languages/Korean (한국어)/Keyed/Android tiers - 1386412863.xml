@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <NeedMechanic>정비공 필요</NeedMechanic>
+  <NeedMechanicDesc>이 안드로이드들은 수리가 필요하지만, 정비에 할당된 건강한 정착민이 없습니다.\n\n{0}\n건강한 정착민을 정비 작업에 할당하십시오. 방치할 경우 손상이 제대로 수리되지 않고 영구적으로 유지될 수 있습니다.</NeedMechanicDesc>
+  <AT_Leaking>유출중</AT_Leaking>
+  <AT_LeakingRate>유출 속도</AT_LeakingRate>
+  <AndroidFactionGreetingHostileI>자동 응답 메시지가 재생되었습니다. 메시지는 {0_possessive} 정착지에 선물을 가져오거나, {0_possessive} 세력의 수감자를 석방하는 등의 호의를 먼저 보일 것을 요구합니다. 그 전까지 {0}(은)는 대화를 하고자 하지 않을 것입니다.</AndroidFactionGreetingHostileI>
+  <AndroidFactionGreetingHostileII>{0}(은)는 당신의 정착지를 미개한 부족과 비교합니다. 당신의 더 나은 시선을 원한다면 {0_possessive} 정착지에 선물을 가져오거나, {0_possessive} 세력의 수감자를 석방하는 등의 호의를 보일 수 있습니다.</AndroidFactionGreetingHostileII>
+  <AndroidFactionGreetingHostileIII>{0}(은)는 통신을 끊기 직전 당신을 차갑고 괴물같은 존재라고 말했습니다.</AndroidFactionGreetingHostileIII>
+  <AndroidFactionGreetingWaryI>{0}의 기계 목소리가 {NEGOTIATOR_labelShort}(을)를 환영하며, 어떤 용무를 가지고 있는지 물었습니다.</AndroidFactionGreetingWaryI>
+  <AndroidFactionGreetingWaryII>자동 응답 메시지가 재생되었습니다. 메시지는 {NEGOTIATOR_labelShort}(이)가 어떤 용무를 가지고 있는지 물었습니다.</AndroidFactionGreetingWaryII>
+  <AndroidFactionGreetingWaryIII>{0}(은)는 조심스럽게 {NEGOTIATOR_labelShort}에게 원하는 용무를 물으며 통신을 시작했습니다.</AndroidFactionGreetingWaryIII>
+  <AndroidFactionGreetingWarmI>{0}(은)는 따뜻하게 {NEGOTIATOR_labelShort}(을)를 환영하며, 무엇을 도울 수 있는지 물었습니다.</AndroidFactionGreetingWarmI>
+  <AndroidFactionGreetingWarmII>통신이 연결되자 {NEGOTIATOR_labelShort}(은)는 친절한 환대를 받았습니다. {0}(은)는 동료 동맹을 위해 무엇을 해줄 수 있는지 물었습니다.</AndroidFactionGreetingWarmII>
+  <AndroidFactionGreetingWarmIII>{0}(은)는 {NEGOTIATOR_labelShort}(을)를 두 팔 벌려 환영하며, 당신들을 위해 무엇을 해줄 수 있는지 물었습니다.</AndroidFactionGreetingWarmIII>
+  <Atlas_FactionChange>{0}(을)를 재프로그래밍했습니다. 이제 그들은 정착지의 일부입니다.</Atlas_FactionChange>
+  <LetterLabelAtlas_FactionChange>새로운 정착민</LetterLabelAtlas_FactionChange>
+  <Atlas_LossOfSelfWill>{0}(은)는 그들의 자유의지가 약화되었습니다. 이제 그들은 자유롭게 생각하거나 감정을 느낄 수 없고 다른 정착민과도 상호작용하지 않을 것입니다. 더군다나, 그들은 이 과정에서 모든 특성을 잃었습니다. 이제 순종적인 기계일 뿐입니다.</Atlas_LossOfSelfWill>
+  <LetterLabelAtlas_LossOfSelfWill>안드로이드 자유의지</LetterLabelAtlas_LossOfSelfWill>
+  <Atlas_Mutation>{0}(이)가 프랙탈로 변이했습니다. 프랙탈 약에 의해 뒤틀린 살의의 짐승이 되었습니다!</Atlas_Mutation>
+  <LetterLabelAtlas_Mutation>정착민의 돌연변이</LetterLabelAtlas_Mutation>
+  <Atlas_TraitReroll>{0}(은)는 그들의 성격을 바꿔놓았고, 그들의 특성이 다시 배정되었습니다.</Atlas_TraitReroll>
+  <LetterLabelAtlas_TraitReroll>안드로이드의 성격 변경</LetterLabelAtlas_TraitReroll>
+  <MessageMedicalOperationFailureMinorAndroid>{1}에서 작업하는 동안 {0}(이)가 사소한 실수를 했습니다.</MessageMedicalOperationFailureMinorAndroid>
+  <MessageMedicalOperationFailureCatastrophicAndroid>{1}에서 작업하는 동안 {0}(이)가 치명적인 실수를 했습니다.</MessageMedicalOperationFailureCatastrophicAndroid>
+  <MessageMedicalOperationFailureRidiculousAndroid>{1}에서 작업하는 동안 {0}(이)가 어리석은 실수를 했습니다.</MessageMedicalOperationFailureRidiculousAndroid>
+  <MessageMedicalOperationFailureFatalAndroid>{2}의 특별한 과제 때문에 {1}에서 작업하는 동안 {0}(이)가 치명적인 실수를 했습니다.</MessageMedicalOperationFailureFatalAndroid>
+  <ATPP_AlertHot3Devices>컴퓨터 과열</ATPP_AlertHot3Devices>
+  <ATPP_AlertHot3DevicesDesc>하나 이상의 컴퓨터가 최대 허용 온도에 도달했습니다!\n최대한 빠르게 적정 온도로 복구하세요!</ATPP_AlertHot3DevicesDesc>
+  <ATPP_AlertHot2Devices>컴퓨터 온도 높음</ATPP_AlertHot2Devices>
+  <ATPP_AlertHot2DevicesDesc>하나 이상의 컴퓨터의 온도가 높습니다.\n빠르게 적정 온도로 복구하세요.</ATPP_AlertHot2DevicesDesc>
+  <ATPP_AlertUnsecurisedClients>{0}개의 보안되지 않은 스카이마인드 연결</ATPP_AlertUnsecurisedClients>
+  <ATPP_AlertUnsecurisedClientsDesc>네트워크 침입을 통해 해킹될 수 있는 스카이마인드 연결이 {0}개 존재합니다. 이를 방지하기 위해 보안 서버를 건설하세요.</ATPP_AlertUnsecurisedClientsDesc>
+  <ATPP_IncidentSurrogateHackingVirus>SX 바이러스</ATPP_IncidentSurrogateHackingVirus>
+  <ATPP_IncidentSurrogateHackingCryptolocker>SX 암호화 잠금</ATPP_IncidentSurrogateHackingCryptolocker>
+  <ATPP_IncidentSurrogateHackingExplosiveVirus>SX 폭발 바이러스</ATPP_IncidentSurrogateHackingExplosiveVirus>
+  <ATPP_IncidentSurrogateHackingLiteDesc>당신의 보안 시스템의 공격의 일부를 막아냈지만, {0}개의 대행 유닛 시스템이 손상되었습니다.</ATPP_IncidentSurrogateHackingLiteDesc>
+  <ATPP_IncidentSurrogateHackingHardDesc>당신의 보안 시스템이 모든 대행 안드로이드를 지켜낼 수 없었습니다. {0}개의 대행 유닛 시스템이 완전히 손상되었습니다.</ATPP_IncidentSurrogateHackingHardDesc>
+  <ATPP_IncidentVirusedDesc>이 대행 유닛들은 바이러스에 의해 모든 통제권을 잃었으며, 당신을 공격할 것입니다!</ATPP_IncidentVirusedDesc>
+  <ATPP_IncidentVirusedExplosiveDesc>이 대행 유닛들은 바이러스에 의해 모든 통제권을 잃었으며, 당신을 공격하다가 카운트다운이 끝나면 내부 배터리가 폭발할 것입니다!</ATPP_IncidentVirusedExplosiveDesc>
+  <ATPP_IncidentCryptolockerDesc>모든 감염된 대행 유닛들을 이용할 수 없습니다. 이 공격은 몸값을 지불한다면 (아마) 취소될 것입니다.</ATPP_IncidentCryptolockerDesc>
+  <ATPP_IncidentDeviceHackingVirus>바이러스</ATPP_IncidentDeviceHackingVirus>
+  <ATPP_IncidentDeviceHackingCryptolocker>암호화 잠금</ATPP_IncidentDeviceHackingCryptolocker>
+  <ATPP_IncidentDeviceHackingExplosiveVirus>폭발 바이러스</ATPP_IncidentDeviceHackingExplosiveVirus>
+  <ATPP_IncidentDeviceHackingLiteDesc>당신의 보안 시스템의 공격의 일부를 막아냈지만, {0}개의 연결된 기기가 일시적으로 손상되었습니다.</ATPP_IncidentDeviceHackingLiteDesc>
+  <ATPP_IncidentDeviceHackingHardDesc>당신의 보안 시스템이 모든 기기를 지켜낼 수 없었습니다. {0}개의 기기의 시스템이 완전히 손상되었습니다.</ATPP_IncidentDeviceHackingHardDesc>
+  <ATPP_IncidentDeviceVirusedDesc>이 기기들은 바이러스에 의해 모든 통제권을 잃었습니다!</ATPP_IncidentDeviceVirusedDesc>
+  <ATPP_IncidentDeviceVirusedExplosiveDesc>이 기기들은 바이러스에 의해 모든 통제권을 잃었으며, 카운트다운이 끝나면 폭발할 것입니다!</ATPP_IncidentDeviceVirusedExplosiveDesc>
+  <ATPP_IncidentDeviceCryptolockerDesc>모든 감염된 기기들을 이용할 수 없습니다. 이 공격은 몸값을 지불한다면 (아마) 취소될 것입니다.</ATPP_IncidentDeviceCryptolockerDesc>
+  <ATPP_LetterFactionRansomware>랜섬웨어</ATPP_LetterFactionRansomware>
+  <ATPP_LetterFactionRansomwareSkillStolenDesc>{0}는 스카이마인드 네트워크를 통해 {2}의 '{1}' 기술에 해당하는 메모리 구역을 손상시켰습니다.</ATPP_LetterFactionRansomwareSkillStolenDesc>
+  <ATPP_LetterFactionRansomwareBadTraitDownloadedDesc>{0}는 스카이마인드 네트워크를 통해 '{1}'의 뇌를 감염시켜 나쁜 특성 '{2}'을 각인했습니다.</ATPP_LetterFactionRansomwareBadTraitDownloadedDesc>
+  <ATPP_EnergyNeed>전력</ATPP_EnergyNeed>
+  <ATPP_EnergyNeedDesc>전력은 내장 배터리에 저장된 에너지의 양입니다. 만약 0에 다다른다면, 안드로이드는 급격한 오작동을 일으킬 것이며, 결국 작동을 정지할 것입니다. (사망)</ATPP_EnergyNeedDesc>
+  <ATPP_NanoKitsNoCare>수리 금지</ATPP_NanoKitsNoCare>
+  <ATPP_NanoKitsNoKitJustVisit>나노키트 없이 수리</ATPP_NanoKitsNoKitJustVisit>
+  <ATPP_NanoKitsBasic>기초 나노키트</ATPP_NanoKitsBasic>
+  <ATPP_NanoKitsIntermediate>중급 나노키트</ATPP_NanoKitsIntermediate>
+  <ATPP_NanoKitsAdvanced>고급 나노키트</ATPP_NanoKitsAdvanced>
+  <ATPP_UploadPercentage>자아 업로드: {0}%</ATPP_UploadPercentage>
+  <ATPP_DownloadPercentage>자아 다운로드: {0}%</ATPP_DownloadPercentage>
+  <ATPP_PermutationPercentage>자아 치환: {0}%</ATPP_PermutationPercentage>
+  <ATPP_DuplicationPercentage>자아 복제: {0}%</ATPP_DuplicationPercentage>
+  <ATPP_UploadSkyCloudPercentage>스카이클라우드에 자아 업로드: {0}%</ATPP_UploadSkyCloudPercentage>
+  <ATPP_DownloadFromSkyCloudPercentage>스카이클라우드에서 자아 다운로드: {0}%</ATPP_DownloadFromSkyCloudPercentage>
+  <ATPP_SkyMindDetected>스카이마인드에 연결됨</ATPP_SkyMindDetected>
+  <ATPP_RemotelyControlledBy>{0}에 의해 원격 제어됨.</ATPP_RemotelyControlledBy>
+  <ATPP_RemotelyControl>{0}을 원격 제어함</ATPP_RemotelyControl>
+  <ATPP_CompHotSensitiveHot3Text>온도가 너무 높습니다!</ATPP_CompHotSensitiveHot3Text>
+  <ATPP_CompHotSensitiveHot2Text>고온 경고</ATPP_CompHotSensitiveHot2Text>
+  <ATPP_CompHotSensitiveHot1Text>온도가 조금 높습니다</ATPP_CompHotSensitiveHot1Text>
+  <ATPP_CompHotSensitiveHot0Text>정상 작동 온도</ATPP_CompHotSensitiveHot0Text>
+  <ATPP_CryptoLockedSurrogate>암호화 잠김, 사용할 수 없음!</ATPP_CryptoLockedSurrogate>
+  <ATPP_ExplosiveVirus>폭발 바이러스: 배터리 폭발까지 {0}초 남음</ATPP_ExplosiveVirus>
+  <ATPP_TempHackingLosingControlIn>{0}초 후 통제권 상실</ATPP_TempHackingLosingControlIn>
+  <ATPP_BatteryLevel>배터리 수준: {0}%</ATPP_BatteryLevel>
+  <ATPP_TempInfection>{0} 후 감염 종료</ATPP_TempInfection>
+  <ATPP_SkyCloudCoreBooting>서버 부팅중 ({0}초 남음)</ATPP_SkyCloudCoreBooting>
+  <ATPP_NaniteFrameworkRepairingInProgress>골격 수리 {0}% 진행중</ATPP_NaniteFrameworkRepairingInProgress>
+  <ATPP_VX3SurrogateTypePrimary>1번 대리유닛</ATPP_VX3SurrogateTypePrimary>
+  <ATPP_VX3SurrogateTypeSecondary>2번 대리유닛</ATPP_VX3SurrogateTypeSecondary>
+  <ATPP_MindAbsorptionProgress>자아 흡수 {0)% 진행중</ATPP_MindAbsorptionProgress>
+  <ATPP_Rusted>부식됨</ATPP_Rusted>
+  <ATPP_BatteryExplodeInProgress>배터리 폭발 {0}%</ATPP_BatteryExplodeInProgress>
+  <ATPP_AutoDoorOpen>열림</ATPP_AutoDoorOpen>
+  <ATPP_AutoDoorOpenDescription>스카이클라우드 코어를 통해 원격으로 문을 엽니다.</ATPP_AutoDoorOpenDescription>
+  <ATPP_AutoDoorClose>닫힘</ATPP_AutoDoorClose>
+  <ATPP_AutoDoorCloseDescription>스카이클라우드 코어를 통해 원격으로 문을 닫습니다.</ATPP_AutoDoorCloseDescription>
+  <ATPP_AutoDoorOpenMoteText>스카이클라우드를 통해 여는 중</ATPP_AutoDoorOpenMoteText>
+  <ATPP_AutoDoorCloseMoteText>스카이클라우드를 통해 닫는 중</ATPP_AutoDoorCloseMoteText>
+  <ATPP_FlickEnable>스카이클라우드를 통해 전원 켜는 중</ATPP_FlickEnable>
+  <ATPP_FlickDisable>스카이클라우드를 통해 전원 끄는 중</ATPP_FlickDisable>
+  <ATPP_LetterSurrogateDisabled>대리유닛 {0}(이)가 비활성화됨</ATPP_LetterSurrogateDisabled>
+  <ATPP_LetterSurrogateDisabledDesc>대리유닛 {0}(은)는 물리 무결성에 의한 폭력적인 공격으로 더이상 작동하지 않습니다.</ATPP_LetterSurrogateDisabledDesc>
+  <ATPP_LetterUploadOK>업로드 완료</ATPP_LetterUploadOK>
+  <ATPP_LetterUploadOKDesc>{0}의 자아 업로드가 완료되었으며, {1}의 인공두뇌에 전송되었습니다. {1}(은)는 이제 죽었습니다. ({1}의 자아가 상실됨)</ATPP_LetterUploadOKDesc>
+  <ATPP_LetterPermuteOK>치환 완료</ATPP_LetterPermuteOK>
+  <ATPP_LetterPermuteOKDesc>자아 치환이 완료되었습니다. {0}, {1}의 몸이 치환되었습니다.</ATPP_LetterPermuteOKDesc>
+  <ATPP_LetterDuplicateOK>복제 완료</ATPP_LetterDuplicateOK>
+  <ATPP_LetterDuplicateOKDesc>자아 복제가 완료되었습니다. {1}의 뇌는 이제 {0}의 복제된 내용물로 대체되었습니다. {1}(은)는 이제 죽은 것과 같습니다. ({1}의 자아가 상실됨)</ATPP_LetterDuplicateOKDesc>
+  <ATPP_LetterSkyCloudUploadOK>스카이클라우드 업로드 완료</ATPP_LetterSkyCloudUploadOK>
+  <ATPP_LetterSkyCloudUploadOKDesc>스카이클라우드 자아 업로드가 완료되었습니다. {0}의 자아는 이제 {1}의 중앙 메모리에 저장되었습니다.</ATPP_LetterSkyCloudUploadOKDesc>
+  <ATPP_LetterSkyCloudReplicateOK>복사 완료</ATPP_LetterSkyCloudReplicateOK>
+  <ATPP_LetterSkyCloudReplicateOKDesc>{1}의 메모리에 있는 {0}의 자아 복사가 완료되었습니다.</ATPP_LetterSkyCloudReplicateOKDesc>
+  <ATPP_LetterSkyCloudDownloadOK>스카이클라우드 다운로드 완료</ATPP_LetterSkyCloudDownloadOK>
+  <ATPP_LetterSkyCloudDownloadOKDesc>스카이클라우드 자아 다운로드가 완료되었습니다. {0}의 자아는 이제 {1}의 중앙 메모리에 저장되었습니다.</ATPP_LetterSkyCloudDownloadOKDesc>
+  <ATPP_LetterSkyCloudMigrateOK>스카이클라우드 자아 이동</ATPP_LetterSkyCloudMigrateOK>
+  <ATPP_LetterSkyCloudMigrateOKDesc>{1}에서 {2}로의 {0}의 자아 이동이 완료되었습니다.</ATPP_LetterSkyCloudMigrateOKDesc>
+  <ATPP_LetterInterruptedUpload>업로드 실패</ATPP_LetterInterruptedUpload>
+  <ATPP_LetterInterruptedUploadDesc>치명적인 오류: 자아의 전송이 중단되어 두 뇌의 손상이 야기되었습니다. (사망).{0}</ATPP_LetterInterruptedUploadDesc>
+  <ATPP_LetterInterruptedUploadDescCompHostDead>자아 수신 정착민 사망</ATPP_LetterInterruptedUploadDescCompHostDead>
+  <ATPP_LetterInterruptedUploadDescCompSourceDead>자아 송신 정착민 사망</ATPP_LetterInterruptedUploadDescCompSourceDead>
+  <ATPP_LetterInterruptedUploadDescCompRandomError>알 수 없는 에러 발생</ATPP_LetterInterruptedUploadDescCompRandomError>
+  <ATPP_LetterInterruptedUploadDescCompDiconnectionError>한 쪽 혹은 양 쪽의 정착민의 스카이마인드 연결이 더 이상 존재하지 않습니다.</ATPP_LetterInterruptedUploadDescCompDiconnectionError>
+  <ATPP_LetterFactionScam>사기당함</ATPP_LetterFactionScam>
+  <ATPP_LetterFactionScamCryptolockerDesc>{0}(은)는 당신의 정착지를 감염시킨 암호화 잠금을 풀어주지 않기로 결정해버렸습니다. 그들은 사기꾼이었습니다...</ATPP_LetterFactionScamCryptolockerDesc>
+  <ATPP_LetterFactionScamRansomwareDesc>{0}(은)는 당신의 정착지를 감염시킨 랜섬웨어 바이러스를 제거하지 않기로 결정해버렸습니다. 그들은 사기꾼이었습니다...</ATPP_LetterFactionScamRansomwareDesc>
+  <ATPP_CryptolockerNeedPayRansomTitle>암호화 잠금 몸값 지불</ATPP_CryptolockerNeedPayRansomTitle>
+  <ATPP_CryptolockerNeedPayRansom>{0}(이)가 라디오를 통해 연락하였습니다. 그들은 암호화 잠금 바이러스를 이용해 공격하고 있습니다. 그들은 {1}은을 지불하면 바이러스를 제거해 주겠다고 말했습니다.</ATPP_CryptolockerNeedPayRansom>
+  <ATPP_RansomNeedPayRansomTitle>랜섬웨어 몸값 지불</ATPP_RansomNeedPayRansomTitle>
+  <ATPP_RansomNeedPayRansomCorruptedSKill>{0}(이)가 라디오를 통해 연락하였습니다. 그들은 랜섬웨어 바이러스를 이용해 공격하고 있습니다. 그들은 {3}은을 지불하면 {2}의 '{1}' 기술 오염을 제거해 주겠다고 말했습니다.</ATPP_RansomNeedPayRansomCorruptedSKill>
+  <ATPP_RansomNeedPayRansomDownloadedTrait>{0}(이)가 라디오를 통해 연락하였습니다. 그들은 랜섬웨어 바이러스를 이용해 공격하고 있습니다. 그들은 {3}은을 지불하면 {2}의 악성특성 '{1}'(을)를 제거해 주겠다고 말했습니다.</ATPP_RansomNeedPayRansomDownloadedTrait>
+  <ATPP_ComptHeatSensitiveComputerMeltTitle>서버 과열</ATPP_ComptHeatSensitiveComputerMeltTitle>
+  <ATPP_ComptHeatSensitiveComputerMeltDesc>서버가 과열로 인해 폭발했습니다!</ATPP_ComptHeatSensitiveComputerMeltDesc>
+  <ATPP_destroyedMindsDueToDestroyedSkyCloudCore>{0}개의 자아 손실</ATPP_destroyedMindsDueToDestroyedSkyCloudCore>
+  <ATPP_destroyedMindsDueToDestroyedSkyCloudCoreDesc>스카이클라우드 코어 {0}의 해체로 인해, 중앙 메모리에 저장되었던 {1}개의 모든 자아는 소멸했습니다.</ATPP_destroyedMindsDueToDestroyedSkyCloudCoreDesc>
+  <ATPP_LetterHackingPointsRemoved>해킹 점수 손실</ATPP_LetterHackingPointsRemoved>
+  <ATPP_LetterHackingPointsRemovedDesc>정착지의 모든 해킹 서버가 오프라인 상태가 되어 {0}점의 해킹 점수가 저장장치의 부재로 인해 소멸되었습니다.</ATPP_LetterHackingPointsRemovedDesc>
+  <ATPP_LetterSkillPointsRemoved>기술 점수 손실</ATPP_LetterSkillPointsRemoved>
+  <ATPP_LetterSkillPointsRemovedDesc>정착지의 모든 기술 서버가 오프라인 상태가 되어 {0}점의 기술 점수가 저장장치의 부재로 인해 소멸되었습니다.</ATPP_LetterSkillPointsRemovedDesc>
+  <ATPP_SkyCloudCoreBooted>{0} 부팅됨</ATPP_SkyCloudCoreBooted>
+  <ATPP_SkyCloudCoreBootedDesc>스카이클라우드 서버 {0}이 성공적으로 부팅되어 이제 사용할 수 있습니다.</ATPP_SkyCloudCoreBootedDesc>
+  <ATPP_LetterInterruptedSkyCloudReplication>복사 실패</ATPP_LetterInterruptedSkyCloudReplication>
+  <ATPP_LetterInterruptedSkyCloudReplicationDesc>스카이클라우드 코어가 오프라인 상태가 되어 {0}의 자아 복사에 실패했습니다.</ATPP_LetterInterruptedSkyCloudReplicationDesc>
+  <ATPP_LetterInterruptedSkyCloudMigration>이동 실패</ATPP_LetterInterruptedSkyCloudMigration>
+  <ATPP_LetterInterruptedSkyCloudMigrationDesc>스카이클라우드 코어가 오프라인 상태가 되어 {0}의 자아 이동에 실패했습니다.</ATPP_LetterInterruptedSkyCloudMigrationDesc>
+  <ATPP_LetterTraitorOffline>배신자 오프라인</ATPP_LetterTraitorOffline>
+  <ATPP_LetterTraitorOfflineDesc>{0}(은)는 당신에게 소집되도록 함으로써 그의 세력을 배신했습니다. 그의 세력이 이를 알아채렸고, 그는 체포되었습니다. (따라서 그는 그가 제어중인 대행 유닛과 연결이 해제되었습니다.)</ATPP_LetterTraitorOfflineDesc>
+  <ATPP_LetterInterruptedMindAbsorption>자아 흡수 실패</ATPP_LetterInterruptedMindAbsorption>
+  <ATPP_LetterInterruptedMindAbsorptionDesc>{0}의 자아 흡수에 실패하였습니다. 스카이마인드 연결이 해제되었거나, 작동 가능한 여유 서버가 없는 원인일 수 있습니다.</ATPP_LetterInterruptedMindAbsorptionDesc>
+  <ATPP_MindAbsorptionDone>자아 흡수 완료</ATPP_MindAbsorptionDone>
+  <ATPP_MindAbsorptionDoneDesc>{0}의 자아 흡수가 완료되었습니다. 기술 점수 {1}점을 획득하였습니다.</ATPP_MindAbsorptionDoneDesc>
+  <ATPP_LetterExternalSurrogateEscape>대행 조종사 탈출</ATPP_LetterExternalSurrogateEscape>
+  <ATPP_LetterExternalSurrogateEscapeDesc>대행 유닛 조종사 {0}(이)가 당신의 정착지에 합류하길 원합니다. 그는 조종하던 대행 유닛에서 벗어나 며칠 안에 적의 기지를 탈출할 것입니다.</ATPP_LetterExternalSurrogateEscapeDesc>
+  <ATPP_LetterExternalSurrogateControllerJoin>출소자 합류</ATPP_LetterExternalSurrogateControllerJoin>
+  <ATPP_LetterExternalSurrogateControllerJoinDesc>투옥되었던 대행 유닛 조종사 {0}(이)가 당신의 정착지에 성공적으로 합류합니다.</ATPP_LetterExternalSurrogateControllerJoinDesc>
+  <ATPP_LetterExternalSurrogateControllerCannotJoin>출소자 합류 실패</ATPP_LetterExternalSurrogateControllerCannotJoin>
+  <ATPP_LetterExternalSurrogateControllerCannotJoinDesc>투옥되었던 대행 유닛 조종사 {0}(이)가 불행한 사고를 당해 합류하지 못하고 고립되었습니다.</ATPP_LetterExternalSurrogateControllerCannotJoinDesc>
+  <ATPP_LetterExternalSurrogateDisconnect>조종사 의식 연결 끊어짐</ATPP_LetterExternalSurrogateDisconnect>
+  <ATPP_LetterExternalSurrogateDisconnectDesc>당신이 노예화한 대행 유닛의 조종사 {0}(이)가 더 이상 당신의 정착지에서 얻을 정보가 없다고 판단해 연결을 끊었습니다.</ATPP_LetterExternalSurrogateDisconnectDesc>
+  <ATPP_LetterKidnappedM8Disconnected>M8 의식 연결 끊어짐</ATPP_LetterKidnappedM8Disconnected>
+  <ATPP_LetterKidnappedM8DisconnectedDesc>납치자들은 M8({1}에 연결된 {0})이 지속적으로 스카이마인드 통신에 연결되어있다는 사실을 깨달았고, 정보 탈취를 피해 {1}과의 연결을 끊었습니다.</ATPP_LetterKidnappedM8DisconnectedDesc>
+  <ATPP_DesignatorNeedSelectSX>오류: 스카이마인드 네트워크에 연결된 유효한 기기를 선택해야 합니다!</ATPP_DesignatorNeedSelectSX>
+  <ATPP_DesignatorNeedSelectSXToHack>오류: 다른 세력이 제어중인 대행 안드로이드를 선택해야 합니다!</ATPP_DesignatorNeedSelectSXToHack>
+  <ATPP_SkyMindConn>스카이마인드 연결</ATPP_SkyMindConn>
+  <ATPP_SkyMindConnDesc>이 정착민의 자아를 업로드/치환/복제하거나, SX 시리즈 안드로이드나 생체 대행 유닛을 원격 제어하기 위한 스카이마인드 네트워크에 연결합니다.</ATPP_SkyMindConnDesc>
+  <ATPP_SkyMindAutoConn>스카이마인드 자동 연결</ATPP_SkyMindAutoConn>
+  <ATPP_SkyMindAutoConnDesc>스카이마인드 네트워크에서 연결 해제될 경우, 이 기기는 빈 슬롯이 생길 경우 재연결을 시도합니다.</ATPP_SkyMindAutoConnDesc>
+  <ATPP_Duplicate>복제</ATPP_Duplicate>
+  <ATPP_DuplicateDesc>현재 선택된 정착민의 자아를 다른 정착민에게 복제합니다.</ATPP_DuplicateDesc>
+  <ATPP_Permute>치환</ATPP_Permute>
+  <ATPP_PermuteDesc>현재 선택된 정착민과 다른 정착민의 자아를 서로 치환합니다.</ATPP_PermuteDesc>
+  <ATPP_EnableSurrogateControlMode>제어</ATPP_EnableSurrogateControlMode>
+  <ATPP_EnableSurrogateControlModeDesc>원격 제어 모드를 활성화합니다. SX 안드로이드 시리즈와 생체 대행 유닛을 제어할 수 있습니다.</ATPP_EnableSurrogateControlModeDesc>
+  <ATPP_AndroidToControlTargetDisconnect>연결 해제</ATPP_AndroidToControlTargetDisconnect>
+  <ATPP_AndroidToControlTargetDisconnectDesc>현제 원격 제어 세션을 종료합니다.</ATPP_AndroidToControlTargetDisconnectDesc>
+  <ATPP_AndroidToControlTarget>연결</ATPP_AndroidToControlTarget>
+  <ATPP_AndroidToControlTargetDesc>선택한 항목의 통제권을 가져옵니다.</ATPP_AndroidToControlTargetDesc>
+  <ATPP_ThisCurrentMap>현재 지도?</ATPP_ThisCurrentMap>
+  <ATPP_AndroidToControlTargetRecoverCaravan>복구</ATPP_AndroidToControlTargetRecoverCaravan>
+  <ATPP_AndroidToControlTargetRecoverCaravanDesc>상단에서 연결 해제된 대행 유닛을 복구합니다.</ATPP_AndroidToControlTargetRecoverCaravanDesc>
+  <ATPP_FreeControllerInCaravan>상단</ATPP_FreeControllerInCaravan>
+  <ATPP_FreeControllerInCaravanDesc>상단에 대행 유닛을 연결합니다.</ATPP_FreeControllerInCaravanDesc>	
+  <ATPP_AndroidSurrogateReconnectToLastController>재연결</ATPP_AndroidSurrogateReconnectToLastController>
+  <ATPP_AndroidSurrogateReconnectToLastControllerDesc>직전에 제어했던 대행 유닛에 (가능할 경우) 다시 연결합니다.</ATPP_AndroidSurrogateReconnectToLastControllerDesc>
+  <ATPP_NoVX2Recipient>이용 가능한 정착민 없음 (VX2 신경칩 삽입이 필요합니다)</ATPP_NoVX2Recipient>
+  <ATPP_NoSkyCloudCoreAvailable>이용 가능한 스카이클라우드 코어 없음</ATPP_NoSkyCloudCoreAvailable>
+  <ATPP_ConsciousnessUploadNoRecipient>다운로드 받을 정착민 없음</ATPP_ConsciousnessUploadNoRecipient>
+  <ATPP_ConsciousnessSelectDestination></ATPP_ConsciousnessSelectDestination>
+  <ATPP_UploadConsciousness>업로드</ATPP_UploadConsciousness>
+  <ATPP_UploadConsciousnessDesc>이 안드로이드의 자아를 다른 곳으로 업로드합니다.</ATPP_UploadConsciousnessDesc>
+  <ATPP_WarningSkyMindDisconnectionRisk>작업 중 스카이마인드 네트워크의 작동이 중단되지 않도록 주의하세요. 그렇지 않을 경우 뇌가 손상되어 사망합니다.</ATPP_WarningSkyMindDisconnectionRisk>
+  <ATPP_UploadConsciousnessConfirm>자아 업로드</ATPP_UploadConsciousnessConfirm>
+  <ATPP_UploadConsciousnessConfirmDesc>{0}의 자아를 {1}의 신체로 업로드합니다. {1)의 자아는 파괴되어 사망한 것으로 간주되며, {0}의 신체는 사망합니다. 정말 진행할까요?</ATPP_UploadConsciousnessConfirmDesc>
+  <ATPP_PermuteConsciousnessConfirm>자아 치환</ATPP_PermuteConsciousnessConfirm>
+  <ATPP_PermuteConsciousnessConfirmDesc>{0}과 {1}의 자아를 서로 치환합니다. 이들의 몸이 서로 뒤바뀔 것입니다. 정말 진행할까요?</ATPP_PermuteConsciousnessConfirmDesc>
+  <ATPP_DuplicateConsciousnessConfirm>자아 복제</ATPP_DuplicateConsciousnessConfirm>
+  <ATPP_DuplicateConsciousnessConfirmDesc>{0}의 자아를 {1}의 뇌로 복제합니다. {1)의 자아는 파괴되어 사망한 것으로 간주됩니다. 정말 진행할까요?</ATPP_DuplicateConsciousnessConfirmDesc>
+  <ATPP_UseBattery>내장 배터리 사용</ATPP_UseBattery>
+  <ATPP_UseBatteryDesc>이를 활성화하면 안드로이드의 생체발전기 대신 안드로이드의 내장 배터리를 직접 사용할 수 있도록 합니다.</ATPP_UseBatteryDesc>
+  <ATPP_RepairAndroids>안드로이드 수리</ATPP_RepairAndroids>
+  <ATPP_RepairAndroidsDesc>이 정착민이 안드로이드를 수리할 수 있도록 허용</ATPP_RepairAndroidsDesc>
+  <ATPP_UploadVirus>바이러스</ATPP_UploadVirus>
+  <ATPP_UploadVirusDesc>목표 대행 유닛에 바이러스를 업로드합니다.</ATPP_UploadVirusDesc>
+  <ATPP_UploadExplosiveVirus>폭발 바이러스</ATPP_UploadExplosiveVirus>
+  <ATPP_UploadExplosiveVirusDesc>목표 대행 유닛에 내부 배터리를 과부하시켜 폭발시키는 바이러스를 업로드합니다.</ATPP_UploadExplosiveVirusDesc>
+  <ATPP_Hack>해킹</ATPP_Hack>
+  <ATPP_HackDesc>목표 대행 유닛을 해킹하여 제어권을 빼았습니다.</ATPP_HackDesc>
+  <ATPP_HackTemp>임시 해킹</ATPP_HackTemp>
+  <ATPP_HackTempDesc>목표 대행 유닛을 빠르게 해킹하여 임시적으로 제어권을 빼았습니다.</ATPP_HackTempDesc>
+  <ATPP_MoveToSkyCloud>스카이클라우드 업로드</ATPP_MoveToSkyCloud>
+  <ATPP_MoveToSkyCloudDesc>이 작업은 호스트의 자아를 스카이클라우드 코어로 이동시킵니다. 자아는 반-불멸에 이르겠지만, 신체는 사망합니다.</ATPP_MoveToSkyCloudDesc>
+  <ATPP_MoveFromSkyCloud>스카이클라우드 다운로드</ATPP_MoveFromSkyCloud>
+  <ATPP_MoveFromSkyCloudDesc>이 작업은 스카이클라우드 코어에 저장된 선택된 자아를 호스트의 뇌에 다운로드합니다.</ATPP_MoveFromSkyCloudDesc>
+  <ATPP_CentralCoreNbStoredMind>{0}개의 자아 저장됨</ATPP_CentralCoreNbStoredMind>
+  <ATPP_CentralCoreNbAssistingMinds>{0}개의 자아가 보조에 배정됨</ATPP_CentralCoreNbAssistingMinds>
+  <ATPP_CentralCoreMigrationInProgress>{0}에서 {1}로의 이동 진행중 ({2}%)</ATPP_CentralCoreMigrationInProgress>
+  <ATPP_CentralCoreProcessInMentalBreak>{0} 이용 불가: 현재 정신이상</ATPP_CentralCoreProcessInMentalBreak>
+  <ATPP_CentralCoreReplicationInProgress>{0}의 자아 복제 진행 중 ({1}%)</ATPP_CentralCoreReplicationInProgress>
+  <ATPP_SkyCloudFloatMenuMindsStoredSelect>자아 선택</ATPP_SkyCloudFloatMenuMindsStoredSelect>
+  <ATPP_ProcessInfo>정보</ATPP_ProcessInfo>
+  <ATPP_ProcessInfoDesc>저장된 자아의 정보를 확인합니다.</ATPP_ProcessInfoDesc>
+  <ATPP_ProcessRemove>제거</ATPP_ProcessRemove>
+  <ATPP_ProcessRemoveDesc>자아를 제거합니다.</ATPP_ProcessRemoveDesc>
+  <ATPP_ProcessRemoveDescConfirm>{1}의 메모리에 저장된 {0}의 자아를 정말 제거할가요? 해당 자아는 사망한 것으로 간주될 것입니다!</ATPP_ProcessRemoveDescConfirm>
+  <ATPP_ProcessDuplicate>복사</ATPP_ProcessDuplicate>
+  <ATPP_ProcessDuplicateDesc>자아 복사</ATPP_ProcessDuplicateDesc>
+  <ATPP_ProcessAssist>보조</ATPP_ProcessAssist>
+  <ATPP_ProcessAssistDesc>배치된 자아는 스카이마인드 네트워크에 연결된 정착민을 보조하는데에만 사용됩니다. 이곳에 배치된 자아는 글로벌 기분 버프를 주지 않습니다.</ATPP_ProcessAssistDesc>
+  <ATPP_ProcessMigrate>이동</ATPP_ProcessMigrate>
+  <ATPP_ProcessMigrateDesc>스카이클라우드 코어에 저장된 자아를 다른 코어로 이동시킵니다.</ATPP_ProcessMigrateDesc>
+  <ATPP_ProcessAssistAssignedMinds>자아 배치 해제 (제거)</ATPP_ProcessAssistAssignedMinds>
+  <ATPP_ProcessAssistUnassignedMinds>자아 배치 (추가)</ATPP_ProcessAssistUnassignedMinds>
+  <ATPP_ProcessAssistAssignAll>배치되지 않은 모든 자아 배치</ATPP_ProcessAssistAssignAll>
+  <ATPP_ProcessAssistUnassignAll>배치된 모든 자아 배치 해제</ATPP_ProcessAssistUnassignAll>
+  <ATPP_ProcessDisconnectAllSurrogates>모두 연결 해제</ATPP_ProcessDisconnectAllSurrogates>
+  <ATPP_StopVirused>정지</ATPP_StopVirused>
+  <ATPP_StopVirusedDesc>이 감염된 대행 유닛을 정지</ATPP_StopVirusedDesc>
+  <ATPP_PreviousSurrogateControllerIs>전 제어자는 {0} 입니다.</ATPP_PreviousSurrogateControllerIs>
+  <ATPP_Skills>기술</ATPP_Skills>
+  <ATPP_SkillsDesc>기술 제어판을 여세요. 기술 제어판에서 기술 서버에서 생성된 기술 점수를 안드로이드의 추가적인 기술로 전환할 수 있습니다.</ATPP_SkillsDesc>
+  <ATPP_MindAbsorption>자아 흡수</ATPP_MindAbsorption>
+  <ATPP_MindAbsorptionDesc>기술 점수 획득을 위해 수감자의 자아를 흡수함 (처형됨)</ATPP_MindAbsorptionDesc>
+  <ATPP_MindAbsorptionConfirm>자아 흡수</ATPP_MindAbsorptionConfirm>
+  <ATPP_MindAbsorptionConfirmDesc>자아 흡수를 진행할 경우, {0}의 자아는 흡수되어 기술 점수로 전환되며, 사망합니다. 정말 진행할까요?</ATPP_MindAbsorptionConfirmDesc>
+  <ATPP_UploadMakeAndroidBatteryOverloadConfirm>배터리 과부하</ATPP_UploadMakeAndroidBatteryOverloadConfirm>
+  <ATPP_UploadMakeAndroidBatteryOverloadConfirmDesc>선택된 안드로이드의 배터리를 과부하시키는 것이 맞는지 확인하세요. 해당 안드로이드는 잠시 후 폭발합니다. 정말 진행할까요?</ATPP_UploadMakeAndroidBatteryOverloadConfirmDesc>
+  <ATPP_OverloadAndroid>과부하</ATPP_OverloadAndroid>
+  <ATPP_OverloadAndroidDesc>안드로이드의 배터리를 폭파시킵니다</ATPP_OverloadAndroidDesc>
+  <ATPP_LWPNConnected>{0}에 연결됨</ATPP_LWPNConnected>
+  <ATPP_LWPNDisconnected>{0}으로부터의 연결이 끊어짐</ATPP_LWPNDisconnected>
+  <ATPP_NoAvailableLWPN>이용 가능한 LWPN 없음</ATPP_NoAvailableLWPN>
+  <ATPP_LWPNNbConnectedAndroid>연결된 안드로이드 : {0}</ATPP_LWPNNbConnectedAndroid>
+  <ATPP_MessageLWPNNoSlotAvailable>이용 가능한 LWPN 슬롯 없음!</ATPP_MessageLWPNNoSlotAvailable>
+  <ATPP_SkyMindAntennaSynthesis>연결된 사용자: {0} / {1}</ATPP_SkyMindAntennaSynthesis>
+  <ATPP_ForceReload>지금 배터리 충전</ATPP_ForceReload>
+  <ATPP_CannotUseEveryPlaceUsed>이용할 수 없음. 충전소가 꽉 찼습니다.</ATPP_CannotUseEveryPlaceUsed>
+  <ATPP_CannotUseBecauseNotInBatteryMode>내부 배터리가 안드로이드의 기본 발전기로 설정되지 않아 이용할 수 없습니다.</ATPP_CannotUseBecauseNotInBatteryMode>
+  <ATPP_SecurityServersSynthesis>보호된 대행 유닛: {0} / {1}</ATPP_SecurityServersSynthesis>
+  <ATPP_HackingServersSynthesis>이용 가능한 해킹 점수: {0} / {1}</ATPP_HackingServersSynthesis>
+  <ATTP_HackingSlotsAdded>추가된 해킹 슬롯: {0}</ATTP_HackingSlotsAdded>
+  <ATTP_HackingProducedPoints>생산중인 해킹 점수: {0}</ATTP_HackingProducedPoints>
+  <ATTP_SecuritySlotsAdded>추가된 보안 슬롯: {0}</ATTP_SecuritySlotsAdded>
+  <ATPP_SkillServersSynthesis>이용 가능한 기술 점수: {0} / {1}</ATPP_SkillServersSynthesis>
+  <ATTP_SkillSlotsAdded>추가된 기술 슬롯: {0}</ATTP_SkillSlotsAdded>
+  <ATTP_SkillProducedPoints>생산중인 기술 점수: {0}</ATTP_SkillProducedPoints>
+  <ATPP_HairColor>머리색</ATPP_HairColor>
+  <ATPP_HairColorBlond>금발</ATPP_HairColorBlond>
+  <ATPP_HairColorBlack>검은색</ATPP_HairColorBlack>
+  <ATPP_HairColorAuburn>적갈색</ATPP_HairColorAuburn>
+  <ATPP_HairColorGrey>회색</ATPP_HairColorGrey>
+  <ATPP_HairColorGinger>연적갈색</ATPP_HairColorGinger>
+  <ATPP_HairColorWhite>하얀색</ATPP_HairColorWhite>
+  <ATPP_SkinColor>피부색</ATPP_SkinColor>
+  <ATPP_SkinColorVerylight>매우 밝음</ATPP_SkinColorVerylight>
+  <ATPP_SkinColorLight>밝음</ATPP_SkinColorLight>
+  <ATPP_SkinColorFair>맑음</ATPP_SkinColorFair>
+  <ATPP_SkinColorMidbrown>갈색</ATPP_SkinColorMidbrown>
+  <ATPP_SkinColorDarkbrown>암갈색</ATPP_SkinColorDarkbrown>
+  <ATPP_SkinColorVerydark>흑갈색</ATPP_SkinColorVerydark>
+  <ATPP_CannotConnectToSkyMindNoNet>스카이마인드에 연결할 수 없습니다. 연결 가능한 네트워크가 없습니다!</ATPP_CannotConnectToSkyMindNoNet>
+  <ATPP_CannotConnectToSkyMind>스카이마인드에 연결할 수 없습니다. 연결 가능한 슬롯이 부족합니다!</ATPP_CannotConnectToSkyMind>
+  <ATPP_SurrogateUnexpectedDisconnection>연결 해제됨: {0}은 더 이상 스카이마인드 네트워크에 연결되어 있지 않습니다!</ATPP_SurrogateUnexpectedDisconnection>
+  <ATPP_SurrogateConnectionCannotBeDisconnected>연결할 수 없습니다. {0}은 현재 정신 상태가 불안정합니다.</ATPP_SurrogateConnectionCannotBeDisconnected>
+  <ATPP_SurrogateConnectionOK>{0}은 이제 {1}에 연결되었습니다</ATPP_SurrogateConnectionOK>
+  <ATPP_StartPermute>{0}, {1} 사이의 자아 치환이 시작되었습니다!</ATPP_StartPermute>
+  <ATPP_StartDuplicate>{1}에게 {0}의 자아 복제가 시작되었습니다!</ATPP_StartDuplicate>
+  <ATPP_StartSkyCloudUpload>{1}에게 {0}의 자아 업로드가 시작되었습니다!</ATPP_StartSkyCloudUpload>
+  <ATPP_StartSkyCloudUploadFailedFull>{0}(이)가 {1}에 자아를 업로드하던 와중, {1}에 잔여 공간이 부족해 업로드가 중단되었씁니다.</ATPP_StartSkyCloudUploadFailedFull>
+  <ATPP_StartSkyCloudDownload>{1}에게 {0}의 자아 다운로드가 시작되었습니다!</ATPP_StartSkyCloudDownload>
+  <ATPP_StartSkyCloudMigration>{1}에서 {2}로 향하는 {0}의 자아 이동이 시작되었습니다!</ATPP_StartSkyCloudMigration>
+  <ATPP_StartSkyCloudMigrationFailed>{0}의 자아거 {1}로 이동하던 와중, {1}에 잔여 공간이 부족해 이동이 중단되었습니다.</ATPP_StartSkyCloudMigrationFailed>
+  <ATPP_StartUpload>{1}로 향하는 {0}의 자아 업로드가 시작되었습니다.</ATPP_StartUpload>
+  <ATPP_CanOnlyBeUsedByAndroid>이 기기는 안드로이드만 사용할 수 있습니다!</ATPP_CanOnlyBeUsedByAndroid>
+  <ATPP_CannotBeUsedBecauseNoOldAgeIssues>안드로이드에게 노후화 문제가 발견되지 않아 사용할 수 없습니다.</ATPP_CannotBeUsedBecauseNoOldAgeIssues>
+  <ATPP_NoBrokenStuffFound>안드로이드 {0}에게 문제가 발견되지 않았습니다!</ATPP_NoBrokenStuffFound>
+  <ATPP_BrokenStuffRepairFailed>오류: 나노기기가 수리에 실패하였습니다!</ATPP_BrokenStuffRepairFailed>
+  <ATPP_BrokenCPURepaired>인공두뇌의 수리에 성공하였습니다!</ATPP_BrokenCPURepaired>
+  <ATPP_BrokenHydraulicSystemRepaired>유압 시스템의 수리에 성공하였습니다!</ATPP_BrokenHydraulicSystemRepaired>
+  <ATPP_BrokenCoolingSystemRepaired>냉각 시스템의 수리에 성공하였습니다!</ATPP_BrokenCoolingSystemRepaired>
+  <ATPP_BrokenFrameworkRepaired>골조의 수리에 성공하였습니다!</ATPP_BrokenFrameworkRepaired>
+  <ATPP_CryptolockerClearedByFaction>{0}(은)는 대행 유닛에 감염시킨 암호화 잠금을 제거해 주었습니다!</ATPP_CryptolockerClearedByFaction>
+  <ATPP_CryptolockerDeviceClearedByFaction>{0}(은)는 연결된 기기에 감염시킨 암호화 잠금을 제거해 주었습니다!</ATPP_CryptolockerDeviceClearedByFaction>
+  <ATPP_RansomwareClearedByFaction>{0}(은)는 {1}에 가한 손상에 대한 필수적인 수리를 진행해 주었습니다!</ATPP_RansomwareClearedByFaction>
+  <ATPP_SurrogateHackOK>{0} 해킹에 성공하였습니다!</ATPP_SurrogateHackOK>
+  <ATPP_CannotHackNotEnoughtHackingPoints>해킹 점수가 부족합니다. {0}점이 해킹에 필요합니다.</ATPP_CannotHackNotEnoughtHackingPoints>
+  <ATPP_ProcessDuplicateOK>{0}의 신경망이 복제되었습니다.</ATPP_ProcessDuplicateOK>
+  <ATPP_ProcessDuplicateFailed>코어에 충분한 저장 공간이 없어 {0}의 신경망을 복제할 수 없습니다.</ATPP_ProcessDuplicateFailed>
+  <ATPP_ProcessRemoveOK>{0}의 신경망이 제거되었습니다.</ATPP_ProcessRemoveOK>
+  <ATPP_ProcessAssistOK>{0}의 자아는 이제 연결된 정착민을 보조하는데 배정되었습니다.</ATPP_ProcessAssistOK>
+  <ATPP_ProcessUnassistOK>{0}의 자아는 더 이상 연결된 정착민을 보조하는데 배정되지 않습니다.</ATPP_ProcessUnassistOK>
+  <ATPP_ProcessNoLongerInMentalBreak>{1}에 저장된 {0}의 자아는 더 이상 정신이상을 일으키지 않습니다.</ATPP_ProcessNoLongerInMentalBreak>
+  <ATPP_CannotReconnectToLastSurrogateController>재연결할 수 없습니다. 직전 대행 유닛의 제어자에게 접근할 수 없습니다. (바쁘거나, 죽었거나, 스카이마인드에 연결되지 않았거나...)</ATPP_CannotReconnectToLastSurrogateController>
+  <ATPP_ProcessMassAssist>{0} 자아가 배정되었습니다!</ATPP_ProcessMassAssist>
+  <ATPP_ProcessMassUnassist>{0} 자아의 배정이 취소되었습니다!</ATPP_ProcessMassUnassist>
+  <ATPP_SkillsWorkshopPointsConverted>{0}점의 기술 점수가 {1}에 추가되었습니다.</ATPP_SkillsWorkshopPointsConverted>
+  <ATPP_SkillsWorkshopAvailablePoints>이용 가능한 점수 : {0}</ATPP_SkillsWorkshopAvailablePoints>
+  <ATPP_SkillsWorkshopAvailablePointsNote>참고: 이 티어의 안드로이드의 기술 1을 올리기 위해서는 서버의 기술 점수 {0}점이 필요합니다.</ATPP_SkillsWorkshopAvailablePointsNote>
+  <ATPP_MindAbsorptionStarted>{0}의 자아 흡수가 시작되었습니다.</ATPP_MindAbsorptionStarted>
+  <ATPP_NotEnoughtSkillPoints>이용 가능한 기술 점수가 부족합니다! ({0}점 필요)</ATPP_NotEnoughtSkillPoints>
+  <ATPP_SettingsSectionGeneral>일반</ATPP_SettingsSectionGeneral>
+  <ATPP_SettingsSectionSkyCloud>스카이클라우드</ATPP_SettingsSectionSkyCloud>
+  <ATPP_SettingsSectionSecurity>보안</ATPP_SettingsSectionSecurity>
+  <ATPP_SettingsSectionVX2>VX2 신경칩</ATPP_SettingsSectionVX2>
+  <ATPP_SettingsSectionVX3>VX3 신경칩</ATPP_SettingsSectionVX3>
+  <ATPP_SettingsSectionSkills>T1/T2 기술</ATPP_SettingsSectionSkills>
+  <ATPP_SettingsSectionBatteryOverload>배터리 과부하</ATPP_SettingsSectionBatteryOverload>
+  <ATPP_SettingsDefaultAndroidGeneratorMode>안드로이드의 기본 전력 모드:</ATPP_SettingsDefaultAndroidGeneratorMode>
+  <ATPP_SettingsDefaultAndroidGeneratorModeBiomass>생체 발전기를 사용 (음식을 섭취)</ATPP_SettingsDefaultAndroidGeneratorModeBiomass>
+  <ATPP_SettingsDefaultAndroidGeneratorModeBattery>내장 배터리를 사용 (전력망에서 충전)</ATPP_SettingsDefaultAndroidGeneratorModeBattery>
+  <ATPP_SettingsMindUploadDuration>자아 업로드에 소요되는 시간 ({0}시간)</ATPP_SettingsMindUploadDuration>
+  <ATPP_SettingsMindReplicationDuration>자아 복사에 소요되는 시간 ({0}시간)</ATPP_SettingsMindReplicationDuration>
+  <ATPP_SettingsMindPermutationDuration>자아 치환에 소요되는 시간 ({0}시간)</ATPP_SettingsMindPermutationDuration>
+  <ATPP_SettingsMindDuplicationDuration>자아 복제에 소요되는 시간 ({0}시간)</ATPP_SettingsMindDuplicationDuration>
+  <ATPP_SettingsMindUploadPercentageFail>모든 종류의 자아 전송의 실패 확률 ({0}%)</ATPP_SettingsMindUploadPercentageFail>
+  <ATPP_SettingsNanitePercentageFail>나노기기의 안드로이드 수리 실패 확률 ({0}%)</ATPP_SettingsNanitePercentageFail>
+  <ATPP_SettingsCharchingStationWattIncrease>{0}이 충전중일 때 증가하는 전력 소모량</ATPP_SettingsCharchingStationWattIncrease>
+  <ATPP_SettingsFoodGenerateLessEnergy>안드로이드의 열량(음식) 효율을 낮게 설정 (인간의 절반)</ATPP_SettingsFoodGenerateLessEnergy>
+  <ATPP_SettingsPercentageOfAndroidBatteryReloadedEachXSec>6초 당 충전되는 배터리의 전력량 ({0}%)</ATPP_SettingsPercentageOfAndroidBatteryReloadedEachXSec>
+  <ATPP_SettingsNbHoursMinServerRunningHotBeforeExplode>과열된 서버가 폭발까지 작동할 수 있는 최소 시간 ({0}시간)</ATPP_SettingsNbHoursMinServerRunningHotBeforeExplode>
+  <ATPP_SettingsNbHoursMaxServerRunningHotBeforeExplode>과열된 서버가 폭발까지 작동할 수 있는 최대 시간 ({0}시간)</ATPP_SettingsNbHoursMaxServerRunningHotBeforeExplode>
+  <ATPP_SettingsNbHoursMinSkyCloudServerRunningHotBeforeExplode>과열된 스카이클라우드 코어가 폭발까지 작동할 수 있는 최소 시간 ({0}시간)</ATPP_SettingsNbHoursMinSkyCloudServerRunningHotBeforeExplode>
+  <ATPP_SettingsNbHoursMaxSkyCloudServerRunningHotBeforeExplode>과열된 스카이클라우드 코어가 폭발까지 작동할 수 있는 최대 시간 ({0}시간)</ATPP_SettingsNbHoursMaxSkyCloudServerRunningHotBeforeExplode>
+  <ATPP_SettingsDelayExplosiveVirus>폭발 바이러스에 감염된 안드로이드가 폭발할 때까지 걸리는 시간 ({0}초)</ATPP_SettingsDelayExplosiveVirus>
+  <ATPP_SettingsRiskFactionNotRemoveCryptolocker>몸값을 지불했을 때 세력이 암호화 잠금을 풀어주지 않을(사기당할) 확률 ({0}%)</ATPP_SettingsRiskFactionNotRemoveCryptolocker>
+  <ATPP_SettingsRansomCost>암호화 잠금의 몸값 ({0}): </ATPP_SettingsRansomCost>
+  <ATPP_SettingsAndroidCanUseOrganicMedicine>안드로이드에게 인간 의약품 적용을 허용</ATPP_SettingsAndroidCanUseOrganicMedicine>
+  <ATPP_SettingsRiskGetLittleVirusEvenWithSecurityServers>보안 서버가 모든 기기를 보호하고 있어도 바이러스(약화됨)에 감염될 확률 ({0}%)</ATPP_SettingsRiskGetLittleVirusEvenWithSecurityServers>
+  <ATPP_SettingsRiskFactionNotRemoveRansomwareEffect>몸값을 지불했을 때 세력이 랜섬웨어 바이러스를 해결하지 않을(사기당할) 확률 ({0}%)</ATPP_SettingsRiskFactionNotRemoveRansomwareEffect>
+  <ATPP_SettingsMinSilverToRemoveBadTrait>랜섬웨어로 인한 악성특성을 제거하기 위한 최소 은의 비용</ATPP_SettingsMinSilverToRemoveBadTrait>
+  <ATPP_SettingsMaxSilverToRemoveBadTrait>랜섬웨어로 인한 악성특성을 제거하기 위한 최대 은의 비용</ATPP_SettingsMaxSilverToRemoveBadTrait>
+  <ATPP_SettingsRansomwareSilverPerSkillLevel>랜섬웨어로 인한 기술 오염을 제거하기 위한 레벨 당 은의 비용</ATPP_SettingsRansomwareSilverPerSkillLevel>
+  <ATPP_SettingsDisableSolarFlareImpactOnAndroids>흑점 폭발이 안드로이드에 미치는 악영향 비활성화</ATPP_SettingsDisableSolarFlareImpactOnAndroids>
+  <ATPP_SettingsDisableSecurityStuff>스카이마인드를 통한 바이러스와 해킹 비활성화</ATPP_SettingsDisableSecurityStuff>
+  <ATPP_SettingsPercentageOfSurrogateInAnotherFactionGroupMin>타 세력에 존재하는 대행 유닛의 최소 비율 ({0}%)</ATPP_SettingsPercentageOfSurrogateInAnotherFactionGroupMin>
+  <ATPP_SettingsPercentageOfSurrogateInAnotherFactionGroup>타 세력에 존재하는 대행 유닛의 최대 비율 ({0}%)</ATPP_SettingsPercentageOfSurrogateInAnotherFactionGroup>
+  <ATPP_SettingsOtherFactionsCanUseSurrogate>타 세력이 대행 유닛을 운용할 수 있음</ATPP_SettingsOtherFactionsCanUseSurrogate>
+  <ATPP_SettingsTempHackDuration>대행 유닛의 임시 해킹의 지속 시간 ({0}초)</ATPP_SettingsTempHackDuration>
+  <ATPP_SettingsCostHackingPoints>({0})에 필요한 해킹 점수:</ATPP_SettingsCostHackingPoints>
+  <ATPP_SettingsCostVirus>바이러스</ATPP_SettingsCostVirus>
+  <ATPP_SettingsCostVirusExplosive>폭발 바이러스</ATPP_SettingsCostVirusExplosive>
+  <ATPP_SettingsCostHack>해킹</ATPP_SettingsCostHack>
+  <ATPP_SettingsCostHackTemp>임시 해킹</ATPP_SettingsCostHackTemp>
+  <ATPP_SettingsDuringSolarFlareAndroidsShouldBeDowned>흑점 폭발 동안 안드로이드들은 정지됩니다.</ATPP_SettingsDuringSolarFlareAndroidsShouldBeDowned>
+  <ATPP_SettingsDisableServersAlarm>서버의 고온 경고 비활성화</ATPP_SettingsDisableServersAlarm>
+  <ATPP_SettingsDisableServersAmbianceNoises>서버의 주변 소음 비활성화</ATPP_SettingsDisableServersAmbianceNoises>
+  <ATPP_SettingsAppliedToNextSaveLoading>(맵이 다시 로드된 이후에 적용됩니다)</ATPP_SettingsAppliedToNextSaveLoading>
+  <ATPP_SettingsDisableLowNetworkMalus>스카이마인드 네트워크 부족 패널티 비활성화</ATPP_SettingsDisableLowNetworkMalus>
+  <ATPP_SettingsDisableLowNetworkMalusInCaravans>상단에서의 스카이마인드 네트워크 부족 패널티 비활성화</ATPP_SettingsDisableLowNetworkMalusInCaravans>
+  <ATPP_SettingsPowerConsumedByStoredMind>스카이클라우드 코어에서 저장된 각 자아가 소모하는 전력</ATPP_SettingsPowerConsumedByStoredMind>
+  <ATPP_SettingsMindUploadToSkyCloudDuration>스카이클라우드의 자아 업로드에 소요되는 시간 ({0}시간)</ATPP_SettingsMindUploadToSkyCloudDuration>
+  <ATPP_SettingsMindMigrationCloudDuration>자아 이동에 소요되는 시간 ({0}시간)</ATPP_SettingsMindMigrationCloudDuration>
+  <ATPP_SettingsHideRemotelyControlledIcon>원격 제어중인 기기 상단의 아이콘 숨김</ATPP_SettingsHideRemotelyControlledIcon>
+  <ATPP_SettingsSkyCloudBuffPerAssistingMind>스카이마인드 보조 자아 당 증가하는 기분 버프 ({0})</ATPP_SettingsSkyCloudBuffPerAssistingMind>
+  <ATPP_SettingsNbSlotAddedForSkillServers>{0} 기술 서버에 추가되는 슬롯 개수 ({1})</ATPP_SettingsNbSlotAddedForSkillServers>
+  <ATPP_SettingsNbSlotAddedForHackingServers>{0} 해킹 서버에 추가되는 슬롯 개수 ({1})</ATPP_SettingsNbSlotAddedForHackingServers>
+  <ATPP_SettingsNbSlotAddedForSecurityServers>{0} 보안 서버에 추가되는 슬롯 개수 ({1})</ATPP_SettingsNbSlotAddedForSecurityServers>
+  <ATPP_SettingsNbPointsProducedForHackingServers>{0} 해킹 서버에 생산되는 (매 30초 당) 점수 ({1})</ATPP_SettingsNbPointsProducedForHackingServers>
+  <ATPP_SettingsMinNbHoursLiteHackingDeviceAttackLast>가벼운 해킹 공격이 지속되는 최소 시간 ({0}시간)</ATPP_SettingsMinNbHoursLiteHackingDeviceAttackLast>
+  <ATPP_SettingsMaxNbHoursLiteHackingDeviceAttackLast>가벼운 해킹 공격이 지속되는 최대 시간 ({0}시간)</ATPP_SettingsMaxNbHoursLiteHackingDeviceAttackLast>
+  <ATPP_SettingsHideInactiveSurrogates>정착민 바에서 비활성화된 대행 유닛 숨기기</ATPP_SettingsHideInactiveSurrogates>
+  <ATPP_SettingsAndroidsOnlyHealedByCrafter>안드로이드가 대장장이에게만 수리받을 수 있음</ATPP_SettingsAndroidsOnlyHealedByCrafter>
+  <ATPP_SettingsMinDurationOfMindMentalBreak>디지털화된 자아 정신이상의 최소 지속 시간 ({0}시간)</ATPP_SettingsMinDurationOfMindMentalBreak>
+  <ATPP_SettingsMaxDurationOfMindMentalBreak>디지털화된 자아 정신이상의 최대 지속 시간 ({0}시간)</ATPP_SettingsMaxDurationOfMindMentalBreak>
+  <ATPP_SettingsSecToBootASkyCloudCore>스카이클라우드 코어의 부팅 시간 ({0}초)</ATPP_SettingsSecToBootASkyCloudCore>
+  <ATPP_SettingsDisableAbilityOfSkyCloudServersToTalk>스카이클라우드 코어의 대화 가능성 비활성화</ATPP_SettingsDisableAbilityOfSkyCloudServersToTalk>
+  <ATPP_SettingsNotRemoveAllTraitsOfBasicAndroids>T1/T2 안드로이드의 특성 제거 비활성화</ATPP_SettingsNotRemoveAllTraitsOfBasicAndroids>
+  <ATPP_SettingsAndroidsCanEatLivingPlants>안드로이드가 식물 섭취 가능</ATPP_SettingsAndroidsCanEatLivingPlants>
+  <ATPP_SettingsNotRemoveSkillsPassionForBasicAndroids>T1/T2 안드로이드의 열정 제거 비활성화</ATPP_SettingsNotRemoveSkillsPassionForBasicAndroids>
+  <ATPP_SettingsVX3MaxSurrogateControllableAtOnce>VX3 신경칩으로 동시에 제어할 수 있는 대행 유닛의 최대 개수 ({0}개)</ATPP_SettingsVX3MaxSurrogateControllableAtOnce>
+  <ATPP_SettingsNbPointsProducedForSkillServers>{0} 기술 서버에 생산되는 (매 30초 당) 점수 ({1})</ATPP_SettingsNbPointsProducedForSkillServers>
+  <ATPP_SettingsRandomSkillsMode>기술 무작위</ATPP_SettingsRandomSkillsMode>
+  <ATPP_SettingsPreventM7T5AppearingInCharacterEditor>T5/M7의 시작 유닛 등장 방지</ATPP_SettingsPreventM7T5AppearingInCharacterEditor>
+  <ATPP_SettingsMinHoursNaniteBankFramework>골격 나노기기 더미의 기능 시작까지 최소 시간 ({0}시간)</ATPP_SettingsMinHoursNaniteBankFramework>
+  <ATPP_SettingsMaxHoursNaniteBankFramework>골격 나노기기 더미의 기능 시작까지 최대 시간 ({0}시간)</ATPP_SettingsMaxHoursNaniteBankFramework>
+  <ATPP_SettingsNbSkillPointsPerSkill>기술 1점을 올리기 위해 필요한 기술 점수 ({0}점)</ATPP_SettingsNbSkillPointsPerSkill>
+  <ATPP_RemoveComfortNeedForT3T4>T3 이상의 안드로이드에서 환경 필요 삭제</ATPP_RemoveComfortNeedForT3T4>
+  <ATPP_SettingsAllowHumanDrugsForT3P>T3 이상의 안드로이드에서만 인간 약물 허용</ATPP_SettingsAllowHumanDrugsForT3P>
+  <ATPP_SettingsAllowHumanDrugsFor>안드로이드의 인간 약물 허용</ATPP_SettingsAllowHumanDrugsFor>
+  <ATPP_SettingsUploadMindToSkyCloudCoreMode>스카이클라우드의 자아 업로드 모드: </ATPP_SettingsUploadMindToSkyCloudCoreMode>
+  <ATTP_SettingsUploadMindToSkyCloudCoreModeLethal>업로드된 후 남은 신체는 사망</ATTP_SettingsUploadMindToSkyCloudCoreModeLethal>
+  <ATTP_SettingsUploadMindToSkyCloudCoreModeVX0>업로드된 후 남은 신체는 VX0 모드로 재설정됨</ATTP_SettingsUploadMindToSkyCloudCoreModeVX0>
+  <ATTP_SettingsUploadMindToSkyCloudCoreModeNothing>업로드 된 후 남은 신체에 자아가 남아있음 (복제)</ATTP_SettingsUploadMindToSkyCloudCoreModeNothing>
+  <ATPP_SettingsRemoveSimpleMindedTraitOnUpload>T1 안드로이가 상위 등급(인간이나 T2 이상)으로 자아가 이동했을 때 단순한 정신 특성 삭제</ATPP_SettingsRemoveSimpleMindedTraitOnUpload>
+  <ATPP_SettingsChanceGeneratedAndroidCanBePaintedOrRust>생상된 안드로이드가 도색되거나 부식되어 있을 확률 ({0}%)</ATPP_SettingsChanceGeneratedAndroidCanBePaintedOrRust>
+  <ATPP_SettingsAndroidsCanRust>안드로이드의 자연 부식</ATPP_SettingsAndroidsCanRust>
+  <ATPP_SettingsMinDaysBeforeAndroidsPaintingCanRust>안드로이드의 도색이 부식되는 최소 기간 ({0}일)</ATPP_SettingsMinDaysBeforeAndroidsPaintingCanRust>
+  <ATPP_SettingsMaxDaysBeforeAndroidsPaintingCanRust>안드로이드의 도색이 부식되는 최대 기간 ({0}일)</ATPP_SettingsMaxDaysBeforeAndroidsPaintingCanRust>
+  <ATPP_SettingsAndroidsAreRare>안드로이드가 타 세력에서 더 희귀하게 등장하도록 변경 (경고: 모든 안드로이드 세력이 제거됨)</ATPP_SettingsAndroidsAreRare>
+  <ATPP_SettingsAllowAutoRepaint>현재 도색이 곧 만료될 경우, 자동으로 안드로이드의 재도색 작업이 계획되도록 허용함</ATPP_SettingsAllowAutoRepaint>
+  <ATPP_SettingsAllowAutoRepaintPrisoned>수감된 안드로이드도 재도색 작업이 계획되도록 허용함</ATPP_SettingsAllowAutoRepaintPrisoned>
+  <ATPP_SettingsMaxAndroidByPortableLWPN>이동식 LWPN 방출기의 최대 안드로이드 개수 ({0})</ATPP_SettingsMaxAndroidByPortableLWPN>
+  <ATPP_SettingsAllowT5ToWearClothes>T5가 의류를 장착할 수 있도록 허용함</ATPP_SettingsAllowT5ToWearClothes>
+  <ATPP_SettingsChanceCreatedAndroidsAreMale>생산된 안드로이드가 남성 모듈일 확률 ({0}%)</ATPP_SettingsChanceCreatedAndroidsAreMale>
+  <ATPP_SettingsHideAbilityToForceEatingLivingPlants>야외 식물 섭취를 강제하는 버튼을 숨김</ATPP_SettingsHideAbilityToForceEatingLivingPlants>
+  <ATPP_SettingsPassionCost>열정을 증가시키기 위한 기술 점수 ({0})</ATPP_SettingsPassionCost>
+  <ATPP_SettingsVX0KeepBodyBackstory>꼭두각시(VX0 생체 대행 유닛)의 배경 이야기를 유지함</ATPP_SettingsVX0KeepBodyBackstory>
+  <ATPP_SettingsAllowSurrogateConnectionInitMalus>대행 유닛 연결 초기화 패널티 허용</ATPP_SettingsAllowSurrogateConnectionInitMalus>
+  <ATPP_SettingsAllowAndroidsToUseHospitalBeds>안드로이드의 병원 침대 사용 허용</ATPP_SettingsAllowAndroidsToUseHospitalBeds>
+  <ATPP_SettingsPercentageOfOtherFactionSurrogateHavingAnRXChip>다른 파벌이 RX 칩을 보유할 확률 ({0}%)</ATPP_SettingsPercentageOfOtherFactionSurrogateHavingAnRXChip>
+  <ATPP_SettingsChanceRecruitedSurrogateControllerCanEscapeAndJoin>대행 유닛 조종사가 체포되지 않고 당신의 정착지에 합류할 확률 ({0}%)</ATPP_SettingsChanceRecruitedSurrogateControllerCanEscapeAndJoin>
+  <ATPP_SettingsMinHourBeforeKidnapperDisconnectM8>납치된 M8과 스카이마인드 사이의 연결이 끊기기짜지의 최소 시간 ({0}h)</ATPP_SettingsMinHourBeforeKidnapperDisconnectM8>
+  <ATPP_SettingsMaxHourBeforeKidnapperDisconnectM8>납치된 M8과 스카이마인드 사이의 연결이 끊기기짜지의 최대 시간 ({0}h)</ATPP_SettingsMaxHourBeforeKidnapperDisconnectM8>
+  <ATPP_SettingsAndroidOverloadBatteryProrata>잔여 전력에 따른 폭발 범위 배율</ATPP_SettingsAndroidOverloadBatteryProrata>
+  <ATPP_SettingsAndroidOverloadRadius>안드로이드 폭발 반경 ({0})</ATPP_SettingsAndroidOverloadRadius>
+  <ATPP_SettingsM7OverloadRadius>M7 폭발 반경 ({0})</ATPP_SettingsM7OverloadRadius>
+  <ATPP_SettingsAndroidOverloadExplosionType>폭발의 종류</ATPP_SettingsAndroidOverloadExplosionType>
+  <ATPP_SettingsAndroidOverloadExplosionTypeDefault>파편화</ATPP_SettingsAndroidOverloadExplosionTypeDefault>
+  <ATPP_SettingsAndroidOverloadExplosionTypeFire>화염</ATPP_SettingsAndroidOverloadExplosionTypeFire>
+  <ATPP_SettingsSetT1ResearchToIndustrialTechLevel>T1 연구 단계를 우주가 아닌 산업 수준으로 변경</ATPP_SettingsSetT1ResearchToIndustrialTechLevel>
+</LanguageData>

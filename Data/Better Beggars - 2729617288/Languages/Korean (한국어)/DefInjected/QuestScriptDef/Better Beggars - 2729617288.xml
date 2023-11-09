@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Beggars_Chased.questNameRules.rulesStrings.0>questName(beggarCount==1)->[beggarSingle] 구하기</Beggars_Chased.questNameRules.rulesStrings.0>
+  <Beggars_Chased.questNameRules.rulesStrings.1>questName(beggarCount==1)->[beggarSingle]의 구제</Beggars_Chased.questNameRules.rulesStrings.1>
+  <Beggars_Chased.questNameRules.rulesStrings.2>questName(beggarCount>=2)->[beggarPlural] 돕기</Beggars_Chased.questNameRules.rulesStrings.2>
+  <Beggars_Chased.questNameRules.rulesStrings.3>questName(beggarCount>=2)->[enemyFaction_pawnsPlural]에게 쫓기는 [beggarPlural]</Beggars_Chased.questNameRules.rulesStrings.3>
+  <Beggars_Chased.questNameRules.rulesStrings.4>beggarSingle->거지</Beggars_Chased.questNameRules.rulesStrings.4>
+  <Beggars_Chased.questNameRules.rulesStrings.5>beggarSingle->부랑자</Beggars_Chased.questNameRules.rulesStrings.5>
+  <Beggars_Chased.questNameRules.rulesStrings.6>beggarSingle->떠돌이</Beggars_Chased.questNameRules.rulesStrings.6>
+  <Beggars_Chased.questNameRules.rulesStrings.7>beggarSingle->여행자</Beggars_Chased.questNameRules.rulesStrings.7>
+  <Beggars_Chased.questNameRules.rulesStrings.8>beggarPlural->[beggarSingle]들</Beggars_Chased.questNameRules.rulesStrings.8>
+  <Beggars_Chased.questDescriptionRules.rulesStrings.0>beggarLabelPlural->거지들</Beggars_Chased.questDescriptionRules.rulesStrings.0>
+  <Beggars_Chased.questDescriptionRules.rulesStrings.1>beggarLabelSingle->거지</Beggars_Chased.questDescriptionRules.rulesStrings.1>
+  <Beggars_Chased.questDescriptionRules.rulesStrings.2>travelerInfo(beggarCount==1)->이 [beggarLabelSingle]는</Beggars_Chased.questDescriptionRules.rulesStrings.2>
+  <Beggars_Chased.questDescriptionRules.rulesStrings.3>travelerInfo(beggarCount>=2)->이 [beggarLabelPlural]은</Beggars_Chased.questDescriptionRules.rulesStrings.3>
+  <Beggars_Chased.questDescriptionRules.rulesStrings.4>traverObjective(beggarCount==1)->[beggars0_objective]</Beggars_Chased.questDescriptionRules.rulesStrings.4>
+  <Beggars_Chased.questDescriptionRules.rulesStrings.5>traverObjective(beggarCount>=2)->그들</Beggars_Chased.questDescriptionRules.rulesStrings.5>
+  <Beggars_Chased.questDescriptionRules.rulesStrings.6>questDescription->[approachInfo].[chaseInfo].[claimInfo].\n\n[moveOnInfo].\n\n[travelerInfo] 다른 세력의 일부가 아닙니다. 아무런 외교적 문제 없이 [traverObjective](을)를 죽이거나, 수감하거나, 노예로 팔거나, 장기를 수확 할 수 있습니다.</Beggars_Chased.questDescriptionRules.rulesStrings.6>
+  <Beggars_Chased.questDescriptionRules.rulesStrings.7>approachInfo(beggarCount==1)->[beggars0_nameDef](이)라는 이름의 불쌍한 [beggarLabelSingle]가 근처에서 외치고 있습니다</Beggars_Chased.questDescriptionRules.rulesStrings.7>
+  <Beggars_Chased.questDescriptionRules.rulesStrings.8>approachInfo(beggarCount>=2)->한 무리의 가난한 [beggarLabelPlural]이 근처에서 외치고 있습니다</Beggars_Chased.questDescriptionRules.rulesStrings.8>
+  <Beggars_Chased.questDescriptionRules.rulesStrings.9>chaseInfo(beggarCount==1)-> [beggars0_pronoun] [enemyFaction_name]의 [enemyFaction_pawnsPlural](으)로부터 쫓기고 있으며, 안전한 보호를 간청합니다</Beggars_Chased.questDescriptionRules.rulesStrings.9>
+  <Beggars_Chased.questDescriptionRules.rulesStrings.10>chaseInfo(beggarCount>=2)-> 그들은[enemyFaction_name]의 [enemyFaction_pawnsPlural]로부터 쫓기고 있으며, 안전한 보호를 간청합니다</Beggars_Chased.questDescriptionRules.rulesStrings.10>
+  <Beggars_Chased.questDescriptionRules.rulesStrings.11>claimInfo(beggarCount==1)-> 수락한다면, 뒤를 쫓는 [enemyFaction_pawnsPluralDef](와)과 싸워야 합니다</Beggars_Chased.questDescriptionRules.rulesStrings.11>
+  <Beggars_Chased.questDescriptionRules.rulesStrings.12>claimInfo(beggarCount>=2)-> 수락한다면, 뒤를 쫓는 [enemyFaction_pawnsPluralDef](와)과 싸워야 합니다</Beggars_Chased.questDescriptionRules.rulesStrings.12>
+  <Beggars_Chased.questDescriptionRules.rulesStrings.13>moveOnInfo(beggarCount==1)->[beggars0_nameDef](은)는 [stayDurationTicks_duration]동안 머무를 것이며, 그 후엔 떠납니다</Beggars_Chased.questDescriptionRules.rulesStrings.13>
+  <Beggars_Chased.questDescriptionRules.rulesStrings.14>moveOnInfo(beggarCount>=2)->[beggarLabelPlural]은 [stayDurationTicks_duration]동안 머무를 것이며, 그 후엔 떠납니다</Beggars_Chased.questDescriptionRules.rulesStrings.14>
+  <Beggars_Chased.questContentRules.rulesStrings.0>beggarsPronoun(beggarCount==1)->[beggars0_pronoun]는</Beggars_Chased.questContentRules.rulesStrings.0>
+  <Beggars_Chased.questContentRules.rulesStrings.1>beggarsPronoun(beggarCount>=2)->그들은</Beggars_Chased.questContentRules.rulesStrings.1>
+  <Beggars_Chased.questContentRules.rulesStrings.2>beggarsObjective(beggarCount==1)->[beggars0_objective]</Beggars_Chased.questContentRules.rulesStrings.2>
+  <Beggars_Chased.questContentRules.rulesStrings.3>beggarsObjective(beggarCount>=2)->그들의</Beggars_Chased.questContentRules.rulesStrings.3>
+  <Beggars_Chased.questContentRules.rulesStrings.4>hasHave(beggarCount==1)-></Beggars_Chased.questContentRules.rulesStrings.4>
+  <Beggars_Chased.questContentRules.rulesStrings.5>hasHave(beggarCount>=2)-></Beggars_Chased.questContentRules.rulesStrings.5>
+  <Beggars_Chased.questContentRules.rulesStrings.6>wasWere(beggarCount==1)-></Beggars_Chased.questContentRules.rulesStrings.6>
+  <Beggars_Chased.questContentRules.rulesStrings.7>wasWere(beggarCount>=2)-></Beggars_Chased.questContentRules.rulesStrings.7>
+  <Beggars_Chased.questContentRules.rulesStrings.8>beggarsLabel->거지</Beggars_Chased.questContentRules.rulesStrings.8>
+  <Beggars_Chased.questContentRules.rulesStrings.9>beggarsLabelPlural->거지들</Beggars_Chased.questContentRules.rulesStrings.9>
+  <Beggars_Chased.questContentRules.rulesStrings.10>beggarLabelSingleOrPlural(beggarCount==1)->거지</Beggars_Chased.questContentRules.rulesStrings.10>
+  <Beggars_Chased.questContentRules.rulesStrings.11>beggarLabelSingleOrPlural(beggarCount>=2)->거지들</Beggars_Chased.questContentRules.rulesStrings.11>
+  <Beggars_Chased.questContentRules.rulesStrings.12>charityUnhappy->이타적 사상을 가진 정착민들이 실망합니다.</Beggars_Chased.questContentRules.rulesStrings.12>
+  <Beggars_Chased.questContentRules.rulesStrings.13>lastOrNot(beggarCount==1)-></Beggars_Chased.questContentRules.rulesStrings.13>
+  <Beggars_Chased.questContentRules.rulesStrings.14>lastOrNot(beggarCount>=2)->마지막</Beggars_Chased.questContentRules.rulesStrings.14>
+  <Beggars_Chased.questContentRules.rulesStrings.15>letterLabelBeggarsBetrayed->[beggarLabelSingleOrPlural] 배신함</Beggars_Chased.questContentRules.rulesStrings.15>
+  <Beggars_Chased.questContentRules.rulesStrings.16>letterTextBeggarsBetrayed->당신의 자비를 구걸하던 [groupLabelSingleOrPlural](을)를 배신했습니다. 이타적 사상을 가진 정착민들이 실망합니다.</Beggars_Chased.questContentRules.rulesStrings.16>
+  <Beggars_Chased.questContentRules.rulesStrings.17>beggarsArriveLetterLabel->[beggarLabelSingleOrPlural] 도착</Beggars_Chased.questContentRules.rulesStrings.17>
+  <Beggars_Chased.questContentRules.rulesStrings.18>beggarsArriveLetterText->[beggarLabelSingleOrPlural](이)가 도착했습니다. [enemyFaction_pawnsPlural](이)가 [beggarsObjective]을 뒤쫓습니다. [beggarsPronoun] [stayDurationTicks_duration]동안 정착지에 머무르며 쉴 것이고 노동으로 은혜를 갚습니다.</Beggars_Chased.questContentRules.rulesStrings.18>
+  <Beggars_Chased.questContentRules.rulesStrings.19>appalledButNoAction->{PAWNSALIVECOUNT_multiple ? others seem : last [beggarsLabel] is}(은)는 이에 질겁했으나, {PAWNSALIVECOUNT_multiple ? are: is}(은)는 어떠한 행동도 보이지 않음.</Beggars_Chased.questContentRules.rulesStrings.19>
+  <Beggars_Chased.questContentRules.rulesStrings.20>othersWillNotAccept->{PAWNSALIVECOUNT_multiple ? others are : last [beggarsLabel] is}(은)는 이를 용납하지 못함.</Beggars_Chased.questContentRules.rulesStrings.20>
+  <Beggars_Chased.questContentRules.rulesStrings.21>turnedViolent->[othersWillNotAccept], {PAWNSALIVECOUNT_multiple ? have : has }(이)가 적대적으로 변함.</Beggars_Chased.questContentRules.rulesStrings.21>
+  <Beggars_Chased.questContentRules.rulesStrings.22>decidedToLeave->[othersWillNotAccept], {PAWNSALIVECOUNT_multiple ? have : has }(은)는 떠나기로 결정함.</Beggars_Chased.questContentRules.rulesStrings.22>
+  <Beggars_Chased.questContentRules.rulesStrings.23>whoAskedToStay->머무르기를 요청한</Beggars_Chased.questContentRules.rulesStrings.23>
+  <Beggars_Chased.questContentRules.rulesStrings.24>oneOfThe->머무르기를 원한 [beggarFaction_pawnsPlural] 중 한 명</Beggars_Chased.questContentRules.rulesStrings.24>
+  <Beggars_Chased.questContentRules.rulesStrings.25>questOver->'[resolvedQuestName]' 임무가 종료됨.</Beggars_Chased.questContentRules.rulesStrings.25>
+  <Beggars_Chased.questContentRules.rulesStrings.26>letterIntroDeath->[oneOfThe]인 {SUBJECT_definite}(이)가 사망함.</Beggars_Chased.questContentRules.rulesStrings.26>
+  <Beggars_Chased.questContentRules.rulesStrings.27>beggarDiedMemoryThoughtLetterLabel->[beggarsLabel] 사망: 분노</Beggars_Chased.questContentRules.rulesStrings.27>
+  <Beggars_Chased.questContentRules.rulesStrings.28>beggarDiedMemoryThoughtLetterText->[letterIntroDeath] [charityUnhappy]\n\n[appalledButNoAction]</Beggars_Chased.questContentRules.rulesStrings.28>
+  <Beggars_Chased.questContentRules.rulesStrings.29>beggarDiedAttackPlayerLetterLabel->[beggarsLabel] 사망: 복수</Beggars_Chased.questContentRules.rulesStrings.29>
+  <Beggars_Chased.questContentRules.rulesStrings.30>beggarDiedAttackPlayerLetterText->[letterIntroDeath] [charityUnhappy]\n\n[turnedViolent]</Beggars_Chased.questContentRules.rulesStrings.30>
+  <Beggars_Chased.questContentRules.rulesStrings.31>beggarDiedLeaveMapLetterLabel->[beggarsLabel] 사망: 떠남</Beggars_Chased.questContentRules.rulesStrings.31>
+  <Beggars_Chased.questContentRules.rulesStrings.32>beggarDiedLeaveMapLetterText->[letterIntroDeath] [charityUnhappy]\n\n[decidedToLeave]</Beggars_Chased.questContentRules.rulesStrings.32>
+  <Beggars_Chased.questContentRules.rulesStrings.33>beggarsAllDiedLetterLabel->임무 실패</Beggars_Chased.questContentRules.rulesStrings.33>
+  <Beggars_Chased.questContentRules.rulesStrings.34>beggarsAllDiedLetterText->{SUBJECT_definite}, [lastOrNot] [whoAskedToStay] [beggarFaction_pawnSingular](이)가 사망함. [charityUnhappy]\n\n[questOver]</Beggars_Chased.questContentRules.rulesStrings.34>
+  <Beggars_Chased.questContentRules.rulesStrings.35>letterIntroArrested->[oneOfThe]인 {SUBJECT_definite}(이)가 체포됨.</Beggars_Chased.questContentRules.rulesStrings.35>
+  <Beggars_Chased.questContentRules.rulesStrings.36>beggarArrestedMemoryThoughtLetterLabel->[beggarsLabel] 체포: 분노</Beggars_Chased.questContentRules.rulesStrings.36>
+  <Beggars_Chased.questContentRules.rulesStrings.37>beggarArrestedMemoryThoughtLetterText->[letterIntroArrested] [charityUnhappy]\n\n[appalledButNoAction]</Beggars_Chased.questContentRules.rulesStrings.37>
+  <Beggars_Chased.questContentRules.rulesStrings.38>beggarArrestedAttackPlayerLetterLabel->[beggarsLabel] 체포: 복수</Beggars_Chased.questContentRules.rulesStrings.38>
+  <Beggars_Chased.questContentRules.rulesStrings.39>beggarArrestedAttackPlayerLetterText->[letterIntroArrested] [charityUnhappy]\n\n[turnedViolent]</Beggars_Chased.questContentRules.rulesStrings.39>
+  <Beggars_Chased.questContentRules.rulesStrings.40>beggarArrestedLeaveMapLetterLabel->[beggarsLabel] 체포: 떠남</Beggars_Chased.questContentRules.rulesStrings.40>
+  <Beggars_Chased.questContentRules.rulesStrings.41>beggarArrestedLeaveMapLetterText->[letterIntroArrested] [charityUnhappy]\n\n[decidedToLeave]</Beggars_Chased.questContentRules.rulesStrings.41>
+  <Beggars_Chased.questContentRules.rulesStrings.42>beggarsAllArrestedLetterLabel->임무 실패</Beggars_Chased.questContentRules.rulesStrings.42>
+  <Beggars_Chased.questContentRules.rulesStrings.43>beggarsAllArrestedLetterText->{SUBJECT_definite}, [lastOrNot] [whoAskedToStay] [beggarFaction_pawnSingular](을)를 체포함. [charityUnhappy]\n\n[questOver]</Beggars_Chased.questContentRules.rulesStrings.43>
+  <Beggars_Chased.questContentRules.rulesStrings.44>letterIntroViolated->[oneOfThe]인 {SUBJECT_definite}(이)가, 수술로 침해당함. 이타적 사상을 가진 정착민들이 실망합니다.</Beggars_Chased.questContentRules.rulesStrings.44>
+  <Beggars_Chased.questContentRules.rulesStrings.45>beggarViolatedMemoryThoughtLetterLabel->[beggarsLabel] 위반: 분노</Beggars_Chased.questContentRules.rulesStrings.45>
+  <Beggars_Chased.questContentRules.rulesStrings.46>beggarViolatedMemoryThoughtLetterText->[letterIntroViolated] [charityUnhappy]\n\n[appalledButNoAction]</Beggars_Chased.questContentRules.rulesStrings.46>
+  <Beggars_Chased.questContentRules.rulesStrings.47>beggarViolatedAttackPlayerLetterLabel->[beggarsLabel] 위반: 복수</Beggars_Chased.questContentRules.rulesStrings.47>
+  <Beggars_Chased.questContentRules.rulesStrings.48>beggarViolatedAttackPlayerLetterText->[letterIntroViolated] [charityUnhappy]\n\n[turnedViolent]</Beggars_Chased.questContentRules.rulesStrings.48>
+  <Beggars_Chased.questContentRules.rulesStrings.49>beggarViolatedLeaveMapLetterLabel->[beggarsLabel] 위반: 떠남</Beggars_Chased.questContentRules.rulesStrings.49>
+  <Beggars_Chased.questContentRules.rulesStrings.50>beggarViolatedLeaveMapLetterText->[letterIntroViolated] [charityUnhappy]\n\n[decidedToLeave]</Beggars_Chased.questContentRules.rulesStrings.50>
+  <Beggars_Chased.questContentRules.rulesStrings.51>beggarsLeavingLetterLabel->[beggarLabelSingleOrPlural] 떠남</Beggars_Chased.questContentRules.rulesStrings.51>
+  <Beggars_Chased.questContentRules.rulesStrings.52>beggarsLeavingLetterText->[beggars0_nameDef](은)는 [beggarsObjective] 안전을 보장해주고 [stayDurationTicks_duration]동안 [map_definite]에서 머무르게 해준 것에 대해 감사를 표했습니다. [beggars0_pronoun]는 이제 [beggars0_possessive] 사람들과 이동합니다.\n\n[beggars0_nameDef](은)는 도와준 것을 절대 잊지 않겠다고 했습니다.</Beggars_Chased.questContentRules.rulesStrings.52>
+  <Beggars_DelayedReward.questNameRules.rulesStrings.0>questName->지연된 보상</Beggars_DelayedReward.questNameRules.rulesStrings.0>
+  <Beggars_DelayedReward.questDescriptionRules.rulesStrings.0>questDescription->지연된 도움에 대한 보상입니다/</Beggars_DelayedReward.questDescriptionRules.rulesStrings.0>
+  <Beggars_DelayedReward.questContentRules.rulesStrings.0>rewardLetterLabel->도움 사례금</Beggars_DelayedReward.questContentRules.rulesStrings.0>
+  <Beggars_DelayedReward.questContentRules.rulesStrings.1>rewardLetterText->[rewardGiver_nameDef](이)가 연락했습니다. [rewardDelayTicks_duration] 전, 절박한 상황의 [rewardGiver_objective](을)를 도와주었습니다.\n\n그 이후로, [rewardGiver_pronoun]는 다시 [rewardGiver_possessive] 집으로 돌아왔고, 이제 [rewardGiver_pronoun]는 도움에 대한 적절한 보상을 보내주기를 원합니다. [rewardGiver_pronoun]는 수송 포드를 통해 다음과 같은 물품을 보냄:\n\n[listOfRewards]</Beggars_DelayedReward.questContentRules.rulesStrings.1>
+  <Beggars_WantThing_Drugs.questNameRules.rulesStrings.0>questName(beggarCount==1)->[alms] [seekingSingle] [beggarSingle]</Beggars_WantThing_Drugs.questNameRules.rulesStrings.0>
+  <Beggars_WantThing_Drugs.questNameRules.rulesStrings.1>questName(beggarCount>=2)->[alms] [seekingPlural] [beggarPlural]</Beggars_WantThing_Drugs.questNameRules.rulesStrings.1>
+  <Beggars_WantThing_Drugs.questNameRules.rulesStrings.2>beggarSingle->거지</Beggars_WantThing_Drugs.questNameRules.rulesStrings.2>
+  <Beggars_WantThing_Drugs.questNameRules.rulesStrings.3>beggarSingle->부랑자</Beggars_WantThing_Drugs.questNameRules.rulesStrings.3>
+  <Beggars_WantThing_Drugs.questNameRules.rulesStrings.4>beggarSingle->떠돌이</Beggars_WantThing_Drugs.questNameRules.rulesStrings.4>
+  <Beggars_WantThing_Drugs.questNameRules.rulesStrings.5>beggarSingle->여행자</Beggars_WantThing_Drugs.questNameRules.rulesStrings.5>
+  <Beggars_WantThing_Drugs.questNameRules.rulesStrings.6>beggarPlural->[beggarSingle]들</Beggars_WantThing_Drugs.questNameRules.rulesStrings.6>
+  <Beggars_WantThing_Drugs.questNameRules.rulesStrings.7>seekingSingle->찾는</Beggars_WantThing_Drugs.questNameRules.rulesStrings.7>
+  <Beggars_WantThing_Drugs.questNameRules.rulesStrings.8>seekingSingle->요청하는</Beggars_WantThing_Drugs.questNameRules.rulesStrings.8>
+  <Beggars_WantThing_Drugs.questNameRules.rulesStrings.9>seekingSingle->바라는</Beggars_WantThing_Drugs.questNameRules.rulesStrings.9>
+  <Beggars_WantThing_Drugs.questNameRules.rulesStrings.10>seekingSingle->갈망하는</Beggars_WantThing_Drugs.questNameRules.rulesStrings.10>
+  <Beggars_WantThing_Drugs.questNameRules.rulesStrings.11>seekingSingle->필요로 하는</Beggars_WantThing_Drugs.questNameRules.rulesStrings.11>
+  <Beggars_WantThing_Drugs.questNameRules.rulesStrings.12>seekingSingle->희망하는</Beggars_WantThing_Drugs.questNameRules.rulesStrings.12>
+  <Beggars_WantThing_Drugs.questNameRules.rulesStrings.13>seekingPlural->찾는</Beggars_WantThing_Drugs.questNameRules.rulesStrings.13>
+  <Beggars_WantThing_Drugs.questNameRules.rulesStrings.14>seekingPlural->요청하는</Beggars_WantThing_Drugs.questNameRules.rulesStrings.14>
+  <Beggars_WantThing_Drugs.questNameRules.rulesStrings.15>seekingPlural->바라는</Beggars_WantThing_Drugs.questNameRules.rulesStrings.15>
+  <Beggars_WantThing_Drugs.questNameRules.rulesStrings.16>seekingPlural->희망하는</Beggars_WantThing_Drugs.questNameRules.rulesStrings.16>
+  <Beggars_WantThing_Drugs.questNameRules.rulesStrings.17>seekingPlural->갈망하는</Beggars_WantThing_Drugs.questNameRules.rulesStrings.17>
+  <Beggars_WantThing_Drugs.questNameRules.rulesStrings.18>seekingPlural->필요로 하는</Beggars_WantThing_Drugs.questNameRules.rulesStrings.18>
+  <Beggars_WantThing_Drugs.questNameRules.rulesStrings.19>alms->구호품을</Beggars_WantThing_Drugs.questNameRules.rulesStrings.19>
+  <Beggars_WantThing_Drugs.questNameRules.rulesStrings.20>alms->도움을</Beggars_WantThing_Drugs.questNameRules.rulesStrings.20>
+  <Beggars_WantThing_Drugs.questNameRules.rulesStrings.21>alms->자비를</Beggars_WantThing_Drugs.questNameRules.rulesStrings.21>
+  <Beggars_WantThing_Drugs.questNameRules.rulesStrings.22>alms->자원을</Beggars_WantThing_Drugs.questNameRules.rulesStrings.22>
+  <Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.0>groupLabelPlural->여행자들</Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.0>
+  <Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.1>groupLabelSingle->여행자</Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.1>
+  <Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.2>travelerInfo(beggarCount==1)->이 [groupLabelSingle]는</Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.2>
+  <Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.3>travelerInfo(beggarCount>=2)->이 [groupLabelPlural]은</Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.3>
+  <Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.4>beggingForInfo->[requestedThing_label] [requestedThingCount]개</Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.4>
+  <Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.5>traverObjective(beggarCount==1)->[beggars0_objective]</Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.5>
+  <Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.6>traverObjective(beggarCount>=2)->그들의</Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.6>
+  <Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.7>addiction->중독을</Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.7>
+  <Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.8>addiction->갈망을</Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.8>
+  <Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.9>addiction->필요를</Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.9>
+  <Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.10>time->잠시</Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.10>
+  <Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.11>time->잠깐</Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.11>
+  <Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.12>time->잠깐동안</Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.12>
+  <Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.13>time->며칠동안</Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.13>
+  <Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.14>questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] 다른 세력의 일부가 아닙니다. 아무런 외교적 문제 없이 [traverObjective](을)를 죽이거나, 수감하거나, 노예로 팔거나, 장기를 수확 할 수 있습니다.</Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.14>
+  <Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.15>approachInfo(beggarCount==1)->[beggars0_nameDef](이)라는 이름의 가난한 [groupLabelSingle]가 도움을 요청하며 접근하고 있습니다</Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.15>
+  <Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.16>approachInfo(beggarCount>=2)->한 무리의 [groupLabelPlural]이 도움을 요청하며 접근하고 있습니다</Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.16>
+  <Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.17>requestInfo(beggarCount==1)->[beggars0_nameDef](은)는 [beggingForInfo]를 구걸합니다</Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.17>
+  <Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.18>requestInfo(beggarCount>=2)->[groupLabelPlural]은 [beggingForInfo]를 구걸합니다</Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.18>
+  <Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.19>claimInfo(beggarCount==1)->[beggars0_nameDef](은)는 [time] [addiction] 채우기 위해 약을 필요로 합니다</Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.19>
+  <Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.20>claimInfo(beggarCount>=2)->그들은 그들의 [addiction] [time]동안 만족시키기 위해 약을 필요로 합니다</Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.20>
+  <Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.21>interactionInfo(beggarCount==1)->정착민 하나를 선택한 뒤, [beggars0_nameDef](을)를 우클릭하여 물품을 나눠줄 수 있습니다</Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.21>
+  <Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.22>interactionInfo(beggarCount>=2)->정착민을 선택한 뒤 [beggars0_nameDef](을)를 우클릭하여 [groupLabelPlural]에게 물품을 나눠줄 수 있습니다</Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.22>
+  <Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.23>moveOnInfo(beggarCount==1)->[beggars0_nameDef](은) [visitDurationTicks_duration] 후 떠나갑니다</Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.23>
+  <Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.24>moveOnInfo(beggarCount>=2)->[groupLabelPlural]은 [visitDurationTicks_duration] 후 떠나갑니다</Beggars_WantThing_Drugs.questDescriptionRules.rulesStrings.24>
+  <Beggars_WantThing_Drugs.questContentRules.rulesStrings.0>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] 배신함</Beggars_WantThing_Drugs.questContentRules.rulesStrings.0>
+  <Beggars_WantThing_Drugs.questContentRules.rulesStrings.1>letterTextBeggarsBetrayed->당신의 자비를 구걸하던 [groupLabelSingleOrPlural](을)를 배신했습니다. 이타적 사상을 가진 정착민들이 실망합니다.</Beggars_WantThing_Drugs.questContentRules.rulesStrings.1>
+  <Beggars_WantThing_Drugs.questContentRules.rulesStrings.2>hasHave(beggarCount==1)-></Beggars_WantThing_Drugs.questContentRules.rulesStrings.2>
+  <Beggars_WantThing_Drugs.questContentRules.rulesStrings.3>hasHave(beggarCount>=2)-></Beggars_WantThing_Drugs.questContentRules.rulesStrings.3>
+  <Beggars_WantThing_Drugs.questContentRules.rulesStrings.4>wasWere(beggarCount==1)-></Beggars_WantThing_Drugs.questContentRules.rulesStrings.4>
+  <Beggars_WantThing_Drugs.questContentRules.rulesStrings.5>wasWere(beggarCount>=2)-></Beggars_WantThing_Drugs.questContentRules.rulesStrings.5>
+  <Beggars_WantThing_Drugs.questContentRules.rulesStrings.6>groupLabelSingleOrPlural(beggarCount==1)->여행자</Beggars_WantThing_Drugs.questContentRules.rulesStrings.6>
+  <Beggars_WantThing_Drugs.questContentRules.rulesStrings.7>groupLabelSingleOrPlural(beggarCount>=2)->여행자들</Beggars_WantThing_Drugs.questContentRules.rulesStrings.7>
+  <Beggars_WantThing_Vanilla.questNameRules.rulesStrings.0>questName(beggarCount==1)->[alms] [seekingSingle] [beggarSingle]</Beggars_WantThing_Vanilla.questNameRules.rulesStrings.0>
+  <Beggars_WantThing_Vanilla.questNameRules.rulesStrings.1>questName(beggarCount>=2)->[alms] [seekingPlural] [beggarPlural]</Beggars_WantThing_Vanilla.questNameRules.rulesStrings.1>
+  <Beggars_WantThing_Vanilla.questNameRules.rulesStrings.2>beggarSingle->거지</Beggars_WantThing_Vanilla.questNameRules.rulesStrings.2>
+  <Beggars_WantThing_Vanilla.questNameRules.rulesStrings.3>beggarSingle->부랑자</Beggars_WantThing_Vanilla.questNameRules.rulesStrings.3>
+  <Beggars_WantThing_Vanilla.questNameRules.rulesStrings.4>beggarSingle->떠돌이</Beggars_WantThing_Vanilla.questNameRules.rulesStrings.4>
+  <Beggars_WantThing_Vanilla.questNameRules.rulesStrings.5>beggarSingle->여행자</Beggars_WantThing_Vanilla.questNameRules.rulesStrings.5>
+  <Beggars_WantThing_Vanilla.questNameRules.rulesStrings.6>beggarPlural->[beggarSingle]들</Beggars_WantThing_Vanilla.questNameRules.rulesStrings.6>
+  <Beggars_WantThing_Vanilla.questNameRules.rulesStrings.7>seekingSingle->찾는</Beggars_WantThing_Vanilla.questNameRules.rulesStrings.7>
+  <Beggars_WantThing_Vanilla.questNameRules.rulesStrings.8>seekingSingle->요청하는</Beggars_WantThing_Vanilla.questNameRules.rulesStrings.8>
+  <Beggars_WantThing_Vanilla.questNameRules.rulesStrings.9>seekingSingle->원하는</Beggars_WantThing_Vanilla.questNameRules.rulesStrings.9>
+  <Beggars_WantThing_Vanilla.questNameRules.rulesStrings.10>seekingSingle->갈망하는</Beggars_WantThing_Vanilla.questNameRules.rulesStrings.10>
+  <Beggars_WantThing_Vanilla.questNameRules.rulesStrings.11>seekingSingle->필요로 하는</Beggars_WantThing_Vanilla.questNameRules.rulesStrings.11>
+  <Beggars_WantThing_Vanilla.questNameRules.rulesStrings.12>seekingSingle->희망하는</Beggars_WantThing_Vanilla.questNameRules.rulesStrings.12>
+  <Beggars_WantThing_Vanilla.questNameRules.rulesStrings.13>seekingPlural->찾는</Beggars_WantThing_Vanilla.questNameRules.rulesStrings.13>
+  <Beggars_WantThing_Vanilla.questNameRules.rulesStrings.14>seekingPlural->요청하는</Beggars_WantThing_Vanilla.questNameRules.rulesStrings.14>
+  <Beggars_WantThing_Vanilla.questNameRules.rulesStrings.15>seekingPlural->원하는</Beggars_WantThing_Vanilla.questNameRules.rulesStrings.15>
+  <Beggars_WantThing_Vanilla.questNameRules.rulesStrings.16>seekingPlural->희망하는</Beggars_WantThing_Vanilla.questNameRules.rulesStrings.16>
+  <Beggars_WantThing_Vanilla.questNameRules.rulesStrings.17>seekingPlural->갈망하는</Beggars_WantThing_Vanilla.questNameRules.rulesStrings.17>
+  <Beggars_WantThing_Vanilla.questNameRules.rulesStrings.18>seekingPlural->필요로 하는</Beggars_WantThing_Vanilla.questNameRules.rulesStrings.18>
+  <Beggars_WantThing_Vanilla.questNameRules.rulesStrings.19>alms->구호품을</Beggars_WantThing_Vanilla.questNameRules.rulesStrings.19>
+  <Beggars_WantThing_Vanilla.questNameRules.rulesStrings.20>alms->도움을</Beggars_WantThing_Vanilla.questNameRules.rulesStrings.20>
+  <Beggars_WantThing_Vanilla.questNameRules.rulesStrings.21>alms->자비를</Beggars_WantThing_Vanilla.questNameRules.rulesStrings.21>
+  <Beggars_WantThing_Vanilla.questNameRules.rulesStrings.22>alms->자원을</Beggars_WantThing_Vanilla.questNameRules.rulesStrings.22>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.0>groupLabelPlural->여행자들</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.0>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.1>groupLabelSingle->여행자</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.1>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.2>travelerInfo(beggarCount==1)->이 [groupLabelSingle]는</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.2>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.3>travelerInfo(beggarCount>=2)->이 [groupLabelPlural]은</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.3>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.4>beggingForInfo->[requestedThing_label] [requestedThingCount]개</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.4>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.5>traverObjective(beggarCount==1)->[beggars0_objective]</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.5>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.6>traverObjective(beggarCount>=2)->그들의</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.6>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.7>requestedThingDefNameSingleOrPlural(requestedThingCount==1)->[requestedThingDefName]</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.7>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.8>requestedThingDefNameSingleOrPlural(requestedThingCount>=2)->[requestedThingDefName]들</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.8>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.9>questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] not part of any faction. If you wish, you can choose to kill, arrest, sell, or harvest [traverObjective], without diplomatic consequences.</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.9>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.10>approachInfo(beggarCount==1)->[beggars0_nameDef](이)라는 이름의 가난한 [groupLabelSingle]가 도움을 요청하며 접근하고 있습니다</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.10>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.11>approachInfo(beggarCount>=2)->한 무리의 [groupLabelPlural]이 도움을 요청하며 접근하고 있습니다</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.11>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.12>requestInfo(beggarCount==1)->[beggars0_nameDef](은)는 [beggingForInfo]를 구걸합니다</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.12>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.13>requestInfo(beggarCount>=2)->The [groupLabelPlural]은 [beggingForInfo]를 구걸합니다</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.13>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.14>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef](은)는 [beggars0_objective] 쫓는 해적 무리에게 진 빚을 갚고자 합니다</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.14>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.15>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef](은)는 근처에서 부상을 입은 여행자를 돕기위한 약이 필요하다고 합니다</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.15>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.16>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef](은)는 여행 중 부상을 입은 [beggars0_possessive] 충직한 애완동물을 위해 약이 필요하다고 합니다</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.16>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.17>claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[beggars0_nameDef](이)가 치명적인 질병으로부터 병약한 친구를 지키기 위해 [requestedThing_label](이)가 필요하다고 합니다</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.17>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.18>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef](은)는 여행 중에 끔찍한 사고로 [beggars0_possessive] 동료를 잃은 슬픔을 잠시나마 잊고싶다고 합니다</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.18>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.19>claimInfo(beggarCount==1,requestedThingDefName==Gold)->[beggars0_nameDef](은)는 다음 정착지와 거래할 금이 필요하다고 합니다</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.19>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.20>claimInfo(beggarCount==1,requestedThingDefName==Steel)->[beggars0_nameDef](은)는 어딘가에 판잣집 도시를 지을 강철이 필요하다고 합니다</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.20>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.21>claimInfo(beggarCount==1,requestedThingDefName==WoodLog)->[beggars0_nameDef](은)는 어딘가에 피난처를 지을 목재가 필요하다고 합니다</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.21>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.22>claimInfo(beggarCount==1,requestedThingDefName==ComponentIndustrial)->[beggars0_nameDef](은)는 그들이 머무르는 버려진 정착지의 냉방기를 고칠 부품이 필요하다고 합니다</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.22>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.23>claimInfo(beggarCount==1,requestedThingDefName==Cloth)->[beggars0_nameDef](은)는 입을만한 새로운 옷을 만들기 위해 옷감이 필요하다고 합니다</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.23>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.24>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->납치된 친구의 몸값을 내기 위해 은이 급하게 필요하다고 합니다</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.24>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.25>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->메카노이드의 습격을 받은 동료의 목숨을 살리기 위해 약이 필요하다고 합니다</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.25>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.26>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->해적들에게 습격받은 인근 정착지의 친구를 돕기 위해 약이 필요하다고 합니다</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.26>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.27>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->그들은 [requestedThing_label](이)가 있다면 그들의 새로운 터전으로 가는 여행길이 안전해질 것이라고 합니다</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.27>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.28>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->여행 중에 끔찍한 사고로 인해 동료를 잃은 상실감을 [requestedThing_label](으)로 잠시나마 잊고싶다고 합니다</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.28>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.29>claimInfo(beggarCount>=2,requestedThingDefName==Gold)->그들은 다음 정착지와 거래하기 위한 [requestedThing_label]이 필요하다고 합니다</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.29>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.30>claimInfo(beggarCount>=2,requestedThingDefName==Steel)->그들은 어딘가에 판잣집 도시를 지을 [requestedThing_label]이 필요하다고 합니다</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.30>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.31>claimInfo(beggarCount>=2,requestedThingDefName==WoodLog)->그들은 피난처를 지을 [requestedThing_label]가 필요하다고 합니다</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.31>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.32>claimInfo(beggarCount>=2,requestedThingDefName==ComponentIndustrial)->그들은 머무르는 버려진 정착지의 발전기를 고치기 위해 [requestedThing_label]이 필요하다고 합니다</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.32>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.33>claimInfo(beggarCount>=2,requestedThingDefName==Cloth)->그들은 잠을 자기 위한 침낭을 만드는 데에 [requestedThing_label]이 필요하다고 합니다</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.33>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.34>interactionInfo(beggarCount==1)->정착민 하나를 선택한 뒤, [beggars0_nameDef](을)를 우클릭하여 물품을 나눠줄 수 있습니다</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.34>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.35>interactionInfo(beggarCount>=2)->정착민을 선택한 뒤 [beggars0_nameDef](을)를 우클릭하여 [groupLabelPlural]에게 물품을 나눠줄 수 있습니다</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.35>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.36>moveOnInfo(beggarCount==1)->[beggars0_nameDef](은)는 [visitDurationTicks_duration] 후 떠나갑니다</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.36>
+  <Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.37>moveOnInfo(beggarCount>=2)->[groupLabelPlural]은 [visitDurationTicks_duration] 후 떠나갑니다</Beggars_WantThing_Vanilla.questDescriptionRules.rulesStrings.37>
+  <Beggars_WantThing_Vanilla.questContentRules.rulesStrings.0>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] 배신함</Beggars_WantThing_Vanilla.questContentRules.rulesStrings.0>
+  <Beggars_WantThing_Vanilla.questContentRules.rulesStrings.1>letterTextBeggarsBetrayed->당신의 자비를 구걸하던 [groupLabelSingleOrPlural](을)를 배신했습니다. 이타적 사상을 가진 정착민들이 실망합니다.</Beggars_WantThing_Vanilla.questContentRules.rulesStrings.1>
+  <Beggars_WantThing_Vanilla.questContentRules.rulesStrings.2>hasHave(beggarCount==1)-></Beggars_WantThing_Vanilla.questContentRules.rulesStrings.2>
+  <Beggars_WantThing_Vanilla.questContentRules.rulesStrings.3>hasHave(beggarCount>=2)-></Beggars_WantThing_Vanilla.questContentRules.rulesStrings.3>
+  <Beggars_WantThing_Vanilla.questContentRules.rulesStrings.4>wasWere(beggarCount==1)-></Beggars_WantThing_Vanilla.questContentRules.rulesStrings.4>
+  <Beggars_WantThing_Vanilla.questContentRules.rulesStrings.5>wasWere(beggarCount>=2)-></Beggars_WantThing_Vanilla.questContentRules.rulesStrings.5>
+  <Beggars_WantThing_Vanilla.questContentRules.rulesStrings.6>groupLabelSingleOrPlural(beggarCount==1)->여행자</Beggars_WantThing_Vanilla.questContentRules.rulesStrings.6>
+  <Beggars_WantThing_Vanilla.questContentRules.rulesStrings.7>groupLabelSingleOrPlural(beggarCount>=2)->여행자들</Beggars_WantThing_Vanilla.questContentRules.rulesStrings.7>
+</LanguageData>

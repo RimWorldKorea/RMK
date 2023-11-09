@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RFC.FactionControlName>세력통제</RFC.FactionControlName>
+  <RFC.FactionControl>세력통제 - 주 설정</RFC.FactionControl>
+  <RFC.FactionControlFactionOptions>세력통제 - 세력 설정</RFC.FactionControlFactionOptions>
+  <RFC.CustomFactionControl>세력통제 - Mod 세력</RFC.CustomFactionControl>
+  <RFC.factionCount>월드맵 상의 세력 총 숫자</RFC.factionCount>
+  <RFC.factionNotes>바닐라의 값은 5입니다. 이하에서 정의된 "최소" 세력 수의 합계가 상기로 정의한 수를 넘는 경우, "최소" 세력 수의 합계가 우선되는 것에 주의해 주세요.(예를 들어, 세력의 총 숫자를 3으로 설정해, 이방인, 부족, 주적의 "최소" 세력 수를 각각 2개 정의하면, 맵에는 적어도 6개의 세력이 존재합니다.)\n또한, 보다 많은 세력을 가지는 세계에서는 맵상에서 세력 거점의 "인구밀도"가 높아지는 것도 주의해 주세요.(거점은 서로 가까이에 있으려는 경향이 있습니다.）마지막으로, 당신이 "귀여운 세계"를 만들려고 최소치를 0(세력 모두를 사실상 일하지 않게 하는 의도)으로 모든 세력을 설정했다고 해도 세력 없는 세계는 되지 않습니다. 그 결과 당신은 해적 세력과 동거할 만한 살벌한 세계가 될 것입니다. 이건 경고예요!</RFC.factionNotes>
+  <RFC.outlanderCivilMin>세계 지도상의 '민간 외지인 연합' 세력의 최소거점수(0으로 설정하면 '민간 외지인 연합' 세력은 소멸):</RFC.outlanderCivilMin>
+  <RFC.outlanderRoughMin>세계 지도상의 '야만적인 외지인 연합' 세력의 최소 거점(0으로 설정하면 '야만적인 외지인 연합' 세력은 소멸):</RFC.outlanderRoughMin>
+  <RFC.tribalCivilMin>세계 지도상의 '온화한 부족' 세력의 최소 거점(0으로 설정하면 '온화한 부족' 세력은 소멸):</RFC.tribalCivilMin>
+  <RFC.tribalRoughMin>세계 지도상의 '호전적인 부족' 세력의 최소 거점(0으로 설정하면 '호전적인 부족' 세력은 소멸):</RFC.tribalRoughMin>
+  <RFC.tribalSavageMin>세계 지도상의 '야만적인 부족' 세력의 최소 거점(0으로 설정하면 '야만적인 부족' 세력은 소멸):</RFC.tribalSavageMin>
+  <RFC.pirateMin>세계 지도상의 '우주 해적'의 최소거점수(0으로 설정하면 '우주 해적' 세력은 소멸):</RFC.pirateMin>
+  <RFC.empireMin>세계 지도상의 '와해된 제국' 세력의 최소 거점(0으로 설정하면 '와해된 제국' 세력은 소멸):</RFC.empireMin>
+  <RFC.SelectAFaction>세력을 선택</RFC.SelectAFaction>
+  <RFC.factionGrouping>국가의 형성 :</RFC.factionGrouping>
+  <RFC.factionGroupingNone>없음：(바닐라 동작입니다) 세력 그룹의 본진은 전세계에 무작위로 배치되어 있습니다.</RFC.factionGroupingNone>
+  <RFC.factionGroupingLoose>확산：세력 그룹의 본진은 월드 맵에서 같은 세력 영역에 존재하는 경향이 있지만, 다양한 세력 그룹이 차지하는 영역은 여전히 광범위한 중복 부분이 존재합니다.</RFC.factionGroupingLoose>
+  <RFC.factionGroupingTight>집중：임의의 특정 세력 그룹에 속하는 거점은 같은 세력으로 긴밀하게 집중되어 있고, 해적단의 세력 그룹을 제외하고 중복은 거의 없습니다. 매우 어수선한 국경에도 불구하고 월드맵에 실제로 존재하는 국가의 형태를 확실히 느낄 수 있습니다</RFC.factionGroupingTight>
+  <RFC.factionGroupingVeryTight>밀집：해적단의 세력 그룹을 제외하고 각 세력 그룹의 거점은 매우 밀접하게 정리됩니다. 영역의 중복은 별로 없고, 영역간에 점령되지 않은 중립 영역이 크게 넓어졌을 것입니다.</RFC.factionGroupingVeryTight>
+  <RFC.AllowMechanoids>메카노이드 허가</RFC.AllowMechanoids>
+  <RFC.AllowMechanoidsTip>이 옵션을 낮추면 메카노이드가 (대부분) 게임에서 삭제됩니다. 문자 그대로 당신에게 적대적인 세력이 남아있지 않는 한, 그들에게 습격당하지 않습니다. 그리고 당신은 오염된 함선나 정신파동 부품의 파괴로 발생하는 메카노이드에 대처할 필요는 없습니다. 그러나 당신은 아직 위험한 고대 신전에서 살고 있는 메카노이드를 찾을지도 모릅니다.</RFC.AllowMechanoidsTip>
+  <RFC.EnableFactionRandomGoodwill>우호 관계를 랜덤화</RFC.EnableFactionRandomGoodwill>
+  <RFC.EnableFactionRandomGoodwillToolTip>세계가 생성되었을 때에 세력의 우호 관계가 랜덤화 되는지를 설정하기 위한 설정을 추가합니다. 통상 온건한 세력 거점은 중립적이고, 공격적인 세력 거점은 적대적입니다. 초기 상태에서는 ON이 되어 있습니다。</RFC.EnableFactionRandomGoodwillToolTip>
+  <RFC.SpreadPirates>해적 확산</RFC.SpreadPirates>
+  <RFC.RelationChangesOverTime>시간 경과에 따른 관계 변화</RFC.RelationChangesOverTime>
+  <RFC.EnableFactionDynamicColors>세력의 색상을 변화</RFC.EnableFactionDynamicColors>
+  <RFC.EnableFactionDynamicColorsTip>적대 세력：적색\n우호적인 부족：녹색\n우호적인 이방인：파랑\n\n우호 관계가 높거나 낮아질수록 색이 짙어집니다.</RFC.EnableFactionDynamicColorsTip>
+  <RFC.factionDensity>세력 거점의 밀도:</RFC.factionDensity>
+  <RFC.factionDensityVeryLow>매우 낮음：세력은 아주 소수의 거점밖에 가지고 있지 않습니다.</RFC.factionDensityVeryLow>
+  <RFC.factionDensityLow>낮음</RFC.factionDensityLow>
+  <RFC.factionDensityNormal>보통：바닐라의 밀도입니다.</RFC.factionDensityNormal>
+  <RFC.factionDensityHigh>높음</RFC.factionDensityHigh>
+  <RFC.factionDensityVeryHigh>매우 높음：이 세계에서 인구 밀도가 과밀됩니다.</RFC.factionDensityVeryHigh>
+  <RFC.factionDensityInsane>광기：림월드에서 이런 과밀화된 상태는 예상되지 않습니다...</RFC.factionDensityInsane>
+  <RFC.factionBasic1>세력의 최소 수 : Mod로 추가된 세력 "</RFC.factionBasic1>
+  <RFC.factionBasic2> 세력에 속한 맵에 표시되는 거점의 수 (0으로 하면 해당 세력 소멸) :</RFC.factionBasic2>
+  <RFC.factionHidden1>숨겨진 거점 허용 "</RFC.factionHidden1>
+  <RFC.factionHidden2> 세력?</RFC.factionHidden2>
+  <RFC.factionHidden3>허용 "</RFC.factionHidden3>
+  <RFC.factionPirate1>분배 "</RFC.factionPirate1>
+  <RFC.factionPirate2>의 세력 그룹을 해적 세력처럼 할까요?</RFC.factionPirate2>
+  <RFC.factionPirateTip>이 옵션을 OFF로 하면 거점이 그룹화 되어 "국가"가 형성됩니다. ON으로 할 경우, 우주 해적 세력과 같이 거점이 다른 세력 그룹의 영토내에 산재하게 됩니다(물론, 이 옵션은 해당 세력을 국가로서 형성하지 않는 한 효과가 없습니다).</RFC.factionPirateTip>
+
+</LanguageData>

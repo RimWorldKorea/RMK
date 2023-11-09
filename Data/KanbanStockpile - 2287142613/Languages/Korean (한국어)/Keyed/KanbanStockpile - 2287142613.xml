@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <KS.StackRefillThreshold>운반 시작 비율: {0}%</KS.StackRefillThreshold>
+  <KS.SimilarStackLimit>유사품 스택 수: {0}</KS.SimilarStackLimit>
+  <KS.SimilarStackLimitOff>유사품 스택 제한 없음</KS.SimilarStackLimitOff>
+  <KS.ReservedSimilarStackChecking>유사한 물품의 스택 제한 운반시 다른 운반 예약 검사</KS.ReservedSimilarStackChecking>
+  <KS.ReservedSimilarStackCheckingTip>활성화 시 유사한 물품의 스택 제한이 걸린 저장소에 물품을 운반하기 전에 해당 물품을 운반 예약중인지를 검사하여 운반이 중복되는 것을 예방합니다. CPU의 성능이 떨어지거나 정착지가 매우 큰 경우 이 설정을 비활성화하여 약간의 성능 상승을 얻을 수 있지만 설정한 값보다 더 많은 숫자의 스택이 쌓이는 것을 방지할 수는 없습니다.\n기본값 : 활성화됨.</KS.ReservedSimilarStackCheckingTip>
+  <KS.ConsiderDifferentMaterialSimilar>재료가 다른 겹쳐지지 않는 물품을 고려</KS.ConsiderDifferentMaterialSimilar>
+  <KS.ConsiderDifferentMaterialSimilarTip>활성화 시 유사한 물품의 스택 제한을 판단할 때 서로 다른 재료로 만든 옷 등이 유사한 물품으로 간주됩니다. 참고: 의류 및 무기 등의 겹쳐지지 않는 물품에만 적용되며 고기 등의 겹쳐지는 물품에는 적용되지 않습니다.\n기본값: 활성화됨</KS.ConsiderDifferentMaterialSimilarTip>
+  <KS.PreventPickUpAndHaulOverHauling>PickUpAndHaul 모드로 인한 초과 운반 방지</KS.PreventPickUpAndHaulOverHauling>
+  <KS.PreventPickUpAndHaulOverHaulingTip>활성화 된 상태에서 픽업 앤 하울 모드가 감지되었을 경우 유사한 물품의 스텍 제한이 활성화 되어 있는 저장소와 관련된 모든 운반 작업의 정밀 검사를 방지하기 위해 HaulToStorage 작업으로 대체시킵니다. 픽업 앤 하울 모드는 예약 작업이 제대로 수행되지 않기에 현재는 이 방법이 최선의 방법이며 가급적이면 활성화 하는 것을 권장합니다. 참고: 이 설정을 변경할 경우 게임을 다시 시작해야 적용됩니다.\n기본값: 활성화됨</KS.PreventPickUpAndHaulOverHaulingTip>
+</LanguageData>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+  <AncientComplex_Standard.questNameRules.rulesStrings.0>questName(p=6)->[complexAdj] [complex]</AncientComplex_Standard.questNameRules.rulesStrings.0>
+  <AncientComplex_Standard.questNameRules.rulesStrings.1>questName->[dig]</AncientComplex_Standard.questNameRules.rulesStrings.1>
+  <AncientComplex_Standard.questNameRules.rulesStrings.2>complexAdj->고대</AncientComplex_Standard.questNameRules.rulesStrings.2>
+  <AncientComplex_Standard.questNameRules.rulesStrings.3>complexAdj->버려진</AncientComplex_Standard.questNameRules.rulesStrings.3>
+  <AncientComplex_Standard.questNameRules.rulesStrings.4>complexAdj->쇠퇴한</AncientComplex_Standard.questNameRules.rulesStrings.4>
+  <AncientComplex_Standard.questNameRules.rulesStrings.5>complexAdj->잊혀진</AncientComplex_Standard.questNameRules.rulesStrings.5>
+  <AncientComplex_Standard.questNameRules.rulesStrings.6>complex->전초 기지</AncientComplex_Standard.questNameRules.rulesStrings.6>
+  <AncientComplex_Standard.questNameRules.rulesStrings.7>complex->야영지</AncientComplex_Standard.questNameRules.rulesStrings.7>
+  <AncientComplex_Standard.questNameRules.rulesStrings.8>complex->정착지</AncientComplex_Standard.questNameRules.rulesStrings.8>
+  <AncientComplex_Standard.questNameRules.rulesStrings.9>complex->요새</AncientComplex_Standard.questNameRules.rulesStrings.9>
+  <AncientComplex_Standard.questNameRules.rulesStrings.10>dig->땅 파기</AncientComplex_Standard.questNameRules.rulesStrings.10>
+  <AncientComplex_Standard.questNameRules.rulesStrings.11>dig->발굴</AncientComplex_Standard.questNameRules.rulesStrings.11>
+  <AncientComplex_Standard.questNameRules.rulesStrings.12>dig->회수</AncientComplex_Standard.questNameRules.rulesStrings.12>
+  <AncientComplex_Standard.questNameRules.rulesStrings.13>dig->복구</AncientComplex_Standard.questNameRules.rulesStrings.13>
+  <AncientComplex_Standard.questDescriptionRules.rulesStrings.0>questDescription->근처에 고대 전초기지가 있다는 소식을 들었습니다. [relic_name]에 대한 정보가 담긴 고대 문자가 있다고 합니다.\n\n침입하여 내부의 고대 문자를 해독할 수 있다면 정보를 수집할 수 있습니다.\n\n주의하세요 - 내부에는 온갖 위험이 있을 수 있으며, 다른 적들도 이곳에서 활동 중일 수 있습니다.</AncientComplex_Standard.questDescriptionRules.rulesStrings.0>
+  <AncientComplex_Standard.questContentRules.rulesStrings.0>terminalHackedMessage->고대 문자를 해독했습니다. {COUNT} / [terminalCount] 완료.</AncientComplex_Standard.questContentRules.rulesStrings.0>
+  <AncientComplex_Standard.questContentRules.rulesStrings.1>allTerminalsHackedMessage->모든 고대 문자를 해독하고 [relic_name]에 대한 비밀 정보를 발견했습니다! 이제 떠날수 있습니다.</AncientComplex_Standard.questContentRules.rulesStrings.1>
+  <Hack_Spacedrone.questNameRules.rulesStrings.0>questName->[droneAdj] 비행선 조사</Hack_Spacedrone.questNameRules.rulesStrings.0>
+  <Hack_Spacedrone.questNameRules.rulesStrings.1>questName->비행선 [data] 복구</Hack_Spacedrone.questNameRules.rulesStrings.1>
+  <Hack_Spacedrone.questNameRules.rulesStrings.2>droneAdj->도난당한</Hack_Spacedrone.questNameRules.rulesStrings.2>
+  <Hack_Spacedrone.questNameRules.rulesStrings.3>droneAdj->납치된</Hack_Spacedrone.questNameRules.rulesStrings.3>
+  <Hack_Spacedrone.questNameRules.rulesStrings.4>droneAdj->도주중인</Hack_Spacedrone.questNameRules.rulesStrings.4>
+  <Hack_Spacedrone.questNameRules.rulesStrings.5>droneAdj->도망중인</Hack_Spacedrone.questNameRules.rulesStrings.5>
+  <Hack_Spacedrone.questNameRules.rulesStrings.6>data->기록</Hack_Spacedrone.questNameRules.rulesStrings.6>
+  <Hack_Spacedrone.questNameRules.rulesStrings.7>data->정보</Hack_Spacedrone.questNameRules.rulesStrings.7>
+  <Hack_Spacedrone.questNameRules.rulesStrings.8>data->자료실</Hack_Spacedrone.questNameRules.rulesStrings.8>
+  <Hack_Spacedrone.questNameRules.rulesStrings.9>data->문서</Hack_Spacedrone.questNameRules.rulesStrings.9>
+  <Hack_Spacedrone.questDescriptionRules.rulesStrings.0>questDescription->제국에서 도난당한 비행선이 도주 중이라는 소식을 들었습니다. 비행선에는 [relic_name]에 대한 정보가 담긴 기록이 있을 수 있습니다. 도망 중인 비행선 조종사에게 [map_definite]에 착륙하라고 신호를 보낼 수 있습니다.\n\n기록을 얻으려면 비행선을 수색해야 합니다. 검색에는 시간이 걸리지만, 지적 능력이 뛰어난 정착민은 정확한 기록을 더 빨리 찾을 수 있습니다. [raidsDescription]\n\n데미지를 입은 비행선은 [destroyDelayTicks_duration] 내에 폭발할 가능성이 높습니다.</Hack_Spacedrone.questDescriptionRules.rulesStrings.0>
+  <Hack_Spacedrone.questDescriptionRules.rulesStrings.1>raidsDescription(allowViolence==true)->\n\n[enemyFaction_name]의 [enemyFaction_pawnsPlural](이)가 비행선을 발견할 것입니다. 비행선이 존재하는 한, 대략 [raidIntervalAvg_duration]마다 공격자를 보내 비행선을 파괴하고 비행선에 들어 있다고 생각되는 보물을 훔치려 할 것입니다. 공격자가 도착하기 전에 주변에 방어를 준비할 시간이 주어집니다.</Hack_Spacedrone.questDescriptionRules.rulesStrings.1>
+  <Hack_Spacedrone.questDescriptionRules.rulesStrings.2>raidsDescription(allowViolence==false)-></Hack_Spacedrone.questDescriptionRules.rulesStrings.2>
+  <OpportunitySite_AncientComplex.questDescriptionRules.rulesStrings.0>questDescription->근처에 보물이 있을지도 모른다는 고대 구조물에 대한 정보를 입수했습니다.\n\n침입하여 내부에 있는 전리품을 수집할 수 있습니다.\n\n주의하세요 - 이러한 종류의 구조물에는 다양한 위협이 있을 수 있습니다. 또한 해당 장소에서의 활동이 원치 않는 관심을 끌 수도 있습니다.</OpportunitySite_AncientComplex.questDescriptionRules.rulesStrings.0>
+  <AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings.0>complex->요새</AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings.0>
+  <AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings.1>complex->주둔지</AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings.1>
+  <AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings.2>complex->기지</AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings.2>
+  <AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings.3>complex->요새</AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings.3>
+  <AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings.4>complex->전초기지</AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings.4>
+  <AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings.5>investigation->조사</AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings.5>
+  <AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings.6>investigation->조사</AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings.6>
+  <AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings.7>investigation->임무</AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings.7>
+  <AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings.8>investigation->탐험</AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings.8>
+  <AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings.9>investigation->탐색</AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings.9>
+  <AncientComplex_Mission.questDescriptionRules.rulesStrings.0>questDescription-> [asker_faction_name]의 [asker_faction_leaderTitle], [asker_nameDef](이)가 먼 거리에서 고대 요새를 발견했습니다. [asker_pronoun]는 [relic_name]으로 알려진 유물에 대한 정보를 담고 있을지도 모르는 고대 문자를 발견했다고 합니다.\n\n[asker_nameDef]는 이를 조사할 인력을 없어, [colonistCount] [colonistsSingularOrPlural]를 보내 조사를 도와주길 바랍니다.\n해당 거점에는 알려지지 않은 위협이 있으며 [asker_nameDef]의 적인 [enemyFaction_name]도 정보를 찾고 있습니다.\n\n[asker_pronoun]가 비행선을 보내 정착민을 태워 해당 위치로 보낸 후 다시 집으로 데려다줄 것입니다. 이동 중에 정착민에게 식사를 제공하고 돌봐줄 것입니다.\n\n착륙한 후에는 [timeoutTicks_duration] 내에 거점에 있는 모든 고대 문자를 해독해야 합니다.</AncientComplex_Mission.questDescriptionRules.rulesStrings.0>
+  <AncientComplex_Mission.questDescriptionRules.rulesStrings.1>colonistsSingularOrPlural(colonistCount==1)->정착민</AncientComplex_Mission.questDescriptionRules.rulesStrings.1>
+  <AncientComplex_Mission.questDescriptionRules.rulesStrings.2>colonistsSingularOrPlural(colonistCount>=2)->정착민들</AncientComplex_Mission.questDescriptionRules.rulesStrings.2>
+  <AncientComplex_Mission.questContentRules.rulesStrings.0>terminalHackedMessage->고대 문자를 해독했습니다. {COUNT} / [terminalCount] 완료.</AncientComplex_Mission.questContentRules.rulesStrings.0>
+  <AncientComplex_Mission.questContentRules.rulesStrings.1>passengersIncapableOfHackingDialogLabel->[passengersSingularOrPlural](이)가 해독할 수 없습니다.</AncientComplex_Mission.questContentRules.rulesStrings.1>
+  <AncientComplex_Mission.questContentRules.rulesStrings.2>passengersIncapableOfHackingDialogText->'[resolvedQuestName]' 퀘스트를 수행하는 비행선에 해독할 수 있는 승객이 없습니다. 고대 요새를 조사하려면 해독이 가능한 사람을 한 명 이상 보내야 합니다.</AncientComplex_Mission.questContentRules.rulesStrings.2>
+  <AncientComplex_Mission.questContentRules.rulesStrings.3>passengersSingularOrPlural(colonistCount==1)->승객</AncientComplex_Mission.questContentRules.rulesStrings.3>
+  <AncientComplex_Mission.questContentRules.rulesStrings.4>passengersSingularOrPlural(colonistCount>=2)->승객들</AncientComplex_Mission.questContentRules.rulesStrings.4>
+  <Hack_WorshippedTerminal.questNameRules.rulesStrings.0>questName->[adj] 석판</Hack_WorshippedTerminal.questNameRules.rulesStrings.0>
+  <Hack_WorshippedTerminal.questNameRules.rulesStrings.1>adj->숭배되는</Hack_WorshippedTerminal.questNameRules.rulesStrings.1>
+  <Hack_WorshippedTerminal.questNameRules.rulesStrings.2>adj->존경받는</Hack_WorshippedTerminal.questNameRules.rulesStrings.2>
+  <Hack_WorshippedTerminal.questNameRules.rulesStrings.3>adj->고대</Hack_WorshippedTerminal.questNameRules.rulesStrings.3>
+  <Hack_WorshippedTerminal.questNameRules.rulesStrings.4>adj->고귀한</Hack_WorshippedTerminal.questNameRules.rulesStrings.4>
+  <Hack_WorshippedTerminal.questNameRules.rulesStrings.5>adj->유명한</Hack_WorshippedTerminal.questNameRules.rulesStrings.5>
+  <Hack_WorshippedTerminal.questNameRules.rulesStrings.6>adj->부족의</Hack_WorshippedTerminal.questNameRules.rulesStrings.6>
+  <Hack_WorshippedTerminal.questNameRules.rulesStrings.7>adj->비밀</Hack_WorshippedTerminal.questNameRules.rulesStrings.7>
+  <Hack_WorshippedTerminal.questDescriptionRules.rulesStrings.0>questDescription->[relic_name]에 대한 단서를 제공할 수 있는 고대 석판에 대한 소식을 들었습니다. 하지만 석판은 부족 마을에 둘러싸여 있고, 현지인들은 이 석판을 숭배하고 있습니다. 그들은 어떤 주요 세력에도 속하지 않습니다.\n\n[visitInfo]</Hack_WorshippedTerminal.questDescriptionRules.rulesStrings.0>
+  <Hack_WorshippedTerminal.questDescriptionRules.rulesStrings.1>visitInfo(allowViolentQuests==true)->부족은 석판을 숭배하기위해 방문한다는 당신을 허락하지만, 석판을 건드리면 공격합니다.\n\n외부에서 마을을 공격하거나, 평화롭게 마을에 들어가 정보를 가지고 빠르게 탈출할 수 있습니다.\n\n주의 - 마을에서 [timer_duration]을 넘기거나 마을 근처에 무언가를 지으면 주민들이 공격하고 지원군을 부를 것입니다.</Hack_WorshippedTerminal.questDescriptionRules.rulesStrings.1>
+  <Hack_WorshippedTerminal.questDescriptionRules.rulesStrings.2>visitInfo(allowViolentQuests==false)->기꺼이 방문을 허락합니다.</Hack_WorshippedTerminal.questDescriptionRules.rulesStrings.2>
+  <Hack_WorshippedTerminal.questContentRules.rulesStrings.0>terminalHackedMessage->석판이 조사했습니다. 정보를 수집했으니 이제 떠나도 됩니다.</Hack_WorshippedTerminal.questContentRules.rulesStrings.0>
+  
+  </LanguageData>

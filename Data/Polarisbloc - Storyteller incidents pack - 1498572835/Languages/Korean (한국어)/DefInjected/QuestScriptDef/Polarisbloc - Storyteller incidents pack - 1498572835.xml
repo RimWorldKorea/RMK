@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Polaris_Quest_TradeShipPodCrash.questNameRules.rulesStrings.0>questName(priority=1)->[asker_nameDef]의 [treasure] [message]</Polaris_Quest_TradeShipPodCrash.questNameRules.rulesStrings.0>
+  <Polaris_Quest_TradeShipPodCrash.questNameRules.rulesStrings.1>questName->[treasure]의 [message]</Polaris_Quest_TradeShipPodCrash.questNameRules.rulesStrings.1>
+  <Polaris_Quest_TradeShipPodCrash.questNameRules.rulesStrings.2>message->메시지</Polaris_Quest_TradeShipPodCrash.questNameRules.rulesStrings.2>
+  <Polaris_Quest_TradeShipPodCrash.questNameRules.rulesStrings.3>message->편지</Polaris_Quest_TradeShipPodCrash.questNameRules.rulesStrings.3>
+  <Polaris_Quest_TradeShipPodCrash.questNameRules.rulesStrings.4>message->소식</Polaris_Quest_TradeShipPodCrash.questNameRules.rulesStrings.4>
+  <Polaris_Quest_TradeShipPodCrash.questNameRules.rulesStrings.5>message->비밀</Polaris_Quest_TradeShipPodCrash.questNameRules.rulesStrings.5>
+  <Polaris_Quest_TradeShipPodCrash.questNameRules.rulesStrings.6>treasure->보물</Polaris_Quest_TradeShipPodCrash.questNameRules.rulesStrings.6>
+  <Polaris_Quest_TradeShipPodCrash.questNameRules.rulesStrings.7>treasure->궤도선</Polaris_Quest_TradeShipPodCrash.questNameRules.rulesStrings.7>
+  <Polaris_Quest_TradeShipPodCrash.questNameRules.rulesStrings.8>treasure->추락선</Polaris_Quest_TradeShipPodCrash.questNameRules.rulesStrings.8>
+  <Polaris_Quest_TradeShipPodCrash.questNameRules.rulesStrings.9>treasure->기회</Polaris_Quest_TradeShipPodCrash.questNameRules.rulesStrings.9>
+  <Polaris_Quest_TradeShipPodCrash.questNameRules.rulesStrings.10>treasure->보증금</Polaris_Quest_TradeShipPodCrash.questNameRules.rulesStrings.10>
+  <Polaris_Quest_TradeShipPodCrash.questDescriptionRules.rulesStrings.0>questDescription(askerIsNull==true)->[map_definite]에서 멀지 않은 곳에 [itemStashContentsValue] 만큼 가치가 있는 귀중품에 대한 메시지를 가로챘습니다. 멀지 않은 곳에 상선이 추락해 화물을 가지러 갈 수 있습니다.\n\n수집품목 구성:\n\n[itemStashContents]\n\n[allSitePartsDescriptionsExceptFirst]</Polaris_Quest_TradeShipPodCrash.questDescriptionRules.rulesStrings.0>
+  <Polaris_Quest_TradeShipPodCrash.questDescriptionRules.rulesStrings.1>questDescription(asker_factionLeader==True)->[asker_faction_name]의 [asker_faction_leaderTitle], [asker_label](이)가 우리에게 멀지 않은 곳에 추락한 상선에 대한 소식을 알려주었습니다. [itemStashContentsValue] 만큼의 가치가 있는 추락한 상선의 화물을 가지러 갈 수 있습니다.\n\n수집품목 구성:\n\n[itemStashContents]\n\n[asker_label](은)는 [allSitePartsDescriptionsExceptFirst]</Polaris_Quest_TradeShipPodCrash.questDescriptionRules.rulesStrings.1>
+  <Polaris_Quest_TradeShipPodCrash.root.nodes.4.name>asker</Polaris_Quest_TradeShipPodCrash.root.nodes.4.name>
+  <Polaris_Quest_TradeShipPodCrash.root.nodes.4.elseNode.nodes.0.name>askerIsNull</Polaris_Quest_TradeShipPodCrash.root.nodes.4.elseNode.nodes.0.name>
+  <Polaris_Quest_TradeShipPodCrash.root.nodes.6.node.name>siteThreatChance</Polaris_Quest_TradeShipPodCrash.root.nodes.6.node.name>
+  <Polaris_Quest_TradeShipPodCrash.root.nodes.6.elseNode.name>siteThreatChance</Polaris_Quest_TradeShipPodCrash.root.nodes.6.elseNode.name>
+  <Polaris_Quest_TradeShipPodCrash.root.nodes.11.node.nodes.0.label>임무 만료됨: [resolvedQuestName]</Polaris_Quest_TradeShipPodCrash.root.nodes.11.node.nodes.0.label>
+  <Polaris_Quest_TradeShipPodCrash.root.nodes.11.node.nodes.0.text>가로챈 통신에는 다른 이들이 수집품들을 가져갔다고 알려줍니다. [resolvedQuestName] 임무가 만료되었습니다.</Polaris_Quest_TradeShipPodCrash.root.nodes.11.node.nodes.0.text>
+</LanguageData>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AlertRitualSustainSingle_Label>의식 : 굶주리지 않는 드래곤</AlertRitualSustainSingle_Label>
+  <AlertRitualSustainSingle_Desc>지도상에 있는 드래곤은 {DURATION} 동안 굶주리지 않습니다.</AlertRitualSustainSingle_Desc>
+  <AlertRitualSustainMultiple_Label>의식 : 굶주리지 않는 드래곤들</AlertRitualSustainMultiple_Label>
+  <AlertRitualSustainMultiple_Desc>지도상에 있는 그 어떤 드래곤도 {DURATION} 동안 굶주리지 않습니다.</AlertRitualSustainMultiple_Desc>
+  <AlertRitualWardMultiple_Label>의식 : 드래곤으로부터 방어</AlertRitualWardMultiple_Label>
+  <AlertRitualWardMultiple_Desc>야생 드래곤을 맵에서 쫓아내고, 아군 드래곤은 {DURATION} 동안 정신이상을 얻지 못합니다.</AlertRitualWardMultiple_Desc>
+  <LetterLabelDragonsPasses>방황하는 드래곤</LetterLabelDragonsPasses>
+  <LetterDragonsPasses>방황하는 {DRAGON} (이)가 문 앞에 나타납니다. 이를 길들이려 시도할 수는 있지만, 조심하세요. 그들은 선물을 들었다고 해서 친절해지지는 않습니다. 아니면 강력하고 희귀한 뿔과 가죽을 위해 이들을 사냥할 수도 있습니다. 그들은 2,3일 후에 떠날 것입니다.</LetterDragonsPasses>
+  <LetterLabelDragonsHunting>드래곤 사냥</LetterLabelDragonsHunting>
+  <LetterDragonsHunting>배고픈 {DRAGON} (이)가 {ANIMAL}의 무리를 추적하던 중, 마침 정착지에 도착하게 되었습니다. 이를 길들이려 시도할 수는 있지만, 조심하세요. 그들은 선물을 들었다고 해서 친절해지지는 않습니다. 아니면 강력하고 희귀한 뿔과 가죽을 위해 이들을 사냥할 수도 있습니다. 며칠 후에 떠날 것입니다.</LetterDragonsHunting>
+  <DragonLayingEggMessage>{PARENT} (이)가 {EGG} (을)를 낳았습니다.</DragonLayingEggMessage>
+  <DragonEggRuinedIncubatorMessage>경고: {EGG}(이)가 망가졌습니다.</DragonEggRuinedIncubatorMessage>
+  <DragonMateSpawnMessage>{MATE}(이)가 짝짓기 신호를 들었습니다!</DragonMateSpawnMessage>
+  <RitualNoTargetMessage>범위 내에 적용 가능한 대상이 없습니다.</RitualNoTargetMessage>
+  <RitualControlNeedsOnMessage>{TARGET}(은)는 신비롭게 만족한 듯 합니다. (기간: {DURATION})</RitualControlNeedsOnMessage>
+  <RitualControlNeedsOffMessage>{TARGET}(이)가 다시금 굶주리기 시작합니다.</RitualControlNeedsOffMessage>
+  <RitualControlNeedsAllOnMessage>드래곤들은 신비로운 포만감을 느낍니다. (기간: {DURATION})</RitualControlNeedsAllOnMessage>
+  <RitualControlNeedsAllOffMessage>드래곤들은 다시금 굶주리기 시작합니다.</RitualControlNeedsAllOffMessage>
+  <RitualHediffRemoveMessage>{HEDIFF}에서 {TARGET}(이)가 복구되었습니다 .</RitualHediffRemoveMessage>
+  <RitualHediffRemoveAllMessage>{HEDIFF}에서 드래곤 {COUNT}(을)를 회수했습니다.</RitualHediffRemoveAllMessage>
+  <RitualCalmDownMessage>{TARGET}(이)가 진정됩니다.</RitualCalmDownMessage>
+  <RitualCalmDownAllMessage>{COUNT} 드래곤이 진정되었습니다.</RitualCalmDownAllMessage>
+  <RitualBanishMessage>{TARGET}(이)가 추방되었습니다.</RitualBanishMessage>
+  <RitualBanishAllMessage>드래곤 {COUNT} 마리가 추방되었습니다.</RitualBanishAllMessage>
+  <RitualWardOnMessage>정착지가 드라코닉 분노로부터 보호됩니다. (기간: {DURATION})</RitualWardOnMessage>
+  <RitualWardOffMessage>정착지가 드라코닉 분노로부터 보호됩니다.</RitualWardOffMessage>
+  <Settings_DragonCategory>드래곤의 혈통</Settings_DragonCategory>
+  <Setting_Select>모두 선택</Setting_Select>
+  <Setting_Deselect>모두 선택취소</Setting_Deselect>
+  <Setting_Reset>모두 초기화</Setting_Reset>
+  <Setting_WildSpawn>야생 산란</Setting_WildSpawn>
+  <Setting_WildSpawn_Title>야생 드래곤 생성 [{0}]</Setting_WildSpawn_Title>
+  <Setting_WildSpawn_Description>생물군계 규칙에서 {0} 생성을 허용/비허용 합니다.</Setting_WildSpawn_Description>
+  <Setting_EventSpawn>사건</Setting_EventSpawn>
+  <Setting_EventSpawn_Title>사건 허용 [{0}]</Setting_EventSpawn_Title>
+  <Setting_EventSpawn_Description>이벤트 트리거 여부를 제어합니다.</Setting_EventSpawn_Description>
+  <Setting_Compatibility>호환성 패치</Setting_Compatibility>
+  <Setting_Compatibility_KFM_Range_Title>[Kill For Me(Inactive)]: 원거리 공격 무시</Setting_Compatibility_KFM_Range_Title>
+  <Setting_Compatibility_KFM_Range_Description>킬 포 미의 원거리 공격 무시 목록에 드래곤을 추가하여 원거리 공격을 사용하려고 할 때 충돌/끊김을 중지합니다.</Setting_Compatibility_KFM_Range_Description>
+  <Setting_Compatibility_HFM_Range_Title>[Hunt For Me(Inactive)]: 원거리 공격 무시</Setting_Compatibility_HFM_Range_Title>
+  <Setting_Compatibility_HFM_Range_Description>헌트 포 미의 원거리 공격 무시 목록에 드래곤을 추가하여 원거리 공격을 사용하려고 할 때 충돌/끊김을 중지합니다.</Setting_Compatibility_HFM_Range_Description>
+  <Setting_Compatibility_ARA_VerbCheck_Title>[Alpha Animals (OLD)]: 예전 VerbCheck 패치 교체</Setting_Compatibility_ARA_VerbCheck_Title>
+  <Setting_Compatibility_ARA_VerbCheck_Description>알파 애니멀에서 이전 접두사 패치 ARA__VerbCheck_Patch 를 감지하고 더 호환되는 버전으로 교체합니다.\n\n(알파 애니멀은 이후 더 호환되는 버전을 사용하도록 업데이트 되었으며, 이 패치는 여전히 이전 버전을 사용하고 있는 플레이어를 위해 존재하는 것입니다.)</Setting_Compatibility_ARA_VerbCheck_Description>
+  <Setting_Compatibility_Warning>게임을 다시 시작할 때 까지 변경 사항이 적용되지 않습니다.</Setting_Compatibility_Warning>
+  <Setting_FightingJobs>호환성 패치 [Fighting Jobs]</Setting_FightingJobs>
+  <Setting_FightingJobs_Note>일부 기능은 림이 가지고있는 현재 작업이 '싸움'작업으로 간주되는지 여부에 따라 다릅니다.\n드래곤과 싸우는 것에 관련하여 드래곤이 시작할 수 있는 모드 작업이 있다면 패치되도록 합니다. PawnUtility.IsFighting()의 메이커 또는 이 호환성 목록에 추가됩니다.</Setting_FightingJobs_Note>
+  <Setting_FightingJobs_Add>JobDef 항목에 추가</Setting_FightingJobs_Add>
+  <Setting_FightingJobs_Remove>제거</Setting_FightingJobs_Remove>
+
+</LanguageData>

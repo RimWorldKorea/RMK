@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ThreatReward_Manhunters_Joiner.questNameRules.rulesStrings.0>questName(animalCount==1)->[joiner_nameDef]의 [animalKind_label]</ThreatReward_Manhunters_Joiner.questNameRules.rulesStrings.0>
+  <ThreatReward_Manhunters_Joiner.questNameRules.rulesStrings.1>questName(animalCount==1)->[joiner_nameDef](와)과 [animalKind_label]</ThreatReward_Manhunters_Joiner.questNameRules.rulesStrings.1>
+  <ThreatReward_Manhunters_Joiner.questNameRules.rulesStrings.2>questName(animalCount==1)->[animalKind_label](와)과 [joiner_nameDef]</ThreatReward_Manhunters_Joiner.questNameRules.rulesStrings.2>
+  <ThreatReward_Manhunters_Joiner.questNameRules.rulesStrings.3>questName(animalCount==2)->[joiner_nameDef]의 [animalKind_labelPlural]</ThreatReward_Manhunters_Joiner.questNameRules.rulesStrings.3>
+  <ThreatReward_Manhunters_Joiner.questNameRules.rulesStrings.4>questName(animalCount==2)->[joiner_nameDef](와)과 [animalKind_labelPlural]</ThreatReward_Manhunters_Joiner.questNameRules.rulesStrings.4>
+  <ThreatReward_Manhunters_Joiner.questNameRules.rulesStrings.5>questName(animalCount==2)->[animalKind_labelPlural](와)과 [joiner_nameDef]</ThreatReward_Manhunters_Joiner.questNameRules.rulesStrings.5>
+  <ThreatReward_Manhunters_Joiner.questDescriptionRules.rulesStrings.0>questDescription(animalCount==1)->[joiner_age]세의 [joiner_title] [joiner_nameDef](이)가 근처에서 당신을 호출합니다. [joiner_pronoun]는 인간 사냥 [animalKind_label] 무리가 [joiner_objective] 사냥 중이라고 말합니다.
+\n[joiner_pronoun]가 보호를 요청하며 [map_definite]의 당신에게 합류할 의사를 보였습니다.[joiner_relationInfo]
+\n만일 당신이 [joiner_nameDef](을)를 받아들인다면, 인간 사냥 [animalKind_label] 무리가 [manhuntersDelayTicks_duration] 시간 안에 공격해 올 것입니다.
+\n[joiner_nameDef](은)는 너무 겁에 질려 더 많은 정보를 줄 수 없습니다.</ThreatReward_Manhunters_Joiner.questDescriptionRules.rulesStrings.0>
+  <ThreatReward_Manhunters_Joiner.questDescriptionRules.rulesStrings.1>manhunterArrivalLetterEnd(animalCount==1)->[animalKind_label](이)가 [joiner_nameDef](을)를 쫒고 있습니다.</ThreatReward_Manhunters_Joiner.questDescriptionRules.rulesStrings.1>
+  <ThreatReward_Manhunters_Joiner.questDescriptionRules.rulesStrings.2>questDescription(animalCount>=2)->[joiner_age]세의 [joiner_title] [joiner_nameDef](이)가 근처에서 당신을 호출합니다. [joiner_pronoun]는 [animalCount] 마리의 인간 사냥 [animalKind_labelPlural] 무리가 [joiner_objective] 사냥 중이라고 말합니다.
+\n[joiner_pronoun]가 보호를 요청하며 [map_definite]의 당신에게 합류할 의사를 보였습니다.[joiner_relationInfo]
+\n만일 당신이 [joiner_nameDef](을)를 받아들인다면, 인간 사냥 [animalKind_labelPlural] 무리가 [manhuntersDelayTicks_duration] 시간 안에 공격해 올 것입니다.
+[\n[joiner_nameDef](은)는 너무 겁에 질려 더 많은 정보를 줄 수 없습니다.</ThreatReward_Manhunters_Joiner.questDescriptionRules.rulesStrings.2>
+  <ThreatReward_Manhunters_Joiner.questDescriptionRules.rulesStrings.3>manhunterArrivalLetterEnd(animalCount==2)->[animalKind_labelPlural](이)가 [joiner_nameDef](을)를 쫒고 있습니다.</ThreatReward_Manhunters_Joiner.questDescriptionRules.rulesStrings.3>
+  <ThreatReward_Manhunters_Joiner.root.nodes.6.node.nodes.0.customLetterLabel>{BASELABEL}: [joiner_nameDef] 추적</ThreatReward_Manhunters_Joiner.root.nodes.6.node.nodes.0.customLetterLabel>
+  <ThreatReward_Manhunters_Joiner.root.nodes.6.node.nodes.0.customLetterText>{BASETEXT}\n\n[manhunterArrivalLetterEnd]</ThreatReward_Manhunters_Joiner.root.nodes.6.node.nodes.0.customLetterText>
+  <ThreatReward_GameCondition_Joiner.questNameRules.rulesStrings.0>questName->[joiner_nameDef]의 [gameCondition_label]</ThreatReward_GameCondition_Joiner.questNameRules.rulesStrings.0>
+  <ThreatReward_GameCondition_Joiner.questNameRules.rulesStrings.1>questName->[joiner_nameDef](와)과 [gameCondition_label]</ThreatReward_GameCondition_Joiner.questNameRules.rulesStrings.1>
+  <ThreatReward_GameCondition_Joiner.questNameRules.rulesStrings.2>questName->[gameCondition_label](와)과 [joiner_nameDef]</ThreatReward_GameCondition_Joiner.questNameRules.rulesStrings.2>
+  <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings.0>questDescription->[joiner_age]살의 [joiner_title], [joiner_nameFull](이)가 도움을 요청하고 있습니다! [joiner_pronoun]는 [hidingFrom](으)로부터 숨어 있습니다. [joiner_pronoun]는 도망쳐서 [map_definite]에 합류하고 싶어 합니다.[joiner_relationInfo]
+\n[condDesc]
+\n지금 상황이 절망적이라, [joiner_nameDef](은)는 자신에 대한 정보를 더 제공하기 힘들다고 말합니다.</ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings.0>
+  <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings.1>hidingFrom(gameCondition==ToxicFallout)->굶주린 늑대무리</ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings.1>
+  <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings.2>condDesc(gameCondition==ToxicFallout)->그러나, [joiner_nameDef](은)는 근처의 거대한 독성 화학 폐기물에 불을 질러야만 늑대떼를 죽일 수 있으며, [gameConditionDuration_duration] 동안 유독성 낙진이 발생됩니다.</ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings.2>
+  <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings.3>hidingFrom(gameCondition==VolcanicWinter)->식인 동물무리</ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings.3>
+  <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings.4>condDesc(gameCondition==VolcanicWinter)->그러나, [joiner_nameDef](은)는 근처의 거대한 쓰레기장에 불을 질러야만 무리들을 죽일 수 있습니다. [joiner_pronoun]가 오게 된다면, [gameConditionDuration_duration] 동안 자욱한 먼지가 태양을 가리게 됩니다.</ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings.4>
+  <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings.5>hidingFrom(gameCondition==EMIField)->메카노이드 무리</ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings.5>
+  <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings.6>condDesc(gameCondition==EMIField)->그러나, [joiner_nameDef](은)는 고대 EMI 발전기를 활성해야만 메카노이드를 파괴할 수 있습니다. [joiner_pronoun]가 오게 된다면, [gameConditionDuration_duration] 동안 EMI 필드가 생성되어, 전기 장치들이 꺼지게 됩니다.</ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings.6>
+  <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings.7>hidingFrom(gameCondition==HeatWave)->오작동하는 기후 제어 위성</ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings.7>
+  <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings.8>condDesc(gameCondition==HeatWave)->만약 [joiner_pronoun]가 오게 된다면, 위성이 리셋되는 [gameConditionDuration_duration] 동안 폭염이 정착지를 덮치게 됩니다.</ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings.8>
+  <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings.9>hidingFrom(gameCondition==HeatWave)->오작동하는 기후 제어 위성</ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings.9>
+  <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings.10>condDesc(gameCondition==HeatWave)->만약 [joiner_pronoun]가 오게 된다면, 위성이 리셋되는 [gameConditionDuration_duration] 동안 한파가 정착지를 덮치게 됩니다.</ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings.10>
+  <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings.11>hidingFrom(gameCondition==HeatWave)->오작동하는 기후 제어 위성</ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings.11>
+  <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings.12>condDesc(gameCondition==HeatWave)->만약 [joiner_pronoun]가 오게 된다면, 위성이 리셋되는 [gameConditionDuration_duration] 동안 날씨가 [forcedWeather_label](으)로 고정 됩니다.</ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings.12>
+  <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings.13>hidingFrom(gameCondition==PsychicSuppression)->[joiner_pronoun]가 최근에 깨워버린 복수에 불타는 기계</ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings.13>
+  <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings.14>condDesc(gameCondition==PsychicSuppression)->[joiner_pronoun]가 오게 된다면, [gameConditionDuration_duration] 동안 [psychicDroneGender]에게 맞춰진 [psychicDroneLevel] 레벨의 정신파동을 일으켜, [map_definite]에 있는 모든 [psychicDroneGender]의 의식이 감소하게 됩니다.</ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings.14>
+  <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings.15>hidingFrom(gameCondition==PsychicSuppression)->[joiner_pronoun]가 최근에 깨워버린 움직이는 기계</ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings.15>
+  <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings.16>condDesc(gameCondition==PsychicSuppression)->[joiner_pronoun]가 오게 된다면, [gameConditionDuration_duration] 동안 [psychicSuppressorGender]에게 맞춰진 정신파동을 일으켜, [map_definite]에 있는 모든 [psychicSuppressorGender]의 의식이 감소하게 됩니다.</ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings.16>
+  <ThreatReward_SiteThreat_Joiner.questNameRules.rulesStrings.0>questName->[joiner_nameDef]의 [site/site_label]</ThreatReward_SiteThreat_Joiner.questNameRules.rulesStrings.0>
+  <ThreatReward_SiteThreat_Joiner.questNameRules.rulesStrings.1>questName->[joiner_nameDef](와)과 [site/site_label]</ThreatReward_SiteThreat_Joiner.questNameRules.rulesStrings.1>
+  <ThreatReward_SiteThreat_Joiner.questNameRules.rulesStrings.2>questName->[site/site_label](와)과 [joiner_nameDef]</ThreatReward_SiteThreat_Joiner.questNameRules.rulesStrings.2>
+  <ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings.0>questDescription->[joiner_age]세의 [joiner_title] [joiner_nameFull]가 근처에서 당신을 호출합니다. [joiner_pronoun]는 [threat](을)를 피해 숨어있습니다. [joiner_pronoun]는 [joiner_possessive] 은신처를 벗어나 [map_definite]의 당신에게 합류를 요청하고 있습니다. [joiner_relationInfo]
+\n만일 당신이 [joiner_objective] 받아들인다면, [joinersEnemies](이)가 근처에서 자리를 잡고 당신을 방해 할 것입니다. [site/allSitePartsDescriptions]
+\n이 기지는 당신이 파괴하기 전까지 남습니다.</ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings.0>
+  <ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings.1>threat(priority=1)->[site/enemyFaction_pawnsPlural]의 [site/enemyFaction_name]</ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings.1>
+  <ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings.2>threat->알 수 없는 적들</ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings.2>
+  <ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings.3>joinersEnemies(priority=1)->[site/enemyFaction_name]</ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings.3>
+  <ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings.4>joinersEnemies->[joiner_possessive] 적들</ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings.4>
+  <ThreatReward_SiteThreat_Joiner.root.nodes.5.node.nodes.0.parms.customLetterText>[../joiner_nameDef](을)를 받아들였기에 [../threat](이)가 정착지 주변에서 시작되었습니다.
+                    \n[allSitePartsDescriptions]</ThreatReward_SiteThreat_Joiner.root.nodes.5.node.nodes.0.parms.customLetterText>
+  <ThreatReward_RaidMultiFaction_Joiner.questNameRules.rulesStrings.0>questName->[joiner_nameDef]의 친구들</ThreatReward_RaidMultiFaction_Joiner.questNameRules.rulesStrings.0>
+  <ThreatReward_RaidMultiFaction_Joiner.questNameRules.rulesStrings.1>questName->[joiner_nameDef]의 적들</ThreatReward_RaidMultiFaction_Joiner.questNameRules.rulesStrings.1>
+  <ThreatReward_RaidMultiFaction_Joiner.questDescriptionRules.rulesStrings.0>questDescription->[joiner_age]세의 [joiner_title] [joiner_nameDef]가 근처에서 당신을 호출합니다. [joiner_pronoun]가 자신이 [raid1/enemyFaction_name](와)과 [raid2/enemyFaction_name] 간의 평화 협상을 모독했음을 인정합니다. 이제 그들은 둘 다 [joiner_objective] 추격하고 있습니다!
+\n[joiner_pronoun]는 보호를 요청하고 [map_definite]의 당신에게 합류할 의사를 표현합니다. [joiner_relationInfo]
+\n만일 당신이 [joiner_nameDef](을)를 받아들인다면, [raid1/enemyFaction_name](와)과 [raid2/enemyFaction_name] 둘 다 [raidDelayTicks_duration] 시간 안에 당신을 습격할 것입니다.
+\n[joiner_nameDef](은)는 너무 겁에 질려 더 이상의 정보를 줄 수 없습니다.</ThreatReward_RaidMultiFaction_Joiner.questDescriptionRules.rulesStrings.0>
+  <ThreatReward_RaidMultiFaction_Joiner.root.nodes.9.node.nodes.0.parms.customLetterLabel>{BASELABEL} 추적 [../joiner_nameDef]</ThreatReward_RaidMultiFaction_Joiner.root.nodes.9.node.nodes.0.parms.customLetterLabel>
+  <ThreatReward_RaidMultiFaction_Joiner.root.nodes.9.node.nodes.0.parms.customLetterText>{BASETEXT}
+              \n[enemyFaction_pawnsPlural](이)가 [../joiner_nameFull](을)를 잡기 위해 접근하고 있습니다.</ThreatReward_RaidMultiFaction_Joiner.root.nodes.9.node.nodes.0.parms.customLetterText>
+  <ThreatReward_RaidMultiFaction_Joiner.root.nodes.9.node.nodes.1.node.nodes.0.parms.customLetterLabel>{BASELABEL} 추적 [../joiner_nameDef]</ThreatReward_RaidMultiFaction_Joiner.root.nodes.9.node.nodes.1.node.nodes.0.parms.customLetterLabel>
+  <ThreatReward_RaidMultiFaction_Joiner.root.nodes.9.node.nodes.1.node.nodes.0.parms.customLetterText>{BASETEXT}
+              \n[enemyFaction_pawnsPlural](이)가 [../joiner_nameFull](을)를 잡기 위해 접근하고 있습니다.</ThreatReward_RaidMultiFaction_Joiner.root.nodes.9.node.nodes.1.node.nodes.0.parms.customLetterText>
+  <ThreatReward_MysteryThreat_Joiner.questNameRules.rulesStrings.0>questName->[joiner_nameDef]의 [problem]</ThreatReward_MysteryThreat_Joiner.questNameRules.rulesStrings.0>
+  <ThreatReward_MysteryThreat_Joiner.questNameRules.rulesStrings.1>questName->[joiner_nameDef]의 [problem]</ThreatReward_MysteryThreat_Joiner.questNameRules.rulesStrings.1>
+  <ThreatReward_MysteryThreat_Joiner.questNameRules.rulesStrings.2>problem->문제</ThreatReward_MysteryThreat_Joiner.questNameRules.rulesStrings.2>
+  <ThreatReward_MysteryThreat_Joiner.questNameRules.rulesStrings.3>problem->수치</ThreatReward_MysteryThreat_Joiner.questNameRules.rulesStrings.3>
+  <ThreatReward_MysteryThreat_Joiner.questNameRules.rulesStrings.4>problem->비밀</ThreatReward_MysteryThreat_Joiner.questNameRules.rulesStrings.4>
+  <ThreatReward_MysteryThreat_Joiner.questDescriptionRules.rulesStrings.0>questDescription->[joiner_age]세의 [joiner_title] [joiner_nameDef](이)가 근처에서 당신을 호출합니다. [joiner_pronoun]는 [map_definite]의 당신에게 합류를 요청하고 있습니다. [joiner_relationInfo]
+\n[joiner_nameDef]의 뒤를 따라오는 위협이 있지만, [joiner_pronoun]는 그 위협이 무엇인지도 언제 올지도 말하기를 거부했습니다.
+[joiner_pronoun]는 또한 자신에 대해서도 더 이상 말하려 하지 않습니다.</ThreatReward_MysteryThreat_Joiner.questDescriptionRules.rulesStrings.0>
+</LanguageData>

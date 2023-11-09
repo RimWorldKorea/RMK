@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PF_SettingsCategory>발효통 프레임워크</PF_SettingsCategory>
+  <PF_ShowProcessIcon>진행 아이콘 표시</PF_ShowProcessIcon>
+  <PF_ShowProcessIconTooltip>체크하면 활성화된 건물에 진행 아이콘을 표시할 수 있고, 해제하면 표시되지 않습니다. (기본값: 켜짐)</PF_ShowProcessIconTooltip>
+  <PF_ProcessIconSize>진행 아이콘 크기</PF_ProcessIconSize>
+  <PF_ProcessIconSizeTooltip>건물에 표시되는 아이콘의 크기를 설정합니다. (기본값: 60%)</PF_ProcessIconSizeTooltip>
+  <PF_ShowCurrentQualityIcon>현재 품질 표시</PF_ShowCurrentQualityIcon>
+  <PF_ShowCurrentQualityIconTooltip>발효 진행도 옆에 현재 품질을 나타내는 그림을 표시합니다.</PF_ShowCurrentQualityIconTooltip>
+  <PF_ShowTargetQualityIcon>목표 품질 표시</PF_ShowTargetQualityIcon>
+  <PF_ShowTargetQualityIconTooltip>양조 중인 제품 그림 옆에 목표 품질을 나타내는 그림을 표시합니다.</PF_ShowTargetQualityIconTooltip>
+  <PF_SingleItemIcon>단일 품목 표시</PF_SingleItemIcon>
+  <PF_SingleItemIconTooltip>활성화 한 경우, 양조 중인 제품 그림을 단일 품목으로 표시하고, 아닌 경우, 복수 품목으로 표시합니다. (기본값 : 활성화)</PF_SingleItemIconTooltip>
+  <PF_ProductIcon>제작품 아이콘 보이기</PF_ProductIcon>
+  <PF_ProductIconTooltip>처리기를 선택하여 검사 탭에서 제품 옆에 아이콘을 표시합니다.</PF_ProductIconTooltip>
+  <PF_IngredientIcon>재료 아이콘 표시</PF_IngredientIcon>
+  <PF_IngredientIconTooltip>처리기를 선택하여 검사 탭에서 재료 옆에 아이콘을 표시합니다.</PF_IngredientIconTooltip>
+  <PF_initialProcessState>처리기의 기본 설정</PF_initialProcessState>
+  <PF_initialProcessStateTooltip>이 설정은 새로 구축된 처리기가 해당 처리를 전환하는 방법을 제어합니다.</PF_initialProcessStateTooltip>
+  <PF_firstOnly>처음만</PF_firstOnly>
+  <PF_firstOnlyTooltip>새로 건설된 처리기의 첫 번째 처리만 활성화됩니다.</PF_firstOnlyTooltip>
+  <PF_allEnabled>활성</PF_allEnabled>
+  <PF_allEnabledTooltip>새로 건설된 처리기의 모든 처리가 활성화됩니다.</PF_allEnabledTooltip>
+  <PF_allDisabled>비활성</PF_allDisabled>
+  <PF_allDisabledTooltip>새로 건설된 처리기의 모든 처리 과정이 비활성화됩니다.</PF_allDisabledTooltip>
+  <PF_defaultQuality>기본 목표 품질</PF_defaultQuality>
+  <PF_defaultQualityTooltip>품질을 사용하는 처리의 목표 품질 설정</PF_defaultQualityTooltip>
+  <PF_replaceDestroyedProcessors>파괴된 발효통교체</PF_replaceDestroyedProcessors>
+  <PF_replaceDestroyedProcessorsTooltip>일부 처리 과정은 처리기를 파괴하므로 이 옵션을 활성화하면 발생하는 경우 청사진이 배치됩니다.</PF_replaceDestroyedProcessorsTooltip>
+  <PF_ReplaceVanillaBarrels>바닐라의 발효통 교체</PF_ReplaceVanillaBarrels>
+  <PF_ReplaceVanillaBarrelsTooltip>멀티플레이어 안전이 아닌 기존 게임에 PF를 추가한 후 사용하도록 의도된 PF용 모든 바닐라 발효통을 대체합니다.</PF_ReplaceVanillaBarrelsTooltip>
+  <PF_DefaultSettings>기본값으로 재설정</PF_DefaultSettings>
+  <PF_DefaultSettingsTooltip>기본값으로 초기화</PF_DefaultSettingsTooltip>
+  <PF_emptyNow>이 처리기를 비우도록 지정</PF_emptyNow>
+  <PF_emptyNowDescription>품질에 관계없이 이 프로세서를 정착지 주민들이 비우도록 지정합니다.</PF_emptyNowDescription>
+  <PF_dontEmpty>비우기 지정 취소</PF_dontEmpty>
+  <PF_dontEmptyDescription>이 처리기의 비우기를 취소합니다.</PF_dontEmptyDescription>
+  <PF_ContainsIngredientsGeneric>수용량: {0} / {1}</PF_ContainsIngredientsGeneric>
+  <PF_ContainsIngredient>수용량: {0} / {1} {INGREDIENTS}</PF_ContainsIngredient>
+  <PF_ContainsProduct>수용량: {0} / {1} {PRODUCT_label} ({QUALITY})</PF_ContainsProduct>
+  <PF_NoIngredient>재료 없음</PF_NoIngredient>
+  <PF_Progress>진행: {0} ({1})</PF_Progress>
+  <PF_NumProcessing>{0}{STACKS} 제작중</PF_NumProcessing>
+  <PF_RunningStacksNoun>묶음</PF_RunningStacksNoun>
+  <PF_RunningCountSlow> ({0} 느려짐)</PF_RunningCountSlow>
+  <PF_RunningCountFinished> ({0} 완료됨)</PF_RunningCountFinished>
+  <PF_RunningCountRuined> ({0} 망함)</PF_RunningCountRuined>
+  <PF_RunningInfo>진행 ({0} 완료됨)</PF_RunningInfo>
+  <PF_RunningSlow>진행 느려짐: {0} 속도 ({0} 완료됨)</PF_RunningSlow>
+  <PF_NonIdealInfluences>적정 조건 벗어남: {0}</PF_NonIdealInfluences>
+  <PF_NonIdealSpeedFactor>속도: {0}</PF_NonIdealSpeedFactor>
+  <PF_IdealSafeProductionTemperature>적절한 (안전한) 생산 온도</PF_IdealSafeProductionTemperature>
+  <PF_Finished>완료됨</PF_Finished>
+  <PF_Ideal>적절함</PF_Ideal>
+  <PF_Safe>안전함</PF_Safe>
+  <PF_Ruined>망함</PF_Ruined>
+  <PF_NA>-</PF_NA>
+  <PF_None>없음</PF_None>
+  <PF_WeatherTemperature>온도</PF_WeatherTemperature>
+  <PF_WeatherSunshine>햇빛</PF_WeatherSunshine>
+  <PF_WeatherRain>비</PF_WeatherRain>
+  <PF_WeatherSnow>눈</PF_WeatherSnow>
+  <PF_WeatherWind>바람</PF_WeatherWind>
+  <PF_NextDesc>{1}(으)로 {0}(을)를 만듭니다.</PF_NextDesc>
+  <PF_SetQualityDesc>목표 품질을 설정합니다.</PF_SetQualityDesc>
+  <PF_OldBarrelInspectString>오래된 바닐라 통, 어디에나 설치하여 만능 발효조로 교체</PF_OldBarrelInspectString>
+  <PF_ITab_ItemSelection>처리기</PF_ITab_ItemSelection>
+  <PF_ApplySettings>설정 적용</PF_ApplySettings>
+  <PF_DestroyChanceTooltip>이 제품이 회수되면 발효조가 파괴됩니다.</PF_DestroyChanceTooltip>
+  <PF_EfficiencyTooltip>한 제품에 필요한 재료의 양</PF_EfficiencyTooltip>
+  <PF_TabProductFilter>제작품</PF_TabProductFilter>
+  <PF_TabIngredientFilter>필터</PF_TabIngredientFilter>
+  <PF_TabContents>내용물</PF_TabContents>
+  <PF_FermentingItems>재료</PF_FermentingItems>
+  <PF_Product>제작품</PF_Product>
+  <PF_TargetQuality>목표</PF_TargetQuality>
+  <PF_CreatingTooltip1>{INGREDIENT}로 {PRODUCT}{QUALITY} 제작중.\n</PF_CreatingTooltip1>
+  <PF_CreatingTooltip2_Quality>\n끔찍한 품질 처리 시간:{TOAWFUL}\n</PF_CreatingTooltip2_Quality>
+  <PF_CreatingTooltip2_NoQuality>\n제작 시간: {TIME}\n</PF_CreatingTooltip2_NoQuality>
+  <PF_CreatingTooltip3>\n이상적인 작동 온도: {MIN}~{MAX}.\n</PF_CreatingTooltip3>
+  <PF_CreatingTooltip4>안전한 온도: {MIN}~{MAX}.\n손상 비율: {PERHOUR} / 온도 / 시\n</PF_CreatingTooltip4>
+  <PF_CreatingTooltip5>\n{0} 제품이 손상되었습니다.\n</PF_CreatingTooltip5>
+  <PF_CreatingTooltip6>지금 망치고 있습니다! 온도가 {0} 입니다!</PF_CreatingTooltip6>
+  <PF_SpeedTooltip1>{COMPLETEPERCENT} 완료\n속도: {SPEED}\n\n</PF_SpeedTooltip1>
+  <PF_SpeedTooltip2>속도 요인:\n온도: {TEMPERATURE}\n바람: {WIND}\n일: {SUN}\n비: {RAIN}\n눈: {SNOW}\n\n</PF_SpeedTooltip2>
+  <PF_SpeedTooltip3>예상 완료 시간: {ESTIMATED}</PF_SpeedTooltip3>
+  <PF_QualityTooltip1>목표 품질:{TARGET}\n현재 품질: {CURRENT}\n\n</PF_QualityTooltip1>
+  <PF_QualityTooltip2>남은 처리 시간\n나쁨: {AWFUL}\n나쁨: {POOR}\n보통: {NORMAL}\n좋음: {GOOD}\n우수: {EXCELLENT}\n걸작: {MASTERWORK}\n전설: {LEGENDARY}</PF_QualityTooltip2>
+  <PF_QualityTooltipNA>{PRODUCT_label}(은)는 항상 같은 품질입니다.</PF_QualityTooltipNA>
+</LanguageData>

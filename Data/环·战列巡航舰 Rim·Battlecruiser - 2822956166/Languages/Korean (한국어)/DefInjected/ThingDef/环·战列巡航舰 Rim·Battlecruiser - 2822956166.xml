@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MYDE_Battlecruiser_Base.label>스타포트</MYDE_Battlecruiser_Base.label>
+  <MYDE_Battlecruiser_Base.description>스타포트는 배틀크루저를 유지 및 보수하고, 지휘하며, 야마토 포 발사 명령을 내리는 데 사용되는 건물입니다.\n\n연료 및 탄약 보관 상태는 각 모듈에 의해 독립적으로 완료됩니다. 스타포트는 최대 10초마다 재료 창고를 확인합니다. 스타포트는 배틀크루저가 출격했을 때 스타포트의 재료 창고가 아닌 배틀크루저의 재료 보관 상태를 확인합니다.(비행 중 "전투순양함"에 탄약 보충 및 모듈 추가는 허용되지 않습니다.)\n\n배틀크루저는 연료 모듈에 연료가 존재할 때만 출격할 수 있습니다.\n\n배틀크루저:\n1.3000의 내구도를 보유합니다. 적이 배틀크루저를 공격했을 때, 스타포트를 수리하여 피해를 복구할 수 있습니다.\n2.배틀크루저는 스타포트 주변 2칸에 다양한 모듈을 설치하여 강화할 수 있습니다.\n3.배틀크루저에게 귀환 명령을 내리면 남은 에너지와 재료를 대부분 반환합니다. 배틀크루저의 내구도가 0에 달하면 남은 재료를 소모하여 압축 폭발을 일으킵니다.\n4.제작 계획서를 10칸 사용합니다.（CE-Hover Order 비활성화）</MYDE_Battlecruiser_Base.description>
+  <MYDE_Battlecruiser_Base_Stuffer_Chemfuel.label>연료 모듈</MYDE_Battlecruiser_Base_Stuffer_Chemfuel.label>
+  <MYDE_Battlecruiser_Base_Stuffer_Chemfuel.description>배틀크루저에 연료를 공급합니다. 각각의 모듈은 30초의 출격 시간을 제공합니다. \n(충전 시 화학연료 60개 필요)</MYDE_Battlecruiser_Base_Stuffer_Chemfuel.description>
+  <MYDE_Battlecruiser_Base_Stuffer_Chemfuel.comps.0.fuelLabel>연료</MYDE_Battlecruiser_Base_Stuffer_Chemfuel.comps.0.fuelLabel>
+  <MYDE_Battlecruiser_Base_Stuffer_Chemfuel.comps.0.fuelGizmoLabel>연료</MYDE_Battlecruiser_Base_Stuffer_Chemfuel.comps.0.fuelGizmoLabel>
+  <MYDE_Battlecruiser_Base_Stuffer_GunAmmo.label>기관포 모듈</MYDE_Battlecruiser_Base_Stuffer_GunAmmo.label>
+  <MYDE_Battlecruiser_Base_Stuffer_GunAmmo.description>배틀크루저에 기관포를 장착합니다.\n각각의 모듈은 1개의 기관포와 3000개의 탄환을 제공합니다.\n\n(충전 시 강철 75개 필요)</MYDE_Battlecruiser_Base_Stuffer_GunAmmo.description>
+  <MYDE_Battlecruiser_Base_Stuffer_GunAmmo.comps.0.fuelLabel>탄환</MYDE_Battlecruiser_Base_Stuffer_GunAmmo.comps.0.fuelLabel>
+  <MYDE_Battlecruiser_Base_Stuffer_GunAmmo.comps.0.fuelGizmoLabel>탄환</MYDE_Battlecruiser_Base_Stuffer_GunAmmo.comps.0.fuelGizmoLabel>
+  <MYDE_Battlecruiser_Base_Stuffer_NapalmAmmo.label>소이탄 모듈</MYDE_Battlecruiser_Base_Stuffer_NapalmAmmo.label>
+  <MYDE_Battlecruiser_Base_Stuffer_NapalmAmmo.description>배틀크루저에 소이탄 미사일을 장착합니다.\n각각의 모듈은 1개의 미사일 포대와 40개의 소이탄을 제공합니다.\n\n(충전 시 화학연료 400개 필요)</MYDE_Battlecruiser_Base_Stuffer_NapalmAmmo.description>
+  <MYDE_Battlecruiser_Base_Stuffer_NapalmAmmo.comps.0.fuelLabel>탄환</MYDE_Battlecruiser_Base_Stuffer_NapalmAmmo.comps.0.fuelLabel>
+  <MYDE_Battlecruiser_Base_Stuffer_NapalmAmmo.comps.0.fuelGizmoLabel>탄환</MYDE_Battlecruiser_Base_Stuffer_NapalmAmmo.comps.0.fuelGizmoLabel>
+  <MYDE_Battlecruiser_Base_Stuffer_LaserAmmoI.label>레이저 포 모듈</MYDE_Battlecruiser_Base_Stuffer_LaserAmmoI.label>
+  <MYDE_Battlecruiser_Base_Stuffer_LaserAmmoI.description>배틀크루저에 레이저 포대를 장착합니다.\n각각의 모듈은 1개의 레이저 포대와 에너지 탄환 400개를 제공합니다.\n\n(충전 시 우라늄 120개 필요)</MYDE_Battlecruiser_Base_Stuffer_LaserAmmoI.description>
+  <MYDE_Battlecruiser_Base_Stuffer_LaserAmmoI.comps.0.fuelLabel>에너지</MYDE_Battlecruiser_Base_Stuffer_LaserAmmoI.comps.0.fuelLabel>
+  <MYDE_Battlecruiser_Base_Stuffer_LaserAmmoI.comps.0.fuelGizmoLabel>에너지</MYDE_Battlecruiser_Base_Stuffer_LaserAmmoI.comps.0.fuelGizmoLabel>
+  <MYDE_Battlecruiser_Base_Stuffer_YaMaToAmmo.label>야마토 포 모듈</MYDE_Battlecruiser_Base_Stuffer_YaMaToAmmo.label>
+  <MYDE_Battlecruiser_Base_Stuffer_YaMaToAmmo.description>배틀크루저에 야마토 포 발사대를 장착합니다.\n각각의 모듈은 야마토 에너지 탄환 30개를 제공합니다.\n\n(충전 시 우라늄 300개 필요)</MYDE_Battlecruiser_Base_Stuffer_YaMaToAmmo.description>
+  <MYDE_Battlecruiser_Base_Stuffer_YaMaToAmmo.comps.0.fuelLabel>에너지</MYDE_Battlecruiser_Base_Stuffer_YaMaToAmmo.comps.0.fuelLabel>
+  <MYDE_Battlecruiser_Base_Stuffer_YaMaToAmmo.comps.0.fuelGizmoLabel>에너지</MYDE_Battlecruiser_Base_Stuffer_YaMaToAmmo.comps.0.fuelGizmoLabel>
+  <MYDE_Battlecruiser_Base_Stuffer_EndingModule.label>압축 모듈</MYDE_Battlecruiser_Base_Stuffer_EndingModule.label>
+  <MYDE_Battlecruiser_Base_Stuffer_EndingModule.description>【최대 1개의 압축 모듈만 설치 가능】\n배틀크루저에 압축 시스템을 추가합니다. 배틀크루저가 귀환할 시 절반의 자원만이 회수되는 대신, 자원의 양에 비례한 폭발을 일으킬 수 있습니다.</MYDE_Battlecruiser_Base_Stuffer_EndingModule.description>
+  <MYDE_Battlecruiser_Base_Stuffer_EnergyShield.label>실드 모듈</MYDE_Battlecruiser_Base_Stuffer_EnergyShield.label>
+  <MYDE_Battlecruiser_Base_Stuffer_EnergyShield.description>배틀크루저에 실드 전개 장치를 장착합니다. 각각의 모듈은 500의 내구도를 지닙니다. 실드 모듈은 초당 4만큼 실드를 자동으로 충전하며, 배틀크루저가 출격 중일 경우 충전 속도는 10분의 1로 감소합니다.</MYDE_Battlecruiser_Base_Stuffer_EnergyShield.description>
+  <MYDE_Battlecruiser_Base_Stuffer_MagazineModule.label>탄약고 모듈</MYDE_Battlecruiser_Base_Stuffer_MagazineModule.label>
+  <MYDE_Battlecruiser_Base_Stuffer_MagazineModule.description>【최대 1개의 탄약고 모듈만 설치 가능】\n배틀크루저에 탄약고를 증설합니다. 탄약고 모듈은 최대 장탄량을 50%만큼 증가시킵니다.</MYDE_Battlecruiser_Base_Stuffer_MagazineModule.description>
+  <MYDE_Battlecruiser_Base_Stuffer_CoolingModule.label>냉각 모듈</MYDE_Battlecruiser_Base_Stuffer_CoolingModule.label>
+  <MYDE_Battlecruiser_Base_Stuffer_CoolingModule.description>【최대 1개의 냉각 모듈만 설치 가능】\n배틀크루저에 냉각 장치를 장착합니다. 냉각 모듈은 사격 속도를 2배로 향상시킵니다.</MYDE_Battlecruiser_Base_Stuffer_CoolingModule.description>
+  <MYDE_Battlecruiser_Base_Stuffer_CatapultModule.label>차원 도약 모듈</MYDE_Battlecruiser_Base_Stuffer_CatapultModule.label>
+  <MYDE_Battlecruiser_Base_Stuffer_CatapultModule.description>【최대 1개의 차원 도약 모듈만 설치 가능】\n배틀크루저에 차원 도약 장치를 장착합니다. 차원 도약 모듈은 배틀크루저의 이동 방식을 변화시킵니다.</MYDE_Battlecruiser_Base_Stuffer_CatapultModule.description>
+  <MYDE_Battlecruiser.label>배틀크루저</MYDE_Battlecruiser.label>
+  <MYDE_FlyingBeacon.label>함대 신호소</MYDE_FlyingBeacon.label>
+  <MYDE_YaMaToBeacon.label>야마토 캐논 신호소</MYDE_YaMaToBeacon.label>
+  <MYDE_LightBeacon.label>전등</MYDE_LightBeacon.label>
+  <MYDE_Battlecruiser_GunBullet.label>탄환</MYDE_Battlecruiser_GunBullet.label>
+  <MYDE_Battlecruiser_Incendiary.label>소이탄</MYDE_Battlecruiser_Incendiary.label>
+  <MYDE_NapalmFuel.label>압축 가솔린</MYDE_NapalmFuel.label>
+  <MYDE_NapalmFuel.description>압축된 가솔린입니다.</MYDE_NapalmFuel.description>
+  <MYDE_Battlecruiser_LaserBattery.label>레이저 배터리</MYDE_Battlecruiser_LaserBattery.label>
+  <MYDE_Battlecruiser_YAMATOProjectile.label>야마토 포</MYDE_Battlecruiser_YAMATOProjectile.label>
+  <MYDE_Battlecruiser_PawnJumperEnemy.label>인양</MYDE_Battlecruiser_PawnJumperEnemy.label>
+</LanguageData>

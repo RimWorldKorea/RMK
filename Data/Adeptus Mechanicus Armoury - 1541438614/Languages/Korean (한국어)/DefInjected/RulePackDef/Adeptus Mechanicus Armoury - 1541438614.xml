@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <NamerTraderGeneral.rulePack.rulesStrings.0>r_name(p=4)->[businessname] [businesstype]</NamerTraderGeneral.rulePack.rulesStrings.0>
+  <NamerTraderGeneral.rulePack.rulesStrings.1>r_name->[NamePerson] [businesstype]</NamerTraderGeneral.rulePack.rulesStrings.1>
+  <NamerTraderGeneral.rulePack.rulesStrings.2>r_name->[maybe_adjective] [Animal] [businesstype]</NamerTraderGeneral.rulePack.rulesStrings.2>
+  <NamerTraderGeneral.rulePack.rulesStrings.3>r_name->[Letter][Letter] [businesstype]</NamerTraderGeneral.rulePack.rulesStrings.3>
+  <NamerTraderGeneral.rulePack.rulesStrings.4>r_name(p=0.5)->[PersonAlly] [businesstype]</NamerTraderGeneral.rulePack.rulesStrings.4>
+  <NamerTraderGeneral.rulePack.rulesStrings.5>r_name(p=0.5)->[AdjectiveFriendly] [businesstype]</NamerTraderGeneral.rulePack.rulesStrings.5>
+  <NamerTraderGeneral.rulePack.rulesStrings.6>r_name(p=0.5)->[AdjectiveBadass] [businesstype]</NamerTraderGeneral.rulePack.rulesStrings.6>
+  <NamerTraderGeneral.rulePack.rulesStrings.7>r_name(p=0.3)->[PersonFamily] [businesstype]</NamerTraderGeneral.rulePack.rulesStrings.7>
+  <NamerTraderGeneral.rulePack.rulesStrings.8>r_name(p=0.3)->[maybe_adjective] [NaturalObject] [businesstype]</NamerTraderGeneral.rulePack.rulesStrings.8>
+  <NamerTraderGeneral.rulePack.rulesStrings.9>r_name(p=0.2)->[maybe_adjective] [TreeType] [businesstype]</NamerTraderGeneral.rulePack.rulesStrings.9>
+  <NamerTraderGeneral.rulePack.rulesStrings.10>r_name(p=0.2)->[maybe_adjective] [Vegetable] [businesstype]</NamerTraderGeneral.rulePack.rulesStrings.10>
+  <NamerTraderGeneral.rulePack.rulesStrings.11>r_name(p=0.2)->[Direction] [businesstype]</NamerTraderGeneral.rulePack.rulesStrings.11>
+  <NamerTraderGeneral.rulePack.rulesStrings.12>maybe_adjective-></NamerTraderGeneral.rulePack.rulesStrings.12>
+  <NamerTraderGeneral.rulePack.rulesStrings.13>maybe_adjective->[Color]</NamerTraderGeneral.rulePack.rulesStrings.13>
+  <NamerTraderGeneral.rulePack.rulesStrings.14>maybe_adjective->[AdjectiveFriendly]</NamerTraderGeneral.rulePack.rulesStrings.14>
+  <NamerTraderGeneral.rulePack.rulesStrings.15>maybe_adjective->[AdjectiveBadass]</NamerTraderGeneral.rulePack.rulesStrings.15>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.0>r_logentry->[INITIATOR_definite]의 [WEAPON_label](은)는 [RECIPIENT_definite]의 [destroyed_targets](을)를 [destroyed_present].</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.0>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.1>r_logentry->[INITIATOR_definite]의 [WEAPON_projectile_label](은)는 [RECIPIENT_definite]의 [destroyed_targets](을)를 [destroyed_suffix] [to] [destroyed_past].</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.1>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.2>r_logentry(p=2)->[INITIATOR_definite]의 [WEAPON_projectile_label](은)는 [ORIGINALTARGET_definite]에게서 [missed].  [RECIPIENT_definite]의 [destroyed_targets](은)는 [destroyed_past].</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.2>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.3>r_logentry(p=2)->[INITIATOR_definite]의 [WEAPON_projectile_label](은)는 [ORIGINALTARGET_definite]에게서 [missed].  [RECIPIENT_definite]의 [destroyed_targets](은)는 [destroyed_present].</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.3>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.4>r_logentry->[RECIPIENT_definite]의 [destroyed_targets](은)는 [INITIATOR_definite]의 [WEAPON_projectile_label]에 의해 [destroyed_past].</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.4>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.5>r_logentry->[RECIPIENT_definite]의 [destroyed_targets](은)는 [INITIATOR_definite]의 [expert] [WEAPON_projectile_label]에 의해 [destroyed_suffix]으로 [destroyed_past].</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.5>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.6>r_logentry(recipient_part_destroyed_count==0)->[INITIATOR_definite]의 [WEAPON_projectile_label](이)가 [RECIPIENT_definite]의 [damaged_targets](을)를 [damaged_present].</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.6>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.7>r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite]의 [WEAPON_projectile_label](은)는 [ORIGINALTARGET_definite](을)를 [missed] 대신 [RECIPIENT_definite]의 [damaged_targets](이)가 [damaged_past].</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.7>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.8>r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite]의 [WEAPON_projectile_label](이)가 [ORIGINALTARGET_definite](을)를 [missed] [RECIPIENT_definite]의 [damaged_targets](을)를 [damaged_present].</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.8>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.9>r_logentry(recipient_part_destroyed_count==0)->[RECIPIENT_definite]의 [damaged_targets](이)가 [INITIATOR_definite]의 [WEAPON_projectile_label]에 의해 [damaged_past].</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.9>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.10>r_logentry(p=3)->[INITIATOR_definite]의 [WEAPON_projectile_label](이)가 [RECIPIENT_definite]의 [destroyed_targets](을)를 [destroyed_present]. [damaged_targets]도 [damaged_present].</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.10>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.11>r_logentry(p=6)->[INITIATOR_definite]의 [WEAPON_projectile_label](이)가 [ORIGINALTARGET_definite](을)를 [missed] [RECIPIENT_definite]의 [destroyed_targets](을)를 [destroyed_present]. [damaged_targets]도 [damaged_present].</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.11>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.12>r_logentry(p=0.2)->[INITIATOR_definite](이)가 [RECIPIENT_definite](을)를 [WEAPON_projectile_label](으)로 맞춤.</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.12>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.13>r_logentry(p=0.2)->[INITIATOR_definite](이)가 [WEAPON_label](으)로 [RECIPIENT_definite](을)를 맞춤.</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.13>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.14>r_logentry(p=0.4)->[INITIATOR_definite](이)가 [WEAPON_projectile_label](으)로 [ORIGINALTARGET_definite](을)를 노렸으나 [RECIPIENT_definite](이)가 맞음.</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.14>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.15>r_logentry(p=0.4)->[INITIATOR_definite]의 [WEAPON_projectile_label](이)가 [ORIGINALTARGET_definite](을)를 [missed] [RECIPIENT_definite](이)가 맞음.</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.15>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.16>r_logentry(p=0.2)->[INITIATOR_definite](이)가 [WEAPON_projectile_label](으)로 [ORIGINALTARGET_definite](을)를 노리다가 [RECIPIENT_definite](을)를 대신 맞춤.</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.16>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.17>weapon_projectile_label(p=0.05)->사격</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.17>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.18>destroyed_past->불탐</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.18>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.19>destroyed_past->녹음</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.19>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.20>destroyed_present->불탐</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.20>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.21>destroyed_present->녹음</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.21>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.22>destroyed_suffix->관통</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.22>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.23>destroyed_suffix->조각들</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.23>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.24>destroyed_suffix->멋지게 먼지가 됨</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.24>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.25>destroyed_suffix->파편</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.25>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.26>destroyed_suffix(p=0.5)->구멍이 숭숭 뚫림</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.26>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.27>destroyed_suffix(recipient_flesh!=Mechanoid,p=0.2)->새까맣게 탄 고깃덩이</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.27>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.28>damaged_past->상처남</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.28>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.29>damaged_past->부상당함</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.29>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.30>damaged_past->불탐</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.30>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.31>damaged_past->손상됨</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.31>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.32>damaged_past->녹음</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.32>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.33>damaged_present->상처 악화</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.33>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.34>damaged_present->부상 악화</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.34>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.35>damaged_present->불탐</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.35>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.36>damaged_present->손상 중</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.36>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.37>damaged_present->녹음</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.37>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.38>damaged_suffix->못 생겨짐</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.38>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.39>damaged_suffix(recipient_flesh!=Mechanoid)->심한 화상을 입게 하며</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.39>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.40>damaged_suffix(recipient_flesh!=Mechanoid)->끔찍한 화상을 입게 하며</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.40>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.41>to->에</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.41>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.42>to-></OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.42>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.43>missed->지나쳐</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.43>
+  <OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.44>missed->간발의 차이로 지나쳐</OG_AMA_Combat_OverheatDamage.rulePack.rulesStrings.44>
+  <OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.0>prefix->[INITIATOR_definite]의 [overheat]된 [WEAPON_label][fromof] [blast] 발생</OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.0>
+  <OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.1>prefix->[INITIATOR_definite]의 [WEAPON_label][fromof] [blast] 발생</OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.1>
+  <OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.2>prefix->[INITIATOR_definite]의 [WEAPON_label] [blast]</OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.2>
+  <OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.3>prefix->[INITIATOR_definite]의 [WEAPON_label]</OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.3>
+  <OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.4>r_logentry->[prefix](은)는 [RECIPIENT_definite][injured].</OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.4>
+  <OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.5>r_logentry->[prefix](으)로 인해 [RECIPIENT_definite]의 [destroyed_targets](이)가 [destroyed_past].</OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.5>
+  <OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.6>r_logentry->[prefix](이)가 [RECIPIENT_definite]의 [destroyed_targets](을)를 [strikeAdv] [destroyed_past].</OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.6>
+  <OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.7>r_logentry->[prefix](이)가 [RECIPIENT_definite]의 [destroyed_targets](을)를 [strikeAdv] [destroyed_present].</OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.7>
+  <OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.8>r_logentry->[prefix](이)가 [RECIPIENT_definite]의 [destroyed_targets](을)를 [destroyed_present]. [damaged_targets]도 [damaged_present].</OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.8>
+  <OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.9>r_logentry(recipient_part_destroyed_count==0)->[prefix](이)가 [RECIPIENT_definite]의 [damaged_targets](을)를 [damaged_past].</OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.9>
+  <OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.10>r_logentry(recipient_part_destroyed_count==0)->[prefix](이)가 [RECIPIENT_definite]의 [damaged_targets](을)를 [damaged_present].</OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.10>
+  <OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.11>r_logentry(recipient_part_destroyed_count==0)->[prefix](이)가 [RECIPIENT_definite]의 [damaged_targets](을)를 [strikeAdv] [damaged_present].</OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.11>
+  <OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.12>r_logentry->[RECIPIENT_definite](이)가 [INITIATOR_definite]에 의해 [damaged_past].</OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.12>
+  <OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.13>r_logentry->[RECIPIENT_definite](이)가 [INITIATOR_definite]에 의해 [strikeAdv] [damaged_past].</OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.13>
+  <OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.14>r_logentry->[RECIPIENT_definite](이)가 [damaged_past].</OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.14>
+  <OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.15>r_logentry(p=0.001)->[RECIPIENT_definite](이)가 폭발에 휘말림.</OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.15>
+  <OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.16>r_logentry(p=0.001)->[RECIPIENT_definite](은)는 폭발에 격중당함.</OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.16>
+  <OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.17>blast->폭발</OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.17>
+  <OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.18>blast->폭발</OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.18>
+  <OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.19>blast->충격파</OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.19>
+  <OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.20>blast->폭파</OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.20>
+  <OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.21>blast->폭발</OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.21>
+  <OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.22>blast->충격파</OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.22>
+  <OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.23>overheat->과열</OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.23>
+  <OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.24>overheat->과부하</OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.24>
+  <OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.25>fromof->에서</OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.25>
+  <OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.26>fromof-></OG_AMA_Combat_OverheatExplosion.rulePack.rulesStrings.26>
+  <OG_DarkEldar_Kabal_NamerFaction.rulePack.rulesStrings.0>r_name(p=3)->[Kabal]의 카발</OG_DarkEldar_Kabal_NamerFaction.rulePack.rulesStrings.0>
+  <OG_DarkEldar_Kabal_NamerFaction.rulePack.rulesStrings.1>r_name->[Kabal]의 카발</OG_DarkEldar_Kabal_NamerFaction.rulePack.rulesStrings.1>
+  <OG_DarkEldar_NamerBases.rulePack.rulesStrings.0>name->[Kabal_Outpost]</OG_DarkEldar_NamerBases.rulePack.rulesStrings.0>
+  <OG_DarkEldar_NamerPerson.rulePack.rulesStrings.0>r_name(p=3)->[NameMaleDarkEldar]</OG_DarkEldar_NamerPerson.rulePack.rulesStrings.0>
+  <OG_DarkEldar_NamerPersonFemale.rulePack.rulesStrings.0>r_name(p=3)->[NameFemaleDarkEldar]</OG_DarkEldar_NamerPersonFemale.rulePack.rulesStrings.0>
+  <OG_DarkEldar_NameUtility.rulePack.rulesStrings.0>NameMaleDarkEldar(p=4)->[DarkEldar_A_Male][DarkEldar_B_Male]</OG_DarkEldar_NameUtility.rulePack.rulesStrings.0>
+  <OG_DarkEldar_NameUtility.rulePack.rulesStrings.1>NameMaleDarkEldar(p=2)->[DarkEldar_Male]</OG_DarkEldar_NameUtility.rulePack.rulesStrings.1>
+  <OG_DarkEldar_NameUtility.rulePack.rulesStrings.2>NameMaleDarkEldar(p=0.2)->[DarkEldar_Male][DarkEldar_B_Male]</OG_DarkEldar_NameUtility.rulePack.rulesStrings.2>
+  <OG_DarkEldar_NameUtility.rulePack.rulesStrings.3>NameFemaleDarkEldar(p=4)->[DarkEldar_A_Female][DarkEldar_B_Female]</OG_DarkEldar_NameUtility.rulePack.rulesStrings.3>
+  <OG_DarkEldar_NameUtility.rulePack.rulesStrings.4>NameFemaleDarkEldar(p=2)->[DarkEldar_Female]</OG_DarkEldar_NameUtility.rulePack.rulesStrings.4>
+  <OG_DarkEldar_NameUtility.rulePack.rulesStrings.5>NameFemaleDarkEldar(p=0.2)->[DarkEldar_Female][DarkEldar_B_Female]</OG_DarkEldar_NameUtility.rulePack.rulesStrings.5>
+  <OG_DarkEldar_NameUtility.rulePack.rulesStrings.6>Kabal(p=3)->[Kabal_A] [Kabal_B]</OG_DarkEldar_NameUtility.rulePack.rulesStrings.6>
+  <OG_Eldar_Craftworld_NamerFaction.rulePack.rulesStrings.0>r_name(p=3)->[Craftworld]</OG_Eldar_Craftworld_NamerFaction.rulePack.rulesStrings.0>
+  <OG_Eldar_NamerBases.rulePack.rulesStrings.0>name->[Craftworld_Outpost]</OG_Eldar_NamerBases.rulePack.rulesStrings.0>
+  <OG_Eldar_NamerPerson.rulePack.rulesStrings.0>r_name(p=3)->[NameMaleEldar]</OG_Eldar_NamerPerson.rulePack.rulesStrings.0>
+  <OG_Eldar_NamerPersonFemale.rulePack.rulesStrings.0>r_name(p=3)->[NameFemaleEldar]</OG_Eldar_NamerPersonFemale.rulePack.rulesStrings.0>
+  <OG_Eldar_NameUtility.rulePack.rulesStrings.0>NameMaleEldar(p=4)->[Eldar_A_Male][Eldar_B_Male]</OG_Eldar_NameUtility.rulePack.rulesStrings.0>
+  <OG_Eldar_NameUtility.rulePack.rulesStrings.1>NameFemaleEldar(p=4)->[Eldar_A_Female][Eldar_B_Female]</OG_Eldar_NameUtility.rulePack.rulesStrings.1>
+  <OG_Eldar_NameUtility.rulePack.rulesStrings.2>Craftworld(p=3)->[Craftworld_Major]</OG_Eldar_NameUtility.rulePack.rulesStrings.2>
+  <OG_Eldar_NameUtility.rulePack.rulesStrings.3>Craftworld(p=1)->[Craftworld_Minor]</OG_Eldar_NameUtility.rulePack.rulesStrings.3>
+  <NamerOGKrootFaction.rulePack.rulesStrings.0>name->[OG_NameKrootKindredWorlds] [OG_NameKrootBaseNamesA][OG_NameKrootBaseNamesB] [OG_NameKrootKindredTypes]</NamerOGKrootFaction.rulePack.rulesStrings.0>
+  <NamerOGKrootBases.rulePack.rulesStrings.0>name->[OG_NameKrootBaseTypes] [OG_NameKrootBaseNamesA][OG_NameKrootBaseNamesB]</NamerOGKrootBases.rulePack.rulesStrings.0>
+  <OG_Kroot_NamerPerson.rulePack.rulesStrings.0>name->[KrootName] [OG_Unisexlastname]</OG_Kroot_NamerPerson.rulePack.rulesStrings.0>
+  <OG_Kroot_NamerPerson.rulePack.rulesStrings.1>name->[KrootName] '[nickname]' [OG_Unisexlastname]</OG_Kroot_NamerPerson.rulePack.rulesStrings.1>
+  <OG_Kroot_NamerPerson.rulePack.rulesStrings.2>OG_Unisexlastname(p=3)->[OG_NameKrootSurA][OG_NameKrootSurB]</OG_Kroot_NamerPerson.rulePack.rulesStrings.2>
+  <OG_Kroot_NamerPerson.rulePack.rulesStrings.3>OG_Unisexlastname(p=2)->[WordKroot]</OG_Kroot_NamerPerson.rulePack.rulesStrings.3>
+  <OG_Kroot_NamerPerson.rulePack.rulesStrings.4>nickname(p=3)->[OG_NameKrootNickA][OG_NameKrootNickB]</OG_Kroot_NamerPerson.rulePack.rulesStrings.4>
+  <OG_Kroot_NameUtility.rulePack.rulesStrings.0>KrootName(p=4)->[SylK_1][SylK_2][SylK_3][SylK_4][SylK_6]</OG_Kroot_NameUtility.rulePack.rulesStrings.0>
+  <OG_Kroot_NameUtility.rulePack.rulesStrings.1>KrootName(p=3)->[SylK_1][SylK_2][SylK_3][SylK_4][SylK_7][SylK_5][SylK_6]</OG_Kroot_NameUtility.rulePack.rulesStrings.1>
+  <OG_Kroot_NameUtility.rulePack.rulesStrings.2>KrootName(p=2)->[SylK_1][SylK_2][SylK_3][SylK_4][SylK_6]-[SylK_1][SylK_2][SylK_6]</OG_Kroot_NameUtility.rulePack.rulesStrings.2>
+  <OG_Kroot_NameUtility.rulePack.rulesStrings.3>KrootName(p=1)->[SylK_1][SylK_2][SylK_6]-[SylK_1][SylK_2][SylK_3][SylK_4][SylK_6]</OG_Kroot_NameUtility.rulePack.rulesStrings.3>
+  <OG_Kroot_NameUtility.rulePack.rulesStrings.4>WordKroot(p=3)->[SylG]'[SylE]-[SylG]</OG_Kroot_NameUtility.rulePack.rulesStrings.4>
+  <OG_Kroot_NameUtility.rulePack.rulesStrings.5>WordKroot(p=2)->[SylG]'[SylG][SylE]-[SylG]</OG_Kroot_NameUtility.rulePack.rulesStrings.5>
+  <OG_Mechanicus_NamerFaction.rulePack.rulesStrings.0>r_name->[Mechanicus_HomeWorld] [Ordinal] 군단</OG_Mechanicus_NamerFaction.rulePack.rulesStrings.0>
+  <OG_Mechanicus_NamerBases.rulePack.rulesStrings.0>name->[Mechanicus_Outpost]</OG_Mechanicus_NamerBases.rulePack.rulesStrings.0>
+  <OG_Mechanicus_NamerPerson.rulePack.rulesStrings.0>r_name(p=10)->[Mechanicus_Name]</OG_Mechanicus_NamerPerson.rulePack.rulesStrings.0>
+  <OG_Mechanicus_NamerPerson.rulePack.rulesStrings.1>r_name(p=10)->[Mechanicus_Name] `[MaleNick]`</OG_Mechanicus_NamerPerson.rulePack.rulesStrings.1>
+  <OG_Mechanicus_NamerPerson.rulePack.rulesStrings.2>r_name(p=7)->[GreekLetter] [SingleDigit]-[Mechanicus_SingleSyllable]</OG_Mechanicus_NamerPerson.rulePack.rulesStrings.2>
+  <OG_Mechanicus_NamerPerson.rulePack.rulesStrings.3>r_name(p=7)->[GreekLetter]-[GreekLetter] [SingleDigit][SingleDigit]</OG_Mechanicus_NamerPerson.rulePack.rulesStrings.3>
+  <OG_Mechanicus_NamerPerson.rulePack.rulesStrings.4>r_name(p=7)->[Mechanicus_SingleSyllable] [Mechanicus_TriSyllable]</OG_Mechanicus_NamerPerson.rulePack.rulesStrings.4>
+  <OG_Mechanicus_NamerPerson.rulePack.rulesStrings.5>r_name(p=7)->[Mechanicus_SingleSyllable] [Mechanicus_QuadSyllable]</OG_Mechanicus_NamerPerson.rulePack.rulesStrings.5>
+  <OG_Mechanicus_NamerPerson.rulePack.rulesStrings.6>r_name(p=7)->[Mechanicus_DualSyllable] [Mechanicus_TriSyllable]</OG_Mechanicus_NamerPerson.rulePack.rulesStrings.6>
+  <OG_Mechanicus_NamerPerson.rulePack.rulesStrings.7>r_name(p=7)->[Mechanicus_DualSyllable] [Mechanicus_QuadSyllable]</OG_Mechanicus_NamerPerson.rulePack.rulesStrings.7>
+  <OG_Mechanicus_NamerPerson.rulePack.rulesStrings.8>r_name(p=7)->[Mechanicus_DualSyllable] [Mechanicus_SingleSyllable]-[Mechanicus_SingleSyllable]</OG_Mechanicus_NamerPerson.rulePack.rulesStrings.8>
+  <OG_Mechanicus_NamerPerson.rulePack.rulesStrings.9>r_name(p=7)->[Mechanicus_TriSyllable] [Mechanicus_SingleSyllable]-[Mechanicus_SingleSyllable]</OG_Mechanicus_NamerPerson.rulePack.rulesStrings.9>
+  <OG_Mechanicus_NamerPerson.rulePack.rulesStrings.10>r_name(p=5)->[Capital]-[Capital] [Capital][SingleDigit][Capital]/[Capital][SingleDigit][Capital]</OG_Mechanicus_NamerPerson.rulePack.rulesStrings.10>
+  <OG_Mechanicus_NamerPerson.rulePack.rulesStrings.11>r_name(p=5)->[Mechanicus_DualSyllable] [SingleDigit][SingleDigit]/[SingleDigit] [Mechanicus_DualSyllable]</OG_Mechanicus_NamerPerson.rulePack.rulesStrings.11>
+  <OG_Mechanicus_NamerPerson.rulePack.rulesStrings.12>r_name(p=4)->[MaleFirst]</OG_Mechanicus_NamerPerson.rulePack.rulesStrings.12>
+  <OG_Mechanicus_NamerPerson.rulePack.rulesStrings.13>r_name(p=4)->[MaleFirst] [MaleSecond]</OG_Mechanicus_NamerPerson.rulePack.rulesStrings.13>
+  <OG_Mechanicus_NamerPerson.rulePack.rulesStrings.14>r_name(p=0.2)->[MaleFirst] `[MaleNick]`</OG_Mechanicus_NamerPerson.rulePack.rulesStrings.14>
+  <OG_Mechanicus_NamerPerson.rulePack.rulesStrings.15>r_name(p=0.2)->[MaleFirst] `[MaleNick]` [MaleSecond]</OG_Mechanicus_NamerPerson.rulePack.rulesStrings.15>
+  <OG_Mechanicus_NamerPersonFemale.rulePack.rulesStrings.0>r_name(p=10)->[Mechanicus_Name]</OG_Mechanicus_NamerPersonFemale.rulePack.rulesStrings.0>
+  <OG_Mechanicus_NamerPersonFemale.rulePack.rulesStrings.1>r_name(p=10)->[Mechanicus_Name] `[FemaleNick]`</OG_Mechanicus_NamerPersonFemale.rulePack.rulesStrings.1>
+  <OG_Mechanicus_NamerPersonFemale.rulePack.rulesStrings.2>r_name(p=7)->[GreekLetter] [SingleDigit]-[Mechanicus_SingleSyllable]</OG_Mechanicus_NamerPersonFemale.rulePack.rulesStrings.2>
+  <OG_Mechanicus_NamerPersonFemale.rulePack.rulesStrings.3>r_name(p=7)->[GreekLetter]-[GreekLetter] [SingleDigit][SingleDigit]</OG_Mechanicus_NamerPersonFemale.rulePack.rulesStrings.3>
+  <OG_Mechanicus_NamerPersonFemale.rulePack.rulesStrings.4>r_name(p=7)->[Mechanicus_SingleSyllable] [Mechanicus_TriSyllable]</OG_Mechanicus_NamerPersonFemale.rulePack.rulesStrings.4>
+  <OG_Mechanicus_NamerPersonFemale.rulePack.rulesStrings.5>r_name(p=7)->[Mechanicus_SingleSyllable] [Mechanicus_QuadSyllable]</OG_Mechanicus_NamerPersonFemale.rulePack.rulesStrings.5>
+  <OG_Mechanicus_NamerPersonFemale.rulePack.rulesStrings.6>r_name(p=7)->[Mechanicus_DualSyllable] [Mechanicus_TriSyllable]</OG_Mechanicus_NamerPersonFemale.rulePack.rulesStrings.6>
+  <OG_Mechanicus_NamerPersonFemale.rulePack.rulesStrings.7>r_name(p=7)->[Mechanicus_DualSyllable] [Mechanicus_QuadSyllable]</OG_Mechanicus_NamerPersonFemale.rulePack.rulesStrings.7>
+  <OG_Mechanicus_NamerPersonFemale.rulePack.rulesStrings.8>r_name(p=7)->[Mechanicus_DualSyllable] [Mechanicus_SingleSyllable]-[Mechanicus_SingleSyllable]</OG_Mechanicus_NamerPersonFemale.rulePack.rulesStrings.8>
+  <OG_Mechanicus_NamerPersonFemale.rulePack.rulesStrings.9>r_name(p=7)->[Mechanicus_TriSyllable] [Mechanicus_SingleSyllable]-[Mechanicus_SingleSyllable]</OG_Mechanicus_NamerPersonFemale.rulePack.rulesStrings.9>
+  <OG_Mechanicus_NamerPersonFemale.rulePack.rulesStrings.10>r_name(p=5)->[Capital]-[Capital] [Capital][SingleDigit][Capital]/[Capital][SingleDigit][Capital]</OG_Mechanicus_NamerPersonFemale.rulePack.rulesStrings.10>
+  <OG_Mechanicus_NamerPersonFemale.rulePack.rulesStrings.11>r_name(p=5)->[Mechanicus_DualSyllable] [SingleDigit][SingleDigit]/[SingleDigit] [Mechanicus_DualSyllable]</OG_Mechanicus_NamerPersonFemale.rulePack.rulesStrings.11>
+  <OG_Mechanicus_NamerPersonFemale.rulePack.rulesStrings.12>r_name(p=4)->[FemaleFirst]</OG_Mechanicus_NamerPersonFemale.rulePack.rulesStrings.12>
+  <OG_Mechanicus_NamerPersonFemale.rulePack.rulesStrings.13>r_name(p=4)->[FemaleFirst] [FemaleSecond]</OG_Mechanicus_NamerPersonFemale.rulePack.rulesStrings.13>
+  <OG_Mechanicus_NamerPersonFemale.rulePack.rulesStrings.14>r_name(p=0.2)->[FemaleFirst] `[FemaleNick]`</OG_Mechanicus_NamerPersonFemale.rulePack.rulesStrings.14>
+  <OG_Mechanicus_NamerPersonFemale.rulePack.rulesStrings.15>r_name(p=0.2)->[FemaleFirst] `[FemaleNick]` [FemaleSecond]</OG_Mechanicus_NamerPersonFemale.rulePack.rulesStrings.15>
+  <OG_Mechanicus_NameUtility.rulePack.rulesStrings.0>MaleFirst->[Mechanicus_Male_First]</OG_Mechanicus_NameUtility.rulePack.rulesStrings.0>
+  <OG_Mechanicus_NameUtility.rulePack.rulesStrings.1>MaleSecond->[Mechanicus_Unisex_Last]</OG_Mechanicus_NameUtility.rulePack.rulesStrings.1>
+  <OG_Mechanicus_NameUtility.rulePack.rulesStrings.2>MaleNick->[Mechanicus_Male_Nick]</OG_Mechanicus_NameUtility.rulePack.rulesStrings.2>
+  <OG_Mechanicus_NameUtility.rulePack.rulesStrings.3>MaleNick->[Mechanicus_Unisex_Nick]</OG_Mechanicus_NameUtility.rulePack.rulesStrings.3>
+  <OG_Mechanicus_NameUtility.rulePack.rulesStrings.4>FemaleFirst->[Mechanicus_Female_First]</OG_Mechanicus_NameUtility.rulePack.rulesStrings.4>
+  <OG_Mechanicus_NameUtility.rulePack.rulesStrings.5>FemaleSecond->[Mechanicus_Unisex_Last]</OG_Mechanicus_NameUtility.rulePack.rulesStrings.5>
+  <OG_Mechanicus_NameUtility.rulePack.rulesStrings.6>FemaleNick->[Mechanicus_Female_Nick]</OG_Mechanicus_NameUtility.rulePack.rulesStrings.6>
+  <OG_Mechanicus_NameUtility.rulePack.rulesStrings.7>FemaleNick->[Mechanicus_Unisex_Nick]</OG_Mechanicus_NameUtility.rulePack.rulesStrings.7>
+  <OG_Mechanicus_NameUtility.rulePack.rulesStrings.8>Mechanicus_Name->[SingleDigit][SingleDigit]-[Mechanicus_SingleSyllable]</OG_Mechanicus_NameUtility.rulePack.rulesStrings.8>
+  <OG_Mechanicus_NameUtility.rulePack.rulesStrings.9>Mechanicus_Name->[Capital][Capital]-[SingleDigit][SingleDigit][SingleDigit]</OG_Mechanicus_NameUtility.rulePack.rulesStrings.9>
+  <OG_Mechanicus_NameUtility.rulePack.rulesStrings.10>Mechanicus_Name->[Capital]-[SingleDigit][SingleDigit][SingleDigit]</OG_Mechanicus_NameUtility.rulePack.rulesStrings.10>
+  <OG_Mechanicus_NameUtility.rulePack.rulesStrings.11>Mechanicus_Name->[Mechanicus_DualSyllable]-[GreekLetter]-[SingleDigit]</OG_Mechanicus_NameUtility.rulePack.rulesStrings.11>
+  <OG_Mechanicus_NameUtility.rulePack.rulesStrings.12>Mechanicus_Name->[Mechanicus_SingleSyllable][Mechanicus_Extra][Mechanicus_DualSyllable]</OG_Mechanicus_NameUtility.rulePack.rulesStrings.12>
+  <OG_Mechanicus_NameUtility.rulePack.rulesStrings.13>Mechanicus_Name->[Mechanicus_DualSyllable][Mechanicus_Extra][Mechanicus_SingleSyllable]</OG_Mechanicus_NameUtility.rulePack.rulesStrings.13>
+  <OG_Mechanicus_NameUtility.rulePack.rulesStrings.14>Mechanicus_Name->[Mechanicus_TriSyllable][Mechanicus_Extra][Mechanicus_SingleSyllable]</OG_Mechanicus_NameUtility.rulePack.rulesStrings.14>
+  <OG_Mechanicus_NameUtility.rulePack.rulesStrings.15>Mechanicus_Name->[Mechanicus_TriSyllable][Mechanicus_Extra][Mechanicus_DualSyllable]</OG_Mechanicus_NameUtility.rulePack.rulesStrings.15>
+  <OG_Mechanicus_NameUtility.rulePack.rulesStrings.16>Mechanicus_Name->[Mechanicus_QuadSyllable][Mechanicus_Extra][Mechanicus_SingleSyllable]</OG_Mechanicus_NameUtility.rulePack.rulesStrings.16>
+  <OG_Mechanicus_NameUtility.rulePack.rulesStrings.17>Mechanicus_Name->[Mechanicus_QuadSyllable][Mechanicus_Extra][Mechanicus_DualSyllable]</OG_Mechanicus_NameUtility.rulePack.rulesStrings.17>
+  <OG_Mechanicus_NameUtility.rulePack.rulesStrings.18>Mechanicus_SingleSyllable->[SingleSyllableA][SingleSyllableB]</OG_Mechanicus_NameUtility.rulePack.rulesStrings.18>
+  <OG_Mechanicus_NameUtility.rulePack.rulesStrings.19>Mechanicus_DualSyllable->[DualSyllableA][DualSyllableB]</OG_Mechanicus_NameUtility.rulePack.rulesStrings.19>
+  <OG_Mechanicus_NameUtility.rulePack.rulesStrings.20>Mechanicus_TriSyllable->[TriSyllableA][TriSyllableB][TriSyllableC]</OG_Mechanicus_NameUtility.rulePack.rulesStrings.20>
+  <OG_Mechanicus_NameUtility.rulePack.rulesStrings.21>Mechanicus_QuadSyllable->[QuadSyllableA][QuadSyllableB][QuadSyllableC][QuadSyllableD]</OG_Mechanicus_NameUtility.rulePack.rulesStrings.21>
+  <OG_Mechanicus_NameUtility.rulePack.rulesStrings.22>Mechanicus_Extra(p=5)-> </OG_Mechanicus_NameUtility.rulePack.rulesStrings.22>
+  <OG_Mechanicus_NameUtility.rulePack.rulesStrings.23>Mechanicus_Extra(p=1)->-</OG_Mechanicus_NameUtility.rulePack.rulesStrings.23>
+  <OG_Mechanicus_NameUtility.rulePack.rulesStrings.24>Mechanicus_Extra(p=1)-> 반 </OG_Mechanicus_NameUtility.rulePack.rulesStrings.24>
+  <OG_Mechanicus_NameUtility.rulePack.rulesStrings.25>Mechanicus_Extra(p=1)-> 반 데르 </OG_Mechanicus_NameUtility.rulePack.rulesStrings.25>
+  <OG_Mechanicus_NameUtility.rulePack.rulesStrings.26>Mechanicus_Title(p=1)-> [TitleC] [TitleD]의 [TitleA] [TitleB]</OG_Mechanicus_NameUtility.rulePack.rulesStrings.26>
+  <OG_Ork_NamerFaction.rulePack.rulesStrings.0>name(p=6)->[Klan_C]의 [Kulture] [Klan_B]</OG_Ork_NamerFaction.rulePack.rulesStrings.0>
+  <OG_Ork_NamerFaction.rulePack.rulesStrings.1>name(p=6)->[LeaderName]의 [Kulture] [Klan_B]</OG_Ork_NamerFaction.rulePack.rulesStrings.1>
+  <OG_Ork_NamerFaction.rulePack.rulesStrings.2>name(p=4)->[Kulture]의 [LeaderName]'z [Klan_B]</OG_Ork_NamerFaction.rulePack.rulesStrings.2>
+  <OG_Ork_NamerFaction.rulePack.rulesStrings.3>name(p=2)->[Klan_C]의 [Klan_A] [Klan_B]</OG_Ork_NamerFaction.rulePack.rulesStrings.3>
+  <OG_Ork_NamerFaction.rulePack.rulesStrings.4>LeaderName(p=4)->[Ork_Warboss]</OG_Ork_NamerFaction.rulePack.rulesStrings.4>
+  <OG_Ork_NamerFaction.rulePack.rulesStrings.5>LeaderName(p=2)->[Ork_Title_Pre] [Ork_Warboss]</OG_Ork_NamerFaction.rulePack.rulesStrings.5>
+  <OG_Ork_NamerFaction.rulePack.rulesStrings.6>LeaderName(p=2)->[Ork_Warboss] [Ork_Title_Post]</OG_Ork_NamerFaction.rulePack.rulesStrings.6>
+  <OG_Ork_NamerFaction.rulePack.rulesStrings.7>LeaderName(p=1)->[Ork_Title_Pre] [Ork_Warboss] [Ork_Title_Post]</OG_Ork_NamerFaction.rulePack.rulesStrings.7>
+  <OG_Ork_NamerFaction_Player.rulePack.rulesStrings.0>name->[Klan_A] [Klan_B] [Klan_C]</OG_Ork_NamerFaction_Player.rulePack.rulesStrings.0>
+  <OG_Ork_NamerFaction_Player.rulePack.rulesStrings.1>name-> of da [Klan_A]</OG_Ork_NamerFaction_Player.rulePack.rulesStrings.1>
+  <OG_Ork_NamerFaction_Player.rulePack.rulesStrings.2>name-> of da [Klan_A]</OG_Ork_NamerFaction_Player.rulePack.rulesStrings.2>
+  <OG_Ork_NamerFaction_Feral.rulePack.rulesStrings.0>name->[Klan_A] [Klan_B] [Klan_C]</OG_Ork_NamerFaction_Feral.rulePack.rulesStrings.0>
+  <OG_Ork_NamerFaction_Feral.rulePack.rulesStrings.1>name-> of da [Klan_A]</OG_Ork_NamerFaction_Feral.rulePack.rulesStrings.1>
+  <OG_Ork_NamerFaction_Feral.rulePack.rulesStrings.2>name-> of da [Klan_A]</OG_Ork_NamerFaction_Feral.rulePack.rulesStrings.2>
+  <OG_Ork_NamerFaction_Feral_Player.rulePack.rulesStrings.0>name->[Klan_A] [Klan_B] [Klan_C]</OG_Ork_NamerFaction_Feral_Player.rulePack.rulesStrings.0>
+  <OG_Ork_NamerFaction_Feral_Player.rulePack.rulesStrings.1>name-> of da [Klan_A]</OG_Ork_NamerFaction_Feral_Player.rulePack.rulesStrings.1>
+  <OG_Ork_NamerFaction_Feral_Player.rulePack.rulesStrings.2>name-> of da [Klan_A]</OG_Ork_NamerFaction_Feral_Player.rulePack.rulesStrings.2>
+  <OG_Ork_NamerFaction_Waaagh.rulePack.rulesStrings.0>name->[Waaagh] [LeaderName]</OG_Ork_NamerFaction_Waaagh.rulePack.rulesStrings.0>
+  <OG_Ork_NamerFaction_Waaagh.rulePack.rulesStrings.1>name->[[CurrentWorld]의 [Waaagh] [LeaderName]</OG_Ork_NamerFaction_Waaagh.rulePack.rulesStrings.1>
+  <OG_Ork_NamerFaction_Waaagh.rulePack.rulesStrings.2>Waaagh->Waaagh!</OG_Ork_NamerFaction_Waaagh.rulePack.rulesStrings.2>
+  <OG_Ork_NamerFaction_Waaagh.rulePack.rulesStrings.3>LeaderName->[Ork_Warboss]</OG_Ork_NamerFaction_Waaagh.rulePack.rulesStrings.3>
+  <OG_Ork_NamerFaction_Waaagh.rulePack.rulesStrings.4>LeaderName->[Ork_Warboss] [Ork_Title_Post]</OG_Ork_NamerFaction_Waaagh.rulePack.rulesStrings.4>
+  <OG_Ork_NamerFaction_Waaagh.rulePack.rulesStrings.5>LeaderName->[Ork_Title_Pre] [Ork_Warboss]</OG_Ork_NamerFaction_Waaagh.rulePack.rulesStrings.5>
+  <OG_Ork_NamerFaction_Waaagh.rulePack.rulesStrings.6>LeaderName->[Ork_Title_Pre] [Ork_Warboss] [Ork_Title_Post]</OG_Ork_NamerFaction_Waaagh.rulePack.rulesStrings.6>
+  <OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.0>r_name->[adj] [group]</OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.0>
+  <OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.1>group->쉥쫀자둘</OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.1>
+  <OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.2>group->깃</OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.2>
+  <OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.3>group->런츠</OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.3>
+  <OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.4>group->쪼놘좌들</OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.4>
+  <OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.5>group->몹</OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.5>
+  <OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.6>group->유뭑뮌둘</OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.6>
+  <OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.7>group->봥랑쫘들</OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.7>
+  <OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.8>group->뚸돌이들</OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.8>
+  <OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.9>group->유뭑민</OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.9>
+  <OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.10>adj->초췌환</OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.10>
+  <OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.11>adj->눠덜눠덜한</OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.11>
+  <OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.12>adj->유기된</OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.12>
+  <OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.13>adj->기진맥진한</OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.13>
+  <OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.14>adj->잃어버린</OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.14>
+  <OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.15>adj->낡은</OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.15>
+  <OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.16>adj->강인한</OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.16>
+  <OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.17>adj->끈질긴</OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.17>
+  <OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.18>adj->결연한</OG_Ork_NamerFaction_Refugee.rulePack.rulesStrings.18>
+  <OG_Ork_NamerBases.rulePack.rulesStrings.0>name->[Ork_Outpost]</OG_Ork_NamerBases.rulePack.rulesStrings.0>
+  <OG_Ork_NamerPerson.rulePack.rulesStrings.0>name->[NameOrk]</OG_Ork_NamerPerson.rulePack.rulesStrings.0>
+  <OG_Grot_NamerPerson.rulePack.rulesStrings.0>name->[NameGrot]</OG_Grot_NamerPerson.rulePack.rulesStrings.0>
+  <OG_Snotling_NamerAnimal.rulePack.rulesStrings.0>name->[NameSnot]</OG_Snotling_NamerAnimal.rulePack.rulesStrings.0>
+  <OG_Squig_NamerAnimal.rulePack.rulesStrings.0>name->[NameSquig]</OG_Squig_NamerAnimal.rulePack.rulesStrings.0>
+  <OG_Orkoid_NameUtility.rulePack.rulesStrings.0>NameOrk(p=8)->[OrkFirst]</OG_Orkoid_NameUtility.rulePack.rulesStrings.0>
+  <OG_Orkoid_NameUtility.rulePack.rulesStrings.1>NameOrk(p=4)->[OrkFirst] [OrkSecond]</OG_Orkoid_NameUtility.rulePack.rulesStrings.1>
+  <OG_Orkoid_NameUtility.rulePack.rulesStrings.2>NameOrk(p=0.2)->[Ork_First] '[TitlePost]' [Ork_First_B]</OG_Orkoid_NameUtility.rulePack.rulesStrings.2>
+  <OG_Orkoid_NameUtility.rulePack.rulesStrings.3>OrkFirst(p=4)->[Ork_First_A][Ork_First_B]</OG_Orkoid_NameUtility.rulePack.rulesStrings.3>
+  <OG_Orkoid_NameUtility.rulePack.rulesStrings.4>OrkFirst(p=1)->[Ork_First]</OG_Orkoid_NameUtility.rulePack.rulesStrings.4>
+  <OG_Orkoid_NameUtility.rulePack.rulesStrings.5>OrkSecond(p=4)->[Ork_Second_A][Ork_Second_B]</OG_Orkoid_NameUtility.rulePack.rulesStrings.5>
+  <OG_Orkoid_NameUtility.rulePack.rulesStrings.6>OrkSecond(p=1)->[Ork_Second]</OG_Orkoid_NameUtility.rulePack.rulesStrings.6>
+  <OG_Orkoid_NameUtility.rulePack.rulesStrings.7>NameGrot(p=15)->[GrotFirst]</OG_Orkoid_NameUtility.rulePack.rulesStrings.7>
+  <OG_Orkoid_NameUtility.rulePack.rulesStrings.8>NameGrot(p=10)->[GrotFirst] [GrotSecond]</OG_Orkoid_NameUtility.rulePack.rulesStrings.8>
+  <OG_Orkoid_NameUtility.rulePack.rulesStrings.9>NameGrot(p=1)->[GrotFirst] '[Grot_Nick]' [GrotSecond]</OG_Orkoid_NameUtility.rulePack.rulesStrings.9>
+  <OG_Orkoid_NameUtility.rulePack.rulesStrings.10>GrotFirst(p=4)->[Grot_First_A][Grot_First_B]</OG_Orkoid_NameUtility.rulePack.rulesStrings.10>
+  <OG_Orkoid_NameUtility.rulePack.rulesStrings.11>GrotSecond(p=4)->[Grot_Second_A][Grot_Second_B]</OG_Orkoid_NameUtility.rulePack.rulesStrings.11>
+  <OG_Orkoid_NameUtility.rulePack.rulesStrings.12>NameSquig->[Squig_A][Squig_B]</OG_Orkoid_NameUtility.rulePack.rulesStrings.12>
+  <OG_Orkoid_NameUtility.rulePack.rulesStrings.13>NameSnot(p=10)->스놋[Ork_First_B]</OG_Orkoid_NameUtility.rulePack.rulesStrings.13>
+  <OG_Orkoid_NameUtility.rulePack.rulesStrings.14>NameSnot(p=7)->스놋[Ork_Second_B]</OG_Orkoid_NameUtility.rulePack.rulesStrings.14>
+  <OG_Orkoid_NameUtility.rulePack.rulesStrings.15>NameSnot(p=5)->[Ork_First_A]스놋</OG_Orkoid_NameUtility.rulePack.rulesStrings.15>
+  <OG_Orkoid_NameUtility.rulePack.rulesStrings.16>NameSnot(p=1)->[Ork_Second_A]=스놋</OG_Orkoid_NameUtility.rulePack.rulesStrings.16>
+  <OG_Orkoid_NameUtility.rulePack.rulesStrings.17>NameSnot(p=10)->스놋[Grot_First_B]</OG_Orkoid_NameUtility.rulePack.rulesStrings.17>
+  <OG_Orkoid_NameUtility.rulePack.rulesStrings.18>NameSnot(p=7)->스놋[Grot_Second_B]</OG_Orkoid_NameUtility.rulePack.rulesStrings.18>
+  <OG_Orkoid_NameUtility.rulePack.rulesStrings.19>NameSnot(p=5)->[Grot_First_A]스놋</OG_Orkoid_NameUtility.rulePack.rulesStrings.19>
+  <OG_Orkoid_NameUtility.rulePack.rulesStrings.20>NameSnot(p=1)->[Grot_Second_A]스놋</OG_Orkoid_NameUtility.rulePack.rulesStrings.20>
+  <OG_Orkoid_NameUtility.rulePack.rulesStrings.21>NameGod(p=1)->고크</OG_Orkoid_NameUtility.rulePack.rulesStrings.21>
+  <OG_Orkoid_NameUtility.rulePack.rulesStrings.22>NameGod(p=1)->모크</OG_Orkoid_NameUtility.rulePack.rulesStrings.22>
+  <OG_Orkoid_NameUtility.rulePack.rulesStrings.23>Klan(p=3)->[Klan_A] [Klan_B]</OG_Orkoid_NameUtility.rulePack.rulesStrings.23>
+  <NamerOrkoidKulture.rulePack.rulesStrings.0>r_ideoName->더 [keyDeity]</NamerOrkoidKulture.rulePack.rulesStrings.0>
+  <NamerOrkoidKulture.rulePack.rulesStrings.1>r_ideoName->[hyphenPrefix]-더 [keyDeity]</NamerOrkoidKulture.rulePack.rulesStrings.1>
+  <NamerOrkoidKulture.rulePack.rulesStrings.2>r_ideoName->더 [keyDeity] [creed]</NamerOrkoidKulture.rulePack.rulesStrings.2>
+  <NamerOrkoidKulture.rulePack.rulesStrings.3>r_ideoName->[keyDeity]의 [creed]</NamerOrkoidKulture.rulePack.rulesStrings.3>
+  <NamerOrkoidKulture.rulePack.rulesStrings.4>r_ideoAdjective->[keyDeity]교적</NamerOrkoidKulture.rulePack.rulesStrings.4>
+  <NamerOrkoidKulture.rulePack.rulesStrings.5>r_memberName->[keyDeity]교인</NamerOrkoidKulture.rulePack.rulesStrings.5>
+  <NamerOrkoidKulture.rulePack.rulesStrings.6>r_memberName->[keyDeity] 숭배자</NamerOrkoidKulture.rulePack.rulesStrings.6>
+  <NamerOrkoidKulture.rulePack.rulesStrings.7>r_ideoName(p=2)->[globalAdjective] [packIdeoName]</NamerOrkoidKulture.rulePack.rulesStrings.7>
+  <NamerOrkoidKulture.rulePack.rulesStrings.8>r_ideoName(p=1.5,forcePrefix==False)->[hyphenPrefix] [packIdeoName]</NamerOrkoidKulture.rulePack.rulesStrings.8>
+  <NamerOrkoidKulture.rulePack.rulesStrings.9>r_ideoName->[memeAdjective] [packIdeoName]</NamerOrkoidKulture.rulePack.rulesStrings.9>
+  <NamerOrkoidKulture.rulePack.rulesStrings.10>r_ideoName(p=0.5)->[memeAdjective] [creed]</NamerOrkoidKulture.rulePack.rulesStrings.10>
+  <NamerOrkoidKulture.rulePack.rulesStrings.11>r_ideoName(p=0.2)->[packTheme]의 [creed]</NamerOrkoidKulture.rulePack.rulesStrings.11>
+  <NamerOrkoidKulture.rulePack.rulesStrings.12>r_ideoAdjective(priority=1)->[packAdjective]</NamerOrkoidKulture.rulePack.rulesStrings.12>
+  <NamerOrkoidKulture.rulePack.rulesStrings.13>r_memberName->[packMember]</NamerOrkoidKulture.rulePack.rulesStrings.13>
+  <NamerOrkoidKulture.rulePack.rulesStrings.14>creed(priority=1)->[memeCreed]</NamerOrkoidKulture.rulePack.rulesStrings.14>
+  <NamerOrkoidKulture.rulePack.rulesStrings.15>creed->[genericCreed]</NamerOrkoidKulture.rulePack.rulesStrings.15>
+  <NamerOrkoidKulture.rulePack.rulesStrings.16>genericCreed->신조</NamerOrkoidKulture.rulePack.rulesStrings.16>
+  <NamerOrkoidKulture.rulePack.rulesStrings.17>genericCreed->교의</NamerOrkoidKulture.rulePack.rulesStrings.17>
+  <NamerOrkoidKulture.rulePack.rulesStrings.18>genericCreed->방식</NamerOrkoidKulture.rulePack.rulesStrings.18>
+  <NamerOrkoidKulture.rulePack.rulesStrings.19>genericCreed->길</NamerOrkoidKulture.rulePack.rulesStrings.19>
+  <NamerOrkoidKulture.rulePack.rulesStrings.20>globalAdjective->[Color]</NamerOrkoidKulture.rulePack.rulesStrings.20>
+  <NamerOrkoidKulture.rulePack.rulesStrings.21>globalAdjective->새로운</NamerOrkoidKulture.rulePack.rulesStrings.21>
+  <NamerOrkoidKulture.rulePack.rulesStrings.22>globalAdjective->완전한</NamerOrkoidKulture.rulePack.rulesStrings.22>
+  <NamerOrkoidKulture.rulePack.rulesStrings.23>globalAdjective->오래된</NamerOrkoidKulture.rulePack.rulesStrings.23>
+  <NamerOrkoidKulture.rulePack.rulesStrings.24>globalAdjective->고대의</NamerOrkoidKulture.rulePack.rulesStrings.24>
+  <NamerOrkoidKulture.rulePack.rulesStrings.25>globalAdjective->역사적인</NamerOrkoidKulture.rulePack.rulesStrings.25>
+  <NamerOrkoidKulture.rulePack.rulesStrings.26>globalAdjective->개정</NamerOrkoidKulture.rulePack.rulesStrings.26>
+  <NamerOrkoidKulture.rulePack.rulesStrings.27>globalAdjective->개혁</NamerOrkoidKulture.rulePack.rulesStrings.27>
+  <NamerOrkoidKulture.rulePack.rulesStrings.28>globalAdjective->굳은</NamerOrkoidKulture.rulePack.rulesStrings.28>
+  <NamerOrkoidKulture.rulePack.rulesStrings.29>globalAdjective->근본</NamerOrkoidKulture.rulePack.rulesStrings.29>
+  <NamerOrkoidKulture.rulePack.rulesStrings.30>globalAdjective->진실의</NamerOrkoidKulture.rulePack.rulesStrings.30>
+  <NamerOrkoidKulture.rulePack.rulesStrings.31>globalAdjective->민속</NamerOrkoidKulture.rulePack.rulesStrings.31>
+  <NamerOrkoidKulture.rulePack.rulesStrings.32>globalAdjective->개혁</NamerOrkoidKulture.rulePack.rulesStrings.32>
+  <NamerOrkoidKulture.rulePack.rulesStrings.33>globalAdjective->[place_adjective]</NamerOrkoidKulture.rulePack.rulesStrings.33>
+  <NamerOrkoidKulture.rulePack.rulesStrings.34>hyphenPrefix->[globalHyphenPrefix]</NamerOrkoidKulture.rulePack.rulesStrings.34>
+  <NamerOrkoidKulture.rulePack.rulesStrings.35>hyphenPrefix->[memeHyphenPrefix]</NamerOrkoidKulture.rulePack.rulesStrings.35>
+  <NamerOrkoidKulture.rulePack.rulesStrings.36>globalHyphenPrefix(p=4)->신</NamerOrkoidKulture.rulePack.rulesStrings.36>
+  <NamerOrkoidKulture.rulePack.rulesStrings.37>globalHyphenPrefix(p=2)->구</NamerOrkoidKulture.rulePack.rulesStrings.37>
+  <NamerOrkoidKulture.rulePack.rulesStrings.38>globalHyphenPrefix->신성</NamerOrkoidKulture.rulePack.rulesStrings.38>
+  <NamerOrkoidKulture.rulePack.rulesStrings.39>globalHyphenPrefix->초월</NamerOrkoidKulture.rulePack.rulesStrings.39>
+  <NamerOrkoidKulture.rulePack.rulesStrings.40>globalHyphenPrefix->초</NamerOrkoidKulture.rulePack.rulesStrings.40>
+  <NamerDeityOrkoid.rulePack.rulesStrings.0>r_deityName->[NameGod]</NamerDeityOrkoid.rulePack.rulesStrings.0>
+  <DeityTypeMakerOrkoid.rulePack.rulesStrings.0>r_deityType->[memeConcept]의 [god]</DeityTypeMakerOrkoid.rulePack.rulesStrings.0>
+  <DeityTypeMakerOrkoid.rulePack.rulesStrings.1>god(p=7)->신</DeityTypeMakerOrkoid.rulePack.rulesStrings.1>
+  <DeityTypeMakerOrkoid.rulePack.rulesStrings.2>god(p=4)->[memeGod]</DeityTypeMakerOrkoid.rulePack.rulesStrings.2>
+  <DeityTypeMakerOrkoid.rulePack.rulesStrings.3>god(p=3)->영</DeityTypeMakerOrkoid.rulePack.rulesStrings.3>
+  <DeityTypeMakerOrkoid.rulePack.rulesStrings.4>god->조물주</DeityTypeMakerOrkoid.rulePack.rulesStrings.4>
+  <DeityTypeMakerOrkoid.rulePack.rulesStrings.5>god->주인</DeityTypeMakerOrkoid.rulePack.rulesStrings.5>
+  <OG_Sororitas_Order_NamerFaction.rulePack.rulesStrings.0>r_name(p=3)->[Order]의 오더</OG_Sororitas_Order_NamerFaction.rulePack.rulesStrings.0>
+  <OG_Sororitas_Order_NamerFaction.rulePack.rulesStrings.1>r_name-> [Order]의 오덜</OG_Sororitas_Order_NamerFaction.rulePack.rulesStrings.1>
+  <OG_Sororitas_NamerBases.rulePack.rulesStrings.0>name->[Order_Outpost]</OG_Sororitas_NamerBases.rulePack.rulesStrings.0>
+  <OG_Sororitas_NamerPerson.rulePack.rulesStrings.0>r_name(p=3)->[NameMaleSororitas]</OG_Sororitas_NamerPerson.rulePack.rulesStrings.0>
+  <OG_Sororitas_NamerPersonFemale.rulePack.rulesStrings.0>r_name(p=3)->[NameFemaleSororitas]</OG_Sororitas_NamerPersonFemale.rulePack.rulesStrings.0>
+  <OG_Sororitas_NameUtility.rulePack.rulesStrings.0>NameFemaleSororitas(p=4)->[Sororitas_A_Female][Sororitas_B_Female]</OG_Sororitas_NameUtility.rulePack.rulesStrings.0>
+  <OG_Sororitas_NameUtility.rulePack.rulesStrings.1>NameFemaleSororitas(p=2)->[Sororitas_Female]</OG_Sororitas_NameUtility.rulePack.rulesStrings.1>
+  <OG_Sororitas_NameUtility.rulePack.rulesStrings.2>NameFemaleSororitas(p=0.2)->[Sororitas_Female][Sororitas_B_Female]</OG_Sororitas_NameUtility.rulePack.rulesStrings.2>
+  <OG_Sororitas_NameUtility.rulePack.rulesStrings.3>Order(p=3)->[Order_A] [Order_B]</OG_Sororitas_NameUtility.rulePack.rulesStrings.3>
+  <OG_Sororitas_NameUtility.rulePack.rulesStrings.4>Order(p=3)->[Order_C] [Order_D]</OG_Sororitas_NameUtility.rulePack.rulesStrings.4>
+  <OG_Tau_NamerFaction.rulePack.rulesStrings.0>_name(p=3)->샤스 카우'우이 [Sept]</OG_Tau_NamerFaction.rulePack.rulesStrings.0>
+  <OG_Tau_NamerBases.rulePack.rulesStrings.0>name->[Tau_Outpost]</OG_Tau_NamerBases.rulePack.rulesStrings.0>
+  <OG_Tau_NamerPerson.rulePack.rulesStrings.0>r_name(p=3)->[NameMaleTau]</OG_Tau_NamerPerson.rulePack.rulesStrings.0>
+  <OG_Tau_NamerPersonFemale.rulePack.rulesStrings.0>r_name(p=3)->[NameFemaleTau]</OG_Tau_NamerPersonFemale.rulePack.rulesStrings.0>
+  <OG_Tau_NameUtility.rulePack.rulesStrings.0>NameMaleTau(p=4)->[Tau_A][Tau_B]</OG_Tau_NameUtility.rulePack.rulesStrings.0>
+  <OG_Tau_NameUtility.rulePack.rulesStrings.1>NameMaleTau(p=2)->[Tau]</OG_Tau_NameUtility.rulePack.rulesStrings.1>
+  <OG_Tau_NameUtility.rulePack.rulesStrings.2>NameMaleTau(p=0.2)->[Tau][Tau_B]</OG_Tau_NameUtility.rulePack.rulesStrings.2>
+  <OG_Tau_NameUtility.rulePack.rulesStrings.3>NameFemaleTau(p=4)->[Tau_A][Tau_B]</OG_Tau_NameUtility.rulePack.rulesStrings.3>
+  <OG_Tau_NameUtility.rulePack.rulesStrings.4>NameFemaleTau(p=2)->[Tau]</OG_Tau_NameUtility.rulePack.rulesStrings.4>
+  <OG_Tau_NameUtility.rulePack.rulesStrings.5>NameFemaleTau(p=0.2)->[Tau_Female][Tau_B]</OG_Tau_NameUtility.rulePack.rulesStrings.5>
+  <OG_Tau_NameUtility.rulePack.rulesStrings.6>Sept(p=3)->[Sept_Major]</OG_Tau_NameUtility.rulePack.rulesStrings.6>
+  <OG_Militarum_NamerFaction.rulePack.rulesStrings.0>r_name->[MilitarumRegiment]</OG_Militarum_NamerFaction.rulePack.rulesStrings.0>
+  <OG_Militarum_NamerFaction_Cadian.rulePack.rulesStrings.0>r_name->Cadian [Ordinal] 연대</OG_Militarum_NamerFaction_Cadian.rulePack.rulesStrings.0>
+  <OG_Militarum_NamerFaction_Cadian.rulePack.rulesStrings.1>r_name->[Ordinal] 카디안 연대</OG_Militarum_NamerFaction_Cadian.rulePack.rulesStrings.1>
+  <OG_Militarum_NamerFaction_Cadian.rulePack.rulesStrings.2>r_name->[Ordinal] 카디안 쇼크 트루퍼</OG_Militarum_NamerFaction_Cadian.rulePack.rulesStrings.2>
+  <OG_Militarum_NamerFaction_Cadian.rulePack.rulesStrings.3>r_name->Cadian [Ordinal] 쇼크 트루퍼</OG_Militarum_NamerFaction_Cadian.rulePack.rulesStrings.3>
+  <OG_Militarum_NamerFaction_Armageddon.rulePack.rulesStrings.0>r_name->[Ordinal] 아마겟돈 스틸 연대</OG_Militarum_NamerFaction_Armageddon.rulePack.rulesStrings.0>
+  <OG_Militarum_NamerFaction_Armageddon.rulePack.rulesStrings.1>r_name->아마겟돈 [Ordinal] 애쉬 웨이스트 민병대</OG_Militarum_NamerFaction_Armageddon.rulePack.rulesStrings.1>
+  <OG_Militarum_NamerFaction_Armageddon.rulePack.rulesStrings.2>r_name->아마겟돈 [Ordinal] "오크 헌터"</OG_Militarum_NamerFaction_Armageddon.rulePack.rulesStrings.2>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.0>r_name->[Militarum_Outpost]</OG_Militarum_NamerBases.rulePack.rulesStrings.0>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.1>r_name(p=12)->[townname_wordgen]</OG_Militarum_NamerBases.rulePack.rulesStrings.1>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.2>r_name(p=4)->[townname_combo]</OG_Militarum_NamerBases.rulePack.rulesStrings.2>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.3>r_name->[townname_near]</OG_Militarum_NamerBases.rulePack.rulesStrings.3>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.4>topicalnoun->[Vegetable]</OG_Militarum_NamerBases.rulePack.rulesStrings.4>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.5>topicalnoun->[Game]</OG_Militarum_NamerBases.rulePack.rulesStrings.5>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.6>topicalnoun->[BodyPart]</OG_Militarum_NamerBases.rulePack.rulesStrings.6>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.7>townname_combo->[topicalnoun] [TerrainFeature]</OG_Militarum_NamerBases.rulePack.rulesStrings.7>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.8>townname_combo->[topicalnoun] [Militarum_Outpost]</OG_Militarum_NamerBases.rulePack.rulesStrings.8>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.9>townname_combo->[Militarum_Outpost] [TerrainFeature]</OG_Militarum_NamerBases.rulePack.rulesStrings.9>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.10>townname_combo->[TerrainFeature] [Militarum_Outpost]</OG_Militarum_NamerBases.rulePack.rulesStrings.10>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.11>townname_combo(p=3)->[Character]의 [TerrainFeature]</OG_Militarum_NamerBases.rulePack.rulesStrings.11>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.12>townname_combo(p=3)->[Character]의 [Militarum_Outpost]</OG_Militarum_NamerBases.rulePack.rulesStrings.12>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.13>townname_near->[TerrainFeature]의 [nearnameinitial]</OG_Militarum_NamerBases.rulePack.rulesStrings.13>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.14>townname_near->[TerrainFeature] 옆의 [nearnameinitial]</OG_Militarum_NamerBases.rulePack.rulesStrings.14>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.15>townname_near->[TerrainFeature] 위의 [nearnameinitial]</OG_Militarum_NamerBases.rulePack.rulesStrings.15>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.16>nearnameinitial->[townname_wordgen]</OG_Militarum_NamerBases.rulePack.rulesStrings.16>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.17>townname_wordgen(p=2)->[SylE][SylE]</OG_Militarum_NamerBases.rulePack.rulesStrings.17>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.18>townname_wordgen(p=2)->[SylE][SylE][SylE]</OG_Militarum_NamerBases.rulePack.rulesStrings.18>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.19>townname_wordgen(p=2)->[SylE][Militarum_Outpost]</OG_Militarum_NamerBases.rulePack.rulesStrings.19>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.20>townname_wordgen(p=2)->[Militarum_Outpost] [SylE][SylE]</OG_Militarum_NamerBases.rulePack.rulesStrings.20>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.21>townname_wordgen->[Militarum_Outpost] [TerrainFeature]</OG_Militarum_NamerBases.rulePack.rulesStrings.21>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.22>townname_wordgen->[Militarum_Outpost] [topicalnoun]</OG_Militarum_NamerBases.rulePack.rulesStrings.22>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.23>townend->거점</OG_Militarum_NamerBases.rulePack.rulesStrings.23>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.24>townend->전초 기지</OG_Militarum_NamerBases.rulePack.rulesStrings.24>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.25>townend->주둔지</OG_Militarum_NamerBases.rulePack.rulesStrings.25>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.26>townend->요새</OG_Militarum_NamerBases.rulePack.rulesStrings.26>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.27>townend->보루</OG_Militarum_NamerBases.rulePack.rulesStrings.27>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.28>townend->요새</OG_Militarum_NamerBases.rulePack.rulesStrings.28>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.29>townend->보루</OG_Militarum_NamerBases.rulePack.rulesStrings.29>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.30>townend->보루</OG_Militarum_NamerBases.rulePack.rulesStrings.30>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.31>townend->엄체</OG_Militarum_NamerBases.rulePack.rulesStrings.31>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.32>townend->전선</OG_Militarum_NamerBases.rulePack.rulesStrings.32>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.33>townend->주둔지</OG_Militarum_NamerBases.rulePack.rulesStrings.33>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.34>townend->전장</OG_Militarum_NamerBases.rulePack.rulesStrings.34>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.35>townend->벙커</OG_Militarum_NamerBases.rulePack.rulesStrings.35>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.36>townend->집결지</OG_Militarum_NamerBases.rulePack.rulesStrings.36>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.37>townend->통신 중계</OG_Militarum_NamerBases.rulePack.rulesStrings.37>
+  <OG_Militarum_NamerBases.rulePack.rulesStrings.38>townend->병영</OG_Militarum_NamerBases.rulePack.rulesStrings.38>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.0>r_name(p=3)->[NameMaleMilitarum]</OG_Militarum_NamerPerson.rulePack.rulesStrings.0>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.1>r_name(p=4)->[MaleFirst] [MaleSecond]</OG_Militarum_NamerPerson.rulePack.rulesStrings.1>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.2>r_name(p=2)->[MaleFirst] `[MaleNick]` [MaleSecond]</OG_Militarum_NamerPerson.rulePack.rulesStrings.2>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.3>r_name(p=0.5)->[MaleFirst] [MaleNick]</OG_Militarum_NamerPerson.rulePack.rulesStrings.3>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.4>r_name->[SybGenA][SybGenB] [SybGenH][SybGenI][SybGenJ][SybGenK]</OG_Militarum_NamerPerson.rulePack.rulesStrings.4>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.5>r_name->[SybGenC][SybGenD] [SybGenH][SybGenI][SybGenJ][SybGenK]</OG_Militarum_NamerPerson.rulePack.rulesStrings.5>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.6>r_name->[Imperial_Male_First] [SybGenH][SybGenI][SybGenJ][SybGenK]</OG_Militarum_NamerPerson.rulePack.rulesStrings.6>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.7>r_name->[SybGenH][SybGenI][SybGenJ][SybGenK] [SybGenA][SybGenB]</OG_Militarum_NamerPerson.rulePack.rulesStrings.7>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.8>r_name->[SybGenH][SybGenI][SybGenJ][SybGenK] [SybGenC][SybGenD]</OG_Militarum_NamerPerson.rulePack.rulesStrings.8>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.9>r_name->[SybGenA][SybGenB] [SybGenC][SybGenD]</OG_Militarum_NamerPerson.rulePack.rulesStrings.9>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.10>r_name->[SybGenA][SybGenB] [SybGenE][SybGenF][SybGenG]</OG_Militarum_NamerPerson.rulePack.rulesStrings.10>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.11>r_name->[SybGenC][SybGenD] [SybGenA][SybGenB]</OG_Militarum_NamerPerson.rulePack.rulesStrings.11>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.12>r_name->[SybGenC][SybGenD] [SybGenE][SybGenF][SybGenG]</OG_Militarum_NamerPerson.rulePack.rulesStrings.12>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.13>r_name->[SybGenE][SybGenF][SybGenG] [SybGenA][SybGenB]</OG_Militarum_NamerPerson.rulePack.rulesStrings.13>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.14>r_name->[SybGenE][SybGenF][SybGenG] [SybGenC][SybGenD]</OG_Militarum_NamerPerson.rulePack.rulesStrings.14>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.15>r_name->[SybGenE][SybGenF][SybGenG] [SybGenA][SybGenB]-[SybGenC][SybGenD]</OG_Militarum_NamerPerson.rulePack.rulesStrings.15>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.16>r_name->[SybGenE][SybGenF][SybGenG] [SybGenC][SybGenD]-[SybGenA][SybGenB]</OG_Militarum_NamerPerson.rulePack.rulesStrings.16>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.17>r_name(p=0.1)->[MaleFirst]</OG_Militarum_NamerPerson.rulePack.rulesStrings.17>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.18>MaleFirst->[Militarum_Male_First]</OG_Militarum_NamerPerson.rulePack.rulesStrings.18>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.19>MaleFirst->[SybGenA][SybGenB]</OG_Militarum_NamerPerson.rulePack.rulesStrings.19>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.20>MaleFirst->[SybGenC][SybGenD]</OG_Militarum_NamerPerson.rulePack.rulesStrings.20>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.21>MaleFirst->[SybGenE][SybGenF][SybGenG]</OG_Militarum_NamerPerson.rulePack.rulesStrings.21>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.22>MaleFirst->[Imperial_Male_First]</OG_Militarum_NamerPerson.rulePack.rulesStrings.22>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.23>MaleSecond->[Militarum_Unisex_Last]</OG_Militarum_NamerPerson.rulePack.rulesStrings.23>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.24>MaleSecond->[SybGerA][SybGerB]</OG_Militarum_NamerPerson.rulePack.rulesStrings.24>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.25>MaleSecond->[SybGerC] [SybGerD]</OG_Militarum_NamerPerson.rulePack.rulesStrings.25>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.26>MaleSecond->[MaleMEName]</OG_Militarum_NamerPerson.rulePack.rulesStrings.26>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.27>MaleSecond->[SybAngA][SybAngB]</OG_Militarum_NamerPerson.rulePack.rulesStrings.27>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.28>MaleSecond->[SybGenA][SybGenB]</OG_Militarum_NamerPerson.rulePack.rulesStrings.28>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.29>MaleSecond->[SybGenC][SybGenD]</OG_Militarum_NamerPerson.rulePack.rulesStrings.29>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.30>MaleSecond->[SybGenE][SybGenF][SybGenG]</OG_Militarum_NamerPerson.rulePack.rulesStrings.30>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.31>MaleMEName->Al[Extra][SybMEA][SybMEB]</OG_Militarum_NamerPerson.rulePack.rulesStrings.31>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.32>MaleMEName->[SybMEA][SybMEB]</OG_Militarum_NamerPerson.rulePack.rulesStrings.32>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.33>MaleMEName->Al[Extra][SybMEC][SybMED][SybMEE]</OG_Militarum_NamerPerson.rulePack.rulesStrings.33>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.34>MaleMEName->[SybMEC][SybMED][SybMEE]</OG_Militarum_NamerPerson.rulePack.rulesStrings.34>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.35>MaleNick->[Militarum_Male_Nick]</OG_Militarum_NamerPerson.rulePack.rulesStrings.35>
+  <OG_Militarum_NamerPerson.rulePack.rulesStrings.36>MaleNick->[Militarum_Unisex_Nick]</OG_Militarum_NamerPerson.rulePack.rulesStrings.36>
+  <OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.0>r_name(p=3)->[NameFemaleMilitarum]</OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.0>
+  <OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.1>r_name(p=4)->[FemaleFirst] [FemaleSecond]</OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.1>
+  <OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.2>r_name(p=2)->[FemaleFirst] `[FemaleNick]` [FemaleSecond]</OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.2>
+  <OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.3>r_name(p=0.1)->[FemaleFirst] `[FemaleNick]`</OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.3>
+  <OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.4>r_name(p=0.5)->[FemaleFirst]</OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.4>
+  <OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.5>r_name->[SybGenC] [Imperial_Female_First] [SybGenH][SybGenI][SybGenJ][SybGenK]</OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.5>
+  <OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.6>r_name->[Imperial_Female_First] [SybGenH][SybGenI][SybGenJ][SybGenK]</OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.6>
+  <OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.7>r_name->[SybGenH][SybGenI][SybGenJ][SybGenK] [SybGenA][SybGenB]</OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.7>
+  <OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.8>r_name->[SybGenH][SybGenI][SybGenJ] [Imperial_Female_First] [SybGenC][SybGenD]</OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.8>
+  <OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.9>r_name->[SybGenC] [Imperial_Female_First] [SybGenA][SybGenB]</OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.9>
+  <OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.10>r_name->[SybGenC] [Imperial_Female_First] [SybGenE][SybGenF][SybGenG]</OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.10>
+  <OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.11>r_name->[SybGenE][SybGenF] [Imperial_Female_First] [SybGenA][SybGenB]</OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.11>
+  <OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.12>r_name->[SybGenE][SybGenF] [Imperial_Female_First] [SybGenC][SybGenD]</OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.12>
+  <OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.13>r_name->[SybGenE][SybGenF] [Imperial_Female_First] [SybGenA][SybGenB]-[SybGenC][SybGenD]</OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.13>
+  <OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.14>r_name->[SybGenE][SybGenF] [Imperial_Female_First] [SybGenC][SybGenD]-[SybGenA][SybGenB]</OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.14>
+  <OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.15>r_name->[Imperial_Female_First] [SybGenA][SybGenB]</OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.15>
+  <OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.16>r_name->[Imperial_Female_First] [SybGenC][SybGenD]</OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.16>
+  <OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.17>r_name->[Imperial_Female_First] [SybGenE][SybGenF][SybGenG]</OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.17>
+  <OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.18>FemaleFirst->[Militarum_Female_First]</OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.18>
+  <OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.19>FemaleFirst->[SybGenC] [Imperial_Female_First]</OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.19>
+  <OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.20>FemaleFirst->[SybGenE][SybGenF] [Imperial_Female_First]</OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.20>
+  <OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.21>FemaleFirst->[Imperial_Female_First]</OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.21>
+  <OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.22>FemaleSecond->[Militarum_Unisex_Last]</OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.22>
+  <OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.23>FemaleSecond->[SybGerA][SybGerB]</OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.23>
+  <OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.24>FemaleSecond->[SybGerC] [SybGerD]</OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.24>
+  <OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.25>FemaleSecond->[FemaleMEName]</OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.25>
+  <OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.26>FemaleSecond->[SybFrA] [SybFrB][SybFrC]</OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.26>
+  <OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.27>FemaleSecond->[SybAngA][SybAngB]</OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.27>
+  <OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.28>FemaleMEName->[Al][Extra][SybMEA][SybMEB]</OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.28>
+  <OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.29>FemaleMEName->[SybMEA][SybMEB]</OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.29>
+  <OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.30>FemaleMEName->[Al][Extra][SybMEC][SybMED][SybMEE]</OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.30>
+  <OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.31>FemaleMEName->[SybMEC][SybMED][SybMEE]</OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.31>
+  <OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.32>FemaleNick->[Militarum_Female_Nick]</OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.32>
+  <OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.33>FemaleNick->[Militarum_Unisex_Nick]</OG_Militarum_NamerPersonFemale.rulePack.rulesStrings.33>
+  <OG_Militarum_NameUtility.rulePack.rulesStrings.0>MilitarumRegiment(p=0.1)->[Ordinal] [Militarum_HomeWorld] [RegimentType]</OG_Militarum_NameUtility.rulePack.rulesStrings.0>
+  <OG_Militarum_NameUtility.rulePack.rulesStrings.1>MilitarumRegiment(p=0.1)->[Militarum_HomeWorld] [Ordinal] [RegimentType]</OG_Militarum_NameUtility.rulePack.rulesStrings.1>
+  <OG_Militarum_NameUtility.rulePack.rulesStrings.2>MilitarumRegiment->[Ordinal] [Militarum_PredefinedRegiment]</OG_Militarum_NameUtility.rulePack.rulesStrings.2>
+  <OG_Militarum_NameUtility.rulePack.rulesStrings.3>MilitarumRegiment(p=0.01)->타니스 유일무이 연대</OG_Militarum_NameUtility.rulePack.rulesStrings.3>
+  <OG_Militarum_NameUtility.rulePack.rulesStrings.4>RegimentType->[RegimentTypes]</OG_Militarum_NameUtility.rulePack.rulesStrings.4>
+  <OG_Militarum_NameUtility.rulePack.rulesStrings.5>RegimentType(p=0.1)->[RegimentTypes] `[Militarum_RegimentMoniker]`</OG_Militarum_NameUtility.rulePack.rulesStrings.5>
+  <OG_Militarum_NameUtility.rulePack.rulesStrings.6>RegimentTypes->[Militarum_RegimentTypesCommon]</OG_Militarum_NameUtility.rulePack.rulesStrings.6>
+  <OG_Militarum_NameUtility.rulePack.rulesStrings.7>RegimentTypes(p=0.1)->[Militarum_RegimentTypesUncommon]</OG_Militarum_NameUtility.rulePack.rulesStrings.7>
+  <OG_Militarum_NameUtility.rulePack.rulesStrings.8>추가-> </OG_Militarum_NameUtility.rulePack.rulesStrings.8>
+  <OG_Militarum_NameUtility.rulePack.rulesStrings.9>추가 사항->-</OG_Militarum_NameUtility.rulePack.rulesStrings.9>
+  <OG_Militarum_NameUtility.rulePack.rulesStrings.10>추가 사항->'</OG_Militarum_NameUtility.rulePack.rulesStrings.10>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.0>r_ideoName->[keyDeity]교</OG_NamerIdeoImperial.rulePack.rulesStrings.0>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.1>r_ideoName->[hyphenPrefix] [keyDeity]교</OG_NamerIdeoImperial.rulePack.rulesStrings.1>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.2>r_ideoName->[keyDeity]의 [creed]</OG_NamerIdeoImperial.rulePack.rulesStrings.2>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.3>r_ideoName->[keyDeity]의 [creed]</OG_NamerIdeoImperial.rulePack.rulesStrings.3>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.4>r_ideoAdjective->[keyDeity]교적</OG_NamerIdeoImperial.rulePack.rulesStrings.4>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.5>r_memberName->[keyDeity]교인</OG_NamerIdeoImperial.rulePack.rulesStrings.5>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.6>r_memberName->[keyDeity] 숭배자</OG_NamerIdeoImperial.rulePack.rulesStrings.6>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.7>r_ideoName(p=2)->[globalAdjective] [packIdeoName]</OG_NamerIdeoImperial.rulePack.rulesStrings.7>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.8>r_ideoName(p=1.5,forcePrefix==False)->[hyphenPrefix] [packIdeoName]</OG_NamerIdeoImperial.rulePack.rulesStrings.8>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.9>r_ideoName->[memeAdjective] [packIdeoName]</OG_NamerIdeoImperial.rulePack.rulesStrings.9>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.10>r_ideoName(p=0.5)->[memeAdjective] [creed]</OG_NamerIdeoImperial.rulePack.rulesStrings.10>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.11>r_ideoName(p=0.2)->[packTheme]의 [creed]</OG_NamerIdeoImperial.rulePack.rulesStrings.11>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.12>r_ideoAdjective(priority=1)->[packAdjective]</OG_NamerIdeoImperial.rulePack.rulesStrings.12>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.13>r_memberName->[packMember]</OG_NamerIdeoImperial.rulePack.rulesStrings.13>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.14>creed(priority=1)->[memeCreed]</OG_NamerIdeoImperial.rulePack.rulesStrings.14>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.15>creed->[genericCreed]</OG_NamerIdeoImperial.rulePack.rulesStrings.15>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.16>genericCreed->신조</OG_NamerIdeoImperial.rulePack.rulesStrings.16>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.17>genericCreed->교의</OG_NamerIdeoImperial.rulePack.rulesStrings.17>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.18>genericCreed->방식</OG_NamerIdeoImperial.rulePack.rulesStrings.18>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.19>genericCreed->길</OG_NamerIdeoImperial.rulePack.rulesStrings.19>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.20>globalAdjective->[Color]</OG_NamerIdeoImperial.rulePack.rulesStrings.20>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.21>globalAdjective->새로운</OG_NamerIdeoImperial.rulePack.rulesStrings.21>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.22>globalAdjective->완전한</OG_NamerIdeoImperial.rulePack.rulesStrings.22>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.23>globalAdjective->오래된</OG_NamerIdeoImperial.rulePack.rulesStrings.23>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.24>globalAdjective->고대의</OG_NamerIdeoImperial.rulePack.rulesStrings.24>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.25>globalAdjective->역사적인</OG_NamerIdeoImperial.rulePack.rulesStrings.25>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.26>globalAdjective->개정</OG_NamerIdeoImperial.rulePack.rulesStrings.26>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.27>globalAdjective->개혁</OG_NamerIdeoImperial.rulePack.rulesStrings.27>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.28>globalAdjective->굳은</OG_NamerIdeoImperial.rulePack.rulesStrings.28>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.29>globalAdjective->근본</OG_NamerIdeoImperial.rulePack.rulesStrings.29>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.30>globalAdjective->진실의</OG_NamerIdeoImperial.rulePack.rulesStrings.30>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.31>globalAdjective->민속</OG_NamerIdeoImperial.rulePack.rulesStrings.31>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.32>globalAdjective->개혁</OG_NamerIdeoImperial.rulePack.rulesStrings.32>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.33>globalAdjective->[place_adjective]</OG_NamerIdeoImperial.rulePack.rulesStrings.33>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.34>hyphenPrefix->[globalHyphenPrefix]</OG_NamerIdeoImperial.rulePack.rulesStrings.34>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.35>hyphenPrefix->[memeHyphenPrefix]</OG_NamerIdeoImperial.rulePack.rulesStrings.35>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.36>globalHyphenPrefix(p=4)->신</OG_NamerIdeoImperial.rulePack.rulesStrings.36>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.37>globalHyphenPrefix(p=2)->구</OG_NamerIdeoImperial.rulePack.rulesStrings.37>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.38>globalHyphenPrefix->신성</OG_NamerIdeoImperial.rulePack.rulesStrings.38>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.39>globalHyphenPrefix->초월</OG_NamerIdeoImperial.rulePack.rulesStrings.39>
+  <OG_NamerIdeoImperial.rulePack.rulesStrings.40>globalHyphenPrefix->초</OG_NamerIdeoImperial.rulePack.rulesStrings.40>
+  <OG_CultureSpacer_imperial.rulePack.rulesStrings.0>globalAdjective->전우주적</OG_CultureSpacer_imperial.rulePack.rulesStrings.0>
+  <OG_CultureSpacer_imperial.rulePack.rulesStrings.1>globalAdjective->별들의</OG_CultureSpacer_imperial.rulePack.rulesStrings.1>
+  <OG_CultureSpacer_imperial.rulePack.rulesStrings.2>globalAdjective->별들의</OG_CultureSpacer_imperial.rulePack.rulesStrings.2>
+  <OG_CultureSpacer_imperial.rulePack.rulesStrings.3>globalAdjective->성간</OG_CultureSpacer_imperial.rulePack.rulesStrings.3>
+  <OG_CultureSpacer_imperial.rulePack.rulesStrings.4>globalHyphenPrefix->우주</OG_CultureSpacer_imperial.rulePack.rulesStrings.4>
+  <OG_CultureSpacer_imperial.rulePack.rulesStrings.5>globalHyphenPrefix->성간</OG_CultureSpacer_imperial.rulePack.rulesStrings.5>
+  <NamerIdeo_Militarum_Tribal.rulePack.rulesStrings.0>globalAdjective(p=15)->부족</NamerIdeo_Militarum_Tribal.rulePack.rulesStrings.0>
+  <LeaderTitleMaker_Militarum_Spacer.rulePack.rulesStrings.0>memeLeaderNoun(priority=1)->[cultureLeaderNoun]</LeaderTitleMaker_Militarum_Spacer.rulePack.rulesStrings.0>
+  <LeaderTitleMaker_Militarum_Spacer.rulePack.rulesStrings.1>cultureLeaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]</LeaderTitleMaker_Militarum_Spacer.rulePack.rulesStrings.1>
+  <LeaderTitleMaker_Militarum_Spacer.rulePack.rulesStrings.2>cultureLeaderAdjective->고위</LeaderTitleMaker_Militarum_Spacer.rulePack.rulesStrings.2>
+  <LeaderTitleMaker_Militarum_Spacer.rulePack.rulesStrings.3>cultureLeaderAdjective->대</LeaderTitleMaker_Militarum_Spacer.rulePack.rulesStrings.3>
+  <LeaderTitleMaker_Militarum_Spacer.rulePack.rulesStrings.4>cultureLeaderAdjective->완전한</LeaderTitleMaker_Militarum_Spacer.rulePack.rulesStrings.4>
+  <LeaderTitleMaker_Militarum_Spacer.rulePack.rulesStrings.5>cultureLeaderNoun->로드</LeaderTitleMaker_Militarum_Spacer.rulePack.rulesStrings.5>
+  <LeaderTitleMaker_Militarum_Spacer.rulePack.rulesStrings.6>cultureLeaderNoun->사령관</LeaderTitleMaker_Militarum_Spacer.rulePack.rulesStrings.6>
+  <LeaderTitleMaker_Militarum_Spacer.rulePack.rulesStrings.7>cultureLeaderNoun->원수</LeaderTitleMaker_Militarum_Spacer.rulePack.rulesStrings.7>
+  <LeaderTitleMaker_Militarum_Spacer.rulePack.rulesStrings.8>cultureLeaderNoun->총독</LeaderTitleMaker_Militarum_Spacer.rulePack.rulesStrings.8>
+  <LeaderTitleMaker_Militarum_Player.rulePack.rulesStrings.0>cultureLeaderAdjective->고위</LeaderTitleMaker_Militarum_Player.rulePack.rulesStrings.0>
+  <LeaderTitleMaker_Militarum_Player.rulePack.rulesStrings.1>cultureLeaderAdjective->위대한</LeaderTitleMaker_Militarum_Player.rulePack.rulesStrings.1>
+  <LeaderTitleMaker_Militarum_Player.rulePack.rulesStrings.2>cultureLeaderAdjective->대</LeaderTitleMaker_Militarum_Player.rulePack.rulesStrings.2>
+  <LeaderTitleMaker_Militarum_Player.rulePack.rulesStrings.3>cultureLeaderAdjective->총리</LeaderTitleMaker_Militarum_Player.rulePack.rulesStrings.3>
+  <LeaderTitleMaker_Militarum_Player.rulePack.rulesStrings.4>cultureLeaderNoun->로드</LeaderTitleMaker_Militarum_Player.rulePack.rulesStrings.4>
+  <LeaderTitleMaker_Militarum_Player.rulePack.rulesStrings.5>cultureLeaderNoun->사령관</LeaderTitleMaker_Militarum_Player.rulePack.rulesStrings.5>
+  <LeaderTitleMaker_Militarum_Player.rulePack.rulesStrings.6>cultureLeaderNoun->총독</LeaderTitleMaker_Militarum_Player.rulePack.rulesStrings.6>
+  <LeaderTitleMaker_Militarum_Player.rulePack.rulesStrings.7>cultureLeaderNoun->원수</LeaderTitleMaker_Militarum_Player.rulePack.rulesStrings.7>
+  <NamerDeity_EmperorOfMan.rulePack.rulesStrings.0>r_deityName->황제</NamerDeity_EmperorOfMan.rulePack.rulesStrings.0>
+  <NamerDeity_EmperorOfMan.rulePack.rulesStrings.1>r_deityName->인류의 황제</NamerDeity_EmperorOfMan.rulePack.rulesStrings.1>
+  <NamerDeity_EmperorOfMan.rulePack.rulesStrings.2>r_deityName->신-황제</NamerDeity_EmperorOfMan.rulePack.rulesStrings.2>
+  <NamerDeity_EmperorOfMan.rulePack.rulesStrings.3>r_deityName->인류의 신-황제</NamerDeity_EmperorOfMan.rulePack.rulesStrings.3>
+  <NamerDeity_EmperorOfMan.rulePack.rulesStrings.4>r_deityName->최고신</NamerDeity_EmperorOfMan.rulePack.rulesStrings.4>
+  <NamerDeity_EmperorOfMan.rulePack.rulesStrings.5>r_deityName->계시</NamerDeity_EmperorOfMan.rulePack.rulesStrings.5>
+  <NamerDeity_EmperorOfMan.rulePack.rulesStrings.6>r_deityName->별의 아이</NamerDeity_EmperorOfMan.rulePack.rulesStrings.6>
+  <NamerDeity_EmperorOfMan.rulePack.rulesStrings.7>r_deityName->신인류</NamerDeity_EmperorOfMan.rulePack.rulesStrings.7>
+  <DeityTypeMaker_EmperorOfMan.rulePack.rulesStrings.0>r_deityType->인류의 주인</DeityTypeMaker_EmperorOfMan.rulePack.rulesStrings.0>
+  <OG_Ork_PlaceMakerCommon.rulePack.rulesStrings.0>place_personalWeapon->슈타</OG_Ork_PlaceMakerCommon.rulePack.rulesStrings.0>
+  <OG_Ork_PlaceMakerCommon.rulePack.rulesStrings.1>place_personalWeapon->슬러가</OG_Ork_PlaceMakerCommon.rulePack.rulesStrings.1>
+  <OG_Ork_PlaceMakerCommon.rulePack.rulesStrings.2>place_personalWeapon->사제 슈타</OG_Ork_PlaceMakerCommon.rulePack.rulesStrings.2>
+  <OG_Ork_PlaceMakerCommon.rulePack.rulesStrings.3>place_massWeapon->초월공학 질량역전기</OG_Ork_PlaceMakerCommon.rulePack.rulesStrings.3>
+  <OG_Ork_PlaceMakerCommon.rulePack.rulesStrings.4>seismicDevice->지진파 생성기</OG_Ork_PlaceMakerCommon.rulePack.rulesStrings.4>
+  <OG_Ork_PlaceMakerCommon.rulePack.rulesStrings.5>anEMPAttack->생체유지 시스템에 가해진 EMP 공격</OG_Ork_PlaceMakerCommon.rulePack.rulesStrings.5>
+  <OG_NamerDeity_Aeldari.rulePack.rulesStrings.0>name->케인</OG_NamerDeity_Aeldari.rulePack.rulesStrings.0>
+  <OG_NamerDeity_Aeldari.rulePack.rulesStrings.1>name->그리그</OG_NamerDeity_Aeldari.rulePack.rulesStrings.1>
+  <OG_NamerDeity_Aeldari.rulePack.rulesStrings.2>name->인니드</OG_NamerDeity_Aeldari.rulePack.rulesStrings.2>
+  <OG_NamerDeity_Aeldari.rulePack.rulesStrings.3>name->이샤</OG_NamerDeity_Aeldari.rulePack.rulesStrings.3>
+  <OG_NamerDeity_Aeldari.rulePack.rulesStrings.4>name->크로노스</OG_NamerDeity_Aeldari.rulePack.rulesStrings.4>
+  <OG_NamerDeity_Aeldari.rulePack.rulesStrings.5>name->아슈르멘</OG_NamerDeity_Aeldari.rulePack.rulesStrings.5>
+  <OG_NamerDeity_Aeldari.rulePack.rulesStrings.6>name->바울</OG_NamerDeity_Aeldari.rulePack.rulesStrings.6>
+  <OG_DeityTypeMaker_Aeldari.rulePack.rulesStrings.0>r_deityType->[memeConcept]의 신</OG_DeityTypeMaker_Aeldari.rulePack.rulesStrings.0>
+  <OG_IdeoDescriptionGlobal.rulePack.rulesStrings.0>veneratedAnimal->[animal0_thingDef_label]</OG_IdeoDescriptionGlobal.rulePack.rulesStrings.0>
+  <OG_IdeoDescriptionGlobal.rulePack.rulesStrings.1>altarName->[altar0_name]</OG_IdeoDescriptionGlobal.rulePack.rulesStrings.1>
+  <OG_IdeoDescriptionGlobal.rulePack.rulesStrings.2>ritualName->[ritual0_name]</OG_IdeoDescriptionGlobal.rulePack.rulesStrings.2>
+  <OG_IdeoDescriptionGlobal.rulePack.rulesStrings.3>founderName(priority=1,uses=1)->[founder_nameFull]</OG_IdeoDescriptionGlobal.rulePack.rulesStrings.3>
+  <OG_IdeoDescriptionGlobal.rulePack.rulesStrings.4>founderName->[founder_label]</OG_IdeoDescriptionGlobal.rulePack.rulesStrings.4>
+  <OG_IdeoDescriptionGlobal.rulePack.rulesStrings.5>foeLeader_pronoun->그</OG_IdeoDescriptionGlobal.rulePack.rulesStrings.5>
+  <OG_IdeoDescriptionGlobal.rulePack.rulesStrings.6>foeLeader_possessive->그의</OG_IdeoDescriptionGlobal.rulePack.rulesStrings.6>
+  <OG_IdeoDescriptionGlobal.rulePack.rulesStrings.7>foeLeader_objective->그를</OG_IdeoDescriptionGlobal.rulePack.rulesStrings.7>
+  <OG_LeaderTitleMaker_Aeldari_Asuryani.rulePack.rulesStrings.0>memeLeaderNoun(priority=1)->[cultureLeaderNoun]</OG_LeaderTitleMaker_Aeldari_Asuryani.rulePack.rulesStrings.0>
+  <OG_LeaderTitleMaker_Aeldari_Asuryani.rulePack.rulesStrings.1>cultureLeaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]</OG_LeaderTitleMaker_Aeldari_Asuryani.rulePack.rulesStrings.1>
+  <OG_LeaderTitleMaker_Aeldari_Asuryani.rulePack.rulesStrings.2>cultureLeaderAdjective->고대의</OG_LeaderTitleMaker_Aeldari_Asuryani.rulePack.rulesStrings.2>
+  <OG_LeaderTitleMaker_Aeldari_Asuryani.rulePack.rulesStrings.3>cultureLeaderAdjective->대</OG_LeaderTitleMaker_Aeldari_Asuryani.rulePack.rulesStrings.3>
+  <OG_LeaderTitleMaker_Aeldari_Asuryani.rulePack.rulesStrings.4>cultureLeaderAdjective->위대한</OG_LeaderTitleMaker_Aeldari_Asuryani.rulePack.rulesStrings.4>
+  <OG_LeaderTitleMaker_Aeldari_Asuryani.rulePack.rulesStrings.5>cultureLeaderAdjective->고위</OG_LeaderTitleMaker_Aeldari_Asuryani.rulePack.rulesStrings.5>
+  <OG_LeaderTitleMaker_Aeldari_Asuryani.rulePack.rulesStrings.6>cultureLeaderNoun->아우터크</OG_LeaderTitleMaker_Aeldari_Asuryani.rulePack.rulesStrings.6>
+  <OG_LeaderTitleMaker_Aeldari_Asuryani.rulePack.rulesStrings.7>cultureLeaderNoun->파시어</OG_LeaderTitleMaker_Aeldari_Asuryani.rulePack.rulesStrings.7>
+  <OG_LeaderTitleMaker_Aeldari_Exodite.rulePack.rulesStrings.0>memeLeaderNoun(priority=1)->[cultureLeaderNoun]</OG_LeaderTitleMaker_Aeldari_Exodite.rulePack.rulesStrings.0>
+  <OG_LeaderTitleMaker_Aeldari_Exodite.rulePack.rulesStrings.1>cultureLeaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]</OG_LeaderTitleMaker_Aeldari_Exodite.rulePack.rulesStrings.1>
+  <OG_LeaderTitleMaker_Aeldari_Exodite.rulePack.rulesStrings.2>cultureLeaderAdjective->위대한</OG_LeaderTitleMaker_Aeldari_Exodite.rulePack.rulesStrings.2>
+  <OG_LeaderTitleMaker_Aeldari_Exodite.rulePack.rulesStrings.3>cultureLeaderAdjective->고위</OG_LeaderTitleMaker_Aeldari_Exodite.rulePack.rulesStrings.3>
+  <OG_LeaderTitleMaker_Aeldari_Exodite.rulePack.rulesStrings.4>cultureLeaderAdjective->최초의</OG_LeaderTitleMaker_Aeldari_Exodite.rulePack.rulesStrings.4>
+  <OG_LeaderTitleMaker_Aeldari_Exodite.rulePack.rulesStrings.5>cultureLeaderAdjective->대</OG_LeaderTitleMaker_Aeldari_Exodite.rulePack.rulesStrings.5>
+  <OG_LeaderTitleMaker_Aeldari_Exodite.rulePack.rulesStrings.6>cultureLeaderNoun->추장</OG_LeaderTitleMaker_Aeldari_Exodite.rulePack.rulesStrings.6>
+  <OG_LeaderTitleMaker_Aeldari_Exodite.rulePack.rulesStrings.7>cultureLeaderNoun->드래곤 로드</OG_LeaderTitleMaker_Aeldari_Exodite.rulePack.rulesStrings.7>
+  <OG_LeaderTitleMaker_Aeldari_Drukhari.rulePack.rulesStrings.0>memeLeaderNoun(priority=1)->[cultureLeaderNoun]</OG_LeaderTitleMaker_Aeldari_Drukhari.rulePack.rulesStrings.0>
+  <OG_LeaderTitleMaker_Aeldari_Drukhari.rulePack.rulesStrings.1>cultureLeaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]</OG_LeaderTitleMaker_Aeldari_Drukhari.rulePack.rulesStrings.1>
+  <OG_LeaderTitleMaker_Aeldari_Drukhari.rulePack.rulesStrings.2>cultureLeaderAdjective->영예로운</OG_LeaderTitleMaker_Aeldari_Drukhari.rulePack.rulesStrings.2>
+  <OG_LeaderTitleMaker_Aeldari_Drukhari.rulePack.rulesStrings.3>섬뜩한</OG_LeaderTitleMaker_Aeldari_Drukhari.rulePack.rulesStrings.3>
+  <OG_LeaderTitleMaker_Aeldari_Drukhari.rulePack.rulesStrings.4>잔인한</OG_LeaderTitleMaker_Aeldari_Drukhari.rulePack.rulesStrings.4>
+  <OG_LeaderTitleMaker_Aeldari_Drukhari.rulePack.rulesStrings.5>cultureLeaderNoun->아콘</OG_LeaderTitleMaker_Aeldari_Drukhari.rulePack.rulesStrings.5>
+  <OG_LeaderTitleMaker_Aeldari_Drukhari.rulePack.rulesStrings.6>cultureLeaderNoun->아코나이트</OG_LeaderTitleMaker_Aeldari_Drukhari.rulePack.rulesStrings.6>
+  <OG_LeaderTitleMaker_Aeldari_Harlequinn.rulePack.rulesStrings.0>r_leaderTitle->극단장</OG_LeaderTitleMaker_Aeldari_Harlequinn.rulePack.rulesStrings.0>
+  <OG_Culture_Aeldari_Asuryani.rulePack.rulesStrings.0>globalAdjective->크래프트월드</OG_Culture_Aeldari_Asuryani.rulePack.rulesStrings.0>
+  <OG_Culture_Aeldari_Asuryani.rulePack.rulesStrings.1>globalHyphenPrefix->우주</OG_Culture_Aeldari_Asuryani.rulePack.rulesStrings.1>
+  <OG_Culture_Aeldari_Asuryani.rulePack.rulesStrings.2>globalHyphenPrefix->성간</OG_Culture_Aeldari_Asuryani.rulePack.rulesStrings.2>
+  <OG_NamerFestivalGlobal_Aeldari.rulePack.rulesStrings.0>festivalName(p=2)->[memeAdjective] [festival]</OG_NamerFestivalGlobal_Aeldari.rulePack.rulesStrings.0>
+  <OG_NamerFestivalGlobal_Aeldari.rulePack.rulesStrings.1>festivalName->[chosenTheme]의 [festival]</OG_NamerFestivalGlobal_Aeldari.rulePack.rulesStrings.1>
+  <OG_NamerFestivalGlobal_Aeldari.rulePack.rulesStrings.2>festivalName->[chosenAdjective] [festival]</OG_NamerFestivalGlobal_Aeldari.rulePack.rulesStrings.2>
+  <OG_NamerFestivalGlobal_Aeldari.rulePack.rulesStrings.3>festivalName->[keyDeity]의 [festival]</OG_NamerFestivalGlobal_Aeldari.rulePack.rulesStrings.3>
+  <OG_NamerFestivalGlobal_Aeldari.rulePack.rulesStrings.4>festivalName->[keyDeity]의 [festival]</OG_NamerFestivalGlobal_Aeldari.rulePack.rulesStrings.4>
+  <OG_NamerFestivalGlobal_Aeldari.rulePack.rulesStrings.5>festivalName->[memeConcept]의 [festival]</OG_NamerFestivalGlobal_Aeldari.rulePack.rulesStrings.5>
+  <OG_NamerFestivalGlobal_Aeldari.rulePack.rulesStrings.6>festivalName->[chosenIdeoName]의 [festival]</OG_NamerFestivalGlobal_Aeldari.rulePack.rulesStrings.6>
+  <OG_NamerFestivalGlobal_Aeldari.rulePack.rulesStrings.7>festival->축전</OG_NamerFestivalGlobal_Aeldari.rulePack.rulesStrings.7>
+  <OG_NamerFestivalGlobal_Aeldari.rulePack.rulesStrings.8>festival->기념일</OG_NamerFestivalGlobal_Aeldari.rulePack.rulesStrings.8>
+  <OG_NamerFestivalGlobal_Aeldari.rulePack.rulesStrings.9>festival->파티</OG_NamerFestivalGlobal_Aeldari.rulePack.rulesStrings.9>
+  <OG_NamerFestivalGlobal_Aeldari.rulePack.rulesStrings.10>festival->강림절</OG_NamerFestivalGlobal_Aeldari.rulePack.rulesStrings.10>
+  <OG_NamerFestivalGlobal_Aeldari.rulePack.rulesStrings.11>festival->축제</OG_NamerFestivalGlobal_Aeldari.rulePack.rulesStrings.11>
+  <OG_NamerFestivalGlobal_Aeldari.rulePack.rulesStrings.12>festival->환회</OG_NamerFestivalGlobal_Aeldari.rulePack.rulesStrings.12>
+  <OG_NamerFestivalGlobal_Aeldari.rulePack.rulesStrings.13>festival->피에스타</OG_NamerFestivalGlobal_Aeldari.rulePack.rulesStrings.13>
+</LanguageData>

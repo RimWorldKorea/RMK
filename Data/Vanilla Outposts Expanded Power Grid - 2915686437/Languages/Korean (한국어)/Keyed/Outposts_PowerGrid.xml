@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <VOEPowerGrid.Construct.Label>건설</VOEPowerGrid.Construct.Label>
+    <VOEPowerGrid.Construct.Desc>새 건물 건설</VOEPowerGrid.Construct.Desc>
+    <VOEPowerGrid.Construct.Reason>최대 수용량 도달</VOEPowerGrid.Construct.Reason>
+    <VOEPowerGrid.Deconstruct.Label>해체</VOEPowerGrid.Deconstruct.Label>
+    <VOEPowerGrid.Deconstruct.Desc>기존 건물 해체</VOEPowerGrid.Deconstruct.Desc>
+    <VOEPowerGrid.Deconstruct.Reason>해체할 건물 없음</VOEPowerGrid.Deconstruct.Reason>
+    <VOEPowerGrid.Base.ProductionString>{0}수용량: {1} / {2}\n송전 거리: {3} [{4}]\n전력: {5}</VOEPowerGrid.Base.ProductionString>
+    <VOEPowerGrid.Base.ConstructionString>\n건설중:\n{0}</VOEPowerGrid.Base.ConstructionString>
+    <VOEPowerGrid.Base.DeconstructionString>\n해체중:\n{0}</VOEPowerGrid.Base.DeconstructionString>
+    <VOEPowerGrid.MaxSkillTooLow>건설 기술 부족. 필요: {0}. 현재: {1}</VOEPowerGrid.MaxSkillTooLow>
+    <VOEPowerGrid.ConstructionSkillCostTooHigh>수용량 부족, 필요: {0}</VOEPowerGrid.ConstructionSkillCostTooHigh>
+    <VOEPowerGrid.ConstructionMaterialCostTooHigh>건설 자재 부족, 필요:\n{0}</VOEPowerGrid.ConstructionMaterialCostTooHigh>
+    <VOEPowerGrid.ResearchNotFinished>연구되지 않음</VOEPowerGrid.ResearchNotFinished>
+    <VOEPowerGrid.PowerRange>범위</VOEPowerGrid.PowerRange>
+    <VOEPowerGrid.AllPowerTransmissionTowerUsed>모든 송전탑 사용중</VOEPowerGrid.AllPowerTransmissionTowerUsed>
+
+    <VOEPowerGrid.Settings.PowerMultiplier>전력 배율</VOEPowerGrid.Settings.PowerMultiplier>
+    <VOEPowerGrid.Settings.BuildingCapacityPerSkill>건설 레벨당 수용량: {0}</VOEPowerGrid.Settings.BuildingCapacityPerSkill>
+    <VOEPowerGrid.Settings.BaseBuildingCapacity>기본 수용량: {0}</VOEPowerGrid.Settings.BaseBuildingCapacity>
+    <VOEPowerGrid.Settings.PowerLossPerTiles>{0} 타일당 전력 손실 1%</VOEPowerGrid.Settings.PowerLossPerTiles>
+    <VOEPowerGrid.Settings.TransmissionTowerRange>송전탑 하나당 범위 {0} 타일</VOEPowerGrid.Settings.TransmissionTowerRange>
+
+    <VOEPowerGrid.Outlet.Connected>연결됨: {0}\n</VOEPowerGrid.Outlet.Connected>
+    <VOEPowerGrid.Outlet.PowerLoss>전력 손실: {0}\n</VOEPowerGrid.Outlet.PowerLoss>
+    <VOEPowerGrid.Outlet.NotConnected>연결되지 않음\n</VOEPowerGrid.Outlet.NotConnected>
+    <VOEPowerGrid.Outlet.Disconnect>연결 해제: {0}\n</VOEPowerGrid.Outlet.Disconnect>
+    <VOEPowerGrid.Outlet.Connect.Label>전력망에 연결</VOEPowerGrid.Outlet.Connect.Label>
+    <VOEPowerGrid.Outlet.Connect.Desc>전초기지 전력망에 연결</VOEPowerGrid.Outlet.Connect.Desc>
+    <VOEPowerGrid.Outlet.AlreadyConnected>이미 연결된 전초기지 {0}</VOEPowerGrid.Outlet.AlreadyConnected>
+    <VOEPowerGrid.Outlet.PowerRangeNotEnough>전초기지 {0}의 송전거리 부족 {1}/{2}</VOEPowerGrid.Outlet.PowerRangeNotEnough>
+    <VOEPowerGrid.Outlet.Connect.Reason>연결할 전력망 없음</VOEPowerGrid.Outlet.Connect.Reason>
+
+    <VOEPowerGrid.MustBeMade.River>강에 건설해야함</VOEPowerGrid.MustBeMade.River>
+    <VOEPowerGrid.MustBeMade.Coast>해안에 건설해야함</VOEPowerGrid.MustBeMade.Coast>
+
+</LanguageData>

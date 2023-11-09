@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ARKPPP_PLWPNNbDeviceConnected>연결된 장치 : {0}/{1}</ARKPPP_PLWPNNbDeviceConnected>
+  <ARKPPP_LWPNNbDeviceConnected>연결된 장치 : {0}</ARKPPP_LWPNNbDeviceConnected>
+  <ARKPPP_IdenticalAlias>동일한 장치명이 있습니다.</ARKPPP_IdenticalAlias>
+  <ARKPPP_WPNAlias>WPN 명</ARKPPP_WPNAlias>
+  <ARKPPP_LWPNAlias>LWPN 명</ARKPPP_LWPNAlias>
+  <ARKPPP_LWPNMigrate>LWPN 마이그레이션</ARKPPP_LWPNMigrate>
+  <ARKPPP_LWPNMigrateDesc>입력된 LWPN  ID (앞에 0 이 없는 번호, 예시 : LWPN-001 =gt; 1) 에 연결하도록 구성된 모든 전기 장치를 현재 LWPN 송신기에서 방출되는 LWPN 으로 마이그레이션 할 수 있습니다.</ARKPPP_LWPNMigrateDesc>
+  <ARKPPP_LWPNMigrateInvalidLWPN>유효한 LWPN ID 를 입력해야 합니다. (예시 LWPN-001의 경우 ,"1" 입력)</ARKPPP_LWPNMigrateInvalidLWPN>
+  <ARKPPP_LWPNMigrateSuccess>선택한 송신기가 지정한 LWPN 으로 {0} 장치가 마이그레이션 되었습니다.</ARKPPP_LWPNMigrateSuccess>
+  <ARKPPP_LWPNMigrateSuccessNoDevice>이 LWPN ID 에서 마이그레이션 할 장치가 없습니다.</ARKPPP_LWPNMigrateSuccessNoDevice>
+  <ARKPPP_LWPNMigrateInvalidLWPNSame>현재 입력된 LWPN ID 는 현재 LWPN 송신기와 동일합니다, 다른 LWPN ID를 입력하세요 !</ARKPPP_LWPNMigrateInvalidLWPNSame>
+  <ARKPPP_WPNDescAlias>이 WPN 에 알아보기 쉬운 명칭을 입력하세요.</ARKPPP_WPNDescAlias>
+  <ARKPPP_LWPNDescAlias>이 LWPN 에 알아보기 쉬운 명칭을 입력하세요.</ARKPPP_LWPNDescAlias>
+  <ARKPPP_NotConnectedToWirelessPower>WPN 에 연결되지 않았습니다.</ARKPPP_NotConnectedToWirelessPower>
+  <ARKPPP_NotConnectedToLocalWirelessPower>LWPN 에 연결되지 않았습니다.</ARKPPP_NotConnectedToLocalWirelessPower>
+  <ARKPPP_ConnectedTo>{0}에 연결됨 ({1}W 제공)</ARKPPP_ConnectedTo>
+  <ARKPPP_StormPerturbationInfo>폭풍으로 인해 -{0}%</ARKPPP_StormPerturbationInfo>
+  <ARKPPP_SupernovaPerturbationInfo>초신성 폭발로 인해 {0}%</ARKPPP_SupernovaPerturbationInfo>
+  <ARKPPP_ADPerturbationInfo>연결된 위성이 손상되어 전력이 손실되었습니다.</ARKPPP_ADPerturbationInfo>
+  <ARKPPP_NotConnectedToSpecificWPN>{0}에서 연결이 끊어졌습니다.</ARKPPP_NotConnectedToSpecificWPN>
+  <ARKPPP_WPSel>WPN 선택기</ARKPPP_WPSel>
+  <ARKPPP_LWPSel>LWPN 선택기</ARKPPP_LWPSel>
+  <ARKPPP_WPSelDesc>수신기 스테이션을 연결할 WPN(무선 전력 네트워크)을 선택하세요.</ARKPPP_WPSelDesc>
+  <ARKPPP_SliderQtPower>전송 출력</ARKPPP_SliderQtPower>
+  <ARKPPP_SliderQtPowerDesc>이 스테이션에서 전송하는 전력량을 선택하세요.</ARKPPP_SliderQtPowerDesc>
+  <ARKPPP_PowerSelectorQT>{0}W 무선으로 송신</ARKPPP_PowerSelectorQT>
+  <ARKPPP_NoWPNAvailable>사용 가능한 WPN 이 없습니다!</ARKPPP_NoWPNAvailable>
+  <ARKPPP_ClearCurrentWPNConnection>현재 연결 취소</ARKPPP_ClearCurrentWPNConnection>
+  <ARKPPP_ClearCurrentAD>현재 AD 에 대한 열결을 취소합니다.</ARKPPP_ClearCurrentAD>
+  <ARKPPP_WPNListRow>{0} - {1}W</ARKPPP_WPNListRow>
+  <ARKPPP_WPNListRow2>{0} - {1}W ({2} 세력)</ARKPPP_WPNListRow2>
+  <ARKPPP_WPNListRow3>{0} - {1}W (안전하지 않은 WPN)</ARKPPP_WPNListRow3>
+  <ARKPPP_WirelessPowerSelectorListTitle>사용 가능한 무선 전력 네트워크 (WPN) 목록</ARKPPP_WirelessPowerSelectorListTitle>
+  <ARKPPP_PowerLevelSelectorListTitle>전력 레벨 선택기</ARKPPP_PowerLevelSelectorListTitle>
+  <ARKPPP_PowerLevelEntry>{0} ( 파워 빔의 강도)</ARKPPP_PowerLevelEntry>
+  <ARKPPP_LocalWirelessPowerSelectorListTitle>사용 가능한 로컬 무선 네트워크 (LWPN) 목록</ARKPPP_LocalWirelessPowerSelectorListTitle>
+  <ARKPPP_BuyWPNMaximumPowerProvided>공급되는 최대 전력 : {0}W</ARKPPP_BuyWPNMaximumPowerProvided>
+  <ARKPPP_BuyWPNDesiredPower>설정된 전력 ( {0}W ) :</ARKPPP_BuyWPNDesiredPower>
+  <ARKPPP_BuyWPNDesiredTime>설정된 시간 ( {0} ) :</ARKPPP_BuyWPNDesiredTime>
+  <ARKPPP_BuyWPNEstimatedPrice>예상 가격 : {0} 은</ARKPPP_BuyWPNEstimatedPrice>
+  <ARKPPP_CC_BuyWPN>무선 전력 네트워크 (WPN) 빌려옴</ARKPPP_CC_BuyWPN>
+  <ARKPPP_CC_SellWPN>무선 전력 네트워크 (WPN) 임대함</ARKPPP_CC_SellWPN>
+  <ARKPPP_SellWPNMaximumPowerWanted>원하는 최대 전력 : {0}W</ARKPPP_SellWPNMaximumPowerWanted>
+  <ARKPPP_FactionNotWantBuyWPN>상대가 당신의 WPN 중 하나를 빌리고 싶어하지 않습니다.</ARKPPP_FactionNotWantBuyWPN>
+  <ARKPPP_CommandToggleWirelessDesc>무선 모드 활성화 또는 비활성화</ARKPPP_CommandToggleWirelessDesc>
+  <ARKPPP_ShowSynthesis>종합</ARKPPP_ShowSynthesis>
+  <ARKPPP_FactionEmbargo>금지 정책</ARKPPP_FactionEmbargo>
+  <ARKPPP_FactionDontSellPower>다른 세력에 전력을 팔지 않는다.</ARKPPP_FactionDontSellPower>
+  <ARKPPP_FactionPlayerAlreadyBuyWPN>당신은 이미 이 세력에서 WPN을 빌렸습니다.</ARKPPP_FactionPlayerAlreadyBuyWPN>
+  <ARKPPP_FactionPlayerAlreadySellWPN>당신은 이미 이 세력에 WPN을 팔았습니다.</ARKPPP_FactionPlayerAlreadySellWPN>
+  <ATPP_MessageLWPNNoSlotAvailable>사용 가능한 LWPN 슬롯이 없습니다.</ATPP_MessageLWPNNoSlotAvailable>
+  <ARKPPP_FactionPlayerWantStopRentedWPN>현재 빌려준 WPN을 회수합니다.</ARKPPP_FactionPlayerWantStopRentedWPN>
+  <ARKPPP_FactionPlayerWantStopRentedWPNDialogDesc>현재 계약을 중단하려면 ({1})에게 계약 가격의 10% ({0}의 금액)의 벌금을 지불해야 합니다. 지불하면 중립적이고 적대적인 세력들이 당신에게 부정적인 행동을 할 위험이 적습니다.</ARKPPP_FactionPlayerWantStopRentedWPNDialogDesc>
+  <ARKPPP_FactionPlayerWantStopRentedWPNFactionDontPayProrata>{0}은 당신이 계약을 이행하지 않는다는 것을 용납하지 않으며, 소비한 에너지의 금액을 당신에게 지불하지 않을 것입니다.</ARKPPP_FactionPlayerWantStopRentedWPNFactionDontPayProrata>
+  <ARKPPP_FactionPlayerWantStopBorrowedWPN>현재 빌려온 WPN을 반납합니다.</ARKPPP_FactionPlayerWantStopBorrowedWPN>
+  <ARKPPP_FactionPlayerWantStopBorrowedWPNDialogTitle>계약 중지</ARKPPP_FactionPlayerWantStopBorrowedWPNDialogTitle>
+  <ARKPPP_FactionPlayerWantStopBorrowedWPNDialogDesc>현재 계약을 중단하려면 ({0}의 금액과){1}과 계약 가격의 10% ({2}의 금액) ({3}), 총 {4} 의 금액을 지불해야 됩니다. 지불하면 중립적이고 적대적인 파벌이 당신에게 부정적인 행동을 할 위험이 적습니다.</ARKPPP_FactionPlayerWantStopBorrowedWPNDialogDesc>
+  <ARKPPP_FactionPlayerWantStopBorrowedWPNDialogDescDiscountPart>, 할인된 최소 금액 {0}</ARKPPP_FactionPlayerWantStopBorrowedWPNDialogDescDiscountPart>
+  <ARKPPP_FactionPlayerWantStopBorrowedWPNDialogCancelNotEnoughtSilverTitle>금액이 충분하지 않습니다.</ARKPPP_FactionPlayerWantStopBorrowedWPNDialogCancelNotEnoughtSilverTitle>
+  <ARKPPP_FactionPlayerWantStopBorrowedWPNDialogCancelNotEnoughtSilverDesc>당신은 계약을 해지할 금액이 없습니다. 아무것도 지불하지 않고 계약을 해지할까요? 이것은 다른 세력을 정말로 실망시킬 겁니다!</ARKPPP_FactionPlayerWantStopBorrowedWPNDialogCancelNotEnoughtSilverDesc>
+  <ARKPPP_CompHotSensitiveHot3Text>온도가 너무 높습니다!</ARKPPP_CompHotSensitiveHot3Text>
+  <ARKPPP_CompHotSensitiveHot2Text>고온 경고</ARKPPP_CompHotSensitiveHot2Text>
+  <ARKPPP_CompHotSensitiveHot1Text>조금 더운 온도</ARKPPP_CompHotSensitiveHot1Text>
+  <ARKPPP_CompHotSensitiveHot0Text>이상적인 작동 온도</ARKPPP_CompHotSensitiveHot0Text>
+  <ARKPPP_DialogBadInput>입력한 정보가 유효하지 않습니다! 작업을 완료할 수 없습니다!</ARKPPP_DialogBadInput>
+  <ARKPPP_BeamTargetMapSelector>목적지를 선택하세요.</ARKPPP_BeamTargetMapSelector>
+  <ARKPPP_BeamTargetThisMap>이 지도상</ARKPPP_BeamTargetThisMap>
+  <ARKPPP_BeamTargetGizmo>빔 무기</ARKPPP_BeamTargetGizmo>
+  <ARKPPP_BeamTargetGizmoDesc>해킹하여 흡수 위성(AD)이 없는 좌표를 조준, 궤도형 파워 빔을 무기로 사용합니다.</ARKPPP_BeamTargetGizmoDesc>
+  <ARKPPP_ADPowerOn>부팅</ARKPPP_ADPowerOn>
+  <ARKPPP_ADPowerOnDesc>흡수 위성(AD)의 부팅 시퀀스를 작동시키고 가장 가까운 위성에 대한 연결을 시작하십시오.</ARKPPP_ADPowerOnDesc>
+  <ARKPPP_ADPowerOff>종료</ARKPPP_ADPowerOff>
+  <ARKPPP_ADPowerOffDesc>컴퓨터와 위성간의 연결이 갑자기 멈추면 큰 문제가 발생할 수 있으므로 연결된 흡수 위성의 종료 시퀀스를 시작하세요.</ARKPPP_ADPowerOffDesc>
+  <ARKPPP_ADPowerLevel>전력 수준</ARKPPP_ADPowerLevel>
+  <ARKPPP_ADPowerLevelDesc>AD 가 수신할 궤도 빔의 강도를 선택하세요.</ARKPPP_ADPowerLevelDesc>
+  <ARKPPP_ADLink>흡수 위성 (AD)</ARKPPP_ADLink>
+  <ARKPPP_ADLinkDesc>현재 컴퓨터에 연결할 AD 를 선택하세요.</ARKPPP_ADLinkDesc>
+  <ARKPPP_STSADSelectorList>사용 가능한 흡수 위성 목록</ARKPPP_STSADSelectorList>
+  <ARKPPP_STSADSelectorNoADAvailable>사용할 수 있는 AD 가 없습니다.</ARKPPP_STSADSelectorNoADAvailable>
+  <ARKPPP_STSCompStringLinked>{0}에 연결</ARKPPP_STSCompStringLinked>
+  <ARKPPP_STSCompStringNotLinked>연결되지 않았습니다!</ARKPPP_STSCompStringNotLinked>
+  <ARKPPP_STSCompStringADStartSequence>부팅 시퀀스 진행 중 {0}%</ARKPPP_STSCompStringADStartSequence>
+  <ARKPPP_STSCompStringADStopSequence>종료 시퀀스 진행 중 {0}%</ARKPPP_STSCompStringADStopSequence>
+  <ARKPPP_STSCompStringADStarted>흡수 위성(AD) 작동됨</ARKPPP_STSCompStringADStarted>
+  <ARKPPP_STSCompStringADStopped>흡수 위성(AD) 종료됨</ARKPPP_STSCompStringADStopped>
+  <ARKPPP_ADSTSOfflineWarning>갑작스런 위성 비동기화 전의 STS 오프라인 {0} 에 대한 경고</ARKPPP_ADSTSOfflineWarning>
+  <ARKPPP_ADOfflineWarning>갑작스런 비동기화 전의 AD 오프라인 {0}에 대한 경고</ARKPPP_ADOfflineWarning>
+  <ARKPPP_STSCompStringSatelliteTemporaryBlocking>연결된 위성은 사용 프로토콜 위반으로 인해 STS 를 일시적으로 차단합니다. ({0} 남음)</ARKPPP_STSCompStringSatelliteTemporaryBlocking>
+  <ARKPPP_IncidentMechanoidWarshipLabel>메카노이드 군함</ARKPPP_IncidentMechanoidWarshipLabel>
+  <ARKPPP_IncidentMechanoidWarshipDescription>{0}에서 메카노이드 군함이 일시적으로 행성 주위를 공전합니다. 에너지 공급원을 찾는 센서가 있으므로 모든 WPN 트래픽을 차단해야 합니다. (WPN 송신기/수신기 모두 비활성화)</ARKPPP_IncidentMechanoidWarshipDescription>
+  <ARKPPP_IncidentMechanoidWarshipOrbitalStrikeLabel>궤도 폭격</ARKPPP_IncidentMechanoidWarshipOrbitalStrikeLabel>
+  <ARKPPP_IncidentMechanoidWarshipOrbitalStrikeDescription>메카노이드 군함이 신호를 감지하면 즉시 신호가 잡힌 지점으로 폭격을 합니다.</ARKPPP_IncidentMechanoidWarshipOrbitalStrikeDescription>
+  <ARKPPP_IncidentMechanoidWarshipLeave>메카노이드 군함이 행성의 궤도를 떠났습니다.</ARKPPP_IncidentMechanoidWarshipLeave>
+  <ARKPPP_AlertMechanoidWarshipCountdownLabel>{0}에 메카노이드 군함 도착</ARKPPP_AlertMechanoidWarshipCountdownLabel>
+  <ARKPPP_AlertMechanoidWarshipCountdownDescription>메카노이드 군함이, 곧 행성 주위를 돌기 시작할 것입니다. 무선 전력망에 대하여 차단하면 감지되지 않습니다.</ARKPPP_AlertMechanoidWarshipCountdownDescription>
+  <ARKPPP_AlertMechanoidWarshipCountdownBeforeEndLabel>메카노이드 군함</ARKPPP_AlertMechanoidWarshipCountdownBeforeEndLabel>
+  <ARKPPP_AlertMechanoidWarshipCountdownBeforeEndDescription>메카노이드 군함이 행성 주위에 잠시 동안 머물러 있으며, 정착지를 발견하지 못하도록 하기 위해 WPN 에 접속할 수 없습니다.</ARKPPP_AlertMechanoidWarshipCountdownBeforeEndDescription>
+  <ARKPPP_IncidentMechanoidWarshipSupplyTroopsLabel>메카노이드 공습</ARKPPP_IncidentMechanoidWarshipSupplyTroopsLabel>
+  <ARKPPP_IncidentMechanoidWarshipSupplyTroopsDescription>메카노이드 군함에서 정착지에서 보낸 신호를 감지하여 즉시 정착지를 습격합니다.</ARKPPP_IncidentMechanoidWarshipSupplyTroopsDescription>
+  <ARKPPP_CommandARESTarget>아레스</ARKPPP_CommandARESTarget>
+  <ARKPPP_CommandARESTargetDesc>아레스 시스템을 작동시키려면 수신기가, 작동하는 WPN 이 최소 (ARES 1의 경우) 10,000W, (ARES 2의 경우) 30,000W 또는 (ARES EMP의 경우) 20,000W 이상의 배터리가 전력망에 연결되어 있어야 합니다.\n주의: ARES 의 활성화는 WPN 의 송수신기를 과열시킬 것이며, 엄청난 과부하로 인해서 폭발을 일으킬 수 있습니다.</ARKPPP_CommandARESTargetDesc>
+  <ARKPPP_CommandARES2Target>아레스 2.0</ARKPPP_CommandARES2Target>
+  <ARKPPP_CommandARESEMPTarget>아레스 EMP</ARKPPP_CommandARESEMPTarget>
+  <ARKPPP_MsgWPNUnsecurised>안전하지 않은 WPN 이 중지되고, 보안 위반이 수정되었습니다.</ARKPPP_MsgWPNUnsecurised>
+  <ARKPPP_MsgARESNotEnoughtStoredPower>아레스를 활성화하기에 충분한 전력이 저장되어 있지 않으며, 연결된 WPN 의 배터리에 10.000W 이상의 전력이 저장되어 있어야 합니다.</ARKPPP_MsgARESNotEnoughtStoredPower>
+  <ARKPPP_MsgARES2NotEnoughtStoredPower>아레스 2.0 을 활성화하기에 충분한 전력이 저장되어 있지 않으며, 연결된 WPN 의 배터리에 30.000W 이상의 전력이 저장되어 있어야 합니다.</ARKPPP_MsgARES2NotEnoughtStoredPower>
+  <ARKPPP_MsgARESEMPNotEnoughtStoredPower>아레스 EMP를 활성화하기에 충분한 전력이 저장되어 있지 않으며, 연결된 WPN 의 배터리에 20.000W 이상의 전력이 저장되어 있어야 합니다.</ARKPPP_MsgARESEMPNotEnoughtStoredPower>
+  <ARKPPP_MsgNoEnoughSilverToBuy>당신은 충분한 금액이 없습니다!</ARKPPP_MsgNoEnoughSilverToBuy>
+  <ARKPPP_MsgCannotChangePowerLevel>현재 AD 전원 수준을 변경할 수 없습니다. 현재 위성 연결을 중단한 다음 전원 수준을 변경해야 합니다.</ARKPPP_MsgCannotChangePowerLevel>
+  <ARKPPP_MsgCannotConnectToPortableLWPNIDLimitReached>이 휴대용 LWPN 에 연결할 수 없습니다. {0} 최대 장치 한계에 도달했습니다!</ARKPPP_MsgCannotConnectToPortableLWPNIDLimitReached>
+  <ARKPPP_MsgCannotChangeADWhileSTSOn>STS 가 온라인 상태인 동안 연결된 AD 를 변경할 수 없습니다.</ARKPPP_MsgCannotChangeADWhileSTSOn>
+  <ARKPPP_MsgCannotuseARESWhenAnotherStarted>동일한 지도상에서 여러 아레스 장치를 동시에 활성화시킬 수 없습니다.</ARKPPP_MsgCannotuseARESWhenAnotherStarted>
+  <ARKPPP_MsgWPNCannotBeUnderRoof>지붕 아래에서는 WPN 을 사용할 수 없습니다.</ARKPPP_MsgWPNCannotBeUnderRoof>
+  <ARKPPP_MsgBeamWeaponCost>이 전력망 네트워크에 있는 배터리에저장된 {0} 이상이 필요합니다!</ARKPPP_MsgBeamWeaponCost>
+  <ARKPPP_MsgBeamWeaponCooldownEnd>{0}에 대한 임시 위성 차단 종료</ARKPPP_MsgBeamWeaponCooldownEnd>
+  <ARKPPP_LetterEmbargo>에너지 차단</ARKPPP_LetterEmbargo>
+  <ARKPPP_LetterEmbargoDesc>세력 {0}에 대한 당신의 안 좋은 행동으로 인해, 그들은 {1}의 전력 구매/판매를 금지 정책함으로써, 당신을 처벌하기로 결정했습니다.</ARKPPP_LetterEmbargoDesc>
+  <ARKPPP_LetterCancelContract>계약 쥐소</ARKPPP_LetterCancelContract>
+  <ARKPPP_LetterCancelContractDesc>에너지 금지 정책 조치로 인해 당신과 {0} {1}W의 임대가 {2} 세력에 의해 취소되었습니다.</ARKPPP_LetterCancelContractDesc>
+  <ARKPPP_LetterCancelRentContractDesc>에너지 금지 정책 조치로 인해 {2}세력의 {0} {1}W 의 임대가 취소되었습니다.</ARKPPP_LetterCancelRentContractDesc>
+  <ARKPPP_LetterLossOfTrust>신뢰를 잃음</ARKPPP_LetterLossOfTrust>
+  <ARKPPP_LetterLossOfTrustDesc>진영 {0}에 대한 당신의 나쁜 행동 때문에, 당신과 그들 사이의 관계가 {1}만큼 감소했습니다. 좋은 관계를 유지하면 저렴한 구매 가격으로 전력을 얻을 수 있다는 것을 잊지 마세요.</ARKPPP_LetterLossOfTrustDesc>
+  <ARKPPP_LetterPlannedRaid>습격이 계획됨</ARKPPP_LetterPlannedRaid>
+  <ARKPPP_PlannedRaidDescStartRaidDelayed>세력 {0}에 대한 당신의 나쁜 행동 때문에, {1}에게 습격될 것입니다!</ARKPPP_PlannedRaidDescStartRaidDelayed>
+  <ARKPPP_PlannedRaidDescStartRaidNow>진영 {0}에 대한 당신의 나쁜 행동 때문에, 그들은 강습 포드로 당신을 습격하기 시작했습니다!</ARKPPP_PlannedRaidDescStartRaidNow>
+  <ARKPPP_LetterWarningBadBehavior>경고</ARKPPP_LetterWarningBadBehavior>
+  <ARKPPP_LetterWarningBadBehaviorDesc>당신의 악랄한 행동에도 불구하고 {0}세력은 당신에게 아무런 조치를 취하지 않기로 결정했지만, 앞으로는 이 행동이 더 용납되지 않을 것임을 경고합니다!</ARKPPP_LetterWarningBadBehaviorDesc>
+  <ARKPPP_LetterCancelContractBecauseEnemyNow>계약 취소</ARKPPP_LetterCancelContractBecauseEnemyNow>
+  <ARKPPP_LetterCancelContractBecauseEnemyNowDesc>당신과 {0}세력은 이제 적입니다. 그들은 당신과 그들 사이의 모든 계약을 재협상해야 한다고 결정했습니다</ARKPPP_LetterCancelContractBecauseEnemyNowDesc>
+  <ARKPPP_LetterCancelContractBecauseNeutralNow>계약 취소</ARKPPP_LetterCancelContractBecauseNeutralNow>
+  <ARKPPP_LetterCancelContractBecauseNeutralNowDesc>당신과 {0}세력은 이제 중립이며, 당신과 모든 계약을 재협상해야 한다고 결정했습니다</ARKPPP_LetterCancelContractBecauseNeutralNowDesc>
+  <ARKPPP_LetterWarningStorm>폭풍우</ARKPPP_LetterWarningStorm>
+  <ARKPPP_LetterWarningStormDesc>폭풍우로 인해 하나 이상의 무선 송신기 / 수신기가 방해를 받습니다. 전송된 무선 전류의 전기 용량이 {0} % 감소할 것으로 예상됩니다.</ARKPPP_LetterWarningStormDesc>
+  <ARKPPP_LetterStormCleared>폭풍우의 의한 장애 종료</ARKPPP_LetterStormCleared>
+  <ARKPPP_LetterStormClearedDesc>폭풍우가 끝났습니다. 영향을 받던 장치가 다시 정상적으로 작동합니다!</ARKPPP_LetterStormClearedDesc>
+  <ARKPPP_LetterSupernovaDisturbance>초신성 폭발 장애</ARKPPP_LetterSupernovaDisturbance>
+  <ARKPPP_LetterSupernovaDisturbanceDesc>태양계에서 근처에 별이 폭발하면서 모든 장거리 무선 전력 네트워크는 {0} % 용량 감소의 영향을 받았습니다. 이 장애는 한동안 지속될 수 있습니다</ARKPPP_LetterSupernovaDisturbanceDesc>
+  <ARKPPP_LetterSupernovaDisturbancePositiveDesc>태양계의 근처에 별이 폭발하면서 모든 장거리 무선 전력 네트워크의 용량이 {0} % 증가했습니다. 이 현상은 한동안 지속될 수 있습니다</ARKPPP_LetterSupernovaDisturbancePositiveDesc>
+  <ARKPPP_LetterSupernovaDisturbanceEnd>혹점 폭발 장애 종료</ARKPPP_LetterSupernovaDisturbanceEnd>
+  <ARKPPP_LetterSupernovaDisturbanceEndDesc>별의 폭발로 인한 영향이 이제 끝났습니다. 영향을 받던 모든 WPN 이 이제 정상적으로 작동합니다.</ARKPPP_LetterSupernovaDisturbanceEndDesc>
+  <ARKPPP_LetterWPNInterruptionEnd>WPN 공급 차단 종료</ARKPPP_LetterWPNInterruptionEnd>
+  <ARKPPP_LetterWPNInterruptionEndDesc>{0} 세력에 대한 전기 공급이 다시 시작되지만, 할인을 제공 할 필요가 없다고 생각하며, 계약이 유지된다는 사실에 만족해야 할 겁니다.</ARKPPP_LetterWPNInterruptionEndDesc>
+  <ARKPPP_LetterWPNInterruption>빌려온 WPN 공급 중단</ARKPPP_LetterWPNInterruption>
+  <ARKPPP_LetterWPNInterruptionDesc>폭력적인 습격을 받은 이후로 {0} 세력은 더 이상 전력을 공급할 수 없으므로, 세력이 발전기를 복구하는 동안 {1}(은)는 더 이상 전력을 공급하지 않습니다.</ARKPPP_LetterWPNInterruptionDesc>
+  <ARKPPP_LetterWPNInterruptionEndDiscount>빌려온 WPN 공급 중단 종료</ARKPPP_LetterWPNInterruptionEndDiscount>
+  <ARKPPP_LetterWPNInterruptionEndDiscountDesc>{0} 세력의 전기 설비가 다시 작동하며, 전기가 부족했던 시간을 보상해주기 위해 {1}은 할인 혜택을 받습니다</ARKPPP_LetterWPNInterruptionEndDiscountDesc>
+  <ARKPPP_LetterWPNUnsecured>안전하지 않은 WPN</ARKPPP_LetterWPNUnsecured>
+  <ARKPPP_LetterWPNUnsecuredDesc>수신기는 전원이 {1}W 인 보안되지 않은 원격 WPN({0})을 수신할 수 있습니다. 방송은 보안 위반이 확인되고 금지되기 전까지 얼마동안 지속됩니다.</ARKPPP_LetterWPNUnsecuredDesc>
+  <ARKPPP_LetterARESOverload>아레스 과부하</ARKPPP_LetterARESOverload>
+  <ARKPPP_LetterARESOverload1Desc>아레스 시스템의 활성화로 인해, 활성화하는 데 사용된 WPN 송신기가 과부하로 인해 폭발이 발생했습니다.</ARKPPP_LetterARESOverload1Desc>
+  <ARKPPP_LetterARESOverload2Desc>사용된 WPN에 연결된 전체 전력 네트워크에 과전압을 발생시키는 아레스 시스템의 활성화로 인해, 하나 이상의 폭발이 발생했습니다.</ARKPPP_LetterARESOverload2Desc>
+  <ARKPPP_LetterARESOverload3Desc>아레스 시스템의 활성화로, 시스템을 활성화하는 데 사용된 WPN의 송신기 및 네트워크의 다른 장소에서, 과부하로 인한 폭발이 일어났습니다.</ARKPPP_LetterARESOverload3Desc>
+  <ARKPPP_LetterDamagedSatellite>손상된 위성</ARKPPP_LetterDamagedSatellite>
+  <ARKPPP_LetterDamagedSatelliteDesc>유성이 충돌하여, 흡수 위성 (AD) 중 하나와 쌍을 이루는 파워 빔 위성이 손상되었으며 유지 보수 시스템의 나노 로봇에 의한 수리 기간 동안 궤도 빔의 파워가 줄어 듭니다.</ARKPPP_LetterDamagedSatelliteDesc>
+  <ARKPPP_LetterADDestroyWhilePBEEnabled>흡수 위성 (AD) 파괴됨</ARKPPP_LetterADDestroyWhilePBEEnabled>
+  <ARKPPP_LetterADDestroyWhilePBEEnabledDesc>위성 빔이 활성화 된 상태에서 흡수 위성(AD)이 파괴되었다는 경고가 발생했으며. 범위 반경에 있는 모든 요소가 파괴됩니다. 수신 플랫폼이 더 이상 존재하지 않으므로 위성과의 비동기화 오류가 발생할 수 있습니다!</ARKPPP_LetterADDestroyWhilePBEEnabledDesc>
+  <ARKPPP_LetterWPNRentedByFactionInterruption>계약이 이행되지 않았음</ARKPPP_LetterWPNRentedByFactionInterruption>
+  <ARKPPP_LetterWPNRentedByFactionInterruptionAlly1Desc>우리는, 당신이 판매한 WPN을 통해 {0} W (최소)의 전력을 제공하기 위해 최선을 다하고 있음을 알고 있으며, 때때로 문제가 생길 수도 있음을 이해하고 있습니다. 가능한 빨리 상황을 복구해주십시오.</ARKPPP_LetterWPNRentedByFactionInterruptionAlly1Desc>
+  <ARKPPP_LetterWPNRentedByFactionInterruptionAlly2Desc>친애하는 귀하에게. \n귀하와 맺은 계약의 일환으로 임대해 준 WPN 을 매우 빠르게 다시 복구해주셔서 감사합니다. 이전에 우리는 큰 피해를 입은 적이 있었거든요. (습격받는 도중 포탑이 무력화되었었습니다…)</ARKPPP_LetterWPNRentedByFactionInterruptionAlly2Desc>
+  <ARKPPP_LetterWPNRentedByFactionInterruptionAlly3Desc>의도적인 겁니까, 아니면 정직하지 않은 겁니까? 이것이 계약을 깨기 전의 마지막 경고입니다!</ARKPPP_LetterWPNRentedByFactionInterruptionAlly3Desc>
+  <ARKPPP_LetterWPNRentedByFactionInterruptionNeutral1Desc>귀하는 {0} W 이상을 제공하는 WPN을 임대할 때 맺은 계약을 제대로 이행하지 않고 있습니다! 얼른 제대로 이행하시기 바랍니다!</ARKPPP_LetterWPNRentedByFactionInterruptionNeutral1Desc>
+  <ARKPPP_LetterWPNRentedByFactionInterruptionNeutral2Desc>이것은 받아 들일 수 없습니다! 이것이 계약을 깨기 전의 마지막 경고입니다! 계약에 명시한 WPN을 복구하십시오!</ARKPPP_LetterWPNRentedByFactionInterruptionNeutral2Desc>
+  <ARKPPP_LetterWPNRentedByFactionInterruptionEnnemy1Desc>용납할 수 없습니다! 당신은 당장 습격받고 싶습니까? 임대 계약서에 동의한대로 (최소한 {0} W를 제공해야 함) WPN을 즉시 복구해야합니다. 그렇지 않으면 정착지의 귀하를 방문하게 될 겁니다! 더 이상 경고는 없습니다!</ARKPPP_LetterWPNRentedByFactionInterruptionEnnemy1Desc>
+  <ARKPPP_LetterFactionWPNContractBreach>계약 위반</ARKPPP_LetterFactionWPNContractBreach>
+  <ARKPPP_LetterFactionWPNContractBreachDesc>{0}(은)는 당신이 의무를 존중하지 않았기 때문에 WPN 중 하나의 임대를 중단했습니다.</ARKPPP_LetterFactionWPNContractBreachDesc>
+  <ARKPPP_LetterFactionWPNContractBreachDueToARESFire>계약 위반</ARKPPP_LetterFactionWPNContractBreachDueToARESFire>
+  <ARKPPP_LetterFactionWPNContractBreachDueToARESFireDesc>{0}(이)가 임대 WPN에서 ARES 등급 군용 장치를 활성화하여 전기 네트워크에 큰 피해를 입었기 때문에 WPN 중 하나의 임대를 중단했습니다. 또한 그들은 당신에게 에너지 금지 정책 조치를 결정했습니다.</ARKPPP_LetterFactionWPNContractBreachDueToARESFireDesc>
+  <ARKPPP_LetterWPNRentedByFactionContractBreach>계약 위반</ARKPPP_LetterWPNRentedByFactionContractBreach>
+  <ARKPPP_LetterWPNRentedByFactionContractBreachDesc>{0}(은)는 당신에 대한 제재에도 불구하고, 의무를 존중하지 않았기 때문에 당신의 WPN 중 하나의 임대를 중단했습니다.</ARKPPP_LetterWPNRentedByFactionContractBreachDesc>
+  <ARKPPP_LetterWPNRentedByFactionContractBreachNoRelaunchDesc>{0}(은)는 당신이 의무를 존중하지 않았기 때문에 당신의 WPN 중 하나의 임대를 중단했습니다.</ARKPPP_LetterWPNRentedByFactionContractBreachNoRelaunchDesc>
+  <ARKPPP_LetterWPNRentedByFactionContractBreachDescNoProrata>당신의 행동을 고려할 때, 그들은 소비한 비율의 전력 요금을 지불하지 않을 것입니다.</ARKPPP_LetterWPNRentedByFactionContractBreachDescNoProrata>
+  <ARKPPP_LetterWPNRentedByFactionContractBreachDescProrata>당신의 행동에도 불구하고, 그들은 소비한 비율의 전력 요금을 지불할 것입니다.</ARKPPP_LetterWPNRentedByFactionContractBreachDescProrata>
+  <ARKPPP_LetterFactionPayRentedWPN>지불</ARKPPP_LetterFactionPayRentedWPN>
+  <ARKPPP_LetterFactionPayRentedWPNDesc>{0}(이)가 {2} 임대에 대해 {1}의 금액을 지불했습니다</ARKPPP_LetterFactionPayRentedWPNDesc>
+  <ARKPPP_LetterFactionPayRentedWPNPart1Desc>(전력이 공급되지 않은 {2} 때문에 {0}-{1})</ARKPPP_LetterFactionPayRentedWPNPart1Desc>
+  <ARKPPP_LetterFactionDontPayRentedWPN>지불 거부</ARKPPP_LetterFactionDontPayRentedWPN>
+  <ARKPPP_LetterFactionDontPayRentedWPNDesc>{0}(은)는 이 WPN에서 제공한 에너지의 품질이 좋지 않았다고 말하며, {1}의 임대 비용을 지불하지 않겠다고 합니다.</ARKPPP_LetterFactionDontPayRentedWPNDesc>
+  <ARKPPP_LetterEmbargoEnd>금지 정책의 종료</ARKPPP_LetterEmbargoEnd>
+  <ARKPPP_LetterEmbargoEndDesc>{0}의 금지 정책이 끝났습니다</ARKPPP_LetterEmbargoEndDesc>
+  <ARKPPP_LetterSTSHackDetected>STS 해킹 감지</ARKPPP_LetterSTSHackDetected>
+  <ARKPPP_LetterSTSHackDetectedDesc>위성이 너무 높은 온도에서 장시간 작동한 결과 링크 프로토콜의 오류로 인해 STS 중 하나를 해킹 시도로 감지하였습니다. 위성은 방어 작동을 하고 있으며 해당 STS 를 목표로 삼았습니다.  해당 좌표에 궤도빔 폭격을 할 것입니다.</ARKPPP_LetterSTSHackDetectedDesc>
+  <ARKPPP_ResumeDialogUnsecureSection>안전하지 않은 WPN</ARKPPP_ResumeDialogUnsecureSection>
+  <ARKPPP_ResumeDialogBuyedSection>빌려온 WPN</ARKPPP_ResumeDialogBuyedSection>
+  <ARKPPP_ResumeDialogSoldSection>임대해 준 WPN</ARKPPP_ResumeDialogSoldSection>
+  <ARKPPP_ResumeDialogEmbargoSection>에너지 금지 정책</ARKPPP_ResumeDialogEmbargoSection>
+  <ARKPPP_ResumeDialogBuyedLine>-{0} {1} W {2}, {3} 남음, 비용 : {4}은</ARKPPP_ResumeDialogBuyedLine>
+  <ARKPPP_ResumeDialogBuyedLineAndDiscount>-{0} {1} W {2}, {3} 남음, 비용 : {4} 금액 ({5} 할인 금액)</ARKPPP_ResumeDialogBuyedLineAndDiscount>
+  <ARKPPP_ResumeDialogUnsecureLine>{0} {1}W</ARKPPP_ResumeDialogUnsecureLine>
+  <ARKPPP_ResumeDialogSoldLine>"-{0} {1}W를 {2} 세력에 제공함, 남은 기간 {3}, 수입 : {4}</ARKPPP_ResumeDialogSoldLine>
+  <ARKPPP_ResumeDialogNormallyProvidedWatt>(일반적으로 {0} W 제공)</ARKPPP_ResumeDialogNormallyProvidedWatt>
+  <ARKPPP_ResumeDialogEmbargoLine>-{0} : {1} (으)로 끝남</ARKPPP_ResumeDialogEmbargoLine>
+  <ARKPPP_ResumeDialogNothing>항목 없음</ARKPPP_ResumeDialogNothing>
+  <ARKPPP_ResumeDialogSoldLinePart1>(전력이 공급 안 된 {2}에 해당하는 {0} 비율로 인해 발생한, {1} 더 적은 금액)</ARKPPP_ResumeDialogSoldLinePart1>
+  <ARKPPP_AlertPartNbRentedWPN>{0} 임대함</ARKPPP_AlertPartNbRentedWPN>
+  <ARKPPP_AlertPartNbBorrowedWPN>{0} 빌려옴</ARKPPP_AlertPartNbBorrowedWPN>
+  <ARKPPP_AlertDesc>현재 빌려오거나 임대한 WPN의 수</ARKPPP_AlertDesc>
+  <ARKPPP_AlertHot3Devices>컴퓨터 과열</ARKPPP_AlertHot3Devices>
+  <ARKPPP_AlertHot3DevicesDesc>하나 이상의 컴퓨터가 최대 온도 임계 값에 도달했습니다. 정상 온도로 신속하게 복구하십시오!</ARKPPP_AlertHot3DevicesDesc>
+  <ARKPPP_AlertHot2Devices>컴퓨터 온도 상승</ARKPPP_AlertHot2Devices>
+  <ARKPPP_AlertHot2DevicesDesc>하나 이상의 컴퓨터의 온도가 상승하고 있습니다. 주변 온도를 빠르게 낮추세요!</ARKPPP_AlertHot2DevicesDesc>
+  <ARKPPP_AlertSupernovaDisturbance>혹점 폭발 장애</ARKPPP_AlertSupernovaDisturbance>
+  <ARKPPP_AlertSTSDown>STS 오프라인 경고!</ARKPPP_AlertSTSDown>
+  <ARKPPP_AlertSTSDownDesc>하나 이상의 흡수 위성(AD)에 위성 조준 시스템 (STS)이 오프라인으로 설정되어 있습니다. 위성과의 비정상적 비동기화로 인해 궤도 조중 오류가 발생하거나 궤도 빔이 줄어들 수 있기 때문에 매우 위험합니다.</ARKPPP_AlertSTSDownDesc>
+  <ARKPPP_AlertADDown>흡수 위성 (AD) 오프라인 경고!</ARKPPP_AlertADDown>
+  <ARKPPP_AlertADDownDesc>궤도 빔이 활성화되어있는 동안 하나 이상의 흡수 위성(AD)이 오프라인 상태입니다. 위성과의 비정상적 비동기화로 인해 궤도 조준 오류가 발생하거나 궤도 빔이 줄어들 수 있으므로 매우 위험합니다.</ARKPPP_AlertADDownDesc>
+  <ARKPPP_AlertSatelliteBlacklisted>위성 네트워크에 대한 접속이 차단됨</ARKPPP_AlertSatelliteBlacklisted>
+  <ARKPPP_AlertSatelliteBlacklistedDesc>당신의 행성은 현재 블랙리스트에 있습니다. 더 이상 연결할 수 없습니다</ARKPPP_AlertSatelliteBlacklistedDesc>
+  <ARKPPP_AlertADOverload>흡수 위성 (AD) 과부하</ARKPPP_AlertADOverload>
+  <ARKPPP_AlertADOverloadDesc>주의 : 하나 이상의 흡수 위성(AD)에 과부하가 걸렸거나 정전 또는 혹점폭발의 경우 위성 네트워크와의 비정상적 비동기화의 위험이 크게 증가합니다</ARKPPP_AlertADOverloadDesc>
+  <ARKPPP_AlertbeamAttack>{0}의 궤도 빔</ARKPPP_AlertbeamAttack>
+  <ARKPPP_STSOverheating>STS 과부하</ARKPPP_STSOverheating>
+  <ARKPPP_STSOverheatingDesc>STS가 너무 높은 온도로 인해 폭발했습니다.</ARKPPP_STSOverheatingDesc>
+  <ARKPPP_STSOverheatingOrbitalAimingError>궤도 조준 오류</ARKPPP_STSOverheatingOrbitalAimingError>
+  <ARKPPP_STSOverheatingOrbitalAimingErrorDesc>STS 과열로 인해 궤도 조준 모듈에 영향을 미치는 버그가 발생하여, 위성 연결이 끊어지기 전에 하나 이상의 궤도 빔이 임의의 좌표로 정착지를 향해 발사되었습니다!</ARKPPP_STSOverheatingOrbitalAimingErrorDesc>
+  <ARKPPP_DesyncOrbitalAimingError>궤도 조준 오류</ARKPPP_DesyncOrbitalAimingError>
+  <ARKPPP_DesyncOrbitalAimingErrorDesc>위성과의 비정상적 비동기화로 인해 궤도 조준 모듈에 영향을 미치는 버그가 발생하여 위성 연결이 끊어지기 전에 하나 이상의 궤도 빔이 임의의 좌표로 정착지를 향해 발사되었습니다!</ARKPPP_DesyncOrbitalAimingErrorDesc>
+  <ARKPPP_DesyncOrbitalBeamDilatation>궤도 빔 확장</ARKPPP_DesyncOrbitalBeamDilatation>
+  <ARKPPP_DesyncOrbitalBeamDilatationDesc>위성과의 비정상적, 비동기화로 인해 빔이받는 에너지의 강도와 반경에 영향을 미치는 버그가 발생했습니다. 빔이 분리되기 전에 매우 큰 영역이 약 10 초 동안 영향을받습니다!</ARKPPP_DesyncOrbitalBeamDilatationDesc>
+  <ARKPPP_DesyncSatelliteBlacklisting>위성 블랙리스트</ARKPPP_DesyncSatelliteBlacklisting>
+  <ARKPPP_DesyncSatelliteBlacklistingDesc>에너지 공급 업체의 위성 네트워크의 지역 감독 시스템이 Rimworld에서 비표준적이고 위험한 사용을 감지하고 잠시 행성을 블랙리스트에 올리기로 결정했습니다. 이 시간 동안 에너지를 복구하기 위해 위성에 연결할 수 없습니다.</ARKPPP_DesyncSatelliteBlacklistingDesc>
+  <ARKPPP_DesyncEMP>전자기 펄스</ARKPPP_DesyncEMP>
+  <ARKPPP_DesyncEMPDesc>위성과의 비정상적 비동기화로 인해 흡수 위성 (AD)의 거대한 에너지 덤프로 인해 큰 전자기 펄스가 발생했으며 특정 주변의 모든 전자 장치에 영향을 미칩니다.</ARKPPP_DesyncEMPDesc>
+  <ARKPPP_DeviceOffCannotStartAD>위성에 연결할 수 없으므로 연결된 흡수 위성이 비활성화됩니다!</ARKPPP_DeviceOffCannotStartAD>
+  <ARKPPP_DesyncSatelliteBlacklistingCannotStartAD>위성 네트워크에 대한 연결이 불가능합니다. \n이유 :이 행성은 블랙리스트에 있습니다</ARKPPP_DesyncSatelliteBlacklistingCannotStartAD>
+  <ARKPPP_DesyncSatelliteBlacklistingEnd>위성 네트워크에 액세스하지 못하게 하는 블랙리스트 효력이 만료되었습니다.</ARKPPP_DesyncSatelliteBlacklistingEnd>
+  <ARKPPP_ChoiceLetterPayBorrowedWPNRefusedAlly>우리는 당신의 행동에 정말 실망합니다, 당신은 자신의 청구서를 지불 할 능력이 없는 비참한 세력입니다!</ARKPPP_ChoiceLetterPayBorrowedWPNRefusedAlly>
+  <ARKPPP_ChoiceLetterPayBorrowedWPNRefusedNeutral>도둑질을 했음에도 불구하고, 우리 사이가 좋을 것이라고 생각하신 겁니까? 용납 할 수 없군요!</ARKPPP_ChoiceLetterPayBorrowedWPNRefusedNeutral>
+  <ARKPPP_ChoiceLetterPayBorrowedWPNRefusedEnnemy>당신의 한심한 진영이 그 약속을 존중하지 않는다는 사실은 놀라운 일이 아닙니다.</ARKPPP_ChoiceLetterPayBorrowedWPNRefusedEnnemy>
+  <ARKPPP_ChoiceLetterPayBorrowedWPNLabel>청구서</ARKPPP_ChoiceLetterPayBorrowedWPNLabel>
+  <ARKPPP_ChoiceLetterPayBorrowedWPNTitle>지불할 금액 {0}</ARKPPP_ChoiceLetterPayBorrowedWPNTitle>
+  <ARKPPP_ChoiceLetterPayBorrowedWPNDesc>{1} 임대에 대한 {0}과의 계약이 만료되었습니다. 이제 해당 세력에 {2}의 금액을 지불해야 하는 기한은 24시간입니다.</ARKPPP_ChoiceLetterPayBorrowedWPNDesc>
+  <ARKPPP_ChoiceLetterPayBorrowedWPNDescDiscountPart>({0} 할인 {1} 비율 할인)</ARKPPP_ChoiceLetterPayBorrowedWPNDescDiscountPart>
+  <ARKPPP_ChoiceLetterPayBorrowedWPNOptionAccept>청구서를 지불</ARKPPP_ChoiceLetterPayBorrowedWPNOptionAccept>
+  <ARKPPP_ChoiceLetterPayBorrowedWPNOptionReject>지불 거부</ARKPPP_ChoiceLetterPayBorrowedWPNOptionReject>
+  <ARKPPP_SettingsSectionGeneral>일반</ARKPPP_SettingsSectionGeneral>
+  <ARKPPP_SettingsSectionPBE>파워 빔 에너지</ARKPPP_SettingsSectionPBE>
+  <ARKPPP_SettingsSectionIncidents>사건</ARKPPP_SettingsSectionIncidents>
+  <ARKPPP_SettingsSectionTrade>무역 관계</ARKPPP_SettingsSectionTrade>
+  <ARKPPP_SettingsSectionARES>아.레.스</ARKPPP_SettingsSectionARES>
+  <ARKPPP_SettingsSectionFactionPower>세력: 기술 수준별 전력량</ARKPPP_SettingsSectionFactionPower>
+  <ARKPPP_SettingsMinHour>최소 시간 ({0} 시간)</ARKPPP_SettingsMinHour>
+  <ARKPPP_SettingsMaxHour>최대 시간 ({0} 시간)</ARKPPP_SettingsMaxHour>
+  <ARKPPP_SettingsMinDay>최소 기간 ({0} 일)</ARKPPP_SettingsMinDay>
+  <ARKPPP_SettingsMaxDay>최대 기간 ({0} 일)</ARKPPP_SettingsMaxDay>
+  <ARKPPP_SettingsMinWatt>최소 전력량 ({0} W)</ARKPPP_SettingsMinWatt>
+  <ARKPPP_SettingsMaxWatt>최대 전력량 ({0}W)</ARKPPP_SettingsMaxWatt>
+  <ARKPPP_SettingsSupernovaChanceGood>좋은 기회 결과 ({0} %)</ARKPPP_SettingsSupernovaChanceGood>
+  <ARKPPP_SettingsMechWarshipChanceBeamAttack>궤도 빔 공격 확률 ({0} %)</ARKPPP_SettingsMechWarshipChanceBeamAttack>
+  <ARKPPP_SettingsPBE>파워 빔 에너지 발생기</ARKPPP_SettingsPBE>
+  <ARKPPP_Archotech>초월</ARKPPP_Archotech>
+  <ARKPPP_Ultratech>고도</ARKPPP_Ultratech>
+  <ARKPPP_Spacertech>우주</ARKPPP_Spacertech>
+  <ARKPPP_Industrialtech>산업시대</ARKPPP_Industrialtech>
+  <ARKPPP_Medievaltech>중세</ARKPPP_Medievaltech>
+  <ARKPPP_Othertech>기타</ARKPPP_Othertech>
+  <ARKPPP_SettingsFactionWPNSoldChanceGetPower>전력을 가지고 있는 세력이 플레이어한테 WPN 을 팔 확률: {0}%</ARKPPP_SettingsFactionWPNSoldChanceGetPower>
+  <ARKPPP_SettingsFactionWPNPurchasedChanceWantPower>전력을 원하는 세력이 플레이어한테 WPN을 구매할 확률 : {0}%</ARKPPP_SettingsFactionWPNPurchasedChanceWantPower>
+  <ARKPPP_SettingsFactionWPNSoldToPlayer>플레이어에게 WPN 판매</ARKPPP_SettingsFactionWPNSoldToPlayer>
+  <ARKPPP_SettingsFactionWPNPurchasedToPlayer>플레이어에게 구매한 WPN</ARKPPP_SettingsFactionWPNPurchasedToPlayer>
+  <ARKPPP_SettingsEmbargo>금지 정책</ARKPPP_SettingsEmbargo>
+  <ARKPPP_SettingsIncidentSupernova>초신성 폭발</ARKPPP_SettingsIncidentSupernova>
+  <ARKPPP_SettingsIncidentMechanoidWarshipAttack>메카노이드 군함 - 공격 간격</ARKPPP_SettingsIncidentMechanoidWarshipAttack>
+  <ARKPPP_SettingsIncidentMechanoidWarship>메카노이드 군함</ARKPPP_SettingsIncidentMechanoidWarship>
+  <ARKPPP_SettingsIncidentUnsecureWPN>안전하지 않은 WPN</ARKPPP_SettingsIncidentUnsecureWPN>
+  <ARKPPP_SettingsIncidentWPNInterruption>WPN 중단</ARKPPP_SettingsIncidentWPNInterruption>
+  <ARKPPP_SettingsIncidentDamagedSatellite>손상된 위성</ARKPPP_SettingsIncidentDamagedSatellite>
+  <ARKPPP_SettingsPBEEnergyProduced>생성된 에너지</ARKPPP_SettingsPBEEnergyProduced>
+  <ARKPPP_SettingsPBELowBeam>(작은 빔 {0}W)</ARKPPP_SettingsPBELowBeam>
+  <ARKPPP_SettingsPBENormalBeam>(일반 빔 {0}W)</ARKPPP_SettingsPBENormalBeam>
+  <ARKPPP_SettingsPBEBig1Beam>(거대한 빔 1 {0}W)</ARKPPP_SettingsPBEBig1Beam>
+  <ARKPPP_SettingsPBEBig2Beam>(거대한 빔 2 {0}W)</ARKPPP_SettingsPBEBig2Beam>
+  <ARKPPP_SettingsARESRadiusV1>반경 V1 ({0})</ARKPPP_SettingsARESRadiusV1>
+  <ARKPPP_SettingsARESRadiusV2>반경 V2 ({0})</ARKPPP_SettingsARESRadiusV2>
+  <ARKPPP_SettingsARESRadiusV3>반경 EMP ({0})</ARKPPP_SettingsARESRadiusV3>
+  <ARKPPP_SettingsARESChanceExplosion>송수신기가 폭발할 확률 ({0}%)</ARKPPP_SettingsARESChanceExplosion>
+  <ARKPPP_SettingsARESChanceExplosionBattery>배터리가 폭발할 확률 ({0}%)</ARKPPP_SettingsARESChanceExplosionBattery>
+  <ARKPPP_SettingsARESDurationV1>기간 V1 ({0})</ARKPPP_SettingsARESDurationV1>
+  <ARKPPP_SettingsARESDurationV2>기간 V2 ({0})</ARKPPP_SettingsARESDurationV2>
+  <ARKPPP_SettingsARESNeededEnergyV1>V1 사용시 배터리에 필요한 에너지 ({0}W)</ARKPPP_SettingsARESNeededEnergyV1>
+  <ARKPPP_SettingsARESNeededEnergyV2>V2 사용시 배터리에 필요한 에너지 ({0}W)</ARKPPP_SettingsARESNeededEnergyV2>
+  <ARKPPP_SettingsARESNeededEnergyV3>EMP 사용시 배터리에 필요한 에너지 ({0}W)</ARKPPP_SettingsARESNeededEnergyV3>
+  <ARKPPP_SettingsChancePBEDilatation1>강도 1에서 파워 빔 팽창 확률 ({0}%)</ARKPPP_SettingsChancePBEDilatation1>
+  <ARKPPP_SettingsChancePBEDilatation2>강도 2에서 파워 빔 팽창 확률 ({0}%)</ARKPPP_SettingsChancePBEDilatation2>
+  <ARKPPP_SettingsChancePBEDilatation3>강도 3에서 파워 빔 팽창 확률 ({0}%)</ARKPPP_SettingsChancePBEDilatation3>
+  <ARKPPP_SettingsChancePBEAimingError>다중 파워 빔 조준 오류 발생 확률 ({0}%)</ARKPPP_SettingsChancePBEAimingError>
+  <ARKPPP_SettingsChancePBEEMP>EMP 확률 ({0}%)</ARKPPP_SettingsChancePBEEMP>
+  <ARKPPP_SettingsSTSOverheating>STS 과열</ARKPPP_SettingsSTSOverheating>
+  <ARKPPP_SettingsSTSOverheatingChanceBlacklisting>위성 네트워크에 블랙리스트 될 확률 ({0}%)</ARKPPP_SettingsSTSOverheatingChanceBlacklisting>
+  <ARKPPP_SettingsSTSOverheatingChanceAimingError>다중 파워 빔 조준 오류 발생 확률 ({0}%)</ARKPPP_SettingsSTSOverheatingChanceAimingError>
+  <ARKPPP_SettingsMaxDevicesPLWPN>휴대용 LWPN 송신기로 관리 할 수 있는 최대 장치 수 ({0})</ARKPPP_SettingsMaxDevicesPLWPN>
+  <ARKPPP_SettingsCheckAvailableMoneyBeforeBuyWPN>타세력의 WPN을 빌리기 전에 무역 송신기 근처에 사용 가능한 금액이 있는지 확인합니다.</ARKPPP_SettingsCheckAvailableMoneyBeforeBuyWPN>
+  <ARKPPP_SettingsMaxWattPortableWPNReceiver>휴대용 WPN 수신기로 전달되는 최대 전력 ({0} W)</ARKPPP_SettingsMaxWattPortableWPNReceiver>
+  <ARKPPP_SettingsARESChanceFactionAllowFire>WPN 을 가지고 있는 세력 중 아레스를 활성화 할 설비가 있을 확률 ({0} %)</ARKPPP_SettingsARESChanceFactionAllowFire>
+  <ARKPPP_SettingsTradeChanceFactionRandomlyDontWantPay>중립 및 적대적인 세력이 임의로 임대 WPN ({0} %)에 대한 지불 거부를 할 확률</ARKPPP_SettingsTradeChanceFactionRandomlyDontWantPay>
+  <ARKPPP_SettingsMinHourBeforeMeltdown>너무 높은 온도에서 작동할 때 STS가 녹기까지의 최소 시간 ({0} 시간)</ARKPPP_SettingsMinHourBeforeMeltdown>
+  <ARKPPP_SettingsMaxHourBeforeMeltdown>너무 높은 온도에서 작동할 때 STS가 녹기까지의 최대 시간 ({0} 시간)</ARKPPP_SettingsMaxHourBeforeMeltdown>
+  <ARKPPP_SettingsDisablePBEShaking>파워 빔 화면 흔들림 비활성화</ARKPPP_SettingsDisablePBEShaking>
+  <ARKPPP_SettingsWPNReceiverDontWorkUnderRoof>WPN은 지붕 아래에서 작동하지 않습니다</ARKPPP_SettingsWPNReceiverDontWorkUnderRoof>
+  <ARKPPP_SettingsDisablePBESky>지도에서 스카이 조명 비활성화</ARKPPP_SettingsDisablePBESky>
+  <ARKPPP_SettingsARESTHunderColor>폭풍우 색상</ARKPPP_SettingsARESTHunderColor>
+  <ARKPPP_SettingsPBEGlare>파워 빔 눈부심 수준 ({0}%)</ARKPPP_SettingsPBEGlare>
+  <ARKPPP_SettingsPBEMute>파워 빔 음소거</ARKPPP_SettingsPBEMute>
+  <ARKPPP_SettingsWattBasePrice>기본 금액 (하루당)</ARKPPP_SettingsWattBasePrice>
+  <ARKPPP_SettingsWattBasePriceAlly>동맹</ARKPPP_SettingsWattBasePriceAlly>
+  <ARKPPP_SettingsWattBasePriceNeutral>중립</ARKPPP_SettingsWattBasePriceNeutral>
+  <ARKPPP_SettingsWattBasePriceEnemy>적대</ARKPPP_SettingsWattBasePriceEnemy>
+  <ARKPPP_SettingsFactionsOfferRenew>계약 갱신</ARKPPP_SettingsFactionsOfferRenew>
+  <ARKPPP_SettingsFactionsOfferRenewMin>최소 일수 ({0}일)</ARKPPP_SettingsFactionsOfferRenewMin>
+  <ARKPPP_SettingsFactionsOfferRenewMax>최대 일수 ({0}일)</ARKPPP_SettingsFactionsOfferRenewMax>
+  <ARKPPP_SettingsPBEWattNeededAttack>레벨 {0}에서 파워 빔 공격을 시작하는 데 필요한 전력 저장량</ARKPPP_SettingsPBEWattNeededAttack>
+  <ARKPPP_SettingsPBEBeamAttackHot1ChanceTargetError>STS가 약간 뜨거울 경우 궤도 조준 오류가 발생할 확률 ({0} %).</ARKPPP_SettingsPBEBeamAttackHot1ChanceTargetError>
+  <ARKPPP_SettingsPBEBeamAttackHot2ChanceTargetError>STS가 뜨거울 경우 궤도 조준 오류가 발생할 확률 ({0} %).</ARKPPP_SettingsPBEBeamAttackHot2ChanceTargetError>
+  <ARKPPP_SettingsPBEBeamAttackHot3ChanceTargetError>STS가 매우 뜨거울 경우 궤도 조준 오류가 발생할 확률 ({0} %)</ARKPPP_SettingsPBEBeamAttackHot3ChanceTargetError>
+  <ARKPPP_SettingsPBEAttackCooldownMin>파워 빔 공격 후 최소 대기 시간  (임시 위성 차단) ({0} 시간)</ARKPPP_SettingsPBEAttackCooldownMin>
+  <ARKPPP_SettingsPBEAttackCooldownMax>파워 빔 공격 후 최대 대기 시간 (임시 위성 차단) ({0} 시간)</ARKPPP_SettingsPBEAttackCooldownMax>
+  <ARKPPP_SettingsSTSHotNbHoursBeforehackFailPossibility>STS가 해킹 오류를 생성하기까지의 고온 작동 시간 ({0} 시간)</ARKPPP_SettingsSTSHotNbHoursBeforehackFailPossibility>
+  <ARKPPP_SettingsPBEDisableBlacklisting>행성 블랙리스트 비활성화</ARKPPP_SettingsPBEDisableBlacklisting>
+  <ARKPPP_SettingsMechanoidWarshipCannotHitTargetUnderMoutain>메카노이드 군함은 궤도 파워 빔을 사용하여 두꺼운 지붕(산) 아래의 대상을 공격 할 수 없습니다.</ARKPPP_SettingsMechanoidWarshipCannotHitTargetUnderMoutain>
+  <ARKPPP_SettingsLWPNReceptorsDefaultState>LWPN 수용체가 기본적으로 활성화됩니다.</ARKPPP_SettingsLWPNReceptorsDefaultState>
+  <ARKPPP_SettingsIncidentMechanoidWarshipDisable>메카노이드 군함 사건을 비활성화</ARKPPP_SettingsIncidentMechanoidWarshipDisable>
+  <ARKPPP_BeamColorRed>빨강</ARKPPP_BeamColorRed>
+  <ARKPPP_BeamColorPurple>보라</ARKPPP_BeamColorPurple>
+  <ARKPPP_BeamColorBlue>파랑</ARKPPP_BeamColorBlue>
+  <ARKPPP_BeamColorGreen>초록</ARKPPP_BeamColorGreen>
+  <ARKPPP_BeamColorYellow>노랑</ARKPPP_BeamColorYellow>
+  <ARKPPP_BeamColorDefault>기본</ARKPPP_BeamColorDefault>
+</LanguageData>

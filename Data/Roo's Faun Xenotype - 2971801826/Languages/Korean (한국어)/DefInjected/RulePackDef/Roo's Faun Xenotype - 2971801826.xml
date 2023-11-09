@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<NamerPersonFaun_Male.rulePack.rulesStrings>
+    <li>r_name(p=5)->[firstName] [FaunPre][FaunSuf]</li>
+    <li>r_name(p=4)->[firstName] [FaunSurname]</li>
+    <li>r_name(p=2)->[FaunUni] [FaunSurname]</li>
+    <li>r_name(p=2)->[FaunUni] [FaunPre][FaunSuf]</li>
+    <li>r_name->[FaunFixedName]</li>
+    <li>r_name->[FaunPre][FaunSuf] [FaunPre][FaunSuf]</li>
+
+    <li>firstName(p=10)->[SatyrFaunMasc]</li>
+    <li>FaunFixedName->[FaunFixedMasc]</li>
+</NamerPersonFaun_Male.rulePack.rulesStrings>
+
+<NamerPersonFaun_Female.rulePack.rulesStrings>
+    <li>r_name(p=5)->[firstName] [FaunPre][FaunSuf]</li>
+    <li>r_name(p=4)->[firstName] [FaunSurname]</li>
+    <li>r_name(p=2)->[FaunUni] [FaunSurname]</li>
+    <li>r_name(p=2)->[FaunUni] [FaunPre][FaunSuf]</li>
+    <li>r_name->[FaunFixedName]</li>
+    <li>r_name->[FaunPre][FaunSuf] [FaunPre][FaunSuf]</li>
+
+    <li>firstName(p=10)->[SatyrFaunFem]</li>
+    <li>FaunFixedName->[FaunFixedFem]</li>
+</NamerPersonFaun_Female.rulePack.rulesStrings>
+</LanguageData>

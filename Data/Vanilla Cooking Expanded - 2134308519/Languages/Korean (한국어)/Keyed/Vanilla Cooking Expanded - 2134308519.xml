@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <IP_InsertFirstItemDesc>첫 번째 재료 투입</IP_InsertFirstItemDesc>
+  <IP_InsertSecondItemDesc>두 번째 재료 투입</IP_InsertSecondItemDesc>
+  <IP_InsertThirdItemDesc>세 번째 재료 투입</IP_InsertThirdItemDesc>
+  <IP_InsertVariable>{0} 투입</IP_InsertVariable>
+  <IP_InsertVariableSecond>두 번째 칸에 {0} 삽입</IP_InsertVariableSecond>
+  <IP_InsertVariableThird>세 번째 칸에 {0} 삽입</IP_InsertVariableThird>
+  <IP_CantFindThing>이 지도에 해당 종류의 물품({0})이 없습니다.</IP_CantFindThing>
+  <IP_BringIngredients>재료 운반하기</IP_BringIngredients>
+  <IP_BringIngredientsDesc>작업을 시작하기 위해 재료 운반하기</IP_BringIngredientsDesc>
+  <IP_CancelIngredients>재료 운반 취소</IP_CancelIngredients>
+  <IP_CancelIngredientsDesc>이 건물로 재료 운반하기 취소</IP_CancelIngredientsDesc>
+  <IP_NoIngredientFound>지도에서 재료를 찾을 수 없음</IP_NoIngredientFound>
+  <IP_ChooseIngredient>재료 선택</IP_ChooseIngredient>
+  <IP_ChooseIngredientSecond>두 번째 재료를 선택</IP_ChooseIngredientSecond>
+  <IP_ChooseIngredientThird>세 번째 재료를 선택</IP_ChooseIngredientThird>
+  <IP_IngredientImproperlyDefined>재료 중 하나가 물품 작업이 중복 작동하도록 잘못 정의되었습니다.\n모드 작성자에게 문의하십시오.</IP_IngredientImproperlyDefined>
+  <IP_NoPowerDestroysWarning>작업을 시작하려면 {0}에 연료를 공급해야 합니다.</IP_NoPowerDestroysWarning>
+  <IP_NoFuelDestroysWarning>작업을 시작하려면 {0}에 연료를 공급해야 합니다.</IP_NoFuelDestroysWarning>
+  <IP_LightDestroysWarning>{0}(이)가 작업을 시작하려면 주변에 적절한 조명이 있어야 합니다.</IP_LightDestroysWarning>
+  <IP_RainDestroysWarning>{0}(이)가 작업을 시작하려면 비가 오지 않아야 합니다.</IP_RainDestroysWarning>
+  <IP_TemperatureDestroysWarning>{0}(이)가 작업을 시작하려면 적절한 온도({1} - {2})가 있어야 합니다.</IP_TemperatureDestroysWarning>
+  <IP_NoPowerDestroysInitialWarning>가공 중에 정전으로 식품이 상했습니다.</IP_NoPowerDestroysInitialWarning>
+  <IP_NoPowerDestroysMessage>가공 중에 정전으로 식품이 상했습니다.</IP_NoPowerDestroysMessage>
+  <IP_GenericProductFinished>제품 가공이 완료되어 운반 대기 중</IP_GenericProductFinished>
+  <IP_IsEmpty>{0}(이)가 비어 있음</IP_IsEmpty>
+  <IP_FilledWith>{0}(은)는 {1}(으)로 예약됨</IP_FilledWith>
+  <IP_FilledWithSecond>{0}의 두 번째 칸은 {1}(으)로 예약됨</IP_FilledWithSecond>
+  <IP_FilledWithThird>{0}의 세 번째 칸은 {1}(으)로 예약됨</IP_FilledWithThird>
+  <IP_IngredientPercentage>({1}개 중 {0}개 채워짐)</IP_IngredientPercentage>
+  <IP_ProcessorWorking>{0} 가공 중:</IP_ProcessorWorking>
+  <IP_ProcessingInProgress>{0}(이)가 {1}(을)를 가공 중입니다.\n{2}(은)는 {4} 뒤에 {3} 품질로 완성됩니다.</IP_ProcessingInProgress>
+  <IP_ProcessingInProgressNoQuality>{0}(이)가 {1}(을)를 가공 중입니다.\n{2}(은)는 {3} 뒤에 완성됩니다.</IP_ProcessingInProgressNoQuality>
+  <IP_RemoveProduct>{0} ({1}) 제거</IP_RemoveProduct>
+  <IP_RemoveProductDesc>{1}에서 {0}(을)를 제거하세요.\n제품은 현재 품질 수준 ({2})로 완성됩니다.</IP_RemoveProductDesc>
+  <IP_ResetSemiautomatic>조리법 초기화</IP_ResetSemiautomatic>
+  <IP_ResetSemiautomaticDesc>현재 제품이 완성된 후 건물을 재설정해서, 새로운 재료 성분을 선택할 수 있습니다.</IP_ResetSemiautomaticDesc>
+  <IP_NoCombination>이 재료에 대한 조합을 찾을 수 없습니다.</IP_NoCombination>
+  <IP_SetAutoQuality>제품 완료 품질을 설정하세요.\n제품이 이 품질에 도달하면, 정착민은 자동으로 저장 장소로 운반합니다.\n설정하지 않으면 수동으로 옮기거나, 운이 좋으면 전설 품질로 완성됩니다.</IP_SetAutoQuality>
+  <IP_ChooseQualityAuto>자동 품질 선택</IP_ChooseQualityAuto>
+  <IP_QualityAutoIs>자동 품질: {0}</IP_QualityAutoIs>
+  <IP_QualityAutoNot>자동 품질 비활성화</IP_QualityAutoNot>
+  <IP_QualityAutoEstablished>자동 품질, 해당 품질 수준에서 제품 운반: {0}</IP_QualityAutoEstablished>
+  <IP_ToggleAuto>자동 재료 획득</IP_ToggleAuto>
+  <IP_ToggleAutoDesc>항목을 활성화하면 해당 건물은 인접한 저장장소에서 재료를 자동으로 가져오고, 제품을 제거하면 자동으로 다시 작업을 시작합니다.\n그렇지 않은 경우 정착지 주민이 건물에 재료를 운반하며, 채워 넣은 후 수동으로 재개해야 합니다.</IP_ToggleAutoDesc>
+  <IP_ProductWaiting>운반 대기 중</IP_ProductWaiting>
+  <IP_OutsideLightRange>주변에 조명이 없어 곧 손상될 것입니다.</IP_OutsideLightRange>
+  <IP_SpoiledDueToLight>주변에 조명이 없어서 생산품이 손상되었습니다.</IP_SpoiledDueToLight>
+  <IP_ItRains>비가 와서 곧 손상될 것입니다.</IP_ItRains>
+  <IP_SpoiledDueToRain>비가 와서 생산품이 손상되었습니다.</IP_SpoiledDueToRain>
+  <IP_WrongTemp>온도가 알맞지 않아서 곧 손상될 것입니다.</IP_WrongTemp>
+  <IP_SpoiledDueToWrongTemp>생산품이 부적합한 온도로 인해 파손되었습니다.</IP_SpoiledDueToWrongTemp>
+  <IP_TempRangeInThisMachine>권장 온도: {0} - {1} ºC{2}</IP_TempRangeInThisMachine>
+  <VCE_InsertSoup>수프 투입</VCE_InsertSoup>
+  <VCE_InsertSoupDesc>수프 요리</VCE_InsertSoupDesc>
+  <VCE_NoSoupsFound>이 지도에 해당 종류의 수프가 없습니다.</VCE_NoSoupsFound>
+  <VCE_UncookedSoupSimple>간단한 수프</VCE_UncookedSoupSimple>
+  <VCE_UncookedSoupFine>좋은 수프</VCE_UncookedSoupFine>
+  <VCE_UncookedSoupLavish>호화로운 수프</VCE_UncookedSoupLavish>
+  <VCE_UncookedSoupGourmet>미식적인 수프</VCE_UncookedSoupGourmet>
+  <VCE_UncookedSoupSimple_InsertSoup>간단한 수프 투입</VCE_UncookedSoupSimple_InsertSoup>
+  <VCE_UncookedSoupFine_InsertSoup>좋은 수프 투입</VCE_UncookedSoupFine_InsertSoup>
+  <VCE_UncookedSoupLavish_InsertSoup>호화로운 수프 투입</VCE_UncookedSoupLavish_InsertSoup>
+  <VCE_UncookedSoupGourmet_InsertSoup>미식적인 수프 투입</VCE_UncookedSoupGourmet_InsertSoup>
+  <VCE_SelectSoup>요리할 수프 종류 선택</VCE_SelectSoup>
+  <VCE_StartInsertion>수프 운반</VCE_StartInsertion>
+  <VCE_StartInsertionDesc>수프를 전기 포트에 넣어 요리를 시작합니다.</VCE_StartInsertionDesc>
+  <VCE_RemoveSoup>수프 제거</VCE_RemoveSoup>
+  <VCE_RemoveSoupDesc>냄비에서 수프를 제거하세요.\n이것은 요리를 시작하기 전에만 수행 할 수 있습니다.</VCE_RemoveSoupDesc>
+  <VCE_CancelBringingSoup>수프 운반 취소</VCE_CancelBringingSoup>
+  <VCE_CancelBringingSoupDesc>수프를 전기 포트에 넣는 것을 취소합니다.</VCE_CancelBringingSoupDesc>
+  <VCE_WaitTillJobsEnd>수프를 전기 포트에 넣을 때까지 기다리거나, 작업을 취소합니다.</VCE_WaitTillJobsEnd>
+  <VCE_NotPowered>전기 포트에 전원이 공급되지 않습니다.</VCE_NotPowered>
+  <VCE_Engage>요리 수프</VCE_Engage>
+  <VCE_EngageDesc>수프 요리를 시작하세요.\n이 과정은 3일이 걸리며, 도중에 중단될 수 없습니다.\n중단 시 수프가 파괴됩니다.</VCE_EngageDesc>
+  <VCE_SoupFailurePower>전기 포트의 정전으로 인해 수프가 설익었습니다</VCE_SoupFailurePower>
+  <VCE_SoupFinished>수프가 잘 끓여졌습니다</VCE_SoupFinished>
+  <VCE_SoupInProgress>{0}(이)가 요리 중입니다.\n{1} 뒤에 완성됩니다.</VCE_SoupInProgress>
+  <VCE_SoupReady>다 끓인 수프 운반 대기 중</VCE_SoupReady>
+  <VCE_InsertMilkDesc>치즈 압착기로 누를 우유를 선택하세요.\n각 우유는 서로 다른 유형의 치즈를 생산할 수 있습니다.</VCE_InsertMilkDesc>
+  <VCE_InsertMilk>우유 선택</VCE_InsertMilk>
+  <VCE_InsertMilkVariable>{0} 투입</VCE_InsertMilkVariable>
+  <VCE_NoMilksFound>이 지도에는 해당 종류의 우유가 없습니다.</VCE_NoMilksFound>
+  <VCE_SelectMilk>압착할 우유의 종류를 선택하세요.</VCE_SelectMilk>
+  <VCE_StartInsertionMilk>우유 운반</VCE_StartInsertionMilk>
+  <VCE_StartInsertionMilkDesc>치즈 압착기로 우유를 운반해 압착을 시작합니다.</VCE_StartInsertionMilkDesc>
+  <VCE_RemoveMilk>우유 제거</VCE_RemoveMilk>
+  <VCE_RemoveMilkDesc>압착기에서 우유를 제거하세요.\n이 작업은 누르기 전에만 수행 할 수 있습니다.</VCE_RemoveMilkDesc>
+  <VCE_CancelBringingMilk>우유 운반 취소</VCE_CancelBringingMilk>
+  <VCE_CancelBringingMilkDesc>치즈 압착기에 우유 운반을 취소합니다.</VCE_CancelBringingMilkDesc>
+  <VCE_WaitTillJobsEndMilk>우유를 치즈 압착기에 넣을 때까지 기다리거나, 작업을 취소합니다.</VCE_WaitTillJobsEndMilk>
+  <VCE_EngageMilk>치즈 압착</VCE_EngageMilk>
+  <VCE_EngageMilkDesc>우유를 치즈에 눌러 넣으십시오.\n이 과정에 걸리는 시간은 유동적이며, 숙성 시간에 따라 치즈의 품질이 향상됩니다.\n초기 기간 이후 언제든지 제거할 수 있습니다.</VCE_EngageMilkDesc>
+  <VCE_CheeseFinished>치즈가 숙성되었습니다</VCE_CheeseFinished>
+  <VCE_CheeseInProgress>치즈 압착기가 {0}(을)를 누르고 있습니다.\n{2} 뒤에 {1} 품질로 완성됩니다.</VCE_CheeseInProgress>
+  <VCE_CheeseReady>숙성된 치즈 운반 대기 중</VCE_CheeseReady>
+  <VCE_MilkImproperlyDefined>이 우유는 치즈 압착기와의 작동이 잘못 정의되었습니다. 우유 모드 작성자에게 문의하십시오.</VCE_MilkImproperlyDefined>
+  <VCE_RemoveCheese>치즈 제거 ({0})</VCE_RemoveCheese>
+  <VCE_RemoveCheeseDesc>치즈 압착기에서 치즈를 제거합니다.\n치즈는 현재 품질 수준 ({0})로 완성됩니다</VCE_RemoveCheeseDesc>
+  <VCE_CheesePressEmpty>치즈 압착기는 현재 비어있습니다.</VCE_CheesePressEmpty>
+  <VCE_CheesePressFilled>{0}로 채워진 치즈 압착기</VCE_CheesePressFilled>
+  <VCE_CheesePressWorking>치즈 압착기가 작동 중:</VCE_CheesePressWorking>
+  <VCE_ResourcePercentage>({1}개 중 {0}개 채워짐)</VCE_ResourcePercentage>
+</LanguageData>

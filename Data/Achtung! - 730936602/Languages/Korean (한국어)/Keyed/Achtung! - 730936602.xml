@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PositioningEnabledTitle>마우스 위치 지정</PositioningEnabledTitle>
+  <PositioningEnabledExplained>마우스 클릭 / 드래그로 전투 위치 지정 가능 (아래 설정 참조)</PositioningEnabledExplained>
+  <AchtungModifierTitle>Achtung! 키</AchtungModifierTitle>
+  <AchtungModifierExplained>이 키를 누르고 있으면 정착민을 소집시켜 이동 또는 대열 이동 명령이 가능합니다.
+누르고 있을 때, 선택한 정착민을 마우스 오른쪽 버튼을 누른 상태로 끌어서 커서의 현재 위치로 이동시킬 수 있습니다. 마우스 오른쪽 버튼을 누르는 도중 Achtung! 키가 풀릴 수도 있습니다.
+Q와 E를 사용하여 대열을 회전시킵니다.</AchtungModifierExplained>
+  <ForceCommandMenuModeTitle>상황에 맞는 메뉴 모드</ForceCommandMenuModeTitle>
+  <ForceCommandMenuModeExplained>자동 = 일반 작동 (소집 상태에 따라 결정)\n메뉴 표시 = 키를 누르고 있을 때 상황에 맞는 메뉴 표시\n위치 지정 = 키를 누르고 있을 때 위치를 지정</ForceCommandMenuModeExplained>
+  <ForceCommandMenuKeyTitle>상황에 맞는 메뉴 키</ForceCommandMenuKeyTitle>
+  <ForcedCommandState>해당 작업을 완료할 때까지 하도록 명령합니다.</ForcedCommandState>
+  <ForceMenuButtonText>강제</ForceMenuButtonText>
+  <IncreaseForceRadius>범위 증가</IncreaseForceRadius>
+  <IncreaseForceRadiusDesc>강제작업의 작업 거리를 늘립니다 (현재 반경 {0})</IncreaseForceRadiusDesc>
+  <DecreaseForceRadius>범위 감소</DecreaseForceRadius>
+  <DecreaseForceRadiusDesc>강제작업의 작업 거리를 줄입니다 (현재 반경 {0})</DecreaseForceRadiusDesc>
+  <BuildingSmart>영리한 건설</BuildingSmart>
+  <BuildingSmartDesc>영리하게 건설하면 구멍이나 구조물에 갇히는 것이 방지되지만, 속도가 느리고 항상 시작지점 주변부터 건설합니다.</BuildingSmartDesc>
+  <Notes>참고</Notes>
+  <Note1>Achtung을 사용할 시 상황에 맞는 메뉴에는 소집 및 비소집 명령이 모두 포함됩니다.</Note1>
+  <Note2>소집되지 않은 정착민을 일렬로 배치할 때, 기존 소집버튼으로 대열에 합류시키세요</Note2>
+  <CommandMenuModeOptionAuto>자동</CommandMenuModeOptionAuto>
+  <CommandMenuModeOptionPressForMenu>메뉴 표시</CommandMenuModeOptionPressForMenu>
+  <CommandMenuModeOptionPressForPosition>위치 지정</CommandMenuModeOptionPressForPosition>
+  <AchtungModKeyOptionNone>비활성화</AchtungModKeyOptionNone>
+  <AchtungModKeyOptionAlt>Alt</AchtungModKeyOptionAlt>
+  <AchtungModKeyOptionCtrl>Ctrl</AchtungModKeyOptionCtrl>
+  <AchtungModKeyOptionShift>Shift</AchtungModKeyOptionShift>
+  <AchtungModKeyOptionMeta>Win/Cmd</AchtungModKeyOptionMeta>
+  <BreakLevelTitle>작업시 정신 상태</BreakLevelTitle>
+  <BreakLevelExplained>정착민의 수행된 Achtung 작업을 중단시키는 정신수준 설정</BreakLevelExplained>
+  <BreakLevelOptionNone>무시</BreakLevelOptionNone>
+  <BreakLevelOptionMinor>가벼움</BreakLevelOptionMinor>
+  <BreakLevelOptionMajor>심각함</BreakLevelOptionMajor>
+  <BreakLevelOptionAlmostExtreme>거의 극심함</BreakLevelOptionAlmostExtreme>
+  <BreakLevelOptionExtreme>극심함</BreakLevelOptionExtreme>
+  <HealthLevelTitle>작업시 건강상태</HealthLevelTitle>
+  <HealthLevelExplained>정착민의 수행된 Achtung 작업을 중단시키는 건강상태 설정</HealthLevelExplained>
+  <HealthLevelOptionNone>무시</HealthLevelOptionNone>
+  <HealthLevelOptionShouldBeTendedNow>지금 치료 필요</HealthLevelOptionShouldBeTendedNow>
+  <HealthLevelOptionPrefersMedicalRest>간호 필요</HealthLevelOptionPrefersMedicalRest>
+  <HealthLevelOptionNeedsMedicalRest>휴양 필요</HealthLevelOptionNeedsMedicalRest>
+  <HealthLevelOptionInPainShock>고통으로 탈진</HealthLevelOptionInPainShock>
+  <IgnoreForbiddenTitle>상호작용 금지를 무시</IgnoreForbiddenTitle>
+  <IgnoreForbiddenExplained>강제작업을 수행할 때 상호작용 금지된 (빨간색 교차) 항목을 무시합니다</IgnoreForbiddenExplained>
+  <IgnoreRestrictionsTitle>제한 구역 무시</IgnoreRestrictionsTitle>
+  <IgnoreRestrictionsExplained>강제작업을 수행할시 영역 제한을 무시합니다</IgnoreRestrictionsExplained>
+  <IgnoreAssignmentsTitle>작업 유형 할당 무시</IgnoreAssignmentsTitle>
+  <IgnoreAssignmentsExplained>할당되지 않은 작업 우선 순위를 무시합니다</IgnoreAssignmentsExplained>
+  <BuildingSmartDefaultTitle>새 Achtung! 작업에 영리한 건설을 사용합니다.</BuildingSmartDefaultTitle>
+  <BuildingSmartDefaultExplained>새 작업시 건설 순서를 선택하는 방법에 대한 기본값을 설정합니다. </BuildingSmartDefaultExplained>
+  <WorkMarkersTitle>강제작업 항목 표시</WorkMarkersTitle>
+  <WorkMarkersExplained>강제작업 항목에 작은 기호가 표시됩니다.</WorkMarkersExplained>
+  <WorkMarkersOptionAnimated>움직임</WorkMarkersOptionAnimated>
+  <WorkMarkersOptionStatic>고정</WorkMarkersOptionStatic>
+  <WorkMarkersOptionOff>끄기</WorkMarkersOptionOff>
+  <JobInterruptedLabel>취소됨: {0}</JobInterruptedLabel>
+  <JobInterruptedBreakdown>{0}: {1}</JobInterruptedBreakdown>
+  <JobInterruptedBadHealth>{0}의 상태가 안 좋습니다</JobInterruptedBadHealth>
+  <CleanRoomLabel>이 방을 청소</CleanRoomLabel>
+  <CleanRoomInfoText>방을 철저하게 청소합니다</CleanRoomInfoText>
+  <CleanRoomDescription>완전히 깨끗해질 때까지 방을 청소합니다</CleanRoomDescription>
+  <CleanRoomReport>{0} 청소 중: {1}</CleanRoomReport>
+  <FireFightLabel>화재 진압</FireFightLabel>
+  <FireFightInfoText>화재 진압 중</FireFightInfoText>
+  <FireFightDescription>화재 진압 (주거구역 밖)</FireFightDescription>
+  <FireFightReport>화재 진압 중: {0}</FireFightReport>
+  <SowZoneLabel>이 구역/방에 작물을 심기</SowZoneLabel>
+  <SowZoneInfoText>구역/방에 작물을 심는 중</SowZoneInfoText>
+  <SowZoneDescription>재배구역 또는 방의 모든 곳에 작물을 심습니다</SowZoneDescription>
+  <SowZoneReport>{0} 심는 중: {1}</SowZoneReport>
+  <AlreadyDoing>(작업 #{0})</AlreadyDoing>
+</LanguageData>

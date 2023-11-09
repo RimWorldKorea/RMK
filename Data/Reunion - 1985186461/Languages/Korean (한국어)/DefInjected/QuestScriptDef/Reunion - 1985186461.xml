@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Reunion_AllyJoinerWalkIn.questDescriptionRules.rulesStrings.0>rewardDescription->[joiner_age]살의 [joiner_title]인 [joiner_nameDef](이)가 당신에게 합류했습니다. [joiner_relationInfo]</Reunion_AllyJoinerWalkIn.questDescriptionRules.rulesStrings.0>
+  <Reunion_AllyJoinerWalkIn.root.nodes.1.customLetterLabel>$customLetterLabel</Reunion_AllyJoinerWalkIn.root.nodes.1.customLetterLabel>
+  <Reunion_AllyJoinerWalkIn.root.nodes.1.customLetterText>$customLetterLabel</Reunion_AllyJoinerWalkIn.root.nodes.1.customLetterText>
+  <Reunion_AllyChased.questNameRules.rulesStrings.0>questName->재회 - [runnerIndef]</Reunion_AllyChased.questNameRules.rulesStrings.0>
+  <Reunion_AllyChased.questNameRules.rulesStrings.1>runnerIndef->[joiner_nameIndef]</Reunion_AllyChased.questNameRules.rulesStrings.1>
+  <Reunion_AllyChased.questDescriptionRules.rulesStrings.0>questDescription->[joiner_age]살의 [joiner_title] [joiner_nameDef](이)가 근처에서 연락을 해왔습니다. [joiner_pronoun](은)는 [enemyFaction_name]의 [enemyFaction_pawnsPlural]에게 쫓기고 있습니다!
+\n[joiner_pronoun]는 구조를 요청하며, [map_definite]에서 당신과 함께 하겠다고 제안했습니다. [joiner_relationInfo]\n\n만약 당신이 이를 받아들인다면 [joiner_objective] 뒤쫓아온 [enemyFaction_pawnsPluralDef](와)과 싸워야 합니다.\n[enemyFaction_pawnsPlural]의 추격대는 다음과 같습니다: \n\n[raid/raidPawnKinds]</Reunion_AllyChased.questDescriptionRules.rulesStrings.0>
+  <Reunion_AllyChased.root.nodes.Delay-0.node.parms.customLetterLabel.value.slateRef>{BASELABEL}의 [../joiner_nameDef] 추격</Reunion_AllyChased.root.nodes.Delay-0.node.parms.customLetterLabel.value.slateRef>
+  <Reunion_AllyChased.root.nodes.Delay-0.node.parms.customLetterText.value.slateRef>{BASETEXT}
+              \n[enemyFaction_pawnsPlural](이)가 [../joiner_nameDef](을)를 추격해 왔습니다.</Reunion_AllyChased.root.nodes.Delay-0.node.parms.customLetterText.value.slateRef>
+  <Reunion_DownedRefugee.questNameRules.rulesStrings.0>questName->재회 - [refugee_nameDef]</Reunion_DownedRefugee.questNameRules.rulesStrings.0>
+  <Reunion_DownedRefugee.questDescriptionRules.rulesStrings.0>questDescription->[refugee_nameDef](이)가 도움을 요청했습니다. [refugee_pronoun](은)는 부상을 입어 움직일 수 없습니다.\n\n[refugee_nameDef](은)는 [refugee_age]살의 [refugee_title]입니다. [refugee_objective] 구조해주면 [refugee_pronoun]는 당신의 세력에 합류할 것을 약속했습니다.\n\n[refugee_nameDef](이)가 말하길 [allSitePartsDescriptionsExceptFirst]이 있다고 합니다.\n[pawnInvolvedInQuestInfo]</Reunion_DownedRefugee.questDescriptionRules.rulesStrings.0>
+  <Reunion_DownedRefugee.questDescriptionRules.rulesStrings.1>pawnInvolvedInQuestInfo(priority=1)->[refugee_pawnInvolvedInQuestInfo]</Reunion_DownedRefugee.questDescriptionRules.rulesStrings.1>
+  <Reunion_DownedRefugee.questDescriptionRules.rulesStrings.2>pawnInvolvedInQuestInfo-></Reunion_DownedRefugee.questDescriptionRules.rulesStrings.2>
+  <Reunion_DownedRefugee.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>임무 만료됨: [resolvedQuestName]</Reunion_DownedRefugee.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <Reunion_DownedRefugee.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>[refugee_nameDef]의 신호가 끊겼고, [refugee_pronoun]는 더 이상 구할 수 없습니다.\n\n[resolvedQuestName] 임무는 만료되었습니다.</Reunion_DownedRefugee.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <Reunion_PrisonerRescue.questNameRules.rulesStrings.0>questName->재회 - [prisoner_nameDef]</Reunion_PrisonerRescue.questNameRules.rulesStrings.0>
+  <Reunion_PrisonerRescue.questDescriptionRules.rulesStrings.0>questDescription->[siteFaction_name]에게 붙잡힌 수감자가 무전기를 훔쳐서 당신에게 연락했습니다!
+\n[prisoner_nameDef](이)가 [map_definite] [underArmedGuard] 감옥에 붙잡혀 있습니다. [prisoner_objective] 구하면 [prisoner_pronoun]는 당신의 정착지에 합류할 것입니다. [prisoner_pronoun]는 [prisoner_age]살의 [prisoner_title]입니다.\n\n[prisoner_pronoun]가 말하길 [allSitePartsDescriptionsExceptFirst]이 있다고 합니다.\n[formerColonistInfo][prisonerFullRelationInfo]</Reunion_PrisonerRescue.questDescriptionRules.rulesStrings.0>
+  <Reunion_PrisonerRescue.questDescriptionRules.rulesStrings.1>formerColonistInfo(priority=1)->\n\n[prisoner_formerlyColonistInfo]</Reunion_PrisonerRescue.questDescriptionRules.rulesStrings.1>
+  <Reunion_PrisonerRescue.questDescriptionRules.rulesStrings.2>formerColonistInfo-></Reunion_PrisonerRescue.questDescriptionRules.rulesStrings.2>
+  <Reunion_PrisonerRescue.questDescriptionRules.rulesStrings.3>underArmedGuard(allowViolentQuests==true,priority=1)->경비 구역 내의</Reunion_PrisonerRescue.questDescriptionRules.rulesStrings.3>
+  <Reunion_PrisonerRescue.questDescriptionRules.rulesStrings.4>underArmedGuard-></Reunion_PrisonerRescue.questDescriptionRules.rulesStrings.4>
+</LanguageData>

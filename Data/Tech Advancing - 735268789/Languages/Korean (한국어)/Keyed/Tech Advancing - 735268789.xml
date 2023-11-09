@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <TAcfgmenulabel>Techadvancing 설정</TAcfgmenulabel>
+  <newTechLevelLetterTitle>새로운 기술 수준</newTechLevelLetterTitle>
+  <newTechLevelLetterContents>축하합니다. 연구원이 {0} 의 기술 수준에 특이점을 넘길 연구 프로젝트를 완료했습니다. \n 새로운 기술 수준:</newTechLevelLetterContents>
+  <ConfigEditTechlevelChange>Tech Advancing 모드의 영향으로 현재 기술 수준이 변경되었습니다:</ConfigEditTechlevelChange>
+  <configHeader>고를 수 있는 규칙:</configHeader>
+  <configRuleAdesc>규칙1: \n 플레이어가 기술 수준 X 이하의 모든 기술을 연구하면 기술 수준이 상승합니다. X +</configRuleAdesc>
+  <configRuleBdesc>규칙2: \n 플레이어가 기술 수준 Y의 기술 중 50% 이상을 연구하면 기술 수준이 상승합니다. Y +</configRuleBdesc>
+  <configRuleBSliderdesc>이 슬라이더로 규칙2의 값을 제어할 수 있습니다.</configRuleBSliderdesc>
+  <configRadioBtnNeolithic>원시 / 부족민</configRadioBtnNeolithic>
+  <configRadioBtnAutoDetect>자동감지 (기본값)</configRadioBtnAutoDetect>
+  <configRadioBtnIndustrial>산업 / 정착지</configRadioBtnIndustrial>
+  <configBaseTechLvl>기본 기술 수준</configBaseTechLvl>
+  <configTribe>부족</configTribe>
+  <configColony>정착지</configColony>
+  <configSetToTribe>부족민 수준으로 세팅함</configSetToTribe>
+  <configSetToColony>정착지 수준으로 세팅함</configSetToColony>
+  <configNeolithic>원시수준</configNeolithic>
+  <configIndustrial>산업수준</configIndustrial>
+  <configWordDefault>기본값:</configWordDefault>
+  <configExpectedTechLvl>이 규칙으로 인한 예상 기술 수준:</configExpectedTechLvl>
+  <configResultingTechLvl>결과적인 기술 수준:</configResultingTechLvl>
+  <configCheckboxNeedTechColonists>이 옵션을 활성화하면 당신의 정착지에 부족수준 구성원만 있는 경우 \n '{0}' 이상으로 기술 수준을 발전시킬 수 없습니다.</configCheckboxNeedTechColonists>
+  <configCheckboxNeedTechColonists_CappedAt>정착지에 부족민이 아닌 사람을 얻을 때까지 기술 수준은 '{0}'로 제한됩니다.</configCheckboxNeedTechColonists_CappedAt>
+  <configCheckboxDisableCostMultiplicatorCap>바닐라의 연구 속도 200% 제한을 해제합니다. (A18 이전버전처럼)</configCheckboxDisableCostMultiplicatorCap>
+  <newTechLevelMedievalCapRemLetterTitle>기술 수준 제한 해제</newTechLevelMedievalCapRemLetterTitle>
+  <newTechLevelMedievalCapRemLetterContents>당신의 {0}(은) 는 몇 가지 새로운 요령을 가르쳐 줄 기술자를 확보했습니다. 덕분에 중세기술 수준 제한이 해제되었습니다. 축하합니다!</newTechLevelMedievalCapRemLetterContents>
+  <newTechLevelMedievalCapRemLetterTitleRev>기술 수준 제한</newTechLevelMedievalCapRemLetterTitleRev>
+  <newTechLevelMedievalCapRemLetterContentsRev>현재 기술 수준에 익숙한 사람이 없습니다. 기술 수준이 중세 기술로 제한되었습니다!</newTechLevelMedievalCapRemLetterContentsRev>
+  <TAcfgunavailable>이 모드설정은 게임 플레이동안에만 할 수 있습니다.</TAcfgunavailable>
+  <availableTechLvls>다음과 같은 기술 수준이 있습니다.</availableTechLvls>
+  <TA_TL_Archotech>초월공학수준</TA_TL_Archotech>
+  <TA_TL_Ultra>미래수준</TA_TL_Ultra>
+  <TA_TL_Spacer>우주수준</TA_TL_Spacer>
+  <TA_TL_Industrial>산업수준</TA_TL_Industrial>
+  <TA_TL_Medieval>중세수준</TA_TL_Medieval>
+  <TA_TL_Neolithic>원시수준</TA_TL_Neolithic>
+  <TA_TL_Animal>짐승수준</TA_TL_Animal>
+  <TA_TL_Undefined>미정의</TA_TL_Undefined>
+  <config_menu_button_main>기본 설정</config_menu_button_main>
+  <config_menu_button_research_project_settings>연구 설정</config_menu_button_research_project_settings>
+  <config_menu_button_research_project_info>연구 정보</config_menu_button_research_project_info>
+  <configCheckboxMakeHigherResearchesSuperExpensive>자신의 기술수준 보다 발전된 연구를 할때 필요한 연구점수를 X 배 하기.</configCheckboxMakeHigherResearchesSuperExpensive>
+  <configCheckboxMakeHigherResearchesSuperExpensiveFac>위 옵션의 계수를 설정하세요. (현재 값: x {0})</configCheckboxMakeHigherResearchesSuperExpensiveFac>
+  <configChangeResearchCostFac>모든 연구 프로젝트의 필요 점수를 설정합니다. (현재 값: x {0})</configChangeResearchCostFac>
+  <configDiscountPctForLowerTechs>현재 기술 수준보다 낮은 기술에 대해 X ^ N %의 할인을 적용합니다. 여기서 X는 슬라이더 값이고 \n N은 프로젝트 수준보다 앞서있는 기술 수준의 값입니다. (현재 값:-{0} %)</configDiscountPctForLowerTechs>
+  <configCheckboxIgnoreNonMainTreeTechs>연구 트리의 기본 탭에 없는 연구 프로젝트는 계산하지 않습니다.</configCheckboxIgnoreNonMainTreeTechs>
+  <configWordTechlevel>기술수준</configWordTechlevel>
+  <configResearchProjectInfo_TechsRemainingSingular>연구할 수 있는 프로젝트가 한개 남았습니다. 현재 연구도: {1} % \n 남은 프로젝트: \n {2}</configResearchProjectInfo_TechsRemainingSingular>
+  <configResearchProjectInfo_TechsRemainingPlural>연구할 수 있는 프로젝트가 {0} 개 남았습니다. 현재 연구도: {1} % \n 남은 프로젝트: \n {2}</configResearchProjectInfo_TechsRemainingPlural>
+  <configResearchProjectInfo_TechsRemainingNone>이 기술 수준의 모든 프로젝트가 연구되었습니다.</configResearchProjectInfo_TechsRemainingNone>
+</LanguageData>

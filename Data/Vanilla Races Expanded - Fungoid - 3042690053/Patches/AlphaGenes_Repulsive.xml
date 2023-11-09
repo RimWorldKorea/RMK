@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Alpha Genes</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/GeneDef[defName="VRE_Repulsive"]/label</xpath>
+			<value>
+				<label>매우 역겨움</label>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationReplace">
+			<xpath>/Defs/GeneDef[defName="VRE_Repulsive"]/label</xpath>
+			<value>
+				<label>역겨움</label>
+			</value>
+		</nomatch>
+	</Operation>
+</Patch>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<RR_ScienceTalk.label>과학적 대화</RR_ScienceTalk.label>
+	<RR_ScienceTalk.logRulesInitiator.rulesStrings>
+        <li>r_logentry->[INITIATOR_nameDef](은)는 [subject](와)과 관련된 [knowledge]에 관해 [RECIPIENT_nameDef](와)과 [talkabout].</li>
+
+        <li>talkabout->의견을 나눔</li>
+        <li>talkabout->대화함</li>
+        <li>talkabout->논의함</li>
+        <li>talkabout->토론함</li>
+
+        <li>subject->현재 연구</li>
+        <li>subject->현재 프로젝트</li>
+		
+        <li>knowledge->지식</li>
+        <li>knowledge->과학적 사실</li>
+        <li>knowledge->저번 실험</li>
+        <li>knowledge->[RECIPIENT_possessive] 지식</li>
+	</RR_ScienceTalk.logRulesInitiator.rulesStrings>
+	
+	<RR_ScienceInterrogation_Demand.label>지식 얻어내기</RR_ScienceInterrogation_Demand.label>
+	<RR_ScienceInterrogation_Demand.logRulesInitiator.rulesStrings>
+		<li>r_logentry->[INITIATOR_nameDef](은)는 [subject]에 관하여 [RECIPIENT_nameDef]에게 말함.</li>
+        <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 [subject]를 설명함.</li>
+        <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef](이)가 [knowledge_requested]에 관해 [talkabout] [encouraged].</li>
+
+		<li>encouraged->격려함</li>
+		<li>encouraged->기회를 줌</li>
+		<li>encouraged->요구함</li>
+		<li>encouraged->제안함</li>
+
+        <li>talkabout->말하도록</li>
+        <li>talkabout->논하도록</li>
+        <li>talkabout->토의하도록</li>
+        <li>talkabout->생각하도록</li>
+
+        <li>subject->과학</li>
+        <li>subject->저번 실험</li>
+        <li>subject->과학적 방법론</li>
+		
+        <li>knowledge_requested->과학적 자료</li>
+        <li>knowledge_requested->실험</li>
+        <li>knowledge_requested->데이터 포인트</li>
+        <li>knowledge_requested->[RECIPIENT_possessive] 경험</li>
+        <li>knowledge_requested->[RECIPIENT_possessive] 지식</li>
+	</RR_ScienceInterrogation_Demand.logRulesInitiator.rulesStrings>
+	
+	<RR_ScienceInterrogation_Reply_Cooperative.label>지식 나누기</RR_ScienceInterrogation_Reply_Cooperative.label>
+	<RR_ScienceInterrogation_Reply_Cooperative.logRulesInitiator.rulesStrings>
+        <li>r_logentry->[RECIPIENT_nameDef](은)는 [INITIATOR_nameDef]에게 [knowledge](을)를 [willingly] [revealed].</li>
+
+        <li>willingly->기꺼이</li>
+        <li>willingly->자진해서</li>
+        <li>willingly->흔쾌히</li>
+        <li>willingly->자유로이</li>
+
+        <li>revealed->공개함</li>
+        <li>revealed->내어놓음</li>
+        <li>revealed->나눔</li>
+        <li>revealed->내어줌</li>
+
+        <li>knowledge->[RECIPIENT_possessive] 지식</li>
+        <li>knowledge->[RECIPIENT_possessive] 경험</li>
+        <li>knowledge->정보</li>
+        <li>knowledge->과학적 자료</li>
+        <li>knowledge->데이터 포인트</li>
+	</RR_ScienceInterrogation_Reply_Cooperative.logRulesInitiator.rulesStrings>
+	
+	<RR_ScienceInterrogation_Reply_Reluctant.label>지식 나누기</RR_ScienceInterrogation_Reply_Reluctant.label>
+	<RR_ScienceInterrogation_Reply_Reluctant.logRulesInitiator.rulesStrings>
+        <li>r_logentry->[RECIPIENT_nameDef](은)는 [INITIATOR_nameDef]에게 [knowledge](을)를 [reluctantly] [revealed].</li>
+
+        <li>reluctantly->주저하며</li>
+        <li>reluctantly->마지못해</li>
+
+        <li>revealed->공개함</li>
+        <li>revealed->내어놓음</li>
+        <li>revealed->나눔</li>
+        <li>revealed->내어줌</li>
+
+        <li>knowledge->[RECIPIENT_possessive] 지식</li>
+        <li>knowledge->[RECIPIENT_possessive] 경험</li>
+        <li>knowledge->정보</li>
+        <li>knowledge->과학적 자료</li>
+        <li>knowledge->데이터 포인트</li>
+	</RR_ScienceInterrogation_Reply_Reluctant.logRulesInitiator.rulesStrings>
+	
+	<RR_ScienceInterrogation_Reply_Resistant.label>지식 나누기</RR_ScienceInterrogation_Reply_Resistant.label>
+	<RR_ScienceInterrogation_Reply_Resistant.logRulesInitiator.rulesStrings>
+        <li>r_logentry->[RECIPIENT_nameDef](은)는 [INITIATOR_nameDef]에게 [anything] [reveal] 거부함.</li>
+        <li>r_logentry->[RECIPIENT_nameDef](은)는 [INITIATOR_nameDef]에게 [false_pair] [knowledge] [revealed].</li>
+
+        <li>reveal->공개하기를</li>
+        <li>reveal->내어놓기를</li>
+        <li>reveal->나누기를</li>
+        <li>reveal->내어주기를</li>
+		
+        <li>revealed->공개함</li>
+        <li>revealed->내어놓음</li>
+        <li>revealed->나눔</li>
+        <li>revealed->내어줌</li>
+		
+        <li>anything->[RECIPIENT_possessive] 지식을</li>
+        <li>anything->아무것도</li>
+        <li>anything->어떤 정보도</li>
+		
+		<li>false_pair->[false]</li>
+		<li>false_pair->[false_adjective] [false]</li>
+		
+			<li>false_adjective->노골적으로</li>
+			<li>false_adjective->분명히</li>
+			<li>false_adjective->완전히</li>
+			
+			<li>false->잘못된</li>
+			<li>false->틀린</li>
+			<li>false->잘못된</li>
+			<li>false->신뢰할 수 없는</li>
+			<li>false->검증할 수 없는</li>
+			<li>false->활용할 수 없는</li>
+		
+        <li>knowledge->정보를</li>
+        <li>knowledge->과학적 자료를</li>
+        <li>knowledge->데이터 포인트</li>
+	</RR_ScienceInterrogation_Reply_Resistant.logRulesInitiator.rulesStrings>
+	
+	<RR_ScienceInterrogationFinalize.label>지식 기록하기</RR_ScienceInterrogationFinalize.label>
+	<RR_ScienceInterrogationFinalize.logRulesInitiator.rulesStrings>
+        <li>r_logentry->[INITIATOR_nameDef](은)는 [subject] [about] [RECIPIENT_nameDef](이)가 [given] [knowledge] [noted].</li>
+
+		<li>noted->메모함</li>
+		<li>noted->써놓음</li>
+		<li>noted->기록함</li>
+		<li>noted->기억함</li>
+		<li>noted->확보함</li>
+
+		<li>given->전해준</li>
+		<li>given->나눠준</li>
+		<li>given->제공해준</li>
+		<li>given->알려준</li>
+		<li>given->넘겨준</li>
+		<li>given->공유한</li>
+		
+		<li>about->관해</li>
+		<li>about->대해서</li>
+		<li>about->관련되어</li>
+
+        <li>subject->과학에</li>
+        <li>subject->과거 실험에</li>
+        <li>subject->프로토타입에</li>
+        <li>subject->연구에</li>
+		
+        <li>knowledge->지식을</li>
+        <li>knowledge->정보를</li>
+        <li>knowledge->과학적 자료를</li>
+        <li>knowledge->데이터 포인트를</li>
+	</RR_ScienceInterrogationFinalize.logRulesInitiator.rulesStrings>
+</LanguageData>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ATR_AlertServerHeatCritical>열에 민감한 장치 위험</ATR_AlertServerHeatCritical>
+  <ATR_AlertServerHeatCriticalDesc>하나 이상의 열에 민감한 장치가 최대 안전 열 임계값을 초과하여 연소 위험이 있습니다! 네트워크 무결성을 유지하려면 조치가 필요합니다!</ATR_AlertServerHeatCriticalDesc>
+  <ATR_AlertFullSkillServers>기술 서버 가득 참</ATR_AlertFullSkillServers>
+  <ATR_AlertFullSkillServersDesc>더 이상 사용할 수 있는 기술 포인트 용량이 없습니다. 포인트를 사용하거나 용량을 확장하는 것을 고려하세요.</ATR_AlertFullSkillServersDesc>
+  <ATR_AlertFullHackingServers>해킹 서버 가득 참</ATR_AlertFullHackingServers>
+  <ATR_AlertFullHackingServersDesc>더 이상 사용할 수 있는 해킹 포인트 용량이 없으며 현재 시간 패널티도 없습니다. 포인트를 사용하거나 용량을 확장하는 것을 고려하세요.</ATR_AlertFullHackingServersDesc>
+  <ATR_AlertLowSecurity>위험에 노출된 네트워크</ATR_AlertLowSecurity>
+  <ATR_AlertLowSecurityDesc>사용 가능한 보안 포인트의 수로는 해킹 시도를 성공적으로 방어할 가능성이 매우 낮습니다! 추가적인 보안 서버와 포인트가 필요하므로 현재로서는 네트워크 사용에 각별한 주의가 필요합니다.</ATR_AlertLowSecurityDesc>
+  <ATR_SkillServersSynthesis>사용 가능한 기술 포인트: {0} / {1}</ATR_SkillServersSynthesis>
+  <ATR_SkillProducedPoints>기술 포인트 생성: {0}</ATR_SkillProducedPoints>
+  <ATR_SkillSlotsAdded>기술 저장소 추가: {0}</ATR_SkillSlotsAdded>
+  <ATR_SecurityServersSynthesis>사용 가능한 보안 포인트: {0} / {1}</ATR_SecurityServersSynthesis>
+  <ATR_SecurityProducedPoints>보안 포인트 생성: {0}</ATR_SecurityProducedPoints>
+  <ATR_SecuritySlotsAdded>보안 저장소 추가: {0}</ATR_SecuritySlotsAdded>
+  <ATR_HackingServersSynthesis>사용 가능한 해킹 포인트: {0} / {1}</ATR_HackingServersSynthesis>
+  <ATR_HackingProducedPoints>해킹 포인트 생성: {0}</ATR_HackingProducedPoints>
+  <ATR_HackingSlotsAdded>해킹 저장소 추가: {0}</ATR_HackingSlotsAdded>
+  <ATR_CompHotSensitiveCriticalText>열 임계값 초과: 손상 임박!</ATR_CompHotSensitiveCriticalText>
+  <ATR_CompHotSensitiveDangerText>열 임계값 도달: 예방 조치 권장!</ATR_CompHotSensitiveDangerText>
+  <ATR_CompHotSensitiveWarningText>이상적인 열 임계값 초과: 주의 권고.</ATR_CompHotSensitiveWarningText>
+  <ATR_CompHotSensitiveSafeText>안전 작동 임계값 이내: 정상 작동.</ATR_CompHotSensitiveSafeText>
+  <ATR_HackedWithTimer>{0}에서 소프트웨어 재컴파일 완료.</ATR_HackedWithTimer>
+  <ATR_CryptoLocked>암호화 잠김, 액세스 거부.</ATR_CryptoLocked>
+  <ATR_SkyMindDetected>스카이마인드에 연결</ATR_SkyMindDetected>
+  <ATR_CloudIntelligenceSummary>스카이마인드 지능: {0} / {1}</ATR_CloudIntelligenceSummary>
+  <ATR_AssistingIntelligenceSummary>유휴 지능: {0}</ATR_AssistingIntelligenceSummary>
+  <ATR_SkyMindOperationInProgress>작업이 완료될 때까지의 시간입니다: {0}</ATR_SkyMindOperationInProgress>
+  <ATR_SkyMindCoreOperationInProgress>{0}에 대한 작업이 완료될 때까지의 시간입니다: {1}</ATR_SkyMindCoreOperationInProgress>
+  <ATR_SurrogateConnected>연결됨: {0} 다른 폰</ATR_SurrogateConnected>
+  <ATR_SkyMindNetworkSummary>연결된 사용자 수: {0} / {1}</ATR_SkyMindNetworkSummary>
+  <ATR_SkyMindDisconnectionRisk>작업이 진행 중일 때 스카이마인드 네트워크 연결을 끊으면 심각한 결과를 초래할 수 있습니다. 부적절한 연결 해제 시 다양한 수준의 메모리 손상이 발생할 수 있습니다.</ATR_SkyMindDisconnectionRisk>
+  <ATR_ResurrectionSuccessful>기계 유닛 {0}(을)를 최소 용량으로 다시 활성화하는 데 성공했습니다. 전체 기능으로 돌아가려면 장치를 재부팅해야 합니다.</ATR_ResurrectionSuccessful>
+  <ATR_ResurrectionFailedInvalidPawn>대상 {0}(은)는 이러한 방식으로 부활할 수 있는 유효한 대상이 아니므로 다시 활성화하지 못했습니다. 표적은 기계이어야 합니다(AT 리포지드 설정).</ATR_ResurrectionFailedInvalidPawn>
+  <ATR_ResurrectionFailedDroneOnly>드론 부활 키트는 드론이나 동물에만 사용할 수 있으며, {0}(은)는 완전 자율 기계 유닛으로 간주됩니다!</ATR_ResurrectionFailedDroneOnly>
+  <ATR_InsufficientPoints>이 작업에는 최소 {0}포인트가 필요합니다.</ATR_InsufficientPoints>
+  <ATR_PawnBeingModified>기술 및 열정:</ATR_PawnBeingModified>
+  <ATR_CurrentXP>다음 레벨에 필요한 경험치:</ATR_CurrentXP>
+  <ATR_TodaysXP>오늘의 경험치:</ATR_TodaysXP>
+  <ATR_AddSkillPoints>{0}에 포인트 삽입</ATR_AddSkillPoints>
+  <ATR_AvailableSkillPoints>사용 가능한 포인트 : {0}</ATR_AvailableSkillPoints>
+  <ATR_AvailableSkillPointsDesc>참고: 통찰력 주입은 개인의 학습 능력과 일일 이해력 한도에 따라 달라질 수 있습니다. 열정 주입은 개인의 학습 능력과 기존의 열정에 따라 달라질 수 있습니다. 과도한 자극은 비효율적입니다.</ATR_AvailableSkillPointsDesc>
+  <ATR_HackInterfaceTitle>사이버전 지시를 기다리는 중입니다.</ATR_HackInterfaceTitle>
+  <ATR_ConfirmHack>대상 작업을 승인하시겠습니까?</ATR_ConfirmHack>
+  <ATR_ConfirmhackDesc>모든 해킹에는 내재된 위험이 있습니다. 해킹에 실패하면 외교적 피해, 자동 대응 조치 발동 또는 어떤 형태의 보복이 발생할 수 있습니다.</ATR_ConfirmhackDesc>
+  <ATR_HackOpCost>비용: {0}</ATR_HackOpCost>
+  <ATR_SuccessChance>예상 성공 확률: {0}%</ATR_SuccessChance>
+  <ATR_AvailableHackingPoints>사용 가능한 포인트: {0}. 시간 페널티: {1}.</ATR_AvailableHackingPoints>
+  <ATR_AvailableHackingPointsDesc>참고: 해킹을 시작하는 데 드는 비용은 기본 작업 비용에 마지막 해킹 이후의 시간을 곱한 값입니다(빈번한 사용에 대한 페널티).\n더 많은 포인트를 투입할수록 성공 확률이 높아집니다.</ATR_AvailableHackingPointsDesc>
+  <ATR_GuidanceHack>진영 안내 시스템 강제 리디렉션</ATR_GuidanceHack>
+  <ATR_GuidanceHackDesc>진영 안내 시스템을 해킹하여 이 맵으로 무언가를 보내려고 시도합니다. 어떤 내용이 전송될지는 보장할 수 없습니다. 보급품, 무역선, 포로 또는 적 주둔지 이동일 수 있습니다.</ATR_GuidanceHackDesc>
+  <ATR_PropagandaHack>타겟팅된 긍정적인 선전 캠페인 배포하기</ATR_PropagandaHack>
+  <ATR_PropagandaHackDesc>정착지에 유리하도록 목표 세력의 주요 구성원에게 영향력을 행사하기 위해 특별히 표적화된 전용 캠페인을 시도합니다. 정치적 영향력의 불투명한 특성으로 인해 정확한 결과는 알 수 없습니다.</ATR_PropagandaHackDesc>
+  <ATR_EspionageHack>첩보 활동을 시작하여 퀘스트 획득하기</ATR_EspionageHack>
+  <ATR_EspionageHackDesc>획득한 정보 통찰력을 사용해 진영의 배경 정보에서 유망한 퀘스트를 식별하려고 시도합니다. 특정 진영이나 그룹이 아닌 어떤 형태의 은신처에 대한 통찰력을 얻을 수 있습니다.</ATR_EspionageHackDesc>
+  <ATR_DisruptorHack>지역 적 유닛에 대한 맵 전체 DDOS 공격 개시</ATR_DisruptorHack>
+  <ATR_DisruptorHackDesc>이 맵에 존재하는 특정 진영의 스카이마인드 지원 폰에 대해 국지적인 DDOS 공격을 시도합니다.</ATR_DisruptorHackDesc>
+  <ATR_InitializeMindTitle>기계 유닛 초기화 필요</ATR_InitializeMindTitle>
+  <ATR_InitializeMindDesc>새로 연결된 코어 인터페이스는 지능을 포함할 준비가 되었지만 아직 초기화되지 않았습니다. 지능은 스카이마인드에 연결된 폰에서 전송할 수 있으며, 가능한 경우 자체적으로 인격을 형성하도록 허용될 수도 있습니다.</ATR_InitializeMindDesc>
+  <ATR_SkyMindInitialization>스카이마인드에서 초기화</ATR_SkyMindInitialization>
+  <ATR_AutomaticInitialization>자동 초기화</ATR_AutomaticInitialization>
+  <ATR_ViableSources>사용 가능한 출처:</ATR_ViableSources>
+  <ATR_ViableTargets>사용 가능한 타겟:</ATR_ViableTargets>
+  <ATR_NoAvailableTarget>작업할 수 있는 대상이 없습니다.</ATR_NoAvailableTarget>
+  <ATR_NoSurrogateMechanitors>메카나이터는 대리인이 될 수 없습니다.</ATR_NoSurrogateMechanitors>
+  <ATR_AutoDoorOpen>열기</ATR_AutoDoorOpen>
+  <ATR_AutoDoorOpenDescription>스카이마인드 연결을 통해 원격으로 엽니다.</ATR_AutoDoorOpenDescription>
+  <ATR_AutoDoorClose>닫기</ATR_AutoDoorClose>
+  <ATR_AutoDoorCloseDescription>스카이마인드 연결을 통해 원격으로 닫습니다.</ATR_AutoDoorCloseDescription>
+  <ATR_OpenRemoteComms>통신 열기</ATR_OpenRemoteComms>
+  <ATR_OpenRemoteCommsDesc>스카이마인드 연결을 통해 원격으로 통신을 시작합니다.</ATR_OpenRemoteCommsDesc>
+  <ATR_ServerNetworkConnectionNeeded>서버가 스카이마인드 네트워크에 연결되지 않았습니다.</ATR_ServerNetworkConnectionNeeded>
+  <ATR_SkillMode>기술 모드</ATR_SkillMode>
+  <ATR_SkillModeDesc>이 서버는 기술 포인트 생성에 할당됩니다. 보안으로 전환하려면 클릭합니다.</ATR_SkillModeDesc>
+  <ATR_SecurityMode>보안 모드</ATR_SecurityMode>
+  <ATR_SecurityModeDesc>이 서버는 보안 포인트 생성에 할당됩니다. 클릭하여 해킹으로 전환합니다.</ATR_SecurityModeDesc>
+  <ATR_HackingMode>해킹 모드</ATR_HackingMode>
+  <ATR_HackingModeDesc>이 서버는 해킹 포인트 생성에 할당됩니다. 기술로 전환하려면 클릭합니다.</ATR_HackingModeDesc>
+  <ATR_HackingWindow>해킹 시도</ATR_HackingWindow>
+  <ATR_HackingWindowDesc>해킹 인터페이스를 열어 해킹 포인트를 악의적인 활동에 사용할 수 있도록 허용합니다.</ATR_HackingWindowDesc>
+  <ATR_SwitchToSkillMode>비활성화됨!</ATR_SwitchToSkillMode>
+  <ATR_SwitchToSkillModeDesc>이 서버는 불법 상태입니다. 기술로 전환하려면 클릭하세요.</ATR_SwitchToSkillModeDesc>
+  <ATR_ConnectSkyMind>스카이마인드에 연결</ATR_ConnectSkyMind>
+  <ATR_ConnectSkyMindDesc>이 장치를 스카이마인드 네트워크에 연결하여 원격으로 상호 작용할 수 있습니다.</ATR_ConnectSkyMindDesc>
+  <ATR_CloudPawnInfo>정보</ATR_CloudPawnInfo>
+  <ATR_CloudPawnInfoDesc>스카이마인드 인텔리전스에 대한 정보를 알아보세요.</ATR_CloudPawnInfoDesc>
+  <ATR_RemoveCloudPawn>제거</ATR_RemoveCloudPawn>
+  <ATR_RemoveCloudPawnDesc>스카이마인드 인텔리전스 제거</ATR_RemoveCloudPawnDesc>
+  <ATR_RemoveCloudPawnConfirm>스카이마인드 네트워크에서 {0}(을)를 플러시하면 지능이 영구적으로 파괴됩니다. 이는 살인으로 간주됩니다.</ATR_RemoveCloudPawnConfirm>
+  <ATR_ReplicateCloudPawn>복제</ATR_ReplicateCloudPawn>
+  <ATR_ReplicateCloudPawnDesc>스카이마인드 인텔리전스을 복제합니다.</ATR_ReplicateCloudPawnDesc>
+  <ATR_Skills>기술</ATR_Skills>
+  <ATR_SkillsDesc>기술 워크샵을 열어 서버 기술 포인트를 경험치와 열정으로 교환할 수 있습니다.</ATR_SkillsDesc>
+  <ATR_ControlSurrogate>연결</ATR_ControlSurrogate>
+  <ATR_ControlSurrogateDesc>선택한 호스트 없는 대리인을 제어합니다..</ATR_ControlSurrogateDesc>
+  <ATR_DisconnectCloudPawn>연결 해제</ATR_DisconnectCloudPawn>
+  <ATR_DisconnectCloudPawnDesc>스카이마인드 의식을 대리인으로부터 분리합니다.</ATR_DisconnectCloudPawnDesc>
+  <ATR_ControlCaravanSurrogate>복구</ATR_ControlCaravanSurrogate>
+  <ATR_ControlCaravanSurrogateDesc>상단에 있는 호스트 없는 대리인을 복구합니다.</ATR_ControlCaravanSurrogateDesc>
+  <ATR_Surrogate>대리인</ATR_Surrogate>
+  <ATR_AbsorbExperience>정신 흡수</ATR_AbsorbExperience>
+  <ATR_AbsorbExperienceDesc>폰의 지능 경험을 흡수하여 기술 및 해킹 포인트를 획득합니다.</ATR_AbsorbExperienceDesc>
+  <ATR_AbsorbExperienceConfirm>이 작업은 폰의 생명을 희생하는 대신 기술과 해킹에 유용한 통찰력을 추출합니다. 이는 살인으로 간주됩니다.</ATR_AbsorbExperienceConfirm>
+  <ATR_DownloadCloudPawn>다운로드</ATR_DownloadCloudPawn>
+  <ATR_DownloadCloudPawnDesc>이 폰에 스카이마인드 정보를 다운로드합니다.</ATR_DownloadCloudPawnDesc>
+  <ATR_DownloadCloudPawnConfirm>이 작업은 스카이마인드 정보를 이 폰으로 완전히 전송합니다. 이 정보는 네트워크에 남아있지 않습니다.</ATR_DownloadCloudPawnConfirm>
+  <ATR_DisconnectSurrogate>연결 해제</ATR_DisconnectSurrogate>
+  <ATR_DisconnectSurrogateDesc>모든 대리인 링크를 연결 해제합니다.</ATR_DisconnectSurrogateDesc>
+  <ATR_ToggleControlMode>제어 전환</ATR_ToggleControlMode>
+  <ATR_ToggleControlModeDesc>대리인 제어 모드를 전환하여 대리인 제어는 가능하지만 스카이마인드 작동은 비활성화합니다.</ATR_ToggleControlModeDesc>
+  <ATR_Permute>치환</ATR_Permute>
+  <ATR_PermuteDesc>현재 선택된 정착민의 의식을 다른 정착민에게 주입합니다.</ATR_PermuteDesc>
+  <ATR_PermuteConfirm>이 작업을 수행하면 {0}(와)과 {1}의 지능이 바뀝니다.</ATR_PermuteConfirm>
+  <ATR_Transfer>전송</ATR_Transfer>
+  <ATR_TransferDesc>현재 선택된 정착민의 의식을 유기체 대리인에게 전송합니다.</ATR_TransferDesc>
+  <ATR_TransferConfirm>이 작업은 {0}(을)를 대상 대리자의 몸으로 옮깁니다. 이렇게 하면 {0}의 원래 몸에는 의식이 남지 않습니다. 작업이 완료되면 스카이마인드 수신기가 소진됩니다.</ATR_TransferConfirm>
+  <ATR_Upload>업로드</ATR_Upload>
+  <ATR_UploadDesc>이 정보를 스카이마인드 네트워크에 업로드합니다. 남겨진 신체는 설정을 통해 제어됩니다(기본값은 신체가 뇌사 상태가 됨).</ATR_UploadDesc>
+  <ATR_UploadConfirm>이 작업은 신체는 남겨두고 이 정보를 스카이마인드 네트워크로 전송합니다.</ATR_UploadConfirm>
+  <ATR_DetonateIEDRemotely>IED 작동</ATR_DetonateIEDRemotely>
+  <ATR_DetonateIEDRemotelyDesc>스카이마인드 연결을 통해 원격으로 즉시 IED를 작동합니다</ATR_DetonateIEDRemotelyDesc>
+  <ATR_ServerMeltdown>서버 멜트다운</ATR_ServerMeltdown>
+  <ATR_ServerMeltdownDesc>서버가 과도한 열로 인해 부분적으로 폭발했습니다!</ATR_ServerMeltdownDesc>
+  <ATR_IncidentGenericAttackDesc>{0} 강도로 평가된 적대적인 해킹 시도가 정착지의 스카이마인드 보안 시스템에 성공적으로 침투하여 안전 장치가 작동하기 전에 네트워크에 연결된 장치 {1}개를 감염시켰습니다.</ATR_IncidentGenericAttackDesc>
+  <ATR_IncidentGenericDefense>해킹 시도 실패</ATR_IncidentGenericDefense>
+  <ATR_IncidentGenericDefenseDesc>{0} 강도로 평가된 적대적인 해킹 시도가 정착지의 스카이마인드 보안 시스템을 뚫는 데 실패했습니다. 시스템 기능은 정상이며 보안 서버가 침입에 대비해 방어하고 있습니다.</ATR_IncidentGenericDefenseDesc>
+  <ATR_IncidentGenericAllyIntercept>해킹이 차단되었습니다!</ATR_IncidentGenericAllyIntercept>
+  <ATR_IncidentGenericAllyInterceptDesc>동맹국 {0}의 화이트햇 해커가 스카이마인드 네트워크에서 적대적인 개인이 해킹을 시도했다고 연락했습니다. 이들은 보안을 침해할 수 있었던 공격(강도 {1}점으로 평가됨)을 막을 수 있었을 뿐만 아니라 쉽게 패치할 수 있는 몇 가지 보안 취약점을 찾아내어 보안 시스템이 {2}점을 얻었습니다!</ATR_IncidentGenericAllyInterceptDesc>
+  <ATR_IncidentGridVirusDefeated>그리드 바이러스 격퇴</ATR_IncidentGridVirusDefeated>
+  <ATR_IncidentGridsleeperAttack>그리드 슬리퍼</ATR_IncidentGridsleeperAttack>
+  <ATR_IncidentGridsleeperAttackDesc>영향을 받은 장치가 충돌했으며 기본 기능을 복원하는 데 시간이 필요합니다.</ATR_IncidentGridsleeperAttackDesc>
+  <ATR_IncidentGridlockerAttack>그리드 락커</ATR_IncidentGridlockerAttack>
+  <ATR_IncidentGridlockerAttackDesc>영향을 받은 기기의 기능이 해커에 의해 암호화되었습니다! 이제 기능을 복원하는 것은 해커의 몫이며, 이를 위해서는 거래를 해야 합니다.</ATR_IncidentGridlockerAttackDesc>
+  <ATR_CryptolockerNeedRansom>그리드 락커 몸값</ATR_CryptolockerNeedRansom>
+  <ATR_CryptolockerNeedRansomDesc>그리드 잠금 장치가 반복적으로 메시지를 뱉어냅니다. 해커는 암호 해독 코드를 전송하고 {1}은을 받는 대가로 해킹한 {0} 기기의 제어권을 포기합니다.</ATR_CryptolockerNeedRansomDesc>
+  <ATR_IncidentGridbreakerAttack>그리드 브레이커</ATR_IncidentGridbreakerAttack>
+  <ATR_IncidentGridbreakerAttackDesc>영향을 받은 장치는 안전하지 않은 소프트웨어 절차로 인해 하드웨어가 오작동했습니다. 수리 후 기본 기능을 복원하는 데 시간이 다소 걸립니다.</ATR_IncidentGridbreakerAttackDesc>
+  <ATR_IncidentGridVirusAllyIntercept>그리드 바이러스 차단!</ATR_IncidentGridVirusAllyIntercept>
+  <ATR_IncidentDDOSDefeated>그리드 바이러스 격퇴</ATR_IncidentDDOSDefeated>
+  <ATR_IncidentDDOSAttack>DDOS</ATR_IncidentDDOSAttack>
+  <ATR_IncidentDDOSNormalAttackDesc>영향을 받은 기기에 정크 데이터와 쓰레기 정보가 넘쳐나고 있습니다. 이로 인해 기술 및 해킹 인사이트 생성이 손상됩니다. 그러나 이 공격은 개별 유닛을 효과적으로 손상시키지는 못했습니다.</ATR_IncidentDDOSNormalAttackDesc>
+  <ATR_IncidentDDOSOverwhelmingAttackDesc>영향을 받은 장치에 정크 데이터와 쓰레기 정보가 넘쳐납니다. 이로 인해 기술 및 해킹 인사이트 생성에 손상을 입습니다. 이 공격은 유닛이 인사이트의 대부분을 다시 컴파일해야 할 정도로 충분한 쓰레기 정보를 업로드하는 데 성공했습니다.</ATR_IncidentDDOSOverwhelmingAttackDesc>
+  <ATR_IncidentDDOSAllyIntercept>DDOS 차단!</ATR_IncidentDDOSAllyIntercept>
+  <ATR_IncidentTrollDefeated>트롤 공격 격퇴</ATR_IncidentTrollDefeated>
+  <ATR_IncidentTrollAttack>트롤</ATR_IncidentTrollAttack>
+  <ATR_IncidentTrollAttackDesc>영향을 받은 폰 {0}(이)가 열정 있고 고레벨 기술들에서 총 {1} 기술 포인트를 잃었습니다! {0}(은)는 해커가 자신의 정신에 업로드한 끔찍한 내용과 보안 시스템이 자신을 보호하지 못한 것에 대해 매우 화가 났습니다.</ATR_IncidentTrollAttackDesc>
+  <ATR_IncidentTrollAllyIntercept>트롤 공격 차단!</ATR_IncidentTrollAllyIntercept>
+  <ATR_IncidentDiplohackDefeated>디플로핵 격퇴</ATR_IncidentDiplohackDefeated>
+  <ATR_IncidentDiplohackAttack>디플로핵</ATR_IncidentDiplohackAttack>
+  <ATR_IncidentDiplohackAttackDesc>알 수 없는 해커가 {0}(와)과의 주요 통신 회선을 해독하여 당신을 출처로 한 믿을 수 있는 메시지를 전달했습니다. 메시지에는 잘못된 정보가 포함되어 있어 {0}의 상단을 매복으로 유도했습니다. 그들은 당신의 "부주의와 취약한 보안"에 대한 불만을 강력한 표현으로, 그리고 아마도 실제적인 외교적 대응으로 분명히 드러냈습니다. 그들은 이 사건을 다른 진영에도 알리겠다고 약속했습니다.</ATR_IncidentDiplohackAttackDesc>
+  <ATR_IncidentDiplohackAllyIntercept>디플로핵 차단!</ATR_IncidentDiplohackAllyIntercept>
+  <ATR_IncidentProvokerhackDefeated>도발자 핵 격퇴</ATR_IncidentProvokerhackDefeated>
+  <ATR_IncidentProvokerhackAttack>도발자 핵</ATR_IncidentProvokerhackAttack>
+  <ATR_IncidentProvokerhackAttackDesc>정체불명의 해커가 스카이마인드 보안을 뚫고 간단한 신호 발신 프로그램을 설치하는 데 성공했습니다. 이 신호는 비활성화되기 전까지는 적대 세력의 주의를 끕니다!</ATR_IncidentProvokerhackAttackDesc>
+  <ATR_IncidentProvokerhackAllyIntercept>도발자 핵 차단!</ATR_IncidentProvokerhackAllyIntercept>
+  <ATR_IncidentCounterhackDefeated>카운터 핵 격퇴</ATR_IncidentCounterhackDefeated>
+  <ATR_IncidentCounterhackAttack>카운터 핵</ATR_IncidentCounterhackAttack>
+  <ATR_IncidentCounterhackAttackDesc>정체불명의 해커가 스카이마인드 네트워크에 침입하여 최대한 많은 정보를 탈취했으며, 다른 타겟에서 수집한 정보와 기술 통찰력을 탈취했습니다. 접속을 잃기 전까지 총 {0} 포인트를 훔친 것으로 추정됩니다.</ATR_IncidentCounterhackAttackDesc>
+  <ATR_IncidentCounterhackAllyIntercept>카운터 핵 차단!</ATR_IncidentCounterhackAllyIntercept>
+  <ATR_RelationshipRetaliation>관계 손상</ATR_RelationshipRetaliation>
+  <ATR_RelationshipRetaliationDesc>작전 시도가 표적의 방어 조치에 의해 차단되어 실패했습니다. 파벌은 귀하가 작전을 시도한 것으로 의심하지만 귀하를 범죄와 연결 짓는 확실한 증거가 부족합니다. 실제 관계에 영향을 미친 {0}(은)는 정보를 가로챈 개인이 모든 사람이 듣는 앞에서 귀하를 고발하기로 결정했기 때문에 발생한 것으로 보입니다. 불행한 외교적 사건입니다.</ATR_RelationshipRetaliationDesc>
+  <ATR_FirstBlankAndroidCreated>정보: 빈 안드로이드</ATR_FirstBlankAndroidCreated>
+  <ATR_FirstBlankAndroidCreatedDesc>드론과 달리 안드로이드는 의식 없이 "공백"으로 제작됩니다. 이를 활성화하려면 자율 코어를 설치해야 합니다. 자율 코어는 설치 시 자체 초기화(또는 스카이마인드 네트워크를 사용하는 경우 스카이마인드 네트워크를 통해 마인드를 전송할 수 있음)할 수 있는 완전한 지능을 저장합니다. 수술은 간단하며 수리용 자극기만 필요합니다.</ATR_FirstBlankAndroidCreatedDesc>
+  <ATR_FirstDroneCreated>정보: 드론</ATR_FirstDroneCreated>
+  <ATR_FirstDroneCreatedDesc>드론은 인간과 같은 지능을 가지고 있지만, 적절한 의식이 없기 때문에 감정이나 관련 욕구가 없습니다. 다른 사람들은 드론을 단순한 기계로 간주하며 파괴나 분해에 신경 쓰지 않습니다. 드론은 사회적으로 교류하거나 상호작용할 수 없으므로 다른 사람과 거래, 관리, 길들이기 또는 기타 상호작용을 할 수 없습니다.</ATR_FirstDroneCreatedDesc>
+  <ATR_PersonalityShiftFreewilled>성격 변경 요청</ATR_PersonalityShiftFreewilled>
+  <ATR_PersonalityShiftFreewilledDesc>{0_nameDef}(이)가 새로운 방식으로 세상을 보기 위해 성격을 약간 변경하고 싶어합니다. 수락하면 {0_possessive} 세 가지 기술과 한 가지 특성에 대한 열정을 여러분의 의견에 따라 새로운 특성으로 바꿀 수 있습니다. {0_nameDef}(은)는 이러한 변화에 기뻐할 것이며, 변화를 막는다면 다소 실망할 것입니다.</ATR_PersonalityShiftFreewilledDesc>
+  <ATR_PersonalityShiftNewboot>성격 미결정</ATR_PersonalityShiftNewboot>
+  <ATR_PersonalityShiftRequest>{0_nameDef}의 성격 변화</ATR_PersonalityShiftRequest>
+  <ATR_PersonalityShift>{0_nameFull}(은)는 자신의 성격을 약간 바꾸고 싶어합니다.</ATR_PersonalityShift>
+  <ATR_PersonalityShiftChooseHowPawnWillChange>이 편지를 열어 {0_nameDef}(이)가 어떻게 변할지 선택하세요.</ATR_PersonalityShiftChooseHowPawnWillChange>
+  <ATR_SkyMindConnectionFailed>스카이마인드 연결을 설정할 수 없습니다. 네트워크 용량 및 가용성을 확인하세요.</ATR_SkyMindConnectionFailed>
+  <ATR_SkyMindConnectionFailedNoNetwork>스카이마인드 연결을 설정할 수 없습니다. 사용 가능한 네트워크가 없습니다.</ATR_SkyMindConnectionFailedNoNetwork>
+  <ATR_GridlockerCleared>그리드 락커가 성공적으로 암호 해독되어 비활성화되었습니다.</ATR_GridlockerCleared>
+  <ATR_RemoveCloudPawnSuccess>{0}의 신경망이 제거되었습니다.</ATR_RemoveCloudPawnSuccess>
+  <ATR_ReplicateCloudPawnFailed>복제를 시작할 수 없습니다. 할당할 수 있는 스카이마인드 공간이 부족합니다.</ATR_ReplicateCloudPawnFailed>
+  <ATR_HackOperationFailed>작업이 대상 진영의 보안 시스템을 뚫지 못했습니다. 보복은 없을 것으로 예상됩니다.</ATR_HackOperationFailed>
+  <ATR_DisruptorHackSuccess>교란에 성공했습니다. 적 유닛이 손상되었습니다.</ATR_DisruptorHackSuccess>
+  <ATR_NoArrival>진영이 유도 시스템을 재설정하기 전에 혼동된 좌표로 아무것도 전송되지 않았습니다. 이번엔 운이 좋았어.</ATR_NoArrival>
+  <ATR_NewbootAndroidCreated>안드로이드가 생성되었습니다. 수술을 통해 인터페이스를 설치하여 유닛을 온라인 상태로 전환하십시오.</ATR_NewbootAndroidCreated>
+  <ATR_InterfaceRemoved>안드로이드의 인터페이스가 제거되었습니다. 모든 성격 및 제어 데이터가 파괴되었습니다. 새 인터페이스를 설치하여 온라인 상태로 전환하세요.</ATR_InterfaceRemoved>
+  <ATR_CannotConnect>연결을 설정할 수 없으므로 적절한 네트워크 용량과 대상 생존 가능성을 확인하십시오.</ATR_CannotConnect>
+  <ATR_SurrogateControlled>{0}(이)가 새 대리인에 연결되었습니다.</ATR_SurrogateControlled>
+  <ATR_OperationInitiated>{0}의 요청에 의해 스카이마인드 네트워크 링크가 설정되었습니다. 절차가 완료될 때까지 네트워크 연결을 비활성화하지 마십시오.</ATR_OperationInitiated>
+  <ATR_OperationCompleted>스카이마인드 작업 완료</ATR_OperationCompleted>
+  <ATR_OperationCompletedDesc>스카이마인드 네트워크가 {0}의 요청에 따라 작업을 성공적으로 수행했습니다.</ATR_OperationCompletedDesc>
+  <ATR_OperationFailure>스카이마인드 작업이 실패했습니다!</ATR_OperationFailure>
+  <ATR_OperationFailureDesc>{0}(이)가 마인드 작업 중 스카이마인드 링크의 붕괴로 인해 치명적인 메모리 손상이 발생했습니다. 작업이 실패하여 메모리에 심각한 손상이 발생했습니다.</ATR_OperationFailureDesc>
+  <ATR_BlankPawnFirstName>404</ATR_BlankPawnFirstName>
+  <ATR_BlankPawnNickname>공백</ATR_BlankPawnNickname>
+  <ATR_BlankPawnLastName>오류</ATR_BlankPawnLastName>
+  <ATR_FlickEnable>스카이마인드를 통해 전원 켜기</ATR_FlickEnable>
+  <ATR_FlickDisable>스카이마인드를 통해 전원 끄기</ATR_FlickDisable>
+  <ATR_AutoDoorOpenMoteText>스카이마인드를 통해 열기</ATR_AutoDoorOpenMoteText>
+  <ATR_AutoDoorCloseMoteText>스카이마인드를 통해 닫기</ATR_AutoDoorCloseMoteText>
+  <ATRCore_ModTitle>- Android Tiers Reforged Core -</ATRCore_ModTitle>
+  <ATR_SettingsTabOption_Folded>&lt;</ATR_SettingsTabOption_Folded>
+  <ATR_SettingsTabOption_General>일반</ATR_SettingsTabOption_General>
+  <ATR_SettingsTabOption_Security>보안</ATR_SettingsTabOption_Security>
+  <ATR_SettingsTabOption_Connectivity>연결성</ATR_SettingsTabOption_Connectivity>
+  <ATR_AndroidGenderNotice>변경 사항은 새 안드로이드에만 적용됩니다.</ATR_AndroidGenderNotice>
+  <ATR_AndroidsHaveGenders>안드로이드에는 성별이 있습니다.</ATR_AndroidsHaveGenders>
+  <ATR_AndroidsPickGenders>안드로이드는 생성 시 성별을 선택합니다.</ATR_AndroidsPickGenders>
+  <ATR_AndroidsFixedGenderSelector>모든 안드로이드는 남성(거짓) 또는 여성(참)입니다.</ATR_AndroidsFixedGenderSelector>
+  <ATR_AndroidsGenderRatio>안드로이드가 남성 성별을 선택할 확률과 여성 성별을 선택할 확률</ATR_AndroidsGenderRatio>
+  <ATR_AndroidFactionsNeverFlee>안드로이드 진영은 전투에서 절대 도망치지 않습니다</ATR_AndroidFactionsNeverFlee>
+  <ATR_factionsWillDeclareRightsWars>진영은 권리 분쟁에 대해 전쟁을 선포합니다.</ATR_factionsWillDeclareRightsWars>
+  <ATR_factionsWillDeclareRightsWarsDesc>기계/유기체 정착지가 있는 경우 반기계 또는 반유기체 진영이 전쟁을 선포합니다.</ATR_factionsWillDeclareRightsWarsDesc>
+  <ATR_SettingsAntiMechanicalFaction>기계 권리가 없는 진영</ATR_SettingsAntiMechanicalFaction>
+  <ATR_SettingsTolerateMechanicalFaction>기계를 용인하는 진영</ATR_SettingsTolerateMechanicalFaction>
+  <ATR_SettingsAntiOrganicFaction>유기체 권리가 없는 진영</ATR_SettingsAntiOrganicFaction>
+  <ATR_SettingsTolerateOrganicFaction>유기체를 용인하는 진영</ATR_SettingsTolerateOrganicFaction>
+  <ATR_dronesTriggerRightsWars>드론을 놓고 전쟁을 선포한 반기계 진영</ATR_dronesTriggerRightsWars>
+  <ATR_prisonersTriggerRightsWars>포로를 놓고 전쟁을 선포한 진영</ATR_prisonersTriggerRightsWars>
+  <ATR_slavesTriggerRightsWars>노예를 놓고 전쟁을 선포한 진영</ATR_slavesTriggerRightsWars>
+  <ATR_surrogatesTriggerRightsWars>대리인을 놓고 전쟁을 선포한 진영</ATR_surrogatesTriggerRightsWars>
+  <ATR_EnemyHacksOccur>적대적 해킹이 활성화됩니다.</ATR_EnemyHacksOccur>
+  <ATR_ChanceAlliesInterceptHack>동맹 진영당 자신에 대한 해킹을 차단할 확률</ATR_ChanceAlliesInterceptHack>
+  <ATR_ChanceAlliesInterceptHackDesc>동맹 진영이 적의 해킹을 막아 피해를 방지하고 실제로 보안 포인트를 획득할 확률입니다. 이는 동맹 당입니다.</ATR_ChanceAlliesInterceptHackDesc>
+  <ATR_PointsGainedOnInterceptPercentage>동맹이 공격을 가로챌 때 획득하는 점수는 공격의 백분율로 계산됩니다.</ATR_PointsGainedOnInterceptPercentage>
+  <ATR_PointsGainedOnInterceptPercentageDesc>동맹이 나를 향한 공격을 가로채면 보안 포인트를 획득합니다. 이 점수에 따라 동맹이 획득하는 레이드 점수의 비율이 결정됩니다.</ATR_PointsGainedOnInterceptPercentageDesc>
+  <ATR_EnemyHackAttackStrengthModifier>적 해킹 강도 배율</ATR_EnemyHackAttackStrengthModifier>
+  <ATR_EnemyHackAttackStrengthModifierDesc>적의 해킹 공격이 얼마나 많은 해킹 포인트를 획득할 수 있는지에 대한 배율입니다. 100% 미만이면 강도가 감소하고, 100% 이상이면 강도가 증가합니다.</ATR_EnemyHackAttackStrengthModifierDesc>
+  <ATR_PercentageOfValueUsedForRansoms>몸값 공격에서 요구되는 아이템 가치의 백분율</ATR_PercentageOfValueUsedForRansoms>
+  <ATR_PlayerCanHack>플레이어 해킹이 활성화됩니다.</ATR_PlayerCanHack>
+  <ATR_receiveFullHackingAlert>해킹 포인트가 용량의 90%를 초과하면 경고가 표시됩니다.</ATR_receiveFullHackingAlert>
+  <ATR_RetaliationChanceOnFailure>해킹 실패 시 대상 진영이 보복할 확률</ATR_RetaliationChanceOnFailure>
+  <ATR_MinHackSuccessChance>해킹 성공 확률 최소값</ATR_MinHackSuccessChance>
+  <ATR_MaxHackSuccessChance>해킹 성공 확률 최대값</ATR_MaxHackSuccessChance>
+  <ATR_surrogatesAllowed>대리인이 허용됩니다.</ATR_surrogatesAllowed>
+  <ATR_otherFactionsAllowedSurrogates>다른 진영이 대리인을 사용할 수 있습니다.</ATR_otherFactionsAllowedSurrogates>
+  <ATR_minGroupSizeForSurrogates>대리인을 생성할 수 있는 진영 그룹의 구성원 수</ATR_minGroupSizeForSurrogates>
+  <ATR_minSurrogatePercentagePerLegalGroup>합법 그룹 내 대리인의 최소 비율 [기본값 0%]</ATR_minSurrogatePercentagePerLegalGroup>
+  <ATR_maxSurrogatePercentagePerLegalGroup>합법 그룹 내 대리인의 최대 비율 [기본값 70%]</ATR_maxSurrogatePercentagePerLegalGroup>
+  <ATR_displaySurrogateControlIcon>제어하는 대리인 위에 플로팅 아이콘 표시.</ATR_displaySurrogateControlIcon>
+  <ATR_safeSurrogateConnectivityCountBeforePenalty>페널티가 적용되기 전 제어자 당 대리인 수:</ATR_safeSurrogateConnectivityCountBeforePenalty>
+  <ATR_receiveFullSkillAlert>기술 포인트가 용량의 90%를 초과할 경우 경고합니다.</ATR_receiveFullSkillAlert>
+  <ATR_skillPointInsertionRate>삽입당 사용되는 기술 포인트 양 [기본값: 100]</ATR_skillPointInsertionRate>
+  <ATR_skillPointConversionRate>기술 포인트당 생성되는 기본 경험치 양 [기본값: 0.5]</ATR_skillPointConversionRate>
+  <ATR_passionSoftCap>열정당 비용이 증가하기 전의 열정 소프트캡 [기본값: 8]</ATR_passionSoftCap>
+  <ATR_basePointsNeededForPassion>열정당 필요한 기본 기술 점수 [기본값: 5000]</ATR_basePointsNeededForPassion>
+  <ATR_UploadingKills>스카이마인드에 업로드하면 시작자의 신체가 공백으로 바뀝니다.</ATR_UploadingKills>
+  <ATR_UploadingPermakills>스카이마인드에 업로드하면 시작자의 신체는 완전히 쓸모없고 죽은 상태로 남습니다.</ATR_UploadingPermakills>
+  <ATR_SkyMindOperationTimeRequired>스카이마인드 작업을 완료하는 데 필요한 시간 [기본값: 24]</ATR_SkyMindOperationTimeRequired>
+</LanguageData>

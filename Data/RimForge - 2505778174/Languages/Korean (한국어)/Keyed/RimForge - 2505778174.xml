@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RF.ModName>RimForge</RF.ModName>
+  <RF.None>없음</RF.None>
+  <RF.Cancel>취소</RF.Cancel>
+  <RF.PowerPoleName>전봇대</RF.PowerPoleName>
+  <RF.WallConnectorName>벽면 커넥터</RF.WallConnectorName>
+  <RF.Pylon.InvalidState>잘못된 상태</RF.Pylon.InvalidState>
+  <RF.Pylon.NoChannel>정지, 선택된 채널 없음.</RF.Pylon.NoChannel>
+  <RF.Pylon.NoNetwork>정지, 전력망에 연결되지 않음.</RF.Pylon.NoNetwork>
+  <RF.Pylon.NoFlick>정지, 꺼짐.</RF.Pylon.NoFlick>
+  <RF.Pylon.ForceDisabled>정지됨. 동일한 전력망 및 채널에 발신자가 있기 때문에 '{0}'에서 전력을 공급받을 수 없습니다.</RF.Pylon.ForceDisabled>
+  <RF.Pylon.ReceivingFull>'{1}'에서 {0} 수신 중</RF.Pylon.ReceivingFull>
+  <RF.Pylon.ReceivingPart>'{1}'에서 {0} 수신 중</RF.Pylon.ReceivingPart>
+  <RF.Pylon.ReceivingNone>'{1}'에서 {0} 수신 중, 전력이 충분하지 않습니다!</RF.Pylon.ReceivingNone>
+  <RF.Pylon.SendingFull>{0}을 '{1}'로 송신 중</RF.Pylon.SendingFull>
+  <RF.Pylon.SendingNone>{0}을 '{1}'로 송신 중, 전력이 충분하지 않습니다!</RF.Pylon.SendingNone>
+  <RF.Pylon.ConfigureTitle>{0} 설정</RF.Pylon.ConfigureTitle>
+  <RF.Pylon.Sending>수신 중</RF.Pylon.Sending>
+  <RF.Pylon.Requesting>요청</RF.Pylon.Requesting>
+  <RF.Pylon.On>채널의 와트</RF.Pylon.On>
+  <RF.Pylon.ChannelInfoHeader>채널 '{0}':</RF.Pylon.ChannelInfoHeader>
+  <RF.Pylon.ChannelInfoInput>{0} 활성 송신자, 총 {1}W 입력</RF.Pylon.ChannelInfoInput>
+  <RF.Pylon.ChannelInfoOutput>{0} 활성 수신기, 총 {1}W 요청</RF.Pylon.ChannelInfoOutput>
+  <RF.Pylon.ChannelInfoBalance>초과: {0}</RF.Pylon.ChannelInfoBalance>
+  <RF.Pylon.ChannelInfoUnsatisfied>불충분한 입력으로 인해 {0} 수신기가 요청한 전력을 제대로 얻지 못하고 있습니다.</RF.Pylon.ChannelInfoUnsatisfied>
+  <RF.Pylon.CreateNewChannel>새 채널 만들기...</RF.Pylon.CreateNewChannel>
+  <RF.Pylon.EmptyChannel>없음(연결 해제)</RF.Pylon.EmptyChannel>
+  <RF.Pylon.NewChannelName>새 채널 이름:</RF.Pylon.NewChannelName>
+  <RF.Pylon.NewChannelCreate>만들기!</RF.Pylon.NewChannelCreate>
+  <RF.Pylon.ConfigureLabel>{0} Config</RF.Pylon.ConfigureLabel>
+  <RF.Pylon.ConfigureDesc>연결할 채널 및 송수신 전력량과 같은 {0}의 Config를 변경합니다.</RF.Pylon.ConfigureDesc>
+  <RF.Pylon.DisabledMultipleSelected>한 번에 여러 {0}를 Config 할 수 없습니다. 하나를 Config 한 다음 복사-붙여넣기 버튼을 사용합니다.</RF.Pylon.DisabledMultipleSelected>
+  <RF.Pylon.DisabledCopyMultipleSelected>{0}에 있는 Config를 한 번에 복사할 수 없음.</RF.Pylon.DisabledCopyMultipleSelected>
+  <RF.Pylon.DisabledCopyInvalid>잘못된 Config, 복사할 수 없음.</RF.Pylon.DisabledCopyInvalid>
+  <RF.Pylon.CopyLabel>Config 복사</RF.Pylon.CopyLabel>
+  <RF.Pylon.CopyDesc>{0}의 무선 설정 복사.</RF.Pylon.CopyDesc>
+  <RF.Pylon.PasteLabel>Config 붙여넣기</RF.Pylon.PasteLabel>
+  <RF.Pylon.PasteDesc>무선 Config 붙여넣기.</RF.Pylon.PasteDesc>
+  <RF.Pylon.PasteSuccess>{0} {1}에 config가 적용되었습니다!</RF.Pylon.PasteSuccess>
+  <RF.Pylon.PasteError>{1} {2} 중 {0}에 config 적용, {3} 실패...</RF.Pylon.PasteError>
+  <RF.Pylon.PasteDisabled>config를 붙여넣을 수 없습니다. 클립보드가 비어 있습니다!</RF.Pylon.PasteDisabled>
+  <RF.Pylon.CopySuccess>복사된 무선 설정: [{0}]</RF.Pylon.CopySuccess>
+  <RF.Pylon.Send>송신</RF.Pylon.Send>
+  <RF.Pylon.Request>요청</RF.Pylon.Request>
+  <RF.Pylon.From>from</RF.Pylon.From>
+  <RF.Pylon.To>to</RF.Pylon.To>
+  <RF.Coil.Ready>발사 준비 완료.</RF.Coil.Ready>
+  <RF.Coil.NoPower>전력 없으면 발사가 불가능합니다!!</RF.Coil.NoPower>
+  <RF.Coil.Blocked>{0}에 의해 차단된 연결이 실행되지 않습니다!</RF.Coil.Blocked>
+  <RF.Coil.NotLinked>연결되지 않으면 발사가 불가능합니다!\n참고: 이 코일은 '수동' 코일일 수 있습니다.</RF.Coil.NotLinked>
+  <RF.Coil.OnCooldown>쿨다운 중 {0}시간 남음.</RF.Coil.OnCooldown>
+  <RF.Coil.LinkLabel>다른 코일에 연결</RF.Coil.LinkLabel>
+  <RF.Coil.LinkDesc>이 테슬라 코일을 다른 코일에 연결합니다.\n이 코일은 '활성' 코일이 되고 다른 코일은 '수동' 코일이 됩니다. 자세한 내용은 코일 설명 읽기.</RF.Coil.LinkDesc>
+  <RF.Coil.LinkSuccess>성공적으로 연결됨!</RF.Coil.LinkSuccess>
+  <RF.Coil.UnLinkSuccess>연결되지 않은 코일.</RF.Coil.UnLinkSuccess>
+  <RF.Coil.UnlinkLabel>이 테슬라 코일 연결 해제.</RF.Coil.UnlinkLabel>
+  <RF.Coil.AlreadyLinked>대상 코일은 이미 이 코일에 연결되어 있습니다(이 코일은 '수동'입니다).</RF.Coil.AlreadyLinked>
+  <RF.Coil.TooFar>대상 코일이 너무 멀리 떨어져 있습니다.</RF.Coil.TooFar>
+  <RF.Coil.NotInLine>대상 코일은 다음과 같아야 합니다.</RF.Coil.NotInLine>
+  <RF.Stats.MadeUsing>사용하여 제작됨</RF.Stats.MadeUsing>
+  <RF.Stats.MadeUsingDesc>이 합금은 다음과 같은 재료를 사용하여 대장간에서 생성되는 합금입니다:</RF.Stats.MadeUsingDesc>
+  <RF.Stats.MeltingPoint>녹는점</RF.Stats.MeltingPoint>
+  <RF.Stats.MeltingPointDesc>대장간에서 합금을 만들려고 할 때 관련된 이 재료의 녹는점.</RF.Stats.MeltingPointDesc>
+  <RF.Stats.UsedToMake>만드는데 사용</RF.Stats.UsedToMake>
+  <RF.Stats.UsedToMakeDesc>이 자원은 대장간에서 다음 합금을 만드는 데 필요합니다:</RF.Stats.UsedToMakeDesc>
+  <RF.Stats.EquivalentTo>에 해당</RF.Stats.EquivalentTo>
+  <RF.Stats.EquivalentToText>{0} 항목</RF.Stats.EquivalentToText>
+  <RF.Stats.EquivalentToDesc>동등한 재료는 대장간 레시피에서 상호 교환이 가능합니다.
+이것은 다른 모드가 RimForge에 의해 추가된 자체 버전의 리소스를 추가하는 경우 더 큰 모드 호환성을 허용하기 위해 수행됩니다.</RF.Stats.EquivalentToDesc>
+  <RF.Coilgun.AttackLabel>목표물에 발사...</RF.Coilgun.AttackLabel>
+  <RF.Coilgun.AttackDesc>대상을 선택 후 발사하십시오.
+경고: 발사가 일단 시작되면 취소할 수 없습니다!</RF.Coilgun.AttackDesc>
+  <RF.Coilgun.DisabledNoCaps>발사 불가: 콘덴서가 부족하거나 콘덴서에 저장된 전력이 충분하지 않음.</RF.Coilgun.DisabledNoCaps>
+  <RF.Coilgun.DisabledNoPower>발사 불가: 전원이 공급되지 않음.</RF.Coilgun.DisabledNoPower>
+  <RF.Coilgun.DisabledNoShell>발사 불가: 포탄이 장전되지 않음.</RF.Coilgun.DisabledNoShell>
+  <RF.Coilgun.CapState>콘덴서 전력: {1}개의 콘덴서에서 {0}%. (발사하려면 {2}% 필요)</RF.Coilgun.CapState>
+  <RF.Coilgun.ChangeShellLabel>포탄 유형 변경</RF.Coilgun.ChangeShellLabel>
+  <RF.Coilgun.ChangeShellDesc>이 코일건에 장전되는 포탄 유형 변경.
+이 동작은 현재의 포탄을 내보내고, 폰이 새로운 포탄을 적재해야 한다.</RF.Coilgun.ChangeShellDesc>
+  <RF.Coilgun.DamageReport>{0}이 {1}개의 물체를 공격하여 총 {2}의 피해를 입혔습니다.</RF.Coilgun.DamageReport>
+  <RF.Coilgun.DamageReportStopped>{0}이 {1} 물체에 총 {2}의 피해를 입히고 {3}에 부딪혀 분해됩습니다.</RF.Coilgun.DamageReportStopped>
+  <RF.Cap.Stored>저장 전력: {0}%</RF.Cap.Stored>
+  <RF.LR.FailNoPowerNet>피뢰침이 번개를 맞았지만 전력망에 연결되어 있지 않습니다!</RF.LR.FailNoPowerNet>
+  <RF.LR.FailNoBatteries>피뢰침이 번개를 맞았지만 전력망에 배터리가 없습니다! 이 큰 전력이 땅에 전달되었습니다.</RF.LR.FailNoBatteries>
+  <RF.LR.Success>피뢰침이 번개를 맞아 {0}Wd의 전력을 배터리에 충전했습니다!!</RF.LR.Success>
+  <RF.Ritual.DrawGuideShowLabel>의식 청사진 표시</RF.Ritual.DrawGuideShowLabel>
+  <RF.Ritual.DrawGuideHideLabel>의식 청사진 숨기기</RF.Ritual.DrawGuideHideLabel>
+  <RF.Ritual.DrawGuideShowDesc>의식 구조 청사진 가이드를 활성화합니다.\n이렇게 하면 의식 구성 요소를 어디에 두어야 하는지 도움이 됩니다.</RF.Ritual.DrawGuideShowDesc>
+  <RF.Ritual.DrawGuideHideDesc>의식 구조 청사진 가이드 비활성화.</RF.Ritual.DrawGuideHideDesc>
+  <RF.Ritual.Missing>누락된 {0} x{1}</RF.Ritual.Missing>
+  <RF.Ritual.CannotStart_OnCooldown>{0}시간 동안 의식을 시작할 수 없습니다.</RF.Ritual.CannotStart_OnCooldown>
+  <RF.Ritual.CannotStart_NotNight>의식은 밤 9시에서 새벽 3시 사이에 행해져야 합니다.</RF.Ritual.CannotStart_NotNight>
+  <RF.Ritual.CannotStart_NoColonist>자격이 있는 폰은 의식 코어 근처에 서 있어야 합니다..</RF.Ritual.CannotStart_NoColonist>
+  <RF.Ritual.CannotStart_AlreadyActive>의식이 이미 시작되었습니다.</RF.Ritual.CannotStart_AlreadyActive>
+  <RF.Ritual.StartLabel>의식 시작</RF.Ritual.StartLabel>
+  <RF.Ritual.StartDesc>질의 축복 의식을 시작해 보세요.
+충족되지 않는 조건이 있을 경우 해당 조건이 나열됩니다.</RF.Ritual.StartDesc>
+  <RF.Ritual.Cancelled_PawnMissing>대상 식민지 주민이 실종되어 의식이 취소되었습니다.</RF.Ritual.Cancelled_PawnMissing>
+  <RF.Ritual.Cancelled_SacrificeMissing>제물이 된 사람들이 이른 시간에 죽거나 실종되었습니다. 의식이 취소되었습니다.</RF.Ritual.Cancelled_SacrificeMissing>
+  <RF.Ritual.Success>의식이 완료되었습니다. {0}은 질의 축복을 받았습니다!</RF.Ritual.Success>
+  <RF.Ritual.StartMessage>제물이 될 죄수를 선택하십시오.</RF.Ritual.StartMessage>
+  <RF.Ritual.QuickGuide>가이드:\n폰을 선택하여 축복을 받고 이 의식 코어 옆에 배치하세요.
+의식 시작 버튼을 누르고 제물로 바칠 죄수를 선택합니다.
+충족되지 않은 조건이 있으면 나열됩니다. 충족되었다면 의식을 시작됩니다.</RF.Ritual.QuickGuide>
+  <RF.Ritual.InProgress>의식이 진행 중입니다.</RF.Ritual.InProgress>
+  <RF.Ritual.BuildColumnLabel>구리 기둥 건설하기</RF.Ritual.BuildColumnLabel>
+  <RF.Ritual.BuildColumnDesc>의식에 필요한 8개의 구리 기둥을 배치해야 합니다.</RF.Ritual.BuildColumnDesc>
+  <RF.Ritual.FailWarning>경고:
+기계신의 관대함은 가볍게 여겨서는 안됩니다.
+의식은 {0} 이전에 이미 완료되었습니다.
+의식을 다시 시도하면 질의 분노를 불러일으킬 수 있습니다.
+{1}%의 실패 확률이 있습니다.</RF.Ritual.FailWarning>
+  <RF.Ritual.IUnderstand>의식 진행</RF.Ritual.IUnderstand>
+  <RF.Ritual.1>첫 번째</RF.Ritual.1>
+  <RF.Ritual.2>두 번째</RF.Ritual.2>
+  <RF.Ritual.3>세 번째</RF.Ritual.3>
+  <RF.Ritual.4>네 번째</RF.Ritual.4>
+  <RF.Ritual.5>다섯 번째</RF.Ritual.5>
+  <RF.Ritual.6>수차례</RF.Ritual.6>
+  <RF.Ritual.FailureMessageMinor>의식이 잘못되었습니다! 당신은 질의 진노를 불러일으켰고 그 결과 {0}이 불구가 되었습니다!</RF.Ritual.FailureMessageMinor>
+  <RF.Ritual.FailureMessageMajor>의식이 잘못되었습니다! 당신은 질의 분노를 불러일으켰고 {0}의 목숨은 기계신이 거두었습니다!</RF.Ritual.FailureMessageMajor>
+  <RF.LDP.LinkLabel>연결...</RF.LDP.LinkLabel>
+  <RF.LDP.UnLinkLabel>연결 제거...</RF.LDP.UnLinkLabel>
+  <RF.LDP.UnLinkAllLabel>모든 연결 제거</RF.LDP.UnLinkAllLabel>
+  <RF.LDP.AutoLinkLabel>자동 연결</RF.LDP.AutoLinkLabel>
+  <RF.LDP.AutoLinkDesc>선택한 모든 {0}를 자동으로 연결합니다.\참고: 이렇게 하면 기존 연결이 모두 제거됩니다..</RF.LDP.AutoLinkDesc>
+  <RF.LDP.AutoLinkDisabled>함께 연결하려면 여러개의 {0}를 선택해야 합니다.</RF.LDP.AutoLinkDisabled>
+  <RF.LDP.RemovedLinkRoofBuilt>{0} 위에 지붕이 지어져서 연결이 끊어졌습니다.</RF.LDP.RemovedLinkRoofBuilt>
+  <RF.LDP.RemovedLinkRoofBuiltSelf>{0} 위에 지붕이 지어져서 모든 연결이 끊어졌습니다.</RF.LDP.RemovedLinkRoofBuiltSelf>
+  <RF.Forge.BillNotHot>대장간이 온도 ({0})에 도달하지 못함</RF.Forge.BillNotHot>
+  <RF.Forge.Providing>까지 제공</RF.Forge.Providing>
+  <RF.Forge.HeatingElementsHeader>연결된 가열 장치:</RF.Forge.HeatingElementsHeader>
+  <RF.Forge.Temperature>가능한 온도: {0}</RF.Forge.Temperature>
+  <RF.Forge.MissingElement>합금 제조를 하려면 인접한(왼쪽 또는 오른쪽)에 가열 장치를 1개 이상 만들어야 합니다.</RF.Forge.MissingElement>
+  <RF.HeatingElement.CurrentPowerLevel>현재 전력 레벨: {0}</RF.HeatingElement.CurrentPowerLevel>
+  <RF.HeatingElement.Build>{0} 빌드</RF.HeatingElement.Build>
+  <RF.Blessing.IncreasedMessage>질의 축복: 품질이 {0}으로 향상되었습니다.</RF.Blessing.IncreasedMessage>
+  <RF.WallConnector.MustPlaceWithFreeSpace>케이블이 연결될 수 있는 빈 공간이 있어야 합니다.</RF.WallConnector.MustPlaceWithFreeSpace>
+  <RF.Disco.DJArrived>DJ가 도착했습니다. 파티를 시작합시다!</RF.Disco.DJArrived>
+  <RF.Disco.AtTheDisco>디스코</RF.Disco.AtTheDisco>
+  <RF.Thoughts.CarryingBlessed>축복받은 무기 소지: {0}</RF.Thoughts.CarryingBlessed>
+  <RF.Thoughts.CarryingCursed>저주받은 무기 소지: {0}</RF.Thoughts.CarryingCursed>
+  <RF.Raiders.WarningTitle>타락한 레이더</RF.Raiders.WarningTitle>
+  <RF.Raiders.WarningContent>{0}의 구성원들은 당신의개척자들이 질의 축복 의식을 수행한다는 것을 들었고, 그것이 가장 높은 형태의 이단이라고 믿습니다.
+{1}명의 침략자들은 너무 집착하고 화가 나서 정신을 잃었고 어떤 대가를 치르더라도 당신의 식민지 주민들을 학살하는 데 혈안이 되어 있습니다!
+
+{2}는 '지르의 타락'을 가지고 있으며 더 빠르게 움직이고 더 세게 공격하며 독특하고 강력한 무기를 가지고 있습니다. 또한 사망 시 순수한 증오의 파동을 일으켜 근처의 모든 사람들을 일시적으로 마비시키고 큰 정신적 디버프를 유발합니다.
+이상적으로는 원거리에서 이러한 공격자를 먼저 제거하는 데 집중해야 합니다.
+
+이 타락한 약탈자들은:
+{3}</RF.Raiders.WarningContent>
+  <RF.Greenhouse.RoomMissing>온실이 없습니다!</RF.Greenhouse.RoomMissing>
+  <RF.Greenhouse.RoomOutdoors>온실이 밀폐된 방이 아닙니다!</RF.Greenhouse.RoomOutdoors>
+  <RF.Greenhouse.RoomNotSealed>온실에 지붕이 없습니다.</RF.Greenhouse.RoomNotSealed>
+  <RF.Greenhouse.RoomTooBig>온실 방이 너무 큽니다. 최대 크기는 {0}, 현재 크기는 {1}입니다.</RF.Greenhouse.RoomTooBig>
+  <RF.Greenhouse.Rotate>가스 출력측 변경</RF.Greenhouse.Rotate>
+  <RF.Greenhouse.RotateDesc>이 컨트롤러가 가스를 입력하고 출력하는 쪽을 조정합니다(파란색 원).
+컨트롤러를 벽에 설치하고 올바른 방을 목표로 설정할 수 있습니다.</RF.Greenhouse.RotateDesc>
+  <RF.DL.ChangeShellLabel>폭탄 유형 변경</RF.DL.ChangeShellLabel>
+  <RF.DL.ChangeShellDesc>드론에 장전되는 폭탄의 종류를 변경합니다. 모든 박격포 포탄은 폭탄으로 장전할 수 있습니다(Combat Extended에서는 81mm).
+이미 장전된 폭탄은 안전하게 내보냅니다.</RF.DL.ChangeShellDesc>
+  <RF.DL.TargetLabel>공격 시작</RF.DL.TargetLabel>
+  <RF.DL.TargetDesc>이 지도에서 드론 공격 위치를 선택하십시오.</RF.DL.TargetDesc>
+  <RF.DL.AlreadyTargeting>이미 대상을 지정하고 있습니다.</RF.DL.AlreadyTargeting>
+  <RF.DL.Blocked>실행할 수 없습니다. {0}에 의해 차단되었습니다!</RF.DL.Blocked>
+  <RF.DL.NoShells>실행할 수 없습니다. 최소 1개의 포탄이 장전되어 있어야 합니다.</RF.DL.NoShells>
+  <RF.DL.NotEnoughDistance>폭격 시작 위치와 종료 위치 사이의 거리가 충분하지 않습니다!
+한 번 클릭하여 시작 위치를 선택한 다음 마우스를 움직여 종료 위치를 클릭합니다.
+이 두 위치 사이에 {0} 이상의 공간이 있어야 합니다.</RF.DL.NotEnoughDistance>
+  <RF.LoadLabel>RimForge is crunching numbers...</RF.LoadLabel>
+  <RF.AC.AlreadyGoodStanding>당신의 주민들은 이미 기계신 질과 좋은 관계를 유지하고 있습니다.</RF.AC.AlreadyGoodStanding>
+  <RF.AC.IncreasedStanding>당신의 제물을 기계신이 잘받아갔습니다. 의식 실패 확률이 {0}로 감소했습니다.</RF.AC.IncreasedStanding>
+  <RFS.Header>옵션 위로 마우스를 가져가면 설명이 표시됩니다. 옵션을 마우스 오른쪽 버튼으로 클릭하면 기본값으로 재설정할 수 있습니다.</RFS.Header>
+  <RFS.Default>기본: {0}</RFS.Default>
+  <RFS.Yes>Yes</RFS.Yes>
+  <RFS.No>No</RFS.No>
+  <RFS.ShowAdvanced>고급 설정 표시</RFS.ShowAdvanced>
+  <RFS.ShowAdvancedDesc>고급 설정을 표시하거나 숨깁니다. 수행중인 작업을 알고 있는 경우에만 고급 설정을 조정하는 것이 좋습니다!</RFS.ShowAdvancedDesc>
+  <RFS.CatGeneral>일반적</RFS.CatGeneral>
+  <RFS.UseCustomTab>RimForge 탭을 추가합니다:RimForge 탭을 활성화하거나 비활성화합니다. 탭이 이미 로드되어 있는 경우 이 기능을 사용하지 않도록 설정합니다.\n게임을 다시 시작해야 합니다.</RFS.UseCustomTab>
+  <RFS.GenerateCopper>구리 광석 생성: 천연 구리 광석 생성을 활성화 또는 비활성화합니다. 적용하려면 새 지도가 필요합니다.</RFS.GenerateCopper>
+  <RFS.GenerateTin>주석 광석 생성: 천연 주석 광석 생성을 활성화 또는 비활성화합니다. 적용하려면 새 지도가 필요합니다..</RFS.GenerateTin>
+  <RFS.BlessingCat>질의 축복(특성)</RFS.BlessingCat>
+  <RFS.BlessingIncreaseChance>품질 상승 확률: 폰이 만들거나 제작한 아이템의 품질이 상승할 확률을 백분율로 나타냅니다. 품질은 이 설정과 관계없이 항상 보통 이상이됩니다.</RFS.BlessingIncreaseChance>
+  <RFS.BlessingCreateMasterwork>걸작 생성 허용: 향상된 품질 설정을 통해 걸작 아이템 생성을 활성화 또는 비활성화합니다..</RFS.BlessingCreateMasterwork>
+  <RFS.BlessingCreateLegendary>전설 생성 허용:걸작 생성 허용을 활성화 해야합니다.\향상된 품질 메커니즘을 통해 전설 아이템 생성을 활성화 또는 비활성화합니다..</RFS.BlessingCreateLegendary>
+  <RFS.CatCables>전봇대</RFS.CatCables>
+  <RFS.CableSegmentsPerCell>전원 케이블 해상도: 전신주 케이블의 해상도를 변경합니다. 증가하면 케이블이 부드러워지지만 성능이 저하될 수 있습니다.</RFS.CableSegmentsPerCell>
+  <RFS.CableMaxDistance>전원 케이블 범위: 전원 기둥 사이에 허용되는 최대 거리를 변경합니다. 이것은 개인적인 취향이며 성능에 영향을 미치지 않습니다..</RFS.CableMaxDistance>
+  <RFS.CatCoilgun>코일건</RFS.CatCoilgun>
+  <RFS.CoilgunBaseDamageMultiplier>기본 피해 배수: 모든 포탄 유형의 기본 피해에 대한 배수.</RFS.CoilgunBaseDamageMultiplier>
+  <RFS.CoilgunSplatterBlood>고어적인 표현: 폰이 코일건에 맞았을 때 고어적인 표현과 핏자국을 표시합니다.</RFS.CoilgunSplatterBlood>
+  <RFS.CoilgunDisplayDamageReport>피해 보고서 표시: 모든 코일건 발사 후 적중 횟수와 총 피해를 나타내는 메시지를 표시합니다..</RFS.CoilgunDisplayDamageReport>
+  <RFS.CoilgunPenDamageMultiplier>관통 손상 배수:포탄이 단단한 벽을 관통한 후 피해가 감소니다. 값이 낮을수록 관통 후 피해가 적어집니다.</RFS.CoilgunPenDamageMultiplier>
+  <RFS.CoilgunBuildingDamageMulti>건물 피해 배수: 건물(벽 포함)에 가해지는 피해량에 대한 배수입니다. 고폭탄에 영향을 주지 않음.</RFS.CoilgunBuildingDamageMulti>
+  <RFS.CoilgunBasePowerReq>발사당 충전 배수: 발사당 필요한 충전량에 대한 배수. 낮은 값은 더 적은 전력이 필요함을 의미합니다.</RFS.CoilgunBasePowerReq>
+  <RFS.CatTesla>테슬라 코일</RFS.CatTesla>
+  <RFS.TeslaMaxDistance>최대 범위: 테슬라 코일 사이에 허용되는 최대 거리. 값이 높을수록 성능에 영향을 미칠 수 있습니다.</RFS.TeslaMaxDistance>
+  <RFS.TeslaCooldown>쿨다운: 발사 후 테슬라 코일의 쿨다운으로 틱 단위로 측정됩니다. 1초는 60틱 입니다.</RFS.TeslaCooldown>
+  <RFS.TeslaStunDuration>기절 지속 시간: 테슬라 코일 기절 효과의 지속 시간으로 틱 단위로 측정됩니다. 1초는 60틱 입니다.</RFS.TeslaStunDuration>
+  <RFS.TeslaDamage>피해량: 테슬라 코일의 피해량.</RFS.TeslaDamage>
+  <RFS.TeslaTickInterval>틱 간격: 테슬라 코일이 X 틱마다 작동되도록 변경합니다. 값이 높을수록 게임 성능은 향상되지만, 빠르게 움직이는 습격자가 코일에 감지되지 않고 빠져나갈 수 있습니다.</RFS.TeslaTickInterval>
+  <RFS.TeslaMechanoidDamageMulti>메카노이드 피해 배율: 메카노이드 타격 시 테슬라 코일 피해에 이 값이 곱해집니다.</RFS.TeslaMechanoidDamageMulti>
+  <RFS.CatRitual>축복 의식</RFS.CatRitual>
+  <RFS.RitualFailCoefficient>실패 확률 배수: 의식 실패 확률을 조정합니다. 첫 번째 의식은 항상 성공적인 축복 의식입니다.</RFS.RitualFailCoefficient>
+  <RFS.RitualMustBeAtNight>야간 전용: 야간에 수행해야 하는 의식 요구 사항을 전환합니다.</RFS.RitualMustBeAtNight>
+  <RFS.RitualFailMajorChance>중대한 실패 확률: 의식 실패의 경우 실패로 인해 폰을 불구로 만들지 않고 죽일 확률입니다.</RFS.RitualFailMajorChance>
+  <RFS.CatGreenhouse>온실</RFS.CatGreenhouse>
+  <RFS.GreenhouseGrowthAccelerationFactor>성장 가속력:성장 가속 효과의 위력을 조정합니다. 높은 값은 매우 OP입니다.</RFS.GreenhouseGrowthAccelerationFactor>
+  <RFS.MaxGreenhouseSize>최대 크기(셀): 온실이 될 수 있는 최대 크기를 변경합니다. 값이 높을수록 성능이 상당히 저하될 수 있습니다.</RFS.MaxGreenhouseSize>
+  <RFS.GreenWattsPerCell>셀당 전력 요구 사항: 온실에서 셀당 필요한 와트입니다. 개인 취향, 성능에 영향 없음.</RFS.GreenWattsPerCell>
+  <RFS.CatRaids>습격과 저주받은 레이드</RFS.CatRaids>
+  <RFS.CursedRaidersNumberScale>저주받은 레이드 배수: 저주받은 침격자의 수에 대한 일반적인 배수입니다.\n저주받은 레이드를 비활성화하려면 0%로 설정합니다.</RFS.CursedRaidersNumberScale>
+  <RFS.CursedRaidersNumberMultiplierMin>축복받은 식민지 주민당 저주받은 침입자(최소): 축복받은 식민지 주민당 저주받은 침입자의 상대적 수(최소).</RFS.CursedRaidersNumberMultiplierMin>
+  <RFS.CursedRaidersNumberMultiplierMax>축복받은 식민지 주민당 저주받은 침입자(최대): 축복받은 식민지 주민당 저주받은 침입자의 상대적 수(최대).</RFS.CursedRaidersNumberMultiplierMax>
+  <RFS.SendRaiderLetter>저주받은 침입자 경고 편지 보내기: 저주받은 침입자 경고 편지를 토글합니다.</RFS.SendRaiderLetter>
+  <RFS.HateWaveRadius>증오의 물결 반경: 저주받은 침입자가 사망 시 방출하는 증오의 파동의 반경을 셀에서 조정합니다.\n증오의 파동 메커니즘을 비활성화하려면 0으로 설정합니다.</RFS.HateWaveRadius>
+  <RFS.HateWaveStunDuration>증오의 물결 기절 지속 시간: 증오의 물결 기절 효과 지속 시간을 틱 단위로 설정합니다. 1초 60틱 입니다.\n기절을 비활성화하려면 0으로 설정하세요.</RFS.HateWaveStunDuration>
+  <RF.Comps.DeflectLabel>발사체 반사</RF.Comps.DeflectLabel>
+  <RF.Comps.DeflectDesc>발사체를 반사하는 이 무기의 기능을 활성화합니다.
+발사체를 튕겨내면 사용자의 움직임이 약간 느려지므로 총알을 맞지 않는 것보다 빠르게 움직이는 것이 더 중요하다면 이 기능을 끄는 것이 좋습니다.
+이 무기의 총알 반사율은 {0}%입니다.</RF.Comps.DeflectDesc>
+</LanguageData>

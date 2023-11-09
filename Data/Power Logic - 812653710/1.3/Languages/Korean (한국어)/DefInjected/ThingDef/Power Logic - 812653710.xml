@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SupesPressureSensor.label>압력 센서 발판</SupesPressureSensor.label>
+  <SupesPressureSensor.description>누군가 밟으면 전원이 들어오고, 아무도 없으면 전원이 꺼지는 발판입니다.</SupesPressureSensor.description>
+  <SupesStackSensor.label>저장 센서 발판</SupesStackSensor.label>
+  <SupesStackSensor.description>이 스위치는 지정된 저장량을 넘으면 전원이 켜집니다.</SupesStackSensor.description>
+  <SupesProxSensor.label>근접 센서</SupesProxSensor.label>
+  <SupesProxSensor.description>누군가가 범위 내에 있으면 켜지고, 아무도 없으면 꺼지는 센서입니다. 범위가 제한적이지만, 전력을 소모하지 않습니다.</SupesProxSensor.description>
+  <SupesRemoteProxSensor.label>원격 근접 센서</SupesRemoteProxSensor.label>
+  <SupesRemoteProxSensor.description>발동되면 인접한 수신 스위치 또는 중계기에 신호를 보냅니다. 센서 범위를 확장할 수 있지만 전력 사용량이 증가합니다.</SupesRemoteProxSensor.description>
+  <SupesStayOnGate.label>연결 스위치</SupesStayOnGate.label>
+  <SupesStayOnGate.description>두 전력원이나 전선에 연결되면 전원을 켭니다.</SupesStayOnGate.description>
+  <SupesCurrentSensor.label>전류 센서 스위치</SupesCurrentSensor.label>
+  <SupesCurrentSensor.description>양의 전력량 또는 음의 전력량이 감지되면 켜집니다.</SupesCurrentSensor.description>
+  <SupesCutoffSwitch.label>축전기 센서 스위치</SupesCutoffSwitch.label>
+  <SupesCutoffSwitch.description>저장된 전력이 낮으면 스위치가 꺼집니다.</SupesCutoffSwitch.description>
+  <SupesLightSensor.label>빛 감지 스위치</SupesLightSensor.label>
+  <SupesLightSensor.description>지정한 밝기 값 이상이면 자동으로 켜집니다</SupesLightSensor.description>
+  <SupesHeatSensor.label>열 감지 스위치</SupesHeatSensor.label>
+  <SupesHeatSensor.description>이 스위치는 특정 온도 이상 또는 이하에서 작동합니다.</SupesHeatSensor.description>
+  <SupesRemoteSwitch.label>원격 제어 스위치</SupesRemoteSwitch.label>
+  <SupesRemoteSwitch.description>동일한 채널에서 발신되는 무선 신호를 감지하면 전원을 켭니다.</SupesRemoteSwitch.description>
+  <SupesSignalRepeater.label>신호 중계기</SupesSignalRepeater.label>
+  <SupesSignalRepeater.description>무선 신호를 수신하고 재발신하여 신호의 송신 가능 거리를 효과적으로 확장합니다.</SupesSignalRepeater.description>
+  <SupesSignalTransmitter.label>신호 송신기</SupesSignalTransmitter.label>
+  <SupesSignalTransmitter.description>전원이 공급되면 무선 신호를 전송합니다.</SupesSignalTransmitter.description>
+  <SupesRemoteDoor.label>문 원격 제어기</SupesRemoteDoor.label>
+  <SupesRemoteDoor.description>방을 나눕니다. 무선 신호를 감지한 후 매크로 세트를 실행할 수 있습니다. 전기로 작동하여 문 통과시 이동속도 감소가 적거나 없습니다.</SupesRemoteDoor.description>
+  <SupesRemoteFlicker.label>원격 점멸기</SupesRemoteFlicker.label>
+  <SupesRemoteFlicker.description>이 장치는 신호를 수신하면 인접한 장치를 깜박이게 합니다.</SupesRemoteFlicker.description>
+  <SupesRadar.label>레이더</SupesRadar.label>
+  <SupesRadar.description>Radio Detection And Ranging, 줄여서 Radar는 반사된 전파를 감지하여 보내어 물체가 먼 거리에 있는 위치를 특정할 수 있습니다.</SupesRadar.description>
+  <SupesEntangledSwitch.label>얽힘 스위치</SupesEntangledSwitch.label>
+  <SupesEntangledSwitch.description>이 스위치는 양자 얽힘을 사용하여 다른 스위치에 연결합니다. 얽힘 스위치는 연결된 다른 스위치가 얼마나 멀리 떨어져 있더라도 항상 그 스위치의 반대 상태가 됩니다. 얽힘 과정은 되돌릴 수 없으며 한 번 연결되면 변경할 수 없습니다.</SupesEntangledSwitch.description>
+  <SupesZoneSwitch.label>구역 스위치</SupesZoneSwitch.label>
+  <SupesZoneSwitch.description>이 스위치는 영역 내의 항목 수를 계산합니다. 비축품의 경우 허용 품목으로 개수가 제한됩니다.</SupesZoneSwitch.description>
+  <SupesLaserEmitter.label>레이저 방출기</SupesLaserEmitter.label>
+  <SupesLaserEmitter.description>레이저 방출기는 레이저를 방출합니다. 이것은 레이저 스위치와 쌍을 이루어 레이저 트립와이어를 생성할 수 있습니다. 빔은 레이저 거울과 분배기를 사용하여 궤적을 곡선으로 구부릴 수 있습니다. 더 많은 전력을 사용하면 레이저 길이가 연장되며, 이는 빔의 에너지가 충분히 높으면 레이저에 폰이 접촉할 때  위험해질 수 있습니다. 경고, 레이저 방출기는 많은 열을 발산합니다. 극심한 열로 인한 문제나 폭발 사고를 피하기 위해 환풍기 또는 냉각기를 사용하는 것이 좋습니다. 방출기의 빔은 적대적인 폰과 우호적인 폰을 구별하지 않습니다. 레이저 기반 함정을 만드는 경우 이를 고려하십시오.</SupesLaserEmitter.description>
+  <SupesMoteLaser.label>광선</SupesMoteLaser.label>
+  <SupesLaserMirror.label>레이저 거울</SupesLaserMirror.label>
+  <SupesLaserMirror.description>이 거울은 90도 각도로 레이저 빔을 반사할 수 있습니다.</SupesLaserMirror.description>
+  <SupesLaserSplitter.label>레이저 분배기</SupesLaserSplitter.label>
+  <SupesLaserSplitter.description>이 레이저 분할기는 어떤 각도에서든 빔에 부딪히면 빔을 두 개의 수직 빔으로 분할합니다.</SupesLaserSplitter.description>
+  <SupesLaserMerger.label>레이저 병합기</SupesLaserMerger.label>
+  <SupesLaserMerger.description>이 레이저 병합기는 하나 이상의 광선에 부딪히면 프리즘을 통한 굴절을 사용하여 모든 광선을 같은 방향으로 향하게 합니다.</SupesLaserMerger.description>
+  <SupesLaserWindow.label>레이저 투명창</SupesLaserWindow.label>
+  <SupesLaserWindow.description>이 벽은 방해받지 않고 레이저 빔을 통과시킬 수 있습니다.</SupesLaserWindow.description>
+  <SupesLaserPower.label>레이저 동력 패널</SupesLaserPower.label>
+  <SupesLaserPower.description>레이저가 패널 중 하나에 향하면 빔의 에너지가 물 저장고에 흡수되고 물은 빠르게 증기로 바뀌고 그 증기는 중앙 터빈을 움직여 전력을 생성합니다.</SupesLaserPower.description>
+  <SupesLaserSwitch.label>레이저 스위치</SupesLaserSwitch.label>
+  <SupesLaserSwitch.description>이 스위치는 레이저 빔을 맞으면 켜집니다.</SupesLaserSwitch.description>
+  <SupesBaseGate.label>논리 게이트</SupesBaseGate.label>
+  <SupesBaseGate.description>>이것은 두 개의 전원이 인접한 입력 소켓에 연결될 때 게이트를 통해 전원이 공급됩니다. 이 스위치가 전원을 차단한다는 점을 제외하면 머무름 스위치와 유사합니다.</SupesBaseGate.description>
+  <SupesInputSocket.label>입력 소켓</SupesInputSocket.label>
+  <SupesInputSocket.description>논리 게이트와 전원 도관 사이에 이것을 연결하여 입력을 지정하십시오.</SupesInputSocket.description>
+  <SupesGateInverter.label>반전기</SupesGateInverter.label>
+  <SupesGateInverter.description>이것은 옆에 있는 논리 게이트의 출력을 반전시킵니다. 제대로 작동하려면 일정한 외부 전원이 필요합니다.</SupesGateInverter.description>
+  <SupesGlass.label>레이저 유리</SupesGlass.label>
+  <SupesGlass.description>이 유리는 레이저의 열에 견디도록 처리되었습니다.</SupesGlass.description>
+  <SupesOpticalResonator.label>광공진기</SupesOpticalResonator.label>
+  <SupesOpticalResonator.description>이 광학 공진기는 레이저의 중요한 구성 요소입니다. 광학 공진기는 가스 또는 수정과 같은 이득 매질로 빛을 펌핑하여 작동합니다. 그런 다음 빛은 두 개의 거울에서 빛을 반사합니다. 그 중 하나는 부분적으로 반사되어 레이저와 같은 것을 위한 출력을 제공합니다.</SupesOpticalResonator.description>
+  <SupesSpeaker.label>붐박스</SupesSpeaker.label>
+  <SupesSpeaker.description>전원이 공급되거나 전원이 공급되면 소리를 재생하며 무선 신호도  감지하는 붐박스. 여러개의 붐박스를 사용하는 경우먼저 신호를 수신받은 붐박스의 소리만 들을 수 있습니다.</SupesSpeaker.description>
+  <SupesRemoteGizmoServo.label>원격 기즈모 서보</SupesRemoteGizmoServo.label>
+  <SupesRemoteGizmoServo.description>이 장치는 신호를 수신할 때 단일 인접 장치(그 장치가 가리키고 있는)에서 gizmo 버튼을 활성화합니다.</SupesRemoteGizmoServo.description>
+  <SupesFuse.label>보호 퓨즈</SupesFuse.label>
+  <SupesFuse.description>유리관의 매우 가는 구리선으로 만들어진 이 퓨즈는 배터리가 완전히 방전될 확률을 절반으로 줄입니다. 순차적으로 사용하거나 축전지 그룹을 분리할 때 더 효과적입니다.</SupesFuse.description>
+</LanguageData>

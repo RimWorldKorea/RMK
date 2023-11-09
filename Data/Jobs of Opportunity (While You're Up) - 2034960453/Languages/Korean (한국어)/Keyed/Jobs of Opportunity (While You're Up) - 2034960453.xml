@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CodeOptimist.JobsOfOpportunity_SettingTitle_haulProximities>운반가능 및 저장구역 초기 접근성</CodeOptimist.JobsOfOpportunity_SettingTitle_haulProximities>
+  <CodeOptimist.JobsOfOpportunity_SettingDesc_haulProximities>성능상의 이유로 바닐라는 모든 운반경로를 계산해서 분류하지 않고, 대신 시작위치 근처의 운반 가능한 물품과 작업 대상 근처의 저장 구역으로 최초 발견한 이동경로를 그대로 설정합니다. 이러한 매개변수를 구성 가능하게 만들었습니다. (¹로 표시)
+
+다른 매개변수가 이동거리(²로 표시됨)를 제한하는데 효과적이므로 이를 요구사항에서 더 가까운 거리에 대한 선호로 변경할 수 있습니다.
+
+성능이 문제인 경우 이 값을 더 엄격하게 설정하여 사용 가능한 운반을 줄이세요. 직선 거리가 실제 운반 경로를 제대로 나타내지 않는 경우 이 값을 더 엄격하게 설정하고 "최대 구역 수"¹를 조정하십시오. </CodeOptimist.JobsOfOpportunity_SettingDesc_haulProximities>
+  <CodeOptimist.JobsOfOpportunity_SettingTitle_haulToInventory>소지품으로 운반 (PUAH 모드)</CodeOptimist.JobsOfOpportunity_SettingTitle_haulToInventory>
+  <CodeOptimist.JobsOfOpportunity_SettingDesc_haulToInventory>Pick Up And Haul 사용자 설정! (선택적. 별도 설치.)\nPUAH 제어 방식으로 기회적 대상의 물품만 모읍니다: 대량으로 비축되는 재고품과 광기어린 하적 정리 문제를 해결합니다.\n\n(전용 운반 작업은 정상적으로 작동하며, 기존과 동일하게 최대한 많이 들어서 운반합니다)</CodeOptimist.JobsOfOpportunity_SettingDesc_haulToInventory>
+  <CodeOptimist.JobsOfOpportunity_SettingTitle_haulBeforeBill>운반 재료 최적화</CodeOptimist.JobsOfOpportunity_SettingTitle_haulBeforeBill>
+  <CodeOptimist.JobsOfOpportunity_SettingDesc_haulBeforeBill>물품을 저장 구역으로 운반하다 사용할 작업대에 더 가까워지면 먼저 작업대로 운반합니다(추가로 확보)\n\nCommon Sense 모드에서 유사한 설정을 해제합니다.</CodeOptimist.JobsOfOpportunity_SettingDesc_haulBeforeBill>
+  <CodeOptimist.JobsOfOpportunity_SettingTitle_haulBeforeSupply>운반 물자 최적화</CodeOptimist.JobsOfOpportunity_SettingTitle_haulBeforeSupply>
+  <CodeOptimist.JobsOfOpportunity_SettingDesc_haulBeforeSupply>물품을 저장구역으로 운반하다 청사진에 더 가까워지면 먼저 청사진으로 운반합니다(추가로 확보)</CodeOptimist.JobsOfOpportunity_SettingDesc_haulBeforeSupply>
+  <CodeOptimist.JobsOfOpportunity_SettingTitle_skipIfBleeding>출혈 중에는 미실행</CodeOptimist.JobsOfOpportunity_SettingTitle_skipIfBleeding>
+  <CodeOptimist.JobsOfOpportunity_SettingDesc_skipIfBleeding>출혈 중에는 기회적 작업을 하지 않습니다.\n"운반 최적화" 기능은(바라건대) 여전히 작동합니다.</CodeOptimist.JobsOfOpportunity_SettingDesc_skipIfBleeding>
+  <CodeOptimist.JobsOfOpportunity_SettingTitle_enabled>켜기</CodeOptimist.JobsOfOpportunity_SettingTitle_enabled>
+  <CodeOptimist.JobsOfOpportunity_SettingDesc_enabled>다시 시작하지 않고, 모드를 전환합니다.\n\n끄기는 모든 기능을 비활성화하고 각 바닐라 매개 변수를 재설정하며 "초기 접근성"을 "바닐라"로 설정하는 것과 같습니다.</CodeOptimist.JobsOfOpportunity_SettingDesc_enabled>
+  <CodeOptimist.JobsOfOpportunity_SettingTitle_drawOpportunisticJobs>기회적 작업 구상</CodeOptimist.JobsOfOpportunity_SettingTitle_drawOpportunisticJobs>
+  <CodeOptimist.JobsOfOpportunity_SettingDesc_drawOpportunisticJobs>경로는 빨간색, 녹색, 파란색으로 표시됩니다.\n\n시작 → ᴿ 운반 → ᴳ 저장구역 → ᴮ 작업\n\n(바닐라의 개발자 모드 → inspector icon → Visibility → Draw Opportunistic Jobs, 이것이 재시작을 통해서도 지속되지 않는 이유입니다.)</CodeOptimist.JobsOfOpportunity_SettingDesc_drawOpportunisticJobs>
+  <CodeOptimist.JobsOfOpportunity_SettingTitle_haulProximities_Both>둘 다 필요 (바닐라)</CodeOptimist.JobsOfOpportunity_SettingTitle_haulProximities_Both>
+  <CodeOptimist.JobsOfOpportunity_SettingTitle_haulProximities_Either>둘 중 하나 필요</CodeOptimist.JobsOfOpportunity_SettingTitle_haulProximities_Either>
+  <CodeOptimist.JobsOfOpportunity_SettingTitle_haulProximities_Ignored>선호 (권장)</CodeOptimist.JobsOfOpportunity_SettingTitle_haulProximities_Ignored>
+  <CodeOptimist.JobsOfOpportunity_SettingTitle_showVanillaParameters>코어/바닐라 매개변수 표시… </CodeOptimist.JobsOfOpportunity_SettingTitle_showVanillaParameters>
+  <CodeOptimist.JobsOfOpportunity_SettingDesc_showVanillaParameters>해당 설정은 기회적 운반의 기본값을 설명하고 조정하기 위해 제공됩니다.\n\n값이 0 이면 검사를 건너뜁니다. </CodeOptimist.JobsOfOpportunity_SettingDesc_showVanillaParameters>
+  <CodeOptimist.JobsOfOpportunity_SettingTitle_maxNewLegsPctOrigTrip>²기본경로 대비 최대 새 작업거리 (%)</CodeOptimist.JobsOfOpportunity_SettingTitle_maxNewLegsPctOrigTrip>
+  <CodeOptimist.JobsOfOpportunity_SettingDesc_maxNewLegsPctOrigTrip>운반물품까지의 최대 거리 + 기본경로 대비 작업지점 근처 저장구역까지의 거리(%)입니다.\n이것은 직선 거리입니다.\n("까마귀가 날아갈 때처럼") </CodeOptimist.JobsOfOpportunity_SettingDesc_maxNewLegsPctOrigTrip>
+  <CodeOptimist.JobsOfOpportunity_SettingTitle_maxTotalTripPctOrigTrip>²기본경로 대비 최대 총 이동거리 (%)</CodeOptimist.JobsOfOpportunity_SettingTitle_maxTotalTripPctOrigTrip>
+  <CodeOptimist.JobsOfOpportunity_SettingDesc_maxTotalTripPctOrigTrip>이것은 직선 거리입니다.\n("까마귀가 날아갈 때처럼") </CodeOptimist.JobsOfOpportunity_SettingDesc_maxTotalTripPctOrigTrip>
+  <CodeOptimist.JobsOfOpportunity_SettingTitle_maxStartToThing>¹운반물품까지의 최대 거리</CodeOptimist.JobsOfOpportunity_SettingTitle_maxStartToThing>
+  <CodeOptimist.JobsOfOpportunity_SettingDesc_maxStartToThing>이것은 직선 거리입니다.\n("까마귀가 날아갈 때처럼") </CodeOptimist.JobsOfOpportunity_SettingDesc_maxStartToThing>
+  <CodeOptimist.JobsOfOpportunity_SettingTitle_maxStartToThingPctOrigTrip>¹기본경로 대비 운반물품까지의 최대 거리 (%)</CodeOptimist.JobsOfOpportunity_SettingTitle_maxStartToThingPctOrigTrip>
+  <CodeOptimist.JobsOfOpportunity_SettingDesc_maxStartToThingPctOrigTrip>이것은 직선 거리입니다.\n("까마귀가 날아갈 때처럼") </CodeOptimist.JobsOfOpportunity_SettingDesc_maxStartToThingPctOrigTrip>
+  <CodeOptimist.JobsOfOpportunity_SettingTitle_maxStartToThingRegionLookCount>¹운반물품까지의 거리 탐색구역 갯수</CodeOptimist.JobsOfOpportunity_SettingTitle_maxStartToThingRegionLookCount>
+  <CodeOptimist.JobsOfOpportunity_SettingDesc_maxStartToThingRegionLookCount>이 매개 변수는 실제 경로를 제한합니다.\n이것을 이해하려면 개발자 모드 → inspector icon → Visibility → Draw Opportunistic Jobs를 활성화하세요.\n\n탐색은 시작 구역에서 모든 방향으로 목적 구역을 찾을 때까지 계속됩니다. 이 설정은 탐색되는 총 갯수를 제한합니다.\n\n구역은 크기와 구성이 다양하기 때문에 거리를 완벽하게 계산할 수 없습니다. (복도에서는 앞뒤만 있으므로 더 멀리까지 탐색합니다.)\n\n그러나 완전히 개방된 구역에서 정착민이 n=3 전체거리 12x12 영역 (~ 36 타일)의 거리를 이동해야하는 경우 알고리즘은 2(n^2 + n) +1 또는 25개의 구역을 탐색합니다.</CodeOptimist.JobsOfOpportunity_SettingDesc_maxStartToThingRegionLookCount>
+  <CodeOptimist.JobsOfOpportunity_SettingTitle_maxStoreToJob>¹작업지점 근처 저장구역까지의 최대 거리</CodeOptimist.JobsOfOpportunity_SettingTitle_maxStoreToJob>
+  <CodeOptimist.JobsOfOpportunity_SettingDesc_maxStoreToJob>이것은 직선 거리입니다.\n("까마귀가 날아갈 때처럼") </CodeOptimist.JobsOfOpportunity_SettingDesc_maxStoreToJob>
+  <CodeOptimist.JobsOfOpportunity_SettingTitle_maxStoreToJobPctOrigTrip>¹기본경로 대비 작업지점 근처 저장구역까지의 최대 거리 (%)</CodeOptimist.JobsOfOpportunity_SettingTitle_maxStoreToJobPctOrigTrip>
+  <CodeOptimist.JobsOfOpportunity_SettingDesc_maxStoreToJobPctOrigTrip>이것은 직선 거리입니다.\n("까마귀가 날아갈 때처럼") </CodeOptimist.JobsOfOpportunity_SettingDesc_maxStoreToJobPctOrigTrip>
+  <CodeOptimist.JobsOfOpportunity_SettingTitle_maxStoreToJobRegionLookCount>¹작업지점 근처 저장구역 탐색 갯수</CodeOptimist.JobsOfOpportunity_SettingTitle_maxStoreToJobRegionLookCount>
+  <CodeOptimist.JobsOfOpportunity_SettingDesc_maxStoreToJobRegionLookCount>이 매개 변수는 실제 경로를 제한합니다.\n이것을 이해하려면 개발자 모드 → inspector icon → Visibility → Draw Opportunistic Jobs를 활성화하세요.\n\n탐색은 시작 구역에서 모든 방향으로 목적 구역을 찾을 때까지 계속됩니다. 이 설정은 탐색되는 총 갯수를 제한합니다.\n\n구역은 크기와 구성이 다양하기 때문에 거리를 완벽하게 계산할 수 없습니다. (복도에서는 앞뒤만 있으므로 더 멀리까지 탐색합니다.)\n\n그러나 완전히 개방된 구역에서 정착민이 n=3 전체거리 12x12 영역 (~ 36 타일)의 거리를 이동해야하는 경우 알고리즘은 2(n^2 + n) +1 또는 25개의 구역을 탐색합니다.</CodeOptimist.JobsOfOpportunity_SettingDesc_maxStoreToJobRegionLookCount>
+</LanguageData>

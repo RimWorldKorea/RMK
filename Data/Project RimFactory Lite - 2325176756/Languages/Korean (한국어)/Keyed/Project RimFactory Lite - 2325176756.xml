@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PRF.AutoMachineTool.MustInWall>벽에 설치해야 합니다.</PRF.AutoMachineTool.MustInWall>
+  <PRF.AutoMachineTool.SelectOutputDirectionDesc>제작품의 출력 대상을 지정합니다. 출력 목적지가 저장구역 일부이고 제작품을 저장할 수 있는 경우 해당 목적지로 출력됩니다.
+출력 대상이 저장구역에 있고 제작품을 배치할 수 없어도 출력 대상으로 지정됩니다.</PRF.AutoMachineTool.SelectOutputDirectionDesc>
+  <PRF.AutoMachineTool.ForbidOutputItemLabel>출력 금지 물품</PRF.AutoMachineTool.ForbidOutputItemLabel>
+  <PRF.AutoMachineTool.ForbidOutputItemDesc>기계 장비는 완성된 물품으로 출력되는 물품을 금지하여, 정착민이 연관되지 않도록 합니다.</PRF.AutoMachineTool.ForbidOutputItemDesc>
+  <PRF.AutoMachineTool.OutputDirectionN>북쪽</PRF.AutoMachineTool.OutputDirectionN>
+  <PRF.AutoMachineTool.OutputDirectionNE>북동쪽</PRF.AutoMachineTool.OutputDirectionNE>
+  <PRF.AutoMachineTool.OutputDirectionE>동쪽</PRF.AutoMachineTool.OutputDirectionE>
+  <PRF.AutoMachineTool.OutputDirectionSE>남동쪽</PRF.AutoMachineTool.OutputDirectionSE>
+  <PRF.AutoMachineTool.OutputDirectionS>남쪽</PRF.AutoMachineTool.OutputDirectionS>
+  <PRF.AutoMachineTool.OutputDirectionSW>남서쪽</PRF.AutoMachineTool.OutputDirectionSW>
+  <PRF.AutoMachineTool.OutputDirectionW>서쪽</PRF.AutoMachineTool.OutputDirectionW>
+  <PRF.AutoMachineTool.OutputDirectionNW>북서쪽</PRF.AutoMachineTool.OutputDirectionNW>
+  <PRF.AutoMachineTool.PlaceNotAllowed>자동기계장치는 작업대를 향하고 있어야 하고 작업 위치에 배치되어야 합니다.</PRF.AutoMachineTool.PlaceNotAllowed>
+  <PRF.AutoMachineTool.StatWorking>작업 중. [{0} / {1} ({2}%)]</PRF.AutoMachineTool.StatWorking>
+  <PRF.AutoMachineTool.StatWorkingNotParam>작동 중.</PRF.AutoMachineTool.StatWorkingNotParam>
+  <PRF.AutoMachineTool.StatReady>준비</PRF.AutoMachineTool.StatReady>
+  <PRF.AutoMachineTool.StatPlacing>배치 중. [보류 중인 배치위치 {0}]</PRF.AutoMachineTool.StatPlacing>
+  <PRF.AutoMachineTool.PlacingSingle>{0} 놓는 중.</PRF.AutoMachineTool.PlacingSingle>
+  <PRF.AutoMachineTool.Priority>우선순위</PRF.AutoMachineTool.Priority>
+  <PRF.AutoMachineTool.OutputDirection>출력 방향. [{0}]</PRF.AutoMachineTool.OutputDirection>
+  <PRF.AutoMachineTool.OutputDirection.N>북쪽</PRF.AutoMachineTool.OutputDirection.N>
+  <PRF.AutoMachineTool.OutputDirection.NE>북동쪽</PRF.AutoMachineTool.OutputDirection.NE>
+  <PRF.AutoMachineTool.OutputDirection.E>동쪽</PRF.AutoMachineTool.OutputDirection.E>
+  <PRF.AutoMachineTool.OutputDirection.SE>남동쪽</PRF.AutoMachineTool.OutputDirection.SE>
+  <PRF.AutoMachineTool.OutputDirection.S>남쪽</PRF.AutoMachineTool.OutputDirection.S>
+  <PRF.AutoMachineTool.OutputDirection.SW>남서쪽</PRF.AutoMachineTool.OutputDirection.SW>
+  <PRF.AutoMachineTool.OutputDirection.W>서쪽</PRF.AutoMachineTool.OutputDirection.W>
+  <PRF.AutoMachineTool.OutputDirection.NW>북서쪽</PRF.AutoMachineTool.OutputDirection.NW>
+  <PRF.AutoMachineTool.SupplyPower.TabName>오버클록</PRF.AutoMachineTool.SupplyPower.TabName>
+  <PRF.AutoMachineTool.SupplyPower.Description>작업 속도를 증가시키기 위한 오버클럭 전원 사용량입니다.</PRF.AutoMachineTool.SupplyPower.Description>
+  <PRF.AutoMachineTool.SupplyPower.DescriptionForRange>작업 범위를 증가시키기 위한 오버클럭 전원 사용량입니다.</PRF.AutoMachineTool.SupplyPower.DescriptionForRange>
+  <PRF.AutoMachineTool.SupplyPower.ValueLabelForSpeed>속도를 위한 오버클럭 전원 ({0} W)</PRF.AutoMachineTool.SupplyPower.ValueLabelForSpeed>
+  <PRF.AutoMachineTool.SupplyPower.ValueLabelForRange>범위를 위한 오버클럭 전원 ({0} W)</PRF.AutoMachineTool.SupplyPower.ValueLabelForRange>
+  <PRF.AutoMachineTool.SupplyPower.SunLampText>태양등(전력:2000)</PRF.AutoMachineTool.SupplyPower.SunLampText>
+  <PRF.AutoMachineTool.SupplyPower.BreakDownLine_Start>총 전력 사용량:\n기본 [{0}] + 작업 속도 [{1}]] + 범위 [{2}]</PRF.AutoMachineTool.SupplyPower.BreakDownLine_Start>
+  <PRF.AutoMachineTool.SupplyPower.BreakDownLine_Append> + {0} [{1}]</PRF.AutoMachineTool.SupplyPower.BreakDownLine_Append>
+  <PRF.AutoMachineTool.SupplyPower.BreakDownLine_End> = [{0} W]</PRF.AutoMachineTool.SupplyPower.BreakDownLine_End>
+  <PRF.AutoMachineTool.SupplyPower.wdLabel>{0} W</PRF.AutoMachineTool.SupplyPower.wdLabel>
+  <PRF.AutoMachineTool.SupplyPower.PercentLabel>{0}%</PRF.AutoMachineTool.SupplyPower.PercentLabel>
+  <PRF.AutoMachineTool.SupplyPower.CurrentPercent>현재 작업 속도 {0}%</PRF.AutoMachineTool.SupplyPower.CurrentPercent>
+  <PRF.AutoMachineTool.SupplyPower.CellsLabel>{0} 칸</PRF.AutoMachineTool.SupplyPower.CellsLabel>
+  <PRF.AutoMachineTool.SupplyPower.CurrentCellRadius>현재 작업 범위 {0} 칸</PRF.AutoMachineTool.SupplyPower.CurrentCellRadius>
+  <PRF.AutoMachineTool.ProductLimitation.Description>제품이나 물품 수가 한계 값을 초과하면 처리가 중지됩니다. 영역을 지정할 수 있습니다. 해당 구역에 배치할 수 있는지 확인하세요.</PRF.AutoMachineTool.ProductLimitation.Description>
+  <PRF.AutoMachineTool.ProductLimitation.ValueLabel>제한 값</PRF.AutoMachineTool.ProductLimitation.ValueLabel>
+  <PRF.AutoMachineTool.ProductLimitation.CheckBoxLabel>제한 활성</PRF.AutoMachineTool.ProductLimitation.CheckBoxLabel>
+  <PRF.AutoMachineTool.ProductLimitation.CountStacks>저장량 계산</PRF.AutoMachineTool.ProductLimitation.CountStacks>
+  <PRF.AutoMachineTool.EntierMap>제한 없음 - 계속 내보내기</PRF.AutoMachineTool.EntierMap>
+  <PRF.AutoMachineTool.CountZone>어떤 구역을?</PRF.AutoMachineTool.CountZone>
+  <PRF.AutoMachineTool.Slaughterhouse.Setting.TabName>설정</PRF.AutoMachineTool.Slaughterhouse.Setting.TabName>
+  <PRF.AutoMachineTool.Slaughterhouse.Setting.Description>도살 목표 설정</PRF.AutoMachineTool.Slaughterhouse.Setting.Description>
+  <PRF.AutoMachineTool.Slaughterhouse.Setting.DoSlaughterTip>표시되어 있으면 동물들을 도축합니다.</PRF.AutoMachineTool.Slaughterhouse.Setting.DoSlaughterTip>
+  <PRF.AutoMachineTool.Slaughterhouse.Setting.BondsTip>표시되어 있으면 같은 종의 동물들을 도축합니다.</PRF.AutoMachineTool.Slaughterhouse.Setting.BondsTip>
+  <PRF.AutoMachineTool.Slaughterhouse.Setting.PregnancyTip>표시되어 있으면 임신한 동물들을 도축합니다.</PRF.AutoMachineTool.Slaughterhouse.Setting.PregnancyTip>
+  <PRF.AutoMachineTool.Slaughterhouse.Setting.TrainedTip>표시되어 있으면 길들인 동물들을 도축합니다.</PRF.AutoMachineTool.Slaughterhouse.Setting.TrainedTip>
+  <PRF.AutoMachineTool.Slaughterhouse.Setting.KeepCountTip>도축하지 않으려면 {0} {1}의 숫자를 지정하세요.</PRF.AutoMachineTool.Slaughterhouse.Setting.KeepCountTip>
+  <PRF.AutoMachineTool.Male>수컷</PRF.AutoMachineTool.Male>
+  <PRF.AutoMachineTool.Female>암컷</PRF.AutoMachineTool.Female>
+  <PRF.AutoMachineTool.Adult>성인</PRF.AutoMachineTool.Adult>
+  <PRF.AutoMachineTool.Young>어린</PRF.AutoMachineTool.Young>
+  <PRF.AutoMachineTool.RaceName>종족 이름</PRF.AutoMachineTool.RaceName>
+  <PRF.AutoMachineTool.Puller.SwitchActiveLabel>끌어오기 전환</PRF.AutoMachineTool.Puller.SwitchActiveLabel>
+  <PRF.NeedToTurnOnPuller>배출기를 토글하여 전원을 켜주세요.</PRF.NeedToTurnOnPuller>
+  <PRF.AutoMachineTool.Puller.SwitchActiveDesc>켜짐/꺼짐 작동 상태를 전환합니다.</PRF.AutoMachineTool.Puller.SwitchActiveDesc>
+  <PRF.AutoMachineTool.Puller.SwitchOutputSideLabel>출력 방향 전환</PRF.AutoMachineTool.Puller.SwitchOutputSideLabel>
+  <PRF.AutoMachineTool.Puller.SwitchOutputSideDesc>출력 방향을 전환합니다.</PRF.AutoMachineTool.Puller.SwitchOutputSideDesc>
+  <PRF.Puller.TakeForbiddenItems>금지된 물품 끌어오기</PRF.Puller.TakeForbiddenItems>
+  <PRF.Puller.TakeForbiddenItemsDesc>설정하면 이 흡입기는 금지된 물품도 갖고 옵니다. 만약 그것들이 금지되어 있었다면, 흡입기는 그 물품을 "허용됨"으로 바꿀 것입니다. 이것은 흡입기별 설정입니다.</PRF.Puller.TakeForbiddenItemsDesc>
+  <PRF.Puller.takeSingleItemsHmm>한 번에 한가지 물품 가져오기</PRF.Puller.takeSingleItemsHmm>
+  <PRF.Puller.takeSingleItemsDesc>설정하면 이 흡입기는 한 번에 한 종류의 물품만 끌어옵니다. 그렇지 않으면, 해당 칸의 모든 물건을 한번에 끌어당깁니다! 이것은 배출기당 설정입니다.</PRF.Puller.takeSingleItemsDesc>
+  <PRF.AutoMachineTool.Puller.OutputItemFilter.TabName>저장소</PRF.AutoMachineTool.Puller.OutputItemFilter.TabName>
+  <PRF.AutoMachineTool.Puller.OutputItemFilter.Description>꺼낼 항목에 대한 필터를 설정합니다.</PRF.AutoMachineTool.Puller.OutputItemFilter.Description>
+  <PRF.AutoMachineTool.Puller.FilterCopyFrom>여기에서 복사</PRF.AutoMachineTool.Puller.FilterCopyFrom>
+  <PRF.AutoMachineTool.AutoMiner.MineOre>{0} 채굴 중</PRF.AutoMachineTool.AutoMiner.MineOre>
+  <PRF_DropFromConveyorDesc>컨베이어에 있는 물건을 컨베이어 어딘가에서- 땅에 떨어뜨립니다. 분명히, 이것은 지하 컨베이어에는 말이 되지 않지만, 터널에서 이상한 것들을 빼내는 폰을 쓰는 것보다 이것을 하도록 하는 것이 훨씬 더 쉽습니다.</PRF_DropFromConveyorDesc>
+  <PRF.Conveyor.IsEndOfLineSetting>벨트에 대기</PRF.Conveyor.IsEndOfLineSetting>
+  <PRF.Conveyor.IsEndOfLineSetting.Desc>이 벨트는 라인의 끝인가요 아니면 조립기로 운반하나요? 이 옵션을 선택하면 무언가가 항목을 가져갈 때까지 항목을 유지합니다. 이 옵션을 선택하지 않으면 다음 컨베이어로 항목을 보내거나 땅에 떨어뜨립니다 (공간이 있다면).</PRF.Conveyor.IsEndOfLineSetting.Desc>
+  <PRF.Conveyor.IsAtEndOfLine>컨베이어 라인의 끝</PRF.Conveyor.IsAtEndOfLine>
+  <PRF.AutoMachineTool.Conveyor.DirectionPriority.VeryHigh>매우 높음</PRF.AutoMachineTool.Conveyor.DirectionPriority.VeryHigh>
+  <PRF.AutoMachineTool.Conveyor.DirectionPriority.High>높음</PRF.AutoMachineTool.Conveyor.DirectionPriority.High>
+  <PRF.AutoMachineTool.Conveyor.DirectionPriority.Normal>평균</PRF.AutoMachineTool.Conveyor.DirectionPriority.Normal>
+  <PRF.AutoMachineTool.Conveyor.DirectionPriority.Low>낮음</PRF.AutoMachineTool.Conveyor.DirectionPriority.Low>
+  <PRF.AutoMachineTool.Conveyor.OutputItemFilter.TabName>필터</PRF.AutoMachineTool.Conveyor.OutputItemFilter.TabName>
+  <PRF.AutoMachineTool.Conveyor.OutputItemFilter.Description>출력 방향에 대한 필터를 설정합니다.</PRF.AutoMachineTool.Conveyor.OutputItemFilter.Description>
+  <PRF.AutoMachineTool.Conveyor.OutputItemFilter.NothingOutputDestination>(연결 해제됨)</PRF.AutoMachineTool.Conveyor.OutputItemFilter.NothingOutputDestination>
+  <PRF.AutoMachineTool.Conveyor.FilterCopyFrom>여기에서 복사</PRF.AutoMachineTool.Conveyor.FilterCopyFrom>
+  <CultivatorTools_AdjustDirection_Desc>클릭하면 시계방향으로 회전합니다. 현재 방향: {0}</CultivatorTools_AdjustDirection_Desc>
+  <CultivatorTools_SeedsPleaseActiveDesc>메모: SeedsPlease를 사용한다면, 경작기는 심기 위하여 범위 내에 씨앗이 있는지 찾을 것입니다.</CultivatorTools_SeedsPleaseActiveDesc>
+  <CultivatorTools_SeedsPleaseInactiveDesc>SeedsPlease 모드가 감지되지 않기 때문에 씨앗이 필요하지 않습니다.</CultivatorTools_SeedsPleaseInactiveDesc>
+  <PRFHelp>도움말</PRFHelp>
+  <PRFHelpDesc>이 항목에 대한 도움말 보기</PRFHelpDesc>
+  <PRFViewOrdo>오르도 히스토리아: {0}</PRFViewOrdo>
+  <PaperclipFactory_HelpText>EMC 공장은 강철만 사용하지 않습니다 - 어떤 물품이나 아원자 건물에서 종이 집게로 만들 수 있습니다. 생산된 EMC의 수는 모든 물품의 합계 무게의 1/4입니다.</PaperclipFactory_HelpText>
+  <PaperclipFactory_OrdoText><![CDATA[<b>오르도 히스토리아 표준화 기록보관소 - OHS 15616 - 표준 원자 3D 프린팅 장치의 재료로 쓰이는 종이 클립(OHS 6011)</b>
+섹션 1.1 - 물리적 특징
+- 한 개의 종이 클립은 무게가 1.0 ± 1*10^-8g이어야 한다.
+- 달렉카니움, 언옵테이니움 또는 비브라니움과 같은 이국적인 물질(OHS 11279)을 포함한 어떤 물질로도 만들어질 수 있다. 그러나 최종 생산물은 유연성, 연성, 가단성을 가진 금속과 같은 특성을 보여야 한다.
+- 종이 클립은 실재하는 질량을 가져야 한다.
+- 종이 클립의 생산방법에 관한 설명은 물질로부터 종이 클립을 생산하는 란츠-포디법(OHS 58281)을 참고하라.
+- 종이 클립은 반드<color=red><b>[전송 중단 - 잠재적 보안 위반 감지]</b></color>]]></PaperclipFactory_OrdoText>
+  <PRFPaperclipPowerGenerator_HelpText>EMC 발전기는 일반 발전기와 동일하지만, EMC로 구동되며 2개의 추가 기능이 있습니다: \n1. 당신은 연료 소비율을 조절하여 전력 생산을 증가/감소시킬 수 있습니다.\n2. "EMC 발전기: 자기계발"을 연구로 해금한 뒤, 건물에 연료가 있고 상시 가동된다면 전력 생산 효율이 서서히 상승할 수 있습니다.</PRFPaperclipPowerGenerator_HelpText>
+  <AtomicReconstructor_HelpText>원자 재구성자는 EMC를 아이템으로 변환합니다. 간단히 연료와 전력을 공급하고, 생산하고자 하는 품목을 설정하고 기다리면됩니다. 또한 슬라이더를 조정하여 더 빨리 작동하도록 할 수 있습니다. 속도는 EMC 비용의 제곱에 정비례한다는 점에 유의해야 합니다. 예를 들어 속도를 2배로 설정하면 4배 더 많은 EMC를 사용합니다.\n\n일반적으로 가격이 비싼 품목은 제작 시간이 더 오래 걸리고, 무거운 품목은 EMC 비용이 더 많이 듭니다.\n\n참고: 원자 재구성자는 재료로 만들어야 하는 항목(예: 강철 장검) 을 만들 수 없습니다.</AtomicReconstructor_HelpText>
+  <PRFPaperclipDuplicator_HelpText>EMC 복제기를 은행이라고 생각한다면, EMC를 저장하고 그 EMC에 대해 당신에게 정해진 이자를 줍니다. 복제기 탭은 EMC를 입/출금할 수 있는 인터페이스를 제공합니다. EMC를 입출금하기 위한 아이템 소스로 화물 플랫폼을 제공해야 한다는 점에 유의해야합니다.\n\n현재 EMC의 양을 계산하는 데 사용되는 공식은:\n현재 잔액=1.05^(지나간 날) * 처음 잔액 입니다.</PRFPaperclipDuplicator_HelpText>
+  <PRF_Recycler_HelpText>이 기계는 약간의 재료를 소비하면서 거의 모든 의류와 무기를 재활용하여 사용할 수 있는 원료로 되돌릴 수 있습니다. 새로운 물건을 뱉어낼 수 있도록 출력부를 비워두세요.</PRF_Recycler_HelpText>
+  <PRF_RecipeDatabase_HelpText>계획서 가져오기를 시작하려면 전력이 공급되어 있는 작업대 근처에 놓고 "계획서 가져오기..."로 이동한 다음 가져올 레시피를 선택하세요.\n\n그 후에 계획서를 공유하기 위해 조립기(들) 근처에 재설치하면 됩니다.\n\n다른 작업대의 여러 종류의 계획서를 저장할 수 있습니다.</PRF_RecipeDatabase_HelpText>
+  <PRF_TypeOneAssembler_I_HelpText>조립기 건물을 가동하려면, "계획서" 탭에서 원하는 계획을 추가하면 됩니다. 그리고 출력물을 향하게 하고자 하는 곳으로 노란 셀을 설정하면 됩니다. 마지막으로, 필요한 재료를 주변에 배치하고(스마트 투입구를 사용하고 있다면, "허용/금지"를 표시하는 것을 기억하시고), 전력을 공급하십시오.\n\n조립기에 계획서를 입력하려면, 계획서 데이터베이스를 건설하고 계획서를 복사해 오고자 하는 작업대 옆에 배치하십시오. (추가 정보는 계획서 데이터베이스에 관한 도움말에서 참조하십시오) 불러오기 작업(들)이 끝나면, 이 건물 근처에 재배치하면 됩니다.\n\n이 조립기가 사용할 수 있는 최고 기술 등급: 10, 예술은 9입니다.</PRF_TypeOneAssembler_I_HelpText>
+  <PRF_TypeTwoAssembler_I_HelpText>이 조립기는 작업을 반복할수록 해당 계획서의 작업속도가 빨라지는 것이 특징입니다. 그러나 시간이 지날수록 이 기술은 기하급수적으로 퇴화합니다.\n\n조립기 건물을 가동하려면, "계획서" 탭에서 원하는 계획을 추가하면 됩니다. 그리고 출력물을 향하게 하고자 하는 곳으로 노란 셀을 설정하면 됩니다. 마지막으로, 필요한 재료를 주변에 배치하고(스마트 투입구를 사용하고 있다면, "허용/금지"를 표시하는 것을 기억하시고), 전력을 공급하세요.\n\n조립기에 계획서를 입력하려면, 계획서 데이터베이스를 건설하고 계획서를 복사해 오고자 하는 작업대 옆에 배치하세요. 추가 정보는 계획서 데이터베이스에 관한 도움말에서 참조하세요. 불러오기 작업(들)이 끝나면, 이 건물 근처에 재배치하면 됩니다.\n\n이 조립기가 사용할 수 있는 최고 기술 등급: 20, 예술은 12입니다.</PRF_TypeTwoAssembler_I_HelpText>
+  <Lighting_FloorLampArrow_HelpText>어떤 방향으로 물건을 보내거나 방을 꾸미는 표시? 누군가 벌레에게서 추출한 끈적거리는 빛이 나는 가루를 쏟아서 약하게 빛나게 되었습니다.</Lighting_FloorLampArrow_HelpText>
+  <Lighting_RedFloorLampArrow_HelpText>어떤 방향으로 물건을 보내거나 방을 꾸미는 표시? 누군가 벌레에게서 추출한 끈적거리는 빛이 나는 가루를 쏟아서 약하게 빛나게 되었습니다.</Lighting_RedFloorLampArrow_HelpText>
+  <Lighting_GreenFloorLampArrow_HelpText>어떤 방향으로 물건을 보내거나 방을 꾸미는 표시? 누군가 벌레에게서 추출한 끈적거리는 빛이 나는 가루를 쏟아서 약하게 빛나게 되었습니다.</Lighting_GreenFloorLampArrow_HelpText>
+  <Lighting_FloorLampX_HelpText>어떤 방향으로 물건을 보내거나 방을 꾸미는 표시? 누군가 벌레에게서 추출한 끈적거리는 빛이 나는 가루를 쏟아서 약하게 빛나게 되었습니다.</Lighting_FloorLampX_HelpText>
+  <PRF_Shearer_HelpText>동물 수확기는 동물이 건물 근처에 오면 자동으로 수확합니다. 이 수확기에 사료를 저장하여 동물들이 수확기에 오면 수확을 할 수 있습니다.</PRF_Shearer_HelpText>
+  <PRF_Milker_HelpText>동물 수확기는 동물이 건물 근처에 오면 자동으로 수확합니다. 이 수확기에 사료를 저장하여 동물들이 수확기에 오면 수확을 할 수 있습니다.</PRF_Milker_HelpText>
+  <PRF_GenericAnimalHarvester_HelpText>동물 수확기는 동물이 건물 근처에 오면 자동으로 수확합니다. 이 수확기에 사료를 저장하여 동물들이 수확기에 오면 수확을 할 수 있습니다.</PRF_GenericAnimalHarvester_HelpText>
+  <PRF_Slaughterhouse_HelpText>지정된 수, 나이 또는 성별을 초과하는 동물을 관리하고 자동으로 도축할 수 있는 도축장. "자동 고기 분쇄기" 및 "동물 스테이션"과 함께 사용하는 것이 좋습니다</PRF_Slaughterhouse_HelpText>
+  <PRF_BillTypeMiner_I_HelpText>최신 우주 기술을 사용하여 필요에 따라서 설정 가능한 고도의 설정 가능한 채굴기입니다.</PRF_BillTypeMiner_I_HelpText>
+  <PRF_DeepQuarry_mkIII_HelpText>이 채굴기는 강철부터 금까지 임의의 희귀한 자원을 채굴할 것입니다. 알아둘 것은 어떤 모드에서 추가한 석재를 포함한 자원을 채굴하고 싶다면, 패치가 필요합니다.</PRF_DeepQuarry_mkIII_HelpText>
+  <PRF_DeepQuarry_mkII_helpText>깊은 채석장은 지하에서 무작위 광물 자원을 추출하는데 사용되며 평균 6시간마다 한 번씩 자원을 생성합니다. 정착민 광부처럼 작동합니다 - 희귀성에 따라 바위 또는 압축된 자원 (화강암, 압축된 강철)을 무작위로 선택하고 채굴된 제품을 반환합니다. 따라서 암석 덩어리는 깊은 채석장의 가장 일반적인 물품이며, 다른 자원들은 희귀성에 따라 채굴됩니다.</PRF_DeepQuarry_mkII_helpText>
+  <PRF_DeepQuarry_mkI_HelpText>깊은 채석장은 지하에서 무작위 광물 자원을 추출하는데 사용되며 평균 6시간마다 한 번씩 자원을 생성합니다. 정착민 광부처럼 작동합니다 - 희귀성에 따라 바위 또는 압축된 자원 (화강암, 압축된 강철)을 무작위로 선택하고 채굴된 제품을 반환합니다. 따라서 암석 덩어리는 깊은 채석장의 가장 일반적인 물품이며, 다른 자원들은 희귀성에 따라 채굴됩니다.</PRF_DeepQuarry_mkI_HelpText>
+  <PRF_SelfPrepper_HelpText>이것은 원래 VGP 식도락가를 위해 만들어진 자동 음식 준비 테이블이지만 다른 개조 및 바닐라에서도 사용할 수 있습니다. 생식을 넣고 음식을 만들기 위한 재료를 꺼내세요.</PRF_SelfPrepper_HelpText>
+  <PRF_MeatGrinder_HelpText>이 위험해 보이는 기계는 죽은 동물들을 넣어서 작동하며, 고기와 가죽 및 그 외 다른 부분도 나올까요? 한 번에 하나의 물품만 출력할 수 있으니, 출력부에서 빠르게 치워주세요.</PRF_MeatGrinder_HelpText>
+  <PRF_SelfCookerI_HelpText>어떤 간단한 제작 건물을 가동하려면, "계획서" 탭에서 원하는 계획을 추가하면 됩니다. 그리고 제작품이 향하게 하고자 하는 곳으로 노란 셀을 설정하면 됩니다. 마지막으로, 필요한 재료들 주변에 배치하고(스마트 투입구를 사용하고 있다면, "허용/금지"를 표시하는 것을 기억하시고), 전력을 공급하세요.\n\n이 조립기가 사용할 수 있는 최고 기술 등급: 8\n\n더 복잡한 음식 계획서를 얻기 전에는 간단한 식사만 조리 가능합니다.</PRF_SelfCookerI_HelpText>
+  <PRF_SelfCookerII_HelpText>어떤 간단한 제작 건물을 가동하려면, "계획서" 탭에서 원하는 계획을 추가하면 됩니다. 그리고 제작품이 향하게 하고자 하는 곳으로 노란 셀을 설정하면 됩니다. 마지막으로, 필요한 재료들 주변에 배치하고(스마트 투입구를 사용하고 있다면, "허용/금지"를 표시하는 것을 기억하시고), 전력을 공급하세요.\n\n이 조립기가 사용할 수 있는 최고 기술 등급: 12\n\n전기 조리대의 계획서와 약간의 수정된 계획서를 사용할 수 있습니다. 하지만 기술등급 12까지만 조리 가능합니다.</PRF_SelfCookerII_HelpText>
+  <PRF_SelfCookerIII_HelpText>어떤 간단한 제작 건물을 가동하려면, "계획서" 탭에서 원하는 계획을 추가하면 됩니다. 그리고 제작품이 향하게 하고자 하는 곳으로 노란 셀을 설정하면 됩니다. 마지막으로, 필요한 재료들 주변에 배치하고(스마트 투입구를 사용하고 있다면, "허용/금지"를 표시하는 것을 기억하시고), 전력을 공급하세요.\n\n이 조립기가 사용할 수 있는 최고 기술 등급: 20 입니다.\n\n전기 조리대의 계획서와 약간의 수정된 계획서룰 추가할 수 있습니다. 그리고 절대로 식중독이나 실패하지 않습니다.</PRF_SelfCookerIII_HelpText>
+  <PRF_FermentingBarrel_HelpText>이 건물을 가동하려면, "계획서" 탭에서 원하는 계획을 추가하면 됩니다. 그리고 맥주가 향하게 하고자 하는 곳으로 노란 셀을 설정하면 됩니다. 마지막으로, 필요한 맥아즙을 주변에 배치하고(스마트 투입구를 사용하고 있다면, "허용/금지"를 표시하는 것을 기억하시고), 전력을 공급하세요.</PRF_FermentingBarrel_HelpText>
+  <PRF_WoodCrate_II_HelpText>"Industrial Rollers"모드를 사용하여 상자와 화물 플랫폼으로 배출하려면 끝에 배출기를 사용해야 합니다.</PRF_WoodCrate_II_HelpText>
+  <PRF_SteelCrate_I_HelpText>작은 강철 상자는 빡빡한 우주에서 유용합니다.</PRF_SteelCrate_I_HelpText>
+  <PRF_SteelCrate_II_HelpText>"Industrial Rollers"모드를 사용하여 상자와 화물 플랫폼으로 배출하려면 끝에 배출기를 사용해야 합니다.</PRF_SteelCrate_II_HelpText>
+  <PRF_DigitalStorageUnit_I_HelpText>산업용 저장 장치(DSU)는 여느 저장 건물과 같은 기능을 하지만, 내부에 넣어둔 모든 품목이 중간 칸으로 옮겨져 사실상 무한한 저장이 가능합니다. 모드 설정에 제한이 있는데, 너무 높게 설정하면 지연될 수 있습니다.\n\n사용량이 많은 화물 플랫폼의 상당한 지연을 방지하기 위해 "항목" 탭의 항목에는 처음 500개 항목만 표시됩니다. 그러나 검색창을 사용하여 원하는 항목을 검색할 수 있습니다.\n\n추가: "산업용 롤러" 모드로 상자 및 화물 플랫폼으로 출력하려면 마지막에 컨베이어 배출기를 사용하는 것을 잊지 마십시오.\n직접 DSU 출력을 설정하려면 DSU 항목 목록에서 원하는 출력 항목을 마우스 오른쪽 버튼으로 클릭하여 DSU 출력 칸으로 이동하도록 하십시오.\n창고에서 아이템을 장착하기 위해 마우스 오른쪽 버튼을 클릭하여 폰이 강제로 착용할 수 있습니다.\n\n폰 허용 버튼은 폰이 직접 DSU로 가는 것을 금지하고 입출력 포트만 사용할 수 있게 합니다.</PRF_DigitalStorageUnit_I_HelpText>
+  <PRF_IOPort_I_HelpText>저장 장치 입출력 포트를 구성하려면 입력 또는 출력 방식과 연결할 장치를 설정하십시오. 출력을 선택하는 경우 끌어올 항목도 선택하십시오.\n스토리지 탭을 마우스 오른쪽 버튼으로 클릭하여 물품/뭉치를 직접 꺼낼 수 있습니다. 예를 들자면, 선택된 입출력 포트에서 무기를 꺼낼 수 있습니다.</PRF_IOPort_I_HelpText>
+  <PRF_IOPort_IFridge_HelpText>이것은 입출력 포트\nIT처럼 작동합니다. RimFridge와 문제가 좀 있습니다. 작동하지 않으면 화물 저장고를 다시 설정하고 입/출력을 다시 해보고 설정이 맞는지 확인해야 합니다. (수정을 위해 찾는 중)</PRF_IOPort_IFridge_HelpText>
+  <PRF_Conveyor_Simple_I_HelpText>컨베이어 벨트를 배치하고 함께 연결하면 자동으로 연결할 수 있습니다. 분리해야 할 경우 벨트 분배기가 필요합니다.\n\n물품은 벨트의 끝에 있는 칸으로 이동되거나 저장구역으로 이동되며, 벨트는 필터 설정을 따를만큼 스마트하지 못합니다. 배출기를 대신 이용하세요.\n\n각 설정에서 "벨트 끝"으로 설정할 수 있습니다. 이렇게 설정하면 벨트의 끝을 선반/호퍼 대신 조립기에서 이용할 수 있습니다.</PRF_Conveyor_Simple_I_HelpText>
+  <PRF_Conveyor_Wall_I_HelpText>컨베이어 벨트를 배치하고 함께 연결하면 자동으로 연결할 수 있습니다. 분리해야 할 경우 벨트 분배기가 필요합니다.\n\n물품은 벨트의 끝에 있는 칸으로 이동되거나 저장구역으로 이동되며, 벨트는 필터 설정을 따를만큼 스마트하지 못합니다. 배출기를 대신 이용하세요.\n\n각 설정에서 "벨트 끝"으로 설정할 수 있습니다. 이렇게 설정하면 벨트의 끝을 선반/호퍼 대신 조립기에서 이용할 수 있습니다.</PRF_Conveyor_Wall_I_HelpText>
+  <PRF_Conveyor_UG_I_HelpText>지하 벨트: '지하로 가는 벨트 부분. 지상에 있는 기계들은 지하 벨트의 물품을 갖고 올 수 없습니다. 지하 입구를 사용하여 일련의 지하 벨트를 시작하고 지하 출구를 사용하여 다시 시작해야 합니다.</PRF_Conveyor_UG_I_HelpText>
+  <PRF_Conveyor_Connector_To_UG_HelpText>지하 입구: 지하 벨트의 길이를 시작합니다. 지상에 있는 기계들은 지하 벨트의 물품을 갖고 올 수 없습니다. 지하 입구를 사용하여 일련의 지하 벨트를 시작하고 지하 출구를 사용하여 다시 시작해야 합니다.</PRF_Conveyor_Connector_To_UG_HelpText>
+  <PRF_Conveyor_Connector_To_Floor_HelpText>지하 출구: 지하 벨트의 길이를 시작합니다. 지상에 있는 기계들은 지하 벨트의 물품을 갖고 올 수 없습니다. 지하 입구를 사용하여 일련의 지하 벨트를 시작하고 지하 출구를 사용하여 다시 시작해야 합니다.</PRF_Conveyor_Connector_To_Floor_HelpText>
+  <PRF_Conveyor_Splitter_I_HelpText>컨베이어 벨트 분배기는 자원을 다른 방향으로 분할하려는 경우에 사용됩니다. 분할기뿐만 아니라 설정 탭에서 방향을 정할 수도 있습니다.</PRF_Conveyor_Splitter_I_HelpText>
+  <PRF_FuelingMachine_HelpText>연료 공급 기계는 꽤 사용하기 쉽습니다. 연료를 주입할 건물/대포에 로봇 팔(노란색 셀)을 향하고, 그 옆에 연료를 놓고(흰색 셀) 전원을 공급합니다.\n일반 발전기 및 그와 같은 연료 공급 장치처럼요.\ni또한 박격포와 일부 박격포/포탑에 연료로 공급할 수 있습니다.\nCE 포탑 지원.\nSoS 어뢰를 지원한다! 예~</PRF_FuelingMachine_HelpText>
+  <PRF_SimplePuller_I_HelpText>최신 버전보다 느린 간단한 물품 흡입기입니다.\n상자, DSU, 저장구역, 선반, 스마트 호퍼에서 흡입할 수 있습니다. 그리고 다른 끝에 같은 물품을 채울 수 있습니다.\n\n노란 칸 = 출력\n하얀 칸 = 입력\n가동하기 전에 토글하는 걸 잊지 마세요!\n필터 및 설정을 통해 더 잘 제어할 수 있습니다. 대상에서 해당 물품이 허용되지 않거나 벽이나 다른 물품에 의해 출력이 차단된 경우 출력되지 않는다는 점을 기억하세요.</PRF_SimplePuller_I_HelpText>
+  <PRF_GrowzonePuller_I_HelpText>다른 흡입기와 비슷하게 작동하지만 재배구역에서만 흡입할 수 있습니다.</PRF_GrowzonePuller_I_HelpText>
+  <PRF_SimplePuller_II_HelpText>2단계 배출기. 산업용 롤러 버전보다 더 많은 옵션이 있으며 IR이 할 수 없는 연결도 가능합니다.</PRF_SimplePuller_II_HelpText>
+  <PRF_SimplePuller_II_Wall_HelpText>2단계 내벽 배출기. 산업용 롤러 버전보다 더 많은 옵션이 있으며 IR이 할 수 없는 연결도 가능합니다.</PRF_SimplePuller_II_Wall_HelpText>
+  <PRF_SimplePuller_II_Side_HelpText>전환 배출기는 왼쪽/오른쪽으로 밀어낼 수 있어서, 때에 따라 유용합니다.</PRF_SimplePuller_II_Side_HelpText>
+  <PRF_SmartHopper_HelpText>스마트 흡입기는 땅이나 저장구역에서 가까운 물건을 끌어당겨 조립기가 사용할 수 있을 때까지 보관합니다.\n\n조립기에 사용하고 싶다면 조립기의 "허용 금지" 옵션을 사용하여 조립기가 흡입기에서 끌어낼 수 있도록 하는 것을 기억하세요.</PRF_SmartHopper_HelpText>
+  <PRF_DroneCultivator_I_HelpText>1 레벨 드론 재배기, 완전 자동화된 농업으로 가는 관문입니다.\n\n재배 구역이나 수경 재배기의 범위 안에 설치해서 작동합니다. 아무 문제 없이 범위 내의 모든 구역과 농작물에서 작동할 것입니다. 1 레벨 모델은 수확한 작물을 저장고로 자동 운반하지 않으며, 필요한 연구를 수행한 후 상위 계층 모델에서 사용할 수 있습니다.\n\n기본 성능:\n드론: 1 \n작업 범위: 11x11 \n작업 유형: 재배\n작업 시간: 1시간마다 교대\n기술 레벨: 10</PRF_DroneCultivator_I_HelpText>
+  <PRF_DroneCultivator_II_sun_HelpText>경작기는 전력이 공급되면 자동으로 작동합니다. 재배 구역에서 작물을 심고 수확하여 인접한 칸에 배출할 것입니다. SeedsPlease 모드가 설치되어 있다면, 경작기는 심기 작업을 위해 씨앗이 옆에 배치되어 있어야 합니다.</PRF_DroneCultivator_II_sun_HelpText>
+  <PRF_OldTypeCultivator_I_HelpText>경작기는 전력이 공급되면 자동으로 작동합니다. 재배 구역에서 작물을 심고 수확하여 인접한 칸에 배출할 것입니다. SeedsPlease 모드가 설치되어 있다면, 경작기는 심기 작업을 위해 씨앗이 옆에 배치되어 있어야 합니다.</PRF_OldTypeCultivator_I_HelpText>
+  <PRF_OldTypeCultivator_Sun_HelpText>경작기는 전력이 공급되면 자동으로 작동합니다. 재배 구역에서 작물을 심고 수확하여 인접한 칸에 배출할 것입니다. SeedsPlease 모드가 설치되어 있다면, 경작기는 심기 작업을 위해 씨앗이 옆에 배치되어 있어야 합니다.</PRF_OldTypeCultivator_Sun_HelpText>
+  <PRF_Sprinkler_I_HelpText>스프링클러는 라운드마다 1시간씩 작물과 식물의 성장을 무작위로 증가시킵니다. 셀을 선택하여 현재 작업 중인 셀을 확인할 수 있습니다.</PRF_Sprinkler_I_HelpText>
+  <PRF_AutoCrafterSimple_HelpText>S.A.L은 어떤 작업대의 작업자 위치에 "고정된 폰"으로 설정된 오래된 유형의 장치입니다.\n작업대에 계획서가 설정되어 있고 충분한 기술 레벨과 흡입 범위(하얀 칸과 주변)에 원재료가 있다면 자동으로 작업을 시작합니다.\n\n모든 S.A.L은 사전 설정된 기술을 가지고 있고, 어떤 작업을 다른 작업보다 잘 수행할 수 있음으로, 해당 작업에 적합한 기술을 자동으로 선택합니다.\n\nS.A.L은 스테이션 오토메이션과 물류를 의미하며, PRF가 만들어지기 전에는 독립 실행형 모드였습니다. 이 모드는 S.A.L과 스마트 흡입기를 구현했습니다. 하지만, 여기에서도 사용하는 새로운 독립형 조립기 때문에 버려졌습니다. 우리는 여전히 이런 것들이 쓸모가 있다고 생각했기 때문에 그것들을 되돌려 놓았습니다.</PRF_AutoCrafterSimple_HelpText>
+  <PRF_AutoCrafter_HelpText>S.A.L은 어떤 작업대의 작업자 위치에 "고정된 폰"으로 설정된 오래된 유형의 장치입니다.\n작업대에 계획서가 설정되어 있고 충분한 기술 레벨과 흡입 범위(하얀 칸과 주변)에 원재료가 있다면 자동으로 작업을 시작합니다.\n\n모든 S.A.L은 사전 설정된 기술을 가지고 있고, 어떤 작업을 다른 작업보다 잘 수행할 수 있음으로, 해당 작업에 적합한 기술을 자동으로 선택합니다.\n\nS.A.L은 스테이션 오토메이션과 물류를 의미하며, PRF가 만들어지기 전에는 독립 실행형 모드였습니다. 이 모드는 S.A.L과 스마트 흡입기를 구현했습니다. 하지만, 여기에서도 사용하는 새로운 독립형 조립기 때문에 버려졌습니다. 우리는 여전히 이런 것들이 쓸모가 있다고 생각했기 때문에 그것들을 되돌려 놓았습니다.</PRF_AutoCrafter_HelpText>
+  <PRF_TheArtMachine_HelpText>S.A.L은 어떤 작업대의 작업자 위치에 "고정된 폰"으로 설정된 오래된 유형의 장치입니다.\n작업대에 계획서가 설정되어 있고 충분한 기술 레벨과 흡입 범위(하얀 칸과 주변)에 원재료가 있다면 자동으로 작업을 시작합니다.\n\n모든 S.A.L은 사전 설정된 기술을 가지고 있고, 어떤 작업을 다른 작업보다 잘 수행할 수 있음으로, 해당 작업에 적합한 기술을 자동으로 선택합니다.\n\nS.A.L은 스테이션 오토메이션과 물류를 의미하며, PRF가 만들어지기 전에는 독립 실행형 모드였습니다. 이 모드는 S.A.L과 스마트 흡입기를 구현했습니다. 하지만, 여기에서도 사용하는 새로운 독립형 조립기 때문에 버려졌습니다. 우리는 여전히 이런 것들이 쓸모가 있다고 생각했기 때문에 그것들을 되돌려 놓았습니다.</PRF_TheArtMachine_HelpText>
+  <PRF_TheArtMaster_HelpText>S.A.L은 어떤 작업대의 작업자 위치에 "고정된 폰"으로 설정된 오래된 유형의 장치입니다.\n작업대에 계획서가 설정되어 있고 충분한 기술 레벨과 흡입 범위(하얀 칸과 주변)에 원재료가 있다면 자동으로 작업을 시작합니다.\n\n모든 S.A.L은 사전 설정된 기술을 가지고 있고, 어떤 작업을 다른 작업보다 잘 수행할 수 있음으로, 해당 작업에 적합한 기술을 자동으로 선택합니다.\n\nS.A.L은 스테이션 오토메이션과 물류를 의미하며, PRF가 만들어지기 전에는 독립 실행형 모드였습니다. 이 모드는 S.A.L과 스마트 흡입기를 구현했습니다. 하지만, 여기에서도 사용하는 새로운 독립형 조립기 때문에 버려졌습니다. 우리는 여전히 이런 것들이 쓸모가 있다고 생각했기 때문에 그것들을 되돌려 놓았습니다.</PRF_TheArtMaster_HelpText>
+  <PRF_OverclockedAutoAssembler_HelpText>S.A.L은 어떤 작업대의 작업자 위치에 "고정된 폰"으로 설정된 오래된 유형의 장치입니다.\n작업대에 계획서가 설정되어 있고 충분한 기술 레벨과 흡입 범위(하얀 칸과 주변)에 원재료가 있다면 자동으로 작업을 시작합니다.\n\n모든 S.A.L은 사전 설정된 기술을 가지고 있고, 어떤 작업을 다른 작업보다 잘 수행할 수 있음으로, 해당 작업에 적합한 기술을 자동으로 선택합니다.\n\nS.A.L은 스테이션 오토메이션과 물류를 의미하며, PRF가 만들어지기 전에는 독립 실행형 모드였습니다. 이 모드는 S.A.L과 스마트 흡입기를 구현했습니다. 하지만, 여기에서도 사용하는 새로운 독립형 조립기 때문에 버려졌습니다. 우리는 여전히 이런 것들이 쓸모가 있다고 생각했기 때문에 그것들을 되돌려 놓았습니다.</PRF_OverclockedAutoAssembler_HelpText>
+  <PRF_PlaceWorker_NaturalWall_denied>자연적인 또는 매끄러운 암석에 배치할 수 있음</PRF_PlaceWorker_NaturalWall_denied>
+  <PRF_PlaceWorker_NaturalWall_denied_ReplaceStuff>매끄러운 암석에 배치할 수 있음 (Replace Stuff 호환불가)</PRF_PlaceWorker_NaturalWall_denied_ReplaceStuff>
+  <PRF_PlaceWorker_GrowZonePuller>입력 칸은 반드시 농업 구역에 닿아야 합니다.</PRF_PlaceWorker_GrowZonePuller>
+  <PRF_SettingsITab_TipSignal_RotInputRange>시계 방향으로 입력 방향 회전</PRF_SettingsITab_TipSignal_RotInputRange>
+  <PRF_DropThing>{0} 떨구기</PRF_DropThing>
+  <PRF_CouldNotPlaceThing>{0}에 물품을 놓을 수 없습니다.</PRF_CouldNotPlaceThing>
+  <PRFBlockedBy>{0}에 막힘</PRFBlockedBy>
+  <PRF_Default_Tag>{0} (기본값)</PRF_Default_Tag>
+  <PRF_TotalStacksNum>총 저장된 수: {0}</PRF_TotalStacksNum>
+  <PRFItemsTab>품목</PRFItemsTab>
+  <PRFSettingsTab>설정</PRFSettingsTab>
+  <PRF.Common.OutputToStockpile>모든 저장구역에 출력할 수 있습니다.</PRF.Common.OutputToStockpile>
+  <PRF.Common.OutputToStockpileDesc>이 PRF 기계가 바로 앞에 있는 단일 셀 대신 저장구역의 어디에든 출력을 넣을 수 있는지 여부를 선택합니다. 이것은 긴 로봇 팔을 가진 어떤 기계, 가공을 위한 쓰레기로 거대한 쓰레기통을 채우는 배출기, 산더미 같은 석탄을 만들어내는 운반체들에게 알맞습니다. 상식적으로 생각하고 (아니라면) 어떻게 작동시킬지 결정하세요! (참고: 거대한 저장구역의 경우 물건을 놓을 때 작동이 약간 느려질 수 있나요?)</PRF.Common.OutputToStockpileDesc>
+  <PRF.Common.ObeysStorageFilters>저장고 필터 준수</PRF.Common.ObeysStorageFilters>
+  <PRF.Common.ObeysStorageFiltersDesc>이 PRF 기계가 저장구역으로 출력할 때 동작을 선택합니다. 저장구역의 필터를 설정하는데 신경을 쓰세요. 만약 설정하지 않는다면, 이 기계는 기쁘게 어떤 물품이든 저장구역에서 혀용하지 않은 것이라도 넣을 것입니다. 만약 설정되어 있다면, 그 물품을 내려놓을 수 있는 공간이 확보될 때까지 대기할 것입니다.</PRF.Common.ObeysStorageFiltersDesc>
+  <PRFStorageBuildingGainsName>이 저장건물은 이제 {0}(으)로 불립니다.</PRFStorageBuildingGainsName>
+  <PRFItemsTabLabel>모든 품목(총 {0} 저장 가능, 결과 {1} 보임)</PRFItemsTabLabel>
+  <PRFItemsTabLabel_Crate>{0} 저장됨, 최대 {1}, 결과 {2} 보임</PRFItemsTabLabel_Crate>
+  <PRFItemsTabLabel_Empty>아무 물품도 저장되어 있지 않습니다.</PRFItemsTabLabel_Empty>
+  <PRFRenameMassStorageUnitLabel>이름 변경</PRFRenameMassStorageUnitLabel>
+  <PRFRenameMassStorageUnitDesc>이 건물의 이름을 변경합니다.</PRFRenameMassStorageUnitDesc>
+  <PRFMassStorageUIThingLabel>{0} 더미</PRFMassStorageUIThingLabel>
+  <PRFCrateUIThingLabel>{0}/{1} 저장됨</PRFCrateUIThingLabel>
+  <PRFMassStorageRightClickSelectPawn>정착민 선택...</PRFMassStorageRightClickSelectPawn>
+  <PRFReorganize>재설정</PRFReorganize>
+  <PRFIOOutputSettings>출력 설정...</PRFIOOutputSettings>
+  <PRFReorganize_Desc>입출력 포트 재등록, 재설정 및 물품 재저장</PRFReorganize_Desc>
+  <PRFReorganize_Message>재설정 완료.</PRFReorganize_Message>
+  <PRFIOMode>입출력 방식</PRFIOMode>
+  <PRFIOInput>입력</PRFIOInput>
+  <PRFIOOutput>출력</PRFIOOutput>
+  <PRFBoundStorageBuilding>물품 공급</PRFBoundStorageBuilding>
+  <IOPort_Minimum_UseTooltip>이것이 활성화되면, 입출력 포트는 아이템이 X 저장 크기보다 작은 경우 출력된 아이템을 화물 플랫폼으로 반환합니다. 저장소에 최솟값을 초과할 만큼 충분한 품목이 있는 경우에만 품목을 가져갑니다.</IOPort_Minimum_UseTooltip>
+  <IOPort_Maximum_UseTooltip>이 기능을 활성화하면 저장량이 가득 찼거나 저장 크기가 X보다 크거나 같은 경우 입출력 포트가 품목 가져오기를 중지합니다.</IOPort_Maximum_UseTooltip>
+  <PRFNoDesc>설명 없음</PRFNoDesc>
+  <PaperclipFuelConsumption>연료 사용량: {0} EMC/초</PaperclipFuelConsumption>
+  <PaperclipProductionPerSecond>EMC 생산량: {0} EMC/초</PaperclipProductionPerSecond>
+  <PaperclipGeneratorEfficiency>현재 효율: {0}%/{1}%</PaperclipGeneratorEfficiency>
+  <PaperclipsRunOutIn>비축된 EMC 소모량: {0}</PaperclipsRunOutIn>
+  <SetPaperclipConsumptionPerSecond>EMC 소모량 설정</SetPaperclipConsumptionPerSecond>
+  <SetPaperclipProductionPerSecond>EMC 생산량 설정</SetPaperclipProductionPerSecond>
+  <SetPaperclipConsumptionPerSecond_Desc>초당 EMC 소모 속도 수정</SetPaperclipConsumptionPerSecond_Desc>
+  <SetPaperclipProductionPerSecond_Desc>초당 EMC 생산 속도 수정</SetPaperclipProductionPerSecond_Desc>
+  <AtomicReconstructorProgress>재건설 진행도: {0}</AtomicReconstructorProgress>
+  <PRFAtomicReconstructionTab>환경설정</PRFAtomicReconstructionTab>
+  <AtomicReconstructionTab_NowProducing>생산 중:</AtomicReconstructionTab_NowProducing>
+  <AtomicReconstructionTab_PaperclipCost>EMC 비용:</AtomicReconstructionTab_PaperclipCost>
+  <AtomicReconstructionTab_ConsumptionPerSecond>초당 소모량:</AtomicReconstructionTab_ConsumptionPerSecond>
+  <AtomicReconstructionTab_Progress>진행도:</AtomicReconstructionTab_Progress>
+  <AtomicReconstructionTab_Speed>속도 조절: {0} (EMC 사용량 수정: {1}x)</AtomicReconstructionTab_Speed>
+  <PRF_ArchoCipher_BankOverflow>EMC 복제기의 인공지능 칩이 당신에게 다음과 같은 메시지를 보냈습니다:\n\축하합니다! 당신은 복제기에서 EMC의 최대잔액을 이루었습니다. 진짜 질문은: 이 모든 EMC를 어떻게 할 것입니까?</PRF_ArchoCipher_BankOverflow>
+  <PRF_SettingsTab_RangeType_Label>채널 유형 변경</PRF_SettingsTab_RangeType_Label>
+  <PRF_SettingsTab_RangeType_CircleRange>원형</PRF_SettingsTab_RangeType_CircleRange>
+  <PRF_SettingsTab_RangeType_FacingRectRange>직사각형 면</PRF_SettingsTab_RangeType_FacingRectRange>
+  <PRF_SettingsTab_RangeType_RectRange>정사각형 중앙</PRF_SettingsTab_RangeType_RectRange>
+  <PRF_TimeLeftToDisintegrate>분해될 때까지 남은 시간: {0}</PRF_TimeLeftToDisintegrate>
+  <PRF_DisintegrationMessage>{0}(이)가 분해되었습니다.</PRF_DisintegrationMessage>
+  <PRFPaperclipDuplicatorTab>복제기</PRFPaperclipDuplicatorTab>
+  <PaperclipsInDuplicator>복제기에 있는 EMC:{0}</PaperclipsInDuplicator>
+  <PaperclipsInStorageUnit>저장 장치에 있는 EMC: {0}</PaperclipsInStorageUnit>
+  <PRFDepositWithdraw>입금 / 출금</PRFDepositWithdraw>
+  <PRFDepositWithdrawMode>모드:</PRFDepositWithdrawMode>
+  <PRFDeposit>입금</PRFDeposit>
+  <PRFWithdraw>출금</PRFWithdraw>
+  <PRFAmount>양</PRFAmount>
+  <PRFNotEnoughPaperclips>EMC 부족.</PRFNotEnoughPaperclips>
+  <PRFInputInvalid>올바르지 않은 입력.</PRFInputInvalid>
+  <PRFNoBoundStorageUnit>연결된 저장장치 없음.</PRFNoBoundStorageUnit>
+  <PRFBoundStorageUnitNotAvailableForIO>연결된 저장고가 물품을 전송할 수 없는 상태입니다.</PRFBoundStorageUnitNotAvailableForIO>
+  <SuccessfullyDepositedPaperclips>EMC {0} 개를 성공적으로 입금했습니다.</SuccessfullyDepositedPaperclips>
+  <SuccessfullyWithdrawnPaperclips>EMC {0} 개를 성공적으로 출금했습니다.</SuccessfullyWithdrawnPaperclips>
+  <PRFDroneStation_NumberOfDrones>저장된 드론들: {0}</PRFDroneStation_NumberOfDrones>
+  <PRFDroneName>드론</PRFDroneName>
+  <PRFDroneStationLockdown>잠금</PRFDroneStationLockdown>
+  <PRFDroneStationLockdownDesc>활성화된 모든 드론들을 불러들이고 드론 스테이션을 비활성화합니다.</PRFDroneStationLockdownDesc>
+  <PRFDroneStationLockdownAll>모두 폐쇄</PRFDroneStationLockdownAll>
+  <PRFDroneStationLockdownAllDesc>지도상의 모든 드론 스테이션을 폐쇄합니다.</PRFDroneStationLockdownAllDesc>
+  <PRFDroneStationLiftLockdownAll>모두 재활성</PRFDroneStationLiftLockdownAll>
+  <PRFDroneStationLiftLockdownAllDesc>지도상의 모든 드론 스테이션을 재활성화합니다.</PRFDroneStationLiftLockdownAllDesc>
+  <PRFDroneStationSelectArea>{0}\n구역 선택</PRFDroneStationSelectArea>
+  <ITab_DroneStation_labelKey>설정</ITab_DroneStation_labelKey>
+  <ITab_DroneStation_InfoLabel>이 드론 스테이션의 작업을 선택합니다.</ITab_DroneStation_InfoLabel>
+  <ITab_DroneStation_HeaderLabel>드론 스테이션 설정</ITab_DroneStation_HeaderLabel>
+  <ITab_DroneStation_averageskill>평균적인 관련 기술: </ITab_DroneStation_averageskill>
+  <ITab_DroneStation_Sleeptimes>드론 스테이션 휴면 시간 (빨간 색으로 표시됨)</ITab_DroneStation_Sleeptimes>
+  <ITab_DroneStation_SetTargetFuel>드론 스테이션 연료 레벨</ITab_DroneStation_SetTargetFuel>
+  <PRFOutputItems>출력 물품</PRFOutputItems>
+  <PRFPawnAccessLabel>접근 허용</PRFPawnAccessLabel>
+  <PRFPawnAccessDesc>접근 허용</PRFPawnAccessDesc>
+  <PRF_ChangeColorGizmo>색상 ({0})</PRF_ChangeColorGizmo>
+  <PRF_Warm_White>따뜻한 흰색</PRF_Warm_White>
+  <PRF_Cool_White>차가운 흰색</PRF_Cool_White>
+  <PRF_Red>빨간색</PRF_Red>
+  <PRF_Blue>파란색</PRF_Blue>
+  <PRF_Green>초록색</PRF_Green>
+  <PRF_Cyan>남색</PRF_Cyan>
+  <PRF_Yellow>노란색</PRF_Yellow>
+  <PRF_Magenta>자홍색</PRF_Magenta>
+  <PRF_None>없음</PRF_None>
+  <SALMessage_NoDataDiskFound>데이터 디스크를 먼저 근처에 두세요.</SALMessage_NoDataDiskFound>
+  <SearchingForIngredients>재료 검색....</SearchingForIngredients>
+  <SAL3_BillReport>현재 계획서: {0} ({1} 남음)</SAL3_BillReport>
+  <SAL3_Products>배치되기를 기다리는 제작품: {0}/{1}</SAL3_Products>
+  <PRF_OutputBufferWarning>출력 버퍼가 가득 찼습니다</PRF_OutputBufferWarning>
+  <SALMessage_NoRecipes>계획서가 없습니다.</SALMessage_NoRecipes>
+  <SALDataStartEncoding>계획서 불러오는 중...</SALDataStartEncoding>
+  <SALDataStartEncoding_Desc>근처의 제작대에서 새 계획서를 가져옵니다.</SALDataStartEncoding_Desc>
+  <SALDataCancelBills>계획 취소</SALDataCancelBills>
+  <AdjustDirection_Output>출력 방향 조정</AdjustDirection_Output>
+  <SAL_Name>기계</SAL_Name>
+  <SALInspect_RecipeReport>현재 계획서: {0}\n남은 작업: {1}</SALInspect_RecipeReport>
+  <SAL3_StoredRecipes>저장된 계획서: {0}</SAL3_StoredRecipes>
+  <SAL3Alert_SomeBillsRemoved>계획서가 삭제되어서 자동 조립기에서 더 이상 제작할 수 없습니다.</SAL3Alert_SomeBillsRemoved>
+  <SAL3_BillsTabLabel>계획서</SAL3_BillsTabLabel>
+  <AssemblerIdle>대기</AssemblerIdle>
+  <AssemblerNoBills>계획 대기중</AssemblerNoBills>
+  <SwitchedOff>사용 중지</SwitchedOff>
+  <SALToggleForbidden>금지된 물품 사용 허용</SALToggleForbidden>
+  <SALToggleForbidden_Desc>자동 조립기가 금지된 품목을 가져오도록 허용 / 금지합니다. 체크함은 허용을 의미합니다.</SALToggleForbidden_Desc>
+  <SALCurrentProductionSpeed>현재 계획서의 제작 속도 ({0}): {1}</SALCurrentProductionSpeed>
+  <DeepQuarry_TotalSoFar>지금까지 채굴한 총 암석 수: {0}</DeepQuarry_TotalSoFar>
+  <SmartHopper_SetTargetAmount>최소/최대 양 설정</SmartHopper_SetTargetAmount>
+  <SmartHopper_Minimum_Label>최솟값 사용?</SmartHopper_Minimum_Label>
+  <SmartHopper_Maximum_Label>최댓값 사용?</SmartHopper_Maximum_Label>
+  <SmartHopper_MaximumKeyword>최대</SmartHopper_MaximumKeyword>
+  <SmartHopper_MinimumKeyword>최소</SmartHopper_MinimumKeyword>
+  <SmartHopper_Minimum>현재 물품 최소 제한: {0}</SmartHopper_Minimum>
+  <SmartHopper_Maximum>현재 물품 최대 제한: {0}</SmartHopper_Maximum>
+  <SmartHopper_Minimum_UseTooltip>이 기능을 사용하면 저장된 항목의 X 스택 크기보다 작은 경우 스마트 투입구에서 해당 항목을 금지 해제합니다. 또한, 최솟값을 초과할 만큼 충분한 품목이 있는 경우에만 품목을 가져갑니다.</SmartHopper_Minimum_UseTooltip>
+  <SmartHopper_Maximum_UseTooltip>이 기능을 활성화하면 저장량이 가득 찼거나 저장 크기가 X보다 크거나 같은 경우 스마트 투입구가 품목 가져오기를 중지합니다.</SmartHopper_Maximum_UseTooltip>
+  <SmartHopper_PickupFromGround>땅에서 줍기</SmartHopper_PickupFromGround>
+  <ProjectRimFactoryModName>프로젝트 림팩토리</ProjectRimFactoryModName>
+  <PRF.Settings.RequireReboot>설정을 적용하기 위해 재시작이 필요합니다.</PRF.Settings.RequireReboot>
+  <PRF.Settings.Select>선택</PRF.Settings.Select>
+  <PRF.Settings.TopMessage><![CDATA[<size=20>모든 설정 변경사항을 적용하려면 <b><i><color=red>다시 시작해야</color></i></b> 합니다.</size>]]></PRF.Settings.TopMessage>
+  <PRF.Settings.restartMessage>닫기를 한 후에 모든 변경 사항은 림월드를 재시작해야 적용됩니다.\n또한, 지금의 주의할 점은 이곳의 어떤 설정이든 바꾼다면 Startup Imapct 모드에 의해 저장 파일이 망가질 수도 있습니다.</PRF.Settings.restartMessage>
+  <PRF.Settings.AssemblerMessage>조립기 설정</PRF.Settings.AssemblerMessage>
+  <PRF.Settings.OtherMessage>기타 설정</PRF.Settings.OtherMessage>
+  <PRF.Settings.StorageMessage>저장소 설정</PRF.Settings.StorageMessage>
+  <PRF.Settings.TurnOffHelpButton.Label>도움말 버튼 끄기</PRF.Settings.TurnOffHelpButton.Label>
+  <PRF.Settings.TurnOffHelpButton.Desc>도움말 버튼 끄기</PRF.Settings.TurnOffHelpButton.Desc>
+  <PRF.Settings.TurnOffPulseGlowerEffect.Label>펄스 반짝임 효과 켜기</PRF.Settings.TurnOffPulseGlowerEffect.Label>
+  <PRF.Settings.TurnOffPulseGlowerEffect.Desc>펄스 반짝임 효과 켜기</PRF.Settings.TurnOffPulseGlowerEffect.Desc>
+  <PRF.Settings.TurnOffSwapTexture.Label>텍스처 전환 효과 끄기</PRF.Settings.TurnOffSwapTexture.Label>
+  <PRF.Settings.TurnOffSwapTexture.Desc>텍스처 전환 효과 끄기</PRF.Settings.TurnOffSwapTexture.Desc>
+  <PRF.Settings.TurnOffDrawStatus.Label>작업 상태 끄기</PRF.Settings.TurnOffDrawStatus.Label>
+  <PRF.Settings.TurnOffDrawStatus.Desc>작업 상태 끄기</PRF.Settings.TurnOffDrawStatus.Desc>
+  <PRF.Settings.TurnOffDoEffect.Label>계획서 효과 끄기</PRF.Settings.TurnOffDoEffect.Label>
+  <PRF.Settings.TurnOffDoEffect.Desc>계획서 효과 끄기</PRF.Settings.TurnOffDoEffect.Desc>
+  <PRF.Settings.TurnOffStorageDefault.Label>기본 저장소 설정 끄기</PRF.Settings.TurnOffStorageDefault.Label>
+  <PRF.Settings.TurnOffStorageDefault.Desc>기본 저장소 설정 끄기</PRF.Settings.TurnOffStorageDefault.Desc>
+  <PRF.Settings.TurnOffDsuDestroy.Label>DSU의 물품 파괴 기능 끄기</PRF.Settings.TurnOffDsuDestroy.Label>
+  <PRF.Settings.TurnOffDsuDestroy.Desc>DSU의 물품 파괴 기능 끄기</PRF.Settings.TurnOffDsuDestroy.Desc>
+  <PRF.Settings.DsuLimit.Label>DSU 저장고 제한 설정</PRF.Settings.DsuLimit.Label>
+  <PRF.Settings.DsuLimit.Desc>DSU 저장고 제한 설정</PRF.Settings.DsuLimit.Desc>
+  <PRF.Settings.recipeDB.Label>계획서 DB 범위 설정</PRF.Settings.recipeDB.Label>
+  <PRF.Settings.recipeDB.Desc>계획서 DB 범위 설정</PRF.Settings.recipeDB.Desc>
+  <PRF.Settings.TurnOffInfestation.Label>T1/T2 채굴기의 감염 끄기(불균형 모드)</PRF.Settings.TurnOffInfestation.Label>
+  <PRF.Settings.TurnOffInfestation.Desc>T1/T2 채굴기의 감염 끄기(불균형 모드)</PRF.Settings.TurnOffInfestation.Desc>
+  <PRF.Settings.TurnOffMinerNerf.Label>채굴기가 모든 종류의 광석 채굴 가능(불균형 모드)</PRF.Settings.TurnOffMinerNerf.Label>
+  <PRF.Settings.TurnOffMinerNerf.Desc>채굴기가 모든 종류의 광석 채굴 가능(불균형 모드)</PRF.Settings.TurnOffMinerNerf.Desc>
+  <PRF.Settings.TurnOffGrouping.Label>그룹화 메뉴/ 드롭다운 메뉴 중 일부 끄기</PRF.Settings.TurnOffGrouping.Label>
+  <PRF.Settings.TurnOffGrouping.Desc>그룹화 메뉴/ 드롭다운 메뉴 중 일부 끄기</PRF.Settings.TurnOffGrouping.Desc>
+  <PRF.Settings.TurnOffFurnacefuel.Label>T1 용광로의 연료 사용 끄기</PRF.Settings.TurnOffFurnacefuel.Label>
+  <PRF.Settings.TurnOffFurnacefuel.Desc>T1 용광로의 연료 사용 끄기</PRF.Settings.TurnOffFurnacefuel.Desc>
+  <PRF.Settings.TurnOffCoalGen.Label>석탄 끄기</PRF.Settings.TurnOffCoalGen.Label>
+  <PRF.Settings.TurnOffCoalGen.Desc>석탄 끄기</PRF.Settings.TurnOffCoalGen.Desc>
+  <PRF.ThornyMemorialTitle>손스워스의 페가수스</PRF.ThornyMemorialTitle>
+  <PRF.ThornyMemorialDesc>이 페가수스는 컵케이크에 똥을 싼 것처럼 보입니다. 이 예술은 위대한 예술가이자 코더인 손스워스의 마지막 작품입니다. 그는 장님으로 변해가고 있었죠. 페가수스는 행복한 친구들에게 둘러싸여 있습니다.\n\nRIP Thinsworth, 2020년 9월 19일.\n\n당신이 그리울 거예요.</PRF.ThornyMemorialDesc>
+  <PRF.ThornyAuthor>손스워스</PRF.ThornyAuthor>
+</LanguageData>

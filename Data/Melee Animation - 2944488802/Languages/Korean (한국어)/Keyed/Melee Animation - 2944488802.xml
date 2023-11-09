@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AM.ModTitle>Epicguru's Melee Animation</AM.ModTitle>
+  <AM.Animation>애니메이션</AM.Animation>
+  <AM.Error.Grapple.FloatMenu>올가미 불가: {0}</AM.Error.Grapple.FloatMenu>
+  <AM.Grapple.FloatMenu>올가미 {0}</AM.Grapple.FloatMenu>
+  <AM.Grapple.FloatMenu.Tip>올가미를 사용하여 {1}을 {0} 쪽으로 당깁니다.\n이것은 {1}에 해를 끼치지 않습니다.</AM.Grapple.FloatMenu.Tip>
+  <AM.Grapple.FloatMenu.TipEnemy>올가미를 사용해 {1}을 {0} 쪽으로 당깁니다.\n이것은 {1}에게 해를 끼치지는 않지만, 근접/공격 범위 안에 들어갑니다.</AM.Grapple.FloatMenu.TipEnemy>
+  <AM.Error.Exec.FloatMenu>처형 불가: {0}</AM.Error.Exec.FloatMenu>
+  <AM.Exec.FloatMenu>처형 {0}</AM.Exec.FloatMenu>
+  <AM.Exec.FloatMenu.Tip>{1}에게 처형을 수행합니다.\n 무기, 근접 기술, 방어구, 모드 설정에 따라 가능한 결과:\n{2}.</AM.Exec.FloatMenu.Tip>
+  <AM.Exec.FloatMenu.Walk> (목표 지점까지 걸어서 이동)</AM.Exec.FloatMenu.Walk>
+  <AM.Exec.FloatMenu.Lasso> (올가미)</AM.Exec.FloatMenu.Lasso>
+  <AM.Error.Grapple.Internal>Int.Error: {Error}</AM.Error.Grapple.Internal>
+  <AM.Error.Exec.Internal>Int.Error: {Error}</AM.Error.Exec.Internal>
+  <AM.Error.Grapple.AlreadyAtTarget>{Target}(은)는 이미 근접 범위에 있습니다.</AM.Error.Grapple.AlreadyAtTarget>
+  <AM.ProbReport.Kill>살해</AM.ProbReport.Kill>
+  <AM.ProbReport.Down>쓰러짐</AM.ProbReport.Down>
+  <AM.ProbReport.Injure>부상</AM.ProbReport.Injure>
+  <AM.Error.Duel.Internal>Int.Error: {Error}</AM.Error.Duel.Internal>
+  <AM.Error.Duel.Dead>{Pawn}가 죽음</AM.Error.Duel.Dead>
+  <AM.Error.Duel.Down>{Pawn}가 쓰러짐</AM.Error.Duel.Down>
+  <AM.Error.Duel.NotSpawned>{Pawn}(은)는 지금 결투를 할 수 없습니다.</AM.Error.Duel.NotSpawned>
+  <AM.Error.Duel.NotSpawned.Short>{Pawn}을 사용할 수 없음</AM.Error.Duel.NotSpawned.Short>
+  <AM.Error.Duel.MissingWeapon>{Pawn}(은)는 사용가능한 근접 무기가 없습니다.</AM.Error.Duel.MissingWeapon>
+  <AM.Error.Duel.NoAnim>이 사람이 들고 있는 무기는 결투에 사용할 수 없습니다.</AM.Error.Duel.NoAnim>
+  <AM.Error.Duel.NoAnim.Short>이 근접 무기는 결투에 사용할 수 없음</AM.Error.Duel.NoAnim.Short>
+  <AM.Error.Duel.NoPath>.{0}(은)는 결투를 시작하기 위해 {1}에 도달하지 못했습니다.</AM.Error.Duel.NoPath>
+  <AM.Error.Duel.OnCooldown>{0}(은)는 결투 재사용 대기시간 중입니다.</AM.Error.Duel.OnCooldown>
+  <AM.Error.Duel.WaitedTooLong>{0}은 {1}이 결투 장소에 도착할 때까지 기다리다 지쳐서 결투를 취소했습니다.</AM.Error.Duel.WaitedTooLong>
+  <AM.Gizmos.DuelSpot.StartDuel.Label>결투 시작</AM.Gizmos.DuelSpot.StartDuel.Label>
+  <AM.Gizmos.DuelSpot.StartDuel.Desc>유효한 근접 무기를 가진 두 명의 정착민 사이에서 결투를 수동으로 시작합니다. 포로는 참가할 수 없습니다.\n\n이 결투는 친선 결투이므로 아무도 다치지 않습니다.</AM.Gizmos.DuelSpot.StartDuel.Desc>
+  <AM.Gizmos.DuelSpot.StartDuel.InUse>결투 장소는 현재 사용 중입니다.</AM.Gizmos.DuelSpot.StartDuel.InUse>
+  <AM.Gizmos.DuelSpot.StartDuel.Forbidden>결투 장소가 상호작용 금지 되어 있습니다.</AM.Gizmos.DuelSpot.StartDuel.Forbidden>
+  <AM.Gizmos.DuelSpot.StartDuel.MissingWeapon>{0}에겐 유효한 근접 무기가 없습니다.</AM.Gizmos.DuelSpot.StartDuel.MissingWeapon>
+  <AM.Gizmos.DuelSpot.StartDuel.IncompatWeapon>{0}의 무기로는 {1}과 결투할 수 없으며, 그 무기는 호환되지 않습니다.</AM.Gizmos.DuelSpot.StartDuel.IncompatWeapon>
+  <AM.Gizmos.DuelSpot.StartDuel.CannotInterrupt>{0}의 현재 작업을 중단할 수 없습니다.</AM.Gizmos.DuelSpot.StartDuel.CannotInterrupt>
+  <AM.Gizmos.DuelSpot.StartDuel.NoPath>결투 장소에 {0}이 도달할 수 없습니다</AM.Gizmos.DuelSpot.StartDuel.NoPath>
+  <AM.Gizmos.DuelSpot.StartDuel.OnCooldown>{0}은 앞으로 {2}초 동안 친선 결투를 할 수 없습니다.</AM.Gizmos.DuelSpot.StartDuel.OnCooldown>
+  <AM.Gizmos.DuelSpot.StartDuel.FloatMenuTitle>결투할 정착민 선택</AM.Gizmos.DuelSpot.StartDuel.FloatMenuTitle>
+  <AM.Gizmos.DuelSpot.StartDuel.FailedToStart>예기치 않은 오류로 인해 결투를 시작할 수 없습니다. 모더에게 로그를 보내주세요.</AM.Gizmos.DuelSpot.StartDuel.FailedToStart>
+  <AM.Error.Grapple.Dead>{Grappler}가 죽음</AM.Error.Grapple.Dead>
+  <AM.Error.Exec.Dead>{Exec}가 죽음</AM.Error.Exec.Dead>
+  <AM.Error.Exec.NoWalk>{Target}이 {Exec}에게 인접하지 않아, 올가미를 묶거나 걸어갈 수 없습니다.</AM.Error.Exec.NoWalk>
+  <AM.Error.Exec.NoWalk.Short>{Target}는 닿을 수 없습니다.</AM.Error.Exec.NoWalk.Short>
+  <AM.Error.Grapple.DeadTarget>{Target}가 죽음</AM.Error.Grapple.DeadTarget>
+  <AM.Error.Exec.DeadTarget>{Target}가 죽음</AM.Error.Exec.DeadTarget>
+  <AM.Error.Grapple.Downed>{Grappler}가 쓰러짐</AM.Error.Grapple.Downed>
+  <AM.Error.Exec.Downed>{Exec}가 쓰러짐</AM.Error.Exec.Downed>
+  <AM.Error.Exec.DownedTarget>{Target}(은)는 쓰러졌습니다 쓰러진 사람은 처형을 할 수 없습니다.</AM.Error.Exec.DownedTarget>
+  <AM.Error.Exec.DownedTarget.Short>{Target}가 쓰러짐</AM.Error.Exec.DownedTarget.Short>
+  <AM.Error.Grapple.AlreadyTarget>{Target}(은)는 이미 올가미에 묶어짐</AM.Error.Grapple.AlreadyTarget>
+  <AM.Error.Grapple.AlreadyTarget.Short>이미 올가미에 묶임</AM.Error.Grapple.AlreadyTarget.Short>
+  <AM.Error.Grapple.MissingLOS>시야가 확보되지 않음</AM.Error.Grapple.MissingLOS>
+  <AM.Error.Grapple.TooFar>{Target}이 {Grappler}의 올가미에 닿지 않았습니다.</AM.Error.Grapple.TooFar>
+  <AM.Error.Grapple.TooFar.Short>너무 멂</AM.Error.Grapple.TooFar.Short>
+  <AM.Error.Grapple.InAnimation>{Target}(은)는 올가미에 묶일 수 없습니다.</AM.Error.Grapple.InAnimation>
+  <AM.Error.Grapple.SelfInAnimation>{Grappler}(은)는 올가미를 사용할 수 없습니다.</AM.Error.Grapple.SelfInAnimation>
+  <AM.Error.Exec.SelfInAnimation>{Grappler}(은)는 처형을 실행할 수 없습니다.</AM.Error.Exec.SelfInAnimation>
+  <AM.Error.Exec.InAnimation>{Target}(은)는 처형을 당할 수 없습니다.</AM.Error.Exec.InAnimation>
+  <AM.Error.Grapple.Mass>{Target](은)는 {Grappler}의 올가미로 묶기엔 너무 무겁습니다.</AM.Error.Grapple.Mass>
+  <AM.Error.Grapple.Mass.Short>{Target}(은)는 너무 무거움</AM.Error.Grapple.Mass.Short>
+  <AM.Error.Grapple.Size>{Target}(은)는 {Grappler}의 올가미로 묶기엔 너무 큽니다</AM.Error.Grapple.Size>
+  <AM.Error.Grapple.Size.Short>{Target}(은)는 너무 큼</AM.Error.Grapple.Size.Short>
+  <AM.Error.Grapple.Cooldown>{Grappler}의 올가미는 현재 재사용 준비 중입니다.</AM.Error.Grapple.Cooldown>
+  <AM.Error.Grapple.Cooldown.Short>올가미 재사용 대기 시간</AM.Error.Grapple.Cooldown.Short>
+  <AM.Error.Grapple.SkillIssue>{Grappler}(은)는 올가미를 사용하는 데 필요한 격투 ({MeleeSkill})레벨이 없습니다.</AM.Error.Grapple.SkillIssue>
+  <AM.Error.Grapple.SkillIssue.Short>근접 스킬 불충분</AM.Error.Grapple.SkillIssue.Short>
+  <AM.Error.Grapple.Manipulation>{Grappler}(은)는 올가미를 사용할 때 필요할 조작 능력치가 없습니다.</AM.Error.Grapple.Manipulation>
+  <AM.Error.Grapple.Manipulation.Short>조작 불충분</AM.Error.Grapple.Manipulation.Short>
+  <AM.Error.Grapple.NoDest>{Grappler} 주변에 {Target}을 끌어놓을 빈 공간이 없습니다.</AM.Error.Grapple.NoDest>
+  <AM.Error.Grapple.NoDest.Short>{Grappler}의 공간 부족</AM.Error.Grapple.NoDest.Short>
+  <AM.Error.Exec.NoWeapon>{Exec}가 유효한 근접 무기를 사용하지 않습니다.</AM.Error.Exec.NoWeapon>
+  <AM.Error.Exec.NoWeapon.Short>근접 무기 없음</AM.Error.Exec.NoWeapon.Short>
+  <AM.Error.Exec.Cooldown>{Exec}의 실행 재사용 대기시간 중입니다.</AM.Error.Exec.Cooldown>
+  <AM.Error.Exec.Cooldown.Short>처형 준비중</AM.Error.Exec.Cooldown.Short>
+  <AM.Error.Exec.NoAnims>{Exec}이 {Weapon}(을)를 사용하여 실행 애니메이션을 수행할 수 없습니다.\n이것은 격투 능력치가 부족하거나 모드 설정에서 모든 애니메이션이 비활성화 되어 있기 때문일 수 있습니다.</AM.Error.Exec.NoAnims>
+  <AM.Error.Exec.NoAnims.Short>애니메이션 없음</AM.Error.Exec.NoAnims.Short>
+  <AM.Error.Exec.NoSpace>여기에 실행 애니메이션을 실행할 공간이 충분하지 않습니다.</AM.Error.Exec.NoSpace>
+  <AM.Error.Exec.NoSpace.Short>공간 없음</AM.Error.Exec.NoSpace.Short>
+  <AM.Error.Exec.NoPath>{Exec}가 {Target}에게 걸어서 도달할 수 없으며, 올가미를 사용할 수 없거나 사용할 수 없습니다.</AM.Error.Exec.NoPath>
+  <AM.Error.Exec.NoPath.Short>대상 경로 없음</AM.Error.Exec.NoPath.Short>
+  <AM.Stats.BaseValue>기본값: {0}</AM.Stats.BaseValue>
+  <AM.Stats.MeleeSkillOffset>격투 능력치 ({0}) 효과: {1}</AM.Stats.MeleeSkillOffset>
+  <AM.Stats.ConsciousnessOffset>의식 ({0}) 효과: {1}</AM.Stats.ConsciousnessOffset>
+  <AM.Stats.ManipulationOffset>조작 ({0}) 효과: {1}</AM.Stats.ManipulationOffset>
+  <AM.Stats.WeaponDamageTypeOffset>무기 피해 유형 ({0}) 효과: {1}</AM.Stats.WeaponDamageTypeOffset>
+  <AM.Stats.WeaponDPSCoef>무기 DPS ({0}) 효과: {1}</AM.Stats.WeaponDPSCoef>
+  <AM.Stats.NoWeapon>근접 무기 미장착: {0}</AM.Stats.NoWeapon>
+  <AM.Stats.GlobalCoef>전체 {0} 승수 (모드 설정 내에서): {1}</AM.Stats.GlobalCoef>
+  <AM.Stats.FriendlyCoef>아군 배율(모드 설정에서): x{0}</AM.Stats.FriendlyCoef>
+  <AM.Stats.EnemyCoef>적군 배율(모드 설정에서): x{0}</AM.Stats.EnemyCoef>
+  <AM.Stats.Lethality>사망 확률</AM.Stats.Lethality>
+  <AM.Stats.DuelAbility>결투 능력</AM.Stats.DuelAbility>
+  <AM.Stats.FriendlyPawnBonus>아군 보너스 (모드 설정에서): {0}</AM.Stats.FriendlyPawnBonus>
+</LanguageData>

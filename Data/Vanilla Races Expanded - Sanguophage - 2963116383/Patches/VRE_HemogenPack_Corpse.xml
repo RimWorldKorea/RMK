@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="VRE_HemogenPack_Corpse"]/label</xpath>
+		<value>
+			<label>혈액팩 (시체)</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="VRE_HemogenPack_Corpse"]/description</xpath>
+		<value>
+			<description>시체에서 나온 오염되고 썩은 혈액정수입니다. 힘을 크게 약화시키지만, 혈액 여과량을 크게 증가시킵니다.</description>
+		</value>
+	</Operation>
+</Patch>

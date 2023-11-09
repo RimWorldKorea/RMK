@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<NamerPersonSatyr_Male.rulePack.rulesStrings>
+    <li>r_name(p=9)->[firstName] [SatyrSurname]</li>
+    <li>r_name(p=4)->[firstName] [SatyrPre][SatyrSuf]</li>
+    <li>r_name(p=3)->[SatyrUni] [SatyrSurname]</li>
+    <li>r_name->[SatyrFixedName]</li>
+    <li>r_name->[firstName] [SatyrSurname]</li>
+
+    <li>firstName(p=10)->[SatyrMasc]</li>
+    <li>firstName->[SatyrPre][SatyrSuf]</li>
+
+    <li>SatyrFixedName->[SatyrFixedMasc]</li> <!-- Translators note: these fixed names are all references to musical bands or characters sung about in popular songs-->
+</NamerPersonSatyr_Male.rulePack.rulesStrings>
+
+<NamerPersonSatyr_Female.rulePack.rulesStrings>
+    <li>r_name(p=9)->[firstName] [SatyrSurname]</li>
+    <li>r_name(p=4)->[firstName] [SatyrPre][SatyrSuf]</li>
+    <li>r_name(p=3)->[SatyrUni] [SatyrSurname]</li>
+    <li>r_name->[SatyrFixedName]</li>
+    <li>r_name->[firstName] [SatyrSurname]</li>
+
+    <li>firstName(p=10)->[SatyrFem]</li>
+    <li>firstName->[SatyrPre][SatyrSuf]</li>
+
+    <li>SatyrFixedName->[SatyrFixedFem]</li> <!-- Translators note: these fixed names are all references to musical bands or characters depicted in popular songs -->
+</NamerPersonSatyr_Female.rulePack.rulesStrings>
+
+
+</LanguageData>
