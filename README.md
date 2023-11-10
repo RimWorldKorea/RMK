@@ -3,13 +3,25 @@ RimWorld Mod Korean Project
 
 림월드 모드 한국어 번역 통합 프로젝트입니다.
 
-현재 상태: 구축 중
-
-번역 목록 열람은 다음 링크를 이용해주세요.
-<p>https://docs.google.com/spreadsheets/d/e/2PACX-1vTZtvMrguzs86lhnObgcacvtmTWJZ-H8ipgZcXdKC06GdfqADgZADk7kQxrftbZhJmP0uM9hRFtDoUK/pubhtml?gid=1757504801&single=true</p>
-
-
-
+번역팩을 Github에서 직접 다운로드 받으려면 Code-Download ZIP 버튼을 누르세요.<br>
+다운받은 파일은 림월드 로컬 모드 폴더에 풀어서 사용하세요.<br>
+<br>
+번역 목록 열람:<br>
+https://docs.google.com/spreadsheets/d/e/2PACX-1vTZtvMrguzs86lhnObgcacvtmTWJZ-H8ipgZcXdKC06GdfqADgZADk7kQxrftbZhJmP0uM9hRFtDoUK/pubhtml?gid=1757504801&single=true
+<hr>
+제보, 제안, 요청, 문의 사항 등이 있다면 Github Discussions 또는 림월드 마이너 갤러리에서 관리자를 호출해주세요.<br>
+림월드 마이너 갤러리 관리자(주딱, 파딱)와 RMK는 아무런 관계가 없으니 유의바랍니다.<br>
+<br>
+Steam: <br>
+림월드 마이너 갤러리: https://gall.dcinside.com/mgallery/board/lists?id=rimworld<br>
+<br>
+번역을 추가 또는 변경하고 싶다면<br>
+- Pull requests를 요청하거나<br>
+- 기타 수단을 통해 파일을 공유한 뒤 관리자에게 요청하세요<br>
+<br>
+<br>
+<br>
+<br>
 <hr>
 관리용 데이터베이스 링크
 <p>https://docs.google.com/spreadsheets/d/1na13zJwwKcSk4FeHgeGalNrgk0vc78_Y9fMOhCdBqf0/edit?usp=sharing</p>
