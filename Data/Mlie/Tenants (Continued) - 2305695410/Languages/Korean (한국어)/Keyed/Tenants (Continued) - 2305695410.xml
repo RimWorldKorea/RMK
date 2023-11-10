@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RequestForTenancyTitle>{0}의 임차권 요청</RequestForTenancyTitle>
+  <RequestForTenancyInitial>{PAWN_nameDef}(이)가 잠시동안 거처할 곳을 찾고 있으며 {PAWN_pronoun}는 비용을 지불할 의사를 보이고 있습니다. 이 제안을 어떻게 생각하십니까?</RequestForTenancyInitial>
+  <RequestForTenancyOpportunity>{PAWN_nameDef}(은)는 방송을 듣고 {PAWN_pronoun}가 잠시 거주할 수 있는지 묻습니다.</RequestForTenancyOpportunity>
+  <RequestForTenancyContinued>{PAWN_nameDef}(이)가 계약 연장을 요청합니다. 계약을 연장하겠습니까?</RequestForTenancyContinued>
+  <RequestForTenancyContract>{PAWN_nameDef}(은)는 하루 당 {1}은을 지급하며 총 {0}일 동안 함께 살면서 거주하게 됩니다. 안정성을 포함해 {PAWN_possessive} 모든 요구사항을 확인하세요. 실패하게 되면 다음과 같은 결과가 발생할 수 있습니다.\n\n{PAWN_pronoun}는 언제든지 계약을 해지할 수 있습니다. 전액은 배달을 통해 받게 됩니다. 직접 계약 해지를 할 수 있지만 입주금은 무효처리가 됩니다.</RequestForTenancyContract>
+  <RequestForTenancyRejected>{1_labelShort}(은)는 '아무튼 같이 살길 원한다'며 중얼거리고 있습니다...</RequestForTenancyRejected>
+  <RequestForTenancyContinuedRejected>{1_labelShort}(은)는 슬프지만 결정을 받아들이기로 했습니다.</RequestForTenancyContinuedRejected>
+  <RequestForTenancyHiding>{PAWN_pronoun}를 쫓아 {0}의 구성원들이 올 거라고 얘기합니다! {PAWN_pronoun}를 받아들이면 {0}(이)가 화를 낼 것이며 현상금 사냥꾼들을 보낼 것입니다.</RequestForTenancyHiding>
+  <RequestForTenancyHidingTitle>{0}의 피신 요청</RequestForTenancyHidingTitle>
+  <RequestTenantWantToJoinTitle>{0}에서 세입자의 요청</RequestTenantWantToJoinTitle>
+  <RequestTenantWantToJoin>{PAWN_nameDef}(은)는 이곳에서의 생활에 만족하며 평생 머물고 싶어 합니다! {PAWN_objective} 수락하겠습니까?</RequestTenantWantToJoin>
+  <RequestTenantWantToJoinRejected>{PAWN_nameDef}(은)는 어떻게든 당신의 마음을 돌릴거라고 주장합니다!</RequestTenantWantToJoinRejected>
+  <ContractNew>새로운 계약</ContractNew>
+  <ContractEnd>계약 종료</ContractEnd>
+  <ContractBreach>계약 위반</ContractBreach>
+  <ContractRenewedMessage>{PAWN_nameDef}(은)는 임차권 계약을 연장합니다.</ContractRenewedMessage>
+  <ContractDoneHappy>{PAWN_nameDef}(와)과의 계약이 종료됨에 따라 {0}은의 전액이 지급될 것입니다. {PAWN_nameDef}(은)는 매우 만족해하며 지냈습니다.</ContractDoneHappy>
+  <ContractDoneSad>{PAWN_nameDef}(와)과의 계약이 종료됨에 따라 {0}은의 전액이 지급될 것입니다. {PAWN_nameDef}(은)는 다소 불만족스러웠습니다...</ContractDoneSad>
+  <ContractDone>{PAWN_nameDef}(와)과의 계약이 종료됨에 따라 {0}은의 전액이 지급될 것입니다.</ContractDone>
+  <ContractDoneTerminated>{PAWN_nameDef}(와)과의 계약이 종료됨에 따라 {0}은의 전액이 지급될 것입니다. {PAWN_nameDef}(은)는 씁쓸해하며 떠납니다...</ContractDoneTerminated>
+  <ContractDonePlayerTerminated>{PAWN_nameDef}(와)과의 계약은 종료 되었고 {PAWN_pronoun}는 강제로 떠나게 됩니다.</ContractDonePlayerTerminated>
+  <ContractDoneTheft>{PAWN_nameDef}(은)는 비용을 내지 않고 몰래 도망치기로 했습니다. {PAWN_pronoun}(은)는 뻔뻔하게도 도둑질을 하려고 합니다! {PAWN_nameDef}(와)과 같은 인간쓰레기는 처벌을 받아도 마땅하며 {PAWN_objective} 마음대로 처리할 권한이 있습니다.</ContractDoneTheft>
+  <ContractTerminateFail>지금은 계약을 취소할 수 없습니다.</ContractTerminateFail>
+  <ContractEndDate>종료: {0}</ContractEndDate>
+  <ContractPayment>납입금: {0}</ContractPayment>
+  <ContractLength>하루: {0}</ContractLength>
+  <ContractDaily>납입/하루: {0}</ContractDaily>
+  <TenantDescription>{PAWN_nameDef}(은)는 {1}이며, {0}살입니다.</TenantDescription>
+  <ContractAgree>수락</ContractAgree>
+  <ContractReject>거절</ContractReject>
+  <MayJoin>합류 가능</MayJoin>
+  <MayJoinTip>세입자가 정착지에 합류하도록 요청할 수 있습니다.</MayJoinTip>
+  <Terminate>종료</Terminate>
+  <TerminateTip>계약을 조기 해지한다면 입주금은 무효처리가 됩니다.</TerminateTip>
+  <AutoRenew>자동 연장</AutoRenew>
+  <AutoRenewTip>세입자가 계약이 만료되면 자동으로 갱신할 수 있습니다.</AutoRenewTip>
+  <InviteTenant>방송으로 세입자 초대</InviteTenant>
+  <AcceptTenant>세입자 수락</AcceptTenant>
+  <RejectTenant>세입자 거절</RejectTenant>
+  <InviteTenantMessage>방송을 통해 위치와 함께 전송됩니다. 이 메시지에는 은을 가진 사람들이 먹을 음식과 편안한 침대가 있다고 알립니다.</InviteTenantMessage>
+  <CourierArrivedTitle>{0}의 배달부</CourierArrivedTitle>
+  <CourierArrivedMessage>정착지에 배달부가 도착했습니다. 과연 {PAWN_pronoun}는 선물과 편지를 가져왔을까요?</CourierArrivedMessage>
+  <CheckMailBox>사서함 확인</CheckMailBox>
+  <MailDelivered>배달부가 편지를 가져왔습니다.</MailDelivered>
+  <CourierInvite>배달부를 보냅니다. 비용: {0} 은</CourierInvite>
+  <CourierCost>배달 비용을 충당하기 위해 수익금에서 {0}은을 가져갔습니다.</CourierCost>
+  <CourierInvited>배달부에게 방송을 보냈습니다. 곧 현재 지역으로 파견되며, 도착 시 {0}은이 부과됩니다.</CourierInvited>
+  <CourierDeniedTitle>{0}에서 배달이 거부되었습니다.</CourierDeniedTitle>
+  <CourierDeniedMessage>정착지로 예정되어 있던 배달이 보류되었습니다.</CourierDeniedMessage>
+  <CourierDeniedRadioMessage>연락을 시도했지만 정착지에 배달부가 없어 당장은 배달 보낼 수 없다고 말합니다.</CourierDeniedRadioMessage>
+  <TenantTurnedColonist>정착민</TenantTurnedColonist>
+  <Tenant>세입자</Tenant>
+  <Tenants>세입자</Tenants>
+  <FireFighting>소방</FireFighting>
+  <FireFightingTip>세입자가 화재 진압을 도와줄 수 있도록 허용합니다.</FireFightingTip>
+  <FireFightingError>{PAWN_nameDef}(은)는 화재를 진압할 수 없습니다!</FireFightingError>
+  <Basic>심부름</Basic>
+  <BasicTip>세입자가 전원 설정을 도와줄 수 있도록 허용합니다.</BasicTip>
+  <BasicError>{PAWN_nameDef}(은)는 조작을 할 수 없습니다!</BasicError>
+  <Hauling>운반</Hauling>
+  <HaulingTip>세입자가 운반을 도와줄 수 있도록 허용합니다.</HaulingTip>
+  <HaulingError>{PAWN_nameDef}(은)는 운반을 할 수 없습니다!</HaulingError>
+  <Cleaning>청소</Cleaning>
+  <CleaningTip>세입자가 청소를 도와줄 수 있도록 허용합니다.</CleaningTip>
+  <CleaningError>{PAWN_nameDef}(은)는 청소를 할 수 없습니다!</CleaningError>
+  <TenantMood>기분</TenantMood>
+  <TenantSad>슬픈 세입자 {0}.</TenantSad>
+  <TenantSadDesc>슬퍼하고 있는 세입자:\n\n{0}\n어떠한 문제가 있는지 살펴보시길 바랍니다.</TenantSadDesc>
+  <Captured>포획됨</Captured>
+  <Retribution>응징</Retribution>
+  <Opportunists>기회주의자</Opportunists>
+  <Mole>첩자</Mole>
+  <Wanted>지명 수배</Wanted>
+  <MoleCaptured>{PAWN_nameDef}(을)를 포획했습니다!\n\n{PAWN_pronoun}의 지인들에게 명분을 내세울만한 증거가 되었습니다!</MoleCaptured>
+  <TenantCaptured>{PAWN_nameDef}(을)를 포획했습니다!\n\n{PAWN_nameDef}의 친구나 관계가 있는 사람들로부터 분노를 사게되니 주의하세요.</TenantCaptured>
+  <TenantCapturedRetribution>{PAWN_nameDef}: 이봐, 넌 {0}에게 모욕감을 줬어. 죽을 각오해.</TenantCapturedRetribution>
+  <TenantDeath>{PAWN_nameDef}(이)가 사망했습니다!\n\n집주인으로서 의무를 다하지 못했습니다.</TenantDeath>
+  <TenantDeathRetribution>{PAWN_nameDef}: 이봐, 네가 {0}(을)를 죽였어. 죽을 각오해.</TenantDeathRetribution>
+  <TenantOpportunists>한 무리의 습격자들이 세입자를 찾아 죽이러 곧 도착합니다.</TenantOpportunists>
+  <TenantMoles>정착지 내에 있는 첩자의 상세한 안내에 따라 습격자들이 도착했습니다. 방어를 준비하세요!</TenantMoles>
+  <TenantMoleMessage>정착지에서 누군가가 비밀스러운 메시지를 보냈습니다!</TenantMoleMessage>
+  <WantedTenant>현상금 사냥꾼이 도착했습니다!</WantedTenant>
+  <TenantSurgeryWarning>{PAWN_nameDef}(은)는 수술 계획에 대해 불쾌해합니다! {PAWN_pronoun}는 이런 일을 할 수 없습니다!</TenantSurgeryWarning>
+  <TenantSurgeryLeave>{PAWN_nameDef}(은)는 당신의 행동에 질려 떠나기로 했습니다. {PAWN_pronoun}는 계약을 더 유지할 생각이 없습니다.</TenantSurgeryLeave>
+  <TenantFactionOutrage>{PAWN_nameDef}의 학대에 {0}(이)가 분노하여 해당 세력과의 우호도가 {1} 만큼 감소하게 됩니다.</TenantFactionOutrage>
+  <HarboringWantedTenant>{0}(은)는 지명 수배자를 숨겨준 것에 대해 불만을 표하며 해당 세력과의 우호도가 {1} 만큼 감소하게 됩니다.</HarboringWantedTenant>
+</LanguageData>
