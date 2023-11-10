@@ -9,8 +9,15 @@ RimWorld Mod Korean Project
 번역 목록 열람:<br>
 https://docs.google.com/spreadsheets/d/e/2PACX-1vTZtvMrguzs86lhnObgcacvtmTWJZ-H8ipgZcXdKC06GdfqADgZADk7kQxrftbZhJmP0uM9hRFtDoUK/pubhtml?gid=1757504801&single=true
 <hr>
-제보, 제안, 요청, 문의 사항 등이 있다면 Github Discussions 또는 림월드 마이너 갤러리에서 관리자를 호출해주세요.<br>
-림월드 마이너 갤러리 관리자(주딱, 파딱)와 RMK는 아무런 관계가 없으니 유의바랍니다.<br>
+제보, 제안, 요청, 문의 사항 등이 있다면<br>
+<br>
+  - Github Discussions에 글을 올리거나<br>
+  - 림월드 마이너 갤러리에서 관리자를 호출해주세요<br>
+  - 창작마당 페이지를 통한 문의는 볼 수도 있고 안 볼 수도 있습니다<br>
+<Br>
+그 외 별도의 연락 창구는 운영하지 않습니다.<br>
+<br>
+※ 림월드 마이너 갤러리 관리자(주딱, 파딱)와 RMK는 아무런 관계가 없으니 유의바랍니다.<br>
 <br>
 Steam: <br>
 림월드 마이너 갤러리: https://gall.dcinside.com/mgallery/board/lists?id=rimworld<br>
