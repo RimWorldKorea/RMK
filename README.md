@@ -6,7 +6,7 @@ RimWorld Mod Korean Project
 현재 상태: 구축 중
 
 번역 목록 열람은 다음 링크를 이용해주세요.
-<p>https://docs.google.com/spreadsheets/d/e/2PACX-1vTZtvMrguzs86lhnObgcacvtmTWJZ-H8ipgZcXdKC06GdfqADgZADk7kQxrftbZhJmP0uM9hRFtDoUK/pubhtml?gid=0&single=true</p>
+<p>https://docs.google.com/spreadsheets/d/e/2PACX-1vTZtvMrguzs86lhnObgcacvtmTWJZ-H8ipgZcXdKC06GdfqADgZADk7kQxrftbZhJmP0uM9hRFtDoUK/pubhtml?gid=1757504801&single=true</p>
 
 
 
