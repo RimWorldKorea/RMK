@@ -19,7 +19,7 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vTZtvMrguzs86lhnObgcacvtmTWJZ-H8
 <br>
 ※ 림월드 마이너 갤러리 관리자(주딱, 파딱)와 RMK는 아무런 관계가 없으니 유의바랍니다.<br>
 <br>
-Steam: <br>
+Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=3079466972<br>
 림월드 마이너 갤러리: https://gall.dcinside.com/mgallery/board/lists?id=rimworld<br>
 <br>
 번역을 추가 또는 변경하고 싶다면<br>
