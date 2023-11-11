@@ -29,6 +29,3 @@ Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=3079466972<br>
 <br>
 <br>
 <br>
-<hr>
-관리용 데이터베이스 링크
-<p>https://docs.google.com/spreadsheets/d/1na13zJwwKcSk4FeHgeGalNrgk0vc78_Y9fMOhCdBqf0/edit?usp=sharing</p>
