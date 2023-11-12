@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RFC.FactionControlName>Faction Control</RFC.FactionControlName>
+  <RFC.FactionDensity>세력 정착지 간 밀집도</RFC.FactionDensity>
+  <RFC.PopulationOverride>정착지 숫자 재정의</RFC.PopulationOverride>
+  <RFC.DistanceBetweenFactionGroups>(고급) 세력의 정착지 간의 최소-최대 거리를 제한합니다.</RFC.DistanceBetweenFactionGroups>
+  <RFC.DistanceBetweenFactionGroupsLine2>밀집도 설정이 오른쪽에 치우쳐진 세력에게만 적용됩니다.</RFC.DistanceBetweenFactionGroupsLine2>
+  <RFC.DisableFactionLimits>기본 세력 수 제한 비활성화</RFC.DisableFactionLimits>
+  <RFC.Default>기본 값</RFC.Default>
+  <RFC.OverrideFactionMaxCount>추가된 세력이 자동으로 등장</RFC.OverrideFactionMaxCount>
+  <RFC.CenterPoint>기준 타일</RFC.CenterPoint>
+  
+  <!-- 이게 왜 있는지 모르겠지만 일단 주석처리해둠 --> <!--
+  <RFC.FactionControl>Faction Control - Main Options</RFC.FactionControl>
+  <RFC.FactionControlFactionOptions>Faction Control - Faction Options</RFC.FactionControlFactionOptions>
+  <RFC.CustomFactionControl>Faction Control - Modded Factions</RFC.CustomFactionControl>
+  <RFC.factionCount>Total Number of Faction Groups to Appear on the World Map:</RFC.factionCount>
+  <RFC.factionNotes>Vanilla value is 5. Note that this number is a minimum, as the total of the counts defined below may exceed the count defined above. (For example, if you define the total number of faction groups as 3, but define 2 each as the minimum number of "Outlander union," "Tribe" and "Pirate band" faction groups, you'll always have at least 6 faction groups on your map.)</RFC.factionNotes>
+  <RFC.outlanderCivilMin>Minimum number of civil Outlander Union faction groups to appear on the map (setting to "0" disables the faction):</RFC.outlanderCivilMin>
+  <RFC.outlanderRoughMin>Minimum number of rough Outlander Union faction groups to appear on the map (setting to "0" disables the faction):</RFC.outlanderRoughMin>
+  <RFC.tribalCivilMin>Minimum number of civil Tribe faction groups to appear on the map (setting to "0" disables the faction):</RFC.tribalCivilMin>
+  <RFC.tribalRoughMin>Minimum number of rough Tribe faction groups to appear on the map (setting to "0" disables the faction):</RFC.tribalRoughMin>
+  <RFC.tribalSavageMin>Minimum number of savage Tribe faction groups to appear on the map (setting to "0" disables the faction):</RFC.tribalSavageMin>
+  <RFC.pirateMin>Minimum number of "Pirate band" faction groups to appear on the map (setting to "0" disables the faction):</RFC.pirateMin>
+  <RFC.empireMin>Minimum number of "Empire" faction groups to appear on the map (setting to "0" disables the faction):</RFC.empireMin>
+  <RFC.SelectAFaction>Select a Faction</RFC.SelectAFaction>
+  <RFC.factionGrouping>"Nation Building":</RFC.factionGrouping>
+  <RFC.factionGroupingNone>None. (Vanilla behavior.) Faction group bases will be scattered throughout the world randomly.</RFC.factionGroupingNone>
+  <RFC.factionGroupingLoose>Loose. A faction group's bases will tend to be in the same general region of the world map, but there will still be extensive overlap between the territories occupied by various groups.</RFC.factionGroupingLoose>
+  <RFC.factionGroupingTight>Tight. The bases belonging to any particular faction group will be in reasonably close proximity to each other, and except for pirate band faction groups, there won't be a large amount of overlap. There will be a distinct sense of actual nations existing on the world map, albeit with very rough borders.</RFC.factionGroupingTight>
+  <RFC.factionGroupingVeryTight>Very tight. Except for pirate band faction groups, each faction group's bases will be very closely clumped. There won't be much overlap at all, but there may be large "open" spaces of unoccupied territory between them.</RFC.factionGroupingVeryTight>
+  <RFC.AllowMechanoids>Allow the hidden "Mechanoid hive" faction?</RFC.AllowMechanoids>
+  <RFC.AllowMechanoidsTip>If you uncheck this option, mechanoids will (mostly) be removed from the game. You won't be raided by them, unless there's literally no other faction group left that's Rough to you. And you won't have to deal with poison or psychic ship part crashes. However, you may still find mechanoids in ancient danger chambers, and you might still find sleeping mechanoids guarding quest objectives.</RFC.AllowMechanoidsTip>
+  <RFC.EnableFactionRandomGoodwill>Randomize Faction Goodwill</RFC.EnableFactionRandomGoodwill>
+  <RFC.EnableFactionRandomGoodwillToolTip>Gentle settlements will usually be neutral and rough settlements will usually by hostile still but adds some randomness.</RFC.EnableFactionRandomGoodwillToolTip>
+  <RFC.SpreadPirates>Spread Pirates</RFC.SpreadPirates>
+  <RFC.RelationChangesOverTime>Relations Change Over Time</RFC.RelationChangesOverTime>
+  <RFC.EnableFactionDynamicColors>Dynamic Faction Colors</RFC.EnableFactionDynamicColors>
+  <RFC.EnableFactionDynamicColorsTip>Hostile = Red. Friendly Tribal = Green. Friendly Outlander = Blue.</RFC.EnableFactionDynamicColorsTip>
+  <RFC.factionDensityVeryLow>Very low. Very few bases per faction group.</RFC.factionDensityVeryLow>
+  <RFC.factionDensityLow>Low.</RFC.factionDensityLow>
+  <RFC.factionDensityNormal>Normal. (Vanilla faction group base density.)</RFC.factionDensityNormal>
+  <RFC.factionDensityHigh>High.</RFC.factionDensityHigh>
+  <RFC.factionDensityVeryHigh>Very high. The world will be densely populated with faction group bases.</RFC.factionDensityVeryHigh>
+  <RFC.factionDensityInsane>Insanely high. Rimworlds aren't supposed to be overpopulated like this....</RFC.factionDensityInsane>
+  <RFC.factionBasic1>Minimum number of "</RFC.factionBasic1>
+  <RFC.factionBasic2>" faction groups to appear on the map (setting to "0" disables the faction):</RFC.factionBasic2>
+  <RFC.factionHidden1>Allow the hidden "</RFC.factionHidden1>
+  <RFC.factionHidden2>" faction?</RFC.factionHidden2>
+  <RFC.factionHidden3>Allow the "</RFC.factionHidden3>
+  <RFC.factionPirate1>     Distribute "</RFC.factionPirate1>
+  <RFC.factionPirate2>" faction group bases as pirate band bases?</RFC.factionPirate2>
+  <RFC.factionPirateTip>If this option is unchecked, bases will be grouped together to form a "nation." If it is checked, though, bases will be scattered throughout other faction groups' territories, just as pirate band bases are. (Note, of course, that this option has no affect unless you've elected to organize faction group bases geographically.)</RFC.factionPirateTip> --> 
+</LanguageData>

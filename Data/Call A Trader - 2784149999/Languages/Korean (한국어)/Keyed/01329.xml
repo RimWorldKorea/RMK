@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <acat.modname>Call A Trader</acat.modname>
+  <acat.console.label>궤도 상선 허브에 연락</acat.console.label>
+  <acat.console.label.disabled>{0} 이후에 궤도 상선 허브와 연락 가능</acat.console.label.disabled>
+  <acat.job.infomessage.success>궤도 상선 허브에 요청이 접수되었습니다. 궤도 상선 허브에 다음 요청을 보내려면 {0} 동안 기다려야합니다.</acat.job.infomessage.success>
+  <acat.incident.refusal.label>궤도 상선 허브의 거부 통보</acat.incident.refusal.label>
+  <acat.incident.refusal.base>궤도 상선 허브에서 해당 요청을 거부하였습니다.</acat.incident.refusal.base>
+  <acat.incident.refusal.toomanytraders>정착지 근처에 너무 많은 궤도 상선({0})이 존재합니다.</acat.incident.refusal.toomanytraders>
+  <acat.incident.refusal.noorbitaltradersavailable>현재 정착지에 거래가 가능한 사람이 없습니다.</acat.incident.refusal.noorbitaltradersavailable>
+  
+  <acat.traderletter.label>궤도 상선 허브의 제안</acat.traderletter.label>
+  <acat.traderletter.text>궤도 상선 허브에서 {0} 내에 궤도 상선을 보내려 합니다.\n\n궤도 상선을 보내는 비용을 충당하기 위해 {1}의 선불 수수료를 요구하고 있습니다.\n\n은은 자동으로 전송됩니다. 수락 시 궤도 상선 허브에서 정착지로 궤도 상선을 파견합니다.</acat.traderletter.text>
+  <acat.traderletter.timeout>{0}의 시간 내로 결정하십시오.</acat.traderletter.timeout>
+  <acat.traderletter.accept>{0} 요청</acat.traderletter.accept>
+  <acat.traderletter.refuse>제안 거절</acat.traderletter.refuse>
+  <acat.traderletter.disabled>무역 송신기 근처에 은이 부족함 {0}/{1}</acat.traderletter.disabled>
+  <acat.traderletter.error.ok>거래를 할 정착민이 없습니다 ...</acat.traderletter.error.ok>
+  <acat.traderletter.payed>{0} 은 만큼의 수수료가 궤도 상선 허브에 전송되었습니다.</acat.traderletter.payed>
+  
+  <acat.costsrange>호출 비용 범위 (은)</acat.costsrange>
+  <acat.costsrange.description>궤도 상선 허브에서 궤도 상선을 보내도록 요청 시 들어가는 비용</acat.costsrange.description>
+  <acat.considercolonywealth>정착지의 기지 가치를 고려해서 계산</acat.considercolonywealth>
+  <acat.considercolonywealth.description>무역 상선을 호출하는 비용이 항상 정해진 범위 내에서 정해지는지 아니면 정착지의 기지가치에 비례해서 동적으로 계산되는지를 결정합니다.</acat.considercolonywealth.description>
+  <acat.costsrange.relative>상대적 비용 범위 (%)</acat.costsrange.relative>
+  <acat.costsrange.relative.description>무역 상선을 호출하는 비용을 계산할 때 (정착지의 기지가치 * 0.01 * 설정된 값 범위) 에 해당되는 은을 요구하게 변경합니다. 이 비용은 상선의 물품 재고에 영향을 미치지 않습니다.</acat.costsrange.relative.description>
+  <acat.delayrange>지연 시간 범위 (일)</acat.delayrange>
+  <acat.delayrange.description>궤도 상선이 정착지를 방문하기까지 걸리는 기간입니다.</acat.delayrange.description>
+  <acat.cooldownrange>호출 재사용 대기시간 범위(일)</acat.cooldownrange>
+  <acat.cooldownrange.description>궤도 상선 허브에 다시 연락이 가능한 재사용 대기시간 범위를 설정합니다.</acat.cooldownrange.description>
+  <acat.canselectkind>궤도 상선 종류를 자유롭게 선택 가능</acat.canselectkind>
+  <acat.canselectkind.description>궤도 상선을 호출할 때 원하는 상선을 선택할 수 있습니다.</acat.canselectkind.description>
+  <acat.randomeventallowed>무작위 제안 사건 활성화</acat.randomeventallowed>
+  <acat.randomeventallowed.description>통신기를 통해 직접 연락하지 않아도 무작위적으로 궤도 상선 허브의 제안 사건 발생</acat.randomeventallowed.description>
+  <acat.timeoutrange>제안 시간 범위 (시간)</acat.timeoutrange>
+  <acat.timeoutrange.description>궤도 상선 허브에 이 시간 내로 통신을 하지 않을 시 궤도 상선 허브의 제안이 취소됩니다.</acat.timeoutrange.description>
+  <acat.timeoutactive>시간 제한 초과 사용</acat.timeoutactive>
+  <acat.timeoutactive.description>궤도 상선 허브의 제안을 일정 시간동안 들어주지 못할 경우 만료됩니다.</acat.timeoutactive.description>
+</LanguageData>

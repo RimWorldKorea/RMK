@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MidSaverSaver.Settings.Label.Adding>모드 추가와 관련된 설정:</MidSaverSaver.Settings.Label.Adding>
+  <MidSaverSaver.Settings.Label.Removing>모드 제거와 관련된 설정:</MidSaverSaver.Settings.Label.Removing>
+  <MidSaverSaver.Settings.Label.Misc>기타:</MidSaverSaver.Settings.Label.Misc>
+  <MidSaverSaver.ReloadNow>해당 데이터를 읽어오려면 한가지 이상의 수정이 필요합니다(자세한 내용은 디버그 콘솔 창을 확인하십시오). 수정 사항을 적용하려면 해당 게임을 저장한 다음에 다시 불러오십시오. 림월드를 다시 시작할 필요는 없습니다.</MidSaverSaver.ReloadNow>
+  <MidSaverSaver.ReloadNow.Header>Mid-saver Saver: 해당 게임 재시작 필요</MidSaverSaver.ReloadNow.Header>
+  <MidSaverSaver.Settings.DisableCompression>해시 데이터 충돌 수정</MidSaverSaver.Settings.DisableCompression>
+  <MidSaverSaver.Settings.DisableCompression.Desc>게임 플레이 중간에 모드를 추가함으로 인해 해시 데이터가 충돌하게 되면 다음과 같은 일이 벌어질 수 있습니다.\n\n\n1)석재 또는 바위 덩어리가 사라지거나 다른 물건으로 대체 될 수 있습니다.\n\n\n2)심층 채굴로는 얻을 수 없어야 하는 자원이 채굴 될 수 있습니다.\n\n이런 사태를 방지하고 싶다면 새로운 모드를 추가하기 전에 이 설정을 활성화 한 후 게임을 저장해야 합니다. 이렇게 저장하게 되면 데이터를 압축하지 않고 게임이 저장됩니다(이 문제의 원인인 압축으로 인한 손실을 방지합니다). 그런 다음 모드를 추가한 후 이 설정을 비활성화하거나 이 모드를 제거하면 됩니다.</MidSaverSaver.Settings.DisableCompression.Desc>
+  <MidSaverSaver.Settings.GenerateMissingMineables>새로운 광맥을 기존 지도에 생성</MidSaverSaver.Settings.GenerateMissingMineables>
+  <MidSaverSaver.Settings.GenerateMissingMineables.Desc>새로운 금속이나 석탄 등의 신규 광맥을 추가하는 모드를 추가했을 때 기존의 지도에서 해당 광맥을 생성해줍니다. 활성화 한 후 기존 세이브를 읽어오면 적용됩니다.\n\n이 설정은 저장되지 않으며 게임을 재시작할 때 자동으로 해제됩니다.</MidSaverSaver.Settings.GenerateMissingMineables.Desc>
+  <MidSaverSaver.Settings.FixCorruptWorldObjects>삭제된 세력 데이터 삭제</MidSaverSaver.Settings.FixCorruptWorldObjects>
+  <MidSaverSaver.Settings.FixCorruptWorldObjects.Desc>세력을 추가하는 모드를 사용하다가 이 설정 없이 제거했을 경우 게임 데이터에 커다란 손상을 불러일으킬 수 있습니다. 그런 상황에서 사용하십시오.\n\n이 설정을 사용하는 방법 : \n\n1)이 설정을 활성화 한 후 해당 세력 추가 모드를 제거한 상태로 저장 데이터를 불러오십시오. 오류 메세지는 무시하십시오.\n\n2)게임을 저장하십시오.\n\n3)해당 저장 데이터를 불러올 수 있는지 확인하십시오. 불러오는데 성공하였다면 이 설정을 비활성화하십시오.</MidSaverSaver.Settings.FixCorruptWorldObjects.Desc>
+  <MidSaverSaver.Settings.FixCorruptSectors>손상된 코드 및 구역 수정</MidSaverSaver.Settings.FixCorruptSectors>
+  <MidSaverSaver.Settings.FixCorruptSectors.Desc>사용자 정의 코드나 구역을 포함하는 모드를 제거할 경우 해당 요소로 인한 손상으로 인해 게임 데이터를 불러오는 데 실패하여 "회색 화면"이 표시될 수 있습니다. 이 설정을 활성화하면 그 데이터들을 수정합니다.\n\n이 설정을 사용하는 방법 : \n\n1)설정을 활성화한 후 해당 모드를 제거한 다음에 저장된 게임을 불러오십시오. 오류는 무시하십시오.\n\n2)게임을 저장하십시오.\n\n\3)해당 저장 데이터를 불러올 수 있는지 확인하십시오. 불러오는데 성공하였다면 이 설정을 비활성화하십시오.</MidSaverSaver.Settings.FixCorruptSectors.Desc>
+  <MidSaverSaver.Settings.FixCorruptWeather>삭제된 날씨 재설정</MidSaverSaver.Settings.FixCorruptWeather>
+  <MidSaverSaver.Settings.FixCorruptWeather.Desc>날씨를 추가하는 모드를 제거했을 경우 "회색 화면"이 표시될 수 있습니다. 이 설정은 날씨 시스템을 재설정하여 해당 문제를 해결합니다.\n\n이 설정을 사용하는 방법 : \n\n1)이 설정을 활성화 한 후 해당 모드를 제거한 상태로 저장 데이터를 불러오십시오. 오류는 무시하십시오.\n\n2)게임을 저장하십시오.\n\n3)해당 저장 데이터를 불러올 수 있는지 확인하십시오. 불러오는데 성공하였다면 이 설정을 비활성화하십시오.\n\n이 설정은 손상된 모든 지도의 날씨를 "맑음"으로 재설정합니다.</MidSaverSaver.Settings.FixCorruptWeather.Desc>
+  <MidSaverSaver.Settings.FixMisc>그 외의 문제 수정</MidSaverSaver.Settings.FixMisc>
+  <MidSaverSaver.Settings.FixMisc.Desc>흔하게 발생하지 않는 문제를 수정하려고 시도합니다.</MidSaverSaver.Settings.FixMisc.Desc>
+  <MidSaverSaver.Settings.FixCorruptIdeos>손상된 이념 재설정</MidSaverSaver.Settings.FixCorruptIdeos>
+  <MidSaverSaver.Settings.FixCorruptIdeos.Desc>이데올로기의 이념 화면을 보고 있을 때 대량의 UI 오류를 발생시키는 규율이 있을 수 있습니다. 이 설정을 활성화하면 해당 규율들을 제거합니다.\n\n이 설정을 사용하는 방법 : \n\n1)이 설정을 활성화 한 후 해당 모드를 제거한 상태로 저장 데이터를 불러오십시오. 오류는 무시하십시오.\n\n2)게임을 저장하십시오.\n\n3)해당 저장 데이터를 불러올 수 있는지 확인하십시오. 불러오는데 성공하였다면 이 설정을 비활성화하십시오.\n\n제거된 규율의 빈 자리를 대체하기 위해 이념이 수정될 수 있습니다.</MidSaverSaver.Settings.FixCorruptIdeos.Desc>
+  <MidSaverSaver.Settings.FixMissingStuff>누락된 자재 수정</MidSaverSaver.Settings.FixMissingStuff>
+  <MidSaverSaver.Settings.FixMissingStuff.Desc>자재(강철, 목재 등 건물이나 물건을 만드는데 필요한 재료)를 추가하는 모드를 제거하면 해당 자재를 요구하는 모든 항목들이 이상하게 불러와질 수 있습니다. 이 설정을 활성화하면 해당 항목들을 점검한 후 대체 재료를 사용하도록 수정합니다.\n\n이 설정을 사용하는 방법 : \n\n1)이 설정을 활성화 한 후 해당 모드를 제거한 상태로 저장 데이터를 불러오십시오. 오류는 무시하십시오.\n\n2)게임을 저장하십시오.\n\n3)해당 저장 데이터를 불러올 수 있는지 확인하십시오. 불러오는데 성공하였다면 이 설정을 비활성화하십시오.</MidSaverSaver.Settings.FixMissingStuff.Desc>
+  <MidSaverSaver.Settings.DisableErrorSpamControl>오류 메세지 한도를 일시적으로 비활성화 (위험)</MidSaverSaver.Settings.DisableErrorSpamControl>
+  <MidSaverSaver.Settings.DisableErrorSpamControl.Desc>모드를 제거하려고 할 때 오류 메세지 한도보다 더 많은 숫자의 오류를 확인해야 할 수 있습니다. 이 설정을 사용하면 해당 제한을 해제할 수 있습니다. 이 설정은 저장되지 않으며 게임을 다시 시작하면 자동으로 비활성화됩니다.\n\n경고:오류가 지속적으로 발생하는 상황에서 게임을 그냥 방치하지 마십시오. 해당 제한이 없는 상태로 방치될 경우 로그 파일의 용량이 기가바이트 수준으로 커질 수 있습니다.</MidSaverSaver.Settings.DisableErrorSpamControl.Desc>
+  
+  <MidSaverSaver.Alert.MidSaverSaver.Label>Mid-saver Saver 활성화됨</MidSaverSaver.Alert.MidSaverSaver.Label>
+  <MidSaverSaver.Alert.MidSaverSaver.Desc>Mid-saver Saver 모드의 설정 중 하나 이상이 활성화 되어 있습니다. 모드를 추가하거나 제거하는 등의 사건이 발생할 때만 활성화 하고 일반적인 게임을 할 경우에는 해당 설정들을 비활성화하십시오.</MidSaverSaver.Alert.MidSaverSaver.Desc>
+  <MidSaverSaver.Alert.ErrorSpamControl.Label>오류 메세지 한도 제한이 해제됨</MidSaverSaver.Alert.ErrorSpamControl.Label>
+  <MidSaverSaver.Alert.ErrorSpamControl.Desc>Mid-saver Saver 모드가 오류 메세지의 한도 제한을 해제하였습니다. 로그 파일이 매우 빠르게 커질 수 있으며 해당 드라이브의 공간이 고갈될 수 있으니 주의하십시오.</MidSaverSaver.Alert.ErrorSpamControl.Desc>
+  <MidSaverSaver.Map>지도</MidSaverSaver.Map>
+  <MidSaverSaver.GenerateMineable.Header>Mid-saver Saver: 새로운 광맥을 기존 지도에 생성</MidSaverSaver.GenerateMineable.Header>
+  <MidSaverSaver.GenerateMineable>"{1}" 지도에서 {0} (이)가 감지되지 않습니다. 해당 광맥을 생성하시겠습니까?\n\n\참고 : 기존에 존재했던 광맥으로 인해 이 설정으로 생성되는 양은 새로운 지도를 생성했을 때 생성되는 양하고 정확하게 일치하지 않으며 새로운 광맥을 추가할 때 마다 오차가 커지게 됩니다. 가급적이면 새로운 광맥을 추가하는 모드를 진행중인 게임에 적게 추가하는 것을 권장합니다.\n\n경고: 이 작업이 완료된 후 지도를 안개로 덮어야 합니다.</MidSaverSaver.GenerateMineable>
+  <MidSaverSaver.GenerateMineable.Confirm>생성</MidSaverSaver.GenerateMineable.Confirm>
+  <MidSaverSaver.GenerateMineable.Skip>생략</MidSaverSaver.GenerateMineable.Skip>
+  <MidSaverSaver.Settings.RemapBodyDefs>신체 부위 재설정</MidSaverSaver.Settings.RemapBodyDefs>
+  <MidSaverSaver.Settings.RemapBodyDefs.Desc>신체 부위의 수를 조정하는 모드(꼬리나 더 많은 팔다리 등)를 설치하였을 때 기존에 설치되어 있던 보철물이나 신체 부위가 갑자기 코 등의 이상한 부위에 적용되어 있을 수 있습니다. 그런 상황이 발생하는 것을 방지합니다.\n\n이 설정을 사용하는 방법 : \n\n\1)새로운 모드를 추가하기 전에 이 설정을 미리 활성화 해둔 다음에 게임을 저장하십시오.\n\n2)신체 부위에 영향을 미치는 수술들의 예약을 취소하십시오.\n\n3)원하는 모드를 활성화 한 후 해당 저장 데이터를 불러오십시오.\n\n\4)게임을 저장한 후 이 설정을 비활성화하십시오.</MidSaverSaver.Settings.RemapBodyDefs.Desc>
+  <MidSaverSaver.BodyMap.Header>Mid-saver Saver: 신체 부위 재설정</MidSaverSaver.BodyMap.Header>
+  <MidSaverSaver.BodyMapSaved>{0}의 정보가 기록되었습니다. 신체 부위에 영향을 주는 대기 중인 모든 작업을 취소한 후 해당 게임을 저장하십시오. 그런 다음 게임을 재실행한 후 해당 모드를 활성화하십시오.</MidSaverSaver.BodyMapSaved>
+  <MidSaverSaver.BodyMapWritten>전 세계에 존재하는 {0}(이)가 재설정되었습니다. 이 작업을 완료하려면 게임을 저장한 후 다시 불러와야 합니다(일부 개체의 체력은 다시 불러오기 전까지 보이지 않을 수 있습니다).</MidSaverSaver.BodyMapWritten>
+</LanguageData>

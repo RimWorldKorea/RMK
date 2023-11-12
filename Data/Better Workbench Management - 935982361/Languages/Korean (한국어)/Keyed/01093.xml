@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <IW.ClickToDropTip>현재 설정 : "최적의 저장구역으로"\n클릭 시 "바닥에 내려놓기"로 변경</IW.ClickToDropTip>
+  <IW.ClickToTakeToStockpileTip>현재 설정 : "바닥에 내려놓기"\n클릭 시 "최적의 저장구역으로"로 변경</IW.ClickToTakeToStockpileTip>
+  <IW.CopyJustBillsTip>설정 복사</IW.CopyJustBillsTip>
+  <IW.BreakLinkToOtherBillsTip>연결 끊기</IW.BreakLinkToOtherBillsTip>
+  <IW.RenameBillTip>계획서 이름 변경\n(빈 문자열을 사용할 경우 초기화)</IW.RenameBillTip>
+  <IW.BillsLabel>계획서</IW.BillsLabel>
+  <IW.CountInventoryLabel>정착민이 보유한 물품 계산</IW.CountInventoryLabel>
+  <IW.CountInventoryDesc>정착민 또는 가축이 착용하고 있는 장비나 휴대하고 있는 물품도 계산됩니다.</IW.CountInventoryDesc>
+  <IW.CountAwayLabel>부재자 포함</IW.CountAwayLabel>
+  <IW.CountAwayDesc>상단, 수송포트, 동면관 등으로 인해 정착지 내에서 활동하지 않는 정착민이나 가축이 가진 물건도 포함합니다.</IW.CountAwayDesc>
+  <IW.OutputFilterLabel>추가 물품 계산</IW.OutputFilterLabel>
+  <IW.OutputFilterTitle>활성화된 물품들을 추가로 계산합니다.</IW.OutputFilterTitle>
+  <IW.OpenPreviousBillTip>이전 계획서 열기</IW.OpenPreviousBillTip>
+  <IW.OpenNextBillTip>다음 계획서 열기</IW.OpenNextBillTip>
+  <IW.CopyAllLabel>전체 복사</IW.CopyAllLabel>
+  <IW.CopyAllTip>이 작업대의 계획서를 전부 복사합니다</IW.CopyAllTip>
+  <IW.PasteAllLabel>전체 붙여넣게</IW.PasteAllLabel>
+  <IW.Paste>붙여넣기</IW.Paste>
+  <IW.PasteAllTip>복사된 계획서를 새로운 계획서로 만들어서 붙여넣습니다.</IW.PasteAllTip>
+  <IW.PasteLinkLabel>연결</IW.PasteLinkLabel>
+  <IW.PasteLinkTip>복사한 계획서를 새로운 계획서로 만들어서 붙여넣은 후 원본과 연결시킵니다. 연결 상태에서 계획서의 설정이 변경 될 경우 연결된 다른 계획서의 설정도 동기화되며 변경됩니다.</IW.PasteLinkTip>
+  <IW.PasteBillSettings>복사한 계획서의 모든 설정(출력물 제외)을 이 계획서에 적용합니다.</IW.PasteBillSettings>
+  
+  <IW.AutoOpenBillTabLabel>계획서 탭 및 보관 탭 자동으로 열기</IW.AutoOpenBillTabLabel>
+  <IW.AutoOpenBillTabDesc>작업대(또는 저장소)를 선택하면 계획서(또는 보괸) 탭이 자동으로 열립니다.</IW.AutoOpenBillTabDesc>
+  <IW.EnableDragToReorder>드래그로 계획서 재정렬</IW.EnableDragToReorder>
+  <IW.EnableDragToReorderDesc>다른 모드와 충돌이 일어나는 경우 해당 설정을 비활성화하십시오.</IW.EnableDragToReorderDesc>
+  <IW.MirrorSuspendedStatus>연결된 계획서의 일시중지 동기화</IW.MirrorSuspendedStatus>
+  <IW.MirrorSuspendedStatusDesc>활성화 시 연결되어 있는 계획서가 일시중지 또는 일시중지 해제 상태가 될 경우 동일하게 동기화됩니다(이 설정을 활성화 시 연결되어 있던 기존의 계획서들에도 전부 동기화가 진행됩니다).</IW.MirrorSuspendedStatusDesc>
+  <IW.DropOnFloorByDefault>"바닥에 내려놓기" 설정을 기본값으로 변경</IW.DropOnFloorByDefault>
+  <IW.DropOnFloorByDefaultDesc>새로 만들어지는 계획서는 이제 "최적의 저장구역으로" 대신 "바닥에 내려놓기"를 기본 값으로 가집니다.</IW.DropOnFloorByDefaultDesc>
+  <IW.CountOutsideStockpiles>저장소 바깥의 자원들도 계산에 반영</IW.CountOutsideStockpiles>
+  <IW.CountOutsideStockpilesDesc>림월드의 기본 버그로 인해 자원(예: 식사, 약품 등)이 저장구역에 없는 상태에선 해당 자원을 계산에 포함시지키 않습니다. 이 설정을 활성화해서 해당 문제를 해결 할 수 있으나 해당 버그를 해결해주는 모드를 사용하고 있을 경우 이 설정을 비활성화하십시오.</IW.CountOutsideStockpilesDesc>  
+  
+  <!-- 사용처가 없는 텍스트들 임시 모음. 나중에 사용처 찾으면 수정 예정 -->  <!--
+  <IW.TakeToLabel>지정구역으로 운반</IW.TakeToLabel>
+  <IW.BestLabel>최고</IW.BestLabel>
+  <IW.NullLabel>없음</IW.NullLabel>
+  
+  <IW.CountInstalledLabel>설치되어 있는 구조물들도 계산</IW.CountInstalledLabel>
+  <IW.CountInstalledDesc>설치되어 있는 구조물들도 계산에 포함시킵니다.</IW.CountInstalledDesc>
+  <IW.DoUntilXText>X까지 실행</IW.DoUntilXText>
+  <IW.ChangeLinkedBillModeText>세부 정보를 사용하여 연결된 계획서 모드 변경</IW.ChangeLinkedBillModeText>
+  
+  <IW.NoColRestrictionLabel>정착민이 지정되지 않음</IW.NoColRestrictionLabel>
+  <IW.RestrictToLabel>다음 정착민에게 지정됨 :</IW.RestrictToLabel>
+  <IW.RestrictJobToSpecificColonistTip>특정 정착민에게 작업을 지정합니다.</IW.RestrictJobToSpecificColonistTip>
+  <IW.CrafterWillToSpecificStockpileTip>제작이 완료된 후 제작품을 지정된 저장소로 운반합니다.</IW.CrafterWillToSpecificStockpileTip>
+  <IW.CopyFilterButton>필터 복사</IW.CopyFilterButton>
+  <IW.CopyFilterTip>필터의 설정을 붙여넣기 위해 필터 설정을 복사합니다.</IW.CopyFilterTip>
+  <IW.PasteFilterButton>필터 붙여넣기</IW.PasteFilterButton>
+  <IW.RenameTip>키보드를 이용하여 값을 입력하려면 클릭하십시오.</IW.RenameTip>
+  <IW.CountOnStockpilesText>Count in all stockpiles</IW.CountOnStockpilesText>
+  <IW.CountInText>Count in</IW.CountInText>
+  <IW.WillCountTowardsTargetTip>Only items in specified stockpile will count towards target.</IW.WillCountTowardsTargetTip>
+  <IW.CountedItemsFilter>Counted items filter:</IW.CountedItemsFilter>
+  <IW.HitPointsTip>Only items with given hitpoints range will count towards target</IW.HitPointsTip>
+  <IW.QualityTip>Only items of given quality range will count towards target</IW.QualityTip>
+  <IW.MatchInputIngredientsText>Match input ingredients</IW.MatchInputIngredientsText>
+  <IW.IngredientsTip>Only items made from ingredients in input ingredients filter (on rightmost column) will count towards target</IW.IngredientsTip>
+  <IW.CountCorpseClothesLabel>Count corpse clothes</IW.CountCorpseClothesLabel>
+  <IW.CountCorpseClothesDesc>Include corpse worn clothing in item count</IW.CountCorpseClothesDesc>
+  
+  <IW.FoundOldBillText>오래된 계획서 찾기</IW.FoundOldBillText>
+  <IW.MigratingToNewFormat>새로운 형식으로 변환합니다.</IW.MigratingToNewFormat>
+  
+  <IW.ShowItemCountInFilterLabel>필터에 재료 숫자 표시</IW.ShowItemCountInFilterLabel>
+  <IW.ShowItemCountInFilterDesc>계획서의 세부 정보 탭에 있는 재료 탭에서 재료의 숫자를 표시합니다.</IW.ShowItemCountInFilterDesc>
+  <IW.ShowExtraUIButtons>UI 버튼 추가로 표시</IW.ShowExtraUIButtons>
+  <IW.ShowExtraUIButtonsDesc>키보드를 이용해서 계획서의 세부 사항에 목표 갯수와 재개 수량을 설정할 수 있는 버튼을 표시합니다. 이 버튼이 잘못 배치되어 있는 모드나 언어가 있을 경우에는 비활성화하십시오</IW.ShowExtraUIButtonsDesc>
+  -->
+  
+</LanguageData>

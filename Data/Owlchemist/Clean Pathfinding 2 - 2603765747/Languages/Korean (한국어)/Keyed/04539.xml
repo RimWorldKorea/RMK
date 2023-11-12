@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CleanPathfinding.Settings.Header.Tuning>조정</CleanPathfinding.Settings.Header.Tuning>
+  <CleanPathfinding.Settings.Header.Doorpathing>문 넘기</CleanPathfinding.Settings.Header.Doorpathing>
+  <CleanPathfinding.Settings.Header.Rules>규칙</CleanPathfinding.Settings.Header.Rules>
+  <CleanPathfinding.Settings.Header.Misc>기타</CleanPathfinding.Settings.Header.Misc>
+  <CleanPathfinding.Settings.Bias>오물을 생성하는 타일 이동 보정값 (모드 기본 값: {0}, 최소: {1}, 최대: {2}): </CleanPathfinding.Settings.Bias>
+  <CleanPathfinding.Settings.Bias.Desc>이동 경로 상에 오물을 생성시키는 타일이 있을 경우 해당 타일에 이동 가중치를 주어 우회경로로 가도록 유도합니다.</CleanPathfinding.Settings.Bias.Desc>
+  <CleanPathfinding.Settings.NaturalBias>돌로 된 자연 바닥 타일 이동 보정값 (모드 기본 값: {0}, 최소: {1}, 최대: {2}): </CleanPathfinding.Settings.NaturalBias>
+  <CleanPathfinding.Settings.NaturalBias.Desc>돌로 된 자연 바닥 타일은 오물을 생성하지 않기에 지나칠 정도로 이동 우선순위가 높아질 수 있습니다. 이 상황을 피하길 원한다면 이 값을 조정하십시오.</CleanPathfinding.Settings.NaturalBias.Desc>
+  <CleanPathfinding.Settings.RoadBias>도로 보정값 (모드 기본 값: {0}, 최소: {1}, 최대: {2}): </CleanPathfinding.Settings.RoadBias>
+  <CleanPathfinding.Settings.RoadBias.Desc>"도로" 태그가 붙어 있는 모든 타일의 이동 비용을 감소시킵니다.</CleanPathfinding.Settings.RoadBias.Desc>
+  <CleanPathfinding.Settings.EnableRegionPathing>광범위 탐색 사용</CleanPathfinding.Settings.EnableRegionPathing>
+  <CleanPathfinding.Settings.EnableRegionPathing.Desc>활성화 시 </CleanPathfinding.Settings.EnableRegionPathing.Desc>
+  <CleanPathfinding.Settings.RegionModeThreshold>광범위 탐색 전환 임계값 (모드 기본 값: {0}, 최소: {1}, 최대: {2}): </CleanPathfinding.Settings.RegionModeThreshold>
+  <CleanPathfinding.Settings.RegionModeThreshold.Desc>정착민의 경로 탐색 중에 탐색된 셀이 해당 값을 초과하면 "광범위 탐색" 모드로 전환되어 경로 계산을 12x12 단위의 구역으로 분할합니다. 범위를 넓히기 위해 더 많은 자원을 소모하지만 더 최적화된 도로 등을 발견할 수 있습니다. 정착민들의 이동 경로를 신경써서 만드는 플레이를 한다면 큰 효과를 볼 수 있습니다.\n\n임계값을 낮게 조정하고 싶다면 먼저 휴리스틱 조정 설정의 값을 낮추거나 비활성화하십시오.</CleanPathfinding.Settings.RegionModeThreshold.Desc>
+  <CleanPathfinding.Settings.EnableTuning>이동 경로 조정 활성화</CleanPathfinding.Settings.EnableTuning>
+  <CleanPathfinding.Settings.EnableTuning.Desc>비활성화 시 림월드의 기본 경로 탐색 방식을 따르게 됩니다.</CleanPathfinding.Settings.EnableTuning.Desc>
+  <CleanPathfinding.Settings.DarknessPenalty>조명 페널티 (모드 기본 값: {0}, 최소: {1}, 최대: {2}): </CleanPathfinding.Settings.DarknessPenalty>
+  <CleanPathfinding.Settings.DarknessPenalty.Desc>어두운 지역을 지나갈 때의 속도 페널티를 설정합니다.</CleanPathfinding.Settings.DarknessPenalty.Desc>
+  <CleanPathfinding.Settings.FactorLight>경로 탐색 시 조명 수치 고려</CleanPathfinding.Settings.FactorLight>
+  <CleanPathfinding.Settings.FactorLight.Desc>경로를 탐색할 때 조명 수치를 고려해서 계산합니다. 성능에 약간의 영향을 미칩니다.</CleanPathfinding.Settings.FactorLight.Desc>
+  <CleanPathfinding.Settings.HeuristicAdjuster>휴리스틱 조정 (모드 기본 값: {0}, 최소: {1}, 최대: {2}): {3}</CleanPathfinding.Settings.HeuristicAdjuster>
+  <CleanPathfinding.Settings.HeuristicAdjuster.Desc>이 값이 높을 수록 대상과의 거리에 따라 경로 계산이 원뿔 모양처럼 뻗어나가게 됩니다. 값이 최대치에 도달했을 경우 전수조사급으로 모든 셀을 탐색하게 되며 많은 자원이 소모됩니다.</CleanPathfinding.Settings.HeuristicAdjuster.Desc>
+  <CleanPathfinding.Settings.FactorCarryingPawn>다른 정착민을 운반하고 있을 때 규칙 무시</CleanPathfinding.Settings.FactorCarryingPawn>
+  <CleanPathfinding.Settings.FactorCarryingPawn.Desc>정착민이 다른 정착민을 운반하고 있으면 규칙을 무시하고 이동합니다.</CleanPathfinding.Settings.FactorCarryingPawn.Desc>
+  <CleanPathfinding.Settings.FactorBleeding>출혈이 심한 정착민이 규칙 무시</CleanPathfinding.Settings.FactorBleeding>
+  <CleanPathfinding.Settings.FactorBleeding.Desc>출혈이 10%/일 이상인 정착민은 규칙을 무시합니다.</CleanPathfinding.Settings.FactorBleeding.Desc>
+  <CleanPathfinding.Settings.EnableExitTuning>출구 탐색 사용</CleanPathfinding.Settings.EnableExitTuning>
+  <CleanPathfinding.Settings.ExitRange.Warning>일반적이지 않은 지도에서 게임을 진행중일 때 정착민이 맵 출구를 찾으려고 하다가 막히는 경우에만 이 설정을 활성화하십시오. 이 설정을 변경하려면 게임을 다시 시작해야 합니다.</CleanPathfinding.Settings.ExitRange.Warning>
+  <CleanPathfinding.Settings.ExitRange>출구 탐색 추가 범위 (모드 기본 값: {0}, 최소: {1}, 최대: {2}): </CleanPathfinding.Settings.ExitRange>
+  <CleanPathfinding.Settings.ExitRange.Desc>정착민이 출구를 찾기 위해 주변을 탐색하며 실패할때마다 타일 4개 길이를 추가로 탐색합니다. 림월드의 기본 설정은 이 작업을 30회 실행한 후 포기하지만 이 설정을 수정할 시 반복 횟수를 증가시켜 출구를 찾을 수 있게 만들 수 있습니다.</CleanPathfinding.Settings.ExitRange.Desc>
+  <CleanPathfinding.Settings.EnableWanderTuning>무작위 방황 재설정</CleanPathfinding.Settings.EnableWanderTuning>
+  <CleanPathfinding.Settings.EnableWanderTuning.Desc>동물들이 아무 목적 없이 돌아다닐 때 연산을 수정합니다.</CleanPathfinding.Settings.EnableWanderTuning.Desc>
+  <CleanPathfinding.Settings.WanderDelay>무작위 방황 지연시간 (모드 기본 값: {0}, 최소: {1}, 최대: {2}) {3} 초</CleanPathfinding.Settings.WanderDelay>
+  <CleanPathfinding.Settings.WanderDelay.Desc>생명체가 방황할 때 새로운 지점을 찾기 전에 지연 시간을 추가하여 방황 주기를 조정합니다. 게임이 약간 부자연스러워지는 대신에 성능을 얻고 싶다면 이 설정을 조정하십시오.</CleanPathfinding.Settings.WanderDelay.Desc>
+  <CleanPathfinding.Settings.DoorPathing>문 우선순위 활성화</CleanPathfinding.Settings.DoorPathing>
+  <CleanPathfinding.Settings.DoorPathing.Desc>이 설정을 비활성화하면 문에 저장된 우선순위 값이 사라집니다.</CleanPathfinding.Settings.DoorPathing.Desc>
+  <CleanPathfinding.Settings.DoorPathing.Notice>(게임이 진행되는 동안에는 해당 설정을 비활성화할 수 없습니다.)</CleanPathfinding.Settings.DoorPathing.Notice>
+  <CleanPathfinding.Settings.DoorPathingSide>뒷문 경로 비용 (모드 기본 값: {0}, 최소: {1}, 최대: {2}): </CleanPathfinding.Settings.DoorPathingSide>
+  <CleanPathfinding.Settings.DoorPathingSide.Desc>정착민이 뒷문으로 설정된 문을 통과할 때 이 숫자만큼의 경로 비용을 가산합니다. 참고로 일반 문은 45의 비용을 갖습니다.</CleanPathfinding.Settings.DoorPathingSide.Desc>
+  <CleanPathfinding.Settings.DoorPathingEmergency>비상문 경로 비용 (모드 기본 값: {0}, 최소: {1}, 최대: {2}): </CleanPathfinding.Settings.DoorPathingEmergency>
+  <CleanPathfinding.Settings.DoorPathingEmergency.Desc>정착민이 비상문으로 설정된 문을 통과할 때 이 숫자만큼의 경로 비용을 가산합니다. 참고로 일반 문은 45의 비용을 갖습니다.</CleanPathfinding.Settings.DoorPathingEmergency.Desc>
+  <CleanPathfinding.Settings.OptimizeCollider>충돌 검사 최적화</CleanPathfinding.Settings.OptimizeCollider>
+  <CleanPathfinding.Settings.OptimizeCollider.Desc>정착민이 다른 정착민과 충돌하는지 검사하는 코드를 최적화된 다른 코드로 변경합니다. 연산 과정은 변하지 않습니다. 이 최적화 작업은 다른 모드가 이 코드를 수정하는 등의 이유로 충돌이 감지 될 때 자동으로 비활성화되며 이를 적용하려면 게임을 재시작해야 합니다.</CleanPathfinding.Settings.OptimizeCollider.Desc>
+  <CleanPathfinding.Icon.DoorType.Desc>선택한 문의 현재 설정값입니다.</CleanPathfinding.Icon.DoorType.Desc>
+  <CleanPathfinding.Icon.Normal>일반문</CleanPathfinding.Icon.Normal>
+  <CleanPathfinding.Icon.Side>뒷문</CleanPathfinding.Icon.Side>
+  <CleanPathfinding.Icon.Emergency>비상문</CleanPathfinding.Icon.Emergency>
+  <CleanPathfinding.Icon.Exclusive>개인문</CleanPathfinding.Icon.Exclusive>
+  <CleanPathfinding.InvalidDoor>방에 문이 하나만 설치되어 있을 경우 우선 순위를 변경할 수 없습니다.</CleanPathfinding.InvalidDoor>
+  <CleanPathfinding.ReloadHeader>다시 불러오기 필요</CleanPathfinding.ReloadHeader>
+  <CleanPathfinding.ReloadRequired>문 우선순위 기능을 활성화하려면 저장된 게임을 다시 불러와야 합니다. 림월드를 다시 시작할 필요는 없습니다.</CleanPathfinding.ReloadRequired>
+  <CleanPathfinding.NewAvoidArea>[Clean Pathfinding] 회피 구역 등록.</CleanPathfinding.NewAvoidArea>
+  <CleanPathfinding.DeletedAvoidArea>[Clean Pathfinding] 회피 구역 제거.</CleanPathfinding.DeletedAvoidArea>
+  <Seconds> 초</Seconds>
+  <Off>&lt;color=green>OFF&lt;/color></Off>
+  <Max>&lt;color=red>MAX&lt;/color></Max>
+</LanguageData>
