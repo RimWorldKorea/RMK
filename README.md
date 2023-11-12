@@ -12,7 +12,7 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vTZtvMrguzs86lhnObgcacvtmTWJZ-H8
 제보, 제안, 요청, 문의 사항 등이 있다면<br>
 <br>
   - Github Discussions에 글을 올리거나<br>
-  - 림월드 마이너 갤러리에서 관리자를 호출해주세요<br>
+  - 림월드 마이너 갤러리에서 글을 써주세요. (찾을 수 있도록 제목 앞에 [RMK]를 붙여주세요)<br>
   - 창작마당 페이지를 통한 문의는 볼 수도 있고 안 볼 수도 있습니다<br>
 <Br>
 그 외 별도의 연락 창구는 운영하지 않습니다.<br>
