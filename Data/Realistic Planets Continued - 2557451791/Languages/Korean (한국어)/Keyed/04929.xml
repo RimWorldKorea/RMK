@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Planets.ModName>Realistic Planets - Fan Update</Planets.ModName>
+  <Planets.SettingsDisabled>"Faction Control" 모드가 활성화 되어 있기에 충돌을 피하기 위해 "Realistic Planets" 모드의 세력 배치 설정이 비활성화 되었습니다.</Planets.SettingsDisabled>
+  <Planets.CheckTemp>세력 배치 시 온도 고려</Planets.CheckTemp>
+  <Planets.CheckTempTip>이 설정을 활성화 하면 세력이 배치 될 때 해당 세력에게 가장 적합한(또는 덜 위험한) 기후를 우선해서 배치합니다. 비활성화 시 일반적인 게임과 마찬가지로 무작위로 배치됩니다.</Planets.CheckTempTip>
+  <Planets.FactionGrouping>세력 밀집도:</Planets.FactionGrouping>
+  <Planets.FactionGroupingNone>비활성화(기본 값 사용). 각 세력의 정착지는 무작위로 전 세계에 흩어져서 존재합니다.</Planets.FactionGroupingNone>
+  <Planets.FactionGroupingLoose>낮음. 각 세력의 정착지는 일정 범위 내에서 생성되지만 해당 범위가 매우 커다랗기에 다른 세력과 겹칠 가능성이 높습니다.</Planets.FactionGroupingLoose>
+  <Planets.FactionGroupingTight>높음. 해적을 제외한 모든 세력의 정착지는 거친 경계를 갖게 되지만 실제 국가의 도시처럼 합리적으로 가깝게 배치됩니다. 해적 세력이 아닌 다른 세력끼리 겹치는 일은 많지 않습니다.</Planets.FactionGroupingTight>
+  <Planets.FactionGroupingVeryTight>매우 높음. 해적을 제외한 모든 세력의 정착지가 매우 가깝게 배치됩니다. 세력끼리 겹치는 일은 거의 일어나지 않겠지만 각 세력들 사이에 커다란 공백지가 존재할 수 있습니다.</Planets.FactionGroupingVeryTight>
+  <Planets.ShowStoneTypes>타일 정보 창에서 지질 유형 표시.</Planets.ShowStoneTypes>
+  <Planets.ShowStoneTypesTip>세계 지도에서 타일을 클릭했을 때 지형 탭을 누르지 않고도 지질 유형(대리석, 화강암 등)을 확인할 수 있게 표시합니다.</Planets.ShowStoneTypesTip>
+  <Planets.ShowGrowingPeriod>타일 정보 창에서 성장 기간 표시.</Planets.ShowGrowingPeriod>
+  <Planets.ShowGrowingPeriodTip>세계 지도에서 타일을 클릭했을 때 지형 탭을 누르지 않고도 성장 기간(40/60 등)을 확인할 수 있게 표시합니다.</Planets.ShowGrowingPeriodTip>
+  <Planets.ShowDiseaseFrequency>타일 정보 창에서 평균 질병 빈도 표시.</Planets.ShowDiseaseFrequency>
+  <Planets.ShowDiseaseFrequencyTip>세계 지도에서 타일을 클릭했을 때 지형 탭을 누르지 않고도 평균 질병 빈도를 확인할 수 있게 표시합니다.</Planets.ShowDiseaseFrequencyTip>
+  <Planets.ResetToDefault>기본값으로 초기화</Planets.ResetToDefault>
+  
+  <Planets.FactionResetDefault>세력 목록 초기화</Planets.FactionResetDefault>
+  <Planets.MessageLowPlanetCoverageWarning>경고: 플레이 영역이 작을 경우 모든 세력을 생성할 만한 공간이 부족할 수 있습니다.</Planets.MessageLowPlanetCoverageWarning>
+  <Planets.Random>무작위 행성</Planets.Random>
+  <Planets.GeneratingRandom>무작위 세계 생성</Planets.GeneratingRandom>
+  <Planets.WorldPresets>세계 유형 사전 설정</Planets.WorldPresets>
+  <Planets.WorldPresetsTip>사전 설정을 사용할 경우 하단에 있는 슬라이더를 자동으로 조절하여 특정 유형의 행성을 생성할 수 있도록 도와줍니다. 사전 설정은 완벽하지 않으며 단일 생물군계로 완전히 덮힌 행성은 거의 존재하지 않지만 사전 설정의 이름과 최대한 비슷한 환경을 가진 행성을 만드는데 활용할 수 있습니다.</Planets.WorldPresetsTip>
+  <Planets.Vanilla>림월드 기본 값</Planets.Vanilla>
+  <Planets.Desert>사막 행성</Planets.Desert>
+  <Planets.Frozen>건조하고 추운 행성</Planets.Frozen>
+  <Planets.Earthlike>지구와 비슷한 행성</Planets.Earthlike>
+  <Planets.Forest>숲 행성</Planets.Forest>
+  <Planets.Iceball>얼음 행성</Planets.Iceball>
+  <Planets.Jungle>정글 행성</Planets.Jungle>
+  <Planets.Ocean>바다 행성</Planets.Ocean>
+  <Planets.Custom>(사용자 정의 설정)</Planets.Custom>
+  <Planets.OceanType>해수면 높이</Planets.OceanType>
+  <Planets.OceanTypeTip>행성을 생성할 때 바다의 범위를 결정합니다. 해수면이 높을 수록 더 많은 지역이 물에 잠기가 되며 해수면이 극단적으로 높을 경우 조그마한 섬 몇개만 있는 세계가 탄생할 수 있습니다. 해수면이 극단적으로 낮을 경우 플레이 영역 내에서 물 자체가 사라질 수 있습니다.</Planets.OceanTypeTip>
+  <Planets.SeaLevel_VeryHigh>매우 높음</Planets.SeaLevel_VeryHigh>
+  <Planets.SeaLevel_High>높음</Planets.SeaLevel_High>
+  <Planets.SeaLevel_SlightlyHigh>약간 높음</Planets.SeaLevel_SlightlyHigh>
+  <Planets.SeaLevel_Normal>평균</Planets.SeaLevel_Normal>
+  <Planets.SeaLevel_SlightlyLow>약간 낮음</Planets.SeaLevel_SlightlyLow>
+  <Planets.SeaLevel_Low>낮음</Planets.SeaLevel_Low>
+  <Planets.SeaLevel_VeryLow>매우 낮음</Planets.SeaLevel_VeryLow>
+  <Planets.RainfallTip>행성을 생성할 때 강우량을 결정합니다. 이 설정은 절대적인 수치를 조정하는 것이 아닌 상대적인 수치를 조정한다는 것을 유념하십시오. "높음" 설정의 건조한 행성은 "낮음" 설정의 바다 행성보다 훨씬 더 건조합니다.</Planets.RainfallTip>
+  <Planets.Rainfall_VeryLow>매우 적음</Planets.Rainfall_VeryLow>
+  <Planets.Rainfall_Low>적음</Planets.Rainfall_Low>
+  <Planets.Rainfall_SlightlyLow>약간 적음</Planets.Rainfall_SlightlyLow>
+  <Planets.Rainfall_Normal>보통</Planets.Rainfall_Normal>
+  <Planets.Rainfall_SlightlyHigh>약간 많음</Planets.Rainfall_SlightlyHigh>
+  <Planets.Rainfall_High>많음</Planets.Rainfall_High>
+  <Planets.Rainfall_VeryHigh>매우 많음</Planets.Rainfall_VeryHigh>
+  <Planets.Temperature_VeryLow>매우 낮음</Planets.Temperature_VeryLow>
+  <Planets.Temperature_Low>낮음</Planets.Temperature_Low>
+  <Planets.Temperature_SlightlyLow>약간 낮음</Planets.Temperature_SlightlyLow>
+  <Planets.Temperature_Normal>보통</Planets.Temperature_Normal>
+  <Planets.Temperature_SlightlyHigh>약간 높음</Planets.Temperature_SlightlyHigh>
+  <Planets.Temperature_High>높음</Planets.Temperature_High>
+  <Planets.Temperature_VeryHigh>매우 높음</Planets.Temperature_VeryHigh>
+  <Planets.AxialTilt>자전축 기울기</Planets.AxialTilt>
+  <Planets.AxialTiltTip>자전축이 낮게 기울어진 행성은 일년 내내 극지방과 적도에서 일관된 온도를 유지합니다. 반대로 크게 기울어진 행성은 적도에서도 커다란 계절 변화가 발생하고 극지방에 가까워질수록 극단적으로 변화합니다.</Planets.AxialTiltTip>
+  <Planets.AxialTilt_VeryLow>매우 낮음</Planets.AxialTilt_VeryLow>
+  <Planets.AxialTilt_Low>낮음</Planets.AxialTilt_Low>
+  <Planets.AxialTilt_Normal>보통</Planets.AxialTilt_Normal>
+  <Planets.AxialTilt_High>높음</Planets.AxialTilt_High>
+  <Planets.AxialTilt_VeryHigh>매우 높음</Planets.AxialTilt_VeryHigh>
+  <Planets.Population_VeryLow>매우 낮음</Planets.Population_VeryLow>
+  <Planets.Population_Low>낮음</Planets.Population_Low>
+  <Planets.Population_SlightlyLow>약간 낮음</Planets.Population_SlightlyLow>
+  <Planets.Population_Normal>보통</Planets.Population_Normal>
+  <Planets.Population_SlightlyHigh>약간 높음</Planets.Population_SlightlyHigh>
+  <Planets.Population_High>높음</Planets.Population_High>
+  <Planets.Population_VeryHigh>매우 높음</Planets.Population_VeryHigh>
+  <Planets.OceanType_Earthlike>지구와 유사하게</Planets.OceanType_Earthlike>
+  <Planets.OceanType_Waterworld>물</Planets.OceanType_Waterworld>
+  <Planets.OceanType_Barren>건조한</Planets.OceanType_Barren>
+</LanguageData>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SY_YCA.NumberOfAmmoColumns_title>정책 탭에 있는 탄약 할당의 열 개수</SY_YCA.NumberOfAmmoColumns_title>
+  <SY_YCA.NumberOfAmmoColumns_desc>정책 탭 오른쪽에 있는 탄약 할당의 열이 몇개인지를 결정합니다.\n열을 줄이게 되면 저장된 게임을 불러 올 때 일회성 오류가 발생합니다. 이 오류는 무시해도 큰 문제가 없으며 저장을 한 후 다시 불러올 때는 발생하지 않습니다.\n게임을 다시 시작해야 적용됩니다!</SY_YCA.NumberOfAmmoColumns_desc>
+  <SY_YCA.LowAmmoFactorForReloadWhileWaiting_title>대기시 자동 장전 시작 비율 (%)</SY_YCA.LowAmmoFactorForReloadWhileWaiting_title>
+  <SY_YCA.LowAmmoFactorForReloadWhileWaiting_desc>대기 상태일 때 총에 장전된 총알이 이 비율 이하일 경우 자동으로 재장전합니다.</SY_YCA.LowAmmoFactorForReloadWhileWaiting_desc>
+  
+  <SY_YCA.ReloadGizmo_title>재장전</SY_YCA.ReloadGizmo_title>
+  <SY_YCA.ReloadGizmo_desc>소지품에 있는 탄약을 사용해서 착용중인 무기를 재장전합니다.\n마우스 우클릭으로 더 많은 기능을 볼 수 있습니다.</SY_YCA.ReloadGizmo_desc>
+  <SY_YCA.EjectAmmo_label>탄약 꺼내기</SY_YCA.EjectAmmo_label>
+  <SY_YCA.EjectAmmo_desc>총에 있는 탄약을 꺼냅니다.</SY_YCA.EjectAmmo_desc>
+  <SY_YCA.NoEjectableAmmo>탄약이 없습니다.</SY_YCA.NoEjectableAmmo>
+  <SY_YCA.NoAmmoToEject>{pawn}이 가진 {thing}의 탄약이 남아있지 않습니다.</SY_YCA.NoAmmoToEject>
+  
+  <SY_YCA.ReloadWeaponFromInventory_label>소지품에 있는 탄약으로 재장전</SY_YCA.ReloadWeaponFromInventory_label>
+  <SY_YCA.ReloadWeaponFromInventory_tooltip>소지품에 있는 탄약을 사용해서 착용중인 무기를 재장전합니다.</SY_YCA.ReloadWeaponFromInventory_tooltip>
+  <SY_YCA.ReloadWeaponFromSurrounding_label>주변에 있는 탄약으로 재장전</SY_YCA.ReloadWeaponFromSurrounding_label>
+  <SY_YCA.ReloadWeaponFromSurrounding_tooltip>주변에 탄약이 떨어져 있는 지 확인한 후 떨어져 있다면 그 탄약으로 착용중인 무기를 재장전합니다.</SY_YCA.ReloadWeaponFromSurrounding_tooltip>
+  <SY_YCA.ReloadAllWeaponFromInventory_label>소지품에 있는 탄약으로 가진 무기 전부 재장전</SY_YCA.ReloadAllWeaponFromInventory_label>
+  <SY_YCA.ReloadAllWeaponFromInventory_tooltip>소지품에 있는 탄약을 이용해서 소지품에 있는 무기를 전부 재장전합니다.</SY_YCA.ReloadAllWeaponFromInventory_tooltip>
+  <SY_YCA.ReloadAllWeaponFromSurrounding_label>주변에 있는 탄약으로 가진 무기 전부 재장전</SY_YCA.ReloadAllWeaponFromSurrounding_label>
+  <SY_YCA.ReloadAllWeaponFromSurrounding_tooltip>주변에 탄약이 떨어져 있는 지 확인한 후 떨어져 있다면 그 탄약으로 소지품에 있는 무기를 재장전합니다</SY_YCA.ReloadAllWeaponFromSurrounding_tooltip>
+  <SY_YCA.RestockAmmoFromSurrounding_label>탄약 보충</SY_YCA.RestockAmmoFromSurrounding_label>
+  <SY_YCA.RestockAmmoFromSurrounding_tooltip>정착민에게 탄약을 정책에서 할당한 숫자만큼 보충하도록 지시합니다.</SY_YCA.RestockAmmoFromSurrounding_tooltip>
+  <SY_YCA.NothingToReload>재장전할 무기가 없습니다.</SY_YCA.NothingToReload>
+  <SY_YCA.NothingToRestock>총알을 보충할 수 없습니다.</SY_YCA.NothingToRestock>
+  <SY_YCA.NoAmmoNearby>{pawn}의 주변에서 {ammo}이 부족하여 재장전하지 못하였습니다. {count}개의 탄환이 필요합니다.</SY_YCA.NoAmmoNearby>
+  <SY_YCA.NoAmmoInventory>{pawn}의 소지품에 {ammo}이 부족하여 재장전하지 못하였습니다. {count}개의 탄환이 필요합니다.</SY_YCA.NoAmmoInventory>
+  <SY_YCA.NoAmmoRestock>{pawn}(이)가 충분한 양의 {ammo}을 찾지 못하였습니다. 탄약 {max}개 중 {count}개가 부족합니다.</SY_YCA.NoAmmoRestock>
+  <SY_YCA.OutOfAmmo>{pawn}(이)가 가진 탄약이 부족하여 재장전할 수 없습니다.</SY_YCA.OutOfAmmo>
+</LanguageData>
