@@ -1,0 +1,31 @@
+name: Auto Renamer
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  run-code:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout repo
+        uses: actions/checkout@v3
+
+      - name: setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.8
+      # No dependencies
+      - name: exucute py script
+        run: |
+          python renamer.py
+
+      - name: commit and push changes
+        if: steps.changed-files.outputs.files_changes == 'true'
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "renamed filenames"
+          git push
