@@ -20,12 +20,13 @@ jobs:
       - name: exucute py script
         run: |
           python renamer.py
-
-      - name: commit and push changes
-        if: steps.changed-files.outputs.files_changes == 'true'
-        run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
           git commit -m "renamed filenames"
           git push
+
+      - name: commit and push changes
+        if: steps.changed-files.outputs.files_changes == 'true'
+        run: |
+          
