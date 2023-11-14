@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<ArmorRating_Sharp.description>총탄, 날붙이의 찌르기, 동물의 깨물기와 같은 날카로운 피해가 경감되는 정도를 나타냅니다.\n\n공격의 관통 수치를 방어도와 비교하여, 방어도가 더 높으면 도탄이 발생합니다. 방어도가 더 낮다면, 관통 수치 대비 방어도의 비율만큼 피해가 비율로 경감됩니다. 즉, 실제 피해량은 원래 피해량 * (1 - (방어도/관통 수치))가 됩니다. 예를 들어, 8mmRHA의 장갑에 10mmRHA의 공격이 적중하면, 장갑은 80%의 피해를 방어할 것입니다.\n\n이러한 피해 경감 효과는 공격이 지나가는 매 층마다 적용되어 관통 능력과 피해를 경감시킵니다.\n\n공격이 도탄되었다면, 공격을 둔탁함 속성으로 변환하여 다시 피해 계산을 실시합니다. 이 때, 둔탁함 관통 수치는 원래의 날카로움 방어도 대비 관통 수치의 비율만큼 곱해지는 페널티를 받게 됩니다. 공격이 관통에 성공하여 일부만 방지되었을 경우에도, 방지된 피해에 대해 이와 같은 피해 계산을 실시합니다. 이 경우에는, 둔탁함 관통 수치는 원래 피해 대비 방어된 이후의 피해의 비율과 방어된 원래 방어 관통 수치 대비 방어된 이후의 관통 수치의 비율만큼 곱해집니다.</ArmorRating_Sharp.description>
+	<ArmorRating_Blunt.description>철퇴, 폭발, 동물의 발굽과 같은 둔탁한 피해가 경감되는 정도를 나타냅니다.\n\n공격의 관통 수치를 방어도와 비교하여, 방어도가 더 높으면 피해가 발생하지 않습니다. 방어도가 더 낮다면, 관통 수치 대비 방어도의 비율만큼 피해가 비율로 경감됩니다. 즉, 실제 피해량은 원래 피해량 * (1 - (방어도/관통 수치))가 됩니다. 예를 들어, 8MPa의 장갑에 10MPa의 공격이 적중하면, 장갑은 80%의 피해를 방어할 것입니다.\n\n이러한 피해 경감 효과는 공격이 지나가는 매 층마다 적용되어 관통 능력과 피해를 경감시킵니다.</ArmorRating_Blunt.description>
+	<ShootingAccuracyPawn.description>사수가 조준시에 총을 안정적으로 지지하고 반동을 제어하는 능력을 나타냅니다.\n\n총기의 최종 흔들림은 다음과 같이 계산됩니다: (4.5 - 사격 정확도) * 무기 흔들림 / 조준경 효율\n\n무기의 반동은 이 흔들림 수치에 무기의 반동 수치를 곱하는 것으로 표현되며, 반동은 연속 사격의 매 발사시마다 그 수치만큼 증가합니다.</ShootingAccuracyPawn.description>
+	<ArmorRating_Heat.description>불이나 인화성 폭발과 같은 열기 피해가 경감되는 비율을 나타냅니다. 즉, 열기 방어도가 100% 이상이라면 열기 피해에 완전한 내성을 가질 수 있습니다.</ArmorRating_Heat.description>
+	<OneHandedness.label>한손무기</OneHandedness.label>
+	<OneHandedness.description>이 무기를 한 손으로 사용할 수 있는지 여부를 나타냅니다. 한손무기는 방패와 함께 사용할 수 있습니다.</OneHandedness.description>
+	<UBGLInfo.label>보조무기 정보</UBGLInfo.label>
+	<UBGLInfo.description>언더배럴/오버배럴 혹은 다른 방식으로 부착된 무기에 관한 정보입니다.</UBGLInfo.description>
+</LanguageData>
