@@ -11,6 +11,11 @@ on:
 
 jobs:
   run-code:
+  
+    permissions:
+      contents: read|write
+      pull-requests: read|write
+      
     runs-on: ubuntu-latest
 
     steps:
