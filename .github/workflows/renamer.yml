@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: checkout repo
         uses: actions/checkout@v3
+        with:
+          token: ${{secret.push_token}}
 
       - name: setup Python
         uses: actions/setup-python@v4
@@ -25,8 +27,8 @@ jobs:
       - name: exucute py script
         run: |
           python renamer.py
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config user.name RimWorldKorean
+          git config user.email 150018627+RimWorldKorea@users.noreply.github.com
           git add .
           git commit -m "Github Actions - Auto Renamer" || exit 0
           git push
