@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="ToolCabinet"]/description</xpath>
+		<value>
+			<description>Slightly increases work speed when placed near a workbench.\nOne workbench can only be connected to one tool cabinet but can still be connected to other types of cabinets.</description>
+		</value>
+	</Operation>
+</Patch>
