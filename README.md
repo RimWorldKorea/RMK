@@ -8,7 +8,7 @@ RimWorld Mod Korean Project
 <hr>
 제보, 제안, 요청, 문의 사항 등이 있다면<br>
 <br>
-  - Github Discussions에 글을 올리거나<br>
+  - Github에 Issue 또는 Discussion을 등록하거나,<br>
   - 림월드 마이너 갤러리에서 말머리에 [RMK]를 붙여 글을 써주세요. (말머리가 없으면 검색이 안됩니다.)<br>
   - 창작마당을 통한 문의는 받지 않습니다. (댓글 기능이 심각하게 빈약해서 관리가 어렵습니다.)<br>
 <br>
