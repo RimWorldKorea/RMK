@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DW_Setting_DualWield_OK>쌍수 가능</DW_Setting_DualWield_OK>
+  <DW_Setting_DualWield_NOK>쌍수 불가</DW_Setting_DualWield_NOK>
+  <DW_Setting_TwoHanded_OK>양손 무기</DW_Setting_TwoHanded_OK>
+  <DW_Setting_TwoHanded_NOK>한손 무기</DW_Setting_TwoHanded_NOK>
+  <DW_SettingsGroup_DualWieldSelection_Title>쌍수 설정</DW_SettingsGroup_DualWieldSelection_Title>
+  <DW_SettingsGroup_DualWieldSelection_Description>다른 무기와 함께 사용할 수 있는 무기를 설정합니다. 쌍수가 가능한 무기는 양손 무기와 함께 사용할 수 없지만 일반(쌍수 금지/ 양손 제외) 무기와 다른 쌍수가 가능한 무기와 함께 사용할 수 있습니다.</DW_SettingsGroup_DualWieldSelection_Description>
+  <DW_SettingsGroup_TwoHandSelection_Title>양손 무기를 설정</DW_SettingsGroup_TwoHandSelection_Title>
+  <DW_SettingsGroup_TwoHandSelection_Description>어떤 무기가 양손을 사용할 필요가 있는지 설정합니다. 쌍수 가능한 무기는 양손 무기와 함께 사용할 수 없습니다.</DW_SettingsGroup_TwoHandSelection_Description>
+  <DW_Expand>열기</DW_Expand>
+  <DW_Collapse>닫기</DW_Collapse>
+  <DW_SettingsGroup_Penalties_Title>쌍수 페널티</DW_SettingsGroup_Penalties_Title>
+  <DW_SettingsGroup_Penalties_Description>쌍수에 의한 페널티의 크기를 설정합니다.</DW_SettingsGroup_Penalties_Description>
+  <DW_Setting_StaticCooldownPenOffHand_Title>보조 무기 재사용 페널티(%)</DW_Setting_StaticCooldownPenOffHand_Title>
+  <DW_Setting_StaticCooldownPenOffHand_Description>쌍수를 한 경우 보조 무기로 가지고 있는 무기의 재사용에 대한 페널티입니다.</DW_Setting_StaticCooldownPenOffHand_Description>
+  <DW_Setting_StaticCooldownPMainHand_Title>주무기 재사용 페널티(%)</DW_Setting_StaticCooldownPMainHand_Title>
+  <DW_Setting_StaticCooldownPMainHand_Description>쌍수를 한 경우 주무기로 있는 무기의 재사용에 대한 페널티입니다.</DW_Setting_StaticCooldownPMainHand_Description>
+  <DW_Setting_StaticAccPOffHand_Title>쌍수 명중 페널티(%)</DW_Setting_StaticAccPOffHand_Title>
+  <DW_Setting_StaticAccPOffHand_Description>쌍수를 한 경우 쌍수로 가지고 있는 무기의 명중률에 대한 페널티입니다.</DW_Setting_StaticAccPOffHand_Description>
+  <DW_Setting_StaticAccPMainHand_Title>주무기 명중 페널티(%)</DW_Setting_StaticAccPMainHand_Title>
+  <DW_Setting_StaticAccPMainHand_Description>쌍수를 한 경우 주무기로 있는 무기의 명중률에 대한 페널티입니다.</DW_Setting_StaticAccPMainHand_Description>
+  <DW_Setting_DynamicCooldownP_Title>레벨마다의 추가 재사용 페널티(%)</DW_Setting_DynamicCooldownP_Title>
+  <DW_Setting_DynamicCooldownP_Description>쌍수는 폰의 각 스킬 레벨마다 재사용에 대한 추가의 페널티를 받습니다. 본래의 사격/격투 스킬 레벨에서의 보너스보다 낮을 것입니다. 이 페널티는 주•보조 무기 모두 적용됩니다.</DW_Setting_DynamicCooldownP_Description>
+  <DW_Setting_DynamicAccP_Title>레벨마다의 추가 명중 페널티(%)</DW_Setting_DynamicAccP_Title>
+  <DW_Setting_DynamicAccP_Description>쌍수는 폰의 각 스킬 레벨마다 명중률에 대한 추가의 페널티를 받습니다. 본래의 사격/격투 스킬 레벨에서의 보너스보다 낮을 것입니다.이 페널티는 주•보조 무기 모두 적용됩니다.</DW_Setting_DynamicAccP_Description>
+  <DW_SettingsGroup_Drawing_Title>간격 띄우기/회전 그리기</DW_SettingsGroup_Drawing_Title>
+  <DW_SettingsGroup_Drawing_Description>조준하지 않은 폰의 남북방향의 표시에 대해 쌍수한 장비의 무기를 어떻게 그릴지를 변경합니다. 기본적으로는 동서 방향이나 조준중의 모습은 문제 없습니다. 따라서 이러한 표시에 특별한 설정 옵션은 없습니다. 각도의 측정 단위는 도(원주 360도)로 이 각도는 변경되어 있지 않은 게임의 디폴트 각도를 0도 기준으로 하고 있습니다.</DW_SettingsGroup_Drawing_Description>
+  <DW_Setting_Note_Drawing>힌트：이 설정의 효과를 확인하려면 먼저 설정의 영향을 받는 무기를 폰에 장착하고 설정 창을 열어둔 사이에 무기가 표시되어 있는지를 확인하고 설정을 변경하고 나서 Enter 키를 누릅니다. 곧 변화가 적용될 겁니다.</DW_Setting_Note_Drawing>
+  <DW_Setting_MeleeAngle_Title>근접 무기의 각도 확장</DW_Setting_MeleeAngle_Title>
+  <DW_Setting_MeleeAngle_Description>쌍수를 할 때 폰이 남북방향의 표시로 근접 무기를 가진 경우 바닐라의 각도와 달리 표시하는 각도입니다.</DW_Setting_MeleeAngle_Description>
+  <DW_Setting_RangedAngle_Title>원거리 무기의 각도 확장</DW_Setting_RangedAngle_Title>
+  <DW_Setting_RangedAngle_Description>쌍수를 할 때 폰이 남북방향의 표시로 원거리 무기를 가진 경우 바닐라의 각도와 달리 표시하는 각도입니다.</DW_Setting_RangedAngle_Description>
+  <DW_Setting_MeleeXOffset_Title>근접 무기 수평 오프셋</DW_Setting_MeleeXOffset_Title>
+  <DW_Setting_MeleeXOffset_Description>쌍수를 할 때 폰이 근접 무기를 가지고 있는 경우 폰의 중심에 대한 수평 방향의 오프셋값입니다.</DW_Setting_MeleeXOffset_Description>
+  <DW_Setting_RangedXOffset_Title>원거리 무기 수평 오프셋</DW_Setting_RangedXOffset_Title>
+  <DW_Setting_RangedXOffset_Description>쌍수를 할 때 폰이 원거리 무기를 가지고 있는 경우 폰의 중심에 대한 수평 방향의 오프셋값입니다.</DW_Setting_RangedXOffset_Description>
+  <DW_Setting_MeleeZOffset_Title>근접 무기 수직 오프셋</DW_Setting_MeleeZOffset_Title>
+  <DW_Setting_MeleeZOffset_Description>쌍수를 할 때 폰이 근접 무기를 가지고 있는 경우 폰의 중심에 대한 수직방향의 오프셋값입니다.</DW_Setting_MeleeZOffset_Description>
+  <DW_Setting_RangedZOffset_Title>원거리 무기 수직 오프셋</DW_Setting_RangedZOffset_Title>
+  <DW_Setting_RangedZOffset_Description>쌍수를 할 때 폰이 원거리 무기를 가지고 있는 경우 폰의 중심에 대한 수직방향의 오프셋값입니다.</DW_Setting_RangedZOffset_Description>
+  <DW_Setting_MeleeMirrored_Title>근접 무기 반전 표시</DW_Setting_MeleeMirrored_Title>
+  <DW_Setting_MeleeMirrored_Description>이것이 체크되어 있으면 쌍수로 장착된 근접 무기는 서로가 거울에 비친 것처럼 그려집니다.</DW_Setting_MeleeMirrored_Description>
+  <DW_Setting_RangedMirrored_Title>원거리 무기 반전표시</DW_Setting_RangedMirrored_Title>
+  <DW_Setting_RangedMirrored_Description>이것이 체크되어 있으면 쌍수로 장착된 원거리 무기는 서로가 거울에 비친 것처럼 그려집니다.</DW_Setting_RangedMirrored_Description>
+  <DW_Setting_CustomRotations_Title>무기를 클릭해 커스텀 회전을 설정합니다.</DW_Setting_CustomRotations_Title>
+  <DW_Setting_CustomRotations_Header>커스텀 회전</DW_Setting_CustomRotations_Header>
+  <DW_Setting_CustomRotations_SetRotation>회전 확장：{0}도.</DW_Setting_CustomRotations_SetRotation>
+  <DW_Setting_DualWield_DisabledReason>이 무기는 양손 무기로 설정되어 있습니다. 양손 무기는 쌍수로 사용할 수 없기 때문에 이 설정은 효과가 없습니다.</DW_Setting_DualWield_DisabledReason>
+  <DW_Setting_TwoHand_DisabledReason>이 무기는 양손 무기로 설정되어 있습니다. 양손 무기는 쌍수로 사용할 수 없습니다. 따라서 이 설정은 쌍수의 설정보다 우선됩니다.</DW_Setting_TwoHand_DisabledReason>
+  <DW_Setting_NPCDualWieldChance_Title>NPC의 쌍수 확률(%)</DW_Setting_NPCDualWieldChance_Title>
+  <DW_Setting_NPCDualWieldChance_Description>양손 무기를 장비하지 않았다면 쌍수를 사용하는 NPC(적 또는 동맹)가 등장할 수 있습니다.</DW_Setting_NPCDualWieldChance_Description>
+  <DW_Message_UnequippedOffHand>{0}(은)는 양손 무기를 장착하기 위해 {1} 무기를 떨어뜨렸습니다.</DW_Message_UnequippedOffHand>
+  <DW_HerHis_Male>그의</DW_HerHis_Male>
+  <DW_HerHis_Female>그녀의</DW_HerHis_Female>
+  <DW_EquipOffHand>{0} 장착 (쌍수)</DW_EquipOffHand>
+  <DW_DropOffHand>{0}(을)를 제거(쌍수)</DW_DropOffHand>
+  <DW_AsOffHand>쌍수용 무기로</DW_AsOffHand>
+  <DW_MissArmOrHand>팔이나 손이 없습니다.</DW_MissArmOrHand>
+  <DW_WieldingTwoHanded>양손 무기 사용</DW_WieldingTwoHanded>
+  <DW_NoTwoHandedInOffHand>양손 무기로 쌍수를 하는 것은 불가능 합니다.</DW_NoTwoHandedInOffHand>
+  <DW_CannotBeOffHand>Mod 옵션에서 쌍수 가능 무기로 설정되지 않음</DW_CannotBeOffHand>
+</LanguageData>
