@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Fluffy.Pharmacist>약사</Fluffy.Pharmacist>
+  <Fluffy.Pharmacist.Tip>모든 상처가 항상 같지는 않습니다; 약의 사용 시기에 맞게 약품 정책을 작성하세요.</Fluffy.Pharmacist.Tip>
+  <Fluffy.Pharmacist.Settings.Title>약품 설정</Fluffy.Pharmacist.Settings.Title>
+  <Fluffy.Pharmacist.Population.Colonist>정착민</Fluffy.Pharmacist.Population.Colonist>
+  <Fluffy.Pharmacist.Population.Prisoner>죄수</Fluffy.Pharmacist.Population.Prisoner>
+  <Fluffy.Pharmacist.Population.Animal>동물</Fluffy.Pharmacist.Population.Animal>
+  <Fluffy.Pharmacist.Population.Guest>방문자</Fluffy.Pharmacist.Population.Guest>
+  <Fluffy.Pharmacist.Severity.Minor>경미한 부상</Fluffy.Pharmacist.Severity.Minor>
+  <Fluffy.Pharmacist.Severity.Major>심각한 부상</Fluffy.Pharmacist.Severity.Major>
+  <Fluffy.Pharmacist.Severity.LifeThreathening>생명을 위협하는 부상</Fluffy.Pharmacist.Severity.LifeThreathening>
+  <Fluffy.Pharmacist.Severity.Operation>수술</Fluffy.Pharmacist.Severity.Operation>
+  <Fluffy.Pharmacist.Severity.Minor.Tip>타박상, 치명적이지 않은 질병과 작은 상처들.</Fluffy.Pharmacist.Severity.Minor.Tip>
+  <Fluffy.Pharmacist.Severity.Major.Tip>큰 상처와 치명적인 질병.</Fluffy.Pharmacist.Severity.Major.Tip>
+  <Fluffy.Pharmacist.Severity.LifeThreathening.Tip>생명을 위협하는 상처나 출혈, 심장 마비.</Fluffy.Pharmacist.Severity.LifeThreathening.Tip>
+  <Fluffy.Pharmacist.Severity.Operation.Tip>모든 수술, 팔다리 대체같은 이식 수술들.</Fluffy.Pharmacist.Severity.Operation.Tip>
+  <Fluffy.Pharmacist.DiseaseMargin>질병 면역 여유: {0}</Fluffy.Pharmacist.DiseaseMargin>
+  <Fluffy.Pharmacist.DiseaseMargin.Tip>질병을 치료할 때 사용하는 면역 마진. \n\n면역이 질병 진행률과 이 여유(그리고 심각도가 최소 임계값보다 높을 경우)보다 낮으면 이 병은 생명을 위협하는 부상으로 취급됩니다.\n\n 예를 들어 질병이 75% 진행된 경우 면역력이 80%이고 여백이 10%인 경우 생명을 위협하는 질병으로 분류됩니다. 만약 그 한계치가 5%라면, 그 질병은 대신 큰 부상으로 분류될 것입니다.</Fluffy.Pharmacist.DiseaseMargin.Tip>
+  <Fluffy.Pharmacist.DiseaseThreshold>질병 최소 심각도 임계값: {0}</Fluffy.Pharmacist.DiseaseThreshold>
+  <Fluffy.Pharmacist.DiseaseThreshold.Tip>질병 이전의 최소 심각도는 잠재적으로 치명적일 수 있는 것으로 분류될 수 있습니다. \n\n중증도가 이 임계값보다 높고 면역력이 심각성과 면역 여유도보다 낮으면 이 병은 생명을 위협하는 부상으로 취급됩니다.</Fluffy.Pharmacist.DiseaseThreshold.Tip>
+  <Fluffy.Pharmacist.MinorWoundsThreshold>경미한 상처 임계값: {0}</Fluffy.Pharmacist.MinorWoundsThreshold>
+  <Fluffy.Pharmacist.MinorWoundsThreshold.Tip>경미한 베임 횟수가 이 임계값보다 클 경우 출혈율에 관계없이 큰 부상으로 처리됩니다. \n\n'천 번의 상처에 의한 사망'을 예방하는 데 유용합니다. 이 경우 작은 상처는 다발성 감염을 일으킬 수 있으며, 궁극적으로는 사망에 이를 수 있습니다.</Fluffy.Pharmacist.MinorWoundsThreshold.Tip>
+</LanguageData>
