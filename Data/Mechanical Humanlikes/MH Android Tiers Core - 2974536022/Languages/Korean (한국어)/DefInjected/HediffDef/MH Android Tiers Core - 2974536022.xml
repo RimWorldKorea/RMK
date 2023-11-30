@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <ATR_Toxicated.label>중독됨</ATR_Toxicated.label>
-  <ATR_Toxicated.description>혈류 내 독성 합성 화합물은 심각한 합병증을 유발합니다.</ATR_Toxicated.description>
-  <ATR_Toxicated.stages.0.label>미미함</ATR_Toxicated.stages.0.label>
-  <ATR_Toxicated.stages.1.label>가벼운</ATR_Toxicated.stages.1.label>
-  <ATR_Toxicated.stages.2.label>보통</ATR_Toxicated.stages.2.label>
-  <ATR_Toxicated.stages.3.label>심각한</ATR_Toxicated.stages.3.label>
-  <ATR_Toxicated.stages.4.label>전신에 퍼짐</ATR_Toxicated.stages.4.label>
-  <ATR_MechAntifreeze.label>메카나이트 부동액</ATR_MechAntifreeze.label>
-  <ATR_MechAntifreeze.description>샤시의 위험한 온도(양수 및 음수)에 대한 민감성을 줄이기 위해 설계된 합성 화합물이 흐르고 있습니다.</ATR_MechAntifreeze.description>
-  <ATR_MechAntifreeze.stages.0.label>미미함</ATR_MechAntifreeze.stages.0.label>
-  <ATR_MechAntifreeze.stages.1.label>가벼운</ATR_MechAntifreeze.stages.1.label>
-  <ATR_MechAntifreeze.stages.2.label>보통</ATR_MechAntifreeze.stages.2.label>
-  <ATR_MechAntifreeze.stages.3.label>상당한</ATR_MechAntifreeze.stages.3.label>
-  <ATR_MechAntifreeze.stages.4.label>최고치</ATR_MechAntifreeze.stages.4.label>
   <ATR_MechaniteSurge.label>신호 증폭</ATR_MechaniteSurge.label>
   <ATR_MechaniteSurge.description>전도성이 높고 신호를 강화하는 다양한 화합물이 포함된 합성 용액이 냉각수 라인을 통해 샤시 전체의 신호 라인에 부착되어 정보 흐름을 크게 개선합니다. 이 용액이 마모될 때까지 유닛은 가벼운 의식 향상 효과를 누릴 수 있습니다.</ATR_MechaniteSurge.description>
   <ATR_MechaniteSurge.stages.0.label>미미함</ATR_MechaniteSurge.stages.0.label>
@@ -32,6 +18,20 @@
   <ATR_RegenMechanical.description>냉각수 라인의 합성 용액은 섀시의 손상된 부위를 체액 손실로부터 보호하고 수리에 유용한 재료 역할을 합니다.</ATR_RegenMechanical.description>
   <ATR_StasisPill.label>정체 화학 물질</ATR_StasisPill.label>
   <ATR_StasisPill.description>전도성이 높고 진정 효과가 있는 합성 화학 물질로 작업 효율이 저하되는 대신 전력 소비가 크게 감소합니다.\n\n안정적인 전력을 사용할 수 없는 장거리 여행에 적합하도록 설계되어 소비 효율이 작업 효율성보다 우선됩니다.</ATR_StasisPill.description>
+  <ATR_Toxicated.label>중독됨</ATR_Toxicated.label>
+  <ATR_Toxicated.description>혈류 내 독성 합성 화합물은 심각한 합병증을 유발합니다.</ATR_Toxicated.description>
+  <ATR_Toxicated.stages.0.label>미미함</ATR_Toxicated.stages.0.label>
+  <ATR_Toxicated.stages.1.label>가벼운</ATR_Toxicated.stages.1.label>
+  <ATR_Toxicated.stages.2.label>보통</ATR_Toxicated.stages.2.label>
+  <ATR_Toxicated.stages.3.label>심각한</ATR_Toxicated.stages.3.label>
+  <ATR_Toxicated.stages.4.label>전신에 퍼짐</ATR_Toxicated.stages.4.label>
+  <ATR_MechAntifreeze.label>샤시 온도 안정제</ATR_MechAntifreeze.label>
+  <ATR_MechAntifreeze.description>샤시의 위험한 온도(양수 및 음수)에 대한 민감성을 줄이기 위해 설계된 합성 화합물이 흐르고 있습니다.</ATR_MechAntifreeze.description>
+  <ATR_MechAntifreeze.stages.0.label>미미함</ATR_MechAntifreeze.stages.0.label>
+  <ATR_MechAntifreeze.stages.1.label>가벼운</ATR_MechAntifreeze.stages.1.label>
+  <ATR_MechAntifreeze.stages.2.label>보통</ATR_MechAntifreeze.stages.2.label>
+  <ATR_MechAntifreeze.stages.3.label>상당한</ATR_MechAntifreeze.stages.3.label>
+  <ATR_MechAntifreeze.stages.4.label>최고치</ATR_MechAntifreeze.stages.4.label>
   <ATR_MechanicalOverclocking.label>오버클럭</ATR_MechanicalOverclocking.label>
   <ATR_MechanicalOverclocking.description>이 장치는 코어 프로세서를 오버클러킹하여 성능을 눈에 띄게 향상시킵니다. 이 경우 상당한 추가 전력 소비가 필요하며 열 및 유지관리 시스템에 부담을 줍니다. 비정상적으로 높아진 프로세서 활동은 호스트의 의식에도 스트레스를 줍니다.</ATR_MechanicalOverclocking.description>
   <ATR_RemainingCharge.label>배터리 잔량</ATR_RemainingCharge.label>
@@ -186,7 +186,7 @@
   <ATR_AutomodulatedVoiceSynthesizer.label>자동 변조 음성 합성기</ATR_AutomodulatedVoiceSynthesizer.label>
   <ATR_AutomodulatedVoiceSynthesizer.description>다양한 언어와 해당 언어의 방언까지 원하는 톤, 억양, 의미를 완벽하게 반영하도록 장치의 음성 출력을 빠르게 변조할 수 있는 대규모 내장 언어 모델링 알고리즘을 활용하는 음성 합성기 대체품입니다. 유기체는 때때로 역동적으로 변하는 목소리를 불안하게 느끼기도 하지만, 이 장치는 안드로이드의 목소리가 사회적 상호 작용에서 긍정적인 결과를 극대화하기 위해 원하는 정확한 소리와 완벽하게 선명한 음색을 유지하여 다른 사람들이 장치에 대해 더 높은 의견을 가질 수 있도록 합니다.</ATR_AutomodulatedVoiceSynthesizer.description>
   <ATR_CoerciveVoiceSynthesizer.label>강압 음성 합성기</ATR_CoerciveVoiceSynthesizer.label>
-  <ATR_CoerciveVoiceSynthesizer.description>음량과 강도를 크게 높여 강압적인 기능을 극대화하도록 프로그래밍된 음성 합성기 대체품입니다. 다양한 위협적인 음색을 조작 모드에서만 작동하도록 특화되어 있으며, 이를 장착한 유닛은 무섭고 위협적이어서 일반적으로 유닛의 의지에 복종하는 데 더 도움이 된다고 생각하는 사람들도 있습니다. 이 모듈에는 위협적인 음색이 불필요한 경우를 위한 단일 "일반" 모드가 있지만, 다른 사람들은 여전히 약간 불쾌감을 느낍니다.</ATR_CoerciveVoiceSynthesizer.description>
+  <ATR_CoerciveVoiceSynthesizer.description>음량과 강도를 크게 높여 강압적인 기능을 극대화하도록 프로그래밍된 음성 합성기 대체품입니다. 다양한 위협적인 음색을 조작 모드에서만 작동하도록 특화되어 있으며, 이를 장착한 유닛은 무섭고 위협적이어서 일반적으로 유닛의 의지에 복종하는 데 더 도움이 된다고 생각하는 사람들도 있습니다. 이 모듈에는 위협적인 음색이 불필요한 경우를 위한 단일 일반" 모드가 있지만</ATR_CoerciveVoiceSynthesizer.description>
   <ATR_MakeshiftMechLeg.label>임시 기계 다리</ATR_MakeshiftMechLeg.label>
   <ATR_MakeshiftMechLeg.description>최소한의 기능만 갖춘 임시 의족을 설치했습니다. 임시라는 특성과 뚜렷한 발이나 발가락이 없다는 점을 고려하면 훌륭하게 작동하지만, 제대로 설계되고 제조된 다리보다는 상당히 열등합니다.</ATR_MakeshiftMechLeg.description>
   <ATR_MakeshiftMechArm.label>임시 기계 팔</ATR_MakeshiftMechArm.label>
