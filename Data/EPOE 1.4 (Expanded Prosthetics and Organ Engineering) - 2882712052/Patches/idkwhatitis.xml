@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="BrainWiring"]/description</xpath>
+			<value>
+				<description>Royalty는 이제 EPOE에 완전히 통합되었습니다!</description>
+			</value>
+		</match>
+	</Operation>
+</Patch>

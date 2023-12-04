@@ -36,21 +36,9 @@
   <CreateSteelArm.jobString>보철물 제작 중</CreateSteelArm.jobString>
   <CreateSteelArm.label>강철 팔 제작하기</CreateSteelArm.label>
   <CreateSteelArm.description>강철로 강철 팔을 만듭니다.</CreateSteelArm.description>
-  <CreatePegLeg.jobString>보철물 제작 중</CreatePegLeg.jobString>
-  <CreatePegLeg.label>의족 제작하기</CreatePegLeg.label>
-  <CreatePegLeg.description>나무로 간단한 의족 만들기.</CreatePegLeg.description>
   <CreateEyePatch.jobString>보철물 제작 중</CreateEyePatch.jobString>
   <CreateEyePatch.label>안대 제작하기</CreateEyePatch.label>
   <CreateEyePatch.description>천으로 안대를 제작합니다.</CreateEyePatch.description>
-  <CreateWoodenHand.jobString>보철물 제작 중</CreateWoodenHand.jobString>
-  <CreateWoodenHand.label>갈고리 손 제작하기</CreateWoodenHand.label>
-  <CreateWoodenHand.description>금속 및 직물로 갈고리 손을 제작합니다.</CreateWoodenHand.description>
-  <CreateDenture.jobString>보철물 제작 중</CreateDenture.jobString>
-  <CreateDenture.label>틀니 제작하기</CreateDenture.label>
-  <CreateDenture.description>통나무로 값싼 틀니를 제작합니다. 간단한 제작입니다.</CreateDenture.description>
-  <CreateWoodenFoot.jobString>보철물 제작 중</CreateWoodenFoot.jobString>
-  <CreateWoodenFoot.label>목발 제작하기</CreateWoodenFoot.label>
-  <CreateWoodenFoot.description>나무를 발모양으로 자릅니다.</CreateWoodenFoot.description>
   <CreateEarBandage.jobString>보철물 제작 중</CreateEarBandage.jobString>
   <CreateEarBandage.label>귀마개 제작하기</CreateEarBandage.label>
   <CreateEarBandage.description>천으로 귀마개를 제작합니다.</CreateEarBandage.description>
@@ -270,18 +258,9 @@
   <InstallEyePatch.label>눈 안대 이식</InstallEyePatch.label>
   <InstallEyePatch.description>눈 안대을 이식합니다.</InstallEyePatch.description>
   <InstallEyePatch.jobString>눈 안대 이식 중</InstallEyePatch.jobString>
-  <InstallWoodenHand.label>갈고리 손 이식</InstallWoodenHand.label>
-  <InstallWoodenHand.description>갈고리 손을 이식합니다.</InstallWoodenHand.description>
-  <InstallWoodenHand.jobString>갈고리 손 이식 중</InstallWoodenHand.jobString>
-  <InstallDenture.label>틀니</InstallDenture.label>
-  <InstallDenture.description>간단한 틀니 이식</InstallDenture.description>
-  <InstallDenture.jobString>틀니 인식 중.</InstallDenture.jobString>
-  <InstallWoodenFoot.label>목발 이식</InstallWoodenFoot.label>
-  <InstallWoodenFoot.description>목발을 이식합니다.</InstallWoodenFoot.description>
-  <InstallWoodenFoot.jobString>다리에 통나무 붙이기.</InstallWoodenFoot.jobString>
-  <InstallPegLeg.label>의족 이식</InstallPegLeg.label>
-  <InstallPegLeg.description>의발을 이식합니다.</InstallPegLeg.description>
-  <InstallPegLeg.jobString>의족 이식 중.</InstallPegLeg.jobString>
+  <InstallHookHand.label>갈고리 손 이식</InstallHookHand.label>
+  <InstallHookHand.description>갈고리 손을 이식합니다.</InstallHookHand.description>
+  <InstallHookHand.jobString>갈고리 손 이식 중</InstallHookHand.jobString>
   <InstallEarBandage.label>귀마개 이식</InstallEarBandage.label>
   <InstallEarBandage.description>귀마개를 이식합니다.</InstallEarBandage.description>
   <InstallEarBandage.jobString>귀마개 이식 중</InstallEarBandage.jobString>
@@ -342,27 +321,27 @@
   <RemoveBrainStimulator.label>뇌 유지장치 적출</RemoveBrainStimulator.label>
   <RemoveBrainStimulator.description>뇌 유지장치를 적출합니다.</RemoveBrainStimulator.description>
   <RemoveBrainStimulator.jobString>뇌 유지장치 적출 중</RemoveBrainStimulator.jobString>
-  <RemoveBrainStimulator.successfullyRemovedHediffMessage>{0}이(가) {1}의 뇌 자극기를 성공적으로 적출했습니다.</RemoveBrainStimulator.successfullyRemovedHediffMessage>
+  <RemoveBrainStimulator.successfullyRemovedHediffMessage>{0}(이)가 {1}의 뇌 자극기를 성공적으로 적출했습니다.</RemoveBrainStimulator.successfullyRemovedHediffMessage>
   <RemoveAIChip.label>인공지능 칩 적출</RemoveAIChip.label>
   <RemoveAIChip.description>인공지능 칩을 적출합니다.</RemoveAIChip.description>
   <RemoveAIChip.jobString>인공지능 칩 적출 중</RemoveAIChip.jobString>
-  <RemoveAIChip.successfullyRemovedHediffMessage>{0}이(가) {1}의 인공지능 칩을 성공적으로 제거했습니다.</RemoveAIChip.successfullyRemovedHediffMessage>
+  <RemoveAIChip.successfullyRemovedHediffMessage>{0}(이)가 {1}의 인공지능 칩을 성공적으로 제거했습니다.</RemoveAIChip.successfullyRemovedHediffMessage>
   <RemoveMedicalRib.label>내장형 의료기기 적출</RemoveMedicalRib.label>
   <RemoveMedicalRib.description>내장형 의료기기를 적출합니다.</RemoveMedicalRib.description>
   <RemoveMedicalRib.jobString>내장형 의료기기 적출 중</RemoveMedicalRib.jobString>
-  <RemoveMedicalRib.successfullyRemovedHediffMessage>{0}이(가) {1}의 내장형 의료기기를 성공적으로 제거했습니다.</RemoveMedicalRib.successfullyRemovedHediffMessage>
+  <RemoveMedicalRib.successfullyRemovedHediffMessage>{0}(이)가 {1}의 내장형 의료기기를 성공적으로 제거했습니다.</RemoveMedicalRib.successfullyRemovedHediffMessage>
   <RemoveDruggedRib.label>알콜 주입기 적출</RemoveDruggedRib.label>
   <RemoveDruggedRib.description>알콜 주입기를 적출합니다.</RemoveDruggedRib.description>
   <RemoveDruggedRib.jobString>알콜 주입기 적출 중</RemoveDruggedRib.jobString>
-  <RemoveDruggedRib.successfullyRemovedHediffMessage>{0}이(가) {1}의 알콜 주입기를 성공적으로 제거했습니다.</RemoveDruggedRib.successfullyRemovedHediffMessage>
+  <RemoveDruggedRib.successfullyRemovedHediffMessage>{0}(이)가 {1}의 알콜 주입기를 성공적으로 제거했습니다.</RemoveDruggedRib.successfullyRemovedHediffMessage>
   <RemoveAdrenalineRib.label>아드레날린 촉진기 적출</RemoveAdrenalineRib.label>
   <RemoveAdrenalineRib.description>아드레날린 촉진기를 적출합니다.</RemoveAdrenalineRib.description>
   <RemoveAdrenalineRib.jobString>아드레날린 촉진기 적출 중</RemoveAdrenalineRib.jobString>
-  <RemoveAdrenalineRib.successfullyRemovedHediffMessage>{0}이(가) {1}의 아드레날린 촉진기를 성공적으로 제거했습니다.</RemoveAdrenalineRib.successfullyRemovedHediffMessage>
+  <RemoveAdrenalineRib.successfullyRemovedHediffMessage>{0}(이)가 {1}의 아드레날린 촉진기를 성공적으로 제거했습니다.</RemoveAdrenalineRib.successfullyRemovedHediffMessage>
   <RemovePainkillerRib.label>진통제 촉진기 적출</RemovePainkillerRib.label>
   <RemovePainkillerRib.description>진통제 촉진기 적출합니다.</RemovePainkillerRib.description>
   <RemovePainkillerRib.jobString>진통제 촉진기 적출 중.</RemovePainkillerRib.jobString>
-  <RemovePainkillerRib.successfullyRemovedHediffMessage>{0}이(가) {1}의 진통제 촉진기를 성공적으로 제거했습니다.</RemovePainkillerRib.successfullyRemovedHediffMessage>
+  <RemovePainkillerRib.successfullyRemovedHediffMessage>{0}(이)가 {1}의 진통제 촉진기를 성공적으로 제거했습니다.</RemovePainkillerRib.successfullyRemovedHediffMessage>
   <InstallGoldenEye.label>금안 이식</InstallGoldenEye.label>
   <InstallGoldenEye.description>금안을 이식합니다.</InstallGoldenEye.description>
   <InstallGoldenEye.jobString>금안 이식 중</InstallGoldenEye.jobString>
@@ -395,13 +374,13 @@
   <InstallSurrogateLung.description>폐 유지장치를 이식합니다.</InstallSurrogateLung.description>
   <InstallSurrogateStomach.jobString>유지장치 이식 중</InstallSurrogateStomach.jobString>
   <InstallSurrogateStomach.label>위 유지장치 이식</InstallSurrogateStomach.label>
-  <InstallSurrogateStomach.description>a 위 유지장치를 이식합니다.</InstallSurrogateStomach.description>
+  <InstallSurrogateStomach.description>위 유지장치를 이식합니다.</InstallSurrogateStomach.description>
   <InstallSurrogateLiver.jobString>유지장치 이식 중</InstallSurrogateLiver.jobString>
   <InstallSurrogateLiver.label>간 유지장치 이식</InstallSurrogateLiver.label>
-  <InstallSurrogateLiver.description>a 간 유지장치를 이식합니다.</InstallSurrogateLiver.description>
+  <InstallSurrogateLiver.description>간 유지장치를 이식합니다.</InstallSurrogateLiver.description>
   <InstallSurrogateKidney.jobString>유지장치  이식 중</InstallSurrogateKidney.jobString>
   <InstallSurrogateKidney.label>신장 유지장치 이식</InstallSurrogateKidney.label>
-  <InstallSurrogateKidney.description>a 신장 유지장치를 이식합니다.</InstallSurrogateKidney.description>
+  <InstallSurrogateKidney.description>신장 유지장치를 이식합니다.</InstallSurrogateKidney.description>
   <InstallAIChip.label>인공지능 칩 이식</InstallAIChip.label>
   <InstallAIChip.description>인공지능 칩을 이식합니다.</InstallAIChip.description>
   <InstallAIChip.jobString>인공지능 칩 이식 중</InstallAIChip.jobString>
