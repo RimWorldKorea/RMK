@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+  <BS_DrunkenPower1.label>워밍업</BS_DrunkenPower1.label>
+  <BS_DrunkenPower1.description>알코올 없이는 싸울 수 없습니다!</BS_DrunkenPower1.description>
+  <BS_DrunkenPower2.label>취권</BS_DrunkenPower2.label>
+  <BS_DrunkenPower2.description>하하하! 내가 맡을게!</BS_DrunkenPower2.description>
+  <BS_DrunkenPower3.label>취한 공포</BS_DrunkenPower3.label>
+  <BS_DrunkenPower3.description>너나 너의 떠다니는 유령 쌍둥이도 나아아아아를 막을 수 없어!</BS_DrunkenPower3.description>
   <BS_PsychicArmor_Stage1.label>초능력 강화</BS_PsychicArmor_Stage1.label>
   <BS_PsychicArmor_Stage1.description>부드러운 초능력 에너지 코팅이 위험으로부터 보호해줍니다.</BS_PsychicArmor_Stage1.description>
   <BS_PsychicArmor_Stage2.label>사이코키네시스 오라</BS_PsychicArmor_Stage2.label>
@@ -12,6 +18,12 @@
   <BS_NaturalArmor_Padded.description>약한 공격은 이 사람에게 해를 끼치기 어렵습니다.</BS_NaturalArmor_Padded.description>
   <BS_NaturalArmor_Riot.label>뚫리지 않는 피부</BS_NaturalArmor_Riot.label>
   <BS_NaturalArmor_Riot.description>약한 공격은 이 사람에게서 튕겨나가는 경향이 있습니다.</BS_NaturalArmor_Riot.description>
+  <BS_Piloted.label>조종 가능</BS_Piloted.label>
+  <BS_Piloted.description>이 생물이 작동하려면 파일럿이 필요합니다.</BS_Piloted.description>
+  <BS_PilotRequired.label>오퍼레이터 필요</BS_PilotRequired.label>
+  <BS_PilotRequired.description>이 생명체는 자체 지능을 가지고 있지만 오퍼레이터가 없으면 꺼집니다.</BS_PilotRequired.description>
+  <BS_PilotRequired.stages.0.label>파일럿 없음</BS_PilotRequired.stages.0.label>
+  <BS_PilotRequired.stages.1.label>파일럿 존재</BS_PilotRequired.stages.1.label>
   <BS_Engulfed.label>삼킴</BS_Engulfed.label>
   <BS_Engulfed.description>이 생명체는 일시적으로 무언가를 집어삼켰습니다.</BS_Engulfed.description>
   <BS_Engulfed.stages.0.label>삼킴</BS_Engulfed.stages.0.label>
@@ -33,13 +45,16 @@
   <BS_AcidBuildUp.label>산성 축적</BS_AcidBuildUp.label>
   <BS_AcidBuildUp.description>산성 축적</BS_AcidBuildUp.description>
   <BS_AcidBuildUp.stages.0.label>산성 축적 (가벼움)</BS_AcidBuildUp.stages.0.label>
-  <BS_AcidBuildUp.stages.acid_buildup_light.extraTooltip>부식성 물질에 적은 부분이 노출됨</BS_AcidBuildUp.stages.acid_buildup_light.extraTooltip>
+  <BS_AcidBuildUp.stages.0.extraTooltip>부식성 물질에 적은 부분이 노출됨</BS_AcidBuildUp.stages.0.extraTooltip>
   <BS_AcidBuildUp.stages.1.label>산성 축적 (보통)</BS_AcidBuildUp.stages.1.label>
-  <BS_AcidBuildUp.stages.acid_buildup_moderate.extraTooltip>부식성 물질에 상당히 노출됨</BS_AcidBuildUp.stages.acid_buildup_moderate.extraTooltip>
+  <BS_AcidBuildUp.stages.1.extraTooltip>부식성 물질에 상당히 노출됨</BS_AcidBuildUp.stages.1.extraTooltip>
   <BS_AcidBuildUp.stages.2.label>산성 축적 (심함)</BS_AcidBuildUp.stages.2.label>
-  <BS_AcidBuildUp.stages.acid_buildup_severe.extraTooltip>부식성 물질로 거의 완전히 덮여 있음</BS_AcidBuildUp.stages.acid_buildup_severe.extraTooltip>
+  <BS_AcidBuildUp.stages.2.extraTooltip>부식성 물질로 거의 완전히 덮여 있음</BS_AcidBuildUp.stages.2.extraTooltip>
   <BS_AcidBuildUp.stages.3.label>산성 축적 (최대)</BS_AcidBuildUp.stages.3.label>
-  <BS_AcidBuildUp.stages.acid_buildup_maximal.extraTooltip>부식성 물질에 흠뻑 젖었습니다. 더 많이 쌓이면 지속 시간이 늘어납니다.</BS_AcidBuildUp.stages.acid_buildup_maximal.extraTooltip>
+  <BS_AcidBuildUp.stages.3.extraTooltip>부식성 물질에 흠뻑 젖었습니다. 더 많이 쌓이면 지속 시간이 늘어납니다.</BS_AcidBuildUp.stages.3.extraTooltip>
+  <LoS_VenomClaws.label>독 발톱</LoS_VenomClaws.label>
+  <LoS_VenomClaws.description>독이 있는 긴 발톱. 갑옷의 틈새를 파고드는 데 매우 능숙합니다. 독성보다는 부식성이 더 강합니다.</LoS_VenomClaws.description>
+  <LoS_VenomClaws.comps.0.tools.0.label>독 발톱</LoS_VenomClaws.comps.0.tools.0.label>
   <BS_Gigantized.label>거대화된 동물</BS_Gigantized.label>
   <BS_Gigantized.description>이 동물은 확대되었습니다.</BS_Gigantized.description>
   <BS_Minified.label>축소된 동물</BS_Minified.label>
@@ -49,14 +64,14 @@
   <BS_Affliction_GrowthRay.label>성장 광선 고통</BS_Affliction_GrowthRay.label>
   <BS_Affliction_GrowthRay.description>불안정한 성장</BS_Affliction_GrowthRay.description>
   <BS_Affliction_GrowthRay.stages.0.label>첫 번째 징후</BS_Affliction_GrowthRay.stages.0.label>
-  <BS_Affliction_GrowthRay.stages.getting_bad.extraTooltip>구조적 문제의 초기 징후</BS_Affliction_GrowthRay.stages.getting_bad.extraTooltip>
   <BS_Affliction_GrowthRay.stages.1.label>나빠지기 시작</BS_Affliction_GrowthRay.stages.1.label>
-  <BS_Affliction_GrowthRay.stages.approaching_critical.extraTooltip>오, 안 돼</BS_Affliction_GrowthRay.stages.approaching_critical.extraTooltip>
+  <BS_Affliction_GrowthRay.stages.1.extraTooltip>구조적 문제의 초기 징후</BS_Affliction_GrowthRay.stages.1.extraTooltip>
   <BS_Affliction_GrowthRay.stages.2.label>위험 근접</BS_Affliction_GrowthRay.stages.2.label>
-  <BS_Affliction_GrowthRay.stages.critical.extraTooltip>붕괴 임박!</BS_Affliction_GrowthRay.stages.critical.extraTooltip>
+  <BS_Affliction_GrowthRay.stages.2.extraTooltip>오, 안 돼</BS_Affliction_GrowthRay.stages.2.extraTooltip>
   <BS_Affliction_GrowthRay.stages.3.label>치명적!</BS_Affliction_GrowthRay.stages.3.label>
-  <BS_Affliction_GrowthRay.stages.flux_energy_overload.extraTooltip>경고, 과도한 에너지가 폭발적으로 방출될 위험이 있습니다.</BS_Affliction_GrowthRay.stages.flux_energy_overload.extraTooltip>
+  <BS_Affliction_GrowthRay.stages.3.extraTooltip>붕괴 임박!</BS_Affliction_GrowthRay.stages.3.extraTooltip>
   <BS_Affliction_GrowthRay.stages.4.label>플럭스 에너지 과부하</BS_Affliction_GrowthRay.stages.4.label>
+  <BS_Affliction_GrowthRay.stages.4.extraTooltip>경고, 과도한 에너지가 폭발적으로 방출될 위험이 있습니다.</BS_Affliction_GrowthRay.stages.4.extraTooltip>
   <BATR_Jotun.label>요툰 프레임</BATR_Jotun.label>
   <BATR_Jotun.description>채굴, 운반, 전투를 위해 설계된 거대한 뼈대입니다.</BATR_Jotun.description>
   <BATR_Ogre.label>오거 프레임</BATR_Ogre.label>
@@ -65,6 +80,12 @@
   <BATR_Mechanic.description>고속 수리, 용접, 제작에 최적화된 소형 뼈대입니다. 미세 제어 모터가 장착되어 장거리 전투에도 적합합니다.</BATR_Mechanic.description>
   <BATR_Vacuum_sealed.label>진공 밀폐 부품</BATR_Vacuum_sealed.label>
   <BATR_Vacuum_sealed.description>진공 노출에 부품을 고정하기 위해 조절되어 단열 효과는 좋지만 안타깝게도 이동성이 다소 저하됩니다.</BATR_Vacuum_sealed.description>
+  <BATR_Piloted.stages.0.label>파일럿 없음</BATR_Piloted.stages.0.label>
+  <BATR_Piloted.stages.1.label>파일럿 존재</BATR_Piloted.stages.1.label>
+  <BATR_OperatorAssisted.label>오퍼레이터 보조</BATR_OperatorAssisted.label>
+  <BATR_OperatorAssisted.description>이 생명체는 최적의 능력을 발휘하려면 파일럿이 필요합니다.</BATR_OperatorAssisted.description>
+  <BATR_OperatorAssisted.stages.0.label>파일럿 없음</BATR_OperatorAssisted.stages.0.label>
+  <BATR_OperatorAssisted.stages.1.label>파일럿 존재</BATR_OperatorAssisted.stages.1.label>
   <BATR_Roomba.label>룸바 프레임</BATR_Roomba.label>
   <BATR_Roomba.description>속도, 세척, 구조, 소량 운반 및 낮은 에너지 소비에 최적화된 뼈대입니다. 작은 크기와 소독된 도구로 인해 전용 수술 프레임의 저렴한 대안으로 사용되기도 합니다.\n\n크기가 작기 때문에 매우 약합니다.</BATR_Roomba.description>
   <BATR_Bouncer.label>바운서 프레임</BATR_Bouncer.label>
@@ -77,26 +98,4 @@
   <BS_Slither.description>일반적으로 느리지만, 거의 모든 종류의 험한 지형에서 방해받지 않고 미끄러지듯 이동합니다.</BS_Slither.description>
   <BS_Floating.label>글라이드</BS_Floating.label>
   <BS_Floating.description>이 개체는 활공, 점프 또는 다른 방식으로 모든 유형의 지형을 어려움 없이 횡단합니다.</BS_Floating.description>
-  <BS_Piloted.label>조종 가능</BS_Piloted.label>
-  <BS_Piloted.description>이 생물이 작동하려면 파일럿이 필요합니다.</BS_Piloted.description>
-  <BS_Piloted.stages.pilot_missing.label>파일럿 없음</BS_Piloted.stages.pilot_missing.label>
-  <BS_Piloted.stages.pilot_present.label>파일럿 존재</BS_Piloted.stages.pilot_present.label>
-  <BS_PilotAssisted.label>오퍼레이터 보조</BS_PilotAssisted.label>
-  <BS_PilotAssisted.description>이 생명체는 최적의 능력을 발휘하려면 파일럿이 필요합니다.</BS_PilotAssisted.description>
-  <BS_PilotAssisted.stages.pilot_missing.label>파일럿 없음</BS_PilotAssisted.stages.pilot_missing.label>
-  <BS_PilotAssisted.stages.pilot_present.label>파일럿 존재</BS_PilotAssisted.stages.pilot_present.label>
-  <BS_PilotRequired.label>오퍼레이터 필요</BS_PilotRequired.label>
-  <BS_PilotRequired.description>이 생명체는 자체 지능을 가지고 있지만 오퍼레이터가 없으면 꺼집니다.</BS_PilotRequired.description>
-  <BS_PilotRequired.stages.pilot_missing.label>파일럿 없음</BS_PilotRequired.stages.pilot_missing.label>
-  <BS_PilotRequired.stages.pilot_present.label>파일럿 존재</BS_PilotRequired.stages.pilot_present.label>
-  <LoS_VenomClaws.label>독 발톱</LoS_VenomClaws.label>
-  <LoS_VenomClaws.description>독이 있는 긴 발톱. 갑옷의 틈새를 파고드는 데 매우 능숙합니다. 독성보다는 부식성이 더 강합니다.</LoS_VenomClaws.description>
-  <LoS_VenomClaws.comps.HediffComp_VerbGiver.tools.venomus_talons.label>독 발톱</LoS_VenomClaws.comps.HediffComp_VerbGiver.tools.venomus_talons.label>
-  <BS_DrunkenPower1.label>워밍업</BS_DrunkenPower1.label>
-  <BS_DrunkenPower1.description>알코올 없이는 싸울 수 없습니다!</BS_DrunkenPower1.description>
-  <BS_DrunkenPower2.label>취권</BS_DrunkenPower2.label>
-  <BS_DrunkenPower2.description>하하하! 내가 맡을게!</BS_DrunkenPower2.description>
-  <BS_DrunkenPower3.label>취한 공포</BS_DrunkenPower3.label>
-  <BS_DrunkenPower3.description>너나 너의 떠다니는 유령 쌍둥이도 나아아아아를 막을 수 없어!</BS_DrunkenPower3.description>
-  
 </LanguageData>
