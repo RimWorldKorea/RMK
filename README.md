@@ -10,7 +10,7 @@ RimWorld Mod Korean Project
 미등록 레거시 번역 목록 열람: [링크](https://docs.google.com/spreadsheets/d/1Dt3x8Yf-4hTAcs6zvcCVzezwjIAtry7zh9B1Jew2064/edit?usp=sharing)
 <hr>
 
-제보, 제안, 요청, 문의 사항 등이 있다면  
+제보, 제안, 요청, 문의 사항 및 번역에 관한 질문 등이 있다면  
   - Github에 Issue 또는 Discussion을 등록하거나
   - 림월드 마이너 갤러리에서 말머리에 <b>[RMK]</b>를 붙여 글을 써주세요. (말머리가 없으면 검색이 안됩니다)
   - 창작마당을 통한 문의는 받지 않습니다. (스팀 커뮤니티 기능은 영 별로예요)
