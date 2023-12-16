@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PF_CellLabel>셀</PF_CellLabel>
+  <PF_PathCostsLabel>경로 비용</PF_PathCostsLabel>
+  <PF_FirePathCostLabel>불</PF_FirePathCostLabel>
+  <PF_ThingsPathCostLabel>사물</PF_ThingsPathCostLabel>
+  <PF_NonIgnoreRepeatersPathCostLabel>반복자 무시 안 함</PF_NonIgnoreRepeatersPathCostLabel>
+  <PF_HasIgnoreRepeatersLabel>반복자 무시</PF_HasIgnoreRepeatersLabel>
+  <PF_HasDoorLabel>문 있음</PF_HasDoorLabel>
+  <PF_HasFenceLabel>울타리 있음</PF_HasFenceLabel>
+  <PF_BasePathCost>기본 비용</PF_BasePathCost>
+  <PF_TerrainCost>{0} 지형 비용</PF_TerrainCost>
+  <PF_MovementCostsLabel>총 이동 비용</PF_MovementCostsLabel>
+  <PF_VanillaLabel>바닐라</PF_VanillaLabel>
+  <PF_IgnoreFireMovementLabel>불 무시</PF_IgnoreFireMovementLabel>
+  <PF_NoFencesMovementLabel>울타리 회피</PF_NoFencesMovementLabel>
+  <PF_RegionLabel>지역</PF_RegionLabel>
+  <PF_RegionNone>없음</PF_RegionNone>
+  <PF_RegionId>Id</PF_RegionId>
+  <PF_RegionType>유형</PF_RegionType>
+  <PF_RegionLinks>링크 수</PF_RegionLinks>
+  <PF_RegionExtentsClose>확장자 닫기</PF_RegionExtentsClose>
+  <PF_RegionExtentsLimit>확장자 제한</PF_RegionExtentsLimit>
+  <PF_District>구역</PF_District>
+  <PF_DistrictRegionCount>지역 수</PF_DistrictRegionCount>
+  <PF_DistrictRegionType>지역 유형</PF_DistrictRegionType>
+  <PF_DistrictCellCount>셀 수</PF_DistrictCellCount>
+  <PF_DistrictRegionsMapEdge>맵 가장자리에 접하는 지역</PF_DistrictRegionsMapEdge>
+  <PF_Room>방</PF_Room>
+  <PF_RoomRole>역할</PF_RoomRole>
+  <PF_RoomRoleNone>없음</PF_RoomRoleNone>
+  <PF_RoomProper>적절함</PF_RoomProper>
+  <PF_RoomOutdoors>외부</PF_RoomOutdoors>
+  <PF_RoomDistrictCount>구역 수</PF_RoomDistrictCount>
+  <PF_GeneralTab>일반</PF_GeneralTab>
+  <PF_IgnoreFireLabel>불연성 폰은 불을 무시합니다.</PF_IgnoreFireLabel>
+  <PF_IgnoreFireHover>메카노이드처럼 본질적으로 불에 타지 않는 생물은 불 속에서도 움직입니다. 이 설정은 의복, 유전자, 약점 때문에 불을 붙일 수 없는 폰에는 영향을 미치지 않습니다.</PF_IgnoreFireHover>
+  <PF_WildAnimalRelocationLabel>야생 동물 재배치</PF_WildAnimalRelocationLabel>
+  <PF_WildAnimalRelocationHover>이 설정을 활성화하면 지도의 작은 걷기 가능 구역에 있는 동물이 가끔씩 지도의 다른 구역으로 이동하며, 일반적으로 현재 구역보다 가깝고 더 큰 구역을 선택합니다.</PF_WildAnimalRelocationHover>
+  <PF_PawnMovementTab>폰 이동</PF_PawnMovementTab>
+  <PF_PawnMovementWarningLabel>&lt;color=#FF0F0F>경고:&lt;/color> 이러한 설정은 게임 내에서 변경할 수 없습니다. 이동 변경은 메인 메뉴에서만 적용할 수 있습니다.</PF_PawnMovementWarningLabel>
+  <PF_DebuggingTab>디버깅</PF_DebuggingTab>
+  <PF_InspectorLabel>검사기</PF_InspectorLabel>
+  <PF_InspectorHover>이 옵션을 활성화하면 경로 비용 검사기 창이 Control+Shift+Q를 누른 상태에서 나타납니다. 이동 비용 검사기는 Control+Shift+E를 누른 상태에서 나타납니다. 지역 검사기는 Control+Shift+R을 누른 상태에서 나타납니다.</PF_InspectorHover>
+  <PF_LogPathNotFoundLabel>로그 경로를 찾을 수 없음</PF_LogPathNotFoundLabel>
+  <PF_LogPathNotFoundHover>경로 파인더가 경로를 찾을 수 없는 경우 추가 정보가 포함된 로그를 표시합니다. 이 로그는 대부분의 유효한 경우에 트리거되므로 디버깅용으로만 활성화하는 것이 좋습니다.</PF_LogPathNotFoundHover>
+  <PF_DebugLogLabel>디버그 로그</PF_DebugLogLabel>
+  <PF_DebugLogHover>로그에 추가 메시지를 표시합니다. 버그 디버깅에 유용합니다.</PF_DebugLogHover>
+  <PF_ResetSettingsLabel>초기화</PF_ResetSettingsLabel>
+  <PF_ResetSettingsHover>모드의 모든 옵션을 기본값으로 초기화합니다.</PF_ResetSettingsHover>
+  <PF_Movement>이동</PF_Movement>
+  <PF_MovementReportText>이 캐릭터가 세계를 이동할 때 사용하는 이동 유형입니다.</PF_MovementReportText>
+  <PF_GrantedBy>\n\n부여됨: {0}</PF_GrantedBy>
+  <PF_GrantsMovementType>이동 유형 제공:</PF_GrantsMovementType>
+  <PF_GrantedByXenogene>{0} 이종 유전자</PF_GrantedByXenogene>
+  <PF_GrantedByEndogene>{0} 내인성</PF_GrantedByEndogene>
+</LanguageData>

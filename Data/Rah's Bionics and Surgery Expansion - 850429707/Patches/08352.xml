@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef/stages/li[label="mild rejection"]/label</xpath>
+					<value>
+						<!-- mild rejection -->
+						<label>거부반응, 경미</label>
+					</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef/stages/li[label="moderate rejection"]/label</xpath>
+					<value>
+						<!-- moderate rejection -->
+						<label>거부반응, 보통</label>
+					</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef/stages/li[label="serious rejection"]/label</xpath>
+					<value>
+						<!-- serious rejection -->
+						<label>거부반응, 심각</label>
+					</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef/stages/li[label="deadly rejection"]/label</xpath>
+					<value>
+						<!-- deadly rejection -->
+						<label>거부반응, 극심</label>
+					</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>
+

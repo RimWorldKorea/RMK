@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Fluffy_Relations>관계 탭</Fluffy_Relations>
+  <Fluffy_Relations.Possesive>{0}의</Fluffy_Relations.Possesive>
+  <Fluffy_Relations.Ideoligion>이념</Fluffy_Relations.Ideoligion>
+  <Fluffy_Relations.SecondaryIdeoligions>다른 이념: {0}</Fluffy_Relations.SecondaryIdeoligions>
+  <Fluffy_Relations.Colonists>정착민</Fluffy_Relations.Colonists>
+  <Fluffy_Relations.Factions>세력</Fluffy_Relations.Factions>
+  <Fluffy.Relations.Colony>정착지</Fluffy.Relations.Colony>
+  <Fluffy_Relations.SourceButtonTip>정착민과 세력의 관계도 전환</Fluffy_Relations.SourceButtonTip>
+  <Fluffy_Relations.Relations>관계도</Fluffy_Relations.Relations>
+  <Fluffy_Relations.Interactions>교류</Fluffy_Relations.Interactions>
+  <Fluffy_Relations.KidnappedColonists>납치된 정착민</Fluffy_Relations.KidnappedColonists>
+  <Fluffy_Relations.OpinionOf>{0}에 대한 평가: {1}</Fluffy_Relations.OpinionOf>
+  <Fluffy_Relations.ModeCircleTip>원형 배치로 전환</Fluffy_Relations.ModeCircleTip>
+  <Fluffy_Relations.GraphResetTip>동적 배치 초기화</Fluffy_Relations.GraphResetTip>
+  <Fluffy_Relations.NodeInteractionTip>왼쪽 클릭으로 선택.\n오른쪽 클릭으로 고정 해제\n대상을 드래그해 이동</Fluffy_Relations.NodeInteractionTip>
+  <Fluffy_Relations.ModeGraphTip>동적 배치로 전환</Fluffy_Relations.ModeGraphTip>
+  <Fluffy_Relations.RelationOptions>관계 옵션</Fluffy_Relations.RelationOptions>
+  <Fluffy_Relations.GraphOptions>동적 매개변수</Fluffy_Relations.GraphOptions>
+  <Fluffy_Relations.Graph.MaxIterations>최대 반복 횟수</Fluffy_Relations.Graph.MaxIterations>
+  <Fluffy_Relations.Graph.MaxIterationsTip>동적 그래프가 실행될 최대 반복(프레임)입니다.</Fluffy_Relations.Graph.MaxIterationsTip>
+  <Fluffy_Relations.Graph.Threshold>이동 임계값</Fluffy_Relations.Graph.Threshold>
+  <Fluffy_Relations.Graph.ThresholdTip>모든 노드가 임계값 미만으로 이동하면 그래프가 안정적인 상태에 도달하여 더 이상 반복할 필요가 없습니다.</Fluffy_Relations.Graph.ThresholdTip>
+  <Fluffy_Relations.Graph.MaxTemperature>초기 온도</Fluffy_Relations.Graph.MaxTemperature>
+  <Fluffy_Relations.Graph.MaxTemperatureTip>온도는 시스템의 에너지 수준을 제어하며, 값이 높을수록 더 빠르고 더 빠르게 움직이지만 '폭발'할 가능성도 높아집니다. 반복이 진행됨에 따라 온도가 내려가면서 점진적인 움직임 저감을 생성합니다.</Fluffy_Relations.Graph.MaxTemperatureTip>
+  <Fluffy_Relations.Graph.CentralConstant>중앙 강제</Fluffy_Relations.Graph.CentralConstant>
+  <Fluffy_Relations.Graph.CentralConstantTip>연결점이 없는 노드가 표류하는 것을 막기 위해 모든 노드가 중앙으로 모이게 합니다.</Fluffy_Relations.Graph.CentralConstantTip>
+  <Fluffy_Relations.Graph.AttractiveConstant>매력 강제</Fluffy_Relations.Graph.AttractiveConstant>
+  <Fluffy_Relations.Graph.AttractiveConstantTip>가족 정착민들 사이에 적용되며, 정착민들 사이의 의견 작용으로 더 증가합니다.</Fluffy_Relations.Graph.AttractiveConstantTip>
+  <Fluffy_Relations.Graph.RepulsiveConstant>반발 강제</Fluffy_Relations.Graph.RepulsiveConstant>
+  <Fluffy_Relations.Graph.RepulsiveConstantTip>모든 노드에 반발력이 작용하여 서로 밀어냅니다. 이렇게 하면 중복된 노드가 중지되고, 노드가 고르게 분산됩니다.</Fluffy_Relations.Graph.RepulsiveConstantTip>
+  <Fluffy_Relations.InvalidFloat>잘못된 번호입니다.</Fluffy_Relations.InvalidFloat>
+  <Fluffy_Relations.InvalidInteger>정수 이외에는 허용되지 않습니다. 정수를 입력하세요.</Fluffy_Relations.InvalidInteger>
+  <Fluffy_Relations.GraphOptionsInformation>아래 옵션을 사용하면 정착민의 동적 뷰와 그 관계인 강제 유도 그래프를 제어하는 알고리즘을 정밀 설정할 수 있습니다. 이 값을 변경하면 잘못된 동작이 발생할 수 있으므로 주의하십시오. 특히 초기 온도에서는 값이 약간 높을수록 '폭발' 그래프가 빠르게 나타납니다. 패인 간격은 역효과를 낮추거나 증가시켜 효과적으로 제어할 수 있습니다. 효과를 확인하려면 값을 500과 5000으로 설정하십시오.</Fluffy_Relations.GraphOptionsInformation>
+  <Fluffy_Relations.SocialThoughsOfOthers>현재 사회적 지위의 영향</Fluffy_Relations.SocialThoughsOfOthers>
+  <Fluffy_Relations.ThoughtOptions>나열된 사회적 오프셋</Fluffy_Relations.ThoughtOptions>
+  <Fluffy_Relations.LowerOpinionThreshold>하위 의견 임계값</Fluffy_Relations.LowerOpinionThreshold>
+  <Fluffy_Relations.LowerOpinionThreshold.Tip>임계값 이하로 서로의 의견을 가진 정착민은 항상 시각적으로 연결되어 표시됩니다.</Fluffy_Relations.LowerOpinionThreshold.Tip>
+  <Fluffy_Relations.UpperOpinionThreshold>상위 의견 임계값</Fluffy_Relations.UpperOpinionThreshold>
+  <Fluffy_Relations.UpperOpinionThreshold.Tip>임계값 이상으로 서로의 의견을 가진 정착민은 항상 시각적으로 연결되어 표시됩니다.</Fluffy_Relations.UpperOpinionThreshold.Tip>
+  <Fluffy_Relations.SelectLeaderTip>리더 변경</Fluffy_Relations.SelectLeaderTip>
+  <Fluffy_Relations.FirstDegreeTip_On>가족 관계 포함</Fluffy_Relations.FirstDegreeTip_On>
+  <Fluffy_Relations.FirstDegreeTip_Off>가족 관계 제외</Fluffy_Relations.FirstDegreeTip_Off>
+</LanguageData>

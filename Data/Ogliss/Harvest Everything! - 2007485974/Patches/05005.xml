@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Rah's Bionics and Surgery Expansion</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/HediffDef[defName="Brain"]</xpath>
+					<match Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationReplace">
+								<xpath>/Defs/HediffDef[defName="Brain"]/label</xpath>
+								<value>
+									<!-- Brain transplant -->
+									<label>뇌 이식체</label>
+								</value>
+							</li>
+							<li Class="PatchOperationReplace">
+								<xpath>/Defs/HediffDef[defName="Brain"]/description</xpath>
+								<value>
+									<!-- A transplanted Brain. -->
+									<description>이식된 뇌입니다.</description>
+								</value>
+							</li>
+						</operations>
+					</match>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/HediffDef[defName="Jaw"]</xpath>
+					<match Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationReplace">
+								<xpath>/Defs/HediffDef[defName="Jaw"]/label</xpath>
+								<value>
+									<!-- Jaw transplant -->
+									<label>턱 이식체</label>
+								</value>
+							</li>
+							<li Class="PatchOperationReplace">
+								<xpath>/Defs/HediffDef[defName="Jaw"]/description</xpath>
+								<value>
+									<!-- A transplanted Jaw. -->
+									<description>이식된 턱입니다.</description>
+								</value>
+							</li>
+						</operations>
+					</match>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/HediffDef[defName="Spine"]</xpath>
+					<match Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationReplace">
+								<xpath>/Defs/HediffDef[defName="Spine"]/label</xpath>
+								<value>
+									<!-- Spine transplant -->
+									<label>척추 이식체</label>
+								</value>
+							</li>
+							<li Class="PatchOperationReplace">
+								<xpath>/Defs/HediffDef[defName="Spine"]/description</xpath>
+								<value>
+									<!-- A transplanted Spine. -->
+									<description>이식된 척추입니다.</description>
+								</value>
+							</li>
+						</operations>
+					</match>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/HediffDef[defName="Eye"]</xpath>
+					<match Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationReplace">
+								<xpath>/Defs/HediffDef[defName="Eye"]/label</xpath>
+								<value>
+									<!-- Eye transplant -->
+									<label>눈 이식체</label>
+								</value>
+							</li>
+							<li Class="PatchOperationReplace">
+								<xpath>/Defs/HediffDef[defName="Eye"]/description</xpath>
+								<value>
+									<!-- A transplanted Eye. -->
+									<description>이식된 눈입니다.</description>
+								</value>
+							</li>
+						</operations>
+					</match>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/HediffDef[defName="Nose"]</xpath>
+					<match Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationReplace">
+								<xpath>/Defs/HediffDef[defName="Nose"]/label</xpath>
+								<value>
+									<!-- Nose transplant -->
+									<label>코 이식체</label>
+								</value>
+							</li>
+							<li Class="PatchOperationReplace">
+								<xpath>/Defs/HediffDef[defName="Nose"]/description</xpath>
+								<value>
+									<!-- A transplanted Nose. -->
+									<description>이식된 코입니다.</description>
+								</value>
+							</li>
+						</operations>
+					</match>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/HediffDef[defName="Ear"]</xpath>
+					<match Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationReplace">
+								<xpath>/Defs/HediffDef[defName="Ear"]/label</xpath>
+								<value>
+									<!-- Ear transplant -->
+									<label>귀 이식체</label>
+								</value>
+							</li>
+							<li Class="PatchOperationReplace">
+								<xpath>/Defs/HediffDef[defName="Ear"]/description</xpath>
+								<value>
+									<!-- A transplanted Ear. -->
+									<description>이식된 귀입니다.</description>
+								</value>
+							</li>
+						</operations>
+					</match>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/HediffDef[defName="Shoulder"]</xpath>
+					<match Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationReplace">
+								<xpath>/Defs/HediffDef[defName="Shoulder"]/label</xpath>
+								<value>
+									<!-- Arm transplant -->
+									<label>팔 이식체</label>
+								</value>
+							</li>
+							<li Class="PatchOperationReplace">
+								<xpath>/Defs/HediffDef[defName="Shoulder"]/description</xpath>
+								<value>
+									<!-- A transplanted Arm. -->
+									<description>이식된 팔입니다.</description>
+								</value>
+							</li>
+						</operations>
+					</match>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/HediffDef[defName="Hand"]</xpath>
+					<match Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationReplace">
+								<xpath>/Defs/HediffDef[defName="Hand"]/label</xpath>
+								<value>
+									<!-- Hand transplant -->
+									<label>손 이식체</label>
+								</value>
+							</li>
+							<li Class="PatchOperationReplace">
+								<xpath>/Defs/HediffDef[defName="Hand"]/description</xpath>
+								<value>
+									<!-- A transplanted Hand. -->
+									<description>이식된 손입니다.</description>
+								</value>
+							</li>
+						</operations>
+					</match>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/HediffDef[defName="Leg"]</xpath>
+					<match Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationReplace">
+								<xpath>/Defs/HediffDef[defName="Leg"]/label</xpath>
+								<value>
+									<!-- Leg transplant -->
+									<label>다리 이식체</label>
+								</value>
+							</li>
+							<li Class="PatchOperationReplace">
+								<xpath>/Defs/HediffDef[defName="Leg"]/description</xpath>
+								<value>
+									<!-- A transplanted Leg. -->
+									<description>이식된 다리입니다.</description>
+								</value>
+							</li>
+						</operations>
+					</match>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/HediffDef[defName="Foot"]</xpath>
+					<match Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationReplace">
+								<xpath>/Defs/HediffDef[defName="Foot"]/label</xpath>
+								<value>
+									<!-- Foot transplant -->
+									<label>발 이식체</label>
+								</value>
+							</li>
+							<li Class="PatchOperationReplace">
+								<xpath>/Defs/HediffDef[defName="Foot"]/description</xpath>
+								<value>
+									<!-- A transplanted Foot. -->
+									<description>이식된 발입니다.</description>
+								</value>
+							</li>
+						</operations>
+					</match>
+				</li>
+			</operations>
+		</match>
+
+		<nomatch Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/BodyPartDef[defName="SZ_Spine"]</xpath>
+					<nomatch Class="PatchOperationConditional">
+						<xpath>/Defs/RecipeDef[defName="InstallNaturalSpine"]</xpath>
+						<match Class="PatchOperationSequence">
+							<operations>
+								<li Class="PatchOperationReplace">
+									<xpath>/Defs/RecipeDef[defName="InstallNaturalSpine"]/label</xpath>
+									<value>
+										<!-- install spine -->
+										<label>척추 이식</label>
+									</value>
+								</li>
+								<li Class="PatchOperationReplace">
+									<xpath>/Defs/RecipeDef[defName="InstallNaturalSpine"]/description</xpath>
+									<value>
+										<!-- Install a biological spine. -->
+										<description>척추를 이식합니다.</description>
+									</value>
+								</li>
+								<li Class="PatchOperationReplace">
+									<xpath>/Defs/RecipeDef[defName="InstallNaturalSpine"]/jobString</xpath>
+									<value>
+										<!-- Installing spine. -->
+										<jobString>척추 이식 중</jobString>
+									</value>
+								</li>
+							</operations>
+						</match>
+					</nomatch>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/BodyPartDef[defName="SZ_Jaw"]</xpath>
+					<nomatch Class="PatchOperationConditional">
+						<xpath>/Defs/RecipeDef[defName="InstallNaturalJaw"]</xpath>
+						<match Class="PatchOperationSequence">
+							<operations>
+								<li Class="PatchOperationReplace">
+									<xpath>/Defs/RecipeDef[defName="InstallNaturalJaw"]/label</xpath>
+									<value>
+										<!-- install jaw -->
+										<label>턱 이식</label>
+									</value>
+								</li>
+								<li Class="PatchOperationReplace">
+									<xpath>/Defs/RecipeDef[defName="InstallNaturalJaw"]/description</xpath>
+									<value>
+										<!-- Install a biological jaw. -->
+										<description>턱을 이식합니다.</description>
+									</value>
+								</li>
+								<li Class="PatchOperationReplace">
+									<xpath>/Defs/RecipeDef[defName="InstallNaturalJaw"]/jobString</xpath>
+									<value>
+										<!-- Installing jaw. -->
+										<jobString>턱 이식 중</jobString>
+									</value>
+								</li>
+							</operations>
+						</match>
+					</nomatch>
+				</li>
+			</operations>
+		</nomatch>
+	</Operation>
+
+	<!-- SPINE -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/BodyPartDef[defName="SZ_Spine"]</xpath>
+		<nomatch Class="PatchOperationConditional">
+			<xpath>Defs/ThingDef[defName="Spine"]</xpath>
+			<match Class="PatchOperationSequence">
+				<operations>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Spine"]/label</xpath>
+						<value>
+							<!-- Spine -->
+							<label>척추</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Spine"]/description</xpath>
+						<value>
+							<!-- A biological human spine. Required for walking and standing. -->
+							<description>목과 등, 허리, 엉덩이, 꼬리 부분에 이르기까지 주요 골격을 유지하도록 하는 뼈입니다.</description>
+						</value>
+					</li>
+				</operations>
+			</match>
+		</nomatch>
+	</Operation>
+
+	<!-- JAW -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/BodyPartDef[defName="SZ_Jaw"]</xpath>
+		<nomatch Class="PatchOperationConditional">
+			<xpath>Defs/ThingDef[defName="Jaw"]</xpath>
+			<match Class="PatchOperationSequence">
+				<operations>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Jaw"]/label</xpath>
+						<value>
+							<!-- jaw -->
+							<label>턱</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Jaw"]/description</xpath>
+						<value>
+							<!-- A biological human jaw. A nice set of teeth for chewing food and talking. -->
+							<description>음식을 씹고 말하기에 좋은 이빨 세트.</description>
+						</value>
+					</li>
+				</operations>
+			</match>
+		</nomatch>
+	</Operation>
+
+	<!-- Compatibility Patch -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>The Birds and the Bees</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName="ReproductiveOrgans"]</xpath>
+					<match Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationReplace">
+								<xpath>Defs/ThingDef[defName="ReproductiveOrgans"]/label</xpath>
+								<value>
+									<!-- reproductive organs -->
+									<label>생식 기관</label>
+								</value>
+							</li>
+							<li Class="PatchOperationReplace">
+								<xpath>Defs/ThingDef[defName="ReproductiveOrgans"]/description</xpath>
+								<value>
+									<!-- Biological human reproductive organs. Useful for procreation and recreation , surprisingly interchangeable. -->
+									<description>Biological human reproductive organs. Useful for procreation and recreation , surprisingly interchangeable.</description>
+								</value>
+							</li>
+						</operations>
+					</match>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/RecipeDef[defName="InstallNaturalReproductiveOrgans"]</xpath>
+					<match Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationReplace">
+								<xpath>Defs/RecipeDef[defName="InstallNaturalReproductiveOrgans"]/label</xpath>
+								<value>
+									<!-- install reproductive organs -->
+									<label>생식 기관 이식</label>
+								</value>
+							</li>
+							<li Class="PatchOperationReplace">
+								<xpath>Defs/RecipeDef[defName="InstallNaturalReproductiveOrgans"]/description</xpath>
+								<value>
+									<!-- Install biological reproductive organs. -->
+									<description>생식 기관을 이식합니다.</description>
+								</value>
+							</li>
+							<li Class="PatchOperationReplace">
+								<xpath>Defs/RecipeDef[defName="InstallNaturalReproductiveOrgans"]/jobString</xpath>
+								<value>
+									<!-- Installing reproductive organs. -->
+									<jobString>생식 기관 이식 중</jobString>
+								</value>
+							</li>
+						</operations>
+					</match>
+				</li>
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Rah's Bionics and Surgery Expansion</li>
+					</mods>
+					<match Class="PatchOperationConditional">
+						<xpath>/Defs/HediffDef[defName="ReproductiveOrgans"]</xpath>
+						<match Class="PatchOperationSequence">
+							<operations>
+								<li Class="PatchOperationReplace">
+									<xpath>Defs/HediffDef[defName="ReproductiveOrgans"]/label</xpath>
+									<value>
+										<!-- Reproductive Organ transplant -->
+										<label>생식 기관 이식체</label>
+									</value>
+								</li>
+								<li Class="PatchOperationReplace">
+									<xpath>Defs/HediffDef[defName="ReproductiveOrgans"]/description</xpath>
+									<value>
+										<!-- A transplanted Reproductive Organ. -->
+										<description>이식된 생식 기관입니다.</description>
+									</value>
+								</li>
+							</operations>
+						</match>
+					</match>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>
+
