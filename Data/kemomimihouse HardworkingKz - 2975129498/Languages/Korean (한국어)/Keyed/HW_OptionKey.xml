@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Final -->
+  <HardworkingMod_Label>kemomimihouse Hardworking 확장 (HardworkingExt)</HardworkingMod_Label>
+
+  <HardworkingMod_SettingLabel>Hardworking 확장 —— Hardworking Extension 프레임워크</HardworkingMod_SettingLabel>
+  <HardworkingMod_SettingLabel_tooltip>◆◆◆"Hardworking_KEMOMIMIHOUSE"를 기반으로 작성했습니다. 원작자의 "Velc"씨에게 경의를 표합니다. 다른 인간형 동물들의 행동확장을 용이롭게 하는 구조가 들어가있으며 3종류의 동물귀 캐릭터(메이드 누코, 곤충소녀, kemomimihouse)에 대응하고 있습니다.V.3.05.Beta</HardworkingMod_SettingLabel_tooltip>
+
+  <HWKz_HardworkingExplain_Label>프레임워크의 설명=&gt;마우스 오버로 확인해주세요.</HWKz_HardworkingExplain_Label>
+  <HWKz_HardworkingExplain_tooltip>◆ 자작 동물행동 "사고"를 커스텀하여 보다 더 많은 종류의 작업행동을 서포트합니다. 예를들면, 자가치료, 도주, 오락, 1.3의 새로운 긴급작업을 지원합니다. 긴급작업을 우선적으로 행합니다. 일반작업은 우선순위에 따라 실행하며, 커스텀된 동물행동을 삭제하지 않고 공존합니다. 예로, 동물운반은 작업운반과 병행해서 실행됩니다.\n\n◆프레임워크 자체에 틱이 상주하지 않고, 틱을 소비하는것은 시스템작업입니다. 퍼포먼스에 문제가 발생했을 경우 우선은 에러를 해결하고 Mod설정에서 설정을 변경해주세요.\n\n◆캐릭터가 필요로하는 양이 적고, 이동속도가 빠르며 작업의 반응도 빠릅니다. 만약 계속 일을 하고 있을경우 오히려 일을 하지 않게되는 일이 있어 캐릭터의 작업 리듬을 옵션에 맞게 배분하지만 적어도 알고는 있어야 합니다.\n\n◆「열광적인 작업의욕」은 캐릭터가 채굴을 할 때에 소량의 희소소재를 발굴할 가능성이 있습니다. 캐릭터의 숙련도는 개별로 품질을 계산하기 때문에 다른 Mod의 제한을 받지 않으며 보다 안정적으로 전설등급을 만들어낼 가능성이 있습니다. 스킬이 10 이상일 경우 상처를 입었을때의 스킬 감소치가 가속합니다.</HWKz_HardworkingExplain_tooltip>
+
+  <HWKz_HardworkingNotice_Label>주의사항=&gt;마우스 오버로 확인해주세요.</HWKz_HardworkingNotice_Label>
+  <HWKz_HardworkingNotice_tooltip>▶1. WorkTab과의 협력으로 작업 할당에 Shift를 사용하지 않는 한 아무런 문제가 없으며 그렇지 않으면 충돌이 발생할 수 있으며 빨간색 오류가 발생하지만 영향은 없습니다. 원래 WorkTab을 클릭하여 세부 정보를 연 다음 WorkTab에 대한 세부 정보를 열 수 있습니다.\n\n▶2.동물귀 캐릭터의 식사확장 부분은 나의 또 다른 Mod"kemomimihouse확장"이 담당합니다.캐릭터는 자신의 식사에 관한 수정이 없고, 식품류에 에러를 발견하면,"kemomimihouse확장"의 설정을 시도해보십시오.\n\n▶3.동물 구조는 무효화되지 않으므로 의사가 할당되지 않아도 구조가 시작될 수 있습니다. 되돌릴 수 있습니다.\n\n▶3."SRTS_Expanded"Mod를 도입하면, 자동으로 "캐릭터 자신의 적재 운반을 건너뛰기"가 켜져, 중복 에러가 나오지 않게 됩니다.중복 에러는, 다른 화물 적재에서도 발생하는 것 그러나 성능 저하와 쓸데없는 작업으로 인한 중복 오류로 고생하지 않고 수동으로 중지 할 수도 있습니다.\n\n▶4."RocketMan"Mod로 작업 간격을 늘리면 TV를 보거나 수리하는 동안 인간과 동일한 오류가 발생합니다. 실수로 켜져 있어도 수동으로 취소 할 수 있습니다.\n\n▶5."Advanced_Animal_프레임워크s"는 모든 동물을 대상으로하며 코드가 미숙하기 때문에 호환성이 어렵고 결과적으로 "열광적인 작업의욕"의 기능이 손실됩니다.</HWKz_HardworkingNotice_tooltip>
+
+  <HWKz_rocketManTimeDilationAdapt_Label>《RocketMan》의 적응설정</HWKz_rocketManTimeDilationAdapt_Label>
+  <HWKz_rocketManTimeDilationAdapt_tooltip>▶：캐릭터는 "RocketMan" 종족의 "시간 확장 제어"를 활성화하면 인간 (방문자)과 마찬가지로 TV를 보거나 수리를 할 때 음성 오류 (화면의 시야각에서 멀어진다) 로 트리거됩니다. "RocketMan"은 기본적으로 이식자의 시간 확장 제어를 끄고 복잡한 작업이 자동으로 꺼지도록 적응 가능한 규칙을 가지고 있습니다.</HWKz_rocketManTimeDilationAdapt_tooltip>
+
+  <HWKz_rocketManTimeDilationAdaptNumA_Label>——「시간확장제어」를 활성화</HWKz_rocketManTimeDilationAdaptNumA_Label>
+  <HWKz_rocketManTimeDilationAdaptNumA_tooltip>▶：이것은 "Rocketman"이 이식자에게 준 실험 기능으로, 나는 그것을 캐릭터에 응용했지만 아마도 알려지지 않은 위험이 있습니다. 두는 것이 낫습니다만, 당신의 캐릭터가 여가하고 있는 것 같다면?</HWKz_rocketManTimeDilationAdaptNumA_tooltip>
+
+  <HWKz_rocketManTimeDilationAdaptNumB_Label>——「시간확장제어」를 무효화(권장)</HWKz_rocketManTimeDilationAdaptNumB_Label>
+  <HWKz_rocketManTimeDilationAdaptNumB_tooltip>▶：일반적으로 Rocketman에서 수동으로 각각을 비활성화하는 것이 좋습니다. 여기서는 Rocketman 메커니즘에 개입하고, 설정을 무시하고, 한 번의 클릭으로 캐릭터의 간격 확장을 비활성화하고, 찾는 번거로움 캐릭터는 "인간 종"이며 평등하고 공정하게 취급되어야하며 이익은 반드시 위험을 초과하지는 않습니다.</HWKz_rocketManTimeDilationAdaptNumB_tooltip>
+
+  <HWKz_rocketManTimeDilationAdaptNumC_Label>——부정한 사운드 프레임 보정(실험)</HWKz_rocketManTimeDilationAdaptNumC_Label>
+  <HWKz_rocketManTimeDilationAdaptNumC_tooltip>▶：에러 발생원에 직접 개입하여 시간확장제어에 의한 음성 프레임 에러를 보정함으로써 시간확장제어를 OFF할 필요는 없지만 신뢰성을 검증할 필요가 있다. 같은 다른 Mod 인형 동물 도우미도 이것을 일으킬 수 있지만, 나는 그들에 개입하지 않습니다. 바란다면, 시간 확장 제어로 인한 오류가 이것만을 기원합니다.</HWKz_rocketManTimeDilationAdaptNumC_tooltip>
+
+  <HWKz_rocketManTimeDilationAdaptNumD_Label>——Rocketman 불간섭(재시작 필요)</HWKz_rocketManTimeDilationAdaptNumD_Label>
+  <HWKz_rocketManTimeDilationAdaptNumD_tooltip>▶：각 설정에 익숙하다면 문제 해결 방법을 알고 자체적으로 해결할 수 있습니다. 선택 후 Rocketman에 대한 어셈블리 수정을 취소하고 문제 해결에 사용할 수 있습니다.</HWKz_rocketManTimeDilationAdaptNumD_tooltip>
+
+  <HWKz_enMimikkoHardworking_Label>동물귀 조수(Mimikko) Hardwork 활성화=&gt;마우스 오버로 확인해주세요.</HWKz_enMimikkoHardworking_Label>
+  <HWKz_enMimikkoHardworking_tooltip>▶：기본적으로 사용하도록 설정되어 있습니다. 내가 직접 설정했기 때문에 《동물귀 조수(Mimikko)》의 설정에 자세한 내용이 있습니다. 독특한 항목은 저자의 "사모"씨에 의해 설정됩니다.</HWKz_enMimikkoHardworking_tooltip>
+
+  <HWKz_enmaidnukosHardworking_Label>메이드 누코 Hardwork 활성화 (재시작 필요)</HWKz_enmaidnukosHardworking_Label>
+  <HWKz_enmaidnukosHardworking_tooltip>▶：메이드 누코는 비슷한 다른 Mod를 가지고 있기 때문에 그것을 확인하고 활성화하십시오. 메이드 누코의 "행동 트리"는 원래 동물로 복원되어 다른 작업 Mod가 작동하지 않을 수 있습니다. 일종의 '종족'이라는 점을 감안할 때, 스킬 레벨은 고정되지 않고 무작위로 생성되며 관심 대상도 무작위이지만 불을 붙일 수 있습니다.</HWKz_enmaidnukosHardworking_tooltip>
+
+  <HWKz_enInsectGirlsHardworking_Label>곤충소녀 Hardwork 활성화(재시작 필요)</HWKz_enInsectGirlsHardworking_Label>
+  <HWKz_enInsectGirlsHardworking_tooltip>▶：작업 무효화와 스킬 레벨은 곤충소녀 작자 "rot03065"가 스스로 설정하고 활성화하면 곤충 소녀 청소 행동이 무효화되고 WorkTab에 의해 할당됩니다.</HWKz_enInsectGirlsHardworking_tooltip>
+
+  <HWKz_enkemomimihouseHardworking_Label>kemomimihouse Hardwork 활성화(재시작 필요)</HWKz_enkemomimihouseHardworking_Label>
+  <HWKz_enkemomimihouseHardworking_tooltip>▶：프레임 워크가 형성되어 있기 때문에 패치를 사용하여 특정 동물만을 캐릭터로 만들거나 "kemomimihouse"Mod를 도입하지 않는 선택도 가능합니다. 또한, "Velc"씨의 버전을 도입하면, "kemomimihouse" 캐릭터도 자동으로 비활성화되고이 스위치보다 우선합니다.</HWKz_enkemomimihouseHardworking_tooltip>
+
+  <HWKz_enHardworkingMainButtonIcon_Label>캐릭터 할당란을 작은 아이콘으로 변경(재시작 필요)</HWKz_enHardworkingMainButtonIcon_Label>
+  <HWKz_enHardworkingMainButtonIcon_tooltip>▶：끄면 "캐릭터 우선 순위"라는 텍스트 표기로 돌아갑니다.</HWKz_enHardworkingMainButtonIcon_tooltip>
+
+  <HWKz_enHardWorkerAdvancedTrainability_Label>조련의 난이도를 상급으로 통일(재시작 필요)</HWKz_enHardWorkerAdvancedTrainability_Label>
+  <HWKz_enHardWorkerAdvancedTrainability_tooltip>▶：상급 및 중급에 대응하는 조련의 잠금 해제 작업을 위한 2개의 스텝 세트가 내장되어 있습니다. 중급은 조련기간이 짧지만 원작자에게 다른 의도가 있을지도 모르기때문에 자유롭게 바꿔주세요.</HWKz_enHardWorkerAdvancedTrainability_tooltip>
+
+  <HWKz_enHardWorkerDisabledWorkList_Label>단계적 작업 잠금 해제 사용(모든 잠금 해제)</HWKz_enHardWorkerDisabledWorkList_Label>
+  <HWKz_enHardWorkerDisabledWorkList_tooltip>▶：테스트 할 때만 끄는 것이 좋습니다. 끄면 미리 설정된 개별화 된 작업의 차이가 없으므로 가능한 한 켜는 것이 좋습니다. 실제 효과는 캐릭터 우선입니다. 순위를 한 번 열면 발생합니다.</HWKz_enHardWorkerDisabledWorkList_tooltip>
+
+  <HWKz_enHardWorkerDiyTrainableWork_Label>맞춤 잠금 해제 사용</HWKz_enHardWorkerDiyTrainableWork_Label>
+  <HWKz_enHardWorkerDiyTrainableWork_tooltip>▶：작성자가 사용하기 위해 기본적으로 내가 만든 조련의 잠금 해제 절차를 사용하지만 다른 아이디어가 있거나 다른 동물을 함께 다시 쓰는 경우 패치의주의 사항에 따라 예를 들어 운송 작업을 사전에 잠금 해제하고 협상 작업을 마지막으로 배치하는 것이 기본이지만 문자 그대로 잠금 해제하지 않고 조련 잠금 해제 프로세스로 사용했습니다.</HWKz_enHardWorkerDiyTrainableWork_tooltip>
+
+  <HWKz_enHardWorkerMoveSpeedWithRest_Label>수면과 연동된 이동속도 활성화</HWKz_enHardWorkerMoveSpeedWithRest_Label>
+  <HWKz_enHardWorkerMoveSpeedWithRest_tooltip>▶：근무 시간, 휴식, 오락 등의 제한과 마찬가지로 이 구조는 캐릭터의 성능을 최적화합니다. 콜로니에서 아무것도 하지 않는일은 거의 없기 때문에 캐릭터가 유능할수록 평균적으로 더 많은 자원을 소비하게됩니다.</HWKz_enHardWorkerMoveSpeedWithRest_tooltip>
+
+  <HWKz_enHardWorkerEndJobWithInteract_Label>훈련시 강제 대기</HWKz_enHardWorkerEndJobWithInteract_Label>
+  <HWKz_enHardWorkerEndJobWithInteract_tooltip>▶：기본적으로 330 프레임에서 더 이상 작동하지 않는 메커니즘이 내장되어 있습니다.이 설정은 향상되었으며 대화 중에 2 ~ 3 번 120 프레임으로 강제 대기합니다. 먹이 때만 강제로 대기시킵니다. "기본 330 프레임 작동하지 않습니다"하지만 아직 부족할 때 켜는 것이 좋습니다. 조련한 동물이 작업의 중단을 반복하는 경우가 있습니다만 이것은 전통적인 완고한 질병이며 결국 훈련에 성공한다는 것은 우여곡절에 불과합니다.</HWKz_enHardWorkerEndJobWithInteract_tooltip>
+
+  <HWKz_enCancelHardWorkerSlaughter_Label>캐릭터의 "도살"명령을 폐지</HWKz_enCancelHardWorkerSlaughter_Label>
+  <HWKz_enCancelHardWorkerSlaughter_tooltip>▶：이러한 비인간적 인 명령은 작은 귀여움에게 너무 많은 부담을줍니다.</HWKz_enCancelHardWorkerSlaughter_tooltip>
+
+  <HWKz_enHardWorkerCharacterItab_Label>기본캐릭터 탭을 활성화</HWKz_enHardWorkerCharacterItab_Label>
+  <HWKz_enHardWorkerCharacterItab_tooltip>▶：내가 다시 작성한 "캐릭터"열로 대체되었으며 테스트 목적으로 만 사용됩니다. 원래 캐릭터 필드에는 처음에는 빨간색 오류가 있었지만 한 번 저장하면 사라집니다.</HWKz_enHardWorkerCharacterItab_tooltip>
+
+  <HWKz_enHardWorkerAboutFood_Label>먹이기 활성화</HWKz_enHardWorkerAboutFood_Label>
+  <HWKz_enHardWorkerAboutFood_tooltip>▶：먹이류의 일은 매우 다른 식품 Mod에 영향을 받기 쉽기 때문에 만일, 에러가 발생하면, 무효화하고 나서 Mod가 수정될 때까지 기다려 주세요.나의 다른 Mod "kemomimihouse확장"과 조합하는 것을 내장식 식사 확장은 대부분의 다른 Mod의 식사 관리를 지원합니다.</HWKz_enHardWorkerAboutFood_tooltip>
+
+  <HWKz_enHardWorkerAboutPatient_Label>휴식을 활성화</HWKz_enHardWorkerAboutPatient_Label>
+  <HWKz_enHardWorkerAboutPatient_tooltip>▶：오리지널 판의 "동물의 휴양"은 컨트롤 할 수 없기 때문에, 자동적으로 휴양하고 있었습니다만, 유효화하면, 캐릭터의 "동물의 휴양"을 금지해, 대신에 우선 순위로 휴양, 의사가 컨트롤 하듯이 우리는 상호 진료를 할 수있게되었습니다.</HWKz_enHardWorkerAboutPatient_tooltip>
+
+  <HWKz_enHardWorkerAboutHanding_Label>가축 조련을 활성화</HWKz_enHardWorkerAboutHanding_Label>
+  <HWKz_enHardWorkerAboutHanding_tooltip>▶：가축 작업 유형은 비교적 많으며 현재는 원래 가축 작업에만 호환되며 다른 가축 작업은 호환성 상황에 따라 WorkTab Mod에서 수동으로 조정해야합니다. 이나 착유는 "스스로"할 수 있습니다만, 조교나 훈련 등은 "스스로"하는 것을 금지하고 있습니다.</HWKz_enHardWorkerAboutHanding_tooltip>
+
+  <HWKz_enHardWorkerAboutHandingMod_Label>——다른 Mod의 가축 작업을 활성화</HWKz_enHardWorkerAboutHandingMod_Label>
+  <HWKz_enHardWorkerAboutHandingMod_tooltip>▶：우선 순위가 화이트리스트 Mod가 된 후에는 활성화하면 모든 조련 훈련 작업이 해제됩니다. 일부 Mod의 조련 훈련 작업은 호환성을 필요로하지 않습니다. 일부는 있지만 원래 버전과 함께 제공되는 작업 만 지원하므로 활성화 한 후 WorkTab Mod를 사용하여 수동으로 조정하는 것이 좋습니다.</HWKz_enHardWorkerAboutHandingMod_tooltip>
+
+  <HWKz_enHardWorkerAboutAnimalHaul_Label>추가 동물 운반 활성화</HWKz_enHardWorkerAboutAnimalHaul_Label>
+  <HWKz_enHardWorkerAboutAnimalHaul_tooltip>▶：활성화 후 작업 운반과 동물 운반이 공존하고, 동물 운반은 간격을두고 트리거되고 작업 운반은 작업 중에 스캔됩니다.</HWKz_enHardWorkerAboutAnimalHaul_tooltip>
+
+  <HWKz_enHardWorkerpQualityConstruct_Label>고품질 건축을 활성화</HWKz_enHardWorkerpQualityConstruct_Label>
+  <HWKz_enHardWorkerpQualityConstruct_tooltip>▶："노동 의욕"을 전 세계적으로 관리하고 끄면 품질과 관련된 건축을 건너 뜁니다. 건축 스타일은 주인과 동일하며 독립된 품질 알고리즘으로 다른 Mod에 제한되지 않고 전설 제품을 만들 수 있습니다.</HWKz_enHardWorkerpQualityConstruct_tooltip>
+
+  <HWKz_enHardWorkerpQualityProduction_Label>고품질 창작 활성화</HWKz_enHardWorkerpQualityProduction_Label>
+  <HWKz_enHardWorkerpQualityProduction_tooltip>▶："창작의욕"을 글로벌하게 관리하고 끄면, 품질에 관련된 제작 작업은 작업 완료 후에 건너뜁니다. 따라서 독립적 인 안정적인 품질 알고리즘을 가지고 있으며 다른 Mod로 제어되지 않고 확률로 전설 제품을 만들 수 있습니다.</HWKz_enHardWorkerpQualityProduction_tooltip>
+
+  <HWKz_enHardWorkerSkipHaulCaseHasSelf_Label>캐릭터의 적재 운반을 스킵 한다(주의)</HWKz_enHardWorkerSkipHaulCaseHasSelf_Label>
+  <HWKz_enHardWorkerSkipHaulCaseHasSelf_tooltip>▶：캐릭터 자신이 짐이기 때문에, 자신이 운반처에 들어갈 수 없고, 캐릭터 자신도 운반 짐인 경우, 폰에 잡아 운반되었을 때에 크래시 에러를 일으킬 가능성이 있습니다만, 원인은 불명합니다 운반 오류를 해결하려고하는 설정이지만 발생하지 않으면 무시해도 좋고 효과가 있는지는 불분명하므로 시간이 지남에 따라 검증해야합니다.</HWKz_enHardWorkerSkipHaulCaseHasSelf_tooltip>
+
+  <HWKz_enHardworkingPawnWork_Label>캐릭터의 "일"을 활성화</HWKz_enHardworkingPawnWork_Label>
+  <HWKz_enHardworkingPawnWork_tooltip>▶：글로벌 노동 컨트롤을 통해 캐릭터의 직업 검색을 켜고 끌 때 실시간으로 전환 할 수 있으며 비교 테스트를 쉽게 수행 할 수 있습니다. 끄면 "동물 휴양"이 자동으로 활성화됩니다.</HWKz_enHardworkingPawnWork_tooltip>
+
+  <HWKz_enWorkWhiteListMode_Label>——초보자 Mod: 화이트리스트 Mod(중요)</HWKz_enWorkWhiteListMode_Label>
+  <HWKz_enWorkWhiteListMode_tooltip>▶：화이트리스트에있는 "WorkGiver"(우선 순위에있는 하위 범주) 만 허용하고 길들인 동안에만 사용하는 것이 좋습니다. 나는 필요하지 않지만, WorkTab에서 직접 조정할 수 있지만 요구 사항은 서로 일치하고 필요한 사람들에게 가능한 한 포괄적으로 제공 할 수 있습니다. 현재 화이트리스트에는 원래 작업, Vanilla_Fishing_Expanded, AllowTool이 포함되어 있으며 언제든지 추가 될 수 있습니다.</HWKz_enWorkWhiteListMode_tooltip>
+
+  <HWKz_curHardworkingPawnWorkMinRest_Label>——최소한의 건강을 요구：{0}%</HWKz_curHardworkingPawnWorkMinRest_Label>
+  <HWKz_curHardworkingPawnWorkMinRest_tooltip>▶：성능상, 작업은 동물이 딴짓보다 훨씬 부담이 많기 때문에 캐릭터가 너무 활동적이지 않도록 캐릭터의 총 작업 시간을 줄이도록 설정할 수 있습니다. 기본값은 35 %이며 건강 설정 값 아래로 떨어지면 응급 상황이나 요양이 필요한 경우를 제외하고는 캐릭터가 더 이상 작동하지 않습니다.</HWKz_curHardworkingPawnWorkMinRest_tooltip>
+
+  <HWKz_enHardworkingPawnWorkChance_Label>—— 전체의 딴짓을 활성화</HWKz_enHardworkingPawnWorkChance_Label>
+  <HWKz_enHardworkingPawnWorkChance_tooltip>▶：동물 딴짓 설정은 개별 딴짓 설정보다 우선하며 딴짓 주기를 조정할 수 있습니다. 참고로 시스템의 기본값은 동물 운반은 1.5 시간/회입니다. 작동 후 캐릭터의 근무 시간 같은 계통의 동물과 비슷하지만 나중에는 좋은 선택입니다.</HWKz_enHardworkingPawnWorkChance_tooltip>
+
+  <HWKz_curHardworkingPawnWorkMtbHours_Label>——현재의 딴짓 주기：{0}시간/회</HWKz_curHardworkingPawnWorkMtbHours_Label>
+  <HWKz_curHardworkingPawnWorkMtbHours_tooltip>▶：전체와 독립적으로 공유되며 기본값은 1.0 시간 / 분입니다.</HWKz_curHardworkingPawnWorkMtbHours_tooltip>
+
+  <HWKz_enHardworkingPawnWorkChanceAboutRest_Label>——딴짓을 하는 되는 건강</HWKz_enHardworkingPawnWorkChanceAboutRest_Label>
+  <HWKz_enHardworkingPawnWorkChanceAboutRest_tooltip>▶：딴짓을 하는 주기에 체력 계수 (1 ~ 2)를 곱합니다. 체력이 떨어지면 더 길어집니다.</HWKz_enHardworkingPawnWorkChanceAboutRest_tooltip>
+
+  <HWKz_enHardworkingPawnWorkAtNightMust_Label>——야근 강제를 활성화</HWKz_enHardworkingPawnWorkAtNightMust_Label>
+  <HWKz_enHardworkingPawnWorkAtNightMust_tooltip>▶：시간표 Tab의 단체 야근 Mod에 맞추어 디폴트로 온으로 하고 있어, 긴급 작업 이외 낮(07~21시)은 "절대로 작동하지 않습니다".OFF로 하면 유연한 대응이 유효하게 되어, 조정의 우선 학위는 가장 낮고 충분한 오락이있을 때 유연하게 대응합니다.</HWKz_enHardworkingPawnWorkAtNightMust_tooltip>
+
+  <HWKz_enHardworkingPawnWorkAtNightOrigin_Label>——야근 시간대:{0}시～07시</HWKz_enHardworkingPawnWorkAtNightOrigin_Label>
+  <HWKz_enHardworkingPawnWorkAtNightOrigin_tooltip>▶：원래 시스템은 21시에서 07시 사이에 잠을 자고 있지만 저녁 17시에서 아침 03시까지 시간을 조정할 수 있습니다.</HWKz_enHardworkingPawnWorkAtNightOrigin_tooltip>
+
+  <HWKz_enHardworkingPawnJoy_Label>캐릭터의 "오락"을 활성화</HWKz_enHardworkingPawnJoy_Label>
+  <HWKz_enHardworkingPawnJoy_tooltip>▶：캐릭터의 오락의 전반적인 제어는 성능 저하가 적고 딴짓보다 저하가 많아 주로 작업의 활발함을 중화하는 데 사용됩니다.</HWKz_enHardworkingPawnJoy_tooltip>
+
+  <HWKz_enJoyWhiteListMode_Label>——오락 화이트리스트 Mod</HWKz_enJoyWhiteListMode_Label>
+  <HWKz_enJoyWhiteListMode_tooltip>▶：초보자 Mod와 마찬가지로 화이트리스트에 등록 된 오락 만 유효합니다. 현재 바닐리와 DLC, "Vanilla_Furniture_Expanded","Standalone_Hot_Spring","含商咀徵——神州文化扩展"등의 오락 대부분이 대응되어 있습니다만, 만약을 위해서 입니다.</HWKz_enJoyWhiteListMode_tooltip>
+
+  <HWKz_curHardWorkerMinJoyHold_Label>——최소한의 오락을 유지：{0}%</HWKz_curHardWorkerMinJoyHold_Label>
+  <HWKz_curHardWorkerMinJoyHold_tooltip>▶：이보다 낮 으면 오락 활동이 재개되어 작업 우선 순위가 낮아지고 기본적으로 35 %로 낮아집니다. 예외적으로 야간 휴가 시간은 75 % 이하에서 최소 우선 순위로 오락 활동을 재개합니다.</HWKz_curHardWorkerMinJoyHold_tooltip>
+
+  <HWKz_curHardworkingPawnJoyMtbHours_Label>——최소 오락 간격：{0}시간/1회</HWKz_curHardworkingPawnJoyMtbHours_Label>
+  <HWKz_curHardworkingPawnJoyMtbHours_tooltip>▶：기본값은 0입니다. 작업의 딴짓와 마찬가지로 오락도 딴짓입니다. 최소한의 오락를 유지하기 위해 아직 캐릭터 규칙에 익숙하지 않은 사람들은 활성화 할 필요가 없습니다. ！ 야간에는 실제 설정 값의 2 배가됩니다.</HWKz_curHardworkingPawnJoyMtbHours_tooltip>
+
+  <HWKz_enHardworkingPawnJoy_DrugPolicy_Label>——약물 관리 활성화</HWKz_enHardworkingPawnJoy_DrugPolicy_Label>
+  <HWKz_enHardworkingPawnJoy_DrugPolicy_tooltip>▶：폰을 관리하기 위해 캐릭터의 약물 관리를 수행하고, 주로 중독자를위한 오락 목적의 설정을 사용할 수 있습니다. 주의해주세요, 정기적으로 사용하는 약물은 상비하고 있지 않습니다.</HWKz_enHardworkingPawnJoy_DrugPolicy_tooltip>
+
+  <HWKz_enHardworkingPawnJoy_FoodRestriction_Label>——식사 목록 활성화(주의)</HWKz_enHardworkingPawnJoy_FoodRestriction_Label>
+  <HWKz_enHardworkingPawnJoy_FoodRestriction_tooltip>▶：시스템의 디폴트인 "럭셔리 다이어트"는 타이틀만을 나타냅니다. 인간의 식사 제한을 변경한 결과, 훈련중의 조교사가 입수할 수 없는 요리를 사용해 "예기치 않은"문제를 일으키는 것 그래서 초기 캐릭터의 기본값은 "정교한 식사"로 변경되었습니다.\n\n▶：이 설정을 해제하면 식사 제한 화면이 남아 있지만 기능이 비활성화됩니다. 그러나 다른 Mod에서도이 목록을 활성화 할 수 있으므로 이 설정을 무시하고 활성화 될 가능성이 있습니다.</HWKz_enHardworkingPawnJoy_FoodRestriction_tooltip>
+
+  <HWKz_enRestoreAllHardWorkers_Label>캐릭터 설정 복원</HWKz_enRestoreAllHardWorkers_Label>
+  <HWKz_enRestoreAllHardWorkers_tooltip>▶：맵의 초기 단계에서 가능한 한 캐릭터의 데이터를 저장 한 후에 본 Mod를 삭제하면 원래의 설정이 완전히 부활합니다.이 작업을하지 않고 본 Mod를 삭제해도 게임에 영향은 아니지만 아카이브에는 스킬 레벨과 같은 교육 데이터가 남아 있습니다. \n * 이것은 디버깅 목적으로 만 사용하는 것이 좋습니다.</HWKz_enRestoreAllHardWorkers_tooltip>
+
+  <HardworkingMod_SettingRestore_Label>설정을 리셋</HardworkingMod_SettingRestore_Label>
+  <HardworkingMod_SettingRestore_tooltip>설정을 리셋 한다</HardworkingMod_SettingRestore_tooltip>
+
+</LanguageData>

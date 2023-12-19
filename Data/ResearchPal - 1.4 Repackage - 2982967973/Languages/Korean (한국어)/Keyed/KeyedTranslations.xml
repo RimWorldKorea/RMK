@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ResearchPal>ResearchPal - Forked</ResearchPal>
+
+  <ResearchPal.AllowsBuildingX>{0} 건설 사용 가능</ResearchPal.AllowsBuildingX>
+  <ResearchPal.AllowsCraftingX>{0} 레시피 사용 가능</ResearchPal.AllowsCraftingX>
+  <ResearchPal.AllowsSowingXinY>{0}을/를 {1}에 심기 가능</ResearchPal.AllowsSowingXinY>
+  <ResearchPal.AllowsPlantingX>{0} 재배 가능</ResearchPal.AllowsPlantingX>
+  <ResearchPal.AllowGeneralX>{0} 사용 가능</ResearchPal.AllowGeneralX>
+  <ResearchPal.OtherPrerequisites>기타 선행 기술: {0}</ResearchPal.OtherPrerequisites>
+
+  <ResearchPal.LClickReplaceQueue>왼쪽 클릭으로 대기열을 변경합니다.</ResearchPal.LClickReplaceQueue>
+  <ResearchPal.LClickRemoveFromQueue>왼쪽 클릭으로 대기열에서 제거합니다.</ResearchPal.LClickRemoveFromQueue>
+  <ResearchPal.SLClickAddToQueue>Shift-왼쪽 클릭으로 대기열에 추가합니다.</ResearchPal.SLClickAddToQueue>
+  <ResearchPal.ALClickAddToQueue>Alt-왼쪽 클릭으로 대기열에 추가합니다.</ResearchPal.ALClickAddToQueue>
+  <ResearchPal.CLClickDebugInstant>(개발자) Ctrl-왼쪽 클릭으로 연구를 즉시 완료합니다.</ResearchPal.CLClickDebugInstant>
+  <ResearchPal.RightClickNode>오른쪽 클릭으로 계속 강조하여 표시합니다.</ResearchPal.RightClickNode>
+  <ResearchPal.RightClickIcon>물품 아이콘 (또는 점 아이콘)을 오른쪽 클릭하여 세부 정보를 표시합니다.</ResearchPal.RightClickIcon>
+  <ResearchPal.Drag>드래그로 연구 대기열과 상호작용합니다.</ResearchPal.Drag>
+  <ResearchPal.ShortcutManual>SHIFT로 바로가기 조작을 표시합니다.</ResearchPal.ShortcutManual>
+
+  <ResearchPal.TechLevel>기술 수준: </ResearchPal.TechLevel>
+  <ResearchPal.Requires>요구 사항</ResearchPal.Requires>
+  <ResearchPal.LeadsTo>선행 기술</ResearchPal.LeadsTo>
+  <ResearchPal.None>없음</ResearchPal.None>
+  <ResearchPal.TechLevelTooLow>세력의 기술 수준이 너무 낮기 때문에 ({0}), 최종 연구 비용이 {1}배로 증가합니다. (원래 연구 비용: {2})</ResearchPal.TechLevelTooLow>
+
+  <ResearchPal.QueuedNode>이미 대기열에 있는 연구입니다.</ResearchPal.QueuedNode>
+  <ResearchPal.MissingFacilities>{0} 필요</ResearchPal.MissingFacilities>
+  <ResearchPal.MissingTechprints>충분하지 않은 기술 청사진 {0}/{1}</ResearchPal.MissingTechprints>
+
+  <ResearchPal.NoResearchFound>검색 결과 없음</ResearchPal.NoResearchFound>
+  <ResearchPal.NothingQueued>대기열에 연구 없음</ResearchPal.NothingQueued>
+  <ResearchPal.NextInQueue>대기열에 있는 다음 연구: {0}</ResearchPal.NextInQueue>
+
+  <ResearchPal.BuildingResearchTree>연구 트리 구축</ResearchPal.BuildingResearchTree>
+  <ResearchPal.BuildingResearchTreeAsync>배경에 연구 트리를 구축합니다</ResearchPal.BuildingResearchTreeAsync>
+
+  <ResearchPal.ResetLayout>연구 트리 레이아웃 재생성</ResearchPal.ResetLayout>
+  <ResearchPal.LayoutRegenerated>연구 트리 레이아웃이 재생성되었습니다</ResearchPal.LayoutRegenerated>
+
+  <ResearchPal.ShowNotificationPopup>알림 팝업 표시</ResearchPal.ShowNotificationPopup>
+  <ResearchPal.ShowNotificationPopupTip>연구를 마칠 때마다 일시정지 후 기본 알림을 표시합니다.</ResearchPal.ShowNotificationPopupTip>
+  <ResearchPal.ShouldSeparateByTechLevels>기술 수준별 연구 그룹 분류</ResearchPal.ShouldSeparateByTechLevels>
+  <ResearchPal.ShouldSeparateByTechLevelsTip>사용하지 않으면 연구 그룹이 보다 조밀해집니다. (적용하려면 "연구 트리 레이아웃 재생성"을 클릭하세요)</ResearchPal.ShouldSeparateByTechLevelsTip>
+  <ResearchPal.ShouldPauseOnOpen>표시 중 일시정지</ResearchPal.ShouldPauseOnOpen>
+  <ResearchPal.ShouldPauseOnOpenTip>연구 탭을 표시할 때마다 게임을 일시정지합니다.</ResearchPal.ShouldPauseOnOpenTip>
+  <ResearchPal.ShouldResetOnOpen>표시 초기화</ResearchPal.ShouldResetOnOpen>
+  <ResearchPal.ShouldResetOnOpenTip>필터링된 항목을 지우고 스크롤 위치를 재생성합니다.</ResearchPal.ShouldResetOnOpenTip>
+  <ResearchPal.AlignCloserToAncestors>선행 기술에 더 가깝게 정렬</ResearchPal.AlignCloserToAncestors>
+  <ResearchPal.AlignCloserToAncestorsTip>휴리스틱 탐지를 이용해 연구를 하위 연구 대신 선행 사항에 더 가깝게 배치합니다. (적용하려면 "연구 트리 레이아웃 재생성"을 클릭하세요)</ResearchPal.AlignCloserToAncestorsTip>
+  <ResearchPal.MinimumSeparateModTech>분리에 필요한 최소 모드 연구 숫자</ResearchPal.MinimumSeparateModTech>
+  <ResearchPal.MinimumSeparateModTechTip>기본 바닐라 연구 트리와 별도로 배치되기 위해 필요한 추가 모드 연구의 최소 개수입니다. (적용하려면 "연구 트리 레이아웃 재생성"을 클릭하세요)</ResearchPal.MinimumSeparateModTechTip>
+  <ResearchPal.GroupModTechs>같은 모드 연구를 함께 배치</ResearchPal.GroupModTechs>
+  <ResearchPal.GroupModTechsTip>휴리스틱 탐지를 무시하고 같은 모드의 연구를 함께 배치합니다. (적용하려면 "연구 트리 레이아웃 재생성"을 클릭하세요)</ResearchPal.GroupModTechsTip>
+  <ResearchPal.SearchByDescription>설명으로 검색</ResearchPal.SearchByDescription>
+  <ResearchPal.SearchByDescriptionTip>검색된 키워드에 일치하는 연구 설명을 찾아 표시합니다. (검색 성능을 악화시킬 수 있습니다)</ResearchPal.SearchByDescriptionTip>
+  <ResearchPal.DelayLayoutGeneration>레이아웃 생성 지연</ResearchPal.DelayLayoutGeneration>
+  <ResearchPal.DelayLayoutGenerationTip>게임을 불러올 때 대신 연구 트리를 처음 사용할 때에 레이아웃을 생성하도록 합니다.</ResearchPal.DelayLayoutGenerationTip>
+  <ResearchPal.AsyncLoadingOnStartup>배경 레이아웃 생성</ResearchPal.AsyncLoadingOnStartup>
+  <ResearchPal.AsyncLoadingOnStartupTip>게임을 불러올 때 배경에 레이아웃을 생성하도록 합니다.</ResearchPal.AsyncLoadingOnStartupTip>
+  <ResearchPal.ProgressTooltip>연구 진행 툴팁</ResearchPal.ProgressTooltip>
+  <ResearchPal.ProgressTooltipTip>진행 중인 연구 프로젝트에 연구 진행 상황을 표시합니다. (경고: 현재 제대로 작동하지 않을 수 있습니다)</ResearchPal.ProgressTooltipTip>
+  <ResearchPal.AlwaysDisplayProgress>항상 진행률 표시</ResearchPal.AlwaysDisplayProgress>
+  <ResearchPal.AlwaysDisplayProgressTip>연구 프로젝트를 완료하는 데 필요한 남은 연구 점수를 항상 표시하고, 축소하더라도 표시에 영향을 주지 않게 됩니다.</ResearchPal.AlwaysDisplayProgressTip>
+  <ResearchPal.ShowQueueIndexOnQueue>연구 대기열에 색인 표시</ResearchPal.ShowQueueIndexOnQueue>
+  <ResearchPal.ShowQueueIndexOnQueueTip>연구 대기열에 있는 연구에 색인 아이콘을 표시합니다.</ResearchPal.ShowQueueIndexOnQueueTip>
+  <ResearchPal.DontIgnoreHiddenPrerequisites>숨겨진 선행 기술 무시 금지</ResearchPal.DontIgnoreHiddenPrerequisites>
+  <ResearchPal.DontIgnoreHiddenPrerequisitesTip>숨겨진 선행 기술을 무시하는 ResearchPal의 고질적인 버그를 수정합니다.
+보다 균형 잡힌 플레이를 위해서는 이 옵션을 활성화할 필요가 있습니다. 이 옵션을 끌 수 있는 이유는 기존에 저장된 세이브에 대한 호환성을 유지하기 위해서입니다. (적용하려면 게임을 다시 시작해야 합니다)</ResearchPal.DontIgnoreHiddenPrerequisitesTip>
+  <ResearchPal.NeedsRestart>연구 설정이 변경되었습니다. 변경 사항을 적용하려면 림월드를 다시 시작하세요.</ResearchPal.NeedsRestart>
+  <ResearchPal.DisableShortcutManual>바로가기 조작을 비활성합니다</ResearchPal.DisableShortcutManual>
+
+  <ResearchPal.ScrollSpeedMultiplier>스크롤 속도 계수</ResearchPal.ScrollSpeedMultiplier>
+  <ResearchPal.ScrollSpeedMultiplierTip>주요 연구 트리의 수평 및 수직 스크롤 속도를 제어할 수 있습니다.</ResearchPal.ScrollSpeedMultiplierTip>
+  <ResearchPal.ZoomingSpeedMultiplier>확대 속도 계수</ResearchPal.ZoomingSpeedMultiplier>
+  <ResearchPal.ZoomingSpeedMultiplierTip>주요 연구 트리의 확대 및 축소 속도를 제어할 수 있습니다.</ResearchPal.ZoomingSpeedMultiplierTip>
+  <ResearchPal.DraggingDisplayDelay>드래그 표시 지연</ResearchPal.DraggingDisplayDelay>
+  <ResearchPal.DraggingDisplayDelayTip>연구 트리에서 드래그된 연구가 드래그된 상태로 표시되는 데 걸리는 지연 시간 (초)입니다. (대기열의 연구 드래그 및 드래그의 실제 작동에는 아무런 영향을 주지 않습니다)</ResearchPal.DraggingDisplayDelayTip>
+
+  <ResearchPal.VerboseLogging>디버그 로그 기록 (개발 중)</ResearchPal.VerboseLogging>
+  <ResearchPal.VerboseLoggingTip>개발자 모드 메시지에서 상세 디버그 로그를 생성합니다. (개발 중인 기능입니다)</ResearchPal.VerboseLoggingTip>
+
+  <ResearchPal.ShowVanillaResearchFinishedMessage>바닐라 "연구 완료" 메시지 사용</ResearchPal.ShowVanillaResearchFinishedMessage>
+  <ResearchPal.ShowVanillaResearchFinishedMessageTip>ResearchPal은 일반적으로 연구가 완료되면 자체적으로 메시지를 보냅니다. 이 옵션은 Semi Random Research와 같은 모드에 대한 호환을 지원하기 위해 기본 연구 완료 메시지를 사용하도록 복원합니다.</ResearchPal.ShowVanillaResearchFinishedMessageTip>
+
+  <ResearchPal.ResearchFinished>연구 완료: {0}</ResearchPal.ResearchFinished>
+
+
+</LanguageData>

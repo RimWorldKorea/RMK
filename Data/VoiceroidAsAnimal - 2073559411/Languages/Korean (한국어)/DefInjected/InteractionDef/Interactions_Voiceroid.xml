@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <Interact_Spoil.label>응석 부리기</Interact_Spoil.label>
+  <Interact_Spoil.logRulesInitiator.rulesStrings>
+    <li>r_logentry(p=2)->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 [nuzzleadverb] [nuzzled]</li>
+    	<li>r_logentry->[INITIATOR_nameDef](이)가 [INITIATOR_possessive]머리를 [RECIPIENT_nameDef]의 [rubbedpart]에 [nuzzleadverb]비벼 댔다</li>
+
+        <li>nuzzled(p=2)->응석부리기 시작했다</li>
+    	<li>nuzzled->달라붙어 왔다</li>
+    	<li>nuzzled->달려들어 안아왔다</li>
+
+    	<li>nuzzleadverb(p=4)-></li>
+    	<li>nuzzleadverb->상냥하게</li>
+	    <li>nuzzleadverb->격려하려고</li>
+    	<li>nuzzleadverb->기쁘게</li>
+	    <li>nuzzleadverb->부드럽게</li>
+    	<li>nuzzleadverb->지탱하려고</li>
+	    <li>nuzzleadverb->쾌활하게</li>
+    	<li>nuzzleadverb->진심으로</li>
+	    <li>nuzzleadverb->슬픈 듯이</li>
+    	<li>nuzzleadverb->사랑을 담아서</li>
+	    <li>nuzzleadverb->애정 담아</li>
+	    <li>nuzzleadverb->순진하게</li>
+	    <li>nuzzleadverb->부끄러워하면서</li>
+	    <li>nuzzleadverb->긴장하면서</li>
+	    <li>nuzzleadverb->살며시</li>
+	    <li>nuzzleadverb->뺨에 홍조를 띠면서</li>
+
+    	<li>rubbedpart->다리</li>
+	    <li>rubbedpart->무릎</li>
+    	<li>rubbedpart->발</li>
+	    <li>rubbedpart->팔꿈치</li>
+    	<li>rubbedpart->엉덩이</li>
+	    <li>rubbedpart->어깨</li>
+    	<li>rubbedpart->손</li>
+	    <li>rubbedpart->겨드랑이</li>
+    	<li>rubbedpart->팔뚝</li>
+  </Interact_Spoil.logRulesInitiator.rulesStrings>
+
+
+  <!-- Chitchat -->
+  <VAA_Chitchat.label>잡담</VAA_Chitchat.label>
+  <VAA_Chitchat.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 [TalkTopicLight]에 대한 [talkedabout].</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [TalkTopicLight]에 대한 [RECIPIENT_nameDef]에게 [talkedabout].</li>
+    <li>r_logentry(p=0.8)->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 [TalkTopicLight] [commentedabout].</li>
+    
+    <li>talkedabout(p=4)->수다를 떨었다</li>
+    <li>talkedabout->잡담을 했다</li>
+    <li>talkedabout->회화를 나누었다</li>
+    <li>talkedabout->쓸데없는 이야기를 했다</li>
+    <li>talkedabout->의논했다</li>
+    <li>talkedabout->농담을 주고받았다</li>
+    <li>talkedabout->비꼬는 말을 주고받았다</li>
+    
+    <li>commentedabout->에 대해 뭔가 말했다</li>
+    <li>commentedabout->에 대해서 한마디 했다</li>
+    <li>commentedabout->에 대해서 코멘트 했다</li>
+    <li>commentedabout->에 대한 의견을 말했다</li>
+    <li>commentedabout->에 대해 농담을 했다</li>
+  </VAA_Chitchat.logRulesInitiator.rulesStrings>
+
+
+  <!-- KindWords -->
+  <VAA_KindWords.label>상냥한 말</VAA_KindWords.label>
+  <VAA_KindWords.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 [PersonalCharacteristic] [complimented].</li>
+
+    <li>complimented(p=3)->에게 인사를 전했다</li>
+    <li>complimented->(을)를 찬양했다</li>
+    <li>complimented->(을)를 칭찬했다</li>
+    <li>complimented->(을)를 칭찬을 전했다</li>
+    <li>complimented->(을)를 칭찬을 표현했다</li>
+    <li>complimented->(을)를 축하했다</li>
+    <li>complimented->에게 경의를 표했다</li>
+    <li>complimented->의 배려를 이야기했다</li>
+    <li>complimented->에 대해 좋은 감정을 나타냈다</li>
+    <li>complimented->에 대해 상냥한 말을 했다</li>
+    <li>complimented->(을)를 말로 칭찬했다</li>
+    <li>complimented->에게 감사를 표했다</li>
+    <li>complimented->에 대해 좋은 말을 했다</li>
+  </VAA_KindWords.logRulesInitiator.rulesStrings>
+
+</LanguageData>
