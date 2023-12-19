@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <VAA.StuffedDestroy>열화로 인형은 쓸모가 없게 되었습니다.</VAA.StuffedDestroy>
+  <VAA.StuffedLossOwnership>{0}(은)는 인형의 소유권을 상실했습니다.</VAA.StuffedLossOwnership>
+  <VAA.CommandEditStuffedLabel>편집</VAA.CommandEditStuffedLabel>
+  <VAA.CommandEditStuffedDesc>인형의 외형을 편집합니다</VAA.CommandEditStuffedDesc>
+  <VAA.CommandSetMendPoint>수선 타이밍</VAA.CommandSetMendPoint>
+  <VAA.CommandSetMendPointDesc>인형의 열화도가 이 값 이상이 되면, 정착민은 지시 없이도 수리를 합니다. 단, 0으로 설정되어 있는 경우에는 수리를 하지 않습니다.</VAA.CommandSetMendPointDesc>
+  <VAAStuffed.Author>제작자</VAAStuffed.Author>
+  <VAAStuffed.Degradation>열화도</VAAStuffed.Degradation>
+  <VAAStuffed.Owner>소유자</VAAStuffed.Owner>
+  <VAAStuffed.Attachment>애착도</VAAStuffed.Attachment>
+  <VAA.SetMendPoint>열화도 {0}이상으로 수선을 허가한다</VAA.SetMendPoint>
+  <VAA.MessageTakePossessionStuffed>{0}(은)는 인형을 자신의 것으로 했다.</VAA.MessageTakePossessionStuffed>
+  <VAA.MessageMendSuccess>{0}(은)는 인형 수선에 성공했습니다.</VAA.MessageMendSuccess>
+  <VAA.MessageMendFailure>{0}(은)는 인형 수선에 실패했다.</VAA.MessageMendFailure>
+  <VAA.MessageMendLost>{0}(은)는 인형을 수선하는데 실패했고, 결국 돌이킬 수 없게된 인형을 파기했습니다.</VAA.MessageMendLost>
+  <VAA.MessageMendBigFailure>{0}(은)는 인형을 수선하는데 실패했고, 인형은 더 너덜너덜해졌다.</VAA.MessageMendBigFailure>
+  <VAA.MessagePrisonerResistanceBroken>죄수 {PRISONER_labelShort}의 저항은 인형의 효과에 의해 소멸되었습니다.</VAA.MessagePrisonerResistanceBroken>
+  <VAA.NoResourcesToFixTrans>가죽 또는 옷감이 부족합니다</VAA.NoResourcesToFixTrans>
+  
+  <VAAStuffed.WindowEditStuffed>인형의 외형 편집</VAAStuffed.WindowEditStuffed>
+  <VAAStuffed.Initialize>초기화</VAAStuffed.Initialize>
+  <VAAStuffed.OpenPresetListDialog>프리셋</VAAStuffed.OpenPresetListDialog>
+  <VAAStuffed.SelectGraphicOfStuffed>차등 선택</VAAStuffed.SelectGraphicOfStuffed>
+  <VAAStuffed.OffsetXOfStuffed>묘화 위치X</VAAStuffed.OffsetXOfStuffed>
+  <VAAStuffed.OffsetZOfStuffed>묘화 위치Z</VAAStuffed.OffsetZOfStuffed>
+  <VAAStuffed.ScaleOfStuffed>묘화 배율</VAAStuffed.ScaleOfStuffed>
+  <VAAStuffed.AngleOfStuffed>묘화 각도</VAAStuffed.AngleOfStuffed>
+  <VAAStuffed.RotationOfStuffed>묘화 방향</VAAStuffed.RotationOfStuffed>
+  <VAAStuffed.GetDownOfStuffed>???</VAAStuffed.GetDownOfStuffed>
+  <VAAStuffed.GetDownAdjustmentOfStuffed>???계수</VAAStuffed.GetDownAdjustmentOfStuffed>
+  <VAAStuffed.Rot0>북</VAAStuffed.Rot0>
+  <VAAStuffed.Rot1>동</VAAStuffed.Rot1>
+  <VAAStuffed.Rot2>남</VAAStuffed.Rot2>
+  <VAAStuffed.Rot3>서</VAAStuffed.Rot3>
+  
+  <VAAStuffed.LoadPreset>로드</VAAStuffed.LoadPreset>
+  <VAAStuffed.DeleteThisPreset>이 프리셋을 삭제합니다.</VAAStuffed.DeleteThisPreset>
+  <VAAStuffed.SavePresetButton>보존</VAAStuffed.SavePresetButton>
+  
+  <VAAStuffed.PawnKindData>종족：{0}</VAAStuffed.PawnKindData>
+  <VAAStuffed.PawnKindIsNotFound>PawnKindDef「{0}」(을)를 찾을 수 없었습니다.</VAAStuffed.PawnKindIsNotFound>
+  <VAAStuffed.GraphicKeyData>묘화 차분：{0}</VAAStuffed.GraphicKeyData>
+  <VAAStuffed.OffsetData>묘화 위치：{0}</VAAStuffed.OffsetData>
+  <VAAStuffed.ScaleData>묘화 배율：{0}</VAAStuffed.ScaleData>
+  <VAAStuffed.RotData>묘화 방향：{0}</VAAStuffed.RotData>
+  <VAAStuffed.AngleData>묘화 각도：{0}</VAAStuffed.AngleData>
+  
+  <VAAStuffed.Graphic0>통상</VAAStuffed.Graphic0>
+  <VAAStuffed.Graphic1>수면</VAAStuffed.Graphic1>
+  <VAAStuffed.Graphic2>사망(썩음X)</VAAStuffed.Graphic2>
+  <VAAStuffed.Graphic3>무력화</VAAStuffed.Graphic3>
+  <VAAStuffed.Graphic4>어리광 부리기</VAAStuffed.Graphic4>
+  <VAAStuffed.Graphic5>청소</VAAStuffed.Graphic5>
+  <VAAStuffed.Graphic6>대기</VAAStuffed.Graphic6>
+  <VAAStuffed.Graphic7>도주</VAAStuffed.Graphic7>
+  <VAAStuffed.Graphic8>운반</VAAStuffed.Graphic8>
+  <VAAStuffed.Graphic9>소방</VAAStuffed.Graphic9>
+  <VAAStuffed.Graphic10>구토</VAAStuffed.Graphic10>
+  <VAAStuffed.Graphic11>하늘 쳐다보기</VAAStuffed.Graphic11>
+  <VAAStuffed.Graphic12>기도</VAAStuffed.Graphic12>
+  <VAAStuffed.Graphic13>산책</VAAStuffed.Graphic13>
+  <VAAStuffed.Graphic14>눈사람 만들기</VAAStuffed.Graphic14>
+  <VAAStuffed.Graphic15>무덤 방문</VAAStuffed.Graphic15>
+  <VAAStuffed.Graphic16>예술품 감상</VAAStuffed.Graphic16>
+  <VAAStuffed.Graphic17>편히 쉬기</VAAStuffed.Graphic17>
+  <VAAStuffed.Graphic18>환자 격려</VAAStuffed.Graphic18>
+  <VAAStuffed.Graphic19>오락(투척)</VAAStuffed.Graphic19>
+  <VAAStuffed.Graphic20>오락</VAAStuffed.Graphic20>
+  <VAAStuffed.Graphic21>당구</VAAStuffed.Graphic21>
+  <VAAStuffed.Graphic22>텔레비전</VAAStuffed.Graphic22>
+  <VAAStuffed.Graphic23>망원경</VAAStuffed.Graphic23>
+  <VAAStuffed.Graphic24>드럼통 사용(Mod: MMDrumcanMOD)</VAAStuffed.Graphic24>
+  <VAAStuffed.Graphic25>식사</VAAStuffed.Graphic25>
+  <VAAStuffed.Graphic26>음악(Royalty)</VAAStuffed.Graphic26>
+  <VAAStuffed.Graphic27>물고기 감상(Mod: Aquarium)</VAAStuffed.Graphic27>
+  <VAAStuffed.Graphic28>공놀이(Mod: Animals are fun)</VAAStuffed.Graphic28>
+  <VAAStuffed.Graphic29>따라가기</VAAStuffed.Graphic29>
+  <VAAStuffed.Graphic30>귀청소(Mod: Earpick)</VAAStuffed.Graphic30>
+  <VAAStuffed.Graphic31>귀이개(Mod: Earpick)</VAAStuffed.Graphic31>
+  <VAAStuffed.Graphic32>세탁기 바라보기(Mod: Dubs Bad Hygiene)</VAAStuffed.Graphic32>
+  <VAAStuffed.Graphic33>헤엄치기(Mod: Dubs Bad Hygiene)</VAAStuffed.Graphic33>
+  <VAAStuffed.Graphic34>입욕(Mod: Dubs Bad Hygiene)</VAAStuffed.Graphic34>
+  <VAAStuffed.Graphic35>서서 게임(Mod: Vanilla Furniture Expanded)</VAAStuffed.Graphic35>
+  <VAAStuffed.Graphic36>샌드백(Mod: Vanilla Furniture Expanded)</VAAStuffed.Graphic36>
+  <VAAStuffed.Graphic37>집필(Mod: RimWriter)</VAAStuffed.Graphic37>
+  <VAAStuffed.Graphic38>아픔</VAAStuffed.Graphic38>
+  <VAAStuffed.Graphic39>스킬 사용</VAAStuffed.Graphic39>
+  <VAAStuffed.Graphic40>스킬(저축)</VAAStuffed.Graphic40>
+  <VAAStuffed.Graphic41>인형</VAAStuffed.Graphic41>
+
+</LanguageData>
