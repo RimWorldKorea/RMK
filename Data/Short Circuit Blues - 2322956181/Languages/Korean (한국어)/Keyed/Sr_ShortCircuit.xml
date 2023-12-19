@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<SCB_Main>Short Circuit Blues</SCB_Main>
+	<SCB_DrainSet>배터리 방전 설정</SCB_DrainSet>
+	<SCB_Drain>배터리 방전: %{0}</SCB_Drain>
+	<SCB_DrainMin>배터리 방전 최소값: %{0}</SCB_DrainMin>
+	<SCB_DrainMax>배터리 방전 최대값: %{0}</SCB_DrainMax>
+	
+	<SCB_Stored>저장된 용량</SCB_Stored>
+	<SCB_Total>총 용량</SCB_Total>
+	<SCB_Rand>랜덤</SCB_Rand>
+
+	<SCB_Get>Try with a fuse mod; </SCB_Get>
+	<SCB_PL>Power Logic</SCB_PL>
+	<SCB_RT>RT Fuse</SCB_RT>
+	
+	
+	<!-- Non-Fused with Fuse Mods -->
+	<SCB_FuseLess>배터리 방전(퓨즈 없을시): {0}</SCB_FuseLess>
+	
+	<SCB_FuselessTot>저장된 총 용량</SCB_FuselessTot>
+	<SCB_FuselessSame>퓨즈의 완화 수치와 동일</SCB_FuselessSame>
+	<SCB_FuselessMult>{0} * 완화 수치</SCB_FuselessMult>
+	
+	
+	<!-- RT Fuse -->
+	<SCB_RT_Settings>RT Fuse 설정</SCB_RT_Settings>
+	<SCB_RT_SettingsDesc>RT Fuse의 방전완화 수치의 총합은 해당 퓨즈가 속한 전력망에 저장된 총 전력량을 초과해야 합니다.</SCB_RT_SettingsDesc>
+	<SCB_RT_Mult>방전 완화 배율: {0}</SCB_RT_Mult>
+	<SCB_RT_Mult_N>방전 완화 배율 없음</SCB_RT_Mult_N>
+	<SCB_RT_MultDesc>퓨즈는 이 정도로 더 강력하게 됩니다. (변경해도 퓨즈의 설명문구는 바뀌지 않습니다.)</SCB_RT_MultDesc>
+	
+	<SCB_RTZero>배터리 없이 작동</SCB_RTZero>
+	<SCB_RTZeroDesc>기본적으로 RT Fuse는 전원은 있지만 배터리가 없을 때 끊어지거나 꺼진 경우에도 화재로부터 보호합니다. *퓨즈가 켜진 상태 일때만 보호할 수 있습니다.</SCB_RTZeroDesc>
+	
+	
+	<!-- PowerLogic -->
+	<SCB_PL_Settings>Power Logic Settings</SCB_PL_Settings>
+	<SCB_PL_SettingsDesc>Power Logic fuses should be placed on straight lines, not corners. They usually won't be able to protect other conduits behind the batteries. Their mitigation power is infinite, but only if placed properly.</SCB_PL_SettingsDesc>
+	
+	<SCB_PL_Flic>Flick instead of Breakdown</SCB_PL_Flic>
+	<SCB_PL_Protec>Fuses Prevent Explosions</SCB_PL_Protec>
+	
+	<SCB_PL_Chance>Fuse triggering chance: %{0}</SCB_PL_Chance>
+	<SCB_PL_ChanceDefault>Fuse chance: %50 (Power Logic default)</SCB_PL_ChanceDefault>
+	
+	
+	<!-- Advanced -->
+	<SCB_Advanced>고급 설정</SCB_Advanced>
+	
+	<SCB_FireWats>화재 발생에 필요한 송전량: {0} W</SCB_FireWats>
+	<SCB_FireWatsDesc>파지직 발생시 이 수치 미만일 경우 화재나 폭발을 일으키지 않습니다.</SCB_FireWatsDesc>
+	
+	<SCB_ExploWats>폭발 발생에 필요한 저장량: {0} W</SCB_ExploWats>
+	<SCB_ExploWatsDesc>파지직 발생시 전력 저장량이 이 수치 미만일경우 폭발 대신 화재가 발생합니다. 기본값: ~20 W</SCB_ExploWatsDesc>
+	
+	<SCB_DmgOdds>파지직 발생시 화재 또는 폭발 가능성: {0}%</SCB_DmgOdds>
+	<SCB_DmgOddsDesc>다른 조건이 충족될 경우 파지직 발생시 화재 또는 폭발의 가능성이 있습니다. 기본값: 100%</SCB_DmgOddsDesc>
+	
+	<SCB_DamageInstead>손상시 폭빌 확률 차단(데미지)</SCB_DamageInstead>
+	<SCB_DamageInsteadDesc>손상시 폭발대신 약간의 둔탁 데미지를 입게 됩니다.</SCB_DamageInsteadDesc>
+	
+	<SCB_BurnInstead>손상시 폭발 확률 차단(화재)</SCB_BurnInstead>
+	<SCB_BurnInsteadDesc>손상시 폭발대신 화재가 발생하게 됩니다.</SCB_BurnInsteadDesc>
+	
+	<SCB_BrekOdds>파지직 발생시 고장 확률: {0}%</SCB_BrekOdds>
+	<SCB_BrekOddsDesc>파지직 발생시 방전된 건물에 고장 기회를 추가합니다.</SCB_BrekOddsDesc>	
+	
+	<SCB_Explorad>폭발 반경 배율: *{0}</SCB_Explorad>
+	<SCB_ExploradDesc>정착지가 터질수 있으니 위험을 감수하고 사용하십시오.</SCB_ExploradDesc>
+	
+	<SCB_SoundFused>파지직 발생시 회로 차단기 사운드 사용</SCB_SoundFused>
+	<SCB_RemoveLetter>편지 대신 메시지 표시</SCB_RemoveLetter>
+	
+	
+	<!-- Message -->
+	<SCB_Message1_0>{0}의 결함으로인해 방전이 발생했습니다.</SCB_Message1_0>
+	<SCB_Message1_1>{0}의 결함으로인해 방전과 손상이 발생했습니다.</SCB_Message1_1>
+	<SCB_Message1_2>{0}의 결함으로인해 방전과 화재가 발생했습니다.</SCB_Message1_2>
+	<SCB_Message1_3>{0}의 결함으로인해 방전과 폭발이 발생했습니다.</SCB_Message1_3>
+	<SCB_Message1_4>{0}의 결함으로인해 방전과 큰 폭발이 발생했습니다.</SCB_Message1_4>
+
+	<SCB_Message2_1> {0}Wd의 전력이 발전되었습니다.</SCB_Message2_1>
+	
+	
+	<!-- EVENT -->
+	<SCB_tried>퓨즈는 손실을 조금이나마 줄여주었지만 충분하지 않았습니다.</SCB_tried>
+	
+	<SCB_discharged>연결된 배터리의 {0}Wd의 전력이 방전되었습니다.</SCB_discharged>
+	
+	<SCB_exploded> 그리고 폭발을 일으켰습니다.</SCB_exploded>
+	<SCB_burnt> 그리고 화재가 발생했습니다.</SCB_burnt>
+	<SCB_hurt> 그리고 약간의 피해가 발생했습니다.</SCB_hurt>
+	<SCB_sallgood> 하지만 어떠한 피해도 없었습니다.</SCB_sallgood>
+	
+	<SCB_fused>퓨즈는 방전을 막았습니다.</SCB_fused>
+	<SCB_nothing> 배터리는 방전되지 않았습니다.</SCB_nothing>
+
+</LanguageData>
