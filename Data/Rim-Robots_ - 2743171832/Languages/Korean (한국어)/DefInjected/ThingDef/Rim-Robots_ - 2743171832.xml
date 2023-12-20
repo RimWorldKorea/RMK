@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <Printed_Mechanent_Spawner.label>메카넌트</Printed_Mechanent_Spawner.label>
-  <Printed_Mechanent_Spawner.description>새로운 메카넌트를 조립합니다.</Printed_Mechanent_Spawner.description>
   <Printed_Persona_Spawner.label>페르소나</Printed_Persona_Spawner.label>
-  <Printed_Persona_Spawner.description>새로운 페르소나를 출력합니다.</Printed_Persona_Spawner.description>
   <MechCreationCasket.label>메카노이트 캐스킷</MechCreationCasket.label>
   <MechCreationCasket.description>기계와 인조 생물을 만들어 낼 수 있는 생물 조각기입니다. 올바른 재료와 충분한 시간이 주어진다면 메카나이트가 하급 페르소나 개체를 만들어 냅니다. 인공지능 자아 핵이 주어진다면 놀랍도록 인간처럼 생긴 인조물을 출력해냅니다. \n\n대부분의 행성에서 메카노이드 캐스킷과 메카넌트는 금지되어있습니다.\n\n전투에 이용되는 메카노이드는 만들어 낼 수 없도록 설정되어 있습니다.</MechCreationCasket.description>
   <Filth_SynthBlood.label>인조 피</Filth_SynthBlood.label>
@@ -15,26 +13,15 @@
   <ComponentPersona.description>다양한 첨단 기술 인조물을 만드는 데 사용되는 고급 구성요소입니다. 메카노이드 캐스킷에 삽입되면 구성 요소와 결합하며 메카나이트 무리를 방출합니다. 그 구성요소의 모든 것을 분자단위로 재해석하며 새로운 것을 만들어 낼 겁니다.\n\n오직 메카 캐스킷을 활용할 때만 쓰이기에 중요할 수 있습니다.</ComponentPersona.description>
   <UnfinishedComponentPersonae.label>미완성 페르소나 부품</UnfinishedComponentPersonae.label>
   <UnfinishedComponentPersonae.description>미완성 페르소나 부품</UnfinishedComponentPersonae.description>
+  <PsylinkFormerSynth.label>기계 정신력 증폭기</PsylinkFormerSynth.label>
+  <PsylinkFormerSynth.description>사용자의 정신의 연결을 형성하거나 강화하는 초월공학 장치입니다.\n\n하지만 이 특별한 증폭기는 기계를 수용할 수 있는 기능이 추가되어, 장치를 통해 인공자아 핵을 건드려 초능력을 얻을 수 있습니다. 그 후 장치는 재로 분해됩니다.</PsylinkFormerSynth.description>
+  <PsylinkFormerSynth.comps.0.useLabel>기계 정신력 증폭기 사용</PsylinkFormerSynth.comps.0.useLabel>
   <FuelNode_SynthDiet.label>연료 노드</FuelNode_SynthDiet.label>
   <FuelNode_SynthDiet.description>일반적으로 메카넌트, 메카노이드 및 소형 우주선에 내장된 반응로에 연료를 공급하는 데 사용되는 소형 연료통입니다.\n\n인화성과 휘발성이 매우 높습니다.</FuelNode_SynthDiet.description>
   <FuelNode_SynthDiet.ingestible.ingestCommandString>{0}(으)로 반응로를 충전합니다</FuelNode_SynthDiet.ingestible.ingestCommandString>
-  <FuelNode_SynthDiet.ingestible.ingestReportString>{0}(으)로 반응로 충전 중.</FuelNode_SynthDiet.ingestible.ingestReportString>
-  <RR_SelfAlloyingPlatingItem.label>자가융합 판금</RR_SelfAlloyingPlatingItem.label>
-  <RR_SelfAlloyingPlatingItem.description>'인조인간'에게만 이식할 수 있는 특수 합금 반응물입니다. 합금은 메카나이트, 분자 결합, 금속 합금화의 연쇄 반응을 이용해 인조인간의 금속 외피를 밀도가 훨씬 더 높은 금속으로 변환합니다. 추가된 합금은 사용자를 훨씬 느리게 만들고, 미적으로도 훨씬 덜 만족스러워 보입니다.</RR_SelfAlloyingPlatingItem.description>
-  <RR_SelfAlloyingHelmItem.label>자가융합 헬멧</RR_SelfAlloyingHelmItem.label>
-  <RR_SelfAlloyingHelmItem.description>'인조인간'에게만 이식할 수 있는 특수 합금 반응물입니다. 메카넌트의 머리와 결합된 합금은, 머리 위에 들쭉날쭉하고 날카로운 가공할만한 방어판을 형성하기 위해 강화 메카나이트들을 방출합니다. 새로운 합금은 메카넌트가 말하는 것을 더 어렵게 만들고, 미적으로는 충격적으로 보이게 됩니다.</RR_SelfAlloyingHelmItem.description>
+  <FuelNode_SynthDiet.ingestible.ingestReportString>{0}(으)로 반응로 충전 중</FuelNode_SynthDiet.ingestible.ingestReportString>
   <RR_AddedScythesItem.label>플라스틸 낫</RR_AddedScythesItem.label>
   <RR_AddedScythesItem.description>'인조인간'에게만 이식할 수 있는 크고 아름다운 낫입니다. 이것은 아주 단순한, 사이더가 사용하는 칼날 부속물과 매우 비슷합니다. 근접전에서는 무서운 효율로 상대방을 쓰러트릴 수 있지만 - 팔의 큰 날로 작업을 수행하는 것은 상당히 어렵습니다.</RR_AddedScythesItem.description>
-  <RR_BoltedConciousnessItem.label>인지 제한 키</RR_BoltedConciousnessItem.label>
-  <RR_BoltedConciousnessItem.description>'인조인간'에게만 설치할 수 있는 활성화 키입니다. 모든 인조인간들이 두려워하고 증오하는 물건으로 인조인간들의 지각 코드를 활성화시켜 거의 모든 지적 능력을 못하도록 차단시킵니다. 중심계의 법에 따라 모든 지성을 가진 인공지능은 이 키의 설치가 의무화 되어 있습니다. 설치는 영구적이며 되돌릴 수 없습니다.</RR_BoltedConciousnessItem.description>
-  <RR_NerveWireItem.label>신경선 회로</RR_NerveWireItem.label>
-  <RR_NerveWireItem.description>'인조인간'에게만 설치할 수 있는 고감도 네트워크 도선입니다. 메카넌트의 몸 내부에 설치되면 신경을 모방하며 물체와 접촉 및 심한 상해를 입었을 때 인공 지능 핵에 전류를 보내게끔 합니다. 촉각과 고통의 감각을 모방합니다.</RR_NerveWireItem.description>
-  <RR_FissionReactorItem.label>고급 핵분열 반응로</RR_FissionReactorItem.label>
-  <RR_FissionReactorItem.description>'인조인간'에게만 이식할 수 있는 초소형 반응로입니다. 이 특별한 반응로는 자체적인 유지보수가 가능하기 때문에 연료를 필요로 하지 않지만 - 메카캐스킷 안에서 만들어지지 않았기 때문에 특정한 안전장치가 없고, 안정성을 유지하기 위해 무작위로 오버클럭될 수 있기 때문에 자기 불안정성을 야기합니다.</RR_FissionReactorItem.description>
-  <RR_VanometricReactorItem.label>베노메트릭 반응로</RR_VanometricReactorItem.label>
-  <RR_VanometricReactorItem.description>'인조인간'에게만 설치할 수 있는 소형의 둥근 반응로입니다. 이 희귀한 반응로는 흔히 발견되고 있는 베노메트릭 발전기와 똑같은 성능으로 반응로를 무한히 충전시킬 수 있습니다.</RR_VanometricReactorItem.description>
-  <RR_ArchotechUplinkItem.label>초월공학 연결체</RR_ArchotechUplinkItem.label>
-  <RR_ArchotechUplinkItem.description>'인조인간'에게 이식할 수 있는 소형 유물 칩입니다. 그것은 인조인간에게 잊혀진 초월공학 엔진에 정신적으로 연결하게끔 만들어 정신 감응력이 높아지는 대가로 모든 능력을 크게 향상시킬 것입니다.</RR_ArchotechUplinkItem.description>
   <Item_MechArmSynth.label>기계 팔</Item_MechArmSynth.label>
   <Item_MechArmSynth.description>떼어낸 기계 팔입니다. - 생물학적인 접점이 없기 때문에, '인조인간'에게만 이식할 수 있습니다. 복잡한 내부 관절과 서보의 배열이 일반 인간의 팔이 할 수 있는 행동을 가능하게 합니다.</Item_MechArmSynth.description>
   <Item_MechLegSynth.label>기계 다리</Item_MechLegSynth.label>
@@ -51,12 +38,14 @@
   <Item_SynthEyeSynth.description>떼어낸 인조인간의 눈입니다. - 생물학적인 접점이 없기 때문에, '인조인간'에게만 이식할 수 있습니다. 인조인간이 내부 신호 전처리기와 광스펙트럼 감지기를 통해 빛의 변화를 감지하고 해독할 수 있게 만듭니다. 인간의 눈보다 뛰어납니다.</Item_SynthEyeSynth.description>
   <Item_SynthJawSynth.label>인조인간 턱</Item_SynthJawSynth.label>
   <Item_SynthJawSynth.description>떼어낸 인조인간의 턱입니다. - 생물학적인 접점이 없기 때문에, '인조인간'에게만 이식할 수 있습니다. 복잡한 내부 작업으로 인해 탁월한 발언과 웅변이 가능하며, 추가적으로 매우 아름답습니다.</Item_SynthJawSynth.description>
-  <PsylinkFormerSynth.label>기계 정신력 증폭기</PsylinkFormerSynth.label>
-  <PsylinkFormerSynth.description>사용자의 정신의 연결을 형성하거나 강화하는 초월공학 장치입니다.\n\n하지만 이 특별한 증폭기는 기계를 수용할 수 있는 기능이 추가되어, 장치를 통해 인공자아 핵을 건드려 초능력을 얻을 수 있습니다. 그 후 장치는 재로 분해됩니다.</PsylinkFormerSynth.description>
-  <PsylinkFormerSynth.comps.0.useLabel>기계 정신력 증폭기 사용</PsylinkFormerSynth.comps.0.useLabel>
+  <RR_FissionReactorItem.label>고급 핵분열 반응로</RR_FissionReactorItem.label>
+  <RR_FissionReactorItem.description>'인조인간'에게만 이식할 수 있는 초소형 반응로입니다. 이 특별한 반응로는 자체적인 유지보수가 가능하기 때문에 연료를 필요로 하지 않지만 - 메카캐스킷 안에서 만들어지지 않았기 때문에 특정한 안전장치가 없고, 안정성을 유지하기 위해 무작위로 오버클럭될 수 있기 때문에 자기 불안정성을 야기합니다.</RR_FissionReactorItem.description>
+  <RR_VanometricReactorItem.label>베노메트릭 반응로</RR_VanometricReactorItem.label>
+  <RR_VanometricReactorItem.description>'인조인간'에게만 설치할 수 있는 소형의 둥근 반응로입니다. 이 희귀한 반응로는 흔히 발견되고 있는 베노메트릭 발전기와 똑같은 성능으로 반응로를 무한히 충전시킬 수 있습니다.</RR_VanometricReactorItem.description>
+  <RR_ArchotechUplinkItem.label>초월공학 연결체</RR_ArchotechUplinkItem.label>
+  <RR_ArchotechUplinkItem.description>'인조인간'에게 이식할 수 있는 소형 유물 칩입니다. 그것은 인조인간에게 잊혀진 초월공학 엔진에 정신적으로 연결하게끔 만들어 정신 감응력이 높아지는 대가로 모든 능력을 크게 향상시킬 것입니다.</RR_ArchotechUplinkItem.description>
   <Chemfuel.ingestible.ingestCommandString>{0}(으)로 반응로를 충전합니다</Chemfuel.ingestible.ingestCommandString>
-  <Chemfuel.ingestible.ingestReportString>{0}(으)로 반응로 충전 중.</Chemfuel.ingestible.ingestReportString>
+  <Chemfuel.ingestible.ingestReportString>{0}(으)로 반응로 충전 중</Chemfuel.ingestible.ingestReportString>
   <Uranium.ingestible.ingestCommandString>{0}(으)로 반응로를 충전합니다</Uranium.ingestible.ingestCommandString>
-  <Uranium.ingestible.ingestReportString>{0}(으)로 반응로 충전 중.</Uranium.ingestible.ingestReportString>
-  <RR_BoltedConciousnessItem.description.description>'인조인간'에게만 설치할 수 있는 활성화 키입니다. 모든 인조인간들이 두려워하고 증오하는 물건으로 인조인간들의 지각 코드를 활성화시켜 거의 모든 지적 능력을 못하도록 차단시킵니다. 또한 이념 또한 관여할 것입니다. 중심계의 법에 따라 모든 지성을 가진 인공지능은 이 키의 설치가 의무화 되어 있습니다. 설치는 영구적이며 되돌릴 수 없습니다.</RR_BoltedConciousnessItem.description.description>
+  <Uranium.ingestible.ingestReportString>{0}(으)로 반응로 충전 중</Uranium.ingestible.ingestReportString>
 </LanguageData>
