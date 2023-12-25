@@ -56,7 +56,7 @@
   <IP_InsertVariableSecond>두 번째 칸에 {0} 삽입</IP_InsertVariableSecond>
   <IP_InsertVariableThird>세 번째 칸에 {0} 삽입</IP_InsertVariableThird>
   <IP_CantFindThing>이 지도에 해당 종류의 물품({0})이 없습니다.</IP_CantFindThing>
-  <IP_BringIngredients>재료 운반하기</IP_BringIngredients>
+  <IP_BringIngredients>에 재료 투입</IP_BringIngredients>
   <IP_BringIngredientsDesc>작업을 시작하기 위해 재료 운반하기</IP_BringIngredientsDesc>
   <IP_CancelIngredients>재료 운반 취소</IP_CancelIngredients>
   <IP_CancelIngredientsDesc>이 건물로 재료 운반하기 취소</IP_CancelIngredientsDesc>
@@ -67,11 +67,11 @@
   <IP_ChooseIngredientThird>세 번째 재료를 선택</IP_ChooseIngredientThird>
   <IP_ChooseIngredientFourth>네 번째 재료를 선택</IP_ChooseIngredientFourth>
   <IP_IngredientImproperlyDefined>재료 중 하나가 물품 작업이 중복 작동하도록 잘못 정의되었습니다.\n모드 작성자에게 문의하십시오.</IP_IngredientImproperlyDefined>
-  <IP_NoPowerDestroysWarning>{0}(이)가 작동하려면 전원이 필요합니다.</IP_NoPowerDestroysWarning>
-  <IP_NoFuelDestroysWarning>{0}(이)가 작동하려면 연료가 필요합니다.</IP_NoFuelDestroysWarning>
-  <IP_LightDestroysWarning>{0}(이)가 작업을 시작하려면 주변에 적절한 조명이 있어야 합니다.</IP_LightDestroysWarning>
-  <IP_RainDestroysWarning>{0}(이)가 작업을 시작하려면 비가 오지 않아야 합니다.</IP_RainDestroysWarning>
-  <IP_TemperatureDestroysWarning>{0}(이)가 작업을 시작하려면 적절한 온도({1} - {2})가 있어야 합니다.</IP_TemperatureDestroysWarning>
+  <IP_NoPowerDestroysWarning>{0}(이)가 가공을 시작하려면 전원이 필요합니다.</IP_NoPowerDestroysWarning>
+  <IP_NoFuelDestroysWarning>{0}(이)가 가공을 시작하려면 연료가 필요합니다.</IP_NoFuelDestroysWarning>
+  <IP_LightDestroysWarning>{0}(이)가 가공을 시작하려면 밝기가 적절한 범위에 있어야 합니다.</IP_LightDestroysWarning>
+  <IP_RainDestroysWarning>{0}(이)가 가공을 시작하려면 비를 맞혀선 안됩니다.</IP_RainDestroysWarning>
+  <IP_TemperatureDestroysWarning>{0}(이)가 가공을 시작하려면 온도가 적절한 범위({1} - {2})에 있어야 합니다.</IP_TemperatureDestroysWarning>
   <IP_NoPowerDestroysInitialWarning>정전으로 가공중인 물품이 손상되었습니다.</IP_NoPowerDestroysInitialWarning>
   <IP_NoPowerDestroysMessage>정전으로 가공중인 물품이 손상되었습니다.</IP_NoPowerDestroysMessage>
   <IP_GenericProductFinished>물품 가공이 완료되어 운반 대기 중</IP_GenericProductFinished>
@@ -87,26 +87,26 @@
   <IP_ProcessingInProgressNoQuality>{1} ▸▸▸ {2}: {3} 남음</IP_ProcessingInProgressNoQuality>
   <IP_RemoveProduct>{0} ({1}) 제거</IP_RemoveProduct>
   <IP_RemoveProductDesc>{1}에서 {0}(을)를 제거하세요.\n제품은 현재 품질 수준 ({2})로 완성됩니다.</IP_RemoveProductDesc>
-  <IP_ResetSemiautomatic>조리법 초기화</IP_ResetSemiautomatic>
-  <IP_ResetSemiautomaticDesc>현재 제품이 완성된 후 건물을 재설정해서, 새로운 재료 성분을 선택할 수 있습니다.</IP_ResetSemiautomaticDesc>
+  <IP_ResetSemiautomatic>계획 초기화</IP_ResetSemiautomatic>
+  <IP_ResetSemiautomaticDesc>진행 중인 과정이 완료되면 새로운 작업을 시작하지 않고 설정을 초기화한 채 대기 상태로 둡니다.</IP_ResetSemiautomaticDesc>
   <IP_NoCombination>이 재료에 대한 조합을 찾을 수 없습니다.</IP_NoCombination>
-  <IP_SetAutoQuality>제품 완료 품질을 설정하세요.\n제품이 이 품질에 도달하면, 정착민은 자동으로 저장 장소로 운반합니다.\n설정하지 않으면 수동으로 옮기거나, 운이 좋으면 전설 품질로 완성됩니다.</IP_SetAutoQuality>
-  <IP_ChooseQualityAuto>자동 품질 선택</IP_ChooseQualityAuto>
-  <IP_QualityAutoIs>자동 품질: {0}</IP_QualityAutoIs>
-  <IP_QualityAutoNot>자동 품질 비활성화</IP_QualityAutoNot>
-  <IP_QualityAutoEstablished>자동 품질, 해당 품질 수준에서 제품 운반: {0}</IP_QualityAutoEstablished>
+  <IP_SetAutoQuality>품질 목표치를 설정하세요.\n\n가공품이 설정한 품질에 도달하면 정착민이 가공품을 꺼내 자동으로 저장구역으로 운반합니다.\n\n설정하지 않으면 원하는 시점에 직접 가공품을 꺼내도록 지시해야 합니다.</IP_SetAutoQuality>
+  <IP_ChooseQualityAuto>목표 품질</IP_ChooseQualityAuto>
+  <IP_QualityAutoIs>목표 품질: {0}</IP_QualityAutoIs>
+  <IP_QualityAutoNot>목표 품질 비활성화</IP_QualityAutoNot>
+  <IP_QualityAutoEstablished>목표 품질 설정: {0}</IP_QualityAutoEstablished>
   <IP_ToggleAuto>자동 재료 획득</IP_ToggleAuto>
   <IP_ToggleAutoDesc>항목을 활성화하면 해당 건물은 인접한 저장장소에서 재료를 자동으로 가져오고, 제품을 제거하면 자동으로 다시 작업을 시작합니다.\n그렇지 않은 경우 정착지 주민이 건물에 재료를 운반하며, 채워 넣은 후 수동으로 재개해야 합니다.</IP_ToggleAutoDesc>
   <IP_ResetFullAuto>공정 초기화</IP_ResetFullAuto>
   <IP_ResetFullAutoDesc>작동을 멈추고 공정을 재설정합니다.\n\n경고: 이미 투입된 재료는 파괴됩니다.</IP_ResetFullAutoDesc>
   <IP_ProductWaiting>운반 대기 중</IP_ProductWaiting>
-  <IP_OutsideLightRange>주변에 조명이 없어 곧 손상될 것입니다.</IP_OutsideLightRange>
-  <IP_SpoiledDueToLight>주변에 조명이 없어서 생산품이 손상되었습니다.</IP_SpoiledDueToLight>
-  <IP_ItRains>비가 와서 곧 손상될 것입니다.</IP_ItRains>
-  <IP_SpoiledDueToRain>비가 와서 생산품이 손상되었습니다.</IP_SpoiledDueToRain>
-  <IP_WrongTemp>온도가 알맞지 않아서 곧 손상될 것입니다.</IP_WrongTemp>
-  <IP_SpoiledDueToWrongTemp>생산품이 부적합한 온도로 인해 파손되었습니다.</IP_SpoiledDueToWrongTemp>
-  <IP_TempRangeInThisMachine>\n숙성 온도: {0} - {1}</IP_TempRangeInThisMachine>
+  <IP_OutsideLightRange>적절하지 않은 밝기로 인해 가공이 중단되었습니다. 곧바로 해결하지 않으면 내용물이 손상됩니다.</IP_OutsideLightRange>
+  <IP_SpoiledDueToLight>적절하지 않은 밝기로 인해 내용물이 손상되었습니다.</IP_SpoiledDueToLight>
+  <IP_ItRains>비를 맞아서 가공이 중단되었습니다. 곧바로 해결하지 않는다면 내용물이 손상됩니다.</IP_ItRains>
+  <IP_SpoiledDueToRain>비를 맞아서 내용물이 손상되었습니다.</IP_SpoiledDueToRain>
+  <IP_WrongTemp>적절하지 않은 온도로 인해 가공이 중단되었습니다. 곧바로 해결하지 않으면 내용물이 손상됩니다.</IP_WrongTemp>
+  <IP_SpoiledDueToWrongTemp>적절하지 않은 온도로 인해 내용물이 손상되었습니다.</IP_SpoiledDueToWrongTemp>
+  <IP_TempRangeInThisMachine>\n필요 온도: {0} - {1}</IP_TempRangeInThisMachine>
   <IP_TogglePause>일시 중지 / 재시작</IP_TogglePause>
   <IP_TogglePauseDesc>공정을 일시 정지 / 재시작 합니다.</IP_TogglePauseDesc>
   <IP_OverThreshold>\n가공 중단: 배출구 포화 (최대 용량: {0})</IP_OverThreshold>
@@ -314,14 +314,16 @@
   <Reloading.NoAmmo>탄약 없음</Reloading.NoAmmo>
   <Reloading.Ammo>탄약: {0} / {1}</Reloading.Ammo>
   <Reloading.Reload>{GEAR}에 {AMMO_label} 장전</Reloading.Reload>
+  <VEF_GeneralTitle>일반 설정</VEF_GeneralTitle>
   <CSGTitle>사용자 지정 생성:</CSGTitle>
   <CSGLog>지정 생성 디버그 로그를 사용하도록 설정:</CSGLog>
-  <NeedRestart>모든 설정을 적용하려면 다시 시작해야 합니다</NeedRestart>
+  <VEF_TPTitle>토글 패치</VEF_TPTitle>
+  <NeedRestart>변경된 설정을 적용하려면 게임을 다시 시작해야 합니다</NeedRestart>
   <XPatchFound>{0}개의 패치가 감지되었습니다</XPatchFound>
   <VEF.WeatherDamages>날씨 피해</VEF.WeatherDamages>
   <VEF.EnableWeatherDamage>{0}</VEF.EnableWeatherDamage>
-  <FDTitle>세력 발견</FDTitle>
-  <NeedToBeInGame>먼저 저장된 세이브를 불러와야 합니다</NeedToBeInGame>
+  <FDTitle>기존 세이브에 신규 세력 추가</FDTitle>
+  <NeedToBeInGame>기존 세이브 파일을 불러온 뒤 설정을 다시 확인해주세요</NeedToBeInGame>
   <AskForPopUp>세력 추가</AskForPopUp>
   <AskForPopUpExplained>각 세력을 세이브에 추가할 때 질문 메시지를 표시하려면 클릭하세요</AskForPopUpExplained>
   <CanAddXFaction>현재 세이브에 {0} 세력을 추가할 수 있습니다</CanAddXFaction>
