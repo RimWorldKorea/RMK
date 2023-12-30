@@ -37,28 +37,30 @@
   <HugsLib_features_filterStatus>현재 필터: {0}</HugsLib_features_filterStatus>
   <HugsLib_features_filterAllMods>모든 모드</HugsLib_features_filterAllMods>
   <HugsLib_features_filterDropdownEntry>{0} ({1} 소식{2})</HugsLib_features_filterDropdownEntry>
-  <HugsLib_features_filterIgnoredModSuffix>,무시됨</HugsLib_features_filterIgnoredModSuffix>
-  <HugsLib_copiedToClipboard>클립보드에 복사됨.</HugsLib_copiedToClipboard>
+  <HugsLib_features_filterIgnoredModSuffix>, 무시됨</HugsLib_features_filterIgnoredModSuffix>
+  <HugsLib_copiedToClipboard>클립보드에 복사했습니다.</HugsLib_copiedToClipboard>
   <HugsLib_logs_copy>복사</HugsLib_logs_copy>
   <HugsLib_logs_shareBtn>로그 공유</HugsLib_logs_shareBtn>
-  <HugsLib_logs_shareConfirmTitle>확인</HugsLib_logs_shareConfirmTitle>
-  <HugsLib_logs_shareConfirmMessage>게임 로그를 올리시겠습니까?\n\n게임 로그가 공개 서버에 업로드되고 다른 사람과 공유할 수 있는 링크가 주어집니다. 문제를 해결하거나 모드 제작자에게 오류를 제보해야 할 때 유용합니다.\n\n개인정보는 공유되지 않습니다.</HugsLib_logs_shareConfirmMessage>
-  <HugsLib_logs_publisherTitle>올린 사람</HugsLib_logs_publisherTitle>
-  <HugsLib_logs_uploading>올리는 중{0}</HugsLib_logs_uploading>
+  <HugsLib_logs_shareConfirmTitle>로그 퍼블리셔</HugsLib_logs_shareConfirmTitle>
+  <HugsLib_logs_shareConfirmMessage>게임 로그를 업로드할까요?\n\n업로드 버튼을 누르면 로그를 익명으로 공개 서버에 업로드하고, 다른 사람과 공유하는데 사용할 수 있는 URL 주소를 생성합니다. 문제 해결에 도움이 필요한 경우나 모드 제작자에게 제보할 때 사용할 수 있습니다.</HugsLib_logs_shareConfirmMessage>
+  <HugsLib_logs_publisherTitle>로그 퍼블리셔</HugsLib_logs_publisherTitle>
+  <HugsLib_logs_uploading>업로드 진행 중{0}</HugsLib_logs_uploading>
   <HugsLib_logs_shortening>주소 받는 중{0}</HugsLib_logs_shortening>
   <HugsLib_logs_uploaded>업로드 완료!</HugsLib_logs_uploaded>
   <HugsLib_logs_uploadError>업로드 오류: {0}</HugsLib_logs_uploadError>
   <HugsLib_logs_abortBtn>중단</HugsLib_logs_abortBtn>
   <HugsLib_logs_retryBtn>재시도</HugsLib_logs_retryBtn>
-  <HugsLib_logs_browseBtn>브라우저에서 확인</HugsLib_logs_browseBtn>
+  <HugsLib_logs_browseBtn>브라우저에서 열기</HugsLib_logs_browseBtn>
   <HugsLib_logs_useRecommendedSettings>권장 설정 사용</HugsLib_logs_useRecommendedSettings>
-  <HugsLib_logs_shortUrls>짧은 URL 주소 사용</HugsLib_logs_shortUrls>
-  <HugsLib_logs_shortUrls_tip>업로드할 때 짧은 링크를 생성합니다. 권장하지는 않지만 스팀 링크는 자동으로 제거됩니다.</HugsLib_logs_shortUrls_tip>
-  <HugsLib_logs_platformInfo>플랫폼 정보 포함</HugsLib_logs_platformInfo>
-  <HugsLib_logs_platformInfo_tip>CPU, 메모리와 그래픽 카드에 대한 정보를 로그에 포함합니다.</HugsLib_logs_platformInfo_tip>
-  <HugsLib_logs_unlimitedLogSize>로그 크기 무제한 허용</HugsLib_logs_unlimitedLogSize>
-  <HugsLib_logs_unlimitedLogSize_tip>비활성하면 로그 크기가 10000 줄로 제한되어 매우 긴 로그로 인한 문제가 발생하지 않습니다.</HugsLib_logs_unlimitedLogSize_tip>
-  <HugsLib_logs_toClipboardBtn>클립보드로</HugsLib_logs_toClipboardBtn>
+  <HugsLib_logs_shortUrls>축약 URL 사용</HugsLib_logs_shortUrls>
+  <HugsLib_logs_shortUrls_tip>기본 URL 대신 길이가 짧은 대체 URL을 생성합니다.\n\nSteam에 이러한 축약된 URL를 게시하면 스캠 방지를 위해 자동으로 삭제되므로 유의하세요.</HugsLib_logs_shortUrls_tip>
+  <HugsLib_logs_platformInfo>시스템 정보 기록</HugsLib_logs_platformInfo>
+  <HugsLib_logs_platformInfo_tip>로그에 CPU, RAM, VGA와 같은 시스템 정보를 함께 기록합니다.</HugsLib_logs_platformInfo_tip>
+  <HugsLib_logs_unlimitedLogSize>로그 길이 제한 해제</HugsLib_logs_unlimitedLogSize>
+  <HugsLib_logs_unlimitedLogSize_tip>설정을 꺼둔 상태에서는 로그 길이를 1만 줄로 제한합니다.</HugsLib_logs_unlimitedLogSize_tip>
+  <HugsLib_logs_github_token>개인 계정에 업로드</HugsLib_logs_github_token>
+  <HugsLib_logs_github_token_tip>설정된 경우 로그를 공개 서버 대신 개인 GitHub 계정에 업로드합니다.\n\nGitHub → Settings → Developer settings → Personal access tokens → Fine-grained personal access tokens에서 토큰을 생성해 여기에 붙여넣으세요.\n\n다른 사람이 개인 계정에 업로드된 로그에 접근하려면 반드시 링크가 필요합니다.</HugsLib_logs_github_token_tip>
+  <HugsLib_logs_toClipboardBtn>클립보드에 복사</HugsLib_logs_toClipboardBtn>
   <HugsLib_logs_uploadBtn>업로드</HugsLib_logs_uploadBtn>
   <HugsLib_logs_filesBtn>파일</HugsLib_logs_filesBtn>
   <HugsLib_logs_openLogFile>로그파일 열기</HugsLib_logs_openLogFile>
