@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <std_sex>성적 접촉에 의한 성병</std_sex>
+  <std_sex_desc>림은 성병에 걸린 타인에 의해 해당 성병에 감염될 수 있습니다.</std_sex_desc>
+  <std_floor>주변 환경에 의한 성병</std_floor>
+  <std_floor_desc>더러운 환경에서 성행위를 할 경우 성병에 감염될 수 있습니다.</std_floor_desc>
+  <std_show_roll_to_catch>성병 전파 로그창 출력</std_show_roll_to_catch>
+  <std_show_roll_to_catch_desc>디버그 목적(또는 전염 과정이 궁금한 사람)을 위해 성관계 후 성병이 전파되는 과정을 기록합니다.</std_show_roll_to_catch_desc>
+  <std_min_severity_to_pitch>전염성을 위한 최소 병세 지수</std_min_severity_to_pitch>
+  <std_min_severity_to_pitch_desc>림 간 전염이 되려면 최소한 이 정도의 병세를 가져야 합니다.</std_min_severity_to_pitch_desc>
+  <std_env_pitch_cleanliness_exaggeration>청결한 방에서의 전염 지수 수정</std_env_pitch_cleanliness_exaggeration>
+  <std_env_pitch_cleanliness_exaggeration_desc>1.0f - 해당 지수 × RoomStatDefOf.Cleanliness.\nRoomStatDefOf.Cleanliness >= 0</std_env_pitch_cleanliness_exaggeration_desc>
+  <std_env_pitch_dirtiness_exaggeration>더러운 방에서의 전염 지수 수정</std_env_pitch_dirtiness_exaggeration>
+  <std_env_pitch_dirtiness_exaggeration_desc>1.0f - 해당 지수 × RoomStatDefOf.Cleanliness.\nRoomStatDefOf.Cleanliness < 0</std_env_pitch_dirtiness_exaggeration_desc>
+  <std_outdoor_cleanliness>야외 청결도</std_outdoor_cleanliness>
+  <std_outdoor_cleanliness_desc>야외 섹스 시 청결 상태\nRoomStatDefOf.Cleanliness = 해당 지수</std_outdoor_cleanliness_desc>
+  <opp_inf_initial_immunity>면역결핍으로 인한 감염성 수정</opp_inf_initial_immunity>
+  <opp_inf_initial_immunity_desc>면역결핍으로 인한 추가 감염 가능성을 수정합니다.</opp_inf_initial_immunity_desc>
+  <pawn_spawn_with_std_mul>성병 림 생성 계수</pawn_spawn_with_std_mul>
+  <pawn_spawn_with_std_mul_desc>성병이 있는 림이 발생할 확률 계수(기본 확률 × 계수)</pawn_spawn_with_std_mul_desc>
+  <nymph_spawn_with_std_mul>성병 색정광 생성 계수</nymph_spawn_with_std_mul>
+  <nymph_spawn_with_std_mul_desc>성병이 있는 색정광이 발생할 확률 계수(기본 확률 × 계수)</nymph_spawn_with_std_mul_desc>
+  <RJW_Opportunistic_Infection_Message>{0}(은)는 약화된 면역 체계로 인해 감염이 발생했습니다.</RJW_Opportunistic_Infection_Message>
+  <RJW_Syphilis_Damage_Message>{0}(은)는 {3} 감염의 진행으로 인해 {1}{2}에 영구적인 피해를 입었습니다.</RJW_Syphilis_Damage_Message>
+  <RJW_BreastsHaveGrownFromBoobitis>{0}의 {2}(이)가 {4}(으)로 인해 {3}컵으로 변했습니다.</RJW_BreastsHaveGrownFromBoobitis>
+</LanguageData>
