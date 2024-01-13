@@ -512,6 +512,8 @@
   <TM_ConsumeCorpse_II.description>마나를 보충하기 위해 시체 또는 언데드를 흡수합니다. 의복, 및 착용한 물건들은 남지만 시체에 속해있던 재료들은 모두 소비됩니다.(고기나 가죽 등)\n \n 마나 비용: 2%\n 사거리: 70\n 재사용 대기시간: 16초\n 시전 시간: 1.5초</TM_ConsumeCorpse_II.description>
   <TM_ConsumeCorpse_III.label>시체 흡수 (III)</TM_ConsumeCorpse_III.label>
   <TM_ConsumeCorpse_III.description>마나를 보충하기 위해 시체 또는 언데드를 흡수합니다. 의복, 및 착용한 물건들은 남지만 시체에 속해있던 재료들은 모두 소비됩니다.(고기나 가죽 등)\n \n 마나 비용: 1.5%\n 사거리: 80\n 재사용 대기시간: 15초\n 시전 시간: 1.2초</TM_ConsumeCorpse_III.description>
+  <TM_ConsumeCorpse_Mass.label>시체 흡수: 대량</TM_ConsumeCorpse_Mass.label>
+  <TM_ConsumeCorpse_Mass.description>마나를 보충하기 위해 시체 또는 언데드 무리를 흡수합니다. 의복, 및 착용한 물건들은 남지만 시체에 속해있던 재료들은 모두 소비됩니다.(고기나 가죽 등)</TM_ConsumeCorpse_Mass.description>
   <TM_CorpseExplosion.label>시체 폭발</TM_CorpseExplosion.label>
   <TM_CorpseExplosion.description>짧은 시간 후에 시체가 폭발하도록 어둠의 힘과 화학물질을 혼합합니다. 장비를 함께 폭파시키지는 않지만 폭발로 인해 파괴될 수 있습니다.\n \n 마나 비용: 20%\n 사거리: 40\n 재사용 대기시간: 10초\n 시전 시간: 2초</TM_CorpseExplosion.description>
   <TM_CorpseExplosion_I.label>시체 폭발 (I)</TM_CorpseExplosion_I.label>
@@ -554,6 +556,32 @@
   <TM_Overwhelm.description>신성한 힘이 성기사로부터 뿜어져나와 주면의 모든 생물들의 육체적, 정신적 감각을 압도합니다.</TM_Overwhelm.description>
   <TM_HolyWrath.label>신성</TM_HolyWrath.label>
   <TM_HolyWrath.description>그 땅에 거룩한 진노를 불러일으킨다.</TM_HolyWrath.description>
+  <TM_SpiritPossession.label>빙의</TM_SpiritPossession.label>
+  <TM_SpiritPossession.description>죽었든 살았든 육체를 소유합니다. 육체에 빙의하면 영혼 에너지 손실 속도가 감소합니다. 죽은 시체나 동물은 자유롭게 빙의할 수 있지만 자체적으로 정령 에너지를 생성하지 않으며, 기존의 정령 숙주가 있는 다른 시체에 빙의해야만 정령 에너지를 생성할 수 있습니다. 그러나 이미 점령당한 시신은 빙의하기가 더 어렵고, 빙의한 영혼은 숙주의 원래 영혼과 힘겨운 싸움을 벌일 수 있습니다. 만약 영혼이 여전히 에너지를 가지고 있다면, 영혼은 육체에서 빠져나와 다시 한 번 떠돌이 영혼이 됩니다. 영혼의 에너지가 완전히 소진되면 영혼은 더 이상 존재하지 않게 됩니다. 영혼이 육체를 떠나면 육체는 원래의 상태 또는 주인에게 돌아갑니다. 영혼 에너지는 물리 피해를 통해 에너지를 빨아들이거나 영혼 소모를 사용하거나 명상을 통해 얻을 수 있습니다. 공력 소모로 다른 폰을 처치하면 많은 양의 공력을 흡수합니다. 빙의된 폰의 몸은 자연적으로 회복되지 않으며, 영혼 에너지를 얻어야만 상처와 질병을 치료할 수 있습니다.</TM_SpiritPossession.description>
+  <TM_SpiritDrain.label>영혼 흡수</TM_SpiritDrain.label>
+  <TM_SpiritDrain.description>생명체의 영혼을 흡수하여 시전자의 영혼 에너지를 회복시킵니다.</TM_SpiritDrain.description>
+  <TM_DistortSpirit.label>영혼 왜곡 (I)</TM_DistortSpirit.label>
+  <TM_DistortSpirit.description>넓은 지역에 있는 살아있는 폰의 영혼과 육체 사이의 균형을 왜곡합니다. 영혼 왜곡으로 고통받는 폰은 모든 공격에서 20%의 피해를 더 받습니다.\n\n범위: 35\n시전 시간: 3s\n재충전: 60s</TM_DistortSpirit.description>
+  <TM_DistortSpirit_I.label>영혼 왜곡 (II)</TM_DistortSpirit_I.label>
+  <TM_DistortSpirit_I.description>넓은 지역에 있는 살아있는 폰의 영혼과 육체 사이의 균형을 왜곡합니다. 영혼 왜곡으로 고통받는 폰은 모든 공격에서 20%의 피해를 더 받습니다.\n\n범위: 40\n시전 시간: 2s\n재충전: 45s</TM_DistortSpirit_I.description>
+  <TM_DistortSpirit_II.label>영혼 왜곡 (III)</TM_DistortSpirit_II.label>
+  <TM_DistortSpirit_II.description>넓은 지역에 있는 살아있는 폰의 영혼과 육체 사이의 균형을 왜곡합니다. 영혼 왜곡으로 고통받는 폰은 모든 공격에서 20%의 피해를 더 받습니다.\n\n범위: 45\n시전 시간: 1.5s\n재충전: 30s</TM_DistortSpirit_II.description>
+  <TM_DistortSpirit_III.label>영혼 왜곡 (IV)</TM_DistortSpirit_III.label>
+  <TM_DistortSpirit_III.description>넓은 지역에 있는 살아있는 폰의 영혼과 육체 사이의 균형을 왜곡합니다. 영혼 왜곡으로 고통받는 폰은 모든 공격에서 20%의 피해를 더 받습니다.\n\n범위: 50\n시전 시간: 1s\n재충전: 20s</TM_DistortSpirit_III.description>
+  <TM_SummonSpiritAnimalMass.label>동물 정령</TM_SummonSpiritAnimalMass.label>
+  <TM_SummonSpiritAnimalMass.description>각 동물 정령 1마리를 잠시 동안 소환합니다.</TM_SummonSpiritAnimalMass.description>
+  <TM_SpiritRally.label>영혼 집결 (I)</TM_SpiritRally.label>
+  <TM_SpiritRally.description>최근 사망한 폰이 늑대 정령의 형태로 잠시 동안 시전자를 보조합니다. 영혼 집결은 시체 근처에서 시전할 때만 효과적입니다. 시체 하나당 영혼을 생성할 수 있습니다.\n\n시전 시간: 2초\n 재사용 대기시간 45s</TM_SpiritRally.description>
+  <TM_SpiritRally_I.label>영혼 집결 (II)</TM_SpiritRally_I.label>
+  <TM_SpiritRally_I.description>최근 사망한 폰이 늑대 정령의 형태로 잠시 동안 시전자를 보조합니다. 영혼 집결은 시체 근처에서 시전할 때만 효과적입니다. 시체 하나당 영혼을 생성할 수 있습니다.\n\n시전 시간: 2초\n 재사용 대기시간 45s</TM_SpiritRally_I.description>
+  <TM_SpiritRally_II.label>영혼 집결 (III)</TM_SpiritRally_II.label>
+  <TM_SpiritRally_II.description>최근 사망한 폰이 늑대 정령의 형태로 잠시 동안 시전자를 보조합니다. 영혼 집결은 시체 근처에서 시전할 때만 효과적입니다. 시체 하나당 영혼을 생성할 수 있습니다.\n\n시전 시간: 2초\n 재사용 대기시간 45s</TM_SpiritRally_II.description>
+  <TM_SpiritRally_III.label>영혼 집결 (IV)</TM_SpiritRally_III.label>
+  <TM_SpiritRally_III.description>최근 사망한 폰이 늑대 정령의 형태로 잠시 동안 시전자를 보조합니다. 영혼 집결은 시체 근처에서 시전할 때만 효과적입니다. 시체 하나당 영혼을 생성할 수 있습니다.\n\n시전 시간: 2초\n 재사용 대기시간 45s</TM_SpiritRally_III.description>
+  <TM_SpiritStorm.label>영혼 폭풍</TM_SpiritStorm.label>
+  <TM_SpiritStorm.description>상실감, 악의, 복수의 영혼을 끌어들이는 정령 비컨을 만듭니다. 성난 영혼의 무리는 빠르게 현실과 희망을 앗아가는 소용돌이로 발전할 것입니다. 이 폭풍 속에 있는 악령은 살아있는 존재의 영혼을 찾아 고통을 가할 것입니다. 영혼 폭풍의 방향은 생성된 후 잠시 동안 제어할 수 있습니다.</TM_SpiritStorm.description>
+  <TM_ControlSpiritStorm.label>영혼 폭풍 제어</TM_ControlSpiritStorm.label>
+  <TM_ControlSpiritStorm.description>영혼 폭풍을 지정된 위치로 이동시킵니다.</TM_ControlSpiritStorm.description>
   <TM_AdvancedHeal.label>상급 치유</TM_AdvancedHeal.label>
   <TM_AdvancedHeal.description>신성한 힘으로 대상의 상처를 치유합니다.</TM_AdvancedHeal.description>
   <TM_Purify.label>정화</TM_Purify.label>

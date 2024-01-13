@@ -216,6 +216,20 @@
   <TM_GolemChargesRemaining>{0} 행동이 남아있음</TM_GolemChargesRemaining>
   <TM_AlreadyHasSymbiote>{0}(은)는 이미 공생입니다.</TM_AlreadyHasSymbiote>
   <TM_CannotAlterWeatherType>{0} 유형의 대체 날씨를 생성할 수 없었습니다</TM_CannotAlterWeatherType>
+  <TM_UnableToLearnAdvancedClass>{0}(이)가 {2} 때문에 {1}(을)를 적용하지 못했습니다.</TM_UnableToLearnAdvancedClass>
+  <TM_LearnFail_NotClass>기본 클래스를 찾을 수 없음</TM_LearnFail_NotClass>
+  <TM_LearnFail_NoRequiredTrait>필수 특성이 발견되지 않음</TM_LearnFail_NoRequiredTrait>
+  <TM_LearnFail_DisallowedTrait>상충하는 특성</TM_LearnFail_DisallowedTrait>
+  <TM_SpiritVerbatum>영혼</TM_SpiritVerbatum>
+  <TM_AncientSpiritVerbatum>고대 영혼</TM_AncientSpiritVerbatum>
+  <TM_VengefulSpiritVerbatum>복수심에 불타는 영혼</TM_VengefulSpiritVerbatum>
+  <TM_LostSpiritVerbatum>길 잃은 영혼</TM_LostSpiritVerbatum>
+  <TM_RegretSpiritVerbatum>후회의 영혼</TM_RegretSpiritVerbatum>
+  <TM_BaseSpiritDesc>알 수 없는 힘에 의해 이 세계에 정박해 있는 떠돌이 영혼. 이 영혼의 기원을 둘러싼 사건은 알려지지 않았지만, 영혼이 살아있는 자로부터 해답, 정의 또는 구원을 구하게 할 만큼 강력합니다.</TM_BaseSpiritDesc>
+  <TM_AncientSpiritDesc>이 영혼은 수많은 시대에 존재해왔지만 더 이상 자신의 목적을 기억하지 못합니다. 고대 영혼은 각자의 목적을 추구하며 영혼 에너지를 제어하는 데 능숙해졌습니다. 최대 영혼 에너지가 50 증가합니다.</TM_AncientSpiritDesc>
+  <TM_VengefulSpiritDesc>복수심에 불타는 영혼은 악의와 증오로 가득 차 있으며, 오직 산 자에게 불행을 안겨주기를 원합니다. 복수심에 불타는 영혼은 영혼 왜곡과 영혼 폭풍 동안 더 강력한 힘을 발휘할 수 있지만, 살아있는 육체에 빙의하면 조화를 이루기가 더 어렵습니다. 영혼 폭풍의 공격 확률이 25%, 영혼 왜곡의 공격력 보너스가 6% 증가합니다. 상성이 1 감소합니다.</TM_VengefulSpiritDesc>
+  <TM_LostSpiritDesc>길을 잃은 영혼은 자신의 목적을 인식하지 못한 채 끊임없는 실존적 고뇌 속에서 세계를 떠돌아다닙니다. 길을 잃은 영혼은 다른 영혼의 대의에 쉽게 동조하고 동족 영혼과 더 쉽게 조화를 이룹니다. 또한 집결 정령 능력의 힘을 강화할 수 있습니다. 영혼 집결의 지속시간, 범위, 최대 대상, 보너스가 10% 증가합니다. 상성이 2 증가합니다.</TM_LostSpiritDesc>
+  <TM_RegretSpiritDesc>후회의 영혼은 영혼으로서 자신의 목적을 기억하고 있지만 너무 늦기 전에 잘못을 바로잡지 못했습니다. 이제 이들은 슬픔과 후회로 가득 찬 영혼이 되어 세상을 떠돌며 자신의 목적을 달성할 방법을 찾고 있습니다. 후회의 영혼은 영혼 소모 능력을 20%만큼 강화합니다.</TM_RegretSpiritDesc>
   <LetterLabelRegrowthSurgeryFail>수술 실패</LetterLabelRegrowthSurgeryFail>
   <LetterRegrowthSurgeryFail>{0}(은)는 {2}에 {1} 수술을 시도했지만 {4} {3} 때문에 실패했습니다. 이 수술을 성공적으로 수행하려면 다음 조건을 충족해야합니다. 1. 외과 의사는 훈련 된 드루이드 여야합니다. 2. 드루이드는 사지 재생 주문을 배웠어야합니다. 3. 수술을 수행하기 위해서는 생명의 씨앗이 있어야합니다. 4. 드루이드는 수술 당시 마나가 90 % 이상이어야합니다. 5. 이 모든 조건이 충족 된 후, 드루이드는 의료 스킬에 따라 성공적으로 수술을 수행해야합니다. 행운을 빕니다.</LetterRegrowthSurgeryFail>
   <TM_NotMagicUser>마법 사용자가 아닙니다.</TM_NotMagicUser>
@@ -973,6 +987,48 @@
   <TM_Symbiosis_pwr>인식</TM_Symbiosis_pwr>
   <TM_Symbiosis_eff>공동체</TM_Symbiosis_eff>
   <TM_Symbiosis_ver>껍데기</TM_Symbiosis_ver>
+  <TM_SpiritPossession_pwr_desc>영혼 상태일 때 심령 감도와 의식이 증가하며, 스피릿 탭을 통해 얻는 에너지의 양이 레벨당 10%씩 증가합니다:
+민감도: +[40%, 65%, 85%, 100%]
+의식: +[0%, 15%, 25%, 40%]</TM_SpiritPossession_pwr_desc>
+  <TM_SpiritPossession_eff_desc>영혼 빙의 시 기술 레벨당 영혼 빙의 비용이 15% 감소하고, 빙의 시 상성이 증가합니다.</TM_SpiritPossession_eff_desc>
+  <TM_SpiritPossession_ver_desc>영혼 빙의에 저항할 확률이 기술 레벨당 20%, 최대 영혼이 15 감소합니다.</TM_SpiritPossession_ver_desc>
+  <TM_SpiritDrain_pwr_desc>적에게 적용되는 공력 소모량이 증가하는 반면, 아군에게 적용되는 공력 소모량은 스킬 레벨당 15% 감소합니다.</TM_SpiritDrain_pwr_desc>
+  <TM_SpiritDrain_eff_desc>모든 자원에서 얻는 영혼 에너지의 양이 기술 레벨당 10% 증가합니다.</TM_SpiritDrain_eff_desc>
+  <TM_SpiritDrain_ver_desc>영혼 소모량이 기술 레벨당 15% 감소하며, 적용되는 영혼 소모량과 흡수하는 영혼 에너지는 그대로 유지됩니다.</TM_SpiritDrain_ver_desc>
+  <TM_DistortSpirit_pwr_desc>왜곡된 폰이 받는 피해가 기술 레벨당 5% 증가합니다.</TM_DistortSpirit_pwr_desc>
+  <TM_DistortSpirit_eff_desc>영혼 왜곡을 시전하는 데 필요한 영혼 에너지가 10% 감소하고, 영향을 받는 최대 대상 수가 기술 레벨당 1명씩 증가합니다. 기본 최대 대상은 5명입니다.</TM_DistortSpirit_eff_desc>
+  <TM_DistortSpirit_ver_desc>영혼 왜곡은 기술 레벨 1에서 소량의 영혼을 소모합니다. 기술 레벨 2와 3에서는 공력 소모량이 증가하며 시전자가 공력을 흡수합니다. 이 스킬은 훈련하는 데 2포인트가 소모됩니다.</TM_DistortSpirit_ver_desc>
+  <TM_SummonSpiritAnimalMass_pwr_desc>소환한 영혼 동물은 각 기술 레벨에 따라 강화 효과가 증가합니다.</TM_SummonSpiritAnimalMass_pwr_desc>
+  <TM_SummonSpiritAnimalMass_eff_desc>기술 레벨당 필요한 영혼 에너지가 10% 감소합니다.</TM_SummonSpiritAnimalMass_eff_desc>
+  <TM_SummonSpiritAnimalMass_ver_desc>영혼 동물의 지속시간이 기술 레벨당 5초 증가합니다. 기본 지속시간은 20분입니다.</TM_SummonSpiritAnimalMass_ver_desc>
+  <TM_SpiritRally_pwr_desc>소환할 수 있는 영혼 아군의 최대 수가 기술 레벨당 2 증가하며, 소환 불이익이 감소합니다. 기본 최대 7.</TM_SpiritRally_pwr_desc>
+  <TM_SpiritRally_eff_desc>기술 레벨당 영혼 에너지 소모량이 12% 감소합니다.</TM_SpiritRally_eff_desc>
+  <TM_SpiritRally_ver_desc> 영혼 집결의 반경과 지속시간이 증가합니다:
+0레벨: 8C, 15초
+레벨 1: 10C, 18초
+레벨 2: 12C, 21초
+레벨 3: 14C, 24초</TM_SpiritRally_ver_desc>
+  <TM_SpiritStorm_pwr_desc>영혼 폭풍으로 주는 피해가 기술 레벨에 따라 12% 증가합니다.</TM_SpiritStorm_pwr_desc>
+  <TM_SpiritStorm_eff_desc>영혼 폭풍을 생성하는 데 필요한 영혼 에너지 비용이 기술 레벨당 10% 감소합니다.</TM_SpiritStorm_eff_desc>
+  <TM_SpiritStorm_ver_desc>영혼 폭풍의 반경이 기술 레벨당 1c 증가합니다. 기본 반경 4c.</TM_SpiritStorm_ver_desc>
+  <TM_SpiritPossession_pwr>영혼력</TM_SpiritPossession_pwr>
+  <TM_SpiritPossession_eff>영혼 제어</TM_SpiritPossession_eff>
+  <TM_SpiritPossession_ver>영혼 조작</TM_SpiritPossession_ver>
+  <TM_SpiritDrain_pwr>피해 제어</TM_SpiritDrain_pwr>
+  <TM_SpiritDrain_eff>깨끗한 에너지</TM_SpiritDrain_eff>
+  <TM_SpiritDrain_ver>빠른 흡수</TM_SpiritDrain_ver>
+  <TM_DistortSpirit_pwr>강도</TM_DistortSpirit_pwr>
+  <TM_DistortSpirit_eff>관리</TM_DistortSpirit_eff>
+  <TM_DistortSpirit_ver>영혼 열상</TM_DistortSpirit_ver>
+  <TM_SummonSpiritAnimalMass_pwr>발현</TM_SummonSpiritAnimalMass_pwr>
+  <TM_SummonSpiritAnimalMass_eff>종족</TM_SummonSpiritAnimalMass_eff>
+  <TM_SummonSpiritAnimalMass_ver>조화</TM_SummonSpiritAnimalMass_ver>
+  <TM_SpiritRally_pwr>영혼 군대</TM_SpiritRally_pwr>
+  <TM_SpiritRally_eff>집단</TM_SpiritRally_eff>
+  <TM_SpiritRally_ver>영향력</TM_SpiritRally_ver>
+  <TM_SpiritStorm_pwr>영혼 광란</TM_SpiritStorm_pwr>
+  <TM_SpiritStorm_eff>공감</TM_SpiritStorm_eff>
+  <TM_SpiritStorm_ver>슬픔의 바다</TM_SpiritStorm_ver>
   <TM_WayfarerCraft_pwr_desc>각 스킬 포인트 당:\n능력 힘 +1%\n능력 저항: +2%</TM_WayfarerCraft_pwr_desc>
   <TM_WayfarerCraft_eff_desc>각 스킬 포인트 당:\n능력 비용: -1%\nXP 획득: +2%</TM_WayfarerCraft_eff_desc>
   <TM_WayfarerCraft_ver_desc>각 스킬 포인트 당:\n능력 재사용 대기시간: -1%\n스테미너 재생: +1%\n최대 SP: +2%</TM_WayfarerCraft_ver_desc>
@@ -1381,7 +1437,7 @@
   <TM_ActivateGolem>활성화</TM_ActivateGolem>
   <TM_ActivateGolemDesc>골렘을 활성화하는 과정을 시작합니다 - 활성화되면, 골렘은 일반적인 생물처럼 움직입니다. 휴면 상태에서 진행된 개선이나 수리는 폐기됩니다. 활성화에는 최소 {0}의 에너지를 필요로 합니다.</TM_ActivateGolemDesc>
   <TM_DeActivateGolem>비활성화</TM_DeActivateGolem>
-  <TM_DeActivateGolemDesc>Orders the golem to become dormant. The golem will attempt to return to its assigned dormant location. If this location is unreachable, the golem will deactivate at its current location. If the location is available, issuing this command a second time will override the return command and immediately deactivate the golem at it's current position.</TM_DeActivateGolemDesc>
+  <TM_DeActivateGolemDesc>골렘을 휴면 상태로 만들도록 명령합니다. 골렘은 지정된 휴면 위치로 돌아가려고 시도합니다. 해당 위치에 도달할 수 없는 경우, 골렘은 현재 위치에서 비활성화됩니다. 해당 위치에 도달할 수 있는 경우, 이 명령을 두 번 내리면 복귀 명령이 무시되고 골렘이 현재 위치에서 즉시 비활성화됩니다.</TM_DeActivateGolemDesc>
   <TM_ActivateGolemDisabled>비활성화 - 충분하지 않은 에너지</TM_ActivateGolemDisabled>
   <TM_AssignGolemRestPosition>휴면 위치</TM_AssignGolemRestPosition>
   <TM_AssignGolemRestPositionDesc>골렘이 비활성화되는 지점을 할당합니다.</TM_AssignGolemRestPositionDesc>
@@ -1415,6 +1471,13 @@
   <TM_GolemMasterLabel>골렘술사</TM_GolemMasterLabel>
   <TM_ActivatesGolem_Time>골렘 활성화 - 보통 약간의 시간이 소요됩니다. 골렘이 개선 중이라면 활성화할 수 없습니다.</TM_ActivatesGolem_Time>
   <TM_DeActivatesGolem_Time>골렘 비활성화 - 골렘을 휴면 상태로 되돌리며 약간의 시간이 소요됩니다.</TM_DeActivatesGolem_Time>
+  <TM_GolemAssignAreaDesc>영역 허용</TM_GolemAssignAreaDesc>
+  <TM_RemovePossession>몸 떠나기</TM_RemovePossession>
+  <TM_RemovePossessionDesc>영혼은 자의로 몸을 떠나고 폰의 특성은 소유하기 전의 상태로 돌아갑니다.</TM_RemovePossessionDesc>
+  <TM_GolemDoScreenShake>골렘 화면 흔들림</TM_GolemDoScreenShake>
+  <TM_GolemDoScreenShakeDesc>비활성화하면 골렘을 활성화하거나 비활성화할 때 화면이 흔들리지 않습니다.</TM_GolemDoScreenShakeDesc>
+  <TM_EndSymbiosis>공생 종료</TM_EndSymbiosis>
+  <TM_EndSymbiosisDesc>공생체는 숙주에게서 의지를 분리하여 자신의 몸으로 돌아갑니다. 이 옵션은 호스트가 공생체 근처에 있을 때만 사용할 수 있습니다.</TM_EndSymbiosisDesc>
   <TM_SelectPortalDestination>포탈 활성화</TM_SelectPortalDestination>
   <TM_UsePortal>포탈 사용</TM_UsePortal>
   <TM_DeactivatePortal>포탈 비활성화</TM_DeactivatePortal>
@@ -1454,4 +1517,21 @@
   <TM_EA_Hediff>{0} : {1} 적중시 {2}%</TM_EA_Hediff>
   <TM_EA_Damage>{0} : {1}-{2} {3} 명중시 {4}% 피해</TM_EA_Damage>
   <TM_Enchanted>인챈트 되었습니다!</TM_Enchanted>
+  <TM_MCU_BaseMana>기본 마나 획득량: {0}</TM_MCU_BaseMana>
+  <TM_MCU_BaseRegen>마나 재생 보너스: {0}</TM_MCU_BaseRegen>
+  <TM_MCU_ManaSurge>마나 급증: +{0}</TM_MCU_ManaSurge>
+  <TM_MCU_Syrrium>시리움 부스트: +{0}</TM_MCU_Syrrium>
+  <TM_MCU_EnergyDrainBonus>수정된 마나 획득량: {0}</TM_MCU_EnergyDrainBonus>
+  <TM_MCU_RegenBonus>에너지 재생 보너스: +{0}</TM_MCU_RegenBonus>
+  <TM_MCU_ManaWeakness>마나 약화: -{0}</TM_MCU_ManaWeakness>
+  <TM_MCU_Minion>하수인 비용: -{0}</TM_MCU_Minion>
+  <TM_MCU_Sprite>영혼 비용: -{0}</TM_MCU_Sprite>
+  <TM_MCU_Undead>언데드 비용: -{0}</TM_MCU_Undead>
+  <TM_MCU_ManaDrain>마나 소모량: -{0}</TM_MCU_ManaDrain>
+  <TM_MCU_ManaSickness>마나 병증: -{0}</TM_MCU_ManaSickness>
+  <TM_MCU_Paracyte>기력 소모량: -{0}</TM_MCU_Paracyte>
+  <TM_MCU_ManaNet>총 마나 유지력: {0}</TM_MCU_ManaNet>
+  <TM_MCU_CurrentLevel>현재 레벨:</TM_MCU_CurrentLevel>
+  <TM_MCU_NextLevel>다음 레벨:</TM_MCU_NextLevel>
+  <TM_MCU_PointsToLearn>{0}이 가리키는 곳</TM_MCU_PointsToLearn>
 </LanguageData>
