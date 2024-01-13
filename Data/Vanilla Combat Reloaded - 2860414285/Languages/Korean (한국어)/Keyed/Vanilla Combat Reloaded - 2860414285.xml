@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VCR.generaltab>기본 설정</VCR.generaltab>
+  <VCR.AdvanceArmorTab>방어구</VCR.AdvanceArmorTab>
+  <VCR.AdvanceArmor>고급 방어구 동작 활성화</VCR.AdvanceArmor>
+  <VCR.AAtooltip>방어구 효과는 두 배가 되고 무기의 방어구 관통력은 기본적으로 네 배가 됩니다.\n\n즉, 방어도가 100%이면 방어력 관통이 없는 공격을 모두 막아낼 수 있으며, 이는 바닐라에서 200% 방어구를 착용한 것과 동일합니다.\n무기의 방어도 관통력이 표시된 방어도 값에 비해 실질적으로 두 배로 증가했습니다.\n\n예시:\n날카로움 보호 방어도 200%에 대한 50% 장갑 관통 탄환\n바닐라: 방어도가 150%로 감소하고, 피해는 25%만큼 감소하며, 75%만큼 차단됩니다.\n고급 방어구: 방어도가 100%로 감소하고 피해가 100% 차단됩니다.</VCR.AAtooltip>
+  <VCR.ArmorScale>방어구 관통력 한계: {0}</VCR.ArmorScale>
+  <VCR.ArmScaleTooltip>모든 손상이 차단되기 전 최소 ap 한계값\n\n이 한계값은 200을 슬라이더 또는 텍스트 상자의 값으로 나눈 값을 기준으로 합니다.\n\n권장: 입력한 값 2에서 100% 한계값 적용</VCR.ArmScaleTooltip>
+  <VCR.PenetrationScale>방어구 관통력 보너스 스케일링: {0}</VCR.PenetrationScale>
+  <VCR.PenScaleTooltip>모든 관통력 값에 대한 배수\n\n방어구 관통 한계치와 함께 경쟁력 있는 무기 환경을 유지하기 위해 사용합니다.\n\n권장 관통력: 2</VCR.PenScaleTooltip>
+  <VCR.AdvanceAccuracyTab>정확도</VCR.AdvanceAccuracyTab>
+  <VCR.AdvanceAccuracy>고급 정확도 계산 활성화</VCR.AdvanceAccuracy>
+  <VCR.AAcctooltip>이제 사수 스킬이 무기 및 날씨 정확도에 영향을 받으며, 좋은 사수는 총기나 날씨 조건의 문제를 극복할 수 있어야 합니다. 포탑, 연막, 엄폐물 명중률은 영향을 받지 않습니다.</VCR.AAcctooltip>
+  <VCR.AccuracyScale>정확도 보너스 스케일링: {0}</VCR.AccuracyScale>
+  <VCR.AccScaleTooltip>고급 정확도 계산이 활성화되기 전의 최소 정확도, 포인트당 정확도와 반비례합니다.\n\n한계값이 높을수록 한계값을 초과하는 각 포인트는 한계값이 낮을 때보다 효과가 작아집니다.\n\n권장 정확도: 5</VCR.AccScaleTooltip>
+  <VCR.UseFiringArc>빗맞음 제한</VCR.UseFiringArc>
+  <VCR.UseArctooltip>최대 빗맞음 거리가 사수로부터의 사격 원호로 제한됩니다.</VCR.UseArctooltip>
+  <VCR.FiringArc>사격 원호 각: {0}</VCR.FiringArc>
+  <VCR.FiringArcTooltip>빗맞은 샷이 착지할 수 있는 총 각도(도)입니다.\n\n이 값은 극단적인 각도에서는 완전히 정확하지 않을 수 있습니다.\n\n기본값: 45</VCR.FiringArcTooltip>
+  <VCR.ArcType>빗맞은 샷 동작 설정: {0}</VCR.ArcType>
+  <VCR.ArcTypeTooltip>빗맞은 샷을 제한하는 방법에 대한 옵션입니다. 권장 설정: 0 또는 3\n\n0: 모든 샷이 거리에 따라 제한 없이 스케일링됩니다.\n\n1: 모든 샷이 거리에 따라 스케일링되지만 바닐라 최대 값으로 제한됩니다.\n\n2: 근접 샷만 거리에 따라 스케일링되고, 원거리 샷은 바닐라와 동일합니다.\n\n3: 원호 외부의 근거리 샷은 거리에 따라 스케일링되지 않고 원호 내부의 최대 가능한 거리로 설정되고, 원거리 샷은 거리에 따라 스케일링됩니다.\n\n4: 원호 외부의 근거리 샷은 최대로 설정되고, 원거리 샷은 거리에 따라 스케일링되지만 바닐라 최대 값으로 제한됩니다.\n\n5: 원호 외부의 근거리 샷은 최대로 설정하고, 원거리 샷은 바닐라와 동일하게 설정합니다.</VCR.ArcTypeTooltip>
+  <VCR.EvasionTab>회피</VCR.EvasionTab>
+  <VCR.Evasion>회피 활성화</VCR.Evasion>
+  <VCR.Evatooltip>폰이 충분히 빠르게 움직이고 있다면 폰의 현재 속도에 따라 원거리 사격을 회피할 수 있습니다.</VCR.Evatooltip>
+  <VCR.EvasionScale>회피 스케일: {0}</VCR.EvasionScale>
+  <VCR.EvaScaleTooltip>회피가 정확도에 영향을 줄 수 있는 정도입니다.\n\n값이 클수록 회피의 영향이 적고, 값이 작을수록 회피가 더 큰 영향을 미칩니다.\n\n기본값: 0.8</VCR.EvaScaleTooltip>
+  <VCR.MinSpeed>최소 속도: {0}</VCR.MinSpeed>
+  <VCR.MinSpeedTooltip>회피 전 최소 속도에 영향을 줍니다. 기본값: 2.5</VCR.MinSpeedTooltip>
+  <VCR.EvasionAccuracy>회피 및 고급 정확도 연결</VCR.EvasionAccuracy>
+  <VCR.EvaAcctooltip>폰이 획득할 수 있는 회피량은 사수의 사격 스킬에 따라 감소합니다. 고급 정확도가 활성화되어 있어야 합니다.</VCR.EvaAcctooltip>
+  <VCR.ParryTab>패링</VCR.ParryTab>
+  <VCR.Parry>패링 활성화</VCR.Parry>
+  <VCR.Parrytooltip>공격자와 방어자의 근접 공격 적중 확률에 따라 무기를 장착한 폰은 근접 공격을 패링할 수 있습니다.</VCR.Parrytooltip>
+  <VCR.ParryFront>전방 방어: {0}</VCR.ParryFront>
+  <VCR.ParryFrontTooltip>폰이 정면에서 오는 공격을 방어할 수 있는 효과입니다.\n\n숫자가 높을수록 방어할 확률이 높아지지만 선형적으로 변하는 것은 아닙니다.\n\n기본값: 1.5</VCR.ParryFrontTooltip>
+  <VCR.ParrySide>측면 방어: {0}</VCR.ParrySide>
+  <VCR.ParrySideTooltip>폰이 측면에서 오는 공격을 방어할 수 있는 효과입니다.\n\n숫자가 높을수록 방어할 확률이 높아지지만, 선형적으로 변하는 것은 아닙니다.\n\n기본값: 1.5</VCR.ParrySideTooltip>
+  <VCR.DamageWorkerTab>피해 작업자</VCR.DamageWorkerTab>
+  <VCR.BulletsWorker>총알 피해 작업자 커스텀</VCR.BulletsWorker>
+  <VCR.BWorkerTooltip>총알은 이제 무기의 저지력에 따라 시뮬레이션된 파편화, 관통, 머쉬루밍 같은 피해 동작을 합니다.\n\n동일한 무기에 여러 개의 탄환이 발사되면 첫 번째 탄환의 저지력 값을 사용합니다.</VCR.BWorkerTooltip>
+  <VCR.SPLimit>저지력 보너스 제한</VCR.SPLimit>
+  <VCR.SPTooltip>일부 모드 무기는 저지력 값이 매우 높아 예기치 않게 높은 데미지를 입힐 수 있습니다. 이 설정은 이 값을 초과하는 무기에 대한 보너스를 제한합니다.\n\n기본값: 10</VCR.SPTooltip>
+  <VCR.ArrowsWorker>화살 피해 작업자 커스텀</VCR.ArrowsWorker>
+  <VCR.AWorkerTooltip>이제 화살이 신체 내부 부위에 명중하거나 신체 외부 부위에 명중할 경우 추가 피해를 입힐 가능성이 높아졌습니다.</VCR.AWorkerTooltip>
+  <VCR.Flanking>원거리 측면 공격 활성화</VCR.Flanking>
+  <VCR.FlankingTooltip>원거리 피해(총알 및 화살)는 공격이 들어오는 방향에 따라 폰에게 영향을 줍니다.\n\n스킬에 따라 지정된 높이에 공격이 적중하도록 가중치를 부여하는 높이 타겟팅을 활성화합니다.</VCR.FlankingTooltip>
+  <VCR.MeleeFlank>근접 측면 공격 활성화</VCR.MeleeFlank>
+  <VCR.MeleeFlankTooltip>근접 피해(둔기, 찌르기, 긁기, 베기)는 공격이 들어오는 방향에 따라 폰에게 영향을 줍니다.\n\n스킬에 따라 지정된 높이에 공격이 적중하도록 가중치를 부여하는 높이 타겟팅을 활성화합니다.</VCR.MeleeFlankTooltip>
+  <VCR.Xml>XML</VCR.Xml>
+  <VCR.XmlSettings>Xml 설정: 적용하려면 다시 시작해야 합니다.</VCR.XmlSettings>
+  <VCR.HandFeetPatch>손과 발 가리기</VCR.HandFeetPatch>
+  <VCR.HandFeetTooltip>갑옷과 의복은 폰의 손과 발을 덮습니다.\n\n장갑이나 부츠는 머리장비 레이어로 이동하여 일반 방어구와 함께 착용할 수 있습니다.</VCR.HandFeetTooltip>
+  <VCR.AcidHeatPatch>산성은 열 피해</VCR.AcidHeatPatch>
+  <VCR.AcidHeatTooltip>산성 피해의 방어구 유형이 날카로움에서 열로 변경되었습니다.</VCR.AcidHeatTooltip>
+  <VCR.ThumpBluntPatch>타격은 둔기 피해</VCR.ThumpBluntPatch>
+  <VCR.ThumpBluntTooltip>타격 피해의 방어구 유형이 날카로움에서 둔기로 변경되었습니다.</VCR.ThumpBluntTooltip>
+  <VCR.GlassesHelmetPatch>안경은 헬멧이 아닙니다</VCR.GlassesHelmetPatch>
+  <VCR.GlassesHelmetTooltip>두개골이나 뇌를 포함하지 않고 눈만 덮도록 눈 보호구를 변경합니다.\n\n머리 위쪽을 덮는 헬멧과 별도의 안경/고글을 같은 레이어에 착용할 수 있습니다.</VCR.GlassesHelmetTooltip>
+  <VCR.NoseMouthPatch>입과 코를 덮음</VCR.NoseMouthPatch>
+  <VCR.NoseMouthTooltip>코 바디 파트는 입 바디 파트 그룹에 포함됩니다.\n\n바닐라에서는 바이오테크의 천 마스크 텍스트에 따라 입과 코가 가려져야 하지만 코가 가려지지 않습니다.</VCR.NoseMouthTooltip>
+  <VCR.MaskPatch>적절한 마스크와 얼굴 커버 범위</VCR.MaskPatch>
+  <VCR.MaskTooltip>여러 바닐라 및 DLC 아이템의 커버 범위가 시각적 또는 주제에 더 가깝게 변경되었습니다.\n\n가면과 방독면은 이제 머리 전체가 아닌 눈과 입을 가립니다.\n히잡은 어깨, 목, 머리 전체 대신 어깨, 목, 머리 위쪽을 덮습니다(눈과 입은 더 이상 덮지 않습니다).\n전쟁 베일은 머리 전체 대신 입을 가립니다.\n전쟁 가면이 머리 전체 대신 머리 위쪽과 입을 가립니다. (눈은 더 이상 가리지 않음)</VCR.MaskTooltip>
+  <VCR.HeadsetPatch>헤드셋은 헬멧이 아닙니다.</VCR.HeadsetPatch>
+  <VCR.HeadsetTooltip>조준 보조기, 무선통신 헤드셋, 통합자 헤드셋을 머리장비 레이어에서 눈 레이어로 이동하여 헬멧과 함께 헤드셋을 착용할 수 있도록 합니다.</VCR.HeadsetTooltip>
+  <VCR.ArrayHeadsetPatch>통신배열 헤드셋은 안경</VCR.ArrayHeadsetPatch>
+  <VCR.ArrayHeadsetTooltip>통신배열 헤드셋의 바디 파트 그룹을 머리 위쪽에서 눈만, 기계사령관 헬멧을 머리 전체에서 머리 위쪽만으로 변경합니다.\n\n통신배열 헤드셋을 패치된 기계사령관 헬멧이나 방탄모와 같이 머리 위쪽을 덮는 헬멧과 함께 착용할 수 있도록 합니다.</VCR.ArrayHeadsetTooltip>
+  <VCR.ApparelTweaks>향상된 머리장비 레이어링 사용(재시작 필요 없음)</VCR.ApparelTweaks>
+  <VCR.ApparelTweaksTooltip>바닐라의 머리장비 레이어링 규칙을 약간 조정하여 일부 머리장비가 얼굴 앞쪽에 렌더링되지만 다른 모자나 머리카락 아래에도 렌더링되도록 합니다.\n\n의상을 폰의 얼굴 앞쪽에서 렌더링하되 머리카락 아래에서 렌더링하려는 모더의 경우, "hatRenderedFrontOfFace" 및 "forceRenderUnderHair" 태그를 활성화합니다.\n머리카락을 숨기되 얼굴 의상 아래에 렌더링하려면 "hatRenderedAboveBody" 태그를 활성화하고 의상에서 "hatRenderedFrontOfFace"를 비활성화합니다.</VCR.ApparelTweaksTooltip>
+  <VCR.AdjWeapon>스킬 포함 무기</VCR.AdjWeapon>
+  <VCR.AdjWeather>스킬 포함 날씨</VCR.AdjWeather>
+  <VCR.EvasionRead>회피</VCR.EvasionRead>
+  <VCR.AdjEvasionRead>스킬 포함 회피</VCR.AdjEvasionRead>
+  <VCR.TargetSide>타겟 측면</VCR.TargetSide>
+  <VCR.HeightChance>적중 확률</VCR.HeightChance>
+  <VCR.TextMote_Parry>패링</VCR.TextMote_Parry>
+  <VCR.Undefined>없음</VCR.Undefined>
+  <VCR.Bottom>하단</VCR.Bottom>
+  <VCR.Middle>중단</VCR.Middle>
+  <VCR.Top>상단</VCR.Top>
+  <VCR.CommandSetTargetingMode>타겟 모드: {0}</VCR.CommandSetTargetingMode>
+  <VCR.CommandSetTargetingModeDesc>이 폰의 공격은 이 높이의 부위를 공격할 때 가중치가 적용됩니다.</VCR.CommandSetTargetingModeDesc>
+  <VCR.MeleeHitTotal>최종 근접 적중 확률: {0}</VCR.MeleeHitTotal>
+  <VCR.MeleeHitChance>근접 적중 확률: {0}</VCR.MeleeHitChance>
+  <VCR.MeleeHitChanceBase>기본 근접 적중 확률: {0}</VCR.MeleeHitChanceBase>
+  <VCR.MeleeOffset>오프셋</VCR.MeleeOffset>
+  <VCR.OutdoorsLit>실외 및 주간: {0}</VCR.OutdoorsLit>
+  <VCR.OutdoorsDark>실외 및 야간: {0}</VCR.OutdoorsDark>
+  <VCR.IndoorsLit>실내 및 조명: {0}</VCR.IndoorsLit>
+  <VCR.IndoorsDark>실내 및 어두움: {0}</VCR.IndoorsDark>
+  <VCR.TargetCannotDodge>타겟 회피 확률: 0% (근접 아님)</VCR.TargetCannotDodge>
+  <VCR.TargetDodgeChance>타겟 회피 확률: {0}</VCR.TargetDodgeChance>
+  <VCR.MeleeDodgeChanceBase>기본 회피 확률: {0}</VCR.MeleeDodgeChanceBase>
+  <VCR.SupriseAttack>근접 공격 적중 확률: 100% (기습 공격)</VCR.SupriseAttack>
+  <VCR.ImmobileAttack>근접 적중 확률: 100% (타겟 이동 불가)</VCR.ImmobileAttack>
+  <VCR.TargetParryChance>적 패링 확률: {0}</VCR.TargetParryChance>
+</LanguageData>
