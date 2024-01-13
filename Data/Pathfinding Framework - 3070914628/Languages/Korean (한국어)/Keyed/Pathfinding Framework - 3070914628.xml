@@ -44,6 +44,8 @@
   <PF_InspectorHover>이 옵션을 활성화하면 경로 비용 검사기 창이 Control+Shift+Q를 누른 상태에서 나타납니다. 이동 비용 검사기는 Control+Shift+E를 누른 상태에서 나타납니다. 지역 검사기는 Control+Shift+R을 누른 상태에서 나타납니다.</PF_InspectorHover>
   <PF_LogPathNotFoundLabel>로그 경로를 찾을 수 없음</PF_LogPathNotFoundLabel>
   <PF_LogPathNotFoundHover>경로 파인더가 경로를 찾을 수 없는 경우 추가 정보가 포함된 로그를 표시합니다. 이 로그는 대부분의 유효한 경우에 트리거되므로 디버깅용으로만 활성화하는 것이 좋습니다.</PF_LogPathNotFoundHover>
+  <PF_LogRegionCalculatorErrorLabel>지역 계산기 오류 로그</PF_LogRegionCalculatorErrorLabel>
+  <PF_LogRegionCalculatorErrorHover>지역 비용 계산기 단계(Dijkstra) 실패 시 추가 정보를 기록합니다. 이 로그는 다른 모드 및 문제에 의해 트리거될 수 있습니다. 이 설정을 활성화하는 것은 디버깅 또는 문제 해결을 위해서만 권장됩니다.</PF_LogRegionCalculatorErrorHover>
   <PF_DebugLogLabel>디버그 로그</PF_DebugLogLabel>
   <PF_DebugLogHover>로그에 추가 메시지를 표시합니다. 버그 디버깅에 유용합니다.</PF_DebugLogHover>
   <PF_ResetSettingsLabel>초기화</PF_ResetSettingsLabel>
@@ -52,6 +54,6 @@
   <PF_MovementReportText>이 캐릭터가 세계를 이동할 때 사용하는 이동 유형입니다.</PF_MovementReportText>
   <PF_GrantedBy>\n\n부여됨: {0}</PF_GrantedBy>
   <PF_GrantsMovementType>이동 유형 제공:</PF_GrantsMovementType>
-  <PF_GrantedByXenogene>{0} 이종 유전자</PF_GrantedByXenogene>
-  <PF_GrantedByEndogene>{0} 내인성</PF_GrantedByEndogene>
+  <PF_GrantedByXenogene>{0} 변형 유전자</PF_GrantedByXenogene>
+  <PF_GrantedByEndogene>{0} 생식유전자</PF_GrantedByEndogene>
 </LanguageData>
