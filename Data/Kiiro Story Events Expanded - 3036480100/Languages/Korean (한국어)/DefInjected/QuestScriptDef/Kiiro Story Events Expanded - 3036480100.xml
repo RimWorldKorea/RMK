@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Kiiro_Beggars.questNameRules.rulesStrings.0>questName(beggarCount==1)->키이로 [beggarSingle](이)가 [alms] [seekingSingle]</Kiiro_Beggars.questNameRules.rulesStrings.0>
+  <Kiiro_Beggars.questNameRules.rulesStrings.1>questName(beggarCount==1,childCount==1,priority=1)->어린 키이로 [beggarSingle](이)가 [alms] [seekingSingle]</Kiiro_Beggars.questNameRules.rulesStrings.1>
+  <Kiiro_Beggars.questNameRules.rulesStrings.2>questName(beggarCount>=2)->키이로 [beggarPlural](이)가 [alms] [seekingPlural]</Kiiro_Beggars.questNameRules.rulesStrings.2>
+  <Kiiro_Beggars.questNameRules.rulesStrings.3>questName(beggarCount>=2,allChildren==true,priority=1)->어린 키이로 [beggarPlural](이)가 [alms] [seekingPlural]</Kiiro_Beggars.questNameRules.rulesStrings.3>
+  <Kiiro_Beggars.questNameRules.rulesStrings.4>beggarSingle->방랑자</Kiiro_Beggars.questNameRules.rulesStrings.4>
+  <Kiiro_Beggars.questNameRules.rulesStrings.5>beggarSingle->유랑자</Kiiro_Beggars.questNameRules.rulesStrings.5>
+  <Kiiro_Beggars.questNameRules.rulesStrings.6>beggarSingle->여행자</Kiiro_Beggars.questNameRules.rulesStrings.6>
+  <Kiiro_Beggars.questNameRules.rulesStrings.7>beggarPlural->[beggarSingle]들</Kiiro_Beggars.questNameRules.rulesStrings.7>
+  <Kiiro_Beggars.questNameRules.rulesStrings.8>seekingSingle->찾고 있습니다.</Kiiro_Beggars.questNameRules.rulesStrings.8>
+  <Kiiro_Beggars.questNameRules.rulesStrings.9>seekingSingle->요청하고 있습니다.</Kiiro_Beggars.questNameRules.rulesStrings.9>
+  <Kiiro_Beggars.questNameRules.rulesStrings.10>seekingSingle->바라고 있습니다.</Kiiro_Beggars.questNameRules.rulesStrings.10>
+  <Kiiro_Beggars.questNameRules.rulesStrings.11>seekingSingle->기대하고 있습니다.</Kiiro_Beggars.questNameRules.rulesStrings.11>
+  <Kiiro_Beggars.questNameRules.rulesStrings.12>seekingSingle->요구하고 있습니다.</Kiiro_Beggars.questNameRules.rulesStrings.12>
+  <Kiiro_Beggars.questNameRules.rulesStrings.13>seekingPlural->찾고 있습니다.</Kiiro_Beggars.questNameRules.rulesStrings.13>
+  <Kiiro_Beggars.questNameRules.rulesStrings.14>seekingPlural->요청하고 있습니다.</Kiiro_Beggars.questNameRules.rulesStrings.14>
+  <Kiiro_Beggars.questNameRules.rulesStrings.15>seekingPlural->바라고 있습니다.</Kiiro_Beggars.questNameRules.rulesStrings.15>
+  <Kiiro_Beggars.questNameRules.rulesStrings.16>seekingPlural->기대하고 있습니다.</Kiiro_Beggars.questNameRules.rulesStrings.16>
+  <Kiiro_Beggars.questNameRules.rulesStrings.17>seekingPlural->요구하고 있습니다.</Kiiro_Beggars.questNameRules.rulesStrings.17>
+  <Kiiro_Beggars.questNameRules.rulesStrings.18>alms->도움을</Kiiro_Beggars.questNameRules.rulesStrings.18>
+  <Kiiro_Beggars.questNameRules.rulesStrings.19>alms->자선을</Kiiro_Beggars.questNameRules.rulesStrings.19>
+  <Kiiro_Beggars.questNameRules.rulesStrings.20>alms->자원을</Kiiro_Beggars.questNameRules.rulesStrings.20>
+  <Kiiro_Beggars.questDescriptionRules.rulesStrings.0>groupLabelPlural->여행자들</Kiiro_Beggars.questDescriptionRules.rulesStrings.0>
+  <Kiiro_Beggars.questDescriptionRules.rulesStrings.1>groupLabelPlural(allChildren==true,priority=1)->아이들</Kiiro_Beggars.questDescriptionRules.rulesStrings.1>
+  <Kiiro_Beggars.questDescriptionRules.rulesStrings.2>groupLabelSingle->여행자</Kiiro_Beggars.questDescriptionRules.rulesStrings.2>
+  <Kiiro_Beggars.questDescriptionRules.rulesStrings.3>groupLabelSingle(childCount>=1,priority=1)->아이</Kiiro_Beggars.questDescriptionRules.rulesStrings.3>
+  <Kiiro_Beggars.questDescriptionRules.rulesStrings.4>travelerInfo(beggarCount==1)->이 [groupLabelSingle]의 소속은</Kiiro_Beggars.questDescriptionRules.rulesStrings.4>
+  <Kiiro_Beggars.questDescriptionRules.rulesStrings.5>travelerInfo(beggarCount>=2)->이 [groupLabelPlural]의 소속은</Kiiro_Beggars.questDescriptionRules.rulesStrings.5>
+  <Kiiro_Beggars.questDescriptionRules.rulesStrings.6>beggingForInfo->[requestedThing_label] x[requestedThingCount](을)를 </Kiiro_Beggars.questDescriptionRules.rulesStrings.6>
+  <Kiiro_Beggars.questDescriptionRules.rulesStrings.7>traverObjective(beggarCount==1)->[beggars0_objective]</Kiiro_Beggars.questDescriptionRules.rulesStrings.7>
+  <Kiiro_Beggars.questDescriptionRules.rulesStrings.8>traverObjective(beggarCount>=2)->그들</Kiiro_Beggars.questDescriptionRules.rulesStrings.8>
+  <Kiiro_Beggars.questDescriptionRules.rulesStrings.9>questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] 키이로 진영입니다.</Kiiro_Beggars.questDescriptionRules.rulesStrings.9>
+  <Kiiro_Beggars.questDescriptionRules.rulesStrings.10>approachInfo(beggarCount==1)->[beggars0_nameDef](이)라는 불쌍한 [groupLabelSingle](이)가 도움을 요청하기 위해 다가오고 있습니다.</Kiiro_Beggars.questDescriptionRules.rulesStrings.10>
+  <Kiiro_Beggars.questDescriptionRules.rulesStrings.11>approachInfo(beggarCount>=2)->한 무리의 가난한 [groupLabelPlural](이)가 도움을 요청하기 위해 다가오고 있습니다.</Kiiro_Beggars.questDescriptionRules.rulesStrings.11>
+  <Kiiro_Beggars.questDescriptionRules.rulesStrings.12>approachInfo(beggarCount>=2,childCount==1,priority=1)->어린이를 포함한 가난한 [groupLabelPlural](이)가 도움을 요청하기 위해 다가오고 있습니다.</Kiiro_Beggars.questDescriptionRules.rulesStrings.12>
+  <Kiiro_Beggars.questDescriptionRules.rulesStrings.13>approachInfo(beggarCount>=2,childCount>=2,allChildren==false,priority=1)->어린이를 포함한 가난한 [groupLabelPlural](이)가 도움을 요청하기 위해 다가옵니다.</Kiiro_Beggars.questDescriptionRules.rulesStrings.13>
+  <Kiiro_Beggars.questDescriptionRules.rulesStrings.14>requestInfo(beggarCount==1)->[beggars0_nameDef](이)가 [beggingForInfo](을)를 구걸합니다.</Kiiro_Beggars.questDescriptionRules.rulesStrings.14>
+  <Kiiro_Beggars.questDescriptionRules.rulesStrings.15>requestInfo(beggarCount>=2)->[groupLabelPlural](이)가 [beggingForInfo](을)를 구걸합니다.</Kiiro_Beggars.questDescriptionRules.rulesStrings.15>
+  <Kiiro_Beggars.questDescriptionRules.rulesStrings.16>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef](은)는 최근 납치된 친구를 되찾기 위해 은를 원합니다.</Kiiro_Beggars.questDescriptionRules.rulesStrings.16>
+  <Kiiro_Beggars.questDescriptionRules.rulesStrings.17>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef](이)가 근처에서 부상당한 파트너를 돕기 위해 약이 원합니다.</Kiiro_Beggars.questDescriptionRules.rulesStrings.17>
+  <Kiiro_Beggars.questDescriptionRules.rulesStrings.18>claimInfo(beggarCount==1,requestedThingDefName==Kiiro_CannedCatFood)->[beggars0_nameDef](은)는 앞으로의 긴 여정에 대비하기 위해 고양이 통조림을 원합니다.</Kiiro_Beggars.questDescriptionRules.rulesStrings.18>
+  <Kiiro_Beggars.questDescriptionRules.rulesStrings.19>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->그들은 최근에 납치된 친구를 되찾기 위해 은을 원합니다.</Kiiro_Beggars.questDescriptionRules.rulesStrings.19>
+  <Kiiro_Beggars.questDescriptionRules.rulesStrings.20>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->메카노이드의 공격을 받은 동료 여행자를 수술하기 위해 약이 필요합니다.</Kiiro_Beggars.questDescriptionRules.rulesStrings.20>
+  <Kiiro_Beggars.questDescriptionRules.rulesStrings.21>claimInfo(beggarCount>=2,requestedThingDefName==Kiiro_CannedCatFood)->앞으로의 긴 여정에 대비하기 위해 고양이 통조림을 원합니다.</Kiiro_Beggars.questDescriptionRules.rulesStrings.21>
+  <Kiiro_Beggars.questDescriptionRules.rulesStrings.22>interactionInfo(beggarCount==1)->정착민을 선택하고 [beggars0_nameDef](을)를 우클릭하여 아이템을 줄 수 있습니다.</Kiiro_Beggars.questDescriptionRules.rulesStrings.22>
+  <Kiiro_Beggars.questDescriptionRules.rulesStrings.23>interactionInfo(beggarCount>=2)->정착민을 선택하고 [beggars0_nameDef](을)를 우클릭하여 아이템을 줄 수 있습니다.</Kiiro_Beggars.questDescriptionRules.rulesStrings.23>
+  <Kiiro_Beggars.questDescriptionRules.rulesStrings.24>moveOnInfo(beggarCount==1)->[beggars0_nameDef](은)는 [visitDurationTicks_duration] 후 떠납니다.</Kiiro_Beggars.questDescriptionRules.rulesStrings.24>
+  <Kiiro_Beggars.questDescriptionRules.rulesStrings.25>moveOnInfo(beggarCount>=2)->[groupLabelPlural](은)는 [visitDurationTicks_duration] 후 떠납니다.</Kiiro_Beggars.questDescriptionRules.rulesStrings.25>
+  <Kiiro_Beggars.questContentRules.rulesStrings.0>letterLabelBeggarsBetrayed->배신당한 [groupLabelSingleOrPlural]</Kiiro_Beggars.questContentRules.rulesStrings.0>
+  <Kiiro_Beggars.questContentRules.rulesStrings.1>letterTextBeggarsBetrayed->당신의 자비를 구하던 [groupLabelSingleOrPlural](이)가 [배신당했습니다]. 자선 신념을 가진 정착민들은 불행해질 것입니다.</Kiiro_Beggars.questContentRules.rulesStrings.1>
+  <Kiiro_Beggars.questContentRules.rulesStrings.2>hasHave(beggarCount==1)-></Kiiro_Beggars.questContentRules.rulesStrings.2>
+  <Kiiro_Beggars.questContentRules.rulesStrings.3>hasHave(beggarCount>=2)-></Kiiro_Beggars.questContentRules.rulesStrings.3>
+  <Kiiro_Beggars.questContentRules.rulesStrings.4>wasWere(beggarCount==1)-></Kiiro_Beggars.questContentRules.rulesStrings.4>
+  <Kiiro_Beggars.questContentRules.rulesStrings.5>wasWere(beggarCount>=2)-></Kiiro_Beggars.questContentRules.rulesStrings.5>
+  <Kiiro_Beggars.questContentRules.rulesStrings.6>groupLabelSingleOrPlural(beggarCount==1)->여행자</Kiiro_Beggars.questContentRules.rulesStrings.6>
+  <Kiiro_Beggars.questContentRules.rulesStrings.7>groupLabelSingleOrPlural(beggarCount>=2)->여행자들</Kiiro_Beggars.questContentRules.rulesStrings.7>
+  <Kiiro_OpportunitySite_BonfireParty.questNameRules.rulesStrings.0>questName->모닥불 파티</Kiiro_OpportunitySite_BonfireParty.questNameRules.rulesStrings.0>
+  <Kiiro_OpportunitySite_BonfireParty.questDescriptionRules.rulesStrings.0>questDescription->[kiiro_settlement_label] 주민들이 황야에서 모닥불 파티를 열 계획이라며 여러분을 초대하고 싶다고 합니다.\n\n키이로족의 삶이 예전만큼 평화롭지는 않지만, 그들은 여전히 안전할 때 여유로운 사회 활동을 즐기고 있습니다. 간단한 모닥불 파티는 참가자들이 편안하게 식사하고 즐길 수 있는 완벽한 선택입니다.</Kiiro_OpportunitySite_BonfireParty.questDescriptionRules.rulesStrings.0>
+  <Kiiro_OpportunitySite_BonfireParty.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>퀘스트 만료: [resolvedQuestName]</Kiiro_OpportunitySite_BonfireParty.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <Kiiro_OpportunitySite_BonfireParty.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>[kiiro_settlement_label]의 모닥불 파티가 성공적으로 마무리되었습니다.</Kiiro_OpportunitySite_BonfireParty.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <Kiiro_OpportunitySite_BonfireParty.root.nodes.factionBecameHostileToPlayer.node.nodes.Letter.label.slateRef>[resolvedQuestName] 실패</Kiiro_OpportunitySite_BonfireParty.root.nodes.factionBecameHostileToPlayer.node.nodes.Letter.label.slateRef>
+  <Kiiro_OpportunitySite_BonfireParty.root.nodes.factionBecameHostileToPlayer.node.nodes.Letter.text.slateRef>키이로와의 적대적인 관계로 인해 [resolvedQuestName](을)를 더 이상 완료할 수 없습니다.</Kiiro_OpportunitySite_BonfireParty.root.nodes.factionBecameHostileToPlayer.node.nodes.Letter.text.slateRef>
+  <Kiiro_GuerrillaAssist.questNameRules.rulesStrings.0>questName->[alms] 키이로 게릴라 [aThe]</Kiiro_GuerrillaAssist.questNameRules.rulesStrings.0>
+  <Kiiro_GuerrillaAssist.questNameRules.rulesStrings.1>aThe->그룹</Kiiro_GuerrillaAssist.questNameRules.rulesStrings.1>
+  <Kiiro_GuerrillaAssist.questNameRules.rulesStrings.2>aThe->팀</Kiiro_GuerrillaAssist.questNameRules.rulesStrings.2>
+  <Kiiro_GuerrillaAssist.questNameRules.rulesStrings.3>aThe->무리</Kiiro_GuerrillaAssist.questNameRules.rulesStrings.3>
+  <Kiiro_GuerrillaAssist.questNameRules.rulesStrings.4>alms->도움을 요청하는</Kiiro_GuerrillaAssist.questNameRules.rulesStrings.4>
+  <Kiiro_GuerrillaAssist.questNameRules.rulesStrings.5>alms->도움이 필요한</Kiiro_GuerrillaAssist.questNameRules.rulesStrings.5>
+  <Kiiro_GuerrillaAssist.questNameRules.rulesStrings.6>alms->도움을 구하는</Kiiro_GuerrillaAssist.questNameRules.rulesStrings.6>
+  <Kiiro_GuerrillaAssist.questNameRules.rulesStrings.7>alms->도움을 원하는</Kiiro_GuerrillaAssist.questNameRules.rulesStrings.7>
+  <Kiiro_GuerrillaAssist.questDescriptionRules.rulesStrings.0>questDescription->적의 추격을 받고 있는 키이로 게릴라 무리가 [map_definite] 근처로 후퇴했는데, [map_definite]에서 적을 막을 수 있도록 도와달라며 잠시 이곳에 들러 휴식을 취하고 싶다고 합니다. [enemyFaction_pawnsPlural] 그룹은 다음과 같이 구성됩니다: \n\n[raid/raidPawnKinds]</Kiiro_GuerrillaAssist.questDescriptionRules.rulesStrings.0>
+  <Kiiro_GuerrillaAssist.root.nodes.Delay-1.node.parms.customLetterText.value.slateRef>{BASETEXT}\n이 [enemyFaction_pawnsPlural](이)가 키이로 게릴라를 노리고 있습니다.</Kiiro_GuerrillaAssist.root.nodes.Delay-1.node.parms.customLetterText.value.slateRef>
+  <Kiiro_GuerrillaAssist.root.nodes.GreaterOrEqual.node.node.nodes.AnyPawnAlive.node.label.slateRef>키이로 게릴라 떠남</Kiiro_GuerrillaAssist.root.nodes.GreaterOrEqual.node.node.nodes.AnyPawnAlive.node.label.slateRef>
+  <Kiiro_GuerrillaAssist.root.nodes.GreaterOrEqual.node.node.nodes.AnyPawnAlive.node.text.slateRef>키이로 게릴라들이 정비를 마치고 이제 떠날 것입니다.</Kiiro_GuerrillaAssist.root.nodes.GreaterOrEqual.node.node.nodes.AnyPawnAlive.node.text.slateRef>
+  <Kiiro_GuerrillaAssist.root.nodes.permitFactionBecameHostileToPlayer.node.nodes.Letter.label.slateRef>키이로 게릴라와의 관계 악화</Kiiro_GuerrillaAssist.root.nodes.permitFactionBecameHostileToPlayer.node.nodes.Letter.label.slateRef>
+  <Kiiro_GuerrillaAssist.root.nodes.permitFactionBecameHostileToPlayer.node.nodes.Letter.text.slateRef>우리가 키이로에게 적대적이기 때문에 키이로 게릴라와의 관계는 깨졌고 이제 그들은 우리를 적으로 취급합니다.</Kiiro_GuerrillaAssist.root.nodes.permitFactionBecameHostileToPlayer.node.nodes.Letter.text.slateRef>
+  <Kiiro_GuerrillaAssist.root.nodes.Delay-1.node.parms.customLetterLabel.value.slateRef>키이로 게릴라를 쫓는 {BASELABEL}</Kiiro_GuerrillaAssist.root.nodes.Delay-1.node.parms.customLetterLabel.value.slateRef>
+  <Kiiro_GuerrillaAssist.root.nodes.ExtraInspectStringAddOn.extraInspectString.slateRef>{0} 떠남.</Kiiro_GuerrillaAssist.root.nodes.ExtraInspectStringAddOn.extraInspectString.slateRef>
+  <Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.0>questName(lodgerCount==1)->[lodgerAdj] 키이로</Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.0>
+  <Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.1>questName(lodgerCount==1)->[lodgerAdj] 키이로 [lodgerSingle]</Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.1>
+  <Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.2>questName(p=2,lodgerCount>=2)->[lodgerAdj] 키이로 [lodgerPlural]</Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.2>
+  <Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.3>athe-></Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.3>
+  <Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.4>athe-></Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.4>
+  <Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.5>lodgerAdj->피곤한</Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.5>
+  <Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.6>lodgerAdj->길 잃은</Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.6>
+  <Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.7>lodgerAdj->가난한</Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.7>
+  <Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.8>lodgerAdj->불쌍한</Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.8>
+  <Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.9>lodgerAdj->방랑하는</Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.9>
+  <Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.10>lodgerAdj->먼지투성이</Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.10>
+  <Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.11>lodgerAdj->절망적인</Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.11>
+  <Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.12>lodgerAdj->무력한</Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.12>
+  <Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.13>lodgerSingle->여행자</Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.13>
+  <Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.14>lodgerSingle->난민</Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.14>
+  <Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.15>lodgerSingle->떠돌이</Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.15>
+  <Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.16>lodgerSingle->생존자</Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.16>
+  <Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.17>lodgerSingle->유목민</Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.17>
+  <Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.18>lodgerSingle->방랑자</Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.18>
+  <Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.19>lodgerPlural->여행자</Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.19>
+  <Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.20>lodgerPlural->난민</Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.20>
+  <Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.21>lodgerPlural->떠돌이</Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.21>
+  <Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.22>lodgerPlural->생존자</Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.22>
+  <Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.23>lodgerPlural->유목민</Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.23>
+  <Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.24>lodgerPlural->방랑자</Kiiro_Hospitality_Refugee.questNameRules.rulesStrings.24>
+  <Kiiro_Hospitality_Refugee.questDescriptionAndNameRules.rulesStrings.0>lodgersLabel->키이로</Kiiro_Hospitality_Refugee.questDescriptionAndNameRules.rulesStrings.0>
+  <Kiiro_Hospitality_Refugee.questDescriptionAndNameRules.rulesStrings.1>lodgersLabelPlural->키이로들</Kiiro_Hospitality_Refugee.questDescriptionAndNameRules.rulesStrings.1>
+  <Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.0>offer(lodgerCount==1)->제안</Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.0>
+  <Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.1>offer(lodgerCount>=2)->제안</Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.1>
+  <Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.2>lodgersPronoun(lodgerCount==1)->[asker_pronoun]</Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.2>
+  <Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.3>lodgersPronoun(lodgerCount>=2)->그들</Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.3>
+  <Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.4>lodgersPreposition(lodgerCount==1)->[asker_objective]</Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.4>
+  <Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.5>lodgersPreposition(lodgerCount>=2)->그들</Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.5>
+  <Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.6>lodgersObjective(lodgerCount==1)->[asker_objective]</Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.6>
+  <Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.7>lodgersObjective(lodgerCount>=2)->그들을</Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.7>
+  <Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.8>lodgersPossessive(lodgerCount==1)->[asker_possessive]</Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.8>
+  <Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.9>lodgersPossessive(lodgerCount>=2)->그들의</Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.9>
+  <Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.10>lodgersSingularOrPluralDef(lodgerCount==1)->[asker_nameDef]</Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.10>
+  <Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.11>lodgersSingularOrPluralDef(lodgerCount>=2)->[lodgersLabelPlural]</Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.11>
+  <Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.12>questDescription->[approachInfo] [claimInfo] [asker_nameDef](이)가 [lodgersPronoun](이)가 휴식을 취하고 재편성할 수 있도록 [questDurationTicks_duration] 동안 [map_definite]에 머물 수 있도록 허락해 달라고 간청합니다.\n\n그 대가로, 그 기간 동안 무료로 일하고 싸워주기로 [lodgersPronoun]는 [offer]합니다.\n\n[joinInfo] [lodgersPronoun](은)는 나중에 [lodgersObjective] 도와준 것에 대한 보상을 줄 수도 있지만, [lodgersPossessive] 진정한 의도를 알 수 있는 방법은 없습니다.\n\n[travelerInfo] 키이로 진영의 일원입니다.</Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.12>
+  <Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.13>approachInfo(lodgerCount==1)->[asker_nameDef](이)라는 이름의 절박한 [faction_pawnSingular](이)가 다가오고 있습니다.</Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.13>
+  <Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.14>approachInfo(lodgerCount==2)->[asker_nameDef](와)과 또 다른 절박한 [faction_pawnSingular](이)가 다가오고 있습니다.</Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.14>
+  <Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.15>approachInfo(lodgerCount==2,childCount==1,priority=1)->[asker_nameDef](이)가 어린이를 데리고 접근 중입니다.</Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.15>
+  <Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.16>approachInfo(lodgerCount>=3)->필사적인 [lodgerCount]의 [faction_pawnsPlural](이)가 접근 중입니다. 이들의 지도자는 [asker_nameDef]입니다.</Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.16>
+  <Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.17>approachInfo(lodgerCount>=3,childCount==1,priority=1)->어린이를 포함한 절박한 [faction_pawnsPlural] [lodgerCount](이)가 다가오고 있습니다. 그들의 지도자는 [asker_nameDef]입니다.</Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.17>
+  <Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.18>approachInfo(lodgerCount>=3,childCount>=2,priority=1)->어린이를 포함한 절박한 [faction_pawnsPlural] [lodgerCount](이)가 다가오고 있습니다. 그들의 지도자는 [asker_nameDef]입니다.</Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.18>
+  <Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.19>approachInfo(lodgerCount>=3,allButOneChildren==true,priority=2)->[asker_nameDef](와)과 [lodgersCountMinusOne]의 아이들로 구성된 [lodgerCount]의 필사적인 [faction_pawnsPlural] 그룹이 다가오고 있습니다.</Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.19>
+  <Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.20>claimInfo(lodgerCount==1)->[asker_nameDef](이)가 최근 공격으로 [asker_possessive] 집을 잃어버렸다고 주장합니다.</Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.20>
+  <Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.21>claimInfo(lodgerCount==1)->[asker_nameDef](이)가 [asker_possessive] 동료와 헤어진 후 연락이 끊겼다고 주장합니다.</Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.21>
+  <Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.22>claimInfo(lodgerCount==1)->[asker_nameDef](이)가 이 지역에서 길을 잃었다고 합니다.</Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.22>
+  <Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.23>claimInfo(lodgerCount>=2)->이들은 최근 공격으로 집을 잃었다고 주장합니다.</Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.23>
+  <Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.24>claimInfo(lodgerCount>=2)->그들은 예기치 않게 동료들과 연락이 두절되어 돌아갈 수 없게 되었다고 주장합니다.</Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.24>
+  <Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.25>claimInfo(lodgerCount>=2)->그들은 이 지역에서 길을 잃었다고 주장합니다.</Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.25>
+  <Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.26>claimInfo(lodgerCount>=2)->이들은 장기 적출 수술에서 탈출했다고 주장합니다.</Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.26>
+  <Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.27>claimInfo(lodgerCount>=2)->그들은 노예 상단에서 탈출했다고 합니다.</Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.27>
+  <Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.28>claimInfo(lodgerCount>=2)->상단이 기습을 당해 모든 것을 빼앗겼다고 합니다.</Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.28>
+  <Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.29>joinInfo(lodgerCount==1)->[asker_pronoun](이)가 합류를 제안할 수도 있습니다.</Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.29>
+  <Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.30>joinInfo(lodgerCount>=2)->그 중 일부는 여러분과 함께 하겠다고 제안할 수도 있습니다.</Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.30>
+  <Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.31>travelerInfo(lodgerCount==1)->이 [faction_pawnSingular](은)는</Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.31>
+  <Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.32>travelerInfo(lodgerCount>=2)->이 [faction_pawnsPlural](은)는</Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings.32>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.0>lastOrNot(lodgerCount==1)-></Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.0>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.1>lastOrNot(lodgerCount>=2)->마지막까지</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.1>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.2>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.2>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.3>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.3>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.4>lodgersArriveLetterLabel->[lodgersLabelSingularOrPlural] 도착</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.4>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.5>lodgersArriveLetterText->[lodgersSingularOrPluralDef](이)가 도착했습니다. [lodgersPronoun](이)가 휴식을 취하고 재편성할 수 있도록 [questDurationTicks_duration] 동안 [lodgersPronoun](이)가 여러분과 함께 있을 것입니다.</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.5>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.6>hasHave(lodgerCount==1)-></Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.6>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.7>hasHave(lodgerCount>=2)-></Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.7>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.8>appalledButNoAction->{PAWNSALIVECOUNT_multiple ? 다른 사람들은 : 마지막 [lodgersLabel](은)는} 이 일로 충격을 받았지만, 별다른 행동을 하지는 않을 것입니다.</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.8>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.9>othersWillNotAccept->The {PAWNSALIVECOUNT_multiple ? 다른 사람들은 : 마지막 [lodgersLabel](은)는} 이 일을 용납하지 않고</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.9>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.10>turnedViolent->[othersWillNotAccept], 격렬하게 반대하고 있습니다.</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.10>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.11>decidedToLeave->[othersWillNotAccept], 떠나기로 결정했습니다.</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.11>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.12>whoAskedToStay->당신과 함께 지내자고 했던</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.12>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.13>oneOfThe->절박한 [faction_pawnsPlural] 중에서 당신과 함께 지내자고 했던</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.13>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.14>questOver->'[resolvedQuestName]' 퀘스트가 종료되었습니다.</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.14>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.15>letterIntroDeath->{SUBJECT_definite}, [oneOfThe](이)가 사망했습니다.</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.15>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.16>lodgerDiedMemoryThoughtLetterLabel->[lodgersLabel] 사망: 분노</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.16>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.17>lodgerDiedMemoryThoughtLetterText->[letterIntroDeath]\n\n[appalledButNoAction]</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.17>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.18>lodgerDiedAttackPlayerLetterLabel->[lodgersLabel] 사망: 복수</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.18>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.19>lodgerDiedAttackPlayerLetterText->[letterIntroDeath]\n\n[turnedViolent]</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.19>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.20>lodgerDiedLeaveMapLetterLabel->[lodgersLabel] 사망: 떠남</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.20>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.21>lodgerDiedLeaveMapLetterText->[letterIntroDeath]\n\n[decidedToLeave]</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.21>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.22>lodgersAllDiedLetterLabel->퀘스트 실패</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.22>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.23>lodgersAllDiedLetterText->[lastOrNot] 필사적이었던 [faction_pawnSingular], [whoAskedToStay] {SUBJECT_definite}(이)가 사망했습니다.\n\n[questOver]</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.23>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.24>letterIntroArrested->{SUBJECT_definite}, [oneOfThe](을)를 체포했습니다.</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.24>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.25>lodgerArrestedMemoryThoughtLetterLabel->[lodgersLabel] 체포: 분노</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.25>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.26>lodgerArrestedMemoryThoughtLetterText->[letterIntroArrested]\n\n[appalledButNoAction]</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.26>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.27>lodgerArrestedAttackPlayerLetterLabel->[lodgersLabel] 체포: 복수</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.27>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.28>lodgerArrestedAttackPlayerLetterText->[letterIntroArrested]\n\n[turnedViolent]</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.28>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.29>lodgerArrestedLeaveMapLetterLabel->[lodgersLabel] 체포: 떠남</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.29>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.30>lodgerArrestedLeaveMapLetterText->[letterIntroArrested]\n\n[decidedToLeave]</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.30>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.31>lodgersAllArrestedLetterLabel->퀘스트 실패</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.31>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.32>lodgersAllArrestedLetterText->[lastOrNot] 필사적이었던 [faction_pawnSingular], [whoAskedToStay] {SUBJECT_definite}(을)를 체포했습니다.\n\n[questOver]</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.32>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.33>letterIntroViolated->{SUBJECT_definite}, [oneOfThe]에게 불법 수술을 했습니다.</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.33>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.34>lodgerViolatedMemoryThoughtLetterLabel->[lodgersLabel] 유린: 분노</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.34>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.35>lodgerViolatedMemoryThoughtLetterText->[letterIntroViolated]\n\n[appalledButNoAction]</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.35>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.36>lodgerViolatedAttackPlayerLetterLabel->[lodgersLabel] 유린: 복수</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.36>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.37>lodgerViolatedAttackPlayerLetterText->[letterIntroViolated]\n\n[turnedViolent]</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.37>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.38>lodgerViolatedLeaveMapLetterLabel->[lodgersLabel] 유린: 떠남</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.38>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.39>lodgerViolatedLeaveMapLetterText->[letterIntroViolated]\n\n[decidedToLeave]</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.39>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.40>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural] 떠남</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.40>
+  <Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.41>lodgersLeavingLetterText->{FACTION_leaderNameDef}(이)가 [map_definite]에 [questDurationTicks_duration]간 머물 수 있도록 도와준 것에 대해 감사의 뜻을 표하고, {FACTION_leaderPossessive} 사람들과 떠나는 중입니다.\n\n{FACTION_leaderNameDef}(은)는 이 일을 잊지 않겠다고 말했습니다.</Kiiro_Hospitality_Refugee.questContentRules.rulesStrings.41>
+  <Kiiro_Hospitality_Refugee.root.nodes.ExtraInspectStringAddOn.extraInspectString.slateRef>{0}에서 떠나는 중입니다.</Kiiro_Hospitality_Refugee.root.nodes.ExtraInspectStringAddOn.extraInspectString.slateRef>
+  <Kiiro_OpportunitySite_HuntingSurplus.questNameRules.rulesStrings.0>questName->남은 사냥감</Kiiro_OpportunitySite_HuntingSurplus.questNameRules.rulesStrings.0>
+  <Kiiro_OpportunitySite_HuntingSurplus.questDescriptionRules.rulesStrings.0>questDescription->[kiiro_settlement_label]의 사냥꾼들은 추운 겨울을 나기 위해 집단 사냥 활동을 조직했습니다. 이 사냥은 예상외로 성공적이었고, 사냥꾼들이 예상했던 것보다 훨씬 많은 사냥감을 얻을 수 있었습니다. 키이로들은 남은 사냥감을 현장에 묻기로 결정하고 매장 장소를 알려주었습니다.\n\n"필요하면 가서 가져가세요. 근처에 흔적을 남겼으니 그 흔적을 따라가면 쉽게 찾을 수 있을 겁니다."</Kiiro_OpportunitySite_HuntingSurplus.questDescriptionRules.rulesStrings.0>
+  <Kiiro_OpportunitySite_HuntingSurplus.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>퀘스트 만료: [resolvedQuestName]</Kiiro_OpportunitySite_HuntingSurplus.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <Kiiro_OpportunitySite_HuntingSurplus.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>묻힌 사냥감을 이미 다른 사람이 가져간 것 같습니다.</Kiiro_OpportunitySite_HuntingSurplus.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <Kiiro_OpportunitySite_HuntingSurplus.root.nodes.factionBecameHostileToPlayer.node.nodes.Letter.label.slateRef>[resolvedQuestName] 실패</Kiiro_OpportunitySite_HuntingSurplus.root.nodes.factionBecameHostileToPlayer.node.nodes.Letter.label.slateRef>
+  <Kiiro_OpportunitySite_HuntingSurplus.root.nodes.factionBecameHostileToPlayer.node.nodes.Letter.text.slateRef>키이로와 적대적인 관계로 인해 [resolvedQuestName](을)를 더 이상 완료할 수 없습니다.</Kiiro_OpportunitySite_HuntingSurplus.root.nodes.factionBecameHostileToPlayer.node.nodes.Letter.text.slateRef>
+  <Kiiro_Mineral_Discovery.questNameRules.rulesStrings.0>questName->광물 발견</Kiiro_Mineral_Discovery.questNameRules.rulesStrings.0>
+  <Kiiro_Mineral_Discovery.questDescriptionRules.rulesStrings.0>questDescription->[kiiro_settlement_label]의 정찰대가 근처에서 새로 떨어진 운석을 발견했는데, 이 운석에는 광물이 들어 있는 것으로 보입니다. [kiiro_settlement_label](은)는 광부를 보내 광물을 채굴할 수단이 부족하여 이 운석 광산을 당신에게 맡기기로 결정했습니다. 이제 운석의 위치가 지도에 표시되었습니다.\n\n운석 근처에 알려지지 않은 위협이 있을 수 있습니다.\n\n"이 운석을 노리는 자들이 있을 수 있으니 조심하세요."</Kiiro_Mineral_Discovery.questDescriptionRules.rulesStrings.0>
+  <Kiiro_Mineral_Discovery.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>퀘스트 만료: [resolvedQuestName]</Kiiro_Mineral_Discovery.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <Kiiro_Mineral_Discovery.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>운석 광산은 이미 다른 사람이 채굴한 것 같습니다.</Kiiro_Mineral_Discovery.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <Kiiro_NewSettlementEstablish.questNameRules.rulesStrings.0>questName->키이로의 새로운 정착지</Kiiro_NewSettlementEstablish.questNameRules.rulesStrings.0>
+  <Kiiro_NewSettlementEstablish.questDescriptionRules.rulesStrings.0>questDescription->[QuestInfo] 이에 여러분의 동의를 구하고자 합니다. 키이로는 여러분에게 불편을 끼치지 않기 위해 [map_definite] 너무 가까운 곳에는 정착하지 않을 것입니다.\n\n동의를 받으면 키이로는 정착지를 건설하는 과정을 시작할 것이며, 시간이 다소 걸릴 것입니다.</Kiiro_NewSettlementEstablish.questDescriptionRules.rulesStrings.0>
+  <Kiiro_NewSettlementEstablish.questDescriptionRules.rulesStrings.1>QuestInfo->떠돌이 키이로 무리가 방랑 생활을 끝내고 정착하기 위해 [map_definite] 근처에 마을을 세우고자 합니다.</Kiiro_NewSettlementEstablish.questDescriptionRules.rulesStrings.1>
+  <Kiiro_NewSettlementEstablish.questDescriptionRules.rulesStrings.2>QuestInfo->키이로는 여러분과 더 쉽게 소통할 수 있도록 [map_definite] 근처에 새로운 마을을 세우고자 합니다.</Kiiro_NewSettlementEstablish.questDescriptionRules.rulesStrings.2>
+  <Kiiro_NewSettlementEstablish.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>키이로 마을 건설 완료</Kiiro_NewSettlementEstablish.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <Kiiro_NewSettlementEstablish.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>[map_definite] 근처에 새로운 키이로 마을이 건설되었습니다.</Kiiro_NewSettlementEstablish.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <Kiiro_NewSettlementEstablish.root.nodes.factionBecameHostileToPlayer.node.nodes.Letter.label.slateRef>[resolvedQuestName] 실패</Kiiro_NewSettlementEstablish.root.nodes.factionBecameHostileToPlayer.node.nodes.Letter.label.slateRef>
+  <Kiiro_NewSettlementEstablish.root.nodes.factionBecameHostileToPlayer.node.nodes.Letter.text.slateRef>키이로와 적대적인 관계로 인해 [resolvedQuestName](을)를 더 이상 완료할 수 없습니다.</Kiiro_NewSettlementEstablish.root.nodes.factionBecameHostileToPlayer.node.nodes.Letter.text.slateRef>
+  <Kiiro_OpportunitySite_PaperArtExhibition.questNameRules.rulesStrings.0>questName->종이 공예 전시회</Kiiro_OpportunitySite_PaperArtExhibition.questNameRules.rulesStrings.0>
+  <Kiiro_OpportunitySite_PaperArtExhibition.questDescriptionRules.rulesStrings.0>questDescription->키이로 주민들이 [kiiro_settlement_label] 인근에서 종이 공예 전시회를 개최합니다.\n\n종이 공예는 키이로의 오랜 전통 예술로 시간이 지남에 따라 서서히 쇠퇴하고 있습니다. 하지만 키이로 종이 공예를 보존하기 위해 노력하는 키이로 종이 예술가들은 이 상황에 만족하지 않습니다. 이들은 종이 공예의 부활을 꿈꾸며 순회 종이 공예 전시회를 통해 이 전통 기술에 대한 관심과 인식을 이끌어내고자 합니다.\n\n키이로의 친구인 종이 예술가들은 여러분의 참여를 기다리고 있습니다.\n\n키이로 종이 공예가 익숙하지 않으실 수도 있지만, 예술은 형식에 국한되지 않으며 예술가들은 여러분과 예술적 통찰력을 나누고 싶어 합니다.</Kiiro_OpportunitySite_PaperArtExhibition.questDescriptionRules.rulesStrings.0>
+  <Kiiro_OpportunitySite_PaperArtExhibition.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>퀘스트 만료: [resolvedQuestName]</Kiiro_OpportunitySite_PaperArtExhibition.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <Kiiro_OpportunitySite_PaperArtExhibition.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>키이로 종이 공예 전시회가 막을 내렸습니다. 종이 예술가들은 여러분의 불참으로 다소 아쉬워했지만, 앞으로 기회가 있을 거라고 믿고 있습니다.</Kiiro_OpportunitySite_PaperArtExhibition.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <Kiiro_OpportunitySite_PaperArtExhibition.root.nodes.factionBecameHostileToPlayer.node.nodes.Letter.label.slateRef>[resolvedQuestName] 실패</Kiiro_OpportunitySite_PaperArtExhibition.root.nodes.factionBecameHostileToPlayer.node.nodes.Letter.label.slateRef>
+  <Kiiro_OpportunitySite_PaperArtExhibition.root.nodes.factionBecameHostileToPlayer.node.nodes.Letter.text.slateRef>키이로와 적대적인 관계로 인해 [resolvedQuestName](을)를 더 이상 완료할 수 없습니다.</Kiiro_OpportunitySite_PaperArtExhibition.root.nodes.factionBecameHostileToPlayer.node.nodes.Letter.text.slateRef>
+  <Kiiro_PiratesOutpostThreat.questNameRules.rulesStrings.0>questName->해적 위협</Kiiro_PiratesOutpostThreat.questNameRules.rulesStrings.0>
+  <Kiiro_PiratesOutpostThreat.questDescriptionRules.rulesStrings.0>questDescription->키이로 정찰대가 [kiiro_settlement_label] 근처에서 해적의 전초기지를 발견했습니다! 해적들의 정확한 의도는 알 수 없지만, 키이로족은 위협을 느끼고 있으며, [kiiro_settlement_label] 주민들은 불안에 떨고 있습니다.\n\n여러 게릴라 팀이 [kiiro_settlement_label] 근처에 모여 공격 계획을 논의하고 있습니다. 하지만 해적 전초기지의 세력이 워낙 막강하기 때문에 아군의 도움을 받기를 희망하고 있습니다.\n\n강화된 해적 전초 기지가 지도에 표시되어 있습니다. 전초 기지로 팀을 보내 키이로 게릴라 팀과 함께 싸울 수 있습니다.\n\n고난이도 퀘스트입니다.</Kiiro_PiratesOutpostThreat.questDescriptionRules.rulesStrings.0>
+  <Kiiro_PiratesOutpostThreat.root.nodes.Timeout.node.nodes.RandomNode.nodes.Sequence-0.nodes.Letter.label.slateRef>해적 전초기지 파괴됨</Kiiro_PiratesOutpostThreat.root.nodes.Timeout.node.nodes.RandomNode.nodes.Sequence-0.nodes.Letter.label.slateRef>
+  <Kiiro_PiratesOutpostThreat.root.nodes.Timeout.node.nodes.RandomNode.nodes.Sequence-0.nodes.Letter.text.slateRef>[kiiro_settlement_label] 근처에 모인 게릴라가 큰 대가를 치르긴 했지만 해적 전초 기지를 파괴하는 데 성공했습니다.</Kiiro_PiratesOutpostThreat.root.nodes.Timeout.node.nodes.RandomNode.nodes.Sequence-0.nodes.Letter.text.slateRef>
+  <Kiiro_PiratesOutpostThreat.root.nodes.Timeout.node.nodes.RandomNode.nodes.Sequence-1.nodes.Letter.label.slateRef>[kiiro_settlement_label] 파괴됨</Kiiro_PiratesOutpostThreat.root.nodes.Timeout.node.nodes.RandomNode.nodes.Sequence-1.nodes.Letter.label.slateRef>
+  <Kiiro_PiratesOutpostThreat.root.nodes.Timeout.node.nodes.RandomNode.nodes.Sequence-1.nodes.Letter.text.slateRef>모인 해적들은 [kiiro_settlement_label](을)를 공격하기 시작했고, 인근 게릴라 팀과 [kiiro_settlement_label]에서 급히 조직된 민병대의 용감한 저항에도 불구하고 정착지는 결국 함락되고 말았습니다. 남은 게릴라 대원들은 [kiiro_settlement_label] 주민들을 지키기 위해 목숨을 바쳤고, 주민들은 고향을 떠나 긴 여정을 떠나게 되었습니다. 키이로와의 관계가 [goodWillRewardAbs] 만큼 감소했습니다.</Kiiro_PiratesOutpostThreat.root.nodes.Timeout.node.nodes.RandomNode.nodes.Sequence-1.nodes.Letter.text.slateRef>
+  <Kiiro_PiratesOutpostThreat.root.nodes.factionBecameHostileToPlayer.node.nodes.Letter.label.slateRef>[resolvedQuestName] 실패</Kiiro_PiratesOutpostThreat.root.nodes.factionBecameHostileToPlayer.node.nodes.Letter.label.slateRef>
+  <Kiiro_PiratesOutpostThreat.root.nodes.factionBecameHostileToPlayer.node.nodes.Letter.text.slateRef>키이로와 적대적인 관계로 인해 [resolvedQuestName](을)를 더 이상 완료할 수 없습니다.</Kiiro_PiratesOutpostThreat.root.nodes.factionBecameHostileToPlayer.node.nodes.Letter.text.slateRef>
+  <Kiiro_Refugee_Baby.questNameRules.rulesStrings.0>questName->키이로 난민 아기</Kiiro_Refugee_Baby.questNameRules.rulesStrings.0>
+  <Kiiro_Refugee_Baby.questDescriptionRules.rulesStrings.0>questDescription-></Kiiro_Refugee_Baby.questDescriptionRules.rulesStrings.0>
+  <KiiroRelativeJoins.questNameRules.rulesStrings.0>questName->친척 합류</KiiroRelativeJoins.questNameRules.rulesStrings.0>
+  <KiiroRelativeJoins.questDescriptionRules.rulesStrings.0>questDescription-></KiiroRelativeJoins.questDescriptionRules.rulesStrings.0>
+  <Kiiro_OpportunitySite_SkyLanternFestival.questNameRules.rulesStrings.0>questName->키이로 풍등 축제</Kiiro_OpportunitySite_SkyLanternFestival.questNameRules.rulesStrings.0>
+  <Kiiro_OpportunitySite_SkyLanternFestival.questDescriptionRules.rulesStrings.0>questDescription->[kiiro_settlement_label] 주민들이 조만간 인근 야산에서 풍등 축제를 개최할 예정이니 많은 참여 부탁드린다고 합니다.\n\n풍등 축제는 원래 키이로가 매년 정월 대보름에 개최하는 축제입니다. 축제 당일 밤, 키이로는 한 해의 무사안녕을 기원하며 하늘에 등불을 띄웁니다.\n\n전쟁으로 인한 잦은 분쟁과 이주로 많은 키이로족이 고향을 잃고 떠돌아다녀야 했습니다. 어느 날, 살아남은 키이로 마을에서는 밤에 풍등을 날리는 방법을 사용하기 시작했고, 주변에서 방황하는 키이로들이 풍등의 안내를 따라 집으로 돌아갈 수 있기를 바랐습니다. 이 방법은 효과적이었고, 이 '신호'는 점차 키이로 내에 퍼져나갔습니다.\n\n오늘날 키이로의 등불 축제는 본래의 의미를 잃어버렸지만, 이렇게 고향을 찾은 키이로족에게는 평화를 가져다주었습니다.</Kiiro_OpportunitySite_SkyLanternFestival.questDescriptionRules.rulesStrings.0>
+  <Kiiro_OpportunitySite_SkyLanternFestival.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>퀘스트 만료: [resolvedQuestName]</Kiiro_OpportunitySite_SkyLanternFestival.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <Kiiro_OpportunitySite_SkyLanternFestival.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>키이로 마을의 풍등 축제가 끝났습니다. [kiiro_settlement_label] 주민들은 여러분이 참석하지 않아 다소 아쉬워하고 있습니다.</Kiiro_OpportunitySite_SkyLanternFestival.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <Kiiro_OpportunitySite_SkyLanternFestival.root.nodes.factionBecameHostileToPlayer.node.nodes.Letter.label.slateRef>[resolvedQuestName] 실패</Kiiro_OpportunitySite_SkyLanternFestival.root.nodes.factionBecameHostileToPlayer.node.nodes.Letter.label.slateRef>
+  <Kiiro_OpportunitySite_SkyLanternFestival.root.nodes.factionBecameHostileToPlayer.node.nodes.Letter.text.slateRef>키이로와 적대적인 관계로 인해 [resolvedQuestName](을)를 더 이상 완료할 수 없습니다.</Kiiro_OpportunitySite_SkyLanternFestival.root.nodes.factionBecameHostileToPlayer.node.nodes.Letter.text.slateRef>
+  <Kiiro_ThrumboFound.questNameRules.rulesStrings.0>questName->트럼보 발견</Kiiro_ThrumboFound.questNameRules.rulesStrings.0>
+  <Kiiro_ThrumboFound.questDescriptionRules.rulesStrings.0>questDescription->키이로 정찰대가 최근 야생에서 트럼보가 남긴 흔적을 발견하고 있습니다. 면밀한 조사 끝에 마침내 트럼보 무리가 [kiiro_settlement_label] 근처로 이동한 것을 확인했습니다.\n\n이 거대한 녀석에 관심이 있을지도 모른다는 생각에 이 정보를 여러분과 공유하기로 결정했습니다. 이제 이 트럼보 무리의 위치가 지도에 표시되었습니다.\n\n"그들은 한 곳에 너무 오래 머물지 않을 수도 있습니다. 가기로 결정했다면 빨리 가는 것이 가장 좋습니다."</Kiiro_ThrumboFound.questDescriptionRules.rulesStrings.0>
+  <Kiiro_ThrumboFound.root.nodes.RandomNode.nodes.Sequence-2.nodes.Letter.label.slateRef>트럼보 합류</Kiiro_ThrumboFound.root.nodes.RandomNode.nodes.Sequence-2.nodes.Letter.label.slateRef>
+  <Kiiro_ThrumboFound.root.nodes.RandomNode.nodes.Sequence-2.nodes.Letter.text.slateRef>놀랍게도 이 트럼보는 우리에게 매우 우호적이었습니다. 우리를 본 후 천천히 상단으로 다가와서 우리와 함께했습니다! 이제 이 거대하고 털복숭이 같은 생명체는 우리의 새로운 친구가 되었습니다.</Kiiro_ThrumboFound.root.nodes.RandomNode.nodes.Sequence-2.nodes.Letter.text.slateRef>
+  <Kiiro_ThrumboFound.root.nodes.QuestEndUnfinished.node.nodes.Letter.label.slateRef>퀘스트 만료: [resolvedQuestName]</Kiiro_ThrumboFound.root.nodes.QuestEndUnfinished.node.nodes.Letter.label.slateRef>
+  <Kiiro_ThrumboFound.root.nodes.QuestEndUnfinished.node.nodes.Letter.text.slateRef>[kiiro_settlement_label] 근처의 트럼보 무리가 다른 곳으로 이동한 것 같습니다.</Kiiro_ThrumboFound.root.nodes.QuestEndUnfinished.node.nodes.Letter.text.slateRef>
+  <KiiroWandererJoins.questNameRules.rulesStrings.0>questName->방랑자 합류</KiiroWandererJoins.questNameRules.rulesStrings.0>
+  <KiiroWandererJoins.questDescriptionRules.rulesStrings.0>questDescription-></KiiroWandererJoins.questDescriptionRules.rulesStrings.0>
+  <Kiiro_LaborAssist.questDescriptionAndNameRules.rulesStrings.0>questName->일꾼들</Kiiro_LaborAssist.questDescriptionAndNameRules.rulesStrings.0>
+  <Kiiro_LaborAssist.questDescriptionAndNameRules.rulesStrings.1>questDescription-></Kiiro_LaborAssist.questDescriptionAndNameRules.rulesStrings.1>
+  <Kiiro_LaborAssist.root.nodes.Delay-1.node.label.slateRef>하루 남음: 작업 지원</Kiiro_LaborAssist.root.nodes.Delay-1.node.label.slateRef>
+  <Kiiro_LaborAssist.root.nodes.Delay-1.node.text.slateRef>요구된 업무 지원 기간이 하루밖에 남지 않았습니다.</Kiiro_LaborAssist.root.nodes.Delay-1.node.text.slateRef>
+  <Kiiro_LaborAssist.root.nodes.GreaterOrEqual.node.node.nodes.AnyPawnAlive.node.label.slateRef>작업 지원 완료</Kiiro_LaborAssist.root.nodes.GreaterOrEqual.node.node.nodes.AnyPawnAlive.node.label.slateRef>
+  <Kiiro_LaborAssist.root.nodes.GreaterOrEqual.node.node.nodes.AnyPawnAlive.node.text.slateRef>[kiiro_settlement_label]의 키이로가 방금 작업 지원을 완료하고 떠났습니다.</Kiiro_LaborAssist.root.nodes.GreaterOrEqual.node.node.nodes.AnyPawnAlive.node.text.slateRef>
+  <Kiiro_LaborAssist.root.nodes.laborersDestroyed.node.nodes.Letter.label.slateRef>일꾼 사망: {SUBJECT_definite}</Kiiro_LaborAssist.root.nodes.laborersDestroyed.node.nodes.Letter.label.slateRef>
+  <Kiiro_LaborAssist.root.nodes.laborersDestroyed.node.nodes.Letter.text.slateRef>[permitFaction_name](이)가 보낸 일꾼이 사망했습니다. [permitFaction_name]과의 우호도가 [goodwillPenaltyPawn] 만큼 감소했습니다.</Kiiro_LaborAssist.root.nodes.laborersDestroyed.node.nodes.Letter.text.slateRef>
+  <Kiiro_LaborAssist.root.nodes.permitFactionBecameHostileToPlayer.node.nodes.Letter.label.slateRef>키이로 작업 지원 일시 중단</Kiiro_LaborAssist.root.nodes.permitFactionBecameHostileToPlayer.node.nodes.Letter.label.slateRef>
+  <Kiiro_LaborAssist.root.nodes.permitFactionBecameHostileToPlayer.node.nodes.Letter.text.slateRef>키이로에게 적대적인 태도를 보임에 따라 요구한 키이로 작업 지원이 중단될 수밖에 없었습니다.</Kiiro_LaborAssist.root.nodes.permitFactionBecameHostileToPlayer.node.nodes.Letter.text.slateRef>
+  <Kiiro_LaborAssist.root.nodes.ExtraInspectStringAddOn.extraInspectString.slateRef>{0}에서 작업 지원을 완료했습니다.</Kiiro_LaborAssist.root.nodes.ExtraInspectStringAddOn.extraInspectString.slateRef>
+  <Kiiro_ProblemCauser.questNameRules.rulesStrings.0>questName(siteFaction==Pirate)->[problemCauserLabel] 위협</Kiiro_ProblemCauser.questNameRules.rulesStrings.0>
+  <Kiiro_ProblemCauser.questNameRules.rulesStrings.1>questName(siteFaction==Mechanoids)->[problemCauserLabel] 위협</Kiiro_ProblemCauser.questNameRules.rulesStrings.1>
+  <Kiiro_ProblemCauser.questDescriptionRules.rulesStrings.0>questDescription(siteFaction==Pirate)->해적들이 [kiiro_settlement_label] 근처에 임시 전초기지를 세우고 [kiiro_settlement_label] 주민들을 교란하기 위해 내부에 [problemCauserLabel]를 배치했습니다.\n\n[problemCauserLabel](이)가 [kiiro_settlement_label] 방향으로 전력을 증가시키도록 조정되었고, [kiiro_settlement_label]에 거주하는 키이로들은 가혹한 조건을 너무 오래 견디지 못했습니다.\n\n키이로는 여러분의 도움이 필요합니다. 여러 명의 키이로 게릴라 팀이 임시 전초 기지에서 해적의 주의를 분산시켜 팀이 [problemCauserLabel]에 접근할 수 있도록 엄폐물을 제공할 것입니다.</Kiiro_ProblemCauser.questDescriptionRules.rulesStrings.0>
+  <Kiiro_ProblemCauser.questDescriptionRules.rulesStrings.1>questDescription(siteFaction==Mechanoids)->[problemCauserLabel](이)가 포함된 메크 클러스터가 [kiiro_settlement_label] 근처에 에어드롭되었습니다.\n\n알 수 없는 이유로 [problemCauserLabel](이)가 [kiiro_settlement_label] 방향으로 힘을 집중시켰고, [kiiro_settlement_label]에 거주하는 키이로들이 가혹한 환경을 너무 오래 견디지 못하고 있습니다.\n\n키이로는 여러분의 도움이 필요합니다. 키이로 특수부대 팀이 근처에 대기하고 있다가 클러스터가 활성화되면 여러분 팀을 지원할 것입니다.</Kiiro_ProblemCauser.questDescriptionRules.rulesStrings.1>
+  <Kiiro_ProblemCauser.root.nodes.QuestEndUnfinished.node.nodes.Letter.label.slateRef>퀘스트 실패：[problemCauserLabel]</Kiiro_ProblemCauser.root.nodes.QuestEndUnfinished.node.nodes.Letter.label.slateRef>
+  <Kiiro_ProblemCauser.root.nodes.QuestEndUnfinished.node.nodes.Letter.text.slateRef>[problemCauserLabel]의 영향을 더 이상 견디지 못한 [kiiro_settlement_label] 주민들이 대피하기로 결정했습니다.\n\n[kiiro_settlement_label]이 버려졌습니다.</Kiiro_ProblemCauser.root.nodes.QuestEndUnfinished.node.nodes.Letter.text.slateRef>
+  <Kiiro_ProblemCauser.root.nodes.conditionCauserDestroyed.node.nodes.Letter.label.slateRef>[problemCauserLabel] 파괴됨</Kiiro_ProblemCauser.root.nodes.conditionCauserDestroyed.node.nodes.Letter.label.slateRef>
+  <Kiiro_ProblemCauser.root.nodes.conditionCauserDestroyed.node.nodes.Letter.text.slateRef>[kiiro_settlement_label]에 영향을 미치던 [problemCauserLabel](을)를 성공적으로 파괴했습니다! 키이로와의 관계가 [goodWillRewardAbs]만큼 증가했습니다.</Kiiro_ProblemCauser.root.nodes.conditionCauserDestroyed.node.nodes.Letter.text.slateRef>
+</LanguageData>
