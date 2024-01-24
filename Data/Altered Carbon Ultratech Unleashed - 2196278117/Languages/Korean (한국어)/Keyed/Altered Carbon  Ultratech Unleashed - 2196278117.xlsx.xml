@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <AC.InstallStack>스택 설치</AC.InstallStack>
   <AC.InstallStackDesc>수술을 통해 피즐 스택을 이식할 인간 또는 슬리브를 선택하십시오. 선택한 인간 또는 슬리브의 건강 탭에서 자동으로 수술 작업이 생성됩니다.</AC.InstallStackDesc>
@@ -24,10 +24,10 @@
   <AC.DestroyStackConfirmation>스택 파괴:\n경고! 당신은 이 스택을 파괴하려고 합니다. 작업을 정말 계속 진행하시겠습니까?</AC.DestroyStackConfirmation>
   <AC.CannotCopyNoIntellectual>10 이상의 연구 기술이 필요합니다.</AC.CannotCopyNoIntellectual>
   <AC.CannotCopyNoOtherEmptyStacks>지도에 빈 스택이 없습니다.</AC.CannotCopyNoOtherEmptyStacks>
-  <AC.GoodwillChangedReason_ErasedPawn>{PAWN_labelShort}는 삭제된 존재입니다.</AC.GoodwillChangedReason_ErasedPawn>
+  <AC.GoodwillChangedReason_ErasedPawn>{PAWN_labelShort}(은)는 삭제된 존재입니다.</AC.GoodwillChangedReason_ErasedPawn>
   <AC.CantWipeStackTooDumb>스택 청소 불가능. 5 이상의 연구 기술이 필요합니다.</AC.CantWipeStackTooDumb>
   <AC.FailedCorticalStackDestroyed>고대 스택 해독 실패: 고대 피즐 스택이 파괴되었습니다!</AC.FailedCorticalStackDestroyed>
-  <AC.ScenPart_PawnsHaveCorticalStack>{0}는 {1} 확률로 {2}이 설치된 상태로 시작합니다.</AC.ScenPart_PawnsHaveCorticalStack>
+  <AC.ScenPart_PawnsHaveCorticalStack>{0}(은)는 {1} 확률로 {2}이 설치된 상태로 시작합니다.</AC.ScenPart_PawnsHaveCorticalStack>
   <AC.AutoLoad>자동 운반</AC.AutoLoad>
   <AC.AutoLoadDesc>활성화 시 이 스택을 스택 저장고에 자동으로 운반합니다.</AC.AutoLoadDesc>
   <AC.SleeveWithStack>스택이 설치되어 있는 슬리브입니다.</AC.SleeveWithStack>
@@ -40,7 +40,7 @@
   <AC.SleeveDeathDesc>슬리브가 사망했습니다.</AC.SleeveDeathDesc>
   <AC.PawnDiedBecauseOf>{PAWN_labelShort}의 슬리브가 사망하였습니다. 원인 : {1}.</AC.PawnDiedBecauseOf>
   <AC.PawnDied>{1_labelShort}의 슬리브가 사망하였습니다.</AC.PawnDied>
-  <AC.SleveOf>슬리브 상태인 </AC.SleveOf>  
+  <AC.SleveOf>슬리브 상태인 </AC.SleveOf>
   <AC.TakeToSleeveCasketOrMedicalBed>빈 슬리브를 슬리브 보관함 또는 의료용 침대로 운반</AC.TakeToSleeveCasketOrMedicalBed>
   <AC.CannotTakeToSleeveCasketOrMedicalBed>도달할 수 없음: 슬리브 보관함 또는 의료용 침대에 도달할 수 없거나 비어있는 자리가 없습니다.</AC.CannotTakeToSleeveCasketOrMedicalBed>
   <AC.CreateSleeveBody>슬리브 배양</AC.CreateSleeveBody>
@@ -50,9 +50,9 @@
   <AC.CreateSleeveBodyDesc>일반인 또는 변형 인간, 다른 종족의 육체를 배양합니다.</AC.CreateSleeveBodyDesc>
   <AC.GeneOptions>유전자 설정</AC.GeneOptions>
   <AC.BodyOptions>신체 설정</AC.BodyOptions>
-  <AC.XenogermExplanation>선택된 변형이식체는 성장 과정에서 소비됩니다. 변형이식체를 선택하지 않으면 슬리브는 "일반인"으로 성장합니다.</AC.XenogermExplanation>
+  <AC.XenogermExplanation>선택된 변형이식체는 성장 과정에서 소비됩니다. 변형이식체를 선택하지 않으면 슬리브는 일반인"으로 성장합니다."</AC.XenogermExplanation>
   <AC.GeneOptionsExplanation>사용 가능한 유전자는 선택한 변형이식체의 유전자에 따라 달라집니다. 선택된 유전자는 활성 유전자로 사용되며 충돌되는 유전자는 휴면 상태로 전환됩니다.</AC.GeneOptionsExplanation>
-  <AC.BodyOptionsExplanation>"일반인"의 피부 및 머리카락 색 유전자는 항상 존재합니다. 선택된 유전자는 활성 유전자로 사용되며 충돌되는 유전자는 휴면 상태로 전환됩니다.</AC.BodyOptionsExplanation>
+  <AC.BodyOptionsExplanation>일반인"의 피부 및 머리카락 색 유전자는 항상 존재합니다. 선택된 유전자는 활성 유전자로 사용되며 충돌되는 유전자는 휴면 상태로 전환됩니다."</AC.BodyOptionsExplanation>
   <AC.ConvertGenesToGermline>변형이식체의 비 초월 유전자를 생식 유전자로 변경: </AC.ConvertGenesToGermline>
   <AC.PowerSleeveWillBeLostIn>전력 부족으로 인해 {0} 안의 슬리브가 손상되었습니다.</AC.PowerSleeveWillBeLostIn>
   <AC.FuelSleeveWillBeLostIn>뉴트로아민 부족으로 인해 {0} 안의 슬리브가 손상되었습니다.</AC.FuelSleeveWillBeLostIn>
@@ -112,7 +112,7 @@
   <AC.Erase>삭제</AC.Erase>
   <AC.Backups>백업</AC.Backups>
   <AC.BackupNow>즉시 백업</AC.BackupNow>
-  <AC.CannotBackupNoSuchPawn>백업 불가: {0}라는 캐릭터가 존재하지 않습니다!</AC.CannotBackupNoSuchPawn>
+  <AC.CannotBackupNoSuchPawn>백업 불가: {0}(이)라는 캐릭터가 존재하지 않습니다!</AC.CannotBackupNoSuchPawn>
   <AC.CannotBackupPawnOnAnotherLocation>백업 불가: {0}(이)가 다른 지역에 존재합니다.</AC.CannotBackupPawnOnAnotherLocation>
   <AC.CannotBackupNoPower>백업 불가: 전원이 공급되지 않아 {0}의 백업에 실패하였습니다.</AC.CannotBackupNoPower>
   <AC.EnableBackup>자동 백업 활성화</AC.EnableBackup>
@@ -121,7 +121,7 @@
   <AC.BackupAllStacksDesc>현재 지도에 있는 정착민들의 백업을 즉시 생성합니다.</AC.BackupAllStacksDesc>
   <AC.TimeSinceLastBackup>(최종 백업 이후 {0} 경과)</AC.TimeSinceLastBackup>
   <AC.CannotRestoreBackupNoOtherEmptyStacks>백업된 스택 복원 불가 (현재 지도에 빈 스택이 없습니다.)</AC.CannotRestoreBackupNoOtherEmptyStacks>
-  <AC.SuccessfullyRestoredStackFromBackup>{PAWN_nameDef}이 복원 작업을 성공적으로 마쳤습니다.</AC.SuccessfullyRestoredStackFromBackup>
+  <AC.SuccessfullyRestoredStackFromBackup>{PAWN_nameDef}(이)가 복원 작업을 성공적으로 마쳤습니다.</AC.SuccessfullyRestoredStackFromBackup>
   <AC.BackupsCompleted>양자 저장소: 백업 완료! {0}명의 정착민들의 정보가 백업되었습니다!</AC.BackupsCompleted>
   <AC.RestoreToStackAutomatically>이 사람의 스택이 파괴될 때 새로운 스택에 자동으로 복원할지 여부를 전환합니다.</AC.RestoreToStackAutomatically>
   <AC.EnableAutoRestore>자동 복원 전환</AC.EnableAutoRestore>
@@ -131,7 +131,7 @@
   <AC.AlreadySetToDuplicate>이미 복제 작업이 설정되어 있는 스택입니다</AC.AlreadySetToDuplicate>
   <AC.NoEnoughSpaceForNewStack>새로운 스택을 저장할 공간이 부족합니다.</AC.NoEnoughSpaceForNewStack>
   <AC.EjectStackTooltip>저장소에서 이 스택을 꺼냅니다.</AC.EjectStackTooltip>
-  <AC.EjectStackConfirmation>정말로 {0}의 스택을 꺼내시겠습니까? 근처 지면으로 즉시 방출됩니다.</AC.EjectStackConfirmation>  
+  <AC.EjectStackConfirmation>정말로 {0}의 스택을 꺼내시겠습니까? 근처 지면으로 즉시 방출됩니다.</AC.EjectStackConfirmation>
   <AC.NoStoredStackToDuplicate>저장소에 빈 피즐 스택이 저장되어 있지 않습니다.</AC.NoStoredStackToDuplicate>
   <AC.CancelStackDuplication>스택 복제 취소</AC.CancelStackDuplication>
   <AC.CancelStackDuplicationDesc>저장된 피즐 스택의 복제 작업을 취소합니다.</AC.CancelStackDuplicationDesc>
@@ -150,7 +150,7 @@
   <AC.EjectAllDesc>보관된 모든 스택을 바깥으로 방출합니다.</AC.EjectAllDesc>
   <AC.SeparateGene>유전자 분리</AC.SeparateGene>
   <AC.SeparateGeneDesc>유전자를 분리할 유전자묶음을 선택하십시오.</AC.SeparateGeneDesc>
-  <AC.SeparatingGenes>유전자 분리</AC.SeparatingGenes>  
+  <AC.SeparatingGenes>유전자 분리</AC.SeparatingGenes>
   <AC.SelectGene>유전자 선택</AC.SelectGene>
   <AC.SelectGeneExplanation>선택된 유전자는 유전자묶음에서 분리되어 새로운 유전자묶음으로 만들어집니다.</AC.SelectGeneExplanation>
   <AC.SeparateGeneExplanation>분리에 성공하게 되면 두개의 유전자묶음이 생성됩니다. 하나는 선택한 유전자만, 다른 하나는 나머지 유전자 전부가 들어 있습니다. 이 과정은 완벽하지 않지만 유전자묶음 중 하나가 파괴될 가능성은 낮습니다.</AC.SeparateGeneExplanation>
@@ -214,7 +214,7 @@
   <AC.Backstories>성장 배경</AC.Backstories>
   <AC.NoDisabledWorkTypes>비활성화된 작업 없음</AC.NoDisabledWorkTypes>
   <AC.NoSkillPenalties>기술 페널티 없음</AC.NoSkillPenalties>
-  <AC.FactionAllegiance>소속된 세력</AC.FactionAllegiance>  
+  <AC.FactionAllegiance>소속된 세력</AC.FactionAllegiance>
   <AC.RemoveUnwaveringLoyalTrait>확고한 충성심 제거:</AC.RemoveUnwaveringLoyalTrait>
   <AC.Ideology>이념</AC.Ideology>
   <AC.Belief>신념</AC.Belief>
