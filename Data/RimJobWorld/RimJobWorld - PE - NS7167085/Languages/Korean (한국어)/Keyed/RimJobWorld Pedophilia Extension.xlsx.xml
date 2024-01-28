@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RJWPE_name>RimJobWorld - PE</RJWPE_name>
+  <global_reset>리셋</global_reset>
+  <global_import>가져오기</global_import>
+  <global_export>내보내기</global_export>
+  <export_header>이것이 당신의 코드입니다.</export_header>
+  <import_header>여기에 코드를 넣으세요.</import_header>
+  <import_load_title>설정 불러오기</import_load_title>
+  <import_invalid_code>그 코드는 이 페이지에서 허락되지 않습니다</import_invalid_code>
+  <import_import_button_title>가져오기</import_import_button_title>
+  <logging_logLevel_desc>메시지 양이 가장 적은 것 부터 정렬됩니다.</logging_logLevel_desc>
+  <logging_ignoreMessageLimit_title>콘솔 제한 무시</logging_ignoreMessageLimit_title>
+  <logging_ignoreMessageLimit_desc>RJWPE 모드 관련 로그가 제한을 무시하고 항상 기록됨, 성능 문제 야기 가능.</logging_ignoreMessageLimit_desc>
+  <logging_export_title>로그 내보내기</logging_export_title>
+  <logging_export_desc>현재 세션의 로드 순서, 설정 및 모든(익명화된) 로그에 대한 정보를 GoFile에 저장합니다.</logging_export_desc>
+  <romance_header>연애</romance_header>
+  <romance_minimumAge_title>연애가 가능한 최소 나이</romance_minimumAge_title>
+  <romance_minimumAge_desc>연애가 가능한 나이</romance_minimumAge_desc>
+  <sex_header>섹스</sex_header>
+  <sex_overrideAge_desc>기본 연령 제한을 사용자 정의로 변경</sex_overrideAge_desc>
+  <sex_minimumAge_title>섹스가 가능한 최소 나이</sex_minimumAge_title>
+  <sex_minimumAge_desc>섹스가 가능한 최소 나이</sex_minimumAge_desc>
+  <rape_minimumAge_title>강간이 가능한 최소 나이</rape_minimumAge_title>
+  <rape_minimumAge_desc>강간을 하거나 당할 수 있는 최소 나이를 설정. 섹스가 가능한 나이보다 낮을 수 없음.</rape_minimumAge_desc>
+  <fertility_header>임신률</fertility_header>
+  <fertility_overwrite_rjw_title>RJW 심신률 주성</fertility_overwrite_rjw_title>
+  <fertility_curve_info>-&gt; 0 이하로 나이와 임신률을 낮출 수 없음. \n-&gt; A minimum of 0.1 fertility is required for a pawn to be able to reproduce.</fertility_curve_info>
+  <fertility_curve_axis_y>임신률</fertility_curve_axis_y>
+  <development_header>신체 부위 성장</development_header>
+  <development_enabled_desc>연령별 신체 부위의 성장을 조정</development_enabled_desc>
+  <development_apply_current_title>모든 폰에게 적용</development_apply_current_title>
+  <development_apply_current_desc>성정과 관련있는 모든 폰의 신체 부위를 업데이트 합니다.</development_apply_current_desc>
+  <development_apply_button_title>적용</development_apply_button_title>
+  <bodypart_header>신체 부위 성장</bodypart_header>
+  <bodypart_chest_title>가슴</bodypart_chest_title>
+  <bodypart_genitals_title>생식기</bodypart_genitals_title>
+  <bodypart_anus_title>애널</bodypart_anus_title>
+  <bodypart_curve_chest_edit>수정</bodypart_curve_chest_edit>
+  <bodypart_curve_genitals_edit>수정</bodypart_curve_genitals_edit>
+  <bodypart_curve_anus_edit>수정</bodypart_curve_anus_edit>
+  <bodypart_curve_chest_title>가슴 성장</bodypart_curve_chest_title>
+  <bodypart_curve_genitals_title>생식기 성장</bodypart_curve_genitals_title>
+  <bodypart_curve_anus_title>애널 성장</bodypart_curve_anus_title>
+  <bodypart_curve_info>-&gt; 나이 (0 이하로 낮출 수 없음)</bodypart_curve_info>
+  <bodypart_curve_axis_x>나이</bodypart_curve_axis_x>
+  <bodypart_curve_axis_y>성장</bodypart_curve_axis_y>
+  <incest_header>근친</incest_header>
+  <incest_allowed_title>근친 허용</incest_allowed_title>
+  <incest_allowed_desc>혈족의 연애를 허용</incest_allowed_desc>
+  <incest_romance_chance_title>연애 확률</incest_romance_chance_title>
+  <incest_romance_chance_desc>근친연애 기본 확률을 변경하는 값 \n(새 값 = 기본 * 요인 + 오프셋)</incest_romance_chance_desc>
+  <incest_romance_chance_factor_title>요인</incest_romance_chance_factor_title>
+  <incest_romance_chance_offset_title>오프셋</incest_romance_chance_offset_title>
+  <incest_opinion_title>의견</incest_opinion_title>
+  <incest_opinion_desc>근친을 위한 기본 의견을 변경하는 값 \n(새 값 = 기본 * 요인 + 오프셋)</incest_opinion_desc>
+  <incest_opinion_factor_title>요인</incest_opinion_factor_title>
+  <incest_opinion_offset_title>오프셋</incest_opinion_offset_title>
+  <incest_inbred_chance_title>근친 임신</incest_inbred_chance_title>
+  <incest_inbred_chance_desc>근친으로 아기를 임신할 때 기본 근친교배 확률을 변경하는 값 \n(새 값 = 기본 * 요인 + 오프셋)</incest_inbred_chance_desc>
+  <incest_inbred_chance_factor_title>요인</incest_inbred_chance_factor_title>
+  <incest_inbred_chance_offset_title>오프셋</incest_inbred_chance_offset_title>
+  <curve_editor_title>임신률 에디터</curve_editor_title>
+  <curve_editor_info>에디터를 사용하여 그래프에서 점을 추가하거나 제거 \n-&gt; 점 추가/제거 마우스 오른쪽 클릭 \n-&gt; 마우스 휠로 확대/축소. shift를 눌러 수평으로 줌. ctrl을 눌러 수직으로 줌. \n-&gt; 점은 자동으로 정렬됨.</curve_editor_info>
+  <curve_editor_axis_x>X</curve_editor_axis_x>
+  <curve_editor_axis_y>Y</curve_editor_axis_y>
+</LanguageData>
