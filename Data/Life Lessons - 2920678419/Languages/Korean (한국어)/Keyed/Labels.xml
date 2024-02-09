@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <LLLearningTabLessons>수업 계획하기</LLLearningTabLessons>
+  <LLLearningTabPioneering>분야 개척</LLLearningTabPioneering>
+  <LLLearningTabMentoring>멘토링</LLLearningTabMentoring>
+  <RequiredSoftLabel>선택적 요구 분야</RequiredSoftLabel>
+  <RequiredSoftDesc>선택적 요구 분야는 숙달되지 못했다고 해서 행위 자체를 금하지는 않습니다. 허나, 숙달되지 못하는 분야가 있다면 속도나 품질에서 추가적인 페널티가 주어집니다.</RequiredSoftDesc>
+  <UnqualifiedWorkspeedPenaltyLabel>미숙련자 작업 속도</UnqualifiedWorkspeedPenaltyLabel>
+  <UnqualifiedWorkspeedPenaltyDesc>정착민이 이 행위에 필요한 모든 능력에 숙달되지 못했다면, 최종 작업 속도에 이 수치가 곱해집니다.</UnqualifiedWorkspeedPenaltyDesc>
+  <UnqualifiedQualityCapLabel>미숙련자 최고 품질</UnqualifiedQualityCapLabel>
+  <UnqualifiedQualityCapDesc>정착민이 이 행위에 필요한 모든 능력에 숙달되지 못했다면, 최종 작업물의 품질은 이 수준을 넘어설 수 없습니다.</UnqualifiedQualityCapDesc>
+  <RewardedProficienciesLabel>실무 숙련</RewardedProficienciesLabel>
+  <RewardedProficienciesDesc>이 능력은 이 건물/레시피를 작업하면서 직접 학습할 수 있습니다.</RewardedProficienciesDesc>
+  <DeconstructProficienciesAwardedLabel>실무 숙련 (해체)</DeconstructProficienciesAwardedLabel>
+  <DeconstructProficienciesAwardedDesc>이 능력은 이 건물을 해체하면서 직접 학습할 수 있습니다.</DeconstructProficienciesAwardedDesc>
+
+  <RequiredProficienciesLabel>필수 요구 분야</RequiredProficienciesLabel>
+  <RequiredProficienciesDesc>이 대상을 작업하기 위해 이 분야의 지식 및 기술이 필요합니다.</RequiredProficienciesDesc>
+  <LetterGainedProficiencyLabel>{0} 숙달됨</LetterGainedProficiencyLabel>
+  <LetterGainedProficiency>{PAWN_labelShort}이 {1}에 완전히 숙달되었습니다.</LetterGainedProficiency>
+  <EarnedByCrafting>제작으로 학습 가능:</EarnedByCrafting>
+  <EarnedByDeconstructing>해체로 학습 가능:</EarnedByDeconstructing>
+  <EarnedByBuilding>건설로 학습 가능:</EarnedByBuilding>
+  <RequiredToCraft>다음의 제작에 필요함:</RequiredToCraft>
+  <RequiredToBuild>다음의 건설에 필요함:</RequiredToBuild>
+  <RequiredToResearch>다음의 연구에 필요함:</RequiredToResearch>
+  <EarnedByTeachingLabel>교육받을 수 있음</EarnedByTeachingLabel>
+  <EarnedByTeachingDesc>이 능력은 이 내용을 이미 알고 있는 사람을 통해 교육받을 수 있습니다.</EarnedByTeachingDesc>
+  <AllowUntrainedTendingLabel>전부 치료하기</AllowUntrainedTendingLabel>
+  <AllowUntrainedTendingDesc>이 정착민은 숙달되지 않은 분야의 치료도 수행하려 할 것입니다. 이는 위험할 수 있습니다.</AllowUntrainedTendingDesc>
+  <NoTeacher>교사 없음</NoTeacher>
+  <TeacherLabel>교사</TeacherLabel>
+  <StudentLabel>수강생</StudentLabel>
+  <LessonPlanProficienciesLabel>수업할 과목</LessonPlanProficienciesLabel>
+  <EffectivenessLabel>효율</EffectivenessLabel>
+  <learnedLabel>학습함</learnedLabel>
+  <learnableLabel>학습 가능</learnableLabel>
+  <SchedulerLabel>수업 스케줄</SchedulerLabel>
+  <None>없음</None>
+  <PracticalExperience>실무 경험</PracticalExperience>
+  <TheoreticalExperience>이론 경험</TheoreticalExperience>
+  <PracticalLabel>실무</PracticalLabel>
+  <TheoreticalLabel>이론</TheoreticalLabel>
+  <PreferredLabel>선호</PreferredLabel>
+  <FilterLabel>필터</FilterLabel>
+  <ActivityConsumesTargets>대상을 소모합니다!</ActivityConsumesTargets>
+
+  <WorkstationsLabel>작업장</WorkstationsLabel>
+  <StudyTargetsLabel>대상을 연구</StudyTargetsLabel>
+  <ProficiencyAlreadyKnown>{PAWN_labelShort}(은)는 {1}(을)를 이미 알고 있습니다.</ProficiencyAlreadyKnown>
+  <LackingPrerequisites>{PAWN_labelShort}(은)는 {1}(을)를 배우기 위해 필요한 선행 분야에 숙달되지 못했습니다.</LackingPrerequisites>
+  <PrettyStorageStoredItems>소지품</PrettyStorageStoredItems>
+
+
+  <TeacherXpText>기본 xp/시간: {0}
+교사 연구 효과: {1} xp/시간
+종합 xp/시간: {2}</TeacherXpText>
+  <TeachXpTooltip>다른 효율 계수가 적용되기 이전에 각 수강생이 시간마다 얻게 될 XP의 총합입니다. 최종적으로, 이 수치는 학습 대상이 되는 모든 분야에 나눠집니다.</TeachXpTooltip>
+  
+  <TeacherEffectivenessText>전체 효율성: {0}</TeacherEffectivenessText>
+  <TeacherEffectivenessTooltip>교사의 대화 및 의식에 의해 결정되는 실제 효율성을 나타닙니다.</TeacherEffectivenessTooltip>
+  <EffectivenessTooltip>기본 효율성: {0}
+최고 효율 과목 수 제한: {1}
+초과 과목 수에 의한 효율 감소: {2}
+최고 효율 수강생 수 제한: {3}
+초과 수강생 수에 의한 효율 감소: {4}</EffectivenessTooltip>
+  <PioneeringDescribedText>"분야 개척"을 통해, 정착민은 긴 시간 동안 지속적으로 노력하여 새로운 분야의 지식 및 기술을 "발견"할 수 있습니다.\n\n새로운 분야를 개척하도록 할당하면, 정착민은 개척할 분야에 따라 구분된 학습 활동을 매일 수행할 것입니다. 어떤 활동은 소모할 자원을 필요로 하나, 대부분의 활동은 자원을 소모하지 않거나 아예 자원을 필요로 하지 않습니다. 각 활동은 완수될 때마다 약간의 이론적/실무적 경험을 생산하며, 매일 일정 횟수까지만 반복할 수 있습니다. 각 활동은 기본적으로 수행하도록 체크되어 있으며, 원한다면 이 UI에서 체크를 해제하여 수행하지 않도록 제한할 수도 있습니다.\n\n개척 활동에 할당된 정착민은 "연구" 작업을 수행할 수 있어야 합니다. 한 번 조건이 만족되면, 작업대가 존재하는 한 추가로 컨트롤할 필요는 없습니다.\n\n개척은 생소한 지식을 학습하는 한 가지 방법이지만, 매우 느린 방법입니다. 능력별로 존재하는 신경교육혈청을 사용하거나, 다른 정착민에게서 배우거나, 이미 그런 지식을 알고 있는 다른 사람을 고용하는 것이 시간적으로는 더 효율적일 것입니다. 많은 경우, 그저 건물을 해체하거나 레시피를 사용하여 작업을 하는 것만으로도 훨씬 빨리 실무 경험을 쌓을 수 있습니다. 이런 시간 투자가 그럴 가치가 있는지 신중하게 고려하십시오.</PioneeringDescribedText>
+
+  <!-- Gizmos -->
+  <NoScheduleLabel>스케줄 없음</NoScheduleLabel>
+  <ScheduleGizmoDesc>이 방에 수업 스케줄을 할당하세요.</ScheduleGizmoDesc>
+  <CancelClassGizmo>수업 취소</CancelClassGizmo>
+  <CancelClassGizmoDesc>수업을 일찍 끝냅니다.</CancelClassGizmoDesc>
+  <LeaveClassGizmo>수업 떠나기</LeaveClassGizmo>
+  <LeaveClassGizmoDesc>다른 일을 할 수 있도록 수업을 떠납니다.</LeaveClassGizmoDesc>
+
+  <!-- Settings -->
+  <SettingsBaseXpPerHour>기본 교육 XP/시간</SettingsBaseXpPerHour>
+  <SettingsBaseXpPerHour_desc>한 시간동안 수업에 참여한 한 명의 수강생이 얻는 XP의 양입니다.</SettingsBaseXpPerHour_desc>
+
+  <!-- Dev tools-->
+  <PatchedTooltip>이 Def는 이미 이 모드 혹은 해당 모드에 의해 패치되었습니다.</PatchedTooltip>
+  <UnpatchedTooltip>이 Def는 패치되지 않았습니다.</UnpatchedTooltip>
+
+  <!-- Generated defs -->
+  <TextbookItemLabel>교과서 ({0})</TextbookItemLabel>
+  <TextbookItemDescription>어떤 사람들은 교과서가 지식을 전달하는 데에는 낡은 방법이라 여길 수도 있겠지만, 이 책은 개인이 특정 분야에 대한 기초적인 이해를 함양하는 데에 필요한 모든 것을 담고 있습니다. 구체적인 설명, 실무적인 문제와 해답을 향한 힌트, 그리고 그 외의 많은 것들이 포함됩니다.\n\n교실 책장에 보관해두면, 수강생들은 자신이 받고 있는 수업에 맞는 교보재를 알아서 가져가 사용할 것입니다. 이 동안 수업의 효율성이 증가합니다.</TextbookItemDescription>
+
+  <ProficiencyNeurotrainerLabel>지식신경교육혈청 ({0})</ProficiencyNeurotrainerLabel>
+  <ProficiencyNeurotrainerUseLabel>지식신경교육혈청을 사용하여 {0}(을)를 학습하기</ProficiencyNeurotrainerUseLabel>
+  <ProficiencyNeurotrainerDescription>특정한 지식을 학습시키는 고농도의 일회용 기계입자 혈청입니다.\n\n안와를 통해 뇌에 투여하면 기계입자가 스스로 신경 조직을 구성해 대상자에게 새로운 분야의 지식을 교육시킵니다.</ProficiencyNeurotrainerDescription>
+  <ProficiencyNeurotrainerUsed>{USER_labelShort}(이)가 {1} 신경교육혈청을 사용하여 {2} 분야의 지식을 학습하였습니다.</ProficiencyNeurotrainerUsed>
+</LanguageData>
