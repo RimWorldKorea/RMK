@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <LL-DisclaimerText>Life Lessons를 다른 모드와 호환시키는 패치 파일의 제작을 보조하는 유틸리티입니다. 실제로 패치를 만들고 적용하는 데에 요구되는 지식을 대체하지는 않습니다. 직접 패치를 만들고 적용하며 XML 패치와 관련된 오류를 다룰 줄 모르는 경우, 이 유틸리티를 사용하는 것을 권장하지 않습니다.
+  
+이 도구를 사용할 경우 Life Lessons를 영구적으로 망가뜨릴 위험이 있으며, 제대로 작동하지 않는 패치를 작성할 수도 있습니다. 이 유틸리티를 사용하여 제대로 패치를 만들 수 없다면, 직접 패치를 제작하여 대체하는 것을 권장합니다. 이 도구를 통해 생성된 패치는 다른 모드끼리의 상호간섭에 의한 Def의 대체 및 수정 사항은 고려하지 않습니다. 몇몇 필수적인 Life Lessons 패치는 이 도구를 통해서도 제작할 수 없습니다.
+이 도구를 사용하는 것으로, Life Lessons를 수정하는 것으로 발생할 수 있는 위험을 인지하고 있는 것으로 간주됩니다. 생성된 패치를 어디에 설치하는지와 같은 기본적인 모딩 문제에 관한 퍼스트파티 지원은 받을 수 없습니다.
+  </LL-DisclaimerText>
+
+  <LL-PatcherCapabilities1>이 유틸리티는 Life Lesson의 분야를 다른 모드의 요소와 호환되도록 하는 XML 파일을 제작할 수 있습니다. 이 호환은 레시피, 수술, 물품 제작, 건축물 건설/철거, Job, WorkGiver, 연구 프로젝트, Interaction 및 Hediff를 포함합니다. 이 유틸리티는 이들 중 일부를 제작하는 데에 사용할 수 있습니다.
+
+현재, 작업은 보상 XP는 적용되나 요구사항은 적용되지 않습니다. Interaction 및 Hediff 치료는 이 UI를 통해 패치할 수 없습니다. 더 심도있는 Interaction은 XML 패치 자체가 불가능합니다.
+이 유틸리티를 통해 제작된 패치는 자동으로 모드 폴더에 추가되지 않으며, 직접 검토한 뒤 모드 폴더로 이동해야 합니다.
+
+상기한 사항 중 이해되지 않는 것이 하나라도 있다면, 이 유틸리티를 사용하지 않는 것을 권장합니다.
+  </LL-PatcherCapabilities1>
+
+  <LL-Rewards>보상은 특정한 작업을 하면서 해당 작업에 연관된 기술 및 지식을 수련하는 것을 의미합니다. 이는 해당 기술의 XP를 얻는 것으로 표현되며, 보상 XP는 매 틱마다(대부분의 작업) 혹은 한꺼번에(건물 해체 성공시) 생성됩니다. 기본 수치는 틱당 0.03XP로 책정되어 있습니다. progressGain을 직접 설정하여 이를 수정할 수 있습니다. 지나치게 빠르게 기술에 숙달되는 것을 방지하려면, 작업에 배정된 progressGain은 충분히 낮은 수치로 설정되어야 합니다. progressMultiplier는 생성되는 XP 총합에 직접 곱해지는 식으로 작동합니다. 여러 종류의 보상 XP가 사용될 수 있으며, 대상 기술과 선행 기술 양쪽 모두에 보상을 주는 것도 가능합니다. XP는 선행 기술이 만족된 경우에만 적용됩니다.</LL-Rewards>
+
+  <LL-DeconRewards>철거 보상은 작업이 완수되었을 때에만 적용되며, progressGain은 생성되는 XP 총합입니다. 넓게 보면, 전등과 같은 소소한 철거 작업에서는 1% 이하의 수치가 달성되어야 하며, 함선 부품과 같은 복잡한 건축물의 철거 작업은 10% 이상의 수치가 적용될 것입니다. 전기, 기계 및 복합공학 등이 적용된 복잡한 건축물을 철거할 경우에 높은 XP를 보상하는 것은 합리적입니다.</LL-DeconRewards>
+
+  <LL-Requirements>요구사항이 지목하는 "모든" 분야에 숙달하지 못한다면 대상 레시피 또는 건축물은 사용이 제한됩니다. 요구사항이 만족시키길 원하는 최고 수준의 지식만 지정하십시오. 해당 지식의 선행 지식들은 포함하면 안 됩니다.
+  
+어떤 요구사항은 "선택적 요구사항"으로 지정하여 숙달하지 못하더라도 페널티를 받는 것을 대가로 작업에 참여할 수 있도록 할 수 있습니다. 선택적 요구사항은 두 가지의 추가 설정이 가능합니다.
+1. 품질 제한: 활성화하면 해당 품질을 넘어서는 품질의 완성품은 만들어지지 않는 페널티가 적용됩니다.
+2. 작업 속도 계수: 활성화하면 해당 작업의 작업 속도에 계수가 곱해지는 페널티가 적용됩니다.
+레시피나 연구 프로젝트에 요구사항을 지정할 경우, 할당 도움말을 참조하여 해당 요구사항이 적절한지 검토하십시오.</LL-Requirements>
+
+  <LL-PatchingWorkgivers>WorkGiver는 요구사항과 보상을 모두 가질 수 있습니다. 기본적으로 보상은 매 틱마다 0.03XP만큼 생성되나, progressGain 수치를 조정하여 그 생성량을 줄일 수 있습니다. WorkGiver에 맞는 요구사항을 충족한 폰이 없다면, 컨텍스트 메뉴에서 거기에 해당하는 메세지를 띄울 것입니다.
+  
+기본적으로, WorkGiver에는 기계공학과 같은 응용 분야와 천문학과 같은 이론 분야를 모두 요구사항 및 보상으로써 가질 수 있습니다. 일부 WorkGiver 패치가 다른 모드의 기능을 마비시킬 수 있으므로, 불필요하게 WorkGiver를 패치하는 것은 지양하십시오. 확신이 없다면 패치하지 마세요.
+
+"계획서"와 관련된 WorkGiver는 개개의 계획서에 적용된 요구사항을 완전히 덮어씌우므로 요구사항을 패치하지 마십시오. 딱 하나, "오퍼레이터" 형식의 기술만이 예외입니다. 예를 들어, 특정한 종류의 WorkGiver는 완전히 해금되기 위해 "기계 조작원"으로써 특정한 기술을 요구할 수 있으며, 이는 개개의 계획서가 다른 무언가를 요구하는 것과 별개로 작동할 수 있습니다.</LL-PatchingWorkgivers>
+
+  <LL-PatchingInteractions>Interaction은 이 유틸리티에서 패치할 수 없습니다. 게임 외부에서 문서를 참조하여 패치를 수행하십시오.</LL-PatchingInteractions>
+
+  <LL-PatchingResearch>연구 프로젝트는 요구사항만 가집니다. 일반적으로, 과학과 연관된 지식이 요구되며, 복합공학이나 전자공학과 같은 몇몇 실무기술도 필요하다면 적용될 수 있습니다. 연구 프로젝트를 수행하기 위해서는 최소 한 명의 폰이 해당 프로젝트의 모든 요구사항을 만족해야 합니다.</LL-PatchingResearch>
+
+  <LL-PatchingRecipes>이 유틸리티에서 패치 대상으로 표시되는 레시피는 동적으로 생성되지 않은 레시피만을 포함합니다. 보통은 수술이 여기에 해당하지만, 몇몇 모드는 개개의 물품에 레시피를 정의하기도 합니다. 특정 물품이 (아마도 RecipeMaker에 의해) 동적으로 생성된 레시피를 가지고 있다면, 레시피가 "아니라" 물품 자체에 패치를 해야 합니다. 물품을 어떤 방법으로도 제작할 수 없다면 패치는 불필요합니다.
+  
+수술은 보통 의학 및 생체공학을 요구합니다. 물품 제작은 보통 단조술이나 고급 제작과 같은 제작 계통의 기술을 요구합니다.</LL-PatchingRecipes>
+
+  <LL-PatchingItems>대부분의 물품은 런타임 수준에서 자동으로 생성된 레시피를 갖습니다. 이런 부류의 물품은 레시피가 아니라 아이템 자체를 직접 패치하여 Life Lessons의 사항을 적용할 수 있습니다.
+  
+제작되는 물품은 보통 제작 계통의 기술을 요구합니다. 할당 도움말을 참조하여 할당하고자 하는 기술이 적합한지 검토하십시오.</LL-PatchingItems>
+
+  <LL-PatchingHediffs>Hediff는 이 유틸리티에서 패치할 수 없습니다. 게임 외부에서 문서를 참조하여 패치를 수행하십시오.</LL-PatchingHediffs>
+
+  <LL-PatchingJobs>Job은 보상만 가질 수 있습니다. 책을 읽거나 오락기를 사용하는 것과 같은 재미 작업은 요구사항을 할당할 수 없습니다.
+  
+일부 Job 패치가 다른 모드의 기능을 마비시킬 수 있으므로, 불필요하게 Job을 패치하는 것은 지양하십시오. 확신이 없다면 패치하지 마세요.</LL-PatchingJobs>
+
+  <LL-PatchingBuildings>건축물은 요구사항, 건설 자체에 대한 보상, 그리고 해체 보상을 모두 갖습니다. 해체 보상은 보통 여러 분야에 동시에 적용되는 경향이 있습니다. 가령, 함선 부품은 함선 건조와 기계공학, 전자공학, 그리고 공학에 모두 XP를 줄 것입니다. 이는 해체 작업이 여러 명의 각자 다른 폰에게 제각기 가치가 있도록 합니다. 파편이나 플레이어가 건설한 건축물과 같은 좀 더 평범한 건축물은 좀 더 짜게 보상을 주도록 하십시오.
+  
+보통 건축물의 요구사항은 전자공학, 기계공학 및 복합공학과 같은 "건축" 계통의 기술에 국한됩니다. 허나, 지질학을 요구하는 지열 발전기처럼 심도있는 과학적 지식을 직접 요구하는 게 그럴듯한 몇몇 경우에는 이론과학적 지식도 요구사항이 될 수 있습니다. 할당 도움말을 참조하여 각 지식에 관한 이해를 증진하고 어떻게 요구사항을 할당하는 게 좋을지 검토해보십시오.</LL-PatchingBuildings>
+
+  <LL-PatchingBackstories>배경 이야기는 새로 생성되는 폰에게 적용될 수 있으며 유년기 및 성년 배경에 모두 해당합니다. 배경에 분야가 할당되지 않았다면 그 배경을 가지고 생성된 폰은 어떤 분야의 지식도 갖지 않은 채로 시작합니다.
+  
+모드 폴더의 LifeLessons.ProficiencyDef를 통해 할당 도움말(assignmentTips)를 참조하십시오(해당 도움말도 한국어로 번역되어 있습니다). 어떤 기술을 어떤 배경을 가진 폰에게 적용시키는 게 좋을지 실마리를 찾을 수 있을 것입니다. 림월드 본 게임 뿐만 아니라, 안드로이드, 헤루안, 키이로, 키진, 쿠린, 마루, 민초, 랫킨, 냐론, 래비, 레비아, 유란과 같은 일부 모드 종족과 관련된 내용은 이 모드에서 미리 패치해두었습니다. 물론 배경 이야기만 추가하는 Backstories+와 Childhood Backstories도 포함됩니다.
+
+1. 부족민의 유년기 배경을 가진 폰은 '대화' 분야에 더해 실생활에 활용되는 '작물 보살피기'와 같은 분야 정도에만 숙달될 것입니다. 마찬가지로 성년 배경은 특별히 연관이 있지 않은 이상 '기초 과학'이나 '기초 수학'과는 연이 없을 것입니다.
+2. 일반적인 산업계의 표준적인 교육은 성인에게는 '고급 과학' 정도로, 유년기에는 '기초 과학' 정도로 제한됩니다. '생물학'과 같은 전공 분야를 갖도록 하려면 연구자이거나 해당 분야와 밀접한 연관을 가진 배경을 갖고 있어야 할 것입니다.
+3. 우주시대 및 번화계의 경우 기초 교육으로써 '고급 과학'을 교육하므로 모든 성인이 해당하는 분야에 숙련되어 있을 것입니다.
+4. '의학' 분야의 숙련은 "정식" 의사에게 할당됩니다. 중세계의 (현재 시점으로) "돌팔이" 의사들은 높아봤자 '생물학' 정도에 그칠 것입니다.
+5. '함선 건조' 및 '복합공학' 분야 또한 적절한 수준의 공학자들에게 할당됩니다. 불법 조선공이나 암시장의 기능공들에게는 그것보다는 한 단계 낮은 분야의 숙련이 할당됩니다.
+6. 대부분의 군인 배경에는 '응급처치' 분야의 숙련이 할당됩니다.
+
+배경 이야기에는 "확률적"으로 숙련 분야가 할당될 수 있습니다. UI 우측의 "조건 추가" 버튼을 눌러서 추가할 수 있습니다. 조건은 특정한 "굴림" 횟수와 추가 확률로 결정되며, 굴림이 성공할 때마다 목록에 기재된 분야 중 하나가 무작위로 선택되어 폰이 생성될 때 추가됩니다. 이 기능은 상대적으로 막연한 배경에 적용될 수 있습니다. 가령, 그냥 '과학자'라고만 되어있는 경우 다양한 전공 분야 중 1~2개를 무작위로 추가하도록 할 수 있겠지요. 확률적인 숙련 분야 추가도 UI에서 편집할 수 있습니다.</LL-PatchingBackstories>
+
+  <LL-PatchOutput>생성된 모든 내용은 UI좌측의 'E'버튼을 누르면 사용자\(사용자 이름)\%appdata%\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\DevOutput\LifeLessons에 저장됩니다. 이 파일들은 자동으로 적용되지 않으며, Life Lessons/Content/Mods(혹은 당신이 제작한 모드의 해당하는 폴더)로 직접 옮겨줘야 합니다. 바닐라 및 DLC 컨텐츠의 패치는 Mods 폴더에 배치하면 안되며, 이미 자동으로 패치되었으므로 되도록이면 건드리지 마십시오.
+  
+패치 폴더를 배치했다면, 같은 폴더에서 LoadFoldersAddon.xml 파일을 찾으십시오. 이 파일에는 당신의 모드 폴더에 위치한 LoadFolders.xml 파일에 추가되어야 할 모드 정보가 기록되어 있습니다. 이 파일의 내용을 복사하여 해당 파일에 추가하세요.
+
+당신의 모드를 위해 새로운 ProficiencyDef를 추가하는 패치는 해당 모드가 로드되지 않았을 경우에 발생할 수 있는 오류를 방지하기 위하여 MayRequire 어트리뷰트가 지정되어 있어야 합니다. LoadFolderAddon은 패치된 모드의 packageID를 특정하고 있으며, 이는 _Steam 버전에도 마찬가지입니다. 이는 바닐라 기준으로 버그의 원인이 될 수도 있습니다. 해당 Def가 바닐라 Def의 확장이라면, 바닐라 Def와 해당 Def가 모두 패치에 포함되어야 합니다.</LL-PatchOutput>
+
+  <LL-PatcherCapabilities2>- 배경 이야기 템플릿은 모드 설정에서 저장되어 원하는 경우 새 배경 이야기에 빠르게 적용시킬 수 있습니다.
+- 필터를 사용하여 원하는 대상을 찾을 수 있습니다.
+- 배경 이야기 UI에서 "필터된 대상에 추가하기"를 누르면 현재 표시된 모든 숙련 분야를 해당 배경에 추가할 수 있습니다.
+- 각 숙련 분야가 포함된 카테고리의 제목을 드래그하여 순서를 변경할 수 있습니다. 배열은 저장됩니다.
+- Hediffs와 Interactions는 UI에서 패치될 수는 없으나, 표시될 수는 있어 게임 외부에서 패치가 필요한지 판단하는 데에 사용할 수 있습니다.
+- 패치 유형의 "Things"는 선택한 모드에서 정의된 걸러지지 않은 모든 종류의 ThingDef를 표시합니다. 예외 대상이 있는지 판단하는 데 사용하십시오.
+</LL-PatcherCapabilities2>
+
+  <LL-LabelCapabilities>패쳐 기능</LL-LabelCapabilities>
+  <LL-LabelCapabilities2>패쳐 팁</LL-LabelCapabilities2>
+  <LL-LabelRewards>보상</LL-LabelRewards>
+  <LL-LabelRequirements>요구 사항</LL-LabelRequirements>
+  <LL-LabelSoftRequirements>선택적 요구 사항</LL-LabelSoftRequirements>
+  <LL-LabelDeconRewards>철거시 보상</LL-LabelDeconRewards>
+  <LL-LabelWorkgivers>WorkGiver에 관해</LL-LabelWorkgivers>
+  <LL-LabelInteractions>Interaction에 관해</LL-LabelInteractions>
+  <LL-LabelResearch>연구 프로젝트에 관해</LL-LabelResearch>
+  <LL-LabelRecipes>레시피에 관해</LL-LabelRecipes>
+  <LL-LabelItems>물품에 관해</LL-LabelItems>
+  <LL-LabelHediffs>Hediff에 관해</LL-LabelHediffs>
+  <LL-LabelJobs>Job에 관해</LL-LabelJobs>
+  <LL-LabelBuildings>건축물에 관해</LL-LabelBuildings>
+  <LL-LabelBackstories>배경 이야기에 관해</LL-LabelBackstories>
+  <LL-LabelOutput>출력</LL-LabelOutput>
+
+  <LL-ResearchUnlockedDefs>Def 해금</LL-ResearchUnlockedDefs>
+  <LL-RequiredResearchBench>연구 장소</LL-RequiredResearchBench>
+  <LL-Prerequisites>선행 연구</LL-Prerequisites>
+  <LL-Ingredients>재료</LL-Ingredients>
+  <LL-RecipeUsers>Recipe User</LL-RecipeUsers>
+
+  <LL-LabelProgressGain>progressGain</LL-LabelProgressGain>
+  <LL-LabelProgressMult>progressMult</LL-LabelProgressMult>
+  <LL-LabelMaxQuality>최고 품질</LL-LabelMaxQuality>
+  <LL-LabelWorkMult>작업 속도 계수</LL-LabelWorkMult>
+  <LL-HasRecipe>레시피 있음</LL-HasRecipe>
+  <LL-Deconstructible>철거 가능</LL-Deconstructible>
+  <LL-LabelSelectMod>모드 선택</LL-LabelSelectMod>
+  <LL-ThingComps>ThingComp</LL-ThingComps>
+  <LL-SpawnCategories>생성 유형</LL-SpawnCategories>
+  <LL-SkillChanges>추가 기술 포인트</LL-SkillChanges>
+  <LL-ForcedTraits>특성 강제</LL-ForcedTraits>
+  <LL-DisabledWork>결격 작업</LL-DisabledWork>
+
+  <LL-LabelCopyTip>숙련 분야 목록 복사</LL-LabelCopyTip>
+  <LL-LabelPasteTip>숙련 분야 목록 붙여넣기</LL-LabelPasteTip>
+  <LL-LabelCopyAllTip>필터된 목록의 모든 배경이야기 각각에 숙련 분야 목록을 복사합니다.</LL-LabelCopyAllTip>
+
+
+  <LL-LabelSearchDesc>Description으로 찾기</LL-LabelSearchDesc>
+  <LL-LabelSearchProf>숙련 분야로 찾기</LL-LabelSearchProf>
+  <LL-LabelModFilter>모드로 필터링하기</LL-LabelModFilter>
+
+  <LL-LabelNone>없음</LL-LabelNone>
+  <LL-LabelApplyFilters>필터</LL-LabelApplyFilters>
+  <LL-FilterByDefNames>defName으로</LL-FilterByDefNames>
+  <LL-FilterByLabels>label로</LL-FilterByLabels>
+  <LL-FilterByDescription>description으로</LL-FilterByDescription>
+  <LL-FilterByTitle>배경 이름으로</LL-FilterByTitle>
+  <LL-FilterBySpawnCategory>배경 생성 유형으로</LL-FilterBySpawnCategory>
+
+  <LL-LabelAll>전부</LL-LabelAll>
+  <LL-LabelHelp>도움말</LL-LabelHelp>
+
+  <LL-PatchTool>패치 유틸리티</LL-PatchTool>
+  <LL-Hide>숨기기: </LL-Hide>
+  <LL-Show>보이기: </LL-Show>
+  <LL-Patched>패치된 대상</LL-Patched>
+
+  <LL-ButtonReward>보상</LL-ButtonReward>
+  <LL-ButtonRequire>요구</LL-ButtonRequire>
+  <LL-ButtonDeconReward>철거</LL-ButtonDeconReward>
+  <LL-ButtonAdd>추가</LL-ButtonAdd>
+  <LL-ButtonAddFiltered>필터된 대상에 추가하기</LL-ButtonAddFiltered>
+  <LL-ButtonAddConditional>조건 추가</LL-ButtonAddConditional>
+  <LL-ButtonAddTemplate>템플릿 추가</LL-ButtonAddTemplate>
+
+  <LL-Conditional>조건</LL-Conditional>
+  <LL-ConditionalRolls>굴림</LL-ConditionalRolls>
+  <LL-ConditionalChance>굴림당 확률(%)</LL-ConditionalChance>
+  <LL-NewTemplateLabel>새 템플릿</LL-NewTemplateLabel>
+  <LL-ApplyTemplate>적용</LL-ApplyTemplate>
+
+  <LL-ReportActivityXp>활동 XP 보고</LL-ReportActivityXp>
+  <LL-ReportsLabel>보고</LL-ReportsLabel>
+
+
+</LanguageData>

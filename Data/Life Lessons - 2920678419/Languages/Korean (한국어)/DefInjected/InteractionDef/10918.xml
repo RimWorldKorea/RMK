@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<ChatWithSpeechlessFailed.label>대화 실패</ChatWithSpeechlessFailed.label>
+	<ChatWithSpeechlessFailed.logRulesInitiator.rulesStrings>
+		<li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef](와)과 [communicate] 했지만 [failreason].</li>
+        <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_labelShort]의 [adjgib] [gibberish] 이해하지 못함.</li>
+
+        <li>failreason->침묵을 마주함</li>
+        <li>failreason->포기함</li>
+        <li>failreason->상대를 이해할 수 없었음</li>
+
+        <li>communicate->대화하려</li>
+        <li>communicate->말하려</li>
+        <li>communicate->잡담하려</li>
+        <li>communicate->의사소통하려</li>
+
+        <li>gibberish->억양을</li>
+        <li>gibberish->발음을</li>
+        <li>gibberish->단어를</li>
+        <li>gibberish->중얼거림을</li>
+
+        <li>adjgib->화난듯한</li>
+        <li>adjgib->[Animal] 같은</li>
+        <li>adjgib->이해할 수 없음</li>
+        <li>adjgib->지리멸렬한</li>
+	</ChatWithSpeechlessFailed.logRulesInitiator.rulesStrings>
+	
+	<ChatFromSpeechlessFailed.label>대화 실패</ChatFromSpeechlessFailed.label>
+	<ChatFromSpeechlessFailed.logRulesInitiator.rulesStrings>
+        <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 [communicated] [failreason].</li>
+
+        <li>failreason->상대가 이해하지 못함</li>
+        <li>failreason->상대가 실망하여 돌아감</li>
+
+        <li>communicated->중얼거렸으나</li>
+        <li>communicated->입을 놀렸으나</li>
+        <li>communicated->정신없이 소리를 냈으나</li>
+	</ChatFromSpeechlessFailed.logRulesInitiator.rulesStrings>
+	
+	<ChatWithSpeechlessSuccess.label>잡담</ChatWithSpeechlessSuccess.label>
+	<ChatWithSpeechlessSuccess.logRulesInitiator.rulesStrings>
+        <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 몇 가지 단어를 가르침.</li>
+        <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef](와)과 [communicateAdjective] 즐거운 대화를 함.</li>
+
+        <li>communicateAdjective->혼란스러웠지만</li>
+        <li>communicateAdjective->이해할 수 없었지만</li>
+        <li>communicateAdjective->일방적이었지만</li>
+        <li>communicateAdjective->엉망진창이었지만</li>
+	</ChatWithSpeechlessSuccess.logRulesInitiator.rulesStrings>
+	
+	<ChatFromSpeechlessSuccess.label>잡담</ChatFromSpeechlessSuccess.label>
+	<ChatFromSpeechlessSuccess.logRulesInitiator.rulesStrings>
+        <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 몇 가지 단어를 배움.</li>
+        <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef](와)과 [communicateAdjective] 즐거운 대화를 함.</li>
+        <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 거칠게 몸짓하며 [communicated].</li>
+
+        <li>communicated->중얼거림</li>
+        <li>communicated->왜곡된 단어를 말함</li>
+        <li>communicated->이상한 언어로 말함</li>
+
+        <li>communicateAdjective->혼란스러웠지만</li>
+        <li>communicateAdjective->이해할 수 없었지만</li>
+        <li>communicateAdjective->일방적이었지만</li>
+        <li>communicateAdjective->엉망진창이었지만</li>
+	</ChatFromSpeechlessSuccess.logRulesInitiator.rulesStrings>
+	
+	<UnintelligibleChat.label>잡담?</UnintelligibleChat.label>
+	<UnintelligibleChat.logRulesInitiator.rulesStrings>
+        <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef](와)과 [communicateAdjective] 대화를 함.</li>
+        <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef](와)과 [communicateAdjective] 토의를 함.</li>
+        <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 [communicated], 서로 이해한 것처럼 보임.</li>
+
+        <li>communicateAdjective->혼란스러운</li>
+        <li>communicateAdjective->이해할 수 없는</li>
+        <li>communicateAdjective->분간할 수 없는</li>
+
+        <li>communicated->중얼거렸으며</li>
+        <li>communicated->왜곡된 단어를 말했으며</li>
+        <li>communicated->이상한 언어로 말했으며</li>
+	</UnintelligibleChat.logRulesInitiator.rulesStrings>
+	
+	<InsultFromSpeechless.label>모욕</InsultFromSpeechless.label>
+	<InsultFromSpeechless.logRulesInitiator.rulesStrings>
+        <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 무례한 몸짓을 취함.</li>
+        <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]에게 일관되지 않게 [shout].</li>
+
+        <li>shout->고함을 지름</li>
+        <li>insulted->외침</li>
+        <li>insulted->분노를 표함</li>
+	</InsultFromSpeechless.logRulesInitiator.rulesStrings>
+</LanguageData>
