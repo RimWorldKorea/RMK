@@ -264,4 +264,33 @@
   <WVC_ToolTip_ShapeshifterGeneUnremovable>이 옵션을 활성화하면 '형상변환' 유전자가 제거되면 다시 추가됩니다.</WVC_ToolTip_ShapeshifterGeneUnremovable>
   <WVC_Label_fixGeneTypesOnLoad>로드 시 손상된 유전자 유형 수정</WVC_Label_fixGeneTypesOnLoad>
   <WVC_ToolTip_fixGeneTypesOnLoad>활성화하면 잠재적으로 손상된 모든 유전자 유형(클래스)을 수정합니다. "깨진 유전자 수정"의 안전 버전입니다. 잘못된 클래스를 가진 유전자에만 영향을 미치기 때문입니다. 잘못된 클래스를 가진 유전자가 있으면 로그에 메시지가 표시됩니다.</WVC_ToolTip_fixGeneTypesOnLoad>
+  <WVC_XaG_SuremRetuneShouldBeTunedWarn_Label>조정해야 합니다.</WVC_XaG_SuremRetuneShouldBeTunedWarn_Label>
+  <WVC_XaG_SuremRetuneUntuned_Label>미조정</WVC_XaG_SuremRetuneUntuned_Label>
+  <WVC_XaG_GeneGiverPawnHasGene_Label>{0}(은)는 이미 이 유전자를 가지고 있습니다.</WVC_XaG_GeneGiverPawnHasGene_Label>
+  <WVC_XaG_GeneGiverImplanted_Label>유전자 이식됨</WVC_XaG_GeneGiverImplanted_Label>
+  <WVC_XaG_GeneGiverImplanted_Desc>{0}으로 인해 {0}(이)가 "{1}" 유전자를 받았습니다.</WVC_XaG_GeneGiverImplanted_Desc>
+  <WVC_XaG_Gene_GeneticInstability>안정제 사용</WVC_XaG_Gene_GeneticInstability>
+  <WVC_XaG_Gene_GeneticInstabilityDesc>다음 안정화까지 남은 기간이 3일 미만이면 폰은 자동으로 안정화 사용을 시도합니다.</WVC_XaG_Gene_GeneticInstabilityDesc>
+  <WVC_XaG_NewBack_GeneIsAngelicStability>이 유전자를 제거하면 보유자를 죽일 수 있습니다.</WVC_XaG_NewBack_GeneIsAngelicStability>
+  <WVC_XaG_NewBack_GeneIsGeneticStability>이 유전자를 제거하면 숙주가 일시적으로 손상됩니다.</WVC_XaG_NewBack_GeneIsGeneticStability>
+  <WVC_XaG_NewBack_GeneIsGeneticInStability>이 유전자를 제거하면 일시적으로 유전자 재성장 속도가 빨라집니다.</WVC_XaG_NewBack_GeneIsGeneticInStability>
+  <WVC_XaG_Extreme_GeneticInstabilityMessage>유전적 불안정성으로 인해 {0}(이)가 의식을 잃었습니다.</WVC_XaG_Extreme_GeneticInstabilityMessage>
+  <WVC_XaG_Gene_GeneticInstability_On_Info>다음 유전자 불안정화</WVC_XaG_Gene_GeneticInstability_On_Info>
+  <WVC_XaG_GeneXenoGestator_GestationGenesShapeshifter>이 사람은 유전적 특성으로 인해 모든 인종형을 임신할 수 있습니다.</WVC_XaG_GeneXenoGestator_GestationGenesShapeshifter>
+  <WVC_XaG_GeneShapeshifter_TrustedXenotypes>이 인종형은 모드 개발자가 확인했습니다.</WVC_XaG_GeneShapeshifter_TrustedXenotypes>
+  <WVC_XaG_GeneShapeshifter_UnknownXenotypes>이 인종형은 테스트되지 않았으므로 사용자 책임하에 사용하세요.</WVC_XaG_GeneShapeshifter_UnknownXenotypes>
+  <WVC_BiotechSettings_Label_Generators>생성기</WVC_BiotechSettings_Label_Generators>
+  <WVC_BiotechSettings_Tooltip_Generators>생성을 담당하는 설정입니다. 예를 들어, 스킬 유전자는 게임이 시작될 때 생성됩니다.\n\n게임 실행에 문제가 있는 경우 모든 생성 옵션을 비활성화하는 것이 좋습니다.</WVC_BiotechSettings_Tooltip_Generators>
+  <WVC_Label_hideXaGGenes>모드 유전자 숨기기</WVC_Label_hideXaGGenes>
+  <WVC_ToolTip_hideXaGGenes>이 옵션을 활성화하면 모드의 유전자가 편집기에 표시되지 않습니다.\n\n이 옵션은 인종형 편집기에 성능 문제가 있거나 유전자를 추가하는 모드로 인해 편집기에 부하가 많이 걸린 경우에 권장됩니다. 모드의 유전자는 여전히 유전자 팩에서 찾을 수 있습니다.\n\n카테고리를 수정하고 패치를 적용하려면 다시 시작해야 합니다.</WVC_ToolTip_hideXaGGenes>
+  <WVC_Label_enableGeneInstabilityInfo>유전적 불안정성 정보 활성화</WVC_Label_enableGeneInstabilityInfo>
+  <WVC_Label_enableIncestLoverGene>근친상간 애호가 유전자 메커니즘 활성화</WVC_Label_enableIncestLoverGene>
+  <WVC_ToolTip_enableIncestLoverGene>근친상간 애호가 유전자의 메커니즘을 담당합니다. 이 유전자의 메커니즘은 하모니 패치를 기반으로 합니다. 이 유전자와 모드 충돌이 있는 경우 비활성화하는 것이 좋습니다.\n\n재시작이 필요합니다.</WVC_ToolTip_enableIncestLoverGene>
+  <WVC_Label_enableHarmonyTelepathyGene>하모니로 텔레파시 유전자 사용</WVC_Label_enableHarmonyTelepathyGene>
+  <WVC_ToolTip_enableHarmonyTelepathyGene>활성화하면 "텔레파스" 유전자는 하모니 패치를 통해 VE 시리즈의 유사한 유전자처럼 작동합니다. 하지만 이 유전자의 코드가 모든 상호작용에서 호출되므로 성능에 부정적인 영향을 미칠 수 있습니다.\n\n성능 문제가 발생하거나 VE 시리즈 모드를 사용하는 경우 이 옵션을 비활성화할 것을 권장합니다.\n\n재시작이 필요합니다.</WVC_ToolTip_enableHarmonyTelepathyGene>
+  <WVC_Label_useAlternativeDustogenicFoodJob>더스트제닉 음식 작업 대체 사용</WVC_Label_useAlternativeDustogenicFoodJob>
+  <WVC_ToolTip_useAlternativeDustogenicFoodJob>이 옵션을 활성화하면 폰이 일반 음식 대신 더스트제닉 음식을 먹도록 하는 작업 제공자가 씽크트리에 내장되지 않고 유전자를 통해 트리거됩니다.\n\n이렇게 하면 성능이 향상되지만 폰이 가끔 더스트제닉 음식이 아닌 일반 음식을 먹게 될 수 있습니다. 이 옵션은 또한 더스트 폰이 캐러밴에 있는 동안 더스트 음식을 먹지 않는 버그를 수정합니다.\n\n재시작이 필요합니다.</WVC_ToolTip_useAlternativeDustogenicFoodJob>
+  <WVC_BiotechSettings_Tab_ExtraSettings>추가</WVC_BiotechSettings_Tab_ExtraSettings>
+  <WVC_Label_genesCanTickOnlyOnMap>현재 지도에서만 유전자 틱 작동</WVC_Label_genesCanTickOnlyOnMap>
+  <WVC_ToolTip_genesCanTickOnlyOnMap>이 옵션을 활성화하면 유전자가 맵 외부에서 틱할 수 없으므로 성능이 향상됩니다. 하지만 맵 외부에서 작동하도록 설계된 일부 유전자 메커니즘이 손상될 수 있습니다.\n\n이 옵션은 본인이 뭘 하는지 확실히 아는 경우에만 사용하십시오.\n\n재시작이 필요합니다.</WVC_ToolTip_genesCanTickOnlyOnMap>
 </LanguageData>
