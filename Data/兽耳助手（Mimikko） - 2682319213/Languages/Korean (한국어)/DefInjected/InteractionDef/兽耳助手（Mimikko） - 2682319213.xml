@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--
+		(이)가
+		(와)과
+		(을)를
+		(은)는
+		(아)야
+		(이)어  # "(이)여"에서 바꿈, "파인애플이어서"/"사과여서"
+		(으)로
+		(이)    # (이) 뒤에는 아무거나 가능 e.g. "(이)라", "(이)므로", "(이)다."
+		
+		INITIATOR_nameDef : 동물
+		RECIPIENT_nameDef : 림(=폰)
+		[모모나]가 [advA] [림](을)를 뒤에서 껴앉으며 말합니다
+		[림]이 머리를 [verbB]하자 [모모나]가 말합니다
+		[림]이 얼굴을 [verbC]하자 [모모나]가 말합니다
+		[모모나]가 [림]에게 [adjD][verbD] 말합니다
+	-->
+  <Momona_Nuzzle.label>친밀도</Momona_Nuzzle.label>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef](이)가 [advA] [RECIPIENT_nameDef](을)를 뒤에서 껴안으며 말합니다. : 「[talkA]」</Momona_Nuzzle.logRulesInitiator.rulesStrings.0>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.1>r_logentry->[RECIPIENT_nameDef](이)가 [INITIATOR_nameDef]의 머리를 [verbB] [INITIATOR_nameDef](이)가 말합니다. : 「[talkB]」</Momona_Nuzzle.logRulesInitiator.rulesStrings.1>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.2>r_logentry->[RECIPIENT_nameDef](이)가 [INITIATOR_nameDef]의 얼굴을 [verbC] [INITIATOR_nameDef](이)가 말합니다. : 「[talkC]」</Momona_Nuzzle.logRulesInitiator.rulesStrings.2>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.3>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 [adjD] [verbD] 말합니다. : 「[talkD]」</Momona_Nuzzle.logRulesInitiator.rulesStrings.3>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.4>advA->조용히</Momona_Nuzzle.logRulesInitiator.rulesStrings.4>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.5>advA->천천히</Momona_Nuzzle.logRulesInitiator.rulesStrings.5>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.6>advA->갑자기</Momona_Nuzzle.logRulesInitiator.rulesStrings.6>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.7>talkA->각하! 모모나는 더 이상 참을 수 없어요! 쭉 당신과 함께 있을게요! 아... 어, 연기가 너무 과했나요?</Momona_Nuzzle.logRulesInitiator.rulesStrings.7>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.8>talkA->(진지하게)각하, 아직 끝나지 않은 일이 남아있어요~</Momona_Nuzzle.logRulesInitiator.rulesStrings.8>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.9>talkA->각하, 모모나가 귀엽나요?</Momona_Nuzzle.logRulesInitiator.rulesStrings.9>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.10>talkA->모모나는 각하가 제일 좋아요!</Momona_Nuzzle.logRulesInitiator.rulesStrings.10>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.11>talkA->각~하~! 오늘은 정말 중요한 일이 있어요~</Momona_Nuzzle.logRulesInitiator.rulesStrings.11>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.12>talkA->각하! 무슨 일이신가요?</Momona_Nuzzle.logRulesInitiator.rulesStrings.12>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.13>talkA->각하각하！모모나는 각하가 제~~~일 좋아요!</Momona_Nuzzle.logRulesInitiator.rulesStrings.13>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.14>verbB->쿡쿡 찌르자</Momona_Nuzzle.logRulesInitiator.rulesStrings.14>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.15>verbB->주무르자</Momona_Nuzzle.logRulesInitiator.rulesStrings.15>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.16>talkB->(안심하며) 각하의 손 따뜻하네요~</Momona_Nuzzle.logRulesInitiator.rulesStrings.16>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.17>talkB->또 얼굴을 만져도 되지 않나요~?</Momona_Nuzzle.logRulesInitiator.rulesStrings.17>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.18>talkB->(부끄러워하며) 가능하다면, 각하가 저만을 바라봐주셨으면 좋겠어요</Momona_Nuzzle.logRulesInitiator.rulesStrings.18>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.19>talkB->각하... 침이 흘러내리고 있어요~</Momona_Nuzzle.logRulesInitiator.rulesStrings.19>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.20>talkB->모모나도 각하의 얼굴을 만지고 싶어요~</Momona_Nuzzle.logRulesInitiator.rulesStrings.20>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.21>talkB->모모나의 얼굴, 뜨거워지는거 같아요.</Momona_Nuzzle.logRulesInitiator.rulesStrings.21>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.22>talkB->각하의 손이 너무 따뜻해서, 모모나의 심장이 두근두근거려요.</Momona_Nuzzle.logRulesInitiator.rulesStrings.22>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.23>talkB->(부끄러워하며)만지거나 만져지거나 하는건 모모나 하나만으로도 충분해요!</Momona_Nuzzle.logRulesInitiator.rulesStrings.23>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.24>verbC->만지자</Momona_Nuzzle.logRulesInitiator.rulesStrings.24>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.25>verbC->쓰다듬자</Momona_Nuzzle.logRulesInitiator.rulesStrings.25>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.26>talkC->헤헤, 왠지... 안심이 되요~</Momona_Nuzzle.logRulesInitiator.rulesStrings.26>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.27>talkC->저도 각하의 머리를 만져보고 싶은데, 모모네에게는 높아서 닿지 않아요!</Momona_Nuzzle.logRulesInitiator.rulesStrings.27>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.28>talkC->모모나는 각하가 제일 좋아요.</Momona_Nuzzle.logRulesInitiator.rulesStrings.28>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.29>talkC->후후, 모모나가 작은 동물이 된거 같은 기분이에요。</Momona_Nuzzle.logRulesInitiator.rulesStrings.29>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.30>talkC->무무무...... 각하는 너무 교활해요, 저도 각하의 머리를 쓰다듬고 싶어요~</Momona_Nuzzle.logRulesInitiator.rulesStrings.30>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.31>talkC->여자아이의 머리카락은 소중해요. 하지만 각하라면, 언제든지 만져도 돼요!</Momona_Nuzzle.logRulesInitiator.rulesStrings.31>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.32>adjD->즐겁게</Momona_Nuzzle.logRulesInitiator.rulesStrings.32>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.33>adjD->기쁘게</Momona_Nuzzle.logRulesInitiator.rulesStrings.33>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.34>adjD->유쾌하게</Momona_Nuzzle.logRulesInitiator.rulesStrings.34>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.35>verbD->다가가며</Momona_Nuzzle.logRulesInitiator.rulesStrings.35>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.36>verbD->달라붙으며</Momona_Nuzzle.logRulesInitiator.rulesStrings.36>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.37>talkD->안심하세요, 모모나는 여기 있으니까, 아무데도 안가요!</Momona_Nuzzle.logRulesInitiator.rulesStrings.37>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.38>talkD->각하 피곤하신가요? 모모나의 도움이 필요하세요?</Momona_Nuzzle.logRulesInitiator.rulesStrings.38>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.39>talkD->각하, 힘내세요. 모모나가 언제나 곁에 있을게요~</Momona_Nuzzle.logRulesInitiator.rulesStrings.39>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.40>talkD->각하는 모모나를 응석부리게 해주실 수 있나요? 할 수 있죠?</Momona_Nuzzle.logRulesInitiator.rulesStrings.40>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.41>talkD->각하는 모모나랑 같이 일하러 가는게 즐거우신가요? 후후후, 정말 즐거워요!</Momona_Nuzzle.logRulesInitiator.rulesStrings.41>
+  <Momona_Nuzzle.logRulesInitiator.rulesStrings.42>talkD->각하는 모모나의 가족일 뿐만 아니라, 모모나의 가장 소중한 사람이기도 해요!</Momona_Nuzzle.logRulesInitiator.rulesStrings.42>
+  
+  <Nemuri_Nuzzle.label>친밀도</Nemuri_Nuzzle.label>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.0>r_logentry(p=2)->[RECIPIENT_nameDef](이)가 지나가는 [INITIATOR_nameDef]의 머리를 쓰다듬자 [INITIATOR_nameDef](이)가 말합니다. : 「[talkA]」</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.0>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.1>r_logentry->[RECIPIENT_nameDef](이)가 지나가는 [INITIATOR_nameDef]의 얼굴을 [verbB] [INITIATOR_nameDef](이)가 말합니다. : 「[talkB]」</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.1>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.2>talkA->(즐거워하며)네무리의 머리카락이 은색으로 반짝여요...</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.2>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.3>talkA->(걱정하며)머리카락...... 엄청...... 엉망진창......</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.3>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.4>talkA->(의아해하며)머리를 쓰다듬는건, 우호 관계를 가르키기 위한 행위인가요?</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.4>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.5>talkA->이건 바보털이... 바보털이 아니에요>.&lt;!</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.5>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.6>talkA->머리를 쓰다듬는건，살짝 간지러워요...</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.6>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.7>talkA->머리가... 헝클어지지 않았어요.</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.7>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.8>talkA->머리를 너무 만지면... 키가 자라지 않는다는 설도 있어요.</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.8>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.9>talkA->네무리보다 메이의 머리가 더 부드러워요......</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.9>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.10>talkA->네무리의 머리는 조금 곱슬거려서 예쁘게 빗기 어려워요.</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.10>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.11>talkA->키가 크지 않더라도 문제 없어요......</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.11>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.12>talkA->각하는 네무리의 머리를 쓰다듬으며 무슨 생각을 하시나요?</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.12>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.13>talkA->네무리는 그저 각하에게 머리를 쓰다듬어지고 싶을 뿐이에요.</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.13>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.14>talkA->각하는 매우 온화하고 사려깊은 사람이에요.</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.14>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.15>talkA->머리 쓰다듬어 줘서 좋았어요...</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.15>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.16>talkA->네무리는 기억하고, 학습해가고 있으니까... 똑똑해질거에요.</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.16>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.17>talkA->머리가... 저려요...</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.17>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.18>talkA->계속 쓰다듬어 주세요, 각하!</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.18>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.19>talkA->머리를 쓰다듬어 주는거, 너무 좋아요~</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.19>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.20>talkA->머리를 쓰다듬어 주면 기뻐지는건가요?</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.20>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.21>talkA->머리를 쓰다듬어 주는거...... 네무리에 대한 보상이라고 느껴져요.</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.21>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.22>talkA->곱슬거리는 머리를 만져보면 기분 좋은가요?</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.22>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.23>talkA->네무리의 기분은 미묘해요.</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.23>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.24>verbB->쓰다듬자</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.24>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.25>verbB->쿡쿡 찌르자</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.25>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.26>talkB->(화내며)각하, 빨리 손 씻어주세요!</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.26>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.27>talkB->아... 이 느낌... 따뜻해요......</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.27>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.28>talkB->네... 각하아...</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.28>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.29>talkB->네무리는 매일 메이의 얼굴를 씻겨주고 있어요~</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.29>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.30>talkB->네무리는, 각하가 얼굴을 찌르는게 싫지는 않은거 같아요...</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.30>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.31>talkB->네무리의 얼굴, 귀여운가요?</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.31>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.32>talkB->네무리는 각하 이외의 사람은 신경쓰입니다~</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.32>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.33>talkB->좋을대로 하세요, 네무리는 신경쓰지 않아요... 하지만, 부드럽게 해주세요.</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.33>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.34>talkB->저는 얼굴이 둥글 뿐이지 뚱뚱한건 아니에요......</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.34>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.35>talkB->이 감각... 반죽하는 기분이에요~</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.35>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.36>talkB->마... 마음에 드나요, 네무리의 얼굴.</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.36>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.37>talkB->네무리... 좋아해요...</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.37>
+  <Nemuri_Nuzzle.logRulesInitiator.rulesStrings.38>talkB->얼굴, 그리 이상하지 않지요?</Nemuri_Nuzzle.logRulesInitiator.rulesStrings.38>
+  
+  <Ruri_Nuzzle.label>친밀도</Ruri_Nuzzle.label>
+  <Ruri_Nuzzle.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef](이)가 수줍은 듯 얼굴을 가리고 [RECIPIENT_nameDef]에게 [verbA] 말합니다. : 「[talkA]」</Ruri_Nuzzle.logRulesInitiator.rulesStrings.0>
+  <Ruri_Nuzzle.logRulesInitiator.rulesStrings.1>r_logentry(p=8)->[RECIPIENT_nameDef](이)가 [INITIATOR_nameDef]의 머리를 [verbB] [INITIATOR_nameDef](이)가 말합니다. : 「[talkB]」</Ruri_Nuzzle.logRulesInitiator.rulesStrings.1>
+  <Ruri_Nuzzle.logRulesInitiator.rulesStrings.2>r_logentry->[RECIPIENT_nameDef](이)가 [INITIATOR_nameDef]의 얼굴을 만지려하자 말합니다. : 「[talkC]」</Ruri_Nuzzle.logRulesInitiator.rulesStrings.2>
+  <Ruri_Nuzzle.logRulesInitiator.rulesStrings.3>verbA->바짝 달라붙으며</Ruri_Nuzzle.logRulesInitiator.rulesStrings.3>
+  <Ruri_Nuzzle.logRulesInitiator.rulesStrings.4>verbA->다가오며</Ruri_Nuzzle.logRulesInitiator.rulesStrings.4>
+  <Ruri_Nuzzle.logRulesInitiator.rulesStrings.5>talkA->각... 각하!(부끄러워서 도망침)</Ruri_Nuzzle.logRulesInitiator.rulesStrings.5>
+  <Ruri_Nuzzle.logRulesInitiator.rulesStrings.6>talkA->각하는 지금, 무슨 생각을 하고 계신가요? 그, 그냥 궁금해서요......</Ruri_Nuzzle.logRulesInitiator.rulesStrings.6>
+  <Ruri_Nuzzle.logRulesInitiator.rulesStrings.7>verbB->만지자</Ruri_Nuzzle.logRulesInitiator.rulesStrings.7>
+  <Ruri_Nuzzle.logRulesInitiator.rulesStrings.8>verbB->쓰다듬자</Ruri_Nuzzle.logRulesInitiator.rulesStrings.8>
+  <Ruri_Nuzzle.logRulesInitiator.rulesStrings.9>talkB->(기뻐하며)과거엔 이런 대우를 받은 적이 거의 없었어요.</Ruri_Nuzzle.logRulesInitiator.rulesStrings.9>
+  <Ruri_Nuzzle.logRulesInitiator.rulesStrings.10>talkB->왜인지 모르겠지만, 이러면 루리가 좀, 좀 부끄러워서요.(얼굴을 가림)</Ruri_Nuzzle.logRulesInitiator.rulesStrings.10>
+  <Ruri_Nuzzle.logRulesInitiator.rulesStrings.11>talkB->각하, 머, 머리를 쓰다듬는게 특별한 의미가 있는건가요?</Ruri_Nuzzle.logRulesInitiator.rulesStrings.11>
+  <Ruri_Nuzzle.logRulesInitiator.rulesStrings.12>talkB->(부끄러워하며)머, 머리를 쓰다듬을때 뿔은 피해주실 수 있나요?</Ruri_Nuzzle.logRulesInitiator.rulesStrings.12>
+  <Ruri_Nuzzle.logRulesInitiator.rulesStrings.13>talkB->(놀라며)이건 무엇인가요? 아, 머리를 만지시는 건가요?</Ruri_Nuzzle.logRulesInitiator.rulesStrings.13>
+  <Ruri_Nuzzle.logRulesInitiator.rulesStrings.14>talkB->혹시, 지금은 머리를 쓰다듬는게 유행인가요?</Ruri_Nuzzle.logRulesInitiator.rulesStrings.14>
+  <Ruri_Nuzzle.logRulesInitiator.rulesStrings.15>talkB->(부끄러워하며)네, 죄송해요. 루리는 아직 머리 만지는게 익숙하지 않아서요. 익숙해지도록 노력할게요.</Ruri_Nuzzle.logRulesInitiator.rulesStrings.15>
+  <Ruri_Nuzzle.logRulesInitiator.rulesStrings.16>talkB->각하, 머리, 머리카락이 헝클어졌어요. 루리가 정리해드리고 싶어요.(얼굴을 가림)</Ruri_Nuzzle.logRulesInitiator.rulesStrings.16>
+  <Ruri_Nuzzle.logRulesInitiator.rulesStrings.17>talkB->정말, 부탁이니까 뿔은 제발 만지지 말아달라고 말씀드렸는데...(부끄러워함)</Ruri_Nuzzle.logRulesInitiator.rulesStrings.17>
+  <Ruri_Nuzzle.logRulesInitiator.rulesStrings.18>talkB->이전보다, 각하와 더 가까이 접하는 것이 익숙해졌어요......</Ruri_Nuzzle.logRulesInitiator.rulesStrings.18>
+  <Ruri_Nuzzle.logRulesInitiator.rulesStrings.19>talkB->머리를 쓰다듬고 싶으시다면 그러셔도 되지만, 이번 뿐이에요.</Ruri_Nuzzle.logRulesInitiator.rulesStrings.19>
+  <Ruri_Nuzzle.logRulesInitiator.rulesStrings.20>talkB->지금껏 경험해본적 없는 아주, 아주 편안한 기분이에요.</Ruri_Nuzzle.logRulesInitiator.rulesStrings.20>
+  <Ruri_Nuzzle.logRulesInitiator.rulesStrings.21>talkB->(기쁜듯이)네, 제 마음 속에선 이것이 상냥함이란 개념의 구현인거 같아요......</Ruri_Nuzzle.logRulesInitiator.rulesStrings.21>
+  <Ruri_Nuzzle.logRulesInitiator.rulesStrings.22>talkB->(얼굴을 붉히며)아, 저, 저 지금 얼굴이 빨개졌나요?</Ruri_Nuzzle.logRulesInitiator.rulesStrings.22>
+  <Ruri_Nuzzle.logRulesInitiator.rulesStrings.23>talkB->만약 가능하시다면, 계속, 계속 이대로 있을 수 있으면 좋을거에요......</Ruri_Nuzzle.logRulesInitiator.rulesStrings.23>
+  <Ruri_Nuzzle.logRulesInitiator.rulesStrings.24>talkB->하, 한번 더...... (부끄러워 얼굴을 가리며)이건 말 못해요.</Ruri_Nuzzle.logRulesInitiator.rulesStrings.24>
+  <Ruri_Nuzzle.logRulesInitiator.rulesStrings.25>talkB->귀가 빨갛다, 새빨갛다구요? 아니, 아니에요, 그럴 리 없어요!</Ruri_Nuzzle.logRulesInitiator.rulesStrings.25>
+  <Ruri_Nuzzle.logRulesInitiator.rulesStrings.26>talkC->시, 싫어요오!(도망침)</Ruri_Nuzzle.logRulesInitiator.rulesStrings.26>
+  <Ruri_Nuzzle.logRulesInitiator.rulesStrings.27>talkC->정말, 도망치고 싶은데, 도망치고 싶지 않은건...... 각하 탓이라고 생각해요......</Ruri_Nuzzle.logRulesInitiator.rulesStrings.27>
+  <Ruri_Nuzzle.logRulesInitiator.rulesStrings.28>talkC->(얼굴을 붉히며)그래도 부끄럽네요,. 이건, 이건 어쩔 수 없는거 같아요!</Ruri_Nuzzle.logRulesInitiator.rulesStrings.28>
+  <Ruri_Nuzzle.logRulesInitiator.rulesStrings.29>talkC->루리, 루리는 아직 이런게 익숙하지 않아요, 죄송해요......</Ruri_Nuzzle.logRulesInitiator.rulesStrings.29>
+  <Ruri_Nuzzle.logRulesInitiator.rulesStrings.30>talkC->각하는 저랑 이야기하고 싶어합니다, 이야기하고 싶습니다......</Ruri_Nuzzle.logRulesInitiator.rulesStrings.30>
+  <Ruri_Nuzzle.logRulesInitiator.rulesStrings.31>talkC->너무 가까워서 도망치고 싶어요......(도망침)</Ruri_Nuzzle.logRulesInitiator.rulesStrings.31>
+  
+  <Nonona_Nuzzle.label>친밀도</Nonona_Nuzzle.label>
+  <Nonona_Nuzzle.logRulesInitiator.rulesStrings.0>r_logentry->[RECIPIENT_nameDef](이)가 [INITIATOR_nameDef]의 머리를 [verbA] [INITIATOR_nameDef](이)가 말합니다. : 「[talkA]」</Nonona_Nuzzle.logRulesInitiator.rulesStrings.0>
+  <Nonona_Nuzzle.logRulesInitiator.rulesStrings.1>r_logentry->[RECIPIENT_nameDef](이)가 [INITIATOR_nameDef]의 얼굴을 [verbB] [INITIATOR_nameDef](이)가 말합니다. : 「[talkB]」</Nonona_Nuzzle.logRulesInitiator.rulesStrings.1>
+  <Nonona_Nuzzle.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameDef](이)가 연구하고 있는 약에 대해 궁금해하는 [RECIPIENT_nameDef]에게 말합니다. : 「[talkC]」</Nonona_Nuzzle.logRulesInitiator.rulesStrings.2>
+  <Nonona_Nuzzle.logRulesInitiator.rulesStrings.3>verbA->만지자</Nonona_Nuzzle.logRulesInitiator.rulesStrings.3>
+  <Nonona_Nuzzle.logRulesInitiator.rulesStrings.4>verbA->쓰다듬자</Nonona_Nuzzle.logRulesInitiator.rulesStrings.4>
+  <Nonona_Nuzzle.logRulesInitiator.rulesStrings.5>talkA->그런거 하면 귀가 간지러워서...... 귀가 간지러워서......（엣취!）</Nonona_Nuzzle.logRulesInitiator.rulesStrings.5>
+  <Nonona_Nuzzle.logRulesInitiator.rulesStrings.6>talkA->미리 말해두겠는데요! 생쥐쨩이라고 부르지 마요! 그렇게 불렀다간 노노나 화낼거에요!</Nonona_Nuzzle.logRulesInitiator.rulesStrings.6>
+  <Nonona_Nuzzle.logRulesInitiator.rulesStrings.7>talkA->노노나 방금 생각난거 잊어버렸어요! 어떡해요!</Nonona_Nuzzle.logRulesInitiator.rulesStrings.7>
+  <Nonona_Nuzzle.logRulesInitiator.rulesStrings.8>talkA->귀가 너무 크다구요? 각하, 이정도는 보통 크기라구요!</Nonona_Nuzzle.logRulesInitiator.rulesStrings.8>
+  <Nonona_Nuzzle.logRulesInitiator.rulesStrings.9>talkA->각하가 그러는거, 실험 방해에요.</Nonona_Nuzzle.logRulesInitiator.rulesStrings.9>
+  <Nonona_Nuzzle.logRulesInitiator.rulesStrings.10>talkA->잠깐만, 각하의 웃는 모습, 뭔가 있는거 같은데요......</Nonona_Nuzzle.logRulesInitiator.rulesStrings.10>
+  <Nonona_Nuzzle.logRulesInitiator.rulesStrings.11>talkA->앞으로, 앞으로 마녀의 힘을 더 많이 보여줄게요!</Nonona_Nuzzle.logRulesInitiator.rulesStrings.11>
+  <Nonona_Nuzzle.logRulesInitiator.rulesStrings.12>talkA->노노나는 두 발로 걷는 것보다 빗자루를 타는 것이 마녀에게 어울린다고 생각해요.</Nonona_Nuzzle.logRulesInitiator.rulesStrings.12>
+  <Nonona_Nuzzle.logRulesInitiator.rulesStrings.13>talkA->지금 각하의 웃는 얼굴, 뭔가 이상한데요. 이 표정은 각하행동도감에 기록해둬야해요!</Nonona_Nuzzle.logRulesInitiator.rulesStrings.13>
+  <Nonona_Nuzzle.logRulesInitiator.rulesStrings.14>verbB->쿡쿡 찌르자</Nonona_Nuzzle.logRulesInitiator.rulesStrings.14>
+  <Nonona_Nuzzle.logRulesInitiator.rulesStrings.15>verbB->만지자</Nonona_Nuzzle.logRulesInitiator.rulesStrings.15>
+  <Nonona_Nuzzle.logRulesInitiator.rulesStrings.16>talkB->피부? 노노나 별로 신경 써본적 없어요......</Nonona_Nuzzle.logRulesInitiator.rulesStrings.16>
+  <Nonona_Nuzzle.logRulesInitiator.rulesStrings.17>talkB->각하! 위대한 마녀에게 뭐하는 건가요!</Nonona_Nuzzle.logRulesInitiator.rulesStrings.17>
+  <Nonona_Nuzzle.logRulesInitiator.rulesStrings.18>talkB->잠까안! 노노나에게 집중해주세요!</Nonona_Nuzzle.logRulesInitiator.rulesStrings.18>
+  <Nonona_Nuzzle.logRulesInitiator.rulesStrings.19>talkB->각하, 노노나의 도움이 필요한 일 있나요!</Nonona_Nuzzle.logRulesInitiator.rulesStrings.19>
+  <Nonona_Nuzzle.logRulesInitiator.rulesStrings.20>talkB->잠깐만, 각하의 웃는 모습, 뭔가 있는거 같은데요......</Nonona_Nuzzle.logRulesInitiator.rulesStrings.20>
+  <Nonona_Nuzzle.logRulesInitiator.rulesStrings.21>talkB->각하는 노노나를 엄청 신경쓰셔. 어째서일까.</Nonona_Nuzzle.logRulesInitiator.rulesStrings.21>
+  <Nonona_Nuzzle.logRulesInitiator.rulesStrings.22>talkB->뭔가 자세히는 모르겠지만, 지금 각하가 이상한 상태라고 생각합니다!</Nonona_Nuzzle.logRulesInitiator.rulesStrings.22>
+  <Nonona_Nuzzle.logRulesInitiator.rulesStrings.23>talkB->지금 각하의 웃는 얼굴, 뭔가 이상한데요. 이 표정은 각하행동도감에 기록해둬야해요!</Nonona_Nuzzle.logRulesInitiator.rulesStrings.23>
+  <Nonona_Nuzzle.logRulesInitiator.rulesStrings.24>talkC->불안정한 성질의 마법약도 있으니까, 조심하세요.</Nonona_Nuzzle.logRulesInitiator.rulesStrings.24>
+  <Nonona_Nuzzle.logRulesInitiator.rulesStrings.25>talkC->거긴 안된다고 했잖아요! ...... 에? 왜 그렇게 화를 내냐구요? 위험한 마법약이 섞여있거나 해서에요!</Nonona_Nuzzle.logRulesInitiator.rulesStrings.25>
+  <Nonona_Nuzzle.logRulesInitiator.rulesStrings.26>talkC->후우, 방금 조제한 마법약에 아무 문제 없어요!</Nonona_Nuzzle.logRulesInitiator.rulesStrings.26>
+  <Nonona_Nuzzle.logRulesInitiator.rulesStrings.27>talkC->각하, 새로운 마법약 레시피가 생각났거든요, 잠깐 실험해보고 올게요!</Nonona_Nuzzle.logRulesInitiator.rulesStrings.27>
+  
+  <Yurika_Nuzzle.label>친밀도</Yurika_Nuzzle.label>
+  <Yurika_Nuzzle.logRulesInitiator.rulesStrings.0>r_logentry->[RECIPIENT_nameDef](이)가 [INITIATOR_nameDef]의 머리를 [verbA] [INITIATOR_nameDef](이)가 말합니다. : 「[talkA]」</Yurika_Nuzzle.logRulesInitiator.rulesStrings.0>
+  <Yurika_Nuzzle.logRulesInitiator.rulesStrings.1>r_logentry->[RECIPIENT_nameDef](이)가 [INITIATOR_nameDef]의 얼굴을 [verbB] [INITIATOR_nameDef](이)가 말합니다. : 「[talkB]」</Yurika_Nuzzle.logRulesInitiator.rulesStrings.1>
+  <Yurika_Nuzzle.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]의 [verbC] 말합니다. : 「[talkC]」</Yurika_Nuzzle.logRulesInitiator.rulesStrings.2>
+  <Yurika_Nuzzle.logRulesInitiator.rulesStrings.3>verbA->만지자</Yurika_Nuzzle.logRulesInitiator.rulesStrings.3>
+  <Yurika_Nuzzle.logRulesInitiator.rulesStrings.4>talkA->이런 정도로 마왕님의 비위를 맞출 수 있다고 생각한거야? 어리석은 녀석.</Yurika_Nuzzle.logRulesInitiator.rulesStrings.4>
+  <Yurika_Nuzzle.logRulesInitiator.rulesStrings.5>talkA->기대하고 있나 보네...... 뭐, 좋을대로 하라구.</Yurika_Nuzzle.logRulesInitiator.rulesStrings.5>
+  <Yurika_Nuzzle.logRulesInitiator.rulesStrings.6>talkA->오호, 혹시 각하는 이 만능에 위대한 마왕님께 부탁하고 싶은게 있는걸까나?</Yurika_Nuzzle.logRulesInitiator.rulesStrings.6>
+  <Yurika_Nuzzle.logRulesInitiator.rulesStrings.7>talkA->신입 용사니까 열심히 단련해서 경험치를 많이 벌라구.</Yurika_Nuzzle.logRulesInitiator.rulesStrings.7>
+  <Yurika_Nuzzle.logRulesInitiator.rulesStrings.8>talkA->각하, 마왕을 쓰다듬는다고해서 경험치는 늘어나지 않는다구.</Yurika_Nuzzle.logRulesInitiator.rulesStrings.8>
+  <Yurika_Nuzzle.logRulesInitiator.rulesStrings.9>verbB->쓰다듬자</Yurika_Nuzzle.logRulesInitiator.rulesStrings.9>
+  <Yurika_Nuzzle.logRulesInitiator.rulesStrings.10>talkB->그만해애! 얼굴 꼬집지 마아!</Yurika_Nuzzle.logRulesInitiator.rulesStrings.10>
+  <Yurika_Nuzzle.logRulesInitiator.rulesStrings.11>talkB->그, 금단의 주문을 써버릴테다!</Yurika_Nuzzle.logRulesInitiator.rulesStrings.11>
+  <Yurika_Nuzzle.logRulesInitiator.rulesStrings.12>talkB->에? 입가에 쿠키 부스러기가 묻었다고? (입꼬리를 닦으며) 떠,떨어졌어?</Yurika_Nuzzle.logRulesInitiator.rulesStrings.12>
+  <Yurika_Nuzzle.logRulesInitiator.rulesStrings.13>talkB->설마...... 나의 마력이 너무 강대해서 자신의 얼굴마저 왜곡시켜버린 것인가?!(의기양양한 얼굴)</Yurika_Nuzzle.logRulesInitiator.rulesStrings.13>
+  <Yurika_Nuzzle.logRulesInitiator.rulesStrings.14>talkB->뭐, 뭐하려는거야?</Yurika_Nuzzle.logRulesInitiator.rulesStrings.14>
+  <Yurika_Nuzzle.logRulesInitiator.rulesStrings.15>talkB->이건, 위대한 마왕님의 권위에 대한 도전인가?</Yurika_Nuzzle.logRulesInitiator.rulesStrings.15>
+  <Yurika_Nuzzle.logRulesInitiator.rulesStrings.16>talkB->이번에는 봐주도록 하지.</Yurika_Nuzzle.logRulesInitiator.rulesStrings.16>
+  <Yurika_Nuzzle.logRulesInitiator.rulesStrings.17>talkB->싫은 예감이 들어.</Yurika_Nuzzle.logRulesInitiator.rulesStrings.17>
+  <Yurika_Nuzzle.logRulesInitiator.rulesStrings.18>verbC->곁으로 달려오며</Yurika_Nuzzle.logRulesInitiator.rulesStrings.18>
+  <Yurika_Nuzzle.logRulesInitiator.rulesStrings.19>verbC->곁에 바짝 달라붙으며</Yurika_Nuzzle.logRulesInitiator.rulesStrings.19>
+  <Yurika_Nuzzle.logRulesInitiator.rulesStrings.20>talkC->어둠의 종이여, 모습을 드러내라...... 어, 다음이 뭐였더라?</Yurika_Nuzzle.logRulesInitiator.rulesStrings.20>
+  <Yurika_Nuzzle.logRulesInitiator.rulesStrings.21>talkC->어리석은 자에게는, 진정한 힘을 맛보여줄까?</Yurika_Nuzzle.logRulesInitiator.rulesStrings.21>
+  
+  <!-- 일부 대사는 중국어 원본과 일본어 음성을 합침 -->
+  <Ariana_Nuzzle.label>친밀도</Ariana_Nuzzle.label>
+  <Ariana_Nuzzle.logRulesInitiator.rulesStrings.0>r_logentry->[RECIPIENT_nameDef](이)가 [INITIATOR_nameDef]의 머리를 [verbA] [INITIATOR_nameDef](이)가 말합니다. : 「[talkA]」</Ariana_Nuzzle.logRulesInitiator.rulesStrings.0>
+  <Ariana_Nuzzle.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]와 잠시 이야기합니다. : 「[talkB]」</Ariana_Nuzzle.logRulesInitiator.rulesStrings.1>
+  <Ariana_Nuzzle.logRulesInitiator.rulesStrings.2>r_logentry->[RECIPIENT_nameDef](이)가 [INITIATOR_nameDef]의 꼬리를 만지자 [INITIATOR_nameDef](이)가 말합니다. : 「[talkC]」</Ariana_Nuzzle.logRulesInitiator.rulesStrings.2>
+  <Ariana_Nuzzle.logRulesInitiator.rulesStrings.3>verbA->만지자</Ariana_Nuzzle.logRulesInitiator.rulesStrings.3>
+  <Ariana_Nuzzle.logRulesInitiator.rulesStrings.4>talkA->저는 강아지가 아닙니다. 강아지를 쓰다듬듯 저를 쓰다듬을 필요가 없습니다.</Ariana_Nuzzle.logRulesInitiator.rulesStrings.4>
+  <Ariana_Nuzzle.logRulesInitiator.rulesStrings.5>talkA->좀 더 상호작용적인 의사소통을 원하신다면, 민트를 추천합니다.</Ariana_Nuzzle.logRulesInitiator.rulesStrings.5>
+  <Ariana_Nuzzle.logRulesInitiator.rulesStrings.6>talkA->이 구획에 대한 불필요한 접촉은 금지되어 있습니다.</Ariana_Nuzzle.logRulesInitiator.rulesStrings.6>
+  <Ariana_Nuzzle.logRulesInitiator.rulesStrings.7>talkA->저의 외견이나 만졌을때의 감촉은 표준적인 인간의 것과 가깝습니다.......</Ariana_Nuzzle.logRulesInitiator.rulesStrings.7>
+  <Ariana_Nuzzle.logRulesInitiator.rulesStrings.8>talkA->예, 각하. 화나지는 않았습니다.</Ariana_Nuzzle.logRulesInitiator.rulesStrings.8>
+  <Ariana_Nuzzle.logRulesInitiator.rulesStrings.9>talkA->각하, 근무시간 중입니다. 업무에 필요없는 괴롭힘은 삼가해 주십시오.</Ariana_Nuzzle.logRulesInitiator.rulesStrings.9>
+  <Ariana_Nuzzle.logRulesInitiator.rulesStrings.10>talkA->실례지만 각하, 간지럼 태우는 행위를 하실 생각이십니까? 그건 무의미한 행동입니다.</Ariana_Nuzzle.logRulesInitiator.rulesStrings.10>
+  <Ariana_Nuzzle.logRulesInitiator.rulesStrings.11>talkA->각하, 다른 일에 더 주목해 주십시오.</Ariana_Nuzzle.logRulesInitiator.rulesStrings.11>
+  <Ariana_Nuzzle.logRulesInitiator.rulesStrings.12>talkB->귀엽다, 입니까? 저의 서포트 및 전투 능력에 대한 평가는 아니지만, 말씀 감사히 받아들이겠습니다.</Ariana_Nuzzle.logRulesInitiator.rulesStrings.12>
+  <Ariana_Nuzzle.logRulesInitiator.rulesStrings.13>talkB->저는 가정용 및 전투용으로 개발되었습니다. 감정적인 반응은 오락용에 비해 뒤떨어집니다. 죄송합니다.</Ariana_Nuzzle.logRulesInitiator.rulesStrings.13>
+  <Ariana_Nuzzle.logRulesInitiator.rulesStrings.14>talkB->착한 아이입니까? 그런 평가를 받은 것은 처음입니다.</Ariana_Nuzzle.logRulesInitiator.rulesStrings.14>
+  <Ariana_Nuzzle.logRulesInitiator.rulesStrings.15>talkB->저의 임무는 일상 생활을 지원하고, 각하의 안전을 지키는 것입니다.</Ariana_Nuzzle.logRulesInitiator.rulesStrings.15>
+  <Ariana_Nuzzle.logRulesInitiator.rulesStrings.16>talkC->각하는 어째서 제 꼬리에 호기심을 가지게 되셨습니까? 저로서는 각하의 관심의 화살을 이해할 수 없습니다.</Ariana_Nuzzle.logRulesInitiator.rulesStrings.16>
+  <Ariana_Nuzzle.logRulesInitiator.rulesStrings.17>talkC->각하, 제 꼬리는 주변 환경의 상황 판단에 사용되고 있습니다. 장식이 아니니 함부로 만지지 않도록 주의해 주십시오. 주변 환경 판단에 지장이 발생할 우려가 있습니다.</Ariana_Nuzzle.logRulesInitiator.rulesStrings.17>
+  <Ariana_Nuzzle.logRulesInitiator.rulesStrings.18>talkC->꼬리는 중요한 센서로 이루어져있으므로 건드리지 마세요.</Ariana_Nuzzle.logRulesInitiator.rulesStrings.18>
+  
+	<!--
+		INITIATOR_nameDef : 동물
+		RECIPIENT_nameDef : 림(=폰)
+	-->
+  <Zero_Nuzzle.label>친밀도</Zero_Nuzzle.label>
+  <Zero_Nuzzle.logRulesInitiator.rulesStrings.0>r_logentry->[RECIPIENT_nameDef](이)가 [INITIATOR_nameDef](을)를 [verbA] [INITIATOR_nameDef](이)가  말합니다. : 「[talkA]」</Zero_Nuzzle.logRulesInitiator.rulesStrings.0>
+  <Zero_Nuzzle.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]와 잠시 이야기를 나눕니다. : 「[talkB]」</Zero_Nuzzle.logRulesInitiator.rulesStrings.1>
+  <Zero_Nuzzle.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef] 곁에서 무언가 도움이 될 일이 있는지 기대하며 조용히 서있습니다. : 「......」</Zero_Nuzzle.logRulesInitiator.rulesStrings.2>
+  <Zero_Nuzzle.logRulesInitiator.rulesStrings.3>r_logentry->[RECIPIENT_nameDef](이)가 [INITIATOR_nameDef]의 매끈매끈한 꼬리를 만지자 [INITIATOR_nameDef](이)가 말합니다. : 「[talkD]」</Zero_Nuzzle.logRulesInitiator.rulesStrings.3>
+  <Zero_Nuzzle.logRulesInitiator.rulesStrings.4>verbA->쓰다듬자</Zero_Nuzzle.logRulesInitiator.rulesStrings.4>
+  <Zero_Nuzzle.logRulesInitiator.rulesStrings.5>talkA->오늘의 제로는 착한 아이인가요?</Zero_Nuzzle.logRulesInitiator.rulesStrings.5>
+  <Zero_Nuzzle.logRulesInitiator.rulesStrings.6>talkA->각하는 상냥하세요</Zero_Nuzzle.logRulesInitiator.rulesStrings.6>
+  <Zero_Nuzzle.logRulesInitiator.rulesStrings.7>talkA->알고 있습니다. 이건 좋아해, 라는 기분, 이지요. 전하고싶어, 인가요?</Zero_Nuzzle.logRulesInitiator.rulesStrings.7>
+  <Zero_Nuzzle.logRulesInitiator.rulesStrings.8>talkA->제로를 필요로 하시는거, 맞죠?</Zero_Nuzzle.logRulesInitiator.rulesStrings.8>
+  <Zero_Nuzzle.logRulesInitiator.rulesStrings.9>talkA->응? 각하, 무슨일이신가요?</Zero_Nuzzle.logRulesInitiator.rulesStrings.9>
+  <Zero_Nuzzle.logRulesInitiator.rulesStrings.10>talkA->무언가, 마음에 안 드시는 부분이 있으신가요?</Zero_Nuzzle.logRulesInitiator.rulesStrings.10>
+  <Zero_Nuzzle.logRulesInitiator.rulesStrings.11>talkA->각하가 좋아하신다면, 괜찮습니다.(부끄러워함)</Zero_Nuzzle.logRulesInitiator.rulesStrings.11>
+  <Zero_Nuzzle.logRulesInitiator.rulesStrings.12>talkA->제로는 각하를 싫어하게 된다거나 하지 않을거에요.</Zero_Nuzzle.logRulesInitiator.rulesStrings.12>
+  <Zero_Nuzzle.logRulesInitiator.rulesStrings.13>talkA->제로의 유사 호흡, 흐트러져 있습니다.</Zero_Nuzzle.logRulesInitiator.rulesStrings.13>
+  <Zero_Nuzzle.logRulesInitiator.rulesStrings.14>talkA->제로는 화나지 않았습니다, 화나지 않았으니까요. 각하께서 필요로 하신다는 것만으로도 기뻐요.</Zero_Nuzzle.logRulesInitiator.rulesStrings.14>
+  <Zero_Nuzzle.logRulesInitiator.rulesStrings.15>talkA->제로는, 각하의 부탁을 거절한다거나 하지 않을거에요.</Zero_Nuzzle.logRulesInitiator.rulesStrings.15>
+  <Zero_Nuzzle.logRulesInitiator.rulesStrings.16>talkA->각하가 손을 잡아주셔서 매우 따뜻해요.</Zero_Nuzzle.logRulesInitiator.rulesStrings.16>
+  <Zero_Nuzzle.logRulesInitiator.rulesStrings.17>talkA->제로는 각하를 싫어하게 된다거나 하지 않을거에요.</Zero_Nuzzle.logRulesInitiator.rulesStrings.17>
+  <Zero_Nuzzle.logRulesInitiator.rulesStrings.18>talkA->제로의 유사 호흡, 흐트러져 있습니다.</Zero_Nuzzle.logRulesInitiator.rulesStrings.18>
+  <Zero_Nuzzle.logRulesInitiator.rulesStrings.19>talkA->제로는 화나지 않았습니다, 화나지 않았으니까요. 각하께서 필요로 하신다는 것만으로도 기뻐요.</Zero_Nuzzle.logRulesInitiator.rulesStrings.19>
+  <Zero_Nuzzle.logRulesInitiator.rulesStrings.20>talkA->제로는, 각하의 부탁을 거절한다거나 하지 않을거에요.</Zero_Nuzzle.logRulesInitiator.rulesStrings.20>
+  <Zero_Nuzzle.logRulesInitiator.rulesStrings.21>talkA->각하가 손을 잡아주셔서 매우 따뜻해요.</Zero_Nuzzle.logRulesInitiator.rulesStrings.21>
+  <Zero_Nuzzle.logRulesInitiator.rulesStrings.22>talkB->제로는 일반용 모델이기에, 다른 능력은 가지고 있지 않아요.</Zero_Nuzzle.logRulesInitiator.rulesStrings.22>
+  <Zero_Nuzzle.logRulesInitiator.rulesStrings.23>talkB->각하는 제로를 좋아하시나요?</Zero_Nuzzle.logRulesInitiator.rulesStrings.23>
+  <Zero_Nuzzle.logRulesInitiator.rulesStrings.24>talkB->각하, 제로는 착한 아이가 될게요.</Zero_Nuzzle.logRulesInitiator.rulesStrings.24>
+  <Zero_Nuzzle.logRulesInitiator.rulesStrings.25>talkB->각하는 제로를 좋아하시나요? 좋아, 좋아하시죠?</Zero_Nuzzle.logRulesInitiator.rulesStrings.25>
+  <Zero_Nuzzle.logRulesInitiator.rulesStrings.26>talkB->만약...... 제로가 실수를 하더라도, 제로를 버리지 않겠다고 말해주세요.</Zero_Nuzzle.logRulesInitiator.rulesStrings.26>
+  <Zero_Nuzzle.logRulesInitiator.rulesStrings.27>talkB->제로, 착한 아이로 하겠습니다. 그러니까, 떠나지 말아주세요.</Zero_Nuzzle.logRulesInitiator.rulesStrings.27>
+  <Zero_Nuzzle.logRulesInitiator.rulesStrings.28>talkD->(떨리는 목소리로)꼬리, 부러져버려요오......</Zero_Nuzzle.logRulesInitiator.rulesStrings.28>
+  <Zero_Nuzzle.logRulesInitiator.rulesStrings.29>talkD->(부끄러워하며)꼬리도 간질간질해요.</Zero_Nuzzle.logRulesInitiator.rulesStrings.29>
+  
+  
+  <Miruko_Nuzzle.label>친밀도</Miruko_Nuzzle.label>
+  <Miruko_Nuzzle.logRulesInitiator.rulesStrings.0>r_logentry->[RECIPIENT_nameDef](이)가 [INITIATOR_nameDef]의 머리를 [verbA] [INITIATOR_nameDef](이)가 말합니다. : 「[talkA]」</Miruko_Nuzzle.logRulesInitiator.rulesStrings.0>
+  <Miruko_Nuzzle.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 다가가 눈을 맞추며 말합니다. : 「[talkB]」</Miruko_Nuzzle.logRulesInitiator.rulesStrings.1>
+  <Miruko_Nuzzle.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameDef](이)가 먼저 [RECIPIENT_nameDef]에게 다가가서 장난을 치며 말합니다. : 「[talkC]」</Miruko_Nuzzle.logRulesInitiator.rulesStrings.2>
+  <Miruko_Nuzzle.logRulesInitiator.rulesStrings.3>verbA->만지자</Miruko_Nuzzle.logRulesInitiator.rulesStrings.3>
+  <Miruko_Nuzzle.logRulesInitiator.rulesStrings.4>talkA->각하는 여자아이의 머리를 자주 만지나요? 어떻게 그리 능숙한가요!</Miruko_Nuzzle.logRulesInitiator.rulesStrings.4>
+  <Miruko_Nuzzle.logRulesInitiator.rulesStrings.5>talkA->에? 이건 저에게의 보상인가요? 기뻐요~</Miruko_Nuzzle.logRulesInitiator.rulesStrings.5>
+  <Miruko_Nuzzle.logRulesInitiator.rulesStrings.6>talkA->오늘의 만지기가 도착했습니다!</Miruko_Nuzzle.logRulesInitiator.rulesStrings.6>
+  <Miruko_Nuzzle.logRulesInitiator.rulesStrings.7>talkA->머리를 만지고 싶다구요? 어쩔 수 없네요~</Miruko_Nuzzle.logRulesInitiator.rulesStrings.7>
+  <Miruko_Nuzzle.logRulesInitiator.rulesStrings.8>talkB->응? 무슨일인가요, 각하? 제 도움이 필요하신가요?</Miruko_Nuzzle.logRulesInitiator.rulesStrings.8>
+  <Miruko_Nuzzle.logRulesInitiator.rulesStrings.9>talkB->뭐, 뭐하는 건가요, 미소녀의 얼굴을 만지고 싶다니! 얼굴이 가까워요!</Miruko_Nuzzle.logRulesInitiator.rulesStrings.9>
+  <Miruko_Nuzzle.logRulesInitiator.rulesStrings.10>talkB->각하, 악수를 원하시나요? (손을 뻗으며) 네! ... 아아, 나도 모르게 본능에 따라서 그만...</Miruko_Nuzzle.logRulesInitiator.rulesStrings.10>
+  <Miruko_Nuzzle.logRulesInitiator.rulesStrings.11>talkB->왜그러세요? 전 여기 있을테니까, 무슨 일 있으면 말해요~</Miruko_Nuzzle.logRulesInitiator.rulesStrings.11>
+  <Miruko_Nuzzle.logRulesInitiator.rulesStrings.12>talkB->각하, 딱하게 되었지만... 그래도, 일은 확실히 하시지 않으면 안되니까요!</Miruko_Nuzzle.logRulesInitiator.rulesStrings.12>
+  <Miruko_Nuzzle.logRulesInitiator.rulesStrings.13>talkB->각하의 일정 알림이 울리고 있어요! 울리고 있어요! (큰 소리로) 울리고 있다구요! 저 큰 소리로 말하고 있는데 못들으신다면 초조해진다구요.</Miruko_Nuzzle.logRulesInitiator.rulesStrings.13>
+  <Miruko_Nuzzle.logRulesInitiator.rulesStrings.14>talkB->저기저기저기? 저기저기저기저기저기저기저기저기?</Miruko_Nuzzle.logRulesInitiator.rulesStrings.14>
+  <Miruko_Nuzzle.logRulesInitiator.rulesStrings.15>talkC->저, 100% 회피할 수 있는 기술을 배웠습니다!</Miruko_Nuzzle.logRulesInitiator.rulesStrings.15>
+  <Miruko_Nuzzle.logRulesInitiator.rulesStrings.16>talkC->저기, 잠간, 간지러우니까 만지지 말아요!</Miruko_Nuzzle.logRulesInitiator.rulesStrings.16>
+  <Miruko_Nuzzle.logRulesInitiator.rulesStrings.17>talkC->흐음...... 부끄러워하는 저를 보고 싶을 뿐이라구요? 각하는 정말 심술궃어요!</Miruko_Nuzzle.logRulesInitiator.rulesStrings.17>
+  <Miruko_Nuzzle.logRulesInitiator.rulesStrings.18>talkC->각하는 제가 간지럼 잘탄다는걸 알면서도, 절 괴롭히는걸 좋아하시네요......!</Miruko_Nuzzle.logRulesInitiator.rulesStrings.18>
+  <Miruko_Nuzzle.logRulesInitiator.rulesStrings.19>talkC->가위바위보! 각하, 손을 내밀지 않는건 규칙 위반이에요!</Miruko_Nuzzle.logRulesInitiator.rulesStrings.19>
+  <Miruko_Nuzzle.logRulesInitiator.rulesStrings.20>talkC->굉장히 게임하고 싶네요... 아, 그래도 각하와 같이 있어서 기뻤어요. 둘 다 같이 할 수 있으면 얼마나 좋을까요~</Miruko_Nuzzle.logRulesInitiator.rulesStrings.20>
+  <Miruko_Nuzzle.logRulesInitiator.rulesStrings.21>talkC->만약 제가 그 초콜릿을 먹는다면, 아주 큰 일이 일어날거에요! 정말로! 진짜로! 심각하게!</Miruko_Nuzzle.logRulesInitiator.rulesStrings.21>
+  
+  <Miruku_Nuzzle.label>친밀도</Miruku_Nuzzle.label>
+  <Miruku_Nuzzle.logRulesInitiator.rulesStrings.0>r_logentry->[RECIPIENT_nameDef](이)가 [INITIATOR_nameDef]의 머리를 [verbA] [INITIATOR_nameDef](이)가 말합니다. : 「[talkA]」</Miruku_Nuzzle.logRulesInitiator.rulesStrings.0>
+  <Miruku_Nuzzle.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef](와)과 같이 놀며 말합니다. : 「[talkB]」</Miruku_Nuzzle.logRulesInitiator.rulesStrings.1>
+  <Miruku_Nuzzle.logRulesInitiator.rulesStrings.2>verbA->만지자</Miruku_Nuzzle.logRulesInitiator.rulesStrings.2>
+  <Miruku_Nuzzle.logRulesInitiator.rulesStrings.3>talkA->미루쿠의 귀는 민감해요. 각하도 그런가요?</Miruku_Nuzzle.logRulesInitiator.rulesStrings.3>
+  <Miruku_Nuzzle.logRulesInitiator.rulesStrings.4>talkA->여자아이의 머리모양에는 여러 종류가 있어요. 하지만 미루쿠는 지금의 머리모양이 제일 좋아요.</Miruku_Nuzzle.logRulesInitiator.rulesStrings.4>
+  <Miruku_Nuzzle.logRulesInitiator.rulesStrings.5>talkA->미루쿠의 이 머리핀은 주문제작이라서, 엄청난 기능이 달려있지요.... 라는건 농담이에요.</Miruku_Nuzzle.logRulesInitiator.rulesStrings.5>
+  <Miruku_Nuzzle.logRulesInitiator.rulesStrings.6>talkA->앞머리는 안됩니다... 만지지 말아주세요. 이 이상 만지면 흐트러져요, 앞머리만큼은 안되요...</Miruku_Nuzzle.logRulesInitiator.rulesStrings.6>
+  <Miruku_Nuzzle.logRulesInitiator.rulesStrings.7>talkA->그렇게 찾지 않아도 괜찮아요, 미루쿠에겐 바보털이 붙어있지 않아요...... 에, 바보털이 없으면 귀엽지 않다구요?</Miruku_Nuzzle.logRulesInitiator.rulesStrings.7>
+  <Miruku_Nuzzle.logRulesInitiator.rulesStrings.8>talkA->머리를 쓰다듬는건...... 각하로부터의 보상인가요? 고맙습니다.</Miruku_Nuzzle.logRulesInitiator.rulesStrings.8>
+  <Miruku_Nuzzle.logRulesInitiator.rulesStrings.9>talkA->각하, 그 웃는 얼굴은 무엇인가요? 당신의 조수인 미루쿠에게 그런 얼굴 하지 말아주세요.</Miruku_Nuzzle.logRulesInitiator.rulesStrings.9>
+  <Miruku_Nuzzle.logRulesInitiator.rulesStrings.10>talkA->무슨 일이신가요, 각하?</Miruku_Nuzzle.logRulesInitiator.rulesStrings.10>
+  <Miruku_Nuzzle.logRulesInitiator.rulesStrings.11>talkB->각하의 얼굴은 어떤 촉감인가요? 미루쿠도 만져봐도 되나요?</Miruku_Nuzzle.logRulesInitiator.rulesStrings.11>
+  <Miruku_Nuzzle.logRulesInitiator.rulesStrings.12>talkB->눈 말인가요...... 그렇다면, 미루쿠는 각하의 눈이 더 예쁘다고 생각합니다. 보석처럼 반짝반짝하니까요.</Miruku_Nuzzle.logRulesInitiator.rulesStrings.12>
+  <Miruku_Nuzzle.logRulesInitiator.rulesStrings.13>talkB->미루쿠의 얼굴에 뭔가 묻었나요? (부끄러워하며) 앗... 이건 실례했습니다...</Miruku_Nuzzle.logRulesInitiator.rulesStrings.13>
+  <Miruku_Nuzzle.logRulesInitiator.rulesStrings.14>talkB->악수는, 상대에게 힘을 주거나 받을 수 있다고, 전에 들은 적이 있어요.</Miruku_Nuzzle.logRulesInitiator.rulesStrings.14>
+  <Miruku_Nuzzle.logRulesInitiator.rulesStrings.15>talkB->미루쿠는 각하와 함께 했던 약속을 잊지 않을거에요.</Miruku_Nuzzle.logRulesInitiator.rulesStrings.15>
+  <Miruku_Nuzzle.logRulesInitiator.rulesStrings.16>talkB->손...... 잘 씼으셨죠? 만약 씻지 않았다면... 악수, 못하겠다는건 아니지만요.</Miruku_Nuzzle.logRulesInitiator.rulesStrings.16>
+  <Miruku_Nuzzle.logRulesInitiator.rulesStrings.17>talkB->이건, 뭔가 장난을 치려고 생각하는 얼굴이네요. 미루쿠를 얕보지 마세요. 조수로서 관찰력은 뛰어나니까요.</Miruku_Nuzzle.logRulesInitiator.rulesStrings.17>
+  <Miruku_Nuzzle.logRulesInitiator.rulesStrings.18>talkB->조금 부끄러워요. 이런거 받아본 적이 없기 때문에, 긴장했어요.</Miruku_Nuzzle.logRulesInitiator.rulesStrings.18>
+  <Miruku_Nuzzle.logRulesInitiator.rulesStrings.19>talkB->미루쿠의 신체는 각하와는 달라요. 특히 꼬리와 귀, 각하는 이 꼬리와 귀에 흥미가 있으신가요?</Miruku_Nuzzle.logRulesInitiator.rulesStrings.19>
+  <Miruku_Nuzzle.logRulesInitiator.rulesStrings.20>talkB->미루쿠는 딱히 결벽증은 아니에요. 그저 조수로서 언제나 몸가짐을 단정하게 유지할 뿐이에요.</Miruku_Nuzzle.logRulesInitiator.rulesStrings.20>
+  
+  
+  <Maya_Nuzzle.label>친밀도</Maya_Nuzzle.label>
+  <Maya_Nuzzle.logRulesInitiator.rulesStrings.0>r_logentry->[RECIPIENT_nameDef](이)가 [INITIATOR_nameDef]의 머리를 [verbA] [INITIATOR_nameDef](이)가 말합니다. : 「[talkA]」</Maya_Nuzzle.logRulesInitiator.rulesStrings.0>
+  <Maya_Nuzzle.logRulesInitiator.rulesStrings.1>r_logentry->[RECIPIENT_nameDef](이)가 [INITIATOR_nameDef]에게 다가오며 말합니다. : 「[talkB]」</Maya_Nuzzle.logRulesInitiator.rulesStrings.1>
+  <Maya_Nuzzle.logRulesInitiator.rulesStrings.2>verbA->만지자</Maya_Nuzzle.logRulesInitiator.rulesStrings.2>
+  <Maya_Nuzzle.logRulesInitiator.rulesStrings.3>talkA->으아, 귀만 만지지말거라! 간지럽단 말이다......</Maya_Nuzzle.logRulesInitiator.rulesStrings.3>
+  <Maya_Nuzzle.logRulesInitiator.rulesStrings.4>talkA->보통이라면, 나는 신사에 모셔져서 참배받는 존재다만.</Maya_Nuzzle.logRulesInitiator.rulesStrings.4>
+  <Maya_Nuzzle.logRulesInitiator.rulesStrings.5>talkA->으으, 각하에게 이런걸 당하면, 내가 열 살... 아니, 다섯 살짜리 아이인거 같구나!</Maya_Nuzzle.logRulesInitiator.rulesStrings.5>
+  <Maya_Nuzzle.logRulesInitiator.rulesStrings.6>talkA->타카마가하라의 신의 머리를 쓰다듬다니, 그대는 대담하구나.</Maya_Nuzzle.logRulesInitiator.rulesStrings.6>
+  <Maya_Nuzzle.logRulesInitiator.rulesStrings.7>talkA->무슨일 있는가?</Maya_Nuzzle.logRulesInitiator.rulesStrings.7>
+  <Maya_Nuzzle.logRulesInitiator.rulesStrings.8>talkA->나는 그런 것은 신경쓰지 않는다네!</Maya_Nuzzle.logRulesInitiator.rulesStrings.8>
+  <Maya_Nuzzle.logRulesInitiator.rulesStrings.9>talkA->나를 위해 기도하고 있는겐가?</Maya_Nuzzle.logRulesInitiator.rulesStrings.9>
+  <Maya_Nuzzle.logRulesInitiator.rulesStrings.10>talkA->키가 작다, 고? 그런 말 하지 말게나!</Maya_Nuzzle.logRulesInitiator.rulesStrings.10>
+  <Maya_Nuzzle.logRulesInitiator.rulesStrings.11>talkA->꼬마라고 말한다면, 그대에게 신의 힘을 보여줄 것이야!</Maya_Nuzzle.logRulesInitiator.rulesStrings.11>
+  <Maya_Nuzzle.logRulesInitiator.rulesStrings.12>talkB->마야는 기도하는 이가 있다면 반드시 응하느니라!</Maya_Nuzzle.logRulesInitiator.rulesStrings.12>
+  <Maya_Nuzzle.logRulesInitiator.rulesStrings.13>talkB->하하하! 신은 아무리 고기를 먹어도 살이 안찐다네!</Maya_Nuzzle.logRulesInitiator.rulesStrings.13>
+  <Maya_Nuzzle.logRulesInitiator.rulesStrings.14>talkB->그대는 정말 이상한 녀석이구나. 흠흠, 그대를... 각하라고 불러도 될런지......</Maya_Nuzzle.logRulesInitiator.rulesStrings.14>
+  <Maya_Nuzzle.logRulesInitiator.rulesStrings.15>talkB->각하는 무슨 생각을 하고 있는겐가?</Maya_Nuzzle.logRulesInitiator.rulesStrings.15>
+  
+  <Giwa_Nuzzle.label>친밀도</Giwa_Nuzzle.label>
+  <Giwa_Nuzzle.logRulesInitiator.rulesStrings.0>r_logentry->[RECIPIENT_nameDef](이)가 [INITIATOR_nameDef]의 머리를 [verbA] [INITIATOR_nameDef](이)가 말합니다. : 「[talkA]」</Giwa_Nuzzle.logRulesInitiator.rulesStrings.0>
+  <Giwa_Nuzzle.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameDef](와)과 [RECIPIENT_nameDef](이)가 잠시 이야기를 나눕니다. : 「[talkB]」</Giwa_Nuzzle.logRulesInitiator.rulesStrings.1>
+  <Giwa_Nuzzle.logRulesInitiator.rulesStrings.2>verbA->만지자</Giwa_Nuzzle.logRulesInitiator.rulesStrings.2>
+  <Giwa_Nuzzle.logRulesInitiator.rulesStrings.3>talkA->그만해! 또 머리를 감아야하잖아!</Giwa_Nuzzle.logRulesInitiator.rulesStrings.3>
+  <Giwa_Nuzzle.logRulesInitiator.rulesStrings.4>talkA->아 정말, 머리 모양 잡는거 꽤 힘들단 말이야!</Giwa_Nuzzle.logRulesInitiator.rulesStrings.4>
+  <Giwa_Nuzzle.logRulesInitiator.rulesStrings.5>talkA->그래그래, 너가 나쁜 녀석이 아니라는건 알았으니까, 이제 쓰다듬지 않아도 되겠지?</Giwa_Nuzzle.logRulesInitiator.rulesStrings.5>
+  <Giwa_Nuzzle.logRulesInitiator.rulesStrings.6>talkA->마치 내가 어린애같잖아...... 바보.</Giwa_Nuzzle.logRulesInitiator.rulesStrings.6>
+  <Giwa_Nuzzle.logRulesInitiator.rulesStrings.7>talkA->아 정말, 엄청 끈질기네......</Giwa_Nuzzle.logRulesInitiator.rulesStrings.7>
+  <Giwa_Nuzzle.logRulesInitiator.rulesStrings.8>talkA->이러는거 그만두면, 인상이 더 좋아질지도 모르는데 말이야.</Giwa_Nuzzle.logRulesInitiator.rulesStrings.8>
+  <Giwa_Nuzzle.logRulesInitiator.rulesStrings.9>talkA->그만해, 좀 더 제대로된 교류 방법이 있잖아!</Giwa_Nuzzle.logRulesInitiator.rulesStrings.9>
+  <Giwa_Nuzzle.logRulesInitiator.rulesStrings.10>talkA->만지지 마!</Giwa_Nuzzle.logRulesInitiator.rulesStrings.10>
+  <Giwa_Nuzzle.logRulesInitiator.rulesStrings.11>talkA->만져지는 쪽의 기분도 제대로 생각하란 말이야.</Giwa_Nuzzle.logRulesInitiator.rulesStrings.11>
+  <Giwa_Nuzzle.logRulesInitiator.rulesStrings.12>talkA->나를 놀릴 여유가 있다면 좀 더 유의미하게 시간을 쓰란 말이야!</Giwa_Nuzzle.logRulesInitiator.rulesStrings.12>
+  <Giwa_Nuzzle.logRulesInitiator.rulesStrings.13>talkA->역시 너를 죽여야 했어.</Giwa_Nuzzle.logRulesInitiator.rulesStrings.13>
+  <Giwa_Nuzzle.logRulesInitiator.rulesStrings.14>talkA->남의 뺨을 그렇게 꼬집지 마!</Giwa_Nuzzle.logRulesInitiator.rulesStrings.14>
+  <Giwa_Nuzzle.logRulesInitiator.rulesStrings.15>talkA->이렇게 하자, 나를 만질때마다 너의 손가락을 하나씩 자르는거야...... 어때?</Giwa_Nuzzle.logRulesInitiator.rulesStrings.15>
+  <Giwa_Nuzzle.logRulesInitiator.rulesStrings.16>talkA->아직껏 경찰에게 잡히지 않았다니 기적이네.</Giwa_Nuzzle.logRulesInitiator.rulesStrings.16>
+  <Giwa_Nuzzle.logRulesInitiator.rulesStrings.17>talkA->구제할 방법이 없는 쓰레기 녀석이네!</Giwa_Nuzzle.logRulesInitiator.rulesStrings.17>
+  <Giwa_Nuzzle.logRulesInitiator.rulesStrings.18>talkA->아 정말, 또 세수하지 않으면 안되잖아.</Giwa_Nuzzle.logRulesInitiator.rulesStrings.18>
+  <Giwa_Nuzzle.logRulesInitiator.rulesStrings.19>talkA->당신의 천박함에는 정말 질렸어!</Giwa_Nuzzle.logRulesInitiator.rulesStrings.19>
+  <Giwa_Nuzzle.logRulesInitiator.rulesStrings.20>talkB->억지로 밀어붙이는건 괜찮지만, 무서울거야.</Giwa_Nuzzle.logRulesInitiator.rulesStrings.20>
+  <Giwa_Nuzzle.logRulesInitiator.rulesStrings.21>talkB->아 정말, 너에겐 다른 할 일이 있잖아?</Giwa_Nuzzle.logRulesInitiator.rulesStrings.21>
+  <Giwa_Nuzzle.logRulesInitiator.rulesStrings.22>talkB->아직 여러가지 있다고, 너희들!</Giwa_Nuzzle.logRulesInitiator.rulesStrings.22>
+  
+  
+  <Castariri_Nuzzle.label>친밀도</Castariri_Nuzzle.label>
+  <Castariri_Nuzzle.logRulesInitiator.rulesStrings.0>r_logentry->[RECIPIENT_nameDef](이)가 [INITIATOR_nameDef]의 머리를 [verbA] [INITIATOR_nameDef](이)가 말합니다. : 「[talkA]」</Castariri_Nuzzle.logRulesInitiator.rulesStrings.0>
+  <Castariri_Nuzzle.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameDef](와)과 [RECIPIENT_nameDef](이)가 잠시 이야기를 나눕니다. : 「[talkB]」</Castariri_Nuzzle.logRulesInitiator.rulesStrings.1>
+  <Castariri_Nuzzle.logRulesInitiator.rulesStrings.2>verbA->만지자</Castariri_Nuzzle.logRulesInitiator.rulesStrings.2>
+  <Castariri_Nuzzle.logRulesInitiator.rulesStrings.3>talkA->신경써주셔서 감사합니다 각하...... 하지만 이건 전부 제 일이기에...... 그렇게 칭찬받을 일은......</Castariri_Nuzzle.logRulesInitiator.rulesStrings.3>
+  <Castariri_Nuzzle.logRulesInitiator.rulesStrings.4>talkA->머리를 쓰다듬어져서 안심하는 사람도 있고, 내려다보인다고 생각하는 사람도 있습니다...... 저는, 저는, 딱히 아무렇지 않다고 생각합니다.</Castariri_Nuzzle.logRulesInitiator.rulesStrings.4>
+  <Castariri_Nuzzle.logRulesInitiator.rulesStrings.5>talkA->사람의 생각은 제각각이니까요. 앞으로 함께 시간을 보내면서, 각하의 생각을, 좀 더 이해할 수 있게 되고 싶다고 생각합니다.</Castariri_Nuzzle.logRulesInitiator.rulesStrings.5>
+  <Castariri_Nuzzle.logRulesInitiator.rulesStrings.6>talkA->언제나 웃는 얼굴로 있는 것은, 아직 익숙하지 않지만, 가능한 한, 미소지을 타이밍을 찾아보겠습니다.</Castariri_Nuzzle.logRulesInitiator.rulesStrings.6>
+  <Castariri_Nuzzle.logRulesInitiator.rulesStrings.7>talkA->이것이 각하께 있어 우호적인 교류라면, 기꺼이 협력하겠습니다.</Castariri_Nuzzle.logRulesInitiator.rulesStrings.7>
+  <Castariri_Nuzzle.logRulesInitiator.rulesStrings.8>talkB->각하, 저의 신체구조에 흥미가 있습니까? 안타깝게도, 이 신체에 대해서는 저도 자세한 자료를 가지고 있지 않습니다.</Castariri_Nuzzle.logRulesInitiator.rulesStrings.8>
+  <Castariri_Nuzzle.logRulesInitiator.rulesStrings.9>talkB->예전에는 언니와 같은 몸 속에 있었습니다만, 지금은 전혀 다른 모습을 가지고 있습니다.</Castariri_Nuzzle.logRulesInitiator.rulesStrings.9>
+  <Castariri_Nuzzle.logRulesInitiator.rulesStrings.10>talkB->릴리......? 그렇게 불리는 것은 조금... 가능하다면 저를 카스타라고 불러주셨으면 합니다.</Castariri_Nuzzle.logRulesInitiator.rulesStrings.10>
+  <Castariri_Nuzzle.logRulesInitiator.rulesStrings.11>talkB->각하께서 자신의 경험을 되돌아 보실 때, 자신의 궤적을 상기하셔서, 혼란한 상태로 귀중한 시간을 낭비하시지 않길 바라고 있습니다.</Castariri_Nuzzle.logRulesInitiator.rulesStrings.11>
+  <Castariri_Nuzzle.logRulesInitiator.rulesStrings.12>talkB->때로는, 그렇게 진지하게 커뮤니케이션을 하지 않는 편이, 생각보다 효율적인 경우도 있군요...... 각하도 그런 말씀을 하시는 경우가 있으시네요. 감탄했습니다.</Castariri_Nuzzle.logRulesInitiator.rulesStrings.12>
+  <Castariri_Nuzzle.logRulesInitiator.rulesStrings.13>talkB->저와 언니...... 둘의 성격에는 하늘과 땅 정도의 차이가 있습니다... 같은 몸에서 태어났는데도, 일하는 방식은 완전히 다릅니다.</Castariri_Nuzzle.logRulesInitiator.rulesStrings.13>
+  <Castariri_Nuzzle.logRulesInitiator.rulesStrings.14>talkB->언니의 웃는 얼굴... 죄송합니다, 그 몸 속에 너무 오래 있어서 그런지 기억이 잘 안나서... 그래도, 그때의 감정은, 아직 남아있습니다.</Castariri_Nuzzle.logRulesInitiator.rulesStrings.14>
+  <Castariri_Nuzzle.logRulesInitiator.rulesStrings.15>talkB->진수성찬을 차려드릴 수는 없지만, 각하의 필요에 응해서, 평범한 가정 요리라면 차려드릴 수 있다고 생각합니다.</Castariri_Nuzzle.logRulesInitiator.rulesStrings.15>
+  <Castariri_Nuzzle.logRulesInitiator.rulesStrings.16>talkB->좋아하는 음식? 그것이 알고 싶으셨습니까? ...... 저는 유제품을 좋아합니다. 그 외에는 특별히 좋아하는 것은 없습니다.</Castariri_Nuzzle.logRulesInitiator.rulesStrings.16>
+  
+  <Kurumi_Nuzzle.label>친밀도</Kurumi_Nuzzle.label>
+  <Kurumi_Nuzzle.logRulesInitiator.rulesStrings.0>r_logentry->[RECIPIENT_nameDef](이)가 [INITIATOR_nameDef]의 머리를 [verbA] [INITIATOR_nameDef](이)가 말합니다. : 「[talkA]」</Kurumi_Nuzzle.logRulesInitiator.rulesStrings.0>
+  <Kurumi_Nuzzle.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameDef](와)과 [RECIPIENT_nameDef](이)가 잠시 이야기를 나눕니다. : 「[talkB]」</Kurumi_Nuzzle.logRulesInitiator.rulesStrings.1>
+  <Kurumi_Nuzzle.logRulesInitiator.rulesStrings.2>verbA->만지자</Kurumi_Nuzzle.logRulesInitiator.rulesStrings.2>
+  <Kurumi_Nuzzle.logRulesInitiator.rulesStrings.3>talkA->각하는 저의 어떤 점이 신경쓰여요?</Kurumi_Nuzzle.logRulesInitiator.rulesStrings.3>
+  <Kurumi_Nuzzle.logRulesInitiator.rulesStrings.4>talkA->역시, 역시 좀 가깝다고 생각해!</Kurumi_Nuzzle.logRulesInitiator.rulesStrings.4>
+  <Kurumi_Nuzzle.logRulesInitiator.rulesStrings.5>talkA->각하, 나랑 좀 더 가까워지고 싶다고요? 정말로?</Kurumi_Nuzzle.logRulesInitiator.rulesStrings.5>
+  <Kurumi_Nuzzle.logRulesInitiator.rulesStrings.6>talkA->그렇게나 쿠루미가 감추고 있는 소품을 찾고 싶어요? 후후후~ 어려울거라 생각해요.</Kurumi_Nuzzle.logRulesInitiator.rulesStrings.6>
+  <Kurumi_Nuzzle.logRulesInitiator.rulesStrings.7>talkA->내 얼굴을 다이후쿠가 아니라구요~ 그렇게 꼬집지 말아줘요......</Kurumi_Nuzzle.logRulesInitiator.rulesStrings.7>
+  <Kurumi_Nuzzle.logRulesInitiator.rulesStrings.8>talkA->피하는거야 간단하지만, 각하가 이러는거, 도대체 무엇 때문이에요?</Kurumi_Nuzzle.logRulesInitiator.rulesStrings.8>
+  <Kurumi_Nuzzle.logRulesInitiator.rulesStrings.9>talkA->각하가 조금 싫어질지도요, 괜찮아요?</Kurumi_Nuzzle.logRulesInitiator.rulesStrings.9>
+  <Kurumi_Nuzzle.logRulesInitiator.rulesStrings.10>talkA->거리감? 나는 지금 정도가 딱 좋다고 생각해요. 어라? 너무 가까웠나?</Kurumi_Nuzzle.logRulesInitiator.rulesStrings.10>
+  <Kurumi_Nuzzle.logRulesInitiator.rulesStrings.11>talkA->우~ 너무 꼬집으면, 볼이 늘어나버려요~</Kurumi_Nuzzle.logRulesInitiator.rulesStrings.11>
+  <Kurumi_Nuzzle.logRulesInitiator.rulesStrings.12>talkB->그리 시간이 지나진 않았지만, 각하는 이제 나의 존재가 익숙해졌다, 그걸로 좋은 일 아닐까요?</Kurumi_Nuzzle.logRulesInitiator.rulesStrings.12>
+  <Kurumi_Nuzzle.logRulesInitiator.rulesStrings.13>talkB->마술쇼가 보고 싶다구요? 그렇다면 나를 칭찬해주지 않으면?</Kurumi_Nuzzle.logRulesInitiator.rulesStrings.13>
+  <Kurumi_Nuzzle.logRulesInitiator.rulesStrings.14>talkB->이 스틱으로 무얼 할 수 있냐구요? 그건 각하가 직접 알아내보세요.</Kurumi_Nuzzle.logRulesInitiator.rulesStrings.14>
+  <Kurumi_Nuzzle.logRulesInitiator.rulesStrings.15>talkB->에? 내가 각하를 보고 있었다고요? 이건 일의 일환이에요~ ... 책임을 지고 각하의 시중을 들지 않으면 안되니까요~</Kurumi_Nuzzle.logRulesInitiator.rulesStrings.15>
+  <Kurumi_Nuzzle.logRulesInitiator.rulesStrings.16>talkB->아주 날카로울 때도 있고, 둔감할 때도 있고, 각하의 진짜 모습은 어느쪽일까나.</Kurumi_Nuzzle.logRulesInitiator.rulesStrings.16>
+  <Kurumi_Nuzzle.logRulesInitiator.rulesStrings.17>talkB->각하, 정말로 아무것도 눈치채지 못한거야? 음~ 거짓말하는거 같진 않네.</Kurumi_Nuzzle.logRulesInitiator.rulesStrings.17>
+  <Kurumi_Nuzzle.logRulesInitiator.rulesStrings.18>talkB->각하의 손 안에 무언가 나타났어요? 나로부터의 선물일지도.</Kurumi_Nuzzle.logRulesInitiator.rulesStrings.18>
+  <Kurumi_Nuzzle.logRulesInitiator.rulesStrings.19>talkB->저의 좋은 점, 각하에게 가르쳐주고 싶네~</Kurumi_Nuzzle.logRulesInitiator.rulesStrings.19>
+  <Kurumi_Nuzzle.logRulesInitiator.rulesStrings.20>talkB->처음부터 모든 수수께끼를 밝힌다면, 전혀 재미가 없어져버리니까.</Kurumi_Nuzzle.logRulesInitiator.rulesStrings.20>
+  <Kurumi_Nuzzle.logRulesInitiator.rulesStrings.21>talkB->트럼프를 이용해서 마술을 하는것과 포커 게임을 하는건 전혀 다른거에요. 그러니까 내가 지더라도 어쩔 수 없다고 해야 할까나...</Kurumi_Nuzzle.logRulesInitiator.rulesStrings.21>
+</LanguageData>
