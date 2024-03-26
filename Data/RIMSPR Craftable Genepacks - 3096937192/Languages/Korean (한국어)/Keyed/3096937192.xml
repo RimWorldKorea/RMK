@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RIMSPRLab>RIMSPR 연구소</RIMSPRLab>
+  <RIMSPRLab_StartResearch>다음 프로젝트를 준비 중: </RIMSPRLab_StartResearch>
+  <RIMSPRLab_ResearchInProgress>연구 중: </RIMSPRLab_ResearchInProgress>
+  <RIMSPRLab_NoGeneSelected>선택된 유전자 없음</RIMSPRLab_NoGeneSelected>
+  <RIMSPRLab_Nutrition>열량</RIMSPRLab_Nutrition>
+  <RIMSPRLab_SelectGene>유전학 연구 프로젝트 시작</RIMSPRLab_SelectGene>
+  <RIMSPRLab_SelectGeneDesc>생성을 원하는 유전자 팩을 선택합니다.</RIMSPRLab_SelectGeneDesc>
+  <RIMSPRLab_CancelProject>프로젝트 취소</RIMSPRLab_CancelProject>
+  <RIMSPRLab_CancelProjectDesc>유전자 팩 생성을 취소합니다. 경고: 모든 진행 상황과 투입된 자원이 사라지게 됩니다!</RIMSPRLab_CancelProjectDesc>
+  <RIMSPRLab_GeneMenu>연구할 유전자 선택</RIMSPRLab_GeneMenu>
+  <RIMSPRLab_SelectButton>프로젝트 개시</RIMSPRLab_SelectButton>
+  <RIMSPRLab_CancelButton>취소</RIMSPRLab_CancelButton>
+  <RIMSPR_workMultiplier>필요 작업량 보정치</RIMSPR_workMultiplier>
+  <RIMSPR_workMultiplierTooltip>유전자의 고유값에 이 수치를 곱해 최종적으로 필요한 작업량을 결정합니다.\n고유값 계산 방법:\n(C * Cvm + |M| * Mvm + A * Avm)^2\n설명:\nC = 복잡도\nCm = 복잡도 수치 보정치\nM = 대사 효율\nMvm = 대사 효율 수치 보정치\nA = 필요 초월입자 캡슐\nAvm = 초월입자 캡슐 수치 보정치</RIMSPR_workMultiplierTooltip>
+  <RIMSPR_foodMultiplier>필요 열량 보정치</RIMSPR_foodMultiplier>
+  <RIMSPR_foodMultiplierTooltip>유전자의 고유값에 이 수치을 곱해 최종적으로 필요한 열량을 결정합니다.\n고유값 계산 방법:\n(C * Cvm + |M| * Mvm + A * Avm)^2\n설명:\nC = 복잡도\nCm = 복잡도 수치 보정치\nM = 대사 효율\nMvm = 대사 효율 수치 보정치\nA = 필요 초월입자 캡슐\nAvm = 초월입자 캡슐 수치 보정치</RIMSPR_foodMultiplierTooltip>
+  <RIMSPR_chemMultiplier>필요 화학연료 보정치</RIMSPR_chemMultiplier>
+  <RIMSPR_chemMultiplierTooltip>유전자의 복잡도에 이 수치를 곱해 최종적으로 필요한 화학연료의 양을 결정합니다.</RIMSPR_chemMultiplierTooltip>
+  <RIMSPR_neutroMultiplier>필요 뉴트로아민 보정치</RIMSPR_neutroMultiplier>
+  <RIMSPR_neutroMultiplierTooltip>유전자의 대사 효율의 절댓값에 이 수치를 곱해 최종적으로 필요한 뉴트로아민의 양을 결정합니다.</RIMSPR_neutroMultiplierTooltip>
+  <RIMSPR_architeMultiplier>필요 초월입자 캡슐 보정치</RIMSPR_architeMultiplier>
+  <RIMSPR_architeMultiplierTooltip>유전자가 요구하는 초월입자 캡슐의 수에 이 수치를 곱해 최종적으로 필요한 초월입자 캡슐의 양을 결정합니다.</RIMSPR_architeMultiplierTooltip>
+  <RIMSPR_complexValueMultiplier>복잡도 수치 보정치</RIMSPR_complexValueMultiplier>
+  <RIMSPR_complexValueMultiplierTooltip>유전자의 고유값을 계산할 때 복잡도에 이 수치가 곱해집니다.</RIMSPR_complexValueMultiplierTooltip>
+  <RIMSPR_metabolicValueMultiplier>대사 효율 수치 보정치</RIMSPR_metabolicValueMultiplier>
+  <RIMSPR_metabolicValueMultiplierTooltip>유전자의 고유값을 계산할 때 대사 효율의 절댓값에 이 수치가 곱해집니다.</RIMSPR_metabolicValueMultiplierTooltip>
+  <RIMSPR_architeValueMultiplier>초월입자 캡슐 수치 보정치</RIMSPR_architeValueMultiplier>
+  <RIMSPR_architeValueMultiplierTooltip>유전자의 고유값을 계산할 때 필요 초월입자 캡슐의 수에 이 수치가 곱해집니다.</RIMSPR_architeValueMultiplierTooltip>
+  <RIMSPR_workMin>최소 작업량</RIMSPR_workMin>
+  <RIMSPR_workMinTooltip>유전자 팩을 만들기 위해 필요한 최소 작업량입니다.</RIMSPR_workMinTooltip>
+  <RIMSPR_foodMin>최소 열량</RIMSPR_foodMin>
+  <RIMSPR_foodMinTooltip>유전자 팩을 만들기 위해 필요한 최소 열량입니다.</RIMSPR_foodMinTooltip>
+  <RIMSPR_chemMin>최소 화학연료</RIMSPR_chemMin>
+  <RIMSPR_chemMinTooltip>유전자 팩을 만들기 위해 필요한 화학연료의 최소량입니다.</RIMSPR_chemMinTooltip>
+  <RIMSPR_neutroMin>최소 뉴트로아민</RIMSPR_neutroMin>
+  <RIMSPR_neutroMinTooltip>유전자 팩을 만들기 위해 필요한 뉴트로아민의 최소량입니다.</RIMSPR_neutroMinTooltip>
+  <RIMSPR_restart_note>참고: 변경사항을 적용하려면 게임을 재시작해야 합니다.</RIMSPR_restart_note>
+</LanguageData>
