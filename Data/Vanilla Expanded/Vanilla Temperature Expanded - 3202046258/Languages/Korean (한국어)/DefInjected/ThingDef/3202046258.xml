@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VTE_AirDuct.label>공조 파이프</VTE_AirDuct.label>
+  <VTE_AirDuct.description>공조 배관망에서 공조기와 압축기 사이에 공기를 전달하는 덕트입니다.</VTE_AirDuct.description>
+  <VTE_VentValve.label>공조 밸브</VTE_VentValve.label>
+  <VTE_VentValve.description>공조 배관망의 흐름을 열거나 닫을 수 있는 밸브입니다.</VTE_VentValve.description>
+  <VTE_UndergroundAirDuct.label>공조 파이프 (매립)</VTE_UndergroundAirDuct.label>
+  <VTE_UndergroundAirDuct.description>지하에 매립하여 공조 배관망에서 공조기와 압축기 사이에 공기를 전달하는 덕트입니다.</VTE_UndergroundAirDuct.description>
+  <VTE_ACControlUnit.label>공조 제어기</VTE_ACControlUnit.label>
+  <VTE_ACControlUnit.description>공조 설비의 주 제어 장치입니다. 각 방에 설치된 공조기에 뜨겁거나 찬 바람을 보낼 수 있도록 공조 파이프를 통해 압축기와 연결되어야 합니다.\n\n공조 제어기는 같은 배관망에 연결된 모든 공조기에 대한 목표 온도를 지정할 수 있습니다. 공조기가 너무 많이 연결되면 공조 효율이 저하될 수 있으며, 연결된 모든 설비의 전력 소모를 증가시킵니다. 압축기를 추가로 설치하여 공조 효율을 높일 수 있습니다.</VTE_ACControlUnit.description>
+  <VTE_ACUnit.label>빌트인 공조기</VTE_ACUnit.label>
+  <VTE_ACUnit.description>벽에 맞춰 설치하는 공기 조화 설비입니다. 방의 현재 온도에 따라서 뜨겁거나 찬 공기를 같은 방향으로 내보낼 수 있습니다.\n\n독립 제어 모드로 설정하지 않으면 방의 온도를 중앙 제어기에서 지정한 온도에 맞추려고 할 것입니다. 공조 파이프를 통해 공조 제어기와 연결되어야 합니다.</VTE_ACUnit.description>
+  <VTE_ACUnitWall.label>벽걸이 공조기</VTE_ACUnitWall.label>
+  <VTE_ACUnitWall.description>벽에 걸어서 설치하는 공기 조화 설비입니다. 방의 현재 온도에 따라서 뜨겁거나 찬 공기를 같은 방향으로 내보낼 수 있습니다.\n\n독립 제어 모드로 설정하지 않으면 방의 온도를 중앙 제어기에서 지정한 온도에 맞추려고 할 것입니다. 공조 파이프를 통해 공조 제어기와 연결되어야 합니다. 벽 위에만 설치할 수 있습니다.</VTE_ACUnitWall.description>
+  <VTE_ACCompressor.label>공조용 압축기</VTE_ACCompressor.label>
+  <VTE_ACCompressor.description>공조 파이프를 통해 공조 제어기와 연결하여 사용하는 압축기입니다. 지붕으로 가려지지 않은 실외에만 설치할 수 있습니다.\n\n작동 시 공조 배관망에 두 대의 공조기를 추가로 설치할 수 있는 여유 용량을 제공합니다.</VTE_ACCompressor.description>
+  <VTE_LargeACCompressor.label>공조용 대형 압축기</VTE_LargeACCompressor.label>
+  <VTE_LargeACCompressor.description>공조 파이프를 통해 공조 제어기와 연결하여 사용하는 대형 압축기입니다. 지붕으로 가려지지 않은 실외에만 설치할 수 있습니다.\n\n작동 시 공조 배관망에 여섯 대의 공조기를 추가로 설치할 수 있는 여유 용량을 제공합니다.</VTE_LargeACCompressor.description>
+  <VTE_IndustrialHeater.label>산업용 전열기</VTE_IndustrialHeater.label>
+  <VTE_IndustrialHeater.description>벽에 맞춰 설치하여 전기를 열로 바꾸는 거대한 산업용 전열기입니다. 목표 온도에 도달하기 위해 스스로 켜고 끌 수 있습니다. 일반적인 전열기보다 훨씬 높은 온도로 방을 가열할 수 있습니다.</VTE_IndustrialHeater.description>
+  <VTE_IndustrialCooler.label>산업용 냉방기</VTE_IndustrialCooler.label>
+  <VTE_IndustrialCooler.description>벽에 맞춰 설치하여 차가운 공기를 주입하는 데 쓰이는 거대한 산업용 냉방기입니다. 배기구는 많은 양의 열을 만듭니다. 방을 시원하게 만들거나 냉동고를 만들 때 사용할 수 있습니다. 일반적인 냉방기보다 훨씬 낮은 온도로 방을 냉각할 수 있습니다.</VTE_IndustrialCooler.description>
+  <VTE_WallHeater.label>빌트인 전열기</VTE_WallHeater.label>
+  <VTE_WallHeater.description>벽에 맞춰 설치하여 전기를 열로 바꾸는 기기입니다. 목표 온도에 도달하기 위해 스스로 켜고 끌 수 있습니다.</VTE_WallHeater.description>
+  <VTE_WallMountedHeater.label>벽걸이 전열기</VTE_WallMountedHeater.label>
+  <VTE_WallMountedHeater.description>벽에 걸어서 설치하여 전기를 열로 바꾸는 기기입니다. 목표 온도에 도달하기 위해 스스로 켜고 끌 수 있습니다. 벽 위에만 설치할 수 있습니다.</VTE_WallMountedHeater.description>
+  <VTE_WallMountedCooler.label>벽걸이 냉방기</VTE_WallMountedCooler.label>
+  <VTE_WallMountedCooler.description>벽에 걸어서 설치하여 차가운 공기를 주입하는 데 쓰입니다. 배기구는 많은 양의 열을 만듭니다. 방을 시원하게 만들거나 냉동고를 만들 때 사용할 수 있습니다. 벽 위에만 설치할 수 있습니다.</VTE_WallMountedCooler.description>
+  <VTE_WallMountedVent.label>벽걸이 환풍구</VTE_WallMountedVent.label>
+  <VTE_WallMountedVent.description>벽에 걸어서 설치하는 간단한 환풍구입니다. 사람들의 통행을 막으면서 두 방의 온도를 맞출 수 있습니다. 벽 위에만 설치할 수 있습니다.</VTE_WallMountedVent.description>
+  <VTE_StandingCooler.label>스탠드 냉방기</VTE_StandingCooler.label>
+  <VTE_StandingCooler.description>바닥에 세워서 차가운 공기를 주입하는 데 쓰입니다. 방을 시원하게 만들거나 냉동고를 만들 때 사용할 수 있습니다. 냉장고를 만들 만큼 강력하진 않습니다.</VTE_StandingCooler.description>
+  <VTE_SmallCeilingFan.label>소형 실링팬</VTE_SmallCeilingFan.label>
+  <VTE_SmallCeilingFan.description>천장에 설치하는 선풍기입니다. 여름같이 무더운 날 방을 천천히 식히는 데 사용할 수 있습니다. 방의 온도를 17도까지 낮출 수 있습니다.</VTE_SmallCeilingFan.description>
+  <VTE_LargeCeilingFan.label>대형 실링팬</VTE_LargeCeilingFan.label>
+  <VTE_LargeCeilingFan.description>천장에 설치하는 커다란 선풍기입니다. 여름같이 무더운 날 방을 빠르게 식히는 데 사용할 수 있습니다. 방의 온도를 17도까지 낮출 수 있습니다.</VTE_LargeCeilingFan.description>
+</LanguageData>
