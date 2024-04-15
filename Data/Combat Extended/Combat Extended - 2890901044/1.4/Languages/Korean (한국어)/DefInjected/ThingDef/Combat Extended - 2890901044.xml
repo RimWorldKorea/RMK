@@ -75,9 +75,9 @@
   <CE_Apparel_PlateHelmet.label>판금 투구</CE_Apparel_PlateHelmet.label>
   <CE_Apparel_PlateHelmet.description>머리 부분을 완전히 감싸는 중세 투구입니다. 확실히 착용자를 보호하기는 하지만, 착용자의 시야를 제약하여 공격이 부정확해질 수 있습니다.</CE_Apparel_PlateHelmet.description>
   <CE_Apparel_GasMask.label>방독면</CE_Apparel_GasMask.label>
-  <CE_Apparel_GasMask.description>필터가 부착 되고 잘밀봉 된 가스 마스크. 연기 및 공기 중 독소에 대한 보호를 제공합니다.</CE_Apparel_GasMask.description>
+  <CE_Apparel_GasMask.description>얼굴을 덮는 유연한 마스크입니다. 정화통이 포함돼있습니다. 호흡을 통한 오염물질 및 연기 노출을 크게 억제하지만 피부를 통한 오염물질 유입에서는 보호할 수 없습니다.\n\n독소 가스가 눈과 입을 자극하지 못하도록 방어합니다.</CE_Apparel_GasMask.description>
   <CE_Apparel_ImprovGasMask.label>급조 방독면</CE_Apparel_ImprovGasMask.label>
-  <CE_Apparel_ImprovGasMask.description>두꺼운 천과 숯으로 만든 조잡한 가스 마스크. 연기 및 공기 중 독소에 대한 제한적인 보호를 제공합니다.</CE_Apparel_ImprovGasMask.description>
+  <CE_Apparel_ImprovGasMask.description>두꺼운 천과 숯으로 만든 조잡한 가스 마스크입니다. 연기 및 공기 중 독소에 대한 제한적인 보호를 제공합니다. 피부를 통한 오염물질 유입에서 착용자를 보호해 주지는 않습니다.</CE_Apparel_ImprovGasMask.description>
   <CE_Apparel_SimpleNightVision.label>단안식 야시경</CE_Apparel_SimpleNightVision.label>
   <CE_Apparel_SimpleNightVision.description>간단한 구조의 단안식 야시경입니다. 머리에 걸쳐서 사용합니다.</CE_Apparel_SimpleNightVision.description>
   <CE_Apparel_AdvancedNightVision.label>고급 야간투시경</CE_Apparel_AdvancedNightVision.label>
@@ -143,8 +143,14 @@
   <CE_MechanoidMinigun.label>메카노이드 미니건</CE_MechanoidMinigun.label>
   <CE_MechanoidMinigun.description>다중 총열 기관총. 길다란 총열이 위협적이며 일단 발사하면 아주 빨리 발사됩니다. 대부분의 자동장전 소총이 화약으로부터 나오는 에너지로 동력을 얻지만, 이 미니건은 탑재한 메카노이드로부터 전력을 공급받는 전기 모터를 사용해 카트리지를 빠르게 순환시킵니다.</CE_MechanoidMinigun.description>
   <Bullet_Dummy.label>탄환 더미</Bullet_Dummy.label>
+  <Pila.label>자벨린</Pila.label>
+  <Pila.description>직접 던지거나 아틀라틀을 사용하여 던지는 투창입니다.</Pila.description>
+  <Pila.verbs.Verb_ShootCEOneUse.label>자벨린</Pila.verbs.Verb_ShootCEOneUse.label>
+  <Pila.tools.0.label>장대</Pila.tools.0.label>
+  <Pila.tools.1.label>끝</Pila.tools.1.label>
   <Gun_BinocularsRadio.label>쌍안경과 무전기</Gun_BinocularsRadio.label>
   <Gun_BinocularsRadio.description>쌍안경과 휴대용 무전기로 구성된 관측장비. 포격임무를 조율하는데 유용합니다.\n\n표적 대상에 표식을 남겨 이에 사격하는 박격포의 직,간접적인 사격 방해요소를 제거합니다. 또한, 지시된 모든 포격은 박격포 사수가 아닌 관측병의 조준 정확도와 효율을 기반으로 합니다.</Gun_BinocularsRadio.description>
+  <Gun_BinocularsRadio.tools.0.label>몸체</Gun_BinocularsRadio.tools.0.label>
   <Gun_BlasterTurret.label>전자기 포탑 총</Gun_BlasterTurret.label>
   <Gun_BlasterTurret.description>포탑에 장착된 전자기 화기.</Gun_BlasterTurret.description>
   <Gun_HeavyTurret.label>중화기 포탑 총</Gun_HeavyTurret.label>
@@ -2401,19 +2407,298 @@
   <Gun_InfernoCannonTurret.label>포탑 소이탄포</Gun_InfernoCannonTurret.label>
   <Gun_InfernoCannonTurret.description>포탑에 장착되는 소형 소이탄포입니다.</Gun_InfernoCannonTurret.description>
   <Bullet_PlasmaCellPistol.label>플라즈마 볼트</Bullet_PlasmaCellPistol.label>
-  <Turret_RocketswarmLauncher.description>4연장 고폭탄 로켓을 고각도로 발사하는 자동 포탑입니다. 발사 인공지능이 미덥지 못하다는 점은 주의하십시오.</Turret_RocketswarmLauncher.description>
+  <Weapon_GrenadeConcussion.tools.0.label>몸체</Weapon_GrenadeConcussion.tools.0.label>
+  <Weapon_GrenadeConcussion.verbs.Verb_ShootCEOneUse.label>충격 수류탄</Weapon_GrenadeConcussion.verbs.Verb_ShootCEOneUse.label>
+  <Weapon_GrenadeFlashbang.tools.0.label>몸체</Weapon_GrenadeFlashbang.tools.0.label>
+  <Weapon_GrenadeFlashbang.verbs.Verb_ShootCEOneUse.label>섬관탄</Weapon_GrenadeFlashbang.verbs.Verb_ShootCEOneUse.label>
+  <Weapon_GrenadeStickBomb.tools.0.label>몸체</Weapon_GrenadeStickBomb.tools.0.label>
+  <Weapon_GrenadeStickBomb.verbs.Verb_ShootCEOneUse.label>점착 폭탄</Weapon_GrenadeStickBomb.verbs.Verb_ShootCEOneUse.label>
+  <Weapon_GrenadeSmoke.tools.0.label>몸체</Weapon_GrenadeSmoke.tools.0.label>
+  <Weapon_GrenadeSmoke.verbs.Verb_ShootCEOneUse.label>연막탄</Weapon_GrenadeSmoke.verbs.Verb_ShootCEOneUse.label>
+  <Weapon_GrenadeFirefoam.tools.0.label>몸체</Weapon_GrenadeFirefoam.tools.0.label>
+  <Weapon_GrenadeFirefoam.verbs.Verb_ShootCEOneUse.label>화재진압 수류탄</Weapon_GrenadeFirefoam.verbs.Verb_ShootCEOneUse.label>
+  <CE_GrenadeLauncher.verbs.Verb_ShootCE.label>유탄 발사기</CE_GrenadeLauncher.verbs.Verb_ShootCE.label>
+  <CE_DisposableRocketLauncher.tools.3.label>총구</CE_DisposableRocketLauncher.tools.3.label>
+  <CE_DisposableRocketLauncher.verbs.Verb_ShootCEOneUse.label>일회용 로켓 발사기</CE_DisposableRocketLauncher.verbs.Verb_ShootCEOneUse.label>
+  <CE_ThermalBoltProjector.verbs.Verb_ShootMortarCE.label>서멀 볼트 투사기</CE_ThermalBoltProjector.verbs.Verb_ShootMortarCE.label>
+  <CE_ThermalBoltProjector.tools.0.label>총열</CE_ThermalBoltProjector.tools.0.label>
+  <CE_FlareGun.verbs.Verb_ShootFlareCE.label>플레어 건</CE_FlareGun.verbs.Verb_ShootFlareCE.label>
+  <CE_MechanoidMinigun.verbs.Verb_ShootCE.label>미니건</CE_MechanoidMinigun.verbs.Verb_ShootCE.label>
+  <CE_MechanoidMinigun.tools.0.label>총열</CE_MechanoidMinigun.tools.0.label>
+  <Beer.tools.1.label>병목</Beer.tools.1.label>
   <Turret_MiniTurret.description>휴대 가능한 자동포탑입니다. 인공지능 두뇌의 수준이 낮아 직접 조종할 수 없으니, 아군 오사에 주의하십시오.</Turret_MiniTurret.description>
+  <Turret_Mortar.label>81mm 박격포</Turret_Mortar.label>
   <ThrumboHorn.description>트럼보의 뿔입니다. 그 희소성 덕분에 대부분의 시장에서 값진 물건으로 취급합니다.</ThrumboHorn.description>
   <ElephantTusk.description>코끼리의 상아입니다. 희귀품 상인들이 좋게 가격을 쳐 줄 것입니다.</ElephantTusk.description>
   <Apparel_AdvancedHelmet.label>합성 방탄모</Apparel_AdvancedHelmet.label>
   <Apparel_AdvancedHelmet.description>합성 소재로 제작된 복잡한 설계의 경량형 전투 헬멧입니다. 일반적인 철제 방탄모에 비해 훨씬 효과적인 보호를 제공하나, 내구성은 저하되었습니다.</Apparel_AdvancedHelmet.description>
   <Apparel_PowerArmorHelmet.description>해병대 갑옷과 한 세트인 헬멧입니다. 겹겹이 쌓인 플라스틸 방탄판이 착용자에게 탁월한 보호를 제공하며, 컴퓨터 또한 내장되어 있습니다.\n\n내장된 서보 모터가 착용자의 근육을 보조하여 헬멧의 무게를 견딜 수 있도록 하며, 함께 포함된 HUD가 착용자의 조준을 보조합니다.</Apparel_PowerArmorHelmet.description>
   <Apparel_ArmorHelmetRecon.description>고도의 기술이 적용된 장갑 투구로, 내장형 컴퓨터와 플라스틸 방탄판이 포함되어 있습니다.\n\n내장된 서보 모터가 착용자의 근육을 보조하여 헬멧의 무게를 견딜 수 있도록 하며, 함께 포함된 HUD가 착용자의 조준을 보조합니다.</Apparel_ArmorHelmetRecon.description>
-  <Turret_Mortar.label>81mm 박격포</Turret_Mortar.label>
   <Apparel_FlakVest.label>방탄 조끼</Apparel_FlakVest.label>
   <Apparel_FlakJacket.description>방탄 기능이 있는 소재를 덧대어 만들어진 재킷입니다. 상대적으로 가벼운 무게로 파편 및 총상에 대한 제한적인 보호를 제공합니다.</Apparel_FlakJacket.description>
   <Apparel_FlakPants.description>방탄 기능이 있는 소재를 덧대어 만들어진 바지입니다. 상대적으로 가벼운 무게로 파편 및 총상에 대한 제한적인 보호를 제공합니다.</Apparel_FlakPants.description>
+  <Apparel_PowerArmor.description>동력 갑옷 수트입니다. 상대적으로 취약한 몇몇 관절부를 제외하면, 겹겹이 쌓인 플라스틸 방탄판이 공격을 효과적으로 저지합니다. 신경모사 보조기구 덕분에 착용한 상태에서도 쉽게 움직일 수 있습니다.\n\n해병대 갑옷 자체는 거추장스럽고 무겁지만, 고급 서보 모터 덕분에 착용자는 훨씬 큰 무게를 견딜 수 있으며 무기를 다룰 때도 보조를 받을 수 있습니다. 이런 종류의 갑옷은 우주 해병대가 빠른 함선 침투를 위해 자주 사용합니다.</Apparel_PowerArmor.description>
+  <Apparel_ArmorRecon.description>경량형 부분동력 갑옷 수트입니다. 빠른 행동을 돕기 위해 설계되었습니다. 경량 플라스틸 방탄판이 기동성을 방해하지 않으면서도 공격을 효과적으로 저지하며, 하부의 신경모사 보조기구의 존재로 착용한 사람은 여전히 쉽게 움직일 수 있습니다.\n\n내장된 고급 서보 모터는 착용자가 훨씬 큰 무게를 견딜 수 있도록 돕습니다. 이런 종류의 갑옷은 번화계 경찰대나 제국 정찰대가 자주 사용합니다.</Apparel_ArmorRecon.description>
+  <Weapon_GrenadeFrag.tools.0.label>몸체</Weapon_GrenadeFrag.tools.0.label>
+  <Weapon_GrenadeMolotov.tools.0.label>몸체</Weapon_GrenadeMolotov.tools.0.label>
+  <Weapon_GrenadeEMP.tools.0.label>몸체</Weapon_GrenadeEMP.tools.0.label>
+  <Gun_Revolver.tools.0.label>손잡이</Gun_Revolver.tools.0.label>
+  <Gun_Revolver.tools.1.label>총구</Gun_Revolver.tools.1.label>
+  <Gun_Autopistol.tools.0.label>손잡이</Gun_Autopistol.tools.0.label>
+  <Gun_Autopistol.tools.1.label>총구</Gun_Autopistol.tools.1.label>
+  <Gun_MachinePistol.tools.0.label>손잡이</Gun_MachinePistol.tools.0.label>
+  <Gun_MachinePistol.tools.1.label>총구</Gun_MachinePistol.tools.1.label>
+  <Gun_IncendiaryLauncher.tools.0.label>개머리판</Gun_IncendiaryLauncher.tools.0.label>
+  <Gun_IncendiaryLauncher.tools.1.label>총열</Gun_IncendiaryLauncher.tools.1.label>
+  <Gun_IncendiaryLauncher.tools.2.label>총구</Gun_IncendiaryLauncher.tools.2.label>
+  <Gun_BoltActionRifle.tools.0.label>개머리판</Gun_BoltActionRifle.tools.0.label>
+  <Gun_BoltActionRifle.tools.1.label>총열</Gun_BoltActionRifle.tools.1.label>
+  <Gun_BoltActionRifle.tools.2.label>총구</Gun_BoltActionRifle.tools.2.label>
+  <Gun_PumpShotgun.tools.0.label>개머리판</Gun_PumpShotgun.tools.0.label>
+  <Gun_PumpShotgun.tools.1.label>총열</Gun_PumpShotgun.tools.1.label>
+  <Gun_PumpShotgun.tools.2.label>총구</Gun_PumpShotgun.tools.2.label>
+  <Gun_ChainShotgun.tools.0.label>개머리판</Gun_ChainShotgun.tools.0.label>
+  <Gun_ChainShotgun.tools.1.label>총열</Gun_ChainShotgun.tools.1.label>
+  <Gun_ChainShotgun.tools.2.label>총구</Gun_ChainShotgun.tools.2.label>
+  <Gun_HeavySMG.tools.0.label>개머리판</Gun_HeavySMG.tools.0.label>
+  <Gun_HeavySMG.tools.1.label>총열</Gun_HeavySMG.tools.1.label>
+  <Gun_HeavySMG.tools.2.label>총구</Gun_HeavySMG.tools.2.label>
+  <Gun_LMG.tools.0.label>개머리판</Gun_LMG.tools.0.label>
+  <Gun_LMG.tools.1.label>총열</Gun_LMG.tools.1.label>
+  <Gun_LMG.tools.2.label>총구</Gun_LMG.tools.2.label>
+  <Gun_AssaultRifle.tools.0.label>개머리판</Gun_AssaultRifle.tools.0.label>
+  <Gun_AssaultRifle.tools.1.label>총열</Gun_AssaultRifle.tools.1.label>
+  <Gun_AssaultRifle.tools.2.label>총구</Gun_AssaultRifle.tools.2.label>
+  <Gun_SniperRifle.tools.0.label>개머리판</Gun_SniperRifle.tools.0.label>
+  <Gun_SniperRifle.tools.1.label>총열</Gun_SniperRifle.tools.1.label>
+  <Gun_SniperRifle.tools.2.label>총구</Gun_SniperRifle.tools.2.label>
+  <Gun_ChargeRifle.tools.0.label>개머리판</Gun_ChargeRifle.tools.0.label>
+  <Gun_ChargeRifle.tools.1.label>총열</Gun_ChargeRifle.tools.1.label>
+  <Gun_ChargeRifle.tools.2.label>총구</Gun_ChargeRifle.tools.2.label>
+  <Gun_TripleRocket.tools.0.label>발사관</Gun_TripleRocket.tools.0.label>
+  <Gun_DoomsdayRocket.tools.0.label>발사관</Gun_DoomsdayRocket.tools.0.label>
   <Gun_ChainShotgun.description>탄창을 통해 급탄되는 반자동 산탄총입니다. 일반적인 산탄총과 같은 사거리를 지니고 있으나, 재장전이 자동으로 이루어진다는 점에서 훨씬 위협적입니다.</Gun_ChainShotgun.description>
+  <Gun_Minigun.tools.0.label>총열</Gun_Minigun.tools.0.label>
+  <Gun_ThumpCannon.tools.0.label>발사관</Gun_ThumpCannon.tools.0.label>
+  <Gun_ChargeLance.tools.0.label>총열</Gun_ChargeLance.tools.0.label>
+  <Gun_Needle.tools.0.label>총열</Gun_Needle.tools.0.label>
+  <MeleeWeapon_Knife.tools.0.label>손잡이</MeleeWeapon_Knife.tools.0.label>
+  <MeleeWeapon_Knife.tools.1.label>칼날</MeleeWeapon_Knife.tools.1.label>
+  <MeleeWeapon_Knife.tools.2.label>칼끝</MeleeWeapon_Knife.tools.2.label>
+  <MeleeWeapon_Club.tools.0.label>손잡이</MeleeWeapon_Club.tools.0.label>
+  <MeleeWeapon_Club.tools.1.label>머리</MeleeWeapon_Club.tools.1.label>
+  <MeleeWeapon_Mace.tools.0.label>손잡이</MeleeWeapon_Mace.tools.0.label>
+  <MeleeWeapon_Mace.tools.1.label>머리</MeleeWeapon_Mace.tools.1.label>
+  <MeleeWeapon_Gladius.tools.0.label>손잡이</MeleeWeapon_Gladius.tools.0.label>
+  <MeleeWeapon_Gladius.tools.1.label>칼끝</MeleeWeapon_Gladius.tools.1.label>
+  <MeleeWeapon_Gladius.tools.2.label>칼날</MeleeWeapon_Gladius.tools.2.label>
+  <MeleeWeapon_Ikwa.tools.0.label>창대</MeleeWeapon_Ikwa.tools.0.label>
+  <MeleeWeapon_Ikwa.tools.1.label>손잡이 끝</MeleeWeapon_Ikwa.tools.1.label>
+  <MeleeWeapon_Ikwa.tools.2.label>머리</MeleeWeapon_Ikwa.tools.2.label>
+  <MeleeWeapon_Spear.tools.0.label>창대</MeleeWeapon_Spear.tools.0.label>
+  <MeleeWeapon_Spear.tools.1.label>창대</MeleeWeapon_Spear.tools.1.label>
+  <MeleeWeapon_Spear.tools.2.label>머리</MeleeWeapon_Spear.tools.2.label>
+  <MeleeWeapon_LongSword.tools.0.label>손잡이</MeleeWeapon_LongSword.tools.0.label>
+  <MeleeWeapon_LongSword.tools.1.label>칼끝</MeleeWeapon_LongSword.tools.1.label>
+  <MeleeWeapon_LongSword.tools.2.label>칼날</MeleeWeapon_LongSword.tools.2.label>
+  <MeleeWeapon_BreachAxe.tools.0.label>손잡이</MeleeWeapon_BreachAxe.tools.0.label>
+  <MeleeWeapon_BreachAxe.tools.1.label>머리</MeleeWeapon_BreachAxe.tools.1.label>
+  <Muffalo.tools.0.label>머리</Muffalo.tools.0.label>
+  <Muffalo.tools.1.label>왼쪽 발굽</Muffalo.tools.1.label>
+  <Muffalo.tools.2.label>왼쪽 발굽</Muffalo.tools.2.label>
+  <Muffalo.tools.3.label>오른쪽 발굽</Muffalo.tools.3.label>
+  <Muffalo.tools.4.label>오른쪽 발굽</Muffalo.tools.4.label>
+  <Gazelle.tools.0.label>왼쪽 발굽</Gazelle.tools.0.label>
+  <Gazelle.tools.1.label>왼쪽 발굽</Gazelle.tools.1.label>
+  <Gazelle.tools.2.label>오른쪽 발굽</Gazelle.tools.2.label>
+  <Gazelle.tools.3.label>오른쪽 발굽</Gazelle.tools.3.label>
+  <Gazelle.tools.5.label>머리</Gazelle.tools.5.label>
+  <Iguana.tools.0.label>왼쪽 발톱</Iguana.tools.0.label>
+  <Iguana.tools.1.label>오른쪽 발톱</Iguana.tools.1.label>
+  <Iguana.tools.3.label>머리</Iguana.tools.3.label>
+  <Rhinoceros.tools.0.label>뿔</Rhinoceros.tools.0.label>
+  <Rhinoceros.tools.1.label>뿔</Rhinoceros.tools.1.label>
+  <Rhinoceros.tools.3.label>머리</Rhinoceros.tools.3.label>
+  <Dromedary.tools.0.label>왼쪽 발굽</Dromedary.tools.0.label>
+  <Dromedary.tools.1.label>왼쪽 발굽</Dromedary.tools.1.label>
+  <Dromedary.tools.2.label>오른쪽 발굽</Dromedary.tools.2.label>
+  <Dromedary.tools.3.label>오른쪽 발굽</Dromedary.tools.3.label>
+  <Dromedary.tools.5.label>머리</Dromedary.tools.5.label>
+  <Bear_Grizzly.tools.0.label>왼쪽 발톱</Bear_Grizzly.tools.0.label>
+  <Bear_Grizzly.tools.1.label>오른쪽 발톱</Bear_Grizzly.tools.1.label>
+  <Bear_Grizzly.tools.3.label>머리</Bear_Grizzly.tools.3.label>
+  <Bear_Polar.tools.0.label>왼쪽 발톱</Bear_Polar.tools.0.label>
+  <Bear_Polar.tools.1.label>오른쪽 발톱</Bear_Polar.tools.1.label>
+  <Bear_Polar.tools.3.label>머리</Bear_Polar.tools.3.label>
+  <Lynx.tools.0.label>왼쪽 발톱</Lynx.tools.0.label>
+  <Lynx.tools.1.label>오른쪽 발톱</Lynx.tools.1.label>
+  <Lynx.tools.3.label>머리</Lynx.tools.3.label>
+  <Cassowary.tools.0.label>발톱</Cassowary.tools.0.label>
+  <Cassowary.tools.2.label>머리</Cassowary.tools.2.label>
+  <Emu.tools.0.label>발톱</Emu.tools.0.label>
+  <Emu.tools.2.label>머리</Emu.tools.2.label>
+  <Ostrich.tools.0.label>발톱</Ostrich.tools.0.label>
+  <Ostrich.tools.2.label>머리</Ostrich.tools.2.label>
+  <Turkey.tools.0.label>발톱</Turkey.tools.0.label>
+  <Turkey.tools.2.label>머리</Turkey.tools.2.label>
+  <Chicken.tools.0.label>발톱</Chicken.tools.0.label>
+  <Chicken.tools.2.label>머리</Chicken.tools.2.label>
+  <Pig.tools.1.label>머리</Pig.tools.1.label>
+  <Cow.tools.1.label>머리</Cow.tools.1.label>
+  <Cow.tools.2.label>뿔</Cow.tools.2.label>
+  <Alpaca.tools.0.label>왼쪽 발굽</Alpaca.tools.0.label>
+  <Alpaca.tools.1.label>왼쪽 발굽</Alpaca.tools.1.label>
+  <Alpaca.tools.2.label>오른쪽 발굽</Alpaca.tools.2.label>
+  <Alpaca.tools.3.label>오른쪽 발굽</Alpaca.tools.3.label>
+  <Alpaca.tools.5.label>머리</Alpaca.tools.5.label>
+  <Duck.tools.0.label>발톱</Duck.tools.0.label>
+  <Duck.tools.2.label>머리</Duck.tools.2.label>
+  <Bison.tools.0.label>머리</Bison.tools.0.label>
+  <Bison.tools.1.label>왼쪽 발굽</Bison.tools.1.label>
+  <Bison.tools.2.label>왼쪽 발굽</Bison.tools.2.label>
+  <Bison.tools.3.label>오른쪽 발굽</Bison.tools.3.label>
+  <Bison.tools.4.label>오른쪽 발굽</Bison.tools.4.label>
+  <Goat.tools.0.label>왼쪽 발굽</Goat.tools.0.label>
+  <Goat.tools.1.label>왼쪽 발굽</Goat.tools.1.label>
+  <Goat.tools.2.label>오른쪽 발굽</Goat.tools.2.label>
+  <Goat.tools.3.label>오른쪽 발굽</Goat.tools.3.label>
+  <Goat.tools.5.label>뿔</Goat.tools.5.label>
+  <Goose.tools.0.label>발톱</Goose.tools.0.label>
+  <Goose.tools.2.label>머리</Goose.tools.2.label>
+  <Sheep.tools.0.label>왼쪽 발굽</Sheep.tools.0.label>
+  <Sheep.tools.1.label>왼쪽 발굽</Sheep.tools.1.label>
+  <Sheep.tools.2.label>오른쪽 발굽</Sheep.tools.2.label>
+  <Sheep.tools.3.label>오른쪽 발굽</Sheep.tools.3.label>
+  <Sheep.tools.5.label>머리</Sheep.tools.5.label>
+  <Horse.tools.0.label>왼쪽 발굽</Horse.tools.0.label>
+  <Horse.tools.1.label>왼쪽 발굽</Horse.tools.1.label>
+  <Horse.tools.2.label>오른쪽 발굽</Horse.tools.2.label>
+  <Horse.tools.3.label>오른쪽 발굽</Horse.tools.3.label>
+  <Horse.tools.5.label>머리</Horse.tools.5.label>
+  <Yak.tools.0.label>머리</Yak.tools.0.label>
+  <Yak.tools.1.label>왼쪽 발굽</Yak.tools.1.label>
+  <Yak.tools.2.label>왼쪽 발굽</Yak.tools.2.label>
+  <Yak.tools.3.label>오른쪽 발굽</Yak.tools.3.label>
+  <Yak.tools.4.label>오른쪽 발굽</Yak.tools.4.label>
+  <GuineaPig.tools.0.label>왼쪽 발톱</GuineaPig.tools.0.label>
+  <GuineaPig.tools.1.label>오른쪽 발톱</GuineaPig.tools.1.label>
+  <GuineaPig.tools.3.label>머리</GuineaPig.tools.3.label>
+  <Donkey.tools.0.label>왼쪽 발굽</Donkey.tools.0.label>
+  <Donkey.tools.1.label>왼쪽 발굽</Donkey.tools.1.label>
+  <Donkey.tools.2.label>오른쪽 발굽</Donkey.tools.2.label>
+  <Donkey.tools.3.label>오른쪽 발굽</Donkey.tools.3.label>
+  <Donkey.tools.5.label>머리</Donkey.tools.5.label>
+  <Elephant.tools.0.label>엄니</Elephant.tools.0.label>
+  <Elephant.tools.1.label>왼쪽 발</Elephant.tools.1.label>
+  <Elephant.tools.2.label>오른쪽 발</Elephant.tools.2.label>
+  <Elephant.tools.3.label>머리</Elephant.tools.3.label>
+  <Megasloth.tools.0.label>왼쪽 발톱</Megasloth.tools.0.label>
+  <Megasloth.tools.1.label>오른쪽 발톱</Megasloth.tools.1.label>
+  <Megasloth.tools.3.label>머리</Megasloth.tools.3.label>
+  <Thrumbo.tools.0.label>뿔</Thrumbo.tools.0.label>
+  <Thrumbo.tools.1.label>뿔</Thrumbo.tools.1.label>
+  <Thrumbo.tools.2.label>왼쪽 발</Thrumbo.tools.2.label>
+  <Thrumbo.tools.3.label>오른쪽 발</Thrumbo.tools.3.label>
+  <Thrumbo.tools.5.label>머리</Thrumbo.tools.5.label>
+  <Megascarab.tools.0.label>턱</Megascarab.tools.0.label>
+  <Megascarab.tools.1.label>머리</Megascarab.tools.1.label>
+  <Spelopede.tools.0.label>머리뿔</Spelopede.tools.0.label>
+  <Spelopede.tools.1.label>머리뿔</Spelopede.tools.1.label>
+  <Spelopede.tools.2.label>머리</Spelopede.tools.2.label>
+  <Megaspider.tools.0.label>머리뿔</Megaspider.tools.0.label>
+  <Megaspider.tools.1.label>머리뿔</Megaspider.tools.1.label>
+  <Megaspider.tools.2.label>머리</Megaspider.tools.2.label>
+  <YorkshireTerrier.tools.0.label>왼쪽 발톱</YorkshireTerrier.tools.0.label>
+  <YorkshireTerrier.tools.1.label>오른쪽 발톱</YorkshireTerrier.tools.1.label>
+  <YorkshireTerrier.tools.3.label>머리</YorkshireTerrier.tools.3.label>
+  <Husky.tools.0.label>왼쪽 발톱</Husky.tools.0.label>
+  <Husky.tools.1.label>오른쪽 발톱</Husky.tools.1.label>
+  <Husky.tools.3.label>머리</Husky.tools.3.label>
+  <LabradorRetriever.tools.0.label>왼쪽 발톱</LabradorRetriever.tools.0.label>
+  <LabradorRetriever.tools.1.label>오른쪽 발톱</LabradorRetriever.tools.1.label>
+  <LabradorRetriever.tools.3.label>머리</LabradorRetriever.tools.3.label>
+  <Cat.tools.0.label>왼쪽 발톱</Cat.tools.0.label>
+  <Cat.tools.1.label>오른쪽 발톱</Cat.tools.1.label>
+  <Cat.tools.3.label>머리</Cat.tools.3.label>
+  <Squirrel.tools.0.label>왼쪽 발톱</Squirrel.tools.0.label>
+  <Squirrel.tools.1.label>오른쪽 발톱</Squirrel.tools.1.label>
+  <Squirrel.tools.3.label>머리</Squirrel.tools.3.label>
+  <Alphabeaver.tools.0.label>왼쪽 발톱</Alphabeaver.tools.0.label>
+  <Alphabeaver.tools.1.label>오른쪽 발톱</Alphabeaver.tools.1.label>
+  <Alphabeaver.tools.3.label>머리</Alphabeaver.tools.3.label>
+  <Capybara.tools.0.label>왼쪽 발톱</Capybara.tools.0.label>
+  <Capybara.tools.1.label>오른쪽 발톱</Capybara.tools.1.label>
+  <Capybara.tools.3.label>머리</Capybara.tools.3.label>
+  <Chinchilla.tools.0.label>왼쪽 발톱</Chinchilla.tools.0.label>
+  <Chinchilla.tools.1.label>오른쪽 발톱</Chinchilla.tools.1.label>
+  <Chinchilla.tools.3.label>머리</Chinchilla.tools.3.label>
+  <Boomrat.tools.0.label>왼쪽 발톱</Boomrat.tools.0.label>
+  <Boomrat.tools.1.label>오른쪽 발톱</Boomrat.tools.1.label>
+  <Boomrat.tools.3.label>머리</Boomrat.tools.3.label>
+  <Raccoon.tools.0.label>왼쪽 발톱</Raccoon.tools.0.label>
+  <Raccoon.tools.1.label>오른쪽 발톱</Raccoon.tools.1.label>
+  <Raccoon.tools.3.label>머리</Raccoon.tools.3.label>
+  <Rat.tools.0.label>왼쪽 발톱</Rat.tools.0.label>
+  <Rat.tools.1.label>오른쪽 발톱</Rat.tools.1.label>
+  <Rat.tools.3.label>머리</Rat.tools.3.label>
+  <Deer.tools.0.label>왼쪽 발굽</Deer.tools.0.label>
+  <Deer.tools.1.label>왼쪽 발굽</Deer.tools.1.label>
+  <Deer.tools.2.label>오른쪽 발굽</Deer.tools.2.label>
+  <Deer.tools.3.label>오른쪽 발굽</Deer.tools.3.label>
+  <Deer.tools.5.label>머리</Deer.tools.5.label>
+  <Deer.tools.6.label>뿔</Deer.tools.6.label>
+  <Ibex.tools.0.label>왼쪽 발굽</Ibex.tools.0.label>
+  <Ibex.tools.1.label>왼쪽 발굽</Ibex.tools.1.label>
+  <Ibex.tools.2.label>오른쪽 발굽</Ibex.tools.2.label>
+  <Ibex.tools.3.label>오른쪽 발굽</Ibex.tools.3.label>
+  <Ibex.tools.5.label>머리</Ibex.tools.5.label>
+  <Ibex.tools.6.label>뿔</Ibex.tools.6.label>
+  <Elk.tools.0.label>왼쪽 발굽</Elk.tools.0.label>
+  <Elk.tools.1.label>왼쪽 발굽</Elk.tools.1.label>
+  <Elk.tools.2.label>오른쪽 발굽</Elk.tools.2.label>
+  <Elk.tools.3.label>오른쪽 발굽</Elk.tools.3.label>
+  <Elk.tools.5.label>머리</Elk.tools.5.label>
+  <Elk.tools.6.label>뿔</Elk.tools.6.label>
+  <Caribou.tools.0.label>왼쪽 발굽</Caribou.tools.0.label>
+  <Caribou.tools.1.label>왼쪽 발굽</Caribou.tools.1.label>
+  <Caribou.tools.2.label>오른쪽 발굽</Caribou.tools.2.label>
+  <Caribou.tools.3.label>오른쪽 발굽</Caribou.tools.3.label>
+  <Caribou.tools.5.label>머리</Caribou.tools.5.label>
+  <Caribou.tools.6.label>뿔</Caribou.tools.6.label>
+  <WildBoar.tools.0.label>엄니</WildBoar.tools.0.label>
+  <WildBoar.tools.1.label>엄니</WildBoar.tools.1.label>
+  <WildBoar.tools.3.label>머리</WildBoar.tools.3.label>
+  <Tortoise.tools.1.label>머리</Tortoise.tools.1.label>
+  <Cobra.tools.0.label>독니</Cobra.tools.0.label>
+  <Cobra.tools.1.label>머리</Cobra.tools.1.label>
+  <Monkey.tools.0.label>왼손</Monkey.tools.0.label>
+  <Monkey.tools.1.label>오른손</Monkey.tools.1.label>
+  <Monkey.tools.3.label>머리</Monkey.tools.3.label>
+  <Boomalope.tools.0.label>머리</Boomalope.tools.0.label>
+  <Boomalope.tools.1.label>왼쪽 발굽</Boomalope.tools.1.label>
+  <Boomalope.tools.2.label>왼쪽 발굽</Boomalope.tools.2.label>
+  <Boomalope.tools.3.label>오른쪽 발굽</Boomalope.tools.3.label>
+  <Boomalope.tools.4.label>오른쪽 발굽</Boomalope.tools.4.label>
+  <Warg.tools.0.label>왼쪽 발톱</Warg.tools.0.label>
+  <Warg.tools.1.label>오른쪽 발톱</Warg.tools.1.label>
+  <Warg.tools.2.label>송곳니</Warg.tools.2.label>
+  <Warg.tools.3.label>머리</Warg.tools.3.label>
+  <Human.tools.0.label>왼주먹</Human.tools.0.label>
+  <Human.tools.1.label>오른주먹</Human.tools.1.label>
+  <Human.tools.2.label>치아</Human.tools.2.label>
+  <Human.tools.3.label>머리</Human.tools.3.label>
+  <Mech_Scyther.tools.0.label>왼쪽 칼날</Mech_Scyther.tools.0.label>
+  <Mech_Scyther.tools.1.label>왼쪽 칼날</Mech_Scyther.tools.1.label>
+  <Mech_Scyther.tools.2.label>오른쪽 칼날</Mech_Scyther.tools.2.label>
+  <Mech_Scyther.tools.3.label>오른쪽 칼날</Mech_Scyther.tools.3.label>
+  <Mech_Scyther.tools.4.label>머리</Mech_Scyther.tools.4.label>
+  <Mech_Lancer.tools.0.label>왼주먹</Mech_Lancer.tools.0.label>
+  <Mech_Lancer.tools.1.label>오른주먹</Mech_Lancer.tools.1.label>
+  <Mech_Lancer.tools.2.label>머리</Mech_Lancer.tools.2.label>
+  <Mech_Pikeman.tools.0.label>왼쪽 앞다리</Mech_Pikeman.tools.0.label>
+  <Mech_Pikeman.tools.1.label>오른쪽 앞다리</Mech_Pikeman.tools.1.label>
+  <Mech_Pikeman.tools.2.label>머리</Mech_Pikeman.tools.2.label>
+  <Mech_Termite.tools.0.label>머리</Mech_Termite.tools.0.label>
   <Boomrat.comps.CompShearableRenameable.growthLabel>분비물</Boomrat.comps.CompShearableRenameable.growthLabel>
   <Boomalope.comps.CompShearableRenameable.growthLabel>분비물</Boomalope.comps.CompShearableRenameable.growthLabel>
   <Apparel_Bandolier.description>예비 탄약을 가까운 곳에 보관하기 위한 무거운 어깨 벨트입니다. 탄환, 수류탄, 화살 등등 착용자가 필요한 물품에 빠르게 접근할 수 있으므로 원거리 무기의 재사용 대기시간이 줄어듭니다. 가방이나 다른 의류, 전술 조끼 등과 함께 사용할 수 있으며, 이들과 달리 몸을 가리지 않으므로 나체주의자들이나 이타킨들도 불만 없이 입을 수 있습니다.</Apparel_Bandolier.description>
