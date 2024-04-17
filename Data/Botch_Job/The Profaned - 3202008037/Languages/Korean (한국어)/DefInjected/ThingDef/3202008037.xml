@@ -149,6 +149,7 @@
   <BotchJob_ProfanedClub.tools.1.label>머리</BotchJob_ProfanedClub.tools.1.label>
   <BotchJob_WeatheredShortbow.label>낡은 단궁</BotchJob_WeatheredShortbow.label>
   <BotchJob_WeatheredShortbow.description>단순한 구조의 나무 단궁입니다. 낡은데다 영 미덥지 않지만 여전히 쓸 수 있습니다.</BotchJob_WeatheredShortbow.description>
+  <BotchJob_WeatheredShortbow.verbs.Verb_Shoot.label>낡은 단궁</BotchJob_WeatheredShortbow.verbs.Verb_Shoot.label>
   <BotchJob_WeatheredShortbow.tools.0.label>활대</BotchJob_WeatheredShortbow.tools.0.label>
   <BotchJob_ScourgeknightGreatsword.label>재앙 기사 그레이트소드</BotchJob_ScourgeknightGreatsword.label>
   <BotchJob_ScourgeknightGreatsword.description>재앙 기사들이 즐겨 사용하는 무기 중 하나로, 뼈로 장식된 거대한 양손용 그레이트소드입니다. 치명적인 위력의 광범위한 베기 공격을 할 수 있습니다.\n\n이 무기에 공격당하면 부패 가스 노출도가 쌓일 수 있습니다.</BotchJob_ScourgeknightGreatsword.description>
@@ -172,21 +173,30 @@
   <BotchJob_IceShards.label>얼음 조각</BotchJob_IceShards.label>
   <BotchJob_ProfanedStaff.label>불경한 스태프</BotchJob_ProfanedStaff.label>
   <BotchJob_ProfanedStaff.description>불경자 무덤 치유사들이 주로 사용하는 불길한 스태프입니다. 약간의 충전 후, 느리게 움직이다 충격을 받으면 터지며 주위에 부패 가스를 퍼뜨리는 발사체를 쏩니다.\n\n충전하는 데 시간이 걸리고 근접 무기로서의 성능은 형편없기 때문에 사용자를 근접전에 취약하게 만듭니다.</BotchJob_ProfanedStaff.description>
+  <BotchJob_ProfanedStaff.verbs.Verb_Shoot.label>불경한 스태프</BotchJob_ProfanedStaff.verbs.Verb_Shoot.label>
   <BotchJob_ProfanedStaff.tools.0.label>자루</BotchJob_ProfanedStaff.tools.0.label>
   <BotchJob_ProfanedStaffBolt.label>불경한 스태프 볼트</BotchJob_ProfanedStaffBolt.label>
   <BotchJob_BloodflameStaff.label>피의 화염 스태프</BotchJob_BloodflameStaff.label>
   <BotchJob_BloodflameStaff.description>불경한 연금술을 통해 더욱 강화된 불경한 스태프입니다. 약간의 충전 후, 느리게 움직이다 충격을 받으면 터지며 주위를 불태우고 부패 가스를 퍼뜨리는 피의 화염이 담긴 발사체를 쏩니다.\n\n본래 쓸 수 있던 공격 외에도, 뜨겁게 타오르는 피의 화염을 분출해 범위 내의 대상에게 피해를 주고 불붙일 수 있습니다.</BotchJob_BloodflameStaff.description>
-  <BotchJob_BloodflameStaff.verbs.Verb_Shoot.label>피의 화염 분출</BotchJob_BloodflameStaff.verbs.Verb_Shoot.label>
+  <BotchJob_BloodflameStaff.verbs.Verb_Shoot.label>피의 화염 스태프</BotchJob_BloodflameStaff.verbs.Verb_Shoot.label>
   <BotchJob_BloodflameStaff.tools.0.label>자루</BotchJob_BloodflameStaff.tools.0.label>
   <BotchJob_BloodflameStaff.comps.Comp_VerbProps.verbProps.0.visualLabel>피의 화염 분출</BotchJob_BloodflameStaff.comps.Comp_VerbProps.verbProps.0.visualLabel>
   <BotchJob_BloodflameStaffBolt.label>피의 화염 스태프 볼트</BotchJob_BloodflameStaffBolt.label>
-  <BotchJob_BloodflameSurgeProj.label>bloodflame surge</BotchJob_BloodflameSurgeProj.label>
   <BotchJob_ProfanedGreatbow.label>불경한 그레이트보우</BotchJob_ProfanedGreatbow.label>
   <BotchJob_ProfanedGreatbow.description>뼈로 장식된 무겁고 거대한 그레이트보우입니다. 쓰기 번거롭지만 가공할 위력의 화살을 먼 거리까지 발사할 수 있습니다.\n\n이 무기에 공격당하면 부패 가스 노출도가 쌓일 수 있습니다.</BotchJob_ProfanedGreatbow.description>
+  <BotchJob_ProfanedGreatbow.verbs.Verb_Shoot.label>불경한 그레이트보우</BotchJob_ProfanedGreatbow.verbs.Verb_Shoot.label>
   <BotchJob_ProfanedGreatbow.tools.0.label>활대</BotchJob_ProfanedGreatbow.tools.0.label>
   <BotchJob_ProfanedGreatbowArrow.label>그레이트보우 화살</BotchJob_ProfanedGreatbowArrow.label>
   <BotchJob_SpectralGreatbow.label>심령 그레이트보우</BotchJob_SpectralGreatbow.label>
   <BotchJob_SpectralGreatbow.description>불경한 연금술을 통해 더욱 강화된 그레이트보우입니다. 목표물을 자동 추적하는 세 개의 심령 화살을 발사합니다.</BotchJob_SpectralGreatbow.description>
+  <BotchJob_SpectralGreatbow.verbs.Verb_Shoot.label>심령 그레이트보우</BotchJob_SpectralGreatbow.verbs.Verb_Shoot.label>
   <BotchJob_SpectralGreatbow.tools.0.label>활대</BotchJob_SpectralGreatbow.tools.0.label>
   <BotchJob_SpectralGreatbowArrow.label>심령 그레이트보우 화살</BotchJob_SpectralGreatbowArrow.label>
+  <BotchJob_UndeadHorse.label>언데드 말</BotchJob_UndeadHorse.label>
+  <BotchJob_UndeadHorse.description>주인을 섬기기 위해 죽음으로부터 돌아온 말입니다.\n\n짐꾼으로 쓸 수 있으며 상단에 있을 시 상단 구성원들을 태워 상단의 속도를 높일 수 있습니다.</BotchJob_UndeadHorse.description>
+  <BotchJob_UndeadHorse.tools.0.label>머리</BotchJob_UndeadHorse.tools.0.label>
+  <BotchJob_UndeadHorse.tools.1.label>left hoof</BotchJob_UndeadHorse.tools.1.label>
+  <BotchJob_UndeadHorse.tools.2.label>right hoof</BotchJob_UndeadHorse.tools.2.label>
+  <BotchJob_UndeadHorseCreation.label>언데드 말</BotchJob_UndeadHorseCreation.label>
+  <BotchJob_UndeadHorseCreation.description>영혼석을 사용해 언데드 말을 만들어냅니다. 대부분의 사회에서 사악하게 여겨 금지된 술법입니다.</BotchJob_UndeadHorseCreation.description>
 </LanguageData>

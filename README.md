@@ -14,7 +14,7 @@ RimWorld Mod Korean Project
   - Github에 Issue 또는 Discussion을 등록하거나
   - 스팀 창작마당 RMK 페이지에 댓글을 작성하거나
   - 림월드 마이너 갤러리에서 글 제목에 <b>[RMK]</b>를 붙여 글을 써주세요.  
-    단순 언급과 섞이는 것을 피하기 위해 대괄호를 반드시 포함하기 바랍니다.
+    (단순 언급과 섞이는 것을 피하기 위해 대괄호를 반드시 포함하기 바랍니다.)
 
 그 외 별도의 연락 창구는 운영하지 않습니다.  
 진행 상황 등에 대한 안내 또한 별도로 하지 않으니 해당 [Issue](https://github.com/RimWorldKorea/RMK/issues)를 확인해주세요.  
@@ -22,7 +22,9 @@ RimWorld Mod Korean Project
 ※ <i>림월드 마이너 갤러리 관리자(주딱, 파딱)와 RMK는 아무런 관계가 없으니 유의바랍니다.</i>
 <hr>
 
-번역의 추가 또는 변경은 림왈도(Crowdin) 서식 xlsx 파일을 통해서 이뤄집니다.  
+번역의 추가 또는 변경은 림추출기의 <i>확장 림왈도 서식</i> xlsx 파일을 통해서 이뤄집니다.  
+보다 매끄러운 협업을 위해서 [림추출기](https://github.com/csh1668/RimworldExtractor/releases)를 사용하여 번역하세요.  
+(알파추출기는 더 이상 사용되지 않습니다.)
 
 - <b>bus</b> 브랜치에 xlsx 파일이 포함된 변경사항을 커밋하거나  
 - 기타 수단을 통해 xlsx 파일을 공유한 뒤 관리자에게 요청하세요
