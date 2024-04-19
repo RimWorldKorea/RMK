@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/TraitDef[defName="PTR01sl"]/degreeDatas/li[1]/label</xpath>
+    <value>
+      <label>&lt;color=#CDCDCD&gt;작위를 갈망&lt;/color&gt;</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/TraitDef[defName="PTR01sl"]/degreeDatas/li[1]/description</xpath>
+    <value>
+      <description>[PAWN_nameDef](은)는 권력을 사랑합니다. [PAWN_pronoun](은)는 항상 더 높은 귀족이 되길 갈망합니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/TraitDef[defName="PTR02qg"]/degreeDatas/li[1]/label</xpath>
+    <value>
+      <label>&lt;color=#CDCDCD&gt;작위를 증오&lt;/color&gt;</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/TraitDef[defName="PTR02qg"]/degreeDatas/li[1]/description</xpath>
+    <value>
+      <description>[PAWN_nameDef](은)는 권력을 덧없다고 생각합니다. [PAWN_pronoun](은)는 귀족 작위를 싫어합니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThoughtDef[defName="MoodOffsetPTR01sl"]/stages/li[1]/label</xpath>
+    <value>
+      <label>작위를 갈망</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThoughtDef[defName="MoodOffsetPTR01sl"]/stages/li[1]/description</xpath>
+    <value>
+      <description>작위를 갈망' 특성에 따른 자연적인 패널티</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThoughtDef[defName="MoodOffsetPTR02qg"]/stages/li[1]/label</xpath>
+    <value>
+      <label>작위를 증오</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThoughtDef[defName="MoodOffsetPTR02qg"]/stages/li[1]/description</xpath>
+    <value>
+      <description>작위를 증오' 특성에 따른 자연적인 패널티</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThoughtDef[defName="PTD02swListeningToHarp"]/stages/li[1]/label</xpath>
+    <value>
+      <label>...</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThoughtDef[defName="PTD02swListeningToHarp"]/stages/li[1]/description</xpath>
+    <value>
+      <description>...</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThoughtDef[defName="PTD02swListeningToHarpsichord"]/stages/li[1]/label</xpath>
+    <value>
+      <label>....</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThoughtDef[defName="PTD02swListeningToHarpsichord"]/stages/li[1]/description</xpath>
+    <value>
+      <description>....</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThoughtDef[defName="PTD02swListeningToPiano"]/stages/li[1]/label</xpath>
+    <value>
+      <label>......</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThoughtDef[defName="PTD02swListeningToPiano"]/stages/li[1]/description</xpath>
+    <value>
+      <description>......</description>
+    </value>
+  </Operation>
+</Patch>
