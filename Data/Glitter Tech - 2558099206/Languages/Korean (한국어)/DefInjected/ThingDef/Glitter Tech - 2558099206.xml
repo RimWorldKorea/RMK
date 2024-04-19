@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <Shield.label>방호판</Shield.label>
   <Shield.description>탄환으로부터 완벽한 방호를 제공합니다.</Shield.description>
@@ -7,21 +7,32 @@
   <Bullet_EMRGTurret.label>EMRG 포탑 탄</Bullet_EMRGTurret.label>
   <Gun_EMRGTurret.label>EMRG 포탑 총기</Gun_EMRGTurret.label>
   <Gun_EMRGTurret.description>터렛에 장착된 임시 EMRG 소총입니다.</Gun_EMRGTurret.description>
+  <Gun_EMRGTurret.verbs.Verb_Shoot.label>EMRG 포탑 총기</Gun_EMRGTurret.verbs.Verb_Shoot.label>
   <CanisterTurret.label>캐니스터 포탑</CanisterTurret.label>
   <CanisterTurret.description>강력한 캐니스터 포탑입니다. 주위의 적에게 자동으로 발포하며, 파괴될 경우 폭발합니다. 비좁은 공간에 효과적입니다.</CanisterTurret.description>
   <Bullet_CanisterTurret.label>캐니스터 탄</Bullet_CanisterTurret.label>
   <Gun_CanisterTurret.label>캐니스터 포탑 총기</Gun_CanisterTurret.label>
   <Gun_CanisterTurret.description>터렛에 장착된 미니건과 샷건의 복합체입니다.</Gun_CanisterTurret.description>
+  <Gun_CanisterTurret.verbs.Verb_Shoot.label>캐니스터 포탑 총기</Gun_CanisterTurret.verbs.Verb_Shoot.label>
   <AutoMortar_GT.label>자동 박격포</AutoMortar_GT.label>
   <AutoMortar_GT.description>자동 박격포탑입니다. 파괴될 경우 폭발합니다.</AutoMortar_GT.description>
+  <Auto_Artillery_Mortar.verbs.Verb_Shoot.label>auto-mortar</Auto_Artillery_Mortar.verbs.Verb_Shoot.label>
   <ClusterMortar.label>자동 클러스터 박격포</ClusterMortar.label>
   <ClusterMortar.description>자동 박격포탑입니다. 클러스터 발사체로 지역을 쑥대밭으로 만듭니다. 파괴될 경우 폭발합니다.</ClusterMortar.description>
+  <Auto_Cluster_Mortar.verbs.Verb_Shoot.label>auto-mortar</Auto_Cluster_Mortar.verbs.Verb_Shoot.label>
   <EMPAMortar.label>자동 EMP 박격포</EMPAMortar.label>
   <EMPAMortar.description>자동 박격포탑입니다. EMP로 전자기기를 무력화시킵니다. 파괴딜 시 폭발합니다.</EMPAMortar.description>
   <Bullet_EMPAMortar.label>EMP 박격포탄 쉘</Bullet_EMPAMortar.label>
+  <Auto_EMP_Mortar.verbs.Verb_Shoot.label>auto-mortar</Auto_EMP_Mortar.verbs.Verb_Shoot.label>
   <MissileSwarmTurret.label>장거리 미사일 포탑</MissileSwarmTurret.label>
   <MissileSwarmTurret.description>자동 미사일 포탑입니다. 정확하고 강력한 미사일을 발사합니다. 파괴될 경우 폭발합니다.</MissileSwarmTurret.description>
+  <Gun_RocketswarmLauncher_GT.verbs.Verb_Shoot.label>rocket-swarm tube</Gun_RocketswarmLauncher_GT.verbs.Verb_Shoot.label>
+  <CruiseMissileTurret.label>순항 미사일 포탑</CruiseMissileTurret.label>
+  <CruiseMissileTurret.description>자동 순항 미사일 포탑입니다. 하나의, 매우 거대한 미사일을 발사합니다. 파괴될 경우 폭발합니다.</CruiseMissileTurret.description>
   <Bullet_CMissileTurret.label>클러스터 미사일</Bullet_CMissileTurret.label>
+  <Gun_CMissileTurret.label>미사일 포탑</Gun_CMissileTurret.label>
+  <Gun_CMissileTurret.description>미사일 발사대. 대량의 미사일을 쏘아냅니다.</Gun_CMissileTurret.description>
+  <Gun_CMissileTurret.verbs.Verb_Shoot.label>미사일 포탑</Gun_CMissileTurret.verbs.Verb_Shoot.label>
   <ambTable.label>재생 포드</ambTable.label>
   <ambTable.description>이 의료 포드는 남성 환자 전용으로 조율되어 있음을 주의하십시오. 이 포드는 위중한 환자를 위해 설계되었습니다. 생분해성 자가 복제 나노 머신을 혈류에 주입하여, 대부분의 상처를 재생합니다. 그러나 여전히 몇몇의 상처는 의료진의 도움을 필요로 합니다.</ambTable.description>
   <DynChair.label>안마 의자</DynChair.label>
@@ -50,18 +61,18 @@
   <WallWindow.description>전선과 방탄기능을 제공하는 창입니다.</WallWindow.description>
   <WallLight_White.label>벽면 조명</WallLight_White.label>
   <WallLight_White.description>램프가 어울리지 않는 복도를 위한 벽면 조명입니다.</WallLight_White.description>
-  <WallLight_Red.label>벽면 조명 (빨강)</WallLight_Red.label>
   <WallLight_Red.description>램프가 어울리지 않는 복도를 위한 벽면 조명입니다.</WallLight_Red.description>
-  <WallLight_Green.label>벽면 조명 (초록)</WallLight_Green.label>
+  <WallLight_Red.label>벽면 조명 (빨강)</WallLight_Red.label>
   <WallLight_Green.description>램프가 어울리지 않는 복도를 위한 벽면 조명입니다.</WallLight_Green.description>
-  <WallLight_Blue.label>벽면 조명 (파랑)</WallLight_Blue.label>
+  <WallLight_Green.label>벽면 조명 (초록)</WallLight_Green.label>
   <WallLight_Blue.description>램프가 어울리지 않는 복도를 위한 벽면 조명입니다.</WallLight_Blue.description>
-  <WallLight_Yellow.label>벽면 조명 (노랑)</WallLight_Yellow.label>
+  <WallLight_Blue.label>벽면 조명 (파랑)</WallLight_Blue.label>
   <WallLight_Yellow.description>램프가 어울리지 않는 복도를 위한 벽면 조명입니다.</WallLight_Yellow.description>
-  <WallLight_Purple.label>벽면 조명 (보라)</WallLight_Purple.label>
+  <WallLight_Yellow.label>벽면 조명 (노랑)</WallLight_Yellow.label>
   <WallLight_Purple.description>램프가 어울리지 않는 복도를 위한 벽면 조명입니다.</WallLight_Purple.description>
-  <WallLight_Cyan.label>벽면 조명 (청록)</WallLight_Cyan.label>
+  <WallLight_Purple.label>벽면 조명 (보라)</WallLight_Purple.label>
   <WallLight_Cyan.description>램프가 어울리지 않는 복도를 위한 벽면 조명입니다.</WallLight_Cyan.description>
+  <WallLight_Cyan.label>벽면 조명 (청록)</WallLight_Cyan.label>
   <ImpactionCharge.label>압축작탄</ImpactionCharge.label>
   <ImpactionCharge.description>명령에 의해서 폭파됩니다. 플라즈마의 폭풍을 일으켜 기반암에 직접적인 충격을 줍니다. 소행성 굴착이나 지하 자원에 접근하는데에 사용됩니다.</ImpactionCharge.description>
   <EMPCharge.label>EMPD-1 작탄</EMPCharge.label>
@@ -137,6 +148,7 @@
   <Bullet_APBPistol.label>APB탄</Bullet_APBPistol.label>
   <Gun_APB-1Pistol.label>APB-1 권총</Gun_APB-1Pistol.label>
   <Gun_APB-1Pistol.description>음이온 입자 빔 권총 마크 1. APB-1 소총의 작은 버전입니다. 이 권총은 수소를 통해 음이온을 발생시키며, 물질을 원자단위로 분해할 수 있는 중성 전하를 가지는 운동 발사체를 만들어 냅니다. 정확하고 강력한 이 무기는 대부분의 대상을 발화시킵니다.</Gun_APB-1Pistol.description>
+  <Gun_APB-1Pistol.verbs.Verb_Shoot.label>APB-1 권총</Gun_APB-1Pistol.verbs.Verb_Shoot.label>
   <Gun_APB-1Pistol.tools.0.label>개머리판</Gun_APB-1Pistol.tools.0.label>
   <Gun_APB-1Pistol.tools.1.label>총열</Gun_APB-1Pistol.tools.1.label>
   <Bullet_APBProjector.label>APB탄</Bullet_APBProjector.label>
@@ -144,9 +156,11 @@
   <Gun_APB-1Projector.description>음이온 입자 빔 투사기 마크 1. 최첨단 대공 및 대전차 무기입니다. 이 투사기는 수소를 통해 음이온을 쏘아내며, 물질을 원자단위로 분해할 수 있는 중성 전하를 가지는 운동 발사체를 만들어 냅니다. 정확하고 강력한 이 무기는 파괴적인 폭발을 형성할 수 있습니다.</Gun_APB-1Projector.description>
   <Gun_APB-1Projector.tools.0.label>개머리판</Gun_APB-1Projector.tools.0.label>
   <Gun_APB-1Projector.tools.1.label>총열</Gun_APB-1Projector.tools.1.label>
+  <Gun_APB-1Projector.verbs.Verb_Shoot.label>APB-1 투사기</Gun_APB-1Projector.verbs.Verb_Shoot.label>
   <Bullet_APBRifle.label>APB탄</Bullet_APBRifle.label>
   <Gun_APB-1Rifle.label>APB-1 소총</Gun_APB-1Rifle.label>
   <Gun_APB-1Rifle.description>음이온 입자 빔 소총 마크 1. 대인 무기의 최고봉으로, 이 소총은 수소를 통해 음이온을 쏘아내며, 물질을 원자단위로 분해할 수 있는 중성 전하를 가지는 운동 발사체를 만들어 냅니다. 정확하고 강력한 이 무기는 대부분의 대상을 발화시킵니다.</Gun_APB-1Rifle.description>
+  <Gun_APB-1Rifle.verbs.Verb_Shoot.label>APB-1 소총</Gun_APB-1Rifle.verbs.Verb_Shoot.label>
   <Gun_APB-1Rifle.tools.0.label>개머리판</Gun_APB-1Rifle.tools.0.label>
   <Gun_APB-1Rifle.tools.1.label>총열</Gun_APB-1Rifle.tools.1.label>
   <Bullet_EMRifle.label>EMRG탄</Bullet_EMRifle.label>
@@ -154,6 +168,7 @@
   <Gun_EMRifle.description>전자기 레일건. 최신의 장거리 저격소총입니다. 매우 강력합니다.</Gun_EMRifle.description>
   <Gun_EMRifle.tools.0.label>개머리판</Gun_EMRifle.tools.0.label>
   <Gun_EMRifle.tools.1.label>총열</Gun_EMRifle.tools.1.label>
+  <Gun_EMRifle.verbs.Verb_Shoot.label>EMRG-1</Gun_EMRifle.verbs.Verb_Shoot.label>
   <MeleeWeapon_GTPacifier.label>오리온 제압봉</MeleeWeapon_GTPacifier.label>
   <MeleeWeapon_GTPacifier.description>목표에게 화상과 감전을 선사하는 전극이 장착된 봉입니다. 일정한 피해에 한해 고통을 극대화 시킬 수 있도록 설계되었습니다.</MeleeWeapon_GTPacifier.description>
   <MeleeWeapon_GTPacifier.tools.0.label>막대기</MeleeWeapon_GTPacifier.tools.0.label>
@@ -162,26 +177,32 @@
   <Gun_MRGPistol.description>소형 레일건 마크 5. MRG-5 소총의 소형화 형태입니다. 이 권총은 최첨단 레일건 기술의 다섯번째 시리즈로, 매우 정확하고 강력하며, 기존의 것을 신석기 시대의 것처럼 보이게 만듭니다.</Gun_MRGPistol.description>
   <Gun_MRGPistol.tools.0.label>개머리판</Gun_MRGPistol.tools.0.label>
   <Gun_MRGPistol.tools.1.label>총열</Gun_MRGPistol.tools.1.label>
+  <Gun_MRGPistol.verbs.Verb_Shoot.label>MRG-5 권총</Gun_MRGPistol.verbs.Verb_Shoot.label>
   <Bullet_MRGRifle.label>MRG탄</Bullet_MRGRifle.label>
   <Gun_MRGRifle.label>MRG-5 소총</Gun_MRGRifle.label>
   <Gun_MRGRifle.description>소형 레일건 마크 5. 이 소총은 최첨단 레일건 기술의 다섯번째 시리즈로, 매우 정확하고 강력하며, 기존의 것을 신석기 시대의 것처럼 보이게 만듭니다.</Gun_MRGRifle.description>
   <Gun_MRGRifle.tools.0.label>개머리판</Gun_MRGRifle.tools.0.label>
   <Gun_MRGRifle.tools.1.label>총열</Gun_MRGRifle.tools.1.label>
+  <Gun_MRGRifle.verbs.Verb_Shoot.label>MRG-5 소총</Gun_MRGRifle.verbs.Verb_Shoot.label>
   <Bullet_OCPistol.label>OC탄</Bullet_OCPistol.label>
   <Gun_OCPDPistol.label>오리온 방어용 권총</Gun_OCPDPistol.label>
   <Gun_OCPDPistol.description>오리온 사의 개인 방어용 무기입니다. 이 권총은 가벼우며 적대적 환경에 대해 개인을 완벽하게 보호할 수 있습니다.</Gun_OCPDPistol.description>
   <Gun_OCPDPistol.tools.0.label>개머리판</Gun_OCPDPistol.tools.0.label>
   <Gun_OCPDPistol.tools.1.label>총열</Gun_OCPDPistol.tools.1.label>
+  <Gun_OCPDPistol.verbs.Verb_Shoot.label>오리온 방어용 권총</Gun_OCPDPistol.verbs.Verb_Shoot.label>
   <Bullet_OCRifle.label>OC탄</Bullet_OCRifle.label>
   <Gun_OCPDRifle.label>오리온 방어용 소총</Gun_OCPDRifle.label>
   <Gun_OCPDRifle.description>오리온 사의 개인 방어용 무기입니다. 이 소총은 가벼우며 적대적 환경에 대해 개인을 완벽하게 보호할 수 있습니다.</Gun_OCPDRifle.description>
   <Gun_OCPDRifle.tools.0.label>개머리판</Gun_OCPDRifle.tools.0.label>
   <Gun_OCPDRifle.tools.1.label>총열</Gun_OCPDRifle.tools.1.label>
+  <Gun_OCPDRifle.verbs.Verb_Shoot.label>오리온 방어용 소총</Gun_OCPDRifle.verbs.Verb_Shoot.label>
   <Gun_OCRocket.label>오리온 로켓 런쳐</Gun_OCRocket.label>
   <Gun_OCRocket.description>오리온 사의 기본 대전차 무기입니다. 레이저 가이드로 기존의 로켓 런쳐보다 훨씬 정확합니다.</Gun_OCRocket.description>
   <Gun_OCRocket.tools.0.label>개머리판</Gun_OCRocket.tools.0.label>
   <Gun_OCRocket.tools.1.label>총열</Gun_OCRocket.tools.1.label>
+  <Gun_OCRocket.verbs.Verb_ShootOneUse.label>오리온 로켓 런쳐</Gun_OCRocket.verbs.Verb_ShootOneUse.label>
   <Bullet_OCTankShell.label>폭발성 박격포탄</Bullet_OCTankShell.label>
   <Gun_OCTurret.label>지옥화염포</Gun_OCTurret.label>
   <Gun_OCTurret.description>소이탄을 쏘아내는 소구경 포입니다. 메카노이드에 탑재되어 있습니다.</Gun_OCTurret.description>
+  <Gun_OCTurret.verbs.Verb_Shoot.label>지옥화염포</Gun_OCTurret.verbs.Verb_Shoot.label>
 </LanguageData>
