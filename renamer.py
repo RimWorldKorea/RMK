@@ -51,10 +51,10 @@ if __name__ == '__main__':
     for (root, dirs, files) in os.walk(RKM_DATA_PATH):
         for file_name in files:
             for prefix in WHITELISTED_PREFIX:
-                if file_name in prefix:
+                if file_name.startswith(prefix):
                     break
             else:
-                if '.xml' in str.lower(file_name) and not str.startswith(file_name, WHITELISTED_PREFIX) and not file_name[:-4].isdecimal():
+                if '.xml' in str.lower(file_name) and not file_name[:-4].isdecimal():
                     src = os.path.join(root, file_name)
                     dest = os.path.join(root, '{0:05d}.xml'.format(int(get_empty_idx())))
                     print(f'{src} -> {os.path.basename(dest)}')
