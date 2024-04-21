@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="TSFApparel_KidKamon"]/description</xpath>
+          <value>
+            <description>아이들을 위한 심플하고 캐주얼한 사이즈의 가운입니다. 사계절 내내 편안하게 착용할 수 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="TSFApparel_KidKamon"]/label</xpath>
+          <value>
+            <label>어린이 코몬</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="TSFApparel_KidGi"]/description</xpath>
+          <value>
+            <description>간단한 아동용 훈련복입니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="TSFApparel_KidGi"]/label</xpath>
+          <value>
+            <label>어린이 기</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
