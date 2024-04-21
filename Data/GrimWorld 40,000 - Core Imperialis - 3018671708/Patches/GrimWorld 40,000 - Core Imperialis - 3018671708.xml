@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="GW_Wall_Destr_Shootable"]/label</xpath>
+    <value>
+      <label>구멍난 벽</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="GW_Wall_Destr_Shootable"]/description</xpath>
+    <value>
+      <description>손상된 벽. 여러 개의 작은 구멍을 통해 사격 할 수 있습니다. 통과 불가능. 어떻게든 지붕을 지탱할 수 있습니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="GW_Wall_Destr_Climbable"]/label</xpath>
+    <value>
+      <label>뚫린 벽</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="GW_Wall_Destr_Climbable"]/description</xpath>
+    <value>
+      <description>손상된 벽. 큰 구멍이 있어 그 위로 올라갈 수 있습니다. 시야를 가립니다. 어떻게든 지붕을 지탱합니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="GW_Wall_Destr_Rubble"]/label</xpath>
+    <value>
+      <label>잔해</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="GW_Wall_Destr_Rubble"]/description</xpath>
+    <value>
+      <description>무너진 벽의 잔해. 지붕을 지탱할 수 없고 지나가기 어렵습니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="GW_ReinforcedWall_Destr_Shootable"]/description</xpath>
+    <value>
+      <description>손상된 벽. 여러 개의 작은 구멍을 통해 사격 할 수 있습니다. 통과 불가능. 어떻게든 지붕을 지탱할 수 있습니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="GW_ReinforcedWall_Destr_Shootable"]/label</xpath>
+    <value>
+      <label>구멍난 강화 벽</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="GW_ReinforcedWall_Destr_Climbable"]/description</xpath>
+    <value>
+      <description>손상된 벽. 큰 구멍이 있어 그 위로 올라갈 수 있습니다. 시야를 가립니다. 어떻게든 지붕을 지탱합니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="GW_ReinforcedWall_Destr_Climbable"]/label</xpath>
+    <value>
+      <label>뚫린 강화 벽</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="GW_ReinforcedWall_Destr_Rubble"]/label</xpath>
+    <value>
+      <label>잔해</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="GW_ReinforcedWall_Destr_Rubble"]/description</xpath>
+    <value>
+      <description>무너진 벽의 잔해. 지붕을 지탱할 수 없고 지나가기 어렵습니다.</description>
+    </value>
+  </Operation>
+</Patch>
