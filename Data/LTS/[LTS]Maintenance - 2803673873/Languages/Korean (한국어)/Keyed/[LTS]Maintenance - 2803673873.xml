@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <Degradation>성능 저하</Degradation>
   <DegradationDesc>품질 별로 무기 발사 시 무기의 내구도가 손상되는지 여부입니다.</DegradationDesc>
@@ -15,7 +15,9 @@
   <PlaySound>수리 사운드 재생</PlaySound>
   <PlaySoundDesc>수리나 수선할 때 소리가 나는지 여부</PlaySoundDesc>
   <NoComponentsToRepair>수리 도구 키트 필요</NoComponentsToRepair>
-  <MaintenanceDefault>기본값</MaintenanceDefault>
   <BaseChance>품질 없음</BaseChance>
   <LTSRepaired>{PAWN_nameDef}(이)가 {0}을(를) 수리하여 내구도가 {2}에서 {3}으로 {1}포인트 올랐습니다. 최대 내구도는 {4}입니다.</LTSRepaired>
+  <ComponentRepair>부품으로 건물 수리 허용</ComponentRepair>
+  <ComponentRepairDesc>수리 키트를 찾을 수 없는 경우 부품을 사용하여 구조물을 수리할 수 있도록 허용합니다.</ComponentRepairDesc>
+  <LTSSettingsQualityConfiguration>품질 설정</LTSSettingsQualityConfiguration>
 </LanguageData>
