@@ -7,8 +7,11 @@
     
 <description>림월드 모드의 한국어 번역을 위한 모드입니다.
 
- - 기존의 모든 번역팩을 대체하므로 단독으로 사용해주세요.
- - 배열 위치는 별다른 사항이 없다면 맨 아래입니다.
+[배열 순서]
+- RocketMan 모드 사용 시 RocketMan을 제일 아래에 두세요.
+- RMK를 가능한 아래에 두세요. 그렇지 않으면 번역의 유효성이 담보되지 않을 수 있습니다.
+- RMK의 '보다 뒤에 불러와야 합니다' 규칙은 이 설명을 읽지 않는 사용자를 위한 것입니다.
+- 설정된 배열 규칙을 따르지 않아서 경고가 뜨더라도 기본적으로는 무해합니다.
 
 번역 추가 ,수정 및 기타 문제 사항등에 관한 제보나 문의는
 창작마당, GitHub Discussions 또는 림월드 마이너 갤러리를 이용해주세요.
@@ -34,5 +37,18 @@
         <li>maxzicode.translatednames</li><!-- Translated names (1.1) -->
         <li>kamikadza13.all.names</li><!-- Translated names (1.4) -->
     </incompatibleWith>
+
+    <loadAfter><!-- 한국어 언어 파일이 존재해서 RMK를 덮어쓸 가능성이 있는 모드들 -->
+        <li>rwmt.Multiplayer</li><!-- Multiplayer -->
+        <li>Fluffy.FluffyRelations</li><!-- Relations Tab -->
+        <li>Uuugggg.ReplaceStuff</li><!-- Replace Stuff -->
+        <li>Lat.Rimstro</li><!-- Rimstro -->
+        <li>neronix17.toolbox</li><!-- Tabula Rasa -->
+        <li>TradingControl.Common.Core</li><!-- Trading Control -->
+    </loadAfter>
+
+    <loadBefore>
+        <li>Krkr.RocketMan</li><!-- RocketMan - Performance Mod -->
+    </loadBefore>
 
 </ModMetaData>
