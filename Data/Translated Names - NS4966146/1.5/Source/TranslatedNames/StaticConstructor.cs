@@ -67,7 +67,7 @@ public static class StaticConstructor
 
 	static StaticConstructor()
 	{
-		rootPath = ModLister.AllInstalledMods.First((ModMetaData m) => m.packageIdLowerCase == "rmk.translation").RootDir.FullName;
+		rootPath = ModLister.GetActiveModWithIdentifier("rmk.translation", true).RootDir.FullName;
 		string translationLanguage = GetTranslationLanguage(Path.Combine(rootPath, "Data", "Translated Names - NS4966146", "1.5", "Translations", "Main settings.xml"));
 		if (!string.IsNullOrEmpty(translationLanguage))
 		{
