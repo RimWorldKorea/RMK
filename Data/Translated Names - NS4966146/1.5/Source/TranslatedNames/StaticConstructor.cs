@@ -72,7 +72,7 @@ public static class StaticConstructor
 		if (!string.IsNullOrEmpty(translationLanguage))
 		{
 			translationPath = Path.Combine(rootPath, "Data", "Translated Names - NS4966146", "1.5", "Translations", translationLanguage);
-			new Harmony("rimworld.maxzicode.translatednames.mainconstructor").PatchAll(Assembly.GetExecutingAssembly());
+			new Harmony("rimworld.rmk.translatednames.mainconstructor").PatchAll(Assembly.GetExecutingAssembly());
 		}
 	}
 
