@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Alert_TooMuchResearchStored.Label>현재 저장된 연구 점수 : ({0})</Alert_TooMuchResearchStored.Label>
+  <Alert_TooMuchResearchStored.Explanation>저장되어 있는 연구 점수가 많습니다. 이 점수를 사용하거나 연구 담당자를 다른 작업에 재배치하는 것을 고려 해 보십시오.\n\n(저장된 연구 점수의 통계를 확인하려면 누르십시오)</Alert_TooMuchResearchStored.Explanation>
+  <ToolTip.ThisIsStoredResearch>특정 연구와 연결되어 있지 않은 저장된 연구 점수는 ({0}) 점입니다. 이 점수는 조건을 만족하는 연구에 사용할 수 있습니다. 연구를 선택하지 않은 상태에서 연구 작업을 진행하면 연구 점수가 저장됩니다.</ToolTip.ThisIsStoredResearch>
+  <CommandToggleStoreResearch.Label>연구 점수 저장</CommandToggleStoreResearch.Label>
+  <CommandToggleStoreResearch.Desc>활성화되어 있는 경우 정착지의 연구 담당자들은 연구를 선택하지 않은 상태에서도 연구대에서 연구 작업을 진행할 수 있습니다. 생성된 연구 점수는 저장되며 조건을 만족하는 다른 연구에 사용할 수 있습니다.</CommandToggleStoreResearch.Desc>
+  <StoredResearchInfoDialog.Name>저장된 연구 점수 통계</StoredResearchInfoDialog.Name>
+  <StoredResearchInfoDialog.Title>저장된 연구 점수</StoredResearchInfoDialog.Title>
+  <StoredResearchInfoDialog.Total>합계:</StoredResearchInfoDialog.Total>
+  <StoredResearchInfoDialog.UniversalPoints>전체 점수:</StoredResearchInfoDialog.UniversalPoints>
+  <StoredResearchInfoDialog.NoFacilities>연결된 시설 없음</StoredResearchInfoDialog.NoFacilities>
+  <StoredResearchModSettings.StoredResearchStats>저장된 연구 점수 (이 저장 파일)</StoredResearchModSettings.StoredResearchStats>
+  <StoredResearchModSettings.ResetStoredResearch>저장된 연구 점수 초기화 (이 저장 파일)</StoredResearchModSettings.ResetStoredResearch>
+  <StoredResearchModSettings.ResetStoredResearch.ConfirmationText>저장되어 있는 모든 점수가 소멸합니다. 정말 실행하시겠습니까?</StoredResearchModSettings.ResetStoredResearch.ConfirmationText>
+  <StoredResearchModSettings.StoredResearchEnabledByDefault>연구 점수 저장 기능 기본 활성화</StoredResearchModSettings.StoredResearchEnabledByDefault>
+  <StoredResearchModSettings.StoredResearchEnabledByDefaultToolTip>활성화 시 연구 작업대가 건설될 때 기본적으로 연구 점수 저장 기능이 활성화됩니다.</StoredResearchModSettings.StoredResearchEnabledByDefaultToolTip>
+  <StoredResearchModSettings.StoredResearchPointsSourceMemory>점수를 저장할 때 점수가 저장된 환경을 기록</StoredResearchModSettings.StoredResearchPointsSourceMemory>
+  <StoredResearchModSettings.StoredResearchPointsSourceMemoryToolTip>연구 조건을 충족하지 않는 작업대에서 저장된 점수는 해당 연구에서 사용할 수 없도록 제한합니다. 예를 들어 기본적인 연구 작업대에서 저장된 점수는 복합 분석기를 요구하는 연구에 사용할 수 없습니다.</StoredResearchModSettings.StoredResearchPointsSourceMemoryToolTip>
+  <StoredResearchModSettings.ResearchProgressBarType>연구 진행 표시줄 표시</StoredResearchModSettings.ResearchProgressBarType>
+  <StoredResearchModSettings.ResearchProgressBarTypeTooltip>연구 창에서 저장된 연구가 어떤 식으로 표시할 지를 결정합니다.</StoredResearchModSettings.ResearchProgressBarTypeTooltip>
+  <StoredResearchModSettings.Opposite>역방향</StoredResearchModSettings.Opposite>
+  <StoredResearchModSettings.RegularFirst>결합, 일반 연구 점수 우선</StoredResearchModSettings.RegularFirst>
+  <StoredResearchModSettings.ReverseFirst>결합, 저장된 연구 점수 우선</StoredResearchModSettings.ReverseFirst>
+  <StoredResearchModSettings.ResettingResearchResetsStoredResearch>연구가 재설정되면 저장된 연구 점수도 재설정</StoredResearchModSettings.ResettingResearchResetsStoredResearch>
+  <StoredResearchModSettings.ResettingResearchResetsStoredResearchToolTip>특수한 이벤트(초월 연결체로 정착지 판매 후 연구 초기화)가 발생하여 정착지의 연구 상태가 초기화되면 저장된 모든 연구 점수가 손실됩니다.</StoredResearchModSettings.ResettingResearchResetsStoredResearchToolTip>
+  <StoredResearchModSettings.StoredResearchAlertTheshold>경고 표시 기준</StoredResearchModSettings.StoredResearchAlertTheshold>
+  <StoredResearchModSettings.StoredResearchAlertThesholdToolTip>저장된 연구 점수가 이 수치를 초과하면 경고가 표시됩니다.</StoredResearchModSettings.StoredResearchAlertThesholdToolTip>
+  <StoredResearchModSettings.DisableCompletionDialogForInstantResearch>연구가 즉시 완료될 때 대화 상자 비활성화</StoredResearchModSettings.DisableCompletionDialogForInstantResearch>
+  <StoredResearchModSettings.DisableCompletionDialogForInstantResearchToolTip>현재 진행중이거나 새로 연구를 시작할 때 저장된 점수가 해당 연구 점수보다 높을 경우 연구가 즉시 완료되면서 뜨는 연구 완료 메세지를 출력하지 않습니다. 모드를 사용하지 않은 기본 연구 창에만 적용됩니다.</StoredResearchModSettings.DisableCompletionDialogForInstantResearchToolTip>
+</LanguageData>
