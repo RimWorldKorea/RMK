@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <SmartFarming.Icon.On>활성화</SmartFarming.Icon.On>
   <SmartFarming.Icon.On.Desc>성장이 가능한 상황에서 작물을 파종합니다.</SmartFarming.Icon.On.Desc>
@@ -10,6 +10,13 @@
   <SmartFarming.Icon.Force.Desc>기온과 상관없이 무조건 파종합니다.</SmartFarming.Icon.Force.Desc>
   <SmartFarming.Icon.HarvestNow>즉시 수확</SmartFarming.Icon.HarvestNow>
   <SmartFarming.Icon.HarvestNow.Desc>현재 재배구역 내에서 수확 가능하지만 완전히 자라지는 않은 식물들을 전부 수확하도록 지시합니다.</SmartFarming.Icon.HarvestNow.Desc>
+  <SmartFarming.Icon.AllowHarvest>수확 허용</SmartFarming.Icon.AllowHarvest>
+  <SmartFarming.Icon.AllowHarvest.Desc>이 구역에서 작물을 수확하는 것을 허용합니다.</SmartFarming.Icon.AllowHarvest.Desc>
+  <SmartFarming.Icon.OrchardAlignment>가지런히 심기</SmartFarming.Icon.OrchardAlignment>
+  <SmartFarming.Icon.OrchardAlignment.Desc>나무와 같이 여유 공간이 필요한 식물을 심을 때 가능한 일렬로 심도록 설정합니다. 영역의 형태가 특수할 경우 제대로 작동하지 않을 수 있습니다.</SmartFarming.Icon.OrchardAlignment.Desc>
+  <SmartFarming.Icon.MergeZones>구역 병합</SmartFarming.Icon.MergeZones>
+  <SmartFarming.Icon.MergeZones.Desc>첫번째로 선택한 영역의 설정을 기반으로 사용하여 선택된 모든 영역을 하나의 영역으로 병합합니다.
+	</SmartFarming.Icon.MergeZones.Desc>
   <SmartFarming.Icon.Low>낮음</SmartFarming.Icon.Low>
   <SmartFarming.Icon.Normal>중간</SmartFarming.Icon.Normal>
   <SmartFarming.Icon.Preferred>선호</SmartFarming.Icon.Preferred>
@@ -18,6 +25,10 @@
   <SmartFarming.Icon.Priority.Desc>재배구역에 우선순위를 설정합니다. 우선순위가 높은 재배구역부터 파종과 수확 작업을 실행합니다.</SmartFarming.Icon.Priority.Desc>
   <SmartFarming.Icon.NoPettyJobs>사소한 작업 보류</SmartFarming.Icon.NoPettyJobs>
   <SmartFarming.Icon.NoPettyJobs.Desc>재배 시작 비율보다 구역 내 빈 타일의 비율이 적을 경우 파종 작업을 보류합니다.</SmartFarming.Icon.NoPettyJobs.Desc>
+  <SmartFarming.Settings.ColdSowing>추울 때 파종 허용</SmartFarming.Settings.ColdSowing>
+  <SmartFarming.Settings.ColdSowing.Desc>일반적인 상황에서는 작물이 동사하는 기온에서 식물을 재배하는 것을 금지합니다.</SmartFarming.Settings.ColdSowing.Desc>
+  <SmartFarming.Settings.AllowHarvest>수확 허용 표시</SmartFarming.Settings.AllowHarvest>
+  <SmartFarming.Settings.AllowHarvest.Desc>"수확 허용" 기능을 표시합니다. 원예 담당자가 많은 상태에서 이 기능을 활성화하면 성능에 어느 정도 영향을 미칠 수 있습니다. 게임을 다시 시작해야 적용됩니다.</SmartFarming.Settings.AllowHarvest.Desc>
   <SmartFarming.Settings.SmartSowLabel>자동 파종 설정</SmartFarming.Settings.SmartSowLabel>
   <SmartFarming.Settings.ProcessedFoodLabel>가공된 식품의 열량 보정값</SmartFarming.Settings.ProcessedFoodLabel>
   <SmartFarming.Settings.UseAverageTemperature>최저 기온이 아닌 평균 기온을 기반으로 예측</SmartFarming.Settings.UseAverageTemperature>
@@ -26,6 +37,11 @@
   <SmartFarming.Settings.UseAverageFertility.Desc>작물의 성장을 예측 할 때 가장 비옥도가 낮은 토양 대신 평균적인 비옥도를 기반으로 계산합니다.</SmartFarming.Settings.UseAverageFertility.Desc>
   <SmartFarming.Settings.AutoCutBlighted>병충해에 걸린 작물에게 자동으로 제초 명령</SmartFarming.Settings.AutoCutBlighted>
   <SmartFarming.Settings.AutoCutBlighted.Desc>작물이 병충해에 걸리면 자동으로 제초 명령이 내려집니다.</SmartFarming.Settings.AutoCutBlighted.Desc>
+  <SmartFarming.Settings.AutoHarvestNow>밤 기온이 위험한 수준으로 낮아질 것으로 예상될 때 미리 수확</SmartFarming.Settings.AutoHarvestNow>
+  <SmartFarming.Settings.AutoHarvestNow.Desc>식물이 얼어죽을 정도로 낮은 밤 기온이 예상되면, 모든 작물을 즉시 수확하도록 합니다.</SmartFarming.Settings.AutoHarvestNow.Desc>
+  <SmartFarming.Message.AutoHarvestNow>오늘 밤의 예상 온도가 낮아 작물들에게 조기 수확 명령을 내렸습니다..</SmartFarming.Message.AutoHarvestNow>
+  <SmartFarming.Settings.OrchardAlignment>가지런히 심기</SmartFarming.Settings.OrchardAlignment>
+  <SmartFarming.Settings.OrchardAlignment.Desc>정착민들이 나무를 가지런히 심도록 지시합니다.</SmartFarming.Settings.OrchardAlignment.Desc>
   <SmartFarming.Settings.AutoCutDying>얼어붙고 있는 작물에게 자동으로 수확 명령</SmartFarming.Settings.AutoCutDying>
   <SmartFarming.Settings.AutoCutDying.Desc>작물이 추위로 죽기 시작하면 다른 작물에게 자동으로 수확 명령이 내려집니다.</SmartFarming.Settings.AutoCutDying.Desc>
   <SmartFarming.Settings.ProcessedFood.Desc>재배 구역에서 열랑 추정치를 계산 할 때 이 값만큼을 곱해서 보정합니다. 간단한 식사의 경우 1.8을 곱합니다.</SmartFarming.Settings.ProcessedFood.Desc>
@@ -38,5 +54,6 @@
   <SmartFarming.Inspector.Fertility>\n평균 비옥도: </SmartFarming.Inspector.Fertility>
   <SmartFarming.Inspector.AverageGrowth>\n평균 성장률: </SmartFarming.Inspector.AverageGrowth>
   <SmartFarming.Inspector.Yield>\n열량 추정치: </SmartFarming.Inspector.Yield>
-  <SmartFarming.Inspector.DaysWorth> 소비 가능한 일 수)</SmartFarming.Inspector.DaysWorth>
+  <SmartFarming.Inspector.DaysWorth>(소비 가능한 일 수)</SmartFarming.Inspector.DaysWorth>
+  <SmartFarming.Icon.SetAll>선택된 영역 전부</SmartFarming.Icon.SetAll>
 </LanguageData>
