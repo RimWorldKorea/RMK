@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <Mote_FecalBit.label>mote</Mote_FecalBit.label>
+  <Mote_Bucket.label>더미</Mote_Bucket.label>
+  <Mote_Plunger.label>더미</Mote_Plunger.label>
+  <Mote_FecalBit.label>더미</Mote_FecalBit.label>
   <BionicBladder.label>생체공학 방광</BionicBladder.label>
   <BionicBladder.description>진보된 기술이 적용된 인공 방광입니다. 체내의 유용한 노폐물들을 분자단위로 분해하고, 쓸모없는 나머지를 가스로 변환하여 배출하도록 합니다.</BionicBladder.description>
   <HygieneEnhancer.label>위생 증진기</HygieneEnhancer.label>
@@ -10,7 +12,7 @@
   <plumbingValve.label>배관 밸브</plumbingValve.label>
   <plumbingValve.description>배관 개폐에 사용되는 밸브입니다.</plumbingValve.description>
   <airPipe.label>에어컨 배관</airPipe.label>
-  <airPipe.description>공기가 흐를 수 있는 배관입니다.</airPipe.description>
+  <airPipe.description>에어컨의 각 유닛을 연결하기 위한 배관입니다.</airPipe.description>
   <ToiletStallDoor.label>화장실 문</ToiletStallDoor.label>
   <ToiletStallDoor.description>정착민의 사생활을 위해 시선을 차단하는 얇은 문입니다. 단열이 되지 않으며 별개의 방으로 인식되지 않습니다.</ToiletStallDoor.description>
   <PitLatrine.label>변소</PitLatrine.label>
@@ -29,10 +31,10 @@
   <BurnPit.description>시체나 다른 쓰레기를 처리하기 위해 오물을 연료로 타오르는 구덩이입니다. 그 때문에 소각장 주변에 오래 머무르면 질병의 위험이 있습니다.</BurnPit.description>
   <BasinStuff.description>화장실 이용 후 손을 씻기 위한 간단한 세면대입니다.</BasinStuff.description>
   <BasinStuff.label>세면대</BasinStuff.label>
-  <Fountain.description>물을 마시거나 간단히 씻을 수 있는 수도관입니다.</Fountain.description>
   <Fountain.label>식수대</Fountain.label>
-  <KitchenSink.description>방의 청결도를 약간 올려주는 부엌 싱크대입니다.</KitchenSink.description>
+  <Fountain.description>물을 마시거나 간단히 씻을 수 있는 수도관입니다.</Fountain.description>
   <KitchenSink.label>주방 싱크대</KitchenSink.label>
+  <KitchenSink.description>방의 청결도를 약간 올려주는 부엌 싱크대입니다.</KitchenSink.description>
   <ToiletStuff.description>정착민의 대/소변을 처리하는데 사용되는 양변기입니다.\n매회 물 14L 사용</ToiletStuff.description>
   <ToiletStuff.label>변기</ToiletStuff.label>
   <ToiletAdvStuff.description>편안하고, 자가 청소 기능이 있으며, 막히지 않는 매우 효율적인 스마트 화장실입니다. 자동 청소 및 탈취기능으로 최고의 경험을 제공합니다.\n 매회 물 7L사용</ToiletAdvStuff.description>
@@ -45,8 +47,8 @@
   <ShowerStuff.label>샤워기</ShowerStuff.label>
   <ShowerSimple.description>급수탑에서 물을 끌어와 사용할 수 있는 간단한 샤워장치입니다. 온수탱크를 이용할 수 있으며 하수 배출구가 필요 없습니다.\n매회 물 65L 소모</ShowerSimple.description>
   <ShowerSimple.label>간단한 샤워기</ShowerSimple.label>
-  <ShowerAdvStuff.description>필요한 물을 데우는 데 온수 탱크를 필요로 하지 않으며, 2배 빠른 속도로 씻습니다.\n회당 물 90L 사용</ShowerAdvStuff.description>
   <ShowerAdvStuff.label>강력 샤워기</ShowerAdvStuff.label>
+  <ShowerAdvStuff.description>필요한 물을 데우는 데 온수 탱크를 필요로 하지 않으며, 2배 빠른 속도로 씻습니다.\n회당 물 90L 사용</ShowerAdvStuff.description>
   <DBHSwimmingPool.description>수영장은 수치료, 휴식 또는 쾌락에 사용됩니다. 먼저 급수탑에서 나오는 물로 채워야 합니다.</DBHSwimmingPool.description>
   <DBHSwimmingPool.label>수영장</DBHSwimmingPool.label>
   <HotTub.description>열수치료, 근육이완, 쾌락을 동시에 제공하는 멋진 온수 욕조를 건설합니다. 온수가 부족할 시 스스로 가열되며 추가적인 하수 처리장치가 필요 없습니다.</HotTub.description>
@@ -84,35 +86,40 @@
   <WaterTreatment.label>멸균 처리장치</WaterTreatment.label>
   <WaterTreatment.description>99.99%의 살균력을 자랑하는 장치입니다. 급수탑에 저장된 물을 여과하여 질병을 일으킬 수 있는 세균을 지속해서 제거합니다.</WaterTreatment.description>
   <Thermostat.label>온도 조절 장치</Thermostat.label>
-  <Thermostat.description>전기 및 가스보일러를 제어하는 데 사용되는 자동 온도 조절 장치입니다. 하나 이상 설치할 수 있습니다.</Thermostat.description>
+  <Thermostat.description>전기 및 가스 보일러를 제어하는 데 사용되는 자동 온도 조절 장치입니다. 둘 이상 설치할 수 있습니다. 일반 배관으로 연결할 수 있습니다.</Thermostat.description>
   <LogBoiler.label>나무 보일러</LogBoiler.label>
-  <LogBoiler.description>방열기나 온수 탱크를 따듯하게 채우는 보일러입니다. 나무를 연료로 사용하며 2,000U를 생산합니다.</LogBoiler.description>
-  <GasBoiler.label>가스보일러</GasBoiler.label>
-  <GasBoiler.description>자동 온도 조절기로 제어되는 가스보일러를 설치합니다. 온수를 만들기 위해 화학연료를 사용하며 2,000U를 생산합니다.</GasBoiler.description>
-  <ElectricBoiler.label>전기보일러</ElectricBoiler.label>
-  <ElectricBoiler.description>가열할 온수 용량을 마음대로 정할 수 있는 전기식 보일러 장치입니다. 자동 온도 조절기를 통해 자동으로 제어되거나 가용 전력설정을 통해 직접 온도를 제어할 수 있습니다!</ElectricBoiler.description>
-  <SolarHeater.label>태양광 집중장치</SolarHeater.label>
-  <SolarHeater.description>물을 데우기 위하여 태양광을 사용합니다. 주변 온도와 광량에 따라 0-2,000U까지 온수 용량이 변동됩니다.</SolarHeater.description>
-  <GeothermHeater.label>지열 난로</GeothermHeater.label>
-  <GeothermHeater.description>지열을 활용하여 온수탱크와 라디에이터를 가열하며, 용량은 3700 유닛 입니다.</GeothermHeater.description>
+  <LogBoiler.description>방열기나 온수 탱크를 따뜻하게 데우는 보일러입니다. 나무를 연료로 사용하며 2,000U의 열을 생산합니다. 방과 인접한 욕조를 데웁니다.</LogBoiler.description>
+  <LogBoiler.comps.CompBoiler.GizmoLabel>가동 단계</LogBoiler.comps.CompBoiler.GizmoLabel>
+  <GasBoiler.label>가스 보일러</GasBoiler.label>
+  <GasBoiler.description>방열기나 온수 탱크를 따뜻하게 데우는 보일러입니다. 화학연료를 사용하며 2,000U의 열을 생산합니다. 온도 조절 장치로 제어할 수 있습니다.</GasBoiler.description>
+  <GasBoiler.comps.CompBoiler.GizmoLabel>가동 단계</GasBoiler.comps.CompBoiler.GizmoLabel>
+  <ElectricBoiler.label>전기 보일러</ElectricBoiler.label>
+  <ElectricBoiler.description>방열기나 온수 탱크를 따뜻하게 데우는 보일러입니다. 수동으로 출력을 조절해 생산하는 열의 양을 조정할 수 있습니다. 온도 조절 장치로 제어할 수 있습니다.</ElectricBoiler.description>
+  <ElectricBoiler.comps.CompBoiler.GizmoLabel>가동 단계</ElectricBoiler.comps.CompBoiler.GizmoLabel>
+  <SolarHeater.label>태양광 난방기</SolarHeater.label>
+  <SolarHeater.description>방열기나 물을 데우기 위해 태양광을 사용합니다. 주변 온도와 광량에 따라 0-2,000U까지 열 생산량이 변동됩니다.</SolarHeater.description>
+  <SolarHeater.comps.CompBoilerSolar.GizmoLabel>가동 단계</SolarHeater.comps.CompBoilerSolar.GizmoLabel>
+  <GeothermHeater.label>지열 난방기</GeothermHeater.label>
+  <GeothermHeater.description>방열기나 물을 데우기 위해 지열을 활용합니다. 3,700U의 열을 생산합니다.</GeothermHeater.description>
+  <GeothermHeater.comps.CompGeoBoiler.GizmoLabel>가동 단계</GeothermHeater.comps.CompGeoBoiler.GizmoLabel>
   <HotWaterTank.label>온수 탱크</HotWaterTank.label>
   <HotWaterTank.description>연결된 난방 장치에 사용되거나, 샤워 및 목욕에 쓰일 온수를 저장하는 보온탱크입니다.</HotWaterTank.description>
-  <RadiatorStuffed.description>보일러의 온수를 이용해 방을 서서히 데웁니다. 적절한 사용을 위해 100U를 안정적으로 공급해야합니다.</RadiatorStuffed.description>
+  <RadiatorStuffed.description>보일러의 온수를 이용해 방을 서서히 데웁니다. 적절한 사용을 위해 100U의 열을 안정적으로 공급해야합니다.</RadiatorStuffed.description>
   <RadiatorStuffed.label>방열기</RadiatorStuffed.label>
-  <RadiatorLarge.description>3배 더 강력해진 방열기입니다. 300U를 사용하며 큰 방에 적합합니다.</RadiatorLarge.description>
   <RadiatorLarge.label>대형 방열기</RadiatorLarge.label>
-  <RadiatorTowelRail.description>인상적인 욕실 수건 걸이.</RadiatorTowelRail.description>
-  <RadiatorTowelRail.label>수건걸이</RadiatorTowelRail.label>
+  <RadiatorLarge.description>3배 더 강력해진 방열기입니다. 300U의 열을 사용하며 큰 방에 적합합니다.</RadiatorLarge.description>
+  <RadiatorTowelRail.label>수건 걸이</RadiatorTowelRail.label>
+  <RadiatorTowelRail.description>인상적인 욕실 수건 걸이입니다.</RadiatorTowelRail.description>
   <CeilingFan.description>조명이 포함된 공기 순환 장치입니다. 방의 온도를 낮춥니다.</CeilingFan.description>
-  <CeilingFan.label>설치형 천장 선풍기 2x2</CeilingFan.label>
+  <CeilingFan.label>설치형 천장 선풍기 (2x2)</CeilingFan.label>
   <CeilingFanS.description>조명이 포함된 공기 순환 장치입니다. 방의 온도를 낮춥니다.</CeilingFanS.description>
-  <CeilingFanS.label>설치형 천장 선풍기 1x1</CeilingFanS.label>
-  <AirConOutdoorUnit.label>실외기</AirConOutdoorUnit.label>
-  <AirConOutdoorUnit.description>실외에 배치되어 배관을 통해 내부로 공기를 전달하는 장비입니다. 전력 조절을 통해 100에서 1000까지 냉각량 공급을 조절할 수 있습니다.</AirConOutdoorUnit.description>
-  <AirconIndoorUnit.label>실내용 에어컨</AirconIndoorUnit.label>
-  <AirconIndoorUnit.description>실외기를 통해 유입된 공기를 차갑게 만들어 배출하는 실내용 에어컨입니다. 100U의 냉각량을 사용합니다.</AirconIndoorUnit.description>
-  <FreezerUnit.label>즉석 냉각기</FreezerUnit.label>
-  <FreezerUnit.description>실외기를 통해 유입된 공기를 차갑게 만들어 배출하는 냉동 창고용 장비입니다. 벽으로 취급되며 300U의 냉각량을 사용합니다.</FreezerUnit.description>
+  <CeilingFanS.label>설치형 천장 선풍기 (1x1)</CeilingFanS.label>
+  <AirConOutdoorUnit.label>에어컨 실외기</AirConOutdoorUnit.label>
+  <AirConOutdoorUnit.description>여러 유닛으로 분할된 에어컨의 한 부분입니다. 실외에 배치한 후 배관을 통해 실내기나 냉동기에 연결하세요. 출력 조절을 통해 100-1000U의 냉각량을 생산할 수 있습니다.</AirConOutdoorUnit.description>
+  <AirconIndoorUnit.label>에어컨 실내기</AirconIndoorUnit.label>
+  <AirconIndoorUnit.description>실내용 에어컨 유닛입니다. 배관을 통해 실외기에 연결하세요. 100U의 냉각량을 사용합니다.</AirconIndoorUnit.description>
+  <FreezerUnit.label>대형 냉각기</FreezerUnit.label>
+  <FreezerUnit.description>냉동고를 만들 수 있는 냉각 장치입니다. 배관을 통해 실외기에 연결하세요. 300U의 냉각량을 사용합니다.</FreezerUnit.description>
   <IrrigationSprinkler.label>농업용 스프링클러</IrrigationSprinkler.label>
   <IrrigationSprinkler.description>매일 아침 주변에 물을 뿌려 토질을 하루 동안 개선합니다. 최대 반경 기준으로 매일 아침 1000L를 사용합니다.</IrrigationSprinkler.description>
   <FireSprinkler.label>화재 진압 스프링클러</FireSprinkler.label>
