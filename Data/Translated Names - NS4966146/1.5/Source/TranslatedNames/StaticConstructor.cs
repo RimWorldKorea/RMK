@@ -43,8 +43,7 @@ public static class StaticConstructor
 				string translation = TranslationInfo.GetTranslation(nameTriple.First);
 				string translation2 = TranslationInfo.GetTranslation(nameTriple.Nick);
 				string translation3 = TranslationInfo.GetTranslation(nameTriple.Last);
-				Name name2 = (pawn.Name = new NameTriple(translation, translation2, translation3));
-				NameTriple nameTriple2 = (NameTriple)name2;
+				pawn.Name = new NameTriple(translation, translation2, translation3);
 			}
 			else if (!(pawn.Name is NameSingle nameSingle))
 			{
