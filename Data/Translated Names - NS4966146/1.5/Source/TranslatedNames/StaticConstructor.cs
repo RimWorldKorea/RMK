@@ -17,27 +17,6 @@ public static class StaticConstructor
     {
         public static void Postfix(Pawn pawn)
 		{
-			/* Core 메서드
-            List<BackstoryCategoryFilter> backstoryCategoryFiltersFor = GetBackstoryCategoryFiltersFor(pawn, factionType);
-            bool flag = pawn.DevelopmentalStage.Baby();
-            if (!request.ForceNoBackstory && !request.OnlyUseForcedBackstories && !flag && (Rand.Value < 0.25f || pawn.kindDef.factionLeader) && TryGiveSolidBioTo(pawn, request.FixedLastName, backstoryCategoryFiltersFor))
-            {
-                return;
-            }
-            GiveShuffledBioTo(pawn, factionType, request.FixedLastName, backstoryCategoryFiltersFor, request.ForceNoBackstory, forceNoNick: false, xenotype, request.OnlyUseForcedBackstories);
-            if (flag && pawn.Name is NameTriple nameTriple)
-            {
-                if (pawn.Faction.IsPlayerSafe())
-                {
-                    pawn.Name = new NameTriple("Baby".Translate().CapitalizeFirst(), null, nameTriple.Last);
-                }
-                else
-                {
-                    pawn.Name = new NameTriple(nameTriple.First, null, nameTriple.Last);
-                }
-            }
-			*/
-
             if (pawn.Name is NameTriple nameTriple)
 			{
 				string translation = TranslationInfo.GetTranslation(nameTriple.First);
