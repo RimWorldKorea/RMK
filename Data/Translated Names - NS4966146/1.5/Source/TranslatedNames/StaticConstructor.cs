@@ -13,17 +13,16 @@ namespace TranslatedNames;
 public static class StaticConstructor
 {
 	[HarmonyPatch(typeof(PawnBioAndNameGenerator), "GiveAppropriateBioAndNameTo", MethodType.Normal)]
-	private class PatchNameGiver
-	{
-		public static void Postfix(Pawn pawn)
+    private class PatchNameGiver
+    {
+        public static void Postfix(Pawn pawn)
 		{
-			if (pawn.Name is NameTriple nameTriple)
+            if (pawn.Name is NameTriple nameTriple)
 			{
 				string translation = TranslationInfo.GetTranslation(nameTriple.First);
 				string translation2 = TranslationInfo.GetTranslation(nameTriple.Nick);
 				string translation3 = TranslationInfo.GetTranslation(nameTriple.Last);
-				Name name2 = (pawn.Name = new NameTriple(translation, translation2, translation3));
-				NameTriple nameTriple2 = (NameTriple)name2;
+				pawn.Name = new NameTriple(translation, translation2, translation3);
 			}
 			else if (!(pawn.Name is NameSingle nameSingle))
 			{
@@ -67,12 +66,20 @@ public static class StaticConstructor
 
 	static StaticConstructor()
 	{
-		rootPath = ModLister.GetActiveModWithIdentifier("rmk.translation", true).RootDir.FullName;
-		string translationLanguage = GetTranslationLanguage(Path.Combine(rootPath, "Data", "Translated Names - NS4966146", "1.5", "Translations", "Main settings.xml"));
+		Assembly thisAssembly = typeof(StaticConstructor).Assembly;
+
+        string dllPath = Directory.GetParent(thisAssembly.Location).ToString(); // 이 어셈블리가 위치한 폴더 경로입니다.
+
+		string rootPath = Directory.GetParent(dllPath).ToString(); // 현재 로드된 Translated Names 모듈의 루트 폴더 경로입니다.
+
+		string translationsPath = Path.Combine(rootPath, "Translations"); // Translations 폴더 경로입니다.
+
+		string translationLanguage = GetTranslationLanguage(Path.Combine(translationsPath, "Config.xml"));
+
 		if (!string.IsNullOrEmpty(translationLanguage))
 		{
-			translationPath = Path.Combine(rootPath, "Data", "Translated Names - NS4966146", "1.5", "Translations", translationLanguage);
-			new Harmony("rimworld.rmk.translatednames.mainconstructor").PatchAll(Assembly.GetExecutingAssembly());
+			translationPath = Path.Combine(translationsPath, translationLanguage); // 설정된 언어의 Translation 폴더 경로입니다.
+			new Harmony("rimworld.rmk.translatednames.mainconstructor").PatchAll(thisAssembly);
 		}
 	}
 
@@ -158,9 +165,9 @@ public static class StaticConstructor
 		}
 	}
 
-	private static string GetTranslationLanguage(string mainSettingsPath)
+	private static string GetTranslationLanguage(string configPath)
 	{
-		XDocument xDocument = XDocument.Load(mainSettingsPath);
+		XDocument xDocument = XDocument.Load(configPath);
 		string friendlyNameEnglish = LanguageDatabase.activeLanguage.FriendlyNameEnglish;
 		string friendlyNameNative = LanguageDatabase.activeLanguage.FriendlyNameNative;
 		foreach (XElement item in xDocument.Root.Elements())
