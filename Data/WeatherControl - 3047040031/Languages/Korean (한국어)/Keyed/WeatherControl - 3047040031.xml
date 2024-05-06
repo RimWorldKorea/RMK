@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <NCWC_DefConflict_Header>WeatherControl 모드 Def 충돌: {MANAGERLABEL}</NCWC_DefConflict_Header>
+  <NCWC_DefConflict_Explanation>WeatherControl 모드는 모드 설정으로 인해 재정의된 Def의 원래 상태를 따로 저장합니다.
+
+WeatherControl을 마지막으로 실행한 이후로 재정의된 Def 중 일부의 원본 내용이 변경되었습니다. WeatherControl이 변경 사항을 어떻게 처리해야 할 지 결정하십시오.
+
+일반적으로는 재정의된 내용을 삭제한 다음 값을 새로 설정하는 것을 추천합니다.
+
+이 메시지는 한 번 결정을 내리면 다시 표시되지 않을 것입니다. 결과가 불만족스럽다면 모드 설정에서 수동으로 재정의 사항을 수정하십시오.</NCWC_DefConflict_Explanation>
+  <NCWC_DefConflict_ChangedDefs>변경된 Def 목록:</NCWC_DefConflict_ChangedDefs>
+  <NCWC_DefConflict_RemoveAllOverrides>설정 내용 전체 삭제</NCWC_DefConflict_RemoveAllOverrides>
+  <NCWC_DefConflict_RemoveAllOverrides_Tip>모드 설정에 입력되어 있는 수치를 삭제하고 최신 버전의 Def에 지정된 수치를 불러옵니다.</NCWC_DefConflict_RemoveAllOverrides_Tip>
+  <NCWC_DefConflict_IgnoreAllDefChanges>Def 변경 사항 전체 무시</NCWC_DefConflict_IgnoreAllDefChanges>
+  <NCWC_DefConflict_IgnoreAllDefChanges_Tip>모드에 설정된 수치를 그대로 유지합니다.</NCWC_DefConflict_IgnoreAllDefChanges_Tip>
+  <NCWC_DefConflict_ChooseForEach>개별 선택</NCWC_DefConflict_ChooseForEach>
+  <NCWC_DefConflict_ChooseForEach_Tip>별도 화면에서 개별 Def마다 재정의한 내용을 삭제할 것인지, Def의 변경 사항을 무시할 것인지 선택할 수 있습니다.</NCWC_DefConflict_ChooseForEach_Tip>
+  <NCWC_DefConflict_RemoveOverride>재정의 내용 삭제</NCWC_DefConflict_RemoveOverride>
+  <NCWC_DefConflict_IgnoreDefChange>변경 사항 무시</NCWC_DefConflict_IgnoreDefChange>
+  <NCWC_DefConflict_CancelChoices>선택 취소</NCWC_DefConflict_CancelChoices>
+  <NCWC_DefConflict_ConfirmChoices>선택 확인</NCWC_DefConflict_ConfirmChoices>
+  <NCWC_WindSock_CurrentWindSpeed>현재 풍속: {0}</NCWC_WindSock_CurrentWindSpeed>
+  <NCWC_WeatherStation_RainRate>강우량: {0}</NCWC_WeatherStation_RainRate>
+  <NCWC_WeatherStation_SnowRate>적설률: {0}</NCWC_WeatherStation_SnowRate>
+  <NCWC_WeatherStation_WindSpeed>풍속: {0}</NCWC_WeatherStation_WindSpeed>
+  <NCWC_WeatherStation_MoveSpeedMultiplier>이동속도 계수: {0}</NCWC_WeatherStation_MoveSpeedMultiplier>
+  <NCWC_WeatherStation_AccuracyMultiplier>정확도 계수: {0}</NCWC_WeatherStation_AccuracyMultiplier>
+  <NCWC_WeatherStation_NextWeather>예상 날씨: {0} ({1})</NCWC_WeatherStation_NextWeather>
+  <NCWC_WeatherStation_TemperatureManager_OffsetDay>{0}의 온도 보정치: {1}</NCWC_WeatherStation_TemperatureManager_OffsetDay>
+  <NCWC_WeatherStation_TemperatureManager_OffsetHour>{0}의 온도 보정치: {1}</NCWC_WeatherStation_TemperatureManager_OffsetHour>
+  <NCWC_MustBePlacedOutdoors>실외에 건설해야 합니다.</NCWC_MustBePlacedOutdoors>
+  <NCWC_SettingsCategory>날씨 설정</NCWC_SettingsCategory>
+  <NCWC_Settings_BiomeControlTab>기후</NCWC_Settings_BiomeControlTab>
+  <NCWC_Settings_BiomeWeatherCommonalities>날씨 빈도</NCWC_Settings_BiomeWeatherCommonalities>
+  <NCWC_Settings_ResetWeather>빈도 설정 초기화</NCWC_Settings_ResetWeather>
+  <NCWC_Settings_AddWeather>날씨 추가</NCWC_Settings_AddWeather>
+  <NCWC_Settings_NoWeatherAvailable>추가 가능한 날씨 없음</NCWC_Settings_NoWeatherAvailable>
+  <NCWC_Settings_FactorInAverageWeatherDuration>평균 날씨 지속기간 반영</NCWC_Settings_FactorInAverageWeatherDuration>
+  <NCWC_Settings_FactorInAverageWeatherDuration_Tip>기후에서 각각의 날씨가 차지하는 비중을 단순히 날씨 빈도뿐만이 아니라 해당 날씨의 평균 지속 기간과 빈도를 곱한 수치로 계산합니다.\n\n(활성화 시 날씨 바에 표시된 값이 날씨가 발생할 가능성뿐만 아니라 날씨의 지속 시간도 반영하게 됩니다.)</NCWC_Settings_FactorInAverageWeatherDuration_Tip>
+  <NCWC_Settings_NoCommonalities>{0}에 날씨 빈도가 설정되지 않았습니다! '맑음' 날씨를 가지도록 설정합니다!</NCWC_Settings_NoCommonalities>
+  <NCWC_Settings_SelectNextWeather>이 기후의 다음 날씨 선택</NCWC_Settings_SelectNextWeather>
+  <NCWC_Settings_SelectPreviousWeather>이 기후의 이전 날씨 선택</NCWC_Settings_SelectPreviousWeather>
+  <NCWC_Settings_WeatherControlTab>날씨</NCWC_Settings_WeatherControlTab>
+  <NCWC_Settings_DurationHeader>날씨 지속기간</NCWC_Settings_DurationHeader>
+  <NCWC_Settings_WeatherEventControlTab>날씨 이벤트</NCWC_Settings_WeatherEventControlTab>
+  <NCWC_Settings_WeatherEventIntervals>이벤트 주기</NCWC_Settings_WeatherEventIntervals>
+  <NCWC_Settings_NoWeatherEventsAvailable>추가 가능한 이벤트 없음</NCWC_Settings_NoWeatherEventsAvailable>
+  <NCWC_Settings_ResetWeatherEvents>이벤트 설정 초기화</NCWC_Settings_ResetWeatherEvents>
+  <NCWC_Settings_AddWeatherEvent>날씨 이벤트 추가</NCWC_Settings_AddWeatherEvent>
+  <NCWC_Settings_RemoveWeatherEvent>날씨 이벤트 제거</NCWC_Settings_RemoveWeatherEvent>
+  <NCWC_Settings_TemperatureControlTab>온도 조정</NCWC_Settings_TemperatureControlTab>
+  <NCWC_Settings_TemperatureControlsEnabled>온도 조정 활성화</NCWC_Settings_TemperatureControlsEnabled>
+  <NCWC_Settings_TemperatureControl_Tip>이곳에 설정된 내용은 행성 전체에 적용됩니다. 이는 온도 보정치가 모든 기후와 타일에 동일하게 적용된다는 뜻입니다. 그러나 시간별 설정은 개별 타일이 해당 시간이 되었을 때에만 적용됩니다.</NCWC_Settings_TemperatureControl_Tip>
+  <NCWC_Settings_TemperatureControl_TimeOfDayModifiers>시간별 보정치</NCWC_Settings_TemperatureControl_TimeOfDayModifiers>
+  <NCWC_Settings_TemperatureControl_SeasonModifiers>계절별 보정치</NCWC_Settings_TemperatureControl_SeasonModifiers>
+  <NCWC_Settings_TemperatureControl_TemperatureOffset>온도 보정치: {0}</NCWC_Settings_TemperatureControl_TemperatureOffset>
+  <NCWC_Settings_TemperatureControl_DayOfSeason>일자: {0}</NCWC_Settings_TemperatureControl_DayOfSeason>
+  <NCWC_Settings_TemperatureControl_TimeOfDay>시간: {0}</NCWC_Settings_TemperatureControl_TimeOfDay>
+  <NCWC_ManagerName_BiomeWeatherOverrides>기후 날씨 빈도 재정의 사항</NCWC_ManagerName_BiomeWeatherOverrides>
+  <NCWC_ManagerName_WeatherDurationOverrides>평균 날씨 지속기간 재정의 사항</NCWC_ManagerName_WeatherDurationOverrides>
+  <NCWC_ManagerName_WeatherEvents>날씨 이벤트 재정의 사항</NCWC_ManagerName_WeatherEvents>
+  <NCWC_ManagerName_TemperatureControl>온도 조정</NCWC_ManagerName_TemperatureControl>
+</LanguageData>
