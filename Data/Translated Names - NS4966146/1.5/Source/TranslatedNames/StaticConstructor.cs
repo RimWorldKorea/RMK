@@ -4,6 +4,7 @@ using System.Linq;
 using System.Reflection;
 using System.Xml.Linq;
 using HarmonyLib;
+using Multiplayer.Client;
 using RimWorld;
 using Verse;
 
@@ -90,8 +91,7 @@ public static class StaticConstructor
 
     static StaticConstructor()
 	{
-        Log.Message("Flag 0");
-        Assembly thisAssembly = typeof(StaticConstructor).Assembly;
+		Assembly thisAssembly = typeof(StaticConstructor).Assembly;
 
         string dllPath = Directory.GetParent(thisAssembly.Location).ToString(); // 이 어셈블리가 위치한 폴더 경로입니다.
 
@@ -106,21 +106,12 @@ public static class StaticConstructor
 			translationPath = Path.Combine(translationsPath, translationLanguage); // 설정된 언어의 Translation 폴더 경로입니다.
 			new Harmony("rimworld.rmk.translatednames.mainconstructor").PatchAll(thisAssembly);
 		}
-		Log.Message("Flag 1");
 
-		ModMetaData modMultiplayer = ModLister.GetActiveModWithIdentifier("rwmt.Multiplayer", true);
-		if(modMultiplayer != null)
-		{
-			multiplayerActive = modMultiplayer.Active;
-		}
-
-        //StaticConstructor.multiplayerActive = ModLister.GetActiveModWithIdentifier("rwmt.Multiplayer", true).Active; // Multiplayer 모드가 활성화 상태인지 확인하고 기록합니다.
-        Log.Message("Flag 2");
-        if (multiplayerActive)
+		StaticConstructor.multiplayerActive = ModLister.GetActiveModWithIdentifier("rwmt.Multiplayer", true).Active; // Multiplayer 모드가 활성화 상태인지 확인하고 기록합니다.
+		if (multiplayerActive)
 		{
 			Log.Message("Translated Names detected Multiplayer is Active.");
 		}
-        Log.Message("Flag 3");
     }
 
     private static void GetFilesWithNames()
