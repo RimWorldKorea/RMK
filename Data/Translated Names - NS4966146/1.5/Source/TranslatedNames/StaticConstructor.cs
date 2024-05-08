@@ -4,6 +4,7 @@ using System.Linq;
 using System.Reflection;
 using System.Xml.Linq;
 using HarmonyLib;
+using Multiplayer.Client;
 using RimWorld;
 using Verse;
 
@@ -12,26 +13,29 @@ namespace TranslatedNames;
 [StaticConstructorOnStartup]
 public static class StaticConstructor
 {
-	[HarmonyPatch(typeof(PawnBioAndNameGenerator), "GiveAppropriateBioAndNameTo", MethodType.Normal)]
+    [HarmonyPatch(typeof(PawnBioAndNameGenerator), "GiveAppropriateBioAndNameTo", MethodType.Normal)]
     private class PatchNameGiver
     {
         public static void Postfix(Pawn pawn)
 		{
-            if (pawn.Name is NameTriple nameTriple)
+			if (!checkMultifaction()) // 하모니 패치가 동작하는 방식을 정확히는 모르는데, 만약 if(){ return; } 처럼 했을 때 해당 메서드에 붙는 다른 하모니 postfix 같은게 실행되지 않을 가능성이 있나?
 			{
-				string translation = TranslationInfo.GetTranslation(nameTriple.First);
-				string translation2 = TranslationInfo.GetTranslation(nameTriple.Nick);
-				string translation3 = TranslationInfo.GetTranslation(nameTriple.Last);
-				pawn.Name = new NameTriple(translation, translation2, translation3);
-			}
-			else if (!(pawn.Name is NameSingle nameSingle))
-			{
-				Log.Warning("Not both");
-			}
-			else
-			{
-				pawn.Name = new NameSingle(TranslationInfo.GetTranslation(nameSingle.Name), nameSingle.Numerical);
-				Log.Warning("Trying to translate not a NameTriple!");
+				if (pawn.Name is NameTriple nameTriple)
+				{
+					string translation = TranslationInfo.GetTranslation(nameTriple.First);
+					string translation2 = TranslationInfo.GetTranslation(nameTriple.Nick);
+					string translation3 = TranslationInfo.GetTranslation(nameTriple.Last);
+					pawn.Name = new NameTriple(translation, translation2, translation3);
+				}
+				else if (!(pawn.Name is NameSingle nameSingle))
+				{
+					Log.Warning("Not both");
+				}
+				else
+				{
+					pawn.Name = new NameSingle(TranslationInfo.GetTranslation(nameSingle.Name), nameSingle.Numerical);
+					Log.Warning("Trying to translate not a NameTriple!");
+				}
 			}
 		}
 	}
@@ -41,12 +45,31 @@ public static class StaticConstructor
 	{
 		private static void Postfix(Pawn __instance)
 		{
-			if (__instance.def.race.intelligence == Intelligence.Humanlike)
+            if (__instance.def.race.intelligence == Intelligence.Humanlike && !checkMultifaction())
 			{
 				PatchNameGiver.Postfix(__instance);
 			}
 		}
 	}
+
+	public static bool checkMultifaction()
+		// Multiplayer 모드에서 멀티플레이어 서버 설정 중 Multifaction이 켜져있는지 확인해주는 정적 메서드
+		// 멀티플레이어 모드가 로드되지 않았는데 관련 코드를 호출하면 문제가 생기지 않을까 걱정돼서
+		// multifaction을 바로 불러오지 말고 모드 활성화 여부와 멀티플레이 진행 여부를 모두 차례로 체크하고 진행하도록 해둠
+		// multifaction 자체는 서버가 열렸다 닫혔다 하면서 계속 바뀔 수 있는 값 같은데 확인 필요
+	{
+        bool multifactionEnabled = false;
+
+        if (multiplayerActive)
+		{
+            if (Multiplayer.API.MP.IsInMultiplayer)
+			{
+				multifactionEnabled = Multiplayer.Client.Multiplayer.settings.PreferredLocalServerSettings.multifaction;
+			}
+		}
+
+        return multifactionEnabled;
+    }
 
 	private const string firstMale = "First_Male";
 
@@ -64,7 +87,9 @@ public static class StaticConstructor
 
 	public static readonly string translationPath;
 
-	static StaticConstructor()
+    public static bool multiplayerActive = false; // 그냥 필요할 때 마다 ModLister에서 읽어도 될 것 같긴 한데 혹시 성능상 불리한게 있을까봐 이렇게 해둠. 어차피 게임 중에 바뀔 일은 없는 값이기 때문에
+
+    static StaticConstructor()
 	{
 		Assembly thisAssembly = typeof(StaticConstructor).Assembly;
 
@@ -81,9 +106,15 @@ public static class StaticConstructor
 			translationPath = Path.Combine(translationsPath, translationLanguage); // 설정된 언어의 Translation 폴더 경로입니다.
 			new Harmony("rimworld.rmk.translatednames.mainconstructor").PatchAll(thisAssembly);
 		}
-	}
 
-	private static void GetFilesWithNames()
+		StaticConstructor.multiplayerActive = ModLister.GetActiveModWithIdentifier("rwmt.Multiplayer", true).Active; // Multiplayer 모드가 활성화 상태인지 확인하고 기록합니다.
+		if (multiplayerActive)
+		{
+			Log.Message("Translated Names detected Multiplayer is Active.");
+		}
+    }
+
+    private static void GetFilesWithNames()
 	{
 		string[] array = new string[6] { "First_Male", "First_Female", "Nick_Male", "Nick_Female", "Nick_Unisex", "Last" };
 		string text = Path.Combine(rootPath, "Debug");
