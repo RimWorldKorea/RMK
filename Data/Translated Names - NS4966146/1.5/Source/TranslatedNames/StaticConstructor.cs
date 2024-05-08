@@ -1,10 +1,12 @@
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Xml.Linq;
 using HarmonyLib;
-using Multiplayer.Client;
+
+//using Multiplayer.Client;
 using RimWorld;
 using Verse;
 
@@ -18,8 +20,8 @@ public static class StaticConstructor
     {
         public static void Postfix(Pawn pawn)
 		{
-			if (!checkMultifaction()) // 하모니 패치가 동작하는 방식을 정확히는 모르는데, 만약 if(){ return; } 처럼 했을 때 해당 메서드에 붙는 다른 하모니 postfix 같은게 실행되지 않을 가능성이 있나?
-			{
+			//if (!checkMultifaction()) // 하모니 패치가 동작하는 방식을 정확히는 모르는데, 만약 if(){ return; } 처럼 했을 때 해당 메서드에 붙는 다른 하모니 postfix 같은게 실행되지 않을 가능성이 있나?
+			//{
 				if (pawn.Name is NameTriple nameTriple)
 				{
 					string translation = TranslationInfo.GetTranslation(nameTriple.First);
@@ -36,7 +38,7 @@ public static class StaticConstructor
 					pawn.Name = new NameSingle(TranslationInfo.GetTranslation(nameSingle.Name), nameSingle.Numerical);
 					Log.Warning("Trying to translate not a NameTriple!");
 				}
-			}
+			//}
 		}
 	}
 
@@ -45,13 +47,14 @@ public static class StaticConstructor
 	{
 		private static void Postfix(Pawn __instance)
 		{
-            if (__instance.def.race.intelligence == Intelligence.Humanlike && !checkMultifaction())
+            if (__instance.def.race.intelligence == Intelligence.Humanlike /*&& !checkMultifaction()*/)
 			{
 				PatchNameGiver.Postfix(__instance);
 			}
 		}
 	}
 
+	/*
 	public static bool checkMultifaction()
 		// Multiplayer 모드에서 멀티플레이어 서버 설정 중 Multifaction이 켜져있는지 확인해주는 정적 메서드
 		// 멀티플레이어 모드가 로드되지 않았는데 관련 코드를 호출하면 문제가 생기지 않을까 걱정돼서
@@ -62,6 +65,8 @@ public static class StaticConstructor
 
         if (multiplayerActive)
 		{
+
+
             if (Multiplayer.API.MP.IsInMultiplayer)
 			{
 				multifactionEnabled = Multiplayer.Client.Multiplayer.settings.PreferredLocalServerSettings.multifaction;
@@ -70,6 +75,7 @@ public static class StaticConstructor
 
         return multifactionEnabled;
     }
+	*/
 
 	private const string firstMale = "First_Male";
 
@@ -86,6 +92,9 @@ public static class StaticConstructor
 	public static readonly string rootPath;
 
 	public static readonly string translationPath;
+
+	private static readonly MethodInfo mp_MP_IsInMultiplayer;
+
 
     public static bool multiplayerActive = false; // 그냥 필요할 때 마다 ModLister에서 읽어도 될 것 같긴 한데 혹시 성능상 불리한게 있을까봐 이렇게 해둠. 어차피 게임 중에 바뀔 일은 없는 값이기 때문에
 
@@ -107,11 +116,27 @@ public static class StaticConstructor
 			new Harmony("rimworld.rmk.translatednames.mainconstructor").PatchAll(thisAssembly);
 		}
 
-		StaticConstructor.multiplayerActive = ModLister.GetActiveModWithIdentifier("rwmt.Multiplayer", true).Active; // Multiplayer 모드가 활성화 상태인지 확인하고 기록합니다.
+		ModMetaData modMultiplayer = ModLister.GetActiveModWithIdentifier("rwmt.Multiplayer", true); // Multiplayer 모드가 활성화 상태인지 확인하고 기록합니다.
+        if (modMultiplayer != null)
+        {
+            StaticConstructor.multiplayerActive = modMultiplayer.Active;
+        }
+        
 		if (multiplayerActive)
 		{
 			Log.Message("Translated Names detected Multiplayer is Active.");
-		}
+
+            Type mp_MP = Type.GetType("Multiplayer.API.MP");
+			Log.Message(string.Format("loaded {0}", mp_MP.FullName));
+
+			MethodInfo mp_MP_IsInMultiplayer = mp_MP.GetMethod("IsInMultiplayer");
+            Log.Message(string.Format("loaded {0}", mp_MP_IsInMultiplayer.Name));
+
+            Type mp_Multiplayer = Type.GetType("Multiplayer.Client.Multiplayer");
+			PropertyInfo mp_Multiplayer_settings = mp_Multiplayer.GetProperty("PreferredLocalServerSettings");
+			object mp_Multiplayer_multifaction = mp_Multiplayer_settings.GetValue("multifaction");
+
+        }
     }
 
     private static void GetFilesWithNames()
