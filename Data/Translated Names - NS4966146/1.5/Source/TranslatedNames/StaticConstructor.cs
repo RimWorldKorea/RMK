@@ -93,7 +93,7 @@ public static class StaticConstructor
 
 	public static readonly string translationPath;
 
-	private static readonly MethodInfo mp_MP_IsInMultiplayer;
+	//private static readonly MethodInfo mp_MP_IsInMultiplayer;
 
 
     public static bool multiplayerActive = false; // 그냥 필요할 때 마다 ModLister에서 읽어도 될 것 같긴 한데 혹시 성능상 불리한게 있을까봐 이렇게 해둠. 어차피 게임 중에 바뀔 일은 없는 값이기 때문에
@@ -126,15 +126,38 @@ public static class StaticConstructor
 		{
 			Log.Message("Translated Names detected Multiplayer is Active.");
 
-            Type mp_MP = Type.GetType("Multiplayer.API.MP");
-			Log.Message(string.Format("loaded {0}", mp_MP.FullName));
+			Type[] multiplayerTypes; 
 
+            Assembly[] currentAassemblies = AppDomain.CurrentDomain.GetAssemblies();
+			foreach (Assembly assembly in currentAassemblies)
+			{
+                Type[] typesInNamespace = assembly.GetTypes().Where(t => t.Namespace == "Multiplayer").ToArray();
+				if (typesInNamespace.Length > 0)
+				{
+					foreach(Type type in typesInNamespace)
+					{
+						multiplayerTypes.Append(type); /*커서위치*/
+					}
+				}	
+            }
+
+            Type mp_MP = Type.GetType("Multiplayer.API.MP");
+			if (mp_MP != null)
+			{
+				Log.Message(string.Format("loaded {0}", mp_MP.FullName));
+			}
+			else
+			{
+				Log.Message("mp_MP is null");
+			}
+            /*
 			MethodInfo mp_MP_IsInMultiplayer = mp_MP.GetMethod("IsInMultiplayer");
             Log.Message(string.Format("loaded {0}", mp_MP_IsInMultiplayer.Name));
 
             Type mp_Multiplayer = Type.GetType("Multiplayer.Client.Multiplayer");
 			PropertyInfo mp_Multiplayer_settings = mp_Multiplayer.GetProperty("PreferredLocalServerSettings");
 			object mp_Multiplayer_multifaction = mp_Multiplayer_settings.GetValue("multifaction");
+			*/
 
         }
     }
