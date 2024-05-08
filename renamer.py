@@ -2,7 +2,7 @@ import os
 
 MAX_INDEX = 100001
 LIMIT_FILENAME = 170
-WHITELISTED_PREFIX = ('Main settings')     # ('ign%', '이파일은수정하지말아줘' )
+WHITELISTED_PREFIX = ('ign_', 'Config')     # ('ign%', '이파일은수정하지말아줘' )
 RKM_DATA_PATH = os.path.join(os.getcwd(), 'Data')
 
 
