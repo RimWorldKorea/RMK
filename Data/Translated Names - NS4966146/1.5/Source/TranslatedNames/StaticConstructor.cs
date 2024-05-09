@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Reflection;
@@ -21,8 +20,8 @@ public static class StaticConstructor
     {
         public static void Postfix(Pawn pawn)
 		{
-			//if (!checkMultifaction()) // 하모니 패치가 동작하는 방식을 정확히는 모르는데, 만약 if(){ return; } 처럼 했을 때 해당 메서드에 붙는 다른 하모니 postfix 같은게 실행되지 않을 가능성이 있나?
-			//{
+			if (!checkMultifaction()) // 하모니 패치가 동작하는 방식을 정확히는 모르는데, 만약 if(){ return; } 처럼 했을 때 해당 메서드에 붙는 다른 하모니 postfix 같은게 실행되지 않을 가능성이 있나?
+			{
 				if (pawn.Name is NameTriple nameTriple)
 				{
 					string translation = TranslationInfo.GetTranslation(nameTriple.First);
@@ -39,7 +38,7 @@ public static class StaticConstructor
 					pawn.Name = new NameSingle(TranslationInfo.GetTranslation(nameSingle.Name), nameSingle.Numerical);
 					Log.Warning("Trying to translate not a NameTriple!");
 				}
-			//}
+			}
 		}
 	}
 
@@ -48,35 +47,36 @@ public static class StaticConstructor
 	{
 		private static void Postfix(Pawn __instance)
 		{
-            if (__instance.def.race.intelligence == Intelligence.Humanlike /*&& !checkMultifaction()*/)
+            if (__instance.def.race.intelligence == Intelligence.Humanlike && !checkMultifaction())
 			{
 				PatchNameGiver.Postfix(__instance);
 			}
 		}
 	}
 
-	/*
+
 	public static bool checkMultifaction()
 		// Multiplayer 모드에서 멀티플레이어 서버 설정 중 Multifaction이 켜져있는지 확인해주는 정적 메서드
 		// 멀티플레이어 모드가 로드되지 않았는데 관련 코드를 호출하면 문제가 생기지 않을까 걱정돼서
 		// multifaction을 바로 불러오지 말고 모드 활성화 여부와 멀티플레이 진행 여부를 모두 차례로 체크하고 진행하도록 해둠
 		// multifaction 자체는 서버가 열렸다 닫혔다 하면서 계속 바뀔 수 있는 값 같은데 확인 필요
 	{
-        bool multifactionEnabled = false;
+		object multifactionEnabled = false;
 
         if (multiplayerActive)
 		{
 
+			object isInMultiplayer = class_MP.GetField("isInMultiplayer", BindingFlags.Public | BindingFlags.Static);
 
-            if (Multiplayer.API.MP.IsInMultiplayer)
+            if ((bool)isInMultiplayer)
 			{
-				multifactionEnabled = Multiplayer.Client.Multiplayer.settings.PreferredLocalServerSettings.multifaction;
+				multifactionEnabled = class_Multiplayer.GetField("multifaction", BindingFlags.Instance);
 			}
 		}
 
-        return multifactionEnabled;
+        return (bool)multifactionEnabled;
     }
-	*/
+
 
 	private const string firstMale = "First_Male";
 
@@ -94,8 +94,11 @@ public static class StaticConstructor
 
 	public static readonly string translationPath;
 
-	//private static readonly MethodInfo mp_MP_IsInMultiplayer;
+	private static readonly Type class_MP;
 
+	private static readonly Type class_Multiplayer;
+
+	private static readonly Type class_MpSettings;
 
     public static bool multiplayerActive = false; // 그냥 필요할 때 마다 ModLister에서 읽어도 될 것 같긴 한데 혹시 성능상 불리한게 있을까봐 이렇게 해둠. 어차피 게임 중에 바뀔 일은 없는 값이기 때문에
 
@@ -120,13 +123,12 @@ public static class StaticConstructor
 		ModMetaData modMultiplayer = ModLister.GetActiveModWithIdentifier("rwmt.Multiplayer", true); // Multiplayer 모드가 활성화 상태인지 확인하고 기록합니다.
         if (modMultiplayer != null)
         {
-            StaticConstructor.multiplayerActive = modMultiplayer.Active;
+            StaticConstructor.multiplayerActive = modMultiplayer.Active; // 이거 앞에 생성자 이름 명시적으로 붙여야 되드라고요. VS는 지워도 된다고 할거임.
         }
         
 		if (multiplayerActive)
 		{
 			Log.Message("[Translated Names] detected Multiplayer is active on mod list.");
-
 
             List<Type> typesInMultiplayer = new List<Type>();
             Assembly[] currentAssemblies = AppDomain.CurrentDomain.GetAssemblies();
@@ -136,68 +138,56 @@ public static class StaticConstructor
                 Assembly assembly_Multiplayer = currentAssemblies.FirstOrDefault(t => t.GetName().Name == "Multiplayer");
 
 				Log.Message(string.Format("{0} /// {1}", assembly_MultiplayerAPI.GetName().Name, assembly_Multiplayer.GetName().Name));
+
+                StaticConstructor.class_MP = assembly_MultiplayerAPI.GetType("Multiplayer.API.MP");
+                StaticConstructor.class_Multiplayer = assembly_Multiplayer.GetType("Multiplayer.Client.Multiplayer");
+                StaticConstructor.class_MpSettings = assembly_Multiplayer.GetType("Multiplayer.Client.MpSettings");
+
+
+                Log.Message(string.Format("{0} /// {1} /// {2}", class_MP.FullName, class_Multiplayer.FullName, class_MpSettings.FullName));
+				/*
+                Log.Message("flag 5");
+                FieldInfo field_Sync = class_MP.GetField("Sync");
+				object field_isInMultiplayer = field_Sync.GetValue("isInMultiplayer");
+
+                Log.Message("flag 6");
+                FieldInfo prop_settings = class_Multiplayer.GetField("settings");
+
+                Log.Message("flag 7");
+                FieldInfo prop_PLSS = class_MpSettings.GetField("PreferredLocalServerSettings");
+                Log.Message("flag 8");
+
+				if (field_Sync == null)
+				{
+					Log.Warning("field_Sync is null!");
+				}
+                if (field_isInMultiplayer == null)
+                {
+                    Log.Warning("field_isInMultiplayer is null!");
+                }
+                if (prop_settings == null)
+
+                {
+                    Log.Warning("prop_settings is null!");
+                }
+                if (prop_PLSS == null)
+
+                {
+                    Log.Warning("prop_PLSS is null!");
+                }
+
+                Log.Message(string.Format("{0} /// {1} /// {2}", field_Sync.Name, prop_settings.Name, prop_PLSS.Name));*/
             }
 			catch
 			{
 				Log.Error("[Translated Names] couldn't find assemblies of Multiplayer mod.");
+				StaticConstructor.multiplayerActive = false;
 			}
 
-
+            // 이제 
 
             Log.Message("flag 6");
-            /*
-            Log.Message(string.Format("{0} assemblies are loaded.", Assembly_MultiplayerAPI.Length));
-            foreach (Assembly assembly in Assembly_MultiplayerAPI)
-            {
-                Log.Message(string.Format("[Assembly loaded] {0}", assembly.FullName));
-            }
-			*/
-            /*
-            foreach (Assembly assembly in Assembly_MultiplayerAPI)
-			{
-                Log.Message(string.Format("[loading Types in assembly] {0}", assembly.FullName));
-
-				Type[] typesInNamespace = assembly.GetTypes();
-				if(typesInNamespace != null)
-				{
-					Log.Message("[typesInNamespace] has member");
-					Type[] typesInMultiplayerNamespace = typesInNamespace.Where(t => t.Namespace == "Multiplayer").ToArray();
-					foreach(Type type in typesInMultiplayerNamespace)
-					{
-						Log.Message(string.Format("[typesInMultiplayerNamespace", type.FullName));
-					}
-                }
-				
-				Log.Message(string.Format("Number of types in assembly] {0}", typesInNamespace.Length));
-
-				if (typesInNamespace.Length > 0)
-				{
-					foreach(Type type in typesInNamespace)
-					{
-						typesInMultiplayer.Add(type);
-					}
-				}	
-            }*/
-
-            /*
-			foreach (Type type in typesInMultiplayer)
-			{
-				Log.Message(string.Format("[type in multiplayer] {0}", type.FullName));
-			}
-
-            Type mp_MP = Type.GetType("Multiplayer.API.MP");
-			if (mp_MP != null)
-			{
-				Log.Message(string.Format("loaded {0}", mp_MP.FullName));
-			}
-			else
-			{
-				Log.Message("mp_MP is null");
-			}
-
-			*/
-
-
+           
             /*
 			MethodInfo mp_MP_IsInMultiplayer = mp_MP.GetMethod("IsInMultiplayer");
             Log.Message(string.Format("loaded {0}", mp_MP_IsInMultiplayer.Name));
@@ -208,6 +198,8 @@ public static class StaticConstructor
 			*/
 
         }
+
+        Log.Message(string.Format("2nd /// {0} /// {1}", class_MP.FullName, class_Multiplayer.FullName));
     }
 
     private static void GetFilesWithNames()
