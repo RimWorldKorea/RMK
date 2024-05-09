@@ -65,14 +65,16 @@ public static class StaticConstructor
 
         if (multiplayerActive)
 		{
-
-			object isInMultiplayer = class_MP.GetField("isInMultiplayer", BindingFlags.Public | BindingFlags.Static);
-
+            Log.Message("flag 1");
+            object isInMultiplayer = class_MP.GetField("isInMultiplayer", BindingFlags.Public | BindingFlags.Static);
+            Log.Message("flag 2");
             if ((bool)isInMultiplayer)
 			{
-				multifactionEnabled = class_Multiplayer.GetField("multifaction", BindingFlags.Instance);
+                Log.Message("flag 3");
+                multifactionEnabled = class_Multiplayer.GetField("multifaction", BindingFlags.Instance);
 			}
-		}
+            Log.Message("flag 4");
+        }
 
         return (bool)multifactionEnabled;
     }
@@ -145,38 +147,6 @@ public static class StaticConstructor
 
 
                 Log.Message(string.Format("{0} /// {1} /// {2}", class_MP.FullName, class_Multiplayer.FullName, class_MpSettings.FullName));
-				/*
-                Log.Message("flag 5");
-                FieldInfo field_Sync = class_MP.GetField("Sync");
-				object field_isInMultiplayer = field_Sync.GetValue("isInMultiplayer");
-
-                Log.Message("flag 6");
-                FieldInfo prop_settings = class_Multiplayer.GetField("settings");
-
-                Log.Message("flag 7");
-                FieldInfo prop_PLSS = class_MpSettings.GetField("PreferredLocalServerSettings");
-                Log.Message("flag 8");
-
-				if (field_Sync == null)
-				{
-					Log.Warning("field_Sync is null!");
-				}
-                if (field_isInMultiplayer == null)
-                {
-                    Log.Warning("field_isInMultiplayer is null!");
-                }
-                if (prop_settings == null)
-
-                {
-                    Log.Warning("prop_settings is null!");
-                }
-                if (prop_PLSS == null)
-
-                {
-                    Log.Warning("prop_PLSS is null!");
-                }
-
-                Log.Message(string.Format("{0} /// {1} /// {2}", field_Sync.Name, prop_settings.Name, prop_PLSS.Name));*/
             }
 			catch
 			{
@@ -184,19 +154,8 @@ public static class StaticConstructor
 				StaticConstructor.multiplayerActive = false;
 			}
 
-            // 이제 
 
             Log.Message("flag 6");
-           
-            /*
-			MethodInfo mp_MP_IsInMultiplayer = mp_MP.GetMethod("IsInMultiplayer");
-            Log.Message(string.Format("loaded {0}", mp_MP_IsInMultiplayer.Name));
-
-            Type mp_Multiplayer = Type.GetType("Multiplayer.Client.Multiplayer");
-			PropertyInfo mp_Multiplayer_settings = mp_Multiplayer.GetProperty("PreferredLocalServerSettings");
-			object mp_Multiplayer_multifaction = mp_Multiplayer_settings.GetValue("multifaction");
-			*/
-
         }
 
         Log.Message(string.Format("2nd /// {0} /// {1}", class_MP.FullName, class_Multiplayer.FullName));
