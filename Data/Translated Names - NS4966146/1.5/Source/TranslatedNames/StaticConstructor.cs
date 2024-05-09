@@ -76,7 +76,7 @@ public static class StaticConstructor
             if (IsInMultiplayer)
 			{
                 Log.Message("flag 3");
-                multifactionEnabled = class_Multiplayer.GetField("multifaction", BindingFlags.Instance);
+                multifactionEnabled = (bool)prop_multifaction.GetValue(null);
 			}
             Log.Message("flag 4");
         }
@@ -108,6 +108,9 @@ public static class StaticConstructor
 	private static readonly Type class_MpSettings;
 
 	private static readonly PropertyInfo prop_IsInMultiplayer;
+
+	//private static readonly PropertyInfo prop_LocalServerSettings;
+	private static readonly PropertyInfo prop_multifaction;
 
     public static bool multiplayerActive = false; // 그냥 필요할 때 마다 ModLister에서 읽어도 될 것 같긴 한데 혹시 성능상 불리한게 있을까봐 이렇게 해둠. 어차피 게임 중에 바뀔 일은 없는 값이기 때문에
 
@@ -157,13 +160,47 @@ public static class StaticConstructor
 				Log.Message("flag 1000");
 
 				StaticConstructor.prop_IsInMultiplayer = class_MP.GetProperty("IsInMultiplayer", BindingFlags.Static | BindingFlags.Public);
-
-				if (prop_IsInMultiplayer != null)
-				{
+                if (prop_IsInMultiplayer != null)
+                {
                     Log.Message("Nope.");
                 }
-				else { Log.Message("Hey it's null"); }
+                else { Log.Message("Hey prop_IsInMultiplayer is null"); }
 
+
+
+
+
+
+                PropertyInfo prop_settings = class_Multiplayer.GetProperty("settings", BindingFlags.Static);
+                if (prop_settings != null)
+                {
+                    Log.Message("prop_settings is loaded.");
+                }
+                else { Log.Message("Hey prop_settings is null"); } //////////////여기서 null 발생
+
+
+				object obj_settings = prop_settings.GetValue(null, null);
+				PropertyInfo prop_PreferredLocalServerSettings = obj_settings.GetType().GetProperty("PreferredLocalServerSettings");
+
+				object obj_PreferredLocalServerSettings = prop_PreferredLocalServerSettings.GetValue(null, null);
+				StaticConstructor.prop_multifaction = obj_PreferredLocalServerSettings.GetType().GetProperty("multifaction");
+
+                /*
+				MethodInfo prop_PreferredLocalServerSettings = prop_settings.;
+                if (prop_PreferredLocalServerSettings != null)
+                {
+                    Log.Message("prop_PreferredLocalServerSettings is loaded.");
+                }
+                else { Log.Message("Hey prop_PreferredLocalServerSettings is null"); }
+
+                FieldInfo prop_multifaction = prop_PreferredLocalServerSettings;
+                if (prop_PreferredLocalServerSettings != null)
+                {
+                    Log.Message("prop_PreferredLocalServerSettings is loaded.");
+                }
+                else { Log.Message("Hey prop_PreferredLocalServerSettings is null"); }
+
+				*/
             }
 			catch
 			{
