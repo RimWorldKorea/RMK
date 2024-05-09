@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Reflection;
@@ -124,22 +125,65 @@ public static class StaticConstructor
         
 		if (multiplayerActive)
 		{
-			Log.Message("Translated Names detected Multiplayer is Active.");
+			Log.Message("[Translated Names] detected Multiplayer is active on mod list.");
 
-			Type[] multiplayerTypes; 
 
-            Assembly[] currentAassemblies = AppDomain.CurrentDomain.GetAssemblies();
-			foreach (Assembly assembly in currentAassemblies)
+            List<Type> typesInMultiplayer = new List<Type>();
+            Assembly[] currentAssemblies = AppDomain.CurrentDomain.GetAssemblies();
+			try
 			{
-                Type[] typesInNamespace = assembly.GetTypes().Where(t => t.Namespace == "Multiplayer").ToArray();
+                Assembly assembly_MultiplayerAPI = currentAssemblies.FirstOrDefault(t => t.GetName().Name == "0MultiplayerAPI");
+                Assembly assembly_Multiplayer = currentAssemblies.FirstOrDefault(t => t.GetName().Name == "Multiplayer");
+
+				Log.Message(string.Format("{0} /// {1}", assembly_MultiplayerAPI.GetName().Name, assembly_Multiplayer.GetName().Name));
+            }
+			catch
+			{
+				Log.Error("[Translated Names] couldn't find assemblies of Multiplayer mod.");
+			}
+
+
+
+            Log.Message("flag 6");
+            /*
+            Log.Message(string.Format("{0} assemblies are loaded.", Assembly_MultiplayerAPI.Length));
+            foreach (Assembly assembly in Assembly_MultiplayerAPI)
+            {
+                Log.Message(string.Format("[Assembly loaded] {0}", assembly.FullName));
+            }
+			*/
+            /*
+            foreach (Assembly assembly in Assembly_MultiplayerAPI)
+			{
+                Log.Message(string.Format("[loading Types in assembly] {0}", assembly.FullName));
+
+				Type[] typesInNamespace = assembly.GetTypes();
+				if(typesInNamespace != null)
+				{
+					Log.Message("[typesInNamespace] has member");
+					Type[] typesInMultiplayerNamespace = typesInNamespace.Where(t => t.Namespace == "Multiplayer").ToArray();
+					foreach(Type type in typesInMultiplayerNamespace)
+					{
+						Log.Message(string.Format("[typesInMultiplayerNamespace", type.FullName));
+					}
+                }
+				
+				Log.Message(string.Format("Number of types in assembly] {0}", typesInNamespace.Length));
+
 				if (typesInNamespace.Length > 0)
 				{
 					foreach(Type type in typesInNamespace)
 					{
-						multiplayerTypes.Append(type); /*커서위치*/
+						typesInMultiplayer.Add(type);
 					}
 				}	
-            }
+            }*/
+
+            /*
+			foreach (Type type in typesInMultiplayer)
+			{
+				Log.Message(string.Format("[type in multiplayer] {0}", type.FullName));
+			}
 
             Type mp_MP = Type.GetType("Multiplayer.API.MP");
 			if (mp_MP != null)
@@ -150,6 +194,10 @@ public static class StaticConstructor
 			{
 				Log.Message("mp_MP is null");
 			}
+
+			*/
+
+
             /*
 			MethodInfo mp_MP_IsInMultiplayer = mp_MP.GetMethod("IsInMultiplayer");
             Log.Message(string.Format("loaded {0}", mp_MP_IsInMultiplayer.Name));
