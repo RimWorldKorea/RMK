@@ -61,19 +61,19 @@ public static class StaticConstructor
 		// multifaction을 바로 불러오지 말고 모드 활성화 여부와 멀티플레이 진행 여부를 모두 차례로 체크하고 진행하도록 해둠
 		// multifaction 자체는 서버가 열렸다 닫혔다 하면서 계속 바뀔 수 있는 값 같은데 확인 필요
 	{
-		object multifactionEnabled = false;
+		bool multifactionEnabled = false;
 
         if (multiplayerActive)
 		{
             Log.Message("flag 1");
-			if (ffff == null)
-			{
-				Log.Message("nulllllllllllllll");
-			}
-			object isInMultiplayer = ffff.GetValue(null);
-			Log.Message(string.Format("ffff: {0}", isInMultiplayer.ToString()));
+
+			bool IsInMultiplayer = (bool)prop_IsInMultiplayer.GetValue(null);
+			
+			Log.Message(string.Format("[Translated Names] prop_IsInMultiplayer = {0}", IsInMultiplayer.ToString()));
+
+
             Log.Message("flag 2");
-            if ((bool)isInMultiplayer)
+            if (IsInMultiplayer)
 			{
                 Log.Message("flag 3");
                 multifactionEnabled = class_Multiplayer.GetField("multifaction", BindingFlags.Instance);
@@ -81,7 +81,7 @@ public static class StaticConstructor
             Log.Message("flag 4");
         }
 
-        return (bool)multifactionEnabled;
+        return multifactionEnabled;
     }
 
 
@@ -107,7 +107,7 @@ public static class StaticConstructor
 
 	private static readonly Type class_MpSettings;
 
-	private static readonly PropertyInfo ffff;
+	private static readonly PropertyInfo prop_IsInMultiplayer;
 
     public static bool multiplayerActive = false; // 그냥 필요할 때 마다 ModLister에서 읽어도 될 것 같긴 한데 혹시 성능상 불리한게 있을까봐 이렇게 해둠. 어차피 게임 중에 바뀔 일은 없는 값이기 때문에
 
@@ -156,9 +156,9 @@ public static class StaticConstructor
 
 				Log.Message("flag 1000");
 
-				StaticConstructor.ffff = class_MP.GetProperty("IsInMultiplayer", BindingFlags.Static | BindingFlags.Public);
+				StaticConstructor.prop_IsInMultiplayer = class_MP.GetProperty("IsInMultiplayer", BindingFlags.Static | BindingFlags.Public);
 
-				if (ffff != null)
+				if (prop_IsInMultiplayer != null)
 				{
                     Log.Message("Nope.");
                 }
