@@ -4,11 +4,11 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Xml.Linq;
+using System.Diagnostics;
 using HarmonyLib;
-
-//using Multiplayer.Client;
 using RimWorld;
 using Verse;
+using System.Threading;
 
 namespace TranslatedNames;
 
@@ -57,7 +57,9 @@ public static class StaticConstructor
 
 	public static bool checkMultifaction()
 	{
-		bool multifactionEnabled = false;
+        Stopwatch sw = Stopwatch.StartNew();
+
+        bool multifactionEnabled = false;
 
         if (multiplayerActive)
 		{
@@ -75,8 +77,13 @@ public static class StaticConstructor
                 FieldInfo field_multifaction = obj_PreferredLocalServerSettings.GetType().GetField("multifaction");
 
                 multifactionEnabled = (bool)field_multifaction.GetValue(obj_PreferredLocalServerSettings);
+
 			}
         }
+
+        sw.Stop();
+        Log.Message(string.Format("{0} ms elapsed.", sw.Elapsed.TotalMilliseconds));
+
         return multifactionEnabled;
     }
 
