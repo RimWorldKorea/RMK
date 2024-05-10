@@ -70,16 +70,27 @@ public static class StaticConstructor
 			bool IsInMultiplayer = (bool)prop_IsInMultiplayer.GetValue(null);
 			
 			Log.Message(string.Format("[Translated Names] prop_IsInMultiplayer = {0}", IsInMultiplayer.ToString()));
-
-
             Log.Message("flag 2");
+
             if (IsInMultiplayer)
 			{
                 Log.Message("flag 3");
 
-                multifactionEnabled = (bool)StaticConstructor.prop_multifaction.GetValue(BindingFlags.NonPublic);
+                object obj_settings = prop_settings.GetValue(null);
+                Log.Message("flag 4");
+
+                PropertyInfo prop_PreferredLocalServerSettings = obj_settings.GetType().GetProperty("PreferredLocalServerSettings");
+                Log.Message("flag 5");
+
+                object obj_PreferredLocalServerSettings = prop_PreferredLocalServerSettings.GetValue(obj_settings);
+                Log.Message("flag 6");
+
+                PropertyInfo prop_multifaction = obj_PreferredLocalServerSettings.GetType().GetProperty("multifaction");
+                Log.Message("flag 7");
+
+                multifactionEnabled = (bool)prop_multifaction.GetValue(obj_PreferredLocalServerSettings);
 			}
-            Log.Message("flag 4");
+            Log.Message("flag 8");
         }
 
         return multifactionEnabled;
@@ -106,11 +117,12 @@ public static class StaticConstructor
 
 	private static readonly Type class_Multiplayer;
 
-	//private static readonly Type class_MpSettings;
+	//private static readonly Type class_MpSettings; <- 아마 필요없음
 
 	private static readonly PropertyInfo prop_IsInMultiplayer;
 
-	private static readonly PropertyInfo prop_multifaction;
+	// private static readonly PropertyInfo prop_multifaction;
+	private static readonly FieldInfo prop_settings;
 
     public static bool multiplayerActive = false; // 그냥 필요할 때 마다 ModLister에서 읽어도 될 것 같긴 한데 혹시 성능상 불리한게 있을까봐 이렇게 해둠. 어차피 게임 중에 바뀔 일은 없는 값이기 때문에
 
@@ -153,11 +165,9 @@ public static class StaticConstructor
 
                 StaticConstructor.class_MP = assembly_MultiplayerAPI.GetType("Multiplayer.API.MP");
                 StaticConstructor.class_Multiplayer = assembly_Multiplayer.GetType("Multiplayer.Client.Multiplayer");
-                //StaticConstructor.class_MpSettings = assembly_Multiplayer.GetType("Multiplayer.Client.MpSettings");
+                //StaticConstructor.class_MpSettings = assembly_Multiplayer.GetType("Multiplayer.Client.MpSettings"); <- 아마 필요없음
 
                 Log.Message(string.Format("{0} /// {1}", class_MP.FullName, class_Multiplayer.FullName));
-
-				Log.Message("flag 1000");
 
 				StaticConstructor.prop_IsInMultiplayer = class_MP.GetProperty("IsInMultiplayer", BindingFlags.Static | BindingFlags.Public);
                 if (prop_IsInMultiplayer != null)
@@ -167,7 +177,8 @@ public static class StaticConstructor
                 else { Log.Message("Hey prop_IsInMultiplayer is null"); }
 
 
-                FieldInfo prop_settings = class_Multiplayer.GetField("settings", BindingFlags.Static | BindingFlags.Public);
+                // FieldInfo prop_settings = class_Multiplayer.GetField("settings", BindingFlags.Static | BindingFlags.Public);
+                StaticConstructor.prop_settings = class_Multiplayer.GetField("settings", BindingFlags.Static | BindingFlags.Public);
 
                 if (prop_settings != null)
                 {
@@ -175,6 +186,7 @@ public static class StaticConstructor
                 }
                 else { Log.Message("Hey prop_settings is null"); }
 
+				 /*
 				object obj_settings = prop_settings.GetValue(null);
 
                 PropertyInfo prop_PreferredLocalServerSettings = obj_settings.GetType().GetProperty("PreferredLocalServerSettings");
@@ -182,10 +194,11 @@ public static class StaticConstructor
                 object obj_PreferredLocalServerSettings = prop_PreferredLocalServerSettings.GetValue(obj_settings);
 
                 StaticConstructor.prop_multifaction = obj_PreferredLocalServerSettings.GetType().GetProperty("multifaction");
+				 */
             }
 			catch
 			{
-				Log.Error("[Translated Names] couldn't find assemblies of Multiplayer mod.");
+				Log.Error("[Translated Names] couldn't find contents of Multiplayer mod.");
 				StaticConstructor.multiplayerActive = false;
 			}
         }
