@@ -56,43 +56,27 @@ public static class StaticConstructor
 
 
 	public static bool checkMultifaction()
-		// Multiplayer 모드에서 멀티플레이어 서버 설정 중 Multifaction이 켜져있는지 확인해주는 정적 메서드
-		// 멀티플레이어 모드가 로드되지 않았는데 관련 코드를 호출하면 문제가 생기지 않을까 걱정돼서
-		// multifaction을 바로 불러오지 말고 모드 활성화 여부와 멀티플레이 진행 여부를 모두 차례로 체크하고 진행하도록 해둠
-		// multifaction 자체는 서버가 열렸다 닫혔다 하면서 계속 바뀔 수 있는 값 같은데 확인 필요
 	{
 		bool multifactionEnabled = false;
 
         if (multiplayerActive)
 		{
-            Log.Message("flag 1");
-
 			bool IsInMultiplayer = (bool)prop_IsInMultiplayer.GetValue(null);
 			
-			Log.Message(string.Format("[Translated Names] prop_IsInMultiplayer = {0}", IsInMultiplayer.ToString()));
-            Log.Message("flag 2");
-
             if (IsInMultiplayer)
 			{
-                Log.Message("flag 3");
 
                 object obj_settings = prop_settings.GetValue(null);
-                Log.Message("flag 4");
 
                 PropertyInfo prop_PreferredLocalServerSettings = obj_settings.GetType().GetProperty("PreferredLocalServerSettings");
-                Log.Message("flag 5");
 
                 object obj_PreferredLocalServerSettings = prop_PreferredLocalServerSettings.GetValue(obj_settings);
-                Log.Message("flag 6");
 
-                PropertyInfo prop_multifaction = obj_PreferredLocalServerSettings.GetType().GetProperty("multifaction");
-                Log.Message("flag 7");
+                FieldInfo field_multifaction = obj_PreferredLocalServerSettings.GetType().GetField("multifaction");
 
-                multifactionEnabled = (bool)prop_multifaction.GetValue(obj_PreferredLocalServerSettings);
+                multifactionEnabled = (bool)field_multifaction.GetValue(obj_PreferredLocalServerSettings);
 			}
-            Log.Message("flag 8");
         }
-
         return multifactionEnabled;
     }
 
@@ -117,11 +101,8 @@ public static class StaticConstructor
 
 	private static readonly Type class_Multiplayer;
 
-	//private static readonly Type class_MpSettings; <- 아마 필요없음
+	private static PropertyInfo prop_IsInMultiplayer; // 변동 가능 프로퍼티
 
-	private static readonly PropertyInfo prop_IsInMultiplayer;
-
-	// private static readonly PropertyInfo prop_multifaction;
 	private static readonly FieldInfo prop_settings;
 
     public static bool multiplayerActive = false; // 그냥 필요할 때 마다 ModLister에서 읽어도 될 것 같긴 한데 혹시 성능상 불리한게 있을까봐 이렇게 해둠. 어차피 게임 중에 바뀔 일은 없는 값이기 때문에
@@ -141,7 +122,7 @@ public static class StaticConstructor
 		if (!string.IsNullOrEmpty(translationLanguage))
 		{
 			translationPath = Path.Combine(translationsPath, translationLanguage); // 설정된 언어의 Translation 폴더 경로입니다.
-			new Harmony("rimworld.rmk.translatednames.mainconstructor").PatchAll(thisAssembly);
+			new Harmony("RMK.TranslatedNames").PatchAll(thisAssembly);
 		}
 
 		ModMetaData modMultiplayer = ModLister.GetActiveModWithIdentifier("rwmt.Multiplayer", true); // Multiplayer 모드가 활성화 상태인지 확인하고 기록합니다.
@@ -161,40 +142,11 @@ public static class StaticConstructor
                 Assembly assembly_MultiplayerAPI = currentAssemblies.FirstOrDefault(t => t.GetName().Name == "0MultiplayerAPI");
                 Assembly assembly_Multiplayer = currentAssemblies.FirstOrDefault(t => t.GetName().Name == "Multiplayer");
 
-				Log.Message(string.Format("{0} /// {1}", assembly_MultiplayerAPI.GetName().Name, assembly_Multiplayer.GetName().Name));
-
                 StaticConstructor.class_MP = assembly_MultiplayerAPI.GetType("Multiplayer.API.MP");
                 StaticConstructor.class_Multiplayer = assembly_Multiplayer.GetType("Multiplayer.Client.Multiplayer");
-                //StaticConstructor.class_MpSettings = assembly_Multiplayer.GetType("Multiplayer.Client.MpSettings"); <- 아마 필요없음
-
-                Log.Message(string.Format("{0} /// {1}", class_MP.FullName, class_Multiplayer.FullName));
 
 				StaticConstructor.prop_IsInMultiplayer = class_MP.GetProperty("IsInMultiplayer", BindingFlags.Static | BindingFlags.Public);
-                if (prop_IsInMultiplayer != null)
-                {
-                    Log.Message("Nope.");
-                }
-                else { Log.Message("Hey prop_IsInMultiplayer is null"); }
-
-
-                // FieldInfo prop_settings = class_Multiplayer.GetField("settings", BindingFlags.Static | BindingFlags.Public);
                 StaticConstructor.prop_settings = class_Multiplayer.GetField("settings", BindingFlags.Static | BindingFlags.Public);
-
-                if (prop_settings != null)
-                {
-                    Log.Message("prop_settings is loaded.");
-                }
-                else { Log.Message("Hey prop_settings is null"); }
-
-				 /*
-				object obj_settings = prop_settings.GetValue(null);
-
-                PropertyInfo prop_PreferredLocalServerSettings = obj_settings.GetType().GetProperty("PreferredLocalServerSettings");
-				
-                object obj_PreferredLocalServerSettings = prop_PreferredLocalServerSettings.GetValue(obj_settings);
-
-                StaticConstructor.prop_multifaction = obj_PreferredLocalServerSettings.GetType().GetProperty("multifaction");
-				 */
             }
 			catch
 			{
@@ -202,8 +154,6 @@ public static class StaticConstructor
 				StaticConstructor.multiplayerActive = false;
 			}
         }
-
-        Log.Message(string.Format("{0} /// {1}", class_MP.FullName, class_Multiplayer.FullName));
     }
 
     private static void GetFilesWithNames()
