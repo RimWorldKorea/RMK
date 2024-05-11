@@ -53,10 +53,6 @@ public static class StaticConstructor
 		}
 	}
 
-
-	
-
-
 	private const string firstMale = "First_Male";
 
 	private const string firstFemale = "First_Female";
@@ -73,7 +69,7 @@ public static class StaticConstructor
 
 	public static readonly string translationPath;
 
-    public static bool multiplayerActive = false; // 그냥 필요할 때 마다 ModLister에서 읽어도 될 것 같긴 한데 혹시 성능상 불리한게 있을까봐 이렇게 해둠. 어차피 게임 중에 바뀔 일은 없는 값이기 때문에
+    public static bool multiplayerActive = false;
 
     static StaticConstructor()
 	{

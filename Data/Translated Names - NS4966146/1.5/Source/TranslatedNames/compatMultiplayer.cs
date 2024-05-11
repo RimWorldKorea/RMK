@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
 using Verse;
@@ -13,7 +12,7 @@ public static class MultiplayerCompat
     private static Type class_Multiplayer;
 
 
-    private static PropertyInfo prop_IsInMultiplayer; // 변동 가능 프로퍼티
+    private static PropertyInfo prop_IsInMultiplayer; // 게임 중 변동 가능
 
 
     private static FieldInfo field_settings;
@@ -22,7 +21,7 @@ public static class MultiplayerCompat
 
     private static FieldInfo field_multifaction;
 
-    public static void loadMultiplayerTypes()
+    public static void loadMultiplayerTypes() // StaticConstructor의 생성자에 정의되어 게임 시작과 함께 필요한 타입 정보를 불러옵니다.
     {
         Log.Message("[Translated Names] detected Multiplayer is active on mod list.");
 
@@ -55,9 +54,10 @@ public static class MultiplayerCompat
 
     }
     public static bool checkMultifaction(bool isMultiplayerActive)
+        // Translated Namse 작동 시 함께 호출되어 multifaction 설정을 확인합니다.
+        // 서버를 열거나 닫고 다시 열거나 할 때 multifaction 설정 또한 달라질 수 있기 때문에 매 번 확인해야 합니다.
+        // 이로 인한 오버헤드는 평균 0.005 ms 정도로 매우 작은 것으로 확인됩니다.
     {
-        Stopwatch sw = Stopwatch.StartNew();
-
         bool multifactionEnabled = false;
 
         if (isMultiplayerActive)
@@ -72,9 +72,6 @@ public static class MultiplayerCompat
                 multifactionEnabled = (bool)field_multifaction.GetValue(obj_PreferredLocalServerSettings);
             }
         }
-
-        sw.Stop();
-        Log.Message(string.Format("{0:F4} ms elapsed.", sw.Elapsed.TotalMilliseconds));
 
         return multifactionEnabled;
     }
