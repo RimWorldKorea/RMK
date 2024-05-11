@@ -4,7 +4,6 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Xml.Linq;
-using System.Diagnostics;
 using HarmonyLib;
 using RimWorld;
 using Verse;
@@ -20,7 +19,7 @@ public static class StaticConstructor
     {
         public static void Postfix(Pawn pawn)
 		{
-			if (!checkMultifaction()) // 하모니 패치가 동작하는 방식을 정확히는 모르는데, 만약 if(){ return; } 처럼 했을 때 해당 메서드에 붙는 다른 하모니 postfix 같은게 실행되지 않을 가능성이 있나?
+			if (!MultiplayerCompat.checkMultifaction(multiplayerActive)) // 하모니 패치가 동작하는 방식을 정확히는 모르는데, 만약 if(){ return; } 처럼 했을 때 해당 메서드에 붙는 다른 하모니 postfix 같은게 실행되지 않을 가능성이 있나?
 			{
 				if (pawn.Name is NameTriple nameTriple)
 				{
@@ -47,7 +46,7 @@ public static class StaticConstructor
 	{
 		private static void Postfix(Pawn __instance)
 		{
-            if (__instance.def.race.intelligence == Intelligence.Humanlike && !checkMultifaction())
+            if (__instance.def.race.intelligence == Intelligence.Humanlike && !MultiplayerCompat.checkMultifaction(multiplayerActive))
 			{
 				PatchNameGiver.Postfix(__instance);
 			}
@@ -55,37 +54,7 @@ public static class StaticConstructor
 	}
 
 
-	public static bool checkMultifaction()
-	{
-        Stopwatch sw = Stopwatch.StartNew();
-
-        bool multifactionEnabled = false;
-
-        if (multiplayerActive)
-		{
-			bool IsInMultiplayer = (bool)prop_IsInMultiplayer.GetValue(null);
-			
-            if (IsInMultiplayer)
-			{
-
-                object obj_settings = prop_settings.GetValue(null);
-
-                PropertyInfo prop_PreferredLocalServerSettings = obj_settings.GetType().GetProperty("PreferredLocalServerSettings");
-
-                object obj_PreferredLocalServerSettings = prop_PreferredLocalServerSettings.GetValue(obj_settings);
-
-                FieldInfo field_multifaction = obj_PreferredLocalServerSettings.GetType().GetField("multifaction");
-
-                multifactionEnabled = (bool)field_multifaction.GetValue(obj_PreferredLocalServerSettings);
-
-			}
-        }
-
-        sw.Stop();
-        Log.Message(string.Format("{0:F4} ms elapsed.", sw.Elapsed.TotalMilliseconds));
-
-        return multifactionEnabled;
-    }
+	
 
 
 	private const string firstMale = "First_Male";
@@ -103,14 +72,6 @@ public static class StaticConstructor
 	public static readonly string rootPath;
 
 	public static readonly string translationPath;
-
-	private static readonly Type class_MP;
-
-	private static readonly Type class_Multiplayer;
-
-	private static PropertyInfo prop_IsInMultiplayer; // 변동 가능 프로퍼티
-
-	private static readonly FieldInfo prop_settings;
 
     public static bool multiplayerActive = false; // 그냥 필요할 때 마다 ModLister에서 읽어도 될 것 같긴 한데 혹시 성능상 불리한게 있을까봐 이렇게 해둠. 어차피 게임 중에 바뀔 일은 없는 값이기 때문에
 
@@ -140,26 +101,7 @@ public static class StaticConstructor
         
 		if (multiplayerActive)
 		{
-			Log.Message("[Translated Names] detected Multiplayer is active on mod list.");
-
-            List<Type> typesInMultiplayer = new List<Type>();
-            Assembly[] currentAssemblies = AppDomain.CurrentDomain.GetAssemblies();
-			try
-			{
-                Assembly assembly_MultiplayerAPI = currentAssemblies.FirstOrDefault(t => t.GetName().Name == "0MultiplayerAPI");
-                Assembly assembly_Multiplayer = currentAssemblies.FirstOrDefault(t => t.GetName().Name == "Multiplayer");
-
-                StaticConstructor.class_MP = assembly_MultiplayerAPI.GetType("Multiplayer.API.MP");
-                StaticConstructor.class_Multiplayer = assembly_Multiplayer.GetType("Multiplayer.Client.Multiplayer");
-
-				StaticConstructor.prop_IsInMultiplayer = class_MP.GetProperty("IsInMultiplayer", BindingFlags.Static | BindingFlags.Public);
-                StaticConstructor.prop_settings = class_Multiplayer.GetField("settings", BindingFlags.Static | BindingFlags.Public);
-            }
-			catch
-			{
-				Log.Error("[Translated Names] couldn't find contents of Multiplayer mod.");
-				StaticConstructor.multiplayerActive = false;
-			}
+			MultiplayerCompat.loadMultiplayerTypes();
         }
     }
 
