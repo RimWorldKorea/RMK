@@ -82,7 +82,7 @@ public static class StaticConstructor
         }
 
         sw.Stop();
-        Log.Message(string.Format("{0} ms elapsed.", sw.Elapsed.TotalMilliseconds));
+        Log.Message(string.Format("{0:F4} ms elapsed.", sw.Elapsed.TotalMilliseconds));
 
         return multifactionEnabled;
     }
