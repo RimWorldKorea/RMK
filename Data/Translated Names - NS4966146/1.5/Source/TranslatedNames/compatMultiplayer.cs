@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using Verse;
@@ -11,9 +10,7 @@ public static class MultiplayerCompat
 
     private static Type class_Multiplayer;
 
-
     private static PropertyInfo prop_IsInMultiplayer; // 게임 중 변동 가능
-
 
     private static FieldInfo field_settings;
 
@@ -25,7 +22,6 @@ public static class MultiplayerCompat
     {
         Log.Message("[Translated Names] detected Multiplayer is active on mod list.");
 
-        List<Type> typesInMultiplayer = new List<Type>();
         Assembly[] currentAssemblies = AppDomain.CurrentDomain.GetAssemblies();
         try
         {

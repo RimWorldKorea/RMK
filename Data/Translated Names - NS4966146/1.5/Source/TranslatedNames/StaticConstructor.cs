@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -7,7 +6,6 @@ using System.Xml.Linq;
 using HarmonyLib;
 using RimWorld;
 using Verse;
-using System.Threading;
 
 namespace TranslatedNames;
 
@@ -70,16 +68,33 @@ public static class StaticConstructor
 	public static readonly string translationPath;
 
     public static bool multiplayerActive = false;
-
     static StaticConstructor()
-	{
-		Assembly thisAssembly = typeof(StaticConstructor).Assembly;
+    {
+        Assembly thisAssembly = typeof(StaticConstructor).Assembly; // 원래 rootPath를 판단하기 위해 Assembly.Location을 사용했는데, Prepatcher 모드와 호환되지 않아서 직접적으로 사용 불가.
 
-        string dllPath = Directory.GetParent(thisAssembly.Location).ToString(); // 이 어셈블리가 위치한 폴더 경로입니다.
+		try
+		{
+            ModMetaData rmkModData = ModLister.GetActiveModWithIdentifier("RMK.translation");
 
-		string rootPath = Directory.GetParent(dllPath).ToString(); // 현재 로드된 Translated Names 모듈의 루트 폴더 경로입니다.
+			string currentRimworldVersion = VersionControl.CurrentVersionStringWithoutBuild; // 현재 실행된 림월드 버전
 
-		string translationsPath = Path.Combine(rootPath, "Translations"); // Translations 폴더 경로입니다.
+            List<LoadFolder> listLoadFolders = rmkModData.loadFolders.FoldersForVersion(currentRimworldVersion).Where(t => t.ShouldLoad == true).ToList(); // 현재 실행중인 림월드 버전에 따른 RMK의 LoadFolders 정보를 획득
+
+            string folderNameInRMK = "Translated Names - NS4966146";
+
+            string loadedPartialPath = listLoadFolders.Where(t => t.folderName.Contains(folderNameInRMK)).FirstOrDefault().folderName;
+            // listLoadFolders에서 이미 버전 분기 경로를 LoadFolders의 정보로 판단했기 때문에, loadedPartialPath를 현재 로드된 정확한 폴더라고 간주할 수 있다.
+
+            rootPath = Path.Combine(rmkModData.RootDir.FullName, loadedPartialPath);
+        }
+		catch
+		{
+			// 나중에 여기에 Translated Names 모듈이 RMK에 있지 않은 채 실행된 상태를 가정하고
+			// rootPath를 설정하는 기능을 구현
+			// 아님 아예 프리패처를 뚫고 원래 어셈블리 위치를 불러오는 방법을 알아오든지 (Mono.Cecil 등?)
+		}
+
+		string translationsPath = Path.Combine(rootPath, "Translations");// Translations 폴더 경로입니다.
 
 		string translationLanguage = GetTranslationLanguage(Path.Combine(translationsPath, "Config.xml"));
 
@@ -92,7 +107,7 @@ public static class StaticConstructor
 		ModMetaData modMultiplayer = ModLister.GetActiveModWithIdentifier("rwmt.Multiplayer", true); // Multiplayer 모드가 활성화 상태인지 확인하고 기록합니다.
         if (modMultiplayer != null)
         {
-            StaticConstructor.multiplayerActive = modMultiplayer.Active; // 이거 앞에 생성자 이름 명시적으로 붙여야 되드라고요. VS는 지워도 된다고 할거임.
+            StaticConstructor.multiplayerActive = modMultiplayer.Active; // 이거 앞에 생성자 이름 IDE에서 안 붙여도 된다고 할텐데 붙여야 됨.
         }
         
 		if (multiplayerActive)
