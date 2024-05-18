@@ -31,6 +31,8 @@
   <Manual>수동</Manual>
   <Opportunistic>선택 가능</Opportunistic>
   <Automatic>자동</Automatic>
+  <VF_VehicleTracksNone>없음</VF_VehicleTracksNone>
+  <VF_VehicleTracksVanilla>바닐라와 동일</VF_VehicleTracksVanilla>
   <VF_EnterVehicle>{0} {1}에 탑승 [{2}]</VF_EnterVehicle>
   <VF_BoardVehicleGroup>{0} 탑승</VF_BoardVehicleGroup>
   <VF_BoardVehicleGroupFail>{0} 탑승 (한번에 너무 많은 정착민이 선택됨)</VF_BoardVehicleGroupFail>
@@ -274,9 +276,11 @@
   <VF_RecolorDefaultMaskTooltip>기본 패턴 변경</VF_RecolorDefaultMaskTooltip>
   <VF_WorldMapGen>세계/지도 생성</VF_WorldMapGen>
   <VF_BeachGenMultiplier>해변 크기 배율</VF_BeachGenMultiplier>
-  <VF_BeachGenMultiplierTooltip>해안선이 있는 지역을 생성할 때 바닷가의 크기를 조정합니다.</VF_BeachGenMultiplierTooltip>
-  <VF_ForceSettlementCoast>해안가 근처 정착지를 해안가로 이동</VF_ForceSettlementCoast>
-  <VF_ForceSettlementCoastTooltip>주어진 반경 값 이내에 해안가가 존재할 경우 해당 정착지를 해안가로 이동시킵니다.</VF_ForceSettlementCoastTooltip>
+  <VF_BeachGenMultiplierTooltip>해안 지형 맵에서 물 타일의 비율을 증가시킵니다.</VF_BeachGenMultiplierTooltip>
+  <VF_RiverGenMultiplier>강 크기 배율</VF_RiverGenMultiplier>
+  <VF_RiverGenMultiplierTooltip>하천 지형 맵에서 하천의 폭을 증가시킵니다.</VF_RiverGenMultiplierTooltip>
+  <VF_ForceSettlementCoast>해안 지형에 정착지 생성 유도</VF_ForceSettlementCoast>
+  <VF_ForceSettlementCoastTooltip>자동으로 생성되는 정착지에서 설정 반경 안에 해안가가 존재할 경우, 해당 정착지가 해안가에 생성되도록 합니다.</VF_ForceSettlementCoastTooltip>
   <VF_EverySettlementToCoast>모든 정착지</VF_EverySettlementToCoast>
   <VF_WorldTiles>타일</VF_WorldTiles>
   <VF_SettingsGeneral>일반적인 설정</VF_SettingsGeneral>
@@ -322,6 +326,8 @@
   <VF_FishingPersists>낚시 기본 활성화</VF_FishingPersists>
   <VF_FishingPersistsTooltip>보트에서 기본적으로 낚시를 사용합니다.</VF_FishingPersistsTooltip>
   <VF_AerialVehicles>항공기</VF_AerialVehicles>
+  <VF_DrawLandingGhost>착륙 지점 표시</VF_DrawLandingGhost>
+  <VF_DrawLandingGhostTooltip>항공기가 착륙 예정인 지점을 투명한 청사진으로 표시합니다.</VF_DrawLandingGhostTooltip>
   <VF_RocketsBurnRadius>로켓 화염 분출</VF_RocketsBurnRadius>
   <VF_RocketsBurnRadiusTooltip>이 설정을 지원하는 비행 차량이 이착륙할 때 작은 반경 이내의 모든 것을 불태울 수 있습니다.</VF_RocketsBurnRadiusTooltip>
   <VF_DynamicDrawing>동적 렌더링</VF_DynamicDrawing>
@@ -347,9 +353,9 @@
   <VF_FormingCaravanStatus_RopingAnimals>동물을 차량에 묶습니다.</VF_FormingCaravanStatus_RopingAnimals>
   <VF_FormingCaravanStatus_RopingAnimals_Pause>동물을 차량에 묶습니다. (대기 중)</VF_FormingCaravanStatus_RopingAnimals_Pause>
   <VF_FormingCaravanStatus_BoardVehicles>탑승.</VF_FormingCaravanStatus_BoardVehicles>
-  <VF_FormingCaravanStatus_BoardVehicles_Pause>탑승 중. (대기 중)</VF_FormingCaravanStatus_BoardVehicles_Pause>
-  <VF_FormingCaravanStatus_Leaving_Vehicles>떠나는 중.</VF_FormingCaravanStatus_Leaving_Vehicles>
-  <VF_FormingCaravanStatus_Leaving_Vehicles_Pause>떠나는 중. (대기 중)</VF_FormingCaravanStatus_Leaving_Vehicles_Pause>
+  <VF_FormingCaravanStatus_BoardVehicles_Pause>탑승 중 (대기 중)</VF_FormingCaravanStatus_BoardVehicles_Pause>
+  <VF_FormingCaravanStatus_Leaving_Vehicles>떠나는 중</VF_FormingCaravanStatus_Leaving_Vehicles>
+  <VF_FormingCaravanStatus_Leaving_Vehicles_Pause>떠나는 중 (대기 중)</VF_FormingCaravanStatus_Leaving_Vehicles_Pause>
   <VF_draftLabel>시동 걸기</VF_draftLabel>
   <VF_healthLabel_Healthy>정상 작동</VF_healthLabel_Healthy>
   <VF_healthLabel_Injured>수리 필요</VF_healthLabel_Injured>
