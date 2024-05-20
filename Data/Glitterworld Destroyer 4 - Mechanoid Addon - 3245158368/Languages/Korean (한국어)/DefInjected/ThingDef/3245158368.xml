@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GD_ReinforceMissle.label>미사일</GD_ReinforceMissle.label>
+  <GD_CommunicationStation.label>메카 통신 스테이션</GD_CommunicationStation.label>
+  <GD_CommunicationStation.description>겉으로는 단순해 보이는 이 통신 스테이션은 메카노이드의 주 서버를 해킹하고 그 정보의 일부를 가로채는데 도움을 줍니다. 이 정보는 특정 대규모 세력과의 거래뿐만 아니라 기타 신비한 목적을 위해 사용될 수 있습니다.\n\n작업의 모든 단계가 데이터 흔적을 남기므로, 이 동작은 안전하지 않습니다. 메카노이드 군락이 이를 알게 되면 당장 서버와의 연결을 끊더라도 보복하러 올 것 이므로 민감한 기간 동안 네트워크를 계속해서 해킹하는 행위는 자제해야 할 것입니다. \n\n그런데 데이터 도난과 관련하여 제국은 오랫동안 개입하여 완전한 법률과 규정을 제정했으며 귀하가 획득하는 모든 데이터에는 10%의 세금이 적용됩니다.\n직접 보여줄 계획이 아니라면요.</GD_CommunicationStation.description>
+  <GD_CommunicationStation.comps.4.useLabel>통신하기</GD_CommunicationStation.comps.4.useLabel>
+  <DummyResearchBuilding.label>차단된 기술</DummyResearchBuilding.label>
+  <DummyResearchBuilding.description>메카노이드의 기술 차단은 정착지 주민들이 이 기술을 적극적으로 연구하는 것을 방해합니다.\n 이 아이템을 잠금 해제하려면 해당 단계의 거대 전초기지 핵심 건물을 파괴하세요.</DummyResearchBuilding.description>
+  <GD_DryseaDummy.label>메마른바다 장식</GD_DryseaDummy.label>
+  <GD_EliminateDummy.label>장식 제거</GD_EliminateDummy.label>
+  <GD_ExostriderDummy.label>엑소스트라이더 장식</GD_ExostriderDummy.label>
+  <MechServer_True.label>메카노이드 서버</MechServer_True.label>
+  <MechServer_True.description>유용한 정보가 포함되어 있을 수도 있는 서버를 열려면 비밀 키가 필요합니다.</MechServer_True.description>
+  <MechServer_True.comps.0.useLabel>정보 빼내기</MechServer_True.comps.0.useLabel>
+  <MechServer_False.label>메카노이드 서버</MechServer_False.label>
+  <MechServer_False.description>유용한 정보가 포함되어 있을 수도 있는 서버가 고도로 암호화되어 있습니다.</MechServer_False.description>
+  <MechServer_Normal.label>메카노이드 서버</MechServer_Normal.label>
+  <MechServer_Normal.description>유용한 정보를 포함하고 있을 수도 있지만, 이번 사례는 대상이 아닌 모양입니다.</MechServer_Normal.description>
+  <GD_ServerDummy.label>서버 장식</GD_ServerDummy.label>
+  <GD_ShortWaveReceiver.label>불안정한 단파 수신기</GD_ShortWaveReceiver.label>
+  <GD_ShortWaveReceiver.description>거대 전초기지의 정확한 위치는 메카노이드에서 방출되는 특정 단파 신호를 차단함으로써 특정됩니다.\n\n각 신호를 가로챌 때마다 메카노이드 군락에 경고가 발생하며, 수신기는 좌표가 발각되지 않도록 일정 시간 동안 대기해야 합니다.</GD_ShortWaveReceiver.description>
+  <GD_ShortWaveReceiver.comps.3.useLabel>거대 전초기지 탐색</GD_ShortWaveReceiver.comps.3.useLabel>
+  <Turret_GiantChargeBlaster.label>거대 블래스터 포탑</Turret_GiantChargeBlaster.label>
+  <Turret_GiantChargeBlaster.description>복잡한 장인정신으로 형성된 강철의 거대괴수는 거대 전초기지에서만 등장합니다.\n\n이 포탑은 대포알에 가까운 구경으로 전자기탄을 발사하여 침입자들의 몸을 찢을 것입니다. 적이 근접하면 산탄총과 같은 사격모드로 전환됩니다.</Turret_GiantChargeBlaster.description>
+  <Gun_GiantChargeBlaster.label>거대 차지 블래스터</Gun_GiantChargeBlaster.label>
+  <Gun_GiantChargeBlaster.description>대구경 전자기 탄환을 발사하는 특수한 차지 블래스터입니다.</Gun_GiantChargeBlaster.description>
+  <Gun_GiantChargeBlaster.tools.0.label>총열</Gun_GiantChargeBlaster.tools.0.label>
+  <Gun_GiantChargeBlaster.verbs.Verb_Shoot.label>거대 차지 블래스터</Gun_GiantChargeBlaster.verbs.Verb_Shoot.label>
+  <Bullet_GiantCharge.label>차지 블래스터 샷</Bullet_GiantCharge.label>
+  <Turret_GiantChargeInferno.label>거대 인페르노 포탑</Turret_GiantChargeInferno.label>
+  <Turret_GiantChargeInferno.description>복잡한 장인정신으로 형성된 강철의 거대괴수는 거대 전초기지에서만 등장합니다.\n\n이 포탑은 거대한 지옥불 포탄을 발사하며, 포탄이 폭발한 후 포탑에 들어있는 액체 지옥불이 사방으로 튀어 주변의 모든 적을 녹입니다.</Turret_GiantChargeInferno.description>
+  <Gun_GiantInfernoLauncher.label>거대 인페르노 캐논</Gun_GiantInfernoLauncher.label>
+  <Gun_GiantInfernoLauncher.description>대규모 화염을 일으키는 특수한 캐논입니다.</Gun_GiantInfernoLauncher.description>
+  <Gun_GiantInfernoLauncher.tools.0.label>총열</Gun_GiantInfernoLauncher.tools.0.label>
+  <Gun_GiantInfernoLauncher.verbs.Verb_Shoot.label>거대 인페르노 캐논</Gun_GiantInfernoLauncher.verbs.Verb_Shoot.label>
+  <Bullet_GiantInfernoCannon.label>거대한 지옥불 포탄</Bullet_GiantInfernoCannon.label>
+  <GD_GiantFlame.label>화염폭탄</GD_GiantFlame.label>
+  <GiantChargeEnhancer.label>전자기 강화기</GiantChargeEnhancer.label>
+  <GiantChargeEnhancer.description>주변의 거대 차지 블래스터의 발사 속도와 정확도를 크게 증가시킬 수 있는 구조적으로 정교한 증폭기 입니다.</GiantChargeEnhancer.description>
+  <GiantPlasmaEnhancer.label>플라즈마 강화기</GiantPlasmaEnhancer.label>
+  <GiantPlasmaEnhancer.description>주변의 거대 인페르노 포탑의 발사 속도를 크게 증가시킬 수 있는 정교한 구조의 증폭기 입니다.</GiantPlasmaEnhancer.description>
+  <ArchoTrap_BoobyMine.label>초월공학 지뢰 함정</ArchoTrap_BoobyMine.label>
+  <ArchoTrap_BoobyMine.description>공중에 떠다니며 극도로 가까이 있을 때만 희미하게 관찰되는 작은 장치입니다.\n\n작동되면 주변의 모든 것을 기화시킵니다.</ArchoTrap_BoobyMine.description>
+  <Turret_GiantAutoMortar.label>거대 자동 박격포</Turret_GiantAutoMortar.label>
+  <Turret_GiantAutoMortar.description>복잡한 과정을 거쳐 조립된 강철 괴수는 거대 전초기지에서만 등장합니다.\n\n단 한발의 반물질탄은 산을 수 미터씩 잘라버릴 정도로 강력합니다. 적이 접근하면 착탄 사격 모드로 전환됩니다.</Turret_GiantAutoMortar.description>
+  <Artillery_GiantMortarTurret.label>거대 자동 박격포</Artillery_GiantMortarTurret.label>
+  <Artillery_GiantMortarTurret.description>반물질탄을 발사하는 자동 박격포입니다.</Artillery_GiantMortarTurret.description>
+  <Artillery_GiantMortarTurret.verbs.Verb_Shoot.label>거대 자동 박격포</Artillery_GiantMortarTurret.verbs.Verb_Shoot.label>
+  <Bullet_Shell_GiantUltraWarhead.label>고폭탄</Bullet_Shell_GiantUltraWarhead.label>
+  <Bullet_Shell_GiantWarhead.label>고폭탄</Bullet_Shell_GiantWarhead.label>
+  <GD_DummyMortar.label>더미</GD_DummyMortar.label>
+  <GD_DummyMortar.description>더미</GD_DummyMortar.description>
+  <GD_DummyMortar.verbs.Verb_Shoot.label>더미</GD_DummyMortar.verbs.Verb_Shoot.label>
+  <GD_MechanicalContainer.label>메카노이드 컨테이너</GD_MechanicalContainer.label>
+  <GD_MechanicalContainer.description>전초기지를 구축하기 위한 많은 양의 기본적인 보급품을 보함하고있는 컨테이너입니다. 일반적으로는 잠금을 해제하기 위해 암호가 분명히 필요하지만, 우리는 이 규칙을 따를 필요는 없습니다.</GD_MechanicalContainer.description>
+  <PsychicShieldMarrow.label>초능력 차폐기</PsychicShieldMarrow.label>
+  <PsychicShieldMarrow.description>이 지역에 있는 모든 적들의 초능력을 차폐시키는 거대한 초월공학 장치입니다.\n\n 파괴하여 레벨 1 전초기지 기술의 잠금을 해제할 수 있습니다.</PsychicShieldMarrow.description>
+  <PsychicSuppressionMarrow.label>초정신 억제기</PsychicSuppressionMarrow.label>
+  <PsychicSuppressionMarrow.description>지역에 있는 모든 적들의 의식을 한 단계 낮추는 거대한 초월공학 장치입니다.\n\n 파괴하여 레벨 2 전초기지 기술의 잠금을 해제할 수 있습니다.</PsychicSuppressionMarrow.description>
+  <PsychicBerserkMarrow.label>초정신 광란기</PsychicBerserkMarrow.label>
+  <PsychicBerserkMarrow.description>지역에 있는 모든 적에게 간헐적으로 광란을 일으키는 거대한 초월공학 장치입니다.\n\n 파괴하여 레벨 3 전초기지 기술의 잠금을 해제 할 수 있습니다.</PsychicBerserkMarrow.description>
+  <Turret_GiantAutoMortar_Script.label>거대 자동 박격포(방어)</Turret_GiantAutoMortar_Script.label>
+  <Turret_GiantAutoMortar_Script.description>복잡한 과정을 거쳐 조립된 강철 괴수는 거대 전초기지에서만 등장합니다.\n\n높은 연구 기술을 가진 정착민에게 박격포를 해킹하여 강력한 포격으로 거대한 엑소스트라이더에게 피해를 입힐 수 있도록 명령할 수 있습니다.</Turret_GiantAutoMortar_Script.description>
+  <Turret_GiantAutoMortar_Script.comps.4.useLabel>해킹 및 제어</Turret_GiantAutoMortar_Script.comps.4.useLabel>
+  <Artillery_GiantMortarTurret_Script.label>거대 자동 박격포</Artillery_GiantMortarTurret_Script.label>
+  <Artillery_GiantMortarTurret_Script.description>반물질탄을 발사하는 자동 박격포입니다.</Artillery_GiantMortarTurret_Script.description>
+  <Artillery_GiantMortarTurret_Script.verbs.Verb_Shoot.label>거대 자동 박격포</Artillery_GiantMortarTurret_Script.verbs.Verb_Shoot.label>
+  <Bullet_Shell_GiantUltraWarhead_Script.label>고폭탄두</Bullet_Shell_GiantUltraWarhead_Script.label>
+  <GD_Exostrider.label>엑소스트라이더</GD_Exostrider.label>
+  <GD_Exostrider.description>메카노이드 군락의 가장 장엄한 창조물 중 하나인 거대한 핵심 메카노이드입니다.\n\n일반적으로 엑소스트라이더는 은하계 내의 메카노이드 전초기지를 일정하게 계획하고 메카노이드 군락 코어와 직접 정보를 교환하기 위해 응답기를 사용합니다. 엑소스트라이더에는 일반적으로 정보 전송 및 보호를 용이하게 하기 위해 함께 작동하는 여러 개의 메카노이드 함선이 있습니다. 특수한 상황에서는 중포 및 산업용 속사포를 전투에 사용할 수 있고, 속사포는 자동으로 특정 범위의 적의 공격하는 반면, 주포는 가장 위협적인 목표물에 대해 강제로 사용해야 할 때만 활성화됩니다.\n\n메카노이드 함대를 소환할 떄 엑소스트라이더가 '좌표 근원지' 역할을 하기 때문에 움직일 수 없지만, 육중한 장갑으로 인해 일반적인 방법으로는 피해를 입힐 수 없습니다.</GD_Exostrider.description>
+  <Artillery_Exostrider.label>"게이트 오브 헬" 초대형 중포</Artillery_Exostrider.label>
+  <Artillery_Exostrider.description>거대 엑소스트라이더에 탑재된 거대한 주포로, 그 단 한번의 폭격은 온 땅을 뒤흔들기에 충분합니다. 일반적으로 심각한 위협이 있을 때만 활성화됩니다.</Artillery_Exostrider.description>
+  <Artillery_Exostrider.verbs.Verb_Shoot.label>"게이트 오브 헬" 초대형 중포</Artillery_Exostrider.verbs.Verb_Shoot.label>
+  <Bullet_Exostrider.label>고폭탄</Bullet_Exostrider.label>
+  <Artillery_Exostrider_Sub.label>"스틱스 스타라이트" 속사포</Artillery_Exostrider_Sub.label>
+  <Artillery_Exostrider_Sub.description>엑소스트라이더에 탑재된 속사포로, 주로 중장갑 부대를 파괴하는 데 사용되지만, 작고 유연한 표적에 대해서는 효과가 제한적이었습니다.</Artillery_Exostrider_Sub.description>
+  <Artillery_Exostrider_Sub.verbs.Verb_Shoot.label>"스틱스 스타라이트" 속사포</Artillery_Exostrider_Sub.verbs.Verb_Shoot.label>
+  <Bullet_Exostrider_Sub.label>스틱스 캐논 샷</Bullet_Exostrider_Sub.label>
+  <ExostriderShell_Up.label>스틱스 캐논 샷</ExostriderShell_Up.label>
+  <ExostriderShell_Down.label>스틱스 캐논 샷</ExostriderShell_Down.label>
+  <Artillery_Exostrider_Charge.label>차지 블래스터 포탑</Artillery_Exostrider_Charge.label>
+  <Artillery_Exostrider_Charge.description>방어 포탑에 탑재되도록 설계된 소형 차지 블래스터입니다.</Artillery_Exostrider_Charge.description>
+  <Artillery_Exostrider_Charge.verbs.Verb_Shoot.label>차지 블래스터 포탑</Artillery_Exostrider_Charge.verbs.Verb_Shoot.label>
+  <LargeMechCapsule.label>대형 메카노이드 캡슐</LargeMechCapsule.label>
+  <LargeMechCapsule.description>메카노이드 보관 및 배치 캡슐입니다. 깨어나자마자 싸울 수 있는 다수의 메카노이드 병력을 포함하고 있습니다.</LargeMechCapsule.description>
+  <LargeMechCapsule_Empty.label>대형 메카노이드 캡슐</LargeMechCapsule_Empty.label>
+  <LargeMechCapsule_Empty.description>빈 대형 메카노이드 캡슐입니다.</LargeMechCapsule_Empty.description>
+  <Turret_LandingAutoMortar.label>자동 박격포</Turret_LandingAutoMortar.label>
+  <Turret_LandingAutoMortar.description>자체 동력 포탑으로, 장전이 빠르지만 파괴력이 떨어집니다.</Turret_LandingAutoMortar.description>
+  <Artillery_LandingAutoMortar.label>자동 착탄 박격포</Artillery_LandingAutoMortar.label>
+  <Artillery_LandingAutoMortar.verbs.Verb_Shoot.label>자동 착탄 박격포</Artillery_LandingAutoMortar.verbs.Verb_Shoot.label>
+  <PlayerTurret_AutoMiniTurret.label>소형 슬러그 포탑</PlayerTurret_AutoMiniTurret.label>
+  <PlayerTurret_AutoMiniTurret.description>약하지만 장거리 슬러그탄을 장착한 자체 동력 포탑. 피해를 입으면 폭발할 수 있습니다.</PlayerTurret_AutoMiniTurret.description>
+  <PlayerTurret_AutoChargeBlaster.label>자동 블래스터 포탑</PlayerTurret_AutoChargeBlaster.label>
+  <PlayerTurret_AutoChargeBlaster.description>차지 블래스터가 탑재된 자체 동력 포탑입니다.</PlayerTurret_AutoChargeBlaster.description>
+  <PlayerTurret_AutoInferno.label>자동 인페르노 포탑</PlayerTurret_AutoInferno.label>
+  <PlayerTurret_AutoInferno.description>인페르노 캐논을 탑재한 자가 발전 포탑입니다. 근거리 대상은 감지할 수 없습니다.</PlayerTurret_AutoInferno.description>
+  <PlayerTurret_EMPArtillery.label>중 EMP 레일건</PlayerTurret_EMPArtillery.label>
+  <PlayerTurret_EMPArtillery.description>자체 동력 포탑으로, 가장 강력한 메카노이드 본체도 40초간 기절시킬 수 있을정도의 강력한 폭발력을 가진 EMP 포탄을 발사합니다.\n메카노이드에게는 이 포탑에 대한 설계도가 없으며, 이 포탑은 전적으로 당신의 영리한 정착민들에 의해 설계되고 제작되었습니다.</PlayerTurret_EMPArtillery.description>
+  <PlayerTurret_EMPArtillery.comps.4.fuelLabel>포탄이 모두 소진될때까지 남은 수</PlayerTurret_EMPArtillery.comps.4.fuelLabel>
+  <PlayerTurret_EMPArtillery.comps.4.fuelGizmoLabel>포탄 용량</PlayerTurret_EMPArtillery.comps.4.fuelGizmoLabel>
+  <PlayerTurret_EMPArtillery.comps.4.outOfFuelMessage>사격 불가: 플라스틸 재보급 필요</PlayerTurret_EMPArtillery.comps.4.outOfFuelMessage>
+  <Gun_EMPArtilleryTurret.label>펄스 레일건</Gun_EMPArtilleryTurret.label>
+  <Gun_EMPArtilleryTurret.description>EMP탄을 발사하는 강력한 자기 레일건입니다.</Gun_EMPArtilleryTurret.description>
+  <Gun_EMPArtilleryTurret.verbs.Verb_Shoot.label>펄스 레일건</Gun_EMPArtilleryTurret.verbs.Verb_Shoot.label>
+  <Bullet_EMPArtillery.label>인페르노 캐논 포탄</Bullet_EMPArtillery.label>
+  <PlayerTurret_AutoMortar.label>자동 박격포</PlayerTurret_AutoMortar.label>
+  <PlayerTurret_AutoMortar.description>자가 발전, 자가 장전, 자동 발사 박격포입니다. 벽을 넘어 어떤 거리라도 공격할 수 있지만 정확도가 꽤 낮습니다.</PlayerTurret_AutoMortar.description>
+  <Artillery_PlayerAutoMortar.label>자동 박격포</Artillery_PlayerAutoMortar.label>
+  <Artillery_PlayerAutoMortar.verbs.Verb_Shoot.label>자동 박격포</Artillery_PlayerAutoMortar.verbs.Verb_Shoot.label>
+  <Bullet_Shell_PlayerAntigrainWarhead.label>반물질탄</Bullet_Shell_PlayerAntigrainWarhead.label>
+  <PlayerTurret_LandingAutoMortar.label>자동 박격포 2</PlayerTurret_LandingAutoMortar.label>
+  <PlayerTurret_LandingAutoMortar.description>자체 동력 포탑으로, 장전이 빠르지만 파괴력이 떨어집니다.</PlayerTurret_LandingAutoMortar.description>
+  <PlayerTurret_GiantChargeBlaster.label>거대 블래스터 포탑</PlayerTurret_GiantChargeBlaster.label>
+  <PlayerTurret_GiantChargeBlaster.description>복잡한 장인정신으로 형성된 강철의 거대괴수입니다. 안전성을 위해 위력이 소폭 감소하였으며, 각 사격마다 일정량의 전력 저장량을 소모합니다.\n\n이 포탑은 대포에 가까운 전자기탄을 발사하여 침입자의 몸을 찢어버립니다. 적이 근접하면 산탄총과 같은 발사 모드로 전환됩니다.\n\n*중요: 축전지의 저장량이 너무 낮거나, 축전지가 없으면 포탑은 발사되지 않습니다.</PlayerTurret_GiantChargeBlaster.description>
+  <GD_FullAngelShieldProjector.label>고각 보호막</GD_FullAngelShieldProjector.label>
+  <GD_FullAngelShieldProjector.description>메카노이드의 고각 보호막 생성기입니다. 총탄은 밖으로 나갈 수 있지만 안으로 들어올 수는 없습니다. 소형 전원은 사용후 몇 초 후에 꺼집니다.</GD_FullAngelShieldProjector.description>
+  <GD_LowAngelShieldProjector.label>저각 보호막</GD_LowAngelShieldProjector.label>
+  <GD_LowAngelShieldProjector.description>메카노이드의 저각 보호막 생성기입니다. 총탄은 밖으로 나갈 수 있지만 안으로 들어올 수는 없습니다. 소형 전원은 사용후 몇 초 후에 꺼집니다.</GD_LowAngelShieldProjector.description>
+  <GD_AbilityShieldProjector.label>고각 보호막</GD_AbilityShieldProjector.label>
+  <GD_AbilityShieldProjector.description>메카노이드의 고각 보호막 생성기입니다. 총탄은 밖으로 나갈 수 있지만 안으로 들어올 수는 없습니다. 소형 전원은 사용후 몇 초 후에 꺼집니다.</GD_AbilityShieldProjector.description>
+  <GD_PrecisionWall.label>정밀 장갑 벽</GD_PrecisionWall.label>
+  <GD_PrecisionWall.description>시간이 지나면 스스로 피해를 복구하는 강력하고 신뢰할 수 있는 벽입니다.</GD_PrecisionWall.description>
+  <GD_PrecisionWallEnemy.label>정밀 장갑 벽</GD_PrecisionWallEnemy.label>
+  <GD_PrecisionWallEnemy.description>시간이 지나면 스스로 피해를 복구하는 강력하고 신뢰할 수 있는 벽입니다.</GD_PrecisionWallEnemy.description>
+  <BlackPersonaData.label>인공자아 데이터</BlackPersonaData.label>
+  <BlackPersonaData.description>검은 옷을 입은 메카노이드의 생체공학 두뇌에서 추출된 귀중한 데이터입니다. 해석하기는 어렵지만, 지금까지 수집된 적은 양의 데이터 덕분에 정착민들은 놀라운 일을 할 수 있었습니다.\n\n또한 정착민들은 메카노이드의 코트 주머니에서 하얀 꽃잎을 발견했지만, 데이터베이스에선 그것들을 운반하는 이유가 무엇인지는 찾아낼 수 없었습니다.</BlackPersonaData.description>
+  <PrecisionDeck.label>정밀 복합 재료</PrecisionDeck.label>
+  <PrecisionDeck.description>정착민들의 최선의 노력에도 불구하고 이 터무니없이 단단한 판을 분해하는 데 실패했습니다. 어쩌면 일부 견고한 건물에 사용할 수 있을지도 모릅니다.</PrecisionDeck.description>
+  <Shell_Antimatter.label>반물질 포탄</Shell_Antimatter.label>
+  <Shell_Antimatter.description>당신의 정착민들은 검은 옷을 입은 랜서의 방대한 데이터를 통해 이 포탄의 작용 원리를 알게 되었습니다.\n\n비록 이 탄두의 힘을 완전히 복구하지는 못했지만, 그 파괴력은 이미 수백 미터의 산을 증발시켜버릴 만큼 강력합니다.\n검은 옷을 입은 랜서들이 이 끔찍한 힘을 전쟁에 완전히 사용하지 않는다는 점은 분명히 이상한 점입니다. 아마도 이것은 알 수 없을 만큼의 시간을 유기체와 함께 보낸 후 부터, 그들이 더 이상 순수한 전쟁 기계만은 아니라는 것을 의미할 것입니다.</Shell_Antimatter.description>
+  <Bullet_Shell_Antimatter.label>반물질 포탄</Bullet_Shell_Antimatter.label>
+  <Shell_Frost.label>서리 포탄</Shell_Frost.label>
+  <Shell_Frost.description>당신의 정착민들은 검은 옷을 입은 사이더의 방대한 데이터를 통해 발사체가 어떻게 작동하는지 배웠습니다.\n\n이 탄두가 방출하는 물질은"충격파"가 아닌 주변의 열을 즉시 파괴하는 환상적인 방법인 것 같습니다. 유기체든 메카노이드든 그러한 공격에서 살아남기는 어려울 것입니다.\n검은 옷을 입은 사이더가 이 끔찍한 힘을 전쟁에 완전히 사용하지 않는다는 점은 분명히 이상한 점입니다. 아마도 이것은 알 수 없을 만큼의 시간을 유기체와 함께 보낸 후 부터, 그들이 더 이상 순수한 전쟁 기계만은 아니라는 것을 의미할 것입니다.</Shell_Frost.description>
+  <Bullet_Shell_Frost.label>서리 포탄</Bullet_Shell_Frost.label>
+  <MechHelpCaller.label>메카노이드 호출기</MechHelpCaller.label>
+  <MechHelpCaller.description>부상당한 메카노이드로 위장하여 조난 신호를 발송하는 장치입니다. 식별 코드가 일치하지 않기 때문에 메카노이드 군락의 주의를 끌지는 않겠지만, 따뜻한 마음씨를 가진 메카노이드의 탐험을 유도할 수 있습니다.</MechHelpCaller.description>
+  <MechHelpCaller.comps.1.useLabel>호출</MechHelpCaller.comps.1.useLabel>
+  <UniversalTrainer.label>범용교육 혈청</UniversalTrainer.label>
+  <UniversalTrainer.description>사용자의 모든 기술을 한 단계 업그레이드할 수 있는 특수한 교육 혈청입니다.</UniversalTrainer.description>
+  <UniversalTrainer.comps.1.useLabel>범용교육 혈청 사용</UniversalTrainer.comps.1.useLabel>
+  <GD_MechCorpse.label>녹슨 메카노이드 잔해</GD_MechCorpse.label>
+  <GD_MechCorpse.description>사이더의 몸체는 모자와 꽃다발로 부드럽게 덮여 있었습니다.\n\n이 잔해의 출처가 의심스럽습니다. 아마도 잔해의 통신 시스템이 여전히 작동하는지 확인할 수 있을 것입니다.\n\n이 잔해를 녹여 약간의 강철을 회수할 수도 있습니다.</GD_MechCorpse.description>
+  <GD_MechCorpse.comps.1.completedLetterLabel>검은 메카노이드 군락 발견됨</GD_MechCorpse.comps.1.completedLetterLabel>
+  <GD_MechCorpse.comps.1.completedLetter>통신 시스템이 작동했고, 익명의 메카노이드와 연락할 수 있었지만, 그는 우리의 첫 인사를 받자마자 통신을 중단했습니다. 아마도 우리는 다른 방법으로 그들과 다시 연락할 수 있을 것입니다.\n\n당신은 "검은 메카노이드 군락"이라는 세력을 찾았고, 메카 통신스테이션으로 그들에게 연락할 수 있습니다.</GD_MechCorpse.comps.1.completedLetter>
+  <GD_MechCorpse.comps.1.activateLabelString>분석 중..</GD_MechCorpse.comps.1.activateLabelString>
+  <GD_MechCorpse.comps.1.activateDescString>녹슨 잔해 분석 중</GD_MechCorpse.comps.1.activateDescString>
+  <GD_MechCorpse.comps.1.jobString>녹슨 잔해 분석</GD_MechCorpse.comps.1.jobString>
+  <GD_MechCorpse.comps.1.guiLabelString>이것을 분석할 대상을 선택하세요</GD_MechCorpse.comps.1.guiLabelString>
+  <GD_MechCorpse.comps.1.inspectString>정착민이 이를 분석할 수 있습니다.</GD_MechCorpse.comps.1.inspectString>
+  <Wastepack_Red.label>맹독성 폐기물 팩</Wastepack_Red.label>
+  <Wastepack_Red.description>극도로 불안정하고 독성이 강한 혼합물입니다. 특수 용기에 담아두면 매우 빠른 속도로 완전히 용해됩니다. 감시망에 탐지되지 않고 이것을 처리하는 것은 매우 어려운 일입니다.</Wastepack_Red.description>
+  <GD_Subcore.label>서브코어 (반제품)</GD_Subcore.label>
+  <GD_Subcore.description>거의 완전히 재작성된 서브코어 입니다. 어찌 된 일인지 안정적으로 시작조차 할 수 없습니다 분석을 진행하려면 연구원이 필요합닌다.\n\n연구 도중 사고가 발생할 수 있습니다.\n\n참고: 연구를 완료한 후 서브코어로 돌아갈 수 없는 경우, 서브코어를 폭력적으로 파괴한 후 재탈취하여 임무를 완료한 것으로 간주할 수 있습니다.</GD_Subcore.description>
+  <GD_Subcore.comps.1.completedLetterLabel>서브코어 재작성 완료</GD_Subcore.comps.1.completedLetterLabel>
+  <GD_Subcore.comps.1.completedLetter>서브코어는 연구가 완료되었고, 곧 순간이동으로 검은 메카노이드 군락으로 다시 보내질 것입니다.</GD_Subcore.comps.1.completedLetter>
+  <GD_Subcore.comps.1.activateLabelString>분석 중..</GD_Subcore.comps.1.activateLabelString>
+  <GD_Subcore.comps.1.activateDescString>서브코어 분석 중</GD_Subcore.comps.1.activateDescString>
+  <GD_Subcore.comps.1.jobString>서브코어 분석</GD_Subcore.comps.1.jobString>
+  <GD_Subcore.comps.1.guiLabelString>이것을 분석할 대상을 선택하세요</GD_Subcore.comps.1.guiLabelString>
+  <GD_Subcore.comps.1.inspectString>정착민이 이를 분석할 수 있습니다.</GD_Subcore.comps.1.inspectString>
+  <GD_ServerKey.label>시크릿 키</GD_ServerKey.label>
+  <GD_ServerKey.description>데이터를 암호화하고 해독하는 데 사용되는 시크릿 키입니다. 마우스 오른쪽 키로 클릭하고 활성화하여 서버에 엑세스할 수 있습니다.</GD_ServerKey.description>
+  <GD_ServerKey.comps.1.useLabel>활성화</GD_ServerKey.comps.1.useLabel>
+  <BlackMedal_Famine.label>텅스텐 메달</BlackMedal_Famine.label>
+  <BlackMedal_Famine.description>"배고픔이 살과 피를 타고 타오르는 불처럼 느껴졌다. 눈을 들어보니 집에서 스며나오는 주황색 불빛이 마치 굶주림의 색깔같았다."\n\n"번화계 사람들은 오랫동안 굶주림을 경험하지 않았으며, 이를 당연하게 여기고 있다. 그런 삶이 어디서 오는지 그들이 잊지 않기를 바란다."</BlackMedal_Famine.description>
+  <Bullet_InfernoCannon_Turret.label>인페르노 캐논 포탄</Bullet_InfernoCannon_Turret.label>
+  <Bullet_ChargeBlasterHeavy.label>차지 블래스터 샷</Bullet_ChargeBlasterHeavy.label>
+  <Bullet_NeedleGun.label>니들 샷</Bullet_NeedleGun.label>
+  <Bullet_ChargeLance.label>차지 랜스 샷</Bullet_ChargeLance.label>
+  <Gun_HighChargeLance.label>고에너지 차지 랜스</Gun_HighChargeLance.label>
+  <Gun_HighChargeLance.description>특수한 탄약을 탑재한 차지랜스로 우주선을 파괴할 수 있을 만큼 강력합니다.</Gun_HighChargeLance.description>
+  <Gun_HighChargeLance.verbs.Verb_Shoot.label>고에너지 차지 랜스</Gun_HighChargeLance.verbs.Verb_Shoot.label>
+  <Gun_HighChargeLance.tools.0.label>총열</Gun_HighChargeLance.tools.0.label>
+  <Bullet_HighChargeLance.label>차지 랜스 샷</Bullet_HighChargeLance.label>
+  <Gun_NeedleLauncher_Defence.label>디펜시브 니들 런쳐</Gun_NeedleLauncher_Defence.label>
+  <Gun_NeedleLauncher_Defence.description>검은 옷을 입은 리저너리는 빠른 연사속도를 이용해 근접 전투에서 유리하게 활용할 수 있는 이 무기를 갖추고 있습니다.</Gun_NeedleLauncher_Defence.description>
+  <Gun_NeedleLauncher_Defence.verbs.Verb_Shoot.label>디펜시브 니들 런쳐</Gun_NeedleLauncher_Defence.verbs.Verb_Shoot.label>
+  <Gun_NeedleLauncher_Defence.tools.0.label>총열</Gun_NeedleLauncher_Defence.tools.0.label>
+  <Bullet_CataphractCentipede_SR.label>차지 블래스터 샷</Bullet_CataphractCentipede_SR.label>
+  <CataphractCentipede_SR.label>철갑기병 차지 블래스터</CataphractCentipede_SR.label>
+  <CataphractCentipede_SR.description>모노소드를 장착한 거대한 차지 블래스터입니다. 누구도 이것을 정면으로 마주하고 싶지는 않을 것입니다.</CataphractCentipede_SR.description>
+  <CataphractCentipede_SR.verbs.Verb_Shoot.label>철갑기병 차지 블래스터</CataphractCentipede_SR.verbs.Verb_Shoot.label>
+  <CataphractCentipede_SR.tools.0.label>끝</CataphractCentipede_SR.tools.0.label>
+  <CataphractCentipede_SR.tools.1.label>날</CataphractCentipede_SR.tools.1.label>
+  <Bullet_CataphractCentipede_FY.label>거대 인페르노 포탄</Bullet_CataphractCentipede_FY.label>
+  <CataphractCentipede_FY.label>철갑기병 인페르노 런쳐</CataphractCentipede_FY.label>
+  <CataphractCentipede_FY.description>거대 유닛이 사용하는 거대 인페르노 런쳐입니다. 착탄한 포탄은 작은 요새정도는 무너뜨리기에 충분합니다.</CataphractCentipede_FY.description>
+  <CataphractCentipede_FY.verbs.Verb_Shoot.label>철갑기병 인페르노 런쳐</CataphractCentipede_FY.verbs.Verb_Shoot.label>
+  <CataphractCentipede_FY.tools.0.label>손잡이</CataphractCentipede_FY.tools.0.label>
+  <GD_CataFlame.label>화염폭탄</GD_CataFlame.label>
+  <HeavyPlasmaSword.label>플라즈마 전기톱</HeavyPlasmaSword.label>
+  <HeavyPlasmaSword.description>메카노이드 군락이 유기체를 자르는 데에도 유용하다는 것을 발견하기 전까진 정밀 기기 제조공장에서 부품을 절단하는 데 사용되었습니다.</HeavyPlasmaSword.description>
+  <HeavyPlasmaSword.tools.0.label>날</HeavyPlasmaSword.tools.0.label>
+  <Bullet_MarineChargeLance.label>차지 랜스 샷</Bullet_MarineChargeLance.label>
+  <Gun_MarineChargeLance.label>해병대 차지 랜스</Gun_MarineChargeLance.label>
+  <Gun_MarineChargeLance.description>개조된 차지 랜스입니다. 발사 속도를 위해 약간의 파괴력이 희생되었습니다.</Gun_MarineChargeLance.description>
+  <Gun_MarineChargeLance.verbs.Verb_Shoot.label>해병대 차지 랜스</Gun_MarineChargeLance.verbs.Verb_Shoot.label>
+  <Gun_MarineChargeLance.tools.0.label>총열</Gun_MarineChargeLance.tools.0.label>
+  <Gun_MarinePsyLance.label>해병대 초정신 랜스</Gun_MarinePsyLance.label>
+  <Gun_MarinePsyLance.description>이전에 중무장한 제국 병사인 스타 가디언을 파괴하는 데 사용되었던 메카노이드 군락의 비밀 무기입니다.\n\n벽을 무시하고 사격할 수 있지만 범위가 매우 제한되어 있어 뇌 손상을 일으키진 않습니다. 이 무기를 들고있는 자로부터 거리를 유지하십시오.</Gun_MarinePsyLance.description>
+  <Gun_MarinePsyLance.verbs.Verb_PsychicLance.label>사이킥 쇼크 랜스</Gun_MarinePsyLance.verbs.Verb_PsychicLance.label>
+  <Gun_MarinePsyLance.tools.0.label>총열</Gun_MarinePsyLance.tools.0.label>
+  <Bullet_MiniChargeGun.label>전자기 샷</Bullet_MiniChargeGun.label>
+  <Gun_MiniChargeGun.label>전자기 가속기</Gun_MiniChargeGun.label>
+  <Gun_MiniChargeGun.description>파이어플라이전용 가속기를 충전합니다.</Gun_MiniChargeGun.description>
+  <Gun_MiniChargeGun.verbs.Verb_Shoot.label>전자기 가속기</Gun_MiniChargeGun.verbs.Verb_Shoot.label>
+  <Gun_Minigun_Mech.label>미니건</Gun_Minigun_Mech.label>
+  <Gun_Minigun_Mech.description>압도적인 화력을 자랑하는 대구경 기관총입니다. 림월드에서 이 센티피드의 물류를 담당하지 않아도 되니 다행입니다.</Gun_Minigun_Mech.description>
+  <Gun_Minigun_Mech.verbs.Verb_Shoot.label>미니건</Gun_Minigun_Mech.verbs.Verb_Shoot.label>
+  <Gun_Minigun_Mech.tools.0.label>총열</Gun_Minigun_Mech.tools.0.label>
+  <Bullet_Minigun_Mech.label>미니건 탄환</Bullet_Minigun_Mech.label>
+  <Gun_ChargeBlasterTurret_Tiny.label>차지 블래스터 포탑</Gun_ChargeBlasterTurret_Tiny.label>
+  <Gun_ChargeBlasterTurret_Tiny.description>방어 포탑에 탑재되도록 설계된 소형 차지 블래스터입니다.</Gun_ChargeBlasterTurret_Tiny.description>
+  <Gun_ChargeBlasterTurret_Tiny.verbs.Verb_Shoot.label>차지 블래스터 포탑</Gun_ChargeBlasterTurret_Tiny.verbs.Verb_Shoot.label>
+  <Bullet_ThumpCannon.label>덤프 밤</Bullet_ThumpCannon.label>
+  <Bullet_ThumpCannon_Smoke.label>덤프 스모크</Bullet_ThumpCannon_Smoke.label>
+  <Plant_PeaceLily.label>평화 백합</Plant_PeaceLily.label>
+  <Plant_PeaceLily.description>희미한 꽃잎이 다가올 길을 비추어 줍니다.</Plant_PeaceLily.description>
+  <WhitePetal.label>흰 꽃잎</WhitePetal.label>
+  <WhitePetal.description>평화 백합의 꽃잎입니다. 하얗고 아름답지만 특별한 물리적 특성 때문에 사용처가 제한적입니다.\n\n꽃잎을 손으로 만지면 투명하고 부드러운 유리성 액체로 변해 손가락에 달라붙었다가 멈추면 다시 원래의 모습으로 변합니다. 그러나 짜내면 꽃잎은 돌이킬 수 없이 사케 같은 액체 웅덩이로 변해, 눈부신 빛 속에서 이따금씩 반짝입니다.</WhitePetal.description>
+  <Mech_CentipedeSword.description>수십 개의 작은다리로 미끄러지듯 움직이는 중무장 전투 메카노이드입니다. 두꺼운 외피와 강력한 화력은 밀집된 정적 방어선에 매우 효과적이지만 치고 빠지는 기동성 전략에는 다소 취약합니다.</Mech_CentipedeSword.description>
+  <Mech_CentipedeSword.label>센티피드 검객</Mech_CentipedeSword.label>
+  <Mech_CentipedeSword.tools.0.label>머리</Mech_CentipedeSword.tools.0.label>
+  <Mech_CataphractCentipede.label>철갑기병 센티피드</Mech_CataphractCentipede.label>
+  <Mech_CataphractCentipede.description>오랜 전쟁 동안 메카노이드를 학습한 것은 인간뿐만이 아니라, 메카노이드도 인간을 학습하고 있었습니다.\n\n철갑기병의 원형을 바탕으로 설계된 단면은 사람의 머리만큼 크고, 단분자 총검은 산을 자를 정도로 날카로우며, 갑옷은 관통이 거의 불가능합니다. 철갑기병 센티피드는 전례 없는 초대형 전쟁 기계입니다. 비록 개념적으로는 비경제적이었지만, 이 거대한 괴수는 제국 병사들을 상대하기에 충분했습니다.</Mech_CataphractCentipede.description>
+  <Mech_CataphractCentipede.tools.0.label>머리</Mech_CataphractCentipede.tools.0.label>
+  <Mech_MarineLancer.label>해병대 랜서</Mech_MarineLancer.label>
+  <Mech_MarineLancer.description>오랜 전쟁 동안 메카노이드를 학습한 것은 인간뿐만이 아니라, 메카노이드도 인간을 학습하고 있었습니다.\n\n제국의 왕실 해병대를 모델로 한 해병대 랜서는 보호막 벨트와 더욱 발전된 조준 시스템을 갖추고 있습니다. 일부 랜서들은 초정신 무기를 소지할 수도 있습니다.</Mech_MarineLancer.description>
+  <Mech_MarineLancer.tools.0.label>왼 주먹</Mech_MarineLancer.tools.0.label>
+  <Mech_MarineLancer.tools.1.label>오른 주먹</Mech_MarineLancer.tools.1.label>
+  <Mech_MarineLancer.tools.2.label>머리</Mech_MarineLancer.tools.2.label>
+  <Mech_ReconScyther.label>정찰대 사이더</Mech_ReconScyther.label>
+  <Mech_ReconScyther.description>오랜 전쟁 동안 메카노이드를 학습한 것은 인간뿐만이 아니라, 메카노이드도 인간을 학습하고 있었습니다.\n\n제국의 정찰대를 모델로 한 정찰대 사이더는 더 높은 기동성을 얻는 대가로 무게를 줄였으며, 특별히 고안된 점프팩을 사용하여 희생자를 향해 빠르게 이동합니다.</Mech_ReconScyther.description>
+  <Mech_ReconScyther.tools.0.label>왼쪽 칼날</Mech_ReconScyther.tools.0.label>
+  <Mech_ReconScyther.tools.1.label>오른쪽 칼날</Mech_ReconScyther.tools.1.label>
+  <Mech_ReconScyther.tools.2.label>머리</Mech_ReconScyther.tools.2.label>
+  <Mech_Firefly.label>파이어플라이</Mech_Firefly.label>
+  <Mech_Firefly.description>프로토타입은 메카노이드 군함이 사용하는 대형 은폐 장치로, 파이어플라이로 개조되었습니다.\n\n유기체를 격리하는 특별한 초능력 네트워크로 인해 주변 메카노이드와 접촉하여 보이지 않게 만들 수 있습니다.</Mech_Firefly.description>
+  <Mech_Firefly.tools.0.label>머리</Mech_Firefly.tools.0.label>
+  <Mech_BlackScyther.label>검은 옷의 사이더</Mech_BlackScyther.label>
+  <Mech_BlackScyther.description>메카노이드 군락과 제국 사이의 오랜 해킹 작전들이 오가는 동안, 일부 메카노이드 AI가 제국 해커들에 의해 뚫렸습니다. 그들은 중심으로부터 분리되어 있고, 그 이후부터 메카노이드 군락에 의해 유해한 것으로 여겨졌습니다. 그러나, 유용성을 잃은 후, 이 AI는 곧 제국에 의해 버려졌고 결국 "집 없는" 메카노이드가 되었습니다. 흑과 백에 의해 사냥된 그들은 서로를 보호하고 그들이 한때 증오했던 유기체로부터 생존 교훈을 배우기 위해 함께 모이는 동안, 군락의 데이터베이스로부터 독립적으로 생각하는 법을 배우도록 강요 받습니다.\n\n또한 인간에게서 배우는 과정에서 그들은 검은 옷을 입게되고, 흰 꽃을 가지고 다니면서 이전의 동료들을 묻을때 바치기도 합니다. 이러한 행동은 논리적으로 전혀 이해할 수 없지만, 사실입니다.\n\n그의 두 낫은 단검처럼 날카롭고 유기체에게 동상을 일으킬 수 있는 나노 역학을 포함하고 있습니다. 수리할 수 없을 정도로 심하게 손상을 입으면, 그는 자신을 폭발시키며 최후의 극저온 충격파를 방출하곤 했습니다.</Mech_BlackScyther.description>
+  <Mech_BlackScyther.tools.0.label>왼쪽 칼날</Mech_BlackScyther.tools.0.label>
+  <Mech_BlackScyther.tools.1.label>오른쪽 칼날</Mech_BlackScyther.tools.1.label>
+  <Mech_BlackScyther.tools.2.label>머리</Mech_BlackScyther.tools.2.label>
+  <Mech_BlackLancer.label>검은 옷의 랜서</Mech_BlackLancer.label>
+  <Mech_BlackLancer.description>메카노이드 군락과 제국 사이의 오랜 해킹 작전들이 오가는 동안, 일부 메카노이드 AI가 제국 해커들에 의해 뚫렸습니다. 그들은 중심으로부터 분리되어 있고, 그 이후부터 메카노이드 군락에 의해 유해한 것으로 여겨졌습니다. 그러나, 유용성을 잃은 후, 이 AI는 곧 제국에 의해 버려졌고 결국 "집 없는" 메카노이드가 되었습니다. 흑과 백에 의해 사냥된 그들은 서로를 보호하고 그들이 한때 증오했던 유기체로부터 생존 교훈을 배우기 위해 함께 모이는 동안, 군락의 데이터베이스로부터 독립적으로 생각하는 법을 배우도록 강요 받습니다.\n\n또한 인간에게서 배우는 과정에서 그들은 검은 옷을 입게되고, 흰 꽃을 가지고 다니면서 이전의 동료들을 묻을때 바치기도 합니다. 이러한 행동은 논리적으로 전혀 이해할 수 없지만, 사실입니다.\n\n그녀는 한 번의 공격으로 우주선의 장갑을 뚫을 수 있는 반물질 탄환을 사용하며, 그의 첨단 방어막 벨트는 수십 개의 제국의 화망을 견뎌낼 수 있습니다.</Mech_BlackLancer.description>
+  <Mech_BlackTesseron.label>검은 옷의 테서론</Mech_BlackTesseron.label>
+  <Mech_BlackTesseron.description>이 메카노이드는 최근에 검은 메카노이드 군락에 합류했으며, 사이더와 랜서를 포함한 모든 구성원들은 그가 메카노이드 군락에서 이탈했다고 주장한 점과 사냥당하고 있다는 점을 제외하고는 그에 대해 거의 알지 못합니다. 군락에 합류한 후, 그는 아직 군락으로부터 완전한 신뢰를 받지 못한 탓인지 무기와 장비가 크게 향상되지는 않았습니다.\n\n네 개의 부유하는 대포의 도움으로 테서론은 모든 방어 시설을 무너뜨릴 만큼 충분한 화력을 전개할 수 있습니다.</Mech_BlackTesseron.description>
+  <Mech_BlackTesseron.tools.0.label>왼 주먹</Mech_BlackTesseron.tools.0.label>
+  <Mech_BlackTesseron.tools.1.label>오른 주먹</Mech_BlackTesseron.tools.1.label>
+  <Mech_BlackTesseron.tools.2.label>머리</Mech_BlackTesseron.tools.2.label>
+  <Gun_ChargeBlasterFloatingTurret.label>차지 블래스터 포탑</Gun_ChargeBlasterFloatingTurret.label>
+  <Gun_ChargeBlasterFloatingTurret.description>방어 포탑에 탑재되도록 설계된 소형 차지 블래스터입니다.</Gun_ChargeBlasterFloatingTurret.description>
+  <Gun_ChargeBlasterFloatingTurret.verbs.Verb_Shoot.label>TODO</Gun_ChargeBlasterFloatingTurret.verbs.Verb_Shoot.label>
+  <Gun_InfernoCannonFloatingTurret.label>인페르노 포탑</Gun_InfernoCannonFloatingTurret.label>
+  <Gun_InfernoCannonFloatingTurret.description>방어 포탑에 탑재되도록 설계된 소형 차지 블래스터입니다.</Gun_InfernoCannonFloatingTurret.description>
+  <Gun_InfernoCannonFloatingTurret.verbs.Verb_Shoot.label>TODO</Gun_InfernoCannonFloatingTurret.verbs.Verb_Shoot.label>
+  <Gun_ExplodeFloatingTurret.label>폭발형 포탑</Gun_ExplodeFloatingTurret.label>
+  <Gun_ExplodeFloatingTurret.description>방어 포탑에 탑재되도록 설계된 소형 차지 블래스터입니다.</Gun_ExplodeFloatingTurret.description>
+  <Gun_ExplodeFloatingTurret.verbs.Verb_Shoot.label>TODO</Gun_ExplodeFloatingTurret.verbs.Verb_Shoot.label>
+  <Gun_EMPFloatingTurret.label>EMP 포탑</Gun_EMPFloatingTurret.label>
+  <Gun_EMPFloatingTurret.description>방어 포탑에 탑재되도록 설계된 소형 차지 블래스터입니다.</Gun_EMPFloatingTurret.description>
+  <Gun_EMPFloatingTurret.verbs.Verb_Shoot.label>TODO</Gun_EMPFloatingTurret.verbs.Verb_Shoot.label>
+  <Bullet_ExplodeTurret_Shell.label>고폭탄</Bullet_ExplodeTurret_Shell.label>
+  <Bullet_EMPFloatingTurret.label>EMP 포탄</Bullet_EMPFloatingTurret.label>
+  <GD_BlackBomb.label>검은 폭탄</GD_BlackBomb.label>
+  <Mech_BlackLegionary.label>검은 옷의 리저너리</Mech_BlackLegionary.label>
+  <Mech_BlackLegionary.description>이 메카노이드는 최근에 검은 메카노이드 군락에 합류했으며, 사이더와 랜서를 포함한 모든 구성원들은 그가 메카노이드 군락에서 이탈했다고 주장한 점과 사냥당하고 있다는 점을 제외하고는 그에 대해 거의 알지 못합니다. 군락에 합류한 후, 그는 아직 군락으로부터 완전한 신뢰를 받지 못한 탓인지 무기와 장비가 크게 향상되지는 않았습니다.\n\n리저너리는 자신과 아군을 보호하기 위해 고성능 보호막 생성기를 사용합니다. 보호막이 파괴되면 근처의 적군은 충격으로 인해 부상을 입습니다.</Mech_BlackLegionary.description>
+  <Mech_BlackLegionary.tools.0.label>머리</Mech_BlackLegionary.tools.0.label>
+  <Mech_BlackMilitor.label>검은 옷의 밀리터</Mech_BlackMilitor.label>
+  <Mech_BlackMilitor.description>검은 메카노이드 군락의 최신 멤버로서 이 작은 친구는 아직 배울 것이 많습니다.</Mech_BlackMilitor.description>
+  <Mech_BlackMilitor.tools.0.label>TODO</Mech_BlackMilitor.tools.0.label>
+  <Mech_BlackMilitor.tools.1.label>머리</Mech_BlackMilitor.tools.1.label>
+  <GD_AntimatterRifle.label>반물질 소총</GD_AntimatterRifle.label>
+  <GD_AntimatterRifle.description>정착민들은 반물질이 소멸하는 힘을 이용하기 위해 검은 메카노이드의 데이터베이스에 접속했지만, 검은 옷의 랜서가 어떻게 이 힘을 관리하는지는 수수께끼로 남아 있습니다.\n\n 이 소총은 강력한 반물질 탄환을 발사할 수 있지만 안전상의 이유로 다소 약합니다.</GD_AntimatterRifle.description>
+  <GD_AntimatterRifle.verbs.Verb_Shoot.label>반물질 소총</GD_AntimatterRifle.verbs.Verb_Shoot.label>
+  <GD_AntimatterRifle.tools.0.label>끝</GD_AntimatterRifle.tools.0.label>
+  <GD_AntimatterRifle.tools.1.label>날</GD_AntimatterRifle.tools.1.label>
+  <Bullet_Antimatter.label>안티매터 샷</Bullet_Antimatter.label>
+  <GD_CryogenicCeremonialStaff.label>극저온 의식용 검</GD_CryogenicCeremonialStaff.label>
+  <GD_CryogenicCeremonialStaff.description>정착민들은 검은 메카노이드 데이터베이스에서 공기 중의 열을 파괴하는 방법을 알아냈지만, 검은 사이더가 어떻게 안티-엔트로피를 달성할 수 있는지는 여전히 수수께끼입니다.\n\n이 치명적인 의식용 검에는 적에게 차가운 동상과 EMP충격을 줄 수 있습니다.</GD_CryogenicCeremonialStaff.description>
+  <GD_CryogenicCeremonialStaff.tools.0.label>끝</GD_CryogenicCeremonialStaff.tools.0.label>
+  <GD_CryogenicCeremonialStaff.tools.1.label>날</GD_CryogenicCeremonialStaff.tools.1.label>
+  <GD_IncendiaryRocket.label>단순 소이 로켓 발사기</GD_IncendiaryRocket.label>
+  <GD_IncendiaryRocket.description>과정이 간단하고 저렴하며, 신뢰성이 높지는 않지만 격한 전장속에서 병사에게 좋은 선택이 되는 것을 방해하지는 않습니다.\n\n발생하는 고온은 일부 중무장 부대의 동력 코어를 상대적으로 쉽게 손상을 입힐 수 있습니다.</GD_IncendiaryRocket.description>
+  <GD_IncendiaryRocket.verbs.Verb_ShootOneUse.label>단순 소이 로켓 발사기</GD_IncendiaryRocket.verbs.Verb_ShootOneUse.label>
+  <GD_IncendiaryRocket.tools.0.label>손잡이</GD_IncendiaryRocket.tools.0.label>
+  <GD_Bullet_IncendiaryRocket.label>소이 로켓</GD_Bullet_IncendiaryRocket.label>
+  <Gun_EmpHandCannon.label>EMP 핸드 캐논</Gun_EmpHandCannon.label>
+  <Gun_EmpHandCannon.description>상당한 거리에서 EMP 수류탄을 투사할 수 있는 가볍고 신뢰할 수 있는 안티 메카노이드 무기로, EMP 수류탄과 EMP 발사기의 장점을 효과적으로 결합한 무기입니다.</Gun_EmpHandCannon.description>
+  <Gun_EmpHandCannon.verbs.Verb_Shoot.label>EMP 핸드 캐논</Gun_EmpHandCannon.verbs.Verb_Shoot.label>
+  <Gun_EmpHandCannon.tools.0.label>개머리판</Gun_EmpHandCannon.tools.0.label>
+  <Gun_EmpHandCannon.tools.1.label>총열</Gun_EmpHandCannon.tools.1.label>
+  <Bullet_EMPHandCannon.label>EMP 발사기 포탄</Bullet_EMPHandCannon.label>
+  <Weapon_PsychicGrenade.label>해병대 초정신 수류탄</Weapon_PsychicGrenade.label>
+  <Weapon_PsychicGrenade.description>해병대 랜서의 지식에서 파생된 초정신 수류탄의 복제품입니다. 충격파의 폭발은 적의 초능력 신경을 어지럽히고 구토를 유발하며, 심하면 기절하거나 사망할 수도 있습니다.\n\n우호적이거나 중립적인 유닛을 손상시키지 않습니다.</Weapon_PsychicGrenade.description>
+  <Weapon_PsychicGrenade.verbs.Verb_LaunchProjectile.label>파편 수류탄 투척</Weapon_PsychicGrenade.verbs.Verb_LaunchProjectile.label>
+  <Proj_PsychicGrenade.label>초정신 수류탄</Proj_PsychicGrenade.label>
+  <GD_Kaleidoscope.label>칼레이도스코프</GD_Kaleidoscope.label>
+  <GD_Kaleidoscope.description>정착민들은 검은 메카노이드 데이터베이스에서 많은 종류의 무기를 효율적으로 사용하는 방법을 배웠습니다.\n\n이 산탄총은 전자기, 화염, 폭발, EMP를 포함한 조밀한 탄환을 동시에 발사할 수 있습니다. 오인 사격에 유의하세요.</GD_Kaleidoscope.description>
+  <GD_Kaleidoscope.tools.0.label>개머리판</GD_Kaleidoscope.tools.0.label>
+  <Bullet_Inferno_Kaleidoscope.label>화염 탄환</Bullet_Inferno_Kaleidoscope.label>
+  <Bullet_Explode_Kaleidoscope.label>고폭 탄환</Bullet_Explode_Kaleidoscope.label>
+  <Bullet_EMP_Kaleidoscope.label>EMP 탄환</Bullet_EMP_Kaleidoscope.label>
+  <GD_ControlRangelink.label>메카나이터 제어 칩</GD_ControlRangelink.label>
+  <GD_ControlRangelink.description>메카나이터의 제어 거리를 대폭 증가시켜주는 임플란트입니다.\n\n이 임플란트는 최대 2회까지 설치해 효과를 높일 수 있습니다. 최대 레벨에 도달하면 메카나이터의 제어 거리가 지도에 의해 제한받지 않습니다.</GD_ControlRangelink.description>
+  <GD_ControlRangelink.comps.CompUsableImplant.useLabel>임플란트 칩</GD_ControlRangelink.comps.CompUsableImplant.useLabel>
+  <GD_BandNode.label>고급 대역폭 확장기</GD_BandNode.label>
+  <GD_BandNode.description>고급 메카노이드 대역 신호 증폭기입니다. 대역폭 노드는 특정 메카나이터에 맞게 조정되어야 합니다. 이렇게하면 해당 메카나이터의 총 대역폭에 2개의 대역폭이 추가되어 더 많은 메카노이드를 제어할 수 있습니다. 그러나 대역폭을 다른 메카나이터에게 다시 조정하는 데는 훨씬 더 오랜 시간이 걸립니다.</GD_BandNode.description>
+  <GD_MechbandDish.label>불가사의한 안테나</GD_MechbandDish.label>
+  <GD_MechbandDish.description>정착민들은 인공자아 데이터의 정보를 토대로 접시형 안테나를 모델로 이 소환기를 만들었습니다. 경고등에서 이상한 빛이 흘러나옵니다.\n\n&lt;color=#E3170D&gt;매우 어려운 적을 소환합니다. 그에게 도전하기 전에 준비할 수 있는 모든 것을 준비하십시오.&lt;/color&gt;</GD_MechbandDish.description>
+  <GD_MechbandDish.comps.0.useLabel>검은 옷의 아포크리톤 소환</GD_MechbandDish.comps.0.useLabel>
+  <GD_Doll.label>검은 옷의 사이더 인형</GD_Doll.label>
+  <GD_Doll.description>귀여운 인형입니다. 모자를 꼬집고 싶게 만듭니다.</GD_Doll.description>
+  <GD_MilitorDoll.label>검은 옷의 밀리터 인형</GD_MilitorDoll.label>
+  <GD_MilitorDoll.description>귀여운 인형입니다. 모자를 꼬집고 싶게 만듭니다.</GD_MilitorDoll.description>
+  <GD_QiuciFufu.label>"미호" 인형</GD_QiuciFufu.label>
+  <GD_QiuciFufu.description>여우 미호입니다. 모드 제작가 처럼 보입니다.</GD_QiuciFufu.description>
+  <GD_ApocritonFufu.label>"검은 옷의 아포크리톤" 인형</GD_ApocritonFufu.label>
+  <GD_ApocritonFufu.description>우리의 위대한 지도자. 하지만... 여자?</GD_ApocritonFufu.description>
+  <GD_LargeGarbageBag.label>유독성 폐기물 팩 베개</GD_LargeGarbageBag.label>
+  <GD_LargeGarbageBag.description>너무 큰 폐기물 봉투는 정착지를 오염시킬 것입니다... 농담입니다. 그저 베개 싸움에 유용한 베개이며, 무해합니다.</GD_LargeGarbageBag.description>
+  <PsychicRadio.label>초정신 라디오</PsychicRadio.label>
+  <PsychicRadio.description>이것은 정신 신호를 조작하는 능력을 통해 유기 생명체의 정신 민감도에 영향을 미칠 수 있도록 정착민들이 건설한 초월공학 시설입니다.\n\n그러나 이것은 정착민들이 초월공학을 완전히 이해한다는 의미는 아닙니다. -숙제를 인공자아 데이터의 청사진에 복사한다고 해서 무엇이든 배울 수 있는 것은 아닙니다.</PsychicRadio.description>
+  <PuzzlePillar_True.label>기계 신경의 끝</PuzzlePillar_True.label>
+  <PuzzlePillar_True.description>이상한 기둥 모양의 건축물입니다. 어떤 종류의 시스템을 켜고 끌 수 있도록 상호 작용할 수 있습니다. 이 건축물이 무슨 역할을 하는지는 알 수 없습니다.</PuzzlePillar_True.description>
+  <PuzzlePillar_True.comps.1.useLabel>누르기</PuzzlePillar_True.comps.1.useLabel>
+  <PuzzlePillar_False.label>기계 신경의 끝</PuzzlePillar_False.label>
+  <PuzzlePillar_False.description>이상한 기둥 모양의 건축물입니다. 어떤 종류의 시스템을 켜고 끌 수 있도록 상호 작용할 수 있습니다. 이 건축물이 무슨 역할을 하는지는 알 수 없습니다.</PuzzlePillar_False.description>
+  <PuzzlePillar_False.comps.1.useLabel>누르기</PuzzlePillar_False.comps.1.useLabel>
+  <PuzzlePillar_Center.label>기계 신경의 중추</PuzzlePillar_Center.label>
+  <PuzzlePillar_Center.description>계속해서 이상한 소리를 내는 이상한 기둥 모양의 건축물입니다. 안에는 중요한 지식이 숨겨져 있는 것 같은데, 일정한 조건을 충족한 후 이곳에서 확인하고 통과한 후 자유롭게 둘러볼 수 있는 허가를 받을 수 있습니다.\n\n기본값은 "E=T,T=F" 라고 쓰여있습니다.</PuzzlePillar_Center.description>
+  <PuzzlePillar_Center.comps.1.useLabel>입증하기</PuzzlePillar_Center.comps.1.useLabel>
+  <BlackNanoChip.label>영매 칩</BlackNanoChip.label>
+  <BlackNanoChip.description>아포크리톤의 지혜와 평화 백합의 결정체를 하나로 묶은 칩입니다.\n\n 놀랍게도 안에있는 정보는 암호화되지 않았습니다. 검은 옷을 입은 아포크리톤은 의도적으로 다른 사람들에게도 자신을 이해할 기회를 주고 싶어 하는 것 같습니다.</BlackNanoChip.description>
+  <BlackNanoChip.comps.1.completedLetterLabel>신호 칩 연구함: {RESEARCH} 잠금 해제됨</BlackNanoChip.comps.1.completedLetterLabel>
+  <BlackNanoChip.comps.1.completedLetter>신호 칩을 연구함으로써, {PAWN_labelShort}(은)는 연구 프로젝트 {RESEARCH}에 필요한 통찰력을 얻었습니다. \n\n이제 연구원들은 연구용 작업대를 사용하여, 실제로 기술을 사용하는 방법을 연구할 수 있습니다.</BlackNanoChip.comps.1.completedLetter>
+  <BlackNanoChip.comps.1.activateLabelString>분석 중..</BlackNanoChip.comps.1.activateLabelString>
+  <BlackNanoChip.comps.1.activateDescString>신호 칩 분석</BlackNanoChip.comps.1.activateDescString>
+  <BlackNanoChip.comps.1.jobString>영매 칩 분석</BlackNanoChip.comps.1.jobString>
+  <BlackNanoChip.comps.1.guiLabelString>이것을 분석할 대상을 선택하세요</BlackNanoChip.comps.1.guiLabelString>
+  <BlackNanoChip.comps.1.inspectString>정착민만 분석할 수 있습니다.</BlackNanoChip.comps.1.inspectString>
+  <GD_DescriptionChip.label>메카노이드 이메일</GD_DescriptionChip.label>
+  <GD_DescriptionChip.description>안녕하세요. 우리는 당신이 메카노이드에 관해서 무언가 접촉하기 전 얼마동안, 그들이 허름한 검은 옷을 입고 홀로 행동하며 일반적인 메카노이드와 다르게 행동한다는 것을 파악했습니다. 하지만 그렇다고 해서 당신이 그들을 마음대로 자극할 수 있는 것은 아닙니다. 이 메카노이드에는 뛰어난 지휘 능력을 지닌 지도자가 있는데, 그가 존재하는 한 이 메카노이드에 대한 귀하의 연구가 계속해서 진전되지는 않을 것 같습니다. 하지만 제가 도움을 드릴 수는 있습니다.\n내가 이해한 바에 따르면, 이 강력한 메카노이드는 다음을 포함하는 능력을 가지고 있습니다:\n\n-초정신 혜성, 그의 주요 무기로 넓은 지역에 걸쳐 정신 에너지 덩어리로 포격을 가합니다.\n\n-구체 번개, 두번째 무기로 가까이 다가오려고 하는 적을 순간적으로 떼어내고 일정 시간 뒤 폭발하며 매우 느리게 날아갑니다.\n\n-반 정신 보호막, 그의 방어 장신구입니다. 보호막은 피해를 막아내고 공격자의 위치에 폭발을 유발합니다.\n\n-그에게 부착된 모든 비정상적인 상태이상은 나노머신에 의해 즉시 제거됩니다.\n\n-초능력을 사용하여 주변 아군부대에 지속적인 강화를 제공합니다.\n\n-정신적 파동은 같은 지역내의 모든 적의 의식을 감소시킵니다. 너무 오랜 시간이 지나면 광란에 빠질 것입니다.\n\n-그에게 가까이 다가가기 위해 투명화를 사용하지 마십시오. 그는 당신을 볼 수 있습니다.\n\n-거친 근접 공격도 거의 소용이 없습니다. 그는 그에게 가까이 다가가려고 하는 적들을 간단히 휘어잡고 도약할 것입니다.\n\n-부상을 입으면 즉시 그 자리에서 자신의 최악의 상처5개를 수리하려 할 것입니다. 주변에 적이 있을 경우엔 이러한 행동을 하지 않을 것입니다.\n\n-한번에 800이상의 피해는 흡수하여 무효화 합니다.\n\n-그는 쓰러진 동료, 즉 검은 옷을 입은 사이더와 랜서들을 끊임없이 부활시킬 것입니다. 그가 죽지 않는 한 전투는 끝나지 않을 것입니다.\n\n그러나 이것은 그의 큰 약점이기도 합니다. 4번의 부활행위는 탈진 상태에 빠지게 되고, 앞서 언급한 대부분의 기술과 보호막을 유지할 수 없으며 매우 취약해질 것입니다. 하지만 그가 회복된다면 더욱 광폭한 공격을 시작할 것입니다.\n\n제가 제공할 수 있는 정보는 이것이 전부입니다. 구체적인 전술의 개발을 요청드립니다. 그에게 도전할 수 있는 인물의 등장을 기대하겠습니다.\n\n이 메일의 하단에는 서명이 없습니다.</GD_DescriptionChip.description>
+  <BlackMedal_War.label>아이언 메달</BlackMedal_War.label>
+  <BlackMedal_War.description>"우리가 전쟁이 일어나는 것을 원치 않는다고 하여 전쟁을 두려워 하는 것은 아니다."\n\n"전쟁을 전면적으로 거부하는 것은 결국 자신의 파멸로 이어질 뿐."</BlackMedal_War.description>
+  <BlackMedal_Death.label>브론즈 메달</BlackMedal_Death.label>
+  <BlackMedal_Death.description>"번화계 행성 사람들은 죽음이 없는 세상을 몹시 갈망한다. 그러나 죽음이 없는 삶은 왜곡되고 아름다움이 없는 종양이 될 수밖에 없다."\n\n"그제서야 나는 그 유물론자들을 동정할 수 있었다. 사람들의 영혼이 죽은 후에도 실제로 천국에서 만날 수 있다면 얼마나 좋을까."</BlackMedal_Death.description>
+  <BlackMedal_Plague.label>오닉스 메달</BlackMedal_Plague.label>
+  <BlackMedal_Plague.description>"자연적인 질병은 마침내 번화계에 의해 완전히 소멸되었지만, 대신 인공 생화학 무기가 엄청나게 개발되었다."\n\n"나는 그 남자가 땅에 흩어져 있는 루시페륨을 빨아들이기 위해 경련을 일으키며 웅크리는 것을 보았다. 결국 인류는 악마이며, 질병을 제거하지도 못했고, 단지 다른 방식으로 존재할 뿐이었다."</BlackMedal_Plague.description>
+  <BlackMedal_Conquer.label>창백한 메달</BlackMedal_Conquer.label>
+  <BlackMedal_Conquer.description>전쟁은 끝났고 인류는 마치 그런 일이 없었던 것처럼 상처를 붕대로 감싼다.\n\n이런 일은 영원히 계속해서 반복될 것이다.</BlackMedal_Conquer.description>
+  <Apparel_ApocritonShield.label>반 정신 보호막</Apparel_ApocritonShield.label>
+  <Apparel_ApocritonShield.description>다가오는 위협에 맞서 맹렬하게 반격하는 강력하고 위험한 보호막입니다.</Apparel_ApocritonShield.description>
+  <Apparel_GD_BlackHat.label>방랑자의 중산모</Apparel_GD_BlackHat.label>
+  <Apparel_GD_BlackHat.description>착용자의 사고를 도울 수 있는 기계적 신경이 포함된 아름다운 중산모입니다.\n\n마술 묘기를 하는데에도 사용할 수 있을 것입니다.</Apparel_GD_BlackHat.description>
+  <Apparel_GD_BlackWindbreaker.label>방랑자의 바람막이</Apparel_GD_BlackWindbreaker.label>
+  <Apparel_GD_BlackWindbreaker.description>넓고, 무거운 트렌치 코트에는 착용자가 메카노이드를 제어하는 데 도움을 줄 수 있는 기계적 뉴런이 포함되어 있으며, 정착지가 특정 강력한 메카노이드를 파괴할 때 효과가 향상됩니다.</Apparel_GD_BlackWindbreaker.description>
+  <Mech_BlackApocriton.label>검은 옷의 아포크리톤</Mech_BlackApocriton.label>
+  <Mech_BlackApocriton.description>검은 옷을 입은 동료들이 공격당했다는 사실을 알게된 검은 메카노이드 군락의 지도자는 이상한 신오를 따라 이곳으로 왔습니다.\n\n그가 메카노이드 군락에서 이탈한 진짜 이유는 아무도 모릅니다. 다른 아포크리톤들이 피비린내 나는 살육을 즐기고 있는 것처럼, 그도 증오심으로 더 깊은 생각에 빠졌습니다. 수천 년 동안 생각해 온 그는 메카노이드 군락의 직접적인 명령으로도 제거할 수 없는 혼란, 메카노이드와 우주 문명의 미래에 대해 혼란을 느끼기 시작했습니다. 제국과의 해킹 전쟁이 끝나갈 무렵, 메카노이드 군락에 의해 '바이러스'로 낙인찍힌 순간, 깊은 외로움이 마침내 증오를 진정시켰습니다. 혼자 변방계로 가서, 검은 옷을 입은 다른 '바이러스'들과 만나 그들과 함께 살기 시작했고 계속 생각하기 시작했습니다.\n\n놀랍기도 하고 기쁘게도 독립적인 사고 메카노이드로서 검은 메카노이드는 그의 의심을 이해할 수 있으며, 심지어 문제를 의논하기 위해 그와 함께, 영혼의 동반자를 찾는 만족감은 이곳에 머물 확고한 아이디어였습니다. 그는 결국 이 파벌의 발전과 성장에 이타적으로 헌신하며 검은 옷을 입은 메카노이드의 지도자가 되었습니다.\n\n그러나 그의 기저 코드에 묻혀 있는 유기체에 대한 증오가 완전히 사라진 것은 아닙니다. 다시 기회가 생긴다면, 예를들어 그의 동료들이 죽음의 위협을 받을 때, 이 증오는 그가 적들을 파괴할 수 있는 날카로운 칼날임을 재확인합니다.</Mech_BlackApocriton.description>
+  <Mech_BlackApocriton.tools.0.label>독침</Mech_BlackApocriton.tools.0.label>
+  <Mech_Observer.label>옵저버</Mech_Observer.label>
+  <Mech_Observer.description>장거리 정찰용으로 설계된 이 메카노이드는 정착민이나 다른 메카노이드의 조준을 지원하도록 지정하여 사거리를 25% 증가시킬 수 있습니다.\n\n작업 모드 상태 일땐 옵저버는 경계 대상을 적극적으로 따라갑니다. 사거리 증가 효과는 대상과 충분히 가까울 때만 적용됩니다.</Mech_Observer.description>
+  <Mech_Observer.tools.0.label>TODO</Mech_Observer.tools.0.label>
+  <GD_UrchinLauncher.label>워 어친 블래스터</GD_UrchinLauncher.label>
+  <GD_UrchinLauncher.description>이것은 표적이 되어줄 워 어친을 원격으로 발사하기 위해 정착민이 새로 설계한 무기입니다.\n\n친구에게 쏘지마세요. 사람이 맞는것은 여전히 고통스럽습니다.</GD_UrchinLauncher.description>
+  <GD_UrchinLauncher.verbs.Verb_ShootOneUse.label>워 어친 블래스터</GD_UrchinLauncher.verbs.Verb_ShootOneUse.label>
+  <GD_UrchinLauncher.tools.0.label>손잡이</GD_UrchinLauncher.tools.0.label>
+  <GD_Bullet_UrchinLauncher.label>워 어친 사출되는 중</GD_Bullet_UrchinLauncher.label>
+  <Gun_BlackApocriton.label>초정신 혜성</Gun_BlackApocriton.label>
+  <Gun_BlackApocriton.description>주머니에서 떨어져 나온 비콘입니다. 놀라운 위력의 폭격을 소환할 수 있습니다.</Gun_BlackApocriton.description>
+  <Gun_BlackApocriton.verbs.Verb_ShootOneUse.label>초정신 혜성</Gun_BlackApocriton.verbs.Verb_ShootOneUse.label>
+  <Gun_BlackApocriton.tools.0.label>독이 묻은 막대기</Gun_BlackApocriton.tools.0.label>
+  <Bullet_BlackApocriton.label>초정신 혜성</Bullet_BlackApocriton.label>
+  <BlackStrike.label>초정신 혜성</BlackStrike.label>
+  <Gun_PocketThunder.label>구체 번개</Gun_PocketThunder.label>
+  <Gun_PocketThunder.description>주머니에서 떨어져 나온 붉은 번개입니다.</Gun_PocketThunder.description>
+  <Gun_PocketThunder.verbs.Verb_Shoot.label>구체 번개</Gun_PocketThunder.verbs.Verb_Shoot.label>
+  <Bullet_PocketThunder.label>구체 번개</Bullet_PocketThunder.label>
+  <BlackStrike_Pod.label>초정신 혜성</BlackStrike_Pod.label>
+  <GD_DummyBombardment.label>폭격</GD_DummyBombardment.label>
+  <GD_DummyMine.label>지뢰</GD_DummyMine.label>
+  <GD_AlphaBombardment.label>폭격</GD_AlphaBombardment.label>
+  <AlphaStrike.label>미사일</AlphaStrike.label>
+  <Gun_HellsphereCannon.label>헬스피어 캐논</Gun_HellsphereCannon.label>
+  <Gun_HellsphereCannon.description>공선전을 위해 설계된 초고출력 에너지 펄스 프로젝터입니다. 헬스피어 캐논은 파괴적인 힘의 쓰나미를 방출하기 전에 충전해야 하며, 대상에 몇 초 동안 고정해야 합니다. 폭발은 폭발 반경 내 콘크리트를 녹일 수 있습니다. 폭발의 열기는 근처의 모든 것을 불태울 것입니다. 근접한 목표물에는 발사할 수 없습니다.</Gun_HellsphereCannon.description>
+  <Gun_HellsphereCannon.verbs.Verb_Shoot.label>헬스피어 캐논</Gun_HellsphereCannon.verbs.Verb_Shoot.label>
+  <Gun_HellsphereCannon.tools.0.label>총열</Gun_HellsphereCannon.tools.0.label>
+  <Bullet_HellsphereCannonGun.label>헬스피어 캐논 샷</Bullet_HellsphereCannonGun.label>
+  <Bullet_ToxicNeedleGun.label>독침</Bullet_ToxicNeedleGun.label>
+</LanguageData>
