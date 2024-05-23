@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <VSE.Expertise0>관심있음</VSE.Expertise0>
   <VSE.Expertise1>취미</VSE.Expertise1>
@@ -21,6 +21,10 @@
   <VSE.Expertise18>행성 선구자</VSE.Expertise18>
   <VSE.Expertise19>인간 문화재</VSE.Expertise19>
   <VSE.Expertise20>전설</VSE.Expertise20>
+  <VSE.Expertise>전문화</VSE.Expertise>
+  <VSE.ForgetSpeed>망각 속도</VSE.ForgetSpeed>
+  <VSE.Effects>효과:</VSE.Effects>
+  <VSE.Effects.PerLevel>효과 (기술 수준 비례):</VSE.Effects.PerLevel>
   <VSE.ExpertiseAvailable>전문화를 선택 가능한 정착민이 존재함</VSE.ExpertiseAvailable>
   <VSE.ExpertiseAvailableMultiple>전문화를 선택 가능한 정착민들이 존재함</VSE.ExpertiseAvailableMultiple>
   <VSE.SelectExpertise>전문화 습득</VSE.SelectExpertise>
@@ -29,9 +33,22 @@
   <VSE.LearnsForgets>\n   - 학습 속도 : {0}\n   - 망각 속도 : {1}</VSE.LearnsForgets>
   <VSE.LearnOther>\n   - 학습 속도(기타 기술) : {0}</VSE.LearnOther>
   <VSE.NoPassion>습득 불가능</VSE.NoPassion>
-  <VSE.SkillTooLow>기술 수준이 부족함</VSE.SkillTooLow>
-  <VSE.MaxExpertise>이미 전문화를 선택함</VSE.MaxExpertise>
+  <VSE.SkillTooLow>기술 수준 부족</VSE.SkillTooLow>
+  <VSE.AtMaxExpertise>최대 전문화 도달</VSE.AtMaxExpertise>
+  <VSE.ExpertiseOverlap>이미 습득함</VSE.ExpertiseOverlap>
   <VSE>Vanilla Skills Expanded</VSE>
+  <VSE.MaxExpertise>최대 전문화 개수:</VSE.MaxExpertise>
+  <VSE.AllowMultiCritical>중요 열정 다수 획득 가능</VSE.AllowMultiCritical>
+  <VSE.AllowMultiCritical.Desc>비활성화할 경우 정착민당 최대 하나의 중요 열정만 생성하도록 하여 둘이 겹쳐서 쓸모없어지는 것을 방지합니다.</VSE.AllowMultiCritical.Desc>
+  <VSE.CriticalEffectPassions>중요 열정 디버프</VSE.CriticalEffectPassions>
+  <VSE.CriticalEffectPassions.Desc>비활성화할 경우 중요 열정이 존재하더라도 열정이 있는 다른 기술의 학습 속도가 감소하지 않습니다.</VSE.CriticalEffectPassions.Desc>
+  <VSE.Commonalities>열정 그룹을 편집하며 각 그룹은 분리됩니다</VSE.Commonalities>
+  <VSE.Reset>기본값으로 초기화</VSE.Reset>
+  <VSE.Bad>부정적:</VSE.Bad>
+  <VSE.Good>긍정적:</VSE.Good>
+  <VSE.AllowExpertiseOverlap>전문화 중복 허용</VSE.AllowExpertiseOverlap>
+  <VSE.AllowExpertiseOverlap.Desc>비활성화할 경우 최대 전문화 개수에 관계없이 기술당 1개의 전문화만 선택할 수 있습니다.</VSE.AllowExpertiseOverlap.Desc>
   <VSE.EnableSkillLoss>기술 손실 재활성화</VSE.EnableSkillLoss>
+  <VSE.EnableAlert>전문화 습득 가능' 알림 활성화</VSE.EnableAlert>
   <VSE.EnableSkillsLoss.Desc>Ducks' Insane Skills 모드가 설치되어 있다면 기본적으로 정착민의 기술 레벨 손실이 비활성화됩니다. 이 설정을 활성화하게 되면 이 모드가 해당 설정을 무시하고 동작하게 됩니다. 해당 설정을 무시하고 기술 레벨과 경험치가 낮아지는것을 원하면 활성화하십시오.</VSE.EnableSkillsLoss.Desc>
 </LanguageData>
