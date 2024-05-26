@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Anomaly</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GeneDef[defName="BS_NekoReanimate"]/description</xpath>
+          <value>
+            <description>이 유전자의 보유자는 죽은 자를 되살릴 수 있는 능력을 가지고 있습니다. 대상자가 돌아오는 데는 매우 오랜 시간이 걸릴 수 있습니다.\n\n잘못하면 큰 불행을 가져올 위험이 높습니다.\n\n또한 자신의 주변 작은 반경에 휘청이는 자를 키울 수 있습니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
