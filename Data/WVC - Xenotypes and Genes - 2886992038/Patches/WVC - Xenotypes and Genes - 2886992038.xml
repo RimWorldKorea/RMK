@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/GeneDef[defName="Ageless"]/customEffectDescriptions/li[1]</xpath>
+    <value>
+      <li>유전자가 유전인 경우 폰의 나이는 18세를 넘을 수 없습니다.</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/GeneDef[defName="WVC_Thrall"]/description</xpath>
+    <value>
+      <description>이 유전자의 보유자는 유전적 완전성을 강하게 불안정하게 만들고 치명적인 결과를 초래할 수 있는 여러 돌연변이를 유발하는 초월입자를 가지고 있습니다. 유전자를 안정화하려면 부활 세포라고 하는 신경 세포 자원이 필요하며, 이는 부활한 폰의 신선한 혈액에서 얻을 수 있습니다.\n\n초월입자는 어두운 초능력의 영향에 매우 민감하기 때문에 주인을 서서히 무의미하고 섬뜩한 생명체로 변화시키며, 불안정화하면 이러한 변화가 영구화됩니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/GeneDef[defName="WVC_Thrall"]/customEffectDescriptions/li[1]</xpath>
+    <value>
+      <li>보유자는 &lt;color=#8a8ae6&gt;부활한&lt;/color&gt; 폰으로부터 정기적으로 세포섭취를 해야 하며, 그렇지 않으면 &lt;color=#ff8585&gt;구울로 변신&lt;/color&gt;합니다.</li>
+    </value>
+  </Operation>
+</Patch>
