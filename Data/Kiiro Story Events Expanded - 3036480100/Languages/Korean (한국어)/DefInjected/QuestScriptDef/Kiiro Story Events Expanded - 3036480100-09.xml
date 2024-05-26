@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings>
+    <li>offer(lodgerCount==1)-&gt;제안</li>
+    <li>offer(lodgerCount&gt;=2)-&gt;제안</li>
+    <li>lodgersPronoun(lodgerCount==1)-&gt;[asker_pronoun]</li>
+    <li>lodgersPronoun(lodgerCount&gt;=2)-&gt;그들</li>
+    <li>lodgersPreposition(lodgerCount==1)-&gt;[asker_objective]</li>
+    <li>lodgersPreposition(lodgerCount&gt;=2)-&gt;그들</li>
+    <li>lodgersObjective(lodgerCount==1)-&gt;[asker_objective]</li>
+    <li>lodgersObjective(lodgerCount&gt;=2)-&gt;그들을</li>
+    <li>lodgersPossessive(lodgerCount==1)-&gt;[asker_possessive]</li>
+    <li>lodgersPossessive(lodgerCount&gt;=2)-&gt;그들의</li>
+    <li>lodgersSingularOrPluralDef(lodgerCount==1)-&gt;[asker_nameDef]</li>
+    <li>lodgersSingularOrPluralDef(lodgerCount&gt;=2)-&gt;[lodgersLabelPlural]</li>
+    <li>questDescription-&gt;[approachInfo] [claimInfo] [asker_nameDef](이)가 [lodgersPronoun](이)가 휴식을 취하고 재편성할 수 있도록 [questDurationTicks_duration] 동안 [map_definite]에 머물 수 있도록 허락해 달라고 간청합니다.\n\n그 대가로, 그 기간 동안 무료로 일하고 싸워주기로 [lodgersPronoun]는 [offer]합니다.\n\n[joinInfo] [lodgersPronoun](은)는 나중에 [lodgersObjective] 도와준 것에 대한 보상을 줄 수도 있지만, [lodgersPossessive] 진정한 의도를 알 수 있는 방법은 없습니다.\n\n[travelerInfo] 키이로 진영의 일원입니다.</li>
+    <li>approachInfo(lodgerCount==1)-&gt;[asker_nameDef](이)라는 이름의 절박한 [faction_pawnSingular](이)가 다가오고 있습니다.</li>
+    <li>approachInfo(lodgerCount==2)-&gt;[asker_nameDef](와)과 또 다른 절박한 [faction_pawnSingular](이)가 다가오고 있습니다.</li>
+    <li>approachInfo(lodgerCount==2,childCount==1,priority=1)-&gt;[asker_nameDef](이)가 어린이를 데리고 접근 중입니다.</li>
+    <li>approachInfo(lodgerCount&gt;=3)-&gt;필사적인 [lodgerCount]의 [faction_pawnsPlural](이)가 접근 중입니다. 이들의 지도자는 [asker_nameDef]입니다.</li>
+    <li>approachInfo(lodgerCount&gt;=3,childCount==1,priority=1)-&gt;어린이를 포함한 절박한 [faction_pawnsPlural] [lodgerCount](이)가 다가오고 있습니다. 그들의 지도자는 [asker_nameDef]입니다.</li>
+    <li>approachInfo(lodgerCount&gt;=3,childCount&gt;=2,priority=1)-&gt;어린이를 포함한 절박한 [faction_pawnsPlural] [lodgerCount](이)가 다가오고 있습니다. 그들의 지도자는 [asker_nameDef]입니다.</li>
+    <li>approachInfo(lodgerCount&gt;=3,allButOneChildren==true,priority=2)-&gt;[asker_nameDef](와)과 [lodgersCountMinusOne]의 아이들로 구성된 [lodgerCount]의 필사적인 [faction_pawnsPlural] 그룹이 다가오고 있습니다.</li>
+    <li>claimInfo(lodgerCount==1)-&gt;[asker_nameDef](이)가 최근 공격으로 [asker_possessive] 집을 잃어버렸다고 주장합니다.</li>
+    <li>claimInfo(lodgerCount==1)-&gt;[asker_nameDef](이)가 [asker_possessive] 동료와 헤어진 후 연락이 끊겼다고 주장합니다.</li>
+    <li>claimInfo(lodgerCount==1)-&gt;[asker_nameDef](이)가 이 지역에서 길을 잃었다고 합니다.</li>
+    <li>claimInfo(lodgerCount&gt;=2)-&gt;이들은 최근 공격으로 집을 잃었다고 주장합니다.</li>
+    <li>claimInfo(lodgerCount&gt;=2)-&gt;그들은 예기치 않게 동료들과 연락이 두절되어 돌아갈 수 없게 되었다고 주장합니다.</li>
+    <li>claimInfo(lodgerCount&gt;=2)-&gt;그들은 이 지역에서 길을 잃었다고 주장합니다.</li>
+    <li>claimInfo(lodgerCount&gt;=2)-&gt;이들은 장기 적출 수술에서 탈출했다고 주장합니다.</li>
+    <li>claimInfo(lodgerCount&gt;=2)-&gt;그들은 노예 상단에서 탈출했다고 합니다.</li>
+    <li>claimInfo(lodgerCount&gt;=2)-&gt;상단이 기습을 당해 모든 것을 빼앗겼다고 합니다.</li>
+    <li>joinInfo(lodgerCount==1)-&gt;[asker_pronoun](이)가 합류를 제안할 수도 있습니다.</li>
+    <li>joinInfo(lodgerCount&gt;=2)-&gt;그 중 일부는 여러분과 함께 하겠다고 제안할 수도 있습니다.</li>
+    <li>travelerInfo(lodgerCount==1)-&gt;이 [faction_pawnSingular](은)는</li>
+    <li>travelerInfo(lodgerCount&gt;=2)-&gt;이 [faction_pawnsPlural](은)는</li>
+  </Kiiro_Hospitality_Refugee.questDescriptionRules.rulesStrings>
+</LanguageData>
