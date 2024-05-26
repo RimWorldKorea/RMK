@@ -10,7 +10,7 @@
   <BS_GeneGeneIntegrator.label>유전자 통합기</BS_GeneGeneIntegrator.label>
   <BS_GeneGeneIntegrator.description>모든 변형인자를 생식유전자로 전환합니다.</BS_GeneGeneIntegrator.description>
   <BS_XenoCopy.label>이종 생식계 미러링</BS_XenoCopy.label>
-  <BS_XenoCopy.description>생식유전자의 약 2/3를 변형인자로 무작위로 복사합니다.\n\n주로 무엇이 무엇을 덮어쓰는지 제어하거나 변형이식체로 추출할 때 유용합니다.</BS_XenoCopy.description>
+  <BS_XenoCopy.description>비활성화되지 않은 생식유전자의 약 2/3를 무작위로 변형인자로 복사합니다.\n\n주로 무엇이 무엇을 덮어쓰는지 제어하거나 변형이식체로 추출할 때 유용합니다.</BS_XenoCopy.description>
   <BS_CreateXenogerm.label>변형이식체 복제기</BS_CreateXenogerm.label>
   <BS_CreateXenogerm.description>피험자의 변형인자를 기반으로 새로운 변형이식체를 생성합니다. 예를 들어 후사르에서 후사르 변형이식체를 생성할 수 있습니다. 대상은 자신의 변형인자를 유지합니다. 초월입자 유전자를 복사하지 않습니다.</BS_CreateXenogerm.description>
   <BS_CreateArchiteXenogerm.label>초월입자 변형이식체 복제기</BS_CreateArchiteXenogerm.label>
@@ -141,6 +141,30 @@
   <BS_XenoCopy.comps.CompUsable.useLabel>{0_label} 사용하기</BS_XenoCopy.comps.CompUsable.useLabel>
   <BS_CreateXenogerm.comps.CompUsable.useLabel>{0_label} 사용하기</BS_CreateXenogerm.comps.CompUsable.useLabel>
   <BS_CreateArchiteXenogerm.comps.CompUsable.useLabel>{0_label} 사용하기</BS_CreateArchiteXenogerm.comps.CompUsable.useLabel>
+  <BMAD_ShrinkTurret.comps.4.fuelLabel>총열 교체까지 남은 발사 횟수</BMAD_ShrinkTurret.comps.4.fuelLabel>
+  <BMAD_ShrinkTurret.comps.4.fuelGizmoLabel>총열 내구도</BMAD_ShrinkTurret.comps.4.fuelGizmoLabel>
+  <BMAD_ShrinkTurret.comps.4.outOfFuelMessage>새로운 총열 필요</BMAD_ShrinkTurret.comps.4.outOfFuelMessage>
+  <BMAD_GrowthTurret.comps.4.fuelLabel>총열 교체까지 남은 발사 횟수</BMAD_GrowthTurret.comps.4.fuelLabel>
+  <BMAD_GrowthTurret.comps.4.fuelGizmoLabel>총열 내구도</BMAD_GrowthTurret.comps.4.fuelGizmoLabel>
+  <BMAD_GrowthTurret.comps.4.outOfFuelMessage>새로운 총열 필요</BMAD_GrowthTurret.comps.4.outOfFuelMessage>
+  <BATR_PilotingEquipment.label>조종 장비</BATR_PilotingEquipment.label>
+  <BATR_PilotingEquipment.description>로봇보다 작은 물체가 조종할 수 있도록 로봇을 수정하는 데 필요한 구성 요소입니다.</BATR_PilotingEquipment.description>
+  <BATR_OperatingEquipment.label>오퍼레이팅 장비</BATR_OperatingEquipment.label>
+  <BATR_OperatingEquipment.description>로봇보다 작은 오퍼레이터를 활용하여 작업을 보조할 수 있도록 로봇을 수정하는 데 필요한 구성 요소입니다.</BATR_OperatingEquipment.description>
+  <BS_HumanFouramed.label>네 팔 달린 인간</BS_HumanFouramed.label>
+  <BS_HumanFouramed.description>팔뚝이 멋진, 아니, 네 개의 멋진 팔이 달린 인간과 비슷한 존재.</BS_HumanFouramed.description>
+  <BS_GluttonRace.label>대식가</BS_GluttonRace.label>
+  <BS_GluttonRace.description>멀리서 보면 인간으로 착각할 수도 있습니다...</BS_GluttonRace.description>
+  <BS_Naga.label>뱀 인간</BS_Naga.label>
+  <BS_Naga.description>다리 대신 뱀 꼬리를 가진 인간과 비슷한 존재.</BS_Naga.description>
+  <BS_Marlith.label>여섯개의 팔 달린 뱀 인간</BS_Marlith.label>
+  <BS_Marlith.description>여섯개의 팔과 다리 대신 뱀 꼬리를 가진 인간과 비슷한 존재.</BS_Marlith.description>
+  <BS_SpiderPersonRace.label>거미 인간</BS_SpiderPersonRace.label>
+  <BS_SpiderPersonRace.description>거미 같은 복부를 가진 인간과 비슷한 존재입니다.</BS_SpiderPersonRace.description>
+  <BS_BionicLocomotiveSpine.label>생체 공학 운동성 척추</BS_BionicLocomotiveSpine.label>
+  <BS_BionicLocomotiveSpine.description>첨단 생체공학 운동성 척추입니다. 뱀 종족의 척추 하부를 대체하도록 설계되었습니다. 일반 생체공학 척추와 달리 이 척추는 뱀 종족의 이동을 크게 도와줍니다.</BS_BionicLocomotiveSpine.description>
+  <BS_BionicStriderLeg.label>생체 공학 스트라이더 다리</BS_BionicStriderLeg.label>
+  <BS_BionicStriderLeg.description>첨단 생체 공학 스트라이더 다리입니다. 바이오젤 신경 링크, 강력한 미니 서보, 격자 먼지 치유 시스템을 갖추고 있습니다. 이 버전은 일반인에게는 생체 공학 다리보다 다소 열등하지만, 다리가 두 개 이상인 존재에게는 약간 더 좋습니다.</BS_BionicStriderLeg.description>
   <BS_Giant_Serum.comps.1.useLabel>{0_label} 사용하기</BS_Giant_Serum.comps.1.useLabel>
   <BS_Shrink_Serum.comps.1.useLabel>{0_label} 사용하기</BS_Shrink_Serum.comps.1.useLabel>
   <BS_Shrink_Serum.comps.4.useLabel>{0_label} 사용하기</BS_Shrink_Serum.comps.4.useLabel>
@@ -158,28 +182,8 @@
   <BS_CreateArchiteXenogerm.comps.1.useLabel>{0_label} 사용하기</BS_CreateArchiteXenogerm.comps.1.useLabel>
   <BS_CreateArchiteXenogerm.comps.4.useLabel>{0_label} 사용하기</BS_CreateArchiteXenogerm.comps.4.useLabel>
   <BS_CreateArchiteXenogerm.comps.7.useLabel>{0_label} 사용하기</BS_CreateArchiteXenogerm.comps.7.useLabel>
-  <BMAD_ShrinkTurret.comps.4.fuelLabel>총열 교체까지 남은 발사 횟수</BMAD_ShrinkTurret.comps.4.fuelLabel>
-  <BMAD_ShrinkTurret.comps.4.fuelGizmoLabel>총열 내구도</BMAD_ShrinkTurret.comps.4.fuelGizmoLabel>
-  <BMAD_ShrinkTurret.comps.4.outOfFuelMessage>새로운 총열 필요</BMAD_ShrinkTurret.comps.4.outOfFuelMessage>
-  <BMAD_GrowthTurret.comps.4.fuelLabel>총열 교체까지 남은 발사 횟수</BMAD_GrowthTurret.comps.4.fuelLabel>
-  <BMAD_GrowthTurret.comps.4.fuelGizmoLabel>총열 내구도</BMAD_GrowthTurret.comps.4.fuelGizmoLabel>
-  <BMAD_GrowthTurret.comps.4.outOfFuelMessage>새로운 총열 필요</BMAD_GrowthTurret.comps.4.outOfFuelMessage>
-  <BATR_PilotingEquipment.label>조종 장비</BATR_PilotingEquipment.label>
-  <BATR_PilotingEquipment.description>로봇보다 작은 물체가 조종할 수 있도록 로봇을 수정하는 데 필요한 구성 요소입니다.</BATR_PilotingEquipment.description>
-  <BATR_OperatingEquipment.label>오퍼레이팅 장비</BATR_OperatingEquipment.label>
-  <BATR_OperatingEquipment.description>로봇보다 작은 오퍼레이터를 활용하여 작업을 보조할 수 있도록 로봇을 수정하는 데 필요한 구성 요소입니다.</BATR_OperatingEquipment.description>
-  <BS_HumanFouramed.label>네 팔 달린 인간</BS_HumanFouramed.label>
-  <BS_HumanFouramed.description>팔뚝이 멋진, 아니, 네 개의 멋진 팔이 달린 인간과 비슷한 존재.</BS_HumanFouramed.description>
-  <BS_GluttonRace.label>대식가</BS_GluttonRace.label>
-  <BS_GluttonRace.description>멀리서 보면 인간으로 착각할 수도 있습니다...</BS_GluttonRace.description>
   <BS_GluttonRace.tools.0.label>왼쪽 주먹</BS_GluttonRace.tools.0.label>
   <BS_GluttonRace.tools.1.label>오른쪽 주먹</BS_GluttonRace.tools.1.label>
   <BS_GluttonRace.tools.2.label>이빨</BS_GluttonRace.tools.2.label>
   <BS_GluttonRace.tools.3.label>머리</BS_GluttonRace.tools.3.label>
-  <BS_Naga.label>뱀 인간</BS_Naga.label>
-  <BS_Naga.description>다리 대신 뱀 꼬리를 가진 인간과 비슷한 존재.</BS_Naga.description>
-  <BS_Marlith.label>여섯개의 팔 달린 뱀 인간</BS_Marlith.label>
-  <BS_Marlith.description>여섯개의 팔과 다리 대신 뱀 꼬리를 가진 인간과 비슷한 존재.</BS_Marlith.description>
-  <BS_SpiderPersonRace.label>거미 인간</BS_SpiderPersonRace.label>
-  <BS_SpiderPersonRace.description>거미 같은 복부를 가진 인간과 비슷한 존재입니다.</BS_SpiderPersonRace.description>
 </LanguageData>
