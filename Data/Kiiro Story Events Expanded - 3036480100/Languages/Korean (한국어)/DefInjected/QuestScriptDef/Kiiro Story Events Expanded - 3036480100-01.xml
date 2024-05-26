@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Kiiro_Beggars.questDescriptionRules.rulesStrings>
+    <li>groupLabelPlural-&gt;여행자들</li>
+    <li>groupLabelPlural(allChildren==true,priority=1)-&gt;아이들</li>
+    <li>groupLabelSingle-&gt;여행자</li>
+    <li>groupLabelSingle(childCount&gt;=1,priority=1)-&gt;아이</li>
+    <li>travelerInfo(beggarCount==1)-&gt;이 [groupLabelSingle]의 소속은</li>
+    <li>travelerInfo(beggarCount&gt;=2)-&gt;이 [groupLabelPlural]의 소속은</li>
+    <li>beggingForInfo-&gt;[requestedThing_label] x[requestedThingCount](을)를 </li>
+    <li>traverObjective(beggarCount==1)-&gt;[beggars0_objective]</li>
+    <li>traverObjective(beggarCount&gt;=2)-&gt;그들</li>
+    <li>questDescription-&gt;[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] 키이로 진영입니다.</li>
+    <li>approachInfo(beggarCount==1)-&gt;[beggars0_nameDef](이)라는 불쌍한 [groupLabelSingle](이)가 도움을 요청하기 위해 다가오고 있습니다.</li>
+    <li>approachInfo(beggarCount&gt;=2)-&gt;한 무리의 가난한 [groupLabelPlural](이)가 도움을 요청하기 위해 다가오고 있습니다.</li>
+    <li>approachInfo(beggarCount&gt;=2,childCount==1,priority=1)-&gt;어린이를 포함한 가난한 [groupLabelPlural](이)가 도움을 요청하기 위해 다가오고 있습니다.</li>
+    <li>approachInfo(beggarCount&gt;=2,childCount&gt;=2,allChildren==false,priority=1)-&gt;어린이를 포함한 가난한 [groupLabelPlural](이)가 도움을 요청하기 위해 다가옵니다.</li>
+    <li>requestInfo(beggarCount==1)-&gt;[beggars0_nameDef](이)가 [beggingForInfo](을)를 구걸합니다.</li>
+    <li>requestInfo(beggarCount&gt;=2)-&gt;[groupLabelPlural](이)가 [beggingForInfo](을)를 구걸합니다.</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)-&gt;[beggars0_nameDef](은)는 최근 납치된 친구를 되찾기 위해 은를 원합니다.</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)-&gt;[beggars0_nameDef](이)가 근처에서 부상당한 파트너를 돕기 위해 약이 원합니다.</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Kiiro_CannedCatFood)-&gt;[beggars0_nameDef](은)는 앞으로의 긴 여정에 대비하기 위해 고양이 통조림을 원합니다.</li>
+    <li>claimInfo(beggarCount&gt;=2,requestedThingDefName==Silver)-&gt;그들은 최근에 납치된 친구를 되찾기 위해 은을 원합니다.</li>
+    <li>claimInfo(beggarCount&gt;=2,requestedThingDefName==MedicineHerbal)-&gt;메카노이드의 공격을 받은 동료 여행자를 수술하기 위해 약이 필요합니다.</li>
+    <li>claimInfo(beggarCount&gt;=2,requestedThingDefName==Kiiro_CannedCatFood)-&gt;앞으로의 긴 여정에 대비하기 위해 고양이 통조림을 원합니다.</li>
+    <li>interactionInfo(beggarCount==1)-&gt;정착민을 선택하고 [beggars0_nameDef](을)를 우클릭하여 아이템을 줄 수 있습니다.</li>
+    <li>interactionInfo(beggarCount&gt;=2)-&gt;정착민을 선택하고 [beggars0_nameDef](을)를 우클릭하여 아이템을 줄 수 있습니다.</li>
+    <li>moveOnInfo(beggarCount==1)-&gt;[beggars0_nameDef](은)는 [visitDurationTicks_duration] 후 떠납니다.</li>
+    <li>moveOnInfo(beggarCount&gt;=2)-&gt;[groupLabelPlural](은)는 [visitDurationTicks_duration] 후 떠납니다.</li>
+  </Kiiro_Beggars.questDescriptionRules.rulesStrings>
+</LanguageData>

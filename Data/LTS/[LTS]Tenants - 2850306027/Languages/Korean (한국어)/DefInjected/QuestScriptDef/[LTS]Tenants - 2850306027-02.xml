@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <LTS_Tenancy.questContentRules.rulesStrings>
+    <li>questDescriptionBeforeAccepted-&gt;[questDescriptionRejected] [tenant_age]살의 [tenantRace] [tenantGenes] [tenantGender]인 [tenant_nameDef](이)가 근처에 도착했습니다.\n[tenant_pronoun]는 숙소를 빌리고 싶어하며, 매 [days]일 간 [rent]은화씩, 총 [rentSum]은화를 지불하고자 합니다.\n\n[tenant_nameDef](은)는 어떤 일도 할 수 없습니다! 하지만 필요한 경우 [tenant_pronoun]를 소집해서 싸울 수 있습니다.\n불행한 세입자을 계속 방치하면 평판이 나빠집니다.\n\n[questDescriptionRoomRequired]\n\n[questDescriptionMayJoin]</li>
+    <li>questDescriptionAfterAccepted-&gt;[questDescriptionRejected][tenant_nameDef](은)는 이제 당신 정착지의 세입자 입니다.\n\n[tenant_pronoun]는 매 [days]일 간 [rent]은화씩, 총 [rentSum]은화를 지불할 것입니다.게시판이 있을 경우, 배달부가 가끔씩 누적된 임대료를 게시판으로 가져다 줍니다.\n\n[questDescriptionRoomRequired]\n\n[questDescriptionMayJoin]</li>
+    <li>questDescriptionRejected(tenancyRejected==true)-&gt;[tenant_nameDef](이)가 정착지에 오지 않기로 결정했습니다.\n\n</li>
+    <li>questDescriptionRejected(rejected==false)-&gt;</li>
+    <li>questDescriptionRoomRequired(singleRoomRequired==true)-&gt;[tenant_nameDef](은)는 개인 침실을 원하며 추가 비용을 지불할 것입니다.</li>
+    <li>questDescriptionRoomRequired(roomRequired==false)-&gt;</li>
+    <li>questDescriptionMayJoin(mayJoin==true)-&gt;</li>
+    <li>questDescriptionMayJoin(mayJoin==false)-&gt;[tenantPawn_nameDef](은)는 진영에 가입하고 싶지 않습니다.</li>
+    <li>questDescriptionViolenceEnabled(violenceEnabled==true)-&gt;단, [tenantPawn_pronoun]는 필요한 경우 소집하여 싸울 수 있습니다.</li>
+    <li>questDescriptionViolenceEnabled(violenceEnabled==false)-&gt;[tenantPawn_pronoun]는 [tenantPawn_objective] 보호해 주기를 기대하며 전혀 싸우지 않습니다.</li>
+  </LTS_Tenancy.questContentRules.rulesStrings>
+</LanguageData>
