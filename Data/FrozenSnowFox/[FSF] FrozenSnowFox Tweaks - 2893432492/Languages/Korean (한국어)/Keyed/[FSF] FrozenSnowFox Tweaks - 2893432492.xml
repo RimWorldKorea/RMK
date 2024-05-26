@@ -37,7 +37,7 @@
   <FSFTweaksHarderDropPodRaidsTitle>더 어려워진 강하 습격</FSFTweaksHarderDropPodRaidsTitle>
   <FSFTweaksHarderDropPodRaidsDesc>강하 습격대 전략의 선택 가중치가 두 배로 증가합니다.  또한 습격 포인트 스케일링을 제거하여 강하 습격이 일반 습격과 동일한 크기로 진행되도록 합니다.</FSFTweaksHarderDropPodRaidsDesc>
   <FSFTweaksHarderEnvironmentalEventsTitle>더 어려운 환경 이벤트</FSFTweaksHarderEnvironmentalEventsTitle>
-  <FSFTweaksHarderEnvironmentalEventsDesc>환경 이벤트의 지속시간을 수정하고 재발생 간격을 다소 증가시켜 이를 보완합니다.  한파와 폭염 지속 시간 2배, 유독성 낙진 지속 시간 4배, 화산 겨울 지속 시간 최소 2.5배 및 최대 1.5배, 가뭄(Vanilla Events Expanded) 지속 시간 최소 1.7배 및 최대 3배로, 이벤트가 전반적으로 더 오래 지속됩니다.</FSFTweaksHarderEnvironmentalEventsDesc>
+  <FSFTweaksHarderEnvironmentalEventsDesc>환경 이벤트의 지속시간을 수정하고 재발생 간격을 다소 증가시켜 이를 보완합니다.  한파와 폭염 지속 시간 2배, 유독성 낙진 지속 시간 4배, 화산 겨울 지속 시간 최소 2.5배 및 최대 1.5배, 피의 비 지속 시간 최소 4.5배 및 최대 2배 (어노말리 DLC), 죽음의 안개 지속 시간 2배 (어노말리 DLC) 가뭄(Vanilla Events Expanded) 지속 시간 최소 1.7배 및 최대 3배로, 이벤트가 전반적으로 더 오래 지속됩니다.</FSFTweaksHarderEnvironmentalEventsDesc>
   <FSFTweaksHerdMigrationOnAnyBiomeTitle>모든 생물군에서의 무리 이주</FSFTweaksHerdMigrationOnAnyBiomeTitle>
   <FSFTweaksHerdMigrationOnAnyBiomeDesc>모든 바이옴에서 이벤트가 발동 할 수 있도록 무리 이주 이벤트에서 허용된 바이옴 태그를 제거합니다.</FSFTweaksHerdMigrationOnAnyBiomeDesc>
   <FSFTweaksImmortalPowerConduitsTitle>불멸의 전선</FSFTweaksImmortalPowerConduitsTitle>
@@ -99,7 +99,7 @@
   <FSFTweaksWolvesAreDogsTitle>늑대는 개다</FSFTweaksWolvesAreDogsTitle>
   <FSFTweaksWolvesAreDogsDesc>늑대를 개처럼 오물 생산량을 0으로, 애완동물 비율을 1로, 애교빈도를 12로 변경하여 깨끗하고 친근하며 애교를 부리는 행복한 늑대를 키울 수 있습니다. 또한, 다른 진영의 기지에서 회색늑대와 북극늑대를 구매 할 수 있습니다.</FSFTweaksWolvesAreDogsDesc>
   <FSFTweaksYoungerPeopleTitle>젊은 사람</FSFTweaksYoungerPeopleTitle>
-  <FSFTweaksYoungerPeopleDesc>이는 새로운 결혼 후보자를 안정적으로 공급하기 위해 고령화 승수가 높은 게임을 위한 것입니다. 최대 생성 연령은 25세로 제한되어 있지만, 자녀 생성에 방해가 되지 않도록 최소 연령은 추가되지 않습니다. 실제 연령은 13세에서 25세 사이이지만 평균에 가까워야 합니다. 부모/자식 관계를 포함하면 이 수치를 벗어날 수 있습니다. 스폰 후 사람들은 설정한 배수에 따라 나이를 먹게 되므로, 시간이 지나도 죽지 않고 게임에서 제거되지 않는다면 나이가 많은 폰을 볼 수 있을 것입니다.</FSFTweaksYoungerPeopleDesc>
+  <FSFTweaksYoungerPeopleDesc>이는 새로운 결혼 후보자를 안정적으로 공급하기 위해 고령화 승수가 높은 게임을 위한 것입니다. 설정은 18세에서 25세로 설정되어 있지만 실제 연령은 13세에서 25세 사이로 평균에 가까워야 합니다. 자녀와 부모/자녀 관계를 포함하면 이 범위를 벗어날 수 있습니다.  스폰 후 사람들은 설정한 배수로 나이를 먹게 되므로, 시간이 지나도 죽지 않고 게임에서 제거되지 않는다면 나이가 많은 폰을 볼 수 있을 것입니다.</FSFTweaksYoungerPeopleDesc>
   <FSFTweaksAccurateMechDisassemblyBaseEff>기본 분해 효율 {FSFAccurateMechDisassemblyBaseEff}</FSFTweaksAccurateMechDisassemblyBaseEff>
   <FSFTweaksAccurateMechDisassemblyMaxEff>최대 분해 효율 {FSFAccurateMechDisassemblyMaxEff}</FSFTweaksAccurateMechDisassemblyMaxEff>
   <FSFTweaksAccurateMechDisassemblyDesc>메카노이드 분해의 효율 값을 입력합니다. 최대 스탯은 획득 가능한 최대 자원 비율이며, 기본 스탯은 조작, 시력, 제작 기술을 고려하기 전의 기본 효율 비율입니다.\n바닐라 (1, 0.75).</FSFTweaksAccurateMechDisassemblyDesc>
@@ -433,4 +433,9 @@
   <FSFTweaksVehicleFrameworkFasterVehiclesDesc>슬라이더를 움직여 세계 지도에 있는 모든 육상 및 수상 전차의 속도 배수를 조정할 수 있습니다. 이 값은 직접 배수이며, 값이 2이면 원본의 2배가 되고 3이면 3배가 됩니다.\n바닐라 값 1.</FSFTweaksVehicleFrameworkFasterVehiclesDesc>
   <FSFTweaksVehicleFrameworkRenameCarPartsTitle>자동차 부품 이름 변경</FSFTweaksVehicleFrameworkRenameCarPartsTitle>
   <FSFTweaksVehicleFrameworkRenameCarPartsDesc>자동차 부품의 이름을 Vanilla Vehicles Expanded의 차량 부품 이름으로 변경합니다.</FSFTweaksVehicleFrameworkRenameCarPartsDesc>
+  <FSFTweaksInteractionSpotsCanOverlapTitle>겹칠 수 있는 상호 작용 지점</FSFTweaksInteractionSpotsCanOverlapTitle>
+  <FSFTweaksInteractionSpotsCanOverlapDesc>상호작용 지점이 겹칠 수 있도록 모든 것에 대한 제한을 제거합니다. 상호작용 지점은 건물을 사용하는 동안 폰이 서 있는 곳이며, 일반적으로 폰을 위한 자리를 배치하는 곳입니다.</FSFTweaksInteractionSpotsCanOverlapDesc>
+  <FSFTweaksRenderHairOverClothingTitle>옷 위에 머리카락 렌더링</FSFTweaksRenderHairOverClothingTitle>
+  <FSFTweaksRenderHairOverClothingDesc>새로운 렌더링 시스템에서는 뒤에서 봤을 때 폰의 머리 위에 의상이 렌더링됩니다. 이는 긴 헤어스타일에서 가장 두드러지는데, 머리카락이 옷 위로 드리워지는 대신 옷 아래에 숨겨져 다소 이상하게 보이게 됩니다. 이 조정은 문제가 될 수 있는 모든 의상을 패치하여 머리카락이 옷 위에 렌더링되어 머리카락이 정상적으로 옷 위로 드리워지도록 합니다.</FSFTweaksRenderHairOverClothingDesc>
+  <FSFTweaksRRSSSortedStepsVFETribal>경고: 이 조정은 현재 Vanilla Factions Expanded Tribals 모드와 호환되지 않습니다.</FSFTweaksRRSSSortedStepsVFETribal>
 </LanguageData>
