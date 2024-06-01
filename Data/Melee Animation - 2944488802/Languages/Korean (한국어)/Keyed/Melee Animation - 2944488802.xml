@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AM.ModTitle>Epicguru's Melee Animation</AM.ModTitle>
+  <AM.Animation>애니메이션</AM.Animation>
+  <AM.Error.Grapple.FloatMenu>올가미 불가: {0}</AM.Error.Grapple.FloatMenu>
+  <AM.Grapple.FloatMenu>올가미 {0}</AM.Grapple.FloatMenu>
+  <AM.Grapple.FloatMenu.Tip>올가미를 사용하여 {1}을 {0} 쪽으로 당깁니다.\n이것은 {1}에 해를 끼치지 않습니다.</AM.Grapple.FloatMenu.Tip>
+  <AM.Grapple.FloatMenu.TipEnemy>올가미를 사용해 {1}을 {0} 쪽으로 당깁니다.\n이것은 {1}에게 해를 끼치지는 않지만, 근접/공격 범위 안에 들어갑니다.</AM.Grapple.FloatMenu.TipEnemy>
+  <AM.Error.Exec.FloatMenu>처형 불가: {0}</AM.Error.Exec.FloatMenu>
+  <AM.Exec.FloatMenu>처형 {0}</AM.Exec.FloatMenu>
+  <AM.Exec.FloatMenu.Tip>{1}에게 처형을 수행합니다.\n 무기, 근접 기술, 방어구, 모드 설정에 따라 가능한 결과:\n{2}.</AM.Exec.FloatMenu.Tip>
+  <AM.Exec.FloatMenu.Walk> (목표 지점까지 걸어서 이동)</AM.Exec.FloatMenu.Walk>
+  <AM.Exec.FloatMenu.Lasso> (올가미)</AM.Exec.FloatMenu.Lasso>
+  <AM.Error.Grapple.Internal>Int.Error: {Error}</AM.Error.Grapple.Internal>
+  <AM.Error.Exec.Internal>Int.Error: {Error}</AM.Error.Exec.Internal>
+  <AM.Error.Grapple.AlreadyAtTarget>{Target}(은)는 이미 근접 범위에 있습니다.</AM.Error.Grapple.AlreadyAtTarget>
+  <AM.ProbReport.Kill>살해</AM.ProbReport.Kill>
+  <AM.ProbReport.Down>쓰러짐</AM.ProbReport.Down>
+  <AM.ProbReport.Injure>부상</AM.ProbReport.Injure>
+  <AM.Error.Duel.Internal>Int.Error: {Error}</AM.Error.Duel.Internal>
+  <AM.Error.Duel.Dead>{Pawn}가 죽음</AM.Error.Duel.Dead>
+  <AM.Error.Duel.Down>{Pawn}가 쓰러짐</AM.Error.Duel.Down>
+  <AM.Error.Duel.NotSpawned>{Pawn}(은)는 지금 결투를 할 수 없습니다.</AM.Error.Duel.NotSpawned>
+  <AM.Error.Duel.NotSpawned.Short>{Pawn}을 사용할 수 없음</AM.Error.Duel.NotSpawned.Short>
+  <AM.Error.Duel.MissingWeapon>{Pawn}(은)는 사용가능한 근접 무기가 없습니다.</AM.Error.Duel.MissingWeapon>
+  <AM.Error.Duel.NoAnim>이 사람이 들고 있는 무기는 결투에 사용할 수 없습니다.</AM.Error.Duel.NoAnim>
+  <AM.Error.Duel.NoAnim.Short>이 근접 무기는 결투에 사용할 수 없음</AM.Error.Duel.NoAnim.Short>
+  <AM.Error.Duel.NoPath>.{0}(은)는 결투를 시작하기 위해 {1}에 도달하지 못했습니다.</AM.Error.Duel.NoPath>
+  <AM.Error.Duel.OnCooldown>{0}(은)는 결투 재사용 대기시간 중입니다.</AM.Error.Duel.OnCooldown>
+  <AM.Error.Duel.WaitedTooLong>{0}은 {1}이 결투 장소에 도착할 때까지 기다리다 지쳐서 결투를 취소했습니다.</AM.Error.Duel.WaitedTooLong>
+  <AM.Gizmos.DuelSpot.StartDuel.Label>결투 시작</AM.Gizmos.DuelSpot.StartDuel.Label>
+  <AM.Gizmos.DuelSpot.StartDuel.Desc>유효한 근접 무기를 가진 두 명의 정착민 사이에서 결투를 수동으로 시작합니다. 포로는 참가할 수 없습니다.\n\n이 결투는 친선 결투이므로 아무도 다치지 않습니다.</AM.Gizmos.DuelSpot.StartDuel.Desc>
+  <AM.Gizmos.DuelSpot.StartDuel.InUse>결투 장소는 현재 사용 중입니다.</AM.Gizmos.DuelSpot.StartDuel.InUse>
+  <AM.Gizmos.DuelSpot.StartDuel.Forbidden>결투 장소가 상호작용 금지 되어 있습니다.</AM.Gizmos.DuelSpot.StartDuel.Forbidden>
+  <AM.Gizmos.DuelSpot.StartDuel.MissingWeapon>{0}에겐 유효한 근접 무기가 없습니다.</AM.Gizmos.DuelSpot.StartDuel.MissingWeapon>
+  <AM.Gizmos.DuelSpot.StartDuel.IncompatWeapon>{0}의 무기로는 {1}과 결투할 수 없으며, 그 무기는 호환되지 않습니다.</AM.Gizmos.DuelSpot.StartDuel.IncompatWeapon>
+  <AM.Gizmos.DuelSpot.StartDuel.CannotInterrupt>{0}의 현재 작업을 중단할 수 없습니다.</AM.Gizmos.DuelSpot.StartDuel.CannotInterrupt>
+  <AM.Gizmos.DuelSpot.StartDuel.NoPath>결투 장소에 {0}이 도달할 수 없습니다</AM.Gizmos.DuelSpot.StartDuel.NoPath>
+  <AM.Gizmos.DuelSpot.StartDuel.OnCooldown>{0}은 앞으로 {2}초 동안 친선 결투를 할 수 없습니다.</AM.Gizmos.DuelSpot.StartDuel.OnCooldown>
+  <AM.Gizmos.DuelSpot.StartDuel.FloatMenuTitle>결투할 정착민 선택</AM.Gizmos.DuelSpot.StartDuel.FloatMenuTitle>
+  <AM.Gizmos.DuelSpot.StartDuel.FailedToStart>예기치 않은 오류로 인해 결투를 시작할 수 없습니다. 모더에게 로그를 보내주세요.</AM.Gizmos.DuelSpot.StartDuel.FailedToStart>
+  <AM.Error.Grapple.Dead>{Grappler}가 죽음</AM.Error.Grapple.Dead>
+  <AM.Error.Exec.Dead>{Exec}가 죽음</AM.Error.Exec.Dead>
+  <AM.Error.Exec.NoWalk>{Target}이 {Exec}에게 인접하지 않아, 올가미를 묶거나 걸어갈 수 없습니다.</AM.Error.Exec.NoWalk>
+  <AM.Error.Exec.NoWalk.Short>{Target}는 닿을 수 없습니다.</AM.Error.Exec.NoWalk.Short>
+  <AM.Error.Grapple.DeadTarget>{Target}가 죽음</AM.Error.Grapple.DeadTarget>
+  <AM.Error.Exec.DeadTarget>{Target}가 죽음</AM.Error.Exec.DeadTarget>
+  <AM.Error.Grapple.Downed>{Grappler}가 쓰러짐</AM.Error.Grapple.Downed>
+  <AM.Error.Exec.Downed>{Exec}가 쓰러짐</AM.Error.Exec.Downed>
+  <AM.Error.Exec.DownedTarget>{Target}(은)는 쓰러졌습니다 쓰러진 사람은 처형을 할 수 없습니다.</AM.Error.Exec.DownedTarget>
+  <AM.Error.Exec.DownedTarget.Short>{Target}가 쓰러짐</AM.Error.Exec.DownedTarget.Short>
+  <AM.Error.Grapple.AlreadyTarget>{Target}(은)는 이미 올가미에 묶어짐</AM.Error.Grapple.AlreadyTarget>
+  <AM.Error.Grapple.AlreadyTarget.Short>이미 올가미에 묶임</AM.Error.Grapple.AlreadyTarget.Short>
+  <AM.Error.Grapple.MissingLOS>시야가 확보되지 않음</AM.Error.Grapple.MissingLOS>
+  <AM.Error.Grapple.TooFar>{Target}이 {Grappler}의 올가미에 닿지 않았습니다.</AM.Error.Grapple.TooFar>
+  <AM.Error.Grapple.TooFar.Short>너무 멂</AM.Error.Grapple.TooFar.Short>
+  <AM.Error.Grapple.InAnimation>{Target}(은)는 올가미에 묶일 수 없습니다.</AM.Error.Grapple.InAnimation>
+  <AM.Error.Grapple.SelfInAnimation>{Grappler}(은)는 올가미를 사용할 수 없습니다.</AM.Error.Grapple.SelfInAnimation>
+  <AM.Error.Exec.SelfInAnimation>{Grappler}(은)는 처형을 처형할 수 없습니다.</AM.Error.Exec.SelfInAnimation>
+  <AM.Error.Exec.InAnimation>{Target}(은)는 처형을 당할 수 없습니다.</AM.Error.Exec.InAnimation>
+  <AM.Error.Grapple.Mass>{Target](은)는 {Grappler}의 올가미로 묶기엔 너무 무겁습니다.</AM.Error.Grapple.Mass>
+  <AM.Error.Grapple.Mass.Short>{Target}(은)는 너무 무거움</AM.Error.Grapple.Mass.Short>
+  <AM.Error.Grapple.Size>{Target}(은)는 {Grappler}의 올가미로 묶기엔 너무 큽니다</AM.Error.Grapple.Size>
+  <AM.Error.Grapple.Size.Short>{Target}(은)는 너무 큼</AM.Error.Grapple.Size.Short>
+  <AM.Error.Grapple.Cooldown>{Grappler}의 올가미는 현재 재사용 준비 중입니다.</AM.Error.Grapple.Cooldown>
+  <AM.Error.Grapple.Cooldown.Short>올가미 재사용 대기 시간</AM.Error.Grapple.Cooldown.Short>
+  <AM.Error.Grapple.SkillIssue>{Grappler}(은)는 올가미를 사용하는 데 필요한 격투 ({MeleeSkill})레벨이 없습니다.</AM.Error.Grapple.SkillIssue>
+  <AM.Error.Grapple.SkillIssue.Short>근접 스킬 불충분</AM.Error.Grapple.SkillIssue.Short>
+  <AM.Error.Grapple.Manipulation>{Grappler}(은)는 올가미를 사용할 때 필요할 조작 능력치가 없습니다.</AM.Error.Grapple.Manipulation>
+  <AM.Error.Grapple.Manipulation.Short>조작 불충분</AM.Error.Grapple.Manipulation.Short>
+  <AM.Error.Grapple.NoDest>{Grappler} 주변에 {Target}을 끌어놓을 빈 공간이 없습니다.</AM.Error.Grapple.NoDest>
+  <AM.Error.Grapple.NoDest.Short>{Grappler}의 공간 부족</AM.Error.Grapple.NoDest.Short>
+  <AM.Error.Exec.NoWeapon>{Exec}가 유효한 근접 무기를 사용하지 않습니다.</AM.Error.Exec.NoWeapon>
+  <AM.Error.Exec.NoWeapon.Short>근접 무기 없음</AM.Error.Exec.NoWeapon.Short>
+  <AM.Error.Exec.Cooldown>{Exec}의 처형 재사용 대기시간 중입니다.</AM.Error.Exec.Cooldown>
+  <AM.Error.Exec.Cooldown.Short>처형 준비중</AM.Error.Exec.Cooldown.Short>
+  <AM.Error.Exec.NoAnims>{Exec}이 {Weapon}(을)를 사용하여 처형 애니메이션을 수행할 수 없습니다.\n이것은 격투 능력치가 부족하거나 모드 설정에서 모든 애니메이션이 비활성화 되어 있기 때문일 수 있습니다.</AM.Error.Exec.NoAnims>
+  <AM.Error.Exec.NoAnims.Short>애니메이션 없음</AM.Error.Exec.NoAnims.Short>
+  <AM.Error.Exec.NoSpace>여기에 처형 애니메이션을 처형할 공간이 충분하지 않습니다.</AM.Error.Exec.NoSpace>
+  <AM.Error.Exec.NoSpace.Short>공간 없음</AM.Error.Exec.NoSpace.Short>
+  <AM.Error.Exec.NoPath>{Exec}가 {Target}에게 걸어서 도달할 수 없으며, 올가미를 사용할 수 없거나 사용할 수 없습니다.</AM.Error.Exec.NoPath>
+  <AM.Error.Exec.NoPath.Short>대상 경로 없음</AM.Error.Exec.NoPath.Short>
+  <AM.Stats.BaseValue>기본값: {0}</AM.Stats.BaseValue>
+  <AM.Stats.MeleeSkillOffset>격투 능력치 ({0}) 효과: {1}</AM.Stats.MeleeSkillOffset>
+  <AM.Stats.ConsciousnessOffset>의식 ({0}) 효과: {1}</AM.Stats.ConsciousnessOffset>
+  <AM.Stats.ManipulationOffset>조작 ({0}) 효과: {1}</AM.Stats.ManipulationOffset>
+  <AM.Stats.WeaponDamageTypeOffset>무기 피해 유형 ({0}) 효과: {1}</AM.Stats.WeaponDamageTypeOffset>
+  <AM.Stats.WeaponDPSCoef>무기 DPS ({0}) 효과: {1}</AM.Stats.WeaponDPSCoef>
+  <AM.Stats.NoWeapon>근접 무기 미장착: {0}</AM.Stats.NoWeapon>
+  <AM.Stats.GlobalCoef>전체 {0} 승수 (모드 설정 내에서): {1}</AM.Stats.GlobalCoef>
+  <AM.Stats.FriendlyCoef>아군 배율(모드 설정에서): x{0}</AM.Stats.FriendlyCoef>
+  <AM.Stats.EnemyCoef>적군 배율(모드 설정에서): x{0}</AM.Stats.EnemyCoef>
+  <AM.Stats.Lethality>사망 확률</AM.Stats.Lethality>
+  <AM.Stats.DuelAbility>결투 능력</AM.Stats.DuelAbility>
+  <AM.Stats.FriendlyPawnBonus>아군 보너스 (모드 설정에서): {0}</AM.Stats.FriendlyPawnBonus>
+  <AM.LoadingText>Melee Animation 로드 중</AM.LoadingText>
+  <AM.ProbReport.Fail>실패</AM.ProbReport.Fail>
+  <AM.Gizmos.DuelSpot.ToggleVisibility>가시성 토글</AM.Gizmos.DuelSpot.ToggleVisibility>
+  <AM.Gizmos.DuelSpot.ToggleVisibility.Desc>이 결투 장소를 보이지 않게 하거나 다시 보이게 만듭니다.\n경고: 진짜 보이지 않습니다! 놓은 위치를 잊지 않도록 주의하세요...</AM.Gizmos.DuelSpot.ToggleVisibility.Desc>
+  <AM.Error.Grapple.Stunned>{Grappler}(이)가 기절했습니다</AM.Error.Grapple.Stunned>
+  <AM.Error.Exec.Stunned>{Exec}(이)가 기절했습니다</AM.Error.Exec.Stunned>
+  <AM.Stats.SkillCoef>근접 기술 배수: x{0}</AM.Stats.SkillCoef>
+  <AM.Skill.Cast>특수 기술 '{0}' 시전 {1}</AM.Skill.Cast>
+  <AM.Skill.CantCast>{0}(을)를 시전할 수 없습니다: {1}</AM.Skill.CantCast>
+  <AM.Skill.CantCastGeneric>지금 {0}(을)를 {1}에 시전할 수 없습니다.</AM.Skill.CantCastGeneric>
+  <AM.Skill.BadTargetState>목표가 잘못된 상태입니다.</AM.Skill.BadTargetState>
+  <AM.Skill.AlreadyActive>스킬이 이미 활성화되었습니다.</AM.Skill.AlreadyActive>
+  <AM.Skill.OnCooldown>쿨다운 중: {0} 초.</AM.Skill.OnCooldown>
+  <AM.Skill.OnCooldownExec>최근 처형으로 인해 {0} 초 동안 쿨다운 중입니다.</AM.Skill.OnCooldownExec>
+  <AM.Skill.BadWeapon>필요한 무기가 없습니다.</AM.Skill.BadWeapon>
+  <AM.Skill.Gilgamesh.LowPsy>정신력 증폭 레벨 {0}(이)가 필요 레벨 {1}보다 낮습니다.</AM.Skill.Gilgamesh.LowPsy>
+  <AM.Skill.Gilgamesh.LowMelee>근접 레벨 {0}(이)가 필요 레벨 {1}보다 낮습니다.</AM.Skill.Gilgamesh.LowMelee>
+  <AM.Patch.OptDisabled>시각적 버그로 인해 근접 애니메이션 모드에 의해 투명화 최적화가 비활성화되었습니다.</AM.Patch.OptDisabled>
+  <SimpleSettings.Preset>프리셋:</SimpleSettings.Preset>
+  <SimpleSettings.Preset.Custom>사용자 지정</SimpleSettings.Preset.Custom>
+  <SimpleSettings.ClickToReset>기본값으로 설정하려면 오른쪽 클릭.</SimpleSettings.ClickToReset>
+  <AM.AMSettings.Presets.Default>기본값</AM.AMSettings.Presets.Default>
+  <AM.AMSettings.Presets.Default.Desc>모드의 모든 기능을 활성화합니다.</AM.AMSettings.Presets.Default.Desc>
+  <AM.AMSettings.Presets.NoLassos>올가미 없음</AM.AMSettings.Presets.NoLassos>
+  <AM.AMSettings.Presets.NoLassos.Desc>올가미를 제외한 모든 것이 활성화됩니다. 원한다면 수동으로 올가미를 제작하고 사용할 수 있지만 적은 올가미를 가지고 태어나거나 사용하지 않습니다.\n\n* 근접 공격 애니메이션을 추가합니다.\n* 근접 무기 유휴 애니메이션을 추가합니다.\n* 결투를 추가합니다.\n* 처형 애니메이션을 추가합니다.\n* 특수 기술을 추가합니다.</AM.AMSettings.Presets.NoLassos.Desc>
+  <AM.AMSettings.Presets.VanillaPlus>바닐라+</AM.AMSettings.Presets.VanillaPlus>
+  <AM.AMSettings.Presets.VanillaPlus.Desc>기본 전투와 매우 가까운 상태를 유지합니다. 당신의 폰은 수동으로 지시하지 않는 한 올가미를 사용하지 않습니다. 당신의 폰은 절대로 처형을 할 수 없습니다. 적은 결코 처형을 하거나 올가미를 사용하지 않습니다.\n\n* 근접 공격 애니메이션을 추가합니다.\n* 근접 무기 유휴 애니메이션을 추가합니다.\n* 올가미는 우호적 폰이 사용할 수 있지만 장착하고 수동으로 트리거해야 합니다.</AM.AMSettings.Presets.VanillaPlus.Desc>
+  <AM.AMSettings.Settings.Header.General>일반</AM.AMSettings.Settings.Header.General>
+  <AM.AMSettings.Settings.AnimateAtIdle>무기 항상 애니메이션화</AM.AMSettings.Settings.AnimateAtIdle>
+  <AM.AMSettings.Settings.AnimateAtIdle.Desc>활성화 시, 근접 무기가 소집으로 서 있거나 전투 중 이동할 때 애니메이션화됩니다.\n비활성화 시, 애니메이션은 결투, 특수 기술 및 처형에만 제한됩니다.\n\n&lt;b&gt;이를 활성화하면 인구 밀도가 높은 맵에서 성능에 큰 영향을 미칠 수 있습니다.\n설정을 변경한 후 저장을 다시 로드하십시오.&lt;/b&gt;</AM.AMSettings.Settings.AnimateAtIdle.Desc>
+  <AM.AMSettings.Settings.EnableUniqueSkills>특수 기술 활성화</AM.AMSettings.Settings.EnableUniqueSkills>
+  <AM.AMSettings.Settings.EnableUniqueSkills.Desc>특수 기술 시스템을 활성화하거나 비활성화합니다.\n특수 기술은 특정 조건에서 잠금 해제되는 강력한 공격이나 능력입니다.\n이 기술은 오직 당신의 정착민만 사용할 수 있으며 수동으로 활성화해야 합니다. 자세한 내용은 스팀 창작마당 페이지를 참조하십시오.</AM.AMSettings.Settings.EnableUniqueSkills.Desc>
+  <AM.AMSettings.Settings.AllowInvisiblePawns>애니메이션 중 투명 취급</AM.AMSettings.Settings.AllowInvisiblePawns>
+  <AM.AMSettings.Settings.AllowInvisiblePawns.Desc>애니메이션 중일 때, 예를 들어 처형 같은 경우, 모든 다른 폰과 터렛에 의해 투명하게 간주됩니다: 이들은 적극적으로 목표로 삼거나 공격하지 않습니다. 이는 처형을 덜 위험하게 만듭니다.\n참고: 애니메이션 중인 폰은 여전히 피해를 입을 수 있습니다. 예) 빗나간 총격이나 폭발로 인한 피해.</AM.AMSettings.Settings.AllowInvisiblePawns.Desc>
+  <AM.AMSettings.Settings.GlobalAnimationSpeed>전역 애니메이션 속도</AM.AMSettings.Settings.GlobalAnimationSpeed>
+  <AM.AMSettings.Settings.GlobalAnimationSpeed.Desc>모든 애니메이션 속도에 대한 수정자입니다.\n높을수록 더 빠릅니다.</AM.AMSettings.Settings.GlobalAnimationSpeed.Desc>
+  <AM.AMSettings.Settings.animSettings>개별 애니메이션 설정</AM.AMSettings.Settings.animSettings>
+  <AM.AMSettings.Settings.Header.Lasso>올가미</AM.AMSettings.Settings.Header.Lasso>
+  <AM.AMSettings.Settings.AutoGrapple>자동 올가미</AM.AMSettings.Settings.AutoGrapple>
+  <AM.AMSettings.Settings.AutoGrapple.Desc>참일 경우, 당신의 정착민이 적에게 자동으로 올가미를 사용할 것입니다.\n\n이는 &lt;b&gt;기본&lt;/b&gt; 설정만 변경합니다. 개별 폰별로도 설정할 수 있습니다.</AM.AMSettings.Settings.AutoGrapple.Desc>
+  <AM.AMSettings.Settings.GrappleAttemptMTBSeconds>자동 올가미 평균 간격 (우호적)</AM.AMSettings.Settings.GrappleAttemptMTBSeconds>
+  <AM.AMSettings.Settings.GrappleAttemptMTBSeconds.Desc>이는 우호적인 폰이 적을 근접 거리로 끌어오기 위해 올가미를 시도하는 평균 시간(초)입니다.\n쿨다운이 끝났고 자동 처형이 활성화된 경우, 올가미로 끌어온 적을 즉시 처형할 것입니다.</AM.AMSettings.Settings.GrappleAttemptMTBSeconds.Desc>
+  <AM.AMSettings.Settings.LassoSpawnChance>올가미 일반성</AM.AMSettings.Settings.LassoSpawnChance>
+  <AM.AMSettings.Settings.LassoSpawnChance.Desc>이는 올가미를 장착한 &lt;b&gt;근접 전투원&lt;/b&gt; 폰이 생성될 확률입니다.\n폰의 자연 올가미 생성을 비활성화하려면 이를 0%로 설정하십시오.</AM.AMSettings.Settings.LassoSpawnChance.Desc>
+  <AM.AMSettings.Settings.EnemiesCanGrapple>적이 올가미 사용 가능</AM.AMSettings.Settings.EnemiesCanGrapple>
+  <AM.AMSettings.Settings.EnemiesCanGrapple.Desc>적이 올가미(보유 중인 경우)를 사용하여 당신의 정착민을 근접 거리로 끌어당길 수 있게 하겠습니까?</AM.AMSettings.Settings.EnemiesCanGrapple.Desc>
+  <AM.AMSettings.Settings.GrappleAttemptMTBSecondsEnemy>적의 자동 올가미 평균 간격</AM.AMSettings.Settings.GrappleAttemptMTBSecondsEnemy>
+  <AM.AMSettings.Settings.GrappleAttemptMTBSecondsEnemy.Desc>이는 적 폰이 목표를 근접 거리로 끌어오기 위해 올가미를 시도하는 평균 시간(초)입니다.\n쿨다운이 끝났고 '적이 처형 수행 가능'이 활성화된 경우, 올가미로 끌어온 목표를 즉시 처형할 것입니다.</AM.AMSettings.Settings.GrappleAttemptMTBSecondsEnemy.Desc>
+  <AM.AMSettings.Settings.MinMeleeSkillToLasso>최소 근접 기술</AM.AMSettings.Settings.MinMeleeSkillToLasso>
+  <AM.AMSettings.Settings.MinMeleeSkillToLasso.Desc>올가미를 사용하기 위한 최소 근접 기술입니다.\n모든 폰에 영향을 미칩니다.</AM.AMSettings.Settings.MinMeleeSkillToLasso.Desc>
+  <AM.AMSettings.Settings.MinManipulationToLasso>최소 조작력</AM.AMSettings.Settings.MinManipulationToLasso>
+  <AM.AMSettings.Settings.MinManipulationToLasso.Desc>올가미를 사용하기 위한 최소 조작 스텟입니다.\n모든 폰에 영향을 미칩니다.</AM.AMSettings.Settings.MinManipulationToLasso.Desc>
+  <AM.AMSettings.Settings.MaxLassoMass>최대 폰 무게</AM.AMSettings.Settings.MaxLassoMass>
+  <AM.AMSettings.Settings.MaxLassoMass.Desc>폰이 올가미에 걸 수 있는 최대 무게입니다. 무게는 킬로그램으로 측정됩니다. 폰의 통계 시트를 통해 무게를 확인할 수 있습니다.\n무게 제한을 비활성화하려면 0으로 설정하십시오.</AM.AMSettings.Settings.MaxLassoMass.Desc>
+  <AM.AMSettings.Settings.MaxLassoBodySize>최대 폰 크기</AM.AMSettings.Settings.MaxLassoBodySize>
+  <AM.AMSettings.Settings.MaxLassoBodySize.Desc>폰이 올가미에 걸릴 수 있는 최대 '몸 크기'입니다.\n참고로, 다음은 일부 예시입니다:\n• 닭: 0.3\n• 인간: 1\n• 폭탄사슴: 2\n• 와르그: 3\n• 트럼보: 4\n\n\n몸 크기 제한을 비활성화하려면 0으로 설정하십시오.</AM.AMSettings.Settings.MaxLassoBodySize.Desc>
+  <AM.AMSettings.Settings.GrappleSpeed>올가미 이동 속도</AM.AMSettings.Settings.GrappleSpeed>
+  <AM.AMSettings.Settings.GrappleSpeed.Desc>올가미의 속도 &lt;b&gt;(쿨다운 아님)&lt;/b&gt;를 조정하여 적을 더 빠르게 또는 느리게 올가미에 걸리게 하고 끌어당깁니다.\n값이 높을수록 올가미가 더 빨라집니다.\n모든 폰에 영향을 미칩니다.</AM.AMSettings.Settings.GrappleSpeed.Desc>
+  <AM.AMSettings.Settings.MaxFillPctForLasso>올가미 끌기에 대한 최대 건물 채우기</AM.AMSettings.Settings.MaxFillPctForLasso>
+  <AM.AMSettings.Settings.MaxFillPctForLasso.Desc>올가미가 폰을 끌어당길 수 있는 건물의 최대 '채우기' 백분율입니다.\n값이 낮을수록 폰이 모래주머니나 경계벽과 같은 부분적 덮개를 통해/위로 끌어당겨지지 않습니다. 100%로 설정하면 올가미가 완전히 단단한 벽과 건물을 제외한 모든 것을 통과해 폰을 끌어당길 수 있습니다.</AM.AMSettings.Settings.MaxFillPctForLasso.Desc>
+  <AM.AMSettings.Settings.Header.Executions___Duels>처형 및 결투</AM.AMSettings.Settings.Header.Executions___Duels>
+  <AM.AMSettings.Settings.EnableExecutions>처형 활성화</AM.AMSettings.Settings.EnableExecutions>
+  <AM.AMSettings.Settings.EnableExecutions.Desc>처형 시스템을 완전히 활성화하거나 비활성화합니다. 비활성화하면 어떤 폰도 처형할 수 없으며 UI에서 옵션이 제거됩니다.</AM.AMSettings.Settings.EnableExecutions.Desc>
+  <AM.AMSettings.Settings.AutoExecute>자동 처형</AM.AMSettings.Settings.AutoExecute>
+  <AM.AMSettings.Settings.AutoExecute.Desc>참일 경우, 당신의 폰이 전투 중 적 폰을 자동으로 처형합니다.
+이는 자동 그래플 설정이 활성화된 경우 그래플 훅을 기회적으로 사용하는 것을 포함할 수 있습니다.
+
+이는 &lt;b&gt;기본&lt;/b&gt; 설정만 변경합니다. 개별 폰별로도 설정할 수 있습니다.</AM.AMSettings.Settings.AutoExecute.Desc>
+  <AM.AMSettings.Settings.EnemiesCanExecute>적이 처형 수행 가능</AM.AMSettings.Settings.EnemiesCanExecute>
+  <AM.AMSettings.Settings.EnemiesCanExecute.Desc>적이 처형 애니메이션을 수행하도록 합니까?</AM.AMSettings.Settings.EnemiesCanExecute.Desc>
+  <AM.AMSettings.Settings.ExecuteAttemptMTBSeconds>우호적 폰의 자동 처형 평균 간격</AM.AMSettings.Settings.ExecuteAttemptMTBSeconds>
+  <AM.AMSettings.Settings.ExecuteAttemptMTBSeconds.Desc>이는 우호적 폰이 현재 싸우고 있는 적에 대해 처형 애니메이션을 시작하려고 시도하는 평균 시간(초)입니다.\n예를 들어, 5로 설정된 경우 우호적 폰이 근접 전투를 하고 있다면 평균적으로 5초 후에 처형 애니메이션이 트리거됩니다.\n이는 폰의 스텟인 처형 쿨다운에 영향을 미치지 않습니다.\n\n값이 낮으면 인구가 많은 맵에서 성능에 큰 영향을 미칠 수 있습니다.</AM.AMSettings.Settings.ExecuteAttemptMTBSeconds.Desc>
+  <AM.AMSettings.Settings.ExecuteAttemptMTBSecondsEnemy>적의 자동 처형 평균 간격</AM.AMSettings.Settings.ExecuteAttemptMTBSecondsEnemy>
+  <AM.AMSettings.Settings.ExecuteAttemptMTBSecondsEnemy.Desc>이는 적 폰이 현재 싸우고 있는 목표에 대해 처형 애니메이션을 시작하려고 시도하는 평균 시간(초)입니다.\n예를 들어, 5로 설정된 경우 적이 근접 전투를 하고 있다면 평균적으로 5초 후에 처형 애니메이션이 트리거됩니다.\n이는 폰의 스텟인 처형 쿨다운에 영향을 미치지 않습니다.
+
+값이 낮으면 인구가 많은 맵에서 성능에 큰 영향을 미칠 수 있습니다.</AM.AMSettings.Settings.ExecuteAttemptMTBSecondsEnemy.Desc>
+  <AM.AMSettings.Settings.AnimalsCanBeExecuted>동물이 처형될 수 있음</AM.AMSettings.Settings.AnimalsCanBeExecuted>
+  <AM.AMSettings.Settings.AnimalsCanBeExecuted.Desc>동물이 처형될 수 있도록 허용합니다.\n이걸 활성화하면 넌 나쁜 놈이야.</AM.AMSettings.Settings.AnimalsCanBeExecuted.Desc>
+  <AM.AMSettings.Settings.ExecutionLethalityModifier>처형 치명도 조정</AM.AMSettings.Settings.ExecutionLethalityModifier>
+  <AM.AMSettings.Settings.ExecutionLethalityModifier.Desc>처형 애니메이션의 치명도에 대한 일반 수정자입니다. 값이 높을수록 처형이 더 치명적입니다. 모든 폰에 영향을 미칩니다.</AM.AMSettings.Settings.ExecutionLethalityModifier.Desc>
+  <AM.AMSettings.Settings.ExecutionsOnFriendliesAreNotLethal>우호적 폰에 대해 비치명적 처형</AM.AMSettings.Settings.ExecutionsOnFriendliesAreNotLethal>
+  <AM.AMSettings.Settings.ExecutionsOnFriendliesAreNotLethal.Desc>활성화된 경우, 우호적 폰에 대한 처형 애니메이션은 다른 설정과 상관없이 항상 비치명적입니다.\n죄수와 노예는 우호적 폰으로 간주됩니다.\n\n정신 붕괴나 죄수 반란을 피를 흘리지 않고 멈추려 할 때 유용합니다.</AM.AMSettings.Settings.ExecutionsOnFriendliesAreNotLethal.Desc>
+  <AM.AMSettings.Settings.ExecutionArmorCoefficient>처형 시 방어구 강도</AM.AMSettings.Settings.ExecutionArmorCoefficient>
+  <AM.AMSettings.Settings.ExecutionArmorCoefficient.Desc>처형 애니메이션 결과를 계산할 때 방어구의 효과에 대한 배수입니다.\n값이 낮을수록 결과에 대한 방어구의 효과가 감소하고, 값이 높을수록 방어구의 강도가 증가합니다.\n0%로 설정하면 갑옷이 무시됩니다.</AM.AMSettings.Settings.ExecutionArmorCoefficient.Desc>
+  <AM.AMSettings.Settings.ExecutionsCanDestroyBodyParts>처형이 신체 부위를 파괴할 수 있음</AM.AMSettings.Settings.ExecutionsCanDestroyBodyParts>
+  <AM.AMSettings.Settings.ExecutionsCanDestroyBodyParts.Desc>참일 경우, 처형이 심장이나 머리와 같은 특정 중요 신체 부위를 파괴할 수 있습니다.\n거짓일 경우, 폰은 단순히 '마법'으로 죽습니다(특정 부위가 손상되지 않습니다)\n참고: 비활성화된 경우, 전투 로그 생성이 올바르게 작동하지 않으며 기본 메시지: "&lt;i&gt;name(이)가 죽었습니다.&lt;/i&gt;"를 제공합니다.</AM.AMSettings.Settings.ExecutionsCanDestroyBodyParts.Desc>
+  <AM.AMSettings.Settings.MeleeSkillExecCooldownFactor>기술이 처형 쿨다운에 미치는 영향</AM.AMSettings.Settings.MeleeSkillExecCooldownFactor>
+  <AM.AMSettings.Settings.MeleeSkillExecCooldownFactor.Desc>근접 기술이 처형 쿨다운 시간에 미치는 영향입니다.\n근접 기술이 높을수록 쿨다운이 낮아지며, 이 값을 변경하면 근접 기술의 효과가 증가하거나 감소합니다.\n0%로 설정하면 근접 기술의 영향을 비활성화합니다.\n\n참고: 우호적인 폰에만 영향을 미칩니다.</AM.AMSettings.Settings.MeleeSkillExecCooldownFactor.Desc>
+  <AM.AMSettings.Settings.FriendlyExecCooldownFactor>우호적 폰의 처형 쿨다운 계수</AM.AMSettings.Settings.FriendlyExecCooldownFactor>
+  <AM.AMSettings.Settings.FriendlyExecCooldownFactor.Desc>이는 우호적 폰의 처형 쿨다운 시간을 조정합니다. 값이 낮을수록 쿨다운이 감소합니다. 폰의 스텟에서 최종 쿨다운 시간을 확인할 수 있습니다.</AM.AMSettings.Settings.FriendlyExecCooldownFactor.Desc>
+  <AM.AMSettings.Settings.EnemyExecCooldownFactor>적의 처형 쿨다운 계수</AM.AMSettings.Settings.EnemyExecCooldownFactor>
+  <AM.AMSettings.Settings.EnemyExecCooldownFactor.Desc>이는 적대적 폰의 처형 쿨다운 시간을 조정합니다. 값이 낮을수록 쿨다운이 감소합니다. 폰의 스텟에서 최종 쿨다운 시간을 확인할 수 있습니다.</AM.AMSettings.Settings.EnemyExecCooldownFactor.Desc>
+  <AM.AMSettings.Settings.MinDuelDuration>최소 결투 시간</AM.AMSettings.Settings.MinDuelDuration>
+  <AM.AMSettings.Settings.MinDuelDuration.Desc>결투에서의 최소 공격 횟수입니다. 애니메이션의 지속 시간에만 영향을 미치며, 결투 결과에는 영향을 미치지 않습니다.</AM.AMSettings.Settings.MinDuelDuration.Desc>
+  <AM.AMSettings.Settings.MaxDuelDuration>최대 결투 시간</AM.AMSettings.Settings.MaxDuelDuration>
+  <AM.AMSettings.Settings.MaxDuelDuration.Desc>결투에서의 최대 공격 횟수입니다. 애니메이션의 지속 시간에만 영향을 미치며, 결투 결과에는 영향을 미치지 않습니다.</AM.AMSettings.Settings.MaxDuelDuration.Desc>
+  <AM.AMSettings.Settings.FriendlyDuelCooldown>우호적 결투 쿨다운</AM.AMSettings.Settings.FriendlyDuelCooldown>
+  <AM.AMSettings.Settings.FriendlyDuelCooldown.Desc>우호적 결투 후 다시 우호적 결투를 시작할 수 없는 시간(초)입니다.</AM.AMSettings.Settings.FriendlyDuelCooldown.Desc>
+  <AM.AMSettings.Settings.Header.Visuals>시각 요소</AM.AMSettings.Settings.Header.Visuals>
+  <AM.AMSettings.Settings.ShowHands>손 표시</AM.AMSettings.Settings.ShowHands>
+  <AM.AMSettings.Settings.ShowHands.Desc>폰 손에 근접 무기를 들고 있는 모습을 표시 합니까?</AM.AMSettings.Settings.ShowHands.Desc>
+  <AM.AMSettings.Settings.Gore_DamageEffect>피해 효과</AM.AMSettings.Settings.Gore_DamageEffect>
+  <AM.AMSettings.Settings.Gore_DamageEffect.Desc>애니메이션에서 피해 효과를 활성화하거나 비활성화합니다.
+피해 효과는 일반적으로 작고 일시적인 피의 흩날림입니다.</AM.AMSettings.Settings.Gore_DamageEffect.Desc>
+  <AM.AMSettings.Settings.Gore_FloorBlood>피 (오물)</AM.AMSettings.Settings.Gore_FloorBlood>
+  <AM.AMSettings.Settings.Gore_FloorBlood.Desc>애니메이션에서 피를 생성할지 여부를 활성화하거나 비활성화합니다.\n피는 청소해야 하는 오염물입니다. 모드의 피와 메카노이드 피(기름)를 포함합니다.</AM.AMSettings.Settings.Gore_FloorBlood.Desc>
+  <AM.AMSettings.Settings.CorpseOffsetMode>시체 오프셋 모드</AM.AMSettings.Settings.CorpseOffsetMode>
+  <AM.AMSettings.Settings.CorpseOffsetMode.Desc>애니메이션이 일반 게임플레이로 원활하게 전환되기 위해, 처형 애니메이션은 피해자의 시체를 비바닐라 위치와 방향으로 남겨둡니다.\n하지만 이 오프셋은 혼란을 줄 수 있습니다, 왜냐하면 시체가 더 이상 타일의 중심을 차지하지 않기 때문입니다.\n&lt;b&gt;참고:&lt;/b&gt; 오프셋된 시체는 저장-로드 후에 초기화됩니다.</AM.AMSettings.Settings.CorpseOffsetMode.Desc>
+  <AM.AMSettings.Settings.MoveAnimSpeedCoef>이동 애니메이션 속도</AM.AMSettings.Settings.MoveAnimSpeedCoef>
+  <AM.AMSettings.Settings.MoveAnimSpeedCoef.Desc>이동 애니메이션의 속도를 변경합니다.\n값이 높을수록 속도가 증가합니다. 이는 단지 시각적 변경이며, 폰의 이동 속도를 변경하지 않습니다.</AM.AMSettings.Settings.MoveAnimSpeedCoef.Desc>
+  <AM.AMSettings.Settings.SpeedUpAttackAnims>공격 속도가 빠를 때 애니메이션 속도 증가</AM.AMSettings.Settings.SpeedUpAttackAnims>
+  <AM.AMSettings.Settings.SpeedUpAttackAnims.Desc>활성화된 경우, 근접 공격 애니메이션의 속도가 폰의 근접 속도에 맞춰 자동으로 증가합니다.\n비활성화된 경우, 공격 애니메이션 속도는 절대 변경되지 않으며 애니메이션이 끝나기 전에 다음 공격 애니메이션이 시작될 수 있습니다.\n이는 순전히 시각적 변경이며 전투에 영향을 미치지 않습니다.</AM.AMSettings.Settings.SpeedUpAttackAnims.Desc>
+  <AM.AMSettings.Settings.FlavourMTB>유휴 애니메이션 평균 간격</AM.AMSettings.Settings.FlavourMTB>
+  <AM.AMSettings.Settings.FlavourMTB.Desc>무기를 들고 서 있는 폰(예: 소집 중)은 가끔 무기를 휘두르거나 화려하게 휘두르는 애니메이션을 재생합니다.\n이 옵션은 이 애니메이션이 발생하는 평균 시간(초)을 제어합니다.\n애니메이션을 완전히 비활성화하려면 0으로 설정하십시오.</AM.AMSettings.Settings.FlavourMTB.Desc>
+  <AM.AMSettings.Settings.AttackPauseDuration>공격 일시정지 시간</AM.AMSettings.Settings.AttackPauseDuration>
+  <AM.AMSettings.Settings.AttackPauseDuration.Desc>일반 근접 공격을 할 때, 무기가 목표를 교차할 때 애니메이션이 매우 잠깐 일시정지됩니다.\n이는 공격이 연결되었는지 여부를 알 수 있게 하며, 타격에 조금 더 시각적 &lt;i&gt;임팩트&lt;/i&gt;를 줍니다.\n이 설정은 그 일시정지의 지속 시간을 변경하거나 완전히 비활성화합니다. 이는 순전히 시각적 변경이며 전투에 영향을 미치지 않습니다.</AM.AMSettings.Settings.AttackPauseDuration.Desc>
+  <AM.AMSettings.Settings.TrailColor>무기 트레일 색상</AM.AMSettings.Settings.TrailColor>
+  <AM.AMSettings.Settings.TrailColor.Desc>무기 트레일의 기본 색상입니다. 알파 값을 0으로 설정하면 트레일이 비활성화됩니다.</AM.AMSettings.Settings.TrailColor.Desc>
+  <AM.AMSettings.Settings.TrailLengthScale>무기 트레일 길이</AM.AMSettings.Settings.TrailLengthScale>
+  <AM.AMSettings.Settings.TrailLengthScale.Desc>무기 트레일의 길이 배수입니다. 0%로 설정하면 트레일이 비활성화됩니다.</AM.AMSettings.Settings.TrailLengthScale.Desc>
+  <AM.AMSettings.Settings.DrawNamesInAnimation>애니메이션 재생 시 이름 표시</AM.AMSettings.Settings.DrawNamesInAnimation>
+  <AM.AMSettings.Settings.DrawNamesInAnimation.Desc>참일 경우, 기본 게임처럼 폰 아래에 이름이 표시됩니다.\n거짓일 경우, 이름이 표시되지 않아 더 영화적인 애니메이션이 됩니다.</AM.AMSettings.Settings.DrawNamesInAnimation.Desc>
+  <AM.AMSettings.Settings.ShowExecutionMotes>처형 결과 텍스트 표시</AM.AMSettings.Settings.ShowExecutionMotes>
+  <AM.AMSettings.Settings.ShowExecutionMotes.Desc>처형 애니메이션이 재생될 때 결과(예: 부상, 쓰러짐 또는 죽음)를 나타내는 텍스트 팝업을 활성화하거나 비활성화합니다.</AM.AMSettings.Settings.ShowExecutionMotes.Desc>
+  <AM.AMSettings.Settings.Header.Performance>성능</AM.AMSettings.Settings.Header.Performance>
+  <AM.AMSettings.Settings.MaxProcessingThreads>최대 처리 스레드</AM.AMSettings.Settings.MaxProcessingThreads>
+  <AM.AMSettings.Settings.MaxProcessingThreads.Desc>자동 처형 및 올가미 사용을 위해 폰을 처리할 때 사용할 최대 CPU 스레드 수입니다.\n0으로 설정하면 CPU에 따라 스레드 수가 자동으로 결정되며, 1로 설정하면 멀티스레드 처리가 비활성화됩니다.\n모드 충돌로 인한 오류 스팸이 발생하면 1로 설정하세요. 성능이 크게 저하될 수 있습니다.</AM.AMSettings.Settings.MaxProcessingThreads.Desc>
+  <AM.AMSettings.Settings.MultithreadedMatrixCalculations>멀티스레드 행렬 계산</AM.AMSettings.Settings.MultithreadedMatrixCalculations>
+  <AM.AMSettings.Settings.MultithreadedMatrixCalculations.Desc>활성화된 경우, 애니메이션에 필요한 복잡한 행렬 변환을 계산할 때 여러 CPU 스레드를 사용합니다.\n스레드 수는 최대 처리 스레드 설정에 따릅니다.</AM.AMSettings.Settings.MultithreadedMatrixCalculations.Desc>
+  <AM.AMSettings.Settings.OffscreenCulling>오프스크린 컬링</AM.AMSettings.Settings.OffscreenCulling>
+  <AM.AMSettings.Settings.OffscreenCulling.Desc>활성화된 경우, 오프스크린 애니메이션이 그려지지 않아 시간을 절약하고 FPS를 증가시킵니다.\n이 옵션은 예상치 못한 버그가 발생할 경우를 대비한 것입니다.</AM.AMSettings.Settings.OffscreenCulling.Desc>
+  <AM.AMSettings.Settings.ScanTickInterval>스캔 틱 간격</AM.AMSettings.Settings.ScanTickInterval>
+  <AM.AMSettings.Settings.ScanTickInterval.Desc>자동 처형/결투/올가미 기회를 위해 맵에 있는 모든 폰을 스캔하는 틱 간격입니다.\n높은 값은 FPS를 증가시키지만 응답성이 저하됩니다.</AM.AMSettings.Settings.ScanTickInterval.Desc>
+  <AM.AMSettings.Settings.Header.Other>기타</AM.AMSettings.Settings.Header.Other>
+  <AM.AMSettings.Settings.FriendlyPawnLethalityBonus>우호적 폰 치명도 보너스</AM.AMSettings.Settings.FriendlyPawnLethalityBonus>
+  <AM.AMSettings.Settings.FriendlyPawnLethalityBonus.Desc>양수 값은 처형 및 결투 결과에서 우호적 폰(노예 포함)의 치명도 보너스로 작용하여 치명적일 확률을 높입니다.</AM.AMSettings.Settings.FriendlyPawnLethalityBonus.Desc>
+  <AM.AMSettings.Settings.FriendlyPawnDuelBonus>우호적 폰 결투 능력 보너스</AM.AMSettings.Settings.FriendlyPawnDuelBonus>
+  <AM.AMSettings.Settings.FriendlyPawnDuelBonus.Desc>양수 값은 우호적 폰(포함 노예)의 결투 능력 보너스로 작용하여 결투에서 승리할 확률을 높입니다.</AM.AMSettings.Settings.FriendlyPawnDuelBonus.Desc>
+  <AM.AMSettings.Settings.NormalDist>결투 정상 분포</AM.AMSettings.Settings.NormalDist>
+  <AM.AMSettings.Settings.NormalDist.Desc>높은 값은 결투 결과가 결투 능력보다 무작위성에 더 의존하게 만들며, 낮은 값은 결투 능력에 더 의존하게 만듭니다.\n\n기술적: 이는 결투 결과 정상 분포 곡선에서 사용되는 표준 편차입니다.</AM.AMSettings.Settings.NormalDist.Desc>
+  <AM.AMSettings.Settings.WarnOfFriendlyExecution>우호적 폰 처형 전 경고 표시</AM.AMSettings.Settings.WarnOfFriendlyExecution>
+  <AM.AMSettings.Settings.WarnOfFriendlyExecution.Desc>우호적 폰을 실수로 처형하지 않도록 우호적 폰을 선택하여 처형할 때 [Shift] 키를 누르도록 요구합니다.</AM.AMSettings.Settings.WarnOfFriendlyExecution.Desc>
+  <AM.AMSettings.Settings.SendStatistics>익명 패치 통계 전송</AM.AMSettings.Settings.SendStatistics>
+  <AM.AMSettings.Settings.SendStatistics.Desc>모드가 애니메이션을 수행할 수 있는 근접 무기에 대한 패치가 없을 때, 해당 모드의 ID가 익명으로 기록되어 이 모드의 작성자가 패치가 필요함을 알 수 있습니다. 기록되는 정보는 모드 ID, 모드 이름, 무기 수 뿐입니다. 이 기능을 비활성화하려면 이 옵션을 비활성화하세요. 주의: 게임을 처음 실행할 때는 기록되지 않습니다.</AM.AMSettings.Settings.SendStatistics.Desc>
+  <AM.AMSettings.Settings.ChanceToFailMinSkill>처형 실패 확률 (낮은 기술)</AM.AMSettings.Settings.ChanceToFailMinSkill>
+  <AM.AMSettings.Settings.ChanceToFailMinSkill.Desc>처형 시도가 실패할 확률이며, 공격 폰이 기절하고 짧은 시간 동안 취약해집니다.\n근접 기술이 0일 때의 확률입니다.\n모든 폰에 영향을 미칩니다.</AM.AMSettings.Settings.ChanceToFailMinSkill.Desc>
+  <AM.AMSettings.Settings.ChanceToFailMaxSkill>처형 실패 확률 (높은 기술)</AM.AMSettings.Settings.ChanceToFailMaxSkill>
+  <AM.AMSettings.Settings.ChanceToFailMaxSkill.Desc>처형 시도가 실패할 확률이며, 공격 폰이 기절하고 짧은 시간 동안 취약해집니다.\n근접 기술이 20일 때의 확률입니다.\n모든 폰에 영향을 미칩니다.</AM.AMSettings.Settings.ChanceToFailMaxSkill.Desc>
+  <AM.ExecutionOutcome.Injured>부상</AM.ExecutionOutcome.Injured>
+  <AM.ExecutionOutcome.Downed>쓰러짐</AM.ExecutionOutcome.Downed>
+  <AM.ExecutionOutcome.Killed>사망</AM.ExecutionOutcome.Killed>
+  <AM.ExecutionOutcome.Failed>실패!</AM.ExecutionOutcome.Failed>
+</LanguageData>
