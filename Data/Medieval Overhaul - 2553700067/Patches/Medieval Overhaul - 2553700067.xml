@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Cooking Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Wheat"]/label</xpath>
+          <value>
+            <label>스펠트</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Wheat"]/description</xpath>
+          <value>
+            <description>스펠트는 약 5000년 전부터 재배된 밀의 한 종류입니다. 식이 섬유, 단백질(일반 밀보다 더 많이 함유) 및 비타민과 미네랄의 좋은 공급원입니다. 스펠트는 거의 전체 성장 기간이 지나야 성숙합니다. 취약하고 시간이 많이 걸리지만, 이 곡물은 부드럽게 밀가루로 갈라지도록 유전적으로 조작되었습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Flour"]/label</xpath>
+          <value>
+            <label>스펠트 밀가루</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Flour"]/description</xpath>
+          <value>
+            <description>베이킹에 이상적인 스펠트 밀가루입니다. 건조한 환경에서 보관하면 스펠트 밀가루는 매우 오랜 시간이 지나도 상하지 않습니다. 스펠트는 부드럽게 밀가루로 갈라지도록 유전적으로 조작된 밀에서 생산되었습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Cheese"]/label</xpath>
+          <value>
+            <label>소 치즈</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingCategoryDef[defName="VCE_Cheese"]/label</xpath>
+          <value>
+            <label>숙성 치즈</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Sugarcane"]/label</xpath>
+          <value>
+            <label>우바 사탕수수 식물</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Sugarcane"]/description</xpath>
+          <value>
+            <description>관절이 있는 두꺼운 열대 풀입니다. 우바 품종은 일반 사탕수수보다 훨씬 더 강하지만 덜 생산적입니다. 자체적으로는 영양가가 거의 없지만, 이 유전자 변형 사탕수수는 쉽게 갈아서 갈색 설탕으로 만들 수 있으며, 특히 디저트와 같은 다양한 요리 창작물에 사용됩니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_RawSugar"]/label</xpath>
+          <value>
+            <label>갈색 설탕</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_RawSugar"]/description</xpath>
+          <value>
+            <description>갈색 설탕은 사탕수수 당밀이 포함되어 독특한 갈색을 띠는 자당 설탕 제품으로, 원하는 단맛을 더합니다. 설탕은 혀에 좋지만 신장에는 좋지 않으며, 대량으로 섭취하면 빠르게 당뇨병을 유발할 수 있습니다. 설탕은 체내에서 쉽게 에너지로 전환되므로 멋진 에너지 폭발을 일으킬 수 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="VCE_SugarRush"]/label</xpath>
+          <value>
+            <label>갈색 설탕을 섭취함 (식사에서)</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Rimedieval - Ice Revamped</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DankPyon_IceBlock"]/stuffProps/stuffAdjective</xpath>
+          <value>
+            <stuffAdjective>얼음</stuffAdjective>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/IncidentDef[defName="DeepDrillInfestation"]/letterText</xpath>
+    <value>
+      <letterText>채굴로 인해 발생한 소음이 지하 거주자들의 주의를 끌었습니다. 이제 그들은 복수를 위해 위로 터널을 파고 있습니다!\n\n경고 - 미지의 존재들이 분노했으며 
+당신의 기지를 파괴하려 할 것입니다.</letterText>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="Cocoa"]/label</xpath>
+    <value>
+      <label>과수 심기</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="Pemmican"]/label</xpath>
+    <value>
+      <label>식량 보존</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="MedicineHerbal"]/label</xpath>
+    <value>
+      <label>약뿌리</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Leather_Plain"]/label</xpath>
+    <value>
+      <label>가죽</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Leather_Bear"]/label</xpath>
+    <value>
+      <label>두꺼운 가죽</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Leather_Light"]/label</xpath>
+    <value>
+      <label>부드러운 모피</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Leather_Bluefur"]/label</xpath>
+    <value>
+      <label>무거운 모피</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Leather_Lizard"]/label</xpath>
+    <value>
+      <label>비늘 가죽</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Leather_Rhinoceros"]/label</xpath>
+    <value>
+      <label>두꺼운 비늘 가죽</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Leather_Bird"]/label</xpath>
+    <value>
+      <label>새 가죽</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Leather_Thrumbo"]/label</xpath>
+    <value>
+      <label>트럼보 모피</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="MeleeWeapon_Spear"]/tools/li[1]/label</xpath>
+    <value>
+      <label>자루</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="MeleeWeapon_Spear"]/tools/li[2]/label</xpath>
+    <value>
+      <label>끝</label>
+    </value>
+  </Operation>
+</Patch>
