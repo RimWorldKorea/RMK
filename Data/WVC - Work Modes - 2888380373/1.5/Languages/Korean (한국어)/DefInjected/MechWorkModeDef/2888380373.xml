@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WVC_DefendYourself.label>자율 방어</WVC_DefendYourself.label>
+  <WVC_DefendYourself.description>메카노이드는 종류에 관계없이 너무 가까이 다가온 적을 공격할 것입니다.
+
+&lt;color=#f5ffa2&gt;유형:&lt;/color&gt; 없음
+&lt;color=#f5ffa2&gt;적 수색:&lt;/color&gt; 아니요
+&lt;color=#f5ffa2&gt;종료 장소:&lt;/color&gt; 아니요
+&lt;color=#f5ffa2&gt;스마트 충전:&lt;/color&gt; 아니요</WVC_DefendYourself.description>
+  <WVC_HiveMindResearching.label>대역폭 연구</WVC_HiveMindResearching.label>
+  <WVC_HiveMindResearching.description>메카노이드는 유형에 관계없이 대역폭 비용에 비례하여 연구 포인트를 생성합니다. 연구 속도와 효율은 연구에 참여하는 메카노이드의 수에 따라 직접적으로 달라집니다.
+
+맵에 적이 있거나 피해를 입으면 메카노이드는 안전 지대로 이동합니다.
+
+&lt;color=#f5ffa2&gt;유형:&lt;/color&gt; 안전
+&lt;color=#f5ffa2&gt;적 수색:&lt;/color&gt; 아니요
+&lt;color=#f5ffa2&gt;종료 장소:&lt;/color&gt; 피해를 입음
+&lt;color=#f5ffa2&gt;스마트 충전:&lt;/color&gt; 예</WVC_HiveMindResearching.description>
+  <WVC_Scavenging.label>수집</WVC_Scavenging.label>
+  <WVC_Scavenging.description>메카노이드는 종류에 관계없이 "수집" 구역에서 유용한 자원을 찾습니다.
+
+맵에 적이 있거나 피해를 입으면 메카노이드는 안전 지대로 이동합니다.
+
+&lt;color=#f5ffa2&gt;유형:&lt;/color&gt; 안전
+&lt;color=#f5ffa2&gt;적 수색:&lt;/color&gt; 아니요
+&lt;color=#f5ffa2&gt;종료 장소:&lt;/color&gt; 피해를 입음
+&lt;color=#f5ffa2&gt;스마트 충전:&lt;/color&gt; 예</WVC_Scavenging.description>
+  <WVC_FindAndDestroy.label>소탕</WVC_FindAndDestroy.label>
+  <WVC_FindAndDestroy.description>메카노이드는 종류에 관계없이 적을 찾아서 파괴하려고 할 것입니다.
+
+&lt;color=#f5ffa2&gt;유형:&lt;/color&gt; 전투
+&lt;color=#f5ffa2&gt;적 수색:&lt;/color&gt; 예
+&lt;color=#f5ffa2&gt;종료 장소:&lt;/color&gt; 아니요
+&lt;color=#f5ffa2&gt;스마트 충전:&lt;/color&gt; 예</WVC_FindAndDestroy.description>
+  <WVC_WaitEnemy.label>전투 대기</WVC_WaitEnemy.label>
+  <WVC_WaitEnemy.description>메카노이드는 적이 없으면 대기하고, 적이 나타나면 깨어나서 목표지점으로 향할 것입니다.
+
+&lt;color=#f5ffa2&gt;유형:&lt;/color&gt; 전투
+&lt;color=#f5ffa2&gt;적 수색:&lt;/color&gt; 예
+&lt;color=#f5ffa2&gt;종료 장소:&lt;/color&gt; 대기 장소
+&lt;color=#f5ffa2&gt;스마트 충전:&lt;/color&gt; 아니요</WVC_WaitEnemy.description>
+  <WVC_WorkAndWaitEnemy.label>작업 및 전투</WVC_WorkAndWaitEnemy.label>
+  <WVC_WorkAndWaitEnemy.description>메카노이드는 종류에 따라 작업을 수행하며, 적이 나타나면 모든 것을 내려놓고 적을 파괴하러 갈 것입니다. 작업이 없는 경우에는 종료될 것입니다.
+
+&lt;color=#f5ffa2&gt;유형:&lt;/color&gt; 범용
+&lt;color=#f5ffa2&gt;적 수색:&lt;/color&gt; 예
+&lt;color=#f5ffa2&gt;종료 장소:&lt;/color&gt; 대기 장소
+&lt;color=#f5ffa2&gt;스마트 충전:&lt;/color&gt; 예</WVC_WorkAndWaitEnemy.description>
+  <WVC_Ambush.label>매복</WVC_Ambush.label>
+  <WVC_Ambush.description>메카노이드는 종료되어 적이 다가올 때까지 기다린 후 공격합니다.
+
+&lt;color=#f5ffa2&gt;유형:&lt;/color&gt; 전투
+&lt;color=#f5ffa2&gt;적 수색:&lt;/color&gt; 아니요
+&lt;color=#f5ffa2&gt;종료 장소:&lt;/color&gt; 매복 지점
+&lt;color=#f5ffa2&gt;스마트 충전:&lt;/color&gt; 아니요</WVC_Ambush.description>
+  <WVC_WorkAndRecharge.label>작업 및 충전</WVC_WorkAndRecharge.label>
+  <WVC_WorkAndRecharge.description>메카노이드는 메카노이드의 종류에 따라 자율적으로 작업을 수행합니다. 만약 메카노이드가 작업을 수행할 수 없거나 모든 작업을 완료했다면 종료됩니다.
+
+&lt;color=#f5ffa2&gt;유형:&lt;/color&gt; 작업
+&lt;color=#f5ffa2&gt;적 수색:&lt;/color&gt; 아니요
+&lt;color=#f5ffa2&gt;종료 장소:&lt;/color&gt; 작업자 지점
+&lt;color=#f5ffa2&gt;스마트 충전:&lt;/color&gt; 예</WVC_WorkAndRecharge.description>
+  <WVC_SafeWorkAndRecharge.label>작업 및 대피</WVC_SafeWorkAndRecharge.label>
+  <WVC_SafeWorkAndRecharge.description>메카노이드는 적이 맵에 없는 한 작업을 수행합니다. 위험이 있을 경우, 안전 지점으로 이동하려고 할 것입니다.
+
+&lt;color=#f5ffa2&gt;유형:&lt;/color&gt; 작업
+&lt;color=#f5ffa2&gt;적 수색:&lt;/color&gt; 예
+&lt;color=#f5ffa2&gt;정지 지점:&lt;/color&gt; 안전한 지점
+&lt;color=#f5ffa2&gt;스마트 충전:&lt;/color&gt; 예</WVC_SafeWorkAndRecharge.description>
+  <WVC_WorkRechargeEscort.label>작업, 충전 및 호위</WVC_WorkRechargeEscort.label>
+  <WVC_WorkRechargeEscort.description>메카노이드는 작업이 없는 경우 감독관과 함께 이동하며 필요한 경우 충전될 것입니다.
+
+&lt;color=#f5ffa2&gt;유형:&lt;/color&gt; 범용
+&lt;color=#f5ffa2&gt;적 수색:&lt;/color&gt; 아니요
+&lt;color=#f5ffa2&gt;종료 장소:&lt;/color&gt; 아니요
+&lt;color=#f5ffa2&gt;스마트 충전:&lt;/color&gt; 아니요</WVC_WorkRechargeEscort.description>
+  <WVC_EscortIfEnemyWorkAndRecharge.label>작업, 충전 및 적이 있을 경우 호위</WVC_EscortIfEnemyWorkAndRecharge.label>
+  <WVC_EscortIfEnemyWorkAndRecharge.description>메카노이드는 종류에 관계없이 적군이 자신의 작전 구역에 있을 때 감독관과 동행합니다. 그렇지 않으면 평범하게 작업합니다.
+
+&lt;color=#f5ffa2&gt;유형:&lt;/color&gt; 전투
+&lt;color=#f5ffa2&gt;적 수색:&lt;/color&gt; 예
+&lt;color=#f5ffa2&gt;종료 장소:&lt;/color&gt; 예
+&lt;color=#f5ffa2&gt;스마트 충전:&lt;/color&gt; 예</WVC_EscortIfEnemyWorkAndRecharge.description>
+  <WVC_EscortIfDraftedOrDowned.label>소집되거나 쓰러질 경우 호위</WVC_EscortIfDraftedOrDowned.label>
+  <WVC_EscortIfDraftedOrDowned.description>메카노이드는 유형에 관계없이 소집되거나 쓰러질 경우 감독관과 동행합니다.
+
+&lt;color=#f5ffa2&gt;유형:&lt;/color&gt; 전투
+&lt;color=#f5ffa2&gt;적 수색:&lt;/color&gt; 아니요
+&lt;color=#f5ffa2&gt;종료 장소:&lt;/color&gt; 예
+&lt;color=#f5ffa2&gt;스마트 충전:&lt;/color&gt; 예</WVC_EscortIfDraftedOrDowned.description>
+  <WVC_EscortIfEnemyOnMap.label>적이 있을 경우 호위</WVC_EscortIfEnemyOnMap.label>
+  <WVC_EscortIfEnemyOnMap.description>메카노이드는 종류에 관계없이 감독관과 함께 이동할 것입니다. 단, 맵에 적이 있는 경우에만 이동합니다. 적이 없을 때는 메카노이드가 종료됩니다.
+
+&lt;color=#f5ffa2&gt;유형:&lt;/color&gt; 전투
+&lt;color=#f5ffa2&gt;적 수색:&lt;/color&gt; 예
+&lt;color=#f5ffa2&gt;종료 장소:&lt;/color&gt; 대기 장소
+&lt;color=#f5ffa2&gt;스마트 충전:&lt;/color&gt; 예</WVC_EscortIfEnemyOnMap.description>
+  <WVC_EscaortAndRecharge.label>충전 및 호위</WVC_EscaortAndRecharge.label>
+  <WVC_EscaortAndRecharge.description>메카노이드는 종류에 관계없이 감독관과 함께 이동하며 필요한 경우 충전소로 이동할 것입니다.
+
+&lt;color=#f5ffa2&gt;유형:&lt;/color&gt; 전투
+&lt;color=#f5ffa2&gt;적 수색:&lt;/color&gt; 아니요
+&lt;color=#f5ffa2&gt;종료 장소:&lt;/color&gt; 아니요
+&lt;color=#f5ffa2&gt;스마트 충전:&lt;/color&gt; 아니요</WVC_EscaortAndRecharge.description>
+</LanguageData>
