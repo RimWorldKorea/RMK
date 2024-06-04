@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="OA_RK_Mountain_Stick"]/tools/li[1]/label</xpath>
+          <value>
+            <label>지팡이 몸통  </label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="OA_RK_Mountain_Stick"]/tools/li[2]/label</xpath>
+          <value>
+            <label>지팡이 끝  </label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="OA_RK_Mountain_Stick_B"]/tools/li[1]/label</xpath>
+          <value>
+            <label>지팡이 몸통  </label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="OA_RK_Mountain_Stick_B"]/tools/li[2]/label</xpath>
+          <value>
+            <label>지팡이 끝  </label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="OA_RK_Mountain_Stick_C"]/tools/li[1]/label</xpath>
+          <value>
+            <label>칼등  </label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="OA_RK_Mountain_Stick_C"]/tools/li[2]/label</xpath>
+          <value>
+            <label>칼끝  </label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="OA_RK_Mountain_Stick_C"]/tools/li[3]/label</xpath>
+          <value>
+            <label>칼날  </label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="OA_RK_ProtocolRifle"]/tools/li[1]/label</xpath>
+          <value>
+            <label>총검  </label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="OA_RK_BlitzRifle"]/tools/li[1]/label</xpath>
+          <value>
+            <label>총검  </label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="OA_RK_PrototypeBlitzRifle"]/tools/li[1]/label</xpath>
+          <value>
+            <label>총검  </label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="OA_RK_BlitzSSR"]/tools/li[1]/label</xpath>
+          <value>
+            <label>총검  </label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="OA_RK_BlitzRifle"]/tools/li[1]/label</xpath>
+          <value>
+            <label>총검  </label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="OA_RK_BlitzSMG"]/tools/li[1]/label</xpath>
+          <value>
+            <label>총검  </label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="OA_RK_AdvancedBlitzSMG"]/tools/li[1]/label</xpath>
+          <value>
+            <label>총검  </label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="OA_RK_BlitzLMG"]/tools/li[1]/label</xpath>
+          <value>
+            <label>손잡이  </label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="OA_RK_BlitzAMLMG"]/tools/li[1]/label</xpath>
+          <value>
+            <label>총신  </label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="OA_RK_BlitzAMR_B"]/tools/li[1]/label</xpath>
+          <value>
+            <label>총신  </label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="OA_RK_BlitzRifle"]/tools/li[1]/label</xpath>
+          <value>
+            <label>총검  </label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="OA_RK_ChargeSSR"]/tools/li[1]/label</xpath>
+          <value>
+            <label>총신  </label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="OA_RK_UnstableChargeThrower"]/tools/li[1]/label</xpath>
+          <value>
+            <label>총신  </label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="OA_RK_UnstableChargeDriver"]/tools/li[1]/label</xpath>
+          <value>
+            <label>총신</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
