@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Anomaly</li>
+    </mods>
+    <nomatch Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AESleepEnhancerSerum"]/label</xpath>
+          <value>
+            <label>수면 증강 혈청</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AESleepEnhancerSerum"]/description</xpath>
+          <value>
+            <description>투명하고 점성이 있는 액체가 든 주사기입니다. 뇌간 근처에 주입하면 스트레스를 받은 뇌 부분에 영향을 주어 뉴런 간의 부담을 분산시켜 수면을 통한 휴식을 더 효율적으로 만듭니다.\n\n효과는 일시적이며 중첩되지 않습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AESleepEnhancerSerum"]/ingestible/ingestCommandString</xpath>
+          <value>
+            <ingestCommandString>섭취 {0}</ingestCommandString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AESleepEnhancerSerum"]/ingestible/ingestReportString</xpath>
+          <value>
+            <ingestReportString>{0}를 섭취 중입니다.</ingestReportString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AESleepEnhancerSerum"]/comps/li[2]/useLabel</xpath>
+          <value>
+            <useLabel>{0_label} 사용</useLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AERegenSerum"]/label</xpath>
+          <value>
+            <label>재생 혈청</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AERegenSerum"]/description</xpath>
+          <value>
+            <description>붉고 점성이 있는 액체가 든 주사기입니다. 혈류에 주입하면 손상된 조직에 영향을 주어 치유 속도를 증가시킵니다.\n\n효과는 일시적이며 중첩되지 않습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AERegenSerum"]/ingestible/ingestCommandString</xpath>
+          <value>
+            <ingestCommandString>섭취 {0}</ingestCommandString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AERegenSerum"]/ingestible/ingestReportString</xpath>
+          <value>
+            <ingestReportString>{0}를 섭취 중입니다.</ingestReportString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AERegenSerum"]/comps/li[2]/useLabel</xpath>
+          <value>
+            <useLabel>{0_label} 사용</useLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AEFruitInhibitorSerum"]/label</xpath>
+          <value>
+            <label>거대 사과 억제 혈청</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AEFruitInhibitorSerum"]/description</xpath>
+          <value>
+            <description>보라색 액체가 든 주사기입니다. 혈류에 주입하면 거대 사과의 효과를 제거합니다.\n\n효과는 즉각적이지 않습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AEFruitInhibitorSerum"]/ingestible/ingestCommandString</xpath>
+          <value>
+            <ingestCommandString>섭취 {0}</ingestCommandString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AEFruitInhibitorSerum"]/ingestible/ingestReportString</xpath>
+          <value>
+            <ingestReportString>{0}를 섭취 중입니다.</ingestReportString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AEFruitInhibitorSerum"]/comps/li[2]/useLabel</xpath>
+          <value>
+            <useLabel>{0_label} 사용</useLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AEBingingFoodSerum"]/label</xpath>
+          <value>
+            <label>과식 유도 혈청</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AEBingingFoodSerum"]/description</xpath>
+          <value>
+            <description>녹색 점성 액체가 든 주사기입니다. 식도에 주입하면 소화 시스템을 자극하여 매우 배고프게 만듭니다.\n\n효과는 일시적이며 중첩되지 않습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AEBingingFoodSerum"]/ingestible/ingestCommandString</xpath>
+          <value>
+            <ingestCommandString>섭취 {0}</ingestCommandString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AEBingingFoodSerum"]/ingestible/ingestReportString</xpath>
+          <value>
+            <ingestReportString>{0}를 섭취 중입니다.</ingestReportString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AEBingingFoodSerum"]/comps/li[2]/useLabel</xpath>
+          <value>
+            <useLabel>{0_label} 사용</useLabel>
+          </value>
+        </li>
+      </operations>
+    </nomatch>
+  </Operation>
+</Patch>
