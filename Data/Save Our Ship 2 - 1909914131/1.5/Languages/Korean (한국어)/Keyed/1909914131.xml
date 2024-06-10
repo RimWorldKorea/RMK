@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <SoS.MoveWest>서쪽으로 약간 이동</SoS.MoveWest>
+  <SoS.MoveWest>궤도 조정 (서쪽)</SoS.MoveWest>
   <SoS.MoveWestDesc>함선을 서쪽으로 이동시킵니다.</SoS.MoveWestDesc>
-  <SoS.MoveEast>동쪽으로 약간 이동</SoS.MoveEast>
+  <SoS.MoveEast>궤도 조정 (동쪽)</SoS.MoveEast>
   <SoS.MoveEastDesc>함선을 동쪽으로 이동시킵니다.</SoS.MoveEastDesc>
-  <SoS.MoveStop>궤도 이동 중지</SoS.MoveStop>
+  <SoS.MoveStop>궤도 조정 (중지)</SoS.MoveStop>
   <SoS.MoveStopDesc>현재 궤도를 유지합니다.</SoS.MoveStopDesc>
   <SoS.AbandonHome>함선 포기</SoS.AbandonHome>
   <SoS.AbandonHomeDesc>함선을 포기하면 함선에 탑승 중이던 정착민들이 전부 사라집니다!</SoS.AbandonHomeDesc>
@@ -30,8 +30,8 @@
   <SoS.CombatAbandonPawns>경고!\n\n적 함선에게서 도주하게 될 시 현재 적 함선에 남아있는 정착민들을 포기하게 됩니다!</SoS.CombatAbandonPawns>
   <SoS.CombatShieldBroken>잔여 열 용량이 부족하여 보호막 생성기가 작동을 중지했습니다!</SoS.CombatShieldBroken>
   <SoS.CombatShieldBrokenEnemy>잔여 열 용량이 부족하여 적함의 보호막 생성기가 작동을 중지했습니다!</SoS.CombatShieldBrokenEnemy>
-  <SoS.CombatPodDestroyedPlayer>왕복선이 적의 국지 방어 시설에 의해 파괴되었습니다! 살아남은 승무원들은 비상 탈출 좌석을 이용해 함선으로 귀환할 수 있습니다.</SoS.CombatPodDestroyedPlayer>
-  <SoS.CombatPodDestroyedEnemy>적의 왕복선이 함선의 국지 방어 시설에 의해 파괴되었습니다!</SoS.CombatPodDestroyedEnemy>
+  <SoS.CombatPodDestroyedPlayer>왕복선이 적의 근접 방어 시설에 의해 파괴되었습니다! 살아남은 승무원들은 비상 탈출 좌석을 이용해 함선으로 귀환할 수 있습니다.</SoS.CombatPodDestroyedPlayer>
+  <SoS.CombatPodDestroyedEnemy>적의 왕복선이 함선의 근접 방어 시설에 의해 파괴되었습니다!</SoS.CombatPodDestroyedEnemy>
   <SoS.WithdrawShip>함선 후퇴</SoS.WithdrawShip>
   <SoS.WithdrawShipDesc>이 배를 전투에서 후퇴시킵니다</SoS.WithdrawShipDesc>
   <SoS.WithdrawShipLast>마지막 남은 함선은 후퇴할 수 없습니다</SoS.WithdrawShipLast>
@@ -52,8 +52,8 @@
   <SoS.SelectWeaponsDesc>함선에 설치되어 있는 함포들을 전부 선택합니다</SoS.SelectWeaponsDesc>
   <SoS.HoldFire>사격 중지</SoS.HoldFire>
   <SoS.HoldFireDesc>함선에 설치되어 있는 모든 함포에서 적함에 발사하는 것을 막습니다</SoS.HoldFireDesc>
-  <SoS.TogglePointDefense>연결된 모든 함대함 무기가 적함에 발사되는 것을 막습니다</SoS.TogglePointDefense>
-  <SoS.TogglePointDefenseDesc>연결된 모든 함대함 무기가 적함에 발사되는 것을 막습니다</SoS.TogglePointDefenseDesc>
+  <SoS.TogglePointDefense>근접 방어 금지</SoS.TogglePointDefense>
+  <SoS.TogglePointDefenseDesc>근접 방어 임무가 할당된 모든 무기의 사격을 중단합니다.</SoS.TogglePointDefenseDesc>
   <SoS.NotAtMaxRange>최대 사거리 이내에 존재하지 않음</SoS.NotAtMaxRange>
   <SoS.OnUnstableMap>함선이 불안정한 궤도에 있습니다.</SoS.OnUnstableMap>
   <SoS.EnemyShipRetreating>적 함선이 탈출을 시도하고 있습니다!</SoS.EnemyShipRetreating>
@@ -211,15 +211,15 @@
   <SoS.HeatNotConnected>냉각 설비에 연결되어 있지 않습니다.</SoS.HeatNotConnected>
   <SoS.HeatTurretEnergy>열 에너지:</SoS.HeatTurretEnergy>
   <SoS.TurretNotInShipCombat>경고: 함선 전투 중이 아니기에 포탑을 사용할 수 없습니다.</SoS.TurretNotInShipCombat>
-  <SoS.TurretInPointDefense>경고: 국지 방어 모드로 설정되어 있기에 적 선박을 대상으로 조준하지 않습니다.</SoS.TurretInPointDefense>
+  <SoS.TurretInPointDefense>경고: 근접 방어 모드로 설정되어 있기에 적 선박을 대상으로 조준하지 않습니다.</SoS.TurretInPointDefense>
   <SoS.TurretExtractTorpedo>어뢰 꺼내기</SoS.TurretExtractTorpedo>
   <SoS.TurretExtractTorpedoDesc>다른 어뢰를 장전하기 위해 현재 장전된 어뢰 전부를 꺼냅니다.</SoS.TurretExtractTorpedoDesc>
   <SoS.TurretExtractOneTorpedo>어뢰 하나 꺼내기</SoS.TurretExtractOneTorpedo>
   <SoS.TurretExtractOneTorpedoDesc>다른 어뢰를 장전하기 위해 현재 장전된 어뢰 하나를 꺼냅니다.</SoS.TurretExtractOneTorpedoDesc>
   <SoS.TurretExtract>꺼내기</SoS.TurretExtract>
-  <SoS.TurretOptimalRange>최적의 범위일 때 발사</SoS.TurretOptimalRange>
-  <SoS.TurretOptimalRangeDesc>이 무기가 최적의 상태를 낼 때만 발사합니다.</SoS.TurretOptimalRangeDesc>
-  <SoS.TurretPointDefense>국지 방어 모드</SoS.TurretPointDefense>
+  <SoS.TurretOptimalRange>최적 사거리에서만 발사</SoS.TurretOptimalRange>
+  <SoS.TurretOptimalRangeDesc>이 무기의 최적 사거리에서만 사격을 허용합니다.</SoS.TurretOptimalRangeDesc>
+  <SoS.TurretPointDefense>근접 방어 모드</SoS.TurretPointDefense>
   <SoS.TurretPointDefenseDesc>이 포탑을 사용하여 어뢰와 왕복선을 격추합니다.</SoS.TurretPointDefenseDesc>
   <SoS.TorpedoAllowedDesc>이 유형의 어뢰를 사용 금지하거나 사용하도록 전환합니다.</SoS.TorpedoAllowedDesc>
   <SoS.TorpedoNotLoaded>장전되지 않음</SoS.TorpedoNotLoaded>
@@ -338,18 +338,18 @@
   <SoS.EnemyBoardingShuttleArrived>적이 탑승 중인 왕복선이 도착했습니다!</SoS.EnemyBoardingShuttleArrived>
   <SoS.EnemyBoardingShuttleAborted>적이 탑승 중인 왕복선이 후퇴하고 있습니다!</SoS.EnemyBoardingShuttleAborted>
   <SoS.ShuttleMissionBoarding>적함 강습</SoS.ShuttleMissionBoarding>
-  <SoS.ShuttleMissionBoardingDesc>이 왕복선을 적 함선에 보내 함선을 직접 공격합니다. 국지 방어 중인 무기에 취약합니다. 적의 엔진 중 하나 이상이 활성화 된 상태라면 왕복선이 도착하는 시간이 더 길어집니다.</SoS.ShuttleMissionBoardingDesc>
+  <SoS.ShuttleMissionBoardingDesc>이 왕복선을 적 함선에 보내 함선을 직접 공격합니다. 근접 방어 중인 무기에 취약합니다. 적의 엔진 중 하나 이상이 활성화 된 상태라면 왕복선이 도착하는 시간이 더 길어집니다.</SoS.ShuttleMissionBoardingDesc>
   <SoS.ShuttleMissionBoardingDisabled>왕복선이 지붕 아래에 있고 주변에 적합한 착륙장이 없습니다!</SoS.ShuttleMissionBoardingDisabled>
   <SoS.ShuttleMissionBoardingWarn>적함 강습 (경고!)</SoS.ShuttleMissionBoardingWarn>
-  <SoS.ShuttleMissionBoardingWarnDesc>경고: 적 함선에는 정상 가동 중인 엔진이 존재하고 있기에 착륙할 공간이 없을 수 있습니다. 이 왕복선을 적 함선에 보내 함선을 직접 공격합니다. 국지 방어 중인 무기에 취약합니다. 적의 엔진 중 하나 이상이 활성화 된 상태라면 왕복선이 도착하는 시간이 더 길어집니다 .</SoS.ShuttleMissionBoardingWarnDesc>
+  <SoS.ShuttleMissionBoardingWarnDesc>경고: 적 함선에는 정상 가동 중인 엔진이 존재하고 있기에 착륙할 공간이 없을 수 있습니다. 이 왕복선을 적 함선에 보내 함선을 직접 공격합니다. 근접 방어 중인 무기에 취약합니다. 적의 엔진 중 하나 이상이 활성화 된 상태라면 왕복선이 도착하는 시간이 더 길어집니다 .</SoS.ShuttleMissionBoardingWarnDesc>
   <SoS.ShuttleMissionBoardingReturn>함선으로 귀환</SoS.ShuttleMissionBoardingReturn>
-  <SoS.ShuttleMissionBoardingReturnDesc>이 왕복선을 함선으로 귀환시킵니다. 적의 국지 방어 무기가 활성화 된 상태라면 공격에 노출됩니다.</SoS.ShuttleMissionBoardingReturnDesc>
+  <SoS.ShuttleMissionBoardingReturnDesc>이 왕복선을 함선으로 귀환시킵니다. 적의 근접 방어 무기가 활성화 된 상태라면 공격에 노출됩니다.</SoS.ShuttleMissionBoardingReturnDesc>
   <SoS.ShuttleMissionIntercept>요격</SoS.ShuttleMissionIntercept>
   <SoS.ShuttleMissionInterceptDesc>이 왕복선을 보내 다가오는 어뢰와 왕복선을 요격합니다.\n\n연료가 떨어지거나 일정 수준 이상으로 손상되기 전까지 임무를 수행할 수 있으며 수동으로 호출할 수도 있습니다.</SoS.ShuttleMissionInterceptDesc>
   <SoS.ShuttleMissionStrafe>적함 폭격</SoS.ShuttleMissionStrafe>
-  <SoS.ShuttleMissionStrafeDesc>이 왕복선을 적함에게 보내 포탑으로 적 함선을 공격합니다. 국지 방어 무기에 노출되며 적의 엔진 중 하나 이상이 활성화 된 상태라면 왕복선이 도착하는 시간이 더 길어집니다.\n\n연료가 떨어지거나 일정 수준 이상으로 손상되기 전까지 임무를 수행할 수 있으며 수동으로 호출할 수도 있습니다.</SoS.ShuttleMissionStrafeDesc>
+  <SoS.ShuttleMissionStrafeDesc>이 왕복선을 적함에게 보내 포탑으로 적 함선을 공격합니다. 근접 방어 무기에 노출되며 적의 엔진 중 하나 이상이 활성화 된 상태라면 왕복선이 도착하는 시간이 더 길어집니다.\n\n연료가 떨어지거나 일정 수준 이상으로 손상되기 전까지 임무를 수행할 수 있으며 수동으로 호출할 수도 있습니다.</SoS.ShuttleMissionStrafeDesc>
   <SoS.ShuttleMissionBomb>적함에 어뢰 발사</SoS.ShuttleMissionBomb>
-  <SoS.ShuttleMissionBombDesc>이 왕복선을 적함 가까이에 보내 어뢰로 적 함선을 공격합니다. 국지 방어 무기에 매우 취약하지만 어뢰에겐 상대적으로 안전합니다. 적의 엔진 중 하나 이상이 활성화 된 상태라면 왕복선이 도착하는 시간이 더 길어집니다.\n\n어뢰 또는 연료가 떨어지거나 일정 수준 이상으로 손상되기 전까지 임무를 수행할 수 있으며 수동으로 호출할 수도 있습니다.</SoS.ShuttleMissionBombDesc>
+  <SoS.ShuttleMissionBombDesc>이 왕복선을 적함 가까이에 보내 어뢰로 적 함선을 공격합니다. 근접 방어 무기에 매우 취약하지만 어뢰에겐 상대적으로 안전합니다. 적의 엔진 중 하나 이상이 활성화 된 상태라면 왕복선이 도착하는 시간이 더 길어집니다.\n\n어뢰 또는 연료가 떨어지거나 일정 수준 이상으로 손상되기 전까지 임무를 수행할 수 있으며 수동으로 호출할 수도 있습니다.</SoS.ShuttleMissionBombDesc>
   <SoS.RecallShuttle>{0} (임무: {1})</SoS.RecallShuttle>
   <SoS.RecallShuttleDesc>이 왕복선이 수행 중인 임무를 변경합니다.</SoS.RecallShuttleDesc>
   <SoS.RetreatAtHealth>왕복선 후퇴 체력 비율</SoS.RetreatAtHealth>
@@ -363,10 +363,10 @@
   <SoS.TargetShuttlesDesc>폭격 임무에서 왕복선이 조준할 지점을 선택하십시오.</SoS.TargetShuttlesDesc>
   <SoS.ToggleField>선체 접근 전환</SoS.ToggleField>
   <SoS.ToggleFieldDesc>정착민과 차량이 이 선체 영역을 통과할 수 있도록 허용합니다.</SoS.ToggleFieldDesc>
-  <SoSRestoreHull>선체 복원</SoSRestoreHull>
-  <SoSRestoreHullDesc>잔해를 치우고 새로운 선체를 건설합니다.</SoSRestoreHullDesc>
+  <SoSRestoreHull>선체 복구</SoSRestoreHull>
+  <SoSRestoreHullDesc>함선 잔해를 치우고 새로운 선체를 건설합니다.</SoSRestoreHullDesc>
   <SoSAlreadyRestoring>이미 이 구역을 복원하는 중입니다!</SoSAlreadyRestoring>
-  <SoSMustDesignateWreckage>난파된 우주선의 선체를 지정하여여 합니다.</SoSMustDesignateWreckage>
+  <SoSMustDesignateWreckage>난파된 우주선의 선체를 지정해야 합니다.</SoSMustDesignateWreckage>
   <SoS.UnDockWarning>경고: 연결 중인 함선을 이동하게 되면 모든 연결 튜브가 비활성화됩니다.</SoS.UnDockWarning>
   <SoS.ExpelSuperheatedAir>과열된 공기 배출</SoS.ExpelSuperheatedAir>
   <SoS.ExpelSuperheatedAirDesc>이 통풍구를 사용하여 방에 과열된 공기를 배출합니다. 이 과정은 방에 있는 타일당 한 지점씩 우주선의 생명 유지 시스템을 균등하게 분할하여 손상시킵니다.\n\n방에 있는 EVA를 사용할 수 없는 정착민은 폭발적인 감압에 노출되게 됩니다!</SoS.ExpelSuperheatedAirDesc>
