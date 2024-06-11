@@ -17,7 +17,9 @@ public static class StaticConstructor
     {
         public static void Postfix(Pawn pawn)
 		{
-			if (!MultiplayerCompat.checkMultifaction(multiplayerActive)) // 하모니 패치가 동작하는 방식을 정확히는 모르는데, 만약 if(){ return; } 처럼 했을 때 해당 메서드에 붙는 다른 하모니 postfix 같은게 실행되지 않을 가능성이 있나?
+			bool isTranslatedNamesActive = LoadedModManager.GetMod<TN_Mod>().GetSettings<TN_ModSettings>().activate;
+
+			if (isTranslatedNamesActive && !MultiplayerCompat.checkMultifaction(multiplayerActive)) // 하모니 패치가 동작하는 방식을 정확히는 모르는데, 만약 if(){ return; } 처럼 했을 때 해당 메서드에 붙는 다른 하모니 postfix 같은게 실행되지 않을 가능성이 있나?
 			{
 				if (pawn.Name is NameTriple nameTriple)
 				{
@@ -44,7 +46,9 @@ public static class StaticConstructor
 	{
 		private static void Postfix(Pawn __instance)
 		{
-            if (__instance.def.race.intelligence == Intelligence.Humanlike && !MultiplayerCompat.checkMultifaction(multiplayerActive))
+            bool isTranslatedNamesActive = LoadedModManager.GetMod<TN_Mod>().GetSettings<TN_ModSettings>().activate;
+
+            if (isTranslatedNamesActive && __instance.def.race.intelligence == Intelligence.Humanlike && !MultiplayerCompat.checkMultifaction(multiplayerActive))
 			{
 				PatchNameGiver.Postfix(__instance);
 			}

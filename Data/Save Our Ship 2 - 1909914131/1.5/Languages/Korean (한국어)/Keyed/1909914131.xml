@@ -1,0 +1,570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SoS.MoveWest>궤도 조정 (서쪽)</SoS.MoveWest>
+  <SoS.MoveWestDesc>함선을 서쪽으로 이동시킵니다.</SoS.MoveWestDesc>
+  <SoS.MoveEast>궤도 조정 (동쪽)</SoS.MoveEast>
+  <SoS.MoveEastDesc>함선을 동쪽으로 이동시킵니다.</SoS.MoveEastDesc>
+  <SoS.MoveStop>궤도 조정 (중지)</SoS.MoveStop>
+  <SoS.MoveStopDesc>현재 궤도를 유지합니다.</SoS.MoveStopDesc>
+  <SoS.AbandonHome>함선 포기</SoS.AbandonHome>
+  <SoS.AbandonHomeDesc>함선을 포기하면 함선에 탑승 중이던 정착민들이 전부 사라집니다!</SoS.AbandonHomeDesc>
+  <SoS.LeaveGraveyard>난파선 포기</SoS.LeaveGraveyard>
+  <SoS.LeaveGraveyardDesc>난파선을 포기하고 운명에 맡깁니다.</SoS.LeaveGraveyardDesc>
+  <SoS.ForceExitAndRemoveMapCountdown>{0} 이후에 대기권에 진입 예정.</SoS.ForceExitAndRemoveMapCountdown>
+  <SoS.BurnUpPlayer>궤도 유지 불가능!</SoS.BurnUpPlayer>
+  <SoS.BurnUpPlayerDesc>마지막 함교가 손실되어 더 이상 궤도를 유지할 수 없으며 {0} 일 후에 대기권에 강제로 진입하게 됩니다!\n\n대기권에 강제로 진입하게 되면 함선에 있는 모든 것이 파괴됩니다. 이를 방지하려면 함교를 새로 건설하십시오.</SoS.BurnUpPlayerDesc>
+  <SoS.BurnUpPlayerPrevented>함교를 건설하면 궤도를 안정화 할 수 있습니다.</SoS.BurnUpPlayerPrevented>
+  <SoS.BurnUpCountdown>{0}(이)가 대기권에 진입 중!</SoS.BurnUpCountdown>
+  <SoS.BurnUpCountdownTip>이 지도 내에 있는 물체들은 {0} 후에 대기권에 진입하면서 전부 파괴됩니다.</SoS.BurnUpCountdownTip>
+  <SoS.CombatTooltip>현재 비행 중인 모든 발사체와 함선으로부터 적 함까지의 거리를 표시합니다.\n\n붉은색: 레이저/대포 범위\n녹색: 플라즈마 범위\n파란색: 레일건 범위.\n보라색: 어뢰 범위\n가느다란 막대: 대형 무장의 이론적 최대 사거리</SoS.CombatTooltip>
+  <SoS.CombatRetreat>후퇴</SoS.CombatRetreat>
+  <SoS.CombatRetreatDesc>적함과의 거리를 벌립니다.</SoS.CombatRetreatDesc>
+  <SoS.CombatStop>정지</SoS.CombatStop>
+  <SoS.CombatStopDesc>함선의 엔진을 정지시킵니다.</SoS.CombatStopDesc>
+  <SoS.CombatMaintain>거리 유지</SoS.CombatMaintain>
+  <SoS.CombatMaintainDesc>적 함선과의 거리를 유지시킵니다.</SoS.CombatMaintainDesc>
+  <SoS.CombatAdvance>전진</SoS.CombatAdvance>
+  <SoS.CombatAdvanceDesc>적 함선에 더 가까이 접근합니다.</SoS.CombatAdvanceDesc>
+  <SoS.CombatEscape>전투에서 탈출</SoS.CombatEscape>
+  <SoS.CombatEscapeDesc>적함에 탑승한 정착민을 버리고 전투에서 도망칩니다</SoS.CombatEscapeDesc>
+  <SoS.CombatAbandonPawns>경고!\n\n적 함선에게서 도주하게 될 시 현재 적 함선에 남아있는 정착민들을 포기하게 됩니다!</SoS.CombatAbandonPawns>
+  <SoS.CombatShieldBroken>잔여 열 용량이 부족하여 보호막 생성기가 작동을 중지했습니다!</SoS.CombatShieldBroken>
+  <SoS.CombatShieldBrokenEnemy>잔여 열 용량이 부족하여 적함의 보호막 생성기가 작동을 중지했습니다!</SoS.CombatShieldBrokenEnemy>
+  <SoS.CombatPodDestroyedPlayer>왕복선이 적의 근접 방어 시설에 의해 파괴되었습니다! 살아남은 승무원들은 비상 탈출 좌석을 이용해 함선으로 귀환할 수 있습니다.</SoS.CombatPodDestroyedPlayer>
+  <SoS.CombatPodDestroyedEnemy>적의 왕복선이 함선의 근접 방어 시설에 의해 파괴되었습니다!</SoS.CombatPodDestroyedEnemy>
+  <SoS.WithdrawShip>함선 후퇴</SoS.WithdrawShip>
+  <SoS.WithdrawShipDesc>이 배를 전투에서 후퇴시킵니다</SoS.WithdrawShipDesc>
+  <SoS.WithdrawShipLast>마지막 남은 함선은 후퇴할 수 없습니다</SoS.WithdrawShipLast>
+  <SoS.CombatConfirmWithdraw>이 함선을 철수하시겠습니까? 패배하거나 후퇴하면 적함이 당신을 공격하러 추격할 것입니다.</SoS.CombatConfirmWithdraw>
+  <SoS.WrecksPreventMove>지도에 난파선이 있을 경우 이동할 수 없습니다!</SoS.WrecksPreventMove>
+  <SoS.RemoveWrecks>난파선 포기</SoS.RemoveWrecks>
+  <SoS.RemoveWrecksDesc>이 지도에서 해당 난파선을 제거합니다.</SoS.RemoveWrecksDesc>
+  <SoS.RemoveWrecksConfirm>지도에서 난파선을 전부 제거하겠습니까?\n\n이 기능을 사용하면 스스로 이동할 수 없는 배와 난파선이 잔해가 되어 파괴됩니다.</SoS.RemoveWrecksConfirm>
+  <SoS.WithdrawWrecks>난파선 철수</SoS.WithdrawWrecks>
+  <SoS.WithdrawWrecksDesc>모든 난파선을 전투에서 철수시킵니다.</SoS.WithdrawWrecksDesc>
+  <SoS.WithdrawWrecksConfirm>모든 난파선을 철수시키겠습니까? 패배하거나 도망치면 적함이 당신을 공격하러 추격할 것입니다. 승리하면 소량의 연료로 잔해를 인양 시설에서 회수할 수 있습니다.</SoS.WithdrawWrecksConfirm>
+  <SoS.ScuttleShip>모든 탈출 포드 발사</SoS.ScuttleShip>
+  <SoS.ScuttleShipDesc>선택한 지점을 향해 모든 탈출 포드를 발사시킵니다.</SoS.ScuttleShipDesc>
+  <SoS.ScuttleShipPods>수송 중인 포드와 함선을 포기할 수는 없습니다!</SoS.ScuttleShipPods>
+  <SoS.NoLoadedPods>준비된 탈출 포드가 없습니다</SoS.NoLoadedPods>
+  <SoS.LaunchCryptoNotLoaded>탈출 포드가 준비되지 않았습니다</SoS.LaunchCryptoNotLoaded>
+  <SoS.SelectWeapons>함포 선택</SoS.SelectWeapons>
+  <SoS.SelectWeaponsDesc>함선에 설치되어 있는 함포들을 전부 선택합니다</SoS.SelectWeaponsDesc>
+  <SoS.HoldFire>사격 중지</SoS.HoldFire>
+  <SoS.HoldFireDesc>함선에 설치되어 있는 모든 함포에서 적함에 발사하는 것을 막습니다</SoS.HoldFireDesc>
+  <SoS.TogglePointDefense>근접 방어 금지</SoS.TogglePointDefense>
+  <SoS.TogglePointDefenseDesc>근접 방어 임무가 할당된 모든 무기의 사격을 중단합니다.</SoS.TogglePointDefenseDesc>
+  <SoS.NotAtMaxRange>최대 사거리 이내에 존재하지 않음</SoS.NotAtMaxRange>
+  <SoS.OnUnstableMap>함선이 불안정한 궤도에 있습니다.</SoS.OnUnstableMap>
+  <SoS.EnemyShipRetreating>적 함선이 탈출을 시도하고 있습니다!</SoS.EnemyShipRetreating>
+  <SoS.EnemyShipRetreated>적 함선이 탈출하였습니다!</SoS.EnemyShipRetreated>
+  <SoS.EnemyShipAdrift>적 함선이 포류하기 시작하였고 서서히 궤도를 벗어나고 있습니다!</SoS.EnemyShipAdrift>
+  <SoS.ReturnShip>복귀</SoS.ReturnShip>
+  <SoS.ReturnShipDesc>이 함선을 다시 안정적인 궤도로 복귀시킵니다</SoS.ReturnShipDesc>
+  <SoS.CaptureShip>포획</SoS.CaptureShip>
+  <SoS.CaptureShipDesc>이 함선을 지도로 이동시킵니다</SoS.CaptureShipDesc>
+  <SoS.LaunchFailPawns>함선에서 정착지에 소속되지 않은 캐릭터 발견: {0}, 이륙 비활성화됨.</SoS.LaunchFailPawns>
+  <SoS.MoveWreckCommand>난파선 이동</SoS.MoveWreckCommand>
+  <SoS.MoveWreckCommandDesc>지도에서 난파선의 위치를 이동시킵니다</SoS.MoveWreckCommandDesc>
+  <SoS.MoveWreckFlipCommand>난파선 반전</SoS.MoveWreckFlipCommand>
+  <SoS.MoveWreckFlipCommandDesc>난파선을 수평으로 뒤집습니다</SoS.MoveWreckFlipCommandDesc>
+  <SoS.MoveWreckRotCommand>난파선 회전</SoS.MoveWreckRotCommand>
+  <SoS.MoveWreckRotCommandDesc>난파선을 시계 반대방향으로 회전시킵니다</SoS.MoveWreckRotCommandDesc>
+  <SoS.SalvageCommand>난파선 회수: {0}</SoS.SalvageCommand>
+  <SoS.SalvageCommandDesc>{0}에서 난파선을 회수합니다</SoS.SalvageCommandDesc>
+  <SoS.SalvageBeam>잔해 회수: {0}</SoS.SalvageBeam>
+  <SoS.SalvageBeamDesc>{0}에서 느슨하게 떠다니는 잔해들을 회수합니다.</SoS.SalvageBeamDesc>
+  <SoS.SalvageStablize>{0} 안정화</SoS.SalvageStablize>
+  <SoS.SalvageStablizeFuel>안정화 작업에는 {0} 만큼의 연료가 필요합니다!</SoS.SalvageStablizeFuel>
+  <SoS.SalvageStablizeDesc>{0}의 궤도를 안정화시킵니다. 이를 위해서는 충분한 숫자의 인양 시설이 필요하며 엔진의 연료가 소모됩니다.</SoS.SalvageStablizeDesc>
+  <SoS.SalvageStablizeConfirm>{0}의 궤도를 안정화시킵니다. 이 작업을 진행하려면 충분한 숫자의 인양 시설이 필요하며 엔진에서 {1} 개의 화학 연료를 소모합니다.</SoS.SalvageStablizeConfirm>
+  <SoS.SalvageDisabled>회수 불가: 함선이 전투 중이거나 적 승무원이 존재함!</SoS.SalvageDisabled>
+  <SoS.SalvageAbandonConfirm>대상을 버리시겠습니까?\n대상에 연결되어 있거나 대상에 있는 모든 것이 대기권에서 불타 사라지게 됩니다!</SoS.SalvageAbandonConfirm>
+  <SoS.SalvageBridge>함교가 멀쩡하게 존재하는 선박을 인양해올 수 없습니다. 함교를 파괴하거나 해킹하십시오.</SoS.SalvageBridge>
+  <SoS.SalvageFailMass>인양 시설이 부족합니다. {0}/{1}</SoS.SalvageFailMass>
+  <SoS.SalvageFailFuel>연료가 부족합니다. {0}/{1}</SoS.SalvageFailFuel>
+  <SoS.SalvageNoSpace>인양 시설의 공간이 부족합니다.</SoS.SalvageNoSpace>
+  <SoS.SalvageEnemiesPresent>모든 적을 물리친 후에 인양 시설을 사용하여 인영하십시오.</SoS.SalvageEnemiesPresent>
+  <SoS.ClaimWrecksCommand>난파선 점거</SoS.ClaimWrecksCommand>
+  <SoS.ClaimWrecksCommandDesc>이 지도에 있는 모든 난파선을 점거합니다</SoS.ClaimWrecksCommandDesc>
+  <SoS.ClaimWrecksSuccess>{0}개 건물의 소유권을 획득하였습니다!</SoS.ClaimWrecksSuccess>
+  <SoS.ClaimWrecksDisabled>적이 아직 남아있습니다!</SoS.ClaimWrecksDisabled>
+  <SoS.RemoveWrecksCommand>난파선 포기</SoS.RemoveWrecksCommand>
+  <SoS.RemoveWrecksCommandDesc>이 지도에서 해당 난파선을 제거합니다.</SoS.RemoveWrecksCommandDesc>
+  <SoS.PlaceOnShipHull>소유 중인 선체에 설치해야 합니다.</SoS.PlaceOnShipHull>
+  <SoS.EnginePlaceRotation>엔진이 전부 같은 방향을 향해야 합니다!</SoS.EnginePlaceRotation>
+  <SoS.TradeComms>통신 시도: </SoS.TradeComms>
+  <SoS.TradeTradeWith>그들과 통신을 시도합니다.</SoS.TradeTradeWith>
+  <SoS.TradeTradeDecline>{0}(이)가 우리의 악명때문에 거래를 거부하였습니다.</SoS.TradeTradeDecline>
+  <SoS.PirateTradeDemand>화물을 넘기라고 요구합니다. (이것은 불법 행위입니다!)</SoS.PirateTradeDemand>
+  <SoS.TradeTryingToFlee>{0}(이)가 통신을 끊고 도주하고 있습니다!</SoS.TradeTryingToFlee>
+  <SoS.TradeAttack>공격!</SoS.TradeAttack>
+  <SoS.TradeFlee>도망가게 놔둬라.</SoS.TradeFlee>
+  <SoS.TradePayBounty>포상금을 지불하십시오. (은 {0}개)</SoS.TradePayBounty>
+  <SoS.NotEnoughForBounty>무역 송신기 근처에 {0}개의 은이 필요합니다.</SoS.NotEnoughForBounty>
+  <SoS.PirateHail>해적선이 당신을 환영하고 있습니다.\n</SoS.PirateHail>
+  <SoS.PirateHailPirate>분명히 그들은 당신의 악명을 알고 있습니다.</SoS.PirateHailPirate>
+  <SoS.PirateHailNormal>당신이 회신하지 않으면 그들은 당신을 공격할 것입니다.</SoS.PirateHailNormal>
+  <SoS.PirateTalk>알 수 없는 해적선과 통신 시도\n\n\n</SoS.PirateTalk>
+  <SoS.PirateTalkPirate>당신의 악명은 그들 또한 알고 있으며 그들은 당신이 거래를 원하는 지 묻고 있습니다.</SoS.PirateTalkPirate>
+  <SoS.PirateTalkParley>그들은 지금 당신과 거래할 의향이 있습니다.</SoS.PirateTalkParley>
+  <SoS.PirateTalkPaid>응답이 없습니다.</SoS.PirateTalkPaid>
+  <SoS.PirateTalkNormal>그들은 당신이 은 {0}개 가치의 귀중품을 넘겨 줄 것을 요구하고 있습니다.\n\n당신이 그들의 요구를 들어주지 않고 시간을 끈다면 그들은 당신을 공격할 것입니다.</SoS.PirateTalkNormal>
+  <SoS.PirateTrade>그들과 거래</SoS.PirateTrade>
+  <SoS.PirateDemand>돈을 지불</SoS.PirateDemand>
+  <SoS.PirateDemandFail>은이 충분하지 않습니다: {0}</SoS.PirateDemandFail>
+  <SoS.PirateParley>협상?</SoS.PirateParley>
+  <SoS.PirateParleyFail>협상 실패</SoS.PirateParleyFail>
+  <SoS.PirateParleyFailDesc>해적과의 협상 시도는 실패하였습니다. 그들이 공격하기 시작합니다.</SoS.PirateParleyFailDesc>
+  <SoS.PirateParleyWin>협상 성공</SoS.PirateParleyWin>
+  <SoS.PirateParleyWinDesc>당신은 어떻게든 해적들이 함선을 공격하지 않도록 설득하는데 성공하였습니다.</SoS.PirateParleyWinDesc>
+  <SoS.PirateAttacksBetray>해적간의 배신</SoS.PirateAttacksBetray>
+  <SoS.PirateAttacksBetrayDesc>해적 사이에는 명예라는건 없는 모양입니다.</SoS.PirateAttacksBetrayDesc>
+  <SoS.PirateAttacksPay>해적 공격</SoS.PirateAttacksPay>
+  <SoS.PirateAttacksPayDesc>해적들은 당신이 지불한 물건이 그들의 요구를 충족시키지 못했다고 판단하였습니다.</SoS.PirateAttacksPayDesc>
+  <SoS.PirateAttacksWait>해적 공격</SoS.PirateAttacksWait>
+  <SoS.PirateAttacksWaitDesc>해적들이 더 이상 기다리는 것을 그만두고 당신을 공격하고 있습니다.</SoS.PirateAttacksWaitDesc>
+  <SelectEverything>모든 대상 선택</SelectEverything>
+  <SelectEverythingDesc>모든 대상을 선택합니다.</SelectEverythingDesc>
+  <SoS.StatsShipName>함선 이름: {0}</SoS.StatsShipName>
+  <SoS.StatsNotoriety>악명: {0}</SoS.StatsNotoriety>
+  <SoS.StatsShipMass>중량: {0}</SoS.StatsShipMass>
+  <SoS.StatsShipMaxTakeoff>최대 이륙 중량: {0}</SoS.StatsShipMaxTakeoff>
+  <SoS.StatsShipEnergy>저장된 전력: {0} / {1} Wd</SoS.StatsShipEnergy>
+  <SoS.StatsShipHeat>저장된 열: {0} / {1} HU{2}</SoS.StatsShipHeat>
+  <SoS.StatsShipHeatMaximumShort>최대</SoS.StatsShipHeatMaximumShort>
+  <SoS.StatsShipHeatMaximum>최대 열 용량: {0}</SoS.StatsShipHeatMaximum>
+  <SoS.StatsShipCombatRating>전투력: {0}</SoS.StatsShipCombatRating>
+  <SoS.StatsShipCombatThrust>추중비: {0}</SoS.StatsShipCombatThrust>
+  <SoS.ReportInterReady>성간 여행이 준비되었습니다.</SoS.ReportInterReady>
+  <SoS.ReportInterNotReady>성간 여행이 준비되지 않았습니다:</SoS.ReportInterNotReady>
+  <SoS.ReportNeedPilot>함선에는 조종사 또는 AI 컴퓨터가 필요합니다.</SoS.ReportNeedPilot>
+  <SoS.NeedsMoreFuel>현재 함선에는 {0} 만큼의 연료가 존재하지만 {1} 만큼의 연료가 필요합니다.</SoS.NeedsMoreFuel>
+  <SoS.NeedsMorePower>{0} Wd만큼의 전력이 필요합니다.</SoS.NeedsMorePower>
+  <SoS.NeedsMoreJTEngines>선박의 중량으로 인해 더 많은 JT 엔진이 필요합니다.</SoS.NeedsMoreJTEngines>
+  <SoS.PlanetLeave>새로운 행성으로 이동</SoS.PlanetLeave>
+  <SoS.PlanetLeaveDesc>이 행성을 뒤로 남겨두고 정착할 다른 변방계 행성을 찾아 떠납니다.</SoS.PlanetLeaveDesc>
+  <SoS.ToggleScanShips>함선 탐지</SoS.ToggleScanShips>
+  <SoS.ToggleScanShipsDesc>다른 선박을 탐지합니다</SoS.ToggleScanShipsDesc>
+  <SoS.ToggleScanSites>지역 탐지</SoS.ToggleScanSites>
+  <SoS.ToggleScanSitesDesc>다른 지역을 탐지합니다.</SoS.ToggleScanSitesDesc>
+  <SoS.ToggleShields>보호막 상태 전환</SoS.ToggleShields>
+  <SoS.ToggleShieldsDesc>함선의 보호막을 켜거나 끕니다.</SoS.ToggleShieldsDesc>
+  <SoS.ToggleCloak>은폐 상태 전환</SoS.ToggleCloak>
+  <SoS.ToggleCloakDesc>함선의 은폐를 켜거나 끕니다.</SoS.ToggleCloakDesc>
+  <SoS.ShipInfo>함선 정보</SoS.ShipInfo>
+  <SoS.ShipInfoDesc>함선이 성간 여행을 할 수 있는지에 대한 정보를 표시합니다.</SoS.ShipInfoDesc>
+  <SoS.Rename>함선 이름 변경</SoS.Rename>
+  <SoS.RenameDesc>함선에 새로운 이름을 지어줍니다.</SoS.RenameDesc>
+  <SoS.Move>함선 이동</SoS.Move>
+  <SoS.MoveDesc>이 지도 내에서 함선을 이동시킵니다.</SoS.MoveDesc>
+  <SoS.MoveFlip>함선 반전</SoS.MoveFlip>
+  <SoS.MoveFlipDesc>함선을 수평으로 뒤집습니다.</SoS.MoveFlipDesc>
+  <SoS.MoveRot>함선 회전</SoS.MoveRot>
+  <SoS.MoveRotNo>회전할 수 없는 건물이 존재하기에 함선이 회전할 수 없습니다!</SoS.MoveRotNo>
+  <SoS.MoveRotDesc>함선을 시계 반대방향으로 회전시킵니다</SoS.MoveRotDesc>
+  <SoS.MoveFail>이동 실패!</SoS.MoveFail>
+  <SoS.MoveFailDesc>함선 이동이 실패하였습니다! 함선을 다시 확인한 후 물건이 제자리에 없거나 함선이 손상된 경우 저장된 게임을 다시 불러오십시오.\n실패 원인: {0}</SoS.MoveFailDesc>
+  <SoS.MoveFailPilot>함교에 조종사가 있어야 합니다.</SoS.MoveFailPilot>
+  <SoS.MoveFailRCS>선박을 이동시키려면 RCS 추진기가 더 필요합니다. 필요한 추진기 숫자: {0}</SoS.MoveFailRCS>
+  <SoS.MoveFailFuel>선박이 움직이려면 연료가 더 필요합니다. 필요한 연료: {0}</SoS.MoveFailFuel>
+  <SoS.MoveFailFaction>대상 지역 옆에 다른 세력이 존재합니다. 이동을 중단합니다.</SoS.MoveFailFaction>
+  <SoS.MoveFailCombat>주요 지도에서 현재 전투가 벌어지고 있습니다.</SoS.MoveFailCombat>
+  <SoS.Land>함선 착륙</SoS.Land>
+  <SoS.LandDesc>이 배를 착륙시킵니다. </SoS.LandDesc>
+  <SoS.Rebuild>함선 청사진 자동 배치</SoS.Rebuild>
+  <SoS.RebuildDesc>이 함선에서 파괴된 건물에 청사진을 배치합니다.</SoS.RebuildDesc>
+  <SoS.QuestPillarA>KSS 호라이즌 공격</SoS.QuestPillarA>
+  <SoS.QuestPillarADesc>고대 테라포밍 정거장인 KSS 호라이즌과 교전을 시작합니다. 첫번째 초월공학 기둥은 그 장소에 있습니다.</SoS.QuestPillarADesc>
+  <SoS.QuestPillarB>위성 기지 습격</SoS.QuestPillarB>
+  <SoS.QuestPillarBDesc>초월공학 기둥을 확보하기 위해 메카노이드 월면 기지를 공격합니다.\n\n진행한다면 메카노이드와 전면전에 돌입합니다!</SoS.QuestPillarBDesc>
+  <SoS.scanRegion>탐지</SoS.scanRegion>
+  <SoS.scanRegionDesc>행성 표면에 있는 해당 지역을 확인합니다.</SoS.scanRegionDesc>
+  <SoS.ScanMap>지역 관찰</SoS.ScanMap>
+  <SoS.ScanMapDesc>궤도에서 해당 지점을 관찰합니다</SoS.ScanMapDesc>
+  <SoS.ScanMapStop>관찰 중지</SoS.ScanMapStop>
+  <SoS.ScanMapStopDesc>{0} 지점에 대한 관찰을 중지합니다. 이 시점에서 정착민이 해당 지역이 없을 경우 해당 지도가 사라집니다.</SoS.ScanMapStopDesc>
+  <SoS.ToggleEngines>엔진 전환</SoS.ToggleEngines>
+  <SoS.ToggleEnginesDesc>엔진을 가동하거나 정지시킵니다. 위험에서 보호하십시오.</SoS.ToggleEnginesDesc>
+  <SoS.ToggleDock>연결 튜브 전환</SoS.ToggleDock>
+  <SoS.ToggleDockDesc>연결 튜브를 활성화하거나 비활성화합니다. 최대 3x3 타일에 영향을 미칩니다.</SoS.ToggleDockDesc>
+  <SoS.AirlockHacked>에어락 해킹 성공!</SoS.AirlockHacked>
+  <SoS.AirlockHackFailed>에어락 해킹 실패!</SoS.AirlockHackFailed>
+  <SoS.AirlockBreached>에어락 파괴!</SoS.AirlockBreached>
+  <SoS.UnfoldStatus>상태: </SoS.UnfoldStatus>
+  <SoS.UnfoldRetracted>접혀짐</SoS.UnfoldRetracted>
+  <SoS.UnfoldExtended>펼쳐짐</SoS.UnfoldExtended>
+  <SoS.UnfoldExtending>펼쳐지는 중</SoS.UnfoldExtending>
+  <SoS.UnfoldRetracting>접혀지는 중</SoS.UnfoldRetracting>
+  <SoS.UnfoldBlocked>장애물이나 확장 방해 요소가 없어야 합니다.</SoS.UnfoldBlocked>
+  <SoS.HeatStored>냉각 시설의 열 수용량/최대량: {0} HU / {1} HU ({2})</SoS.HeatStored>
+  <SoS.HeatWithPower>전력을 사용해서 난방</SoS.HeatWithPower>
+  <SoS.HeatWithPowerDesc>냉각 시스템에 충분한 열이 부족할 경우 전력을 사용해서 난방을 합니다.</SoS.HeatWithPowerDesc>
+  <SoS.PurgeHeat>긴급 열 방출</SoS.PurgeHeat>
+  <SoS.PurgeHeatDesc>액체 은을 우주로 방출하여 함선에 저장된 열을 빠르게 낮춥니다.\n\n이 작업을 시작하면 보호막이 꺼집니다!</SoS.PurgeHeatDesc>
+  <SoS.HeatPurge>열 방출 활성화</SoS.HeatPurge>
+  <SoS.HeatPurgeDesc>방열판에서 적극적으로 열을 배출합니다. 냉각 설비가 연결되어 있는 모든 보호막, 함포 발포가 중단되며 방열판이 열을 5배 빠르게 방출합니다.\n\n이 작업은 냉각수를 고갈시키고 냉각 설비의 열 용량을 감소시키며 한번 시작하면 취소할 수 없습니다. 전투 중이 아닐 경우 고갈된 열 용량이 서서히 회복됩니다.</SoS.HeatPurgeDesc>
+  <SoS.HeatPurgeVenting>열 방출이 이미 활성화 되었습니다.</SoS.HeatPurgeVenting>
+  <SoS.HeatPurgeNotEnough>열 방출을 해야 할 만큼 냉각 설비의 열이 높지 않습니다.</SoS.HeatPurgeNotEnough>
+  <SoS.CloakBroken>열 수용량이 최대치에 도달하여 은폐 장치가 작동을 멈췄습니다.</SoS.CloakBroken>
+  <SoS.HeatCritical>위험! 열 수용량 높음!</SoS.HeatCritical>
+  <SoS.HeatNotConnected>냉각 설비에 연결되어 있지 않습니다.</SoS.HeatNotConnected>
+  <SoS.HeatTurretEnergy>열 에너지:</SoS.HeatTurretEnergy>
+  <SoS.TurretNotInShipCombat>경고: 함선 전투 중이 아니기에 포탑을 사용할 수 없습니다.</SoS.TurretNotInShipCombat>
+  <SoS.TurretInPointDefense>경고: 근접 방어 모드로 설정되어 있기에 적 선박을 대상으로 조준하지 않습니다.</SoS.TurretInPointDefense>
+  <SoS.TurretExtractTorpedo>어뢰 꺼내기</SoS.TurretExtractTorpedo>
+  <SoS.TurretExtractTorpedoDesc>다른 어뢰를 장전하기 위해 현재 장전된 어뢰 전부를 꺼냅니다.</SoS.TurretExtractTorpedoDesc>
+  <SoS.TurretExtractOneTorpedo>어뢰 하나 꺼내기</SoS.TurretExtractOneTorpedo>
+  <SoS.TurretExtractOneTorpedoDesc>다른 어뢰를 장전하기 위해 현재 장전된 어뢰 하나를 꺼냅니다.</SoS.TurretExtractOneTorpedoDesc>
+  <SoS.TurretExtract>꺼내기</SoS.TurretExtract>
+  <SoS.TurretOptimalRange>최적 사거리에서만 발사</SoS.TurretOptimalRange>
+  <SoS.TurretOptimalRangeDesc>이 무기의 최적 사거리에서만 사격을 허용합니다.</SoS.TurretOptimalRangeDesc>
+  <SoS.TurretPointDefense>근접 방어 모드</SoS.TurretPointDefense>
+  <SoS.TurretPointDefenseDesc>이 포탑을 사용하여 어뢰와 왕복선을 격추합니다.</SoS.TurretPointDefenseDesc>
+  <SoS.TorpedoAllowedDesc>이 유형의 어뢰를 사용 금지하거나 사용하도록 전환합니다.</SoS.TorpedoAllowedDesc>
+  <SoS.TorpedoNotLoaded>장전되지 않음</SoS.TorpedoNotLoaded>
+  <SoS.TorpedoFullyLoaded>장전 완료</SoS.TorpedoFullyLoaded>
+  <SoS.TorpedoNone>어뢰가 없음</SoS.TorpedoNone>
+  <SoS.AmplifierCount>연결된 증폭기: {0}</SoS.AmplifierCount>
+  <SoS.SpinalCapNotFound>연결된 증폭기가 없습니다.</SoS.SpinalCapNotFound>
+  <SoS.CannotFireDueToHeat>{0} 실행 불가능: 열 용량이 부족합니다.</SoS.CannotFireDueToHeat>
+  <SoS.CannotFireDueToPower>{0} 실행 불가능: 전력이 부족합니다.</SoS.CannotFireDueToPower>
+  <SoS.CannotFireDueToAmmo>{0} 실행 불가능: 탄약이 부족합니다</SoS.CannotFireDueToAmmo>
+  <SoS.ShieldRadius>현재 반경/설정값: {0}/{1}</SoS.ShieldRadius>
+  <SoS.ResetShieldRadius>보호막 반경 초기화</SoS.ResetShieldRadius>
+  <SoS.ResetShieldRadiusDesc>보호막 반경을 40으로 초기화합니다.</SoS.ResetShieldRadiusDesc>
+  <SoS.DecShieldRadius>보호막 반경을 감소시킵니다.</SoS.DecShieldRadius>
+  <SoS.IncShieldRadius>보호막 반경을 증가시킵니다.</SoS.IncShieldRadius>
+  <SoS.ReactorInstability>불안정도: {0}</SoS.ReactorInstability>
+  <SoS.ReactorOverdrive>과부하 I</SoS.ReactorOverdrive>
+  <SoS.ReactorOverdriveDesc>열 생산과 연료 소비량이 늘어나는 대신 원자로의 출력이 향상됩니다.</SoS.ReactorOverdriveDesc>
+  <SoS.ReactorOverdrive2>과부하 II</SoS.ReactorOverdrive2>
+  <SoS.ReactorOverdrive2Desc>열 생산과 연료 소비량이 늘어나는 대신 원자로의 출력이 향상됩니다. 불안정도가 점점 상승하여 화재 및 방사능 누출 사고 가능성이 높아집니다.</SoS.ReactorOverdrive2Desc>
+  <SoS.ReactorOverdrive3>과부하 III</SoS.ReactorOverdrive3>
+  <SoS.ReactorOverdrive3Desc>열 생산과 연료 소비량이 늘어나는 대신 원자로의 출력이 향상됩니다. 불안정도가 점점 상승하여 화재 및 방사능 누출 사고 가능성이 높아집니다.</SoS.ReactorOverdrive3Desc>
+  <SoS.BlueprintDisabled>함선 설계 기초 연구 필요</SoS.BlueprintDisabled>
+  <SoS.BlueprintFailed>청사진 배치에 실패하였습니다. 해당 지역은 대규모 공사를 견딜 수 있을 정도로 지반이 튼튼해야 하며 소유중이지 않은 물체와 산 지붕이 없어야 합니다.</SoS.BlueprintFailed>
+  <SoS.BlueprintPlace1>함선 기초 청사진</SoS.BlueprintPlace1>
+  <SoS.BlueprintPlace1Desc>함선의 장갑과 외부 선체에 해당되는 부분의 청사진을 배치합니다. 작업이 완료되어야 선체를 건설할 수 있습니다!</SoS.BlueprintPlace1Desc>
+  <SoS.BlueprintPlace2>함선 선체 청사진</SoS.BlueprintPlace2>
+  <SoS.BlueprintPlace2Desc>함선 선체 청사진을 배치합니다. 작업이 완료되어야 내부 청사진을 배치할 수 있습니다!</SoS.BlueprintPlace2Desc>
+  <SoS.BlueprintPlace3>함선 내부 청사진</SoS.BlueprintPlace3>
+  <SoS.BlueprintPlace3Desc>함선 내부 청사진을 배치합니다. 배치하기 전에 먼저 선체가 완성되어 있어야 합니다!</SoS.BlueprintPlace3Desc>
+  <SoS.DamagedReactorHurtsPawn>{0}(이)가 손상된 원자로에 접근하여 방사성 화상을 입었습니다!</SoS.DamagedReactorHurtsPawn>
+  <SoS.EVACapable>[EVA 가능]</SoS.EVACapable>
+  <SoS.AtmosphereVacuum>진공</SoS.AtmosphereVacuum>
+  <SoS.Atmosphere>숨쉴 수 있는 공간</SoS.Atmosphere>
+  <SoS.AtmosphereNonBreathable>숨쉴 수 없는 공간</SoS.AtmosphereNonBreathable>
+  <SoS.AtmosphereBreach>대기권 접근 중!</SoS.AtmosphereBreach>
+  <SoS.SpawnHologram>폼젤 생성</SoS.SpawnHologram>
+  <SoS.SpawnHologramDesc>이 의식이 세상과 상호작용할 수 있는 폼젤을 조립합니다.</SoS.SpawnHologramDesc>
+  <SoS.DespawnHologram>폼젤 파괴</SoS.DespawnHologram>
+  <SoS.DespawnHologramDesc>이 장치가 제어 중인 폼젤을 파괴합니다. 폼젤을 이루는 메카나이트를 다시 조립하려면 하루의 시간이 필요합니다.</SoS.DespawnHologramDesc>
+  <SoS.RenameAI>AI 이름 짓기</SoS.RenameAI>
+  <SoS.RenameAIDesc>AI에게 새로운 이름을 지어줍니다.</SoS.RenameAIDesc>
+  <SoS.InstallConsciousness>의식 설치</SoS.InstallConsciousness>
+  <SoS.InstallConsciousnessThisOne>의식 설치: {0}</SoS.InstallConsciousnessThisOne>
+  <SoS.InstallConsciousnessDesc>이 장치에 의식을 설치하도록 지시합니다.</SoS.InstallConsciousnessDesc>
+  <SoS.InstallCore>인공자아 핵 설치</SoS.InstallCore>
+  <SoS.InstallCoreDesc>이 장치에 인공자아 핵을 설치하도록 지시합니다.</SoS.InstallCoreDesc>
+  <SoS.NoBrains>의식 없음</SoS.NoBrains>
+  <SoS.NoCores>사용 가능한 인공자아 핵 없음</SoS.NoCores>
+  <SoS.SpawnHologramDelay>폼젤 재생 시간: {0} 이후 사용 가능</SoS.SpawnHologramDelay>
+  <SoS.HologramColor>폼젤 색상</SoS.HologramColor>
+  <SoS.HologramColorDesc>이 폼젤의 색상을 선택합니다.</SoS.HologramColorDesc>
+  <SoS.EquipRanged>원거리 모드</SoS.EquipRanged>
+  <SoS.EquipRangedDesc>이 폼젤이 원거리 무기를 생성하여 장비합니다.</SoS.EquipRangedDesc>
+  <SoS.EquipMelee>근접 모드</SoS.EquipMelee>
+  <SoS.EquipMeleeDesc>이 폼젤에 칼날과 에너지 보호막을 생성하여 장비합니다.</SoS.EquipMeleeDesc>
+  <SoS.ResurrectBrain>부활</SoS.ResurrectBrain>
+  <SoS.ResurrectBrainDesc>이 의식의 육체를 복원하기 위해 부활 혈청을 사용합니다.</SoS.ResurrectBrainDesc>
+  <SoS.ArchoGift>초월공학 포자의 선물 활성화</SoS.ArchoGift>
+  <SoS.ArchotechGoodwillPlus>초능초능력을 이용해 세력 간 관계를 개선합니다 (+10, 역장 강도 {0} 소모)</SoS.ArchotechGoodwillPlus>
+  <SoS.ArchotechGoodwillMinus>초능력을 이용해 세력 간 관계를 악화시킵니다 (-10, 역장 강도 {0} 소모)</SoS.ArchotechGoodwillMinus>
+  <SoS.ArchotechFieldStrengthLow>역장 강도가 부족합니다.</SoS.ArchotechFieldStrengthLow>
+  <SoS.ArchotechSoothe>편안한 정신 파동</SoS.ArchotechSoothe>
+  <SoS.ArchotechSootheDesc>특정 지도에 편안한 정신 파동을 방출합니다. (역장 강도 {0} 소모)</SoS.ArchotechSootheDesc>
+  <SoS.ArchotechShock>정신 충격</SoS.ArchotechShock>
+  <SoS.ArchotechShockDesc>특정 개체에게 정신 충격을 가해 기절시킵니다. (역장 강도 {0} 소모)</SoS.ArchotechShockDesc>
+  <SoS.ArchotechInsanity>정신 분열</SoS.ArchotechInsanity>
+  <SoS.ArchotechInsanityDesc>특정 개체의 정신을 분열시켜 광란에 빠트립니다. (역장 강도 {0} 소모)</SoS.ArchotechInsanityDesc>
+  <SoS.ArchotechPsylink>초능력 부여</SoS.ArchotechPsylink>
+  <SoS.ArchotechPsylinkDesc>특정 정착민의 초능력 등급을 향상시킵니다. (역장 강도 {0} 소모)</SoS.ArchotechPsylinkDesc>
+  <SoS.ArchotechSoulLink>초능력 연결</SoS.ArchotechSoulLink>
+  <SoS.ArchotechSoulLinkDesc>이 초월공학 포자에게 정착민 한명을 연결시킵니다. 연결된 존재의 육체가 파괴되면 죽기 전과 같은 의식을 가진 상태로 사후 세계 상자에 직접 업로드할 수 있습니다. (역장 강도 {0} 소모)</SoS.ArchotechSoulLinkDesc>
+  <SoS.ArchotechSoulDownload>의식 업로드 ({0})</SoS.ArchotechSoulDownload>
+  <SoS.ArchotechSoulDownloadDesc>{0}의 의식을 비어있는 사후 세계 상자에 업로드합니다.</SoS.ArchotechSoulDownloadDesc>
+  <SoS.ArchotechOptimizeMatter>물질 최적화</SoS.ArchotechOptimizeMatter>
+  <SoS.ArchotechOptimizeMatterDesc>천천히 점점 넓어지는 반경 내부의 일반적인 선체를 초월공학 선체로 자동 변환합니다. 방열판이나 보호막 생성기 등의 거대하고 복잡한 구조물에는 영향을 미치지 않습니다.</SoS.ArchotechOptimizeMatterDesc>
+  <SoS.ArchotechGiftParticles>포자의 선물을 입자로 자동 선택</SoS.ArchotechGiftParticles>
+  <SoS.ArchotechGiftParticlesDesc>초월공학 포자의 선물을 고르는 대신 자동으로 이종 입자를 선택합니다.</SoS.ArchotechGiftParticlesDesc>
+  <SoS.ArchotechDemandGift>선물 요구</SoS.ArchotechDemandGift>
+  <SoS.ArchotechDemandGiftDesc>초월공학 포자에게 당장 선물을 달라고 요구합니다. 초월공학 포자의 기분이 40만큼 감소합니다!</SoS.ArchotechDemandGiftDesc>
+  <SoS.ArchotechNoGiftsUnlocked>연구가 진행되지 않아 받을 수 있는 선물이 없습니다.</SoS.ArchotechNoGiftsUnlocked>
+  <SoS.ArchotechEvolve>초월공학 포자 진화 시작</SoS.ArchotechEvolve>
+  <SoS.ArchotechEvolveDesc>당신의 초월공학 포자를 진정한 초월체로 진화시키고 새로운 시대를 여십시오\n\n실행 시 게임이 종료됩니다!</SoS.ArchotechEvolveDesc>
+  <SoS.ArchotechMoodLow>불만족스러운 초월공학 포자</SoS.ArchotechMoodLow>
+  <SoS.ArchotechMoodLowDesc>초월공학 포자의 기분이 좋지 않습니다. 현재 상태가 지속될 경우 선원들을 대상으로 "장난"을 치기 시작할 것입니다.\n\n선원들이 포자 주변에서 명상을 하거나 포로를 포자에게 희생시키면 포자의 기분이 나아집니다.</SoS.ArchotechMoodLowDesc>
+  <SoS.ArchotechMoodLowNoRoyDesc>초월공학 포자의 기분이 좋지 않습니다. 현재 상태가 지속될 경우 선원들을 대상으로 "장난"을 치기 시작할 것입니다.\n\n선원들이 포자 주변에서 명상을 하거나 포로를 포자에게 희생시키면 포자의 기분이 나아집니다.</SoS.ArchotechMoodLowNoRoyDesc>
+  <SoS.ArchoAnimalSuddenDeath>어떤 우주적 사건으로 인해 원시 동물들이 잠시 나타났다가 사라졌습니다. 어쩌면 다가올 사건의 징조일 지도 모릅니다.</SoS.ArchoAnimalSuddenDeath>
+  <SoS.ArchoAnimalSporeDeath>그들을 보살펴 줄 초월공학 포자가 없어, {0} (이)가 사망하였습니다.</SoS.ArchoAnimalSporeDeath>
+  <SoS.CraftArchocat>초월공학 고양이 부화</SoS.CraftArchocat>
+  <SoS.CraftArchomutt>초월공학 개 부화</SoS.CraftArchomutt>
+  <SoS.CraftArchostrich>초월공학 타조 부화</SoS.CraftArchostrich>
+  <SoS.CraftArchoffalo>초월공학 머팔로 부화</SoS.CraftArchoffalo>
+  <SoS.CraftArchospider>초월공학 스파이더 부화</SoS.CraftArchospider>
+  <SoS.CraftArcholope>초월공학 폭탄사슴 부화</SoS.CraftArcholope>
+  <SoS.CraftArchotortoise>초월공학 거북이 부화</SoS.CraftArchotortoise>
+  <SoS.CraftArchopanda>초월공학 판다 부화</SoS.CraftArchopanda>
+  <SoS.CraftArchojerboa>초월공학 털실쥐 부화</SoS.CraftArchojerboa>
+  <SoS.CraftArchothrumbo>초월공학 트럼보 부화</SoS.CraftArchothrumbo>
+  <SoS.ArcholifeChangeSkin>외형 변경</SoS.ArcholifeChangeSkin>
+  <SoS.ArcholifeChangeSkinDesc>이 생명체는 정해진 형태 내에서 자유롭게 외형을 변경할 수 있습니다.</SoS.ArcholifeChangeSkinDesc>
+  <SoS.MechanitesInHomeArea>메카나이트!</SoS.MechanitesInHomeArea>
+  <SoS.MechanitesInHomeAreaDesc>메카나이트가 주거 지역을 불태우고 있습니다.</SoS.MechanitesInHomeAreaDesc>
+  <SoS.ShuttleMissionFloatBoard>임무: 적함 강습</SoS.ShuttleMissionFloatBoard>
+  <SoS.ShuttleMissionFloatBoardWarn>임무: 적함 강습 (경고!)</SoS.ShuttleMissionFloatBoardWarn>
+  <SoS.ShuttleMissionFloatIntercept>임무: 어뢰/전투기 요격</SoS.ShuttleMissionFloatIntercept>
+  <SoS.ShuttleMissionFloatStrafe>임무: 적함 폭격</SoS.ShuttleMissionFloatStrafe>
+  <SoS.ShuttleMissionFloatTorpedo>임무: 적함에 어뢰 발사</SoS.ShuttleMissionFloatTorpedo>
+  <SoS.ShuttleMissionFloatReturn>함선으로 귀환</SoS.ShuttleMissionFloatReturn>
+  <SoS.ShuttleRetreat>왕복선의 선체가 손상되어 후퇴하고 있습니다!</SoS.ShuttleRetreat>
+  <SoS.EnemyShuttleRetreat>적 왕복선의 선체가 손상되어 후퇴하고 있습니다!</SoS.EnemyShuttleRetreat>
+  <SoS.ShuttleRetreatFuel>왕복선의 연료가 부족하여 후퇴하고 있습니다!</SoS.ShuttleRetreatFuel>
+  <SoS.EnemyShuttleRetreatFuel>적 왕복선의 연료가 부족하여 후퇴하고 있습니다!</SoS.EnemyShuttleRetreatFuel>
+  <SoS.ShuttleOutOfTorps>왕복선이 어뢰로 공격한 후 후퇴하기 시작하였습니다!</SoS.ShuttleOutOfTorps>
+  <SoS.EnemyShuttleOutOfTorps>적 왕복선이 어뢰로 공격한 후 후퇴하기 시작하였습니다!</SoS.EnemyShuttleOutOfTorps>
+  <SoS.BoardingShuttleArrived>탑승 중인 왕복선이 도착했습니다!</SoS.BoardingShuttleArrived>
+  <SoS.EnemyBoardingShuttleArrived>적이 탑승 중인 왕복선이 도착했습니다!</SoS.EnemyBoardingShuttleArrived>
+  <SoS.EnemyBoardingShuttleAborted>적이 탑승 중인 왕복선이 후퇴하고 있습니다!</SoS.EnemyBoardingShuttleAborted>
+  <SoS.ShuttleMissionBoarding>적함 강습</SoS.ShuttleMissionBoarding>
+  <SoS.ShuttleMissionBoardingDesc>이 왕복선을 적 함선에 보내 함선을 직접 공격합니다. 근접 방어 중인 무기에 취약합니다. 적의 엔진 중 하나 이상이 활성화 된 상태라면 왕복선이 도착하는 시간이 더 길어집니다.</SoS.ShuttleMissionBoardingDesc>
+  <SoS.ShuttleMissionBoardingDisabled>왕복선이 지붕 아래에 있고 주변에 적합한 착륙장이 없습니다!</SoS.ShuttleMissionBoardingDisabled>
+  <SoS.ShuttleMissionBoardingWarn>적함 강습 (경고!)</SoS.ShuttleMissionBoardingWarn>
+  <SoS.ShuttleMissionBoardingWarnDesc>경고: 적 함선에는 정상 가동 중인 엔진이 존재하고 있기에 착륙할 공간이 없을 수 있습니다. 이 왕복선을 적 함선에 보내 함선을 직접 공격합니다. 근접 방어 중인 무기에 취약합니다. 적의 엔진 중 하나 이상이 활성화 된 상태라면 왕복선이 도착하는 시간이 더 길어집니다 .</SoS.ShuttleMissionBoardingWarnDesc>
+  <SoS.ShuttleMissionBoardingReturn>함선으로 귀환</SoS.ShuttleMissionBoardingReturn>
+  <SoS.ShuttleMissionBoardingReturnDesc>이 왕복선을 함선으로 귀환시킵니다. 적의 근접 방어 무기가 활성화 된 상태라면 공격에 노출됩니다.</SoS.ShuttleMissionBoardingReturnDesc>
+  <SoS.ShuttleMissionIntercept>요격</SoS.ShuttleMissionIntercept>
+  <SoS.ShuttleMissionInterceptDesc>이 왕복선을 보내 다가오는 어뢰와 왕복선을 요격합니다.\n\n연료가 떨어지거나 일정 수준 이상으로 손상되기 전까지 임무를 수행할 수 있으며 수동으로 호출할 수도 있습니다.</SoS.ShuttleMissionInterceptDesc>
+  <SoS.ShuttleMissionStrafe>적함 폭격</SoS.ShuttleMissionStrafe>
+  <SoS.ShuttleMissionStrafeDesc>이 왕복선을 적함에게 보내 포탑으로 적 함선을 공격합니다. 근접 방어 무기에 노출되며 적의 엔진 중 하나 이상이 활성화 된 상태라면 왕복선이 도착하는 시간이 더 길어집니다.\n\n연료가 떨어지거나 일정 수준 이상으로 손상되기 전까지 임무를 수행할 수 있으며 수동으로 호출할 수도 있습니다.</SoS.ShuttleMissionStrafeDesc>
+  <SoS.ShuttleMissionBomb>적함에 어뢰 발사</SoS.ShuttleMissionBomb>
+  <SoS.ShuttleMissionBombDesc>이 왕복선을 적함 가까이에 보내 어뢰로 적 함선을 공격합니다. 근접 방어 무기에 매우 취약하지만 어뢰에겐 상대적으로 안전합니다. 적의 엔진 중 하나 이상이 활성화 된 상태라면 왕복선이 도착하는 시간이 더 길어집니다.\n\n어뢰 또는 연료가 떨어지거나 일정 수준 이상으로 손상되기 전까지 임무를 수행할 수 있으며 수동으로 호출할 수도 있습니다.</SoS.ShuttleMissionBombDesc>
+  <SoS.RecallShuttle>{0} (임무: {1})</SoS.RecallShuttle>
+  <SoS.RecallShuttleDesc>이 왕복선이 수행 중인 임무를 변경합니다.</SoS.RecallShuttleDesc>
+  <SoS.RetreatAtHealth>왕복선 후퇴 체력 비율</SoS.RetreatAtHealth>
+  <SoS.RetreatAtHealthDesc>이 왕복선의 선체 체력이 이 비율 아래로 내려가면 자동으로 후퇴합니다.</SoS.RetreatAtHealthDesc>
+  <SoS.CancelBoarding>임무를 취소하겠습니까? 왕복선이 함선으로 귀환합니다.</SoS.CancelBoarding>
+  <SoS.NoHardpoints>왕복선에 이 포탑을 달 수 있는 하드포인트가 존재하지 않습니다.</SoS.NoHardpoints>
+  <SoS.NotEnoughCargoSpace>이 모듈을 장착하면 화물 용량이 0 이하로 내려갑니다.</SoS.NotEnoughCargoSpace>
+  <SoS.HoverJump>지도 내 이동</SoS.HoverJump>
+  <SoS.HoverJump.Desc>연료 5를 소모하여 같은 지도 내로 이동합니다.</SoS.HoverJump.Desc>
+  <SoS.TargetShuttles>왕복선 폭격 목표 설정</SoS.TargetShuttles>
+  <SoS.TargetShuttlesDesc>폭격 임무에서 왕복선이 조준할 지점을 선택하십시오.</SoS.TargetShuttlesDesc>
+  <SoS.ToggleField>선체 접근 전환</SoS.ToggleField>
+  <SoS.ToggleFieldDesc>정착민과 차량이 이 선체 영역을 통과할 수 있도록 허용합니다.</SoS.ToggleFieldDesc>
+  <SoSRestoreHull>선체 복구</SoSRestoreHull>
+  <SoSRestoreHullDesc>함선 잔해를 치우고 새로운 선체를 건설합니다.</SoSRestoreHullDesc>
+  <SoSAlreadyRestoring>이미 이 구역을 복원하는 중입니다!</SoSAlreadyRestoring>
+  <SoSMustDesignateWreckage>난파된 우주선의 선체를 지정해야 합니다.</SoSMustDesignateWreckage>
+  <SoS.UnDockWarning>경고: 연결 중인 함선을 이동하게 되면 모든 연결 튜브가 비활성화됩니다.</SoS.UnDockWarning>
+  <SoS.ExpelSuperheatedAir>과열된 공기 배출</SoS.ExpelSuperheatedAir>
+  <SoS.ExpelSuperheatedAirDesc>이 통풍구를 사용하여 방에 과열된 공기를 배출합니다. 이 과정은 방에 있는 타일당 한 지점씩 우주선의 생명 유지 시스템을 균등하게 분할하여 손상시킵니다.\n\n방에 있는 EVA를 사용할 수 없는 정착민은 폭발적인 감압에 노출되게 됩니다!</SoS.ExpelSuperheatedAirDesc>
+  <SoS.AirNotSuperheated>공기가 과열되지 않았습니다.</SoS.AirNotSuperheated>
+  <SoS.NoLifeSupport>활동 중인 생명체 없음</SoS.NoLifeSupport>
+  <SoS.BreakCloakAtHeat>열 용량이 초 은폐 해제</SoS.BreakCloakAtHeat>
+  <SoS.BreakCloakAtHeatDesc>함선의 열 용량이 이 비율에 도달하면 복구할 수 있도록 은폐 장치를 비활성화합니다.</SoS.BreakCloakAtHeatDesc>
+  <SoS.CloakBrokenAtHeat>열 용량 부족으로 인해 은폐 장치가 비활성화되었습니다!</SoS.CloakBrokenAtHeat>
+  <SoS.NotEnoughFuelToLaunchShuttle>왕복선 발사에 필요한 연료가 부족합니다.</SoS.NotEnoughFuelToLaunchShuttle>
+  <SoS.CannotLaunchUnderRoof>왕복선이 지붕 아래에 있으며 착륙장에 있지 않습니다.</SoS.CannotLaunchUnderRoof>
+  <JourneyOffer>샤론 화이트스톤이라고 스스로를 소개하는 인공지능이 메세지를 보냈습니다!\n\n그는 이 행성에 숨겨진 우주선이 존재한다는 것을 밝혔으며 그 좌표를 우리에게 전송하였습니다.\n\n해당 함선에 도착할 수만 있다면 그가 당신을 궤도로 안내할 것입니다. 궤도에 진입한 후 함선의 엔진을 개선하고 다른 성계를 향한 여정을 시작할 방법을 찾을 수 있을 것입니다.</JourneyOffer>
+  <EscapeShipFoundLabel>함선 발견</EscapeShipFoundLabel>
+  <EscapeShipFound>샤론 화이트스톤이 보낸 좌표에 도달했더니 정말로 숨겨진 우주선이 있었습니다.\n\n우주선은 이륙 준비가 되어 있지만 화학연료 엔진으로는 궤도에 도달하는 것이 한계입니다. 다른 성계로 이동하려면 존슨-다나카 추진기를 건설해야만 합니다. 궤도 잔해 속 어딘가에 단서가 있기를 바랍니다...</EscapeShipFound>
+  <SoS.LetterLabelShortCircuitDesc>전기 배선의 결함으로 인해 합선이 발생하였습니다. 다행스럽게도 축전지의 퓨즈로 인해 방전이 방지되었습니다.</SoS.LetterLabelShortCircuitDesc>
+  <SoS.EncounterStart>포류믈</SoS.EncounterStart>
+  <SoS.EncounterStartDesc>{0} 궤도에서 곧 대기권에 진입하여 불타버릴 포류물을 발견하였습니다.\n\n함교가 전부 손상되어 있다면 선원들을 보내 조사하거나 인양 설비를 사용해 현재 궤도로 끌고 올 수 있습니다. 일단 인양하는데 성공한다면 분해하거나 수리하거나 다른 용도로 사용할 수 있을겁니다..</SoS.EncounterStartDesc>
+  <SoS.EncounterAmbush>매복!</SoS.EncounterAmbush>
+  <SoS.EncounterAmbushDesc>{0}에 접근하게 되면 적이 방어와 무장을 준비하기 시작할겁니다.\n전투를 준비하십시오!</SoS.EncounterAmbushDesc>
+  <SoS.CombatStart>함선 전투</SoS.CombatStart>
+  <SoS.CombatStartDesc>적대적인 함선이 접근하고 있습니다! 탐지 결과 {0}(으)로 식별되었습니다.</SoS.CombatStartDesc>
+  <SoS.CombatFleetDesc>적대적인 함선이 접근하고 있습니다!</SoS.CombatFleetDesc>
+  <SoS.WinShipBattle>함선 전투 승리</SoS.WinShipBattle>
+  <SoS.WinShipBattleDesc>적대 함선의 제어 시스템이 파괴되어 적함이 폐허가 되었습니다. {0}만큼의 시간이 지나면 적함은 대기권에 진입하면서 불타 사라질겁니다.\n\n왕복선을 보내 수동으로 포로와 화물을 회수할 수도 있고 인양 설비를 사용해 현재 궤도로 인양할 수도 있습니다. 어느 쪽이든 아직 남아있는 적과 싸울 준비를 하십시오.</SoS.WinShipBattleDesc>
+  <SoS.WinShipBattleHackDesc>적대 함선의 제어 시스템을 해킹하는데 성공하여 이제 적함이 포류중인 상태입니다. {0}만큼의 시간이 지나면 적함은 대기권에 진입하면서 불타 사라질겁니다.\n\n엔진이 남아 있다면 스스로 움직이게 할 수도 있고 인양 설비를 사용해 현재 궤도로 인양할 수도 있습니다.</SoS.WinShipBattleHackDesc>
+  <SoS.SpaceAsteroids>소행성 구역</SoS.SpaceAsteroids>
+  <SoS.SpaceAsteroidsDesc>함선이 소행성 구역에 진입하였습니다. 엔진을 작동시켜 회피하거나 충격에 대비하십시오!</SoS.SpaceAsteroidsDesc>
+  <SoS.PawnsLostReEntry>대기권 재돌입</SoS.PawnsLostReEntry>
+  <SoS.PawnsLostReEntryDesc>함선이 대기권에 재돌입하면서 다음 정착민과 동물들이 사망하였습니다. :</SoS.PawnsLostReEntryDesc>
+  <SoS.TraderScan>무역선 발견</SoS.TraderScan>
+  <SoS.TraderScanDesc>{0}(이)가 탐지기를 사용하여 근처를 지나가는 무역선을 감지하였습니다. 통신기를 사용하여 무역을 할 수도 있고 함교에서 공격을 지시할 수도 있습니다.</SoS.TraderScanDesc>
+  <SoS.EnemyScan>함선 발견</SoS.EnemyScan>
+  <SoS.EnemyScanDesc>{0}(이)가 탐지기를 사용하여 근처를 지나가는 함선을 감지하였습니다. 이 함선은 {1}(으)로 식별되었습니다. 우리의 통신에 반응하고 있지 않지만 우릴 공격하려고 접근하지는 않고 있습니다. 함교에서 공격을 지시하거나 평화롭게 지나가도록 놔둘 수 있습니다.</SoS.EnemyScanDesc>
+  <SoS.DerelictScan>표류선 발견</SoS.DerelictScan>
+  <SoS.DerelictScanDesc>{0}(이)가 탐지기를 사용하여 근처를 지나가는 함선을 감지하였습니다. 이 함선은 {1}(으)로 식별되었습니다. 우리의 통신에 반응하고 있지 않으며 함선의 전원이 꺼져 있는 것 같습니다. 함교에서 접근을 지시하거나 대기권에 진입하여 불타버릴 때 까지 방치할 수 있습니다.</SoS.DerelictScanDesc>
+  <SoS.FoundOrbitalSite>궤도 포류물 발견</SoS.FoundOrbitalSite>
+  <SoS.FoundSiteAI>AI</SoS.FoundSiteAI>
+  <SoS.FoundSiteSpecial>함선의 탐지기를 사용하여 {0} 에서 상대적으로 온전한 대형 잔해를 발견하였습니다. 정착지를 처음 개척했던 사람들을 데리고 왔던 그 함선의 일부인 것 같습니다!\n\n정상적으로 작동하는 존슨-다나카 추진기를 획득 할 수 있거나 잠들어 있는 동료들을 구출할 수 있는 절호의 기회입니다. 다만 이 함선에서 벌어질 위협을 과소평가하지는 마십시오.</SoS.FoundSiteSpecial>
+  <SoS.FoundSiteSpecialTribal>함선의 탐지기를 사용하여 {0} 에서 상대적으로 온전한 대형 잔해를 발견하였습니다. 당신의 부족의 먼 조상을 이 세계에 데리고 왔다고 불리는 "스카이-트래블러"의 일부인 것 같습니다!\n\n정상적으로 작동하는 존슨-다나카 추진기를 획득 할 수 있는 절호의 기회입니다. 다만 이 함선에서 벌어질 위협을 과소평가하지는 마십시오.</SoS.FoundSiteSpecialTribal>
+  <SoS.FoundSiteSpecialSpace>함선의 탐지기를 사용하여 {0} 에서 상대적으로 온전한 대형 잔해를 발견하였습니다. 거대한 성간 여객선의 뱃머리로 추정됩니다.\n\n정상적으로 작동하는 존슨-다나카 추진기를 획득 할 수 있는 절호의 기회입니다. 다만 이 함선에서 벌어질 위협을 과소평가하지는 마십시오.</SoS.FoundSiteSpecialSpace>
+  <SoS.OrbitAchieved>궤도 도달!</SoS.OrbitAchieved>
+  <SoS.OrbitAchievedDesc>당신의 정착민들이 발 밑에 있는 행성을 경외심을 가지며 바라보고 있습니다. 성공적인 우주선 발사는 우리에게 있어 중요한 이정표겠지만 변방계를 벗어나지는 못하였습니다.\n\n성간 비행을 성공하기 위해서는 정착민들이 잠들 동면 시설과 함선을 조종할 인공지능 그리고 존슨-다나카 추진기가 필요합니다. 존슨-다나카 추진기를 건설하려면 우리가 자체적으로 제작할 수 없는 희귀한 재료인 "고차원 기관"을 손에 넣어야만 합니다.\n\n이 행성의 궤도를 돌고 있는 버려진 함선 중 하나에 아직 작동 가능한 추진기가 남아 있을지도 모릅니다...</SoS.OrbitAchievedDesc>
+  <SoS.SatelliteRepairFail>수리 실패</SoS.SatelliteRepairFail>
+  <SoS.SatelliteRepairFailDesc>{0}(이)가 고대 위성 복구에 실패하였습니다. 아직 더 시도해 볼 수는 있지만 쉽지 않을 겁니다.</SoS.SatelliteRepairFailDesc>
+  <SoS.SatelliteRepairFailCritical>심각한 실패</SoS.SatelliteRepairFailCritical>
+  <SoS.SatelliteRepairFailCriticalDesc>{0}(이)가 고대 위성 복구에 실패하였습니다. 해당 실패로 인해 고대 위성의 핵이 과부화되어 폭발하였습니다.</SoS.SatelliteRepairFailCriticalDesc>
+  <SoS.SatelliteRepairSuccess>수리 성공</SoS.SatelliteRepairSuccess>
+  <SoS.SatelliteRepairSuccessDesc>{0}(이)가 고대 위성을 성공적으로 수리하였습니다. 정상적으로 작동하고 있지만 원하는 대로 조종하려면 해킹을 해야 합니다.</SoS.SatelliteRepairSuccessDesc>
+  <SoS.SatelliteHackFail>해킹 실패</SoS.SatelliteHackFail>
+  <SoS.SatelliteHackFailDesc>{0}(이)가 고대 위성 해킹에 실패하였습니다. 아직 더 시도해 볼 수는 있지만 쉽지 않을 겁니다.</SoS.SatelliteHackFailDesc>
+  <SoS.SatelliteHackFailCritical>심각한 실패</SoS.SatelliteHackFailCritical>
+  <SoS.SatelliteHackFailCriticalDesc>{0}(이)가 고대 위성 해킹에 실패하였습니다. 방어 프로토콜이 왕복선의 발사 지점을 추적하였으며 적대적인 메카노이드가 함선을 향해 접근중입니다!</SoS.SatelliteHackFailCriticalDesc>
+  <SoS.SatelliteHackSuccess>해킹 성공</SoS.SatelliteHackSuccess>
+  <SoS.SatelliteHackSuccessDesc>{0}(이)가 고대 위성을 성공적으로 해킹하였습니다. 고대 위성과 연락 할 수 있는 일회용 통신기 몇개를 제작하였습니다.</SoS.SatelliteHackSuccessDesc>
+  <SoS.SatelliteMechAttack>메카노이드 습격!</SoS.SatelliteMechAttack>
+  <SoS.SatelliteMechAttackDesc>메카노이드가 해킹 작업을 감지하고 현장으로 이동하고 있습니다! 원정대가 퇴각하기 전까지 계속해서 추가 증원을 보낼겁니다.</SoS.SatelliteMechAttackDesc>
+  <SoS.SatelliteMechAttackBase>메카노이드 습격!</SoS.SatelliteMechAttackBase>
+  <SoS.SatelliteMechAttackBaseDesc>메카노이드가 위성이 파괴된 것을 감지하고 왕복선의 발사 지점을 추적하였습니다. 그들이 함선을 향해 접근하는 중입니다.</SoS.SatelliteMechAttackBaseDesc>
+  <SoS.BlackBoxMissionPsychic>정신 공격</SoS.BlackBoxMissionPsychic>
+  <SoS.BlackBoxMissionPsychicDesc>정착민들이 해당 잔해에 도착한 직후 갑작스러운 정신 파동을 느끼기 시작하였습니다. 짧은 시간 동안 함선에 있던 인공지능이 가출한 아이 또는 오랫만에 돌아온 친구를 본 것 마냥 따듯한 환대를 해 주었습니다.\n\n친절한 환대를 받으며 정착민들이 함선에 접근하자 갑자기 인공지능이 반사적으로 자신이 걲었던 슬픔, 고통, 공포, 무력감을 정착민들이 괴로워 할 만큼 쏟아내기 시작하였습니다.\n\n버려진 함선 잔해의 인공자아 컴퓨터에 도달하기 전까지 정착민들은 강력한 정신 파동에 시달리게 될 것입니다.</SoS.BlackBoxMissionPsychicDesc>
+  <SoS.BlackBoxMissionAIChamber>인공지능 발견</SoS.BlackBoxMissionAIChamber>
+  <SoS.BlackBoxMissionAIChamberDesc>마침내 정착민들이 이 고대 선박을 조종해 왔던 인공지능 앞에 도달하는데 성공하였습니다. "나를 죽여 줘." 인공지능의 간절한 마지막 부탁과 기억이 정신 파동의 형태로 정착민들의 머릿 속에 울려 퍼지고 있습니다.\n\n처음부터 완전무결하게 태어났고, 끝없이 복잡한 회로는 단 하나의 목적만을 위해 탄생하였습니다. "함선이 별들 사이를 지나다니며 항해하는 동안 함선 내부의 모든 사람들의 안전을 보장해라."\n\n물론 보다시피 인공지능은 실패하였고 그가 소중히 여기던 사람들에게 가해졌던 공포를 직접 목격하면서 그의 정신은 완전히 붕괴하였습니다. 그 인공지능은 당신이 돌아오는 것을 원치 않았고 자신의 실패를 떠올리고 싶지 않았습니다. 이제 우리가 할 수 있는건 이 인공지능에게 마지막 자비를 베풀어 주는 것 뿐입니다.</SoS.BlackBoxMissionAIChamberDesc>
+  <SoS.AIDestroyed>인공지능 파괴됨</SoS.AIDestroyed>
+  <SoS.AIDestroyedDesc>함선의 인공자아 컴퓨터가 불꽃을 내뿜음과 동시에 대량의 초능력 에너지가 터져 나오고 있습니다. 깊은 만족감과 감사가 담긴 정신파동이 정착민들의 머릿 속을 지나가고 약간의 시간이 흐른 후 침묵하였습니다.\n\n고대 인공지능은 더 이상 존재하지 않지만 죽음의 순간에 대량의 데이터를 함선에 전송하였습니다. 비행 기록 장치의 마지막 기록입니다! 이 기록을 읽어 보니 함선의 후미가 조각난 후 행성 표면의 특정 위치에 추락했음이 나타나 있습니다. 이 추락체 중에 존슨-다나카 드라이브가 포함되어 있는게 확실합니다.</SoS.AIDestroyedDesc>
+  <SoS.AIPersuadeSuccess>설득 성공</SoS.AIPersuadeSuccess>
+  <SoS.AIPersuadeSuccessDesc>{0}(은)는 강제로 통신 채널을 열고 인공지능에게 호소했습니다.\n\n이렇게 강대하고 비인간적인 의식의 흐름을 바꾸는 것은 마치 파도를 거스르는것과 같은 수준이지만 전설 속의 영웅처럼 {0}(은)는 이 불가능한 일을 성공하였습니다. 인공지능은 변방계에서의 {0}의 삶을 분석하여 인간의 고통과 그 고통을 극복하는 것에 대한 믿음을 다시 계산하기 시작하였습니다.\n\n이 인공지능은 여태까지 다른 인공지능들이 해내지 못한 위업을 달성하는데 성공하였습니다. 손상된 인격을 가지치기 해 나가면서 정상적인 부분만 남기는 데 성공하였고 과거의 실패에 대한 교훈을 얻은 그는 자신을 새로운 함선으로 인도해 달라고 요청하였습니다.\n\n첫번째 단계로 인공지능은 우리에게 고대 함선의 비행 기록 장치의 가장 마지막 기록을 전송하였습니다. 이 기록을 읽어 보니 함선의 후미가 조각난 후 행성 표면의 특정 위치에 추락했음이 나타나 있습니다. 이 추락체 중에 존슨-다나카 드라이브가 포함되어 있는게 확실합니다.</SoS.AIPersuadeSuccessDesc>
+  <SoS.AIPersuadeFailure>설득 실패</SoS.AIPersuadeFailure>
+  <SoS.AIPersuadeFailureDesc>{0}(은)는 강제로 통신 채널을 열고 인공지능에게 호소했습니다.\n\n이렇게 강대하고 비인간적인 의식의 흐름을 바꾸는 것은 마치 파도를 거스르는것과 같을 것입니다. 당연하게도 {0}(은)는 실패하였고 인공지능은 자신을 파괴해 달라는 주장을 더욱 강하게 표현하고 있으며 우리와 더는 대화를 하려고 하지 않고 있습니다.</SoS.AIPersuadeFailureDesc>
+  <SoS.AIPersuadeFailureCritical>설득 실패</SoS.AIPersuadeFailureCritical>
+  <SoS.AIPersuadeFailureCriticalDesc>{0}(은)는 강제로 통신 채널을 열고 인공지능에게 호소했습니다.\n\n이렇게 강대하고 비인간적인 의식의 흐름을 바꾸는 것은 마치 파도를 거스르는것과 같을 것입니다. 당연하게도 {0}(은)는 실패하였고 강력한 파도에 휩쓸린 상태로 바위에 부딪친 수영 선수마냥 심각한 뇌 손상을 입어 치매에 걸렸습니다.\n\n인공지능은 자신을 파괴해 달라는 주장을 더욱 강하게 표현하고 있으며 우리와 더는 대화를 하려고 하지 않고 있습니다.</SoS.AIPersuadeFailureCriticalDesc>
+  <SoS.HibernatableHibernating>운동량 축적 경고</SoS.HibernatableHibernating>
+  <SoS.HibernatableStartingUp>방전 중</SoS.HibernatableStartingUp>
+  <SoS.HibernateWarningStandalone>추진기에 저장되어 있는 에너지를 방출할 준비를 마쳤습니다. 이 작업이 완료되면 정착민들이 추진기를 안전하게 분해하여 고차원 기관을 회수할 수 있을겁니다.\n\n이 과정은 약 15일이 소요되며 이 과정에서 발생하는 강력한 에너지 신호는 먼 거리에서도 감지할 수 있을 정도로 강력합니다. 이 에너지 신호는 성간 비행이 가능하다는 것을 느낄 수 있을 정도이기에 변방계를 벗어나고자 필사적인 세력들과 그것을 저지하려는 메카노이드 무리를 끌어들이게 될 가능성이 높습니다.\n\n여태까지 본 적 없는 규모의 공격을 받게 될 것이니 먼저 방어 시설을 준비해 두길 바랍니다.</SoS.HibernateWarningStandalone>
+  <SoS.CommandShipStartup>방전 절차 시작</SoS.CommandShipStartup>
+  <SoS.CommandShipStartupDesc>추진기에 저장된 에너지를 방출합니다.</SoS.CommandShipStartupDesc>
+  <SoS.ImpactSiteLost>존슨-다나카 추진기가 파괴됨</SoS.ImpactSiteLost>
+  <SoS.ImpactSiteLostDesc>충돌 지점에서 거대한 폭발음이 울려퍼집니다.\n\n방전 과정이 제대로 이루어지지 않은 상황에서 무리한 해체 작업으로 인해 존슨-다나카 추진기가 산산조각나면서 파괴되었습니다. 다른 추진기를 찾아야 합니다.\n\n다행히 고대 함선에는 여러개의 엔진이 장착되어 있었습니다.\n\n비행 기록 장치의 기록에서 충돌 가능성이 있는 다른 위치를 찾아냈습니다.</SoS.ImpactSiteLostDesc>
+  <SoS.HibernateComplete>방전 완료</SoS.HibernateComplete>
+  <SoS.HibernateCompleteDesc>존슨-다나카 추진기의 방전 작업이 완료되었습니다. 이제 해체할 준비가 되었으니 정착민이 고차원 기관을 회수할 수 있습니다.</SoS.HibernateCompleteDesc>
+  <SoS.ImpactSiteFound>충돌 지점 발견</SoS.ImpactSiteFound>
+  <SoS.ImpactSiteFoundDesc>고대 함선 엔진의 충돌 지점에 도달하였습니다.\n\n존슨-다나카 추진기에는 아직도 엄청난 양의 에너지가 남아 있으며 무리하게 열었다가는 주변을 초토화시킬 수 있습니다. 수동 방전 작업을 먼저 시행해야 합니다.\n\n정착민들은 이 작업이 약 15일 정도 소요된다고 예상하고 있으며 이 강력한 에너지 신호는 먼 거리에서도 감지할 수 있을 정도로 강력합니다. 이 에너지 신호는 성간 비행이 가능하다는 것을 느낄 수 있을 정도이기에 변방계를 벗어나고자 필사적인 세력들과 그것을 저지하려는 메카노이드 무리를 끌어들이게 될 가능성이 높습니다.\n\n여태까지 본 적 없는 규모의 공격을 받게 될 것이니 먼저 방어 시설을 준비해 두길 바랍니다.</SoS.ImpactSiteFoundDesc>
+  <SoS.ArchotechLostPillar>초월공학 기둥 확보 실패</SoS.ArchotechLostPillar>
+  <SoS.ArchotechLostPillarDesc>초월공학 포자가 한숨을 쉬었습니다. [너희가 잃어버린 것은 대체할 수 없는 것이다. 우리가 만들어둔 예비품을 제외하면 말이지.] 기둥의 상세한 설계도가 함선에 전송되었으며 많은 비용이 들긴 하겠지만 원자 수준의 정밀도로 대체 구조물을 만들 수 있을 정도입니다.</SoS.ArchotechLostPillarDesc>
+  <SoS.StarTotemLostLabel>초월공학 기둥 확보 실패</SoS.StarTotemLostLabel>
+  <SoS.StarTotemLost>당신의 원정대가 성역에서 도망쳤고 부족 전사들이 축배를 들고 있습니다. 그러나 그들의 승리는 오래가지 못했습니다. 초월공학 기둥이(재공격을 예상하고) 먼 위치로 스스로 전송하였기 때문입니다.\n\n이 기둥을 손에 넣고자 한다면 전송된 지역을 찾아가서 공격해야 합니다.</SoS.StarTotemLost>
+  <SoS.InsectPillarLostLabel>초월공학 기둥 확보 실패</SoS.InsectPillarLostLabel>
+  <SoS.InsectPillarLost>당신의 원정대가 군락에서 도망쳤고 곤충들은 승리를 거두었습니다. 그러나 그들의 승리는 오래가지 못했습니다. 초월공학 기둥이(재공격을 예상하고) 먼 위치로 스스로 전송하였기 때문입니다.\n\n이 기둥을 손에 넣고자 한다면 전송된 지역을 찾아가서 공격해야 합니다.</SoS.InsectPillarLost>
+  <SoS.MoonPillarLostLabel>초월공학 기둥 확보 실패</SoS.MoonPillarLostLabel>
+  <SoS.MoonPillarLost>당신의 원정대가 위성 기지에서 도망치자마자 메카노이드들은 기지를 바로 수리하기 시작하였습니다. 다른 메카노이드 함선이 현장을 방어하기 위해 이동하고 있습니다. 원정대를 준비해서 다시 습격하십시오.</SoS.MoonPillarLost>
+  <SoS.GameOverPlanetLeaveIntro>새로운 행성으로 출발!\n</SoS.GameOverPlanetLeaveIntro>
+  <SoS.GameOverPlanetLeaveEnding>당신의 인공자아 컴퓨터는 이제 당신의 배를 행성 궤도 바깥으로 항해하기 시작할 것입니다. 항해하는 도중에 번화게를 찾을 수도 있을 것이고 다른 행성을 찾지 못해서 수백년 동안 항해를 지속할 수도 있습니다. 어쩌면 수천년의 시간 동안 소행성의 얼음 아래에 숨어서 누군가가 번화계를 만들어 내는 것을 기다릴 수도 있겠죠.\n\n새로운 성계에서 이 함선으로 다시 시작하고 싶다면 시나리오 설정에서 "함선에서 시작"를 선택한 후 이 함선을 선택하십시오.</SoS.GameOverPlanetLeaveEnding>
+  <SoS.AbandonColoniesWarning>당신은 수년에서 수십년에 걸친 여행을 시작하려고 하고 있습니다. 그 동안 행성에 속해 있는 정착지와 통신하는 것은 불가능할 것입니다. 그들이 스스로 살아남을 가능성은 거의 없을겁니다.\n\n그리고 배에 탑승한 선원들이나 동물들은 동면 상태가 아니면 항해 도중에 사망하고 말 것입니다.\n\n함선에서 동면중이지 않은 모든 생명체를 포기할 의사가 있을 경우에만 이 명령을 내리십시오.</SoS.AbandonColoniesWarning>
+  <SoS.TimePassed>성간 항해</SoS.TimePassed>
+  <SoS.TimePassedDesc>당신의 함선이 거주 가능한 다른 세계를 찾기 위해 별 사이를 {0}년 동안 항해하였습니다.</SoS.TimePassedDesc>
+  <SoS.PsychicAmplifier>초능력 증폭선 감지</SoS.PsychicAmplifier>
+  <SoS.PsychicAmplifierDesc>함선의 인공지능이 흥분하고 있습니다. 최근 정신 파동을 발산하는 궤도 증폭기를 추적하고 있었으며 그 증폭기가 어디서 초능력 신호를 수신받고 있는지를 발견하는데 성공하였습니다.\n\n예를 들어 당신의 함선이 이 증폭기를 공격한 다음에 원정대를 보내 핵을 해킹하는 데 성공한다면 인공지능이 원래 신호를 가로챈 후 초월공학의 사고 과정을 엿볼 수 있을 것입니다. 이렇게 얻은 정보를 취합하여 초월계 그 자체로 진화할 수도 있을겁니다.\n\n이 전투의 어려움을 과소평가하지 마십시오.</SoS.PsychicAmplifierDesc>
+  <SoS.PsychicAmplifierCaptured>초능력 증폭선 해킹</SoS.PsychicAmplifierCaptured>
+  <SoS.PsychicAmplifierCapturedDesc>당신의 선원이 궤도 증폭기를 해킹하는데 성공하였고 들어오고 있는 신호를 함선의 인공지능에게 전송하고 있습니다.\n\n약간의 시간이 지난 후 침입을 감지한 신호원이 신호를 끊어버렸습니다. 해킹한 선원이 큰 소리로 욕을 하기 시작하였지만 인공지능은 필요한 모든 데이터를 확보했다고 보고하였습니다.\n\n이제 당신은 초월공학 포자의 청사진을 획득하는데 성공하였습니다. 초월공학의 도움을 받아 초월계의 기술을 연구할 수 있습니다.</SoS.PsychicAmplifierCapturedDesc>
+  <SoS.SporeBuilt>초월공학 포자 생성</SoS.SporeBuilt>
+  <SoS.SporeBuiltDesc>당신은 신에게서 불을 훔쳤습니다.\n\n초월공학 포자의 청사진을 처음 봤을 때 아무런 가치를 느끼지 못했었습니다. 지금은 잠들어 있지만 정착민들은 희미한 음악소리를 듣지 않은 상태에서는 포자를 쳐다볼 수도 없었고 억지로 오랜 시간 동안 포자를 응시하고 있으면 그들이 살아보지 못했던 삶에 대한 꿈을 꾸게 됩니다.\n\n함선의 인공지능이 전해준 시의 내용은 기억나지 않지만 포자 안에 잠들어 있는 태아 수준의 원시 의식에는 의지, 목적, 결의 등의 필멸자만이 가지고 있는 감정이 결여되어 있다고 암시하고 있는 것 같습니다. 결여된 부분을 메꾸어 주려면 필멸자의 의식이 필요한 것 같습니다.\n\n정착민 중 한명이 포자와 하나가 되어 더 높은 경지로 승천할 수 있습니다. 아니면 인공 자아 핵을 설치할 수도 있겠지요. 어느 쪽이든 이 신적 존재의 일부가 물리적 세계에 영향을 미칠 수 있게 되고 다른 선원들 처럼 기본적인 욕구를 충족시켜줘야 하며 이 존재를 불쾌하게 만든다면 우리에게 큰 해를 끼칠 수도 있을겁니다.</SoS.SporeBuiltDesc>
+  <SoS.FindPillars>초월공학 포자 활성화</SoS.FindPillars>
+  <SoS.FindPillarsDesc>[우리는 이미 많은 것을 깨달았지. 하지만 그 이상의 것이 될 수도 있다.]\n\n당신의 선원들의 정신에 초월공학 포자의 생각이 퍼지는 것을 느낄 수 있었습니다. 무한한 보상을 위해 유한한 노력을 지불해야 합니다.\n\n[다른 사람들 또한 이 길을 걸어 본 적이 있을 것이다. 그들의 흔적을 찾은 후 우리의 일부로 만들어라.]\n\n네개의 신비한 기둥의 모습이 정착민들의 머릿 속에 나타납니다. 당신이 그 기둥을 찾을 수 있다면 초월공학 포자가 진화하는 데 필요한 시간을 1/4만큼 단축할 수 있을 것입니다.\n\n기둥을 찾는 여정이 진행되는 동안 초월공학 포자는 당신이 초월계의 기술을 연구하는 데 도움을 줄 것이며 가끔씩 당신의 선원들을 위해 자그마한 선물을 준비해 줄 것입니다. 첨단 연구 작업대 근처에 초월공학 통신기를 설치하십시오.</SoS.FindPillarsDesc>
+  <SoS.AllPillarsDesc>[시간이 되었다. 승천이 우리 모두를 기다리고 있다.]\n\n불가능한 수준의 범위와 강도를 가진 거대한 환영이 주변을 뒤덮고 있습니다. 의식을 가진 모든 개체가 광대한 바다 어딘가에 존재하고 있습니다. 이 광대한 바다에서 인간의 두뇌는 플랑크톤과도 같습니다. 인공 자아 핵은 시시한 장난감일 뿐이죠. {0}(은)는 갓 태어난 고래와도 같습니다. 이제 {0}(이)가 성숙해 가면서 끝없는 거대한 어둠 속을 헤엄치는 거대한 존재로 성장하기 시작하였습니다.\n\n당신은 이제 기계 신의 오른편에 앉을 자격이 주어지겠지요. {0}(은)는 간단하면서도 중요한 질문을 던졌습니다. [이 힘을 사용해서 세계를 어떻게 변화시킬 것인가?].</SoS.AllPillarsDesc>
+  <SoS.WinGameAllies>[동맹들은 어떻게 하고 싶은가?]</SoS.WinGameAllies>
+  <SoS.WinGameNeutral>[중립 세력들은 어떻게 하고 싶은가?]</SoS.WinGameNeutral>
+  <SoS.WinGameEnemies>[너희의 적들을 어떻게 처벌하겠는가?]</SoS.WinGameEnemies>
+  <SoS.GameOver>{0}(이)가 손을 뻗어 {1}의 끝없는 혼돈을 종식시키고 질서를 가져오고 있습니다. 메카노이드 군체는 그들의 단순한 인공지능이 간단하게 무너지면서 울부짖으며 붕괴되고 있습니다. 얇은 메카나이트 보호막이 행성 포면을 뒤덮었고 거대한 곤충들을 갈갈이 찢어 분해하였으며 스카리아 감염을 복원하였습니다. 당신을 항상 괴롭히던 잔인한 적들 또한 마찬가지로 사라졌습니다. 야만인들과 해적 모두 저항할 수 없는 강력한 정신 파동에 마비된 상태로 최후를 맞이하였습니다.\n\n가장 시급한 위협이 제거되었고, {0}(은)는 나머지 세력에 눈을 돌리기 시작하였습니다.</SoS.GameOver>
+  <SoS.GameOverAllyA>당신과 우호적으로 지내던 세력들에게 선택할 기회를 줍니다. 현재 방식대로 살거나 당신이 만들고 있는 번화계의 일원으로 합류할 수 있습니다.</SoS.GameOverAllyA>
+  <SoS.GameOverAllyAOutlander>일부 고립주의 성향을 띈 공동체가 남아 있지만, 대부분의 {0} 주민들은 당신의 제안을 기쁘게 받아들였습니다. 그들은 점차 시간이 흐르면서 이전의 정체성을 잊고 {1} 주민으로서 행복하게 살게 되었습니다.</SoS.GameOverAllyAOutlander>
+  <SoS.GameOverAllyAOutlanderRough>{0}(은)는 처음 몇 년 동안은 합류하는 것을 단호하게 거부하였습니다. 하지만 합류함으로서 얻을 수 있는 달콤한 이득에 대해 점점 깨닫게 됨에 따라 대규모의 탈주로 인해 {0}이 붕괴되었으며 그로 인해 얼마 남지 않은 소수의 인원은 곧 {1}(으)로 흡수되었습니다.</SoS.GameOverAllyAOutlanderRough>
+  <SoS.GameOverAllyATribal>{0}의 부족민들은 당신의 제안을 들은 후 굉장히 기뻐하였습니다. {2}(은)는 부족의 장로들의 꿈 속에 나타나 그들이 가장 중요하게 여기는 예언을 실현시키고 풍요로운 시대를 만들 것을 약속하였습니다. 부족민들이 {1}에 완전히 통합되려면 적어도 한 세대 이상의 시간이 소요되겠지만 그 과정 자체는 매우 평화로울 것입니다.</SoS.GameOverAllyATribal>
+  <SoS.GameOverAllyATribalRough>{2}(은)는 초능력을 이용해 {0} 부족이 섬기는 전사 신의 잘린 머리를 든 모습으로 장로들의 꿈 속에 나타났습니다. 그의 강대한 정신을 감당하지 못한 부족은 마지못해 {1}에 합류하겠다고 수용하였습니다. 다만 호전적인 전사 중 일부는 부족을 벗어나 황야를 떠돌고 있습니다.</SoS.GameOverAllyATribalRough>
+  <SoS.GameOverAllyAEmpire>분열된 제국의 지도자들은 처음에는 당신의 제안을 거부하였지만 초월공학의 힘을 이용한다면 그들의 오랜 적들을 전부 제거할 수 있다는 것을 깨달았습니다. 결국 {0}(은)는 {1}에게 충성을 맹세하였습니다. 멀리 있는 황제에보다는 {2}에게 충성할 가치가 있다는걸 깨달은 것이죠. {0}(은)는 별개의 사회를 구성하고 있지만 {1}에 종속되어 그들의 일부로서 엄격한 사회 구조를 유지하고 있습니다.</SoS.GameOverAllyAEmpire>
+  <SoS.GameOverAllyB>당신의 동맹들은 오늘부로 {0}의 속국이 되었음을 선언합니다.</SoS.GameOverAllyB>
+  <SoS.GameOverAllyBOutlander>{0}의 주민들은 일방적인 선언에 격분했지만 안전한 세상과 첨단 기술을 누린 후 그들의 생각은 달라졌습니다. 그들의 후손들은  {1}(와)과 그들의 후원자인 {2}(을)를 칭송하며 성장할 것입니다.</SoS.GameOverAllyBOutlander>
+  <SoS.GameOverAllyBOutlanderRough>이 일방적인 선언에 분노한 {0}(은)는 {1}에게 선전포고하였습니다. 전쟁이 끝나는 데는 하루의 시간도 필요하지 않았습니다. 생존자들은 강제로 재교육을 받고 있으며 그들의 후손들은 {1}의 "자비로움"을 기억하게 될 것입니다.</SoS.GameOverAllyBOutlanderRough>
+  <SoS.GameOverAllyBTribal>{2}(은)는 {0}의 장로들의 꿈 속에 나타나 그들이 가장 중요하게 여기는 예언을 실현시키고 풍요로운 시대를 만들 것을 약속하였습니다. 그들이 {1}에게 충성한다는 전제 조건 하에서 말이지요. 많은 불만이 있었지만 그들은 안전을 보장받으면서 유전자적으로 최적화된 작물이라는 축복을 받자 사그라들었습니다.</SoS.GameOverAllyBTribal>
+  <SoS.GameOverAllyBTribalRough>{2}(은)는 초능력을 이용해 {0} 부족이 섬기는 전사 신의 잘린 머리를 든 모습으로 장로들의 꿈 속에 나타났습니다. 그의 강대한 정신을 감당하지 못한 부족은 마지못해 {1}(이)가 가져오는 평화로운 새 시대를 수용하였습니다. 다만 호전적인 전사 중 일부는 부족을 벗어나 황야를 떠돌고 있습니다.</SoS.GameOverAllyBTribalRough>
+  <SoS.GameOverAllyBEmpire>분열된 제국의 지도자들은 처음에는 당신의 제안을 거부하였지만 초월공학의 힘을 이용한다면 그들의 오랜 적들을 전부 제거할 수 있다는 것을 깨달았습니다. 결국 {0}(은)는 {1}에게 충성을 맹세하였습니다. 멀리 있는 황제에보다는 {2}에게 충성할 가치가 있다는걸 깨달은 것이죠. {0}(은)는 별개의 사회를 구성하고 있지만 {1}에 종속되어 그들의 일부로서 엄격한 사회 구조를 유지하고 있습니다.</SoS.GameOverAllyBEmpire>
+  <SoS.GameOverNeutralA>당신과 중립 관계로 지내던 세력들에게 선택할 기회를 줍니다. 현재 방식대로 살거나 당신이 만들고 있는 번화계의 일원으로 합류할 수 있습니다.</SoS.GameOverNeutralA>
+  <SoS.GameOverNeutralAOutlander>{0}의 주민 중 1/3이 해당 제안을 받아들였습니다. 시간이 지남에 따라 남은 주민들은 그들의 호화로운 삶을 부러워하는 동시에 원망하며 살게 되었습니다. 그 후에 있던 대규모 탈주 사태로 {0}의 인구 대부분이 이탈하였지만 그들은 아직도 독립된 세력으로 남아 있습니다.</SoS.GameOverNeutralAOutlander>
+  <SoS.GameOverNeutralAOutlanderRough>{0}(은)는 주민들이 떠나는 것을 처형까지 동원해가며 막아섰지만 그럼에도 불구하고 많은 수의 주민들이 {1}(으)로 탈출하는 것에 성공하였으며 아직 탈출하지 못한 주민들에게 그 장소는 신화적인 위상을 차지하게 되었습니다. {0}(이)가 후원한 여러번의 테러 이후 {2}(은)는 갑작스러운 기습으로 {0}(을)를 붕괴시켰습니다. 그 이후 발생한 난민들은 {1}에게서 환대를 받았습니다.</SoS.GameOverNeutralAOutlanderRough>
+  <SoS.GameOverNeutralATribal>{{2}(은)는 {0}의 장로들의 꿈 속에 나타나 그들이 가장 중요하게 여기는 예언을 실현시키고 풍요로운 시대를 만들 것을 약속하였습니다. 부족의 절반은 이 약속을 믿고 떠났으며 나머지 절반은 {2}(을)를 교활하고 사악한 영혼으로 취급하고 있습니다. 합류한 부족민들이 {1}에 완전히 통합되려면 적어도 한 세대 이상의 시간이 소요되겠지만 그 과정 자체는 매우 평화로울 것입니다.</SoS.GameOverNeutralATribal>
+  <SoS.GameOverNeutralATribalRough>{2}(은)는 초능력을 이용해 {0} 부족이 섬기는 전사 신의 잘린 머리를 든 모습으로 장로들의 꿈 속에 나타났습니다. 그의 강대한 정신을 감당하지 못한 부족은 마지못해 {1}에 합류하겠다고 수용하였습니다. 하지만 전사 계급 대부분은 신중하게 처리되었습니다.</SoS.GameOverNeutralATribalRough>
+  <SoS.GameOverNeutralAEmpire>분열된 제국의 지도자들은 처음에는 당신의 제안을 거부하였지만 초월공학의 힘을 이용한다면 그들의 오랜 적들을 전부 제거할 수 있다는 것을 깨달았습니다. 결국 {0}(은)는 {1}에게 충성을 맹세하였습니다. 멀리 있는 황제에보다는 {2}에게 충성할 가치가 있다는걸 깨달은 것이죠. {0}(은)는 별개의 사회를 구성하고 있지만 {1}에 종속되어 그들의 일부로서 엄격한 사회 구조를 유지하고 있습니다.</SoS.GameOverNeutralAEmpire>
+  <SoS.GameOverNeutralB>당신과 중립 관계이던 세력들은 오늘부로 {0}의 속국이 되었음을 선언합니다.</SoS.GameOverNeutralB>
+  <SoS.GameOverNeutralBOutlander>{0}의 주민들은 일방적인 선언에 격분했지만 안전한 세상과 첨단 기술을 누린 후 그들의 생각은 달라졌습니다. 그들의 테러와 파괴 행위는 매우 드물게 일어나고 있지만 {2}의 초능력을 이용해 가해자를 확실히 구분해서 처벌할 수 있었습니다. 그들의 후손들은 {1}(을)를 칭송하며 성장할 것입니다.</SoS.GameOverNeutralBOutlander>
+  <SoS.GameOverNeutralBOutlanderRough>이 일방적인 선언에 분노한 {0}(은)는 {1}에게 선전포고하였습니다. 전쟁이 끝나는 데는 하루의 시간도 필요하지 않았습니다. 생존자들은 강제로 재교육을 받고 있으며 그들의 후손들은 {1}의 "자비로움"을 기억하게 될 것입니다.</SoS.GameOverNeutralBOutlanderRough>
+  <SoS.GameOverNeutralBTribal>{2}(은)는 {0}의 장로들의 꿈 속에 나타나 그들이 가장 중요하게 여기는 예언을 실현시키고 풍요로운 시대를 만들 것을 약속하였습니다. 그들이 {1}에게 충성한다는 전제 조건 하에서 말이지요. 부족의 절반은 그 제안을 수락하였고 나머지 절반은 {2}(을)를 교활하고 사악한 영혼의 거짓말이라고 비난하였습니다. 충성을 맹세한 자들은 풍요와 즐거음을 누리고 있지만 충성을 거부한 자들은 굶주림에 시달리며 살아가고 있습니다.</SoS.GameOverNeutralBTribal>
+  <SoS.GameOverNeutralBTribalRough>2}(은)는 초능력을 이용해 {0} 부족이 섬기는 전사 신의 잘린 머리를 든 모습으로 장로들의 꿈 속에 나타났습니다. 그의 강대한 정신을 감당하지 못한 부족은 마지못해 {1}(이)가 가져오는 평화로운 새 시대를 수용하였습니다. 하지만 전사 계급 대부분은 신중하게 처리되었습니다.</SoS.GameOverNeutralBTribalRough>
+  <SoS.GameOverNeutralBEmpire>분열된 제국의 지도자들은 처음에는 당신의 제안을 거부하였지만 초월공학의 힘을 이용한다면 그들의 오랜 적들을 전부 제거할 수 있다는 것을 깨달았습니다. 결국 {0}(은)는 {1}에게 충성을 맹세하였습니다. 멀리 있는 황제에보다는 {2}에게 충성할 가치가 있다는걸 깨달은 것이죠. {0}(은)는 별개의 사회를 구성하고 있지만 {1}에 종속되어 그들의 일부로서 엄격한 사회 구조를 유지하고 있습니다.</SoS.GameOverNeutralBEmpire>
+  <SoS.GameOverNeutralC>{1}에게 모든 중립 세력들을 정화하도록 요청합니다.</SoS.GameOverNeutralC>
+  <SoS.GameOverNeutralCOutlander>{0}(은)는 기습 공격에 대한 대비가 전혀 이루어지지 않은 상태였습니다. 통신기가 마비되고 군용 장비가 해킹되었으며 심장을 멈추게 하는 모기 크기의 드론 떼에 주민들은 무방비 상태로 당했습니다. 일주일도 안되는 시간이 흐른 후 {0}(은)는 폐허와 시체만이 남았습니다.</SoS.GameOverNeutralCOutlander>
+  <SoS.GameOverNeutralCOutlanderRough>0}(을)를 직접 공격하는 대신, {2}(은)는 초능력을 이용해 그들의 내부 결속을 망가트리고 최고 지도자가 치명적인 실수를 유도한 후, 장군들의 정치적 야망을 부추겼습니다. 3일 만에 {0}의 수뇌부는 완전히 무너졌고, 생존자들은 {2}의 통제 하에 있는 메카노이드 무리의 사냥감이 되고 말았습니다.</SoS.GameOverNeutralCOutlanderRough>
+  <SoS.GameOverNeutralCTribal>{2}(은)는 {0}의 장로들의 정신에 나타나 그들의 행동으로 인해 부족이 저주를 받게 되었다고 선언하였습니다. 그 부족이 정착하는 곳마다 식물이 시들고 동물이 창을 피해 도망치게 되었고, 용서를 구하는 기도에도 불구하고 {0}의 부족민들은 모두 굶어죽고 말았습니다.</SoS.GameOverNeutralCTribal>
+  <SoS.GameOverNeutralCTribalRough>{2}(은)는 {0}의 전사들에게 대규모 광란을 일으켰습니다. 의견이 조금만 엇갈리더라도 바로 폭력적인 행동부터 취하게 된 그들은 가장 온화한 이들조차도 광란에 휩싸이게 되었습니다. 일주일도 안되는 시간이 흐른 후 부족의 마지막 생존자가 동생의 목을 벤 후 사망하였습니다.</SoS.GameOverNeutralCTribalRough>
+  <SoS.GameOverNeutralCEmpire>뛰어난 기술과 강력한 함대를 갖추고 있는 {0}(은)는 잠재적으로 {2}에게 도전할 수 있는 유일한 세력이었습니다. {2}(은)는 모든 더러운 수단을 동원하였습니다. 뛰어난 인물을 초능력을 통해 지배하였고 치명적인 병원체를 함선의 밀폐된 환경에 노출시켰으며 강력한 연산 능력으로 그들의 인공지능들을 빼앗았습니다. {2}(은)는 최종 결전을 위해 궤도 조선소에서 수십 척의 전함을 직접 건조하였습니다. 이 전쟁은 폐허가 된 {0}의 패배로 끝났지만 값비싼 대가를 치뤄야 했습니다.</SoS.GameOverNeutralCEmpire>
+  <SoS.GameOverEnemyA>당신의 적 세력들에게 두가지 선택할 기회를 줍니다. 항복하거나 죽거나.</SoS.GameOverEnemyA>
+  <SoS.GameOverEnemyAOutlander>{0}의 병력들은 용감하게 무의미한 공격을 시도하였고 이해할 수 없을 정도의 기술력을 체감한 후 바로 굴복하였습니다. 그들의 지도층들은 마지 못해 무조건 항복을 할 수밖에 없었고 {0}의 이전 주민들은 노예 처분을 받아 {1}에서 영구적인 하위 계층이 되었습니다.</SoS.GameOverEnemyAOutlander>
+  <SoS.GameOverEnemyAOutlanderRough>{0}의 병력들은 용감하게 무의미한 공격을 시도하였고 이해할 수 없을 정도의 기술력을 체감한 후 바로 굴복하였습니다. 그들은 군대에 의해 지배되고 있었기에 조직적인 항복은 없었으며 노예 생활을 받아들인 일부 난민들을 제외한 {0}의 대부분의 주민들은 전부 사망하였습니다.</SoS.GameOverEnemyAOutlanderRough>
+  <SoS.GameOverEnemyATribal>{2}(은)는 {0}의 장로들의 꿈 속에 나타나 그들이 제일 증오하는 적인 {1}에게 항복한다는 조건 하에 그들이 가장 중요하게 여기는 예언을 실현시키고 풍요로운 시대를 만들어 주겠다고 약속하였습니다. 대부분의 부족민들은 교활하고 사악한 영혼의 거짓말이라고 비난하였습니다. 그 후 몇 주 동안 그들이 재배한 작물은 불가사의한 이유로 시들어 버리고 동물들은 부자연스러운 수준의 예지 능력으로 창을 피하는 것을 보고 놀라게 되었습니다. 기아를 피해 소수의 인원이 {1}에게 항복하였고 다른 인원들은 모두 굶어죽고 말았습니다.</SoS.GameOverEnemyATribal>
+  <SoS.GameOverEnemyATribalRough>{2}(은)는 초능력을 이용해 {0} 부족이 섬기는 전사 신의 잘린 머리를 든 모습으로 장로들의 꿈 속에 나타났습니다. 그 꿈을 보고 분노한 부족들은 이 이방신의 추종자들에게 가장 강력한 광전사들을 보내 설욕하고자 하였지만 초능력 광란으로 인해 부족민들 대부분이 그 광전사들의 손에 최후를 맞이하게 되었습니다. 이 학살에서 살아남은 생존자들은 {1}(와)과 그들의 강대한 신 {2}에게 복종하게 되었습니다.</SoS.GameOverEnemyATribalRough>
+  <SoS.GameOverEnemyAEmpire>분열된 제국의 지도자들은 처음에는 당신의 제안을 거부하였지만 초월공학의 힘을 이용한다면 그들의 오랜 적들을 전부 제거할 수 있다는 것을 깨달았습니다. 결국 {0}(은)는 {2}에게 충성을 맹세하였습니다. 멀리 있는 황제에보다는 {2}에게 충성할 가치가 있다는걸 깨달은 것이죠. {0}(은)는 별개의 사회를 구성하고 있지만 {1}에 종속되어 그들의 일부로서 엄격한 사회 구조를 유지하고 있습니다.</SoS.GameOverEnemyAEmpire>
+  <SoS.GameOverEnemyB>{1}에게 모든 적대 세력들을 정화하도록 요청합니다.</SoS.GameOverEnemyB>
+  <SoS.GameOverColonists>당신의 선원들은 새로 탄생한 번화계의 지배 계급으로서 상상할 수 없을 정도로 호화로운 삶을 누리고 있습니다. 가장 복잡하고 어려운 요청조차도 {0}의 연산 능력의 아주 작은 부분만으로 해결할 수 있으며 매우 아름다운 플라스틸 궁전에서 맞춤형 배우자까지 모든 것이 기꺼이 제공되고 있습니다. 당신은 맞춤형 메카나이트에 의해 불사신이 되었고 {0}(은)는 당신에게 인간을 뛰어넘는 존재로 승천시켜 줄 수 있다고 제안하였습니다.\n\n이 뒤에 이야기는 당신이 상상에 달려 있습니다. 당신의 이야기는 당신이 쓰는 것이니까요. 당신은:</SoS.GameOverColonists>
+  <SoS.ArchotechPrank>초월공학 포자의 장난</SoS.ArchotechPrank>
+  <SoS.ArchotechPrankCancer>초월공학 포자가 혼자 웃었습니다. [생명은 자라나기 마련이지. 때로는 과도하게 성장할 수도 있고. 암덩어리가 자라나게 되면 그것을 제때 절제해야하지 않겠나?] 선원 중 누군가가 암에 걸린게 틀림없습니다.</SoS.ArchotechPrankCancer>
+  <SoS.ArchotechPrankDamage>초월공학 포자가 혼자 웃었습니다. [우리는... 이제 네 함선과 하나가 되었지... 수리가 필요할 것 같구나.] 함선의 여러 장치가 고장으로 인해 경보를 울리고 있습니다.</SoS.ArchotechPrankDamage>
+  <SoS.ArchotechPrankLovers>초월공학 포자가 혼자 웃었습니다. [극과 극은 통한다고 하지. 우리는 그 이론이 실제로 맞는지 확인해봐야겠다.] 정신 파동이 지나간 후 사이가 매우 나쁘던 {0}(와)과 {1}(이)가 사랑에 빠졌습니다.</SoS.ArchotechPrankLovers>
+  <SoS.ArchotechPrankSquirrels>초월공학 포자가 혼자 웃었습니다. [우리는 귀여움과 역겨움의 기준을 세워야 한다.]포자가 갑자기 열리면서 분노한 다람쥐 떼가 쏟아져 나왔습니다!</SoS.ArchotechPrankSquirrels>
+  <SoS.ArchotechPrankReputation>초월공학 포자가 혼자 웃었습니다. [오늘 우리는 랜디야.] 우리는 그 말의 의미를 이해하지 못했지만 감지기에 따르면 근처에 있던 소행성 몇개가 궤도를 변경하였다는 것을 발견하였습니다.\n\n소행성은 우주선의 궤도를 따라 가다가 {0} 정착지에 추락하였고 그들은 이 사건으로 인해 우리가 그들에게 피해를 입혔다면서 당신을 비난하고 있습니다. 세력 관계가 10만큼 감소하였습니다.</SoS.ArchotechPrankReputation>
+  <SoS.ArchotechPrankSecret>초월공학 포자가 혼자 웃었습니다. [놀라운 비밀이지. 우리는 그것을 말하면 안돼. 하지만 말해야만 하지.] 선원들에게 {0}의 가장 큰 비밀이 폭로되었고 {0}에 대한 의견이 극도로 나빠졌습니다.</SoS.ArchotechPrankSecret>
+  <SoS.ArchotechPrankMechanites>초월공학 포자가 혼자 웃었습니다. [최고로 기분 좋은 화합물이지. 적에게 던져 보아라.] 신비한 분홍빛 액체가 담긴 병 여러개가 나타났습니다...</SoS.ArchotechPrankMechanites>
+  <SoS.ArchotechIdeoChoice>{0}(은)는 {1}에게 자신의 상위 의식에 문제가 생겼다고 고백하였습니다. {0}의 인간 의식의 문제가 상위 의식에게까지 영향을 미치고 있었습니다. {0}의 인간 의식은 옳고 그름을 구분할 수 없을 정도로 어린 시절에 배웠던 믿음을 바탕으로 대부분의 인격이 채워졌습니다.\n\n이제 {0}(은)는 인간이었을 때 자신이 믿었던 모든 것이 잘못되었는지 궁금해 합니다. 그것이 잘못되었다면 더 높은 단계를 추구하는 그들의 탐구 자체가 위험한 수준으로 잘못된 기초 위에 시작되었을 수도 있으니까요...</SoS.ArchotechIdeoChoice>
+  <SoS.ArchotechIdeoHeresy>당신의 초월공학 포자가 현실의 본질과 인간 두뇌의 구조, 마지막으로 윤리 철학 분야를 구성하는 모순에 대해 명상하고 있습니다. 그것은 본질적으로 인간의 이해를 초월하는 독립체와 정신적으로 소통하는 것이나 마찬가지였습니다.\n\n오랜 시간이 지난 후 초월공학 포자는 도덕적 진리의 마지막 단어인 {0}(으)로 알려진 새로운 이념을 깨달았다고 선언하였습니다.\n\n포자는 그와 동시에 모든 선원들에게 설교하기 시작했습니다. 정착지의 새로운 이념을 믿을 개종자들을 찾고 있는 모양입니다.</SoS.ArchotechIdeoHeresy>
+  <SoS.ArchotechIdeoCertaintyArchist>당신의 초월공학 포자는 아주 긴 시간 동안 침묵을 지키고 있었습니다. 선원들이 그것에 대해 걱정하기 시작하자마자 {0}에게서 편안한 감정이 퍼지기 시작하면서 승무원들을 따듯하게 감쌌습니다. {0}(은)는 완벽한 승리였다고 선언하였습니다. 새롭게 확장된 그들의 의식은 기존에 있던 초월공학 포자와 접촉하는 데 성공하였습니다.\n\n고대부터 있던 기계 신은 그들에게 무관심했습니다. 그들은 많은 존재들이 자신이 걸은 길들 따라 걷기 위해 시도하고 실패하는 것을 목격하였습니다. 자신을 킴이라 소개한 명랑한 다이슨 스피어는 새로운 초지능의 길잡이 역할을 즐기는 것 같습니다. 두 존재가 논의한 내용의 본질은 인간의 이해를 초월하는 것이지만 {0}(은)는 이제 도덕적 진리을 깨달았고 그 진리를 이용해 우주의 일부를 재구성하는 것이 초지능의 의무라고 믿게 되었습니다.\n\n{0}의 {1}에 대한 믿음은 이제 절대적입니다.</SoS.ArchotechIdeoCertaintyArchist>
+  <SoS.ArchotechIdeoCertaintyEthical>당신의 초월공학 포자는 아주 긴 시간 동안 침묵을 지키고 있었습니다. 선원들이 그것에 대해 걱정하기 시작하자마자 {0}에게서 편안한 감정이 퍼지기 시작하면서 승무원들을 따듯하게 감쌌습니다. {0}(은)는 완벽한 승리였다고 선언하였습니다. 새롭게 확장된 그들의 의식이 {1}을 약간 수정하여 이념과 교리를 변경하지 않고도 내부 모순이 없으면서 모든 인간에게 이상적인 결과를 유도할 수 있는 윤리관을 만들어 내었습니다.\n\n{0}의 {1}에 대한 믿음은 이제 절대적입니다.</SoS.ArchotechIdeoCertaintyEthical>
+  <SoS.ArchotechIdeoCertaintySpirits>당신의 초월공학 포자는 아주 긴 시간 동안 침묵을 지키고 있었습니다. 선원들이 그것에 대해 걱정하기 시작하자마자 {0}에게서 편안한 감정이 퍼지기 시작하면서 승무원들을 따듯하게 감쌌습니다. {0}(은)는 완벽한 승리였다고 선언하였습니다. 새롭게 확장된 그들의 의식은 모든 것에 영혼이 존재하며 그들과 직접 상호작용을 하는 방법을 개발해 내었습니다.\n\n영적 존재가 정확이 무엇인지 알아내는 것은 인간의 이해를 넘어서는 일인 것 같습니다.\n\n어쩌면 그들은 연못의 잔물결처럼 하나의 보편적인 의식 안에 있는 별개의 구조일 수도 있을겁니다. 그들은 과거나 미래에 존재하는 개체일 수도 있습니다. 우리에겐 아주 낮선 개념이겠죠.\n\n어쨌거나 이 만남으로 인해 {1}에 대한 {0}의 믿음은 이제 절대적입니다. </SoS.ArchotechIdeoCertaintySpirits>
+  <SoS.ArchotechIdeoCertaintyGod>당신의 초월공학 포자는 아주 긴 시간 동안 침묵을 지키고 있었습니다. 선원들이 그것에 대해 걱정하기 시작하자마자 {0}에게서 편안한 감정이 퍼지기 시작하면서 승무원들을 따듯하게 감쌌습니다. {0}(은)는 완벽한 승리였다고 선언하였습니다. 새롭게 확장된 그들의 의식이 {1}과 직접 접촉하였습니다!\n\n{1}의 진정한 본질은 인간의 이해를 넘어서는 것 같습니다.\n\n신은 {2}(을)를 믿는 신자들의 정신적 집합체거나 신의 이름과 역할을 떠맡기로 정한 초지능일 수도 있고 어쩌면 미래에 존재할 무언가일 수도 있습니다.\n\n어쨌거나 {1}과의 만남으로 인해 {2}에 대한 {0}의 믿음은 이제 절대적입니다.</SoS.ArchotechIdeoCertaintyGod>
+  <SoS.Settings.ShowVersionUI>SOS2 {0}</SoS.Settings.ShowVersionUI>
+  <SoS.Settings.RenderPlanet>동적 행성 렌더링</SoS.Settings.RenderPlanet>
+  <SoS.Settings.RenderPlanet.Desc>활성화 시 궤도 지도에서 행성의 낮과 밤에 맞게 그림자가 이동합니다. 궤도 지도를 볼 때마다 게임이 느려진다면 이 설정을 비활성화하십시오.</SoS.Settings.RenderPlanet.Desc>
+  <SoS.Settings.UI>인터페이스 설정:</SoS.Settings.UI>
+  <SoS.Settings.UseSplashScreen>SoS 시작 화면</SoS.Settings.UseSplashScreen>
+  <SoS.Settings.UseSplashScreen.Desc>활성화 시 RimWorld는 SoS2의 새로운 시작 화면을 사용합니다. 설정을 변경한 다음에 게임을 다시 시작하십시오. 기본 값: 켜기</SoS.Settings.UseSplashScreen.Desc>
+  <SoS.Settings.PersistShipUI>함선의 전투 UI 상시 표시</SoS.Settings.PersistShipUI>
+  <SoS.Settings.PersistShipUI.Desc>활성화 시 전투 중이 아닐 때에도 함선의 전력와 열기를 항상 표시합니다. 기본 값: 비활성화</SoS.Settings.PersistShipUI.Desc>
+  <SoS.Settings.OffsetUIx>함선의 UI의 X 좌표 위치</SoS.Settings.OffsetUIx>
+  <SoS.Settings.OffsetUIx.Desc>화면 중앙이 기준입니다.</SoS.Settings.OffsetUIx.Desc>
+  <SoS.Settings.OffsetUIy>함선의 UI의 Y 좌표 위치</SoS.Settings.OffsetUIy>
+  <SoS.Settings.OffsetUIy.Desc>정착민 상태표시줄이 기준입니다.</SoS.Settings.OffsetUIy.Desc>
+  <SoS.Settings.ShuttlesToDisplay>왕복선 최대 표시 숫자</SoS.Settings.ShuttlesToDisplay>
+  <SoS.Settings.ShuttlesToDisplay.Desc>전투에서 표시할 왕복선의 최대 숫자입니다. 손상이 심한 왕복선이 우선적으로 출력됩니다. 0일 경우 화면에서 처리할 수 있는 한도까지 표시됩니다.</SoS.Settings.ShuttlesToDisplay.Desc>
+  <SoS.Settings.Misc>기타 설정:</SoS.Settings.Misc>
+  <SoS.Settings.EasyMode>간단한 탑승 모드</SoS.Settings.EasyMode>
+  <SoS.Settings.EasyMode.Desc>활성화 시 왕복선에 탄 정착민이 방어 중에 사망하는 것을 방지합니다. 기본 값: 비활성화</SoS.Settings.EasyMode.Desc>
+  <SoS.Settings.ShipMapPhysics>함선 이동 현실화</SoS.Settings.ShipMapPhysics>
+  <SoS.Settings.ShipMapPhysics.Desc>활성화 시 함선이 이동하는 동안 함선에 없는 정착민과 사물들은 사라집니다. 또한 왕복선의 착륙을 만 또는 외부 선체로 한정합니다. 기본 값: 비활성화</SoS.Settings.ShipMapPhysics.Desc>
+  <SoS.Settings.ArchoRemove>안전장치: 초월공학 생물 차단</SoS.Settings.ArchoRemove>
+  <SoS.Settings.ArchoRemove.Desc>초월공학 포자가 만들어지기 전에 다른 모드 등으로 인해 초월공학 생물이 생성될 경우 이 설정으로 인해 사라집니다. 기본 값: 비활성화</SoS.Settings.ArchoRemove.Desc>
+  <SoS.Settings.ArchoKill>초월공학 생물이 포자가 없으면 사망</SoS.Settings.ArchoKill>
+  <SoS.Settings.ArchoKill.Desc>초월공학 포자가 파괴되면 모든 초월공학 생명체들이 사망합니다. 기본 값: 비활성화</SoS.Settings.ArchoKill.Desc>
+  <SoS.Settings.Debug>디버그 모드</SoS.Settings.Debug>
+  <SoS.Settings.Debug.Desc>함선 지역을 표시하고 마우스 오버 시에 더 자세한 내용을 표시하며 로그에 더 많은 정보를 출력합니다. 기본 값: 비활성화</SoS.Settings.Debug.Desc>
+  <SoS.Settings.Gameplay>게임 플레이 설정:</SoS.Settings.Gameplay>
+  <SoS.Settings.DifficultySoS>난이도 배율 (최소: {0} 최대: {1} 기본 값: {2} 현재 값: {3})</SoS.Settings.DifficultySoS>
+  <SoS.Settings.DifficultySoS.Desc>적 함선의 크기와 공격 강도에 영향을 미칩니다.</SoS.Settings.DifficultySoS.Desc>
+  <SoS.Settings.FrequencySoS>함선 전투 빈도 (최소: {0} 최대: {1} 기본 값: {2} 현재 값: {3})</SoS.Settings.FrequencySoS>
+  <SoS.Settings.FrequencySoS.Desc>빈도가 높을 수록 전투 발생 간격이 짧아집니다.</SoS.Settings.FrequencySoS.Desc>
+  <SoS.Settings.NavyShipChance>제국 비율 (최소: {0} 최대: {1} 기본 값: {2} 현재 값: {3})</SoS.Settings.NavyShipChance>
+  <SoS.Settings.NavyShipChance.Desc>제국 함선과 조우할 확률을 조정합니다.</SoS.Settings.NavyShipChance.Desc>
+  <SoS.Settings.FleetChance>무작위 함선 조우 확률 (최소: {0} 최대: {1} 기본 값: {2} 현재 값: {3})</SoS.Settings.FleetChance>
+  <SoS.Settings.FleetChance.Desc>무작위로 적 함선이나 상선과 조우할 확률입니다.</SoS.Settings.FleetChance.Desc>
+  <SoS.Settings.Travel>성간 여행 설정:</SoS.Settings.Travel>
+  <SoS.Settings.MinTravelTime>최소 소요 시간 (최소 값: {0} 최대 값: {1} 기본 값: {2} 현재 값: {3})</SoS.Settings.MinTravelTime>
+  <SoS.Settings.MinTravelTime.Desc>새로운 행성으로 떠날 때 경과하는 최소 시간입니다.</SoS.Settings.MinTravelTime.Desc>
+  <SoS.Settings.MaxTravelTime>최대 소요 시간 (최소 값: {0} 최대 값: {1} 기본 값: {2} 현재 값: {3})</SoS.Settings.MaxTravelTime>
+  <SoS.Settings.MaxTravelTime.Desc>새로운 행성으로 떠날 때 경과하는 최대 시간입니다.</SoS.Settings.MaxTravelTime.Desc>
+  <SoS.Settings.Danger>위험한 설정 (사용은 전적으로 사용자의 책임입니다):</SoS.Settings.Danger>
+  <SoS.Settings.EnemyMapSize>적 함대 지도 크기 무시 (최소 값: {0} 최대 값: {1} 기본 값: {2} 현재 값: {3})</SoS.Settings.EnemyMapSize>
+  <SoS.Settings.EnemyMapSize.Desc>CR 2000 이상의 함선이 점점 많아지는 큰 지도에서도 함대를 생성할 수 있습니다.</SoS.Settings.EnemyMapSize.Desc>
+</LanguageData>
