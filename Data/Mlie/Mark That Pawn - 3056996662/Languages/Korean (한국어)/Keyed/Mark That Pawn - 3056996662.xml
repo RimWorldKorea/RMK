@@ -3,22 +3,22 @@
   <MTP.CurrentModVersion>설치된 모드 버전: {0}</MTP.CurrentModVersion>
   <MTP.DefaultMarkerSet>기본 마커 세트: {0}</MTP.DefaultMarkerSet>
   <MTP.ColonistMarkerSet>정착민 마커 세트: {0}</MTP.ColonistMarkerSet>
-  <MTP.ColonistDiffer>    정착민을 위한 다른 세트</MTP.ColonistDiffer>
+  <MTP.ColonistDiffer>정착민을 위한 다른 세트</MTP.ColonistDiffer>
   <MTP.ShowForColonist>정착민 설정 표시</MTP.ShowForColonist>
   <MTP.PrisonerMarkerSet>포로 마커 세트: {0}</MTP.PrisonerMarkerSet>
-  <MTP.PrisonerDiffer>    죄수를 위한 다른 세트</MTP.PrisonerDiffer>
+  <MTP.PrisonerDiffer>포로를 위한 다른 세트</MTP.PrisonerDiffer>
   <MTP.ShowForPrisoner>포로 설정 표시</MTP.ShowForPrisoner>
   <MTP.SlaveMarkerSet>노예 마커 세트: {0}</MTP.SlaveMarkerSet>
-  <MTP.SlaveDiffer>    노예를 위한 다른 세트</MTP.SlaveDiffer>
+  <MTP.SlaveDiffer>노예를 위한 다른 세트</MTP.SlaveDiffer>
   <MTP.ShowForSlave>노예 설정 표시</MTP.ShowForSlave>
   <MTP.EnemyMarkerSet>적 마커 세트: {0}</MTP.EnemyMarkerSet>
-  <MTP.EnemyDiffer>    적을 위한 다른 세트</MTP.EnemyDiffer>
+  <MTP.EnemyDiffer>적을 위한 다른 세트</MTP.EnemyDiffer>
   <MTP.ShowForEnemy>적 설정 표시</MTP.ShowForEnemy>
   <MTP.NeutralMarkerSet>중립 마커 세트: {0}</MTP.NeutralMarkerSet>
-  <MTP.NeutralDiffer>    중립을 위한 다른 세트</MTP.NeutralDiffer>
+  <MTP.NeutralDiffer>중립을 위한 다른 세트</MTP.NeutralDiffer>
   <MTP.ShowForNeutral>중립 설정 표시</MTP.ShowForNeutral>
   <MTP.VehiclesMarkerSet>차량 마커 세트: {0}</MTP.VehiclesMarkerSet>
-  <MTP.VehiclesDiffer>    차량을 위한 다른 세트</MTP.VehiclesDiffer>
+  <MTP.VehiclesDiffer>차량을 위한 다른 세트</MTP.VehiclesDiffer>
   <MTP.ShowForVehicles>차량 설정 표시</MTP.ShowForVehicles>
   <MTP.SelectMarker>마커 선택</MTP.SelectMarker>
   <MTP.SelectMarkerTT>이 폰에 마커 추가</MTP.SelectMarkerTT>
@@ -59,6 +59,9 @@
   <MTP.Female>여성</MTP.Female>
   <MTP.Animal>동물</MTP.Animal>
   <MTP.OnlyWhenDrafted>소집 시</MTP.OnlyWhenDrafted>
+  <MTP.OnlyWhenDraftedTT>폰을 소집할 때만 적용됩니다.</MTP.OnlyWhenDraftedTT>
+  <MTP.OrLogic>Or-논리</MTP.OrLogic>
+  <MTP.OrLogicTT>모든 항목이 맞을 때가 아니라 선택한 항목 중 하나라도 맞으면 규칙을 적용합니다.</MTP.OrLogicTT>
   <MTP.OnlyAnimal>동물만</MTP.OnlyAnimal>
   <MTP.NotAnimal>동물 아님</MTP.NotAnimal>
   <MTP.LowAgeLimit>최소 나이 제한: {0}</MTP.LowAgeLimit>
@@ -76,17 +79,26 @@
   <MTP.InvertOrder>- 순서 반전</MTP.InvertOrder>
   <MTP.InvertOrderTT>아이콘은 우선순위에 따라 오른쪽에서 왼쪽으로 정렬됩니다.</MTP.InvertOrderTT>
   <MTP.ShowWhenSelected>- 폰 선택 시 확장</MTP.ShowWhenSelected>
+  <MTP.ShowWhenSelectedTT>폰을 선택하면 아이콘이 기본 간격으로 확장됩니다.</MTP.ShowWhenSelectedTT>
   <MTP.ShowWhenHover>- 아이콘 위에 마우스를 올리면 확장</MTP.ShowWhenHover>
   <MTP.ShowWhenHoverTT>아이콘 위에 마우스를 올리면 아이콘이 기본 간격으로 확장됩니다.</MTP.ShowWhenHoverTT>
+  <MTP.ShowOnShift>- Shift 키를 누르면 확장</MTP.ShowOnShift>
+  <MTP.ShowOnShiftTT>Shift 키를 누르면 아이콘이 기본 간격으로 확장됩니다.</MTP.ShowOnShiftTT>
+  <MTP.ShowOnPaused>- 게임 일시정지 시 확장</MTP.ShowOnPaused>
+  <MTP.ShowOnPausedTT>게임이 일시 중지되면 아이콘이 기본 간격으로 확장됩니다.</MTP.ShowOnPausedTT>
   <MTP.RotateIcons>- 활성화 아이콘 회전</MTP.RotateIcons>
   <MTP.RotateIconsTT>아이콘이 동시에 여러 개 표시되지 않고 가능한 아이콘 간에 회전합니다.</MTP.RotateIconsTT>
   <MTP.MarkerNumber>마커 {0}</MTP.MarkerNumber>
   <MTP.IconSize>아이콘 크기: {0}</MTP.IconSize>
-  <MTP.IconScalingFactor>    아이콘 확대/축소 배율: {0}</MTP.IconScalingFactor>
+  <MTP.IconScalingFactor>아이콘 확대/축소 배율: {0}</MTP.IconScalingFactor>
   <MTP.PulsatingIcons>진동 아이콘 사용</MTP.PulsatingIcons>
   <MTP.PulsatingIconsTT>아이콘은 상인 질문 마크와 같은 방식으로 진동합니다.</MTP.PulsatingIconsTT>
   <MTP.RefreshRules>폰 규칙을 정기적으로 새로 고침</MTP.RefreshRules>
   <MTP.RefreshRulesTT>규칙을 정기적으로 재평가하여 선택한 아이콘에 영향을 줄 수 있는 변경 사항을 반영합니다.</MTP.RefreshRulesTT>
+  <MTP.HideIcons>다음과 같은 경우를 제외하고 아이콘 숨기기</MTP.HideIcons>
+  <MTP.GameIsPaused>- 게임이 일시 중지됨</MTP.GameIsPaused>
+  <MTP.ShiftIsPressed>- SHIFT 키를 누른 상태</MTP.ShiftIsPressed>
+  <MTP.PawnIsSelected>- 폰이 선택됨</MTP.PawnIsSelected>
   <MTP.EquippedWeaponType.Melee>근접 무기</MTP.EquippedWeaponType.Melee>
   <MTP.EquippedWeaponType.Ranged>원거리 투사체 무기</MTP.EquippedWeaponType.Ranged>
   <MTP.EquippedWeaponType.RangedExplosive>원거리 폭발 무기</MTP.EquippedWeaponType.RangedExplosive>
@@ -98,11 +110,14 @@
   <MTP.EquippedApparelType.EnviromentalProtection>환경 보호 의류</MTP.EquippedApparelType.EnviromentalProtection>
   <MTP.EquippedApparelType.Basic>기본 의류</MTP.EquippedApparelType.Basic>
   <MTP.PawnType.Colonist>정착민</MTP.PawnType.Colonist>
+  <MTP.PawnType.ColonistAnimal>정착지 동물</MTP.PawnType.ColonistAnimal>
   <MTP.PawnType.Slave>노예</MTP.PawnType.Slave>
   <MTP.PawnType.Prisoner>포로</MTP.PawnType.Prisoner>
   <MTP.PawnType.Vehicle>차량</MTP.PawnType.Vehicle>
   <MTP.PawnType.Enemy>적</MTP.PawnType.Enemy>
+  <MTP.PawnType.EnemyAnimal>적 동물</MTP.PawnType.EnemyAnimal>
   <MTP.PawnType.Neutral>중립</MTP.PawnType.Neutral>
+  <MTP.PawnType.NeutralAnimal>중립 동물</MTP.PawnType.NeutralAnimal>
   <MTP.PawnType.Default>모두</MTP.PawnType.Default>
   <MTP.AutomaticType.Weapon>장착한 무기</MTP.AutomaticType.Weapon>
   <MTP.AutomaticType.Apparel>착용한 의류</MTP.AutomaticType.Apparel>
@@ -124,34 +139,18 @@
   <MTP.AutomaticType.Gene>특정 유전자</MTP.AutomaticType.Gene>
   <MTP.AutomaticType.GeneUndefinedCategory>미정의</MTP.AutomaticType.GeneUndefinedCategory>
   <MTP.AutomaticType.HediffStage>{0} 단계</MTP.AutomaticType.HediffStage>
+  <MTP.AutomaticType.FactionIcon>진영 아이콘 표시</MTP.AutomaticType.FactionIcon>
+  <MTP.AutomaticType.IdeologyIcon>사상 아이콘 표시</MTP.AutomaticType.IdeologyIcon>
+  <MTP.AutomaticType.FactionLeader>진영 지도자 표시</MTP.AutomaticType.FactionLeader>
+  <MTP.AutomaticType.TDFindLib>고급 규칙(TD Find Lib)</MTP.AutomaticType.TDFindLib>
+  <MTP.AutomaticType.Mechanoid>특정 메카노이드</MTP.AutomaticType.Mechanoid>
+  <MTP.TDFindLibRuleLabel>Mark That Pawn-규칙</MTP.TDFindLibRuleLabel>
+  <MTP.RequiresASpecificGame>활성화된 게임이 필요합니다.</MTP.RequiresASpecificGame>
+  <MTP.IsInWrongGame>다른 저장에서 생성</MTP.IsInWrongGame>
+  <MTP.EditTdRule>편집</MTP.EditTdRule>
   <MTP.PawnLimitation>다음에만 적용: {0}</MTP.PawnLimitation>
   <MTP.MentalState.Any>모든 상태</MTP.MentalState.Any>
   <MTP.MentalState.Passive>패시브 상태</MTP.MentalState.Passive>
   <MTP.MentalState.Aggressive>공격적 상태</MTP.MentalState.Aggressive>
   <MTP.OverrideRule>이것은 임시 규칙입니다. 해당 조건이 충족되는 동안에만 표시됩니다.</MTP.OverrideRule>
-  <MTP.ShowWhenSelectedTT>폰을 선택하면 아이콘이 기본 간격으로 확장됩니다.</MTP.ShowWhenSelectedTT>
-  <MTP.ShowOnShift>- Shift 키를 누르면 확장</MTP.ShowOnShift>
-  <MTP.ShowOnShiftTT>Shift 키를 누르면 아이콘이 기본 간격으로 확장됩니다.</MTP.ShowOnShiftTT>
-  <MTP.ShowOnPaused>- 게임 일시정지 시 확장</MTP.ShowOnPaused>
-  <MTP.ShowOnPausedTT>게임이 일시 중지되면 아이콘이 기본 간격으로 확장됩니다.</MTP.ShowOnPausedTT>
-  <MTP.HideIcons>다음과 같은 경우를 제외하고 아이콘 숨기기</MTP.HideIcons>
-  <MTP.GameIsPaused>- 게임이 일시 중지됨</MTP.GameIsPaused>
-  <MTP.ShiftIsPressed>- SHIFT 키를 누른 상태</MTP.ShiftIsPressed>
-  <MTP.PawnIsSelected>- 폰이 선택됨</MTP.PawnIsSelected>
-  <MTP.AutomaticType.FactionIcon>진영 아이콘 표시</MTP.AutomaticType.FactionIcon>
-  <MTP.AutomaticType.IdeologyIcon>사상 아이콘 표시</MTP.AutomaticType.IdeologyIcon>
-  <MTP.OnlyWhenDraftedTT>폰을 소집할 때만 적용됩니다.</MTP.OnlyWhenDraftedTT>
-  <MTP.OrLogic>Or-논리</MTP.OrLogic>
-  <MTP.OrLogicTT>모든 항목이 맞을 때가 아니라 선택한 항목 중 하나라도 맞으면 규칙을 적용합니다.</MTP.OrLogicTT>
-  <MTP.AutomaticType.TDFindLib>고급 규칙(TD Find Lib)</MTP.AutomaticType.TDFindLib>
-  <MTP.AutomaticType.Mechanoid>특정 메카노이드</MTP.AutomaticType.Mechanoid>
-  <MTP.TDFindLibRuleLabel>Mark That Pawn-규칙</MTP.TDFindLibRuleLabel>
-  <MTP.RequiresAnActiveGame>게임이 활성화되어 있어야 합니다.</MTP.RequiresAnActiveGame>
-  <MTP.EditTdRule>편집</MTP.EditTdRule>
-  <MTP.AutomaticType.FactionLeader>진영 지도자 표시</MTP.AutomaticType.FactionLeader>
-  <MTP.RequiresASpecificGame>활성화된 게임이 필요합니다.</MTP.RequiresASpecificGame>
-  <MTP.IsInWrongGame>다른 저장에서 생성</MTP.IsInWrongGame>
-  <MTP.PawnType.ColonistAnimal>정착지 동물</MTP.PawnType.ColonistAnimal>
-  <MTP.PawnType.EnemyAnimal>적 동물</MTP.PawnType.EnemyAnimal>
-  <MTP.PawnType.NeutralAnimal>중립 동물</MTP.PawnType.NeutralAnimal>
 </LanguageData>
