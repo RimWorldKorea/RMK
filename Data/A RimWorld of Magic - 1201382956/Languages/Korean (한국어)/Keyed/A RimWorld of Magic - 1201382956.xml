@@ -220,6 +220,8 @@
   <TM_LearnFail_NotClass>기본 클래스를 찾을 수 없음</TM_LearnFail_NotClass>
   <TM_LearnFail_NoRequiredTrait>필수 특성이 발견되지 않음</TM_LearnFail_NoRequiredTrait>
   <TM_LearnFail_DisallowedTrait>상충하는 특성</TM_LearnFail_DisallowedTrait>
+  <TM_IncitePassionSelection>{0}(이)가 열정 유발을 위해 선택됨</TM_IncitePassionSelection>
+  <TM_SelectPassion>열정 선택</TM_SelectPassion>
   <TM_SpiritVerbatum>영혼</TM_SpiritVerbatum>
   <TM_AncientSpiritVerbatum>고대 영혼</TM_AncientSpiritVerbatum>
   <TM_VengefulSpiritVerbatum>복수심에 불타는 영혼</TM_VengefulSpiritVerbatum>
@@ -253,9 +255,6 @@
   <AICanCast>AI 능력 사용</AICanCast>
   <AIHardMode>AI 하드 모드</AIHardMode>
   <DeathRadius>AI 마법사 죽음의 보복 범위</DeathRadius>
-  <AIMarking>AI 마법사 표시</AIMarking>
-  <AIFighterMarking>AI 파이터 표시</AIFighterMarking>
-  <AIFriendlyMarking>컨트롤중인 정착민 표시</AIFriendlyMarking>
   <baseMageChance>마법사 선각자 공통성: </baseMageChance>
   <baseFighterChance>파이터 선각자 공통성: </baseFighterChance>
   <advMageChance>마법사 공통성: </advMageChance>
@@ -264,20 +263,13 @@
   <DeathExplosionMax>최대 데미지</DeathExplosionMax>
   <DeathExplosionField>{0}</DeathExplosionField>
   <MagicyteChance>마법석 확득 확률</MagicyteChance>
-  <showAbilitiesOnMultiSelect>여러 명의 정착민을 선택할 때 사용할 수 있는 기능 표시</showAbilitiesOnMultiSelect>
-  <showMagicGizmo>마나/스태미나/사이오닉 에너지를 기즈모로 표시</showMagicGizmo>
   <TM_enableAutocast>자동-시전 사용</TM_enableAutocast>
   <TM_queueAutocast>자동 작업 대기</TM_queueAutocast>
   <TM_queueAutocastDesc>비폭력적이고 소집되지 않은 자동 작업은 현재 작업을 중단하는 대신 다음으로 수행할 작업으로 대기열에 있습니다. 대기 중인 능력은 지연 시간에 따라 유효하지 않거나 최우선이 아닐 수 있습니다. 블링크, 위상 타격과 같은 능력이나 '구역' 기반의 작업은 제외됩니다.</TM_queueAutocastDesc>
   <TM_autocastUndraftedThreshold>자동 시전을 위한 최소 에너지 % (소집되지 않음)</TM_autocastUndraftedThreshold>
   <TM_autocastDraftedThreshold>자동 시전을 위한 최소 에너지 % (소집)</TM_autocastDraftedThreshold>
   <TM_autocastEvaluationFrequency>자동시전 평가 빈도</TM_autocastEvaluationFrequency>
-  <showLevelUpMessage>레벨업 메시지 표시</showLevelUpMessage>
-  <showUndeadPawnChange>언데드 정착민 모양 변경</showUndeadPawnChange>
-  <showUndeadAnimalChange>언데드 동물 모양 변경</showUndeadAnimalChange>
   <unrestrictedBloodTypesForBloodMagic>혈마법을 발동시키는데에 제한이 없는 혈액형</unrestrictedBloodTypesForBloodMagic>
-  <showClassIconOnColonistBar>정착민 바에 클래스 아이콘 표시</showClassIconOnColonistBar>
-  <classIconSize>직업 아이콘 크기</classIconSize>
   <TM_AggressiveAICasting>공격적인 AI 캐스팅</TM_AggressiveAICasting>
   <TM_ParacyteSoftCap>파라사이트 연질 캡슐: </TM_ParacyteSoftCap>
   <TM_ParacyteMagesCount>연질 캡슐에 대한 마법사 수 (2개)</TM_ParacyteMagesCount>
@@ -287,12 +279,11 @@
   <TM_DeathRetaliationIsLethal>죽음의 보복은 항상 치명적</TM_DeathRetaliationIsLethal>
   <TM_DeathRetaliationChance>죽음의 보복 확률</TM_DeathRetaliationChance>
   <TM_DeathRetaliationDelay>죽음의 보복 지연 요인</TM_DeathRetaliationDelay>
-  <TM_shrinkIcons>구역 아이콘</TM_shrinkIcons>
-  <TM_CameraSnap>텔레포트 후 카메라 스냅</TM_CameraSnap>
   <supportTraitChance>지원 특징 공통성</supportTraitChance>
   <TM_ClassWarning>**새 게임을 시작할 때만 직업 설정을 변경하십시오**</TM_ClassWarning>
   <TM_RequiresRestart>**변경하려면 게임을 다시 시작해야합니다.**</TM_RequiresRestart>
   <TM_ClassOptions>직업 설정</TM_ClassOptions>
+  <TM_EnabledClasses>활성화된 직업</TM_EnabledClasses>
   <TM_EnabledMages>마법사</TM_EnabledMages>
   <TM_EnabledFighters>파이터</TM_EnabledFighters>
   <TM_Arcanist>아케인 마법사</TM_Arcanist>
@@ -338,6 +329,34 @@
   <TM_FaeBlood>요정의 피</TM_FaeBlood>
   <TM_GiantsBlood>거인의 피</TM_GiantsBlood>
   <TM_CustomClasses>커스텀 클래스</TM_CustomClasses>
+  <TM_DisplayOptions>디스플레이 옵션</TM_DisplayOptions>
+  <showLevelUpMessage>레벨업 메시지 표시</showLevelUpMessage>
+  <TM_CameraSnap>텔레포트 후 카메라 스냅</TM_CameraSnap>
+  <TM_CameraSnapDesc>순간이동 후 선택한 폰에 카메라 스냅( 블링크, 위상 타격 등)</TM_CameraSnapDesc>
+  <AIMarking>AI 마법사 표시</AIMarking>
+  <AIMarkingDesc>AI 마법사 옆에 작은 직업 아이콘을 표시합니다.</AIMarkingDesc>
+  <AIFighterMarking>AI 파이터 표시</AIFighterMarking>
+  <AIFighterMarkingDesc>AI 파이터 옆에 작은 직업 아이콘을 표시합니다.</AIFighterMarkingDesc>
+  <AIFriendlyMarking>컨트롤중인 정착민 표시</AIFriendlyMarking>
+  <showClassIconOnColonistBar>정착민 바에 클래스 아이콘 표시</showClassIconOnColonistBar>
+  <classIconSize>직업 아이콘 크기</classIconSize>
+  <classIconSizeDesc>정착민 표시줄의 직업 아이콘 크기를 변경합니다.</classIconSizeDesc>
+  <TM_shrinkIcons>구역 아이콘</TM_shrinkIcons>
+  <TM_shrinkIconsDesc>능력이 많은 폰을 선택할 때 아이콘의 크기를 줄입니다.</TM_shrinkIconsDesc>
+  <showAbilitiesOnMultiSelect>여러 명의 정착민을 선택할 때 사용할 수 있는 기능 표시</showAbilitiesOnMultiSelect>
+  <showMagicGizmo>마나/스태미나/사이오닉 에너지를 기즈모로 표시</showMagicGizmo>
+  <showUndeadPawnChange>언데드 정착민 모양 변경</showUndeadPawnChange>
+  <showUndeadPawnChangeDesc>언데드 폰은 다양한 부패 단계를 표시하며, 이 기능을 비활성화하면 언데드 폰은 살아 있을 때의 모습 그대로 나타납니다.</showUndeadPawnChangeDesc>
+  <showUndeadAnimalChange>언데드 동물 모양 변경</showUndeadAnimalChange>
+  <showUndeadAnimalChangeDesc>언데드 동물은 부패의 첫 번째 단계(부패)를 표시하며, 이 기능을 비활성화하면 언데드 동물은 살아 있을 때의 모습 그대로 나타납니다.</showUndeadAnimalChangeDesc>
+  <TM_AlterClothingDepth>의류 그리기 깊이 조정</TM_AlterClothingDepth>
+  <TM_AlterClothingDepthDesc>이 옵션을 활성화하면 다음 옵션에 따라 옷이 그려지는 순서(다른 옷의 위 또는 아래)가 변경됩니다.</TM_AlterClothingDepthDesc>
+  <TM_offsetMultilayerClothing>멀티 레이어 오프셋</TM_offsetMultilayerClothing>
+  <TM_offsetMultilayerClothingDesc>다중 레이어 의류의 표시 깊이를 조정하지만, 계산된 오프셋이 극단적인 경우(다른 모든 의류 위에 표시됨)에만 적용됩니다. 주로 망토의 그리기 깊이를 보정하기 위한 것입니다.</TM_offsetMultilayerClothingDesc>
+  <TM_CloakDepth>망토 그리기 깊이</TM_CloakDepth>
+  <TM_CloakDepthDesc>망토가 다른 옷의 위나 아래에 표시되도록 그리는 깊이를 조정합니다. 이 값을 조정해야 하는 경우 일반적으로 매우 작은 값(.001)으로 설정합니다.</TM_CloakDepthDesc>
+  <TM_CloakDepthNorth>망토 그리기 깊이(북쪽)</TM_CloakDepthNorth>
+  <TM_CloakDepthNorthDesc>캐릭터가 북쪽(위)을 향하고 있을 때 망토가 다른 옷의 위나 아래에 표시되도록 망토의 그리기 깊이를 조정합니다. 이 값을 조정해야 하는 경우 일반적으로 매우 작은 값(.001)으로 설정합니다.</TM_CloakDepthNorthDesc>
   <TM_EventOptions>사건 설정</TM_EventOptions>
   <riftChallenge>원소 균열 난이도:</riftChallenge>
   <lichChallenge>방랑하는 죽음지기 난이도:</lichChallenge>
@@ -1478,6 +1497,8 @@
   <TM_GolemDoScreenShakeDesc>비활성화하면 골렘을 활성화하거나 비활성화할 때 화면이 흔들리지 않습니다.</TM_GolemDoScreenShakeDesc>
   <TM_EndSymbiosis>공생 종료</TM_EndSymbiosis>
   <TM_EndSymbiosisDesc>공생체는 숙주에게서 의지를 분리하여 자신의 몸으로 돌아갑니다. 이 옵션은 호스트가 공생체 근처에 있을 때만 사용할 수 있습니다.</TM_EndSymbiosisDesc>
+  <TM_GolemCharge>에너지: {0}%</TM_GolemCharge>
+  <TM_SetVerbatum>세트</TM_SetVerbatum>
   <TM_SelectPortalDestination>포탈 활성화</TM_SelectPortalDestination>
   <TM_UsePortal>포탈 사용</TM_UsePortal>
   <TM_DeactivatePortal>포탈 비활성화</TM_DeactivatePortal>
@@ -1502,6 +1523,7 @@
   <TM_GolemAbilities>{0}의 능력</TM_GolemAbilities>
   <TM_GolemAbilitiesButton>능력</TM_GolemAbilitiesButton>
   <TM_GolemAbilityEnabledDesc>{0}의 사용: {1}</TM_GolemAbilityEnabledDesc>
+  <TM_GolemWorkTypeEnabledDesc>{0}의 사용을 전환</TM_GolemWorkTypeEnabledDesc>
   <TM_GolemShowDormant>휴면 프레임 보이기</TM_GolemShowDormant>
   <TM_GolemShowDormantDesc>휴면 상태인 골렘의 프레임을 표시합니다. 모드 설정에서 모든 골렘에 대한 설정이 가능합니다.</TM_GolemShowDormantDesc>
   <TM_MaxMPLabel>최대 MP 증가 : {0} %</TM_MaxMPLabel>
@@ -1517,6 +1539,9 @@
   <TM_EA_Hediff>{0} : {1} 적중시 {2}%</TM_EA_Hediff>
   <TM_EA_Damage>{0} : {1}-{2} {3} 명중시 {4}% 피해</TM_EA_Damage>
   <TM_Enchanted>인챈트 되었습니다!</TM_Enchanted>
+  <TM_Use>{0} 사용</TM_Use>
+  <TM_Read>{0} 읽기</TM_Read>
+  <TM_Inject>{0} 주입</TM_Inject>
   <TM_MCU_BaseMana>기본 마나 획득량: {0}</TM_MCU_BaseMana>
   <TM_MCU_BaseRegen>마나 재생 보너스: {0}</TM_MCU_BaseRegen>
   <TM_MCU_ManaSurge>마나 급증: +{0}</TM_MCU_ManaSurge>
@@ -1534,31 +1559,5 @@
   <TM_MCU_CurrentLevel>현재 레벨:</TM_MCU_CurrentLevel>
   <TM_MCU_NextLevel>다음 레벨:</TM_MCU_NextLevel>
   <TM_MCU_PointsToLearn>{0}이 가리키는 곳</TM_MCU_PointsToLearn>
-  <TM_GolemAssignArea>골렘을 이 구역으로 제한</TM_GolemAssignArea>
-  <TM_GolemWorkTypeEnabledDesc>{0}의 사용을 전환</TM_GolemWorkTypeEnabledDesc>
-  <TM_EnabledClasses>활성화된 직업</TM_EnabledClasses>
-  <TM_DisplayOptions>디스플레이 옵션</TM_DisplayOptions>
-  <TM_CameraSnapDesc>순간이동 후 선택한 폰에 카메라 스냅( 블링크, 위상 타격 등)</TM_CameraSnapDesc>
-  <AIMarkingDesc>AI 마법사 옆에 작은 직업 아이콘을 표시합니다.</AIMarkingDesc>
-  <AIFighterMarkingDesc>AI 파이터 옆에 작은 직업 아이콘을 표시합니다.</AIFighterMarkingDesc>
-  <classIconSizeDesc>정착민 표시줄의 직업 아이콘 크기를 변경합니다.</classIconSizeDesc>
-  <TM_shrinkIconsDesc>능력이 많은 폰을 선택할 때 아이콘의 크기를 줄입니다.</TM_shrinkIconsDesc>
-  <showUndeadPawnChangeDesc>언데드 폰은 다양한 부패 단계를 표시하며, 이 기능을 비활성화하면 언데드 폰은 살아 있을 때의 모습 그대로 나타납니다.</showUndeadPawnChangeDesc>
-  <showUndeadAnimalChangeDesc>언데드 동물은 부패의 첫 번째 단계(부패)를 표시하며, 이 기능을 비활성화하면 언데드 동물은 살아 있을 때의 모습 그대로 나타납니다.</showUndeadAnimalChangeDesc>
-  <TM_AlterClothingDepth>의류 그리기 깊이 조정</TM_AlterClothingDepth>
-  <TM_AlterClothingDepthDesc>이 옵션을 활성화하면 다음 옵션에 따라 옷이 그려지는 순서(다른 옷의 위 또는 아래)가 변경됩니다.</TM_AlterClothingDepthDesc>
-  <TM_offsetMultilayerClothing>멀티 레이어 오프셋</TM_offsetMultilayerClothing>
-  <TM_offsetMultilayerClothingDesc>다중 레이어 의류의 표시 깊이를 조정하지만, 계산된 오프셋이 극단적인 경우(다른 모든 의류 위에 표시됨)에만 적용됩니다. 주로 망토의 그리기 깊이를 보정하기 위한 것입니다.</TM_offsetMultilayerClothingDesc>
-  <TM_CloakDepth>망토 그리기 깊이</TM_CloakDepth>
-  <TM_CloakDepthDesc>망토가 다른 옷의 위나 아래에 표시되도록 그리는 깊이를 조정합니다. 이 값을 조정해야 하는 경우 일반적으로 매우 작은 값(.001)으로 설정합니다.</TM_CloakDepthDesc>
-  <TM_CloakDepthNorth>망토 그리기 깊이(북쪽)</TM_CloakDepthNorth>
-  <TM_CloakDepthNorthDesc>캐릭터가 북쪽(위)을 향하고 있을 때 망토가 다른 옷의 위나 아래에 표시되도록 망토의 그리기 깊이를 조정합니다. 이 값을 조정해야 하는 경우 일반적으로 매우 작은 값(.001)으로 설정합니다.</TM_CloakDepthNorthDesc>
-  <TM_GolemCharge>에너지: {0}%</TM_GolemCharge>
-  <TM_SetVerbatum>세트</TM_SetVerbatum>
-  <TM_Use>{0} 사용</TM_Use>
-  <TM_Read>{0} 읽기</TM_Read>
-  <TM_Inject>{0} 주입</TM_Inject>
   <TM_UndeadVerbatum>언데드</TM_UndeadVerbatum>
-  <TM_IncitePassionSelection>{0}(이)가 열정 유발을 위해 선택됨</TM_IncitePassionSelection>
-  <TM_SelectPassion>열정 선택</TM_SelectPassion>
 </LanguageData>
