@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DragonEncounterEvent.questDescriptionRules.rulesStrings>
+    <li>dragonWithArticleAndCount(count==1)-&gt;[kindLabel]</li>
+    <li>dragonWithArticleAndCount(count&gt;1)-&gt;[count]마리의 [kindLabel]</li>
+    <li>that(count==1)-&gt;그것</li>
+    <li>that(count&gt;1)-&gt;그것들</li>
+    <li>questDescription-&gt;[intro]\n\n[reward]</li>
+    <li>intro-&gt;[nearby] (*Threat)[kindLabel](/Threat)(이)가 있다는 소문을 들었습니다. 수집한 정보에 따르면 무리는 매우 얌전해 보입니다. (*Threat)하지만 소문이 항상 정확하다고는 할 수 없으며, 접근하는 것만으로 공격적인 태도를 보일 가능성이 있습니다.(/Threat)</li>
+    <li>intro-&gt;[asker_faction_name]의 [asker_faction_leaderTitle] [asker_nameFull](이)가 [nearby] (*Threat)[kindLabel](/Threat)(이)가 있다는 정보를 알려주었습니다. [asker_pronoun]는 이 무리가 매우 얌전해 직접 자극하지 않는 한 무해하다고 말했습니다. (*Threat)하지만 [asker_pronoun]의 말이 항상 정확하다고는 할 수 없으며, 접근하는 것만으로 공격적인 태도를 보일 가능성이 있습니다.(/Threat)</li>
+    <li>nearby(count==1)-&gt;근처에</li>
+    <li>nearby(count&gt;1)-&gt;근처에 (*Threat)[count](/Threat)마리의</li>
+    <li>reward-&gt;그곳으로 간다고 해서 누군가 보상을 주는 것은 아니지만, 용을 길들이거나 사냥할 수 있습니다.</li>
+    <li>reward-&gt;그곳으로 간다고 해서 누군가 보상을 주는 것은 아니지만, 용을 길들이거나 사냥할 수 있습니다.</li>
+  </DragonEncounterEvent.questDescriptionRules.rulesStrings>
+</LanguageData>
