@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Kopp_CFI_CaravanFormationImprovements>Caravan Formation Improvements</Kopp_CFI_CaravanFormationImprovements>
+  <Kopp_CFI_NeedsRestart>다음 설정들을 적용하려면 림월드를 다시 시작해야 합니다!</Kopp_CFI_NeedsRestart>
+  <Kopp_CFI_NeedsNoRestart>다음 설정들은 바로 적용됩니다!</Kopp_CFI_NeedsNoRestart>
+  <Kopp_CFI_DistanceToContinueRoping>묶기 작업 시, 다음 가축을 탐색하는 범위 (상단 아닐 때도 적용): </Kopp_CFI_DistanceToContinueRoping>
+  <Kopp_CFI_DistanceToContinueRopingTooltip>정착민이 가축을 묶은 후, 더 묶으려할 때 주변을 탐색하는 범위입니다.\n\n기본값: 10</Kopp_CFI_DistanceToContinueRopingTooltip>
+  <Kopp_CFI_MaxAnimalsToRopeAtOnce>한 번에 묶을 수 있는 최대 가축 수 (상단 구성 시): </Kopp_CFI_MaxAnimalsToRopeAtOnce>
+  <Kopp_CFI_MaxAnimalsToRopeAtOnceTooltip>기본값: 10</Kopp_CFI_MaxAnimalsToRopeAtOnceTooltip>
+  <Kopp_CFI_ModDefinesExitTile>세계지도에서 상단이 등장하는 위치를 출구 방향에 맞게 설정:</Kopp_CFI_ModDefinesExitTile>
+  <Kopp_CFI_ModDefinesExitTileTooltip>세계지도에서 북쪽으로 나오도록 상단을 구성했지만, 실제 지역에서는 남쪽으로 출구를 이용한 경우, 이 옵션을 체크하면 세계지도에서 해당 상단은 가능하면 그 지역의 남쪽에서 등장합니다.</Kopp_CFI_ModDefinesExitTileTooltip>
+  <Kopp_CFI_RopeAnimalsOnArrival>지역 도착 시, 가축들 자동묶기:</Kopp_CFI_RopeAnimalsOnArrival>
+  <Kopp_CFI_RopeAnimalsOnArrivalTooltip>림월드에서는 지역에 도착했을 때, '상단 구성 장소'나 적합한 '우리 표시'가 없으면, 가축들은 자유롭게 돌아다닙니다. 이 옵션을 체크하면 도착했을 때 근처에 자동으로 묶습니다.</Kopp_CFI_RopeAnimalsOnArrivalTooltip>
+  <Kopp_CFI_RopeAnimalsWhenPausing>상단 구성이 중지될 때, 이미 묶인 가축들 자동묶기:</Kopp_CFI_RopeAnimalsWhenPausing>
+  <Kopp_CFI_RopeAnimalsWhenPausingTooltip>수동으로 상단 구성을 일시 중지하거나, 구성원 중 누군가가 정신이상을 겪어 강제 중지될 때 작동합니다.</Kopp_CFI_RopeAnimalsWhenPausingTooltip>
+  <Kopp_CFI_DontAddNewbornsToCaravans>상단 구성 중에 태어난 가축은 추가하지 않음:</Kopp_CFI_DontAddNewbornsToCaravans>
+  <Kopp_CFI_DontAddNewbornsToCaravansTooltip>림월드에서는 구성중인 상단에서 가축이 출산하면, 그 태어난 가축도 묶기 위해 해당 상단의 묶기를 모두 해제하여 처음부터 다시 묶는 기묘한 행위를 합니다.\n\n이를 비활성화하려면 체크하세요.</Kopp_CFI_DontAddNewbornsToCaravansTooltip>
+  <Kopp_CFI_ConfirmationCancelCaravan>상단 구성을 취소할 때, 확인 창 띄우기:</Kopp_CFI_ConfirmationCancelCaravan>
+  <Kopp_CFI_ConfirmationCancelCaravanTooltip>실수로 "상단 구성 취소"를 클릭하지 않도록 방지하기 위함입니다.</Kopp_CFI_ConfirmationCancelCaravanTooltip>
+  <Kopp_CFI_PawnsRespectZonesOnCaravanPause>상단 구성 중지 시, 정착민들 허가구역 지키기:</Kopp_CFI_PawnsRespectZonesOnCaravanPause>
+  <Kopp_CFI_PawnsRespectZonesOnCaravanPauseTooltip>체크할 시, Pawn_PlayerSettings.RespectsAllowedArea 메소드가 패치되어 Pawn의 dutyDef가 pauseCaravan인지 확인합니다. 현재 상단이 구성되지 않았더라도 주기적으로 계산하는 작업이기 때문에 해당 설정은 기본적으로 비활성화되어 있습니다.\n\n그럼에도 유의미한 성능(TPS) 저하는 거의 측정 불가능합니다:\n50명의 Pawn이 빈둥거리고 자주 길찾기 경로를 검색할 때 평균 약 0.057ms에서 0.058ms정도 증가합니다.</Kopp_CFI_PawnsRespectZonesOnCaravanPauseTooltip>
+  <Kopp_CFI_ImproveBringingDownedPawnsToEdge>가능한 경우, 쓰러진 상단 구성원은 동시에 지역 출구로 데려감:</Kopp_CFI_ImproveBringingDownedPawnsToEdge>
+  <Kopp_CFI_ImproveBringingDownedPawnsToEdgeTooltip>모더는 이 기능을 많이 테스트하지 않았습니다. 상단 구성 작업이 지겨워서요.</Kopp_CFI_ImproveBringingDownedPawnsToEdgeTooltip>
+  <Kopp_CFI_Experimental>실험적 기능: </Kopp_CFI_Experimental>
+  <Kopp_CFI_GizmosToDisplay>상단 구성에 쓰이는 유용한 명령 버튼을 추가합니다 (체크추천)</Kopp_CFI_GizmosToDisplay>
+  <Kopp_CFI_PauseCaravanFormingLabel>상단 구성 일시중지</Kopp_CFI_PauseCaravanFormingLabel>
+  <Kopp_CFI_PauseCaravanFormingDesc>상단 구성을 일시 중지합니다. 림월드 기본 시스템이 적용되므로 해당 상단 구성원들은 허가구역을 지키지 않습니다.</Kopp_CFI_PauseCaravanFormingDesc>
+  <Kopp_CFI_PauseCaravanFormationMessage>상단 구성이 일시 중지되었습니다.</Kopp_CFI_PauseCaravanFormationMessage>
+  <Kopp_CFI_ContinueCaravanFormingLabel>상단 구성 재개</Kopp_CFI_ContinueCaravanFormingLabel>
+  <Kopp_CFI_LeaveNowLabel>즉시 지역 떠나기</Kopp_CFI_LeaveNowLabel>
+  <Kopp_CFI_LeaveNowDesc>적재가 아직 완전히 끝나지 않았어도 상단을 지금 바로 지역에서 떠나게 합니다. 해당 상단에 정신이상을 겪는 구성원이 있으면 작동하지 않고 강제 중지됩니다.</Kopp_CFI_LeaveNowDesc>
+  <Kopp_CFI_LeaveNowConfirmation>지금 바로 지역을 떠나게 합니까?\n\n이 명령은 취소하지 못하므로, 남은 물품은 더이상 적재할 수 없습니다.</Kopp_CFI_LeaveNowConfirmation>
+  <Kopp_CFI_LeaveNowConfirmation2>지금 바로 지역을 떠나기 위해, 현재 필요한 행동(허기, 수면 등등)을 하고 있는 상단 구성원들도 그 행동을 중단하고 지역 출구로 이동합니다.</Kopp_CFI_LeaveNowConfirmation2>
+  <Kopp_CFI_LeaveNowBadMood>다음 상단 구성원들은 기분이 나빠 지역 출구로 도달하기 전에 정신이상을 겪을 위험이 있습니다:</Kopp_CFI_LeaveNowBadMood>
+  <Kopp_CFI_SetExitCellLabel>출구 지점 설정</Kopp_CFI_SetExitCellLabel>
+  <Kopp_CFI_SetExitCellDesc>상단이 지역을 떠나기 위한 출구 지점을 직접 설정합니다. 해당 상단의 모든 구성원이 도달할 수 있는 (설 수 있는/겹치기 허용) 지역의 가장자리만 선택할 수 있습니다.</Kopp_CFI_SetExitCellDesc>
+  <Kopp_CFI_ExitCellConfirmation>해당 상단은 선택한 출구 지점에서 지역을 떠납니다.</Kopp_CFI_ExitCellConfirmation>
+  <Kopp_CFI_ExitCellRejection>출구 지점으로 적합하지 않습니다.</Kopp_CFI_ExitCellRejection>
+  <Kopp_CFI_ExitCellNotReachable>선택한 지점에 상단이 도달할 수 없습니다. 기본 방식대로 출구를 설정합니다. 해당 상단 구성원 중 한 명을 선택하면 표시되는 '출구 지점 설정' 버튼을 통해 다시 설정할 수 있습니다.</Kopp_CFI_ExitCellNotReachable>
+  <Kopp_CFI_ExitCellDownedPawn>쓰러진 사람이 상단에서 제외되었습니다.</Kopp_CFI_ExitCellDownedPawn>
+  <Kopp_CFI_SetMeetingCellLabel>상단 구성 지점 설정</Kopp_CFI_SetMeetingCellLabel>
+  <Kopp_CFI_SetMeetingCellDesc>상단 구성 장소'를 해당 상단에 한해서 따로 설정합니다. 상단 구성을 취소하지 않고도 상단 구성 장소를 여러 번 변경할 수 있습니다.</Kopp_CFI_SetMeetingCellDesc>
+  <Kopp_CFI_SetMeetingCellConfirmation>해당 상단은 선택한 지점에서 상단을 구성합니다.</Kopp_CFI_SetMeetingCellConfirmation>
+  <Kopp_CFI_SetMeetingCellRejection>상단 구성 지점으로 적합하지 않습니다. 해당 상단은 이전 위치에서 계속 구성합니다.</Kopp_CFI_SetMeetingCellRejection>
+  <Kopp_CFI_MeetingCellNotReachable>선택한 지점에 상단이 도달할 수 없습니다. 기본 방식대로 구성 장소를 설정합니다. 해당 상단 구성원 중 한 명을 선택하면 표시되는 '상단 구성 지점 설정' 버튼을 통해 다시 설정할 수 있습니다.</Kopp_CFI_MeetingCellNotReachable>
+  <Kopp_CFI_ConfirmationCancelCaravanText>정말로 상단 구성을 취소하시겠습니까?</Kopp_CFI_ConfirmationCancelCaravanText>
+  <Kopp_CFI_SwitchMemberLabel>다음 상단 구성원</Kopp_CFI_SwitchMemberLabel>
+  <Kopp_CFI_SwitchMemberDesc>해당 상단의 다음 구성원을 선택합니다.\n\n커서를 올리면 각 구성원에게 화살표가 표시됩니다.</Kopp_CFI_SwitchMemberDesc>
+  <Kopp_CFI_AtSpecificCell> 특정 지점에서</Kopp_CFI_AtSpecificCell>
+  <Kopp_CFI_EntryCellConfirmation>선택한 지점으로 상단이 진입합니다.</Kopp_CFI_EntryCellConfirmation>
+  <Kopp_CFI_EntryCellRejection>진입 지점으로 적합하지 않습니다.</Kopp_CFI_EntryCellRejection>
+  <Kopp_CFI_SetSpots>상단 장소 설정</Kopp_CFI_SetSpots>
+</LanguageData>
