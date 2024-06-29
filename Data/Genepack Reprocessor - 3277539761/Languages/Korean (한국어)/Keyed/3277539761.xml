@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GeneR_GenepackMergeFinished>새 유전자묶음이 병합 완료되었습니다.</GeneR_GenepackMergeFinished>
+  <GeneR_GenepackCloneFinished>새 유전자묶음이 복제 완료되었습니다.</GeneR_GenepackCloneFinished>
+  <GeneR_GenepackSplitFinished>새 유전자묶음이 분리 완료되었습니다.</GeneR_GenepackSplitFinished>
+  <GeneR_MessageGenepackCancelledMissingPack>{0_labelShort}에서 새 유전자묶음을 만드는 작업이 취소되었습니다: 필요한 유전자묶음이 없습니다.</GeneR_MessageGenepackCancelledMissingPack>
+  <GeneR_MessageMergeCancelledMissingPack>{0_labelShort}에서 유전자묶음을 병합하는 작업이 취소되었습니다: 필요한 유전자묶음이 없습니다.</GeneR_MessageMergeCancelledMissingPack>
+  <GeneR_SeparateGenepack>분리</GeneR_SeparateGenepack>
+  <GeneR_SeparateDesc>유전자 보관고에 있는 유전자묶음을 분리해 두 개의 작은 유전자묶음을 만듭니다.</GeneR_SeparateDesc>
+  <GeneR_DublicGenepack>복제</GeneR_DublicGenepack>
+  <GeneR_DublicDesc>유전자 보관고에 있는 유전자묶음을 복제합니다.</GeneR_DublicDesc>
+  <GeneR_MergeGenepack>병합</GeneR_MergeGenepack>
+  <GeneR_MergeDesc>유전자 보관고에 있는 여러 유전자묶음을 합쳐 하나의 큰 유전자묶음을 만듭니다.</GeneR_MergeDesc>
+  <GeneR_CancelGenepack>유전자묶음 작업 취소</GeneR_CancelGenepack>
+  <GeneR_CancelGenepackDesc>새 유전자묶음을 만드는 모든 작업을 중지합니다.</GeneR_CancelGenepackDesc>
+  <GeneR_MergeJob>유전자묶음 병합 중</GeneR_MergeJob>
+  <GeneR_SeparateJob>유전자묶음 분리 중</GeneR_SeparateJob>
+  <GeneR_CopyGenepack>유전자묶음 복제 중</GeneR_CopyGenepack>
+  <GeneR_ComplexityPenalty>복잡성 페널티</GeneR_ComplexityPenalty>
+  <GeneR_ArchitePenalty>초월입자 페널티</GeneR_ArchitePenalty>
+  <GeneR_NeutroamineRequired>뉴트로아민 필요</GeneR_NeutroamineRequired>
+  <GeneR_DuplicateGenes>유전자묶음 복제</GeneR_DuplicateGenes>
+  <GeneR_IsolateGenes>유전자 분리</GeneR_IsolateGenes>
+  <GeneR_MergeGenes>유전자묶음 병합</GeneR_MergeGenes>
+  <GeneR_AcceptGenes>처리 시작</GeneR_AcceptGenes>
+  <GeneR_ConfirmGenepack>현재 작업을 취소하고 새 유전자묶음 작업을 시작하시겠습니까?</GeneR_ConfirmGenepack>
+  <GeneR_GenepackDuration>재처리 기간</GeneR_GenepackDuration>
+  <GeneR_GenepackDurationDesc>새 유전자묶음을 만드는 데 필요한 시간입니다.</GeneR_GenepackDurationDesc>
+  <GeneR_MessageSelectMoreGenepacks>병합하려면 두 개 이상의 유전자묶음을 선택해야 합니다.</GeneR_MessageSelectMoreGenepacks>
+  <GeneR_MessageTooFewGenes>분리하려면 2개 이상의 유전자가 포함된 유전자묶음을 선택해야 합니다.</GeneR_MessageTooFewGenes>
+  <GeneR_MessageTooManyGenes>병합된 유전자묶음을 만들 수 없습니다. 총 유전자의 수가 {0} 미만이어야 합니다.</GeneR_MessageTooManyGenes>
+  <GeneR_GR>유전자묶음 재처리기</GeneR_GR>
+  <GeneR_X>x</GeneR_X>
+  <GeneR_WorkMultiplier>필요 작업량 계수: </GeneR_WorkMultiplier>
+  <GeneR_Logarithmic>로그형</GeneR_Logarithmic>
+  <GeneR_LogarithmicHelp>복잡성이 증가함에 따라 복잡성당 필요 작업량이 감소합니다 (복잡도 24에서 최대 작업량을 달성합니다).</GeneR_LogarithmicHelp>
+  <GeneR_Linear>선형</GeneR_Linear>
+  <GeneR_LinearHelp>작업량이 복잡성에 비례합니다 (복잡도 24에서 최대 작업량을 달성합니다).</GeneR_LinearHelp>
+  <GeneR_Exponential>지수형</GeneR_Exponential>
+  <GeneR_ExponentialHelp>복잡성이 증가함에 따라 복잡성당 필요 작업량이 증가합니다 (복잡도 24에서 최대 작업량을 달성합니다).</GeneR_ExponentialHelp>
+  <GeneR_ArchiteCapsulesSet>초월입자 캡슐 필요</GeneR_ArchiteCapsulesSet>
+  <GeneR_ArchiteCapsulesSetHelp>초월인자 처리에 초월입자 캡슐이 사용되도록 할까요?</GeneR_ArchiteCapsulesSetHelp>
+  <GeneR_NeutroamineBase>뉴트로아민 기본 소모량:</GeneR_NeutroamineBase>
+  <GeneR_NeutroamineBaseHelp>작업당 소모되는 뉴트로아민의 최소 수치입니다.</GeneR_NeutroamineBaseHelp>
+  <GeneR_NeutroamineComp>복잡성당 뉴트로아민 소모량:</GeneR_NeutroamineComp>
+  <GeneR_NeutroamineCompHelp>유전자의 복잡성 1당 소모되는 뉴트로아민의 수치입니다.</GeneR_NeutroamineCompHelp>
+  <GeneR_GenepackConsume>유전자묶음 소모:</GeneR_GenepackConsume>
+  <GeneR_GenepackConsumeHelp>작업이 완료된 후 유전자묶음을 파괴할까요?</GeneR_GenepackConsumeHelp>
+  <GeneR_Materials>재료 비용</GeneR_Materials>
+  <GeneR_MaterialsHelp>이 건물을 짓는 데 필요한 각 자원의 양입니다.</GeneR_MaterialsHelp>
+  <GeneR_MatComp>부품:</GeneR_MatComp>
+  <GeneR_MatCompHelp>재처리기를 짓는 데 필요한 부품의 양입니다.</GeneR_MatCompHelp>
+  <GeneR_MatAdvComp>고급 부품:</GeneR_MatAdvComp>
+  <GeneR_MatAdvCompHelp>재처리기를 짓는 데 필요한 고급 부품의 양입니다.</GeneR_MatAdvCompHelp>
+  <GeneR_MatSteel>강철:</GeneR_MatSteel>
+  <GeneR_MatSteelHelp>재처리기를 짓는 데 필요한 강철의 양입니다.</GeneR_MatSteelHelp>
+  <GeneR_MatPlasteel>플라스틸:</GeneR_MatPlasteel>
+  <GeneR_MatPlasteelHelp>재처리기를 짓는 데 필요한 플라스틸의 양입니다.</GeneR_MatPlasteelHelp>
+  <GeneR_MatGold>금:</GeneR_MatGold>
+  <GeneR_MatGoldHelp>재처리기를 짓는 데 필요한 금의 양입니다.</GeneR_MatGoldHelp>
+  <GeneR_HP>내구도:</GeneR_HP>
+  <GeneR_HPHelp>건물의 내구도입니다.</GeneR_HPHelp>
+  <GeneR_BuildWork>건설 작업량:</GeneR_BuildWork>
+  <GeneR_BuildWorkHelp>건물을 짓는 데 필요한 작업량입니다.</GeneR_BuildWorkHelp>
+  <GeneR_Mass>질량:</GeneR_Mass>
+  <GeneR_MassHelp>이 건물의 질량입니다. 질량이 높을수록 운반이 어렵습니다.</GeneR_MassHelp>
+  <GeneR_Flam>가연성:</GeneR_Flam>
+  <GeneR_FlamHelp>이 건물이 불에 얼마나 취약한지를 나타냅니다. 0일 경우, 절대 불에 타지 않습니다.</GeneR_FlamHelp>
+  <GeneR_BuildSkill>건설 기술:</GeneR_BuildSkill>
+  <GeneR_BuildSkillHelp>이 건물을 짓는 데 필요한 최소한의 건설 기술입니다.</GeneR_BuildSkillHelp>
+  <GeneR_Minify>소형화 가능:</GeneR_Minify>
+  <GeneR_MinifyHelp>이 건물을 해체하고 다시 설치할 수 있도록 할까요?</GeneR_MinifyHelp>
+  <GeneR_CanSeparate>분리 작업 활성화</GeneR_CanSeparate>
+  <GeneR_CanSeparateHelp>유전자묶음 재처리기가 유전자를 분리할 수 있도록 할까요?</GeneR_CanSeparateHelp>
+  <GeneR_SeparateMultiplierHelp>분리 작업에 소요되는 시간에 적용되는 계수입니다.</GeneR_SeparateMultiplierHelp>
+  <GeneR_CanDuplicate>복제 작업 활성화</GeneR_CanDuplicate>
+  <GeneR_CanDuplicateHelp>유전자묶음 재처리기가 유전자를 복제할 수 있도록 할까요?</GeneR_CanDuplicateHelp>
+  <GeneR_DuplicateMultiplierHelp>복제 작업에 소요되는 시간에 적용되는 계수입니다.</GeneR_DuplicateMultiplierHelp>
+  <GeneR_CanMerge>병합 작업 활성화</GeneR_CanMerge>
+  <GeneR_CanMergeHelp>유전자묶음 재처리기가 유전자를 병합할 수 있도록 할까요?</GeneR_CanMergeHelp>
+  <GeneR_MergeMultiplierHelp>병합 작업에 소요되는 시간에 적용되는 계수입니다.</GeneR_MergeMultiplierHelp>
+  <GeneR_SetsSaved>건물 설정을 업데이트하려면 게임을 다시 시작해야 합니다. 작업 설정은 다음 작업에 적용됩니다.</GeneR_SetsSaved>
+  <GeneR_SetDefault>기본 설정</GeneR_SetDefault>
+  <GeneR_SetDefaultHelp>모든 설정을 모드의 기본값으로 재설정합니다.</GeneR_SetDefaultHelp>
+  <GeneR_SetDefaultMes>기본 설정이 적용되었습니다.</GeneR_SetDefaultMes>
+  <GeneR_SetSimple>간소화된 설정</GeneR_SetSimple>
+  <GeneR_SetSimpleHelp>간단한 유전자묶음 분리를 위한 설정입니다.</GeneR_SetSimpleHelp>
+  <GeneR_SetSimpleMes>간소화된 설정이 적용되었습니다.</GeneR_SetSimpleMes>
+  <GeneR_ResearchMes>정보: 고급 부품 얻기</GeneR_ResearchMes>
+  <GeneR_ResearchMesDes>이제 유전자묶음 재처리기를 만들 기술을 보유하고 있지만, 건설에는 고급 부품도 필요합니다. 고급 부품은 다음과 같은 방법으로 수집할 수 있습니다:\n\n  -모든 외부인 정착지는 고급 부품을 판매합니다. 상단을 보내 구매하세요.\n  -일부 방문 상인은 고급 부품을 판매합니다. 초대하거나 그들을 기다리세요.\n  -일부 퀘스트는 고급 부품을 보상으로 줍니다.</GeneR_ResearchMesDes>
+</LanguageData>
