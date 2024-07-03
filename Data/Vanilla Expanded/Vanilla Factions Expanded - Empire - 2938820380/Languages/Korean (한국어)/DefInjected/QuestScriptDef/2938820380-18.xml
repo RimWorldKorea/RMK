@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VFEE_NobleVisit.questDescriptionAndNameRules.rulesStrings>
+    <li>lodgersLabel-&gt;귀족</li>
+    <li>lodgersLabelPlural-&gt;귀족들</li>
+    <li>lodgersDef(nobleCount==1)-&gt;[lodgers0_nameDef]</li>
+    <li>lodgersDef(nobleCount&gt;=2)-&gt;[lodgersLabelPlural]</li>
+    <li>joinerEnding-&gt;정착민과 같은 방식으로 [lodgersDef](을)를 소집할 수 있습니다.[specialNeedsExplanation]</li>
+    <li>specialNeedsExplanation(asker_royalInCurrentFaction==True,priority=1)-&gt; 머무는 동안 [lodgersLabelPlural]의 요구 사항을 충족시켜야 합니다.</li>
+    <li>specialNeedsExplanation-&gt;</li>
+    <li>theirHisHer(nobleCount==1)-&gt;[lodgers0_possessive]</li>
+    <li>theirHisHer(nobleCount&gt;=2)-&gt;그들의</li>
+    <li>lodgersPronoun(nobleCount==1)-&gt;[lodgers0_pronoun]</li>
+    <li>lodgersPronoun(nobleCount&gt;=2)-&gt;그들</li>
+    <li>lodgersWasWere(nobleCount==1)-&gt;는</li>
+    <li>lodgersWasWere(nobleCount&gt;=2)-&gt;은</li>
+    <li>appreciateAppreciates(nobleCount==1)-&gt;감사</li>
+    <li>appreciateAppreciates(nobleCount&gt;=2)-&gt;감사</li>
+    <li>questDescription-&gt;[asker_faction_name]의 [asker_royalTitleInCurrentFaction] [asker_nameFull](이)가 관습에 따라 당신을 방문하고자 합니다. [asker_possessive] 요청에 응해 [shuttleDelayTicks_duration]간 충실히 대접한다면, 많은 신임장을 얻을 수 있습니다. 머무르는 동안 기분을 반드시 [lodgersMoodThreshold_percent] 이상 유지해야 합니다. 호화로운 침실과 같이 작위에 따르는 요구사항도 충족해 주어야합니다.\n\n[asker_royalTitleInCurrentFaction](은)는 [asker_possessive] 개인 경호원 두 명을 데려와 당신의 통제에 맡깁니다. 이들의 숙식 또한 책임져야 하지만, 전투 중에 죽거나 불만족을 느끼더라도 [asker_royalTitleInCurrentFaction](은)는 불만을 가지지 않습니다.\n\n당신은 방문객을 [map_definite] 바깥 어디로든 보내선 안됩니다. 임무에 실패하거나 지정된 장소에서 떠나게 할 경우, [asker_nameFull](와)과의 관계가 하락하고 신임장을 얻을 수 없습니다.</li>
+    <li>questDescription(nobleCount&gt;=2)-&gt;[asker_faction_name]의 [asker_royalTitleInCurrentFaction] [asker_nameFull](와)과  [asker_possessive] 궁정 귀족 [nobleCountLessOne]명이 관습에 따라 당신을 방문하고자 합니다. [asker_possessive] 요청에 응해 [shuttleDelayTicks_duration]간 충실히 대접한다면 많은 신임장을 얻을 수 있습니다. 머무르는 동안 기분을 반드시 [lodgersMoodThreshold_percent] 이상 유지해야 합니다. 호화로운 침실과 같이, 작위에 따르는 요구사항도 충족되어야 합니다.\n\n[asker_royalTitleInCurrentFaction](은)는 [asker_possessive] 개인 경호원 두 명을 데려와 당신의 통제에 맡깁니다. 이들의 숙식 또한 책임져야 하지만, 전투 중에 죽거나 불만족을 느끼더라도 [asker_royalTitleInCurrentFaction](은)는 불만을 가지지 않습니다.\n\n당신은 방문객을 [map_definite] 바깥 어디로든 보내선 안됩니다. 임무에 실패하거나 지정된 장소에서 떠나게 할 경우, [asker_nameFull](와)과의 관계가 하락하고 신임장을 얻을 수 없습니다.</li>
+    <li>allyAllies(lodgersCountMinusOne==1)-&gt;동맹</li>
+    <li>allyAllies(lodgersCountMinusOne&gt;=2)-&gt;동맹</li>
+  </VFEE_NobleVisit.questDescriptionAndNameRules.rulesStrings>
+</LanguageData>
