@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Security</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="LSK_RB_Shield_III"]/label</xpath>
+          <value>
+            <label>디펜스 쉴드 기술</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="LSK_RB_Shield_III"]/description</xpath>
+          <value>
+            <description>우주선에 적용된 고급 쉴드 기술. 우리 인원과 건물을 효과적으로 보호할 수 있습니다. 물론, 전력 소비는 엄청납니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="LSK_RB_ShieldLowPower_I"]/label</xpath>
+          <value>
+            <label>쉴드 전력 소비 개선 I</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="LSK_RB_ShieldLowPower_I"]/description</xpath>
+          <value>
+            <description>내구성이 좋지 않다면, 쉴드는 단지 우리의 죽기 전 시간을 늘릴 뿐입니다. 연구가 완료되면 쉴드의 전력 소비가 줄어듭니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="LSK_RB_Shield_Small"]/label</xpath>
+          <value>
+            <label>소형 쉴드 코어</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="LSK_RB_Shield_Small"]/description</xpath>
+          <value>
+            <description>소형 쉴드 장치. 범위는 상대적으로 작지만 전력 소비도 적습니다. 적이 있을 때만 활성화됩니다. 짧은 시간 안에 큰 피해를 입으면 과열로 인해 폭발할 수 있습니다. 쉴드가 소진되면 재시작하는 데 시간이 걸립니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="LSK_RB_Shield_Large"]/label</xpath>
+          <value>
+            <label>대형 쉴드 코어</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="LSK_RB_Shield_Large"]/description</xpath>
+          <value>
+            <description>대형 쉴드 장치. 범위는 크지만 전력 소비도 높습니다. 적이 있을 때만 활성화됩니다. 짧은 시간 안에 큰 피해를 입으면 과열로 인해 폭발할 수 있습니다. 쉴드가 소진되면 재시작하는 데 시간이 걸립니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="LSK_RB_ShieldReRate_Upgrade"]/label</xpath>
+          <value>
+            <label>쉴드 수리 업그레이드 II</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="LSK_RB_ShieldReRate_Upgrade"]/description</xpath>
+          <value>
+            <description>고급 장치는 과부하 전에 쉴드의 회복 속도를 크게 증가시킬 수 있습니다. 각 쉴드 코어에 3개까지 연결 할 수 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="LSK_RB_ShieldHP_Upgrade"]/label</xpath>
+          <value>
+            <label>쉴드 에너지 업그레이드 II</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="LSK_RB_ShieldHP_Upgrade"]/description</xpath>
+          <value>
+            <description>고급 장치는 쉴드의 최대 보호 에너지를 크게 강화할 수 있습니다. 각 쉴드 코어에 4개까지 연결 할 수 있습니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
