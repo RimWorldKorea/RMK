@@ -2,6 +2,7 @@
 <LanguageData>
   <VME_BonfireOutcome.description>의식의 품질에 따라 참가자들은 4시간에서 3일 동안 지속되는 오락 보너스를 받을 수 있으며 {MINMOOD}~{MAXMOOD}의 기분을 {MOODDAYS}일 동안 얻게 됩니다.\n\n의식용 화톳불은 최소 2분기 동안 지속되며 주변에 미관 보너스를 제공하고 "불" 규율에 영향을 미칩니다.</VME_BonfireOutcome.description>
   <VME_BonfireOutcome.comps.0.label>참여자 수</VME_BonfireOutcome.comps.0.label>
+  <VME_BonfireOutcome.comps.0.labelAbstract>연설자의 사회적 영향력</VME_BonfireOutcome.comps.0.labelAbstract>
   <VME_BonfireOutcome.comps.1.label>참가자 수</VME_BonfireOutcome.comps.1.label>
   <VME_BonfireOutcome.outcomeChances.0.label>끔찍한</VME_BonfireOutcome.outcomeChances.0.label>
   <VME_BonfireOutcome.outcomeChances.0.description>{0}(은)는 끔찍한 축제였습니다. 아주 작은 화염이 작게 멤돌다가 순식간에 꺼져버렸습니다. (오락 보너스를 받지 못함)</VME_BonfireOutcome.outcomeChances.0.description>
@@ -13,6 +14,7 @@
   <VME_BonfireOutcome.outcomeChances.3.description>{0}(은)는 영광스러운 축제였습니다. 정말 재미있었으며 축제의 경험을 통해 참가자 모두가 하나로 연결되었습니다.\n\n모든 참가자들이 3일동안 오락 보너스를 받습니다.</VME_BonfireOutcome.outcomeChances.3.description>
   <VME_CeremonialSuicideRitualOutcome.description>의식의 품질에 따라, 참여자들은 {MINMOOD}~{MAXMOOD}의 기분을 {MOODDAYS}일 동안 얻게 됩니다. 건강한 정착민만 참가할 수 있습니다.</VME_CeremonialSuicideRitualOutcome.description>
   <VME_CeremonialSuicideRitualOutcome.comps.0.label>{PAWN_labelShort} 참여</VME_CeremonialSuicideRitualOutcome.comps.0.label>
+  <VME_CeremonialSuicideRitualOutcome.comps.0.labelAbstract>연설자의 사회적 영향력</VME_CeremonialSuicideRitualOutcome.comps.0.labelAbstract>
   <VME_CeremonialSuicideRitualOutcome.comps.1.label>참여자 수</VME_CeremonialSuicideRitualOutcome.comps.1.label>
   <VME_CeremonialSuicideRitualOutcome.comps.2.label>참가자 수</VME_CeremonialSuicideRitualOutcome.comps.2.label>
   <VME_CeremonialSuicideRitualOutcome.outcomeChances.0.label>끔찍한</VME_CeremonialSuicideRitualOutcome.outcomeChances.0.label>
@@ -25,6 +27,7 @@
   <VME_CeremonialSuicideRitualOutcome.outcomeChances.3.description>{0}(은)는 장엄한 할복이었습니다. 누구든 그의 용기와 자제력, 강한 결의를 잊지 못할 것입니다. 정착지의 명예는 완벽해졌습니다.</VME_CeremonialSuicideRitualOutcome.outcomeChances.3.description>
   <VME_DivineStarsRitualOutcome.description>의식의 품질에 상관없이 참여자들은 완전히 무작위한 기분을 얻게 됩니다.</VME_DivineStarsRitualOutcome.description>
   <VME_DivineStarsRitualOutcome.comps.0.label>{PAWN_labelShort} 참여</VME_DivineStarsRitualOutcome.comps.0.label>
+  <VME_DivineStarsRitualOutcome.comps.0.labelAbstract>연설자의 사회적 영향력</VME_DivineStarsRitualOutcome.comps.0.labelAbstract>
   <VME_DivineStarsRitualOutcome.comps.1.label>참여자 수</VME_DivineStarsRitualOutcome.comps.1.label>
   <VME_DivineStarsRitualOutcome.outcomeChances.0.label>헤아릴 수 없는</VME_DivineStarsRitualOutcome.outcomeChances.0.label>
   <VME_DivineStarsRitualOutcome.outcomeChances.0.description>별이 우리의 운명을 속삭여 주었습니다.</VME_DivineStarsRitualOutcome.outcomeChances.0.description>
@@ -34,6 +37,7 @@
   <VME_IncantationOutcome.comps.0.label>방 인상</VME_IncantationOutcome.comps.0.label>
   <VME_IncantationOutcome.comps.1.label>참여자 수</VME_IncantationOutcome.comps.1.label>
   <VME_IncantationOutcome.comps.2.label>{PAWN_labelShort} 참여</VME_IncantationOutcome.comps.2.label>
+  <VME_IncantationOutcome.comps.2.labelAbstract>주최자의 사회적 영향력</VME_IncantationOutcome.comps.2.labelAbstract>
   <VME_IncantationOutcome.outcomeChances.0.label>밋밋한</VME_IncantationOutcome.outcomeChances.0.label>
   <VME_IncantationOutcome.outcomeChances.0.description>{0}(은)는 비정상적인 주문이었습니다! 형언할 수 없이 끔찍하고 횡설수설한 주문이었으며 우리는 그것을 밋밋하다 표현하지만 그것이 무엇인지 조차 알아들을 수조차 없습니다!</VME_IncantationOutcome.outcomeChances.0.description>
   <VME_IncantationOutcome.outcomeChances.1.label>저주받은</VME_IncantationOutcome.outcomeChances.1.label>
@@ -58,7 +62,9 @@
   <VME_LeaderConversionOutcome.comps.0.label>방 인상</VME_LeaderConversionOutcome.comps.0.label>
   <VME_LeaderConversionOutcome.comps.1.label>참여자 수</VME_LeaderConversionOutcome.comps.1.label>
   <VME_LeaderConversionOutcome.comps.2.label>{PAWN_labelShort} 참여</VME_LeaderConversionOutcome.comps.2.label>
+  <VME_LeaderConversionOutcome.comps.2.labelAbstract>연설자의 사회적 영향력</VME_LeaderConversionOutcome.comps.2.labelAbstract>
   <VME_LeaderConversionOutcome.comps.3.label>{PAWN_labelShort} 기대감</VME_LeaderConversionOutcome.comps.3.label>
+  <VME_LeaderConversionOutcome.comps.3.labelAbstract>설득 대상자의 기대감</VME_LeaderConversionOutcome.comps.3.labelAbstract>
   <VME_LeaderConversionOutcome.outcomeChances.0.label>끔찍한</VME_LeaderConversionOutcome.outcomeChances.0.label>
   <VME_LeaderConversionOutcome.outcomeChances.0.description>{0}(은)는 끔찍했습니다! 설교는 쓸데없이 늘어졌고 논리적이지도 못해서 대상을 전혀 설득하지 못했습니다.</VME_LeaderConversionOutcome.outcomeChances.0.description>
   <VME_LeaderConversionOutcome.outcomeChances.1.label>무의미한</VME_LeaderConversionOutcome.outcomeChances.1.label>
@@ -68,9 +74,11 @@
   <VME_LeaderConversionOutcome.outcomeChances.3.label>위대한</VME_LeaderConversionOutcome.outcomeChances.3.label>
   <VME_LeaderConversionOutcome.outcomeChances.3.description>{0}(은)는 역사에 남을 위대한 설교였습니다! 설교 대상의 오래된 믿음은 너무나 쉽게 흩어져 버렸고, 대신 참된 뜻만이 바로 섰습니다.</VME_LeaderConversionOutcome.outcomeChances.3.description>
   <VME_LeadershipChallengeRitualOutcome.description>의식의 품질에 따라, 참여자들은 {MINMOOD}~{MAXMOOD}의 기분을 {MOODDAYS}일 동안 얻게 됩니다.</VME_LeadershipChallengeRitualOutcome.description>
+  <VME_LeadershipChallengeRitualOutcome.extraPredictedOutcomeDescriptions.0>죽음을 전제로 하는 결투입니다. 도전자가 승리할 경우 지도자 자리를 빼앗을 수 있습니다.</VME_LeadershipChallengeRitualOutcome.extraPredictedOutcomeDescriptions.0>
   <VME_LeadershipChallengeRitualOutcome.comps.0.label>주최자 참여</VME_LeadershipChallengeRitualOutcome.comps.0.label>
   <VME_LeadershipChallengeRitualOutcome.comps.1.label>방 인상</VME_LeadershipChallengeRitualOutcome.comps.1.label>
   <VME_LeadershipChallengeRitualOutcome.comps.2.label>{PAWN_labelShort} 참여</VME_LeadershipChallengeRitualOutcome.comps.2.label>
+  <VME_LeadershipChallengeRitualOutcome.comps.2.labelAbstract>주최자의 사회적 영향력</VME_LeadershipChallengeRitualOutcome.comps.2.labelAbstract>
   <VME_LeadershipChallengeRitualOutcome.comps.3.label>참여자 수</VME_LeadershipChallengeRitualOutcome.comps.3.label>
   <VME_LeadershipChallengeRitualOutcome.outcomeChances.0.label>끔찍한</VME_LeadershipChallengeRitualOutcome.outcomeChances.0.label>
   <VME_LeadershipChallengeRitualOutcome.outcomeChances.0.description>이번 도전은 끔찍했습니다. 전사들은 비겁함과 나약함을 과시하면서 부적절하게 서로를 피한 후 주변을 두리번거리기만 해서 관중들을 슬프게 만들었습니다.</VME_LeadershipChallengeRitualOutcome.outcomeChances.0.description>
@@ -84,6 +92,7 @@
   <VME_OrgyRitualOutcome.comps.0.label>주최자 참여</VME_OrgyRitualOutcome.comps.0.label>
   <VME_OrgyRitualOutcome.comps.1.label>방 인상</VME_OrgyRitualOutcome.comps.1.label>
   <VME_OrgyRitualOutcome.comps.2.label>{PAWN_labelShort} 참여</VME_OrgyRitualOutcome.comps.2.label>
+  <VME_OrgyRitualOutcome.comps.2.labelAbstract>연설자의 사회적 영향력</VME_OrgyRitualOutcome.comps.2.labelAbstract>
   <VME_OrgyRitualOutcome.comps.3.label>참여자 수</VME_OrgyRitualOutcome.comps.3.label>
   <VME_OrgyRitualOutcome.outcomeChances.0.label>기괴한</VME_OrgyRitualOutcome.outcomeChances.0.label>
   <VME_OrgyRitualOutcome.outcomeChances.0.description>{0}(은)는 정말로 기괴한 파티였습니다. 보통 난교 파티를 떠올린다면 매력적인 이들을 생각하기 마련이지만 이 파티는.. 정 반대였습니다. 참가자들의 정신적 고통이 해소되려면 시간이 좀 걸릴겁니다.</VME_OrgyRitualOutcome.outcomeChances.0.description>
@@ -97,6 +106,7 @@
   <VME_PlagueFestivalRitualOutcome.comps.2.label>종교 지도자 참여</VME_PlagueFestivalRitualOutcome.comps.2.label>
   <VME_PlagueFestivalRitualOutcome.comps.3.label>참여자 수</VME_PlagueFestivalRitualOutcome.comps.3.label>
   <VME_PlagueFestivalRitualOutcome.comps.4.label>제단에서 진행</VME_PlagueFestivalRitualOutcome.comps.4.label>
+  <VME_PlagueFestivalRitualOutcome.comps.4.expectedThingLabelTip>제단</VME_PlagueFestivalRitualOutcome.comps.4.expectedThingLabelTip>
   <VME_PlagueFestivalRitualOutcome.outcomeChances.0.label>끔찍한</VME_PlagueFestivalRitualOutcome.outcomeChances.0.label>
   <VME_PlagueFestivalRitualOutcome.outcomeChances.0.description>{0}(은)는 끔찍한 축제였습니다! 연설은 더듬거리고 일관성이 없는 내용으로 가득했으며 처형 기술이 너무 형편없었습니다. 제단에 누워 있던 시체는 아무 의미도 없었으며 신성한 질병이 시체에서 해방되지 않았습니다. 이건 시간 낭비입니다!</VME_PlagueFestivalRitualOutcome.outcomeChances.0.description>
   <VME_PlagueFestivalRitualOutcome.outcomeChances.1.label>지루한</VME_PlagueFestivalRitualOutcome.outcomeChances.1.label>
@@ -109,6 +119,7 @@
   <VME_SlaveEmancipationOutcome.comps.0.label>방 인상</VME_SlaveEmancipationOutcome.comps.0.label>
   <VME_SlaveEmancipationOutcome.comps.1.label>참여자 수</VME_SlaveEmancipationOutcome.comps.1.label>
   <VME_SlaveEmancipationOutcome.comps.2.label>{PAWN_labelShort} 참여</VME_SlaveEmancipationOutcome.comps.2.label>
+  <VME_SlaveEmancipationOutcome.comps.2.labelAbstract>연설자의 사회적 영향력</VME_SlaveEmancipationOutcome.comps.2.labelAbstract>
   <VME_SlaveEmancipationOutcome.outcomeChances.0.label>선동적인</VME_SlaveEmancipationOutcome.outcomeChances.0.label>
   <VME_SlaveEmancipationOutcome.outcomeChances.0.description>{0}(은)는 지나치게 선동적인 의식이었고 그로 인해 우리들은 그에게 사악한 세력으로 취급당했습니다. 그렇게 과시를 한다면 그 누구도 정착지에 합류하지 않을 것입니다.</VME_SlaveEmancipationOutcome.outcomeChances.0.description>
   <VME_SlaveEmancipationOutcome.outcomeChances.1.label>성공적인</VME_SlaveEmancipationOutcome.outcomeChances.1.label>
@@ -133,7 +144,9 @@
   <VME_ViolentConversionRitualOutcome.description>강제 교화는 절반의 확률로 참가자를 즉시 교화시키며 나머지 절반의 확률로 처형시킵니다. 의식의 품질에 따라, 참여자들은 {MINMOOD}~{MAXMOOD}의 기분을 {MOODDAYS}일 동안 얻게 됩니다.</VME_ViolentConversionRitualOutcome.description>
   <VME_ViolentConversionRitualOutcome.comps.0.label>참여자 수</VME_ViolentConversionRitualOutcome.comps.0.label>
   <VME_ViolentConversionRitualOutcome.comps.1.label>제단에서 진행</VME_ViolentConversionRitualOutcome.comps.1.label>
+  <VME_ViolentConversionRitualOutcome.comps.1.labelAbstract>진행자의 사회적 영향력</VME_ViolentConversionRitualOutcome.comps.1.labelAbstract>
   <VME_ViolentConversionRitualOutcome.comps.2.label>제단이나 상징문양에서 진행</VME_ViolentConversionRitualOutcome.comps.2.label>
+  <VME_ViolentConversionRitualOutcome.comps.2.expectedThingLabelTip>제단이나 상징문양</VME_ViolentConversionRitualOutcome.comps.2.expectedThingLabelTip>
   <VME_ViolentConversionRitualOutcome.outcomeChances.0.label>끔찍한</VME_ViolentConversionRitualOutcome.outcomeChances.0.label>
   <VME_ViolentConversionRitualOutcome.outcomeChances.0.description>{0}(은)는 끔찍했습니다! 설교는 쓸데없이 늘어졌고 논리적이지도 못해서 대상을 전혀 설득하지 못했습니다.</VME_ViolentConversionRitualOutcome.outcomeChances.0.description>
   <VME_ViolentConversionRitualOutcome.outcomeChances.1.label>만족스러운</VME_ViolentConversionRitualOutcome.outcomeChances.1.label>
@@ -143,6 +156,7 @@
   <VME_WickerManBurningOutcome.description>정착지의 죄수를 우리에 가둔 후 불을 피웁니다. 이 과정에서 죄수는 사망합니다. 의식의 품질에 따라, 참여자들은 {MINMOOD}~{MAXMOOD}의 기분을 {MOODDAYS}일 동안 얻게 됩니다.</VME_WickerManBurningOutcome.description>
   <VME_WickerManBurningOutcome.comps.0.label>참여자 수</VME_WickerManBurningOutcome.comps.0.label>
   <VME_WickerManBurningOutcome.comps.1.label>{PAWN_labelShort} 사회적 영향력</VME_WickerManBurningOutcome.comps.1.label>
+  <VME_WickerManBurningOutcome.comps.1.labelAbstract>연설자의 사회적 영향력</VME_WickerManBurningOutcome.comps.1.labelAbstract>
   <VME_WickerManBurningOutcome.outcomeChances.0.label>끔찍한</VME_WickerManBurningOutcome.outcomeChances.0.label>
   <VME_WickerManBurningOutcome.outcomeChances.0.description>{0}(은)는 끔찍한 축제였습니다. 죄수가 새장을 자꾸 덜그럭거렸으며 썩은 베이컨 냄새가 났습니다.</VME_WickerManBurningOutcome.outcomeChances.0.description>
   <VME_WickerManBurningOutcome.outcomeChances.1.label>흐릿한</VME_WickerManBurningOutcome.outcomeChances.1.label>
