@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>##packageId##DankPyon.Medieval.Overhaul</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="BiomesIslands_MakeStoneChunks_Coral"]/label</xpath>
+          <value>
+            <label>산호 덩어리 채굴</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="BiomesIslands_MakeStoneChunks_Coral"]/jobString</xpath>
+          <value>
+            <jobString>산호 덩어리 채굴 중</jobString>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
