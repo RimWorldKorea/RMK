@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <VVE_BangBus.label>뱅 버스</VVE_BangBus.label>
   <VVE_BangBus.description>여객 운송 수단으로 이용되는 뱅 버스는 평평한 지형의 도로를 가로질러 사람들을 수송하기 위해 사용되는 비교적 저렴한 기계입니다. 동절기 또는 눈이 덮힌 지형에서 사용하는 것은 권장하지 않습니다. 승객을 보호하고 있는 장갑한이 가속도에 부정적인 영향을 주기 때문입니다.\n\n다른 1단계 차랑과 유사하게 이 차량은 연료를 대량으로 소모합니다. 중거리 이동에 적합합니다.\n\n&lt;color=#bb8f04>승무원:&lt;/color> 운전사 x1, 승객 x5\n&lt;color=#bb8f04>사용 연료:&lt;/color> 화학연료</VVE_BangBus.description>
@@ -45,6 +45,7 @@
   <VVE_Bunsen.components.14.label>조종장치</VVE_Bunsen.components.14.label>
   <VVE_Bunsen.components.15.label>교류발전기</VVE_Bunsen.components.15.label>
   <VVE_Bunsen.components.16.label>지붕</VVE_Bunsen.components.16.label>
+  <VVE_Bunsen.comps.2.turrets.0.gizmoLabel>주포</VVE_Bunsen.comps.2.turrets.0.gizmoLabel>
   <VVE_Dinghy.label>딩기</VVE_Dinghy.label>
   <VVE_Dinghy.description>매우 간단한 모터 보트 중 하나인 딩기는 믿을 수 없을 정도로 저렴한 수상 운송 수단입니다. 적재 능력 자체는 좋지만 겨울이 되면 얼어붙을 가능성이 높으며 하천에서는 느리게 움직입니다. 후방에 노출된 엔진은 공격에 매우 취약하며 그렇다고 선체가 발사체에 잘 견뎌낼 것이라고 믿어서는 안됩니다.\n\n다른 1단계 차랑과 유사하게 이 차량은 연료를 대량으로 소모합니다. 중거리 이동에 적합합니다.\n\n&lt;color=#bb8f04>승무원:&lt;/color> 운전사 x1, 승객 x5\n&lt;color=#bb8f04>사용 연료:&lt;/color> 화학연료</VVE_Dinghy.description>
   <VVE_Dinghy.properties.roles.0.label>운전석</VVE_Dinghy.properties.roles.0.label>
@@ -97,6 +98,7 @@
   <VVE_Highwayman.components.17.label>핸들</VVE_Highwayman.components.17.label>
   <VVE_Highwayman.components.18.label>발전기</VVE_Highwayman.components.18.label>
   <VVE_Highwayman.components.19.label>차량 지붕</VVE_Highwayman.components.19.label>
+  <VVE_Highwayman.comps.2.turrets.0.gizmoLabel>주포</VVE_Highwayman.comps.2.turrets.0.gizmoLabel>
   <VVE_Mule.label>뮬</VVE_Mule.label>
   <VVE_Mule.description>기본적인 화물 운송 수단으로 이용되는 뮬은 평평한 지형의 매끄러운 도로를 가로질러 대량의 화물을 운반할 수 있는 비교적 저렴한 차량입니다. 겨울철이나 눈 덮인 지형에서 사용하는 것은 권장하지 않으며 무게를 줄이기 위해 매우 가볍게 무장하였습니다.\n\n다른 1단계 차랑과 유사하게 이 차량은 연료를 대량으로 소모합니다. 중거리 이동에 적합합니다. 다른 1단계 차량과는 다르게 이 차량은 약간 더 빠르게 이동할 수 있고 연료 효율이 높아 세계 지도에서 더 나은 성능을 발휘할 수 있습니다.\n\n&lt;color=#bb8f04>승무원:&lt;/color> 운전사 x1, 승객 x1\n&lt;color=#bb8f04>사용 연료:&lt;/color> 화학연료</VVE_Mule.description>
   <VVE_Mule.properties.roles.0.label>운전석</VVE_Mule.properties.roles.0.label>
@@ -165,6 +167,45 @@
   <VVE_Roadkill.components.13.label>조타 장치</VVE_Roadkill.components.13.label>
   <VVE_Roadkill.components.14.label>발전기</VVE_Roadkill.components.14.label>
   <VVE_Roadkill.components.15.label>차량 지붕</VVE_Roadkill.components.15.label>
+  <VVE_Roadkill.comps.2.turrets.0.gizmoLabel>주포</VVE_Roadkill.comps.2.turrets.0.gizmoLabel>
+  <VVE_Scytheman.label>사이드맨</VVE_Scytheman.label>
+  <VVE_Scytheman.description>다중 로켓 발사 시스템을 부착한 사이드맨은 부정확한 폭탄으로 특정 지점을 포화 상태로 만드는 용도로 개조된 농사 장비입니다. 설계상 연속 발사가 불가능한 대신 적의 사격에 노출되지 않습니다.\n\n다른 1단계 전차와 마찬가지로 가스를 소모하는 전차로 중거리에서 가장 효율이 좋습니다. 겨울철에는 성능이 떨어지지만 평탄한 도로에서는 약간 나아집니다.\n\n&lt;color=#bb8f04&gt;승무원:&lt;/color&gt; 운전사 x1\n&lt;color=#bb8f04&gt;사용 연료:&lt;/color&gt; 화학연료</VVE_Scytheman.description>
+  <VVE_Scytheman.components.0.label>엔진</VVE_Scytheman.components.0.label>
+  <VVE_Scytheman.components.1.label>왼쪽 앞바퀴</VVE_Scytheman.components.1.label>
+  <VVE_Scytheman.components.2.label>오른쪽 앞바퀴</VVE_Scytheman.components.2.label>
+  <VVE_Scytheman.components.3.label>왼쪽 중간바퀴</VVE_Scytheman.components.3.label>
+  <VVE_Scytheman.components.4.label>오른쪽 중간바퀴</VVE_Scytheman.components.4.label>
+  <VVE_Scytheman.components.5.label>왼쪽 뒷바퀴</VVE_Scytheman.components.5.label>
+  <VVE_Scytheman.components.6.label>오른쪽 뒷바퀴</VVE_Scytheman.components.6.label>
+  <VVE_Scytheman.components.7.label>왼쪽 전면 서스펜션</VVE_Scytheman.components.7.label>
+  <VVE_Scytheman.components.8.label>오른쪽 전면 서스펜션</VVE_Scytheman.components.8.label>
+  <VVE_Scytheman.components.9.label>좌측 서스펜션</VVE_Scytheman.components.9.label>
+  <VVE_Scytheman.components.10.label>우측 서스펜션</VVE_Scytheman.components.10.label>
+  <VVE_Scytheman.components.11.label>왼쪽 후면 서스펜션</VVE_Scytheman.components.11.label>
+  <VVE_Scytheman.components.12.label>오른쪽 후면 서스펜션</VVE_Scytheman.components.12.label>
+  <VVE_Scytheman.components.13.label>기어박스</VVE_Scytheman.components.13.label>
+  <VVE_Scytheman.components.14.label>왼쪽 측판</VVE_Scytheman.components.14.label>
+  <VVE_Scytheman.components.15.label>오른쪽 측판</VVE_Scytheman.components.15.label>
+  <VVE_Scytheman.components.16.label>연료 탱크</VVE_Scytheman.components.16.label>
+  <VVE_Scytheman.components.17.label>계기판</VVE_Scytheman.components.17.label>
+  <VVE_Scytheman.components.18.label>핸들</VVE_Scytheman.components.18.label>
+  <VVE_Scytheman.components.19.label>발전기</VVE_Scytheman.components.19.label>
+  <VVE_Scytheman.components.20.label>차량 지붕</VVE_Scytheman.components.20.label>
+  <VVE_Scytheman.components.21.label>엔진 덮개</VVE_Scytheman.components.21.label>
+  <VVE_Scytheman.properties.roles.0.label>운전석</VVE_Scytheman.properties.roles.0.label>
+  <VVE_Scytheman.comps.2.turrets.0.gizmoLabel>로켓 발사대</VVE_Scytheman.comps.2.turrets.0.gizmoLabel>
+  <VVE_Toad.label>토드</VVE_Toad.label>
+  <VVE_Toad.description>분대 및 박격포 배치용 전차인 토드는 사수를 위험에 노출시키지 않으면서 신속하게 인근 지역을 포위 공격할 수 있는 다소 비싼 전차입니다. 전차보다 장갑이 많고 궤도에서 전개할 수 있도록 설계되어 소모성 돌격 전차로 적합합니다.\n\n연료 효율은 이 전차의 설계 목적이 아니므로 충분한 연료로 짧은 거리만 이동하고 돌아오는 것을 추천합니다.\n\n비행 전차이기 때문에 이동 중에는 적의 눈에 매우 잘 띕니다.\n\n&lt;color=#bb8f04&gt;승무원:&lt;/color&gt; 운전사 x1, 승객 x3\n&lt;color=#bb8f04&gt;사용 연료:&lt;/color&gt; 화학연료</VVE_Toad.description>
+  <VVE_Toad.components.0.label>엔진</VVE_Toad.components.0.label>
+  <VVE_Toad.components.1.label>첫 번째 추진기</VVE_Toad.components.1.label>
+  <VVE_Toad.components.2.label>두 번째 추진기</VVE_Toad.components.2.label>
+  <VVE_Toad.components.3.label>세 번째 추진기</VVE_Toad.components.3.label>
+  <VVE_Toad.components.4.label>네 번째 추진기</VVE_Toad.components.4.label>
+  <VVE_Toad.components.5.label>연료 탱크</VVE_Toad.components.5.label>
+  <VVE_Toad.components.6.label>선체</VVE_Toad.components.6.label>
+  <VVE_Toad.properties.roles.0.label>운전석</VVE_Toad.properties.roles.0.label>
+  <VVE_Toad.properties.roles.1.label>조수석</VVE_Toad.properties.roles.1.label>
+  <VVE_Toad.comps.2.turrets.0.gizmoLabel>주포</VVE_Toad.comps.2.turrets.0.gizmoLabel>
   <VVE_Traveller.label>트래블</VVE_Traveller.label>
   <VVE_Traveller.description>평평한 지형에 적합한 도로 주행용 차량인 트래블은 상대적으로 저렴하고 빠른 성능을 가지고 있으며 추운 날씨와 눈이 쌓인 지형에서도 원활하게 작동합니다. 가벼운 장갑과 전면에 장착된 상태로 노출된 엔진은 사건이 발생하는 곳으로 가기보다는 사건이 발생한 곳으로부터 도망치는데 적합합니다.\n\n다른 1단계 차랑과 유사하게 이 차량은 연료를 대량으로 소모합니다. 중거리 이동에 적합합니다. 속도가 더 높지만 연비가 떨어지며 수리하는 데 많은 시간을 소모합니다.\n\n&lt;color=#bb8f04>승무원:&lt;/color> 운전사 x1, 승객 x1\n&lt;color=#bb8f04>사용 연료:&lt;/color> 화학연료</VVE_Traveller.description>
   <VVE_Traveller.properties.roles.0.label>운전석</VVE_Traveller.properties.roles.0.label>
@@ -211,6 +252,7 @@
   <VVE_Bulldog.components.14.label>조타 장치</VVE_Bulldog.components.14.label>
   <VVE_Bulldog.components.15.label>발전기</VVE_Bulldog.components.15.label>
   <VVE_Bulldog.components.16.label>차량 지붕</VVE_Bulldog.components.16.label>
+  <VVE_Bulldog.comps.2.turrets.0.gizmoLabel>주포</VVE_Bulldog.comps.2.turrets.0.gizmoLabel>
   <VVE_Charley.label>찰리</VVE_Charley.label>
   <VVE_Charley.description>일반적인 오토바이인 찰리는 화물 용량이 매우 작지만 효과적인 1인승 차량입니다. 겨울이나 눈 덮힌 도로를 제외한 모든 도로에서 우수한 성능을 발휘하며 세계 지도에서 더욱 빠른 속도로 이동할 수 있습니다.\n\n다른 2단계 차량과 마찬가지로 세계 지도에서 1단계 차량에 비해 연비가 2배 개선되어 더욱 효율적이며 제조공정 개선으로 인해 상대적으로 눈에 덜 띕니다.\n\n&lt;color=#bb8f04>승무원:&lt;/color> 운전사 x1\n&lt;color=#bb8f04>사용 연료:&lt;/color> 화학연료</VVE_Charley.description>
   <VVE_Charley.properties.roles.0.label>라이더</VVE_Charley.properties.roles.0.label>
@@ -329,6 +371,7 @@
   <VVE_Tango.components.14.label>조타 장치</VVE_Tango.components.14.label>
   <VVE_Tango.components.15.label>발전기</VVE_Tango.components.15.label>
   <VVE_Tango.components.16.label>차량 지붕</VVE_Tango.components.16.label>
+  <VVE_Tango.comps.2.turrets.0.gizmoLabel>주포</VVE_Tango.comps.2.turrets.0.gizmoLabel>
   <VVE_Trawler.label>트롤러</VVE_Trawler.label>
   <VVE_Trawler.description>범용 보트인 트롤러는 열린 바다를 가로지를 수 있는 효과적인 장거리 운송 수단입니다. 강에서는 성능이 떨어지며 겨울철에는 천천히 이동합니다.\n\n다른 2단계 차량과 마찬가지로 세계 지도에서 1단계 차량에 비해 연비가 2배 개선되어 더욱 효율적이며 제조공정 개선으로 인해 상대적으로 눈에 덜 띕니다.\n\n&lt;color=#bb8f04>승무원:&lt;/color> 운전사 x1, 승객 x1\n&lt;color=#bb8f04>사용 연료:&lt;/color> 화학연료</VVE_Trawler.description>
   <VVE_Trawler.properties.roles.0.label>운전석</VVE_Trawler.properties.roles.0.label>
