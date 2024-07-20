@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CR_SliderInput>슬라이더로 입력</CR_SliderInput>
+  <CR_TextInput>텍스트로 입력</CR_TextInput>
+  <CR_InitializeValueAll>모든 설정</CR_InitializeValueAll>
+  <CR_InitializeValueAllReally>모든 설정을 초기화합니다. 계속하시겠습니까?</CR_InitializeValueAllReally>
+  <CR_InitializeValueAllConfirm>실행을 눌러 모든 설정을 초기화하십시오.</CR_InitializeValueAllConfirm>
+  <CR_InitializeValue>{0} 초기화</CR_InitializeValue>
+  <CR_LoadOldSettingsButton>이전 버전에서 설정 불러오기</CR_LoadOldSettingsButton>
+  <CR_CleanLoadLabel>클린 모드로 설정 불러오기</CR_CleanLoadLabel>
+  <CR_MergeLoadLabel>병합 모드로 설정 불러오기</CR_MergeLoadLabel>
+  <CR_CleanLoadDesc>모든 구성 항목을 이전 설정으로 덮어씁니다.</CR_CleanLoadDesc>
+  <CR_MergeLoadDesc>이전 설정에서 기본값에서 변경된 항목만 덮어씁니다.</CR_MergeLoadDesc>
+  <CR_ButtonExecute>실행</CR_ButtonExecute>
+  <CR_InitializeValueAllConfirmAgree>동의</CR_InitializeValueAllConfirmAgree>
+  <CR_CommonSectionTitle>공통 설정</CR_CommonSectionTitle>
+  <CR_MainSectionTitle>주요 강화 기능: "압축 습격자" 헤디프에 의한 강화</CR_MainSectionTitle>
+  <CR_OptionSectionTitle>옵션 기능: {0}</CR_OptionSectionTitle>
+  <CR_OptionAddBionicsTitle>생체공학 추가</CR_OptionAddBionicsTitle>
+  <CR_OptionRefineGearTitle>장비 강화</CR_OptionRefineGearTitle>
+  <CR_OptionAddDrugTitle>약물 효과 추가</CR_OptionAddDrugTitle>
+  <CR_SectionDisableMessage>설정에 의해 비활성화됨.</CR_SectionDisableMessage>
+  <CR_ChanceOfCompressionLabel>압축 실행 확률</CR_ChanceOfCompressionLabel>
+  <CR_ChanceOfCompressionDesc>압축을 실행할 확률입니다.\n값이 1보다 작으면 확률 판정이 성공한 경우에만 압축이 수행됩니다.\n(0.01은 1%에 해당합니다)(기본값: 1)</CR_ChanceOfCompressionDesc>
+  <CR_ChanceOfEnhancementLabel>강화 실행 확률</CR_ChanceOfEnhancementLabel>
+  <CR_ChanceOfEnhancementDesc>압축 관련 강화를 수행할 확률입니다. (0.01은 1%에 해당)\n값이 1보다 작으면 확률 판정이 성공할 때만 강화가 수행됩니다.\n이 확률 판정은 각 습격자마다 별도로 수행됩니다.\n(기본값: 1)</CR_ChanceOfEnhancementDesc>
+  <CR_CalcBaseMultByEnhancedLabel>기본 승수를 강화된 수로 계산</CR_CalcBaseMultByEnhancedLabel>
+  <CR_CalcBaseMultByEnhancedDesc>강화된 습격자 수에 따라 "기본 승수"를 계산하는 기능을 켜고 끕니다. (기본값: 켬)</CR_CalcBaseMultByEnhancedDesc>
+  <CR_AllowTypesLabel>압축 허용</CR_AllowTypesLabel>
+  <CR_AllowMechanoidsLabel>메카노이드 압축 허용</CR_AllowMechanoidsLabel>
+  <CR_AllowMechanoidsDesc>메카노이드 압축을 허용할지 정합니다. (기본값: 켜기)</CR_AllowMechanoidsDesc>
+  <CR_AllowInsectoidsLabel>곤충 압축 허용</CR_AllowInsectoidsLabel>
+  <CR_AllowInsectoidsDesc>곤충 압축을 허용할지 정합니다. (기본값: 켜기)</CR_AllowInsectoidsDesc>
+  <CR_AllowManhuntersLabel>인간사냥</CR_AllowManhuntersLabel>
+  <CR_AllowManhuntersDesc>인간사냥 압축을 허용할지 정합니다. (기본값: 끄기)</CR_AllowManhuntersDesc>
+  <CR_AllowRaidFriendlyLabel>동맹 압축 허용</CR_AllowRaidFriendlyLabel>
+  <CR_AllowRaidFriendlyDesc>동맹의 압축을 허용할지 정합니다. (기본값: 끄기)</CR_AllowRaidFriendlyDesc>
+  <CR_MaxRaidPawnsCountLabel>습격시 최대 적 수</CR_MaxRaidPawnsCountLabel>
+  <CR_MaxRaidPawnsCountDesc>습격시 적의 최대 수"를 설정합니다.\n0으로 설정하면 일반적인 습격이 진행됩니다. (기본값: 100)</CR_MaxRaidPawnsCountDesc>
+  <CR_GainFactorMultLabel>공통 강화 계수</CR_GainFactorMultLabel>
+  <CR_GainFactorMultDesc>공통 강화 계수"를 설정합니다.\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 1)</CR_GainFactorMultDesc>
+  <CR_GainFactorMultRaidFriendlyLabel>공통 강화 계수 (동맹)</CR_GainFactorMultRaidFriendlyLabel>
+  <CR_GainFactorMultRaidFriendlyDesc>공통 강화 계수"를 설정합니다. (동맹)\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 1)</CR_GainFactorMultRaidFriendlyDesc>
+  <CR_DisplayMessageLabel>메시지 표시</CR_DisplayMessageLabel>
+  <CR_DisplayMessageDesc>압축된 결과 메시지를 표시하는 기능을 켜고 끕니다. (기본값: 켬)</CR_DisplayMessageDesc>
+  <CR_Mult>다수</CR_Mult>
+  <CR_Max>최대</CR_Max>
+  <CR_PainLabel>통증 저항</CR_PainLabel>
+  <CR_ArmorRating_BluntLabel>방어구 - 둔탁함</CR_ArmorRating_BluntLabel>
+  <CR_ArmorRating_SharpLabel>방어구 - 날카로움</CR_ArmorRating_SharpLabel>
+  <CR_ArmorRating_HeatLabel>방어구 - 열기</CR_ArmorRating_HeatLabel>
+  <CR_MeleeDodgeChanceLabel>근접 회피 확률</CR_MeleeDodgeChanceLabel>
+  <CR_MeleeHitChanceLabel>근접 타격 확률</CR_MeleeHitChanceLabel>
+  <CR_MoveSpeedLabel>이동 속도</CR_MoveSpeedLabel>
+  <CR_ShootingAccuracyPawnLabel>사격 정확도</CR_ShootingAccuracyPawnLabel>
+  <CR_PawnTrapSpringChanceLabel>덫 회피 확률</CR_PawnTrapSpringChanceLabel>
+  <CR_CapacitySightLabel>시야</CR_CapacitySightLabel>
+  <CR_CapacityMovingLabel>이동</CR_CapacityMovingLabel>
+  <CR_CapacityHearingLabel>청력</CR_CapacityHearingLabel>
+  <CR_CapacityManipulationLabel>조작</CR_CapacityManipulationLabel>
+  <CR_CapacityMetabolismLabel>신진대사</CR_CapacityMetabolismLabel>
+  <CR_CapacityConsciousnessLabel>의식</CR_CapacityConsciousnessLabel>
+  <CR_CapacityBloodFiltrationLabel>혈액 여과</CR_CapacityBloodFiltrationLabel>
+  <CR_CapacityBloodPumpingLabel>혈액 순환</CR_CapacityBloodPumpingLabel>
+  <CR_CapacityBreathingLabel>호흡</CR_CapacityBreathingLabel>
+  <CR_GainFactorMultPainDesc>"고통 한계 강화 계수"를 설정합니다.\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 0.25)</CR_GainFactorMultPainDesc>
+  <CR_GainFactorMultArmorRating_BluntDesc>"방어도 - 둔탁함 강화 계수"를 설정합니다.\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 0.25)</CR_GainFactorMultArmorRating_BluntDesc>
+  <CR_GainFactorMultArmorRating_SharpDesc>"방어도 - 날카로움 강화 계수"를 설정합니다.\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 0.25)</CR_GainFactorMultArmorRating_SharpDesc>
+  <CR_GainFactorMultArmorRating_HeatDesc>"방어도 - 열기 강화 계수"를 설정합니다.\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 0.25)</CR_GainFactorMultArmorRating_HeatDesc>
+  <CR_GainFactorMultMeleeDodgeChanceDesc>"근접 회피율 강화 계수"를 설정합니다.\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 1)</CR_GainFactorMultMeleeDodgeChanceDesc>
+  <CR_GainFactorMultMeleeHitChanceDesc>"근접 명중율 강화 계수"를 설정합니다.\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 1)</CR_GainFactorMultMeleeHitChanceDesc>
+  <CR_GainFactorMultMoveSpeedDesc>"이동 속도 강화 계수"를 설정합니다.\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 0.5)</CR_GainFactorMultMoveSpeedDesc>
+  <CR_GainFactorMultShootingAccuracyPawnDesc>"사격 정확도 강화 계수"를 설정합니다.\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 0.25)</CR_GainFactorMultShootingAccuracyPawnDesc>
+  <CR_GainFactorMultPawnTrapSpringChanceDesc>"함정회피율 강화 계수"를 설정합니다.\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 0.5)</CR_GainFactorMultPawnTrapSpringChanceDesc>
+  <CR_GainFactorMaxPainDesc>"고통 한계 강화 최대값"을 설정합니다.\n0으로 설정하면해당 강화항목이 비활성화됩니다. (기본값: 1)</CR_GainFactorMaxPainDesc>
+  <CR_GainFactorMaxArmorRating_BluntDesc>"방어도 - 둔탁함 강화 최대값"을 설정합니다.\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 1)</CR_GainFactorMaxArmorRating_BluntDesc>
+  <CR_GainFactorMaxArmorRating_SharpDesc>"방어도 - 날카로움 강화 최대값"을 설정합니다.\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 1)</CR_GainFactorMaxArmorRating_SharpDesc>
+  <CR_GainFactorMaxArmorRating_HeatDesc>"방어도 - 열기 강화 최대값"을 설정합니다.\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 1)</CR_GainFactorMaxArmorRating_HeatDesc>
+  <CR_GainFactorMaxMeleeDodgeChanceDesc>"근접 회피율 강화 최대값"을 설정합니다.\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 20)</CR_GainFactorMaxMeleeDodgeChanceDesc>
+  <CR_GainFactorMaxMeleeHitChanceDesc>"근접 명중율 강화 최대값"을 설정합니다.\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 20)</CR_GainFactorMaxMeleeHitChanceDesc>
+  <CR_GainFactorMaxMoveSpeedDesc>"이동 속도 강화 최대값"을 설정합니다.\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 20)</CR_GainFactorMaxMoveSpeedDesc>
+  <CR_GainFactorMaxShootingAccuracyPawnDesc>"사격 정확도 강화 최대값"을 설정합니다.\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 20)</CR_GainFactorMaxShootingAccuracyPawnDesc>
+  <CR_GainFactorMaxPawnTrapSpringChanceDesc>"함정회피율 강화 최대값"을 설정합니다.\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 1)</CR_GainFactorMaxPawnTrapSpringChanceDesc>
+  <CR_GainFactorMultCapacitySightDesc>"시력 강화 계수"를 설정합니다.\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 0.5)</CR_GainFactorMultCapacitySightDesc>
+  <CR_GainFactorMultCapacityMovingDesc>"이동 속도 강화 계수"를 설정합니다.\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 0.5)</CR_GainFactorMultCapacityMovingDesc>
+  <CR_GainFactorMultCapacityHearingDesc>"청력 강화 계수"를 설정합니다.\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 0.5)</CR_GainFactorMultCapacityHearingDesc>
+  <CR_GainFactorMultCapacityManipulationDesc>"조작 강화 계수"를 설정합니다.\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 0.5)</CR_GainFactorMultCapacityManipulationDesc>
+  <CR_GainFactorMultCapacityMetabolismDesc>"신진대사 강화 최대값"을 설정합니다.\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 0.5)</CR_GainFactorMultCapacityMetabolismDesc>
+  <CR_GainFactorMultCapacityConsciousnessDesc>"의식 강화 계수"를 설정합니다.\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 0.5)</CR_GainFactorMultCapacityConsciousnessDesc>
+  <CR_GainFactorMultCapacityBloodFiltrationDesc>"혈액여과 강화 계수"를 설정합니다.\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 0.5)</CR_GainFactorMultCapacityBloodFiltrationDesc>
+  <CR_GainFactorMultCapacityBloodPumpingDesc>"혈액순환 강화 계수"를 설정합니다.\n0으로 설정하면 이 강화 항목이 비활성화됩니다. (기본값: 0.25)</CR_GainFactorMultCapacityBloodPumpingDesc>
+  <CR_GainFactorMultCapacityBreathingDesc>"호흡 강화 계수"를 설정합니다.\n0으로 설정하면 이 강화 항목이 비활성화됩니다. (기본값: 0.25)</CR_GainFactorMultCapacityBreathingDesc>
+  <CR_GainFactorMaxCapacitySightDesc>"시력 강화 계수 최대값"을 설정합니다.\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 5)</CR_GainFactorMaxCapacitySightDesc>
+  <CR_GainFactorMaxCapacityMovingDesc>"이동 속도 강화 계수 최대값"을 설정합니다.\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 5)</CR_GainFactorMaxCapacityMovingDesc>
+  <CR_GainFactorMaxCapacityHearingDesc>"청력 강화 계수 최대값"을 설정합니다.\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 5)</CR_GainFactorMaxCapacityHearingDesc>
+  <CR_GainFactorMaxCapacityManipulationDesc>"조작 계수 최대값"을 설정합니다.\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 5)</CR_GainFactorMaxCapacityManipulationDesc>
+  <CR_GainFactorMaxCapacityMetabolismDesc>"신진대사 계수 최대값"을 설정합니다.\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 5)</CR_GainFactorMaxCapacityMetabolismDesc>
+  <CR_GainFactorMaxCapacityConsciousnessDesc>"의식 계수 최대값"을 설정합니다.\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 5)</CR_GainFactorMaxCapacityConsciousnessDesc>
+  <CR_GainFactorMaxCapacityBloodFiltrationDesc>"혈액여과 계수 최대값"을 설정합니다.\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 5)</CR_GainFactorMaxCapacityBloodFiltrationDesc>
+  <CR_GainFactorMaxCapacityBloodPumpingDesc>"혈액순환 계수 최대값"을 설정합니다.\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 5)</CR_GainFactorMaxCapacityBloodPumpingDesc>
+  <CR_GainFactorMaxCapacityBreathingDesc>"호흡 계수 최대값"을 설정합니다.\n0으로 설정하면 해당 강화항목이 비활성화됩니다. (기본값: 5)</CR_GainFactorMaxCapacityBreathingDesc>
+  <CR_AddBionicsChanceLabel>생체공학 추가 확률</CR_AddBionicsChanceLabel>
+  <CR_AddBionicsChanceFactorDesc>생체공학 추가 확률의 계수를 설정합니다.\n0으로 설정하면 생체공학 추가"가 비활성화됩니다. (기본값: 2)</CR_AddBionicsChanceFactorDesc>
+  <CR_AddBionicsChanceMaxDesc>생체공학 추가 확률의 최대값을 설정합니다.\n0으로 설정하면 생체공학 추가"가 비활성화됩니다. (기본값: 0.9)</CR_AddBionicsChanceMaxDesc>
+  <CR_AddBionicsChanceNegativeCurveLabel>생체공학 추가의 네거티브 곡선</CR_AddBionicsChanceNegativeCurveLabel>
+  <CR_AddBionicsChanceNegativeCurveDesc>생체공학 추가 확률의 마이너스 곡선을 설정합니다.\n이 항목은 첫 번째 생체공학 추가 후 두 번째 생체공학 추가 확률의 감소 비율입니다. (기본값: 0.5) </CR_AddBionicsChanceNegativeCurveDesc>
+  <CR_AddBionicsMaxNumberLabel>생체공학이 추가되는 최대 개수</CR_AddBionicsMaxNumberLabel>
+  <CR_AddBionicsMaxNumberDesc>습격시 추가될 수 있는 최대 생체공학 갯수를 설정합니다. (기본값: 4).</CR_AddBionicsMaxNumberDesc>
+  <CR_AllowedByGTTechLevelLabel>기술 수준에 따른 생체공학 허용</CR_AllowedByGTTechLevelLabel>
+  <CR_AllowedByGTTechLevelDesc>생체공학 추가가 허용되는 습격의 기술 수준을 설정합니다. (기본값: 0)\n설정 값은 다음과 같습니다.\n0: 모두\n1: 동물수준\n2: 원시시대\n3: 중세시대\n4: 산업시대\n5: 우주시대\n6: 번화계\n7: 초월계</CR_AllowedByGTTechLevelDesc>
+  <CR_NoTechLevelLimmitLabel>전체</CR_NoTechLevelLimmitLabel>
+  <CR_RefineGearChanceLabel>장비 강화 확률</CR_RefineGearChanceLabel>
+  <CR_RefineGearChanceFactorDesc>장비 품질 강화확률의 계수를 설정합니다.\n0으로 설정하면 장비 품질 강화"가 비활성화됩니다. (기본값: 1)</CR_RefineGearChanceFactorDesc>
+  <CR_RefineGearChanceMaxDesc>장비 품질 강화확률의 최대값을 설정합니다.\n0으로 설정하면 장비 품질 강화"가 비활성화됩니다. (기본값: 0.9)</CR_RefineGearChanceMaxDesc>
+  <CR_RefineGearChanceNegativeCurveLabel>장비 품질 강화의 네거티브 곡선</CR_RefineGearChanceNegativeCurveLabel>
+  <CR_RefineGearChanceNegativeCurveDesc>장비 품질 강화 확률의 마이너스 곡선을 설정합니다.\n2단계 혹은 그 이상 등급으로 장비가 강화될 때의 확률 감소 비율입니다. (기본값: 0.5)</CR_RefineGearChanceNegativeCurveDesc>
+  <CR_QualityUpMaxNumLabel>품질 강화의 최대 상승치</CR_QualityUpMaxNumLabel>
+  <CR_QualityUpMaxNumDesc>장비 품질의 최대 등급을 설정합니다.\n이 항목은 장비 품질의 최대 등급 한계입니다. (기본값: 4)</CR_QualityUpMaxNumDesc>
+  <CR_OptionSetBiocodeLabel>"생체인증" 추가</CR_OptionSetBiocodeLabel>
+  <CR_OptionSetBiocodeDesc>무기 강화에 성공하면 생체인증"을 부여하는 기능을 켜거나 끕니다. (기본값: 꺼짐)</CR_OptionSetBiocodeDesc>
+  <CR_OptionAddDeathAcidifierLabel>"사후 처리장치" 추가</CR_OptionAddDeathAcidifierLabel>
+  <CR_OptionAddDeathAcidifierDesc>의류 강화에 성공하면 사후 처리장치"를 부여하는 기능을 켜거나 끕니다. (기본값: 꺼짐)</CR_OptionAddDeathAcidifierDesc>
+  <CR_AddDrugChanceLabel>약물 효과 추가 확률</CR_AddDrugChanceLabel>
+  <CR_AddDrugChanceFactorDesc>약물 효과 추가 확률의 계수를 설정합니다.\n0으로 설정하면 "약물 효과 추가"가 비활성화됩니다. (기본값: 1)</CR_AddDrugChanceFactorDesc>
+  <CR_AddDrugChanceMaxDesc>약물 효과 추가 확률의 최대 값을 설정합니다.\n0으로 설정하면 "약물 효과 추가"가 비활성화됩니다. (기본값: 0.9)</CR_AddDrugChanceMaxDesc>
+  <CR_AddDrugChanceNegativeCurveLabel>약물 효과 추가의 네거티브 곡선</CR_AddDrugChanceNegativeCurveLabel>
+  <CR_AddDrugChanceNegativeCurveDesc>약물 효과 추가 확률의 네거티브 곡선을 설정합니다.\n이것은 두 번째 약물 효과 추가 이후의 확률 감소 비율입니다. (기본값: 0.5)</CR_AddDrugChanceNegativeCurveDesc>
+  <CR_AddDrugMaxNumberLabel>약물 효과 추가의 최대 수</CR_AddDrugMaxNumberLabel>
+  <CR_AddDrugMaxNumberDesc>단일 습겨자에 추가할 수 있는 약물 효과의 최대 수를 설정합니다.\n이 값을 증가시킬 때, 전반적인 부정적인 영향이 더 강해질 가능성이 있으므로 "나쁜 효과 피하기"를 활성화하는 것을 고려하십시오. (기본값: 1)</CR_AddDrugMaxNumberDesc>
+  <CR_GiveOnlyActiveIngredientsLabel>나쁜 효과 피하기</CR_GiveOnlyActiveIngredientsLabel>
+  <CR_GiveOnlyActiveIngredientsDesc>약물을 투여할 때 화학적 손상을 피하는 기능을 켜고 끕니다.\n이 기능이 켜져 있을 때, 약물 의존성과 과다 복용의 나쁜 효과를 방지하고자 할 경우에 사용됩니다.\n그러나 "루시페륨"만은 이 설정을 무시하고 의존성을 개발합니다, 왜냐하면 그 주 효과가 영구적이기 때문입니다.\n또한, 약물의 주 효과에 부작용이 포함된 경우, 그 부작용은 피할 수 없습니다. (기본값: 켬)</CR_GiveOnlyActiveIngredientsDesc>
+  <CR_IgnoreNonVolatilityDrugsLabel>영구적 약물의 나쁜 효과 강제</CR_IgnoreNonVolatilityDrugsLabel>
+  <CR_IgnoreNonVolatilityDrugsDesc>영구적 약물이 화학적 손상을 피하는 설정을 무시하고 화학적 손상을 가하는 기능을 켜고 끕니다.\n"루시페륨"은 이 설정을 무시하고 항상 화학적 손상을 가합니다. (기본값: 켬)</CR_IgnoreNonVolatilityDrugsDesc>
+  <CR_WithoutDrugLabel>약물 카테고리별 제외</CR_WithoutDrugLabel>
+  <CR_WithoutSocialDrugLabel>사교용</CR_WithoutSocialDrugLabel>
+  <CR_WithoutSocialDrugDesc>추첨에서 "사교용" 카테고리 약물을 제외하는 기능을 켜고 끕니다. "사교용" 카테고리 약물에는 "맥주", "광이차" 등이 포함됩니다. (기본값: 끔)</CR_WithoutSocialDrugDesc>
+  <CR_WithoutHardDrugLabel>강력</CR_WithoutHardDrugLabel>
+  <CR_WithoutHardDrugDesc>추첨에서 "강력" 카테고리 약물을 제외하는 기능을 켜고 끕니다. "강력" 카테고리 약물에는 "야요", "고주스" 등이 포함됩니다. (기본값: 끔)</CR_WithoutHardDrugDesc>
+  <CR_WithoutMedicalDrugLabel>의료</CR_WithoutMedicalDrugLabel>
+  <CR_WithoutMedicalDrugDesc>추첨에서 "의료" 카테고리 약물을 제외하는 기능을 켜고 끕니다. "의료" 카테고리 약물에는 "루시페륨" 등이 포함됩니다. (기본값: 끔)</CR_WithoutMedicalDrugDesc>
+  <CR_WithoutNonVolatilityDrugLabel>영구적</CR_WithoutNonVolatilityDrugLabel>
+  <CR_WithoutNonVolatilityDrugDesc>추첨에서 영구 약물을 제외하는 기능을 켜고 끕니다. "루시페륨"과 같은 영구적인 효과가 있는 약물을 제외하고자 할 때 이 기능을 켜십시오. (기본값: 끔)</CR_WithoutNonVolatilityDrugDesc>
+  <CR_LimitationsByTechLevelLabel>기술 수준별 제한</CR_LimitationsByTechLevelLabel>
+  <CR_LimitationsByTechLevelDesc>추첨 기준 함수에 "기술 수준"을 고려하는 기능을 켜고 끕니다. (기본값: 켬)</CR_LimitationsByTechLevelDesc>
+  <CR_TechLevelAllowableRangeLabel>기술 수준 허용</CR_TechLevelAllowableRangeLabel>
+  <CR_TechLevelUpperRangeLabel>상위</CR_TechLevelUpperRangeLabel>
+  <CR_TechLevelUpperRangeDesc>습격자 파벌의 "기술 수준"보다 높은 약물의 범위를 확장합니다. (기본값: 2)</CR_TechLevelUpperRangeDesc>
+  <CR_TechLevelLowerRangeLabel>하위</CR_TechLevelLowerRangeLabel>
+  <CR_TechLevelLowerRangeDesc>레이더 파벌의 "기술 수준"보다 낮은 약물의 범위를 확장합니다. (기본값: 2)</CR_TechLevelLowerRangeDesc>
+  <CR_RaidCompressedMassageEnhanced>습격의 횟수를 {0}번에서 {1}번으로 압축하여 습격당 강도를 강화합니다. (기본 승수: X{2})</CR_RaidCompressedMassageEnhanced>
+  <CR_RaidCompressedMassageNotEnhanced>습격 횟수가 {0}번에서 {1}번으로 압축되었습니다.</CR_RaidCompressedMassageNotEnhanced>
+  <CR_InfoExcludedDrugs>[Compressed Raid] 정보: 다음 약물은 "약물 효과 추가" 기능의 추첨에서 제외됩니다.</CR_InfoExcludedDrugs>
+  <CR_InfoMustNegativeEffectDrugs>[Compressed Raid] 정보: 다음 약물은 "나쁜 효과 피하기" 설정을 무시하고 항상 나쁜 효과를 가합니다.</CR_InfoMustNegativeEffectDrugs>
+</LanguageData>

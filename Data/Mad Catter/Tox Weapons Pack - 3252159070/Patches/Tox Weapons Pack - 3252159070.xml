@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Combat Extended</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_ToxRapier"]/tools/li[1]/label</xpath>
+            <value>
+              <label>손잡이</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_ToxRapier"]/tools/li[2]/label</xpath>
+            <value>
+              <label>끝</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_ToxRapier"]/tools/li[3]/label</xpath>
+            <value>
+              <label>날</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_ToxRapierBladelink"]/tools/li[1]/label</xpath>
+            <value>
+              <label>손잡이</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_ToxRapierBladelink"]/tools/li[2]/label</xpath>
+            <value>
+              <label>끝</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_ToxRapierBladelink"]/tools/li[3]/label</xpath>
+            <value>
+              <label>날</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_ToxCurvedBlade"]/tools/li[1]/label</xpath>
+            <value>
+              <label>손잡이</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_ToxCurvedBlade"]/tools/li[2]/label</xpath>
+            <value>
+              <label>끝</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_ToxCurvedBlade"]/tools/li[3]/label</xpath>
+            <value>
+              <label>날</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_ToxCurvedBladeBladelink"]/tools/li[1]/label</xpath>
+            <value>
+              <label>손잡이</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_ToxCurvedBladeBladelink"]/tools/li[2]/label</xpath>
+            <value>
+              <label>끝</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_ToxCurvedBladeBladelink"]/tools/li[3]/label</xpath>
+            <value>
+              <label>날</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_ToxScythe"]/tools/li[1]/label</xpath>
+            <value>
+              <label>손잡이</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_ToxScythe"]/tools/li[2]/label</xpath>
+            <value>
+              <label>날</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_ToxScytheBladelink"]/tools/li[1]/label</xpath>
+            <value>
+              <label>손잡이</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_ToxScytheBladelink"]/tools/li[2]/label</xpath>
+            <value>
+              <label>날</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_ToxGauntlet"]/tools/li[1]/label</xpath>
+            <value>
+              <label>끝</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_ToxGauntlet"]/tools/li[2]/label</xpath>
+            <value>
+              <label>날</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_ToxGauntletBladelink"]/tools/li[1]/label</xpath>
+            <value>
+              <label>끝</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_ToxGauntletBladelink"]/tools/li[2]/label</xpath>
+            <value>
+              <label>날</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_ToxTriblade"]/tools/li[1]/label</xpath>
+            <value>
+              <label>날</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_ToxTribladeBladelink"]/tools/li[1]/label</xpath>
+            <value>
+              <label>날</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_ToxStellicPolearmBladelink"]/tools/li[1]/label</xpath>
+            <value>
+              <label>손잡이</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_ToxStellicPolearmBladelink"]/tools/li[2]/label</xpath>
+            <value>
+              <label>끝</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_ToxStellicPolearmBladelink"]/tools/li[3]/label</xpath>
+            <value>
+              <label>날</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_ToxStellicThuribleBladelink"]/tools/li[1]/label</xpath>
+            <value>
+              <label>손잡이</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_ToxStellicThuribleBladelink"]/tools/li[2]/label</xpath>
+            <value>
+              <label>날</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_Fletcher_Crossbow"]/tools/li[1]/label</xpath>
+            <value>
+              <label>개머리판</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_Fletcher_Crossbow"]/tools/li[2]/label</xpath>
+            <value>
+              <label>총열</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_Fletcher_Crossbow"]/tools/li[3]/label</xpath>
+            <value>
+              <label>총구</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+</Patch>
