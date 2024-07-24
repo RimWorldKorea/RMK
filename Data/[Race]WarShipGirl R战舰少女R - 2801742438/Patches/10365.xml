@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Rimefeller</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="WSGR_OilWell"]/comps/li[7]/fuelLabel</xpath>
+          <value>
+            <fuelLabel>파이프용 철강</fuelLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="WSGR_OilWell"]/comps/li[7]/fuelGizmoLabel</xpath>
+          <value>
+            <fuelGizmoLabel>파이프 저장</fuelGizmoLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="WSGR_OilWell"]/comps/li[7]/outOfFuelMessage</xpath>
+          <value>
+            <outOfFuelMessage>채굴할 수 없음: 파이프가 더 필요함</outOfFuelMessage>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
