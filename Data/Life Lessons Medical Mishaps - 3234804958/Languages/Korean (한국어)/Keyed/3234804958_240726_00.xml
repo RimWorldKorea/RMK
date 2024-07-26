@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <LeastEffective>(최저 효과)</LeastEffective>
+  <MostEffective>(최고 효과)</MostEffective>
+  <TreatmentOptionHeader>치료 옵션{0}</TreatmentOptionHeader>
+  <TendedBy>{0}(으)로 치료할 경우</TendedBy>
+  <TreatmentPlanDescriptionRequirements>요구 사항:
+{0}</TreatmentPlanDescriptionRequirements>
+  <TreatmentPlanDescriptionResult>결과:
+{0}</TreatmentPlanDescriptionResult>
+  <TreatmentPlanDescriptionUnderqualifiedResult>미숙련시 결과:
+{0}</TreatmentPlanDescriptionUnderqualifiedResult>
+  <TreatmentStrategySafest>가장 안전하게</TreatmentStrategySafest>
+  <TreatmentStrategyMostEffective>가장 효과적으로</TreatmentStrategyMostEffective>
+  <TreatmentStrategy>치료 전략</TreatmentStrategy>
+  <TreatmentStrategy_Desc>치료 전략을 통해 이 의사가 환자를 치료하면서 감수할 위험 수준을 정할 수 있습니다.
+    가장 안전하게: 치료법에 숙달되지 않았다면 덜 위험한 다른 치료법을 시도할 것입니다.
+    가장 효과적으로: 치료법에 숙달되지 않았더라도 해당 지식을 배울 수 있다면 해당 치료법을 그대로 시도할 것입니다.
+
+    덜 효과적인 치료법을 사용할 경우 실수의 위험을 줄일 수 있으나, 회복 시간이나 치료 시간이 증가할 수 있습니다.
+	더 효과적이지만 숙달되지 않은 방법으로 치료할 경우 실수가 발생할 수 있으나, 숙달되지 않은 지식들에 대한 경험치를 얻을 수 있습니다.</TreatmentStrategy_Desc>
+  <HediffRollDescription>{1}(이)가 발생할 확률 {0}</HediffRollDescription>
+  <ScarRollDescription>영구적으로 흉터가 남을 확률 +{0}</ScarRollDescription>
+  <WoundRollDescription>치료 부위에 {1}의 추가 피해가 발생할 확률 {0}</WoundRollDescription>
+  <FailedTendAlertMode_None>없음</FailedTendAlertMode_None>
+  <FailedTendAlertMode_Message>메세지</FailedTendAlertMode_Message>
+  <FailedTendAlertMode_Letter>편지</FailedTendAlertMode_Letter>
+  <FailedTendAlertMode_Label>실패시 경고</FailedTendAlertMode_Label>
+  <FailedTendAlertMode_Desc>치료에 실패하면 추가적으로 부상이 발생하며, 경고가 발생합니다:
+메세지: 화면 좌상단에 일시적으로 메세지가 나타납니다.
+레터: 사건과 같은 수준으로 화면 우하단에 나타납니다.</FailedTendAlertMode_Desc>
+  <TendingXpModifier>치료시 XP 생성략</TendingXpModifier>
+  <TendingXpModifier_desc>치료시 생성되는 XP의 기본값은 틱당 0.001(시간당 2.5)이며, 매일 총 XP의 20%까지만 생성될 수 있습니다. 이 설정을 통해 값과 제한을 변경할 수 있습니다.</TendingXpModifier_desc>
+  <LetterLabelTendingFailed>{PATIENT_labelShort}의 치료 실패</LetterLabelTendingFailed>
+  <MessageTendingFailed>{TENDER_labelShort}(이)가 {PATIENT_labelShort}(을)를 치료하기 위한 기술 및 지식이 부족하여, {TENDER_pronoun}에게 수행한 치료가 안 하느니만 못한 일이 되고 말았습니다.</MessageTendingFailed>
+</LanguageData>
