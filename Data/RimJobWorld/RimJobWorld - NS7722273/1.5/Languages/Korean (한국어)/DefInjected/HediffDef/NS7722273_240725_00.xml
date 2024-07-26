@@ -1,0 +1,718 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RJW_Contraceptive.label>피임약</RJW_Contraceptive.label>
+  <RJW_Contraceptive.description>피임약은 한 분기동안 임신 확률을 크게 낮춰줍니다.</RJW_Contraceptive.description>
+  <RJW_Contraceptive.stages.Contracepted.label>피임됨</RJW_Contraceptive.stages.Contracepted.label>
+  <RJW_FertPill.label>배란약</RJW_FertPill.label>
+  <RJW_FertPill.description>임신 확률을 높여줍니다. 약간의 최음 효과가 있습니다.</RJW_FertPill.description>
+  <RJW_FertPill.stages.Hyperfertility.label>가임기</RJW_FertPill.stages.Hyperfertility.label>
+  <HumpShroomEffect.label>최음 성분</HumpShroomEffect.label>
+  <HumpShroomEffect.description>최음 버섯의 최음 효과입니다.</HumpShroomEffect.description>
+  <HumpShroomTolerance.label>최음버섯 내성</HumpShroomTolerance.label>
+  <HumpShroomTolerance.description>최음 버섯의 효과에 내성이 생겼습니다.</HumpShroomTolerance.description>
+  <HumpShroomAddiction.label>최음버섯 중독</HumpShroomAddiction.label>
+  <HumpShroomAddiction.description>최읩 버섯의 효과에 중독되었습니다.</HumpShroomAddiction.description>
+  <HumpShroomAddiction.stages.withdrawal.label>금단 증상</HumpShroomAddiction.stages.withdrawal.label>
+  <Chains.label>쇠사슬</Chains.label>
+  <Chains.labelNoun>사슬</Chains.labelNoun>
+  <Chains.description>사슬은 착용자에게 제약을 가합니다.</Chains.description>
+  <BoundHands.label>손 묶기</BoundHands.label>
+  <BoundHands.labelNoun>손 묶기</BoundHands.labelNoun>
+  <BoundHands.description>손을 묶습니다.</BoundHands.description>
+  <BoundLegs.label>다리 묶기</BoundLegs.label>
+  <BoundLegs.labelNoun>다리 묶기</BoundLegs.labelNoun>
+  <BoundLegs.description>다리를 묶습니다.</BoundLegs.description>
+  <RJW_Restraints.label>구속 장치</RJW_Restraints.label>
+  <RJW_Restraints.labelNoun>구속 장치</RJW_Restraints.labelNoun>
+  <RJW_Restraints.description>구속 장치입니다.</RJW_Restraints.description>
+  <RJW_Cocoon.label>고치</RJW_Cocoon.label>
+  <RJW_Cocoon.labelNoun>고치</RJW_Cocoon.labelNoun>
+  <RJW_Cocoon.description>아이가 태어날 때까지 보호하는 고치</RJW_Cocoon.description>
+  <RJW_UnknownEgg.label>알</RJW_UnknownEgg.label>
+  <RJW_UnknownEgg.description>부화할 때까지 숙주의 몸에서 영양분을 빼앗는 알입니다. 가슴을 뚫고 부화하지 않는 것에 감사히 여기세요.</RJW_UnknownEgg.description>
+  <RJW_InsectHiveEgg.label>알</RJW_InsectHiveEgg.label>
+  <RJW_InsectHiveEgg.description>부화할 때까지 숙주의 몸에서 영양분을 빼앗는 알입니다. 가슴을 뚫고 부화하지 않는 것에 감사히 여기세요.</RJW_InsectHiveEgg.description>
+  <RJW_MechanoidImplant.description>숙주의 구멍을 통해 들어온 작은 컴퓨터입니다. 생체 신호 및 위치 정보를 분석하고, 해당 정보를 메카노이드 AI에게 전달합니다.</RJW_MechanoidImplant.description>
+  <RJW_MicroComputer.label>마이크로 컴퓨터</RJW_MicroComputer.label>
+  <RJW_MicroComputer.description>숙주의 구멍을 통해 들어온 작은 컴퓨터입니다. 생체 신호 및 위치 정보를 분석하고, 해당 정보를 주입기에 전달합니다.</RJW_MicroComputer.description>
+  <Parasite.label>주입</Parasite.label>
+  <Parasite.description>숙주의 몸에 불쾌감을 주면서 영양소를 뺏어먹으며 사는 무언가가 있습니다.</Parasite.description>
+  <Parasite.comps.0.discoverLetterLabel>{0}의 몸에 뭔가 주입됨</Parasite.comps.0.discoverLetterLabel>
+  <Parasite.comps.0.discoverLetterText>{0}의 몸 속에서 뭔가 꿈틀거립니다!</Parasite.comps.0.discoverLetterText>
+  <Parasite.stages.earlystagehidden.label>잠복기 (1/3)</Parasite.stages.earlystagehidden.label>
+  <Parasite.stages.middlestage.label>성장기 (2/3)</Parasite.stages.middlestage.label>
+  <Parasite.stages.latestage.label>부화기 (3/3)</Parasite.stages.latestage.label>
+  <FeelingBroken.label>정신붕괴</FeelingBroken.label>
+  <FeelingBroken.description>정신이 붕괴되었습니다. 어떤 감정도 느껴지지 않습니다.</FeelingBroken.description>
+  <FeelingBroken.stages.earlystage.label>초기 (1/4)</FeelingBroken.stages.earlystage.label>
+  <FeelingBroken.stages.in_a_trance.label>흔들림 (2/4)</FeelingBroken.stages.in_a_trance.label>
+  <FeelingBroken.stages.broken.label>망가짐 (3/4)</FeelingBroken.stages.broken.label>
+  <FeelingBroken.stages.Extremely_broken.label>무너짐 (4/4)</FeelingBroken.stages.Extremely_broken.label>
+  <RJW_IUD.label>피임기구</RJW_IUD.label>
+  <RJW_IUD.description>자궁에 삽입하는 은으로 만든 장치로 임신 확률을 크게 줄여줍니다</RJW_IUD.description>
+  <IncreasedFertility.label>가임</IncreasedFertility.label>
+  <IncreasedFertility.description>아이를 만들기 위해 생식력을 높입니다.</IncreasedFertility.description>
+  <DecreasedFertility.label>불임</DecreasedFertility.label>
+  <DecreasedFertility.description>낮은 임신율, 아이를 만들 수 없다.</DecreasedFertility.description>
+  <ImpregnationBlocker.label>초월공학 임신차단기</ImpregnationBlocker.label>
+  <ImpregnationBlocker.description>수정과 임신을 방지하는 복합 장치</ImpregnationBlocker.description>
+  <FertilityEnhancer.label>초월공학 임신유도기</FertilityEnhancer.label>
+  <FertilityEnhancer.description>임신 가능성을 높이는 복잡한 장치</FertilityEnhancer.description>
+  <RJW_Orgasm.label>오르가즘</RJW_Orgasm.label>
+  <RJW_Orgasm.description>"오... 예, 하... 흥, 아아!"</RJW_Orgasm.description>
+  <RJW_Orgasm.stages.Slightly.label>약함 (1/3)</RJW_Orgasm.stages.Slightly.label>
+  <RJW_Orgasm.stages.Heavy.label>강함 (2/3)</RJW_Orgasm.stages.Heavy.label>
+  <RJW_Orgasm.stages.Extremely.label>황홀함 (3/3)</RJW_Orgasm.stages.Extremely.label>
+  <TransportCums.description>안에 사정함.</TransportCums.description>
+  <TransportEggs.description>안에 산란함.</TransportEggs.description>
+  <PegArm.label>의수</PegArm.label>
+  <PegArm.labelNoun>의수</PegArm.labelNoun>
+  <PegArm.description>의수.</PegArm.description>
+  <RJW_pregnancy.label>임신</RJW_pregnancy.label>
+  <RJW_pregnancy.description>배에 아기가 있습니다.</RJW_pregnancy.description>
+  <RJW_pregnancy.stages.earlystage.label>초기 (1/4)</RJW_pregnancy.stages.earlystage.label>
+  <RJW_pregnancy.stages.middlestage.label>중기 (2/4)</RJW_pregnancy.stages.middlestage.label>
+  <RJW_pregnancy.stages.latestage.label>후기 (3/4)</RJW_pregnancy.stages.latestage.label>
+  <RJW_pregnancy.stages.having_contractions.label>만삭 (4/4)</RJW_pregnancy.stages.having_contractions.label>
+  <RJW_pregnancy_beast.label>임신</RJW_pregnancy_beast.label>
+  <RJW_pregnancy_beast.description>배에 아기가 있습니다.</RJW_pregnancy_beast.description>
+  <RJW_pregnancy_beast.stages.earlystage.label>초기 (1/4)</RJW_pregnancy_beast.stages.earlystage.label>
+  <RJW_pregnancy_beast.stages.middlestage.label>중기 (2/4)</RJW_pregnancy_beast.stages.middlestage.label>
+  <RJW_pregnancy_beast.stages.latestage.label>후기 (3/4)</RJW_pregnancy_beast.stages.latestage.label>
+  <RJW_pregnancy_beast.stages.having_contractions.label>만삭 (4/4)</RJW_pregnancy_beast.stages.having_contractions.label>
+  <RJW_pregnancy_mech.label>임신</RJW_pregnancy_mech.label>
+  <RJW_pregnancy_mech.description>배에 아기가 있습니다.</RJW_pregnancy_mech.description>
+  <RJW_pregnancy_mech.stages.earlystage.label>초기 (1/4)</RJW_pregnancy_mech.stages.earlystage.label>
+  <RJW_pregnancy_mech.stages.middlestage.label>중기 (2/4)</RJW_pregnancy_mech.stages.middlestage.label>
+  <RJW_pregnancy_mech.stages.latestage.label>후기 (3/4)</RJW_pregnancy_mech.stages.latestage.label>
+  <RJW_pregnancy_mech.stages.having_contractions.label>만삭 (4/4)</RJW_pregnancy_mech.stages.having_contractions.label>
+  <RJW_BabyState.label>성장기</RJW_BabyState.label>
+  <RJW_BabyState.description>배에 아기가 있습니다.</RJW_BabyState.description>
+  <RJW_BabyState.stages.baby.label>영아기 (1/3)</RJW_BabyState.stages.baby.label>
+  <RJW_BabyState.stages.toddler.label>유아기 (2/3)</RJW_BabyState.stages.toddler.label>
+  <RJW_BabyState.stages.child.label>아동기 (3/3)</RJW_BabyState.stages.child.label>
+  <RJW_NoManipulationFlag.label>어려서 활동이 제한됨</RJW_NoManipulationFlag.label>
+  <RJW_NoManipulationFlag.description>어려서 활동이 제한됨</RJW_NoManipulationFlag.description>
+  <size0.description>부위 크기 변경</size0.description>
+  <size0.label>RJW 부위 크기 설정(PC)(고장):</size0.label>
+  <size0.stages.MicroFlat.label>왜소함/절벽</size0.stages.MicroFlat.label>
+  <size0.stages.SmallTight.label>작음/조임</size0.stages.SmallTight.label>
+  <size0.stages.Average.label>평범함</size0.stages.Average.label>
+  <size0.stages.LargeLoose.label>커다람/헐거움</size0.stages.LargeLoose.label>
+  <size0.stages.HugeGaping.label>거대함/처침</size0.stages.HugeGaping.label>
+  <size0.stages.Oversized.label>육중함</size0.stages.Oversized.label>
+  <size0.comps.0.permanentLabel>RJW 부위 크기 설정</size0.comps.0.permanentLabel>
+  <size1.description>부위 크기 변경:</size1.description>
+  <size1.label>RJW 신체 설정(CE): 왜소함/절벽</size1.label>
+  <size2.description>부위 크기 변경:</size2.description>
+  <size2.label>RJW 신체 설정(CE): 왜소함/평평함</size2.label>
+  <size3.description>부위 크기 변경:</size3.description>
+  <size3.label>RJW 신체 설정(CE): 아담함/조임</size3.label>
+  <size4.description>부위 크기 변경:</size4.description>
+  <size4.label>RJW 신체 설정(CE): 평범함</size4.label>
+  <size5.description>부위 크기 변경:</size5.description>
+  <size5.label>RJW 신체 설정(CE): 커다람/느슨함</size5.label>
+  <size6.description>부위 크기 변경:</size6.description>
+  <size6.label>RJW 신체 설정(CE): 거대함/헐렁함</size6.label>
+  <size7.description>부위 크기 변경:</size7.description>
+  <size7.label>RJW 신체 설정(CE): 육중함/공허함/풍만함</size7.label>
+  <size8.description>부위 크기 변경:</size8.description>
+  <size8.label>RJW 신체 설정(CE): 매우 풍만함</size8.label>
+  <size9.description>부위 크기 변경:</size9.description>
+  <size9.label>RJW 신체 설정(CE): 굉장히 풍만함</size9.label>
+  <size10.description>부위 크기 변경:</size10.description>
+  <size10.label>RJW 신체 설정(CE): 극도로 풍만함</size10.label>
+  <size11.description>부위 크기 변경:</size11.description>
+  <size11.label>RJW 신체 설정(CE): 터질 듯 풍만함</size11.label>
+  <Sterilized.description>임신 할 수 없습니다.</Sterilized.description>
+  <Sterilized.label>불임</Sterilized.label>
+  <Hediff_Submitting.label>스스로 엎드림</Hediff_Submitting.label>
+  <Hediff_Submitting.description>항복.</Hediff_Submitting.description>
+  <Hediff_RapeEnemyCD.label>자신의 차례를 기다림</Hediff_RapeEnemyCD.label>
+  <Hediff_RapeEnemyCD.description>"다음은 누구?"</Hediff_RapeEnemyCD.description>
+  <hediff_male2trap.description>차후 예정(description could be here.)</hediff_male2trap.description>
+  <hediff_male2trap.label>남성에서 양성(남성)으로 성전환</hediff_male2trap.label>
+  <hediff_male2trap.stages.ignorance.label>무관심</hediff_male2trap.stages.ignorance.label>
+  <hediff_male2trap.stages.acceptance.label>납득</hediff_male2trap.stages.acceptance.label>
+  <hediff_male2trap.stages.saddness.label>슬픔</hediff_male2trap.stages.saddness.label>
+  <hediff_male2trap.stages.anger.label>분노</hediff_male2trap.stages.anger.label>
+  <hediff_male2trap.stages.rejection.label>거부</hediff_male2trap.stages.rejection.label>
+  <hediff_male2female.description>차후 예정(description could be here.)</hediff_male2female.description>
+  <hediff_male2female.label>남성에서 여성으로 성전환</hediff_male2female.label>
+  <hediff_male2female.stages.ignorance.label>무관심</hediff_male2female.stages.ignorance.label>
+  <hediff_male2female.stages.acceptance.label>납득</hediff_male2female.stages.acceptance.label>
+  <hediff_male2female.stages.saddness.label>슬픔</hediff_male2female.stages.saddness.label>
+  <hediff_male2female.stages.anger.label>분노</hediff_male2female.stages.anger.label>
+  <hediff_male2female.stages.rejection.label>거부</hediff_male2female.stages.rejection.label>
+  <hediff_male2futa.description>차후 예정(description could be here.)</hediff_male2futa.description>
+  <hediff_male2futa.label>남성에서 양성(여성)으로 성전환</hediff_male2futa.label>
+  <hediff_male2futa.stages.ignorance.label>무관심</hediff_male2futa.stages.ignorance.label>
+  <hediff_male2futa.stages.acceptance.label>납득</hediff_male2futa.stages.acceptance.label>
+  <hediff_male2futa.stages.saddness.label>슬픔</hediff_male2futa.stages.saddness.label>
+  <hediff_male2futa.stages.anger.label>분노</hediff_male2futa.stages.anger.label>
+  <hediff_male2futa.stages.rejection.label>거부</hediff_male2futa.stages.rejection.label>
+  <hediff_female2trap.description>차후 예정(description could be here.)</hediff_female2trap.description>
+  <hediff_female2trap.label>여성에서 양성(여성)으로 성전환</hediff_female2trap.label>
+  <hediff_female2trap.stages.ignorance.label>무관심</hediff_female2trap.stages.ignorance.label>
+  <hediff_female2trap.stages.acceptance.label>납득</hediff_female2trap.stages.acceptance.label>
+  <hediff_female2trap.stages.saddness.label>슬픔</hediff_female2trap.stages.saddness.label>
+  <hediff_female2trap.stages.anger.label>분노</hediff_female2trap.stages.anger.label>
+  <hediff_female2trap.stages.rejection.label>거부</hediff_female2trap.stages.rejection.label>
+  <hediff_female2male.description>차후 예정(description could be here.)</hediff_female2male.description>
+  <hediff_female2male.label>여성에서 남성으로 성전환</hediff_female2male.label>
+  <hediff_female2male.stages.ignorance.label>무관심</hediff_female2male.stages.ignorance.label>
+  <hediff_female2male.stages.acceptance.label>납득</hediff_female2male.stages.acceptance.label>
+  <hediff_female2male.stages.saddness.label>슬픔</hediff_female2male.stages.saddness.label>
+  <hediff_female2male.stages.anger.label>분노</hediff_female2male.stages.anger.label>
+  <hediff_female2male.stages.rejection.label>거부</hediff_female2male.stages.rejection.label>
+  <hediff_female2futa.description>차후 예정(description could be here.)</hediff_female2futa.description>
+  <hediff_female2futa.label>여성에서 양성(여성)으로 성전환</hediff_female2futa.label>
+  <hediff_female2futa.stages.ignorance.label>무관심</hediff_female2futa.stages.ignorance.label>
+  <hediff_female2futa.stages.acceptance.label>납득</hediff_female2futa.stages.acceptance.label>
+  <hediff_female2futa.stages.saddness.label>슬픔</hediff_female2futa.stages.saddness.label>
+  <hediff_female2futa.stages.anger.label>분노</hediff_female2futa.stages.anger.label>
+  <hediff_female2futa.stages.rejection.label>거부</hediff_female2futa.stages.rejection.label>
+  <hediff_futa2trap.description>차후 예정(description could be here.)</hediff_futa2trap.description>
+  <hediff_futa2trap.label>양성(여성)에서 양성(남성)로 성전환</hediff_futa2trap.label>
+  <hediff_futa2trap.stages.ignorance.label>무관심</hediff_futa2trap.stages.ignorance.label>
+  <hediff_futa2trap.stages.acceptance.label>납득</hediff_futa2trap.stages.acceptance.label>
+  <hediff_futa2trap.stages.saddness.label>슬픔</hediff_futa2trap.stages.saddness.label>
+  <hediff_futa2trap.stages.anger.label>분노</hediff_futa2trap.stages.anger.label>
+  <hediff_futa2trap.stages.rejection.label>거부</hediff_futa2trap.stages.rejection.label>
+  <hediff_futa2male.description>차후 예정(description could be here.)</hediff_futa2male.description>
+  <hediff_futa2male.label>양성(여성)에서 남성으로 성전환</hediff_futa2male.label>
+  <hediff_futa2male.stages.ignorance.label>무관심</hediff_futa2male.stages.ignorance.label>
+  <hediff_futa2male.stages.acceptance.label>납득</hediff_futa2male.stages.acceptance.label>
+  <hediff_futa2male.stages.saddness.label>슬픔</hediff_futa2male.stages.saddness.label>
+  <hediff_futa2male.stages.anger.label>분노</hediff_futa2male.stages.anger.label>
+  <hediff_futa2male.stages.rejection.label>거부</hediff_futa2male.stages.rejection.label>
+  <hediff_futa2female.description>차후 예정(description could be here.)</hediff_futa2female.description>
+  <hediff_futa2female.label>양성(여성)에서 여성으로 성전환</hediff_futa2female.label>
+  <hediff_futa2female.stages.ignorance.label>무관심</hediff_futa2female.stages.ignorance.label>
+  <hediff_futa2female.stages.acceptance.label>납득</hediff_futa2female.stages.acceptance.label>
+  <hediff_futa2female.stages.saddness.label>슬픔</hediff_futa2female.stages.saddness.label>
+  <hediff_futa2female.stages.anger.label>분노</hediff_futa2female.stages.anger.label>
+  <hediff_futa2female.stages.rejection.label>거부</hediff_futa2female.stages.rejection.label>
+  <hediff_trap2futa.description>차후 예정(description could be here.)</hediff_trap2futa.description>
+  <hediff_trap2futa.label>양성(남성)에서 양성(여성)으로 성전환</hediff_trap2futa.label>
+  <hediff_trap2futa.stages.ignorance.label>무관심</hediff_trap2futa.stages.ignorance.label>
+  <hediff_trap2futa.stages.acceptance.label>납득</hediff_trap2futa.stages.acceptance.label>
+  <hediff_trap2futa.stages.saddness.label>슬픔</hediff_trap2futa.stages.saddness.label>
+  <hediff_trap2futa.stages.anger.label>분노</hediff_trap2futa.stages.anger.label>
+  <hediff_trap2futa.stages.rejection.label>거부</hediff_trap2futa.stages.rejection.label>
+  <hediff_trap2male.description>차후 예정(description could be here.)</hediff_trap2male.description>
+  <hediff_trap2male.label>양성(남성)에서 남성으로 성전환</hediff_trap2male.label>
+  <hediff_trap2male.stages.ignorance.label>무관심</hediff_trap2male.stages.ignorance.label>
+  <hediff_trap2male.stages.acceptance.label>납득</hediff_trap2male.stages.acceptance.label>
+  <hediff_trap2male.stages.saddness.label>슬픔</hediff_trap2male.stages.saddness.label>
+  <hediff_trap2male.stages.anger.label>분노</hediff_trap2male.stages.anger.label>
+  <hediff_trap2male.stages.rejection.label>거부</hediff_trap2male.stages.rejection.label>
+  <hediff_trap2female.description>차후 예정(description could be here.)</hediff_trap2female.description>
+  <hediff_trap2female.label>양성(남성)에서 여성으로 성전환</hediff_trap2female.label>
+  <hediff_trap2female.stages.ignorance.label>무관심</hediff_trap2female.stages.ignorance.label>
+  <hediff_trap2female.stages.acceptance.label>납득</hediff_trap2female.stages.acceptance.label>
+  <hediff_trap2female.stages.saddness.label>슬픔</hediff_trap2female.stages.saddness.label>
+  <hediff_trap2female.stages.anger.label>분노</hediff_trap2female.stages.anger.label>
+  <hediff_trap2female.stages.rejection.label>거부</hediff_trap2female.stages.rejection.label>
+  <hediff_was_boy.description>이전 성별</hediff_was_boy.description>
+  <hediff_was_boy.label>남자였음</hediff_was_boy.label>
+  <hediff_was_girl.description>이전 성별</hediff_was_girl.description>
+  <hediff_was_girl.label>여자였음</hediff_was_girl.label>
+  <hediff_was_futa.description>이전 성별</hediff_was_futa.description>
+  <hediff_was_futa.label>양성(여성)이었음</hediff_was_futa.label>
+  <hediff_was_trap.description>이전 성별</hediff_was_trap.description>
+  <hediff_was_trap.label>양성(남성)이었음</hediff_was_trap.label>
+  <HorsePenis.label>말 음경</HorsePenis.label>
+  <HorsePenis.labelNoun>말 음경</HorsePenis.labelNoun>
+  <HorsePenis.description>거대한 말의 음경입니다. 섹스할 때 끝내주겠군요.</HorsePenis.description>
+  <HorsePenis.stages.Micro.label>왜소함</HorsePenis.stages.Micro.label>
+  <HorsePenis.stages.Small.label>작음</HorsePenis.stages.Small.label>
+  <HorsePenis.stages.Average.label>평범함</HorsePenis.stages.Average.label>
+  <HorsePenis.stages.Large.label>커다람</HorsePenis.stages.Large.label>
+  <HorsePenis.stages.Huge.label>거대함</HorsePenis.stages.Huge.label>
+  <HorsePenis.stages.Towering.label>육중함</HorsePenis.stages.Towering.label>
+  <HorseVagina.label>말 질</HorseVagina.label>
+  <HorseVagina.labelNoun>말 질</HorseVagina.labelNoun>
+  <HorseVagina.description>암말의 질입니다.</HorseVagina.description>
+  <HorseVagina.stages.Micro.label>꽉 조임</HorseVagina.stages.Micro.label>
+  <HorseVagina.stages.Tight.label>조임</HorseVagina.stages.Tight.label>
+  <HorseVagina.stages.Average.label>평범함</HorseVagina.stages.Average.label>
+  <HorseVagina.stages.Accommodating.label>느슨함</HorseVagina.stages.Accommodating.label>
+  <HorseVagina.stages.Cavernous.label>헐렁함</HorseVagina.stages.Cavernous.label>
+  <HorseVagina.stages.Abyssal.label>공허함</HorseVagina.stages.Abyssal.label>
+  <CatPenis.label>고양이 음경</CatPenis.label>
+  <CatPenis.labelNoun>고양이 음경</CatPenis.labelNoun>
+  <CatPenis.description>가시로 덮인 고양이의 음경입니다.</CatPenis.description>
+  <CatPenis.stages.Micro.label>왜소함</CatPenis.stages.Micro.label>
+  <CatPenis.stages.Small.label>작음</CatPenis.stages.Small.label>
+  <CatPenis.stages.Average.label>평범함</CatPenis.stages.Average.label>
+  <CatPenis.stages.Large.label>커다람</CatPenis.stages.Large.label>
+  <CatPenis.stages.Huge.label>거대함</CatPenis.stages.Huge.label>
+  <CatPenis.stages.Towering.label>육중함</CatPenis.stages.Towering.label>
+  <CatVagina.label>고양이 질</CatVagina.label>
+  <CatVagina.labelNoun>고양이 질</CatVagina.labelNoun>
+  <CatVagina.description>고양이의 질입니다.</CatVagina.description>
+  <CatVagina.stages.Micro.label>꽉 조임</CatVagina.stages.Micro.label>
+  <CatVagina.stages.Tight.label>조임</CatVagina.stages.Tight.label>
+  <CatVagina.stages.Average.label>평범함</CatVagina.stages.Average.label>
+  <CatVagina.stages.Accommodating.label>느슨함</CatVagina.stages.Accommodating.label>
+  <CatVagina.stages.Cavernous.label>헐렁함</CatVagina.stages.Cavernous.label>
+  <CatVagina.stages.Abyssal.label>공허함</CatVagina.stages.Abyssal.label>
+  <DogPenis.label>개 음경</DogPenis.label>
+  <DogPenis.labelNoun>개 음경</DogPenis.labelNoun>
+  <DogPenis.description>선홍빛의 개 음경입니다. 섹스 중엔 부풀어 올라 상대방을 오래 붙들어 놓습니다.</DogPenis.description>
+  <DogPenis.stages.Micro.label>왜소함</DogPenis.stages.Micro.label>
+  <DogPenis.stages.Small.label>작음</DogPenis.stages.Small.label>
+  <DogPenis.stages.Average.label>평범함</DogPenis.stages.Average.label>
+  <DogPenis.stages.Large.label>커다람</DogPenis.stages.Large.label>
+  <DogPenis.stages.Huge.label>거대함</DogPenis.stages.Huge.label>
+  <DogPenis.stages.Towering.label>육중함</DogPenis.stages.Towering.label>
+  <DogVagina.label>개 질</DogVagina.label>
+  <DogVagina.labelNoun>개 질</DogVagina.labelNoun>
+  <DogVagina.description>개의 질입니다.</DogVagina.description>
+  <DogVagina.stages.Micro.label>꽉 조임</DogVagina.stages.Micro.label>
+  <DogVagina.stages.Tight.label>조임</DogVagina.stages.Tight.label>
+  <DogVagina.stages.Average.label>평범함</DogVagina.stages.Average.label>
+  <DogVagina.stages.Accommodating.label>느슨함</DogVagina.stages.Accommodating.label>
+  <DogVagina.stages.Cavernous.label>헐렁함</DogVagina.stages.Cavernous.label>
+  <DogVagina.stages.Abyssal.label>공허함</DogVagina.stages.Abyssal.label>
+  <DragonPenis.label>드래곤 음경</DragonPenis.label>
+  <DragonPenis.labelNoun>드래곤 음경</DragonPenis.labelNoun>
+  <DragonPenis.description>드래곤의 음경입니다. 개의 음경과 비슷하게 부풀어 오르는 부분이 있지만, 파트너에게 더 큰 쾌락을 제공합니다.</DragonPenis.description>
+  <DragonPenis.stages.Micro.label>왜소함</DragonPenis.stages.Micro.label>
+  <DragonPenis.stages.Small.label>작음</DragonPenis.stages.Small.label>
+  <DragonPenis.stages.Average.label>평범함</DragonPenis.stages.Average.label>
+  <DragonPenis.stages.Large.label>커다람</DragonPenis.stages.Large.label>
+  <DragonPenis.stages.Huge.label>거대함</DragonPenis.stages.Huge.label>
+  <DragonPenis.stages.Towering.label>육중함</DragonPenis.stages.Towering.label>
+  <DragonVagina.label>드래곤 질</DragonVagina.label>
+  <DragonVagina.labelNoun>드래곤 질</DragonVagina.labelNoun>
+  <DragonVagina.description>드래곤의 질입니다. 외부 가죽과 질감이 비슷하군요.</DragonVagina.description>
+  <DragonVagina.stages.Micro.label>꽉 조임</DragonVagina.stages.Micro.label>
+  <DragonVagina.stages.Tight.label>조임</DragonVagina.stages.Tight.label>
+  <DragonVagina.stages.Average.label>평범함</DragonVagina.stages.Average.label>
+  <DragonVagina.stages.Accommodating.label>느슨함</DragonVagina.stages.Accommodating.label>
+  <DragonVagina.stages.Cavernous.label>헐렁함</DragonVagina.stages.Cavernous.label>
+  <DragonVagina.stages.Abyssal.label>공허함</DragonVagina.stages.Abyssal.label>
+  <RaccoonPenis.label>너구리 음경</RaccoonPenis.label>
+  <RaccoonPenis.labelNoun>너구리 음경</RaccoonPenis.labelNoun>
+  <RaccoonPenis.description>너구리 음경입니다.</RaccoonPenis.description>
+  <RaccoonPenis.stages.Micro.label>왜소함</RaccoonPenis.stages.Micro.label>
+  <RaccoonPenis.stages.Small.label>작음</RaccoonPenis.stages.Small.label>
+  <RaccoonPenis.stages.Average.label>평범함</RaccoonPenis.stages.Average.label>
+  <RaccoonPenis.stages.Large.label>커다람</RaccoonPenis.stages.Large.label>
+  <RaccoonPenis.stages.Huge.label>거대함</RaccoonPenis.stages.Huge.label>
+  <RaccoonPenis.stages.Towering.label>육중함</RaccoonPenis.stages.Towering.label>
+  <HemiPenis.label>이중 음경</HemiPenis.label>
+  <HemiPenis.labelNoun>이중 음경</HemiPenis.labelNoun>
+  <HemiPenis.description>두 개의 물건으로 두배의 즐거움을 줍니다.</HemiPenis.description>
+  <HemiPenis.stages.Micro.label>왜소함</HemiPenis.stages.Micro.label>
+  <HemiPenis.stages.Small.label>작음</HemiPenis.stages.Small.label>
+  <HemiPenis.stages.Average.label>평범함</HemiPenis.stages.Average.label>
+  <HemiPenis.stages.Large.label>커다람</HemiPenis.stages.Large.label>
+  <HemiPenis.stages.Huge.label>거대함</HemiPenis.stages.Huge.label>
+  <HemiPenis.stages.Towering.label>육중함</HemiPenis.stages.Towering.label>
+  <CrocodilianPenis.label>악어 음경</CrocodilianPenis.label>
+  <CrocodilianPenis.labelNoun>악어 음경</CrocodilianPenis.labelNoun>
+  <CrocodilianPenis.description>악어의 음경입니다. 크고 항상 발기되어 있습니다.</CrocodilianPenis.description>
+  <CrocodilianPenis.stages.Micro.label>왜소함</CrocodilianPenis.stages.Micro.label>
+  <CrocodilianPenis.stages.Small.label>작음</CrocodilianPenis.stages.Small.label>
+  <CrocodilianPenis.stages.Average.label>평범함</CrocodilianPenis.stages.Average.label>
+  <CrocodilianPenis.stages.Large.label>커다람</CrocodilianPenis.stages.Large.label>
+  <CrocodilianPenis.stages.Huge.label>거대함</CrocodilianPenis.stages.Huge.label>
+  <CrocodilianPenis.stages.Towering.label>육중함</CrocodilianPenis.stages.Towering.label>
+  <UdderBreasts.label>젖소 가슴</UdderBreasts.label>
+  <UdderBreasts.labelNoun>젖소 가슴</UdderBreasts.labelNoun>
+  <UdderBreasts.description>동물처럼 4개의 젖꼭지가 달렸습니다.</UdderBreasts.description>
+  <UdderBreasts.stages.Nipples.label>절벽</UdderBreasts.stages.Nipples.label>
+  <UdderBreasts.stages.Tiny.label>평평함</UdderBreasts.stages.Tiny.label>
+  <UdderBreasts.stages.Small.label>아담함</UdderBreasts.stages.Small.label>
+  <UdderBreasts.stages.Average.label>평범함</UdderBreasts.stages.Average.label>
+  <UdderBreasts.stages.Large.label>커다람</UdderBreasts.stages.Large.label>
+  <UdderBreasts.stages.Huge.label>거대함</UdderBreasts.stages.Huge.label>
+  <UdderBreasts.stages.Enormous.label>풍만함</UdderBreasts.stages.Enormous.label>
+  <UdderBreasts.stages.Massive.label>매우 풍만함</UdderBreasts.stages.Massive.label>
+  <UdderBreasts.stages.Gargantuan.label>굉장히 풍만함</UdderBreasts.stages.Gargantuan.label>
+  <UdderBreasts.stages.Colossal.label>극도로 풍만함</UdderBreasts.stages.Colossal.label>
+  <UdderBreasts.stages.Titanic.label>터질 듯 풍만함</UdderBreasts.stages.Titanic.label>
+  <NarrowVagina.label>좁은 질</NarrowVagina.label>
+  <NarrowVagina.labelNoun>좁은 질</NarrowVagina.labelNoun>
+  <NarrowVagina.description>매우 좁고, 꽉 조이는 질입니다.</NarrowVagina.description>
+  <NarrowVagina.stages.Micro.label>꽉 조임</NarrowVagina.stages.Micro.label>
+  <NarrowVagina.stages.Tight.label>조임</NarrowVagina.stages.Tight.label>
+  <NarrowVagina.stages.Average.label>평범함</NarrowVagina.stages.Average.label>
+  <NarrowVagina.stages.Accommodating.label>느슨함</NarrowVagina.stages.Accommodating.label>
+  <NarrowVagina.stages.Cavernous.label>헐렁함</NarrowVagina.stages.Cavernous.label>
+  <NarrowVagina.stages.Abyssal.label>공허함</NarrowVagina.stages.Abyssal.label>
+  <NeedlePenis.label>가는 음경</NeedlePenis.label>
+  <NeedlePenis.labelNoun>가는 음경</NeedlePenis.labelNoun>
+  <NeedlePenis.description>매우 작고 가느다란 음경입니다.</NeedlePenis.description>
+  <NeedlePenis.stages.Micro.label>왜소함</NeedlePenis.stages.Micro.label>
+  <NeedlePenis.stages.Small.label>작음</NeedlePenis.stages.Small.label>
+  <NeedlePenis.stages.Average.label>평범함</NeedlePenis.stages.Average.label>
+  <NeedlePenis.stages.Large.label>커다람</NeedlePenis.stages.Large.label>
+  <NeedlePenis.stages.Huge.label>거대함</NeedlePenis.stages.Huge.label>
+  <NeedlePenis.stages.Towering.label>육중함</NeedlePenis.stages.Towering.label>
+  <RodentVagina.label>설치류 질</RodentVagina.label>
+  <RodentVagina.labelNoun>설치류 질</RodentVagina.labelNoun>
+  <RodentVagina.description>설치류의 질입니다.</RodentVagina.description>
+  <RodentVagina.stages.Micro.label>꽉 조임</RodentVagina.stages.Micro.label>
+  <RodentVagina.stages.Tight.label>조임</RodentVagina.stages.Tight.label>
+  <RodentVagina.stages.Average.label>평범함</RodentVagina.stages.Average.label>
+  <RodentVagina.stages.Accommodating.label>느슨함</RodentVagina.stages.Accommodating.label>
+  <RodentVagina.stages.Cavernous.label>헐렁함</RodentVagina.stages.Cavernous.label>
+  <RodentVagina.stages.Abyssal.label>공허함</RodentVagina.stages.Abyssal.label>
+  <RodentPenis.label>설치류 음경</RodentPenis.label>
+  <RodentPenis.labelNoun>설치류 음경</RodentPenis.labelNoun>
+  <RodentPenis.description>설치류의 음경입니다.</RodentPenis.description>
+  <RodentPenis.stages.Micro.label>왜소함</RodentPenis.stages.Micro.label>
+  <RodentPenis.stages.Small.label>작음</RodentPenis.stages.Small.label>
+  <RodentPenis.stages.Average.label>평범함</RodentPenis.stages.Average.label>
+  <RodentPenis.stages.Large.label>커다람</RodentPenis.stages.Large.label>
+  <RodentPenis.stages.Huge.label>거대함</RodentPenis.stages.Huge.label>
+  <RodentPenis.stages.Towering.label>육중함</RodentPenis.stages.Towering.label>
+  <CloacalPenis.label>총배설강 음경</CloacalPenis.label>
+  <CloacalPenis.labelNoun>총배설강 음경</CloacalPenis.labelNoun>
+  <CloacalPenis.description>총배설강 음경입니다.</CloacalPenis.description>
+  <CloacalPenis.stages.Micro.label>왜소함</CloacalPenis.stages.Micro.label>
+  <CloacalPenis.stages.Small.label>작음</CloacalPenis.stages.Small.label>
+  <CloacalPenis.stages.Average.label>평범함</CloacalPenis.stages.Average.label>
+  <CloacalPenis.stages.Large.label>커다람</CloacalPenis.stages.Large.label>
+  <CloacalPenis.stages.Huge.label>거대함</CloacalPenis.stages.Huge.label>
+  <CloacalPenis.stages.Towering.label>육중함</CloacalPenis.stages.Towering.label>
+  <CloacalVagina.label>총배설강 질</CloacalVagina.label>
+  <CloacalVagina.labelNoun>총배설강 질</CloacalVagina.labelNoun>
+  <CloacalVagina.description>총배설강 질입니다.</CloacalVagina.description>
+  <CloacalVagina.stages.Micro.label>꽉 조임</CloacalVagina.stages.Micro.label>
+  <CloacalVagina.stages.Tight.label>조임</CloacalVagina.stages.Tight.label>
+  <CloacalVagina.stages.Average.label>평범함</CloacalVagina.stages.Average.label>
+  <CloacalVagina.stages.Accommodating.label>느슨함</CloacalVagina.stages.Accommodating.label>
+  <CloacalVagina.stages.Cavernous.label>헐렁함</CloacalVagina.stages.Cavernous.label>
+  <CloacalVagina.stages.Abyssal.label>공허함</CloacalVagina.stages.Abyssal.label>
+  <CloacalAnus.label>총배설강 항문</CloacalAnus.label>
+  <CloacalAnus.labelNoun>총배설강 항문</CloacalAnus.labelNoun>
+  <CloacalAnus.description>총배설강 항문입니다.</CloacalAnus.description>
+  <CloacalAnus.stages.Micro.label>꽉 조임</CloacalAnus.stages.Micro.label>
+  <CloacalAnus.stages.Tight.label>조임</CloacalAnus.stages.Tight.label>
+  <CloacalAnus.stages.Average.label>평범함</CloacalAnus.stages.Average.label>
+  <CloacalAnus.stages.Accommodating.label>느슨함</CloacalAnus.stages.Accommodating.label>
+  <CloacalAnus.stages.Cavernous.label>헐렁함</CloacalAnus.stages.Cavernous.label>
+  <CloacalAnus.stages.Abyssal.label>공허함</CloacalAnus.stages.Abyssal.label>
+  <DemonTentaclePenis.label>악마의 촉수</DemonTentaclePenis.label>
+  <DemonTentaclePenis.labelNoun>악마의 촉수</DemonTentaclePenis.labelNoun>
+  <DemonTentaclePenis.description>당신이 생각치도 못한 부분까지 닿을 수 있는 촉수입니다.</DemonTentaclePenis.description>
+  <DemonTentaclePenis.stages.Micro.label>왜소함</DemonTentaclePenis.stages.Micro.label>
+  <DemonTentaclePenis.stages.Small.label>작음</DemonTentaclePenis.stages.Small.label>
+  <DemonTentaclePenis.stages.Average.label>평범함</DemonTentaclePenis.stages.Average.label>
+  <DemonTentaclePenis.stages.Large.label>커다람</DemonTentaclePenis.stages.Large.label>
+  <DemonTentaclePenis.stages.Huge.label>거대함</DemonTentaclePenis.stages.Huge.label>
+  <DemonTentaclePenis.stages.Towering.label>육중함</DemonTentaclePenis.stages.Towering.label>
+  <DemonPenis.label>악마의 음경</DemonPenis.label>
+  <DemonPenis.labelNoun>악마의 음경</DemonPenis.labelNoun>
+  <DemonPenis.description>파트너를 방탕으로 굴복시키는 크고 흉악한 덩어리입니다.</DemonPenis.description>
+  <DemonPenis.stages.Micro.label>왜소함</DemonPenis.stages.Micro.label>
+  <DemonPenis.stages.Small.label>작음</DemonPenis.stages.Small.label>
+  <DemonPenis.stages.Average.label>평범함</DemonPenis.stages.Average.label>
+  <DemonPenis.stages.Large.label>커다람</DemonPenis.stages.Large.label>
+  <DemonPenis.stages.Huge.label>거대함</DemonPenis.stages.Huge.label>
+  <DemonPenis.stages.Towering.label>육중함</DemonPenis.stages.Towering.label>
+  <DemonVagina.label>악마의 질</DemonVagina.label>
+  <DemonVagina.labelNoun>악마의 질</DemonVagina.labelNoun>
+  <DemonVagina.description>파트너를 천국으로 보내버리는 쫀득한 질입니다.</DemonVagina.description>
+  <DemonVagina.stages.Micro.label>꽉 조임</DemonVagina.stages.Micro.label>
+  <DemonVagina.stages.Tight.label>조임</DemonVagina.stages.Tight.label>
+  <DemonVagina.stages.Average.label>평범함</DemonVagina.stages.Average.label>
+  <DemonVagina.stages.Accommodating.label>느슨함</DemonVagina.stages.Accommodating.label>
+  <DemonVagina.stages.Cavernous.label>헐렁함</DemonVagina.stages.Cavernous.label>
+  <DemonVagina.stages.Abyssal.label>공허함</DemonVagina.stages.Abyssal.label>
+  <DemonAnus.label>악마의 항문</DemonAnus.label>
+  <DemonAnus.labelNoun>악마의 항문</DemonAnus.labelNoun>
+  <DemonAnus.description>악마의 항문입니다.</DemonAnus.description>
+  <DemonAnus.stages.Micro.label>꽉 조임</DemonAnus.stages.Micro.label>
+  <DemonAnus.stages.Tight.label>조임</DemonAnus.stages.Tight.label>
+  <DemonAnus.stages.Average.label>평범함</DemonAnus.stages.Average.label>
+  <DemonAnus.stages.Accommodating.label>느슨함</DemonAnus.stages.Accommodating.label>
+  <DemonAnus.stages.Cavernous.label>헐렁함</DemonAnus.stages.Cavernous.label>
+  <DemonAnus.stages.Abyssal.label>공허함</DemonAnus.stages.Abyssal.label>
+  <Penis.label>음경</Penis.label>
+  <Penis.labelNoun>음경</Penis.labelNoun>
+  <Penis.description>음경입니다.</Penis.description>
+  <Penis.stages.Micro.label>왜소함</Penis.stages.Micro.label>
+  <Penis.stages.Small.label>작음</Penis.stages.Small.label>
+  <Penis.stages.Average.label>평범함</Penis.stages.Average.label>
+  <Penis.stages.Large.label>커다람</Penis.stages.Large.label>
+  <Penis.stages.Huge.label>거대함</Penis.stages.Huge.label>
+  <Penis.stages.Towering.label>육중함</Penis.stages.Towering.label>
+  <Vagina.label>질</Vagina.label>
+  <Vagina.labelNoun>질</Vagina.labelNoun>
+  <Vagina.description>질입니다.</Vagina.description>
+  <Vagina.stages.Micro.label>꽉 조임</Vagina.stages.Micro.label>
+  <Vagina.stages.Tight.label>조임</Vagina.stages.Tight.label>
+  <Vagina.stages.Average.label>평범함</Vagina.stages.Average.label>
+  <Vagina.stages.Accommodating.label>느슨함</Vagina.stages.Accommodating.label>
+  <Vagina.stages.Cavernous.label>헐렁함</Vagina.stages.Cavernous.label>
+  <Vagina.stages.Abyssal.label>공허함</Vagina.stages.Abyssal.label>
+  <Anus.label>항문</Anus.label>
+  <Anus.labelNoun>항문</Anus.labelNoun>
+  <Anus.description>항문입니다.</Anus.description>
+  <Anus.stages.Micro.label>꽉 조임</Anus.stages.Micro.label>
+  <Anus.stages.Tight.label>조임</Anus.stages.Tight.label>
+  <Anus.stages.Average.label>평범함</Anus.stages.Average.label>
+  <Anus.stages.Accommodating.label>느슨함</Anus.stages.Accommodating.label>
+  <Anus.stages.Cavernous.label>헐렁함</Anus.stages.Cavernous.label>
+  <Anus.stages.Abyssal.label>공허함</Anus.stages.Abyssal.label>
+  <Breasts.label>가슴</Breasts.label>
+  <Breasts.labelNoun>가슴</Breasts.labelNoun>
+  <Breasts.description>가슴입니다.</Breasts.description>
+  <Breasts.stages.Nipples.label>절벽</Breasts.stages.Nipples.label>
+  <Breasts.stages.Tiny.label>평평함</Breasts.stages.Tiny.label>
+  <Breasts.stages.Small.label>아담함</Breasts.stages.Small.label>
+  <Breasts.stages.Average.label>평범함</Breasts.stages.Average.label>
+  <Breasts.stages.Large.label>커다람</Breasts.stages.Large.label>
+  <Breasts.stages.Huge.label>거대함</Breasts.stages.Huge.label>
+  <Breasts.stages.Enormous.label>풍만함</Breasts.stages.Enormous.label>
+  <Breasts.stages.Massive.label>매우 풍만함</Breasts.stages.Massive.label>
+  <Breasts.stages.Gargantuan.label>굉장히 풍만함</Breasts.stages.Gargantuan.label>
+  <Breasts.stages.Colossal.label>극도로 풍만함</Breasts.stages.Colossal.label>
+  <Breasts.stages.Titanic.label>터질 듯 풍만함</Breasts.stages.Titanic.label>
+  <FeaturelessChest.label>밋밋한 가슴</FeaturelessChest.label>
+  <FeaturelessChest.labelNoun>밋밋한 가슴</FeaturelessChest.labelNoun>
+  <FeaturelessChest.description>젖꼭지 조차 보이지 않는 평평한 가슴입니다.</FeaturelessChest.description>
+  <PegDick.label>나무 음경</PegDick.label>
+  <PegDick.labelNoun>나무 음경</PegDick.labelNoun>
+  <PegDick.description>단순하고 단단한 친구입니다.</PegDick.description>
+  <PegDick.stages.Micro.label>왜소함</PegDick.stages.Micro.label>
+  <PegDick.stages.Small.label>작음</PegDick.stages.Small.label>
+  <PegDick.stages.Average.label>평범함</PegDick.stages.Average.label>
+  <PegDick.stages.Large.label>커다람</PegDick.stages.Large.label>
+  <PegDick.stages.Huge.label>거대함</PegDick.stages.Huge.label>
+  <PegDick.stages.Towering.label>육중함</PegDick.stages.Towering.label>
+  <HydraulicPenis.label>유압 음경</HydraulicPenis.label>
+  <HydraulicPenis.labelNoun>유압 음경</HydraulicPenis.labelNoun>
+  <HydraulicPenis.description>평범한 음경과 비슷하게, 유압 장치로 발기를 표현합니다.</HydraulicPenis.description>
+  <HydraulicPenis.stages.Micro.label>왜소함</HydraulicPenis.stages.Micro.label>
+  <HydraulicPenis.stages.Small.label>작음</HydraulicPenis.stages.Small.label>
+  <HydraulicPenis.stages.Average.label>평범함</HydraulicPenis.stages.Average.label>
+  <HydraulicPenis.stages.Large.label>커다람</HydraulicPenis.stages.Large.label>
+  <HydraulicPenis.stages.Huge.label>거대함</HydraulicPenis.stages.Huge.label>
+  <HydraulicPenis.stages.Towering.label>육중함</HydraulicPenis.stages.Towering.label>
+  <HydraulicVagina.label>유압 질</HydraulicVagina.label>
+  <HydraulicVagina.labelNoun>유압 질</HydraulicVagina.labelNoun>
+  <HydraulicVagina.description>간단한 유압 장치를 써서 일반적인 질압을 표현합니다.</HydraulicVagina.description>
+  <HydraulicVagina.stages.Micro.label>꽉 조임</HydraulicVagina.stages.Micro.label>
+  <HydraulicVagina.stages.Tight.label>조임</HydraulicVagina.stages.Tight.label>
+  <HydraulicVagina.stages.Average.label>평범함</HydraulicVagina.stages.Average.label>
+  <HydraulicVagina.stages.Accommodating.label>느슨함</HydraulicVagina.stages.Accommodating.label>
+  <HydraulicVagina.stages.Cavernous.label>헐렁함</HydraulicVagina.stages.Cavernous.label>
+  <HydraulicVagina.stages.Abyssal.label>공허함</HydraulicVagina.stages.Abyssal.label>
+  <HydraulicBreasts.label>유압 가슴</HydraulicBreasts.label>
+  <HydraulicBreasts.labelNoun>유압 가슴</HydraulicBreasts.labelNoun>
+  <HydraulicBreasts.description>명백하게 부자연스러운 한쌍의 보철물입니다.</HydraulicBreasts.description>
+  <HydraulicBreasts.stages.Nipples.label>절벽</HydraulicBreasts.stages.Nipples.label>
+  <HydraulicBreasts.stages.Tiny.label>평평함</HydraulicBreasts.stages.Tiny.label>
+  <HydraulicBreasts.stages.Small.label>아담함</HydraulicBreasts.stages.Small.label>
+  <HydraulicBreasts.stages.Average.label>평범함</HydraulicBreasts.stages.Average.label>
+  <HydraulicBreasts.stages.Large.label>커다람</HydraulicBreasts.stages.Large.label>
+  <HydraulicBreasts.stages.Huge.label>거대함</HydraulicBreasts.stages.Huge.label>
+  <HydraulicBreasts.stages.Enormous.label>풍만함</HydraulicBreasts.stages.Enormous.label>
+  <HydraulicBreasts.stages.Massive.label>매우 풍만함</HydraulicBreasts.stages.Massive.label>
+  <HydraulicBreasts.stages.Gargantuan.label>굉장히 풍만함</HydraulicBreasts.stages.Gargantuan.label>
+  <HydraulicBreasts.stages.Colossal.label>극도로 풍만함</HydraulicBreasts.stages.Colossal.label>
+  <HydraulicBreasts.stages.Titanic.label>터질 듯 풍만함</HydraulicBreasts.stages.Titanic.label>
+  <HydraulicAnus.label>유압 항문</HydraulicAnus.label>
+  <HydraulicAnus.labelNoun>유압 항문</HydraulicAnus.labelNoun>
+  <HydraulicAnus.description>간단한 유압 장치로 압력을 표현하는 항문입니다.</HydraulicAnus.description>
+  <HydraulicAnus.stages.Micro.label>꽉 조임</HydraulicAnus.stages.Micro.label>
+  <HydraulicAnus.stages.Tight.label>조임</HydraulicAnus.stages.Tight.label>
+  <HydraulicAnus.stages.Average.label>평범함</HydraulicAnus.stages.Average.label>
+  <HydraulicAnus.stages.Accommodating.label>느슨함</HydraulicAnus.stages.Accommodating.label>
+  <HydraulicAnus.stages.Cavernous.label>헐렁함</HydraulicAnus.stages.Cavernous.label>
+  <HydraulicAnus.stages.Abyssal.label>공허함</HydraulicAnus.stages.Abyssal.label>
+  <BionicPenis.label>생체공학 음경</BionicPenis.label>
+  <BionicPenis.labelNoun>생체공학 음경</BionicPenis.labelNoun>
+  <BionicPenis.description>첨단 기술로 만든 인공음경입니다. 미세 조정된 압력 센서와 PID 순환 제어기를 사용해 상대방의 수축을 분석합니다. 이는 통해 상대방의 취향에 맞춰 확장, 수축 기능을 제공합니다.</BionicPenis.description>
+  <BionicPenis.stages.Micro.label>왜소함</BionicPenis.stages.Micro.label>
+  <BionicPenis.stages.Small.label>작음</BionicPenis.stages.Small.label>
+  <BionicPenis.stages.Average.label>평범함</BionicPenis.stages.Average.label>
+  <BionicPenis.stages.Large.label>커다람</BionicPenis.stages.Large.label>
+  <BionicPenis.stages.Huge.label>거대함</BionicPenis.stages.Huge.label>
+  <BionicPenis.stages.Towering.label>육중함</BionicPenis.stages.Towering.label>
+  <BionicVagina.label>생체공학 질</BionicVagina.label>
+  <BionicVagina.labelNoun>생체공학 질</BionicVagina.labelNoun>
+  <BionicVagina.description>첨단 기술로 만든 인공질입니다. 내부 압력 센서를 사용하여 받아들인 물건의 크기와 속도에 맞춰줍니다.</BionicVagina.description>
+  <BionicVagina.stages.Micro.label>꽉 조임</BionicVagina.stages.Micro.label>
+  <BionicVagina.stages.Tight.label>조임</BionicVagina.stages.Tight.label>
+  <BionicVagina.stages.Average.label>평범함</BionicVagina.stages.Average.label>
+  <BionicVagina.stages.Accommodating.label>느슨함</BionicVagina.stages.Accommodating.label>
+  <BionicVagina.stages.Cavernous.label>헐렁함</BionicVagina.stages.Cavernous.label>
+  <BionicVagina.stages.Abyssal.label>공허함</BionicVagina.stages.Abyssal.label>
+  <BionicBreasts.label>생체공학 가슴</BionicBreasts.label>
+  <BionicBreasts.labelNoun>생체공학 가슴</BionicBreasts.labelNoun>
+  <BionicBreasts.description>첨단 기술로 만든 인공가슴입니다.</BionicBreasts.description>
+  <BionicBreasts.stages.Nipples.label>절벽</BionicBreasts.stages.Nipples.label>
+  <BionicBreasts.stages.Tiny.label>평평함</BionicBreasts.stages.Tiny.label>
+  <BionicBreasts.stages.Small.label>아담함</BionicBreasts.stages.Small.label>
+  <BionicBreasts.stages.Average.label>평범함</BionicBreasts.stages.Average.label>
+  <BionicBreasts.stages.Large.label>커다람</BionicBreasts.stages.Large.label>
+  <BionicBreasts.stages.Huge.label>거대함</BionicBreasts.stages.Huge.label>
+  <BionicBreasts.stages.Enormous.label>풍만함</BionicBreasts.stages.Enormous.label>
+  <BionicBreasts.stages.Massive.label>매우 풍만함</BionicBreasts.stages.Massive.label>
+  <BionicBreasts.stages.Gargantuan.label>굉장히 풍만함</BionicBreasts.stages.Gargantuan.label>
+  <BionicBreasts.stages.Colossal.label>극도로 풍만함</BionicBreasts.stages.Colossal.label>
+  <BionicBreasts.stages.Titanic.label>터질 듯 풍만함</BionicBreasts.stages.Titanic.label>
+  <BionicAnus.label>생체공학 항문</BionicAnus.label>
+  <BionicAnus.labelNoun>생체공학 항문</BionicAnus.labelNoun>
+  <BionicAnus.description>첨단 기술로 만든 인공항문입니다.</BionicAnus.description>
+  <BionicAnus.stages.Micro.label>꽉 조임</BionicAnus.stages.Micro.label>
+  <BionicAnus.stages.Tight.label>조임</BionicAnus.stages.Tight.label>
+  <BionicAnus.stages.Average.label>평범함</BionicAnus.stages.Average.label>
+  <BionicAnus.stages.Accommodating.label>느슨함</BionicAnus.stages.Accommodating.label>
+  <BionicAnus.stages.Cavernous.label>헐렁함</BionicAnus.stages.Cavernous.label>
+  <BionicAnus.stages.Abyssal.label>공허함</BionicAnus.stages.Abyssal.label>
+  <ArchotechPenis.label>초월공학 음경</ArchotechPenis.label>
+  <ArchotechPenis.description>초월공학 음경</ArchotechPenis.description>
+  <ArchotechPenis.stages.Micro.label>왜소함</ArchotechPenis.stages.Micro.label>
+  <ArchotechPenis.stages.Small.label>작음</ArchotechPenis.stages.Small.label>
+  <ArchotechPenis.stages.Average.label>평범함</ArchotechPenis.stages.Average.label>
+  <ArchotechPenis.stages.Large.label>커다람</ArchotechPenis.stages.Large.label>
+  <ArchotechPenis.stages.Huge.label>거대함</ArchotechPenis.stages.Huge.label>
+  <ArchotechPenis.stages.Towering.label>육중함</ArchotechPenis.stages.Towering.label>
+  <ArchotechVagina.label>초월공학 질</ArchotechVagina.label>
+  <ArchotechVagina.description>초월공학 질</ArchotechVagina.description>
+  <ArchotechVagina.stages.Micro.label>꽉 조임</ArchotechVagina.stages.Micro.label>
+  <ArchotechVagina.stages.Tight.label>조임</ArchotechVagina.stages.Tight.label>
+  <ArchotechVagina.stages.Average.label>평범함</ArchotechVagina.stages.Average.label>
+  <ArchotechVagina.stages.Accommodating.label>느슨함</ArchotechVagina.stages.Accommodating.label>
+  <ArchotechVagina.stages.Cavernous.label>헐렁함</ArchotechVagina.stages.Cavernous.label>
+  <ArchotechVagina.stages.Abyssal.label>공허함</ArchotechVagina.stages.Abyssal.label>
+  <ArchotechBreasts.label>초월공학 가슴</ArchotechBreasts.label>
+  <ArchotechBreasts.description>초월공학 가슴</ArchotechBreasts.description>
+  <ArchotechBreasts.stages.Nipples.label>절벽</ArchotechBreasts.stages.Nipples.label>
+  <ArchotechBreasts.stages.Tiny.label>평평함</ArchotechBreasts.stages.Tiny.label>
+  <ArchotechBreasts.stages.Small.label>아담함</ArchotechBreasts.stages.Small.label>
+  <ArchotechBreasts.stages.Average.label>평범함</ArchotechBreasts.stages.Average.label>
+  <ArchotechBreasts.stages.Large.label>커다람</ArchotechBreasts.stages.Large.label>
+  <ArchotechBreasts.stages.Huge.label>거대함</ArchotechBreasts.stages.Huge.label>
+  <ArchotechBreasts.stages.Enormous.label>풍만함</ArchotechBreasts.stages.Enormous.label>
+  <ArchotechBreasts.stages.Massive.label>매우 풍만함</ArchotechBreasts.stages.Massive.label>
+  <ArchotechBreasts.stages.Gargantuan.label>굉장히 풍만함</ArchotechBreasts.stages.Gargantuan.label>
+  <ArchotechBreasts.stages.Colossal.label>극도로 풍만함</ArchotechBreasts.stages.Colossal.label>
+  <ArchotechBreasts.stages.Titanic.label>터질 듯 풍만함</ArchotechBreasts.stages.Titanic.label>
+  <ArchotechAnus.label>초월공학 항문</ArchotechAnus.label>
+  <ArchotechAnus.description>초월공학 항문</ArchotechAnus.description>
+  <ArchotechAnus.stages.Micro.label>꽉 조임</ArchotechAnus.stages.Micro.label>
+  <ArchotechAnus.stages.Tight.label>조임</ArchotechAnus.stages.Tight.label>
+  <ArchotechAnus.stages.Average.label>평범함</ArchotechAnus.stages.Average.label>
+  <ArchotechAnus.stages.Accommodating.label>느슨함</ArchotechAnus.stages.Accommodating.label>
+  <ArchotechAnus.stages.Cavernous.label>헐렁함</ArchotechAnus.stages.Cavernous.label>
+  <ArchotechAnus.stages.Abyssal.label>공허함</ArchotechAnus.stages.Abyssal.label>
+  <OvipositorF.label>벌레 산란관</OvipositorF.label>
+  <OvipositorF.labelNoun>벌레 산란관</OvipositorF.labelNoun>
+  <OvipositorF.description>곤충의 산란관입니다. 숙주의 몸에 산란합니다.</OvipositorF.description>
+  <OvipositorF.stages.Micro.label>꽉 조임</OvipositorF.stages.Micro.label>
+  <OvipositorF.stages.Tight.label>조임</OvipositorF.stages.Tight.label>
+  <OvipositorF.stages.Average.label>평범함</OvipositorF.stages.Average.label>
+  <OvipositorF.stages.Accommodating.label>느슨함</OvipositorF.stages.Accommodating.label>
+  <OvipositorF.stages.Cavernous.label>헐렁함</OvipositorF.stages.Cavernous.label>
+  <OvipositorF.stages.Abyssal.label>공허함</OvipositorF.stages.Abyssal.label>
+  <OvipositorM.label>벌레 정관</OvipositorM.label>
+  <OvipositorM.labelNoun>벌레 정관</OvipositorM.labelNoun>
+  <OvipositorM.description>곤충의 정관입니다. 숙주의 몸에 산란된 알을 수정시킵니다.</OvipositorM.description>
+  <OvipositorM.stages.Micro.label>왜소함</OvipositorM.stages.Micro.label>
+  <OvipositorM.stages.Small.label>작음</OvipositorM.stages.Small.label>
+  <OvipositorM.stages.Average.label>평범함</OvipositorM.stages.Average.label>
+  <OvipositorM.stages.Large.label>커다람</OvipositorM.stages.Large.label>
+  <OvipositorM.stages.Huge.label>거대함</OvipositorM.stages.Huge.label>
+  <OvipositorM.stages.Towering.label>육중함</OvipositorM.stages.Towering.label>
+  <InsectAnus.label>벌레 배설강</InsectAnus.label>
+  <InsectAnus.labelNoun>벌레 배설강</InsectAnus.labelNoun>
+  <InsectAnus.description>곤충의 항문입니다.</InsectAnus.description>
+  <InsectAnus.stages.Micro.label>꽉 조임</InsectAnus.stages.Micro.label>
+  <InsectAnus.stages.Tight.label>조임</InsectAnus.stages.Tight.label>
+  <InsectAnus.stages.Average.label>평범함</InsectAnus.stages.Average.label>
+  <InsectAnus.stages.Accommodating.label>느슨함</InsectAnus.stages.Accommodating.label>
+  <InsectAnus.stages.Cavernous.label>헐렁함</InsectAnus.stages.Cavernous.label>
+  <InsectAnus.stages.Abyssal.label>공허함</InsectAnus.stages.Abyssal.label>
+  <SlimeTentacles.label>슬라임 촉수</SlimeTentacles.label>
+  <SlimeTentacles.labelNoun>슬라임 촉수</SlimeTentacles.labelNoun>
+  <SlimeTentacles.description>원하는 모양으로 변형되는 매끄럽고 반투명한 촉수입니다.</SlimeTentacles.description>
+  <SlimeTentacles.stages.Micro.label>왜소함</SlimeTentacles.stages.Micro.label>
+  <SlimeTentacles.stages.Small.label>작음</SlimeTentacles.stages.Small.label>
+  <SlimeTentacles.stages.Average.label>평범함</SlimeTentacles.stages.Average.label>
+  <SlimeTentacles.stages.Large.label>커다람</SlimeTentacles.stages.Large.label>
+  <SlimeTentacles.stages.Huge.label>거대함</SlimeTentacles.stages.Huge.label>
+  <SlimeTentacles.stages.Towering.label>육중함</SlimeTentacles.stages.Towering.label>
+  <SlimeVagina.label>슬라임 질</SlimeVagina.label>
+  <SlimeVagina.labelNoun>슬라임 질</SlimeVagina.labelNoun>
+  <SlimeVagina.description>어떤 음경에도 맞게 조절되는 매끄럽고 반투명한 질입니다.</SlimeVagina.description>
+  <SlimeVagina.stages.Micro.label>꽉 조임</SlimeVagina.stages.Micro.label>
+  <SlimeVagina.stages.Tight.label>조임</SlimeVagina.stages.Tight.label>
+  <SlimeVagina.stages.Average.label>평범함</SlimeVagina.stages.Average.label>
+  <SlimeVagina.stages.Accommodating.label>느슨함</SlimeVagina.stages.Accommodating.label>
+  <SlimeVagina.stages.Cavernous.label>헐렁함</SlimeVagina.stages.Cavernous.label>
+  <SlimeVagina.stages.Abyssal.label>공허함</SlimeVagina.stages.Abyssal.label>
+  <SlimeAnus.label>슬라임 항문</SlimeAnus.label>
+  <SlimeAnus.labelNoun>슬라임 항문</SlimeAnus.labelNoun>
+  <SlimeAnus.description>어떠한 물건에도 쫀득함을 제공하는 매끄럽고 반투명한 항문입니다.</SlimeAnus.description>
+  <SlimeAnus.stages.Micro.label>꽉 조임</SlimeAnus.stages.Micro.label>
+  <SlimeAnus.stages.Tight.label>조임</SlimeAnus.stages.Tight.label>
+  <SlimeAnus.stages.Average.label>평범함</SlimeAnus.stages.Average.label>
+  <SlimeAnus.stages.Accommodating.label>느슨함</SlimeAnus.stages.Accommodating.label>
+  <SlimeAnus.stages.Cavernous.label>헐렁함</SlimeAnus.stages.Cavernous.label>
+  <SlimeAnus.stages.Abyssal.label>공허함</SlimeAnus.stages.Abyssal.label>
+  <SlimeBreasts.label>슬라임 가슴</SlimeBreasts.label>
+  <SlimeBreasts.labelNoun>슬라임 가슴</SlimeBreasts.labelNoun>
+  <SlimeBreasts.description>원하는 크기로 변화할 수 있는 매끄럽고 반투명한 가슴입니다.</SlimeBreasts.description>
+  <SlimeBreasts.stages.Nipples.label>절벽</SlimeBreasts.stages.Nipples.label>
+  <SlimeBreasts.stages.Tiny.label>평평함</SlimeBreasts.stages.Tiny.label>
+  <SlimeBreasts.stages.Small.label>아담함</SlimeBreasts.stages.Small.label>
+  <SlimeBreasts.stages.Average.label>평범함</SlimeBreasts.stages.Average.label>
+  <SlimeBreasts.stages.Large.label>커다람</SlimeBreasts.stages.Large.label>
+  <SlimeBreasts.stages.Huge.label>거대함</SlimeBreasts.stages.Huge.label>
+  <SlimeBreasts.stages.Enormous.label>풍만함</SlimeBreasts.stages.Enormous.label>
+  <SlimeBreasts.stages.Massive.label>매우 풍만함</SlimeBreasts.stages.Massive.label>
+  <SlimeBreasts.stages.Gargantuan.label>굉장히 풍만함</SlimeBreasts.stages.Gargantuan.label>
+  <SlimeBreasts.stages.Colossal.label>극도로 풍만함</SlimeBreasts.stages.Colossal.label>
+  <SlimeBreasts.stages.Titanic.label>터질 듯 풍만함</SlimeBreasts.stages.Titanic.label>
+  <GenericPenis.label>음경</GenericPenis.label>
+  <GenericPenis.labelNoun>음경</GenericPenis.labelNoun>
+  <GenericPenis.description>음경입니다.</GenericPenis.description>
+  <GenericPenis.stages.Micro.label>왜소함</GenericPenis.stages.Micro.label>
+  <GenericPenis.stages.Small.label>작음</GenericPenis.stages.Small.label>
+  <GenericPenis.stages.Average.label>평범함</GenericPenis.stages.Average.label>
+  <GenericPenis.stages.Large.label>커다람</GenericPenis.stages.Large.label>
+  <GenericPenis.stages.Huge.label>거대함</GenericPenis.stages.Huge.label>
+  <GenericPenis.stages.Towering.label>육중함</GenericPenis.stages.Towering.label>
+  <GenericVagina.label>질</GenericVagina.label>
+  <GenericVagina.labelNoun>질</GenericVagina.labelNoun>
+  <GenericVagina.description>질입니다.</GenericVagina.description>
+  <GenericVagina.stages.Micro.label>꽉 조임</GenericVagina.stages.Micro.label>
+  <GenericVagina.stages.Tight.label>조임</GenericVagina.stages.Tight.label>
+  <GenericVagina.stages.Average.label>평범함</GenericVagina.stages.Average.label>
+  <GenericVagina.stages.Accommodating.label>느슨함</GenericVagina.stages.Accommodating.label>
+  <GenericVagina.stages.Cavernous.label>헐렁함</GenericVagina.stages.Cavernous.label>
+  <GenericVagina.stages.Abyssal.label>공허함</GenericVagina.stages.Abyssal.label>
+  <GenericAnus.label>항문</GenericAnus.label>
+  <GenericAnus.labelNoun>항문</GenericAnus.labelNoun>
+  <GenericAnus.description>항문입니다.</GenericAnus.description>
+  <GenericAnus.stages.Micro.label>꽉 조임</GenericAnus.stages.Micro.label>
+  <GenericAnus.stages.Tight.label>조임</GenericAnus.stages.Tight.label>
+  <GenericAnus.stages.Average.label>평범함</GenericAnus.stages.Average.label>
+  <GenericAnus.stages.Accommodating.label>느슨함</GenericAnus.stages.Accommodating.label>
+  <GenericAnus.stages.Cavernous.label>헐렁함</GenericAnus.stages.Cavernous.label>
+  <GenericAnus.stages.Abyssal.label>공허함</GenericAnus.stages.Abyssal.label>
+  <GenericBreasts.label>기본 가슴</GenericBreasts.label>
+  <GenericBreasts.labelNoun>가슴</GenericBreasts.labelNoun>
+  <GenericBreasts.description>가슴입니다.</GenericBreasts.description>
+  <GenericBreasts.stages.Nipples.label>절벽</GenericBreasts.stages.Nipples.label>
+  <GenericBreasts.stages.Tiny.label>평평함</GenericBreasts.stages.Tiny.label>
+  <GenericBreasts.stages.Small.label>아담함</GenericBreasts.stages.Small.label>
+  <GenericBreasts.stages.Average.label>평범함</GenericBreasts.stages.Average.label>
+  <GenericBreasts.stages.Large.label>커다람</GenericBreasts.stages.Large.label>
+  <GenericBreasts.stages.Huge.label>거대함</GenericBreasts.stages.Huge.label>
+  <GenericBreasts.stages.Enormous.label>풍만함</GenericBreasts.stages.Enormous.label>
+  <GenericBreasts.stages.Massive.label>매우 풍만함</GenericBreasts.stages.Massive.label>
+  <GenericBreasts.stages.Gargantuan.label>굉장히 풍만함</GenericBreasts.stages.Gargantuan.label>
+  <GenericBreasts.stages.Colossal.label>극도로 풍만함</GenericBreasts.stages.Colossal.label>
+  <GenericBreasts.stages.Titanic.label>터질 듯 풍만함</GenericBreasts.stages.Titanic.label>
+</LanguageData>
