@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech Expansion - Mammalia</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>ATH's style Draconic</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/CultureDef[defName="TMM_Draconic"]/label</xpath>
+            <value>
+              <label>드래곤주의</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/CultureDef[defName="TMM_Draconic"]/description</xpath>
+            <value>
+              <description>신화 속 이질적인 인간들이 이끄는 드래곤의 문화입니다.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Stoneborn - Dwarven Style Pack</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Det's Xenotypes - Stoneborn</li>
+        <li>Big and Small - Races</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/CultureDef[defName="TMM_Dwarven"]/label</xpath>
+            <value>
+              <label>드워프주의</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/CultureDef[defName="TMM_Dwarven"]/description</xpath>
+            <value>
+              <description>키 작은 이들로부터 이어진 드워프주의 체제입니다.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+</Patch>

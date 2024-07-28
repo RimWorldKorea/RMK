@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Music Expanded Framework</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MusicExpanded.ThemeDef[defName="BMT_Caverns_FungalForest"]/label</xpath>
+          <value>
+            <label>Biomes! Caverns - FungalForest</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MusicExpanded.ThemeDef[defName="BMT_Caverns_FungalForest"]/description</xpath>
+          <value>
+            <description>Echo.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MusicExpanded.ThemeDef[defName="BMT_Caverns"]/label</xpath>
+          <value>
+            <label>Biomes! Caverns</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MusicExpanded.ThemeDef[defName="BMT_Caverns"]/description</xpath>
+          <value>
+            <description>Echo. (additional)</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MusicExpanded.TrackDef[defName="BMT_Caverns_Quiet_Finally_ACOUSTIC_MainMenu"]/label</xpath>
+          <value>
+            <label>FungalForest - Quiet Finally (ACOUSTIC)</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MusicExpanded.TrackDef[defName="BMT_Caverns_Caravan"]/label</xpath>
+          <value>
+            <label>FungalForest - Caravan</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MusicExpanded.TrackDef[defName="BMT_Caverns_Children_of_Podostroma"]/label</xpath>
+          <value>
+            <label>FungalForest - Children of Podostroma</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MusicExpanded.TrackDef[defName="BMT_Caverns_Credits"]/label</xpath>
+          <value>
+            <label>FungalForest - Credits</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MusicExpanded.TrackDef[defName="BMT_Caverns_Discovery"]/label</xpath>
+          <value>
+            <label>FungalForest - Discovery</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MusicExpanded.TrackDef[defName="BMT_Caverns_Forests_and_Forests"]/label</xpath>
+          <value>
+            <label>FungalForest - Forests and Forests</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MusicExpanded.TrackDef[defName="BMT_Caverns_Good_Morning"]/label</xpath>
+          <value>
+            <label>FungalForest - Good Morning</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MusicExpanded.TrackDef[defName="BMT_Caverns_Light_Show"]/label</xpath>
+          <value>
+            <label>FungalForest - Light Show</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MusicExpanded.TrackDef[defName="BMT_Caverns_Neonothopanus"]/label</xpath>
+          <value>
+            <label>FungalForest - Neonothopanus</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MusicExpanded.TrackDef[defName="BMT_Caverns_Peace"]/label</xpath>
+          <value>
+            <label>FungalForest - Peace</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MusicExpanded.TrackDef[defName="BMT_Caverns_Quiet_Finally"]/label</xpath>
+          <value>
+            <label>FungalForest - Quiet Finally</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MusicExpanded.TrackDef[defName="BMT_Caverns_Tall_Shrooms"]/label</xpath>
+          <value>
+            <label>FungalForest - Tall Shrooms</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MusicExpanded.TrackDef[defName="BMT_Caverns_What_Day_Is_It"]/label</xpath>
+          <value>
+            <label>FungalForest - What Day Is It</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MusicExpanded.TrackDef[defName="BMT_Caverns_You_Will_Wont"]/label</xpath>
+          <value>
+            <label>FungalForest - You Will Wont</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MusicExpanded.TrackDef[defName="BMT_Caverns_Cavern_Chill"]/label</xpath>
+          <value>
+            <label>Cavern - Cavern Chill</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MusicExpanded.TrackDef[defName="BMT_Caverns_Cavern_Essence_Of_The_Underground"]/label</xpath>
+          <value>
+            <label>Cavern - Essence Of The Underground</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MusicExpanded.TrackDef[defName="BMT_Caverns_Indoor_Garden"]/label</xpath>
+          <value>
+            <label>Cavern - Indoor Garden</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MusicExpanded.TrackDef[defName="BMT_Caverns_That_Which_Glimmers"]/label</xpath>
+          <value>
+            <label>Cavern - That Which Glimmers</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MusicExpanded.TrackDef[defName="BMT_Caverns_FungalForest_Battle_Small_Loop"]/label</xpath>
+          <value>
+            <label>FungalForest - Battle_Small_Loop</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MusicExpanded.TrackDef[defName="BMT_Caverns_FungalForest_Battle_Medium"]/label</xpath>
+          <value>
+            <label>FungalForest - Battle_Medium</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MusicExpanded.TrackDef[defName="BMT_Caverns_FungalForest_Battle_Large_Loop"]/label</xpath>
+          <value>
+            <label>FungalForest - Battle_Large_Loop</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MusicExpanded.TrackDef[defName="BMT_Caverns_FungalForest_Battle_Legendary_Loop"]/label</xpath>
+          <value>
+            <label>FungalForest - Battle_Legendary_Loop</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MusicExpanded.TrackDef[defName="BMT_Caverns_Cave_Battle"]/label</xpath>
+          <value>
+            <label>Cavern - Cave_Battle</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>SeedsPlease</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/SeedsPlease.SeedDef[defName="BMT_BrightbellsSeed"]/label</xpath>
+          <value>
+            <label>발광종버섯 포자</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/SeedsPlease.SeedDef[defName="BMT_GleamcapSeed"]/label</xpath>
+          <value>
+            <label>영롱갓버섯 포자</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="BMT_ExtractSeed_Gleamcap"]/label</xpath>
+          <value>
+            <label>영롱갓버섯 포자 추출</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="BMT_ExtractSeed_Gleamcap"]/description</xpath>
+          <value>
+            <description>영롱갓버섯 포자를 추출합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/SeedsPlease.SeedDef[defName="BMT_ShimmershroomSeed"]/label</xpath>
+          <value>
+            <label>쉬머버섯 포자</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="BMT_ExtractSeed_Shimmershroom"]/label</xpath>
+          <value>
+            <label>쉬머버섯 포자 추출</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="BMT_ExtractSeed_Shimmershroom"]/description</xpath>
+          <value>
+            <description>쉬머버섯 포자를 추출합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/SeedsPlease.SeedDef[defName="BMT_GlowbulbSeed"]/label</xpath>
+          <value>
+            <label>발광구근 포자</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="BMT_ExtractSeed_Glowbulb"]/label</xpath>
+          <value>
+            <label>발광구근 포자 추출</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="BMT_ExtractSeed_Glowbulb"]/description</xpath>
+          <value>
+            <description>발광구근 포자를 추출합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/SeedsPlease.SeedDef[defName="BMT_GreyfieldsSeed"]/label</xpath>
+          <value>
+            <label>붉은주름버섯 포자</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="BMT_ExtractSeed_Greyfields"]/label</xpath>
+          <value>
+            <label>붉은주름버섯 포자 추출</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="BMT_ExtractSeed_Greyfields"]/description</xpath>
+          <value>
+            <description>붉은주름버섯 포자를 추출합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/SeedsPlease.SeedDef[defName="BMT_RoyalBracketSeed"]/label</xpath>
+          <value>
+            <label>왕실버섯 포자</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Brewing Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="BMT_BlendShimmersmoothie"]/label</xpath>
+          <value>
+            <label>쉬머 스무디 만들기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="BMT_BlendShimmersmoothie"]/description</xpath>
+          <value>
+            <description>쉬머버섯을 사용해 스무디를 만듭니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="BMT_BlendShimmersmoothie"]/jobString</xpath>
+          <value>
+            <jobString>스무디 만드는 중</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="BMT_Shimmersmoothie"]/label</xpath>
+          <value>
+            <label>쉬머 스무디</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="BMT_Shimmersmoothie"]/description</xpath>
+          <value>
+            <description>쉬머버섯의 은은한 맛을 유지하며 반짝이기까지 하는 스무디입니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Cooking Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="BMT_RoyalSauce"]/label</xpath>
+          <value>
+            <label>왕실 소스</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="BMT_RoyalSauce"]/description</xpath>
+          <value>
+            <description>왕실버섯을 끓여 풍미가 깊은 소스입니다. 어둠 속에서 생활하는 데 도움이 됩니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="BMT_RoyalSauce"]/label</xpath>
+          <value>
+            <label>왕실 소스 만들기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="BMT_RoyalSauce"]/description</xpath>
+          <value>
+            <description>왕실버섯을 끓여 풍미가 깊은 소스를 만듭니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="BMT_RoyalSauce"]/jobString</xpath>
+          <value>
+            <jobString>왕실 소스 만드는 중</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThoughtDef[defName="BMT_ConsumedRoyalSauce"]/stages/li[1]/label</xpath>
+          <value>
+            <label>왕실 소스 먹음</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThoughtDef[defName="BMT_ConsumedRoyalSauce"]/stages/li[1]/description</xpath>
+          <value>
+            <description>감칠맛이 풍부하고 짠맛이 진해.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BMT_ConsumedRoyalSauce"]/label</xpath>
+          <value>
+            <label>왕실 소스가 들어간 음식 먹음</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BMT_ConsumedRoyalSauce"]/description</xpath>
+          <value>
+            <description>풍미가 상당한걸.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Furniture Expanded - Architect</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="BMT_FineWoodenFloorMushroom"]/label</xpath>
+            <value>
+              <label>멋진 버섯 바닥</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="BMT_FineWoodenFloorMushroom"]/description</xpath>
+            <value>
+              <description>원칙을 굽히지 않고 만든 정교한 버섯 바닥으로, 경제적인 지위를 나타냅니다. 건설 속도가 느립니다.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+</Patch>
