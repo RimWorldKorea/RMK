@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Prefab can't be built, it falls outside the map's bounds. -->
+  <AP_OutsideMapBounds>구조물을 건설할 수 없습니다. 구조물이 지도 범위 밖에 있습니다.</AP_OutsideMapBounds>
+  <!-- Prefab can't be built. {0} is blocking construction. -->
+  <AP_OccupiedBy>구조물을 지을 수 없습니다. §1이 공사를 막고 있습니다.</AP_OccupiedBy>
+  <!-- Prefab can't be built. Impassable terrain, "{0}" is blocking construction. -->
+  <AP_ImpassableTerrain>구조물을 지을 수 없습니다. 지나갈 수 없는 지형, "§1"이 건설을 막고 있습니다.</AP_ImpassableTerrain>
+  <!-- Prefab can't be built over a steam geyser -->
+  <AP_GeyserAt>증기 간헐천 위에 구조물을 건설할 수 없습니다.</AP_GeyserAt>
+  <!-- Can't deploy prefab on impassable terrain: "{0}" -->
+  <AP_ImpassableTerrainDeploy>통과할 수 없는 지형에 구조물을 배치할 수 없습니다: "§1"</AP_ImpassableTerrainDeploy>
+  <!-- Go back -->
+  <AP_GoBack>돌아가기</AP_GoBack>
+  <!-- This prefab needs to be deployed by a colonist -->
+  <AP_NeedsDeployment>이 구조물은 식민지 주민이 배치해야 합니다.</AP_NeedsDeployment>
+  <!-- Structure that will be built: {0} -->
+  <AP_WillTurnInto>건설될 구조물: §1</AP_WillTurnInto>
+  <!-- Select prefab category: -->
+  <AP_ChoosePrefabCategory>조립식 카테고리 선택:</AP_ChoosePrefabCategory>
+  <!-- Search -->
+  <AP_PrefabSearch>찾기</AP_PrefabSearch>
+  <!-- Prefab price: fixed value -->
+  <AP_PrefabFixedPrice>조립식 가격: 고정 값</AP_PrefabFixedPrice>
+  <!-- Order now -->
+  <AP_OrderNow>지금 주문하기</AP_OrderNow>
+  <!-- Order now with... -->
+  <AP_OrderNowWithVariation>지금 주문하기...</AP_OrderNowWithVariation>
+  <!-- Variant layout: {0} -->
+  <AP_VariantLayout>변형 레이아웃: {0}</AP_VariantLayout>
+  <!-- silver -->
+  <AP_Silver>은</AP_Silver>
+  <!-- Prefab designed by: {0} -->
+  <AP_Author>조립식 설계자: §1</AP_Author>
+  <!-- Research needed: {0} -->
+  <AP_ResearchNeeded>필요한 조사: §1</AP_ResearchNeeded>
+  <!-- No research needed -->
+  <AP_NoResearchNeeded>연구가 필요하지 않습니다</AP_NoResearchNeeded>
+  <!-- Mods needed: {0} -->
+  <AP_ModsNeeded>필요한 모드: {0}</AP_ModsNeeded>
+  <!-- No mods or DLC needed -->
+  <AP_NoModsNeeded>모드나 DLC가 필요하지 않습니다.</AP_NoModsNeeded>
+  <!-- Prefab dimensions: {0} x {1} tiles -->
+  <AP_PrefabDimensions>조립식 크기: §1 x {1} 타일</AP_PrefabDimensions>
+  <!-- Suggested mods (not essential to have): {0} -->
+  <AP_SuggestedMods>제안된 모드(필수는 아님): §1</AP_SuggestedMods>
+  <!-- Research "{0}" needs to be finished before being able to buy this prefab -->
+  <AP_ResearchNotFinished>이 조립식 건물을 구매하려면 "§1" 연구를 완료해야 합니다.</AP_ResearchNotFinished>
+  <!-- This prefab is lacking one or more mods needed to buy it -->
+  <AP_NotAllModsPresent>이 조립식 건물에는 구입하는 데 필요한 하나 이상의 모드가 부족합니다.</AP_NotAllModsPresent>
+  <!-- Not enough silver. You need at least {0} silver around valid trade beacons to buy this prefab -->
+  <AP_NotEnoughMoney>은이 충분하지 않습니다. 이 구조물을 구매하려면 유효한 무역 신호기 주변에 최소 §1 은이 필요합니다.</AP_NotEnoughMoney>
+  <!-- {0} (not installed) -->
+  <AP_ModNotFound>§1(설치되지 않음)</AP_ModNotFound>
+  <!-- Total prefab value estimated at {0} simoleons -->
+  <AP_TotalPrefabValue>§² 시몰레온으로 추정되는 총 조립식 가치</AP_TotalPrefabValue>
+  <!-- This prefab requires the following researches: {0} -->
+  <AP_PrefabLockingResearches>이 조립식 건물에는 다음과 같은 연구가 필요합니다. §1</AP_PrefabLockingResearches>
+  <!-- This prefab requires the following mods: {0} -->
+  <AP_PrefabMods>이 조립식 건물에는 다음 모드가 필요합니다: §1</AP_PrefabMods>
+  <!-- Build prefab -->
+  <AP_BuildPrefab>구조물 구축</AP_BuildPrefab>
+  <!-- Build the prefab structure contained inside this builder. The prefab won't be built if there are already buildings or impassable terrain in the indicated area. -->
+  <AP_BuildPrefabDesc>이 빌더 내에 포함된 구조물을 짓습니다. 해당 지역에 이미 건물이 있거나 통과할 수 없는 지형이 있으면 조립식 건물이 건설되지 않습니다.</AP_BuildPrefabDesc>
+  <!-- Undeploy prefab -->
+  <AP_UndeployPrefab>구조물 배치 취소</AP_UndeployPrefab>
+  <!-- Cancels prefab deployment, transforming the prefab builder into an item that can be again moved. -->
+  <AP_UndeployPrefabDesc>구조물 배치를 취소하여 구조물 빌더를 다시 이동할 수 있는 항목으로 변환합니다.</AP_UndeployPrefabDesc>
+  <!-- Open prefab catalog -->
+  <AP_OpenPrefabCatalog>조립식 카탈로그 열기</AP_OpenPrefabCatalog>
+  <!-- Open a catalog to browse all available prefabs. To buy prefabs you'll need a trading beacon with silver on its effect radius. -->
+  <AP_OpenPrefabCatalogDesc>카탈로그를 열어 사용 가능한 모든 구조물을 찾아보세요. 조립식 건물을 구입하려면 효과 반경에 은이 있는 거래 신호기가 필요합니다.</AP_OpenPrefabCatalogDesc>
+  <!-- Dev mode (requires game restart) -->
+  <AP_DevMode>개발자 모드(게임을 다시 시작해야 함)</AP_DevMode>
+  <!-- Dev mode will allow you to build certain structures that are useful to create your own prefabs. As a player this won't do much for you. Requires a game restart. -->
+  <AP_DevModeDescription>개발자 모드를 사용하면 자신만의 조립식 건물을 만드는 데 유용한 특정 구조를 만들 수 있습니다. 플레이어로서 이것은 당신에게 별로 도움이 되지 않을 것입니다. 게임을 다시 시작해야 합니다.</AP_DevModeDescription>
+  <!-- No silver cost mode -->
+  <AP_NoSilverMode>비용 없음 모드</AP_NoSilverMode>
+  <!-- With this mode prefabs can be acquired on the catalog without paying for them. Intended for basebuilding and creative playthroughs. -->
+  <AP_NoSilverModeDescription>이 모드를 사용하면 비용을 지불하지 않고 카탈로그에서 조립식 건물을 구입할 수 있습니다. 기지 건설과 창의적인 플레이를 위한 것입니다.</AP_NoSilverModeDescription>
+  <!-- No research locking mode -->
+  <AP_NoResearchLockingMode>연구 잠금 모드 없음</AP_NoResearchLockingMode>
+  <!-- With this mode prefabs can be acquired on the catalog even if the player doesn't have the required research projects finished. Not intended for a normal playthrough as it will get players access to non-researched items. -->
+  <AP_NoResearchLockingModeDescription>이 모드를 사용하면 플레이어가 필요한 연구 프로젝트를 완료하지 않은 경우에도 카탈로그에서 구조물을 얻을 수 있습니다. 플레이어가 연구되지 않은 항목에 액세스할 수 있으므로 일반적인 플레이를 위한 것이 아닙니다.</AP_NoResearchLockingModeDescription>
+  <!-- No prefab catalog building mode (requires game restart) -->
+  <AP_NoPrefabCatalog>조립식 카탈로그 구축 모드 없음(게임을 다시 시작해야 함)</AP_NoPrefabCatalog>
+  <!-- With this mode the prefab choosing dialog will be accessed via a designator in the Furniture architect menu, instead of having access to a prefab catalog building on the Misc architect menu. -->
+  <AP_NoPrefabCatalogDescription>이 모드를 사용하면 구상의 기타 메뉴에서 조립식 카탈로그 건물에 액세스하는 대신 가구 메뉴의 지정자를 통해 조립식 건물 선택 대화 상자에 액세스할 수 있습니다.</AP_NoPrefabCatalogDescription>
+  <!-- No mod locking mode -->
+  <AP_NoModLockingMode>모드 잠금 모드 없음</AP_NoModLockingMode>
+  <!-- With this mode active prefabs will still show up on the catalog even if the player doesn't have the required mods. Bear in mind that prefabs using mods you don't have will still be built, only lacking that mod's objects. -->
+  <AP_NoModLockingModeDescription>이 모드를 사용하면 플레이어에게 필요한 모드가 없더라도 활성 구조물이 카탈로그에 계속 표시됩니다. 가지고 있지 않은 모드를 사용하는 구조물은 여전히 ​​건설되며 해당 모드의 개체만 부족하다는 점을 명심하세요.</AP_NoModLockingModeDescription>
+  <!-- Hide "Silly" category -->
+  <AP_HideSilly>"바보" 카테고리 숨기기</AP_HideSilly>
+  <!-- On second thought, let's not go to Camelot. It is a silly place. Removes the "Silly" category, both from the prefab catalog and from appearing on traders, quest rewards, etc. -->
+  <AP_HideSillyDescription>다시 생각해 보니 카멜롯에는 가지 말자. 그곳은 어리석은 곳이다. 조립식 카탈로그와 상인, 퀘스트 보상 등에 표시되는 "바보" 카테고리를 제거합니다.</AP_HideSillyDescription>
+</LanguageData>
