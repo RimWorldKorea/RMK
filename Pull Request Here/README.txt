@@ -23,3 +23,9 @@ GitHub를 통해서 번역 추가 및 수정을 하고 싶으신 분은 파일�
 	번역하고자 하는 부분이 해당 xlsx 파일에 기재된 노드를 수정하는 것 만으로 해결되는 경우 가능한 그렇게 해주시기 바랍니다.
 	수정한 내용을 색깔 등으로 표시해주면 더욱 좋습니다.
 	불필요하게 추출을 갱신하는 경우 기존 번역과 무엇이 다른지 확인하기 위한 검수 소요가 늘어나게 됩니다.
+
+
+[소통 창구]
+창작마당: https://steamcommunity.com/sharedfiles/filedetails/?id=3079466972
+GitHub: https://github.com/RimWorldKorea/RMK
+디스코드: https://discord.gg/5FdkKj2XUe
