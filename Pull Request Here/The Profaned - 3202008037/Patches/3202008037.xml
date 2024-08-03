@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Expanded Framework</li>
+    </mods>
+    <nomatch Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GeneDef[defName="BotchJob_RottingFleshBasic"]/label</xpath>
+          <value>
+            <label>썩어가는 살</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GeneDef[defName="BotchJob_RottingFleshBasic"]/labelShortAdj</xpath>
+          <value>
+            <labelShortAdj>썩어가는</labelShortAdj>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GeneDef[defName="BotchJob_RottingFleshBasic"]/description</xpath>
+          <value>
+            <description>이 유전자의 보유자는 회색과 초록색이 섞인 썩어가는 피부를 가지게 됩니다.</description>
+          </value>
+        </li>
+      </operations>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[LTS]Systems</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="BotchJob_ProfanedGate"]/label</xpath>
+          <value>
+            <label>불경한 성당 문</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="BotchJob_ProfanedGate"]/description</xpath>
+          <value>
+            <description>크고 아름다운 이중문입니다. 매우 견고하지만 무겁고 열기 힘듭니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

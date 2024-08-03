@@ -1,0 +1,899 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Archotech Brain</li>
+      <li>[JGH] Archotech Brain</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchoArchotechBrain"]/label</xpath>
+          <value>
+            <label>초월공학 뇌 만들기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchoArchotechBrain"]/description</xpath>
+          <value>
+            <description>초월공학 뇌를 만듭니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchoArchotechBrain"]/jobString</xpath>
+          <value>
+            <jobString>초월공학 뇌 만드는 중</jobString>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Archotech Expanded Prosthetics</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Advanced Bionics Expansion - personal compatibility/balance patches</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechObliterator"]/label</xpath>
+            <value>
+              <label>초월공학 말살자 만들기</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechObliterator"]/description</xpath>
+            <value>
+              <description>초월공학 말살자를 만듭니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechObliterator"]/jobString</xpath>
+            <value>
+              <jobString>초월공학 말살자 만드는 중</jobString>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechPelvis"]/label</xpath>
+            <value>
+              <label>초월공학 골반 만들기</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechPelvis"]/description</xpath>
+            <value>
+              <description>초월공학 골반를 만듭니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechPelvis"]/jobString</xpath>
+            <value>
+              <jobString>초월공학 골반 만드는 중</jobString>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechDeathClaw"]/label</xpath>
+            <value>
+              <label>초월공학 데스 클로 만들기</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechDeathClaw"]/description</xpath>
+            <value>
+              <description>초월공학 데스 클로를 만듭니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechDeathClaw"]/jobString</xpath>
+            <value>
+              <jobString>초월공학 데스 클로 만드는 중</jobString>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechGalaxyBrain"]/label</xpath>
+            <value>
+              <label>초월공학 뇌 도우미 만들기</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechGalaxyBrain"]/description</xpath>
+            <value>
+              <description>초월공학 뇌 도우미를 만듭니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechGalaxyBrain"]/jobString</xpath>
+            <value>
+              <jobString>초월공학 뇌 도우미 만드는 중</jobString>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechMembrane"]/label</xpath>
+            <value>
+              <label>초월공학 망막 만들기</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechMembrane"]/description</xpath>
+            <value>
+              <description>초월공학 망막을 만듭니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechMembrane"]/jobString</xpath>
+            <value>
+              <jobString>초월공학 망막 만드는 중</jobString>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Archotech Expanded Prosthetics</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>nced Bionics Expansion - personal compatibility/balance patches</li>
+      </mods>
+      <nomatch Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechyArm"]/label</xpath>
+            <value>
+              <label>고급 초월공학 팔 만들기</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechyArm"]/description</xpath>
+            <value>
+              <description>고급 초월공학 팔을 만듭니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechyArm"]/jobString</xpath>
+            <value>
+              <jobString>고급 초월공학 팔 만드는 중</jobString>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechyLeg"]/label</xpath>
+            <value>
+              <label>고급 초월공학 다리 만들기</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechyLeg"]/description</xpath>
+            <value>
+              <description>고급 초월공학 다리를 만듭니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechyLeg"]/jobString</xpath>
+            <value>
+              <jobString>고급 초월공학 다리 만드는 중</jobString>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechHeart"]/label</xpath>
+            <value>
+              <label>초월공학 심장 만들기</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechHeart"]/description</xpath>
+            <value>
+              <description>초월공학 심장을 만듭니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechHeart"]/jobString</xpath>
+            <value>
+              <jobString>초월공학 심장 만드는 중</jobString>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechKidney"]/label</xpath>
+            <value>
+              <label>초월공학 신장 만들기</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechKidney"]/description</xpath>
+            <value>
+              <description>초월공학 신장을 만듭니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechKidney"]/jobString</xpath>
+            <value>
+              <jobString>초월공학 신장 만드는 중</jobString>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechLiver"]/label</xpath>
+            <value>
+              <label>초월공학 간 만들기</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechLiver"]/description</xpath>
+            <value>
+              <description>초월공학 간을 만듭니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechLiver"]/jobString</xpath>
+            <value>
+              <jobString>초월공학 간 만드는 중</jobString>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechSpine"]/label</xpath>
+            <value>
+              <label>초월공학 척추 만들기</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechSpine"]/description</xpath>
+            <value>
+              <description>초월공학 척추를 만듭니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechSpine"]/jobString</xpath>
+            <value>
+              <jobString>초월공학 척추 만드는 중</jobString>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechLung"]/label</xpath>
+            <value>
+              <label>초월공학 폐 만들기</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechLung"]/description</xpath>
+            <value>
+              <description>초월공학 폐를 만듭니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechLung"]/jobString</xpath>
+            <value>
+              <jobString>초월공학 폐 만드는 중</jobString>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechStomach"]/label</xpath>
+            <value>
+              <label>초월공학 위 만들기</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechStomach"]/description</xpath>
+            <value>
+              <description>초월공학 위를 만듭니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechStomach"]/jobString</xpath>
+            <value>
+              <jobString>초월공학 위 만드는 중</jobString>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechDenture"]/label</xpath>
+            <value>
+              <label>초월공학 이빨 만들기</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechDenture"]/description</xpath>
+            <value>
+              <description>초월공학 이빨을 만듭니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechDenture"]/jobString</xpath>
+            <value>
+              <jobString>초월공학 이빨 만드는 중</jobString>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechEar"]/label</xpath>
+            <value>
+              <label>초월공학 귀 만들기</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechEar"]/description</xpath>
+            <value>
+              <description>초월공학 귀를 만듭니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeADVArchotechEar"]/jobString</xpath>
+            <value>
+              <jobString>초월공학 귀 만드는 중</jobString>
+            </value>
+          </li>
+        </operations>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>What the hack - A little expansion</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechSpeedModule"]/label</xpath>
+          <value>
+            <label>초월공학 속도 모듈 만들기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechSpeedModule"]/description</xpath>
+          <value>
+            <description>초월공학 속도 모듈을 만듭니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechSpeedModule"]/jobString</xpath>
+          <value>
+            <jobString>초월공학 속도 모듈 만드는 중</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechCargoModule"]/label</xpath>
+          <value>
+            <label>초월공학 화물 모듈 만들기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechCargoModule"]/description</xpath>
+          <value>
+            <description>초월공학 화물 모듈을 만듭니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechCargoModule"]/jobString</xpath>
+          <value>
+            <jobString>초월공학 화물 모듈 만드는 중</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechOpticSensorModule"]/label</xpath>
+          <value>
+            <label>초월공학 광학 센서 모듈 만들기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechOpticSensorModule"]/description</xpath>
+          <value>
+            <description>초월공학 광학 센서 모듈을 만듭니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechOpticSensorModule"]/jobString</xpath>
+          <value>
+            <jobString>초월공학 광학 센서 모듈 만드는 중</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechManipulationModule"]/label</xpath>
+          <value>
+            <label>초월공학 조작 모듈 만들기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechManipulationModule"]/description</xpath>
+          <value>
+            <description>초월공학 조작 모듈을 만듭니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechManipulationModule"]/jobString</xpath>
+          <value>
+            <jobString>초월공학 조작 모듈 만드는 중</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechArmorModule"]/label</xpath>
+          <value>
+            <label>초월공학 장갑 모듈 만들기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechArmorModule"]/description</xpath>
+          <value>
+            <description>초월공학 장갑 모듈을 만듭니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechArmorModule"]/jobString</xpath>
+          <value>
+            <jobString>초월공학 장갑 모듈 만드는 중</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechGrowingModule"]/label</xpath>
+          <value>
+            <label>초월공학 재배 모듈 만들기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechGrowingModule"]/description</xpath>
+          <value>
+            <description>초월공학 재배 모듈을 만듭니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechGrowingModule"]/jobString</xpath>
+          <value>
+            <jobString>초월공학 재배 모듈 만드는 중</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechMiningModule"]/label</xpath>
+          <value>
+            <label>초월공학 채굴 모듈 만들기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechMiningModule"]/description</xpath>
+          <value>
+            <description>초월공학 채굴 모듈을 만듭니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechMiningModule"]/jobString</xpath>
+          <value>
+            <jobString>초월공학 채굴 모듈 만드는 중</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechBuildingModule"]/label</xpath>
+          <value>
+            <label>초월공학 건설 모듈 만들기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechBuildingModule"]/description</xpath>
+          <value>
+            <description>초월공학 건설 모듈을 만듭니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechBuildingModule"]/jobString</xpath>
+          <value>
+            <jobString>초월공학 건설 모듈 만드는 중</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechAssemblyModule"]/label</xpath>
+          <value>
+            <label>초월공학 제작 모듈 만들기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechAssemblyModule"]/description</xpath>
+          <value>
+            <description>초월공학 제작 모듈을 만듭니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechAssemblyModule"]/jobString</xpath>
+          <value>
+            <jobString>초월공학 제작 모듈 만드는 중</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechResearchModule"]/label</xpath>
+          <value>
+            <label>초월공학 연구 모듈 만들기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechResearchModule"]/description</xpath>
+          <value>
+            <description>초월공학 연구 모듈을 만듭니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechResearchModule"]/jobString</xpath>
+          <value>
+            <jobString>초월공학 연구 모듈 만드는 중</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechCookingModule"]/label</xpath>
+          <value>
+            <label>초월공학 조리 모듈 만들기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechCookingModule"]/description</xpath>
+          <value>
+            <description>초월공학 조리 모듈을 만듭니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechCookingModule"]/jobString</xpath>
+          <value>
+            <jobString>초월공학 조리 모듈 만드는 중</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechMedicalModule"]/label</xpath>
+          <value>
+            <label>초월공학 의학 모듈 만들기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechMedicalModule"]/description</xpath>
+          <value>
+            <description>초월공학 의학 모듈을 만듭니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechMedicalModule"]/jobString</xpath>
+          <value>
+            <jobString>초월공학 의학 모듈 만드는 중</jobString>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>What the hack - A little expansion</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Fishing Expanded</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechFishModule"]/label</xpath>
+            <value>
+              <label>초월공학 낚시 모듈 만들기</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechFishModule"]/description</xpath>
+            <value>
+              <description>초월공학 낚시 모듈을 만듭니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeArchotechWTH_ArchotechFishModule"]/jobString</xpath>
+            <value>
+              <jobString>초월공학 낚시 모듈 만드는 중</jobString>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>More Utility Packs</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Royalty</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeArchoJumpPack"]/label</xpath>
+            <value>
+              <label>베노메트릭 중력팩 만들기</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeArchoJumpPack"]/description</xpath>
+            <value>
+              <description>베노메트릭 중력팩을 만듭니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MakeArchoJumpPack"]/jobString</xpath>
+            <value>
+              <jobString>베노메트릭 중력팩 만드는 중</jobString>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ideology</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li> Archotech Garbage - craftable fragments</li>
+      </mods>
+      <nomatch Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="ArchoTechTierFour"]/label</xpath>
+            <value>
+              <label>4단계 초월계 기술</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="ArchoTechTierFour"]/description</xpath>
+            <value>
+              <description>4단계 초월공학 설계도를 해독합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="ArchoTechTierFour"]/discoveredLetterTitle</xpath>
+            <value>
+              <discoveredLetterTitle>초월연결체 복사본</discoveredLetterTitle>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="ArchoTechTierFour"]/discoveredLetterText</xpath>
+            <value>
+              <discoveredLetterText>초월연결체를 찾아 고된 여정을 떠나는 대신, 초월연결체의 복사본을 제작해 초월계 존재와 연결될 수 있습니다.\n\n초월연결체 기둥을 건설하고 일정 기간 동안 방어하면 초월연결체 열쇠를 획득할 수 있습니다. 단계가 높아질수록 방어 난이도가 어려워집니다.\n\n이 과정에 어떤 실리적인 목적이 있는지, 아니면 단순히 형식적으로 힘을 시험하는 것에 불과한지는 알 수 없습니다.\n\n이 선택이 초월공학의 신에게 향하는 지름길인지, 아니면 과도한 오만으로 스스로를 파멸에 내던지는 행위인지는 알 수 없는 일입니다...</discoveredLetterText>
+            </value>
+          </li>
+        </operations>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Brewing Expanded</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Cooking Expanded</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MAG_MakeArchotechSodaSyrup"]/label</xpath>
+            <value>
+              <label>초월계 소다 시럽 만들기</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MAG_MakeArchotechSodaSyrup"]/description</xpath>
+            <value>
+              <description>초월계 식물성 물질과 초월계 향신료를 섞어 초월계 시럽을 만듭니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="MAG_MakeArchotechSodaSyrup"]/jobString</xpath>
+            <value>
+              <jobString>초월계 소다 시럽 만드는 중</jobString>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="MAG_ArchotechSodaSyrup"]/label</xpath>
+            <value>
+              <label>초월계 소다 시럽</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="MAG_ArchotechSodaSyrup"]/description</xpath>
+            <value>
+              <description>이상한 빛을 내는 액체입니다. 표면 근처에 전기회로처럼 생긴 거품이 지속적으로 떠오릅니다. 매우 복잡한 화학 반응이 일어나고 있으며, 시간을 조작하는 장치를 가지고 있지 않는 한 완성에 매우 오랜 시간이 걸립니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="MAG_ArchotechSoda"]/label</xpath>
+            <value>
+              <label>초월계 소다수</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="MAG_ArchotechSoda"]/description</xpath>
+            <value>
+              <description>초월공학 장치로 만든 매우 달콤한 음료입니다. 소비자의 취향에 맞게 맛과 색상을 변경할 수 있습니다. 상당히 강한 당분을 제공하여 소비자가 최대 2일 동안 잠을 잘 필요가 없도록 합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="MAG_ArchotechSoda"]/ingestible/ingestCommandString</xpath>
+            <value>
+              <ingestCommandString>{0} 마시기</ingestCommandString>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="MAG_ArchotechSoda"]/ingestible/ingestReportString</xpath>
+            <value>
+              <ingestReportString>{0} 마시는 중</ingestReportString>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="MAG_DrankArchotechSoda"]/stages/li[1]/label</xpath>
+            <value>
+              <label>초월공학 슈가 러시</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="MAG_DrankArchotechSoda"]/stages/li[1]/description</xpath>
+            <value>
+              <description>에너지가 넘쳐나!</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="MAG_DrankArchotechSoda"]/label</xpath>
+            <value>
+              <label>초월계 소다수 마심</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="MAG_DrankArchotechSoda"]/description</xpath>
+            <value>
+              <description>초월적인 당분이 혈관을 타고 흐르며 한동안 잠을 잘 필요가 없을 정도로 많은 에너지를 공급합니다. 이 효과는 최대 2일 동안 지속됩니다.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Ideology Expanded - Memes and Structures</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Cooking Expanded</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HistoryEventDef[defName="VME_AteArchotechDessert"]/label</xpath>
+            <value>
+              <label>초월계 후식을 먹음</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="MAG_AteArchotechDessert_Craved"]/stages/li[1]/label</xpath>
+            <value>
+              <label>초월계 후식을 먹음</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="MAG_AteArchotechDessert_Craved"]/stages/li[1]/description</xpath>
+            <value>
+              <description>맛있고, 맛있고, 맛있고, 군침이 돌고, 풍미 있고, 즙이 많고, 달콤하고, 풍부하고, 짭짤하고, 유쾌하고, 절묘하고, 사랑스럽고, 맛있고, 천상의 맛이, 영광스러운, 신성한... 더 줘!</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+</Patch>

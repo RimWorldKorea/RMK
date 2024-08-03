@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Persona Weapons Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VPWE_MeleeWeapon_PsyfocusStaffBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[16]/texName</xpath>
+          <value>
+            <texName>올빼미</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VPWE_MeleeWeapon_PsyfocusStaffBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[17]/texName</xpath>
+          <value>
+            <texName>까마귀</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VPWE_MeleeWeapon_PsyfocusStaffBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[18]/texName</xpath>
+          <value>
+            <texName>마른 콩</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VPWE_MeleeWeapon_PsyfocusStaffBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[19]/texName</xpath>
+          <value>
+            <texName>유령</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VPWE_MeleeWeapon_PsyfocusStaffBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[20]/texName</xpath>
+          <value>
+            <texName>마코스티모</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VPWE_MeleeWeapon_PsyfocusStaffBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[21]/texName</xpath>
+          <value>
+            <texName>클로버</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VPWE_MeleeWeapon_PsyfocusStaffBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[22]/texName</xpath>
+          <value>
+            <texName>플랩잭</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VPWE_MeleeWeapon_PsyfocusStaffBladelink"]/comps/li[7]/graphics/li[2]/texVariants/li[23]/texName</xpath>
+          <value>
+            <texName>황금 가드</texName>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VPWE_MeleeWeapon_PsyfocusStaffBladelink"]/comps/li[7]/graphics/li[3]/texVariants/li[16]/texName</xpath>
+          <value>
+            <texName>없음</texName>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
