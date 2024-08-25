@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PEShuttleCrash_Rescue.questContentRules.rulesStrings>
+    <li>failLetterEndingCommon-&gt;당신은 임무에 실패하였습니다 '[resolvedQuestName]'.</li>
+    <li>successLetterEndingCommon-&gt;당신은 임무를 성공적으로 완수하였습니다 '[resolvedQuestName]'.</li>
+    <li>goodwillSomeCiviliansLost-&gt;모든 [asker_faction_pawnSingular] [pawnLabel]을 구출할 수 없었습니다. [goodwillNegativelyAffected]</li>
+    <li>goodwillAllCiviliansLost-&gt;[asker_faction_pawnSingular] [pawnLabelPlural] 중 누구도 구출할 수 없었습니다. [goodwillNegativelyAffected]</li>
+    <li>goodwillNegativelyAffected-&gt;[asker_faction_name]에 대한 당신의 우호도는 남은 [pawnLabel]마다 부정적인 영향을 받습니다.</li>
+    <li>commanderLandingDesc-&gt;[asker_nameDef], 수송선 착륙을 요청한 지휘관 [asker_possessive] 수송선이 [map_definite]에 도착했습니다</li>
+    <li>raidArrivedLetterLabel-&gt;습격: [enemyFaction_name]</li>
+    <li>raidArrivedLetterText-&gt;[enemyFaction_name]에서 [enemyFaction_pawnsPlural]이 도착했습니다. 그들은 [map_definite]에 추락한 [asker_faction_pawnsPlural]을 공격할 것입니다.\n\n구조 수송선이 [rescueShuttleAfterRaidDelay_duration] 내에 도착할 때까지 [asker_faction_pawnsPlural]을 방어하세요.</li>
+    <li>rescueShuttleArrivedLetterLabel-&gt;구조 수송선 도착함</li>
+    <li>rescueShuttleArrivedLetterText-&gt;구조 수송선이 추락하여 착륙한 [pawnLabelSingleOrPlural]을 데리러 왔습니다. 수송선이 [leaveDelay_duration] 내에 출발하기 전에 다음 사람들을 수송선에 태워야 합니다:\n\n[civilians]</li>
+    <li>questCompletedSuccessLetterLabel-&gt;임무 완료됨: [resolvedQuestName]</li>
+    <li>questCompletedSuccessLetterText-&gt;[commanderLandingDesc],이 탈출에 성공했습니다. [asker_pronoun]은 [map_definite]에서 [asker_pronoun]이 받은 도움에 감사드립니다.\n\n[successLetterEndingCommon]</li>
+    <li>questCompletedCiviliansLostSuccessLetterLabel-&gt;임무 완료됨: [resolvedQuestName]</li>
+    <li>questCompletedCiviliansLostSuccessLetterText-&gt;[commanderLandingDesc],이 탈출에 성공했습니다.\n\n[goodwillSomeCiviliansLost]\n\n[successLetterEndingCommon]</li>
+    <li>askerLostLetterLabel-&gt;임무 실패: [resolvedQuestName]</li>
+    <li>askerLostLetterText-&gt;[commanderLandingDesc]은 수송선이 출발했을 때 탑승하지 못했습니다.\n\n[goodwillSomeCiviliansLost]\n\n[failLetterEndingCommon]</li>
+    <li>allLostLetterLabel-&gt;임무 실패: [resolvedQuestName]</li>
+    <li>allLostLetterText-&gt;추락한 [asker_faction_pawnsPlural]을 위한 구조 수송선이 탑승객 없이 출발했습니다.\n\n[goodwillAllCiviliansLost]\n\n[failLetterEndingCommon]</li>
+    <li>askerDiedLetterLabel-&gt;임무 실패: [resolvedQuestName]</li>
+    <li>askerDiedLetterText-&gt;[commanderLandingDesc]이 사망했습니다.\n\n[failLetterEndingCommon]</li>
+    <li>shuttleDestroyedLetterLabel-&gt;임무 실패: [resolvedQuestName]</li>
+    <li>shuttleDestroyedLetterText-&gt;추락한 [asker_faction_pawnsPlural]을 구조하기 위해 보낸 수송선이 파괴되었습니다. [asker_faction_pawnsPlural]은 이제 도보로 출발합니다.\n\n[failLetterEndingCommon]</li>
+  </PEShuttleCrash_Rescue.questContentRules.rulesStrings>
+</LanguageData>

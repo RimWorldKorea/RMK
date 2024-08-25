@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/FactionDef[defName="PhoenixEmpireFaction"]/li[1]/customLetterLabel</xpath>
+    <value>
+      <customLetterLabel>Phoenix Wave</customLetterLabel>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/FactionDef[defName="PhoenixEmpireFaction"]/li[1]/customLetterText</xpath>
+    <value>
+      <customLetterText>An assault group from the Phoenix Empire have dropped into the middle of your base!\n\nEscape or Die! </customLetterText>
+    </value>
+  </Operation>
+</Patch>
