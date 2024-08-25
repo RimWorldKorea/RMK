@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PEShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
+    <li>pawnLabelSingleOrPlural(civilians_count==1)-&gt;[pawnLabel]</li>
+    <li>pawnLabelSingleOrPlural(civilians_count&gt;=2)-&gt;[pawnLabelPlural]</li>
+    <li>questDescription-&gt;[asker_faction_name]의 수송선 편대가 근처의 [enemyFaction_name]과의 전투에서 심각한 피해를 입고 착륙할 장소를 찾고 있습니다. 그 편대의 지휘관 [asker_nameDef]은 [map_definite]에 착륙하기를 원합니다.\n\n편대를 공격한 [enemyFaction_name]의 [enemyFaction_pawnsPlural]이 그들을 추격하여 편대의 구성원을 죽이려고 할 것입니다. 당신은 그들을 방어해야 합니다.\n\n수송선 편대는 [asker_nameDef][andOtherCivilians]과 [soldierCountKinds]로 구성되어 있습니다. 지휘관 [andCivilians]은 구출해야 하지만, [soldiers0_kindPlural]은 희생될 수 있습니다.\n\n[rescueDelay_duration] 후에 구출 수송선이 생존자들을 태우러 올 것입니다. [leaveDelay_duration] 이내에 모든 인원을 탑승시켜야 합니다.</li>
+    <li>andOtherCivilians(civilians_count==1)-&gt;</li>
+    <li>andOtherCivilians(civilians_count==2)-&gt;, 과 [pawnLabel],</li>
+    <li>andOtherCivilians(civilians_count&gt;=3)-&gt;, [civilianCountMinusOne] 명의 [pawnLabelSingleOrPlural],</li>
+    <li>andCivilians(civilians_count==1)-&gt;</li>
+    <li>andCivilians(civilians_count==2)-&gt;과 [pawnLabel]</li>
+    <li>andCivilians(civilians_count&gt;=3)-&gt;과 [pawnLabelPlural]</li>
+    <li>soldierCountKinds(soldiers_count==1)-&gt;[soldiers_count] [soldiers0_kind]</li>
+    <li>soldierCountKinds(soldiers_count&gt;1)-&gt;[soldiers_count] [soldiers0_kindPlural]</li>
+  </PEShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
+</LanguageData>
