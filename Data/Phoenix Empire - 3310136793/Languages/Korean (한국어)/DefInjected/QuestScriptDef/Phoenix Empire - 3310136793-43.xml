@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PEEmpire_BaseAssault.questContentRules.rulesStrings>
+    <li>questDescriptionBeforeAccepted-&gt;[intro]</li>
+    <li>questDescriptionAfterAccepted-&gt;[empire_name]의 스파이가 수집한 정보에 따르면, 시설 내에 해킹해야 할 단말기가 5개 있을 것입니다. 이 시설은 겉보기에 파괴 불가능한 재료로 만들어졌으므로 근접 전투에 대비하는 것이 좋습니다.\n\n시설에는 귀중한 전리품이 있을 수 있지만, 정보에 따르면 [enemy_name] 군대가 정기적으로 시설을 방문하기 때문에 오래 머무르는 것은 좋지 않습니다.</li>
+    <li>intro(sameQuestsCount==0)-&gt;[empire_name]의 정보 기관이 [enemy_name]의 비밀 기지 위치를 발견했습니다. [empire_leader_nameFull], [empire_name] 의 [empire_leader_royalTitle0Def],는 시설에 침투하여 피닉스에 대한 정보를 수집해 달라고 요청합니다.\n\n초기 조사에 따르면 시설은 경비가 삼엄하고 [enemy_name] 병사 100명 이상이 거주하고 있습니다. 그러나 시설의 규모로 인해 너무 많은 주의를 끌지 않고 시설에 들어갈 수 있습니다.\n\n현재 [empire_name] 전대가 [enemy_name]과의 다른 전투에 참여하고 있으므로 처음에는 혼자 진행해야 합니다. 그러나 [empire_leader_label]은 임무가 예상보다 오래 걸릴 경우 지원을 약속합니다.</li>
+    <li>intro(sameQuestsCount&gt;=1)-&gt;이전의 실패 이후 [empire_name]의 정보 기관에서 [enemy_name] 소유의 새로운 비밀 기지를 발견했습니다. [empire_name]의 [empire_leader_nameFull], [empire_leader_royalTitle0Def]가 이 시설에 다시 침투하여 불사조에 대한 정보를 수집해 주시기를 요청합니다.</li>
+    <li>allTerminalsHackedMessage-&gt;모든 터미널을 해킹했고 불사조의 위치에 대한 비밀 정보를 발견했습니다! 이제 떠날 수 있습니다.</li>
+    <li>terminalHackedMessage-&gt;터미널 해킹됨. {COUNT} / [terminalCount]개 완료.</li>
+    <li>raidArrivedLetterLabel-&gt;[enemy_name] 분대</li>
+    <li>raidArrivedLetterText-&gt;[enemy_name] 의 [enemy_pawnsPlural] 이 시설에 도착했습니다!</li>
+  </PEEmpire_BaseAssault.questContentRules.rulesStrings>
+</LanguageData>
