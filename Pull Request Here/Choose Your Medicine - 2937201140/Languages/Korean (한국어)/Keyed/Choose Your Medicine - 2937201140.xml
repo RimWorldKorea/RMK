@@ -6,13 +6,13 @@
   <Kopp_CYM_ConfirmationOneTab>현재 페이지만 기본 설정으로 되돌리시겠습니까?</Kopp_CYM_ConfirmationOneTab>
   <Kopp_CYM_ConfirmationAllTabs>모든 페이지를 기본 설정으로 되돌리시겠습니까?\n\n참고: [수술 의약품 관리] 설정도 기본 설정으로 되돌아갑니다.\n\n모드 추가나 게임 업데이트로 새로운 질병/부상이 등장하면 추가하고, 더미데이터는 삭제합니다.</Kopp_CYM_ConfirmationAllTabs>
   <Kopp_CYM_RowEasyLabel>단순 치료 (질병)</Kopp_CYM_RowEasyLabel>
-  <Kopp_CYM_RowEasyTooltip>환자가 안전하면 단순 치료를 진행합니다.\n\n[항체 형성] &gt; [진행도+설정값]\n\n예: [항체 80%], [진행 54.9%]일 땐,\n설정값은 0%~25% 사이에 있어야\n단순 치료를 진행합니다.\n\n해당하지 않으면 의사는 [일반 치료]를 검토합니다.</Kopp_CYM_RowEasyTooltip>
+  <Kopp_CYM_RowEasyTooltip>환자가 안전하면 단순 치료를 진행합니다.\n\n[항체 형성] &gt; [진행도+설정값]\n\n예: [항체 80%], [진행 54.9%]일 땐,\n설정값이 0%~25% 사이에 있어야\n단순 치료를 진행합니다.\n\n해당하지 않으면 의사는 [일반 치료]를 검토합니다.</Kopp_CYM_RowEasyTooltip>
   <Kopp_CYM_RowStandardLabel>일반 치료</Kopp_CYM_RowStandardLabel>
   <Kopp_CYM_RowStandardTooltip>항체와 관련 없는 증상은 일반 치료로 진행합니다.\n\n참고: 항체와 관련한 질병이면,\n"초기-&gt;응급-&gt;단순-&gt;일반" 순으로 검토해보며 진행합니다.</Kopp_CYM_RowStandardTooltip>
   <Kopp_CYM_RowProblematicLabel>응급 치료 (질병)</Kopp_CYM_RowProblematicLabel>
-  <Kopp_CYM_RowProblematicTooltip>환자가 위험하면 응급 치료를 진행합니다.\n\n[항체 형성] &lt; [진행도+설정값]\n\n예: [항체 50%], [진행 45%]일 땐,\n설정값은 5%~100% 사이에 있어야\n응급 치료를 진행합니다.\n\n해당하지 않으면 의사는 [단순 치료]를 검토합니다.</Kopp_CYM_RowProblematicTooltip>
+  <Kopp_CYM_RowProblematicTooltip>환자가 위험하면 응급 치료를 진행합니다.\n\n[항체 형성] &lt; [진행도+설정값]\n\n예: [항체 50%], [진행 44.9%]일 땐,\n설정값이 5%~100% 사이에 있어야\n응급 치료를 진행합니다.\n\n해당하지 않으면 의사는 [단순 치료]를 검토합니다.</Kopp_CYM_RowProblematicTooltip>
   <Kopp_CYM_RowImmunityLabel>초기 치료 (질병)</Kopp_CYM_RowImmunityLabel>
-  <Kopp_CYM_RowImmunityTooltip>질병이 발생하면 초기 치료를 진행합니다.\n\n[항체 형성] &lt; [설정값]\n\n예: [항체 19.9%]일 땐,\n설정값은 20%~100% 사이에 있어야\n초기 치료를 진행합니다.\n\n해당하지 않으면 의사는 [응급 치료]를 검토합니다.</Kopp_CYM_RowImmunityTooltip>
+  <Kopp_CYM_RowImmunityTooltip>질병이 발생하면 초기 치료를 진행합니다.\n\n[항체 형성] &lt; [설정값]\n\n예: [항체 19.9%]일 땐,\n설정값이 20%~100% 사이에 있어야\n초기 치료를 진행합니다.\n\n해당하지 않으면 의사는 [응급 치료]를 검토합니다.</Kopp_CYM_RowImmunityTooltip>
   <Kopp_CYM_Copy>복사</Kopp_CYM_Copy>
   <Kopp_CYM_Paste>붙이기</Kopp_CYM_Paste>
   <Kopp_CYM_CopyWholePage>현재 페이지 복사</Kopp_CYM_CopyWholePage>
@@ -39,9 +39,9 @@
   <Kopp_CYM_ImprisonedColonistsTooltip>당신 세력에 소속한 정착민만 의미합니다.\n\n세력이 다른 수감자는 "중립 세력" &amp; "적대 세력"에서 설정하세요.</Kopp_CYM_ImprisonedColonistsTooltip>
   <Kopp_CYM_HelperWhichMedicine1>규칙 순서\n《1》 강제 지정:\n먼저, 플레이어가 건강 탭에서 환자의 증상마다 치료를 강제로 지정했는지를 확인합니다.\n\n건강 탭에서 증상의 상세정보(i) 바로 왼쪽에 위치한 흐릿한 박스를 클릭하면 사용할 최대 의약품을 강제로 지정할 수 있습니다.\n\n강제로 지정했다면, 모든 정책을 무시하고 선택한 대로 치료합니다.\n\n지정하지 않았다면, 현재 정책을 적용하기 위해 《2》로 진행합니다.</Kopp_CYM_HelperWhichMedicine1>
   <Kopp_CYM_HelperWhichMedicine2>《2》 초기 치료 :\n항체가 [초기 치료]보다 낮으면,\n지정한 의약품을 최대로 사용합니다.\n\n항체가 19.9%이고, [초기 치료]를 20%~100% 사이로 했다면, 의사는 초기 치료를 진행합니다.\n\n해당하지 않으면 《3》으로 진행합니다.</Kopp_CYM_HelperWhichMedicine2>
-  <Kopp_CYM_HelperWhichMedicine3>《3》 응급 치료 :\n항체가 [진행도+응급 치료]보다 낮으면,\n설정한 의약품을 최대로 사용합니다.\n\n항체가 50%이고 진행도가 45%이며,\n[응급 치료]를 5%~100% 사이로 했다면, 의사는 응급 치료를 진행합니다.\n\n해당하지 않으면 《4》로 진행합니다.</Kopp_CYM_HelperWhichMedicine3>
-  <Kopp_CYM_HelperWhichMedicine4>《4》 단순 치료 :\n항체가 [진행도+단순 치료]보다 높으면,\n설정한 의약품을 최대로 사용합니다.\n\n항체가 80%이고 진행도가 54.9%이며,\n[단순 치료]를 0%~25% 사이로 했다면, 의사는 단순 치료를 진행합니다.\n\n해당하지 않으면 《5》로 진행합니다.</Kopp_CYM_HelperWhichMedicine4>
-  <Kopp_CYM_HelperWhichMedicine5>《5》 일반 치료 :\n규칙에 해당하지 않거나, 항체와 관련 없으면 설정한 의약품을 최대로 사용합니다.</Kopp_CYM_HelperWhichMedicine5>
+  <Kopp_CYM_HelperWhichMedicine3>《3》 응급 치료 :\n항체가 [진행도+응급 치료]보다 낮으면,\n지정한 의약품을 최대로 사용합니다.\n\n항체가 50%이고 진행도가 44.9%이며,\n[응급 치료]를 5%~100% 사이로 했다면, 의사는 응급 치료를 진행합니다.\n\n해당하지 않으면 《4》로 진행합니다.</Kopp_CYM_HelperWhichMedicine3>
+  <Kopp_CYM_HelperWhichMedicine4>《4》 단순 치료 :\n항체가 [진행도+단순 치료]보다 높으면,\n지정한 의약품을 최대로 사용합니다.\n\n항체가 80%이고 진행도가 54.9%이며,\n[단순 치료]를 0%~25% 사이로 했다면, 의사는 단순 치료를 진행합니다.\n\n해당하지 않으면 《5》로 진행합니다.</Kopp_CYM_HelperWhichMedicine4>
+  <Kopp_CYM_HelperWhichMedicine5>《5》 일반 치료 :\n규칙에 해당하지 않거나, 항체와 관련 없으면 지정한 의약품을 최대로 사용합니다.</Kopp_CYM_HelperWhichMedicine5>
   <Kopp_CYM_HelperCopyPaste>[현재 페이지 복사]를 하더라도\n원하는 질병/부상만 골라서 붙이기도 가능합니다.\n\n참고: 내용이 아닌 경로를 복사합니다!\n\n예를들어 내용을 변경하고 붙이면,\n변경 사항이 함께 반영됩니다.</Kopp_CYM_HelperCopyPaste>
   <Kopp_CYM_HelperLeftButtons>설정 초기화: 현재 페이지나 모든 페이지들을 기본 설정으로 되돌릴 수 있습니다.\n\n데이터 갱신: 새롭게 모드를 추가하거나 제거한 경우 사용하시면 됩니다.\n\n수술 의약품 관리: 상황에 맞게 수술에 쓰일 의약품을 관리할 수 있습니다.</Kopp_CYM_HelperLeftButtons>
   <Kopp_CYM_HelperLabels>특정 질병/부상 명칭은\n동일한 이름으로 보입니다!\n\n이름에 마우스를 올려보면 쉽게 구별할 수 있습니다.\n\n동일한 이름이 거슬린다면 클릭하여 숨길 수도 있습니다.\n\n숨긴 항목은 맨 아래에 있는\n[숨겨진 질병/부상]을 클릭하면 나옵니다.\n(숨긴 게 없다면 안 나와요!)</Kopp_CYM_HelperLabels>
@@ -49,8 +49,8 @@
   <Kopp_CYM_TendUntilHediffGone>해당 증상은 선택한 대로 치료함</Kopp_CYM_TendUntilHediffGone>
   <Kopp_CYM_Clear>비워두기</Kopp_CYM_Clear>
   <Kopp_CYM_OperationsHeadline>수술 의약품 관리</Kopp_CYM_OperationsHeadline>
-  <Kopp_CYM_OperationsMaxCare>수술에 쓰일 의약품 제한</Kopp_CYM_OperationsMaxCare>
-  <Kopp_CYM_OperationsMaxCareTooltip>대상의 소속을 고려하여 어느 의약품을 수술에 최대로 허용할지 정합니다.\n\n참고: 대상의 개별 정책이 이 옵션보다 우선시 합니다.</Kopp_CYM_OperationsMaxCareTooltip>
+  <Kopp_CYM_OperationsMaxCare>수술에 쓰일 최대 의약품</Kopp_CYM_OperationsMaxCare>
+  <Kopp_CYM_OperationsMaxCareTooltip>대상의 소속을 고려하여 어느 의약품을 수술에 최대로 허용할지 정합니다.\n\n참고: 대상의 개인적인 약품 정책이 이 옵션을 제한할 수 있습니다.</Kopp_CYM_OperationsMaxCareTooltip>
   <Kopp_CYM_OperationsWorseMed>성공이 예상되면 낮은 의약품 사용</Kopp_CYM_OperationsWorseMed>
   <Kopp_CYM_OperationsWorseMedTooltip>대상의 수술 성공률이 최대로 예상된다면\n가능한 낮은 의약품을 사용합니다.\n\n참고: 림월드에서 수술 성공률은 98%가 최대입니다.</Kopp_CYM_OperationsWorseMedTooltip>
   <Kopp_CYM_OperationsOnlyWhenBestSuccess>전문적인 의사가 수술을 진행</Kopp_CYM_OperationsOnlyWhenBestSuccess>
@@ -63,6 +63,6 @@
   <Kopp_CYM_AmountMedicineCarry>정착민이 소지할 의약품 개수: </Kopp_CYM_AmountMedicineCarry>
   <Kopp_CYM_AmountMedicineCarryTooltip>정착민들이 평소에 들고다닐 의약품 수를 정할 수 있습니다.\n\n(기본값: 3)</Kopp_CYM_AmountMedicineCarryTooltip>
   <Kopp_CYM_TendingsSearchRange>의약품을 찾는 최대 범위: </Kopp_CYM_TendingsSearchRange>
-  <Kopp_CYM_TendingsSearchRangeTooltip>의사가 환자를 기준으로 의약품을 찾는 최대 범위를 정합니다.\n\n'-1'로 설정하면 맵 전체를 검색합니다\n\n(기본값: -1)</Kopp_CYM_TendingsSearchRangeTooltip>
+  <Kopp_CYM_TendingsSearchRangeTooltip>의사가 환자를 기준으로 주변에서 의약품을 찾는 최대 범위를 정합니다.\n\n'-1'로 설정하면 맵 전체를 검색합니다\n\n(기본값: -1)</Kopp_CYM_TendingsSearchRangeTooltip>
   <Kopp_CYM_ChooseYourMedicine>Choose Your Medicine</Kopp_CYM_ChooseYourMedicine>
 </LanguageData>
