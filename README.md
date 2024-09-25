@@ -16,7 +16,8 @@ RimWorld Mod Korean Project
   - [창작마당 페이지](https://steamcommunity.com/sharedfiles/filedetails/?id=3079466972)에 댓글 작성
   - [림월드 마이너 갤러리](https://gall.dcinside.com/rimworld)에서 제목 또는 내용에 <b>[RMK]</b>를 붙여 글 작성  
     (일상적인 언급을 제외하기 위해 대괄호가 없는 경우는 확인하지 않습니다.)  
-  - [디스코드](https://discord.gg/4Ycg35S2)에서 GitHub 관리자 호출
+  - [디스코드](https://discord.gg/5FdkKj2XUe)에서 GitHub 관리자 호출
+    (링크에 문제가 있을 경우 알려주시기 바랍니다.)
 
 그 외 별도의 연락 창구는 운영하지 않습니다.  
 진행 상황 등에 대한 안내 또한 별도로 하지 않으니 해당 [Issue](https://github.com/RimWorldKorea/RMK/issues)를 확인해주세요.  

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Ideology Expanded - Anima Theme</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/MemeDef[defName="AM_GauranlenSupremacy"]/label</xpath>
+					<value>
+						<label>나무지기 지상주의</label>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/MemeDef[defName="AM_GauranlenSupremacy"]/description</xpath>
+					<value>
+						<description>인류와 요정나무, 그리고 나무의 나무지기 사이의 공생 관계는 신성하다. 우리는 나무를 지키고 보살필 것이다. 그러면 그 대가로 우리의 정착지를 보호하는 데 도움을 줄 것이다.\n\n&lt;color=#E5E54C&gt;제한:&lt;/color&gt;\n - 이 가르침은 수목주의 혹은 부패주의 가르침을 선택한 경우에만 선택할 수 있습니다.\n\n&lt;color=#E5E54C&gt;게임 플레이 효과:&lt;/color&gt;\n - 정착지는 묶여있지 않은 나무지기 셋과 함께 시작합니다.</description>
+					</value>
+				</li>				
+			</operations>
+		</match>
+		<nomatch Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/MemeDef[defName="AM_GauranlenSupremacy"]/label</xpath>
+					<value>
+						<label>요정나무 지상주의</label>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/MemeDef[defName="AM_GauranlenSupremacy"]/description</xpath>
+					<value>
+						<description>인류와 요정나무, 그리고 나무의 나무지기 사이의 공생 관계는 신성하다. 우리는 나무를 지키고 보살필 것이다. 그러면 그 대가로 우리의 정착지를 보호하는 데 도움을 줄 것이다.\n\n&lt;color=#E5E54C&gt;제한:&lt;/color&gt;\n - 이 가르침은 수목주의 혹은 부패주의 가르침을 선택한 경우에만 선택할 수 있습니다.\n\n&lt;color=#E5E54C&gt;게임 플레이 효과:&lt;/color&gt;\n - 정착지는 묶여있지 않은 나무지기 셋과 함께 시작합니다.</description>
+					</value>
+				</li>				
+			</operations>
+		</nomatch>
+	</Operation>
+</Patch>
+

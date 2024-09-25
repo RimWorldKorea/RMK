@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PEEmpire_BaseAssault.questContentRules.rulesStrings>
+    <li>questDescriptionBeforeAccepted-&gt;[intro]</li>
+    <li>questDescriptionAfterAccepted-&gt;According to intelligence gathered by [empire_name]'s spies, there should be 5 terminals within the facility that you would have to hack. As the facility is made out of a seemingly indestructible material, it is recommended that you prepare for close quarters combat.\n\nWhile the facility may contain valuable loot, intelligence suggests that it is not a good idea to stay for long as groups of [enemy_name] troops regularly visit the facility. </li>
+    <li>intro(sameQuestsCount==0)-&gt;[empire_name]'s intelligence services have discovered the location of [enemy_name]'s secret base. [empire_leader_nameFull], [empire_leader_royalTitle0Def] of [empire_name],request that you fight infiltrate the facility and retrieve any information you can about The Phoenix.\n\nAccording to initial surveys, the facility is heavily guarded and houses over a hundred [enemy_name] soldiers. However, due to the size of the facility, it may be possible to enter the facility without drawing too much attention.\n\nAs [empire_name] squadrons are currently occupied in other battles against [enemy_name], you will have to proceed alone intially. However, [empire_leader_label] promises some backup if the mission takes longer than expected.</li>
+    <li>intro(sameQuestsCount&gt;=1)-&gt;After the previous failed attempt [empire_name]'s intelligence services have discovered a new secret base belonging to [enemy_name]. [empire_leader_nameFull], [empire_leader_royalTitle0Def] of [empire_name], request that you once again attempt to infiltrate this facility and retrieve any information you can about The Phoenix.</li>
+    <li>allTerminalsHackedMessage-&gt;You've hacked all of the terminals and discovered secret information about the location of The Phoenix! You can now leave.</li>
+    <li>terminalHackedMessage-&gt;Terminal hacked. {COUNT} / [terminalCount] complete.</li>
+    <li>raidArrivedLetterLabel-&gt;[enemy_name] Squad</li>
+    <li>raidArrivedLetterText-&gt;[enemy_pawnsPlural] from the [enemy_name] have arrived at the facility!</li>
+  </PEEmpire_BaseAssault.questContentRules.rulesStrings>
+</LanguageData>
