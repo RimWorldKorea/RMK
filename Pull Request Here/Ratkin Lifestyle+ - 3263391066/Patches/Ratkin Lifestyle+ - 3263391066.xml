@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RK_ApronSkirt_Child"]/label</xpath>
+          <value>
+            <label>아동용 랫킨 에이프런 스커트</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RK_ApronSkirt_Child"]/description</xpath>
+          <value>
+            <description>자라나는 어린이를 위한 앞치마가 달린 간단한 의류입니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RK_SisterDress_Child"]/label</xpath>
+          <value>
+            <label>아동용 랫킨 수녀복</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RK_SisterDress_Child"]/description</xpath>
+          <value>
+            <description>어린 수녀가 입는 단아한 원피스입니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RK_GaurdenUniform_Child"]/label</xpath>
+          <value>
+            <label>아동용 랫킨 정원사 의복</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RK_GaurdenUniform_Child"]/description</xpath>
+          <value>
+            <description>어린 정원 지킴이들이 입는 정장입니다. 약간의 방열 효과도 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RK_OrderUniform_Child"]/label</xpath>
+          <value>
+            <label>아동용 랫킨 제복</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RK_OrderUniform_Child"]/description</xpath>
+          <value>
+            <description>어린이를 위해 디자인된 제식 전투복입니다. \n\n이 옷을 입은 아이가 있다면,  상황이 매우 심각하다는 것을 의미합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RK_WinterRobe_Child"]/label</xpath>
+          <value>
+            <label>아동용 랫킨 겨울예복</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RK_WinterRobe_Child"]/description</xpath>
+          <value>
+            <description>어린이를 위해 디자인된 무거운 예복입니다. 매우 따뜻합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RK_BulletProofHelmet_Child"]/label</xpath>
+          <value>
+            <label>아동용 랫킨 방탄헬멧</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RK_BulletProofHelmet_Child"]/description</xpath>
+          <value>
+            <description>어린이를 위해 디자인된 방탄 모자입니다. \n\n이 헬멧을 쓴 아이가 있다면,  상황이 매우 심각하다는 것을 의미합니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
