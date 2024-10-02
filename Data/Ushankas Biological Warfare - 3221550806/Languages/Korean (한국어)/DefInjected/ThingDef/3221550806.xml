@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <USH_AntigensAnalyzer.label>항원 분석기</USH_AntigensAnalyzer.label>
+  <USH_AntigensAnalyzer.description>질병 표본을 분석하고 항원을 개발하기 위해 설계된 실험실 등급의 기계입니다. 작동하려면 샘플이 삽입되고 연구원이 필요합니다. 이 장치가 정상적으로 작동하려면 이전 항원 연구 요구 사항이 모두 충족되어야 합니다.</USH_AntigensAnalyzer.description>
+  <USH_BacteriaIncubator.label>박테리아 배양기</USH_BacteriaIncubator.label>
+  <USH_BacteriaIncubator.description>박테리아 군집을 배양하기 위해 설계된 실험실 기계입니다. 뉴트로아민을 연료로 사용하며, 작동하려면 박테리아 샘플이 필요합니다. 뉴트로아민 1개당 3개의 세균 병원체를 생산합니다. 전체 과정은 8시간 이내에 완료됩니다.</USH_BacteriaIncubator.description>
+  <USH_BacteriaIncubator.comps.4.jobString>활성화</USH_BacteriaIncubator.comps.4.jobString>
+  <USH_BacteriaIncubator.comps.4.onCooldownString>냉각 중</USH_BacteriaIncubator.comps.4.onCooldownString>
+  <USH_GasVentsController.label>가스 환기구 조작 패널</USH_GasVentsController.label>
+  <USH_GasVentsController.description>원격으로 병원체 가스 환기구를 활성화할 수 있는 조작 패널입니다. 작동시키려면 해당 환기구가 조작 패널과 동일한 전력망에 연결되어 있어야 합니다.</USH_GasVentsController.description>
+  <USH_GasVentsController.comps.CompGasVentsController.jobString>작동</USH_GasVentsController.comps.CompGasVentsController.jobString>
+  <USH_GasVentsController.comps.CompGasVentsController.onCooldownString>냉각 중</USH_GasVentsController.comps.CompGasVentsController.onCooldownString>
+  <USH_VirusReplicator.label>바이러스 복제기</USH_VirusReplicator.label>
+  <USH_VirusReplicator.description>질병 샘플에서 제공된 바이러스 DNA를 수정하기 위해 설계된 실험실 등급의 특수 기계입니다. 활성화되면, 밀폐되고 완전히 지붕이 있는 방 안에 있는 모든 생명체를 변형된 바이러스로 감염시키며, 그 병원체를 추출할 수 있는 방법을 제공합니다. 생명체로부터 얻을 수 있는 병원체의 양은 그 크기와 감염의 심각도에 따라 달라집니다. 종이 클수록 더 많은 병원체를 추출할 수 있습니다.\n\n동일한 방 안에 있는 모든 생명체는 복제기 주변의 작은 안전 구역에 머물거나 환경 독소 저항력이 80%를 초과하지 않는 한 감염됩니다.\n\n참고로, 우리 안에 있는 큰 길들인 생명체들은 바이러스 복제의 최적 대상입니다.</USH_VirusReplicator.description>
+  <USH_VirusReplicator.comps.3.jobString>작동</USH_VirusReplicator.comps.3.jobString>
+  <USH_VirusReplicator.comps.3.onCooldownString>냉각 중</USH_VirusReplicator.comps.3.onCooldownString>
+  <USH_FleshBreakerGas.label>{0} 가스</USH_FleshBreakerGas.label>
+  <USH_FleshBreakerGas.description>{0} 병원체 가스</USH_FleshBreakerGas.description>
+  <USH_FleshBreakerShell.label>{0} 가스탄</USH_FleshBreakerShell.label>
+  <USH_FleshBreakerShell.description>{0} 가스로 가득찬 포탄입니다. 박격포에서 발사할 수 있으며, 피해를 입으면 폭발해 근처 모두를 감염시킵니다.</USH_FleshBreakerShell.description>
+  <USH_FleshBreakerShellBullet.label>{0} 가스탄</USH_FleshBreakerShellBullet.label>
+  <USH_FleshBreakerShellBullet.description>{0} 가스탄</USH_FleshBreakerShellBullet.description>
+  <USH_FleshBreakerBarrel.label>{0} 가스 배럴</USH_FleshBreakerBarrel.label>
+  <USH_FleshBreakerBarrel.description>{0} 가스로 가득 찬 배럴. 총에 맞으면 폭발하여 주변 모든 생명체를 감염시키는 거대한 가스 폭발을 일으킵니다.</USH_FleshBreakerBarrel.description>
+  <USH_FleshBreakerVent.label>{0} 가스 환기구</USH_FleshBreakerVent.label>
+  <USH_FleshBreakerVent.description>벽에 장착된 환기구로, {0} 가스의 독성 화합물을 목표 지역에 방출할 수 있습니다.
+가스를 방출할 때마다 병원체를 소모하며, 정착지 주민에 의해 조작되어야 합니다.</USH_FleshBreakerVent.description>
+  <USH_FleshBreakerVent.comps.3.jobString>작동</USH_FleshBreakerVent.comps.3.jobString>
+  <USH_FleshBreakerVent.comps.3.onCooldownString>냉각 중</USH_FleshBreakerVent.comps.3.onCooldownString>
+  <USH_FleshBreakerMissileLauncher.label>{0} 가스 미사일 발사기</USH_FleshBreakerMissileLauncher.label>
+  <USH_FleshBreakerMissileLauncher.description>군용 {0} 가스 미사일 발사기로, 넓은 지역에 {0} 가스를 살포하는 미사일을 연속으로 발사합니다. 터렛은 누군가가 활성화하기 전까지 발사되지 않으며, 공성전에서는 매우 효과적이지만, 이동하는 목표에 대해서는 덜 효과적입니다. 단 한 번의 발사로 습격자들을 크게 약화 시킬 수 있으며, 어쩌면 사망에 이르게 할 수도 있습니다.\n\n사격통제장치 덕분에 장거리에서도 효과적입니다.\n\n발사 후, 몇 시간 동안 냉각이 필요하며, 다시 발사하기 위해서는 재장전이 필요합니다. 재장전은 대량의 {0} 병원체로 이루어집니다.</USH_FleshBreakerMissileLauncher.description>
+  <USH_FleshBreakerMissileLauncher.comps.5.fuelLabel>미사일</USH_FleshBreakerMissileLauncher.comps.5.fuelLabel>
+  <USH_FleshBreakerMissileLauncher.comps.5.fuelGizmoLabel>미사일</USH_FleshBreakerMissileLauncher.comps.5.fuelGizmoLabel>
+  <USH_FleshBreakerMissileLauncher.comps.5.outOfFuelMessage>미사일 없음</USH_FleshBreakerMissileLauncher.comps.5.outOfFuelMessage>
+  <USH_FleshBreakerMissileLauncher.comps.CompInteractableRocketswarmLauncher.jobString>작동</USH_FleshBreakerMissileLauncher.comps.CompInteractableRocketswarmLauncher.jobString>
+  <USH_FleshBreakerMissileLauncher.comps.CompInteractableRocketswarmLauncher.onCooldownString>냉각 중</USH_FleshBreakerMissileLauncher.comps.CompInteractableRocketswarmLauncher.onCooldownString>
+  <USH_FleshBreakerMissileLauncherTurret.label>미사일 발사관</USH_FleshBreakerMissileLauncherTurret.label>
+  <USH_FleshBreakerMissileLauncherTurret.description>보통 {0} 가스 미사일 발사기 터렛에 장착되는 유형의 미사일 발사관입니다.</USH_FleshBreakerMissileLauncherTurret.description>
+  <USH_FleshBreakerMissileLauncherTurret.verbs.Verb_Shoot.label>미사일 발사관</USH_FleshBreakerMissileLauncherTurret.verbs.Verb_Shoot.label>
+  <USH_FleshBreakerMissileBullet.label>{0} 가스 미사일</USH_FleshBreakerMissileBullet.label>
+  <USH_FleshBreakerGrenadeLauncher.label>{0} 가스 유탄 발사기</USH_FleshBreakerGrenadeLauncher.label>
+  <USH_FleshBreakerGrenadeLauncher.description>군용 {0} 가스 유탄 발사기로, 대 보병용으로 설계되었습니다.</USH_FleshBreakerGrenadeLauncher.description>
+  <USH_FleshBreakerGrenadeLauncher.tools.0.label>개머리판</USH_FleshBreakerGrenadeLauncher.tools.0.label>
+  <USH_FleshBreakerGrenadeLauncher.tools.1.label>총열</USH_FleshBreakerGrenadeLauncher.tools.1.label>
+  <USH_FleshBreakerGrenadeLauncher.verbs.Verb_Shoot.label>{0} 가스 유탄 발사기</USH_FleshBreakerGrenadeLauncher.verbs.Verb_Shoot.label>
+  <USH_FleshBreakerGrenadeBullet.label>{0} 가스 유탄</USH_FleshBreakerGrenadeBullet.label>
+  <USH_FleshBreakerGrenadeBullet.description>{0} 가스 유탄</USH_FleshBreakerGrenadeBullet.description>
+  <USH_FluSample.label>{0} 바이러스 표본</USH_FluSample.label>
+  <USH_FluSample.description>{0} 바이러스의 표본입니다. 바이러스 복제기의 연료로 사용되어 귀중한 {0} 병원체를 생산할 수 있습니다.\n\n {0}에 감염된 생명체에게 질병 표본추출기를 사용하거나, {0} 병원체를 사용하여 제작할 수 있습니다.</USH_FluSample.description>
+  <USH_FluPathogen.label>{0} 바이러스 병원체</USH_FluPathogen.label>
+  <USH_FluPathogen.description>{0} 바이러스 병원체는 생물학 무기 생산에 필수적인 재료입니다. 신선하고 사용 가능하게 유지하려면 실내에서 냉동 온도로 보관해야 합니다.</USH_FluPathogen.description>
+  <USH_FluVaccine.label>{0} 백신</USH_FluVaccine.label>
+  <USH_FluVaccine.description>신중하게 준비된 항원 혼합물을 담은 주사기입니다. 이 주사는 {0}에 걸리는 것을 8일 동안 예방하며, {0} 병원체 가스로부터 완전한 보호를 제공합니다.\n\n기존 감염을 치료하지는 않습니다.</USH_FluVaccine.description>
+  <USH_FluVaccine.ingestible.ingestCommandString>{0} 투여</USH_FluVaccine.ingestible.ingestCommandString>
+  <USH_FluVaccine.ingestible.ingestReportString>{0} 투여 중</USH_FluVaccine.ingestible.ingestReportString>
+  <USH_FluAntiserum.label>{0} 항혈청</USH_FluAntiserum.label>
+  <USH_FluAntiserum.description>첨단 기술로 강화된 고농도의 항체 혼합물로, 사용자의 혈류를 통해 빠르게 퍼집니다.
+복용 시 {0}를 즉시 치료합니다. 강력한 번화계 의약품 덕분에 매우 효과적입니다. </USH_FluAntiserum.description>
+  <USH_FluAntiserum.ingestible.ingestCommandString>{0} 투여</USH_FluAntiserum.ingestible.ingestCommandString>
+  <USH_FluAntiserum.ingestible.ingestReportString>{0} 투여 중</USH_FluAntiserum.ingestible.ingestReportString>
+  <USH_FluGas.label>{0} 가스</USH_FluGas.label>
+  <USH_FluGas.description>{0} 병원체 가스</USH_FluGas.description>
+  <USH_FluShell.label>{0} 가스탄</USH_FluShell.label>
+  <USH_FluShell.description>{0} 가스로 가득찬 포탄입니다. 박격포에서 발사할 수 있으며, 피해를 입으면 폭발해 근처 모두를 감염시킵니다.</USH_FluShell.description>
+  <USH_FluShellBullet.label>{0} 가스탄</USH_FluShellBullet.label>
+  <USH_FluShellBullet.description>{0} 가스탄</USH_FluShellBullet.description>
+  <USH_FluBarrel.label>{0} 가스 배럴</USH_FluBarrel.label>
+  <USH_FluBarrel.description>{0} 가스로 가득 찬 배럴. 총에 맞으면 폭발하여 주변 모든 생명체를 감염시키는 거대한 가스 폭발을 일으킵니다.</USH_FluBarrel.description>
+  <USH_FluVent.label>{0} 가스 환기구</USH_FluVent.label>
+  <USH_FluVent.description>벽에 장착된 환기구로, {0} 가스의 독성 화합물을 목표 지역에 방출할 수 있습니다.
+가스를 방출할 때마다 병원체를 소모하며, 정착지 주민에 의해 조작되어야 합니다.</USH_FluVent.description>
+  <USH_FluVent.comps.3.jobString>작동</USH_FluVent.comps.3.jobString>
+  <USH_FluVent.comps.3.onCooldownString>냉각 중</USH_FluVent.comps.3.onCooldownString>
+  <USH_FluMissileLauncher.label>{0} 가스 미사일 발사기</USH_FluMissileLauncher.label>
+  <USH_FluMissileLauncher.description>군용 {0} 가스 미사일 발사기로, 넓은 지역에 {0} 가스를 살포하는 미사일을 연속으로 발사합니다. 터렛은 누군가가 활성화하기 전까지 발사되지 않으며, 공성전에서는 매우 효과적이지만, 이동하는 목표에 대해서는 덜 효과적입니다. 단 한 번의 발사로 습격자들을 크게 약화 시킬 수 있으며, 어쩌면 사망에 이르게 할 수도 있습니다.\n\n사격통제장치 덕분에 장거리에서도 효과적입니다.\n\n발사 후, 몇 시간 동안 냉각이 필요하며, 다시 발사하기 위해서는 재장전이 필요합니다. 재장전은 대량의 {0} 병원체로 이루어집니다.</USH_FluMissileLauncher.description>
+  <USH_FluMissileLauncher.comps.5.fuelLabel>미사일</USH_FluMissileLauncher.comps.5.fuelLabel>
+  <USH_FluMissileLauncher.comps.5.fuelGizmoLabel>미사일</USH_FluMissileLauncher.comps.5.fuelGizmoLabel>
+  <USH_FluMissileLauncher.comps.5.outOfFuelMessage>미사일 없음</USH_FluMissileLauncher.comps.5.outOfFuelMessage>
+  <USH_FluMissileLauncher.comps.CompInteractableRocketswarmLauncher.jobString>작동</USH_FluMissileLauncher.comps.CompInteractableRocketswarmLauncher.jobString>
+  <USH_FluMissileLauncher.comps.CompInteractableRocketswarmLauncher.onCooldownString>냉각 중</USH_FluMissileLauncher.comps.CompInteractableRocketswarmLauncher.onCooldownString>
+  <USH_FluMissileLauncherTurret.label>미사일 발사관</USH_FluMissileLauncherTurret.label>
+  <USH_FluMissileLauncherTurret.description>보통 {0} 가스 미사일 발사기 터렛에 장착되는 유형의 미사일 발사관입니다.</USH_FluMissileLauncherTurret.description>
+  <USH_FluMissileLauncherTurret.verbs.Verb_Shoot.label>미사일 발사관</USH_FluMissileLauncherTurret.verbs.Verb_Shoot.label>
+  <USH_FluMissileBullet.label>{0} 가스 미사일</USH_FluMissileBullet.label>
+  <USH_FluGrenadeLauncher.label>{0} 가스 유탄 발사기</USH_FluGrenadeLauncher.label>
+  <USH_FluGrenadeLauncher.description>군용 {0} 가스 유탄 발사기로, 대 보병용으로 설계되었습니다.</USH_FluGrenadeLauncher.description>
+  <USH_FluGrenadeLauncher.tools.0.label>개머리판</USH_FluGrenadeLauncher.tools.0.label>
+  <USH_FluGrenadeLauncher.tools.1.label>총열</USH_FluGrenadeLauncher.tools.1.label>
+  <USH_FluGrenadeLauncher.verbs.Verb_Shoot.label>{0} 가스 유탄 발사기</USH_FluGrenadeLauncher.verbs.Verb_Shoot.label>
+  <USH_FluGrenadeBullet.label>{0} 가스 유탄</USH_FluGrenadeBullet.label>
+  <USH_FluGrenadeBullet.description>{0} 가스 유탄</USH_FluGrenadeBullet.description>
+  <USH_InfectionSample.label>{0} 박테리아 표본</USH_InfectionSample.label>
+  <USH_InfectionSample.description>{0} 박테리아의 표본입니다. 이 표본을 박테리아 배양기에 넣으면 다수의 {0} 병원체 군집으로 성장하며, 나중에 수확하여 생물학 병기 생산에 사용할 수 있습니다.\n\n {0}에 감염된 생명체에게 질병 표본추출기를 사용하거나, {0} 병원체를 사용하여 제작할 수 있습니다.</USH_InfectionSample.description>
+  <USH_InfectionPathogen.label>{0} 박테리아 병원체</USH_InfectionPathogen.label>
+  <USH_InfectionPathogen.description>{0} 박테리아 병원체는 생물학 무기 생산에 필수적인 재료입니다. 신선하고 사용 가능하게 유지하려면 실내에서 냉동 온도로 보관해야 합니다.</USH_InfectionPathogen.description>
+  <USH_InfectionVaccine.label>{0} 백신</USH_InfectionVaccine.label>
+  <USH_InfectionVaccine.description>신중하게 준비된 항원 혼합물을 담은 주사기입니다. 이 주사는 {0}에 걸리는 것을 8일 동안 예방하며, {0} 병원체 가스로부터 완전한 보호를 제공합니다.\n\n기존 감염을 치료하지는 않습니다.</USH_InfectionVaccine.description>
+  <USH_InfectionVaccine.ingestible.ingestCommandString>{0} 투여</USH_InfectionVaccine.ingestible.ingestCommandString>
+  <USH_InfectionVaccine.ingestible.ingestReportString>{0} 투여 중</USH_InfectionVaccine.ingestible.ingestReportString>
+  <USH_InfectionAntiserum.label>{0} 항혈청</USH_InfectionAntiserum.label>
+  <USH_InfectionAntiserum.description>첨단 기술로 강화된 고농도의 항체 혼합물로, 사용자의 혈류를 통해 빠르게 퍼집니다.
+복용 시 {0}를 즉시 치료합니다. 강력한 번화계 의약품 덕분에 매우 효과적입니다. </USH_InfectionAntiserum.description>
+  <USH_InfectionAntiserum.ingestible.ingestCommandString>{0} 투여</USH_InfectionAntiserum.ingestible.ingestCommandString>
+  <USH_InfectionAntiserum.ingestible.ingestReportString>{0} 투여 중</USH_InfectionAntiserum.ingestible.ingestReportString>
+  <USH_MalariaSample.label>{0} 기생충 표본</USH_MalariaSample.label>
+  <USH_MalariaSample.description>{0} 기생충 표본으로, 복용 후 독감 병원체를 생성하는 특수 번식 알약 생산에 사용될 수 있습니다.\n\n독감에 감염된 생명체에 질병 샘플러를 사용하거나, 독감 병원체로부터 제작할 수 있습니다.</USH_MalariaSample.description>
+  <USH_MalariaPathogen.label>{0} 기생충 병원체</USH_MalariaPathogen.label>
+  <USH_MalariaPathogen.description>{0} 기생충 병원체는 생물학 무기 생산에 필수적인 재료입니다. 신선하고 사용 가능하게 유지하려면 실내에서 냉동 온도로 보관해야 합니다.</USH_MalariaPathogen.description>
+  <USH_MalariaVaccine.label>{0} 백신</USH_MalariaVaccine.label>
+  <USH_MalariaVaccine.description>신중하게 준비된 항원 혼합물을 담은 주사기입니다. 이 주사는 {0}에 걸리는 것을 8일 동안 예방하며, {0} 병원체 가스로부터 완전한 보호를 제공합니다.\n\n기존 감염을 치료하지는 않습니다.</USH_MalariaVaccine.description>
+  <USH_MalariaVaccine.ingestible.ingestCommandString>{0} 투여</USH_MalariaVaccine.ingestible.ingestCommandString>
+  <USH_MalariaVaccine.ingestible.ingestReportString>{0} 투여 중</USH_MalariaVaccine.ingestible.ingestReportString>
+  <USH_MalariaAntiserum.label>{0} 항혈청</USH_MalariaAntiserum.label>
+  <USH_MalariaAntiserum.description>첨단 기술로 강화된 고농도의 항체 혼합물로, 사용자의 혈류를 통해 빠르게 퍼집니다.
+복용 시 {0}를 즉시 치료합니다. 강력한 번화계 의약품 덕분에 매우 효과적입니다. </USH_MalariaAntiserum.description>
+  <USH_MalariaAntiserum.ingestible.ingestCommandString>{0} 투여</USH_MalariaAntiserum.ingestible.ingestCommandString>
+  <USH_MalariaAntiserum.ingestible.ingestReportString>{0} 투여 중</USH_MalariaAntiserum.ingestible.ingestReportString>
+  <USH_MalariaReproductionPills.label>{0} 기생충 약</USH_MalariaReproductionPills.label>
+  <USH_MalariaReproductionPills.description>감염 능력을 강화시킨 {0} 기생충 배아를 포함한 약물.
+이 약물을 섭취하는 자는 살아있는 병원체 번식 기계로 변합니다. 숙주의 몸은 계속해서 {0} 병원체를 배출하며, 이 과정에서 내부 손상을 입습니다. 관리되지 않으면 결국 사망하게 되고, 적은 양의 병원체만 생산하게 될 겁니다.\n\n참고로, 덩치가 크고 길들여진 짐승들이 숙주로 가장 적합합니다.</USH_MalariaReproductionPills.description>
+  <USH_MalariaGas.label>{0} 가스</USH_MalariaGas.label>
+  <USH_MalariaGas.description>{0} 병원체 가스</USH_MalariaGas.description>
+  <USH_MalariaShell.label>{0} 가스탄</USH_MalariaShell.label>
+  <USH_MalariaShell.description>{0} 가스로 가득찬 포탄입니다. 박격포에서 발사할 수 있으며, 피해를 입으면 폭발해 근처 모두를 감염시킵니다.</USH_MalariaShell.description>
+  <USH_MalariaShellBullet.label>{0} 가스탄</USH_MalariaShellBullet.label>
+  <USH_MalariaShellBullet.description>{0} 가스탄</USH_MalariaShellBullet.description>
+  <USH_MalariaBarrel.label>{0} 가스 배럴</USH_MalariaBarrel.label>
+  <USH_MalariaBarrel.description>{0} 가스로 가득 찬 배럴. 총에 맞으면 폭발하여 주변 모든 생명체를 감염시키는 거대한 가스 폭발을 일으킵니다.</USH_MalariaBarrel.description>
+  <USH_MalariaVent.label>{0} 가스 환기구</USH_MalariaVent.label>
+  <USH_MalariaVent.description>벽에 장착된 환기구로, {0} 가스의 독성 화합물을 목표 지역에 방출할 수 있습니다.
+가스를 방출할 때마다 병원체를 소모하며, 정착지 주민에 의해 조작되어야 합니다.</USH_MalariaVent.description>
+  <USH_MalariaVent.comps.3.jobString>작동</USH_MalariaVent.comps.3.jobString>
+  <USH_MalariaVent.comps.3.onCooldownString>냉각 중</USH_MalariaVent.comps.3.onCooldownString>
+  <USH_MalariaMissileLauncher.label>{0} 가스 미사일 발사기</USH_MalariaMissileLauncher.label>
+  <USH_MalariaMissileLauncher.description>군용 {0} 가스 미사일 발사기로, 넓은 지역에 {0} 가스를 살포하는 미사일을 연속으로 발사합니다. 터렛은 누군가가 활성화하기 전까지 발사되지 않으며, 공성전에서는 매우 효과적이지만, 이동하는 목표에 대해서는 덜 효과적입니다. 단 한 번의 발사로 습격자들을 크게 약화 시킬 수 있으며, 어쩌면 사망에 이르게 할 수도 있습니다.\n\n사격통제장치 덕분에 장거리에서도 효과적입니다.\n\n발사 후, 몇 시간 동안 냉각이 필요하며, 다시 발사하기 위해서는 재장전이 필요합니다. 재장전은 대량의 {0} 병원체로 이루어집니다.</USH_MalariaMissileLauncher.description>
+  <USH_MalariaMissileLauncher.comps.5.fuelLabel>미사일</USH_MalariaMissileLauncher.comps.5.fuelLabel>
+  <USH_MalariaMissileLauncher.comps.5.fuelGizmoLabel>미사일</USH_MalariaMissileLauncher.comps.5.fuelGizmoLabel>
+  <USH_MalariaMissileLauncher.comps.5.outOfFuelMessage>미사일 없음</USH_MalariaMissileLauncher.comps.5.outOfFuelMessage>
+  <USH_MalariaMissileLauncher.comps.CompInteractableRocketswarmLauncher.jobString>작동</USH_MalariaMissileLauncher.comps.CompInteractableRocketswarmLauncher.jobString>
+  <USH_MalariaMissileLauncher.comps.CompInteractableRocketswarmLauncher.onCooldownString>냉각 중</USH_MalariaMissileLauncher.comps.CompInteractableRocketswarmLauncher.onCooldownString>
+  <USH_MalariaMissileLauncherTurret.label>미사일 발사관</USH_MalariaMissileLauncherTurret.label>
+  <USH_MalariaMissileLauncherTurret.description>보통 {0} 가스 미사일 발사기 터렛에 장착되는 유형의 미사일 발사관입니다.</USH_MalariaMissileLauncherTurret.description>
+  <USH_MalariaMissileLauncherTurret.verbs.Verb_Shoot.label>미사일 발사관</USH_MalariaMissileLauncherTurret.verbs.Verb_Shoot.label>
+  <USH_MalariaMissileBullet.label>{0} 가스 미사일</USH_MalariaMissileBullet.label>
+  <USH_MalariaGrenadeLauncher.label>{0} 가스 유탄 발사기</USH_MalariaGrenadeLauncher.label>
+  <USH_MalariaGrenadeLauncher.description>군용 {0} 가스 유탄 발사기로, 대 보병용으로 설계되었습니다.</USH_MalariaGrenadeLauncher.description>
+  <USH_MalariaGrenadeLauncher.tools.0.label>개머리판</USH_MalariaGrenadeLauncher.tools.0.label>
+  <USH_MalariaGrenadeLauncher.tools.1.label>총열</USH_MalariaGrenadeLauncher.tools.1.label>
+  <USH_MalariaGrenadeLauncher.verbs.Verb_Shoot.label>{0} 가스 유탄 발사기</USH_MalariaGrenadeLauncher.verbs.Verb_Shoot.label>
+  <USH_MalariaGrenadeBullet.label>{0} 가스 유탄</USH_MalariaGrenadeBullet.label>
+  <USH_MalariaGrenadeBullet.description>{0} 가스 유탄</USH_MalariaGrenadeBullet.description>
+  <USH_NecroaSample.label>{0} 초월공학 바이러스 표본</USH_NecroaSample.label>
+  <USH_NecroaSample.description>{0} 초월공학 바이러스의 표본입니다. 바이러스 복제기의 연료로 사용되어 귀중한 {0} 병원체를 생산할 수 있습니다.\n\n {0}에 감염된 생명체에게 질병 표본추출기를 사용하거나, {0} 병원체를 사용하여 제작할 수 있습니다.</USH_NecroaSample.description>
+  <USH_NecroaPathogen.label>{0} 초월공학 바이러스 병원체</USH_NecroaPathogen.label>
+  <USH_NecroaPathogen.description>{0} 초월공학 바이러스 병원체는 생물학 무기 생산에 필수적인 재료입니다. 신선하고 사용 가능하게 유지하려면 실내에서 냉동 온도로 보관해야 합니다.</USH_NecroaPathogen.description>
+  <USH_NecroaVaccine.label>{0} 백신</USH_NecroaVaccine.label>
+  <USH_NecroaVaccine.description>신중하게 준비된 항원 혼합물을 담은 주사기입니다. 이 주사는 {0}에 걸리는 것을 8일 동안 예방하며, {0} 병원체 가스로부터 완전한 보호를 제공합니다.\n\n기존 감염을 치료하지는 않습니다.</USH_NecroaVaccine.description>
+  <USH_NecroaVaccine.ingestible.ingestCommandString>{0} 투여</USH_NecroaVaccine.ingestible.ingestCommandString>
+  <USH_NecroaVaccine.ingestible.ingestReportString>{0} 투여 중</USH_NecroaVaccine.ingestible.ingestReportString>
+  <USH_NecroaAntiserum.label>{0} 항혈청</USH_NecroaAntiserum.label>
+  <USH_NecroaAntiserum.description>첨단 기술로 강화된 고농도의 항체 혼합물로, 사용자의 혈류를 통해 빠르게 퍼집니다.
+복용 시 {0}를 즉시 치료합니다. 강력한 번화계 의약품 덕분에 매우 효과적입니다. </USH_NecroaAntiserum.description>
+  <USH_NecroaAntiserum.ingestible.ingestCommandString>{0} 투여</USH_NecroaAntiserum.ingestible.ingestCommandString>
+  <USH_NecroaAntiserum.ingestible.ingestReportString>{0} 투여 중</USH_NecroaAntiserum.ingestible.ingestReportString>
+  <USH_NecroaGas.label>{0} 가스</USH_NecroaGas.label>
+  <USH_NecroaGas.description>{0} 병원체 가스</USH_NecroaGas.description>
+  <USH_NecroaShell.label>{0} 가스탄</USH_NecroaShell.label>
+  <USH_NecroaShell.description>{0} 가스로 가득찬 포탄입니다. 박격포에서 발사할 수 있으며, 피해를 입으면 폭발해 근처 모두를 감염시킵니다.</USH_NecroaShell.description>
+  <USH_NecroaShellBullet.label>{0} 가스탄</USH_NecroaShellBullet.label>
+  <USH_NecroaShellBullet.description>{0} 가스탄</USH_NecroaShellBullet.description>
+  <USH_NecroaBarrel.label>{0} 가스 배럴</USH_NecroaBarrel.label>
+  <USH_NecroaBarrel.description>{0} 가스로 가득 찬 배럴. 총에 맞으면 폭발하여 주변 모든 생명체를 감염시키는 거대한 가스 폭발을 일으킵니다.</USH_NecroaBarrel.description>
+  <USH_NecroaVent.label>{0} 가스 환기구</USH_NecroaVent.label>
+  <USH_NecroaVent.description>벽에 장착된 환기구로, {0} 가스의 독성 화합물을 목표 지역에 방출할 수 있습니다.
+가스를 방출할 때마다 병원체를 소모하며, 정착지 주민에 의해 조작되어야 합니다.</USH_NecroaVent.description>
+  <USH_NecroaVent.comps.3.jobString>작동</USH_NecroaVent.comps.3.jobString>
+  <USH_NecroaVent.comps.3.onCooldownString>냉각 중</USH_NecroaVent.comps.3.onCooldownString>
+  <USH_NecroaMissileLauncher.label>{0} 가스 미사일 발사기</USH_NecroaMissileLauncher.label>
+  <USH_NecroaMissileLauncher.description>군용 {0} 가스 미사일 발사기로, 넓은 지역에 {0} 가스를 살포하는 미사일을 연속으로 발사합니다. 터렛은 누군가가 활성화하기 전까지 발사되지 않으며, 공성전에서는 매우 효과적이지만, 이동하는 목표에 대해서는 덜 효과적입니다. 단 한 번의 발사로 습격자들을 크게 약화 시킬 수 있으며, 어쩌면 사망에 이르게 할 수도 있습니다.\n\n사격통제장치 덕분에 장거리에서도 효과적입니다.\n\n발사 후, 몇 시간 동안 냉각이 필요하며, 다시 발사하기 위해서는 재장전이 필요합니다. 재장전은 대량의 {0} 병원체로 이루어집니다.</USH_NecroaMissileLauncher.description>
+  <USH_NecroaMissileLauncher.comps.5.fuelLabel>미사일</USH_NecroaMissileLauncher.comps.5.fuelLabel>
+  <USH_NecroaMissileLauncher.comps.5.fuelGizmoLabel>미사일</USH_NecroaMissileLauncher.comps.5.fuelGizmoLabel>
+  <USH_NecroaMissileLauncher.comps.5.outOfFuelMessage>미사일 없음</USH_NecroaMissileLauncher.comps.5.outOfFuelMessage>
+  <USH_NecroaMissileLauncher.comps.CompInteractableRocketswarmLauncher.jobString>작동</USH_NecroaMissileLauncher.comps.CompInteractableRocketswarmLauncher.jobString>
+  <USH_NecroaMissileLauncher.comps.CompInteractableRocketswarmLauncher.onCooldownString>냉각 중</USH_NecroaMissileLauncher.comps.CompInteractableRocketswarmLauncher.onCooldownString>
+  <USH_NecroaMissileLauncherTurret.label>미사일 발사관</USH_NecroaMissileLauncherTurret.label>
+  <USH_NecroaMissileLauncherTurret.description>보통 {0} 가스 미사일 발사기 터렛에 장착되는 유형의 미사일 발사관입니다.</USH_NecroaMissileLauncherTurret.description>
+  <USH_NecroaMissileLauncherTurret.verbs.Verb_Shoot.label>미사일 발사관</USH_NecroaMissileLauncherTurret.verbs.Verb_Shoot.label>
+  <USH_NecroaMissileBullet.label>{0} 가스 미사일</USH_NecroaMissileBullet.label>
+  <USH_NecroaGrenadeLauncher.label>{0} 가스 유탄 발사기</USH_NecroaGrenadeLauncher.label>
+  <USH_NecroaGrenadeLauncher.description>군용 {0} 가스 유탄 발사기로, 대 보병용으로 설계되었습니다.</USH_NecroaGrenadeLauncher.description>
+  <USH_NecroaGrenadeLauncher.tools.0.label>개머리판</USH_NecroaGrenadeLauncher.tools.0.label>
+  <USH_NecroaGrenadeLauncher.tools.1.label>총열</USH_NecroaGrenadeLauncher.tools.1.label>
+  <USH_NecroaGrenadeLauncher.verbs.Verb_Shoot.label>{0} 가스 유탄 발사기</USH_NecroaGrenadeLauncher.verbs.Verb_Shoot.label>
+  <USH_NecroaGrenadeBullet.label>{0} 가스 유탄</USH_NecroaGrenadeBullet.label>
+  <USH_NecroaGrenadeBullet.description>{0} 가스 유탄</USH_NecroaGrenadeBullet.description>
+  <USH_PlagueSample.label>{0} 박테리아 표본</USH_PlagueSample.label>
+  <USH_PlagueSample.description>{0} 박테리아의 표본입니다. 박테리아 복제기의 연료로 사용되어 귀중한 {0} 병원체를 생산할 수 있습니다.\n\n {0}에 감염된 생명체에게 질병 표본추출기를 사용하거나, {0} 병원체를 사용하여 제작할 수 있습니다.</USH_PlagueSample.description>
+  <USH_PlaguePathogen.label>{0} 박테리아 병원체</USH_PlaguePathogen.label>
+  <USH_PlaguePathogen.description>{0} 박테리아 병원체는 생물학 무기 생산에 필수적인 재료입니다. 신선하고 사용 가능하게 유지하려면 실내에서 냉동 온도로 보관해야 합니다.</USH_PlaguePathogen.description>
+  <USH_PlagueVaccine.label>{0} 백신</USH_PlagueVaccine.label>
+  <USH_PlagueVaccine.description>신중하게 준비된 항원 혼합물을 담은 주사기입니다. 이 주사는 {0}에 걸리는 것을 8일 동안 예방하며, {0} 병원체 가스로부터 완전한 보호를 제공합니다.\n\n기존 감염을 치료하지는 않습니다.</USH_PlagueVaccine.description>
+  <USH_PlagueVaccine.ingestible.ingestCommandString>{0} 투여</USH_PlagueVaccine.ingestible.ingestCommandString>
+  <USH_PlagueVaccine.ingestible.ingestReportString>{0} 투여 중</USH_PlagueVaccine.ingestible.ingestReportString>
+  <USH_PlagueAntiserum.label>{0} 항혈청</USH_PlagueAntiserum.label>
+  <USH_PlagueAntiserum.description>첨단 기술로 강화된 고농도의 항체 혼합물로, 사용자의 혈류를 통해 빠르게 퍼집니다.
+복용 시 {0}를 즉시 치료합니다. 강력한 번화계 의약품 덕분에 매우 효과적입니다. </USH_PlagueAntiserum.description>
+  <USH_PlagueAntiserum.ingestible.ingestCommandString>{0} 투여</USH_PlagueAntiserum.ingestible.ingestCommandString>
+  <USH_PlagueAntiserum.ingestible.ingestReportString>{0} 투여 중</USH_PlagueAntiserum.ingestible.ingestReportString>
+  <USH_PlagueGas.label>{0} 가스</USH_PlagueGas.label>
+  <USH_PlagueGas.description>{0} 병원체 가스</USH_PlagueGas.description>
+  <USH_PlagueShell.label>{0} 가스탄</USH_PlagueShell.label>
+  <USH_PlagueShell.description>{0} 가스로 가득찬 포탄입니다. 박격포에서 발사할 수 있으며, 피해를 입으면 폭발해 근처 모두를 감염시킵니다.</USH_PlagueShell.description>
+  <USH_PlagueShellBullet.label>{0} 가스탄</USH_PlagueShellBullet.label>
+  <USH_PlagueShellBullet.description>{0} 가스탄</USH_PlagueShellBullet.description>
+  <USH_PlagueBarrel.label>{0} 가스 배럴</USH_PlagueBarrel.label>
+  <USH_PlagueBarrel.description>{0} 가스로 가득 찬 배럴. 총에 맞으면 폭발하여 주변 모든 생명체를 감염시키는 거대한 가스 폭발을 일으킵니다.</USH_PlagueBarrel.description>
+  <USH_PlagueVent.label>{0} 가스 환기구</USH_PlagueVent.label>
+  <USH_PlagueVent.description>벽에 장착된 환기구로, {0} 가스의 독성 화합물을 목표 지역에 방출할 수 있습니다.
+가스를 방출할 때마다 병원체를 소모하며, 정착지 주민에 의해 조작되어야 합니다.</USH_PlagueVent.description>
+  <USH_PlagueVent.comps.3.jobString>작동</USH_PlagueVent.comps.3.jobString>
+  <USH_PlagueVent.comps.3.onCooldownString>냉각 중</USH_PlagueVent.comps.3.onCooldownString>
+  <USH_PlagueMissileLauncher.label>{0} 가스 미사일 발사기</USH_PlagueMissileLauncher.label>
+  <USH_PlagueMissileLauncher.description>군용 {0} 가스 미사일 발사기로, 넓은 지역에 {0} 가스를 살포하는 미사일을 연속으로 발사합니다. 터렛은 누군가가 활성화하기 전까지 발사되지 않으며, 공성전에서는 매우 효과적이지만, 이동하는 목표에 대해서는 덜 효과적입니다. 단 한 번의 발사로 습격자들을 크게 약화 시킬 수 있으며, 어쩌면 사망에 이르게 할 수도 있습니다.\n\n사격통제장치 덕분에 장거리에서도 효과적입니다.\n\n발사 후, 몇 시간 동안 냉각이 필요하며, 다시 발사하기 위해서는 재장전이 필요합니다. 재장전은 대량의 {0} 병원체로 이루어집니다.</USH_PlagueMissileLauncher.description>
+  <USH_PlagueMissileLauncher.comps.5.fuelLabel>미사일</USH_PlagueMissileLauncher.comps.5.fuelLabel>
+  <USH_PlagueMissileLauncher.comps.5.fuelGizmoLabel>미사일</USH_PlagueMissileLauncher.comps.5.fuelGizmoLabel>
+  <USH_PlagueMissileLauncher.comps.5.outOfFuelMessage>미사일 없음</USH_PlagueMissileLauncher.comps.5.outOfFuelMessage>
+  <USH_PlagueMissileLauncher.comps.CompInteractableRocketswarmLauncher.jobString>작동</USH_PlagueMissileLauncher.comps.CompInteractableRocketswarmLauncher.jobString>
+  <USH_PlagueMissileLauncher.comps.CompInteractableRocketswarmLauncher.onCooldownString>냉각 중</USH_PlagueMissileLauncher.comps.CompInteractableRocketswarmLauncher.onCooldownString>
+  <USH_PlagueMissileLauncherTurret.label>미사일 발사관</USH_PlagueMissileLauncherTurret.label>
+  <USH_PlagueMissileLauncherTurret.description>보통 {0} 가스 미사일 발사기 터렛에 장착되는 유형의 미사일 발사관입니다.</USH_PlagueMissileLauncherTurret.description>
+  <USH_PlagueMissileLauncherTurret.verbs.Verb_Shoot.label>미사일 발사관</USH_PlagueMissileLauncherTurret.verbs.Verb_Shoot.label>
+  <USH_PlagueMissileBullet.label>{0} 가스 미사일</USH_PlagueMissileBullet.label>
+  <USH_PlagueGrenadeLauncher.label>{0} 가스 유탄 발사기</USH_PlagueGrenadeLauncher.label>
+  <USH_PlagueGrenadeLauncher.description>군용 {0} 가스 유탄 발사기로, 대 보병용으로 설계되었습니다.</USH_PlagueGrenadeLauncher.description>
+  <USH_PlagueGrenadeLauncher.tools.0.label>개머리판</USH_PlagueGrenadeLauncher.tools.0.label>
+  <USH_PlagueGrenadeLauncher.tools.1.label>총열</USH_PlagueGrenadeLauncher.tools.1.label>
+  <USH_PlagueGrenadeLauncher.verbs.Verb_Shoot.label>{0} 가스 유탄 발사기</USH_PlagueGrenadeLauncher.verbs.Verb_Shoot.label>
+  <USH_PlagueGrenadeBullet.label>{0} 가스 유탄</USH_PlagueGrenadeBullet.label>
+  <USH_PlagueGrenadeBullet.description>{0} 가스 유탄</USH_PlagueGrenadeBullet.description>
+  <USH_ScariaSample.label>{0} 바이러스 표본</USH_ScariaSample.label>
+  <USH_ScariaSample.description>{0} 바이러스의 표본입니다. 바이러스 복제기의 연료로 사용되어 귀중한 {0} 병원체를 생산할 수 있습니다.\n\n {0}에 감염된 생명체에게 질병 표본추출기를 사용하거나, {0} 병원체를 사용하여 제작할 수 있습니다.</USH_ScariaSample.description>
+  <USH_ScariaPathogen.label>{0} 바이러스 병원체</USH_ScariaPathogen.label>
+  <USH_ScariaPathogen.description>{0} 바이러스 병원체는 생물학 무기 생산에 필수적인 재료입니다. 신선하고 사용 가능하게 유지하려면 실내에서 냉동 온도로 보관해야 합니다.</USH_ScariaPathogen.description>
+  <USH_ScariaVaccine.label>{0} 백신</USH_ScariaVaccine.label>
+  <USH_ScariaVaccine.description>신중하게 준비된 항원 혼합물을 담은 주사기입니다. 이 주사는 {0}에 걸리는 것을 8일 동안 예방하며, {0} 병원체 가스로부터 완전한 보호를 제공합니다.\n\n기존 감염을 치료하지는 않습니다.</USH_ScariaVaccine.description>
+  <USH_ScariaVaccine.ingestible.ingestCommandString>{0} 투여</USH_ScariaVaccine.ingestible.ingestCommandString>
+  <USH_ScariaVaccine.ingestible.ingestReportString>{0} 투여 중</USH_ScariaVaccine.ingestible.ingestReportString>
+  <USH_ScariaAntiserum.label>{0} 항혈청</USH_ScariaAntiserum.label>
+  <USH_ScariaAntiserum.description>첨단 기술로 강화된 고농도의 항체 혼합물로, 사용자의 혈류를 통해 빠르게 퍼집니다.
+복용 시 {0}를 즉시 치료합니다. 강력한 번화계 의약품 덕분에 매우 효과적입니다. </USH_ScariaAntiserum.description>
+  <USH_ScariaAntiserum.ingestible.ingestCommandString>{0} 투여</USH_ScariaAntiserum.ingestible.ingestCommandString>
+  <USH_ScariaAntiserum.ingestible.ingestReportString>{0} 투여 중</USH_ScariaAntiserum.ingestible.ingestReportString>
+  <USH_ScariaGas.label>{0} 가스</USH_ScariaGas.label>
+  <USH_ScariaGas.description>{0} 병원체 가스</USH_ScariaGas.description>
+  <USH_ScariaShell.label>{0} 가스탄</USH_ScariaShell.label>
+  <USH_ScariaShell.description>{0} 가스로 가득찬 포탄입니다. 박격포에서 발사할 수 있으며, 피해를 입으면 폭발해 근처 모두를 감염시킵니다.</USH_ScariaShell.description>
+  <USH_ScariaShellBullet.label>{0} 가스탄</USH_ScariaShellBullet.label>
+  <USH_ScariaShellBullet.description>{0} 가스탄</USH_ScariaShellBullet.description>
+  <USH_ScariaBarrel.label>{0} 가스 배럴</USH_ScariaBarrel.label>
+  <USH_ScariaBarrel.description>{0} 가스로 가득 찬 배럴. 총에 맞으면 폭발하여 주변 모든 생명체를 감염시키는 거대한 가스 폭발을 일으킵니다.</USH_ScariaBarrel.description>
+  <USH_ScariaVent.label>{0} 가스 환기구</USH_ScariaVent.label>
+  <USH_ScariaVent.description>벽에 장착된 환기구로, {0} 가스의 독성 화합물을 목표 지역에 방출할 수 있습니다.
+가스를 방출할 때마다 병원체를 소모하며, 정착지 주민에 의해 조작되어야 합니다.</USH_ScariaVent.description>
+  <USH_ScariaVent.comps.3.jobString>작동</USH_ScariaVent.comps.3.jobString>
+  <USH_ScariaVent.comps.3.onCooldownString>냉각 중</USH_ScariaVent.comps.3.onCooldownString>
+  <USH_ScariaMissileLauncher.label>{0} 가스 미사일 발사기</USH_ScariaMissileLauncher.label>
+  <USH_ScariaMissileLauncher.description>군용 {0} 가스 미사일 발사기로, 넓은 지역에 {0} 가스를 살포하는 미사일을 연속으로 발사합니다. 터렛은 누군가가 활성화하기 전까지 발사되지 않으며, 공성전에서는 매우 효과적이지만, 이동하는 목표에 대해서는 덜 효과적입니다. 단 한 번의 발사로 습격자들을 크게 약화 시킬 수 있으며, 어쩌면 사망에 이르게 할 수도 있습니다.\n\n사격통제장치 덕분에 장거리에서도 효과적입니다.\n\n발사 후, 몇 시간 동안 냉각이 필요하며, 다시 발사하기 위해서는 재장전이 필요합니다. 재장전은 대량의 {0} 병원체로 이루어집니다.</USH_ScariaMissileLauncher.description>
+  <USH_ScariaMissileLauncher.comps.5.fuelLabel>미사일</USH_ScariaMissileLauncher.comps.5.fuelLabel>
+  <USH_ScariaMissileLauncher.comps.5.fuelGizmoLabel>미사일</USH_ScariaMissileLauncher.comps.5.fuelGizmoLabel>
+  <USH_ScariaMissileLauncher.comps.5.outOfFuelMessage>미사일 없음</USH_ScariaMissileLauncher.comps.5.outOfFuelMessage>
+  <USH_ScariaMissileLauncher.comps.CompInteractableRocketswarmLauncher.jobString>작동</USH_ScariaMissileLauncher.comps.CompInteractableRocketswarmLauncher.jobString>
+  <USH_ScariaMissileLauncher.comps.CompInteractableRocketswarmLauncher.onCooldownString>냉각 중</USH_ScariaMissileLauncher.comps.CompInteractableRocketswarmLauncher.onCooldownString>
+  <USH_ScariaMissileLauncherTurret.label>미사일 발사관</USH_ScariaMissileLauncherTurret.label>
+  <USH_ScariaMissileLauncherTurret.description>보통 {0} 가스 미사일 발사기 터렛에 장착되는 유형의 미사일 발사관입니다.</USH_ScariaMissileLauncherTurret.description>
+  <USH_ScariaMissileLauncherTurret.verbs.Verb_Shoot.label>미사일 발사관</USH_ScariaMissileLauncherTurret.verbs.Verb_Shoot.label>
+  <USH_ScariaMissileBullet.label>{0} 가스 미사일</USH_ScariaMissileBullet.label>
+  <USH_ScariaGrenadeLauncher.label>{0} 가스 유탄 발사기</USH_ScariaGrenadeLauncher.label>
+  <USH_ScariaGrenadeLauncher.description>군용 {0} 가스 유탄 발사기로, 대 보병용으로 설계되었습니다.</USH_ScariaGrenadeLauncher.description>
+  <USH_ScariaGrenadeLauncher.tools.0.label>개머리판</USH_ScariaGrenadeLauncher.tools.0.label>
+  <USH_ScariaGrenadeLauncher.tools.1.label>총열</USH_ScariaGrenadeLauncher.tools.1.label>
+  <USH_ScariaGrenadeLauncher.verbs.Verb_Shoot.label>{0} 가스 유탄 발사기</USH_ScariaGrenadeLauncher.verbs.Verb_Shoot.label>
+  <USH_ScariaGrenadeBullet.label>{0} 가스 유탄</USH_ScariaGrenadeBullet.label>
+  <USH_ScariaGrenadeBullet.description>{0} 가스 유탄</USH_ScariaGrenadeBullet.description>
+  <USH_SleepingSicknessSample.label>{0} 기생충 표본</USH_SleepingSicknessSample.label>
+  <USH_SleepingSicknessSample.description>{0} 기생충 표본으로, 복용 후 독감 병원체를 생성하는 특수 번식 알약 생산에 사용될 수 있습니다.\n\n독감에 감염된 생명체에 질병 샘플러를 사용하거나, 독감 병원체로부터 제작할 수 있습니다.</USH_SleepingSicknessSample.description>
+  <USH_SleepingSicknessPathogen.label>{0} 기생충 병원체</USH_SleepingSicknessPathogen.label>
+  <USH_SleepingSicknessPathogen.description>{0} 기생충 병원체는 생물학 무기 생산에 필수적인 재료입니다. 신선하고 사용 가능하게 유지하려면 실내에서 냉동 온도로 보관해야 합니다.</USH_SleepingSicknessPathogen.description>
+  <USH_SleepingSicknessVaccine.label>{0} 백신</USH_SleepingSicknessVaccine.label>
+  <USH_SleepingSicknessVaccine.description>신중하게 준비된 항원 혼합물을 담은 주사기입니다. 이 주사는 {0}에 걸리는 것을 8일 동안 예방하며, {0} 병원체 가스로부터 완전한 보호를 제공합니다.\n\n기존 감염을 치료하지는 않습니다.</USH_SleepingSicknessVaccine.description>
+  <USH_SleepingSicknessVaccine.ingestible.ingestCommandString>{0} 투여</USH_SleepingSicknessVaccine.ingestible.ingestCommandString>
+  <USH_SleepingSicknessVaccine.ingestible.ingestReportString>{0} 투여 중</USH_SleepingSicknessVaccine.ingestible.ingestReportString>
+  <USH_SleepingSicknessAntiserum.label>{0} 항혈청</USH_SleepingSicknessAntiserum.label>
+  <USH_SleepingSicknessAntiserum.description>첨단 기술로 강화된 고농도의 항체 혼합물로, 사용자의 혈류를 통해 빠르게 퍼집니다.
+복용 시 {0}를 즉시 치료합니다. 강력한 번화계 의약품 덕분에 매우 효과적입니다. </USH_SleepingSicknessAntiserum.description>
+  <USH_SleepingSicknessAntiserum.ingestible.ingestCommandString>{0} 투여</USH_SleepingSicknessAntiserum.ingestible.ingestCommandString>
+  <USH_SleepingSicknessAntiserum.ingestible.ingestReportString>{0} 투여 중</USH_SleepingSicknessAntiserum.ingestible.ingestReportString>
+  <USH_SleepingSicknessReproductionPills.label>{0} 기생충 약</USH_SleepingSicknessReproductionPills.label>
+  <USH_SleepingSicknessReproductionPills.description>감염 능력을 강화시킨 {0} 기생충 배아를 포함한 약물.
+이 약물을 섭취하는 자는 살아있는 병원체 번식 기계로 변합니다. 숙주의 몸은 계속해서 {0} 병원체를 배출하며, 이 과정에서 내부 손상을 입습니다. 관리되지 않으면 결국 사망하게 되고, 적은 양의 병원체만 생산하게 될 겁니다.\n\n참고로, 덩치가 크고 길들여진 짐승들이 숙주로 가장 적합합니다.</USH_SleepingSicknessReproductionPills.description>
+  <USH_SleepingSicknessGas.label>{0} 가스</USH_SleepingSicknessGas.label>
+  <USH_SleepingSicknessGas.description>{0} 병원체 가스</USH_SleepingSicknessGas.description>
+  <USH_SleepingSicknessShell.label>{0} 가스탄</USH_SleepingSicknessShell.label>
+  <USH_SleepingSicknessShell.description>{0} 가스로 가득찬 포탄입니다. 박격포에서 발사할 수 있으며, 피해를 입으면 폭발해 근처 모두를 감염시킵니다.</USH_SleepingSicknessShell.description>
+  <USH_SleepingSicknessShellBullet.label>{0} 가스탄</USH_SleepingSicknessShellBullet.label>
+  <USH_SleepingSicknessShellBullet.description>{0} 가스탄</USH_SleepingSicknessShellBullet.description>
+  <USH_SleepingSicknessBarrel.label>{0} 가스 배럴</USH_SleepingSicknessBarrel.label>
+  <USH_SleepingSicknessBarrel.description>{0} 가스로 가득 찬 배럴. 총에 맞으면 폭발하여 주변 모든 생명체를 감염시키는 거대한 가스 폭발을 일으킵니다.</USH_SleepingSicknessBarrel.description>
+  <USH_SleepingSicknessVent.label>{0} 가스 환기구</USH_SleepingSicknessVent.label>
+  <USH_SleepingSicknessVent.description>벽에 장착된 환기구로, {0} 가스의 독성 화합물을 목표 지역에 방출할 수 있습니다.
+가스를 방출할 때마다 병원체를 소모하며, 정착지 주민에 의해 조작되어야 합니다.</USH_SleepingSicknessVent.description>
+  <USH_SleepingSicknessVent.comps.3.jobString>작동</USH_SleepingSicknessVent.comps.3.jobString>
+  <USH_SleepingSicknessVent.comps.3.onCooldownString>냉각 중</USH_SleepingSicknessVent.comps.3.onCooldownString>
+  <USH_SleepingSicknessMissileLauncher.label>{0} 가스 미사일 발사기</USH_SleepingSicknessMissileLauncher.label>
+  <USH_SleepingSicknessMissileLauncher.description>군용 {0} 가스 미사일 발사기로, 넓은 지역에 {0} 가스를 살포하는 미사일을 연속으로 발사합니다. 터렛은 누군가가 활성화하기 전까지 발사되지 않으며, 공성전에서는 매우 효과적이지만, 이동하는 목표에 대해서는 덜 효과적입니다. 단 한 번의 발사로 습격자들을 크게 약화 시킬 수 있으며, 어쩌면 사망에 이르게 할 수도 있습니다.\n\n사격통제장치 덕분에 장거리에서도 효과적입니다.\n\n발사 후, 몇 시간 동안 냉각이 필요하며, 다시 발사하기 위해서는 재장전이 필요합니다. 재장전은 대량의 {0} 병원체로 이루어집니다.</USH_SleepingSicknessMissileLauncher.description>
+  <USH_SleepingSicknessMissileLauncher.comps.5.fuelLabel>미사일</USH_SleepingSicknessMissileLauncher.comps.5.fuelLabel>
+  <USH_SleepingSicknessMissileLauncher.comps.5.fuelGizmoLabel>미사일</USH_SleepingSicknessMissileLauncher.comps.5.fuelGizmoLabel>
+  <USH_SleepingSicknessMissileLauncher.comps.5.outOfFuelMessage>미사일 없음</USH_SleepingSicknessMissileLauncher.comps.5.outOfFuelMessage>
+  <USH_SleepingSicknessMissileLauncher.comps.CompInteractableRocketswarmLauncher.jobString>작동</USH_SleepingSicknessMissileLauncher.comps.CompInteractableRocketswarmLauncher.jobString>
+  <USH_SleepingSicknessMissileLauncher.comps.CompInteractableRocketswarmLauncher.onCooldownString>냉각 중</USH_SleepingSicknessMissileLauncher.comps.CompInteractableRocketswarmLauncher.onCooldownString>
+  <USH_SleepingSicknessMissileLauncherTurret.label>미사일 발사관</USH_SleepingSicknessMissileLauncherTurret.label>
+  <USH_SleepingSicknessMissileLauncherTurret.description>보통 {0} 가스 미사일 발사기 터렛에 장착되는 유형의 미사일 발사관입니다.</USH_SleepingSicknessMissileLauncherTurret.description>
+  <USH_SleepingSicknessMissileLauncherTurret.verbs.Verb_Shoot.label>미사일 발사관</USH_SleepingSicknessMissileLauncherTurret.verbs.Verb_Shoot.label>
+  <USH_SleepingSicknessMissileBullet.label>{0} 가스 미사일</USH_SleepingSicknessMissileBullet.label>
+  <USH_SleepingSicknessGrenadeLauncher.label>{0} 가스 유탄 발사기</USH_SleepingSicknessGrenadeLauncher.label>
+  <USH_SleepingSicknessGrenadeLauncher.description>군용 {0} 가스 유탄 발사기로, 대 보병용으로 설계되었습니다.</USH_SleepingSicknessGrenadeLauncher.description>
+  <USH_SleepingSicknessGrenadeLauncher.tools.0.label>개머리판</USH_SleepingSicknessGrenadeLauncher.tools.0.label>
+  <USH_SleepingSicknessGrenadeLauncher.tools.1.label>총열</USH_SleepingSicknessGrenadeLauncher.tools.1.label>
+  <USH_SleepingSicknessGrenadeLauncher.verbs.Verb_Shoot.label>{0} 가스 유탄 발사기</USH_SleepingSicknessGrenadeLauncher.verbs.Verb_Shoot.label>
+  <USH_SleepingSicknessGrenadeBullet.label>{0} 가스 유탄</USH_SleepingSicknessGrenadeBullet.label>
+  <USH_SleepingSicknessGrenadeBullet.description>{0} 가스 유탄</USH_SleepingSicknessGrenadeBullet.description>
+  <USH_DiseaseSampler.label>질병 표본추출기</USH_DiseaseSampler.label>
+  <USH_DiseaseSampler.description>아픈 환자에게 사용하기 위한 의료 도구입니다. 이 도구는 치명적인 병원체 생산에 사용할 수 있는 질병 샘플을 생성합니다. \n\n약물 연구대에서 제작할 수 있습니다.\n\n표본을 추출할 수 있는 질병 목록은 다음과 같습니다.</USH_DiseaseSampler.description>
+  <USH_DiseaseSampler.comps.0.useLabel>{0_label} 사용하기</USH_DiseaseSampler.comps.0.useLabel>
+  <USH_FleshBreaker.label>살점 파쇄기</USH_FleshBreaker.label>
+  <USH_FleshBreaker.description>이 약물은 탈진을 유발하며 뇌, 폐, 위, 그리고 눈을 공격합니다.
+견딜 수 없는 환각과 전신 쇠약을 유발합니다. 번화계에서는 불법 심문용으로 사용됩니다. 이러한 특성 덕분에 완벽한 비살상 화학무기로 쓰입니다.</USH_FleshBreaker.description>
+  <USH_FleshBreaker.ingestible.ingestCommandString>{0} 투여</USH_FleshBreaker.ingestible.ingestCommandString>
+  <USH_FleshBreaker.ingestible.ingestReportString>{0} 투여 중</USH_FleshBreaker.ingestible.ingestReportString>
+  <USH_IronLung.label>강철 허파</USH_IronLung.label>
+  <USH_IronLung.description>사용자의 환경 독소 저항력을 크게 향상시키는 특수 메쉬 필터가 장착된 고급 인공 폐입니다. 이러한 특성으로 인해 생화학 무기를 사용하는 군인에게 적합한 선택입니다.</USH_IronLung.description>
+  <USH_RespiratorMask.label>호흡 마스크</USH_RespiratorMask.label>
+  <USH_RespiratorMask.description>군용 전술 호흡 마스크로, 전장에서 사용하도록 설계되었습니다. 독성 피해로부터 완전한 보호를 제공하며, 사용자는 병원체 가스에 대해 완전한 면역을 얻게 됩니다.</USH_RespiratorMask.description>
+</LanguageData>
