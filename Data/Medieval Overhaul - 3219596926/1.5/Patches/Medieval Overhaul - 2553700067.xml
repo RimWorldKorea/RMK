@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Books Expanded</li>
+    </mods>
+    <nomatch Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoomRoleDef[defName="DankPyon_Library"]/label</xpath>
+          <value>
+            <label>도서관</label>
+          </value>
+        </li>
+      </operations>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>##packageId##vanillaexpanded.vfearchitect</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="DankPyon_VFEArch_FineDarkWoodenFloor"]/label</xpath>
+            <value>
+              <label>좋은 어두운 나무 바닥</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="DankPyon_VFEArch_FineDarkWoodenFloor"]/description</xpath>
+            <value>
+              <description>경제적 지위를 표현하기 위해 타협하지 않고 만든 아름다운 목조 마루입니다. 건설 속도가 느립니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="DankPyon_VFEArch_FineIronTile"]/label</xpath>
+            <value>
+              <label>고급 철 타일</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/IncidentDef[defName="DeepDrillInfestation"]/letterText</xpath>
+    <value>
+      <letterText>채굴로 인해 발생한 소음이 지하 거주자들의 주의를 끌었습니다. 이제 그들은 복수를 위해 위로 터널을 파고 있습니다!\n\n경고 - 미지의 존재들이 분노했으며 
+당신의 기지를 파괴하려 할 것입니다.</letterText>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="Cocoa"]/label</xpath>
+    <value>
+      <label>과수 심기</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="Pemmican"]/label</xpath>
+    <value>
+      <label>식량 보존</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="MedicineHerbal"]/label</xpath>
+    <value>
+      <label>약뿌리</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Leather_Plain"]/label</xpath>
+    <value>
+      <label>가죽</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Leather_Bear"]/label</xpath>
+    <value>
+      <label>두꺼운 가죽</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Leather_Light"]/label</xpath>
+    <value>
+      <label>부드러운 모피</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Leather_Bluefur"]/label</xpath>
+    <value>
+      <label>무거운 모피</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Leather_Lizard"]/label</xpath>
+    <value>
+      <label>비늘 가죽</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Leather_Rhinoceros"]/label</xpath>
+    <value>
+      <label>두꺼운 비늘 가죽</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Leather_Bird"]/label</xpath>
+    <value>
+      <label>새 가죽</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Leather_Thrumbo"]/label</xpath>
+    <value>
+      <label>트럼보 모피</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="MeleeWeapon_Spear"]/tools/li[1]/label</xpath>
+    <value>
+      <label>자루</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="MeleeWeapon_Spear"]/tools/li[2]/label</xpath>
+    <value>
+      <label>끝</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="SimpleResearchBench"]/description</xpath>
+    <value>
+      <description>필기구와 간단한 측정 장치가 포함된 간단한 벤치입니다. 이 벤치는 모든 연구나 도서관에 필수적이며, 학자들은 지식과 발견을 추구하기 위해 여기에 글을 씁니다.</description>
+    </value>
+  </Operation>
+</Patch>
