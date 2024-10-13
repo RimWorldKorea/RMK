@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Backgrounds Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/VBE.BackgroundImageDef[defName="Shella_Royalty"]/label</xpath>
+          <value>
+            <label>셀라 《로얄티》</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/VBE.BackgroundImageDef[defName="Shella_Royalty"]/description</xpath>
+          <value>
+            <description>로얄티를 교체합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/VBE.BackgroundImageDef[defName="Shella_Ideology"]/label</xpath>
+          <value>
+            <label>셀라 《이데올로기》</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/VBE.BackgroundImageDef[defName="Shella_Ideology"]/description</xpath>
+          <value>
+            <description>이데올로기를 교체합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/VBE.BackgroundImageDef[defName="Shella_Biotech"]/label</xpath>
+          <value>
+            <label>셀라 《바이오테크》</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/VBE.BackgroundImageDef[defName="Shella_Biotech"]/description</xpath>
+          <value>
+            <description>바이오테크를 교체합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/VBE.BackgroundImageDef[defName="Shella_Anomaly"]/label</xpath>
+          <value>
+            <label>셀라 《아노말리》</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/VBE.BackgroundImageDef[defName="Shella_Anomaly"]/description</xpath>
+          <value>
+            <description>아노말리를 교체합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/VBE.BackgroundImageDef[defName="Shella_Rabbie_Dragonian"]/label</xpath>
+          <value>
+            <label>셀라 《래비 &amp; 드라고니안》</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/VBE.BackgroundImageDef[defName="Shella_Rabbie_Dragonian"]/description</xpath>
+          <value>
+            <description>래비와 드라고니안 종족입니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/VBE.BackgroundImageDef[defName="Shella_Mincho_Moyo"]/label</xpath>
+          <value>
+            <label>셀라 《민초 &amp; 모요》</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/VBE.BackgroundImageDef[defName="Shella_Mincho_Moyo"]/description</xpath>
+          <value>
+            <description>민초와 모요 종족입니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/VBE.BackgroundImageDef[defName="Shella_Kiiro_Miho"]/label</xpath>
+          <value>
+            <label>셀라 《키이로 &amp; 미호》</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/VBE.BackgroundImageDef[defName="Shella_Kiiro_Miho"]/description</xpath>
+          <value>
+            <description>키이로와 미호 종족입니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/VBE.BackgroundImageDef[defName="Shella_Kurin_Ratkin"]/label</xpath>
+          <value>
+            <label>셀라 《쿠린 &amp; 랫킨》</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/VBE.BackgroundImageDef[defName="Shella_Kurin_Ratkin"]/description</xpath>
+          <value>
+            <description>쿠린과 랫킨 종족입니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/VBE.BackgroundImageDef[defName="Shella_R_D_K"]/label</xpath>
+          <value>
+            <label>셀라 《쿠린 &amp; 드라고니안 &amp; 랫킨》</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/VBE.BackgroundImageDef[defName="Shella_R_D_K"]/description</xpath>
+          <value>
+            <description>쿠린과 드라고니안과 랫킨 종족입니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/VBE.BackgroundImageDef[defName="Shella_Milira_MoeLotl"]/label</xpath>
+          <value>
+            <label>셀라 《밀리라 &amp; 모에로틀》</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/VBE.BackgroundImageDef[defName="Shella_Milira_MoeLotl"]/description</xpath>
+          <value>
+            <description>밀리라와 모에로틀 종족입니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
