@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Improved Insectoids</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MemeDef[defName="VME_InsectoidSupremacy"]/label</xpath>
+          <value>
+            <label>곤충 숙련도</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PreceptDef[defName="VME_InsectMeatEating_Sacrilegious"]/label</xpath>
+          <value>
+            <label>신성모독</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>More Precepts</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MemeDef[defName="VME_Nomad"]/label</xpath>
+          <value>
+            <label>방랑자</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MemeDef[defName="VME_Pacifist"]/label</xpath>
+          <value>
+            <label>평화주의</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/IssueDef[defName="VME_Violence"]/label</xpath>
+          <value>
+            <label>공격성</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PreceptDef[defName="VME_Violence_Acceptable"]/description</xpath>
+          <value>
+            <description>공격성은 삶의 일부이다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Precepts and Memes</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PreceptDef[defName="VME_Death_DontCare"]/label</xpath>
+          <value>
+            <label>매우 관련 없음</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MemeDef[defName="VME_Trader"]/label</xpath>
+          <value>
+            <label>부유한</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
