@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/FactionDef[defName="Insect"]/label</xpath>
+    <value>
+      <label>곤충 둥지</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/FactionDef[defName="Insect"]/description</xpath>
+    <value>
+      <description>어느 거대한 우주적 실험이 실패한 결과, 끔찍한 집단지성체 하나가 이 행성을 자신들의 터전으로 삼았습니다. 계급으로 나뉘어진 이들의 사회는 한 명의 여왕에게 절대적으로 충성합니다.\n\n곤충들은 외교에 관심이 없습니다. 그들은 위협으로 인식되는 모든 것을 제거하려고 합니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/FactionDef[defName="Insect"]/fixedName</xpath>
+    <value>
+      <fixedName>곤충 둥지</fixedName>
+    </value>
+  </Operation>
+</Patch>
