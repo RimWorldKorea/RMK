@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Mechanoids</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFE_Mech_Slurrymaster"]/label</xpath>
+          <value>
+            <label>슬러리마스터</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFE_Mech_Slurrymaster"]/description</xpath>
+          <value>
+            <description>슬러리피드의 고급 기종입니다. 이 극히 희귀한 생체 기계 생명체는 하드웨어 업그레이드를 받은 메카노이드 배치의 결과물입니다. 슬러리마스터는 거의 모든 것을 삼켜서 균질한 유기 슬러리로 가공할 수 있는 변형된 바이오 메카노이드입니다. 이 슬러리는 영양죽 배급기에서 생산된 영양죽과 거의 구별할 수 없습니다.\n\n슬러리마스터는 유순하고 적대적이지 않으며, 메카노이드 착륙선이 파괴되고 그 중 하나가 생존할 경우 정처 없이 황야를 배회하며 경로에 있는 모든 유기물을 섭취하여 영양죽으로 전환하는 기능이 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFE_Mech_Slurrymaster"]/tools/li[1]/label</xpath>
+          <value>
+            <label>머리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PawnKindDef[defName="VFE_Mech_Slurrymaster"]/label</xpath>
+          <value>
+            <label>슬러리마스터</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>VGP Garden Fabrics</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RB_SpunSynthreadSilk"]/label</xpath>
+          <value>
+            <label>합성원단 섬유</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RB_SpunSynthreadSilk"]/description</xpath>
+          <value>
+            <description>페랄리스크, 정글리스크, 듀날리스크에게서 얻을 수 있는 섬유입니다. 베틀에서 합성원단을 제작할 수 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RB_MakeSynthreadCloth"]/label</xpath>
+          <value>
+            <label>합성원단 만들기 (x11)</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RB_MakeSynthreadCloth"]/description</xpath>
+          <value>
+            <description>합성원단 섬유와 플라스틸을 사용해 합성원단을 제작합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RB_MakeSynthreadCloth"]/jobString</xpath>
+          <value>
+            <jobString>합성원단 만드는 중</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RB_SpunHyperweaveSilk"]/label</xpath>
+          <value>
+            <label>합성원단 섬유</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RB_SpunHyperweaveSilk"]/description</xpath>
+          <value>
+            <description>블리자리스크에게서 얻을 수 있는 섬유입니다. 베틀에서 합성원단을 제작할 수 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RB_MakeHyperweaveCloth"]/label</xpath>
+          <value>
+            <label>합성원단 만들기 (x15)</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RB_MakeHyperweaveCloth"]/description</xpath>
+          <value>
+            <description>합성원단 섬유와 플라스틸을 사용해 합성원단을 제작합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RB_MakeHyperweaveCloth"]/jobString</xpath>
+          <value>
+            <jobString>합성원단 만드는 중</jobString>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Races Expanded - Insector</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Factions Expanded - Insectoids 2</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VanillaRacesExpandedInsector.GenelineGeneDef[defName="AA_Gene_GreaterVileSpit"]/label</xpath>
+            <value>
+              <label>강화 악성 침</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VanillaRacesExpandedInsector.GenelineGeneDef[defName="AA_Gene_GreaterVileSpit"]/description</xpath>
+            <value>
+              <description>이 유전자의 보유자는 입에서 부식성 액체를 뱉어내 즉각적인 독소 축적을 일으킬 수 있습니다. 악성 침이 메카노이드와 접촉하면 강력한 산으로 변해 금속을 빠르게 부식시키고 심각한 내부 손상을 일으킵니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VanillaRacesExpandedInsector.GenelineGeneDef[defName="AA_Gene_MechanoidRendingClaws"]/label</xpath>
+            <value>
+              <label>메카노이드 해체 발톱</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VanillaRacesExpandedInsector.GenelineGeneDef[defName="AA_Gene_MechanoidRendingClaws"]/description</xpath>
+            <value>
+              <description>이 유전자의 보유자는 금속과 전자 장치를 찢을 수 있도록 특별히 설계된 날카로운 발톱을 가지게 됩니다. 메카노이드에 추가 EMP 피해를 입혀 일시적으로 시스템을 중단시키고 추가 전기 피해를 입힙니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VanillaRacesExpandedInsector.GenelineGeneDef[defName="AA_Gene_EcholocativeFeedbackLoop"]/label</xpath>
+            <value>
+              <label>반향정위</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VanillaRacesExpandedInsector.GenelineGeneDef[defName="AA_Gene_EcholocativeFeedbackLoop"]/description</xpath>
+            <value>
+              <description>이 유전자의 보유자는 일반적인 시각 대신 반향정위로 주변을 파악합니다. 시끄러운 폭발과 같은 소음이 발생할 경우 감각 과부하와 혼란을 일으키고 마비 상태에 빠질 수 있습니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VanillaRacesExpandedInsector.GenelineGeneDef[defName="AA_Gene_EcholocativeFeedbackLoop"]/customEffectDescriptions/li[1]</xpath>
+            <value>
+              <li>모든 유형의 폭발 피해를 입을 경우 마비 상태에 빠집니다.</li>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VanillaRacesExpandedInsector.GenelineGeneDef[defName="AA_Gene_PhotosensitiveExoskeleton"]/label</xpath>
+            <value>
+              <label>광과민성 외골격</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VanillaRacesExpandedInsector.GenelineGeneDef[defName="AA_Gene_PhotosensitiveExoskeleton"]/description</xpath>
+            <value>
+              <description>이 유전자의 보유자는 주로 지하나 어두운 환경에서 메카노이드를 기습하도록 설계되었습니다. 밝은 빛에 노출되면 감각 과부하가 발생하여 방향 감각을 잃고 전투 효율이 떨어집니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VanillaRacesExpandedInsector.GenelineGeneDef[defName="AA_Gene_PhotosensitiveExoskeleton"]/customEffectDescriptions/li[1]</xpath>
+            <value>
+              <li>직사광선 아래에서 주기적으로 방향 감각이 흐려집니다.</li>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/MentalBreakDef[defName="AA_PhotosensitiveExoskeleton"]/label</xpath>
+            <value>
+              <label>광과민성 혼란</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+</Patch>
