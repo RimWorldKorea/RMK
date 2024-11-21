@@ -34,13 +34,13 @@
   <AG_TempNodeEffect.label>대역폭 강화</AG_TempNodeEffect.label>
   <AG_TempNodeEffect.description>이 메카나이터의 대역폭은 임시 대역폭 확장기로 인해 강화되었습니다.</AG_TempNodeEffect.description>
   <AG_FungalSkin.label>진균 피부</AG_FungalSkin.label>
-  <AG_FungalSkin.description>여러 곰팡이 덩어리가 이 사람의 피부에서 돋아나고 있습니다. 이 균류는 그들에게 고통을 주지 않고 상당한 양의 천연 갑옷을 제공하지만, 그 대가로 그들을 매우 불에 취약하게 만듭니다.</AG_FungalSkin.description>
+  <AG_FungalSkin.description>여러 곰팡이 덩어리가 이 사람의 피부에서 돋아나고 있습니다. 이 균류는 그들에게 고통을 주지 않고 상당한 양의 생체 방어력을 제공하지만, 그 대가로 불에 매우 취약해집니다.</AG_FungalSkin.description>
   <AG_ArmourMinor.label>껍질 피부</AG_ArmourMinor.label>
-  <AG_ArmourMinor.description>딱딱하고 껍질 같은 피부. 이것은 소량의 천연 갑옷을 부여합니다.</AG_ArmourMinor.description>
+  <AG_ArmourMinor.description>딱딱하고 껍질 같은 피부입니다. 소량의 생체 방어력을 부여합니다.</AG_ArmourMinor.description>
   <AG_ArmourMedium.label>철 피부</AG_ArmourMedium.label>
-  <AG_ArmourMedium.description>금속 화합물의 나노 격자로 강화된 피부. 이것은 중간 정도의 천연 갑옷을 부여합니다.</AG_ArmourMedium.description>
-  <AG_ArmourMajor.label>플라스틸 스킨</AG_ArmourMajor.label>
-  <AG_ArmourMajor.description>플라스틸 나노 격자로 강화된 피부. 이것은 많은 양의 천연 갑옷을 부여합니다.</AG_ArmourMajor.description>
+  <AG_ArmourMedium.description>금속 화합물의 나노 격자로 강화된 피부입니다. 적당한 생체 방어력을 부여합니다.</AG_ArmourMedium.description>
+  <AG_ArmourMajor.label>플라스틸 피부</AG_ArmourMajor.label>
+  <AG_ArmourMajor.description>플라스틸 나노 격자로 강화된 피부입니다. 강력한 생체 방어력을 부여합니다.</AG_ArmourMajor.description>
   <AG_HornAttack.label>특대 뿔</AG_HornAttack.label>
   <AG_HornAttack.description>이 뿔은 근접 공격에 사용할 수 있습니다.</AG_HornAttack.description>
   <AG_HornAttack.comps.0.tools.0.label>뿔</AG_HornAttack.comps.0.tools.0.label>
@@ -187,7 +187,7 @@
   <AG_ReactiveArmourHediff.stages.3.label>뚫리지 않는 갑옷</AG_ReactiveArmourHediff.stages.3.label>
   <AG_MineralOverdriveHediff.label>광물 오버드라이브</AG_MineralOverdriveHediff.label>
   <AG_MineralOverdriveHediff.description>이 사람은 엄청난 속도로 광물을 소비하여 작업속도를 높힙니다!</AG_MineralOverdriveHediff.description>
-  <AG_MineralOverdriveHediff.stages.0.label>가속된</AG_MineralOverdriveHediff.stages.0.label>
+  <AG_MineralOverdriveHediff.stages.0.label>가속</AG_MineralOverdriveHediff.stages.0.label>
   <AG_Hover.label>활공</AG_Hover.label>
   <AG_Hover.description>이 정착민은 지형에서 짧은 거리를 점프하거나 활공할 수 있는 제한된 비행 능력을 가집니다. 이동 시 지형 이동 비용을 무시합니다.</AG_Hover.description>
   <AG_WaterStriding.label>수중 가속</AG_WaterStriding.label>
@@ -264,7 +264,54 @@
   <AG_PsychicInsanity.stages.3.label>심한</AG_PsychicInsanity.stages.3.label>
   <AG_PsychicInsanity.stages.4.label>약한</AG_PsychicInsanity.stages.4.label>
   <AG_RoyalJellyProduction.label>로열 젤리 생성</AG_RoyalJellyProduction.label>
-  <AG_RoyalJellyProduction.description>피부에서 지속적으로 로열 젤리 덩어리를 분비하고 생성하여 정착지에 약간의 추가 식량를 제공합니다..</AG_RoyalJellyProduction.description>
+  <AG_RoyalJellyProduction.description>피부에서 지속적으로 로열 젤리 덩어리를 분비하고 생성하여 정착지에 약간의 추가 식량을 제공합니다.</AG_RoyalJellyProduction.description>
   <VRE_FungalSpeed.label>곰팡이 다리</VRE_FungalSpeed.label>
   <VRE_FungalSpeed.description>근육에 엮인 곰팡이 균사체의 힘으로 더 빠르게 움직일 수 있습니다. 시간이 지날수록 더욱 빨라집니다.</VRE_FungalSpeed.description>
+  <AG_SterilizingBreath.label>살균 숨결</AG_SterilizingBreath.label>
+  <AG_SterilizingBreath.description>살균 숨결에 맞아 잠시 동안 면역력이 높아지며 생식력이 떨어집니다. 효과는 12시간 동안 지속됩니다.</AG_SterilizingBreath.description>
+  <AG_BansheeScream.label>밴시 비명</AG_BansheeScream.label>
+  <AG_BansheeScream.description>밴시의 비명을 들어 청각, 원거리 명중률, 근접 회피가 감소합니다. 효과는 12시간 동안 지속됩니다.</AG_BansheeScream.description>
+  <AG_FreezingBreath.label>빙결 숨결</AG_FreezingBreath.label>
+  <AG_FreezingBreath.description>빙결 숨결에 맞아 속도가 감소합니다. 효과는 12시간 동안 지속됩니다.</AG_FreezingBreath.description>
+  <AG_NoxiousBreath.label>악취 숨결</AG_NoxiousBreath.label>
+  <AG_NoxiousBreath.description>악취 숨결에 마자 지속적으로 구토를 합니다. 효과는 12시간 동안 지속됩니다.</AG_NoxiousBreath.description>
+  <AG_WaterRegeneration.label>물 재생</AG_WaterRegeneration.label>
+  <AG_WaterRegeneration.description>물 위에 있을 때 천천히 체력을 회복합니다.</AG_WaterRegeneration.description>
+  <AG_LimbRegeneration.label>팔다리 재생</AG_LimbRegeneration.label>
+  <AG_LimbRegeneration.description>DNA의 재생 인자가 개선되어 사라진 팔다리를 천천히 재생합니다. 이 과정은 느리며 완전히 사라진 기관보다 상처를 입은 팔다리를 우선해서 재생합니다.</AG_LimbRegeneration.description>
+  <AG_SpeedBurst.label>초가속</AG_SpeedBurst.label>
+  <AG_SpeedBurst.description>초가속의 효과로 잠시 동안 빠르게 움직입니다. 효과는 1시간 동안 지속됩니다.</AG_SpeedBurst.description>
+  <AG_PlaguedClaws_Hands.label>역병 손톱</AG_PlaguedClaws_Hands.label>
+  <AG_PlaguedClaws_Hands.description>휘청이는 자 전염병을 퍼트리는 역병 손톱입니다.</AG_PlaguedClaws_Hands.description>
+  <AG_PlaguedClaws_Hands.comps.0.tools.0.label>역병 손톱</AG_PlaguedClaws_Hands.comps.0.tools.0.label>
+  <AG_GreaterToughspikes.label>강화 갑옷촉수</AG_GreaterToughspikes.label>
+  <AG_GreaterToughspikes.description>등 뒤에 4개의 강력한 갑옷촉수를 가집니다.</AG_GreaterToughspikes.description>
+  <AG_GreaterToughspikes.comps.0.tools.0.label>강화 갑옷촉수</AG_GreaterToughspikes.comps.0.tools.0.label>
+  <AG_GreaterFleshWhip.label>강화 살채찍</AG_GreaterFleshWhip.label>
+  <AG_GreaterFleshWhip.description>끝에 칼날이 달린 근육질의 촉수 두 개를 가집니다. 살채찍은 훌륭한 근접 무기로 사용됩니다.</AG_GreaterFleshWhip.description>
+  <AG_GreaterFleshWhip.comps.0.tools.0.label>강화 살채찍</AG_GreaterFleshWhip.comps.0.tools.0.label>
+  <AG_FleshSpitter.label>살 산성 포대</AG_FleshSpitter.label>
+  <AG_FleshSpitter.description>어깨에 기괴한 암세포가 자라나 산성 타액을 뱉어냅니다.</AG_FleshSpitter.description>
+  <AG_FleshSpitter.comps.0.verbs.Verb_Shoot.label>산성 침</AG_FleshSpitter.comps.0.verbs.Verb_Shoot.label>
+  <AG_FleshSpitter.comps.0.verbProps.0.label>산성 침</AG_FleshSpitter.comps.0.verbProps.0.label>
+  <AG_DeadlifeProducer.label>모조생명 먼지 생산</AG_DeadlifeProducer.label>
+  <AG_DeadlifeProducer.description>주기적으로 근처의 시체를 휘청이는 자로 일으키는 먼지 구름을 방출합니다.</AG_DeadlifeProducer.description>
+  <AG_PseudoDeadlife.label>가사상태 유발</AG_PseudoDeadlife.label>
+  <AG_PseudoDeadlife.description>실제로 죽지 않고도 가사상태에 돌입해 회복력을 크게 높일 수 있습니다.</AG_PseudoDeadlife.description>
+  <AG_PlaguedClaws.label>휘청이는 자 역병</AG_PlaguedClaws.label>
+  <AG_PlaguedClaws.labelNoun>휘청이는 자 역병</AG_PlaguedClaws.labelNoun>
+  <AG_PlaguedClaws.description>심각한 쇠약을 일으키는 치명적인 질병입니다. 80% 이상 진행된 상태에서 사망하면 휘청이는 자로 깨어납니다.</AG_PlaguedClaws.description>
+  <AG_PlaguedClaws.stages.0.label>가벼움</AG_PlaguedClaws.stages.0.label>
+  <AG_PlaguedClaws.stages.1.label>가벼움</AG_PlaguedClaws.stages.1.label>
+  <AG_PlaguedClaws.stages.2.label>극심함</AG_PlaguedClaws.stages.2.label>
+  <AG_PlaguedClaws.stages.3.label>극심함</AG_PlaguedClaws.stages.3.label>
+  <AG_Regeneration_InTheSun.label>광합성 재생</AG_Regeneration_InTheSun.label>
+  <AG_Regeneration_InTheSun.description>태양빛을 받으면 재생합니다.</AG_Regeneration_InTheSun.description>
+  <AG_MeatBurst.label>살 폭발</AG_MeatBurst.label>
+  <AG_MeatBurst.description>사망 시 폭발하며 소량의 살짐승을 쏟아냅니다.</AG_MeatBurst.description>
+  <AG_FleshPower.label>살 카타르시스</AG_FleshPower.label>
+  <AG_FleshPower.description>살짐승을 흡수해 고통 내성과 힘이 증가합니다. 효과는 하루 동안 지속됩니다.</AG_FleshPower.description>
+  <AG_SlowerAcidFangs.label>산성 송곳니</AG_SlowerAcidFangs.label>
+  <AG_SlowerAcidFangs.description>근접 전투에서 강력한 산을 주입하는 데 사용할 수 있는 큰 송곳니입니다.</AG_SlowerAcidFangs.description>
+  <AG_SlowerAcidFangs.comps.0.tools.0.label>산성 송곳니</AG_SlowerAcidFangs.comps.0.tools.0.label>
 </LanguageData>
