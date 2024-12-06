@@ -1,5 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+  <Hediff_InsectEgg_egg> 알</Hediff_InsectEgg_egg>
+  <Hediff_InsectEgg_small>소형 알</Hediff_InsectEgg_small>
+  <Hediff_InsectEgg_medium>중형 알</Hediff_InsectEgg_medium>
+  <Hediff_InsectEgg_big>대형 알</Hediff_InsectEgg_big>
+  <Hediff_InsectEgg_huge>초대형 알</Hediff_InsectEgg_huge>
+  <Hediff_InsectEgg_fertilized>유정란</Hediff_InsectEgg_fertilized>
+  <Hediff_InsectEgg_unfertilized>무정란</Hediff_InsectEgg_unfertilized>
   <PawnCantRapeCP>해당 정착민은 성관계를 하기에 부적합한 상태입니다.</PawnCantRapeCP>
   <PawnCantRapeCP0>해당 정착민은 성관계가 불가능합니다.</PawnCantRapeCP0>
   <PawnCantRapeCP1>주변에 해당 정착민의 애인이 있습니다.</PawnCantRapeCP1>
@@ -38,19 +45,6 @@
   <ForHeroRefuse1Desc>다른 플레이어의 주인공입니다.</ForHeroRefuse1Desc>
   <ForHeroRefuse2Desc>해당 정착민의 주인공 설정을 변경할 권한이 없습니다.</ForHeroRefuse2Desc>
   <ForHeroRefuseHCDesc>HC 모드에서 비영웅 정착민</ForHeroRefuseHCDesc>
-  <RJW_hediff_braCup>브라컵: {0}</RJW_hediff_braCup>
-  <RJW_hediff_braSizeNone>가슴 크기: -</RJW_hediff_braSizeNone>
-  <RJW_hediff_eggs>알: {0}</RJW_hediff_eggs>
-  <RJW_hediff_fluidTypeFluidAmount>{0}: {1}</RJW_hediff_fluidTypeFluidAmount>
-  <RJW_hediff_girth>직경: {0}</RJW_hediff_girth>
-  <RJW_hediff_length>길이: {0}</RJW_hediff_length>
-  <RJW_hediff_maxGirth>최대 직경: {0}</RJW_hediff_maxGirth>
-  <RJW_hediff_maxLength>최대 길이: {0}</RJW_hediff_maxLength>
-  <RJW_hediff_braSize>가슴 크기: {0}:{1}</RJW_hediff_braSize>
-  <RJW_hediff_overbust>윗가슴: {0}</RJW_hediff_overbust>
-  <RJW_hediff_underbust>밑가슴: {0}</RJW_hediff_underbust>
-  <RJW_hediff_unknownSpecies>종족 미확인</RJW_hediff_unknownSpecies>
-  <RJW_hediff_weight>무게: {0}</RJW_hediff_weight>
   <AgeImpactor>나이:</AgeImpactor>
   <VanillaFertilityImpactor>출산 통계: {VALUE}%</VanillaFertilityImpactor>
   <RJW_nymph_incident_raid_title>색정광이다!!</RJW_nymph_incident_raid_title>
@@ -70,35 +64,36 @@
   <LetterLabelGainedMultipleTraitsFromSex>특성 획득: {PAWN}</LetterLabelGainedMultipleTraitsFromSex>
   <GainedMultipleTraitsFromSex>강한 성적 경험으로 인하여 {PAWN}(이)가 다음 특성을 획득:</GainedMultipleTraitsFromSex>
   <GainedMultipleTraitsFromSexListItem>- {0}</GainedMultipleTraitsFromSexListItem>
+  <PawnColumnWorker_RJWGender_IsHerm>Herm</PawnColumnWorker_RJWGender_IsHerm>
   <PawnColumnWorker_IsSlave>림이 노예인가?</PawnColumnWorker_IsSlave>
   <PawnColumnWorker_IsPrisoner>림이 죄수인가?</PawnColumnWorker_IsPrisoner>
   <PawnColumnWorker_IsComfort>림이 성노예인가?</PawnColumnWorker_IsComfort>
   <PawnColumnWorker_IsBreeder>림이 종마인가?</PawnColumnWorker_IsBreeder>
   <MainTabWindow_Designators>지정자</MainTabWindow_Designators>
-  <RJW_RMB>RJW 상호작용</RJW_RMB>
-  <RJW_RMB_NoSex>다음의 이유로 섹스를 거부함:</RJW_RMB_NoSex>
-  <RJW_RMB_Social>사교</RJW_RMB_Social>
+  <RJW_RMB>성적 상호작용</RJW_RMB>
+  <RJW_RMB_NoSex>(이)가 성관계를 거부함: </RJW_RMB_NoSex>
+  <RJW_RMB_Social>{0_labelShort}(와)과 사교 활동</RJW_RMB_Social>
   <RJW_RMB_Masturbate>자위</RJW_RMB_Masturbate>
-  <RJW_RMB_Sex>섹스:</RJW_RMB_Sex>
-  <RJW_RMB_Bestiality>수간</RJW_RMB_Bestiality>
-  <RJW_RMB_Sex_Reverse>(역전)섹스</RJW_RMB_Sex_Reverse>
-  <RJW_RMB_Bestiality_Reverse>(역전)수간</RJW_RMB_Bestiality_Reverse>
+  <RJW_RMB_Sex>{0_labelShort}(와)과 섹스함</RJW_RMB_Sex>
+  <RJW_RMB_Bestiality>{0_labelShort}(을)를 수간함</RJW_RMB_Bestiality>
+  <RJW_RMB_Sex_Reverse>{0_labelShort}에게 섹스당함</RJW_RMB_Sex_Reverse>
+  <RJW_RMB_Bestiality_Reverse>{0_labelShort}에게 수간당함</RJW_RMB_Bestiality_Reverse>
   <RJW_RMB_Insult>모욕</RJW_RMB_Insult>
-  <RJW_RMB_SocialFight>싸움을 시작</RJW_RMB_SocialFight>
+  <RJW_RMB_SocialFight>싸움 시작</RJW_RMB_SocialFight>
   <RJW_RMB_Chat>잡담</RJW_RMB_Chat>
-  <RJW_RMB_DeepTalk>심도있는 주제</RJW_RMB_DeepTalk>
+  <RJW_RMB_DeepTalk>깊은 대화</RJW_RMB_DeepTalk>
   <RJW_RMB_RomanceAttempt>연애 시도</RJW_RMB_RomanceAttempt>
   <RJW_RMB_MarriageProposal>청혼</RJW_RMB_MarriageProposal>
   <RJW_RMB_Masturbate_Bed>의자 및 침대에서</RJW_RMB_Masturbate_Bed>
   <RJW_RMB_Masturbate_At>위치를 바꿔서</RJW_RMB_Masturbate_At>
   <RJW_RMB_Masturbate_Here>여기서</RJW_RMB_Masturbate_Here>
   <RJW_RMB_Masturbate_With>도구 사용</RJW_RMB_Masturbate_With>
-  <RJW_RMB_Rape>강간:</RJW_RMB_Rape>
-  <RJW_RMB_Rape_Reverse>(역전)강간</RJW_RMB_Rape_Reverse>
-  <RJW_RMB_RapeCorpse>시간:</RJW_RMB_RapeCorpse>
-  <RJW_RMB_RapeCorpse_Reverse>(역전)시간</RJW_RMB_RapeCorpse_Reverse>
-  <RJW_RMB_RapeAnimal>교배:</RJW_RMB_RapeAnimal>
-  <RJW_RMB_RapeAnimal_Reverse>(역전)교배</RJW_RMB_RapeAnimal_Reverse>
+  <RJW_RMB_Rape>{0_labelShort}(을)를 강간함</RJW_RMB_Rape>
+  <RJW_RMB_Rape_Reverse>{0_labelShort}에게 강간당함</RJW_RMB_Rape_Reverse>
+  <RJW_RMB_RapeCorpse>{0_labelShort}(을)를 시간함</RJW_RMB_RapeCorpse>
+  <RJW_RMB_RapeCorpse_Reverse>{0_labelShort}에게 시간당함</RJW_RMB_RapeCorpse_Reverse>
+  <RJW_RMB_RapeAnimal>{0_labelShort}(와)과 교배함</RJW_RMB_RapeAnimal>
+  <RJW_RMB_RapeAnimal_Reverse>{0_labelShort}에게 교배당함</RJW_RMB_RapeAnimal_Reverse>
   <RJW_RMB_HackMechPregnancy>이식된 메카노이드 칩 해킹</RJW_RMB_HackMechPregnancy>
   <RJWSettingsOne>RimJobWorld - 기본 설정</RJWSettingsOne>
   <NymphTamed>색정광 합류</NymphTamed>
@@ -115,6 +110,8 @@
   <NymphPermanentManhunter_desc>색정광이 끝도 없이 습격합니다.</NymphPermanentManhunter_desc>
   <NymphSappers>색정광 공병</NymphSappers>
   <NymphSappers_desc>똑! 똑! 문 뒤에서 당신의 냄새가 나고있어! 도망칠순 있지만 숨을 순 없어</NymphSappers_desc>
+  <NymphFrustratedRape>정신이 붕괴한 색정광의 강간 허용</NymphFrustratedRape>
+  <NymphFrustratedRape_desc>색정광이 정신붕괴를 겪었을 때 파트너가 없으면 무작위로 누군가/무엇을 강간합니다.</NymphFrustratedRape_desc>
   <FemaleFuta>양성(여) 허용</FemaleFuta>
   <FemaleFuta_desc>양성의 특징을 모두 지닌 여성의 등장을 허용합니다. (+ 음경)</FemaleFuta_desc>
   <MaleTrap>양성(남) 허용</MaleTrap>
@@ -320,6 +317,8 @@
   <OffspringIsHuman2_desc>인간과 동물 사이의 아기의 종족을 설정합니다.\n\n 왼쪽 - 동물로 설정.\n\n오른쪽 - 인간으로 설정\n\n그 외 - 모계/부계 설정을 따라갑니다.</OffspringIsHuman2_desc>
   <RJWA_pregnancy>동물 임신 활성화</RJWA_pregnancy>
   <RJWA_pregnancy_desc>야생 동물 사이의 임신을 활성화 합니다.</RJWA_pregnancy_desc>
+  <RJWA_pregnancy_notifications>동물 임신 알림</RJWA_pregnancy_notifications>
+  <RJWA_pregnancy_notifications_desc>동물의 임신, 진통 시작 및 건강한 출산에 대한 알림이 전송됩니다.\n\n가축이 많은 정착지의 경우 시끄러울 수 있으므로 이 설정을 비활성화하는 것이 좋습니다.\n\n이 설정과 관계없이 중요한 알림은 항상 전송됩니다.</RJWA_pregnancy_notifications_desc>
   <RJWI_pregnancy>곤충 산란 활성화</RJWI_pregnancy>
   <RJWI_pregnancy_desc>인간형과 곤충형의 임신을 활성화 합니다.</RJWI_pregnancy_desc>
   <egg_pregnancy_implant_anyone>알 이식 필터</egg_pregnancy_implant_anyone>
@@ -332,6 +331,8 @@
   <RJWI_analPregnancy_desc>벌레들이 림들의 항문을 통해 산란-임신하는 것을 허용합니다.</RJWI_analPregnancy_desc>
   <RJWI_oralPregnancy>구강 산란 임신 활성화</RJWI_oralPregnancy>
   <RJWI_oralPregnancy_desc>벌레들이 림들의 구강을 통해 산란-임신하는 것을 허용합니다.</RJWI_oralPregnancy_desc>
+  <RJWI_FertilizationCheck>수정란 생성 필터</RJWI_FertilizationCheck>
+  <RJWI_FertilizationCheck_desc>수정란은 성기 내부에서만 수정이 이루어집니다.</RJWI_FertilizationCheck_desc>
   <egg_pregnancy_eggs_size>알 크기 조정</egg_pregnancy_eggs_size>
   <egg_pregnancy_eggs_size_desc>0 - 무제한</egg_pregnancy_eggs_size_desc>
   <egg_pregnancy_ovipositor_capacity_factor>산란관의 용량 계수</egg_pregnancy_ovipositor_capacity_factor>
@@ -340,8 +341,6 @@
   <MechanoidImplanting_desc>메카노이드칩 주입(임신)을 활성화 합니다.</MechanoidImplanting_desc>
   <SaferMechanoidImplanting>안전한 메카노이드 칩 주입</SaferMechanoidImplanting>
   <SaferMechanoidImplanting_desc>메카노이드 칩 주입으로 메카노이드를 출산할 경우, 메카노이드 임신을 확인할 경우 림을 죽이는 대신, 대신 몸통을 포함한 각 신체부위에 5개의 손상을 입힙니다. 메카노이드는 여전히 적대적입니다.</SaferMechanoidImplanting_desc>
-  <CP_pregnancy>RimWorldChildren 임신 설정 활성화</CP_pregnancy>
-  <CP_pregnancy_desc>RJW의 임신설정 대신 RimWorldChildren의 임신설정을 사용합니다.</CP_pregnancy_desc>
   <genetic_trait_filter>특성 필터 사용</genetic_trait_filter>
   <genetic_trait_filter_desc>활성시 RJW/Defs/NonInheritedTraits.xml를 참조하여 몇몇 특성이 유전되지 않도록합니다.사용하지 않을 경우 모든 특성이 유전됩니다.</genetic_trait_filter_desc>
   <max_num_momtraits_inherited>모계로부터 유전받는 최대 특성</max_num_momtraits_inherited>
@@ -488,18 +487,49 @@
   <SkinLoverQuirk>피부 선호\n모피나, 비늘등이 없는 부드럽고 민감한 피부의 상대와의 섹스를 선호합니다.</SkinLoverQuirk>
   <SlimeLoverQuirk>슬라임 선호\n슬라임과의 섹스를 선호합니다.</SlimeLoverQuirk>
   <SexPartWants>성적 관심사:</SexPartWants>
-  <Hediff_InsectEgg_egg> 알</Hediff_InsectEgg_egg>
-  <Hediff_InsectEgg_small>소형 알</Hediff_InsectEgg_small>
-  <Hediff_InsectEgg_medium>중형 알</Hediff_InsectEgg_medium>
-  <Hediff_InsectEgg_big>대형 알</Hediff_InsectEgg_big>
-  <Hediff_InsectEgg_huge>초대형 알</Hediff_InsectEgg_huge>
-  <Hediff_InsectEgg_fertilized>유정란</Hediff_InsectEgg_fertilized>
-  <Hediff_InsectEgg_unfertilized>무정란</Hediff_InsectEgg_unfertilized>
-  <PawnColumnWorker_RJWGender_IsHerm>Herm</PawnColumnWorker_RJWGender_IsHerm>
-  <NymphFrustratedRape>정신이 붕괴한 색정광의 강간 허용</NymphFrustratedRape>
-  <NymphFrustratedRape_desc>색정광이 정신붕괴를 겪었을 때 파트너가 없으면 무작위로 누군가/무엇을 강간합니다.</NymphFrustratedRape_desc>
-  <RJWA_pregnancy_notifications>동물 임신 알림</RJWA_pregnancy_notifications>
-  <RJWA_pregnancy_notifications_desc>동물의 임신, 진통 시작 및 건강한 출산에 대한 알림이 전송됩니다.\n\n가축이 많은 정착지의 경우 시끄러울 수 있으므로 이 설정을 비활성화하는 것이 좋습니다.\n\n이 설정과 관계없이 중요한 알림은 항상 전송됩니다.</RJWA_pregnancy_notifications_desc>
-  <RJWI_FertilizationCheck>수정란 생성 필터</RJWI_FertilizationCheck>
-  <RJWI_FertilizationCheck_desc>수정란은 성기 내부에서만 수정이 이루어집니다.</RJWI_FertilizationCheck_desc>
+  <RJW_PartInfo_braCup>브래지어: {0}컵</RJW_PartInfo_braCup>
+  <RJW_PartInfo_braSizeNone>가슴 크기: -</RJW_PartInfo_braSizeNone>
+  <RJW_PartInfo_eggs>알: {0}</RJW_PartInfo_eggs>
+  <RJW_PartInfo_fluidTypeFluidAmount>{0}: {1}</RJW_PartInfo_fluidTypeFluidAmount>
+  <RJW_PartInfo_braSize>가슴 크기: {0}:{1}</RJW_PartInfo_braSize>
+  <RJW_PartInfo_overbust>윗가슴: {0}</RJW_PartInfo_overbust>
+  <RJW_PartInfo_underbust>밑가슴: {0}</RJW_PartInfo_underbust>
+  <RJW_PartInfo_weight>무게: {0}</RJW_PartInfo_weight>
+  <RJW_PartInfo_properties>특성: {0}</RJW_PartInfo_properties>
+  <RJW_PartInfo_girth>직경: {0}</RJW_PartInfo_girth>
+  <RJW_PartInfo_length>길이: {0}</RJW_PartInfo_length>
+  <RJW_PartInfo_depth>깊이: {0}</RJW_PartInfo_depth>
+  <RJW_PartInfo_maxGirth>최대 직경: {0}</RJW_PartInfo_maxGirth>
+  <RJW_PartInfo_maxLength>최대 길이: {0}</RJW_PartInfo_maxLength>
+  <RJW_PartInfo_fluidTypeFluidAmountHeading>체액: {0} ({1}ml)</RJW_PartInfo_fluidTypeFluidAmountHeading>
+  <RJW_PartInfo_unknownSpecies>종족 미확인</RJW_PartInfo_unknownSpecies>
+  <RJW_PartInfo_unknownOwner>알 수 없음</RJW_PartInfo_unknownOwner>
+  <RJW_StatEntry_PreviousOwner>이전 소유자</RJW_StatEntry_PreviousOwner>
+  <RJW_StatEntry_OriginalOwnerRace>고유 종족</RJW_StatEntry_OriginalOwnerRace>
+  <RJW_StatEntry_OriginalOwnerSize>고유 크기</RJW_StatEntry_OriginalOwnerSize>
+  <RJW_StatEntry_PartSize>크기</RJW_StatEntry_PartSize>
+  <RJW_StatEntry_PartCupSize>가슴 크기</RJW_StatEntry_PartCupSize>
+  <RJW_StatEntry_PartLength>길이</RJW_StatEntry_PartLength>
+  <RJW_StatEntry_PartGirth>직경</RJW_StatEntry_PartGirth>
+  <RJW_StatEntry_PartMaxGirth>최대 직경</RJW_StatEntry_PartMaxGirth>
+  <RJW_StatEntry_PartDepth>깊이</RJW_StatEntry_PartDepth>
+  <RJW_StatEntry_PartTags>특성</RJW_StatEntry_PartTags>
+  <RJW_StatEntry_Fluid>체액</RJW_StatEntry_Fluid>
+  <RJW_StatEntry_FluidAmount>체액량</RJW_StatEntry_FluidAmount>
+  <RJW_StatEntry_FluidAmount_ejaculation>사정량</RJW_StatEntry_FluidAmount_ejaculation>
+  <RJW_StatEntry_FluidAmount_wetness>젖음</RJW_StatEntry_FluidAmount_wetness>
+  <RJW_RMB_ReasonLowOpinionOfTarget>대상에 대한 의견이 낮음</RJW_RMB_ReasonLowOpinionOfTarget>
+  <RJW_RMB_ReasonUnappealingTarget>대상에게 성적으로 끌리지 않음</RJW_RMB_ReasonUnappealingTarget>
+  <RJW_RMB_ReasonLowOpinionOfPawn>나에 대한 의견이 낮음</RJW_RMB_ReasonLowOpinionOfPawn>
+  <RJW_RMB_ReasonUnappealingPawn>나에게 성적으로 끌리지 않음</RJW_RMB_ReasonUnappealingPawn>
+  <RJW_RMB_ReasonNeedBed>침대 배정 필요</RJW_RMB_ReasonNeedBed>
+  <RJW_RMB_ReasonCantReachBed>지정된 침대에 도달할 수 없음</RJW_RMB_ReasonCantReachBed>
+  <RJW_PartInfo_severity>심각도: {0}</RJW_PartInfo_severity>
+  <RJW_PartInfo_fluidMultiplier>체액 계수: {0}</RJW_PartInfo_fluidMultiplier>
+  <RJW_StatEntry_PartWeight>무게</RJW_StatEntry_PartWeight>
+  <animal_on_human_enabled>동물-인간 교미 시도 허용</animal_on_human_enabled>
+  <animal_on_human_enabled_desc>정착지의 동물들이 인간과 교미를 시도할 수 있습니다.</animal_on_human_enabled_desc>
+  <PartsEditLabel>{0} 편집</PartsEditLabel>
+  <PartsEditFluidMultiplierLabel>체액 계수</PartsEditFluidMultiplierLabel>
+  <PartsEditDevEntry>RJW: 부위 편집</PartsEditDevEntry>
 </LanguageData>
