@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <GeologicalLandforms.Editor.Open>열기</GeologicalLandforms.Editor.Open>
   <GeologicalLandforms.Editor.Open.Tooltip>수정할 지형을 선택하세요</GeologicalLandforms.Editor.Open.Tooltip>
@@ -104,7 +104,7 @@
   <HugsLogPublisher.unlimitedLogSize>로그 크기를 무제한으로 허용</HugsLogPublisher.unlimitedLogSize>
   <HugsLogPublisher.unlimitedLogSize_tip>비활성화하면 매우 긴 로그가 문제를 일으키지 않도록 로그 크기가 10K 줄로 제한됩니다.</HugsLogPublisher.unlimitedLogSize_tip>
   <HugsLogPublisher.githubToken>액세스 토큰</HugsLogPublisher.githubToken>
-  <HugsLogPublisher.githubToken_tip>설정 시 자신의 GitHub 계정에 로그를 게시합니다. GitHub > 설정 > 개발자 설정 > 개인 액세스 토큰에서 토큰을 붙여넣습니다. 공개 HugsLib 계정에 게시하려면 비워둡니다.\n\n귀하의 계정에 게시된 로그는 링크를 통해서만 다른 사람이 볼 수 있습니다.</HugsLogPublisher.githubToken_tip>
+  <HugsLogPublisher.githubToken_tip>설정 시 자신의 GitHub 계정에 로그를 게시합니다. GitHub &gt; 설정 &gt; 개발자 설정 &gt; 개인 액세스 토큰에서 토큰을 붙여넣습니다. 공개 HugsLib 계정에 게시하려면 비워둡니다.\n\n귀하의 계정에 게시된 로그는 링크를 통해서만 다른 사람이 볼 수 있습니다.</HugsLogPublisher.githubToken_tip>
   <HugsLogPublisher.toClipboardBtn>클립보드에</HugsLogPublisher.toClipboardBtn>
   <HugsLogPublisher.uploadBtn>업로드</HugsLogPublisher.uploadBtn>
   <HugsLogPublisher.filesBtn>파일</HugsLogPublisher.filesBtn>
@@ -135,7 +135,6 @@
   <GeologicalLandforms.Settings.BiomeConfig.Header>각 생물 군계에 대해 지형(LF) 및 다중 생물 군계 특징(MB)을 표시할 수 있는지 여부를 구성합니다:</GeologicalLandforms.Settings.BiomeConfig.Header>
   <GeologicalLandforms.Settings.BiomeConfig.ExcludedByAuthor>작성자가 사전에 구성함</GeologicalLandforms.Settings.BiomeConfig.ExcludedByAuthor>
   <GeologicalLandforms.Settings.Debug.ShowWorldTileDebugInfo>고급 디버그 정보 표시</GeologicalLandforms.Settings.Debug.ShowWorldTileDebugInfo>
-  <GeologicalLandforms.Settings.Debug.EnableMapDebugPawnCommands>지도 디버그 폰 명령 활성화</GeologicalLandforms.Settings.Debug.EnableMapDebugPawnCommands>
   <GeologicalLandforms.Settings.Debug.UnidirectionalBiomeTransitions>단방향 바이옴 전환 알고리즘 사용(실험)</GeologicalLandforms.Settings.Debug.UnidirectionalBiomeTransitions>
   <GeologicalLandforms.Settings.Debug.DisableBiomeTransitionPostProcessing>생물군계 전환 후처리 비활성화</GeologicalLandforms.Settings.Debug.DisableBiomeTransitionPostProcessing>
   <GeologicalLandforms.Settings.Debug.BiomeGridEnabledForCurrentMap>생물군계 그리드 활성화(현재 맵에서)</GeologicalLandforms.Settings.Debug.BiomeGridEnabledForCurrentMap>
@@ -211,7 +210,7 @@
   <GeologicalLandforms.Landform.Crater>분화구</GeologicalLandforms.Landform.Crater>
   <GeologicalLandforms.Landform.Oasis>오아시스</GeologicalLandforms.Landform.Oasis>
   <GeologicalLandforms.Landform.SwampHill>늪지 언덕</GeologicalLandforms.Landform.SwampHill>
-  <GeologicalLandforms.Landform.IceOasis>아이스 오아시스</GeologicalLandforms.Landform.IceOasis>
+  <GeologicalLandforms.Landform.IceOasis>얼음 오아시스</GeologicalLandforms.Landform.IceOasis>
   <GeologicalLandforms.Landform.Badlands>악지</GeologicalLandforms.Landform.Badlands>
   <GeologicalLandforms.Landform.DesertPlateau>사막 고원</GeologicalLandforms.Landform.DesertPlateau>
   <GeologicalLandforms.Landform.Skerry>암초</GeologicalLandforms.Landform.Skerry>
@@ -221,4 +220,25 @@
   <GeologicalLandforms.Landform.CaveEntrance>동굴 입구</GeologicalLandforms.Landform.CaveEntrance>
   <GeologicalLandforms.Landform.Sinkhole>싱크홀</GeologicalLandforms.Landform.Sinkhole>
   <GeologicalLandforms.Landform.SecludedValley>외딴 계곡</GeologicalLandforms.Landform.SecludedValley>
+  <GeologicalLandforms.Settings.Landform.AllowedBiomes>지형</GeologicalLandforms.Settings.Landform.AllowedBiomes>
+  <GeologicalLandforms.Settings.Landform.AllowedBiomes.Some>({0} 지형 선택됨)</GeologicalLandforms.Settings.Landform.AllowedBiomes.Some>
+  <GeologicalLandforms.Settings.Landform.WorldObjectNearby>근처 세계 객체</GeologicalLandforms.Settings.Landform.WorldObjectNearby>
+  <GeologicalLandforms.Settings.Landform.WorldObjectNearby.Some>({0} 세계 객체)</GeologicalLandforms.Settings.Landform.WorldObjectNearby.Some>
+  <GeologicalLandforms.Settings.Landform.AllowedRiverTypes>강 형태</GeologicalLandforms.Settings.Landform.AllowedRiverTypes>
+  <GeologicalLandforms.Settings.Landform.AllowedRiverTypes.Some>({0} 형태 선택됨)</GeologicalLandforms.Settings.Landform.AllowedRiverTypes.Some>
+  <GeologicalLandforms.Settings.Landform.RiverOrRoadRequirement>강 또는 도로</GeologicalLandforms.Settings.Landform.RiverOrRoadRequirement>
+  <GeologicalLandforms.Settings.Landform.AddRequirement>요구 사항 추가</GeologicalLandforms.Settings.Landform.AddRequirement>
+  <GeologicalLandforms.Settings.Landform.LayerId>층</GeologicalLandforms.Settings.Landform.LayerId>
+  <GeologicalLandforms.Integration.MapDesigner.RiverCardOverride>지질학적 지형에서 강과 해안을 무시</GeologicalLandforms.Integration.MapDesigner.RiverCardOverride>
+  <GeologicalLandforms.Settings.Landforms.ReplacesVanillaRiver>바닐라 강 교체</GeologicalLandforms.Settings.Landforms.ReplacesVanillaRiver>
+  <GeologicalLandforms.Settings.Debug.BiomeGridEntryRegenerateAllShort>재생성</GeologicalLandforms.Settings.Debug.BiomeGridEntryRegenerateAllShort>
+  <GeologicalLandforms.Settings.Debug.BiomeGridEntryRegenerateAll>세계 타일에서 재생성</GeologicalLandforms.Settings.Debug.BiomeGridEntryRegenerateAll>
+  <GeologicalLandforms.Landform.River>강</GeologicalLandforms.Landform.River>
+  <GeologicalLandforms.Landform.RiverTerrain>강 지형</GeologicalLandforms.Landform.RiverTerrain>
+  <GeologicalLandforms.Landform.RiverConfluence>합류점</GeologicalLandforms.Landform.RiverConfluence>
+  <GeologicalLandforms.Landform.RiverSource>발원지</GeologicalLandforms.Landform.RiverSource>
+  <GeologicalLandforms.Landform.RiverIsland>하중도</GeologicalLandforms.Landform.RiverIsland>
+  <GeologicalLandforms.Landform.RiverDelta>삼각주</GeologicalLandforms.Landform.RiverDelta>
+  <GeologicalLandforms.Landform.Gorge>협곡</GeologicalLandforms.Landform.Gorge>
+  <GeologicalLandforms.Landform.Glacier>빙하</GeologicalLandforms.Landform.Glacier>
 </LanguageData>
