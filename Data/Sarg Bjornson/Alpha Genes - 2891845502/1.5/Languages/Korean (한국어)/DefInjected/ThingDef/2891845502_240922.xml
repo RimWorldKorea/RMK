@@ -63,10 +63,10 @@
   <AG_Mixedpack.description>유전자 정보 패키지가 들어있는 작은 캡슐입니다. 유전자 팩을 사용하려면 유전자 조합기 근처의 유전자 저장고에 넣고 이식 가능한 변형이식체로 결합해야 합니다.\n\n전원이 공급되는 유전자 저장고에 보관하지 않으면 이 유전자 팩은 서서히 변질됩니다.\n\n혼합 유전자 팩에는 알파 유전자와 표준 유전자의 조합이 들어 있습니다.</AG_Mixedpack.description>
   <AG_GeneRemover.label>유전자 제거기</AG_GeneRemover.label>
   <AG_GeneRemover.description>인간 표적에서 무작위로 유전자를 제거할 수 있는 유전자 툴킷입니다. 이 제거는 매우 파괴적이며 무작위로 유전자를 표적으로 삼습니다. 그 결과 대상은 3일 동안 혼수 상태에 빠지게 됩니다. 혼수 상태에 빠진 정착민에게 이 제거제를 사용하면 아무런 효과가 없습니다.</AG_GeneRemover.description>
-  <AG_Endogenefier.label>생식인자 생성기</AG_Endogenefier.label>
-  <AG_Endogenefier.description>인간 표적의 무작위 변형인자를 생식인자로 변환할 수 있는 유전자 툴킷입니다. 그 결과 대상은 3일 동안 혼수 상태에 빠지게 됩니다. 혼수상태에 빠진 정착민에게 생식인자 생성기를 사용하면 효과가 없습니다.</AG_Endogenefier.description>
-  <AG_Xenogenefier.label>변형인자 생성기</AG_Xenogenefier.label>
-  <AG_Xenogenefier.description>인간 표적의 무작위 생식인자를 변형인자로 변환할 수 있는 유전자 툴킷입니다. 그 결과 대상은 3일 동안 혼수 상태에 빠지게 됩니다. 혼수상태에 빠진 정착민에게 변형인자 생성기를 사용하면 효과가 없습니다.</AG_Xenogenefier.description>
+  <AG_Endogenefier.label>유전자 생식화 장치</AG_Endogenefier.label>
+  <AG_Endogenefier.description>인간 표적의 무작위 변형인자를 생식인자로 변환할 수 있는 유전자 툴킷입니다. 그 결과 대상은 3일 동안 혼수 상태에 빠지게 됩니다. 혼수상태에 빠진 정착민에게 유전자 생식화 장치를 사용하면 효과가 없습니다.</AG_Endogenefier.description>
+  <AG_Xenogenefier.label>유전자 이종화 장치</AG_Xenogenefier.label>
+  <AG_Xenogenefier.description>인간 표적의 무작위 생식인자를 변형인자로 변환할 수 있는 유전자 툴킷입니다. 그 결과 대상은 3일 동안 혼수 상태에 빠지게 됩니다. 혼수상태에 빠진 정착민에게 유전자 이종화 장치를 사용하면 효과가 없습니다.</AG_Xenogenefier.description>
   <AG_XenotypeNullifier.label>변형인자 제거기</AG_XenotypeNullifier.label>
   <AG_XenotypeNullifier.description>대상에게서 모든 변형인자를 제거하여 일반인으로 되돌릴 수 있는 유전자 툴킷입니다. 그 결과 대상은 3일 동안 혼수 상태에 빠지게 됩니다.</AG_XenotypeNullifier.description>
   <AG_XenotypeInjector.label>변형인자 주입기</AG_XenotypeInjector.label>
@@ -147,19 +147,84 @@
   <AG_GrayBox.description>부자연스러운 회색 상자입니다. 특징이 없고 매끈합니다. 콘크리트나 금속을 포함해 알려진 어떠한 물질과도 다릅니다.</AG_GrayBox.description>
   <AG_FleshBulb_OnAir.label>살 전구</AG_FleshBulb_OnAir.label>
   <AG_FleshBulb.label>살 전구</AG_FleshBulb.label>
-  <AG_Mote_FuelBit.label>Mote</AG_Mote_FuelBit.label>
-  <AG_Mote_BloodBit.label>Mote</AG_Mote_BloodBit.label>
-  <AG_Mote_WaterBit.label>Mote</AG_Mote_WaterBit.label>
-  <AG_Mote_BileBit.label>Mote</AG_Mote_BileBit.label>
-  <AG_Mote_CryoBit.label>Mote</AG_Mote_CryoBit.label>
-  <AG_MoteSpawn.label>Mote</AG_MoteSpawn.label>
-  <AG_GeneRemover.comps.1.useLabel>유전자 제거기 사용</AG_GeneRemover.comps.1.useLabel>
-  <AG_Endogenefier.comps.1.useLabel>생식인자 생성기 사용</AG_Endogenefier.comps.1.useLabel>
-  <AG_Xenogenefier.comps.1.useLabel>변형인자 생성기 사용</AG_Xenogenefier.comps.1.useLabel>
-  <AG_XenotypeNullifier.comps.1.useLabel>변형인자 제거기 사용</AG_XenotypeNullifier.comps.1.useLabel>
-  <AG_XenotypeInjector.comps.1.useLabel>변형인자 주입기 사용</AG_XenotypeInjector.comps.1.useLabel>
-  <AG_GermlineMutator.comps.1.useLabel>유전자 변형기 사용</AG_GermlineMutator.comps.1.useLabel>
-  <AG_GenepackTweaker.comps.1.useLabel>유전체 팩 조정기 사용</AG_GenepackTweaker.comps.1.useLabel>
-  <AG_GenepackDisruptor.comps.1.useLabel>유전체 팩 변형기 사용</AG_GenepackDisruptor.comps.1.useLabel>
-  <AG_Ability_Mote.label>Mote</AG_Ability_Mote.label>
+  <AG_ForsakenForge.label>포세이큰 대장간</AG_ForsakenForge.label>
+  <AG_ForsakenForge.description>포세이큰 무기와 도구를 제작하기 위한 전용 전기 대장간입니다. 포세이큰 지식 유전자를 가진 정착민만 건설할 수 있습니다.</AG_ForsakenForge.description>
+  <AG_ArchoGeneRemover.label>초월공학 유전자 제거기</AG_ArchoGeneRemover.label>
+  <AG_ArchoGeneRemover.description>인간의 특정 유전자를 제거할 수 있는 초월공학 도구입니다. 대상은 3일 동안 혼수상태에 빠지게 됩니다. 이미 혼수상태에 빠진 정착민에게 유전자 제거기를 사용한다 해도 효과가 없습니다.</AG_ArchoGeneRemover.description>
+  <AG_ArchoGeneRemover.comps.0.useLabel>초월공학 유전자 제거기 사용</AG_ArchoGeneRemover.comps.0.useLabel>
+  <AG_ArchoEndogenefier.label>초월공학 유전자 생식화 장치</AG_ArchoEndogenefier.label>
+  <AG_ArchoEndogenefier.description>인간의 특정 이종 유전자를 생식 유전자로 전환할 수 있는 초월공학 장치입니다. 대상은 3일 동안 혼수상태에 빠지게 됩니다. 이미 혼수상태에 빠진 정착민에게 유전자 생식화 장치를 사용한다 해도 효과가 없습니다.</AG_ArchoEndogenefier.description>
+  <AG_ArchoEndogenefier.comps.0.useLabel>초월공학 유전자 생식화 장치 사용</AG_ArchoEndogenefier.comps.0.useLabel>
+  <AG_ArchoXenogenefier.label>초월공학 유전자 이종화 장치</AG_ArchoXenogenefier.label>
+  <AG_ArchoXenogenefier.description>인간의 특정 생식 유전자를 이종 유전자로 전환할 수 있는 초월공학 장치입니다. 대상은 3일 동안 혼수상태에 빠지게 됩니다. 이미 혼수상태에 빠진 정착민에게 유전자 이종화 장치를 사용한다 해도 효과가 없습니다.</AG_ArchoXenogenefier.description>
+  <AG_ArchoXenogenefier.comps.0.useLabel>초월공학 유전자 이종화 장치 사용</AG_ArchoXenogenefier.comps.0.useLabel>
+  <AG_Ultima.label>울티마 천</AG_Ultima.label>
+  <AG_Ultima.description>포세이큰 갑옷 제작에 사용되는 천입니다. 포세이큰 지식 유전자를 가진 정착민만이 파종할 수 있는 셉티뮴을 재료로 생산할 수 있습니다.</AG_Ultima.description>
+  <AG_Forsaken_Hood.label>포세이큰 두건</AG_Forsaken_Hood.label>
+  <AG_Forsaken_Hood.description>포세이큰 두건은 착용자의 정신을 보호해 줍니다.</AG_Forsaken_Hood.description>
+  <AG_Forsaken_Hood_Child.label>포세이큰 아동용 두건</AG_Forsaken_Hood_Child.label>
+  <AG_Forsaken_Hood_Child.description>포세이큰 두건은 착용자의 정신을 보호해 줍니다.</AG_Forsaken_Hood_Child.description>
+  <AG_ForsakenCloak.description>사냥을 위해 제작된 망토입니다. 가벼운 보호막 생성기가 장착되어 있습니다.</AG_ForsakenCloak.description>
+  <AG_ForsakenCloak.label>포세이큰 망토</AG_ForsakenCloak.label>
+  <AG_ForsakenCloak_Child.description>사냥을 위해 제작된 망토입니다. 가벼운 보호막 생성기가 장착되어 있습니다.</AG_ForsakenCloak_Child.description>
+  <AG_ForsakenCloak_Child.label>포세이큰 아동용 망토</AG_ForsakenCloak_Child.label>
+  <AG_ForsakenMarineHelmet.label>포세이큰 헬멧</AG_ForsakenMarineHelmet.label>
+  <AG_ForsakenMarineHelmet.description>포세이큰의 첨단 기술을 활용해 제작된 전투용 헬멧입니다. 내구도가 뛰어나고 사격 보조 기능 또한 장착되어 있습니다.</AG_ForsakenMarineHelmet.description>
+  <AG_ForsakenMarineHelmetPsy.label>포세이큰 초능력 헬멧</AG_ForsakenMarineHelmetPsy.label>
+  <AG_ForsakenMarineHelmetPsy.description>포세이큰의 첨단 기술을 활용해 제작된 전투용 헬멧입니다. 내구도가 뛰어나고 사격 보조 기능 또한 장착되어 있습니다. 정신 민감도를 올리는 장치가 포함되어 있습니다.</AG_ForsakenMarineHelmetPsy.description>
+  <AG_ForsakenMarineArmor.label>포세이큰 갑옷</AG_ForsakenMarineArmor.label>
+  <AG_ForsakenMarineArmor.description>포세이큰의 첨단 기술을 활용해 제작된 전투용 헬멧입니다. 내구도가 뛰어나고 편안한 착용감을 줍니다.</AG_ForsakenMarineArmor.description>
+  <AG_Filth_BloodSmear_Yellow.label>노란색 피 얼룩</AG_Filth_BloodSmear_Yellow.label>
+  <AG_Filth_YellowBlood.label>노란색 피</AG_Filth_YellowBlood.label>
+  <AG_Septimum.label>셉티뮴</AG_Septimum.label>
+  <AG_Septimum.description>울티마 섬유를 생산하는 작물입니다. 이 섬유는 포세이큰 갑옷을 만드는 데 사용됩니다. 포세이큰 지식 유전자를 가진 정착민만이 이 식물을 심을 수 있습니다.</AG_Septimum.description>
+  <AG_Gamma.label>감마</AG_Gamma.label>
+  <AG_Gamma.description>아름다운 외계 식물입니다. 포세이큰들이 광원으로 자주 사용됩니다. 독성이 있으므로 먹는 것은 추천하지 않습니다. 포세이큰 지식 유전자를 가진 정착민만이 이 식물을 심을 수 있습니다.</AG_Gamma.description>
+  <AG_DarkGamma.label>흑감마</AG_DarkGamma.label>
+  <AG_DarkGamma.description>아름다운 외계 식물입니다. 포세이큰들이 광원으로 자주 사용됩니다. 독성이 있으므로 먹는 것은 추천하지 않습니다. 포세이큰 지식 유전자를 가진 정착민만이 이 식물을 심을 수 있습니다.</AG_DarkGamma.description>
+  <AG_ForsakenSniper.label>포세이큰 저격소총</AG_ForsakenSniper.label>
+  <AG_ForsakenSniper.description>긴 사거리와 높은 정확도를 가진 포세이큰제 저격소총입니다.</AG_ForsakenSniper.description>
+  <AG_ForsakenSniper.verbs.Verb_Shoot.label>포세이큰 저격소총</AG_ForsakenSniper.verbs.Verb_Shoot.label>
+  <AG_ForsakenSniper.tools.0.label>총열</AG_ForsakenSniper.tools.0.label>
+  <AG_SniperPulse.label>포세이큰 저격총 파동</AG_SniperPulse.label>
+  <AG_ForsakenShotgun.label>포세이큰 산탄충</AG_ForsakenShotgun.label>
+  <AG_ForsakenShotgun.description>근거리에서 뛰어난 정확도와 파괴력을 선사하는 포세이큰제 산탄총입니다.</AG_ForsakenShotgun.description>
+  <AG_ForsakenShotgun.verbs.Verb_Shoot.label>포세이큰 산탄충</AG_ForsakenShotgun.verbs.Verb_Shoot.label>
+  <AG_ForsakenShotgun.tools.0.label>개머리판</AG_ForsakenShotgun.tools.0.label>
+  <AG_ForsakenShotgun.tools.1.label>총열</AG_ForsakenShotgun.tools.1.label>
+  <AG_ShotgunPulse.label>포세이큰 산탄총 파동</AG_ShotgunPulse.label>
+  <AG_ForsakenAssaultRifle.label>포세이큰 돌격소총</AG_ForsakenAssaultRifle.label>
+  <AG_ForsakenAssaultRifle.description>포세이큰제 돌격소총은 구경이 다소 작고 재장전 시간이 길지만 점사 횟수가 많고 장갑 관통력이 높으며 명중률이 좋습니다.</AG_ForsakenAssaultRifle.description>
+  <AG_ForsakenAssaultRifle.verbs.Verb_Shoot.label>포세이큰 돌격소총</AG_ForsakenAssaultRifle.verbs.Verb_Shoot.label>
+  <AG_ForsakenAssaultRifle.tools.0.label>개머리판</AG_ForsakenAssaultRifle.tools.0.label>
+  <AG_ForsakenAssaultRifle.tools.1.label>총열</AG_ForsakenAssaultRifle.tools.1.label>
+  <AG_ForsakenAssaultRiflePulse.label>포세이큰 돌격소총 파동</AG_ForsakenAssaultRiflePulse.label>
+  <AG_ForsakenLongBlade.label>포세이큰 장검</AG_ForsakenLongBlade.label>
+  <AG_ForsakenLongBlade.description>포세이큰제 장검입니다. 큰 피해를 주지만 다루기 어렵습니다.</AG_ForsakenLongBlade.description>
+  <AG_ForsakenLongBlade.tools.0.label>손잡이</AG_ForsakenLongBlade.tools.0.label>
+  <AG_ForsakenLongBlade.tools.1.label>칼끝</AG_ForsakenLongBlade.tools.1.label>
+  <AG_ForsakenLongBlade.tools.2.label>칼날</AG_ForsakenLongBlade.tools.2.label>
+  <AG_ForsakenBattleAxe.label>포세이큰 전투도끼</AG_ForsakenBattleAxe.label>
+  <AG_ForsakenBattleAxe.description>포세이큰제 전투도끼입니다. 큰 피해를 주지만 다루기 어렵습니다.</AG_ForsakenBattleAxe.description>
+  <AG_ForsakenBattleAxe.tools.0.label>손잡이</AG_ForsakenBattleAxe.tools.0.label>
+  <AG_ForsakenBattleAxe.tools.1.label>도끼끝</AG_ForsakenBattleAxe.tools.1.label>
+  <AG_ForsakenBattleAxe.tools.2.label>도끼날</AG_ForsakenBattleAxe.tools.2.label>
+  <AG_ForsakenBulkSword.label>포세이큰 양산형 검</AG_ForsakenBulkSword.label>
+  <AG_ForsakenBulkSword.description>포세이큰 보병이 일반적으로 사용하는 무기입니다. 관통력은 낮지만 다른 무기들에 비해 상대적으로 다루기 용이합니다.</AG_ForsakenBulkSword.description>
+  <AG_ForsakenBulkSword.tools.0.label>손잡이</AG_ForsakenBulkSword.tools.0.label>
+  <AG_ForsakenBulkSword.tools.1.label>도끼끝</AG_ForsakenBulkSword.tools.1.label>
+  <AG_ForsakenBulkSword.tools.2.label>도끼날</AG_ForsakenBulkSword.tools.2.label>
+  <AG_ForsakenSpear.label>포세이큰 창</AG_ForsakenSpear.label>
+  <AG_ForsakenSpear.description>포세이큰제 창입니다. 큰 피해를 주지만 다루기 어렵습니다.</AG_ForsakenSpear.description>
+  <AG_ForsakenSpear.tools.0.label>대</AG_ForsakenSpear.tools.0.label>
+  <AG_ForsakenSpear.tools.1.label>끝</AG_ForsakenSpear.tools.1.label>
+  <AG_ForsakenBow.label>포세이큰 활</AG_ForsakenBow.label>
+  <AG_ForsakenBow.description>포세이큰제 활은 매우 정확하게 적을 맞춰 큰 피해를 줍니다. 모서리가 날커롭게 조각되어 근접 전투에서도 상당한 효율을 보입니다.</AG_ForsakenBow.description>
+  <AG_ForsakenBow.verbs.Verb_Shoot.label>포세이큰 활</AG_ForsakenBow.verbs.Verb_Shoot.label>
+  <AG_ForsakenBow.tools.0.label>활대</AG_ForsakenBow.tools.0.label>
+  <AG_ForsakenArrow.label>포세이큰 화살</AG_ForsakenArrow.label>
+  <AG_ForsakenHydra.label>포세이큰 블랙 히드라</AG_ForsakenHydra.label>
+  <AG_ForsakenHydra.description>포세이큰 블랙 히드라는 이온화된 전기 구름 기폭 장치로, 번개를 발사 지점으로 끌어들이는 특수 무기 시스템입니다. 전설에 따르면 이 무기를 만들기 위해 히드라의 심장이 필요했다고 합니다.</AG_ForsakenHydra.description>
+  <AG_ForsakenHydra.verbs.Verb_Shoot.label>포세이큰 블랙 히드라</AG_ForsakenHydra.verbs.Verb_Shoot.label>
+  <AG_Bullet_HydraBlast.label>히드라 블래스트</AG_Bullet_HydraBlast.label>
 </LanguageData>
