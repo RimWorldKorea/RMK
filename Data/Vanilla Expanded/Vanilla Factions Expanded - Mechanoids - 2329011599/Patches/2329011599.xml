@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VFEM_IndustrialCoffeeRoaster"]/label</xpath>
+    <value>
+      <label>산업용 커피 로스터</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VFEM_IndustrialCoffeeRoaster"]/description</xpath>
+    <value>
+      <description>산업용 크기의 오븐으로, 커피콩을 바짝 구운 다음 갈아냅니다.\n그런 다음 끓는 물을 넣고 찌꺼기를 여과하여 대량의 커피를 만듭니다.\n근처의 호퍼에는 다양한 커피 관련 음료를 생산하기 위해 다른 제품을 보관할 수도 있습니다.\n\n&amp;lt;color=#33d733&amp;gt;자동화 계열:&amp;lt;/color&amp;gt; 산업용 커피 로스터는 어떤 자동화 계열의 일부가 아니라 독립형 건물입니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="VFE_IndustrialRoasting"]/label</xpath>
+    <value>
+      <label>산업용 로스팅</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="VFE_IndustrialRoasting"]/description</xpath>
+    <value>
+      <description>커피 원두를 바싹 굽는 산업용 오븐을 연구하세요. 그리고 끓는 물을 넣고 여과를 하면 많은 양의 커피를 만들 수 있습니다. 근처 호퍼들은 또한 커피와 관련된 많은 음료들을 생산하기 위해 다른 원자재들을 보관할 수 있습니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VFEM_ProvisionsPackagingFactory_Cannery"]/label</xpath>
+    <value>
+      <label>캔 밀봉기</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VFEM_ProvisionsPackagingFactory_Cannery"]/description</xpath>
+    <value>
+      <description>날음식을 단단히 밀봉하여 무기한 지속될 수 있도록 포장해주는 중간 크기의 공장 모듈입니다.\n건설 후 추가 강철이 필요하지 않습니다.\n\n&amp;lt;color=#33d733&amp;gt;자동화 계열:&amp;lt;/color&amp;gt; 식량 처리 공장 계열의 일부입니다. (P.P.F)</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VFEM_IndustrialCheesePress"]/label</xpath>
+    <value>
+      <label>산업용 치즈 압착기</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VFEM_IndustrialCheesePress"]/description</xpath>
+    <value>
+      <description>응유가 형성되기 시작할 때까지 우유를 빠르게 가열할 수 있는 탱크가 자동으로 변형되어 한번에 여러개의 치즈 바퀴에 밀어 넣습니다.\n근처의 호퍼들은 몇 개의 치즈 바퀴를 채우기에 충분한 우유를 담을 수 있고 완성된 치즈 바퀴는 자동으로 배출될 것입니다.\n양질의 치즈는 일반적인 숙성 방법보다 더 빨리 강제로 숙성시킬 수 있습니다.\n\n&amp;lt;color=#33d733&amp;gt;자동화 계열:&amp;lt;/color&amp;gt; 산업용 치즈 압착기는 어떤 자동화 계열의 일부가 아니라 독립형 건물입니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="VFE_CheeseMaking"]/label</xpath>
+    <value>
+      <label>산업용 치즈 제조법</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="VFE_CheeseMaking"]/description</xpath>
+    <value>
+      <description>응유가 형성되기 시작할 때까지 우유를 빠르게 가열할 수 있는 탱크를 연구한 후, 자동으로 분배하여 한번에 여러 치즈 바퀴에 밀어넣습니다.\n근처의 호퍼들은 몇 개의 바퀴를 채우기에 충분한 우유를 담을 수 있고, 완성된 치즈는 자동으로 배출될 것입니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VFEM_IndustrialSoupVat"]/label</xpath>
+    <value>
+      <label>산업용 수프 통</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VFEM_IndustrialSoupVat"]/description</xpath>
+    <value>
+      <description>대형 통이 장착되어 있고, 상단에 회전식 날개가 여러개 달려 있습니다.\n연결된 호퍼에는 다양한 생식품을 채울 수 있으며, 통을 진공 청소기로 청소하고, 생식품을 얇게 썰어 다양한 수프로 깊게 끓입니다.\n완성된 수프는 별도의 처리단계 없이 다음 호퍼에게 전달됩니다.\n입출력은 모두 일괄적으로 이루어지며 전통적인 느린 요리보다 훨씬 적은 관리가 필요합니다.\n\n&amp;lt;color=#33d733&amp;gt;자동화 계열:&amp;lt;/color&amp;gt; 산업용 수프 통은 어떤 자동화 계열의 일부가 아니라 독립형 건물입니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="VFE_IndustrialSoups"]/label</xpath>
+    <value>
+      <label>산업용 수프</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="VFE_IndustrialSoups"]/description</xpath>
+    <value>
+      <description>최상단에 회전식 날개가 달린 매우 큰 통을 연구합니다.\n첨부된 호퍼는 다양한 생식품으로 채워질 수 있습니다. 통을 진공청소기로 청소하고, 재료들을 얇게 썰어 다양한 수프로 깊게 끓입니다. 완성된 수프는 별도의 처리단계 없이 다음 호퍼로 이동됩니다.\n입력과 출력은 모두 일괄적으로 이루어지며 전통적인 느린 요리보다 훨씬 적은 관리가 필요합니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="VFE_IndustrialBeekeeping"]/label</xpath>
+    <value>
+      <label>산업용 양봉</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="VFE_IndustrialBeekeeping"]/description</xpath>
+    <value>
+      <description>양봉가들이 평소보다 훨씬 빠르게 벌꿀을 추출할 수 있도록 해주는 로봇이 달린 인공 양봉장을 연구합니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VFE_IndustrialApiary"]/label</xpath>
+    <value>
+      <label>산업용 양봉장</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VFE_IndustrialApiary"]/description</xpath>
+    <value>
+      <description>로봇이 다루는 인공 양봉장입니다. 양봉가들이 평소보다 훨씬 더 빨리 벌꿀을 추출할 수 있습니다. 수작업으로 손질할 필요 없이, 약간의 전기와 근처의 많은 꽃들만이 필요합니다. 산업용 양봉장은 꽃의 근처에 놓이면 자연히 야생 벌들을 끌어들여 새로운 보금자리를 만들게 합니다. 시간이 지남에 따라 벌들은 직접 수확해 먹거나, 나중에 벌꿀술로 발효될 꿀을 생산합니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VFEM_AquaponicsBasin"]/label</xpath>
+    <value>
+      <label>아쿠아포닉스 수조통</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VFEM_AquaponicsBasin"]/description</xpath>
+    <value>
+      <description>식물성 물질을 녹조 같은 맛으로 가공하여, 깊은 물을 채운 대야에 살고 있는 물고기들에게 지속적으로 공급합니다.\n안에 있는 물고기는 최적의 수질 관리와 온도에서 살기 때문에 꽤 빨리 번식합니다.\n다 자란 생선은 근처의 출력 호퍼에 보관됩니다.\n\n&amp;lt;color=#33d733&amp;gt;자동화 계열:&amp;lt;/color&amp;gt; 아쿠아포닉스 수조통은 어떤 자동화 계열의 일부가 아니라 독립형 건물입니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="VFE_Aquaponics"]/label</xpath>
+    <value>
+      <label>아쿠아포닉스</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="VFE_Aquaponics"]/description</xpath>
+    <value>
+      <description>식물성 물질을 해조류와 같은 식감으로 처리 할 수 있는 깊은 물로 채워진 수조를 연구하여 물고기를 양식합니다.\n안에 있는 물고기는 최적의 수질 관리와 온도에서 살기 때문에 꽤 빨리 번식합니다.\n다 자란 생선은 근처의 출력 호퍼에 보관됩니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VFE_LiquorMixer"]/label</xpath>
+    <value>
+      <label>주류 혼합기</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VFE_LiquorMixer"]/description</xpath>
+    <value>
+      <description>압력솥의 개념을 도취 수준으로 끌어올리는 놀라운 기계입니다. 삽입된 재료는 고운 반죽로 변해 촉매 발효 촉진제가 장착된 관의 뜨거운 액체와 혼합됩니다. 이 과정에서 완전히 혼합되고, 고압 탱크로 보내지기 전에 냉각되면서 산소를 공급받습니다. 공정이 가속되어 맛에 영향을 미치고, 발효액은 더 많은 화학 물질과 전기 분해로 휘저어지고 자극되어 원하는 결과에 가까운 맛과 알코올 함량을 복제합니다. 완성되면, 병에 담아 알맞은 온도로 식힙니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VFE_FishTrapper"]/label</xpath>
+    <value>
+      <label>물고기 덫 설치기</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VFE_FishTrapper"]/description</xpath>
+    <value>
+      <description>물에 띄울 수 있는 커다란 기계로, 내장된 그물을 통해 물고기를 유인하고 잡을 수 있습니다. 포획된 물고기는 즉시 질식해 운반과 가공을 위해 분배됩니다.</description>
+    </value>
+  </Operation>
+</Patch>
