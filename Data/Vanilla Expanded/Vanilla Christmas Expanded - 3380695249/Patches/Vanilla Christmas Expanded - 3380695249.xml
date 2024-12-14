@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Plants Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_UncookedBorscht"]/label</xpath>
+          <value>
+            <label>생 보르시치</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_UncookedBorscht"]/description</xpath>
+          <value>
+            <description>전통적인 비트 수프입니다. 먹을 수 있도록 전기 냄비에서 조리해야 합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Borscht"]/label</xpath>
+          <value>
+            <label>축제 보르시치</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Borscht"]/description</xpath>
+          <value>
+            <description>비트로 천천히 끓인 수프입니다. 겨울에 먹으면 모두에게 축제의 기쁨을 채워 주며, 축제의 호의를 부여합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="VCE_CookBorscht"]/label</xpath>
+          <value>
+            <label>보르시치 준비하기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="VCE_CookBorscht"]/description</xpath>
+          <value>
+            <description>비트를 사용해 전통적인 생 보르시치를 준비하세요.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="VCE_CookBorscht"]/jobString</xpath>
+          <value>
+            <jobString>보르시치 준비하는 중.</jobString>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
