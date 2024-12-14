@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Cooking Expanded</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Brewing Expanded</li>
+      </mods>
+      <match Class="PatchOperationFindMod">
+        <mods>
+          <li>Vanilla Plants Expanded - More Plants</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/ThoughtDef[defName="AC_ChichaMoradaAsIngredient"]/stages/li[1]/label</xpath>
+              <value>
+                <label>치차 모라다 칵테일 마심</label>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/ThoughtDef[defName="AC_ChichaMoradaAsIngredient"]/stages/li[1]/description</xpath>
+              <value>
+                <description>맛있어.</description>
+              </value>
+            </li>
+          </operations>
+        </match>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Cooking Expanded</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Plants Expanded - More Plants</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AC_ChichaMorada"]/label</xpath>
+            <value>
+              <label>치차 모라다</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AC_ChichaMorada"]/description</xpath>
+            <value>
+              <description>보라색 옥수수로 만든 전통 음료로, 계피와 정향으로 향을 내고 파인애플과 같은 과일로 맛을 냅니다. 짙은 보라색과 상쾌한 새콤달콤한 맛으로 알려진 치차 모라다는 문화적인 필수품일 뿐만 아니라 보라색 옥수수의 높은 안토시아닌 함량으로 인해 항산화 물질이 풍부합니다.\n\n&lt;color=#E5E54C&gt;거래 정보:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;재료:&lt;/color&gt; 치차 모라다 10개를 만드는 데 총 가치 99.40의 옥수수, 파인애플, 향신료, 설탕이 필요하며, 개당 35에 판매되므로 단위당 &lt;color=#33CC33&gt;71.60%&lt;/color&gt;의 이익을 얻습니다.\n\n&lt;color=#E5E54C&gt;노동 효율:&lt;/color&gt; 제작 시 7500의 작업량이 필요하며 작업량당 &lt;color=#33CC33&gt;0.05&lt;/color&gt;의 가치를 산출합니다.\n\n&lt;color=#E5E54C&gt;상단 운송:&lt;/color&gt; 무게는 0.3 kg이며, kg당 가치는 &lt;color=#33CC33&gt;116.66&lt;/color&gt;입니다.\n\n&lt;color=#E5E54C&gt;시간 효율:&lt;/color&gt; 평균적으로, 하루 이익은 &lt;color=#33CC33&gt;1.09&lt;/color&gt;입니다. (참고로, 야요는 0.35입니다)</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AC_ChichaMorada"]/ingestible/ingestCommandString</xpath>
+            <value>
+              <ingestCommandString>{0} 마시기</ingestCommandString>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AC_ChichaMorada"]/ingestible/ingestReportString</xpath>
+            <value>
+              <ingestReportString>{0} 마시는 중</ingestReportString>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AC_BrewChichaMorada"]/label</xpath>
+            <value>
+              <label>치차 모라다 양조</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AC_BrewChichaMorada"]/description</xpath>
+            <value>
+              <description>보라색 옥수수, 향신료, 과일을 사용하여 전통 음료인 치차 모라다를 양조합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AC_BrewChichaMorada"]/jobString</xpath>
+            <value>
+              <jobString>치차 모라다 양조 중</jobString>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Cooking Expanded</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Plants Expanded</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AC_Kimchi"]/label</xpath>
+            <value>
+              <label>김치</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AC_Kimchi"]/description</xpath>
+            <value>
+              <description>김치는 고춧가루, 마늘, 생강, 액젓 등의 양념을 섞어 채소를 발효시켜 만든 전통 음식입니다.\n\n&lt;color=#E5E54C&gt;거래 정보:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;재료:&lt;/color&gt; 김치 10개를 만드는 데 총 가치 35.20의 배추와 양념이 필요하며, 개당 8에 판매되므로 단위당 &lt;color=#33CC33&gt;56%&lt;/color&gt;의 이익을 얻습니다.\n\n&lt;color=#E5E54C&gt;노동 효율:&lt;/color&gt; 제작 시 1000의 작업량이 필요하며 작업량당 &lt;color=#33CC33&gt;0.08&lt;/color&gt;의 가치를 산출합니다.\n\n&lt;color=#E5E54C&gt;상단 운송:&lt;/color&gt; 무게는 0.2 kg이며, kg당 가치는 &lt;color=#33CC33&gt;40&lt;/color&gt;입니다.\n\n&lt;color=#E5E54C&gt;시간 효율:&lt;/color&gt; 평균적으로, 하루 이익은 &lt;color=#33CC33&gt;0.39&lt;/color&gt;입니다. (참고로, 야요는 0.35입니다)</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AC_PrepareKimchi"]/label</xpath>
+            <value>
+              <label>김치 담그기</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AC_PrepareKimchi"]/description</xpath>
+            <value>
+              <description>신선한 배추와 향신료를 톡 쏘고 매콤한 김치로 바꾸는 레시피입니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AC_PrepareKimchi"]/jobString</xpath>
+            <value>
+              <jobString>김치 담그는 중</jobString>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Plants Expanded</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Brewing Expanded - Coffees and Teas</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AC_Buttermilk"]/label</xpath>
+            <value>
+              <label>버터밀크</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AC_Buttermilk"]/description</xpath>
+            <value>
+              <description>우유와 레몬즙을 섞어 만든 톡 쏘는 맛의 약간 걸쭉한 유제품으로, 제빵과 요리에 흔히 사용되어 레시피에 수분과 은은한 산미를 더합니다.\n\n&lt;color=#E5E54C&gt;거래 정보:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;재료:&lt;/color&gt; 버터밀크 4개를 만드는 데 총 가치 31의 우유와 레몬이 필요하며, 개당 17에 판매되므로 단위당 &lt;color=#33CC33&gt;54.41%&lt;/color&gt;의 이익을 얻습니다.\n\n&lt;color=#E5E54C&gt;노동 효율:&lt;/color&gt; 제작 시 3000의 작업량이 필요하며 작업량당 &lt;color=#33CC33&gt;0.02&lt;/color&gt;의 가치를 산출합니다.\n\n&lt;color=#E5E54C&gt;상단 운송:&lt;/color&gt; 무게는 0.1 kg이며, kg당 가치는 &lt;color=#33CC33&gt;170&lt;/color&gt;입니다.\n\n&lt;color=#E5E54C&gt;시간 효율:&lt;/color&gt; 평균적으로, 하루 이익은 &lt;color=#33CC33&gt;0.19&lt;/color&gt;입니다. (참고로, 야요는 0.35입니다)</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AC_MakeButtermilk"]/label</xpath>
+            <value>
+              <label>버터밀크 만들기</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AC_MakeButtermilk"]/description</xpath>
+            <value>
+              <description>우유와 레몬으로 버터밀크를 만듭니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AC_MakeButtermilk"]/jobString</xpath>
+            <value>
+              <jobString>버터밀크 만드는 중</jobString>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Cooking Expanded</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Fishing Expanded</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AC_Surstromming"]/label</xpath>
+            <value>
+              <label>수르스트뢰밍</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AC_Surstromming"]/description</xpath>
+            <value>
+              <description>강하고 독특한 향과 강렬한 풍미로 널리 알려진 전통 요리입니다. 소금으로 생선을 처리하는 특수한 염장 과정을 거쳐 준비되며, 대담하고 톡 쏘는 맛으로 유명합니다.\n\n&lt;color=#E5E54C&gt;거래 정보:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;재료:&lt;/color&gt; 수르스트뢰밍 10개를 만드는 데 총 가치 65.70의 생선, 소금, 강철이 필요하며, 개당 15에 판매되므로 단위당 &lt;color=#33CC33&gt;56.20%&lt;/color&gt;의 이익을 얻습니다.\n\n&lt;color=#E5E54C&gt;노동 효율:&lt;/color&gt; 제작 시 2000의 작업량이 필요하며 작업량당 &lt;color=#33CC33&gt;0.08&lt;/color&gt;의 가치를 산출합니다.\n\n&lt;color=#E5E54C&gt;상단 운송:&lt;/color&gt; 무게는 0.1 kg이며, kg당 가치는 &lt;color=#33CC33&gt;150&lt;/color&gt;입니다.\n\n&lt;color=#E5E54C&gt;시간 효율:&lt;/color&gt; 하루에 얻는 생선의 양에 따라 계산하기가 매우 어렵습니다. 이는 생선의 크기, 정착민의 기술 숙련도 등에 따라 달라지기 때문입니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AC_PrepareSurstromming"]/label</xpath>
+            <value>
+              <label>수르스트뢰밍 만들기</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AC_PrepareSurstromming"]/description</xpath>
+            <value>
+              <description>생선을 보존 과정을 통해 염장하여 강렬한 풍미로 유명한 독특한 요리인 수르스트뢰밍으로 만듭니다. 레시피의 수율은 통조림을 얻기 위해 사용되는 생선에 따라 달라집니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AC_PrepareSurstromming"]/jobString</xpath>
+            <value>
+              <jobString>수르스트뢰밍 만드는 중</jobString>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AC_PrepareSurstromming"]/ingredients/li[1]/filter/customSummary</xpath>
+            <value>
+              <customSummary>생선</customSummary>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+</Patch>
