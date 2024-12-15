@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Anomaly</li>
+    </mods>
+    <nomatch Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AESleepEnhancerSerum"]/label</xpath>
+          <value>
+            <label>수면 증강 혈청</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AESleepEnhancerSerum"]/description</xpath>
+          <value>
+            <description>투명하고 점성이 있는 액체가 담긴 주사제입니다. 뇌간 근처에 주입하면 뉴런 부하를 분산시켜 수면을 통한 휴식을 더욱 효율적으로 만듭니다.\n\n효과는 일시적이며 중첩되지 않습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AESleepEnhancerSerum"]/ingestible/ingestCommandString</xpath>
+          <value>
+            <ingestCommandString>{0} 투여</ingestCommandString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AESleepEnhancerSerum"]/ingestible/ingestReportString</xpath>
+          <value>
+            <ingestReportString>{0} 투여 중</ingestReportString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AESleepEnhancerSerum"]/comps/li[2]/useLabel</xpath>
+          <value>
+            <useLabel>{0_label} 사용</useLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AERegenSerum"]/label</xpath>
+          <value>
+            <label>재생 혈청</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AERegenSerum"]/description</xpath>
+          <value>
+            <description>붉고 점성이 있는 액체가 든 주사제입니다. 혈류에 주입하면 손상된 조직에 영향을 주어 치유 속도를 증가시킵니다.\n\n효과는 일시적이며 중첩되지 않습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AERegenSerum"]/ingestible/ingestCommandString</xpath>
+          <value>
+            <ingestCommandString>{0} 투여</ingestCommandString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AERegenSerum"]/ingestible/ingestReportString</xpath>
+          <value>
+            <ingestReportString>{0} 투여 중</ingestReportString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AERegenSerum"]/comps/li[2]/useLabel</xpath>
+          <value>
+            <useLabel>{0_label} 사용</useLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AEFruitInhibitorSerum"]/label</xpath>
+          <value>
+            <label>거대 사과 억제 혈청</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AEFruitInhibitorSerum"]/description</xpath>
+          <value>
+            <description>보라색 액체가 든 주사제입니다. 혈류에 주입하면 거대 사과의 효과를 제거합니다.\n\n효과는 즉각적이지 않습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AEFruitInhibitorSerum"]/ingestible/ingestCommandString</xpath>
+          <value>
+            <ingestCommandString>{0} 투여</ingestCommandString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AEFruitInhibitorSerum"]/ingestible/ingestReportString</xpath>
+          <value>
+            <ingestReportString>{0} 투여 중</ingestReportString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AEFruitInhibitorSerum"]/comps/li[2]/useLabel</xpath>
+          <value>
+            <useLabel>{0_label} 사용</useLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AEBingingFoodSerum"]/label</xpath>
+          <value>
+            <label>과식 유도 혈청</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AEBingingFoodSerum"]/description</xpath>
+          <value>
+            <description>녹색 점성 액체가 든 주사제입니다. 식도에 주입하면 소화 시스템을 자극하여 매우 배고프게 만듭니다.\n\n효과는 일시적이며 중첩되지 않습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AEBingingFoodSerum"]/ingestible/ingestCommandString</xpath>
+          <value>
+            <ingestCommandString>{0} 투여</ingestCommandString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AEBingingFoodSerum"]/ingestible/ingestReportString</xpath>
+          <value>
+            <ingestReportString>{0} 투여 중</ingestReportString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AEBingingFoodSerum"]/comps/li[2]/useLabel</xpath>
+          <value>
+            <useLabel>{0_label} 사용</useLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AEHungerSuppressorSerum"]/label</xpath>
+          <value>
+            <label>식욕 억제 혈청</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AEHungerSuppressorSerum"]/description</xpath>
+          <value>
+            <description>녹색의 점성 액체가 담긴 주사기. 식도에 주입되며, 영양분을 함유하고 소화 시스템의 효율성을 높이기 위해 신진대사를 변화시키고 일시적으로 신체가 영양 저장소를 사용하도록 자극합니다.\n\n효과는 일시적이며 중첩되지 않습니다. 효과가 사라진 후에는 신진대사를 정상 상태로 회복하는 데 시간이 걸립니다.\n\n활성 효과는 1일 동안 지속됩니다. 영양 실조가 될 때까지 시간 x2 증가.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AEHungerSuppressorSerum"]/ingestible/ingestCommandString</xpath>
+          <value>
+            <ingestCommandString>{0} 섭취</ingestCommandString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AEHungerSuppressorSerum"]/ingestible/ingestReportString</xpath>
+          <value>
+            <ingestReportString>{0} 섭취 중</ingestReportString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AEHungerSuppressorSerum"]/comps/li[2]/useLabel</xpath>
+          <value>
+            <useLabel>{0_label} 사용</useLabel>
+          </value>
+        </li>
+      </operations>
+    </nomatch>
+  </Operation>
+</Patch>

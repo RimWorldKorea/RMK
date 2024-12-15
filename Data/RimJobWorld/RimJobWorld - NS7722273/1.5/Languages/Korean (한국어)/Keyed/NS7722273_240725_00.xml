@@ -1,0 +1,535 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Hediff_InsectEgg_egg> 알</Hediff_InsectEgg_egg>
+  <Hediff_InsectEgg_small>소형 알</Hediff_InsectEgg_small>
+  <Hediff_InsectEgg_medium>중형 알</Hediff_InsectEgg_medium>
+  <Hediff_InsectEgg_big>대형 알</Hediff_InsectEgg_big>
+  <Hediff_InsectEgg_huge>초대형 알</Hediff_InsectEgg_huge>
+  <Hediff_InsectEgg_fertilized>유정란</Hediff_InsectEgg_fertilized>
+  <Hediff_InsectEgg_unfertilized>무정란</Hediff_InsectEgg_unfertilized>
+  <PawnCantRapeCP>해당 정착민은 성관계를 하기에 부적합한 상태입니다.</PawnCantRapeCP>
+  <PawnCantRapeCP0>해당 정착민은 성관계가 불가능합니다.</PawnCantRapeCP0>
+  <PawnCantRapeCP1>주변에 해당 정착민의 애인이 있습니다.</PawnCantRapeCP1>
+  <PawnCantRapeCP2>해당 정착민은 수간에 아무런 흥미가 없습니다.</PawnCantRapeCP2>
+  <CommandSubmit>항복</CommandSubmit>
+  <CommandSubmitDesc>바닥에 스스로 엎드려, 앞으로 어떤 짓을 당하더라도 순응하도록 합니다.</CommandSubmitDesc>
+  <RJW_PregnantTitle>{0}(이)가 임신하였습니다.</RJW_PregnantTitle>
+  <RJW_PregnantText>{0}(이)가 임신하였습니다. 산모가 건강한 상태를 유지하지 못한다면 태아를 유산할 수 있으니 주의하십시오.</RJW_PregnantText>
+  <RJW_Contractions>{0}의 산통이 시작됐습니다. 곧 출산이 시작됩니다!</RJW_Contractions>
+  <RJW_GaveBirthTitle>출산했습니다.</RJW_GaveBirthTitle>
+  <RJW_GaveBirthText>{0}(은)는 성공적으로 출산하여</RJW_GaveBirthText>
+  <RJW_ABaby>아이를 얻었습니다.</RJW_ABaby>
+  <RJW_NBabies>아이를 {0}명 얻었습니다.</RJW_NBabies>
+  <RJW_PregnantNormal>건강한 아이를 얻었습니다...</RJW_PregnantNormal>
+  <RJW_PregnantStrange>아이에게 어떤 문제가 있는 것 같습니다...</RJW_PregnantStrange>
+  <RJW_PregnantMechStrange>아이에게 심각한 문제가 있는 것 같습니다...</RJW_PregnantMechStrange>
+  <RJW_GaveBirthEggTitle>알을 산란했습니다.</RJW_GaveBirthEggTitle>
+  <RJW_GaveBirthEggText>{0}(이)가 알을 낳았습니다.</RJW_GaveBirthEggText>
+  <RJW_EggContractions>{0}의 산통이 시작됐습니다. 곧 산란이 시작됩니다..</RJW_EggContractions>
+  <GoToModSettings>이 부분은 선택한 대상에 대해 해제되거나 사용할 수 없는 선택적 RJW 기능을 위해 할당되었습니다.\n모드의 옵션을 확인하셨으면, 이게 정상인지 묻지 마세요.</GoToModSettings>
+  <ForComfort>성노예 지정</ForComfort>
+  <ForComfortDesc>해당 정착민의 성적 의사결정권을 박탈합니다.</ForComfortDesc>
+  <ForComfortRefuseDesc>성노예가 되는 것을 원하지 않습니다.\n피학적 특성 필요</ForComfortRefuseDesc>
+  <ForService>창부 지정</ForService>
+  <ForServiceDesc>창부\n- 방문객을 성적으로 유혹합니다.\n- 바쁘지 않은 정착민들과 관계를 맺습니다.\n- 창부는 자위를 최대한 억제할건데, 이는 욕구 불만의 원인이 될 수 있습니다.\n</ForServiceDesc>
+  <ForServiceRefuseDesc>창부가 되기를 원하지 않습니다.</ForServiceRefuseDesc>
+  <ForBreeding>교미대상 지정</ForBreeding>
+  <ForBreedingDesc>동물의 교미대상으로 지정합니다.</ForBreedingDesc>
+  <ForBreedingRefuseDesc>동물과의 교미를 원하지 않습니다.\n동물성애 특성 필요</ForBreedingRefuseDesc>
+  <ForBreedingAnimalDesc>해당 동물이 교미대상과 번식할 수 있도록 지정</ForBreedingAnimalDesc>
+  <BreedMessage>(이)가 교미를 하려고 합니다.</BreedMessage>
+  <ForMilking>착유대상 지정</ForMilking>
+  <ForMilkingDesc>선택한 대상으로부터 우유를 채취합니다.</ForMilkingDesc>
+  <ForHero>주인공으로 지정</ForHero>
+  <ForHeroDesc>해당 림을 플레이어의 주인공으로 지정합니다.\n-단 한번만 지정할 수 있습니다.\n-해제되지 않습니다.\n</ForHeroDesc>
+  <ForHeroRefuse1Desc>다른 플레이어의 주인공입니다.</ForHeroRefuse1Desc>
+  <ForHeroRefuse2Desc>해당 정착민의 주인공 설정을 변경할 권한이 없습니다.</ForHeroRefuse2Desc>
+  <ForHeroRefuseHCDesc>HC 모드에서 비영웅 정착민</ForHeroRefuseHCDesc>
+  <AgeImpactor>나이:</AgeImpactor>
+  <VanillaFertilityImpactor>출산 통계: {VALUE}%</VanillaFertilityImpactor>
+  <RJW_nymph_incident_raid_title>색정광이다!!</RJW_nymph_incident_raid_title>
+  <RJW_nymph_incident_raid_description>색정광 무리가 당신의 정착지를 공격합니다.</RJW_nymph_incident_raid_description>
+  <RJW_nymph_incident_wander_title>색정광이다!</RJW_nymph_incident_wander_title>
+  <RJW_nymph_incident_wander_description>떠돌이 색정광이 당신의 정착지를 방문합니다.</RJW_nymph_incident_wander_description>
+  <RJW_nymph_incident_join_title>색정광 합류</RJW_nymph_incident_join_title>
+  <RJW_nymph_incident_join_description>떠돌이 색정광이 당신의 정착지에 합류합니다.</RJW_nymph_incident_join_description>
+  <PawnLacksFunctionalGenitals>{PAWN}에게 사용할 수 있는 성기가 없습니다.</PawnLacksFunctionalGenitals>
+  <PawnLacksVagina>{PAWN}에게 사용할 수 있는 질이 없습니다.</PawnLacksVagina>
+  <PawnLacksFunctionalPenis>{PAWN}에게 사용할 수 있는 음경이 없습니다.</PawnLacksFunctionalPenis>
+  <VaginalWeight>보지 섹스 기회</VaginalWeight>
+  <LetterLabelGainedTraitFromSex>특성 획득: {PAWN}</LetterLabelGainedTraitFromSex>
+  <GainedTraitFromSex>{PAWN}(이)가 성적 경험을 통해 {TRAIT} 특성을 가지게 되었습니다.</GainedTraitFromSex>
+  <GainedTraitFromSexNymphomaniac>{PAWN}의 뇌가 최음제에 의한 자극 과잉 때문에 영구적으로 망가졌습니다. {PAWN_pronoun}(이)가 {TRAIT} 특성을 얻었습니다.</GainedTraitFromSexNymphomaniac>
+  <GainedTraitFromSexFootSlut>발의 느낌을 만끽하는 기분은 {PAWN}에게 기묘한 기벽을 기억시켰습니다. {PAWN}(은)는 이제 {TRAIT}입니다.</GainedTraitFromSexFootSlut>
+  <LetterLabelGainedMultipleTraitsFromSex>특성 획득: {PAWN}</LetterLabelGainedMultipleTraitsFromSex>
+  <GainedMultipleTraitsFromSex>강한 성적 경험으로 인하여 {PAWN}(이)가 다음 특성을 획득:</GainedMultipleTraitsFromSex>
+  <GainedMultipleTraitsFromSexListItem>- {0}</GainedMultipleTraitsFromSexListItem>
+  <PawnColumnWorker_RJWGender_IsHerm>Herm</PawnColumnWorker_RJWGender_IsHerm>
+  <PawnColumnWorker_IsSlave>림이 노예인가?</PawnColumnWorker_IsSlave>
+  <PawnColumnWorker_IsPrisoner>림이 죄수인가?</PawnColumnWorker_IsPrisoner>
+  <PawnColumnWorker_IsComfort>림이 성노예인가?</PawnColumnWorker_IsComfort>
+  <PawnColumnWorker_IsBreeder>림이 종마인가?</PawnColumnWorker_IsBreeder>
+  <MainTabWindow_Designators>지정자</MainTabWindow_Designators>
+  <RJW_RMB>성적 상호작용</RJW_RMB>
+  <RJW_RMB_NoSex>(이)가 성관계를 거부함: </RJW_RMB_NoSex>
+  <RJW_RMB_Social>{0_labelShort}(와)과 사교 활동</RJW_RMB_Social>
+  <RJW_RMB_Masturbate>자위</RJW_RMB_Masturbate>
+  <RJW_RMB_Sex>{0_labelShort}(와)과 섹스함</RJW_RMB_Sex>
+  <RJW_RMB_Bestiality>{0_labelShort}(을)를 수간함</RJW_RMB_Bestiality>
+  <RJW_RMB_Sex_Reverse>{0_labelShort}에게 섹스당함</RJW_RMB_Sex_Reverse>
+  <RJW_RMB_Bestiality_Reverse>{0_labelShort}에게 수간당함</RJW_RMB_Bestiality_Reverse>
+  <RJW_RMB_Insult>모욕</RJW_RMB_Insult>
+  <RJW_RMB_SocialFight>싸움 시작</RJW_RMB_SocialFight>
+  <RJW_RMB_Chat>잡담</RJW_RMB_Chat>
+  <RJW_RMB_DeepTalk>깊은 대화</RJW_RMB_DeepTalk>
+  <RJW_RMB_RomanceAttempt>연애 시도</RJW_RMB_RomanceAttempt>
+  <RJW_RMB_MarriageProposal>청혼</RJW_RMB_MarriageProposal>
+  <RJW_RMB_Masturbate_Bed>의자 및 침대에서</RJW_RMB_Masturbate_Bed>
+  <RJW_RMB_Masturbate_At>위치를 바꿔서</RJW_RMB_Masturbate_At>
+  <RJW_RMB_Masturbate_Here>여기서</RJW_RMB_Masturbate_Here>
+  <RJW_RMB_Masturbate_With>도구 사용</RJW_RMB_Masturbate_With>
+  <RJW_RMB_Rape>{0_labelShort}(을)를 강간함</RJW_RMB_Rape>
+  <RJW_RMB_Rape_Reverse>{0_labelShort}에게 강간당함</RJW_RMB_Rape_Reverse>
+  <RJW_RMB_RapeCorpse>{0_labelShort}(을)를 시간함</RJW_RMB_RapeCorpse>
+  <RJW_RMB_RapeCorpse_Reverse>{0_labelShort}에게 시간당함</RJW_RMB_RapeCorpse_Reverse>
+  <RJW_RMB_RapeAnimal>{0_labelShort}(와)과 교배함</RJW_RMB_RapeAnimal>
+  <RJW_RMB_RapeAnimal_Reverse>{0_labelShort}에게 교배당함</RJW_RMB_RapeAnimal_Reverse>
+  <RJW_RMB_HackMechPregnancy>이식된 메카노이드 칩 해킹</RJW_RMB_HackMechPregnancy>
+  <RJWSettingsOne>RimJobWorld - 기본 설정</RJWSettingsOne>
+  <NymphTamed>색정광 합류</NymphTamed>
+  <NymphTamed_desc>색정광 특성을 가진 림이 정착지에 합류할 수 있습니다.</NymphTamed_desc>
+  <NymphWild>색정광 야만인</NymphWild>
+  <NymphWild_desc>색정광 특성을 가진 야만인이 정착지를 공격할 수 있습니다.</NymphWild_desc>
+  <NymphRaidEasy>색정광 습격 (쉬움)</NymphRaidEasy>
+  <NymphRaidEasy_desc>색정광들이 정착지에 접근합니다.\n기본 확률 계수: 0.1</NymphRaidEasy_desc>
+  <NymphRaidHard>색정광 습격(어려움)</NymphRaidHard>
+  <NymphRaidHard_desc>색정광들이 정착지를 습격합니다. (게임 오버)\n기본 확률 계수: 0.01</NymphRaidHard_desc>
+  <NymphRaidRP>절름발이 색정광 습격</NymphRaidRP>
+  <NymphRaidRP_desc>색정광 습격 난이도에 약한 자들이 색정광 습격을 사용하여 공격포인트를 먼저 사용하게 합니다.</NymphRaidRP_desc>
+  <NymphPermanentManhunter>끝없는 색정광 습격</NymphPermanentManhunter>
+  <NymphPermanentManhunter_desc>색정광이 끝도 없이 습격합니다.</NymphPermanentManhunter_desc>
+  <NymphSappers>색정광 공병</NymphSappers>
+  <NymphSappers_desc>똑! 똑! 문 뒤에서 당신의 냄새가 나고있어! 도망칠순 있지만 숨을 순 없어</NymphSappers_desc>
+  <NymphFrustratedRape>정신이 붕괴한 색정광의 강간 허용</NymphFrustratedRape>
+  <NymphFrustratedRape_desc>색정광이 정신붕괴를 겪었을 때 파트너가 없으면 무작위로 누군가/무엇을 강간합니다.</NymphFrustratedRape_desc>
+  <FemaleFuta>양성(여) 허용</FemaleFuta>
+  <FemaleFuta_desc>양성의 특징을 모두 지닌 여성의 등장을 허용합니다. (+ 음경)</FemaleFuta_desc>
+  <MaleTrap>양성(남) 허용</MaleTrap>
+  <MaleTrap_desc>양성의 특징을 모두 지닌 남성의 등장을 허용합니다. (+ 가슴)</MaleTrap_desc>
+  <male_nymph_chance>남성 색정광의 등장 확률</male_nymph_chance>
+  <male_nymph_chance_desc>남성 색정광의 등장 확률 \n\n확률: 0~100% \n기본값: 0%</male_nymph_chance_desc>
+  <futa_nymph_chance>양성 색정광의 등장 확률</futa_nymph_chance>
+  <futa_nymph_chance_desc>양성 색정광의 등장 확률 \n\n확률: 0~100% \n기본값: 0%</futa_nymph_chance_desc>
+  <futa_natives_chance>양성 원주민의 등장 확률</futa_natives_chance>
+  <futa_natives_chance_desc>양성 원주민의 등장 확률\n(산업시대 이하) \n\n확률: 0~100% \n기본값: 0%</futa_natives_chance_desc>
+  <futa_spacers_chance>양성 조난자의 등장 확률</futa_spacers_chance>
+  <futa_spacers_chance_desc>양성 조난자의 등장 확률 \n\n확률: 0~100% \n기본값: 0%</futa_spacers_chance_desc>
+  <sexneed_decay_rate_name>성욕 감소율(%)</sexneed_decay_rate_name>
+  <sexneed_decay_rate_desc>0%로 설정시 감소하지 않음.\n1000000%로 설정시 강간이 가득한 행성이 됨(미친듯이 섹스함). 권장 범위: 50% to 200%</sexneed_decay_rate_desc>
+  <sexneed_fix_name>성욕 수정</sexneed_fix_name>
+  <sexneed_fix_desc>잘못된 성욕 임계값을 수정하여, 섹스 및 강간 발생률을 조정합니다.</sexneed_fix_desc>
+  <Animal_mating_cooldown>동물 짝짓기 쿨다운</Animal_mating_cooldown>
+  <Animal_mating_cooldown_desc>동물의 짝짓기/교배 쿨다운 설정.\n0 - 성욕에 기반한다</Animal_mating_cooldown_desc>
+  <AllowYouthSex>청소년 섹스 허용</AllowYouthSex>
+  <AllowYouthSex_desc>성장단계이 있지만, 성장이 100%에 도달하지 못한 인간과 유사한 개체간의 성관계를 허용합니다.</AllowYouthSex_desc>
+  <sex_age_legacymode>기존의 성별 연령 제한</sex_age_legacymode>
+  <sex_age_legacymode_desc>인간형의 전통적인 연령 제한 기능, 평균 수명이 다른 인간종에겐 엉망이지만, 사람들이 필요로 하니 돌려놓습니다.\n비활성화 하면 성인일때 100%로 간주하는 연령 제한 기능을 사용합니다.</sex_age_legacymode_desc>
+  <SexMinimumAge>성관계 제한 연령</SexMinimumAge>
+  <SexMinimumAge_desc>이 나이보다 어린 림들은 섹스를 할 수 없습니다.</SexMinimumAge_desc>
+  <SexFreeForAllAge>성관계 자율 연령</SexFreeForAllAge>
+  <SexFreeForAllAge_desc>이 값보다 어린 림들은 2살 터울의 상대하고만 섹스 할 것입니다.</SexFreeForAllAge_desc>
+  <bestiality_enabled>수간 허용</bestiality_enabled>
+  <bestiality_enabled_desc>동물과의 성행위를 허용합니다.</bestiality_enabled_desc>
+  <animal_on_animal_enabled>동물 번식 허용</animal_on_animal_enabled>
+  <animal_on_animal_enabled_desc>야생동물들의 짝짓기를 허용합니다. 이 설정에 관계없이 가축들은 같은 종끼리 짝짓기를 합니다.\n지정된 동물간에 종간 성관계는 임신으로도 이어질 수 있습니다</animal_on_animal_enabled_desc>
+  <necrophilia_enabled>시체강간 허용</necrophilia_enabled>
+  <necrophilia_enabled_desc>시체와의 성관계를 허용합니다. 대체적으로 시체성애 특성을 가진 림들이 하겠지만, 때때로 매우 흥분한 림들이 시체를 범할 수도 있습니다.</necrophilia_enabled_desc>
+  <sounds_enabled>RJW 음향효과 허용</sounds_enabled>
+  <sounds_enabled_desc>RJW 전용 음향효과를 활성화합니다.</sounds_enabled_desc>
+  <sounds_sex_volume>섹스 사운드 조정</sounds_sex_volume>
+  <sounds_sex_volume_desc>섹스할 때 소리를 조정합니다.</sounds_sex_volume_desc>
+  <sounds_cum_volume>사정 사운드 조정</sounds_cum_volume>
+  <sounds_cum_volume_desc>사정할 때 소리를 조정합니다.</sounds_cum_volume_desc>
+  <sounds_voice_volume>목소리 조정</sounds_voice_volume>
+  <sounds_voice_volume_desc>목소리를 조정합니다.</sounds_voice_volume_desc>
+  <sounds_orgasm_volume>절정 사운드 조정</sounds_orgasm_volume>
+  <sounds_orgasm_volume_desc>절정시 소리를 조절합니다.</sounds_orgasm_volume_desc>
+  <sounds_animal_on_animal_volume>동물과 동물간 교배 소리 조정</sounds_animal_on_animal_volume>
+  <sounds_animal_on_animal_volume_desc>동물간의 교배에서 소리 크기를 조정할 수 있습니다.</sounds_animal_on_animal_volume_desc>
+  <cum_filth>체액 흐름의 활성화</cum_filth>
+  <cum_filth_desc>성관계 후 체액이 흐르게 됩니다. 이 기능을 끄면 청소를 할 필요가 없어 난이도가 쉬워집니다.</cum_filth_desc>
+  <RPG_hero_control_name>주인공 모드 활성화</RPG_hero_control_name>
+  <RPG_hero_control_desc>플레이어는 하나의 림을 주인공으로 지정하여 조건없이 성행위를 하도록 명령 할 수 있습니다.</RPG_hero_control_desc>
+  <RPG_hero_control_HC_name>주인공 모드 (하드코어) 활성화</RPG_hero_control_HC_name>
+  <RPG_hero_control_HC_desc>하드코어: 플레이어는 주인공 림만 조종할 수 있습니다.\n(멀티 플레이어 모드를 염두에 둔 기능입니다.)</RPG_hero_control_HC_desc>
+  <RPG_hero_control_Ironman_name>주인공 모드 (철인)</RPG_hero_control_Ironman_name>
+  <RPG_hero_control_Ironman_desc>하드코어: 플레이어는 단 한번만 주인공을 지정할 수 있습니다.</RPG_hero_control_Ironman_desc>
+  <UseAdvancedAgeScaling>고급 연령 비례 척도 설정</UseAdvancedAgeScaling>
+  <UseAdvancedAgeScaling_desc>비 인간형 종족에 대해서 다른 연령 비례 척도를 사용</UseAdvancedAgeScaling_desc>
+  <designated_freewill>자유 의지 지정</designated_freewill>
+  <designated_freewill_desc>성노예로 지정된 림이 섹스를 시작 할 수 있습니다.</designated_freewill_desc>
+  <rape_enabled>강간 활성화</rape_enabled>
+  <rape_enabled_desc>강간을 활성화 합니다.</rape_enabled_desc>
+  <PrisonersBeating>구타 강간 활성화</PrisonersBeating>
+  <PrisonersBeating_desc>강간중에 대상을 때리도록 합니다.</PrisonersBeating_desc>
+  <GentlePrisonersBeating>부드러운 구타 강간</GentlePrisonersBeating>
+  <GentlePrisonersBeating_desc>구타 데미지를 0~1로 줄입니다.</GentlePrisonersBeating_desc>
+  <rape_stripping>강간 대상 탈의</rape_stripping>
+  <rape_stripping_desc>강간 당하는 대상의 옷을 벗깁니다. (성노예는 아닙니다.)</rape_stripping_desc>
+  <ColonistCanCP>정착민들의 성노예 강간 활성화</ColonistCanCP>
+  <ColonistCanCP_desc>정착민들이 성노예를 강간 할 수 있도록 합니다.</ColonistCanCP_desc>
+  <VisitorsCanCP>방문객들의 성노예 강간 활성화</VisitorsCanCP>
+  <VisitorsCanCP_desc>방문객들이 성노예를 강간 할 수 있도록 합니다.</VisitorsCanCP_desc>
+  <AnimalsCanCP>동물들의 성노예 강간 활성화</AnimalsCanCP>
+  <AnimalsCanCP_desc>동물들이 성노예들을 강간 할 수 있도록 합니다. 수간 설정을 켜야 합니다.</AnimalsCanCP_desc>
+  <NonFutaWomenRaping_MaxVulnerability>역강간 유발 기준</NonFutaWomenRaping_MaxVulnerability>
+  <NonFutaWomenRaping_MaxVulnerability_desc>설정치보다 낮은 취약성을 지닌 여성은 다른 사람을 강간할 수 있습니다. \n동물들의 취약성은 언제나 100%입니다.\n정착민의 취약성은 캐릭터의 상세 정보 란에서 확인할 수 있습니다.\n\n설정 범위: 0 - 300%</NonFutaWomenRaping_MaxVulnerability_desc>
+  <Rapee_MinVulnerability_human>강간 유발 기준</Rapee_MinVulnerability_human>
+  <Rapee_MinVulnerability_human_desc>설정치보다 높은 취약성을 지닌 정착민은 강간 대상이 될 수 있습니다.\n정착민의 취약성은 캐릭터의 상세 정보 란에서 확인할 수 있습니다.\n\n설정 범위: 0 - 300%</Rapee_MinVulnerability_human_desc>
+  <Rapee_MinVulnerability_animals>수간 유발 기준</Rapee_MinVulnerability_animals>
+  <Rapee_MinVulnerability_animals_desc>설정치보다 높은 취약성을 지닌 모든 동물은 동물성애자의 수간 대상이 될 수 있습니다.\n동물의 취약성은 따로 표시되지 않습니다.\n\n설정 범위: 0 - 300%</Rapee_MinVulnerability_animals_desc>
+  <RJWSettingsFour>RimJobWorld - 가벼운 성관계</RJWSettingsFour>
+  <SettingHookupsEnabled>유혹 활성화 (기본)</SettingHookupsEnabled>
+  <SettingHookupsEnabled_desc>애인 없는 림들끼리 성관계를 할 수 있도록 합니다.</SettingHookupsEnabled_desc>
+  <SettingQuickHookupsEnabled>밀회를 허용</SettingQuickHookupsEnabled>
+  <SettingQuickHookupsEnabled_desc>솔로인 정착민이 다른 솔로와 빠르게 가벼운 성관계를 할 수 있도록 설정합니다.\n주의 : 정착민의 작업을 방해할 수도 있습니다.</SettingQuickHookupsEnabled_desc>
+  <SettingNoHookupsDuringWorkHours>근무 시간 중 유혹 비활성화</SettingNoHookupsDuringWorkHours>
+  <SettingNoHookupsDuringWorkHours_desc>근무 시간 중에도 가벼운 성관계를 할 수 있도록 합니다.\n색정광들은 이 설정을 무시합니다.</SettingNoHookupsDuringWorkHours_desc>
+  <SettingColonistsCanHookup>정착민들간 유혹 활성화</SettingColonistsCanHookup>
+  <SettingColonistsCanHookup_desc>정착민들끼리 성관계를 할 수 있도록 합니다.</SettingColonistsCanHookup_desc>
+  <SettingColonistsCanHookupWithVisitor>정착민들의 방문객 유혹 활성화</SettingColonistsCanHookupWithVisitor>
+  <SettingColonistsCanHookupWithVisitor_desc>정착민들과 방문객들이 성관계를 할 수 있도록 합니다.</SettingColonistsCanHookupWithVisitor_desc>
+  <SettingCanHookupWithPrisoner>정착민의 포로 유혹 활성화</SettingCanHookupWithPrisoner>
+  <SettingCanHookupWithPrisoner_desc>정착민이 포로와 성관계를 맺을 수 있도록 합니다.\n이는 서로 합의한 것으로 간주하기에, 성노예가 아니어도 됩니다.</SettingCanHookupWithPrisoner_desc>
+  <SettingVisitorsCanHookupWithColonists>방문객의 정착민 유혹 활성화</SettingVisitorsCanHookupWithColonists>
+  <SettingVisitorsCanHookupWithColonists_desc>방문객들이 정착민들과 성관계를 할 수 있도록 합니다.</SettingVisitorsCanHookupWithColonists_desc>
+  <SettingVisitorsCanHookupWithVisitors>방문객들 사이의 유혹 활성화</SettingVisitorsCanHookupWithVisitors>
+  <SettingVisitorsCanHookupWithVisitors_desc>방문객들이 다른 방문객들과 성관계를 할 수 있도록 합니다.</SettingVisitorsCanHookupWithVisitors_desc>
+  <SettingPrisonersCanHookupWithNonPrisoner>포로들의 정착민 유혹 활성화</SettingPrisonersCanHookupWithNonPrisoner>
+  <SettingPrisonersCanHookupWithNonPrisoner_desc>포로들이 정착민들과 성관계를 할 수 있도록 합니다..\n포로들과 정착민들이 같은 공간에 있을 수 있어야합니다.</SettingPrisonersCanHookupWithNonPrisoner_desc>
+  <SettingPrisonersCanHookupWithPrisoner>포로들 사이의 유혹 활성화</SettingPrisonersCanHookupWithPrisoner>
+  <SettingPrisonersCanHookupWithPrisoner_desc>포로들이 다른 포로와 성관계를 할 수 있도록 합니다.\n포로들이 같은 공간에 있을 수 있어야합니다.</SettingPrisonersCanHookupWithPrisoner_desc>
+  <SettingNymphosCanPickAnyone>색정광의 자유로운 성관계 활성화</SettingNymphosCanPickAnyone>
+  <SettingNymphosCanPickAnyone_desc>색정광 특성을 가진 림들이 자유롭게 성관계를 할 수 있도록 합니다.\n아래쪽의 속임수와 가정불화 유발 설정을 확인해 주십시오</SettingNymphosCanPickAnyone_desc>
+  <SettingNymphosCanCheat>색정광의 불륜 활성화</SettingNymphosCanCheat>
+  <SettingNymphosCanCheat_desc>색정광 특성을 가진 림들이 성적으로 굶주리면 바람을 필 수 있도록 합니다.</SettingNymphosCanCheat_desc>
+  <SettingNymphosCanHomewreck>색정광의 가정파탄 활성화</SettingNymphosCanHomewreck>
+  <SettingNymphosCanHomewreck_desc>색정광 특성을 가진 림들이 이미 배우자를 가진 상대와 관계를 맺을 수 있도록 합니다.</SettingNymphosCanHomewreck_desc>
+  <SettingNymphosCanHomewreckReverse>색정광의 가정피해 활성화</SettingNymphosCanHomewreckReverse>
+  <SettingNymphosCanHomewreckReverse_desc>색정광 특성을 가진 림들이 배우자가 있음에도 불구하고 다른 이와 관계를 맺을 수 있도록 합니다.</SettingNymphosCanHomewreckReverse_desc>
+  <SettingHookupChanceForNonNymphos>시간당 유혹 성공 증가치(%)</SettingHookupChanceForNonNymphos>
+  <SettingHookupChanceForNonNymphos_desc>흥분한 림이 유혹할 가능성.\n시간당 한번만, 정착민이 작업을 마친 후에 확인합니다.\n기본값은30%입니다.</SettingHookupChanceForNonNymphos_desc>
+  <SettingMinimumFuckabilityToHookup>최소한의 매력 설정</SettingMinimumFuckabilityToHookup>
+  <SettingMinimumFuckabilityToHookup_desc>림이 다른 림을 유혹 대상으로 간주하기 위한 매력의 설정치(RJW)\n기본값은 10%입니다.</SettingMinimumFuckabilityToHookup_desc>
+  <SettingMinimumAttractivenessToHookup>유혹의 최소 매력</SettingMinimumAttractivenessToHookup>
+  <SettingMinimumAttractivenessToHookup_desc>림이 다른 림을 성적 파트너로 간주하기 위한 매력의 설정치(RimWorld)\n기본값은 50%입니다.</SettingMinimumAttractivenessToHookup_desc>
+  <SettingMinimumRelationshipToHookup>성관계 최소 관계 설정</SettingMinimumRelationshipToHookup>
+  <SettingMinimumRelationshipToHookup_desc>이 수치보다 높은 관계를 가진 림들만 성관계를 할 수 있습니다. 기본값: 20\n색정광: 0.</SettingMinimumRelationshipToHookup_desc>
+  <RJWDebugSettings>RimJobWorld - 디버그</RJWDebugSettings>
+  <submit_button_enabled>소집된 림의 '항복'버튼을 활성화</submit_button_enabled>
+  <submit_button_enabled_desc>항복하면 치명적인 상황을 건너뛰고 굴욕적인 상황을 맞이하게 됩니다.\n명예가 삶보다 중요하다면 비활성화 하십시오.\n언제나 여기 있으니, 마음이 바뀌시면 찾아오세요.</submit_button_enabled_desc>
+  <RJW_designation_box>RJW 명령탭 활성화</RJW_designation_box>
+  <RJW_designation_box_desc>RJW 명령의 GUI 버튼을 활성화합니다.</RJW_designation_box_desc>
+  <StackRjwParts_name>RJW의 상태 활성화</StackRjwParts_name>
+  <StackRjwParts_desc>건강메뉴에 RJW의 상태들을 추가합니다. \n(라벨 × 수량)</StackRjwParts_desc>
+  <maxDistanceCellsCasual_name>섹스 거리 (셀 단위)</maxDistanceCellsCasual_name>
+  <maxDistanceCellsCasual_desc>림이 목적지/목표에 도달하기 위해 기꺼이 이동하는 최대 거리(셀).\n\n빠른 거리 확인 - 장애물 무시 (벽, 산 등등).\n기본값: 100.</maxDistanceCellsCasual_desc>
+  <maxDistanceCellsRape_name>강간 거리 (셀 단위)</maxDistanceCellsRape_name>
+  <maxDistanceCellsRape_desc>림이 목적지/목표에 도달하기 위해 기꺼이 이동하는 최대 거리(셀).\n\n빠른 거리 확인 - 장애물 무시 (벽, 산 등등).\n기본값: 100.</maxDistanceCellsRape_desc>
+  <maxDistancePathCost_name>섹스 거리 (거리 단위)</maxDistancePathCost_name>
+  <maxDistancePathCost_desc>림이 목적지/목표에 도달하기 위해 기꺼이 이동하는 최대 거리(경로).\n\n장애물, 림의 속도 및 땅의 상태를 계산함.\n기본값: 1000.\n0일 경우 비활성화.</maxDistancePathCost_desc>
+  <override_RJW_designation_checks_name>조건 무시 설정</override_RJW_designation_checks_name>
+  <override_RJW_designation_checks_desc>개발자 모드에서 림에대한 조건을 무시할 수 있도록 합니다.\n(치트)</override_RJW_designation_checks_desc>
+  <override_control>직접 명령 활성화</override_control>
+  <override_control_desc>정착민에게 수동으로 섹스와 관련된 활동을 지시할 수 있게 됩니다.\n(치트)</override_control_desc>
+  <AddTrait_Rapist>강간마 특성 획득</AddTrait_Rapist>
+  <AddTrait_Rapist_desc>10회 이상 강간으로 성행위를 하면, 12% 확률로 강간마 특성을 얻습니다.\n(치트)</AddTrait_Rapist_desc>
+  <AddTrait_Masocist>피학적 특성 획득</AddTrait_Masocist>
+  <AddTrait_Masocist_desc>강간을 당할경우, 일정확률로 피학적 특성을 얻습니다.\n(치트)</AddTrait_Masocist_desc>
+  <AddTrait_Nymphomaniac>색정광 특성 획득</AddTrait_Nymphomaniac>
+  <AddTrait_Nymphomaniac_desc>최음버섯 중독 상태에서 10회 이상의 성행위를 할경우, 일정 확률로 색정광 특성을 얻습니다.\n(치트)</AddTrait_Nymphomaniac_desc>
+  <AddTrait_Necrophiliac>시체성애 특성 획득</AddTrait_Necrophiliac>
+  <AddTrait_Necrophiliac_desc>10회 이상 시체와 성행위를 할 경우, 50% 확률로 시체성애 특성을 얻습니다.\n(치트)</AddTrait_Necrophiliac_desc>
+  <AddTrait_Nerves>신경과민 특성 획득</AddTrait_Nerves>
+  <AddTrait_Nerves_desc>강간당할 경우, 신경과민 특성을 얻을수도 있습니다\n(치트)</AddTrait_Nerves_desc>
+  <AddTrait_Zoophiliac>수간애호 특성 획득</AddTrait_Zoophiliac>
+  <AddTrait_Zoophiliac_desc>10회이상 동물과 성행위를 할 경우, 50% 확률로 수간애호 특성을 얻습니다.\n(치트)</AddTrait_Zoophiliac_desc>
+  <AddTrait_FootSlut>발걸레 특성 획득</AddTrait_FootSlut>
+  <AddTrait_FootSlut_desc>10회 이상 풋잡으로 성행위를 하면, 일정 확률로 발걸레 특성을 얻습니다.\n(치트)</AddTrait_FootSlut_desc>
+  <AddTrait_CumSlut>정액중독 특성 획득</AddTrait_CumSlut>
+  <AddTrait_CumSlut_desc>10회 이상 펠라치오를 하면, 일정 확률로 정액중독 특성을 얻습니다.\n(치트)</AddTrait_CumSlut_desc>
+  <AddTrait_ButtSlut>후장광 특성 획득</AddTrait_ButtSlut>
+  <AddTrait_ButtSlut_desc>10회 이상 애널 섹스를 하면, 일정 확률로 후장광 특성을 얻습니다.\n(치트)</AddTrait_ButtSlut_desc>
+  <Allow_RMB_DeepTalk>RMB 심도있는 대화</Allow_RMB_DeepTalk>
+  <Allow_RMB_DeepTalk_desc>RMB에서 심도있는 대화(관계도 +12)를 허용합니다\n(치트)</Allow_RMB_DeepTalk_desc>
+  <Disable_bestiality_pregnancy_relations>수간 임신 관계 비활성화</Disable_bestiality_pregnancy_relations>
+  <Disable_bestiality_pregnancy_relations_desc>수간으로 인한 관계(부모형제)를 비활성화 합니다.\n(치트)</Disable_bestiality_pregnancy_relations_desc>
+  <Disable_egg_pregnancy_relations>난생 관계를 제거합니다.</Disable_egg_pregnancy_relations>
+  <Disable_egg_pregnancy_relations_desc>알을 통해서 태어날 경우, 어머니, 아버지, 형제자매 등의 관계를 가지지 않습니다.\n(치트)</Disable_egg_pregnancy_relations_desc>
+  <Disable_MeditationFocusDrain>집중도 하락 비활성화</Disable_MeditationFocusDrain>
+  <Disable_MeditationFocusDrain_desc>림이 욕구불만이 생겨도 집중도를 잃지 않습니다.\n(치트)</Disable_MeditationFocusDrain_desc>
+  <Disable_RecreationDrain>재미 하락 비활성화</Disable_RecreationDrain>
+  <Disable_RecreationDrain_desc>림이 기벽에 따라 지루하거나 나쁜 섹스를 해도 재미를 잃진 않습니다.\n(치트)</Disable_RecreationDrain_desc>
+  <ForbidKidnap>납치 금지</ForbidKidnap>
+  <ForbidKidnap_desc>납치를 비활성 합니다.</ForbidKidnap_desc>
+  <override_lovin>가벼운 성관계의 기능 대체</override_lovin>
+  <override_lovin_desc>가벼운 성관계가 림월드 기본 기능을 대체합니다.</override_lovin_desc>
+  <override_matin>교배 기능 대체</override_matin>
+  <override_matin_desc>림잡의 교배 기능이 림월드 기본 기능을 대체합니다.</override_matin_desc>
+  <matin_crossbreed>마틴 잡종</matin_crossbreed>
+  <matin_crossbreed_desc>유형이 같은 동물(바닐라: 개과, 드라이어드)는 동일한 종으로 간주하여 서로 교배할 수 있습니다.</matin_crossbreed_desc>
+  <WildMode_name>야생모드</WildMode_name>
+  <WildMode_desc>!실험모드 - 버그 발생시 알아서하세요.\n\n성관계에 모든 규제가 사라지고, 대부분의 조건이 없어집니다. 야성 넘치는 림월드를 즐겨보세요.</WildMode_desc>
+  <HippieMode_name>히피 모드</HippieMode_name>
+  <HippieMode_desc>!실험모드 - 버그 발생시 알아서하세요.\n\n가벼운 성관계에서 관계 조건을 무시합니다.</HippieMode_desc>
+  <GenderlessAsFuta_name>무성은 양성으로 설정</GenderlessAsFuta_name>
+  <GenderlessAsFuta_desc>!문제 발생시 알아서 하세요. \n\n성별이 없는 림을 양성(여)로 설정합니다.</GenderlessAsFuta_desc>
+  <DevMode_name>개발자 모드</DevMode_name>
+  <DevMode_desc>RimJobWorld의 로그 기능을 활성화합니다. 대체적으로 쓸 일 없습니다.</DevMode_desc>
+  <DebugLogJoinInBed>유혹 로그 활성화</DebugLogJoinInBed>
+  <DebugLogJoinInBed_desc>가벼운 성관계에서 발생되는 엄청난 양의 디버그 로그를 허용합니다.\n개발자(혹은 이들을 위해 버그를 찾는 사람)들을 위한 기능입니다.</DebugLogJoinInBed_desc>
+  <DebugRape>강간 로그 활성화</DebugRape>
+  <DebugRape_desc>강간에서 발생되는 엄청난 양의 디버그 로그를 허용합니다.\n개발자(혹은 이들을 위해 버그를 찾는 사람)들을 위한 기능입니다.</DebugRape_desc>
+  <DebugInteraction>상호작용 로그 활성화</DebugInteraction>
+  <DebugInteraction_desc>상호작용 모듈 로그를 활성화합니다.</DebugInteraction_desc>
+  <DebugNymph>색정광 로그 활성화</DebugNymph>
+  <DebugNymph_desc>색정광 모듈의 로그를 활성화합니다.</DebugNymph_desc>
+  <RJWSettingsTwo>RimJobWorld - 임신</RJWSettingsTwo>
+  <UseVanillaPregnancy>Biotech DLC 임신</UseVanillaPregnancy>
+  <UseVanillaPregnancy_desc>인간 여성과 관련된 임신은 Biotech DLC의 임신 기능을 사용합니다.</UseVanillaPregnancy_desc>
+  <RJWH_pregnancy>RJW 인간 임신 활성화</RJWH_pregnancy>
+  <RJWH_pregnancy_desc>인간 사이의 임신을 허용합니다. Biotech DLC가 설치되지 않았을 경우, RJW 자체 임신 기능을 사용합니다.</RJWH_pregnancy_desc>
+  <PregnantCoeffecientForHuman>인간 임신 확률(%)</PregnantCoeffecientForHuman>
+  <PregnantCoeffecientForHuman_desc>인간형 아이를 임신할 확률 설정합니다.\n\n범위: 0 - 100%</PregnantCoeffecientForHuman_desc>
+  <RJWB_pregnancy>동물 임신 활성화</RJWB_pregnancy>
+  <RJWB_pregnancy_desc>사람과 동물간의 임신을 허용합니다.</RJWB_pregnancy_desc>
+  <PregnantCoeffecientForAnimals>동물의 임신 확률(%)</PregnantCoeffecientForAnimals>
+  <PregnantCoeffecientForAnimals_desc>동물의 임신할 확률 설정합니다.\n\n범위: 0 - 100%</PregnantCoeffecientForAnimals_desc>
+  <InterspeciesImpregnantionModifier>이종간 임신 확률(%)</InterspeciesImpregnantionModifier>
+  <InterspeciesImpregnantionModifier_desc>이종간의 임신 확률을 설정합니다. 20%로 설정할 시, 동종간의 임신확률에서 5분의 1 확률로 줄입니다.\n\n범위: 0 - 100%</InterspeciesImpregnantionModifier_desc>
+  <UseParentMethod>특성 유전 활성화</UseParentMethod>
+  <UseParentMethod_desc>활성시 부모의 특성을 임의로 이어받습니다.\n비활성시 어미의 특성을 이어받습니다.</UseParentMethod_desc>
+  <OffspringLookLikeTheirMother>인간형 유전 설정</OffspringLookLikeTheirMother>
+  <OffspringLookLikeTheirMother_desc>인간형의 종족 유전을 설정합니다.\n100%로 설정시 어미의 종족으로 태어납니다.\n0%으로 설정시 아비의 종족으로 태어납니다.\n\n범위: 0 - 100%</OffspringLookLikeTheirMother_desc>
+  <OffspringIsHuman>동물형 유전 설정 (모계/부계)</OffspringIsHuman>
+  <OffspringIsHuman_desc>동물형과 동물형사이의 아이의 종족을 설정합니다.\n100%로 설정시 어미의 종족으로 태어납니다.. \n0%으로 설정시 아비의 종족으로 태어납니다.\n\n범위: 0 - 100%</OffspringIsHuman_desc>
+  <OffspringIsHuman2>동물형 유전 설정 (인간/동물)</OffspringIsHuman2>
+  <OffspringIsHuman2_desc>인간과 동물 사이의 아기의 종족을 설정합니다.\n\n 왼쪽 - 동물로 설정.\n\n오른쪽 - 인간으로 설정\n\n그 외 - 모계/부계 설정을 따라갑니다.</OffspringIsHuman2_desc>
+  <RJWA_pregnancy>동물 임신 활성화</RJWA_pregnancy>
+  <RJWA_pregnancy_desc>야생 동물 사이의 임신을 활성화 합니다.</RJWA_pregnancy_desc>
+  <RJWA_pregnancy_notifications>동물 임신 알림</RJWA_pregnancy_notifications>
+  <RJWA_pregnancy_notifications_desc>동물의 임신, 진통 시작 및 건강한 출산에 대한 알림이 전송됩니다.\n\n가축이 많은 정착지의 경우 시끄러울 수 있으므로 이 설정을 비활성화하는 것이 좋습니다.\n\n이 설정과 관계없이 중요한 알림은 항상 전송됩니다.</RJWA_pregnancy_notifications_desc>
+  <RJWI_pregnancy>곤충 산란 활성화</RJWI_pregnancy>
+  <RJWI_pregnancy_desc>인간형과 곤충형의 임신을 활성화 합니다.</RJWI_pregnancy_desc>
+  <egg_pregnancy_implant_anyone>알 이식 필터</egg_pregnancy_implant_anyone>
+  <egg_pregnancy_implant_anyone_desc>활성:산란관을 가진 사람은 누구나 알을 이식할 수 있다.\n비활성:미리 설정된 종족만이 알을 이식할 수 있다.</egg_pregnancy_implant_anyone_desc>
+  <egg_pregnancy_fertilize_anyone>알 수정 필터</egg_pregnancy_fertilize_anyone>
+  <egg_pregnancy_fertilize_anyone_desc>활성:정낭을 가진 사람은 누구나 알을 수정시킬 수 있다.\n비활성:미리 설정된 종족만이 알을 수정시킬 수 있다.</egg_pregnancy_fertilize_anyone_desc>
+  <egg_pregnancy_genes>난생으로 유전기능 사용</egg_pregnancy_genes>
+  <egg_pregnancy_genes_desc>인간과 인간의 산란관을 통해 전달된 알이 정상적인 유전기능을 사용할 수 있도록 합니다.</egg_pregnancy_genes_desc>
+  <RJWI_analPregnancy>항문 산란 임신 활성화</RJWI_analPregnancy>
+  <RJWI_analPregnancy_desc>벌레들이 림들의 항문을 통해 산란-임신하는 것을 허용합니다.</RJWI_analPregnancy_desc>
+  <RJWI_oralPregnancy>구강 산란 임신 활성화</RJWI_oralPregnancy>
+  <RJWI_oralPregnancy_desc>벌레들이 림들의 구강을 통해 산란-임신하는 것을 허용합니다.</RJWI_oralPregnancy_desc>
+  <RJWI_FertilizationCheck>수정란 생성 필터</RJWI_FertilizationCheck>
+  <RJWI_FertilizationCheck_desc>수정란은 성기 내부에서만 수정이 이루어집니다.</RJWI_FertilizationCheck_desc>
+  <egg_pregnancy_eggs_size>알 크기 조정</egg_pregnancy_eggs_size>
+  <egg_pregnancy_eggs_size_desc>0 - 무제한</egg_pregnancy_eggs_size_desc>
+  <egg_pregnancy_ovipositor_capacity_factor>산란관의 용량 계수</egg_pregnancy_ovipositor_capacity_factor>
+  <egg_pregnancy_ovipositor_capacity_factor_desc>산란관의 정상적인 용량을 배가합니다.</egg_pregnancy_ovipositor_capacity_factor_desc>
+  <MechanoidImplanting>메카노이드칩 주입 활성화</MechanoidImplanting>
+  <MechanoidImplanting_desc>메카노이드칩 주입(임신)을 활성화 합니다.</MechanoidImplanting_desc>
+  <SaferMechanoidImplanting>안전한 메카노이드 칩 주입</SaferMechanoidImplanting>
+  <SaferMechanoidImplanting_desc>메카노이드 칩 주입으로 메카노이드를 출산할 경우, 메카노이드 임신을 확인할 경우 림을 죽이는 대신, 대신 몸통을 포함한 각 신체부위에 5개의 손상을 입힙니다. 메카노이드는 여전히 적대적입니다.</SaferMechanoidImplanting_desc>
+  <genetic_trait_filter>특성 필터 사용</genetic_trait_filter>
+  <genetic_trait_filter_desc>활성시 RJW/Defs/NonInheritedTraits.xml를 참조하여 몇몇 특성이 유전되지 않도록합니다.사용하지 않을 경우 모든 특성이 유전됩니다.</genetic_trait_filter_desc>
+  <max_num_momtraits_inherited>모계로부터 유전받는 최대 특성</max_num_momtraits_inherited>
+  <max_num_poptraits_inherited>부계로부터 유전받는 최대 특성</max_num_poptraits_inherited>
+  <RJW_fertility_endAge_male>남성 불임 연령</RJW_fertility_endAge_male>
+  <RJW_fertility_endAge_male_desc>이종족은 수명에 따라 조정됩니다. 동물과 사람은 동일하게 적용됩니다.</RJW_fertility_endAge_male_desc>
+  <RJW_fertility_endAge_female_humanlike>인간형 여성 불임 연령</RJW_fertility_endAge_female_humanlike>
+  <RJW_fertility_endAge_female_humanlike_desc>대부분의 동물과 달리, 인간 암컷은 어린 나이에 불임이 됩니다. 모든 이종족에도 같은 기준이 사용됩니다.</RJW_fertility_endAge_female_humanlike_desc>
+  <RJW_fertility_endAge_female_animal>동물형 암컷의 불임 연령</RJW_fertility_endAge_female_animal>
+  <RJW_fertility_endAge_female_animal_desc>인간과 달리 대부분의 암컷 동물들은 죽을 때까지 가임상태를 유지합니다.</RJW_fertility_endAge_female_animal_desc>
+  <In_human_years>년</In_human_years>
+  <XofLifeExpectancy>기대수명(%)</XofLifeExpectancy>
+  <InterspeciesDisabled>이종 탄생, 출현 금지.</InterspeciesDisabled>
+  <InterspeciesMaximum>이종 탄생, 출현율을 동등하게 설정.</InterspeciesMaximum>
+  <AlwaysMother>항상 어미의 종족을 따름.</AlwaysMother>
+  <AlwaysFather>항상 아비의 종족을 따름.</AlwaysFather>
+  <AlwaysBeast>항상 짐승형의 종족을 따름</AlwaysBeast>
+  <AlwaysHumanlike>항상 인간형의 종족을 따름</AlwaysHumanlike>
+  <UsesOffspringIsHuman>어머니/아버지 사용</UsesOffspringIsHuman>
+  <ComplexImpregnation>복잡한 유전자 계산식 활성화</ComplexImpregnation>
+  <ComplexImpregnation_desc>적용시, 각각의 종이 지니고 있는 신체의 구조와 크기에 따라 이종이 발생할 확률이 조정됩니다.\n예시:\n  인간/날개달린 인간 : ~95%\n  인간/하피 : ~75%\n  인간/개 : ~30%\n  인간/닭 : ~5%\n  늑대/개 : ~95%\n  늑대/닭 : ~5%\n  칠면조/하피 : ~30%\n  \n적용할 경우 이종이 탄생할 확률이 낮아질 수 있습니다.\n</ComplexImpregnation_desc>
+  <phantasy_pregnancy>환상 임신</phantasy_pregnancy>
+  <phantasy_pregnancy_desc>세상이 아이들이 성인이 될 떄까지 성장을 가속화하는 사악한 나노머신들로 가득차게 됩니다.\n\n비인간 및 생식이 없는 종에겐 영향을 끼치지 않습니다.\n\n다른 임신모드와 충돌날 가능성이 높습니다.</phantasy_pregnancy_desc>
+  <normal_pregnancy_duration>임신 기간 조정</normal_pregnancy_duration>
+  <normal_pregnancy_duration_desc>높이면 기간이 길어집니다.</normal_pregnancy_duration_desc>
+  <egg_pregnancy_duration>알 부화 기간 조정</egg_pregnancy_duration>
+  <egg_pregnancy_duration_desc>높이면 기간이 길어집니다.</egg_pregnancy_duration_desc>
+  <RJWSettingsThree>RimJobWorld - 체위</RJWSettingsThree>
+  <SexTypeFrequency>체위 빈도:\n[값이 클수록 해당 행동을 빈번하게 수행]</SexTypeFrequency>
+  <vaginal>삽입 성교</vaginal>
+  <vaginal_desc>남성기를 상대방의 여성기에 삽입한 채로 진행하는 가장 평범한 형태의 체위입니다.\n\n허용 범위: 1 - 200\n기본값: 100\n설정값이 클수록 해당 행동을 더욱 빈번하게 수행합니다.</vaginal_desc>
+  <cunnilingus>커닐링구스</cunnilingus>
+  <cunnilingus_desc>입과 혀를 이용하여 상대방의 여성기를 자극하는 행위입니다.\n\n확률: 1 - 200\n기본값: 80\n설정값이 클수록 해당 행동을 더욱 빈번하게 수행합니다.</cunnilingus_desc>
+  <anal>항문 성교</anal>
+  <anal_desc>남성기를 상대방의 항문에 삽입한 채로 진행하는 행위입니다.\n\n확률: 1 - 200\n기본값: 80\n설정값이 클수록 해당 행동을 더욱 빈번하게 수행합니다.</anal_desc>
+  <rimming>리밍</rimming>
+  <rimming_desc>입과 혀를 이용하여 상대방의 항문을 자극하는 행위입니다.\n\n확률: 1 - 200\n기본값: 50\n설정값이 클수록 해당 행동을 더욱 빈번하게 수행합니다.</rimming_desc>
+  <fellatio>펠라치오</fellatio>
+  <fellatio_desc>입과 혀를 이용하여 상대방의 남성기를 자극하는 행위입니다.\n\n확률: 1 - 200\n기본값: 80\n설정값이 클수록 해당 행동을 더욱 빈번하게 수행합니다.</fellatio_desc>
+  <handjob>핸드잡</handjob>
+  <handjob_desc>손을 이용하여 상대방의 남성기를 자극하는 행위입니다.\n\n확률: 1 - 200\n기본값: 60\n설정값이 클수록 해당 행동을 더욱 빈번하게 수행합니다.</handjob_desc>
+  <mutual_masturbation>상호 자위</mutual_masturbation>
+  <mutual_masturbation_desc>마주 앉거나 누운 채로 손을 이용하여 상대방의 성기를 자극하는 행위입니다.\n\n확률: 1 - 200\n기본값: 70\n설정값이 클수록 해당 행동을 더욱 빈번하게 수행합니다.</mutual_masturbation_desc>
+  <double_penetration>동시 삽입</double_penetration>
+  <double_penetration_desc>남성기를 상대방의 여성기와 항문에 동시에 삽입하는 행위입니다. 보통의 경우 혼자서는 시도하지 못합니다.\n\n확률: 1 - 200\n기본값:50\n설정값이 클수록 해당 행동을 더욱 빈번하게 수행합니다.</double_penetration_desc>
+  <breastjob>파이즈리</breastjob>
+  <breastjob_desc>양 가슴을 이용하여 상대방의 남성기를 자극하는 행위입니다.\n\n확률: 1 - 200\n기본값: 50\n설정값이 클수록 해당 행동을 더욱 빈번하게 수행합니다.</breastjob_desc>
+  <fingering>핑거링</fingering>
+  <fingering_desc>손가락을 이용하여 상대방의 여성기나 항문을 섬세하게 자극하는 행위입니다.\n\n확률: 1 - 200\n기본값: 50\n설정값이 클수록 해당 행동을 더욱 빈번하게 수행합니다.</fingering_desc>
+  <scissoring>가위치기</scissoring>
+  <scissoring_desc>마주 앉거나 누운 채로 서로의 성기를 맞대고 비벼 자극하는 행위입니다. 주로 여성 간에 이뤄집니다.\n\n확률: 1 - 200\n기본값: 50\n설정값이 클수록 해당 행동을 더욱 빈번하게 수행합니다.</scissoring_desc>
+  <footjob>풋잡</footjob>
+  <footjob_desc>발가락만 이용하여 상대방의 성기를 자극하는 행위입니다.\n\n확률: 1 - 200\n기본값: 30\n설정값이 클수록 해당 행동을 더욱 빈번하게 수행합니다.</footjob_desc>
+  <fisting>피스팅</fisting>
+  <fisting_desc>주먹쥔 손을 상대방의 여성기나 항문에 우악스럽게 삽입하는 행위입니다.\n\n확률: 1 - 200\n기본값: 30\n설정값이 클수록 해당 행동을 더욱 빈번하게 수행합니다.</fisting_desc>
+  <sixtynine>69</sixtynine>
+  <sixtynine_desc>서로 순환하는 형태로 상대방의 성기를 향해 얼굴을 향한 채로 입이나 손을 이용하여 자극하는 행위입니다.\n\n확률: 1 - 200\n기본값: 60\n설정값이 클수록 해당 행동을 더욱 빈번하게 수행합니다.</sixtynine_desc>
+  <FapEverywhere>공개 자위</FapEverywhere>
+  <FapEverywhere_desc>원하는 곳에서 자위를 합니다.</FapEverywhere_desc>
+  <FapInBed>침대 자위</FapInBed>
+  <FapInBed_desc>침대에서 자위를 합니다.</FapInBed_desc>
+  <FapInBelts>생식기가 막혀도 자위 가능</FapInBelts>
+  <FapInBelts_desc>생식기가 막혀있어도 자위는 할 수 있게 합니다.</FapInBelts_desc>
+  <FapInArmbinders>손이 막혀도 자위 가능</FapInArmbinders>
+  <FapInArmbinders_desc>손이 막혀있어도 자위는 할 수 있게 합니다.</FapInArmbinders_desc>
+  <Malesex>남성의 성관계 허용:</Malesex>
+  <FeMalesex>여성의 성관계 허용:</FeMalesex>
+  <AllowedSex.All>양성애자</AllowedSex.All>
+  <AllowedSex.Homo>동성애자</AllowedSex.Homo>
+  <AllowedSex.Nohomo>이성애자</AllowedSex.Nohomo>
+  <SexClothing>성관계중 의복 상태:</SexClothing>
+  <SexClothingNude>알몸</SexClothingNude>
+  <SexClothingHeadwear>머리 장비만</SexClothingHeadwear>
+  <SexClothingFull>모든 의복 착용</SexClothingFull>
+  <RapeAttemptAlert>강간 시도시 경고:</RapeAttemptAlert>
+  <RapeAttemptAlertAlways>언제나</RapeAttemptAlertAlways>
+  <RapeAttemptAlertHumanlike>인간형 상대일 경우에만</RapeAttemptAlertHumanlike>
+  <RapeAttemptAlertColonist>정착민 상대일 경우에만</RapeAttemptAlertColonist>
+  <RapeAttemptAlertSilent>그냥 알림만 전달</RapeAttemptAlertSilent>
+  <RapeAttemptAlertDisabled>끄기</RapeAttemptAlertDisabled>
+  <RapeAlert>강간 경고 상세 설정:</RapeAlert>
+  <RapeAlertAlways>항상 켜기</RapeAlertAlways>
+  <RapeAlertHumanlike>인간형 상대일 경우에만</RapeAlertHumanlike>
+  <RapeAlertColonist>정착민 상대일 경우에만</RapeAlertColonist>
+  <RapeAlertSilent>그냥 알림만 전달</RapeAlertSilent>
+  <RapeAlertDisabled>끄기</RapeAlertDisabled>
+  <RapeAlertCP>성노예 관련 설정</RapeAlertCP>
+  <RapeAlertCP_desc>성노예로 지정된 림이 강간대상이 될 경우 경고합니다.</RapeAlertCP_desc>
+  <RapeAlertBreeding>교배 관련 설정</RapeAlertBreeding>
+  <RapeAlertBreeding_desc>교배용으로 지정된 림이 강간대상이 될 경우 경고합니다.</RapeAlertBreeding_desc>
+  <SexualitySpread1>성별 인식 방식:</SexualitySpread1>
+  <SexualitySpread2>RJW에서 성별을 인식하는 방법을 선택합니다.</SexualitySpread2>
+  <SexualitySpreadVanilla>림월드 기본 설정을 따름</SexualitySpreadVanilla>
+  <SexualitySpreadPsychology>Psychology 모드의 방식을 따름</SexualitySpreadPsychology>
+  <SexualitySpreadIndividuality>[SYR]Individuality 모드의 방식을 따름</SexualitySpreadIndividuality>
+  <SexualityAsexual>무성애자:</SexualityAsexual>
+  <SexualityPansexual>범성애자:</SexualityPansexual>
+  <SexualityHeterosexual>이성애자:</SexualityHeterosexual>
+  <SexualityBisexual>양성애자:</SexualityBisexual>
+  <SexualityGay>동성애자:</SexualityGay>
+  <SexualityAsexual_desc>무성애자는 어떤 대상에게서도 거의 성욕을 느끼지 않습니다.</SexualityAsexual_desc>
+  <SexualityPansexual_desc>범성애자는 비정상적인 상태를 포함해 어떤 성별도 가리지 않습니다.</SexualityPansexual_desc>
+  <SexualityHeterosexual_desc>이성애자는 자신과 반대의 성별을 지닌 대상을 선호합니다.</SexualityHeterosexual_desc>
+  <SexualityBisexual_desc>양성애자는 남성과 여성에게서 성욕을 느낍니다.</SexualityBisexual_desc>
+  <SexualityGay_desc>동성애자는 자신과 같은 성별만을 선호합니다.</SexualityGay_desc>
+  <MaxQuirks>성적 기벽의 최대 개수</MaxQuirks>
+  <MaxQuirks_desc>림이 생성될 때 가질 수 있는 기벽의 최대 갯수.</MaxQuirks_desc>
+  <SendTraitGainLetters>성적 특성 알림</SendTraitGainLetters>
+  <SendTraitGainLetters_desc>림이 섹스를 통해 특성을 얻으면 알람을 받을 수 있습니다. 상인과 같이 중요하지 않은 림들은 이 설정에 관계없이 알람이 오지 않습니다.</SendTraitGainLetters_desc>
+  <RJW_SexGizmo_Orgasm>오르가즘</RJW_SexGizmo_Orgasm>
+  <RJW_SexGizmo_RestNeed>스태미너</RJW_SexGizmo_RestNeed>
+  <RJW_SexGizmo_SexNeed>만족</RJW_SexGizmo_SexNeed>
+  <RJW_SexGizmo_SexOverdriveTooltip>섹스 과충전 - 탈진하거나 방해받을때까지 섹스를 끝내지 않습니다.</RJW_SexGizmo_SexOverdriveTooltip>
+  <RJW_SexGizmo_HitPawn>한 대 치기</RJW_SexGizmo_HitPawn>
+  <RJW_SexGizmo_Cocoon>고치로 싸버린다.</RJW_SexGizmo_Cocoon>
+  <RJW_SexGizmo_Egg>알이 들어있음.</RJW_SexGizmo_Egg>
+  <SexcardTooltip>성적 관심사 보기</SexcardTooltip>
+  <Quirks>기벽:</Quirks>
+  <NoQuirks>특이사항이 없습니다.</NoQuirks>
+  <MessyQuirk>끈적함\n성관계를 하면 엄청난 양의 체액이 분비됩니다만, 거의 스스로 청소하진 않습니다.\n</MessyQuirk>
+  <PodophileQuirk>발 페티쉬\n발과 관련된 체위를 선호합니다.</PodophileQuirk>
+  <CumslutQuirk>{pawn}(은)는 정액을 정말 좋아해서 펠라치오를 선호합니다.</CumslutQuirk>
+  <ButtslutQuirk>{pawn}(은)는 엉덩이에 박히는 것이 너무 좋아서 애널 섹스를 선호합니다</ButtslutQuirk>
+  <TeratophileQuirk>추물 선호\n못생긴 상대과 섹스하면 좋아합니다. 동물성애일 경우 크고 야생미 넘치는 동물을 선호합니다.</TeratophileQuirk>
+  <EndytophileQuirk>착의 선호\n옷을 입고 섹스하면 좋아합니다.</EndytophileQuirk>
+  <ExhibitionistQuirk>노출 선호\n다른 사람들이 볼 수 있는데서 섹스하면 좋아합니다.\n</ExhibitionistQuirk>
+  <GerontophileQuirk>노인 선호\n인간 나이로 55세 이상의 노인과 섹스하면 좋아합니다.\n</GerontophileQuirk>
+  <SomnophileQuirk>면간 선호\n자고있는 상대에게 끌립니다.</SomnophileQuirk>
+  <SapiosexualQuirk>가방끈 선호\n머리좋은 상대에게 끌립니다.</SapiosexualQuirk>
+  <FertileQuirk>높은 임신률\n비정상적으로 높은 임신률을 가집니다.</FertileQuirk>
+  <InfertileQuirk>난임\n비정상적으로 낮은 임신률을 가집니다.</InfertileQuirk>
+  <ImpregnationFetishQuirk>임신 선호\n임신 가능성이 있는 상대 및 임신 가능한 체위를 선호합니다.</ImpregnationFetishQuirk>
+  <PregnancyFetishQuirk>임산부 선호\n눈에 띄게 임신한 상대를 선호합니다.</PregnancyFetishQuirk>
+  <IncubatorQuirk>산란 전문가\n여러차례의 산란 경험이 있어, 이전보다 빠르게 산란합니다.</IncubatorQuirk>
+  <BreederQuirk>다산왕\n여러차례의 출산 경험이 있어, 이전보다 빠르게 출산합니다.</BreederQuirk>
+  <VigorousQuirk>정력가\n혈기왕성하게 섹스합니다. 섹스하는 동안 지치지 않습니다.</VigorousQuirk>
+  <ChitinLoverQuirk>키틴질 선호\n거미류나 곤충류를 상대로 끌립니다.</ChitinLoverQuirk>
+  <DemonLoverQuirk>악마 선호\n지옥이나 그 일부에서 나온듯한 상대에게 끌립니다.</DemonLoverQuirk>
+  <FeatherLoverQuirk>깃털 선호.\n조류나 공룡류의 상대를 선호합니다. 기회가 주어진다면 공룡이 새이고 깃털이 있다는 사실에 대해 길게 한번 이야기해보고 싶군요.</FeatherLoverQuirk>
+  <FurLoverQuirk>모피 선호\n두껍고, 고급스러우며, 아늑하고 부드러운 모피코트를 입은 상대를 선호합니다.</FurLoverQuirk>
+  <PlantLoverQuirk>식물 선호\n식물에 물 주는걸 좋아합니다. 대충 무슨 소린지 아시죠?</PlantLoverQuirk>
+  <RobotLoverQuirk>로봇 선호\n2차원과 3차원중 어느쪽을 원하세요? 물론 3D 프린터는 양쪽 모두를 충족시켜드립니다.</RobotLoverQuirk>
+  <ScaleLoverQuirk>비늘 선호\n드래곤 종류와 섹스하는 것을 선호합니다.</ScaleLoverQuirk>
+  <SkinLoverQuirk>피부 선호\n모피나, 비늘등이 없는 부드럽고 민감한 피부의 상대와의 섹스를 선호합니다.</SkinLoverQuirk>
+  <SlimeLoverQuirk>슬라임 선호\n슬라임과의 섹스를 선호합니다.</SlimeLoverQuirk>
+  <SexPartWants>성적 관심사:</SexPartWants>
+  <RJW_PartInfo_braCup>브래지어: {0}컵</RJW_PartInfo_braCup>
+  <RJW_PartInfo_braSizeNone>가슴 크기: -</RJW_PartInfo_braSizeNone>
+  <RJW_PartInfo_eggs>알: {0}</RJW_PartInfo_eggs>
+  <RJW_PartInfo_fluidTypeFluidAmount>{0}: {1}</RJW_PartInfo_fluidTypeFluidAmount>
+  <RJW_PartInfo_braSize>가슴 크기: {0}:{1}</RJW_PartInfo_braSize>
+  <RJW_PartInfo_overbust>윗가슴: {0}</RJW_PartInfo_overbust>
+  <RJW_PartInfo_underbust>밑가슴: {0}</RJW_PartInfo_underbust>
+  <RJW_PartInfo_weight>무게: {0}</RJW_PartInfo_weight>
+  <RJW_PartInfo_properties>특성: {0}</RJW_PartInfo_properties>
+  <RJW_PartInfo_girth>직경: {0}</RJW_PartInfo_girth>
+  <RJW_PartInfo_length>길이: {0}</RJW_PartInfo_length>
+  <RJW_PartInfo_depth>깊이: {0}</RJW_PartInfo_depth>
+  <RJW_PartInfo_maxGirth>최대 직경: {0}</RJW_PartInfo_maxGirth>
+  <RJW_PartInfo_maxLength>최대 길이: {0}</RJW_PartInfo_maxLength>
+  <RJW_PartInfo_fluidTypeFluidAmountHeading>체액: {0} ({1}ml)</RJW_PartInfo_fluidTypeFluidAmountHeading>
+  <RJW_PartInfo_unknownSpecies>종족 미확인</RJW_PartInfo_unknownSpecies>
+  <RJW_PartInfo_unknownOwner>알 수 없음</RJW_PartInfo_unknownOwner>
+  <RJW_StatEntry_PreviousOwner>이전 소유자</RJW_StatEntry_PreviousOwner>
+  <RJW_StatEntry_OriginalOwnerRace>고유 종족</RJW_StatEntry_OriginalOwnerRace>
+  <RJW_StatEntry_OriginalOwnerSize>고유 크기</RJW_StatEntry_OriginalOwnerSize>
+  <RJW_StatEntry_PartSize>크기</RJW_StatEntry_PartSize>
+  <RJW_StatEntry_PartCupSize>가슴 크기</RJW_StatEntry_PartCupSize>
+  <RJW_StatEntry_PartLength>길이</RJW_StatEntry_PartLength>
+  <RJW_StatEntry_PartGirth>직경</RJW_StatEntry_PartGirth>
+  <RJW_StatEntry_PartMaxGirth>최대 직경</RJW_StatEntry_PartMaxGirth>
+  <RJW_StatEntry_PartDepth>깊이</RJW_StatEntry_PartDepth>
+  <RJW_StatEntry_PartTags>특성</RJW_StatEntry_PartTags>
+  <RJW_StatEntry_Fluid>체액</RJW_StatEntry_Fluid>
+  <RJW_StatEntry_FluidAmount>체액량</RJW_StatEntry_FluidAmount>
+  <RJW_StatEntry_FluidAmount_ejaculation>사정량</RJW_StatEntry_FluidAmount_ejaculation>
+  <RJW_StatEntry_FluidAmount_wetness>젖음</RJW_StatEntry_FluidAmount_wetness>
+  <RJW_RMB_ReasonLowOpinionOfTarget>대상에 대한 의견이 낮음</RJW_RMB_ReasonLowOpinionOfTarget>
+  <RJW_RMB_ReasonUnappealingTarget>대상에게 성적으로 끌리지 않음</RJW_RMB_ReasonUnappealingTarget>
+  <RJW_RMB_ReasonLowOpinionOfPawn>나에 대한 의견이 낮음</RJW_RMB_ReasonLowOpinionOfPawn>
+  <RJW_RMB_ReasonUnappealingPawn>나에게 성적으로 끌리지 않음</RJW_RMB_ReasonUnappealingPawn>
+  <RJW_RMB_ReasonNeedBed>침대 배정 필요</RJW_RMB_ReasonNeedBed>
+  <RJW_RMB_ReasonCantReachBed>지정된 침대에 도달할 수 없음</RJW_RMB_ReasonCantReachBed>
+  <RJW_PartInfo_severity>심각도: {0}</RJW_PartInfo_severity>
+  <RJW_PartInfo_fluidMultiplier>체액 계수: {0}</RJW_PartInfo_fluidMultiplier>
+  <RJW_StatEntry_PartWeight>무게</RJW_StatEntry_PartWeight>
+  <animal_on_human_enabled>동물-인간 교미 시도 허용</animal_on_human_enabled>
+  <animal_on_human_enabled_desc>정착지의 동물들이 인간과 교미를 시도할 수 있습니다.</animal_on_human_enabled_desc>
+  <PartsEditLabel>{0} 편집</PartsEditLabel>
+  <PartsEditFluidMultiplierLabel>체액 계수</PartsEditFluidMultiplierLabel>
+  <PartsEditDevEntry>RJW: 부위 편집</PartsEditDevEntry>
+</LanguageData>

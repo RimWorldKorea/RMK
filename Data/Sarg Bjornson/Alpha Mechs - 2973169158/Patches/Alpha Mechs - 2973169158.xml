@@ -1,0 +1,951 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Fishing Expanded</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_Gestate_Angler"]/label</xpath>
+            <value>
+              <label>오셔누스 배양</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_Gestate_Angler"]/description</xpath>
+            <value>
+              <description>오셔누스 메카노이드를 배양합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Angler"]/label</xpath>
+            <value>
+              <label>오셔누스</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Angler"]/description</xpath>
+            <value>
+              <description>오셔누스는 오래된 예인선 모양의 독특한 기계로, 낚시에 특화되어 있습니다. 그물, 갈고리, 낚싯줄 등 최첨단 낚시 장비와 첨단 소나 및 레이더 시스템이 장착되어 있어 물고기 떼를 매우 정밀하게 찾아낼 수 있습니다. 선체는 첨단 소재로 강화되어 바다에서 발생하는 대부분의 자연 재해에 영향을 받지 않으며, 많은 양의 신선한 생선을 저장할 수 있는 대형 화물칸이 특징입니다. 하지만 전투에서는 거의 쓸모가 없습니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Angler"]/tools/li[1]/label</xpath>
+            <value>
+              <label>선수</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PawnKindDef[defName="AM_Mech_Angler"]/label</xpath>
+            <value>
+              <label>오셔누스</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>##packageId##sarg.rimbees</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_Gestate_Apiarist"]/label</xpath>
+            <value>
+              <label>아피아리스트 배양</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_Gestate_Apiarist"]/description</xpath>
+            <value>
+              <description>아피아리스트 메카노이드를 배양합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Apiarist"]/label</xpath>
+            <value>
+              <label>아피아리스트</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Apiarist"]/description</xpath>
+            <value>
+              <description>아피아리스트는 양봉 작업을 위해 특별히 설계된 작은 벌 모양의 기계입니다. 첨단 센서와 프로그래밍을 통해 벌통의 상태를 모니터링하고 꿀을 수집하며 기타 필수 작업을 매우 정밀하고 효율적으로 수행할 수 있습니다. 아피아리스트는 컴팩트한 크기와 날개 달린 디자인으로 지형 위를 선회할 수 있어 지형 이동 비용을 무시하고 접근하기 어려운 곳에 접근할 수 있습니다. 전투용으로 설계되지는 않았지만, 견고한 구조와 빠르고 민첩한 이동 능력 덕분에 잡기 어렵습니다.\n\n&lt;color=#E5E54C&gt;특수 능력:&lt;/color&gt; 지형 이동 비용을 무시하고 지형 상공에 선회합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Apiarist"]/tools/li[1]/label</xpath>
+            <value>
+              <label>머리</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PawnKindDef[defName="AM_Mech_Apiarist"]/label</xpath>
+            <value>
+              <label>아피아리스트</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Genetics Expanded</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_Gestate_Geneticor"]/label</xpath>
+            <value>
+              <label>제네티커 배양</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_Gestate_Geneticor"]/description</xpath>
+            <value>
+              <description>제네티커 메카노이드를 배양합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Geneticor"]/label</xpath>
+            <value>
+              <label>제네티커</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Geneticor"]/description</xpath>
+            <value>
+              <description>제네티커 메카노이드는 유전 공학 작업을 위해 설계된 인간형 로봇입니다. 고급 센서와 프로그래밍을 통해 탁월한 정밀도와 속도로 DNA 염기서열을 분석하고 조작할 수 있습니다. 제네티커에는 유전자 시퀀서, 크리스퍼/Cas9 유전자 편집 시스템, 유전자 스플라이서 등 다양한 전문 도구와 장비가 장착되어 있습니다. 프로그래밍에는 광범위한 유전자 정보 및 염기서열 데이터베이스가 포함되어 있어 주어진 작업에 맞게 접근 방식을 조정하고 맞춤화할 수 있습니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PawnKindDef[defName="AM_Mech_Geneticor"]/label</xpath>
+            <value>
+              <label>제네티커</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>##packageId##VanillaExpanded.VBooksE</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_Gestate_Librarian"]/label</xpath>
+            <value>
+              <label>스크립토마톤 배양</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_Gestate_Librarian"]/description</xpath>
+            <value>
+              <description>스크립토마톤 메카노이드를 배양합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Librarian"]/label</xpath>
+            <value>
+              <label>스크립토마톤</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Librarian"]/description</xpath>
+            <value>
+              <description>스크립토마톤은 도서관을 만들고 유지 관리하기 위해 설계된 인간형 메카노이드입니다. 스크립토마톤은 방대한 지식 데이터베이스를 보유하고 있으며 새로운 정보가 입수되면 이를 신속하고 효율적으로 분류하고 정리할 수 있습니다. 스크립토마톤에는 펜, 연필, 퀼 등 고급 필기 도구와 함께 필기된 텍스트를 디지털 형식으로 변환할 수 있는 최첨단 소프트웨어가 장착되어 있습니다. 세련된 인간형태와 첨단 모빌리티 시스템을 통해 도서관과 기록 보관소를 빠르고 우아하게 이동하며 귀중한 문서와 유물을 수집하고 보존할 수 있습니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PawnKindDef[defName="AM_Mech_Librarian"]/label</xpath>
+            <value>
+              <label>스크립토마톤</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Races Expanded - Sanguophage</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/AbilityDef[defName="AM_ExtractHemogen"]/label</xpath>
+            <value>
+              <label>혈액정수 추출</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/AbilityDef[defName="AM_ExtractHemogen"]/description</xpath>
+            <value>
+              <description>쓰러진 사람에게서 혈액정수를 추출합니다. 대상은 혈액손실로 인해 쓰러집니다. 추출 후 상처는 빠르게 응고됩니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_Gestate_Sanguinarius"]/label</xpath>
+            <value>
+              <label>생귀나리우스 배양</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_Gestate_Sanguinarius"]/description</xpath>
+            <value>
+              <description>생귀나리우스 메카노이드를 배양합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Gun_BloodBelcher"]/label</xpath>
+            <value>
+              <label>블러드 벌쳐</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Gun_BloodBelcher"]/description</xpath>
+            <value>
+              <description>끓는 산성 피를 이용하는 무시무시한 무기입니다. 활성화되면 목표물을 향해 고압의 산성 혈류를 발사합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Gun_BloodBelcher"]/tools/li[1]/label</xpath>
+            <value>
+              <label>베럴</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VFECore.ExpandableProjectileDef[defName="AM_Bullet_BloodBelcher"]/label</xpath>
+            <value>
+              <label>끓어오르는 혈액정수</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Sanguinarius"]/label</xpath>
+            <value>
+              <label>생귀나리우스</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Sanguinarius"]/description</xpath>
+            <value>
+              <description>센티피드를 닮은 강력한 메카노이드로, 혈액정수을 효율적으로 수집하고 처리하는 데 최적화되어 있습니다. 날카로운 개폐식 코로 정밀하게 절개하여 자원을 추출한 다음 내부 저장소에 처리 및 저장합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Sanguinarius"]/tools/li[1]/label</xpath>
+            <value>
+              <label>왼쪽 앞다리</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Sanguinarius"]/tools/li[2]/label</xpath>
+            <value>
+              <label>오른쪽 뒷다리</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Sanguinarius"]/tools/li[3]/label</xpath>
+            <value>
+              <label>머리</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PawnKindDef[defName="AM_Mech_Sanguinarius"]/label</xpath>
+            <value>
+              <label>생귀나리우스</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Factions Expanded - Mechanoids</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Aura_PlayerControlled"]/label</xpath>
+            <value>
+              <label>도미니온</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Aura_PlayerControlled"]/description</xpath>
+            <value>
+              <description>도미니온은 아우라의 개선된 개체로써 6개의 공중에 떠 있는 금속 칼날로 이루어진 소용돌이치는 구름에 둘러싸인 천사 모양의 메카노이드입니다. 그들은 근접 전투를 선호하며, 희생자에게 접근하여 그들을 죽음의 소용돌이에 휩싸이게 합니다. 또한 빠른 속도의 재생 메카나이트로 상처를 재생하는 능력도 가지고 있습니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Aura_PlayerControlled"]/tools/li[1]/label</xpath>
+            <value>
+              <label>날개 칼날</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Aura_PlayerControlled"]/tools/li[2]/label</xpath>
+            <value>
+              <label>머리</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PawnKindDef[defName="VFE_Mech_Advanced_Aura_PlayerControlled"]/label</xpath>
+            <value>
+              <label>도미니온</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_DominionRecipe"]/label</xpath>
+            <value>
+              <label>도미니온 배양</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_DominionRecipe"]/description</xpath>
+            <value>
+              <description>도미니온 메카노이드를 배양합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Daggersnout_PlayerControlled"]/label</xpath>
+            <value>
+              <label>이비서레이터</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Daggersnout_PlayerControlled"]/description</xpath>
+            <value>
+              <description>이비서레이터는 날카로운 칼날로 무장한 곤충 같은 전투 메카노이드인 대거스나우트의 개선된 개체입니다. 사이더와 같은 다른 근거리 메카노이드만큼 위험하지는 않지만, 보통 더 많은 수로 나타납니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Daggersnout_PlayerControlled"]/tools/li[1]/label</xpath>
+            <value>
+              <label>스나우트 칼날</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Daggersnout_PlayerControlled"]/tools/li[2]/label</xpath>
+            <value>
+              <label>머리</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PawnKindDef[defName="VFE_Mech_Advanced_Daggersnout_PlayerControlled"]/label</xpath>
+            <value>
+              <label>이비서레이터</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_EvisceratorRecipe"]/label</xpath>
+            <value>
+              <label>이비서레이터 배양</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_EvisceratorRecipe"]/description</xpath>
+            <value>
+              <description>이비서레이터 메카노이드를 배양합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Fireworm_PlayerControlled"]/label</xpath>
+            <value>
+              <label>인시너레이터</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Fireworm_PlayerControlled"]/description</xpath>
+            <value>
+              <description>인시너레이터는 위험한 화학연료 화염방사기로 무장한 거대한 기계 벌레인 파이어웜의 진화된 버전입니다. 이 메카노이드의 무기는 사거리가 매우 짧으므로 인시너레이터가 기지에 접근하지 못하도록 주의하세요!\n\n인시너레이터는 얼어붙은 베헤모스와 닮았습니다. 우연일까요? 아니면 메카노이드가 생명체를 유닛의 설계도로 삼은 것일지도 모르죠. 그렇다면 사이더의 원본이 어떻게 생겼는지 보고 싶지 않을겁니다... 이 특별한 유닛은 고대의 덜 발전된 개체들과는 달리 훨씬 더 지능적이며 엄폐물을 찾아다니며 근접 전투에서 훨씬 더 어려운 상대가 될 것입니다.\n\n&lt;color=#E5E54C&gt;게임플레이 효과:&lt;/color&gt; 모드 옵션을 통해 생성되지 않도록 전환하면 고급 파이크맨으로 대체됩니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Fireworm_PlayerControlled"]/tools/li[1]/label</xpath>
+            <value>
+              <label>머리</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PawnKindDef[defName="VFE_Mech_Advanced_Fireworm_PlayerControlled"]/label</xpath>
+            <value>
+              <label>인시너레이터</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_IncineratorRecipe"]/label</xpath>
+            <value>
+              <label>인시너레이터 배양</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_IncineratorRecipe"]/description</xpath>
+            <value>
+              <description>인시너레이터 메카노이드를 배양합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Goliath_PlayerControlled"]/label</xpath>
+            <value>
+              <label>콜로서스</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Goliath_PlayerControlled"]/description</xpath>
+            <value>
+              <description>콜로서스는 골리앗의 개선된 개체로써, 인간형의 중전투 메카노이드입니다. 지네보다 빠르며 보통 중장비나 바늘총으로 무장합니다. 고대의 덜 발전된 기체들과 달리 이 유닛은 훨씬 더 지능적이며 엄폐물을 찾아다니며 근접 전투에서 훨씬 더 어려운 상대가 될 것입니다.\n\n&lt;color=#E5E54C&gt;게임플레이 효과:&lt;/color&gt; 모드 옵션을 통해 생성되지 않도록 전환하면 고급 센티피드로 대체됩니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Goliath_PlayerControlled"]/tools/li[1]/label</xpath>
+            <value>
+              <label>머리</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PawnKindDef[defName="VFE_Mech_Advanced_Goliath_PlayerControlled"]/label</xpath>
+            <value>
+              <label>콜로서스</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_ColossusRecipe"]/label</xpath>
+            <value>
+              <label>콜로서스 배양</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_ColossusRecipe"]/description</xpath>
+            <value>
+              <description>콜로서스 메카노이드를 배양합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Phalanx_PlayerControlled"]/label</xpath>
+            <value>
+              <label>하프라이트</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Phalanx_PlayerControlled"]/description</xpath>
+            <value>
+              <description>하프라이트는 장수풍뎅이의 몸체를 본떠 만든 대형 메카노이드인 팔랑크스의 개선된 버전입니다. 하프라이트의 플라스틸 갑피에는 초냉각 가스를 압축한 펠릿을 지속적으로 생산할 수 있는 매우 강력한 극저온 엔진이 숨겨져 있습니다. 메카노이드의 머리에 있는 구멍에서 발사되는 이 극저온 무기는 사거리가 매우 짧지만 동상에 취약한 존재에게는 매우 위험할 수 있습니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Phalanx_PlayerControlled"]/tools/li[1]/label</xpath>
+            <value>
+              <label>머리</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PawnKindDef[defName="VFE_Mech_Advanced_Phalanx_PlayerControlled"]/label</xpath>
+            <value>
+              <label>하프라이트</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_HopliteRecipe"]/label</xpath>
+            <value>
+              <label>하프라이트 배양</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_HopliteRecipe"]/description</xpath>
+            <value>
+              <description>하프라이트 메카노이드를 배양합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Siegebreaker_PlayerControlled"]/label</xpath>
+            <value>
+              <label>시즈마스터</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Siegebreaker_PlayerControlled"]/description</xpath>
+            <value>
+              <description>시즈마스터는 시즈브레이커의 개선된 버전으로, 특히 위험한 탱크 모양의 메카노이드입니다. 폭발성 포탄을 발사하는 시즈브레이커 대포로 무장한 이들은 수백 미터 떨어진 곳에서도 적의 존재를 감지할 수 있으며, 아무리 강력한 방어력도 무력화시킬 수 있는 무자비한 공성 무기 역할을 합니다. 이동 속도가 매우 느리고 대포를 재충전하는 데 시간이 오래 걸리지만, 대부분의 경우 우선 표적으로 삼아야 합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFE_Mech_Advanced_Siegebreaker_PlayerControlled"]/tools/li[1]/label</xpath>
+            <value>
+              <label>머리</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PawnKindDef[defName="VFE_Mech_Advanced_Siegebreaker_PlayerControlled"]/label</xpath>
+            <value>
+              <label>시즈마스터</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_SiegemasterRecipe"]/label</xpath>
+            <value>
+              <label>시즈마스터 배양</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_SiegemasterRecipe"]/description</xpath>
+            <value>
+              <description>시즈마스터 메카노이드를 배양합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Advanced_PristineSlurrypede_PlayerControlled"]/label</xpath>
+            <value>
+              <label>프리스틴 슬러리마스터</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Advanced_PristineSlurrypede_PlayerControlled"]/description</xpath>
+            <value>
+              <description>슬러리마스터는 슬러리피드의 고급 버전입니다. 이 극히 희귀한 기계 생명체는 하드웨어 업그레이드를 받은 메카노이드 배치의 결과물입니다. 슬러리마스터는 메카노이드 충전기에서 에너지를 추출하여 무기물을 균일한 유기 슬러리로 처리하는 데 사용할 수 있는 개조된 바이오 메카노이드입니다. 이 슬러리는 영양죽 추출기에서 생산된 영양죽과 거의 구별할 수 없습니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Advanced_PristineSlurrypede_PlayerControlled"]/tools/li[1]/label</xpath>
+            <value>
+              <label>머리</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PawnKindDef[defName="AM_Mech_Advanced_PristineSlurrypede_PlayerControlled"]/label</xpath>
+            <value>
+              <label>프리스틴 슬러리마스터</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_PristineSlurrymasterRecipe"]/label</xpath>
+            <value>
+              <label>프리스틴 슬러리마스터 배양</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_PristineSlurrymasterRecipe"]/description</xpath>
+            <value>
+              <description>프리스틴 슬러리마스터 메카노이드를 배양합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="AM_AlphaHardwareUpgrade"]/label</xpath>
+            <value>
+              <label>알파 하드웨어 업그레이드</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="AM_AlphaHardwareUpgrade"]/description</xpath>
+            <value>
+              <description>메카노이드 하드웨어 업그레이드를 연구하면 Vanilla Factions Expanded - Mechanoid에 추가된 모든 고급 알파 메카노이드를 제작할 수 있습니다.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>a Animals</li>
+      </mods>
+      <nomatch Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_DisgustingMealNutrientPaste"]/label</xpath>
+            <value>
+              <label>역겨운 영양죽</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_DisgustingMealNutrientPaste"]/description</xpath>
+            <value>
+              <description>단백질, 탄수화물, 비타민, 아미노산 및 미네랄의 합성 혼합물입니다. 저렴한 가격에 생산할 수 있으며 신체에 필요한 모든 것을 포함하고 있지만, 일반적인 영양죽보다 훨씬 더 역겹습니다. 사람들은 이것을 먹기를 완강히 거부할 것입니다.\n\n육식동물과 잡식동물은 이 슬러리를 먹을 수 있지만, 초식동물은 완전히 소화불가능합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="AM_AteSuperAwfulMeal"]/stages/li[1]/label</xpath>
+            <value>
+              <label>믿기 힘들 만큼 끔찍한 음식을 먹음</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="AM_AteSuperAwfulMeal"]/stages/li[1]/description</xpath>
+            <value>
+              <description>생체역학적 괴물의 내장에서 가공된 무언가를 먹어야 했어. 내 평생 이보다 더 역겨운 식사는 없었어.</description>
+            </value>
+          </li>
+        </operations>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Biotech</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Apparel_ArmorHelmetMechlordHelmet_Prestige"]/label</xpath>
+            <value>
+              <label>고급 기계군주 헬멧</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Apparel_ArmorHelmetMechlordHelmet_Prestige"]/description</xpath>
+            <value>
+              <description>메카나이터 보조 장비로 가득 찬 무거운 플라스틸 직조 투구입니다. 기계군주 헬멧은 메카나이터의 대역폭을 크게 증폭시키지만, 다른 중갑보다는 보호력이 다소 떨어집니다.\n\n이런 고가의 아름다운 갑옷은 보통 높은 지위를 가진 자들이 착용합니다. 또한 내장된 엘텍스 가닥은 착용자의 정신적 민감도를 높여줍니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_MechCommanderHelm_Prestige"]/label</xpath>
+            <value>
+              <label>고급 기계황제 헬멧</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_MechCommanderHelm_Prestige"]/description</xpath>
+            <value>
+              <description>메카나이더 보조 장비로 가득 찬 무거운 파워 아머 헬멧입니다. 기계황제 헬멧은 메카나이터의 공격 범위를 대폭 증폭시키면서도 해병대 헬멧보다 보호력이 뛰어납니다.\n\n이런 고가의 아름다운 갑옷은 보통 높은 지위를 가진 자들이 착용합니다. 또한 내장된 엘텍스 가닥은 착용자의 정신적 민감도를 높여줍니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_PrestigeMechBreakerHelm"]/label</xpath>
+            <value>
+              <label>고급 기계파괴자 헬멧</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_PrestigeMechBreakerHelm"]/description</xpath>
+            <value>
+              <description>메카나이터의 능력을 더욱 향상시키기 위해 개조된 시즈브레이커 투구입니다.\n\n이런 고가의 아름다운 갑옷은 보통 높은 신분을 가진 자들이 착용합니다. 내장된 엘텍스 가닥은 착용자의 정신적 민감도를 높여줍니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Apparel_MechlordSuit_Prestige"]/label</xpath>
+            <value>
+              <label>고급 기계군주 갑옷</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Apparel_MechlordSuit_Prestige"]/description</xpath>
+            <value>
+              <description>메카나이터 보조 장비로 가득 찬 무거운 동력 보조 갑옷입니다. 기계군주 갑옷은 메카나이터의 대역폭을 크게 늘려주지만, 다른 중갑보다는 방어력이 다소 떨어집니다.\n\n이런 고가의 아름다운 갑옷은 보통 높은 지위를 가진 자들이 착용합니다. 또한 내장된 엘텍스 가닥은 사용자의 정신적 민감도를 높여줍니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_PrestigeMechCommanderSuit"]/label</xpath>
+            <value>
+              <label>고급 기계황제 갑옷</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_PrestigeMechCommanderSuit"]/description</xpath>
+            <value>
+              <description>메카나이터 보조 장비로 가득 찬 무거운 동력 보조 갑옷입니다. 메카나이터의 능력을 크게 증폭시키며, 해병대 갑옷보다 약간 더 강합니다.\n\n이런 고가의 아름다운 갑옷은 보통 높은 지위를 가진 자들이 착용합니다. 내장된 엘텍스 가닥은 착용자의 정신적 민감도를 높여줍니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_PrestigeMechBreakerArmor"]/label</xpath>
+            <value>
+              <label>고급 기계파괴자 갑옷</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_PrestigeMechBreakerArmor"]/description</xpath>
+            <value>
+              <description>메카나이터의 능력을 더욱 향상시키기 위해 시즈브레이커의 외갑을 접목한 갑옷입니다.\n\n이런 고가의 아름다운 갑옷은 보통 높은 지위를 가진 자들이 착용합니다. 또한 내장된 엘텍스 가닥은 착용자의 정신적 민감도를 높여줍니다.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Factions Expanded - Pirates</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VFEPirates.WarcasketDef[defName="VFEP_Warcasket_MechController"]/label</xpath>
+            <value>
+              <label>기계황제 워캐스킷</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VFEPirates.WarcasketDef[defName="VFEP_Warcasket_MechController"]/shortDescription</xpath>
+            <value>
+              <shortDescription>착용자가 메카노이드를 효과적으로 제어할 수 있도록 해주는 특수 워캐스킷입니다.</shortDescription>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VFEPirates.WarcasketDef[defName="VFEP_Warcasket_MechController"]/description</xpath>
+            <value>
+              <description>기계황제 워캐스킷은 착용자가 메카노이드를 효과적으로 제어할 수 있도록 해주는 특수 워캐스킷입니다. 착용자의 신경과 메카노이드의 메카닉 링크를 강화하는 첨단 기술이 탑재되어 있어 전장에서 메카노이드를 탁월한 수준으로 제어할 수 있습니다.\n\n첨단 제어 시스템 외에도 기계황제 워캐스킷은 강력한 에너지 보호막을 갖추고 있어 전방 전투 상황에서 탁월한 선택이 될 수 있습니다. 통합된 전원 시스템은 가장 격렬한 전투 상황에서도 쉴드가 계속 작동할 수 있도록 보장합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VFEPirates.WarcasketDef[defName="VFEP_Warcasket_Shoulders_MechController"]/label</xpath>
+            <value>
+              <label>기계황제 워캐스킷 어깨</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VFEPirates.WarcasketDef[defName="VFEP_Warcasket_Shoulders_MechController"]/shortDescription</xpath>
+            <value>
+              <shortDescription>착용자가 메카노이드를 효과적으로 제어할 수 있도록 해주는 특수 워캐스킷입니다.</shortDescription>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VFEPirates.WarcasketDef[defName="VFEP_Warcasket_Shoulders_MechController"]/description</xpath>
+            <value>
+              <description>기계황제 워캐스킷은 착용자가 메카노이드를 효과적으로 제어할 수 있도록 해주는 특수 워캐스킷입니다. 착용자의 신경과 메카노이드의 메카닉 링크를 강화하는 첨단 기술이 탑재되어 있어 전장에서 메카노이드를 탁월한 수준으로 제어할 수 있습니다.\n\n첨단 제어 시스템 외에도 기계황제 워캐스킷은 강력한 에너지 보호막을 갖추고 있어 전방 전투 상황에서 탁월한 선택이 될 수 있습니다. 통합된 전원 시스템은 가장 격렬한 전투 상황에서도 쉴드가 계속 작동할 수 있도록 보장합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VFEPirates.WarcasketDef[defName="VFEP_Warcasket_Helmet_MechController"]/label</xpath>
+            <value>
+              <label>기계황제 워캐스킷 헬멧</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VFEPirates.WarcasketDef[defName="VFEP_Warcasket_Helmet_MechController"]/shortDescription</xpath>
+            <value>
+              <shortDescription>착용자가 메카노이드를 효과적으로 제어할 수 있도록 해주는 특수 워캐스킷입니다.</shortDescription>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VFEPirates.WarcasketDef[defName="VFEP_Warcasket_Helmet_MechController"]/description</xpath>
+            <value>
+              <description>기계황제 워캐스킷은 착용자가 메카노이드를 효과적으로 제어할 수 있도록 해주는 특수 워캐스킷입니다. 착용자의 신경과 메카노이드의 메카닉 링크를 강화하는 첨단 기술이 탑재되어 있어 전장에서 메카노이드를 탁월한 수준으로 제어할 수 있습니다.\n\n첨단 제어 시스템 외에도 기계황제 워캐스킷은 강력한 에너지 보호막을 갖추고 있어 전방 전투 상황에서 탁월한 선택이 될 수 있습니다. 통합된 전원 시스템은 가장 격렬한 전투 상황에서도 쉴드가 계속 작동할 수 있도록 보장합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TraitDef[defName="VFEP_WarcasketTrait_Mech"]/degreeDatas/li[1]/label</xpath>
+            <value>
+              <label>기계 워캐스킷</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TraitDef[defName="VFEP_WarcasketTrait_Mech"]/degreeDatas/li[1]/description</xpath>
+            <value>
+              <description>{PAWN_nameDef}는 기계 워캐스킷에 안치되었습니다. 아무리 고통을 줘도 영향을 받지 않으며, 고통으로 인해 쇼크에 빠지거나 의식을 잃을 수 없습니다. {PAWN_nameDef}는 메카노이드 유지 및 제작에 필요한 작업을 제외한 대부분의 작업을 수행할 수 없게 됩니다.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>##packageId##Dubwise.Rimatomics</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_Gestate_Nucleotron"]/label</xpath>
+            <value>
+              <label>뉴클레오트론 배양</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AM_Gestate_Nucleotron"]/description</xpath>
+            <value>
+              <description>뉴클레오트론 메카노이드를 배양합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Nucleotron"]/label</xpath>
+            <value>
+              <label>뉴클레오트론</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_Mech_Nucleotron"]/description</xpath>
+            <value>
+              <description>원자로에 핵분열성 물질을 삽입 및 추출하여 운반하도록 설계된 특수 리프터 메카노이드입니다. 운반 중 누출이나 오염을 방지하기 위해 안전한 차폐 장치가 장착되어 있습니다. 리프터에 비해 활용도가 떨어지지만 이동 속도가 상당히 빠릅니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PawnKindDef[defName="AM_Mech_Nucleotron"]/label</xpath>
+            <value>
+              <label>뉴클레오트론</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+</Patch>

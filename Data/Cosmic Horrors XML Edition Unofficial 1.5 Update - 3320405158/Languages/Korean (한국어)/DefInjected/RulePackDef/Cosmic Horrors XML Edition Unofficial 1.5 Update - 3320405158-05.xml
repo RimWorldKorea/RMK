@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ROM_Maneuver_Exsanguination.rulePack.rulesStrings>
+    <li>woundname-&gt;상처</li>
+    <li>flavortext_situation(p=3)-&gt;[ROMgazingwithinhumaneyes] 동안</li>
+    <li>flavortext_situation(p=3)-&gt;[ROMcarryinganexpressionofmadness] 동안</li>
+    <li>flavortext_situation(p=2,recipient_flesh!=Mechanoid)-&gt;[woundname]에서 [ROMbloodoozing] 동안</li>
+    <li>flavortext_situation(p=2,recipient_flesh!=Mechanoid)-&gt;[ROMgore]의 [woundname](이)가 [ROMexposed] 동안</li>
+    <li>flavortext_consequence(p=2,recipient_flesh!=Mechanoid)-&gt;그리고 [ROMexposing] [ROMtheflesh] [ROMunderneath]</li>
+    <li>flavortext_consequence(p=2,recipient_flesh!=Mechanoid)-&gt;그리고 [ROMhorrible] [woundname](을)를 [ROMexposing]</li>
+    <li>flavortext_consequence(p=2,recipient_flesh==Mechanoid)-&gt;그리고 아래에 있는 기계를 노출시킴</li>
+    <li>destroyed_suffix(p=2,recipient_flesh!=Mechanoid)-&gt;역겨운 [ROMstrips]</li>
+    <li>destroyed_suffix(p=4)-&gt;[ROMstrips]</li>
+    <li>destroyed_suffix-&gt;조각들</li>
+    <li>destroyed_suffix-&gt;파편들</li>
+    <li>destroyed_suffix(recipient_flesh!=Mechanoid)-&gt;피투성이</li>
+  </ROM_Maneuver_Exsanguination.rulePack.rulesStrings>
+</LanguageData>

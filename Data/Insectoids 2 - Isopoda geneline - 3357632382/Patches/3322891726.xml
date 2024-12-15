@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RulePackDef[defName="VFEI2_DamageEvent_Crushing"]/rulePack/rulesStrings/li[1]</xpath>
+    <value>
+      <li>damage_source-&gt;곤충이 [grinding] [crushed]</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RulePackDef[defName="VFEI2_DamageEvent_Crushing"]/rulePack/rulesStrings/li[2]</xpath>
+    <value>
+      <li>destroyed_present(p=3)-&gt;찢어짐</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RulePackDef[defName="VFEI2_DamageEvent_Crushing"]/rulePack/rulesStrings/li[3]</xpath>
+    <value>
+      <li>grinding-&gt;내려찍어</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RulePackDef[defName="VFEI2_DamageEvent_Crushing"]/rulePack/rulesStrings/li[4]</xpath>
+    <value>
+      <li>grinding-&gt;짓눌러</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RulePackDef[defName="VFEI2_DamageEvent_Crushing"]/rulePack/rulesStrings/li[5]</xpath>
+    <value>
+      <li>grinding(p=10)-&gt;</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RulePackDef[defName="VFEI2_DamageEvent_Crushing"]/rulePack/rulesStrings/li[6]</xpath>
+    <value>
+      <li>crushed(p=8)-&gt;분쇄함</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RulePackDef[defName="VFEI2_DamageEvent_Crushing"]/rulePack/rulesStrings/li[7]</xpath>
+    <value>
+      <li>crushed-&gt;파쇄함</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RulePackDef[defName="VFEI2_DamageEvent_Crushing"]/rulePack/rulesStrings/li[8]</xpath>
+    <value>
+      <li>crushed-&gt;으깸</li>
+    </value>
+  </Operation>
+</Patch>
