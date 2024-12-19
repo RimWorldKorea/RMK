@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VCE_Carrot"]/label</xpath>
+    <value>
+      <label>댄버스 당근</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VCE_RawCarrot"]/label</xpath>
+    <value>
+      <label>댄버스 당근</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VCE_Melon"]/label</xpath>
+    <value>
+      <label>허니듀 멜론</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VCE_RawMelon"]/label</xpath>
+    <value>
+      <label>허니듀 멜론</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VCE_Cucumber"]/label</xpath>
+    <value>
+      <label>부시 챔피언 오이</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VCE_RawCucumber"]/label</xpath>
+    <value>
+      <label>부시 챔피언 오이</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VCE_TreeOlive"]/label</xpath>
+    <value>
+      <label>세비야 만사니요 올리브 나무</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VCE_RawOlives"]/label</xpath>
+    <value>
+      <label>세비야 만사니요 올리브</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VCE_Pineapple"]/label</xpath>
+    <value>
+      <label>애버커시 파인애플</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VCE_RawPineapple"]/label</xpath>
+    <value>
+      <label>애버커시 파인애플</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VCE_Barley"]/label</xpath>
+    <value>
+      <label>매리스 오터 보리</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VCE_Sorghum"]/label</xpath>
+    <value>
+      <label>말리크 수수</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VCE_Oats"]/label</xpath>
+    <value>
+      <label>레인즈 귀리</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VCE_RawOats"]/label</xpath>
+    <value>
+      <label>레인즈 귀리</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="VCE_MilkFromSoybeans"]/label</xpath>
+    <value>
+      <label>우유 생산 (대두)</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="VCE_MilkFromSoybeans"]/description</xpath>
+    <value>
+      <description>대두에서 식물성 우유를 추출합니다. 이 우유는 우유가 필요한 모든 요리에 사용할 수 있습니다.\n\n식물성 재료로 우유를 만드는 건 비효율적이기 때문에, 그 과정에서 많은 영양소가 손실됩니다. 대두는 다른 재료를 쓸 때보다 더 효율적입니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="VCE_MilkFromSoybeans"]/jobString</xpath>
+    <value>
+      <jobString>대두에서 우유 추출 중</jobString>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VCE_Blueberry"]/label</xpath>
+    <value>
+      <label>허클베리</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VCE_Blueberry"]/description</xpath>
+    <value>
+      <description>달콤한 맛의 식용 열매를 얻을 수 있는 관목입니다. 주로 디저트로써 생으로 먹거나, 빵이나 과자를 구울 때 넣기도 합니다.\n\n&amp;lt;color=#E5E54C&gt;특성:&amp;lt;/color&gt; 허클베리는 벌이 수분을 도와줘야 제대로 자랄 수 있습니다. 6타일 안에 양봉장이 없는 곳에 심길 경우 성장 속도가 느려집니다. 이 경우 나중에 양봉장을 세워도 성장 속도가 빨라지진 않습니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VCE_RawBlueberries"]/label</xpath>
+    <value>
+      <label>허클베리</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VCE_RawBlueberries"]/description</xpath>
+    <value>
+      <description>블루베리는 달콤한 맛의 식용 과일입니다. 주로 디저트로써 생으로 먹거나, 빵이나 과자를 구울 때 넣기도 합니다.</description>
+    </value>
+  </Operation>
+</Patch>

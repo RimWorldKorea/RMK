@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ideology</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Biotech</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/AbilityDef[defName="OE_SubmissiveTouch"]/label</xpath>
+            <value>
+              <label>복종의 손길</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/AbilityDef[defName="OE_SubmissiveTouch"]/description</xpath>
+            <value>
+              <description>축적된 혈액정수를 특수한 에너지로 바꾸어 대상에게 전달합니다. 에너지는 대상과 닿는 순간 활성화되어, 상대의 정신력을 꺾고 복종하도록 만듭니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/AbilityDef[defName="OE_SubmissiveTouch"]/comps/li[1]/successMessage</xpath>
+            <value>
+              <successMessage>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}의 이념을 {IDEO}(으)로 전환했습니다.</successMessage>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/AbilityDef[defName="OE_SubmissiveTouch"]/comps/li[1]/failMessage</xpath>
+            <value>
+              <failMessage>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}의 이념을 전환하는 데 실패했습니다. {RECIPIENT_labelShort}(은)는 그러한 시도에 분노했지만, 동시에 {RECIPIENT_possessive} 믿음이 {CERTAINTYBEFORE}에서 {CERTAINTYAFTER}로 하락했습니다.</failMessage>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="OE_SubmissiveTouchEffect"]/label</xpath>
+            <value>
+              <label>복종</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="OE_SubmissiveTouchEffect"]/description</xpath>
+            <value>
+              <description>외부의 영향력에 쉽게 굴복하며, 다른 이의 조종과 설득에 거의 저항하지 못하게 됩니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/GeneDef[defName="OE_SubmissiveTouch"]/label</xpath>
+            <value>
+              <label>복종의 손길</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/GeneDef[defName="OE_SubmissiveTouch"]/description</xpath>
+            <value>
+              <description>이 유전자의 보유자는 축적된 혈액정수를 특수한 에너지로 바꾸어 대상에게 전달할 수 있습니다. 에너지는 대상과 닿는 순간 활성화되어, 상대의 정신력을 꺾고 복종하도록 만듭니다.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Anomaly</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Biotech</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/GeneDef[defName="OE_VoiceLiches"]/label</xpath>
+            <value>
+              <label>리치 목소리</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/GeneDef[defName="OE_VoiceLiches"]/description</xpath>
+            <value>
+              <description>이 유전자의 보유자는 리치 같은 목소리를 가집니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/GeneDef[defName="OE_VoiceLiches"]/symbolPack/prefixSymbols/li[1]/symbol</xpath>
+            <value>
+              <symbol>리치</symbol>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/GeneDef[defName="OE_VoiceLiches"]/symbolPack/suffixSymbols/li[1]/symbol</xpath>
+            <value>
+              <symbol>리치</symbol>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Obsidia Expansion</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Biotech</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/GeneDef[defName="OE_AmalgamNeverSleep"]/label</xpath>
+            <value>
+              <label>아말감 수면</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/GeneDef[defName="OE_AmalgamNeverSleep"]/description</xpath>
+            <value>
+              <description>이 아말감 유전자의 보유자는 잠을 자야 할 필요성을 무력화시키는 독특한 대사 과정을 지니고 있습니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/GeneDef[defName="OE_AmalgamNeverEat"]/label</xpath>
+            <value>
+              <label>아말감 허기</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/GeneDef[defName="OE_AmalgamNeverEat"]/description</xpath>
+            <value>
+              <description>이 아말감 유전자의 보유자는 음식을 먹을 필요성을 무력화시키는 독특한 대사 과정을 지니고 있습니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/GeneDef[defName="OE_AmalgamNeverRecreation"]/label</xpath>
+            <value>
+              <label>아말감 재미</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/GeneDef[defName="OE_AmalgamNeverRecreation"]/description</xpath>
+            <value>
+              <description>이 아말감 유전자의 보유자는 재미를 느낄 필요성을 무력화시키는 독특한 대사 과정을 지니고 있습니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/GeneDef[defName="OE_AmalgamNeverComfort"]/label</xpath>
+            <value>
+              <label>아말감 편안</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/GeneDef[defName="OE_AmalgamNeverComfort"]/description</xpath>
+            <value>
+              <description>이 아말감 유전자의 보유자는 편안함을 느낄 필요성을 무력화시키는 독특한 대사 과정을 지니고 있습니다.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+</Patch>
