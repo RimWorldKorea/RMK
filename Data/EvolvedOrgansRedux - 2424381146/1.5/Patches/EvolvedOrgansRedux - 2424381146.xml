@@ -1,0 +1,926 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>The Birds and the Bees</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_ReproductiveOrgans"]/label</xpath>
+          <value>
+            <label>효율적인 교미용 신체 말단</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_ReproductiveOrgans"]/description</xpath>
+          <value>
+            <description>나는 이것이 자연이 당신에게 준 것보다 훨씬 더 좋게 만드는 "특징"이 무엇인지 상상조차 할 수 없습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Item_ReproductiveOrgans"]/label</xpath>
+          <value>
+            <label>효율적인 교미용 신체 말단</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Item_ReproductiveOrgans"]/description</xpath>
+          <value>
+            <description>나는 이것이 자연이 당신에게 준 것보다 훨씬 더 좋게 만드는 "특징"이 무엇인지 상상조차 할 수 없습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_ReproductiveOrgans"]/label</xpath>
+          <value>
+            <label>&lt;color=#00FFF7&gt;효율적인 교미용 신체 말단 이식&lt;/color&gt;</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_ReproductiveOrgans"]/description</xpath>
+          <value>
+            <description>효율적인 교미용 신체 말단을 이식합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_ReproductiveOrgans"]/jobString</xpath>
+          <value>
+            <jobString>효율적인 교미용 신체 말단 이식 중.</jobString>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>SwimmingKit</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Leg_Swim"]/label</xpath>
+          <value>
+            <label>소수성 물갈퀴 다리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Leg_Swim"]/description</xpath>
+          <value>
+            <description>가볍고 내구성이 좋은 세포 그물망을 제작함으로써, 쉽게 찢어지지 않는 물갈퀴가 붙은 다리를 만들 수 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Item_Leg_Swim"]/label</xpath>
+          <value>
+            <label>소수성 물갈퀴 다리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Item_Leg_Swim"]/description</xpath>
+          <value>
+            <description>가볍고 내구성이 좋은 세포 그물망을 제작함으로써, 쉽게 찢어지지 않는 물갈퀴가 붙은 다리를 만들 수 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Leg_Swim"]/label</xpath>
+          <value>
+            <label>&lt;color=#00FFF7&gt;소수성 물갈퀴 다리 이식&lt;/color&gt;</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Leg_Swim"]/description</xpath>
+          <value>
+            <description>소수성 물갈퀴 다리를 이식합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Leg_Swim"]/jobString</xpath>
+          <value>
+            <jobString>소수성 물갈퀴 다리 이식 중.</jobString>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Prosthetic Combat Framework</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_MaggotBolter"]/label</xpath>
+          <value>
+            <label>포식성 구더기 발사기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_MaggotBolter"]/labelNoun</xpath>
+          <value>
+            <labelNoun>포식성 구더기 발사기</labelNoun>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_MaggotBolter"]/description</xpath>
+          <value>
+            <description>빠르게 성장하는 구더기 변종을 만들어 몸에 적응시킴으로써, 구더기를 생물 무기의 탄환처럼 사용할 수 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_MaggotBolter"]/comps/li[1]/verbs/*[.//*[contains(text(), 'Verb_Shoot')]]/label</xpath>
+          <value>
+            <label>포식성 구더기 발사기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_MaggotBolter"]/comps/li[1]/verbsProperties/li[1]/label</xpath>
+          <value>
+            <label>포식성 구더기 발사기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_MaggotBolter"]/comps/li[1]/verbsProperties/li[1]/description</xpath>
+          <value>
+            <description>포식성 구더기 발사기</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_MaggotBolter"]/label</xpath>
+          <value>
+            <label>포식성 구더기 발사기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_MaggotBolter"]/labelNoun</xpath>
+          <value>
+            <labelNoun>포식성 구더기 발사기</labelNoun>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_MaggotBolter"]/description</xpath>
+          <value>
+            <description>빠르게 성장하는 구더기 변종을 만들어 몸에 적응시킴으로써, 구더기를 생물 무기의 탄환처럼 사용할 수 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_MaggotBolter"]/comps/li[1]/verbs/*[.//*[contains(text(), 'Verb_Shoot')]]/label</xpath>
+          <value>
+            <label>포식성 구더기 발사기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_MaggotBolter"]/comps/li[1]/verbsProperties/li[1]/label</xpath>
+          <value>
+            <label>포식성 구더기 발사기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_MaggotBolter"]/comps/li[1]/verbsProperties/li[1]/description</xpath>
+          <value>
+            <description>포식성 구더기 발사기</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_VenomCrystal"]/label</xpath>
+          <value>
+            <label>독성 결정체 대포</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_VenomCrystal"]/labelNoun</xpath>
+          <value>
+            <labelNoun>독성 결정체 대포</labelNoun>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_VenomCrystal"]/description</xpath>
+          <value>
+            <description>이 대포에서 발사된 결정체는 단단한 독 덩어리로 구성되어 있습니다. 이 결정체는 가장 단단한 갑옷도 뚫고 들어가 그 안에 있는 것이 어떤 것이든 먹어치울 수 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_VenomCrystal"]/comps/li[1]/verbs/*[.//*[contains(text(), 'Verb_Shoot')]]/label</xpath>
+          <value>
+            <label>독성 결정체 대포</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_VenomCrystal"]/comps/li[1]/verbsProperties/li[1]/label</xpath>
+          <value>
+            <label>독성 결정체 대포</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_VenomCrystal"]/comps/li[1]/verbsProperties/li[1]/description</xpath>
+          <value>
+            <description>독성 결정체 대포</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_VenomCrystal"]/label</xpath>
+          <value>
+            <label>독성 결정체 대포</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_VenomCrystal"]/labelNoun</xpath>
+          <value>
+            <labelNoun>독성 결정체 대포</labelNoun>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_VenomCrystal"]/description</xpath>
+          <value>
+            <description>이 대포에서 발사된 결정체는 단단한 독 덩어리로 구성되어 있습니다. 이 결정체는 가장 단단한 갑옷도 뚫고 들어가 그 안에 있는 것이 어떤 것이든 먹어치울 수 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_VenomCrystal"]/comps/li[1]/verbs/*[.//*[contains(text(), 'Verb_Shoot')]]/label</xpath>
+          <value>
+            <label>독성 결정체 대포</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_VenomCrystal"]/comps/li[1]/verbsProperties/li[1]/label</xpath>
+          <value>
+            <label>독성 결정체 대포</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_VenomCrystal"]/comps/li[1]/verbsProperties/li[1]/description</xpath>
+          <value>
+            <description>독성 결정체 대포</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_CryoSlime"]/label</xpath>
+          <value>
+            <label>극저온 점액질 대포</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_CryoSlime"]/labelNoun</xpath>
+          <value>
+            <labelNoun>극저온 점액질 대포</labelNoun>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_CryoSlime"]/description</xpath>
+          <value>
+            <description>이 팔은 세심하게 냉각된 체액을 발사합니다. 충격량에 따라 신속하게 목표물을 냉각시키거나, 일부 경우에는 뼛속까지 시리게 합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_CryoSlime"]/comps/li[1]/verbs/*[.//*[contains(text(), 'Verb_Shoot')]]/label</xpath>
+          <value>
+            <label>극저온 점액질 대포</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_CryoSlime"]/comps/li[1]/verbsProperties/li[1]/label</xpath>
+          <value>
+            <label>극저온 점액질 대포</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_CryoSlime"]/comps/li[1]/verbsProperties/li[1]/description</xpath>
+          <value>
+            <description>극저온 점액질 대포</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_CryoSlime"]/label</xpath>
+          <value>
+            <label>극저온 점액질 대포</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_CryoSlime"]/labelNoun</xpath>
+          <value>
+            <labelNoun>극저온 점액질 대포</labelNoun>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_CryoSlime"]/description</xpath>
+          <value>
+            <description>이 팔은 세심하게 냉각된 체액을 발사합니다. 충격량에 따라 신속하게 목표물을 냉각시키거나, 일부 경우에는 뼛속까지 시리게 합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_CryoSlime"]/comps/li[1]/verbs/*[.//*[contains(text(), 'Verb_Shoot')]]/label</xpath>
+          <value>
+            <label>극저온 점액질 대포</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_CryoSlime"]/comps/li[1]/verbsProperties/li[1]/label</xpath>
+          <value>
+            <label>극저온 점액질 대포</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_CryoSlime"]/comps/li[1]/verbsProperties/li[1]/description</xpath>
+          <value>
+            <description>극저온 점액질 대포</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_ImpulseShock"]/label</xpath>
+          <value>
+            <label>충격 방출기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_ImpulseShock"]/labelNoun</xpath>
+          <value>
+            <labelNoun>충격 방출기</labelNoun>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_ImpulseShock"]/description</xpath>
+          <value>
+            <description>치명적인 충격 대신, 이 팔다리에서 발사된 전기 봉은 유기적인 목표나 기계적인 목표나 동등하게 무력화시킵니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_ImpulseShock"]/comps/li[1]/verbs/*[.//*[contains(text(), 'Verb_Shoot')]]/label</xpath>
+          <value>
+            <label>충격 방출기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_ImpulseShock"]/comps/li[1]/verbsProperties/li[1]/label</xpath>
+          <value>
+            <label>충격 방출기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Primary_ImpulseShock"]/comps/li[1]/verbsProperties/li[1]/description</xpath>
+          <value>
+            <description>충격 방출기</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_ImpulseShock"]/label</xpath>
+          <value>
+            <label>충격 방출기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_ImpulseShock"]/labelNoun</xpath>
+          <value>
+            <labelNoun>충격 방출기</labelNoun>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_ImpulseShock"]/description</xpath>
+          <value>
+            <description>치명적인 충격 대신, 이 팔다리에서 발사된 전기 봉은 유기적인 목표나 기계적인 목표나 동등하게 무력화시킵니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_ImpulseShock"]/comps/li[1]/verbs/*[.//*[contains(text(), 'Verb_Shoot')]]/label</xpath>
+          <value>
+            <label>충격 방출기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_ImpulseShock"]/comps/li[1]/verbsProperties/li[1]/label</xpath>
+          <value>
+            <label>충격 방출기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Secondary_ImpulseShock"]/comps/li[1]/verbsProperties/li[1]/description</xpath>
+          <value>
+            <description>충격 방출기</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Back_KaboomSpore"]/label</xpath>
+          <value>
+            <label>휘발성 포자 배열</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Back_KaboomSpore"]/labelNoun</xpath>
+          <value>
+            <labelNoun>휘발성 포자 배열</labelNoun>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Back_KaboomSpore"]/description</xpath>
+          <value>
+            <description>피시술자의 등에 있는 이 포자는 특정한 방향으로 발사할 수 있으며, 원하는 목표를 향해 발사되어 폭발합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Back_KaboomSpore"]/comps/li[1]/verbs/*[.//*[contains(text(), 'Verb_Shoot')]]/label</xpath>
+          <value>
+            <label>휘발성 포자 배열</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Back_KaboomSpore"]/comps/li[1]/verbsProperties/li[1]/label</xpath>
+          <value>
+            <label>휘발성 포자 배열</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Back_KaboomSpore"]/comps/li[1]/verbsProperties/li[1]/description</xpath>
+          <value>
+            <description>휘발성 포자 배열</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="EVOR_Research_Limbs4"]/label</xpath>
+          <value>
+            <label>생물 무기 공생</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="EVOR_Research_Limbs4"]/description</xpath>
+          <value>
+            <description>전문화된 유기체를 사지에 생존할 수 있게 만들어 우리 몸의 일부분이 되게 합니다. 또한 그 유기체들은 생물 무기를 생성할 수 있게 만듭니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Item_MaggotBolter"]/label</xpath>
+          <value>
+            <label>포식성 구더기 발사기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Item_MaggotBolter"]/description</xpath>
+          <value>
+            <description>빠르게 성장하는 구더기 변종을 만들어 몸에 적응시킴으로써, 구더기를 생물 무기의 탄환처럼 사용할 수 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Item_VenomCrystal"]/label</xpath>
+          <value>
+            <label>독성 결정체 대포</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Item_VenomCrystal"]/description</xpath>
+          <value>
+            <description>이 대포에서 발사된 결정체는 단단한 독 덩어리로 구성되어 있습니다. 이 결정체는 가장 단단한 갑옷도 뚫고 들어가 그 안에 있는 것이 어떤 것이든 먹어치울 수 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Item_CryoSlime"]/label</xpath>
+          <value>
+            <label>극저온 점액질 대포</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Item_CryoSlime"]/description</xpath>
+          <value>
+            <description>이 팔은 세심하게 냉각된 체액을 발사합니다. 충격량에 따라 신속하게 목표물을 냉각시키거나, 일부 경우에는 뼛속까지 시리게 합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Item_ImpulseShock"]/label</xpath>
+          <value>
+            <label>충격 방출기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Item_ImpulseShock"]/description</xpath>
+          <value>
+            <description>치명적인 충격 대신, 이 팔다리에서 발사된 전기 봉은 유기적인 목표나 기계적인 목표나 동등하게 무력화시킵니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Item_KaboomSpore"]/label</xpath>
+          <value>
+            <label>휘발성 포자 배열</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Item_KaboomSpore"]/description</xpath>
+          <value>
+            <description>피시술자의 등에 있는 이 포자는 특정한 방향으로 발사할 수 있으며, 원하는 목표를 향해 발사되어 폭발합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Primary_MaggotBolter"]/label</xpath>
+          <value>
+            <label>&lt;color=#00FFF7&gt;포식성 구더기 발사기 이식&lt;/color&gt;</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Primary_MaggotBolter"]/description</xpath>
+          <value>
+            <description>포식성 구더기 발사기를 이식합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Primary_MaggotBolter"]/jobString</xpath>
+          <value>
+            <jobString>포식성 구더기 발사기 이식 중.</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Secondary_MaggotBolter"]/label</xpath>
+          <value>
+            <label>&lt;color=#00FFF7&gt;포식성 구더기 발사기 이식&lt;/color&gt;</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Secondary_MaggotBolter"]/description</xpath>
+          <value>
+            <description>포식성 구더기 발사기를 이식합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Secondary_MaggotBolter"]/jobString</xpath>
+          <value>
+            <jobString>포식성 구더기 발사기 이식 중.</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Primary_VenomCrystal"]/label</xpath>
+          <value>
+            <label>&lt;color=#00FFF8&gt;독성 결정체 대포 이식&lt;/color&gt;</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Primary_VenomCrystal"]/description</xpath>
+          <value>
+            <description>독성 결정체 대포를 이식합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Primary_VenomCrystal"]/jobString</xpath>
+          <value>
+            <jobString>독성 결정체 대포 이식 중.</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Secondary_VenomCrystal"]/label</xpath>
+          <value>
+            <label>&lt;color=#00FFF9&gt;독성 결정체 대포 이식&lt;/color&gt;</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Secondary_VenomCrystal"]/description</xpath>
+          <value>
+            <description>독성 결정체 대포를 이식합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Secondary_VenomCrystal"]/jobString</xpath>
+          <value>
+            <jobString>독성 결정체 대포 이식 중.</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Primary_CryoSlime"]/label</xpath>
+          <value>
+            <label>&lt;color=#00FFF8&gt;극저온 점액질 대포 이식&lt;/color&gt;</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Primary_CryoSlime"]/description</xpath>
+          <value>
+            <description>극저온 점액질 대포를 이식합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Primary_CryoSlime"]/jobString</xpath>
+          <value>
+            <jobString>극저온 점액질 대포 이식 중.</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Secondary_CryoSlime"]/label</xpath>
+          <value>
+            <label>&lt;color=#00FFF9&gt;극저온 점액질 대포 이식&lt;/color&gt;</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Secondary_CryoSlime"]/description</xpath>
+          <value>
+            <description>극저온 점액질 대포를 이식합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Secondary_CryoSlime"]/jobString</xpath>
+          <value>
+            <jobString>극저온 점액질 대포 이식 중.</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Primary_ImpulseShock"]/label</xpath>
+          <value>
+            <label>&lt;color=#00FFF8&gt;충격 방출기 이식&lt;/color&gt;</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Primary_ImpulseShock"]/description</xpath>
+          <value>
+            <description>충격 방출기를 이식합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Primary_ImpulseShock"]/jobString</xpath>
+          <value>
+            <jobString>충격 방출기 이식 중.</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Secondary_ImpulseShock"]/label</xpath>
+          <value>
+            <label>&lt;color=#00FFF9&gt;충격 방출기 이식&lt;/color&gt;</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Secondary_ImpulseShock"]/description</xpath>
+          <value>
+            <description>충격 방출기를 이식합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Secondary_ImpulseShock"]/jobString</xpath>
+          <value>
+            <jobString>충격 방출기 이식 중.</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Back_KaboomSpore"]/label</xpath>
+          <value>
+            <label>&lt;color=#00FFF8&gt;휘발성 포자 배열 이식&lt;/color&gt;</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Back_KaboomSpore"]/description</xpath>
+          <value>
+            <description>휘발성 포자 배열를 이식합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Back_KaboomSpore"]/jobString</xpath>
+          <value>
+            <jobString>휘발성 포자 배열 이식 중.</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Bullet_Maggot"]/label</xpath>
+          <value>
+            <label>포식성 구더기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Bullet_VenomCrystal"]/label</xpath>
+          <value>
+            <label>독성 결정체</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Bullet_CryoSlime"]/label</xpath>
+          <value>
+            <label>극저온 점액질</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Bullet_ImpulseShock"]/label</xpath>
+          <value>
+            <label>충격</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Bullet_KaboomSpore"]/label</xpath>
+          <value>
+            <label>휘발성 포자</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Rimatomics</li>
+      <li>Dubs Rimatomics</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Abd_Rad"]/label</xpath>
+          <value>
+            <label>방사선 억제기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="EVOR_Hediff_Abd_Rad"]/description</xpath>
+          <value>
+            <description>방사선에 손상된 세포를 격리하고 조사된 조직을 여과하며 대체하는 보호 단백질을 방출하는 기관입니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Item_Abd_Rad"]/label</xpath>
+          <value>
+            <label>방사선 억제기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EVOR_Item_Abd_Rad"]/description</xpath>
+          <value>
+            <description>방사선에 손상된 세포를 격리하고 조사된 조직을 여과하며 대체하는 보호 단백질을 방출하는 기관입니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Abd_Rad"]/label</xpath>
+          <value>
+            <label>&lt;color=#00FFF8&gt;방사선 억제기 이식&lt;/color&gt;</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Abd_Rad"]/description</xpath>
+          <value>
+            <description>방사선 억제기를 이식합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EVOR_Surgery_Abd_Rad"]/jobString</xpath>
+          <value>
+            <jobString>방사선 억제기 이식 중.</jobString>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/BodyDef[defName="Human"]/corePart/parts/li[20]/customLabel</xpath>
+    <value>
+      <customLabel>꼬리뼈</customLabel>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/BodyDef[defName="Human"]/corePart/parts/li[21]/customLabel</xpath>
+    <value>
+      <customLabel>등 하단</customLabel>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/BodyDef[defName="Human"]/corePart/parts/li[22]/customLabel</xpath>
+    <value>
+      <customLabel>등 상단</customLabel>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/BodyDef[defName="Human"]/corePart/parts/li[23]/customLabel</xpath>
+    <value>
+      <customLabel>우측 복강</customLabel>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/BodyDef[defName="Human"]/corePart/parts/li[24]/customLabel</xpath>
+    <value>
+      <customLabel>좌측 복강</customLabel>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/BodyDef[defName="Human"]/corePart/parts/li[25]/customLabel</xpath>
+    <value>
+      <customLabel>우측 흉강</customLabel>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/BodyDef[defName="Human"]/corePart/parts/li[26]/customLabel</xpath>
+    <value>
+      <customLabel>좌측 흉강</customLabel>
+    </value>
+  </Operation>
+</Patch>
