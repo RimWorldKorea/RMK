@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Genes</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Integrated Implants</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/GeneDef[defName="AG_IncreasedCommandRange"]/customEffectDescriptions/li[1]</xpath>
+            <value>
+              <li>메카노이드 명령 범위 +15</li>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/GeneDef[defName="AG_IncreasedCommandRange"]/customEffectDescriptions/li[2]</xpath>
+            <value>
+              <li>이 유전자의 보유자는 메카나이터가 될 경우 더 먼 거리에서 메카노이드를 조종할 수 있습니다.</li>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="TMM_AG_IncreasedCommandRange"]/label</xpath>
+            <value>
+              <label>명령 범위 증가</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="TMM_AG_IncreasedCommandRange"]/description</xpath>
+            <value>
+              <description>이 사람은 소집된 메카노이드를 더 멀리서도 조종할 수 있습니다.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Races Expanded - Insector</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Factions Expanded - Insectoids 2</li>
+      </mods>
+      <match Class="PatchOperationFindMod">
+        <mods>
+          <li>Big and Small - Genes &amp; More</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/VanillaRacesExpandedInsector.GenelineGeneDef[defName="VRE_Colossal"]/description</xpath>
+              <value>
+                <description>이 유전자의 보유자는 거대한 체구로 성장하는 대신, 이동 속도와 근접 공격 회피율이 낮아집니다.</description>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/VanillaRacesExpandedInsector.GenelineGeneDef[defName="VRE_Microsized"]/description</xpath>
+              <value>
+                <description>이 유전자의 보유자는 동종에 비해 훨씬 작은 체구를 가지게 됩니다.</description>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/VanillaRacesExpandedInsector.GenelineGeneDef[defName="VRE_Microsized"]/customEffectDescriptions/li[1]</xpath>
+              <value>
+                <li>신체 크기는 체력, 근접 공격력, 습격 계수, 식사량, 채광 속도, 소지 무게, 원거리 회피율, 그리고 자체 생산물을 가진 유전자에 영향을 줍니다.</li>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/VanillaRacesExpandedInsector.GenelineGeneDef[defName="VRE_Colossal"]/customEffectDescriptions/li[1]</xpath>
+              <value>
+                <li>신체 크기는 체력, 근접 공격력, 습격 계수, 식사량, 채광 속도, 소지 무게, 원거리 회피율, 그리고 자체 생산물을 가진 유전자에 영향을 줍니다.</li>
+              </value>
+            </li>
+          </operations>
+        </match>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[LC] Consolidated Traits</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Anomaly</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="UnnaturalDarkness"]/stages/li[3]/label</xpath>
+            <value>
+              <label>부자연적 어둠</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="UnnaturalDarkness"]/stages/li[3]/description</xpath>
+            <value>
+              <description>엄청 어두워!</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Megafauna</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Big and Small - Genes &amp; More</li>
+      </mods>
+      <match Class="PatchOperationFindMod">
+        <mods>
+          <li>at Extended</li>
+        </mods>
+        <nomatch Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/ThingDef[defName="ZygolophodonTusk"]/description</xpath>
+              <value>
+                <description>지골로포돈의 거대한 엄니입니다. 매우 단단하고 귀한 물건이지만, 일반적인 인간이 사용하기에는 너무 큽니다.</description>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/ThingDef[defName="ZygolophodonTusk"]/tools/li[1]/label</xpath>
+              <value>
+                <label>칼끝</label>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/ThingDef[defName="ZygolophodonTusk"]/tools/li[2]/label</xpath>
+              <value>
+                <label>봉</label>
+              </value>
+            </li>
+          </operations>
+        </nomatch>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Rimsenal - Spacer Faction Pack</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Royalty</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="Gunlink"]/label</xpath>
+            <value>
+              <label>목표 획득</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Anomaly Expanded - Insanity</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Alpha Genes</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/GeneDef[defName="AG_GreaterToughspikes"]/customEffectDescriptions/li[1]</xpath>
+            <value>
+              <li>-0.4% 정신력 감소/일</li>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/GeneDef[defName="AG_GreaterFleshWhip"]/customEffectDescriptions/li[1]</xpath>
+            <value>
+              <li>-0.4% 정신력 감소/일</li>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/GeneDef[defName="AG_FleshSpitter"]/customEffectDescriptions/li[1]</xpath>
+            <value>
+              <li>-0.4% 정신력 감소/일</li>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Aspirations Expanded</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Alpha Genes</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VAspirE.AspirationDef[defName="VAspirE_Winged"]/description</xpath>
+            <value>
+              <description>{0}(은)는 비행을 위한 날개를 원합니다.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Genetics Expanded</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Alpha Animals</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="GR_AlphaGenomeExcavator"]/label</xpath>
+            <value>
+              <label>고급 유전물질 추출기</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="GR_CraftAlphaGenomeExcavator"]/label</xpath>
+            <value>
+              <label>고급 유전물질 추출기 만들기</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Vehicles Expanded - Tier 3</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>[LYN] VVE Renamed</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="VVE_Louie"]/label</xpath>
+            <value>
+              <label>군용 헬리콥터</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="VVE_Cherokee"]/label</xpath>
+            <value>
+              <label>화물 헬리콥터</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Races Expanded - Archon</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GeneDef[defName="VRE_FastShooter"]/description</xpath>
+          <value>
+            <description>이 유전자의 보유자는 반동 제어 능력이 뛰어나 원거리 무기를 훨씬 빠르게 발사합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GeneDef[defName="VRE_SlowShooter"]/description</xpath>
+          <value>
+            <description>이 유전자의 보유자는 반동 제어 능력이 부족해 원거리 무기를 훨씬 느리게 발사합니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Races Expanded - Insector</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Alpha Genes</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/GeneDef[defName="AG_HivelingVoice"]/label</xpath>
+            <value>
+              <label>곤충 목소리</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech Expansion - Mammalia</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>ATH's style Draconic</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/CultureDef[defName="TMM_Draconic"]/label</xpath>
+            <value>
+              <label>드래곤주의</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/CultureDef[defName="TMM_Draconic"]/description</xpath>
+            <value>
+              <description>신화 속 이종형들이 이끄는 드래곤들의 문화입니다.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Stoneborn - Dwarven Style Pack</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Det's Xenotypes - Stoneborn</li>
+        <li>Big and Small - Races</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/CultureDef[defName="TMM_Dwarven"]/label</xpath>
+            <value>
+              <label>드워프주의</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/CultureDef[defName="TMM_Dwarven"]/description</xpath>
+            <value>
+              <description>키 작은 이들로부터 이어진 드워프들의 문화입니다.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Integrated Implants</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThoughtDef[defName="TMM_ActiveVoicelock_Masochist"]/stages/li[1]/label</xpath>
+          <value>
+            <label>음성 소거장치가 활성화됨 (피학적)</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThoughtDef[defName="TMM_ActiveVoicelock_Masochist"]/stages/li[1]/description</xpath>
+          <value>
+            <description>내 입이 강제로 틀어막혔어. 엄청 기분이 좋아!</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
