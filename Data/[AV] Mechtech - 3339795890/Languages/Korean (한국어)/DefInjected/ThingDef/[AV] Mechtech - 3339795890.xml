@@ -4,17 +4,17 @@
   <AV_HackingLance.description>제한적 사용이 가능한 메카노이드용 정신 해킹 장치입니다. 대상의 방어를 압도하고 감독자나 군체와의 연결을 일시적으로 방해하여 목적 없이 배회하게 만듭니다. 새로운 감독자가 이후에 연결할 수 있습니다. 사거리가 길지만 시야가 필요합니다. 이 과정은 대상 메카노이드의 대역폭 비용에 따라 충전량을 소모합니다.</AV_HackingLance.description>
   <AV_HackingLance.verbs.Verb_CastTargetEffectLances_Hacking.label>정신 해킹 랜스</AV_HackingLance.verbs.Verb_CastTargetEffectLances_Hacking.label>
   <AV_HackingLance.verbs.Verb_CastTargetEffectLances_Hacking.invalidTargetPawn>대역폭 초과</AV_HackingLance.verbs.Verb_CastTargetEffectLances_Hacking.invalidTargetPawn>
-  <AV_HackingLance.comps.0.chargeNoun>충전</AV_HackingLance.comps.0.chargeNoun>
+  <AV_HackingLance.comps.CompApparelReloadable.chargeNoun>충전</AV_HackingLance.comps.CompApparelReloadable.chargeNoun>
   <AV_MechMentalLance.label>메크 안전장치 랜스</AV_MechMentalLance.label>
   <AV_MechMentalLance.description>시스템 오류가 있는 아군 메카노이드를 수리하기 위한 재사용 가능한 정신 해킹 장치입니다. 일회용 전원 셀이 있는 메카노이드도 파괴합니다. 시야가 필요합니다.\n\n참고: 이것은 [AV]궤도 상인 모드를 사용하지 않을 때는 매우 제한적인 아이템입니다.</AV_MechMentalLance.description>
   <AV_MechMentalLance.verbs.Verb_CastTargetEffectLances.label>메크 안전장치 랜스</AV_MechMentalLance.verbs.Verb_CastTargetEffectLances.label>
   <AV_MechMentalLance.verbs.Verb_CastTargetEffectLances.invalidTargetPawn>정신분열 면역</AV_MechMentalLance.verbs.Verb_CastTargetEffectLances.invalidTargetPawn>
-  <AV_MechMentalLance.comps.0.chargeNoun>충전</AV_MechMentalLance.comps.0.chargeNoun>
+  <AV_MechMentalLance.comps.CompApparelReloadable.chargeNoun>충전</AV_MechMentalLance.comps.CompApparelReloadable.chargeNoun>
   <AV_BiocodeRetuner.label>생체인증 재조정기 팩</AV_BiocodeRetuner.label>
   <AV_BiocodeRetuner.description>생체인증이 설정된 장비의 코드를 변경할 수 있는 일회용 재조정기입니다.</AV_BiocodeRetuner.description>
   <AV_BiocodeRetuner.verbs.Verb_CastTargetEffectLances_Recoder.label>생체인증 재조정기</AV_BiocodeRetuner.verbs.Verb_CastTargetEffectLances_Recoder.label>
   <AV_BiocodeRetuner.verbs.Verb_CastTargetEffectLances_Recoder.invalidTargetPawn>생체인증 설정 불가</AV_BiocodeRetuner.verbs.Verb_CastTargetEffectLances_Recoder.invalidTargetPawn>
-  <AV_BiocodeRetuner.comps.0.chargeNoun>충전</AV_BiocodeRetuner.comps.0.chargeNoun>
+  <AV_BiocodeRetuner.comps.CompApparelReloadable.chargeNoun>충전</AV_BiocodeRetuner.comps.CompApparelReloadable.chargeNoun>
   <AV_Carbonpanels.label>카본 패널</AV_Carbonpanels.label>
   <AV_Carbonpanels.description>팔 아래 양쪽에 부착되는 두 개의 플라스틸 패널로, 착용자를 카본웨이브 나노구조로 감싸 완벽하게 맞는 전신 수트를 제공합니다. 튼튼하고 가볍고 얇지만 비싸며 첫 사용 시 생체인증이 설정됩니다. 카본 패널은 낯선 환경에서도 신뢰할 수 있도록 설계되었습니다. 착용자의 체온 조절을 돕고 외부 물질을 밖으로 배출하며, 화재에 매우 강합니다. \n\n폰들은 이 아이템을 착용할지, 그리고 생체인증을 설정할지 허용된 경우 스스로 결정할 수 있습니다.</AV_Carbonpanels.description>
   <AV_BandNode_Neutroamine.label>뉴트로 대역폭 확장기</AV_BandNode_Neutroamine.label>
@@ -96,15 +96,15 @@
   <AV_Gun_ChargeLance.description>펄스 충전, 레일 가속형 투사 무기입니다. 고속으로 단발을 발사하며 가속 레일을 따라 투사체에 불안정한 에너지를 충전합니다. 이 변형은 더 높은 성능을 내도록 하는 특수 방열판 블레이드가 있으며 근접 전투를 위해 확장할 수 있습니다.</AV_Gun_ChargeLance.description>
   <AV_Gun_ChargeLance.verbs.Verb_Shoot.label>로열 차지 랜스</AV_Gun_ChargeLance.verbs.Verb_Shoot.label>
   <AV_Gun_ChargeLance.tools.0.label>총열</AV_Gun_ChargeLance.tools.0.label>
-  <AV_Gun_ChargeLance.tools.1.label>블레이드</AV_Gun_ChargeLance.tools.1.label>
-  <AV_Gun_ChargeLance.comps.0.label>근접 전투로 전환</AV_Gun_ChargeLance.comps.0.label>
-  <AV_Gun_ChargeLance.comps.0.description>방열판 블레이드를 확장하여 근접 전투에 사용합니다.\n이는 메카노이드의 전투 행동을 근접 전투로 변경합니다.</AV_Gun_ChargeLance.comps.0.description>
+  <AV_Mech_Royallancer.tools.left_mantis_blade.labelNoLocation>블레이드</AV_Mech_Royallancer.tools.left_mantis_blade.labelNoLocation>
+  <AV_Gun_ChargeLance.comps.Comp_SwitchCombatMode.label>근접 전투로 전환</AV_Gun_ChargeLance.comps.Comp_SwitchCombatMode.label>
+  <AV_Gun_ChargeLance.comps.Comp_SwitchCombatMode.description>방열판 블레이드를 확장하여 근접 전투에 사용합니다.\n이는 메카노이드의 전투 행동을 근접 전투로 변경합니다.</AV_Gun_ChargeLance.comps.Comp_SwitchCombatMode.description>
   <AV_Gun_ChargeLance_BladesMode.label>로열 차지 랜스</AV_Gun_ChargeLance_BladesMode.label>
   <AV_Gun_ChargeLance_BladesMode.description>펄스 충전, 레일 가속형 투사 무기입니다. 고속으로 단발을 발사하며 가속 레일을 따라 투사체에 불안정한 에너지를 충전합니다. 이 변형은 더 높은 성능을 내도록 하는 특수 방열판 블레이드가 있으며 근접 전투를 위해 확장할 수 있습니다.</AV_Gun_ChargeLance_BladesMode.description>
   <AV_Gun_ChargeLance_BladesMode.tools.0.label>총열</AV_Gun_ChargeLance_BladesMode.tools.0.label>
-  <AV_Gun_ChargeLance_BladesMode.tools.1.label>블레이드</AV_Gun_ChargeLance_BladesMode.tools.1.label>
-  <AV_Gun_ChargeLance_BladesMode.comps.0.label>원거리 전투로 전환</AV_Gun_ChargeLance_BladesMode.comps.0.label>
-  <AV_Gun_ChargeLance_BladesMode.comps.0.description>방열판 블레이드를 접어 차지 랜스를 원거리 전투에 사용할 수 있게 합니다.\n이는 메카노이드의 전투 행동을 원거리 전투로 변경합니다.</AV_Gun_ChargeLance_BladesMode.comps.0.description>
+  <AV_Mech_Royallancer.tools.right_mantis_blade.labelNoLocation>블레이드</AV_Mech_Royallancer.tools.right_mantis_blade.labelNoLocation>
+  <AV_Gun_ChargeLance_BladesMode.comps.Comp_SwitchCombatMode.label>원거리 전투로 전환</AV_Gun_ChargeLance_BladesMode.comps.Comp_SwitchCombatMode.label>
+  <AV_Gun_ChargeLance_BladesMode.comps.Comp_SwitchCombatMode.description>방열판 블레이드를 접어 차지 랜스를 원거리 전투에 사용할 수 있게 합니다.\n이는 메카노이드의 전투 행동을 원거리 전투로 변경합니다.</AV_Gun_ChargeLance_BladesMode.comps.Comp_SwitchCombatMode.description>
   <AV_Turret_AutoMortar_Deployer.label>자동 메카노이드 배치 박격포</AV_Turret_AutoMortar_Deployer.label>
   <AV_Turret_AutoMortar_Deployer.description>자가 동력, 자가 장전식 자동 박격포로, 이것은 내부에 작은 메카노이드가 있는 특수 포탄을 사용합니다. 어떤 거리에서든 벽을 넘어 목표물을 타격할 수 있지만 상당히 부정확합니다.</AV_Turret_AutoMortar_Deployer.description>
   <AV_Artillery_AutoMortar_Deployer.label>워어친 자동 배치기</AV_Artillery_AutoMortar_Deployer.label>
@@ -114,4 +114,12 @@
   <AV_Turret_AutoMortar_Waster.description>자가 동력, 자가 장전식 자동 박격포로, 이것은 독성 폐기물을 처리하는 데 사용됩니다. 어떤 거리에서든 벽을 넘어 목표물을 타격할 수 있지만 상당히 부정확합니다.</AV_Turret_AutoMortar_Waster.description>
   <AV_Artillery_AutoMortar_Waster.label>자동 폐기물 투척기</AV_Artillery_AutoMortar_Waster.label>
   <AV_Artillery_AutoMortar_Waster.verbs.Verb_Shoot.label>자동 폐기물 투척기</AV_Artillery_AutoMortar_Waster.verbs.Verb_Shoot.label>
+  <AV_Mech_Companion.tools.head.label>머리</AV_Mech_Companion.tools.head.label>
+  <AV_HackingLance.comps.CompApparelReloadable.cooldownGerund>재사용 대기 중</AV_HackingLance.comps.CompApparelReloadable.cooldownGerund>
+  <AV_MechMentalLance.comps.CompApparelReloadable.cooldownGerund>재사용 대기 중</AV_MechMentalLance.comps.CompApparelReloadable.cooldownGerund>
+  <AV_BiocodeRetuner.comps.CompApparelReloadable.cooldownGerund>재사용 대기 중</AV_BiocodeRetuner.comps.CompApparelReloadable.cooldownGerund>
+  <AV_Neurill.ingestible.ingestCommandString>{0} 복용</AV_Neurill.ingestible.ingestCommandString>
+  <AV_Neurill.ingestible.ingestReportString>{0} 복용 중.</AV_Neurill.ingestible.ingestReportString>
+  <AV_Shell_Toxic_Releasing_Water.label>독성 포탄</AV_Shell_Toxic_Releasing_Water.label>
+  <AV_Mech_Scrapper.tools.head.label>머리</AV_Mech_Scrapper.tools.head.label>
 </LanguageData>
