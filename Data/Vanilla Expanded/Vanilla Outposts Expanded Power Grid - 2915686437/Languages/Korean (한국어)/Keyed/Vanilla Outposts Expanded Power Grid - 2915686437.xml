@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VOEPowerGrid.Construct.Label>건설</VOEPowerGrid.Construct.Label>
+  <VOEPowerGrid.Construct.Desc>새 건물 건설</VOEPowerGrid.Construct.Desc>
+  <VOEPowerGrid.Construct.Reason>최대 수용량 도달</VOEPowerGrid.Construct.Reason>
+  <VOEPowerGrid.Deconstruct.Label>해체</VOEPowerGrid.Deconstruct.Label>
+  <VOEPowerGrid.Deconstruct.Desc>기존 건물 해체</VOEPowerGrid.Deconstruct.Desc>
+  <VOEPowerGrid.Deconstruct.Reason>해체할 건물 없음</VOEPowerGrid.Deconstruct.Reason>
+  <VOEPowerGrid.Base.ProductionString>{0}수용량: {1} / {2}\n송전 거리: {3} [{4}]\n전력: {5}</VOEPowerGrid.Base.ProductionString>
+  <VOEPowerGrid.Base.ConstructionString>건설 중:\n{0}</VOEPowerGrid.Base.ConstructionString>
+  <VOEPowerGrid.Base.DeconstructionString>해체 중:\n{0}</VOEPowerGrid.Base.DeconstructionString>
+  <VOEPowerGrid.Base.AvailableBuildingString>사용 가능한 건물</VOEPowerGrid.Base.AvailableBuildingString>
+  <VOEPowerGrid.Base.TerrainCapacityString>지형 용량 배율: {0}</VOEPowerGrid.Base.TerrainCapacityString>
+  <VOEPowerGrid.Base.TerrainPowerString>지형 전력 배율: {0}</VOEPowerGrid.Base.TerrainPowerString>
+  <VOEPowerGrid.Base.TerrainFuelString>지형 연료 수집 배율: {0}</VOEPowerGrid.Base.TerrainFuelString>
+  <VOEPowerGrid.Base.FuelPowerString>연료 전력 배율: {0}</VOEPowerGrid.Base.FuelPowerString>
+  <VOEPowerGrid.Base.FuelConsumptionString>하루 연료 소비량: {0} {1}</VOEPowerGrid.Base.FuelConsumptionString>
+  <VOEPowerGrid.MaxSkillTooLow>건설 기술이 부족합니다. 필요: {0}. 현재: {1}</VOEPowerGrid.MaxSkillTooLow>
+  <VOEPowerGrid.ConstructionSkillCostTooHigh>수용량이 부족합니다. 필요: {0}</VOEPowerGrid.ConstructionSkillCostTooHigh>
+  <VOEPowerGrid.ConstructionMaterialCostTooHigh>건설 자재가 부족합니다. 필요:\n{0}</VOEPowerGrid.ConstructionMaterialCostTooHigh>
+  <VOEPowerGrid.ResearchNotFinished>연구되지 않음</VOEPowerGrid.ResearchNotFinished>
+  <VOEPowerGrid.PowerRange>범위</VOEPowerGrid.PowerRange>
+  <VOEPowerGrid.AllPowerTransmissionTowerUsed>모든 송전탑 사용중</VOEPowerGrid.AllPowerTransmissionTowerUsed>
+  <VOEPowerGrid.PowerGridTab>전력망</VOEPowerGrid.PowerGridTab>
+  <VOEPowerGrid.Letters.ActiveBuildingReset.Label>{0} 전력망 과부하</VOEPowerGrid.Letters.ActiveBuildingReset.Label>
+  <VOEPowerGrid.Letters.ActiveBuildingReset.Text>전력망에 연결된 건물들이 유지 보수 부족으로 과부하 상태가 되었습니다. 안전 용량 유지를 위해 일부 건물의 전원이 자동으로 차단되었습니다.</VOEPowerGrid.Letters.ActiveBuildingReset.Text>
+  <VOEPowerGrid.Letters.InsufficientFuel.Label>{0} 전력망 연료 부족</VOEPowerGrid.Letters.InsufficientFuel.Label>
+  <VOEPowerGrid.Letters.InsufficientFuel.Text>전력망의 연료가 부족합니다. 전력 생산량이 감소합니다.</VOEPowerGrid.Letters.InsufficientFuel.Text>
+  <VOEPowerGrid.Settings.Title>바닐라 전초기지 확장: 전력망</VOEPowerGrid.Settings.Title>
+  <VOEPowerGrid.Settings.PowerMultiplier>전력 배율</VOEPowerGrid.Settings.PowerMultiplier>
+  <VOEPowerGrid.Settings.BuildingCapacityPerSkill>건설 레벨당 수용량: {0}</VOEPowerGrid.Settings.BuildingCapacityPerSkill>
+  <VOEPowerGrid.Settings.BaseBuildingCapacity>기본 수용량: {0}</VOEPowerGrid.Settings.BaseBuildingCapacity>
+  <VOEPowerGrid.Settings.PowerLossPerTiles>{0} 타일당 전력 손실 1%</VOEPowerGrid.Settings.PowerLossPerTiles>
+  <VOEPowerGrid.Settings.TransmissionTowerRange>송전탑 하나당 범위 {0} 타일</VOEPowerGrid.Settings.TransmissionTowerRange>
+  <VOEPowerGrid.Outlet.Connected>연결됨: {0}\n</VOEPowerGrid.Outlet.Connected>
+  <VOEPowerGrid.Outlet.PowerLoss>전력 손실: {0}\n</VOEPowerGrid.Outlet.PowerLoss>
+  <VOEPowerGrid.Outlet.NotConnected>연결되지 않음\n</VOEPowerGrid.Outlet.NotConnected>
+  <VOEPowerGrid.Outlet.Disconnect>연결 해제: {0}\n</VOEPowerGrid.Outlet.Disconnect>
+  <VOEPowerGrid.Outlet.Connect.Label>전력망에 연결</VOEPowerGrid.Outlet.Connect.Label>
+  <VOEPowerGrid.Outlet.Connect.Desc>전초기지 전력망에 연결</VOEPowerGrid.Outlet.Connect.Desc>
+  <VOEPowerGrid.Outlet.AlreadyConnected>이미 연결된 전초기지 {0}</VOEPowerGrid.Outlet.AlreadyConnected>
+  <VOEPowerGrid.Outlet.PowerRangeNotEnough>전초기지 {0}의 송전거리 부족 {1}/{2}</VOEPowerGrid.Outlet.PowerRangeNotEnough>
+  <VOEPowerGrid.Outlet.Connect.Reason>연결할 전력망 없음</VOEPowerGrid.Outlet.Connect.Reason>
+  <VOEPowerGrid.MustBeMade.River>강에 건설해야함</VOEPowerGrid.MustBeMade.River>
+  <VOEPowerGrid.MustBeMade.Coast>해안에 건설해야함</VOEPowerGrid.MustBeMade.Coast>
+  <VOEPrisonerPatch.Commands.TakePawn.Label>내보내기</VOEPrisonerPatch.Commands.TakePawn.Label>
+  <VOEPrisonerPatch.Commands.TakePawn.Desc>선택한 대상을 상단에 편입해 내보냅니다.</VOEPrisonerPatch.Commands.TakePawn.Desc>
+</LanguageData>
