@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/WorldObjectDef[defName="Outpost_Bank"]/label</xpath>
+    <value>
+      <label>은행</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/WorldObjectDef[defName="Outpost_Bank"]/description</xpath>
+    <value>
+      <description>고객에게 편리하고 안전한 금융 거래 환경을 제공하는 은행입니다. 운영을 위해서는 은이나 금을 예치해야 합니다. 다른 세력에게 대출, 거래세 징수, 귀중품 보관 등의 금융 서비스를 제공하고 대가로 은이나 금을 받습니다. 자원을 충분히 모으게 되면 정착지로 배송합니다.</description>
+    </value>
+  </Operation>
+</Patch>

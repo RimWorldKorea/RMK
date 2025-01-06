@@ -1,0 +1,1092 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Vulture"]/jobString</xpath>
+          <value>
+            <jobString>메카노이드 배양 중</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Vulture"]/label</xpath>
+          <value>
+            <label>벌처 배양</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Vulture"]/description</xpath>
+          <value>
+            <description>벌처 메카노이드를 배양합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Caretaker"]/jobString</xpath>
+          <value>
+            <jobString>메카노이드 배양 중</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Caretaker"]/label</xpath>
+          <value>
+            <label>케어테이커 배양</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Caretaker"]/description</xpath>
+          <value>
+            <description>케어테이커 메카노이드를 배양합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Falcon"]/jobString</xpath>
+          <value>
+            <jobString>메카노이드 배양 중</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Falcon"]/label</xpath>
+          <value>
+            <label>팔콘 배양</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Falcon"]/description</xpath>
+          <value>
+            <description>팔콘 메카노이드를 배양합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Gremlin"]/jobString</xpath>
+          <value>
+            <jobString>메카노이드 배양 중</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Gremlin"]/label</xpath>
+          <value>
+            <label>그렘린 배양</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Gremlin"]/description</xpath>
+          <value>
+            <description>그렘린 메카노이드를 배양합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Harpy"]/jobString</xpath>
+          <value>
+            <jobString>메카노이드 배양 중</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Harpy"]/label</xpath>
+          <value>
+            <label>하피 배양</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Harpy"]/description</xpath>
+          <value>
+            <description>하피 메카노이드를 배양합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Ranger"]/jobString</xpath>
+          <value>
+            <jobString>메카노이드 배양 중</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Ranger"]/label</xpath>
+          <value>
+            <label>레인저 배양</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Ranger"]/description</xpath>
+          <value>
+            <description>레인저 메카노이드를 배양합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Zealot"]/jobString</xpath>
+          <value>
+            <jobString>메카노이드 배양 중</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Zealot"]/label</xpath>
+          <value>
+            <label>질럿 배양</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Zealot"]/description</xpath>
+          <value>
+            <description>질럿 메카노이드를 배양합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Marshal"]/jobString</xpath>
+          <value>
+            <jobString>메카노이드 배양 중</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Marshal"]/label</xpath>
+          <value>
+            <label>마샬 배양</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Marshal"]/description</xpath>
+          <value>
+            <description>마샬 메카노이드를 배양합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Sentinel"]/jobString</xpath>
+          <value>
+            <jobString>메카노이드 배양 중</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Sentinel"]/label</xpath>
+          <value>
+            <label>센티넬 배양</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Sentinel"]/description</xpath>
+          <value>
+            <description>센티넬 메카노이드를 배양합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Behemoth"]/jobString</xpath>
+          <value>
+            <jobString>메카노이드 배양 중</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Behemoth"]/label</xpath>
+          <value>
+            <label>베헤모스 배양</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Behemoth"]/description</xpath>
+          <value>
+            <description>베헤모스 메카노이드를 배양합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Wraith"]/jobString</xpath>
+          <value>
+            <jobString>메카노이드 배양 중</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Wraith"]/label</xpath>
+          <value>
+            <label>레이스 배양</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Wraith"]/description</xpath>
+          <value>
+            <description>레이스 메카노이드를 배양합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Locust"]/jobString</xpath>
+          <value>
+            <jobString>메카노이드 배양 중</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Locust"]/label</xpath>
+          <value>
+            <label>로커스트 배양</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_Mech_Locust"]/description</xpath>
+          <value>
+            <description>로커스트 메카노이드를 배양합니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>##packageId##Mlie.MechanoidPower</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_ConvertCellOne"]/label</xpath>
+          <value>
+            <label>메카노이드 셀 변환</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_ConvertCellOne"]/description</xpath>
+          <value>
+            <description>Mechanoid Power (Continued)의 메카노이드 셀을 Reinforced Mechanoid 2 모드의 것으로 변환합니다. 이 레시피는 두 모드를 모두 로드하고 한 모드에서 다른 모드로 이동할 때만 나타납니다!</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_ConvertCellOne"]/jobString</xpath>
+          <value>
+            <jobString>셀 변환 중</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_ConvertCellTwo"]/label</xpath>
+          <value>
+            <label>메카노이드 셀 변환</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_ConvertCellTwo"]/description</xpath>
+          <value>
+            <description>Reinforced Mechanoid 2 모드의 메카노이드 셀을 "Mechanoid Power (Continued)"의 것으로 변환합니다. 이 레시피는 두 모드를 모두 로드하고 한 모드에서 다른 모드로 이동할 때만 나타납니다!</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RM_ConvertCellTwo"]/jobString</xpath>
+          <value>
+            <jobString>셀 변환 중</jobString>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ideology</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_AncientRustedJeep"]/label</xpath>
+          <value>
+            <label>고대 정찰 지프차</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_AncientRustedJeep"]/description</xpath>
+          <value>
+            <description>고대의 정찰용 지프차입니다. 녹슬고 부서졌으며, 돈이 될 만한 것은 아무것도 남지 않았습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_RelicSacredIcon"]/description</xpath>
+          <value>
+            <description>종교적 상징물입니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_RelicSacredIcon"]/label</xpath>
+          <value>
+            <label>신성한 상징</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RulePackDef[defName="RM_LeaderTitleMakerTyrikan"]/rulePack/rulesStrings/li[1]</xpath>
+          <value>
+            <li>r_leaderTitle-&gt;높은 자</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RulePackDef[defName="RM_LeaderTitleMakerTyrikan"]/rulePack/rulesStrings/li[2]</xpath>
+          <value>
+            <li>r_leaderTitle-&gt;올라선 자</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RulePackDef[defName="RM_LeaderTitleMakerTyrikan"]/rulePack/rulesStrings/li[3]</xpath>
+          <value>
+            <li>r_leaderTitle-&gt;세례받은 자</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RulePackDef[defName="RM_LeaderTitleMakerTyrikan"]/rulePack/rulesStrings/li[4]</xpath>
+          <value>
+            <li>r_leaderTitle-&gt;부름받은 자</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MemeDef[defName="RM_TyrikanLegacy"]/label</xpath>
+          <value>
+            <label>기계 신정주의</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MemeDef[defName="RM_TyrikanLegacy"]/description</xpath>
+          <value>
+            <description>우리는 티리칸의 후손이다. 우리의 세상은 사라졌지만 우리의 이상은 사라지지 않는다..</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MemeDef[defName="RM_TyrikanLegacy"]/generalRules/rulesStrings/li[1]</xpath>
+          <value>
+            <li>memeAdjective-&gt;고대</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MemeDef[defName="RM_TyrikanLegacy"]/generalRules/rulesStrings/li[2]</xpath>
+          <value>
+            <li>memeAdjective-&gt;신성한</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MemeDef[defName="RM_TyrikanLegacy"]/generalRules/rulesStrings/li[3]</xpath>
+          <value>
+            <li>memeAdjective-&gt;위대한</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MemeDef[defName="RM_TyrikanLegacy"]/generalRules/rulesStrings/li[4]</xpath>
+          <value>
+            <li>memeAdjective-&gt;진정한</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MemeDef[defName="RM_TyrikanLegacy"]/generalRules/rulesStrings/li[5]</xpath>
+          <value>
+            <li>memeCreed-&gt;언약</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MemeDef[defName="RM_TyrikanLegacy"]/generalRules/rulesStrings/li[6]</xpath>
+          <value>
+            <li>memeCreed-&gt;계층</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MemeDef[defName="RM_TyrikanLegacy"]/generalRules/rulesStrings/li[7]</xpath>
+          <value>
+            <li>memeMoralist-&gt;구도자</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MemeDef[defName="RM_TyrikanLegacy"]/generalRules/rulesStrings/li[8]</xpath>
+          <value>
+            <li>memeMoralist-&gt;선지자</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MemeDef[defName="RM_TyrikanLegacy"]/generalRules/rulesStrings/li[9]</xpath>
+          <value>
+            <li>memeMoralist-&gt;선각자</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MemeDef[defName="RM_TyrikanLegacy"]/generalRules/rulesStrings/li[10]</xpath>
+          <value>
+            <li>memeMoralist-&gt;신관</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MemeDef[defName="RM_TyrikanLegacy"]/generalRules/rulesStrings/li[11]</xpath>
+          <value>
+            <li>memeMoralist-&gt;예언자</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_Apparel_SkimmerPack"]/label</xpath>
+          <value>
+            <label>스키머팩</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_Apparel_SkimmerPack"]/description</xpath>
+          <value>
+            <description>메카노이드 하피에 맞춰 개조된 1인용 단거리 비행 로켓입니다. 각종 보조 장치와 함께 사용하면 빠른 속도로 장애물을 뛰어넘어 도약할 수 있습니다. 단 재충전이 불가능하고 용도가 한정되어 있습니다.\n\n일부 고등한 문명에 한해, 고도로 훈련된 병사가 사용하기도 합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_Apparel_SkimmerPack"]/comps/li[5]/chargeNoun</xpath>
+          <value>
+            <chargeNoun>도약</chargeNoun>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_Apparel_SkimmerPack"]/verbs/*[.//*[contains(text(), 'Verb_Jump')]]/label</xpath>
+          <value>
+            <label>도약</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_MeleeWeapon_PlasmaBane"]/label</xpath>
+          <value>
+            <label>플라즈마 쌍날단검</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_MeleeWeapon_PlasmaBane"]/description</xpath>
+          <value>
+            <description>복잡하게 설계된 소형 쌍날검입니다. 극도로 섬세한 플라즈마 기술로 무엇보다 날카로운 플라즈마 칼날을 구성하며, 한 쌍의 코어가 플라즈마에 둘러싸여 강력한 에너지 역장을 쏘아냅니다. 공격당한 적은 정밀한 에너지 역장과 플라즈마 칼날로 흔적조차 없이 사라집니다.\n\n극도로 통제된 플라즈마는 사용자에게 어떠한 해도 가하지 않지만, 너무 정밀한 기술 탓에 양산은 불가능에 가깝습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_MeleeWeapon_PlasmaBane"]/tools/li[1]/label</xpath>
+          <value>
+            <label>칼끝</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_MeleeWeapon_PlasmaBane"]/tools/li[2]/label</xpath>
+          <value>
+            <label>왼쪽 칼날</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_MeleeWeapon_PlasmaBane"]/tools/li[3]/label</xpath>
+          <value>
+            <label>오른쪽 칼날</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_MeleeWeapon_PlasmaSword"]/label</xpath>
+          <value>
+            <label>플라즈마 쌍날검</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_MeleeWeapon_PlasmaSword"]/description</xpath>
+          <value>
+            <description>복잡하게 설계된 대형 쌍날검입니다. 극도로 섬세한 플라즈마 기술로 무엇보다 날카로운 플라즈마 칼날을 구성하며, 한 쌍의 코어가 플라즈마에 둘러싸여 강력한 에너지 역장을 쏘아냅니다. 공격당한 적은 정밀한 에너지 역장과 플라즈마 칼날로 흔적조차 없이 사라집니다.\n\n극도로 통제된 플라즈마는 사용자에게 어떠한 해도 가하지 않지만, 너무 정밀한 기술 탓에 양산은 불가능에 가깝습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_MeleeWeapon_PlasmaSword"]/tools/li[1]/label</xpath>
+          <value>
+            <label>칼끝</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_MeleeWeapon_PlasmaSword"]/tools/li[2]/label</xpath>
+          <value>
+            <label>왼쪽 칼날</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_MeleeWeapon_PlasmaSword"]/tools/li[3]/label</xpath>
+          <value>
+            <label>오른쪽 칼날</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="RM_WeatherController"]/label</xpath>
+          <value>
+            <label>날씨 조절기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="RM_WeatherController"]/description</xpath>
+          <value>
+            <description>날씨 조절기를 건설해 지역의 날씨를 조절할 수 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="RM_ClimateAdjuster"]/label</xpath>
+          <value>
+            <label>기후 조절기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="RM_ClimateAdjuster"]/description</xpath>
+          <value>
+            <description>기후 조절기를 건설해 주변의 기후를 조절할 수 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="RM_SunBlocker"]/label</xpath>
+          <value>
+            <label>태양 차단기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="RM_SunBlocker"]/description</xpath>
+          <value>
+            <description>태양 차단기를 건설해 높은 고도에 챠폐막을 펼쳐 태양을 차단할 수 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_ChipWeather"]/label</xpath>
+          <value>
+            <label>날씨 조절 칩</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_ChipWeather"]/description</xpath>
+          <value>
+            <description>날씨 조절기를 관리하는 소형 기계장치입니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_ChipClimate"]/label</xpath>
+          <value>
+            <label>기후 조절 칩</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_ChipClimate"]/description</xpath>
+          <value>
+            <description>기후 조절기를 관리하는 소형 기계장치입니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_ChipBlocker"]/label</xpath>
+          <value>
+            <label>태양 차단 칩</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_ChipBlocker"]/description</xpath>
+          <value>
+            <description>태양 차단기를 관리하는 소형 기계장치입니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_WeatherController"]/label</xpath>
+          <value>
+            <label>날씨 조절기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_WeatherController"]/description</xpath>
+          <value>
+            <description>날씨를 제어하기 위한 번화계 기술 장치입니다. 화학물질과 고등 기관을 사용해, 날씨를 특정한 환경으로 강제합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GameConditionDef[defName="RM_WeatherController"]/label</xpath>
+          <value>
+            <label>날씨 조절</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GameConditionDef[defName="RM_WeatherController"]/description</xpath>
+          <value>
+            <description>날씨 조절기가 입력한 설정에 따라 날씨를 변화시킵니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GameConditionDef[defName="RM_WeatherController"]/descriptionFuture</xpath>
+          <value>
+            <descriptionFuture>날씨 조절기는 [gameConditionDuration_duration] 동안 [map_definite] 주변의 날씨를 [forcedWeather_indefinite](으)로 고정합니다</descriptionFuture>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GameConditionDef[defName="RM_WeatherController"]/endMessage</xpath>
+          <value>
+            <endMessage>날씨 조절기의 효과가 끝납니다.</endMessage>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GameConditionDef[defName="RM_WeatherController"]/letterText</xpath>
+          <value>
+            <letterText>날씨 조절기가 이 지역에 영향을 미치기 시작했습니다.</letterText>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_ClimateAdjuster"]/label</xpath>
+          <value>
+            <label>기후 조절기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_ClimateAdjuster"]/description</xpath>
+          <value>
+            <description>기후를 제어하기 위한 번화계 기술 장치입니다. 화학물질과 고등 기관을 사용해 대기를 조작합니다. 행성에 있는 모든 현재 지역의 온도 또한 변화시킵니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GameConditionDef[defName="RM_ClimateAdjustment"]/label</xpath>
+          <value>
+            <label>기후 조절</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GameConditionDef[defName="RM_ClimateAdjustment"]/description</xpath>
+          <value>
+            <description>기후 조절기가 입력한 설정에 따라 기후를 변화시킵니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GameConditionDef[defName="RM_ClimateAdjustment"]/letterText</xpath>
+          <value>
+            <letterText>기후 조절기가 이 지역에 영향을 미치기 시작했습니다.</letterText>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_SunBlocker"]/label</xpath>
+          <value>
+            <label>태양 차단기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_SunBlocker"]/description</xpath>
+          <value>
+            <description>일조량을 제어하기 위한 번화계 기술 장치입니다. 화학물질과 고등 기관을 사용해, 높은 고도에 차폐막을 만들어 태양을 차단합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GameConditionDef[defName="RM_SunBlocker"]/label</xpath>
+          <value>
+            <label>태양 차단기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GameConditionDef[defName="RM_SunBlocker"]/description</xpath>
+          <value>
+            <description>태양 차단기가 높은 고도에 차폐막을 만들어 태양을 차단합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GameConditionDef[defName="RM_SunBlocker"]/letterText</xpath>
+          <value>
+            <letterText>태양 차단기가 이 지역의 태양을 가리기 시작했습니다.</letterText>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_AncientShipEMIDynamo"]/label</xpath>
+          <value>
+            <label>고대 전자 교란기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_AncientShipEMIDynamo"]/description</xpath>
+          <value>
+            <description>고대 우주선에 탑재하던 전자 교란기입니다. 인근 지역의 전기 설비 작동을 방해합니다. 보통 매우 거대한 함선의 부품으로 사용됩니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GameConditionDef[defName="RM_EMIDynamo"]/label</xpath>
+          <value>
+            <label>EMI 교란기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GameConditionDef[defName="RM_EMIDynamo"]/letterText</xpath>
+          <value>
+            <letterText>EMI 교란기</letterText>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GameConditionDef[defName="RM_EMIDynamo"]/description</xpath>
+          <value>
+            <description>EMI 교란기</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GameConditionDef[defName="RM_EMIDynamo"]/descriptionFuture</xpath>
+          <value>
+            <descriptionFuture>EMI 교란기</descriptionFuture>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GameConditionDef[defName="RM_EMIDynamo"]/endMessage</xpath>
+          <value>
+            <endMessage>EMI 교란기</endMessage>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_AncientPsychicSuppressor"]/label</xpath>
+          <value>
+            <label>고대 정신력 억제기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_AncientPsychicSuppressor"]/description</xpath>
+          <value>
+            <description>고대 우주선에 탑재하던 정신력 억제기입니다. 특정 성별을 지정해 초능력을 억제하고 의식이 감소하는 역장을 펼칩니다. 효과는 개인의 정신 감응력에 따라 달라집니다. 보통 매우 거대한 함선의 부품으로 사용됩니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_AncientPsychicDroner"]/label</xpath>
+          <value>
+            <label>고대 정신파 방출기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_AncientPsychicDroner"]/description</xpath>
+          <value>
+            <description>고대 우주선에 탑재하던 정신파 방출기입니다. 특정 성별을 지정해 심리적 불안감과 공포를 조장하는 역장을 펼칩니다. 효과는 개인의 정신 감응력에 따라 달라집니다. 파괴하여 귀중한 자원을 얻어낼 수도 있습니다. 보통 매우 거대한 함선의 부품으로 사용됩니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_AncientBulletShield"]/label</xpath>
+          <value>
+            <label>고대 저각 보호막</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_AncientBulletShield"]/description</xpath>
+          <value>
+            <description>고대 우주선에 탑재하던 저각 보호막 생성 장치입니다. 강력한 척력장을 사용해 외부의 사격은 방어하면서 일방적인 공격을 가할 수 있습니다. 낮은 각도로 조정되어 있어 대부분의 총탄 사격을 차단합니다. 보호막 생성기를 공격하거나 EMP 공격을 통해 일시적으로 무력화할 수 있습니다. 보통 매우 거대한 함선의 부품으로 사용됩니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_AncientMortarShield"]/label</xpath>
+          <value>
+            <label>고대 고각 보호막</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RM_AncientMortarShield"]/description</xpath>
+          <value>
+            <description>고대 우주선에 탑재하던 고각 보호막 생성 장치입니다. 강력한 척력장을 사용해 외부의 사격은 방어하면서 일방적인 공격을 가할 수 있습니다. 높은 각도로 조정되어 있어 원거리 박격포 사격을 차단합니다. 보호막 생성기를 공격하거나 EMP 공격을 통해 일시적으로 무력화할 수 있습니다. 보통 매우 거대한 함선의 부품으로 사용됩니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Mechanoids</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFE_Mech_Vulture"]/label</xpath>
+          <value>
+            <label>벌처</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFE_Mech_Vulture"]/description</xpath>
+          <value>
+            <description>전장에서 민첩하게 다른 메카노이드를 수리하기 위해 설계된 키그야르급 메카노이드입니다. 몸체가 가볍고 갑옷이 없기 때문에 적의 공격에 취약하며, 특히 근접전에 매우 약해 전투를 적극적으로 회피합니다. 해당 개체는 최신형 제품으로서 내구성이 견고합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFE_Mech_Vulture"]/tools/li[1]/label</xpath>
+          <value>
+            <label>왼쪽 주먹</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFE_Mech_Vulture"]/tools/li[2]/label</xpath>
+          <value>
+            <label>오른쪽 주먹</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFE_Mech_Vulture"]/tools/li[3]/label</xpath>
+          <value>
+            <label>머리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PawnKindDef[defName="VFE_Mech_Vulture"]/label</xpath>
+          <value>
+            <label>벌처</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFE_Mech_Caretaker"]/label</xpath>
+          <value>
+            <label>케어테이커</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFE_Mech_Caretaker"]/description</xpath>
+          <value>
+            <description>수십 개의 다리를 사용해 움직이는 지원형 메카노이드입니다. 기본적으로 중무장 보호막을 생성하여 부대원들을 호위하는 용도로 사용됩니다. 자체 공격력이 부족하여 적이 보호막 안으로 침입할 경우 순식간에 무력화됩니다. 해당 개체는 최신형 제품으로서 내구성이 견고합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFE_Mech_Caretaker"]/tools/li[1]/label</xpath>
+          <value>
+            <label>머리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PawnKindDef[defName="VFE_Mech_Caretaker"]/label</xpath>
+          <value>
+            <label>케어테이커</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFE_Mech_Zealot"]/label</xpath>
+          <value>
+            <label>질럿</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFE_Mech_Zealot"]/description</xpath>
+          <value>
+            <description>커다란 상헬리급 인간형 메카노이드입니다. 중장거리 전투에 적합하며 게릴라 작전에서의 이동 지휘소 역할을 수행합니다. 능동형 위장 능력을 보유하여 지휘와 적의 약점 파악에 높은 효율을 보입니다. 해당 개체는 최신형 제품으로서 내구성이 견고합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFE_Mech_Zealot"]/tools/li[1]/label</xpath>
+          <value>
+            <label>왼쪽 주먹</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFE_Mech_Zealot"]/tools/li[2]/label</xpath>
+          <value>
+            <label>오른쪽 주먹</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFE_Mech_Zealot"]/tools/li[3]/label</xpath>
+          <value>
+            <label>머리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PawnKindDef[defName="VFE_Mech_Zealot"]/label</xpath>
+          <value>
+            <label>질럿</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFE_Mech_Sentinel"]/label</xpath>
+          <value>
+            <label>센티넬</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFE_Mech_Sentinel"]/description</xpath>
+          <value>
+            <description>매우 강력한 자이론급 인간형 메카노이드입니다. 적의 사격을 유도하며 교전할 수 있도록 설계되었으나, 하드웨어 설계 결함으로 피아식별 센서가 충격에 매우 취약합니다. 센서가 오류를 일으킬 경우 센티넬은 피아를 가리지 않고 주변의 모두를 파괴합니다. 해당 개체는 최신형 제품으로서 내구성이 견고합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFE_Mech_Sentinel"]/tools/li[1]/label</xpath>
+          <value>
+            <label>왼쪽 주먹</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFE_Mech_Sentinel"]/tools/li[2]/label</xpath>
+          <value>
+            <label>오른쪽 주먹</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFE_Mech_Sentinel"]/tools/li[3]/label</xpath>
+          <value>
+            <label>머리 칼날</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PawnKindDef[defName="VFE_Mech_Sentinel"]/label</xpath>
+          <value>
+            <label>센티넬</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Weapons Expanded - Grenades</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VWE_Apparel_GrenadePlasmaImmolator"]/label</xpath>
+          <value>
+            <label>플라즈마 수류탄 벨트</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VWE_Apparel_GrenadePlasmaImmolator"]/description</xpath>
+          <value>
+            <description>대인용 플라즈마 수류탄 벨트입니다. 폭발하며 광범위한 범위에 불을 붙입니다. 플라즈마 수류탄으로 재장전합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VWE_Apparel_GrenadePlasmaImmolator"]/comps/li[3]/chargeNoun</xpath>
+          <value>
+            <chargeNoun>플라즈마</chargeNoun>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VWE_Apparel_GrenadePlasmaImmolator"]/verbs/*[.//*[contains(text(), 'Verb_LaunchProjectileStatic')]]/label</xpath>
+          <value>
+            <label>플라즈마 수류탄 투척</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
