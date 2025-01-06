@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Empire</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/FactionColonies.BiomeResourceDef[defName="AB_FeraliskInfestedJungle"]/label</xpath>
+          <value>
+            <label>페라리스크 정글</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/FactionColonies.BiomeResourceDef[defName="AB_MycoticJungle"]/label</xpath>
+          <value>
+            <label>버섯 정글</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/FactionColonies.BiomeResourceDef[defName="AB_OcularForest"]/label</xpath>
+          <value>
+            <label>눈알 숲</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/FactionColonies.BiomeResourceDef[defName="AB_GelatinousSuperorganism"]/label</xpath>
+          <value>
+            <label>젤라틴 초유기체</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/FactionColonies.BiomeResourceDef[defName="AB_GallatrossGraveyard"]/label</xpath>
+          <value>
+            <label>갈라트로스 묘지</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/FactionColonies.BiomeResourceDef[defName="AB_MechanoidIntrusion"]/label</xpath>
+          <value>
+            <label>메카노이드 침략지</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/FactionColonies.BiomeResourceDef[defName="AB_PropaneLakes"]/label</xpath>
+          <value>
+            <label>프로판 호수</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/FactionColonies.BiomeResourceDef[defName="AB_TarPits"]/label</xpath>
+          <value>
+            <label>타르 웅덩이</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/FactionColonies.BiomeResourceDef[defName="AB_RockyCrags"]/label</xpath>
+          <value>
+            <label>포세이큰 계곡</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>FishIndustry</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AB_Slimefish"]/label</xpath>
+          <value>
+            <label>점액어</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AB_Slimefish"]/description</xpath>
+          <value>
+            <description>이 물고기의 일부는 점액질처럼 보입니다. 역겹네요!</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/FishIndustry.PawnKindDef_FishSpecies[defName="AB_Slimefish"]/label</xpath>
+          <value>
+            <label>점액어</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AB_SlimefishMeat"]/label</xpath>
+          <value>
+            <label>점액어 고기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AB_SlimefishMeat"]/description</xpath>
+          <value>
+            <description>점액어의 생고기입니다.\n\n쫄깃하고, 젤라틴이 풍부하지만 맛이 없습니다. 젤라틴과 질감이 비슷합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AB_Jellyfungus"]/label</xpath>
+          <value>
+            <label>버섯해파리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AB_Jellyfungus"]/description</xpath>
+          <value>
+            <description>이 생선은 일부는 해파리에 일부는 버섯인 것 같습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/FishIndustry.PawnKindDef_FishSpecies[defName="AB_Jellyfungus"]/label</xpath>
+          <value>
+            <label>버섯해파리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AB_JellyfungusMeat"]/label</xpath>
+          <value>
+            <label>버섯해파리 고기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AB_JellyfungusMeat"]/description</xpath>
+          <value>
+            <description>버섯해파리의 생고기입니다.\n\n소금물을 잔뜩 머금은 버섯 같은 맛이 납니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AB_OcularFish"]/label</xpath>
+          <value>
+            <label>눈알고기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AB_OcularFish"]/description</xpath>
+          <value>
+            <description>물고기의 눈이 당신을 응시하고 있습니다. 그것이 살아있었다면 그랬을 것입니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/FishIndustry.PawnKindDef_FishSpecies[defName="AB_OcularFish"]/label</xpath>
+          <value>
+            <label>눈알고기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AB_OcularFishMeat"]/label</xpath>
+          <value>
+            <label>눈알고기 고기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AB_OcularFishMeat"]/description</xpath>
+          <value>
+            <description>눈알고기의 생고기 입니다.\n\n놀랍도록 부드러운 맛이 납니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AB_PolarEel"]/label</xpath>
+          <value>
+            <label>북극장어</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AB_PolarEel"]/description</xpath>
+          <value>
+            <description>이 길쭉한 물고기는 매우 낮은 온도에서 생활하기에 적합합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/FishIndustry.PawnKindDef_FishSpecies[defName="AB_PolarEel"]/label</xpath>
+          <value>
+            <label>북극장어</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AB_PolarEelChunks"]/label</xpath>
+          <value>
+            <label>북극장어 고기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AB_PolarEelChunks"]/description</xpath>
+          <value>
+            <description>북극장어의 생고기입니다.\n\n이 고기는 식욕을 떨어뜨리는 역겨운 색을 가지고 있지만, 의외로 맛이 좋은 편입니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AB_Spiderfish"]/label</xpath>
+          <value>
+            <label>지주어</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AB_Spiderfish"]/description</xpath>
+          <value>
+            <description>스파이더맨 드립이라도 칠 줄 알았나요? 그런 얘기는 너무 지치는군요. 이건 그냥 거미를 닮은 물고기일 뿐입니다. 설명 끝.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/FishIndustry.PawnKindDef_FishSpecies[defName="AB_Spiderfish"]/label</xpath>
+          <value>
+            <label>지주어</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AB_SpiderfishSteak"]/label</xpath>
+          <value>
+            <label>지주어 고기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AB_SpiderfishSteak"]/description</xpath>
+          <value>
+            <description>지주어의 생고기입니다.\n\n매우 다행히도, 거미 맛은 아닙니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AB_Spinyfish"]/label</xpath>
+          <value>
+            <label>가시고기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AB_Spinyfish"]/description</xpath>
+          <value>
+            <description>이 물고기는 방어 수단으로 사용되는 돌출된 가시를 지니고 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/FishIndustry.PawnKindDef_FishSpecies[defName="AB_Spinyfish"]/label</xpath>
+          <value>
+            <label>가시고기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AB_SpinyfishChunks"]/label</xpath>
+          <value>
+            <label>가시고기 덩어리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AB_SpinyfishChunks"]/description</xpath>
+          <value>
+            <description>가시고기의 생고기입니다.\n\n살점이 많은 생선은 아닙니다만, 맛은 좋습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AB_ForsakenAnglerfish"]/label</xpath>
+          <value>
+            <label>포세이큰아귀</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AB_ForsakenAnglerfish"]/description</xpath>
+          <value>
+            <description>이 물고기는 생체 발광 미끼를 지니고 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/FishIndustry.PawnKindDef_FishSpecies[defName="AB_ForsakenAnglerfish"]/label</xpath>
+          <value>
+            <label>포세이큰아귀</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AB_ForsakenAnglerfishChunks"]/label</xpath>
+          <value>
+            <label>포세이큰아귀 고기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AB_ForsakenAnglerfishChunks"]/description</xpath>
+          <value>
+            <description>포세이큰아귀의 생고기입니다.\n\n살점이 많지는 않으며, 약간 끈적거립니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/TerrainDef[defName="AB_FinestoneRoseQuartz"]/label</xpath>
+          <value>
+            <label>멋진 장미석영 타일</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/TerrainDef[defName="AB_FinestoneMudstone"]/label</xpath>
+          <value>
+            <label>멋진 이암 타일</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/TerrainDef[defName="AB_FinestoneCragstone"]/label</xpath>
+          <value>
+            <label>멋진 암흑석 타일</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/TerrainDef[defName="AB_FinestoneObsidian"]/label</xpath>
+          <value>
+            <label>멋진 흑요석 타일</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

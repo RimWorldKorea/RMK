@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MU_IsNotControlled>제어되지 않음</MU_IsNotControlled>
+  <MU_IsNotMechanitor>메카나이터가 아님</MU_IsNotMechanitor>
+  <MU_NoPawns>메카노이드가 없음</MU_NoPawns>
+  <MU_CannotReload_CannotManipulate>조작 불가</MU_CannotReload_CannotManipulate>
+  <MU_CannotReload_NoStackSpace>목표 재료를 충당할 수 없음</MU_CannotReload_NoStackSpace>
+  <MU_CannotReload_NoEnoughAmmo>재료가 부족함</MU_CannotReload_NoEnoughAmmo>
+  <MU_CannotAdd_NotEnoughPoints>잔여 개조 한도가 부족함</MU_CannotAdd_NotEnoughPoints>
+  <MU_CannotAdd_WrongMechClass>메카노이드의 크기가 적합하지 않음</MU_CannotAdd_WrongMechClass>
+  <MU_CannotAdd_BiggerSize>메카노이드가 너무 큼</MU_CannotAdd_BiggerSize>
+  <MU_CannotAdd_SmallerSize>메카노이드가 너무 작음</MU_CannotAdd_SmallerSize>
+  <MU_CannotAdd_WrongMech>메카노이드의 종류가 다름</MU_CannotAdd_WrongMech>
+  <MU_CannotAdd_SameUpgrade>동일한 개조가 이미 적용됨</MU_CannotAdd_SameUpgrade>
+  <MU_CannotAdd_SameTags>충돌하는 개조를 보유함</MU_CannotAdd_SameTags>
+  <MU_CannotAdd_NoRequiredBodyPart>필수 요구 신체 부위 없음</MU_CannotAdd_NoRequiredBodyPart>
+  <MU_CannotAdd_HaveConflictingBodyPart>충돌하는 신체 부위를 보유함</MU_CannotAdd_HaveConflictingBodyPart>
+  <MU_CannotAdd_NoRequiredWorkType>해당 작업 유형을 수행할 수 없음</MU_CannotAdd_NoRequiredWorkType>
+  <MU_CannotAdd_HaveConflictingWorkType>충돌하는 작업 유형을 수행할 수 있음</MU_CannotAdd_HaveConflictingWorkType>
+  <MU_CannotAdd_IsNotWorker>노동형 메카노이드가 아님</MU_CannotAdd_IsNotWorker>
+  <MU_CannotAdd_IsWorker>노동형 메카노이드에 설치할 수 없음</MU_CannotAdd_IsWorker>
+  <MU_CannotAdd_IsNotRangedFighter>원거리 전투형 메카노이드가 아님</MU_CannotAdd_IsNotRangedFighter>
+  <MU_CannotAdd_IsRangedFighter>원거리 전투형 메카노이드에 설치할 수 없음</MU_CannotAdd_IsRangedFighter>
+  <MU_CannotAdd_NoShieldComp>보호막이 없음</MU_CannotAdd_NoShieldComp>
+  <MU_CannotAdd_HasShieldComp>보호막이 있음</MU_CannotAdd_HasShieldComp>
+  <MU_OnCooldown>재사용 대기 중</MU_OnCooldown>
+  <MU_InsertMech>메카노이드 투입</MU_InsertMech>
+  <MU_InsertMech_Desc>메카노이드를 개조기에 투입합니다. 투입 직후 개조를 시작합니다.</MU_InsertMech_Desc>
+  <MU_CommandCancelWaiting>개조 취소</MU_CommandCancelWaiting>
+  <MU_CommandCancelWaiting_Desc>개조를 취소합니다. 내부의 메카노이드를 즉시 꺼낼 수 있습니다.</MU_CommandCancelWaiting_Desc>
+  <MU_CommandCancelUpgrading>작업 취소</MU_CommandCancelUpgrading>
+  <MU_CommandCancelUpgrading_Desc>개조를 취소합니다. 내부의 메카노이드를 즉시 꺼낼 수 있습니다.</MU_CommandCancelUpgrading_Desc>
+  <MU_ForceReload>수동 재충전</MU_ForceReload>
+  <MU_ForceReload_Desc>메카노이드가 재충전이 필요한 개조 중 하나를 충전합니다.</MU_ForceReload_Desc>
+  <MU_MechBooster_Label>메카노이드 증폭기 전환</MU_MechBooster_Label>
+  <MU_MechBooster_Desc>메카노이드 증폭기의 모드를 전환합니다.</MU_MechBooster_Desc>
+  <MU_UpgradeConfig_Label>개조 선택</MU_UpgradeConfig_Label>
+  <MU_NoUpgradesInside>개조 없음</MU_NoUpgradesInside>
+  <MU_TabUpgrades>개조</MU_TabUpgrades>
+  <MU_AutoReload_Desc>메카노이드가 자동으로 개조를 재충전합니다.</MU_AutoReload_Desc>
+  <MU_Setting_GenerateWithUpgrades>개조된 메카노이드 생성</MU_Setting_GenerateWithUpgrades>
+  <MU_Setting_GenerateWithUpgrades_Desc>메카노이드가 개조된 상태로 등장합니다.</MU_Setting_GenerateWithUpgrades_Desc>
+  <MU_Setting_ChanceForUpgrades>개조된 메카노이드 생성 확률</MU_Setting_ChanceForUpgrades>
+  <MU_Setting_ChanceForUpgrades_Desc>개조된 메카노이드가 등장할 확률을 조정합니다.\n\n직접 제조한 메카노이드는 영향을 받지 않습니다.</MU_Setting_ChanceForUpgrades_Desc>
+  <MU_Setting_MinPercent>개조 최소치</MU_Setting_MinPercent>
+  <MU_Setting_MinPercent_Desc>메카노이드가 최소 얼마의 개조를 보유한 채 등장할지 결정합니다.</MU_Setting_MinPercent_Desc>
+  <MU_Setting_MaxPercent>개조 최대치</MU_Setting_MaxPercent>
+  <MU_Setting_MaxPercent_Desc>메카노이드가 최대 얼마의 개조를 보유한 채 등장할지 결정합니다.</MU_Setting_MaxPercent_Desc>
+  <MU_Setting_CombinationsCommonality>사전 설정 조합 등장 확률</MU_Setting_CombinationsCommonality>
+  <MU_Setting_CombinationsCommonality_Desc>메카노이드가 사전 설정된 개조 조합으로 생성될 확률을 결정합니다.</MU_Setting_CombinationsCommonality_Desc>
+  <MU_Upgrader_WaitingForOrder>대기</MU_Upgrader_WaitingForOrder>
+  <MU_Upgrader_WaitingForMechanoid>메카노이드를 기다리는 중</MU_Upgrader_WaitingForMechanoid>
+  <MU_Upgrader_WaitingForMechanitor>메카나이터를 기다리는 중</MU_Upgrader_WaitingForMechanitor>
+  <MU_Upgrader_TimeLeft>잔여 시간</MU_Upgrader_TimeLeft>
+  <MU_AllOperations>모든 개조</MU_AllOperations>
+  <MU_ThisOperation>현재 개조</MU_ThisOperation>
+  <MU_ConfigureUpgrades>작업 시작</MU_ConfigureUpgrades>
+  <MU_MechCarrier_Title>강철</MU_MechCarrier_Title>
+  <MU_MechCarrier_Tooltip>워 어친 배양기에서 워 어친을 생산하기 위해 필요한 강철의 수</MU_MechCarrier_Tooltip>
+  <MU_MechCarrier_Label>워 어친 배양기</MU_MechCarrier_Label>
+  <MU_StatsReport_FactorFromHolder>사용자의 요인</MU_StatsReport_FactorFromHolder>
+  <MU_IsUpgradableMechanoid>개조 가능</MU_IsUpgradableMechanoid>
+  <MU_IsUpgradableMechanoid_Desc>이 메카노이드는 개조할 수 있습니다.</MU_IsUpgradableMechanoid_Desc>
+  <MU_UpgradesInsideMech>개조</MU_UpgradesInsideMech>
+  <MU_UpgradesInsideMech_Desc>설치된 개조 목록입니다.</MU_UpgradesInsideMech_Desc>
+  <MU_StatOffsetsFromUpgrades>개조 효과</MU_StatOffsetsFromUpgrades>
+  <MU_StatFactorsFromUpgrades>개조 항목</MU_StatFactorsFromUpgrades>
+  <MU_GivesPersonalShield>자가 보호막 생성</MU_GivesPersonalShield>
+  <MU_GivesPersonalShield_Desc>메카노이드 주변에 보호막 구체를 생성합니다.</MU_GivesPersonalShield_Desc>
+  <MU_CommandRange>명령 범위</MU_CommandRange>
+  <MU_CommandRange_Desc>다른 메카노이드를 조종할 수 있는 범위입니다.</MU_CommandRange_Desc>
+  <MU_UpgradePoints>개조 한도 점유량</MU_UpgradePoints>
+  <MU_UpgradePoints_Desc>해당 개조가 점유하는 개조 한도입니다.</MU_UpgradePoints_Desc>
+  <MU_AllowsRemoteControl>원격 제어 허용</MU_AllowsRemoteControl>
+  <MU_AllowsRemoteControl_Desc>해당 개조를 통해 메카노이드를 명령 범위 밖에서 제어할 수 있습니다.</MU_AllowsRemoteControl_Desc>
+  <MU_MinBodySize>최소 크기</MU_MinBodySize>
+  <MU_MinBodySize_Desc>본체 크기가 이 수치 이상인 기계에만 개조를 적용할 수 있습니다.</MU_MinBodySize_Desc>
+  <MU_MaxBodySize>최대 크기</MU_MaxBodySize>
+  <MU_MaxBodySize_Desc>본체 크기가 이 수치 이하인 기계에만 개조를 적용할 수 있습니다.</MU_MaxBodySize_Desc>
+  <MU_MechanoidsToAdd>개조 가능 메카노이드</MU_MechanoidsToAdd>
+  <MU_MechanoidsToAdd_Desc>개조를 적용할 수 있는 메카노이드의 목록입니다.</MU_MechanoidsToAdd_Desc>
+  <MU_Stat_ReloadCost>재충전 비용</MU_Stat_ReloadCost>
+  <MU_Stat_ReloadCost_Desc>해당 개체를 다시 충전하는 데 필요한 자원 소모량입니다.</MU_Stat_ReloadCost_Desc>
+  <MU_QualityOffset>품질 보정</MU_QualityOffset>
+  <MU_QualityOffset_Desc>제작 또는 건설 시 품질을 보정합니다.</MU_QualityOffset_Desc>
+  <MU_Setting_BaseUpgradability>기본 개조 한도</MU_Setting_BaseUpgradability>
+  <MU_Setting_BaseUpgradability_Desc>기본 개조 한도값입니다.\n\n이 값에 몸체 크기와 크기 등급을 포함해 최종 개조 한도를 계산합니다.</MU_Setting_BaseUpgradability_Desc>
+  <MU_Setting_BaseUpgradability_Warning>경고! 이 값을 변경하면 밸런스에 큰 영향을 미칩니다.</MU_Setting_BaseUpgradability_Warning>
+  <MU_Setting_ExtraButcherProducts>추가 전리품</MU_Setting_ExtraButcherProducts>
+  <MU_Setting_ExtraButcherProducts_Desc>개조된 메카노이드를 분해할 경우 추가 자원을 획득합니다.</MU_Setting_ExtraButcherProducts_Desc>
+  <MU_Setting_ChanceForExtraLoot>추가 전리품 확률</MU_Setting_ChanceForExtraLoot>
+  <MU_Setting_ChanceForExtraLoot_Desc>개조된 메카노이드를 분해할 경우 추가 자원을 획득할 확률입니다.\n\n설치된 개조마다 확률이 적용됩니다.</MU_Setting_ChanceForExtraLoot_Desc>
+  <MU_Setting_ExtraLootAmount>추가 전리품 수량</MU_Setting_ExtraLootAmount>
+  <MU_Setting_ExtraLootAmount_Desc>개조된 메카노이드를 분해할 경우 추가 자원을 얼마나 획득할지 정합니다.</MU_Setting_ExtraLootAmount_Desc>
+</LanguageData>
