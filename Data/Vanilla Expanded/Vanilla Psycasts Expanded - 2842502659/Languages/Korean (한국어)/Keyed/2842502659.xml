@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <VPE.MustTargetBattery>축전지를 지정해야 합니다.</VPE.MustTargetBattery>
   <VPE.StopHurricane>허리케인이 끝났습니다.</VPE.StopHurricane>
@@ -16,7 +16,7 @@
   <VPE.All>전부</VPE.All>
   <VPE.PsySetDesc>학습된 초능력을 게임 내에서 사용할 수 있는 초능력 묶음에 끌어다 놓습니다.</VPE.PsySetDesc>
   <VPE.MustHaveQuality>품질이 있는 대상을 지정해야 합니다.</VPE.MustHaveQuality>
-  <VPE.QualityTooHigh>대상의 품질이 너무 높습니다. 완벽보다는 낮아야 합니다.</VPE.QualityTooHigh>
+  <VPE.QualityTooHigh>대상의 품질이 너무 높습니다. {0} 이하의 품질에만 사용할 수 있습니다.</VPE.QualityTooHigh>
   <VPE.MaxQuality>최대 품질: {0}</VPE.MaxQuality>
   <VPE.NotEnoughHeat>사용 가능한 신경열이 부족합니다.</VPE.NotEnoughHeat>
   <VPE.MustConsumePower>전력을 소비하는 장치여야 합니다.</VPE.MustConsumePower>
@@ -35,7 +35,7 @@
   <VPE.MustHavePsychicLevel>대상자는 1 이상의 정신력 증폭이 존재해야 합니다.</VPE.MustHavePsychicLevel>
   <VPE.MustHaveHeatAmount>{0} 이상의 신경열이 있어야 합니다.</VPE.MustHaveHeatAmount>
   <VPE.MustBeCorpse>시체를 대상으로 지정해야 합니다.</VPE.MustBeCorpse>
-  <VPE.MustBeCorpseHumanlike>인간의 시체여야합니다.</VPE.MustBeCorpseHumanlike>
+  <VPE.MustBeCorpseHumanlike>인간의 시체여야 합니다.</VPE.MustBeCorpseHumanlike>
   <VPE.PackSummon>동물들의 지원!</VPE.PackSummon>
   <VPE.PackSummon.Desc>정착지를 방어하기 위해 {0}(이)가 부른 야생 동물들이 도착했습니다.</VPE.PackSummon.Desc>
   <VPE.NoAvailableFingers>사용 가능한 손가락이 남아있지 않습니다.</VPE.NoAvailableFingers>
@@ -56,6 +56,8 @@
   <VPE.SmallMode.Desc>UI 축소 모드에서 초능력 능력치 설명은 작은 창으로 표시되며 초능력 묶음은 별도의 메뉴로 분리시킵니다. V 체크시 축소 모드가 강제로 표시되며 ~인 경우 기본 설정대로 동작합니다(수직 해상도가 1080p 이하일 경우 스몰 모드가 활성화됩니다).</VPE.SmallMode.Desc>
   <VPE.MuteSkipdoor>차원문 효과음 끄기</VPE.MuteSkipdoor>
   <VPE.MaxLevel>최대 초능력 레벨</VPE.MaxLevel>
+  <VPE.ChangeFocusGain>초능력 점수로 기본 초집중 획득량 조절</VPE.ChangeFocusGain>
+  <VPE.ChangeFocusGain.Desc>활성화하면 초능력 점수를 소모해 기본 초집중을 높일 수 있습니다.</VPE.ChangeFocusGain.Desc>
   <VPE.Psycasts>초능력</VPE.Psycasts>
   <VPE.PsyLevel>초능력 등급: {0}</VPE.PsyLevel>
   <VPE.EarnXP>명상을 통해 초능력 경험치를 얻을 수 있습니다.</VPE.EarnXP>
@@ -83,13 +85,13 @@
   <VPE.Remove>삭제</VPE.Remove>
   <VPE.Contents>내용물:</VPE.Contents>
   <VPE.ClickRemove>누르면 목록에서 삭제됩니다.</VPE.ClickRemove>
-  <VPE.SellingEltexWarning>엘텍스를 판매하는 것은 제국의 법에 위배되는 행위이며 이 행위는 제국과의 관계에 영향을 미칠 수도 있고 아닐수도 있습니다.</VPE.SellingEltexWarning>
-  <VPE.GiftingEltexWarning>엘텍스를 선물하는 것은 제국의 법에 위배되는 행위이며 이 행위는 제국과의 관계에 영향을 미칠 수도 있고 아닐수도 있습니다.</VPE.GiftingEltexWarning>
+  <VPE.SellingEltexWarning>엘텍스를 판매하는 것은 제국의 법에 위배되는 행위입니다. 이 행위는 제국과의 관계에 영향을 미칠 수도 있고 아닐수도 있습니다.</VPE.SellingEltexWarning>
+  <VPE.GiftingEltexWarning>엘텍스를 선물하는 것은 제국의 법에 위배되는 행위입니다. 이 행위는 제국과의 관계에 영향을 미칠 수도 있고 아닐수도 있습니다.</VPE.GiftingEltexWarning>
   <VPE.EmpireAngeredTitle>제국의 분노</VPE.EmpireAngeredTitle>
   <VPE.EmpireAngeredDesc>제국에서 당신들이 엘텍스를 {0}한 것을 발견했습니다. 그들은 그것이 제국의 법에 위반된다고 생각하며 당신과의 관계를 재고하였습니다.</VPE.EmpireAngeredDesc>
   <VPE.Gifting>선물</VPE.Gifting>
   <VPE.Trading>처분</VPE.Trading>
-  <VPE.FactionRelationReducedInfo>{FACTION_name}과의 우호도는 이제 {1}입니다.({2} 만큼 감소)</VPE.FactionRelationReducedInfo>
+  <VPE.FactionRelationReducedInfo>{FACTION_name}의 우호도는 이제 {1}입니다.({2} 만큼 감소)</VPE.FactionRelationReducedInfo>
   <VPE.CreatePsyringTitle>초능력 선택:</VPE.CreatePsyringTitle>
   <VPE.CreatePsyringButton>초능력 반지 가공</VPE.CreatePsyringButton>
   <VPE.Locked>잠김</VPE.Locked>

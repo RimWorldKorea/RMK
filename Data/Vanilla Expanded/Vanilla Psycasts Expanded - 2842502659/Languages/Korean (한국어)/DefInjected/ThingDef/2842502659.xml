@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <VPE_Skipdoor.label>차원문</VPE_Skipdoor.label>
   <VPE_Skipdoor.description>공간 네트워크와 연결된 출입구입니다.</VPE_Skipdoor.description>
@@ -11,6 +11,7 @@
   <VPE_Vortex.label>전자 폭풍</VPE_Vortex.label>
   <VPE_HurricaneMaker.label>허리케인 제작자</VPE_HurricaneMaker.label>
   <VPE_TimeSphere.label>시간 가속 구체</VPE_TimeSphere.label>
+  <VPE_SkyChanger.label>하늘 변환기</VPE_SkyChanger.label>
   <VPE_BrambleSpawner.label>떠오르는 중</VPE_BrambleSpawner.label>
   <VPE_WildPlantSpawner.label>떠오르는 중</VPE_WildPlantSpawner.label>
   <VPE_TreeSpawner.label>떠오르는 중</VPE_TreeSpawner.label>
@@ -60,7 +61,6 @@
   <VPE_MeleeWeapon_EltexSword.tools.2.label>칼날</VPE_MeleeWeapon_EltexSword.tools.2.label>
   <VPE_HeatPearls.label>열 진주</VPE_HeatPearls.label>
   <VPE_HeatPearls.description>기계술사가 신경열을 물리적 형태로 응축시키는 과정에서 생성된 신비로운 열 진주입니다. 다른 초능력자에게 던져서 엄청난 신경열을 발생시켜 짧은 시간동안 초능력을 무효화시킬 수 있습니다.</VPE_HeatPearls.description>
-  <VPE_HeatPearls.verbs.0.label>열 진주 던지기</VPE_HeatPearls.verbs.0.label>
   <VPE_SteelConstruct.label>강철 골렘</VPE_SteelConstruct.label>
   <VPE_SteelConstruct.description>강력한 초능력 에너지로 움직이는 고철 덩어리입니다. 주변에 있는 위험한 것들과 자동으로 교전하며 주인이 상처입지 않게 보호합니다. \n\n게임 플레이 효과 : 골렘은 자신을 가공한 시전자에게 일정한 신경열을 발생시킵니다. 너무 많은 골렘이 살아있다면 시전자가 다른 초능력을 시전하는 것을 방해할 수 있습니다.</VPE_SteelConstruct.description>
   <VPE_SteelConstruct.tools.0.label>머리</VPE_SteelConstruct.tools.0.label>
@@ -73,4 +73,38 @@
   <VPE_SummonedSkeleton.tools.1.label>오른쪽 주먹</VPE_SummonedSkeleton.tools.1.label>
   <VPE_FireBreath.label>화염 숨결</VPE_FireBreath.label>
   <VPE_IceBreathe.label>얼음 숨결</VPE_IceBreathe.label>
+  <VPE_HeatPearls.verbs.Verb_LaunchProjectileStatic.label>열 진주 던지기</VPE_HeatPearls.verbs.Verb_LaunchProjectileStatic.label>
+  <VPE_Mote_FireBeam.label>Mote</VPE_Mote_FireBeam.label>
+  <VPE_Mote_CastPsycast.label>Mote</VPE_Mote_CastPsycast.label>
+  <VPE_Mote_CastPsycast_Red.label>Mote</VPE_Mote_CastPsycast_Red.label>
+  <VPE_Mote_CastPsycast_Yellow.label>Mote</VPE_Mote_CastPsycast_Yellow.label>
+  <VPE_Mote_Butterfly.label>Mote</VPE_Mote_Butterfly.label>
+  <VPE_Mote_GreenMist.label>Mote</VPE_Mote_GreenMist.label>
+  <VPE_Mote_GhostA.label>Mote</VPE_Mote_GhostA.label>
+  <VPE_Mote_GhostB.label>Mote</VPE_Mote_GhostB.label>
+  <VPE_Mote_GhostC.label>Mote</VPE_Mote_GhostC.label>
+  <VPE_Mote_GhostD.label>Mote</VPE_Mote_GhostD.label>
+  <VPE_Mote_GhostE.label>Mote</VPE_Mote_GhostE.label>
+  <VPE_Mote_GhostF.label>Mote</VPE_Mote_GhostF.label>
+  <VPE_Mote_GhostG.label>Mote</VPE_Mote_GhostG.label>
+  <VPE_YellowSparkFlash.label>Mote</VPE_YellowSparkFlash.label>
+  <VPE_RedSparkFlash.label>Mote</VPE_RedSparkFlash.label>
+  <VPE_WhiteSparkFlash.label>Mote</VPE_WhiteSparkFlash.label>
+  <VPE_WarlordTargettingReticle.label>Mote</VPE_WarlordTargettingReticle.label>
+  <VPE_PsycastAreaEffectMaintained.label>Mote</VPE_PsycastAreaEffectMaintained.label>
+  <VPE_PsycastPsychicEffectTransfer.label>Mote</VPE_PsycastPsychicEffectTransfer.label>
+  <VPE_Mote_Cast.label>Mote</VPE_Mote_Cast.label>
+  <VPE_Hallucination.label>Mote</VPE_Hallucination.label>
+  <VPE_Liferot.label>Mote</VPE_Liferot.label>
+  <VPE_Mote_ParalysisPulse.label>Mote</VPE_Mote_ParalysisPulse.label>
+  <VPE_SoulOrb.label>Mote</VPE_SoulOrb.label>
+  <VPE_SoulOrbTransfer.label>Mote</VPE_SoulOrbTransfer.label>
+  <VPE_MatterPhasing.label>Mote</VPE_MatterPhasing.label>
+  <VPE_JumpingPawn.label>비행</VPE_JumpingPawn.label>
+  <VPE_SteelConstruct.comps.5.gizmoLabel>VPE_BreakLink</VPE_SteelConstruct.comps.5.gizmoLabel>
+  <VPE_SteelConstruct.comps.5.gizmoDesc>VPE_BreakLinkDesc</VPE_SteelConstruct.comps.5.gizmoDesc>
+  <VPE_RockConstruct.comps.4.gizmoLabel>VPE_BreakLink</VPE_RockConstruct.comps.4.gizmoLabel>
+  <VPE_RockConstruct.comps.4.gizmoDesc>VPE_BreakLinkDesc</VPE_RockConstruct.comps.4.gizmoDesc>
+  <VPE_HeatPearls.comps.2.chargeNoun>사용</VPE_HeatPearls.comps.2.chargeNoun>
+  <VPE_HeatPearls_Proj.label>투사체</VPE_HeatPearls_Proj.label>
 </LanguageData>
