@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Ancients</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AC_Turret_AncientGraserTurret"]/description</xpath>
+          <value>
+            <description>고대의 휴대용 그레이저 포탑입니다. 손상되면 폭발할 수 있습니다. 단순한 AI 두뇌는 직접 제어할 수 없으므로 아군 피해에 주의하세요.\n\n이 구조물은 오래전 잊혀진 문명에 의해 건설되었으며 더 이상 기술을 복제할 수 없습니다. 고장이 나지 않으며 흑점 폭발 동안 더 효율적으로 작동합니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
