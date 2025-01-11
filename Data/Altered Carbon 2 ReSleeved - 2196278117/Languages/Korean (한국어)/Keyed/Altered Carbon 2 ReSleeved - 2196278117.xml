@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AC.InstallStack>스택 이식</AC.InstallStack>
+  <AC.InstallStackDesc>수술을 통해 신경 스택을 이식할 인간 또는 슬리브를 선택하십시오. 선택한 인간 또는 슬리브의 건강 탭에서 자동으로 수술 작업이 생성됩니다.</AC.InstallStackDesc>
+  <AC.InstallEmptyStackDesc>수술을 통해 빈 신경 스택을 이식할 인간 또는 슬리브를 선택하십시오. 선택한 인간 또는 슬리브의 건강 탭에서 자동으로 수술 작업이 생성됩니다.</AC.InstallEmptyStackDesc>
+  <AC.InstallArchotechStack>스택 이식</AC.InstallArchotechStack>
+  <AC.InstallArchotechStackDesc>수술을 통해 초월공학 스택을 이식할 폰이나 빈 슬리브를 선택하세요. 수술 처방이 선택된 폰이나 슬리브의 건강 탭에 자동으로 생성될 것입니다.</AC.InstallArchotechStackDesc>
+  <AC.InstallEmptyArchotechStackDesc>수술을 통해 빈 초월공학 스택을 이식할 폰을 선택하세요. 수술 처방이 선택된 폰이나 슬리브의 건강 탭에 자동으로 생성될 것입니다.</AC.InstallEmptyArchotechStackDesc>
+  <AC.AutoLoad>자동 운반</AC.AutoLoad>
+  <AC.AutoLoadDesc>활성화 시 운반자는 이 스택을 스택 캐시나 신경 매트릭스에 자동으로 운반합니다.</AC.AutoLoadDesc>
+  <AC.Faction>진영</AC.Faction>
+  <AC.Childhood>유년기</AC.Childhood>
+  <AC.Adulthood>성년기</AC.Adulthood>
+  <AC.AgeChronologicalTicks>실제 나이</AC.AgeChronologicalTicks>
+  <AC.DestroyStackConfirmation>스택 파괴:\n경고! 당신은 이 스택을 파괴하려고 합니다. 작업을 정말 계속 진행하시겠습니까?</AC.DestroyStackConfirmation>
+  <AC.ScenPart_PawnsHaveNeuralStack>{0}(은)는 {1}의 확률로 {2}를 가지고 시작합니다.</AC.ScenPart_PawnsHaveNeuralStack>
+  <AC.SleeveWithStack>스택이 설치되어 있는 슬리브입니다.</AC.SleeveWithStack>
+  <AC.PawnAlreadyHasStack>{PAWN_nameDef}에게는 이미 신경 스택이 설치되어 있습니다!</AC.PawnAlreadyHasStack>
+  <AC.PawnAlreadyHasArchotechStack>{PAWN_nameDef}에게는 이미 초월공학 스택이 설치되어 있습니다!</AC.PawnAlreadyHasArchotechStack>
+  <AC.PawnStackCannotDowngrade>{PAWN_nameDef}에게는 이미 초월공학 스택이 설치되어 있습니다!</AC.PawnStackCannotDowngrade>
+  <AC.CannotInstallStackNeckIsMissingOrAnotherImplantInstalled>신경 스택을 설치 할 수 없습니다. 목이 없거나 목에 다른 장치가 설치되어 있습니다.</AC.CannotInstallStackNeckIsMissingOrAnotherImplantInstalled>
+  <AC.AlreadyMarkedForInstalling>스택이 이미 이식 대상으로 표시되어 있습니다.</AC.AlreadyMarkedForInstalling>
+  <AC.PawnDiedOfImplantingStack>{PAWN_nameDef}(은)는 신경 스택에 의해 덮어쓰여졌습니다.</AC.PawnDiedOfImplantingStack>
+  <AC.PawnHasNeutralStack>{0}에게 신경 스택이 이식되어 있습니다.</AC.PawnHasNeutralStack>
+  <AC.PawnDiedOfErasingStack>{PAWN_nameDef}(이)가 사망했습니다.</AC.PawnDiedOfErasingStack>
+  <AC.StartNeedlecasting>니들캐스팅 시작</AC.StartNeedlecasting>
+  <AC.StartNeedlecastingDesc>니들캐스트할 신경 수신기가 있는 대상을 선택하세요.</AC.StartNeedlecastingDesc>
+  <AC.EndNeedlecasting>니들캐스팅 종료</AC.EndNeedlecasting>
+  <AC.EndNeedlecastingDesc>현재 니들캐스팅 연결을 종료합니다.</AC.EndNeedlecastingDesc>
+  <AC.MaximumNeedlecastingRange>최대 니들캐스팅 범위: {0} 타일</AC.MaximumNeedlecastingRange>
+  <AC.CurrentDistanceToCastingOrigin>캐스팅 원점까지의 현재 거리: {0} 타일</AC.CurrentDistanceToCastingOrigin>
+  <AC.CaravanNeedlecastingIconTooltip>{0}(이)가 현재 이 슬리브로 니들캐스팅 중입니다. 만약 그들이 캐스팅 범위를 벗어나면 자동으로 종료되고 그들을 잃을 수 있습니다.\n\n최대 니들캐스팅 범위: {1} 타일</AC.CaravanNeedlecastingIconTooltip>
+  <AC.NeedlecastingDisconnectWarning>{0}의 니들캐스팅 연결을 정말로 종료하시겠습니까?\n\n{0}(은)는 현재 당신의 정착지 지역 지도에 없습니다. 만약 그들과 같은 지역 지도에 있는 다른 정착민이 없다면 {0}(이)가 연결된 슬리브가 사라질 수 있습니다.</AC.NeedlecastingDisconnectWarning>
+  <AC.PawnStartedNeedlecastingIntoOtherPawn>{0}(이)가 {1}의 슬리브로 니들캐스팅을 시작했습니다.</AC.PawnStartedNeedlecastingIntoOtherPawn>
+  <AC.PawnStartedNeedlecastingIntoEmptySleeve>{0}(이)가 빈 슬리브로 니들캐스팅을 시작했습니다.</AC.PawnStartedNeedlecastingIntoEmptySleeve>
+  <AC.PawnNoLongerNeedlecasting>{0}(은)는 더 이상 니들캐스팅을 하지 않습니다.</AC.PawnNoLongerNeedlecasting>
+  <AC.PawnStoppedNeedlecastingCause>{0}(이)가 니들캐스팅을 중단했습니다. 원인: {1}</AC.PawnStoppedNeedlecastingCause>
+  <AC.SleeveHasDied>제어 중인 슬리브가 사망했습니다.</AC.SleeveHasDied>
+  <AC.MatrixHasNoPower>신경 매트릭스에 전원이 없습니다.</AC.MatrixHasNoPower>
+  <AC.SleeveNoLongerReachable>제어 중인 슬리브에 더 이상 도달할 수 없습니다.</AC.SleeveNoLongerReachable>
+  <AC.WasRemovedFromCryptoCasket>{0}(이)가 암호 캐스킷에서 제거되었습니다.</AC.WasRemovedFromCryptoCasket>
+  <AC.ConnectionDistrupted>제어 중인 슬리브와의 연결이 중단되었습니다.</AC.ConnectionDistrupted>
+  <AC.ControlledSleeveLost>제어 중인 슬리브를 잃었습니다.</AC.ControlledSleeveLost>
+  <AC.NoLongerPartOfPlayerFaction>더 이상 {0} 진영의 일원이 아닙니다.</AC.NoLongerPartOfPlayerFaction>
+  <AC.CasterHasDied>캐스터가 사망했습니다.</AC.CasterHasDied>
+  <AC.CasterStackDestroyed>캐스터 스택이 파괴되었습니다.</AC.CasterStackDestroyed>
+  <AC.DesignatorExtractStack>스택 추출</AC.DesignatorExtractStack>
+  <AC.ExtractStack>스택 추출</AC.ExtractStack>
+  <AC.DesignatorExtractStackDesc>시체에서 신경 스택을 추출합니다.</AC.DesignatorExtractStackDesc>
+  <AC.MessageMustDesignateHasStack>신경 스택이 설치되어 있는 시체가 필요합니다.</AC.MessageMustDesignateHasStack>
+  <AC.EmptySleeve>빈 슬리브</AC.EmptySleeve>
+  <AC.SleeveDeath>슬리브 사망</AC.SleeveDeath>
+  <AC.PawnDiedBecauseOf>{PAWN_labelShort}의 슬리브가 사망하였습니다. 원인 : {1}.</AC.PawnDiedBecauseOf>
+  <AC.PawnDied>{1_labelShort}의 슬리브가 사망하였습니다.</AC.PawnDied>
+  <AC.SleveOf>슬리브 상태인 </AC.SleveOf>
+  <AC.TakeToSleeveCasketOrMedicalBed>빈 슬리브를 슬리브 캐스킷 또는 의료용 침대로 운반합니다.</AC.TakeToSleeveCasketOrMedicalBed>
+  <AC.CannotTakeToSleeveCasketOrMedicalBed>도달할 수 없음: 슬리브 캐스킷 또는 의료용 침대에 도달할 수 없거나 비어있는 자리가 없습니다.</AC.CannotTakeToSleeveCasketOrMedicalBed>
+  <AC.CreateSleeveBody>슬리브 배양</AC.CreateSleeveBody>
+  <AC.SleeveCustomization>슬리브 설정</AC.SleeveCustomization>
+  <AC.NoSleeve>슬리브 없음</AC.NoSleeve>
+  <AC.Sleeve>슬리브</AC.Sleeve>
+  <AC.CreateSleeveBodyDesc>사용가능한 변형이식체로 새로운 일반인 또는 인종형의 슬리브를 배양합니다.</AC.CreateSleeveBodyDesc>
+  <AC.GeneOptions>유전자 설정</AC.GeneOptions>
+  <AC.BodyOptions>신체 설정</AC.BodyOptions>
+  <AC.XenogermExplanation>선택된 변형이식체는 성장 과정에서 소비됩니다. 변형이식체를 선택하지 않으면 슬리브는 "일반인"으로 성장합니다.</AC.XenogermExplanation>
+  <AC.GeneOptionsExplanation>사용 가능한 유전자는 선택한 변형이식체의 유전자에 따라 달라집니다. 선택된 유전자는 활성 유전자로 사용되며 충돌되는 유전자는 휴면 상태로 전환됩니다.</AC.GeneOptionsExplanation>
+  <AC.BodyOptionsExplanation>일반인의 피부 및 머리카락 색 유전자는 항상 존재합니다. 선택된 유전자는 활성 유전자로 사용되며 충돌되는 유전자는 휴면 상태로 전환됩니다.</AC.BodyOptionsExplanation>
+  <AC.ConvertGenesToGermline>변형이식체의 비 초월 유전자를 생식 유전자로 변경: </AC.ConvertGenesToGermline>
+  <AC.PowerSleeveWillBeLostIn>전력 부족으로 인해 {0} 안의 슬리브가 손상되었습니다.</AC.PowerSleeveWillBeLostIn>
+  <AC.FuelSleeveWillBeLostIn>뉴트로아민 부족으로 인해 {0} 안의 슬리브가 손상되었습니다.</AC.FuelSleeveWillBeLostIn>
+  <AC.FuelSleeveWillBeDeteriorated>뉴트로아민 부족으로 인해 {0} 안의 슬리브가 열화되기 시작하였습니다.</AC.FuelSleeveWillBeDeteriorated>
+  <AC.FuelSleeveIsDeteriorating>뉴트로아민 부족으로 인해 슬리브가 열화되었습니다.</AC.FuelSleeveIsDeteriorating>
+  <AC.Race>종족</AC.Race>
+  <AC.Xenotype>인종형</AC.Xenotype>
+  <AC.SleeveQuality>슬리브 품질</AC.SleeveQuality>
+  <AC.SleeveBeauty>슬리브 매력 수치</AC.SleeveBeauty>
+  <AC.SleeveCustomizationExplanation>수락 버튼을 누를 시 이 슬리브 배양기에서 슬리브가 성장하기 시작합니다. 성장하는 동안 계속 전원 및 뉴트로아민을 공급해줘야 하며 성장이 끝나면 슬리브를 꺼내서 바로 사용하거나 슬리브 보관함에 보관할 수 있습니다.</AC.SleeveCustomizationExplanation>
+  <AC.SaveTemplate>설정 저장</AC.SaveTemplate>
+  <AC.LoadTemplate>설정 불러오기</AC.LoadTemplate>
+  <AC.CancelSleeveBodyGrowing>슬리브 배양 취소</AC.CancelSleeveBodyGrowing>
+  <AC.CancelSleeveBodyGrowingDesc>슬리브의 배양을 취소합니다.</AC.CancelSleeveBodyGrowingDesc>
+  <AC.BodyShape>체형</AC.BodyShape>
+  <AC.Cancel>취소</AC.Cancel>
+  <AC.GrowthProgress>진행도: </AC.GrowthProgress>
+  <AC.HairColour>머리카락 색</AC.HairColour>
+  <AC.HairType>머리카락 모양</AC.HairType>
+  <AC.HeadShape>머리 형태</AC.HeadShape>
+  <AC.BeardType>수염 모양</AC.BeardType>
+  <AC.SkinColour>피부 색</AC.SkinColour>
+  <AC.TimeToGrow>총 성장 기간: {0}</AC.TimeToGrow>
+  <AC.GrowCost>총 뉴트로아민 필요량: {0}</AC.GrowCost>
+  <AC.SelectRace>선택된 종족</AC.SelectRace>
+  <AC.CloneSleeve>슬리브 복제</AC.CloneSleeve>
+  <AC.CloneSleeveDesc>기존 캐릭터를 기반(생식유전자 포함)으로 슬리브를 생산합니다.</AC.CloneSleeveDesc>
+  <AC.IsRunningOutFuel>슬리브 배양기의 뉴트로아민이 부족합니다</AC.IsRunningOutFuel>
+  <AC.IsRunningOutPower>슬리브 배양기의 전력이 부족합니다</AC.IsRunningOutPower>
+  <AC.SleeveIngestatorIsDead>배양기에 있는 슬리브 신체가 죽었습니다</AC.SleeveIngestatorIsDead>
+  <AC.RepurposeCorpse>시체 재활용</AC.RepurposeCorpse>
+  <AC.RepurposeCorpseDesc>아직 썩지 않은 시체를 재활용하여 슬리브로 사용합니다.</AC.RepurposeCorpseDesc>
+  <AC.SleeveGrowerIsOccupied>슬리브 변환 완료.</AC.SleeveGrowerIsOccupied>
+  <AC.CancelRepurposingCorpse>시체 재활용 취소</AC.CancelRepurposingCorpse>
+  <AC.CancelRepurposingCorpseDesc>시체를 슬리브로 재활용하는 작업을 취소합니다.</AC.CancelRepurposingCorpseDesc>
+  <AC.NeuralStackMustBeRemovedFirst>먼저 신경 스택을 제거해야 합니다.</AC.NeuralStackMustBeRemovedFirst>
+  <AC.CannotRepurposeCorspeWithoutHead>머리가 없는 시체는 재활용할 수 없습니다.</AC.CannotRepurposeCorspeWithoutHead>
+  <AC.SleeveDesignCouldntBeFullyLoaded>저장되어 있던 슬리브 디자인을 완전히 불러오는데 실패하였습니다. 필요한 변형이식체가 없습니다!</AC.SleeveDesignCouldntBeFullyLoaded>
+  <AC.PawnBodyCouldntBeFullyCopied>A {PAWN_nameDef}의 유전자를 완전히 복사할 수 없습니다. 생략된 유전자 : {1}</AC.PawnBodyCouldntBeFullyCopied>
+  <AC.StartGrowing>배양 시작</AC.StartGrowing>
+  <AC.FinishedGrowingSleeve>슬리브 배양기: 슬리브 성장 완료!</AC.FinishedGrowingSleeve>
+  <AC.SleeveAge>나이:</AC.SleeveAge>
+  <AC.YearsOld>{0}세</AC.YearsOld>
+  <AC.PsychicSensitivity>정신 감응력</AC.PsychicSensitivity>
+  <AC.CorpseRepurposingIsInProcess>시체 재활용이 진행 중입니다.</AC.CorpseRepurposingIsInProcess>
+  <AC.SleeveGrowingIsInProcess>슬리브 성장이 진행 중입니다.</AC.SleeveGrowingIsInProcess>
+  <AC.NeuralMatrixManagement>신경 매트릭스 관리</AC.NeuralMatrixManagement>
+  <AC.ManageNeuralMatrix>신경 매트릭스 관리</AC.ManageNeuralMatrix>
+  <AC.ManageNeuralMatrixDesc>신경 매트릭스에 저장되거나 등록된 스택을 관리합니다.</AC.ManageNeuralMatrixDesc>
+  <AC.StorageFilters>저장소 필터</AC.StorageFilters>
+  <AC.AllowColonistNeuralStacks>*정착민 스택 허용</AC.AllowColonistNeuralStacks>
+  <AC.AllowStrangerNeuralStacks>*외부인 스택 허용</AC.AllowStrangerNeuralStacks>
+  <AC.AllowHostileNeuralStacks>*적대 세력 스택 허용</AC.AllowHostileNeuralStacks>
+  <AC.TooltipTrackStack>{0}(을)를 신경 매트릭스에 등록합니다.</AC.TooltipTrackStack>
+  <AC.TooltipImplantStack>{0}(을)를 빈 슬리브에 이식합니다. 스택은 신경 매트릭스에 등록된 상태를 유지하고 계속 추적됩니다.</AC.TooltipImplantStack>
+  <AC.TooltipRemoveStack>스택을 바닥에 떨어뜨립니다. 스택은 신경 매트릭스에 등록된 상태를 유지하고 계속 추적됩니다.</AC.TooltipRemoveStack>
+  <AC.TooltipStopManaging>{0}의 등록을 해제합니다. 신경 매트릭스 저장소 안에는 여전히 저장되지만 더 이상 추적되지 않습니다.</AC.TooltipStopManaging>
+  <AC.TooltipNeedlecast>{0}(을)를 신경 수신기가 설치된 모든 슬리브로 니들캐스트합니다. 스택은 신경 매트릭스에서 제거되지 않습니다.</AC.TooltipNeedlecast>
+  <AC.EjectAllNeuralStacksDesc>포함된 모든 스택을 바닥에 떨어뜨립니다.</AC.EjectAllNeuralStacksDesc>
+  <AC.EjectNeuralStackTooltip>이 스택을 매트릭스에서 방출합니다.</AC.EjectNeuralStackTooltip>
+  <AC.EjectNeuralStackConfirmation>정말로 {0}(을)를 방출하시겠습니까? 즉시 근처 바닥으로 방출될 것입니다.</AC.EjectNeuralStackConfirmation>
+  <AC.EraseNeuralStackTooltip>이 신경 스택을 되돌릴 수 없게 삭제합니다.</AC.EraseNeuralStackTooltip>
+  <AC.EraseNeuralStackConfirmation>정말로 {0}(을)를 삭제하시겠습니까? 즉시 파괴될 것입니다.</AC.EraseNeuralStackConfirmation>
+  <AC.NeuralStackStorage>내용</AC.NeuralStackStorage>
+  <AC.NeuralStacksStored>저장된 스택: {0}/{1}</AC.NeuralStacksStored>
+  <AC.StacksStored>저장된 스택: {0} / {1}</AC.StacksStored>
+  <AC.StacksTracked>추적된 스택: {0}</AC.StacksTracked>
+  <AC.EjectStackTooltip>저장소에서 이 스택을 꺼냅니다.</AC.EjectStackTooltip>
+  <AC.EjectStackConfirmation>정말로 {0}의 스택을 꺼내시겠습니까? 근처 지면으로 즉시 방출됩니다.</AC.EjectStackConfirmation>
+  <AC.StackStorage>내용물</AC.StackStorage>
+  <AC.NeuralStacksInCache>저장된 스택: ({0}/{1})</AC.NeuralStacksInCache>
+  <AC.AllowColonistStacks>*정착민의 신경 스택 보관 허용</AC.AllowColonistStacks>
+  <AC.AllowStrangerStacks>*외부인의 스택 보관 허용</AC.AllowStrangerStacks>
+  <AC.AllowHostileStacks>*적대 세력의 스택 보관 허용</AC.AllowHostileStacks>
+  <AC.Status>상태</AC.Status>
+  <AC.Tracked>추적됨</AC.Tracked>
+  <AC.Untracked>추적 안됨</AC.Untracked>
+  <AC.Sleeved>슬리브 사용</AC.Sleeved>
+  <AC.Dead>사망</AC.Dead>
+  <AC.Needlecasting>니들캐스팅</AC.Needlecasting>
+  <AC.Stored>저장됨</AC.Stored>
+  <AC.Dormant>휴면</AC.Dormant>
+  <AC.Lost>분실</AC.Lost>
+  <AC.OutOfRange>범위 이탈</AC.OutOfRange>
+  <AC.LowConscioussness>낮은 의식</AC.LowConscioussness>
+  <AC.StackInformation>스택 정보</AC.StackInformation>
+  <AC.CurrentlyStatus>현재 상태</AC.CurrentlyStatus>
+  <AC.OriginalGender>원래 성별</AC.OriginalGender>
+  <AC.NeedlecastingRange>니들캐스팅 범위</AC.NeedlecastingRange>
+  <AC.StackDegradation>스택 성능 저하: {0}</AC.StackDegradation>
+  <AC.EjectAll>모두 꺼내기</AC.EjectAll>
+  <AC.Colonists>정착민</AC.Colonists>
+  <AC.Friendly>우호적</AC.Friendly>
+  <AC.Hostile>적대적</AC.Hostile>
+  <AC.Male>남성</AC.Male>
+  <AC.Archostack>초월스택</AC.Archostack>
+  <AC.Duplicates>복제본</AC.Duplicates>
+  <AC.LocalOnly>로컬만</AC.LocalOnly>
+  <AC.StackConfiguration>스택 구성</AC.StackConfiguration>
+  <AC.AutobankStack>자동 저장 스택</AC.AutobankStack>
+  <AC.TooltipStopNeedlecasting>{0}의 {1}로의 니들캐스팅을 중지합니다.</AC.TooltipStopNeedlecasting>
+  <AC.TooltipCancelImplanting>{0}의 {1}로의 이식을 취소합니다.</AC.TooltipCancelImplanting>
+  <AC.IsCopy>복사본입니까</AC.IsCopy>
+  <AC.True>예</AC.True>
+  <AC.False>아니오</AC.False>
+  <AC.RelationshipsUnavailable>{0}의 관계를 사용할 수 없습니다. \n\n관계를 보려면 스택이 슬리브에 있거나 니들캐스팅 중이어야 합니다.</AC.RelationshipsUnavailable>
+  <AC.NeedsUnavailable>{0}의 필요를 사용할 수 없습니다. \n\n필요를 보려면 스택이 슬리브에 있거나 니들캐스팅 중이어야 합니다.</AC.NeedsUnavailable>
+  <AC.NoStacksRegistered>현재 등록된 스택 없음</AC.NoStacksRegistered>
+  <AC.NoUntrackedStacksStored>저장된 추적되지 않는 스택 없음</AC.NoUntrackedStacksStored>
+  <AC.Tile>타일</AC.Tile>
+  <AC.StackRelayTuningDesc>이 캐스팅 중계기를 신경 매트릭스에 조율합니다. 조율은 완료까지 {0}이 걸립니다.</AC.StackRelayTuningDesc>
+  <AC.StackRelayRetuningDesc>이 캐스팅 중계기를 다른 신경 매트릭스로 재조율합니다. 재조율은 완료까지 {0}이 걸립니다.</AC.StackRelayRetuningDesc>
+  <AC.ConnectedRelays>연결된 중계기</AC.ConnectedRelays>
+  <AC.MaxRange>최대 범위:</AC.MaxRange>
+  <AC.WorldTiles>{0} 월드 타일</AC.WorldTiles>
+  <AC.CommandCallsNeuroformers>정신력 증폭기 호출</AC.CommandCallsNeuroformers>
+  <AC.SetBodyParts>신체 부위 설치</AC.SetBodyParts>
+  <AC.Copy>복제</AC.Copy>
+  <AC.Original>원본</AC.Original>
+  <AC.Search>검색</AC.Search>
+  <AC.AddFilter>필터 추가</AC.AddFilter>
+  <AC.IsEmptySleeve>빈 슬리브</AC.IsEmptySleeve>
+  <AC.ChargeCuirassierBelt>퀴라시어 벨트 충전</AC.ChargeCuirassierBelt>
+  <AC.NeedlecastingCaster>니들캐스팅</AC.NeedlecastingCaster>
+  <AC.NeedlecastingTarget>{0}(이)가 니들캐스팅에 사용 중</AC.NeedlecastingTarget>
+  <AC.CuirassierBeltTooltip>착용자가 발사하는 것을 방해하지 않으면서 들어오는 발사체나 파편을 막으려 시도하는 퀴라시어 벨트입니다. 일반 쉴드 벨트처럼 EMP에 취약합니다.\n\n퀴라시어는 자체적으로 재충전되지 않고 배터리, 재충전기 또는 노출된 전선과 같은 전력망에서 수동으로 충전해야 합니다.</AC.CuirassierBeltTooltip>
+  <AC.NoConnectedMatrix>사용할 수 없음: 근처에 신경 매트릭스가 없습니다.</AC.NoConnectedMatrix>
+  <AC.ConnectedMatrixHasNoPower>사용할 수 없음: 연결된 신경 매트릭스에 전원이 공급되지 않습니다.</AC.ConnectedMatrixHasNoPower>
+  <AC.WipingFriendlyStackWarning>경고: 공장 초기화하려는 스택이 당신의 진영에 속하지 않습니다.\n\n다른 진영의 비정착민 스택의 내용을 삭제하면, 그들의 전체 진영이 당신의 적이 될 수 있습니다.</AC.WipingFriendlyStackWarning>
+  <AC.DuplicatingFriendlyStackWarning>경고: 복제하려는 스택이 당신의 진영에 속하지 않습니다.\n\n다른 진영의 비정착민 스택의 내용을 복사하면, 그들의 전체 진영이 당신의 적이 될 수 있습니다.</AC.DuplicatingFriendlyStackWarning>
+  <AC.EditingFriendlyStackWarning>편집하려는 스택이 당신의 진영에 속하지 않습니다.\n\n다른 진영의 비정착민 스택의 내용을 편집하면, 그들의 전체 진영이 당신의 적이 될 수 있습니다.</AC.EditingFriendlyStackWarning>
+  <AC.AlreadyOrderedToWipeStack>이 스택은 이미 신경 편집기에서 초기화 명령이 내려져 있습니다. 새로운 작업을 추가하려면 계획서를 제거하세요.</AC.AlreadyOrderedToWipeStack>
+  <AC.AlreadyOrderedToEditStack>이 스택은 이미 신경 편집기에서 편집이 설정되어 있습니다. 새로운 작업을 추가하려면 계획서를 제거하세요.</AC.AlreadyOrderedToEditStack>
+  <AC.AlreadyOrderedToDuplicateStack>이 스택은 이미 신경 편집기에서 복제가 설정되어 있습니다. 새로운 작업을 추가하려면 계획서를 제거하세요.</AC.AlreadyOrderedToDuplicateStack>
+  <AC.AlreadyOrderedToRestoreStack>이 스택은 이미 신경 편집기에서 복원이 설정되어 있습니다. 새로운 작업을 추가하려면 계획서를 제거하세요.</AC.AlreadyOrderedToRestoreStack>
+  <AC.AlreadyOrderedToResetBiocodedThing>이 생체 인증된 물건은 이미 신경 편집기에서 초기화가 설정되어 있습니다. 새로운 작업을 추가하려면 계획서를 제거하세요.</AC.AlreadyOrderedToResetBiocodedThing>
+  <AC.AlreadyOrderedToUnboundPersonaThing>이 결속 무기는 이미 신경 편집기에서 해제가 설정되어 있습니다. 새로운 작업을 추가하려면 계획서를 제거하세요.</AC.AlreadyOrderedToUnboundPersonaThing>
+  <AC.ResettingBiocodedFailed>생체 인증된 장비 초기화: 실패, {0} 파괴됨!</AC.ResettingBiocodedFailed>
+  <AC.ResettingBiocodedSuccess>생체 인증된 장비 초기화: 성공! {0}(이)가 잠금 해제되었습니다.</AC.ResettingBiocodedSuccess>
+  <AC.UnbondingPersonaFailed>결속 무기 해제: 실패, {0} 파괴됨!</AC.UnbondingPersonaFailed>
+  <AC.UnbondingPersonaSuccess>결속 무기 해제: 성공! {0}(이)가 해제되었습니다.</AC.UnbondingPersonaSuccess>
+  <AC.EditNeuralStack>신경 스택 편집</AC.EditNeuralStack>
+  <AC.NeuralStackEditExplanation>신경 스택은 저장된 의식을 외부 세력이 조작하는 것을 방지하기 위한 고급 암호화를 특징으로 합니다. 알려진 취약점은 스택 열화를 대가로 일부 데이터를 편집하고 재작성할 수 있게 합니다.</AC.NeuralStackEditExplanation>
+  <AC.Backstories>성장 배경</AC.Backstories>
+  <AC.NoDisabledWorkTypes>비활성화된 작업 없음</AC.NoDisabledWorkTypes>
+  <AC.NoSkillPenalties>기술 페널티 없음</AC.NoSkillPenalties>
+  <AC.FactionAllegiance>소속된 세력</AC.FactionAllegiance>
+  <AC.RemoveUnwaveringLoyalTrait>확고한 충성심 제거:</AC.RemoveUnwaveringLoyalTrait>
+  <AC.Ideology>이념</AC.Ideology>
+  <AC.Belief>신념</AC.Belief>
+  <AC.Certainty>믿음</AC.Certainty>
+  <AC.ChangingPawnIdeologyWarning>해당 캐릭터의 이데올로기를 변경하면 관련된 모든 역할도 마찬가지로 제거됩니다.</AC.ChangingPawnIdeologyWarning>
+  <AC.TotalTimeToEdit>총 편집 시간: {0}</AC.TotalTimeToEdit>
+  <AC.TotalStackDegradation>예상 스텍 성능 저하량: {0}</AC.TotalStackDegradation>
+  <AC.Tutorial>경고: 더 많은 정보를 수정할 수록 스택의 성능 저하가 심해지며 저장되어 있는 인격의 정신 상태가 불안정해집니다. 슬리브에 이식된 후 시간이 지남에 따라 스택의 성능 저하가 점점 약해지지만 몇년 이상이 소요될 수 있습니다.</AC.Tutorial>
+  <AC.ResetAll>전부 초기화</AC.ResetAll>
+  <AC.StartEditing>편집 시작</AC.StartEditing>
+  <AC.CancelStackReset>스택 초기화 취소</AC.CancelStackReset>
+  <AC.CancelStackResetDesc>신경 스탯 초기화를 취소합니다.</AC.CancelStackResetDesc>
+  <AC.CancelStackEdit>스택 편집 취소</AC.CancelStackEdit>
+  <AC.CancelStackEditDesc>신경 스택 편집을 취소합니다.</AC.CancelStackEditDesc>
+  <AC.CancelStackDuplication>스택 복제 취소</AC.CancelStackDuplication>
+  <AC.CancelStackDuplicationDesc>스택 복제를 취소합니다.</AC.CancelStackDuplicationDesc>
+  <AC.CancelBiocodingReset>생체 인증 초기화를 취소합니다.</AC.CancelBiocodingReset>
+  <AC.CancelBiocodingResetDesc>생체 인증된 물건의 초기화를 취소합니다.</AC.CancelBiocodingResetDesc>
+  <AC.SuccessfullyDuplicatedStack>{PAWN_nameDef}(이)가 신경 스택 복제에 성공하였습니다.</AC.SuccessfullyDuplicatedStack>
+  <AC.CannotModifyWhileNeedlecasting>니들캐스팅 중에는 {0} 할 수 없습니다.</AC.CannotModifyWhileNeedlecasting>
+  <AC.CancelUnbondingPersona>결속 해제 취소</AC.CancelUnbondingPersona>
+  <AC.CancelUnbondingPersonaDesc>결속 물건의 해제를 취소합니다.</AC.CancelUnbondingPersonaDesc>
+  <AC.EnableStackSpawning>스택 생성 활성화</AC.EnableStackSpawning>
+  <AC.EnableStackSpawningDesc>비활성화 시 신경 스택과 초월 스택을 설치한 개체가 생성되지 않습니다. 제작과 임무 보상은 여전히 가능합니다.</AC.EnableStackSpawningDesc>
+  <AC.EnableTechstackRequirement>연구 프로젝트에서 기술스택 요구사항 활성화</AC.EnableTechstackRequirement>
+  <AC.EnableTechstackRequirementDesc>로열티DLC 소유자에게만 영향을 미칩니다!</AC.EnableTechstackRequirementDesc>
+  <AC.TimeToGrowSleeveMultiplier>성장 시간 비율:</AC.TimeToGrowSleeveMultiplier>
+  <AC.TimeToGrowSleeveMultiplierDesc>슬리브가 성장하는 시간을 조절합니다.</AC.TimeToGrowSleeveMultiplierDesc>
+  <AC.CostToGrowSleeveMultiplier>뉴트로아민 소모 비율:</AC.CostToGrowSleeveMultiplier>
+  <AC.CostToGrowSleeveMultiplierDesc>슬리브를 배양하는데 필요한 뉴트로아민의 양을 조절합니다.</AC.CostToGrowSleeveMultiplierDesc>
+  <AC.EnableStackDegradation>스택 성능 저하 활성화</AC.EnableStackDegradation>
+  <AC.EnableStackDegradationDesc>비활성화 시 스택 성능 저하를 걱정할 필요 없이 마음대로 편집할 수 있게 됩니다.</AC.EnableStackDegradationDesc>
+  <AC.StackEditEditTimeValueMultiplier>스택 편집 시간 획득 배수:</AC.StackEditEditTimeValueMultiplier>
+  <AC.StackEditEditTimeValueMultiplierDesc>전체 스택 편집 시간의 배수입니다.</AC.StackEditEditTimeValueMultiplierDesc>
+  <AC.StackEditDegradationValueMultiplier>스택 열화 획득 배수:</AC.StackEditDegradationValueMultiplier>
+  <AC.StackEditDegradationValueMultiplierDesc>편집을 통해 축적되는 전체 스택 열화의 배수입니다.</AC.StackEditDegradationValueMultiplierDesc>
+  <AC.EnableArchostackEditing>초월 스택 편집 활성화</AC.EnableArchostackEditing>
+  <AC.EnableArchostackEditingDesc>초월 스택의 내용을 편집할 수 있게 합니다.</AC.EnableArchostackEditingDesc>
+  <AC.ColonistStackNeedsExtracting>정착민 스택을 추출해야 합니다.</AC.ColonistStackNeedsExtracting>
+  <AC.ColonistStackNeedsExtractingDesc>이 정착민들이 바닥에서 무력화되어 있습니다:\n\n{0}\n다른 정착민을 보내서 그들을 구조하고 침대로 데려가세요.\n\n(구조하려면 다른 정착민을 선택한 다음, 희생자를 우클릭하고 구조를 선택하세요.)</AC.ColonistStackNeedsExtractingDesc>
+  <AC.SleeveDeathDoesNotCauseGearTainting>슬리브 사망이 장비를 오염시키지 않음</AC.SleeveDeathDoesNotCauseGearTainting>
+  <AC.EnableSoldNeuralStacksCreatingPawnDuplicates>신경 스택 판매가 복제본을 생성할 수 있음</AC.EnableSoldNeuralStacksCreatingPawnDuplicates>
+  <AC.EnableNeuralStacksInAncientDangers>고대 위험에서 신경 스택 생성 활성화</AC.EnableNeuralStacksInAncientDangers>
+  <AC.CannotInstallStackOnAndroidWithoutNeuralModule>신경 모듈이 없는 안드로이드에 스택을 설치할 수 없습니다.</AC.CannotInstallStackOnAndroidWithoutNeuralModule>
+  <AC.CannotInstallEmptyStackInEmptySleeve>빈 스택을 빈 슬리브에 설치할 수 없습니다.</AC.CannotInstallEmptyStackInEmptySleeve>
+  <AC.CannotInstallStackInBodyOfThisRace>이 종족에 스택을 설치할 수 없습니다: {0}</AC.CannotInstallStackInBodyOfThisRace>
+  <AC.CannotInstallStackInNonHumanlikes>인간형이 아닌 대상에 스택을 설치할 수 없습니다.</AC.CannotInstallStackInNonHumanlikes>
+  <AC.CannotInstallActiveStackInChildren>활성 스택을 어린이에게 설치할 수 없습니다.</AC.CannotInstallActiveStackInChildren>
+  <AC.CannotInstallAlreadyHaveStack>스택을 설치할 수 없음: 이미 스택이 설치되어 있습니다.</AC.CannotInstallAlreadyHaveStack>
+  <AC.RequiresArtificalParentPart>인공 부모 파트가 필요합니다</AC.RequiresArtificalParentPart>
+  <AC.CannotInstallNeuralStackWithRemoteStack>이식할 수 없음: 원격 스택이 있습니다.</AC.CannotInstallNeuralStackWithRemoteStack>
+  <AC.CannotInstallRemoteStackWithNeuralStack>이식할 수 없음: 스택이 있습니다.</AC.CannotInstallRemoteStackWithNeuralStack>
+  <AC.PawnHasNoSleeve>{PAWN_nameDef}(은)는 슬리브가 없습니다.</AC.PawnHasNoSleeve>
+  <AC.TriggeredMentalFuseLabel>멘탈 퓨즈 ({PAWN_nameDef})</AC.TriggeredMentalFuseLabel>
+  <AC.TriggeredMentalFuseText>{PAWN_nameDef}의 멘탈 퓨즈가 작동하여 정신적 붕괴를 막았습니다.</AC.TriggeredMentalFuseText>
+  <AC.MentalFuseTraumaLabel>멘탈 퓨즈 외상</AC.MentalFuseTraumaLabel>
+  <AC.MentalFuseTraumaText>{PAWN_nameDef}의 멘탈 퓨즈가 {PAWN_pronoun}의 뇌에 영구적인 손상을 일으켰습니다. 이 손상으로 인해 {PAWN_pronoun}는 특이한 서번트 같은 능력을 발달시켰습니다.</AC.MentalFuseTraumaText>
+  <AC.RequiresNeuralStackInstalled>신경 스택이 설치되어 있어야 합니다.</AC.RequiresNeuralStackInstalled>
+  <AC.CreateNeuralStack>신경 스택 생성</AC.CreateNeuralStack>
+  <AC.CreateSkilltrainer>신경교육 혈청 생성</AC.CreateSkilltrainer>
+  <AC.NotSufficientSkillLevels>충분하지 않은 기술 레벨</AC.NotSufficientSkillLevels>
+  <AC.CreatingNeuralStackCompleted>{PAWN_nameDef}의 신경 스택 생성이 완료되었습니다.</AC.CreatingNeuralStackCompleted>
+  <AC.CreatingSkilltrainerCompleted>{PAWN_nameDef}의 신경교육 혈청 생성이 완료되었습니다. 신경 커넥터에 의해 {PAWN_nameDef}의 뇌가 파괴되었습니다.</AC.CreatingSkilltrainerCompleted>
+  <AC.ConfirmSkilltrainerPawn>신경교육 혈청을 만들기 위해 {PAWN_nameDef}를 스캔하면 {PAWN_objective}가 사망할 것입니다. 계속하시겠습니까?\n\n{PAWN_nameDef}(을)를 스캔하면 다음 기술 중 하나에 대한 신경교육 혈청이 생성됩니다:{1}</AC.ConfirmSkilltrainerPawn>
+  <AC.ConfirmCancelSkilltrainerPawn>신경교육 혈청 제작 과정을 취소해도 {PAWN_nameDef}(은)는 여전히 사망할 것입니다. 계속하시겠습니까?</AC.ConfirmCancelSkilltrainerPawn>
+  <AC.AlreadyRegisteredToMatrix>선택된 신경 매트릭스에 이미 등록됨</AC.AlreadyRegisteredToMatrix>
+  <AC.RegisteringStackCompleted>{PAWN_nameDef}의 스택이 신경 매트릭스에 성공적으로 등록되었습니다.</AC.RegisteringStackCompleted>
+  <AC.RegisterStack>스택 등록</AC.RegisterStack>
+  <AC.MessagePawnKilledNeuralConnector>신경 커넥터에 의해 {PAWN_nameDef}의 뇌가 파괴되었습니다.</AC.MessagePawnKilledNeuralConnector>
+  <AC.CreatingSkillTrainer>{PAWN_nameDef}에서 신경교육 혈청 생성</AC.CreatingSkillTrainer>
+  <AC.RegisteringStack>{PAWN_nameDef}의 스택 등록</AC.RegisteringStack>
+  <AC.BiocodableEquipWarning>사용자에게 각인되면 생체 인증이 다시 초기화될 때까지 다른 사람이 무기를 사용할 수 없습니다. 지금 장비를 착용하시겠습니까?</AC.BiocodableEquipWarning>
+  <AC.BiocodingNotYetImprinted>생체 인증: 각인 준비 완료.</AC.BiocodingNotYetImprinted>
+  <VREA.AndroidShortCircuitSandstorm>{PAWN_nameDef}(이)가 모래폭풍으로 인해 합선되었습니다.</VREA.AndroidShortCircuitSandstorm>
+</LanguageData>
