@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>LWM's Deep Storage</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PFK_DeepShelfSmall"]/label</xpath>
+          <value>
+            <label>깊은 장난감 상자</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PFK_DeepShelfSmall"]/description</xpath>
+          <value>
+            <description>장난감 상자형 보관함입니다. 일반 장난감 상자와 비교했을 때 제작에 더 많은 재료와 노력이 필요하지만 저장 용량은 더 큽니다.\n큰 선반과 기능이 동일합니다.\n방향에 따라 디자인이 바뀝니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PFK_DeepClothingRack"]/label</xpath>
+          <value>
+            <label>의류 보관함</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PFK_DeepClothingRack"]/description</xpath>
+          <value>
+            <description>흩어져 있는 옷을 깔끔하게 정리하세요. 많은 수의 의류 아이템을 보관할 수 있습니다.\n\n딥스토리지의 의류 보관함과 성능이 동일합니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
