@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--Original=frozeAttackー&gt;[material_singular] [shape]-->
+  <!--Original=frozeAttackー&gt;[shape_singular] of [material]-->
+  <!--Original=frozeAttackNoArticleー&gt;[material] [shape]-->
+  <!--Original=frozeAttackNoArticleー&gt;[shape] of [material]-->
+  <!--Original=materialー&gt;originium-->
+  <!--Original=materialー&gt;ice-->
+  <!--Original=material_singularー&gt;an [material]-->
+  <!--Original=shapeー&gt;crystal-->
+  <!--Original=shapeー&gt;shard-->
+  <!--Original=shapeー&gt;spike-->
+  <!--Original=shape_singularー&gt;a [shape]-->
+  <BDFNE_FrozeNounIncludes.rulePack.rulesStrings>
+    <li>frozeAttack->[material] [shape]</li>
+    <li>frozeAttackNoArticle->[material] [shape]</li>
+    <li>material->오리지늄</li>
+    <li>material->얼음</li>
+    <li>shape->결정</li>
+    <li>shape->조각</li>
+	<li>shape->파편</li>
+  </BDFNE_FrozeNounIncludes.rulePack.rulesStrings>
+  <!--Original=r_logentryー&gt;[INITIATOR_definite] [verb_shot] [frozeAttack] [preposition] [SUBJECT_definite].-->
+  <!--Original=verb_shotー&gt;casted-->
+  <!--Original=verb_shotー&gt;summoned-->
+  <!--Original=prepositionー&gt;at-->
+  <!--Original=prepositionー&gt;on-->
+  <!--Original=prepositionー&gt;above-->
+  <BDFNE_Combat_FrozeCast.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite](이)가 [SUBJECT_definite]의 [position]에 [frozeAttack](을)를 [verb_shot].</li>
+    <li>verb_shot->불러냄</li>
+    <li>verb_shot->소환함</li>
+    <li>position->위쪽</li>
+    <li>position->머리 위</li>
+    <li>position->위</li>
+  </BDFNE_Combat_FrozeCast.rulePack.rulesStrings>
+  <!--Original=r_logentryー&gt;[INITIATOR_definite]&apos;s [frozeAttackNoArticle] [damaged_past] [SUBJECT_definite].-->
+  <!--Original=r_logentryー&gt;[SUBJECT_definite] was [damaged_past] by [INITIATOR_definite]&apos;s [frozeAttackNoArticle].-->
+  <!--Original=r_logentry(p=0.2)ー&gt;[INITIATOR_definite] [damaged_past] [SUBJECT_definite] with [frozeAttack].-->
+  <!--Original=damaged_pastー&gt;wounded-->
+  <!--Original=damaged_pastー&gt;injured-->
+  <!--Original=damaged_pastー&gt;pierced-->
+  <!--Original=damaged_pastー&gt;damaged-->
+  <BDFNE_Combat_FrozeDamage.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite](은)는 [connective] [frozeAttackNoArticle](으)로 [SUBJECT_definite](을)를 [damaged_past].</li>
+    <li>r_logentry->[INITIATOR_definite](이)가 [connective] [frozeAttackNoArticle](으)로 [SUBJECT_definite](을)를 [damaged_past].</li>
+    <li>r_logentry->[SUBJECT_definite](을)를 [INITIATOR_definite](이)가 [connective] [frozeAttackNoArticle](으)로 [damaged_past].</li>
+    <li>connective->소환한</li>
+    <li>connective->불러낸</li>
+    <li>damaged_past->부상 입힘</li>
+    <li>damaged_past->상처 입힘</li>
+    <li>damaged_past->관통함</li>
+    <li>damaged_past->상처냄</li>
+	<li>damaged_past->동상 입힘</li>
+  </BDFNE_Combat_FrozeDamage.rulePack.rulesStrings>
+  <!--Original=r_logentryー&gt;[INITIATOR_definite]&apos;s [frozeAttackNoArticle] [destroyed_past] [SUBJECT_definite].-->
+  <!--Original=r_logentryー&gt;[INITIATOR_definite]&apos;s [frozeAttackNoArticle] [destroyed_past] [SUBJECT_definite] [to] [destroyed_suffix].-->
+  <!--Original=r_logentryー&gt;[SUBJECT_definite] was [destroyed_past] by [INITIATOR_definite]&apos;s [frozeAttackNoArticle].-->
+  <!--Original=r_logentryー&gt;[SUBJECT_definite] was [destroyed_past] into [destroyed_suffix] by [INITIATOR_definite]&apos;s [frozeAttackNoArticle].-->
+  <!--Original=destroyed_pastー&gt;shattered-->
+  <!--Original=destroyed_pastー&gt;crushed-->
+  <!--Original=destroyed_pastー&gt;obliterated-->
+  <!--Original=destroyed_pastー&gt;annihilated-->
+  <!--Original=destroyed_pastー&gt;pierced-->
+  <!--Original=destroyed_pastー&gt;perforated-->
+  <!--Original=destroyed_pastー&gt;punctured-->
+  <!--Original=destroyed_pastー&gt;solidified-->
+  <!--Original=destroyed_suffixー&gt;pieces-->
+  <!--Original=destroyed_suffixー&gt;bits-->
+  <!--Original=destroyed_suffixー&gt;a fine mist-->
+  <!--Original=destroyed_suffixー&gt;fragments-->
+  <!--Original=destroyed_suffix(p=0.5)ー&gt;a holey mess-->
+  <!--Original=destroyed_suffix(SUBJECT_flesh!=Mechanoid,p=0.2)ー&gt;ground beef-->
+  <!--Original=toー&gt;to-->
+  <!--Original=toー&gt;into-->
+  <BDFNE_Combat_FrozeKill.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite](이)가 [connective] [frozeAttackNoArticle](으)로 [SUBJECT_definite](을)를 [destroyed_past].</li>
+    <li>r_logentry->[INITIATOR_definite](은)는 [connective] [frozeAttackNoArticle](으)로 [SUBJECT_definite](을)를 [destroyed_past].</li>
+    <li>r_logentry->[SUBJECT_definite](을)를 [INITIATOR_definite](이)가 [connective] [frozeAttackNoArticle](으)로 [destroyed_past].</li>
+    <li>r_logentry->[INITIATOR_definite](이)가 [connective] [frozeAttackNoArticle](으)로 [SUBJECT_definite](을)를 [destroyed_suffix] [destroyed_past].</li>
+    <li>r_logentry->[SUBJECT_definite](을)를 [INITIATOR_definite](이)가 [connective] [frozeAttackNoArticle](으)로 destroyed_suffix] [destroyed_past].</li>
+    <li>connective->소환한</li>
+    <li>connective->불러낸</li>
+    <li>destroyed_past->박살냄</li>
+    <li>destroyed_past->짓이김</li>
+    <li>destroyed_past->뭉개버림</li>
+    <li>destroyed_past->파괴함</li>
+	<li>destroyed_past->제거함</li>
+	<li>destroyed_past->으깸</li>
+	<li>destroyed_past->얼림</li>
+	<li>destroyed_past->꿰뚫음</li>
+	<li>destroyed_past->응고시킴</li>
+    <li>destroyed_suffix->조각조각으로</li>
+	<li>destroyed_suffix->산산조각으로</li>
+	<li>destroyed_suffix->완전히</li>
+	<li>destroyed_suffix->산산히</li>
+    <li>destroyed_suffix->얼음조각으로</li>
+    <li>destroyed_suffix->얼음결정으로</li>
+	<li>destroyed_suffix(p=0.5)->엉망진창으로</li>
+    <li>destroyed_suffix(SUBJECT_flesh!=Mechanoid,p=0.2)->간 고기처럼</li>
+  </BDFNE_Combat_FrozeKill.rulePack.rulesStrings>
+  <!--Original=r_logentryー&gt;[SUBJECT_definite] [evade] [INITIATOR_definite]&apos;s [frozeAttackNoArticle].-->
+  <!--Original=r_logentryー&gt;[INITIATOR_definite]&apos;s [frozeAttackNoArticle] was [evade] by [SUBJECT_definite].-->
+  <!--Original=r_logentryー&gt;[INITIATOR_definite]&apos;s [frozeAttackNoArticle] stuck the ground while [SUBJECT_definite] [evade].-->
+  <!--Original=r_logentryー&gt;[INITIATOR_definite]&apos;s [frozeAttackNoArticle] stuck the ground while [SUBJECT_definite] walked away in time.-->
+  <!--Original=evadeー&gt;[adj] [evade_past]-->
+  <!--Original=evadeー&gt;[evade_past]-->
+  <!--Original=evade_pastー&gt;evaded-->
+  <!--Original=evade_pastー&gt;dodged-->
+  <!--Original=adjー&gt;narrowly-->
+  <!--Original=adjー&gt;barely-->
+  <BDFNE_Combat_FrozeMiss.rulePack.rulesStrings>
+    <li>r_logentry->[SUBJECT_definite](은)는 [INITIATOR_definite](이)가 [connective] [frozeAttackNoArticle](을)를 [evade].</li>
+    <li>r_logentry->[INITIATOR_definite](이)가 [connective] [frozeAttackNoArticle](을)를 [SUBJECT_definite](은)는 [evade].</li>
+	<li>r_logentry->[INITIATOR_definite](이)가 [connective] [frozeAttackNoArticle](이)가 땅에 떨어지는 동안 [SUBJECT_definite](은)는 [evade].</li>
+	<li>r_logentry->[INITIATOR_definite](이)가 [connective] [frozeAttackNoArticle](이)가 땅에 떨어지는 동안 [SUBJECT_definite](은)는 벗어남.</li>
+    <li>evade->[adj][evade_past]</li>
+    <li>evade->[evade_past]</li>
+    <li>evade_past->피함</li>
+    <li>evade_past->비켜섬</li>
+    <li>evade_past->회피함</li>
+    <li>adj->간발의 차이로</li>
+    <li>adj->간신히</li>
+    <li>adj->성공적으로</li>
+    <li>adj->제때</li>
+    <li>connective->소환한</li>
+    <li>connective->시전한</li>
+  </BDFNE_Combat_FrozeMiss.rulePack.rulesStrings>
+  <!--Original=Attackー&gt;[material_singular] [shape]-->
+  <!--Original=Attackー&gt;[shape_singular] of [material]-->
+  <!--Original=Attackー&gt;[material_singular] [shape_pural]-->
+  <!--Original=Attackー&gt;[shape_pural] of [material]-->
+  <!--Original=materialー&gt;originium-->
+  <!--Original=materialー&gt;ice-->
+  <!--Original=materialー&gt;snow-->
+  <!--Original=materialー&gt;frost-->
+  <!--Original=material_singularー&gt;an originium-->
+  <!--Original=material_singularー&gt;an ice-->
+  <!--Original=material_singularー&gt;a snow-->
+  <!--Original=material_singularー&gt;a frost-->
+  <!--Original=shapeー&gt;blast-->
+  <!--Original=shapeー&gt;torrent-->
+  <!--Original=shapeー&gt;explosion-->
+  <!--Original=shape_singularー&gt;a blast-->
+  <!--Original=shape_singularー&gt;a torrent-->
+  <!--Original=shape_singularー&gt;an explosion-->
+  <!--Original=shape_puralー&gt;blasts-->
+  <!--Original=shape_puralー&gt;torrents-->
+  <!--Original=shape_puralー&gt;blasts-->
+  <BDFNE_IceRingNounIncludes.rulePack.rulesStrings>
+    <li>Attack->[material] [shape]</li>
+    <li>Attack->[material]의 [shape]</li>
+    <li>Attack->[verb] [material]</li>
+    <li>material->오리지늄</li>
+    <li>material->얼음</li>
+    <li>material->눈꽃</li>
+    <li>material->서리</li>
+    <li>shape->폭발</li>
+    <li>shape->격류</li>
+    <li>shape->작렬</li>
+    <li>shape->충격</li>
+    <li>shape->소용돌이</li>
+    <li>shape->돌풍</li>
+    <li>verb->폭발하는</li>
+    <li>verb->퍼지는</li>
+    <li>verb->휘몰아치는</li>
+  </BDFNE_IceRingNounIncludes.rulePack.rulesStrings>
+  <!--Original=r_logentryー&gt;[INITIATOR_definite] [verb_shot] [Attack] [preposition] [SUBJECT_definite].-->
+  <!--Original=verb_shotー&gt;casted-->
+  <!--Original=verb_shotー&gt;summoned-->
+  <!--Original=verb_shotー&gt;launched-->
+  <!--Original=verb_shotー&gt;unleashed-->
+  <!--Original=prepositionー&gt;around-->
+  <!--Original=prepositionー&gt;surrounding-->
+  <BDFNE_Combat_IceRingCast.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite](이)가 [preposition] [Attack](을)를 [verb_shot].</li>
+    <li>verb_shot->불러냄</li>
+    <li>verb_shot->소환함</li>
+    <li>verb_shot->내보냄</li>
+    <li>verb_shot->방출함</li>
+    <li>preposition->주위에</li>
+    <li>preposition->주변에</li>
+  </BDFNE_Combat_IceRingCast.rulePack.rulesStrings>
+  <!--Original=r_logentryー&gt;[SUBJECT_definite] was recovering from a fatal damage.-->
+  <!--Original=r_logentryー&gt;[SUBJECT_definite] was being resurrected.-->
+  <BDFNE_Combat_Resurrect.rulePack.rulesStrings>
+    <li>r_logentry->[SUBJECT_definite](은)는 치명적인 피해에서 회복함.</li>
+    <li>r_logentry->[SUBJECT_definite](은)는 부활함.</li>
+  </BDFNE_Combat_Resurrect.rulePack.rulesStrings>
+  <!--Original=r_leaderTitleー&gt;squad leader-->
+  <BDFNE_LeaderTitle.rulePack.rulesStrings>
+    <li>r_leaderTitle->소대 리더</li>
+  </BDFNE_LeaderTitle.rulePack.rulesStrings>
+</LanguageData>
