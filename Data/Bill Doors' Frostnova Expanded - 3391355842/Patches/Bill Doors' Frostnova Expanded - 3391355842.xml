@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Bill Doors' Glitterworld Weapon Pack: 3HST limited corporation</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>##packageId##ceteam.combatextended</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <!--Original=Extend the sights and switch the launcher to indirect fire mode, or fold it back to direct fire mode.-->
+            <xpath>/Defs/CombatExtended.AmmoDef[defName="Gun_3HST_LGIS_frost"]/comps/li[1]/description</xpath>
+            <value>
+              <description>Extend the sights and switch the launcher to indirect fire mode, or fold it back to direct fire mode.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <!--Original=LGIS launch tube-->
+            <xpath>/Defs/ThingDef[defName="Filth_LGIScasingFrost"]/label</xpath>
+            <value>
+              <label>LGIS launch tube</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <!--Original=LGIS missile (Frost)-->
+            <xpath>/Defs/ThingDef[defName="Projectile_70mmLGIS_Frost_TransTile"]/label</xpath>
+            <value>
+              <label>LGIS missile (Frost)</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>##packageId##ceteam.combatextended</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <!--Original=point-->
+          <xpath>/Defs/ThingDef[defName="BDFNE_Staff"]/tools/li[1]/label</xpath>
+          <value>
+            <label>point</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <!--Original=point-->
+          <xpath>/Defs/ThingDef[defName="BDFNE_YetiWand"]/tools/li[1]/label</xpath>
+          <value>
+            <label>point</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <!--Original=stock-->
+          <xpath>/Defs/ThingDef[defName="BDFNE_YetiSniper"]/tools/li[1]/label</xpath>
+          <value>
+            <label>stock</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <!--Original=barrel-->
+          <xpath>/Defs/ThingDef[defName="BDFNE_YetiSniper"]/tools/li[2]/label</xpath>
+          <value>
+            <label>barrel</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <!--Original=muzzle-->
+          <xpath>/Defs/ThingDef[defName="BDFNE_YetiSniper"]/tools/li[3]/label</xpath>
+          <value>
+            <label>muzzle</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <!--Original=handle-->
+          <xpath>/Defs/ThingDef[defName="BDFNE_YetiMachete"]/tools/li[1]/label</xpath>
+          <value>
+            <label>handle</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <!--Original=point-->
+          <xpath>/Defs/ThingDef[defName="BDFNE_YetiMachete"]/tools/li[2]/label</xpath>
+          <value>
+            <label>point</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <!--Original=edge-->
+          <xpath>/Defs/ThingDef[defName="BDFNE_YetiMachete"]/tools/li[3]/label</xpath>
+          <value>
+            <label>edge</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <!--Original=handle-->
+          <xpath>/Defs/ThingDef[defName="BDFNE_YetiKatana"]/tools/li[1]/label</xpath>
+          <value>
+            <label>handle</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <!--Original=point-->
+          <xpath>/Defs/ThingDef[defName="BDFNE_YetiKatana"]/tools/li[2]/label</xpath>
+          <value>
+            <label>point</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <!--Original=edge-->
+          <xpath>/Defs/ThingDef[defName="BDFNE_YetiKatana"]/tools/li[3]/label</xpath>
+          <value>
+            <label>edge</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

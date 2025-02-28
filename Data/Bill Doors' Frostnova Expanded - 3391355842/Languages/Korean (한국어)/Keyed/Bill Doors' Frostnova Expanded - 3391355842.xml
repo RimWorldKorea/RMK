@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--English=Material needed-->
+  <BDFNE_DroneHub_MaterialRequest>필요한 재료:</BDFNE_DroneHub_MaterialRequest>
+  <!--English=Turned off-->
+  <BDFNE_DroneHub_FlickedOff>전원 꺼짐</BDFNE_DroneHub_FlickedOff>
+  <!--English=No power-->
+  <BDFNE_DroneHub_PowerOff>전력 없음</BDFNE_DroneHub_PowerOff>
+  <!--English=Broken down-->
+  <BDFNE_DroneHub_Broken>망가짐</BDFNE_DroneHub_Broken>
+  <!--English=Stunned-->
+  <BDFNE_DroneHub_Stunned>EMP에 기절함</BDFNE_DroneHub_Stunned>
+  <!--English=Research required: {0}-->
+  <BDFNE_DroneHub_NeedResearch>연구 필요: {0}</BDFNE_DroneHub_NeedResearch>
+  <!--English=Drone already launched-->
+  <BDFNE_DroneHub_DroneLaunched>이미 드론 배치됨</BDFNE_DroneHub_DroneLaunched>
+  <!--English=No drone construction material-->
+  <BDFNE_DroneHub_NoMaterial>드론 제작 재료 부족</BDFNE_DroneHub_NoMaterial>
+  <!--English=Drone under repair-->
+  <BDFNE_DroneHub_Repairing>드론 수리 중</BDFNE_DroneHub_Repairing>
+  <!--English=Construction in progress-->
+  <BDFNE_DroneHub_Rebuilding>드론 제작 중</BDFNE_DroneHub_Rebuilding>
+  <!--English=No drone in hub-->
+  <BDFNE_DroneHub_NoDrone>드론 없음</BDFNE_DroneHub_NoDrone>
+  <!--English=No ammo-->
+  <BDFNE_DroneHub_NoAmmo>탄약 없음</BDFNE_DroneHub_NoAmmo>
+  <!--English=Rearming in progress-->
+  <BDFNE_DroneHub_Rearming>드론 재무장 중</BDFNE_DroneHub_Rearming>
+  <!--English=Ammo-->
+  <BDFNE_DroneHub_Ammo>탄약</BDFNE_DroneHub_Ammo>
+  <!--English=Requesting reload.-->
+  <BDFNE_DroneHubInspect_ActiveRequestingAmmo>장전 요청 중</BDFNE_DroneHubInspect_ActiveRequestingAmmo>
+  <!--English=Auto reーlaunch enabled.-->
+  <BDFNE_DroneHubInspect_AutoLaunch>자동 재배치 켜짐</BDFNE_DroneHubInspect_AutoLaunch>
+  <!--English=Construction: {0} sec-->
+  <BDFNE_DroneHubInspect_DroneBuilding>남은 제작 시간: {0}초</BDFNE_DroneHubInspect_DroneBuilding>
+  <!--English=Repairing: {0} sec-->
+  <BDFNE_DroneHubInspect_DroneRepairing>남은 수리 시간: {0}초</BDFNE_DroneHubInspect_DroneRepairing>
+  <!--English=Rearming: {0} sec-->
+  <BDFNE_DroneHubInspect_Rearming>남은 재무장 시간: {0}초</BDFNE_DroneHubInspect_Rearming>
+  <!--English=Current drone type:{0}-->
+  <BDFNE_DroneHub_Cycle>현재 드론 종류: {0}</BDFNE_DroneHub_Cycle>
+  <!--English=Click to cycle the drone type and ammo from this drone hub.-->
+  <BDFNE_DroneHub_CycleDesc>이 격납고의 드론과 탄약의 종류를 바꾸려면 클릭하세요.</BDFNE_DroneHub_CycleDesc>
+  <!--English=Recall {0}-->
+  <BDFNE_DroneHub_RecallDrone>{0} 복귀</BDFNE_DroneHub_RecallDrone>
+  <!--English=Recall drones back to its hub. If the drone is still carrying its payload, rearm is not needed.-->
+  <BDFNE_DroneHub_RecallDesc>드론을 격납고로 다시 불러옵니다. 드론이 아직 유탄을 휴대하고 있다면 재무장할 필요가 없습니다.</BDFNE_DroneHub_RecallDesc>
+  <!--English=Deconnect {0}-->
+  <BDFNE_DroneHub_Deconnect>연결 해제</BDFNE_DroneHub_Deconnect>
+  <!--English=Deconnect drones from this hub and free the hub for another new drone. This will kill the drone.-->
+  <BDFNE_DroneHub_DeconnectDesc>드론과 격납고 간의 연결을 해제해 드론을 죽이고 격납고가 새로운 드론을 제작하게 만듭니다.</BDFNE_DroneHub_DeconnectDesc>
+  <!--English=Deploy {0}-->
+  <BDFNE_DroneHub_Deploy>{0} 배치</BDFNE_DroneHub_Deploy>
+  <!--English=Deploy a drone from this hub.{0}-->
+  <BDFNE_DroneHub_DeployDesc>이 격납고에서 드론을 배치합니다. {0}</BDFNE_DroneHub_DeployDesc>
+  <!--English=Request reloading {0}-->
+  <BDFNE_DroneHub_Reload>{0} 장전 요청</BDFNE_DroneHub_Reload>
+  <!--English=Order pawns to reload this drone hub. Otherwise pawns will reload this only when empty.-->
+  <BDFNE_DroneHub_ReloadDesc>정착민에게 이 격납고를 장전하라고 명령합니다. 명령하지 않으면 정착민들은 탄약이 떨어질 때만 자동으로 장전합니다.</BDFNE_DroneHub_ReloadDesc>
+  <!--English=Auto reーlaunch-->
+  <BDFNE_DroneHub_AutoLaunch>자동 재배치</BDFNE_DroneHub_AutoLaunch>
+  <!--English=Allow the drone hub to launch drone once ready. Recalling drones automatically turns this off.Turning it on while hub is ready will not cause drones to be launched, the first launch need to be ordered manually.-->
+  <BDFNE_DroneHub_AutoLaunchDesc>격납고가 준비되면 자동으로 드론을 배치하도록 허용합니다. 드론이 복귀하면 자동 재배치가 꺼집니다. 격납고가 이미 배치 준비 상태에 있을 때 자동 재배치를 켜도 드론을 배치하지 않으며, 첫 번째 배치는 수동으로 명령해야 합니다.</BDFNE_DroneHub_AutoLaunchDesc>
+  <!--English=Deploy all drones-->
+  <BDFNE_DroneHub_DeployAll>모든 드론 배치</BDFNE_DroneHub_DeployAll>
+  <!--English=Recall all drones-->
+  <BDFNE_DroneHub_RecallAll>모든 드론 복귀</BDFNE_DroneHub_RecallAll>
+  <!--English=Battery-->
+  <BDFNE_DroneBattery>배터리</BDFNE_DroneBattery>
+  <!--English=Drone construction time-->
+  <BDFNE_DroneConstructTime_StatLabel>드론 제작 시간</BDFNE_DroneConstructTime_StatLabel>
+  <!--English=Time needed for the construction of a new drone.-->
+  <BDFNE_DroneConstructTime_StatDesc>새 드론을 제작하는데 걸리는 시간입니다.</BDFNE_DroneConstructTime_StatDesc>
+  <!--English=Maximal repair time-->
+  <BDFNE_DroneRepairTime_StatLabel>최대 수리 시간</BDFNE_DroneRepairTime_StatLabel>
+  <!--English=Time needed to repair a drone with every part destroyed. In practice this never happens, the actual time needed scales with the damage sustained by the returning drone.-->
+  <BDFNE_DroneRepairTime_StatDesc>모든 부품이 파괴된 드론을 수리하는데 필요한 시간입니다만, 이런 일은 거의 일어나지 않으며 실제 소요 시간은 드론이 받은 피해에 비례합니다.</BDFNE_DroneRepairTime_StatDesc>
+  <!--English=Rearm time-->
+  <BDFNE_DroneRearmTime_StatLabel>재무장 시간</BDFNE_DroneRearmTime_StatLabel>
+  <!--English=The time needed to arm the drone with required weapon and ammo for another deployment.-->
+  <BDFNE_DroneRearmTime_StatDesc>다음 배치를 위해 무기와 탄약을 교체하는데 걸리는 시간입니다.</BDFNE_DroneRearmTime_StatDesc>
+  <!--English=Material requirement-->
+  <BDFNE_RequiredMat_StatLabel>재료 요구량</BDFNE_RequiredMat_StatLabel>
+  <!--English=Material required for the construction of a new drone:-->
+  <BDFNE_RequiredMat_StatDesc>새 드론을 제작하는데 필요한 재료입니다</BDFNE_RequiredMat_StatDesc>
+  <!--English=Drones-->
+  <BDFNE_BuildableDrones_StatLabel>가용 드론</BDFNE_BuildableDrones_StatLabel>
+  <!--English=Drones available from this drone hub.-->
+  <BDFNE_BuildableDrones_StatDesc>이 격납고에서 지원하는 드론입니다.</BDFNE_BuildableDrones_StatDesc>
+  <!--English=Drone magazine/Hub ammo capacity-->
+  <BDFNE_DroneMagazine_Stat>드론 탄창/격납고 탄약 용량</BDFNE_DroneMagazine_Stat>
+  <!--English=Item required as ammo-->
+  <BDFNE_DroneAmmo_Stat>탄약으로 필요한 물건</BDFNE_DroneAmmo_Stat>
+  <!--English=Drone weapon-->
+  <BDFNE_DroneWeapon_Stat>드론 무기</BDFNE_DroneWeapon_Stat>
+  <!--English=Bill Door&apos;s frostnova expanded-->
+  <BDFNE_Setting>Bill Door의 프로스트노바 확장</BDFNE_Setting>
+  <!--English=Froze instakill-->
+  <BDFNE_FrozeInstakill_Title>동결 즉사</BDFNE_FrozeInstakill_Title>
+  <!--English=Whether the froze ability will instantly kill any pawn caught in it. Otherwise it&apos;ll deal damage instead.-->
+  <BDFNE_FrozeInstakill_Desc>동결이 원작처럼 안에 있는 대상을 즉사시킵니다. 꺼져있으면 대신 대량의 피해를 입힙니다.</BDFNE_FrozeInstakill_Desc>
+  <!--English=Froze spawn frozen floor-->
+  <BDFNE_FrozeSpawnIceBlock_Title>동결이 동결된 바닥 생성</BDFNE_FrozeSpawnIceBlock_Title>
+  <!--English=Whether the froze ability will create a frozen floor building on the spot it stuck.-->
+  <BDFNE_FrozeSpawnIceBlock_Desc>동결이 원작처럼 위에 서 있을 수 없고, 이동 속도를 감소시키며, 엄폐를 제공하지 않는 동결된 바닥 건물을 생성합니다.</BDFNE_FrozeSpawnIceBlock_Desc>
+  <!--English=Froze remove thing-->
+  <BDFNE_FrozeIceBlockRemoveThings_Title>동결이 물건을 파괴</BDFNE_FrozeIceBlockRemoveThings_Title>
+  <!--English=Whether the froze ability should remove any item on the cell it stuck.\n\nThis effectively make froze instakill buildings!-->
+  <BDFNE_FrozeIceBlockRemoveThings_Desc>동결로 동결된 바닥이 생성될 때 그 위에 있는 물체를 파괴하게 합니다. 꺼져있으면 옆으로 치웁니다.\n\n켜져있으면 동결로 건물을 일격에 파괴할 수 있습니다!</BDFNE_FrozeIceBlockRemoveThings_Desc>
+  <!--English=Resurrect once per lifetime-->
+  <BDFNE_ResurrectOncePerLifetime_Title>일회성 부활</BDFNE_ResurrectOncePerLifetime_Title>
+  <!--English=Removes resurrect ability after a successful resurrect.-->
+  <BDFNE_ResurrectOncePerLifetime_Desc>성공적으로 부활한 후, 재탄생 능력을 제거합니다.</BDFNE_ResurrectOncePerLifetime_Desc>
+  <!--English=No friendly damage-->
+  <BDFNE_IceRingNoFriendlyDamage_Title>아군 오사 없음</BDFNE_IceRingNoFriendlyDamage_Title>
+  <!--English=Whether abilities should not harm friendlies.-->
+  <BDFNE_IceRingNoFriendlyDamage_Desc>모든 능력이 아군에게 피해를 입히지 않도록 합니다.</BDFNE_IceRingNoFriendlyDamage_Desc>
+  <!--English=Include nose scar-->
+  <BDFNE_NoseScar_Title>코 흉터 추가</BDFNE_NoseScar_Title>
+  <!--English=Adds a tiny scar on frostnova&apos;s nose. While it&apos;s more authentic with it, a scar can badly mess up her relations without appropriate mod.-->
+  <BDFNE_NoseScar_Desc>프로스트노바의 코에 작은 흉터를 추가합니다. 원작과 더 비슷해지지만 적절한 모드가 없으면 그녀의 사회적 관계에 영향을 미칠 것입니다.</BDFNE_NoseScar_Desc>
+  <!--English=Add custom eye rendering-->
+  <BDFNE_EyeRender_Title>커스텀 눈 렌더링 추가</BDFNE_EyeRender_Title>
+  <!--English=Adds eye texture to frostnova&apos;s head. This function will be turned off automatically if facial animation is installed.-->
+  <BDFNE_EyeRender_Desc>프로스트노바의 머리에 눈 텍스처를 추가합니다. 페이셜 애니메이션이 설치된 경우 이 기능은 자동으로 꺼집니다.</BDFNE_EyeRender_Desc>
+  <!--English=Unique mental breaks-->
+  <BDFNE_UniqueMentalBreak_Title>고유 정신이상</BDFNE_UniqueMentalBreak_Title>
+  <!--English=Frostnova&apos;s mental breaks will cause hard snow and cold snap.-->
+  <BDFNE_UniqueMentalBreak_Desc>프로스트노바의 정신이상은 폭설과 한파를 일으킵니다.</BDFNE_UniqueMentalBreak_Desc>
+  <!--English=Allow duplicate frostnova-->
+  <BDFNE_AllowDuplicateFrostnova_Title>프로스트노바 중복 생성 허용</BDFNE_AllowDuplicateFrostnova_Title>
+  <!--English=Allows generation of additional frostnovas if one is present.\n\nBe aware that some function of this mod relies on the status of frostnova, and only the last one generated will be tracked.-->
+  <BDFNE_AllowDuplicateFrostnova_Desc>프로스트노바가 이미 있어도 다른 프로스트노바를 생성하게 허용합니다.\n\n이 모드의 일부 기능은 프로스트노바의 상태를 감지해야 하며, 마지막으로 생성된 프로스트노바만 모드에서 추적합니다.</BDFNE_AllowDuplicateFrostnova_Desc>
+  <!--English=Yeti squad in hostile frostnova event-->
+  <BDFNE_YetiRaidForHostileFrostnovaIncident_Title>적대적 프로스트노바 조우에서 눈의 악마 습격</BDFNE_YetiRaidForHostileFrostnovaIncident_Title>
+  <!--English=Spawns yeti squad in addition to frostnova herself in hostile event.-->
+  <BDFNE_YetiRaidForHostileFrostnovaIncident_Desc>적대적 프로스트노바 조우에서 프로스트노바 외에도 눈의 악마 소대의 생성을 허용합니다.</BDFNE_YetiRaidForHostileFrostnovaIncident_Desc>
+  <!--English=Yeti raid if frostnova in peril-->
+  <BDFNE_YetiRaidForFrostnovaInPeril_Title>프로스트노바가 위험할때 눈의 악마 습격</BDFNE_YetiRaidForFrostnovaInPeril_Title>
+  <!--English=Allows yeti squad raids if frostnova is enslaved or imprisoned.\n\n(WIP:Yeti squad should rescue frostnova and carry her off map. Which should reーenable hostile frostnova encounter.)-->
+  <BDFNE_YetiRaidForFrostnovaInPeril_Desc>프로스트노바가 수감되거나 노예가 된 경우, 눈의 악마 소대가 습격할 수 있도록 허용합니다.\n\n(WIP: 눈의 악마 소대가 프로스트노바를 구출해 지도 밖으로 데리고 갑니다. 그러면 적대적 프로스트 노바 조우가 다시 활성화됩니다.)</BDFNE_YetiRaidForFrostnovaInPeril_Desc>
+  <!--English=Yeti raid if frostnova is colonist-->
+  <BDFNE_YetiRaidForFrostnovaAsColonist_Title>프로스트노바가 정착민일 때 눈의 악마 습격</BDFNE_YetiRaidForFrostnovaAsColonist_Title>
+  <!--English=Allows yeti raid if player owns frostnova as colonist.\n\n(WIP:Should Yeti squad rescue her or kill her considering her as traitor?)-->
+  <BDFNE_YetiRaidForFrostnovaAsColonist_Desc>프로스트노바가 플레이어의 정착민일 때, 눈의 악마 소대가 습격할 수 있도록 허용합니다.\n\n(WIP: 눈의 악마 소대가 그녀를 구출해야 할까요, 아니면 배신자로 간주해 죽여야 할까요?)</BDFNE_YetiRaidForFrostnovaAsColonist_Desc>
+  <!--English=&quot;Evil purge&quot; raids-->
+  <BDFNE_YetiEvilPurgeRaid_Title>"정의 집행" 습격</BDFNE_YetiEvilPurgeRaid_Title>
+  <!--English=Allows &quot;evil purge&quot; raid which try to destroy player wrongdoings. If toggled, frostnova hostile encounter and nonーrescue yeti raid will be evil purges.\n\nPS. That being said, I&apos;m not in a position to judge your gameplay. Though I believe frostnova and her team member may find these things evil, which in turn makes more reasonable raids than vanillaーish &quot;banzai charge then trash your bed then steal your rice back home and leave our downed faction leader to die&quot; style.-->
+  <BDFNE_YetiEvilPurgeRaid_Desc>플레이어의 악행을 방해하려고 시도하는 특수한 "정의 집행" 습격을 허용합니다. 켜지면 적대적 프로스트노바 조우와 구조가 아닌 눈의 악마 습격은 정의 집행 습격으로 바뀝니다.\n\n제작자 주: 말은 이렇지만, 저는 플레이어의 플레이 방식을 평가할 자격이 없고, 평가할 의도도 없습니다. 이런 것들 중 일부는 저도 사용합니다. 하지만 저는 프로스트노바와 그녀의 소대가 이런 것들을 악이라고 간주할 것이라고 생각합니다. 따라서, "반자이 돌격 후 침실을 부수고 쌀을 훔쳐 집으로 가지만, 총에 맞아 쓰러진 놈들은 내버려둬 죽게 만드는" 바닐라 스타일의 습격보다 더 합리적인 습격이 됩니다.\n\n상황에 따라 이 메커니즘은 지도에 있는 모든 항목을 한 번씩 탐색해야 하기 때문에 이벤트 발생 순간에 지연이 발생할 수 있습니다. </BDFNE_YetiEvilPurgeRaid_Desc>
+  <!--English=Hostile encounter only if evil purge-->
+  <BDFNE_FrostnovaRaidOnlyIfEvilFound_Title>정의 집행 습격에서만 프로스트노바 조우</BDFNE_FrostnovaRaidOnlyIfEvilFound_Title>
+  <!--English=Frostnova hostile encounter will only occur if more than {0} points from player wrongdoings is accumulated.-->
+  <BDFNE_FrostnovaRaidOnlyIfEvilFound_Desc>적대적 프로스트노바 조우는 "정의 실행" 공격 메커니즘의 포인트가 {0} 포인트 이상일 때만 발생합니다.</BDFNE_FrostnovaRaidOnlyIfEvilFound_Desc>
+  <!--English=Encounter Point threshold: {0}-->
+  <BDFNE_FrostnovaRaidOnlyIfPointAbove_Title>조우 포인트 임계값: {0}</BDFNE_FrostnovaRaidOnlyIfPointAbove_Title>
+  <!--English=The threshold for frostnova to attack if your colony&apos;s raid point is above this value.-->
+  <BDFNE_FrostnovaRaidOnlyIfPointAbove_Desc>정착지의 습격 포인트가 이보다 높을 경우 프로스트노바의 공격을 허용하는 임계값입니다.</BDFNE_FrostnovaRaidOnlyIfPointAbove_Desc>
+  <!--English=Encounter Evil threshold: {0}-->
+  <BDFNE_FrostnovaRaidOnlyIfEvilAbove_Title>정의 집행 조우 포인트 임계값: {0}</BDFNE_FrostnovaRaidOnlyIfEvilAbove_Title>
+  <!--English=The threshold for frostnova to attack your colony if over this amount of evil point is accumulated.-->
+  <BDFNE_FrostnovaRaidOnlyIfEvilAbove_Desc>정착지의 악 포인트가 이보다 높은 경우 프로스트노바의 공격을 허용하는 임계값입니다.</BDFNE_FrostnovaRaidOnlyIfEvilAbove_Desc>
+  <!--English=Repeated rescue bonus: {0}-->
+  <BDFNE_FailedRescuePointMultiplier_Title>반복 구조 배율: {0}</BDFNE_FailedRescuePointMultiplier_Title>
+  <!--English=Each failed rescue attempt will cause future rescue raid&apos;s point to multiply by this number.-->
+  <BDFNE_FailedRescuePointMultiplier_Desc>구조가 실패할 때마다 다음 구조 습격의 습격 포인트에 이 숫자만큼 배율로 더해집니다.</BDFNE_FailedRescuePointMultiplier_Desc>
+  <!--English=Current total multiplier is {0}.-->
+  <BDFNE_FailedRescuePointMultiplier_DescAdd>현재 총 배율은 {0}입니다.</BDFNE_FailedRescuePointMultiplier_DescAdd>
+  <!--English=Evil point multiplier：{0}-->
+  <BDFNE_EvilPointMultiplier_Title>악 포인트 배율: {0}</BDFNE_EvilPointMultiplier_Title>
+  <!--English=The multiplier applied to evil points right before calculation finishes. If an encounter this will means you need to be extra evil for frostnova to spawn.-->
+  <BDFNE_EvilPointMultiplier_Desc>악 포인트 계산 결과에 적용되는 배율입니다. 악 포인트 임계값이 0 이 아니라면 프로스트노바와 조우하려면 더 악해져야 한다는 걸 의미합니다.</BDFNE_EvilPointMultiplier_Desc>
+  <!--English=Frostnova natural occurrence:-->
+  <BDFNE_SpawnMode>프로스트노바 자연 생성:</BDFNE_SpawnMode>
+  <!--English=Disabled-->
+  <BDFNE_SpawnDisabled>비활성화</BDFNE_SpawnDisabled>
+  <!--English=Generation of predefined frostnova is disabled.\n\nIntended for those who prefer to create one via other means.\n\nThat being said, this mod was made with the intent of conquering forstnova by force, and some game mechanic may be unavaliable in this mode.-->
+  <BDFNE_SpawnDisableDesc>이 모드는 기본적으로 프로스트노바의 생성이 비활성화되어 있습니다.\n\n다른 방법으로 생성하려는 사람들을 위해서 입니다.\n\n하지만 이 모드는 무력으로 프로스트노바를 정복한다는 목적으로 제작되었으며, 이 설정에선 일부 메커니즘을 사용할 수 없을 수도 있습니다.</BDFNE_SpawnDisableDesc>
+  <!--English=Hostile event-->
+  <BDFNE_SpawnHostile>적대적 습격</BDFNE_SpawnHostile>
+  <!--English=A hostile frostnova will try to attack your colony and she will use her abilities.\n\nAThe recommended option.-->
+  <BDFNE_SpawnHostileDisableDesc>적대적인 프로스트노바가 당신의 정착지를 습격할 것입니다. 그리고 그녀는 모든 능력을 사용할 것입니다.\n\n추천하는 설정입니다.</BDFNE_SpawnHostileDisableDesc>
+  <!--English=Friendly joiner-->
+  <BDFNE_SpawnFriendly>우호적 합류</BDFNE_SpawnFriendly>
+  <!--English=A friendly frostnova will voluntarily join you. No rejection because that&apos;s the very point you select this option.\n\nThat being said, this mod was made with the intent of conquering forstnova by force, and some game mechanic may be unavaliable in this mode.-->
+  <BDFNE_SpawnFriendlyDesc>우호적인 프로스트노바가 자발적으로 합류합니다. 거부할 수 없습니다. 당신이 직접 이 설정을 켰기 때문입니다.\n\n이 모드는 무력으로 프로스트노바를 정복한다는 목적으로 제작되었으며, 이 설정에선 일부 메커니즘을 사용할 수 없을 수도 있습니다.</BDFNE_SpawnFriendlyDesc>
+  <!--English=Invincible in:-->
+  <BDFNE_InvincibleTime>무적 지속 시간:</BDFNE_InvincibleTime>
+  <!--English=Resurrect standby lasts:-->
+  <BDFNE_ResurrectStandbyTime>부활 준비 지속 시간:</BDFNE_ResurrectStandbyTime>
+  <!--English=Requires {0} gene-->
+  <BDFNE_WeaponRequireGene>{0} 유전자 필요</BDFNE_WeaponRequireGene>
+  <!--English=Requires {0} ability-->
+  <BDFNE_WeaponRequireAbility>{0} 능력 필요</BDFNE_WeaponRequireAbility>
+  <!--English=Currently tracking {0} ({1}) as frostnova.\n\nIf this is an incorrect pawn, use the &quot;redesignate frostnova&quot; debug tool to track another pawn.-->
+  <BDFNE_FrostnovaTracked>현재 모드에서 추적중인 프로스트노바: {0} ({1})\n\n잘못된 대상을 추적중이면 개발자 도구에 "redesignate frostnova"를 사용해 추적할 대상을 바꾸세요.</BDFNE_FrostnovaTracked>
+  <!--English=Currently not tracking any pawn as frostnova.\n\nIf there should be one, use the &quot;redesignate frostnova&quot; debug tool to track another pawn.-->
+  <BDFNE_FrostnovaNotTracked>현재 모드에서 아무도 추적하지 않습니다.\n\n모드가 누군가를 추적해야 한다면 개발자 도구에 "redesignate frostnova"를 사용해 추적할 대상을 지정하세요.</BDFNE_FrostnovaNotTracked>
+  <!--English={0} charges remaining-->
+  <BDFNE_Charges>남은 방출: {0}</BDFNE_Charges>
+  <!--English=Next blast in {0} seconds-->
+  <BDFNE_IceCrystalCD>다음 방출까지 {0}초</BDFNE_IceCrystalCD>
+  <!--English={0}&apos;s originium art has gone out of control as a result of mental break! A cold snap lasting {1} days has occured.-->
+  <BDFNE_MentalBreak>{0}의 오리지늄 아츠가 정신이상으로 인해 통제 불능이 되었습니다! {1}일 동안 한파가 지속됩니다.</BDFNE_MentalBreak>
+  <!--English={0} is trying to convince {1} they&apos;re coming for rescue.If {0} meets her and stayed long enough for conversation, she&apos;ll try leaving with them. Defeat {0} in advance if possible.-->
+  <BDFNE_Message_AttemptRescue>{0}(이)가 {1}(을)를 안전하게 데려갈 수 있도록 설득하고 있습니다. {0}(이)가 그녀와 접촉하고 대화를 완료하면, 그들과 함께 떠날 것입니다. 가능하면 그 전에 {0}(을)를 쓰러트리세요.</BDFNE_Message_AttemptRescue>
+  <!--English={0} from {1} have successfully rendezvoused with {2}. A small detachment is now escorting her, and the rest of them are continuing their attack as distraction.-->
+  <BDFNE_Message_RaidersRescued>{0}의 {1}(이)가 {2}(와)과 접촉하는데 성공했습니다. 소규모 분견대가 그녀를 호위하며 떠날 것이며, 나머지는 주의를 돌리기 위해 계속 공격할 것입니다.</BDFNE_Message_RaidersRescued>
+  <!--English={0} is going to carry {1}. Defeat {0} in advance if possible.-->
+  <BDFNE_Message_CarryingDowned>{0}(은)는 {1}(을)를 운반하려고 합니다. 가능하면 그 전에 {0}(을)를 쓰러트리세요.</BDFNE_Message_CarryingDowned>
+  <!--English={0} is trying to open {2} containing {1}. Defeat {0} in advance if possible.-->
+  <BDFNE_Message_AttemptRescueContainer>{0}(이)가 {2}(이)가 포함된 {1}(을)를 열려고 합니다. 가능하면 그 전에 {0}(을)를 쓰러트리세요.</BDFNE_Message_AttemptRescueContainer>
+  <!--English={0} from {1} has sustained heavy losses and their leader {2} is downed. They&apos;ll try to rescue downed members and leave the map.-->
+  <BDFNE_PurgerFlee>{0}의 {1}(이)가 큰 피해를 입었고 리더인 {2}가 쓰러졌습니다. 그들을 쓰러진 대원들을 구조하고 지도를 떠날 것입니다.</BDFNE_PurgerFlee>
+  <!--English=They have conducted {0} rescue attempts before, which resulted in a {1} increase in raid points.-->
+  <BDFNE_ExtraRescuePointNotice>이들은 전에 구조를 {0}번 시도했으며, 그 결과 습격 포인트가 {1} 상승했습니다.</BDFNE_ExtraRescuePointNotice>
+  <!--English=temperature threshold-->
+  <BDFNE_DamageTemperature>온도 임계값</BDFNE_DamageTemperature>
+  <!--English=The temperature this device is considered causing. It won&apos;t affect pawns that have a minimal comfort temperature lower than this, and will have full effect if a pawn&apos;s minimal temperature is higher than 0. If pawn&apos;s minimal comfort temperature falls between 0 and this value, effect will be interpolated.-->
+  <BDFNE_TemperatureExplanation>이 장치가 일으키는 것으로 간주되는 온도입니다. 이보다 낮은 최소 적응 온도를 가진 대상에게는 효과가 없으며, 최소 적응 온도가 0 이상이면 최대 효과가 나타납니다. 최소 적응 온도가 0 과 공격 온도값 사이에 있으면 선형 보간 됩니다.</BDFNE_TemperatureExplanation>
+  <!--English=starting with predefined frostnova-->
+  <BDFNE_StartingWithFrostnova>사전 정의된 프로스트노바와 함께 시작합니다.</BDFNE_StartingWithFrostnova>
+  <!--English=[Bill Doors&apos; Frostnova Expanded] Yeti squad faction not found. Faction has been generated.-->
+  <BDFNE_FactionGenerated>[Bill Door의 프로스트노바 확장] 눈의 악마 세력이 존재하지 않습니다. 세력이 생성됩니다.</BDFNE_FactionGenerated>
+  <!--English=Which contributed to {0} raid points.-->
+  <BDFNE_EvilScoreContribution> {0}의 습격 포인트를 추가로 제공했습니다.</BDFNE_EvilScoreContribution>
+  <!--English=If frostnova is downed and raid party sustained heavy losses, they&apos;ll rescue her and retreat.-->
+  <BDFNE_FrostnovaAttackRescueNotice>만약 프로스트노바가 쓰러지고 습격 부대가 큰 피해를 입으면, 그들은 그녀를 구조하고 후퇴합니다.</BDFNE_FrostnovaAttackRescueNotice>
+</LanguageData>
