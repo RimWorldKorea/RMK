@@ -4,6 +4,7 @@
   <AM_ExtraBluntArmorFactor>갑옷: 둔탁함 규율</AM_ExtraBluntArmorFactor>
   <AM_ExtraSharpArmorFactor>갑옷: 날카로움 규율</AM_ExtraSharpArmorFactor>
   <AM_ExtraHeatArmorFactor>갑옷: 열기 규율</AM_ExtraHeatArmorFactor>
+  <AM_MeditationFocusStrengthFactor>초집중 획득: 약화</AM_MeditationFocusStrengthFactor>
   <AM_DespisedAnimals>멸시받는 동물들</AM_DespisedAnimals>
   <AM_AddDespisedAnimals>멸시받는 동물</AM_AddDespisedAnimals>
   <AM_AbilityNeedsADownedPawn>이 능력은 쓰러져있는 지성 있는 인간을 대상으로 해야합니다.</AM_AbilityNeedsADownedPawn>
@@ -14,6 +15,8 @@
   <AM_NotAnalyzed>분석하지 않음</AM_NotAnalyzed>
   <AM_Analyzed>유전자 분석됨</AM_Analyzed>
   <AM_OnlyTaggedAnimals>지정된 생물만</AM_OnlyTaggedAnimals>
+  <AM_StatsReport_Analyzed>분석된 생물</AM_StatsReport_Analyzed>
+  <AM_AnalyzedAnimalBonuses>이 생물은 분석이 완료되었으므로 이제부터 최소 요구 조련 기술 -2, 오물 발생률 -25%, 상단 탑승 속도 +25%를 갖습니다.</AM_AnalyzedAnimalBonuses>
   <AM_ShowAnimalAnalysis>유전자 분석 표시</AM_ShowAnimalAnalysis>
   <AM_ShowAnimalAnalysisDesc>분석이 가능한 생물이 표시됩니다.</AM_ShowAnimalAnalysisDesc>
   <AM_OnlyOneDatabase>하나의 데이터베이스만 건설 할 수 있습니다.</AM_OnlyOneDatabase>
@@ -33,7 +36,12 @@
   <AM_Detonate>폭발</AM_Detonate>
   <AM_DetonateDesc>동물을 강제로 폭발시킵니다. 동물이 죽고 폭발이 일어납니다.</AM_DetonateDesc>
   <AM_MessageRitualRoleNeedsDryad>의식을 시작하려면 부패한 요정나무에서 얻은 눈알돋이 나무지기가 필요합니다.</AM_MessageRitualRoleNeedsDryad>
+  <AM_MessageRitualRoleNeedsCattle>로데오에는 가축이 필요합니다.</AM_MessageRitualRoleNeedsCattle>
   <AM_DryadUnlinked>눈알돋이 나무지기가 부패한 요정나무에 연결되어 있지 않습니다.</AM_DryadUnlinked>
+  <AM_CurrentTotalCattleBodySizePerColonist>현재 정착지 주민당 총 소의 체격 크기</AM_CurrentTotalCattleBodySizePerColonist>
+  <AM_StatsReport_HorseDesired>말: 갈망함</AM_StatsReport_HorseDesired>
+  <AM_StatsReport_CattleImproved>가축: 향상됨</AM_StatsReport_CattleImproved>
+  <AM_CantStartNotEnoughSpaceRodeo>카우보이와 소를 위한 공간이 충분하지 않습니다. 반경 {MINRADIUS}의 명확한 원이 있어야 합니다. 해당 반경에 최소 {1}개의 서 있을 수 있는 장소가 필요합니다.</AM_CantStartNotEnoughSpaceRodeo>
   <Funeral_NeedsPower>{0}에 전원이 연결되지 않음</Funeral_NeedsPower>
   <Funeral_ThingInfoPower>전력 또는 연료를 공급받는 {0}</Funeral_ThingInfoPower>
   <Funeral_WorstResult>{RITUAL}(은)는 재앙이었습니다!</Funeral_WorstResult>
@@ -99,4 +107,22 @@
   <AM_NoRanged>동물에게 원거리 공격이 없습니다. 이 동물이 공격하도록 하려면 방어 및 공격 훈련을 한 다음 소집하거나, 작업할 때 주인을 따라다니도록 지정해야 합니다. 주인의 명령 표시줄에 있는 "해제" 버튼을 누르면 동물이 근접 공격을 합니다.</AM_NoRanged>
   <AM_Pet>애완동물</AM_Pet>
   <AM_PetDesc>이 동물은 애완동물입니다. 귀엽지 않나요?</AM_PetDesc>
+  <VME_Reset>초기화</VME_Reset>
+  <VME_Meme>가르침 상한</VME_Meme>
+  <VME_Ritual>의식 상한</VME_Ritual>
+  <VME_Styles>스타일 상한</VME_Styles>
+  <VME_Relics>유물 상한</VME_Relics>
+  <VME_Buildings>이념 건물 상한</VME_Buildings>
+  <VME_MemeAmount>가르침 상한 (기본값: 4)</VME_MemeAmount>
+  <VME_MemeAmountTooltip>선택 가능한 가르침의 수의 상한값입니다. 플레이어의 이념에만 적용됩니다.</VME_MemeAmountTooltip>
+  <VME_RitualAmount>가르침에서 강제하지 않는 의식의 상한 (기본값: 6)</VME_RitualAmount>
+  <VME_RitualAmountTooltip>가르침으로 강제하지 않는 의식의 상한값입니다. 일부 예외가 있을 수 있지만 가르침에서 강제하는 의식은 이 제한에 포함되지 않습니다. (게임 재시작이 필요합니다.)</VME_RitualAmountTooltip>
+  <VME_StylesAmount>이념 스타일 상한 (기본값: 3)</VME_StylesAmount>
+  <VME_StylesAmountTooltip>이념으로 추가되는 스타일의 상한값입니다. (게임 재시작이 필요합니다.)</VME_StylesAmountTooltip>
+  <VME_RelicsAmount>이념 유물 상한 (기본값: 3)</VME_RelicsAmount>
+  <VME_RelicsAmountTooltip>이념으로 추가되는 유물의 상한값입니다.</VME_RelicsAmountTooltip>
+  <VME_BuildingsAmount>이념 건물 상한 (기본값: 2)</VME_BuildingsAmount>
+  <VME_BuildingsAmountTooltip>허용되는 이념 건물의 상한값입니다. 이 값에는 제단, 상징문양 등이 포함되지만 가르침을 통해 추가된 건물들은 포함되지 않습니다.</VME_BuildingsAmountTooltip>
+  <AM_AllowHighImpactMemesForFluidIdeos>유동적 사상에 영향력 높은 가르침 허용</AM_AllowHighImpactMemesForFluidIdeos>
+  <AM_AllowHighImpactMemesForFluidIdeos_Tooltip>기본적으로 유동적 사상에서는 영향력이 낮거나 보통인 가르침 하나만 선택할 수 있으며, 영향력이 높은 가르침은 선택할 수 없습니다. 이 옵션 토글을 사용하면 영향력이 높은 가르침도 사용할 수 있도록 설정할 수 있습니다.</AM_AllowHighImpactMemesForFluidIdeos_Tooltip>
 </LanguageData>

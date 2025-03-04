@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Biomes</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/TerrainDef[defName="AB_Tile_OcularQuartz"]/label</xpath>
+          <value>
+            <label>눈알 장미 석영 바닥</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/TerrainDef[defName="AB_Tile_OcularMudstone"]/label</xpath>
+          <value>
+            <label>눈알 이암 바닥</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/TerrainDef[defName="AB_Tile_OcularCragstone"]/label</xpath>
+          <value>
+            <label>눈알 암석 바닥</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/TerrainDef[defName="AB_Tile_OcularObsidian"]/label</xpath>
+          <value>
+            <label>눈알 흑요석 바닥</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/TerrainDef[defName="AM_FinestonePristineLimestone"]/label</xpath>
+          <value>
+            <label>멋진 완벽한 석회암 바닥</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Ideology Expanded - Anima Theme</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MemeDef[defName="AM_GauranlenSupremacy"]/label</xpath>
+          <value>
+            <label>나무지기 지상주의</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MemeDef[defName="AM_GauranlenSupremacy"]/description</xpath>
+          <value>
+            <description>인류와 요정나무, 그리고 나무의 나무지기 사이의 공생 관계는 신성하다. 우리는 나무를 지키고 보살필 것이다. 그러면 그 대가로 우리의 정착지를 보호하는 데 도움을 줄 것이다.\n\n&amp;lt;color=#E5E54C&amp;gt;제한:&amp;lt;/color&amp;gt;\n - 이 가르침은 수목주의 혹은 부패주의 가르침을 선택한 경우에만 선택할 수 있습니다.\n\n&amp;lt;color=#E5E54C&amp;gt;게임 플레이 효과:&amp;lt;/color&amp;gt;\n - 정착지는 묶여있지 않은 나무지기 셋과 함께 시작합니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Anomaly</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_CubicCrib"]/label</xpath>
+            <value>
+              <label>큐브 아기 침대</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AM_CubicCrib"]/description</xpath>
+            <value>
+              <description>아기가 큐브의 사랑스러운 품에서 편안히 쉴 수 있도록 하세요. 높은 품질의 침대는 아기를 행복하게 해줍니다. 아기 침대는 한 방에 여러 개를 배치해도 방이 막사로 취급되지 않습니다.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Races Expanded - Sanguophage</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Biotech</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PreceptDef[defName="AM_HuntFocus_Strigoi"]/label</xpath>
+            <value>
+              <label>스트리고이</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PreceptDef[defName="AM_HuntFocus_Strigoi"]/description</xpath>
+            <value>
+              <description>우리의 목적은 분명하다: 생귀오파지들이 어디에 숨어있던지 우린 찾아낼 것이다.\n\n스트리고이가 목표가 됩니다.\n\n&lt;color=#E5E54C&gt;게임 플레이 효과:&lt;/color&gt;\n - 스트리고이에게 가하는 모든 공격이 추가로 화염 피해 10을 더 입힙니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PreceptDef[defName="AM_HuntFocus_Ekkimian"]/label</xpath>
+            <value>
+              <label>에키미안</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PreceptDef[defName="AM_HuntFocus_Ekkimian"]/description</xpath>
+            <value>
+              <description>우리의 목적은 분명하다: 생귀오파지들이 어디에 숨어있던지 우린 찾아낼 것이다.\n\n에키미안이 목표가 됩니다.\n\n&lt;color=#E5E54C&gt;게임 플레이 효과:&lt;/color&gt;\n - 에키미안에게 가하는 모든 공격이 추가로 화염 피해 10을 더 입힙니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PreceptDef[defName="AM_HuntFocus_Bruxa"]/label</xpath>
+            <value>
+              <label>브룩사</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PreceptDef[defName="AM_HuntFocus_Bruxa"]/description</xpath>
+            <value>
+              <description>우리의 목적은 분명하다: 생귀오파지들이 어디에 숨어있던지 우린 찾아낼 것이다.\n\n브룩사가 목표가 됩니다.\n\n&lt;color=#E5E54C&gt;게임 플레이 효과:&lt;/color&gt;\n - 브룩사에게 가하는 모든 공격이 추가로 화염 피해 10을 더 입힙니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HistoryEventDef[defName="AM_BuildingDrainCasket"]/label</xpath>
+            <value>
+              <label>혈액추출 관 건설</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="AM_DrainCaskets_Abhorrent"]/stages/li[1]/label</xpath>
+            <value>
+              <label>혈액추출 관이 근처에 있음</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="AM_DrainCaskets_Abhorrent"]/stages/li[1]/description</xpath>
+            <value>
+              <description>정착지에 혈액추출 관이 있어. 이건 신성모독이야. 가능한 빨리 철거해야 해.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Races Expanded - Sanguophage</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Alpha Genes</li>
+      </mods>
+      <match Class="PatchOperationFindMod">
+        <mods>
+          <li>Biotech</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/PreceptDef[defName="AM_HuntFocus_Malachai"]/label</xpath>
+              <value>
+                <label>말라차이</label>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/PreceptDef[defName="AM_HuntFocus_Malachai"]/description</xpath>
+              <value>
+                <description>우리의 목적은 분명하다: 생귀오파지들이 어디에 숨어있던지 우린 찾아낼 것이다.\n\n말라치이가 목표가 됩니다.\n\n&lt;color=#E5E54C&gt;게임 플레이 효과:&lt;/color&gt;\n - 말라차이에게 가하는 모든 공격이 추가로 화염 피해 10을 더 입힙니다.</description>
+              </value>
+            </li>
+          </operations>
+        </match>
+      </match>
+    </match>
+  </Operation>
+</Patch>
