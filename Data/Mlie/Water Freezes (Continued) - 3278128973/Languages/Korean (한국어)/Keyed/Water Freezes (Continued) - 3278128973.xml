@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WFM.tickInfo>시뮬레이션 업데이트당 틱\n이 값이 높을수록 업데이트 빈도가 낮아지고, 현실성이 떨어지며, TPS에 미치는 영향이 줄어듭니다.\n최소 500, 품질 면에서는 매 틱마다 업데이트하는 것과 구분할 수 없지만 성능이 훨씬 좋습니다.\n2500(게임 내 1시간) 이상은 테스트되지 않았습니다. 기본값은 1000으로 좋은 균형을 이룹니다.\n이 설정이 도입되기 전 버전에서는 2500으로 설정되어 있었습니다.</WFM.tickInfo>
+  <WFM.multiplierInfo>승수와 제수를 수정할 때는 주의하세요, 작은 변화도 큰 영향을 미칠 수 있습니다!\n온도는 다른 계산에 들어가기 전에 이 값을 곱하여 영하에서 발생하는 결빙량을 산출합니다.</WFM.multiplierInfo>
+  <WFM.oceansFreeze>바다가 얼 수 있음</WFM.oceansFreeze>
+  <WFM.oceansFreezeDesc>온도가 충분히 낮으면, 바다도 얼 수 있습니다</WFM.oceansFreezeDesc>
+  <WFM.freezingFactor>결빙 계수</WFM.freezingFactor>
+  <WFM.freezingFactorDesc>온도의 음수값을 이 값으로 나누어 다른 계산에 들어가 영상에서 발생하는 해빙량을 산출합니다.</WFM.freezingFactorDesc>
+  <WFM.thawingFactor>해빙 계수</WFM.thawingFactor>
+  <WFM.moisturePump>습도 조정 펌프가 자연수를 제거함</WFM.moisturePump>
+  <WFM.moisturePumpDesc>활성화하면, 습도 조정 펌프를 사용할 때 펌프로 뽑아낸 물이 다시 채워지는 것을 방지합니다. 대신 Soil Relocation Framework의 물 채우기를 사용하는 것을 추천합니다!</WFM.moisturePumpDesc>
+  <WFM.modVersion>설치된 모드 버전: {0}</WFM.modVersion>
+  <WFM.fishingBlocked>낚시는 얼었을 때 차단됩니다.</WFM.fishingBlocked>
+  <WFM.fishingBlockedDesc>Vanilla Fishing Expanded 모드를 사용하는 경우, 낚시 구역이 얼어 있으면 사용할 수 없습니다.</WFM.fishingBlockedDesc>
+  <WFM.icedepth>얼음 깊이: {0}</WFM.icedepth>
+  <WFM.waterdepth>수심: {0}</WFM.waterdepth>
+  <WFM.naturalwater>물</WFM.naturalwater>
+  <WFM.frozen>얼어 있어 낚시 불가</WFM.frozen>
+</LanguageData>
