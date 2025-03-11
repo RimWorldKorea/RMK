@@ -80,6 +80,17 @@
   <DankPyon_Settings_WoodChain_Tooltip>목재 생산 체인을 활성화하면 나무가 통나무를 제공합니다. 더 많은 용도로 사용하기 위해서는 통나무로 목재를 만들어야합니다.</DankPyon_Settings_WoodChain_Tooltip>
   <DankPyon_Settings_ClothChain>직물 생산 체인:</DankPyon_Settings_ClothChain>
   <DankPyon_Settings_ClothChain_Tooltip>직물 생산 체인을 활성화하면 식물에서 얻은 원자재를 천으로 방적해야 합니다.</DankPyon_Settings_ClothChain_Tooltip>
+  <DankPyon_Settings_MetalChain>금속 생산 체인:</DankPyon_Settings_MetalChain>
+  <DankPyon_Settings_MetalChain_Tooltip>원석을 주괴로 제련한 후 사용해야 하는 금속 생산 체인을 활성화합니다. 이 기능이 비활성화되면 기본 광물 채굴 기능이 강제로 활성화됩니다</DankPyon_Settings_MetalChain_Tooltip>
+  <DankPyon_Settings_Agriculture>농업 옵션</DankPyon_Settings_Agriculture>
+  <DankPyon_Settings_SoilWear>경작된 토양 소모:</DankPyon_Settings_SoilWear>
+  <DankPyon_Settings_SoilWear_Tooltip>경작된 토양의 지력이 소모되는 기능을 활성화하고, 추가적인 커스터마이징 옵션을 제공합니다.</DankPyon_Settings_SoilWear_Tooltip>
+  <DankPyon_Settings_AutoPlow>자동 밭갈기:</DankPyon_Settings_AutoPlow>
+  <DankPyon_Settings_AutoPlow_Tooltip>토양이 소모되면 자동으로 밭을 가는 청사진을 설정하는 기능을 활성화합니다.</DankPyon_Settings_AutoPlow_Tooltip>
+  <DankPyon_Settings_SoilWearChance>소모 확률:</DankPyon_Settings_SoilWearChance>
+  <DankPyon_Settings_SoilWearChance_Tooltip>작물을 수확한 후 토양이 소모될 확률을 결정합니다.</DankPyon_Settings_SoilWearChance_Tooltip>
+  <DankPyon_Settings_SoilFertility>경작된 토양 비옥도:</DankPyon_Settings_SoilFertility>
+  <DankPyon_Settings_SoilFertility_Tooltip>경작된 토양의 비옥도를 변경합니다.</DankPyon_Settings_SoilFertility_Tooltip>
   <DankPyon_Settings_MapGen>지도 생성 옵션</DankPyon_Settings_MapGen>
   <DankPyon_Settings_IndustrialJunk>바닐라 쓰레기 제거:</DankPyon_Settings_IndustrialJunk>
   <DankPyon_Settings_IndustrialJunk_Tooltip>지도 생성 중 바닐라 산업 쓰레기를 제거합니다.</DankPyon_Settings_IndustrialJunk_Tooltip>
@@ -100,6 +111,14 @@
   <DankPyon_Settings_SchematicRework_Tooltip>설계도 스크롤을 바이오테크식의 분석으로 대체합니다. (활성화 시 설계도 스크롤 대신 더 이상 사용되지 않는 도식의 책 텍스쳐를 사용한 설계도가 생기며 도식 아이템이 사라집니다. 쓸데없는 아이템이 생기는걸 싫어하신다면 활성화 하세요.)</DankPyon_Settings_SchematicRework_Tooltip>
   <DankPyon_Settings_SlopDispenser>중세 영양 반죽 배급기:</DankPyon_Settings_SlopDispenser>
   <DankPyon_Settings_SlopDispenser_Tooltip>산업시대로 게임 진행중에는 끄는 것을 권장합니다.</DankPyon_Settings_SlopDispenser_Tooltip>
+  <DankPyon_Settings_ComponentRepair>중세 부품 수리:</DankPyon_Settings_ComponentRepair>
+  <DankPyon_Settings_ComponentRepair_Tooltip>중세 기술 수준의 건물을 기초 부품을 사용하여 수리합니다.</DankPyon_Settings_ComponentRepair_Tooltip>
+  <DankPyon_Settings_Experimental>실험적 패치</DankPyon_Settings_Experimental>
+  <DankPyon_Settings_Experimental_Desc>아래 패치는 완전히 실험적이며 위험할 수 있습니다. 이와 관련된 문제에 대한 지원은 제공되지 않습니다.</DankPyon_Settings_Experimental_Desc>
+  <DankPyon_Settings_Chemfuel_Replace_Title>화학연료 대체:</DankPyon_Settings_Chemfuel_Replace_Title>
+  <DankPyon_Settings_Chemfuel_Replace_Desc>모든 레시피 및 비용 목록에서 화학연료를 타르로 대체합니다.</DankPyon_Settings_Chemfuel_Replace_Desc>
+  <DankPyon_Settings_Component_Replace_Title>부품 대체:</DankPyon_Settings_Component_Replace_Title>
+  <DankPyon_Settings_Component_Replace_Desc>모든 레시피 및 비용 목록에서 부품을 MO의 부품으로 대체합니다. 단, 수리에 사용되는 재료는 변경되지 않습니다.</DankPyon_Settings_Component_Replace_Desc>
   <DankPyon_InsertResourceDesc>압착할 재료를 넣으세요.</DankPyon_InsertResourceDesc>
   <DankPyon_InsertResource>재료 넣기</DankPyon_InsertResource>
   <DankPyon_InsertResourceVariable>{0} 넣기</DankPyon_InsertResourceVariable>
@@ -211,6 +230,13 @@
   <DankPyon_StewPot_NutritionStored>저장된 영양</DankPyon_StewPot_NutritionStored>
   <DankPyon_SlopRotting>연료 부족으로 인해 상하기 시작합니다.</DankPyon_SlopRotting>
   <DankPyon_SlopFuel>연료를 넣은 냄비가 필요합니다.</DankPyon_SlopFuel>
+  <DankPyon_EmptyPot>스튜냄비 비우기</DankPyon_EmptyPot>
+  <DankPyon_EmptyPot_Cancel>취소</DankPyon_EmptyPot_Cancel>
+  <DankPyon_RetrieveSlopMeals>식사 {0}개 꺼내기</DankPyon_RetrieveSlopMeals>
+  <DankPyon_RetrieveSlopMeals_Cancel>취소</DankPyon_RetrieveSlopMeals_Cancel>
+  <DankPyon_NoFood>음식이 없습니다.</DankPyon_NoFood>
+  <DankPyon_CannotUse>{0}(을)를 사용할 수 없습니다.</DankPyon_CannotUse>
+  <DankPyon_GetSlop>{0} 먹기</DankPyon_GetSlop>
   <DankPyon_Melted>완전히 녹음</DankPyon_Melted>
   <DankPyon_GatherIce>얼음/물 모으기</DankPyon_GatherIce>
   <DankPyon_GatherIceDesc>적절한 지형에서 얼음이나 물을 모으세요.</DankPyon_GatherIceDesc>
@@ -230,6 +256,7 @@
   <StandaloneSettlementPreference_EnableSettlementPreferenceTooltip>활성화하면 정착지 선호 모드 확장이 있는 진영은 특정 위치에 정착할 확률이 높아집니다.\n\n이 옵션은 언제든지 바꿀 수 있지만, 적용하려면 반드시 새로운 월드가 필요합니다.\n\n영향을 줍니다:</StandaloneSettlementPreference_EnableSettlementPreferenceTooltip>
   <StandaloneSettlementPreference_Iterations>정착지 설정 최대 반복 횟수</StandaloneSettlementPreference_Iterations>
   <StandaloneSettlementPreference_IterationsTooltip>정착지 설정이 이 반복 횟수 내에 원하는 타일을 찾지 못하면 림월드로 제어권을 되돌립니다.\n\n이 값을 줄이면 월드 생성 시간이 향상되고, 늘리면 더 바람직한 정착지 위치를 찾을 수 있습니다.</StandaloneSettlementPreference_IterationsTooltip>
+  <DankPyon_Settings_SettlementGeneration>진영 정착지 생성</DankPyon_Settings_SettlementGeneration>
   <TT.TransparentThings>투명 사물 조정</TT.TransparentThings>
   <TT.EnableTreeTransparency>나무 투명도 활성화</TT.EnableTreeTransparency>
   <TT.EnableRoofTransparency>지붕 투명도 활성화</TT.EnableRoofTransparency>

@@ -104,6 +104,8 @@
   <DankPyon_Mixture_Paregoric.description>파레고릭의 혼합물입니다. 사용하려면 추가 양조가 필요합니다.</DankPyon_Mixture_Paregoric.description>
   <DankPyon_Mixture_VigorPill.label>활력 알약 혼합물</DankPyon_Mixture_VigorPill.label>
   <DankPyon_Mixture_VigorPill.description>활력 알약의 혼합물입니다. 사용하려면 추가 양조가 필요합니다.</DankPyon_Mixture_VigorPill.description>
+  <DankPyon_Mixture_Knowledge.label>지식의 포션 혼합물</DankPyon_Mixture_Knowledge.label>
+  <DankPyon_Mixture_Knowledge.description>지식의 포션 혼합물입니다. 사용하려면 추가 양조가 필요합니다.</DankPyon_Mixture_Knowledge.description>
   <DankPyon_Mixture_Luhix.label>루힉스 혼합물</DankPyon_Mixture_Luhix.label>
   <DankPyon_Mixture_Luhix.description>루힉스의 혼합물입니다. 사용하려면 추가 양조가 필요합니다.</DankPyon_Mixture_Luhix.description>
   <DankPyon_Mixture_Stardust.label>스타더스트</DankPyon_Mixture_Stardust.label>
@@ -120,6 +122,9 @@
   <DankPyon_HornetHoney.description>검은말벌이 분비하는 치명적인 달콤한 액체. 이를 섭취하면 고통을 못느끼며 반사 신경이 예리해져 근접전과 사격 능력이 향상됩니다.</DankPyon_HornetHoney.description>
   <DankPyon_HornetHoney.ingestible.ingestCommandString>{0} 섭취하기</DankPyon_HornetHoney.ingestible.ingestCommandString>
   <DankPyon_HornetHoney.ingestible.ingestReportString>{0} 섭취하는 중.</DankPyon_HornetHoney.ingestible.ingestReportString>
+  <DankPyon_KnowledgePotion.label>지식의 포션</DankPyon_KnowledgePotion.label>
+  <DankPyon_KnowledgePotion.description>괴물의 야수적인 부분, 숲의 정수, 그리고 깨어있는 악몽의 단편이 결합된 혼합물. 이 음료는 인간의 내면 깊숙한 곳에서든, 혹은 초자연적인 차원에서든 지식을 끌어내어, 특정 기술에서 더욱 뛰어난 능력을 발휘할 수 있도록 해줍니다.</DankPyon_KnowledgePotion.description>
+  <DankPyon_KnowledgePotion.comps.CompUsable.useLabel>{0_label} 사용</DankPyon_KnowledgePotion.comps.CompUsable.useLabel>
   <DankPyon_Luhix.label>루힉스</DankPyon_Luhix.label>
   <DankPyon_Luhix.description>기억력과 학습 능력을 향상시키는 희귀하고 강력한 물질로, 초기에 초집중을 약간 높여주어, 정신적 선명함과 빠른 기술 습득을 추구하는 이들에게 매우 인기가 있습니다.</DankPyon_Luhix.description>
   <DankPyon_Luhix.ingestible.ingestCommandString>{0} 마시기</DankPyon_Luhix.ingestible.ingestCommandString>
@@ -169,6 +174,14 @@
   <DankPyon_Brazier2x2c.description>밝게 타오르는 화로가 있는 고대 기념물 입니다.</DankPyon_Brazier2x2c.description>
   <DankPyon_Brazier1x1c.label>고대 화로</DankPyon_Brazier1x1c.label>
   <DankPyon_Brazier1x1c.description>고대의 화로가 환하게 타오르고 있습니다.</DankPyon_Brazier1x1c.description>
+  <DankPyon_SculptureSmall_Ice.label>작은 얼음 조각상</DankPyon_SculptureSmall_Ice.label>
+  <DankPyon_SculptureSmall_Ice.description>예술적인 형태로 조각된 상반신 크기의 조각상.</DankPyon_SculptureSmall_Ice.description>
+  <DankPyon_SculptureLarge_Ice.label>큰 얼음 조각상</DankPyon_SculptureLarge_Ice.label>
+  <DankPyon_SculptureLarge_Ice.description>예술적인 형태로 조각된 사람 크기의 조각상.</DankPyon_SculptureLarge_Ice.description>
+  <DankPyon_SculptureGrand_Ice.label>웅장한 얼음 조각상</DankPyon_SculptureGrand_Ice.label>
+  <DankPyon_SculptureGrand_Ice.description>예술적인 형태로 조각된 자동차 크기의 조각상.</DankPyon_SculptureGrand_Ice.description>
+  <DankPyon_UnfinishedSculpture_Ice.label>미완성 얼음 조각상</DankPyon_UnfinishedSculpture_Ice.label>
+  <DankPyon_UnfinishedSculpture_Ice.description>미완성된 얼음 조각상.</DankPyon_UnfinishedSculpture_Ice.description>
   <DankPyon_BannerMoonCult.description>정착지의 색상을 표시하기 위한 장식된 리넨 배너.</DankPyon_BannerMoonCult.description>
   <DankPyon_BannerMoonCult.label>배너 (달 숭배)</DankPyon_BannerMoonCult.label>
   <DankPyon_BannerSoren.description>정착지의 색상을 표시하기 위한 장식된 리넨 배너.</DankPyon_BannerSoren.description>
@@ -549,10 +562,10 @@
   <DankPyon_Smelter.description>고철과 원자재를 정제하거나 시체를 화장하는 데 사용되는 석재 제련소입니다.</DankPyon_Smelter.description>
   <DankPyon_Kiln.label>가마</DankPyon_Kiln.label>
   <DankPyon_Kiln.description>원시 점토를 구워 벽돌을 만드는 데 사용되는 돌 가마입니다.</DankPyon_Kiln.description>
-  <DankPyon_RusticFermentingBarrel.label>투박한 발효 통</DankPyon_RusticFermentingBarrel.label>
-  <DankPyon_RusticFermentingBarrel.description>맥아즙을 에일로 발효시키는 통입니다. 에일은 과일 향과 쌉싸름하고 진한 맛이 나는 술입니다.</DankPyon_RusticFermentingBarrel.description>
   <DankPyon_WindMill.label>풍차</DankPyon_WindMill.label>
   <DankPyon_WindMill.description>농산물을 자동으로 분쇄하는 풍력 제분소입니다. 최적의 공기 흐름을 위해 앞뒤에 넓은 여유 공간이 필요합니다.</DankPyon_WindMill.description>
+  <DankPyon_WaterMill.label>물레방아</DankPyon_WaterMill.label>
+  <DankPyon_WaterMill.description>물을 동력으로 사용하여 곡물 분쇄 및 목재 절단 작업을 자동화하는 방앗간입니다. 바퀴가 흐르는 물 위에 위치하도록 배치해야 합니다. 물레방아 끼리 너무 가까이 설치되면, 물의 소용돌이가 상호 간섭을 일으켜 효율이 저하될 수 있습니다.</DankPyon_WaterMill.description>
   <DankPyon_IceBlock_Maker.label>얼음 블록 틀</DankPyon_IceBlock_Maker.label>
   <DankPyon_IceBlock_Maker.description>추운 시기에 물을 얼음으로 얼리는 목재 틀입니다.</DankPyon_IceBlock_Maker.description>
   <DankPyon_MiningSpot.label>채굴 장소</DankPyon_MiningSpot.label>
@@ -561,6 +574,8 @@
   <DankPyon_DiggingSpot.description>땅을 파는 곳입니다. 이곳에서는 도구가 부족하여 생산이 느립니다.</DankPyon_DiggingSpot.description>
   <DankPyon_ResearchingSpot.label>연구 장소</DankPyon_ResearchingSpot.label>
   <DankPyon_ResearchingSpot.description>간단한 개념을 연구하기 위한 장소입니다. 도구가 없기 때문에 여기서 연구하는 것은 느립니다.</DankPyon_ResearchingSpot.description>
+  <DankPyon_WaterSpot.label>물 뜨는 곳</DankPyon_WaterSpot.label>
+  <DankPyon_WaterSpot.description>물을 뜰 수 있는 장소입니다. 도구가 부족하여 생산 속도가 느립니다.</DankPyon_WaterSpot.description>
   <DankPyon_StonecuttingSpot.label>석재 절삭 장소</DankPyon_StonecuttingSpot.label>
   <DankPyon_StonecuttingSpot.description>돌을 부딪혀 깨는 장소입니다. 도구가 없기 때문에 여기서 생산하는 것은 느립니다.</DankPyon_StonecuttingSpot.description>
   <DankPyon_ButchersBlock.label>푸주꾼의 그루터기</DankPyon_ButchersBlock.label>
@@ -1821,6 +1836,8 @@
   <DankPyon_Apparel_FullPlateGilded.description>풀 플레이트 갑옷처럼 방어력이 좋은 갑옷을 입을 수 있는 이는 거의 없습니다. 층이 진 금속 판의 형태로 가장 뛰어난 보호를 제공합니다. 상류층, 귀족, 자산가들만이 수많은 공격을 효과적으로 막아내는 장인이 만든 갑옷을 살 수 있습니다. 잘 연마한 금속에 비치는 빛을 본 적은 착용자가 부유할 뿐만 아니라 전쟁의 군주임을 알 수 있습니다.</DankPyon_Apparel_FullPlateGilded.description>
   <DankPyon_Apparel_FullPlateNamed.label>유명 판금 갑옷</DankPyon_Apparel_FullPlateNamed.label>
   <DankPyon_Apparel_FullPlateNamed.description>풀 플레이트 갑옷처럼 방어력이 좋은 갑옷을 입을 수 있는 이는 거의 없습니다. 층이 진 금속 판의 형태로 가장 뛰어난 보호를 제공합니다. 상류층, 귀족, 자산가들만이 수많은 공격을 효과적으로 막아내는 장인이 만든 갑옷을 살 수 있습니다. 잘 연마한 금속에 비치는 빛을 본 적은 착용자가 부유할 뿐만 아니라 전쟁의 군주임을 알 수 있습니다.</DankPyon_Apparel_FullPlateNamed.description>
+  <DankPyon_Apparel_Lindwurm.label>린트부름 비늘 갑옷</DankPyon_Apparel_Lindwurm.label>
+  <DankPyon_Apparel_Lindwurm.description>린트부름의 비늘을 꿰매어 만든 갑옷입니다. 이 갑옷을 착용하는 것은 착용자의 힘을 과시하는 행위이며, 이는 곧 위험한 린트부름을 처치하고 그 전리품을 차지했다는 증거가 됩니다.\n\n린트부름의 산성 공격에 면역을 부여합니다.</DankPyon_Apparel_Lindwurm.description>
   <DankPyon_Necklace_Citrine.label>황수정 목걸이</DankPyon_Necklace_Citrine.label>
   <DankPyon_Necklace_Citrine.description>황수정이 박힌 이 목걸이는 사회적 지위를 향상시키려는 사람들의 부를 약간 증가시킵니다.</DankPyon_Necklace_Citrine.description>
   <DankPyon_Necklace_Jade.label>비취 목걸이</DankPyon_Necklace_Jade.label>
@@ -1998,6 +2015,8 @@
   <DankPyon_Headgear_ArmetGilded.description>섬세하게 제작한 인체공학적으로 모양잡힌 판금 투구로, 머리 전체, 얼굴, 목에 대한 완전한 방어를 제공하고, 직격타가 되었을 만한 공격을 비껴나가도록 모양이 잡혀 있습니다.</DankPyon_Headgear_ArmetGilded.description>
   <DankPyon_Headgear_ArmetNamed.label>유명 아흐메</DankPyon_Headgear_ArmetNamed.label>
   <DankPyon_Headgear_ArmetNamed.description>고대 제국의 대장간에서 장인의 솜씨로 완성된 고대의 화려한 방어구입니다. 얼굴을 보호하고 경외감을 불러일으키는 우아함을 선사합니다.</DankPyon_Headgear_ArmetNamed.description>
+  <DankPyon_Headgear_Lindwurm.label>린트부름 비늘 투구</DankPyon_Headgear_Lindwurm.label>
+  <DankPyon_Headgear_Lindwurm.description>린트부름의 비늘로 만든 투구입니다. 이 투구를 착용하는 것은 착용자의 힘을 과시하는 행위이며, 이는 곧 위험한 린트부름을 처치하고 그 전리품을 차지했다는 증거가 됩니다.\n\n린트부름의 산성 공격에 면역을 부여합니다.</DankPyon_Headgear_Lindwurm.description>
   <DankPyon_NaturalWall_Clay.label>점토</DankPyon_NaturalWall_Clay.label>
   <DankPyon_NaturalWall_Clay.description>점토 입자가 서로 압축되어 이루어진 퇴적암입니다.</DankPyon_NaturalWall_Clay.description>
   <DankPyon_SmoothedClay.label>매끄러운 점토</DankPyon_SmoothedClay.label>
@@ -2314,6 +2333,66 @@
   <DankPyon_ShieldLindwurm.description>이 단단한 방패는 반짝이는 린트부름의 비늘로 만들어져 보호 기능이 거의 파괴 불가능합니다.\n\n린트부름 산성 면역을 제공합니다.</DankPyon_ShieldLindwurm.description>
   <DankPyon_ShieldLindwurm.tools.0.label>방패</DankPyon_ShieldLindwurm.tools.0.label>
   <DankPyon_ShieldLindwurm.tools.1.label>중앙</DankPyon_ShieldLindwurm.tools.1.label>
+  <DankPyon_MeleeWeapon_ButcherCleaver.label>정육점의 식칼</DankPyon_MeleeWeapon_ButcherCleaver.label>
+  <DankPyon_MeleeWeapon_ButcherCleaver.description>고기와 뼈를 자르는 데 사용되는 무거운 칼인 식칼은 음식을 준비하고 동물을 절단하는 데 탁월합니다. 하지만 날카로운 모서리 덕분에 치명적인 무기로도 효과적입니다.</DankPyon_MeleeWeapon_ButcherCleaver.description>
+  <DankPyon_MeleeWeapon_ButcherCleaver.tools.0.label>샤프트</DankPyon_MeleeWeapon_ButcherCleaver.tools.0.label>
+  <DankPyon_MeleeWeapon_ButcherCleaver.tools.1.label>날</DankPyon_MeleeWeapon_ButcherCleaver.tools.1.label>
+  <DankPyon_MeleeWeapon_Hatchet.label>작은 손도끼</DankPyon_MeleeWeapon_Hatchet.label>
+  <DankPyon_MeleeWeapon_Hatchet.description>견습 나무꾼이 사용하는 원시적인 도구인 작은 손도끼는 나무 자르는 일과 찍는 공격에 모두 유용합니다. 적이 방패 벽 뒤에 숨는다면 뛰어나면서도 접근성 좋은 대체재입니다.</DankPyon_MeleeWeapon_Hatchet.description>
+  <DankPyon_MeleeWeapon_Hatchet.tools.0.label>자루</DankPyon_MeleeWeapon_Hatchet.tools.0.label>
+  <DankPyon_MeleeWeapon_Hatchet.tools.1.label>날</DankPyon_MeleeWeapon_Hatchet.tools.1.label>
+  <DankPyon_MeleeWeapon_Handaxe.label>손도끼</DankPyon_MeleeWeapon_Handaxe.label>
+  <DankPyon_MeleeWeapon_Handaxe.description>작은 손도끼의 긴 버전으로, 손도끼의 긴 자루는 거리를 두고 더 강하게 휘두를 수 있게 합니다. 다루기 쉽고 실용적이기 때문에, 방패를 든 적에게 사용할 때 최고의 무기입니다.</DankPyon_MeleeWeapon_Handaxe.description>
+  <DankPyon_MeleeWeapon_Handaxe.tools.0.label>손잡이</DankPyon_MeleeWeapon_Handaxe.tools.0.label>
+  <DankPyon_MeleeWeapon_Handaxe.tools.1.label>날</DankPyon_MeleeWeapon_Handaxe.tools.1.label>
+  <DankPyon_MeleeWeapon_FightingAxe.label>전투 도끼</DankPyon_MeleeWeapon_FightingAxe.label>
+  <DankPyon_MeleeWeapon_FightingAxe.description>전투만을 위해 만든 도끼의 변종으로, 방패를 쪼개는 튼튼한 금속 머리와 갑옷을 뚫을 뾰족한 끝이 달려 있습니다. 피해는 강하지만, 사거리는 짧습니다.</DankPyon_MeleeWeapon_FightingAxe.description>
+  <DankPyon_MeleeWeapon_FightingAxe.tools.0.label>손잡이</DankPyon_MeleeWeapon_FightingAxe.tools.0.label>
+  <DankPyon_MeleeWeapon_FightingAxe.tools.1.label>날</DankPyon_MeleeWeapon_FightingAxe.tools.1.label>
+  <DankPyon_MeleeWeapon_WoodcuttersAxe.label>나무꾼의 도끼</DankPyon_MeleeWeapon_WoodcuttersAxe.label>
+  <DankPyon_MeleeWeapon_WoodcuttersAxe.description>긴 자루와 무겁고 날카로운 머리 때문에 숙련된 나무꾼과 도적들이 모두 사용하는 긴 도끼입니다. 이 설계 덕에 이 두손 도끼는 나무뿐만 아니라 적 또한 찍어 벨 수 있습니다.</DankPyon_MeleeWeapon_WoodcuttersAxe.description>
+  <DankPyon_MeleeWeapon_WoodcuttersAxe.tools.0.label>자루</DankPyon_MeleeWeapon_WoodcuttersAxe.tools.0.label>
+  <DankPyon_MeleeWeapon_WoodcuttersAxe.tools.1.label>날</DankPyon_MeleeWeapon_WoodcuttersAxe.tools.1.label>
+  <DankPyon_MeleeWeapon_Bardiche.label>바디쉬</DankPyon_MeleeWeapon_Bardiche.label>
+  <DankPyon_MeleeWeapon_Bardiche.description>파이크에서 영감을 받은 도끼인 바디쉬는 파이크의 머리처럼 늘어난 도끼 머리가 달렸습니다. 이 설계 덕에 이 두손 무기는 다양한 상황에 적응력이 높아서, 갑옷을 입지 않은 적들을 방패 쪼개는 것처럼 쉽게 가를 수 있습니다.</DankPyon_MeleeWeapon_Bardiche.description>
+  <DankPyon_MeleeWeapon_Bardiche.tools.0.label>자루</DankPyon_MeleeWeapon_Bardiche.tools.0.label>
+  <DankPyon_MeleeWeapon_Bardiche.tools.1.label>날</DankPyon_MeleeWeapon_Bardiche.tools.1.label>
+  <DankPyon_MeleeWeapon_Greataxe.label>대형 도끼</DankPyon_MeleeWeapon_Greataxe.label>
+  <DankPyon_MeleeWeapon_Greataxe.description>두손 도끼의 무거운 버전으로, 그 무게 덕에 높은 피해량과 튼튼한 내구도를 가졌습니다. 갑옷을 입지 않은 적이나 방패를 쪼갤 때 좋은 선택입니다. 잘 다루려면 상당한 힘이 필요합니다.</DankPyon_MeleeWeapon_Greataxe.description>
+  <DankPyon_MeleeWeapon_Greataxe.tools.0.label>자루</DankPyon_MeleeWeapon_Greataxe.tools.0.label>
+  <DankPyon_MeleeWeapon_Greataxe.tools.1.label>날</DankPyon_MeleeWeapon_Greataxe.tools.1.label>
+  <DankPyon_MeleeWeapon_Longaxe.label>긴 도끼</DankPyon_MeleeWeapon_Longaxe.label>
+  <DankPyon_MeleeWeapon_Longaxe.description>쓰기 쉽고 피해량이 높아 습격자들이 종종 쓰는 널리 퍼진 두손 무기입니다. 피해는 높지만, 자루가 길어 방패를 포기해야 하므로, 자신 있는 전투원들만 긴 도끼를 써야 합니다.</DankPyon_MeleeWeapon_Longaxe.description>
+  <DankPyon_MeleeWeapon_Longaxe.tools.0.label>자루</DankPyon_MeleeWeapon_Longaxe.tools.0.label>
+  <DankPyon_MeleeWeapon_Longaxe.tools.1.label>날</DankPyon_MeleeWeapon_Longaxe.tools.1.label>
+  <DankPyon_MeleeWeapon_BlacksmithHammer.label>대장장이의 망치</DankPyon_MeleeWeapon_BlacksmithHammer.label>
+  <DankPyon_MeleeWeapon_BlacksmithHammer.description>대장장이의 전형적인 도구인 대장장이 망치는 녹은 금속을 가공하고 강력한 무기와 방어구를 제작하는 데 사용됩니다. 주요 기능은 제작이지만, 무거운 머리와 튼튼한 손잡이는 그 자체로 가공할 만한 무기이며, 주괴를 형성하는 것과 동일한 효율성으로 방어를 뚫을 수 있습니다.</DankPyon_MeleeWeapon_BlacksmithHammer.description>
+  <DankPyon_MeleeWeapon_BlacksmithHammer.tools.0.label>자루</DankPyon_MeleeWeapon_BlacksmithHammer.tools.0.label>
+  <DankPyon_MeleeWeapon_BlacksmithHammer.tools.1.label>머리</DankPyon_MeleeWeapon_BlacksmithHammer.tools.1.label>
+  <DankPyon_MeleeWeapon_Pickaxe.label>곡괭이</DankPyon_MeleeWeapon_Pickaxe.label>
+  <DankPyon_MeleeWeapon_Pickaxe.description>돌과 주괴를 쳐서 부수기 위한 채굴용 도구입니다. 일단은 경제적인 자원을 모으기 위해 사용하지만, 양쪽에 치명적인 끝이 달려, 광석처럼 갑옷도 부술 수 있습니다.</DankPyon_MeleeWeapon_Pickaxe.description>
+  <DankPyon_MeleeWeapon_Pickaxe.tools.0.label>손잡이</DankPyon_MeleeWeapon_Pickaxe.tools.0.label>
+  <DankPyon_MeleeWeapon_Pickaxe.tools.1.label>끝</DankPyon_MeleeWeapon_Pickaxe.tools.1.label>
+  <DankPyon_MeleeWeapon_MilitaryPick.label>군용 곡괭이</DankPyon_MeleeWeapon_MilitaryPick.label>
+  <DankPyon_MeleeWeapon_MilitaryPick.description>광부들의 곡괭이에 영감을 받은 군용 곡괭이는 긴 자루와 뾰족한 가시로 설계되어 원판보다 갑옷을 더 효율적으로 뚫습니다.</DankPyon_MeleeWeapon_MilitaryPick.description>
+  <DankPyon_MeleeWeapon_MilitaryPick.tools.0.label>손잡이</DankPyon_MeleeWeapon_MilitaryPick.tools.0.label>
+  <DankPyon_MeleeWeapon_MilitaryPick.tools.1.label>끝</DankPyon_MeleeWeapon_MilitaryPick.tools.1.label>
+  <DankPyon_MeleeWeapon_Warhammer.label>전쟁 망치</DankPyon_MeleeWeapon_Warhammer.label>
+  <DankPyon_MeleeWeapon_Warhammer.description>금속 판이 구멍내기 힘들기는 하지만, 많은 전사들은 전쟁 망치로 갑옷에 피해를 입히기로 택했습니다. 짧아서 방패와 함께 들 수 있는 전쟁 망치는 부유한 귀족과 중무장한 기사들과 싸울 때 확실한 선택으로 남아 있습니다.</DankPyon_MeleeWeapon_Warhammer.description>
+  <DankPyon_MeleeWeapon_Warhammer.tools.0.label>손잡이</DankPyon_MeleeWeapon_Warhammer.tools.0.label>
+  <DankPyon_MeleeWeapon_Warhammer.tools.1.label>머리</DankPyon_MeleeWeapon_Warhammer.tools.1.label>
+  <DankPyon_MeleeWeapon_TwoHandedMallet.label>두손 나무 망치</DankPyon_MeleeWeapon_TwoHandedMallet.label>
+  <DankPyon_MeleeWeapon_TwoHandedMallet.description>나무 같이 한 가지 물질로만 만든 기본적인 무기로, 두손 나무 망치는 적이 갑옷을 입었든 아니든 진형을 무너뜨릴 수 있습니다.</DankPyon_MeleeWeapon_TwoHandedMallet.description>
+  <DankPyon_MeleeWeapon_TwoHandedMallet.tools.0.label>자루</DankPyon_MeleeWeapon_TwoHandedMallet.tools.0.label>
+  <DankPyon_MeleeWeapon_TwoHandedMallet.tools.1.label>머리</DankPyon_MeleeWeapon_TwoHandedMallet.tools.1.label>
+  <DankPyon_MeleeWeapon_TwoHandedHammer.label>두손 망치</DankPyon_MeleeWeapon_TwoHandedHammer.label>
+  <DankPyon_MeleeWeapon_TwoHandedHammer.description>나무 망치의 개량판으로, 무거운 금속 머리를 달아 목표물에 가하는 힘을 몇 배로 늘렸습니다. 휘두른 망치의 순수한의 힘만으로 단단한 판금과 튼튼한 방패를 쪼갤 수 있습니다.</DankPyon_MeleeWeapon_TwoHandedHammer.description>
+  <DankPyon_MeleeWeapon_TwoHandedHammer.tools.0.label>자루</DankPyon_MeleeWeapon_TwoHandedHammer.tools.0.label>
+  <DankPyon_MeleeWeapon_TwoHandedHammer.tools.1.label>머리</DankPyon_MeleeWeapon_TwoHandedHammer.tools.1.label>
+  <DankPyon_MeleeWeapon_Polehammer.label>폴해머</DankPyon_MeleeWeapon_Polehammer.label>
+  <DankPyon_MeleeWeapon_Polehammer.description>양손 망치의 변형판으로 머리에 두 뾰족한 점이 달려 있습니다. 이 설계는 갑옷 입은 적을 관통할 추가적인 방법을 제공하며, 갑옷이 부실한 상대를 쉽게 꿰뚫습니다.</DankPyon_MeleeWeapon_Polehammer.description>
+  <DankPyon_MeleeWeapon_Polehammer.tools.0.label>자루</DankPyon_MeleeWeapon_Polehammer.tools.0.label>
+  <DankPyon_MeleeWeapon_Polehammer.tools.1.label>머리</DankPyon_MeleeWeapon_Polehammer.tools.1.label>
   <DankPyon_MeleeWeapon_Bludgeon.label>몽둥이</DankPyon_MeleeWeapon_Bludgeon.label>
   <DankPyon_MeleeWeapon_Bludgeon.description>곤봉의 첫번째 형태로, 젼투에서 더 유용하기도 합니다. 금속으로 된 머리가 방어를 더 관통하고, 갑옷을 입지 않은 적의 뼈를 쉽게 부러뜨립니다.</DankPyon_MeleeWeapon_Bludgeon.description>
   <DankPyon_MeleeWeapon_Bludgeon.tools.0.label>손잡이</DankPyon_MeleeWeapon_Bludgeon.tools.0.label>
@@ -2342,6 +2421,42 @@
   <DankPyon_MeleeWeapon_TwoHandedFlangedMace.description>날개 달린 철퇴의 두손 버전으로, 긴 손잡이는 더 높은 피해뿐만 아니라 더 강한 방어 관통을 가능케 합니다. 돌출부가 방패와 금속 판금 모두 박살냅니다.</DankPyon_MeleeWeapon_TwoHandedFlangedMace.description>
   <DankPyon_MeleeWeapon_TwoHandedFlangedMace.tools.0.label>자루</DankPyon_MeleeWeapon_TwoHandedFlangedMace.tools.0.label>
   <DankPyon_MeleeWeapon_TwoHandedFlangedMace.tools.1.label>머리</DankPyon_MeleeWeapon_TwoHandedFlangedMace.tools.1.label>
+  <DankPyon_MeleeWeapon_NamedGreatsword.label>유명 대검</DankPyon_MeleeWeapon_NamedGreatsword.label>
+  <DankPyon_MeleeWeapon_NamedGreatsword.description>긴 날을 가진 거대한 양손 검으로, 맹렬한 휘두름과 베기로 적을 베어버릴 수 있습니다. 긴 찌르기에도 능숙합니다.\n\n오랫동안 잊혀진 지하 제국의 고대 유물입니다. 강철판도 흔들림 없이 뚫을 수 있는 장인의 솜씨로 만들어진 날입니다.</DankPyon_MeleeWeapon_NamedGreatsword.description>
+  <DankPyon_MeleeWeapon_NamedGreatsword.tools.0.label>자루</DankPyon_MeleeWeapon_NamedGreatsword.tools.0.label>
+  <DankPyon_MeleeWeapon_NamedGreatsword.tools.1.label>날</DankPyon_MeleeWeapon_NamedGreatsword.tools.1.label>
+  <DankPyon_MeleeWeapon_NamedGreatsword1c.label>유명 대검</DankPyon_MeleeWeapon_NamedGreatsword1c.label>
+  <DankPyon_MeleeWeapon_NamedGreatsword1c.description>긴 날을 가진 거대한 양손 검으로, 맹렬한 휘두름과 베기로 적을 베어버릴 수 있습니다. 긴 찌르기에도 능숙합니다.\n\n오랫동안 잊혀진 지하 제국의 고대 유물입니다. 강철판도 흔들림 없이 뚫을 수 있는 장인의 솜씨로 만들어진 날입니다.</DankPyon_MeleeWeapon_NamedGreatsword1c.description>
+  <DankPyon_MeleeWeapon_NamedGreatsword1c.tools.0.label>자루</DankPyon_MeleeWeapon_NamedGreatsword1c.tools.0.label>
+  <DankPyon_MeleeWeapon_NamedGreatsword1c.tools.1.label>날</DankPyon_MeleeWeapon_NamedGreatsword1c.tools.1.label>
+  <DankPyon_MeleeWeapon_NamedGreatsword2c.label>유명 대검</DankPyon_MeleeWeapon_NamedGreatsword2c.label>
+  <DankPyon_MeleeWeapon_NamedGreatsword2c.description>긴 날을 가진 거대한 양손 검으로, 맹렬한 휘두름과 베기로 적을 베어버릴 수 있습니다. 긴 찌르기에도 능숙합니다.\n\n오랫동안 잊혀진 지하 제국의 고대 유물입니다. 강철판도 흔들림 없이 뚫을 수 있는 장인의 솜씨로 만들어진 날입니다.</DankPyon_MeleeWeapon_NamedGreatsword2c.description>
+  <DankPyon_MeleeWeapon_NamedGreatsword2c.tools.0.label>자루</DankPyon_MeleeWeapon_NamedGreatsword2c.tools.0.label>
+  <DankPyon_MeleeWeapon_NamedGreatsword2c.tools.1.label>날</DankPyon_MeleeWeapon_NamedGreatsword2c.tools.1.label>
+  <DankPyon_MeleeWeapon_NamedTwoHandedFlangedMace.label>유명 돌출한 두손 철퇴</DankPyon_MeleeWeapon_NamedTwoHandedFlangedMace.label>
+  <DankPyon_MeleeWeapon_NamedTwoHandedFlangedMace.description>날개 달린 철퇴의 두손 버전으로, 긴 손잡이는 더 높은 피해뿐만 아니라 더 강한 방어 관통을 가능케 합니다. 돌출부가 방패와 금속 판금 모두 박살냅니다.</DankPyon_MeleeWeapon_NamedTwoHandedFlangedMace.description>
+  <DankPyon_MeleeWeapon_NamedTwoHandedFlangedMace.tools.0.label>자루</DankPyon_MeleeWeapon_NamedTwoHandedFlangedMace.tools.0.label>
+  <DankPyon_MeleeWeapon_NamedTwoHandedFlangedMace.tools.1.label>머리</DankPyon_MeleeWeapon_NamedTwoHandedFlangedMace.tools.1.label>
+  <DankPyon_MeleeWeapon_NamedGreataxe.label>유명 대형 도끼</DankPyon_MeleeWeapon_NamedGreataxe.label>
+  <DankPyon_MeleeWeapon_NamedGreataxe.description>두손 도끼의 무거운 버전으로, 그 무게 덕에 높은 피해량과 튼튼한 내구도를 가졌습니다. 갑옷을 입지 않은 적이나 방패를 쪼갤 때 좋은 선택입니다. 잘 다루려면 상당한 힘이 필요합니다.</DankPyon_MeleeWeapon_NamedGreataxe.description>
+  <DankPyon_MeleeWeapon_NamedGreataxe.tools.0.label>자루</DankPyon_MeleeWeapon_NamedGreataxe.tools.0.label>
+  <DankPyon_MeleeWeapon_NamedGreataxe.tools.1.label>날</DankPyon_MeleeWeapon_NamedGreataxe.tools.1.label>
+  <DankPyon_MeleeWeapon_NamedTwoHandedHammer.label>유명 두손 망치</DankPyon_MeleeWeapon_NamedTwoHandedHammer.label>
+  <DankPyon_MeleeWeapon_NamedTwoHandedHammer.description>나무 망치의 개량판으로, 무거운 금속 머리를 달아 목표물에 가하는 힘을 몇 배로 늘렸습니다. 휘두른 망치의 순수한의 힘만으로 단단한 판금과 튼튼한 방패를 쪼갤 수 있습니다.</DankPyon_MeleeWeapon_NamedTwoHandedHammer.description>
+  <DankPyon_MeleeWeapon_NamedTwoHandedHammer.tools.0.label>자루</DankPyon_MeleeWeapon_NamedTwoHandedHammer.tools.0.label>
+  <DankPyon_MeleeWeapon_NamedTwoHandedHammer.tools.1.label>머리</DankPyon_MeleeWeapon_NamedTwoHandedHammer.tools.1.label>
+  <DankPyon_MeleeWeapon_NamedTwoHandedHammer1c.label>유명 두손 망치</DankPyon_MeleeWeapon_NamedTwoHandedHammer1c.label>
+  <DankPyon_MeleeWeapon_NamedTwoHandedHammer1c.description>나무 망치의 개량판으로, 무거운 금속 머리를 달아 목표물에 가하는 힘을 몇 배로 늘렸습니다. 휘두른 망치의 순수한의 힘만으로 단단한 판금과 튼튼한 방패를 쪼갤 수 있습니다.</DankPyon_MeleeWeapon_NamedTwoHandedHammer1c.description>
+  <DankPyon_MeleeWeapon_NamedTwoHandedHammer1c.tools.0.label>자루</DankPyon_MeleeWeapon_NamedTwoHandedHammer1c.tools.0.label>
+  <DankPyon_MeleeWeapon_NamedTwoHandedHammer1c.tools.1.label>머리</DankPyon_MeleeWeapon_NamedTwoHandedHammer1c.tools.1.label>
+  <DankPyon_MeleeWeapon_NamedHalberd.label>유명 할버드</DankPyon_MeleeWeapon_NamedHalberd.label>
+  <DankPyon_MeleeWeapon_NamedHalberd.description>공격용 칼날, 그래플링용 갈고리, 체인메일과 금속판을 뚫을 수 있는 창 모양의 끝 등 세 개의 치명적인 끝이 달린 다용도 파이크입니다.</DankPyon_MeleeWeapon_NamedHalberd.description>
+  <DankPyon_MeleeWeapon_NamedHalberd.tools.0.label>자루</DankPyon_MeleeWeapon_NamedHalberd.tools.0.label>
+  <DankPyon_MeleeWeapon_NamedHalberd.tools.1.label>날</DankPyon_MeleeWeapon_NamedHalberd.tools.1.label>
+  <DankPyon_MeleeWeapon_NamedHalberd1c.label>유명 할버드</DankPyon_MeleeWeapon_NamedHalberd1c.label>
+  <DankPyon_MeleeWeapon_NamedHalberd1c.description>공격용 칼날, 그래플링용 갈고리, 체인메일과 금속판을 뚫을 수 있는 창 모양의 끝 등 세 개의 치명적인 끝이 달린 다용도 파이크입니다.</DankPyon_MeleeWeapon_NamedHalberd1c.description>
+  <DankPyon_MeleeWeapon_NamedHalberd1c.tools.0.label>자루</DankPyon_MeleeWeapon_NamedHalberd1c.tools.0.label>
+  <DankPyon_MeleeWeapon_NamedHalberd1c.tools.1.label>날</DankPyon_MeleeWeapon_NamedHalberd1c.tools.1.label>
   <DankPyon_MeleeWeapon_MilitiaSpear.label>민병대 창</DankPyon_MeleeWeapon_MilitiaSpear.label>
   <DankPyon_MeleeWeapon_MilitiaSpear.description>태곳적부터 귀족들은 전시에 무장하는 농민들인 농민군들에게 민병대 창을 지급했습니다. 그 논리는 간단했습니다: 활이나 칼을 연습하는 대신, 근접전 기술이 낮은 사람은 방패 뒤에 숨어서 길고 뾰족한 막대기로 찌르는 게 나을 것입니다. 피해는 낮지만, 방어 관통은 괜찮고 사용하기도 쉽습니다.</DankPyon_MeleeWeapon_MilitiaSpear.description>
   <DankPyon_MeleeWeapon_MilitiaSpear.tools.0.label>자루</DankPyon_MeleeWeapon_MilitiaSpear.tools.0.label>
@@ -2402,66 +2517,6 @@
   <DankPyon_MeleeWeapon_Halberd.description>공격용 칼날, 그래플링용 갈고리, 체인메일과 금속판을 뚫을 수 있는 창 모양의 끝 등 세 개의 치명적인 끝이 달린 다용도 파이크입니다.</DankPyon_MeleeWeapon_Halberd.description>
   <DankPyon_MeleeWeapon_Halberd.tools.0.label>자루</DankPyon_MeleeWeapon_Halberd.tools.0.label>
   <DankPyon_MeleeWeapon_Halberd.tools.1.label>날</DankPyon_MeleeWeapon_Halberd.tools.1.label>
-  <DankPyon_MeleeWeapon_BlacksmithHammer.label>대장장이의 망치</DankPyon_MeleeWeapon_BlacksmithHammer.label>
-  <DankPyon_MeleeWeapon_BlacksmithHammer.description>대장장이의 전형적인 도구인 대장장이 망치는 녹은 금속을 가공하고 강력한 무기와 방어구를 제작하는 데 사용됩니다. 주요 기능은 제작이지만, 무거운 머리와 튼튼한 손잡이는 그 자체로 가공할 만한 무기이며, 주괴를 형성하는 것과 동일한 효율성으로 방어를 뚫을 수 있습니다.</DankPyon_MeleeWeapon_BlacksmithHammer.description>
-  <DankPyon_MeleeWeapon_BlacksmithHammer.tools.0.label>자루</DankPyon_MeleeWeapon_BlacksmithHammer.tools.0.label>
-  <DankPyon_MeleeWeapon_BlacksmithHammer.tools.1.label>머리</DankPyon_MeleeWeapon_BlacksmithHammer.tools.1.label>
-  <DankPyon_MeleeWeapon_Pickaxe.label>곡괭이</DankPyon_MeleeWeapon_Pickaxe.label>
-  <DankPyon_MeleeWeapon_Pickaxe.description>돌과 주괴를 쳐서 부수기 위한 채굴용 도구입니다. 일단은 경제적인 자원을 모으기 위해 사용하지만, 양쪽에 치명적인 끝이 달려, 광석처럼 갑옷도 부술 수 있습니다.</DankPyon_MeleeWeapon_Pickaxe.description>
-  <DankPyon_MeleeWeapon_Pickaxe.tools.0.label>손잡이</DankPyon_MeleeWeapon_Pickaxe.tools.0.label>
-  <DankPyon_MeleeWeapon_Pickaxe.tools.1.label>끝</DankPyon_MeleeWeapon_Pickaxe.tools.1.label>
-  <DankPyon_MeleeWeapon_MilitaryPick.label>군용 곡괭이</DankPyon_MeleeWeapon_MilitaryPick.label>
-  <DankPyon_MeleeWeapon_MilitaryPick.description>광부들의 곡괭이에 영감을 받은 군용 곡괭이는 긴 자루와 뾰족한 가시로 설계되어 원판보다 갑옷을 더 효율적으로 뚫습니다.</DankPyon_MeleeWeapon_MilitaryPick.description>
-  <DankPyon_MeleeWeapon_MilitaryPick.tools.0.label>손잡이</DankPyon_MeleeWeapon_MilitaryPick.tools.0.label>
-  <DankPyon_MeleeWeapon_MilitaryPick.tools.1.label>끝</DankPyon_MeleeWeapon_MilitaryPick.tools.1.label>
-  <DankPyon_MeleeWeapon_Warhammer.label>전쟁 망치</DankPyon_MeleeWeapon_Warhammer.label>
-  <DankPyon_MeleeWeapon_Warhammer.description>금속 판이 구멍내기 힘들기는 하지만, 많은 전사들은 전쟁 망치로 갑옷에 피해를 입히기로 택했습니다. 짧아서 방패와 함께 들 수 있는 전쟁 망치는 부유한 귀족과 중무장한 기사들과 싸울 때 확실한 선택으로 남아 있습니다.</DankPyon_MeleeWeapon_Warhammer.description>
-  <DankPyon_MeleeWeapon_Warhammer.tools.0.label>손잡이</DankPyon_MeleeWeapon_Warhammer.tools.0.label>
-  <DankPyon_MeleeWeapon_Warhammer.tools.1.label>머리</DankPyon_MeleeWeapon_Warhammer.tools.1.label>
-  <DankPyon_MeleeWeapon_TwoHandedMallet.label>두손 나무 망치</DankPyon_MeleeWeapon_TwoHandedMallet.label>
-  <DankPyon_MeleeWeapon_TwoHandedMallet.description>나무 같이 한 가지 물질로만 만든 기본적인 무기로, 두손 나무 망치는 적이 갑옷을 입었든 아니든 진형을 무너뜨릴 수 있습니다.</DankPyon_MeleeWeapon_TwoHandedMallet.description>
-  <DankPyon_MeleeWeapon_TwoHandedMallet.tools.0.label>자루</DankPyon_MeleeWeapon_TwoHandedMallet.tools.0.label>
-  <DankPyon_MeleeWeapon_TwoHandedMallet.tools.1.label>머리</DankPyon_MeleeWeapon_TwoHandedMallet.tools.1.label>
-  <DankPyon_MeleeWeapon_TwoHandedHammer.label>두손 망치</DankPyon_MeleeWeapon_TwoHandedHammer.label>
-  <DankPyon_MeleeWeapon_TwoHandedHammer.description>나무 망치의 개량판으로, 무거운 금속 머리를 달아 목표물에 가하는 힘을 몇 배로 늘렸습니다. 휘두른 망치의 순수한의 힘만으로 단단한 판금과 튼튼한 방패를 쪼갤 수 있습니다.</DankPyon_MeleeWeapon_TwoHandedHammer.description>
-  <DankPyon_MeleeWeapon_TwoHandedHammer.tools.0.label>자루</DankPyon_MeleeWeapon_TwoHandedHammer.tools.0.label>
-  <DankPyon_MeleeWeapon_TwoHandedHammer.tools.1.label>머리</DankPyon_MeleeWeapon_TwoHandedHammer.tools.1.label>
-  <DankPyon_MeleeWeapon_Polehammer.label>폴해머</DankPyon_MeleeWeapon_Polehammer.label>
-  <DankPyon_MeleeWeapon_Polehammer.description>양손 망치의 변형판으로 머리에 두 뾰족한 점이 달려 있습니다. 이 설계는 갑옷 입은 적을 관통할 추가적인 방법을 제공하며, 갑옷이 부실한 상대를 쉽게 꿰뚫습니다.</DankPyon_MeleeWeapon_Polehammer.description>
-  <DankPyon_MeleeWeapon_Polehammer.tools.0.label>자루</DankPyon_MeleeWeapon_Polehammer.tools.0.label>
-  <DankPyon_MeleeWeapon_Polehammer.tools.1.label>머리</DankPyon_MeleeWeapon_Polehammer.tools.1.label>
-  <DankPyon_MeleeWeapon_ButcherCleaver.label>정육점의 식칼</DankPyon_MeleeWeapon_ButcherCleaver.label>
-  <DankPyon_MeleeWeapon_ButcherCleaver.description>고기와 뼈를 자르는 데 사용되는 무거운 칼인 식칼은 음식을 준비하고 동물을 절단하는 데 탁월합니다. 하지만 날카로운 모서리 덕분에 치명적인 무기로도 효과적입니다.</DankPyon_MeleeWeapon_ButcherCleaver.description>
-  <DankPyon_MeleeWeapon_ButcherCleaver.tools.0.label>샤프트</DankPyon_MeleeWeapon_ButcherCleaver.tools.0.label>
-  <DankPyon_MeleeWeapon_ButcherCleaver.tools.1.label>날</DankPyon_MeleeWeapon_ButcherCleaver.tools.1.label>
-  <DankPyon_MeleeWeapon_Hatchet.label>작은 손도끼</DankPyon_MeleeWeapon_Hatchet.label>
-  <DankPyon_MeleeWeapon_Hatchet.description>견습 나무꾼이 사용하는 원시적인 도구인 작은 손도끼는 나무 자르는 일과 찍는 공격에 모두 유용합니다. 적이 방패 벽 뒤에 숨는다면 뛰어나면서도 접근성 좋은 대체재입니다.</DankPyon_MeleeWeapon_Hatchet.description>
-  <DankPyon_MeleeWeapon_Hatchet.tools.0.label>자루</DankPyon_MeleeWeapon_Hatchet.tools.0.label>
-  <DankPyon_MeleeWeapon_Hatchet.tools.1.label>날</DankPyon_MeleeWeapon_Hatchet.tools.1.label>
-  <DankPyon_MeleeWeapon_Handaxe.label>손도끼</DankPyon_MeleeWeapon_Handaxe.label>
-  <DankPyon_MeleeWeapon_Handaxe.description>작은 손도끼의 긴 버전으로, 손도끼의 긴 자루는 거리를 두고 더 강하게 휘두를 수 있게 합니다. 다루기 쉽고 실용적이기 때문에, 방패를 든 적에게 사용할 때 최고의 무기입니다.</DankPyon_MeleeWeapon_Handaxe.description>
-  <DankPyon_MeleeWeapon_Handaxe.tools.0.label>손잡이</DankPyon_MeleeWeapon_Handaxe.tools.0.label>
-  <DankPyon_MeleeWeapon_Handaxe.tools.1.label>날</DankPyon_MeleeWeapon_Handaxe.tools.1.label>
-  <DankPyon_MeleeWeapon_FightingAxe.label>전투 도끼</DankPyon_MeleeWeapon_FightingAxe.label>
-  <DankPyon_MeleeWeapon_FightingAxe.description>전투만을 위해 만든 도끼의 변종으로, 방패를 쪼개는 튼튼한 금속 머리와 갑옷을 뚫을 뾰족한 끝이 달려 있습니다. 피해는 강하지만, 사거리는 짧습니다.</DankPyon_MeleeWeapon_FightingAxe.description>
-  <DankPyon_MeleeWeapon_FightingAxe.tools.0.label>손잡이</DankPyon_MeleeWeapon_FightingAxe.tools.0.label>
-  <DankPyon_MeleeWeapon_FightingAxe.tools.1.label>날</DankPyon_MeleeWeapon_FightingAxe.tools.1.label>
-  <DankPyon_MeleeWeapon_WoodcuttersAxe.label>나무꾼의 도끼</DankPyon_MeleeWeapon_WoodcuttersAxe.label>
-  <DankPyon_MeleeWeapon_WoodcuttersAxe.description>긴 자루와 무겁고 날카로운 머리 때문에 숙련된 나무꾼과 도적들이 모두 사용하는 긴 도끼입니다. 이 설계 덕에 이 두손 도끼는 나무뿐만 아니라 적 또한 찍어 벨 수 있습니다.</DankPyon_MeleeWeapon_WoodcuttersAxe.description>
-  <DankPyon_MeleeWeapon_WoodcuttersAxe.tools.0.label>자루</DankPyon_MeleeWeapon_WoodcuttersAxe.tools.0.label>
-  <DankPyon_MeleeWeapon_WoodcuttersAxe.tools.1.label>날</DankPyon_MeleeWeapon_WoodcuttersAxe.tools.1.label>
-  <DankPyon_MeleeWeapon_Bardiche.label>바디쉬</DankPyon_MeleeWeapon_Bardiche.label>
-  <DankPyon_MeleeWeapon_Bardiche.description>파이크에서 영감을 받은 도끼인 바디쉬는 파이크의 머리처럼 늘어난 도끼 머리가 달렸습니다. 이 설계 덕에 이 두손 무기는 다양한 상황에 적응력이 높아서, 갑옷을 입지 않은 적들을 방패 쪼개는 것처럼 쉽게 가를 수 있습니다.</DankPyon_MeleeWeapon_Bardiche.description>
-  <DankPyon_MeleeWeapon_Bardiche.tools.0.label>자루</DankPyon_MeleeWeapon_Bardiche.tools.0.label>
-  <DankPyon_MeleeWeapon_Bardiche.tools.1.label>날</DankPyon_MeleeWeapon_Bardiche.tools.1.label>
-  <DankPyon_MeleeWeapon_Greataxe.label>대형 도끼</DankPyon_MeleeWeapon_Greataxe.label>
-  <DankPyon_MeleeWeapon_Greataxe.description>두손 도끼의 무거운 버전으로, 그 무게 덕에 높은 피해량과 튼튼한 내구도를 가졌습니다. 갑옷을 입지 않은 적이나 방패를 쪼갤 때 좋은 선택입니다. 잘 다루려면 상당한 힘이 필요합니다.</DankPyon_MeleeWeapon_Greataxe.description>
-  <DankPyon_MeleeWeapon_Greataxe.tools.0.label>자루</DankPyon_MeleeWeapon_Greataxe.tools.0.label>
-  <DankPyon_MeleeWeapon_Greataxe.tools.1.label>날</DankPyon_MeleeWeapon_Greataxe.tools.1.label>
-  <DankPyon_MeleeWeapon_Longaxe.label>긴 도끼</DankPyon_MeleeWeapon_Longaxe.label>
-  <DankPyon_MeleeWeapon_Longaxe.description>쓰기 쉽고 피해량이 높아 습격자들이 종종 쓰는 널리 퍼진 두손 무기입니다. 피해는 높지만, 자루가 길어 방패를 포기해야 하므로, 자신 있는 전투원들만 긴 도끼를 써야 합니다.</DankPyon_MeleeWeapon_Longaxe.description>
-  <DankPyon_MeleeWeapon_Longaxe.tools.0.label>자루</DankPyon_MeleeWeapon_Longaxe.tools.0.label>
-  <DankPyon_MeleeWeapon_Longaxe.tools.1.label>날</DankPyon_MeleeWeapon_Longaxe.tools.1.label>
   <DankPyon_MeleeWeapon_Falchion.label>펄션</DankPyon_MeleeWeapon_Falchion.label>
   <DankPyon_MeleeWeapon_Falchion.description>튼튼하고 날이 넓은 펄션은 생산하고 사용하기 쉽기 때문에 민병대나 소작농의 손에서 쉽게 찾아볼 수 있습니다. 베는 데 제일 좋지만, 한 점을 찌를 수도 있습니다.</DankPyon_MeleeWeapon_Falchion.description>
   <DankPyon_MeleeWeapon_Falchion.tools.0.label>손잡이</DankPyon_MeleeWeapon_Falchion.tools.0.label>
@@ -2486,42 +2541,6 @@
   <DankPyon_MeleeWeapon_Greatsword.description>길다란 양손 검으로, 여러 모로 쓸모있게 휘두를 수 있습니다.</DankPyon_MeleeWeapon_Greatsword.description>
   <DankPyon_MeleeWeapon_Greatsword.tools.0.label>손잡이</DankPyon_MeleeWeapon_Greatsword.tools.0.label>
   <DankPyon_MeleeWeapon_Greatsword.tools.1.label>날</DankPyon_MeleeWeapon_Greatsword.tools.1.label>
-  <DankPyon_MeleeWeapon_NamedGreatsword.label>유명 대검</DankPyon_MeleeWeapon_NamedGreatsword.label>
-  <DankPyon_MeleeWeapon_NamedGreatsword.description>긴 날을 가진 거대한 양손 검으로, 맹렬한 휘두름과 베기로 적을 베어버릴 수 있습니다. 긴 찌르기에도 능숙합니다.\n\n오랫동안 잊혀진 지하 제국의 고대 유물입니다. 강철판도 흔들림 없이 뚫을 수 있는 장인의 솜씨로 만들어진 날입니다.</DankPyon_MeleeWeapon_NamedGreatsword.description>
-  <DankPyon_MeleeWeapon_NamedGreatsword.tools.0.label>자루</DankPyon_MeleeWeapon_NamedGreatsword.tools.0.label>
-  <DankPyon_MeleeWeapon_NamedGreatsword.tools.1.label>날</DankPyon_MeleeWeapon_NamedGreatsword.tools.1.label>
-  <DankPyon_MeleeWeapon_NamedGreatsword1c.label>유명 대검</DankPyon_MeleeWeapon_NamedGreatsword1c.label>
-  <DankPyon_MeleeWeapon_NamedGreatsword1c.description>긴 날을 가진 거대한 양손 검으로, 맹렬한 휘두름과 베기로 적을 베어버릴 수 있습니다. 긴 찌르기에도 능숙합니다.\n\n오랫동안 잊혀진 지하 제국의 고대 유물입니다. 강철판도 흔들림 없이 뚫을 수 있는 장인의 솜씨로 만들어진 날입니다.</DankPyon_MeleeWeapon_NamedGreatsword1c.description>
-  <DankPyon_MeleeWeapon_NamedGreatsword1c.tools.0.label>자루</DankPyon_MeleeWeapon_NamedGreatsword1c.tools.0.label>
-  <DankPyon_MeleeWeapon_NamedGreatsword1c.tools.1.label>날</DankPyon_MeleeWeapon_NamedGreatsword1c.tools.1.label>
-  <DankPyon_MeleeWeapon_NamedGreatsword2c.label>유명 대검</DankPyon_MeleeWeapon_NamedGreatsword2c.label>
-  <DankPyon_MeleeWeapon_NamedGreatsword2c.description>긴 날을 가진 거대한 양손 검으로, 맹렬한 휘두름과 베기로 적을 베어버릴 수 있습니다. 긴 찌르기에도 능숙합니다.\n\n오랫동안 잊혀진 지하 제국의 고대 유물입니다. 강철판도 흔들림 없이 뚫을 수 있는 장인의 솜씨로 만들어진 날입니다.</DankPyon_MeleeWeapon_NamedGreatsword2c.description>
-  <DankPyon_MeleeWeapon_NamedGreatsword2c.tools.0.label>자루</DankPyon_MeleeWeapon_NamedGreatsword2c.tools.0.label>
-  <DankPyon_MeleeWeapon_NamedGreatsword2c.tools.1.label>날</DankPyon_MeleeWeapon_NamedGreatsword2c.tools.1.label>
-  <DankPyon_MeleeWeapon_NamedTwoHandedFlangedMace.label>유명 돌출한 두손 철퇴</DankPyon_MeleeWeapon_NamedTwoHandedFlangedMace.label>
-  <DankPyon_MeleeWeapon_NamedTwoHandedFlangedMace.description>날개 달린 철퇴의 두손 버전으로, 긴 손잡이는 더 높은 피해뿐만 아니라 더 강한 방어 관통을 가능케 합니다. 돌출부가 방패와 금속 판금 모두 박살냅니다.</DankPyon_MeleeWeapon_NamedTwoHandedFlangedMace.description>
-  <DankPyon_MeleeWeapon_NamedTwoHandedFlangedMace.tools.0.label>자루</DankPyon_MeleeWeapon_NamedTwoHandedFlangedMace.tools.0.label>
-  <DankPyon_MeleeWeapon_NamedTwoHandedFlangedMace.tools.1.label>머리</DankPyon_MeleeWeapon_NamedTwoHandedFlangedMace.tools.1.label>
-  <DankPyon_MeleeWeapon_NamedGreataxe.label>유명 대형 도끼</DankPyon_MeleeWeapon_NamedGreataxe.label>
-  <DankPyon_MeleeWeapon_NamedGreataxe.description>두손 도끼의 무거운 버전으로, 그 무게 덕에 높은 피해량과 튼튼한 내구도를 가졌습니다. 갑옷을 입지 않은 적이나 방패를 쪼갤 때 좋은 선택입니다. 잘 다루려면 상당한 힘이 필요합니다.</DankPyon_MeleeWeapon_NamedGreataxe.description>
-  <DankPyon_MeleeWeapon_NamedGreataxe.tools.0.label>자루</DankPyon_MeleeWeapon_NamedGreataxe.tools.0.label>
-  <DankPyon_MeleeWeapon_NamedGreataxe.tools.1.label>날</DankPyon_MeleeWeapon_NamedGreataxe.tools.1.label>
-  <DankPyon_MeleeWeapon_NamedTwoHandedHammer.label>유명 두손 망치</DankPyon_MeleeWeapon_NamedTwoHandedHammer.label>
-  <DankPyon_MeleeWeapon_NamedTwoHandedHammer.description>나무 망치의 개량판으로, 무거운 금속 머리를 달아 목표물에 가하는 힘을 몇 배로 늘렸습니다. 휘두른 망치의 순수한의 힘만으로 단단한 판금과 튼튼한 방패를 쪼갤 수 있습니다.</DankPyon_MeleeWeapon_NamedTwoHandedHammer.description>
-  <DankPyon_MeleeWeapon_NamedTwoHandedHammer.tools.0.label>자루</DankPyon_MeleeWeapon_NamedTwoHandedHammer.tools.0.label>
-  <DankPyon_MeleeWeapon_NamedTwoHandedHammer.tools.1.label>머리</DankPyon_MeleeWeapon_NamedTwoHandedHammer.tools.1.label>
-  <DankPyon_MeleeWeapon_NamedTwoHandedHammer1c.label>유명 두손 망치</DankPyon_MeleeWeapon_NamedTwoHandedHammer1c.label>
-  <DankPyon_MeleeWeapon_NamedTwoHandedHammer1c.description>나무 망치의 개량판으로, 무거운 금속 머리를 달아 목표물에 가하는 힘을 몇 배로 늘렸습니다. 휘두른 망치의 순수한의 힘만으로 단단한 판금과 튼튼한 방패를 쪼갤 수 있습니다.</DankPyon_MeleeWeapon_NamedTwoHandedHammer1c.description>
-  <DankPyon_MeleeWeapon_NamedTwoHandedHammer1c.tools.0.label>자루</DankPyon_MeleeWeapon_NamedTwoHandedHammer1c.tools.0.label>
-  <DankPyon_MeleeWeapon_NamedTwoHandedHammer1c.tools.1.label>머리</DankPyon_MeleeWeapon_NamedTwoHandedHammer1c.tools.1.label>
-  <DankPyon_MeleeWeapon_NamedHalberd.label>유명 할버드</DankPyon_MeleeWeapon_NamedHalberd.label>
-  <DankPyon_MeleeWeapon_NamedHalberd.description>공격용 칼날, 그래플링용 갈고리, 체인메일과 금속판을 뚫을 수 있는 창 모양의 끝 등 세 개의 치명적인 끝이 달린 다용도 파이크입니다.</DankPyon_MeleeWeapon_NamedHalberd.description>
-  <DankPyon_MeleeWeapon_NamedHalberd.tools.0.label>자루</DankPyon_MeleeWeapon_NamedHalberd.tools.0.label>
-  <DankPyon_MeleeWeapon_NamedHalberd.tools.1.label>날</DankPyon_MeleeWeapon_NamedHalberd.tools.1.label>
-  <DankPyon_MeleeWeapon_NamedHalberd1c.label>유명 할버드</DankPyon_MeleeWeapon_NamedHalberd1c.label>
-  <DankPyon_MeleeWeapon_NamedHalberd1c.description>공격용 칼날, 그래플링용 갈고리, 체인메일과 금속판을 뚫을 수 있는 창 모양의 끝 등 세 개의 치명적인 끝이 달린 다용도 파이크입니다.</DankPyon_MeleeWeapon_NamedHalberd1c.description>
-  <DankPyon_MeleeWeapon_NamedHalberd1c.tools.0.label>자루</DankPyon_MeleeWeapon_NamedHalberd1c.tools.0.label>
-  <DankPyon_MeleeWeapon_NamedHalberd1c.tools.1.label>날</DankPyon_MeleeWeapon_NamedHalberd1c.tools.1.label>
   <DankPyon_Crossbow.label>쇠뇌</DankPyon_Crossbow.label>
   <DankPyon_Crossbow.description>활과 비슷하게, 뒤로 당긴 시위로 장력을 만들어 놓으면 투사체를 쏘아 보내는 무기입니다. 그러나, 쇠뇌의 구조 덕에 활시위를 사용자가 뒤로 당겨 고정시킬 수 있으므로, 초보자들이 다가가기 쉬우면서도 전투에서도 강력합니다.</DankPyon_Crossbow.description>
   <DankPyon_Crossbow.verbs.Verb_Shoot.label>쇠뇌</DankPyon_Crossbow.verbs.Verb_Shoot.label>
@@ -2629,4 +2648,6 @@
   <DankPyon_UnholdSnow.tools.left_fist.labelNoLocation>주먹</DankPyon_UnholdSnow.tools.left_fist.labelNoLocation>
   <DankPyon_UnholdSnow.tools.right_claw.labelNoLocation>발톱</DankPyon_UnholdSnow.tools.right_claw.labelNoLocation>
   <DankPyon_UnholdSnow.tools.right_fist.labelNoLocation>주먹</DankPyon_UnholdSnow.tools.right_fist.labelNoLocation>
+  <DankPyon_MinifiedIceThing.label>작아진 물건</DankPyon_MinifiedIceThing.label>
+  <DankPyon_RoyalThrone.comps.CompAssignableToPawn_Throne.noAssignablePawnsDesc>왕좌를 소유하려면 작위를 가진 사람이 필요합니다.</DankPyon_RoyalThrone.comps.CompAssignableToPawn_Throne.noAssignablePawnsDesc>
 </LanguageData>
