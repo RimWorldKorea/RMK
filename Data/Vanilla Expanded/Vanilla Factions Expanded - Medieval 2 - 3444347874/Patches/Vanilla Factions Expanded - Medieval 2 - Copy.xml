@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Bees</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEM2_MeadFermentingBarrel"]/label</xpath>
+          <value>
+            <label>허니 와인 발효통</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEM2_MeadFermentingBarrel"]/description</xpath>
+          <value>
+            <description>매우 단순한 통으로, 구멍과 꼭지와 함께 고정되어 있습니다. 생벌꿀을 허니 와인으로 발효할 수 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEM2_Mead"]/label</xpath>
+          <value>
+            <label>허니 와인</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEM2_Mead"]/description</xpath>
+          <value>
+            <description>포도주와 비슷한 음료로, 발효된 꿀과 물로 만든, 간단한 통에서 숙성된 음료입니다. 이 달콤하고 아삭한 음료는 시간이 지남에 따라 숙성되며 특히 안락함을 준다고 합니다. 허니 와인을 마시면 정신 감응력이 저하됩니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="VFEM2_MeadAlcoholHigh"]/label</xpath>
+          <value>
+            <label>허니 와인에 취함</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="VFEM2_MeadAlcoholHigh"]/description</xpath>
+          <value>
+            <description>혈액에 허니 와인 성분이 존재합니다. 행복감을 느끼지만 능력이 저하됩니다. 정신 감응력이 약간 저하됩니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Weapons Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEM2_Bullet_Musket"]/label</xpath>
+          <value>
+            <label>머스킷 샷</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEM2_Bullet_Flintlock"]/label</xpath>
+          <value>
+            <label>플린트락 샷</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
