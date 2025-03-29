@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Cinder"]/tools/li[4]/label</xpath>
+          <value>
+            <label>머리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Cinder"]/tools/li[3]/label</xpath>
+          <value>
+            <label>이빨 </label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Cinder"]/tools/li[2]/label</xpath>
+          <value>
+            <label>오른쪽 주먹</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Cinder"]/tools/li[1]/label</xpath>
+          <value>
+            <label>왼쪽 주먹</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/StatDef[defName="SwayFactor"]/parts/li[3]/desc</xpath>
+          <value>
+            <desc>Secondary mode: {OFFSET}</desc>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/StatDef[defName="SightsEfficiency"]/parts/li[4]/desc</xpath>
+          <value>
+            <desc>Secondary mode: {OFFSET}</desc>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/StatDef[defName="ShotSpread"]/parts/li[4]/desc</xpath>
+          <value>
+            <desc>Secondary mode: {OFFSET}</desc>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Trailer"]/tools/li[3]/label</xpath>
+          <value>
+            <label>전방 촉수</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Trailer"]/tools/li[2]/label</xpath>
+          <value>
+            <label>오른쪽 촉수</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Trailer"]/tools/li[1]/label</xpath>
+          <value>
+            <label>왼쪽 촉수</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_PCX33A"]/tools/li[3]/label</xpath>
+          <value>
+            <label>총구</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_PCX33A"]/tools/li[2]/label</xpath>
+          <value>
+            <label>총열</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_PCX33A"]/tools/li[1]/label</xpath>
+          <value>
+            <label>개머리판</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_MP12A"]/tools/li[3]/label</xpath>
+          <value>
+            <label>총구</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_MP12A"]/tools/li[2]/label</xpath>
+          <value>
+            <label>총열</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_MP12A"]/tools/li[1]/label</xpath>
+          <value>
+            <label>개머리판</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Mech_WarSweeper"]/tools/li[3]/label</xpath>
+          <value>
+            <label>전방 촉수</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Mech_WarSweeper"]/tools/li[2]/label</xpath>
+          <value>
+            <label>오른쪽 촉수</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Mech_WarSweeper"]/tools/li[1]/label</xpath>
+          <value>
+            <label>왼쪽 촉수</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Mech_WarAttacker"]/tools/li[3]/label</xpath>
+          <value>
+            <label>전방 촉수</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Mech_WarAttacker"]/tools/li[2]/label</xpath>
+          <value>
+            <label>오른쪽 촉수</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Mech_WarAttacker"]/tools/li[1]/label</xpath>
+          <value>
+            <label>왼쪽 촉수</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Mech_WalkerSniper"]/tools/li[3]/label</xpath>
+          <value>
+            <label>전방 촉수</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Mech_WalkerSniper"]/tools/li[2]/label</xpath>
+          <value>
+            <label>오른쪽 촉수</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Mech_WalkerSniper"]/tools/li[1]/label</xpath>
+          <value>
+            <label>왼쪽 촉수</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Mech_WalkerRocket"]/tools/li[3]/label</xpath>
+          <value>
+            <label>전방 촉수</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Mech_WalkerRocket"]/tools/li[2]/label</xpath>
+          <value>
+            <label>오른쪽 촉수</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Mech_WalkerRocket"]/tools/li[1]/label</xpath>
+          <value>
+            <label>왼쪽 촉수</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Mech_WalkerAutoCannon"]/tools/li[3]/label</xpath>
+          <value>
+            <label>전방 촉수</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Mech_WalkerAutoCannon"]/tools/li[2]/label</xpath>
+          <value>
+            <label>오른쪽 촉수</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Mech_WalkerAutoCannon"]/tools/li[1]/label</xpath>
+          <value>
+            <label>왼쪽 촉수</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Mech_MiniTurretWalker"]/tools/li[3]/label</xpath>
+          <value>
+            <label>전방 촉수</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Mech_MiniTurretWalker"]/tools/li[2]/label</xpath>
+          <value>
+            <label>오른쪽 촉수</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Mech_MiniTurretWalker"]/tools/li[1]/label</xpath>
+          <value>
+            <label>왼쪽 촉수</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Mech_ErodedEXO"]/tools/li[3]/label</xpath>
+          <value>
+            <label>전방 촉수</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Mech_ErodedEXO"]/tools/li[2]/label</xpath>
+          <value>
+            <label>오른쪽 촉수</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Mech_ErodedEXO"]/tools/li[1]/label</xpath>
+          <value>
+            <label>왼쪽 촉수</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Magistrate"]/tools/li[3]/label</xpath>
+          <value>
+            <label>총구</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Magistrate"]/tools/li[2]/label</xpath>
+          <value>
+            <label>총열</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Magistrate"]/tools/li[1]/label</xpath>
+          <value>
+            <label>개머리판</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_ImpactBreaker"]/tools/li[1]/label</xpath>
+          <value>
+            <label>머리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Flint50A"]/tools/li[3]/label</xpath>
+          <value>
+            <label>총구</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Flint50A"]/tools/li[2]/label</xpath>
+          <value>
+            <label>총열</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Flint50A"]/tools/li[1]/label</xpath>
+          <value>
+            <label>개머리판</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_ErosionGourd"]/tools/li[1]/label</xpath>
+          <value>
+            <label>촉수 칼날</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_ErosionGourd"]/description</xpath>
+          <value>
+            <description>먼 거리에서 촉수를 해방해 적을 찌를 수 있는 기묘한 호리병입니다. 때때로 기묘한 촉수가 자라나기도 합니다.\nCE 정보 : 피해량 20 관통력 : 80Mpa</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_ElectricScythe"]/tools/li[2]/label</xpath>
+          <value>
+            <label>날</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_ElectricScythe"]/tools/li[1]/label</xpath>
+          <value>
+            <label>손잡이</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Dragonslayer"]/tools/li[1]/label</xpath>
+          <value>
+            <label>총열</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Mech_Krepost"]/tools/li[1]/label</xpath>
+          <value>
+            <label>왼쪽 촉수</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Mech_Krepost"]/tools/li[2]/label</xpath>
+          <value>
+            <label>오른쪽 촉수</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Mech_Krepost"]/tools/li[3]/label</xpath>
+          <value>
+            <label>전방 촉수</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ScenarioDef[defName="Cinder_ScenarioB"]/scenario/parts/li[1]/xenotypeCounts/li[1]/description</xpath>
+          <value>
+            <description>성인 신더</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ScenarioDef[defName="Cinder_ScenarioB"]/scenario/parts/li[1]/customSummary</xpath>
+          <value>
+            <customSummary>1명의 신더로 시작합니다.</customSummary>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ScenarioDef[defName="Cinder_Scenario"]/scenario/parts/li[1]/xenotypeCounts/li[1]/description</xpath>
+          <value>
+            <description>성인 신더</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ScenarioDef[defName="Cinder_Scenario"]/scenario/parts/li[1]/customSummary</xpath>
+          <value>
+            <customSummary>3명의 신더로 시작합니다.</customSummary>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>The Dead Man's Switch</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="Cinder_MechGun_AnvilDiscipline"]/tools/li[1]/label</xpath>
+            <value>
+              <label>개머리판</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="Cinder_MechGun_AnvilDiscipline"]/tools/li[2]/label</xpath>
+            <value>
+              <label>총신</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="Cinder_MechGun_AnvilDiscipline"]/tools/li[3]/label</xpath>
+            <value>
+              <label>총구</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/StatDef[defName="AccuracyTouch"]/parts/li[2]/desc</xpath>
+    <value>
+      <desc>Secondary mode: {OFFSET}</desc>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/StatDef[defName="AccuracyShort"]/parts/li[2]/desc</xpath>
+    <value>
+      <desc>Secondary mode: {OFFSET}</desc>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/StatDef[defName="AccuracyMedium"]/parts/li[2]/desc</xpath>
+    <value>
+      <desc>Secondary mode: {OFFSET}</desc>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/StatDef[defName="AccuracyLong"]/parts/li[2]/desc</xpath>
+    <value>
+      <desc>Secondary mode: {OFFSET}</desc>
+    </value>
+  </Operation>
+</Patch>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThoughtDef[defName="Ugly"]/stages/li[1]/label</xpath>
+    <value>
+      <label>보기 싫은 외모</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThoughtDef[defName="Ugly"]/stages/li[2]/label</xpath>
+    <value>
+      <label>끔찍한 외모</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThoughtDef[defName="Ugly"]/stages/li[3]/label</xpath>
+    <value>
+      <label>역겨운 외모</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThoughtDef[defName="Ugly"]/stages/li[4]/label</xpath>
+    <value>
+      <label>혐오스러운 외모</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThoughtDef[defName="Pretty"]/stages/li[1]/label</xpath>
+    <value>
+      <label>매력적인 외모</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThoughtDef[defName="Pretty"]/stages/li[2]/label</xpath>
+    <value>
+      <label>멋진 외모</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThoughtDef[defName="Pretty"]/stages/li[3]/label</xpath>
+    <value>
+      <label>숨이 멎을 정도로 아름다운 외모</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThoughtDef[defName="Pretty"]/stages/li[4]/label</xpath>
+    <value>
+      <label>경이로운 외모</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/PawnCapacityDef[defName="Metabolism"]/labelMechanoids</xpath>
+    <value>
+      <labelMechanoids>연료 효율성</labelMechanoids>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/PawnCapacityDef[defName="Breathing"]/labelMechanoids</xpath>
+    <value>
+      <labelMechanoids>냉각 용량</labelMechanoids>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/PawnCapacityDef[defName="Eating"]/labelMechanoids</xpath>
+    <value>
+      <labelMechanoids>재급유 속도</labelMechanoids>
+    </value>
+  </Operation>
+</Patch>
