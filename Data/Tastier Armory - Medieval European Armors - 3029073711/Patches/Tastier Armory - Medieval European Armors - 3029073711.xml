@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Apparel_PlateArmor"]/label</xpath>
+          <value>
+            <label>전신 판금 갑옷</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Apparel_PlateArmor"]/description</xpath>
+          <value>
+            <description>몸 전체를 덮는 판금 갑옷으로, 인체공학적인 설계와 뛰어난 관절 구조를 갖춰 최상의 보호력을 제공한다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
