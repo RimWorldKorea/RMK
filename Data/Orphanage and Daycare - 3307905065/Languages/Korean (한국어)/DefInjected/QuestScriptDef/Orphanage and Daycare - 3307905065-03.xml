@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Hospitality_Daycare.questNameRules.rulesStrings>
+    <li>questName-&gt;[lodgerIndef] 돌봄 요청</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)-&gt;[lodgers0_nameDef]</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)-&gt;[lodgers0_title]</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)-&gt;친구의 아이</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)-&gt;동맹의 아이</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount&gt;=2)-&gt;친구의 아이들</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount&gt;=2)-&gt;동맹의 아이들</li>
+    <li>lodgerIndef(asker_factionLeader==False,lodgersCount==1)-&gt;[lodgers0_nameDef]</li>
+    <li>lodgerIndef(asker_factionLeader==False,lodgersCount==1)-&gt;[lodgers0_title]</li>
+    <li>lodgerIndef(asker_factionLeader==False,lodgersCount==1)-&gt;친구의 아이</li>
+    <li>lodgerIndef(asker_factionLeader==False,lodgersCount==1)-&gt;동맹의 아이</li>
+    <li>lodgerIndef(asker_factionLeader==False,lodgersCount&gt;=2)-&gt;친구의 아이들</li>
+    <li>lodgerIndef(asker_factionLeader==False,lodgersCount&gt;=2)-&gt;동맹의 아이들</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1,p=3)-&gt;[asker_royalTitleInCurrentFaction](으)로부터의</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)-&gt;[asker_label](으)로부터의</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)-&gt;귀족의 아이</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)-&gt;귀족 집안 아이</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)-&gt;상류층 아이</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount&gt;=2)-&gt;귀족의 아이들</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount&gt;=2)-&gt;귀족 집안 아이들</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount&gt;=2)-&gt;상류층 아이들</li>
+  </Hospitality_Daycare.questNameRules.rulesStrings>
+</LanguageData>
