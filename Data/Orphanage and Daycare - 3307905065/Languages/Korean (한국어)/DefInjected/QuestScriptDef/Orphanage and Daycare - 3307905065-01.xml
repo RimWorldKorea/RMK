@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AdoptionRequest.questDescriptionRules.rulesStrings>
+    <li>questDescription(asker_factionLeader==True)-&gt;[asker_faction_name]의 [asker_faction_leaderTitle] [asker_nameFull](이)가 입양 요청을 보냈습니다. [asker_possessive] [thirdParty]인 한 [asker_faction_pawnSingular](이)가 [adoptee_nameFull](을)를 입양할 의사를 밝혔다고 합니다. \n\n[willSendShuttle]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)-&gt;[asker_faction_name]의 [asker_royalTitleInCurrentFaction]인 [asker_nameFull](이)가 입양 요청을 보냈습니다. [asker_pronoun]는 [adoptee_nameFull](을)를 입양하고 싶다고 합니다. \n\n[willSendShuttle]</li>
+    <li>willSendShuttle-&gt;[asker_pronoun](은)는 [adoptee_nameDef](을)를 데려가기 위해 왕복선을 보낼 것입니다.</li>
+    <li>thirdParty-&gt;친구</li>
+    <li>thirdParty-&gt;동지</li>
+    <li>thirdParty-&gt;지인</li>
+    <li>thirdParty-&gt;절친한 동료</li>
+  </AdoptionRequest.questDescriptionRules.rulesStrings>
+</LanguageData>

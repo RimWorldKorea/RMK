@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Medieval Overhaul</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_RawDumpling_MO_ForOne"]/label</xpath>
+          <value>
+            <label>「MO 밀가루」로 만두 빚기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_RawDumpling_MO_ForOne"]/description</xpath>
+          <value>
+            <description>사용 가능한 재료로 한 명이 먹을 수 있는 양의 만두를 만듭니다. 12개 또는 4접시 정도입니다.
+    \n미리 준비된 밀가루로 만두피를 만드는 것은 편하기도 하지만, 음식 낭비를 줄이는 방법이기도 합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_RawDumpling_MO_ForOne"]/jobString</xpath>
+          <value>
+            <jobString>만두 빚는 중.</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_RawDumpling_MO_ForFive"]/label</xpath>
+          <value>
+            <label>「MO 밀가루」로 만두 5인분 빚기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_RawDumpling_MO_ForFive"]/description</xpath>
+          <value>
+            <description>사용 가능한 재료로 다섯 명이 먹을 수 있는 양의 만두를 만듭니다. 20접시 정도의 분량으로, 대가족이 저녁으로 배불리 먹을 수 있습니다.
+    \n만두를 만드는 준비 시간은 매우 길기 때문에 한 번에 더 많은 만두를 만들수록 평균적으로 시간을 덜 쓰고, 안에 넣을 재료도 절약할 수 있습니다.
+    \n미리 준비된 밀가루로 만두피를 만드는 것은 편하기도 하지만, 음식 낭비를 줄이는 방법이기도 합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_RawDumpling_MO_ForFive"]/jobString</xpath>
+          <value>
+            <jobString>만두 빚는 중.</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_RawDumpling_MO_ForTwenty"]/label</xpath>
+          <value>
+            <label>「MO 밀가루」로 만두 20인분 빚기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_RawDumpling_MO_ForTwenty"]/description</xpath>
+          <value>
+            <description>사용 가능한 재료로 스무 명이 먹을 수 있는 양의 만두를 만듭니다. 80접시 정도의 분량으로, 마을 전체를 먹일 수 있겠네요!
+    \n만두를 만드는 준비 시간은 매우 길기 때문에 한 번에 더 많은 만두를 만들수록 평균적으로 시간을 덜 쓰고, 안에 넣을 재료도 절약할 수 있습니다.
+    \n미리 준비된 밀가루로 만두피를 만드는 것은 편하기도 하지만, 음식 낭비를 줄이는 방법이기도 합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_RawDumpling_MO_ForTwenty"]/jobString</xpath>
+          <value>
+            <jobString>만두 빚는 중.</jobString>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Cooking Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AF_GourmetDumpling"]/label</xpath>
+          <value>
+            <label>미식적인 만두</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AF_GourmetDumpling"]/description</xpath>
+          <value>
+            <description>튼튼하고 섬세한 세라믹 쟁반 위에 여러 사람들의 창의력과 다양한 조리법으로 만든 특별한 만두 요리가 놓여 있습니다! 만두를 편하게 먹을 수 있도록 견고한 나무 식기도 함께 제공됩니다.
+    \n"미식적인 만두"라고 불리지만, 사실 진미 만두에 정성껏 준비된 소스가 추가된 것뿐입니다. 이 특별한 소스의 맛을 더 만끽할 수 있도록 조리 과정에서 만두 맛을 더 약하게 만들었습니다.
+    \n이 황량한 행성에서 이만큼 강렬한 맛을 가진 소스야말로 미식이라 불릴 수 있겠네요.
+    \n\n&lt;color=#808080&gt;솔직히 말해서, 저 식초 한 접시를 위해 제 털을 좀 팔아도 괜찮을 것 같아요!&lt;/color&gt;
+    \n&lt;color=#808080&gt; — - — 암리·아라스&lt;/color&gt;</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_GourmetDumpling_ForOne"]/label</xpath>
+          <value>
+            <label>미식적인 만두 조리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_GourmetDumpling_ForOne"]/description</xpath>
+          <value>
+            <description>추가 재료를 넣어 특별하고 정성스러운 만두 요리를 만듭니다. 요리법은 요리사의 개인적인 취향과 영감에 따라 달라집니다.
+    \n진미 만두와의 조리법 차이는 정성껏 준비된 소스를 추가하는 단계 외에는 없습니다. 시간은 좀 더 걸리지만, 충분히 그럴 만한 가치는 있죠.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_GourmetDumpling_ForOne"]/jobString</xpath>
+          <value>
+            <jobString>만두 조리 중.</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_GourmetDumpling_ForFive"]/label</xpath>
+          <value>
+            <label>미식적인 만두 5인분 조리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_GourmetDumpling_ForFive"]/description</xpath>
+          <value>
+            <description>추가 재료를 넣어 특별하고 정성스러운 만두 요리를 만듭니다. 요리법은 요리사의 개인적인 취향과 영감에 따라 달라집니다.
+    \n사실 진미 만두와 비슷한 조리법에 정성껏 준비된 소스를 추가하는 단계가 추가된 것뿐입니다. 시간은 좀 더 걸리지만, 충분히 그럴 만한 가치는 있죠.
+    \n진미 만두와 비슷하게 한 번에 5개 이상을 만들 수 없습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_GourmetDumpling_ForFive"]/jobString</xpath>
+          <value>
+            <jobString>만두 조리 중.</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_GourmetDumpling_ForTwenty"]/label</xpath>
+          <value>
+            <label>미식적인 만두 20인분 조리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_GourmetDumpling_ForTwenty"]/description</xpath>
+          <value>
+            <description>추가 재료를 넣어 특별하고 정성스러운 만두 요리를 만듭니다. 요리법은 요리사의 개인적인 취향과 영감에 따라 달라집니다.
+    \n사실 진미 만두와 비슷한 조리법에 정성껏 준비된 소스를 추가하는 단계가 추가된 것뿐입니다. 시간은 좀 더 걸리지만, 충분히 그럴 만한 가치는 있죠.
+    \n진미 만두와 비슷하게 한 번에 5개 이상을 만들 수 없습니다. 따라서 20개의 만두는 실제로 4번에 걸쳐 만들어지며, 같은 작업을 통해 약간의 시간을 절약할 수 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_GourmetDumpling_ForTwenty"]/jobString</xpath>
+          <value>
+            <jobString>만두 조리 중.</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_RawDumpling_VCE_ForOne"]/label</xpath>
+          <value>
+            <label>「VCE 밀가루」로 만두 빚기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_RawDumpling_VCE_ForOne"]/description</xpath>
+          <value>
+            <description>사용 가능한 재료로 한 명이 먹을 수 있는 양의 만두를 만듭니다. 12개 또는 4접시 정도입니다.
+    \n미리 준비된 밀가루로 만두피를 만드는 것은 편하기도 하지만, 음식 낭비를 줄이는 방법이기도 합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_RawDumpling_VCE_ForOne"]/jobString</xpath>
+          <value>
+            <jobString>만두 빚는 중.</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_RawDumpling_VCE_ForFive"]/label</xpath>
+          <value>
+            <label>「VCE 밀가루」로 만두 5인분 빚기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_RawDumpling_VCE_ForFive"]/description</xpath>
+          <value>
+            <description>사용 가능한 재료로 다섯 명이 먹을 수 있는 양의 만두를 만듭니다. 20접시 정도의 분량으로, 대가족이 저녁으로 배불리 먹을 수 있습니다.
+    \n만두를 만드는 준비 시간은 매우 길기 때문에 한 번에 더 많은 만두를 만들수록 평균적으로 시간을 덜 쓰고, 안에 넣을 재료도 절약할 수 있습니다.
+    \n미리 준비된 밀가루로 만두피를 만드는 것은 편하기도 하지만, 음식 낭비를 줄이는 방법이기도 합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_RawDumpling_VCE_ForFive"]/jobString</xpath>
+          <value>
+            <jobString>만두 빚는 중.</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_RawDumpling_VCE_ForTwenty"]/label</xpath>
+          <value>
+            <label>「VCE 밀가루」로 만두 20인분 빚기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_RawDumpling_VCE_ForTwenty"]/description</xpath>
+          <value>
+            <description>사용 가능한 재료로 스무 명이 먹을 수 있는 양의 만두를 만듭니다. 80접시 정도의 분량으로, 마을 전체를 먹일 수 있겠네요!
+    \n만두를 만드는 준비 시간은 매우 길기 때문에 한 번에 더 많은 만두를 만들수록 평균적으로 시간을 덜 쓰고, 안에 넣을 재료도 절약할 수 있습니다.
+    \n미리 준비된 밀가루로 만두피를 만드는 것은 편하기도 하지만, 음식 낭비를 줄이는 방법이기도 합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_RawDumpling_VCE_ForTwenty"]/jobString</xpath>
+          <value>
+            <jobString>만두 빚는 중.</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThoughtDef[defName="AFTH_GourmetDumpling"]/stages/li[1]/label</xpath>
+          <value>
+            <label>미식적인 만두 먹음</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThoughtDef[defName="AFTH_GourmetDumpling"]/stages/li[1]/description</xpath>
+          <value>
+            <description>정성스럽게 만든 만두 요리를 먹어봤어. 정말 맛있었어! 특히 찍어 먹는 소스는 환상적인 끝맛을 남겼지.
+            \n만두를 만들면서 사람들이 내 만두를 먹고 어떤 생각을 할지 상상했었지. 이제 나도 다른 사람들의 기대에 담긴 감정을 느낄 수 있어!</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>VGP Garden Gourmet</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_RawDumpling_VGP_ForOne"]/label</xpath>
+          <value>
+            <label>「VGP 밀가루」로 만두 빚기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_RawDumpling_VGP_ForOne"]/description</xpath>
+          <value>
+            <description>사용 가능한 재료로 한 명이 먹을 수 있는 양의 만두를 만듭니다. 12개 또는 4접시 정도입니다.
+    \n미리 준비된 밀가루로 만두피를 만드는 것은 편하기도 하지만, 음식 낭비를 줄이는 방법이기도 합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_RawDumpling_VGP_ForOne"]/jobString</xpath>
+          <value>
+            <jobString>만두 빚는 중.</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_RawDumpling_VGP_ForFive"]/label</xpath>
+          <value>
+            <label>「VGP 밀가루」로 만두 5인분 빚기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_RawDumpling_VGP_ForFive"]/description</xpath>
+          <value>
+            <description>사용 가능한 재료로 다섯 명이 먹을 수 있는 양의 만두를 만듭니다. 20접시 정도의 분량으로, 대가족이 저녁으로 배불리 먹을 수 있습니다.
+    \n만두를 만드는 준비 시간은 매우 길기 때문에 한 번에 더 많은 만두를 만들수록 평균적으로 시간을 덜 쓰고, 안에 넣을 재료도 절약할 수 있습니다.
+    \n미리 준비된 밀가루로 만두피를 만드는 것은 편하기도 하지만, 음식 낭비를 줄이는 방법이기도 합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_RawDumpling_VGP_ForFive"]/jobString</xpath>
+          <value>
+            <jobString>만두 빚는 중.</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_RawDumpling_VGP_ForTwenty"]/label</xpath>
+          <value>
+            <label>「VGP 밀가루」로 만두 20인분 빚기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_RawDumpling_VGP_ForTwenty"]/description</xpath>
+          <value>
+            <description>사용 가능한 재료로 스무 명이 먹을 수 있는 양의 만두를 만듭니다. 80접시 정도의 분량으로, 마을 전체를 먹일 수 있겠네요!
+    \n만두를 만드는 준비 시간은 매우 길기 때문에 한 번에 더 많은 만두를 만들수록 평균적으로 시간을 덜 쓰고, 안에 넣을 재료도 절약할 수 있습니다.
+    \n미리 준비된 밀가루로 만두피를 만드는 것은 편하기도 하지만, 음식 낭비를 줄이는 방법이기도 합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="AFRecipe_RawDumpling_VGP_ForTwenty"]/jobString</xpath>
+          <value>
+            <jobString>만두 빚는 중.</jobString>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
