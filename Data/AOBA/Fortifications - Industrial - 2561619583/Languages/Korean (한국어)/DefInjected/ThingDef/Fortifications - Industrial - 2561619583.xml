@@ -5,18 +5,18 @@
   <FT_ENIAC.label>E.N.I.A.C.</FT_ENIAC.label>
   <FT_ENIAC.description>전자식 숫자 적분 및 계산기(Electronic Numerical Integrator And Computer) 또는 간단하게 에니악(Eniac) 이라 부릅니다. 첨단 연구 작업대 근처에 배치하면 연구 속도가 빨라지고 새로운 연구 프로젝트가 디스크를 읽음으로써 열리게 됩니다. 4개 이상 연결할 수 없습니다.</FT_ENIAC.description>
   <FT_AntennaTower.label>안테나 타워</FT_AntennaTower.label>
-  <FT_AntennaTower.description>무역 송신기의 대형 버전입니다. 미래에 더 많은 기능을 가지게 될 것입니다.(작업 중)</FT_AntennaTower.description>
+  <FT_AntennaTower.description>무역 송신기의 대형 버전으로, 실외에만 설치할 수 있습니다. 궤도 무역상이 이 행성으로 항해할 수 있도록 유도합니다.</FT_AntennaTower.description>
   <FT_Radio.label>라디오 터미널</FT_Radio.label>
   <FT_Radio.description>다른 세력 및 궤도 무역선과 무선 접촉을 할 수 있습니다. 또한, 주파수 대역을 조회할 생기는 전파 방해를 이용하여 귀금속을 발견합니다.(작업 중) 미래에 더 많은 기능이 추가될 것입니다.</FT_Radio.description>
+  <FT_Radio.comps.4.useLabel>끔찍한 위협 소환</FT_Radio.comps.4.useLabel>
   <FT_FirefoamPopper.label>소화전</FT_FirefoamPopper.label>
   <FT_FirefoamPopper.description>화재가 감지되면 이 안전 장치는 주변의 원형 지점에 난연성 폼을 터뜨려 분사합니다. 수동으로 작동시킬 수도 있습니다.</FT_FirefoamPopper.description>
-  <FT_FirefoamPopper.comps.1.useLabel>{0_label} 작동</FT_FirefoamPopper.comps.1.useLabel>
   <FT_PowerPole.label>전봇대</FT_PowerPole.label>
   <FT_PowerPole.description>전류를 전달하기 위해 주석 또는 구리 케이블을 사용하는 콘크리트 전주. '링크' 버튼을 사용하여 다른 전주에 연결하거나, 여러 전주를 선택한 후 '자동 링크' 버튼을 누르세요.</FT_PowerPole.description>
   <FT_PowerPole_Lamp.label>전봇대 (가로등)</FT_PowerPole_Lamp.label>
   <FT_PowerPole_Lamp.description>전류를 전달하기 위해 주석 또는 구리 케이블을 사용하는 콘크리트 전주. '링크' 버튼을 사용하여 다른 전주에 연결하거나, 여러 전주를 선택한 후 '자동 링크' 버튼을 누르세요.</FT_PowerPole_Lamp.description>
   <FT_DistributionBox.label>배전함</FT_DistributionBox.label>
-  <FT_DistributionBox.description>콘크리트 토대 위에 있는 금속 상자는 도관을 통해 전력 네트워크에 연결하여 전자기기가 해당 도관에 연결할 수 있는 범위를 확장합니다. 제대로 구현하면 전류를 활용할 수 있는 범위를 세 배로 늘릴 수 있습니다.</FT_DistributionBox.description>
+  <FT_DistributionBox.description>콘크리트 토대 위에 있는 금속 상자는 도관을 통해 전력 네트워크에 연결하여 전자기기가 해당 도관에 연결할 수 있는 범위를 확장합니다. 제대로 구현하면 전류를 활용할 수 있는 범위를 늘릴 수 있습니다.(지금은 작업중: 장식)</FT_DistributionBox.description>
   <FT_TableLathe.label>작업대</FT_TableLathe.label>
   <FT_TableLathe.description>다양한 작업을 수행하기 위해 회전 축을 중심으로 공작물을 회전시키는 기계입니다.</FT_TableLathe.description>
   <FT_TableChemistry.label>화학 작업대</FT_TableChemistry.label>
@@ -46,32 +46,94 @@
   <FT_WoodConcrete.stuffProps.stuffAdjective>섬유 콘크리트</FT_WoodConcrete.stuffProps.stuffAdjective>
   <FT_ConcreteCompressed.label>포장된 콘크리트 블록</FT_ConcreteCompressed.label>
   <FT_ConcreteCompressed.description>콘크리트 블록을 쌓아두었습니다. 저장이나 거래를 위해 포장되었습니다.</FT_ConcreteCompressed.description>
+  <Bullet_FT_105mmHowitzerShell_HE.label>105mm 곡사포탄 (고폭탄)</Bullet_FT_105mmHowitzerShell_HE.label>
+  <Bullet_FT_105mmHowitzerShell_Incendiary.label>105mm 곡사포탄 (소이탄)</Bullet_FT_105mmHowitzerShell_Incendiary.label>
+  <Bullet_FT_105mmHowitzerShell_EMP.label>105mm 곡사포탄 (EMP탄)</Bullet_FT_105mmHowitzerShell_EMP.label>
+  <Bullet_FT_105mmHowitzerShell_Smoke.label>105mm 곡사포탄 (연막탄)</Bullet_FT_105mmHowitzerShell_Smoke.label>
+  <Bullet_FT_105mmHowitzerShell_HE_directfire.label>105mm 곡사포탄 (고폭탄)</Bullet_FT_105mmHowitzerShell_HE_directfire.label>
+  <Bullet_FT_105mmHowitzerShell_Incendiary_directfire.label>105mm 곡사포탄 (소이탄)</Bullet_FT_105mmHowitzerShell_Incendiary_directfire.label>
+  <Bullet_FT_105mmHowitzerShell_EMP_directfire.label>105mm 곡사포탄 (EMP탄)</Bullet_FT_105mmHowitzerShell_EMP_directfire.label>
+  <Bullet_FT_105mmHowitzerShell_Smoke_directfire.label>105mm 곡사포탄 (연막탄)</Bullet_FT_105mmHowitzerShell_Smoke_directfire.label>
+  <Bullet_FT_155mmHowitzerShell_HE.label>155mm 곡사포탄 (고폭탄)</Bullet_FT_155mmHowitzerShell_HE.label>
+  <Bullet_FT_155mmHowitzerShell_Incendiary.label>155mm 곡사포탄 (소이탄)</Bullet_FT_155mmHowitzerShell_Incendiary.label>
+  <Bullet_FT_155mmHowitzerShell_EMP.label>155mm 곡사포탄 (EMP탄)</Bullet_FT_155mmHowitzerShell_EMP.label>
+  <Bullet_FT_155mmHowitzerShell_Smoke.label>155mm 곡사포탄 (연막탄)</Bullet_FT_155mmHowitzerShell_Smoke.label>
+  <FT_Bullet_NuclearWarhead_CE_II.label>155mm 곡사포탄 (핵포탄)</FT_Bullet_NuclearWarhead_CE_II.label>
+  <Bullet_FT_155mmHowitzerShell_HE_directfire.label>155mm 곡사포탄 (고폭탄)</Bullet_FT_155mmHowitzerShell_HE_directfire.label>
+  <Bullet_FT_155mmHowitzerShell_Incendiary_directfire.label>155mm 곡사포탄 (소이탄)</Bullet_FT_155mmHowitzerShell_Incendiary_directfire.label>
+  <Bullet_FT_155mmHowitzerShell_EMP_directfire.label>155mm 곡사포탄 (EMP탄)</Bullet_FT_155mmHowitzerShell_EMP_directfire.label>
+  <Bullet_FT_155mmHowitzerShell_Smoke_directfire.label>155mm 곡사포탄 (연막탄)</Bullet_FT_155mmHowitzerShell_Smoke_directfire.label>
+  <FT_Bullet_NuclearWarhead_CE_directfire_II.label>155mm 곡사포탄 (핵포탄)</FT_Bullet_NuclearWarhead_CE_directfire_II.label>
+  <Ammo_15cmNebelwerfer_Smoke.description>지름 15cm의 중량 로켓은 일반적으로 다연장 로켓포에 사용됩니다.</Ammo_15cmNebelwerfer_Smoke.description>
+  <Ammo_15cmNebelwerfer_Smoke.label>15cm 네벨베르퍼 로켓 (연막탄)</Ammo_15cmNebelwerfer_Smoke.label>
+  <Ammo_15cmNebelwerfer_EMP.description>지름 15cm의 중량 로켓은 일반적으로 다연장 로켓포에 사용됩니다.</Ammo_15cmNebelwerfer_EMP.description>
+  <Ammo_15cmNebelwerfer_EMP.label>15cm 네벨베르퍼 로켓 (EMP탄)</Ammo_15cmNebelwerfer_EMP.label>
+  <Ammo_15cmNebelwerfer_Toxic.description>지름 15cm의 중량 로켓은 일반적으로 다연장 로켓포에 사용됩니다.</Ammo_15cmNebelwerfer_Toxic.description>
+  <Ammo_15cmNebelwerfer_Toxic.label>15cm 네벨베르퍼 로켓 (독소탄)</Ammo_15cmNebelwerfer_Toxic.label>
+  <Bullet_FT_15cmNebelwerfer_HE.label>15cm 네벨베르퍼 로켓 (고폭탄)</Bullet_FT_15cmNebelwerfer_HE.label>
+  <Bullet_FT_15cmNebelwerfer_Smoke.label>15cm 네벨베르퍼 로켓 (연막탄)</Bullet_FT_15cmNebelwerfer_Smoke.label>
+  <Bullet_FT_15cmNebelwerfer_EMP.label>15cm 네벨베르퍼 로켓 (EMP탄)</Bullet_FT_15cmNebelwerfer_EMP.label>
+  <Bullet_FT_15cmNebelwerfer_Toxic.label>15cm 네벨베르퍼 로켓 (독소탄)</Bullet_FT_15cmNebelwerfer_Toxic.label>
+  <Shell_15cmNbW_Toxic_Releasing.label>15cm 네벨베르퍼 독소탄</Shell_15cmNbW_Toxic_Releasing.label>
+  <Shell_15cmNbW_Toxic_Releasing_Water.label>15cm 네벨베르퍼 독소탄</Shell_15cmNbW_Toxic_Releasing_Water.label>
+  <Ammo_37x223mmR_Canister.description>가볍고 빠른 대전차포가 사용하는 중구경 대포 탄약입니다.</Ammo_37x223mmR_Canister.description>
+  <Ammo_37x223mmR_Canister.label>37x223mmR 포탄 (캐니스터탄)</Ammo_37x223mmR_Canister.label>
+  <Ammo_37x223mmR_Shrapnel.description>가볍고 빠른 대전차포가 사용하는 중구경 대포 탄약입니다.</Ammo_37x223mmR_Shrapnel.description>
+  <Ammo_37x223mmR_Shrapnel.label>37x223mmR 포탄 (산탄)</Ammo_37x223mmR_Shrapnel.label>
+  <Ammo_37x223mmR_HESH.description>가볍고 빠른 대전차포가 사용하는 중구경 대포 탄약입니다.</Ammo_37x223mmR_HESH.description>
+  <Ammo_37x223mmR_HESH.label>37x223mmR 포탄 (플라스틱 고폭탄)</Ammo_37x223mmR_HESH.label>
+  <Ammo_37x223mmR_APDS.description>가볍고 빠른 대전차포가 사용하는 중구경 대포 탄약입니다.</Ammo_37x223mmR_APDS.description>
+  <Ammo_37x223mmR_APDS.label>37x223mmR 포탄 (사보탄)</Ammo_37x223mmR_APDS.label>
+  <Ammo_37x223mmR_EMP.description>가볍고 빠른 대전차포가 사용하는 중구경 대포 탄약입니다.</Ammo_37x223mmR_EMP.description>
+  <Ammo_37x223mmR_EMP.label>37x223mmR 포탄 (EMP탄)</Ammo_37x223mmR_EMP.label>
+  <Ammo_37x223mmR_AP-HE.description>가볍고 빠른 대전차포가 사용하는 중구경 대포 탄약입니다.</Ammo_37x223mmR_AP-HE.description>
+  <Ammo_37x223mmR_AP-HE.label>37x223mmR 포탄 (철갑고폭탄)</Ammo_37x223mmR_AP-HE.label>
+  <Ammo_37x223mmR_Incendiary.description>가볍고 빠른 대전차포가 사용하는 중구경 대포 탄약입니다.</Ammo_37x223mmR_Incendiary.description>
+  <Ammo_37x223mmR_Incendiary.label>37x223mmR 포탄 (철갑소이탄)</Ammo_37x223mmR_Incendiary.label>
+  <Bullet_FT_37x223mmR_AP.label>37x223mmR 포탄 (철갑탄)</Bullet_FT_37x223mmR_AP.label>
+  <Bullet_FT_37x223mmR_HE.label>37x223mmR 포탄 (고폭탄)</Bullet_FT_37x223mmR_HE.label>
+  <Bullet_FT_37x223mmR_Canister.label>37x223mmR 포탄 (캐니스터탄)</Bullet_FT_37x223mmR_Canister.label>
+  <Bullet_FT_37x223mmR_Shrapnel.label>37x223mmR 포탄 (산탄)</Bullet_FT_37x223mmR_Shrapnel.label>
+  <Bullet_FT_37x223mmR_HESH.label>37x223mmR 포탄 (플라스틱 고폭탄)</Bullet_FT_37x223mmR_HESH.label>
+  <Bullet_FT_37x223mmR_APDS.label>37x223mmR 포탄 (사보탄)</Bullet_FT_37x223mmR_APDS.label>
+  <Bullet_FT_37x223mmR_EMP.label>37x223mmR 포탄 (EMP탄)</Bullet_FT_37x223mmR_EMP.label>
+  <Bullet_FT_37x223mmR_AP-HE.label>37x223mmR 포탄 (철갑고폭탄)</Bullet_FT_37x223mmR_AP-HE.label>
+  <Bullet_FT_37x223mmR_Incendiary.label>37x223mmR 포탄 (철갑소이탄)</Bullet_FT_37x223mmR_Incendiary.label>
+  <Fragment_FT_Spark.label>스파크</Fragment_FT_Spark.label>
+  <Fragment_FT_ShrapnelPellet.label>산탄 파편</Fragment_FT_ShrapnelPellet.label>
   <FT_Turret_BunkerL.description>고정식 터렛입니다. 많이 사용한 후에는 총열을 교체하기 위해 강철이 필요합니다. 손상 시 폭팔할 수 있습니다. 멍청한 인공지는 두뇌는 직접 제어할 수 없으니, 아군 오사에 주의하세요.</FT_Turret_BunkerL.description>
   <FT_Turret_BunkerL.label>기관총 진지</FT_Turret_BunkerL.label>
-  <FT_Turret_BunkerL.comps.4.fuelLabel>재장전까지 남은 포탄</FT_Turret_BunkerL.comps.4.fuelLabel>
-  <FT_Turret_BunkerL.comps.4.fuelGizmoLabel>남은 포탄</FT_Turret_BunkerL.comps.4.fuelGizmoLabel>
-  <FT_Turret_BunkerL.comps.4.outOfFuelMessage>재장전 필요</FT_Turret_BunkerL.comps.4.outOfFuelMessage>
+  <FT_Turret_BunkerL.comps.4.fuelLabel>포신 교체 전까지 발사 가능한 횟수</FT_Turret_BunkerL.comps.4.fuelLabel>
+  <FT_Turret_BunkerL.comps.4.fuelGizmoLabel>포신 내구도</FT_Turret_BunkerL.comps.4.fuelGizmoLabel>
+  <FT_Turret_BunkerL.comps.4.outOfFuelMessage>새 강화 포신 필요</FT_Turret_BunkerL.comps.4.outOfFuelMessage>
   <FT_Turret_BunkerM.description>고정식 터렛입니다. 많이 사용한 후에는 총열을 교체하기 위해 강철이 필요합니다. 손상 시 폭팔할 수 있습니다. 멍청한 인공지는 두뇌는 직접 제어할 수 없으니, 아군 오사에 주의하세요.</FT_Turret_BunkerM.description>
   <FT_Turret_BunkerM.label>기관총 포탑 벙커</FT_Turret_BunkerM.label>
-  <FT_Turret_BunkerM.comps.4.fuelLabel>재장전까지 남은 포탄</FT_Turret_BunkerM.comps.4.fuelLabel>
-  <FT_Turret_BunkerM.comps.4.fuelGizmoLabel>남은 포탄</FT_Turret_BunkerM.comps.4.fuelGizmoLabel>
-  <FT_Turret_BunkerM.comps.4.outOfFuelMessage>재장전 필요</FT_Turret_BunkerM.comps.4.outOfFuelMessage>
+  <FT_Turret_BunkerM.comps.4.fuelLabel>포신 교체 전까지 발사 가능한 횟수</FT_Turret_BunkerM.comps.4.fuelLabel>
+  <FT_Turret_BunkerM.comps.4.fuelGizmoLabel>포신 내구도</FT_Turret_BunkerM.comps.4.fuelGizmoLabel>
+  <FT_Turret_BunkerM.comps.4.outOfFuelMessage>새 강화 포신 필요</FT_Turret_BunkerM.comps.4.outOfFuelMessage>
   <FT_Turret_BunkerC.description>고정식 터렛입니다. 많이 사용한 후에는 총열을 교체하기 위해 강철이 필요합니다. 손상 시 폭팔할 수 있습니다. 멍청한 인공지는 두뇌는 직접 제어할 수 없으니, 아군 오사에 주의하세요.</FT_Turret_BunkerC.description>
   <FT_Turret_BunkerC.label>기관총 벙커</FT_Turret_BunkerC.label>
-  <FT_Turret_BunkerC.comps.4.fuelLabel>재장전까지 남은 포탄</FT_Turret_BunkerC.comps.4.fuelLabel>
-  <FT_Turret_BunkerC.comps.4.fuelGizmoLabel>남은 포탄</FT_Turret_BunkerC.comps.4.fuelGizmoLabel>
-  <FT_Turret_BunkerC.comps.4.outOfFuelMessage>재장전 필요</FT_Turret_BunkerC.comps.4.outOfFuelMessage>
+  <FT_Turret_BunkerC.comps.4.fuelLabel>포신 교체 전까지 발사 가능한 횟수</FT_Turret_BunkerC.comps.4.fuelLabel>
+  <FT_Turret_BunkerC.comps.4.fuelGizmoLabel>포신 내구도</FT_Turret_BunkerC.comps.4.fuelGizmoLabel>
+  <FT_Turret_BunkerC.comps.4.outOfFuelMessage>새 강화 포신 필요</FT_Turret_BunkerC.comps.4.outOfFuelMessage>
   <FT_Turret_BunkerF.description>고정식 터렛입니다. 많이 사용한 후에는 총열을 교체하기 위해 강철이 필요합니다. 손상 시 폭팔할 수 있습니다. 멍청한 인공지는 두뇌는 직접 제어할 수 없으니, 아군 오사에 주의하세요.</FT_Turret_BunkerF.description>
   <FT_Turret_BunkerF.label>군용 기관총 진지</FT_Turret_BunkerF.label>
-  <FT_Turret_BunkerF.comps.4.fuelLabel>재장전까지 남은 포탄</FT_Turret_BunkerF.comps.4.fuelLabel>
-  <FT_Turret_BunkerF.comps.4.fuelGizmoLabel>남은 포탄</FT_Turret_BunkerF.comps.4.fuelGizmoLabel>
-  <FT_Turret_BunkerF.comps.4.outOfFuelMessage>재장전 필요</FT_Turret_BunkerF.comps.4.outOfFuelMessage>
+  <FT_Turret_BunkerF.comps.4.fuelLabel>포신 교체 전까지 발사 가능한 횟수</FT_Turret_BunkerF.comps.4.fuelLabel>
+  <FT_Turret_BunkerF.comps.4.fuelGizmoLabel>포신 내구도</FT_Turret_BunkerF.comps.4.fuelGizmoLabel>
+  <FT_Turret_BunkerF.comps.4.outOfFuelMessage>새 강화 포신 필요</FT_Turret_BunkerF.comps.4.outOfFuelMessage>
   <FT_Gun_MG.label>기관총</FT_Gun_MG.label>
   <FT_Gun_MG.description>포탑에 장착할 수 있도록 만든 완전 자동화기입니다.</FT_Gun_MG.description>
+  <FT_MinifiedTurret.comps.2.useLabel>{0_label} 줍기</FT_MinifiedTurret.comps.2.useLabel>
   <FT_Turret_Mortar.label>경박격포</FT_Turret_Mortar.label>
   <FT_Turret_Mortar.description>모든 종류의 박격포탄을 발사하는 경량화 박격포입니다. 단순화된 설계로 사격 속도가 향상되었지만, 정확성이 떨어져 범위 내 적 보다 요새를 공격하는 데 유용합니다.</FT_Turret_Mortar.description>
+  <FT_Turret_Mortar.comps.2.useLabel>{0_label} 줍기</FT_Turret_Mortar.comps.2.useLabel>
   <FT_Artillery_Mortar.label>박격포</FT_Artillery_Mortar.label>
   <FT_Artillery_Mortar.description>박격포. 발사된 포탄은 벽을 뛰어넘을 수 있습니다. 매우 부정확하지만 사거리가 아주 깁니다.</FT_Artillery_Mortar.description>
+  <FTC_SpotterLight_Turret.label>이동식 포병 관측기</FTC_SpotterLight_Turret.label>
+  <FTC_SpotterLight_Turret.description>무전기가 포함된 유인 포병 조준경입니다. 포격을 조율하는 데 유용합니다.\n\n표적 대상에 표식을 남겨 이에 사격하는 박격포의 직간접적인 사격 방해요소를 제거합니다. 이동식 포병 관측기를 통해 유도되는 포격은 박격포 사수가 아닌 관측수의 조준 정확도와 효율을 참조합니다.</FTC_SpotterLight_Turret.description>
+  <FTC_SpotterLight_Turret.comps.2.useLabel>{0_label} 줍기</FTC_SpotterLight_Turret.comps.2.useLabel>
+  <FTC_SpotterLight_Gun.label>이동식 포병 관측기</FTC_SpotterLight_Gun.label>
+  <FTC_SpotterLight_Gun.description>무전기가 포함된 유인 포병 조준경입니다. 포격을 조율하는 데 유용합니다.\n\n표적 대상에 표식을 남겨 이에 사격하는 박격포의 직간접적인 사격 방해요소를 제거합니다. 이동식 포병 관측기를 통해 유도되는 포격은 박격포 사수가 아닌 관측수의 조준 정확도와 효율을 참조합니다.</FTC_SpotterLight_Gun.description>
   <FT_TurretHexMortar.label>6연장 박격포 발사대</FT_TurretHexMortar.label>
   <FT_TurretHexMortar.description>6연장 유인 박격포 발사기 입니다. 신비한 기술로 한 번에 여섯 발의 박격포탄을 쏠 수 있지만 정확하지 않습니다.</FT_TurretHexMortar.description>
   <FT_Gun_TurretHexMortar.label>다연장 박격포</FT_Gun_TurretHexMortar.label>
@@ -81,7 +143,7 @@
   <FT_Gun_TurretPrince.label>프린스 곡사포</FT_Gun_TurretPrince.label>
   <FT_Gun_TurretPrince.description>고정밀도와 경량화를 추구하여 직사 능력의 일부를 포기한 포입니다.\n\n 정확히는 155mm 곡사포형 NK-33L 프린스"라고 불립니다. 기동성을 향상시키기 위해 설계된 경량 포입니다."</FT_Gun_TurretPrince.description>
   <FT_TurretEmpero.label>엠페로 직사포</FT_TurretEmpero.label>
-  <FT_TurretEmpero.description>포구 속도가 매우 높아 근거리에서만 수평으로 사격할 수 있지만 정확도가 높은 포입니다. \n\n 정확히는 155mm 구경 곡사포형 NK-30 엠페로"라고 불리는 이 포는 성간 산업단지 '나라'를 위해 설계된 신뢰할 수 있는 포로</FT_TurretEmpero.description>
+  <FT_TurretEmpero.description>극도로 높은 포구 속도로 인해 근거리에서 수평으로만 사격할 수 있지만, 매우 높은 명중률을 갖춘 포병 장비.\n\n정식 명칭은 155mm 곡사포 모델 NK-30 "엠페로" 로, 성간 산업 복합체 나라에서 설계한 신뢰성 높은 화포입니다. 이는 메카노이드 군단과 싸울 능력이 부족한 산업화 이전 세계에 기술적 지원을 제공하기 위해 개발되었습니다.</FT_TurretEmpero.description>
   <FT_Gun_TurretEmpero.label>엠페로 직사포</FT_Gun_TurretEmpero.label>
   <FT_Gun_TurretEmpero.description>정확도가 높은 강력한 직사포입니다.</FT_Gun_TurretEmpero.description>
   <FT_Maxim4M.label>4연장 기관총 포탑</FT_Maxim4M.label>
@@ -92,6 +154,10 @@
   <FT_AutoCannon.description>대구경 기관포가 장착된 삼각대입니다. 많이 사용한 후에는 총열을 교체하기 위해 강철이 필요합니다. 사람이 직접 운용합니다.</FT_AutoCannon.description>
   <FT_Gun_Autocannon.label>대형 포탑</FT_Gun_Autocannon.label>
   <FT_Gun_Autocannon.description>자동 장전이 가능한 대구경 기관포가 장착된 포탑입니다.</FT_Gun_Autocannon.description>
+  <FT_TurretAutoCannon_Twin.label>20mm 대공포</FT_TurretAutoCannon_Twin.label>
+  <FT_TurretAutoCannon_Twin.description>항공기를 격추할 수 있는 대공 속사포입니다.</FT_TurretAutoCannon_Twin.description>
+  <FT_Gun_Autocannon_Twin.label>대형 포탑</FT_Gun_Autocannon_Twin.label>
+  <FT_Gun_Autocannon_Twin.description>자동 장전이 가능한 대구경 기관포가 장착된 포탑입니다.</FT_Gun_Autocannon_Twin.description>
   <FT_RecoillessGun.label>무반동포</FT_RecoillessGun.label>
   <FT_RecoillessGun.description>무반동포가 장착된 삼각대입니다. 대전차 작전에서의 경량화된 해결책입니다. 많이 사용한 후에는 총열을 교체하기 위해 강화 배럴이 필요합니다. 또한 사람이 직접 운용합니다. 실내에서는 사용하지 마십시오!!</FT_RecoillessGun.description>
   <FT_Gun_Recoilless.label>무반동포</FT_Gun_Recoilless.label>
@@ -102,10 +168,16 @@
   <FT_Gun_TurretAA.description>유인 기관포. 이 대공 화기는 대공임무를 수행하기 위해 설계되었지만, 지상 목표물에게도 효과있는 무기이기도 합니다.</FT_Gun_TurretAA.description>
   <FT_TurretQuadAA.label>4연장 대공포</FT_TurretQuadAA.label>
   <FT_TurretQuadAA.description>유인 기관포. 이 대공 화기는 발사 속도가 빨라 공중 표적이나 필드의 적을 공격하는 데 유용합니다.</FT_TurretQuadAA.description>
+  <FT_Gun_TurretQuadAA.label>4연장 대공포</FT_Gun_TurretQuadAA.label>
+  <FT_Gun_TurretQuadAA.description>이 대공 화기는 대공임무를 수행하기 위해 설계되었지만, 지상 목표물에게도 효과있는 무기이기도 합니다.</FT_Gun_TurretQuadAA.description>
   <FT_TurretAT.label>대전차포</FT_TurretAT.label>
   <FT_TurretAT.description>금속 포탄을 발사하는 유인 대전차포입니다. 정확하기 때문에 범위 내에 있는 적군을 공격하거나 작은 요새를 공격할 때 유용합니다.</FT_TurretAT.description>
   <FT_Gun_TurretAT.label>대전차포</FT_Gun_TurretAT.label>
   <FT_Gun_TurretAT.description>정확도와 장갑 관통력이 뛰어나 중무장한 목표물에 이상적입니다.</FT_Gun_TurretAT.description>
+  <FT_TurretAT_Plus.label>76mm 대전차포</FT_TurretAT_Plus.label>
+  <FT_TurretAT_Plus.description>중장갑 차량을 파괴할 수 있는 직사 포입니다.</FT_TurretAT_Plus.description>
+  <FT_Gun_TurretAT_Plus.label>76mm 대전차포</FT_Gun_TurretAT_Plus.label>
+  <FT_Gun_TurretAT_Plus.description>중장갑 차량을 파괴할 수 있는 직사 포입니다.</FT_Gun_TurretAT_Plus.description>
   <FT_Turret_BunkerL.description>고정식 터렛입니다. 많이 사용한 후에는 총열을 교체하기 위해 강철이 필요합니다. 손상 시 폭팔할 수 있습니다. 멍청한 인공지는 두뇌는 직접 제어할 수 없으니, 아군 오사에 주의하세요.</FT_Turret_BunkerL.description>
   <FT_Turret_BunkerL.label>기관총 진지</FT_Turret_BunkerL.label>
   <FT_Turret_BunkerL.comps.4.fuelLabel>재장전까지 남은 포탄</FT_Turret_BunkerL.comps.4.fuelLabel>
@@ -128,43 +200,54 @@
   <FT_Turret_BunkerF.comps.4.outOfFuelMessage>재장전 필요</FT_Turret_BunkerF.comps.4.outOfFuelMessage>
   <FT_Gun_MG.label>기관총</FT_Gun_MG.label>
   <FT_Gun_MG.description>포탑에 장착할 수 있도록 만든 완전 자동화기입니다.</FT_Gun_MG.description>
+  <FT_MinifiedTurret.comps.2.useLabel>{0_label} 줍기</FT_MinifiedTurret.comps.2.useLabel>
   <FT_Turret_Mortar.label>경박격포</FT_Turret_Mortar.label>
   <FT_Turret_Mortar.description>모든 종류의 박격포탄을 발사하는 경량화 박격포입니다. 단순화된 설계로 사격 속도가 향상되었지만, 정확성이 떨어져 범위 내 적 보다 요새를 공격하는 데 유용합니다.</FT_Turret_Mortar.description>
-  <FT_Turret_Mortar.comps.5.fuelLabel>재장전까지 남은 포탄</FT_Turret_Mortar.comps.5.fuelLabel>
-  <FT_Turret_Mortar.comps.5.fuelGizmoLabel>남은 포탄</FT_Turret_Mortar.comps.5.fuelGizmoLabel>
-  <FT_Turret_Mortar.comps.5.outOfFuelMessage>재장전 필요</FT_Turret_Mortar.comps.5.outOfFuelMessage>
+  <FT_Turret_Mortar.comps.2.useLabel>{0_label} 줍기</FT_Turret_Mortar.comps.2.useLabel>
+  <FT_Turret_Mortar.comps.5.fuelLabel>포신 교체 전까지 발사 가능한 횟수</FT_Turret_Mortar.comps.5.fuelLabel>
+  <FT_Turret_Mortar.comps.5.fuelGizmoLabel>포신 내구도</FT_Turret_Mortar.comps.5.fuelGizmoLabel>
+  <FT_Turret_Mortar.comps.5.outOfFuelMessage>새 강화 포신 필요</FT_Turret_Mortar.comps.5.outOfFuelMessage>
   <FT_Artillery_Mortar.label>박격포</FT_Artillery_Mortar.label>
   <FT_Artillery_Mortar.description>박격포. 발사된 포탄은 벽을 뛰어넘을 수 있습니다. 매우 부정확하지만 사거리가 아주 깁니다.</FT_Artillery_Mortar.description>
   <FT_TurretHexMortar.label>6연장 박격포 발사대</FT_TurretHexMortar.label>
   <FT_TurretHexMortar.description>6연장 유인 박격포 발사기 입니다. 신비한 기술로 한 번에 여섯 발의 박격포탄을 쏠 수 있지만 정확하지 않습니다.</FT_TurretHexMortar.description>
-  <FT_TurretHexMortar.comps.3.fuelLabel>재장전까지 남은 포탄</FT_TurretHexMortar.comps.3.fuelLabel>
-  <FT_TurretHexMortar.comps.3.fuelGizmoLabel>남은 포탄</FT_TurretHexMortar.comps.3.fuelGizmoLabel>
-  <FT_TurretHexMortar.comps.3.outOfFuelMessage>재장전 필요</FT_TurretHexMortar.comps.3.outOfFuelMessage>
+  <FT_TurretHexMortar.comps.3.fuelLabel>포신 교체 전까지 발사 가능한 횟수</FT_TurretHexMortar.comps.3.fuelLabel>
+  <FT_TurretHexMortar.comps.3.fuelGizmoLabel>포신 내구도</FT_TurretHexMortar.comps.3.fuelGizmoLabel>
+  <FT_TurretHexMortar.comps.3.outOfFuelMessage>새 강화 포신 필요</FT_TurretHexMortar.comps.3.outOfFuelMessage>
   <FT_Gun_TurretHexMortar.label>다연장 박격포</FT_Gun_TurretHexMortar.label>
   <FT_Gun_TurretHexMortar.description>박격포. 발사된 포탄은 벽을 뛰어넘을 수 있습니다. 매우 부정확하지만 사거리가 아주 깁니다.</FT_Gun_TurretHexMortar.description>
   <FT_TurretPrince.label>프린스 곡사포</FT_TurretPrince.label>
   <FT_TurretPrince.description>고정밀도와 경량화를 추구하여 직사 능력의 일부를 포기한 포입니다.\n\n 정확히는 155mm 곡사포형 NK-33L 프린스"라고 불립니다. 기동성을 향상시키기 위해 설계된 경량 포입니다."</FT_TurretPrince.description>
+  <FT_TurretPrince.comps.3.fuelLabel>포신 교체 전까지 발사 가능한 횟수</FT_TurretPrince.comps.3.fuelLabel>
+  <FT_TurretPrince.comps.3.fuelGizmoLabel>포신 내구도</FT_TurretPrince.comps.3.fuelGizmoLabel>
+  <FT_TurretPrince.comps.3.outOfFuelMessage>새 강화 포신 필요</FT_TurretPrince.comps.3.outOfFuelMessage>
   <FT_Gun_TurretPrince.label>프린스 곡사포</FT_Gun_TurretPrince.label>
   <FT_Gun_TurretPrince.description>고정밀도와 경량화를 추구하여 직사 능력의 일부를 포기한 포입니다.\n\n 정확히는 155mm 곡사포형 NK-33L 프린스"라고 불립니다. 기동성을 향상시키기 위해 설계된 경량 포입니다."</FT_Gun_TurretPrince.description>
   <FT_TurretEmpero.label>엠페로 직사포</FT_TurretEmpero.label>
-  <FT_TurretEmpero.description>포구 속도가 매우 높아 근거리에서만 수평으로 사격할 수 있지만 정확도가 높은 포입니다. \n\n 정확히는 155mm 구경 곡사포형 NK-30 엠페로"라고 불리는 이 포는 성간 산업단지 '나라'를 위해 설계된 신뢰할 수 있는 포로</FT_TurretEmpero.description>
+  <FT_TurretEmpero.description>극도로 높은 포구 속도로 인해 근거리에서 수평으로만 사격할 수 있지만, 매우 높은 명중률을 갖춘 포병 장비.\n\n정식 명칭은 155mm 곡사포 모델 NK-30 "엠페로" 로, 성간 산업 복합체 나라에서 설계한 신뢰성 높은 화포입니다. 이는 메카노이드 군단과 싸울 능력이 부족한 산업화 이전 세계에 기술적 지원을 제공하기 위해 개발되었습니다.</FT_TurretEmpero.description>
+  <FT_TurretEmpero.comps.3.fuelLabel>포신 교체 전까지 발사 가능한 횟수</FT_TurretEmpero.comps.3.fuelLabel>
+  <FT_TurretEmpero.comps.3.fuelGizmoLabel>포신 내구도</FT_TurretEmpero.comps.3.fuelGizmoLabel>
+  <FT_TurretEmpero.comps.3.outOfFuelMessage>새 강화 포신 필요</FT_TurretEmpero.comps.3.outOfFuelMessage>
   <FT_Gun_TurretEmpero.label>엠페로 직사포</FT_Gun_TurretEmpero.label>
   <FT_Gun_TurretEmpero.description>정확도가 높은 강력한 직사포입니다.</FT_Gun_TurretEmpero.description>
   <FT_TurretAA.label>대공포탑</FT_TurretAA.label>
   <FT_TurretAA.description>금속 총알을 발사하는 유인 기관포입니다. 빠른 사격을 통해 공중 목표물이나 범위 내 적을 공격할 때 유용합니다.</FT_TurretAA.description>
-  <FT_TurretAA.comps.3.fuelLabel>재장전까지 남은 포탄</FT_TurretAA.comps.3.fuelLabel>
-  <FT_TurretAA.comps.3.fuelGizmoLabel>남은 포탄</FT_TurretAA.comps.3.fuelGizmoLabel>
-  <FT_TurretAA.comps.3.outOfFuelMessage>재장전 필요</FT_TurretAA.comps.3.outOfFuelMessage>
+  <FT_TurretAA.comps.3.fuelLabel>포신 교체 전까지 발사 가능한 횟수</FT_TurretAA.comps.3.fuelLabel>
+  <FT_TurretAA.comps.3.fuelGizmoLabel>포신 내구도</FT_TurretAA.comps.3.fuelGizmoLabel>
+  <FT_TurretAA.comps.3.outOfFuelMessage>새 강화 포신 필요</FT_TurretAA.comps.3.outOfFuelMessage>
   <FT_Gun_TurretAA.label>대공포</FT_Gun_TurretAA.label>
   <FT_Gun_TurretAA.description>유인 기관포. 이 대공 화기는 대공임무를 수행하기 위해 설계되었지만, 지상 목표물에게도 효과있는 무기이기도 합니다.</FT_Gun_TurretAA.description>
   <FT_TurretQuadAA.label>4연장 대공포</FT_TurretQuadAA.label>
   <FT_TurretQuadAA.description>유인 기관포. 이 대공 화기는 발사 속도가 빨라 공중 표적이나 필드의 적을 공격하는 데 유용합니다.</FT_TurretQuadAA.description>
+  <FT_TurretQuadAA.comps.3.fuelLabel>포신 교체 전까지 발사 가능한 횟수</FT_TurretQuadAA.comps.3.fuelLabel>
+  <FT_TurretQuadAA.comps.3.fuelGizmoLabel>포신 내구도</FT_TurretQuadAA.comps.3.fuelGizmoLabel>
+  <FT_TurretQuadAA.comps.3.outOfFuelMessage>새 강화 포신 필요</FT_TurretQuadAA.comps.3.outOfFuelMessage>
   <FT_Bullet_AAShell.label>우라늄 철갑예광탄</FT_Bullet_AAShell.label>
   <FT_TurretAT.label>대전차포</FT_TurretAT.label>
   <FT_TurretAT.description>금속 포탄을 발사하는 유인 대전차포입니다. 정확하기 때문에 범위 내에 있는 적군을 공격하거나 작은 요새를 공격할 때 유용합니다.</FT_TurretAT.description>
-  <FT_TurretAT.comps.3.fuelLabel>재장전까지 남은 포탄</FT_TurretAT.comps.3.fuelLabel>
-  <FT_TurretAT.comps.3.fuelGizmoLabel>남은 포탄</FT_TurretAT.comps.3.fuelGizmoLabel>
-  <FT_TurretAT.comps.3.outOfFuelMessage>재장전 필요</FT_TurretAT.comps.3.outOfFuelMessage>
+  <FT_TurretAT.comps.3.fuelLabel>포신 교체 전까지 발사 가능한 횟수</FT_TurretAT.comps.3.fuelLabel>
+  <FT_TurretAT.comps.3.fuelGizmoLabel>포신 내구도</FT_TurretAT.comps.3.fuelGizmoLabel>
+  <FT_TurretAT.comps.3.outOfFuelMessage>새 강화 포신 필요</FT_TurretAT.comps.3.outOfFuelMessage>
   <FT_Gun_TurretAT.label>대전차포</FT_Gun_TurretAT.label>
   <FT_Gun_TurretAT.description>정확도와 장갑 관통력이 뛰어나 중무장한 목표물에 이상적입니다.</FT_Gun_TurretAT.description>
   <FT_Bullet_ATShell.label>우라늄 철갑탄</FT_Bullet_ATShell.label>
@@ -177,6 +260,9 @@
   <FT_Gun_QuadMG.description>기관총을 달아놓기 시작해서 그냥 많이 달아놓았습니다.</FT_Gun_QuadMG.description>
   <FT_AutoCannon.label>기관포</FT_AutoCannon.label>
   <FT_AutoCannon.description>대구경 기관포가 장착된 삼각대입니다. 많이 사용한 후에는 총열을 교체하기 위해 강철이 필요합니다. 사람이 직접 운용합니다.</FT_AutoCannon.description>
+  <FT_AutoCannon.comps.2.fuelLabel>재장전까지 남은 포탄</FT_AutoCannon.comps.2.fuelLabel>
+  <FT_AutoCannon.comps.2.fuelGizmoLabel>남은 포탄</FT_AutoCannon.comps.2.fuelGizmoLabel>
+  <FT_AutoCannon.comps.2.outOfFuelMessage>재장전 필요</FT_AutoCannon.comps.2.outOfFuelMessage>
   <FT_Gun_Autocannon.label>대형 포탑</FT_Gun_Autocannon.label>
   <FT_Gun_Autocannon.description>자동 장전이 가능한 대구경 기관포가 장착된 포탑입니다.</FT_Gun_Autocannon.description>
   <FT_RecoillessGun.label>무반동포</FT_RecoillessGun.label>
@@ -186,4 +272,46 @@
   <FT_RecoillessGun.comps.2.outOfFuelMessage>재장전 필요</FT_RecoillessGun.comps.2.outOfFuelMessage>
   <FT_Gun_Recoilless.label>무반동포</FT_Gun_Recoilless.label>
   <FT_Gun_Recoilless.description>범위 안의 중무장 목표물을 저격하기 위해 설계된 반동이 없는 대포입니다.</FT_Gun_Recoilless.description>
+  <FT_Trench.label>강화 참호</FT_Trench.label>
+  <FT_Trench.description>강화 콘크리트로 보강된 참호 시설로, 대부분의 지형에 건설이 가능하며, 우수한 배수 시스템과 깔끔하게 부어놓은 벽을 갖추고 있습니다. 참호에서 나가는 데는 시간이 좀 걸리지만, 내부에 있는 병사들은 상당한 엄폐 효과를 얻을 수 있습니다.</FT_Trench.description>
+  <FT_Platform.label>강화 발판</FT_Platform.label>
+  <FT_Platform.description>올라가면 사격 범위가 증가하는 깔끔한 콘크리트 발판입니다. 하지만 엄폐는 제공하지 않으며, 발판에 올라가는 데 시간이 조금 걸립니다.</FT_Platform.description>
+  <FT_Schematic.label>설계도</FT_Schematic.label>
+  <FT_Schematic.description>기술을 사용하는 방법에 대해 설명하는 책입니다. 도면을 읽다보면 새로운 기술을 발견하는 데 도움이 될 수 있습니다.</FT_Schematic.description>
+  <FT_FirefoamPopper.comps.0.useLabel>{0_label} 작동</FT_FirefoamPopper.comps.0.useLabel>
+  <FT_DistributionBox.comps.3.useLabel>{0_label} 사용</FT_DistributionBox.comps.3.useLabel>
+  <Bullet_FT_105mmHowitzerShell_Airburst_directfire.label>105mm 곡사포탄 (공중폭발탄)</Bullet_FT_105mmHowitzerShell_Airburst_directfire.label>
+  <Bullet_FT_105mmHowitzerShell_Airburst.label>105mm 곡사포탄 (공중폭발탄)</Bullet_FT_105mmHowitzerShell_Airburst.label>
+  <Bullet_FT_155mmHowitzerShell_Airburst_directfire.label>155mm 곡사포탄 (공중폭발탄)</Bullet_FT_155mmHowitzerShell_Airburst_directfire.label>
+  <Bullet_FT_155mmHowitzerShell_Airburst.label>155mm 곡사포탄 (공중폭발탄)</Bullet_FT_155mmHowitzerShell_Airburst.label>
+  <Bullet_FT_15cmNebelwerfer_HE_directfire.label>15cm 네벨베르퍼 로켓 (고폭탄)</Bullet_FT_15cmNebelwerfer_HE_directfire.label>
+  <Bullet_FT_15cmNebelwerfer_Smoke_directfire.label>15cm 네벨베르퍼 로켓 (연막탄)</Bullet_FT_15cmNebelwerfer_Smoke_directfire.label>
+  <Bullet_FT_15cmNebelwerfer_EMP_directfire.label>15cm 네벨베르퍼 로켓 (EMP탄)</Bullet_FT_15cmNebelwerfer_EMP_directfire.label>
+  <Bullet_FT_15cmNebelwerfer_Toxic_directfire.label>15cm 네벨베르퍼 로켓 (독소탄)</Bullet_FT_15cmNebelwerfer_Toxic_directfire.label>
+  <FT_Gun_MG.verbs.Verb_ShootCE.label>기관총</FT_Gun_MG.verbs.Verb_ShootCE.label>
+  <FT_Artillery_Mortar.verbs.Verb_ShootMortarCE.label>박격포</FT_Artillery_Mortar.verbs.Verb_ShootMortarCE.label>
+  <FT_Gun_TurretHexMortar.comps.9.description>사격 방식 전환</FT_Gun_TurretHexMortar.comps.9.description>
+  <FT_Gun_TurretHexMortar.verbs.Verb_ShootMortarCE.label>다연장 박격포</FT_Gun_TurretHexMortar.verbs.Verb_ShootMortarCE.label>
+  <FT_Gun_TurretPrince.comps.9.description>사격 방식 전환</FT_Gun_TurretPrince.comps.9.description>
+  <FT_Gun_TurretPrince.verbs.Verb_ShootMortarCE.label>곡사포</FT_Gun_TurretPrince.verbs.Verb_ShootMortarCE.label>
+  <FT_Gun_TurretEmpero.comps.9.description>사격 방식 전환</FT_Gun_TurretEmpero.comps.9.description>
+  <FT_Gun_TurretEmpero.verbs.Verb_ShootCE.label>야포</FT_Gun_TurretEmpero.verbs.Verb_ShootCE.label>
+  <FT_Gun_QuadMG.verbs.Verb_ShootCE.label>기관총 4대 장착</FT_Gun_QuadMG.verbs.Verb_ShootCE.label>
+  <FT_Gun_Autocannon.verbs.Verb_ShootCE.label>오토캐논</FT_Gun_Autocannon.verbs.Verb_ShootCE.label>
+  <FT_Gun_Autocannon_Twin.verbs.Verb_ShootCE.label>오토캐논</FT_Gun_Autocannon_Twin.verbs.Verb_ShootCE.label>
+  <FT_Gun_Recoilless.verbs.Verb_ShootCE.label>무반동포</FT_Gun_Recoilless.verbs.Verb_ShootCE.label>
+  <FT_Gun_TurretAA.verbs.Verb_ShootCE.label>대공포</FT_Gun_TurretAA.verbs.Verb_ShootCE.label>
+  <FT_Gun_TurretQuadAA.verbs.Verb_ShootCE.label>4연장 대공포</FT_Gun_TurretQuadAA.verbs.Verb_ShootCE.label>
+  <FT_Gun_TurretAT.verbs.Verb_ShootCE.label>대전차포</FT_Gun_TurretAT.verbs.Verb_ShootCE.label>
+  <FT_Gun_TurretAT_Plus.verbs.Verb_ShootCE.label>76mm 대전차포</FT_Gun_TurretAT_Plus.verbs.Verb_ShootCE.label>
+  <FT_Gun_MG.verbs.Verb_Shoot.label>기관총</FT_Gun_MG.verbs.Verb_Shoot.label>
+  <FT_Artillery_Mortar.verbs.Verb_Shoot.label>박격포</FT_Artillery_Mortar.verbs.Verb_Shoot.label>
+  <FT_Gun_TurretPrince.verbs.Verb_Shoot.label>곡사포</FT_Gun_TurretPrince.verbs.Verb_Shoot.label>
+  <FT_Gun_TurretEmpero.verbs.Verb_Shoot.label>야포</FT_Gun_TurretEmpero.verbs.Verb_Shoot.label>
+  <FT_Gun_TurretAA.verbs.Verb_Shoot.label>대공포</FT_Gun_TurretAA.verbs.Verb_Shoot.label>
+  <FT_Gun_TurretQuadAA.verbs.Verb_Shoot.label>4연장 대공포</FT_Gun_TurretQuadAA.verbs.Verb_Shoot.label>
+  <FT_Gun_TurretAT.verbs.Verb_Shoot.label>대전차포</FT_Gun_TurretAT.verbs.Verb_Shoot.label>
+  <FT_Gun_QuadMG.verbs.Verb_Shoot.label>기관총 4대 장착</FT_Gun_QuadMG.verbs.Verb_Shoot.label>
+  <FT_Gun_Autocannon.verbs.Verb_Shoot.label>오토캐논</FT_Gun_Autocannon.verbs.Verb_Shoot.label>
+  <FT_Gun_Recoilless.verbs.Verb_Shoot.label>무반동포</FT_Gun_Recoilless.verbs.Verb_Shoot.label>
 </LanguageData>
