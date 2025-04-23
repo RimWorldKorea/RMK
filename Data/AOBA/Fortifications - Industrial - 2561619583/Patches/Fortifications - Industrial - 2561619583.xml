@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Architect</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/TerrainDef[defName="VFEArch_BridgeConcrete"]/label</xpath>
+          <value>
+            <label>콘크리트 다리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/TerrainDef[defName="VFEArch_WoodenParquetConcrete"]/description</xpath>
+          <value>
+            <description>시멘트 판자를 사용해 만든 고급스럽고 멋진 느낌이 드는 바닥입니다. 건설 시간이 오래 걸리지만 불에 타지 않습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/TerrainDef[defName="VFEArch_WoodenParquetConcrete"]/label</xpath>
+          <value>
+            <label>콘크리트 마룻바닥</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/TerrainDef[defName="VFEArch_WoodPlankFloorConcrete"]/label</xpath>
+          <value>
+            <label>시멘트 판자 바닥</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/TerrainDef[defName="VFEArch_WoodPlankFloorConcrete"]/description</xpath>
+          <value>
+            <description>시멘트 판자로 만든 바닥입니다. 집에 온 듯 따듯한 느낌을 주진 않습니다. 쉽게 설치할 수 있고 불에 타지 않습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/TerrainDef[defName="VFEArch_PolishedStoneFloorConcrete"]/label</xpath>
+          <value>
+            <label>광택있는 콘크리트 타일</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/TerrainDef[defName="VFEArch_SlabsConcrete"]/label</xpath>
+          <value>
+            <label>콘크리트 석판</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/TerrainDef[defName="VFEArch_CobblestoneFloorConcrete"]/label</xpath>
+          <value>
+            <label>콘크리트 조약돌 타일</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/TerrainDef[defName="VFEArch_BridgeSteelConcrete"]/label</xpath>
+          <value>
+            <label>콘크리트 보강 다리</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biomes! Core</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/TerrainDef[defName="FloatinggardenConcrete"]/label</xpath>
+          <value>
+            <label>콘크리트 수상 경작지</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
