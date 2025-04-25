@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Tarbosaurus"]/tools/li[1]/label</xpath>
+          <value>
+            <label>왼쪽 다리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Tarbosaurus"]/tools/li[2]/label</xpath>
+          <value>
+            <label>오른쪽 다리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Tarbosaurus"]/tools/li[3]/label</xpath>
+          <value>
+            <label>머리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Caretta"]/tools/li[1]/label</xpath>
+          <value>
+            <label>머리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Iguana"]/tools/li[1]/label</xpath>
+          <value>
+            <label>왼쪽 다리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Iguana"]/tools/li[2]/label</xpath>
+          <value>
+            <label>오른쪽 다리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Iguana"]/tools/li[3]/label</xpath>
+          <value>
+            <label>머리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Gecko"]/tools/li[1]/label</xpath>
+          <value>
+            <label>왼쪽 다리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Gecko"]/tools/li[2]/label</xpath>
+          <value>
+            <label>오른쪽 다리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Gecko"]/tools/li[3]/label</xpath>
+          <value>
+            <label>머리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_HermitCrab"]/tools/li[1]/label</xpath>
+          <value>
+            <label>머리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_HermitCrab"]/tools/li[2]/label</xpath>
+          <value>
+            <label>레이저 커터</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_HermitCrab"]/tools/li[3]/label</xpath>
+          <value>
+            <label>수술용 드릴</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Pioneer"]/description</xpath>
+          <value>
+            <description>아르케부시어의 전방 정찰 변형으로, 향상된 조준 센서가 장착되어 야전 작전에서 더 나은 능력을 발휘하며 필요 시 사냥도 가능합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Ronin"]/tools/li[1]/label</xpath>
+          <value>
+            <label>오른쪽 팔 칼날</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Ronin"]/tools/li[2]/label</xpath>
+          <value>
+            <label>오른쪽 주먹</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Ronin"]/tools/li[3]/label</xpath>
+          <value>
+            <label>왼쪽 팔 칼날</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Ronin"]/tools/li[4]/label</xpath>
+          <value>
+            <label>왼쪽 주먹</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Gladiator"]/tools/li[1]/label</xpath>
+          <value>
+            <label>전투 방패</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Gladiator"]/tools/li[2]/label</xpath>
+          <value>
+            <label>오른쪽 주먹</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Protector"]/tools/li[1]/label</xpath>
+          <value>
+            <label>방탄 방패</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Protector"]/tools/li[2]/label</xpath>
+          <value>
+            <label>오른쪽 주먹</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="DMS_ProstheticArm"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <label>주먹</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="DMS_SyntheticArm"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <label>주먹</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Lady"]/tools/li[1]/label</xpath>
+          <value>
+            <label>왼쪽 주먹</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Lady"]/tools/li[2]/label</xpath>
+          <value>
+            <label>오른쪽 주먹</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_KnuckledusterRevolver"]/tools/li[1]/label</xpath>
+          <value>
+            <label>손잡이</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_KnuckledusterRevolver"]/tools/li[2]/label</xpath>
+          <value>
+            <label>칼날</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_KnuckledusterRevolver"]/tools/li[3]/label</xpath>
+          <value>
+            <label>칼끝</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Revolver"]/tools/li[1]/label</xpath>
+          <value>
+            <label>손잡이</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Revolver"]/tools/li[2]/label</xpath>
+          <value>
+            <label>총구</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_RiotShotgun"]/tools/li[1]/label</xpath>
+          <value>
+            <label>개머리판</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_RiotShotgun"]/tools/li[2]/label</xpath>
+          <value>
+            <label>총열</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_RiotShotgun"]/tools/li[3]/label</xpath>
+          <value>
+            <label>총구</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_SurvivalRifle"]/tools/li[1]/label</xpath>
+          <value>
+            <label>개머리판</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_SurvivalRifle"]/tools/li[2]/label</xpath>
+          <value>
+            <label>총열</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_SurvivalRifle"]/tools/li[3]/label</xpath>
+          <value>
+            <label>총구</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_ElephantGun"]/tools/li[1]/label</xpath>
+          <value>
+            <label>개머리판</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_ElephantGun"]/tools/li[2]/label</xpath>
+          <value>
+            <label>총열</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_ElephantGun"]/tools/li[3]/label</xpath>
+          <value>
+            <label>총구</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_SniperGrenadeLauncher"]/tools/li[1]/label</xpath>
+          <value>
+            <label>개머리판</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_SniperGrenadeLauncher"]/tools/li[2]/label</xpath>
+          <value>
+            <label>총열</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_SniperGrenadeLauncher"]/tools/li[3]/label</xpath>
+          <value>
+            <label>총구</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_TaticalPistol"]/tools/li[1]/label</xpath>
+          <value>
+            <label>손잡이</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_TaticalPistol"]/tools/li[2]/label</xpath>
+          <value>
+            <label>총구</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_PDW"]/tools/li[1]/label</xpath>
+          <value>
+            <label>손잡이</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_PDW"]/tools/li[2]/label</xpath>
+          <value>
+            <label>총구</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_AssaultPiercer"]/tools/li[1]/label</xpath>
+          <value>
+            <label>손잡이</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_AssaultPiercer"]/tools/li[2]/label</xpath>
+          <value>
+            <label>총구</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Machete"]/tools/li[1]/label</xpath>
+          <value>
+            <label>손잡이</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Machete"]/tools/li[2]/label</xpath>
+          <value>
+            <label>칼날</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Machete"]/tools/li[3]/label</xpath>
+          <value>
+            <label>칼끝</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_StunBaton"]/tools/li[1]/label</xpath>
+          <value>
+            <label>손잡이</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_StunBaton"]/tools/li[2]/label</xpath>
+          <value>
+            <label>칼날</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_StunBaton"]/tools/li[3]/label</xpath>
+          <value>
+            <label>칼끝</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_DoorBreaker"]/tools/li[1]/label</xpath>
+          <value>
+            <label>총열</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_DoorBreaker"]/tools/li[2]/label</xpath>
+          <value>
+            <label>머리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Flameblaster"]/tools/li[1]/label</xpath>
+          <value>
+            <label>손잡이</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Flameblaster"]/tools/li[2]/label</xpath>
+          <value>
+            <label>총구</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
