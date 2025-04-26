@@ -2,7 +2,7 @@
 <Patch>
   <Operation Class="PatchOperationFindMod">
     <mods>
-      <li>RimJobWorld</li>
+      <li>rim.job.world</li>
     </mods>
     <match Class="PatchOperationSequence">
       <success>Always</success>
@@ -18,7 +18,7 @@
           <success>Always</success>
           <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Carniculus"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[3]/name</xpath>
           <value>
-            <name>배</name>
+            <name>복부</name>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -40,6 +40,27 @@
           <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_CarniMama"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[3]/name</xpath>
           <value>
             <name>가슴</name>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_CarniMama"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[4]/name</xpath>
+          <value>
+            <name>복부</name>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_CarniMama"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[5]/name</xpath>
+          <value>
+            <name>쥬지</name>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_CarniMama"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[6]/name</xpath>
+          <value>
+            <name>뷰지</name>
           </value>
         </li>
       </operations>
