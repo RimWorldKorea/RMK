@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WornBulk.label>착용 부피</WornBulk.label>
+  <WornBulk.description>해당 의복을 착용했을때 착용자의 소지품에서 차지하는 부피.</WornBulk.description>
+  <ArmorRating_Electric.label>장갑 - 전기</ArmorRating_Electric.label>
+  <ArmorRating_Electric.description>EMP 파장이나 이온전자기탄의 EMP 피해와 같은 전기 속성 피해를 경감시키는 비율입니다.\n\n100% 이상을 달성한 부위는 전기 속성 피해에 완전히 면역이 됩니다.</ArmorRating_Electric.description>
+  <ElectricDamageMultiplier.label>전기 피해 배율</ElectricDamageMultiplier.label>
+  <ElectricDamageMultiplier.description>이 물질로 만들어진 무기가 입힐 수 있는 전기 속성 피해에 적용되는 배율입니다.</ElectricDamageMultiplier.description>
+  <Bulk.label>부피</Bulk.label>
+  <Bulk.description>물품이 가방이나 주머니에서 차지하는 공간.</Bulk.description>
+  <AmmoCaliber.label>구경</AmmoCaliber.label>
+  <AmmoCaliber.description>이 유형의 탄약을 사용 가능한 총기들</AmmoCaliber.description>
+  <LongRange.label>사거리</LongRange.label>
+  <LongRange.description>세계 지도에서 투사체가 날아갈 수 있는 거리입니다.</LongRange.description>
+  <NightVisionEfficiency.label>야간시야 효과</NightVisionEfficiency.label>
+  <NightVisionEfficiency.description>의복, 인공신체 및 선천적 능력에 따라 원거리 공격시 어둠의 영향을 극복하는 전반적인 능력입니다.</NightVisionEfficiency.description>
+  <NightVisionEfficiency_Implant.label>인공신체 야간시야 효과</NightVisionEfficiency_Implant.label>
+  <NightVisionEfficiency_Implant.description>원거리 공격시 어둠의 영향을 극복하는 인공신체의 보조 효과입니다.</NightVisionEfficiency_Implant.description>
+  <NightVisionEfficiency_Weapon.label>야간시야 효과</NightVisionEfficiency_Weapon.label>
+  <NightVisionEfficiency_Weapon.description>원거리 공격시 어둠의 영향을 극복하는 무기의 보조 효과입니다.</NightVisionEfficiency_Weapon.description>
+  <NightVisionEfficiency_Apparel.label>야간시야 효과</NightVisionEfficiency_Apparel.label>
+  <NightVisionEfficiency_Apparel.description>원거리 공격시 어둠의 영향을 극복하는 의복의 보조 효과입니다.</NightVisionEfficiency_Apparel.description>
+  <AimingAccuracy.label>조준 정확도</AimingAccuracy.label>
+  <AimingAccuracy.description>사수가 움직이는 목표물을 사격하면서 대상의 움직임을 따라 얼마나 정확히 조준점을 포착할 수 있는지를 나타내는 척도입니다.\n\n최종 오차 계수는 다음의 공식으로 계산됩니다.\n(1.5 - 조준 정확도)/조준경 효율\n\n조준점 포착시의 오차는 대상의 위치와 조준점의 거리를 이 오차에 곱하는 것으로 표현되며, 사거리 오차는 사수와 목표물의 거리를 4로 나눈 뒤 이 오차에 곱하는 것으로 표현됩니다.\n\n추가로, 조준 정확도는 조준사격 모드에서 무기 흔들림의 감소에도 영향을 줍니다. 예를 들어, 조준 정확도가 75%이면 흔들림은 25%로 줄어듭니다.</AimingAccuracy.description>
+  <ReloadSpeed.label>재장전 속도</ReloadSpeed.label>
+  <ReloadSpeed.description>무기를 재장전 할때의 속도.</ReloadSpeed.description>
+  <Suppressability.label>제압 임계치</Suppressability.label>
+  <Suppressability.description>정착민이 제압상태에 빠지는 임계치.\n\n의식 상실 및 특정 약물은 이 값을 낮춥니다.\n\n낮은 임계치의 정착민을 제압하는 것은 아주 어렵습니다.</Suppressability.description>
+  <AverageSharpArmor.label>신체 보호율</AverageSharpArmor.label>
+  <AverageSharpArmor.description>신체 전체에 걸친 방어구 보호범위의 평균 값입니다. 값이 높을수록 관통력이 낮은 발사체에 대한 자신감이 높아집니다.</AverageSharpArmor.description>
+  <AverageSharpArmor.formatString>{0} mm RHA</AverageSharpArmor.formatString>
+  <MeleeArmorPenetration.label>근접 방어 관통력</MeleeArmorPenetration.label>
+  <MeleeArmorPenetration.description>근접전에서의 방어 관통력. 적의 방어구에 의해 얼마나 피해가 경감되는지 결정합니다.</MeleeArmorPenetration.description>
+  <MeleeCritChance.label>근접공격 치명타 확률</MeleeCritChance.label>
+  <MeleeCritChance.description>근접 공격시에 상대에게 치명타를 적중시킬 확률입니다.\n\n치명타는 무작위 피해 분포에서 반드시 최대의 피해를 입히며, 날카로움 속성이라면 2배의 관통력이 적용되고, 둔탁함 속성이라면 대상을 기절시킵니다.\n\n 최종 확률은 상대의 치명타 기술에도 영향을 받으며 동등한 상대에게는 기본적으로 10%가 적용됩니다.\n상세 계산식은 다음과 같습니다: 10% + 공격자의 치명타 확률 - 방어자의 치명타 확률. 100% 초과는 100%로, 0% 미만은 0%로 적용됩니다.</MeleeCritChance.description>
+  <MeleeParryChance.label>근접공격 차단 확률</MeleeParryChance.label>
+  <MeleeParryChance.description>무기나 방패 등을 이용하여 상대의 근접공격을 차단할 확률. 근접공격을 차단하는 데에 성공하면 착용한 무기나 방패가 대신 피해를 받으며, 치명타 확률에 따라 즉시 반격할 수 있습니다.\n\n최종 확률은 상대의 차단 능력에도 영향을 받으며 동등한 상대에게는 기본적으로 20%가 적용됩니다.\n상세 계산식은 다음과 같습니다: 20% - 공격자의 차단 확률 * (1 + 차단 봉쇄 보너스) + 방어자의 차단 확률. 100% 초과는 100%로, 0% 미만은 0%로 적용됩니다.\n\n차단에 숙련된 폰은 맨손으로 공격을 차단할 때는 경감된 피해를 받으며, 무기를 든 채로 공격을 차단할 때에는 무기가 받는 피해를 줄일 수도 있습니다.</MeleeParryChance.description>
+  <UnarmedDamage.label>비무장 데미지 보너스</UnarmedDamage.label>
+  <UnarmedDamage.description>비무장 전투시 입힐 수 있는 추가 피해입니다.</UnarmedDamage.description>
+  <PartialArmorBody.description>특정 신체 부위에 있는 특별한 태생부터 있는 장갑</PartialArmorBody.description>
+  <PartialArmorBody.label>태생 장갑</PartialArmorBody.label>
+  <BodyPartSharpArmor.description>무기의 관통력과 비교하여 다음 신체 부위까지 관통 할 수 있는지 확인합니다. 높은 값은 벅샷과 같은 낮은 관통력의 공격이 내부 장기를 공격하기 더 힘들다는 것을 의미합니다.</BodyPartSharpArmor.description>
+  <BodyPartSharpArmor.label>신체 부위 RHA</BodyPartSharpArmor.label>
+  <BodyPartSharpArmor.formatString>{0} mm RHA</BodyPartSharpArmor.formatString>
+  <BodyPartBluntArmor.description>무기의 관통력과 비교하여 다음 신체 부위까지 관통 할 수 있는지 확인합니다. 높은 값은 벅샷과 같은 낮은 관통력의 공격이 내부 장기를 공격하기 더 힘들다는 것을 의미합니다.</BodyPartBluntArmor.description>
+  <BodyPartBluntArmor.label>신체 부위 MPa</BodyPartBluntArmor.label>
+  <BodyPartBluntArmor.formatString>{0} MPa</BodyPartBluntArmor.formatString>
+  <SmokeSensitivity.label>유독성 가스 민감도</SmokeSensitivity.label>
+  <SmokeSensitivity.description>이 생물의 연기 흡입으로 인한 증상에 대한 계수입니다.</SmokeSensitivity.description>
+  <CarryWeight.label>허용 무게</CarryWeight.label>
+  <CarryWeight.description>지정된 대상의 주머니 또는 가방에 넣거나 몸에 붙일 수 있는 무게의 양.</CarryWeight.description>
+  <CarryWeight.formatString>{0} kg</CarryWeight.formatString>
+  <CarryBulk.label>허용 부피</CarryBulk.label>
+  <CarryBulk.description>지정된 대상의 주머니 또는 가방에 넣거나 몸에 붙일 수 있는 물건의 부피.</CarryBulk.description>
+  <StuffPower_Armor_Electric.label>장갑 - 전자기</StuffPower_Armor_Electric.label>
+  <StuffPower_Armor_Electric.description>EMP와 같은 전기적 손상에 대응하는 장갑수치입니다.</StuffPower_Armor_Electric.description>
+  <MeleeDamage.label>근접 공격력</MeleeDamage.label>
+  <MeleeDamage.description>이 무기의 각 부위에 의한 피해량 범위입니다.</MeleeDamage.description>
+  <StuffEffectMultiplierToughness.label>단단함 - 소재 효과 배율</StuffEffectMultiplierToughness.label>
+  <ToughnessRating.label>단단함</ToughnessRating.label>
+  <ToughnessRating.labelForFullStatList>단단함 (무기 스탯)</ToughnessRating.labelForFullStatList>
+  <ToughnessRating.description>근접전투에서 무기로 상대의 공격을 막을 때, 무기가 받는 피해에 대한 경감 효과를 나타내는 수치입니다.\n\n먼저 피해 유형을 확인합니다. 공격의 피해 유형이 둔탁함일 경우, 단단함 수치에 1.5를 곱한 후 둔탁함 방어도(MPa)로 취급합니다. 날카로움 피해라면, 단단함 수치를 수치 그대로의 날카로움 방어도(mmRHA)로 취급합니다. 이후 방어도를 공격의 방어 관통력과 비교하여, 관통력 대비 방어도만큼 피해를 경감시키고 남은 피해를 절반으로 나누면 무기가 받는 피해를 구할 수 있습니다. (예를 들어, 단단함이 8mmRHA인 무기로 15MPa의 둔탁함 속성 공격을 막아내면, 그 무기는 (1 - 8*1.5/15) * 0.5 = 10%의 피해를 받습니다.)\n\n이 능력치는 무기 사용자의 기술에도 영향을 받습니다.\n\n피해가 적용되는 방식에 대해 더 깊게 알아보려면, 날카로움/둔탁함 방어도의 설명을 참조하십시오.</ToughnessRating.description>
+  <ToughnessRating.formatString>{0} mm RHA</ToughnessRating.formatString>
+  <MeleePenetrationFactor.label>근접 관통력 배율</MeleePenetrationFactor.label>
+  <MeleePenetrationFactor.description>근접 공격이 적의 장갑을 관통하는 능력을 의미합니다. 이 무기를 사용하는 모든 종류의 근접 공격에 적용되어 각각의 도구를 사용하는 공격이 가진 고유의 관통력 수치에 곱해집니다.\n\n세부 요인은 무기의 품질과 내구도입니다. 품질에 따라서 관통력은 최소 0.65배에서 1.5배까지 적용될 수 있으며, 무기가 손상되면 그 손상된 정도에 정비례하여 0배까지 약화됩니다.</MeleePenetrationFactor.description>
+  <MeleeCounterParryBonus.label>차단 봉쇄 보너스</MeleeCounterParryBonus.label>
+  <MeleeCounterParryBonus.description>이 무기로 공격할 때 (상대가 공격을 차단할 확률을 낮추는) 공격자의 차단 확률에 이 수치만큼의 추가 배율이 적용됩니다. 폰의 '근접공격 차단 확률' 부분을 참조하세요.</MeleeCounterParryBonus.description>
+  <SightsEfficiency.label>조준경 효율</SightsEfficiency.label>
+  <SightsEfficiency.description>착용중인 원거리 무기의 조준경 효율을 나타냅니다.\n\n좋은 조준경은 거리오차를 줄이고 목표물에 대한 시야확보를 개선합니다.</SightsEfficiency.description>
+  <OneHandedness.label>한손무기</OneHandedness.label>
+  <OneHandedness.description>이 무기를 한 손으로 사용할 수 있는지 여부를 나타냅니다. 한손무기는 방패와 함께 사용할 수 있습니다.</OneHandedness.description>
+  <UBGLInfo.label>보조무기 정보</UBGLInfo.label>
+  <UBGLInfo.description>언더배럴/오버배럴 혹은 다른 방식으로 부착된 무기에 관한 정보입니다.</UBGLInfo.description>
+  <ShotSpread.label>탄퍼짐 각도</ShotSpread.label>
+  <ShotSpread.description>무기를 발사할때 탄이 퍼지는 각도.\n\n이것은 무기의 고유한 탄퍼짐 각도를 나타내며 기술의 영향을 받지않는 무기 자체의 탄퍼짐 각도 입니다.\n\n값이 적을수록 정확합니다.</ShotSpread.description>
+  <ShotSpread.formatString>{0}°</ShotSpread.formatString>
+  <SwayFactor.label>무기 흔들림</SwayFactor.label>
+  <SwayFactor.description>무기를 사용할때 무기의 흔들림에 대한 척도입니다.\n\n조준 정확도는 무기의 흔들림 감소에 영향을 줍니다.</SwayFactor.description>
+  <MuzzleFlash.label>총구 화염</MuzzleFlash.label>
+  <MuzzleFlash.description>총구 화염이 얼마나 밝은지 나타냅니다.\n\n총구 화염은 어둠 속에서 사격수의 위치를 밝혀 더욱 정확한 응사 사격에 노출시킵니다. 밝은 총구 화염은 조준하기 더 쉽습니다.\n\n폰들은 5-10초 동안 총구 화염의 위치를 기억합니다.</MuzzleFlash.description>
+  <Caliber.label>구경</Caliber.label>
+  <Caliber.description>해당 총기에 사용되는 탄약의 종류입니다.</Caliber.description>
+  <BipodStats.label>양각대</BipodStats.label>
+  <BipodStats.description>양각대가 설치되거나 철거되었을 경우 무기의 능력치에 끼치는 효과입니다.</BipodStats.description>
+  <TicksBetweenBurstShots.label>발사 속도</TicksBetweenBurstShots.label>
+  <TicksBetweenBurstShots.description>이 무기로 투사체를 발사하는 속도.</TicksBetweenBurstShots.description>
+  <BurstShotCount.label>연사시 투사체 개수</BurstShotCount.label>
+  <BurstShotCount.description>연사시 얼마나 많은 투사체를 뿌리는지 알려줍니다.</BurstShotCount.description>
+  <Recoil.label>반동 정도</Recoil.label>
+  <Recoil.description>이 무기는 발사할 때 얼마나 많이 흔들리는지 알려줍니다.</Recoil.description>
+  <MagazineCapacity.label>탄창 용량/재장전 시간</MagazineCapacity.label>
+  <MagazineCapacity.description>해당 총기의 탄창용량과 재장전에 걸리는 시간을 알려줍니다.</MagazineCapacity.description>
+  <ReloadTime.label>재장전 시간</ReloadTime.label>
+  <ReloadTime.description>이 무기의 재장전 시간을 알려줍니다.</ReloadTime.description>
+  <ammoConsumedPerShotCount.label>발당 탄약 소비량</ammoConsumedPerShotCount.label>
+  <ammoConsumedPerShotCount.description>총이 각 발사에 소비하는 탄약 단위 수. \n\n 방아쇠를 당길 때마다 동시에 발사되는 여러 배럴이있는 총이나 파워 셀에서 다른 양의 에너지를 사용하는 에너지 무기에 적용됩니다.</ammoConsumedPerShotCount.description>
+  <AmmoGenPerMagOverride.label>ammo generation per magazine override</AmmoGenPerMagOverride.label>
+  <AmmoGenPerMagOverride.description>How many units of ammunition per magazine specified in pawnKindDef should a pawn bring.\n\nPurely used in pawn generation. You should not be able to read this in game.</AmmoGenPerMagOverride.description>
+  <ArmorRating_Blunt.formatString>{0} MPa</ArmorRating_Blunt.formatString>
+  <StuffPower_Armor_Blunt.formatString>{0} MPa</StuffPower_Armor_Blunt.formatString>
+  <ArmorRating_Sharp.formatString>{0} mm RHA</ArmorRating_Sharp.formatString>
+  <StuffPower_Armor_Sharp.formatString>{0} mm RHA</StuffPower_Armor_Sharp.formatString>
+  <ShootingAccuracyPawn.description>사수가 조준시에 총을 안정적으로 지지하고 반동을 제어하는 능력을 나타냅니다.\n\n총기의 최종 흔들림은 다음과 같이 계산됩니다: (4.5 - 사격 정확도) * 무기 흔들림 / 조준경 효율\n\n무기의 반동은 이 흔들림 수치에 무기의 반동 수치를 곱하는 것으로 표현되며, 반동은 연속 사격의 매 발사시마다 그 수치만큼 증가합니다.</ShootingAccuracyPawn.description>
+  <ArmorRating_Sharp.description>총탄, 날붙이의 찌르기, 동물의 깨물기와 같은 날카로운 피해가 경감되는 정도를 나타냅니다.\n\n공격의 관통 수치를 방어도와 비교하여, 방어도가 더 높으면 도탄이 발생합니다. 방어도가 더 낮다면, 관통 수치 대비 방어도의 비율만큼 피해가 비율로 경감됩니다. 즉, 실제 피해량은 원래 피해량 * (1 - (방어도/관통 수치))가 됩니다. 예를 들어, 8mmRHA의 장갑에 10mmRHA의 공격이 적중하면, 장갑은 80%의 피해를 방어할 것입니다.\n\n이러한 피해 경감 효과는 공격이 지나가는 매 층마다 적용되어 관통 능력과 피해를 경감시킵니다.\n\n공격이 도탄되었다면, 공격을 둔탁함 속성으로 변환하여 다시 피해 계산을 실시합니다. 이 때, 둔탁함 관통 수치는 원래의 날카로움 방어도 대비 관통 수치의 비율만큼 곱해지는 페널티를 받게 됩니다. 공격이 관통에 성공하여 일부만 방지되었을 경우에도, 방지된 피해에 대해 이와 같은 피해 계산을 실시합니다. 이 경우에는, 둔탁함 관통 수치는 원래 피해 대비 방어된 이후의 피해의 비율과 방어된 원래 방어 관통 수치 대비 방어된 이후의 관통 수치의 비율만큼 곱해집니다.</ArmorRating_Sharp.description>
+  <ArmorRating_Blunt.description>철퇴, 폭발, 동물의 발굽과 같은 둔탁한 피해가 경감되는 정도를 나타냅니다.\n\n공격의 관통 수치를 방어도와 비교하여, 방어도가 더 높으면 피해가 발생하지 않습니다. 방어도가 더 낮다면, 관통 수치 대비 방어도의 비율만큼 피해가 비율로 경감됩니다. 즉, 실제 피해량은 원래 피해량 * (1 - (방어도/관통 수치))가 됩니다. 예를 들어, 8MPa의 장갑에 10MPa의 공격이 적중하면, 장갑은 80%의 피해를 방어할 것입니다.\n\n이러한 피해 경감 효과는 공격이 지나가는 매 층마다 적용되어 관통 능력과 피해를 경감시킵니다.</ArmorRating_Blunt.description>
+  <ArmorRating_Heat.description>불이나 인화성 폭발과 같은 열기 피해가 경감되는 비율을 나타냅니다. 즉, 열기 방어도가 100% 이상이라면 열기 피해에 완전한 내성을 가질 수 있습니다.</ArmorRating_Heat.description>
+</LanguageData>
