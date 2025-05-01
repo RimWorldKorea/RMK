@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RitualOutcomeEffectDef[defName="ChildBirth"]/comps/li[7]/label</xpath>
+    <value>
+      <label>{PAWN_labelShort}의 돌연변이 유전자</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RitualOutcomeEffectDef[defName="ChildBirth"]/comps/li[7]/labelAbstract</xpath>
+    <value>
+      <labelAbstract>어머니의 돌연변이 유전자</labelAbstract>
+    </value>
+  </Operation>
+</Patch>
