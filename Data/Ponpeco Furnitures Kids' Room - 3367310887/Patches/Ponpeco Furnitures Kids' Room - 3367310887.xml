@@ -38,4 +38,28 @@
       </operations>
     </match>
   </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Adaptive Storage Framework</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PFK_AdaptiveClothingRack"]/label</xpath>
+          <value>
+            <label>수납형 옷걸이</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PFK_AdaptiveClothingRack"]/description</xpath>
+          <value>
+            <description>흩어진 옷들을 작은 서랍에 깔끔하게 정리하세요. 이 옷걸이는 많은 수의 의류 아이템을 보관할 수 있습니다.\nDeepStorage의 "옷걸이"와 기능이 동일하며, 의류 아이템 보관을 위해 특별히 설계되었습니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
 </Patch>
