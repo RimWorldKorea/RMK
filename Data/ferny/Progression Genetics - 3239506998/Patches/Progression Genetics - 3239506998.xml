@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Genetics Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="GR_OpportunitySite_AbandonedLab"]/questDescriptionRules/rulesStrings/li[1]</xpath>
+          <value>
+            <li>questDescription(askerIsNull==true)-&gt;우리는 [map_definite]에서 멀지 않은 곳에 버려진 것으로 보이는 유전물질 연구소의 무전 전파를 도청했습니다. 연구소에 흥미로운 고대 기술들이 흩어져 있을 수 있기 때문에, 그 곳을 조사하는 것은 좋은 생각일지도 모릅니다.\n\n 유전 흉물이 아직도 버려진 시설을 배회하고 있을지도 모르기 때문에 충분히 준비해야 합니다.</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchTabDef[defName="GR_GeneticReseach"]/label</xpath>
+          <value>
+            <label>유전물질 연구</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/DesignationCategoryDef[defName="GR_GeneticsTab"]/label</xpath>
+          <value>
+            <label>유전물질</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/DesignationCategoryDef[defName="GR_GeneticsTab"]/description</xpath>
+          <value>
+            <description>동물 유전물질에 관련된 항목입니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="GR_GeneticsTinkeringTable"]/label</xpath>
+          <value>
+            <label>유전물질 땜질 작업대</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="GR_ElectroWomb"]/label</xpath>
+          <value>
+            <label>동물 전기배양기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="GR_LargeElectroWomb"]/label</xpath>
+          <value>
+            <label>대형 동물 전기배양기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="GR_NutrientVat"]/description</xpath>
+          <value>
+            <description>액화 유기 펄프 혼합물로 가득 찬 강화 유리통입니다. 이 용액은 유전물질 실험에 사용되며, 유전물질 관련 작업대 근처에 놓으면 작업 속도를 높여줍니다. 한 작업대는 영양통 최대 두 개의 영향만 받습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/SitePartDef[defName="GR_AbandonedLab"]/label</xpath>
+          <value>
+            <label>버려진 유전물질 연구소</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/SitePartDef[defName="GR_AbandonedLab"]/description</xpath>
+          <value>
+            <description>최근에 발견된 버려진 유전물질 연구소입니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="GR_OpportunitySite_AbandonedLab"]/questNameRules/rulesStrings/li[1]</xpath>
+          <value>
+            <li>questName(priority=1)-&gt;[adjectiveLab] [ruins] [journey]</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="GR_OpportunitySite_AbandonedLab"]/questNameRules/rulesStrings/li[2]</xpath>
+          <value>
+            <li>journey-&gt;여행</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="GR_OpportunitySite_AbandonedLab"]/questNameRules/rulesStrings/li[3]</xpath>
+          <value>
+            <li>journey-&gt;탐험</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="GR_OpportunitySite_AbandonedLab"]/questNameRules/rulesStrings/li[4]</xpath>
+          <value>
+            <li>journey-&gt;임무</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="GR_OpportunitySite_AbandonedLab"]/questNameRules/rulesStrings/li[5]</xpath>
+          <value>
+            <li>journey-&gt;탐색</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="GR_OpportunitySite_AbandonedLab"]/questNameRules/rulesStrings/li[6]</xpath>
+          <value>
+            <li>journey-&gt;조사</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="GR_OpportunitySite_AbandonedLab"]/questNameRules/rulesStrings/li[7]</xpath>
+          <value>
+            <li>journey-&gt;연구</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="GR_OpportunitySite_AbandonedLab"]/questNameRules/rulesStrings/li[8]</xpath>
+          <value>
+            <li>adjectiveLab-&gt;버려진</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="GR_OpportunitySite_AbandonedLab"]/questNameRules/rulesStrings/li[9]</xpath>
+          <value>
+            <li>adjectiveLab-&gt;사용되지 않는</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="GR_OpportunitySite_AbandonedLab"]/questNameRules/rulesStrings/li[10]</xpath>
+          <value>
+            <li>adjectiveLab-&gt;허물어져 가는</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="GR_OpportunitySite_AbandonedLab"]/questNameRules/rulesStrings/li[11]</xpath>
+          <value>
+            <li>adjectiveLab-&gt;정지한</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="GR_OpportunitySite_AbandonedLab"]/questNameRules/rulesStrings/li[12]</xpath>
+          <value>
+            <li>adjectiveLab-&gt;황량한</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="GR_OpportunitySite_AbandonedLab"]/questNameRules/rulesStrings/li[13]</xpath>
+          <value>
+            <li>ruins-&gt;동물 유전 연구실</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="GR_OpportunitySite_AbandonedLab"]/questNameRules/rulesStrings/li[14]</xpath>
+          <value>
+            <li>ruins-&gt;동물 연구 시설</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="GR_OpportunitySite_AbandonedLab"]/questNameRules/rulesStrings/li[15]</xpath>
+          <value>
+            <li>ruins-&gt;동물 실험실</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="GR_OpportunitySite_AbandonedLab"]/questNameRules/rulesStrings/li[16]</xpath>
+          <value>
+            <li>ruins-&gt;동물 연구소</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="GR_TissueGrinder"]/label</xpath>
+          <value>
+            <label>동물 조직 분쇄기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="GR_GeneticAlteration"]/label</xpath>
+          <value>
+            <label>기초 유전학</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="GR_GeneticAlteration"]/description</xpath>
+          <value>
+            <description>생명체에게서 유전학 작업에 필요한 재료를 추출할 수 있습니다. 야생동물에게서 유전물질을, 정착민에게서 유전자를 채취하세요.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="GR_GeneticEngineering"]/label</xpath>
+          <value>
+            <label>동물 혼종</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="GR_GeneticDuplication"]/label</xpath>
+          <value>
+            <label>게놈 복제</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="GR_HybridImplantology"]/label</xpath>
+          <value>
+            <label>동물 보철물</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="GR_GeneticCompatibility"]/label</xpath>
+          <value>
+            <label>인간 보철물</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="GR_GeneticMechahybridization"]/label</xpath>
+          <value>
+            <label>생체역학 실험실 비컨</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="Xenogermination"]/label</xpath>
+          <value>
+            <label>변형이식체 조립</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="Xenogermination"]/description</xpath>
+          <value>
+            <description>추출한 유전자로 이종형을 변경하는 변형이식체를 만들 수 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="GR_GeneticEngineering"]/description</xpath>
+          <value>
+            <description>유전물질 변형기를 통해 새로운 혼종을 창조해 전기배양기에서 배양시키고, 유전물질 땜질 작업대에서 촉진제를 제작할 수 있습니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Genes</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="AG_OpportunitySite_AbandonedBiotechLab"]/questNameRules/rulesStrings/li[1]</xpath>
+          <value>
+            <li>questName(priority=1)-&gt;[biotechlab] [discovered]</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="AG_OpportunitySite_AbandonedBiotechLab"]/questNameRules/rulesStrings/li[2]</xpath>
+          <value>
+            <li>biotechlab-&gt;생체공학 인간 연구실</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="AG_OpportunitySite_AbandonedBiotechLab"]/questNameRules/rulesStrings/li[3]</xpath>
+          <value>
+            <li>biotechlab-&gt;생체공학 유전자 연구실</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="AG_OpportunitySite_AbandonedBiotechLab"]/questNameRules/rulesStrings/li[4]</xpath>
+          <value>
+            <li>biotechlab-&gt;생체공학 인간 유전 실험실</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="AG_OpportunitySite_AbandonedBiotechLab"]/questNameRules/rulesStrings/li[5]</xpath>
+          <value>
+            <li>biotechlab-&gt;생체공학 변형인자 연구실</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="AG_OpportunitySite_AbandonedBiotechLab"]/questNameRules/rulesStrings/li[6]</xpath>
+          <value>
+            <li>discovered-&gt;발견</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="AG_OpportunitySite_AbandonedBiotechLab"]/questNameRules/rulesStrings/li[7]</xpath>
+          <value>
+            <li>discovered-&gt;찾은</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="AG_OpportunitySite_AbandonedBiotechLab"]/questNameRules/rulesStrings/li[8]</xpath>
+          <value>
+            <li>discovered-&gt;위치한</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="AG_OpportunitySite_AbandonedBiotechLab"]/questNameRules/rulesStrings/li[9]</xpath>
+          <value>
+            <li>discovered-&gt;밝혀진</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="AG_OpportunitySite_AbandonedBiotechLab"]/questNameRules/rulesStrings/li[10]</xpath>
+          <value>
+            <li>discovered-&gt;추적</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="AG_OpportunitySite_AbandonedBiotechLab"]/questNameRules/rulesStrings/li[11]</xpath>
+          <value>
+            <li>discovered-&gt;발굴</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Genes</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Alpha Genes</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/QuestScriptDef[defName="AG_OpportunitySite_AbandonedBiotechLab"]/questDescriptionRules/rulesStrings/li[1]</xpath>
+            <value>
+              <li>questDescription(askerIsNull==true)-&gt;망가진 전파 신호기가 위치 추적기와 함께 희미한 무선 신호를 방출하고 있는 것 같습니다. 이 신호를 해독한 결과, [map_definite]에서 멀지 않은 고대 유전자공학 실험실로 연결되는 것 같습니다. 그곳에 구할 수 있는 유전자 기술이 있을지도 모르니 조사해보는 것도 좋을 것 같습니다.\n\n무선 신호가 연구소의 위치로 적의 존재를 유인할 수 있으므로 철저히 대비해야 합니다.</li>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/SitePartDef[defName="AG_AbandonedBiotechLab"]/label</xpath>
+            <value>
+              <label>버려진 유전자 실험실</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>ReSplice: Core</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RS_GeneCentrifuge"]/label</xpath>
+          <value>
+            <label>유전자묶음 원심분리기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RS_XenoGermDuplicator"]/label</xpath>
+          <value>
+            <label>변형이식체 복제기</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
