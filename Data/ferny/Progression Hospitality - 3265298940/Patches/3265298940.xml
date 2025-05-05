@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Hospitality: Vending machines</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MedievalVendingMachine"]/label</xpath>
+          <value>
+            <label>자판기 선반</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="MedievalVendingMachine"]/description</xpath>
+          <value>
+            <description>간단하게 손님에게 물건을 팔 수 있습니다. 대규모 판매 구역을 설정하거나 자동 판매기를 만들고 싶지 않은 경우 최적의 선택입니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Cash Register</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="CashRegister_CashRegister"]/description</xpath>
+          <value>
+            <description>음식점과 상점을 관리할 수 있는 금전 등록기입니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Hospitality: Spa</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DBHSaunaHeaterElec"]/label</xpath>
+          <value>
+            <label>전기 사우나 난방기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DBHSaunaHeaterLog"]/label</xpath>
+          <value>
+            <label>화력발전 사우나 난방기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DBHSaunaSeating"]/label</xpath>
+          <value>
+            <label>사우나 좌석</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
