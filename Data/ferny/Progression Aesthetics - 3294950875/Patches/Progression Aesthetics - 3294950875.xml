@@ -1,0 +1,633 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Empire</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>##packageId##dankpyon.medieval.overhaul</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VFEE_Candelabra"]/label</xpath>
+            <value>
+              <label>전기 촛대</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="MF_RoyalFurniture"]/label</xpath>
+          <value>
+            <label>고급 가구</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>ReGrowth: Core</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RG_Hedge"]/label</xpath>
+          <value>
+            <label>덤불 산울타리</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Architect</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEArch_HedgeWall"]/label</xpath>
+          <value>
+            <label>손질된 산울타리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEArch_FineWall"]/label</xpath>
+          <value>
+            <label>멋진 벽</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Props - Parks and Gardens</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEPD_AP_LamplightA_Functional"]/label</xpath>
+          <value>
+            <label>가로등</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEPD_AP_LamplightB_Functional"]/label</xpath>
+          <value>
+            <label>가로등</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEPD_AP_LamplightC_Functional"]/label</xpath>
+          <value>
+            <label>가로등</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEPD_AP_LamplightD_Functional"]/label</xpath>
+          <value>
+            <label>가로등</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEPD_AP_LamplightE_Functional"]/label</xpath>
+          <value>
+            <label>가로등</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEPD_AP_LamplightL_Functional"]/label</xpath>
+          <value>
+            <label>가로등</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEPD_AP_LamplightT_Functional"]/label</xpath>
+          <value>
+            <label>가로등</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Architect</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>ReBuild: Doors and Corners</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="Ferny_PrisonArchitecture"]/label</xpath>
+            <value>
+              <label>감옥 건축</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="Ferny_PrisonArchitecture"]/description</xpath>
+            <value>
+              <description>죄수들을 격리할 수 있는 구조물을 만들 수 있습니다.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>ReBuild: Doors and Corners</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RB_RusticWall"]/label</xpath>
+          <value>
+            <label>약한 벽</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Art</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFE_Wallpaper"]/label</xpath>
+          <value>
+            <label>벽지 벽</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Steve's Walls</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="GlitterGlassResearch"]/label</xpath>
+          <value>
+            <label>반짝이는 유리벽</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="GlitterGlassResearch"]/description</xpath>
+          <value>
+            <description>다양한 기능을 조절 가능한 고급 벽으로, 상당히 튼튼할 뿐만 아니라 습격을 경고할 수도 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SW_NormalGlitterGlassWall"]/label</xpath>
+          <value>
+            <label>반짝이는 유리벽</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SW_NormalAlertGlitterGlassWall"]/label</xpath>
+          <value>
+            <label>반짝이는 보안 유리벽</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SW_BlueGlitterGlassWall"]/label</xpath>
+          <value>
+            <label>파란색 반짝이는 유리벽</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SW_BlueAlertGlitterGlassWall"]/label</xpath>
+          <value>
+            <label>파란색 반짝이는 보안 유리벽</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SW_GreenGlitterGlassWall"]/label</xpath>
+          <value>
+            <label>초록색 반짝이는 유리벽</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SW_GreenAlertGlitterGlassWall"]/label</xpath>
+          <value>
+            <label>초록색 반짝이는 보안 유리벽</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SW_YellowGlitterGlassWall"]/label</xpath>
+          <value>
+            <label>노란색 반짝이는 유리벽</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SW_YellowAlertGlitterGlassWall"]/label</xpath>
+          <value>
+            <label>노란색 반짝이는 보안 유리벽</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SW_OrangeGlitterGlassWall"]/label</xpath>
+          <value>
+            <label>주황색 반짝이는 유리벽</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SW_OrangeAlertGlitterGlassWall"]/label</xpath>
+          <value>
+            <label>주황색 반짝이는 보안 유리벽</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SW_RedGlitterGlassWall"]/label</xpath>
+          <value>
+            <label>빨간색 반짝이는 유리벽</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SW_RedAlertGlitterGlassWall"]/label</xpath>
+          <value>
+            <label>빨간색 반짝이는 보안 유리벽</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SW_PinkGlitterGlassWall"]/label</xpath>
+          <value>
+            <label>분홍색 반짝이는 유리벽</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SW_PinkAlertGlitterGlassWall"]/label</xpath>
+          <value>
+            <label>분홍색 반짝이는 보안 유리벽</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SW_PurpleGlitterGlassWall"]/label</xpath>
+          <value>
+            <label>보라색 반짝이는 유리벽</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SW_PurpleAlertGlitterGlassWall"]/label</xpath>
+          <value>
+            <label>보라색 반짝이는 보안 유리벽</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SW_RoundedGlitterGlassWall"]/label</xpath>
+          <value>
+            <label>반짝이는 둥근 유리벽</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SW_RoundedAlertGlitterGlassWall"]/label</xpath>
+          <value>
+            <label>반짝이는 둥근 보안 유리벽</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SW_BlueRoundedGlitterGlassWall"]/label</xpath>
+          <value>
+            <label>파란색 반짝이는 둥근 유리벽</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SW_BlueRoundedAlertGlitterGlassWall"]/label</xpath>
+          <value>
+            <label>파란색 반짝이는 둥근 보안 유리벽</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SW_GreenRoundedGlitterGlassWall"]/label</xpath>
+          <value>
+            <label>초록색 반짝이는 둥근 유리벽</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SW_GreenRoundedAlertGlitterGlassWall"]/label</xpath>
+          <value>
+            <label>초록색 반짝이는 둥근 보안 유리벽</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SW_YellowRoundedGlitterGlassWall"]/label</xpath>
+          <value>
+            <label>노란색 반짝이는 둥근 유리벽</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SW_YellowRoundedAlertGlitterGlassWall"]/label</xpath>
+          <value>
+            <label>노란색 반짝이는 둥근 보안 유리벽</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SW_OrangeRoundedGlitterGlassWall"]/label</xpath>
+          <value>
+            <label>주황색 반짝이는 둥근 유리벽</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SW_OrangeRoundedAlertGlitterGlassWall"]/label</xpath>
+          <value>
+            <label>주황색 반짝이는 둥근 보안 유리벽</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SW_RedRoundedGlitterGlassWall"]/label</xpath>
+          <value>
+            <label>빨간색 반짝이는 둥근 유리벽</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SW_RedRoundedAlertGlitterGlassWall"]/label</xpath>
+          <value>
+            <label>빨간색 반짝이는 둥근 보안 유리벽</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SW_PinkRoundedGlitterGlassWall"]/label</xpath>
+          <value>
+            <label>분홍색 반짝이는 둥근 유리벽</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SW_PinkRoundedAlertGlitterGlassWall"]/label</xpath>
+          <value>
+            <label>분홍색 반짝이는 둥근 보안 유리벽</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SW_PurpleRoundedGlitterGlassWall"]/label</xpath>
+          <value>
+            <label>보라색 반짝이는 둥근 유리벽</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SW_PurpleRoundedAlertGlitterGlassWall"]/label</xpath>
+          <value>
+            <label>보라색 반짝이는 둥근 보안 유리벽</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Steve's Doors</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SD_GlassDoorDoubleTESTING"]/label</xpath>
+          <value>
+            <label>대형 첨단 차원문 (2x1)</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SD_LaserDoorDefault"]/label</xpath>
+          <value>
+            <label>광선 문 (1x1)</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SD_GlassDoorDefault"]/label</xpath>
+          <value>
+            <label>첨단 문 (1x1)</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SD_GlassDoorSlidingSingle"]/label</xpath>
+          <value>
+            <label>첨단 미닫이문 (1x1)</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SD_GlassDoorRollingVaultSingle"]/label</xpath>
+          <value>
+            <label>첨단 회전문 (1x1)</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SD_GlassDoorAngledFading"]/label</xpath>
+          <value>
+            <label>첨단 각도 변동 문 (1x1)</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SD_GlassDoorArrow"]/label</xpath>
+          <value>
+            <label>첨단 화살표 문 (1x1)</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SD_GlassDoorSlanted"]/label</xpath>
+          <value>
+            <label>첨단 경사형 문 (1x1)</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SD_GlassDoorIris"]/label</xpath>
+          <value>
+            <label>첨단 조리개 문 (1x1)</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SD_GlassDoorIrisEnhanced"]/label</xpath>
+          <value>
+            <label>첨단 강화 조리개 문 (1x1)</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SD_GlassDoorPortal"]/label</xpath>
+          <value>
+            <label>첨단 전송문 (1x1)</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SD_GlassDoorIrisEnhancedDouble"]/label</xpath>
+          <value>
+            <label>대형 첨단 강화 조리개 문 (1x1)</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SD_GlassDoorDoubleDefault"]/label</xpath>
+          <value>
+            <label>대형 첨단 문 (2x1)</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SD_GlassDoorDoubleCascading"]/label</xpath>
+          <value>
+            <label>대형 첨단 차원문 (2x1)</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Ideology Expanded - Sophian Style</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Rimsenal Style Pack - Sophian</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/StyleCategoryDef[defName="RSSophian"]/label</xpath>
+            <value>
+              <label>소버린</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Memes</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Rimsenal Style Pack - Techist</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/StyleCategoryDef[defName="Techist"]/label</xpath>
+            <value>
+              <label>테크펑크</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/StyleCategoryDef[defName="RimsenalTechist"]/label</xpath>
+            <value>
+              <label>기술주의</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="TorchLamp"]/label</xpath>
+    <value>
+      <label>횃불</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="TorchWallLamp"]/label</xpath>
+    <value>
+      <label>벽 횃불</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="DiningChair"]/label</xpath>
+    <value>
+      <label>의자</label>
+    </value>
+  </Operation>
+</Patch>
