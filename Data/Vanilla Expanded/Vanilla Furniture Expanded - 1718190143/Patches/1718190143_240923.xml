@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ideology</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RitualBehaviorDef[defName="CelebrationPartyDanceDrum"]/stages/li[1]/failTriggers/li[4]/desc</xpath>
+          <value>
+            <desc>화덕이 없습니다.</desc>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RitualBehaviorDef[defName="CelebrationPartyDanceDrum"]/stages/li[1]/failTriggers/li[5]/desc</xpath>
+          <value>
+            <desc>희미한 화덕이 없습니다.</desc>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RitualBehaviorDef[defName="CelebrationPartyDanceDrum"]/stages/li[1]/failTriggers/li[6]/desc</xpath>
+          <value>
+            <desc>화덕이 꺼져 있습니다.</desc>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RitualBehaviorDef[defName="CelebrationPartyDanceDrum"]/stages/li[1]/failTriggers/li[7]/desc</xpath>
+          <value>
+            <desc>희미한 화덕이 꺼져 있습니다.</desc>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RitualBehaviorDef[defName="CelebrationPartyDanceDrum"]/stages/li[1]/failTriggers/li[8]/desc</xpath>
+          <value>
+            <desc>드럼이 없습니다.</desc>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RitualBehaviorDef[defName="CelebrationPartyDanceDrum"]/stages/li[1]/failTriggers/li[9]/desc</xpath>
+          <value>
+            <desc>드럼이 없습니다.</desc>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="TubeTelevision"]/description</xpath>
+    <value>
+      <description>브라운관 TV, 산업용 라디오, 오락기 등 기본적인 전자 오락 시설을 건설합니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="FlatscreenTelevision"]/description</xpath>
+    <value>
+      <description>평면 TV, 장파 라디오 등 복잡한 전자 오락 시설을 건설합니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="FlatscreenTelevision"]/label</xpath>
+    <value>
+      <label>복잡한 전자공학</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="TubeTelevision"]/label</xpath>
+    <value>
+      <label>기본 전자공학</label>
+    </value>
+  </Operation>
+</Patch>

@@ -428,4 +428,160 @@
       </operations>
     </match>
   </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Architect</li>
+      <li>ReBuild: Doors and Corners</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Anomaly</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="SecurityDoor"]/label</xpath>
+            <value>
+              <label>강화 구조물</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="SecurityDoor"]/description</xpath>
+            <value>
+              <description>매우 튼튼한 구조물을 건설합니다. 위험한 것을 막거나 가두고 싶을 때 좋은 선택입니다.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Genetics Expanded</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>WVC - Xenotypes and Genes</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="GR_NutrientVat"]/description</xpath>
+            <value>
+              <description>액화된 유기물 펄프 슬러리가 이 강화 유리 통을 채우고 있습니다. 이 용액은 유전학 실험에 사용되며, 유전학 관련 작업대 근처에 배치하면 작업 속도를 높입니다. 작업대 하나당 최대 두 개의 영양액 통을 사용할 수 있습니다.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Crafts</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Cooking Expanded</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="TMM_ConsumedInfusedMayo"]/stages/li[1]/label</xpath>
+            <value>
+              <label>주입된 마요네즈 섭취</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="TMM_ConsumedInfusedMayo"]/stages/li[1]/description</xpath>
+            <value>
+              <description>맛있는 주입된 마요네즈를 먹었어. 정말 든든해!</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Crafts</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Cooking Expanded</li>
+      </mods>
+      <match Class="PatchOperationFindMod">
+        <mods>
+          <li>Vanilla Plants Expanded - More Plants</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/ThoughtDef[defName="TMM_ConsumedBlackMayo"]/stages/li[1]/label</xpath>
+              <value>
+                <label>검은 마요네즈 섭취</label>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/ThoughtDef[defName="TMM_ConsumedBlackMayo"]/stages/li[1]/description</xpath>
+              <value>
+                <description>맛있는 검은 마요네즈를 먹었어. 꽤 든든해!</description>
+              </value>
+            </li>
+          </operations>
+        </match>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>March of the Archocubes</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Reinforced Mechanoid 2 (Continued)</li>
+      </mods>
+      <match Class="PatchOperationFindMod">
+        <mods>
+          <li>Vanilla Factions Expanded - Mechanoids</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/RecipeDef[defName="TMM_Make_MechanoidVanometricCore"]/label</xpath>
+              <value>
+                <label>메카노이드 바노메트릭 코어 만들기</label>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/RecipeDef[defName="TMM_Make_MechanoidVanometricCore"]/description</xpath>
+              <value>
+                <description>메카노이드 바노메트릭 코어를 만듭니다.</description>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/RecipeDef[defName="TMM_Make_MechanoidVanometricCore"]/jobString</xpath>
+              <value>
+                <jobString>메카노이드 바노메트릭 코어 만드는 중</jobString>
+              </value>
+            </li>
+          </operations>
+        </match>
+      </match>
+    </match>
+  </Operation>
 </Patch>
