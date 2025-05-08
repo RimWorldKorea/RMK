@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Anomaly</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="RevenantVertebrae"]/description</xpath>
+          <value>
+            <description>사용자가 일시적으로 투명해질 수 있게 해주는 임플란트입니다. 이 임플란트는 변형된 망령 척추로 제작되며, 초월공학 파편을 사용하여 잠든 망령을 억제합니다. 사용자는 주변 사람들의 시각 중추를 조종하여 짧은 시간 동안 효과적으로 자신을 투명하게 만들 수 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RevenantVertebrae"]/description</xpath>
+          <value>
+            <description>사용자가 일시적으로 투명해질 수 있게 해주는 임플란트입니다. 이 임플란트는 변형된 망령 척추로 제작되며 초월공학 파편을 사용하여 잠든 망령을 억제합니다. 사용자는 주변 사람들의 시각 중추를 조종하여 짧은 시간 동안 효과적으로 자신을 투명하게 만들 수 있습니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+      <li>##packageId##Mlie.XNDTurretExtensions</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Biotech</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/StatDef[defName="AimingDelayFactor"]/parts/li[2]/label</xpath>
+            <value>
+              <label>메카나이터와의 간격</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/StatDef[defName="MeleeHitChance"]/parts/li[2]/label</xpath>
+            <value>
+              <label>메카나이터와의 간격</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/StatDef[defName="MeleeDodgeChance"]/parts/li[1]/label</xpath>
+            <value>
+              <label>메카나이터와의 간격</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/StatDef[defName="ShootingAccuracyPawn"]/parts/li[1]/label</xpath>
+          <value>
+            <label>메카나이터와의 간격</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/StatDef[defName="AimingDelayFactor"]/parts/li[3]/label</xpath>
+          <value>
+            <label>메카나이터와의 간격</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/StatDef[defName="MeleeHitChance"]/parts/li[3]/label</xpath>
+          <value>
+            <label>메카나이터와의 간격</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
