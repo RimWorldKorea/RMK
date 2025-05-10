@@ -1,17 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <Charged.label>전자기탄</Charged.label>
-  <Charged.description>충전된 입자로 코팅된 전자기탄은 보호구와 신체를 동등하게 파괴합니다.</Charged.description>
+  <Charged.description>충전 입자 코팅이 입혀진 탄종입니다. 보호구와 신체를 동등하게 파괴합니다.</Charged.description>
   <ChargedAP.label>집중 전자기탄</ChargedAP.label>
   <ChargedAP.labelShort>집중입자탄</ChargedAP.labelShort>
-  <ChargedAP.description>파괴력을 희생하는 대신 보호구 침투력을 향상시키기 위해 코어의 끝부분에 입자를 집중시킨 전자기탄 입니다.</ChargedAP.description>
+  <ChargedAP.description>충전 입자를 코어 끝부분에 집중시켜 저지력을 댓가로 장갑 관통력을 향상시켰습니다.</ChargedAP.description>
   <Ionized.label>이온 전자기탄</Ionized.label>
   <Ionized.labelShort>이온전자탄</Ionized.labelShort>
-  <Ionized.description>메카노이드와 싸우기 위해 설계된 이 탄환은 피격시 전류를 방출해 전자 시스템을 일시적으로 중단시킵니다.</Ionized.description>
+  <Ionized.description>대 메카노이드 전투를 위해 설계된 이 탄환은 충돌시 전류를 방출해 전자 시스템을 일시적으로 중단시킵니다.</Ionized.description>
+  <Laser.label>레이저</Laser.label>
+  <Laser.description>전자기파를 집중시킨 광선 또는 볼트입니다. 대상에게 파괴적인 에너지를 전달합니다.</Laser.description>
   <IncendiaryFuel.label>소이탄</IncendiaryFuel.label>
-  <IncendiaryFuel.description>피격 후 발화하는 발화물질로 채워진 탄환입니다.</IncendiaryFuel.description>
+  <IncendiaryFuel.description>피격 후 발화하는 소이성 물질로 채워진 탄환입니다.</IncendiaryFuel.description>
   <NapalmFuel.label>네이팜</NapalmFuel.label>
-  <NapalmFuel.description>가연성이 매우 높은 액체로, 계속해서 연소하며 근처에 있는 물체에 불이 붙습니다.</NapalmFuel.description>
+  <NapalmFuel.description>가연성이 매우 높은 액체로, 계속해서 연소하며 근처에 있는 물체에 불을 붙입니다.</NapalmFuel.description>
   <JelliedPrometheumFuel.label>젤리화 프로메튬</JelliedPrometheumFuel.label>
   <JelliedPrometheumFuel.description>겔 형태의 고급 인화성 화합물입니다. 공기와 접촉하면 스스로 점화되어 피부에 달라붙고 구멍으로 스며듭니다. 심지어 메카노이드조차 태울 수 있습니다.</JelliedPrometheumFuel.description>
   <Bioferrite.label>생체강</Bioferrite.label>
@@ -21,48 +23,54 @@
   <FoamFuel.label>화재진압탄</FoamFuel.label>
   <FoamFuel.description>민간 소방 목적으로 설계된 특수 탄환으로, 넓은 지역의 화제를 진압하기 위해 난연성 거품으로 채워져 있습니다.</FoamFuel.description>
   <Antigrain.label>반물질탄</Antigrain.label>
-  <Antigrain.description>우주 전쟁이나 Ai 전쟁 등의 최첨단 전쟁에서 주로 사용하는 아주 작은 집적 기술 탄두입니다. 반물질로 동력을 공급받아 엄청난 폭발을 일으켜 목표물 주변에 열을 뿜습니다.</Antigrain.description>
-  <RadiationIonising.label>방사성 (이온화)</RadiationIonising.label>
-  <RadiationIonising.description>의식을 현저히 손상시키는 이온화 감마선을 함유하고 있으며, 발암물질입니다.</RadiationIonising.description>
+  <Antigrain.description>우주 함선이나 번화계 전쟁 기계에서 사용하는 번화계 수준의 초소형 탄두입니다. 반물질 결정에서 공급되는 에너지를 통해 거대한 폭발을 일으키고 주변에 불을 붙입니다.</Antigrain.description>
+  <RadiationIonising.label>방사능</RadiationIonising.label>
+  <RadiationIonising.description>의식을 현저히 손상시키는 이온화 감마선을 포함한 탄종입니다. 발암물질이기도 합니다.</RadiationIonising.description>
   <ForsakenArrow.label>포세이큰 화살</ForsakenArrow.label>
   <ForsakenArrow.labelShort>포세이큰 화살</ForsakenArrow.labelShort>
-  <ForsakenArrow.description>적막한 활에서 발사되도록 설계되었습니다.</ForsakenArrow.description>
+  <ForsakenArrow.description>포세이큰 활에서 발사되도록 설계된 화살입니다.</ForsakenArrow.description>
   <Plasma.label>플라즈마</Plasma.label>
   <Plasma.labelShort>플라즈마</Plasma.labelShort>
   <Plasma.description>압도적인 화상 효과를 낼 수 있는 고출력의 이온화 가스입니다.</Plasma.description>
-  <RailgunSabot.label>레일건 탄환</RailgunSabot.label>
-  <RailgunSabot.labelShort>레일건 탄환</RailgunSabot.labelShort>
-  <RailgunSabot.description>더 강력한 총구로 작은 투사체를 발사하기 위해 폐기용 탄저판을 사용하여, 방어구의 관통력을 크게 높였습니다.</RailgunSabot.description>
+  <RailgunSabot.label>레일건 사보탄</RailgunSabot.label>
+  <RailgunSabot.labelShort>사보탄</RailgunSabot.labelShort>
+  <RailgunSabot.description>분리형 '사보'를 사용하여 더 높은 총구속도로 초소형 투사체를 발사하는 탄종으로, 장갑 관통력이 극도로 향상되었습니다.</RailgunSabot.description>
   <NanobotsMT.label>나노봇 (MT)</NanobotsMT.label>
   <NanobotsMT.description>이 발사체 내부의 나노봇은 충돌 장소 근처에 마이크로 포탑을 만듭니다.</NanobotsMT.description>
   <FullMetalJacket.label>일반탄</FullMetalJacket.label>
   <FullMetalJacket.labelShort>일반탄</FullMetalJacket.labelShort>
-  <FullMetalJacket.description>납 탄두에 구리합금 따위를 코팅한 탄환으로 중간정도의 보호구 침투력과 저지력을 가집니다.</FullMetalJacket.description>
+  <FullMetalJacket.description>납 탄두에 구리합금 따위를 코팅한 탄환으로 중간 정도의 장갑 침투력과 저지력을 가집니다.</FullMetalJacket.description>
   <ArmorPiercing.label>철갑탄</ArmorPiercing.label>
   <ArmorPiercing.labelShort>철갑탄</ArmorPiercing.labelShort>
   <ArmorPiercing.description>방어구 관통을 위해 고안된 탄환으로 저지력은 상대적으로 낮으나 방어구 관통력이 뛰어납니다.</ArmorPiercing.description>
   <HollowPoint.label>할로우 포인트 탄</HollowPoint.label>
   <HollowPoint.labelShort>HP탄</HollowPoint.labelShort>
   <HollowPoint.description>피격시 팽창하는 탄환으로 보호구를 착용하지 않은 적에게 매우 효과적입니다.</HollowPoint.description>
-  <Sabot.label>철갑 사보탄</Sabot.label>
+  <Sabot.label>철갑 분리사보탄</Sabot.label>
   <Sabot.labelShort>사보탄</Sabot.labelShort>
-  <Sabot.description>소화기용 사보를 사용해 매우 빠른 속도로 발사되는 탄환으로, 엄청난 방어구 관통력을 자랑합니다.</Sabot.description>
+  <Sabot.description>분리형 '사보'를 사용하여 더 높은 총구속도로 초소형 투사체를 발사하는 탄종으로, 장갑 관통력이 극도로 향상되었습니다.</Sabot.description>
   <IncendiaryAP.label>철갑 소이탄</IncendiaryAP.label>
   <IncendiaryAP.labelShort>철갑소이탄</IncendiaryAP.labelShort>
-  <IncendiaryAP.description>피격시 발화하는 화합물로 가득 차 있는 탄환으로 피격대상에게 추가적인 피해를 입히고 대상에게 불이 붙게 합니다.</IncendiaryAP.description>
+  <IncendiaryAP.description>충돌시 발화하는 인화성 화합물이 충진된 탄종으로, 대상에게 추가 피해를 입히고 관통력이 향상되었습니다.</IncendiaryAP.description>
   <ExplosiveAP.label>철갑 고폭탄</ExplosiveAP.label>
   <ExplosiveAP.labelShort>철갑고폭탄</ExplosiveAP.labelShort>
-  <ExplosiveAP.description>피격시 폭발하는 폭발물로 충진되어있는 고속탄 입니다.</ExplosiveAP.description>
-  <TranqNonLethal.label>신경 안정제</TranqNonLethal.label>
-  <TranqNonLethal.description>뾰족한 주사 바늘로 빠르게 작용되는 신경 안정제가 채워져있으며, 비살상적인 무기로 특수하게 설계되었습니다.</TranqNonLethal.description>
+  <ExplosiveAP.description>충돌시 폭발하여 추가 피해를 입히는 폭발물이 충진된 탄종입니다.</ExplosiveAP.description>
+  <CompositeRigidAP.label>경심철갑탄</CompositeRigidAP.label>
+  <CompositeRigidAP.labelShort>경심철갑탄</CompositeRigidAP.labelShort>
+  <CompositeRigidAP.description>고밀도의 단단한 심을 대량의 무른 경금속으로 감싸는 방식으로 더 높은 총구속도를 확보하고 관통력을 크게 끌어올린 탄환입니다.</CompositeRigidAP.description>
+  <TranqNonLethal.label>마취탄</TranqNonLethal.label>
+  <TranqNonLethal.description>비살상 목적으로 특수 제작된 탄종으로, 빠르게 작용하는 신경 안정제로 채워졌으며 끝부분은 뾰족한 주사 바늘로 되어 있습니다.</TranqNonLethal.description>
   <RubberBullet.label>고무탄</RubberBullet.label>
-  <RubberBullet.description>고통스럽지만 치명적이지 않은 부상을 입히기 위해 고안된 특수 탄환입니다.</RubberBullet.description>
+  <RubberBullet.description>고통스럽지만 치명적이지 않은 부상을 입히기 위해 고안된 비살상 목적의 특수 탄환입니다.</RubberBullet.description>
   <Taser.label>테이저</Taser.label>
-  <Taser.description>치명적이지 않은 교전을 위해 고안된 특수 탄환으로, 대상을 마비시키는 전기를 방사합니다.</Taser.description>
+  <Taser.description>대상을 무력화하는 전류를 흘려보내기 위해 고안된 비살상 목적의 특수 탄환입니다.</Taser.description>
   <Flare.label>플레어</Flare.label>
-  <Flare.description>신호 및 조명에 사용되는 밝게 타는 소이탄 성분을 기반으로 한 특수한 탄환입니다.</Flare.description>
+  <Flare.description>밝은 빛을 내는 소이성 물질로 만들어진, 신호 및 조명 목적의 특수 탄환입니다.</Flare.description>
   <Demolition.label>철거탄</Demolition.label>
-  <Demolition.description>저폭물질을 둘러싼 형태로 만들어진 특별한 탄약으로, 구조물이나 요새를 파괴하기 위해 사용됩니다.</Demolition.description>
+  <Demolition.description>저폭물질로 만들어진 특별한 탄약으로, 구조물이나 요새를 파괴하기 위해 사용됩니다.</Demolition.description>
+  <Nail.label>못</Nail.label>
+  <Nail.labelShort>못</Nail.labelShort>
+  <Nail.description>나란히 정렬된 뾰족한 못입니다.</Nail.description>
   <GrenadeHE.label>고폭탄</GrenadeHE.label>
   <GrenadeHE.labelShort>고폭탄</GrenadeHE.labelShort>
   <GrenadeHE.description>고폭물질로 충진된 탄환은 피격시 폭발하며 넓은 지역에 치명적인 포탄 파편을 산란시킵니다.</GrenadeHE.description>
@@ -80,6 +88,12 @@
   <Smoke.description>연기유발제로 가득 차 있습니다. 충격을 받으면 폭발하여 두꺼운 연막을 생성합니다.</Smoke.description>
   <CNGas.label>최루 가스</CNGas.label>
   <CNGas.description>통증, 자극 및 일시적인 실명을 유발할 수 있는 비살상성 화학 약제로 가득 차 있습니다.</CNGas.description>
+  <Toxic.label>독소탄</Toxic.label>
+  <Toxic.labelShort>독소탄</Toxic.labelShort>
+  <Toxic.description>폐와 눈을 태우는 독소로 가득한 탄종입니다. 독소에 지속적으로 노출되면 체내에 독성이 누적되어 치명적인 결과를 유발할 수 있습니다.</Toxic.description>
+  <Deadlife.label>모조생명탄</Deadlife.label>
+  <Deadlife.labelShort>모조생명탄</Deadlife.labelShort>
+  <Deadlife.description>폭발하면 구름을 형성하여 인접한 시체들을 되살리는 먼지 비슷한 물질로 가득한 탄종입니다.</Deadlife.description>
   <BallistaBolt.label>발리스타 볼트</BallistaBolt.label>
   <BallistaBolt.description>철제 팁은 길고 날렵한 나무 기둥에 부착되어 있으며, 거의 장갑이 없는  목표물에 대해 매우 강한 펀치를 포장합니다.</BallistaBolt.description>
   <BallistaBoltHeavy.label>헤비 발리스타 볼트</BallistaBoltHeavy.label>
@@ -170,11 +184,5 @@
   <ElectroSlug.description>메카노이드와 싸우기위해 설계된 이 탄환은 단거리에서만 정확합니다. 피격시 전자기 펄스를 방출하여 일시적으로 모든 전자기기를 차단합니다.</ElectroSlug.description>
   <Catapult_Boulder.label>바위 덩어리</Catapult_Boulder.label>
   <Catapult_Boulder.labelShort>바위</Catapult_Boulder.labelShort>
-  <Catapult_Boulder.description>크고 육중한 바위 덩어리</Catapult_Boulder.description>
-  <Toxic.label>독소탄</Toxic.label>
-  <Toxic.labelShort>독소탄</Toxic.labelShort>
-  <Toxic.description>폐와 눈을 태우는 독소로 가득한 탄종입니다. 독소에 지속적으로 노출되면 체내에 독성이 누적되어 치명적인 결과를 유발할 수 있습니다.</Toxic.description>
-  <CompositeRigidAP.label>경심철갑탄</CompositeRigidAP.label>
-  <CompositeRigidAP.labelShort>경심철갑탄</CompositeRigidAP.labelShort>
-  <CompositeRigidAP.description>고밀도의 단단한 관통자를 대량의 무른 경금속으로 감싸는 방식으로 더 높은 총구속도를 확보하고 관통력을 크게 끌어올린 탄환입니다.</CompositeRigidAP.description>
+  <Catapult_Boulder.description>크고 육중한 바위 덩어리입니다.</Catapult_Boulder.description>
 </LanguageData>

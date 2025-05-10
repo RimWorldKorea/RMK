@@ -23,7 +23,7 @@
   <AimingAccuracy.label>조준 정확도</AimingAccuracy.label>
   <AimingAccuracy.description>사수가 움직이는 목표물을 사격하면서 대상의 움직임을 따라 얼마나 정확히 조준점을 포착할 수 있는지를 나타내는 척도입니다.\n\n최종 오차 계수는 다음의 공식으로 계산됩니다.\n(1.5 - 조준 정확도)/조준경 효율\n\n조준점 포착시의 오차는 대상의 위치와 조준점의 거리를 이 오차에 곱하는 것으로 표현되며, 사거리 오차는 사수와 목표물의 거리를 4로 나눈 뒤 이 오차에 곱하는 것으로 표현됩니다.\n\n추가로, 조준 정확도는 조준사격 모드에서 무기 흔들림의 감소에도 영향을 줍니다. 예를 들어, 조준 정확도가 75%이면 흔들림은 25%로 줄어듭니다.</AimingAccuracy.description>
   <ReloadSpeed.label>재장전 속도</ReloadSpeed.label>
-  <ReloadSpeed.description>무기를 재장전 할때의 속도.</ReloadSpeed.description>
+  <ReloadSpeed.description>무기를 재장전하는 속도.</ReloadSpeed.description>
   <Suppressability.label>제압 임계치</Suppressability.label>
   <Suppressability.description>정착민이 제압상태에 빠지는 임계치.\n\n의식 상실 및 특정 약물은 이 값을 낮춥니다.\n\n낮은 임계치의 정착민을 제압하는 것은 아주 어렵습니다.</Suppressability.description>
   <AverageSharpArmor.label>신체 보호율</AverageSharpArmor.label>
@@ -94,8 +94,8 @@
   <ReloadTime.description>이 무기의 재장전 시간을 알려줍니다.</ReloadTime.description>
   <ammoConsumedPerShotCount.label>발당 탄약 소비량</ammoConsumedPerShotCount.label>
   <ammoConsumedPerShotCount.description>총이 각 발사에 소비하는 탄약 단위 수. \n\n 방아쇠를 당길 때마다 동시에 발사되는 여러 배럴이있는 총이나 파워 셀에서 다른 양의 에너지를 사용하는 에너지 무기에 적용됩니다.</ammoConsumedPerShotCount.description>
-  <AmmoGenPerMagOverride.label>ammo generation per magazine override</AmmoGenPerMagOverride.label>
-  <AmmoGenPerMagOverride.description>How many units of ammunition per magazine specified in pawnKindDef should a pawn bring.\n\nPurely used in pawn generation. You should not be able to read this in game.</AmmoGenPerMagOverride.description>
+  <AmmoGenPerMagOverride.label>탄창 당 탄약 생성 오버라이드</AmmoGenPerMagOverride.label>
+  <AmmoGenPerMagOverride.description>PawnKindDef가 Pawn을 생성할 때 한 개의 탄창에 몇 개의 탄약 단위를 가지고 생성될지를 정합니다.\n\n이 수치는 순수하게 Pawn의 생성시에만 사용됩니다. 인게임에서는 이 수치를 볼 수 없을 것입니다.</AmmoGenPerMagOverride.description>
   <ArmorRating_Blunt.formatString>{0} MPa</ArmorRating_Blunt.formatString>
   <StuffPower_Armor_Blunt.formatString>{0} MPa</StuffPower_Armor_Blunt.formatString>
   <ArmorRating_Sharp.formatString>{0} mm RHA</ArmorRating_Sharp.formatString>
