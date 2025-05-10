@@ -632,13 +632,6 @@
   <Wolfein_MechChargerLarge.description>중장비용 충전 스테이션으로, 장시간 고강도 작전 후 내구력 요구사항을 충족시키기 위해 고출력 및 안정적인 에너지 보충을 제공합니다.</Wolfein_MechChargerLarge.description>
   <Wolfein_MegaCorpMechCore.label>울페인 메가코프 메크 코어</Wolfein_MegaCorpMechCore.label>
   <Wolfein_MegaCorpMechCore.description>울페인 메카코프 기술 트리의 정점. 루빅스 큐브 같은 외관은 메크 유닛에 유연하고 적응형 인지 능력을 부여하려는 설계 팀의 목표를 반영하며, 의심할 여지 없이 이를 달성했습니다.</Wolfein_MegaCorpMechCore.description>
-  <Wolfein_MegaCorpMechCore.comps.0.completedLetterLabel>{RESEARCH} 해금됨.</Wolfein_MegaCorpMechCore.comps.0.completedLetterLabel>
-  <Wolfein_MegaCorpMechCore.comps.0.completedLetter>완료</Wolfein_MegaCorpMechCore.comps.0.completedLetter>
-  <Wolfein_MegaCorpMechCore.comps.0.activateLabelString>역공학</Wolfein_MegaCorpMechCore.comps.0.activateLabelString>
-  <Wolfein_MegaCorpMechCore.comps.0.activateDescString>메카코프 메크 코어 역공학</Wolfein_MegaCorpMechCore.comps.0.activateDescString>
-  <Wolfein_MegaCorpMechCore.comps.0.jobString>메카코프 메크 코어 연구</Wolfein_MegaCorpMechCore.comps.0.jobString>
-  <Wolfein_MegaCorpMechCore.comps.0.guiLabelString>메카코프 메크 코어 연구자 선택</Wolfein_MegaCorpMechCore.comps.0.guiLabelString>
-  <Wolfein_MegaCorpMechCore.comps.0.inspectString>정착민이 분석할 수 있습니다.</Wolfein_MegaCorpMechCore.comps.0.inspectString>
   <Wolfein_Shuttle.label>울페인 수송기</Wolfein_Shuttle.label>
   <Wolfein_Shuttle.description>울페인 메카코프가 중형 유닛의 대기권 내 신속한 전개에 사용하는 수송기입니다. 자체 방어 무기는 없지만, 우수한 비행 속도로 대규모 기계화 부대를 신속히 전개하고 전장에서 안전하게 철수할 수 있습니다.</Wolfein_Shuttle.description>
   <Wolfein_ShuttleIncoming.label>울페인 셔틀 (접근 중)</Wolfein_ShuttleIncoming.label>
@@ -654,10 +647,31 @@
   <Wolfein_GestatorForming.label>Mote</Wolfein_GestatorForming.label>
   <Wolfein_Mote_GraserBeam.label>Mote</Wolfein_Mote_GraserBeam.label>
   <Wolfein_MegaCorpMechCore.comps.1.completedLetterLabel>{RESEARCH} 해금됨.</Wolfein_MegaCorpMechCore.comps.1.completedLetterLabel>
-  <Wolfein_MegaCorpMechCore.comps.1.completedLetter>완료</Wolfein_MegaCorpMechCore.comps.1.completedLetter>
+  <Wolfein_MegaCorpMechCore.comps.1.completedLetter>메가코프 메크 코어의 분석이 완료되었습니다. 그 안정성과 에너지 적응성이 확인되었으며, 이제 핵심 메크 부품 제조에 통합될 수 있습니다.</Wolfein_MegaCorpMechCore.comps.1.completedLetter>
   <Wolfein_MegaCorpMechCore.comps.1.activateLabelString>역공학</Wolfein_MegaCorpMechCore.comps.1.activateLabelString>
   <Wolfein_MegaCorpMechCore.comps.1.activateDescString>메카코프 메크 코어 역공학</Wolfein_MegaCorpMechCore.comps.1.activateDescString>
   <Wolfein_MegaCorpMechCore.comps.1.jobString>메카코프 메크 코어 분석</Wolfein_MegaCorpMechCore.comps.1.jobString>
   <Wolfein_MegaCorpMechCore.comps.1.guiLabelString>분석할 사람을 선택하세요</Wolfein_MegaCorpMechCore.comps.1.guiLabelString>
   <Wolfein_MegaCorpMechCore.comps.1.inspectString>정착민이 분석할 수 있습니다.</Wolfein_MegaCorpMechCore.comps.1.inspectString>
+  <Wolfein_ShieldBelt.label>울페인 보호막 벨트</Wolfein_ShieldBelt.label>
+  <Wolfein_ShieldBelt.description>메가코프에서 제작한 개인용 보호막 벨트로, 근접 공격에 대한 방어력은 없지만, 단방향 보호막 기능을 통해 피격은 막고, 반격은 자유롭게 가능하도록 설계되었습니다.
+착용자는 탄환 등의 투사체를 효과적으로 차단하면서도, 자신의 공격은 방해 없이 발사할 수 있습니다. 생존성을 더욱 높이기 위해, 이 벨트에는 비상용 에너지 셀 2개가 탑재되어 있으며,
+위급 상황에서 실드를 빠르게 재충전할 수 있도록 설계되어 있습니다.
+단, 재충전 시 회로에 비가역적인 손상이 발생하기 때문에,
+2개의 백업 셀을 모두 사용하면, 벨트는 기능을 정지하고 부품 교체 및 수동 정비가 필요합니다.</Wolfein_ShieldBelt.description>
+  <Wolfein_ShieldBelt.comps.8.chargeNoun>충전</Wolfein_ShieldBelt.comps.8.chargeNoun>
+  <Wolfein_ArtificialMoonApparatus.label>울페인 인공 달</Wolfein_ArtificialMoonApparatus.label>
+  <Wolfein_ArtificialMoonApparatus.description>울페인이 자각을 얻은 이래, 그들의 마음속에는 하나의 의문이 계속 남아 있었습니다.
+"왜 우리의 신체 능력은 달의 상에 따라 변하는가?"
+수 세대에 걸쳐 수많은 울페인 학자들이 이 수수께끼에 대한 해답을 찾아 헤맸고,
+또 수많은 야심가들이 이 능력을 이용해 무적의 군대를 만들고자 시도했지만,
+모두들 실패했습니다.
+
+하지만 이제, 메가코프는 초월공학의 역공학을 통해 이 달의 위상변화에 따른 신체적 변화의 군사적 활용 가능성을 엿보았습니다.
+바로 초능력을 이용한 최면 기술로 이를 제어하는 것이었습니다.
+울페인의 고향 행성에서 채취한 월석 표본을 활용해
+수많은 소형 인공 달을 복제해낸 메가코프는, 마침내 울페인 인공 달 구축에 성공합니다.
+
+이 장치는 가동 시, 내장된 사이킥 장치를 통해 영향을 받는 구역 내의 모든 울페인에게 보름달 상태를 강제로 유도합니다.
+장시간의 보름달 각성 상태로 인해 발생하는 부작용을 억제하고, 일정 수준 이상의 출력을 유지하기 위해 이 장치는 막대한 전력을 소비합니다.</Wolfein_ArtificialMoonApparatus.description>
 </LanguageData>
