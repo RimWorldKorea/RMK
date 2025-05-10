@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/TerrainDef[defName="VFEArch_FineSteelTile"]/label</xpath>
+          <value>
+            <label>고급 강철 타일</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/TerrainDef[defName="VFEArch_FineSilverTile"]/label</xpath>
+          <value>
+            <label>고급 은 타일</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/TerrainDef[defName="VFEArch_FineGoldTile"]/label</xpath>
+          <value>
+            <label>고급 금 타일</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/DesignatorDropdownGroupDef[defName="VFEArch_FineMetalFloor"]/label</xpath>
+          <value>
+            <label>고급 금속 바닥</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
