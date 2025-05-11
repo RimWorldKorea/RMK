@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Aqua_Alert_StarvingFish>물고기가 굶주림</Aqua_Alert_StarvingFish>
+  <Aqua_Alert_FishBadTemperature>물고기가 부적절한 온도에 있음</Aqua_Alert_FishBadTemperature>
+  <Aqua_InstallInTankLabel>어항에 설치</Aqua_InstallInTankLabel>
+  <Aqua_RemoveFromTankLabel>물고기 제거</Aqua_RemoveFromTankLabel>
+  <Aqua_SelectFishTank>어항 선택</Aqua_SelectFishTank>
+  <Aqua_OpenEditor>장식 편집기 열기</Aqua_OpenEditor>
+  <Aqua_EnableCleaning>청소</Aqua_EnableCleaning>
+  <Aqua_EnableCleaning_Tip>연결된 어항의 수질 상태를 확인하고 어느 정도로 오염될 경우 전력을 소비해야 하는지 설정합니다.</Aqua_EnableCleaning_Tip>
+  <Aqua_CleaningRange_Tip>어항의 수질 상태가 하한선 아래로 떨어지면 상한선에 도달할 때까지 청소를 진행합니다.</Aqua_CleaningRange_Tip>
+  <Aqua_OpenFishInfo>물고기 정보</Aqua_OpenFishInfo>
+  <Aqua_OpenFishOverview>물고기 개요 확인</Aqua_OpenFishOverview>
+  <Aqua_InspectString_CurrentNutrition>사용 가능한 열량: {PERCENTAGE} ({COUNT}/{MAX})</Aqua_InspectString_CurrentNutrition>
+  <Aqua_InspectString_TankTemperature>어항 온도: {TEMPERATURE}</Aqua_InspectString_TankTemperature>
+  <Aqua_InspectString_MinFishTemperatureInfo>최저 안전 온도: {TEMPERATURE} ({SPECIES})</Aqua_InspectString_MinFishTemperatureInfo>
+  <Aqua_InspectString_TooCold>너무 추움</Aqua_InspectString_TooCold>
+  <Aqua_InspectString_MaxFishTemperatureInfo>최고 안전 온도: {TEMPERATURE} ({SPECIES})</Aqua_InspectString_MaxFishTemperatureInfo>
+  <Aqua_InspectString_TooHot>너무 더움</Aqua_InspectString_TooHot>
+  <Aqua_InspectString_ContainedFish>물고기 {FISHCOUNT}마리 보유</Aqua_InspectString_ContainedFish>
+  <Aqua_InspectString_Hygiene>수질: {SCORE} ({DECREASE}/일)</Aqua_InspectString_Hygiene>
+  <Aqua_InspectString_TankTemperatureProviderEfficiency>효율: 연결된 {UNITCOUNT}개 설비에서 {EFFICIENCY} 사용 중</Aqua_InspectString_TankTemperatureProviderEfficiency>
+  <Aqua_InspectString_TankNutrientGizmo>열량</Aqua_InspectString_TankNutrientGizmo>
+  <Aqua_InspectString_TankNutrientGizmo_ConfigurableTarget>{TARGET}에서 먹이 재료를 재보급합니다.</Aqua_InspectString_TankNutrientGizmo_ConfigurableTarget>
+  <Aqua_Message_FishDied>{FISHLABEL}(이)가 폐사했습니다. 원인: {REASON}</Aqua_Message_FishDied>
+  <Aqua_Message_FishDeathReason_Malnutrition>영양실조</Aqua_Message_FishDeathReason_Malnutrition>
+  <Aqua_Message_FishDeathReason_Temperature>부적합한 온도</Aqua_Message_FishDeathReason_Temperature>
+  <Aqua_Message_FishDeathReason_Disease>나쁜 수질</Aqua_Message_FishDeathReason_Disease>
+  <Aqua_Message_UnitBreakdown_Hygiene>어항 수질 악화로 인한 {UNIT} 고장</Aqua_Message_UnitBreakdown_Hygiene>
+  <Aqua_PlaceWorker_InsideTank_NotInsideTank>어항 내부가 아님</Aqua_PlaceWorker_InsideTank_NotInsideTank>
+  <Aqua_PlaceWorker_InsideTank_ThingAlreadyExists>이미 존재하는 물건입니다</Aqua_PlaceWorker_InsideTank_ThingAlreadyExists>
+  <Aqua_PlaceWorker_InsideTankOnWall_NotOnWall>어항 벽에 부착해야 합니다</Aqua_PlaceWorker_InsideTankOnWall_NotOnWall>
+  <Aqua_PlaceWorker_MaxCountInTankNetwork_MaxCountReached>최대 개수에 도달했습니다</Aqua_PlaceWorker_MaxCountInTankNetwork_MaxCountReached>
+  <PlaceWorker_ValidateOtherTankPlaceWorkers_WallAttachmentInTheWay>벽 부착물이 방해됩니다</PlaceWorker_ValidateOtherTankPlaceWorkers_WallAttachmentInTheWay>
+  <PlaceWorker_ValidateOtherTankPlaceWorkers_MaxCountOverflowWithMerge>어항을 병합할 경우 {DEF}의 개수가 수용량을 초과합니다. ({CURRENT}/{MAX}개)</PlaceWorker_ValidateOtherTankPlaceWorkers_MaxCountOverflowWithMerge>
+  <Aqua_Settings_Title>수족관!</Aqua_Settings_Title>
+  <Aqua_Settings_General_Title>일반</Aqua_Settings_General_Title>
+  <Aqua_Settings_General_ShowMissingFishDialog>물고기 모드가 설치되지 않은 상태로 시작 시 대화 상자 표시</Aqua_Settings_General_ShowMissingFishDialog>
+  <Aqua_Settings_General_ShowMissingFishDialog_Tip>물고기 없이 수족관!을 사용하고 싶고 시작할 때마다 물고기 모드가 설치되지 않았다는 알림을 받고 싶지 않다면 이 설정을 사용할 수 있습니다. 당신은 이상한 사람입니다.</Aqua_Settings_General_ShowMissingFishDialog_Tip>
+  <Aqua_Settings_General_ShouldSendMessageOnFishDeath>물고기 사망 시 알림 전송</Aqua_Settings_General_ShouldSendMessageOnFishDeath>
+  <Aqua_Settings_General_EnableTankTemperature>어항 온도 활성화</Aqua_Settings_General_EnableTankTemperature>
+  <Aqua_Settings_General_EnableTankTemperature_Tip>이것을 비활성화하면 동적 수온 및 부적절한 온도로 인한 물고기 사망이 비활성화됩니다.</Aqua_Settings_General_EnableTankTemperature_Tip>
+  <Aqua_Settings_General_UseSimplifiedFishTemperature>단순화된 물고기 온도 사용</Aqua_Settings_General_UseSimplifiedFishTemperature>
+  <Aqua_Settings_General_UseSimplifiedFishTemperature_Tip>모든 물고기가 슬라이더로 구성할 수 있는 동일한 생존 가능 온도 범위를 사용하도록 합니다.</Aqua_Settings_General_UseSimplifiedFishTemperature_Tip>
+  <Aqua_Settings_General_UniversalTemperatureRange>보편적인 물고기 온도</Aqua_Settings_General_UniversalTemperatureRange>
+  <Aqua_Settings_General_EnableFishNutrition>물고기 열량 소비 활성화</Aqua_Settings_General_EnableFishNutrition>
+  <Aqua_Settings_General_EnableFishNutrition_Tip>비활성화 시 물고기가 어항에서 열량을 소비하거나 영양실조로 사망하지 않습니다.</Aqua_Settings_General_EnableFishNutrition_Tip>
+  <Aqua_Settings_General_EnableTankHygiene>어항 수질 활성화</Aqua_Settings_General_EnableTankHygiene>
+  <Aqua_Settings_General_EnableTankHygiene_Tip>비활성화 시 어항이 더러워지거나 독성으로 인해 물고기가 사망하지 않습니다.</Aqua_Settings_General_EnableTankHygiene_Tip>
+  <Aqua_Settings_General_HygieneThresholdForManualCleaning>수동 청소를 위한 수질 기준치</Aqua_Settings_General_HygieneThresholdForManualCleaning>
+  <Aqua_Settings_General_HygieneThresholdForManualCleaning_Tip>어항의 수질 상태가 이 값 아래로 떨어지면 청소 작업을 하는 정착민이 수질 상태를 개선합니다.</Aqua_Settings_General_HygieneThresholdForManualCleaning_Tip>
+  <Aqua_Settings_General_NutritionThresholdForManualFeeding>수동 먹이 공급을 위한 열량 기준치</Aqua_Settings_General_NutritionThresholdForManualFeeding>
+  <Aqua_Settings_General_NutritionThresholdForManualFeeding_Tip>어항의 열량 상태가 이 값 아래로 떨어지면 운반 작업을 하는 정착민이 물고기 먹이를 어항으로 운반합니다.</Aqua_Settings_General_NutritionThresholdForManualFeeding_Tip>
+  <Aqua_Settings_General_TicksPerFishStarve>먹이 부족 시 물고기 사망까지 걸리는 틱</Aqua_Settings_General_TicksPerFishStarve>
+  <Aqua_Settings_General_TicksPerFishStarve_Tip>어항에 먹이가 떨어지면 각 물고기가 죽는 데 걸리는 시간입니다. 가장 작은 물고기부터 죽기 시작합니다.</Aqua_Settings_General_TicksPerFishStarve_Tip>
+  <Aqua_Settings_Log_Title>기록 중</Aqua_Settings_Log_Title>
+  <Aqua_Editor_NoTankSelectedNotification>장식 옵션을 표시할 어항을 선택하세요</Aqua_Editor_NoTankSelectedNotification>
+  <Aqua_Editor_CurrentFloor>현재 바닥</Aqua_Editor_CurrentFloor>
+  <Aqua_Editor_NoFloor>없음</Aqua_Editor_NoFloor>
+  <Aqua_Editor_ApplyToAll>네트워크의 모든 어항에 적용</Aqua_Editor_ApplyToAll>
+  <Aqua_Editor_AddDecoration>장식 추가</Aqua_Editor_AddDecoration>
+  <Aqua_Editor_DecorationMetaReadout>위치: {X},{Y}, 크기: {SCALE}, 각도: {ROTATION}°</Aqua_Editor_DecorationMetaReadout>
+  <Aqua_Editor_Reset>초기화</Aqua_Editor_Reset>
+  <Aqua_Editor_Remove>제거</Aqua_Editor_Remove>
+  <Aqua_Editor_MoveUp>위로 이동</Aqua_Editor_MoveUp>
+  <Aqua_Editor_MoveDown>아래로 이동</Aqua_Editor_MoveDown>
+  <Aqua_Editor_Rotation>회전</Aqua_Editor_Rotation>
+  <Aqua_Editor_MoveToBackground>장식이 현재 전경에 있습니다. 물고기가 그 뒤로 헤엄칠 것입니다.\n배경으로 이동하려면 클릭하세요.</Aqua_Editor_MoveToBackground>
+  <Aqua_Editor_MoveToForeground>장식이 현재 배경에 있습니다. 물고기가 그 앞으로 헤엄칠 것입니다.\n전경으로 이동하려면 클릭하세요.</Aqua_Editor_MoveToForeground>
+  <Aqua_Editor_RandomizePlacement>새 장식 무작위화</Aqua_Editor_RandomizePlacement>
+  <Aqua_Editor_RandomizePlacement_Tip>새로 추가된 장식에 무작위 오프셋을 적용합니다. 이 기능이 꺼져 있으면 장식은 중앙에 배치됩니다.</Aqua_Editor_RandomizePlacement_Tip>
+  <Aqua_Editor_Randomize>지우고 무작위화</Aqua_Editor_Randomize>
+  <Aqua_Editor_OpenPresets>프리셋 열기</Aqua_Editor_OpenPresets>
+  <Aqua_Editor_PresetsTitle>프리셋</Aqua_Editor_PresetsTitle>
+  <Aqua_Editor_DecorationsTitle>장식</Aqua_Editor_DecorationsTitle>
+  <Aqua_Editor_Multi_Info>다수의 어항이 선택되었습니다. 작업은 선택된 모든 어항에 적용됩니다.</Aqua_Editor_Multi_Info>
+  <Aqua_Editor_Multi_SetFloor>바닥 설정</Aqua_Editor_Multi_SetFloor>
+  <Aqua_Editor_Multi_SetFloor_Info>선택한 바닥은 바닥과 호환되는 어항에만 적용됩니다</Aqua_Editor_Multi_SetFloor_Info>
+  <Aqua_Editor_Multi_Randomize>무작위화</Aqua_Editor_Multi_Randomize>
+  <Aqua_Editor_Multi_Clear>모든 장식 제거</Aqua_Editor_Multi_Clear>
+  <Aqua_FishInfoCard_Size>크기</Aqua_FishInfoCard_Size>
+  <Aqua_FishInfoCard_Size_Tip>어항 네트워크의 열량이 부족해지면 작은 물고기가 큰 물고기보다 먼저 죽습니다.</Aqua_FishInfoCard_Size_Tip>
+  <Aqua_FishInfoCard_FoodConsumption>음식 소비량</Aqua_FishInfoCard_FoodConsumption>
+  <Aqua_FishInfoCard_FoodConsumption_Details>매일 {CONSUMPTION} 열량 소비</Aqua_FishInfoCard_FoodConsumption_Details>
+  <Aqua_FishInfoCard_TemperatureRange>온도 범위</Aqua_FishInfoCard_TemperatureRange>
+  <Aqua_FishInfoCard_TemperatureRange_Details>{MIN} - {MAX}</Aqua_FishInfoCard_TemperatureRange_Details>
+  <Aqua_FishOverview_Header_Name>이름</Aqua_FishOverview_Header_Name>
+  <Aqua_FishOverview_CurrentTemperature>현재 온도: {TEMPERATURE}</Aqua_FishOverview_CurrentTemperature>
+  <Aqua_FishOverview_ShowDetailCard>물고기 정보 카드 표시</Aqua_FishOverview_ShowDetailCard>
+  <Aqua_ModValidation_NoFishModsLoaded>수족관!을 설치했지만 물고기를 추가하는 모드가 없는 것 같습니다. 수족관이 다소 단조로울 것이므로 물고기를 추가하는 모드를 설치하는 것이 좋습니다. 수족관! 워크샵 페이지에서 찾아보세요.</Aqua_ModValidation_NoFishModsLoaded>
+</LanguageData>

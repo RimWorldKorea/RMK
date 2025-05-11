@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Empire</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThoughtDef[defName="VFEE_TitleNoGallery"]/stages/li[1]/label</xpath>
+          <value>
+            <label>박물관 없음</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThoughtDef[defName="VFEE_TitleNoGallery"]/stages/li[1]/description</xpath>
+          <value>
+            <description>왕실 박물관 없는 왕족이 무슨 소용이람?</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThoughtDef[defName="VFEE_TitleGalleryRequirementsNotMet"]/stages/li[1]/label</xpath>
+          <value>
+            <label>품위 없는 박물관</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThoughtDef[defName="VFEE_TitleGalleryRequirementsNotMet"]/stages/li[1]/description</xpath>
+          <value>
+            <description>나는 {TITLE_indefinite}이며 내 박물관에는 이 물건들이 필요해:\n\n{0}</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="VFEE_ArtExhibit"]/questNameRules/rulesStrings/li[1]</xpath>
+          <value>
+            <li>questName-&gt;[lodgerIndef](와)과 박물관 전시회</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="VFEE_ArtExhibit"]/questDescriptionAndNameRules/rulesStrings/li[14]</xpath>
+          <value>
+            <li>questDescription-&gt;[asker_faction_name]의 [asker_royalTitleInCurrentFaction] [asker_nameFull](이)가 몇몇 귀족을 거느리고 당신의 미술관에서 박물관 전시회를 열고자 합니다. [asker_pronoun](은)는 [colonyHost_nameFull](이)가 행사를 주관해 주길 바라고 있습니다. 이는 제국 귀족들과 잡담을 나누며 관계를 형성하기에 좋은 기회가 될 것입니다.\n\n정착지에 미술관이 있어야 하며, 행사 중에 파괴돼서는 안됩니다.\n\n[asker_nameFull](은)는 당신에게 박물관 전시회에 초대될 귀족들의 명단을 건네주었으며, 이들은 수송선을 타고 방문할 것입니다:\n\n[noblesDetailList]\n\n박물관 전시회가 진행되는 동안 방문객들이 안전하고 편안하게 머무를 수 있도록 해야 합니다. 그들에게 무슨 일이 생긴다면 전시회가 중단됩니다.\n\n탈영병들은 반드시 이 기회를 노려 암살을 시도할 것입니다.</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="VFEE_ArtExhibit"]/questContentRules/rulesStrings/li[2]</xpath>
+          <value>
+            <li>oneOfThe-&gt;박물관 전시회에 초대한 귀족 중 한 명인</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="VFEE_ArtExhibit"]/questContentRules/rulesStrings/li[4]</xpath>
+          <value>
+            <li>CeremonyFailedLetterLabel-&gt;박물관 전시회 실패</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="VFEE_ArtExhibit"]/questContentRules/rulesStrings/li[6]</xpath>
+          <value>
+            <li>CeremonyTimeoutLetterLabel-&gt;박물관 전시회 실패</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="VFEE_ArtExhibit"]/questContentRules/rulesStrings/li[27]</xpath>
+          <value>
+            <li>ShuttleDestroyedLabel-&gt;수송선 파괴</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
