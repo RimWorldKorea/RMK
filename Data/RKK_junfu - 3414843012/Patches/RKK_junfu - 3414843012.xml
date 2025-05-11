@@ -28,6 +28,27 @@
             <label>칼날</label>
           </value>
         </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="FBZX"]/tools/li[1]/label</xpath>
+          <value>
+            <label>개머리판</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="FBZX"]/tools/li[2]/label</xpath>
+          <value>
+            <label>총열</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="FBZX"]/tools/li[3]/label</xpath>
+          <value>
+            <label>총구</label>
+          </value>
+        </li>
       </operations>
     </match>
   </Operation>
