@@ -10,9 +10,9 @@
   <AC_PickleEggs.jobString>알 절이는 중</AC_PickleEggs.jobString>
   <AC_PickleEggs.ingredients.0.filter.customSummary>알</AC_PickleEggs.ingredients.0.filter.customSummary>
   <AC_PickleEggs.ingredients.1.filter.customSummary>식초</AC_PickleEggs.ingredients.1.filter.customSummary>
-  <AC_MakeMayonnaise.label>수제 마요네즈 만들기</AC_MakeMayonnaise.label>
+  <AC_MakeMayonnaise.label>고급 마요네즈 만들기</AC_MakeMayonnaise.label>
   <AC_MakeMayonnaise.description>신선한 노른자와 기름을 유화시켜 샌드위치, 샐러드 등을 더욱 맛있게 만들어주는 부드럽고 새콤한 마요네즈를 만듭니다. 수율은 사용한 알의 종류에 따라 달라집니다.</AC_MakeMayonnaise.description>
-  <AC_MakeMayonnaise.jobString>수제 마요네즈 만드는 중</AC_MakeMayonnaise.jobString>
+  <AC_MakeMayonnaise.jobString>고급 마요네즈 만드는 중</AC_MakeMayonnaise.jobString>
   <AC_MakeMayonnaise.ingredients.0.filter.customSummary>알</AC_MakeMayonnaise.ingredients.0.filter.customSummary>
   <AC_MakeMayonnaise.ingredients.1.filter.customSummary>식초</AC_MakeMayonnaise.ingredients.1.filter.customSummary>
   <AC_MakeMayonnaise.ingredients.2.filter.customSummary>기름</AC_MakeMayonnaise.ingredients.2.filter.customSummary>
@@ -34,7 +34,7 @@
   <AC_MakePuree.description>농산물을 부드럽고 부드러운 퓌레로 만들기 위해 혼합하는 과정으로, 소스, 수프 또는 다른 요리를 향상시키는 데 적합합니다.</AC_MakePuree.description>
   <AC_MakePuree.jobString>퓌레 만드는 중</AC_MakePuree.jobString>
   <AC_PepareGravy.label>그레이비 소스 만들기</AC_PepareGravy.label>
-  <AC_PepareGravy.description>수제 육수를 기본으로 하여 고기를 갈아 넣고, 조심스럽게 농도를 조절하여 부드럽고 풍미 가득한 그레이비 소스를 풍성하게 만듭니다.</AC_PepareGravy.description>
+  <AC_PepareGravy.description>고급 육수를 기본으로 하여 고기를 갈아 넣고, 조심스럽게 농도를 조절하여 부드럽고 풍미 가득한 그레이비 소스를 풍성하게 만듭니다.</AC_PepareGravy.description>
   <AC_PepareGravy.jobString>그레이비 소스 만드는 중</AC_PepareGravy.jobString>
   <AC_CookYoghurt.label>요거트 만들기</AC_CookYoghurt.label>
   <AC_CookYoghurt.description>우유와 과일로 요거트를 만듭니다.</AC_CookYoghurt.description>
@@ -68,11 +68,11 @@
   <AC_ExtractPerfume.description>향기로운 꽃을 농축된 향수로 변환하여, 정유를 추출해 공예 및 판매를 위한 고품질 향수를 만듭니다. 레시피의 수율은 향수를 얻기 위해 사용되는 생산물에 따라 달라집니다.</AC_ExtractPerfume.description>
   <AC_ExtractPerfume.jobString>향수 추출 중</AC_ExtractPerfume.jobString>
   <AC_PourCandles.label>향초 만들기</AC_PourCandles.label>
-  <AC_PourCandles.description>수제 재료에 약간의 에센스를 더해 은은한 향기를 내는 양초를 만듭니다.</AC_PourCandles.description>
+  <AC_PourCandles.description>고급 재료에 약간의 에센스를 더해 은은한 향기를 내는 양초를 만듭니다.</AC_PourCandles.description>
   <AC_PourCandles.jobString>향초 만드는 중</AC_PourCandles.jobString>
-  <AC_MakeSoap.label>수제 비누 만들기</AC_MakeSoap.label>
+  <AC_MakeSoap.label>고급 비누 만들기</AC_MakeSoap.label>
   <AC_MakeSoap.description>고품질 기름과 엄선된 에센스를 조심스럽게 섞어 진정 효과가 있는 향기로운 비누를 만듭니다.</AC_MakeSoap.description>
-  <AC_MakeSoap.jobString>수제 비누 만드는 중</AC_MakeSoap.jobString>
+  <AC_MakeSoap.jobString>고급 비누 만드는 중</AC_MakeSoap.jobString>
   <AC_MakeBlackMayonnaise.label>흑마요네즈 만들기</AC_MakeBlackMayonnaise.label>
   <AC_MakeBlackMayonnaise.description>마요네즈에 강렬하고 풍미 가득한 흑마늘의 맛을 결합합니다. 시각적으로도 인상적이며, 단맛과 감칠맛이 겹겹이 느껴지는 풍미 가득한 요리를 만들 수 있습니다.</AC_MakeBlackMayonnaise.description>
   <AC_MakeBlackMayonnaise.jobString>흑마요네즈 만드는 중</AC_MakeBlackMayonnaise.jobString>
@@ -105,16 +105,19 @@
   <AC_PrepareRoe.jobString>어란 만드는 중</AC_PrepareRoe.jobString>
   <AC_PrepareRoe.ingredients.0.filter.customSummary>생선</AC_PrepareRoe.ingredients.0.filter.customSummary>
   <AC_BrewFlavouredKombucha.label>혼합 콤부차 만들기</AC_BrewFlavouredKombucha.label>
-  <AC_BrewFlavouredKombucha.description>수제 콤부차에 과일, 꽃, 허브 또는 향신료를 넣어 맛과 향을 더한 콤부차를 만듭니다. 이렇게 만들어진 콤부차는 독특한 풍미와 상쾌함을 선사합니다. 레시피의 수율은 사용되는 재료에 따라 달라집니다.</AC_BrewFlavouredKombucha.description>
+  <AC_BrewFlavouredKombucha.description>고급 콤부차에 과일, 꽃, 허브 또는 향신료를 넣어 맛과 향을 더한 콤부차를 만듭니다. 이렇게 만들어진 콤부차는 독특한 풍미와 상쾌함을 선사합니다. 레시피의 수율은 사용되는 재료에 따라 달라집니다.</AC_BrewFlavouredKombucha.description>
   <AC_BrewFlavouredKombucha.jobString>혼합 콤부차 만드는 중</AC_BrewFlavouredKombucha.jobString>
   <AC_BrewFlavouredKombucha.ingredients.0.filter.customSummary>과일 또는 꽃</AC_BrewFlavouredKombucha.ingredients.0.filter.customSummary>
-  <AC_BrewFlavouredKombucha.ingredients.1.filter.customSummary>수제 콤부차</AC_BrewFlavouredKombucha.ingredients.1.filter.customSummary>
+  <AC_BrewFlavouredKombucha.ingredients.1.filter.customSummary>고급 콤부차</AC_BrewFlavouredKombucha.ingredients.1.filter.customSummary>
   <AC_CraftPipeTobacco.label>파이프 담배 만들기</AC_CraftPipeTobacco.label>
   <AC_CraftPipeTobacco.description>선별된 담뱃잎을 혼합하고 숙성시켜 독특한 파이프 담배를 만듭니다. 세심한 관리와 숙성을 통해 잎은 최적의 풍미와 향에 도달하여, 질 높은 향유를 위해 만들어진 세련되고 풍부한 담배가 됩니다.</AC_CraftPipeTobacco.description>
   <AC_CraftPipeTobacco.jobString>파이프 담배 만드는 중</AC_CraftPipeTobacco.jobString>
   <AC_PrepareSpecialtyTeaSachets.label>특제 티백 만들기</AC_PrepareSpecialtyTeaSachets.label>
-  <AC_PrepareSpecialtyTeaSachets.description>수제 허브와 향신료의 혼합으로 진정 효과가 있는 티백을 만듭니다. 레시피의 수율은 티백을 얻기 위해 사용되는 생산물에 따라 달라집니다.</AC_PrepareSpecialtyTeaSachets.description>
+  <AC_PrepareSpecialtyTeaSachets.description>고급 허브와 향신료를 섞어 진정 효과가 있는 티백을 만듭니다. 레시피의 수율은 티백을 얻기 위해 사용되는 생산물에 따라 달라집니다.</AC_PrepareSpecialtyTeaSachets.description>
   <AC_PrepareSpecialtyTeaSachets.jobString>특제 티백 만드는 중</AC_PrepareSpecialtyTeaSachets.jobString>
   <AC_PrepareSpecialtyTeaSachets.ingredients.0.filter.customSummary>찻잎</AC_PrepareSpecialtyTeaSachets.ingredients.0.filter.customSummary>
   <AC_PrepareSpecialtyTeaSachets.ingredients.1.filter.customSummary>과일 또는 꽃</AC_PrepareSpecialtyTeaSachets.ingredients.1.filter.customSummary>
+  <AC_ClarifyButterIntoGhee.label>버터를 기버터로 정제</AC_ClarifyButterIntoGhee.label>
+  <AC_ClarifyButterIntoGhee.description>버터를 가열하여 수분과 유고형분을 제거하고, 풍부하고 고소한 풍미를 지닌 순수한 황금색 지방을 얻습니다.</AC_ClarifyButterIntoGhee.description>
+  <AC_ClarifyButterIntoGhee.jobString>버터 정제 중</AC_ClarifyButterIntoGhee.jobString>
 </LanguageData>
