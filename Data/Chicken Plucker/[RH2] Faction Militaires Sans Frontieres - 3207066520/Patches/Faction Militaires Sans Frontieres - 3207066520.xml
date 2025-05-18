@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RH2_PeaceWalkerRecipe"]/jobString</xpath>
+          <value>
+            <jobString>메카노이드 배양 중</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RH2_PeaceWalkerRecipe"]/label</xpath>
+          <value>
+            <label>피스 워커 (바실리스트) 배양</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RH2_PeaceWalkerRecipe"]/description</xpath>
+          <value>
+            <description>피스 워커 (바실리스트)를 배양합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RH2_PeaceWalkerPupaRecipe"]/jobString</xpath>
+          <value>
+            <jobString>메카노이드 배양 중</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RH2_PeaceWalkerPupaRecipe"]/label</xpath>
+          <value>
+            <label>피스 워커 (퓨파) 배양</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RH2_PeaceWalkerPupaRecipe"]/description</xpath>
+          <value>
+            <description>피스 워커 (퓨파)를 배양합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RH2_MetalGearZEKERecipe"]/jobString</xpath>
+          <value>
+            <jobString>메카노이드 배양 중</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RH2_MetalGearZEKERecipe"]/label</xpath>
+          <value>
+            <label>메탈 기어 지크 배양</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="RH2_MetalGearZEKERecipe"]/description</xpath>
+          <value>
+            <description>메탈 기어 제크를 배양합니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
