@@ -37,27 +37,6 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/StatDef[defName="SwayFactor"]/parts/li[3]/desc</xpath>
-          <value>
-            <desc>Secondary mode: {OFFSET}</desc>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/StatDef[defName="SightsEfficiency"]/parts/li[4]/desc</xpath>
-          <value>
-            <desc>Secondary mode: {OFFSET}</desc>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/StatDef[defName="ShotSpread"]/parts/li[4]/desc</xpath>
-          <value>
-            <desc>Secondary mode: {OFFSET}</desc>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
           <xpath>/Defs/ThingDef[defName="Cinder_Trailer"]/tools/li[3]/label</xpath>
           <value>
             <label>전방 촉수</label>
@@ -79,13 +58,6 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="Cinder_PCX33A"]/tools/li[3]/label</xpath>
-          <value>
-            <label>총구</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
           <xpath>/Defs/ThingDef[defName="Cinder_PCX33A"]/tools/li[2]/label</xpath>
           <value>
             <label>총열</label>
@@ -96,13 +68,6 @@
           <xpath>/Defs/ThingDef[defName="Cinder_PCX33A"]/tools/li[1]/label</xpath>
           <value>
             <label>개머리판</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="Cinder_MP12A"]/tools/li[3]/label</xpath>
-          <value>
-            <label>총구</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -268,13 +233,6 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="Cinder_Magistrate"]/tools/li[3]/label</xpath>
-          <value>
-            <label>총구</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
           <xpath>/Defs/ThingDef[defName="Cinder_Magistrate"]/tools/li[2]/label</xpath>
           <value>
             <label>총열</label>
@@ -292,13 +250,6 @@
           <xpath>/Defs/ThingDef[defName="Cinder_ImpactBreaker"]/tools/li[1]/label</xpath>
           <value>
             <label>머리</label>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <success>Always</success>
-          <xpath>/Defs/ThingDef[defName="Cinder_Flint50A"]/tools/li[3]/label</xpath>
-          <value>
-            <label>총구</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
@@ -371,42 +322,53 @@
             <label>전방 촉수</label>
           </value>
         </li>
-      </operations>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Biotech</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ScenarioDef[defName="Cinder_ScenarioB"]/scenario/parts/li[1]/xenotypeCounts/li[1]/description</xpath>
+          <xpath>/Defs/ThingDef[defName="Cinder_Mech_Tombstone"]/tools/li[1]/label</xpath>
           <value>
-            <description>성인 신더</description>
+            <label>왼쪽 촉수</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ScenarioDef[defName="Cinder_ScenarioB"]/scenario/parts/li[1]/customSummary</xpath>
+          <xpath>/Defs/ThingDef[defName="Cinder_Mech_Tombstone"]/tools/li[2]/label</xpath>
           <value>
-            <customSummary>1명의 신더로 시작합니다.</customSummary>
+            <label>오른쪽 촉수</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ScenarioDef[defName="Cinder_Scenario"]/scenario/parts/li[1]/xenotypeCounts/li[1]/description</xpath>
+          <xpath>/Defs/ThingDef[defName="Cinder_Mech_Tombstone"]/tools/li[3]/label</xpath>
           <value>
-            <description>성인 신더</description>
+            <label>전방 촉수</label>
           </value>
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ScenarioDef[defName="Cinder_Scenario"]/scenario/parts/li[1]/customSummary</xpath>
+          <xpath>/Defs/ThingDef[defName="Cinder_Magistrate"]/tools/li[3]/label</xpath>
           <value>
-            <customSummary>3명의 신더로 시작합니다.</customSummary>
+            <label>총구</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_MP12A"]/tools/li[3]/label</xpath>
+          <value>
+            <label>총구</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_PCX33A"]/tools/li[3]/label</xpath>
+          <value>
+            <label>총구</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_Flint50A"]/tools/li[3]/label</xpath>
+          <value>
+            <label>총구</label>
           </value>
         </li>
       </operations>
@@ -448,32 +410,42 @@
       </match>
     </match>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>/Defs/StatDef[defName="AccuracyTouch"]/parts/li[2]/desc</xpath>
-    <value>
-      <desc>Secondary mode: {OFFSET}</desc>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>/Defs/StatDef[defName="AccuracyShort"]/parts/li[2]/desc</xpath>
-    <value>
-      <desc>Secondary mode: {OFFSET}</desc>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>/Defs/StatDef[defName="AccuracyMedium"]/parts/li[2]/desc</xpath>
-    <value>
-      <desc>Secondary mode: {OFFSET}</desc>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>/Defs/StatDef[defName="AccuracyLong"]/parts/li[2]/desc</xpath>
-    <value>
-      <desc>Secondary mode: {OFFSET}</desc>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ScenarioDef[defName="Cinder_Scenario"]/scenario/parts/li[1]/customSummary</xpath>
+          <value>
+            <customSummary>3명의 신더로 시작합니다.</customSummary>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ScenarioDef[defName="Cinder_Scenario"]/scenario/parts/li[1]/xenotypeCounts/li[1]/description</xpath>
+          <value>
+            <description>성인 신더</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ScenarioDef[defName="Cinder_ScenarioB"]/scenario/parts/li[1]/customSummary</xpath>
+          <value>
+            <customSummary>1명의 신더로 시작합니다.</customSummary>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ScenarioDef[defName="Cinder_ScenarioB"]/scenario/parts/li[1]/xenotypeCounts/li[1]/description</xpath>
+          <value>
+            <description>성인 신더</description>
+          </value>
+        </li>
+      </operations>
+    </match>
   </Operation>
 </Patch>
