@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <Geigercounter1.label>방사선 검출기 연구</Geigercounter1.label>
   <Geigercounter1.description>숙련된 연구원이 방사선 검출기의 설계와 작동방식을 배울 수 있습니다.</Geigercounter1.description>
@@ -10,6 +10,8 @@
   <RadiationSuits2.description>숙련된 제작자는 이용 가능한 도구와 자원을 사용하여 방사선 차폐복을 맞추기 위한 계획을 세울 수 있습니다.</RadiationSuits2.description>
   <NuclearResearch1.label>원자로 기술 연구</NuclearResearch1.label>
   <NuclearResearch1.description>숙련된 연구원이 원자로 설계 및 작동방식을 배워야 건설할 수 있습니다.</NuclearResearch1.description>
+  <NuclearResearchConstruct.label>연구용 원자로 건설</NuclearResearchConstruct.label>
+  <NuclearResearchConstruct.description>연구용 원자로를 건설합니다. 정착민은 실험을 위해 원자로에 접근해야 됩니다. 불연성의 안전한 실험실에 원자로 건설하는 것이 좋습니다.</NuclearResearchConstruct.description>
   <NuclearResearchPractical.label>연구 및 훈련</NuclearResearchPractical.label>
   <NuclearResearchPractical.description>원자로 성능을 실험하는 동안 원자로 제어 소프트웨어를 설치하고 훈련 연습을 수행합니다.</NuclearResearchPractical.description>
   <NuclearReactorResearchPhase.label>원자로 연구</NuclearReactorResearchPhase.label>
@@ -18,6 +20,16 @@
   <NuclearReactorExperiments.description>숙련된 연구원은 연구용 원자로를 실험해야 합니다. 이 단계에서 치명적인 실패를 할 수도 있습니다!</NuclearReactorExperiments.description>
   <BuildReactorCore.label>원자로 노심 건설</BuildReactorCore.label>
   <BuildReactorCore.description>핵 원자로 코어의 프레임을 건설합니다. 프레임이 완성되면 코어 구성을 완료하기 위해 더 많은 작업을 수행해야 합니다. 연료 이송 중 식민지 주민을 보호하기 위해 격리실에 코어를 설치하는 것이 좋습니다. 사용된 재료의 벽과 HP의 두께에 따라 흡수되는 방사선의 양이 결정됩니다. 방사선 피해의 빈도도 거리에 따라 줄어들기 때문에 코어 주위에 공간을 두는 것이 좋습니다.</BuildReactorCore.description>
+  <BuildReactorTurbine.label>터빈 발전기 건설</BuildReactorTurbine.label>
+  <BuildReactorTurbine.description>터빈은 많은 양의 터빈 날이 들어갑니다. 터빈 날은 림원자학 기계 작업대에서 제조할 수 있습니다.</BuildReactorTurbine.description>
+  <TestForCore.label>원자로를 터빈에 연결</TestForCore.label>
+  <TestForCore.description>(증기 파이프)와 (냉수 파이프)를 구성하여 원자로를 터빈 발전기에 연결하세요. 터빈은 위험하지 않으며 보호된 격리실 외부에 설치할 수 있지만 실내에 있어야 합니다.</TestForCore.description>
+  <BuildReactorCooling.label>냉각 시스템 구축</BuildReactorCooling.label>
+  <BuildReactorCooling.description>사용 가능한 냉각 시스템 중 하나를 구축하고 (냉각수 파이프)를 사용하여 터빈에 연결하십시오. 사용 가능한 냉각 시스템에는 세 가지가 있습니다. 1. 수냉기를 사용하려면 강이나 큰 수역이 필요하고, 2. 냉각탑을 사용하려면 많은 전력과 공간이 필요하고 외부에 배치해야 하며 3. 방열기는 가장 낮은 냉각 용량을 갖지만, 더 싸고 작은 크기로 건설할 수 있고 실내에도 배치할 수 있습니다.</BuildReactorCooling.description>
+  <BuildTransformer.label>전력 변압기 건설</BuildTransformer.label>
+  <BuildTransformer.description>고압 변압기를 만들고 고압전선을 사용하여 터빈에 연결하십시오. 단일 변압기는 터빈에서 최대 200kW의 전력을 사용 가능한 전기로 변환할 수 있습니다. 여러 변압기를 사용하여 다른 전력망에 전력을 공급할 수 있습니다. 전력 제한 설정을 통해 전력망 간에 전력 출력을 재분배할 수 있습니다.</BuildTransformer.description>
+  <BuildControlComputer.label>원자로 제어 컴퓨터 구축</BuildControlComputer.label>
+  <BuildControlComputer.description>원자로 제어판을 구축하고 (제어실 배선)을 사용하여 원자로 코어에 연결하십시오. 이 콘솔은 원자로 노심을 제어하는 ​​데 사용됩니다. ID를 할당하여 특정 코어와 짝을 이룰 수 있으므로 코어에서 코어로 연결고리를 만들 수 있습니다. 원자로 제어판에 정착민을 보내서 조종하십시오. 여러 제어판을 동시에 열 수 있습니다.</BuildControlComputer.description>
   <TestReactor.label>원자로 시험</TestReactor.label>
   <TestReactor.description>연료봉을 제작하거나 구매한 뒤, 원자로 제어판을 이용해 원자로에 배치하세요. 최소 두 개 이상의 연료봉을 붙여 배치하여 연쇄 반응을 유도하고, 원자로 제어판에서 반응을 시작한 다음, 제어봉을 최소 8% 이상 올려 반응을 시작해 자료를 수집하세요.</TestReactor.description>
   <Plutonium1.label>플루토늄 처리 연구</Plutonium1.label>
@@ -64,6 +76,8 @@
   <EnergyWeapons5.description>SACS를 건설합니다. 이 콘솔은 모든 에너지 무기들에 필요한 표적 습득 컴퓨터입니다. 같은 전력망을 공유하는 모든 림원자학 에너지 무기들과 연결되며, 이후 TACS와 결합한 무기에 탑재된 센서를 사용하여 표적을 분배합니다.\n\n메인 디스플레이는 실시간으로 지상의 목표물을 보여주고 공중 발사체를 추적하며, 게이지는 전력망 안에 충전된 모든 PPC 에너지의 총량을 보여줍니다.\n몇몇 무기들은 작동을 위하여 콘솔이 유인으로 조종되어야 하고, 이것은 무기 관찰 탭에서 표시될 것입니다.</EnergyWeapons5.description>
   <EnergyWeapons6.label>표적 획득 및 통신 시스템(TACS) 건설</EnergyWeapons6.label>
   <EnergyWeapons6.description>TACS를 건설합니다. 이 시스템은 지상과 상공의 목표물을 추적하기 위해 복합 기술을 사용합니다. 이 목표에는 생명체나 로봇, 박격포탄이나 레일건 탄저판 탄약 같은 발사체가 있으며, 탄도 미사일에 대한 원거리 추적 기능을 제공합니다. 정보는 SACS로 전달되어 표적을 선택하고 추적 정보가 표시될 수 있습니다.</EnergyWeapons6.description>
+  <EnergyWeapons7.label>펄스 전력 컨테이너(PPC) 건설</EnergyWeapons7.label>
+  <EnergyWeapons7.description>PPC를 건설하고 SACS와 같은 전력망에 연결합니다.\n\n이 울트라 축전지들은 일반적인 축전지들보다 훨씬 효율적이며 림원자학 에너지 무기들에 필요한 엄청난 양의 전기를 공급하기 위해 설계되었습니다. 그것들은 방수 컨테이너 안에 보관되어 있으며 일반적인 축전지처럼 잉여 전력을 충전합니다. PPC와 무기를 배치하기 위한 독립된 전력망을 위해 변압기를 사용하는 것을 추천합니다.</EnergyWeapons7.description>
   <ADS1.label>ADS 연구</ADS1.label>
   <ADS1.description>숙련된 연구원이 ADS의 구조를 공부하고 작동방식을 배워야 건설할 수 있습니다</ADS1.description>
   <ADS2.label>에너지 무기 실험</ADS2.label>
