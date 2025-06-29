@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <RimHUD.Language.AdjectiveNounOrder>{0} {1}</RimHUD.Language.AdjectiveNounOrder>
   <RimHUD.ToggleHud>HUD 활성화</RimHUD.ToggleHud>
@@ -23,11 +23,11 @@
   <RimHUD.Interface.Dialog_Config.Tab_Content>콘텐츠</RimHUD.Interface.Dialog_Config.Tab_Content>
   <RimHUD.Interface.Dialog_Config.Tab_Content.Layers.Docked>연결된 레이어</RimHUD.Interface.Dialog_Config.Tab_Content.Layers.Docked>
   <RimHUD.Interface.Dialog_Config.Tab_Content.Layers.Floating>독립 레이어</RimHUD.Interface.Dialog_Config.Tab_Content.Layers.Floating>
-  <RimHUD.Interface.Dialog_Config.Tab_Content.Preset>사전 설정 선택</RimHUD.Interface.Dialog_Config.Tab_Content.Preset>
+  <RimHUD.Interface.Dialog_Config.Tab_Content.Presets>사전 설정 선택</RimHUD.Interface.Dialog_Config.Tab_Content.Presets>
   <RimHUD.Interface.Dialog_Config.Tab_Content.Presets.Select>선택한 설정:</RimHUD.Interface.Dialog_Config.Tab_Content.Presets.Select>
   <RimHUD.Interface.Dialog_Config.Tab_Content.Presets.Save>사전 설정 저장</RimHUD.Interface.Dialog_Config.Tab_Content.Presets.Save>
   <RimHUD.Interface.Dialog_Config.Tab_Content.Presets.Manage>사전 설정 관리</RimHUD.Interface.Dialog_Config.Tab_Content.Presets.Manage>
-  <RimHUD.Interface.Dialog_Config.Tab_Content.Preset.Default>[기본값]</RimHUD.Interface.Dialog_Config.Tab_Content.Preset.Default>
+  <RimHUD.Interface.Dialog_Config.Tab_Content.Presets.Default>[기본값]</RimHUD.Interface.Dialog_Config.Tab_Content.Presets.Default>
   <RimHUD.Interface.Dialog_Config.Tab_Content.Presets.DefaultCompact>[기본값 - 가벼움]</RimHUD.Interface.Dialog_Config.Tab_Content.Presets.DefaultCompact>
   <RimHUD.Interface.Dialog_Config.Tab_Content.Layer>구성요소</RimHUD.Interface.Dialog_Config.Tab_Content.Layer>
   <RimHUD.Interface.Dialog_Config.Tab_Content.Layer.MoveUp>한칸 위로 이동</RimHUD.Interface.Dialog_Config.Tab_Content.Layer.MoveUp>
@@ -60,10 +60,10 @@
   <RimHUD.Interface.Dialog_SavePreset.IncludeTextSizes>텍스트 크기</RimHUD.Interface.Dialog_SavePreset.IncludeTextSizes>
   <RimHUD.Interface.Alert.ConfigReset>RimHUD 모드가 {0} 버전으로 업데이트되었습니다. 구성 설정을 기본값으로 초기화 하는 것을 권장합니다.</RimHUD.Interface.Alert.ConfigReset>
   <RimHUD.Interface.Alert.SetToDefault>설정을 초기화하시겠습니까?</RimHUD.Interface.Alert.SetToDefault>
-  <RimHUD.Interface.Alert.InvalidLayout>RimHUD의 현재 설정에 유효하지 않은 설정 또는 활성화 되지 않은 다른 모드의 설정이 포함되어 있습니다.\n\n구성 설정이 기본값으로 초기화되었습니다.</RimHUD.Interface.Alert.InvalidLayout>
+  <RimHUD.Interface.Alert.InvalidPreset>이 사전 설정은 유효하지 않은 요소 또는 더 이상 비활성화된 모드의 요소가 포함되어 있습니다.\n\n활성 레이아웃이 기본 값으로 재설정되었습니다.</RimHUD.Interface.Alert.InvalidPreset>
   <RimHUD.Interface.Alert.PresetDefaultLoaded>사전 설정이 기본 값으로 초기화되었습니다.</RimHUD.Interface.Alert.PresetDefaultLoaded>
-  <RimHUD.Interface.Alert.PresetLoaded>'{0}' 사전 설정을 불러왔습니다..</RimHUD.Interface.Alert.PresetLoaded>
-  <RimHUD.Interface.Alert.PresetSaved>'{0}' 사전 설정이 저장되었습니다.</RimHUD.Interface.Alert.PresetSaved>
+  <RimHUD.Interface.Alert.PresetLoaded>{0}' 사전 설정을 불러왔습니다..</RimHUD.Interface.Alert.PresetLoaded>
+  <RimHUD.Interface.Alert.PresetSaved>{0}' 사전 설정이 저장되었습니다.</RimHUD.Interface.Alert.PresetSaved>
   <RimHUD.Interface.Alert.ConfirmDelete>저장되어 있는 '{0}' 사전 설정을 삭제하시겠습니까?</RimHUD.Interface.Alert.ConfirmDelete>
   <RimHUD.Interface.Alert.NotImplemented>이 기능은 아직 구현되지 않았습니다.</RimHUD.Interface.Alert.NotImplemented>
   <RimHUD.Interface.Alert.MoreComingSoon>새로운 기능이 추가 될 예정입니다.</RimHUD.Interface.Alert.MoreComingSoon>
@@ -79,7 +79,7 @@
   <RimHUD.Interface.Tutorial.DialogConfigContinue>계속 진행하려면 마우스 버튼을 클릭하십시오.</RimHUD.Interface.Tutorial.DialogConfigContinue>
   <RimHUD.Interface.Tutorial.DialogConfigEnd>이 알림은 이제 표시되지 않습니다. 재미있게 즐기십시오!</RimHUD.Interface.Tutorial.DialogConfigEnd>
   <RimHUD.Layout.UserPreset>[사용자 사전 설정]</RimHUD.Layout.UserPreset>
-  <RimHUD.Layout.BuiltIn>[내부 정보]</RimHUD.Layout.BuiltIn>  
+  <RimHUD.Layout.IntegratedPreset>통합</RimHUD.Layout.IntegratedPreset>
   <RimHUD.Layout.Root>루트</RimHUD.Layout.Root>
   <RimHUD.Layout.VStack>수직 스택</RimHUD.Layout.VStack>
   <RimHUD.Layout.VStackFilled>수직 스택 (가득 참)</RimHUD.Layout.VStackFilled>
@@ -99,15 +99,15 @@
   <RimHUD.Layout.Area>허가 구역 정책</RimHUD.Layout.Area>
   <RimHUD.Layout.RelationKindAndFaction>세력 관계</RimHUD.Layout.RelationKindAndFaction>
   <RimHUD.Layout.GenderRaceAndAge>성별과 인종 및 나이</RimHUD.Layout.GenderRaceAndAge>
-  <RimHUD.Layout.SimpleGenderRaceAndAge>간단한 설별과 인종 및 나이</RimHUD.Layout.SimpleGenderRaceAndAge>
+  <RimHUD.Layout.SimpleGenderRaceAndAge>간단한 성별과 인종 및 나이</RimHUD.Layout.SimpleGenderRaceAndAge>
   <RimHUD.Layout.Health>건강 바</RimHUD.Layout.Health>
   <RimHUD.Layout.HealthCondition>건강 상태</RimHUD.Layout.HealthCondition>
-  <RimHUD.Layout.MindCondition>정신 상태</RimHUD.Layout.MindCondition>
+  <RimHUD.Layout.MentalCondition>정신 상태</RimHUD.Layout.MentalCondition>
   <RimHUD.Layout.Stat>{0} 스탯</RimHUD.Layout.Stat>
   <RimHUD.Layout.Record>{0} 기록</RimHUD.Layout.Record>
   <RimHUD.Layout.NeedMood>기분 바</RimHUD.Layout.NeedMood>
   <RimHUD.Layout.NeedFood>허기 바</RimHUD.Layout.NeedFood>
-  <RimHUD.Layout.NeedRest>수면 바</RimHUD.Layout.NeedRest>
+  <RimHUD.Layout.NeedSleep>수면 바r</RimHUD.Layout.NeedSleep>
   <RimHUD.Layout.NeedEnergy>에너지 바</RimHUD.Layout.NeedEnergy>
   <RimHUD.Layout.NeedRecreation>재미 바</RimHUD.Layout.NeedRecreation>
   <RimHUD.Layout.NeedSuppression>억압 바</RimHUD.Layout.NeedSuppression>
@@ -154,7 +154,7 @@
   <RimHUD.Model.Bio.Diet>식성: {0}</RimHUD.Model.Bio.Diet>
   <RimHUD.Model.Bio.Trainability>지능: {0}</RimHUD.Model.Bio.Trainability>
   <RimHUD.Model.Bio.Wildness>야생성: {0}</RimHUD.Model.Bio.Wildness>
-  <RimHUD.Model.Bio.Petness>유대감: {0}</RimHUD.Model.Bio.Petness>  
+  <RimHUD.Model.Bio.Petness>유대감: {0}</RimHUD.Model.Bio.Petness>
   <RimHUD.Model.RelationKindAndFaction>{1} {0}</RimHUD.Model.RelationKindAndFaction>
   <RimHUD.Model.OfFaction>{0}</RimHUD.Model.OfFaction>
   <RimHUD.Model.Faction.Wild>야생</RimHUD.Model.Faction.Wild>
@@ -192,14 +192,20 @@
   <RimHUD.Model.Health.Affected>현재 건강 상태: {0}</RimHUD.Model.Health.Affected>
   <RimHUD.Model.Health.AffectedTwo>현재 건강 상태: {0} 외의 1가지 건강 상태의 영향을 받는 중</RimHUD.Model.Health.AffectedTwo>
   <RimHUD.Model.Health.AffectedPlural>현재 건강 상태: {0}, {1} 그리고 다른 건강 상태의 영향을 받는 중</RimHUD.Model.Health.AffectedPlural>
+  <RimHUD.Model.Health.Good>활기참</RimHUD.Model.Health.Good>
   <RimHUD.Model.Health.Stable>건강함</RimHUD.Model.Health.Stable>
+  <RimHUD.Model.Health.Poor>아픔</RimHUD.Model.Health.Poor>
+  <RimHUD.Model.Health.Critical>위독함</RimHUD.Model.Health.Critical>
   <RimHUD.Model.Health.MedicalCare>이 {0}에게 적용할 의료 정책을 설정합니다.\n\n현재 정책: {1}</RimHUD.Model.Health.MedicalCare>
   <RimHUD.Model.Mood.ExtremeBreakImminent>우울함</RimHUD.Model.Mood.ExtremeBreakImminent>
   <RimHUD.Model.Mood.MajorBreakImminent>불행함</RimHUD.Model.Mood.MajorBreakImminent>
   <RimHUD.Model.Mood.MinorBreakImminent>불쾌함</RimHUD.Model.Mood.MinorBreakImminent>
-  <RimHUD.Model.Mood.Happy>행복함</RimHUD.Model.Mood.Happy>
-  <RimHUD.Model.Mood.Content>만족함</RimHUD.Model.Mood.Content>
-  <RimHUD.Model.Mood.Indifferent>무난함</RimHUD.Model.Mood.Indifferent>
+  <RimHUD.Model.Mood.Excellent>행복함</RimHUD.Model.Mood.Excellent>
+  <RimHUD.Model.Mood.Good>편안함</RimHUD.Model.Mood.Good>
+  <RimHUD.Model.Mood.Neutral>안정됨</RimHUD.Model.Mood.Neutral>
+  <RimHUD.Model.Mood.Inspired>{1}의 {0}</RimHUD.Model.Mood.Inspired>
+  <RimHUD.Model.Mood.Stunned>{0}동안 기절</RimHUD.Model.Mood.Stunned>
+  <RimHUD.Model.Mood.Staggered>{0}동안 비틀거림</RimHUD.Model.Mood.Staggered>
   <RimHUD.Model.Info.Activity>현재 활동: {0}</RimHUD.Model.Info.Activity>
   <RimHUD.Model.Info.Activity.Tooltip>{0}\n\n{1}\n\n{2}</RimHUD.Model.Info.Activity.Tooltip>
   <RimHUD.Model.Info.Activity.WorkType>수행중인 작업: {0}</RimHUD.Model.Info.Activity.WorkType>
@@ -213,7 +219,7 @@
   <RimHUD.Model.Selector.TimetableFormat>현재 일정: {0}</RimHUD.Model.Selector.TimetableFormat>
   <RimHUD.Model.Selector.SetTimeAssignment>{0}시의 일정을 {1}으로 변경</RimHUD.Model.Selector.SetTimeAssignment>
   <RimHUD.Model.Selector.AreaFormat>허가 구역: {0}</RimHUD.Model.Selector.AreaFormat>
-  <RimHUD.Model.Selector.Manage>구역 관리...</RimHUD.Model.Selector.Manage>  
+  <RimHUD.Model.Selector.Manage>구역 관리...</RimHUD.Model.Selector.Manage>
   <RimHUD.Model.Skill.PassionIndicator>★</RimHUD.Model.Skill.PassionIndicator>
   <RimHUD.Theme.RefreshRate>갱신 주기</RimHUD.Theme.RefreshRate>
   <RimHUD.Theme.RefreshRateDesc>HUD 모드의 정보가 갱신되는 주기입니다. tps의 저하가 발생한다면 이 갱신 주기 값을 늘리십시오.\n\n경고: 0ms로 설정하는 것은 권장하지 않습니다.</RimHUD.Theme.RefreshRateDesc>
