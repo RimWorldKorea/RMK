@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <RecruitAngerMultiple>{0}(이)가 {1}(을)를 {2}번씩이나 짜증나게 했습니다.</RecruitAngerMultiple>
   <RecruitFactionAnger>{1}의 {0}(이)가 {2}(을)를 포섭했기 때문에 화가 났습니다 ({3}).</RecruitFactionAnger>
@@ -72,7 +72,7 @@
   <ForceRecruitQuestion>{PAWN_nameDef}(을)를 바로 포섭할 수 있습니다.\n\n{PAWN_pronoun}에게 충분한 친구들이 없어, 당장 포섭을 하게 되면 {PAWN_possessive} 세력과 우호도가 {0}만큼 떨어집니다. 만약 {PAWN_pronoun}에게 더 많은 친구들이 생기면 지금보단 적게 떨어질 것입니다. {1}{2}\n\n\n그래도 정말 포섭하겠습니까?</ForceRecruitQuestion>
   <ForceRecruitWarning>\n\n즉시 적대감을 갖게 됩니다.</ForceRecruitWarning>
   <ForceAcidifierWarning>\n\n{PAWN_possessive} 사후 처리장치를 유발하게 될 것입니다.</ForceAcidifierWarning>
-  <NotEnoughFriends>[PAWN_nameDef](은)는 정착민을 충분히 좋아하지 않습니다 (의견 > {0}).</NotEnoughFriends>
+  <NotEnoughFriends>[PAWN_nameDef](은)는 정착민을 충분히 좋아하지 않습니다 (의견 &gt; {0}).</NotEnoughFriends>
   <CanNowBeRecruited>이제 [PAWN_nameDef](을)를 포섭할 수 있습니다.</CanNowBeRecruited>
   <OnlyJoinsByForce>[PAWN_nameDef](은)는 강제로만 합류합니다.</OnlyJoinsByForce>
   <CanNeverRecruit>[PAWN_nameDef](을)를 포섭할 수 없습니다.</CanNeverRecruit>
@@ -141,4 +141,9 @@
   <DisableFriendlyGearDropsDesc>아군 폰이 쓰러질 때, 더는 소지품목을 떨어뜨리지 않습니다.</DisableFriendlyGearDropsDesc>
   <UseIcon>방문객 창 기호 표시</UseIcon>
   <UseIconDesc>방문객 창에 문자열 대신 기호로 표시합니다.</UseIconDesc>
+  <VisitorsArrivedDontAskAgain>항상 들여보내기 (다시 묻지 않기)</VisitorsArrivedDontAskAgain>
+  <SilverMultiplier>은화 배율</SilverMultiplier>
+  <SilverMultiplierDesc>방문객이 가져오는 은화의 양을 조절합니다. 우호도가 높을수록 은화도 더 많아집니다. (권장: 1)</SilverMultiplierDesc>
+  <GuestGroupSize>방문객 그룹 크기</GuestGroupSize>
+  <GuestGroupSizeDesc>방문객 무리의 인원 수를 설정합니다. (권장값: 1~16)</GuestGroupSizeDesc>
 </LanguageData>
