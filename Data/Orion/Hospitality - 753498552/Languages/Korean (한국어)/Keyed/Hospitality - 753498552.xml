@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RecruitAngerMultiple>{0}(이)가 {1}(을)를 {2}번씩이나 짜증나게 했습니다.</RecruitAngerMultiple>
+  <RecruitFactionAnger>{1}의 {0}(이)가 {2}(을)를 포섭했기 때문에 화가 났습니다 ({3}).</RecruitFactionAnger>
+  <RecruitFactionAngerLeaderless>{0}의 구성원들이 대표단의 소식을 다신 듣지 못했다고 합니다 ({2}).</RecruitFactionAngerLeaderless>
+  <LostGroupFactionAnger>{1}의 {0}(은)는 대표단의 소식을 다신 듣지 못했다고 합니다 ({2}).</LostGroupFactionAnger>
+  <LostGroupFactionAngerLeaderless>{0}의 구성원들이 포섭에 대해 화를 냈습니다 ({1}).</LostGroupFactionAngerLeaderless>
+  <RecruitFactionPlease>{1}의 {0}(이)가 {2}(을)를 도와준 것에 감사해 합니다 ({3}).</RecruitFactionPlease>
+  <RecruitFactionPleaseLeaderless>{0}의 구성원들이 {1}(을)를 도와준 것에 대해 기뻐합니다 ({2}).</RecruitFactionPleaseLeaderless>
+  <MessageGuestRecruitSuccess>{0}(이)가 정착지에 합류하기로 했습니다!</MessageGuestRecruitSuccess>
+  <MessageGuestForcedRecruit>{0}(이)가 정착지에 합류되길 강제되었습니다!</MessageGuestForcedRecruit>
+  <LetterLabelRecruitFactionChiefAnger>지도자 분노함</LetterLabelRecruitFactionChiefAnger>
+  <LetterLabelRecruitFactionAnger>세력이 분노함</LetterLabelRecruitFactionAnger>
+  <LetterLabelRecruitFactionChiefPlease>지도자 만족함</LetterLabelRecruitFactionChiefPlease>
+  <LetterLabelRecruitFactionPlease>세력이 만족함</LetterLabelRecruitFactionPlease>
+  <GuestCanBeRecruitedNow>이제 {PAWN_labelShort}에게 충분한 친구들이 생겨 포섭할 수 있습니다.</GuestCanBeRecruitedNow>
+  <TextMote_CharmFail>불쾌함</TextMote_CharmFail>
+  <TextMote_CharmSuccess>매혹됨</TextMote_CharmSuccess>
+  <VisitorsLeavingGreat>당신의 환대에 놀라움을 금치 못합니다! (평가: {1})</VisitorsLeavingGreat>
+  <VisitorsLeavingGood>방문객들이 지내는 동안 정말 즐거운 시간을 보냈습니다! (평가: {1})</VisitorsLeavingGood>
+  <VisitorsLeavingNormal>방문객들은 괜찮았다고 생각합니다. (평가: {1})</VisitorsLeavingNormal>
+  <VisitorsLeavingBad>방문객은 더 많은 것을 기대했었습니다. (평가: {1})</VisitorsLeavingBad>
+  <VisitorsLeavingAwful>방문객들은 몹시 실망했습니다. (평가: {1})</VisitorsLeavingAwful>
+  <MessageVisitorsLeavingCold>{0}에서 온 방문객은 매서운 추위에 다시 떠나갔습니다.</MessageVisitorsLeavingCold>
+  <VisitorsSentAway>그들을 돌려보냈습니다.</VisitorsSentAway>
+  <VisitorsReturnSoon>그들은 며칠 후에 다시 방문 할 것입니다.</VisitorsReturnSoon>
+  <VisitorsReturnWhile>그들은 잠시 뒤에 다시 방문 할 것입니다.</VisitorsReturnWhile>
+  <VisitorsReturnNotSoon>그들은 잠시동안 방문하지 않을 것입니다.</VisitorsReturnNotSoon>
+  <VisitorsReturnNot>그들은 이곳에 질렸습니다.</VisitorsReturnNot>
+  <VisitorsArrivedTitle>{1}의 {FACTION_name}에서 온 방문객이 {WORLDOBJECT_label}에 도착했습니다.</VisitorsArrivedTitle>
+  <VisitorsArrivedDesc>다음과 같은 이유로 정착지에 들어오는 것을 걱정하고 있습니다.\n{1}\n\n만약 그들을 돌려 보낸다면 그 지역에 머무르다 나중에 다시 올 것입니다.</VisitorsArrivedDesc>
+  <VisitorsArrivedAccept>안전 보장</VisitorsArrivedAccept>
+  <VisitorsArrivedRefuse>돌려보내기</VisitorsArrivedRefuse>
+  <VisitorsArrivedRefuseUntilBeds>방문객용 침대를 배치할때까지 거절하기</VisitorsArrivedRefuseUntilBeds>
+  <VisitorsArrivedReasonNoBeds>방문객 침대 없음</VisitorsArrivedReasonNoBeds>
+  <LetterLabelPawnBecameGuest>방문객이 된 {PAWN_labelShort}</LetterLabelPawnBecameGuest>
+  <LetterLabelPawnJoinedGroup>방문객과 합류한 {PAWN_labelShort}</LetterLabelPawnJoinedGroup>
+  <RescuedPawnBecameGuest>구조했던 {PAWN_nameDef}(이)가 방문객이 되어 몇 시간 더 머물다 떠나게 됩니다. {PAWN_objective} 집으로 돌려보내거나 포섭할 수도 있습니다.\n\n{PAWN_labelShort}(이)가 지도 밖으로 무사히 빠져나가게 되면, {PAWN_possessive} 세력이 고맙게 생각할 것입니다.</RescuedPawnBecameGuest>
+  <RescuedPawnJoinedGroup>구조했던 {PAWN_nameDef}(이)가 {PAWN_pronoun} 세력의 방문객 무리와 합류 했습니다. {PAWN_pronoun}가 지도 밖으로 무사히 빠져나가게 되면, 고맙게 생각할 것입니다.</RescuedPawnJoinedGroup>
+  <DownedPawnBecameGuest>{PAWN_nameDef}(은)는 방문객으로 몇 시간 더 머뭅니다. {PAWN_objective} 집으로 돌려보내거나 포섭할 수도 있습니다.</DownedPawnBecameGuest>
+  <DownedPawnJoinedGroup>{PAWN_nameDef}(이)가 세력의 방문객 무리에 합류했습니다.</DownedPawnJoinedGroup>
+  <LetterLabelHappyGuestJoins>합류하고 싶어하는 {PAWN_labelShort}</LetterLabelHappyGuestJoins>
+  <HappyGuestJoins>{0} 세력의 {PAWN_labelShort}(이)가 {PAWN_possessive} 세력과 합의하여 대사로서 정착지에 합류하려고 하며, {PAWN_possessive} 세력과 관계가 악화되지 않습니다.\n\n방문객들이 떠날 때까지 결정해야 합니다.</HappyGuestJoins>
+  <GuestBoughtItem>{FACTION_name}의 구성원은 {ITEM_label}(을)를 {1}은에 구입했습니다.</GuestBoughtItem>
+  <GuestTookFreeItem>{FACTION_name}의 구성원이 {ITEM_label}(을)를 공짜로 가져갔습니다.</GuestTookFreeItem>
+  <InviteGuests>방문객 초대</InviteGuests>
+  <GuestsCantBeHostile>적대세력은 안됨</GuestsCantBeHostile>
+  <GuestsDontWantToCome>방문하는데 관심없어 함</GuestsDontWantToCome>
+  <GuestsAlreadyComing>방문하는 중이며 {0} 후에 도착함</GuestsAlreadyComing>
+  <GuestsOnTheirWay>대표단을 보냈으며 {0} 후에 도착할 예정입니다.</GuestsOnTheirWay>
+  <AreaToStay>허가구역</AreaToStay>
+  <AreaToBuy>쇼핑구역</AreaToBuy>
+  <AreaNoShopping>쇼핑 없음</AreaNoShopping>
+  <AreaToStayTooltip>방문객이 머물면서 지내고 잠을 잘 수 있는 구역입니다.</AreaToStayTooltip>
+  <AreaToBuyTooltip>숙박 지역 내에 있어야 하며 방문객들이 물품을 구매할 수 있는 구역입니다.</AreaToBuyTooltip>
+  <FriendsRequirement>포섭시 필요한 친구 수: {0}/{1}</FriendsRequirement>
+  <SeniorityRequirement>포섭시 필요한 왕실 친구 등급: {0}/{1}</SeniorityRequirement>
+  <RecruitmentPenalty>포섭시 우호도 하락: {0} (강제: {1})</RecruitmentPenalty>
+  <ImproveRelationship>접대 하기</ImproveRelationship>
+  <MakeFriends>관계도 쌓기</MakeFriends>
+  <LeaveAlone>내버려두기</LeaveAlone>
+  <FactionGoodwill>세력 우호도</FactionGoodwill>
+  <Hospitality>접객</Hospitality>
+  <MakeDefault>기본값 만들기</MakeDefault>
+  <SendAway>돌려보내기...</SendAway>
+  <SendAwayQuestion>{FACTION_name}의 방문객들을 내보내시겠습니까?\n만약 나타난 직후에 돌려보낸다면, 관계에는 아무런 영향이 없습니다.</SendAwayQuestion>
+  <Recruit>포섭...</Recruit>
+  <CantRecruit>현재 이 방문객은 포섭할 수 없습니다.</CantRecruit>
+  <CantForceRecruit>이 방문객은 강제로 포섭할 수 없습니다.</CantForceRecruit>
+  <RecruitQuestion>이제 {PAWN_nameDef}(을)를 포섭할 수 있습니다.\n\n{PAWN_pronoun}에게 만족할만한 친구들이 있으며, 해당 세력과의 우호도가 {0}만큼 떨어집니다.{1}\n\n\n{PAWN_objective} 포섭하겠습니까?</RecruitQuestion>
+  <ForceRecruit>강제 포섭...</ForceRecruit>
+  <ForceRecruitQuestion>{PAWN_nameDef}(을)를 바로 포섭할 수 있습니다.\n\n{PAWN_pronoun}에게 충분한 친구들이 없어, 당장 포섭을 하게 되면 {PAWN_possessive} 세력과 우호도가 {0}만큼 떨어집니다. 만약 {PAWN_pronoun}에게 더 많은 친구들이 생기면 지금보단 적게 떨어질 것입니다. {1}{2}\n\n\n그래도 정말 포섭하겠습니까?</ForceRecruitQuestion>
+  <ForceRecruitWarning>\n\n즉시 적대감을 갖게 됩니다.</ForceRecruitWarning>
+  <ForceAcidifierWarning>\n\n{PAWN_possessive} 사후 처리장치를 유발하게 될 것입니다.</ForceAcidifierWarning>
+  <NotEnoughFriends>[PAWN_nameDef](은)는 정착민을 충분히 좋아하지 않습니다 (의견 &gt; {0}).</NotEnoughFriends>
+  <CanNowBeRecruited>이제 [PAWN_nameDef](을)를 포섭할 수 있습니다.</CanNowBeRecruited>
+  <OnlyJoinsByForce>[PAWN_nameDef](은)는 강제로만 합류합니다.</OnlyJoinsByForce>
+  <CanNeverRecruit>[PAWN_nameDef](을)를 포섭할 수 없습니다.</CanNeverRecruit>
+  <IsATrader>[PAWN_nameDef](은)는 방문객이 아니라 행상인입니다.</IsATrader>
+  <ImproveTooltip>접객원들이 방문객들의 기분이 좋아지도록 노력을 합니다. 능력이 높을수록 효과적입니다. 능력이 낮다면 방문객을 화나게 할 수도 있습니다.</ImproveTooltip>
+  <TryRecruitTooltip>접객원들이 방문객과 정착민들을 친구로 만들려고 노력합니다. 능력이 높을수록 효과적입니다. 능력이 낮다면 방문객을 화나게 할 수도 있습니다. 친구 수가 충분하다면 정착지에 합류할 수 있습니다.</TryRecruitTooltip>
+  <RecruitTooltip>방문객은 충분한 친구들이 있으며 지금 포섭할 수 있으나, 포섭하게 되면 해당 세력과 관계도가 낮아집니다.</RecruitTooltip>
+  <MakeDefaultTooltip>현재 구역들과 접객 설정을 기본값으로 적용합니다.</MakeDefaultTooltip>
+  <ForceRecruitTooltip>방문객들을 설득하기 전에 강제로 합류하도록 할 수 있으나, 포섭하게 되면 해당 세력과 관계도가 크게 떨어집니다.</ForceRecruitTooltip>
+  <SendAwayTooltip>이 무리들을 집으로 다시 돌려보냅니다.</SendAwayTooltip>
+  <BedsFilled>사용 중인 침대: {0}/{1}</BedsFilled>
+  <MapSettings>지도 설정...</MapSettings>
+  <GuestsWelcome>새로운 방문객 허용</GuestsWelcome>
+  <GuestsWelcomeTooltip>이 설정을 끄면, 정착지에 새로운 방문객이 오지 않습니다.</GuestsWelcomeTooltip>
+  <RefuseGuestsUntilBeds>방문객용 침대를 배치할 때까지 거절하기</RefuseGuestsUntilBeds>
+  <RefuseGuestsUntilBedsTooltip>방문객용 침대를 건설할 때까지 방문객 무리가 오지 않습니다.</RefuseGuestsUntilBedsTooltip>
+  <GuestsCanTakeFoodForFree>방문객이 음식을 공짜로 가져갈 수 있습니다.</GuestsCanTakeFoodForFree>
+  <GuestsCanTakeFoodForFreeTooltip>방문객들이 저장구역에서 공짜로 음식을 가져갈 수 있습니다.</GuestsCanTakeFoodForFreeTooltip>
+  <StatsReport_MissingFriends>행방불명된 친구</StatsReport_MissingFriends>
+  <Hospitality_VendingMachine>자판기</Hospitality_VendingMachine>
+  <Hospitality_VendingMachinePrice>가격:</Hospitality_VendingMachinePrice>
+  <Hospitality_VendingMachineContains>포함:</Hospitality_VendingMachineContains>
+  <Hospitality_VendingMachineToggleDesc>방문객이 시설을 이용할 수 있도록 허용합니다.</Hospitality_VendingMachineToggleDesc>
+  <GuestBedFormat>방문객 {0}</GuestBedFormat>
+  <CommandBedSetAsGuestLabel>방문객용</CommandBedSetAsGuestLabel>
+  <CommandBedSetAsGuestDesc>방문객용으로 지정할 수 있습니다.</CommandBedSetAsGuestDesc>
+  <BedGizmoAttractiveness>관심도:</BedGizmoAttractiveness>
+  <BedSatisfiedTitles>이 작위에 걸맞은 침대:</BedSatisfiedTitles>
+  <BedroomMustBeSingle>하나뿐인 침대</BedroomMustBeSingle>
+  <NextTitleRequirements>다음 작위에 대한 요구사항:\n- {0}</NextTitleRequirements>
+  <AlertCantClaimBed>침대를 소유할 수 없는 방문객</AlertCantClaimBed>
+  <AlertCantClaimBedDesc>침대를 소유할 여비가 없는 림들:\n\n{0}\n더 싼 침대를 제공하거나 무료 침대를 제공하거나 방문객에서 약간의 은을 선물하세요.\n세력과 관계가 높을수록 더 많은 은을 가져옵니다.</AlertCantClaimBedDesc>
+  <AlertNotEnoughBeds>부족한 침대</AlertNotEnoughBeds>
+  <AlertNotEnoughBedsDesc>다음 사람들이 사용할 수 있는 침대가 충분하지 않음:\n\n{0}\n방문객을 위한 침대를 더 제공해야 합니다.</AlertNotEnoughBedsDesc>
+  <AlertHasNoFood>먹을 게 없는 방문객</AlertHasNoFood>
+  <AlertHasNoFoodDesc>먹을 것이 없는 방문객:\n\n{0}\n음식을 팔거나, 자판기를 설치하거나, 방문객에서 은이나 식량을 선물하세요. 또한, 방문객이 공짜로 음식을 가져가게 할 수도 있습니다.\n좋은 관계의 세력들은 더 많은 소지금을 가져옵니다.</AlertHasNoFoodDesc>
+  <DisableLimits>옵션 제한 비활성</DisableLimits>
+  <DisableLimitsDesc>이 옵션을 체크하면 권장설정 이상으로 조절할 수 있습니다.</DisableLimitsDesc>
+  <DisableVisitors>방문객 비활성</DisableVisitors>
+  <DisableVisitorsDesc>사용하지도 않을꺼면서 왜 이 모드를 사용하는지 모르겠네요.</DisableVisitorsDesc>
+  <DisableGuestsHelping>방문객 도움 비활성</DisableGuestsHelping>
+  <DisableGuestsHelpingDesc>이 옵션을 선택하면, 방문객들이 정착지 내에서 어떠한 작업도 수행하지 않습니다.</DisableGuestsHelpingDesc>
+  <DisableArtAndCraft>방문객의 제작과 예술 도움 비활성</DisableArtAndCraft>
+  <DisableArtAndCraftDesc>이 옵션을 선택하면, 방문객들이 예술이나 제작 작업을 수행하지 않습니다.</DisableArtAndCraftDesc>
+  <DisableOperations>방문객의 수술 도움 비활성</DisableOperations>
+  <DisableOperationsDesc>이 옵션을 선택하면, 방문객들이 의료 작업을 수행하지 않습니다.</DisableOperationsDesc>
+  <DisableMedical>방문객의 치료 도움 비활성</DisableMedical>
+  <DisableMedicalDesc>이 옵션을 선택하면, 방문객들이 간호 작업을 수행하지 않습니다.</DisableMedicalDesc>
+  <DisableGifts>선물 비활성</DisableGifts>
+  <DisableGiftsDesc>옵션을 체크하면, 방문객이 만족하고 돌아갈때 선물을 남기지 않습니다.</DisableGiftsDesc>
+  <MinGuestWorkSkill>작업 최소 등급</MinGuestWorkSkill>
+  <MinGuestWorkSkillDesc>방문객이 작업을 도와줄 때 필요로 하는 최소 기술 등급입니다. (권장: 7)</MinGuestWorkSkillDesc>
+  <MinGuestGroupSize>방문객 무리의 최소 인원</MinGuestGroupSize>
+  <MinGuestGroupSizeDesc>방문할 때 찾아오는 무리의 최소 인원입니다. (권장: 1)</MinGuestGroupSizeDesc>
+  <MaxGuestGroupSize>방문객 무리의 최대 인원</MaxGuestGroupSize>
+  <MaxGuestGroupSizeDesc>방문할 때 찾아오는 무리의 최대 인원입니다. (권장: 16)</MaxGuestGroupSizeDesc>
+  <MaxIncidentsPer3Days>3일 이내 최대 무리</MaxIncidentsPer3Days>
+  <MaxIncidentsPer3DaysDesc>3일 이내에 찾아올 방문객 무리의 최대 인원입니다. (권장: 5)</MaxIncidentsPer3DaysDesc>
+  <DisableGuestsTab>방문객 창 비활성</DisableGuestsTab>
+  <DisableGuestsTabDesc>하단의 방문객 창을 숨깁니다.</DisableGuestsTabDesc>
+  <EnableBuyNotification>구매 알림 활성</EnableBuyNotification>
+  <EnableBuyNotificationDesc>방문객이 물품을 구매하면 메시지를 받습니다. 기록 - 메시지에서도 다시 확인할 수 있습니다.</EnableBuyNotificationDesc>
+  <EnableRecruitNotification>충분한 친구 알림 활성</EnableRecruitNotification>
+  <EnableRecruitNotificationDesc>충분한 친구들이 생긴 방문객을 포섭할 수 있을 때 메시지를 받습니다.</EnableRecruitNotificationDesc>
+  <DisableFriendlyGearDrops>아군 소지품 떨어뜨리기 없음</DisableFriendlyGearDrops>
+  <DisableFriendlyGearDropsDesc>아군 폰이 쓰러질 때, 더는 소지품목을 떨어뜨리지 않습니다.</DisableFriendlyGearDropsDesc>
+  <UseIcon>방문객 창 기호 표시</UseIcon>
+  <UseIconDesc>방문객 창에 문자열 대신 기호로 표시합니다.</UseIconDesc>
+  <VisitorsArrivedDontAskAgain>항상 들여보내기 (다시 묻지 않기)</VisitorsArrivedDontAskAgain>
+  <SilverMultiplier>은화 배율</SilverMultiplier>
+  <SilverMultiplierDesc>방문객이 가져오는 은화의 양을 조절합니다. 우호도가 높을수록 은화도 더 많아집니다. (권장: 1)</SilverMultiplierDesc>
+  <GuestGroupSize>방문객 그룹 크기</GuestGroupSize>
+  <GuestGroupSizeDesc>방문객 무리의 인원 수를 설정합니다. (권장값: 1~16)</GuestGroupSizeDesc>
+</LanguageData>
