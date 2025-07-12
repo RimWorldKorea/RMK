@@ -2,6 +2,11 @@
 <LanguageData>
   <UsefulMarks_SettingsCategory>UsefulMarks</UsefulMarks_SettingsCategory>
   <DrawMarksOnColonistBar>상단 정착민 바에 아이콘 표시</DrawMarksOnColonistBar>
+  <DrawMarksInWorld>맵에서 아이콘 표시</DrawMarksInWorld>
+  <DrawTitlesOnColonistBar>상단 정착민 바에 텍스트 표시</DrawTitlesOnColonistBar>
+  <WhereToEnableTitlesUnderPawnName>이름 아래 텍스트 표시 활성화/비활성화는 캐릭터 탭의 "개명" 창을 통해 할 수 있습니다.</WhereToEnableTitlesUnderPawnName>
+  <HideCosmeticGenes>외형 유전자 숨기기</HideCosmeticGenes>
+  <ChangeFromMainMenu>메인 메뉴에서만 변경할 수 있습니다</ChangeFromMainMenu>
   <DrawLabelsInWorldTooltip>맵에서 직함 표시</DrawLabelsInWorldTooltip>
   <ConditionMeleeFighter>근접 전투원</ConditionMeleeFighter>
   <ConditionRangedFighter>원거리 전투원</ConditionRangedFighter>
@@ -19,8 +24,12 @@
   <RangedSkillOver5>사격 등급 {0} 5 (+ 사격 &gt; 격투)</RangedSkillOver5>
   <MeleeSkillOver10>격투 등급 {0} 10 (+ 격투 &gt; 사격)</MeleeSkillOver10>
   <RangedSkillOver10>사격 등급 {0} 10 (+ 사격 &gt; 격투)</RangedSkillOver10>
+  <MeleeSkillOver15>격투 등급 {0} 15 (+ 격투 &gt; 사격)</MeleeSkillOver15>
+  <RangedSkillOver15>사격 등급 {0} 15 (+ 사격 &gt; 격투)</RangedSkillOver15>
   <IsBestSkill>보유 기술 중 최고</IsBestSkill>
   <IsWorstSkill>보유 기술 중 최저</IsWorstSkill>
+  <IsBestSkillColonist>정착민 중 최고</IsBestSkillColonist>
+  <IsWorstSkillColonist>정착민 중 최저</IsWorstSkillColonist>
   <SkillAbove5>기술 등급 {0} 5</SkillAbove5>
   <SkillAbove10>기술 등급 {0} 10</SkillAbove10>
   <SkillAbove15>기술 등급 {0} 15</SkillAbove15>
@@ -35,7 +44,8 @@
   <ConditionMarker>표시 조건:</ConditionMarker>
   <ConditionParamMarker>기준:</ConditionParamMarker>
   <MarkerLowPriority>우선순위 낮음</MarkerLowPriority>
-  <MarkerLowPriorityTooltip>폰에게 수동으로 지정된 마커가 있을 경우 "우선순위 낮음" 으로 설정된 자동 지정 마커가 숨겨집니다.</MarkerLowPriorityTooltip>
+  <MarkerPriority>우선도</MarkerPriority>
+  <MarkerLowPriorityTooltip>폰에게 수동으로 지정된 마커가 있을 경우 우선순위가 낮게 설정된 자동 지정 마커가 숨겨집니다.</MarkerLowPriorityTooltip>
   <AssignMarkerFor>적용 대상:</AssignMarkerFor>
   <AssignToColonistMarker>정착민</AssignToColonistMarker>
   <AssignToSlaveOrPrisonerMarker>노예와 수감자</AssignToSlaveOrPrisonerMarker>
@@ -44,6 +54,40 @@
   <EditMarkers>마커 편집</EditMarkers>
   <SelectAmarkerFromTheListToEdit>목록에서 편집할 마커를 고르세요.</SelectAmarkerFromTheListToEdit>
   <MarkerHasCondition>자동</MarkerHasCondition>
+  <ConditionHealth>부상</ConditionHealth>
+  <IsBleeding>출혈 중</IsBleeding>
+  <NotTended>치료 필요한 상처 있음</NotTended>
+  <NotTendedGood>치료 품질이 낮은 상처 있음</NotTendedGood>
+  <HasScars>흉터 있음</HasScars>
+  <HasPain>고통 있음</HasPain>
+  <ConditionExactHediff>특정 헤디프</ConditionExactHediff>
+  <ConditionStat>폰 능력치</ConditionStat>
+  <ConditionBest>최고: {0}</ConditionBest>
+  <ConditionWorst>최저: {0}</ConditionWorst>
+  <ConditionImplant>이식물</ConditionImplant>
+  <ConditionSchedule>일정</ConditionSchedule>
+  <MarkerParamsSelected>선택: {0}</MarkerParamsSelected>
+  <ConditionXenotype>인종형</ConditionXenotype>
+  <ConditionHasGene>유전자 보유</ConditionHasGene>
+  <ConditionHasTrait>특성 보유</ConditionHasTrait>
+  <ConditionFaction>소속 세력</ConditionFaction>
+  <ConditionAlienIdeology>비주류 사상</ConditionAlienIdeology>
+  <ConditionHoldingWeapon>무기 소지</ConditionHoldingWeapon>
+  <ConditionWearingApparel>의복 장비</ConditionWearingApparel>
+  <MarkerApparelNotForNudist>나체주의자에게 부적합한 의복</MarkerApparelNotForNudist>
+  <AllowTagNonHumans>비인간 폰 마크 허용</AllowTagNonHumans>
+  <AlwaysShowPawnNameIfMarked>마커가 있을 시 항상 폰 이름 표시</AlwaysShowPawnNameIfMarked>
+  <AllowTagNonHumansEnabledButAlwaysShowNot>비인간 폰 마크가 허용되어 있으나, '항상 이름 표시'가 비활성화되어 있습니다.</AllowTagNonHumansEnabledButAlwaysShowNot>
+  <IconShadowOffset>아이콘 그림자 오프셋 {0} px</IconShadowOffset>
+  <MeleeVSRangedSkill>격투 등급 &gt; 사격 등급</MeleeVSRangedSkill>
+  <RangedVSMeleeSkill>사격 등급 &gt; 격투 등급</RangedVSMeleeSkill>
+  <ConditionInvert>반전</ConditionInvert>
+  <MarkerAND>AND</MarkerAND>
+  <MarkerOR>OR</MarkerOR>
+  <ConditionExcept>제외: {0}</ConditionExcept>
+  <ConditionPawnGender>성별</ConditionPawnGender>
+  <MarkerShowOnColonistBar>정착민 바에 표시</MarkerShowOnColonistBar>
+  <ConditionQuest>임무와 관련됨</ConditionQuest>
   <Marker_Animal>동물</Marker_Animal>
   <Marker_Armor>방어구</Marker_Armor>
   <Marker_Art>예술</Marker_Art>
@@ -103,33 +147,12 @@
   <Marker_Familiar>지인</Marker_Familiar>
   <Marker_Protected>보호받음</Marker_Protected>
   <Marker_AnomalyScience>이상현상 연구</Marker_AnomalyScience>
-  <DrawMarksInWorld>맵에서 아이콘 표시</DrawMarksInWorld>
-  <DrawTitlesOnColonistBar>상단 정착민 바에 텍스트 표시</DrawTitlesOnColonistBar>
-  <WhereToEnableTitlesUnderPawnName>이름 아래에 텍스트 표시 활성화/비활성화는 캐릭터 탭의 "개명" 창을 통해 할 수 있습니다.</WhereToEnableTitlesUnderPawnName>
-  <HideCosmeticGenes>외형 유전자 숨기기</HideCosmeticGenes>
-  <ChangeFromMainMenu>메인 메뉴에서만 변경할 수 있습니다</ChangeFromMainMenu>
-  <ConditionHealth>부상</ConditionHealth>
-  <IsBleeding>출혈 중</IsBleeding>
-  <NotTended>치료 필요한 상처 있음</NotTended>
-  <NotTendedGood>치료 품질이 낮은 상처 있음</NotTendedGood>
-  <HasScars>흉터 있음</HasScars>
-  <HasPain>고통 있음</HasPain>
-  <ConditionExactHediff>특정 헤디프</ConditionExactHediff>
-  <ConditionStat>폰 능력치</ConditionStat>
-  <ConditionBest>최고: {0}</ConditionBest>
-  <ConditionImplant>이식물</ConditionImplant>
-  <ConditionSchedule>일정</ConditionSchedule>
-  <MarkerParamsSelected>선택: {0}</MarkerParamsSelected>
-  <ConditionXenotype>제노타입</ConditionXenotype>
-  <ConditionHasGene>유전자 보유</ConditionHasGene>
-  <ConditionHasTrait>특성 보유</ConditionHasTrait>
-  <ConditionFaction>소속 세력</ConditionFaction>
-  <ConditionAlienIdeology>비주류 사상</ConditionAlienIdeology>
   <Marker_Psy>초능력자</Marker_Psy>
   <Marker_Meditation>명상</Marker_Meditation>
   <Marker_Smoke>흡연</Marker_Smoke>
   <Marker_Night>밤</Marker_Night>
   <Marker_Sun>낮</Marker_Sun>
+  <Marker_Syringe>주사기</Marker_Syringe>
   <Marker_Augmented>이식물</Marker_Augmented>
   <Marker_Arm>힘</Marker_Arm>
   <Marker_ArmPlus>생체공학</Marker_ArmPlus>
@@ -138,23 +161,4 @@
   <Marker_Chef>요리사</Marker_Chef>
   <Marker_Flame>불</Marker_Flame>
   <Marker_DNA>DNA</Marker_DNA>
-  <ConditionHoldingWeapon>무기 소지</ConditionHoldingWeapon>
-  <ConditionWearingApparel>의복 장비</ConditionWearingApparel>
-  <MarkerApparelNotForNudist>나체주의자에게 부적합한 의복</MarkerApparelNotForNudist>
-  <AllowTagNonHumans>비인간 폰 마크 허용</AllowTagNonHumans>
-  <AlwaysShowPawnNameIfMarked>마커가 있을 시 항상 폰 이름 표시</AlwaysShowPawnNameIfMarked>
-  <AllowTagNonHumansEnabledButAlwaysShowNot>비인간 폰 마크가 허용되어 있으나, '항상 이름 표시'가 비활성화되어 있습니다.</AllowTagNonHumansEnabledButAlwaysShowNot>
-  <IconShadowOffset>아이콘 그림자 오프셋 {0} px</IconShadowOffset>
-  <MeleeSkillOver15>격투 등급 {0} 15 (+ 격투 &gt; 사격)</MeleeSkillOver15>
-  <RangedSkillOver15>사격 등급 {0} 15 (+ 사격 &gt; 격투)</RangedSkillOver15>
-  <IsBestSkillColonist>정착민 중 최고</IsBestSkillColonist>
-  <IsWorstSkillColonist>정착민 중 최저</IsWorstSkillColonist>
-  <ConditionWorst>최저: {0}</ConditionWorst>
-  <MeleeVSRangedSkill>격투 등급 &gt; 사격 등급</MeleeVSRangedSkill>
-  <RangedVSMeleeSkill>사격 등급 &gt; 격투 등급</RangedVSMeleeSkill>
-  <ConditionInvert>반전</ConditionInvert>
-  <MarkerAND>AND</MarkerAND>
-  <MarkerOR>OR</MarkerOR>
-  <ConditionExcept>제외: {0}</ConditionExcept>
-  <Marker_Syringe>주사기</Marker_Syringe>
 </LanguageData>
