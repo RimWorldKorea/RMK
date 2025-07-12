@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Krepost"]/tools/li[1]/label</xpath>
+          <value>
+            <label>왼 다리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Krepost"]/tools/li[2]/label</xpath>
+          <value>
+            <label>오른 다리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Krepost"]/tools/li[3]/label</xpath>
+          <value>
+            <label>머리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Pravda"]/tools/li[1]/label</xpath>
+          <value>
+            <label>왼 다리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Pravda"]/tools/li[2]/label</xpath>
+          <value>
+            <label>오른 다리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Mech_Pravda"]/tools/li[3]/label</xpath>
+          <value>
+            <label>머리</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
