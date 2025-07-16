@@ -12,6 +12,11 @@
   <VPE_Lucky.description>공격이 항상 목표물에 명중하고 적의 공격에 명중당하지 않도록 운명이 변화하였습니다.</VPE_Lucky.description>
   <VPE_UnLucky.label>불운</VPE_UnLucky.label>
   <VPE_UnLucky.description>공격이 항상 빗나가고 적의 공격이 항상 명중하도록 운명이 변화하였습니다.</VPE_UnLucky.description>
+  <VPE_NoPain.description>이 존재는 통증에 둔감하며 통증으로 인해 쓰러지는데 더 오랜 시간이 필요합니다.</VPE_NoPain.description>
+  <VPE_NoPain.label>통각 없음</VPE_NoPain.label>
+  <VPE_PsychicShock.label>정신력 쇼크</VPE_PsychicShock.label>
+  <VPE_PsychicShock.labelNoun>정신력 쇼크</VPE_PsychicShock.labelNoun>
+  <VPE_PsychicShock.description>정신이 심각하게 혼란스러운 상태입니다. 초능력 공격이나 과도한 신경열로 인해 쇼크 상태가 사라질 때까지 쇠약해집니다.</VPE_PsychicShock.description>
   <VPE_Recharge.label>재충전</VPE_Recharge.label>
   <VPE_Recharge.description>전력이 근처 축전지에 전달되고 있습니다.</VPE_Recharge.description>
   <VPE_Vortex.label>전자 폭풍에 휘말림</VPE_Vortex.label>
@@ -62,14 +67,15 @@
   <VPE_Hallucination.description>초능력으로 대상자의 시각 정보를 재구성해서 사치스러운 장소에서 일상 생활을 한다고 믿게 만듭니다.</VPE_Hallucination.description>
   <VPE_Liferot.label>부패</VPE_Liferot.label>
   <VPE_Liferot.description>초능력으로 인해 발생한 대량 괴사. 희생자의 건강한 사지와 장기가 썩게 만듭니다.</VPE_Liferot.description>
+  <VPE_Rot.labelNounPretty>{1}의 {0}</VPE_Rot.labelNounPretty>
   <VPE_Rot.label>썩음</VPE_Rot.label>
   <VPE_Rot.labelNoun>썩음</VPE_Rot.labelNoun>
   <VPE_Rot.description>썩었습니다.</VPE_Rot.description>
+  <VPE_Rot.injuryProps.destroyedLabel>썩어서 떨어져 나감</VPE_Rot.injuryProps.destroyedLabel>
+  <VPE_Rot.injuryProps.destroyedOutLabel>썩어서 떨어져 나감</VPE_Rot.injuryProps.destroyedOutLabel>
   <VPE_Rot.comps.1.labelTendedWell>붕대 감김</VPE_Rot.comps.1.labelTendedWell>
   <VPE_Rot.comps.1.labelTendedWellInner>회복 중</VPE_Rot.comps.1.labelTendedWellInner>
   <VPE_Rot.comps.1.labelSolidTendedWell>회복 중</VPE_Rot.comps.1.labelSolidTendedWell>
-  <VPE_Rot.injuryProps.destroyedLabel>썩어서 떨어져 나감</VPE_Rot.injuryProps.destroyedLabel>
-  <VPE_Rot.injuryProps.destroyedOutLabel>썩어서 떨어져 나감</VPE_Rot.injuryProps.destroyedOutLabel>
   <VPE_GainedVitality.label>넘치는 생명력</VPE_GainedVitality.label>
   <VPE_GainedVitality.description>다른 사람에게 생명력을 빼앗았습니다.</VPE_GainedVitality.description>
   <VPE_LostVitality.label>생명력 부족</VPE_LostVitality.label>
@@ -88,11 +94,6 @@
   <VPE_Shadowfocus.description>초능력자 주위의 빛에 반비례해서 정신 감응력 증가.</VPE_Shadowfocus.description>
   <VPE_Sacrificed.label>제물</VPE_Sacrificed.label>
   <VPE_Sacrificed.description>강력한 초능력의 대가로 바쳐졌습니다. 어떤 방법으로도 재생시킬 수 없습니다.</VPE_Sacrificed.description>
-  <VPE_NoPain.description>이 존재는 통증에 둔감하며 통증으로 인해 쓰러지는데 더 오랜 시간이 필요합니다.</VPE_NoPain.description>
-  <VPE_NoPain.label>통각 없음</VPE_NoPain.label>
-  <VPE_PsychicShock.label>정신력 쇼크</VPE_PsychicShock.label>
-  <VPE_PsychicShock.labelNoun>정신력 쇼크</VPE_PsychicShock.labelNoun>
-  <VPE_PsychicShock.description>정신이 심각하게 혼란스러운 상태입니다. 초능력 공격이나 과도한 신경열로 인해 쇼크 상태가 사라질 때까지 쇠약해집니다.</VPE_PsychicShock.description>
   <VPE_Healing.label>초능력 치유</VPE_Healing.label>
   <VPE_Healing.description>초능력으로 인해 자연 치유력이 증폭되었습니다.</VPE_Healing.description>
   <VPE_BlockBleeding.label>초능력 진정</VPE_BlockBleeding.label>
@@ -105,6 +106,7 @@
   <VPE_GuardianSkipBarrier.description>스스로를 유지하기 위해 대량의 신경열을 발생시키는 초능력 방어막입니다.</VPE_GuardianSkipBarrier.description>
   <VPE_RegrowLimbs.label>초능력 재생</VPE_RegrowLimbs.label>
   <VPE_RegrowLimbs.description>열린 상처를 닫고 누락된 신체 부위를 재생시키는 초능력 재생입니다.</VPE_RegrowLimbs.description>
+  <VPE_Regenerating.labelNounPretty>{1}의 {0}</VPE_Regenerating.labelNounPretty>
   <VPE_Regenerating.label>재생 중</VPE_Regenerating.label>
   <VPE_Regenerating.description>상처가 재생되는 중입니다.</VPE_Regenerating.description>
   <VPE_Regenerating.injuryProps.destroyedLabel>파괴됨</VPE_Regenerating.injuryProps.destroyedLabel>
@@ -126,6 +128,4 @@
   <VPE_ControlledFrenzy.description>초능력으로 인해 일시적으로 발생한 광란입니다. 연속 처치에 성공할때마다 지속시간이 연장되며 신경열이 회복됩니다.</VPE_ControlledFrenzy.description>
   <VPE_GuidedShot.label>유도 사격</VPE_GuidedShot.label>
   <VPE_GuidedShot.description>초능력으로 인해 정확도가 엄청나게 상승하였습니다.</VPE_GuidedShot.description>
-  <VPE_Rot.labelNounPretty>{1}의 {0}</VPE_Rot.labelNounPretty>
-  <VPE_Regenerating.labelNounPretty>{1}의 {0}</VPE_Regenerating.labelNounPretty>
 </LanguageData>
