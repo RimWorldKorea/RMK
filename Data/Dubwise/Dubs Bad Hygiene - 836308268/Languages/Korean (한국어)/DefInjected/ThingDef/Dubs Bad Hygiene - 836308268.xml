@@ -89,19 +89,14 @@
   <Thermostat.description>전기 및 가스 보일러를 제어하는 데 사용되는 자동 온도 조절 장치입니다. 둘 이상 설치할 수 있습니다. 일반 배관으로 연결할 수 있습니다.</Thermostat.description>
   <LogBoiler.label>나무 보일러</LogBoiler.label>
   <LogBoiler.description>방열기나 온수 탱크를 따뜻하게 데우는 보일러입니다. 나무를 연료로 사용하며 2,000U의 열을 생산합니다. 방과 인접한 욕조를 데웁니다.</LogBoiler.description>
-  <LogBoiler.comps.CompBoiler.GizmoLabel>가동 단계</LogBoiler.comps.CompBoiler.GizmoLabel>
   <GasBoiler.label>가스 보일러</GasBoiler.label>
   <GasBoiler.description>방열기나 온수 탱크를 따뜻하게 데우는 보일러입니다. 화학연료를 사용하며 2,000U의 열을 생산합니다. 온도 조절 장치로 제어할 수 있습니다.</GasBoiler.description>
-  <GasBoiler.comps.CompBoiler.GizmoLabel>가동 단계</GasBoiler.comps.CompBoiler.GizmoLabel>
   <ElectricBoiler.label>전기 보일러</ElectricBoiler.label>
   <ElectricBoiler.description>방열기나 온수 탱크를 따뜻하게 데우는 보일러입니다. 수동으로 출력을 조절해 생산하는 열의 양을 조정할 수 있습니다. 온도 조절 장치로 제어할 수 있습니다.</ElectricBoiler.description>
-  <ElectricBoiler.comps.CompBoiler.GizmoLabel>가동 단계</ElectricBoiler.comps.CompBoiler.GizmoLabel>
   <SolarHeater.label>태양광 난방기</SolarHeater.label>
   <SolarHeater.description>방열기나 물을 데우기 위해 태양광을 사용합니다. 주변 온도와 광량에 따라 0-2,000U까지 열 생산량이 변동됩니다.</SolarHeater.description>
-  <SolarHeater.comps.CompBoilerSolar.GizmoLabel>가동 단계</SolarHeater.comps.CompBoilerSolar.GizmoLabel>
   <GeothermHeater.label>지열 난방기</GeothermHeater.label>
   <GeothermHeater.description>방열기나 물을 데우기 위해 지열을 활용합니다. 3,700U의 열을 생산합니다.</GeothermHeater.description>
-  <GeothermHeater.comps.CompGeoBoiler.GizmoLabel>가동 단계</GeothermHeater.comps.CompGeoBoiler.GizmoLabel>
   <HotWaterTank.label>온수 탱크</HotWaterTank.label>
   <HotWaterTank.description>연결된 난방 장치에 사용되거나, 샤워 및 목욕에 쓰일 온수를 저장하는 보온탱크입니다.</HotWaterTank.description>
   <RadiatorStuffed.description>보일러의 온수를 이용해 방을 서서히 데웁니다. 적절한 사용을 위해 100U의 열을 안정적으로 공급해야합니다.</RadiatorStuffed.description>
@@ -141,4 +136,18 @@
   <FilthUrine.description>소변 갈긴 흔적</FilthUrine.description>
   <FilthFaeces.label>대변</FilthFaeces.label>
   <RawSewage.label>오물</RawSewage.label>
+  <sewagePipeHidden.label>매립 배관</sewagePipeHidden.label>
+  <sewagePipeHidden.description>관을 연결할 수 있는 매립 배관입니다.</sewagePipeHidden.description>
+  <airPipeHidden.label>매립 에어컨 배관</airPipeHidden.label>
+  <airPipeHidden.description>에어컨의 각 유닛을 연결하기 위한 매립 배관입니다.</airPipeHidden.description>
+  <ToiletSpacer.description>물이 필요 없고, 모든 배설물을 하수 배출구를 통해 우주로 직접 배출하는 진공 변기입니다.</ToiletSpacer.description>
+  <ToiletSpacer.label>진공 변기</ToiletSpacer.label>
+  <SewageDumpPort.label>하수 배출구</SewageDumpPort.label>
+  <SewageDumpPort.description>우주선에서 사용하는 진공 밀폐 하수 배출구입니다. 진공 변기와 연결되면 폐기물을 안전하게 우주의 진공 공간으로 배출합니다.\n우주선 외벽에  설치해야 합니다.</SewageDumpPort.description>
+  <CryogenicExtractionNode.label>극저온 추출 노드</CryogenicExtractionNode.label>
+  <CryogenicExtractionNode.description>극저온 추출 노드는 소행성 지표 아래 갇힌 휘발성 얼음을 추출하고 승화시킵니다. 이 장비는 완전히 밀봉되어 있으며, 사용 가능한 물을 생산하고 상당한 열을 발생시킵니다. 따라서 밀폐된 환경에서 작동 시 주의해서 다루어야 합니다.</CryogenicExtractionNode.description>
+  <SpacerWaterRecoverySystem.label>생활하수 재처리 장치</SpacerWaterRecoverySystem.label>
+  <SpacerWaterRecoverySystem.description>샤워기와 세면대에서 사용된 물을 회수하고 재활용하는 고효율의 소형 재활용 노드입니다.</SpacerWaterRecoverySystem.description>
+  <WaterTankSmall.description>설비에서 사용될 물을 저장합니다. 저장된 물이 오염되면 배수해야합니다.</WaterTankSmall.description>
+  <WaterTankSmall.label>물 저장 모듈</WaterTankSmall.label>
 </LanguageData>
