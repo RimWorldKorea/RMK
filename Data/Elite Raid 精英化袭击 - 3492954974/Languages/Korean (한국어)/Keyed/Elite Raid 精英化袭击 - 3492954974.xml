@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <EliteLevelLabel>{0}급 정예병</EliteLevelLabel>
+  <EliteStats_Damage>피해량: </EliteStats_Damage>
+  <EliteStats_MoveSpeed>이동 속도: </EliteStats_MoveSpeed>
+  <EliteStats_Scale>크기: </EliteStats_Scale>
+  <EliteStats_Separator> | </EliteStats_Separator>
+  <TraitEnhancement>특성 강화:</TraitEnhancement>
+  <BossEnhancement>보스 강화:</BossEnhancement>
+  <TraitAddBioncis>생체공학 이식물</TraitAddBioncis>
+  <TraitAddDrug>약물 강화</TraitAddDrug>
+  <TraitRefineGear>장비 강화</TraitRefineGear>
+  <TraitArmorEnhance>방어구 강화</TraitArmorEnhance>
+  <TraitTemperatureResist>온도 저항</TraitTemperatureResist>
+  <TraitMeleeEnhance>근접 공격 강화</TraitMeleeEnhance>
+  <TraitRangedSpeedEnhance>원거리 공격 강화</TraitRangedSpeedEnhance>
+  <TraitMoveSpeedEnhance>이동 속도 강화</TraitMoveSpeedEnhance>
+  <TraitGiantEnhance>거대화</TraitGiantEnhance>
+  <TraitBodyPartEnhance>신체부위 강화</TraitBodyPartEnhance>
+  <TraitPainEnhance>고통 저항</TraitPainEnhance>
+  <TraitMoveSpeedResist>둔화 저항</TraitMoveSpeedResist>
+  <TraitConsciousnessEnhance>의식 강화</TraitConsciousnessEnhance>
+  <EliteRaidSettingsCategory>정예병 습격 설정</EliteRaidSettingsCategory>
+  <modEnabled>정예병 습격 활성화</modEnabled>
+  <modEnabledDesc>이 모드의 기능을 활성화/비활성화합니다.</modEnabledDesc>
+  <displayMessageValue>디버그 로그 표시</displayMessageValue>
+  <displayMessageValueDesc>로그에 상세한 디버그 정보를 표시합니다.</displayMessageValueDesc>
+  <eliteRaidDifficulty>정예병 강화 수준</eliteRaidDifficulty>
+  <eliteRaidDifficultyDesc>1 = 보통, 2 = 어려움, 3 = 극한</eliteRaidDifficultyDesc>
+  <allowRaidFriendlyValue>우호 집단 정예병 등장</allowRaidFriendlyValue>
+  <allowRaidFriendlyValueDesc>적대적이지 않은 세력에서도 정예병이 등장합니다.</allowRaidFriendlyValueDesc>
+  <allowMechanoidsValue>정예 메카노이드</allowMechanoidsValue>
+  <allowMechanoidsValueDesc>메카노이드 유닛의 강화를 허용합니다.</allowMechanoidsValueDesc>
+  <allowInsectoidsValue>곤충 습격</allowInsectoidsValue>
+  <allowInsectoidsValueDesc>곤충의 압축을 허용합니다. 강화되는 대신 개체수만 압축됩니다.</allowInsectoidsValueDesc>
+  <allowEntitySwarmValue>실체 습격</allowEntitySwarmValue>
+  <allowEntitySwarmValueDesc>실체 강화를 허용합니다. 살짐승은 개체수만 압축됩니다.</allowEntitySwarmValueDesc>
+  <allowAnimalsValue>동물 습격</allowAnimalsValue>
+  <allowAnimalsValueDesc>식인 동물 무리의 강화를 허용합니다.</allowAnimalsValueDesc>
+  <maxAllowLevel>정예병 최대 등급</maxAllowLevel>
+  <maxAllowLevelDesc>허용되는 최대 정예 등급 (0-7)</maxAllowLevelDesc>
+  <useCompressionRatio>압축 비율 사용</useCompressionRatio>
+  <useCompressionRatioDesc>활성화 시, 최대 개체수 대신 압축 비율을 사용합니다</useCompressionRatioDesc>
+  <compressionRatio>압축 비율</compressionRatio>
+  <compressionRatioDesc>\n적 개체수 압축 배율 (1.0-10.0). 예를 들어, 압축 배율이 3이면 적 78명은 26명으로 압축됩니다.\n최종 습격 적 개체수 계산 방식:\n1. 적 개체수 ≤ 압축 시작 수치: 압축 없음\n2. 압축 시작 수치 ≤ 적 개체수 ≤ 압축 시작 수치 × 압축 배율: 압축 시작 수치로 압축됨\n3. 압축 시작 수치 × 압축 배율 ≤ 적 개체수 ≤ 습격당 최대 적 개체수 × 압축 배율:\n압축된 적 개체수 = 적 개체수 ÷ 압축 배율 (결과값은 압축 시작 수치 이상, 습격당 최대 적 개체수 이하)\n4. 적 개체수 ≥ 습격당 최대 적 개체수 × 압축 배율: 압축된 적 개체수 = 습격당 최대 적 개체수\n예시: 습격당 최대 적 개체수 60, 압축 배율 3, 압축 시작 수치 20\n1. 적 개체수 ≤ 압축 시작 수치 (20): 압축 없음\n2. 20 ≤ 적 개체수 ≤ 20 × 3 = 60: 압축된 적 개체수: 20\n7. 60 ≤ 적 개체수 ≤ 60 × 3 = 180: 적 개체수가 80명일 경우, 압축된 적 개체수 = 80 ÷ 3 = 26\n8. 180 ≤ 적 개체수: 압축된 적 개체수: 60</compressionRatioDesc>
+  <maxRaidEnemy>습격당 최대 적 개체수</maxRaidEnemy>
+  <maxRaidEnemyDesc>\n한 번의 습격에 등장하는 적의 최대 숫자를 설정합니다. (20-200)\n최종 습격 적 개체수 계산 방식:\n1. 적 개체수 ≤ 압축 시작 수치: 압축 없음\n2. 압축 시작 수치 ≤ 적 개체수 ≤ 압축 시작 수치 × 압축 배율: 압축 시작 수치로 압축됨\n3. 압축 시작 수치 × 압축 배율 ≤ 적 개체수 ≤ 습격당 최대 적 개체수 × 압축 배율:\n압축된 적 개체수 = 적 개체수 ÷ 압축 배율 (결과값은 압축 시작 수치 이상, 습격당 최대 적 개체수 이하)\n4. 적 개체수 ≥ 습격당 최대 적 개체수 × 압축 배율: 압축된 적 개체수 = 습격당 최대 적 개체수\n예시: 습격당 최대 적 개체수 60, 압축 배율 3, 압축 시작 수치 20\n1. 적 개체수 ≤ 압축 시작 수치 (20): 압축 없음\n2. 20 ≤ 적 개체수 ≤ 20 × 3 = 60: 압축된 적 개체수: 20\n3. 60 ≤ 적 개체수 ≤ 60 × 3 = 180: 적 개체수가 80명일 경우, 압축된 적 개체수 = 80 ÷ 3 = 26\n4. 180 ≤ 적 개체수: 압축된 적 개체수: 60</maxRaidEnemyDesc>
+  <enableSilverDrop>정예병 은 드랍</enableSilverDrop>
+  <enableSilverDropDesc>정예병 처치 시 등급에 따라 은을 드랍합니다.</enableSilverDropDesc>
+  <silverDropPerLevel>등급당 드랍량</silverDropPerLevel>
+  <silverDropPerLevelDesc>정예병 등급당 드랍되는 은화의 양 (20-100)</silverDropPerLevelDesc>
+  <mapGeneratedEnemyEnhanced>기존 적 강화 (구버전)</mapGeneratedEnemyEnhanced>
+  <mapGeneratedEnemyEnhancedDesc>맵에 이미 생성된 적에게 정예 강화를 적용합니다 (구버전)</mapGeneratedEnemyEnhancedDesc>
+  <ResetToDefault>설정 초기화</ResetToDefault>
+  <BasicSettings>기본 설정</BasicSettings>
+  <AllowedPawnTypes>강화 허용 유닛 유형</AllowedPawnTypes>
+  <ValueLimits>값 제한</ValueLimits>
+  <Difficulty_Normal>보통</Difficulty_Normal>
+  <Difficulty_Hard>어려움</Difficulty_Hard>
+  <Difficulty_Extreme>극한</Difficulty_Extreme>
+  <MaxRaidPoint>최대 습격 포인트</MaxRaidPoint>
+  <MaxRaidPointDesc>최대 습격 포인트를 조절합니다. 바닐라의 습격 포인트 한도는 1만입니다. 1만 포인트 습격을 무리 없이 막아낸다면 이 값을 높이는 것을 고려해보세요.</MaxRaidPointDesc>
+  <ShowDetailConfig>상세 설정 보기</ShowDetailConfig>
+  <ShowDetailConfigDesc>체크 해제해도 상세 설정은 적용됩니다!</ShowDetailConfigDesc>
+  <DragToSelectDifficulty>드롭다운 메뉴에서 전체 난이도를 선택하세요</DragToSelectDifficulty>
+  <TotalDifficulty>전체 난이도 설정</TotalDifficulty>
+  <allowDropPodRaidValue>수송 포드 습격 강화 허용</allowDropPodRaidValue>
+  <allowDropPodRaidValueDesc>수송 포드로 도착하는 습격에 정예 강화를 허용할지 여부 (적 개체수 압축에는 영향을 주지 않음)</allowDropPodRaidValueDesc>
+  <RaidScale>습격 규모</RaidScale>
+  <RaidScaleDesc>습격 규모를 조절합니다. 값이 높을수록 습격이 어려워집니다. 예를 들어, 100%일 때 1명이 온다면 200%일 때는 2명이 옵니다.</RaidScaleDesc>
+  <Difficulty_Novice>자유민</Difficulty_Novice>
+  <Difficulty_Retainer>종사</Difficulty_Retainer>
+  <Difficulty_Knight>항사</Difficulty_Knight>
+  <Difficulty_Justiciar>기사</Difficulty_Justiciar>
+  <Difficulty_Lord>영사</Difficulty_Lord>
+  <Difficulty_Viceroy>남작</Difficulty_Viceroy>
+  <Difficulty_Governor>백작</Difficulty_Governor>
+  <Difficulty_Duke>공작</Difficulty_Duke>
+  <Difficulty_Despot>총독</Difficulty_Despot>
+  <Difficulty_GrandDuke>항성군주</Difficulty_GrandDuke>
+  <Difficulty_Consul>황제</Difficulty_Consul>
+  <Difficulty_General>특수 난이도: 압축률 3</Difficulty_General>
+  <Difficulty_GuardCommander>특수 난이도: 압축률 4</Difficulty_GuardCommander>
+  <Difficulty_GalaxyLord>특수 난이도: 압축률 5</Difficulty_GalaxyLord>
+  <Difficulty_StarOverlord>설정 예시: 적 개체수 제한</Difficulty_StarOverlord>
+  <Difficulty_GalaxyEmperor>설정 예시: 습격 규모만 조절</Difficulty_GalaxyEmperor>
+  <DifficultyFactor_0_4>난이도 계수 0.3</DifficultyFactor_0_4>
+  <DifficultyFactor_0_7>난이도 계수 0.6</DifficultyFactor_0_7>
+  <DifficultyFactor_1>난이도 계수 1</DifficultyFactor_1>
+  <DifficultyFactor_1_3>난이도 계수 1.3</DifficultyFactor_1_3>
+  <DifficultyFactor_1_6>난이도 계수 1.6</DifficultyFactor_1_6>
+  <DifficultyFactor_2>난이도 계수 2</DifficultyFactor_2>
+  <DifficultyFactor_2_4>난이도 계수 3</DifficultyFactor_2_4>
+  <DifficultyFactor_3_9>난이도 계수 3.9</DifficultyFactor_3_9>
+  <DifficultyFactor_6_4>난이도 계수 6.4</DifficultyFactor_6_4>
+  <DifficultyFactor_10>난이도 계수 10</DifficultyFactor_10>
+  <DifficultyFactor_16>난이도 계수 16</DifficultyFactor_16>
+  <DifficultyFactor_32>난이도 계수 1</DifficultyFactor_32>
+  <DifficultyFactor_54>난이도 계수 2</DifficultyFactor_54>
+  <DifficultyFactor_72>난이도 계수 3</DifficultyFactor_72>
+  <DifficultyFactor_100>난이도 계수 0.3</DifficultyFactor_100>
+  <DifficultyFactor_200>난이도 계수 2</DifficultyFactor_200>
+  <Difficulty_Novice_Desc>난이도: 자유민, 계수 {0}. 바닐라 '길 잃은 탐험가' 난이도에 해당합니다. 적 개체수 1-20, 최대 등급 3. 입문자에게 완벽하게 균형 잡힌 난이도입니다.</Difficulty_Novice_Desc>
+  <Difficulty_Retainer_Desc>난이도: 종사, 계수 {0}. 기본 난이도로, 바닐라 '거친 야생'보다 약간 어렵습니다. 적 개체수 1-25, 최대 등급 4. 도전을 즐기는 숙련자에게 적합합니다.</Difficulty_Retainer_Desc>
+  <Difficulty_Knight_Desc>난이도: 항사, 계수 {0}. 바닐라 '무자비' 난이도에 해당합니다. 적 개체수 1-30, 최대 등급 5. 대부분의 적이 정예 3등급입니다. 극한의 도전을 추구하는 숙련자에게 적합합니다.</Difficulty_Knight_Desc>
+  <Difficulty_Justiciar_Desc>난이도: 기사, 계수 {0}. 무자비+ 난이도입니다. 적 개체수 1-30, 최대 등급 6. 대부분의 적이 정예 3등급입니다. 극한의 도전을 추구하는 숙련자에게 적합합니다.</Difficulty_Justiciar_Desc>
+  <Difficulty_Lord_Desc>난이도: 영사 계수 {0}. 무자비++ 난이도입니다. 적 개체수 1-35, 최대 등급 7. 초능력 면역 보스 적이 포함될 수 있습니다. 대부분의 적이 정예 3-4등급입니다. 극한의 도전을 추구하는 숙련자에게 적합합니다.</Difficulty_Lord_Desc>
+  <Difficulty_Viceroy_Desc>난이도: 남작, 계수 {0}. 무자비 500% 난이도입니다. 적 개체수 1-40, 모든 정예 등급이 등장합니다. 초능력 면역 보스 적이 포함될 수 있습니다. 대부분의 적이 정예 3-4등급입니다. 극한의 도전을 추구하는 숙련자에게 적합합니다.</Difficulty_Viceroy_Desc>
+  <Difficulty_Governor_Desc>난이도: 백작, 계수 {0}. 무자비 500%+ 난이도입니다. 적 개체수 1-45, 모든 정예 등급이 등장합니다. 초능력 면역 보스 적이 포함될 수 있습니다. 대부분의 적이 정예 4-5등급입니다. 극한의 도전을 추구하는 숙련자에게 적합합니다.</Difficulty_Governor_Desc>
+  <Difficulty_Duke_Desc>난이도: 공작, 계수 {0}. 무자비 1000% 난이도입니다. 적 개체수 1-50, 모든 정예 등급이 등장합니다. 초능력 면역 보스 적이 포함될 수 있습니다. 대부분의 적이 정예 4-5등급입니다. 극한의 도전을 추구하는 숙련자에게 적합합니다.</Difficulty_Duke_Desc>
+  <Difficulty_Despot_Desc>난이도: 총독, 계수 {0}. 습격 배율 1400%입니다. 적 개체수 1-60, 모든 정예 등급이 등장합니다. 초능력 면역 보스 적이 포함될 수 있습니다. 대부분의 적이 정예 5-6등급입니다. 극한의 도전을 추구하는 숙련자에게 적합합니다.</Difficulty_Despot_Desc>
+  <Difficulty_GrandDuke_Desc>난이도: 항성군주, 계수 {0}. 습격 배율 2000%입니다. 적 개체수 1-70, 모든 정예 등급이 등장합니다. 초능력 면역 보스 적이 포함될 수 있습니다. 대부분의 적이 정예 5-6등급입니다. 극한의 도전을 추구하는 숙련자에게 적합합니다.</Difficulty_GrandDuke_Desc>
+  <Difficulty_Consul_Desc>난이도: 황제, 계수 {0}. 습격 배율 3500%입니다. 적 개체수 1-80, 모든 정예 등급이 등장합니다. 초능력 면역 보스 적이 포함될 수 있습니다. 대부분의 적이 정예 6-7등급입니다. 극한의 도전을 추구하는 숙련자에게 적합합니다.</Difficulty_Consul_Desc>
+  <Difficulty_General_Desc>특수 난이도: 압축률 3, 계수 {0}. 적 개체수 1-200. 압축률을 사용하여 습격 인원을 원래의 1/3로 줄입니다. 더 나은 게임 밸런스를 위해 적 개체수 제한이 없습니다.</Difficulty_General_Desc>
+  <Difficulty_GuardCommander_Desc>특수 난이도: 압축률 4, 계수 {0}. 적 개체수 1-200. 압축률을 사용하여 습격 인원을 원래의 1/4로 줄입니다. 더 나은 게임 밸런스를 위해 적 개체수 제한이 없습니다.</Difficulty_GuardCommander_Desc>
+  <Difficulty_GalaxyLord_Desc>특수 난이도: 압축률 5, 계수 {0}. 적 개체수 1-200. 압축률을 사용하여 습격 인원을 원래의 1/5로 줄입니다. 더 나은 게임 밸런스를 위해 적 개체수 제한이 없습니다.</Difficulty_GalaxyLord_Desc>
+  <Difficulty_StarOverlord_Desc>설정 예시: 적 개체수 제한, 계수 {0}. 이 예시는 단순히 적 개체수를 제한하여 게임의 전투 프레임을 최적화하는 방법을 보여줍니다. 정예 강화 없이 적을 50명으로 제한합니다.</Difficulty_StarOverlord_Desc>
+  <Difficulty_GalaxyEmperor_Desc>설정 예시: 습격 규모만 조절, 계수 {0}. 이 예시는 정예 등급이나 압축 없이 습격 규모와 포인트 한도만 조절하는 방법을 보여줍니다.</Difficulty_GalaxyEmperor_Desc>
+  <AllowModBionicsAndDrugs>모드 약물 및 생체공학 허용 (재시작 필요)</AllowModBionicsAndDrugs>
+  <AllowModBionicsAndDrugsDesc>모드에서 추가된 약물 및 생체공학을 사용하여 유닛을 강화합니다. (게임 재시작 필요)</AllowModBionicsAndDrugsDesc>
+  <CR_RaidCompressedMassageEnhanced>습격 인원이 {0}명에서 {1}명으로 압축되었고, 그중 {3}명이 강화되었습니다. (기본 배율: {2}배)</CR_RaidCompressedMassageEnhanced>
+  <CR_RaidCompressedMassageNotEnhanced>습격 인원이 {0}명에서 {1}명으로 압축되었습니다.</CR_RaidCompressedMassageNotEnhanced>
+  <CR_InfoExcludedDrugs>[정예 습격] 정보: 다음 약물은 "약물 효과 추가"에서 제외됩니다.</CR_InfoExcludedDrugs>
+  <CR_InfoMustNegativeEffectDrugs>[정예 습격] 정보: 다음 약물은 "부정적 효과 방지"를 무시하고 항상 부정적 효과를 적용합니다.</CR_InfoMustNegativeEffectDrugs>
+  <showRaidMessages>습격 경고 보기</showRaidMessages>
+  <showRaidMessagesDesc>습격 경고를 봅니다. 기본적으로 활성화되어 있습니다.</showRaidMessagesDesc>
+  <StartCompressNum>압축 시작 인원</StartCompressNum>
+  <StartCompressNumDesc>습격 인원이 이 숫자를 넘어갈 때 압축을 시작합니다.</StartCompressNumDesc>
+</LanguageData>

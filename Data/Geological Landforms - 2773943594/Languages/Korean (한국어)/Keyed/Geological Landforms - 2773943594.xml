@@ -83,34 +83,6 @@
   <GeologicalLandforms.Rot4.Double.3>북서부</GeologicalLandforms.Rot4.Double.3>
   <GeologicalLandforms.Landform.Corner>(모서리)</GeologicalLandforms.Landform.Corner>
   <GeologicalLandforms.Integration.PrepareLanding.Title>Geological Landforms(지질학적 지형)</GeologicalLandforms.Integration.PrepareLanding.Title>
-  <HugsLogPublisher.copy>복사</HugsLogPublisher.copy>
-  <HugsLogPublisher.shareBtn>로그 공유</HugsLogPublisher.shareBtn>
-  <HugsLogPublisher.shareConfirmTitle>확인</HugsLogPublisher.shareConfirmTitle>
-  <HugsLogPublisher.shareConfirmMessage>지금 게임 로그를 업로드하시겠습니까?\n\n게임 로그를 공개 서버에 게시하고 다른 사람들과 공유할 수 있는 링크를 제공합니다. 문제 해결에 도움이 필요하거나 모드 제작자에게 문제를 신고하려는 경우 유용합니다.\n\n개인 정보는 공유되지 않습니다.</HugsLogPublisher.shareConfirmMessage>
-  <HugsLogPublisher.publisherTitle>로그 게시자</HugsLogPublisher.publisherTitle>
-  <HugsLogPublisher.uploading>{0} 업로드 중</HugsLogPublisher.uploading>
-  <HugsLogPublisher.shortening>{0} 링크 가져오기</HugsLogPublisher.shortening>
-  <HugsLogPublisher.uploaded>업로드 완료!</HugsLogPublisher.uploaded>
-  <HugsLogPublisher.uploadError>업로드 오류: {0}</HugsLogPublisher.uploadError>
-  <HugsLogPublisher.copiedToClipboard>클립보드에 복사되었습니다.</HugsLogPublisher.copiedToClipboard>
-  <HugsLogPublisher.abortBtn>중단</HugsLogPublisher.abortBtn>
-  <HugsLogPublisher.retryBtn>재시도</HugsLogPublisher.retryBtn>
-  <HugsLogPublisher.browseBtn>브라우저에서 열기</HugsLogPublisher.browseBtn>
-  <HugsLogPublisher.useRecommendedSettings>권장 설정 사용</HugsLogPublisher.useRecommendedSettings>
-  <HugsLogPublisher.shortUrls>URL 단축기 사용</HugsLogPublisher.shortUrls>
-  <HugsLogPublisher.shortUrls_tip>업로드할 때 더 짧은 링크를 생성합니다. Steam에서는 권장하지 않음-짧은 링크는 자동으로 제거됩니다.</HugsLogPublisher.shortUrls_tip>
-  <HugsLogPublisher.platformInfo>플랫폼 정보 포함</HugsLogPublisher.platformInfo>
-  <HugsLogPublisher.platformInfo_tip>로그에 CPU, 메모리 및 비디오 카드에 대한 정보를 포함합니다.</HugsLogPublisher.platformInfo_tip>
-  <HugsLogPublisher.unlimitedLogSize>로그 크기를 무제한으로 허용</HugsLogPublisher.unlimitedLogSize>
-  <HugsLogPublisher.unlimitedLogSize_tip>비활성화하면 매우 긴 로그가 문제를 일으키지 않도록 로그 크기가 10K 줄로 제한됩니다.</HugsLogPublisher.unlimitedLogSize_tip>
-  <HugsLogPublisher.githubToken>액세스 토큰</HugsLogPublisher.githubToken>
-  <HugsLogPublisher.githubToken_tip>설정 시 자신의 GitHub 계정에 로그를 게시합니다. GitHub &gt; 설정 &gt; 개발자 설정 &gt; 개인 액세스 토큰에서 토큰을 붙여넣습니다. 공개 HugsLib 계정에 게시하려면 비워둡니다.\n\n귀하의 계정에 게시된 로그는 링크를 통해서만 다른 사람이 볼 수 있습니다.</HugsLogPublisher.githubToken_tip>
-  <HugsLogPublisher.toClipboardBtn>클립보드에</HugsLogPublisher.toClipboardBtn>
-  <HugsLogPublisher.uploadBtn>업로드</HugsLogPublisher.uploadBtn>
-  <HugsLogPublisher.filesBtn>파일</HugsLogPublisher.filesBtn>
-  <HugsLogPublisher.openLogFile>로그 파일 열기</HugsLogPublisher.openLogFile>
-  <HugsLogPublisher.openSaveDir>저장 폴더 열기</HugsLogPublisher.openSaveDir>
-  <HugsLogPublisher.openModsDir>모드 폴더 열기</HugsLogPublisher.openModsDir>
   <GeologicalLandforms.Settings.Tab.General>일반</GeologicalLandforms.Settings.Tab.General>
   <GeologicalLandforms.Settings.Tab.Landforms>지형들</GeologicalLandforms.Settings.Tab.Landforms>
   <GeologicalLandforms.Settings.Tab.BiomeConfig>생물군계 구성</GeologicalLandforms.Settings.Tab.BiomeConfig>
@@ -241,4 +213,13 @@
   <GeologicalLandforms.Landform.RiverDelta>삼각주</GeologicalLandforms.Landform.RiverDelta>
   <GeologicalLandforms.Landform.Gorge>협곡</GeologicalLandforms.Landform.Gorge>
   <GeologicalLandforms.Landform.Glacier>빙하</GeologicalLandforms.Landform.Glacier>
+  <GeologicalLandforms.Settings.Landforms.ReplacesMutator>{1}의 "{0}" 지역 특징을 대체합니다</GeologicalLandforms.Settings.Landforms.ReplacesMutator>
+  <GeologicalLandforms.Settings.Landforms.MadeObsoleteByMutator>{1}의 "{0}" 지역 특징으로 인해 불필요해졌습니다</GeologicalLandforms.Settings.Landforms.MadeObsoleteByMutator>
+  <GeologicalLandforms.Settings.Landforms.Subheader.GeologicalLandforms>지질 지형</GeologicalLandforms.Settings.Landforms.Subheader.GeologicalLandforms>
+  <GeologicalLandforms.Settings.Landforms.ExclusionToLandform>알림: 방금 활성화한 "{0}" 지형이 {2}의 "{1}" 지역 특징과 충돌하므로, 해당 {2} 지역 특징이 자동으로 비활성화되었습니다.</GeologicalLandforms.Settings.Landforms.ExclusionToLandform>
+  <GeologicalLandforms.Settings.Landforms.ExclusionToMutator>알림: 방금 활성화한 {2}의 "{1}" 지역 특징이 "{0}" 지형과 충돌하므로, 해당 "{0}" 지형이 자동으로 비활성화되었습니다.</GeologicalLandforms.Settings.Landforms.ExclusionToMutator>
+  <GeologicalLandforms.WorldMap.FeatureLabelBiomeTransition>생물군계 전이</GeologicalLandforms.WorldMap.FeatureLabelBiomeTransition>
+  <GeologicalLandforms.WorldMap.FeatureDescriptionBiomeTransition>인접한 지역의 생물군계가 이 지역의 일부를 덮습니다.</GeologicalLandforms.WorldMap.FeatureDescriptionBiomeTransition>
+  <GeologicalLandforms.WorldMap.FeatureDescriptionLandform>{0} 모드에서 추가된 지형입니다.</GeologicalLandforms.WorldMap.FeatureDescriptionLandform>
+  <GeologicalLandforms.WorldMap.FindLandformPrefix>(지형)</GeologicalLandforms.WorldMap.FindLandformPrefix>
 </LanguageData>
