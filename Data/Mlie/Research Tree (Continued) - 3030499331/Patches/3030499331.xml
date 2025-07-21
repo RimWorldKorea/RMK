@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>##packageId##andery233xj.mod.BetterResearchTabs</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MainButtonDef[defName="BetterResearchTab"]/label</xpath>
+          <value>
+            <label>연구</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MainButtonDef[defName="BetterResearchTab"]/description</xpath>
+          <value>
+            <description>가능한 연구 목록을 확인하고 연구과제를 정합니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>##packageId##Mlie.OrganizedResearchTab</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MainButtonDef[defName="OrganizedResearchTab"]/label</xpath>
+          <value>
+            <label>연구</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MainButtonDef[defName="OrganizedResearchTab"]/description</xpath>
+          <value>
+            <description>가능한 연구 목록을 확인하고 연구과제를 정합니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
