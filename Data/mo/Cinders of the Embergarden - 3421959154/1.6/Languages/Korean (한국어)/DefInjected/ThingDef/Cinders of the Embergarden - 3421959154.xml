@@ -353,10 +353,6 @@
 또한, 폐쇄 구역 내부에 갇힌 생존자들, 즉 전쟁과 ‘각성’을 가까스로 견뎌낸 자들이 비인간적인 변이를 일으켰다.
 
 오늘날 학계는 이 변이한 인간들이 최초의 ‘신더(Cinder)’였다고 만장일치로 보고 있다.</Alien_Cinder.description>
-  <Alien_Cinder.alienRace.generalSettings.alienPartGenerator.offsetDefaults.1.name>신더 지느러미</Alien_Cinder.alienRace.generalSettings.alienPartGenerator.offsetDefaults.1.name>
-  <Alien_Cinder.alienRace.generalSettings.alienPartGenerator.offsetDefaults.0.name>신더 촉수</Alien_Cinder.alienRace.generalSettings.alienPartGenerator.offsetDefaults.0.name>
-  <Alien_Cinder.alienRace.generalSettings.alienPartGenerator.bodyAddons.1.name>촉수</Alien_Cinder.alienRace.generalSettings.alienPartGenerator.bodyAddons.1.name>
-  <Alien_Cinder.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>신더 지느러미</Alien_Cinder.alienRace.generalSettings.alienPartGenerator.bodyAddons.0.name>
   <Cinder_erodedKrepostBuliding.label>침식된 크레포스트(비활성화)</Cinder_erodedKrepostBuliding.label>
   <Cinder_erodedKrepostBuliding.description>6M41 / BR-6 "크레포스트," NATO 코드명 "탱크헤드."
 거대하고 육중한 워커로, 전선에서 교두보를 확보하고 기동 포대로서 화력을 유지하는 역할을 합니다. 크레포스트는 여러 종류의 능동 방호 시스템과 반응 장갑을 갖추고 있어 날아오는 포탄을 방어할 수 있습니다. 설령 방호막이 소진되더라도, 거대한 체격과 강력한 무장만으로도 적의 공세를 버텨내며 아군 증원이 도착할 때까지 전선을 유지할 수 있습니다.\n\n활성화 하려면 메카나이터가 필요합니다.</Cinder_erodedKrepostBuliding.description>
@@ -384,42 +380,156 @@
   <Cinder_PEG.label>가소성 폭탄</Cinder_PEG.label>
   <Cinder_PEG.description>폴리머로 만든 고에너지 폭약으로, 시설이나 방어 건물을 효과적으로 파괴할 수 있습니다.</Cinder_PEG.description>
   <Cinder_PEG.verbs.Verb_ShootCEOneUse.label>가소성 폭탄 투척</Cinder_PEG.verbs.Verb_ShootCEOneUse.label>
-  <Cinder_ErosionAgent.comps.0.useLabel>{0_label} 사용</Cinder_ErosionAgent.comps.0.useLabel>
-  <Cinder_RegeneratedEnhancedSerum.comps.0.useLabel>{0_label} 사용</Cinder_RegeneratedEnhancedSerum.comps.0.useLabel>
-  <Cinder_EmptyAgentBottle.comps.0.completedLetterLabel>빈 약제 병 분석 완료: {RESEARCH} 잠금 해제</Cinder_EmptyAgentBottle.comps.0.completedLetterLabel>
-  <Cinder_EmptyAgentBottle.comps.0.completedLetter>{PAWN_labelShort}(이)가 빈 약제 병을 분석함으로써 {RESEARCH} 연구에 필요한 지식을 얻었습니다.\n\n이제 정착민들이 이 기술의 활용법을 연구할 수 있습니다.</Cinder_EmptyAgentBottle.comps.0.completedLetter>
+  <Cinder_EmptyAgentBottle.comps.0.completedLetterLabel>빈 약제 병 분석 완료: {RESEARCH} 잠금 해제'</Cinder_EmptyAgentBottle.comps.0.completedLetterLabel>
+  <Cinder_EmptyAgentBottle.comps.0.completedLetter>2025-07-24에 삭제됨. 삭제 이전 번역문: '{PAWN_labelShort}(이)가 빈 약제 병을 분석함으로써 {RESEARCH} 연구에 필요한 지식을 얻었습니다.\n\n이제 정착민들이 이 기술의 활용법을 연구할 수 있습니다.'</Cinder_EmptyAgentBottle.comps.0.completedLetter>
   <Cinder_EmptyAgentBottle.comps.0.activateLabelString>분석...</Cinder_EmptyAgentBottle.comps.0.activateLabelString>
-  <Cinder_EmptyAgentBottle.comps.0.activateDescString>빈 약제 병을 분석합니다.</Cinder_EmptyAgentBottle.comps.0.activateDescString>
+  <Cinder_EmptyAgentBottle.comps.0.activateDescString>빈 약제 병을 분석합니다.'</Cinder_EmptyAgentBottle.comps.0.activateDescString>
   <Cinder_EmptyAgentBottle.comps.0.jobString>빈 약제 병 분석</Cinder_EmptyAgentBottle.comps.0.jobString>
-  <Cinder_EmptyAgentBottle.comps.0.guiLabelString>분석할 사람을 선택하세요</Cinder_EmptyAgentBottle.comps.0.guiLabelString>
-  <Cinder_EmptyAgentBottle.comps.0.inspectString>정착민에 의해 분석 가능.</Cinder_EmptyAgentBottle.comps.0.inspectString>
-  <Cinder_ErodedMechComponent.comps.0.completedLetterLabel>침식된 메카 부품 분석 완료: {RESEARCH} 잠금 해제</Cinder_ErodedMechComponent.comps.0.completedLetterLabel>
-  <Cinder_ErodedMechComponent.comps.0.completedLetter>{PAWN_labelShort}(이)가 침식된 메카 부품을 분석함으로써 {RESEARCH} 연구에 필요한 지식을 얻었습니다.\n\n이제 정착민들이 이 기술의 활용법을 연구할 수 있습니다.</Cinder_ErodedMechComponent.comps.0.completedLetter>
-  <Cinder_ErodedMechComponent.comps.0.activateLabelString>분석...</Cinder_ErodedMechComponent.comps.0.activateLabelString>
-  <Cinder_ErodedMechComponent.comps.0.activateDescString>침식된 메카 부품을 분석합니다.</Cinder_ErodedMechComponent.comps.0.activateDescString>
-  <Cinder_ErodedMechComponent.comps.0.jobString>침식된 메카 부품 분석</Cinder_ErodedMechComponent.comps.0.jobString>
-  <Cinder_ErodedMechComponent.comps.0.guiLabelString>분석할 사람을 선택하세요</Cinder_ErodedMechComponent.comps.0.guiLabelString>
-  <Cinder_ErodedMechComponent.comps.0.inspectString>정착민에 의해 분석 가능.</Cinder_ErodedMechComponent.comps.0.inspectString>
-  <Cinder_AmorphousNeuralSpine.comps.0.completedLetterLabel>무정형 신경 척추 분석 완료: {RESEARCH} 잠금 해제</Cinder_AmorphousNeuralSpine.comps.0.completedLetterLabel>
-  <Cinder_AmorphousNeuralSpine.comps.0.completedLetter>{PAWN_labelShort}(이)가 무정형 신경 척추를 분석함으로써 {RESEARCH} 연구에 필요한 지식을 얻었습니다.\n\n이제 정착민들이 이 기술의 활용법을 연구할 수 있습니다.</Cinder_AmorphousNeuralSpine.comps.0.completedLetter>
-  <Cinder_AmorphousNeuralSpine.comps.0.activateLabelString>분석...</Cinder_AmorphousNeuralSpine.comps.0.activateLabelString>
-  <Cinder_AmorphousNeuralSpine.comps.0.activateDescString>무정형 신경 척추를 분석합니다.</Cinder_AmorphousNeuralSpine.comps.0.activateDescString>
-  <Cinder_AmorphousNeuralSpine.comps.0.jobString>무정형 신경 척추 분석</Cinder_AmorphousNeuralSpine.comps.0.jobString>
-  <Cinder_AmorphousNeuralSpine.comps.0.guiLabelString>분석할 사람을 선택하세요</Cinder_AmorphousNeuralSpine.comps.0.guiLabelString>
-  <Cinder_AmorphousNeuralSpine.comps.0.inspectString>정착민에 의해 분석 가능.</Cinder_AmorphousNeuralSpine.comps.0.inspectString>
-  <Cinder_ExtraArmour.comps.0.useLabel>{0_label} 사용</Cinder_ExtraArmour.comps.0.useLabel>
-  <Cinder_ExtraArmour.comps.4.completedLetterLabel>추가 장갑판 분석 완료: {RESEARCH} 잠금 해제</Cinder_ExtraArmour.comps.4.completedLetterLabel>
-  <Cinder_ExtraArmour.comps.4.completedLetter>{PAWN_labelShort}(이)가 추가 장갑판을 분석함으로써 {RESEARCH} 연구에 필요한 지식을 얻었습니다.\n\n이제 정착민들이 이 기술의 활용법을 연구할 수 있습니다.</Cinder_ExtraArmour.comps.4.completedLetter>
-  <Cinder_ExtraArmour.comps.4.activateLabelString>분석...</Cinder_ExtraArmour.comps.4.activateLabelString>
-  <Cinder_ExtraArmour.comps.4.activateDescString>추가 장갑판을 분석합니다.</Cinder_ExtraArmour.comps.4.activateDescString>
-  <Cinder_ExtraArmour.comps.4.jobString>추가 장갑판 분석</Cinder_ExtraArmour.comps.4.jobString>
-  <Cinder_ExtraArmour.comps.4.guiLabelString>분석할 사람을 선택하세요</Cinder_ExtraArmour.comps.4.guiLabelString>
-  <Cinder_ExtraArmour.comps.4.inspectString>정착민에 의해 분석 가능.</Cinder_ExtraArmour.comps.4.inspectString>
-  <Cinder_HeavyExtraArmour.comps.0.useLabel>{0_label} 사용</Cinder_HeavyExtraArmour.comps.0.useLabel>
-  <Cinder_Dragonslayer.comps.0.description>무기 형태 전환</Cinder_Dragonslayer.comps.0.description>
+  <Cinder_EmptyAgentBottle.comps.0.guiLabelString>분석할 사람을 선택하세요'</Cinder_EmptyAgentBottle.comps.0.guiLabelString>
+  <Cinder_EmptyAgentBottle.comps.0.inspectString>2025-07-24에 삭제됨. 삭제 이전 번역문: '정착민에 의해 분석 가능.'</Cinder_EmptyAgentBottle.comps.0.inspectString>
+  <Cinder_ErodedMechComponent.comps.0.completedLetterLabel>2025-07-24에 삭제됨. 삭제 이전 번역문: '침식된 메카 부품 분석 완료: {RESEARCH} 잠금 해제'</Cinder_ErodedMechComponent.comps.0.completedLetterLabel>
+  <Cinder_ErodedMechComponent.comps.0.completedLetter>2025-07-24에 삭제됨. 삭제 이전 번역문: '{PAWN_labelShort}(이)가 침식된 메카 부품을 분석함으로써 {RESEARCH} 연구에 필요한 지식을 얻었습니다.\n\n이제 정착민들이 이 기술의 활용법을 연구할 수 있습니다.'</Cinder_ErodedMechComponent.comps.0.completedLetter>
+  <Cinder_ErodedMechComponent.comps.0.activateLabelString>2025-07-24에 삭제됨. 삭제 이전 번역문: '분석...'</Cinder_ErodedMechComponent.comps.0.activateLabelString>
+  <Cinder_ErodedMechComponent.comps.0.activateDescString>2025-07-24에 삭제됨. 삭제 이전 번역문: '침식된 메카 부품을 분석합니다.'</Cinder_ErodedMechComponent.comps.0.activateDescString>
+  <Cinder_ErodedMechComponent.comps.0.jobString>2025-07-24에 삭제됨. 삭제 이전 번역문: '침식된 메카 부품 분석'</Cinder_ErodedMechComponent.comps.0.jobString>
+  <Cinder_ErodedMechComponent.comps.0.guiLabelString>2025-07-24에 삭제됨. 삭제 이전 번역문: '분석할 사람을 선택하세요'</Cinder_ErodedMechComponent.comps.0.guiLabelString>
+  <Cinder_ErodedMechComponent.comps.0.inspectString>2025-07-24에 삭제됨. 삭제 이전 번역문: '정착민에 의해 분석 가능.'</Cinder_ErodedMechComponent.comps.0.inspectString>
+  <Cinder_AmorphousNeuralSpine.comps.0.completedLetterLabel>2025-07-24에 삭제됨. 삭제 이전 번역문: '무정형 신경 척추 분석 완료: {RESEARCH} 잠금 해제'</Cinder_AmorphousNeuralSpine.comps.0.completedLetterLabel>
+  <Cinder_AmorphousNeuralSpine.comps.0.completedLetter>2025-07-24에 삭제됨. 삭제 이전 번역문: '{PAWN_labelShort}(이)가 무정형 신경 척추를 분석함으로써 {RESEARCH} 연구에 필요한 지식을 얻었습니다.\n\n이제 정착민들이 이 기술의 활용법을 연구할 수 있습니다.'</Cinder_AmorphousNeuralSpine.comps.0.completedLetter>
+  <Cinder_AmorphousNeuralSpine.comps.0.activateLabelString>2025-07-24에 삭제됨. 삭제 이전 번역문: '분석...'</Cinder_AmorphousNeuralSpine.comps.0.activateLabelString>
+  <Cinder_AmorphousNeuralSpine.comps.0.activateDescString>2025-07-24에 삭제됨. 삭제 이전 번역문: '무정형 신경 척추를 분석합니다.'</Cinder_AmorphousNeuralSpine.comps.0.activateDescString>
+  <Cinder_AmorphousNeuralSpine.comps.0.jobString>2025-07-24에 삭제됨. 삭제 이전 번역문: '무정형 신경 척추 분석'</Cinder_AmorphousNeuralSpine.comps.0.jobString>
+  <Cinder_AmorphousNeuralSpine.comps.0.guiLabelString>2025-07-24에 삭제됨. 삭제 이전 번역문: '분석할 사람을 선택하세요'</Cinder_AmorphousNeuralSpine.comps.0.guiLabelString>
+  <Cinder_AmorphousNeuralSpine.comps.0.inspectString>2025-07-24에 삭제됨. 삭제 이전 번역문: '정착민에 의해 분석 가능.'</Cinder_AmorphousNeuralSpine.comps.0.inspectString>
+  <Cinder_ExtraArmour.comps.0.useLabel>2025-07-24에 삭제됨. 삭제 이전 번역문: '{0_label} 사용'</Cinder_ExtraArmour.comps.0.useLabel>
+  <Cinder_ExtraArmour.comps.4.completedLetterLabel>2025-07-24에 삭제됨. 삭제 이전 번역문: '추가 장갑판 분석 완료: {RESEARCH} 잠금 해제'</Cinder_ExtraArmour.comps.4.completedLetterLabel>
+  <Cinder_ExtraArmour.comps.4.completedLetter>2025-07-24에 삭제됨. 삭제 이전 번역문: '{PAWN_labelShort}(이)가 추가 장갑판을 분석함으로써 {RESEARCH} 연구에 필요한 지식을 얻었습니다.\n\n이제 정착민들이 이 기술의 활용법을 연구할 수 있습니다.'</Cinder_ExtraArmour.comps.4.completedLetter>
+  <Cinder_ExtraArmour.comps.4.activateLabelString>2025-07-24에 삭제됨. 삭제 이전 번역문: '분석...'</Cinder_ExtraArmour.comps.4.activateLabelString>
+  <Cinder_ExtraArmour.comps.4.activateDescString>2025-07-24에 삭제됨. 삭제 이전 번역문: '추가 장갑판을 분석합니다.'</Cinder_ExtraArmour.comps.4.activateDescString>
+  <Cinder_ExtraArmour.comps.4.jobString>2025-07-24에 삭제됨. 삭제 이전 번역문: '추가 장갑판 분석'</Cinder_ExtraArmour.comps.4.jobString>
+  <Cinder_ExtraArmour.comps.4.guiLabelString>2025-07-24에 삭제됨. 삭제 이전 번역문: '분석할 사람을 선택하세요'</Cinder_ExtraArmour.comps.4.guiLabelString>
+  <Cinder_ExtraArmour.comps.4.inspectString>2025-07-24에 삭제됨. 삭제 이전 번역문: '정착민에 의해 분석 가능.'</Cinder_ExtraArmour.comps.4.inspectString>
+  <Cinder_HeavyExtraArmour.comps.0.useLabel>2025-07-24에 삭제됨. 삭제 이전 번역문: '{0_label} 사용'</Cinder_HeavyExtraArmour.comps.0.useLabel>
+  <Cinder_Dragonslayer.comps.0.description>2025-07-24에 삭제됨. 삭제 이전 번역문: '무기 형태 전환'</Cinder_Dragonslayer.comps.0.description>
   <Cinder_Mech_Tombstone.description>거대하고 뒤틀린 기계 구조물입니다. 내부는 정체불명의 이상현상에 의해 침식되었으며, 외형은 과거 파괴된 전쟁 병기의 잔재를 본떠 만들어졌습니다. 일부는 한때 아군으로 활동한 기록이 있으나, 현재는 단독으로 무장 탐사대를 전멸시킬 수 있을 정도로 위험한 존재로 변질되었습니다. 부식된 외골격은 느리게 움직이지만, 그 궤적은 묘비처럼 냉정하고 치명적입니다. 이 개체는 적 병기를 기반으로 한 불완전한 역설계 복제물이며, 실제 성능은 불안정하고 기대에 미치지 못하는 경우가 많습니다.</Cinder_Mech_Tombstone.description>
   <Cinder_Mech_Tombstone.label>복제 툼스톤</Cinder_Mech_Tombstone.label>
   <Cinder_Mech_Tombstone.tools.0.label>전방 촉수</Cinder_Mech_Tombstone.tools.0.label>
   <Cinder_Mech_Tombstone.tools.1.label>왼 다리</Cinder_Mech_Tombstone.tools.1.label>
   <Cinder_Mech_Tombstone.tools.2.label>오른 다리</Cinder_Mech_Tombstone.tools.2.label>
+  <CinderMote_HellfireMissile_Aim.label>Mote</CinderMote_HellfireMissile_Aim.label>
+  <CinderMote_Eroded_Locked.label>Mote</CinderMote_Eroded_Locked.label>
+  <CinderMote_HellfireMissile_Charge.label>Mote</CinderMote_HellfireMissile_Charge.label>
+  <CinderMote_HellfireMissile_Target.label>Mote</CinderMote_HellfireMissile_Target.label>
+  <Cinder_AncientRustedChunk_None.label>고대 자동 트럭</Cinder_AncientRustedChunk_None.label>
+  <Cinder_AncientRustedChunk_None.description>고대의 부서진 잔해. 내부에 유용한 것이 있을 것 같습니다.</Cinder_AncientRustedChunk_None.description>
+  <Cinder_AncientWheeledTank_None.label>고대 차륜형 전차</Cinder_AncientWheeledTank_None.label>
+  <Cinder_AncientWheeledTank_None.description>고대의 부서진 잔해. 내부에 유용한 것이 있을 것 같습니다.</Cinder_AncientWheeledTank_None.description>
+  <Cinder_AncientFastArmoredVehicle_None.label>고대 고속 장갑차</Cinder_AncientFastArmoredVehicle_None.label>
+  <Cinder_AncientFastArmoredVehicle_None.description>고대의 부서진 잔해. 내부에 유용한 것이 있을 것 같습니다.</Cinder_AncientFastArmoredVehicle_None.description>
+  <Cinder_ErosionAgent.comps.1.useLabel>{0_label} 사용</Cinder_ErosionAgent.comps.1.useLabel>
+  <Cinder_RegeneratedEnhancedSerum.comps.1.useLabel>{0_label} 사용</Cinder_RegeneratedEnhancedSerum.comps.1.useLabel>
+  <Cinder_EmptyAgentBottle.comps.1.completedLetterLabel>빈 약제 병 분석 완료: {RESEARCH} 잠금 해제</Cinder_EmptyAgentBottle.comps.1.completedLetterLabel>
+  <Cinder_EmptyAgentBottle.comps.1.completedLetter>{PAWN_labelShort}(이)가 빈 약제 병을 분석함으로써 {RESEARCH} 연구에 필요한 지식을 얻었습니다.\n\n이제 정착민들이 이 기술의 활용법을 연구할 수 있습니다.</Cinder_EmptyAgentBottle.comps.1.completedLetter>
+  <Cinder_EmptyAgentBottle.comps.1.activateLabelString>분석...</Cinder_EmptyAgentBottle.comps.1.activateLabelString>
+  <Cinder_EmptyAgentBottle.comps.1.activateDescString>빈 약제 병을 분석합니다.</Cinder_EmptyAgentBottle.comps.1.activateDescString>
+  <Cinder_EmptyAgentBottle.comps.1.jobString>빈 약제 병 분석</Cinder_EmptyAgentBottle.comps.1.jobString>
+  <Cinder_EmptyAgentBottle.comps.1.guiLabelString>분석할 사람을 선택하세요</Cinder_EmptyAgentBottle.comps.1.guiLabelString>
+  <Cinder_EmptyAgentBottle.comps.1.inspectString>정착민에 의해 분석 가능.</Cinder_EmptyAgentBottle.comps.1.inspectString>
+  <Cinder_ErodedMechComponent.comps.1.completedLetterLabel>침식된 메카 부품 분석 완료: {RESEARCH} 잠금 해제</Cinder_ErodedMechComponent.comps.1.completedLetterLabel>
+  <Cinder_ErodedMechComponent.comps.1.completedLetter>{PAWN_labelShort}(이)가 침식된 메카 부품을 분석함으로써 {RESEARCH} 연구에 필요한 지식을 얻었습니다.\n\n이제 정착민들이 이 기술의 활용법을 연구할 수 있습니다.</Cinder_ErodedMechComponent.comps.1.completedLetter>
+  <Cinder_ErodedMechComponent.comps.1.activateLabelString>분석...</Cinder_ErodedMechComponent.comps.1.activateLabelString>
+  <Cinder_ErodedMechComponent.comps.1.activateDescString>2025-07-24에 삭제됨. 삭제 이전 번역문: '침식된 메카 부품을 분석합니다.'</Cinder_ErodedMechComponent.comps.1.activateDescString>
+  <Cinder_ErodedMechComponent.comps.1.jobString>침식된 메카 부품 분석</Cinder_ErodedMechComponent.comps.1.jobString>
+  <Cinder_ErodedMechComponent.comps.1.guiLabelString>분석할 사람을 선택하세요</Cinder_ErodedMechComponent.comps.1.guiLabelString>
+  <Cinder_ErodedMechComponent.comps.1.inspectString>정착민에 의해 분석 가능.</Cinder_ErodedMechComponent.comps.1.inspectString>
+  <Cinder_AmorphousNeuralSpine.comps.1.completedLetterLabel>무정형 신경 척추 분석 완료: {RESEARCH} 잠금 해제</Cinder_AmorphousNeuralSpine.comps.1.completedLetterLabel>
+  <Cinder_AmorphousNeuralSpine.comps.1.completedLetter>{PAWN_labelShort}(이)가 무정형 신경 척추를 분석함으로써 {RESEARCH} 연구에 필요한 지식을 얻었습니다.\n\n이제 정착민들이 이 기술의 활용법을 연구할 수 있습니다.</Cinder_AmorphousNeuralSpine.comps.1.completedLetter>
+  <Cinder_AmorphousNeuralSpine.comps.1.activateLabelString>분석...</Cinder_AmorphousNeuralSpine.comps.1.activateLabelString>
+  <Cinder_AmorphousNeuralSpine.comps.1.activateDescString>무정형 신경 척추를 분석합니다.</Cinder_AmorphousNeuralSpine.comps.1.activateDescString>
+  <Cinder_AmorphousNeuralSpine.comps.1.jobString>무정형 신경 척추 분석</Cinder_AmorphousNeuralSpine.comps.1.jobString>
+  <Cinder_AmorphousNeuralSpine.comps.1.guiLabelString>분석할 사람을 선택하세요</Cinder_AmorphousNeuralSpine.comps.1.guiLabelString>
+  <Cinder_AmorphousNeuralSpine.comps.1.inspectString>정착민에 의해 분석 가능.</Cinder_AmorphousNeuralSpine.comps.1.inspectString>
+  <Cinder_ExtraArmour.comps.1.useLabel>{0_label} 사용</Cinder_ExtraArmour.comps.1.useLabel>
+  <Cinder_ExtraArmour.comps.5.completedLetterLabel>추가 장갑판 분석 완료: {RESEARCH} 잠금 해제</Cinder_ExtraArmour.comps.5.completedLetterLabel>
+  <Cinder_ExtraArmour.comps.5.completedLetter>{PAWN_labelShort}(이)가 추가 장갑판을 분석함으로써 {RESEARCH} 연구에 필요한 지식을 얻었습니다.\n\n이제 정착민들이 이 기술의 활용법을 연구할 수 있습니다.</Cinder_ExtraArmour.comps.5.completedLetter>
+  <Cinder_ExtraArmour.comps.5.activateLabelString>분석...</Cinder_ExtraArmour.comps.5.activateLabelString>
+  <Cinder_ExtraArmour.comps.5.activateDescString>추가 장갑판을 분석합니다.</Cinder_ExtraArmour.comps.5.activateDescString>
+  <Cinder_ExtraArmour.comps.5.jobString>추가 장갑판 분석</Cinder_ExtraArmour.comps.5.jobString>
+  <Cinder_ExtraArmour.comps.5.guiLabelString>분석할 사람을 선택하세요</Cinder_ExtraArmour.comps.5.guiLabelString>
+  <Cinder_ExtraArmour.comps.5.inspectString>정착민에 의해 분석 가능.</Cinder_ExtraArmour.comps.5.inspectString>
+  <Cinder_HeavyExtraArmour.comps.1.useLabel>{0_label} 사용</Cinder_HeavyExtraArmour.comps.1.useLabel>
+  <Cinder_HighFrequencySaw.label>고주파 진동 톱</Cinder_HighFrequencySaw.label>
+  <Cinder_HighFrequencySaw.description>가볍고 견고하며 날카로운 고주파 진동 톱은 전장에서 사용되는 소형 동력 무기이자 실용적인 공구입니다.
+톱의 몸체는 무정형 폴리머 소재로 만들어져 강한 타격에도 견딜 수 있으며, 날을 휘두르면 가벼운 갑옷 정도는 쉽게 가릅니다.</Cinder_HighFrequencySaw.description>
+  <Cinder_HighFrequencySaw.tools.0.label>칼끝</Cinder_HighFrequencySaw.tools.0.label>
+  <Cinder_HighFrequencySaw.tools.1.label>칼날</Cinder_HighFrequencySaw.tools.1.label>
+  <Cinder_Dragonslayer.comps.6.description>무기 형태 전환</Cinder_Dragonslayer.comps.6.description>
+  <Cinder_Bullet_FGS.label>무탄피 탄환</Cinder_Bullet_FGS.label>
+  <Cinder_FumeGreatsword.label>연기 대검</Cinder_FumeGreatsword.label>
+  <Cinder_FumeGreatsword.description>우주 환경에서의 전투를 위해 설계된 다목적 무기 플랫폼입니다.  이 무기는 특수 무탄피 탄약을 사용하며, 무정형 폴리머로 구동되는 기초 조준 시스템이 무기에 내장되어 있어 자동으로 표적을 조준합니다. 총구 근처에 있는 촉수를 활성화시키면 무기가 대형 검의 형태로 변형됩니다.</Cinder_FumeGreatsword.description>
+  <Cinder_FumeGreatsword.verbs.Verb_Shoot.label>연기 대검</Cinder_FumeGreatsword.verbs.Verb_Shoot.label>
+  <Cinder_FumeGreatsword.tools.0.label>촉수 칼날</Cinder_FumeGreatsword.tools.0.label>
+  <Cinder_FumeGreatsword.tools.1.label>촉수 칼끝</Cinder_FumeGreatsword.tools.1.label>
+  <Cinder_FumeGreatswordM.label>연기 대검</Cinder_FumeGreatswordM.label>
+  <Cinder_FumeGreatswordM.description>촉수 블레이드가 활성화된 연기 대검입니다. 총신은 이제 경화된 활성 촉수에 둘러싸여, 날카로운 대검으로 기능합니다.</Cinder_FumeGreatswordM.description>
+  <Cinder_FumeGreatswordM.tools.0.label>촉수 칼날</Cinder_FumeGreatswordM.tools.0.label>
+  <Cinder_FumeGreatswordM.tools.1.label>촉수 칼끝</Cinder_FumeGreatswordM.tools.1.label>
+  <Cinder_PEG.tools.0.label>몸통</Cinder_PEG.tools.0.label>
+  <Ammo_AntiMateriel_Erosion.description>중기관총과 대물 소총에 사용되는 대형 탄약입니다.</Ammo_AntiMateriel_Erosion.description>
+  <Ammo_Pistol_Erosion.description>다양한 권총과 SMG에 사용되는 공통 권총 탄약입니다.</Ammo_Pistol_Erosion.description>
+  <Ammo_PistolMagnum_Erosion.description>주로 리볼버용으로 설계된 강력한 권총 탄약입니다.</Ammo_PistolMagnum_Erosion.description>
+  <Ammo_Rifle_Erosion.description>기관총, 저격소총, 전투 소총에 사용되는 대형 소총 탄환입니다.</Ammo_Rifle_Erosion.description>
+  <Ammo_RifleIntermediate_Erosion.description>주로 돌격 소총에 사용되는 중간 장약 소총 탄약입니다.</Ammo_RifleIntermediate_Erosion.description>
+  <Ammo_127x108mm_Erosion.description>다양한 중기관총과 대물저격총에 사용되는 대구경 탄환입니다.</Ammo_127x108mm_Erosion.description>
+  <Ammo_145x114mm_Erosion.description>대전차 소총에 사용되던 구식 대전차 탄환입니다. 이 탄환은 아직도 많은 중화기에서 사용되고 있습니다.</Ammo_145x114mm_Erosion.description>
+  <Ammo_50BMG_Erosion.description>다양한 중기관총과 대물저격총에 사용되는 대구경 탄환입니다.</Ammo_50BMG_Erosion.description>
+  <Ammo_44Magnum_Erosion.description>원래는 리볼버 용으로 설계된 옛 서부시대 권총 탄환입니다.</Ammo_44Magnum_Erosion.description>
+  <Ammo_45ACP_Erosion.description>이상적인 저지력을 자랑하는 권총 탄환입니다.</Ammo_45ACP_Erosion.description>
+  <Ammo_46x30mm_CinderErosion.description>군용 방탄복을 꿰뚫기 위해 특수하게 설계된 고속 권총 탄약입니다.</Ammo_46x30mm_CinderErosion.description>
+  <Ammo_9x19mmPara_Erosion.description>다양한 권총과 기관단총에 사용되는 탄약입니다.</Ammo_9x19mmPara_Erosion.description>
+  <Ammo_127x55mm_Erosion.description>제압사격용으로 설계된 대구경 아음속 자동소총탄입니다.</Ammo_127x55mm_Erosion.description>
+  <Ammo_127x55mm_Erosion.label>12.7x55mm (침식탄)</Ammo_127x55mm_Erosion.label>
+  <Bullet_127x55mm_Erosion.label>12.7mm 탄환 (침식탄)</Bullet_127x55mm_Erosion.label>
+  <Ammo_303British_Erosion.description>구식 볼트액션 소총에 자주 쓰이던 대구경 탄환입니다.</Ammo_303British_Erosion.description>
+  <Ammo_473x33mmCaseless_Erosion.description>탄환을 감싸고 있는 고체 추진체의 무탄피 탄환입니다.</Ammo_473x33mmCaseless_Erosion.description>
+  <Ammo_473x33mmCaseless_Erosion.label>4.73x33mm 무탄피탄 (침식탄)</Ammo_473x33mmCaseless_Erosion.label>
+  <Bullet_473x33mmCaseless_Erosion.label>4.73mm 무탄피 탄환 (침식탄)</Bullet_473x33mmCaseless_Erosion.label>
+  <Ammo_545x39mmSoviet_Erosion.description>다양한 소총에 사용되는 소형 고속 탄환입니다.</Ammo_545x39mmSoviet_Erosion.description>
+  <Ammo_556x45mmNATO_Erosion.description>다양한 소총에 사용되는 소형 고속 탄환입니다.</Ammo_556x45mmNATO_Erosion.description>
+  <Ammo_58x42mmDBP10_Erosion.description>다양한 소총에 사용되는 소형 고속 탄환입니다.</Ammo_58x42mmDBP10_Erosion.description>
+  <Ammo_5x50mmCaseless_FMJ.description>길다란 무탄피 탄약으로, 가느다란 투사체를 고형 추진체가 감싸고 있습니다.</Ammo_5x50mmCaseless_FMJ.description>
+  <Ammo_5x50mmCaseless_FMJ.label>5x50mm 무탄피탄 (일반탄)</Ammo_5x50mmCaseless_FMJ.label>
+  <Ammo_5x50mmCaseless_AP.description>길다란 무탄피 탄약으로, 가느다란 투사체를 고형 추진체가 감싸고 있습니다.</Ammo_5x50mmCaseless_AP.description>
+  <Ammo_5x50mmCaseless_AP.label>5x50mm 무탄피탄 (철갑탄)</Ammo_5x50mmCaseless_AP.label>
+  <Ammo_5x50mmCaseless_HP.description>길다란 무탄피 탄약으로, 가느다란 투사체를 고형 추진체가 감싸고 있습니다.</Ammo_5x50mmCaseless_HP.description>
+  <Ammo_5x50mmCaseless_HP.label>5x50mm 무탄피탄 (HP탄)</Ammo_5x50mmCaseless_HP.label>
+  <Ammo_5x50mmCaseless_Incendiary.description>길다란 무탄피 탄약으로, 가느다란 투사체를 고형 추진체가 감싸고 있습니다.</Ammo_5x50mmCaseless_Incendiary.description>
+  <Ammo_5x50mmCaseless_Incendiary.label>5x50mm 무탄피탄 (철갑소이탄)</Ammo_5x50mmCaseless_Incendiary.label>
+  <Ammo_5x50mmCaseless_HE.description>길다란 무탄피 탄약으로, 가느다란 투사체를 고형 추진체가 감싸고 있습니다.</Ammo_5x50mmCaseless_HE.description>
+  <Ammo_5x50mmCaseless_HE.label>5x50mm 무탄피탄 (철갑고폭탄)</Ammo_5x50mmCaseless_HE.label>
+  <Ammo_5x50mmCaseless_Erosion.description>길다란 무탄피 탄약으로, 가느다란 투사체를 고형 추진체가 감싸고 있습니다.</Ammo_5x50mmCaseless_Erosion.description>
+  <Ammo_5x50mmCaseless_Erosion.label>5x50mm 무탄피탄 (침식탄)</Ammo_5x50mmCaseless_Erosion.label>
+  <Bullet_5x50mmCaseless_FMJ.label>5x50mm 무탄피탄 탄환 (일반탄)</Bullet_5x50mmCaseless_FMJ.label>
+  <Bullet_5x50mmCaseless_FMJ_LV.label>5x50mm 무탄피탄 탄환 (일반탄)</Bullet_5x50mmCaseless_FMJ_LV.label>
+  <Bullet_5x50mmCaseless_FMJ_HV.label>5x50mm 무탄피탄 탄환 (일반탄)</Bullet_5x50mmCaseless_FMJ_HV.label>
+  <Bullet_5x50mmCaseless_AP.label>5x50mm 무탄피탄 탄환 (철갑탄)</Bullet_5x50mmCaseless_AP.label>
+  <Bullet_5x50mmCaseless_AP_LV.label>5x50mm 무탄피탄 탄환 (철갑탄)</Bullet_5x50mmCaseless_AP_LV.label>
+  <Bullet_5x50mmCaseless_AP_HV.label>5x50mm 무탄피탄 탄환 (철갑탄)</Bullet_5x50mmCaseless_AP_HV.label>
+  <Bullet_5x50mmCaseless_HP.label>5x50mm 무탄피탄 탄환 (HP탄)</Bullet_5x50mmCaseless_HP.label>
+  <Bullet_5x50mmCaseless_HP_LV.label>5x50mm 무탄피탄 탄환 (HP탄)</Bullet_5x50mmCaseless_HP_LV.label>
+  <Bullet_5x50mmCaseless_HP_HV.label>5x50mm 무탄피탄 탄환 (HP탄)</Bullet_5x50mmCaseless_HP_HV.label>
+  <Bullet_5x50mmCaseless_Incendiary.label>5x50mm 무탄피탄 탄환 (철갑소이탄)</Bullet_5x50mmCaseless_Incendiary.label>
+  <Bullet_5x50mmCaseless_Incendiary_LV.label>5x50mm 무탄피탄 탄환 (철갑소이탄)</Bullet_5x50mmCaseless_Incendiary_LV.label>
+  <Bullet_5x50mmCaseless_Incendiary_HV.label>5x50mm 무탄피탄 탄환 (철갑소이탄)</Bullet_5x50mmCaseless_Incendiary_HV.label>
+  <Bullet_5x50mmCaseless_HE.label>5x50mm 무탄피탄 탄환 (철갑고폭탄)</Bullet_5x50mmCaseless_HE.label>
+  <Bullet_5x50mmCaseless_HE_LV.label>5x50mm 무탄피탄 탄환 (철갑고폭탄)</Bullet_5x50mmCaseless_HE_LV.label>
+  <Bullet_5x50mmCaseless_HE_HV.label>5x50mm 무탄피탄 탄환 (철갑고폭탄)</Bullet_5x50mmCaseless_HE_HV.label>
+  <Bullet_5x50mmCaseless_Erosion.label>5x50mm 무탄피탄 탄환 (침식탄)</Bullet_5x50mmCaseless_Erosion.label>
+  <Bullet_5x50mmCaseless_Erosion_LV.label>5x50mm 무탄피탄 탄환 (침식탄)</Bullet_5x50mmCaseless_Erosion_LV.label>
+  <Bullet_5x50mmCaseless_Erosion_HV.label>5x50mm 무탄피탄 탄환 (침식탄)</Bullet_5x50mmCaseless_Erosion_HV.label>
+  <Ammo_762x39mmSoviet_Erosion.description>특정 구식 돌격 소총에 사용되는 중형 소총 탄환입니다.</Ammo_762x39mmSoviet_Erosion.description>
+  <Ammo_762x51mmNATO_Erosion.description>기관총과 저격총, 그리고 몇몇 특수한 돌격소총에 사용되는 대구경 소총탄입니다.</Ammo_762x51mmNATO_Erosion.description>
+  <Ammo_762x54mmR_Erosion.description>다양한 기관총과 볼트액션 소총 및 저격소총에 사용되는 소총 탄환입니다.</Ammo_762x54mmR_Erosion.description>
+  <Ammo_762x54mmR_Erosion.label>7.62x54mmR (침식탄)</Ammo_762x54mmR_Erosion.label>
+  <Bullet_762x54mmR_Erosion.label>7.62mmR 탄환 (침식탄)</Bullet_762x54mmR_Erosion.label>
 </LanguageData>

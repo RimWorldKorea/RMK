@@ -345,6 +345,27 @@
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
+          <xpath>/Defs/StatDef[defName="SightsEfficiency"]/parts/li[4]/desc</xpath>
+          <value>
+            <desc>2차 발사 모드: {OFFSET}</desc>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/StatDef[defName="ShotSpread"]/parts/li[4]/desc</xpath>
+          <value>
+            <desc>2차 발사 모드: {OFFSET}</desc>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/StatDef[defName="SwayFactor"]/parts/li[3]/desc</xpath>
+          <value>
+            <desc>2차 발사 모드: {OFFSET}</desc>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
           <xpath>/Defs/ThingDef[defName="Cinder_Magistrate"]/tools/li[3]/label</xpath>
           <value>
             <label>총구</label>
@@ -369,6 +390,41 @@
           <xpath>/Defs/ThingDef[defName="Cinder_Flint50A"]/tools/li[3]/label</xpath>
           <value>
             <label>총구</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_FumeGreatsword"]/tools/li[1]/label</xpath>
+          <value>
+            <label>촉수 칼날</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_HighFrequencySaw"]/tools/li[1]/label</xpath>
+          <value>
+            <label>칼끝</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_HighFrequencySaw"]/tools/li[2]/label</xpath>
+          <value>
+            <label>칼날</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_FumeGreatswordM"]/tools/li[1]/label</xpath>
+          <value>
+            <label>칼끝</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_FumeGreatswordM"]/tools/li[2]/label</xpath>
+          <value>
+            <label>칼날</label>
           </value>
         </li>
       </operations>
@@ -399,13 +455,6 @@
               <label>총신</label>
             </value>
           </li>
-          <li Class="PatchOperationReplace">
-            <success>Always</success>
-            <xpath>/Defs/ThingDef[defName="Cinder_MechGun_AnvilDiscipline"]/tools/li[3]/label</xpath>
-            <value>
-              <label>총구</label>
-            </value>
-          </li>
         </operations>
       </match>
     </match>
@@ -419,33 +468,78 @@
       <operations>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ScenarioDef[defName="Cinder_Scenario"]/scenario/parts/li[1]/customSummary</xpath>
+          <xpath>/Defs/ScenarioDef[defName="Cinder_Scenario"]/scenario/parts/li[2]/customSummary</xpath>
           <value>
-            <customSummary>3명의 신더로 시작합니다.</customSummary>
+            <customSummary>세 명의 신더로 시작합니다.</customSummary>
           </value>
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ScenarioDef[defName="Cinder_Scenario"]/scenario/parts/li[1]/xenotypeCounts/li[1]/description</xpath>
+          <xpath>/Defs/ScenarioDef[defName="Cinder_Scenario"]/scenario/parts/li[2]/xenotypeCounts/li[1]/description</xpath>
           <value>
-            <description>성인 신더</description>
+            <description>아기가 아닌 신더</description>
           </value>
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ScenarioDef[defName="Cinder_ScenarioB"]/scenario/parts/li[1]/customSummary</xpath>
+          <xpath>/Defs/ScenarioDef[defName="Cinder_ScenarioB"]/scenario/parts/li[2]/customSummary</xpath>
           <value>
-            <customSummary>1명의 신더로 시작합니다.</customSummary>
+            <customSummary>한 명의 신더로 시작합니다.</customSummary>
           </value>
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ScenarioDef[defName="Cinder_ScenarioB"]/scenario/parts/li[1]/xenotypeCounts/li[1]/description</xpath>
+          <xpath>/Defs/ScenarioDef[defName="Cinder_ScenarioB"]/scenario/parts/li[2]/xenotypeCounts/li[1]/description</xpath>
           <value>
-            <description>성인 신더</description>
+            <description>아기가 아닌 신더</description>
           </value>
         </li>
       </operations>
     </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended &amp;&amp;The Dead Man's Switch</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Cinder_MechGun_AnvilDiscipline"]/tools/li[3]/label</xpath>
+          <value>
+            <label>총구</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/StatDef[defName="AccuracyTouch"]/parts/li[2]/desc</xpath>
+    <value>
+      <desc>2차 발사 모드: {OFFSET}</desc>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/StatDef[defName="AccuracyShort"]/parts/li[2]/desc</xpath>
+    <value>
+      <desc>2차 발사 모드: {OFFSET}</desc>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/StatDef[defName="AccuracyMedium"]/parts/li[2]/desc</xpath>
+    <value>
+      <desc>2차 발사 모드: {OFFSET}</desc>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/StatDef[defName="AccuracyLong"]/parts/li[2]/desc</xpath>
+    <value>
+      <desc>2차 발사 모드: {OFFSET}</desc>
+    </value>
   </Operation>
 </Patch>
