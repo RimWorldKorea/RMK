@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FactionLanguages.FactionLanguagesMod>세력 언어</FactionLanguages.FactionLanguagesMod>
+  <FactionLanguages.Learned>학습함</FactionLanguages.Learned>
+  <FactionLanguages.LearnProgress>{0} / {1}</FactionLanguages.LearnProgress>
+  <FactionLanguages.RaceLanguage>언어: {0} ({1})</FactionLanguages.RaceLanguage>
+  <FactionLanguages.Dialect>방언: {0} ({1})</FactionLanguages.Dialect>
+  <FactionLanguages.LanguageText>{0}, {1}</FactionLanguages.LanguageText>
+  <FactionLanguages.DialectToString>{0} - {1}
+진행 상황: {4} ({3})
+복잡성: {5}
+
+{2}</FactionLanguages.DialectToString>
+  <FactionLanguages.RaceLanguageToString>{0} - {1}
+진행 상황: {4} ({3})
+복잡성: {5}
+
+{2}</FactionLanguages.RaceLanguageToString>
+  <FactionLanguages.LanguageTooltip>{0}\n\n\n{1}\n\n\n{2}</FactionLanguages.LanguageTooltip>
+  <FactionLanguages.ClickGotoTable>클릭하여 다이어그램으로 이동</FactionLanguages.ClickGotoTable>
+  <FactionLanguages.Window_FactionLanguages.Label>세계의 언어 «{0}»</FactionLanguages.Window_FactionLanguages.Label>
+  <FactionLanguages.Window_FactionLanguages.NoLanguages>언어 없음</FactionLanguages.Window_FactionLanguages.NoLanguages>
+  <FactionLanguages.Pawn_GuestTracker_SetExclusiveInteraction_FactionLanguagesPatch.LanguageReason>{0} 불가능, {1} 언어를 모릅니다.</FactionLanguages.Pawn_GuestTracker_SetExclusiveInteraction_FactionLanguagesPatch.LanguageReason>
+  <FactionLanguages.Pawn_GuestTracker_SetExclusiveInteraction_FactionLanguagesPatch.LanguageIsLearned>{0} 불가능, {1} 언어를 이미 압니다.</FactionLanguages.Pawn_GuestTracker_SetExclusiveInteraction_FactionLanguagesPatch.LanguageIsLearned>
+  <FactionLanguages.Tradeable_GetPriceTooltip_FactionLanguagesPatch.DialectPriceTooltip>방언을 학습하지 않음</FactionLanguages.Tradeable_GetPriceTooltip_FactionLanguagesPatch.DialectPriceTooltip>
+  <FactionLanguages.Tradeable_GetPriceTooltip_FactionLanguagesPatch.LanguagePriceTooltip>언어를 학습하지 않음</FactionLanguages.Tradeable_GetPriceTooltip_FactionLanguagesPatch.LanguagePriceTooltip>
+  <FactionLanguages.RecruitUtility_Recruit_FactionLanguagesPatch.LearnRecruiteeDialect>방언 {1}에 대한 지식이 {0}에 의해 당신의 세력에 전달되었습니다.</FactionLanguages.RecruitUtility_Recruit_FactionLanguagesPatch.LearnRecruiteeDialect>
+  <FactionLanguages.RecruitUtility_Recruit_FactionLanguagesPatch.LearnRecruiteeLanguage>언어 {1}에 대한 지식이 {0}에 의해 당신의 세력에 전달되었습니다.</FactionLanguages.RecruitUtility_Recruit_FactionLanguagesPatch.LearnRecruiteeLanguage>
+  <FactionLanguages.CommFloatMenuOption.LanguageIsNotLearned>언어가 학습되지 않음</FactionLanguages.CommFloatMenuOption.LanguageIsNotLearned>
+  <FactionLanguages.JobDriver_LearnPrisonerLanguage.AddXpForLanguage>{0} 언어에 대한 경험 {1}</FactionLanguages.JobDriver_LearnPrisonerLanguage.AddXpForLanguage>
+  <FactionLanguages.JobDriver_LearnPrisonerLanguage.AddXpForDialect>{0} 방언에 대한 경험 {1}</FactionLanguages.JobDriver_LearnPrisonerLanguage.AddXpForDialect>
+  <FactionLanguages.BookOutcomeDoerGainLanguageExp> - {0} 언어, {1} 방언: 시간당 {2} 경험치</FactionLanguages.BookOutcomeDoerGainLanguageExp>
+  <FactionLanguages.Settings.ResetSettings>설정 초기화</FactionLanguages.Settings.ResetSettings>
+  <FactionLanguages.Settings.LanguageLearnDifficulty>언어 학습의 어려움: {0}</FactionLanguages.Settings.LanguageLearnDifficulty>
+  <FactionLanguages.Settings.SocialFightChanceDialect>방언을 배우지 않았을 때 사회적 다툼 요인: {0}</FactionLanguages.Settings.SocialFightChanceDialect>
+  <FactionLanguages.Settings.SocialFightChanceLanguage>언어를 배우지 않았을 때 사회적 다툼 요인: {0}</FactionLanguages.Settings.SocialFightChanceLanguage>
+  <FactionLanguages.Settings.SecondaryRomanceChanceFactorDialect>방언을 배우지 않은 경우 로맨스 요소: {0}</FactionLanguages.Settings.SecondaryRomanceChanceFactorDialect>
+  <FactionLanguages.Settings.SecondaryRomanceChanceFactorLanguage>언어를 배우지 않은 경우 로맨스 요소: {0}</FactionLanguages.Settings.SecondaryRomanceChanceFactorLanguage>
+  <FactionLanguages.Settings.LanguageTradeFactor>언어를 배우지 않은 경우의 거래 비용 요소: {0}</FactionLanguages.Settings.LanguageTradeFactor>
+  <FactionLanguages.Settings.CantTrade>거래 불가능</FactionLanguages.Settings.CantTrade>
+  <FactionLanguages.Settings.DialectTradeFactor>방언을 배우지 않은 경우의 거래 비용 요소: {0}</FactionLanguages.Settings.DialectTradeFactor>
+  <FactionLanguages.Settings.AutoLearnRecruiteeLanguage>새 식민지 개척자의 언어를 자동으로 학습합니다(모집 시스템 외부의 이벤트와 관련됨): {0}</FactionLanguages.Settings.AutoLearnRecruiteeLanguage>
+  <FactionLanguages.Settings.NegativeInteractionChanceFactorDialect>방언을 학습하지 않은 경우의 마이너스 상호작용 확률 계수: {0}</FactionLanguages.Settings.NegativeInteractionChanceFactorDialect>
+  <FactionLanguages.Settings.NegativeInteractionChanceFactorLanguage>언어가 학습되지 않은 경우의 부정적인 상호작용 기회 요인: {0}</FactionLanguages.Settings.NegativeInteractionChanceFactorLanguage>
+  <FactionLanguages.Settings.DisplayLanguagesInFactionTab>세력 탭에 언어 표시 (문제가 발생하면 끄세요): {0}</FactionLanguages.Settings.DisplayLanguagesInFactionTab>
+  <FactionLanguages.Dialog_NameLanguage.NameMessageKey>언어 이름을 변경하려고 하는 것 같습니다. 어떤 이름으로 알려질 예정인가요?</FactionLanguages.Dialog_NameLanguage.NameMessageKey>
+  <FactionLanguages.Dialog_NameLanguage.GainedNameMessageKey>이 언어는 이제 {0}로 알려집니다.</FactionLanguages.Dialog_NameLanguage.GainedNameMessageKey>
+  <FactionLanguages.Dialog_NameLanguage.InvalidNameMessageKey>이 이름은 이미 사용 중입니다.</FactionLanguages.Dialog_NameLanguage.InvalidNameMessageKey>
+  <FactionLanguages.Dialog_NameLanguage.SecondNameMessageKey>설명을 직접 작성하거나, 기본 설명을 사용하려면 비워 두세요.</FactionLanguages.Dialog_NameLanguage.SecondNameMessageKey>
+  <FactionLanguages.Dialog_NameLanguage.InvalidSecondNameMessageKey>설명에 알 수 없는 오류가 있습니다.</FactionLanguages.Dialog_NameLanguage.InvalidSecondNameMessageKey>
+  <FactionLanguages.ClickToRename>클릭하여 이름 바꾸기</FactionLanguages.ClickToRename>
+  <FactionLanguages.True>네</FactionLanguages.True>
+  <FactionLanguages.False>아니요</FactionLanguages.False>
+  <FactionLanguages.LanguageGenerationWorker.NoExtraSettings>추가 설정 없음</FactionLanguages.LanguageGenerationWorker.NoExtraSettings>
+  <FactionLanguages.LanguageGenerationWorker_NaturalRandomWithSettings.RandomLanguagesCount>무작위로 생성된 언어 수: {0}</FactionLanguages.LanguageGenerationWorker_NaturalRandomWithSettings.RandomLanguagesCount>
+  <FactionLanguages.LanguageGenerationWorker_NaturalRandomWithSettings.RandomDialectsCount>무작위로 생성된 방언 수: {0}</FactionLanguages.LanguageGenerationWorker_NaturalRandomWithSettings.RandomDialectsCount>
+  <FactionLanguages.Page_ConfigureLanguage.RegenLanguages>무작위 생성</FactionLanguages.Page_ConfigureLanguage.RegenLanguages>
+  <FactionLanguages.Page_ConfigureLanguage.CreateLanguage>언어 생성</FactionLanguages.Page_ConfigureLanguage.CreateLanguage>
+  <FactionLanguages.Page_ConfigureLanguage.RemoveAllLanguages>모든 언어 삭제</FactionLanguages.Page_ConfigureLanguage.RemoveAllLanguages>
+  <FactionLanguages.Page_ConfigureLanguage.RemoveAllLanguages_Confirm>정말 모든 언어를 삭제하시겠습니까?</FactionLanguages.Page_ConfigureLanguage.RemoveAllLanguages_Confirm>
+  <FactionLanguages.Page_ConfigureLanguage.UnallocatedFactionsLabel>미배정 세력</FactionLanguages.Page_ConfigureLanguage.UnallocatedFactionsLabel>
+  <FactionLanguages.Page_ConfigureLanguage.NoUnallocatedFactions>배정되지 않은 세력이 없음</FactionLanguages.Page_ConfigureLanguage.NoUnallocatedFactions>
+  <FactionLanguages.Page_ConfigureLanguage.NoAvailableDialects>사용 가능한 방언이 없습니다.</FactionLanguages.Page_ConfigureLanguage.NoAvailableDialects>
+  <FactionLanguages.Page_ConfigureLanguage.LinkUnallocatedFactionOption>{0}에 배치 (언어: {1})</FactionLanguages.Page_ConfigureLanguage.LinkUnallocatedFactionOption>
+  <FactionLanguages.Page_ConfigureLanguage.CanDoNext.HasUnallocatedFaction>모든 세력을 방언에 배정하세요.</FactionLanguages.Page_ConfigureLanguage.CanDoNext.HasUnallocatedFaction>
+  <FactionLanguages.Page_ConfigureLanguage.CanDoNext.HasDialectWithoutFaction>각 방언에는 최소 하나 이상의 세력이 필요합니다.</FactionLanguages.Page_ConfigureLanguage.CanDoNext.HasDialectWithoutFaction>
+  <FactionLanguages.Page_ConfigureLanguage.CanDoNext.HasLanguageWithoutDialects>각 언어에는 최소 하나 이상의 방언이 필요합니다.</FactionLanguages.Page_ConfigureLanguage.CanDoNext.HasLanguageWithoutDialects>
+  <FactionLanguages.Dialog_ConfirmDeleteDialect>이 방언을 정말 삭제하시겠습니까?</FactionLanguages.Dialog_ConfirmDeleteDialect>
+  <FactionLanguages.DeleteDialectTooltip>방언 삭제하기</FactionLanguages.DeleteDialectTooltip>
+  <FactionLanguages.MoveDialectTooltip>방언을 다른 언어로 이동</FactionLanguages.MoveDialectTooltip>
+  <FactionLanguages.LanguagesNotFound>사용 가능한 언어가 없습니다.</FactionLanguages.LanguagesNotFound>
+  <FactionLanguages.AddFactionToDialectTooltip>방언에 세력 추가</FactionLanguages.AddFactionToDialectTooltip>
+  <FactionLanguages.FactionsNotFound>미배정된 세력이 없습니다.</FactionLanguages.FactionsNotFound>
+  <FactionLanguages.MakeNewLanguageDialectTooltip>이 언어의 새 방언 만들기</FactionLanguages.MakeNewLanguageDialectTooltip>
+  <FactionLanguages.RemoveLanguageTooltip>언어 삭제하기</FactionLanguages.RemoveLanguageTooltip>
+  <FactionLanguages.Dialog_ConfirmDeleteLanguage>이 언어를 정말 삭제하시겠습니까?</FactionLanguages.Dialog_ConfirmDeleteLanguage>
+  <FactionLanguages.Dialog_CreateLanguage.SuccessMessageKey>언어가 성공적으로 생성되었습니다.</FactionLanguages.Dialog_CreateLanguage.SuccessMessageKey>
+  <FactionLanguages.Dialog_CreateLanguage.SelectMainRace>주요 종족: {0}</FactionLanguages.Dialog_CreateLanguage.SelectMainRace>
+  <FactionLanguages.Dialog_CreateLanguage.SelectType>유형: {0}</FactionLanguages.Dialog_CreateLanguage.SelectType>
+  <FactionLanguages.Dialog_CreateDialect.SuccessMessageKey>방언이 성공적으로 생성되었습니다.</FactionLanguages.Dialog_CreateDialect.SuccessMessageKey>
+  <FactionLanguages.Dialog_CreateDialect.SelectTechlevel>기술 수준: {0}</FactionLanguages.Dialog_CreateDialect.SelectTechlevel>
+  <FactionLanguages.Dialog_CreateDialect.SelectType>유형: {0}</FactionLanguages.Dialog_CreateDialect.SelectType>
+  <FactionLanguages.Pawn_GetInspectString_FactionLanguagesPatch.InspectPawnLanguage>사용하는 언어: {0}, 방언: {1}</FactionLanguages.Pawn_GetInspectString_FactionLanguagesPatch.InspectPawnLanguage>
+  <FactionLanguages.PlaySettings_DoPlaySettingsGlobalControls_FactionLanguagesPatch.LanguageLearning>세계 언어</FactionLanguages.PlaySettings_DoPlaySettingsGlobalControls_FactionLanguagesPatch.LanguageLearning>
+</LanguageData>
