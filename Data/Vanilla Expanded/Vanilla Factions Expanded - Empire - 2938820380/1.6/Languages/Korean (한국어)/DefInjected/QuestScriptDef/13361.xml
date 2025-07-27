@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VFEE_NobleVisit.questContentRules.rulesStrings>
+    <li>lastOrNot(nobleCount==1)-&gt;</li>
+    <li>lastOrNot(nobleCount&gt;=2)-&gt;마지막</li>
+    <li>lodgersLabelSingularOrPlural(nobleCount==1)-&gt;[lodgersLabel]</li>
+    <li>lodgersLabelSingularOrPlural(nobleCount&gt;=2)-&gt;[lodgersLabelPlural]</li>
+    <li>decidedToLeave-&gt;[othersWillNotAccept], {PAWNSALIVECOUNT_multiple ? 결국 : 결국 } 떠나기로 결심했습니다.</li>
+    <li>othersWillNotAccept-&gt;{PAWNSALIVECOUNT_multiple ? 다른 사람들은 : 마지막 [lodgersLabel](은)는 } 이 의견에 동의하지 않았으나,</li>
+    <li>oneOfThe-&gt;당신과 함께 머물도록 초대한 귀족 중 한 명인</li>
+    <li>questOver-&gt;'[resolvedQuestName]' 임무가 끝났습니다.</li>
+    <li>letterIntroArrested-&gt;[oneOfThe] {SUBJECT_definite}(을)를 감금하려고 했습니다.</li>
+    <li>lodgerArrestedLeaveMapLetterLabel-&gt;[lodgersLabel] 수감</li>
+    <li>lodgerArrestedLeaveMapLetterText-&gt;[letterIntroArrested]\n\n[decidedToLeave]</li>
+    <li>letterIntroDeath-&gt;[oneOfThe] {SUBJECT_definite}(이)가 죽었습니다.</li>
+    <li>lodgerDiedLeaveMapLetterLabel-&gt;[lodgersLabel] 사망</li>
+    <li>lodgerDiedLeaveMapLetterText-&gt;[letterIntroDeath]\n\n[decidedToLeave]</li>
+    <li>letterIntroViolated-&gt;[oneOfThe] {SUBJECT_definite}에게 부적절한 수술을 집행했습니다.</li>
+    <li>lodgerSurgeryVioLeaveMapLetterLabel-&gt;[lodgersLabel] 수술</li>
+    <li>lodgerSurgeryVioLeaveMapLetterText-&gt;[letterIntroViolated]\n\n[decidedToLeave]</li>
+    <li>letterIntroKidnapped-&gt;[oneOfThe] {SUBJECT_definite}(이)가 납치당했습니다.</li>
+    <li>lodgerKidnappedLeaveMapLetterLabel-&gt;[lodgersLabel] 납치</li>
+    <li>lodgerKidnappedLeaveMapLetterText-&gt;[letterIntroKidnapped]\n\n[decidedToLeave]</li>
+    <li>letterIntroBanished-&gt;[oneOfThe] {SUBJECT_definite}(이)가 추방당했습니다.</li>
+    <li>lodgerBanishedLeaveMapLetterLabel-&gt;[lodgersLabel] 추방</li>
+    <li>lodgerBanishedLeaveMapLetterText-&gt;[letterIntroBanished]\n\n[decidedToLeave]</li>
+    <li>ShuttleDestroyedIntro-&gt;{SUBJECT_definite}(이)가 파괴되었습니다.</li>
+    <li>ShuttleDestroyedLabel-&gt;[lodgersLabel] 수송선 파괴</li>
+    <li>ShuttleDestroyedText-&gt;[ShuttleDestroyedIntro]\n\n[decidedToLeave]</li>
+    <li>letterIntroBadMood-&gt;당신이 접대와 보호의 의무를 진 [oneOfThe] {SUBJECT_definite}의 기분이 너무 오랜 시간 [lodgersMoodThreshold] 이하로 떨어졌습니다.</li>
+    <li>nobleUnhappyLetterLabel-&gt;[lodgersLabel] 불만</li>
+    <li>nobleUnhappyLetterText-&gt;[letterIntroBadMood]\n\n[decidedToLeave]</li>
+    <li>lodgerLeftNotAllHealthyLetterLabel-&gt;[lodgersLabel] 방치</li>
+    <li>lodgerLeftNotAllHealthyLetterText-&gt;[lodgersLabel](이)가 부상을 입은채로 떠났으며, 좋은 기억으로 남지 않을 것입니다.</li>
+    <li>LetterLabelShuttleArrived-&gt;[asker_nameFull](와)과 궁정 귀족들을 데려가기 위한 수송선이 도착했습니다.</li>
+    <li>LetterTextShuttleArrived-&gt;수송선 도착</li>
+    <li>lodgersLeavingLetterLabel-&gt;[lodgersLabelSingularOrPlural](이)가 무사히 떠남</li>
+    <li>lodgersLeavingLetterText-&gt;[asker_nameFull](이)가 [map_definite]에서 [questDurationTicks_duration]간 대접해 준 것에 대하여 감사를 표합니다.</li>
+  </VFEE_NobleVisit.questContentRules.rulesStrings>
+</LanguageData>
