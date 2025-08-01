@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--ModSetting-->
+	<RFGSetting_StrictQuestGuest>엄격한 방문자 생성</RFGSetting_StrictQuestGuest>
+	<RFGSetting_StrictQuestGuest_Tips>퀘스트로 생성된 방문자는 가능한 한 해당 팩션의 종족으로 생성됩니다. 이 옵션을 비활성화하면 퀘스트에서 일정 확률로 해당 팩션이 아닌 종족의 캐릭터를 생성할 수 있습니다. (제노타입은 반영되지 않으며, HAR 종족만 반영됩니다)</RFGSetting_StrictQuestGuest_Tips>
+
+	<RFGSetting_AlternateFactions>동일한 폰 종족으로 이루어진 다른 팩션</RFGSetting_AlternateFactions>
+	<RFGSetting_AlternateFactions_Tips>동일한 종족을 가진 팩션은 폰을 생성할 때 동시에 계산합니다. (제노타입은 반영되지 않으며, HAR 종족만 반영됩니다)</RFGSetting_AlternateFactions_Tips>
+
+	<RFGSetting_ToggleFrequency>팩션과 연관된 생성 트리거로 폰이 얼마나 생성될지 조정: </RFGSetting_ToggleFrequency>
+	<RFGSetting_ToggleFrequency_Tips>주요 기능: 동일한 팩션에서 가끔 다른 팩션의 폰을 생성하고 싶다면 이 값을 낮출 수 있습니다. 1.0으로 설정하면 팩션과 연결된 폰 유형을 최대한 생성하도록 하지만, 이는 100% 팩션에 따라 생성되는 폰을 의미하지 않습니다. 오류가 발생하거나 특수한 폰이 생성될 경우, 게임은 팩션을 고려하지 않습니다. (제노타입은 반영되지 않으며, HAR 종족만 반영됩니다)</RFGSetting_ToggleFrequency_Tips>
+
+	<RFGSetting_damageUntilDownedBypassShield>[DEBUG]DamageUntilDownedOrNotSpawnedBypassShield</RFGSetting_damageUntilDownedBypassShield>
+	<RFGSetting_damageUntilDownedBypassShield_Tips>기본적으로 활성화되며, 일부 모드에서 Null Pointer 검사가 이루어지지 않아 발생하는 빨간색 텍스트를 방지합니다. 캐릭터가 지도에 배치되지 않았을 때 방어막 파괴 효과가 발생하면, 일부 모드에서 캐릭터의 현재 좌표의 Null 값을 검사하지 않아 Null Pointer Execption이 발생할 수 있습니다. 이 경우 캐릭터가 생성되지 않습니다. 디버그 옵션에서 호출되는 [DamageUntilDowned]로 방어막을 우회하면 이 문제가 발생하지 않습니다.</RFGSetting_damageUntilDownedBypassShield_Tips>
+
+	<RFGSetting_factionLeaderValidator>[DEBUG]팩션 리더 검증기</RFGSetting_factionLeaderValidator>
+	<RFGSetting_factionLeaderValidator_Tips>팩션 리더에게 특정 종류의 기술이 요구되지만 다른 모드의 성장 배경/특성/유전자 등으로 비활성화되는 것을 방지하는 옵션입니다.</RFGSetting_factionLeaderValidator_Tips>
+
+	<RFGSetting_creepJoinerValidator>[DEBUG]낯선 이 검증기</RFGSetting_creepJoinerValidator>
+	<RFGSetting_creepJoinerValidator_Tips>낯선 이는 가끔씩 사건으로 올바르게 생성되지 않는데, 이로 인해 오류가 발생합니다. 이 옵션은 이러한 사건으로부터 낯선 이가 올바르게 생성되게 합니다.</RFGSetting_creepJoinerValidator_Tips>
+
+	<RFGSetting_creepJoinerGenerateNoLimit>[DEBUG/TEST]낯선 이 무제한 생성</RFGSetting_creepJoinerGenerateNoLimit>
+	<RFGSetting_creepJoinerGenerateNoLimit_Tips>낯선 이는 [아마도] 어떤 사건에서나 생성될 수 있습니다(이 팩션의 생성 목록에 들어있다면). 이제 이 옵션은 기본값으로 켜져 있습니다.</RFGSetting_creepJoinerGenerateNoLimit_Tips>
+
+	<RFGSetting_dontAdjustXenotypeForRabbie>[Biotech]래비의 BodyType 변경 금지</RFGSetting_dontAdjustXenotypeForRabbie>
+	<RFGSetting_dontAdjustXenotypeForRabbie_Tips>Rabbie The Moonrabbit 종족은 다른 제노타입과 같이 생성될 때, 어떤 면에서 biotech DLC와 호환되지 않습니다. 그들의 몸은 텍스처가 누락됩니다.</RFGSetting_dontAdjustXenotypeForRabbie_Tips>
+
+	<RFGSetting_debugOption>Debug/고급 옵션</RFGSetting_debugOption>
+</LanguageData>
