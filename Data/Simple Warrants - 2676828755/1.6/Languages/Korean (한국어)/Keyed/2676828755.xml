@@ -4,8 +4,11 @@
   <SW.RelatedWarrants>관련 현상수배</SW.RelatedWarrants>
   <SW.Age>나이 {0}</SW.Age>
   <SW.Decline>거절</SW.Decline>
-  <SW.WantedFor>{1}에 {0} 혐의로 현상수배됨</SW.WantedFor>
-  <SW.PostedBy>{0}에 현상수배됨</SW.PostedBy>
+  <SW.Wanted>수배 중</SW.Wanted>
+  <SW.WantedFor>혐의: {0}</SW.WantedFor>
+  <SW.PostedBy>게시: {0}</SW.PostedBy>
+  <SW.Hunt>[토벌]</SW.Hunt>
+  <SW.Tame>[포획]</SW.Tame>
   <SW.CaravanRequestInfo>현상수배 요청: {0}</SW.CaravanRequestInfo>
   <SW.CommandFulfillWarrant>현상금 수령</SW.CommandFulfillWarrant>
   <SW.CommandFulfillWarrantDesc>현상수배를 완료하고 현상금을 받습니다.</SW.CommandFulfillWarrantDesc>
@@ -15,32 +18,53 @@
   <SW.Pawn>인물</SW.Pawn>
   <SW.Artifact>유물</SW.Artifact>
   <SW.Select>선택</SW.Select>
-  <SW.Reason>혐의: {0}</SW.Reason>
+  <SW.Reason>혐의:</SW.Reason>
   <SW.CapturePayment>체포시 현상금: </SW.CapturePayment>
   <SW.DeathPayment>사살시 현상금: </SW.DeathPayment>
   <SW.RewardPayment>현상금 지불: </SW.RewardPayment>
   <SW.FactionTookYourWarrant>{FACTION_name}(은)는 {1}에 대한 당신의 현상수배를 수락했고, 현상수배를 이행하려 시도하고 있습니다.</SW.FactionTookYourWarrant>
-  <SW.FactionCompletedWarrant>{FACTION_name}(은)는 당신의 현상수배를 완료했습니다.</SW.FactionCompletedWarrant>
-  <SW.FactionCompletedWarrantDesc>{FACTION_name} 구성원들은 {1}에 대한 당신의 현상금을 수령하기 위해 정착지 밖에서 대기하고 있습니다. 그들은 현상수배를 완료하기 전에 현상금인 {2}은을 지불받기를 원하고 있습니다.</SW.FactionCompletedWarrantDesc>
-  <SW.Pay>{0}은을 지불합니다</SW.Pay>
+  <SW.FactionCompletedWarrant>{FACTION_name}(이)가 당신의 현상수배를 완료했습니다.</SW.FactionCompletedWarrant>
+  <SW.FactionCompletedWarrantDesc>{FACTION_name} 구성원들은 {1}에 대한 현상수배를 완료하기 위해 정착지 밖에서 대기하고 있습니다. 그들은 대상을 넘겨주기 전에 현상금인 {2}은을 지불받기를 원하고 있습니다.</SW.FactionCompletedWarrantDesc>
+  <SW.PostponePayment>지불을 24시간 연기합니다.</SW.PostponePayment>
+  <SW.Pay>{0}은 지불하기</SW.Pay>
   <SW.NotEnoughSilver>은이 충분하지 않습니다</SW.NotEnoughSilver>
-  <SW.Refuse>거절합니다</SW.Refuse>
-  <SW.FactionFailedWarrant>{FACTION_name}(은)는 {1}에 대한 당신의 현상수배를 완료하지 못했습니다.</SW.FactionFailedWarrant>
-  <SW.WarrantOnYourColonist>현상수배: {PAWN_nameDef}</SW.WarrantOnYourColonist>
+  <SW.Refuse>거절하기</SW.Refuse>
+  <SW.FactionFailedWarrant>{FACTION_name}(은)는 당신의 {1}에 대한 현상수배를 완료하지 못했습니다.</SW.FactionFailedWarrant>
+  <SW.WarrantOnYourColonist>정착민 대상 현상수배: {PAWN_nameDef}</SW.WarrantOnYourColonist>
+  <SW.WarrantOnYourColonistReason>정착민 대상 현상수배: {PAWN_nameDef}. 혐의: {1}</SW.WarrantOnYourColonistReason>
   <SW.WarrantOnYourColonistDesc>정착민이 현상수배되어 현상금이 지불될 때까지 습격을 더 자주 받게 됩니다. 현상수배를 끝내기 위해 현상금을 지불하거나 또는 현상수배가 만료될 때까지 기다리세요.</SW.WarrantOnYourColonistDesc>
-  <SW.Compensate>현상금을 지불합니다</SW.Compensate>
+  <SW.Compensate>현상금 지불</SW.Compensate>
   <SW.NoEnoughMoneyToCompensate>현상금 지불에 필요한 {0}은이 없습니다</SW.NoEnoughMoneyToCompensate>
   <SW.NoPublicWarrantsAvailable>현재 게시된 공개 현상수배가 없습니다. 나중에 다시 확인하세요.</SW.NoPublicWarrantsAvailable>
   <SW.NoRelatedWarrantsAvailable>현재 게시된 관련 현상수배가 없습니다.</SW.NoRelatedWarrantsAvailable>
   <SW.RemoveWarrant>제거</SW.RemoveWarrant>
-  <SW.CommandFulfillWarrantFailInsufficient>이 현상수배를 완료하려면 상단에 {0}(이)가 있어야 합니다.</SW.CommandFulfillWarrantFailInsufficient>
+  <SW.CommandFulfillWarrantFailInsufficient>이 현상수배를 완료하려면 상단에 {0}(이)가 있어야 합니다.\n동물 포획 현상수배의 경우, 대상 동물이 길들여져 있고 다치지 않았어야 합니다.</SW.CommandFulfillWarrantFailInsufficient>
   <SW.WillExpireIn>만료까지 {0} 남음</SW.WillExpireIn>
   <SW.ApproximateComplectionDate>예상 완료 일수: {0}</SW.ApproximateComplectionDate>
   <SW.ApproximateAcceptionDate>예상 수락 일수: {0}</SW.ApproximateAcceptionDate>
-  <SW.ChanceOfWarrantsMadeOnColonist>정착민 대상 현상수배 확률: {0}</SW.ChanceOfWarrantsMadeOnColonist>
-  <SW.EnableWarrantsOnAnimals>동물 대상 현상수배 활성화</SW.EnableWarrantsOnAnimals>
+  <SW.ChanceOfWarrantsMadeOnColonist>정착민 대상 현상수배 확률</SW.ChanceOfWarrantsMadeOnColonist>
+  <SW.ChanceOfWarrantsMadeOnColonist.Desc>새 현상수배가 게시될 때 정착민 중 한 명에게 현상금이 붙을 확률입니다.</SW.ChanceOfWarrantsMadeOnColonist.Desc>
+  <SW.EnableWarrantsOnAnimals>동물 대상 토벌 현상수배 활성화</SW.EnableWarrantsOnAnimals>
+  <SW.EnableTamingWarrants>동물 대상 포획 현상수배 활성화</SW.EnableTamingWarrants>
   <SW.EnableWarrantsOnArtifact>유물 대상 현상수배 활성화</SW.EnableWarrantsOnArtifact>
   <SW.EnableWarrantsOnColonists>정착민 대상 현상수배 활성화</SW.EnableWarrantsOnColonists>
+  <SW.FailedPlayerWarrantRelationshipDamage>현상수배 이행 실패 시 우호도 변화 (플레이어 게시)</SW.FailedPlayerWarrantRelationshipDamage>
+  <SW.FailedPlayerWarrantRelationshipDamage.Desc>플레이어가 게시한 현상수배를 수락한 세력이 시간 안에 현상수배를 완료하지 못할 경우 이 수치만큼 우호도가 변화합니다.\n0으로 설정하면 비활성화됩니다.</SW.FailedPlayerWarrantRelationshipDamage.Desc>
+  <SW.FailedAIWarrantRelationshipDamage>현상수배 이행 실패 시 우호도 변화 (플레이어 수락)</SW.FailedAIWarrantRelationshipDamage>
+  <SW.FailedAIWarrantRelationshipDamage.Desc>플레이어가 현상수배를 수락 후 시간 안에 완료하지 못할 경우 이 수치만큼 우호도가 변화합니다.\n0으로 설정하면 비활성화됩니다.</SW.FailedAIWarrantRelationshipDamage.Desc>
+  <SW.WarrantRewardMax>최대 수령 가능 현상금 비율</SW.WarrantRewardMax>
+  <SW.WarrantRewardMax.Desc>현상수배로 받을 수 있는 현상금의 최대치가 기지가치 대비 이 비율을 넘지 않게 됩니다.\n예를 들어 기지가치가 $100이고 이 비율을 5%로 설정했다면, 현상금이 $5를 초과하는 현상수배를 받지 않게 됩니다.\n\n100%로 설정하면 비활성화됩니다.</SW.WarrantRewardMax.Desc>
+  <SW.warrantRewardScaling>기지가치 비례 현상금 스케일링 활성화</SW.warrantRewardScaling>
+  <SW.warrantRewardScaling.Desc>활성화 시 현상수배로 받을 수 있는 현상금이 기지가치에 비례하게 됩니다.</SW.warrantRewardScaling.Desc>
+  <SW.BountyHunterRaidScale>현상금 사냥꾼 습격 규모</SW.BountyHunterRaidScale>
+  <SW.BountyHunterRaidScale.Desc>정착민이 현상수배 중일 경우 현상금 사냥꾼들로부터 습격이 오게 됩니다.\n이 수치에 따라 해당 습격의 습격 점수가 변동됩니다. 수치가 낮을수록 더 약한 습격, 높을수록 더 강한 습격이 오게 됩니다.</SW.BountyHunterRaidScale.Desc>
+  <SW.WarrantGenMTB>새 현상수배 평균 생성 간격</SW.WarrantGenMTB>
+  <SW.WarrantGenMTB.Desc>새 현상수배가 게시될 때까지 걸리는 평균 시간입니다. (단위: 일) </SW.WarrantGenMTB.Desc>
+  <SW.BountyRaidGenMTB>평균 습격 간격</SW.BountyRaidGenMTB>
+  <SW.BountyRaidGenMTB.Desc>현상금 사냥꾼 습격 사이의 평균 간격입니다. (단위: 일) </SW.BountyRaidGenMTB.Desc>
+  <SW.Rewards>현상금</SW.Rewards>
+  <SW.General>일반</SW.General>
+  <SW.Raids>습격</SW.Raids>
   <SW.Search>검색</SW.Search>
   <SW.EnableWarrantRewardScaling>현상금 한계치 활성화 (최소 플레이어 정착지 가치의 5%)</SW.EnableWarrantRewardScaling>
   <SW.WarrantOnNonHostileWarning>현상수배 대상으로 적대적이지 않은 인물을 선택했습니다. 계속하시겠습니까? 이 인물을 현상수배할 경우 {FACTION_name}(와)과의 관계가 손상됩니다.</SW.WarrantOnNonHostileWarning>
@@ -49,5 +73,38 @@
   <SW.YouMustFillAmountForReward>현상금을 입력해야 합니다.</SW.YouMustFillAmountForReward>
   <SW.InsufficientReward>이 현상수배는 충분하지 않은 현상금으로 인해 자동적으로 신고되었습니다. 이 경우 현상수배 이행에 있어 실패 확률이 높아지며, 완료될 때까지 걸리는 시간이 늘어납니다. 성공 확률을 높이려면 현상금을 더 높인 새 현상수배를 게시하는 것을 고려해보세요.</SW.InsufficientReward>
   <SW.Animal>동물</SW.Animal>
-  <SW.FactionDroppedWarrant>{FACTION_name}(은)는 이제 적대적이며, 따라서 {1}에 대한 현상수배는 무효화되었습니다.</SW.FactionDroppedWarrant>
+  <SW.FactionDroppedWarrant>{FACTION_name}(와)과 적대 관계가 되어 당신의 {1}에 대한 현상수배 이행이 중단되었습니다.</SW.FactionDroppedWarrant>
+  <SW.TooManyPlayerWarrants>동시에 게시할 수 있는 현상수배의 최대치 ({0}) 에 도달했습니다.\n새 현상수배를 게시하려면 게시한 현상수배가 완료될 때까지 기다리거나 제거하세요.</SW.TooManyPlayerWarrants>
+  <SW.Torture>고문</SW.Torture>
+  <SW.Poaching>밀렵</SW.Poaching>
+  <SW.Assault>습격</SW.Assault>
+  <SW.Fraud>사기</SW.Fraud>
+  <SW.RaidReasonKillCapture>이들은 {1} 혐의로 수배 중인 {PAWN_nameDef}(을)를 사살 또는 생포하는 것이 목적입니다.</SW.RaidReasonKillCapture>
+  <SW.RaidReasonCapture>이들은 {1} 혐의로 수배 중인 {PAWN_nameDef}(을)를 생포하는 것이 목적입니다.</SW.RaidReasonCapture>
+  <SW.RaidReasonKill>이들은 {1} 혐의로 수배 중인 {PAWN_nameDef}(을)를 사살하는 것이 목적입니다.</SW.RaidReasonKill>
+  <SW.Delay24Hours>지불을 24시간 연기하기</SW.Delay24Hours>
+  <SW.FactionFilter>세력 필터: {0}</SW.FactionFilter>
+  <SW.ConfirmationPrompt>정말로 {PAWN_nameDef}(을)를 현상수배하시겠습니까?
+
+{1}(와)과의 관계가 악화될 것입니다!</SW.ConfirmationPrompt>
+  <SW.WarrantCompletedByPods>{0}(이)가 현상수배 이행의 대가로 현상금을 수송 포드로 보냈습니다.</SW.WarrantCompletedByPods>
+  <SW.ReturnWarrantViaTransportPods>수송 포드로 현상수배 완료하기 ({0})</SW.ReturnWarrantViaTransportPods>
+  <SW.EnableWarrantsOnPoaching>밀렵 혐의로 수배 활성화</SW.EnableWarrantsOnPoaching>
+  <SW.EnableWarrantsOnFraud>사기 혐의로 수배 활성화</SW.EnableWarrantsOnFraud>
+  <SW.EnableWarrantsOnAssault>습격 혐의로 수배 활성화</SW.EnableWarrantsOnAssault>
+  <SW.EnableWarrantsOnTorture>고문 혐의로 수배 활성화</SW.EnableWarrantsOnTorture>
+  <SW.WarrantDetails>현상수배 정보</SW.WarrantDetails>
+  <SW.ThreatLevelPoints>{0}점</SW.ThreatLevelPoints>
+  <SW.NameLabel>이름: {0}</SW.NameLabel>
+  <SW.RaceLabel>종족: {0}</SW.RaceLabel>
+  <SW.AgeLabel>나이: {0}</SW.AgeLabel>
+  <SW.AllianceLabel>동맹: {0}</SW.AllianceLabel>
+  <SW.MessageFromFaction>{0}(으)로부터의 메시지</SW.MessageFromFaction>
+  <SW.Messages>메시지</SW.Messages>
+  <SW.EstimatedThreatLevel>예상 위협 강도</SW.EstimatedThreatLevel>
+  <SW.Message>메시지</SW.Message>
+  <SW.ForRetrieval>사유: 회수</SW.ForRetrieval>
+  <SW.ForTaming>사유: 포획</SW.ForTaming>
+  <SW.Warrant>현상수배</SW.Warrant>
+  <SW.HuntReason>토벌</SW.HuntReason>
 </LanguageData>
