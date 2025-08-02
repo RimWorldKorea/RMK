@@ -72,7 +72,9 @@
   <WN.PawnGainedTenseigan>전생안</WN.PawnGainedTenseigan>
   <WN.PawnGainedTenseiganDesc>{PAWN_nameDef}(이)가 {PAWN_possessive} 전생안을 각성했습니다!</WN.PawnGainedTenseiganDesc>
   <WN.CancelAmaterasu>아마테라스 취소</WN.CancelAmaterasu>
-  <WN.CancelAmaterasuDesc>모든 아마테라스 화재 및 투사체 취소</WN.CancelAmaterasuDesc>
+  <WN.CancelAmaterasuDesc>모든 아마테라스 화염 및 투사체 취소</WN.CancelAmaterasuDesc>
+  <WN.CancelKagutsuchi>카구츠치 취소</WN.CancelKagutsuchi>
+  <WN.CancelKagutsuchiDesc>모든 카구츠치 화염 취소</WN.CancelKagutsuchiDesc>
   <WN.RequiresChakra>차크라 필요</WN.RequiresChakra>
   <WN.EternalMangekyou>영원한 만화경</WN.EternalMangekyou>
   <WN.EternalMangekyouDesc>{PAWN_nameDef}의 만화경 사륜안이 영원해졌습니다.</WN.EternalMangekyouDesc>
@@ -92,7 +94,7 @@
   <WN.SnakeSageModeGained>뱀 선인 모드</WN.SnakeSageModeGained>
   <WN.SnakeSageModeGainedDesc>{PAWN_nameDef}(이)가 용지동의 뱀들로부터 선인 모드를 배웠습니다.</WN.SnakeSageModeGainedDesc>
   <WN.MechanitorSageModeGained>기계 선인 모드</WN.MechanitorSageModeGained>
-  <WN.MechanitorSageModeGainedDesc>{PAWN_nameDef}(이)가 차크라를 메크 링크와 혼합하여 선술를 생성했습니다.</WN.MechanitorSageModeGainedDesc>
+  <WN.MechanitorSageModeGainedDesc>{PAWN_nameDef}(이)가 차크라를 메크 링크와 혼합하여 선술을 생성했습니다.</WN.MechanitorSageModeGainedDesc>
   <WN.AnimaSageModeGained>영혼 나무 선인 모드</WN.AnimaSageModeGained>
   <WN.AnimaSageModeGainedDesc>{PAWN_nameDef}(이)가 그 과정에서 선술 차크라를 생성하는 영혼 나무와 교감했습니다.</WN.AnimaSageModeGainedDesc>
   <WN.CreateSenjutsu>선술 생성</WN.CreateSenjutsu>
@@ -102,8 +104,8 @@
   <WN.LowBandwidth>대역폭이 너무 낮습니다. 대역폭이 {0} 이상 필요합니다.</WN.LowBandwidth>
   <WN.LowPsychicSensitivity>정신적 민감도가 너무 낮습니다. {0} 이상의 정신적 민감도가 필요합니다</WN.LowPsychicSensitivity>
   <WN.CannotRead>읽을 수 없습니다: {0}</WN.CannotRead>
-  <WN.CannotReadFailed>이전 시도 실패</WN.CannotReadFailed>
-  <WN.CannotReadAllUnlocked>모든 스킬 잠금 해제</WN.CannotReadAllUnlocked>
+  <WN.CannotReadFailed>불가능. 이전 시도 실패</WN.CannotReadFailed>
+  <WN.CannotReadAllUnlocked>모든 속성 사용 가능</WN.CannotReadAllUnlocked>
   <WN.CannotReadScrollChakraNotUnlocked>차크라가 잠금 해제되지 않았습니다</WN.CannotReadScrollChakraNotUnlocked>
   <WN.CannotReadScrollAlreadyLearned>이 능력을 이미 배웠습니다</WN.CannotReadScrollAlreadyLearned>
   <WN.CannotReadScrollRequirementNotSatisfied>학습 요구 사항이 충족되지 않음</WN.CannotReadScrollRequirementNotSatisfied>
@@ -112,7 +114,7 @@
   <WN.CannotReadAlreadyUnlockedResearch>이미 잠금 해제된 {0} 연구</WN.CannotReadAlreadyUnlockedResearch>
   <WN.CannotReadScrollNotUnlocked>{0}(이)가 잠금 해제되지 않았습니다.</WN.CannotReadScrollNotUnlocked>
   <WN.CannotReadScrollOneOfTreesNotUnlocked>{0}개 중 하나가 잠금 해제되지 않았습니다.</WN.CannotReadScrollOneOfTreesNotUnlocked>
-  <WN.CancelTornado>토네이도 취소</WN.CancelTornado>
+  <WN.CancelTornado>토네이도취소</WN.CancelTornado>
   <WN.CancelTornadoDesc>토네이도를 취소합니다.</WN.CancelTornadoDesc>
   <TMF.Energy>{0} 에너지</TMF.Energy>
   <TMF.EnergyCost>{0} 비용: {1}</TMF.EnergyCost>
@@ -164,4 +166,33 @@
   <TMF.RequiresHealthConditions>필요한 건강 상태: {0}</TMF.RequiresHealthConditions>
   <TMF.CannotGainWithAbility>{0} 능력으로 배울 수 없습니다</TMF.CannotGainWithAbility>
   <TMF.RequiresMinAge>최소 연령 필요: {0}</TMF.RequiresMinAge>
+  <WN.SealSelfIntoBeast>{0}(을)를 자기 자신에게 봉인합니다. 인술레벨 17 이상 필요</WN.SealSelfIntoBeast>
+  <WN.SealIntoPawn>{0}(을)를 {1}에게 봉인합니다. 시전자의 인술레벨 17 이상 필요</WN.SealIntoPawn>
+  <WN.BondingStage>단계: {0}</WN.BondingStage>
+  <WN.LetterLabelTailedBeastExtraction>인주력 추출</WN.LetterLabelTailedBeastExtraction>
+  <WN.LetterTailedBeastExtractionFailed>{PAWN_nameDef}. {PAWN_objective} 죽이고 {PAWN_possessive} 미수를 추출했습니다.</WN.LetterTailedBeastExtractionFailed>
+  <WN.LetterTailedBeastExtractionComa>{PAWN_nameDef}(은)는 {PAWN_possessive} 미수를 추출했습니다. {PAWN_pronoun}(은)는 우즈마키의 생명력으로 인해 살아남았지만 현재는 혼수상태에서 회복 중입니다.</WN.LetterTailedBeastExtractionComa>
+  <WN.LetterLabelJinchurikiStable>인주력</WN.LetterLabelJinchurikiStable>
+  <WN.LetterJinchurikiStable>{PAWN_nameDef}(이)가 미수와의 결속이 안정 되었습니다.</WN.LetterJinchurikiStable>
+  <WN.LetterLabelJinchurikiBonded>인주력</WN.LetterLabelJinchurikiBonded>
+  <WN.LetterJinchurikiBonded>{PAWN_nameDef}(이)가 {PAWN_possessive} 미수와 결속이 완벽해졌습니다.</WN.LetterJinchurikiBonded>
+  <WN.LetterLabelJinchurikiUnstable>불안정한 인주력</WN.LetterLabelJinchurikiUnstable>
+  <WN.LetterJinchurikiUnstable>{PAWN_nameDef}의 부정적인 감정으로 인해 {PAWN_objective}(이)가 불안정한 인주력이 되었습니다.</WN.LetterJinchurikiUnstable>
+  <WN.RevertTransformation>변신 해제</WN.RevertTransformation>
+  <WN.RevertTransformationDesc>미수 변신을 수동으로 해제하고 원래의 인간 형태로 돌아갑니다.</WN.RevertTransformationDesc>
+  <WN.MessageNightmareDisruption>{PAWN_nameDef}의 미수가 {PAWN_possessive} 잠을 방해했습니다.</WN.MessageNightmareDisruption>
+  <WN_LetterLabel_TailedBeastDistressCall>미수의 조난 신호</WN_LetterLabel_TailedBeastDistressCall>
+  <WN_LetterText_TailedBeastDistressCall>{0} 근처 전초 기지에서 미수에게 공격받고 있다는 절박한 메시지를 받았습니다!\n\n그들은 도움을 간청하며 전초 기지에 남은 것을 보상으로 제공합니다.</WN_LetterText_TailedBeastDistressCall>
+  <WN_TailedBeastSummoned>{0}(이)가 근처에 소환되었습니다!</WN_TailedBeastSummoned>
+  <WN_SummonTailedBeastScroll>미수 두루마리 읽기</WN_SummonTailedBeastScroll>
+  <WN.GenjutsuTamingWoreOff>미수가 사륜안 환술에서 벗어났습니다.</WN.GenjutsuTamingWoreOff>
+  <WN.TamedTailedBeastGenjutsu>미수는 사륜안의 효과을 받고 있습니다</WN.TamedTailedBeastGenjutsu>
+  <WN.ExtinguishBlackFlames>검은 불 끄기</WN.ExtinguishBlackFlames>
+  <WN.ExtinguishBlackFlamesDesc>이 맵에 있는 "모든" 검은 불꽃을 끕니다.</WN.ExtinguishBlackFlamesDesc>
+  <WN.MessageTailedBeastTooLargeWaterPrison>미수는 물 감옥에 넣기에는 너무 큽니다</WN.MessageTailedBeastTooLargeWaterPrison>
+  <WN.SandDefenseBlocked>샌드 디펜스가 공격을 막았습니다!</WN.SandDefenseBlocked>
+  <WN.TurtleShellDazed>{0}(은)는 거북이 등껍질에 멍해졌습니다!</WN.TurtleShellDazed>
+  <WN.MonkeyStrengthKnockback>{0}(이)가 원숭이의 힘에 의해 뒤로 밀려났습니다!</WN.MonkeyStrengthKnockback>
+  <WN.MonkeyStrengthDisarm>{0}(이)가 원숭이의 힘에 의해 무장 해제되었습니다!</WN.MonkeyStrengthDisarm>
+  <WN.OctopusRetreatUsed>{0}(이)가 문어 회피에 걸렸습니다!</WN.OctopusRetreatUsed>
 </LanguageData>
