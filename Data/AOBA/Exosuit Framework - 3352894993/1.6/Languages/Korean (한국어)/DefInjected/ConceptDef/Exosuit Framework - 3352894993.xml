@@ -1,18 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <WG_ParkingSpot.label>주차 공간</WG_ParkingSpot.label>
-  <WG_ParkingSpot.helpText>프레임을 일시적으로 주차하기 위한 장소입니다. 상단이 머무르는 동안 손상된 부품을 수리할 도구는 없지만, 파일럿이 충분한 휴식과 의료 치료를 받을 수 있습니다.</WG_ParkingSpot.helpText>
+  <WG_ParkingSpot.helpText>프레임을 일시적으로 주차할 수 있는 장소입니다. 현장에서 작업하는 동안 손상된 부품을 수리할 도구는 없지만, 파일럿은 적절한 휴식과 치료를 받을 수 있습니다.</WG_ParkingSpot.helpText>
   <WG_WalkerFrame.label>워커 프레임</WG_WalkerFrame.label>
-  <WG_WalkerFrame.helpText>이제 특정 유형의 중형 외골격 슈트를 제작할 수 있는 기술을 습득했습니다. 이 슈트는 일반 슈트와 다르며, 조립과 장비 착용 또는 해제를 위해 전용 건물이 필요합니다.</WG_WalkerFrame.helpText>
+  <WG_WalkerFrame.helpText>이제 특정 유형의 중량급 외골격 슈트를 제작할 수 있는 기술을 습득했습니다. 이 슈트는 일반 슈트와 다르며, 조립과 장비 착용 또는 해제를 위해 전용 건물이 필요합니다.</WG_WalkerFrame.helpText>
   <WG_ModuleItem.label>모듈</WG_ModuleItem.label>
-  <WG_ModuleItem.helpText>모듈 상자를 획득한 것 같습니다. 이 아이템은 갠트리 크레인에서 조립할 때 사용할 수 있으며, 이를 활용할 기술이 없다면 제련소에서 재활용할 수도 있습니다.</WG_ModuleItem.helpText>
-  <WG_Module_Repair.label>수리 모듈</WG_Module_Repair.label>
+  <WG_ModuleItem.helpText>모듈 상자를 획득한 것 같습니다. 이 아이템은 갠트리 크레인에서 조립할 수 있으며, 이를 활용할 기술이 없다면 전기로에서 녹여서 재활용할 수도 있습니다.</WG_ModuleItem.helpText>
+  <WG_Module_Repair.label>모듈 수리</WG_Module_Repair.label>
   <WG_Module_Repair.helpText>제작 작업이 가능한 인물은 손상된 모듈을 수리하는 작업을 맡게 되며, 수리 속도는 해당 인물의 작업 속도에 영향을 받습니다.</WG_Module_Repair.helpText>
   <WG_Frame_PilotSchedule.label>파일럿 일정</WG_Frame_PilotSchedule.label>
-  <WG_Frame_PilotSchedule.helpText>시간 스케줄을 “파일럿”으로 설정하고 갠트리 또는 주차 지점을 지정하여 폰을 자동으로 조종하도록 지정할 수 있으며, 파일럿이 “파일럿”이나 “아무 곳이나”에 시간을 할당하지 않은 경우, 프레임은 사용 가능한 지점이나 갠트리에 수납하려고 합니다.
-</WG_Frame_PilotSchedule.helpText>
+  <WG_Frame_PilotSchedule.helpText>시간 스케줄을 '파일럿'으로 설정하고 갠트리 또는 주차 공간에 지정하면, 자동으로 해당 외골격 슈트를 조종합니다. 만약 파일럿에게 '파일럿'이나 '자유행동'으로 설정된 스케줄이 없다면, 사용 가능한 공간이나 갠트리에 프레임을 주차하려고 합니다.</WG_Frame_PilotSchedule.helpText>
   <WG_Frame_Wreckage.label>비활성화된 프레임</WG_Frame_Wreckage.label>
-  <WG_Frame_Wreckage.helpText>내구도가 다 떨어진다면, 프레임이 완전히 비활성화되어 잔해로 변하지만, 파일럿이 죽었다는 의미는 아니며, 폰에게 구조 명령을 내려 구조할 수 있습니다.</WG_Frame_Wreckage.helpText>
+  <WG_Frame_Wreckage.helpText>내구도가 0이 된다면, 프레임이 완전히 비활성화되어 잔해로 변하지만, 파일럿이 죽었다는 의미는 아니며, 폰에게 구조 명령을 내려 구조할 수 있습니다.</WG_Frame_Wreckage.helpText>
   <WG_Gantry_LinkBuilding.label>모듈 저장소</WG_Gantry_LinkBuilding.label>
   <WG_Gantry_LinkBuilding.helpText>갠트리 크레인에는 연결된 모듈 저장소의 모듈만 표시되므로 메뉴를 열기 전에 모듈 저장소가 연결되어 있는지 확인하세요.
 </WG_Gantry_LinkBuilding.helpText>
@@ -22,7 +21,8 @@
   <WG_Gantry_Overloaded.label>과적재</WG_Gantry_Overloaded.label>
   <WG_Gantry_Overloaded.helpText>적재된 무게가 프레임이 감당할 수 있는 한도를 초과하면 프레임이 과적재 상태가 됩니다. 여전히 조종할 수는 있지만, 적재 용량이 사라지고 이동 속도가 50%로 감소합니다.</WG_Gantry_Overloaded.helpText>
   <WG_Gantry_Repair.label>갠트리에서 수리</WG_Gantry_Repair.label>
-  <WG_Gantry_Repair.helpText>제작 작업이 가능한 인물은 자동 수리가 활성화된 경우 갠트리에서 조립된 모듈을 수리하게 됩니다. 그러나, 이 작업에는 더 긴 시간이 소요됩니다.</WG_Gantry_Repair.helpText>
+  <WG_Gantry_Repair.helpText>제작 작업이 가능한 인물은 자동 수리가 활성화된 갠트리에서 조립된 모듈을 수리하게 됩니다. 그러나, 이 작업에는 더 긴 시간이 소요됩니다.</WG_Gantry_Repair.helpText>
   <WG_Frame_Capture.label>쓰러진 파일럿 포획</WG_Frame_Capture.label>
   <WG_Frame_Capture.helpText>파일럿은 프레임 안에 가둘 수 없으며 문을 손쉽게 부수고 나옵니다. 쓰러진 적 프레임을 해체하면 파일럿을 프레임에서 제거할 수 있습니다.</WG_Frame_Capture.helpText>
+  <WG_Gantry_LoadModule.label>모듈 조립</WG_Gantry_LoadModule.label>
 </LanguageData>
