@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WN_BanditCamp.questNameRules.rulesStrings.0>questName->산적 캠프</WN_BanditCamp.questNameRules.rulesStrings.0>
+  <WN_BanditCamp.questDescriptionRules.rulesStrings.0>questDescription->산적 닌자 무리가 두루마리 몇 개를 훔쳐 마을 근처에 숨어 있습니다. 우리가 그들을 물리치면 두루마리를 가져 올 수 있습니다.</WN_BanditCamp.questDescriptionRules.rulesStrings.0>
+  <WN_BanditCamp.root.nodes.9.node.name>사이트 포인트</WN_BanditCamp.root.nodes.9.node.name>
+  <WN_BanditCamp.root.nodes.14.node.nodes.0.label>퀘스트 만료됨: [resolvedQuestName]</WN_BanditCamp.root.nodes.14.node.nodes.0.label>
+  <WN_BanditCamp.root.nodes.14.node.nodes.0.text>산적 캠프는 짐을 꾸리고 도망갔습니다. [resolvedQuestName] 퀘스트가 만료되었습니다.</WN_BanditCamp.root.nodes.14.node.nodes.0.text>
+  <WN_BanditCamp.root.nodes.15.node.nodes.0.label>퀘스트 실패: [resolvedQuestName]</WN_BanditCamp.root.nodes.15.node.nodes.0.label>
+  <WN_BanditCamp.root.nodes.15.node.nodes.0.text>적발 후 산적 캠프는 해산되었습니다. [resolvedQuestName] 퀘스트가 종료되었습니다.</WN_BanditCamp.root.nodes.15.node.nodes.0.text>
+  <WN_DefendInformant.questNameRules.rulesStrings.0>questName->정보원을 변호하다</WN_DefendInformant.questNameRules.rulesStrings.0>
+  <WN_DefendInformant.questDescriptionAndNameRules.rulesStrings.0>lodgersLabel->손님</WN_DefendInformant.questDescriptionAndNameRules.rulesStrings.0>
+  <WN_DefendInformant.questDescriptionAndNameRules.rulesStrings.1>lodgersLabelPlural->[asker_faction_pawnsPlural]</WN_DefendInformant.questDescriptionAndNameRules.rulesStrings.1>
+  <WN_DefendInformant.questDescriptionRules.rulesStrings.0>lodgersDef(lodgersCount==1)->[lodgers0_nameDef]</WN_DefendInformant.questDescriptionRules.rulesStrings.0>
+  <WN_DefendInformant.questDescriptionRules.rulesStrings.1>lodgersDef(lodgersCount>=2)->그 [lodgersLabelPlural]</WN_DefendInformant.questDescriptionRules.rulesStrings.1>
+  <WN_DefendInformant.questDescriptionRules.rulesStrings.2>joinerEnding(priority=1)-></WN_DefendInformant.questDescriptionRules.rulesStrings.2>
+  <WN_DefendInformant.questDescriptionRules.rulesStrings.3>joinerEnding->[lodgersDef] 자신의 정착지 주민들을 지휘하는 것과 같은 방식으로 [specialNeedsExplanation](을)를 지휘할 수 있습니다.</WN_DefendInformant.questDescriptionRules.rulesStrings.3>
+  <WN_DefendInformant.questDescriptionRules.rulesStrings.4>specialNeedsExplanation(asker_royalInCurrentFaction==True,priority=1)->[lodgersLabelPlural](이)가 가질 수 있는 특별한 왕실 요구 사항을 충족해야 합니다.</WN_DefendInformant.questDescriptionRules.rulesStrings.4>
+  <WN_DefendInformant.questDescriptionRules.rulesStrings.5>specialNeedsExplanation-></WN_DefendInformant.questDescriptionRules.rulesStrings.5>
+  <WN_DefendInformant.questDescriptionRules.rulesStrings.6>theirHisHer(lodgersCount==1)->[lodgers0_possessive]</WN_DefendInformant.questDescriptionRules.rulesStrings.6>
+  <WN_DefendInformant.questDescriptionRules.rulesStrings.7>theirHisHer(lodgersCount>=2)->그들의</WN_DefendInformant.questDescriptionRules.rulesStrings.7>
+  <WN_DefendInformant.questDescriptionRules.rulesStrings.8>lodgersPronoun(lodgersCount==1)->[lodgers0_pronoun]</WN_DefendInformant.questDescriptionRules.rulesStrings.8>
+  <WN_DefendInformant.questDescriptionRules.rulesStrings.9>lodgersPronoun(lodgersCount>=2)->그들</WN_DefendInformant.questDescriptionRules.rulesStrings.9>
+  <WN_DefendInformant.questDescriptionRules.rulesStrings.10>lodgersWasWere(lodgersCount==1)->였다</WN_DefendInformant.questDescriptionRules.rulesStrings.10>
+  <WN_DefendInformant.questDescriptionRules.rulesStrings.11>lodgersWasWere(lodgersCount>=2)->이었다</WN_DefendInformant.questDescriptionRules.rulesStrings.11>
+  <WN_DefendInformant.questDescriptionRules.rulesStrings.12>appreciateAppreciates(lodgersCount==1)->감사합니다</WN_DefendInformant.questDescriptionRules.rulesStrings.12>
+  <WN_DefendInformant.questDescriptionRules.rulesStrings.13>appreciateAppreciates(lodgersCount>=2)->고마워하다</WN_DefendInformant.questDescriptionRules.rulesStrings.13>
+  <WN_DefendInformant.questDescriptionRules.rulesStrings.14>goodwillForMood(goodwillRewardForMood==true,priority=1)->[lodgersLabelSingOrPluralDef] [appreciateAppreciates] 수준 높은 숙박 시설. [theirHisHer] 평균 기분을 50% 이상으로 유지하면 [asker_faction_name]의 호의를 얻을 수 있습니다.</WN_DefendInformant.questDescriptionRules.rulesStrings.14>
+  <WN_DefendInformant.questDescriptionRules.rulesStrings.15>goodwillForMood-></WN_DefendInformant.questDescriptionRules.rulesStrings.15>
+  <WN_DefendInformant.questDescriptionRules.rulesStrings.16>questDescription->제보자가 암살 대상이 되고 있습니다. 안전한 보호를 준비하고 있으니 우선 12일간 안전하게 보호해주시기 바랍니다. 정보원이 정착지에 있는 동안 적대적인 닌자는 주기적으로 습격을 보낼 것입니다.</WN_DefendInformant.questDescriptionRules.rulesStrings.16>
+  <WN_DefendInformant.root.nodes.0.name>질문자경위 범위</WN_DefendInformant.root.nodes.0.name>
+  <WN_DefendInformant.root.nodes.10.nodes.0.name>손님나가기후틱</WN_DefendInformant.root.nodes.10.nodes.0.name>
+  <WN_DefendInformant.root.nodes.10.nodes.1.name>위협 포인트</WN_DefendInformant.root.nodes.10.nodes.1.name>
+  <WN_DefendInformant.root.nodes.10.nodes.2.node.name>위협 포인트</WN_DefendInformant.root.nodes.10.nodes.2.node.name>
+  <WN_DefendInformant.root.nodes.10.nodes.5.name>위협 유형</WN_DefendInformant.root.nodes.10.nodes.5.name>
+  <WN_DefendInformant.root.nodes.11.name>위협 유형</WN_DefendInformant.root.nodes.11.name>
+  <WN_DefendInformant.root.nodes.11.node.name>허용된 위협</WN_DefendInformant.root.nodes.11.node.name>
+  <WN_DefendInformant.root.nodes.12.name>위협 요인</WN_DefendInformant.root.nodes.12.name>
+  <WN_DefendInformant.root.nodes.12.node.name>위협크기</WN_DefendInformant.root.nodes.12.node.name>
+  <WN_DefendInformant.root.nodes.15.node.nodes.1.node.label>제보자는 떠난다</WN_DefendInformant.root.nodes.15.node.nodes.1.node.label>
+  <WN_DefendInformant.root.nodes.15.node.nodes.1.node.text>[asker_nameDef](이)가 보낸 제보자는 지금 떠나고 있습니다.</WN_DefendInformant.root.nodes.15.node.nodes.1.node.text>
+  <WN_DefendInformant.root.nodes.15.node.nodes.2.name>보내기 표준 편지</WN_DefendInformant.root.nodes.15.node.nodes.2.name>
+  <WN_DefendInformant.root.nodes.18.node.nodes.0.label>제보자 사망: {SUBJECT_definite}</WN_DefendInformant.root.nodes.18.node.nodes.0.label>
+  <WN_DefendInformant.root.nodes.18.node.nodes.0.text>귀하가 보호해야 했던 [letterSubject](이)가 사망했습니다. [failLetterEndingCommon]</WN_DefendInformant.root.nodes.18.node.nodes.0.text>
+  <WN_DefendInformant.root.nodes.19.node.nodes.0.label>제보자 포착: {SUBJECT_definite}</WN_DefendInformant.root.nodes.19.node.nodes.0.label>
+  <WN_DefendInformant.root.nodes.19.node.nodes.0.text>귀하가 보호하도록 기소된 [letterSubject](이)가 체포되었습니다. [failLetterEndingQuest]</WN_DefendInformant.root.nodes.19.node.nodes.0.text>
+  <WN_DefendInformant.root.nodes.20.node.nodes.0.label>포로 모집: {SUBJECT_definite}</WN_DefendInformant.root.nodes.20.node.nodes.0.label>
+  <WN_DefendInformant.root.nodes.20.node.nodes.0.text>당신은 경비를 맡은 {SUBJECT_definite}(을)를 모집했습니다. [failLetterEndingCommon]</WN_DefendInformant.root.nodes.20.node.nodes.0.text>
+  <WN_DefendInformant.root.nodes.21.node.nodes.0.label>노예가 된 죄수: {SUBJECT_definite}</WN_DefendInformant.root.nodes.21.node.nodes.0.label>
+  <WN_DefendInformant.root.nodes.21.node.nodes.0.text>당신은 당신이 보호하도록 기소된 {SUBJECT_definite}(을)를 노예로 삼았습니다. [failLetterEndingCommon]</WN_DefendInformant.root.nodes.21.node.nodes.0.text>
+  <WN_DefendInformant.root.nodes.22.node.nodes.0.label>무단 수술: {SUBJECT_definite}</WN_DefendInformant.root.nodes.22.node.nodes.0.label>
+  <WN_DefendInformant.root.nodes.22.node.nodes.0.text>[letterSubject]에서 허가받지 않은 위반 수술이 수행되었습니다. [failLetterEndingCommon]</WN_DefendInformant.root.nodes.22.node.nodes.0.text>
+  <WN_DefendInformant.root.nodes.23.node.nodes.0.label>이종배아 흡수: {SUBJECT_definite}</WN_DefendInformant.root.nodes.23.node.nodes.0.label>
+  <WN_DefendInformant.root.nodes.23.node.nodes.0.text>당신이 보호해야 할 {SUBJECT_definite}(이)가 {SUBJECT_possessive} 이종 세균을 강제로 흡수했습니다. [failLetterEndingCommon]</WN_DefendInformant.root.nodes.23.node.nodes.0.text>
+  <WN_DefendInformant.root.nodes.24.node.nodes.0.label>제보자 상실: {SUBJECT_definite}</WN_DefendInformant.root.nodes.24.node.nodes.0.label>
+  <WN_DefendInformant.root.nodes.24.node.nodes.0.text>당신이 보호해야 했던 [letterSubject](이)가 사라졌습니다. [failLetterEndingCommon]</WN_DefendInformant.root.nodes.24.node.nodes.0.text>
+  <WN_DefendInformant.root.nodes.25.node.nodes.0.label>제보자 상실: {SUBJECT_definite}</WN_DefendInformant.root.nodes.25.node.nodes.0.label>
+  <WN_DefendInformant.root.nodes.25.node.nodes.0.text>당신이 보호해야 할 [letterSubject](이)가 날뛰었습니다. [failLetterEndingCommon]</WN_DefendInformant.root.nodes.25.node.nodes.0.text>
+  <WN_DefendInformant.root.nodes.26.node.node.nodes.0.label>제보자 상실: {SUBJECT_definite}</WN_DefendInformant.root.nodes.26.node.node.nodes.0.label>
+  <WN_DefendInformant.root.nodes.26.node.node.nodes.0.text>당신이 보호해야 했던 [letterSubject](이)가 다른 세력에 합류했습니다. [failLetterEndingCommon]</WN_DefendInformant.root.nodes.26.node.node.nodes.0.text>
+  <WN_DefendInformant.root.nodes.29.elseNode.node.nodes.0.label>퀘스트 실패: [resolvedQuestName]</WN_DefendInformant.root.nodes.29.elseNode.node.nodes.0.label>
+  <WN_DefendInformant.root.nodes.29.elseNode.node.nodes.0.text>[asker_faction_name](은)는 이제 당신에게 적대적입니다. [failLetterEndingQuest]</WN_DefendInformant.root.nodes.29.elseNode.node.nodes.0.text>
+  <WN_DefendJounin.questNameRules.rulesStrings.0>questName->닌자 돌격부대</WN_DefendJounin.questNameRules.rulesStrings.0>
+  <WN_DefendJounin.questDescriptionRules.rulesStrings.0>questDescription->한 마을의 분대가 조난 신호를 보냈으며 불량 닌자 그룹을 그쪽으로 이동시키고 싶어합니다. 상급 닌자들은 수락 후 곧 도착할 것이며, 도착 후 하루 이내에 습격을 받게 될 것입니다. 그들은 살아남아야 합니다.</WN_DefendJounin.questDescriptionRules.rulesStrings.0>
+  <WN_DefendJounin.root.nodes.5.name>습격에 걸리는 시간</WN_DefendJounin.root.nodes.5.name>
+  <WN_Util_RogueRaid.questDescriptionRules.rulesStrings.0>threatDescription->[enemyFaction_name]의 [enemyFaction_pawnsPlural](이)가 당신을 공격할 것입니다. 그들의 그룹은 다음과 같이 구성됩니다:\n\n[raidPawnKinds]\n\n[raidArrivalModeInfo]</WN_Util_RogueRaid.questDescriptionRules.rulesStrings.0>
+  <WN_Util_JouninWalkIn.questDescriptionRules.rulesStrings.0>rewardDescription->[jounin_nameDef]라는 이름의 [jounin_age]세 [jounin_title](이)가 도착하여 여러분과 합류할 것입니다. [jounin_relationInfo]</WN_Util_JouninWalkIn.questDescriptionRules.rulesStrings.0>
+  <WN_Util_JouninWalkIn.root.nodes.5.node.nodes.0.label>상급 닌자 사망: {SUBJECT_definite}</WN_Util_JouninWalkIn.root.nodes.5.node.nodes.0.label>
+  <WN_Util_JouninWalkIn.root.nodes.5.node.nodes.0.text>귀하가 보호해야 했던 {SUBJECT_definite}(이)가 사망했습니다. 퀘스트가 실패했습니다.</WN_Util_JouninWalkIn.root.nodes.5.node.nodes.0.text>
+  <WN_Util_JouninWalkIn.root.nodes.6.node.nodes.0.label>무단 수술: {SUBJECT_definite}</WN_Util_JouninWalkIn.root.nodes.6.node.nodes.0.label>
+  <WN_Util_JouninWalkIn.root.nodes.6.node.nodes.0.text>당신이 보호해야 할 {SUBJECT_definite}에 대해 무단, 위반 수술이 수행되었습니다. 이 위반으로 인해 [jounin_pronoun](은)는 이제 떠나려고 시도합니다. 퀘스트가 실패했습니다.</WN_Util_JouninWalkIn.root.nodes.6.node.nodes.0.text>
+  <WN_Util_JouninWalkIn.root.nodes.7.node.nodes.0.label>이종배아 흡수: {SUBJECT_definite}</WN_Util_JouninWalkIn.root.nodes.7.node.nodes.0.label>
+  <WN_Util_JouninWalkIn.root.nodes.7.node.nodes.0.text>당신이 보호해야 할 {SUBJECT_definite}(이)가 {SUBJECT_possessive} 이종 세균을 강제로 흡수했습니다. 이 위반으로 인해 {SUBJECT_pronoun}(은)는 이제 떠나려고 시도합니다. 퀘스트가 실패했습니다.</WN_Util_JouninWalkIn.root.nodes.7.node.nodes.0.text>
+  <WN_Util_JouninWalkIn.root.nodes.8.node.nodes.0.label>체포됨: {SUBJECT_definite}</WN_Util_JouninWalkIn.root.nodes.8.node.nodes.0.label>
+  <WN_Util_JouninWalkIn.root.nodes.8.node.nodes.0.text>귀하가 맡도록 기소된 {SUBJECT_definite}(이)가 체포되었습니다. 퀘스트가 실패했습니다.</WN_Util_JouninWalkIn.root.nodes.8.node.nodes.0.text>
+  <WN_Util_JouninWalkIn.root.nodes.9.node.nodes.0.label>상급 닌자 패배: {SUBJECT_definite}</WN_Util_JouninWalkIn.root.nodes.9.node.nodes.0.label>
+  <WN_Util_JouninWalkIn.root.nodes.9.node.nodes.0.text>귀하가 보호해야 할 {SUBJECT_definite}(이)가 지정된 장소를 떠났습니다. 퀘스트가 실패했습니다.</WN_Util_JouninWalkIn.root.nodes.9.node.nodes.0.text>
+  <WN_Util_JouninWalkIn.root.nodes.10.node.nodes.0.label>상급 닌자 패배: {SUBJECT_definite}</WN_Util_JouninWalkIn.root.nodes.10.node.nodes.0.label>
+  <WN_Util_JouninWalkIn.root.nodes.10.node.nodes.0.text>당신이 보호해야 할 {SUBJECT_definite}(이)가 날뛰었습니다. 퀘스트가 실패했습니다.</WN_Util_JouninWalkIn.root.nodes.10.node.nodes.0.text>
+  <WN_Util_JouninWalkIn.root.nodes.11.node.node.nodes.0.label>손님 분실: {SUBJECT_definite}</WN_Util_JouninWalkIn.root.nodes.11.node.node.nodes.0.label>
+  <WN_Util_JouninWalkIn.root.nodes.11.node.node.nodes.0.text>당신이 보호해야 했던 {SUBJECT_definite}(이)가 다른 세력에 합류했습니다. 퀘스트가 실패했습니다.</WN_Util_JouninWalkIn.root.nodes.11.node.node.nodes.0.text>
+  <WN_GeninGuests.questNameRules.rulesStrings.0>questName->3 하급 닌자 보호</WN_GeninGuests.questNameRules.rulesStrings.0>
+  <WN_GeninGuests.questDescriptionAndNameRules.rulesStrings.0>lodgersLabel->손님</WN_GeninGuests.questDescriptionAndNameRules.rulesStrings.0>
+  <WN_GeninGuests.questDescriptionAndNameRules.rulesStrings.1>lodgersLabelPlural->[asker_faction_pawnsPlural]</WN_GeninGuests.questDescriptionAndNameRules.rulesStrings.1>
+  <WN_GeninGuests.questDescriptionRules.rulesStrings.0>lodgersDef(lodgersCount==1)->[lodgers0_nameDef]</WN_GeninGuests.questDescriptionRules.rulesStrings.0>
+  <WN_GeninGuests.questDescriptionRules.rulesStrings.1>lodgersDef(lodgersCount>=2)->그 [lodgersLabelPlural]</WN_GeninGuests.questDescriptionRules.rulesStrings.1>
+  <WN_GeninGuests.questDescriptionRules.rulesStrings.2>joinerEnding(priority=1)-></WN_GeninGuests.questDescriptionRules.rulesStrings.2>
+  <WN_GeninGuests.questDescriptionRules.rulesStrings.3>joinerEnding->자신의 정착지 주민들을 지휘하는 것과 같은 방식으로 [specialNeedsExplanation](을)를 지휘할 수 있습니다.</WN_GeninGuests.questDescriptionRules.rulesStrings.3>
+  <WN_GeninGuests.questDescriptionRules.rulesStrings.4>specialNeedsExplanation(asker_royalInCurrentFaction==True,priority=1)->[lodgersLabelPlural](이)가 가질 수 있는 특별한 왕실 요구 사항을 충족해야 합니다.</WN_GeninGuests.questDescriptionRules.rulesStrings.4>
+  <WN_GeninGuests.questDescriptionRules.rulesStrings.5>specialNeedsExplanation-></WN_GeninGuests.questDescriptionRules.rulesStrings.5>
+  <WN_GeninGuests.questDescriptionRules.rulesStrings.6>theirHisHer(lodgersCount==1)->[lodgers0_possessive]</WN_GeninGuests.questDescriptionRules.rulesStrings.6>
+  <WN_GeninGuests.questDescriptionRules.rulesStrings.7>theirHisHer(lodgersCount>=2)->그들의</WN_GeninGuests.questDescriptionRules.rulesStrings.7>
+  <WN_GeninGuests.questDescriptionRules.rulesStrings.8>lodgersPronoun(lodgersCount==1)->[lodgers0_pronoun]</WN_GeninGuests.questDescriptionRules.rulesStrings.8>
+  <WN_GeninGuests.questDescriptionRules.rulesStrings.9>lodgersPronoun(lodgersCount>=2)->그들</WN_GeninGuests.questDescriptionRules.rulesStrings.9>
+  <WN_GeninGuests.questDescriptionRules.rulesStrings.10>lodgersWasWere(lodgersCount==1)->였다</WN_GeninGuests.questDescriptionRules.rulesStrings.10>
+  <WN_GeninGuests.questDescriptionRules.rulesStrings.11>lodgersWasWere(lodgersCount>=2)->이었다</WN_GeninGuests.questDescriptionRules.rulesStrings.11>
+  <WN_GeninGuests.questDescriptionRules.rulesStrings.12>appreciateAppreciates(lodgersCount==1)->감사합니다</WN_GeninGuests.questDescriptionRules.rulesStrings.12>
+  <WN_GeninGuests.questDescriptionRules.rulesStrings.13>appreciateAppreciates(lodgersCount>=2)->고마워하다</WN_GeninGuests.questDescriptionRules.rulesStrings.13>
+  <WN_GeninGuests.questDescriptionRules.rulesStrings.14>goodwillForMood(goodwillRewardForMood==true,priority=1)->[lodgersLabelSingOrPluralDef] [appreciateAppreciates] 수준 높은 숙박 시설. [theirHisHer] 평균 기분을 50% 이상으로 유지하면 [asker_faction_name]의 호의를 얻을 수 있습니다.</WN_GeninGuests.questDescriptionRules.rulesStrings.14>
+  <WN_GeninGuests.questDescriptionRules.rulesStrings.15>goodwillForMood-></WN_GeninGuests.questDescriptionRules.rulesStrings.15>
+  <WN_GeninGuests.questDescriptionRules.rulesStrings.16>questDescription->[asker_nameFull], 숨겨진 마을의 카게는 훈련의 일환으로 하급 닌자 3명을 15일 동안 맡아 달라고 요청했습니다. 머무는 동안 적대적인 습격이 발생할 수 있으니 주의하세요. 어떤 희생을 치르더라도 그들을 보호하십시오.</WN_GeninGuests.questDescriptionRules.rulesStrings.16>
+  <WN_GeninGuests.root.nodes.0.name>질문자경위 범위</WN_GeninGuests.root.nodes.0.name>
+  <WN_GeninGuests.root.nodes.4.name>숙박객 수</WN_GeninGuests.root.nodes.4.name>
+  <WN_GeninGuests.root.nodes.6.name>하숙인 카운트</WN_GeninGuests.root.nodes.6.name>
+  <WN_GeninGuests.root.nodes.7.name>하숙인 카운트 -1</WN_GeninGuests.root.nodes.7.name>
+  <WN_GeninGuests.root.nodes.8.node.nodes.0.name>아이들 카운트</WN_GeninGuests.root.nodes.8.node.nodes.0.name>
+  <WN_GeninGuests.root.nodes.8.node.nodes.1.name>아이들 카운트</WN_GeninGuests.root.nodes.8.node.nodes.1.name>
+  <WN_GeninGuests.root.nodes.8.elseNode.name>아이들 카운트</WN_GeninGuests.root.nodes.8.elseNode.name>
+  <WN_GeninGuests.root.nodes.15.nodes.0.name>손님 나가기 후 틱</WN_GeninGuests.root.nodes.15.nodes.0.name>
+  <WN_GeninGuests.root.nodes.15.nodes.1.name>위협 포인트</WN_GeninGuests.root.nodes.15.nodes.1.name>
+  <WN_GeninGuests.root.nodes.15.nodes.2.node.name>위협 포인트</WN_GeninGuests.root.nodes.15.nodes.2.node.name>
+  <WN_GeninGuests.root.nodes.15.nodes.5.name>위협 유형</WN_GeninGuests.root.nodes.15.nodes.5.name>
+  <WN_GeninGuests.root.nodes.16.name>위협 유형</WN_GeninGuests.root.nodes.16.name>
+  <WN_GeninGuests.root.nodes.16.node.name>허용된 위협</WN_GeninGuests.root.nodes.16.node.name>
+  <WN_GeninGuests.root.nodes.17.name>위협 요인</WN_GeninGuests.root.nodes.17.name>
+  <WN_GeninGuests.root.nodes.17.node.name>위협 크기</WN_GeninGuests.root.nodes.17.node.name>
+  <WN_GeninGuests.root.nodes.20.node.nodes.1.node.label>하급 닌자가 떠난다</WN_GeninGuests.root.nodes.20.node.nodes.1.node.label>
+  <WN_GeninGuests.root.nodes.20.node.nodes.1.node.text>[asker_nameDef](이)가 보낸 하급 닌자들이 지금 떠나고 있습니다.</WN_GeninGuests.root.nodes.20.node.nodes.1.node.text>
+  <WN_GeninGuests.root.nodes.20.node.nodes.2.name>보내기 표준 편지</WN_GeninGuests.root.nodes.20.node.nodes.2.name>
+  <WN_GeninGuests.root.nodes.20.node.nodes.3.node.nodes.0.label>퀘스트 완료</WN_GeninGuests.root.nodes.20.node.nodes.3.node.nodes.0.label>
+  <WN_GeninGuests.root.nodes.20.node.nodes.3.node.nodes.0.text>'[resolvedQuestName]' 퀘스트를 성공적으로 완료했습니다!\n\n[lodgersLabelSingOrPluralDef]는 [lodgersPronoun] [lodgersWasWere] 양질의 숙박 시설에 대한 보상을 기꺼이 제공하겠다고 밝혔습니다. [theirHisHer] 체류 기간 동안 [lodgersLabelSingOrPluralDef]의 평균 기분은 {AVERAGEMOOD}였기 때문에 [asker_faction_name]에 대한 호감도가 {GOODWILL} 증가했습니다.</WN_GeninGuests.root.nodes.20.node.nodes.3.node.nodes.0.text>
+  <WN_GeninGuests.root.nodes.20.node.nodes.4.node.nodes.0.label>퀘스트 완료</WN_GeninGuests.root.nodes.20.node.nodes.4.node.nodes.0.label>
+  <WN_GeninGuests.root.nodes.20.node.nodes.4.node.nodes.0.text>'[resolvedQuestName]' 퀘스트를 성공적으로 완료했습니다!\n\n[lodgersLabelSingOrPluralDef] [lodgersWasWere] 양질의 숙박 시설에 대한 보상을 기꺼이 제공하는 반면, [theirHisHer] 평균 기분은 [theirHisHer] 숙박 기간 동안 {AVERAGEMOOD}에 불과했습니다. 당신은 파벌의 선의 보상을 받지 못할 것입니다.</WN_GeninGuests.root.nodes.20.node.nodes.4.node.nodes.0.text>
+  <WN_GeninGuests.root.nodes.23.node.nodes.0.label>손님 사망: {SUBJECT_definite}</WN_GeninGuests.root.nodes.23.node.nodes.0.label>
+  <WN_GeninGuests.root.nodes.23.node.nodes.0.text>귀하가 보호해야 했던 [letterSubject](이)가 사망했습니다. [remainingWillNowLeave][failLetterEndingCommon]</WN_GeninGuests.root.nodes.23.node.nodes.0.text>
+  <WN_GeninGuests.root.nodes.24.node.nodes.0.label>손님 체포: {SUBJECT_definite}</WN_GeninGuests.root.nodes.24.node.nodes.0.label>
+  <WN_GeninGuests.root.nodes.24.node.nodes.0.text>귀하가 보호하도록 기소된 [letterSubject](이)가 체포되었습니다. [remainingWillNowLeave][failLetterEndingQuest]</WN_GeninGuests.root.nodes.24.node.nodes.0.text>
+  <WN_GeninGuests.root.nodes.25.node.nodes.0.label>포로 모집: {SUBJECT_definite}</WN_GeninGuests.root.nodes.25.node.nodes.0.label>
+  <WN_GeninGuests.root.nodes.25.node.nodes.0.text>당신은 경비를 맡은 {SUBJECT_definite}(을)를 모집했습니다. [remainingWillNowLeave][failLetterEndingCommon]</WN_GeninGuests.root.nodes.25.node.nodes.0.text>
+  <WN_GeninGuests.root.nodes.26.node.nodes.0.label>노예가 된 죄수: {SUBJECT_definite}</WN_GeninGuests.root.nodes.26.node.nodes.0.label>
+  <WN_GeninGuests.root.nodes.26.node.nodes.0.text>당신은 당신이 보호하도록 기소된 {SUBJECT_definite}(을)를 노예로 삼았습니다. [remainingWillNowLeave][failLetterEndingCommon]</WN_GeninGuests.root.nodes.26.node.nodes.0.text>
+  <WN_GeninGuests.root.nodes.27.node.nodes.0.label>무단 수술: {SUBJECT_definite}</WN_GeninGuests.root.nodes.27.node.nodes.0.label>
+  <WN_GeninGuests.root.nodes.27.node.nodes.0.text>[letterSubject]에서 허가받지 않은 위반 수술이 수행되었습니다. [remainingWillNowLeave][failLetterEndingCommon]</WN_GeninGuests.root.nodes.27.node.nodes.0.text>
+  <WN_GeninGuests.root.nodes.28.node.nodes.0.label>이종배아 흡수: {SUBJECT_definite}</WN_GeninGuests.root.nodes.28.node.nodes.0.label>
+  <WN_GeninGuests.root.nodes.28.node.nodes.0.text>당신이 보호해야 할 {SUBJECT_definite}(이)가 {SUBJECT_possessive} 이종 세균을 강제로 흡수했습니다. [remainingWillNowLeave][failLetterEndingCommon]</WN_GeninGuests.root.nodes.28.node.nodes.0.text>
+  <WN_GeninGuests.root.nodes.29.node.nodes.0.label>손님 분실: {SUBJECT_definite}</WN_GeninGuests.root.nodes.29.node.nodes.0.label>
+  <WN_GeninGuests.root.nodes.29.node.nodes.0.text>당신이 보호해야 했던 [letterSubject](이)가 사라졌습니다. [remainingWillNowLeave][failLetterEndingCommon]</WN_GeninGuests.root.nodes.29.node.nodes.0.text>
+  <WN_GeninGuests.root.nodes.30.node.nodes.0.label>손님 분실: {SUBJECT_definite}</WN_GeninGuests.root.nodes.30.node.nodes.0.label>
+  <WN_GeninGuests.root.nodes.30.node.nodes.0.text>당신이 보호해야 할 [letterSubject](이)가 날뛰었습니다. [remainingWillNowLeave][failLetterEndingCommon]</WN_GeninGuests.root.nodes.30.node.nodes.0.text>
+  <WN_GeninGuests.root.nodes.31.node.node.nodes.0.label>손님 분실: {SUBJECT_definite}</WN_GeninGuests.root.nodes.31.node.node.nodes.0.label>
+  <WN_GeninGuests.root.nodes.31.node.node.nodes.0.text>당신이 보호해야 했던 [letterSubject](이)가 다른 세력에 합류했습니다. [remainingWillNowLeave][failLetterEndingCommon]</WN_GeninGuests.root.nodes.31.node.node.nodes.0.text>
+  <WN_GeninGuests.root.nodes.34.elseNode.node.nodes.0.label>퀘스트 실패: [resolvedQuestName]</WN_GeninGuests.root.nodes.34.elseNode.node.nodes.0.label>
+  <WN_GeninGuests.root.nodes.34.elseNode.node.nodes.0.text>[asker_faction_name](은)는 이제 당신에게 적대적입니다. [failLetterEndingQuest]</WN_GeninGuests.root.nodes.34.elseNode.node.nodes.0.text>
+  <WN_LargeNinjaAssault.questNameRules.rulesStrings.0>questName->대규모 닌자 습격</WN_LargeNinjaAssault.questNameRules.rulesStrings.0>
+  <WN_LargeNinjaAssault.questDescriptionRules.rulesStrings.0>questDescription->우리에게 닥친 대규모 닌자 부대를 당신의 기지로 보내고 싶습니다. 우리는 그들을 방어를 돕기 위해 소규모 분대를 보낼 것입니다. 앞으로 15일 이내에 4차례의 불량 닌자 공격이 시작됩니다. 3 상급 닌자들은 당신을 돕기 위해 보내질 것입니다. 그들은 죽어도 크게 신경 안 쓸 것 입니다.</WN_LargeNinjaAssault.questDescriptionRules.rulesStrings.0>
+  <WN_LargeNinjaAssault.root.nodes.0.name>질문자경위 범위</WN_LargeNinjaAssault.root.nodes.0.name>
+  <WN_LargeNinjaAssault.root.nodes.4.name>상급 닌자의 수</WN_LargeNinjaAssault.root.nodes.4.name>
+  <WN_LargeNinjaAssault.root.nodes.6.name>상급 닌자 카운트</WN_LargeNinjaAssault.root.nodes.6.name>
+  <WN_LargeNinjaAssault.root.nodes.7.name>상급 닌자 카운트 -1</WN_LargeNinjaAssault.root.nodes.7.name>
+  <WN_LargeNinjaAssault.root.nodes.13.nodes.0.name>손님 나가기 후 틱</WN_LargeNinjaAssault.root.nodes.13.nodes.0.name>
+  <WN_LargeNinjaAssault.root.nodes.13.nodes.1.name>위협 포인트</WN_LargeNinjaAssault.root.nodes.13.nodes.1.name>
+  <WN_LargeNinjaAssault.root.nodes.13.nodes.2.node.name>위협 포인트</WN_LargeNinjaAssault.root.nodes.13.nodes.2.node.name>
+  <WN_LargeNinjaAssault.root.nodes.13.nodes.5.name>위협 유형</WN_LargeNinjaAssault.root.nodes.13.nodes.5.name>
+  <WN_LargeNinjaAssault.root.nodes.14.name>위협 유형</WN_LargeNinjaAssault.root.nodes.14.name>
+  <WN_LargeNinjaAssault.root.nodes.14.node.name>허용된 위협</WN_LargeNinjaAssault.root.nodes.14.node.name>
+  <WN_LargeNinjaAssault.root.nodes.15.name>위협 요인</WN_LargeNinjaAssault.root.nodes.15.name>
+  <WN_LargeNinjaAssault.root.nodes.15.node.name>위협크기</WN_LargeNinjaAssault.root.nodes.15.node.name>
+  <WN_LargeNinjaAssault.root.nodes.18.node.nodes.1.node.label>상급 닌자들이 떠난다</WN_LargeNinjaAssault.root.nodes.18.node.nodes.1.node.label>
+  <WN_LargeNinjaAssault.root.nodes.18.node.nodes.1.node.text>[asker_nameDef](이)가 보낸 상급 닌자들이 지금 떠나고 있습니다.</WN_LargeNinjaAssault.root.nodes.18.node.nodes.1.node.text>
+  <WN_LargeNinjaAssault.root.nodes.23.elseNode.node.nodes.0.label>퀘스트 실패: [resolvedQuestName]</WN_LargeNinjaAssault.root.nodes.23.elseNode.node.nodes.0.label>
+  <WN_LargeNinjaAssault.root.nodes.23.elseNode.node.nodes.0.text>[asker_faction_name](은)는 이제 당신에게 적대적입니다. [failLetterEndingQuest]</WN_LargeNinjaAssault.root.nodes.23.elseNode.node.nodes.0.text>
+  <WN_SquadMission.questNameRules.rulesStrings.0>questName->분대를 위한 임무</WN_SquadMission.questNameRules.rulesStrings.0>
+  <WN_SquadMission.questDescriptionRules.rulesStrings.0>questDescription->[asker_nameDef], [asker_faction_name]의 [asker_faction_leaderTitle](은)는 자신을 대신하여 임무를 수행할 유능한 3명 의 닌자 분대를 보내달라고 요청합니다.\n\n[willSendShuttle]\n\n해당 작전에 참여한 사람들은 인술 및 환술에서 500 XP 를 얻습니다.</WN_SquadMission.questDescriptionRules.rulesStrings.0>
+  <WN_SquadMission.questDescriptionRules.rulesStrings.1>disease->독감</WN_SquadMission.questDescriptionRules.rulesStrings.1>
+  <WN_SquadMission.questDescriptionRules.rulesStrings.2>disease->역병</WN_SquadMission.questDescriptionRules.rulesStrings.2>
+  <WN_SquadMission.questDescriptionRules.rulesStrings.3>disease->말라리아</WN_SquadMission.questDescriptionRules.rulesStrings.3>
+  <WN_SquadMission.questDescriptionRules.rulesStrings.4>disease->전염병</WN_SquadMission.questDescriptionRules.rulesStrings.4>
+  <WN_SquadMission.questDescriptionRules.rulesStrings.5>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] 중 [asker_faction_name]에는 [dutyRoyalDescription]의 도움을 줄 사람이 필요합니다.\n\n[asker_pronoun](은)는 [lendForDays]일 동안 [asker_objective](을)를 봉사하기 위해 [colonistCountToLend](을)를 빌려달라고 요청합니다.\n\n[willSendShuttle]</WN_SquadMission.questDescriptionRules.rulesStrings.5>
+  <WN_SquadMission.questDescriptionRules.rulesStrings.6>colonistCountToLend(colonistsToLendCount==1)->식민지 주민 1명[minAgeOrOlder]</WN_SquadMission.questDescriptionRules.rulesStrings.6>
+  <WN_SquadMission.questDescriptionRules.rulesStrings.7>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] 식민지 주민[minAgeOrOlder]</WN_SquadMission.questDescriptionRules.rulesStrings.7>
+  <WN_SquadMission.questDescriptionRules.rulesStrings.8>willSendShuttle->[asker_pronoun]는 [colonists]를 데려가기 위해 셔틀을 보낼 것입니다.</WN_SquadMission.questDescriptionRules.rulesStrings.8>
+  <WN_SquadMission.questDescriptionRules.rulesStrings.9>colonists(colonistsToLendCount==1)->개척자</WN_SquadMission.questDescriptionRules.rulesStrings.9>
+  <WN_SquadMission.questDescriptionRules.rulesStrings.10>colonists(colonistsToLendCount>1)->식민지 주민</WN_SquadMission.questDescriptionRules.rulesStrings.10>
+  <WN_SquadMission.questDescriptionRules.rulesStrings.11>minAgeOrOlder(minAge==0)-></WN_SquadMission.questDescriptionRules.rulesStrings.11>
+  <WN_SquadMission.questDescriptionRules.rulesStrings.12>minAgeOrOlder(minAge>0)->[minAge]세 이상</WN_SquadMission.questDescriptionRules.rulesStrings.12>
+  <WN_SquadMission.questDescriptionRules.rulesStrings.13>pawnListHaveConjugation(colonistsToLendCount==1)->들이</WN_SquadMission.questDescriptionRules.rulesStrings.13>
+  <WN_SquadMission.questDescriptionRules.rulesStrings.14>pawnListHaveConjugation(colonistsToLendCount>1)->들이</WN_SquadMission.questDescriptionRules.rulesStrings.14>
+  <WN_SquadMission.root.nodes.1.name>최소 연령</WN_SquadMission.root.nodes.1.name>
+  <WN_SquadMission.root.nodes.2.name>식민지 주민에게 대출수</WN_SquadMission.root.nodes.2.name>
+  <WN_SquadMission.root.nodes.5.name>편지를 돌려보내다 텍스트</WN_SquadMission.root.nodes.5.name>
+  <WN_SquadMission.root.nodes.6.name>대출 일수</WN_SquadMission.root.nodes.6.name>
+  <WN_SquadMission.root.nodes.7.node.nodes.1.label>왕복선 도착</WN_SquadMission.root.nodes.7.node.nodes.1.label>
+  <WN_SquadMission.root.nodes.7.node.nodes.1.text>정착지 주민 [colonistsToLendCount]명을 모으기 위해 왕복선이 도착했습니다.</WN_SquadMission.root.nodes.7.node.nodes.1.text>
+  <WN_SquadMission.root.nodes.8.node.nodes.0.label>왕복선이 파괴됨</WN_SquadMission.root.nodes.8.node.nodes.0.label>
+  <WN_SquadMission.root.nodes.8.node.nodes.0.text>정착지 주민을 모으기 위해 보낸 왕복선이 파괴되었습니다.</WN_SquadMission.root.nodes.8.node.nodes.0.text>
+  <WN_SquadMission.root.nodes.12.node.nodes.0.label>정착지 주민들이 돌아왔습니다.</WN_SquadMission.root.nodes.12.node.nodes.0.label>
+  <WN_SquadMission.root.nodes.12.node.nodes.0.text>$returnLetterText</WN_SquadMission.root.nodes.12.node.nodes.0.text>
+  <WN_TailedBeastHunt.root.nodes.11.node.nodes.0.label>퀘스트 만료: [resolvedQuestName]</WN_TailedBeastHunt.root.nodes.11.node.nodes.0.label>
+  <WN_TailedBeastHunt.root.nodes.11.node.nodes.0.text>미수가 그 지역을 떠났습니다. 퀘스트 [resolvedQuestName]이 만료되었습니다.</WN_TailedBeastHunt.root.nodes.11.node.nodes.0.text>
+  <WN_TailedBeastHunt.root.nodes.12.node.nodes.0.label>퀘스트 실패: [resolvedQuestName]</WN_TailedBeastHunt.root.nodes.12.node.nodes.0.label>
+  <WN_TailedBeastHunt.root.nodes.12.node.nodes.0.text>미수가 사라졌습니다. [resolvedQuestName] 퀘스트가 실패 하였습니다.</WN_TailedBeastHunt.root.nodes.12.node.nodes.0.text>
+
+
+
+  <WN_GeninGuests.root.nodes.PawnsArrive.customLetterLabel.slateRef>하급 닌자 3명 도착</WN_GeninGuests.root.nodes.PawnsArrive.customLetterLabel.slateRef>
+  <WN_GeninGuests.root.nodes.PawnsArrive.customLetterText.slateRef>손님들이 도착했습니다. 교육의 일환으로 15일 동안 지켜주세요.</WN_GeninGuests.root.nodes.PawnsArrive.customLetterText.slateRef>
+  <WN_GeninGuests.root.nodes.Delay.node.nodes.AnyPawnAlive.node.label.slateRef>하급 닌자가 떠난다</WN_GeninGuests.root.nodes.Delay.node.nodes.AnyPawnAlive.node.label.slateRef>
+  <WN_GeninGuests.root.nodes.Delay.node.nodes.AnyPawnAlive.node.text.slateRef>[asker_nameDef](이)가 보낸 하급 닌자가 돌아가고 있습니다.</WN_GeninGuests.root.nodes.Delay.node.nodes.AnyPawnAlive.node.text.slateRef>
+  <WN_GeninGuests.root.nodes.lodgersDestroyed.node.nodes.Letter.label.slateRef>손님 사망: {SUBJECT_definite}</WN_GeninGuests.root.nodes.lodgersDestroyed.node.nodes.Letter.label.slateRef>
+  <WN_GeninGuests.root.nodes.lodgersDestroyed.node.nodes.Letter.text.slateRef>[letterSubject] 당신이 보호해야 할 사람이 사망했습니다. [remainingWillNowLeave][failLetterEndingCommon]</WN_GeninGuests.root.nodes.lodgersDestroyed.node.nodes.Letter.text.slateRef>
+  <WN_GeninGuests.root.nodes.lodgersArrested.node.nodes.Letter.label.slateRef>손님 체포: {SUBJECT_definite}</WN_GeninGuests.root.nodes.lodgersArrested.node.nodes.Letter.label.slateRef>
+  <WN_GeninGuests.root.nodes.lodgersArrested.node.nodes.Letter.text.slateRef>{SUBJECT_definite} 당신이 보호해야 할 사람이 체포되었습니다. [remainingWillNowLeave][failLetterEndingQuest]</WN_GeninGuests.root.nodes.lodgersArrested.node.nodes.Letter.text.slateRef>
+  <WN_GeninGuests.root.nodes.lodgersRecruited.node.nodes.Letter.label.slateRef>포로 모집: {SUBJECT_definite}</WN_GeninGuests.root.nodes.lodgersRecruited.node.nodes.Letter.label.slateRef>
+  <WN_GeninGuests.root.nodes.lodgersRecruited.node.nodes.Letter.text.slateRef>{SUBJECT_definite} 당신이 경비를 맡은 사람은 누구입니까? [remainingWillNowLeave][failLetterEndingCommon]</WN_GeninGuests.root.nodes.lodgersRecruited.node.nodes.Letter.text.slateRef>
+  <WN_GeninGuests.root.nodes.lodgersEnslaved.node.nodes.Letter.label.slateRef>포로가 된 죄수: {SUBJECT_definite}</WN_GeninGuests.root.nodes.lodgersEnslaved.node.nodes.Letter.label.slateRef>
+  <WN_GeninGuests.root.nodes.lodgersEnslaved.node.nodes.Letter.text.slateRef>{SUBJECT_definite} 당신이 경비를 맡은 사람은 누구입니까? [remainingWillNowLeave][failLetterEndingCommon]</WN_GeninGuests.root.nodes.lodgersEnslaved.node.nodes.Letter.text.slateRef>
+  <WN_GeninGuests.root.nodes.lodgersSurgeryViolation.node.nodes.Letter.label.slateRef>무단 수술: {SUBJECT_definite}</WN_GeninGuests.root.nodes.lodgersSurgeryViolation.node.nodes.Letter.label.slateRef>
+  <WN_GeninGuests.root.nodes.lodgersSurgeryViolation.node.nodes.Letter.text.slateRef>[letterSubject]에 대해 승인되지 않은 위반 수술이 행해졌습니다. [remainingWillNowLeave][failLetterEndingCommon]</WN_GeninGuests.root.nodes.lodgersSurgeryViolation.node.nodes.Letter.text.slateRef>
+  <WN_GeninGuests.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef>유전자 흡수됨: {SUBJECT_definite}</WN_GeninGuests.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef>
+  <WN_GeninGuests.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>당신이 보호해야 할 {SUBJECT_definite}(이)가 {SUBJECT_possessive} 유전자를 강제로 흡수했습니다. [remainingWillNowLeave][failLetterEndingCommon]</WN_GeninGuests.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>
+  <WN_GeninGuests.root.nodes.lodgersLeftMap.node.nodes.Letter.label.slateRef>손님 실종: {SUBJECT_definite}</WN_GeninGuests.root.nodes.lodgersLeftMap.node.nodes.Letter.label.slateRef>
+  <WN_GeninGuests.root.nodes.lodgersLeftMap.node.nodes.Letter.text.slateRef>당신이 보호해야 했던 [letterSubject](이)가 사라졌습니다. [remainingWillNowLeave][failLetterEndingCommon]</WN_GeninGuests.root.nodes.lodgersLeftMap.node.nodes.Letter.text.slateRef>
+  <WN_GeninGuests.root.nodes.lodgersRanWild.node.nodes.Letter.label.slateRef>손님 실종: {SUBJECT_definite}</WN_GeninGuests.root.nodes.lodgersRanWild.node.nodes.Letter.label.slateRef>
+  <WN_GeninGuests.root.nodes.lodgersRanWild.node.nodes.Letter.text.slateRef>당신이 보호해야 할 [letterSubject](이)가 날뛰었습니다. [remainingWillNowLeave][failLetterEndingCommon]</WN_GeninGuests.root.nodes.lodgersRanWild.node.nodes.Letter.text.slateRef>
+  <WN_GeninGuests.root.nodes.AnySignal.node.node.nodes.Letter.label.slateRef>손님 실종: {SUBJECT_definite}</WN_GeninGuests.root.nodes.AnySignal.node.node.nodes.Letter.label.slateRef>
+  <WN_GeninGuests.root.nodes.AnySignal.node.node.nodes.Letter.text.slateRef>당신이 보호해야 했던 [letterSubject](이)가 다른 세력에 합류했습니다. [remainingWillNowLeave][failLetterEndingCommon]</WN_GeninGuests.root.nodes.AnySignal.node.node.nodes.Letter.text.slateRef>
+  <WN_GeninGuests.root.nodes.IsNull.elseNode.node.nodes.Letter.label.slateRef>퀘스트 실패: [resolvedQuestName]</WN_GeninGuests.root.nodes.IsNull.elseNode.node.nodes.Letter.label.slateRef>
+  <WN_GeninGuests.root.nodes.IsNull.elseNode.node.nodes.Letter.text.slateRef>[asker_faction_name](이)가 이제 당신에게 적대적입니다. [failLetterEndingQuest]</WN_GeninGuests.root.nodes.IsNull.elseNode.node.nodes.Letter.text.slateRef>
+  <WN_GeninGuests.root.nodes.Delay.node.nodes.GoodwillForAverageMoodSuccess.node.nodes.Letter.label.slateRef>퀘스트 완료</WN_GeninGuests.root.nodes.Delay.node.nodes.GoodwillForAverageMoodSuccess.node.nodes.Letter.label.slateRef>
+  <WN_GeninGuests.root.nodes.Delay.node.nodes.GoodwillForAverageMoodSuccess.node.nodes.Letter.text.slateRef>'[resolvedQuestName]' 퀘스트를 성공적으로 완료했습니다!\n\n[lodgersLabelSingOrPluralDef]가 [lodgersPronoun] [lodgersWasWere]가 양질의 숙박 시설에 대해 기꺼이 보상하겠다고 말했습니다. [theirHisHer] 숙박 중 [lodgersLabelSingOrPluralDef]의 평균 기분은 {AVERAGEMOOD}이므로 [asker_faction_name]에 대한 호의가 {GOODWILL}만큼 증가했습니다.</WN_GeninGuests.root.nodes.Delay.node.nodes.GoodwillForAverageMoodSuccess.node.nodes.Letter.text.slateRef>
+  <WN_GeninGuests.root.nodes.Delay.node.nodes.GoodwillForAverageMoodFailed.node.nodes.Letter.label.slateRef>퀘스트 완료</WN_GeninGuests.root.nodes.Delay.node.nodes.GoodwillForAverageMoodFailed.node.nodes.Letter.label.slateRef>
+  <WN_GeninGuests.root.nodes.Delay.node.nodes.GoodwillForAverageMoodFailed.node.nodes.Letter.text.slateRef>'[resolvedQuestName]' 퀘스트를 성공적으로 완료했습니다!\n\n[lodgersLabelSingOrPluralDef] [lodgersWasWere]가 양질의 숙박 시설을 보상할 의향이 있지만 [theirHisHer] 숙박 기간 동안 [theirHisHer]의 평균 기분은 {AVERAGEMOOD}에 불과했습니다. 당신은 파벌의 선의 보상을 받지 못할 것입니다.</WN_GeninGuests.root.nodes.Delay.node.nodes.GoodwillForAverageMoodFailed.node.nodes.Letter.text.slateRef>
+
+
+  <WN_Util_JouninWalkIn.root.nodes.PawnsArrive.customLetterLabel.slateRef>상급 닌자 도착</WN_Util_JouninWalkIn.root.nodes.PawnsArrive.customLetterLabel.slateRef>
+  <WN_Util_JouninWalkIn.root.nodes.PawnsArrive.customLetterText.slateRef>도망치던 상급 닌자가 도착했습니다. 그 사람을 쫓는 적대적 닌자 부대가 곧 도착할 것입니다.</WN_Util_JouninWalkIn.root.nodes.PawnsArrive.customLetterText.slateRef>
+  <WN_DefendJounin.root.nodes.Delay.node.parms.customLetterLabel.value.slateRef>[../jounin_nameDef](을)를 추격하는 {BASELABEL}</WN_DefendJounin.root.nodes.Delay.node.parms.customLetterLabel.value.slateRef>
+  <WN_DefendJounin.root.nodes.Delay.node.parms.customLetterText.value.slateRef>{BASETEXT} \n\n그 [enemyFaction_pawnsPlural](이)가 [../jounin_nameDef](을)를 쫒아왔습니다.</WN_DefendJounin.root.nodes.Delay.node.parms.customLetterText.value.slateRef>
+  <WN_Util_JouninWalkIn.root.nodes.jouninDestroyed.node.nodes.Letter.label.slateRef>상급 닌자 사망: {SUBJECT_definite}</WN_Util_JouninWalkIn.root.nodes.jouninDestroyed.node.nodes.Letter.label.slateRef>
+  <WN_Util_JouninWalkIn.root.nodes.jouninDestroyed.node.nodes.Letter.text.slateRef>당신이 보호해야 할 대상인 {SUBJECT_definite}(이)가 사망했습니다. 퀘스트가 실패했습니다.</WN_Util_JouninWalkIn.root.nodes.jouninDestroyed.node.nodes.Letter.text.slateRef>
+  <WN_Util_JouninWalkIn.root.nodes.jouninSurgeryViolation.node.nodes.Letter.label.slateRef>무단 수술: {SUBJECT_definite}</WN_Util_JouninWalkIn.root.nodes.jouninSurgeryViolation.node.nodes.Letter.label.slateRef>
+  <WN_Util_JouninWalkIn.root.nodes.jouninSurgeryViolation.node.nodes.Letter.text.slateRef>당신이 보호해야 할 대상인 {SUBJECT_definite}에 대해 승인되지 않은 위반 수술이 수행되었습니다. 이 위반으로 인해 [jounin_pronoun](은)는 이제 떠나려고 합니다. 퀘스트가 실패했습니다.</WN_Util_JouninWalkIn.root.nodes.jouninSurgeryViolation.node.nodes.Letter.text.slateRef>
+  <WN_Util_JouninWalkIn.root.nodes.jouninXenogermAbsorbed.node.nodes.Letter.label.slateRef>유전자 흡수: {SUBJECT_definite}</WN_Util_JouninWalkIn.root.nodes.jouninXenogermAbsorbed.node.nodes.Letter.label.slateRef>
+  <WN_Util_JouninWalkIn.root.nodes.jouninXenogermAbsorbed.node.nodes.Letter.text.slateRef>당신이 보호해야 할 {SUBJECT_definite}(이)가 {SUBJECT_possessive} 유전자를 강제로 흡수했습니다. 이 위반으로 인해 이제 {SUBJECT_pronoun}(이)가 떠나려고 합니다. 퀘스트가 실패했습니다.</WN_Util_JouninWalkIn.root.nodes.jouninXenogermAbsorbed.node.nodes.Letter.text.slateRef>
+  <WN_Util_JouninWalkIn.root.nodes.jouninArrested.node.nodes.Letter.label.slateRef>체포됨: {SUBJECT_definite}</WN_Util_JouninWalkIn.root.nodes.jouninArrested.node.nodes.Letter.label.slateRef>
+  <WN_Util_JouninWalkIn.root.nodes.jouninArrested.node.nodes.Letter.text.slateRef>당신을 믿었던 {SUBJECT_definite}(이)가 체포되었습니다. 퀘스트가 실패했습니다.</WN_Util_JouninWalkIn.root.nodes.jouninArrested.node.nodes.Letter.text.slateRef>
+  <WN_Util_JouninWalkIn.root.nodes.jouninLeftMap.node.nodes.Letter.label.slateRef>상급 닌자 실종: {SUBJECT_definite}</WN_Util_JouninWalkIn.root.nodes.jouninLeftMap.node.nodes.Letter.label.slateRef>
+  <WN_Util_JouninWalkIn.root.nodes.jouninLeftMap.node.nodes.Letter.text.slateRef>당신이 보호해야 할 대상인 {SUBJECT_definite}(이)가 지정된 정착지를 떠났습니다. 퀘스트가 실패했습니다.</WN_Util_JouninWalkIn.root.nodes.jouninLeftMap.node.nodes.Letter.text.slateRef>
+  <WN_Util_JouninWalkIn.root.nodes.jouninRanWild.node.nodes.Letter.label.slateRef>상급 닌자 실종: {SUBJECT_definite}</WN_Util_JouninWalkIn.root.nodes.jouninRanWild.node.nodes.Letter.label.slateRef>
+  <WN_Util_JouninWalkIn.root.nodes.jouninRanWild.node.nodes.Letter.text.slateRef>당신이 보호해야 할 대상인 {SUBJECT_definite}(이)가 날뛰었습니다. 퀘스트가 실패했습니다.</WN_Util_JouninWalkIn.root.nodes.jouninRanWild.node.nodes.Letter.text.slateRef>
+  <WN_Util_JouninWalkIn.root.nodes.AnySignal.node.node.nodes.Letter.label.slateRef>손님 실종: {SUBJECT_definite}</WN_Util_JouninWalkIn.root.nodes.AnySignal.node.node.nodes.Letter.label.slateRef>
+  <WN_Util_JouninWalkIn.root.nodes.AnySignal.node.node.nodes.Letter.text.slateRef>당신이 보호해야 할 대상인 {SUBJECT_definite}(이)가 다른 세력에 합류했습니다. 퀘스트가 실패했습니다.</WN_Util_JouninWalkIn.root.nodes.AnySignal.node.node.nodes.Letter.text.slateRef>
+
+
+  <WN_DefendInformant.root.nodes.PawnsArrive.customLetterLabel.slateRef>제보자 도착</WN_DefendInformant.root.nodes.PawnsArrive.customLetterLabel.slateRef>
+  <WN_DefendInformant.root.nodes.PawnsArrive.customLetterText.slateRef>제보자가 도착했습니다. 적대적 닌자로부터 12일 동안 그 사람을 보호하세요.</WN_DefendInformant.root.nodes.PawnsArrive.customLetterText.slateRef>
+  <WN_DefendInformant.root.nodes.Delay.node.nodes.AnyPawnAlive.node.label.slateRef>제보자는 떠났습니다</WN_DefendInformant.root.nodes.Delay.node.nodes.AnyPawnAlive.node.label.slateRef>
+  <WN_DefendInformant.root.nodes.Delay.node.nodes.AnyPawnAlive.node.text.slateRef>[asker_nameDef](이)가 보낸 제보자가 지금 떠나고 있습니다.</WN_DefendInformant.root.nodes.Delay.node.nodes.AnyPawnAlive.node.text.slateRef>
+  <WN_DefendInformant.root.nodes.lodgersDestroyed.node.nodes.Letter.label.slateRef>제보자 사망: {SUBJECT_definite}</WN_DefendInformant.root.nodes.lodgersDestroyed.node.nodes.Letter.label.slateRef>
+  <WN_DefendInformant.root.nodes.lodgersDestroyed.node.nodes.Letter.text.slateRef>당신이 보호해야 했던 [letterSubject](이)가 사망했습니다. [failLetterEndingCommon]</WN_DefendInformant.root.nodes.lodgersDestroyed.node.nodes.Letter.text.slateRef>
+  <WN_DefendInformant.root.nodes.lodgersArrested.node.nodes.Letter.label.slateRef>제보자 체포: {SUBJECT_definite}</WN_DefendInformant.root.nodes.lodgersArrested.node.nodes.Letter.label.slateRef>
+  <WN_DefendInformant.root.nodes.lodgersArrested.node.nodes.Letter.text.slateRef>당신이 보호해야 했던 [letterSubject](이)가 체포되었습니다. [failLetterEndingQuest]</WN_DefendInformant.root.nodes.lodgersArrested.node.nodes.Letter.text.slateRef>
+  <WN_DefendInformant.root.nodes.lodgersRecruited.node.nodes.Letter.label.slateRef>포로 모집: {SUBJECT_definite}</WN_DefendInformant.root.nodes.lodgersRecruited.node.nodes.Letter.label.slateRef>
+  <WN_DefendInformant.root.nodes.lodgersRecruited.node.nodes.Letter.text.slateRef>당신은 경호 임무를 맡은 {SUBJECT_definite}(을)를 모집했습니다. [failLetterEndingCommon]</WN_DefendInformant.root.nodes.lodgersRecruited.node.nodes.Letter.text.slateRef>
+  <WN_DefendInformant.root.nodes.lodgersEnslaved.node.nodes.Letter.label.slateRef>포로가 된 죄수: {SUBJECT_definite}</WN_DefendInformant.root.nodes.lodgersEnslaved.node.nodes.Letter.label.slateRef>
+  <WN_DefendInformant.root.nodes.lodgersEnslaved.node.nodes.Letter.text.slateRef>당신은 당신이 보호하도록 임무를 받은 {SUBJECT_definite}(을)를 노예로 삼았습니다. [failLetterEndingCommon]</WN_DefendInformant.root.nodes.lodgersEnslaved.node.nodes.Letter.text.slateRef>
+  <WN_DefendInformant.root.nodes.lodgersSurgeryViolation.node.nodes.Letter.label.slateRef>무단 수술: {SUBJECT_definite}</WN_DefendInformant.root.nodes.lodgersSurgeryViolation.node.nodes.Letter.label.slateRef>
+  <WN_DefendInformant.root.nodes.lodgersSurgeryViolation.node.nodes.Letter.text.slateRef>[letterSubject]에 대해 승인되지 않은 위반 수술이 행해졌습니다. [failLetterEndingCommon]</WN_DefendInformant.root.nodes.lodgersSurgeryViolation.node.nodes.Letter.text.slateRef>
+  <WN_DefendInformant.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef>유전자 흡수: {SUBJECT_definite}</WN_DefendInformant.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef>
+  <WN_DefendInformant.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>당신이 보호해야 할 {SUBJECT_definite}(이)가 {SUBJECT_possessive} 유전자를 강제로 흡수했습니다. [failLetterEndingCommon]</WN_DefendInformant.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>
+  <WN_DefendInformant.root.nodes.lodgersLeftMap.node.nodes.Letter.label.slateRef>제보자 실종: {SUBJECT_definite}</WN_DefendInformant.root.nodes.lodgersLeftMap.node.nodes.Letter.label.slateRef>
+  <WN_DefendInformant.root.nodes.lodgersLeftMap.node.nodes.Letter.text.slateRef>당신이 보호해야 했던 [letterSubject](이)가 사라졌습니다. [failLetterEndingCommon]</WN_DefendInformant.root.nodes.lodgersLeftMap.node.nodes.Letter.text.slateRef>
+  <WN_DefendInformant.root.nodes.lodgersRanWild.node.nodes.Letter.label.slateRef>제보자 실종: {SUBJECT_definite}</WN_DefendInformant.root.nodes.lodgersRanWild.node.nodes.Letter.label.slateRef>
+  <WN_DefendInformant.root.nodes.lodgersRanWild.node.nodes.Letter.text.slateRef>당신이 보호해야 할 [letterSubject](이)가 날뛰었습니다. [failLetterEndingCommon]</WN_DefendInformant.root.nodes.lodgersRanWild.node.nodes.Letter.text.slateRef>
+  <WN_DefendInformant.root.nodes.AnySignal.node.node.nodes.Letter.label.slateRef>제보자 실종: {SUBJECT_definite}</WN_DefendInformant.root.nodes.AnySignal.node.node.nodes.Letter.label.slateRef>
+  <WN_DefendInformant.root.nodes.AnySignal.node.node.nodes.Letter.text.slateRef>당신이 보호해야 했던 [letterSubject](이)가 다른 세력에 합류했습니다. [failLetterEndingCommon]</WN_DefendInformant.root.nodes.AnySignal.node.node.nodes.Letter.text.slateRef>
+  <WN_DefendInformant.root.nodes.IsNull.elseNode.node.nodes.Letter.label.slateRef>퀘스트 실패: [resolvedQuestName]</WN_DefendInformant.root.nodes.IsNull.elseNode.node.nodes.Letter.label.slateRef>
+  <WN_DefendInformant.root.nodes.IsNull.elseNode.node.nodes.Letter.text.slateRef>[asker_faction_name](이)가 이제 당신에게 적대적입니다. [failLetterEndingQuest]</WN_DefendInformant.root.nodes.IsNull.elseNode.node.nodes.Letter.text.slateRef>
+
+
+  <WN_LargeNinjaAssault.root.nodes.PawnsArrive.customLetterLabel.slateRef>상급 닌자 3명 도착</WN_LargeNinjaAssault.root.nodes.PawnsArrive.customLetterLabel.slateRef>
+  <WN_LargeNinjaAssault.root.nodes.PawnsArrive.customLetterText.slateRef>닌자들이 도착했습니다. 그들은 적대적인 닌자 공격의 습격으로부터 방어하는데 도움을 줄 것입니다.</WN_LargeNinjaAssault.root.nodes.PawnsArrive.customLetterText.slateRef>
+  <WN_LargeNinjaAssault.root.nodes.Delay.node.nodes.AnyPawnAlive.node.label.slateRef>상급 닌자들이 떠난다</WN_LargeNinjaAssault.root.nodes.Delay.node.nodes.AnyPawnAlive.node.label.slateRef>
+  <WN_LargeNinjaAssault.root.nodes.Delay.node.nodes.AnyPawnAlive.node.text.slateRef>[asker_nameDef](이)가 보낸 상급 닌자가 떠났습니다.</WN_LargeNinjaAssault.root.nodes.Delay.node.nodes.AnyPawnAlive.node.text.slateRef>
+  <WN_LargeNinjaAssault.root.nodes.IsNull.elseNode.node.nodes.Letter.label.slateRef>퀘스트 실패: [resolvedQuestName]</WN_LargeNinjaAssault.root.nodes.IsNull.elseNode.node.nodes.Letter.label.slateRef>
+  <WN_LargeNinjaAssault.root.nodes.IsNull.elseNode.node.nodes.Letter.text.slateRef>[asker_faction_name](이)가 이제 당신에게 적대적입니다. [failLetterEndingQuest]</WN_LargeNinjaAssault.root.nodes.IsNull.elseNode.node.nodes.Letter.text.slateRef>
+
+
+  <WN_BanditCamp.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>퀘스트 실패: [resolvedQuestName]</WN_BanditCamp.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>
+  <WN_BanditCamp.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>적발 후 산적 캠프는 해산되었습니다. [resolvedQuestName] 퀘스트가 종료되었습니다.</WN_BanditCamp.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>
+  <WN_BanditCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>퀘스트 만료됨: [resolvedQuestName]</WN_BanditCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <WN_BanditCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>산적 캠프는 짐을 꾸리고 도망갔습니다. [resolvedQuestName] 퀘스트가 만료되었습니다.</WN_BanditCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+
+
+  <WN_SquadMission.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>왕복선 도착</WN_SquadMission.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>
+  <WN_SquadMission.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>정착지 주민 [colonistsToLendCount]명을 모으기 위해 왕복선이 도착했습니다.</WN_SquadMission.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>
+  <WN_SquadMission.root.nodes.ColonistsReturned.node.nodes.Letter.label.slateRef>정착지 주민들이 돌아왔습니다.</WN_SquadMission.root.nodes.ColonistsReturned.node.nodes.Letter.label.slateRef>
+  <WN_SquadMission.root.nodes.Set-2.value.slateRef>바쁜 일과 임무를 해결하여 마을을 도운 후, {PAWNS} [pawnListHaveConjugation] 돌아왔습니다.</WN_SquadMission.root.nodes.Set-2.value.slateRef>
+  <WN_SquadMission.root.nodes.pickupShipThingDestroyed.node.nodes.Letter.label.slateRef>왕복선이 파괴됨</WN_SquadMission.root.nodes.pickupShipThingDestroyed.node.nodes.Letter.label.slateRef>
+  <WN_SquadMission.root.nodes.pickupShipThingDestroyed.node.nodes.Letter.text.slateRef>정착지 주민을 모으기 위해 보낸 왕복선이 파괴되었습니다.</WN_SquadMission.root.nodes.pickupShipThingDestroyed.node.nodes.Letter.text.slateRef>
+
+
+
+
+
+</LanguageData>

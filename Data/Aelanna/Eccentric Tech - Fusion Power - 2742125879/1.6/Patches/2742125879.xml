@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Eccentric Tech - Core</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="Eccentric_PlasmaConfinement"]/label</xpath>
+          <value>
+            <label>플라즈마 봉입</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="Eccentric_PlasmaConfinement"]/description</xpath>
+          <value>
+            <description>첨단 핵융합 발전소 건설에 필요한 타나카 필드 생성기를 연구합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="Eccentric_MakeTFGModule"]/label</xpath>
+          <value>
+            <label>TFG 모듈 제작</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="Eccentric_MakeTFGModule"]/description</xpath>
+          <value>
+            <description>TFG 모듈을 제작합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="Eccentric_MakeTFGModule"]/jobString</xpath>
+          <value>
+            <jobString>TFG 모듈 제작 중…</jobString>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

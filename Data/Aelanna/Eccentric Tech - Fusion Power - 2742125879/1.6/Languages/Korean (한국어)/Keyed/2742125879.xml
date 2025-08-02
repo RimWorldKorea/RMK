@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <EccentricPower_ModName>편심 기술 - 융합 발전</EccentricPower_ModName>
+  <EccentricPower_SettingMoving>흐르는 물에서 추출 허용</EccentricPower_SettingMoving>
+  <EccentricPower_SettingMovingDesc>흐르는 물에서 중수소를 추출하는 것을 허용합니다. 일반적으로 중수소는 바닷물에서만 추출할 수 있습니다.</EccentricPower_SettingMovingDesc>
+  <EccentricPower_SettingFresh>모든 물에서 추출 허용</EccentricPower_SettingFresh>
+  <EccentricPower_SettingFreshDesc>모든 물에서 중수소를 추출하는 것을 허용합니다. 일반적으로 중수소는 바닷물에서만 추출할 수 있습니다.</EccentricPower_SettingFreshDesc>
+  <EccentricPower_SettingOutput>전력 출력 계수: {0}%</EccentricPower_SettingOutput>
+  <EccentricPower_SettingOutputDesc>MMFS의 전원 출력 계수를 조정합니다. 모든 가동 방식 (D-D, D-T, D-He)에 영향을 미칩니다. (기본값: 100%)</EccentricPower_SettingOutputDesc>
+  <EccentricPower_SettingConstantAlert>항상 연료 경고 표시</EccentricPower_SettingConstantAlert>
+  <EccentricPower_SettingConstantAlertDesc>연결된 저장소에 연료가 얼마나 남아 있는지에 대한 경고를 항상 표시합니다.</EccentricPower_SettingConstantAlertDesc>
+  <EccentricPower_SettingAmbientAudio>주변 오디오 억제</EccentricPower_SettingAmbientAudio>
+  <EccentricPower_SettingAmbientAudioDesc>MMFS 주변의 사운드 효과를 비활성화합니다.</EccentricPower_SettingAmbientAudioDesc>
+  <EccentricPower_ProducerEfficiency>생산 효율: {0}%</EccentricPower_ProducerEfficiency>
+  <EccentricPower_ProducerWasteProgress>폐기물 생성: {0}%</EccentricPower_ProducerWasteProgress>
+  <EccentricPower_CurrentDeuterium>중수소 저장량: {0} / {1}</EccentricPower_CurrentDeuterium>
+  <EccentricPower_CurrentTritium>삼중수소 저장량: {0} / {1}</EccentricPower_CurrentTritium>
+  <EccentricPower_CurrentHelium>헬륨-3 저장량: {0} / {1}</EccentricPower_CurrentHelium>
+  <EccentricPower_CurrentCharge>축전지 충전량: {0} / {1}</EccentricPower_CurrentCharge>
+  <EccentricPower_CurrentState>현재 상태: {0}</EccentricPower_CurrentState>
+  <EccentricPower_CurrentMode>활성화된 방식: {0}</EccentricPower_CurrentMode>
+  <EccentricPower_CommandModeLabel>{0} 방식</EccentricPower_CommandModeLabel>
+  <EccentricPower_CommandModeActive>{0}\n\n가동 방식은 원자로가 정지 중일 때만 변경할 수 있습니다.</EccentricPower_CommandModeActive>
+  <EccentricPower_CommandModeInactive>{0}\n\n오른쪽 클릭으로 가동 방식을 변경합니다.</EccentricPower_CommandModeInactive>
+  <EccentricPower_CurrentStateShort>상태: {0}</EccentricPower_CurrentStateShort>
+  <EccentricPower_HullIntegrity>선체 내구도</EccentricPower_HullIntegrity>
+  <EccentricPower_StateOffline>정지됨</EccentricPower_StateOffline>
+  <EccentricPower_StateStartingUp>시동 중</EccentricPower_StateStartingUp>
+  <EccentricPower_StateOperational>가동</EccentricPower_StateOperational>
+  <EccentricPower_StatePoweringDown>정지 중</EccentricPower_StatePoweringDown>
+  <EccentricPower_StateEmergencyShutdown>비상 정지</EccentricPower_StateEmergencyShutdown>
+  <EccentricPower_ReactorStartup>원자로 가동</EccentricPower_ReactorStartup>
+  <EccentricPower_ReactorStartupDesc>현재 선택된 발전 방식 ({0})의 점화 시퀀스를 시작합니다. 점화 축전지에서 {1}Wd의 전력이 소모되고 원자로 가동까지 총 {2}시간이 걸립니다.</EccentricPower_ReactorStartupDesc>
+  <EccentricPower_ReactorStartupInProgress>원자로 시동 중</EccentricPower_ReactorStartupInProgress>
+  <EccentricPower_ReactorStartupInProgressDesc>현재 원자로가 시동 중입니다.</EccentricPower_ReactorStartupInProgressDesc>
+  <EccentricPower_ReactorShutdown>원자로 정지</EccentricPower_ReactorShutdown>
+  <EccentricPower_ReactorShutdownDesc>정지 시퀀스를 시작합니다. 원자로 정지까지 총 {0}시간이 소요되며 그 후에는 원자로를 안전하게 재구성하거나 유지 관리할 수 있습니다.</EccentricPower_ReactorShutdownDesc>
+  <EccentricPower_ReactorShutdownInProgress>원자로 정지 중</EccentricPower_ReactorShutdownInProgress>
+  <EccentricPower_ReactorShutdownInProgressDesc>현재 원자로가 정지 중입니다.</EccentricPower_ReactorShutdownInProgressDesc>
+  <EccentricPower_ReactorEmergencyStop>비상 정지</EccentricPower_ReactorEmergencyStop>
+  <EccentricPower_ReactorEmergencyStopDesc>원자로를 비상 정지 할 수 있습니다. 원자로 정지까지 {0}시간밖에 걸리지 않지만 원자로의 플라즈마를 주변 지역으로 직접 배출하여 강한 열을 방출하고 원자로 선체에 상당한 손상을 입힙니다.</EccentricPower_ReactorEmergencyStopDesc>
+  <EccentricPower_ReactorEmergencyStopInProgress>원자로 비상 정지 중</EccentricPower_ReactorEmergencyStopInProgress>
+  <EccentricPower_ReactorEmergencyStopInProgressDesc>현재 원자로가 비상 배출 중입니다.</EccentricPower_ReactorEmergencyStopInProgressDesc>
+  <EccentricPower_ReactorThrottle>출력</EccentricPower_ReactorThrottle>
+  <EccentricPower_ReactorThrottleDesc>원자로의 전력을 효울적으로 조정합니다. 연료를 절약하기 위해 출력을 50%까지 낮출 수 있습니다.</EccentricPower_ReactorThrottleDesc>
+  <EccentricPower_ReactorThrottleDialog>원자로 출력: {0}%</EccentricPower_ReactorThrottleDialog>
+  <EccentricPower_ReactorAlertInternalBuffer>원자로 연료 경고</EccentricPower_ReactorAlertInternalBuffer>
+  <EccentricPower_ReactorAlertInternalBufferDesc>원자로가 내부 저장고에서 연료를 사용하여 가동되고 있습니다. 원자로를 연료 저장탱크에 연결하거나 연료가 다 떨어지기 전에 원자로를 정지하십시오.</EccentricPower_ReactorAlertInternalBufferDesc>
+  <EccentricPower_ReactorAlertLowFuel>원자로 연료 부족: {0}시간</EccentricPower_ReactorAlertLowFuel>
+  <EccentricPower_ReactorAlertLowFuelDesc>원자로와 연결된 저장텡크에 남은 연료가 {0}시간 미만입니다.</EccentricPower_ReactorAlertLowFuelDesc>
+  <EccentricPower_ReactorAlertFuel>남아있는 원자로 연료량: {0}일</EccentricPower_ReactorAlertFuel>
+  <EccentricPower_ReactorAlertFuelDesc>연결된 저장탱크에 원자로 연료가 {0}일 분 남았습니다.</EccentricPower_ReactorAlertFuelDesc>
+  <EccentricPower_ReactorAlertFuelJump>클릭해서 원자로로 이동</EccentricPower_ReactorAlertFuelJump>
+  <EccentricPower_ReactorLowHullIntegrity>원자로 선체 내구도 낮음</EccentricPower_ReactorLowHullIntegrity>
+  <EccentricPower_ReactorLowHullIntegrityDesc>원자로 선체의 내구도가 {0}% 미만입니다. 이 상태에서 계속 작동할 수 있지만 오작동으로 인한 정지가 발생할 가능성이 높아집니다. 원자로 선체의 내구도를 복구하려면 먼저 전원을 꺼야 합니다.</EccentricPower_ReactorLowHullIntegrityDesc>
+  <EccentricPower_ReactorCriticalHullIntegrity>원자로 선체 내구도 매우 낮음</EccentricPower_ReactorCriticalHullIntegrity>
+  <EccentricPower_ReactorCriticalHullIntegrityDesc>원자로 선체의 내구도가 {0}% 미만입니다. 즉시 비상 정지 상태가 되는 심각한 오작동을 겪을 가능성이 높아집니다. 원자로 선체의 내구도을 복구하려면 먼저 전원을 꺼야 합니다.</EccentricPower_ReactorCriticalHullIntegrityDesc>
+  <EccentricPower_WarningInsufficientCharge>경고: 점화에 필요한 전력이 부족합니다. {0} 방식으로 원자로를 시작하려면 연결된 점화 축전지에 {1} Wd의 전력이 필요합니다.</EccentricPower_WarningInsufficientCharge>
+  <EccentricPower_WarningInsufficientFuel>경고: 연료가 부족합니다. 연결된 저장탱크에서 {1} 방식의 원자로 작동에 필요한 {0}을(를) 찾을 수 없습니다.</EccentricPower_WarningInsufficientFuel>
+  <EccentricPower_AlertInsufficientCharge>심각한 경고: 원자로 점화에 필요한 축전지 전력이 부족합니다! 원자로를 비상 정지합니다.</EccentricPower_AlertInsufficientCharge>
+  <EccentricPower_AlertInsufficientFuel>심각한 경고: 원자로 연료가 고갈되었습니다! 원자로를 비상 정지 합니다.</EccentricPower_AlertInsufficientFuel>
+  <EccentricPower_LetterShutdown>원자로 정지</EccentricPower_LetterShutdown>
+  <EccentricPower_LetterShutdownGeneric>원자로의 가동 정지가 시작되었습니다.</EccentricPower_LetterShutdownGeneric>
+  <EccentricPower_LetterShutdownMalfunction>원자로가 오작동을 일으켜 정지 중입니다.</EccentricPower_LetterShutdownMalfunction>
+  <EccentricPower_LetterShutdownExpl>완료까지는 몇 시간이 걸리며, 그 동안 소량의 연료가 계속 소비되고 원자로가 플라즈마를 낮추면서 추가적인 열이 발생합니다.</EccentricPower_LetterShutdownExpl>
+  <EccentricPower_LetterEmergencyVent>비상 정지</EccentricPower_LetterEmergencyVent>
+  <EccentricPower_LetterEmergencyVentGeneric>원자로의 비상 정지가 시작되었습니다.</EccentricPower_LetterEmergencyVentGeneric>
+  <EccentricPower_LetterEmergencyVentInsufficientCharge>원자로를 점화하기 위한 점화 축전지의 전력량이 충분하지 않아 원자로의 비상 정지가 시작되었습니다.</EccentricPower_LetterEmergencyVentInsufficientCharge>
+  <EccentricPower_LetterEmergencyVentOutOfFuel>원자로를 게속 가동하기에 연료가 부족하여 원자로의 비상 정지가 시작되었습니다.</EccentricPower_LetterEmergencyVentOutOfFuel>
+  <EccentricPower_LetterEmergencyVentMalfunction>원자로가 심각한 오작동을 일으켜 비상 정지가 시작되었습니다.</EccentricPower_LetterEmergencyVentMalfunction>
+  <EccentricPower_LetterEmergencyVentExpl>비상 정지 과정에서 원자로의 플라즈마는 주변 지역으로 직접 배출됩니다. 이것은 엄청난 양의 열을 발생 시키므로 가연성 물질에 불이 붙을 수 있고 원자로 선체를 손상시키며 원자로의 에너지가 완전히 소모될 때까지 계속됩니다.</EccentricPower_LetterEmergencyVentExpl>
+  <EccentricPower_PipePlaceOverlap>여기에 배치할 수 없습니다. 파이프가 이미 있습니다.</EccentricPower_PipePlaceOverlap>
+  <EccentricPower_ModeAllowLoading>적재 허용</EccentricPower_ModeAllowLoading>
+  <EccentricPower_ModeAllowLoadingDesc>연료를 이 저장탱크에 저장할 수 있도록 허용하고 연료를 운반하는 폰에게 연료를 이 저장탱크에 적재하도록 명령합니다.</EccentricPower_ModeAllowLoadingDesc>
+  <EccentricPower_ModeNoLoading>적재 금지</EccentricPower_ModeNoLoading>
+  <EccentricPower_ModeNoLoadingDesc>운반하는 폰들이 연료를 이 저장탱크에 저장하거나 내리지 않습니다. 연료는 여전히 연료 파이프라인을 통해 저장하거나 사용할 수 있습니다.</EccentricPower_ModeNoLoadingDesc>
+  <EccentricPower_ModeUnload>꺼내기</EccentricPower_ModeUnload>
+  <EccentricPower_ModeUnloadDesc>이 저장탱크에 추가 연료가 저장되지 않도록 하고 남은 연료를 모두 꺼내도록 명령합니다.</EccentricPower_ModeUnloadDesc>
+  <EccentricPower_DesignatorDeconstructPipe>파이프 해체</EccentricPower_DesignatorDeconstructPipe>
+  <EccentricPower_DesignatorDeconstructPipeDesc>연료 파이프를 해체하고 자원의 일부를 회수합니다.</EccentricPower_DesignatorDeconstructPipeDesc>
+  <EccentricPower_StatStorageType>저장하는 연료 종류</EccentricPower_StatStorageType>
+  <EccentricPower_StatStorageTypeDesc>이 저장탱크에서 저장하는 연료 종류입니다.</EccentricPower_StatStorageTypeDesc>
+  <EccentricPower_StatStorageCapacity>저장탱크 용량</EccentricPower_StatStorageCapacity>
+  <EccentricPower_StatStorageCapacityDesc>이 저장탱크에서 저장 할 수 있는 연료의 양입니다.</EccentricPower_StatStorageCapacityDesc>
+  <EccentricPower_StatChargeCapacity>충전 용량</EccentricPower_StatChargeCapacity>
+  <EccentricPower_StatChargeCapacityValue>{0} Wd</EccentricPower_StatChargeCapacityValue>
+  <EccentricPower_StatChargeCapacityDesc>이 축전지가 저장할 수 있는 전력량입니다.</EccentricPower_StatChargeCapacityDesc>
+  <EccentricPower_StatChargeEfficiency>효율</EccentricPower_StatChargeEfficiency>
+  <EccentricPower_StatChargeEfficiencyValue>{0}%</EccentricPower_StatChargeEfficiencyValue>
+  <EccentricPower_StatChargeEfficiencyDesc>이 축전지가 초과 전력을 저장할 수 있게 변환하는 효율입니다.</EccentricPower_StatChargeEfficiencyDesc>
+  <EccentricPower_StatDischargeTime>방전 시간</EccentricPower_StatDischargeTime>
+  <EccentricPower_StatDischargeTimeValue>{0}시간</EccentricPower_StatDischargeTimeValue>
+  <EccentricPower_StatDischargeTimeDesc>전원이 끊겼을 때 이 축전지가 방전되는 데 걸리는 시간입니다.</EccentricPower_StatDischargeTimeDesc>
+  <EccentricPower_StatProductionType>생산 연료 종류</EccentricPower_StatProductionType>
+  <EccentricPower_StatProductionTypeDesc>이 시설이 생산하는 연료의 종류입니다.</EccentricPower_StatProductionTypeDesc>
+  <EccentricPower_StatProductionRate>생산율</EccentricPower_StatProductionRate>
+  <EccentricPower_StatProductionRateValue>{0} / 일</EccentricPower_StatProductionRateValue>
+  <EccentricPower_StatProductionRateDesc>이 시설에서 생산되는 연료의 양입니다.</EccentricPower_StatProductionRateDesc>
+  <EccentricPower_StatHullIntegrity>선체 내구도</EccentricPower_StatHullIntegrity>
+  <EccentricPower_StatHullIntegrityDesc>원자로 노심 선체의 강도입니다. 작동하는 동안 선체 내부의 원자로에서 이루어지는 중성자 충격은 선체 내구도를 저하시켜 수리하지 않으면 결국 노심이 오작동을 일으킵니다.</EccentricPower_StatHullIntegrityDesc>
+  <EccentricPower_StatPowerModes>가동 방식</EccentricPower_StatPowerModes>
+  <EccentricPower_StatPowerModesDesc>이 원자로를 작동할 수 있는 가동 방식 ({0}):</EccentricPower_StatPowerModesDesc>
+  <EccentricPower_StatPowerOutput>전력 생산량: {0} W</EccentricPower_StatPowerOutput>
+  <EccentricPower_StatFuelConsumption>일일 연료 소모량: {0}</EccentricPower_StatFuelConsumption>
+  <EccentricPower_StatHullDegradation>일일 내구도 소모량: {0}</EccentricPower_StatHullDegradation>
+  <EccentricPower_StatIgnitionEnergy>점화에 필요한 전력: {0} Wd</EccentricPower_StatIgnitionEnergy>
+  <EccentricPower_StatStartupTime>가동까지 걸리는 시간: {0}시간</EccentricPower_StatStartupTime>
+  <EccentricPower_StatShutdownTime>정지까지 걸리는 시간: {0}시간</EccentricPower_StatShutdownTime>
+  <EccentricPower_StatEmergencyShutdownTime>비상 정지까지 걸리는 시간: {0}시간</EccentricPower_StatEmergencyShutdownTime>
+  <EccentricPower_DismantleFor>해체해 {0} 회수하기</EccentricPower_DismantleFor>
+  <EccentricPower_DismantleSkillReq>해체해 {0} 회수하기 ({2} {1} 필요)</EccentricPower_DismantleSkillReq>
+</LanguageData>
