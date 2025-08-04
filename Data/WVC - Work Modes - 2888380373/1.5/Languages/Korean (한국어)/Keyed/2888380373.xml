@@ -12,7 +12,7 @@
   <WVC_WorkModes_On>On</WVC_WorkModes_On>
   <WVC_WorkModes_Off>Off</WVC_WorkModes_Off>
   <WVC_MechanoidScavengeZone>메카노이드 수집 구역</WVC_MechanoidScavengeZone>
-  <WVC_MechanoidScavengeZoneDesc>수집' 유형의 메카노이드는 이 구역에서 유용한 자원을 찾습니다.</WVC_MechanoidScavengeZoneDesc>
+  <WVC_MechanoidScavengeZoneDesc>'수집' 유형의 메카노이드는 이 구역에서 유용한 자원을 찾습니다.</WVC_MechanoidScavengeZoneDesc>
   <WVC_MechanoidScavengeZone_CellsCount>셀: {0} | 최소 허용: {1}</WVC_MechanoidScavengeZone_CellsCount>
   <WVC_WorkModes_AssignToPawnEscortLabel>호위 배정</WVC_WorkModes_AssignToPawnEscortLabel>
   <WVC_WorkModes_AssignToPawnEscortLabelReset>호위 대상 초기화</WVC_WorkModes_AssignToPawnEscortLabelReset>
@@ -72,7 +72,7 @@
   <WVC_Label_enableSmartChargingForAllMechanoids>바닐라 모드를 위한 스마트 충전</WVC_Label_enableSmartChargingForAllMechanoids>
   <WVC_ToolTip_enableSmartChargingForAllMechanoids>이 기능을 활성화하면 메카노이드는 충전이 다 떨어졌을 때뿐만 아니라 아무것도 하지 않을 때에도 충전을 시작합니다.</WVC_ToolTip_enableSmartChargingForAllMechanoids>
   <WVC_ToolTip_VanillaModeOptimizationWarning>전투 메카노이드의 유휴 상태가 시뮬레이션 순찰로 대체되었으므로 영향을 미치지 않습니다.</WVC_ToolTip_VanillaModeOptimizationWarning>
-  <WVC_Label_enableShutdownSearching>대기 구역 검색 활성화</WVC_Label_enableShutdownSearching>
+  <WVC_Label_enableShutdownSearching>메카노이드 대기 구역 활성화</WVC_Label_enableShutdownSearching>
   <WVC_ToolTip_enableShutdownSearching>활성화하면 메카노이드가 대기하기 전에 메카노이드 대기 영역을 검색합니다.</WVC_ToolTip_enableShutdownSearching>
   <WVC_Label_enableEnemySearching>적 탐색 활성화</WVC_Label_enableEnemySearching>
   <WVC_ToolTip_enableEnemySearching>활성화하면 안전 모드에서 메카노이드가 맵에서 적을 확인합니다.</WVC_ToolTip_enableEnemySearching>
@@ -96,4 +96,10 @@
 
 재시작이 필요합니다!</WVC_ToolTip_enableDormantMode>
   <WVC_Label_mechBandwithCostInDormantMode>메카노이드 휴면 시 대역폭 x{0}%</WVC_Label_mechBandwithCostInDormantMode>
+  <WVC_WM_ShutdownGroup>대기</WVC_WM_ShutdownGroup>
+  <WVC_Label_RechargeAndShutdown>충전 및 대기</WVC_Label_RechargeAndShutdown>
+  <WVC_Label_enable_GoToShutdownRoomJob>메카노이드 격납고 방 유형 활성화</WVC_Label_enable_GoToShutdownRoomJob>
+  <WVC_ToolTip_enable_GoToShutdownRoomJob>활성화하면 모든 메카노이드 충전기가 새로운 방 유형 "메카노이드 격납고"를 생성합니다. 메카노이드는 구역 형태의 대안이 없으면 그곳에서 잠을 잘 것입니다.\n\n중력부양선(Odyssey DLC)이 비행할 경우 외부 구역이 재설정되기 때문에 권장합니다.\n\n(베타) 구역과 유사한 미세 조정이 가능한 특수 신호기가 계획되어 있습니다.\n\n재시작이 필요합니다!</WVC_ToolTip_enable_GoToShutdownRoomJob>
+  <WVC_WM_Label_enableAutoRepairByDefault>자동 수리 기본 켜기</WVC_WM_Label_enableAutoRepairByDefault>
+  <WVC_WM_ToolTip_enableAutoRepairByDefault>메카노이드의 자동 수리를 기본적으로 켭니다.</WVC_WM_ToolTip_enableAutoRepairByDefault>
 </LanguageData>
