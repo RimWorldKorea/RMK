@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Expanded Prosthetics and Organ Engineering - Forked</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EPOE_SurgeryRemoveDRBrainDamage"]/label</xpath>
+          <value>
+            <label>뇌 손상 치료</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EPOE_SurgeryRemoveDRBrainDamage"]/description</xpath>
+          <value>
+            <description>뇌 손상을 치료하기 위해 신경 치료 장치를 이식합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EPOE_SurgeryRemoveDRBrainDamage"]/jobString</xpath>
+          <value>
+            <jobString>뇌 손상을 치료하는 중.</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="EPOE_SurgeryRemoveDRBrainDamage"]/successfullyRemovedHediffMessage</xpath>
+          <value>
+            <successfullyRemovedHediffMessage>{0}(이)가 {1}의 뇌 손상을 성공적으로 치료했습니다.</successfullyRemovedHediffMessage>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
