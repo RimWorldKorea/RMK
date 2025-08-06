@@ -9,7 +9,6 @@
 
 [배열 순서]
 - RMK를 가능한 아래에 두세요. 아래에 위치한 데이터가 우선적으로 적용됩니다.
-- RocketMan 모드 사용 시 RMK가 위치해야 할 검증된 순서는 없지만, 여기에 대해 혼란이 있기 때문에 기본적으로 선행하도록 설정되어 있습니다.
 - 몇몇 모드에 대해 '보다 뒤에 불러와야 합니다' 규칙이 기본으로 설정되어 있습니다. 모드에서 자체적으로 설정할 수 있는 정렬 규칙에 '가능한 아래에 배치'같은 기능이 없기 때문에, 자동 정렬만 사용하는 경우에 대비한 예방적 조치입니다.
 - 설정된 배열 규칙을 따르지 않아서 경고가 뜨더라도 기본적으로는 무해합니다.
 
@@ -44,13 +43,19 @@
 
     </incompatibleWith>
 
-    <loadAfter><!-- 한국어 언어 파일이 존재해서 RMK를 덮어쓸 가능성이 있는 모드들 -->
+    <loadAfter>
+
+        <!-- 오래된 한국어 번역 파일이 존재해서 RMK를 덮어쓸 가능성이 있는 모드들 -->
         <li>rwmt.Multiplayer</li><!-- Multiplayer -->
         <li>Fluffy.FluffyRelations</li><!-- Relations Tab -->
         <li>Uuugggg.ReplaceStuff</li><!-- Replace Stuff -->
         <li>Lat.Rimstro</li><!-- Rimstro -->
         <li>neronix17.toolbox</li><!-- Tabula Rasa -->
         <li>TradingControl.Common.Core</li><!-- Trading Control -->
+
+        <!-- 모드에 따라 바닐라 번역을 수정해야 하는 경우가 있으므로 바닐라 번역은 RMK보다 앞에 와야함 -->
+        <li>Milsu.Rimwaldo.Vanilla</li><!-- [Rimwaldo] Korean CRIBAO -->
+
     </loadAfter>
 
     <loadBefore>
