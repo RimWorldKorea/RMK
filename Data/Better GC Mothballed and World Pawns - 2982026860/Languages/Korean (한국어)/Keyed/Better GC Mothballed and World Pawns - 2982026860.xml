@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MBADP.Reports.Title>Better GC: 비활성화 및 월드 폰 정리 보고서:</MBADP.Reports.Title>
+  <MBADP.Reports.TotalPawns>총 {0}개의 월드 폰이 존재합니다.</MBADP.Reports.TotalPawns>
+  <MBADP.Reports.TotalPawnsDetails>이 {0}개의 폰 중 {1}개가 폰 정리 대상이 될 수 있습니다 (제외: 세력 지도자, 납치됨, 상단 이동 중, 판매용, 강제 억류, 퀘스트 예약, 타 세력 대여 등).</MBADP.Reports.TotalPawnsDetails>
+  <MBADP.Reports.ColonistsDiscarded>{0}개의 (현재 또는 이전) 정착민 참조가 삭제되었습니다. 현재 {1}개의 정착민 참조가 남아있습니다 (월드 폰 한정).</MBADP.Reports.ColonistsDiscarded>
+  <MBADP.Reports.ColonistsDiscardedReferences>삭제된 (현재 또는 이전) 정착민 참조: {0}개</MBADP.Reports.ColonistsDiscardedReferences>
+  <MBADP.Reports.ColonistsDiscardedDisabled>(현재 또는 이전) 정착민 참조 정리가 모드 설정에서 비활성화되었습니다.</MBADP.Reports.ColonistsDiscardedDisabled>
+  <MBADP.Reports.AnimalsDiscarded>{0}개의 동물 참조가 삭제되었습니다. 현재 {1}개의 동물 참조가 남아있습니다 (월드 폰 한정).</MBADP.Reports.AnimalsDiscarded>
+  <MBADP.Reports.AnimalsDiscardedReferences>삭제된 동물 참조: {0}개</MBADP.Reports.AnimalsDiscardedReferences>
+  <MBADP.Reports.AnimalsDiscardedDisabled>동물 참조 정리가 모드 설정에서 비활성화되었습니다.</MBADP.Reports.AnimalsDiscardedDisabled>
+  <MBADP.Reports.OtherPawnsDiscarded>{0}개의 기타 폰 참조가 삭제되었습니다. 현재 {1}개의 기타 폰 참조가 남아있습니다 (월드 폰 한정).</MBADP.Reports.OtherPawnsDiscarded>
+  <MBADP.Reports.OtherPawnsDiscardedReferences>세력별로 삭제된 기타 폰 참조:</MBADP.Reports.OtherPawnsDiscardedReferences>
+  <MBADP.Reports.OtherPawnsDiscardedDisabled>기타 폰 참조 정리가 모드 설정에서 비활성화되었습니다.</MBADP.Reports.OtherPawnsDiscardedDisabled>
+  <MBADP.Reports.FailedToProcess>{0}개 폰 처리에 실패했습니다 (이미 삭제되었을 수 있습니다).</MBADP.Reports.FailedToProcess>
+  <MBADP.Reports.Total>총계: {0}개 폰 삭제됨. {1}개 폰 참조 남음.</MBADP.Reports.Total>
+  <MBADP.Reports.ColonistsAlive>{0}개 폰은 정리 대상이 아닙니다:</MBADP.Reports.ColonistsAlive>
+  <MBADP.Reports.ColonistsAliveReferences>세력별 정리 대상이 아닌 폰 참조:</MBADP.Reports.ColonistsAliveReferences>
+  <MBADP.Reports.PawnsCleanUpDisabled>추가 폰 정리 기능이 모드 설정에서 비활성화되었습니다.</MBADP.Reports.PawnsCleanUpDisabled>
+  <MBADP.Reports.MothballingExecuted>폰 비활성화 기능이 강제로 실행되었습니다.</MBADP.Reports.MothballingExecuted>
+  <MBADP.Reports.MothballingDisabled>강제 폰 비활성화 기능이 모드 설정에서 비활성화되었습니다.</MBADP.Reports.MothballingDisabled>
+  <MBADP.Reports.QuestLogCleanUpExecuted>퀘스트 기록 정리가 실행되었습니다. {0}개의 보관된 퀘스트가 제거되었습니다.</MBADP.Reports.QuestLogCleanUpExecuted>
+  <MBADP.Reports.QuestLogCleanUpDisabled>퀘스트 기록 정리가 모드 설정에서 비활성화되었습니다.</MBADP.Reports.QuestLogCleanUpDisabled>
+  <MBADP.Reports.AxesCleanUpExecuted>VFE-Medieval 2 모드의 던져진 손도끼 {0}개를 제거했습니다.</MBADP.Reports.AxesCleanUpExecuted>
+  <MBADP.Reports.LetterTitle>Better GC: 비활성화 및 월드 폰 보고서</MBADP.Reports.LetterTitle>
+  <MBADP.Settings.RunsOnSaveLoad>폰 정리는 게임 저장 파일을 불러올 때 실행됩니다</MBADP.Settings.RunsOnSaveLoad>
+  <MBADP.Settings.ExtraCleanUpCheckbox>추가 폰 정리 기능 활성화</MBADP.Settings.ExtraCleanUpCheckbox>
+  <MBADP.Settings.GentleCleanUpCheckbox>더 "안전한" 폰 정리 (자세한 내용은 툴팁을 참고하세요)</MBADP.Settings.GentleCleanUpCheckbox>
+  <MBADP.Settings.GentleCleanUpTooltip>RIMMSqol이나 특정 모드를 사용하는 경우 이 옵션을 켜야 할 수 있습니다.\n이유: 일부 모드는 폰을 저장하는 비표준적인 맵 개체를 생성할 수 있습니다. 만약 해당 모드가 폰을 영구 보존 대상으로 표시하지 못하면, 가비지 컬렉터에 의해 폰이 제거될 수 있습니다.\n이 옵션은 이러한 문제를 해결하기 위한 시도입니다.</MBADP.Settings.GentleCleanUpTooltip>
+  <MBADP.Settings.RunMothballerCheckbox>저장 파일 불러올 때 폰 비활성화를 강제로 실행하시겠습니까?</MBADP.Settings.RunMothballerCheckbox>
+  <MBADP.Settings.RunAnimalsCleanUpCheckbox>동물 정리 기능을 실행하시겠습니까?</MBADP.Settings.RunAnimalsCleanUpCheckbox>
+  <MBADP.Settings.DiscardAnimalsAfter>{0}일 후 정리 대상 동물 (세력 무관) 삭제 (60일 = 1년)</MBADP.Settings.DiscardAnimalsAfter>
+  <MBADP.Settings.RunColonistsCleanUpCheckbox>(현재 또는 이전) 정착민 정리 기능을 실행하시겠습니까?</MBADP.Settings.RunColonistsCleanUpCheckbox>
+  <MBADP.Settings.DiscardColonistsAfter>{0}일 후 정리 대상 정착민 폰 삭제 (60일 = 1년)</MBADP.Settings.DiscardColonistsAfter>
+  <MBADP.Settings.RunOtherPawnsCleanUpCheckbox>기타 모든 폰 정리 기능을 실행하시겠습니까?</MBADP.Settings.RunOtherPawnsCleanUpCheckbox>
+  <MBADP.Settings.DiscardOtherPawnsAfter>{0}일 후 정리 대상 폰 삭제 (60일 = 1년)</MBADP.Settings.DiscardOtherPawnsAfter>
+  <MBADP.Settings.DiscardTooltip>값을 0으로 설정하여 월드 폰을 즉시 삭제할 수 있지만, 권장하지 않습니다.</MBADP.Settings.DiscardTooltip>
+  <MBADP.Settings.RunQuestsCleanUpCheckbox>오래된 퀘스트 기록 정리 기능을 실행하시겠습니까?</MBADP.Settings.RunQuestsCleanUpCheckbox>
+  <MBADP.Settings.DiscardQuestsAfter>{0}일 후 오래된 퀘스트 삭제 (60일 = 1년)</MBADP.Settings.DiscardQuestsAfter>
+  <MBADP.Settings.DiscardQuestsAfterTooltip>성능을 크게 향상시키지는 않지만, 저장 파일 크기를 줄일 수 있습니다.</MBADP.Settings.DiscardQuestsAfterTooltip>
+  <MBADP.Settings.RunBadBulletsCleanupCheckbox>던져진 손도끼를 제거하시겠습니까? (VFE-Medieval 2와 CE 모드 간의 호환성 문제를 해결할 수 있음)</MBADP.Settings.RunBadBulletsCleanupCheckbox>
+  <MBADP.Settings.DisableLetter>보고서 편지 완전 비활성화</MBADP.Settings.DisableLetter>
+  <MBADP.Settings.DetailedReportLetter>삭제된 폰에 대한 상세 보고서를 받으시겠습니까? 매우 긴 편지가 생성될 수 있습니다.</MBADP.Settings.DetailedReportLetter>
+  <MBADP.Settings.AlivePawnsReportLetter>정리 대상이 아닌 폰에 대한 보고서를 받으시겠습니까? 디버깅에 유용합니다.</MBADP.Settings.AlivePawnsReportLetter>
+  <MBADP.Settings.Default>기본 설정</MBADP.Settings.Default>
+</LanguageData>
