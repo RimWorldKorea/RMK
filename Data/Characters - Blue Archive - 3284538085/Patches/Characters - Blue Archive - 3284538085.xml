@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Honest_wish"]/comps/li[1]/chargeNoun</xpath>
+    <value>
+      <chargeNoun>수류탄</chargeNoun>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Bottomless"]/comps/li[1]/chargeNoun</xpath>
+    <value>
+      <chargeNoun>수류탄</chargeNoun>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Michiru_style_overflow_shotgun"]/comps/li[1]/chargeNoun</xpath>
+    <value>
+      <chargeNoun>탄환</chargeNoun>
+    </value>
+  </Operation>
+</Patch>
