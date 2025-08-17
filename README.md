@@ -5,7 +5,7 @@ RimWorld Mod Korean Project
 
 스팀 창작마당: [링크](https://steamcommunity.com/sharedfiles/filedetails/?id=3079466972)  
 림월드 마이너 갤러리: [링크](https://gall.dcinside.com/mgallery/board/lists?id=rimworld)  
-디스코드 : [링크](https://discord.gg/4Ycg35S2)  
+디스코드 : [링크](https://discord.gg/5FdkKj2XUe)  
 
 번역 목록 열람: [링크](https://docs.google.com/spreadsheets/d/e/2PACX-1vTZtvMrguzs86lhnObgcacvtmTWJZ-H8ipgZcXdKC06GdfqADgZADk7kQxrftbZhJmP0uM9hRFtDoUK/pubhtml?gid=1757504801&single=true)  
 미등록 레거시 번역 목록 열람: [링크](https://docs.google.com/spreadsheets/d/1Dt3x8Yf-4hTAcs6zvcCVzezwjIAtry7zh9B1Jew2064/edit?usp=sharing)
