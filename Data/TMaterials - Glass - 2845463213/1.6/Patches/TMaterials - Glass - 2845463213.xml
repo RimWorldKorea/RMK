@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>ReBuild: Doors and Corners</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>ReplaceLib</li>
+      </mods>
+      <match Class="PatchOperationFindMod">
+        <mods>
+          <li>XML Extensions</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/ThingDef[defName="TMaterials_GlassTempered"]/label</xpath>
+              <value>
+                <label>방탄 유리</label>
+              </value>
+            </li>
+          </operations>
+        </match>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Medieval - Vanilla</li>
+      <li>Rimedieval - Medieval Conversion</li>
+      <li>Rimedieval</li>
+      <li>Remove Medieval Stuff</li>
+      <li>Remove Industrial Stuff</li>
+      <li>Medieval Patches</li>
+      <li>Medieval Patches (Continued)</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="TMaterials_GlassLaminated"]/label</xpath>
+          <value>
+            <label>백색 유리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/TerrainDef[defName="TMaterials_GlassLaminatedTile"]/label</xpath>
+          <value>
+            <label>백색 유리 바닥</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="TMaterials_GlassLaminated"]/description</xpath>
+          <value>
+            <description>천연 오일 혼합물로 제련한 유리로, 더 밝은 색을 띠며 적절한 강도와 빠른 제작 속도를 제공합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="TMaterials_GlassAdvanced"]/description</xpath>
+          <value>
+            <description>유리를 제련할 때 은을 사용하면 더 투명하게, 강철은 어두운 색유리로, 천연 오일은 밝은 색으로, 소량의 돌로 샌드블라스트하면 불투명도를 줄일 수 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="TMaterials_GlassLaminated"]/description</xpath>
+          <value>
+            <description>다량의 유리를 천연 오일 혼합물로 재제련하여 강도를 높일 수 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="TMaterials_GlassLaminated"]/label</xpath>
+          <value>
+            <label>백색 유리 75개 제작</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="TMaterials_GlassLaminated"]/jobString</xpath>
+          <value>
+            <jobString>백색 유리 제작 중</jobString>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Glass+Lights</li>
+      <li>Just Glass</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="WindowTinted_TMaterialsGlass"]/label</xpath>
+          <value>
+            <label>색유리 창</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AutoDoorGlassTinted_TMaterials"]/label</xpath>
+          <value>
+            <label>색유리 자동문</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AutoDoorGlassTinted_TMaterials"]/description</xpath>
+          <value>
+            <description>방을 구분합니다. 전력으로 작동하며, 사람들은 속도 저하 없이 통과할 수 있고 빛이 통과됩니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DoorGlassTinted_TMaterials"]/label</xpath>
+          <value>
+            <label>색유리 문</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DoorGlassTinted_TMaterials"]/description</xpath>
+          <value>
+            <description>방을 구분하며 빛이 통과됩니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="WindowReinforced_TMaterialsGlass"]/label</xpath>
+          <value>
+            <label>강화 유리 창</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AutoDoorGlassTempered_TMaterials"]/label</xpath>
+          <value>
+            <label>강화 유리 자동문</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AutoDoorGlassTempered_TMaterials"]/description</xpath>
+          <value>
+            <description>방을 구분합니다. 전력으로 작동하며, 사람들은 속도 저하 없이 통과할 수 있고 빛이 통과됩니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DoorGlassTempered_TMaterials"]/label</xpath>
+          <value>
+            <label>강화 유리 문</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DoorGlassTempered_TMaterials"]/description</xpath>
+          <value>
+            <description>방을 구분하며 빛이 통과됩니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

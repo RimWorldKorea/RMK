@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Glass+Lights</li>
+      <li>Just Glass</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="WindowReinforced_TMaterialsGlass"]/label</xpath>
+          <value>
+            <label>강화 유리 창문</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AutoDoorGlassTempered_TMaterials"]/label</xpath>
+          <value>
+            <label>강화 유리 자동문</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AutoDoorGlassTempered_TMaterials"]/description</xpath>
+          <value>
+            <description>방을 나눕니다. 자동이기 때문에 사람들이 속도를 줄이지 않고 문을 통해 이동할 수 있게 합니다. 빛이 통과할 수 있도록 합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DoorGlassTempered_TMaterials"]/label</xpath>
+          <value>
+            <label>강화 유리 문</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DoorGlassTempered_TMaterials"]/description</xpath>
+          <value>
+            <description>방을 나눕니다. 빛이 통과할 수 있도록 합니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
