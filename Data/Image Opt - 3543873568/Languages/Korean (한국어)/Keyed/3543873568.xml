@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ImageOpt>Image Load Optimization</ImageOpt>
+  <ImageOpt.LoadInfo>이미지 로드 정보</ImageOpt.LoadInfo>
+  <ImageOpt.OtherImageLoaded>로딩된 png/jpg 이미지: &lt;color=cyan&gt;{0}&lt;/color&gt;</ImageOpt.OtherImageLoaded>
+  <ImageOpt.DdsImageLoaded>로딩된 dds 이미지: &lt;color=cyan&gt;{0}&lt;/color&gt;</ImageOpt.DdsImageLoaded>
+  <ImageOpt.LoadTimeS>로딩 시간: &lt;color=yellow&gt;{0}&lt;/color&gt; 초</ImageOpt.LoadTimeS>
+  <ImageOpt.PeakImage>최대 이미지 처리: &lt;color=green&gt;{0}&lt;/color&gt;</ImageOpt.PeakImage>
+  <ImageOpt.PeakMemory>최대 메모리 사용량: &lt;color=green&gt;{0}&lt;/color&gt;</ImageOpt.PeakMemory>
+  <ImageOpt.EstimatedVideoMem>추정된 비디오 메모리 사용량: &lt;color=green&gt;{0}&lt;/color&gt;</ImageOpt.EstimatedVideoMem>
+  <ImageOpt.ImageLoadingLimit>최대 로딩 이미지 제한</ImageOpt.ImageLoadingLimit>
+  <ImageOpt.ImageLoadingLimit.desc>메모리에 로드되었지만 아직 GPU로 전송되지 않은 이미지의 최대 갯수.\n\n이 값은 최대 이미지 로드 시간에 영향을 미칩니다. 이 값을 줄이면 최대 메모리 사용량을 제한할 수 있지만, 성능이 느려질 수 있습니다. 이 값을 늘리면 성능이 향상됩니다.\n\n이 값이 가득 차면 ImageOpt는 로드된 텍스처가 GPU 메모리로 전송될 때까지 기다린 후 로드되지 않은 텍스처를 계속 로드합니다.</ImageOpt.ImageLoadingLimit.desc>
+  <ImageOpt.EnableDds>DDS 텍스처 사용</ImageOpt.EnableDds>
+  <ImageOpt.EnableDds.desc>비활성화하면 dds 텍스처는 로드되지 않고 png/jpeg 이미지만 사용합니다.</ImageOpt.EnableDds.desc>
+  <ImageOpt.AnisoLevel>이방성 필터링</ImageOpt.AnisoLevel>
+  <ImageOpt.MipmapBias>밉맵 크기</ImageOpt.MipmapBias>
+  <ImageOpt.MipmapBias.desc>부정적인 값은 더 높은 해상도의 텍스처를 선택하게 되어 일반적으로 품질이 향상됩니다.\n\n긍정적인 값은 성능을 개선하기 위해 더 낮은 해상도를 선호합니다. 큰 부정적인 값을 사용하면 텍스처 깜빡임이 발생할 수 있습니다.</ImageOpt.MipmapBias.desc>
+  <ImageOpt.CleanDds>dds 이미지 파일 정리</ImageOpt.CleanDds>
+  <ImageOpt.CleanDdsAlert>경고: 이 명령은 활성화된 모드의 모든 .dds 이미지 파일을 삭제합니다.\n\n이로 인해 게임이나 세이브 파일이 손상되지는 않지만, 이 기능을 다시 사용하려면 압축된 텍스처를 재생성해야 됩니다.</ImageOpt.CleanDdsAlert>
+  <ImageOpt.ConfirmContinue>확인 후 계속</ImageOpt.ConfirmContinue>
+  <ImageOpt.CleanDone>DDS 파일 정리됨</ImageOpt.CleanDone>
+  <ImageOpt.Cancel>취소</ImageOpt.Cancel>
+  <ImageOpt.OpenGPUCompressImageTools>GPU 압축 이미지 도구 열기</ImageOpt.OpenGPUCompressImageTools>
+  <ImageOpt.GPUCompressImageTools>GPU 압축 텍스처 도구</ImageOpt.GPUCompressImageTools>
+  <ImageOpt.GenMipmaps>밉맵 생성</ImageOpt.GenMipmaps>
+  <ImageOpt.GenMipmaps.desc>밉맵은 미리 계산된 축소판 텍스처로 먼 거리에서는 저해상도 텍스처를 표시하고 가까운 거리에서는 고해상도 텍스처를 표시하여 계단 현상을 줄이고 성능을 향상시킵니다.\n\n이 기능은 파일 크기를 증가시키므로 Zstd 압축과 함께 이 옵션을 활성화하는 것이 권장됩니다.</ImageOpt.GenMipmaps.desc>
+  <ImageOpt.zstd>zstd 압축</ImageOpt.zstd>
+  <ImageOpt.zstd.desc>GPU 텍스처의 보조 압축으로 zstd 압축 알고리즘을 사용합니다. 이는 디스크에서 텍스처 저장 크기를 확실하게 줄입니다.\n\n활성화하길 권장합니다. (활성화시 .dds 대신 .dds.zstd 파일이 생성됩니다.)</ImageOpt.zstd.desc>
+  <ImageOpt.Overwrite>기존 텍스처 덮어쓰기</ImageOpt.Overwrite>
+  <ImageOpt.Overwrite.desc>비활성화하면 기존 파일은 건너뜁니다. 활성화하면 기존 파일을 덮어씁니다.</ImageOpt.Overwrite.desc>
+  <ImageOpt.AutoScaling>자동 스케일링</ImageOpt.AutoScaling>
+  <ImageOpt.AutoScaling.desc>Unity는 GPU 압축 텍스처를 4의 배수 크기로만 로드할 수 있으므로 이 옵션은 이미지를 4의 배수로 자동 조정합니다 (일반적으로 약간 더 작은 크기로 조정됩니다).\n\n이 요구사항을 충족하지 않는 이미지는 일반 이미지 형식으로 자동 전환됩니다.</ImageOpt.AutoScaling.desc>
+  <ImageOpt.Performance>성능</ImageOpt.Performance>
+  <ImageOpt.Quality>품질</ImageOpt.Quality>
+  <ImageOpt.Quality.desc>텍스처 압축 품질을 설정합니다. 압축 시간을 따지진 않는다면.. 고품질을 추천합니다!</ImageOpt.Quality.desc>
+  <ImageOpt.HighQuality>고품질</ImageOpt.HighQuality>
+  <ImageOpt.NormalQuality>보통 품질</ImageOpt.NormalQuality>
+  <ImageOpt.LowQuality>저품질</ImageOpt.LowQuality>
+  <ImageOpt.Generate>생성</ImageOpt.Generate>
+  <ImageOpt.AllImagesProcessed>모든 이미지 처리가 끝났습니다. 소요된 시간: {0} 초</ImageOpt.AllImagesProcessed>
+</LanguageData>
