@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Infusion.Savant.Message>+{0} 연구 포인트</Infusion.Savant.Message>
+  <Infusion.Label.Prefixed>{0} {1}</Infusion.Label.Prefixed>
+  <Infusion.Label.Suffixed>{0}의 {1}</Infusion.Label.Suffixed>
+  <Infusion.Label.NotInfused>{0} (마법부여 없음)</Infusion.Label.NotInfused>
+  <Infusion.Matchers.Apparel>의류</Infusion.Matchers.Apparel>
+  <Infusion.Matchers.Melee>근접</Infusion.Matchers.Melee>
+  <Infusion.Matchers.Ranged>원거리</Infusion.Matchers.Ranged>
+  <Infusion.Matchers.NotUtility>방어구</Infusion.Matchers.NotUtility>
+  <Infusion.Matchers.Negate>[$0] 제외</Infusion.Matchers.Negate>
+  <Infusion.Matchers.ShieldBelt>보호막 벨트</Infusion.Matchers.ShieldBelt>
+  <Infusion.Sacrificed>{0} 희생!</Infusion.Sacrificed>
+  <Infusion.Infuser.Label>{0} 연마기</Infusion.Infuser.Label>
+  <Infusion.Infuser.Description>장비를 강화할 수 있는 메카나이트를 담은 일회용 연마기입니다.</Infusion.Infuser.Description>
+  <Infusion.StatPart.Start>마법부여: </Infusion.StatPart.Start>
+  <Infusion.Job.Message.ExtractionFailure>{1}에서 {0} 마법부여를 추출하던 중 실패했습니다. 마법부여와 연마기 모두 파괴됐습니다.</Infusion.Job.Message.ExtractionFailure>
+  <Infusion.Job.Message.ExtractionFailureInfusion>{1}에서 {0} 마법부여를 추출하던 중 실패했습니다. 마법부여가 파괴됐습니다.</Infusion.Job.Message.ExtractionFailureInfusion>
+  <Infusion.Job.Message.ExtractionFailureInfuser>{1}에서 {0} 마법부여를 추출하던 중 실패했습니다. 연마기가 파괴됐습니다.</Infusion.Job.Message.ExtractionFailureInfuser>
+  <Infusion.Job.FailReason.NoExtractor>접근 가능하고 선점 가능한 빈 연마기 없음</Infusion.Job.FailReason.NoExtractor>
+  <Infusion.Job.FailReason.NoMatchingInfuser>접근 가능하고 선점 가능하며 적합한 연마기 없음</Infusion.Job.FailReason.NoMatchingInfuser>
+  <Infusion.EffectGizmo>마법부여</Infusion.EffectGizmo>
+  <Infusion.EffectGizmo.Description>화염, 폭발 등 마법부여 특수효과를 활성화합니다.</Infusion.EffectGizmo.Description>
+  <Infusion.ITab>마법부여</Infusion.ITab>
+  <Infusion.ITab.Hint>마법부여를 클릭해 추출/제거 지정</Infusion.ITab.Hint>
+  <Infusion.ITab.NoSlot>장비의 품질이 너무 낮아 마법부여를 받을 수 없습니다.</Infusion.ITab.NoSlot>
+  <Infusion.ITab.ApplyInfuser>연마기 사용...</Infusion.ITab.ApplyInfuser>
+  <Infusion.ITab.ApplyInfuser.Description>이 장비에 적합한 연마기만 보여집니다.</Infusion.ITab.ApplyInfuser.Description>
+  <Infusion.ITab.ApplyInfuser.SlotsFull>연마기 사용 불가:\n마법부여 칸 없음</Infusion.ITab.ApplyInfuser.SlotsFull>
+  <Infusion.ITab.ApplyInfuser.NoSuitableInfuser>연마기 사용 불가:\n적합한 연마기 없음</Infusion.ITab.ApplyInfuser.NoSuitableInfuser>
+  <Infusion.ITab.MarkForExtraction>클릭하면 마법부여의 추출을 지정합니다. (성공률 {0})</Infusion.ITab.MarkForExtraction>
+  <Infusion.ITab.MarkForRemoval>추출을 지정한 마법부여입니다. (성공률 {0})
+추출에는 빈 연마기가 필요합니다. 실패하면 마법부여와 연마기가 파괴될 수 있습니다.
+
+제작 작업을 맡은 정착민이 추출할 것입니다.
+
+
+다시 클릭하면 추출 대신 제거를 지정합니다.</Infusion.ITab.MarkForRemoval>
+  <Infusion.ITab.Unmark>제거를 지정한 마법부여입니다.
+마법부여 제거에는 아무것도 필요하지 않습니다.
+
+제작 작업을 맡은 정착민이 제거할 것입니다.
+
+
+다시 클릭하면 제거를 취소합니다.</Infusion.ITab.Unmark>
+  <Infusion.Settings.Label.RestartGameInfo>설정 변경 후에는 반드시 게임을 재시작하세요.</Infusion.Settings.Label.RestartGameInfo>
+  <Infusion.Settings.AccuracyOvercapping>명중률 제한 해제</Infusion.Settings.AccuracyOvercapping>
+  <Infusion.Settings.AccuracyOvercapping.Description>원거리 무기의 명중률이 100%를 초과할 수 있도록 허용합니다.</Infusion.Settings.AccuracyOvercapping.Description>
+  <Infusion.Settings.BiocodeBonus>생체인증 장비 강화</Infusion.Settings.BiocodeBonus>
+  <Infusion.Settings.BiocodeBonus.Description>무작위 마법부여를 부여할 때, 생체인증 장비의 품질을 두 단계 위로 간주합니다.
+    
+예를 들어, 일반 품질의 생체인증 장비는 완벽 품질이 받을 수 있는 마법부여를 가져갑니다.</Infusion.Settings.BiocodeBonus.Description>
+  <Infusion.Settings.InfusionsFromCrafting>제작 시 마법부여</Infusion.Settings.InfusionsFromCrafting>
+  <Infusion.Settings.InfusionsFromCrafting.Description>장비를 제작하면 마법 부여 효과가 적용됩니다.</Infusion.Settings.InfusionsFromCrafting.Description>
+  <Infusion.Settings.ExtractionChanceFactor>추출 성공 확률 계수</Infusion.Settings.ExtractionChanceFactor>
+  <Infusion.Settings.ExtractionChanceFactor.Description>마법부여 추출 성공 확률에 곱하는 값입니다. 가능한 값은 0.0 ~ 100.0이며 기본 값은 1.0입니다.</Infusion.Settings.ExtractionChanceFactor.Description>
+  <Infusion.Settings.ReusableInfusers>다회용 연마기</Infusion.Settings.ReusableInfusers>
+  <Infusion.Settings.ReusableInfusers.Description>비어있지 않은 연마기를 사용했을 때 빈 연마기를 생성합니다.</Infusion.Settings.ReusableInfusers.Description>
+  <Infusion.Settings.Mu>마법부여 분포 뮤</Infusion.Settings.Mu>
+  <Infusion.Settings.Mu.Description>적용할 마법부여를 선택하는 과정에 사용하는 정규분포 뮤 값의 계수를 지정합니다. 가능한 값은 0.5 ~ 10.0이며 기본 값은 1.0입니다.
+
+큰 값일수록 장비의 품질을 크게 고려해서, 결과적으로 더 제한된 마법부여를 선택합니다.
+
+참고: 마법부여는 확률 테스트도 통과해야 실제로 장비에 적용됩니다. 마법부여 확률 계수를 조정해서, 장비에 실제로 적용될 마법부여의 전체적인 수를 조절하세요.
+  </Infusion.Settings.Mu.Description>
+  <Infusion.Settings.Sigma>마법부여 분포 시그마</Infusion.Settings.Sigma>
+  <Infusion.Settings.Sigma.Description>적용할 마법부여를 선택하는 과정에 사용하는 정규분포의 시그마 값을 지정합니다. 가능한 값은 0.5 ~ 10.0이며 기본 값은 1.5입니다.
+
+큰 값일수록 장비의 품질에 관계 없이 더 다양한 마법부여를 선택합니다.
+
+참고: 마법부여는 확률 테스트도 통과해야 실제로 장비에 적용됩니다. 마법부여 확률 계수를 조정해서, 장비에 실제로 적용될 마법부여의 전체적인 수를 조절하세요.
+  </Infusion.Settings.Sigma.Description>
+  <Infusion.Settings.ChanceFactor>마법부여 확률 계수</Infusion.Settings.ChanceFactor>
+  <Infusion.Settings.ChanceFactor.Description>마법부여의 확률에 곱하는 값입니다. 가능한 값은 0.0 ~ 100.0이며 기본 값은 1.0입니다.
+
+기본 마법부여 세트에서는 100을 지정하면 모든 마법부여가 확률을 통과합니다. 0을 설정하면 신규 마법부여를 비활성화합니다.
+  </Infusion.Settings.ChanceFactor.Description>
+  <Infusion.Settings.BodyPartLimit>보호하는 부위 수에 따라 마법부여 개수 제한</Infusion.Settings.BodyPartLimit>
+  <Infusion.Settings.BodyPartLimit.Description>최대 마법부여 개수를 의류가 보호하는 신체 부위 그룹의 수로 제한합니다.</Infusion.Settings.BodyPartLimit.Description>
+  <Infusion.Settings.LayerBonuses>더 많은 착용 위치를 차지하면 추가 마법부여 가능</Infusion.Settings.LayerBonuses>
+  <Infusion.Settings.LayerBonuses.Description>의류가 차지하는 착용 위치가 2개 이상일 때, 추가로 차지하는 착용 위치 당 최대 마법부여 수가 1 증가합니다.
+
+부위 수 제한 이후에 계산합니다. 즉, 팔과 몸통만 보호하는 의류는 마법부여를 2개까지만 받을 수 있지만, 착용 위치가 3개라면 최대 마법부여 수는 4입니다.
+  </Infusion.Settings.LayerBonuses.Description>
+  <Infusion.Settings.Slots.OpenSettings>마법부여 칸 설정 열기</Infusion.Settings.Slots.OpenSettings>
+  <Infusion.Settings.Slots.CloseSettings>마법부여 칸 설정 닫기</Infusion.Settings.Slots.CloseSettings>
+  <Infusion.Settings.Slot.Description>0 ~ 20, 기본 값 {0}</Infusion.Settings.Slot.Description>
+  <Infusion.Settings.Tiers.OpenSettings>등급 설정 열기</Infusion.Settings.Tiers.OpenSettings>
+  <Infusion.Settings.Tiers.CloseSettings>등급 설정 닫기</Infusion.Settings.Tiers.CloseSettings>
+  <Infusion.Settings.Tier.Description>{0}개 마법부여 발견</Infusion.Settings.Tier.Description>
+  <Infusion.Settings.Infusions.Slots.Title>품질별 마법부여 슬롯 수</Infusion.Settings.Infusions.Slots.Title>
+  <Infusion.Settings.Tiers.Title>등급 활성/비활성</Infusion.Settings.Tiers.Title>
+  <Infusion.Settings.General.Title>일반 설정</Infusion.Settings.General.Title>
+  <Infusion.Settings.Infusions.Title>마법부여 설정</Infusion.Settings.Infusions.Title>
+  <Infusion.Settings.Infusions.Defs.Title>마법부여 켜기/끄기</Infusion.Settings.Infusions.Defs.Title>
+  <Infusion.Settings.Infusions.Defs.EnableButton>활성화</Infusion.Settings.Infusions.Defs.EnableButton>
+  <Infusion.Settings.Infusions.Defs.DisableButton>비활성화</Infusion.Settings.Infusions.Defs.DisableButton>
+  <Infusion.Settings.Infusions.Defs.EnableMessage>{0} 활성화됨</Infusion.Settings.Infusions.Defs.EnableMessage>
+  <Infusion.Settings.Infusions.Defs.DisableMessage>{0} 비활성화됨</Infusion.Settings.Infusions.Defs.DisableMessage>
+  <Infusion.Settings.StatsGlobalMultiplier>스탯 전체 배수</Infusion.Settings.StatsGlobalMultiplier>
+  <Infusion.Settings.ChanceGlobalMultiplier>발동 확률 전체 배수</Infusion.Settings.ChanceGlobalMultiplier>
+  <Infusion.Settings.AmountGlobalMultiplier>위력 전체 배수</Infusion.Settings.AmountGlobalMultiplier>
+  <Infusion.Settings.StatsGlobalMultiplier.Description>모든 마법부여의 스탯 보너스에 영향을 주는 전역 배수. 2x = 2배, 0.5x = 절반</Infusion.Settings.StatsGlobalMultiplier.Description>
+  <Infusion.Settings.ChanceGlobalMultiplier.Description>폭발, 화염 등 특수 효과 발동 확률에 영향을 주는 전역 배수. 2x = 더 자주 발동, 0.5x = 덜 발동</Infusion.Settings.ChanceGlobalMultiplier.Description>
+  <Infusion.Settings.AmountGlobalMultiplier.Description>폭발, 화염 등 특수 효과 위력에 영향을 주는 전역 배수. 2x = 강력, 0.5x = 약화</Infusion.Settings.AmountGlobalMultiplier.Description>
+  <Infusion.Settings.InfuseUniqueWeapons>고유 무기에 마법부여 적용</Infusion.Settings.InfuseUniqueWeapons>
+</LanguageData>
