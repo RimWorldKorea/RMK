@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Books Expanded</li>
+    </mods>
+    <nomatch Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoomRoleDef[defName="DankPyon_Library"]/label</xpath>
+          <value>
+            <label>도서관</label>
+          </value>
+        </li>
+      </operations>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Furniture Expanded - Architect</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="DankPyon_VFEArch_FineDarkWoodenFloor"]/label</xpath>
+            <value>
+              <label>좋은 어두운 나무 바닥</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="DankPyon_VFEArch_FineDarkWoodenFloor"]/description</xpath>
+            <value>
+              <description>경제적 지위를 표현하기 위해 타협하지 않고 만든 아름다운 목조 마루입니다. 건설 속도가 느립니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="DankPyon_VFEArch_FineIronTile"]/label</xpath>
+            <value>
+              <label>고급 철 타일</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+</Patch>
