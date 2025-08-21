@@ -49,11 +49,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Mod.cs" />
-    <Compile Include="Types.cs" />
-    <Compile Include="Patches.cs" />
-    <Compile Include="Settings.cs" />
-    <Compile Include="StaticConstructor.cs" />
+    <Compile Include="ExportNames.cs" />
+    <Compile Include="ImportNames.cs" />
+    <Compile Include="NameInYourLanguage.cs" />
+    <Compile Include="NameTranslator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

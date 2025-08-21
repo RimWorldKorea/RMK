@@ -1,18 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <RMK.NIYL.StartUp>이름 번역 모듈 동작 중</RMK.NIYL.StartUp>
+  <NIYL.StartUp>이름 번역 모듈 동작 중</NIYL.StartUp>
 
-  <RMK.NIYL.ModTitle>RMK - 이름 번역 모듈</RMK.NIYL.ModTitle>
-  <RMK.NIYL.Enable.Label>NamesInYourLanguage 모듈 활성화</RMK.NIYL.Enable.Label>
-  <RMK.NIYL.Enable.Desc>바닐라에서 번역되지 않도록 지정된 폰의 고정 이름을 게임 설정 언어로 번역하는 기능을 활성화합니다.\n\n게임 성능에는 전혀 영향을 주지 않습니다.</RMK.NIYL.Enable.Desc>
-  <RMK.NIYL.Enable.Notify>변경된 설정은 게임을 재시작한 뒤 적용됩니다.</RMK.NIYL.Enable.Notify>
+  <NIYL.ModTitle>RMK - 이름 번역 모듈</NIYL.ModTitle>
+  <NIYL.Enable.Label>NamesInYourLanguage 모듈 활성화</NIYL.Enable.Label>
+  <NIYL.Enable.Desc>바닐라에서 번역되지 않도록 지정된 폰의 고정 이름을 게임 설정 언어로 번역하는 기능을 활성화합니다.\n\n게임 성능에는 전혀 영향을 주지 않습니다.</NIYL.Enable.Desc>
+  <NIYL.Enable.Notify>변경된 설정은 게임을 재시작한 뒤 적용됩니다.</NIYL.Enable.Notify>
 
-  <RMK.NIYL.Log.NoTranslationsFile>이름 번역 파일을 찾지 못했습니다.</RMK.NIYL.Log.NoTranslationsFile>
-  <RMK.NIYL.Log.ModuleDisabled>모듈 사용 설정이 꺼져있습니다. 이름을 번역하지 않습니다.</RMK.NIYL.Log.ModuleDisabled>
-  <RMK.NIYL.Log.OverallReport>번역된 이름: {0} | 번역되지 않은 이름: {1} | 소요 시간: {2}ms</RMK.NIYL.Log.OverallReport>
+  <NIYL.Log.NoTranslationsFile>이름 번역 파일을 찾지 못했습니다.</NIYL.Log.NoTranslationsFile>
+  <NIYL.Log.ModuleDisabled>모듈 사용 설정이 꺼져있습니다. 이름을 번역하지 않습니다.</NIYL.Log.ModuleDisabled>
+  <NIYL.Log.OverallReport>번역된 이름: {0} | 번역되지 않은 이름: {1} | 소요 시간: {2}ms</NIYL.Log.OverallReport>
 
-  <RMK.NIYL.Export.BottonLabel>원문 이름 DB 추출하기 (번역자용)</RMK.NIYL.Export.BottonLabel>
-  <RMK.NIYL.Export.Success>번역을 위한 데이터 파일이 {0}에 저장되었습니다.</RMK.NIYL.Export.Success>
-  <RMK.NIYL.Export.Failed>번역을 위한 데이터 파일을 내보내는데 실패했습니다.</RMK.NIYL.Export.Failed>
-  <RMK.NIYL.Export.Instruction>겹슬래시로 시작하는 부분은 주석입니다.\n이름 번역문은 아래와 같은 구조를 가집니다.\n\n&lt;이름::별명::성&gt;원문-&gt;번역문\n\n기본적으로 이름 번역에는 '원문-&gt;번역문' 부분만 있으면 됩니다. 의도하지 않는다면 불필요한 공백은 삽입하지 마세요.\n대괄호로 싸인 &lt;이름::별명::성&gt; 부분은 해당 이름이 어떤 맥락으로 쓰이는지 번역자에게 알려주기 위한 보조 자료입니다. 번역 적용에는 관여하지 않으며, 없거나 지우더라도 무방합니다.\n\n번역 파일의 위치는 '모드 폴더/Languages/사용 언어 폴더/Strings/Names' 이며, 파일 이름은 'Translations.txt' 로 지정되어야 합니다.\n</RMK.NIYL.Export.Instruction>
+  <NIYL.Export.ButtonLabel>하드코딩된 이름 추출하기 (번역자용)</NIYL.Export.ButtonLabel>
+  <NIYL.Export.Success>번역을 위한 데이터 파일이 {0}에 저장되었습니다.</NIYL.Export.Success>
+  <NIYL.Export.Failed>번역을 위한 데이터 파일을 내보내는데 실패했습니다.</NIYL.Export.Failed>
+  <NIYL.Export.Introduction>각 줄에서 겹슬래시 이후의 텍스트는 모두 주석으로 취급됩니다.
+이름 추출시 아래와 같은 형태로 기록됩니다.
+
+키(원본 이름)->활성 이름
+
+키: 각 이름을 참조하는 고유값입니다. 다르거나 잘못 기입하면 번역이 적용되지 않습니다.
+원본 이름: 키가 가리키는 원래 이름입니다.
+활성 이름: 추출 시점에서 해당하는 키에 적용된 이름입니다. 이 부분을 수정한 파일을 정해진 경로에 위치시키면 림월드 실행 시 해당 이름으로 번역됩니다.
+
+이름은 "이름 '별명' 성" 세트로 구성되거나 단일 낱말입니다.
+이름의 각 구성 요소 내부의 공백은 반영되나, 양 끝의 공백은 제거됩니다.
+예를 들어, 별명 부분이 "  슝 좍  " 인 경우 "슝 좍"으로 적용됩니다.
+
+추출된 이름은 번역 파일 내에서 활성 이름을 기준으로
+1. 각 요소가 모두 원본과 다른 이름 (완전히 번역된 이름)
+2. 이름과 성은 원본과 다르지만 별명만 같은 이름
+3. 이름이나 성 중 하나라도 원본과 같은 이름
+순서로 정렬됩니다.
+
+번역 파일의 위치는 '모드 폴더/Languages/사용 언어 폴더/Strings/Names' 이며, 파일 이름은 변경되어선 안됩니다.</NIYL.Export.Introduction>
 </LanguageData>
