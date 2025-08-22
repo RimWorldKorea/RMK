@@ -92,13 +92,13 @@ namespace NamesInYourLanguage
                 }
                 catch
                 {
-                    Log.Error("[RMK.NamesInYourLanguage] Invalid name translation request: " + textLine);
+                    Log.Error(logSignature + "NIYL.Import.InvalidLine".Translate(textLine));
                     continue;
                 }
 
                 if (result.ContainsKey(key))
                 {
-                    Log.Error($"[RMK.NamesInYourLanguage] Translation key '{key}' is duplicated:");
+                    Log.Error(logSignature + "NIYL.Import.DuplicatedKey".Translate(key));
                     continue;
                 }
                 result.Add(key, value);
@@ -124,7 +124,7 @@ namespace NamesInYourLanguage
             }
             catch
             {
-                Log.Error("[RMK.NamesInYourLanguage] Invalid name for translation: " + fullNameText);
+                Log.Error(logSignature + "NIYL.Import.InvalidName".Translate(fullNameText));
                 triple = default;
                 return false;
             }

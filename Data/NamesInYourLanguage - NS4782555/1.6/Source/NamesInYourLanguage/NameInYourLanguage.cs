@@ -65,5 +65,7 @@ namespace NamesInYourLanguage
         public const string fileName_SolidNames = "SolidNames";
         public const string fileName_SolidBioNames = "SolidBioNames";
         public const string fileName_ShuffledNames = "ShuffledNames";
+        
+        public const string logSignature = "[RMK.NamesInYourLanguage] ";
     }
 }

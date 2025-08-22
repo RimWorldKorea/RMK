@@ -140,7 +140,7 @@ namespace NamesInYourLanguage
             }
             catch
             {
-                Log.Error("[RMK.NamesInYourLanguage] " + "NIYL.Export.Failed".Translate());
+                Log.Error(logSignature + "NIYL.Export.Failed".Translate());
             }
         }
     }
