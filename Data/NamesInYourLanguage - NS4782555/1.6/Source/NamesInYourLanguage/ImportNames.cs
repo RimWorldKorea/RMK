@@ -1,7 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
-using HarmonyLib;
 using Verse;
 
 using static NamesInYourLanguage.NameTranslator;
@@ -9,25 +7,15 @@ using static NamesInYourLanguage.Constants;
 
 namespace NamesInYourLanguage
 {
-    [HarmonyPatch]
-    public static class Patches
-    {
-        // LanguageDatabase.InitAllMetadata 실행 중 Languages 폴더가 등록되므로 번역 파일은 이 시점 이후에 로딩되어야 함
-        // 그런데 정적 생성자 호출이 한참 이후에 진행되므로 굳이 필요하진 않은 것 같은데?..
-        [HarmonyPatch(typeof(LanguageDatabase)), HarmonyPatch(nameof(LanguageDatabase.InitAllMetadata)), HarmonyPostfix]
-        public static void Postfix_InitAllMetadata()
-        {
-            Log.Message("[NIYL.Debug] ImportNames.Execute()");
-            ImportNames.Execute();
-        }
-    }
-
+    /** [2.0.0.0]
+     * 원래 Harmony로 LanguageDatabase.InitAllMetadata 실행 시점 직후에 실행되도록 제어되고 있었는데
+     * 림월드 초기화 순서를 검토해보니 딱히 그럴 필요가 없는 것 같아서 NameTranslator의 정적 생성자 시점으로 옮김
+     * 왜인진 몰라도 실행시간이 5배 빨라졌어
+     **/
     public static class ImportNames
     {
         public static void Execute()
         {
-            Stopwatch stopwatch = Stopwatch.StartNew();
-
             // SolidNames.txt를 불러와 사용할 수 있는 형태로 변환합니다.
             if (Translator.TryGetTranslatedStringsForFile("Names/" + fileName_SolidNames, out List<string> importedRaw_SolidNames))
             {
@@ -61,9 +49,6 @@ namespace NamesInYourLanguage
                 foreach (var precursor in crashPod)
                     shuffledNamesTranslationRequest.Add(precursor.Key, precursor.Value);
             }
-            
-            stopwatch.Stop();
-            TotalWorkTime += stopwatch.ElapsedMilliseconds;
         }
 
         // 주석과 빈 줄을 날립니다.

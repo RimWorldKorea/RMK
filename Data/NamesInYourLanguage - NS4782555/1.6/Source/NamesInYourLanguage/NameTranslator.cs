@@ -14,8 +14,8 @@ namespace NamesInYourLanguage
     {
         // 게임에 현재 적용되어있는 설정입니다
         public static readonly bool loadedEnableSetting = LoadedModManager.GetMod<NIYL>().GetSettings<NIYL_Settings>().Enable;
-
-        public static long TotalWorkTime; // 전체 동작 시간 체크용
+        // 전체 동작 시간 체크용
+        public static long TotalWorkTime = 0;
         
         // 번역 요청 데이터를 저장
         public static readonly Dictionary<string, NameTripleReduced> solidNamesTranslationRequest = new Dictionary<string, NameTripleReduced>();
@@ -41,11 +41,13 @@ namespace NamesInYourLanguage
         
         static NameTranslator()
         {
-            Log.Message("[NIYL.Debug] NameTranslator()");
-            
+            // 원문 데이터를 저장해두고 번역을 시도합니다.
             LongEventHandler.QueueLongEvent(() =>
             {
                 Stopwatch stopwatch_NameTranslator = Stopwatch.StartNew();
+                
+                // 번역 파일로부터 번역할 이름을 불러옵니다.
+                ImportNames.Execute();
 
                 // PawnNameDatabaseSolid의 모든 이름의 참조를 solidNameDict에 저장합니다
                 foreach (NameTriple currentTriple in PawnNameDatabaseSolid.AllNames())
@@ -204,7 +206,7 @@ namespace NamesInYourLanguage
         }
     }
     
-    // NameTriple 클래스에서 이름 속성만을 복사하여 별도로 다루기 위한 간소화된 구조체입니다
+    // NameTriple 클래스에서 이름 속성만을 복사하여 별도로 다루기 위한 간소화된 형식입니다
     public readonly struct NameTripleReduced : IEquatable<NameTripleReduced>, IEquatable<NameTriple>
     {
         private readonly string firstInt;
