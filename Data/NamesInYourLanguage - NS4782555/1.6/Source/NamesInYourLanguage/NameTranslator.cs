@@ -124,7 +124,7 @@ namespace NamesInYourLanguage
                     foreach (var request in solidNamesTranslationRequest)
                     {
                         if (!solidNames.ContainsKey(request.Key)) // 키 검사
-                            Log.Error("[NameInYourLanguage] Key from translation request is invalid");
+                            Log.Error("[RMK.NameInYourLanguage] Key from translation request is invalid");
                         else if (request.Value.Equals(solidNames[request.Key])) // 동등 검사
                             solidNamesTranslatedButEqual++;
                         else
@@ -140,7 +140,7 @@ namespace NamesInYourLanguage
                     foreach (var request in solidBioNamesTranslationRequest)
                     {
                         if (!solidBioNames.ContainsKey(request.Key))
-                            Log.Error("[NameInYourLanguage] Key from translation request is invalid");
+                            Log.Error("[RMK.NameInYourLanguage] Key from translation request is invalid");
                         else if (request.Value.Equals(solidBioNames[request.Key]))
                             solidBioNamesTranslatedButEqual++;
                         else
@@ -157,7 +157,7 @@ namespace NamesInYourLanguage
                     {
 
                         if(!shuffledNamesOriginal.ContainsKey(request.Key))
-                            Log.Error($"[NameInYourLanguage] Key {request.Key} from translation request is invalid");
+                            Log.Error($"[RMK.NameInYourLanguage] Key {request.Key} from translation request is invalid");
                         else
                         {
                             string listKey = request.Key.Substring(0, request.Key.LastIndexOf('.'));
