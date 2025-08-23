@@ -1,0 +1,335 @@
+// 각 줄에서 겹슬래시 이후의 텍스트는 모두 주석으로 취급됩니다.
+// 이름 추출시 아래와 같은 형태로 기록됩니다.
+// 
+// 키(원본 이름)->활성 이름
+// 
+// 키: 각 이름을 참조하는 고유값입니다. 다르거나 잘못 기입하면 번역이 적용되지 않습니다.
+// 원본 이름: 키가 가리키는 원래 이름입니다.
+// 활성 이름: 추출 시점에서 해당하는 키에 적용된 이름입니다. 이 부분을 수정한 파일을 정해진 경로에 위치시키면 림월드 실행 시 해당 이름으로 번역됩니다.
+// 
+// 이름은 "이름 '별명' 성" 세트로 구성되거나 단일 낱말입니다.
+// 이름의 각 구성 요소 내부의 공백은 반영되나, 양 끝의 공백은 제거됩니다.
+// 예를 들어, 별명 부분이 "  슝 좍  " 인 경우 "슝 좍"으로 적용됩니다.
+// 
+// 추출된 이름은 번역 파일 내에서 활성 이름을 기준으로
+// 1. 각 요소가 모두 원본과 다른 이름 (완전히 번역된 이름)
+// 2. 이름과 성은 원본과 다르지만 별명만 같은 이름
+// 3. 이름이나 성 중 하나라도 원본과 같은 이름
+// 순서로 정렬됩니다.
+// 
+// 번역 파일의 위치는 '모드 폴더/Languages/사용 언어 폴더/Strings/Names' 이며, 파일 이름은 변경되어선 안됩니다.
+
+// 1. [Fully Translated]
+8ae6d024(James 'Doc' Grey)->제임스 '닥터' 그레이
+8ef16da7(John 'Blitz' Kriegsler)->존 '블리츠' 크릭슬러
+c4f3e770(Benjamin 'Ben' Frick)->벤자민 '벤' 프릭
+ac7afc10(Vladimir 'Vladimir' Black)->블라디미르 '블라디미르' 블랙
+fe9f6459(Kees 'Kees' Van Vugt)->케이스 '케이스' 반 부흐트
+ea765242(Frederic 'Bennett' Bennett)->프레데릭 '베넷' 베넷
+37c48eff(Victoria 'Vicky' Louene)->빅토리아 '비키' 루엔
+bd6bcf36(Xorin 'Xorkun' D'Ernum)->조린 '조르쿤' D'에르눔
+9e9d5fee(Markus 'Haplo' Keuneke)->마르쿠스 '하플로' 코이네케
+f294cd65(Chad 'Stonejaw' Walcenville)->채드 '바위턱' 월센빌
+c7e19527(Bashkire 'Bashkire' Leystrat)->바시키레 '바시키레' 레이스트라트
+45c90151(Holly 'Kit' Kettu)->홀리 '키트' 케투
+778f5e0f(Reece 'Clarke' Clarke)->리스 '클라크' 클라크
+f41b5928(Damien 'Sharpe' Sharpe)->데미안 '샤프' 샤프
+8e7b287d(Drew 'Strapping' Logan)->드류 '스트래핑' 로건
+100b564e(Dominic 'Byte' Byter)->도미닉 '바이트' 바이터
+ca1ec041(Edward 'Toon' Toon)->에드워드 '에드워드' 툰
+cc9e1550(Candice 'Candice' Roughchild)->캔디스 '캔디스' 러프차일드
+fe208db4(Minyoung 'Min' Kim)->민영 '민' 김
+6aff1341(Jonathan 'John' Medcalf)->조나단 '존' 메드칼프
+020e71a0(Per 'Per' Brastad)->페르 '페르' 브라스타드
+afc72a93(Benjamin 'Stainforth' Stainforth)->벤자민 '스테인포스' 스테인포스
+c82f5e4d(Jackson 'Big Red' Hightower)->잭슨 '빅 레드' 하이타워
+45a252f4(Nicholas 'Squirrel' Rothaga)->니콜라스 '다람쥐' 로타가
+1d63b896(Azlan 'Belcourt' Belcourt)->아즐란 '아즐란' 벨쿠르
+3bf085ee(Robert 'Gnugfur' Krondorfer)->로버트 '그누크퍼' 크론도르퍼
+3cd5f074(Henry 'Lawman' Jensen)->헨리 '보안관' 젠슨
+10c4e736(Ernest 'Chef' Szoka)->어니스트 '셰프' 쇼카
+780177da(Max 'Max' Alterman)->맥스 '맥스' 알터만
+43bb3417(Sean 'Severin' Pedersen)->션 '세베린' 페데르센
+44eb5c03(Jean 'Frenchy' De Dion)->장 '프렌치' 드 디옹
+a2de27e8(Douglas 'Doug' Black)->더글라스 '더그' 블랙
+1e4a0ad7(François 'Zeiph' Schmitt)->프랑수아 '제이프' 슈미트
+eb7190ba(Theodore 'Seraph' Seraphimus)->시어도어 '세라프' 세라피무스
+208b1d02(Zachary 'Zebo' Edson)->재커리 '제보' 에드슨
+5bb02f11(Jonathan 'Jon' Craig)->조나단 '존' 크레이그
+42b624bc(Matis 'Darkeye' Saro)->마티스 '다크아이' 사로
+ed949893(Dave 'Fox' Mark)->데이브 '폭스' 마크
+b57569f5(Aleksander 'Fjellsmel' Fjellanger)->알렉산더 '피엘스멜' 피엘랑에르
+48361bff(Cory 'Stomp' Gustafson)->코리 '스톰프' 구스타프손
+e86ec5c5(Roland 'Roland' Kleist)->롤랜드 '롤랜드' 클라이스트
+cbd88e6a(Vaska 'Vas' Neemor)->바스카 '바스' 네예모르
+251f23fb(Jonathan 'Jono' Rigby)->조나단 '조노' 릭비
+fcda5958(Sam 'Nerhesi' Wissa)->샘 '네르헤시' 위사
+4eafc772(Viktor 'Viktor' Valentine)->빅토르 '빅토르' 밸런타인
+2c74f9a0(Robin 'Huntsman' Batchelor)->로빈 '헌츠맨' 바첼러
+a40c759f(Jimmy 'Jimmy' Lander)->지미 '랜더' 랜더
+bf23829a(Steven 'Steven' Wilcox)->스티븐 '스티븐' 윌콕스
+5feb2a22(Ryusho 'Ryu' Yosei)->류쇼 '류' 요세이
+b7a9e1db(Pyrrha 'Pyrrha' Trovatelli)->피라 '트로바텔리' 트로바텔리
+1bb51994(Felix 'Felix' Mellor)->펠릭스 '멜러' 멜러
+cba00952(Rebecca 'Lynx' Edwards)->레베카 '스라소니' 에드워즈
+094c091a(Andrew 'Andy' Brown)->앤드루 '앤디' 브라운
+7b57685d(Vonriel 'Von' Vimes)->본리엘 '폰' 바임스
+6e15793f(Johs 'Johs' Barrowlocht)->요스 '요스' 배로로흐트
+2a3d90da(Stephen 'Wedge' Eckman)->스티븐 '웨지' 에크만
+fe1b7d19(Valentin 'Val' Anastasi)->발렌틴 '발' 아나스타시
+2c58cc98(Riesling 'Bacchus' Bacchus)->리슬링 '리슬링' 바커스
+9eec6b20(Benjamin 'Svejgaard' Svejgaard)->벤자민 '스베이가르' 스베이가르
+1ae04cc5(Nicolas 'Vikinger' Meyer)->니콜라스 '바이킹' 마이어
+385be985(Adrian 'Porthos' Jarvis)->아드리안 '포르토스' 자비스
+fbecae78(Alyssa 'Sparkles' Orchard)->알리사 '스파클스' 오차드
+1eab274f(William 'Will' Quenya)->윌리엄 '윌' 퀘냐
+82ece144(Frank 'Frankie' Aetheria)->프랭크 '프랭키' 에테리아
+c15d8ea1(Peter 'Pete' Marshall)->피터 '피트' 마셜
+e3d80669(Pete 'Pete' Holiday)->피트 '피트' 홀리데이
+7d1476a4(Miesha 'Mie' Aldemar)->미에샤 '미에' 알데마르
+6b185352(Steve 'Thunder' Rahja)->스티브 '썬더' 라자
+44dadd38(Darius 'Coffey' Coffey)->다리우스 '다리우스' 코피
+e8046440(Afeeba 'Feeb' Dafo)->아피바 '피브' 다포
+e66f5c36(Dustin 'Duster' Bishop)->더스틴 '더스터' 비숍
+3fd4eb03(Michael 'Flea' Shepherd-Finch)->마이클 '벼룩' 셰퍼드-핀치
+33fff292(Korwal 'Bomba' Ferrara)->코르발 '봄바' 페라라
+275ab777(Vitor 'Oahnip' Pinhao)->비토르 '냥피' 피냥
+4f5820fe(Levin 'Levin' Lossfelt)->레빈 '레빈' 로스펠트
+67a6792b(Tomine 'Maskinnen' Maske)->토미네 '마스키넨' 마스케
+cdf09822(Soren 'Grim' Reber)->소렌 '그림' 레버
+ec537c2f(Amelia 'Engie' Flais)->아멜리아 '엔지' 플레이스
+85646200(Shaav 'Sautereau' Sautereau)->샤브 '소트로' 소트로
+1e2ea942(Larian 'Lorall' Lorall)->라리안 '로랄' 로랄
+883d08f9(Jered 'Jay' Martin)->제러드 '제이' 마틴
+bc1e7c1e(Vincent 'Alaska' Salaka)->빈센트 '알래스카' 살라카
+dbc0bb33(Joshua 'Gizmo' Nelson)->조슈아 '기즈모' 넬슨
+67dfa95c(Phillip 'Vector' Vector)->필립 '벡터' 벡터
+20409c44(Emily 'Emmie' Young)->에밀리 '에미' 영
+a735f2ee(John 'Trigger' Whitehouse)->존 '트리거' 화이트하우스
+5ffbb9bf(Frank 'Isimiel' Laquinto)->프랭크 '이시미엘' 라퀸토
+679dec65(Garen 'Redfields' Fielder)->가렌 '레드필즈' 필더
+a9525bdf(Robbin 'Robbin' Dekker)->로빈 '로빈' 데커
+2e0a9d29(Erisen 'Erisen' Irioth)->에리센 '에리센' 이리오스
+f349eac1(Mushinto 'Mushinto' Takamu)->무신토 '무신토' 타카무
+00a78039(Samuel 'Chewy' Chua)->사무엘 '츄이' 추아
+a767767f(Hans 'Hans' Dichter)->한스 '디히터' 디히터
+721fed4e(Soleceon 'Solec' Cross)->솔레시온 '솔렉' 크로스
+12be0756(Christian 'Christian' Morris)->크리스티안 '크리스티안' 모리스
+4c2a1036(Graham 'Mole' Boyd)->그레이엄 '두더지' 보이드
+fade6c94(Axle 'Axle' Hurtle)->액슬 '허틀' 허틀
+7f40cd06(Ryan 'Ryan' Jung)->라이언 '라이언' 정
+d0b9adef(Paul-Olivier 'Paulo' Bouchard)->폴-올리비에 '파울로' 부샤르
+b34a14c9(William 'William' Gregory-Heap)->윌리엄 '윌리엄' 그레고리-힙
+035b6c1d(Samantha 'Samantha' von Aachen)->사만다 '사만다' 폰 아헨
+53b4c120(Nicholas 'Bishop' Gant)->니콜라스 '비숍' 간트
+e58aa7bb(Hayden 'Hayhouse' Simons)->헤이든 '헤이하우스' 시몬스
+ea4923c3(Benn 'Ben' Tannen)->벤 '벤' 타넨
+70c773dd(Cain 'Wicked' Thompson)->케인 '위키드' 톰슨
+7e60cebb(Anthony 'Tony' Gallagher)->앤서니 '토니' 갤러거
+c40d50b2(Joe 'Badluck' Rogers)->조 '불운아' 로저스
+e402e277(Dmitrius 'Dmitri' Orelius)->드미트리우스 '드미트리' 오렐리우스
+095d746b(Ian 'Braddock' Braddock)->이안 '브래독' 브래독
+824e683f(Zero 'Maker' Tachikoma)->제로 '메이커' 타치코마
+87f61ea7(Kevin 'Kevin' Nilsson)->케빈 '케빈' 닐슨
+852d7e28(Goki 'Itini' Haki)->고키 '이티니' 하키
+5970d7cf(David 'Scottish' Reid)->데이비드 '스코티시' 리드
+4ade62bd(Austin 'Kazz' Kaczmarek)->오스틴 '카즈' 카치마레크
+643c0b5b(Hratli 'Ninjak' Skirata)->흐라틀리 '닌자크' 스키라타
+d31a27b4(Pierre 'Paramedic' Lambrichts)->피에르 '파라메딕' 람브리히츠
+f59eac45(Lilith 'Luxemburg' Luxemburg)->릴리스 '룩셈부르크' 룩셈부르크
+94f00ed3(Alexander 'Doctor' Five)->알렉산더 '닥터' 파이브
+166b9937(Kimiko 'Kimmy' Asano)->키미코 '키미' 아사노
+3b77da53(Jason 'Agent' Roland)->제이슨 '에이전트' 롤랜드
+6f176f93(Nebulys 'Nebulys' Strike)->네뷸리스 '네뷸리스' 스트라이크
+c5a8f8fd(John 'Boneville' Bonne)->존 '본빌' 본
+aab58e95(Taten 'Tater' Stamm)->테이튼 '테이터' 슈탐
+f6b5cf33(Jerry 'Jerbear' Welch)->제리 '제르베어' 웰치
+fa6630ca(Aelanna 'Anna' Cessara)->엘안나 '안나' 세사라
+d6402d34(Chaz 'Chaz' Serir)->채즈 '채즈' 세리르
+b9defde4(Robert 'Messina' Messina)->로버트 '메시나' 메시나
+7a1ed4ba(Nathaniel 'Nate' Giannini)->너새니얼 '네이트' 지안니니
+179834fc(Fedon 'Fedon' Cand)->페돈 '페돈' 칸드
+c7cdb4ad(Mike 'Anarchist' Mudgett)->마이크 '아나키스트' 머젯
+c0e11802(Antonino 'Toni' Cefalu)->안토니노 '토니' 체팔루
+60a75189(Jake 'Table' Maddams)->제이크 '테이블' 매덤스
+35eee9ca(Mitchell 'Mitch' Everson)->미첼 '미치' 에버슨
+85e14b77(Andrew 'Grub' Menear)->앤드루 '애벌레' 미니어
+e43f78a8(Ricardo 'Skissor' Rodriguez)->리카르도 '스키서' 로드리게스
+0789a786(Melissa 'Lissa' Archer)->멜리사 '리사' 아처
+d3750692(Evan 'Evan' Raw)->에반 '로우' 로우
+57d048e1(Caitlin 'Cait' Stirr)->케이틀린 '케이트' 스터
+db0cfaea(Wouter 'Wouter' Theys)->바우터 '바우터' 테이스
+78c72f98(Jesse 'Jess' Spence)->제시 '제스' 스펜스
+03d597f1(Kyle 'Harris' Harris)->카일 '해리스' 해리스
+ba1a03c1(Nathaniel 'Hicklin' Hicklin)->너새니얼 '너새니얼' 히클린
+834c3e76(Luc 'Doc' Roach)->뤽 '닥터' 로치
+087ef04c(Lumine 'Lumi' LeBlanc)->루미네 '루미' 르블랑
+2a277940(Hagen 'Shepherd' Fallersbach)->하겐 '셰퍼드' 팔러스바흐
+95d93d29(Conlay 'Shen' Shen)->콘레이 '콘레이' 션
+a99a7d5e(Umbra 'Darklight' Nighthawk)->움브라 '다크라이트' 나이트호크
+83f517f4(Jordan 'Edmund' Nelson)->조던 '에드먼드' 넬슨
+41c9606b(Trevor 'Trev' Austin)->트레버 '트레브' 오스틴
+00aa04b4(Priscilla 'Bellerose' Bellerose)->프리실라 '벨로즈' 벨로즈
+7910588f(Tom 'Blizzard' Kranenburg)->톰 '블리자드' 크라넨부르크
+6f38ce71(Brynjar 'Bryn' Mar)->브린야르 '브린' 마르
+2ce87efd(Sa'Bikk 'Sab' Saleosy)->사'빅 '사브' 살레오시
+9f3a278e(Eric 'Teddy' Smith)->에릭 '테디' 스미스
+e34ed2d3(Erika 'Erika' Belsaas)->에리카 '벨사스' 벨사스
+b262fc89(Russell 'Rusty' Shackleford)->러셀 '러스티' 섀클포드
+6d9fea75(Niklas 'Niklas' Fischer)->니클라스 '니클라스' 피셔
+659f5993(Renaud 'Hercules' Verbregghe)->르노 '헤라클레스' 베르브레허
+f0dd1782(Christophe 'Géradon' Géradon)->크리스토프 '제라돈' 제라돈
+42a59785(Paul 'Paul' Paulson)->폴 '폴' 폴슨
+f1361dc7(Lukas 'Dietrich' Dietrich)->루카스 '디트리히' 디트리히
+27b99348(Sheetorn 'Sheet' Quac)->시토른 '시트' 콰크
+eeb0e483(Pablo 'Cholaky' Cholaky)->파블로 '파블로' 촐라키
+5dcc48db(Cole 'Brick' Schmidt)->콜 '브릭' 슈미트
+1c9e6858(Felix 'von Schild' von Schild)->펠릭스 '폰 실트' 폰 실트
+a063c14c(Krandus 'Krand' Zaxsen)->크란두스 '크란드' 작센
+7667719f(Larusa 'Rynyk' Rynyk)->라루사 '라루사' 리닉
+fad8af33(Exorus 'Huntsman' Hawke)->엑소러스 '헌츠맨' 호크
+da02ed58(Dennis 'Mac' McCarthy)->데니스 '맥' 맥카시
+2820a8e5(Marcus 'Adiemus' Bergström)->마커스 '아디에무스' 베리스트룀
+4560407d(Joshua 'Zug' Hamby)->조슈아 '추크' 햄비
+33ad8a29(Geckulon 'Gecko' Decktar)->게쿨론 '도마뱀' 덱타르
+0e5dee7a(Isak 'Haugen' Haugen)->이사크 '이사크' 하우겐
+3fa65970(Linghao 'Trumpet' Zhang)->링하오 '트럼펫' 장
+876fedd4(Meredith 'Latch' Abernathy)->메러디스 '래치' 애버내시
+50b1bfee(Caverlorn 'Cave' Hunter)->케이버론 '케이브' 헌터
+848c0002(Tyren 'Nordgren' Nordgren)->타이런 '타이런' 노르드그렌
+952c697a(Rika 'Rika' Voort)->리카 '포르트' 포르트
+980eb0d8(Jonathan 'Jono' Sage)->조나단 '조노' 세이지
+69cead80(Shadoz 'Shad' Penum)->샤도즈 '샤드' 페넘
+2f8b1431(Gil 'Giggles' Durnin)->길 '기글스' 더닌
+fa99c4e5(Nico 'Storch' Storch)->니코 '니코' 슈토르히
+e5b85168(Jayden 'Jayden' Grey)->제이든 '그레이' 그레이
+0f5acd31(Velius 'Veli' Ayalp)->벨리우스 '벨리' 아얄프
+ad746719(Dan 'Grill' Griliopoulos)->댄 '그릴' 그릴리오폴로스
+b572b3e8(Joe 'Boss' Panzer)->조 '보스' 판처
+67a143fc(Barrick 'Boss' Lyons)->배릭 '보스' 라이언스
+c9131ec5(Yuu 'Hakuja' Ito)->유우 '하쿠자' 이토
+52aa27d9(Justin 'Justice' Calvert)->저스틴 '저스티스' 칼버트
+e4ba2548(Ang 'Codex' Gao)->앙 '코덱스' 가오
+1a9bf0ea(Joshua 'Marjot' Marjot)->조슈아 '마르조' 마르조
+21a07d65(Matthew 'Matt' Tomsinski)->매튜 '매트' 톰신스키
+d936cf35(Yutong 'Li' Li)->위퉁 '리' 리
+0da1eb1c(Sarai 'Sarai' Tang)->사라이 '사라이' 탕
+ae931d41(Venus 'Unay' David)->비너스 '우나이' 데이비드
+2957fc1b(Wesley 'Wes' Keith)->웨슬리 '웨스' 키스
+0a20f222(Sam 'Sammy' Gerador)->샘 '새미' 제라도르
+6bc3aa00(Malachai 'Lachi' Rabenhertz)->말라카이 '라치' 라벤헤르츠
+89e8a0fc(Lucas 'Blackjack' Wakefield)->루카스 '블랙잭' 웨이크필드
+d3f37e59(Wesley 'Pickles' Pickles)->웨슬리 '피클스' 피클스
+393302d8(Daniel 'Dankman' Mann)->다니엘 '당크맨' 만
+91b5f742(Ryoko 'Onesan' Minese)->료코 '오네상' 미네세
+868b8296(Raymond 'Raywolfen' Wolfen)->레이먼드 '레이울펜' 울펜
+5c5c7e56(Charles 'Charlzie' Zillioner)->찰스 '찰지' 질리어너
+5cb75795(Skye 'Skye' Lorne)->스카이 '스카이' 론
+8ca2d2d8(Christian 'Wolle' Alberts)->크리스티안 '볼레' 알베르츠
+30397582(Erie 'Diver' Riggs)->에리 '다이버' 리그스
+766b231c(Markus 'Markus' Wienholz)->마르쿠스 '마르쿠스' 비엔홀츠
+22251a57(Ralph 'Humps' Brock)->랄프 '험프스' 브록
+bc449c45(Akira 'Ark' Kaneda)->아키라 '아크' 카네다
+da504e86(Jeremy 'Dems' Demler)->제레미 '뎀스' 뎀러
+626dd19e(Anton 'Waltz' Walther)->안톤 '왈츠' 발터
+c4d25211(Asate 'Asate' Sharr)->아사테 '아사테' 샤르
+33796a6f(Benjamin 'Ben' Woolums)->벤자민 '벤' 울럼스
+418e2972(Daniel 'Stone' Stone)->다니엘 '스톤' 스톤
+1605dd22(Elekio 'Elekio' Elrich)->엘레키오 '엘레키오' 엘리치
+b68072a5(David 'Bishop' Bishop)->데이비드 '비숍' 비숍
+22b1fc7e(Matthew 'Matthew' Po)->매튜 '포' 포
+fc96beee(Chad 'Fitz' Fitzgerald)->채드 '피츠' 피츠제럴드
+fb779eaf(Robert 'Ironhead' Seafield)->로버트 '아이언헤드' 시필드
+241b2415(Ludmilla 'Mila' Fisher)->루드밀라 '밀라' 피셔
+d65c6e82(Ade 'Rare' Snave)->아데 '레어' 스네이브
+02f51b47(Darrien 'Mal' Maliphalo)->대리언 '말' 말리팔로
+4a8d4c49(Lancelot 'Lance' Hale)->랜슬롯 '랜스' 헤일
+6159978e(Ronin 'Shield' Lawless)->로닌 '실드' 로우리스
+4b432c2e(Jenniferium 'Jenni' Chenni)->제니퍼리움 '제니' 체니
+9c415c1d(Florian 'Skater' Haas)->플로리안 '스케이터' 하스
+b53d71dc(Brote 'Weaves' Ampill)->브로테 '위브스' 앰필
+e504557b(Samantha 'Sam' Haxton)->사만다 '샘' 핵스턴
+75804234(Xiao 'Ally' Li)->샤오 '앨리' 리
+7bc45f97(Robert 'Burban' Burban)->로버트 '버반' 버반
+e9487c13(Unkow 'Schlitzer' Manus)->언코우 '슐리처' 마누스
+fff94161(Ryan 'Ryan' Wilson)->라이언 '라이언' 윌슨
+b1368933(Billy 'Bell' Belloch)->빌리 '벨' 벨로크
+04d19da9(Tyler 'Hammer' Endorf)->타일러 '해머' 엔도르프
+765544ac(Sjoerd 'Bowman' Lukas)->슈르드 '보우맨' 루카스
+a36b4d55(Christopher 'Chris' Hamilton)->크리스토퍼 '크리스' 해밀턴
+08329f95(Trevor 'Hunter' Cobb)->트레버 '헌터' 콥
+ecb834e4(Pan 'Pan' Sunbin)->판 '판' 쑨빈
+eae2a12a(Konnor 'Strange' Cornelius)->코너 '스트레인지' 코넬리우스
+4ffbccef(Harry 'Grief' Bass)->해리 '비탄' 배스
+1e442c2a(Juan Manuel 'Lance' Hueso)->후안 마누엘 '랜스' 우에소
+0d29d574(Stijn 'Stin' Gezink)->스테인 '스틴' 헤징크
+f44118de(Xandarian 'Xandy' Stalzer)->잔다리안 '잔디' 슈탈처
+87a20f93(Jarad 'Jake' Hesseling)->재러드 '제이크' 헤셀링
+4ef4fd64(Emily 'Coyote' Luckhardt)->에밀리 '코요테' 루크하르트
+9202a11a(Sera 'Kaleun' Steiner)->세라 '함장' 슈타이너
+2dbde2ca(Danny 'Dan' Zitro)->대니 '댄' 지트로
+d1291398(Nicole 'Nicole' Squid)->니콜 '니콜' 스퀴드
+38966f37(Lia 'Lu' Lu)->리아 '루' 루
+f2c94870(Lynn 'Lynn' Romero)->린 '린' 로메로
+18c199cc(Slivaki 'Sliverwar' Warts)->슬리바키 '슬리버워' 워츠
+8502513c(Brandon 'Baron' Wilde)->브랜든 '바론' 와일드
+f957a514(Zachary 'Zach' Gebheart)->재커리 '잭' 게브하트
+f0a697a8(Scott 'Nelson' Nelson)->스콧 '넬슨' 넬슨
+7fe71fbf(Xiaoer 'Xiaoer' Wang)->샤오얼 '왕' 왕
+24282cad(Peter 'Merandil' Von Bergen)->피터 '메란딜' 폰 베르겐
+5de3f2ef(Lance 'Greyhound' Zelent)->랜스 '그레이하운드' 젤렌트
+4400b55e(Lenka 'Lenka' Malikova)->렌카 '말리코바' 말리코바
+856ba9f4(Flebe 'Flebe' Tyronian)->플레베 '플레베' 타이로니안
+d2c10637(Yiyang 'Mitsuya' Jiang)->이양 '미츠야' 장
+df0fe004(James 'Lamp' Lamp)->제임스 '제임스' 램프
+b70c42a4(Klomster 'Klomster' Von Bismarck)->클롬스터 '클롬스터' 폰 비스마르크
+9bfef84a(Rissa 'Gransier' Gransier)->리사 '그란시에' 그란시에
+d43c2e6c(Hokojin 'Jet' Buraku)->호코진 '제트' 부라쿠
+2bafdd84(Aloysius 'Alo' Bell)->알로이시우스 '알로' 벨
+9b0a8b68(Kena 'Kena' Réveil)->케나 '케나' 레베이유
+2ec56884(Philip 'Phil' Mellar)->필립 '필' 멜라
+a103d4a0(Ryan 'Legend' Michael)->라이언 '레전드' 마이클
+9b3c6a9e(Remy 'Remy' Young)->레미 '레미' 영
+fb338cef(Jhet 'Whistler' Brazil)->제트 '휘슬러' 브라질
+e923af1f(Sarah 'Four Eyes' Renault)->사라 '네눈박이' 르노
+36bbb182(Adam 'Adam' Shands)->아담 '섄즈' 섄즈
+8853398b(Joshua 'Joshua' Macer)->조슈아 '조슈아' 메이서
+4f99f645(Jacqueline 'Jackalope' Richter)->재클린 '재칼로프' 리히터
+9d2c51de(Dennison 'Superbass' Richter)->데니슨 '슈퍼배스' 리히터
+ef07814e(Edward 'Lee' Lee)->에드워드 '에드워드' 리
+c342e63d(Brazos 'Braz' Wheeler)->브라조스 '브라즈' 휠러
+6ac0eab2(Kjelt 'Karlsen' Karlsen)->셸트 '칼센' 칼센
+e05bc4ba(Ryan 'Noob' Torrijos)->라이언 '초짜' 토리호스
+5faa7b6b(Chris 'Draper' Draper)->크리스 '크리스' 드레이퍼
+9ac6fb16(Aznable 'Reikguard' Coal)->아즈나블 '레이크가드' 콜
+b1271790(Nicklaus 'Shadow' Blackthorn)->니클라우스 '섀도우' 블랙쏜
+28cdc5b5(Ida 'Ida' Painstingle)->이다 '이다' 페인스팅글
+58891191(Erik 'Nytro' Nystrom)->에릭 '니트로' 니스트롬
+8cfe4143(Rhaemir 'Rhae' Moryn)->라에미르 '라에' 모린
+f493dc74(Aleksander 'Sale' Chiki)->알렉산더 '세일' 치키
+4892e503(Owen 'Cali' Clarke)->오웬 '칼리' 클라크
+cb3e22d2(Freya 'Tail' Fairwing)->프레야 '테일' 페어윙
+2f9b406c(Eron 'Kamrov' Vormak)->에론 '캄로브' 보르막
+a05e4912(Fauna 'Furr' Wells)->파우나 '퍼' 웰스
+fcac01b0(Emil 'Mlie' Offermo)->에밀 '엠리' 오페르모
+dc34f0e4(Theodore 'Theo' Imeson)->시어도어 '테오' 아이메슨
+e84312b5(Dennis 'Dennis' Richtarski)->데니스 '데니스' 리흐타르스키
+71d9ef3e(Zihan 'Martin' Huang)->쯔한 '마틴' 황
+39344beb(Val 'Val' Solo)->발 '발' 솔로
+d1ec986b(Tynan 'Tynan' Sylvester)->타이난 '타이난' 실베스터
+f8263907(Joe 'Gasparich' Gasparich)->조 '가스파리치' 가스파리치
+398d5abe(Liam 'Static' Harrison)->리암 '스태틱' 해리슨
+ecfba503(Matthew 'Cynapse' Ritchie)->매튜 '시냅스' 리치
+bf78c916(Oskar 'Oskar' Potocki)->오스카르 '포토츠키' 포토츠키
+790c3553(William 'Will' Stacey)->윌리엄 '윌' 스테이시
+18e0bc42(Máté 'Máté' Mészáros)->마테 '마테' 메사로시
+e04899e5(Nathan 'Morg' Cruzan)->네이선 '모르그' 크루잔
+07701e0e(Fey 'Pheanox' Nickel)->페이 '피아녹스' 니켈
+
+// 2. [Nick name is same with original name]
+15a4dd7b(Samuel 'Pi' Blantz)->사무엘 'Pi' 블란츠
+1bad593b(Bryan 'BW' Wong)->브라이언 'BW' 웡
+ea51d77d(Basil 'BB' Batter)->바질 'BB' 배터
+
+// 3. [First name or Last name is same with original name]
+// - No Items -
