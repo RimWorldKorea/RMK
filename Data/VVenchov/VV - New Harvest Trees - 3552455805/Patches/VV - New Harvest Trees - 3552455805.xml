@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>##packageId##dankpyon.medieval.overhaul</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VV_MulberryTree"]/label</xpath>
+          <value>
+            <label>붉은 뽕나무</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VV_MulberryTree"]/description</xpath>
+          <value>
+            <description>달콤한 붉은 오디를 맺는 작고 빠르게 자라는 나무입니다. 비단을 생산할 수 있는 누에를 기르는 것으로 흔히 알려져 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VV_Mulberries"]/label</xpath>
+          <value>
+            <label>붉은 오디</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VV_Mulberries"]/description</xpath>
+          <value>
+            <description>달콤하고 부드러운 붉은 열매입니다. 오디는 생으로 먹거나, 말리거나, 잼을 만들기에 좋습니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Medieval Overhaul</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>##packageId##owlchemist.seedspleaselite</li>
+        <li>##packageId## evyatar108.seedspleaseliteredux</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VV_Seed_Mulberry"]/label</xpath>
+            <value>
+              <label>붉은 뽕나무 씨앗</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Plants Expanded</li>
+      <li>VGP Vegetable Garden</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>##packageId##owlchemist.seedspleaselite</li>
+        <li>##packageId## evyatar108.seedspleaseliteredux</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VV_Seed_Apricot"]/label</xpath>
+            <value>
+              <label>골드리치 살구나무 씨앗</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Expanded Framework</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VV_DurianTree"]/description</xpath>
+          <value>
+            <description>크고 뾰족한 열매로 알려진 열대 나무입니다. 두리안 나무는 덥고 습한 기후에서 잘 자라며 독특하고 톡 쏘는 냄새가 나는 열매로 유명합니다.\n\n&lt;color=#E5E54C&gt;게임플레이 효과:&lt;/color&gt; 두리안 나무는 적도 지역에서 30% 더 빨리 자랍니다. 적도 지역의 크기는 행성의 전체 온도에 따라 결정됩니다: 보통 온도의 경우 15º 미만, 따뜻한 온도의 경우 35º 미만, 더운 온도의 경우 65º 미만, 그리고 매우 더운 온도의 경우 행성 전체가 해당됩니다. 보통 온도 미만의 행성에는 적도가 없는 것으로 간주합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VV_PapayaTree"]/description</xpath>
+          <value>
+            <description>달콤한 주황색 과육의 열매를 맺는 크고 넓은 잎을 가진 열대 나무입니다. 파파야 나무는 따뜻하고 습한 기후에서 잘 자라며 많은 햇빛이 필요합니다.\n\n&lt;color=#E5E54C&gt;게임플레이 효과:&lt;/color&gt; 파파야 나무는 적도 지역에서 30% 더 빨리 자랍니다. 적도 지역의 크기는 행성의 전체 온도에 따라 결정됩니다: 보통 온도의 경우 15º 미만, 따뜻한 온도의 경우 35º 미만, 더운 온도의 경우 65º 미만, 그리고 매우 더운 온도의 경우 행성 전체가 해당됩니다. 보통 온도 미만의 행성에는 적도가 없는 것으로 간주합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VV_JabuticabaTree"]/description</xpath>
+          <value>
+            <description>자부티카바 나무는 줄기에서 직접 자라는 작고 짙은 보라색 열매를 맺습니다. 이 열매는 달콤하고 톡 쏘는 맛이 나며 잼과 음료에 사용됩니다. 따뜻한 기후에서 잘 자라며 독특한 열매 때문에 재배됩니다.\n\n&lt;color=#E5E54C&gt;게임플레이 효과:&lt;/color&gt; 자부티카바 나무는 적도 지역에서 30% 더 빨리 자랍니다. 적도 지역의 크기는 행성의 전체 온도에 따라 결정됩니다: 보통 온도의 경우 15º 미만, 따뜻한 온도의 경우 35º 미만, 더운 온도의 경우 65º 미만, 그리고 매우 더운 온도의 경우 행성 전체가 해당됩니다. 보통 온도 미만의 행성에는 적도가 없는 것으로 간주합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VV_LimeTree"]/description</xpath>
+          <value>
+            <description>시고 즙이 많은 라임을 맺는 작은 나무입니다. 따뜻한 기후에서 잘 자라며 요리와 음료에 자주 사용됩니다.\n\n&lt;color=#E5E54C&gt;게임플레이 효과:&lt;/color&gt; 라임 나무는 적도 지역에서 30% 더 빨리 자랍니다. 적도 지역의 크기는 행성의 전체 온도에 따라 결정됩니다: 보통 온도의 경우 15º 미만, 따뜻한 온도의 경우 35º 미만, 더운 온도의 경우 65º 미만, 그리고 매우 더운 온도의 경우 행성 전체가 해당됩니다. 보통 온도 미만의 행성에는 적도가 없는 것으로 간주합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VV_GrapefruitTree"]/description</xpath>
+          <value>
+            <description>크고 톡 쏘는 맛에 약간 쓴맛이 나는 열매를 맺는 감귤류 나무입니다. 자몽 나무는 따뜻하고 햇볕이 잘 드는 기후에서 잘 자라며 배수가 잘되는 토양이 필요합니다.\n\n&lt;color=#E5E54C&gt;게임플레이 효과:&lt;/color&gt; 자몽 나무는 적도 지역에서 30% 더 빨리 자랍니다. 적도 지역의 크기는 행성의 전체 온도에 따라 결정됩니다: 보통 온도의 경우 15º 미만, 따뜻한 온도의 경우 35º 미만, 더운 온도의 경우 65º 미만, 그리고 매우 더운 온도의 경우 행성 전체가 해당됩니다. 보통 온도 미만의 행성에는 적도가 없는 것으로 간주합니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>VGP Vegetable Garden</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Plants Expanded</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VV_ApricotTree"]/label</xpath>
+            <value>
+              <label>골드리치 살구나무</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VV_Apricots"]/label</xpath>
+            <value>
+              <label>골드리치 살구</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+</Patch>

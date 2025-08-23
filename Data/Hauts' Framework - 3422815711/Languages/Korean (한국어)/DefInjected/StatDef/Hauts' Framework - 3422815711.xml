@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--Original=ideoligious ability susceptibility-->
+  <Hauts_IdeoAbilityDurationSelf.label>사상 능력 민감성</Hauts_IdeoAbilityDurationSelf.label>
+  <!--Original=A multiplier to the duration of ideoligious abilityーcaused mental states and health conditions on this pawn.-->
+  <Hauts_IdeoAbilityDurationSelf.description>이 대상에 적용되는 사상 능력으로 인한 정신 상태와 건강 상태의 지속시간에 대한 계수입니다.</Hauts_IdeoAbilityDurationSelf.description>
+  <!--Original=ideoligious thought factor-->
+  <Hauts_IdeoThoughtFactor.label>사상 생각 계수</Hauts_IdeoThoughtFactor.label>
+  <!--Original=A multiplier to ideologyーcaused moods&apos; and opinions&apos; magnitude.-->
+  <Hauts_IdeoThoughtFactor.description>사상으로 인해 발생한 기분과 의견의 강도에 대한 계수입니다.</Hauts_IdeoThoughtFactor.description>
+  <!--Original=max dryad factor-->
+  <Hauts_MaxDryadFactor.label>나무지기 최대 수 계수</Hauts_MaxDryadFactor.label>
+  <!--Original=A multiplier to how many dryads a connected gauranlen tree can sustain. Rounds down.-->
+  <Hauts_MaxDryadFactor.description>연결된 요정나무가 수용할 수 있는 최대 나무지기의 수에 대한 계수입니다. 소수점은 버림합니다.</Hauts_MaxDryadFactor.description>
+  <!--Original=psycast focus refund-->
+  <Hauts_PsycastFocusRefund.label>초능력 집중 환불</Hauts_PsycastFocusRefund.label>
+  <!--Original=On psycasting, regain this proportion of the psyfocus spent.-->
+  <Hauts_PsycastFocusRefund.description>초능력 시전 시, 소모한 초집중에서 이 비율만큼 되돌려 받습니다.</Hauts_PsycastFocusRefund.description>
+  <!--Original={0} of spent psyfocus-->
+  <Hauts_PsycastFocusRefund.formatString>소모한 초집중의 {0}</Hauts_PsycastFocusRefund.formatString>
+  <!--Original={0} of spent psyfocus-->
+  <Hauts_PsycastFocusRefund.formatStringUnfinalized>소모한 초집중의 {0}</Hauts_PsycastFocusRefund.formatStringUnfinalized>
+  <!--Original=psyfocus gain per nutrition-->
+  <Hauts_PsyfocusFromFood.label>열량당 초집중 획득</Hauts_PsyfocusFromFood.label>
+  <!--Original=The amount of psyfocus gained per nutrition ingested.-->
+  <Hauts_PsyfocusFromFood.description>섭취한 열량당 획득하는 초집중의 양입니다.</Hauts_PsyfocusFromFood.description>
+  <!--Original=psyfocus gain on kill-->
+  <Hauts_PsyfocusGainOnKill.label>처치시 초집중 획득</Hauts_PsyfocusGainOnKill.label>
+  <!--Original=The amount of psyfocus gained on killing another being. The amount is multiplied by the victim&apos;s psychic sensitivity. Animal slaughter is only half as effective as humanlike slaughter.-->
+  <Hauts_PsyfocusGainOnKill.description>다른 존재를 처치했을 때 획득하는 초집중의 양입니다. 획득량은 피해자의 정신 민감도에 곱해집니다. 동물을 처치하는 건 인간형 존재를 처치하는 것의 절반만큼만 효과가 있습니다.</Hauts_PsyfocusGainOnKill.description>
+  <!--Original=psyfocus per day-->
+  <Hauts_PsyfocusRegenRate.label>일일 초집중</Hauts_PsyfocusRegenRate.label>
+  <!--Original=The amount of psyfocus passively gained or lost per day. This includes the psyfocus decay that all psycasters experience over time while not meditating.-->
+  <Hauts_PsyfocusRegenRate.description>하루에 자동적으로 잃거나 얻는 초집중의 양입니다. 여기에는 모든 초집중 능력자가 명상하지 않을 때 시간이 지나면서 소멸하는 초집중도 포함됩니다.</Hauts_PsyfocusRegenRate.description>
+  <!--Original={0} / day-->
+  <Hauts_PsyfocusRegenRate.formatString>{0} / 일</Hauts_PsyfocusRegenRate.formatString>
+  <!--Original={0} / day-->
+  <Hauts_PsyfocusRegenRate.formatStringUnfinalized>{0} / 일</Hauts_PsyfocusRegenRate.formatStringUnfinalized>
+  <!--Original=skipcast range factor-->
+  <Hauts_SkipcastRangeFactor.label>공간도약 사거리 계수</Hauts_SkipcastRangeFactor.label>
+  <!--Original=A multiplier to the range of &quot;skip&quot; psycasts used by this character. Psycasts such as Skip or Chaos Skip are skip psycasts. However, there are also several other psycasts that work off of skipgates, such as Flashstorm.-->
+  <Hauts_SkipcastRangeFactor.description>이 대상이 사용하는 '공간도약' 초능력에 사거리에 대한 계수입니다. 공간도약이나 혼돈의 공간도약같은 초능력이 '공간도약' 초능력에 해당합니다. 하지만 섬광폭풍같이 관문을 사용하는 초능력에도 적용됩니다.</Hauts_SkipcastRangeFactor.description>
+  <!--Original=firstーlevel psycast cost offset-->
+  <Hauts_TierOnePsycastCostOffset.label>1단계 초능력 비용 보정치</Hauts_TierOnePsycastCostOffset.label>
+  <!--Original=If Vanilla Psycasts Expanded is in the active modlist, provides a flat offset to the amount of psyfocus needed to cast 1stーlevel psycasts. Otherwise, if negative, its absolute value is added to the total psyfocus cost refund of any 1stーlevel psycast.-->
+  <Hauts_TierOnePsycastCostOffset.description>Vanilla Psycasts Expanded 모드가 활성화돼있는 경우 1단계 초능력을 시전하는데 필요한 초집중의 양에 고정된 수치만큼 보정값을 제공합니다. 그렇지 않고 이 값이 음수인 경우, 절대값이 모든 1단계 초능력의 초집중 환급 총합에 더해집니다.</Hauts_TierOnePsycastCostOffset.description>
+  <!--Original=instructive ability-->
+  <Hauts_InstructiveAbility.label>교육 능력</Hauts_InstructiveAbility.label>
+  <!--Original=A multiplier to the amount of skill experience and learning conveyed to children who take lessons from or watch the work of this character.-->
+  <Hauts_InstructiveAbility.description>이 대상으로부터 수업을 받거나 일을 구경하는 아이들이 얻는 기술 경험치와 학습 욕구의 배율입니다.</Hauts_InstructiveAbility.description>
+  <!--Original=apparel wear rate factor-->
+  <Hauts_ApparelWearRateFactor.label>의류 마모율 계수</Hauts_ApparelWearRateFactor.label>
+  <!--Original=A multiplier to the rate at which worn apparel deteriorates.-->
+  <Hauts_ApparelWearRateFactor.description>착용한 의류가 마모되는 속도에 적용되는 계수입니다.</Hauts_ApparelWearRateFactor.description>
+  <!--Original=boredom decay-->
+  <Hauts_BoredomDropPerDay.label>지루함 감소</Hauts_BoredomDropPerDay.label>
+  <!--Original=The amount of joy tolerance, or &apos;boredom&apos;, lost per day. This is in addition to the joy tolerance drop per day from one&apos;s expectation level.-->
+  <Hauts_BoredomDropPerDay.description>하루에 잃는 재미 내성, 즉 '지루함'의 양입니다. 개인의 기대감 수준에 따라 하루에 발생하는 재미 내성 감소에 추가로 적용됩니다.</Hauts_BoredomDropPerDay.description>
+  <!--Original={0} / day-->
+  <Hauts_BoredomDropPerDay.formatString>{0} / 일</Hauts_BoredomDropPerDay.formatString>
+  <!--Original={0} / day-->
+  <Hauts_BoredomDropPerDay.formatStringUnfinalized>{0} / 일</Hauts_BoredomDropPerDay.formatStringUnfinalized>
+  <!--Original=skill gain from recreation-->
+  <Hauts_SkillGainFromRecreation.label>오락으로 얻는 기술 경험치</Hauts_SkillGainFromRecreation.label>
+  <!--Original=A multiplier to the skill xp gained while engaging in a joy activity.-->
+  <Hauts_SkillGainFromRecreation.description>오락 활동을 하는 동안 획득하는 기술 경험치에 적용되는 계수입니다.</Hauts_SkillGainFromRecreation.description>
+  <!--Original=caravan visibility offset-->
+  <Hauts_CaravanVisibilityOffset.label>상단 식별률 보정치</Hauts_CaravanVisibilityOffset.label>
+  <!--Original=When this pawn is added to a caravan, it adds this value to the total body size of the caravaneers for the purposes of determining caravan visibility. Negative values will reduce caravan visibility; positive values will increase it.-->
+  <Hauts_CaravanVisibilityOffset.description>이 대상을 상단에 추가하면 상단의 식별률을 결정할 때, 상단 구성원의 신체 크기 총합에 이 값을 추가합니다. 음수값은 식별률을 감소시키고, 양수값은 식별율을 증가시킵니다.</Hauts_CaravanVisibilityOffset.description>
+  <!--Original={0} body sizes-->
+  <Hauts_CaravanVisibilityOffset.formatString>{0} 신체 크기</Hauts_CaravanVisibilityOffset.formatString>
+  <!--Original=caravan visibility factor-->
+  <Hauts_PersonalCaravanVisibilityFactor.label>상단 식별률 계수</Hauts_PersonalCaravanVisibilityFactor.label>
+  <!--Original=A multiplier to this pawn&apos;s body size for the purposes of determining caravan visibility.-->
+  <Hauts_PersonalCaravanVisibilityFactor.description>상단의 식별률을 계산할 때 이 대상의 신체 크기에 적용되는 계수입니다.</Hauts_PersonalCaravanVisibilityFactor.description>
+  <!--Original={0} of own body size-->
+  <Hauts_PersonalCaravanVisibilityFactor.formatString>자신의 신체 크기 {0}</Hauts_PersonalCaravanVisibilityFactor.formatString>
+  <!--Original=jump range factor-->
+  <Hauts_JumpRangeFactor.label>도약 사거리 계수</Hauts_JumpRangeFactor.label>
+  <!--Original=A multiplier to the range of jump abilities used by this character.-->
+  <Hauts_JumpRangeFactor.description>이 대상이 사용하는 도약 능력의 사거리에 대한 계수입니다.</Hauts_JumpRangeFactor.description>
+  <!--Original=spew range factor-->
+  <Hauts_SpewRangeFactor.label>분사 사거리 계수</Hauts_SpewRangeFactor.label>
+  <!--Original=A multiplier to the range of spray or spew abilities used by this character.-->
+  <Hauts_SpewRangeFactor.description>이 대상이 사용하는 분사 또는 분출 능력의 사거리에 대한 계수입니다.</Hauts_SpewRangeFactor.description>
+  <!--Original=track size-->
+  <Hauts_TrackSize.label>흔적 크기</Hauts_TrackSize.label>
+  <!--Original=Affects the amount of loose terrain (such as sand or dirt) this character tracks onto other surfaces.-->
+  <Hauts_TrackSize.description>이 대상이 다른 지형에 남기는 느슨한 지형(모래나 흙 같은)의 양에 영향을 줍니다.</Hauts_TrackSize.description>
+  <!--Original=hemogen yield-->
+  <Hauts_HemogenContentFactor.label>혈액 수확량</Hauts_HemogenContentFactor.label>
+  <!--Original=The density of hemogen in this character&apos;s blood. At higher values, bloodfeeders will gain more hemogen per feeding from this character, and medical extraction of hemogen packs will incur less blood loss.-->
+  <Hauts_HemogenContentFactor.description>이 대상의 혈액 밀도입니다. 값이 높을수록, 흡혈종이 이 대상에게 흡혈할 때 더 많은 혈액정수를 획득하며, 의료 작업으로 혈액팩 추출 시 혈액 손실이 줄어듭니다.</Hauts_HemogenContentFactor.description>
+  <!--Original=surveying speed-->
+  <Hauts_SurveySpeed.label>측량 속도</Hauts_SurveySpeed.label>
+  <!--Original=How quickly this person can find things using scanning equipment.-->
+  <Hauts_SurveySpeed.description>탐색 장비를 사용해 대상을 발견하는 속도입니다.</Hauts_SurveySpeed.description>
+  <!--Original=recycling speed-->
+  <Hauts_RecyclingSpeed.label>재활용 속도</Hauts_RecyclingSpeed.label>
+  <!--Original=The speed at which this person recycles various forms of trash.\n\nSince recycling is dumb labor, recycling speed is not affected by any skill.-->
+  <Hauts_RecyclingSpeed.description>이 사람이 다양한 종류의 쓰레기를 재활용하는 속도입니다.\n\n재활용은 단순 노동이므로, 재활용 속도는 어떤 기술에도 영향을 받지 않습니다.</Hauts_RecyclingSpeed.description>
+  <!--Original=breach damage factor-->
+  <Hauts_BreachDamageFactor.label>파괴 피해 계수</Hauts_BreachDamageFactor.label>
+  <!--Original=A multiplier to the amount of damage dealt to buildings.-->
+  <Hauts_BreachDamageFactor.description>건물에게 가하는 피해량에 적용되는 계수입니다.</Hauts_BreachDamageFactor.description>
+  <!--Original=antiーentity damage factor-->
+  <Hauts_EntityDamageFactor.label>반 실체 피해 계수</Hauts_EntityDamageFactor.label>
+  <!--Original=A multiplier to the amount of damage dealt to unnatural entities.-->
+  <Hauts_EntityDamageFactor.description>부자연적 실체들에게 가하는 피해량에 적용되는 계수입니다.</Hauts_EntityDamageFactor.description>
+  <!--Original=melee armor penetration factor-->
+  <Hauts_MeleeArmorPenetration.label>근접 방어 관통력 계수</Hauts_MeleeArmorPenetration.label>
+  <!--Original=A multiplier on melee armor penetration.-->
+  <Hauts_MeleeArmorPenetration.description>근접 방어 관통력 적용되는 계수입니다.</Hauts_MeleeArmorPenetration.description>
+  <!--Original=ranged armor penetration factor-->
+  <Hauts_RangedArmorPenetration.label>원거리 방어 관통력 계수</Hauts_RangedArmorPenetration.label>
+  <!--Original=A multiplier on ranged armor penetration.-->
+  <Hauts_RangedArmorPenetration.description>원거리 방어 관통력에 적용되는 계수입니다.</Hauts_RangedArmorPenetration.description>
+  <!--Original=mech command range-->
+  <Hauts_MechCommandRange.label>메카노이드 명령 범위</Hauts_MechCommandRange.label>
+  <!--Original=The radius in which a mechanitor can issue specific orders to controlled mechanoids.-->
+  <Hauts_MechCommandRange.description>메카나이터가 지휘하는 메카노이드에게 특정 명령을 내릴 수 있는 범위입니다.</Hauts_MechCommandRange.description>
+  <!--Original=Tweaks Galore setting-->
+  <Hauts_MechCommandRange.parts.0.label>Tweaks Galore 설정</Hauts_MechCommandRange.parts.0.label>
+  <!--Original=mech energy usage offset-->
+  <Hauts_MechEnergyUsage.label>메카노이드 전력 사용 보정치</Hauts_MechEnergyUsage.label>
+  <!--Original=An offset to the rate at which a mechanitor&apos;s mechanoids consume energy while operating.-->
+  <Hauts_MechEnergyUsage.description>메카나이터의 메카노이드가 작동 중일때 소비하는 전력에 대한 보정치입니다.</Hauts_MechEnergyUsage.description>
+</LanguageData>
