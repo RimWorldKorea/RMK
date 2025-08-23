@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--English=[Hauts&apos; Framework] active.-->
+  <Hauts_Initialize>[Hauts' Framework] active.</Hauts_Initialize>
+  <!--English=Crafting skill affects apparel wear rate factor-->
+  <Hauts_SettingAWRFC>제작 기술이 의류 마모율 계수에 영향</Hauts_SettingAWRFC>
+  <!--English=If enabled, grants ー1% apparel wear rate factor per level of crafting skill.-->
+  <Hauts_TooltipAWRFC>활성화 시 제작 기술 수준마다 의류 마모율 계수 -1% 가 부여됩니다.</Hauts_TooltipAWRFC>
+  <!--English=Construction skill affects damage vs buildings-->
+  <Hauts_SettingBDFC>건설 기술이 구조물 피해에 영향</Hauts_SettingBDFC>
+  <!--English=If enabled, grants +1.5% breach damage factor per level of construction skill.-->
+  <Hauts_TooltipBDFC>활성화 시 건설 기술 수준마다 파괴 피해 계수 +1.5% 가 부여됩니다.</Hauts_TooltipBDFC>
+  <!--English=Requires at least {0} {1}.-->
+  <Hauts_AbilityNeedsHigherStatToUse>Requires at least {0} {1}.</Hauts_AbilityNeedsHigherStatToUse>
+  <!--English=Jump range factor-->
+  <HVT_JumpRangeFactorScalar>도약 거리 계수</HVT_JumpRangeFactorScalar>
+  <!--English=Always visible-->
+  <Hauts_AuraVisSetting0>항상 보임</Hauts_AuraVisSetting0>
+  <!--English=Visible while drafted-->
+  <Hauts_AuraVisSetting1>소집 시 보임</Hauts_AuraVisSetting1>
+  <!--English=Visible while selected-->
+  <Hauts_AuraVisSetting2>선택 시 보임</Hauts_AuraVisSetting2>
+  <!--English=Not visible-->
+  <Hauts_AuraVisSetting3>보이지 않음</Hauts_AuraVisSetting3>
+  <!--English=Aura radius: {0} cells-->
+  <Hauts_AuraTooltip>기운 범위: {0} 칸</Hauts_AuraTooltip>
+  <!--English=Affected abilities&apos; cooldowns elapse {0} faster.-->
+  <Hauts_ACMtooltip>해당 능력의 재사용 대기시간이 {0} 빨라집니다.</Hauts_ACMtooltip>
+  <!--English=Grants {0} max {1}.-->
+  <Hauts_GRMtooltip>Grants {0} max {1}.</Hauts_GRMtooltip>
+  <!--English={0} takes {1} longer to drain.-->
+  <Hauts_GRMtooltip2>{0}의 고갈 속도가 {1} 느려집니다.</Hauts_GRMtooltip2>
+  <!--English=Random thought MTB: {0} days-->
+  <Hauts_GTRtooltip>Random thought MTB: {0} days</Hauts_GTRtooltip>
+  <!--English=Inflicts the {0} trait.-->
+  <Hauts_GivesTraitTooltip>{0} 특성을 부여합니다.</Hauts_GivesTraitTooltip>
+  <!--English={0} chance to inflict the following effects on dealing at least {1} damage to victims -->
+  <Hauts_ExtraHitFXPrefixChance>{0} 확률로 최소 {1} 이상의 피해를 상대에게 입힐 경우 다음 효과를 적용\n</Hauts_ExtraHitFXPrefixChance>
+  <!--English=Inflicts the following effects on dealing at least {0} damage to victims -->
+  <Hauts_ExtraHitFXPrefixAlways>최소 {0} 이상의 피해를 상대에게 입힐 경우 다음 효과를 적용\n</Hauts_ExtraHitFXPrefixAlways>
+  <!--English=within {0} range -->
+  <Hauts_ExtraHitFXRange>{0} 범위 내 </Hauts_ExtraHitFXRange>
+  <!--English=(cooldown {0} ticks):\n-->
+  <Hauts_ExtraHitFXPrefixCD>(쿨다운 {0} 틱):\n</Hauts_ExtraHitFXPrefixCD>
+  <!--English=(cooldown {0} to {1} ticks):\n-->
+  <Hauts_ExtraHitFXPrefixCDVariable>(쿨다운 {0} 에서 {1} 틱):\n</Hauts_ExtraHitFXPrefixCDVariable>
+  <!--English=(no cooldown):\n-->
+  <Hauts_ExtraHitFXPrefixNoCD>(쿨다운 없음):\n</Hauts_ExtraHitFXPrefixNoCD>
+  <!--English=Remove the {0} condition\n-->
+  <Hauts_ExtraHitFXPurge>{0} 상태 제거\n</Hauts_ExtraHitFXPurge>
+  <!--English=Remove {0} points of the {1} condition\n-->
+  <Hauts_ExtraHitFXPurgePartial>{1} 상태 {0}점 제거\n</Hauts_ExtraHitFXPurgePartial>
+  <!--English=Remove {0} points of the {1} condition\n-->
+  <Hauts_ExtraHitFXPurgePartialVariable>{1} 상태 {0}점 제거\n</Hauts_ExtraHitFXPurgePartialVariable>
+  <!--English={0} {1} damage\n-->
+  <Hauts_ExtraHitFXMoreDmg>{0} {1} 피해\n</Hauts_ExtraHitFXMoreDmg>
+  <!--English={0} chance to deal {1} {2} damage\n-->
+  <Hauts_ExtraHitFXMoreDmgChance>{0} 확률로 {1} {2} 피해\n</Hauts_ExtraHitFXMoreDmgChance>
+  <!--English=Stun for a base of {0} ticks\n-->
+  <Hauts_ExtraHitFXStun>{0} 틱 동안 기절\n</Hauts_ExtraHitFXStun>
+  <!--English=Inflict {0} points of {1}\n-->
+  <Hauts_ExtraHitFXDebuff>{0}의 {1} 효과\n</Hauts_ExtraHitFXDebuff>
+  <!--English=Inflict an inspiration\n-->
+  <Hauts_ExtraHitFXInspireAny>영감 부여\n</Hauts_ExtraHitFXInspireAny>
+  <!--English=Inflict one of the following inspirations: -->
+  <Hauts_ExtraHitFXInspireList>Inflict one of the following inspirations: </Hauts_ExtraHitFXInspireList>
+  <!--English=Inflict a mental state\n-->
+  <Hauts_ExtraHitFXMBAny>Inflict a mental state\n</Hauts_ExtraHitFXMBAny>
+  <!--English=Inflict one of the following mental states: -->
+  <Hauts_ExtraHitFXMBList>Inflict one of the following mental states: </Hauts_ExtraHitFXMBList>
+  <!--English={0} ({1} weight) -->
+  <Hauts_ExtraHitFXListicle>{0} ({1} weight) </Hauts_ExtraHitFXListicle>
+  <!--English=Stun for a base of {0} to {1} ticks\n-->
+  <Hauts_ExtraHitFXStunVariable>{0} 에서 {1} 틱 동안 기절\n</Hauts_ExtraHitFXStunVariable>
+  <!--English=Scales with:-->
+  <Hauts_ExtraHitFXScalars>비례 대상:</Hauts_ExtraHitFXScalars>
+  <!--English= attacker&apos;s {0}-->
+  <Hauts_ExtraHitFXScaleAttacker> 공격자의 {0}</Hauts_ExtraHitFXScaleAttacker>
+  <!--English= victim&apos;s {0}-->
+  <Hauts_ExtraHitFXScaleVictim> 피해자의 {0}</Hauts_ExtraHitFXScaleVictim>
+  <!--English= damage dealt by triggering hit-->
+  <Hauts_ExtraHitFXScaleDmgDealt> 발동시킨 공격의 피해량</Hauts_ExtraHitFXScaleDmgDealt>
+  <!--English=Doesn&apos;t affect-->
+  <Hauts_ExtraHitFXSuffix>영향 없음:</Hauts_ExtraHitFXSuffix>
+  <!--English= animals-->
+  <Hauts_ExtraHitFXSuffix2A> 동물</Hauts_ExtraHitFXSuffix2A>
+  <!--English= nonーhostiles-->
+  <Hauts_ExtraHitFXSuffixF> 비 적대</Hauts_ExtraHitFXSuffixF>
+  <!--English= hostiles-->
+  <Hauts_ExtraHitFXSuffixH> 적대</Hauts_ExtraHitFXSuffixH>
+  <!--English= humanlikes-->
+  <Hauts_ExtraHitFXSuffix2H> 인간형</Hauts_ExtraHitFXSuffix2H>
+  <!--English= mechs-->
+  <Hauts_ExtraHitFXSuffix2M> 메카노이드</Hauts_ExtraHitFXSuffix2M>
+  <!--English= drones-->
+  <Hauts_ExtraHitFXSuffix2D> drones</Hauts_ExtraHitFXSuffix2D>
+  <!--English= anomalyーmutated creatures-->
+  <Hauts_ExtraHitFXSuffix2Mu> 이상변이 생명체</Hauts_ExtraHitFXSuffix2Mu>
+  <!--English= unnatural entities-->
+  <Hauts_ExtraHitFXSuffix2E> 부자연적 실체</Hauts_ExtraHitFXSuffix2E>
+  <!--English={0} gained an inspiration due to the {1} onーhit effect.-->
+  <Hauts_GotInspiredOnHit>{0}(이)가 {1}의 적중 시 효과로 영감을 얻었습니다.</Hauts_GotInspiredOnHit>
+  <!--English=The {0} onーhit effect is responsible.-->
+  <Hauts_GotMBOnHit>The {0} on-hit effect is responsible.</Hauts_GotMBOnHit>
+  <!--English={0}s to recharge-->
+  <Hauts_ShieldRecharge>{0}s to recharge</Hauts_ShieldRecharge>
+  <!--English=Grants {0} {1} xp per day-->
+  <Hauts_SkillAdjustmentTooltip>Grants {0} {1} xp per day</Hauts_SkillAdjustmentTooltip>
+  <!--English=From current psyfocus band-->
+  <Hauts_StatWorkerPsyfocusBand>From current psyfocus band</Hauts_StatWorkerPsyfocusBand>
+  <!--English=From current expectation level-->
+  <Hauts_StatWorkerExpectationLevel>From current expectation level</Hauts_StatWorkerExpectationLevel>
+  <!--English=\n{0}/{1} charge-->
+  <Hauts_TilNextSpawn>\n{0}/{1} 충전</Hauts_TilNextSpawn>
+  <!--English=\n{0} hours to next spawn-->
+  <Hauts_TilNextSpawnCountdown>\n{0} hours to next spawn</Hauts_TilNextSpawnCountdown>
+  <!--English=\n{0}/{1} charges stored-->
+  <Hauts_ChargesStored>\n{0}/{1} charges stored</Hauts_ChargesStored>
+  <!--English=target lacks any needs affected by the ability-->
+  <Hauts_LacksAnyAffectedNeed>target lacks any needs affected by the ability</Hauts_LacksAnyAffectedNeed>
+  <!--English=Paired with: -->
+  <Hauts_PairPrefix>Paired with: </Hauts_PairPrefix>
+  <!--English=\n{0} on {1}-->
+  <Hauts_PairedWithHediff>\n{0} on {1}</Hauts_PairedWithHediff>
+  <!--English=\n{0}-->
+  <Hauts_PairedWithOther>\n{0}</Hauts_PairedWithOther>
+  <!--English=A bioferriteーdestabilizing effect within {PAWN_nameDef} destroyed a recently acquired metalhorror parasite. The destabilizer has been burnt out in the process.-->
+  <Hauts_BFDDestroyedMetalhorror>A bioferrite-destabilizing effect within {PAWN_nameDef} destroyed a recently acquired metalhorror parasite. The destabilizer has been burnt out in the process.</Hauts_BFDDestroyedMetalhorror>
+  <!--English=A bioferriteーdestabilizing effect within {PAWN_nameDef} destroyed a recently acquired metalhorror parasite.-->
+  <Hauts_BFDDestroyedMetalhorror2>A bioferrite-destabilizing effect within {PAWN_nameDef} destroyed a recently acquired metalhorror parasite.</Hauts_BFDDestroyedMetalhorror2>
+  <!--English=A bioferriteーdestabilizing effect within {PAWN_nameDef} broke down {PAWN_possessive} mutated biomatter.-->
+  <Hauts_BFDDestroyedMutation>A bioferrite-destabilizing effect within {PAWN_nameDef} broke down {PAWN_possessive} mutated biomatter.</Hauts_BFDDestroyedMutation>
+  <!--English=A bioferriteーdestabilizing effect within {PAWN_nameDef} caused the ghoulizing process to fail. All used resources were wasted.-->
+  <Hauts_BFDBlockedGhoulizing>A bioferrite-destabilizing effect within {PAWN_nameDef} caused the ghoulizing process to fail. All used resources were wasted.</Hauts_BFDBlockedGhoulizing>
+  <!--English={INFECTED_nameDef}&apos;s metalhorror emerged due to a botched infection attempt.-->
+  <Hauts_MetalhorrorReasonBFD>{INFECTED_nameDef}'s metalhorror emerged due to a botched infection attempt.</Hauts_MetalhorrorReasonBFD>
+  <!--English={FACTION_name} has provided assistance for {PAWN_nameDef}&apos;s caravan.-->
+  <Hauts_MessagePermitBoostCaravan>{FACTION_name} has provided assistance for {PAWN_nameDef}'s caravan.</Hauts_MessagePermitBoostCaravan>
+  <!--English=Conversion power: {0}/hour-->
+  <Hauts_IdeoBookConversion>Conversion power: {0}/hour</Hauts_IdeoBookConversion>
+  <!--English=Reasurrance power: {0}/hour-->
+  <Hauts_IdeoBookCertainty>Reasurrance power: {0}/hour</Hauts_IdeoBookCertainty>
+  <!--English=Chance to upset nonーbelievers: {0}-->
+  <Hauts_IdeoBookUpsetChance>Chance to upset non-believers: {0}</Hauts_IdeoBookUpsetChance>
+  <!--English={0} ({1} structure ideo): -->
+  <Hauts_IdeoBookMemeList>{0} ({1} structure ideo): </Hauts_IdeoBookMemeList>
+  <!--English=Reading {0} has caused {1} to turn away from {2} and towards {3}.-->
+  <Hauts_LetterConvertIdeoBook_Success>Reading {0} has caused {1} to turn away from {2} and towards {3}.</Hauts_LetterConvertIdeoBook_Success>
+  <!--English={PERMITUSER_nameDef} was informed of-->
+  <Hauts_QuestDiscoveredByPermit>{PERMITUSER_nameDef} was informed of</Hauts_QuestDiscoveredByPermit>
+  <!--English=Cannot add {0} to inventory of {1} because it is not haulable.-->
+  <Hauts_CantSpawnUnminified>Cannot add {0} to inventory of {1} because it is not haulable.</Hauts_CantSpawnUnminified>
+  <!--English=Body parts cannot be removed from {0} due to the {1} trait.-->
+  <Hauts_CannotRemoveBionicsFrom>{0}에게서는 {1} 특성으로 인해 신체 부위를 제거할 수 없습니다.</Hauts_CannotRemoveBionicsFrom>
+  <!--English={PAWN_nameDef} spawned with a weapon, yet also has a trait that disables violence. Removing the trait to prevent invalid combat calculations. If this would have been {PAWN_possessive} only trait, {PAWN_pronoun} will now have no traits.-->
+  <Hauts_PacifistWWeapon>{PAWN_nameDef} spawned with a weapon, yet also has a trait that disables violence. Removing the trait to prevent invalid combat calculations. If this would have been {PAWN_possessive} only trait, {PAWN_pronoun} will now have no traits.</Hauts_PacifistWWeapon>
+  <!--English=target already affected by this ability-->
+  <Hauts_TargetAlreadyHasPairedHediff>target already affected by this ability</Hauts_TargetAlreadyHasPairedHediff>
+  <!--English=Only usable on a caravan-->
+  <Hauts_MustBeCaravanning>Only usable on a caravan</Hauts_MustBeCaravanning>
+  <!--English=Permit is of a type that requires PermitMoreEffects, but there isn&apos;t one in its definition-->
+  <Hauts_PMEMisconfig>Permit is of a type that requires PermitMoreEffects, but there isn't one in its definition</Hauts_PMEMisconfig>
+  <!--English=There are no factions that can cause this event-->
+  <Hauts_NoFactionCanFieldIncident>There are no factions that can cause this event</Hauts_NoFactionCanFieldIncident>
+  <!--English=DEV: Fix TraitGrantedStuff-->
+  <HVT_CharEditFixer>DEV: Fix TraitGrantedStuff</HVT_CharEditFixer>
+  <!--English=Adds any missing hediffs or abilities to this pawn which should&apos;ve been granted by its traits. The presence of this button does not necessarily mean that there are any missing hediffs or abilities.\n\nIf you&apos;re using Character Editor to add traits to pawns, make sure to press this on the pawn immediately afterward.-->
+  <HVT_CharEditFixerDesc>이 폰에 특성상 부여되어야 하지만 누락된 헤디프나 능력을 모두 추가합니다. 이 버튼이 표시된다고 해서 누락된 헤디프나 능력이 있는 건 아닙니다.\n\nCharacter Editor를 사용하여 폰에 특성을 추가하는 경우, 해당 폰에 특성을 추가한 뒤에 반드시 이 버튼을 눌러줘야 합니다.</HVT_CharEditFixerDesc>
+</LanguageData>
