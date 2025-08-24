@@ -19,12 +19,25 @@ namespace NamesInYourLanguage
         // 전체 동작 시간 체크용
         public static long TotalWorkTime = 0;
         
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        
         // 번역 요청 데이터를 저장
         public static readonly Dictionary<string, NameTripleReduced> solidNamesTranslationRequest = new Dictionary<string, NameTripleReduced>();
         public static readonly Dictionary<string, NameTripleReduced> solidBioNamesTranslationRequest = new Dictionary<string, NameTripleReduced>();
         public static readonly Dictionary<string, string> shuffledNamesTranslationRequest = new Dictionary<string, string>();
         
-        // 원본 이름이 값으로 저장
+        
+        // 번역 파일 데이터를 유효성 관계 없이 형식만 맞춰서 저장 (파일의 원래 모습을 기록하기 위해)
+        public static readonly List<(string, string, string)> solidNamesTranslationRequestRaw = new List<(string, string, string)>();
+        public static readonly List<(string, string, string)> solidBioNamesTranslationRequestRaw = new List<(string, string, string)>();
+        public static readonly List<(string, string, string)> shuffledNamesTranslationRequestRaw = new List<(string, string, string)>();
+        
+        // 번역 요청 데이터 중 번역이 거부된 것을 저장
+        public static readonly List<string> solidNamesTranslationRequestRefuesed = new List<string>();
+        public static readonly List<string> solidBioNamesTranslationRequestRefuesed = new List<string>();
+        public static readonly List<string> shuffledNamesTranslationRequestRefuesed = new List<string>();
+        
+        // 원본 이름이 값으로 저장 (게임 초기화 시점, 개체별 구분 없이 이름값만 같으면 같게 취급)
         public static readonly Dictionary<string, NameTripleReduced> solidNamesOriginal = new Dictionary<string, NameTripleReduced>();
         public static readonly Dictionary<string, NameTripleReduced> solidBioNamesOriginal = new Dictionary<string, NameTripleReduced>();
         public static readonly Dictionary<string, string> shuffledNamesOriginal = new Dictionary<string, string>();
@@ -35,7 +48,8 @@ namespace NamesInYourLanguage
         public static readonly Dictionary<string, NameTriple> solidBioNames = new Dictionary<string,NameTriple>();
         public static readonly Dictionary<string, List<string>> shuffledNameLists = new Dictionary<string, List<string>>();
         
-        // 이름이 중복되는 경우 최초 개체를 제외하고 모두 별도로 저장. 바닐라는 정리가 돼있기 때문에 필요없지만 모드로 인해 필요할 수 있습니다.
+        // 번역 중 현재 이름을 검색하는 과정에서 이름이 중복되는 경우 최초 개체를 제외하고 모두 별도로 저장.
+        // 바닐라는 중복이 없도록 정리가 돼있기 때문에 필요없지만 모드로 인해 필요할 수 있습니다.
         // ShuffledName은 아마 필요 없을걸로 생각돼서 확인은 안해봤는데, 어차피 개체 구분 없는 리스트라 중복 처리가 돼있겠지?
         public static readonly Dictionary<string, List<NameTriple>> solidNamesDuplicated = new Dictionary<string, List<NameTriple>>();
         public static readonly Dictionary<string, List<NameTriple>> solidBioNamesDuplicated = new Dictionary<string, List<NameTriple>>();
@@ -43,6 +57,8 @@ namespace NamesInYourLanguage
         // private 멤버 접근을 위한 Harmony 접근자
         private static readonly FieldInfo bankNamesAccessor = AccessTools.Field(typeof(NameBank), "names");
         
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         static NameTranslator()
         {
             // 원문 데이터를 저장해두고 번역을 시도합니다.
@@ -144,7 +160,7 @@ namespace NamesInYourLanguage
                     {
                         if (!solidNames.ContainsKey(request.Key)) // 번역하려는 키가 현재 게임에 존재해?
                         {
-                            Log.Error(logSignature + "NIYL.Log.InvalidKey".Translate(request.Key));
+                            // Log.Error(logSignature + "NIYL.Log.InvalidKey".Translate(request.Key));
                             continue;
                         }
 
@@ -172,7 +188,7 @@ namespace NamesInYourLanguage
                     {
                         if (!solidBioNames.ContainsKey(request.Key))
                         {
-                            Log.Error(logSignature + "NIYL.Log.InvalidKey".Translate(request.Key));
+                            // Log.Error(logSignature + "NIYL.Log.InvalidKey".Translate(request.Key));
                             continue;
                         }
 
@@ -199,8 +215,8 @@ namespace NamesInYourLanguage
                     foreach (var request in shuffledNamesTranslationRequest)
                     {
 
-                        if(!shuffledNamesOriginal.ContainsKey(request.Key))
-                            Log.Error(logSignature + "NIYL.Log.InvalidKey".Translate(request.Key));
+                        if(!shuffledNamesOriginal.ContainsKey(request.Key)){}
+                            // Log.Error(logSignature + "NIYL.Log.InvalidKey".Translate(request.Key));
                         else
                         {
                             string listKey = request.Key.Substring(0, request.Key.LastIndexOf('.'));

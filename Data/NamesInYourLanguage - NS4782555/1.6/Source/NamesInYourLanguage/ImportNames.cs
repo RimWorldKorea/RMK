@@ -19,96 +19,130 @@ namespace NamesInYourLanguage
             // SolidNames.txt를 불러와 사용할 수 있는 형태로 변환합니다.
             if (Translator.TryGetTranslatedStringsForFile("Names/" + fileName_SolidNames, out List<string> importedRaw_SolidNames))
             {
-                Dictionary<string, string> crashPod = importedRaw_SolidNames.PareText().BreakArrow();
-                foreach (var precursor in crashPod)
+                List<(string, string)> paredText = importedRaw_SolidNames.PareText(); // (키-값, 주석)
+                
+                foreach ((string, string) paredLine in paredText)
                 {
-                    if (precursor.Value.SplitIntoTriple(out NameTripleReduced triple))
-                    {
-                        solidNamesTranslationRequest.Add(precursor.Key, triple);
-                    }
+                    (string, string) brokenArrow = paredLine.Item1.BreakArrow(out _);
+                    string comment = paredLine.Item2;
+                    
+                    if (brokenArrow.Item2.SplitIntoTriple(out NameTripleReduced triple)) // 번역 이름까지 유효하면 번역 코드에서 호출될 목록에 저장. 키의 유효성은 번역시 확인.
+                        solidNamesTranslationRequest.Add(brokenArrow.Item1, triple);
+                    else
+                        comment += "[Added by System: Translation Name is Invalid]";
+                
+                    solidNamesTranslationRequestRaw.Add((brokenArrow.Item1, brokenArrow.Item2, comment));
                 }
             }
             
             // SolidBioNames.txt를 불러와 사용할 수 있는 형태로 변환합니다.
             if (Translator.TryGetTranslatedStringsForFile("Names/" + fileName_SolidBioNames, out List<string> importedRaw_SolidBioNames))
             {
-                Dictionary<string, string> crashPod = importedRaw_SolidBioNames.PareText().BreakArrow();
-                foreach (var precursor in crashPod)
+                List<(string, string)> paredText = importedRaw_SolidBioNames.PareText(); // (키-값, 주석)
+                
+                foreach ((string, string) paredLine in paredText)
                 {
-                    if (precursor.Value.SplitIntoTriple(out NameTripleReduced triple))
-                    {
-                        solidBioNamesTranslationRequest.Add(precursor.Key, triple);
-                    }
+                    (string, string) brokenArrow = paredLine.Item1.BreakArrow(out _);
+                    string comment = paredLine.Item2;
+                    
+                    if (brokenArrow.Item2.SplitIntoTriple(out NameTripleReduced triple)) // 번역 이름까지 유효하면 번역 코드에서 호출될 목록에 저장. 키의 유효성은 번역시 확인.
+                        solidBioNamesTranslationRequest.Add(brokenArrow.Item1, triple);
+                    else
+                        comment += "[Added by System: Translation Name is Invalid]";
+                
+                    solidBioNamesTranslationRequestRaw.Add((brokenArrow.Item1, brokenArrow.Item2, comment));
                 }
             }
             
             // ShuffledNames.txt를 불러와 사용할 수 있는 형태로 변환합니다.
             if (Translator.TryGetTranslatedStringsForFile("Names/" + fileName_ShuffledNames, out List<string> importedRaw_shuffledNames))
             {
-                Dictionary<string, string> crashPod = importedRaw_shuffledNames.PareText().BreakArrow();
-                foreach (var precursor in crashPod)
-                    shuffledNamesTranslationRequest.Add(precursor.Key, precursor.Value);
+                List<(string, string)> paredText = importedRaw_shuffledNames.PareText();
+
+                foreach ((string, string) paredLine in paredText)
+                {
+                    (string, string) brokenArrow = paredLine.Item1.BreakArrow(out _);
+                    string comment = paredLine.Item2;
+                    
+                    if (!brokenArrow.Item2.NullOrEmpty())
+                        shuffledNamesTranslationRequest.Add(brokenArrow.Item1, brokenArrow.Item2);
+                    else
+                        comment += "[Added by System: Translation Name is Invalid]";
+                    
+                    shuffledNamesTranslationRequestRaw.Add((brokenArrow.Item1, brokenArrow.Item2, comment));
+                }
             }
         }
 
-        // 주석과 빈 줄을 날립니다.
-        public static List<string> PareText(this List<string> entireText)
+        // 텍스트 전체에서 빈 줄을 날리고 주석을 분리합니다.
+        public static List<(string, string)> PareText(this List<string> entireText)
         {
-            List<string> result = new List<string>();
+            List<(string, string)> result = new List<(string, string)>();
             foreach (string textLine in entireText)
             {
-                string text = textLine;
+                if (textLine.Trim().NullOrEmpty()) continue;
 
-                int leftEndIndex = text.IndexOf("//");
-                if (leftEndIndex > 0) text = text.Substring(0, leftEndIndex);
+                string beforeSlash = string.Empty;
+                string afterSlash = string.Empty;
+                
+                int slashIndex = textLine.IndexOf("//");
 
-                if (text.Trim().NullOrEmpty()) continue;
+                // Substring의 유효성을 보장하기 위해 '//' 이후에 빈 칸을 포함한 뭔가가 있는 경우만 진행
+                if (slashIndex < 0)
+                    beforeSlash = textLine;
+                else
+                {
+                    beforeSlash = textLine.Substring(0, slashIndex).Trim();
+                    if (slashIndex + 2 < textLine.Length)
+                        afterSlash = textLine.Substring(slashIndex + 1);
+                }
 
-                result.Add(text);
+                result.Add((beforeSlash, afterSlash));
             }
 
             return result;
         }
 
-        // (...)-> 를 부숩니다. 분절된 문자열의 유효성은 보장됩니다.
-        public static Dictionary<string, string> BreakArrow(this List<string> entireText)
+        // (...)-> 를 부숩니다. 분절된 문자열의 번역 요청문으로써 유효성은 별도로 확인하세요.
+        public static (string, string) BreakArrow(this string textLine, out string errorText)
         {
-            Dictionary<string, string> result = new Dictionary<string, string>();
-            foreach (string textLine in entireText)
-            {
-                string key, value;
-                try
-                {
-                    int arrowIndex = textLine.IndexOf("->");
-
-                    key = textLine.Substring(0, arrowIndex).Trim();
-                    value = textLine.Substring(arrowIndex + 2).Trim();
-
-                    int braceIndex = key.IndexOf("(");
-                    key = key.Substring(0, braceIndex);
-
-                    if (key.NullOrEmpty() || value.NullOrEmpty())
-                        throw new Exception();
-                }
-                catch
-                {
-                    Log.Error(logSignature + "NIYL.Import.InvalidLine".Translate(textLine));
-                    continue;
-                }
-
-                if (result.ContainsKey(key))
-                {
-                    Log.Error(logSignature + "NIYL.Import.DuplicatedKey".Translate(key));
-                    continue;
-                }
-                result.Add(key, value);
-            }
+            string key = String.Empty;
+            string value = String.Empty;
             
-            return result;
+            if (textLine.Trim().NullOrEmpty())
+            {
+                errorText = null;
+                return (key, value);
+            }
+
+            int arrowIndex = textLine.IndexOf("->");
+            try
+            {
+                key = textLine.Substring(0, arrowIndex).Trim();
+                value = textLine.Substring(arrowIndex + 2).Trim();
+
+                int braceIndex = key.IndexOf("(");
+                key = key.Substring(0, braceIndex);
+                errorText = null;
+            }
+            catch
+            {
+                errorText = textLine;
+                Log.Warning($"{logSignature} + {errorText} is invalid");
+            }
+
+            return (key, value);
         }
 
         public static bool SplitIntoTriple(this string fullNameText, out NameTripleReduced triple)
         {
+            // 빈 텍스트는 먼저 뱉어내기
+            if (fullNameText.Trim().NullOrEmpty())
+            {
+                triple = default;
+                return false;
+            }
+            
             string first = null, last = null, nick = null;
             try
             {
@@ -124,7 +158,7 @@ namespace NamesInYourLanguage
             }
             catch
             {
-                Log.Error(logSignature + "NIYL.Import.InvalidName".Translate(fullNameText));
+                Log.Warning(logSignature + "NIYL.Import.InvalidName".Translate(fullNameText));
                 triple = default;
                 return false;
             }
