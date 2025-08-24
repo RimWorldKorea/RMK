@@ -23,15 +23,16 @@ namespace NamesInYourLanguage
                 
                 foreach ((string, string) paredLine in paredText)
                 {
-                    (string, string) brokenArrow = paredLine.Item1.BreakArrow(out _);
+                    (string, string, string) brokenArrow = paredLine.Item1.BreakArrow(out _);
                     string comment = paredLine.Item2;
                     
-                    if (brokenArrow.Item2.SplitIntoTriple(out NameTripleReduced triple)) // 번역 이름까지 유효하면 번역 코드에서 호출될 목록에 저장. 키의 유효성은 번역시 확인.
+                    // 번역 이름의 형식까지 유효하면 번역 코드에서 호출될 목록에 저장. 키의 유효성은 번역시 확인.
+                    if (brokenArrow.Item3.SplitIntoTriple(out NameTripleReduced triple))
                         solidNamesTranslationRequest.Add(brokenArrow.Item1, triple);
                     else
                         comment += "[Added by System: Translation Name is Invalid]";
                 
-                    solidNamesTranslationRequestRaw.Add((brokenArrow.Item1, brokenArrow.Item2, comment));
+                    solidNamesTranslationRequestRaw.Add((brokenArrow.Item1, brokenArrow.Item2, brokenArrow.Item3, comment));
                 }
             }
             
@@ -42,15 +43,16 @@ namespace NamesInYourLanguage
                 
                 foreach ((string, string) paredLine in paredText)
                 {
-                    (string, string) brokenArrow = paredLine.Item1.BreakArrow(out _);
+                    (string, string, string) brokenArrow = paredLine.Item1.BreakArrow(out _);
                     string comment = paredLine.Item2;
                     
-                    if (brokenArrow.Item2.SplitIntoTriple(out NameTripleReduced triple)) // 번역 이름까지 유효하면 번역 코드에서 호출될 목록에 저장. 키의 유효성은 번역시 확인.
+                    // 번역 이름의 형식까지 유효하면 번역 코드에서 호출될 목록에 저장. 키의 유효성은 번역시 확인.
+                    if (brokenArrow.Item3.SplitIntoTriple(out NameTripleReduced triple))
                         solidBioNamesTranslationRequest.Add(brokenArrow.Item1, triple);
                     else
                         comment += "[Added by System: Translation Name is Invalid]";
                 
-                    solidBioNamesTranslationRequestRaw.Add((brokenArrow.Item1, brokenArrow.Item2, comment));
+                    solidBioNamesTranslationRequestRaw.Add((brokenArrow.Item1, brokenArrow.Item2, brokenArrow.Item3, comment));
                 }
             }
             
@@ -61,15 +63,15 @@ namespace NamesInYourLanguage
 
                 foreach ((string, string) paredLine in paredText)
                 {
-                    (string, string) brokenArrow = paredLine.Item1.BreakArrow(out _);
+                    (string, string, string) brokenArrow = paredLine.Item1.BreakArrow(out _);
                     string comment = paredLine.Item2;
                     
-                    if (!brokenArrow.Item2.NullOrEmpty())
-                        shuffledNamesTranslationRequest.Add(brokenArrow.Item1, brokenArrow.Item2);
+                    if (!brokenArrow.Item3.NullOrEmpty())
+                        shuffledNamesTranslationRequest.Add(brokenArrow.Item1, brokenArrow.Item3);
                     else
                         comment += "[Added by System: Translation Name is Invalid]";
                     
-                    shuffledNamesTranslationRequestRaw.Add((brokenArrow.Item1, brokenArrow.Item2, comment));
+                    shuffledNamesTranslationRequestRaw.Add((brokenArrow.Item1, brokenArrow.Item2, brokenArrow.Item3, comment));
                 }
             }
         }
@@ -104,25 +106,32 @@ namespace NamesInYourLanguage
         }
 
         // (...)-> 를 부숩니다. 분절된 문자열의 번역 요청문으로써 유효성은 별도로 확인하세요.
-        public static (string, string) BreakArrow(this string textLine, out string errorText)
+        public static (string, string, string) BreakArrow(this string textLine, out string errorText)
         {
             string key = String.Empty;
+            string originalRef = String.Empty;
             string value = String.Empty;
             
             if (textLine.Trim().NullOrEmpty())
             {
                 errorText = null;
-                return (key, value);
+                return (key, originalRef, value);
             }
 
             int arrowIndex = textLine.IndexOf("->");
             try
             {
-                key = textLine.Substring(0, arrowIndex).Trim();
+                string lhs = textLine.Substring(0, arrowIndex).Trim();
                 value = textLine.Substring(arrowIndex + 2).Trim();
 
-                int braceIndex = key.IndexOf("(");
-                key = key.Substring(0, braceIndex);
+                int leftBraceIndex = lhs.IndexOf("(");
+                int rightBraceIndex = lhs.LastIndexOf(")");
+                
+                key = lhs.Substring(0, leftBraceIndex < 0 ? lhs.Length : leftBraceIndex).Trim();
+                
+                if(leftBraceIndex >= 0 && leftBraceIndex < rightBraceIndex)
+                    originalRef = textLine.Substring(leftBraceIndex + 1, rightBraceIndex - leftBraceIndex - 1);
+
                 errorText = null;
             }
             catch
@@ -131,7 +140,7 @@ namespace NamesInYourLanguage
                 Log.Warning($"{logSignature} + {errorText} is invalid");
             }
 
-            return (key, value);
+            return (key, originalRef, value);
         }
 
         public static bool SplitIntoTriple(this string fullNameText, out NameTripleReduced triple)

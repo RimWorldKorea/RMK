@@ -28,9 +28,10 @@ namespace NamesInYourLanguage
         
         
         // 번역 파일 데이터를 유효성 관계 없이 형식만 맞춰서 저장 (파일의 원래 모습을 기록하기 위해)
-        public static readonly List<(string, string, string)> solidNamesTranslationRequestRaw = new List<(string, string, string)>();
-        public static readonly List<(string, string, string)> solidBioNamesTranslationRequestRaw = new List<(string, string, string)>();
-        public static readonly List<(string, string, string)> shuffledNamesTranslationRequestRaw = new List<(string, string, string)>();
+        // (키, 원문, 번역값, 주석)
+        public static readonly List<(string, string, string, string)> solidNamesTranslationRequestRaw = new List<(string, string, string, string)>();
+        public static readonly List<(string, string, string, string)> solidBioNamesTranslationRequestRaw = new List<(string, string, string, string)>();
+        public static readonly List<(string, string, string, string)> shuffledNamesTranslationRequestRaw = new List<(string, string, string, string)>();
         
         // 번역 요청 데이터 중 번역이 거부된 것을 저장
         public static readonly List<string> solidNamesTranslationRequestRefuesed = new List<string>();
