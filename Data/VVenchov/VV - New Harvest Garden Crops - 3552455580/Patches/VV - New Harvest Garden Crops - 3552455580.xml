@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>##packageId##dankpyon.medieval.overhaul</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VV_MilletGrain"]/label</xpath>
+          <value>
+            <label>기장</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VV_MilletGrain"]/description</xpath>
+          <value>
+            <description>작고 영양가 있는 곡물로, 굽거나 요리하기에 완벽합니다. 기장은 활용도가 높아 죽부터 빵까지 다양한 요리에 사용할 수 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VV_AmaranthGrain"]/label</xpath>
+          <value>
+            <label>아마란스</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VV_AmaranthGrain"]/description</xpath>
+          <value>
+            <description>작지만 영양이 풍부한 씨앗으로 다양한 요리에 사용할 수 있습니다. 아마란스는 글루텐이 없으며 죽, 제빵 또는 곁들임 요리에 잘 어울립니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VV_TeffGrain"]/label</xpath>
+          <value>
+            <label>테프</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VV_TeffGrain"]/description</xpath>
+          <value>
+            <description>작고 영양이 풍부한 씨앗으로 제빵, 죽, 납작빵 등에 사용됩니다. 테프는 많은 아프리카 요리의 주식이며 천연 글루텐 프리 식품입니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VV_QuinoaSeeds"]/label</xpath>
+          <value>
+            <label>퀴노아 씨앗</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VV_QuinoaSeeds"]/description</xpath>
+          <value>
+            <description>작고 단백질이 풍부한 씨앗으로 요리에 다양하게 활용됩니다. 퀴노아 씨앗은 샐러드, 수프, 곁들임 요리에 사용할 수 있으며 천연 글루텐 프리 식품입니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Expanded Framework</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VV_BlackcurrantBush"]/description</xpath>
+          <value>
+            <description>검붉은색 열매가 송이째 열리는 작고 튼튼한 관목입니다. 블랙커런트 덤불은 서늘한 온대 기후에서 잘 자라며, 습하고 배수가 잘되는 토양을 선호합니다.\n\n&lt;color=#E5E54C&gt;게임플레이 효과:&lt;/color&gt; 블랙커런트 덤불은 안개 낀 날씨의 습도로부터 이점을 얻어 성장 속도가 30% 증가합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VV_RosehipBush"]/description</xpath>
+          <value>
+            <description>밝은 붉은색의 톡 쏘는 맛이 나는 열매를 맺는 작고 가시가 많은 관목입니다. 로즈힙 덤불은 온대 기후에서 잘 자라며, 영양가 있고 비타민이 풍부한 열매로 가치가 높습니다.\n\n&lt;color=#E5E54C&gt;게임플레이 효과:&lt;/color&gt; 로즈힙 덤불은 바다에서 오는 습기와 영양이 풍부한 소금기 섞인 물보라의 이점을 얻습니다. 주변 6타일 내에 있는 바다 타일 수에 따라 성장 속도가 최대 30%까지 증가합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VV_DragonFruitPlant"]/description</xpath>
+          <value>
+            <description>달콤하고 톡 쏘는 맛이 나는 크고 화려한 색의 열매를 맺는 열대 식물입니다. 용과 식물은 덥고 햇볕이 잘 드는 기후와 배수가 잘되는 토양에서 잘 자랍니다.\n\n&lt;color=#E5E54C&gt;게임플레이 효과:&lt;/color&gt; 용과 식물은 적도 지역에서 30% 더 빨리 자랍니다. 적도 지역의 크기는 행성의 전체 온도에 따라 결정됩니다: 보통 온도의 경우 15º 미만, 따뜻한 온도의 경우 35º 미만, 더운 온도의 경우 65º 미만, 그리고 매우 더운 온도의 경우 행성 전체가 해당됩니다. 보통 온도 미만의 행성에는 적도가 없는 것으로 간주합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VV_AmaranthPlant"]/description</xpath>
+          <value>
+            <description>작고 먹을 수 있는 씨앗을 생산하는 생생한 잎이 많은 식물입니다. 아마란스는 영양가가 매우 높고 다양한 기후에서 자랄 수 있어 다용도 작물입니다.\n\n&lt;color=#E5E54C&gt;게임플레이 효과:&lt;/color&gt; 아마란스 식물은 가뭄에 매우 잘 적응하여 물에서 10타일 이내에서 재배될 경우 70%의 성장 페널티를 받습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VV_MilletPlant"]/description</xpath>
+          <value>
+            <description>다양한 조건에서 자라는 튼튼하고 가뭄에 강한 식물입니다. 작고 단단한 씨앗은 훌륭한 영양 공급원이며 척박한 토양에서도 잘 자랄 수 있습니다.\n\n&lt;color=#E5E54C&gt;게임플레이 효과:&lt;/color&gt; 기장 식물은 가뭄에 매우 잘 적응하여 물에서 10타일 이내에서 재배될 경우 70%의 성장 페널티를 받습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VV_TeffPlant"]/description</xpath>
+          <value>
+            <description>건조한 환경에서 잘 자라는 작고 가뭄에 강한 식물입니다. 테프는 영양소가 풍부한 아주 작은 씨앗을 생산하여 고대의 슈퍼푸드로 불립니다.\n\n&lt;color=#E5E54C&gt;게임플레이 효과:&lt;/color&gt; 테프 식물은 가뭄에 매우 잘 적응하여 물에서 10타일 이내에서 재배될 경우 70%의 성장 페널티를 받습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VV_QuinoaPlant"]/description</xpath>
+          <value>
+            <description>작고 다채로운 씨앗을 생산하는 키가 크고 잎이 많은 식물입니다. 퀴노아는 영양가가 매우 높으며 서늘하고 고도가 높은 환경에서 잘 자랍니다.\n\n&lt;color=#E5E54C&gt;게임플레이 효과:&lt;/color&gt; 퀴노아 식물은 암석 토양을 눈에 띄게 선호하며, 그런 토양에서 번성합니다. 비옥한 토양은 오히려 해가 되어 성장 속도를 40% 늦춥니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

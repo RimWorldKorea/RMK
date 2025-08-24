@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Expanded Framework</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VV_GinkgoTree"]/description</xpath>
+          <value>
+            <description>부채꼴 모양의 잎을 가진 독특한 낙엽수로, 약효와 회복력으로 유명합니다. 은행잎은 기억력과 혈액 순환을 개선하기 위해 허브차에 흔히 사용됩니다.\n\n&lt;color=#E5E54C&gt;게임플레이 효과:&lt;/color&gt; 은행나무는 피해에 매우, 아주 강한 저항력을 가집니다. 은행나무는 장기간의 빛 부족으로 인한 피해를 덜 받으며, 다른 모든 수단으로 인한 피해를 재생합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VV_MarshmallowPlant"]/description</xpath>
+          <value>
+            <description>연한 꽃과 다육질의 뿌리를 가진 부드러운 줄기의 약초입니다. 전통적으로 상처 치료를 위한 허브 요법에 사용됩니다.\n\n&lt;color=#E5E54C&gt;게임플레이 효과:&lt;/color&gt; 마시멜로 식물은 물에서 6타일 이내에서 자라지 않으면 성장 속도가 25% 느려집니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

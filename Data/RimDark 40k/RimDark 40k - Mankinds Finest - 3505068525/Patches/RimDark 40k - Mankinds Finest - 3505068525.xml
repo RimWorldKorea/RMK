@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>##packageId##scorpio.resourcedictionary</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="BEWH_MakeThunderWarriorMatrixRefined"]/label</xpath>
+          <value>
+            <label>가죽 끈</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="BEWH_MakeFirstbornMatrixRefined"]/label</xpath>
+          <value>
+            <label>...</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="BEWH_MakePrimarisMatrixRefined"]/label</xpath>
+          <value>
+            <label>망토</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="BEWH_MakeCustodesMatrixRefined"]/label</xpath>
+          <value>
+            <label>...</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="BEWH_MakePrimarchMatrixRefined"]/label</xpath>
+          <value>
+            <label>후드</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="BEWH_MakeRubiconSurgeryKitRefined"]/label</xpath>
+          <value>
+            <label>...</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="BEWH_MakeRawGestationalSlurryRefined"]/label</xpath>
+          <value>
+            <label>깃털 장식 1</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
