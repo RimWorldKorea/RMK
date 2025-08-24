@@ -28,11 +28,11 @@ namespace NamesInYourLanguage
                     
                     // 번역 이름의 형식까지 유효하면 번역 코드에서 호출될 목록에 저장. 키의 유효성은 번역시 확인.
                     if (brokenArrow.Item3.SplitIntoTriple(out NameTripleReduced triple))
-                        solidNamesTranslationRequest.Add(brokenArrow.Item1, triple);
+                        solidNames_TranslationRequest.Add(brokenArrow.Item1, triple);
                     else
                         comment += "[Added by System: Translation Name is Invalid]";
                 
-                    solidNamesTranslationRequestRaw.Add((brokenArrow.Item1, brokenArrow.Item2, brokenArrow.Item3, comment));
+                    solidNames_TranslationRequestRaw.Add((brokenArrow.Item1, brokenArrow.Item2, brokenArrow.Item3, comment));
                 }
             }
             
@@ -48,11 +48,11 @@ namespace NamesInYourLanguage
                     
                     // 번역 이름의 형식까지 유효하면 번역 코드에서 호출될 목록에 저장. 키의 유효성은 번역시 확인.
                     if (brokenArrow.Item3.SplitIntoTriple(out NameTripleReduced triple))
-                        solidBioNamesTranslationRequest.Add(brokenArrow.Item1, triple);
+                        solidBioNames_TranslationRequest.Add(brokenArrow.Item1, triple);
                     else
                         comment += "[Added by System: Translation Name is Invalid]";
                 
-                    solidBioNamesTranslationRequestRaw.Add((brokenArrow.Item1, brokenArrow.Item2, brokenArrow.Item3, comment));
+                    solidBioNames_TranslationRequestRaw.Add((brokenArrow.Item1, brokenArrow.Item2, brokenArrow.Item3, comment));
                 }
             }
             
@@ -67,11 +67,11 @@ namespace NamesInYourLanguage
                     string comment = paredLine.Item2;
                     
                     if (!brokenArrow.Item3.NullOrEmpty())
-                        shuffledNamesTranslationRequest.Add(brokenArrow.Item1, brokenArrow.Item3);
+                        shuffledNames_TranslationRequest.Add(brokenArrow.Item1, brokenArrow.Item3);
                     else
                         comment += "[Added by System: Translation Name is Invalid]";
                     
-                    shuffledNamesTranslationRequestRaw.Add((brokenArrow.Item1, brokenArrow.Item2, brokenArrow.Item3, comment));
+                    shuffledNames_TranslationRequestRaw.Add((brokenArrow.Item1, brokenArrow.Item2, brokenArrow.Item3, comment));
                 }
             }
         }
@@ -97,6 +97,8 @@ namespace NamesInYourLanguage
                     beforeSlash = textLine.Substring(0, slashIndex).Trim();
                     if (slashIndex + 2 < textLine.Length)
                         afterSlash = textLine.Substring(slashIndex + 1);
+                    if (afterSlash.StartsWith("*")) // 별겹슬래시(//*) 주석은 저장하지 않음
+                        afterSlash = String.Empty;
                 }
 
                 result.Add((beforeSlash, afterSlash));

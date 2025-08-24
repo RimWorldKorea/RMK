@@ -52,9 +52,14 @@ namespace NamesInYourLanguage
             
             listing.Gap();
 
-            // 이름 추출 버튼
+            // 이름 추출 버튼 (불러온 번역 파일 정보를 보존)
             if (listing.ButtonText("NIYL.Export.ButtonLabel".Translate(), null, (float)0.28))
-                ExportNames.Execute();
+                ExportNames.CleanExecute();
+            listing.Gap();
+
+            // 이름 클린 추출 버튼 (불러온 파일과 관계없이 현재 게임에 적용된 데이터만으로 추출)
+            if (listing.ButtonText("NIYL.Export.ButtonLabel".Translate(), null, (float)0.28))
+                ExportNames.CleanExecute();
             
             listing.End();
         }
