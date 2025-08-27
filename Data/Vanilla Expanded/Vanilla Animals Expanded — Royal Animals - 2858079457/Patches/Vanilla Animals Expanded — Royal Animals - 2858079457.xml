@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Odyssey</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Swan"]/description</xpath>
+          <value>
+            <description>날 수 있는 가장 큰 새들 중 하나인 백조는 자신을 위해 만든 아름다운 꽃 둥지 때문에 종종 왕족에 의해 길러지곤 합니다. 이 둥지들은 매우 높은 미관을 가지고 있지만, 2개 이상은 결코 짓지 않을 것입니다.\n\n&lt;color=#E5E54C&gt;인게임 효과:&lt;/color&gt; 백조들은 극도로 높은 미관을 지닌 자신의 잠자리를 만듭니다. 이 둥지들은 생성 시 수면 장소로 자동 할당됩니다</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Peacock"]/description</xpath>
+          <value>
+            <description>아름답고 장엄한 왕실의 새들은 그들이 애교를 부리는 사람들에게 정신적인 에너지를 줄 수 있도록 유전적으로 변형되었습니다.\n\n&lt;color=#E5E54C&gt;인게임 효과:&lt;/color&gt; 공작은 주기적으로 정착민들에게 애교를 부립니다. 이것은 12시간 동안 애교를 받은 정착민의 정신 감응력을 25% 증가시킵니다. 최대 8배까지 중첩되어 8마리의 공작이 애교를 부리면 +200%의 정신 감응력을 얻을 수 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Quail"]/description</xpath>
+          <value>
+            <description>인간의 소비를 위해 사육된 왕실 가금류인 메추라기는 매우 육즙이 풍부한 맛으로 어떤 식사든 호화로운 식사로 바꿀 수 있습니다.\n\n&lt;color=#E5E54C&gt;인게임 효과:&lt;/color&gt; 엄청나게 맛있는 맛은 간단하거나 좋은 식사를 즉시 호화로운 식사로 바꿉니다. 또한 Vanilla Cooking Expanded의 직화구이와 빵을 호화로운 음식으로 만들 것입니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
