@@ -80,6 +80,7 @@ namespace NamesInYourLanguage
         public static List<(string, string)> PareText(this List<string> entireText)
         {
             List<(string, string)> result = new List<(string, string)>();
+            int logSuppressor = 0;
             foreach (string textLine in entireText)
             {
                 if (textLine.Trim().NullOrEmpty()) continue;
@@ -88,6 +89,8 @@ namespace NamesInYourLanguage
                 string afterSlash = string.Empty;
                 
                 int slashIndex = textLine.IndexOf("//");
+                
+                if (logSuppressor < 50) Log.Message($"{textLine}");
 
                 // Substring의 유효성을 보장하기 위해 '//' 이후에 빈 칸을 포함한 뭔가가 있는 경우만 진행
                 if (slashIndex < 0)
@@ -96,12 +99,13 @@ namespace NamesInYourLanguage
                 {
                     beforeSlash = textLine.Substring(0, slashIndex).Trim();
                     if (slashIndex + 2 < textLine.Length)
-                        afterSlash = textLine.Substring(slashIndex + 1);
+                        afterSlash = textLine.Substring(slashIndex + 1); Log.Message($"주석 {afterSlash} 가 분리됨");
                     if (afterSlash.StartsWith("*")) // 별겹슬래시(//*) 주석은 저장하지 않음
                         afterSlash = String.Empty;
                 }
 
                 result.Add((beforeSlash, afterSlash));
+                logSuppressor++;
             }
 
             return result;

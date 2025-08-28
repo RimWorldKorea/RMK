@@ -5,6 +5,7 @@ using System;
 using Verse;
 
 using static NamesInYourLanguage.Constants;
+using static NamesInYourLanguage.NameTranslator;
 
 namespace NamesInYourLanguage
 {
@@ -12,13 +13,119 @@ namespace NamesInYourLanguage
     {
         public static void Execute()
         {
+            List<string> solidNamesExport_Translated = new List<string>();
+            List<string> solidNamesExport_NickNotTranslated = new List<string>();
+            List<string> solidNamesExport_NotFullyTranslated = new List<string>();
+            
+            // TranslationRequestRaw를 복사 (오리지널 데이터가 게임 중 변경될 수 있으므로 이 때 동작이 달라지는걸 고려)
+            List<(string, string, string, string)> solidNamesExport_precursorList = new List<(string, string, string, string)>();
+            foreach (var entry in solidBioNames_TranslationRequestRaw) 
+                solidNamesExport_precursorList.Add((entry.Item1, entry.Item2, entry.Item3, entry.Item4));
+            
+            // solidNamesExport_precursorList(아직 TranslationRequestRaw와 완전히 같은)를 첫번째 요소(키)를 기준으로 인덱스를 저장
+            Dictionary<string, int> solidNames_TranslationRequestRawIndex = new Dictionary<string, int>();
+            for (int i = 0; i < solidNamesExport_precursorList.Count; i++)
+                solidNames_TranslationRequestRawIndex.Add(solidNamesExport_precursorList[i].Item1, i);
+
+
+
+            List<(string, string, string, string)> notOnSolidNamesTXT = new List<(string, string, string, string)>();
+            foreach (var entry in solidNames_Original)
+            {
+                string key = entry.Key;
+                string currentName = $"{solidNames[key].First} '{solidNames[key].Nick}' {solidNames[key].Last}";
+                
+                // 오리지널 데이터 중 SolidNames.txt에 있는 것을 찾아서 전구체 리스트에 추가
+                if (solidNames_TranslationRequestRawIndex.ContainsKey(entry.Key))
+                {
+                    int targetIndex = solidNames_TranslationRequestRawIndex[key];
+                    
+                    (string, string, string, string) entryInjection = (
+                        key,
+                        solidNames_Original[key].ToStringFullPossibly(),
+                        currentName,
+                        solidNamesExport_precursorList[targetIndex].Item4); // comment
+                    
+                    solidNamesExport_precursorList[targetIndex] = entryInjection;;
+                }
+                else // 없으면 따로 모아둠
+                {
+                    notOnSolidNamesTXT.Add((key, entry.Value.ToStringFullPossibly(), currentName, String.Empty));
+                }
+            }
+            
+            // 이제 이게 실제 출력할 파일의 데이터
+            solidNamesExport_precursorList.AddRange(notOnSolidNamesTXT);
+            
+            foreach (var entry in solidNamesExport_precursorList)
+            {
+                // text와 comment 동시에 비어있는 경우는 Import 단계에서 다 걸러졌을 것
+                string text = entry.Item1.NullOrEmpty() ? String.Empty : $"{entry.Item1}({entry.Item2})->{entry.Item3}";
+                string comment = entry.Item4.NullOrEmpty() ? String.Empty : "// " + entry.Item4;
+                string result = text.NullOrEmpty() ? comment : text + " " + comment;
+
+                entry.Item2.SplitIntoTriple(out NameTripleReduced originalName);
+                entry.Item3.SplitIntoTriple(out NameTripleReduced activeName);
+                
+                if (originalName.First == activeName.First || originalName.Last == activeName.Last)
+                    solidNamesExport_NotFullyTranslated.Add(result);
+                else if (originalName.Nick == activeName.Nick)
+                    solidNamesExport_NickNotTranslated.Add(result);
+                else
+                    solidNamesExport_Translated.Add(result);
+            }
+            
+            // 내보낼 텍스트 상단에 위치할 공통 안내문을 준비합니다
+            List<string> intro = "NIYL.Export.Introduction".Translate().ToString().Split('\n').ToList();
+            for (int i = 0; i < intro.Count; i++)
+            {
+                intro[i] = "//* " + intro[i];
+            }
+            
+            // 내보낼 텍스트에 있어야할 데이터 및 기타 요소를 등록합니다.
+            List<string> SolidNames_txt = new List<string>(intro);
+
+            SolidNames_txt.Add("\n//* 1. [Fully Translated]");
+            if (solidNamesExport_Translated.Count == 0) SolidNames_txt.Add("// - No Items -");
+            else SolidNames_txt.AddRange(solidNamesExport_Translated);
+
+            SolidNames_txt.Add("\n//* 2. [Nick name is same with original name]");
+            if (solidNamesExport_NickNotTranslated.Count == 0) SolidNames_txt.Add("// - No Items -");
+            else SolidNames_txt.AddRange(solidNamesExport_NickNotTranslated);
+
+            SolidNames_txt.Add("\n//* 3. [First name or Last name is same with original name]");
+            if (solidNamesExport_NotFullyTranslated.Count == 0) SolidNames_txt.Add("// - No Items -");
+            else SolidNames_txt.AddRange(solidNamesExport_NotFullyTranslated);
+            
+            ////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+            // 정리된 이름 데이터를 바탕화면에 내보냅니다.
+            string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+            try
+            {
+                File.WriteAllLines(Path.Combine(desktopPath, fileName_SolidNames + ".txt"), SolidNames_txt);
+                //File.WriteAllLines(Path.Combine(desktopPath, fileName_SolidBioNames + ".txt"), SolidBioNames_txt);
+                //File.WriteAllLines(Path.Combine(desktopPath, fileName_ShuffledNames + ".txt"), shuffledNames_txt);
+
+                MessageTypeDef NIYL_ExportComplete = new MessageTypeDef();
+                Messages.Message("NIYL.Export.Success".Translate(desktopPath), NIYL_ExportComplete, false);
+            }
+            catch
+            {
+                Log.Error(logSignature + "NIYL.Export.Failed".Translate());
+            }
+            
+        }
+        
+        public static void CleanExecute()
+        {
             // 내보낼 solidName 데이터를 준비합니다
             List<string> solidNamesExport_Translated = new List<string>();
             List<string> solidNamesExport_NickNotTranslated = new List<string>();
             List<string> solidNamesExport_NotFullyTranslated = new List<string>();
             foreach (var nameEntry in NameTranslator.solidNames_Original)
             {
-                NameTriple activeTriple = NameTranslator.solidNames[nameEntry.Key];
+                NameTriple activeTriple = solidNames[nameEntry.Key];
 
                 string originalName = $"{nameEntry.Value.First} '{nameEntry.Value.Nick}' {nameEntry.Value.Last}";
                 string activeName =
@@ -38,9 +145,9 @@ namespace NamesInYourLanguage
             List<string> solidBioNamesExport_Translated = new List<string>();
             List<string> solidBioNamesExport_NickNotTranslated = new List<string>();
             List<string> solidBioNamesExport_NotFullyTranslated = new List<string>();
-            foreach (var nameEntry in NameTranslator.solidBioNames_Original)
+            foreach (var nameEntry in solidBioNames_Original)
             {
-                NameTriple activeTriple = NameTranslator.solidBioNames[nameEntry.Key];
+                NameTriple activeTriple = solidBioNames[nameEntry.Key];
 
                 string originalName = $"{nameEntry.Value.First} '{nameEntry.Value.Nick}' {nameEntry.Value.Last}";
                 string activeName = $"{activeTriple.First} '{activeTriple.Nick}' {activeTriple.Last}";
@@ -58,16 +165,16 @@ namespace NamesInYourLanguage
             // 내보낼 shuffledName 데이터를 준비합니다
             List<string> shuffledNamesExport_Translated = new List<string>();
             List<string> shuffledNamesExport_NotFullyTranslated = new List<string>();
-            foreach (var nameEntry in NameTranslator.shuffledNames_Original)
+            foreach (var nameEntry in shuffledNames_Original)
             {
                 string originalName = nameEntry.Value;
 
                 // 해당 이름이 속한 리스트를 찾습니다
                 string keyForList = nameEntry.Key.Substring(0, nameEntry.Key.LastIndexOf('.'));
-                List<string> activeList = NameTranslator.shuffledNameLists[keyForList];
+                List<string> activeList = shuffledNameLists[keyForList];
 
                 // 원문 정보로부터 인덱스를 얻어 키와 연관된 현재 적용된 이름을 찾습니다
-                string activeName = activeList[NameTranslator.shuffledNames_OriginalIndex[nameEntry.Key]];
+                string activeName = activeList[shuffledNames_OriginalIndex[nameEntry.Key]];
 
                 if (originalName == activeName)
                     shuffledNamesExport_NotFullyTranslated.Add($"{nameEntry.Key}({originalName})->{activeName}");
