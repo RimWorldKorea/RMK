@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="SimpleResearchBench"]/comps/li[2]/fuelLabel</xpath>
+    <value>
+      <fuelLabel>연구자료</fuelLabel>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="HiTechResearchBench"]/comps/li[5]/fuelLabel</xpath>
+    <value>
+      <fuelLabel>첨단 연구자료</fuelLabel>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="MultiAnalyzer"]/comps/li[4]/fuelLabel</xpath>
+    <value>
+      <fuelLabel>암호화 연구자료</fuelLabel>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="SimpleResearchBench"]/comps/li[2]/fuelGizmoLabel</xpath>
+    <value>
+      <fuelGizmoLabel>연구자료</fuelGizmoLabel>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="HiTechResearchBench"]/comps/li[5]/fuelGizmoLabel</xpath>
+    <value>
+      <fuelGizmoLabel>첨단 연구자료</fuelGizmoLabel>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="MultiAnalyzer"]/comps/li[4]/fuelGizmoLabel</xpath>
+    <value>
+      <fuelGizmoLabel>암호화 연구자료</fuelGizmoLabel>
+    </value>
+  </Operation>
+</Patch>
