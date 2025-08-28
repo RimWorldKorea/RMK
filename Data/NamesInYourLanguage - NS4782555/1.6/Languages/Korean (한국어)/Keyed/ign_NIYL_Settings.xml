@@ -17,10 +17,14 @@
   <NIYL.Import.DuplicatedKey>번역 파일에서 키 {0}(이)가 중복으로 사용되었습니다.</NIYL.Import.DuplicatedKey>
   <NIYL.Import.InvalidName>번역 파일에 적힌 이름 {0}(은)는 유효하지 않습니다.</NIYL.Import.InvalidName>
 
-  <NIYL.Export.ButtonLabel>하드코딩된 이름 추출하기 (번역자용)</NIYL.Export.ButtonLabel>
+  <NIYL.Export.ExportButtonLabel>하드코딩된 이름 추출 (번역자용)</NIYL.Export.ExportButtonLabel>
+  <NIYL.Export.CleanExportButtonLabel>하드코딩된 이름 클린 추출 (번역자용)</NIYL.Export.CleanExportButtonLabel>
   <NIYL.Export.Success>번역을 위한 데이터 파일이 {0}에 저장되었습니다.</NIYL.Export.Success>
   <NIYL.Export.Failed>번역을 위한 데이터 파일을 내보내는데 실패했습니다.</NIYL.Export.Failed>
-  <NIYL.Export.Introduction>각 줄에서 겹슬래시 이후의 텍스트는 모두 주석으로 취급됩니다.
+  <NIYL.Export.Introduction>각 줄에서 겹슬래시 "//" 및 별슬래시 "/*"에 이어지는 텍스트는 모두 주석으로 취급됩니다.
+번역 파일에 별슬래시를 사용하여 주석을 작성하면 추출 파일에도 가능한 보존됩니다.
+"//*"와 같이 사용하면 겹슬래시로 취급됩니다.
+
 이름 추출시 아래와 같은 형태로 기록됩니다.
 
 키(원본 이름)->활성 이름

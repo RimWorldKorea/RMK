@@ -25,8 +25,6 @@ namespace NamesInYourLanguage
                 {
                     (string, string, string) brokenArrow = paredLine.Item1.BreakArrow(out _);
                     string comment = paredLine.Item2;
-                    if (comment.NullOrEmpty())
-                        Log.Message($"[RMK.NamesInYourLanguage] 주석 분리됨: |{comment}|");
                     
                     // 번역 이름의 형식까지 유효하면 번역 코드에서 호출될 목록에 저장. 키의 유효성은 번역시 확인.
                     if (brokenArrow.Item3.SplitIntoTriple(out NameTripleReduced triple))

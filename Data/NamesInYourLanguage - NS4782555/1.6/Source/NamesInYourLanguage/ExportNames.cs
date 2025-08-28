@@ -13,22 +13,21 @@ namespace NamesInYourLanguage
     {
         public static void Execute()
         {
+            ////////////////////////////////////////////////////////////////////////////////////////////////////////////
             List<string> solidNamesExport_Translated = new List<string>();
             List<string> solidNamesExport_NickNotTranslated = new List<string>();
             List<string> solidNamesExport_NotFullyTranslated = new List<string>();
             
             // TranslationRequestRaw를 복사 (오리지널 데이터가 게임 중 변경될 수 있으므로 이 때 동작이 달라지는걸 고려)
             List<(string, string, string, string)> solidNamesExport_precursorList = new List<(string, string, string, string)>();
-            foreach (var entry in solidBioNames_TranslationRequestRaw) 
+            foreach (var entry in solidNames_TranslationRequestRaw)
                 solidNamesExport_precursorList.Add((entry.Item1, entry.Item2, entry.Item3, entry.Item4));
             
             // solidNamesExport_precursorList(아직 TranslationRequestRaw와 완전히 같은)를 첫번째 요소(키)를 기준으로 인덱스를 저장
             Dictionary<string, int> solidNames_TranslationRequestRawIndex = new Dictionary<string, int>();
             for (int i = 0; i < solidNamesExport_precursorList.Count; i++)
                 solidNames_TranslationRequestRawIndex.Add(solidNamesExport_precursorList[i].Item1, i);
-
-
-
+            
             List<(string, string, string, string)> notOnSolidNamesTXT = new List<(string, string, string, string)>();
             foreach (var entry in solidNames_Original)
             {
@@ -36,7 +35,7 @@ namespace NamesInYourLanguage
                 string currentName = $"{solidNames[key].First} '{solidNames[key].Nick}' {solidNames[key].Last}";
                 
                 // 오리지널 데이터 중 SolidNames.txt에 있는 것을 찾아서 전구체 리스트에 추가
-                if (solidNames_TranslationRequestRawIndex.ContainsKey(entry.Key))
+                if (solidNames_TranslationRequestRawIndex.ContainsKey(key))
                 {
                     int targetIndex = solidNames_TranslationRequestRawIndex[key];
                     
@@ -54,6 +53,91 @@ namespace NamesInYourLanguage
                 }
             }
             
+            ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            List<string> solidBioNamesExport_Translated = new List<string>();
+            List<string> solidBioNamesExport_NickNotTranslated = new List<string>();
+            List<string> solidBioNamesExport_NotFullyTranslated = new List<string>();
+            
+            // TranslationRequestRaw를 복사 (오리지널 데이터가 게임 중 변경될 수 있으므로 이 때 동작이 달라지는걸 고려)
+            List<(string, string, string, string)> solidBioNamesExport_precursorList = new List<(string, string, string, string)>();
+            foreach (var entry in solidBioNames_TranslationRequestRaw)
+                solidBioNamesExport_precursorList.Add((entry.Item1, entry.Item2, entry.Item3, entry.Item4));
+            
+            // solidBioNamesExport_precursorList(아직 TranslationRequestRaw와 완전히 같은)를 첫번째 요소(키)를 기준으로 인덱스를 저장
+            Dictionary<string, int> solidBioNames_TranslationRequestRawIndex = new Dictionary<string, int>();
+            for (int i = 0; i < solidBioNamesExport_precursorList.Count; i++)
+                solidBioNames_TranslationRequestRawIndex.Add(solidBioNamesExport_precursorList[i].Item1, i);
+            
+            List<(string, string, string, string)> notOnSolidBioNamesTXT = new List<(string, string, string, string)>();
+            foreach (var entry in solidBioNames_Original)
+            {
+                string key = entry.Key;
+                string currentName = $"{solidBioNames[key].First} '{solidBioNames[key].Nick}' {solidBioNames[key].Last}";
+                
+                // 오리지널 데이터 중 SolidBioNames.txt에 있는 것을 찾아서 전구체 리스트에 추가
+                if (solidBioNames_TranslationRequestRawIndex.ContainsKey(key))
+                {
+                    int targetIndex = solidBioNames_TranslationRequestRawIndex[key];
+                    
+                    (string, string, string, string) entryInjection = (
+                        key,
+                        solidBioNames_Original[key].ToStringFullPossibly(),
+                        currentName,
+                        solidBioNamesExport_precursorList[targetIndex].Item4); // comment
+                    
+                    solidBioNamesExport_precursorList[targetIndex] = entryInjection;;
+                }
+                else // 없으면 따로 모아둠
+                {
+                    notOnSolidBioNamesTXT.Add((key, entry.Value.ToStringFullPossibly(), currentName, String.Empty));
+                }
+            }
+            
+            ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            List<string> shuffledNamesExport_Translated = new List<string>();
+            List<string> shuffledNamesExport_NotFullyTranslated = new List<string>();
+            
+            // TranslationRequestRaw를 복사 (오리지널 데이터가 게임 중 변경될 수 있으므로 이 때 동작이 달라지는걸 고려)
+            List<(string, string, string, string)> shuffledNamesExport_precursorList = new List<(string, string, string, string)>();
+            foreach (var entry in shuffledNames_TranslationRequestRaw)
+                shuffledNamesExport_precursorList.Add((entry.Item1, entry.Item2, entry.Item3, entry.Item4));
+            
+            // shuffledNamesExport_precursorList(아직 TranslationRequestRaw와 완전히 같은)를 첫번째 요소(키)를 기준으로 인덱스를 저장
+            Dictionary<string, int> shuffledNames_TranslationRequestRawIndex = new Dictionary<string, int>();
+            for (int i = 0; i < shuffledNamesExport_precursorList.Count; i++)
+                shuffledNames_TranslationRequestRawIndex.Add(shuffledNamesExport_precursorList[i].Item1, i);
+            
+            List<(string, string, string, string)> notOnShuffledNamesTXT = new List<(string, string, string, string)>();
+            foreach (var entry in shuffledNames_Original)
+            {
+                string key = entry.Key;
+                string listKey = key.Substring(0, key.LastIndexOf('.'));
+                List<string> currentList = shuffledNameLists[listKey];
+                string currentName = currentList[shuffledNames_OriginalIndex[key]];
+                
+                // 오리지널 데이터 중 ShuffledNames.txt에 있는 것을 찾아서 전구체 리스트에 추가
+                if (shuffledNames_TranslationRequestRawIndex.ContainsKey(entry.Key))
+                {
+                    int targetIndex = shuffledNames_TranslationRequestRawIndex[key];
+                    
+                    (string, string, string, string) entryInjection = (
+                        key,
+                        entry.Value,
+                        currentName,
+                        shuffledNamesExport_precursorList[targetIndex].Item4); // comment
+                    
+                    shuffledNamesExport_precursorList[targetIndex] = entryInjection;;
+                }
+                else // 없으면 따로 모아둠
+                {
+                    notOnShuffledNamesTXT.Add((key, entry.Value, currentName, String.Empty));
+                }
+            }   
+            
+            ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+     
             // 이제 이게 실제 출력할 파일의 데이터
             solidNamesExport_precursorList.AddRange(notOnSolidNamesTXT);
             
@@ -61,9 +145,8 @@ namespace NamesInYourLanguage
             {
                 // text와 comment 동시에 비어있는 경우는 Import 단계에서 다 걸러졌을 것
                 string text = entry.Item1.NullOrEmpty() ? String.Empty : $"{entry.Item1}({entry.Item2})->{entry.Item3}";
-                string comment = entry.Item4.NullOrEmpty() ? String.Empty : "/* " + entry.Item4;
-                if (comment.NullOrEmpty())
-                    Log.Message($"[RMK.NamesInYourLanguage] 출력 주석: |{comment}|");
+                string comment = entry.Item4.NullOrEmpty() ? String.Empty : "/*" + entry.Item4;
+                
                 string result = text.NullOrEmpty() ? comment : text + " " + comment;
 
                 entry.Item2.SplitIntoTriple(out NameTripleReduced originalName);
@@ -76,6 +159,54 @@ namespace NamesInYourLanguage
                 else
                     solidNamesExport_Translated.Add(result);
             }
+            
+            ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+            solidBioNamesExport_precursorList.AddRange(notOnSolidBioNamesTXT);
+            
+            foreach (var entry in solidBioNamesExport_precursorList)
+            {
+                // text와 comment 동시에 비어있는 경우는 Import 단계에서 다 걸러졌을 것
+                string text = entry.Item1.NullOrEmpty() ? String.Empty : $"{entry.Item1}({entry.Item2})->{entry.Item3}";
+                string comment = entry.Item4.NullOrEmpty() ? String.Empty : "/*" + entry.Item4;
+                
+                string result = text.NullOrEmpty() ? comment : text + " " + comment;
+
+                entry.Item2.SplitIntoTriple(out NameTripleReduced originalName);
+                entry.Item3.SplitIntoTriple(out NameTripleReduced activeName);
+                
+                if (originalName.First == activeName.First || originalName.Last == activeName.Last)
+                    solidBioNamesExport_NotFullyTranslated.Add(result);
+                else if (originalName.Nick == activeName.Nick)
+                    solidBioNamesExport_NickNotTranslated.Add(result);
+                else
+                    solidBioNamesExport_Translated.Add(result);
+            }
+            
+            ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            
+            shuffledNamesExport_precursorList.AddRange(notOnShuffledNamesTXT);
+            
+            foreach (var entry in shuffledNamesExport_precursorList)
+            {
+                // text와 comment 동시에 비어있는 경우는 Import 단계에서 다 걸러졌을 것
+                string text = entry.Item1.NullOrEmpty() ? String.Empty : $"{entry.Item1}({entry.Item2})->{entry.Item3}";
+                string comment = entry.Item4.NullOrEmpty() ? String.Empty : "/*" + entry.Item4;
+
+                string result = text.NullOrEmpty() ? comment : text + " " + comment;
+                
+                string originalName = entry.Item2;
+                string activeName = entry.Item3;
+                
+                if (originalName == activeName)
+                    shuffledNamesExport_NotFullyTranslated.Add(result);
+                else
+                    shuffledNamesExport_Translated.Add(result);
+            }
+            
+            ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            ////////////////////////////////////////////////////////////////////////////////////////////////////////////
             
             // 내보낼 텍스트 상단에 위치할 공통 안내문을 준비합니다
             List<string> intro = "NIYL.Export.Introduction".Translate().ToString().Split('\n').ToList();
@@ -99,15 +230,43 @@ namespace NamesInYourLanguage
             if (solidNamesExport_NotFullyTranslated.Count == 0) SolidNames_txt.Add("// - No Items -");
             else SolidNames_txt.AddRange(solidNamesExport_NotFullyTranslated);
             
-            ////////////////////////////////////////////////////////////////////////////////////////////////////////
+            // 내보낼 텍스트에 있어야할 데이터 및 기타 요소를 등록합니다.
+            List<string> SolidBioNames_txt = new List<string>(intro);
+
+            SolidBioNames_txt.Add("\n// 1. [Fully Translated]");
+            if (solidBioNamesExport_Translated.Count == 0) SolidBioNames_txt.Add("// - No Items -");
+            else SolidBioNames_txt.AddRange(solidBioNamesExport_Translated);
+
+            SolidBioNames_txt.Add("\n// 2. [Nick name is same with original name]");
+            if (solidBioNamesExport_NickNotTranslated.Count == 0) SolidBioNames_txt.Add("// - No Items -");
+            else SolidBioNames_txt.AddRange(solidBioNamesExport_NickNotTranslated);
+
+            SolidBioNames_txt.Add("\n// 3. [First name or Last name is same with original name]");
+            if (solidBioNamesExport_NotFullyTranslated.Count == 0) SolidBioNames_txt.Add("// - No Items -");
+            else SolidBioNames_txt.AddRange(solidBioNamesExport_NotFullyTranslated);
+
+            // 내보낼 텍스트에 있어야할 데이터 및 기타 요소를 등록합니다.
+            List<string> shuffledNames_txt = new List<string>(intro);
+
+            shuffledNames_txt.Add("\n// 1. [Translated]");
+            if (shuffledNamesExport_Translated.Count == 0) shuffledNames_txt.Add("// - No Items -");
+            else shuffledNames_txt.AddRange(shuffledNamesExport_Translated);
+
+            shuffledNames_txt.Add("\n// 2. [May not be translated]");
+            if (shuffledNamesExport_NotFullyTranslated.Count == 0) shuffledNames_txt.Add("// - No Items -");
+            else shuffledNames_txt.AddRange(shuffledNamesExport_NotFullyTranslated);
+            
+            ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
             // 정리된 이름 데이터를 바탕화면에 내보냅니다.
             string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
             try
             {
                 File.WriteAllLines(Path.Combine(desktopPath, fileName_SolidNames + ".txt"), SolidNames_txt);
-                //File.WriteAllLines(Path.Combine(desktopPath, fileName_SolidBioNames + ".txt"), SolidBioNames_txt);
-                //File.WriteAllLines(Path.Combine(desktopPath, fileName_ShuffledNames + ".txt"), shuffledNames_txt);
+                File.WriteAllLines(Path.Combine(desktopPath, fileName_SolidBioNames + ".txt"), SolidBioNames_txt);
+                File.WriteAllLines(Path.Combine(desktopPath, fileName_ShuffledNames + ".txt"), shuffledNames_txt);
 
                 MessageTypeDef NIYL_ExportComplete = new MessageTypeDef();
                 Messages.Message("NIYL.Export.Success".Translate(desktopPath), NIYL_ExportComplete, false);

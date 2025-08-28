@@ -36,6 +36,7 @@ namespace NamesInYourLanguage
         public static readonly Dictionary<string, NameTripleReduced> solidNames_Original = new Dictionary<string, NameTripleReduced>();
         public static readonly Dictionary<string, NameTripleReduced> solidBioNames_Original = new Dictionary<string, NameTripleReduced>();
         public static readonly Dictionary<string, string> shuffledNames_Original = new Dictionary<string, string>();
+        
         public static readonly Dictionary<string, int> shuffledNames_OriginalIndex = new Dictionary<string, int>(); // 현 시점 key에 해당하는 인덱스 번호를 보장함
         
         // 현재 이름이 참조로 저장
