@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using Verse;
 
-using static NamesInYourLanguage.NameTranslator;
+using static NamesInYourLanguage.NameTranslatorProperty;
 using static NamesInYourLanguage.Constants;
 
 namespace NamesInYourLanguage
@@ -25,6 +25,8 @@ namespace NamesInYourLanguage
                 {
                     (string, string, string) brokenArrow = paredLine.Item1.BreakArrow(out _);
                     string comment = paredLine.Item2;
+                    if (comment.NullOrEmpty())
+                        Log.Message($"[RMK.NamesInYourLanguage] 주석 분리됨: |{comment}|");
                     
                     // 번역 이름의 형식까지 유효하면 번역 코드에서 호출될 목록에 저장. 키의 유효성은 번역시 확인.
                     if (brokenArrow.Item3.SplitIntoTriple(out NameTripleReduced triple))
@@ -76,11 +78,13 @@ namespace NamesInYourLanguage
             }
         }
 
-        // 텍스트 전체에서 빈 줄을 날리고 주석을 분리합니다.
+        /** 텍스트 전체에서 빈 줄을 날리고 주석을 보존합니다.
+         *  '//'의 우측부는 Translator.TryGetTranslatedStringsForFile의 호출 과정에서 LoadFromFile_Strings에 의해 제거됩니다.
+         *  NIYL에선 '/*'의 우측부를 보존합니다. '//*는' 보존되지 않습니다. 
+         */
         public static List<(string, string)> PareText(this List<string> entireText)
         {
             List<(string, string)> result = new List<(string, string)>();
-            int logSuppressor = 0;
             foreach (string textLine in entireText)
             {
                 if (textLine.Trim().NullOrEmpty()) continue;
@@ -88,24 +92,19 @@ namespace NamesInYourLanguage
                 string beforeSlash = string.Empty;
                 string afterSlash = string.Empty;
                 
-                int slashIndex = textLine.IndexOf("//");
+                int slashIndex = textLine.IndexOf("/*");
                 
-                if (logSuppressor < 50) Log.Message($"{textLine}");
-
-                // Substring의 유효성을 보장하기 위해 '//' 이후에 빈 칸을 포함한 뭔가가 있는 경우만 진행
+                // Substring의 유효성을 보장하기 위해 '/*' 이후에 빈 칸을 포함한 뭔가가 있는 경우만 진행
                 if (slashIndex < 0)
                     beforeSlash = textLine;
                 else
                 {
                     beforeSlash = textLine.Substring(0, slashIndex).Trim();
                     if (slashIndex + 2 < textLine.Length)
-                        afterSlash = textLine.Substring(slashIndex + 1); Log.Message($"주석 {afterSlash} 가 분리됨");
-                    if (afterSlash.StartsWith("*")) // 별겹슬래시(//*) 주석은 저장하지 않음
-                        afterSlash = String.Empty;
+                        afterSlash = textLine.Substring(slashIndex + 2);
                 }
 
                 result.Add((beforeSlash, afterSlash));
-                logSuppressor++;
             }
 
             return result;

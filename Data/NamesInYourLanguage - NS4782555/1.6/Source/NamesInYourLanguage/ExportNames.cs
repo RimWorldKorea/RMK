@@ -5,7 +5,7 @@ using System;
 using Verse;
 
 using static NamesInYourLanguage.Constants;
-using static NamesInYourLanguage.NameTranslator;
+using static NamesInYourLanguage.NameTranslatorProperty;
 
 namespace NamesInYourLanguage
 {
@@ -61,7 +61,9 @@ namespace NamesInYourLanguage
             {
                 // text와 comment 동시에 비어있는 경우는 Import 단계에서 다 걸러졌을 것
                 string text = entry.Item1.NullOrEmpty() ? String.Empty : $"{entry.Item1}({entry.Item2})->{entry.Item3}";
-                string comment = entry.Item4.NullOrEmpty() ? String.Empty : "// " + entry.Item4;
+                string comment = entry.Item4.NullOrEmpty() ? String.Empty : "/* " + entry.Item4;
+                if (comment.NullOrEmpty())
+                    Log.Message($"[RMK.NamesInYourLanguage] 출력 주석: |{comment}|");
                 string result = text.NullOrEmpty() ? comment : text + " " + comment;
 
                 entry.Item2.SplitIntoTriple(out NameTripleReduced originalName);
@@ -79,21 +81,21 @@ namespace NamesInYourLanguage
             List<string> intro = "NIYL.Export.Introduction".Translate().ToString().Split('\n').ToList();
             for (int i = 0; i < intro.Count; i++)
             {
-                intro[i] = "//* " + intro[i];
+                intro[i] = "// " + intro[i];
             }
             
             // 내보낼 텍스트에 있어야할 데이터 및 기타 요소를 등록합니다.
             List<string> SolidNames_txt = new List<string>(intro);
 
-            SolidNames_txt.Add("\n//* 1. [Fully Translated]");
+            SolidNames_txt.Add("\n// 1. [Fully Translated]");
             if (solidNamesExport_Translated.Count == 0) SolidNames_txt.Add("// - No Items -");
             else SolidNames_txt.AddRange(solidNamesExport_Translated);
 
-            SolidNames_txt.Add("\n//* 2. [Nick name is same with original name]");
+            SolidNames_txt.Add("\n// 2. [Nick name is same with original name]");
             if (solidNamesExport_NickNotTranslated.Count == 0) SolidNames_txt.Add("// - No Items -");
             else SolidNames_txt.AddRange(solidNamesExport_NickNotTranslated);
 
-            SolidNames_txt.Add("\n//* 3. [First name or Last name is same with original name]");
+            SolidNames_txt.Add("\n// 3. [First name or Last name is same with original name]");
             if (solidNamesExport_NotFullyTranslated.Count == 0) SolidNames_txt.Add("// - No Items -");
             else SolidNames_txt.AddRange(solidNamesExport_NotFullyTranslated);
             
@@ -123,7 +125,7 @@ namespace NamesInYourLanguage
             List<string> solidNamesExport_Translated = new List<string>();
             List<string> solidNamesExport_NickNotTranslated = new List<string>();
             List<string> solidNamesExport_NotFullyTranslated = new List<string>();
-            foreach (var nameEntry in NameTranslator.solidNames_Original)
+            foreach (var nameEntry in solidNames_Original)
             {
                 NameTriple activeTriple = solidNames[nameEntry.Key];
 
@@ -188,47 +190,47 @@ namespace NamesInYourLanguage
             List<string> intro = "NIYL.Export.Introduction".Translate().ToString().Split('\n').ToList();
             for (int i = 0; i < intro.Count; i++)
             {
-                intro[i] = "//* " + intro[i];
+                intro[i] = "// " + intro[i];
             }
 
             // 내보낼 텍스트에 있어야할 데이터 및 기타 요소를 등록합니다.
             List<string> SolidNames_txt = new List<string>(intro);
 
-            SolidNames_txt.Add("\n//* 1. [Fully Translated]");
+            SolidNames_txt.Add("\n// 1. [Fully Translated]");
             if (solidNamesExport_Translated.Count == 0) SolidNames_txt.Add("// - No Items -");
             else SolidNames_txt.AddRange(solidNamesExport_Translated);
 
-            SolidNames_txt.Add("\n//* 2. [Nick name is same with original name]");
+            SolidNames_txt.Add("\n// 2. [Nick name is same with original name]");
             if (solidNamesExport_NickNotTranslated.Count == 0) SolidNames_txt.Add("// - No Items -");
             else SolidNames_txt.AddRange(solidNamesExport_NickNotTranslated);
 
-            SolidNames_txt.Add("\n//* 3. [First name or Last name is same with original name]");
+            SolidNames_txt.Add("\n// 3. [First name or Last name is same with original name]");
             if (solidNamesExport_NotFullyTranslated.Count == 0) SolidNames_txt.Add("// - No Items -");
             else SolidNames_txt.AddRange(solidNamesExport_NotFullyTranslated);
 
             // 내보낼 텍스트에 있어야할 데이터 및 기타 요소를 등록합니다.
             List<string> SolidBioNames_txt = new List<string>(intro);
 
-            SolidBioNames_txt.Add("\n//* 1. [Fully Translated]");
+            SolidBioNames_txt.Add("\n// 1. [Fully Translated]");
             if (solidBioNamesExport_Translated.Count == 0) SolidBioNames_txt.Add("// - No Items -");
             else SolidBioNames_txt.AddRange(solidBioNamesExport_Translated);
 
-            SolidBioNames_txt.Add("\n//* 2. [Nick name is same with original name]");
+            SolidBioNames_txt.Add("\n// 2. [Nick name is same with original name]");
             if (solidBioNamesExport_NickNotTranslated.Count == 0) SolidBioNames_txt.Add("// - No Items -");
             else SolidBioNames_txt.AddRange(solidBioNamesExport_NickNotTranslated);
 
-            SolidBioNames_txt.Add("\n//* 3. [First name or Last name is same with original name]");
+            SolidBioNames_txt.Add("\n// 3. [First name or Last name is same with original name]");
             if (solidBioNamesExport_NotFullyTranslated.Count == 0) SolidBioNames_txt.Add("// - No Items -");
             else SolidBioNames_txt.AddRange(solidBioNamesExport_NotFullyTranslated);
 
             // 내보낼 텍스트에 있어야할 데이터 및 기타 요소를 등록합니다.
             List<string> shuffledNames_txt = new List<string>(intro);
 
-            shuffledNames_txt.Add("\n//* 1. [Translated]");
+            shuffledNames_txt.Add("\n// 1. [Translated]");
             if (shuffledNamesExport_Translated.Count == 0) shuffledNames_txt.Add("// - No Items -");
             else shuffledNames_txt.AddRange(shuffledNamesExport_Translated);
 
-            shuffledNames_txt.Add("\n//* 2. [May not be translated]");
+            shuffledNames_txt.Add("\n// 2. [May not be translated]");
             if (shuffledNamesExport_NotFullyTranslated.Count == 0) shuffledNames_txt.Add("// - No Items -");
             else shuffledNames_txt.AddRange(shuffledNamesExport_NotFullyTranslated);
 

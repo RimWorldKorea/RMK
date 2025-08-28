@@ -1,36 +1,36 @@
-//* 각 줄에서 겹슬래시 이후의 텍스트는 모두 주석으로 취급됩니다.
-//* 이름 추출시 아래와 같은 형태로 기록됩니다.
-//* 
-//* 키(원본 이름)->활성 이름
-//* 
-//* 키: 각 이름을 참조하는 고유값입니다. 다르거나 잘못 기입하면 번역이 적용되지 않습니다.
-//* 원본 이름: 키가 가리키는 원래 이름입니다.
-//* 활성 이름: 추출 시점에서 해당하는 키에 적용된 이름입니다. 이 부분을 수정한 파일을 정해진 경로에 위치시키면 림월드 실행 시 해당 이름으로 번역됩니다.
-//* 
-//* 이름은 "이름 '별명' 성" 세트로 구성되거나 단일 낱말입니다.
-//* 이름의 각 구성 요소 내부의 공백은 반영되나, 양 끝의 공백은 제거됩니다.
-//* 예를 들어, 별명 부분이 "  슝 좍  " 인 경우 "슝 좍"으로 적용됩니다.
-//* 
-//* 추출된 이름은 번역 파일 내에서 활성 이름을 기준으로
-//* 1. 각 요소가 모두 원본과 다른 이름 (완전히 번역된 이름)
-//* 2. 이름과 성은 원본과 다르지만 별명만 같은 이름
-//* 3. 이름이나 성 중 하나라도 원본과 같은 이름
-//* 순서로 정렬됩니다.
-//* 
-//* 번역 파일의 위치는 '모드 폴더/Languages/사용 언어 폴더/Strings/Names' 이며, 파일 이름은 변경되어선 안됩니다.
+// 각 줄에서 겹슬래시 이후의 텍스트는 모두 주석으로 취급됩니다.
+// 이름 추출시 아래와 같은 형태로 기록됩니다.
+// 
+// 키(원본 이름)->활성 이름
+// 
+// 키: 각 이름을 참조하는 고유값입니다. 다르거나 잘못 기입하면 번역이 적용되지 않습니다.
+// 원본 이름: 키가 가리키는 원래 이름입니다.
+// 활성 이름: 추출 시점에서 해당하는 키에 적용된 이름입니다. 이 부분을 수정한 파일을 정해진 경로에 위치시키면 림월드 실행 시 해당 이름으로 번역됩니다.
+// 
+// 이름은 "이름 '별명' 성" 세트로 구성되거나 단일 낱말입니다.
+// 이름의 각 구성 요소 내부의 공백은 반영되나, 양 끝의 공백은 제거됩니다.
+// 예를 들어, 별명 부분이 "  슝 좍  " 인 경우 "슝 좍"으로 적용됩니다.
+// 
+// 추출된 이름은 번역 파일 내에서 활성 이름을 기준으로
+// 1. 각 요소가 모두 원본과 다른 이름 (완전히 번역된 이름)
+// 2. 이름과 성은 원본과 다르지만 별명만 같은 이름
+// 3. 이름이나 성 중 하나라도 원본과 같은 이름
+// 순서로 정렬됩니다.
+// 
+// 번역 파일의 위치는 '모드 폴더/Languages/사용 언어 폴더/Strings/Names' 이며, 파일 이름은 변경되어선 안됩니다.
 
-//* 1. [Fully Translated]
+// 1. [Fully Translated]
 8ae6d024(James 'Doc' Grey)->제임스 '닥터' 그레이 
-8ef16da7(John 'Blitz' Kriegsler)->존 '블리츠' 크릭슬러 // 테스트 테스트 24
+8ef16da7(John 'Blitz' Kriegsler)->존 '블리츠' 크릭슬러 /* 테스트 테스트 24
 c4f3e770(Benjamin 'Ben' Frick)->벤자민 '벤' 프릭 
-ac7afc10(Vladimir 'Vladimir' Black)->블라디미르 '블라디미르' 블랙 
+ac7afc10(Vladimir 'Vladimir' Black)->블라디미르 '블라디미르' 블랙 /* 테스트 우마이
 fe9f6459(Kees 'Kees' Van Vugt)->케이스 '케이스' 반 부흐트 
 ea765242(Frederic 'Bennett' Bennett)->프레데릭 '베넷' 베넷 
-37c48eff(Victoria 'Vicky' Louene)->빅토리아 '비키' 루엔 
+37c48eff(Victoria 'Vicky' Louene)->빅토리아 '비키' 루엔 /* 테테수트
 bd6bcf36(Xorin 'Xorkun' D'Ernum)->조린 '조르쿤' D'에르눔 
 9e9d5fee(Markus 'Haplo' Keuneke)->마르쿠스 '하플로' 코이네케 
 f294cd65(Chad 'Stonejaw' Walcenville)->채드 '바위턱' 월센빌 
-c7e19527(Bashkire 'Bashkire' Leystrat)->바시키레 '바시키레' 레이스트라트 
+c7e19527(Bashkire 'Bashkire' Leystrat)->바시키레 '바시키레' 레이스트라트 /* 트리케라톱스
 45c90151(Holly 'Kit' Kettu)->홀리 '키트' 케투 
 778f5e0f(Reece 'Clarke' Clarke)->리스 '클라크' 클라크 
 f41b5928(Damien 'Sharpe' Sharpe)->데미안 '샤프' 샤프 
@@ -15089,7 +15089,7 @@ f7d7dfb5(Aisu 'Aisu' Sutoraika)->아이수 '아이수' 수토라이카
 3895e53b(Toffy 'Latte' Nutley)->토피 '라떼' 너틀리 
 8ee2a232(Donald 'Slate' Slate Jr)->도널드 '슬레이트' 슬레이트 Jr 
 
-//* 2. [Nick name is same with original name]
+// 2. [Nick name is same with original name]
 15a4dd7b(Samuel 'Pi' Blantz)->사무엘 'Pi' 블란츠 
 1bad593b(Bryan 'BW' Wong)->브라이언 'BW' 웡 
 ea51d77d(Basil 'BB' Batter)->바질 'BB' 배터 
@@ -15331,7 +15331,7 @@ d9d4f192(Voronwe 'V' Fisher)->보론웨 'V' 피셔
 6044a1cc(Cassandra 'CJ' Sherlock)->카산드라 'CJ' 셜록 
 e874eb60(Manou 'MJ' Jeurissen)->마누 'MJ' 예리센 
 
-//* 3. [First name or Last name is same with original name]
+// 3. [First name or Last name is same with original name]
 5e593fb0(TJ 'Teej' Houston)->TJ '티즈' 휴스턴 
 db84e0a0(Alex 'CK' T)->알렉스 'CK' T 
 21e001ec(JC 'Ford' Ford)->JC 'JC' 포드 

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using HarmonyLib;
 using Verse;
+using static NamesInYourLanguage.NameTranslatorProperty;
 
 namespace NamesInYourLanguage
 {
@@ -38,7 +39,7 @@ namespace NamesInYourLanguage
             listing.CheckboxLabeled("NIYL.Enable.Label".Translate(), ref settings.Enable, "NIYL.Enable.Desc".Translate());
 
             // 설정을 바꿀 경우 안내 문구를 띄웁니다.
-            if(NameTranslator.loadedEnableSetting != LoadedModManager.GetMod<NIYL>().GetSettings<NIYL_Settings>().Enable)
+            if(loadedEnableSetting != LoadedModManager.GetMod<NIYL>().GetSettings<NIYL_Settings>().Enable)
             {
                 using (new TextBlock(TextAnchor.MiddleCenter))
                 {
