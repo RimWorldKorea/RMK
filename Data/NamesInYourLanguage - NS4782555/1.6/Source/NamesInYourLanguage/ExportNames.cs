@@ -146,8 +146,14 @@ namespace NamesInYourLanguage
                 // text와 comment 동시에 비어있는 경우는 Import 단계에서 다 걸러졌을 것
                 string text = entry.Item1.NullOrEmpty() ? String.Empty : $"{entry.Item1}({entry.Item2})->{entry.Item3}";
                 string comment = entry.Item4.NullOrEmpty() ? String.Empty : "/*" + entry.Item4;
-                
-                string result = text.NullOrEmpty() ? comment : text + " " + comment;
+
+                string result;
+                if (text.NullOrEmpty()) // 본문이 비어있고 주석은 있다
+                    result = "/*" + comment;
+                else if (comment.NullOrEmpty()) // 본문은 있는데 주석이 없다
+                    result = text;
+                else // 본문도 주석도 있다
+                    result = text + " /*" + comment;
 
                 entry.Item2.SplitIntoTriple(out NameTripleReduced originalName);
                 entry.Item3.SplitIntoTriple(out NameTripleReduced activeName);
@@ -170,7 +176,13 @@ namespace NamesInYourLanguage
                 string text = entry.Item1.NullOrEmpty() ? String.Empty : $"{entry.Item1}({entry.Item2})->{entry.Item3}";
                 string comment = entry.Item4.NullOrEmpty() ? String.Empty : "/*" + entry.Item4;
                 
-                string result = text.NullOrEmpty() ? comment : text + " " + comment;
+                string result;
+                if (text.NullOrEmpty()) // 본문이 비어있고 주석은 있다
+                    result = "/*" + comment;
+                else if (comment.NullOrEmpty()) // 본문은 있는데 주석이 없다
+                    result = text;
+                else // 본문도 주석도 있다
+                    result = text + " /*" + comment;
 
                 entry.Item2.SplitIntoTriple(out NameTripleReduced originalName);
                 entry.Item3.SplitIntoTriple(out NameTripleReduced activeName);
@@ -193,7 +205,13 @@ namespace NamesInYourLanguage
                 string text = entry.Item1.NullOrEmpty() ? String.Empty : $"{entry.Item1}({entry.Item2})->{entry.Item3}";
                 string comment = entry.Item4.NullOrEmpty() ? String.Empty : "/*" + entry.Item4;
 
-                string result = text.NullOrEmpty() ? comment : text + " " + comment;
+                string result;
+                if (text.NullOrEmpty()) // 본문이 비어있고 주석은 있다
+                    result = "/*" + comment;
+                else if (comment.NullOrEmpty()) // 본문은 있는데 주석이 없다
+                    result = text;
+                else // 본문도 주석도 있다
+                    result = text + " /*" + comment;
                 
                 string originalName = entry.Item2;
                 string activeName = entry.Item3;
