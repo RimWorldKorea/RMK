@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>##packageId##CETeam.CombatExtended</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="CAT_CryptoHeavyShield"]/label</xpath>
+          <value>
+            <label>대형 동결 방패</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="CAT_CryptoHeavyShield"]/description</xpath>
+          <value>
+            <description>동결 기술이 적용된 대형 방패로, 총탄에 대한 뛰어난 방호력과 함께 둔기 및 열 공격에 대해서도 준수한 방어력을 제공합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="CAT_CryptoBardiche"]/tools/li[1]/label</xpath>
+          <value>
+            <label>손잡이</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="CAT_CryptoBardiche"]/tools/li[2]/label</xpath>
+          <value>
+            <label>자루 끝</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="CAT_CryptoBardiche"]/tools/li[3]/label</xpath>
+          <value>
+            <label>머리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="CAT_CryptoBattleaxe"]/tools/li[1]/label</xpath>
+          <value>
+            <label>손잡이</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="CAT_CryptoBattleaxe"]/tools/li[2]/label</xpath>
+          <value>
+            <label>머리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="CAT_CryptoBident"]/tools/li[1]/label</xpath>
+          <value>
+            <label>자루</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="CAT_CryptoBident"]/tools/li[2]/label</xpath>
+          <value>
+            <label>머리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="CAT_CryptoBident"]/tools/li[3]/label</xpath>
+          <value>
+            <label>끝</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="CAT_CryptoCleaver"]/tools/li[1]/label</xpath>
+          <value>
+            <label>자루</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="CAT_CryptoCleaver"]/tools/li[2]/label</xpath>
+          <value>
+            <label>머리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="CAT_CryptoCleaver"]/tools/li[3]/label</xpath>
+          <value>
+            <label>끝</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="CAT_CryptoGreatsword"]/tools/li[1]/label</xpath>
+          <value>
+            <label>자루</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="CAT_CryptoGreatsword"]/tools/li[2]/label</xpath>
+          <value>
+            <label>머리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="CAT_CryptoGreatsword"]/tools/li[3]/label</xpath>
+          <value>
+            <label>끝</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="CAT_CryptoSword"]/tools/li[1]/label</xpath>
+          <value>
+            <label>자루</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="CAT_CryptoSword"]/tools/li[2]/label</xpath>
+          <value>
+            <label>머리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="CAT_CryptoSword"]/tools/li[3]/label</xpath>
+          <value>
+            <label>끝</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="CAT_CryptoMace"]/tools/li[1]/label</xpath>
+          <value>
+            <label>손잡이</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="CAT_CryptoMace"]/tools/li[2]/label</xpath>
+          <value>
+            <label>날</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="CAT_CryptoHarpoon"]/tools/li[1]/label</xpath>
+          <value>
+            <label>개머리판</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="CAT_CryptoHarpoon"]/tools/li[2]/label</xpath>
+          <value>
+            <label>총열</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="CAT_CryptoHarpoon"]/tools/li[3]/label</xpath>
+          <value>
+            <label>말뚝</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>##packageId##CETeam.CombatExtended</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_CryptoBardicheBladelink"]/tools/li[1]/label</xpath>
+            <value>
+              <label>손잡이</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_CryptoBardicheBladelink"]/tools/li[2]/label</xpath>
+            <value>
+              <label>자루 끝</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_CryptoBardicheBladelink"]/tools/li[3]/label</xpath>
+            <value>
+              <label>머리</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_CryptoBattleaxeBladelink"]/tools/li[1]/label</xpath>
+            <value>
+              <label>손잡이</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_CryptoBattleaxeBladelink"]/tools/li[2]/label</xpath>
+            <value>
+              <label>머리</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_CryptoBidentBladelink"]/tools/li[1]/label</xpath>
+            <value>
+              <label>자루</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_CryptoBidentBladelink"]/tools/li[2]/label</xpath>
+            <value>
+              <label>머리</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_CryptoBidentBladelink"]/tools/li[3]/label</xpath>
+            <value>
+              <label>끝</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_CryptoCleaverBladelink"]/tools/li[1]/label</xpath>
+            <value>
+              <label>자루</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_CryptoCleaverBladelink"]/tools/li[2]/label</xpath>
+            <value>
+              <label>머리</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_CryptoCleaverBladelink"]/tools/li[3]/label</xpath>
+            <value>
+              <label>끝</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_CryptoGreatswordBladelink"]/tools/li[1]/label</xpath>
+            <value>
+              <label>자루</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_CryptoGreatswordBladelink"]/tools/li[2]/label</xpath>
+            <value>
+              <label>머리</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_CryptoGreatswordBladelink"]/tools/li[3]/label</xpath>
+            <value>
+              <label>끝</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_CryptoSwordBladelink"]/tools/li[1]/label</xpath>
+            <value>
+              <label>자루</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_CryptoSwordBladelink"]/tools/li[2]/label</xpath>
+            <value>
+              <label>머리</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_CryptoSwordBladelink"]/tools/li[3]/label</xpath>
+            <value>
+              <label>끝</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_CryptoMaceBladelink"]/tools/li[1]/label</xpath>
+            <value>
+              <label>손잡이</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="CAT_CryptoMaceBladelink"]/tools/li[2]/label</xpath>
+            <value>
+              <label>날</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+</Patch>
