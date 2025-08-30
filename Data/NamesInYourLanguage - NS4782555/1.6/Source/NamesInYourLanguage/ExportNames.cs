@@ -34,7 +34,7 @@ namespace NamesInYourLanguage
                 else
                 {
                     string newComment = solidNamesExport_precursorList[i].Item4
-                                     + " [Added by NIYL: The key of this line is duplicated]";
+                                     + "// [Added by NIYL: The key of this line is duplicated]";
                     solidNamesExport_precursorList[i] = (
                         key,
                         solidNamesExport_precursorList[i].Item2,
@@ -47,7 +47,7 @@ namespace NamesInYourLanguage
             foreach (var entry in solidNames_Original)
             {
                 string key = entry.Key;
-                string currentName = $"{solidNames[key].First} '{solidNames[key].Nick}' {solidNames[key].Last}";
+                string currentName = $"{solidNames[key].First} [{solidNames[key].Nick}] {solidNames[key].Last}";
                 
                 // 오리지널 데이터 중 SolidNames.txt에 있는 것을 찾아서 전구체 리스트에 추가
                 if (solidNames_TranslationRequestRawIndex.ContainsKey(key))
@@ -89,7 +89,7 @@ namespace NamesInYourLanguage
                 else
                 {
                     string newComment = solidBioNamesExport_precursorList[i].Item4
-                                        + " [Added by NIYL: The key of this line is duplicated]";
+                                        + "// [Added by NIYL: The key of this line is duplicated]";
                     solidNamesExport_precursorList[i] = (
                         key,
                         solidBioNamesExport_precursorList[i].Item2,
@@ -102,7 +102,7 @@ namespace NamesInYourLanguage
             foreach (var entry in solidBioNames_Original)
             {
                 string key = entry.Key;
-                string currentName = $"{solidBioNames[key].First} '{solidBioNames[key].Nick}' {solidBioNames[key].Last}";
+                string currentName = $"{solidBioNames[key].First} [{solidBioNames[key].Nick}] {solidBioNames[key].Last}";
                 
                 // 오리지널 데이터 중 SolidBioNames.txt에 있는 것을 찾아서 전구체 리스트에 추가
                 if (solidBioNames_TranslationRequestRawIndex.ContainsKey(key))
@@ -143,7 +143,7 @@ namespace NamesInYourLanguage
                 else
                 {
                     string newComment = shuffledNamesExport_precursorList[i].Item4
-                                        + " [Added by NIYL: The key of this line is duplicated]";
+                                        + "// [Added by NIYL: The key of this line is duplicated]";
                     solidNamesExport_precursorList[i] = (
                         key,
                         shuffledNamesExport_precursorList[i].Item2,

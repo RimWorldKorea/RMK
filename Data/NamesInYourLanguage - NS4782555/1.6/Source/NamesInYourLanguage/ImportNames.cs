@@ -30,7 +30,7 @@ namespace NamesInYourLanguage
                     switch (brokenArrow.Item3.ConvertToTriple(out NameTripleReduced triple))
                     {
                         case 1: solidNames_TranslationRequest.Add(brokenArrow.Item1, triple); break;
-                        case 0: comment += "[Added by NIYL: Translation Name is Invalid]"; break;
+                        case 0: comment += "// [Added by NIYL: Translation Name is Invalid]"; break;
                         case -1: break;
                     }
                     
@@ -52,7 +52,7 @@ namespace NamesInYourLanguage
                     switch (brokenArrow.Item3.ConvertToTriple(out NameTripleReduced triple))
                     {
                         case 1: solidBioNames_TranslationRequest.Add(brokenArrow.Item1, triple); break;
-                        case 0: comment += "[Added by NIYL: Translation Name is Invalid]"; break;
+                        case 0: comment += "// [Added by NIYL: Translation Name is Invalid]"; break;
                         case -1: break;
                     }
                 
@@ -129,8 +129,8 @@ namespace NamesInYourLanguage
                 string lhs = textLine.Substring(0, arrowIndex).Trim();
                 value = textLine.Substring(arrowIndex + 2).Trim();
 
-                int leftBraceIndex = lhs.IndexOf("(");
-                int rightBraceIndex = lhs.LastIndexOf(")");
+                int leftBraceIndex = lhs.IndexOf('(');
+                int rightBraceIndex = lhs.LastIndexOf(')');
                 
                 key = lhs.Substring(0, leftBraceIndex < 0 ? lhs.Length : leftBraceIndex).Trim();
                 
@@ -160,9 +160,9 @@ namespace NamesInYourLanguage
             string first = null, last = null, nick = null;
             try
             {
-                int leftAposIndex = fullNameText.IndexOf('\'');
-                int rightAposIndex = fullNameText.LastIndexOf('\'');
-                
+                int leftAposIndex = fullNameText.IndexOf('[');;
+                int rightAposIndex = fullNameText.LastIndexOf(']');
+ 
                 first = fullNameText.Substring(0, leftAposIndex).Trim();
                 last = fullNameText.Substring(rightAposIndex + 1).Trim();
                 nick = fullNameText.Substring(leftAposIndex + 1, rightAposIndex - leftAposIndex - 1).Trim();

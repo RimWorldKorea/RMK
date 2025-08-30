@@ -250,7 +250,7 @@ namespace NamesInYourLanguage
         public string ToStringFullPossibly()
         {
             string result = First;
-            result += Nick.NullOrEmpty() ? "" : $" '{Nick}'";
+            result += Nick.NullOrEmpty() ? "" : $" [{Nick}]";
             result += Last.NullOrEmpty() ? "" : $" {Last}";
             return result.Trim();
         }
