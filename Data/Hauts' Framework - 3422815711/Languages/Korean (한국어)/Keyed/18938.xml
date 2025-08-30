@@ -63,11 +63,11 @@
   <!--English=Inflict an inspiration\n-->
   <Hauts_ExtraHitFXInspireAny>영감 부여\n</Hauts_ExtraHitFXInspireAny>
   <!--English=Inflict one of the following inspirations: -->
-  <Hauts_ExtraHitFXInspireList>다음 영감 중 하나 부여: </Hauts_ExtraHitFXInspireList>
+  <Hauts_ExtraHitFXInspireList>Inflict one of the following inspirations: </Hauts_ExtraHitFXInspireList>
   <!--English=Inflict a mental state\n-->
-  <Hauts_ExtraHitFXMBAny>정신 상태 부여\n</Hauts_ExtraHitFXMBAny>
+  <Hauts_ExtraHitFXMBAny>Inflict a mental state\n</Hauts_ExtraHitFXMBAny>
   <!--English=Inflict one of the following mental states: -->
-  <Hauts_ExtraHitFXMBList>다음 정신 상태 중 하나 부여: </Hauts_ExtraHitFXMBList>
+  <Hauts_ExtraHitFXMBList>Inflict one of the following mental states: </Hauts_ExtraHitFXMBList>
   <!--English={0} ({1} weight) -->
   <Hauts_ExtraHitFXListicle>{0} ({1} weight) </Hauts_ExtraHitFXListicle>
   <!--English=Stun for a base of {0} to {1} ticks\n-->
@@ -93,7 +93,7 @@
   <!--English= mechs-->
   <Hauts_ExtraHitFXSuffix2M> 메카노이드</Hauts_ExtraHitFXSuffix2M>
   <!--English= drones-->
-  <Hauts_ExtraHitFXSuffix2D> 드론</Hauts_ExtraHitFXSuffix2D>
+  <Hauts_ExtraHitFXSuffix2D> drones</Hauts_ExtraHitFXSuffix2D>
   <!--English= anomalyーmutated creatures-->
   <Hauts_ExtraHitFXSuffix2Mu> 이상변이 생명체</Hauts_ExtraHitFXSuffix2Mu>
   <!--English= unnatural entities-->
@@ -135,7 +135,7 @@
   <!--English={INFECTED_nameDef}&apos;s metalhorror emerged due to a botched infection attempt.-->
   <Hauts_MetalhorrorReasonBFD>{INFECTED_nameDef}'s metalhorror emerged due to a botched infection attempt.</Hauts_MetalhorrorReasonBFD>
   <!--English={FACTION_name} has provided assistance for {PAWN_nameDef}&apos;s caravan.-->
-  <Hauts_MessagePermitBoostCaravan>{FACTION_name}(이)가 {PAWN_nameDef}의 상단에 지원을 제공했습니다.</Hauts_MessagePermitBoostCaravan>
+  <Hauts_MessagePermitBoostCaravan>{FACTION_name} has provided assistance for {PAWN_nameDef}'s caravan.</Hauts_MessagePermitBoostCaravan>
   <!--English=Conversion power: {0}/hour-->
   <Hauts_IdeoBookConversion>Conversion power: {0}/hour</Hauts_IdeoBookConversion>
   <!--English=Reasurrance power: {0}/hour-->
@@ -148,22 +148,20 @@
   <Hauts_LetterConvertIdeoBook_Success>Reading {0} has caused {1} to turn away from {2} and towards {3}.</Hauts_LetterConvertIdeoBook_Success>
   <!--English={PERMITUSER_nameDef} was informed of-->
   <Hauts_QuestDiscoveredByPermit>{PERMITUSER_nameDef} was informed of</Hauts_QuestDiscoveredByPermit>
-  <!--English=Attacked a close ally-->
-  <Hauts_AttackedAlliedFaction>가까운 아군을 공격</Hauts_AttackedAlliedFaction>
   <!--English=Cannot add {0} to inventory of {1} because it is not haulable.-->
-  <Hauts_CantSpawnUnminified>{1}의 소지품에 {0}(을)를 추가할 수 없습니다. 운반 가능한 물품이 아니기 때문입니다.</Hauts_CantSpawnUnminified>
+  <Hauts_CantSpawnUnminified>Cannot add {0} to inventory of {1} because it is not haulable.</Hauts_CantSpawnUnminified>
   <!--English=Body parts cannot be removed from {0} due to the {1} trait.-->
   <Hauts_CannotRemoveBionicsFrom>{0}에게서는 {1} 특성으로 인해 신체 부위를 제거할 수 없습니다.</Hauts_CannotRemoveBionicsFrom>
   <!--English={PAWN_nameDef} spawned with a weapon, yet also has a trait that disables violence. Removing the trait to prevent invalid combat calculations. If this would have been {PAWN_possessive} only trait, {PAWN_pronoun} will now have no traits.-->
-  <Hauts_PacifistWWeapon>{PAWN_nameDef}(이)가 무기를 든 상태로 생성되었지만, 전투 결격으로 만드는 특성도 가지고 있습니다. 잘못된 전투 계산을 막기 위해 해당 특성을 제거합니다. 만약 이 특성이 {PAWN_possessive} 유일한 특성이었다면, {PAWN_pronoun}(은)는 아무 특성도 가지고 있지 않게 됩니다.</Hauts_PacifistWWeapon>
+  <Hauts_PacifistWWeapon>{PAWN_nameDef} spawned with a weapon, yet also has a trait that disables violence. Removing the trait to prevent invalid combat calculations. If this would have been {PAWN_possessive} only trait, {PAWN_pronoun} will now have no traits.</Hauts_PacifistWWeapon>
   <!--English=target already affected by this ability-->
-  <Hauts_TargetAlreadyHasPairedHediff>대상은 이미 이 능력에 영향을 받고 있습니다.</Hauts_TargetAlreadyHasPairedHediff>
+  <Hauts_TargetAlreadyHasPairedHediff>target already affected by this ability</Hauts_TargetAlreadyHasPairedHediff>
   <!--English=Only usable on a caravan-->
-  <Hauts_MustBeCaravanning>상단에서만 사용할 수 있습니다.</Hauts_MustBeCaravanning>
+  <Hauts_MustBeCaravanning>Only usable on a caravan</Hauts_MustBeCaravanning>
   <!--English=Permit is of a type that requires PermitMoreEffects, but there isn&apos;t one in its definition-->
   <Hauts_PMEMisconfig>Permit is of a type that requires PermitMoreEffects, but there isn't one in its definition</Hauts_PMEMisconfig>
   <!--English=There are no factions that can cause this event-->
-  <Hauts_NoFactionCanFieldIncident>이 사건을 발생시킬 수 있는 세력이 없습니다.</Hauts_NoFactionCanFieldIncident>
+  <Hauts_NoFactionCanFieldIncident>There are no factions that can cause this event</Hauts_NoFactionCanFieldIncident>
   <!--English=DEV: Fix TraitGrantedStuff-->
   <HVT_CharEditFixer>DEV: Fix TraitGrantedStuff</HVT_CharEditFixer>
   <!--English=Adds any missing hediffs or abilities to this pawn which should&apos;ve been granted by its traits. The presence of this button does not necessarily mean that there are any missing hediffs or abilities.\n\nIf you&apos;re using Character Editor to add traits to pawns, make sure to press this on the pawn immediately afterward.-->
