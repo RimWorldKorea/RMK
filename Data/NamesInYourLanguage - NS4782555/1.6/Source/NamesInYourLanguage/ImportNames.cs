@@ -27,11 +27,13 @@ namespace NamesInYourLanguage
                     string comment = paredLine.Item2;
                     
                     // 번역 이름의 형식까지 유효하면 번역 코드에서 호출될 목록에 저장. 키의 유효성은 번역시 확인.
-                    if (brokenArrow.Item3.SplitIntoTriple(out NameTripleReduced triple))
-                        solidNames_TranslationRequest.Add(brokenArrow.Item1, triple);
-                    else
-                        comment += "[Added by System: Translation Name is Invalid]";
-                
+                    switch (brokenArrow.Item3.ConvertToTriple(out NameTripleReduced triple))
+                    {
+                        case 1: solidNames_TranslationRequest.Add(brokenArrow.Item1, triple); break;
+                        case 0: comment += "[Added by NIYL: Translation Name is Invalid]"; break;
+                        case -1: break;
+                    }
+                    
                     solidNames_TranslationRequestRaw.Add((brokenArrow.Item1, brokenArrow.Item2, brokenArrow.Item3, comment));
                 }
             }
@@ -47,10 +49,12 @@ namespace NamesInYourLanguage
                     string comment = paredLine.Item2;
                     
                     // 번역 이름의 형식까지 유효하면 번역 코드에서 호출될 목록에 저장. 키의 유효성은 번역시 확인.
-                    if (brokenArrow.Item3.SplitIntoTriple(out NameTripleReduced triple))
-                        solidBioNames_TranslationRequest.Add(brokenArrow.Item1, triple);
-                    else
-                        comment += "[Added by System: Translation Name is Invalid]";
+                    switch (brokenArrow.Item3.ConvertToTriple(out NameTripleReduced triple))
+                    {
+                        case 1: solidBioNames_TranslationRequest.Add(brokenArrow.Item1, triple); break;
+                        case 0: comment += "[Added by NIYL: Translation Name is Invalid]"; break;
+                        case -1: break;
+                    }
                 
                     solidBioNames_TranslationRequestRaw.Add((brokenArrow.Item1, brokenArrow.Item2, brokenArrow.Item3, comment));
                 }
@@ -66,10 +70,8 @@ namespace NamesInYourLanguage
                     (string, string, string) brokenArrow = paredLine.Item1.BreakArrow(out _);
                     string comment = paredLine.Item2;
                     
-                    if (!brokenArrow.Item3.NullOrEmpty())
+                    if (!brokenArrow.Item3.NullOrEmpty()) // 번역 이름이 비어있진 않다
                         shuffledNames_TranslationRequest.Add(brokenArrow.Item1, brokenArrow.Item3);
-                    else
-                        comment += "[Added by System: Translation Name is Invalid]";
                     
                     shuffledNames_TranslationRequestRaw.Add((brokenArrow.Item1, brokenArrow.Item2, brokenArrow.Item3, comment));
                 }
@@ -146,13 +148,13 @@ namespace NamesInYourLanguage
             return (key, originalRef, value);
         }
 
-        public static bool SplitIntoTriple(this string fullNameText, out NameTripleReduced triple)
+        public static int ConvertToTriple(this string fullNameText, out NameTripleReduced triple)
         {
             // 빈 텍스트는 먼저 뱉어내기
             if (fullNameText.Trim().NullOrEmpty())
             {
                 triple = default;
-                return false;
+                return -1;
             }
             
             string first = null, last = null, nick = null;
@@ -172,11 +174,11 @@ namespace NamesInYourLanguage
             {
                 Log.Warning(logSignature + "NIYL.Import.InvalidName".Translate(fullNameText));
                 triple = default;
-                return false;
+                return 0;
             }
             
             triple = new NameTripleReduced(first, last, nick);
-            return true;
+            return 1;
         }
     }
 }

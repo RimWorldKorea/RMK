@@ -26,7 +26,22 @@ namespace NamesInYourLanguage
             // solidNamesExport_precursorList(아직 TranslationRequestRaw와 완전히 같은)를 첫번째 요소(키)를 기준으로 인덱스를 저장
             Dictionary<string, int> solidNames_TranslationRequestRawIndex = new Dictionary<string, int>();
             for (int i = 0; i < solidNamesExport_precursorList.Count; i++)
-                solidNames_TranslationRequestRawIndex.Add(solidNamesExport_precursorList[i].Item1, i);
+            {
+                string key = solidNamesExport_precursorList[i].Item1;
+
+                if (!solidNames_TranslationRequestRawIndex.ContainsKey(key))
+                    solidNames_TranslationRequestRawIndex.Add(key, i);
+                else
+                {
+                    string newComment = solidNamesExport_precursorList[i].Item4
+                                     + " [Added by NIYL: The key of this line is duplicated]";
+                    solidNamesExport_precursorList[i] = (
+                        key,
+                        solidNamesExport_precursorList[i].Item2,
+                        solidNamesExport_precursorList[i].Item4,
+                        newComment);
+                }
+            }
             
             List<(string, string, string, string)> notOnSolidNamesTXT = new List<(string, string, string, string)>();
             foreach (var entry in solidNames_Original)
@@ -66,7 +81,22 @@ namespace NamesInYourLanguage
             // solidBioNamesExport_precursorList(아직 TranslationRequestRaw와 완전히 같은)를 첫번째 요소(키)를 기준으로 인덱스를 저장
             Dictionary<string, int> solidBioNames_TranslationRequestRawIndex = new Dictionary<string, int>();
             for (int i = 0; i < solidBioNamesExport_precursorList.Count; i++)
-                solidBioNames_TranslationRequestRawIndex.Add(solidBioNamesExport_precursorList[i].Item1, i);
+            {
+                string key = solidBioNamesExport_precursorList[i].Item1;
+
+                if (!solidBioNames_TranslationRequestRawIndex.ContainsKey(key))
+                    solidBioNames_TranslationRequestRawIndex.Add(key, i);
+                else
+                {
+                    string newComment = solidBioNamesExport_precursorList[i].Item4
+                                        + " [Added by NIYL: The key of this line is duplicated]";
+                    solidNamesExport_precursorList[i] = (
+                        key,
+                        solidBioNamesExport_precursorList[i].Item2,
+                        solidBioNamesExport_precursorList[i].Item4,
+                        newComment);
+                }
+            }
             
             List<(string, string, string, string)> notOnSolidBioNamesTXT = new List<(string, string, string, string)>();
             foreach (var entry in solidBioNames_Original)
@@ -105,7 +135,22 @@ namespace NamesInYourLanguage
             // shuffledNamesExport_precursorList(아직 TranslationRequestRaw와 완전히 같은)를 첫번째 요소(키)를 기준으로 인덱스를 저장
             Dictionary<string, int> shuffledNames_TranslationRequestRawIndex = new Dictionary<string, int>();
             for (int i = 0; i < shuffledNamesExport_precursorList.Count; i++)
-                shuffledNames_TranslationRequestRawIndex.Add(shuffledNamesExport_precursorList[i].Item1, i);
+            {
+                string key = shuffledNamesExport_precursorList[i].Item1;
+
+                if (!shuffledNames_TranslationRequestRawIndex.ContainsKey(key))
+                    shuffledNames_TranslationRequestRawIndex.Add(key, i);
+                else
+                {
+                    string newComment = shuffledNamesExport_precursorList[i].Item4
+                                        + " [Added by NIYL: The key of this line is duplicated]";
+                    solidNamesExport_precursorList[i] = (
+                        key,
+                        shuffledNamesExport_precursorList[i].Item2,
+                        shuffledNamesExport_precursorList[i].Item4,
+                        newComment);
+                }
+            }
             
             List<(string, string, string, string)> notOnShuffledNamesTXT = new List<(string, string, string, string)>();
             foreach (var entry in shuffledNames_Original)
@@ -137,16 +182,17 @@ namespace NamesInYourLanguage
             ////////////////////////////////////////////////////////////////////////////////////////////////////////////
             ////////////////////////////////////////////////////////////////////////////////////////////////////////////
             ////////////////////////////////////////////////////////////////////////////////////////////////////////////
-     
-            // 이제 이게 실제 출력할 파일의 데이터
-            solidNamesExport_precursorList.AddRange(notOnSolidNamesTXT);
+            
+            solidNamesExport_precursorList.AddRange(notOnSolidNamesTXT); // 이제 이게 실제 출력할 파일의 데이터
+            TranslationResult isDeliveredTo = default; // 이건 주석 위치 결정용 트리거. 쓰고 나면 반드시 초기화!
             
             foreach (var entry in solidNamesExport_precursorList)
             {
                 // text와 comment 동시에 비어있는 경우는 Import 단계에서 다 걸러졌을 것
                 string text = entry.Item1.NullOrEmpty() ? String.Empty : $"{entry.Item1}({entry.Item2})->{entry.Item3}";
-                string comment = entry.Item4.NullOrEmpty() ? String.Empty : "/*" + entry.Item4;
+                string comment = entry.Item4.NullOrEmpty() ? String.Empty : entry.Item4;
 
+                // 최종 텍스트 라인 준비
                 string result;
                 if (text.NullOrEmpty()) // 본문이 비어있고 주석은 있다
                     result = "/*" + comment;
@@ -154,17 +200,45 @@ namespace NamesInYourLanguage
                     result = text;
                 else // 본문도 주석도 있다
                     result = text + " /*" + comment;
-
-                entry.Item2.SplitIntoTriple(out NameTripleReduced originalName);
-                entry.Item3.SplitIntoTriple(out NameTripleReduced activeName);
                 
-                if (originalName.First == activeName.First || originalName.Last == activeName.Last)
-                    solidNamesExport_NotFullyTranslated.Add(result);
-                else if (originalName.Nick == activeName.Nick)
-                    solidNamesExport_NickNotTranslated.Add(result);
-                else
-                    solidNamesExport_Translated.Add(result);
+                // 번역이 어떻게 돼있는지 따라 분류
+                // isDeliveredTo를 통해 다음 엔트리에 이전 줄의 분류 결과 넘기기
+                if (!text.NullOrEmpty()) // 이름부가 유효하다!
+                {
+                    entry.Item2.ConvertToTriple(out NameTripleReduced originalName);
+                    entry.Item3.ConvertToTriple(out NameTripleReduced activeName);
+
+                    if (originalName.First == activeName.First || originalName.Last == activeName.Last)
+                    {
+                        solidNamesExport_NotFullyTranslated.Add(result);
+                        isDeliveredTo = TranslationResult.NotFullyTranslated;
+                    }
+                    else if (originalName.Nick == activeName.Nick)
+                    {
+                        solidNamesExport_NickNotTranslated.Add(result);
+                        isDeliveredTo = TranslationResult.NickNotTranslated;
+                    }
+                    else
+                    {
+                        solidNamesExport_Translated.Add(result);
+                        isDeliveredTo = TranslationResult.Translated;
+                    }
+                }
+                else // 이름부가 없다! -> 주석만 있다
+                {
+                    switch (isDeliveredTo)
+                    {
+                        case TranslationResult.None:
+                        case TranslationResult.NotFullyTranslated:
+                            solidNamesExport_NotFullyTranslated.Add(result); break;
+                        case TranslationResult.NickNotTranslated:
+                            solidNamesExport_NickNotTranslated.Add(result); break;
+                        case TranslationResult.Translated:
+                            solidNamesExport_Translated.Add(result); break;
+                    }
+                }
             }
+            isDeliveredTo = TranslationResult.None;
             
             ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -174,7 +248,7 @@ namespace NamesInYourLanguage
             {
                 // text와 comment 동시에 비어있는 경우는 Import 단계에서 다 걸러졌을 것
                 string text = entry.Item1.NullOrEmpty() ? String.Empty : $"{entry.Item1}({entry.Item2})->{entry.Item3}";
-                string comment = entry.Item4.NullOrEmpty() ? String.Empty : "/*" + entry.Item4;
+                string comment = entry.Item4.NullOrEmpty() ? String.Empty : entry.Item4;
                 
                 string result;
                 if (text.NullOrEmpty()) // 본문이 비어있고 주석은 있다
@@ -184,16 +258,44 @@ namespace NamesInYourLanguage
                 else // 본문도 주석도 있다
                     result = text + " /*" + comment;
 
-                entry.Item2.SplitIntoTriple(out NameTripleReduced originalName);
-                entry.Item3.SplitIntoTriple(out NameTripleReduced activeName);
-                
-                if (originalName.First == activeName.First || originalName.Last == activeName.Last)
-                    solidBioNamesExport_NotFullyTranslated.Add(result);
-                else if (originalName.Nick == activeName.Nick)
-                    solidBioNamesExport_NickNotTranslated.Add(result);
-                else
-                    solidBioNamesExport_Translated.Add(result);
+                // 번역이 어떻게 돼있는지 따라 분류
+                // isDeliveredTo를 통해 다음 엔트리에 이전 줄의 분류 결과 넘기기
+                if (!text.NullOrEmpty()) // 이름부가 유효하다!
+                {
+                    entry.Item2.ConvertToTriple(out NameTripleReduced originalName);
+                    entry.Item3.ConvertToTriple(out NameTripleReduced activeName);
+
+                    if (originalName.First == activeName.First || originalName.Last == activeName.Last)
+                    {
+                        solidBioNamesExport_NotFullyTranslated.Add(result);
+                        isDeliveredTo = TranslationResult.NotFullyTranslated;
+                    }
+                    else if (originalName.Nick == activeName.Nick)
+                    {
+                        solidBioNamesExport_NickNotTranslated.Add(result);
+                        isDeliveredTo = TranslationResult.NickNotTranslated;
+                    }
+                    else
+                    {
+                        solidBioNamesExport_Translated.Add(result);
+                        isDeliveredTo = TranslationResult.Translated;
+                    }
+                }
+                else // 이름부가 없다! -> 주석만 있다
+                {
+                    switch (isDeliveredTo)
+                    {
+                        case TranslationResult.None:
+                        case TranslationResult.NotFullyTranslated:
+                            solidBioNamesExport_NotFullyTranslated.Add(result); break;
+                        case TranslationResult.NickNotTranslated:
+                            solidBioNamesExport_NickNotTranslated.Add(result); break;
+                        case TranslationResult.Translated:
+                            solidBioNamesExport_Translated.Add(result); break;
+                    }
+                }
             }
+            isDeliveredTo = TranslationResult.None;
             
             ////////////////////////////////////////////////////////////////////////////////////////////////////////////
             
@@ -203,7 +305,7 @@ namespace NamesInYourLanguage
             {
                 // text와 comment 동시에 비어있는 경우는 Import 단계에서 다 걸러졌을 것
                 string text = entry.Item1.NullOrEmpty() ? String.Empty : $"{entry.Item1}({entry.Item2})->{entry.Item3}";
-                string comment = entry.Item4.NullOrEmpty() ? String.Empty : "/*" + entry.Item4;
+                string comment = entry.Item4.NullOrEmpty() ? String.Empty : entry.Item4;
 
                 string result;
                 if (text.NullOrEmpty()) // 본문이 비어있고 주석은 있다
@@ -212,15 +314,36 @@ namespace NamesInYourLanguage
                     result = text;
                 else // 본문도 주석도 있다
                     result = text + " /*" + comment;
-                
-                string originalName = entry.Item2;
-                string activeName = entry.Item3;
-                
-                if (originalName == activeName)
-                    shuffledNamesExport_NotFullyTranslated.Add(result);
+
+                if (!text.NullOrEmpty())
+                {
+                    string originalName = entry.Item2;
+                    string activeName = entry.Item3;
+
+                    if (originalName == activeName)
+                    {
+                        shuffledNamesExport_NotFullyTranslated.Add(result);
+                        isDeliveredTo = TranslationResult.NotFullyTranslated;
+                    }
+                    else
+                    {
+                        shuffledNamesExport_Translated.Add(result);
+                        isDeliveredTo = TranslationResult.Translated;
+                    }
+                }
                 else
-                    shuffledNamesExport_Translated.Add(result);
+                {
+                    switch (isDeliveredTo)
+                    {
+                        case TranslationResult.None:
+                        case TranslationResult.NotFullyTranslated:
+                            shuffledNamesExport_NotFullyTranslated.Add(result); break;
+                        case TranslationResult.Translated:
+                            shuffledNamesExport_Translated.Add(result); break;
+                    }
+                }
             }
+            isDeliveredTo = TranslationResult.None;
             
             ////////////////////////////////////////////////////////////////////////////////////////////////////////////
             ////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -429,5 +552,13 @@ namespace NamesInYourLanguage
                 Log.Error(logSignature + "NIYL.Export.Failed".Translate());
             }
         }
+    }
+
+    enum TranslationResult
+    {
+        None = 0,
+        Translated,
+        NotFullyTranslated,
+        NickNotTranslated
     }
 }
