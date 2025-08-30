@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[LC] Consolidated Traits</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Anomaly</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="UnnaturalDarkness"]/stages/li[3]/label</xpath>
+            <value>
+              <label>부자연적 어둠</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="UnnaturalDarkness"]/stages/li[3]/description</xpath>
+            <value>
+              <description>엄청 어두워!</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Rimsenal - Spacer Faction Pack</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Royalty</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="Gunlink"]/label</xpath>
+            <value>
+              <label>목표 획득</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Genes</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Integrated Implants</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="TMM_AG_IncreasedCommandRange"]/label</xpath>
+            <value>
+              <label>명령 범위 증가</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="TMM_AG_IncreasedCommandRange"]/description</xpath>
+            <value>
+              <description>이 사람은 소집된 메카노이드를 더 멀리서도 조종할 수 있습니다.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech Expansion - Mammalia</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>ATH's style Draconic</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/CultureDef[defName="TMM_Draconic"]/label</xpath>
+            <value>
+              <label>드래곤주의</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/CultureDef[defName="TMM_Draconic"]/description</xpath>
+            <value>
+              <description>신화 속 이종형들이 이끄는 드래곤들의 문화입니다.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Stoneborn - Dwarven Style Pack</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Det's Xenotypes - Stoneborn</li>
+        <li>Big and Small - Races</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/CultureDef[defName="TMM_Dwarven"]/label</xpath>
+            <value>
+              <label>드워프주의</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/CultureDef[defName="TMM_Dwarven"]/description</xpath>
+            <value>
+              <description>키 작은 이들로부터 이어진 드워프들의 문화입니다.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Integrated Implants</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThoughtDef[defName="TMM_ActiveVoicelock_Masochist"]/stages/li[1]/label</xpath>
+          <value>
+            <label>음성 소거장치가 활성화됨 (피학적)</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThoughtDef[defName="TMM_ActiveVoicelock_Masochist"]/stages/li[1]/description</xpath>
+          <value>
+            <description>내 입이 강제로 틀어막혔어. 엄청 기분이 좋아!</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Architect</li>
+      <li>ReBuild: Doors and Corners</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Anomaly</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="SecurityDoor"]/label</xpath>
+            <value>
+              <label>강화 구조물</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="SecurityDoor"]/description</xpath>
+            <value>
+              <description>매우 튼튼한 구조물을 건설합니다. 위험한 것을 막거나 가두고 싶을 때 좋은 선택입니다.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Crafts</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Cooking Expanded</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="TMM_ConsumedInfusedMayo"]/stages/li[1]/label</xpath>
+            <value>
+              <label>주입된 마요네즈 섭취</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="TMM_ConsumedInfusedMayo"]/stages/li[1]/description</xpath>
+            <value>
+              <description>맛있는 주입된 마요네즈를 먹었어. 정말 든든해!</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Crafts</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Cooking Expanded</li>
+      </mods>
+      <match Class="PatchOperationFindMod">
+        <mods>
+          <li>Vanilla Plants Expanded - More Plants</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/ThoughtDef[defName="TMM_ConsumedBlackMayo"]/stages/li[1]/label</xpath>
+              <value>
+                <label>검은 마요네즈 섭취</label>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/ThoughtDef[defName="TMM_ConsumedBlackMayo"]/stages/li[1]/description</xpath>
+              <value>
+                <description>맛있는 검은 마요네즈를 먹었어. 꽤 든든해!</description>
+              </value>
+            </li>
+          </operations>
+        </match>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>March of the Archocubes</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Reinforced Mechanoid 2 (Continued)</li>
+      </mods>
+      <match Class="PatchOperationFindMod">
+        <mods>
+          <li>Vanilla Factions Expanded - Mechanoids</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/RecipeDef[defName="TMM_Make_MechanoidVanometricCore"]/label</xpath>
+              <value>
+                <label>메카노이드 베노메트릭 코어 만들기</label>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/RecipeDef[defName="TMM_Make_MechanoidVanometricCore"]/description</xpath>
+              <value>
+                <description>메카노이드 베노메트릭 코어를 만듭니다.</description>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/RecipeDef[defName="TMM_Make_MechanoidVanometricCore"]/jobString</xpath>
+              <value>
+                <jobString>메카노이드 베노메트릭 코어 만드는 중</jobString>
+              </value>
+            </li>
+          </operations>
+        </match>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Races Expanded - Archon</li>
+      <li>Rimsenal Xenotype Pack - Askbarn</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GeneCategoryDef[defName="TMM_Shooting"]/label</xpath>
+          <value>
+            <label>사격</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Big and Small - Genes &amp; More</li>
+      <li>Det's Xenotypes - Keshig</li>
+      <li>Vanilla Races Expanded - Archon</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GeneCategoryDef[defName="TMM_Melee"]/label</xpath>
+          <value>
+            <label>격투</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Big and Small - Genes &amp; More</li>
+      <li>Vanilla Races Expanded - Waster</li>
+      <li>WVC - Xenotypes and Genes</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GeneCategoryDef[defName="TMM_Instability"]/label</xpath>
+          <value>
+            <label>불안정성</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Genes</li>
+      <li>Big and Small - Genes &amp; More</li>
+      <li>WVC - Xenotypes and Genes</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GeneCategoryDef[defName="TMM_GeneManipulation"]/label</xpath>
+          <value>
+            <label>유전자 조작</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Genes</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Anomaly</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/GeneCategoryDef[defName="TMM_AG_Shambler"]/label</xpath>
+            <value>
+              <label>휘청이는 자</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>WVC - Xenotypes and Genes</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/GeneCategoryDef[defName="TMM_Romance"]/label</xpath>
+          <value>
+            <label>사랑</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Base Generation Expanded</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Optimization: Meats - C# Edition</li>
+        <li>Optimization: Leathers - C# Edition</li>
+      </mods>
+      <nomatch Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="TMM_RandomGoodMeat"]/label</xpath>
+            <value>
+              <label>무작위 좋은 고기</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="TMM_RandomGoodMeat"]/description</xpath>
+            <value>
+              <description>무작위 고기를 생성합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="TMM_RandomLightLeatherMeat"]/label</xpath>
+            <value>
+              <label>무작위 고기 (가벼운 가죽)</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="TMM_RandomLightLeatherMeat"]/description</xpath>
+            <value>
+              <description>무작위 고기를 생성합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="TMM_RandomPlainLeatherMeat"]/label</xpath>
+            <value>
+              <label>무작위 고기 (평범한 가죽)</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="TMM_RandomPlainLeatherMeat"]/description</xpath>
+            <value>
+              <description>무작위 고기를 생성합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="TMM_RandomPantheraMeat"]/label</xpath>
+            <value>
+              <label>무작위 고기 (고양이과 모피)</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="TMM_RandomPantheraMeat"]/description</xpath>
+            <value>
+              <description>무작위 고기를 생성합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="TMM_RandomLeather"]/label</xpath>
+            <value>
+              <label>무작위 가죽</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="TMM_RandomLeather"]/description</xpath>
+            <value>
+              <description>무작위 가죽을 생성합니다.</description>
+            </value>
+          </li>
+        </operations>
+      </nomatch>
+    </match>
+  </Operation>
+</Patch>

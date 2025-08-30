@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Empire</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/FactionColonies.BiomeResourceDef[defName="ZBiome_Sandbar_NoBeach"]/label</xpath>
+          <value>
+            <label>모래톱</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/FactionColonies.BiomeResourceDef[defName="ZBiome_CoastalDunes"]/label</xpath>
+          <value>
+            <label>해안 사구</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/FactionColonies.BiomeResourceDef[defName="ZBiome_DesertOasis"]/label</xpath>
+          <value>
+            <label>사막 오아시스</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/FactionColonies.BiomeResourceDef[defName="ZBiome_Grasslands"]/label</xpath>
+          <value>
+            <label>폭풍우치는 사바나</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/FactionColonies.BiomeResourceDef[defName="ZBiome_CloudForest"]/label</xpath>
+          <value>
+            <label>안개숲</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/FactionColonies.BiomeResourceDef[defName="ZBiome_AlpineMeadow"]/label</xpath>
+          <value>
+            <label>고산 초원</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/FactionColonies.BiomeResourceDef[defName="ZBiome_Marsh"]/label</xpath>
+          <value>
+            <label>늪</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/FactionColonies.BiomeResourceDef[defName="ZBiome_Iceberg_NoBeach"]/label</xpath>
+          <value>
+            <label>빙산</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/FactionColonies.BiomeResourceDef[defName="ZBiome_Badlands"]/label</xpath>
+          <value>
+            <label>불모지</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/FactionColonies.BiomeResourceDef[defName="ZBiome_GlacialShield"]/label</xpath>
+          <value>
+            <label>불모지</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Realistic Planets Continued</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/BiomeDef[defName="ZBiome_Grasslands"]/description</xpath>
+          <value>
+            <description>나무가 거의 없는 따뜻한 풀로 뒤덮인 평원입니다. 방목하는 동물 무리가 이곳을 돌아다니지만, 토양은 일반적으로 척박합니다.\n\n사바나의 다른 지역과 비교하면, 이 지역은 토양이 더 열악하지만 물이 더 많고 폭풍이 더 자주 발생합니다. 사막에 적응한 생물은 더 적게 보일 것입니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/BiomeDef[defName="ZBiome_DesertOasis"]/label</xpath>
+          <value>
+            <label>작은 오아시스</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/BiomeDef[defName="ZBiome_DesertOasis"]/description</xpath>
+          <value>
+            <description>식물들이 빽빽하게 자란 오아시스로, 먹이와 피난처를 찾는 동물을 끌어들입니다.\n\n[Desert Oasis - More Vanilla Biomes]</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
