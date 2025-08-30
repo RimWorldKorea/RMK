@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--Original=present paperfolding-->
+  <Kiiro_PresentPaperFolding.label>종이접기 선물</Kiiro_PresentPaperFolding.label>
+  <!--Original=sing rhyme to kid-->
+  <Kiiro_SingARhymeToKid.label>동요 부르기</Kiiro_SingARhymeToKid.label>
+  <!--Original=kind words-->
+  <Kiiro_KindWords.label>다정한 말</Kiiro_KindWords.label>
+  <!--Original=r_logentryー&gt;[INITIATOR_nameDef] gave [RECIPIENT_nameDef] a little folding paper thing.-->
+  <!--Original=r_logentryー&gt;[INITIATOR_nameDef] made a paperfolding gift for [RECIPIENT_nameDef].-->
+  <!--Original=r_logentryー&gt;[INITIATOR_nameDef] gave [RECIPIENT_nameDef] a paper boat to honor their friendship.-->
+  <!--Original=r_logentryー&gt;[INITIATOR_nameDef] gave a paperfolding to[RECIPIENT_nameDef].-->
+  <Kiiro_PresentPaperFolding.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 종이로 접은 장신구를 줌.</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 종이접기를 만들어 [RECIPIENT_nameDef]에게 선물함.</li>
+    <li>r_logentry->[INITIATOR_nameDef](은)는 우정을 기리기 위해 [RECIPIENT_nameDef]에게 종이배를 선물함.</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 종이접기를 줌.</li>
+  </Kiiro_PresentPaperFolding.logRulesInitiator.rulesStrings>
+  <!--Original=r_logentryー&gt;[INITIATOR_nameDef]gently croon nursery rhymes for[RECIPIENT_nameDef].-->
+  <!--Original=r_logentryー&gt;[INITIATOR_nameDef]sing the songs of hometown for[RECIPIENT_nameDef].-->
+  <!--Original=r_logentryー&gt;[INITIATOR_nameDef]sing kiiro lullaby gently, [RECIPIENT_nameDef]listen quietly.-->
+  <Kiiro_SingARhymeToKid.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef](을)를 위해 동요를 부드럽게 흥얼거림.</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef](을)를 위해 고향의 노래를 부름.</li>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 키이로 동요를 부드럽게 부르고, [RECIPIENT_nameDef](은)는 조용히 들음.</li>
+  </Kiiro_SingARhymeToKid.logRulesInitiator.rulesStrings>
+  <!--Original=r_logentryー&gt;[INITIATOR_nameDef] [complimented] [RECIPIENT_nameDef]&apos;s [PersonalCharacteristic].-->
+  <!--Original=complimented(p=3)ー&gt;complimented-->
+  <!--Original=complimentedー&gt;praised-->
+  <!--Original=complimentedー&gt;commended-->
+  <!--Original=complimentedー&gt;lauded-->
+  <!--Original=complimentedー&gt;applauded-->
+  <!--Original=complimentedー&gt;celebrated-->
+  <!--Original=complimentedー&gt;saluted-->
+  <!--Original=complimentedー&gt;spoke kindly of-->
+  <!--Original=complimentedー&gt;expressed good things about-->
+  <!--Original=complimentedー&gt;offered kinds words about-->
+  <!--Original=complimentedー&gt;verbally appreciated-->
+  <!--Original=complimentedー&gt;expressed appreciation for-->
+  <!--Original=complimentedー&gt;said good things about-->
+  <Kiiro_KindWords.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef](은)는 [RECIPIENT_nameDef]의 [PersonalCharacteristic][complimented].</li>
+    <li>complimented(p=3)->(을)를 칭찬함</li>
+    <li>complimented->(을)를 치켜세움</li>
+    <li>complimented->(을)를 보고 엄지를 치켜세움</li>
+    <li>complimented->(을)를 보고 극찬함</li>
+    <li>complimented->(을)를 보고 박수를 침</li>
+    <li>complimented->(을)를 보고 축하해 줌</li>
+    <li>complimented->(을)를 보고 경례함</li>
+    <li>complimented->(을)를 보고 긍정적인 칭찬을 함</li>
+    <li>complimented->(을)를 보고 좋은 말로 표현해줌</li>
+    <li>complimented->(을)를 좋은 단어로 표현해줌</li>
+    <li>complimented->(을)를 보고 립서비스 해줌</li>
+    <li>complimented->(을)를 보고 인상깊게 감상을 표함</li>
+    <li>complimented->(을)를 보고 좋은 느낌을 받았다고 전함</li>
+  </Kiiro_KindWords.logRulesInitiator.rulesStrings>
+</LanguageData>
