@@ -1,4 +1,7 @@
-// 각 줄에서 겹슬래시 이후의 텍스트는 모두 주석으로 취급됩니다.
+// 각 줄에서 겹슬래시 "//" 및 별슬래시 "/*"에 이어지는 텍스트는 모두 주석으로 취급됩니다.
+// 번역 파일에 별슬래시를 사용하여 주석을 작성하면 추출 파일에도 가능한 보존됩니다.
+// "//*"와 같이 사용하면 겹슬래시로 취급됩니다.
+// 
 // 이름 추출시 아래와 같은 형태로 기록됩니다.
 // 
 // 키(원본 이름)->활성 이름
@@ -7,7 +10,7 @@
 // 원본 이름: 키가 가리키는 원래 이름입니다.
 // 활성 이름: 추출 시점에서 해당하는 키에 적용된 이름입니다. 이 부분을 수정한 파일을 정해진 경로에 위치시키면 림월드 실행 시 해당 이름으로 번역됩니다.
 // 
-// 이름은 "이름 '별명' 성" 세트로 구성되거나 단일 낱말입니다.
+// 이름은 "이름 [별명] 성" 세트로 구성되거나 단일 낱말입니다.
 // 이름의 각 구성 요소 내부의 공백은 반영되나, 양 끝의 공백은 제거됩니다.
 // 예를 들어, 별명 부분이 "  슝 좍  " 인 경우 "슝 좍"으로 적용됩니다.
 // 
@@ -106,13 +109,13 @@ HumanStandard.None.Last.Bell(Bell)->벨
 HumanStandard.None.Last.Beltran(Beltran)->벨트란
 HumanStandard.None.Last.Bender(Bender)->벤더
 HumanStandard.None.Last.Benitez(Benitez)->베니테스
-HumanStandard.None.Last.Benjamin(Benjamin)->벤자민
+HumanStandard.None.Last.Benjamin(Benjamin)->벤저민
 HumanStandard.None.Last.Bennett(Bennett)->베넷
 HumanStandard.None.Last.Benson(Benson)->벤슨
 HumanStandard.None.Last.Bentley(Bentley)->벤틀리
 HumanStandard.None.Last.Benton(Benton)->벤턴
 HumanStandard.None.Last.Berg(Berg)->버그
-HumanStandard.None.Last.Berger(Berger)->베르거
+HumanStandard.None.Last.Berger(Berger)->버거
 HumanStandard.None.Last.Bernard(Bernard)->버나드
 HumanStandard.None.Last.Berry(Berry)->베리
 HumanStandard.None.Last.Best(Best)->베스트
@@ -133,7 +136,7 @@ HumanStandard.None.Last.Boone(Boone)->분
 HumanStandard.None.Last.Booth(Booth)->부스
 HumanStandard.None.Last.Bowen(Bowen)->보웬
 HumanStandard.None.Last.Bowers(Bowers)->바워스
-HumanStandard.None.Last.Bowman(Bowman)->보우맨
+HumanStandard.None.Last.Bowman(Bowman)->보먼
 HumanStandard.None.Last.Boyd(Boyd)->보이드
 HumanStandard.None.Last.Boyer(Boyer)->보이어
 HumanStandard.None.Last.Boyle(Boyle)->보일
@@ -282,7 +285,7 @@ HumanStandard.None.Last.Dixon(Dixon)->딕슨
 HumanStandard.None.Last.Dodson(Dodson)->닷슨
 HumanStandard.None.Last.Dominguez(Dominguez)->도밍게스
 HumanStandard.None.Last.Donaldson(Donaldson)->도널드슨
-HumanStandard.None.Last.Donovan(Donovan)->도노반
+HumanStandard.None.Last.Donovan(Donovan)->도너번
 HumanStandard.None.Last.Dorsey(Dorsey)->도르시
 HumanStandard.None.Last.Dougherty(Dougherty)->도허티
 HumanStandard.None.Last.Douglas(Douglas)->더글라스
@@ -669,7 +672,7 @@ HumanStandard.None.Last.Morrison(Morrison)->모리슨
 HumanStandard.None.Last.Morrow(Morrow)->모로
 HumanStandard.None.Last.Morse(Morse)->모스
 HumanStandard.None.Last.Morton(Morton)->모턴
-HumanStandard.None.Last.Moses(Moses)->모세
+HumanStandard.None.Last.Moses(Moses)->모지스
 HumanStandard.None.Last.Mosley(Mosley)->모슬리
 HumanStandard.None.Last.Moss(Moss)->모스
 HumanStandard.None.Last.Moyer(Moyer)->모이어
@@ -1014,7 +1017,7 @@ HumanStandard.None.Nick.Loser(Loser)->루저
 HumanStandard.None.Nick.Poopy(Poopy)->응가
 HumanStandard.None.Nick.Rubber(Rubber)->고무
 HumanStandard.None.Nick.Dweeb(Dweeb)->샌님
-HumanStandard.None.Nick.Stumpy(Stumpy)->스텀피
+HumanStandard.None.Nick.Stumpy(Stumpy)->땅딸보
 HumanStandard.None.Nick.Lumpy(Lumpy)->덩어리
 HumanStandard.None.Nick.Zippy(Zippy)->지피
 HumanStandard.None.Nick.Maverick(Maverick)->매버릭
@@ -1029,12 +1032,12 @@ HumanStandard.None.Nick.Speedy(Speedy)->스피디
 HumanStandard.None.Nick.Sissy(Sissy)->시시
 HumanStandard.None.Nick.Fugly(Fugly)->존못
 HumanStandard.None.Nick.Pepper(Pepper)->페퍼
-HumanStandard.None.Nick.Shorty(Shorty)->쇼티
+HumanStandard.None.Nick.Shorty(Shorty)->꼬마
 HumanStandard.None.Nick.Philly(Philly)->필리
 HumanStandard.None.Nick.Gumpy(Gumpy)->멍청이
 HumanStandard.None.Nick.Happy(Happy)->해피
 HumanStandard.None.Nick.Sleepy(Sleepy)->슬리피
-HumanStandard.None.Nick.Grump(Grump)->불평가
+HumanStandard.None.Nick.Grump(Grump)->불평꾼
 HumanStandard.None.Nick.Smelly(Smelly)->스멜리
 HumanStandard.None.Nick.Stench(Stench)->스텐치
 HumanStandard.None.Nick.Hairy(Hairy)->헤어리
@@ -1046,7 +1049,7 @@ HumanStandard.None.Nick.Bucky(Bucky)->버키
 HumanStandard.None.Nick.Starry(Starry)->스타리
 HumanStandard.None.Nick.Nag(Nag)->잔소리
 HumanStandard.None.Nick.Sugar(Sugar)->슈가
-HumanStandard.None.Nick.Nails(Nails)->네일스
+HumanStandard.None.Nick.Nails(Nails)->악바리
 HumanStandard.None.Nick.Dumbo(Dumbo)->덤보
 HumanStandard.None.Nick.Smarty(Smarty)->스마티
 HumanStandard.None.Nick.Lover(Lover)->러버
@@ -1058,7 +1061,7 @@ HumanStandard.Male.First.Newton(Newton)->뉴턴
 HumanStandard.Male.First.Paine(Paine)->페인
 HumanStandard.Male.First.Seymour(Seymour)->시모어
 HumanStandard.Male.First.Virgil(Virgil)->버질
-HumanStandard.Male.First.Adrian(Adrian)->아드리안
+HumanStandard.Male.First.Adrian(Adrian)->에이드리언
 HumanStandard.Male.First.Calvin(Calvin)->캘빈
 HumanStandard.Male.First.Eugene(Eugene)->유진
 HumanStandard.Male.First.Greg(Greg)->그렉
@@ -1159,7 +1162,7 @@ HumanStandard.Male.First.Harvey(Harvey)->하비
 HumanStandard.Male.First.Jose(Jose)->호세
 HumanStandard.Male.First.Nate(Nate)->네이트
 HumanStandard.Male.First.Philip(Philip)->필립
-HumanStandard.Male.First.Sean(Sean)->션
+HumanStandard.Male.First.Sean(Sean)->숀
 HumanStandard.Male.First.Vince(Vince)->빈스
 HumanStandard.Male.First.Alberto(Alberto)->알베르토
 HumanStandard.Male.First.Chris(Chris)->크리스
@@ -1174,7 +1177,7 @@ HumanStandard.Male.First.William(William)->윌리엄
 HumanStandard.Male.First.James(James)->제임스
 HumanStandard.Male.First.Robert(Robert)->로버트
 HumanStandard.Male.First.Adam(Adam)->아담
-HumanStandard.Male.First.Aaron(Aaron)->아론
+HumanStandard.Male.First.Aaron(Aaron)->에런
 HumanStandard.Male.First.Richard(Richard)->리처드
 HumanStandard.Male.First.Nathan(Nathan)->네이선
 HumanStandard.Male.First.Mark(Mark)->마크
@@ -1438,7 +1441,7 @@ HumanStandard.Female.First.Vicky(Vicky)->비키
 HumanStandard.Female.First.Ana(Ana)->아나
 HumanStandard.Female.First.Erika(Erika)->에리카
 HumanStandard.Female.First.Grace(Grace)->그레이스
-HumanStandard.Female.First.Ida(Ida)->이다
+HumanStandard.Female.First.Ida(Ida)->아이다
 HumanStandard.Female.First.Kate(Kate)->케이트
 HumanStandard.Female.First.Mindy(Mindy)->민디
 HumanStandard.Female.First.Odette(Odette)->오데트
@@ -1582,7 +1585,7 @@ HumanStandard.Female.First.Ripley(Ripley)->리플리
 HumanStandard.Female.First.Paola(Paola)->파올라
 HumanStandard.Female.First.Gitta(Gitta)->지타
 HumanStandard.Female.First.Alisa(Alisa)->알리사
-HumanStandard.Female.First.Kim(Kim)->김
+HumanStandard.Female.First.Kim(Kim)->킴
 HumanStandard.Female.First.Ash(Ash)->애쉬
 HumanStandard.Female.First.Kelly(Kelly)->켈리
 HumanStandard.Female.First.Katten(Katten)->캐튼
