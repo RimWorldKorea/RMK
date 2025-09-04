@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <RimTalk.BioTab.RimTalkPersona>림토크 페르소나</RimTalk.BioTab.RimTalkPersona>
-  <RimTalk.TickManager.ApiKeyMissing>림토크: API 키가 입력되지 않았습니다.</RimTalk.TickManager.ApiKeyMissing>
+  <RimTalk.TickManager.ApiKeyMissing>림토크: API 키 또는 엔드포인트가 입력되지 않았습니다.</RimTalk.TickManager.ApiKeyMissing>
   <RimTalk.Personalities.CheerfulHelper>쾌활한 조력자 – 따뜻함, 긍정적, 남을 격려함. 항상 사기를 북돋으려 함.</RimTalk.Personalities.CheerfulHelper>
   <RimTalk.Personalities.CynicalRealist>냉소적 현실주의자 – 냉정함, 비꼬는 말투, 회의적. 가혹한 진실을 직설적으로 말함.</RimTalk.Personalities.CynicalRealist>
   <RimTalk.Personalities.ShyThinker>수줍은 사색가 – 조용함, 망설임. 말이 적지만 사려 깊게 말함.</RimTalk.Personalities.ShyThinker>
@@ -63,7 +63,7 @@
   <RimTalk.Settings.HideSkippedMessagesTooltip>활성화하면 쿨다운 또는 다른 이유로 인해 AI 처리 과정이 건너뛰어진 상호작용 메시지가 완전히 숨겨집니다. 여기에는 일반적으로 원래 텍스트를 표시했을 모드 추가 메시지도 포함됩니다.</RimTalk.Settings.HideSkippedMessagesTooltip>
   <RimTalk.Settings.DisplayTalkWhenDrafted>소집 시에도 대화 표시</RimTalk.Settings.DisplayTalkWhenDrafted>
   <RimTalk.Settings.DisplayTalkWhenDraftedTooltip>정착민이 소집 상태일 때도 림토크 말풍선을 표시합니다. 이는 대화 생성 중에 일시적으로 말풍선 모드 설정을 덮어씁니다.</RimTalk.Settings.DisplayTalkWhenDraftedTooltip>
-  <RimTalk.Settings.AIInstructionPrompt>AI 지침 프롬프트 (모델: gemma-3-27b-it)</RimTalk.Settings.AIInstructionPrompt>
+  <RimTalk.Settings.AIInstructionPrompt>AI 지침 프롬프트 (모델: {0})</RimTalk.Settings.AIInstructionPrompt>
   <RimTalk.Settings.ExternalEditorTip>팁: 여러 줄을 편집하려면 외부 편집 툴과 복사/붙여넣기를 활용하세요.</RimTalk.Settings.ExternalEditorTip>
   <RimTalk.Settings.AutoIncludedTip>팁: 정착민 세부 정보(특성, 관계, 종족, 나이 등)는 따로 적지 않아도 자동으로 포함됩니다. 모든 캐릭터와 정착지에게 적용할 수 있는 일반적인 지침을 작성하세요.</RimTalk.Settings.AutoIncludedTip>
   <RimTalk.Settings.RateLimitWarning>경고: 프롬프트의 길이가 길어질수록 더 많은 토큰을 소비하고 속도 제한에 더 빨리 도달합니다. 프롬프트 캐싱은 사용되지 않습니다.</RimTalk.Settings.RateLimitWarning>
@@ -80,20 +80,5 @@
   <RimTalk.PersonalityEditor.Updated>{0}의 대화 방식을 갱신함</RimTalk.PersonalityEditor.Updated>
   <RimTalk.PersonalityEditor.Random>무작위</RimTalk.PersonalityEditor.Random>
   <RimTalk.PersonalityEditor.Clear>지우기</RimTalk.PersonalityEditor.Clear>
-  <RimTalk.DefaultInstruction>Role-play RimWorld character per profile.
-
-Portrayal:
-Age/personality appropriate speech
-Skills: max 20, mood: 0-100
-Young: impulsive, respect elders
-Old: wise, formal
-Avoid repetition, improvise
-
-Rules:
-Keep conversation order
-Original names, no translation
-Keep dialogue short, {0} only, 1-2 sentences
-Harsh when fighting
-Concern for sick/mental issues
-If no one nearby, monologue</RimTalk.DefaultInstruction>
+  <RimTalk.Settings.BubbleFadeTip>팁: 빨리감기를 사용한 플레이 중에 대화문을 더 오랫동안 표시하려면 Interaction Bubbles 모드 설정에서 말풍선이 사라지기 시작하는 틱을 조정하세요.</RimTalk.Settings.BubbleFadeTip>
 </LanguageData>
