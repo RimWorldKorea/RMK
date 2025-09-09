@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>##packageId##CETeam.CombatExtended</li>
+        <li>##packageId##CETeam.CombatExtended_steam</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="RTMI_MobileSuit"]/verbs/*[.//*[contains(text(), 'Verb_LaunchProjectileStaticCE')]]/label</xpath>
+            <value>
+              <label>연막탄 발사</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="RTMI_MobileSuit"]/verbs/*[.//*[contains(text(), 'Verb_Jump')]]/label</xpath>
+            <value>
+              <label>점프</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="RTMI_MobileSuit"]/comps/li[1]/verbProps/li[1]/label</xpath>
+            <value>
+              <label>점프</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="RTMI_MobileSuit"]/comps/li[1]/verbProps/li[1]/visualLabel</xpath>
+            <value>
+              <visualLabel>점프 충전</visualLabel>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="RTMI_MobileSuit"]/comps/li[1]/verbProps/li[1]/description</xpath>
+            <value>
+              <description>높이 점프해서... 어... 그냥 울타리 넘으려고요.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="RTMI_MobileSuit"]/comps/li[1]/verbProps/li[2]/label</xpath>
+            <value>
+              <label>로켓 발사</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="RTMI_MobileSuit"]/comps/li[1]/verbProps/li[2]/visualLabel</xpath>
+            <value>
+              <visualLabel>ATGM 발사</visualLabel>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="RTMI_MobileSuit"]/comps/li[1]/verbProps/li[2]/description</xpath>
+            <value>
+              <description>대전차 유도 미사일 발사</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="RTMI_MobileSuit"]/comps/li[1]/verbProps/li[3]/visualLabel</xpath>
+            <value>
+              <visualLabel>연막탄 발사</visualLabel>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="RTMI_MobileSuit"]/comps/li[1]/verbProps/li[3]/description</xpath>
+            <value>
+              <description>연막 차폐탄 발사</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="RTMI_MobileSuit"]/comps/li[1]/verbProps/li[3]/label</xpath>
+            <value>
+              <label>연막탄 발사</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="RTMI_Gun_MachineGun"]/tools/li[1]/label</xpath>
+            <value>
+              <label>손잡이</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="RTMI_Gun_MachineGun"]/tools/li[2]/label</xpath>
+            <value>
+              <label>총열</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="RTMI_Gun_MachineGun"]/tools/li[3]/label</xpath>
+            <value>
+              <label>총구</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="RTMI_Gun_Autocannon"]/tools/li[1]/label</xpath>
+            <value>
+              <label>손잡이</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="RTMI_Gun_Autocannon"]/tools/li[2]/label</xpath>
+            <value>
+              <label>총열</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="RTMI_Gun_Autocannon"]/tools/li[3]/label</xpath>
+            <value>
+              <label>총구</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+</Patch>
