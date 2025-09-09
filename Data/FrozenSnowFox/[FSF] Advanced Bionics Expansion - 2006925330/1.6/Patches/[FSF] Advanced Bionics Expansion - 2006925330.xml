@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="FSFAdvBionicLung"]/description</xpath>
+          <value>
+            <description>설치된 고급 생체공학 폐. 최첨단 울트라테크 기술을 사용하여 제작된 고도로 발전된 인공 폐입니다. 의식 향상, 움직임 도움, 더 나은 숙면을 제공하는 향상된 호흡을 제공합니다. 플라스틸만큼 단단하며 미세 격자 치유 시스템을 통해 스스로 회복할 수 있습니다.\n\n미세 필터는 환경 독소의 섭취를 줄여 사용자가 오염된 환경에서 더 오래 생존할 수 있도록 합니다. 추가적으로 산성 연기 자극을 무효화하고 이 폐에서 폐 부식을 방지합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="FSFAdvBionicLung"]/description</xpath>
+          <value>
+            <description>최첨단 울트라테크 기술을 사용하여 제작된 고도로 발전된 인공 폐입니다. 의식 향상, 움직임 도움, 더 나은 숙면을 제공하는 향상된 호흡을 제공합니다. 플라스틸만큼 단단하며 미세 격자 치유 시스템을 통해 스스로 회복할 수 있습니다.\n\n미세 필터는 환경 독소의 섭취를 줄여 사용자가 오염된 환경에서 더 오래 생존할 수 있도록 합니다. 추가적으로 산성 연기 자극을 무효화하고 이 폐에서 폐 부식을 방지합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="FSFAdvBionicKidney"]/description</xpath>
+          <value>
+            <description>설치된 고급 생체공학 신장. 최첨단 울트라테크 기술을 사용하여 제작된 고도로 발전된 인공 신장입니다. 질병 및 감염과 싸우는 데 도움이 되는 향상된 혈액 여과를 제공합니다. 일련의 나노 필터를 사용하여 혈액에서 광범위한 독소를 신속하게 제거할 수 있어 환경 독소, 독소 및 주사된 독에 효과적입니다. 플라스틸만큼 단단하며 미세 격자 치유 시스템을 통해 스스로 회복할 수 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="FSFAdvBionicKidney"]/description</xpath>
+          <value>
+            <description>최첨단 울트라테크 기술을 사용하여 제작된 고도로 발전된 인공 신장입니다. 질병 및 감염과 싸우는 데 도움이 되는 향상된 혈액 여과를 제공합니다. 일련의 나노 필터를 사용하여 혈액에서 광범위한 독소를 신속하게 제거할 수 있어 환경 독소, 독소 및 주사된 독에 효과적입니다. 플라스틸만큼 단단하며 미세 격자 치유 시스템을 통해 스스로 회복할 수 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="FSFImplantTorsoRespirator"]/description</xpath>
+          <value>
+            <description>설치된 환경 필터. 호흡기 시스템에 연결된 작은 내부 모듈로, 환경 독소와 가스의 공기를 필터링합니다. 수집된 독소는 나중에 신체에서 무해하게 배출됩니다. 이 임플란트는 사용자가 오염된 환경에서 더 오래 생존할 수 있도록 합니다. 추가적으로 산성 연기 자극을 무효화하고 폐 부식을 방지합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="FSFImplantTorsoRespirator"]/description</xpath>
+          <value>
+            <description>호흡기 시스템에 연결된 작은 내부 모듈로, 환경 독소와 가스의 공기를 필터링합니다. 수집된 독소는 나중에 신체에서 무해하게 배출됩니다. 이 임플란트는 사용자가 오염된 환경에서 더 오래 생존할 수 있도록 합니다. 추가적으로 산성 연기 자극을 무효화하고 폐 부식을 방지합니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/HediffDef[defName="FSFImplantMechanitesHealing"]/description</xpath>
+    <value>
+      <description>호스트 내 부상을 신속하게 치유하도록 설계된 반응성 메카나이트의 일회용 용량. 매우 강력하여 흉터, 결손 장기 및 잃어버린 팔다리를 재생할 수 있습니다. 메카나이트가 작동하는 방식으로 인해 호스트의 신체 내부에는 하나의 메카나이트만 조화롭게 존재할 수 있습니다. 그러나 수술로 메카나이트를 제거할 수 있습니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="FSFImplantMechanitesHealing"]/description</xpath>
+    <value>
+      <description>호스트 내 부상을 신속하게 치유하도록 설계된 반응성 메카나이트의 일회용 용량. 매우 강력하여 흉터, 결손 장기 및 잃어버린 팔다리를 재생할 수 있습니다. 메카나이트가 작동하는 방식으로 인해 호스트의 신체 내부에는 하나의 메카나이트만 조화롭게 존재할 수 있습니다. 그러나 수술로 메카나이트를 제거할 수 있습니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/HediffDef[defName="FSFImplantTorsoResurrect"]/description</xpath>
+    <value>
+      <description>설치된 부활 코어. 죽은 사람을 부활시키도록 조율된 일회용 초대용량 메카나이트를 포함하는 작은 내구성 코어입니다. 호스트가 사망하면 코어가 그들의 마음을 유지하고, 선택할 때 몸을 재건합니다. 살은 빠르게 재생되어 결손 장기를 대체하고 상처를 치유합니다. 이 과정은 완벽하지 않아 흉터나 다른 건강 문제를 유발할 수 있습니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="FSFImplantTorsoResurrect"]/description</xpath>
+    <value>
+      <description>죽은 사람을 부활시키도록 조율된 일회용 초대용량 메카나이트를 포함하는 작은 내구성 코어입니다. 호스트가 사망하면 코어가 그들의 마음을 유지하고, 선택할 때 몸을 재건합니다. 살은 빠르게 재생되어 결손 장기를 대체하고 상처를 치유합니다. 이 과정은 완벽하지 않아 흉터나 다른 건강 문제를 유발할 수 있습니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/HediffDef[defName="FSFArchotechImplantTorsoImmortal"]/description</xpath>
+    <value>
+      <description>설치된 불멸 코어. 급속 재생을 통해 호스트를 불멸로 만드는 것으로 알려진 초월공학 디자인의 작은 내구성 코어입니다. 그 내부 작동 원리는 완전히 미스터리로, 어떻게 끝없이 사람을 재생할 수 있는지는 불분명합니다. 일단 이식되면, 코어는 장치를 손상시키지 않고는 제거할 수 없어 무력화됩니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="FSFArchotechImplantTorsoImmortal"]/description</xpath>
+    <value>
+      <description>급속 재생을 통해 호스트를 불멸로 만드는 것으로 알려진 초월공학 디자인의 작은 내구성 코어입니다. 그 내부 작동 원리는 완전히 미스터리로, 어떻게 끝없이 사람을 재생할 수 있는지는 불분명합니다. 일단 이식되면, 코어는 장치를 손상시키지 않고는 제거할 수 없어 무력화됩니다.</description>
+    </value>
+  </Operation>
+</Patch>
