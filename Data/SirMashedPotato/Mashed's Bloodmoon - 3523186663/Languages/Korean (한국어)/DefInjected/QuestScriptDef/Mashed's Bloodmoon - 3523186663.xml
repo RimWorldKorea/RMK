@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--Original=siteAmbushChance-->
+  <Mashed_Bloodmoon_OpportunitySite_FeralWerewolfPack.root.nodes.5.node.name>siteAmbushChance</Mashed_Bloodmoon_OpportunitySite_FeralWerewolfPack.root.nodes.5.node.name>
+  <!--Original=siteAmbushChance-->
+  <Mashed_Bloodmoon_OpportunitySite_FeralWerewolfPack.root.nodes.5.elseNode.name>siteAmbushChance</Mashed_Bloodmoon_OpportunitySite_FeralWerewolfPack.root.nodes.5.elseNode.name>
+  <!--Original=Quest expired: [resolvedQuestName]-->
+  <Mashed_Bloodmoon_OpportunitySite_FeralWerewolfPack.root.nodes.13.node.nodes.0.label>임무 만료: [resolvedQuestName]</Mashed_Bloodmoon_OpportunitySite_FeralWerewolfPack.root.nodes.13.node.nodes.0.label>
+  <!--Original=The feral werewolf pack has moved on to new hunting grounds. The quest [resolvedQuestName] has expired.-->
+  <Mashed_Bloodmoon_OpportunitySite_FeralWerewolfPack.root.nodes.13.node.nodes.0.text>아생 늑대인간 무리가 새로운 사냥터로 이동해 [resolvedQuestName] 임무가 만료되었습니다.</Mashed_Bloodmoon_OpportunitySite_FeralWerewolfPack.root.nodes.13.node.nodes.0.text>
+  <!--Original=Quest failed: [resolvedQuestName]-->
+  <Mashed_Bloodmoon_OpportunitySite_FeralWerewolfPack.root.nodes.14.node.nodes.0.label>임무 실패: [resolvedQuestName]</Mashed_Bloodmoon_OpportunitySite_FeralWerewolfPack.root.nodes.14.node.nodes.0.label>
+  <!--Original=After being discovered, the feral werewolf pack has dispersed, and is likely seeking a new hunting grounds. The quest [resolvedQuestName] has ended.-->
+  <Mashed_Bloodmoon_OpportunitySite_FeralWerewolfPack.root.nodes.14.node.nodes.0.text>위치가 파악된 야생 늑대인간 무리가 새로운 사냥터를 찾기 위해 흩어져 [resolvedQuestName] 임무가 끝났습니다.</Mashed_Bloodmoon_OpportunitySite_FeralWerewolfPack.root.nodes.14.node.nodes.0.text>
+  <!--Original=Payment arrived-->
+  <Mashed_Bloodmoon_OpportunitySite_FeralWerewolfPack.root.nodes.15.node.nodes.1.customLetterLabel>보상 도착함</Mashed_Bloodmoon_OpportunitySite_FeralWerewolfPack.root.nodes.15.node.nodes.1.customLetterLabel>
+  <!--Original=You have defeated the feral werewolf pack!\n\nThe payment has arrived.-->
+  <Mashed_Bloodmoon_OpportunitySite_FeralWerewolfPack.root.nodes.15.node.nodes.1.customLetterText>야생 늑대 무리를 처리했습니다!\n\n보상이 도착했습니다.</Mashed_Bloodmoon_OpportunitySite_FeralWerewolfPack.root.nodes.15.node.nodes.1.customLetterText>
+  <!--Original=[asker_faction_royalFavorLabel]-->
+  <Mashed_Bloodmoon_OpportunitySite_FeralWerewolfPack.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef>[asker_faction_royalFavorLabel]</Mashed_Bloodmoon_OpportunitySite_FeralWerewolfPack.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef>
+  <!--Original=These colonists participated in the victory for the quest [resolvedQuestName]. [asker_definite] wants to know who should receive the [royalFavorReward_amount] [asker_faction_royalFavorLabel] for this service.-->
+  <Mashed_Bloodmoon_OpportunitySite_FeralWerewolfPack.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.text.slateRef>이 정착민들은 [resolvedQuestName] 임무 성공의 주역들입니다. [asker_definite](은)는 누가 [asker_faction_royalFavorLabel]의 [royalFavorReward_amount](을)를 받아야 하는지 알고 싶어합니다.</Mashed_Bloodmoon_OpportunitySite_FeralWerewolfPack.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.text.slateRef>
+  <!--Original=questName(asker_factionLeader==True)ー&gt;[asker_nameDef]&apos;s [werewolf] [pack]-->
+  <!--Original=questName(asker_factionLeader==True)ー&gt;[asker_nameDef] and the [werewolf] [pack]-->
+  <!--Original=questName(askerIsNull==true)ー&gt;The [Color] [TerrainFeature] [location]-->
+  <!--Original=werewolfー&gt;Werewolf-->
+  <!--Original=werewolfー&gt;Hound-->
+  <!--Original=packー&gt;Pack-->
+  <!--Original=locationー&gt;Hunting Grounds-->
+  <Mashed_Bloodmoon_OpportunitySite_FeralWerewolfPack.questNameRules.rulesStrings>
+    <li>questName(asker_factionLeader==True)-&gt;[asker_nameDef]의 [werewolf] [pack]</li>
+    <li>questName(asker_factionLeader==True)-&gt;[asker_nameDef](와)과 [werewolf] [pack]</li>
+    <li>questName(askerIsNull==true)-&gt;[Color] [TerrainFeature] [location]</li>
+    <li>werewolf-&gt;늑대인간</li>
+    <li>werewolf-&gt;사냥개</li>
+    <li>pack-&gt;무리</li>
+    <li>location-&gt;사냥터</li>
+  </Mashed_Bloodmoon_OpportunitySite_FeralWerewolfPack.questNameRules.rulesStrings>
+  <!--Original=questDescription(asker_factionLeader==True)ー&gt;[asker_nameFull] has sent us a message. Apparently, a pack of feral werewolves have been attacking nearby settlements, and need to be dealt with while their location is known.\n\n[asker_nameDef] is asking us to deal with the pack, which means eliminating all of the feral werewolves at the site. There is an abandoned hunters cabin there, that we have permission to loot as a reward.-->
+  <Mashed_Bloodmoon_OpportunitySite_FeralWerewolfPack.questDescriptionRules.rulesStrings>
+    <li>questDescription(asker_factionLeader==True)-&gt;[asker_nameFull](이)가 우리에게 메시지를 보냈습니다. 야생 늑대인간 무리가 근처 정착지들을 공격하고 있으며, 위치가 파악되었을 때 처치해야 한다고 합니다.\n\n[asker_nameDef](은)는 우리에게 해당 지역의 모든 야생 늑대인간을 처치해달라고 요청하고 있습니다. 보상으로 그곳에 있는 버려진 사냥꾼 오두막을 마음대로 약탈해도 좋다고 합니다.</li>
+  </Mashed_Bloodmoon_OpportunitySite_FeralWerewolfPack.questDescriptionRules.rulesStrings>
+  <!--Original=questNameー&gt;Lost wanderer joins-->
+  <Mashed_Bloodmoon_LostWandererJoin.questNameRules.rulesStrings>
+    <li>questName-&gt;길 잃은 방랑자 합류</li>
+  </Mashed_Bloodmoon_LostWandererJoin.questNameRules.rulesStrings>
+  <!--Original=questDescriptionー&gt;-->
+  <Mashed_Bloodmoon_LostWandererJoin.questDescriptionRules.rulesStrings>
+    <li>questDescription-&gt;</li>
+  </Mashed_Bloodmoon_LostWandererJoin.questDescriptionRules.rulesStrings>
+</LanguageData>
