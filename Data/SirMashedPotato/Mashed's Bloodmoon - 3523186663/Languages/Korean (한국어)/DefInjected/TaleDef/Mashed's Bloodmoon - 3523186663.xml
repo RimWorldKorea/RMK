@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--Original=Huntsman&apos;s Moon-->
+  <Mashed_Bloodmoon_HuntsmansMoon.label>'사냥꾼'의 달</Mashed_Bloodmoon_HuntsmansMoon.label>
+  <!--Original=caravan ambushed by feral werewolves-->
+  <Mashed_Bloodmoon_CaravanAmbushedByWerewolves.label>상단이 야생 늑대인간들에게 습격받음</Mashed_Bloodmoon_CaravanAmbushedByWerewolves.label>
+  <!--Original=lycanthrope fury-->
+  <Mashed_Bloodmoon_MentalStateLycanthropeFury.label>야수인간 격노</Mashed_Bloodmoon_MentalStateLycanthropeFury.label>
+  <!--Original=tale_nounー&gt;a Huntsman&apos;s Moon over [PAWN_nameDef]&apos;s [Community]-->
+  <!--Original=imageー&gt;an ominous sky, [circumstance_group]-->
+  <!--Original=imageー&gt;an unnaturally red sky, [circumstance_phrase]-->
+  <!--Original=imageー&gt;a moon, glowing the colour of blood, [circumstance_phrase]-->
+  <!--Original=imageー&gt;[Quantity_adjphrase] [Animal]s growing restless, [circumstance_phrase]-->
+  <!--Original=circumstance_phraseー&gt;the air still and eerily quiet-->
+  <!--Original=circumstance_phraseー&gt;a red glow blanketing a nearby [TerrainFeature]-->
+  <!--Original=circumstance_phraseー&gt;a red glow blanketing [Quantity_adjphrase] nearby [TerrainFeature]s-->
+  <!--Original=circumstance_phraseー&gt;strange howling heard in the distance-->
+  <!--Original=circumstance_phraseー&gt;a trail of [Gore] leads towards a [TerrainFeature]-->
+  <!--Original=desc_sentenceー&gt;Below, [PAWN_nameDef] nervously grips [PAWN_possessive] weapon.-->
+  <!--Original=desc_sentenceー&gt;[PAWN_nameDef] stumbles upon the corpse of a [AnimalBadass] surrounded by [Gore].-->
+  <!--Original=desc_sentenceー&gt;A [Community] of spectators look at the moon nervously.-->
+  <Mashed_Bloodmoon_HuntsmansMoon.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]의 [Community]에서 목격된 '사냥꾼'의 달</li>
+    <li>image->[circumstance_group] 불길한 하늘</li>
+    <li>image->[circumstance_phrase] 부자연스럽게 붉은 하늘</li>
+    <li>image->[circumstance_phrase] 이 행성의 위성이 피처럼 붉게 빛나는 모습</li>
+    <li>image->[circumstance_phrase] [Quantity_adjphrase] 마리의 [Animal]이 불안해하는 모습</li>
+    <li>circumstance_phrase->주변 공기조차 섬뜩할 정도로 고요한 가운데</li>
+    <li>circumstance_phrase->붉은 빛이 [TerrainFeature] 주변을 뒤덮으며</li>
+    <li>circumstance_phrase->붉은 빛이 [Quantity_adjphrase] [TerrainFeature](을)를 뒤덮으며</li>
+    <li>circumstance_phrase->멀리서 이상한 울부짖음이 들리는 와중에</li>
+    <li>circumstance_phrase->[Gore]에 흔적이 [TerrainFeature](을)를 향해 이어지며</li>
+    <li>desc_sentence->아래에서 [PAWN_nameDef]의 손이 무기를 불안하게 쥐고 있습니다.</li>
+    <li>desc_sentence->[PAWN_nameDef](은)는 [Gore](으)로 뒤덮인 [AnimalBadass]의 시체를 우연히 발견하고 있습니다.</li>
+    <li>desc_sentence->[Community]의 구경꾼들이 초조해하며 달을 바라보고 있습니다.</li>
+  </Mashed_Bloodmoon_HuntsmansMoon.rulePack.rulesStrings>
+  <!--Original=tale_nounー&gt;[PAWN_nameDef]&apos;s caravan being hunted-->
+  <!--Original=imageー&gt;[PAWN_nameFull] cowering [circumstance_group]-->
+  <!--Original=imageー&gt;[PAWN_nameFull] moving to protect an ally [circumstance_group]-->
+  <!--Original=imageー&gt;[PAWN_nameFull] moving to attack [circumstance_group]-->
+  <!--Original=imageー&gt;[PAWN_nameFull] attacking [circumstance_group]-->
+  <!--Original=imageー&gt;[PAWN_nameFull] shouting loudly [circumstance_group]-->
+  <!--Original=imageー&gt;[PAWN_nameFull] running [circumstance_group]-->
+  <!--Original=circumstance_phraseー&gt;with a [AdjectiveBadass] expression-->
+  <!--Original=circumstance_phraseー&gt;with a [AdjectiveBadass] expression-->
+  <!--Original=circumstance_phraseー&gt;while wielding [PAWN_possessive] weapon-->
+  <!--Original=circumstance_phraseー&gt;while sweating with exertion-->
+  <!--Original=circumstance_phraseー&gt;while covered with [Gore]-->
+  <!--Original=desc_sentenceー&gt;[Quantity_adjphrase] distant beasts approach from behind a [TerrainFeature].-->
+  <!--Original=desc_sentenceー&gt;[Gore] covers the ground.-->
+  <!--Original=desc_sentenceー&gt;The ground has been trampled into a mess of [Gore].-->
+  <!--Original=desc_sentenceー&gt;[Quantity_adjphrase] [Animal]s flee the scene of conflict in fear.-->
+  <!--Original=desc_sentenceー&gt;In the distance, a [PersonJob] observes.-->
+  <Mashed_Bloodmoon_CaravanAmbushedByWerewolves.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]의 상단이 사냥당하는 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] 엄폐한 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] 동료를 보호하러 이동하는 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] 적을 공격하러 나가는 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] 공격하는 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] 고함치는 모습</li>
+    <li>image->[PAWN_nameFull](이)가 [circumstance_group] 달려가는 모습</li>
+    <li>circumstance_phrase->[AdjectiveBadass] 표정으로</li>
+    <li>circumstance_phrase->[AdjectiveBadass] 표정으로</li>
+    <li>circumstance_phrase->자신의 무기를 쥐고</li>
+    <li>circumstance_phrase->긴장해 땀흘리며</li>
+    <li>circumstance_phrase->[Gore](을)를 뒤집어 쓰고</li>
+    <li>desc_sentence->먼 곳의 [TerrainFeature] 뒤에서 [Quantity_adjphrase] 마리의 야수가 접근하고 있습니다.</li>
+    <li>desc_sentence->[Gore](이)가 땅을 뒤덮고 있습니다.</li>
+    <li>desc_sentence->[Gore](이)가 땅을 뒤덮고 있습니다.</li>
+    <li>desc_sentence->[Quantity_adjphrase] 마리의 [Animal]들이 놀라 도망가고 있습니다.</li>
+    <li>desc_sentence->멀리서 상황을 관측하는 [PersonJob]의 모습이 보입니다.</li>
+  </Mashed_Bloodmoon_CaravanAmbushedByWerewolves.rulePack.rulesStrings>
+  <!--Original=tale_nounー&gt;[PAWN_nameDef] entering a lycanthrope fury-->
+  <!--Original=imageー&gt;[PAWN_nameFull] losing control of [PAWN_possessive] inner beast [circumstance_group]-->
+  <!--Original=imageー&gt;[PAWN_nameFull] succumbing to a ravenous hunger [circumstance_group]-->
+  <!--Original=imageー&gt;[PAWN_nameFull] stumbling forward with a predatory look on [PAWN_possessive] face [circumstance_group]-->
+  <!--Original=circumstance_phraseー&gt;while clawing at [PAWN_possessive] face-->
+  <!--Original=circumstance_phraseー&gt;as others cower in fear-->
+  <!--Original=circumstance_phraseー&gt;as a friend flees-->
+  <!--Original=circumstance_phraseー&gt;because of the stress-->
+  <!--Original=desc_sentenceー&gt;[PAWN_pronoun] is tearing apart nearby furniture.-->
+  <!--Original=desc_sentenceー&gt;[PAWN_possessive] teeth are bared in a deadly snarl.-->
+  <!--Original=desc_sentenceー&gt;[PAWN_possessive] eyes glow red with an insatiable hunger.-->
+  <!--Original=desc_sentenceー&gt;Spittle is flying from [PAWN_possessive] mouth as [PAWN_possessive] howls with beastial fury.-->
+  <!--Original=desc_sentenceー&gt;[PAWN_pronoun] is depicted with the snarling face of a [AnimalBadass].-->
+  <!--Original=desc_sentenceー&gt;[PAWN_pronoun] is covered in [Gore].-->
+  <!--Original=desc_sentenceー&gt;[PAWN_pronoun] ravenously devours the corpse of a [AnimalBadass].-->
+  <!--Original=desc_sentenceー&gt;[PAWN_pronoun] howls at the moon.-->
+  <Mashed_Bloodmoon_MentalStateLycanthropeFury.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef]의 야수인간 격노 이야기</li>
+    <li>image->[circumstance_group] 내면의 야성을 통제하지 못하는 [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] 게걸스러운 허기에 굴복하는 [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] [PAWN_nameFull](이)가 포식자의 표정을 지으며 앞으로 비틀거리는 모습</li>
+    <li>circumstance_phrase->자신의 얼굴을 긁으며</li>
+    <li>circumstance_phrase->드디어</li>
+    <li>circumstance_phrase->한심하게도</li>
+    <li>circumstance_phrase->스트레스 때문에</li>
+    <li>desc_sentence->주변의 가구를 찢고 있는 [PAWN_pronoun]의 모습이 보입니다.</li>
+    <li>desc_sentence->이빨을 드러내며 위협적인 소리를 내는 [PAWN_possessive] 모습이 보입니다.</li>
+    <li>desc_sentence->채워지지 않는 굶주림으로 붉게 빛나는 [PAWN_possessive] 눈이 보입니다.</li>
+    <li>desc_sentence->침을 튀기며 짐승같은 분노의 포효를 지르는 [PAWN_possessive] 모습이 보입니다.</li>
+    <li>desc_sentence->[PAWN_pronoun]의 얼굴은 으르렁대는 [AnimalBadass]처럼 묘사되고 있습니다.</li>
+    <li>desc_sentence->[Gore](으)로 뒤덮인 [PAWN_pronoun]의 모습이 보입니다.</li>
+    <li>desc_sentence->[AnimalBadass]의 시체를 게걸스럽게 먹어치우는 [PAWN_pronoun]의 모습이 보입니다.</li>
+    <li>desc_sentence->달을 향해 포효하는 [PAWN_pronoun]의 모습이 보입니다.</li>
+  </Mashed_Bloodmoon_MentalStateLycanthropeFury.rulePack.rulesStrings>
+</LanguageData>
