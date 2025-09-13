@@ -7,13 +7,13 @@
   <AC_CancelBringingProduceDesc>고급 발효기의 생산물 투입을 취소합니다.</AC_CancelBringingProduceDesc>
   <AC_VinegarFailurePower>고급 발효기에 전기 공급이 끊겨 제품이 손상되었습니다.</AC_VinegarFailurePower>
   <AC_CaskNotWorking>이 고급 발효기는 현재 작동하지 않습니다</AC_CaskNotWorking>
-  <AC_DisableQuests>교역품 거래 임무 비활성화</AC_DisableQuests>
-  <AC_DisableQuests_Description>교역품 거래 임무가 발동되지 않도록 합니다. 이 임무는 다른 임무나 이야기꾼 사건(습격, 인간 사냥 등)와 무관하다는 점을 명심하세요. 그들은 "슬롯을 차지"하지 않습니다.</AC_DisableQuests_Description>
-  <AC_QuestRate>교역품 거래 임무 등장 배율 (낮을수록 발생 빈도가 높음)</AC_QuestRate>
-  <AC_QuestRateTooltip>교역품 거래 임무가 제공되는 빈도는 이 숫자에 의해 곱해집니다 (배율이 1이면 15일에서 30일 사이에 무작위로 제공됩니다). 1보다 작은 숫자는 시간을 줄이고, 1보다 큰 숫자는 시간을 늘립니다. 이 이벤트는 일반 임무를 "대체"하는 것이 아니라 독립적으로 작동합니다.</AC_QuestRateTooltip>
-  <AC_MarketValueModifier>교역품 시장 가치 조절</AC_MarketValueModifier>
-  <AC_MarketValueModifierTooltip>교역품의 시장 가치는 이 비율에 따라 곱해집니다. 0.1은 교역품이 기본적으로 가치가 없다는 것을 의미하고, 5는 그 가치를 5배로 늘려 이익을 5배로 늘립니다. 발효된 생선으로 백만장자를 만들어도 저는 상관없습니다!</AC_MarketValueModifierTooltip>
-  <AC_StatsReport_ArtisanProduct>교역품 모드 설정 배율 x{0}</AC_StatsReport_ArtisanProduct>
+  <AC_DisableQuests>특산물 거래 임무 비활성화</AC_DisableQuests>
+  <AC_DisableQuests_Description>특산물 거래 임무가 발동되지 않도록 합니다. 이 임무는 다른 임무나 이야기꾼 사건(습격, 인간 사냥 등)와 무관하다는 점을 명심하세요. 그들은 "슬롯을 차지"하지 않습니다.</AC_DisableQuests_Description>
+  <AC_QuestRate>특산물 거래 임무 등장 배율 (낮을수록 발생 빈도가 높음)</AC_QuestRate>
+  <AC_QuestRateTooltip>특산물 거래 임무가 제공되는 빈도는 이 숫자에 의해 곱해집니다 (배율이 1이면 15일에서 30일 사이에 무작위로 제공됩니다). 1보다 작은 숫자는 시간을 줄이고, 1보다 큰 숫자는 시간을 늘립니다. 이 이벤트는 일반 임무를 "대체"하는 것이 아니라 독립적으로 작동합니다.</AC_QuestRateTooltip>
+  <AC_MarketValueModifier>특산물 시장 가치 조절</AC_MarketValueModifier>
+  <AC_MarketValueModifierTooltip>특산물의 시장 가치는 이 비율에 따라 곱해집니다. 0.1은 특산물이 기본적으로 가치가 없다는 것을 의미하고, 5는 그 가치를 5배로 늘려 이익을 5배로 늘립니다. 발효된 생선으로 백만장자를 만들어도 저는 상관없습니다!</AC_MarketValueModifierTooltip>
+  <AC_StatsReport_ArtisanProduct>특산물 모드 설정 배율 x{0}</AC_StatsReport_ArtisanProduct>
   <AC_Reset>초기화</AC_Reset>
   <AC_CondimentEffects>조미료 효과</AC_CondimentEffects>
   <AC_CondimentEffectsTitle>VE Cooking이 있는 경우 조미료 역할을 합니다</AC_CondimentEffectsTitle>
@@ -21,7 +21,7 @@
   <AC_CondimentEffectsSourCream>우유를 식초로 응고시켜 만든 새콤하고 부드러운 유제품으로, 풍부한 질감과 맛을 제공하여 짭짤하고 달콤한 요리를 모두 향상시키는 데 적합합니다. 12시간 동안 면역 획득 속도 +5%를 제공하지만, 이동 속도가 약간 감소합니다.</AC_CondimentEffectsSourCream>
   <AC_CondimentEffectsButtermilk>우유와 레몬즙을 섞어 만든 새콤하고 약간 걸쭉한 유제품으로, 제빵과 요리에 일반적으로 사용되어 레시피에 수분과 미묘한 산도를 더합니다. 12시간 동안 부상 치유 계수 +12%를 제공합니다. 그러나 후천적인 맛으로 인해 사회적 영향력이 약간 감소합니다.</AC_CondimentEffectsButtermilk>
   <AC_CondimentEffectsCondensedMilk>우유를 졸여 만든 걸쭉하고 달콤한 유제품으로, 디저트, 제빵 또는 다양한 레시피의 오래 지속되는 재료로 흔히 사용됩니다. 기분을 좋게 하는 달콤함으로 12시간 동안 정신 민감도 +15%를 제공하지만, 먹은 사람을 무기력하게 만들어 휴식 감소율도 +5% 증가시킵니다.</AC_CondimentEffectsCondensedMilk>
-  <AC_CondimentEffectsVinegar>농산물을 발효시켜 만든 날카롭고 신맛이 나는 액체로, 요리, 음식 보존, 교역품 제작에 사용됩니다. 몸 안의 유독 물질을 정화하는 특징이 있어 12시간 동안 독소 저항을 10% 증가시킵니다.</AC_CondimentEffectsVinegar>
+  <AC_CondimentEffectsVinegar>농산물을 발효시켜 만든 날카롭고 신맛이 나는 액체로, 요리, 음식 보존, 특산물 제작에 사용됩니다. 몸 안의 유독 물질을 정화하는 특징이 있어 12시간 동안 독소 저항을 10% 증가시킵니다.</AC_CondimentEffectsVinegar>
   <AC_CondimentEffectsFishSauce>생선으로 만든 짭짤하고 발효된 액체로, 풍미 있는 조미료로 흔히 사용됩니다. 12시간 동안 조작 +8%를 제공하고 요리 및 제작에 대한 손재주를 향상시키지만 강한 냄새로 인해 사회적 영향력을 낮춥니다.</AC_CondimentEffectsFishSauce>
   <AC_CondimentEffectsMiso>콩을 누룩과 함께 발효시켜 만든 전통적인 장으로, 풍부하고 짭짤한 맛으로 유명합니다. 12시간 동안 정신 민감도 +5% 및 혈액 여과 +5%를 제공합니다.</AC_CondimentEffectsMiso>
   <AC_CondimentEffectsBlackGarlic>흑마늘은 마늘을 숙성시켜 만든 조미료로, 발효와 유사한 과정을 거쳐 부드럽고 검은 색깔의 마늘쪽이 됩니다. 12시간 동안 매우 약한 상처 재생 효과를 제공합니다.</AC_CondimentEffectsBlackGarlic>
@@ -32,8 +32,16 @@
   <AC_CondimentEffectsEssence>순수한 과일, 허브, 향신료와 같은 재료의 풍미나 향을 농축한 추출물입니다. 이를 섭취하면 상쾌한 기분이 들고, 신체 장기를 수확할 준비가 되며, 12시간 동안 의료 작업 속도와 의료 시술 속도가 5% 증가합니다.</AC_CondimentEffectsEssence>
   <AC_CantRunQuest>현재 임무를 실행할 수 없습니다 (원인 가능성: 세계에 퀘스트를 제공할 동맹 없음)</AC_CantRunQuest>
   <AC_UseDropdownForMachines>기계에 드롭다운 지정자 사용 (게임 재시작 필요)</AC_UseDropdownForMachines>
-  <AC_UseDropdownForMachines_Description>이 옵션이 켜져 있으면 이 모드에서 추가된 모든 건물이 교역품 작업대의 단일 지정자 아래에 나타나며, 클릭하면 드롭다운 메뉴가 나타나 나머지를 선택할 수 있습니다. 사람들이 혼란스러워하므로 기본적으로 꺼져 있습니다. 게임 재시작이 필요합니다.</AC_UseDropdownForMachines_Description>
+  <AC_UseDropdownForMachines_Description>이 옵션이 켜져 있으면 이 모드에서 추가된 모든 건물이 특산물 작업대의 단일 지정자 아래에 나타나며, 클릭하면 드롭다운 메뉴가 나타나 나머지를 선택할 수 있습니다. 사람들이 혼란스러워하므로 기본적으로 꺼져 있습니다. 게임 재시작이 필요합니다.</AC_UseDropdownForMachines_Description>
   <AC_CondimentEffectsJam>과일을 설탕과 함께 졸여 만든 달콤한 스프레드로, 잼은 잘 익은 과일의 풍미를 보존하면서 걸쭉하고 바르기 좋은 질감을 만듭니다. 2일 동안 부정적인 기억의 지속 시간을 20% 줄여 잠시 문제를 잊게 해줍니다.</AC_CondimentEffectsJam>
   <AC_CondimentEffectsGhee>풍부하고 고소한 풍미를 지닌 정제 버터로, 높은 발연점과 긴 유통기한으로 가치를 인정받습니다. 12시간 동안 혈액 순환에 12% 보너스를 주고 면역력 증가 속도에 2.5% 보너스를 줍니다.</AC_CondimentEffectsGhee>
   <AC_CondimentEffectsGravy>고기 육즙과 풍미 있는 육수를 섞어 만든 진하고 풍미 넘치는 소스로, 부드러운 질감과 강렬한 맛을 위해 걸쭉하게 만들었습니다. 12시간 동안 동물 부산물 채집 속도와 수확량을 10% 증가시킵니다.</AC_CondimentEffectsGravy>
+  <AC_InfuserNotWorking>이 향료 주입기는 작동하지 않습니다.</AC_InfuserNotWorking>
+  <AC_TargetAPawn>정착민을 지정해야 함</AC_TargetAPawn>
+  <AC_NotOnGhouls>구울에게는 사용 불가</AC_NotOnGhouls>
+  <AC_CondimentEffectsOil>다용도로 사용되는 고품질 액체로, 요리, 공예 및 다양한 특산물 생산 공정에 사용됩니다. 12시간 동안 독성 환경 저항을 10% 증가시킵니다.</AC_CondimentEffectsOil>
+  <AC_CondimentEffectsInfusedOil>향미유는 식용유와 생약, 향신료를 향료 주입기에 넣어 우려내어 만듭니다. 12시간 동안 독성 환경 저항을 20% 증가시킵니다.</AC_CondimentEffectsInfusedOil>
+  <AC_CondimentEffectsBalsamicVinegar>식초에 과일의 당분을 천천히 스며들게 하면, 혼합물은 풍미가 깊고 진한 검붉은 빛의 발사믹 식초가 됩니다. 정화 효과에 걸맞게 12시간 동안 독소 저항을 15% 높여줍니다.</AC_CondimentEffectsBalsamicVinegar>
+  <AC_CondimentEffectsSkySyrup>에어로플릿의 블루젤을 증류해 만든 희귀하고 반짝이는 시럽입니다. 공기처럼 가볍지만 풍부하게 달콤합니다. 12시간 동안 정착민이 약간 공중에 떠다니며 지형 이동 속도 불이익을 무시하게 합니다.</AC_CondimentEffectsSkySyrup>
+  <AC_CondimentEffectsVegemite>맥아즙과 퓌레로 만든 짭짤한 페이스트입니다. 감칠맛이 풍부하며, 독특한 맛만큼이나 호불호가 갈립니다. 12시간 동안 전역 작업 속도를 10% 증가시킵니다.</AC_CondimentEffectsVegemite>
 </LanguageData>

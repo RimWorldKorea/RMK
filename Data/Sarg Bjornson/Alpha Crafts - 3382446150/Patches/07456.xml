@@ -234,7 +234,7 @@
             <success>Always</success>
             <xpath>/Defs/RecipeDef[defName="AC_PrepareSurstromming"]/description</xpath>
             <value>
-              <description>생선을 보존 과정을 통해 염장하여 강렬한 풍미로 유명한 독특한 요리인 수르스트뢰밍으로 만듭니다. 레시피의 수율은 통조림을 얻기 위해 사용되는 생선에 따라 달라집니다.</description>
+              <description>생선을 보존 과정을 통해 염장하여 강렬한 풍미로 유명한 독특한 요리인 수르스트뢰밍으로 만듭니다. 수율은 재료에 따라 달라지며, 아귀 10마리, 소금 5병, 철 1개로 수르스트뢰밍 10개를 만들 수 있습니다.</description>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -249,6 +249,70 @@
             <xpath>/Defs/RecipeDef[defName="AC_PrepareSurstromming"]/ingredients/li[1]/filter/customSummary</xpath>
             <value>
               <customSummary>생선</customSummary>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Odyssey</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Fishing Expanded</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AC_PrepareRoe"]/label</xpath>
+            <value>
+              <label>어란 채취</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AC_PrepareRoe"]/description</xpath>
+            <value>
+              <description>이 과정은 신선한 생선 알을 조심스럽게 보존하여 섬세한 질감과 풍부하고 짭짤한 풍미를 유지합니다. 수율은 재료에 따라 달라지며, 아귀 10마리로 어란 3개를 얻을 수 있습니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AC_PrepareRoe"]/jobString</xpath>
+            <value>
+              <jobString>어란 채취 중</jobString>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="AC_PrepareRoe"]/ingredients/li[1]/filter/customSummary</xpath>
+            <value>
+              <customSummary>물고기</customSummary>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PipeSystem.ProcessDef[defName="AC_FishToFishSauce"]/label</xpath>
+            <value>
+              <label>생선을 액젓으로 발효</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PipeSystem.ProcessDef[defName="AC_FishToFishSauce"]/description</xpath>
+            <value>
+              <description>생선 10마리를 액젓 25개로 발효합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/PipeSystem.ProcessDef[defName="AC_FishToFishSauce"]/labelOverride</xpath>
+            <value>
+              <labelOverride>생선 10마리를 액젓 25개로 발효</labelOverride>
             </value>
           </li>
         </operations>
