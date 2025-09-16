@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <Kiiro_WanderingMerchant.label>떠도는 키이로 상인</Kiiro_WanderingMerchant.label>
+  <!-- EN:
+    <li>questDescription->A [merchantPawnKind_label] is wandering outside the colony. [merchantOwner_pronoun] claims to be from a distant town and fled in haste after hometown is attacked by pirates, leaving behind the goods from shop. After a long journey, [merchantOwner_pronoun] has arrived here and is pleading for your colony to take [merchantOwner_pronoun] in. [merchantOwner_pronoun] wishes to use remaining savings and skills to establish a new [merchantDef_label] here.\n\nThe merchant will not perform any work, and you will need to provide a room to serve as their shop. You can trade with [merchantOwner_pronoun] in the shop.</li>
+  -->
+  <Kiiro_WanderingMerchant.questDescriptionRules.rulesStrings>
+    <li>questDescription->한 [merchantPawnKind_label]이(가) 정착지 경계를 서성이고 있습니다. [merchantOwner_pronoun]는 자신이 먼 마을에서 왔다고 주장하며, 고향에서 해적의 습격을 받아 상점의 물건을 챙길 겨를도 없이 급히 도망쳐 이곳까지 흘러들었다고 말합니다. [merchantOwner_pronoun]는 당신의 정착지가 자신을 받아들여 주기를 간청하며, 남은 약간의 자금과 자신의 기술을 바탕으로 이곳에서 새로운 [merchantDef_label]를 열고 싶어 합니다. 상인은 어떠한 일도 하지 않으며, 상점으로 쓸 방을 제공해야 합니다. 당신은 [merchantOwner_pronoun]와 상점에서 거래할 수 있습니다.</li>
+  </Kiiro_WanderingMerchant.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->wandering kiiro merchant</li>
+  -->
+  <Kiiro_WanderingMerchant.questNameRules.rulesStrings>
+    <li>questName->떠도는 키이로 상인</li>
+  </Kiiro_WanderingMerchant.questNameRules.rulesStrings>
+  <!-- EN: Kiiro merchant owner died: {SUBJECT_definite} -->
+  <Kiiro_WanderingMerchant.root.nodes.laborersDestroyed.node.nodes.Letter.label.slateRef>키이로 상인 죽음 : {SUBJECT_definite}</Kiiro_WanderingMerchant.root.nodes.laborersDestroyed.node.nodes.Letter.label.slateRef>
+  <!-- EN: Kiiro merchant owner has dead. -->
+  <Kiiro_WanderingMerchant.root.nodes.laborersDestroyed.node.nodes.Letter.text.slateRef>키이로 상인이 죽었습니다.</Kiiro_WanderingMerchant.root.nodes.laborersDestroyed.node.nodes.Letter.text.slateRef>
+  <!-- EN: Kiiro merchant leaving -->
+  <Kiiro_WanderingMerchant.root.nodes.permitFactionBecameHostileToPlayer.node.nodes.Letter.label.slateRef>키이로 상인 떠남</Kiiro_WanderingMerchant.root.nodes.permitFactionBecameHostileToPlayer.node.nodes.Letter.label.slateRef>
+  <!-- EN: Due to the hostile relationship with us, Kiiro merchants has ceased their settling-in. -->
+  <Kiiro_WanderingMerchant.root.nodes.permitFactionBecameHostileToPlayer.node.nodes.Letter.text.slateRef>키이로와 적대적인 관계가 되어 상인이 떠납니다.</Kiiro_WanderingMerchant.root.nodes.permitFactionBecameHostileToPlayer.node.nodes.Letter.text.slateRef>
+  
+</LanguageData>
