@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Merchant Investigate -->
+  <Kiiro.InvestigateMerchant>상인 수소문</Kiiro.InvestigateMerchant>
+  <!-- EN: Investigate the types of merchants that can be recruited in this town. -->
+  <Kiiro.InvestigateMerchantDesc>이 정착지에서 무슨 상인을 고용할 수 있는지 조사합니다.</Kiiro.InvestigateMerchantDesc>
+  <!-- EN: you have already investigated in this town. -->
+  <Kiiro.merchantInvestigated>이미 이 마을을 조사했습니다.</Kiiro.merchantInvestigated>
+
+  <!-- EN: Merchant recruitment -->
+  <Kiiro.InviteMerchant>상인 초대</Kiiro.InviteMerchant>
+  <!-- EN: Recruit the merchants of this town to settle in the colony. -->
+  <Kiiro.InviteMerchantDesc>정착지에 상인을 고용합니다.</Kiiro.InviteMerchantDesc>
+  <!-- EN: Too far from the colony. -->
+  <Kiiro.InviteMerchantTooFar>정착지에서 너무 멉니다.</Kiiro.InviteMerchantTooFar>
+  <!-- EN: You are not alliance with the kiiro. -->
+  <Kiiro.InviteMerchantNotAlly>당신은 키이로와 동맹이 아닙니다.</Kiiro.InviteMerchantNotAlly>
+  <!-- EN: Recruitment has recently taken place in {1}. Too frequent activities will affect the daily life of kiiro residents, and it is better to wait for a period of time. \nneeds to wait for {0} to recruit merchants again in {1}. -->
+  <Kiiro.InviteMerchantCooldown>당신은 최근에 {1}에서 상인을 모집했습니다. 너무 잦은 모집은 키이로의 일상에 문제가 생길 것입니다. \n 다음 모집까지 {0}가 지나야 {1} 에서 상인을 모집할 수 있습니다.</Kiiro.InviteMerchantCooldown>
+  
+  <!-- EN: It is not clear what types of merchants can be recruited at {0}. -->
+  <Kiiro.SettlementMerchantUnknown>아직 {0}에서 모집할 수 있는 상인 유형을 모릅니다.</Kiiro.SettlementMerchantUnknown>
+  <!-- EN: At {0}, can recruite -->
+  <Kiiro.SettlementMerchantKind>{0}에서 상인을 모집할 수 있습니다.</Kiiro.SettlementMerchantKind>
+  <!-- EN: No merchants can be recruited at {0}. -->
+  <Kiiro.SettlementMerchantKind_Empty>{0}에서 모집할 수 있는 상인이 없습니다.</Kiiro.SettlementMerchantKind_Empty>
+  <!-- EN: Approximately {0} from merchant changes. -->
+  <Kiiro.SettlementMerchant_RefreshInfo>{0}의 상인 종류가 변경되었습니다.</Kiiro.SettlementMerchant_RefreshInfo>
+
+  <!-- EN: trade with {0}'s {1} -->
+  <Kiiro.TradeWith>{0}의 {1}에서 거래</Kiiro.TradeWith>
+  <!-- EN: {0} {1} -->
+  <Kiiro.MerchantTrack>{0} {1}</Kiiro.MerchantTrack>
+
+  <!-- EN: Can not trade since there is no bound shop for {0} now. \n\nSelect a free cash register to bind the room to {0}. -->
+  <Kiiro.MerchantUnclaimed>{0}에게 연결된 상점이 없어서 거래할 수 없습니다. \n\n소유되지 않은 계산기를 {0}에게 지정해주세요.</Kiiro.MerchantUnclaimed>
+  <!-- EN: {0} has been bound to the store. \n\nClick to jump to {0}'s shop. -->
+  <Kiiro.MerchantClaimed>{0}가 상점과 연결되었습니다. \n\n클릭해서 {0}의 상점으로 바로가기.</Kiiro.MerchantClaimed>
+
+  <!-- EN: merchant management -->
+  <Kiiro.MerchantManagement>상인 관리</Kiiro.MerchantManagement>
+  <!-- EN: repatriate -->
+  <Kiiro.MerchantManagement_Leave>계약 해지</Kiiro.MerchantManagement_Leave>
+
+  <!-- EN: {0}'s {1} -->
+  <Kiiro.merchantName>{0}의  {1}</Kiiro.merchantName>
+
+  <!-- EN: Assign this register to a specific merchant. -->
+  <Kiiro.CommandMerchantSetOwnerDesc>이 계산기를 유효한 상인과 연결해주세요.</Kiiro.CommandMerchantSetOwnerDesc>
+
+  <!-- EN: merchant -->
+  <Kiiro.MerchantRoom_Kind>상인</Kiiro.MerchantRoom_Kind>
+  <!-- EN: merchant level -->
+  <Kiiro.MerchantRoom_Level>수준</Kiiro.MerchantRoom_Level>
+  <!-- EN: merchant size -->
+  <Kiiro.MerchantRoom_Space>크기</Kiiro.MerchantRoom_Space>
+  <!-- EN: merchant hours -->
+  <Kiiro.Merchant_OpeningTime>영업한 시간</Kiiro.Merchant_OpeningTime>
+  <!-- EN: Time from next replenishment -->
+  <Kiiro.Merchant_NextRefresh>다음 재고 보충까지</Kiiro.Merchant_NextRefresh>
+
+  <!-- placeworker -->
+  <!-- EN: Must be placed in the room. -->
+  <Kiiro.CashierPlaceInfo_Indoor>실내에 배치되어야 합니다.</Kiiro.CashierPlaceInfo_Indoor>
+  <!-- EN: Only one cashier can be placed in the same room. -->
+  <Kiiro.CashierPlaceInfo_Only>한 건물에 한 계산대만 배치할 수 있습니다.</Kiiro.CashierPlaceInfo_Only>
+
+  <Kiiro.NoAssignedMerchant>상인 연결되지 않음.</Kiiro.NoAssignedMerchant>
+
+
+
+  <!-- 商戶說明 -->
+  <!-- EN: merchant guide -->
+  <Kiiro.MerchantGuide>상인 가이드</Kiiro.MerchantGuide>
+
+  <!-- EN: request: {0} (remaining time: {1}) -->
+  <Kiiro.ResourceRequestInfo>요청: {0} (남은 시간： {1})</Kiiro.ResourceRequestInfo>
+
+  <!-- EN: {0} , 키이로 용사 아조졋네컨z안된다ㅣ-->
+  <Kiiro.ValorStorytellerLabel>키이로 용사 {0}</Kiiro.ValorStorytellerLabel>
+  <!-- EN: "...And at that moment, Valor {0} arrived just in time, drive off the pirates with her sword and save the day. {0} led the people to reclaim wastelands, rebuild homes, and raise high walls. Never again fearing villains, the villagers lived happily ever after."\n"Mom, what happened to {0} later?"\n"That's where the story ends. It's late now, good night honey."\n\nThe story never ended. She embarked anew on her own path of salvation, seeking the future of her people.\n\n{0} tell a story mirror her adventures: filled with unknowns. You cannot foresee whether hardships or miracles awaits, but your own adventure begins here. Additionally, Kiiro events will be triggered more frequently. -->
+  <Kiiro.ValorStorytellerDesc>마침 그때, 용사 {0}가 제때에 도착하여 검을 휘두르며 해적들을 모조리 쫓아냈습니다. 마을 사람들도 모두 구원을 받았지요. {0}는 모두를 이끌고 변경계를 개간하며 집을 다시 세우고, 높은 성벽을 쌓아 더 이상 악당을 두려워하지 않고 행복하게 살아갔습니다——」 「엄마, {0}는 그 후에 어떻게 되었어요?」 「이야기는 여기서 끝이란다. 늦었으니 어서 쉬는게 어떻겠니?——좋은 꿈 꾸렴.」 하지만 이야기는 끝나지 않았습니다. 그녀는 다시 한번 자신만의 구원의 길에 올라, 종족의 미래를 위해 길을 찾아 나섭니다. {0}가 들려주는 이야기는 그녀가 걷는 모험의 여정처럼 알 수 없는 것으로 가득 차 있습니다. 앞길에서 맞닥뜨릴 것이 고된 시련일지, 뜻밖의 행운일지는 알 수 없지만, 당신의 모험은 여기서부터 시작됩니다. 또한, 키이로와 관련된 추가 사건이 발동하게 됩니다.</Kiiro.ValorStorytellerDesc>
+
+</LanguageData>

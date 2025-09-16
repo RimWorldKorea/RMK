@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->A group of kiiro guerrillas who are being pursued by the enemy have retreated near [map_definite], they ask you for helping them stop the enemy in [map_definite], and want to stop here for a short time to get some respite. The group of [enemyFaction_pawnsPlural] is composed of: \n\n[raid/raidPawnKinds]</li>
+  -->
+  <Kiiro_GuerrillaAssist.questDescriptionRules.rulesStrings>
+    <li>questDescription->적에게 추격당하던 키이로 유격대 한 부대가 [map_definite] 인근으로 퇴각해 왔습니다. 그녀들은 [map_definite]에서 함께 적을 저지해 달라고 간청하며, 잠시 머물러 숨을 고를 수 있기를 희망합니다. [enemyFaction_pawnsPlural]의 부대 구성: \n\n[raid/raidPawnKinds]</li>
+  </Kiiro_GuerrillaAssist.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[aThe] kiiro guerrilla [alms]</li>
+    <li>aThe->A group of</li>
+    <li>aThe->A team</li>
+    <li>aThe->A crowd of</li>
+    <li>alms->asking for help</li>
+    <li>alms->in need of help</li>
+    <li>alms->seeking for help</li>
+    <li>alms->need help</li>
+  -->
+  <Kiiro_GuerrillaAssist.questNameRules.rulesStrings>
+    <li>questName->[aThe][alms]키이로 유격대 </li>
+    <li>aThe->한 무리의</li>
+    <li>aThe->한 부대의</li>
+    <li>aThe->몇 명의 </li>
+    <li>alms->도움 희망</li>
+    <li>alms->도움 요청</li>
+    <li>alms->도움 간청</li>
+    <li>alms->도움 필요</li>
+  </Kiiro_GuerrillaAssist.questNameRules.rulesStrings>
+  <!-- EN: {BASELABEL} chasing kiiro guerrilla -->
+  <Kiiro_GuerrillaAssist.root.nodes.Delay-1.node.parms.customLetterLabel.value.slateRef>{BASELABEL}추격당하는 키이로 유격대</Kiiro_GuerrillaAssist.root.nodes.Delay-1.node.parms.customLetterLabel.value.slateRef>
+  <!-- EN: {BASETEXT}\nThese [enemyFaction_pawnsPlural] is coming for kiiro guerrillas. -->
+  <Kiiro_GuerrillaAssist.root.nodes.Delay-1.node.parms.customLetterText.value.slateRef>{BASETEXT}\n이 [enemyFaction_pawnsPlural]는 키이로 유격대를 추격하기 위해 온 것입니다.</Kiiro_GuerrillaAssist.root.nodes.Delay-1.node.parms.customLetterText.value.slateRef>
+  <!-- EN: leave in {0}. -->
+  <Kiiro_GuerrillaAssist.root.nodes.ExtraInspectStringAddOn.extraInspectString.slateRef>{0} 후에 떠납니다.</Kiiro_GuerrillaAssist.root.nodes.ExtraInspectStringAddOn.extraInspectString.slateRef>
+  <!-- EN: kiiro guerrilla leave -->
+  <Kiiro_GuerrillaAssist.root.nodes.GreaterOrEqual.node.node.nodes.AnyPawnAlive.node.label.slateRef>키이로 유격대 떠남</Kiiro_GuerrillaAssist.root.nodes.GreaterOrEqual.node.node.nodes.AnyPawnAlive.node.label.slateRef>
+  <!-- EN: The kiiro guerrillas have finished their rectification, and they will leave now. -->
+  <Kiiro_GuerrillaAssist.root.nodes.GreaterOrEqual.node.node.nodes.AnyPawnAlive.node.text.slateRef>키이로 유격대원들이 감사를 표하곤, 이제 떠날 시간이라고 말합니다.</Kiiro_GuerrillaAssist.root.nodes.GreaterOrEqual.node.node.nodes.AnyPawnAlive.node.text.slateRef>
+  <!-- EN: Relation with kiiro guerrilla broke down -->
+  <Kiiro_GuerrillaAssist.root.nodes.permitFactionBecameHostileToPlayer.node.nodes.Letter.label.slateRef>키이로 유격대 적대함</Kiiro_GuerrillaAssist.root.nodes.permitFactionBecameHostileToPlayer.node.nodes.Letter.label.slateRef>
+  <!-- EN: due to we are now hostile to kiiro, our relation with kiiro guerrilla broke down and now they treat us as enemy. -->
+  <Kiiro_GuerrillaAssist.root.nodes.permitFactionBecameHostileToPlayer.node.nodes.Letter.text.slateRef>키이로 세력과의 관계로 인해 유격대원들은 이제 우리를 적으로 간주합니다.</Kiiro_GuerrillaAssist.root.nodes.permitFactionBecameHostileToPlayer.node.nodes.Letter.text.slateRef>
+  
+  <!-- UNUSED -->
+  <Kiiro_GuerrillaAssist.LetterLabelChasing.value.slateRef>{BASELABEL}追擊綺羅游擊隊</Kiiro_GuerrillaAssist.LetterLabelChasing.value.slateRef>
+  <Kiiro_GuerrillaAssist.LetterTextChasing.value.slateRef>{BASETEXT}\n這幫[enemyFaction_pawnsPlural]是爲了追擊綺羅游擊隊而來。</Kiiro_GuerrillaAssist.LetterTextChasing.value.slateRef>
+  
+</LanguageData>

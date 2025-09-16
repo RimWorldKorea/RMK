@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+
+  <Kiiro_MerchantInvest.rulePack.rulesStrings>
+    <li>r_logentry(investment==I)->네, 네? 투자요? 지금 가게가 좀 빠듯하긴 한데...</li>
+    <li>r_logentry(investment==II)->네? 투자요..?</li>
+    <li>r_logentry(investment==III)->어.. 더 투자해주시는 건가요..? 정말요?</li>
+    <li>r_logentry(investment==IV)->또.. 또요?</li>
+    <li>r_logentry(investment==V)->이제는.. 충분해요, 필요한 일에 대비해 남겨두는게 어떨까요?</li>
+    <li>r_logentry(investment==V)->제 작은 가게에는.. 이정도면 충분해요..</li>
+    <li>r_logentry(investment==V)->도움 감사해요. 꼭 기억할게요.</li>
+  </Kiiro_MerchantInvest.rulePack.rulesStrings>
+
+  <Kiiro_MerchantTrade.rulePack.rulesStrings>
+    <!-- =遊戲狀態========================================================================================================= -->
+    <!-- 耀斑時 -->
+    <li>r_logentry(gameCondition==SolarFlare)->흑점 폭발은 정말 성가신 일이에요…… [trade]</li>
+    <li>r_logentry(gameCondition==SolarFlare)->저희 마을은 전자기기가 없어서 흑점 폭발에도 문제 없어요. 기술 발전이 꼭 좋지만은 않은…것 같죠? ……죄송해요.[trade]</li>
+    <li>r_logentry(gameCondition==SolarFlare)->어? 계산기가 작동을 안해……</li>
+    <li>r_logentry(gameCondition==SolarFlare)->전력이 내려갔네요… 걱정하지 마세요, 가게는 계속 운영하니까요. [trade]</li>
+    <li>r_logentry(gameCondition==SolarFlare)->음… 갑자기 조용해졌네요. 기계가 꺼져서 그런가… 그래도, 오늘은 푹 잘 것 같아요.</li>
+    <!-- 日蝕 -->
+    <li>r_logentry(gameCondition==Eclipse)->어떻게 작은 달이 큰 태양을 전부 가릴 수 있을까요? </li>
+    <li>r_logentry(gameCondition==Eclipse)->일식은 태양을 보기에 가장 좋은 순간이래요. 같이 볼까요?</li>
+    <li>r_logentry(gameCondition==Eclipse)->어둡네요… 그래도 난 잘 보이는데~ [trade]</li>
+    <!-- 有毒塵埃 -->
+    <li>r_logentry(gameCondition==ToxicFallout)->이 낙진은 얼마나 계속될까요? 슬슬 배고픈데… </li>
+    <li>r_logentry(gameCondition==ToxicFallout)->대체 누가 이런 행성 오염을 저질렀을까요? 하아… </li>
+    <li>r_logentry(gameCondition==ToxicFallout)->우와, 공기가 이상해요! 그냥 방에 있을까봐요… [trade]</li>
+    <!-- 火山冬天 -->
+    <li>r_logentry(gameCondition==VolcanicWinter)->화산 겨울… 지겹네요. 작물 생산량이 얼마나 줄어들지 감도 안 잡혀요.</li>
+    <li>r_logentry(gameCondition==VolcanicWinter)->화산재가 이렇게 멀리왔다니. 믿을 수 없어요. </li>
+    <li>r_logentry(gameCondition==VolcanicWinter)->콜록, 콜록. 이 화산재는 언제쯤 사라질까요.. </li>
+    <li>r_logentry(gameCondition==VolcanicWinter)->으, 이 날씨.. 잿더미가 된 기분이에요. [trade]</li>
+    <!-- 極光 -->
+    <li>r_logentry(gameCondition==Aurora)->…아름다운 오로라죠? </li>
+    <li>r_logentry(gameCondition==Aurora)->오로라.. 정말 멋진 광경이네요.. </li>
+    <li>r_logentry(gameCondition==Aurora)->이 오로라를 매일 보고 싶네요. </li>
+    <li>r_logentry(gameCondition==Aurora)->……아 맞다, 오로라에 소원을 빌면 이루어진다는데… 혹시, 같이 소원 빌러 갈래요?</li>
+    <!-- 心靈低語 -->
+    <li>r_logentry(gameCondition==PsychicDrone)->누군, 누군가 제 속에서 말하고 있어요…… </li>
+    <li>r_logentry(gameCondition==PsychicDrone)->으으! 그만.. 그만 속삭여! 어, 아. 죄송해요. 당신한테 말한 거 아니었어요… [trade]</li>
+    <li>r_logentry(gameCondition==PsychicDrone)->이 소리, 귀를 막아도 소용 없어요. 머릿 속에서 지워지지가 않아요.. </li>
+    <li>r_logentry(gameCondition==PsychicDrone)->침착하게… 침착하게 들이쉬고…… 으, 아직도 들리잖아! </li>
+    <!-- 心靈撫慰 -->
+    <li>r_logentry(gameCondition==PsychicSoothe)->마치 햇빛처럼… 마음이 따뜻해요…</li>
+    <li>r_logentry(gameCondition==PsychicSoothe)->왜지? 저, 오늘따라 좀 차분해보이지 않아요?</li>
+    <li>r_logentry(gameCondition==PsychicSoothe)->흠냐… 차분해진 기분이에요… 이게 차분한 정신파동이라고 불리는 현상일까요? …, 맞게 말했죠? </li>
+    <li>r_logentry(gameCondition==PsychicSoothe)->음… 갑자기 기지개 피고 싶어요. </li>
+    <!-- 熱浪 -->
+    <li>r_logentry(gameCondition==HeatWave)->진짜, 진짜 덥다…[trade]</li>
+    <li>r_logentry(gameCondition==HeatWave)->날씨가 바뀌어가네요… 옷 갈아 입는 거 잊지 말아요. [trade]</li>
+    <li>r_logentry(gameCondition==HeatWave)->분명 얼마전엔 괜찮았던 것 같은데 오늘은…, [trade]</li>
+    <!-- 寒流 -->
+    <li>r_logentry(gameCondition==ColdSnap)->갑자기 추워졌네요… 앗, 그러면 작물도! </li>
+    <li>r_logentry(gameCondition==ColdSnap)->날씨가 바뀌어가네요… 옷 갈아 입는 거 잊지 말아요. [trade]</li>
+    <li>r_logentry(gameCondition==ColdSnap)->흐으으… 얼 것 같아요! 꼬리까지 떨리는 느낌… [trade]</li>
+    <!-- 閃電風暴 -->
+    <li>r_logentry(gameCondition==Flashstorm)->천둥 소리가 너무 시끄러워요! 이런 날에는 그냥 침대에 있고 싶은데… [trade]</li>
+    <li>r_logentry(gameCondition==Flashstorm)->오늘은 나무 아래에 있지 말아요! 번개에 맞을 수도 있으니까요. [trade]</li>
+    <li>r_logentry(gameCondition==Flashstorm)->이런 날엔 집에 있는 게 좋겠어요. [trade]</li>
+    <li>r_logentry(gameCondition==Flashstorm)->이 집은 튼튼하니까.. 센 바람에도 괜찮을… 어, 오셨네요? [trade]</li>
+    <!-- 太空 -->
+    <li>r_logentry(map_inVacuum==true)->이게… 무중력일까요?… 잠깐, 내 선반은!?</li>
+    <li>r_logentry(map_inVacuum==true)->저 아래의 고향을 찾고 있어요… 반대편인가?</li>
+	  <li>r_logentry(map_inVacuum==true)->용사님의 동상을 우주에 세울 수 있을까요? …헤, 그냥 장난이에요. [trade]</li>
+	  <li>r_logentry(map_inVacuum==true)->흠… 이 버튼은 무엇을 위해 있는 걸까요? 만약 누른다면… 날 수 있을까요? 그럼 천장에서 잘 수 있을… 아, 알겠어요. 안 건들게요. </li>
+	  <li>r_logentry(map_inVacuum==true)->있잖아요, 어렸을 적 풀밭에 누워서 별 세본 적 있어요? …저는 그 별에 닿을 수 있을지 꿈에도 몰랐어요. </li>
+    <!-- =天氣狀況========================================================================================================= -->
+    <!--霧雨 -->
+    <li>r_logentry(weatherMap==FoggyRain)->비가 온다아… 그냥 방에 있을래요. [trade]</li>
+    <li>r_logentry(weatherMap==FoggyRain)->비가 정중하게 땅에 인사하네요. 에. [trade]</li>
+    <li>r_logentry(weatherMap==FoggyRain)->비가 온 날의 냄새가 좋아요. 어떻게 생각해요? </li>
+    <li>r_logentry(weatherMap==FoggyRain)->이런 날은 집에서 책을 읽으며 시간 보내기 좋아요… [trade]</li>
+    <li>r_logentry(weatherMap==FoggyRain)->물에서 수증기로, 수증기에서 안개로… [trade]</li>
+    <li>r_logentry(weatherMap==FoggyRain)->하늘은 먹먹하고, 바깥은 축축하고… [trade]</li>
+    <!--霧-->
+    <li>r_logentry(weatherMap==Fog)->바깥에 안개가 가득하네요. 벽에 부딪힐 뻔 했어요. [trade]</li>
+    <li>r_logentry(weatherMap==Fog)->조심하세요, 바깥에 안개가 가득 꼈어요. [trade]</li>
+    <li>r_logentry(weatherMap==Fog)->이렇게 안개 낀 날에는 사냥하기 별로에요. 우리 사냥꾼들은 이런 날에 절대로 산에 가지 말라고 했었어요. [trade]</li>
+    <li>r_logentry(weatherMap==Fog)->안개에서 무언가가 확! 튀어나온다면… 어어어… 미안해요. 놀라셨죠? [trade]</li>
+    <!-- 雨 -->
+    <li>r_logentry(weatherMap==Rain)->비가 오네요, 옷은 다 젖었고요… [trade]</li>
+    <li>r_logentry(weatherMap==Rain)->밖에 돌아다니기 좋은 날씨는 아니죠? [trade]</li>
+    <li>r_logentry(weatherMap==Rain)->하늘이 울고 있어요… 무슨 일이라도 있었던 건가. [trade]</li>
+    <!-- 小雪 -->
+    <li>r_logentry(weatherMap==SnowGentle)->눈이 오고 있어요! 추워진다는 증표죠. [trade]</li>
+    <li>r_logentry(weatherMap==SnowGentle)->주변이 고요해지면… 눈을 감고, 눈이 떨어지는 소리를 들어봐요. 분명 새로운 경험이 될 거에요.</li>
+    <li>r_logentry(weatherMap==SnowGentle)->오늘은… 모닥불 근처에서 자야지… [trade]</li>
+    <li>r_logentry(weatherMap==SnowGentle)->눈이 많이 쌓이면 눈사람을 만들 거예요. 같이 만들까요? [trade]</li>
+    <li>r_logentry(weatherMap==SnowGentle)->계속 눈이 온다면 모두 눈에 파묻혀버리겠죠… [trade]</li>
+    <li>r_logentry(weatherMap==SnowGentle)->고향의 사냥꾼들이 사냥을 준비하겠네요. 겨울을 보낼 식량을 구할 시기거든요. [trade]</li>
+    <!-- 大雪 -->
+    <li>r_logentry(weatherMap==SnowHard)->하늘에서 떨어지는 눈들… 너무 크지 않아요? 마을 사람들이 무사해야 할텐데… [trade]</li>
+    <li>r_logentry(weatherMap==SnowHard)->이런 날씨에 친구들이 길을 잃으면 어쩌지? </li>
+    <li>r_logentry(weatherMap==SnowHard)->바깥에 눈이 쌓였네… 물자는 어떻게 구해오지? 어, 어? 걱정하지 마세요. 방법을 찾아낼게요. [trade]</li>
+    <li>r_logentry(weatherMap==SnowHard)->온 세상이 눈이야~ 같이 눈사람 만들까요? [trade]</li>
+    <li>r_logentry(weatherMap==SnowHard)->이 눈들이 대지를 치유해줄거에요. [trade]</li>
+    <li>r_logentry(weatherMap==SnowHard)->차를 마시거나, 책을 읽거나… 중요한 건 집에 있기! [trade]</li>
+    <li>r_logentry(weatherMap==SnowHard)->이런 날씨에도 운영합니다! 어서오세요. [trade]</li>
+    <!-- 旱天雷 -->
+    <li>r_logentry(weatherMap==DryThunderstorm)->이상하네… 천둥만 치고 있어요. 비도 안오는데. [trade]</li>
+    <li>r_logentry(weatherMap==DryThunderstorm)->불 조심해요! [trade]</li>
+    <li>r_logentry(weatherMap==DryThunderstorm)->방금 떨어진 번개로 불이 붙은 것 같지 않아요? 나가봐야 할 것 같은데… [trade]</li>
+    <li>r_logentry(weatherMap==DryThunderstorm)->하늘이… 별로네요… [trade]</li>
+    <!-- 雷暴雨 -->
+    <li>r_logentry(weatherMap==RainyThunderstorm)->폭풍우다! …조심해요. [trade]</li>
+    <li>r_logentry(weatherMap==RainyThunderstorm)->우와아… 폭풍우네요. 순식간에 다 젖어버렸어요. [trade]</li>
+    <li>r_logentry(weatherMap==RainyThunderstorm)->무서워요… 지붕이 무너질 수도 있을까요?</li>
+    <li>r_logentry(weatherMap==RainyThunderstorm)->빗소리가 너무 커요. 침대에서도 다 들릴 정도로…</li>
+    <li>r_logentry(weatherMap==RainyThunderstorm)->천둥이 깜빡이고, 반짝이네요… 그냥 집 안에 있을까요? </li>
+    <!-- =需求相關========================================================================================================= -->
+    <!-- 休息值需求偏低 -->
+    <li>r_logentry(talkPawnNeed_rest==true)->으음… 좀 자고 싶어요… [trade]</li>
+    <li>r_logentry(talkPawnNeed_rest==true)->…아! 네, 네? 잠깐 졸았어요… [trade]</li>
+    <li>r_logentry(talkPawnNeed_rest==true)->……너무 졸리네요… 손님까지만 받고 자야겠어요… [trade]</li>
+    <li>r_logentry(talkPawnNeed_rest==true)->으, 너무 졸리다. 이거까지만 끝내고 자야지. [trade]</li>
+    <li>r_logentry(talkPawnNeed_rest==true)->아… 눕자마자 자버릴 수 있을 것 같아요… [trade]</li>
+    <!-- 有傷口沒好 -->
+    <li>r_logentry(talkPawnInjured==true)->아야, 상처가 아직 욱신거리네요. [trade]</li>
+    <li>r_logentry(talkPawnInjured==true)->흉터가 아직도 쓰라리네요… 빨리 나았으면 좋겠어요. [trade]</li>
+    <li>r_logentry(talkPawnInjured==true)->앗! 실수로 상처를 만졌어요…, 별 일 아니에요. [trade]</li>
+    <li>r_logentry(talkPawnInjured==true)->붕대를 갈아야 겠어요. 감염되면 힘드니까… [trade]</li>
+    <!-- 娛樂值需求偏低 -->
+    <li>r_logentry(talkPawnNeed_joy==true)->으으, 저기… 카드 게임할래요? [trade]</li>
+    <li>r_logentry(talkPawnNeed_joy==true)->이 근처에서 뭔가 할 수 있는 거 없을까요? 아이디어좀 주세요. [trade]</li>
+    <li>r_logentry(talkPawnNeed_joy==true)->이거요? 이건 종이접기에요. 시간 떼우기 좋아요. …물건 하나 사면 드릴게요. [trade]</li>
+    <li>r_logentry(talkPawnNeed_joy==true)->사람들이 제가 심심할 때 꼬리를 가지고 논다고 그러더라고요. 그건 사실이 아니에요… 내가 뭘 하고 있었, 아. 꼬리 가지고 놀고 있었네. [trade]</li>
+    <li>r_logentry(talkPawnNeed_joy==true)->심ㅡ심해에에… 뭔가 얘기할 거 없을까요… [trade]</li>
+    <!-- 戶外值需求偏低 -->
+    <li>r_logentry(talkPawnNeed_outdoor==true)->답답한 기분이에요. 밖에 좀 나가고 싶다… [trade]</li>
+    <li>r_logentry(talkPawnNeed_outdoor==true)->…운동하고 싶어졌어요. 같이 하러 갈까요? [trade]</li>
+    <li>r_logentry(talkPawnNeed_outdoor==true)->만약, 만약… 집에 너무 오래 있으면… 거대한 무설탕 통밀빵이 되어버릴 거예요! …왜 무설탕이냐고요? 어… [trade]</li>
+    <li>r_logentry(talkPawnNeed_outdoor==true)->이렇게 집에만 있다간 하얀 빵이 되어버릴 거예요… [trade]</li>
+    <!-- 舒適度需求偏低 -->
+    <li>r_logentry(talkPawnNeed_comfort==true)->너무 오래 서 있었던 것 같아요. 다리가 아파오거든요. [trade]</li>
+    <li>r_logentry(talkPawnNeed_comfort==true)->여기 가구가… 음, 제가 진짜 좋은 목수를 아는데요. 아마… 으흠! [trade]</li>
+    <li>r_logentry(talkPawnNeed_comfort==true)->다리가 저려요. 앉고 싶어요… [trade]</li>
+    <!-- 飢餓度需求偏低 -->
+    <li>r_logentry(talkPawnNeed_food==true)->배가 꼬르륵거려요. 뭐라도 먹으러 갈까요?</li>
+    <li>r_logentry(talkPawnNeed_food==true)->배고파요. 빨리, 빨리 먹으러 가요! </li>
+    <!-- 心情偏低 -->
+    <li>r_logentry(talkPawnNeed_mood==true)->우. </li>
+    <li>r_logentry(talkPawnNeed_mood==true)->가요… </li>
+    <li>r_logentry(talkPawnNeed_mood==true)->에…… </li>
+    <li>r_logentry(talkPawnNeed_mood==true)->아…… </li>
+    <!-- 心情偏高 -->
+    <li>r_logentry(talkPawnNeed_moodHappy==true)->오늘따라 기분이 좋네요! 이따가 같이 숲 구경갈래요? </li>
+    <li>r_logentry(talkPawnNeed_moodHappy==true)->솔직히, 여기 온 첫 날에 좀 걱정했어요. 지금와서 생각해보면… 좋은 선택이었던 것 같아요!</li>
+    <li>r_logentry(talkPawnNeed_moodHappy==true)->어, 저거요? 저건 마을로 다시 가져갈 거에요. 안파는 물건이랍니다. </li>
+    <li>r_logentry(talkPawnNeed_moodHappy==true)->앗, 마을로 보낼 편지를 쓰고 있었어요. 어쨌든, 일은 해야죠. 어떤 물건을 찾으시나요? </li>
+    <li>r_logentry(talkPawnNeed_moodHappy==true)->휘ㅡ 후, 휘ㅡ 후, 어? 내가 뭘 하고 있었더라…? 아, 잘 살고 있다는 편지를 쓰고 있었지. [trade]</li>
+    <li>r_logentry(talkPawnNeed_moodHappy==true)->같이 수영할래요? 저 수영 꽤 잘하거든요. </li>
+	  <li>r_logentry(talkPawnNeed_moodHappy==true)->어제 하루를 이 종이접기에 다 썼어요! …자, 가져요. 선물이에요. [trade]</li>
+    <!-- =地圖亮度========================================================================================================= -->
+    <!-- 地圖亮度低 -->
+    <li>r_logentry(map_dark==true)->완전 어두컴컴하네요… 만약 빨리 잠들지 않는다면, 괴물이 나타날거에요! 으왕! [trade]</li>
+    <li>r_logentry(map_dark==true)->어두워지고 있네요. 빨리 마무리하고 자러가죠… [trade]</li>
+    <li>r_logentry(map_dark==true)->밤이네요, 잠들기 좋은 시간이죠. [trade]</li>
+    <li>r_logentry(map_dark==true)->너무 어둡네요. 잘 시간이죠, 아마? …잠이 안 온다구요? 이야기라도 해드릴까요? </li>
+    <!-- 地圖亮度達到100% -->
+    <li>r_logentry(map_sunny==true)->햇볕 쬐며 자고 싶어요… [trade]</li>
+    <li>r_logentry(map_sunny==true)->맑은 날이네요! [trade]</li>
+    <li>r_logentry(map_sunny==true)->해가 쨍쨍해요! [trade]</li>
+    <li>r_logentry(map_sunny==true)->이런 날은 낚시하기 좋아요. 같이 할래요? [trade]</li>
+    <!-- =時間========================================================================================================= -->
+    <!-- 時間為20點至凌晨4點 -->
+    <li>r_logentry(time==night)->음, 좋은 저녁이에요. [trade]</li>
+    <li>r_logentry(time==night)->너무 늦었잖아요…… 그래도, 영업 시간입니다아… [trade]</li>
+    <li>r_logentry(time==night)->밤에는 일하고 싶지 않아요… [trade]</li>
+    <li>r_logentry(time==night)->냐아, 너무 졸리다… [trade]</li>
+    <!-- 時間為4點至7點 -->
+    <li>r_logentry(time==morning)->좋은 아침! 일찍 일어나셨네요? [trade]</li>
+    <li>r_logentry(time==morning)->일찍 일어나는 새가 벌레를 잡는다고 했어요. 당신은요? [trade]</li>
+    <li>r_logentry(time==morning)->하아… 잠깐만 눈 붙이고 있을게요. 둘러보고 깨워주세요… [trade]</li>
+    <!-- 時間為7點至11點 -->
+    <li>r_logentry(time==forenoon)->진짜 좋은 아침! [trade]</li>
+    <li>r_logentry(time==forenoon)->좋은 아침~ [trade]</li>
+    <li>r_logentry(time==forenoon)->해가 떴어요, 가게를 열 시간인거죠! [trade]</li>
+    <li>r_logentry(time==forenoon)->오늘따라 기분이 정말 좋아요. [trade]</li>
+    <li>r_logentry(time==forenoon)->잘 주무셨어요? [trade]</li>
+    <!-- 時間為11點至14點 -->
+    <li>r_logentry(time==noon)->좋은 점심, 밥 드셨어요? [trade]</li>
+    <li>r_logentry(time==noon)->좋은 점심. [trade]</li>
+    <li>r_logentry(time==noon)->…잠깐 낮잠좀 자야겠어요. [trade]</li>
+    <li>r_logentry(time==noon)->좋은 아침! 잠시만, 벌써 점심이라구요? 네에… [trade]</li>
+    <li>r_logentry(time==noon)->좋은 점심이에요. 차 한 잔 하시겠어요? [trade]</li>
+    <!-- 時間為14點至17點 -->
+    <li>r_logentry(time==afternoon)->아… 지루한 시간이야… [trade]</li>
+    <li>r_logentry(time==afternoon)->좋은 날이에요.[trade]</li>
+    <!-- 時間為17點至20點 -->
+    <li>r_logentry(time==evening)->와, 지금 딱 정리하고 있었는데… 운 좋으셨어요. [trade]</li>
+    <li>r_logentry(time==evening)->좋은 밤![trade]</li>
+    <li>r_logentry(time==evening)->문 닫고 있어요~ 마감 세일은 없냐구요? 어…… [trade]</li>
+    <li>r_logentry(time==evening)->휘ㅡ 후 휘ㅡ 후… 뭐하고 있었더라? 아, 정리하고 있었지. 응. [trade]</li>
+    <!-- =地圖溫度========================================================================================================= -->
+    <!-- 地圖溫度大於40度 -->
+    <li>r_logentry(temperatureMap==veryHot)->이게 대체 무슨 날씨야!? 공기가 타는 것 같아! [trade]</li>
+    <li>r_logentry(temperatureMap==veryHot)->너무 뜨거워요… 제 고향은 지금 어떨까요… [trade]</li>
+    <li>r_logentry(temperatureMap==veryHot)->뭔가 타는 냄새가… 전부 괜찮은 거에요? </li>
+    <li>r_logentry(temperatureMap==veryHot)->으… 에어컨…? 그거 하나 더 살 돈을 남겼어야 했는데… </li>
+    <!-- 地圖溫度大於30度小於40度 -->
+    <li>r_logentry(temperatureMap==hot)->이런 날씨에는 물을 많이 드셔야 해요. [trade]</li>
+    <li>r_logentry(temperatureMap==hot)->햇빛이 너무 강하네요. 집에 있는 건 언제나 옳아요. [trade]</li>
+    <li>r_logentry(temperatureMap==hot)->생선 말리기에 딱 좋은 날씨네요! [trade]</li>
+    <!-- 地圖溫度大於15度小於30度 -->
+    <li>r_logentry(temperatureMap==comfort)->너무 완벽한 온도에요… 낮잠좀 자야, 앗. 일단 손님부터 받고. [trade]</li>
+    <li>r_logentry(temperatureMap==comfort)->적절한 온도… 노곤노곤한 시간대… [trade]</li>
+    <li>r_logentry(temperatureMap==comfort)->아~ 대자연의 향기란… 꽃들은 푸르고… 앗, 잠깐 멍때렸어요. [trade]</li>
+    <!-- 地圖溫度大於0度小於10度 -->
+    <li>r_logentry(temperatureMap==cold)->저기, 살짝 춥지 않아요? 더 두껍게 입는게 좋겠어요… [trade]</li>
+    <li>r_logentry(temperatureMap==cold)->살짝 춥네요. 더 껴입을래요… [trade]</li>
+    <li>r_logentry(temperatureMap==cold)->작물들은 이정도의 날씨로도 얼어붙을 텐데… 괜찮겠죠? [trade]</li>
+    <!-- 地圖溫度小於0度 -->
+    <li>r_logentry(temperatureMap==veryCold)->얼 것 같아요! 빨리 불에… [trade]</li>
+    <li>r_logentry(temperatureMap==veryCold)->너무 추워요, 숨조차 얼어 붙는 것 같아요. [trade]</li>
+    <li>r_logentry(temperatureMap==veryCold)->…이런 날씨에도 고향은 괜찮을까요… [trade]</li>
+    <li>r_logentry(temperatureMap==veryCold)->작물은 다 수확했나요? 못했다면… 어… [trade]</li>
+    <li>r_logentry(temperatureMap==veryCold)->고향은 작물들 다 수확했으려나..? [trade]</li>
+    <li>r_logentry(temperatureMap==veryCold)->나가서 같이 입김불래요? </li>
+    <!-- =常態隨機========================================================================================================= -->
+    <li>r_logentry->좋은 날이죠? [trade]</li>
+    <li>r_logentry->안녕하세요! [trade]</li>
+    <li>r_logentry->어서오세요! [trade]</li>
+    <li>r_logentry->무언가 필요하신가요? [trade]</li>
+    <li>r_logentry->자, 여기요! 당신을 위한 종이접기에요. </li>
+    <!-- 商舖寬敞 -->
+    <li>r_logentry(MerchantRoom==spacious)->헤헤… 거대한 상점이에요! 이거보다 넓은 상점은 본 적 없어요. [trade]</li>
+    <li>r_logentry(MerchantRoom==spacious)->여기보다 큰 상점은 고향에도 없었어요~ [trade]</li>
+    <li>r_logentry(MerchantRoom==spacious)->진짜… 넓다… 물건을 두 수레나 적재하고도 남겠어요… [trade]</li>
+    <li>r_logentry(MerchantRoom==spacious)->좋은 곳이죠? 상품을 전시할 공간이 많아서 좋아요! </li>
+    <!-- 商舖擁擠 -->
+    <li>r_logentry(MerchantRoom==crowd)->내 상점은 작지만, 아늑해. [trade]</li>
+    <li>r_logentry(MerchantRoom==crowd)->상점이 조금만 더 컸으면 좋겠… 음, 물건을 더 둘 공간이 없네. [trade]</li>
+    <li>r_logentry(MerchantRoom==crowd)->걱정하지 마세요! 정리하지 못한 상품들에 둘러싸여 있어도 거래는 할 수 있거든요! [trade]</li>
+    <li>r_logentry(MerchantRoom==crowd)->가게는 작을 지 몰라도, 물건은 진짜에요. [trade]</li>
+    <!-- 交易請求 -->
+    <li>trade->도움이 필요하신가요?</li>
+    <li>trade->원하시는 거라도 있으세요?</li>
+    <li>trade->어떤 물건이 좋으세요?</li>
+    <li>trade->이런 물건은 어떠신가요?</li>
+    <li>trade->어떤게 필요하신가요?</li>
+    <li>trade->둘러보세요!</li>
+    <li>trade->팔러 오셨나요, 사러 오셨나요? 다 환영해요!</li>
+    <li>trade->째려보셔도 안깎아드려요. 아시잖아요…</li>
+    <li>trade->필요하신 물건이… 그, 상점 주인은 판매하지 않아요…</li>
+    <li>trade->필요한 물건이 있으신가요? 모두 판매중이랍니다.</li>
+    <li>trade->음… 다른 것들이요… 다음에 꼭 들여올게요…</li>
+    <li>trade->번화계 약품, 초월공학 눈, 저각 보호막? 그게… 뭔가요?</li>
+    <li>trade->절찬리에 판매중입니다! 관심 있으신가요?</li>
+    <li>trade->히히, 천천히 둘러보세요.</li>
+  </Kiiro_MerchantTrade.rulePack.rulesStrings>
+  
+</LanguageData>

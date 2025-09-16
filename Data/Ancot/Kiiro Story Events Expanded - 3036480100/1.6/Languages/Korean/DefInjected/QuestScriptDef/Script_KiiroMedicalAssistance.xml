@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[Info], the town's doctors are helpless in this situation and hope to seek your assistance.\n\nUpon accepting this request, [escortCount] guerrilla members will escort the patients to your colony for treatment. The group will arrive within [delayTicks_duration]. They will remain in your colony and follow your commands until the treatment is complete. You must ensure the patients' safety; if they die from disease or accidents, your goodwill with the Kiiro will decrease.</li>
+    <li>Info->A severe outbreak of [disease_label] has occurred in [kiiro_settlement_label]! Although the town managed to contain the situation in time, [patientCount] residents are still in critical condition</li>
+    <li>Info->The Kiiro of [kiiro_settlement_label] recently welcomed a group of companions wandering from afar, among whom [patientCount] Kiiro are suffering from severe [disease_label]</li>
+  -->
+  <Kiiro_MedicalAssistance.questDescriptionRules.rulesStrings>
+    <li>questDescription->[Info]마을의 의사들이 감당할 수 없는 수준으로 인해 당신에게 도움을 청합니다. \n\n요청을 수락하면, [escortCount]명의 유격대원이 환자를 데리고 정착지로 찾아올 것이며 [delayTicks_duration]안에 도착합니다. 그들은 치료가 끝날 때까지 당신의 지휘를 받습니다. 만약 환자가 질병이나 사고로 사망한다면 우호도가 감소합니다.</li>
+    <li>Info->[kiiro_settlement_label]에 심각한 [disease_label]이 유행하고 있습니다! [patientCount]명의 주민이 위중한 상태입니다. </li>
+    <li>Info->[kiiro_settlement_label]는 최근 먼 곳에서 돌아온 일행을 받아들였으며, 그중 [patientCount]명의 키이로가 심각한 [disease_label]에 목숨을 위협받고 있습니다.</li>
+  </Kiiro_MedicalAssistance.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->medical assistance</li>
+  -->
+  <Kiiro_MedicalAssistance.questNameRules.rulesStrings>
+    <li>questName->의료 지원 요청</li>
+  </Kiiro_MedicalAssistance.questNameRules.rulesStrings>
+  <!-- EN: escort -->
+  <Kiiro_MedicalAssistance.root.nodes.ExtraInspectStringAddOn-0.extraInspectString.slateRef>이송</Kiiro_MedicalAssistance.root.nodes.ExtraInspectStringAddOn-0.extraInspectString.slateRef>
+  <!-- EN: Patient -->
+  <Kiiro_MedicalAssistance.root.nodes.ExtraInspectStringAddOn-1.extraInspectString.slateRef>환자</Kiiro_MedicalAssistance.root.nodes.ExtraInspectStringAddOn-1.extraInspectString.slateRef>
+  
+</LanguageData>
