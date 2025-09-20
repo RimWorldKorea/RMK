@@ -6,7 +6,7 @@
   <Milira.MilianConfigGuide>밀리언 탭 안내</Milira.MilianConfigGuide>
   <Milira.MilianConfigGuideDesc>밀리언 탭의 사용법에 대한 안내입니다. 여기에서 밀리언 설정 탭에 대한 기본 정보를 확인할 수 있습니다.</Milira.MilianConfigGuideDesc>
   <Milira.MilianConfigGuidePage0>-장비 정보-\n밀리언이 착용하고 있는 의류 및 장비의 정보를 확인할 수 있습니다. 장비 아이콘의 왼쪽 상단에 위치한 각기 다른 색상의 점은 해당 장비의 품질을 나타냅니다.</Milira.MilianConfigGuidePage0>
-  <Milira.MilianConfigGuidePage1>-자동 의류 교체-\n밀리언이 착용하고 있는 의류를 자동으로 교체하도록 설정할 수 있습니다. 자동 의류 교체가 활성화된 경우 운반 작업을 수행 가능한 정착민은 현재 저장고 내에 저장된 물품 중 밀리언이 사용할 수 있는 의류를 찾아 교체하려 시도할 것입니다. 자동 교체는 날카로움 방어도, 품질 및 최대 내구도를 기반으로 수행되며, 이 세 가지 요소를 고려하여 가장 적합한 의류를 선택하여 교체합니다. 이 기능이 활성화된 경우 어느 정도 연산에 따른 부하가 발생하며, 게임 중에 멈춤 현상이 느껴질 경우 이 기능을 비활성화 및 활성화할 수 있습니다.</Milira.MilianConfigGuidePage1>
+  <Milira.MilianConfigGuidePage1>-자동 장비 교체-\n밀리언이 착용하고 있는 의류를 자동으로 교체하도록 설정할 수 있습니다. 자동 의류 교체가 활성화된 경우 운반 작업을 수행 가능한 정착민은 현재 저장고 내에 저장된 물품 중 밀리언이 사용할 수 있는 의류를 찾아 교체하려 시도할 것입니다. 자동 교체는 날카로움 방어도, 품질 및 최대 내구도를 기반으로 수행되며, 이 세 가지 요소를 고려하여 가장 적합한 의류를 선택하여 교체합니다. 이 기능이 활성화된 경우 어느 정도 연산에 따른 부하가 발생하며, 게임 중에 멈춤 현상이 느껴질 경우 이 기능을 비활성화 및 활성화할 수 있습니다.</Milira.MilianConfigGuidePage1>
   <Milira.MilianConfigGuidePage2>-자동 무기 교체-\n정착민이 직접 밀리언 무기를 교체하는 것 외에도 밀리언 설정 탭에서 밀리언 무기를 클릭하여 교체할 무기를 선택할 수 있습니다. 확인 후 밀리언은 무기 교체 작업을 시도할 것이며, 더 이상 무기 교체를 원하지 않을 경우 무기 교체를 취소하거나 밀리언의 작업을 중단시켜 취소할 수 있습니다.</Milira.MilianConfigGuidePage2>
   <Milira.MilianConfigGuidePage3>-밀리언 작업 관리-\n"밀리언 작업 권한 부여" 연구를 완료한 후에는 밀리언 설정 탭에 버튼이 추가되며, 이 버튼을 클릭하여 밀리언 작업 탭으로 전환한 후 작업을 설정할 수 있습니다.</Milira.MilianConfigGuidePage3>
   <Milira.TitleUpdate>{0} 프로모션</Milira.TitleUpdate>
@@ -55,6 +55,7 @@
   <Milira.ToMechTabTip>메카노이드 탭으로 전환합니다.</Milira.ToMechTabTip>
   <Milira.ToMilianWorkManagementTabTip>밀리언 작업 탭으로 전환합니다.</Milira.ToMilianWorkManagementTabTip>
   <Milira.ToMilianConfigTabTip>밀리언 장비 탭으로 전환합니다.</Milira.ToMilianConfigTabTip>
+  <Milira.StatsReport_HomeTerminal>{0}(은)는 제어 중추 대신 가정용 단말을 이용해 메카를 제어합니다. 가정용 단말의 대역폭 지원 상한은 {1}입니다.</Milira.StatsReport_HomeTerminal>
   <Milira.ChurchTitleLetter>{0}에서 {1}로 승급 가능</Milira.ChurchTitleLetter>
   <Milira.ChurchTitleLetterDesc>{0}(은)는 {1}(으)로부터 충분한 신뢰를 쌓아 {2}(으)로 승급할 수 있게 되었습니다. {0}에게 통신 콘솔을 사용하여 {1}(와)과 연락하도록 지시하거나, {1}의 정착지로 이동하여 직위 등록을 진행하도록 하십시오.</Milira.ChurchTitleLetterDesc>
   <Milira.MilianHairColor_CopySuccesss>{0}의 머리 색상이 클립보드에 복사되었습니다.</Milira.MilianHairColor_CopySuccesss>
@@ -73,15 +74,15 @@
   <Milira.ModSetting_Milian>밀리언</Milira.ModSetting_Milian>
   <Milira.ModSetting_Milira>밀리라</Milira.ModSetting_Milira>
   <Milira.DifficultyScaleSetting>난이도 변경</Milira.DifficultyScaleSetting>
-  <Milira.Difficulty_Relax>매우 쉬움</Milira.Difficulty_Relax>
+  <Milira.Difficulty_Relax>공동체 건설자</Milira.Difficulty_Relax>
   <Milira.Difficulty_RelaxDesc>어려운 전투를 거의 겪고 싶지 않은 플레이어에게 적합한 난이도입니다.\n\n밀리라 세력의 습격 규모가 20%로 조정됩니다.</Milira.Difficulty_RelaxDesc>
-  <Milira.Difficulty_Easy>쉬움</Milira.Difficulty_Easy>
+  <Milira.Difficulty_Easy>모험 이야기</Milira.Difficulty_Easy>
   <Milira.Difficulty_EasyDesc>가벼운 전투를 경험하고 싶은 플레이어에게 적합한 난이도입니다. 밀리라 및 고급 밀리언 병종이 습격에 거의 출현하지 않으며, 이 모드를 경험하고 싶지만 전투를 좋아하지 않는 이들에게 적합합니다.\n\n밀리라 세력의 습격 규모가 60%로 조정됩니다.</Milira.Difficulty_EasyDesc>
-  <Milira.Difficulty_Normal>일반</Milira.Difficulty_Normal>
+  <Milira.Difficulty_Normal>생존을 위한 노력</Milira.Difficulty_Normal>
   <Milira.Difficulty_NormalDesc>모드의 본래 난이도를 경험하고 싶은 플레이어에게 적합한 난이도입니다. 이 모드의 습격 시스템은 해당 난이도에 맞춰 설계되었으며, 바닐라 게임 내용을 어느 정도 숙지하고 있으며 전투를 선호하는 이들에게 적합합니다.\n\n밀리라 세력의 습격 규모가 100%로 조정됩니다.</Milira.Difficulty_NormalDesc>
-  <Milira.Difficulty_Hard>어려움</Milira.Difficulty_Hard>
+  <Milira.Difficulty_Hard>혈전</Milira.Difficulty_Hard>
   <Milira.Difficulty_HardDesc>도전적인 전투를 경험하고 싶은 플레이어에게 적합한 난이도입니다. 밀리라 세력의 습격에 대처하는 데 능숙해진 후 새로운 도전 요소를 원하는 이들에게 적합합니다.\n\n밀리라 세력의 습격 규모가 120%로 조정됩니다.</Milira.Difficulty_HardDesc>
-  <Milira.Difficulty_Crazy>매우 어려움</Milira.Difficulty_Crazy>
+  <Milira.Difficulty_Crazy>패배의 즐거움</Milira.Difficulty_Crazy>
   <Milira.Difficulty_CrazyDesc>쉴 틈 없는 전투를 경험하고 싶은 플레이어에게 적합한 난이도입니다. 밀리라 및 고급 밀리언 병종이 보다 이른 시기부터 습격에 출현하며, 미래의 정착지와는 작별을 고해야 할 것입니다.\n\n밀리라 세력의 습격 규모가 150%로 조정됩니다.</Milira.Difficulty_CrazyDesc>
   <Milira.MilianModifySetting>밀리언 개조 확률</Milira.MilianModifySetting>
   <Milira.MilianModificationChance_Off>없음</Milira.MilianModificationChance_Off>
@@ -133,4 +134,6 @@
   <MiliraRace_ModSetting_MiliraDifficulty_TirelessFly_Desc>활성화된 경우 습격에 참여 중인 밀리라는 초고속 비행을 사용할 때 허기 및 휴식 수치를 소모하지 않습니다.</MiliraRace_ModSetting_MiliraDifficulty_TirelessFly_Desc>
   <Milira.RaceRestrictedApparel_Label>복장 제한</Milira.RaceRestrictedApparel_Label>
   <Milira.RaceRestrictedApparel_Desc>복장 제한을 설정하여 밀리라가 지정된 세트 외의 복장을 착용할 수 있는지 결정합니다.</Milira.RaceRestrictedApparel_Desc>
+  <Milira.MilianWorkTabEnable_Label>밀리안 작업 탭</Milira.MilianWorkTabEnable_Label>
+  <Milira.MilianWorkTabEnable_Desc>밀리안 작업 화면을 여는 방법을 선택하십시오.</Milira.MilianWorkTabEnable_Desc>
 </LanguageData>
