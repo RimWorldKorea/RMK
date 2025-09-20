@@ -29,8 +29,7 @@
   <RimTalk.Settings.AutoIncludedTip>팁: 정착민 세부 정보(특성, 관계, 종족, 나이 등)는 따로 적지 않아도 자동으로 포함됩니다. 모든 캐릭터와 정착지에게 적용할 수 있는 일반적인 지침을 작성하세요.</RimTalk.Settings.AutoIncludedTip>
   <RimTalk.Settings.RateLimitWarning>경고: 프롬프트의 길이가 길어질수록 더 많은 토큰을 소비하고 속도 제한에 더 빨리 도달합니다. 프롬프트 캐싱은 사용되지 않습니다.</RimTalk.Settings.RateLimitWarning>
   <RimTalk.Settings.BubbleFadeTip>팁: 빨리감기 중에 대화문을 더 오래 표시하려면 Interaction Bubbles 모드 설정에서 말풍선이 사라지기 시작하는 틱을 조정하세요.</RimTalk.Settings.BubbleFadeTip>
-  <RimTalk.Settings.TokenInfo>현재: ~{0} 토큰 | 최대 허용: {1} 토큰</RimTalk.Settings.TokenInfo>
-  <RimTalk.Settings.OverLimit> (한도 초과!)</RimTalk.Settings.OverLimit>
+  <RimTalk.Settings.TokenInfo>현재: ~{0} 토큰 | 권장 제한: {1} 토큰</RimTalk.Settings.TokenInfo>
   <RimTalk.Settings.ResetToDefault>기본값으로 초기화</RimTalk.Settings.ResetToDefault>
   <RimTalk.Settings.EventFilterTip>팁: AI는 여기에서 선택된 이벤트 종류만 처리합니다. AI가 응답하지 않기를 원하는 이벤트는 선택을 해제하세요.</RimTalk.Settings.EventFilterTip>
   <RimTalk.Settings.NoArchivableTypes>아카이브 가능한 유형을 찾을 수 없습니다. 게임을 시작한 다음 다시 스캔을 시도해 보세요.</RimTalk.Settings.NoArchivableTypes>
@@ -55,7 +54,6 @@
   <RimTalk.Settings.BaseUrlLabel>기본 Url:</RimTalk.Settings.BaseUrlLabel>
   <RimTalk.Settings.ModelLabel>모델:</RimTalk.Settings.ModelLabel>
   <RimTalk.Settings.EnterApiKey>(유효한 API 키를 입력하여 모델을 불러오세요)</RimTalk.Settings.EnterApiKey>
-  <RimTalk.Toggle.Tooltip>AI 대화 ON/OFF\n\nShift+클릭으로 설정</RimTalk.Toggle.Tooltip>
   <RimTalk.Persona.CheerfulHelper>쾌활한 조력자 – 따뜻함, 긍정적, 남을 격려함. 항상 사기를 북돋으려 함.</RimTalk.Persona.CheerfulHelper>
   <RimTalk.Persona.CynicalRealist>냉소적 현실주의자 – 냉정함, 비꼬는 말투, 회의적. 가혹한 진실을 직설적으로 말함.</RimTalk.Persona.CynicalRealist>
   <RimTalk.Persona.ShyThinker>수줍은 사색가 – 조용함, 망설임. 말이 적지만 사려 깊게 말함.</RimTalk.Persona.ShyThinker>
@@ -117,4 +115,38 @@
   <RimTalk.PersonaEditor.SmartGen>스마트 생성</RimTalk.PersonaEditor.SmartGen>
   <RimTalk.PersonaEditor.RollGen>랜덤 생성</RimTalk.PersonaEditor.RollGen>
   <RimTalk.PersonaEditor.Clear>지우기</RimTalk.PersonaEditor.Clear>
+  <RimTalk_Settings_Api_BaseUrlInfo>기본 주소(예: http://localhost:1234)만 입력하면 자동으로 /v1/chat/completions가 추가됩니다. 전체 경로를 입력하면 입력된 그대로 사용됩니다.</RimTalk_Settings_Api_BaseUrlInfo>
+  <RimTalk.DebugWindow.Generating>[생성 중...]</RimTalk.DebugWindow.Generating>
+  <RimTalk.DebugWindow.StatusDisabled>비활성됨</RimTalk.DebugWindow.StatusDisabled>
+  <RimTalk.DebugWindow.StatusProcessing>처리 중</RimTalk.DebugWindow.StatusProcessing>
+  <RimTalk.DebugWindow.StatusIdle>대기 중</RimTalk.DebugWindow.StatusIdle>
+  <RimTalk.DebugWindow.GroupByPawn>폰별로 묶기</RimTalk.DebugWindow.GroupByPawn>
+  <RimTalk.DebugWindow.DebugMode>디버그 모드</RimTalk.DebugWindow.DebugMode>
+  <RimTalk.DebugWindow.ModSettings>모드 설정</RimTalk.DebugWindow.ModSettings>
+  <RimTalk.DebugWindow.EnableRimTalk>림토크 활성화</RimTalk.DebugWindow.EnableRimTalk>
+  <RimTalk.DebugWindow.AIStatus>AI 상태:</RimTalk.DebugWindow.AIStatus>
+  <RimTalk.DebugWindow.TotalCalls>총 호출 수:</RimTalk.DebugWindow.TotalCalls>
+  <RimTalk.DebugWindow.TotalTokens>총 토큰:</RimTalk.DebugWindow.TotalTokens>
+  <RimTalk.DebugWindow.AvgCallsPerMin>평균 분당 호출:</RimTalk.DebugWindow.AvgCallsPerMin>
+  <RimTalk.DebugWindow.AvgTokensPerMin>평균 분당 토큰:</RimTalk.DebugWindow.AvgTokensPerMin>
+  <RimTalk.DebugWindow.AvgTokensPerCall>평균 호출당 토큰:</RimTalk.DebugWindow.AvgTokensPerCall>
+  <RimTalk.DebugWindow.TokensPerSecond>토큰/초</RimTalk.DebugWindow.TokensPerSecond>
+  <RimTalk.DebugWindow.SixtySecondsAgo>60초 전</RimTalk.DebugWindow.SixtySecondsAgo>
+  <RimTalk.DebugWindow.Now>현재</RimTalk.DebugWindow.Now>
+  <RimTalk.DebugWindow.StatusReady>준비됨</RimTalk.DebugWindow.StatusReady>
+  <RimTalk.DebugWindow.StatusBusy>바쁨</RimTalk.DebugWindow.StatusBusy>
+  <RimTalk.DebugWindow.HeaderPawn>폰</RimTalk.DebugWindow.HeaderPawn>
+  <RimTalk.DebugWindow.HeaderResponse>내용</RimTalk.DebugWindow.HeaderResponse>
+  <RimTalk.DebugWindow.HeaderStatus>상태</RimTalk.DebugWindow.HeaderStatus>
+  <RimTalk.DebugWindow.HeaderLastTalk>마지막 대화</RimTalk.DebugWindow.HeaderLastTalk>
+  <RimTalk.DebugWindow.HeaderRequests>요청 갯수</RimTalk.DebugWindow.HeaderRequests>
+  <RimTalk.DebugWindow.HeaderChattiness>말수</RimTalk.DebugWindow.HeaderChattiness>
+  <RimTalk.DebugWindow.NoTalkLogs>기록된 대화 로그가 없습니다. 아직 생성된 대화가 없거나 AI가 비활성화된 상태일 수 있습니다.</RimTalk.DebugWindow.NoTalkLogs>
+  <RimTalk.DebugWindow.HeaderTimestamp>시각</RimTalk.DebugWindow.HeaderTimestamp>
+  <RimTalk.DebugWindow.HeaderTimeMs>시간(ms)</RimTalk.DebugWindow.HeaderTimeMs>
+  <RimTalk.DebugWindow.HeaderTokens>토큰</RimTalk.DebugWindow.HeaderTokens>
+  <RimTalk.DebugWindow.TooltipPromptResponse>프롬프트:\n{0}\n\n생성된 대화:\n{1}</RimTalk.DebugWindow.TooltipPromptResponse>
+  <RimTalk.Settings.PauseAtSpeed>배속 중일 때 AI 비활성화</RimTalk.Settings.PauseAtSpeed>
+  <RimTalk.Settings.DisableAiAtSpeedTooltip>API 호출 횟수를 줄이기 위해 게임 속도가 이 이상으로 설정되면 AI가 일시적으로 비활성화됩니다.</RimTalk.Settings.DisableAiAtSpeedTooltip>
+  <RimTalk.Settings.Disabled>비활성됨</RimTalk.Settings.Disabled>
 </LanguageData>
