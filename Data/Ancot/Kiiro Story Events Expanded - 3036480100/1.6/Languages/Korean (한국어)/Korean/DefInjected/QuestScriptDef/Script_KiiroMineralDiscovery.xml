@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->The scouts from [kiiro_settlement_label] have discovered a newly fallen meteorite nearby, which appears to contain some minerals. [kiiro_settlement_label] lacks the means to send miners to extract these minerals and has decided to entrust this meteorite mine to you. The location of the meteorite has now been marked on your map.\n\nThere may be unknown threats near the meteorite.\n\n"There might be others eyeing this meteorite as well, please be cautious."</li>
+  -->
+  <Kiiro_Mineral_Discovery.questDescriptionRules.rulesStrings>
+    <li>questDescription->[kiiro_settlement_label]의 정찰대가 근처에서 새로 떨어진 운석을 발견했는데, 이 운석에는 광물이 들어 있는 것으로 보입니다. [kiiro_settlement_label](은)는 광부를 보내 광물을 채굴할 수단이 부족하여 이 운석 광산을 당신에게 맡기기로 결정했습니다. 이제 운석의 위치가 지도에 표시되었습니다.\n\n운석 근처에 알려지지 않은 위협이 있을 수 있습니다.\n\n"이 운석을 노리는 자들이 있을 수 있으니 조심하세요."</li>
+  </Kiiro_Mineral_Discovery.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->mineral discovery</li>
+  -->
+  <Kiiro_Mineral_Discovery.questNameRules.rulesStrings>
+    <li>questName->광물 발견</li>
+  </Kiiro_Mineral_Discovery.questNameRules.rulesStrings>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <Kiiro_Mineral_Discovery.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>임무 만료: [resolvedQuestName]</Kiiro_Mineral_Discovery.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: Seems that the meteorite mine has already been mined by someone else. -->
+  <Kiiro_Mineral_Discovery.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>누군가가 먼저 광석을 채굴한 것 같습니다.</Kiiro_Mineral_Discovery.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  
+</LanguageData>

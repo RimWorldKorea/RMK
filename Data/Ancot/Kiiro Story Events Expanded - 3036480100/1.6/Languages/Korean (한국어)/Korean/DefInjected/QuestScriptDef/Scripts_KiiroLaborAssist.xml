@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questName->Laborers</li>
+    <li>questDescription-></li>
+  -->
+  <Kiiro_LaborAssist.questDescriptionAndNameRules.rulesStrings>
+    <li>questName->작업자 지원</li>
+    <li>questDescription-></li>
+  </Kiiro_LaborAssist.questDescriptionAndNameRules.rulesStrings>
+  <!-- EN: Completing work assistance in {0}. -->
+  <Kiiro_LaborAssist.root.nodes.ExtraInspectStringAddOn.extraInspectString.slateRef>{0} 후에 작업자 지원이 끝납니다.</Kiiro_LaborAssist.root.nodes.ExtraInspectStringAddOn.extraInspectString.slateRef>
+  <!-- EN: one day left: work assist -->
+  <Kiiro_LaborAssist.root.nodes.Delay-1.node.label.slateRef>1일 남음: 작업자 지원</Kiiro_LaborAssist.root.nodes.Delay-1.node.label.slateRef>
+  <!-- EN: The required work assist is only one day left. -->
+  <Kiiro_LaborAssist.root.nodes.Delay-1.node.text.slateRef>작업 지원이 이제 1일 남았습니다.</Kiiro_LaborAssist.root.nodes.Delay-1.node.text.slateRef>
+  <!-- EN: work assist completed -->
+  <Kiiro_LaborAssist.root.nodes.GreaterOrEqual.node.node.nodes.AnyPawnAlive.node.label.slateRef>작업 지원 완료됨</Kiiro_LaborAssist.root.nodes.GreaterOrEqual.node.node.nodes.AnyPawnAlive.node.label.slateRef>
+  <!-- EN: The kiiros from [kiiro_settlement_label] completed work assist just now, and now leaving. -->
+  <Kiiro_LaborAssist.root.nodes.GreaterOrEqual.node.node.nodes.AnyPawnAlive.node.text.slateRef>[kiiro_settlement_label]에서 온 작업자들의 지원이 방금 끝났습니다. 그들은 이제 떠납니다.</Kiiro_LaborAssist.root.nodes.GreaterOrEqual.node.node.nodes.AnyPawnAlive.node.text.slateRef>
+  <!-- EN: worker died: {SUBJECT_definite} -->
+  <Kiiro_LaborAssist.root.nodes.laborersDestroyed.node.nodes.Letter.label.slateRef>작업자 사망: {SUBJECT_definite}</Kiiro_LaborAssist.root.nodes.laborersDestroyed.node.nodes.Letter.label.slateRef>
+  <!-- EN: A worker sent to you by [permitFaction_name] has died. Your goodwill with [permitFaction_name] has fallen by [goodwillPenaltyPawn]. -->
+  <Kiiro_LaborAssist.root.nodes.laborersDestroyed.node.nodes.Letter.text.slateRef>[permitFaction_name]에서 온 작업자가 사망했습니다. [permitFaction_name]와의 관계가 [goodwillPenaltyPawn]만큼 악화됩니다.</Kiiro_LaborAssist.root.nodes.laborersDestroyed.node.nodes.Letter.text.slateRef>
+  <!-- EN: kiiro work assist suspended -->
+  <Kiiro_LaborAssist.root.nodes.permitFactionBecameHostileToPlayer.node.nodes.Letter.label.slateRef>작업자 지원 취소됨</Kiiro_LaborAssist.root.nodes.permitFactionBecameHostileToPlayer.node.nodes.Letter.label.slateRef>
+  <!-- EN: due to we are now hostile to kiiro, the required kiiro work assist was forced to suspend. -->
+  <Kiiro_LaborAssist.root.nodes.permitFactionBecameHostileToPlayer.node.nodes.Letter.text.slateRef>키이로와의 관계가 악화됨에 따라 지원이 취소되었습니다.</Kiiro_LaborAssist.root.nodes.permitFactionBecameHostileToPlayer.node.nodes.Letter.text.slateRef>
+  
+</LanguageData>

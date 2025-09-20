@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[QuestInfo], hoping to ask your consent. Kiiros will not settle too close to [map_definite] to avoid causing any inconvenience to you.\n\nUpon obtaining your consent, kiiros will begin the process of constructing their own settlement, which will take some time.</li>
+    <li>QuestInfo->A group of displaced kiiro wishes to establish a village near [map_definite] in order to settle down and end their wandering life</li>
+    <li>QuestInfo->The kiiros wishes to establish a new village near [map_definite] for easier communication with you</li>
+  -->
+  <Kiiro_NewSettlementEstablish.questDescriptionRules.rulesStrings>
+    <li>questDescription->[QuestInfo] 당신의 동의를 받는다면, 키이로들은 [map_definite] 근처에 정착지를 건설할 것입니다. 키이로 정착지는 적당한 거리를 두어 당신에게 불편을 끼치지 않을 것입니다.</li>
+    <li>QuestInfo->한 무리의 키이로가 방랑 생활을 마치고 [map_definite] 근처에 마을을 세우고 싶어 합니다.</li>
+    <li>QuestInfo->키이로들은 당신의 정착지와의 원활한 의사소통을 위해 [map_definite] 근처에 마을을 세우고 싶어 합니다.</li>
+  </Kiiro_NewSettlementEstablish.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->kiiro new settlement</li>
+  -->
+  <Kiiro_NewSettlementEstablish.questNameRules.rulesStrings>
+    <li>questName->새로운 키이로 정착지</li>
+  </Kiiro_NewSettlementEstablish.questNameRules.rulesStrings>
+  <!-- EN: kiiro town constructing -->
+  <Kiiro_NewSettlementEstablish.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-0.nodes.Letter.label.slateRef>정착지 건설 중</Kiiro_NewSettlementEstablish.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-0.nodes.Letter.label.slateRef>
+  <!-- EN: The Kiiro's village is progressing smoothly in its construction. Before long, a brand-new settlement belonging to the Kiiro will emerge near [map_definite]. -->
+  <Kiiro_NewSettlementEstablish.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-0.nodes.Letter.text.slateRef> 새로운 키이로 마을 건설이 순조롭게 진행되고 있습니다. 곧 [map_definite] 근처에 새로운 정착지가 생길 것입니다.</Kiiro_NewSettlementEstablish.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-0.nodes.Letter.text.slateRef>
+  <!-- EN: kiiro town resource request -->
+  <Kiiro_NewSettlementEstablish.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-1.nodes.Letter.label.slateRef>물자 지원 희망</Kiiro_NewSettlementEstablish.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-1.nodes.Letter.label.slateRef>
+  <!-- EN: The Kiiro's town construction has encountered a shortage of building materials... They are requesting [requestedThingCount] x woodlogs from you to expedite the completion of the town. Without these materials, the construction progress will become extremely slow, requiring an additional [finishTimeTicks_duration] to finish. -->
+  <Kiiro_NewSettlementEstablish.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-1.nodes.Letter.text.slateRef>정착지를 건설중인 키이로들이 자재 부족으로 인한 차질을 겪고 있습니다.키이로들은 [requestedThingCount]개의 목재를 요청하고 있으며, 도와주지 않는다면 완공까지 추가로 [finishTimeTicks_duration]이(가) 걸릴 것입니다.</Kiiro_NewSettlementEstablish.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-1.nodes.Letter.text.slateRef>
+  <!-- EN: assistance appreciation -->
+  <Kiiro_NewSettlementEstablish.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-1.nodes.Kiiro_NewSettlementUnderConstructionTradeRequestFulfilled.node.nodes.Letter.label.slateRef>지원 감사 인사</Kiiro_NewSettlementEstablish.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-1.nodes.Kiiro_NewSettlementUnderConstructionTradeRequestFulfilled.node.nodes.Letter.label.slateRef>
+  <!-- EN: The Kiiro have received the building materials for assistance! Thanks to your help, the Kiiro's town should be completed soon. -->
+  <Kiiro_NewSettlementEstablish.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-1.nodes.Kiiro_NewSettlementUnderConstructionTradeRequestFulfilled.node.nodes.Letter.text.slateRef>물자를 지원받은 키이로들이 감사를 표합니다! 정착지 건설은 곧 완료될 것입니다.</Kiiro_NewSettlementEstablish.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-1.nodes.Kiiro_NewSettlementUnderConstructionTradeRequestFulfilled.node.nodes.Letter.text.slateRef>
+  <!-- EN: Kiiro village construction completed -->
+  <Kiiro_NewSettlementEstablish.root.nodes.FinishConstruction.node.nodes.Letter.label.slateRef>키이로 정착지 완공</Kiiro_NewSettlementEstablish.root.nodes.FinishConstruction.node.nodes.Letter.label.slateRef>
+  <!-- EN: A new kiiro village has been constructed near [map_definite]. -->
+  <Kiiro_NewSettlementEstablish.root.nodes.FinishConstruction.node.nodes.Letter.text.slateRef>새로운 키이로 정착지가 [map_definite] 근처에 완공되었습니다.</Kiiro_NewSettlementEstablish.root.nodes.FinishConstruction.node.nodes.Letter.text.slateRef>
+  <!-- EN: [resolvedQuestName] failed -->
+  <Kiiro_NewSettlementEstablish.root.nodes.factionBecameHostileToPlayer.node.nodes.Letter.label.slateRef>[resolvedQuestName] 실패</Kiiro_NewSettlementEstablish.root.nodes.factionBecameHostileToPlayer.node.nodes.Letter.label.slateRef>
+  <!-- EN: Due to the hostile relationship with the kiiros, [resolvedQuestName] cannot be completed further. -->
+  <Kiiro_NewSettlementEstablish.root.nodes.factionBecameHostileToPlayer.node.nodes.Letter.text.slateRef>키이로와의 관계가 악화되었습니다. [resolvedQuestName] 가 실패했습니다.</Kiiro_NewSettlementEstablish.root.nodes.factionBecameHostileToPlayer.node.nodes.Letter.text.slateRef>
+  
+</LanguageData>

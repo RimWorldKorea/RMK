@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>letterLabelBeggarsBetrayed->배신당한 [groupLabelSingleOrPlural]</li>
+    <li>letterTextBeggarsBetrayed->당신의 자비를 구하던 [groupLabelSingleOrPlural](이)가 [wasWere] seeking your charity [hasHave] been betrayed. Colonists with charitable beliefs will be unhappy.</li>
+    <li>hasHave(beggarCount==1)->has</li>
+    <li>hasHave(beggarCount>=2)->have</li>
+    <li>wasWere(beggarCount==1)->was</li>
+    <li>wasWere(beggarCount>=2)->were</li>
+    <li>groupLabelSingleOrPlural(beggarCount==1)->traveler</li>
+    <li>groupLabelSingleOrPlural(beggarCount>=2)->travelers</li>
+  -->
+  <Kiiro_Beggars.questContentRules.rulesStrings>
+    <li>letterLabelBeggarsBetrayed->배신당한 [groupLabelSingleOrPlural]</li>
+    <li>letterTextBeggarsBetrayed->당신의 자비를 구하던 [groupLabelSingleOrPlural](이)가 배신당했습니다. 이타적인 믿음을 가진 정착민들은 불행해질 것입니다.</li>
+    <li>hasHave(beggarCount==1)-></li>
+    <li>hasHave(beggarCount>=2)-></li>
+    <li>wasWere(beggarCount==1)-></li>
+    <li>wasWere(beggarCount>=2)-></li>
+    <li>groupLabelSingleOrPlural(beggarCount==1)->여행자</li>
+    <li>groupLabelSingleOrPlural(beggarCount>=2)->여행자들</li>
+  </Kiiro_Beggars.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>groupLabelPlural->travelers</li>
+    <li>groupLabelPlural(allChildren==true,priority=1)->children</li>
+    <li>groupLabelSingle->traveler</li>
+    <li>groupLabelSingle(childCount>=1,priority=1)->child</li>
+    <li>travelerInfo(beggarCount==1)->This [groupLabelSingle] belong</li>
+    <li>travelerInfo(beggarCount>=2)->These [groupLabelPlural] belongs</li>
+    <li>beggingForInfo->for x[requestedThingCount] [requestedThing_label]</li>
+    <li>traverObjective(beggarCount==1)->[beggars0_objective]</li>
+    <li>traverObjective(beggarCount>=2)->them</li>
+    <li>questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] to kiiro faction.</li>
+    <li>approachInfo(beggarCount==1)->A poor [groupLabelSingle] named [beggars0_nameDef] is approaching looking for help</li>
+    <li>approachInfo(beggarCount>=2)->A group of poor [groupLabelPlural] are approaching looking for help</li>
+    <li>approachInfo(beggarCount>=2,childCount==1,priority=1)->A group of poor [groupLabelPlural] including a child are approaching looking for help</li>
+    <li>approachInfo(beggarCount>=2,childCount>=2,allChildren==false,priority=1)->A group of poor [groupLabelPlural] including some children are approaching looking for help</li>
+    <li>requestInfo(beggarCount==1)->[beggars0_nameDef] is begging [beggingForInfo]</li>
+    <li>requestInfo(beggarCount>=2)->The [groupLabelPlural] are begging [beggingForInfo]</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef] wants the silver so they can buy back a friend who was recently kidnapped</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef] needs the medicine to help a partner who is injured nearby</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Kiiro_CannedCatFood)->[beggars0_nameDef] wants canned food to prepare for the long journey ahead</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->They want the silver so they can buy back a friend who was recently kidnapped</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->They need the medicine to attempt a life-saving operation on a fellow traveler who was attacked by mechanoids</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Kiiro_CannedCatFood)->They want canned food to prepare for the long journey ahead</li>
+    <li>interactionInfo(beggarCount==1)->You can give items to [beggars0_nameDef] by selecting a colonist and right-clicking on [beggars0_objective]</li>
+    <li>interactionInfo(beggarCount>=2)->You can give items to the [groupLabelPlural] by selecting a colonist and right-clicking on [beggars0_nameDef]</li>
+    <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef] will move on after [visitDurationTicks_duration]</li>
+    <li>moveOnInfo(beggarCount>=2)->The [groupLabelPlural] will move on after [visitDurationTicks_duration]</li>
+  -->
+  <Kiiro_Beggars.questDescriptionRules.rulesStrings>
+    <li>groupLabelPlural->여행자들</li>
+    <li>groupLabelPlural(allChildren==true,priority=1)->아이들</li>
+    <li>groupLabelSingle->여행자</li>
+    <li>groupLabelSingle(childCount>=1,priority=1)->아이</li>
+    <li>travelerInfo(beggarCount==1)->이 [groupLabelSingle]의 소속은</li>
+    <li>travelerInfo(beggarCount>=2)->이 [groupLabelPlural]의 소속은</li>
+    <li>beggingForInfo->[requestedThing_label] [requestedThingCount]개</li>
+    <li>traverObjective(beggarCount==1)->[beggars0_objective]</li>
+    <li>traverObjective(beggarCount>=2)->그들</li>
+    <li>questDescription->[approachInfo]. [requestInfo]. [claimInfo]. \n\n[interactionInfo]. \n\n[moveOnInfo]. \n\n[travelerInfo] 키이로 진영입니다.</li>
+    <li>approachInfo(beggarCount==1)-> [beggars0_nameDef](이)라는 불쌍한 [groupLabelSingle](이)가 도움을 요청하기 위해 다가오고 있습니다</li>
+    <li>approachInfo(beggarCount>=2)->한 무리의 가난한 [groupLabelPlural](이)가 도움을 요청하기 위해 다가오고 있습니다</li>
+    <li>approachInfo(beggarCount>=2,childCount==1,priority=1)->어린이를 포함한 가난한 [groupLabelPlural](이)가 도움을 요청하기 위해 다가옵니다</li>
+    <li>approachInfo(beggarCount>=2,childCount>=2,allChildren==false,priority=1)->어린이를 포함한 가난한 [groupLabelPlural](이)가 도움을 요청하기 위해 다가옵니다</li>
+    <li>requestInfo(beggarCount==1)->[beggars0_nameDef](이)가 [beggingForInfo](을)를 구걸합니다</li>
+    <li>requestInfo(beggarCount>=2)->[groupLabelPlural](이)가 [beggingForInfo](을)를 구걸합니다</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef](은)는 최근 납치된 친구를 되찾기 위해 은을 원합니다.</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef](이)가 근처에서 부상당한 동료를 돕기 위해 약을 원합니다</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Kiiro_CannedCatFood)->[beggars0_nameDef](은)는 앞으로의 긴 여정에 대비하기 위해 고양이 통조림을 원합니다</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->그들은 최근에 납치된 친구를 되찾기 위해 은을 원합니다</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->메카노이드의 공격을 받은 동료 여행자를 수술하기 위해 약이 필요합니다</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Kiiro_CannedCatFood)->앞으로의 긴 여정에 대비하기 위해 고양이 통조림을 원합니다</li>
+    <li>interactionInfo(beggarCount==1)->정착민을 선택하고 [beggars0_nameDef](을)를 우클릭하여 아이템을 줄 수 있습니다</li>
+    <li>interactionInfo(beggarCount>=2)->정착민을 선택하고 [beggars0_nameDef](을)를 우클릭하여 아이템을 줄 수 있습니다</li>
+    <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef](은)는 [visitDurationTicks_duration] 후 떠납니다</li>
+    <li>moveOnInfo(beggarCount>=2)->[groupLabelPlural](은)는 [visitDurationTicks_duration] 후 떠납니다</li>
+  </Kiiro_Beggars.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName(beggarCount==1)->kiiro [beggarSingle] [seekingSingle] [alms]</li>
+    <li>questName(beggarCount==1,childCount==1,priority=1)->young kiiro [beggarSingle] [seekingSingle] [alms]</li>
+    <li>questName(beggarCount>=2)->kiiro [beggarPlural] [seekingPlural] [alms]</li>
+    <li>questName(beggarCount>=2,allChildren==true,priority=1)->young kiiro [beggarPlural] [seekingPlural] [alms]</li>
+    <li>beggarSingle->vagabond</li>
+    <li>beggarSingle->drifter</li>
+    <li>beggarSingle->traveler</li>
+    <li>beggarPlural->[beggarSingle]s</li>
+    <li>seekingSingle->seeks</li>
+    <li>seekingSingle->requests</li>
+    <li>seekingSingle->wishes for</li>
+    <li>seekingSingle->hopes for</li>
+    <li>seekingSingle->needs</li>
+    <li>seekingPlural->seek</li>
+    <li>seekingPlural->request</li>
+    <li>seekingPlural->wish for</li>
+    <li>seekingPlural->hope for</li>
+    <li>seekingPlural->need</li>
+    <li>alms->aid</li>
+    <li>alms->charity</li>
+    <li>alms->resources</li>
+  -->
+  <Kiiro_Beggars.questNameRules.rulesStrings>
+    <li>questName(beggarCount==1)->키이로 [beggarSingle] [alms] [seekingSingle]</li>
+    <li>questName(beggarCount==1,childCount==1,priority=1)->어린 키이로 [beggarSingle] [alms] [seekingSingle]</li>
+    <li>questName(beggarCount>=2)->키이로 [beggarPlural] [alms] [seekingPlural]</li>
+    <li>questName(beggarCount>=2,allChildren==true,priority=1)->어린 키이로 [beggarPlural] [alms] [seekingPlural]</li>
+    <li>beggarSingle->방랑자</li>
+    <li>beggarSingle->유랑자</li>
+    <li>beggarSingle->여행자</li>
+    <li>beggarPlural->[beggarSingle]들</li>
+    <li>seekingSingle->희망</li>
+    <li>seekingSingle->요청</li>
+    <li>seekingSingle->기대</li>
+    <li>seekingSingle->요구</li>
+    <li>seekingPlural->희망</li>
+    <li>seekingPlural->요청</li>
+    <li>seekingPlural->기대</li>
+    <li>seekingPlural->요구</li>
+    <li>alms->도움</li>
+    <li>alms->자선</li>
+    <li>alms->자원</li>
+  </Kiiro_Beggars.questNameRules.rulesStrings>
+  
+</LanguageData>

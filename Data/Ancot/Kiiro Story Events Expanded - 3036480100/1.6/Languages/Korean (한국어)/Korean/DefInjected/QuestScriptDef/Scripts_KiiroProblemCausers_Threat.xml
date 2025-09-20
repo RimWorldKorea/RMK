@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription(siteFaction==Pirate)->Pirates have established a temporary outpost near [kiiro_settlement_label] and deployed a [problemCauserLabel] inside to disrupt the residents of [kiiro_settlement_label].\n\nThe [problemCauserLabel] has been adjusted to increase power in the direction of [kiiro_settlement_label], and the kiiro residents in [kiiro_settlement_label] cannot endure the harsh conditions for too long.\n\nKiiros needs your help. Several kiiro guerrilla teams will distract the pirates at the temporary outpost, providing cover for your team to approach the [problemCauserLabel].</li>
+    <li>questDescription(siteFaction==Mechanoids)->A mech cluster containing a [problemCauserLabel] was airdropped near [kiiro_settlement_label].\n\nFor unknown reasons, the [problemCauserLabel] has concentrated its power in the direction of [kiiro_settlement_label], and the kiiro residents in [kiiro_settlement_label] cannot endure the harsh conditions for too long.\n\nKiiros needs your help. A kiiro special forces team will be on standby nearby and will assist your team when the cluster is activated.</li>
+  -->
+  <Kiiro_ProblemCauser.questDescriptionRules.rulesStrings>
+    <li>questDescription(siteFaction==Pirate)->해적들이 [kiiro_settlement_label] 근처에 전초기지를 구축하고, [problemCauserLabel]를 배치했습니다. 이는 [kiiro_settlement_label]를 향해 영향을 끼치고 있습니다.\n\n[problemCauserLabel]는(은) 조정되어 [kiiro_settlement_label] 방향으로 출력이 집중되었으며, [kiiro_settlement_label]의 키이로들은 이 상황을 오래 버틸 수 없을 것입니다. \n\n 키이로들은 당신의 도움이 필요합니다. 키이로 유격대원들이 당신을 도와 전초기지를 제압할 것이며, 그 사이에 [problemCauserLabel]를 당신의 팀이 파괴해야 합니다.</li>
+    <li>questDescription(siteFaction==Mechanoids)->[problemCauserLabel]를 포함한 메카노이드 전초기지가 [kiiro_settlement_label] 인근에 나타났습니다. \n\n[problemCauserLabel]는 알 수 없는 이유로 출력을 [kiiro_settlement_label] 방향으로 집중하고 있습니다. [kiiro_settlement_label]의 키이로들은 이 상황을 오래 버틸 수 없을 것입니다. \n\n키이로 특수부대가 근처에서 대기하고 있습니다. 메카노이드 전초기지가 활성화되면 당신을 지원할 것입니다.</li>
+  </Kiiro_ProblemCauser.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName(siteFaction==Pirate)->[problemCauserLabel] threat</li>
+    <li>questName(siteFaction==Mechanoids)->[problemCauserLabel] threat</li>
+  -->
+  <Kiiro_ProblemCauser.questNameRules.rulesStrings>
+    <li>questName(siteFaction==Pirate)->[problemCauserLabel] 위협</li>
+    <li>questName(siteFaction==Mechanoids)->[problemCauserLabel] 위협</li>
+  </Kiiro_ProblemCauser.questNameRules.rulesStrings>
+  <!-- EN: Quest failed：[problemCauserLabel] -->
+  <Kiiro_ProblemCauser.root.nodes.QuestEndUnfinished.node.nodes.Letter.label.slateRef>임무 실패: [problemCauserLabel]</Kiiro_ProblemCauser.root.nodes.QuestEndUnfinished.node.nodes.Letter.label.slateRef>
+  <!-- EN: The kiiro residents of [kiiro_settlement_label], who could no longer bear the influence of [problemCauserLabel], have decided to evacuate.\n\n[kiiro_settlement_label] has been abandoned. -->
+  <Kiiro_ProblemCauser.root.nodes.QuestEndUnfinished.node.nodes.Letter.text.slateRef>[problemCauserLabel]의 영향을 더는 견딜 수 없던 [kiiro_settlement_label]의 키이로들은 이주하기로 결정했습니다. \n\n[kiiro_settlement_label]는(은) 폐허가 되었습니다.</Kiiro_ProblemCauser.root.nodes.QuestEndUnfinished.node.nodes.Letter.text.slateRef>
+  <!-- EN: [problemCauserLabel] destroyed -->
+  <Kiiro_ProblemCauser.root.nodes.conditionCauserDestroyed.node.nodes.Letter.label.slateRef>[problemCauserLabel] 파괴됨</Kiiro_ProblemCauser.root.nodes.conditionCauserDestroyed.node.nodes.Letter.label.slateRef>
+  <!-- EN: You have successfully destroyed the [problemCauserLabel] that was affecting [kiiro_settlement_label]! Your relationship with kiiros has increased by [goodWillRewardAbs]. -->
+  <Kiiro_ProblemCauser.root.nodes.conditionCauserDestroyed.node.nodes.Letter.text.slateRef>[kiiro_settlement_label]에 영향을 주던 [problemCauserLabel]가 파괴되었습니다! 키이로와의 우호도가 [goodWillRewardAbs]만큼 증가했습니다.</Kiiro_ProblemCauser.root.nodes.conditionCauserDestroyed.node.nodes.Letter.text.slateRef>
+  
+</LanguageData>
