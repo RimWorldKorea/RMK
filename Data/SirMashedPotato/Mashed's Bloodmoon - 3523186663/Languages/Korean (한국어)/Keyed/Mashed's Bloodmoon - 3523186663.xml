@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+  <!--English=consume heart-->
+  <Mashed_Bloodmoon_DesignatorConsumeHeart_Label>심장 섭취</Mashed_Bloodmoon_DesignatorConsumeHeart_Label>
+  <!--English=Mark corpses to have transformed lycanthropes consume their hearts.\n\nOnly unーdrafted lycanthropes will autonomously consume hearts.-->
+  <Mashed_Bloodmoon_DesignatorConsumeHeart_Desc>변신한 야수인간에게 시체의 심장을 섭취하도록 지정합니다.\n\n야수인간이 소집되지 않은 상태일 때만 자율적으로 심장을 섭취합니다.</Mashed_Bloodmoon_DesignatorConsumeHeart_Desc>
+  <!--English=Must designate a corpse with an intact heart-->
+  <Mashed_Bloodmoon_DesignatorConsumeHeart_InvalidTarget>심장이 온전한 시체를 지정해야 합니다.</Mashed_Bloodmoon_DesignatorConsumeHeart_InvalidTarget>
   <!--English=standard form-->
   <Mashed_Bloodmoon_TransformHuman_Label>일반 형태</Mashed_Bloodmoon_TransformHuman_Label>
   <!--English=End {0_labelShort}&apos;s transformation, reverting them back to their standard form. All lycanthrope stress will be converted into lycanthrope fatigue, preventing them from transforming again until they have recovered.\n\nCurrent exhuastion duration: {1}-->
@@ -179,7 +185,7 @@
   <!--English=Lycanthrope-->
   <Mashed_Bloodmoon_Lycanthrope>야수인간</Mashed_Bloodmoon_Lycanthrope>
   <!--English=must be a lycanthrope-->
-  <Mashed_Bloodmoon_RoleRequirement_Lycanthrope>must be a lycanthrope</Mashed_Bloodmoon_RoleRequirement_Lycanthrope>
+  <Mashed_Bloodmoon_RoleRequirement_Lycanthrope>야수인간여야 함</Mashed_Bloodmoon_RoleRequirement_Lycanthrope>
   <!--English=in beast form-->
   <Mashed_Bloodmoon_StatAffecter_LycanthropeTransformed>in beast form</Mashed_Bloodmoon_StatAffecter_LycanthropeTransformed>
   <!--English=Lost wanderer joins: {PAWN_nameDef}-->
@@ -208,6 +214,12 @@
   <Mashed_Bloodmoon_Lycanthropy_EnableOptionsGizmo>야수인간 설정 기즈모 할성화</Mashed_Bloodmoon_Lycanthropy_EnableOptionsGizmo>
   <!--English=If this is disabled customising and upgrading beast form, as well as viewing beast hunt progress, will instead need to be accessed through a wolfsblood altar.-->
   <Mashed_Bloodmoon_Lycanthropy_EnableOptionsGizmo_desc>이 옵션을 비활성화하면, 야수 형태를 사용자 지정, 강화하거나 야수 사냥 진행도를 확인하려면 늑대 피 제단을 사용해야 합니다.</Mashed_Bloodmoon_Lycanthropy_EnableOptionsGizmo_desc>
+  <!--English=Enable the consume heart order-->
+  <Mashed_Bloodmoon_Lycanthropy_EnableConsumeHeartOrder>심장 섭취 명령 활성화</Mashed_Bloodmoon_Lycanthropy_EnableConsumeHeartOrder>
+  <!--English=This enables the consume heart order, allowing you to mark corpses. Transformed lycanthropes will automatically consume the hearts of consumed corpses while they are not drafted.-->
+  <Mashed_Bloodmoon_Lycanthropy_EnableConsumeHeartOrder_desc>이 옵션을 활성화하면 심장 섭취 명령으로 시체를 지정할 수 있습니다. 소집되지 않은 변신한 야수인간은 지정된 시체의 심장을 자동으로 섭취합니다.</Mashed_Bloodmoon_Lycanthropy_EnableConsumeHeartOrder_desc>
+  <!--English=Enable the consumed heart message-->
+  <Mashed_Bloodmoon_Lycanthropy_EnableConsumeHeartMessage>심장 섭취시 메시지 활성화</Mashed_Bloodmoon_Lycanthropy_EnableConsumeHeartMessage>
   <!--English=Hide the transform gizmo for colony prisoners-->
   <Mashed_Bloodmoon_Lycanthropy_PrisonersHideGizmo>정착지 수감자의 변신 기즈모 숨기기</Mashed_Bloodmoon_Lycanthropy_PrisonersHideGizmo>
   <!--English=Hide the transform gizmo for colony slaves-->
