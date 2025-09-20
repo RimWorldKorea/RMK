@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->In order to survive the cold winter, the hunters of [kiiro_settlement_label] organized a collective hunting activity. This hunt was unexpectedly bountiful, yielding far more game than the hunters had anticipated. Kiiros decided to bury the surplus preys on-site and have informed you of the burial location.\n\n"If you need it, just go and take away. We left a mark nearby, so you can easily find it by following that."</li>
+  -->
+  <Kiiro_OpportunitySite_HuntingSurplus.questDescriptionRules.rulesStrings>
+    <li>questDescription->[kiiro_settlement_label]의 사냥꾼들은 추운 겨울을 나기 위해 집단 사냥 활동을 조직했습니다. 이 사냥은 예상외로 성공적이었고, 사냥꾼들이 예상했던 것보다 훨씬 많은 사냥감을 얻을 수 있었습니다. 키이로들은 남은 사냥감을 현장에 묻기로 결정하고 매장 장소를 알려주었습니다.\n\n"필요하면 가서 가져가세요. 근처에 흔적을 남겼으니 그 흔적을 따라가면 쉽게 찾을 수 있을 겁니다."</li>
+  </Kiiro_OpportunitySite_HuntingSurplus.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->hunting surplus</li>
+  -->
+  <Kiiro_OpportunitySite_HuntingSurplus.questNameRules.rulesStrings>
+    <li>questName->남은 사냥감</li>
+  </Kiiro_OpportunitySite_HuntingSurplus.questNameRules.rulesStrings>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <Kiiro_OpportunitySite_HuntingSurplus.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>임무 만료: [resolvedQuestName]</Kiiro_OpportunitySite_HuntingSurplus.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: Seems that the buried preys has already been taken by someone else. -->
+  <Kiiro_OpportunitySite_HuntingSurplus.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>묻힌 사냥감을 누군가가 먼저 가져간 것 같습니다.</Kiiro_OpportunitySite_HuntingSurplus.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <!-- EN: [resolvedQuestName] failed -->
+  <Kiiro_OpportunitySite_HuntingSurplus.root.nodes.factionBecameHostileToPlayer.node.nodes.Letter.label.slateRef>[resolvedQuestName] 실패</Kiiro_OpportunitySite_HuntingSurplus.root.nodes.factionBecameHostileToPlayer.node.nodes.Letter.label.slateRef>
+  <!-- EN: Due to the hostile relationship with the kiiros, [resolvedQuestName] cannot be completed further. -->
+  <Kiiro_OpportunitySite_HuntingSurplus.root.nodes.factionBecameHostileToPlayer.node.nodes.Letter.text.slateRef>키이로와의 관계가 악화되어 [resolvedQuestName]를 완료할 수 없습니다.</Kiiro_OpportunitySite_HuntingSurplus.root.nodes.factionBecameHostileToPlayer.node.nodes.Letter.text.slateRef>
+  
+</LanguageData>

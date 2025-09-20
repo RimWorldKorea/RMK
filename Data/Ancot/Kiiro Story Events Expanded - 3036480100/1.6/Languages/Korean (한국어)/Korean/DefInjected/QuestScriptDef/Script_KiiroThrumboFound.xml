@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->The kiiro scouts from [kiiro_settlement_label] have recently been discovering traces left by thrumbo in the wild. After careful investigation, they have finally confirmed that a thrumbo herd has migrated near [kiiro_settlement_label].\n\nConsidering that you might be interested in these big guys, they have decided to share this information with you. The location of this thrumbo herd has now been marked on your map.\n\n"They may not stay in one place for too long. If you decide to go, it's best to be sooner."</li>
+  -->
+  <Kiiro_ThrumboFound.questDescriptionRules.rulesStrings>
+    <li>questDescription->[kiiro_settlement_label] 소속 정찰대는 최근 근처에서 트럼보의 흔적을 자주 발견하였습니다. 이를 자세히 조사한 결과, [kiiro_settlement_label] 근처에 트럼보들이 이주했음을 알 수 있었습니다. \n\n이에 관해 당신이 관심을 가질지도 모르기에, 키이로들은 정보를 공유하기로 했습니다. 지도에 위치가 표시되었습니다. \n\n"그들은 한 곳에 오래 머물지 않을 거예요. 가기로 했다면, 서두르는 게 좋을 거예요."</li>
+  </Kiiro_ThrumboFound.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->thrumbo found</li>
+  -->
+  <Kiiro_ThrumboFound.questNameRules.rulesStrings>
+    <li>questName->트럼보 발견</li>
+  </Kiiro_ThrumboFound.questNameRules.rulesStrings>
+  <!-- EN: thrumbo join -->
+  <Kiiro_ThrumboFound.root.nodes.RandomNode.nodes.Sequence-2.nodes.Letter.label.slateRef>트럼보 합류</Kiiro_ThrumboFound.root.nodes.RandomNode.nodes.Sequence-2.nodes.Letter.label.slateRef>
+  <!-- EN: These thrumbo surprisingly turned out to be very friendly towards us. They slowly approached our caravan after seeing us... and then joined us! Now, these massive and furry creatures are our new friends. -->
+  <Kiiro_ThrumboFound.root.nodes.RandomNode.nodes.Sequence-2.nodes.Letter.text.slateRef>이 트럼보들은 우리를 본 뒤 예상외로 친근하게 천천히 다가왔고... 합류했습니다. 이 거대한 털북숭이 생명체는 이제 우리의 새로운 친구입니다.</Kiiro_ThrumboFound.root.nodes.RandomNode.nodes.Sequence-2.nodes.Letter.text.slateRef>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <Kiiro_ThrumboFound.root.nodes.QuestEndUnfinished.node.nodes.Letter.label.slateRef>임무 만료됨: [resolvedQuestName]</Kiiro_ThrumboFound.root.nodes.QuestEndUnfinished.node.nodes.Letter.label.slateRef>
+  <!-- EN: Seems that the thrumbo herd near [kiiro_settlement_label] has migrated elsewhere. -->
+  <Kiiro_ThrumboFound.root.nodes.QuestEndUnfinished.node.nodes.Letter.text.slateRef>[kiiro_settlement_label] 인근의 트럼보들이 떠난 것 같습니다.</Kiiro_ThrumboFound.root.nodes.QuestEndUnfinished.node.nodes.Letter.text.slateRef>
+  
+</LanguageData>
