@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PLCOORDWIN_WorldSpecificLocations>특수 좌표</PLCOORDWIN_WorldSpecificLocations>
+  <PLCOORDWIN_NorthPoleAbbr>북극</PLCOORDWIN_NorthPoleAbbr>
+  <PLCOORDWIN_NorthPole>북극</PLCOORDWIN_NorthPole>
+  <PLCOORDWIN_SouthPoleAbbr>남극</PLCOORDWIN_SouthPoleAbbr>
+  <PLCOORDWIN_SouthPole>남극</PLCOORDWIN_SouthPole>
+  <PLCOORDWIN_OriginPointAbbr>O</PLCOORDWIN_OriginPointAbbr>
+  <PLCOORDWIN_OriginPoint>원점 [0°, 0°]</PLCOORDWIN_OriginPoint>
+  <PLCOORDWIN_AnteOriginAbbr>AO</PLCOORDWIN_AnteOriginAbbr>
+  <PLCOORDWIN_AnteOrigin>원점의 반대편 [0°, 180°]</PLCOORDWIN_AnteOrigin>
+  <PLCOORDWIN_TileIdNum>타일 ID [0, {0}]:</PLCOORDWIN_TileIdNum>
+  <PLCOORDWIN_GoButton>이동!</PLCOORDWIN_GoButton>
+  <PLCOORDWIN_TileIdOutOfRange>범위 벗어남: {0}; 범위: [0, {1}).</PLCOORDWIN_TileIdOutOfRange>
+  <PLCOORDWIN_CoordsLabel>좌표:</PLCOORDWIN_CoordsLabel>
+  <PLCOORDWIN_NoTileForCoords>주어진 좌표의 타일을 찾을 수 없습니다:</PLCOORDWIN_NoTileForCoords>
+  <PLCOORD_StringDoesntMatchCoords>주어진 문자열이 좌표 문자열이 아닙니다.</PLCOORD_StringDoesntMatchCoords>
+  <PLCOORD_FailedParseLongitude>경도 파싱 실패</PLCOORD_FailedParseLongitude>
+  <PLCOORD_FailedParseLatitude>위도 파싱 실패</PLCOORD_FailedParseLatitude>
+  <PLCOORD_LongitudeRange>경도는 [0, 180] 범위 안이어야 합니다</PLCOORD_LongitudeRange>
+  <PLCOORD_LatitudeRange>위도는 [0, 180] 범위 안이어야 합니다</PLCOORD_LatitudeRange>
+  <PLCOORD_LatitudeDirection>위도 방향은 N이나 S여야 하지만 지금은</PLCOORD_LatitudeDirection>
+  <PLCOORD_LongitudeDirection>경도 방향은 W나 E여야 하지만 지금은</PLCOORD_LongitudeDirection>
+  <PLCOORDBDRAW_Close>숨기기 : </PLCOORDBDRAW_Close>
+  <PLCOORDBDRAW_Show>표시하기 : </PLCOORDBDRAW_Show>
+  
+  <PLMWTF_TabName>특징</PLMWTF_TabName>
+  <PLMWTF_Features>지역 특징</PLMWTF_Features>
+  <PLMWTF_AdjBiomes>인접한 생물군계</PLMWTF_AdjBiomes>  
+  <PLMWFTIL_FilteredTiles>필터링한 타일 목록</PLMWFTIL_FilteredTiles>
+  <PLMWFTIL_GoToStartOfTileList>첫번째 페이지로 이동합니다.</PLMWFTIL_GoToStartOfTileList>
+  <PLMWFTIL_ReachedListStart>첫번째 페이지입니다.</PLMWFTIL_ReachedListStart>
+  <PLMWFTIL_GoToPreviousListPage>이전 페이지로 이동합니다.</PLMWFTIL_GoToPreviousListPage>
+  <PLMWFTIL_NoMoreTilesAvailable>표시 가능한 페이지가 없습니다 (최대:</PLMWFTIL_NoMoreTilesAvailable>
+  <PLMWFTIL_GoToNextListPage>다음 페이지로 이동합니다.</PLMWFTIL_GoToNextListPage>
+  <PLMWFTIL_GoToEndOfList>마지막 페이지로 이동합니다.</PLMWFTIL_GoToEndOfList>
+  <PLMWFTIL_ClearFilteredTiles>필터링된 타일 목록 비우기</PLMWFTIL_ClearFilteredTiles>
+  <PLMWFTIL_SelectedTileInfo>선택한 타일 정보</PLMWFTIL_SelectedTileInfo>
+  <PLMWFTIL_DebugWorldTileId>디버그용 세계 타일 ID</PLMWFTIL_DebugWorldTileId>
+  
+  <PLFILT_FilteredTilesCleared>필터링된 타일 목록이 비워졌습니다.</PLFILT_FilteredTilesCleared>
+  <PLFILT_FilterTilesFirst>먼저 타일을 필터링하십시오.</PLFILT_FilterTilesFirst>
+  <PLFILT_FailedFindValidBaseTile>유효한 타일을 찾을 수 없었습니다.</PLFILT_FailedFindValidBaseTile>
+  <PLFILT_NewFilterfing>새 필터링 시작</PLFILT_NewFilterfing>
+  <PLFILT_StartingFilteringWithxTiles>{0}개의 타일에 대한 필터링 시작.</PLFILT_StartingFilteringWithxTiles>
+  <PLFILT_ZeroMatchingTiles>이 필터와 일치하는 {0}개의 타일이 검출되었습니다. 아마 필터가 조금 지나치게 엄격했던 모양입니다.</PLFILT_ZeroMatchingTiles>
+  <PLFILT_InConjunctionPreviousFilters> (이전 {0} 개의 필터와 함께)</PLFILT_InConjunctionPreviousFilters>
+  <PLFILT_FilterResultZeroTiles>이 필터 조건과 일치하는 타일은 0개 입니다</PLFILT_FilterResultZeroTiles>
+  <PLFILT_AllValidTilesMatching>이 필터 조건은 기존 모든 타일과 일치합니다.</PLFILT_AllValidTilesMatching>
+  <PLFILT_TilesFound>발견된 타일</PLFILT_TilesFound>
+  <PLFILT_FilterRanIn>필터 실행 시간:</PLFILT_FilterRanIn>
+  <PLFILT_xTilesMatchAllFilters>유효한 타일을 점검하기 이전에: 총 {0}개의 타일이 모든 필터와 일치합니다.</PLFILT_xTilesMatchAllFilters>
+  <PLFILT_NoTileMatchesFilter>주어진 필터와 일치하는 타일이 없습니다.</PLFILT_NoTileMatchesFilter>
+  <PLFILT_AllFiltersRanIn>총 {0}개의 필터가 {1} 동안 실행되었습니다.</PLFILT_AllFiltersRanIn>
+  <PLFILT_TotalOfxTilesMatchAllFilters>총 {0}개의 타일이 모든 필터와 일치합니다.</PLFILT_TotalOfxTilesMatchAllFilters>
+  <PLFILT_PreFiltering>사전 필터링</PLFILT_PreFiltering>
+  <PLFILT_ValidTilesRemainAfterFilter>사전 필터: 필터링 후 {0}개의 유효한 타일이 남았습니다(타일 {1}개 제거됨).</PLFILT_ValidTilesRemainAfterFilter>
+  <PLFILT_TilesWithRiver>사전 필터: {0}개의 타일에 최소 하나의 강이 있습니다..</PLFILT_TilesWithRiver>
+  <PLFILT_TilesWithRoad>사전 필터: {0}개의 타일에 최소 하나의 길이 있습니다.</PLFILT_TilesWithRoad>
+  <PLFILT_NewWorld>새로운 세계</PLFILT_NewWorld>
+  <PLFILT_AllFiltersInDefaultState>모든 필터가 기본 상태입니다.</PLFILT_AllFiltersInDefaultState>
+  <PLFILT_PleaseSelectAtLeastOneFilter>최소한 하나의 필터를 선택해 주십시오</PLFILT_PleaseSelectAtLeastOneFilter>
+  <PLFILT_NoCavesForChosenTerrain>선택한 지형 유형에는 동굴이 있을 수 없습니다. 최소한 {0}(을)를 선택하십시오.</PLFILT_NoCavesForChosenTerrain>
+  <PLFILT_NoBiomeNoTerrainSelected>육지의 비율이 50% 이상이지만 생물군계와 지형을 선택하지 않았습니다.\n  먼저 생물군계와 지형을 선택하십시오.</PLFILT_NoBiomeNoTerrainSelected>
+  <PLFILT_Filtering>필터링 중</PLFILT_Filtering>
+  <PLFILT_MovementTimeIsNull>이동 어려움 값이 null:</PLFILT_MovementTimeIsNull>
+  <PLFILT_VerifyMinIsLessOrEqualMax>최소값이 최대값보다 작거나 같은지 확인하십시오(실제 비교:</PLFILT_VerifyMinIsLessOrEqualMax>
+  <PLFILT_TemperatureIsNull>온도 값이 null:</PLFILT_TemperatureIsNull>
+  <PLFILIL_FilterErrorOccurred>필터 오류 발생{0}\n"{1}" 탭에서 오류 설명을 확인하십시오.</PLFILIL_FilterErrorOccurred>
+  <PLFILT_FilteringWorldTiles>세계 타일 필터링 중</PLFILT_FilteringWorldTiles>
+  <PLFILT_PreFilteringWorldTiles>세계 타일 사전 필터링 중</PLFILT_PreFilteringWorldTiles>
+  
+  <PLTILFILT_Biomes>생물군계</PLTILFILT_Biomes>
+  <PLTILFILT_Terrains>지형</PLTILFILT_Terrains>
+  <PLTILFILT_Roads>길</PLTILFILT_Roads>
+  <PLTILFILT_Stones>석재</PLTILFILT_Stones>
+  <PLTILFILT_CantSelectMoreThan3Stones>석재 유형을 세 가지 이상 선택할 수 없습니다(선택됨:</PLTILFILT_CantSelectMoreThan3Stones>
+  <PLTILFILT_AtLeast2StoneTypesOnOrPartial>최소한 두 가지의 석재 유형이 필수나 가능 상태여야 합니다(선택함:</PLTILFILT_AtLeast2StoneTypesOnOrPartial>
+  <PLTILFILT_Rivers>강</PLTILFILT_Rivers>
+  <PLTILFILT_CurrentMovementTimes>현재 이동 어려움</PLTILFILT_CurrentMovementTimes>
+  <PLTILFILT_WinterMovementTimes>겨울 이동 어려움</PLTILFILT_WinterMovementTimes>
+  <PLTILFILT_SummerMovementTimes>여름 이동 어려움</PLTILFILT_SummerMovementTimes>
+  <PLTILFILT_CoastalTiles>해안 타일</PLTILFILT_CoastalTiles>
+  <PLTILFILT_CoastalLakeTiles>호숫가 타일</PLTILFILT_CoastalLakeTiles>
+  <PLTILFILT_Elevations>고도</PLTILFILT_Elevations>
+  <PLTILFILT_TimeZones>시간대</PLTILFILT_TimeZones>
+  <PLTILFILT_AverageTemperatures>평균 기온</PLTILFILT_AverageTemperatures>
+  <PLTILFILT_WinterTemperatures>겨울 기온</PLTILFILT_WinterTemperatures>
+  <PLTILFILT_SummerTemperatures>여름 기온</PLTILFILT_SummerTemperatures>
+  <PLTILFILT_GrowingPeriods>재배 기간</PLTILFILT_GrowingPeriods>
+  <PLTILFILT_RainFalls>강수량</PLTILFILT_RainFalls>
+  <PLTILFILT_RequestingMoreTilesThanAvailable>사용 가능한 타일 수보다 더 많은 타일을 요청하고 있습니다(최대:</PLTILFILT_RequestingMoreTilesThanAvailable>
+  <PLTILFILT_WorldFeatures>유명한 장소</PLTILFILT_WorldFeatures>
+  <PLTILFILT_CoastalRotation>해안 방향</PLTILFILT_CoastalRotation>  
+  <PLTILFILT_Features>지도 특징</PLTILFILT_Features>
+  <PLTILFILT_AdjBiomes>인접한 생물군계</PLTILFILT_AdjBiomes>
+  
+  <PLMWINF_WorldInfo>세계 정보</PLMWINF_WorldInfo>
+  <PLMWINF_PlanetName>행성 이름</PLMWINF_PlanetName>
+  <PLMWINF_TotalTiles>전체 타일</PLMWINF_TotalTiles>
+  <PLMWINF_SettleableTiles>정착 가능한 타일</PLMWINF_SettleableTiles>
+  <PLMWINF_TilesWithRivers>강이 있는 타일</PLMWINF_TilesWithRivers>
+  <PLMWINF_TilesWithRoads>길이 있는 타일</PLMWINF_TilesWithRoads>
+  <PLMWINF_Biomes>생물군계</PLMWINF_Biomes>
+  <PLMWINF_NumberOfTiles>타일 수</PLMWINF_NumberOfTiles>
+  <PLMWINF_WorldLowest>최저</PLMWINF_WorldLowest>
+  <PLMWINF_WorldHighest>최고</PLMWINF_WorldHighest>
+  <PLMWINF_FilterInfo>필터 기록</PLMWINF_FilterInfo>
+  <PLMWINF_ClearInfo>기록 지우기</PLMWINF_ClearInfo>
+  <PLMWINF_WorldRecords>세계 기록</PLMWINF_WorldRecords>
+  
+  <PLMWLODSAV_Preset>- 사전 설정</PLMWLODSAV_Preset>
+  <PLMWLODSAV_Load>불러오기</PLMWLODSAV_Load>
+  <PLMWLODSAV_Save>저장</PLMWLODSAV_Save>
+  <PLMWLODSAV_Delete>삭제</PLMWLODSAV_Delete>
+  <PLMWLODSAV_DeleteConfirm>삭제 [재확인]</PLMWLODSAV_DeleteConfirm>
+  <PLMWLODSAV_GoToStartOfItemList>첫번째 페이지로 이동합니다.</PLMWLODSAV_GoToStartOfItemList>
+  <PLMWLODSAV_ReachedListStart>첫번째 페이지입니다.</PLMWLODSAV_ReachedListStart>
+  <PLMWLODSAV_GoToPreviousListPage>이전 페이지로 이동합니다.</PLMWLODSAV_GoToPreviousListPage>
+  <PLMWLODSAV_NoMoreItemsAvailable>표시 가능한 페이지가 없습니다(최대:</PLMWLODSAV_NoMoreItemsAvailable>
+  <PLMWLODSAV_GoToNextListPage>다음 페이지로 이동합니다.</PLMWLODSAV_GoToNextListPage>
+  <PLMWLODSAV_GoToEndOfList>마지막 페이지로 이동합니다.</PLMWLODSAV_GoToEndOfList>
+  <PLMWLODSAV_ExitCurrentMode>종료 -</PLMWLODSAV_ExitCurrentMode>
+  <PLMWLODSAV_PickPresetFirst>사전 설정을 먼저 선택하십시오.</PLMWLODSAV_PickPresetFirst>
+  <PLMWLODSAV_SuccessDelete>사전 설정을 성공적으로 삭제했습니다!</PLMWLODSAV_SuccessDelete>
+  <PLMWLODSAV_ErrorDelete>오류: 사전 설정을 삭제할 수 없습니다...</PLMWLODSAV_ErrorDelete>
+  <PLMWLODSAV_SuccessLoad>사전 설정을 성공적으로 불러왔습니다!</PLMWLODSAV_SuccessLoad>
+  <PLMWLODSAV_ErrorLoad>오류: 사전 설정을 불러올 수 없습니다...</PLMWLODSAV_ErrorLoad>
+  <PLMWLODSAV_PresetLoadMode>사전 설정 파일 - 불러오기 모드</PLMWLODSAV_PresetLoadMode>
+  <PLMWLODSAV_NoExistingPresets>사전 설정이 없습니다.</PLMWLODSAV_NoExistingPresets>
+  <PLMWLODSAV_SuccessSave>사전 설정을 성공적으로 저장했습니다!</PLMWLODSAV_SuccessSave>
+  <PLMWLODSAV_ErrorSave>오류: 사전 설정을 불러올 수 없습니다...</PLMWLODSAV_ErrorSave>
+  <PLMWLODSAV_PresetSaveMode>사전 설정 파일 - 저장 모드</PLMWLODSAV_PresetSaveMode>
+  <PLMWLODSAV_AllFiltersInDefaultState>모든 필터가 기본 상태에 있습니다.</PLMWLODSAV_AllFiltersInDefaultState>
+  <PLMWLODSAV_ClickAgainOnSaveButton>기존 사전 설정을 덮어쓰려면 "저장" 버튼을 다시 누르십시오.</PLMWLODSAV_ClickAgainOnSaveButton>
+  <PLMWLODSAV_FileName>파일 이름:</PLMWLODSAV_FileName>
+  <PLMWLODSAV_SaveOptions>설정 저장</PLMWLODSAV_SaveOptions>
+  <PLMWLODSAV_SaveOptionsToolTip>설정을 필터와 함께 저장하려면 체크하십시오.</PLMWLODSAV_SaveOptionsToolTip>
+  <PLMWLODSAV_AuthorName>저자: [선택사항; 최대 {0}글자]</PLMWLODSAV_AuthorName>
+  <PLMWLODSAV_DescriptionString>설명: [선택사항; 최대 {0}글자]</PLMWLODSAV_DescriptionString>
+  <PLMWLODSAV_PresetInfo>사전 설정 정보:</PLMWLODSAV_PresetInfo>
+  <PLMWLODSAV_PresetName>사전 설정 이름:</PLMWLODSAV_PresetName>
+  <PLMWLODSAV_PresetAuthor>저자:</PLMWLODSAV_PresetAuthor>
+  <PLMWLODSAV_PresetDescription>설명:</PLMWLODSAV_PresetDescription>
+  <PLMWLODSAV_PresetFilters>필터:</PLMWLODSAV_PresetFilters>
+  <PLMWLODSAV_PresetOptions>설정:</PLMWLODSAV_PresetOptions>
+  
+  <PLMW_SelectAny>아무거나</PLMW_SelectAny>
+  <PLMW_None>없음</PLMW_None>
+  <PLMW_Meter>미터</PLMW_Meter>
+  <PLMW_Hour>시간</PLMW_Hour>
+  <PLMW_Reset>재설정</PLMW_Reset>
+  <PLMW_All>모두</PLMW_All>
+  <PLMW_Tile>타일</PLMW_Tile>
+  <PLMW_Tiles>타일들</PLMW_Tiles>
+  <PLMWBB_FilterTiles>타일 필터링</PLMWBB_FilterTiles>
+  <PLMWBB_ResetFilters>필터 재설정</PLMWBB_ResetFilters>
+  <PLMWBB_Minimize>최소화</PLMWBB_Minimize>
+  <PLMWBB_SelectRandom>무작위 지점 선택</PLMWBB_SelectRandom>
+  <PLMWBB_LoadSave>불러오기 / 저장</PLMWBB_LoadSave>
+  <PLMWBB_LoadOrSaveFilterPresets>필터 사전 설정을 불러오거나 저장합니다.</PLMWBB_LoadOrSaveFilterPresets>
+  <PLMWBB_SaveFiltersToPreset>현재 필터 상태를 사전 설정으로 저장합니다.</PLMWBB_SaveFiltersToPreset>
+  <PLMWBB_LoadPreset>사전 설정을 불러옵니다.</PLMWBB_LoadPreset>
+  <PLMWBB_SelectAction>작업 선택</PLMWBB_SelectAction>
+  <PLMWMINW_ClearFilteredTiles>필터링한 타일 지우기</PLMWMINW_ClearFilteredTiles>
+  <PLMWMINW_MinmizedWindow>창 최소화</PLMWMINW_MinmizedWindow>
+  <PLMWMINW_MaximizeWindow>창 최대화</PLMWMINW_MaximizeWindow>
+  <PLINT_UsableMinMaxNumFieldMin>최소</PLINT_UsableMinMaxNumFieldMin>
+  <PLINT_UsableMinMaxNumFieldMax>최대</PLINT_UsableMinMaxNumFieldMax>
+  <PLINT_UsableMinMaxNumFieldUse>사용</PLINT_UsableMinMaxNumFieldUse>
+  <PLINT_MinMaxFromRestrictedListItemSelect>선택 -</PLINT_MinMaxFromRestrictedListItemSelect>
+  
+  <PLGOPT_DisableWorldDataTitle>세계 데이터 비활성화</PLGOPT_DisableWorldDataTitle>
+  <PLGOPT_DisableWorldDataDescription>세계 데이터 비활성화:\n세계 데이터는 PrepareLanding이 세계에 대한 정보를 표시하기 위해 사용하는 다양한 데이터입니다. 설정한다면, 그 정보를 제거하여, 메모리와 CPU 연산을 절약합니다.\n그 대신 얻을 수 있는 정보가 적어집니다.</PLGOPT_DisableWorldDataDescription>
+  <PLOPT_Options>설정</PLOPT_Options>
+  <PLOPT_FilterOptions>필터 설정</PLOPT_FilterOptions>
+  <PLOPT_AllowLiveFiltering>실시간 필터링 허용</PLOPT_AllowLiveFiltering>
+  <PLOPT_AllowLiveFilteringToolTip>[경고: CPU 사용량 높음] "필터" 버튼을 누르지 않고 필터링하도록 허용합니다.</PLOPT_AllowLiveFilteringToolTip>
+  <PLOPT_AllowImpassableTiles>이동 불가 타일 허용</PLOPT_AllowImpassableTiles>
+  <PLOPT_AllowImpassableTilesToolTip>이동할 수 없는 타일을 선택하고 필터링할 수 있도록 합니다.</PLOPT_AllowImpassableTilesToolTip>
+  <PLOPT_DisablePreFilterCheck>사전 필터 체크 비활성화</PLOPT_DisablePreFilterCheck>
+  <PLOPT_DisablePreFilterCheckToolTip>육지의 비율이 50% 이상일 때 생물군계와 지형을 선택해야 하는 제한을 없앱니다.</PLOPT_DisablePreFilterCheckToolTip>
+  <PLOPT_ViewPartialOffNoSelect>"필수만 선택" 버튼 보기</PLOPT_ViewPartialOffNoSelect>
+  <PLOPT_ViewPartialOffNoSelectToolTip>세 상태가 있는 항목을 보여줄 때 GUI에서 "필수만 선택" 버튼을 보입니다.</PLOPT_ViewPartialOffNoSelectToolTip>
+  <PLOPT_ResetAllFiltersOnNewWorld>새로운 세계에서 모든 필터 재설정</PLOPT_ResetAllFiltersOnNewWorld>
+  <PLOPT_ResetAllFiltersOnNewWorldToolTip>선택하면 새로 생성한 세계에서 모든 필터가 기본값으로 재설정되며, 아니라면 필터가 이전 상태로 유지됩니다.</PLOPT_ResetAllFiltersOnNewWorldToolTip>
+  <PLOPT_ShowFilterHeaviness>필터 연산량 보기</PLOPT_ShowFilterHeaviness>
+  <PLOPT_ShowFilterHeavinessToolTip>GUI의 필터 머릿말에 CPU 계산을 얼마나 사용하는지 색으로 보여줍니다.</PLOPT_ShowFilterHeavinessToolTip>
+  <PLOPT_AllowInvalidTilesForNewSettlement>정착할 수 없는 타일 허용</PLOPT_AllowInvalidTilesForNewSettlement>
+  <PLOPT_AllowInvalidTilesForNewSettlementToolTip>켜면, 정착할 수 없는 타일을 제거하는 마지막 과정을 방지합니다.</PLOPT_AllowInvalidTilesForNewSettlementToolTip>
+  <PLOPT_TileHighlighterOptions>타일 강조 설정</PLOPT_TileHighlighterOptions>
+  <PLOPT_DisableTileHighlighting>타일 강조 비활성화</PLOPT_DisableTileHighlighting>
+  <PLOPT_DisableTileHighlightingToolTip>타일 강조를 모두 비활성화합니다.</PLOPT_DisableTileHighlightingToolTip>
+  <PLOPT_DisableTileBlinking>타일 깜빡임 비활성화</PLOPT_DisableTileBlinking>
+  <PLOPT_DisableTileBlinkingToolTip>세계 지도의 필터링한 타일을 깜빡이지("숨쉬지") 않도록 합니다.</PLOPT_DisableTileBlinkingToolTip>
+  <PLOPT_ShowDebugTileId>디버그 타일 ID 보이기</PLOPT_ShowDebugTileId>
+  <PLOPT_ShowDebugTileIdToolTip>강조한 타일의 디버그 ID를 보입니다.</PLOPT_ShowDebugTileIdToolTip>
+  <PLOPT_BypassTileHighlighterMaximum>타일 강조 상한 우회</PLOPT_BypassTileHighlighterMaximum>
+  <PLOPT_BypassTileHighlighterMaximumToolTip>{0}개의 타일보다 많이 강조할 수 있게 합니다.</PLOPT_BypassTileHighlighterMaximumToolTip>
+  
+  <PLPRESTMAN_ErrorLoadingPreset>사전 설정을 불러오는 중 오류가 발생했습니다.</PLPRESTMAN_ErrorLoadingPreset>
+  <PLPRESTMAN_ErrorLoadingPresetInfo>사전 설정 정보를 불러오는 중 오류가 발생했습니다.</PLPRESTMAN_ErrorLoadingPresetInfo>
+  <PLPRESTMAN_NoOverwritePresetTemplate>견본 사전 설정은 덮어쓸 수 없습니다.</PLPRESTMAN_NoOverwritePresetTemplate>
+  <PLPRESTMAN_ErrorSavingPreset>사전 설정을 저장하는 중 오류가 발생했습니다.</PLPRESTMAN_ErrorSavingPreset>
+  <PLPRESTMAN_NoDeletePresetTemplate>견본 사전 설정은 지울 수 없습니다.</PLPRESTMAN_NoDeletePresetTemplate>
+  <PLPRESTMAN_ErrorDeletingPreset>사전 설정을 삭제하는 중 오류가 발생했습니다.</PLPRESTMAN_ErrorDeletingPreset>
+  
+  <PLMWT2T_TabName>지형 II &amp; 기온.</PLMWT2T_TabName>
+  <PLMWT2T_TabName_1_6>기후</PLMWT2T_TabName_1_6>
+  <PLMWT2T_WorldFeature>유명한 장소</PLMWT2T_WorldFeature>
+  <PLMWT2T_WorldFeatureSelection>유명한 장소 선택</PLMWT2T_WorldFeatureSelection>
+  <PLMWT2T_SelectWorldFeature>유명한 장소 선택</PLMWT2T_SelectWorldFeature>
+  <PLMWT2T_AnyWorldFeature>아무 유명한 장소나</PLMWT2T_AnyWorldFeature>
+  <PLMWT2T_CoordinatesWindow>좌표 창</PLMWT2T_CoordinatesWindow>
+  <PLMWT2T_OpenCoordinatesWindow>촤표 창 열기</PLMWT2T_OpenCoordinatesWindow>
+  <PLMWT2T_TemperatureForecast>기온 예보</PLMWT2T_TemperatureForecast>
+  <PLMWT2T_TempPickTileOnWorldMap>세계 지도에서 타일을 선택하십시오!</PLMWT2T_TempPickTileOnWorldMap>
+  <PLMWT2T_TempSelectedTile>선택한 타일</PLMWT2T_TempSelectedTile>
+  <PLMWT2T_QuadrumDay>분기 내 날짜</PLMWT2T_QuadrumDay>
+  <PLMWT2T_SelectQuadrum>분기 선택</PLMWT2T_SelectQuadrum>
+  <PLMWT2T_ViewTemperatureForecast>기온 예보 보기</PLMWT2T_ViewTemperatureForecast>
+  <PLMWT2T_RainfallMillimeters>mm</PLMWT2T_RainfallMillimeters>
+  <PLMWT2T_MostLeastCharacteristics>최고/최저 지표</PLMWT2T_MostLeastCharacteristics>
+  <PLMWT2T_MostLeastSelectCharacteristic>지표 선택</PLMWT2T_MostLeastSelectCharacteristic>
+  <PLMWT2T_MostLeastNumberOfTiles>타일 수</PLMWT2T_MostLeastNumberOfTiles>
+  <PLMWT2T_MostLeastSelectCharacteristicType>지표 유형 선택</PLMWT2T_MostLeastSelectCharacteristicType>
+  <PLMWT2T_MostLeastPressButtonFirst>"{0}" 버튼을 먼저 누르십시오.</PLMWT2T_MostLeastPressButtonFirst>
+  <PLMWT2T_MostLeastNowUseButton>이제 "{0}" 버튼을 사용하십시오.</PLMWT2T_MostLeastNowUseButton>
+  <PLMWT2T_MostLeastHighest>최고</PLMWT2T_MostLeastHighest>
+  <PLMWT2T_MostLeastLowest>최저</PLMWT2T_MostLeastLowest>
+  <PLMWT2T_MostLeastSelectingTiles>{2} {3}의 {0} {1}(을)를 선택 중</PLMWT2T_MostLeastSelectingTiles>
+  <PLMWT2T_MostLeastResult>결과</PLMWT2T_MostLeastResult>
+  <PLTFW_ForecastForTwelves>12분기 예보</PLTFW_ForecastForTwelves>
+  <PLTFW_Quadrum>분기</PLTFW_Quadrum>
+  <PLTFW_QuadrumToolTip>1년 안의 분기</PLTFW_QuadrumToolTip>
+  <PLTFW_Season>계절</PLTFW_Season>
+  <PLTFW_SeasonToolTip>1년 안의 계절</PLTFW_SeasonToolTip>
+  <PLTFW_Twelfth>12분기</PLTFW_Twelfth>
+  <PLTFW_TwelfthToolTip>1년 안의 12분기</PLTFW_TwelfthToolTip>
+  <PLTFW_AvgTemp>평균 기온</PLTFW_AvgTemp>
+  <PLTFW_AvgTempToolTip>해당 12분기의 평균 기온</PLTFW_AvgTempToolTip>
+  <PLTFW_ForecastForHours>{0}시간 예보 [{1}]</PLTFW_ForecastForHours>
+  <PLTFW_Hour>시간</PLTFW_Hour>
+  <PLTFW_HourToolTip>하루 안의 시간</PLTFW_HourToolTip>
+  <PLTFW_OutdoorTemp>기온</PLTFW_OutdoorTemp>
+  <PLTFW_OutdoorTempToolTip>실외 기온</PLTFW_OutdoorTempToolTip>
+  <PLTFW_OffDRV>무작위 증감</PLTFW_OffDRV>
+  <PLTFW_OffDRVToolTip>일일 무작위 변동으로 인한 증감</PLTFW_OffDRVToolTip>
+  <PLTFW_OffSeason>계절 증감</PLTFW_OffSeason>
+  <PLTFW_OffSeasonToolTip>계절 평균치로 인한 증감</PLTFW_OffSeasonToolTip>
+  <PLTFW_SunEff>태양 효과</PLTFW_SunEff>
+  <PLTFW_SunEffToolTip>태양으로 인한 증감</PLTFW_SunEffToolTip>
+  <PLTFW_ForecastForNextYear>내년 예보</PLTFW_ForecastForNextYear>
+  <PLTFW_Day>일</PLTFW_Day>
+  <PLTFW_DayToolTip>1년 안의 날짜</PLTFW_DayToolTip>
+  <PLTFW_Min>최소</PLTFW_Min>
+  <PLTFW_MinToolTip>일중 최저 기온</PLTFW_MinToolTip>
+  <PLTFW_Max>최대</PLTFW_Max>
+  <PLTFW_MaxToolTip>일중 최고 기온</PLTFW_MaxToolTip>
+  <PLTFWTW_TileSpecifications>타일 세부사항</PLTFWTW_TileSpecifications>
+  <PLTFWTW_Date>날짜</PLTFWTW_Date>
+  <PLTFWTW_TileId>타일 ID</PLTFWTW_TileId>
+  <PLTFWTW_LatLong>위도 - 경도</PLTFWTW_LatLong>
+  <PLTFWTW_EquatorialDistance>적도에서의 거리</PLTFWTW_EquatorialDistance>
+  <PLTFWTW_TileAvgTemp>타일 평균 기온</PLTFWTW_TileAvgTemp>
+  <PLTFWTW_SeasonalShiftAmplitude>적도와 비교 시 위치 효과</PLTFWTW_SeasonalShiftAmplitude>
+  
+  <PLMWTT_TabName>지형</PLMWTT_TabName>
+  <PLMWTT_ButtonResetTooltip>모든 항목을 기본값(가능) 상태로 재설정합니다.</PLMWTT_ButtonResetTooltip>
+  <PLMWTT_ButtonAllTooltip>모든 항목을 필수 상태로 설정합니다.</PLMWTT_ButtonAllTooltip>
+  <PLMWTT_ButtonNoneTooltip>모든 항목을 없음 상태로 설정합니다.</PLMWTT_ButtonNoneTooltip>
+  <PLMWTT_BiomeTypes>생물군계 유형</PLMWTT_BiomeTypes>
+  <PLMWTT_SelectBiome>생물군계 선택</PLMWTT_SelectBiome>
+  <PLMWTT_SelectBiomeType>생물군계 유형 선택</PLMWTT_SelectBiomeType>
+  <PLMWTT_AnyBiome>아무 생물군계나</PLMWTT_AnyBiome>
+  <PLMWTT_CoastalTiles>해안 타일</PLMWTT_CoastalTiles>
+  <PLMWTT_IsCoastalTileOcean>해안 타일(바다)</PLMWTT_IsCoastalTileOcean>
+  <PLMWTT_UseCoastalRoation>해안 방향 사용</PLMWTT_UseCoastalRoation>
+  <PLMWTT_UseCoastalRoationTooltip>특정한 방향에 해안가가 있는 타일을 검색하도록 합니다.</PLMWTT_UseCoastalRoationTooltip>
+  <PLMWTT_SelectCoastRotation>해안 방향 선택</PLMWTT_SelectCoastRotation>
+  <PLMWTT_SelectedCoastRotation>선택한 해안 방향</PLMWTT_SelectedCoastRotation>
+  <PLMWTT_IsCoastalTileLake>해안 타일(호수)</PLMWTT_IsCoastalTileLake>
+  <PLMWTT_IsCoastalTileLakeTooltip>호수는 땅으로 둘러싸인 최대 15타일의 물입니다.</PLMWTT_IsCoastalTileLakeTooltip>
+  <PLMWTT_TerrainTypes>지형 유형</PLMWTT_TerrainTypes>
+  <PLMWTT_SelectTerrain>지형 선택</PLMWTT_SelectTerrain>
+  <PLMWTT_RiverTypes>강 유형</PLMWTT_RiverTypes>
+  <PLMWTT_FilterBooleanOr>OR</PLMWTT_FilterBooleanOr>
+  <PLMWTT_FilterBooleanAnd>AND</PLMWTT_FilterBooleanAnd><PLMWTT_ORANDTooltip>적용할 필터 유형입니다.\nOR: 각 항목을 개별적으로 적용합니다.\nAND: 모든 항목을 함께 적용합니다.</PLMWTT_ORANDTooltip>
+  <PLMWTT_OffPartialTooltip>True라면, "없음"과 "가능" 상태는 어떤 타일도 선택을 허용하지 않습니다.\nFalse라면, 해당 상태들이 선택을 허용합니다.</PLMWTT_OffPartialTooltip>
+  <PLMWTT_SelectedShort></PLMWTT_SelectedShort>
+  <PLMWTT_RoadTypes>길 유형</PLMWTT_RoadTypes>
+  <PLMWTT_StoneTypes>석재 유형</PLMWTT_StoneTypes>
+  <PLMWTT_StoneOrderTooltip>석재 필터링을 순서대로 할지 여부입니다.\n필터 상태를 바꾸려면 버튼을 누르세요.</PLMWTT_StoneOrderTooltip>
+  <PLMWTT_Ordered>순서대로</PLMWTT_Ordered>
+  <PLMWTT_NoOrder>순서 없이</PLMWTT_NoOrder>
+  <PLMWTT_Filter>필터</PLMWTT_Filter>
+  <PLMWTT_UseNumberOfStoneTypes>석재 가짓수 사용 [2,3]</PLMWTT_UseNumberOfStoneTypes>
+  <PLMWTT_UseNumberOfStoneTypesToolTip>종류와 관계없이 석재가 주어진 가짓수만큼 있는 타일을 필터링합니다. 다른 석재 필터를 모두 비활성화합니다.</PLMWTT_UseNumberOfStoneTypesToolTip>
+</LanguageData>
