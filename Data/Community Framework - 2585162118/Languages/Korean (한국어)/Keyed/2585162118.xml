@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CF_CraftedQualityOffset_QualityOffsetChance>품질 증감 확률:</CF_CraftedQualityOffset_QualityOffsetChance>
+  <CF_CraftedQualityOffset_QualityOffset>현재 품질 증감:</CF_CraftedQualityOffset_QualityOffset>
+  <CF_PreventsHediffGiver>상태 보호 여부</CF_PreventsHediffGiver>
+  <CF_PreventsHediffGiver_Desc>이것이 건강 상태를 보호하는지 여부입니다.</CF_PreventsHediffGiver_Desc>
+  <CF_IgnorePathCost_StringExtra>지형별 이동 어려움이 무시됨</CF_IgnorePathCost_StringExtra>
+  <CF_BillRequiresMass>{0}kg만큼의 {1} 필요</CF_BillRequiresMass>
+  <CF_Roofed_NeedsRoof>{0}은 지붕 아래에 배치해야 함</CF_Roofed_NeedsRoof>
+  <CF_Chandelier_TooTall>{0}은(는) 여기에 {1}(을)를 설치하기에 너무 높음</CF_Chandelier_TooTall>
+  <CF_MustBePlacedOnWall>{0}(은)는 벽에 설치해야 함</CF_MustBePlacedOnWall>
+  <CFSettings_DebugTooltip>특히 로딩 시 디버그 로깅을 활성화합니다. 요청받지 않는 한 일반적으로 활성화 할 필요가 없습니다.</CFSettings_DebugTooltip>
+  <CFSettings_PPM>패치된 메소드 출력 여부</CFSettings_PPM>
+  <CFSettings_PPMTooltip>성공적으로 적용된 모든 Harmony 패치를 출력할지 여부입니다.</CFSettings_PPMTooltip>
+  <CFSettings_ApplyAtOwnRisk>어떤 패치라도 비활성화하면 예측 불가능한 기능 오류가 발생할 수 있습니다! 자신이 무엇을 하는지 알 때만 비활성화하세요!</CFSettings_ApplyAtOwnRisk>
+  <CFSettings_DebugModeRequired>디버그 모드가 비활성화되면 모든 패치가 적용됩니다.</CFSettings_DebugModeRequired>
+  <CFSettings_RestartToApply>패치 설정 적용을 위해서는 게임을 재시작해야 합니다.</CFSettings_RestartToApply>
+  <CFSettings_ApplyPatch>{0} 적용</CFSettings_ApplyPatch>
+  <CFSettings_ApplyPatchTooltip>{1} 기능의 {0}(을)를 적용할지 여부입니다.</CFSettings_ApplyPatchTooltip>
+  <CFSettings_ApplyOnHediffAddedPatch_Name>헤디프 추가 시 패치</CFSettings_ApplyOnHediffAddedPatch_Name>
+  <CFSettings_ApplyOnHediffAddedPatch_Desc>특정 헤디프와 다른 헤디프가 같은 정착민에게 적용될 때 효과를 적용할 수 있게 합니다.</CFSettings_ApplyOnHediffAddedPatch_Desc>
+  <CFSettings_ApplyCapacityPatch_Name>운반 중량 패치</CFSettings_ApplyCapacityPatch_Name>
+  <CFSettings_ApplyCapacityPatch_Desc>운반 중량 증감' 능력치가 작동하도록 하여, 상단이 운반할 수 있는 최대 질량을 증감할 수 있습니다.</CFSettings_ApplyCapacityPatch_Desc>
+  <CFSettings_ApplyCompAffectedByFacilitiesPatch_Name>시설물 제작법 해금</CFSettings_ApplyCompAffectedByFacilitiesPatch_Name>
+  <CFSettings_ApplyCompAffectedByFacilitiesPatch_Desc>작업대에 부착된 시설물이 제작법을 해금할 수 있게 합니다.</CFSettings_ApplyCompAffectedByFacilitiesPatch_Desc>
+  <CFSettings_ApplyCompFromStuffPatch_Name>재료로부터의 구성 요소</CFSettings_ApplyCompFromStuffPatch_Name>
+  <CFSettings_ApplyCompFromStuffPatch_Desc>재료가 그것으로 만들어진 물건에 추가 속성을 부여할 수 있게 합니다.</CFSettings_ApplyCompFromStuffPatch_Desc>
+  <CFSettings_ApplyIgnorePathCostPatch_Name>경로 비용 무시</CFSettings_ApplyIgnorePathCostPatch_Name>
+  <CFSettings_ApplyIgnorePathCostPatch_Desc>모드 제작자가 정착민이 경로 이동 비용을 무시하도록 설정할 수 있게 합니다.</CFSettings_ApplyIgnorePathCostPatch_Desc>
+  <CFSettings_ApplyFacilityRequireFuelPatch_Name>시설물 연료 필요 패치</CFSettings_ApplyFacilityRequireFuelPatch_Name>
+  <CFSettings_ApplyFacilityRequireFuelPatch_Desc>모드 제작자가 연료를 필요로 하는 시설물을 만들 수 있게 합니다.</CFSettings_ApplyFacilityRequireFuelPatch_Desc>
+  <CFSettings_ApplyQualityUtilityPatch_Name>품질 유틸리티 패치</CFSettings_ApplyQualityUtilityPatch_Name>
+  <CFSettings_ApplyQualityUtilityPatch_Desc>모드 제작자가 제작 아이템의 품질에 영향을 미치는 조건을 추가할 수 있게 합니다.</CFSettings_ApplyQualityUtilityPatch_Desc>
+  <CFSettings_ApplyHatchPatch_Name>부화 패치</CFSettings_ApplyHatchPatch_Name>
+  <CFSettings_ApplyHatchPatch_Desc>아이템에서 정착민이 태어나서 당신의 세력에 합류할 수 있게 합니다.</CFSettings_ApplyHatchPatch_Desc>
+  <CFSettings_ApplyHealthTickPatch_Name>건강 틱 패치</CFSettings_ApplyHealthTickPatch_Name>
+  <CFSettings_ApplyHealthTickPatch_Desc>각 정착민의 건강 틱 연산이 수행될 때 특정 헤디프가 내장된 효과를 적용할 수 있게 합니다.</CFSettings_ApplyHealthTickPatch_Desc>
+  <CFSettings_ApplyNegativeFertilityPatch_Name>부정적 비옥도 패치</CFSettings_ApplyNegativeFertilityPatch_Name>
+  <CFSettings_ApplyNegativeFertilityPatch_Desc>특정 식물이 비옥도가 낮은 토양에서 더 빠르게 자라게 할 수 있게 합니다.</CFSettings_ApplyNegativeFertilityPatch_Desc>
+  <CFSettings_ApplyShouldHaveNeedPatch_Name>욕구 무시 패치</CFSettings_ApplyShouldHaveNeedPatch_Name>
+  <CFSettings_ApplyShouldHaveNeedPatch_Desc>모드 제작자가 정착민이 특정 욕구를 무시하도록 설정할 수 있게 합니다.</CFSettings_ApplyShouldHaveNeedPatch_Desc>
+  <CFSettings_ApplyMissingPartPatches_Name>누락 부위 패치</CFSettings_ApplyMissingPartPatches_Name>
+  <CFSettings_ApplyMissingPartPatches_Desc>프레임워크가 누락된 신체 부위를 오류 없이 쉽게 수정할 수 있게 합니다.</CFSettings_ApplyMissingPartPatches_Desc>
+  <CFSettings_ApplyOutputWorkerPatch_Name>제작법 결과물 패치</CFSettings_ApplyOutputWorkerPatch_Name>
+  <CFSettings_ApplyOutputWorkerPatch_Desc>모드 제작자가 특정 제작법이 완료될 때 내장된 추가 스크립트가 실행되도록 할 수 있게 합니다.</CFSettings_ApplyOutputWorkerPatch_Desc>
+  <CFSettings_ApplyCanPlaceBlueprintOverPatch_Name>청사진 겹치기 패치</CFSettings_ApplyCanPlaceBlueprintOverPatch_Name>
+  <CFSettings_ApplyCanPlaceBlueprintOverPatch_Desc>모드 제작자가 기존 건물 위에 다른 청사진을 배치하는 것과 관련된 행동 여부를 변경할 수 있게 합니다.</CFSettings_ApplyCanPlaceBlueprintOverPatch_Desc>
+  <CFSettings_ShortCircuitPatches_Name>단락 패치</CFSettings_ShortCircuitPatches_Name>
+  <CFSettings_ShortCircuitPatches_Desc>모드 제작자가 단락마다 다르게 반응하는 건물을 만들 수 있게 합니다.</CFSettings_ShortCircuitPatches_Desc>
+  <CFSettings_PostMakePatch_Name>물건 생성 후 패치</CFSettings_PostMakePatch_Name>
+  <CFSettings_PostMakePatch_Desc>모드 제작자가 물건이 생성될 때마다 추가 내장 행동을 실행할 수 있게 합니다.</CFSettings_PostMakePatch_Desc>
+  <CFSettings_ApplyBatteryPatches_Name>배터리 충전 패치</CFSettings_ApplyBatteryPatches_Name>
+  <CFSettings_ApplyBatteryPatches_Desc>모드 제작자가 자신의 모드 배터리를 추가로 커스터마이징 할 수 있게 합니다.</CFSettings_ApplyBatteryPatches_Desc>
+  <CFSettings_ApplyHediffExtensionPatches_Name>헤디프 확장 패치</CFSettings_ApplyHediffExtensionPatches_Name>
+  <CFSettings_ApplyHediffExtensionPatches_Desc>모드 제작자가 자신의 모드 헤디프를 추가로 커스터마이징 할 수 있게 합니다.</CFSettings_ApplyHediffExtensionPatches_Desc>
+  <CF_SeverityFromPain_CurrentPain>현재 통증량:</CF_SeverityFromPain_CurrentPain>
+  <CF_SeverityFromSkill_SkillRequire>필요 기술:</CF_SeverityFromSkill_SkillRequire>
+  <CF_SeverityFromSkill_SkillMin>필요 최소 레벨:</CF_SeverityFromSkill_SkillMin>
+  <CF_SeverityFromSkill_SkillAverage>관련 기술 평균:</CF_SeverityFromSkill_SkillAverage>
+</LanguageData>
