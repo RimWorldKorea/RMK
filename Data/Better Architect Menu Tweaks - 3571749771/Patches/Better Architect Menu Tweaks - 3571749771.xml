@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/DesignationCategoryDef[defName="Ferny_Automation"]/label</xpath>
+    <value>
+      <label>자동화</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/DesignationCategoryDef[defName="Structure"]/label</xpath>
+    <value>
+      <label>구조물</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/DesignationCategoryDef[defName="Ferny_Hosting"]/label</xpath>
+    <value>
+      <label>여가</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/DesignationCategoryDef[defName="Security"]/label</xpath>
+    <value>
+      <label>보안</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/DesignationCategoryDef[defName="Furniture"]/label</xpath>
+    <value>
+      <label>가구</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/DesignationCategoryDef[defName="Ferny_Colony"]/label</xpath>
+    <value>
+      <label>관리</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/DesignationCategoryDef[defName="Production"]/label</xpath>
+    <value>
+      <label>생산</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/DesignationCategoryDef[defName="Ferny_Production"]/label</xpath>
+    <value>
+      <label>제작</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/DesignationCategoryDef[defName="Ferny_ProcessingProduction"]/label</xpath>
+    <value>
+      <label>가공</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/DesignationCategoryDef[defName="Ferny_Storage"]/label</xpath>
+    <value>
+      <label>저장고</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/DesignationCategoryDef[defName="Ferny_AerialTransport"]/label</xpath>
+    <value>
+      <label>항공</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/DesignationCategoryDef[defName="Ferny_NavalTransport"]/label</xpath>
+    <value>
+      <label>해상</label>
+    </value>
+  </Operation>
+</Patch>
