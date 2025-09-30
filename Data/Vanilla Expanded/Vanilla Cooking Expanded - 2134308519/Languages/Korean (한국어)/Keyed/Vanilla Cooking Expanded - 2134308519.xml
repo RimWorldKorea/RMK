@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <IP_InsertFirstItemDesc>재료 투입</IP_InsertFirstItemDesc>
+  <IP_InsertSecondItemDesc>재료 투입</IP_InsertSecondItemDesc>
+  <IP_InsertThirdItemDesc>재료 투입</IP_InsertThirdItemDesc>
+  <IP_InsertVariable>{0} 투입</IP_InsertVariable>
+  <IP_InsertVariableSecond>두 번째 칸에 {0} 투입</IP_InsertVariableSecond>
+  <IP_InsertVariableThird>세 번째 칸에 {0} 투입</IP_InsertVariableThird>
+  <IP_CantFindThing>현재 지역에 {0}(이)가 없습니다.</IP_CantFindThing>
+  <IP_BringIngredients>재료 운반</IP_BringIngredients>
+  <IP_BringIngredientsDesc>작업 시작을 위해 재료 운반</IP_BringIngredientsDesc>
+  <IP_CancelIngredients>재료 운반 취소</IP_CancelIngredients>
+  <IP_CancelIngredientsDesc>이 건물로 재료 운반 취소</IP_CancelIngredientsDesc>
+  <IP_NoIngredientFound>현재 지역에서 재료를 찾을 수 없음</IP_NoIngredientFound>
+  <IP_ChooseIngredient>재료 선택</IP_ChooseIngredient>
+  <IP_ChooseIngredientSecond>두 번째 재료 선택</IP_ChooseIngredientSecond>
+  <IP_ChooseIngredientThird>세 번째 재료 선택</IP_ChooseIngredientThird>
+  <IP_IngredientImproperlyDefined>재료 중 하나가 물품 작업이 중복 작동하도록 잘못 정의되었습니다. 모드 작성자에게 문의하십시오.</IP_IngredientImproperlyDefined>
+  <IP_NoPowerDestroysWarning>작업을 시작하려면 {0}에 연료를 공급해야 합니다.</IP_NoPowerDestroysWarning>
+  <IP_NoFuelDestroysWarning>작업을 시작하려면 {0}에 연료를 공급해야 합니다.</IP_NoFuelDestroysWarning>
+  <IP_LightDestroysWarning>{0}(이)가 작업을 시작하려면 주변에 적절한 조명이 있어야 합니다.</IP_LightDestroysWarning>
+  <IP_RainDestroysWarning>{0}(이)가 작업을 시작하려면 비가 오지 않아야 합니다.</IP_RainDestroysWarning>
+  <IP_TemperatureDestroysWarning>{0}(이)가 작업을 시작하려면 적절한 온도({1} - {2})가 있어야 합니다.</IP_TemperatureDestroysWarning>
+  <IP_NoPowerDestroysInitialWarning>가공 중에 정전이 발생해 음식이 상했습니다.</IP_NoPowerDestroysInitialWarning>
+  <IP_NoPowerDestroysMessage>가공 중에 정전이 발생해 음식이 상했습니다.</IP_NoPowerDestroysMessage>
+  <IP_GenericProductFinished>제품 가공이 완료되어 운반 대기 중</IP_GenericProductFinished>
+  <IP_IsEmpty>{0}(이)가 비어 있음</IP_IsEmpty>
+  <IP_FilledWith>{0}(은)는 {1}(으)로 예약됨</IP_FilledWith>
+  <IP_FilledWithSecond>{0}의 두 번째 칸은 {1}(으)로 예약됨</IP_FilledWithSecond>
+  <IP_FilledWithThird>{0}의 세 번째 칸은 {1}(으)로 예약됨</IP_FilledWithThird>
+  <IP_IngredientPercentage> ({1}개 중 {0}개 채워짐)</IP_IngredientPercentage>
+  <IP_ProcessorWorking>{0} 가공 중:</IP_ProcessorWorking>
+  <IP_ProcessingInProgress>{0}(이)가 {1}(을)를 가공 중입니다. {2}(은)는 {4} 뒤에 {3} 품질로 완성됩니다.</IP_ProcessingInProgress>
+  <IP_ProcessingInProgressNoQuality>{0}(이)가 {1}(을)를 가공 중입니다. {2}(은)는 {3} 뒤에 완성됩니다.</IP_ProcessingInProgressNoQuality>
+  <IP_RemoveProduct>{0} ({1}) 제거</IP_RemoveProduct>
+  <IP_RemoveProductDesc>{1}에서 {0}(을)를 제거하세요. 제품은 현재 품질 수준 ({2})로 완성됩니다.</IP_RemoveProductDesc>
+  <IP_ResetSemiautomatic>조리법 초기화</IP_ResetSemiautomatic>
+  <IP_ResetSemiautomaticDesc>현재 제품이 완성된 후 설정을 초기화합니다. 새로운 재료를 선택할 수 있습니다.</IP_ResetSemiautomaticDesc>
+  <IP_NoCombination>이 재료에 대한 조합을 찾을 수 없습니다.</IP_NoCombination>
+  <IP_SetAutoQuality>원하는 품질을 설정하세요. 설정한 품질에 도달하면 정착민이 자동으로 저장 장소까지 운반합니다. 설정하지 않으면 수동으로 명령을 내리거나 전설 품질이 될 때까지 기다린 후 운반합니다.</IP_SetAutoQuality>
+  <IP_ChooseQualityAuto>요구 품질 선택</IP_ChooseQualityAuto>
+  <IP_QualityAutoIs>요구 품질: {0}</IP_QualityAutoIs>
+  <IP_QualityAutoNot>요구 품질 비활성화</IP_QualityAutoNot>
+  <IP_QualityAutoEstablished>요구 품질, 해당 품질 수준에서 제품 운반: {0}</IP_QualityAutoEstablished>
+  <IP_ToggleAuto>자동 재료 보충</IP_ToggleAuto>
+  <IP_ToggleAutoDesc>활성화하면 인접한 저장 장소에서 자동으로 재료를 가져오고, 제품을 꺼내면 자동으로 다시 작업을 시작합니다. 비활성화할 경우 정착민이 재료를 건물로 운반해야 하며, 다시 채워지면 수동으로 활성화해야 합니다.</IP_ToggleAutoDesc>
+  <IP_ProductWaiting>운반 대기 중</IP_ProductWaiting>
+  <IP_OutsideLightRange>적절한 수준의 조명이 존재하지 않아 작동 중지되었습니다. 머지않아 결과물이 손상됩니다.</IP_OutsideLightRange>
+  <IP_SpoiledDueToLight>적절한 수준의 조명이 존재하지 않아 결과물이 손상되었습니다.</IP_SpoiledDueToLight>
+  <IP_ItRains>악천후로 인해 작동 중지되었습니다. 머지않아 결과물이 손상됩니다.</IP_ItRains>
+  <IP_SpoiledDueToRain>악천후로 인해 결과물이 손상되었습니다.</IP_SpoiledDueToRain>
+  <IP_WrongTemp>부적합한 온도로 인해 작동 중지되었습니다. 머지않아 결과물이 손상됩니다.</IP_WrongTemp>
+  <IP_SpoiledDueToWrongTemp>부적합한 온도로 인해 결과물이 손상되었습니다.</IP_SpoiledDueToWrongTemp>
+  <IP_TempRangeInThisMachine> 권장 온도: {0} - {1} ºC{2}</IP_TempRangeInThisMachine>
+  <VCE_InsertSoup>수프 투입</VCE_InsertSoup>
+  <VCE_InsertSoupDesc>수프 요리</VCE_InsertSoupDesc>
+  <VCE_NoSoupsFound>현재 지역에 해당하는 수프가 없습니다.</VCE_NoSoupsFound>
+  <VCE_UncookedSoupSimple>간단한 수프</VCE_UncookedSoupSimple>
+  <VCE_UncookedSoupFine>좋은 수프</VCE_UncookedSoupFine>
+  <VCE_UncookedSoupLavish>호화로운 수프</VCE_UncookedSoupLavish>
+  <VCE_UncookedSoupGourmet>미식적인 수프</VCE_UncookedSoupGourmet>
+  <VCE_UncookedSoupSimple_InsertSoup>간단한 수프 투입</VCE_UncookedSoupSimple_InsertSoup>
+  <VCE_UncookedSoupFine_InsertSoup>좋은 수프 투입</VCE_UncookedSoupFine_InsertSoup>
+  <VCE_UncookedSoupLavish_InsertSoup>호화로운 수프 투입</VCE_UncookedSoupLavish_InsertSoup>
+  <VCE_UncookedSoupGourmet_InsertSoup>미식적인 수프 투입</VCE_UncookedSoupGourmet_InsertSoup>
+  <VCE_SelectSoup>요리할 수프 선택</VCE_SelectSoup>
+  <VCE_StartInsertion>수프 운반</VCE_StartInsertion>
+  <VCE_StartInsertionDesc>수프를 전기 냄비에 넣어 요리를 시작합니다.</VCE_StartInsertionDesc>
+  <VCE_RemoveSoup>수프 비우기</VCE_RemoveSoup>
+  <VCE_RemoveSoupDesc>냄비에서 수프를 비웁니다. 요리 시작 전에만 가능합니다.</VCE_RemoveSoupDesc>
+  <VCE_CancelBringingSoup>수프 운반 취소</VCE_CancelBringingSoup>
+  <VCE_CancelBringingSoupDesc>수프를 전기 냄비에 넣는 것을 취소합니다.</VCE_CancelBringingSoupDesc>
+  <VCE_WaitTillJobsEnd>수프를 전기 냄비에 넣을 때까지 기다리거나, 작업을 취소합니다.</VCE_WaitTillJobsEnd>
+  <VCE_NotPowered>전기 냄비에 전원이 공급되지 않습니다.</VCE_NotPowered>
+  <VCE_Engage>수프 끓이기</VCE_Engage>
+  <VCE_EngageDesc>수프를 만듭니다. 이 과정은 3일이 걸리며, 도중에 중단 시 수프가 파괴됩니다.</VCE_EngageDesc>
+  <VCE_SoupFailurePower>전기 냄비가 정전돠어 수프가 설익었습니다</VCE_SoupFailurePower>
+  <VCE_SoupFinished>수프를 성공적으로 끓였습니다</VCE_SoupFinished>
+  <VCE_SoupInProgress>{0}(이)가 조리 중입니다. {1} 뒤에 완성됩니다.</VCE_SoupInProgress>
+  <VCE_SoupReady>완성된 수프 운반 대기 중</VCE_SoupReady>
+  <VCE_InsertMilkDesc>치즈의 재료로 사용할 우유를 선택하세요. 각 우유는 서로 다른 유형의 치즈를 생산할 수 있습니다.</VCE_InsertMilkDesc>
+  <VCE_InsertMilk>우유 선택</VCE_InsertMilk>
+  <VCE_InsertMilkVariable>{0} 투입</VCE_InsertMilkVariable>
+  <VCE_NoMilksFound>현재 지역에 해당하는 우유가 없습니다.</VCE_NoMilksFound>
+  <VCE_SelectMilk>압착할 우유 선택</VCE_SelectMilk>
+  <VCE_StartInsertionMilk>우유 운반</VCE_StartInsertionMilk>
+  <VCE_StartInsertionMilkDesc>치즈 압착기에 우유를 넣어 압착을 시작합니다.</VCE_StartInsertionMilkDesc>
+  <VCE_RemoveMilk>우유 비우기</VCE_RemoveMilk>
+  <VCE_RemoveMilkDesc>압착기에서 우유를 비웁니다. 작업 시작 전에만 가능합니다.</VCE_RemoveMilkDesc>
+  <VCE_CancelBringingMilk>우유 운반 취소</VCE_CancelBringingMilk>
+  <VCE_CancelBringingMilkDesc>치즈 압착기에 우유 운반을 취소합니다.</VCE_CancelBringingMilkDesc>
+  <VCE_WaitTillJobsEndMilk>우유를 치즈 압착기에 넣을 때까지 기다리거나, 작업을 취소합니다.</VCE_WaitTillJobsEndMilk>
+  <VCE_EngageMilk>치즈 압착</VCE_EngageMilk>
+  <VCE_EngageMilkDesc>우유를 치즈로 압착합니다. 이 과정에 걸리는 시간은 유동적이며, 숙성 기간에 따라 치즈의 품질이 향상됩니다. 초기 기간 이후 언제든지 꺼낼 수 있습니다.</VCE_EngageMilkDesc>
+  <VCE_CheeseFinished>치즈 압착기에서 치즈가 숙성됨</VCE_CheeseFinished>
+  <VCE_CheeseInProgress>치즈 압착기가 {0}(을)를 누르고 있습니다. {2} 뒤에 {1} 품질로 완성됩니다.</VCE_CheeseInProgress>
+  <VCE_CheeseReady>숙성된 치즈 운반 대기 중</VCE_CheeseReady>
+  <VCE_MilkImproperlyDefined>이 우유는 치즈 압착기와의 작동이 잘못 정의되었습니다. 우유 모드 작성자에게 문의하십시오.</VCE_MilkImproperlyDefined>
+  <VCE_RemoveCheese>치즈 꺼내기 ({0})</VCE_RemoveCheese>
+  <VCE_RemoveCheeseDesc>치즈 압착기에서 치즈를 꺼냅니다. 치즈는 현재 품질 수준 ({0})로 완성됩니다</VCE_RemoveCheeseDesc>
+  <VCE_CheesePressEmpty>치즈 압착기가 비어 있습니다</VCE_CheesePressEmpty>
+  <VCE_CheesePressFilled>{0}(으)로 채워진 치즈 압착기</VCE_CheesePressFilled>
+  <VCE_CheesePressWorking>치즈 압착기 작동 중:</VCE_CheesePressWorking>
+  <VCE_ResourcePercentage> ({1}개 중 {0}개 채워짐)</VCE_ResourcePercentage>
+  <VCE_SoupFailurePowerWarning>전기 냄비에 연료가 부족하여 수프가 빠르게 상하고 있습니다.</VCE_SoupFailurePowerWarning>
+  <VCE_SoupPotNotWorking>전기 냄비가 작동하지 않습니다.</VCE_SoupPotNotWorking>
+  <VCE_CheesePressNotWorking>치즈 압착기가 작동하지 않습니다.</VCE_CheesePressNotWorking>
+  <VCE_CondimentEffects>조미료 효과</VCE_CondimentEffects>
+  <VCE_CondimentEffectsTitle>조미료 역할</VCE_CondimentEffectsTitle>
+  <VCE_CondimentEffectsAgave>치유력과 항염 효과로 알려진 부드럽고 달콤한 시럽입니다. 음식에 넣어 섭취하면 12시간 동안 면역 획득 속도가 15% 증가합니다.</VCE_CondimentEffectsAgave>
+  <VCE_CondimentEffectsSugar>설탕은 신체에서 쉽게 에너지로 전환됩니다. 음식에 넣어 섭취하면 12시간 동안 이동 속도가 15% 증가합니다.</VCE_CondimentEffectsSugar>
+  <VCE_CondimentEffectsSpices>향기롭고 매콤한 향신료입니다. 음식에 넣어 섭취하면 12시간 동안 조작이 10% 증가합니다.</VCE_CondimentEffectsSpices>
+  <VCE_CondimentEffectsSalt>음식에 넣어 섭취하면 12시간 동안 기분이 5 증가합니다.</VCE_CondimentEffectsSalt>
+  <VCE_CondimentEffectsMayo>음식에 넣어 섭취하면 12시간 동안 허기율이 15% 감소합니다.</VCE_CondimentEffectsMayo>
+  <VCE_CondimentEffectsJelly>음식에 넣어 섭취하면 12시간 동안 기분이 10 증가합니다.</VCE_CondimentEffectsJelly>
+  <VCE_CondimentEffectsButter>음식에 넣어 섭취하면 중독 위험 없이 연초 환각을 일으킵니다.</VCE_CondimentEffectsButter>
+  <VCE_CondimentEffectsSyrup>음식에 넣어 섭취하면 12시간 동안 기분이 7 증가합니다.</VCE_CondimentEffectsSyrup>
+  <VCE_CondimentEffectsNanites>음식에 넣어 섭취하면 12시간 동안 조작이 1% 증가합니다. 해당 기간 동안 정착민이 사망할 경우 부활합니다.</VCE_CondimentEffectsNanites>
+  <VCE_CondimentEffectsKetchup>음식에 넣어 섭취하면 12시간 동안 기분이 3 증가합니다.</VCE_CondimentEffectsKetchup>
+  <VCE_CondimentEffectsSauce>초강력 핫소스는 처음에는 혀가 아프지만, 섭취 직후 통증을 마비시키고 따뜻한 땀을 흘리게 만듭니다. 음식에 넣어 섭취하면 12시간 동안 통증 저항이 15% 증가하고 추위 저항이 10ºC 증가하며, 기분이 3 감소합니다.</VCE_CondimentEffectsSauce>
+  <VCE_HealthEffects>건강 효과</VCE_HealthEffects>
+  <VCE_NoEffect>건강 효과 없음</VCE_NoEffect>
+  <VCE_NoEffectDesc>음식에 넣어 섭취해도 건강에 부정적인 영향이 없습니다.</VCE_NoEffectDesc>
+  <VCE_DiabetesEffect>당뇨병</VCE_DiabetesEffect>
+  <VCE_DiabetesEffectDescHalfPoint>음식에 넣어 섭취하면 당뇨병이 발생합니다. 섭취할 때마다 당뇨병이 0.5% 진행됩니다.</VCE_DiabetesEffectDescHalfPoint>
+  <VCE_DiabetesEffectDescOneAndHalfPoint>음식에 넣어 섭취하면 당뇨병이 발생합니다. 섭취할 때마다 당뇨병이 1.5% 진행됩니다.</VCE_DiabetesEffectDescOneAndHalfPoint>
+  <VCE_DiabetesEffectDescThreeQuarterPoint>음식에 넣어 섭취하면 당뇨병이 발생합니다. 섭취할 때마다 당뇨병이 0.75% 진행됩니다.</VCE_DiabetesEffectDescThreeQuarterPoint>
+  <VCE_DiabetesDessertSimpleDesc>이 식사를 섭취하면 당뇨병이 발생합니다. 섭취할 때마다 당뇨병이 0.5% 진행됩니다.</VCE_DiabetesDessertSimpleDesc>
+  <VCE_DiabetesDessertFineDesc>이 식사를 섭취하면 당뇨병이 발생합니다. 섭취할 때마다 당뇨병이 1.5% 진행됩니다.</VCE_DiabetesDessertFineDesc>
+  <VCE_DiabetesDessertLavishDesc>이 식사를 섭취하면 당뇨병이 발생합니다. 섭취할 때마다 당뇨병이 2.5% 진행됩니다.</VCE_DiabetesDessertLavishDesc>
+  <VCE_DiabetesDessertGourmetDesc>이 식사를 섭취하면 당뇨병이 발생합니다. 섭취할 때마다 당뇨병이 3.5% 진행됩니다.</VCE_DiabetesDessertGourmetDesc>
+  <VCE_HighBloodPressureEffect>고혈압</VCE_HighBloodPressureEffect>
+  <VCE_HighBloodPressureEffectDesc>음식에 넣어 섭취하면 고혈압이 발생합니다. 섭취할 때마다 고혈압이 0.75% 진행됩니다.</VCE_HighBloodPressureEffectDesc>
+  <VCE_HighBloodPressureEffectDescCanned>통조림을 섭취하면 고혈압이 발생합니다. 섭취할 때마다 고혈압이 1.5% 진행됩니다.</VCE_HighBloodPressureEffectDescCanned>
+  <VCE_CholesterolEffect>콜레스테롤</VCE_CholesterolEffect>
+  <VCE_CholesterolEffectDesc>음식에 넣어 섭취하면 콜레스테롤이 증가합니다. 섭취할 때마다 콜레스테롤이 1% 증가합니다.</VCE_CholesterolEffectDesc>
+  <VCE_CholesterolEffectDescOneAndHalfPoint>음식에 넣어 섭취하면 콜레스테롤이 증가합니다. 섭취할 때마다 콜레스테롤이 1.5% 증가합니다.</VCE_CholesterolEffectDescOneAndHalfPoint>
+  <VCE_CholesterolEffectDescDouble>음식에 넣어 섭취하면 콜레스테롤이 증가합니다. 섭취할 때마다 콜레스테롤이 2% 증가합니다.</VCE_CholesterolEffectDescDouble>
+  <VCE_CholesterolDescDeepFried>튀긴 음식을 섭취하면 콜레스테롤이 증가합니다. 섭취할 때마다 콜레스테롤이 1.5% 증가합니다.</VCE_CholesterolDescDeepFried>
+</LanguageData>
