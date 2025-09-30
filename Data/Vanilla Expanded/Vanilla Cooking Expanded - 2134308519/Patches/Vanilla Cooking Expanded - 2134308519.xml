@@ -1,0 +1,667 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Biomes</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>sey</li>
+      </mods>
+      <nomatch Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="VCE_DeepFryAlienFish"]/label</xpath>
+            <value>
+              <label>외계 생선 튀기기 (x20)</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="VCE_DeepFryAlienFish"]/description</xpath>
+            <value>
+              <description>외계 생선을 튀깁니다. 튀김은 매우 맛있지만, 건강에 좋지 않습니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="VCE_DeepFryAlienFish"]/jobString</xpath>
+            <value>
+              <jobString>외계 생선 튀기는 중</jobString>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="VCE_CanAlienFish"]/label</xpath>
+            <value>
+              <label>외계 생선 통조림 만들기 (x20)</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="VCE_CanAlienFish"]/description</xpath>
+            <value>
+              <description>외계 생선을 철제 통에 안전하게 보관합니다. 통조림의 저장기간은 거의 무한에 가깝습니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="VCE_CanAlienFish"]/jobString</xpath>
+            <value>
+              <jobString>외계 생선 통조림 만드는 중</jobString>
+            </value>
+          </li>
+        </operations>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>RimCuisine 2 Core (Continued)</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Wheat"]/label</xpath>
+          <value>
+            <label>스펠트밀</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Wheat"]/description</xpath>
+          <value>
+            <description>스펠트밀은 기원전 5000년경부터 재배된 밀의 한 종류입니다. 식이섬유, 단백질, 비타민 및 미네랄의 좋은 공급원입니다. 스펠트밀은 수확에 한해 가까운 시간이 걸리는 곡물입니다. 연약하고 시간이 오래 걸리지만, 이 밀은 단순히 만지는 것만으로도 밀가루로 부드럽게 부서지도록 유전적으로 조작되었습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Flour"]/label</xpath>
+          <value>
+            <label>스펠트밀가루</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Flour"]/description</xpath>
+          <value>
+            <description>제빵에 사용되는 밀가루입니다. 상온에서도 오랫동안 보관할 수 있습니다. 조금만 힘을 줘도 쉽게 가루로 부서지는 유전자 조작 스펠트밀로 생산되었습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Cheese"]/label</xpath>
+          <value>
+            <label>젖소 치즈</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingCategoryDef[defName="VCE_Cheese"]/label</xpath>
+          <value>
+            <label>숙성 치즈</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_AgaveNectar"]/label</xpath>
+          <value>
+            <label>용설란 시럽</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_AgaveNectar"]/description</xpath>
+          <value>
+            <description>치유력과 항염 효과로 알려진 부드럽고 달콤한 시럽입니다. 설탕보다 건강하지만 과당 함량이 높아 지속적으로 섭취했을 시 해로울 수 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="VCE_ConsumedAgave"]/label</xpath>
+          <value>
+            <label>용설란 시럽이 들어간 음식</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="VCE_ConsumedAgave"]/description</xpath>
+          <value>
+            <description>치유력과 항염 효과로 알려진 부드럽고 달콤한 시럽입니다. 하루 동안 면역 획득 속도가 15% 증가합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_RawSugar"]/label</xpath>
+          <value>
+            <label>흑설탕</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_RawSugar"]/description</xpath>
+          <value>
+            <description>음식에 단맛을 더해주는 결정형 사탕수수 분말입니다. 설탕은 몸에서 쉽게 에너지로 전환됩니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="VCE_SugarRush"]/label</xpath>
+          <value>
+            <label>흑설탕이 들어간 음식</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Fishing Expanded</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Odyssey</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="VCE_DeepFryFish"]/label</xpath>
+            <value>
+              <label>생선 튀기기 (x20)</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="VCE_DeepFryFish"]/description</xpath>
+            <value>
+              <description>생선을 튀깁니다. 튀김은 매우 맛있지만, 건강에 좋지 않습니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="VCE_DeepFryFish"]/jobString</xpath>
+            <value>
+              <jobString>생선 튀기는 중</jobString>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="VCE_CanFish"]/label</xpath>
+            <value>
+              <label>생선 통조림 만들기 (x20)</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="VCE_CanFish"]/description</xpath>
+            <value>
+              <description>생선을 철제 통에 안전하게 보관합니다. 통조림의 저장기간은 거의 무한에 가깝습니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="VCE_CanFish"]/jobString</xpath>
+            <value>
+              <jobString>생선 통조림 만드는 중</jobString>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Plants Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Ketchup"]/label</xpath>
+          <value>
+            <label>케첩</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Ketchup"]/description</xpath>
+          <value>
+            <description>토마토를 끓여 만든 걸쭉한 소스로, 짠맛과 새콤한 맛이 어우러지며 달콤한 뒷맛이 납니다. 고기 요리나 튀김에 완벽히 어울립니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_HotSauce"]/label</xpath>
+          <value>
+            <label>핫소스</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_HotSauce"]/description</xpath>
+          <value>
+            <description>고추와 다른 향신료를 섞어 끓여 만든 강력하고 매운 소스입니다. 초강력 핫소스는 처음에는 혀가 아프지만, 섭취 직후 통증을 마비시키고 따뜻한 땀을 흘리게 만듭니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="VCE_Ketchup"]/label</xpath>
+          <value>
+            <label>케첩 만들기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="VCE_Ketchup"]/description</xpath>
+          <value>
+            <description>토마토로 케첩을 만듭니다. 토마토를 끓여 만든 걸쭉한 소스로, 짠맛과 새콤한 맛이 어우러지며 달콤한 뒷맛이 납니다. 고기 요리나 튀김에 완벽히 어울립니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="VCE_Ketchup"]/jobString</xpath>
+          <value>
+            <jobString>케첩 만드는 중</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="VCE_HotSauce"]/label</xpath>
+          <value>
+            <label>핫소스 만들기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="VCE_HotSauce"]/description</xpath>
+          <value>
+            <description>고추와 다른 향신료를 섞어 끓여 만든 강력하고 매운 핫소스를 만듭니다. 초강력 핫소스는 처음에는 혀가 아프지만, 섭취 직후 통증을 마비시키고 따뜻한 땀을 흘리게 만듭니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="VCE_HotSauce"]/jobString</xpath>
+          <value>
+            <jobString>핫소스 만드는 중</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThoughtDef[defName="VCE_ConsumedKetchup"]/stages/li[1]/label</xpath>
+          <value>
+            <label>케첩 섭취</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThoughtDef[defName="VCE_ConsumedKetchup"]/stages/li[1]/description</xpath>
+          <value>
+            <description>달고 시고 끈적거려.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThoughtDef[defName="VCE_ConsumedHotSauce"]/stages/li[1]/label</xpath>
+          <value>
+            <label>핫소스 섭취</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThoughtDef[defName="VCE_ConsumedHotSauce"]/stages/li[1]/description</xpath>
+          <value>
+            <description>뭐 이렇게 매워! ……조금만 더 줘봐.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="VCE_ConsumedHotSauce"]/label</xpath>
+          <value>
+            <label>핫소스가 들어간 음식</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="VCE_ConsumedHotSauce"]/description</xpath>
+          <value>
+            <description>핫소스를 먹었습니다. 12시간 동안 통증 저항이 15% 증가하고 추위 저항이 10ºC 증가합니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>VGP Vegetable Garden</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Sugarcane"]/label</xpath>
+          <value>
+            <label>우바 사탕수수</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Sugarcane"]/description</xpath>
+          <value>
+            <description>마디가 있는 줄기를 가진 굵고 키 큰 열대성 풀입니다. 우바 품종은 일반 사탕수수보다 훨씬 튼튼하지만 생산성은 낮습니다. 생으로 먹기엔 별로지만, 이 유전자 변형 사탕수수는 쉽게 제분하여 설탕으로 만든 다음 다양한 요리, 특히 디저트에 사용됩니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Animals</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_NightMilkIntoCheese"]/label</xpath>
+          <value>
+            <label>어둠우유를 치즈로 발효</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_NightMilkIntoCheese"]/description</xpath>
+          <value>
+            <description>어둠우유 40개를 치즈 25개로 발효합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_NightMilkIntoCheese"]/labelOverride</xpath>
+          <value>
+            <labelOverride>어둠우유 40개를 치즈 25개로 발효</labelOverride>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_GowMilkIntoCheese"]/label</xpath>
+          <value>
+            <label>양소 우유를 치즈로 발효</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_GowMilkIntoCheese"]/description</xpath>
+          <value>
+            <description>양소 우유 40개를 치즈 25개로 발효합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_GowMilkIntoCheese"]/labelOverride</xpath>
+          <value>
+            <labelOverride>양소 우유 40개를 치즈 25개로 발효</labelOverride>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_BlueMilkIntoCheese"]/label</xpath>
+          <value>
+            <label>파란 우유를 치즈로 발효</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_BlueMilkIntoCheese"]/description</xpath>
+          <value>
+            <description>파란 우유 40개를 치즈 25개로 발효합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_BlueMilkIntoCheese"]/labelOverride</xpath>
+          <value>
+            <labelOverride>파란 우유 40개를 치즈 25개로 발효</labelOverride>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Bees</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_BeeMilkIntoCheese"]/label</xpath>
+          <value>
+            <label>꿀벌 우유를 치즈로 발효</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_BeeMilkIntoCheese"]/description</xpath>
+          <value>
+            <description>꿀벌 우유 50개를 치즈 25개로 발효합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_BeeMilkIntoCheese"]/labelOverride</xpath>
+          <value>
+            <labelOverride>꿀벌 우유 50개를 치즈 25개로 발효</labelOverride>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Genetics Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_WeirdMilkIntoCheese"]/label</xpath>
+          <value>
+            <label>이상한 우유를 치즈로 발효</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_WeirdMilkIntoCheese"]/description</xpath>
+          <value>
+            <description>이상한 우유 62개를 치즈 25개로 발효합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_WeirdMilkIntoCheese"]/labelOverride</xpath>
+          <value>
+            <labelOverride>이상한 우유 62개를 치즈 25개로 발효</labelOverride>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_MechaMilkIntoCheese"]/label</xpath>
+          <value>
+            <label>메카노이드 우유를 치즈로 발효</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_MechaMilkIntoCheese"]/description</xpath>
+          <value>
+            <description>메카노이드 우유 50개를 치즈 25개로 발효합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_MechaMilkIntoCheese"]/labelOverride</xpath>
+          <value>
+            <labelOverride>메카노이드 우유 50개를 치즈 25개로 발효</labelOverride>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_BearffaloMilkIntoCheese"]/label</xpath>
+          <value>
+            <label>곰팔로 우유를 치즈로 발효</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_BearffaloMilkIntoCheese"]/description</xpath>
+          <value>
+            <description>곰팔로 우유 40개를 치즈 25개로 발효합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_BearffaloMilkIntoCheese"]/labelOverride</xpath>
+          <value>
+            <labelOverride>곰팔로 우유 40개를 치즈 25개로 발효</labelOverride>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_ThrumffaloMilkIntoCheese"]/label</xpath>
+          <value>
+            <label>트럼팔로 우유를 치즈로 발효</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_ThrumffaloMilkIntoCheese"]/description</xpath>
+          <value>
+            <description>트럼팔로 우유 12개를 치즈 25개로 발효합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_ThrumffaloMilkIntoCheese"]/labelOverride</xpath>
+          <value>
+            <labelOverride>트럼팔로 우유 12개를 치즈 25개로 발효</labelOverride>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_MuffalochickenMilkIntoCheese"]/label</xpath>
+          <value>
+            <label>머팔닭 우유를 치즈로 발효</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_MuffalochickenMilkIntoCheese"]/description</xpath>
+          <value>
+            <description>머팔닭 우유 50개를 치즈 25개로 발효합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_MuffalochickenMilkIntoCheese"]/labelOverride</xpath>
+          <value>
+            <labelOverride>머팔닭 우유 50개를 치즈 25개로 발효</labelOverride>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_ChickenffaloMilkIntoCheese"]/label</xpath>
+          <value>
+            <label>닭팔로 우유를 치즈로 발효</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_ChickenffaloMilkIntoCheese"]/description</xpath>
+          <value>
+            <description>닭팔로 우유 100개를 치즈 25개로 발효합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_ChickenffaloMilkIntoCheese"]/labelOverride</xpath>
+          <value>
+            <labelOverride>닭팔로 우유 100개를 치즈 25개로 발효</labelOverride>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_MuffalobearMilkIntoCheese"]/label</xpath>
+          <value>
+            <label>머팔곰 우유를 치즈로 발효</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_MuffalobearMilkIntoCheese"]/description</xpath>
+          <value>
+            <description>머팔곰 우유 62개를 치즈 25개로 발효합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_MuffalobearMilkIntoCheese"]/labelOverride</xpath>
+          <value>
+            <labelOverride>머팔곰 우유 62개를 치즈 25개로 발효</labelOverride>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_WolffaloMilkIntoCheese"]/label</xpath>
+          <value>
+            <label>털투성이 우유를 치즈로 발효</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_WolffaloMilkIntoCheese"]/description</xpath>
+          <value>
+            <description>털투성이 우유 125개를 치즈 25개로 발효합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_WolffaloMilkIntoCheese"]/labelOverride</xpath>
+          <value>
+            <labelOverride>털투성이 우유 125개를 치즈 25개로 발효</labelOverride>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_RatMilkIntoCheese"]/label</xpath>
+          <value>
+            <label>쥐팔로 우유를 치즈로 발효</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_RatMilkIntoCheese"]/description</xpath>
+          <value>
+            <description>쥐팔로 우유 40개를 치즈 25개로 발효합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VCE_RatMilkIntoCheese"]/labelOverride</xpath>
+          <value>
+            <labelOverride>쥐팔로 우유 40개를 치즈 25개로 발효</labelOverride>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
