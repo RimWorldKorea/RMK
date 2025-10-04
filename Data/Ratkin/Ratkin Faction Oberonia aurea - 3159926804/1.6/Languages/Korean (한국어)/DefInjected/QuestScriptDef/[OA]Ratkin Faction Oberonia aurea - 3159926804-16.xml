@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <OARK_ProspectingTeam.questContentRules.rulesStrings>
+    <li>lastOrNot(lodgerCount==1)-&gt;</li>
+    <li>lastOrNot(lodgerCount&gt;=2)-&gt;마지막</li>
+    <li>lodgersPronoun(lodgerCount==1)-&gt;[asker_pronoun]</li>
+    <li>lodgersPronoun(lodgerCount&gt;=2)-&gt;그녀들</li>
+    <li>lodgersPossessive(lodgerCount==1)-&gt;[asker_possessive]</li>
+    <li>lodgersPossessive(lodgerCount&gt;=2)-&gt;그녀들의</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount==1)-&gt;[lodgersLabel]</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount&gt;=2)-&gt;[lodgersLabelPlural]</li>
+    <li>lodgersArriveLetterLabel-&gt;[lodgersLabelSingularOrPlural] 도착</li>
+    <li>lodgersArriveLetterText-&gt;[lodgersSingularOrPluralDef] [hasHave] 도착했습니다. [lodgersPronoun](이)가 당신과 함께 [questDurationTicks_duration]동안 재정비합니다.</li>
+    <li>hasHave(lodgerCount==1)-&gt;이미</li>
+    <li>hasHave(lodgerCount==2)-&gt;이미</li>
+    <li>appalledButNoAction-&gt;{PAWNSALIVECOUNT_multiple ? 다른 사람들은 : 마지막 [lodgersLabel](은)는} 이 일로 충격을 받았지만, 별다른 행동을 하지는 않을 것입니다</li>
+    <li>othersWillNotAccept-&gt;{PAWNSALIVECOUNT_multiple ? 다른 사람들은 : 마지막 [lodgersLabel](은)는} 이 일을 용납하지 않고</li>
+    <li>urnedViolent-&gt;[othersWillNotAccept], 격렬하게 반대하고 있습니다.</li>
+    <li>decidedToLeave-&gt;[othersWillNotAccept], 떠나기로 했습니다.</li>
+    <li>whoAskedToStay-&gt;당신과 함께 지내자고 했던</li>
+    <li>oneOfThe-&gt;절박한 [whoAskedToStay]</li>
+    <li>QuestOver-&gt;임무 '[resolvedQuestName]'이 종료되었습니다.</li>
+    <li>letterIntroDeath-&gt;{SUBJECT_definite}, [oneOfThe](이)가 사망했습니다.</li>
+    <li>lodgerDiedMemoryThoughtLetterLabel-&gt;[lodgersLabel] 사망: 분노</li>
+    <li>lodgerDiedMemoryThoughtLetterText-&gt;[letterIntroDeath]\n\n[appalledButNoAction]</li>
+    <li>lodgerDiedAttackPlayerLetterLabel-&gt;[lodgersLabel] 사망 : 복수</li>
+    <li>lodgerDiedAttackPlayerLetterText-&gt;[letterIntroDeath]\n\n[turnedViolent]</li>
+    <li>lodgerDiedLeaveMapLetterLabel-&gt;[lodgersLabel] 사망 : 떠남</li>
+    <li>lodgerDiedLeaveMapLetterText-&gt;[letterIntroDeath]\n\n[decidedToLeave]</li>
+    <li>lodgersAllDiedLetterLabel-&gt;임무 실패</li>
+    <li>lodgersAllDiedLetterText-&gt;{SUBJECT_definite}, [lastOrNot] 절망적이었던 [faction_pawnSingular], [whoAskedToStay] {SUBJECT_definite}(이)가 사망했습니다.\n\n[questOver]</li>
+    <li>letterIntroArrested-&gt;{SUBJECT_definite}, [oneOfThe](을)를 체포했습니다.</li>
+    <li>lodgerArrestedMemoryThoughtLetterLabel-&gt;[lodgersLabel] 체포 : 분노</li>
+    <li>lodgerArrestedMemoryThoughtLetterText-&gt;[letterIntroArrested]\n\n[appalledButNoAction]</li>
+    <li>lodgerArrestedAttackPlayerLetterLabel-&gt;[lodgersLabel] 체포 : 복수</li>
+    <li>lodgerArrestedAttackPlayerLetterText-&gt;[letterIntroArrested]\n\n[turnedViolent]</li>
+    <li>lodgerArrestedLeaveMapLetterLabel-&gt;[lodgersLabel] 체포 : 떠남</li>
+    <li>lodgerArrestedLeaveMapLetterText-&gt;[letterIntroArrested]\n\n[decidedToLeave]</li>
+    <li>lodgersAllArrestedLetterLabel-&gt;임무 실패</li>
+    <li>[lastOrNot] 절망적이었던 [faction_pawnSingular], [whoAskedToStay] {SUBJECT_definite}(을)를 체포했습니다.\n\n[questOver]</li>
+    <li>letterIntroLeftBehind-&gt;{SUBJECT_definite}, [oneOfThe](이)가 버려졌습니다.</li>
+    <li>lodgerLeftBehindMemoryThoughtLetterLabel-&gt;[lodgersLabel] 버려짐：분노</li>
+    <li>lodgerLeftBehindMemoryThoughtLetterText-&gt;[letterIntroLeftBehind]\n\n[appalledButNoAction]</li>
+    <li>lodgerLeftBehindLeaveMapLetterLabel-&gt;[lodgersLabel] 버려짐: 떠남</li>
+    <li>lodgerLeftBehindLeaveMapLetterText-&gt;[letterIntroLeftBehind]\n\n[decidedToLeave]</li>
+    <li>letterIntroViolated-&gt;{SUBJECT_definite}, [oneOfThe]에게 유해한 수술을 했습니다.</li>
+    <li>lodgerViolatedMemoryThoughtLetterLabel-&gt;[lodgersLabel] 유린 : 분노</li>
+    <li>lodgerViolatedMemoryThoughtLetterText-&gt;[letterIntroViolated]\n\n[appalledButNoAction]</li>
+    <li>lodgerViolatedAttackPlayerLetterLabel-&gt;[lodgersLabel] 유린 : 복수</li>
+    <li>lodgerViolatedAttackPlayerLetterText-&gt;[letterIntroViolated]\n\n[turnedViolent]</li>
+    <li>lodgerViolatedLeaveMapLetterLabel-&gt;[lodgersLabel] 유린 : 떠남</li>
+    <li>lodgerViolatedLeaveMapLetterText-&gt;[letterIntroViolated]\n\n[decidedToLeave]</li>
+    <li>letterIntroPsychicRitualTarget-&gt;{SUBJECT_definite}, ([oneOfThe])(은)는 어둠의 의식을 거쳤습니다.</li>
+    <li>lodgerPsychicRitualTargetMemoryThoughtLetterLabel-&gt;[lodgersLabel] 유린 : 떠남</li>
+    <li>lodgerPsychicRitualTargetMemoryThoughtLetterText-&gt;[letterIntroPsychicRitualTarget]\n\n[appalledButNoAction]</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterLabel-&gt;[lodgersLabel] 유린 : 복수</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterText-&gt;[letterIntroPsychicRitualTarget]\n\n[turnedViolent]</li>
+    <li>lodgerPsychicRitualTargetLeaveMapLetterLabel-&gt;[lodgersLabel] 유린 : 떠남</li>
+    <li>lodgerPsychicRitualTargetLeaveMapLetterText-&gt;[letterIntroPsychicRitualTarget]\n\n[decidedToLeave]</li>
+    <li>lodgerViolatedLeaveMapLetterText-&gt;[letterIntroViolated]\n\n[decidedToLeave]</li>
+    <li>mutinyLetterLabel-&gt;배신</li>
+    <li>mutinyLetterText-&gt;[lodgersSingularOrPluralDef] （[whoAskedToStay]）가 배신했습니다! \n\n[lodgersPronoun](은)는 이미 이 배신을 계획한 것 같습니다.</li>
+    <li>areIs(lodgerCount==1)-&gt;정</li>
+    <li>areIs(lodgerCount==2)-&gt;정</li>
+    <li>lodgersLeavingLetterLabel-&gt;[lodgersLabelSingularOrPlural] 떠남</li>
+    <li>lodgersLeavingLetterText(uniqueLeavingLetter!=True)-&gt;[asker_nameDef]에게 [lodgersLabelSingularOrPlural](이)가 [questDurationTicks_duration][동안 map_definite]에 머물 수 있도록 도와준 것에 대해 감사의 뜻을 표했습니다. [lodgersPronoun](은)는 이제 [lodgersPossessive] 동료들과 함께 나아갑니다.\n\n[asker_nameDef]가 해준 일들을 [lodgersPronoun]들은 영원히 기억할 것 입니다.</li>
+  </OARK_ProspectingTeam.questContentRules.rulesStrings>
+</LanguageData>

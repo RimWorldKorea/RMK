@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/NewRatkin.CustomThingDef[defName="OA_RK_New_Windbreaker_FangzhiBUGdehouzhui_ACC"]/verbs/*[.//*[contains(text(), 'Verb_LaunchProjectileStaticCE')]]/label</xpath>
+          <value>
+            <label>RPG 사용</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/NewRatkin.CustomThingDef[defName="OA_RK_New_Windbreaker_FangzhiBUGdehouzhui"]/verbs/*[.//*[contains(text(), 'Verb_LaunchProjectileStaticCE')]]/label</xpath>
+          <value>
+            <label>RPG 사용</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/NewRatkin.CustomThingDef[defName="OA_RK_New_Windbreaker_E"]/verbs/*[.//*[contains(text(), 'Verb_LaunchProjectileStaticCE')]]/label</xpath>
+          <value>
+            <label>RPG 사용</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
