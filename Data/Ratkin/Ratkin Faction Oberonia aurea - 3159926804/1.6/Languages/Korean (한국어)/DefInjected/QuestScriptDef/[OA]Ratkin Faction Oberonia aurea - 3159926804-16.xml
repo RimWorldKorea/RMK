@@ -15,11 +15,11 @@
     <li>hasHave(lodgerCount==2)-&gt;이미</li>
     <li>appalledButNoAction-&gt;{PAWNSALIVECOUNT_multiple ? 다른 사람들은 : 마지막 [lodgersLabel](은)는} 이 일로 충격을 받았지만, 별다른 행동을 하지는 않을 것입니다</li>
     <li>othersWillNotAccept-&gt;{PAWNSALIVECOUNT_multiple ? 다른 사람들은 : 마지막 [lodgersLabel](은)는} 이 일을 용납하지 않고</li>
-    <li>urnedViolent-&gt;[othersWillNotAccept], 격렬하게 반대하고 있습니다.</li>
+    <li>turnedViolent-&gt;[othersWillNotAccept], 격렬하게 반대하고 있습니다.</li>
     <li>decidedToLeave-&gt;[othersWillNotAccept], 떠나기로 했습니다.</li>
     <li>whoAskedToStay-&gt;당신과 함께 지내자고 했던</li>
     <li>oneOfThe-&gt;절박한 [whoAskedToStay]</li>
-    <li>QuestOver-&gt;임무 '[resolvedQuestName]'이 종료되었습니다.</li>
+    <li>questOver-&gt;임무 '[resolvedQuestName]'이 종료되었습니다.</li>
     <li>letterIntroDeath-&gt;{SUBJECT_definite}, [oneOfThe](이)가 사망했습니다.</li>
     <li>lodgerDiedMemoryThoughtLetterLabel-&gt;[lodgersLabel] 사망: 분노</li>
     <li>lodgerDiedMemoryThoughtLetterText-&gt;[letterIntroDeath]\n\n[appalledButNoAction]</li>
@@ -28,7 +28,7 @@
     <li>lodgerDiedLeaveMapLetterLabel-&gt;[lodgersLabel] 사망 : 떠남</li>
     <li>lodgerDiedLeaveMapLetterText-&gt;[letterIntroDeath]\n\n[decidedToLeave]</li>
     <li>lodgersAllDiedLetterLabel-&gt;임무 실패</li>
-    <li>lodgersAllDiedLetterText-&gt;{SUBJECT_definite}, [lastOrNot] 절망적이었던 [faction_pawnSingular], [whoAskedToStay] {SUBJECT_definite}(이)가 사망했습니다.\n\n[questOver]</li>
+    <li>lodgersAllDiedLetterText-&gt;{SUBJECT_definite}, [lastOrNot] 절박한 [faction_pawnSingular], [whoAskedToStay] {SUBJECT_definite}(이)가 사망했습니다.\n\n[questOver]</li>
     <li>letterIntroArrested-&gt;{SUBJECT_definite}, [oneOfThe](을)를 체포했습니다.</li>
     <li>lodgerArrestedMemoryThoughtLetterLabel-&gt;[lodgersLabel] 체포 : 분노</li>
     <li>lodgerArrestedMemoryThoughtLetterText-&gt;[letterIntroArrested]\n\n[appalledButNoAction]</li>
@@ -37,7 +37,7 @@
     <li>lodgerArrestedLeaveMapLetterLabel-&gt;[lodgersLabel] 체포 : 떠남</li>
     <li>lodgerArrestedLeaveMapLetterText-&gt;[letterIntroArrested]\n\n[decidedToLeave]</li>
     <li>lodgersAllArrestedLetterLabel-&gt;임무 실패</li>
-    <li>[lastOrNot] 절망적이었던 [faction_pawnSingular], [whoAskedToStay] {SUBJECT_definite}(을)를 체포했습니다.\n\n[questOver]</li>
+    <li>[lodgersAllArrestedLetterText-&gt;lastOrNot] 절박한 [faction_pawnSingular], [whoAskedToStay] {SUBJECT_definite}(을)를 체포했습니다.\n\n[questOver]</li>
     <li>letterIntroLeftBehind-&gt;{SUBJECT_definite}, [oneOfThe](이)가 버려졌습니다.</li>
     <li>lodgerLeftBehindMemoryThoughtLetterLabel-&gt;[lodgersLabel] 버려짐：분노</li>
     <li>lodgerLeftBehindMemoryThoughtLetterText-&gt;[letterIntroLeftBehind]\n\n[appalledButNoAction]</li>

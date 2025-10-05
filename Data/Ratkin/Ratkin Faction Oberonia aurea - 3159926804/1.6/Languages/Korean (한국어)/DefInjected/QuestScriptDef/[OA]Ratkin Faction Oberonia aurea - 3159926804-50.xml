@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <OA_ResearcherVisit.questDescriptionRules.rulesStrings>
+  <OARK_EconomyMinistryReview.questDescriptionRules.rulesStrings>
     <li>questDescription(uniqueQuestDesc!=True)-&gt;[approachInfo][claimInfo][asker_nameDef](이)가 [lodgersPronoun](이)가 재정비할 수 있도록 [map_definite]에 [questDurationTicks_duration] 동안 머물 수 있도록 허락해 달라고 요청합니다.\n\n그 대가로 [lodgersPronoun][offer](은)는 이 기간 동안 무료로 일하고 싸워줄 것입니다.\n\n[joinInfo] [futureRewardInfo]\n\n[playerBetrayInfo]</li>
     <li>offer(lodgerCount==1)-&gt;제안</li>
     <li>offer(lodgerCount&gt;=2)-&gt;제안</li>
@@ -23,9 +23,6 @@
     <li>futureRewardInfo(allowFutureReward==True)-&gt;[lodgersPronoun](이)가 나중에 [lodgersObjective]에 대한 당신의 도움에 보답할 수도 있습니다.</li>
     <li>playerBetrayInfo(isMainFaction!=True)-&gt;[travelerInfo]는 어떤 주요 세력에도 속하지 않습니다. 죽이거나 체포하거나 팔거나 장기를 적출할 수 있으며, 이는 어떤 외교적 결과도 초래하지 않을 것입니다.</li>
     <li>playerBetrayInfo(isMainFaction==True)-&gt;[travelerInfo](은)는 [asker_factionName]에 속합니다. 만약 당신이 [lodgersObjective](을)를 죽이거나 체포하거나 팔거나 장기를 적출한다면, 이는 심각한 외교적 결과를 초래할 것입니다.</li>
-    <li>questDescription-&gt;[asker_factionName]의 지질 탐사팀이 [map_definite]에 접근하고 있습니다. 그녀들은 이미 자신의 임무를 완수하고 돌아가는 길이지만, 그 무거운 심층 시추는 그녀들의 일정을 심각하게 지연시키는 것 같습니다.\n\n그녀들은 상당히 오랫동안 길을 재촉한 것 같기 때문에 근처에서 임시로 주둔하며 휴식을 취하고 있습니다.\n\n우리는 그들을 [map_definite]에 초대하여 접대할 수 있으며, 선의에 대한 보답으로 그녀들은 우리에게 탐사상의 도움을 제공할 것입니다.\n\n탐사팀의 구성원은 [asker_factionName]의 시민입니다. 만약 당신이 죽이거나 체포하거나 팔거나 장기를 적출한다면, 이는 심각한 외교적 결과를 초래할 것입니다.</li>
-    <li>approachInfo-&gt;[asker_nameDef] 및 기타 관심있는 연구원들이 접근하고 있습니다.</li>
-    <li>approachInfo(lodgerCount&gt;=3)-&gt;관심 있는 연구원 [lodgerCount]명이 접근하고있으며, 리더는 [asker_nameDef] 입니다.</li>
-    <li>claimInfo-&gt;연구자들은 당신이 연구 정상회의에서 보여준 뛰어난 성과에 매료되었다고 주장합니다.</li>
-  </OA_ResearcherVisit.questDescriptionRules.rulesStrings>
+    <li>questDescription-&gt;당신은 아우로니아 오베로니아 연구부 시종들로부터 집단적인 도움 요청 메시지를 받았습니다.\n\n이 메시지에서 당신은 연구부의 오랜 우대 조치로 인해 그녀들이 점차 물자 손실에 대한 개념을 잃어가고 있다는 것을 알게 되었습니다. 이 기간 동안 여러 차례의 꽃떡 손실, 중력감응판 손상 및 장기 장비 남용으로 인한 장비 노후화를 참다 못한 총괄 부서는 그녀들에게 운명적인 심사 통지를 제출했습니다.\n\n그러나 주관적이든 객관적이든, 연구관이든 일반 시종이든, 전체 연구 부서는 위에서 아래로 완전한 장부 기록을 작성하지 못합니다. 이러한 물자 손실은 분명히 이 심사를 통과할 수 없기 때문에, 연구부 구성원들은 그녀들이 이러한 혼란스러운 자료를 정리하는 데 도움을 주어 총괄부의 심사를 통과하기를 희망합니다.\n\n당신은 이번에 총괄부가 연구부를 결코 쉽게 지나치지 않을 것임을 예상할 수 있으며, 전체 연구부의 신뢰와 기대를 받는 것이 향방을 결정하는 핵심입니다.\n과연 연구부가 이 재난을 극복하도록 도울 것인가, 아니면 조정부가 이 교훈을 완성하도록 도울 것인가, 아니면 제3의 해결책을 찾을 것인가?\n\n답은 아직 명확하지 않습니다. 마치 연구부의 장부 같습니다.</li>
+  </OARK_EconomyMinistryReview.questDescriptionRules.rulesStrings>
 </LanguageData>

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <OA_ResearcherVisit.questContentRules.rulesStrings>
+  <OARK_EconomyMinistryReview.questContentRules.rulesStrings>
     <li>lastOrNot(lodgerCount==1)-&gt;</li>
     <li>lastOrNot(lodgerCount&gt;=2)-&gt;마지막</li>
     <li>lodgersPronoun(lodgerCount==1)-&gt;[asker_pronoun]</li>
-    <li>lodgersPronoun(lodgerCount&gt;=2)-&gt;그녀들</li>
+    <li>lodgersPronoun(lodgerCount&gt;=2)-&gt;그들</li>
     <li>lodgersPossessive(lodgerCount==1)-&gt;[asker_possessive]</li>
-    <li>lodgersPossessive(lodgerCount&gt;=2)-&gt;그녀들의</li>
+    <li>lodgersPossessive(lodgerCount&gt;=2)-&gt;그들의</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)-&gt;[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount&gt;=2)-&gt;[lodgersLabelPlural]</li>
     <li>lodgersArriveLetterLabel-&gt;[lodgersLabelSingularOrPlural] 도착</li>
@@ -65,6 +65,6 @@
     <li>lodgersLeavingLetterLabel-&gt;[lodgersLabelSingularOrPlural] 떠남</li>
     <li>lodgersLeavingLetterText(uniqueLeavingLetter!=True)-&gt;[asker_nameDef]에게 [lodgersLabelSingularOrPlural](이)가 [questDurationTicks_duration][동안 map_definite]에 머물 수 있도록 도와준 것에 대해 감사의 뜻을 표했습니다. [lodgersPronoun](은)는 이제 [lodgersPossessive] 동료들과 함께 나아갑니다.\n\n[asker_nameDef]가 해준 일들을 [lodgersPronoun]들은 영원히 기억할 것 입니다.</li>
     <li>lodgersLeavingLetterLabel-&gt;[lodgersLabelSingularOrPlural] 떠남</li>
-    <li>lodgersLeavingLetterText-&gt;[asker_nameDef]에게 [questDurationTicks_duration]동안 [map_definite]에 머물 수 있도록 도와준 것에 대해 감사의 뜻을 표했습니다.  [lodgersPronoun](은)는 다른 연구원들과 함께 떠나고 있습니다.\n\n[asker_nameDef](은)는 [lodgersObjective](을)를 영원히 기억할 것 입니다.</li>
-  </OA_ResearcherVisit.questContentRules.rulesStrings>
+    <li>lodgersLeavingLetterText-&gt;자료 정리 완료와 심사 작업 종료로 인해 [asker_nameDef](은)는 더 이상 머물 필요가 없기에, 이를 위해 그녀는 스스로 떠났습니다.\n그녀는 갑작스러운 방문에 대한 포용력과 이번 심사에서 당신이 기여한 모든 것에 대해 감사를 표했습니다.</li>
+  </OARK_EconomyMinistryReview.questContentRules.rulesStrings>
 </LanguageData>

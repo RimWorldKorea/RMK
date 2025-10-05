@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <OA_ResearcherVisit.questContentRules.rulesStrings>
+  <OA_WoundedTraveler.questContentRules.rulesStrings>
     <li>lastOrNot(lodgerCount==1)-&gt;</li>
     <li>lastOrNot(lodgerCount&gt;=2)-&gt;마지막</li>
     <li>lodgersPronoun(lodgerCount==1)-&gt;[asker_pronoun]</li>
@@ -65,6 +65,6 @@
     <li>lodgersLeavingLetterLabel-&gt;[lodgersLabelSingularOrPlural] 떠남</li>
     <li>lodgersLeavingLetterText(uniqueLeavingLetter!=True)-&gt;[asker_nameDef]에게 [lodgersLabelSingularOrPlural](이)가 [questDurationTicks_duration][동안 map_definite]에 머물 수 있도록 도와준 것에 대해 감사의 뜻을 표했습니다. [lodgersPronoun](은)는 이제 [lodgersPossessive] 동료들과 함께 나아갑니다.\n\n[asker_nameDef]가 해준 일들을 [lodgersPronoun]들은 영원히 기억할 것 입니다.</li>
     <li>lodgersLeavingLetterLabel-&gt;[lodgersLabelSingularOrPlural] 떠남</li>
-    <li>lodgersLeavingLetterText-&gt;[asker_nameDef]에게 [questDurationTicks_duration]동안 [map_definite]에 머물 수 있도록 도와준 것에 대해 감사의 뜻을 표했습니다.  [lodgersPronoun](은)는 다른 연구원들과 함께 떠나고 있습니다.\n\n[asker_nameDef](은)는 [lodgersObjective](을)를 영원히 기억할 것 입니다.</li>
-  </OA_ResearcherVisit.questContentRules.rulesStrings>
+    <li>lodgersLeavingEarlyLetterText-&gt;[asker_nameDef]에게 {FACTION_leaderObjective}(은)는 [questDurationTicks_duration] 동안 [map_definite]에 머물 수 있도록 도와준 것에 대해 감사의 뜻을 표했습니다. {FACTION_leaderPronoun}(은)는 {FACTION_leaderPossessive} 동료들과 함께 떠나고 있습니다.\n\n[asker_nameDef]와 {FACTION_leaderPronoun}(은)는 이 일을 영원히 기억할 것 입니다.</li>
+  </OA_WoundedTraveler.questContentRules.rulesStrings>
 </LanguageData>
