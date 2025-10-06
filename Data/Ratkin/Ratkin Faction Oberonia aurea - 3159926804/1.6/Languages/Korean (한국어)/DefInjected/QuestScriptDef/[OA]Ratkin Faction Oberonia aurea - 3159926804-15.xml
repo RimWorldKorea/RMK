@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <OARK_ProspectingTeam.questDescriptionRules.rulesStrings>
+    <li>questDescription(uniqueQuestDesc!=True)-&gt;[approachInfo][claimInfo][asker_nameDef]에서는[map_definite]에 [questDurationTicks_duration]을 두어 [lodgersPronoun]이 재정비할 수 있도록 요청합니다.\n\n이에 대한 보답으로 [lodgersPronoun][offer]이 기간 동안 당신을 위해 무료로 일하고 싸울것입니다.\n\n[joinInfo] [futureRewardInfo]\n\n[playerBetrayInfo]</li>
+    <li>offer(lodgerCount==1)-&gt;제안</li>
+    <li>offer(lodgerCount==2)-&gt;제안</li>
+    <li>lodgersPronoun(lodgerCount==1)-&gt;[asker_pronoun]</li>
+    <li>lodgersPronoun(lodgerCount==2)-&gt;그들</li>
+    <li>lodgersPreposition(lodgerCount==1)-&gt;[asker_objective]자신</li>
+    <li>lodgersPreposition(lodgerCount&gt;=2)-&gt;그들 자신</li>
+    <li>lodgersObjective(lodgerCount==1)-&gt;[asker_objective]</li>
+    <li>lodgersObjective(lodgerCount&gt;=2)-&gt;그녀들</li>
+    <li>lodgersPossessive(lodgerCount==1)-&gt;[asker_possessive]</li>
+    <li>lodgersPossessive(lodgerCount&gt;=2)-&gt;그녀들의</li>
+    <li>lodgersSingularOrPluralDef(lodgerCount==1)-&gt;[asker_nameDef]</li>
+    <li>lodgersSingularOrPluralDef(lodgerCount&gt;=2)-&gt;[lodgersLabelPlural]</li>
+    <li>travelerInfo(lodgerCount==1)-&gt;[faction_pawnSingular](은)는</li>
+    <li>travelerInfo(lodgerCount&gt;=2)-&gt;[faction_pawnsPlural](은)는</li>
+    <li>joinInfo(allowJoinOffer!=True)-&gt;</li>
+    <li>joinInfo(allowJoinOffer==True,lodgerCount==1)-&gt;당신이 [asker_objective]의 기분을 높게 유지한다면, [asker_pronoun](이)가 합류를 제안할 수도 있습니다.</li>
+    <li>joinInfo(allowJoinOffer==True,lodgerCount&gt;=2)-&gt;그 중 일부는 합류를 제안할 수도 있습니다.</li>
+    <li>futureRewardInfo(allowFutureReward!=True)-&gt;</li>
+    <li>futureRewardInfo(allowFutureReward==True)-&gt;[lodgersPronoun](이)가 나중에 [lodgersObjective]에 대한 당신의 도움에 보답할 수도 있습니다.</li>
+    <li>playerBetrayInfo(isMainFaction!=True)-&gt;[travelerInfo]는 어떤 주요 세력에도 속하지 않습니다. 죽이거나 체포하거나 팔거나 장기를 적출할 수 있으며, 이는 어떤 외교적 결과도 초래하지 않을 것입니다.</li>
+    <li>playerBetrayInfo(isMainFaction==True)-&gt;[travelerInfo](은)는 [asker_factionName]에 속합니다. 만약 당신이 [lodgersObjective](을)를 죽이거나 체포하거나 팔거나 장기를 적출한다면, 이는 심각한 외교적 결과를 초래할 것입니다.</li>
+    <li>questDescription-&gt;[asker_factionName]의 지질 탐사팀이 [map_definite]에 접근하고 있습니다. 그녀들은 이미 자신의 임무를 완수하고 돌아가는 길이지만, 그 무거운 심층 시추는 그녀들의 일정을 심각하게 지연시키는 것 같습니다.\n\n그녀들은 상당히 오랫동안 길을 재촉한 것 같기 때문에 근처에서 임시로 주둔하며 휴식을 취하고 있습니다.\n\n우리는 그들을 [map_definite]에 초대하여 접대할 수 있으며, 선의에 대한 보답으로 그녀들은 우리에게 탐사상의 도움을 제공할 것입니다.\n\n탐사팀의 구성원은 [asker_factionName]의 시민입니다. 만약 당신이 죽이거나 체포하거나 팔거나 장기를 적출한다면, 이는 심각한 외교적 결과를 초래할 것입니다.</li>
+  </OARK_ProspectingTeam.questDescriptionRules.rulesStrings>
+</LanguageData>
