@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <OARK_EconomyMinistryReview.questDescriptionRules.rulesStrings>
+    <li>questDescription(uniqueQuestDesc!=True)-&gt;[approachInfo][claimInfo][asker_nameDef](이)가 [lodgersPronoun](이)가 재정비할 수 있도록 [map_definite]에 [questDurationTicks_duration] 동안 머물 수 있도록 허락해 달라고 요청합니다.\n\n그 대가로 [lodgersPronoun][offer](은)는 이 기간 동안 무료로 일하고 싸워줄 것입니다.\n\n[joinInfo] [futureRewardInfo]\n\n[playerBetrayInfo]</li>
+    <li>offer(lodgerCount==1)-&gt;제안</li>
+    <li>offer(lodgerCount&gt;=2)-&gt;제안</li>
+    <li>lodgersPronoun(lodgerCount==1)-&gt;[asker_pronoun]</li>
+    <li>lodgersPronoun(lodgerCount&gt;=2)-&gt;그들</li>
+    <li>lodgersPreposition(lodgerCount==1)-&gt;[asker_objective]자신의</li>
+    <li>lodgersPreposition(lodgerCount&gt;=2)-&gt;자신들</li>
+    <li>lodgersObjective(lodgerCount==1)-&gt;[asker_objective]</li>
+    <li>lodgersObjective(lodgerCount&gt;=2)-&gt;그녀들</li>
+    <li>lodgersPossessive(lodgerCount==1)-&gt;[asker_possessive]</li>
+    <li>lodgersPossessive(lodgerCount&gt;=2)-&gt;그녀들의</li>
+    <li>lodgersSingularOrPluralDef(lodgerCount==1)-&gt;[asker_nameDef]</li>
+    <li>lodgersSingularOrPluralDef(lodgerCount&gt;=2)-&gt;[lodgersLabelPlural]</li>
+    <li>travelerInfo(lodgerCount==1)-&gt;[faction_pawnSingular](은)는</li>
+    <li>travelerInfo(lodgerCount&gt;=2)-&gt;[faction_pawnsPlural](은)는</li>
+    <li>joinInfo(allowJoinOffer!=True)-&gt;</li>
+    <li>joinInfo(allowJoinOffer==True,lodgerCount==1)-&gt;당신이 [asker_objective]의 기분을 높게 유지한다면, [asker_pronoun](이)가 합류를 제안할 수도 있습니다.</li>
+    <li>joinInfo(allowJoinOffer==True,lodgerCount&gt;=2)-&gt;그 중 일부는 합류를 제안할 수도 있습니다.</li>
+    <li>futureRewardInfo(allowFutureReward!=True)-&gt;</li>
+    <li>futureRewardInfo(allowFutureReward==True)-&gt;[lodgersPronoun](이)가 나중에 [lodgersObjective]에 대한 당신의 도움에 보답할 수도 있습니다.</li>
+    <li>playerBetrayInfo(isMainFaction!=True)-&gt;[travelerInfo]는 어떤 주요 세력에도 속하지 않습니다. 죽이거나 체포하거나 팔거나 장기를 적출할 수 있으며, 이는 어떤 외교적 결과도 초래하지 않을 것입니다.</li>
+    <li>playerBetrayInfo(isMainFaction==True)-&gt;[travelerInfo](은)는 [asker_factionName]에 속합니다. 만약 당신이 [lodgersObjective](을)를 죽이거나 체포하거나 팔거나 장기를 적출한다면, 이는 심각한 외교적 결과를 초래할 것입니다.</li>
+    <li>questDescription-&gt;당신은 아우로니아 오베로니아 연구부 시종들로부터 집단적인 도움 요청 메시지를 받았습니다.\n\n이 메시지에서 당신은 연구부의 오랜 우대 조치로 인해 그녀들이 점차 물자 손실에 대한 개념을 잃어가고 있다는 것을 알게 되었습니다. 이 기간 동안 여러 차례의 꽃떡 손실, 중력감응판 손상 및 장기 장비 남용으로 인한 장비 노후화를 참다 못한 총괄 부서는 그녀들에게 운명적인 심사 통지를 제출했습니다.\n\n그러나 주관적이든 객관적이든, 연구관이든 일반 시종이든, 전체 연구 부서는 위에서 아래로 완전한 장부 기록을 작성하지 못합니다. 이러한 물자 손실은 분명히 이 심사를 통과할 수 없기 때문에, 연구부 구성원들은 그녀들이 이러한 혼란스러운 자료를 정리하는 데 도움을 주어 총괄부의 심사를 통과하기를 희망합니다.\n\n당신은 이번에 총괄부가 연구부를 결코 쉽게 지나치지 않을 것임을 예상할 수 있으며, 전체 연구부의 신뢰와 기대를 받는 것이 향방을 결정하는 핵심입니다.\n과연 연구부가 이 재난을 극복하도록 도울 것인가, 아니면 총괄부가 이 교훈을 완성하도록 도울 것인가, 아니면 제3의 해결책을 찾을 것인가?\n\n답은 아직 명확하지 않습니다. 마치 연구부의 장부 같습니다.</li>
+  </OARK_EconomyMinistryReview.questDescriptionRules.rulesStrings>
+</LanguageData>

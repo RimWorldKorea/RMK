@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <OA_WoundedTraveler.questDescriptionRules.rulesStrings>
+    <li>questDescription(uniqueQuestDesc!=True)-&gt;[approachInfo][claimInfo][asker_nameDef](이)가 [lodgersPronoun](이)가 재정비할 수 있도록 [map_definite]에 [questDurationTicks_duration] 동안 머물 수 있도록 허락해 달라고 요청합니다.\n\n그 대가로 [lodgersPronoun][offer](은)는 이 기간 동안 무료로 일하고 싸워줄 것입니다.\n\n[joinInfo] [futureRewardInfo]\n\n[playerBetrayInfo]</li>
+    <li>offer(lodgerCount==1)-&gt;제안</li>
+    <li>offer(lodgerCount&gt;=2)-&gt;제안</li>
+    <li>lodgersPronoun(lodgerCount==1)-&gt;[asker_pronoun]</li>
+    <li>lodgersPronoun(lodgerCount&gt;=2)-&gt;그들</li>
+    <li>lodgersPreposition(lodgerCount==1)-&gt;[asker_objective]자신의</li>
+    <li>lodgersPreposition(lodgerCount&gt;=2)-&gt;자신들</li>
+    <li>lodgersObjective(lodgerCount==1)-&gt;[asker_objective]</li>
+    <li>lodgersObjective(lodgerCount&gt;=2)-&gt;그녀들</li>
+    <li>lodgersPossessive(lodgerCount==1)-&gt;[asker_possessive]</li>
+    <li>lodgersPossessive(lodgerCount&gt;=2)-&gt;그녀들의</li>
+    <li>lodgersSingularOrPluralDef(lodgerCount==1)-&gt;[asker_nameDef]</li>
+    <li>lodgersSingularOrPluralDef(lodgerCount&gt;=2)-&gt;[lodgersLabelPlural]</li>
+    <li>travelerInfo(lodgerCount==1)-&gt;[faction_pawnSingular](은)는</li>
+    <li>travelerInfo(lodgerCount&gt;=2)-&gt;[faction_pawnsPlural](은)는</li>
+    <li>joinInfo(allowJoinOffer!=True)-&gt;</li>
+    <li>joinInfo(allowJoinOffer==True,lodgerCount==1)-&gt;당신이 [asker_objective]의 기분을 높게 유지한다면, [asker_pronoun](이)가 합류를 제안할 수도 있습니다.</li>
+    <li>joinInfo(allowJoinOffer==True,lodgerCount&gt;=2)-&gt;그 중 일부는 합류를 제안할 수도 있습니다.</li>
+    <li>futureRewardInfo(allowFutureReward!=True)-&gt;</li>
+    <li>futureRewardInfo(allowFutureReward==True)-&gt;[lodgersPronoun](이)가 나중에 [lodgersObjective]에 대한 당신의 도움에 보답할 수도 있습니다.</li>
+    <li>playerBetrayInfo(isMainFaction!=True)-&gt;[travelerInfo]는 어떤 주요 세력에도 속하지 않습니다. 죽이거나 체포하거나 팔거나 장기를 적출할 수 있으며, 이는 어떤 외교적 결과도 초래하지 않을 것입니다.</li>
+    <li>playerBetrayInfo(isMainFaction==True)-&gt;[travelerInfo](은)는 [asker_factionName]에 속합니다. 만약 당신이 [lodgersObjective](을)를 죽이거나 체포하거나 팔거나 장기를 적출한다면, 이는 심각한 외교적 결과를 초래할 것입니다.</li>
+    <li>approachInfo-&gt;[asker_nameDef]와 다른 부상당한 [faction_pawnSingular](이)가 다가오고 있습니다.</li>
+    <li>approachInfo(lodgerCount&gt;=3)-&gt;[lodgerCount]명의 부상으로 지친 [faction_pawnsPlural](이)가 접근하고 있습니다, 이들의 리더는 [asker_nameDef]입니다.</li>
+    <li>claimInfo-&gt;그녀들은 갑작스러운 지진을 만났고, 비록 힘들게 이 재난을 벗어나는데 성공했지만, 여전히 한 동료가 피난 과정에서 심각한 낙상을 입었기 때문에 당신의 식민지에서 요양하기를 요청했습니다. 모든 사람의 부상이 모두 회복되면 그녀들은 떠날 것입니다.</li>
+  </OA_WoundedTraveler.questDescriptionRules.rulesStrings>
+</LanguageData>
