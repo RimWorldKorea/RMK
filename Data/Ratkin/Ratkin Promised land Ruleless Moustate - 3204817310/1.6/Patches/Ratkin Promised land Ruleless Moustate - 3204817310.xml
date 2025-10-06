@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ratkin Weapons+</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RK_Daikyuu"]/comps/li[5]/label</xpath>
+          <value>
+            <label>RK.BayonetLabel</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RK_Daikyuu"]/comps/li[5]/description</xpath>
+          <value>
+            <description>RK.BayonetDescription</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RK_LianzhuRifle"]/comps/li[7]/label</xpath>
+          <value>
+            <label>RK.BayonetLabel</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RK_LianzhuRifle"]/comps/li[7]/description</xpath>
+          <value>
+            <description>RK.BayonetDescription</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RK_ZhuQiang"]/comps/li[7]/label</xpath>
+          <value>
+            <label>RK.BayonetLanceLabel</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RK_ZhuQiang"]/comps/li[7]/description</xpath>
+          <value>
+            <description>RK.BayonetLanceDescription</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RK_Shuo"]/comps/li[8]/label</xpath>
+          <value>
+            <label>RK.BayonetLanceLabel</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RK_Shuo"]/comps/li[8]/description</xpath>
+          <value>
+            <description>RK.BayonetLanceDescription</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RK_Qiang"]/comps/li[8]/label</xpath>
+          <value>
+            <label>RK.BayonetLanceLabel</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RK_Qiang"]/comps/li[8]/description</xpath>
+          <value>
+            <description>RK.BayonetLanceDescription</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
