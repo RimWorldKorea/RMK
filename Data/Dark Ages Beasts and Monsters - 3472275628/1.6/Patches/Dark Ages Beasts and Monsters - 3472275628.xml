@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Medieval Overhaul</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DA_IroncasketBeetle"]/description</xpath>
+          <value>
+            <description>철처럼 단단한 외골격을 지닌 대형 딱정벌레입니다. 겁이 많고 은둔적인 성향을 지녀 번식을 위해 광석이 풍부한 지층 속으로 파고들며, 그곳에서 유충들은 외부의 위협으로부터 안전하게 보호받으며 주변으로부터 외골격 형성에 필요한 금속 성분을 흡수합니다.\n\n이들의 외골격에서는 손쉽게 철을 얻을 수 있기 때문에, 숙련된 채광장 감독관들은 사냥꾼을 고용하여 이들의 서식지를 추적합니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
