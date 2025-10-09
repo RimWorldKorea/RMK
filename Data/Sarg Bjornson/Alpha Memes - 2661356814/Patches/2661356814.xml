@@ -130,7 +130,7 @@
             <success>Always</success>
             <xpath>/Defs/PreceptDef[defName="AM_HuntFocus_Strigoi"]/description</xpath>
             <value>
-              <description>우리의 목적은 분명하다: 생귀오파지들이 어디에 숨어있던지 우린 찾아낼 것이다.\n\n스트리고이가 목표가 됩니다.\n\n&lt;color=#E5E54C&gt;게임 플레이 효과:&lt;/color&gt;\n - 스트리고이에게 가하는 모든 공격이 추가로 화염 피해 10을 더 입힙니다.</description>
+              <description>우리의 목적은 분명하다. 생귀오파지들이 어디에 숨어있던지 우린 찾아낼 것이다.\n\n스트리고이가 목표가 됩니다.\n\n&lt;color=#E5E54C&gt;게임 플레이 효과:&lt;/color&gt;\n - 스트리고이에게 가하는 모든 공격이 추가로 화염 피해 10을 더 입힙니다.</description>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -144,7 +144,7 @@
             <success>Always</success>
             <xpath>/Defs/PreceptDef[defName="AM_HuntFocus_Ekkimian"]/description</xpath>
             <value>
-              <description>우리의 목적은 분명하다: 생귀오파지들이 어디에 숨어있던지 우린 찾아낼 것이다.\n\n에키미안이 목표가 됩니다.\n\n&lt;color=#E5E54C&gt;게임 플레이 효과:&lt;/color&gt;\n - 에키미안에게 가하는 모든 공격이 추가로 화염 피해 10을 더 입힙니다.</description>
+              <description>우리의 목적은 분명하다. 생귀오파지들이 어디에 숨어있던지 우린 찾아낼 것이다.\n\n에키미안이 목표가 됩니다.\n\n&lt;color=#E5E54C&gt;게임 플레이 효과:&lt;/color&gt;\n - 에키미안에게 가하는 모든 공격이 추가로 화염 피해 10을 더 입힙니다.</description>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -158,7 +158,7 @@
             <success>Always</success>
             <xpath>/Defs/PreceptDef[defName="AM_HuntFocus_Bruxa"]/description</xpath>
             <value>
-              <description>우리의 목적은 분명하다: 생귀오파지들이 어디에 숨어있던지 우린 찾아낼 것이다.\n\n브룩사가 목표가 됩니다.\n\n&lt;color=#E5E54C&gt;게임 플레이 효과:&lt;/color&gt;\n - 브룩사에게 가하는 모든 공격이 추가로 화염 피해 10을 더 입힙니다.</description>
+              <description>우리의 목적은 분명하다. 생귀오파지들이 어디에 숨어있던지 우린 찾아낼 것이다.\n\n브룩사가 목표가 됩니다.\n\n&lt;color=#E5E54C&gt;게임 플레이 효과:&lt;/color&gt;\n - 브룩사에게 가하는 모든 공격이 추가로 화염 피해 10을 더 입힙니다.</description>
             </value>
           </li>
           <li Class="PatchOperationReplace">
@@ -212,12 +212,26 @@
               <success>Always</success>
               <xpath>/Defs/PreceptDef[defName="AM_HuntFocus_Malachai"]/description</xpath>
               <value>
-                <description>우리의 목적은 분명하다: 생귀오파지들이 어디에 숨어있던지 우린 찾아낼 것이다.\n\n말라치이가 목표가 됩니다.\n\n&lt;color=#E5E54C&gt;게임 플레이 효과:&lt;/color&gt;\n - 말라차이에게 가하는 모든 공격이 추가로 화염 피해 10을 더 입힙니다.</description>
+                <description>우리의 목적은 분명하다. 생귀오파지들이 어디에 숨어있던지 우린 찾아낼 것이다.\n\n말라치이가 목표가 됩니다.\n\n&lt;color=#E5E54C&gt;게임 플레이 효과:&lt;/color&gt;\n - 말라차이에게 가하는 모든 공격이 추가로 화염 피해 10을 더 입힙니다.</description>
               </value>
             </li>
           </operations>
         </match>
       </match>
     </match>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThoughtDef[defName="Catharsis"]/stages/li[2]/label</xpath>
+    <value>
+      <label>미친 카타르시스</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThoughtDef[defName="Catharsis"]/stages/li[2]/description</xpath>
+    <value>
+      <description>몸부림치는 원숭이는 진실을 원했다! 천 걸음 넓이의 강은 자몽을 위해 죽을 것이다!</description>
+    </value>
   </Operation>
 </Patch>

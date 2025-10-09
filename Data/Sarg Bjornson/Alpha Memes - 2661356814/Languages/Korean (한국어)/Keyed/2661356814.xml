@@ -11,7 +11,7 @@
   <AM_AbilityNeedsAValidAnimal>이 능력은 살아있고, 나무지기가 아닌 동물을 대상으로 해야합니다.</AM_AbilityNeedsAValidAnimal>
   <AM_AbilityNeedsABlueprint>이 능력은 건설 중인 청사진을 대상으로 해야 합니다.</AM_AbilityNeedsABlueprint>
   <AM_AbilityNeedsResourcesDelivered>모든 자원이 청사진에 전달되어야 합니다.</AM_AbilityNeedsResourcesDelivered>
-  <AM_NoDataBaseFound>이 능력을 사용하려면 먼저 생물 데이터베이스를 건설해야 합니다.</AM_NoDataBaseFound>
+  <AM_NoDataBaseFound>이 능력을 사용하려면 먼저 생물전서를 건설해야 합니다.</AM_NoDataBaseFound>
   <AM_NotAnalyzed>분석하지 않음</AM_NotAnalyzed>
   <AM_Analyzed>유전자 분석됨</AM_Analyzed>
   <AM_OnlyTaggedAnimals>지정된 생물만</AM_OnlyTaggedAnimals>
@@ -19,10 +19,10 @@
   <AM_AnalyzedAnimalBonuses>이 생물은 분석이 완료되었으므로 이제부터 최소 요구 조련 기술 -2, 오물 발생률 -25%, 상단 탑승 속도 +25%를 갖습니다.</AM_AnalyzedAnimalBonuses>
   <AM_ShowAnimalAnalysis>유전자 분석 표시</AM_ShowAnimalAnalysis>
   <AM_ShowAnimalAnalysisDesc>분석이 가능한 생물이 표시됩니다.</AM_ShowAnimalAnalysisDesc>
-  <AM_OnlyOneDatabase>하나의 데이터베이스만 건설 할 수 있습니다.</AM_OnlyOneDatabase>
-  <AM_AnimalAlreadyScanned>이 생물은 이미 분석되어 데이터베이스에 저장돼있습니다.</AM_AnimalAlreadyScanned>
-  <AM_AnimalScanned>{0}(이)가 분석되어 데이터베이스에 저장되었습니다.</AM_AnimalScanned>
-  <AM_CompletionDescription>데이터베이스 완성율: {0}</AM_CompletionDescription>
+  <AM_OnlyOneDatabase>하나의 생물전서만 건설 할 수 있습니다.</AM_OnlyOneDatabase>
+  <AM_AnimalAlreadyScanned>이미 분석한 생물입니다.</AM_AnimalAlreadyScanned>
+  <AM_AnimalScanned>{0}(이)가 분석되어 생물전서에 저장되었습니다.</AM_AnimalScanned>
+  <AM_CompletionDescription>생물전서 완성율: {0}</AM_CompletionDescription>
   <AM_InstallInReliquary>유물 파괴 제단에 설치</AM_InstallInReliquary>
   <AM_NoEmptyReliquary>접근 가능한 빈 유물 파괴 제단이 없음</AM_NoEmptyReliquary>
   <AM_NeedsFullAltar>의식을 시작하기 전에 유물 파괴 제단에 유물이 설치되어 있어야 합니다.</AM_NeedsFullAltar>
@@ -72,9 +72,9 @@
   <Funeral_DreadnoughtToYoung>{PAWN}(이)가 적정 나이에 도달하지 않았습니다. 그들을 위한 {RITUAL}(을)를 열 수 없습니다!</Funeral_DreadnoughtToYoung>
   <Funeral_ResearchNotCompleted>이 작업을 완료하기 위한 지식({0})이 없습니다.</Funeral_ResearchNotCompleted>
   <Funeral_OpportunitiesFor>{PAWN}의 장례식</Funeral_OpportunitiesFor>
-  <Funeral_OptionsCount>{0}개의 가능한 장례식 방법</Funeral_OptionsCount>
-  <Funeral_ThingNotEmpty>{0}가 비어있지 않습니다.</Funeral_ThingNotEmpty>
-  <Funeral_CorpseContainerFull>{0}가 가득 찼습니다.</Funeral_CorpseContainerFull>
+  <Funeral_OptionsCount>{0}가지 장례식 가능</Funeral_OptionsCount>
+  <Funeral_ThingNotEmpty>{0}(이)가 비어있지 않습니다.</Funeral_ThingNotEmpty>
+  <Funeral_CorpseContainerFull>{0}(이)가 가득 찼습니다.</Funeral_CorpseContainerFull>
   <Funeral_Gauralen>요정나무</Funeral_Gauralen>
   <AM_CorpseContainerOpen>이 행동은 되돌릴 수 없습니다! 시체를 꺼내면 다시 넣을 수 없습니다.</AM_CorpseContainerOpen>
   <AM_CorpseContainerFailedToEject>시체를 제거할 수 없습니다; 가능하면 물건을 움직여보세요.</AM_CorpseContainerFailedToEject>
@@ -85,7 +85,7 @@
   <AM_UnnaturalThingsAffecting>건물으로부터 최대 {0} 거리의 품질에 영향을 미침</AM_UnnaturalThingsAffecting>
   <AM_CorpseContainerMultiDiedOn>{NAME}. {DATE}에 사망.</AM_CorpseContainerMultiDiedOn>
   <Funeral_SkyburialAnimalsWanderIn>성공적인 조장으로 새로운 동물들을 이 지역으로 유입시켰습니다.</Funeral_SkyburialAnimalsWanderIn>
-  <AM_TantrumDestoryed>총 {1} 어치의 건물들을 부셨습니다.\n\n 파괴한 건물들: {0}</AM_TantrumDestoryed>
+  <AM_TantrumDestoryed>총 {1} 가치의 건물들을 부쉈습니다.\n\n파괴한 건물들: {0}</AM_TantrumDestoryed>
   <AM_TantrumOutcomeComp>파괴된 재산</AM_TantrumOutcomeComp>
   <AM_TantrumMustBePlayerHome>자신의 주 정착지에서 시작해야 합니다.</AM_TantrumMustBePlayerHome>
   <AM_ScrapperHighTechThing>운반할 수 있는 가치있는 첨단 기술</AM_ScrapperHighTechThing>
@@ -106,19 +106,19 @@
   <AM_No>없음</AM_No>
   <AM_NoRanged>동물에게 원거리 공격이 없습니다. 이 동물이 공격하도록 하려면 방어 및 공격 훈련을 한 다음 소집하거나, 작업할 때 주인을 따라다니도록 지정해야 합니다. 주인의 명령 표시줄에 있는 "해제" 버튼을 누르면 동물이 근접 공격을 합니다.</AM_NoRanged>
   <AM_Pet>애완동물</AM_Pet>
-  <AM_PetDesc>이 동물은 애완동물입니다. 귀엽지 않나요?</AM_PetDesc>
+  <AM_PetDesc>이 동물은 애완동물입니다.</AM_PetDesc>
   <VME_Reset>초기화</VME_Reset>
   <VME_Meme>가르침 상한</VME_Meme>
   <VME_Ritual>의식 상한</VME_Ritual>
-  <VME_Styles>스타일 상한</VME_Styles>
+  <VME_Styles>양식 상한</VME_Styles>
   <VME_Relics>유물 상한</VME_Relics>
   <VME_Buildings>이념 건물 상한</VME_Buildings>
   <VME_MemeAmount>가르침 상한 (기본값: 4)</VME_MemeAmount>
   <VME_MemeAmountTooltip>선택 가능한 가르침의 수의 상한값입니다. 플레이어의 이념에만 적용됩니다.</VME_MemeAmountTooltip>
   <VME_RitualAmount>가르침에서 강제하지 않는 의식의 상한 (기본값: 6)</VME_RitualAmount>
-  <VME_RitualAmountTooltip>가르침으로 강제하지 않는 의식의 상한값입니다. 일부 예외가 있을 수 있지만 가르침에서 강제하는 의식은 이 제한에 포함되지 않습니다. (게임 재시작이 필요합니다.)</VME_RitualAmountTooltip>
-  <VME_StylesAmount>이념 스타일 상한 (기본값: 3)</VME_StylesAmount>
-  <VME_StylesAmountTooltip>이념으로 추가되는 스타일의 상한값입니다. (게임 재시작이 필요합니다.)</VME_StylesAmountTooltip>
+  <VME_RitualAmountTooltip>가르침으로 강제하지 않는 의식의 상한값입니다. 일부 예외가 있을 수 있지만 가르침에서 강제하는 의식은 이 제한에 포함되지 않습니다.</VME_RitualAmountTooltip>
+  <VME_StylesAmount>이념 양식 상한 (기본값: 3)</VME_StylesAmount>
+  <VME_StylesAmountTooltip>이념으로 추가되는 양식의 상한값입니다.</VME_StylesAmountTooltip>
   <VME_RelicsAmount>이념 유물 상한 (기본값: 3)</VME_RelicsAmount>
   <VME_RelicsAmountTooltip>이념으로 추가되는 유물의 상한값입니다.</VME_RelicsAmountTooltip>
   <VME_BuildingsAmount>이념 건물 상한 (기본값: 2)</VME_BuildingsAmount>
