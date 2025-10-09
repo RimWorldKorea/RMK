@@ -113,7 +113,7 @@
           <success>Always</success>
           <xpath>/Defs/ThingDef[defName="MarriageSpot"]/label</xpath>
           <value>
-            <label>2x1 결혼식 장소</label>
+            <label>결혼식 장소 (2x1)</label>
           </value>
         </li>
       </operations>
@@ -164,7 +164,7 @@
           <success>Always</success>
           <xpath>/Defs/ThingDef[defName="PatientLandingSpot"]/label</xpath>
           <value>
-            <label>환자 손님 착륙 지점</label>
+            <label>환자 도착 지점</label>
           </value>
         </li>
       </operations>
@@ -199,6 +199,23 @@
           <xpath>/Defs/DesignationCategoryDef[defName="MultiFloors"]/label</xpath>
           <value>
             <label>고도</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>UNAGI Decorative Furniture</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/DesignationCategoryDef[defName="UNAGI_Furniture"]/label</xpath>
+          <value>
+            <label>기타 장식</label>
           </value>
         </li>
       </operations>
