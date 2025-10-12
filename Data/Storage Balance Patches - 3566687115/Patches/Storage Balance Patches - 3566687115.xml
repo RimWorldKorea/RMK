@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Reel's Expanded Storage</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="ReelStorageAnimalFeeder"]/description</xpath>
+          <value>
+            <description>동물들에게 먹이를 제공하기 위해 설계된 전문 저장 용기입니다. 내부에 저장된 아이템은 시간이 지나도 손상되지 않으며 주변의 미관에 영향을 미치지 않습니다. \n\n&lt;color=#E5E54C&gt;저장소 정보:&lt;/color&gt;\n총 스택 크기: 12\n타일당 스택: 6\n\n허용된 아이템: 건초, 사료</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="ReelStorageNewBarrel"]/description</xpath>
+          <value>
+            <description>일반적인 식량, 식물성 재료, 약품, 직물, 제작된 자원 등을 보관하도록 설계된 소형 통입니다. 부패를 방지하지만, 상하기 쉬운 품목은 여전히 냉동이 필요할 수 있습니다.\n\n&lt;color=#E5E54C&gt;저장소 정보:&lt;/color&gt; \n총 스택 크기: 5\n타일당 스택: 5\n\n허용된 아이템: 생식물, 약초, 동물성 제품, 초콜릿, 식물성 제품, 생선, 맥아즙, 혈액, 조미료</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="ReelNewIndustrialShelf"]/description</xpath>
+          <value>
+            <description>식사와 생식품을 포함한 다양한 품목을 보관하도록 설계된 선반입니다. 내부에 보관된 품목은 시간이 지나도 부패하지 않지만, 부패를 방지하려면 특정 품목은 여전히 냉동해야 합니다.\n\n&lt;color=#E5E54C&gt;저장소 정보:&lt;/color&gt; \n총 스택 크기: 12\n타일당 스택: 6\n\n허용된 아이템: 식사, 생식, 시체와 덩어리를 제외한 모든 것</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="ReelStorageNewMedicineCabinet"]/description</xpath>
+          <value>
+            <description>의약품, 신체 부위, 약물 및 식물성 물질을 보관하도록 설계된 소형 선반입니다. 전원이 공급되는 한, 내부에 저장된 아이템은 시간이 지나도 손상되지 않으며 주변의 미관에 영향을 미치지 않습니다.\n\n&lt;color=#E5E54C&gt;저장소 정보:&lt;/color&gt; \n총 스택 크기: 36\n타일당 스택: 18\n\n허용된 아이템: 약품, 식물성 물질, 약물, 뉴트로아민, 신체 부위, 의료 장비\n\n&lt;color=#0094FF&gt;전원이 공급되면 보관된 품목을 냉동할 수 있습니다.&lt;/color&gt;</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="ReelStorageMetalCrate"]/description</xpath>
+          <value>
+            <description>대량의 물품과 귀중품을 저장하기 위해 설계된 튼튼한 금속 상자입니다. 내부에 저장된 아이템은 시간이 지나도 손상되지 않으며 주변의 미관에 영향을 미치지 않습니다.\n\n&lt;color=#E5E54C&gt;저장소 정보:&lt;/color&gt;\n총 스택 크기: 6\n타일당 스택: 6\n\n허용된 아이템: 음식, 시체, 조각을 제외한 모든 것</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="ReelStorageLargeMetalCrate"]/description</xpath>
+          <value>
+            <description>대량의 물품과 귀중품을 저장하기 위해 설계된 다섯 개의 튼튼한 금속 상자입니다. 내부에 저장된 아이템은 시간이 지나도 손상되지 않으며 주변의 미관에 영향을 미치지 않습니다.\n\n&lt;color=#E5E54C&gt;저장소 정보:&lt;/color&gt;\n총 스택 크기: 24\n타일당 스택: 6\n\n허용된 아이템: 음식, 시체, 조각을 제외한 모든 것</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="ReelStorageNewWoodCrate"]/description</xpath>
+          <value>
+            <description>대량의 물품과 귀중품을 보관하도록 설계된 튼튼한 나무 상자입니다. 내부에 저장된 아이템은 시간이 지나도 손상되지 않으며 주변의 미관에 영향을 미치지 않습니다.\n\n&lt;color=#E5E54C&gt;저장소 정보:&lt;/color&gt; \n총 스택 크기: 4\n타일당 스택: 4\n\n허용된 아이템: 음식, 시체, 조각을 제외한 모든 것</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="ReelStorageNewLargeWoodCrate"]/description</xpath>
+          <value>
+            <description>대량의 물품과 귀중품을 보관하도록 설계된 나무 상자 모음입니다. 내부에 저장된 아이템은 시간이 지나도 손상되지 않으며 주변의 미관에 영향을 미치지 않습니다.\n\n&lt;color=#E5E54C&gt;저장소 정보:&lt;/color&gt; \n총 스택 크기: 16\n타일당 스택: 4\n\n허용된 아이템: 음식, 시체, 조각을 제외한 모든 것</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="ReelStorageBarrelPallet"]/description</xpath>
+          <value>
+            <description>발전기, 차량 및 기타 기계에 사용되는 화학연료를 보관하기 위해 설계된 대형 저장 구조물입니다. 내부에 저장된 아이템은 시간이 지나도 손상되지 않으며 주변의 미관에 영향을 미치지 않습니다.\n\n&lt;color=#E5E54C&gt;저장소 정보:&lt;/color&gt;\n총 스택 크기: 36\n타일당 스택: 9\n\n허용된 아이템: 화학연료</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="ReelStorageCargoContainer"]/description</xpath>
+          <value>
+            <description>장기 보관을 위해 다양한 아이템을 보관하기 위해 설계된 대형 저장 컨테이너입니다. 내부에 저장된 아이템은 시간이 지나도 손상되지 않으며 주변의 미관에 영향을 미치지 않습니다.\n\n&lt;color=#E5E54C&gt;저장소 정보:&lt;/color&gt;\n총 스택 크기: 56\n타일당 스택: 7\n\n허용된 아이템: 음식, 시체, 조각을 제외한 모든 것</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="ReelStorageStonePile"]/description</xpath>
+          <value>
+            <description>건설 및 제작에 사용되는 석재를 보관하기 위해 특별히 설계된 작은 더미입니다. 내부에 저장된 아이템은 주변의 미관에 영향을 미치지 않습니다.\n\n&lt;color=#E5E54C&gt;저장소 정보:&lt;/color&gt;\n총 스택 크기: 6\n타일당 스택: 6\n\n허용된 아이템: 석재</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="ReelStorageLargeStonePile"]/description</xpath>
+          <value>
+            <description>건설 및 제작에 사용되는 석재를 보관하기 위해 특별히 설계된 더 큰 더미입니다. 내부에 저장된 아이템은 주변의 미관에 영향을 미치지 않습니다.\n\n&lt;color=#E5E54C&gt;저장소 정보:&lt;/color&gt;\n총 스택 크기: 24\n타일당 스택: 6\n\n허용된 아이템: 석재</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="ReelStorageSpacerContainer"]/description</xpath>
+          <value>
+            <description>선박 및 식민지에서 대량의 물품과 귀중품을 저장하기 위해 설계된 고급 컨테이너입니다. 내부에 저장된 아이템은 시간이 지나도 손상되지 않으며 주변의 미관에 영향을 미치지 않습니다.\n\n&lt;color=#E5E54C&gt;저장소 정보:&lt;/color&gt;\n총 스택 크기: 10\n타일당 스택: 10\n\n허용된 아이템: 음식, 시체, 조각을 제외한 모든 것</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="ReelStorageLargeSpacerContainer"]/description</xpath>
+          <value>
+            <description>선박 및 식민지에서 대량의 물품과 귀중품을 저장하기 위해 설계된 더 큰 고급 컨테이너입니다. 내부에 저장된 아이템은 시간이 지나도 손상되지 않으며 주변의 미관에 영향을 미치지 않습니다.\n\n&lt;color=#E5E54C&gt;저장소 정보:&lt;/color&gt;\n총 스택 크기: 20\n타일당 스택: 10\n\n허용된 아이템: 음식, 시체, 조각을 제외한 모든 것</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="ReelStorageSpacerContainerStack"]/description</xpath>
+          <value>
+            <description>선박 및 식민지에서 대량의 물품과 귀중품을 저장하기 위해 설계된 세 개의 고급 컨테이너 스택입니다. 내부에 저장된 아이템은 시간이 지나도 손상되지 않으며 주변의 미관에 영향을 미치지 않습니다.\n\n&lt;color=#E5E54C&gt;저장소 정보:&lt;/color&gt;\n총 스택 크기: 60\n타일당 스택: 15\n\n허용된 아이템: 음식, 시체, 조각을 제외한 모든 것</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="ReelStorageSpacerLocker"]/description</xpath>
+          <value>
+            <description>정착민의 장비와 옷을 안전하게 보관하고 편안하게 갈아입을 수 있도록 설계된 고급 사물함입니다. 내부에 저장된 아이템은 시간이 지나도 손상되지 않으며 주변의 미관에 영향을 미치지 않습니다.\n\n&lt;color=#E5E54C&gt;저장소 정보:&lt;/color&gt;\n총 스택 크기: 45\n타일당 스택: 15\n\n허용된 아이템: 무기, 의류</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="ReelStorageWineRack"]/description</xpath>
+          <value>
+            <description>와인 및 기타 알코올 음료를 즐기거나 거래하기 위해 설계된 세련된 보관장입니다. 내부에 저장된 아이템은 시간이 지나도 악화되지 않습니다.\n\n&lt;color=#E5E54C&gt;저장소 정보:&lt;/color&gt;\n총 스택 크기: 6\n타일당 스택: 6\n\n허용된 아이템: 맥주, 와인, 단순 주류, 고급 주류</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="ReelStorageWoodPile"]/description</xpath>
+          <value>
+            <description>건설, 제작 및 연료용으로 사용되는 통나무를 보관하기 위해 특별히 설계된 작은 더미입니다. 내부에 저장된 아이템은 시간이 지나도 손상되지 않으며 주변의 미관에 영향을 미치지 않습니다.\n\n&lt;color=#E5E54C&gt;저장소 정보:&lt;/color&gt;\n총 스택 크기: 3\n타일당 스택: 3\n\n허용된 아이템: 나무</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="ReelStorageLargeWoodPile"]/description</xpath>
+          <value>
+            <description>건설, 제작 및 연료용으로 사용되는 통나무를 보관하기 위해 특별히 설계된 더 큰 더미입니다. 내부에 저장된 아이템은 시간이 지나도 손상되지 않으며 주변의 미관에 영향을 미치지 않습니다.\n\n&lt;color=#E5E54C&gt;저장소 정보:&lt;/color&gt;\n총 스택 크기: 12\n타일당 스택: 4\n\n허용된 아이템: 나무</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[sbz] Neat Storage</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="sbz_Crate"]/description</xpath>
+          <value>
+            <description>다양한 종류의 물건을 최대 16개까지 넣어둘 수 있는 커다란 상자입니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="sbz_MidCrate"]/description</xpath>
+          <value>
+            <description>다양한 종류의 물건을 최대 8개까지 넣어둘 수 있는 상자입니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="sbz_SmallCrate"]/description</xpath>
+          <value>
+            <description>다양한 종류의 물건을 최대 4개까지 넣어둘 수 있는 작은 상자입니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="sbz_Pallet"]/description</xpath>
+          <value>
+            <description>다양한 종류의 물건을 최대 20개까지 쌓아둘 수 있는 파렛트입니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="sbz_MiniPallet"]/description</xpath>
+          <value>
+            <description>다양한 종류의 물건을 최대 5개까지 쌓아둘 수 있는 작은 파렛트입니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="sbz_OpenShelf"]/label</xpath>
+          <value>
+            <label>이중 선반</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="sbz_TwoTierDisplayShelf"]/label</xpath>
+          <value>
+            <label>이중 진열대</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="sbz_TallDisplayShelf"]/label</xpath>
+          <value>
+            <label>이중 수직 진열대</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="sbz_NarrowTallDisplayShelf"]/label</xpath>
+          <value>
+            <label>수직 진열대</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[sbz] Fridge</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="sbz_Fridge"]/description</xpath>
+          <value>
+            <description>최대 4개의 물품을 냉동시킬 수 있는 냉장고입니다. 100도 이상의 고온에서는 작동하지 않습니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
