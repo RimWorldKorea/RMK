@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MI_Message_BrainDamageTreatment_HediffRemoved>{PAWN_laberShort}의 {HEDIFF}에 대한 치료는 완료되었습니다. 해당 환자는 완전히 회복했습니다.</MI_Message_BrainDamageTreatment_HediffRemoved>
+  <MI_Message_BrainDamageTreatment_HediffSeverityDecreased>{PAWN_laberShort}의 {HEDIFF}에 대한 치료는 완료되었습니다. 해당 환자의 상태가 {PERCENT}% 나아졌습니다.</MI_Message_BrainDamageTreatment_HediffSeverityDecreased>
+  <MI_Migration_Signal_Generic_Continue>확인</MI_Migration_Signal_Generic_Continue>
+  <MI_Migration_Update_v1_Title>MoreInjuries v1.5.2 마이그레이션</MI_Migration_Update_v1_Title>
+  <MI_Migration_Update_v1_Text_Personalized>갑자기 {PAWN_labelShort}(은)는 어지럼증과 혼란을 느낍니다. 중요한 것을 잊어버린 듯하지만 정확히 무엇인지 떠올릴 수 없습니다. 다른 식민지 주민들과 상의한 끝에, 모두가 특히 의료 분야에 관한 심각한 기억 상실을 겪고 있음을 깨닫습니다. 식민지 주민들은 기본적인 의료 절차 수행법을 잊어버린 상태이며, 잃어버린 의료 지식을 연구하는 것을 우선시하기로 합의합니다.\n\nMoreInjuries가 v1.5.2 "Shiny Research"로 업데이트되었습니다. 새로운 텍스처, 지역화 지원, 버그 수정, 신규 기능과 함께, 이번 업데이트에는 연구 화면의 "More Injuries" 탭에서 확인할 수 있는 새로운 연구 트리도 포함되어 있습니다. 이 메시지는 이 저장 파일이 이전 버전의 MoreInjuries로 생성되었기 때문에 표시되며, 이제 마이그레이션 진행 방법을 선택할 수 있습니다.</MI_Migration_Update_v1_Text_Personalized>
+  <MI_Migration_Update_v1_Text>MoreInjuries가 v1.5.2 "Shiny Research"로 업데이트되었습니다. 새로운 텍스처, 지역화 지원, 버그 수정, 신규 기능과 함께 이번 업데이트에는 연구 화면의 "More Injuries" 탭에서 확인할 수 있는 새로운 연구 트리도 포함되어 있습니다. 이 메시지는 이 저장 파일이 이전 버전의 MoreInjuries로 생성되었기 때문에 표시되며, 이제 마이그레이션 진행 방법을 선택할 수 있습니다.</MI_Migration_Update_v1_Text>
+  <MI_Migration_Signal_v1_RequireAllResearch>좋아, 시작하자! 전투는 당분간 치명적이겠지만, 도전을 받아들일 준비가 되어 있어!\n(의료 절차는 연구를 완료할 때까지 잠금 상태입니다)</MI_Migration_Signal_v1_RequireAllResearch>
+  <MI_Migration_Signal_v1_UnlockAllResearch>아니, 싫어 안돼 조까. 이전 방식으로 돌려줘.\n(모든 의료 절차가 잠금 해제됩니다)</MI_Migration_Signal_v1_UnlockAllResearch>
+  <MI_Migration_Signal_v1_UnlockEssentialResearch>도전을 받아들일 준비는 되어 있지만, 시기가 안 좋네요. 사람들이 죽어가고 있어, 바로 구해야 합니다!\n(기본/응급 의료 절차는 잠금 해제되며, 나머지는 연구가 필요합니다)</MI_Migration_Signal_v1_UnlockEssentialResearch>
+  <MI_Migration_Update_v2_Title>MoreInjuries v1.5.2.1 마이그레이션</MI_Migration_Update_v2_Title>
+  <MI_Migration_Update_v2_Text>MoreInjuries가 v1.5.2.1로 업데이트되었습니다. 이번 업데이트에는 버그 수정, 밸런스 조정, 편의성 개선이 포함되어 있습니다.\n\n의사들이 부목이 없을 때 골절 부목 시술에 갇히는 문제가 해결되었습니다. 연구 요구 조건이 약간 완화되었고, CPR이 이제 독립적인 연구 프로젝트로 분리되었습니다. 이전에 응급 의학 프로젝트에서 CPR을 해제했다면, 새로운 CPR 연구가 자동으로 해제됩니다.\n\n지혈대 UI에서 출혈이 심한 사지가 노란색과 빨간색으로 강조 표시됩니다. 의사들은 응급 처치 작업의 일부로 인벤토리에서 지혈대를 자동으로 적용합니다. 이 기능의 출혈 심각도 기준은 모드 설정의 '지혈대 및 괴저' 섹션에서 조정할 수 있습니다.\n\n전체 변경 내역은 Steam Workshop이나 GitHub 페이지를 참조하세요.</MI_Migration_Update_v2_Text>
+  <MI_Migration_Signal_v2_Continue>확인</MI_Migration_Signal_v2_Continue>
+  <MI_Format_TimeHours>{HOURS}시간</MI_Format_TimeHours>
+  <MI_Format_TimeDays>{DAYS}일</MI_Format_TimeDays>
+  <MI_Format_TimeSeconds>{SECONDS}초</MI_Format_TimeSeconds>
+  <MI_Procedure_FromInventory>{0} (인벤토리에서)</MI_Procedure_FromInventory>
+  <MI_Procedure_Stabilize>{0} (안정화)</MI_Procedure_Stabilize>
+  <MI_Procedure_FullyHeal>{0} (완전히 치유)</MI_Procedure_FullyHeal>
+  <MI_Procedure_MaxDose>{0} (안전 상한 용량)</MI_Procedure_MaxDose>
+  <MI_Procedure_Single>{0} (단독)</MI_Procedure_Single>
+  <MI_Procedure_FromInventory_Stabilize>{0} (인벤토리에서, 안정화)</MI_Procedure_FromInventory_Stabilize>
+  <MI_Procedure_FromInventory_FullyHeal>{0} (인벤토리에서, 완전히 치유)</MI_Procedure_FromInventory_FullyHeal>
+  <MI_Procedure_FromInventory_MaxDose>{0} (인벤토리에서, 안전 상한 용량)</MI_Procedure_FromInventory_MaxDose>
+  <MI_Procedure_FromInventory_Single>{0} (인벤토리에서, 단독)</MI_Procedure_FromInventory_Single>
+  <MI_Message_OptionMutuallyExclusive>{0}(와)과 {1}(은)는 서로 배타적입니다</MI_Message_OptionMutuallyExclusive>
+  <MI_Message_ResearchRequired>{0}(을)를 진행하려면 먼저 '{1}' 연구 프로젝트를 완료해야 합니다</MI_Message_ResearchRequired>
+  <MI_Message_ProcedureIngredientDestroyed>시술 후, {DOCTOR_labelShort}(은)는 {THING_label}(이)가 고장 나 교체가 필요함을 확인했습니다.</MI_Message_ProcedureIngredientDestroyed>
+  <MI_ProcedureFailed_CareDisabled>{0} : {PATIENT_labelShort}에 대한 의료 처치 비활성화됨</MI_ProcedureFailed_CareDisabled>
+  <MI_ProcedureFailed_SelfTendDisabled>{0}: 자가 치료 비활성화됨</MI_ProcedureFailed_SelfTendDisabled>
+  <MI_ProcedureFailed_IncapableOfManipulation>{0}: {DOCTOR_labelShort}(은)는 조작이 불가능합니다</MI_ProcedureFailed_IncapableOfManipulation>
+  <MI_ProcedureFailed_IncapableOfSight>{0}: {DOCTOR_labelShort}(은)는 맹인입니다</MI_ProcedureFailed_IncapableOfSight>
+  <MI_ProcedureFailed_IncapableOfCaring>{0}: {DOCTOR_labelShort}(은)는 치료가 불가능합니다</MI_ProcedureFailed_IncapableOfCaring>
+  <MI_ProcedureFailed_IncapableOfMedicine>{0}: {DOCTOR_labelShort}(은)는 약품을 사용할 수 없습니다</MI_ProcedureFailed_IncapableOfMedicine>
+  <MI_ProcedureFailed_NoPath>{0}: 경로 없음</MI_ProcedureFailed_NoPath>
+  <MI_Settings_General>일반 설정</MI_Settings_General>
+  <MI_Settings_General_LoggingLabel>로그 활성화 (default: {DEFAULT})</MI_Settings_General_LoggingLabel>
+  <MI_Settings_General_LoggingVerboseLabel>verbose 로그 활성화 (default: {DEFAULT})</MI_Settings_General_LoggingVerboseLabel>
+  <MI_Settings_General_DebugAction_FixBionicsLabel>잘못 설치된 신체부위 재설정</MI_Settings_General_DebugAction_FixBionicsLabel>
+  <MI_Settings_Features>기능 플래그와 값</MI_Settings_Features>
+  <MI_Settings_Features_Fractures>골절</MI_Settings_Features_Fractures>
+  <MI_Settings_Features_Fractures_EnableLabel>뼈 골절 활성화 (default: {DEFAULT})</MI_Settings_Features_Fractures_EnableLabel>
+  <MI_Settings_Features_Fractures_EnableTooltip>활성화하면 특정 유형의 피해를 입은 폰이 충격으로 골절을 당할 수 있습니다. 둔기 피해에서 특히 발생 가능성이 높습니다.</MI_Settings_Features_Fractures_EnableTooltip>
+  <MI_Settings_Features_Fractures_DamageThresholdLabel>골절 발생 최소 피해 기준: {VALUE} (default: {DEFAULT})</MI_Settings_Features_Fractures_DamageThresholdLabel>
+  <MI_Settings_Features_Fractures_DamageThresholdTooltip>골절을 일으키는 최소 피해량입니다.\n\n다람쥐에게 맞는 정도로는 골절이 발생할 가능성이 낮지만, 곤봉이나 총알에 맞으면 상황이 달라집니다.</MI_Settings_Features_Fractures_DamageThresholdTooltip>
+  <MI_Settings_Features_Fractures_FractureChanceLabel>피해에 골절이 발생할 확률: {VALUE} (default: {DEFAULT})</MI_Settings_Features_Fractures_FractureChanceLabel>
+  <MI_Settings_Features_Fractures_FractureChanceTooltip>모든 골절 조건이 충족된 후 실제로 골절이 발생할 확률입니다.\n\n인체의 복잡한 구조와 골절 취약성을 랜덤 확률로 시뮬레이션합니다.</MI_Settings_Features_Fractures_FractureChanceTooltip>
+  <MI_Settings_Features_Fractures_EnableLacerationsLabel>뼛조각 열상 활성화 (default: {DEFAULT})</MI_Settings_Features_Fractures_EnableLacerationsLabel>
+  <MI_Settings_Features_Fractures_EnableLacerationsTooltip>활성화하면, 골절을 입은 폰이 골절로 생긴 뼈 조각으로 인해 열상도 함께 입을 수 있습니다.</MI_Settings_Features_Fractures_EnableLacerationsTooltip>
+  <MI_Settings_Features_Fractures_LacerationChanceLabel>뼛조각 열상 확률: {VALUE} (default: {DEFAULT})</MI_Settings_Features_Fractures_LacerationChanceLabel>
+  <MI_Settings_Features_Fractures_LacerationChanceTooltip>골절이 뼈를 파편화시켜 주변 신체 부위에 추가 열상을 일으킬 가능성입니다.</MI_Settings_Features_Fractures_LacerationChanceTooltip>
+  <MI_Settings_Features_Fractures_LacerationInjuryChanceLabel>열상이 부상을 일으킬 확률: {VALUE} (default: {DEFAULT})</MI_Settings_Features_Fractures_LacerationInjuryChanceLabel>
+  <MI_Settings_Features_Fractures_LacerationInjuryChanceTooltip>뼈가 파편화된 골절 후, 인접 신체 부위가 뼈 조각으로 열상을 입을 가능성입니다.</MI_Settings_Features_Fractures_LacerationInjuryChanceTooltip>
+  <MI_Settings_Features_Fractures_ApplySplintJobLabel>골절 자동 적용 활성화 (default: {DEFAULT})</MI_Settings_Features_Fractures_ApplySplintJobLabel>
+  <MI_Settings_Features_Fractures_ApplySplintJobTooltip>활성화하면, 의사들이 골절 환자에게 자동으로 부목을 적용합니다. 환자는 침대에 있어야 하고 부목을 사용할 수 있어야 합니다.\n\n비활성화하면, 의사는 지시받았을 때만 부목을 적용합니다.</MI_Settings_Features_Fractures_ApplySplintJobTooltip>
+  <MI_Settings_Features_Respiratory>호흡기 질환</MI_Settings_Features_Respiratory>
+  <MI_Settings_Features_Respiratory_EnableChokingLabel>피에 의한 질식 매커니즘 활성화 (default: {DEFAULT})</MI_Settings_Features_Respiratory_EnableChokingLabel>
+  <MI_Settings_Features_Respiratory_EnableChokingTooltip>활성화하면, 호흡기계에 심한 열상을 입은 폰이 자신의 피로 질식할 수 있으며, 제때 치료하지 않으면 사망할 수 있습니다.\n\n생명의 취약함을 보여주는 끔찍한 경고입니다.</MI_Settings_Features_Respiratory_EnableChokingTooltip>
+  <MI_Settings_Features_Respiratory_EnableChokingSoundLabel>질식 소리 효과 활성화 (default: {DEFAULT})</MI_Settings_Features_Respiratory_EnableChokingSoundLabel>
+  <MI_Settings_Features_Respiratory_EnableChokingSoundTooltip>폰이 자신의 피로 질식하기 시작할 때 효과음을 재생할지 여부입니다.\n\n충격적일 수 있으나 상황의 긴박감을 더해줍니다.</MI_Settings_Features_Respiratory_EnableChokingSoundTooltip>
+  <MI_Settings_Features_Respiratory_ChokingMinBleedRateLabel>질식 발생 최소 출혈 속도: {VALUE} (default: {DEFAULT})</MI_Settings_Features_Respiratory_ChokingMinBleedRateLabel>
+  <MI_Settings_Features_Respiratory_ChokingMinBleedRateTooltip>호흡기 부상으로 인한 질식을 유발하기 위해 필요한 최소 출혈 속도입니다.</MI_Settings_Features_Respiratory_ChokingMinBleedRateTooltip>
+  <MI_Settings_Features_Respiratory_ChokingChanceLabel>심각한 피해 이후 피로 인한 질식을 겪을 가능성: {VALUE} (default: {DEFAULT})</MI_Settings_Features_Respiratory_ChokingChanceLabel>
+  <MI_Settings_Features_Respiratory_ChokingChanceTooltip>호흡기계에 심한 출혈 부상을 입은 후 폰이 자신의 피로 질식할 확률입니다.</MI_Settings_Features_Respiratory_ChokingChanceTooltip>
+  <MI_Settings_Features_Respiratory_ChokingSuctionDeviceMinSuccessRateLabel>비숙련자의 흡인 장치 사용에 대한 성공 확률: {VALUE} (default: {DEFAULT})</MI_Settings_Features_Respiratory_ChokingSuctionDeviceMinSuccessRateLabel>
+  <MI_Settings_Features_Respiratory_ChokingSuctionDeviceMinSuccessRateTooltip>숙련되지 않은 사용자가(의학 기술 &lt; 8) 폰의 기도에서 출혈을 제거할 때 흡인 장치가 성공할 최소 확률입니다.\n\n실제 성공률은 사용자의 의학 기술에 따라 조정됩니다: max(&lt;이 설정&gt;, &lt;의학 기술&gt; / 8).</MI_Settings_Features_Respiratory_ChokingSuctionDeviceMinSuccessRateTooltip>
+  <MI_Settings_Features_Respiratory_EnableInhalationLabel>흡입 부상 활성화 (default: {DEFAULT})</MI_Settings_Features_Respiratory_EnableInhalationLabel>
+  <MI_Settings_Features_Respiratory_EnableInhalationTooltip>활성화하면, 화재나 연기, 고온 가스로 노출된 폰이 흡입 부상을 입어 호흡기계에 심각한 손상을 받을 수 있습니다.\n\n흡연은 건강에 해롭지만, 화재 건물의 연기나 열압폭탄 잔해를 흡입하는 것은 훨씬 더 위험합니다.</MI_Settings_Features_Respiratory_EnableInhalationTooltip>
+  <MI_Settings_Features_Respiratory_EnableLungCollapseLabel>폐 허탈 활성화 (default: {DEFAULT})</MI_Settings_Features_Respiratory_EnableLungCollapseLabel>
+  <MI_Settings_Features_Respiratory_EnableLungCollapseTooltip>활성화하면, 열압폭탄과 기타 고폭 장치가 갑작스러운 압력 변화로 인해 폐를 파열시키고 허탈시킬 수 있습니다.\n\n제때 치료하지 않으면 치명적이며, 수술로 복구해야 합니다.</MI_Settings_Features_Respiratory_EnableLungCollapseTooltip>
+  <MI_Settings_Features_Respiratory_LungCollapseChanceLabel>열압력 피해에 의한 폐 허탈 확률: {VALUE} (default: {DEFAULT})</MI_Settings_Features_Respiratory_LungCollapseChanceLabel>
+  <MI_Settings_Features_Respiratory_LungCollapseChanceTooltip>열압폭탄이나 기타 고폭 장치에 맞은 후 폰이 폐 허탈을 겪을 확률입니다.</MI_Settings_Features_Respiratory_LungCollapseChanceTooltip>
+  <MI_Settings_Features_Respiratory_LungCollapseOnPerforationChanceLabel>관통상에 의한 폐 허탈 확률: {VALUE} (default: {DEFAULT})</MI_Settings_Features_Respiratory_LungCollapseOnPerforationChanceLabel>
+  <MI_Settings_Features_Respiratory_LungCollapseOnPerforationChanceTooltip>총알이나 파편 등 관통성 흉부 부상을 입은 후 폰이 폐 허탈을 겪을 확률입니다. 피해량에 비례하며, 0은 비활성화입니다.</MI_Settings_Features_Respiratory_LungCollapseOnPerforationChanceTooltip>
+  <MI_Settings_Features_Respiratory_LungCollapseMaxSeverityRootLabel>최대 폐 허탈 초기 심각도 요소: {VALUE} (default: {DEFAULT})</MI_Settings_Features_Respiratory_LungCollapseMaxSeverityRootLabel>
+  <MI_Settings_Features_Respiratory_LungCollapseMaxSeverityRootTooltip>폐 허탈 초기 최대 심각도는 0과 이 값 사이의 무작위 요소를 제곱하여 결정됩니다. 열압폭탄 피해가 누적될수록 증가합니다. 따라서 폐 허탈 심각도는 이차 분포를 따르며, 낮은 심각도가 나올 가능성이 높고 매우 높은 심각도가 나올 가능성은 낮습니다. 예를 들어 0.5일 경우, 폐 허탈 심각도는 0과 0.25 사이에서 이차 분포를 따릅니다.</MI_Settings_Features_Respiratory_LungCollapseMaxSeverityRootTooltip>
+  <MI_Settings_Features_Spalling>파편화</MI_Settings_Features_Spalling>
+  <MI_Settings_Features_Spalling_EnableLabel>파편화 매커니즘 활성화 (default: {DEFAULT})</MI_Settings_Features_Spalling_EnableLabel>
+  <MI_Settings_Features_Spalling_EnableTooltip>고속 투사체가 장갑에 막히면, 많은 운동 에너지로 인해 투사체와 장갑의 최상층이 파편화되어 사방으로 튈 수 있습니다. 파편 발생량은 충격 각도와 장갑의 경도 및 상태에 따라 달라집니다. 파편화는 투사체가 장갑을 관통하지 않았더라도 착용자에게 추가 부상을 일으킬 수 있습니다.</MI_Settings_Features_Spalling_EnableTooltip>
+  <MI_Settings_Features_Spalling_DamageThresholdLabel>장갑 상태에 따른 파편 생성 기본 확률: {VALUE} (기본값: {DEFAULT})\n\n현대 장갑은 단단한 판 위에 연질층을 더해 탄환 파편을 잡아 흡수하도록 설계되어 파편 발생을 억제합니다. 장갑이 피해를 흡수해 상태가 악화되면 흡수층이 손상될 때 파편 발생 확률이 증가합니다. 예: 0.8이면 장갑 체력이 80% 이하가 될 때까지 파편 발생 확률은 0으로 유지됩니다. 0이면 파편 발생이 비활성화됩니다.</MI_Settings_Features_Spalling_DamageThresholdLabel>
+  <MI_Settings_Features_Spalling_ChanceLabel>파열 피해 확률: {VALUE} (default: {DEFAULT})</MI_Settings_Features_Spalling_ChanceLabel>
+  <MI_Settings_Features_Spalling_ChanceTooltip>파편화 발생 후 노출된 신체 부위가 파편 부상을 입을 확률입니다. 부위별로 평가되며, 최종 파편 부상 확률은 이 값, 충격 각도, 장갑의 경도와 상태에 따라 달라집니다.</MI_Settings_Features_Spalling_ChanceTooltip>
+  <MI_Settings_Features_HypovolemicShock>혈액 손실(저혈량성 쇼크)</MI_Settings_Features_HypovolemicShock>
+  <MI_Settings_Features_HypovolemicShock_EnableLabel>저혈량성 쇼크 매커니즘 활성화 (default: {DEFAULT})</MI_Settings_Features_HypovolemicShock_EnableLabel>
+  <MI_Settings_Features_HypovolemicShock_EnableTooltip>활성화하면, 상당한 혈액을 잃은 폰이 저혈량성 쇼크를 겪을 수 있으며, 제때 치료하지 않으면 치명적일 수 있습니다. 인체는 정상 기능을 위해 일정량의 혈액이 필요하며, 과도한 손실은 장기 부전과 사망으로 이어질 수 있습니다.\n\n환자를 안정시키기 위해서는 수혈로 치료해야 합니다.</MI_Settings_Features_HypovolemicShock_EnableTooltip>
+  <MI_Settings_Features_HypovolemicShock_HypoxiaChanceLabel>저혈량성 쇼크가 저산소증을 유발할 확률 (every 300 ticks/5s): {VALUE} (default: {DEFAULT})</MI_Settings_Features_HypovolemicShock_HypoxiaChanceLabel>
+  <MI_Settings_Features_HypovolemicShock_HypoxiaChanceTooltip>많은 혈액을 잃으면 장기가 제대로 기능하는 데 필요한 산소를 충분히 공급받지 못하게 됩니다. 이는 결국 장기 부전과 사망으로 이어질 수 있습니다.\n\n환자가 이런 상태에 빠지지 않도록 제때 수혈로 치료해야 합니다.</MI_Settings_Features_HypovolemicShock_HypoxiaChanceTooltip>
+  <MI_Settings_Features_HypovolemicShock_HypoxiaReductionFactorLabel>환자가 관리되었을 때 저산소증 확률을 줄일 계수: {VALUE} (default: {DEFAULT})</MI_Settings_Features_HypovolemicShock_HypoxiaReductionFactorLabel>
+  <MI_Settings_Features_HypovolemicShock_HypoxiaReductionFactorTooltip>저혈량성 쇼크 상태를 관리하면 장기 저산소증 발생 확률을 이만큼 줄이고 쇼크 진행 속도를 늦출 수 있습니다. 단, 쇼크 진행 자체를 막는 것은 아니며 속도를 늦출 뿐입니다. 환자를 완전히 안정시키려면 수혈이 필요합니다.</MI_Settings_Features_HypovolemicShock_HypoxiaReductionFactorTooltip>
+  <MI_Settings_Features_HypovolemicShock_EnableCardiacArrestLabel>저혈량성 쇼크가 심정지 유발 활성호 (default: {DEFAULT})</MI_Settings_Features_HypovolemicShock_EnableCardiacArrestLabel>
+  <MI_Settings_Features_HypovolemicShock_EnableCardiacArrestTooltip>활성화하면, 매우 많은 혈액을 잃은 폰이 심정지를 겪을 수 있으며, 제때 치료하지 않으면 치명적일 수 있습니다. 심장은 정상 기능을 위해 일정량의 혈액이 필요하며, 과도한 손실은 심부전과 사망으로 이어질 수 있습니다.\n\n숙련된 의사는 CPR로 환자를 소생시킬 수 있습니다.</MI_Settings_Features_HypovolemicShock_EnableCardiacArrestTooltip>
+  <MI_Settings_Features_HypovolemicShock_CardiacArrestChanceLabel>과다출혈로 심정지가 발생할 확률: {VALUE} (default: {DEFAULT})</MI_Settings_Features_HypovolemicShock_CardiacArrestChanceLabel>
+  <MI_Settings_Features_HypovolemicShock_CardiacArrestChanceTooltip>매우 많은 혈액을 잃은 후 폰이 심정지를 겪을 확률입니다. 300틱/5초마다 평가됩니다.</MI_Settings_Features_HypovolemicShock_CardiacArrestChanceTooltip>
+  <MI_Settings_Features_HypovolemicShock_CardiacArrestDefibrillationChanceLabel>비숙련자에 의한 제세동기 사용의 성공 확률: {VALUE} (default: {DEFAULT})</MI_Settings_Features_HypovolemicShock_CardiacArrestDefibrillationChanceLabel>
+  <MI_Settings_Features_HypovolemicShock_CardiacArrestDefibrillationChanceTooltip>숙련되지 않은 사용자가(의학 기술 &lt; 8) 제세동기로 환자를 소생시킬 때 성공할 최소 확률입니다.\n\n실제 성공률은 사용자의 의학 기술에 따라 조정됩니다: max(&lt;이 설정&gt;, &lt;의학 기술&gt;/8).</MI_Settings_Features_HypovolemicShock_CardiacArrestDefibrillationChanceTooltip>
+  <MI_Settings_Features_LethalTriad>외상의 치명적인 삼중주</MI_Settings_Features_LethalTriad>
+  <MI_Settings_Features_LethalTriad_EnableLabel>강화된 외상 시뮬레이션 활성화 (default: {DEFAULT})</MI_Settings_Features_LethalTriad_EnableLabel>
+  <MI_Settings_Features_LethalTriad_EnableTooltip>활성화하면, 모드가 외상으로 인한 치명적 삼합(저체온증, 산증, 응고 장애)을 시뮬레이션합니다. 이 상태들은 환자의 상태를 빠르게 악화시킬 수 있으며, 제때 치료하지 않으면 치명적일 수 있습니다.</MI_Settings_Features_LethalTriad_EnableTooltip>
+  <MI_Settings_Features_LethalTriad_PreventDeathByBloodLoss_Label>혈액 손실로 인한 즉사 방지 (default: {DEFAULT})</MI_Settings_Features_LethalTriad_PreventDeathByBloodLoss_Label>
+  <MI_Settings_Features_LethalTriad_PreventDeathByBloodLoss_Tooltip>활성화하면, 폰이 출혈로 직접 사망하지 않고, 대신 뇌 저산소 손상을 입다가 결국 사망하게 됩니다.</MI_Settings_Features_LethalTriad_PreventDeathByBloodLoss_Tooltip>
+  <MI_Settings_Features_LethalTriad_HypoxiaAcidosisConversionFactorLabel>저산소증의 산증 전환 계수: {VALUE} (default: {DEFAULT})</MI_Settings_Features_LethalTriad_HypoxiaAcidosisConversionFactorLabel>
+  <MI_Settings_Features_LethalTriad_HypoxiaAcidosisConversionFactorTooltip>저산소증 심각도가 산증 심각도로 전환되는 비율입니다. 저산소증 심각도를 기반으로 산증 심각도를 결정할 때 사용됩니다. 값이 0이면 저산소증이 산증에 전혀 영향을 주지 않음(비활성화), 5이면 전체 저산소증 피해의 5%가 산증 심각도에 기여합니다. 실제 전환은 저산소증 심각도에 이 비율을 곱해 이루어집니다.</MI_Settings_Features_LethalTriad_HypoxiaAcidosisConversionFactorTooltip>
+  <MI_Settings_Features_LethalTriad_CoagulopathySalineIvSafetyThresholdLabel>개별 응고병의 식염수 정맥 주입 안전치 임계값: {VALUE} (default: {DEFAULT})</MI_Settings_Features_LethalTriad_CoagulopathySalineIvSafetyThresholdLabel>
+  <MI_Settings_Features_LethalTriad_CoagulopathySalineIvSafetyThresholdTooltip>의사는 독립적인 응고 장애 심각도가 이 기준을 초과하면 안전을 위해 생리식염수 IV 주입을 거부합니다. 독립적 응고 장애란 혈액 희석 외의 요인(예: 산증, 저체온증 등)으로 인한 응고 장애를 의미합니다.\n\n0으로 설정하면 혈액 희석 외 다른 요인이 없는 경우에만 생리식염수 주입을 수행하며, 1이면 다른 요인은 고려하지 않고 무조건 주입합니다. 즉, 0은 가장 안전하지만 제한적이고, 1은 결과와 상관없이 주입을 수행하는 옵션입니다.</MI_Settings_Features_LethalTriad_CoagulopathySalineIvSafetyThresholdTooltip>
+  <MI_Settings_Features_NeuralDamage>신경학적 손상</MI_Settings_Features_NeuralDamage>
+  <MI_Settings_Features_NeuralDamage_EnableLabel>신경학적 손상 매커니즘 활성화 (default: {DEFAULT})</MI_Settings_Features_NeuralDamage_EnableLabel>
+  <MI_Settings_Features_NeuralDamage_EnableTooltip>활성화하면, 저산소증, 화학물질 노출, 심한 두부 손상 등 특정 상태가 폰에게 신경학적 손상을 일으켜 운동, 언어, 인지 기능 등 다양한 장기적 영향을 초래할 수 있습니다.</MI_Settings_Features_NeuralDamage_EnableTooltip>
+  <MI_Settings_Features_NeuralDamage_TreatmentReductionFactorLabel>환자가 관리받았을 때 신경학적 손상의 확률을 낮출 정도: {VALUE} (default: {DEFAULT})</MI_Settings_Features_NeuralDamage_TreatmentReductionFactorLabel>
+  <MI_Settings_Features_NeuralDamage_TreatmentReductionFactorTooltip>신경학적 손상을 일으킬 수 있는 근본 원인을 관리하면 추가 신경 손상 발생 확률을 이만큼 줄이고 상태 진행 속도를 늦출 수 있습니다. 단, 손상 발생 자체를 막는 것은 아니며 속도를 늦출 뿐입니다. 환자를 완전히 안정시키려면 근본 원인을 치료해야 합니다.</MI_Settings_Features_NeuralDamage_TreatmentReductionFactorTooltip>
+  <MI_Settings_Features_NeuralDamage_EnablePersonalityShiftLabel>신경학적 손상의 성격 변화 유발 허용 (default: {DEFAULT})</MI_Settings_Features_NeuralDamage_EnablePersonalityShiftLabel>
+  <MI_Settings_Features_NeuralDamage_EnablePersonalityShiftTooltip>활성화하면, 신경 손상으로 성격 변화가 발생할 수 있으며, 이는 폰의 기술과 관심사에 변화를 초래할 수 있습니다. 기술 재분배의 정도는 신경 손상의 심각도에 따라 달라집니다.</MI_Settings_Features_NeuralDamage_EnablePersonalityShiftTooltip>
+  <MI_Settings_Features_Concussion>뇌진탕 (두부 손상)</MI_Settings_Features_Concussion>
+  <MI_Settings_Features_Concussion_EnableLabel>뇌진탕 매커니즘 활성화 (default: {DEFAULT})</MI_Settings_Features_Concussion_EnableLabel>
+  <MI_Settings_Features_Concussion_EnableTooltip>활성화하면, 머리에 부상을 입은 폰은 뇌진탕을 겪을 수 있으며, 일시적으로 의식을 잃고 방향 감각을 잃을 수 있습니다.</MI_Settings_Features_Concussion_EnableTooltip>
+  <MI_Settings_Features_Concussion_DamageThresholdLabel>100% 뇌진탕이 발생하는 원시 두부 외상 임계값: {VALUE} (default: {DEFAULT})</MI_Settings_Features_Concussion_DamageThresholdLabel>
+  <MI_Settings_Features_Concussion_DamageThresholdTooltip>두부 손상으로 100% 뇌진탕이 발생하는 데 필요한 두개골 손상량입니다. 실제 확률은 머리 위치와 손상 정도(예: 코를 맞는 것 vs. 뇌를 강타당하는 것)에 따라 평가되며, 최종 확률은 뇌진탕 발생 확률에 의해 조정됩니다.</MI_Settings_Features_Concussion_DamageThresholdTooltip>
+  <MI_Settings_Features_Concussion_ConcussionChanceLabel>심각한 두부 손상 이후 뇌진탕 발생 확률: {VALUE} (default: {DEFAULT})</MI_Settings_Features_Concussion_ConcussionChanceLabel>
+  <MI_Settings_Features_Concussion_ConcussionChanceTooltip>심한 두부 손상 후 뇌진탕 발생 확률 계산에 적용되는 배율입니다. 손상 이벤트마다 평가됩니다. 1로 설정하면 계산된 확률 그대로 적용되며(설정된 임계값을 초과한 모든 두부 손상은 뇌진탕으로 이어짐), 낮은 값은 임계값을 충족하더라도 전체 뇌진탕 발생 확률을 줄입니다.</MI_Settings_Features_Concussion_ConcussionChanceTooltip>
+  <MI_Settings_Features_HemorrhagicStroke>출혈성 뇌졸중 (두부 손상)</MI_Settings_Features_HemorrhagicStroke>
+  <MI_Settings_Features_HemorrhagicStroke_EnableLabel>출혈성 뇌졸중 매커니즘 활성화 (default: {DEFAULT})</MI_Settings_Features_HemorrhagicStroke_EnableLabel>
+  <MI_Settings_Features_HemorrhagicStroke_EnableTooltip>활성화하면, 심한 두부 손상을 입은 폰이 출혈성 뇌졸중을 겪을 수 있으며, 제때 치료하지 않으면 치명적일 수 있습니다.</MI_Settings_Features_HemorrhagicStroke_EnableTooltip>
+  <MI_Settings_Features_HemorrhagicStroke_DamageThresholdLabel>100% 출혈성 뇌졸중이 발생하는 원시 두부 외상 임계값: {VALUE} (default: {DEFAULT})</MI_Settings_Features_HemorrhagicStroke_DamageThresholdLabel>
+  <MI_Settings_Features_HemorrhagicStroke_DamageThresholdTooltip>두부 손상으로 100% 출혈성 뇌졸중이 발생하는 데 필요한 두개골 손상량입니다. 실제 확률은 머리 위치와 손상 정도(예: 코를 맞는 것 vs. 뇌를 찔리는 것)에 따라 평가되며, 최종 확률은 출혈성 뇌졸중 발생 확률에 의해 조정됩니다.</MI_Settings_Features_HemorrhagicStroke_DamageThresholdTooltip>
+  <MI_Settings_Features_HemorrhagicStroke_StrokeChanceLabel>심한 두부 손상 이후 출혈성 뇌졸중 발생 확률: {VALUE} (default: {DEFAULT})</MI_Settings_Features_HemorrhagicStroke_StrokeChanceLabel>
+  <MI_Settings_Features_HemorrhagicStroke_StrokeChanceTooltip>심한 두부 손상 후 출혈성 뇌졸중 발생 확률 계산에 적용되는 배율입니다. 손상 이벤트마다 평가됩니다. 1로 설정하면 계산된 확률 그대로 적용되며(설정된 임계값을 초과한 모든 두부 손상은 출혈성 뇌졸중으로 이어짐), 낮은 값은 임계값을 충족하더라도 전체 출혈성 뇌졸중 발생 확률을 줄입니다.</MI_Settings_Features_HemorrhagicStroke_StrokeChanceTooltip>
+  <MI_Settings_Features_EmpDamage>생체공학 EMP 피해</MI_Settings_Features_EmpDamage>
+  <MI_Settings_Features_EmpDamage_EnableLabel>생체공학 부위에 대한 EMP 피해 활성화 (default: {DEFAULT})</MI_Settings_Features_EmpDamage_EnableLabel>
+  <MI_Settings_Features_EmpDamage_EnableTooltip>활성화하면, 전자기 펄스(EMP) 손상이 생체공학 임플란트를 일시적으로 오작동시키고 작동을 멈출 수 있습니다. \n\n첨단 기술도 양날의 검입니다.</MI_Settings_Features_EmpDamage_EnableTooltip>
+  <MI_Settings_Features_EmpDamage_ChanceLabel>생체공학 EMP 피해 확률: {VALUE} (default: {DEFAULT})</MI_Settings_Features_EmpDamage_ChanceLabel>
+  <MI_Settings_Features_EmpDamage_ChanceTooltip>EMP 손상으로 생체공학 임플란트가 일시적으로 작동을 멈출 확률입니다. EMP 피해가 적용된 후 각 생체공학 임플란트마다 평가됩니다.</MI_Settings_Features_EmpDamage_ChanceTooltip>
+  <MI_Settings_Features_Adrenaline>아드레날린</MI_Settings_Features_Adrenaline>
+  <MI_Settings_Features_Adrenaline_EnableLabel>아드레날린 매커니즘 활성화 (default: {DEFAULT})</MI_Settings_Features_Adrenaline_EnableLabel>
+  <MI_Settings_Features_Adrenaline_EnableTooltip>활성화하면, 피해를 입은 폰이 아드레날린 급증을 경험하여 일시적으로 이동 능력이 향상되고 통증 인지가 둔화됩니다.</MI_Settings_Features_Adrenaline_EnableTooltip>
+  <MI_Settings_Features_Adrenaline_DamageThresholdLabel>아드레날린 러시를 위해 필요한 피해량: {VALUE} (default: {DEFAULT})</MI_Settings_Features_Adrenaline_DamageThresholdLabel>
+  <MI_Settings_Features_Adrenaline_DamageThresholdTooltip>항상 아드레날린 급증을 일으켜 이동 능력을 크게 향상시키고 통증 인지를 일시적으로 둔화시키는 데 필요한 피해량입니다. 피해가 이 임계값을 초과하면 아드레날린 급증이 확정되며, 그렇지 않으면 피해 시 아드레날린 발생 확률에 따라 결정됩니다.</MI_Settings_Features_Adrenaline_DamageThresholdTooltip>
+  <MI_Settings_Features_Adrenaline_ChanceLabel>피해에 아드레날린 러시가 활성화될 확률: {VALUE} (default: {DEFAULT})</MI_Settings_Features_Adrenaline_ChanceLabel>
+  <MI_Settings_Features_Adrenaline_ChanceTooltip>피해를 입은 후 폰이 아드레날린 급증을 경험할 확률입니다. 피해 이벤트마다 평가되며, 아드레날린 급증의 강도는 입은 피해량에 따라 달라집니다.</MI_Settings_Features_Adrenaline_ChanceTooltip>
+  <MI_Settings_Features_HydrostaticShock>정수압 충격(논란의 여지가 있음)</MI_Settings_Features_HydrostaticShock>
+  <MI_Settings_Features_HydrostaticShock_EnableLabel>정수압 충격 매커니즘 활성화 (default: {DEFAULT})</MI_Settings_Features_HydrostaticShock_EnableLabel>
+  <MI_Settings_Features_HydrostaticShock_EnableTooltip>수압 충격(Hydrostatic shock)은 고에너지 투사체(예: 총알)가 압력파를 발생시켜 신경 조직에 원격 손상, 미세 손상, 빠른 반응을 일으킬 수 있다는 논쟁적 개념입니다. 활성화하면, 매우 높은 에너지의 투사체에 맞은 폰이 수압 충격으로 인해 뇌내 출혈(뇌혈관 파열)을 겪을 수 있으며, 제때 치료하지 않으면 치명적일 수 있습니다. 수압 충격의 존재 여부는 의료 전문가와 총기 전문가 사이에서 논쟁 중입니다. 사용에 주의하세요.</MI_Settings_Features_HydrostaticShock_EnableTooltip>
+  <MI_Settings_Features_HydrostaticShock_ChanceLabel>피해에 의해 정수압 충격이 발생할 확률: {VALUE} (default: {DEFAULT})</MI_Settings_Features_HydrostaticShock_ChanceLabel>
+  <MI_Settings_Features_HydrostaticShock_ChanceTooltip>매우 고에너지 투사체에 맞은 후 폰이 수압 충격을 겪을 확률입니다. 피해 이벤트마다 평가됩니다.</MI_Settings_Features_HydrostaticShock_ChanceTooltip>
+  <MI_Settings_Features_Tourniquets>지혈대와 괴저</MI_Settings_Features_Tourniquets>
+  <MI_Settings_Features_Tourniquets_EnableLabel>지혈대의 괴저 유발 활성화 (default: {DEFAULT})</MI_Settings_Features_Tourniquets_EnableLabel>
+  <MI_Settings_Features_Tourniquets_EnableTooltip>활성화하면 장시간 지혈대를 착용한 폰이 혈류 부족으로 조직이 괴사해 치명적일 수 있는 괴저를 겪을 수 있습니다.\n\n몇 시간만 착용하면 목숨을 구할 수 있지만 며칠간 착용하면 사지를 잃을 수 있습니</MI_Settings_Features_Tourniquets_EnableTooltip>
+  <MI_Settings_Features_Tourniquets_GangreneMeanTimeLabel>지혈대가 괴저를 유발시킬떄까지의 평균 시간: {VALUE} (default: {DEFAULT})</MI_Settings_Features_Tourniquets_GangreneMeanTimeLabel>
+  <MI_Settings_Features_Tourniquets_GangreneMeanTimeTooltip>지혈대 적용으로 인한 악화 상태가 최대일 때 작은 말단 부위(예: 손가락·발가락)가 괴저에 걸리는 평균 시간 간격입니다.</MI_Settings_Features_Tourniquets_GangreneMeanTimeTooltip>
+  <MI_Settings_Features_Tourniquets_GangreneDryChanceLabel>지혈대로 인해 건성 괴저가 발생할 확률: {VALUE} (default: {DEFAULT})</MI_Settings_Features_Tourniquets_GangreneDryChanceLabel>
+  <MI_Settings_Features_Tourniquets_GangreneDryChanceTooltip>지혈대를 장시간 적용하면 해당 부위가 산소와 영양분을 공급받지 못해 조직이 괴사(괴저)합니다. 괴저는 건성 또는 습성일 수 있습니다. 건성 괴저는 세균 감염 없이 조직이 죽는 경우(신체 일부 손실)를 의미하며, 습성 괴저는 세균 감염이 동반되어 패혈증과 사망으로 이어질 수 있습니다.\n\n두 유형 모두 해당 부위의 손실을 의미하지만, 습성 괴저는 제때 절단하지 않으면 사망으로 이어질 수 있으며, 건성 괴저는 시간이 지나 세균이 침투하면 습성 괴저로 발전할 수 있습니다.\n\n값을 1로 설정하면 항상 처음에는 건성 괴저가 발생하며, 0.8로 설정하면 처음에는 80% 확률로 건성, 20% 확률로 습성 괴저가 발생합니다.</MI_Settings_Features_Tourniquets_GangreneDryChanceTooltip>
+  <MI_Settings_Features_Tourniquets_WetGangreneMeanTimeLabel>건성 괴저로부터 감염이 발생할때까지의 평균 시간: {VALUE} (default: {DEFAULT})</MI_Settings_Features_Tourniquets_WetGangreneMeanTimeLabel>
+  <MI_Settings_Features_Tourniquets_WetGangreneMeanTimeTooltip>건성 괴저가 세균에 감염되어 습성 괴저로 진행되는 평균 시간입니다. 습성 괴저는 생명을 위협하므로 즉각적인 절단이 필요합니다.</MI_Settings_Features_Tourniquets_WetGangreneMeanTimeTooltip>
+  <MI_Settings_Features_Tourniquets_ShowGizmoLabel>폰에 지혈대 버튼 표시 (default: {DEFAULT})</MI_Settings_Features_Tourniquets_ShowGizmoLabel>
+  <MI_Settings_Features_Tourniquets_ShowGizmoTooltip>활성화하면 선택된 폰에게 지혈대를 빠르게 착용하거나 제거할 수 있는 도구(Gizmo)가 표시됩니다.</MI_Settings_Features_Tourniquets_ShowGizmoTooltip>
+  <MI_Settings_Features_Tourniquets_MinBleedRateForAutoTourniquetLabel>자동 지혈대 적용을 위한 최소 출혈량: {VALUE} (default: {DEFAULT})</MI_Settings_Features_Tourniquets_MinBleedRateForAutoTourniquetLabel>
+  <MI_Settings_Features_Tourniquets_MinBleedRateForAutoTourniquetTooltip>의사가 "응급 처치 제공" 작업의 일환으로 부상 부위에 자동으로 지혈대를 적용하는 최소 출혈 속도입니다. 출혈 속도가 이 값보다 낮으면 의사는 지혈대 대신 상처를 치료합니다.\n\n이 설정은 "지혈대 적용" 메뉴 텍스트의 부위 색상에도 영향을 줍니다.</MI_Settings_Features_Tourniquets_MinBleedRateForAutoTourniquetTooltip>
+  <MI_Settings_Features_HearingDamage>청력 손실</MI_Settings_Features_HearingDamage>
+  <MI_Settings_Features_HearingDamage_EnableLabel>청력 손실 매커니즘 활성화 (default: {DEFAULT})</MI_Settings_Features_HearingDamage_EnableLabel>
+  <MI_Settings_Features_HearingDamage_EnableTooltip>활성화하면, 폰이 총을 쏘거나 폭발에 노출될 경우 청력 손상을 입을 수 있습니다. 실내이거나 귀 보호구를 착용하지 않은 경우 위험이 더 큽니다. 헬멧이나 귀를 덮는 장비는 청력 손상 위험을 줄여줍니다. 폭발에 노출되면 장비와 상관없이 청력 손상이 발생할 가능성이 높습니다.\n\n총소리가 크다는 건 알 만하죠.</MI_Settings_Features_HearingDamage_EnableTooltip>
+  <MI_Settings_Features_HearingDamage_EnableAdvancedLabel>강화된 청력 손실 시뮬레이션 활성화 (default: {DEFAULT})</MI_Settings_Features_HearingDamage_EnableAdvancedLabel>
+  <MI_Settings_Features_HearingDamage_EnableAdvancedTooltip>기본 청력 손상 설정이 활성화되어 있어야 합니다. 활성화하면, 발사 근처에 있는 다른 폰도 청력 손상을 입을 수 있으며, 특히 발사자가 큰 소음 무기를 사용하거나 밀폐된 공간에서 발사할 경우 위험이 커집니다.\n\n기본값은 비활성화이며, 활성화 시 계산량 증가로 인해 대규모 전투에서 특히 Combat Extended와 함께 성능이 저하될 수 있습니다.</MI_Settings_Features_HearingDamage_EnableAdvancedTooltip>
+  <MI_Settings_Features_HearingDamage_GunshotFactorLabel>총격에 의해 유발되는 청력 손실 계수: {VALUE} (default: {DEFAULT})</MI_Settings_Features_HearingDamage_GunshotFactorLabel>
+  <MI_Settings_Features_HearingDamage_GunshotFactorTooltip>총성으로 인한 청력 손상의 정도는 발사음의 크기와 발사자와의 거리에 따라 결정됩니다. 이 설정은 총성으로 발생하는 일시적 청력 손상의 심각도를 조정합니다.</MI_Settings_Features_HearingDamage_GunshotFactorTooltip>
+  <MI_Settings_Features_HearingDamage_ExplosionFactorLabel>폭발에 의해 유발되는 청력 손실 계수: {VALUE} (default: {DEFAULT})</MI_Settings_Features_HearingDamage_ExplosionFactorLabel>
+  <MI_Settings_Features_HearingDamage_ExplosionFactorTooltip>폭발로 인한 청력 손상의 정도는 폰이 노출된 폭발력의 크기에 따라 결정됩니다. 이 설정은 폭발로 발생하는 일시적 청력 손상의 심각도를 조정합니다.</MI_Settings_Features_HearingDamage_ExplosionFactorTooltip>
+  <MI_Settings_Features_HearingDamage_PermanentEnableLabel>심각한 청력 손실은 영구적으로 악화될 수 있음 (default: {DEFAULT})</MI_Settings_Features_HearingDamage_PermanentEnableLabel>
+  <MI_Settings_Features_HearingDamage_PermanentEnableTooltip>활성화하면, 심한 청력 손상이 장기간 큰 소음에 노출될 경우 영구적으로 남을 수 있습니다. 실제 영구 손상 확률은 일시적 청력 손상의 심각도와 아래 설정값에 따라 결정됩니다.</MI_Settings_Features_HearingDamage_PermanentEnableTooltip>
+  <MI_Settings_Features_HearingDamage_PermanentMaxChanceLabel>일시적인 청력 손실이 영구적으로 변할 최대 확률: {VALUE} (default: {DEFAULT})</MI_Settings_Features_HearingDamage_PermanentMaxChanceLabel>
+  <MI_Settings_Features_HearingDamage_PermanentMaxChanceTooltip>일시적 청력 손상이 큰 소음에 노출된 후 영구적으로 남을 최대 확률. 실제 확률은 일시적 손상의 심각도에 따라 결정되며, 심각도가 증가할수록 이 값에 점근적으로 접근합니다.</MI_Settings_Features_HearingDamage_PermanentMaxChanceTooltip>
+  <MI_Settings_Features_Misc>기타</MI_Settings_Features_Misc>
+  <MI_Settings_Features_Misc_IntegrationBiotechLabel>혈액백을 바이오테크 혈액팩으로 대체 (default: {DEFAULT})</MI_Settings_Features_Misc_IntegrationBiotechLabel>
+  <MI_Settings_Features_Misc_IntegrationBiotechTooltip>활성화되면, 혈액 백을 사용하는 레시피는 대신 바이오테크 혈액 팩을 사용할 것 입니다.</MI_Settings_Features_Misc_IntegrationBiotechTooltip>
+  <MI_Settings_Features_Misc_IntegrationAnomalyLabel>휘청이는 자들에 대한 건강 상태 적용 (default: {DEFAULT})</MI_Settings_Features_Misc_IntegrationAnomalyLabel>
+  <MI_Settings_Features_Misc_IntegrationAnomalyTooltip>활성화하면 휘청이는 자들도 모드에서 추가된 건강 상태 영향을 받습니다. 저혈량성 쇼크, 골절 등을 겪지 않게 하려면 비활성화하세요.</MI_Settings_Features_Misc_IntegrationAnomalyTooltip>
+  <MI_Settings_Features_Misc_BleedingReductionFactorEnclosedLabel>닫힌 내부출혈으로부터의 출혈 배수: {VALUE} (default: {DEFAULT})</MI_Settings_Features_Misc_BleedingReductionFactorEnclosedLabel>
+  <MI_Settings_Features_Misc_BleedingReductionFactorEnclosedTooltip>총알이 몸통을 관통하여 피부와 위장을 뚫고 내부 및 외부 출혈이 발생한 경우를 가정합니다. 단순히 피부 상처에 붕대를 감는 것만으로는 내부 출혈을 멈출 수 없지만, 어느 정도 늦출 수는 있습니다. 이 수치는 피부 상처에 붕대를 감았을 때 내부 출혈이 얼마나 줄어드는지를 결정합니다. 값이 1이면 붕대가 내부 출혈에 영향을 주지 않으며, 값이 0이면 내부 출혈이 완전히 멈춥니다.</MI_Settings_Features_Misc_BleedingReductionFactorEnclosedTooltip>
+  <MI_Settings_Features_Misc_ParalysisEnableLabel>마비 매커니즘 활성화 (default: {DEFAULT})</MI_Settings_Features_Misc_ParalysisEnableLabel>
+  <MI_Settings_Features_Misc_ParalysisEnableTooltip>활성화하면, 심각한 척수 손상을 입은 폰이 마비를 겪어 팔다리를 부분적 또는 완전히 움직이거나 제어할 수 없게 될 수 있습니다.\n\n인생을 바꾸는 되돌릴 수 없는 상태입니다.</MI_Settings_Features_Misc_ParalysisEnableTooltip>
+  <MI_Settings_Features_Misc_ParalysisDamageThresholdLabel>마비 손상 임계치 (50% point): {VALUE} (default: {DEFAULT})</MI_Settings_Features_Misc_ParalysisDamageThresholdLabel>
+  <MI_Settings_Features_Misc_ParalysisDamageThresholdTooltip>전체 사례의 50%에서 마비를 일으키는 데 필요한 척수 손상량입니다. 실제 마비 확률은 입은 손상량에 비례하여 증가합니다.</MI_Settings_Features_Misc_ParalysisDamageThresholdTooltip>
+  <MI_Settings_Features_Misc_IntestinalSpillChanceLabel>피해에 의해 장 내용물 유출 확률: {VALUE} (default: {DEFAULT})</MI_Settings_Features_Misc_IntestinalSpillChanceLabel>
+  <MI_Settings_Features_Misc_IntestinalSpillChanceTooltip>복부에 심각한 손상을 입은 후 폰이 장 내용물이 유출될 확률입니다. 심각한 감염과 위산 화상을 초래할 수 있습니다.</MI_Settings_Features_Misc_IntestinalSpillChanceTooltip>
+  <MI_Settings_Features_Misc_BloodHarvestMinSkillLabel>혈액 채취를 위한 최소 의학 레벨: {VALUE} (default: {DEFAULT})</MI_Settings_Features_Misc_BloodHarvestMinSkillLabel>
+  <MI_Settings_Features_Misc_BloodHarvestMinSkillTooltip>쓰러진 폰으로부터 수혈용 혈액을 채취하기 위한 최소 의료 숙련도입니다.</MI_Settings_Features_Misc_BloodHarvestMinSkillTooltip>
+  <MI_UseBandages>붕대로 안정화</MI_UseBandages>
+  <MI_UseBandagesFailed_Unavailable>{0}: 사용 가능한 붕대 없음</MI_UseBandagesFailed_Unavailable>
+  <MI_UseHemostaticAgent>지혈제로 안정화</MI_UseHemostaticAgent>
+  <MI_UseHemostaticAgentFailed_Unavailable>{0}: 사용 가능한 지혈제 없음</MI_UseHemostaticAgentFailed_Unavailable>
+  <MI_UseTourniquet>지혈대 적용</MI_UseTourniquet>
+  <MI_UseTourniquetFailed_Unavailable>사용 가능한 지혈대 없음</MI_UseTourniquetFailed_Unavailable>
+  <MI_RemoveTourniquet>지혈대 제거</MI_RemoveTourniquet>
+  <MI_TourniquetGizmo_UseLabel>{BODYPART}에 지혈대 적용</MI_TourniquetGizmo_UseLabel>
+  <MI_TourniquetGizmo_RemoveLabel>{BODYPART}의 지혈대 제거</MI_TourniquetGizmo_RemoveLabel>
+  <MI_TourniquetGizmo_RemoveQuicklyLabel>{BODYPART}의 지혈대 제거(신속하게)</MI_TourniquetGizmo_RemoveQuicklyLabel>
+  <MI_TourniquetGizmo_Description>스스로에게 지혈대를 적용합니다</MI_TourniquetGizmo_Description>
+  <MI_TourniquetGizmo_Downed_Description>쓰러졌을 때, 폰은 여전히 스스로 지혈대를 적용할 수 있습니다.</MI_TourniquetGizmo_Downed_Description>
+  <MI_TourniquetFloatMenu_UseLabel>{PATIENTNAME}의 {BODYPART}에 지혈대 적용</MI_TourniquetFloatMenu_UseLabel>
+  <MI_TourniquetFloatMenu_RemoveLabel>{PATIENTNAME}의 {BODYPART}(으)로부터 지혈대 제거</MI_TourniquetFloatMenu_RemoveLabel>
+  <MI_TourniquetFloatMenu_RemoveSafelyLabel>{BODYPART}에서 지혈대 제거(안전하게)</MI_TourniquetFloatMenu_RemoveSafelyLabel>
+  <MI_TourniquetFloatMenu_RemoveQuicklyLabel>{BODYPART}에서 지혈대 제거(신속하게)</MI_TourniquetFloatMenu_RemoveQuicklyLabel>
+  <MI_HarvestBlood>혈액 추출 ({PATIENT_labelShort}(을)를 죽임)</MI_HarvestBlood>
+  <MI_HarvestBloodFailed_MissingMedicalSkill>{0}: 의학 레벨 충족되지 않음({1})</MI_HarvestBloodFailed_MissingMedicalSkill>
+  <MI_UseBloodBag>수혈</MI_UseBloodBag>
+  <MI_UseSalineBag>생리식염수 정맥 주입</MI_UseSalineBag>
+  <MI_UseBloodBagFailed_Unavailable>{0}: 사용 가능한 혈액백 없음</MI_UseBloodBagFailed_Unavailable>
+  <MI_DonateBloodFailed_MissingBloodVolume_Message>{PATIENT_labelShort}(은)는 헌혈을 하기 위한 충분한 피를 보유하고 있지 않습니다.</MI_DonateBloodFailed_MissingBloodVolume_Message>
+  <MI_InjuryEnclosed_Label>폐쇄됨</MI_InjuryEnclosed_Label>
+  <MI_InjuryEnclosed_Tooltip>폐쇄된 내부 상처, 출혈 속도 {PERCENT}% 감소</MI_InjuryEnclosed_Tooltip>
+  <MI_InjuryBleeding_ManuallyReduced_Label>허혈</MI_InjuryBleeding_ManuallyReduced_Label>
+  <MI_InjuryBleeding_ManuallyReduced_Tooltip>허혈, 출혈 속도 {PERCENT}% 감소</MI_InjuryBleeding_ManuallyReduced_Tooltip>
+  <MI_InjuryBleeding_TemporarilyReduced_Label>지혈: {TIME}</MI_InjuryBleeding_TemporarilyReduced_Label>
+  <MI_InjuryBleeding_TemporarilyReduced_Tooltip>지혈: {TIME}, 출혈 속도 {PERCENT}% 감소</MI_InjuryBleeding_TemporarilyReduced_Tooltip>
+  <MI_InjuryBleeding_EffectiveBleedRate_Tooltip>실질적 출혈 빈도: {PERCENT}%</MI_InjuryBleeding_EffectiveBleedRate_Tooltip>
+  <MI_InjuryBleeding_CrossInteraction_Tooltip_Header>에 의해 영향을 받음</MI_InjuryBleeding_CrossInteraction_Tooltip_Header>
+  <MI_InjuryBleeding_CrossInteraction_Tooltip>- {HEDIFF_label}: +{PERCENT}%</MI_InjuryBleeding_CrossInteraction_Tooltip>
+  <MI_UseDefibrillator>제세동</MI_UseDefibrillator>
+  <MI_UseDefibrillatorFailed_Unavailable>{0}: 사용 가능한 제세동기 없음</MI_UseDefibrillatorFailed_Unavailable>
+  <MI_PerformCpr>CPR 수행</MI_PerformCpr>
+  <MI_UseSuctionDevice>기도 확보</MI_UseSuctionDevice>
+  <MI_UseSuctionDeviceFailed_Unavailable>{0}: 사용 가능한 흡입기 없음</MI_UseSuctionDeviceFailed_Unavailable>
+  <MI_Coughing>기짐하는 중</MI_Coughing>
+  <MI_UseEpinephrine>에피네프린 주사</MI_UseEpinephrine>
+  <MI_UseMorphine>모르핀 주사</MI_UseMorphine>
+  <MI_UseKetamine>진정(케타민)</MI_UseKetamine>
+  <MI_UseChloroform>진정(클로로포름)</MI_UseChloroform>
+  <MI_ProvideFirstAid>응급처치 수행</MI_ProvideFirstAid>
+  <MI_UseSplint>골절 부목 적용</MI_UseSplint>
+  <MI_UseSplintFailed_Unavailable>{0}: 사용 가능한 부목 없음</MI_UseSplintFailed_Unavailable>
+</LanguageData>
