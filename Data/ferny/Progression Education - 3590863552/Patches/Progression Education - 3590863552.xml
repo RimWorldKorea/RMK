@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Blackboard"]/label</xpath>
+    <value>
+      <label>칠판 (1x2)</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="SchoolDesk"]/description</xpath>
+    <value>
+      <description>학생들이 수업을 배울 수 있는 책상입니다. 대부분의 수업을 괜찮은 속도로 진행합니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Blackboard"]/description</xpath>
+    <value>
+      <description>분필로 글을 쓰기 위한 돌 같은 질감의 평평한 판입니다. 칠판을 설치한 방은 교실로 지정되며 수업을 배정할 수 있습니다.</description>
+    </value>
+  </Operation>
+</Patch>
