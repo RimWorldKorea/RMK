@@ -57,8 +57,8 @@
   <PE_NotParticipating>참여하지 않음</PE_NotParticipating>
   <PE_TeacherRole>교사</PE_TeacherRole>
   <PE_StudentRole>학생</PE_StudentRole>
-  <PE_TeacherRoleOnlyForAdults>미성년자는 교사가 될 수 없습니다.</PE_TeacherRoleOnlyForAdults>
-  <PE_TeacherRoleRequiresSocialSkill>사교가 불가능하여 교사가 될 수 없습니다.</PE_TeacherRoleRequiresSocialSkill>
+  <PE_TeacherRoleOnlyForAdults>교사는 성인이어야 합니다.</PE_TeacherRoleOnlyForAdults>
+  <PE_TeacherRoleRequiresSocialSkill>교사는 사교 활동이 가능해야 합니다.</PE_TeacherRoleRequiresSocialSkill>
   <PE_ClassCancelled>수업 취소됨: {0}</PE_ClassCancelled>
   <PE_ClassCancelledDesc>모든 학생이 제때 수업에 참석하지 않아 "{0}" 수업이 취소되었습니다.</PE_ClassCancelledDesc>
   <PE_MissingStudents>결석자: {0}</PE_MissingStudents>
@@ -66,13 +66,13 @@
   <PE_ClassCompletedDesc>성공적으로 "{0}" 수업이 학기를 마쳤습니다.</PE_ClassCompletedDesc>
   <PE_ClassGraduates>졸업생: {0}</PE_ClassGraduates>
   <PE_CannotEquipItem>{0} 숙련을 습득해야 사용할 수 있습니다.</PE_CannotEquipItem>
-  <PE_ProficiencyLowTech>냉병기</PE_ProficiencyLowTech>
-  <PE_ProficiencyFirearm>화기</PE_ProficiencyFirearm>
+  <PE_ProficiencyLowTech>고전 장비</PE_ProficiencyLowTech>
+  <PE_ProficiencyFirearm>현대 장비</PE_ProficiencyFirearm>
   <PE_ProficiencyHighTech>첨단 장비</PE_ProficiencyHighTech>
   <PE_StudentNotQualifiedProficiency>{0}(은)는 {1} 숙련을 습득하지 않았습니다.</PE_StudentNotQualifiedProficiency>
   <PE_StudentAlreadyHasProficiency>{0}(은)는 {1} 이상의 속련을 보유하고 있습니다.</PE_StudentAlreadyHasProficiency>
-  <PE_CannotParticipateScheduled>참여 불가: {0}:00-{1}:00 동안 "{2}" 수업 일정이 존재합니다.</PE_CannotParticipateScheduled>
-  <PE_CannotRescheduleScheduled>일정 조정 불가: {0}(은)는 {1}:00-{2}:00 동안 "{3}" 수업 일정이 존재합니다.</PE_CannotRescheduleScheduled>
+  <PE_CannotParticipateScheduled>참여 불가: {0}:00-{1}:00 동안 "{2}" 수업 일정에 배정되었습니다.</PE_CannotParticipateScheduled>
+  <PE_CannotRescheduleScheduled>일정 조정 불가: {0}(은)는 {1}:00-{2}:00 동안 "{3}" 수업 일정에 배정되었습니다.</PE_CannotRescheduleScheduled>
   <PE_TrainingProficiency>{0} 숙련 수업</PE_TrainingProficiency>
   <PE_TeacherNotQualifiedProficiency>{0}(은)는 수업을 위한 {1} 숙련을 습득하지 않았습니다.</PE_TeacherNotQualifiedProficiency>
   <PE_TrainingSkill>{0} 기술 수업</PE_TrainingSkill>
@@ -102,4 +102,6 @@
   <PE_ClassCancelledOffMap>오늘의 {0} 수업이 취소되었습니다. 대상이 지역 밖에 존재합니다.</PE_ClassCancelledOffMap>
   <PE_ClassCancelledToday>오늘의 {0} 수업이 취소되었습니다.</PE_ClassCancelledToday>
   <PE_NoClassesScheduled>예정된 수업이 없습니다. 버튼을 클릭하여 수업을 만드세요.</PE_NoClassesScheduled>
+  <PE_TriedToEquipButCouldNotDueToLackOfProficiency>{0}(이)가 숙련 부족으로 {1}의 장착에 실패함</PE_TriedToEquipButCouldNotDueToLackOfProficiency>
+  <PE_CreateClassroomFirst>교실이 필요합니다.</PE_CreateClassroomFirst>
 </LanguageData>
