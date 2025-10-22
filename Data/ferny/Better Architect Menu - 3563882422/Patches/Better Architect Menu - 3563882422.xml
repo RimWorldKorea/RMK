@@ -206,16 +206,16 @@
   </Operation>
   <Operation Class="PatchOperationFindMod">
     <mods>
-      <li>UNAGI Decorative Furniture</li>
+      <li>Vanilla Storytellers Expanded - Winston Waves</li>
     </mods>
     <match Class="PatchOperationSequence">
       <success>Always</success>
       <operations>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/DesignationCategoryDef[defName="UNAGI_Furniture"]/label</xpath>
+          <xpath>/Defs/ThingDef[defName="VESWW_RewardDropSpot"]/label</xpath>
           <value>
-            <label>기타 장식</label>
+            <label>이야기꾼 보상 낙하 지점</label>
           </value>
         </li>
       </operations>
