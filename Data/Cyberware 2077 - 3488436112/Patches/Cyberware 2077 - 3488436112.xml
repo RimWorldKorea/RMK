@@ -70,6 +70,20 @@
             <label>주먹</label>
           </value>
         </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="Monowire_EMP_5T"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <label>모노와이어</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="Monowire_EMP_5T"]/comps/li[1]/tools/li[2]/label</xpath>
+          <value>
+            <label>주먹</label>
+          </value>
+        </li>
       </operations>
     </match>
   </Operation>
