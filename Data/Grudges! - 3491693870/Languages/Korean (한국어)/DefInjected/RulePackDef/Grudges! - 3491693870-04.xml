@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DW_GrudgeDescription.rulePack.rulesStrings>
+    <li>desc-&gt;[intro] [target] 상대로 [crime] [declarant] [end]</li>
+    <li>intro(own==1)-&gt;[Victim_factionName] 의회는 다음과 같은 원한을 목격했음을 기록하노니,</li>
+    <li>intro(own==1)-&gt;[Victim_factionName] 의회는 다음과 같은 원한을 목격했음을 기록하노니,</li>
+    <li>intro(own==1)-&gt;[Victim_factionName] 의회는 다음과 같은 원한을 목격했음을 기록하노니,</li>
+    <li>intro(own==1)-&gt;[Victim_factionName] 의회는 이 원한이 다음에 의해 선언되었음을 공식적으로 인정하노니,</li>
+    <li>intro(own==0)-&gt;변방계의 의회는 다음과 같은 원한을 목격했음을 기록하노니,</li>
+    <li>intro(own==0)-&gt;변방계의 의회는 다음에 의해 선언된 이 원한을 공식적으로 승인하노니</li>
+    <li>intro(own==0)-&gt;변방계의 의회는 다음과 같은 원한을 목격했음을 기록하노니,</li>
+    <li>intro(own==0)-&gt;변방계의 의회는 이 원한이 다음에 의해 선언되었음을 공식적으로 목격하노니</li>
+    <li>declarant(posthumous==0)-&gt;[Wronged_nameFull](이)가 선언하노라.</li>
+    <li>declarant(posthumous==1)-&gt;고(故) [Victim_nameFull](을)를 대신하여 [Wronged_nameFull](이)가 선언하노라.</li>
+    <li>declarant(posthumous==1)-&gt;[Victim_nameFull](을)를 추서하며 [Wronged_nameFull](이)가 선언한다.</li>
+    <li>declarant(posthumous==1)-&gt;[Wronged_nameFull](이)가 [Wronged_possessive] [friendo] [Victim_nameFull](을)를 위하여 선언하노라.</li>
+    <li>target(target==1)-&gt;[FactionWrong]의 [Target_nameFull]</li>
+    <li>target(target==0)-&gt;[FactionWrong]의 사람들</li>
+    <li>target(target==0)-&gt;[FactionWrong]</li>
+    <li>crime(reason==0)-&gt;[Victim_nameFull]의 끔찍한 살해에 대하여</li>
+    <li>crime(reason==0)-&gt;[Victim_nameFull](을)를 살해한 죄로</li>
+    <li>crime(reason==0)-&gt;이 세상에서 [Victim_nameFull](을)를 앗아간 죄로</li>
+    <li>crime(reason==0)-&gt;[Victim_nameFull]의 잔혹한 살해에 대하여</li>
+    <li>crime(reason==1)-&gt;[ColonyName]에 대한 [raiding]에 대하여</li>
+    <li>crime(reason==2)-&gt;[Victim_nameFull](을)를 납치한 죄로</li>
+    <li>crime(reason==2)-&gt;[Victim_nameFull](을)를 친구와 가족에게서 빼앗은 죄로</li>
+    <li>crime(reason==2)-&gt;[Victim_nameFull](을)를 친구들에게서 떼어놓은 죄로</li>
+    <li>crime(reason==3)-&gt;[Wronged_nameFull]의 사랑하는 반려 [Victim_nameFull](을)를 죽인 죄로</li>
+    <li>crime(reason==3)-&gt;정착지의 사랑받는 [Victim_kind] 반려동물을 죽인 죄로</li>
+    <li>crime(reason==4)-&gt;[ColonyName]의 사람들을 학살한 죄로</li>
+    <li>crime(reason==4)-&gt;[ColonyName]의 사람들을 무자비하게 죽인 죄로</li>
+    <li>crime(reason==4)-&gt;[ColonyName]의 학살된 무고한 이들을 복수하기 위하여</li>
+    <li>crime(reason==5)-&gt;[Wronged_nameFull]의 조상들을 모욕한 죄로</li>
+    <li>crime(reason==5)-&gt;[Wronged_nameFull]의 업적과 유산을 모욕한 죄로</li>
+    <li>crime(reason==5)-&gt;[Wronged_nameFull](이)가 [Target_possessive] 대장간 작품을 훔쳤다고 누명 씌운 죄로</li>
+    <li>crime(reason==5)-&gt;[Wronged_nameFull]의 작품을 [Target_possessive] 자신의 것이라 주장한 죄로</li>
+    <li>crime(reason==6)-&gt;모드 페이지에 이를 보고해 주세요</li>
+    <li>end-&gt;조상을 위하여!</li>
+    <li>end-&gt;조상 신들을 위하여!</li>
+    <li>end-&gt;이 죄는 벌을 피하지 못할 것이다!</li>
+    <li>end-&gt;이것은 용서될 수 없다!</li>
+    <li>end-&gt;명예와 영광을 위하여!</li>
+    <li>end-&gt; 와아아아!</li>
+    <li>end-&gt;피의 대가를 치르게 하라!</li>
+    <li>end-&gt;이 일은 잊히지 않을 것이다!</li>
+    <li>end-&gt;그들은 후회하게 될 것이다!</li>
+    <li>end-&gt;피의 신을 위하여 피를!</li>
+    <li>end-&gt;해골 옥좌를 위하여 해골을!</li>
+    <li>friendo-&gt;측근</li>
+    <li>friendo-&gt;친구</li>
+    <li>friendo-&gt;사랑하는 이</li>
+    <li>friendo-&gt;신뢰하는 이</li>
+    <li>friendo-&gt;동맹</li>
+    <li>raiding-&gt;습격</li>
+    <li>raiding-&gt;약탈</li>
+    <li>raiding-&gt;불태움</li>
+    <li>raiding-&gt;파괴</li>
+    <li>raiding-&gt;초토화</li>
+  </DW_GrudgeDescription.rulePack.rulesStrings>
+</LanguageData>
