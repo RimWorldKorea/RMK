@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AutoArm_ModName>AutoArm</AutoArm_ModName>
+  <AutoArm_SettingsCategory>- Auto Arm -</AutoArm_SettingsCategory>
+  <AutoArm_Settings>설정</AutoArm_Settings>
+  <AutoArm_ResetConfig>설정 초기화</AutoArm_ResetConfig>
+  <AutoArm_General>일반</AutoArm_General>
+  <AutoArm_Compatibility>호환성</AutoArm_Compatibility>
+  <AutoArm_Advanced>고급</AutoArm_Advanced>
+  <AutoArm_Debug>디버그</AutoArm_Debug>
+  <AutoArm_DisableDuringRaids>습격 중 비활성화</AutoArm_DisableDuringRaids>
+  <AutoArm_DisableDuringRaidsDesc>대규모 공격(습격/위협) 시 자동 장비 기능을 일시적으로 비활성화하여 성능을 향상시킵니다. 다른 모드와의 호환성도 좋아집니다.</AutoArm_DisableDuringRaidsDesc>
+  <AutoArm_OnlyEquipFromStorage>저장고에서만 자동 장비</AutoArm_OnlyEquipFromStorage>
+  <AutoArm_OnlyEquipFromStorageDesc>활성화 시, 정착민은 저장 구역이나 보관함(창고, 선반 등)에 있는 무기만 자동으로 장착합니다. (기본 의류 시스템과 동일)</AutoArm_OnlyEquipFromStorageDesc>
+  <AutoArm_ConfirmReset>모든 설정을 기본값으로 재설정하시겠습니까?</AutoArm_ConfirmReset>
+  <AutoArm_PocketSand>포켓 샌드</AutoArm_PocketSand>
+  <AutoArm_PocketSandDesc>Auto Arm은 Pocket Sand의 장비 지연 시스템과 통합됩니다. 무기는 무게에 따라 현실적인 속도로 장비됩니다.</AutoArm_PocketSandDesc>
+  <AutoArm_StatusOverview>상태 요약</AutoArm_StatusOverview>
+  <AutoArm_AllowForcedWeaponUpgrades>강제 무기 품질 업그레이드 허용</AutoArm_AllowForcedWeaponUpgrades>
+  <AutoArm_AllowForcedWeaponUpgradesDesc>활성화 시, 정착민은 강제로 장착된 무기를 동일 종류의 더 나은 품질로 업그레이드할 수 있습니다. (예: 일반 리볼버 → 걸작 리볼버)</AutoArm_AllowForcedWeaponUpgradesDesc>
+  <AutoArm_AllowTemporaryColonists>임시 정착민 자동 장비 허용</AutoArm_AllowTemporaryColonists>
+  <AutoArm_AllowTemporaryColonistsDesc>활성화 시, 임시 정착민(의뢰 방문자, 대여 정착민, 귀족 손님 등)도 무기를 자동으로 장비할 수 있습니다.</AutoArm_AllowTemporaryColonistsDesc>
+  <AutoArm_EnableMod>모드 활성화</AutoArm_EnableMod>
+  <AutoArm_EnableModDesc>활성화 시, 정착민은 복장 정책에 따라 더 나은 무기를 자동으로 장비합니다. 비활성화 시, 모든 자동 무기 관리가 꺼집니다.</AutoArm_EnableModDesc>
+  <AutoArm_ShowNotifications>알림 표시</AutoArm_ShowNotifications>
+  <AutoArm_ShowNotificationsDesc>정착민이 무기를 장착하거나 업그레이드할 때 알림 메시지를 표시합니다.</AutoArm_ShowNotificationsDesc>
+  <AutoArm_EquippedWeapon>{0}(이)가 {1}(을)를 장착했습니다.</AutoArm_EquippedWeapon>
+  <AutoArm_UpgradedWeapon>{0}(이)가 {1}에서 {2}(으)로 업그레이드했습니다.</AutoArm_UpgradedWeapon>
+  <AutoArm_UpgradedSidearm>{0}(이)가 보조무기를 {1}에서 {2}(으)로 업그레이드했습니다.</AutoArm_UpgradedSidearm>
+  <AutoArm_EquippedSidearm>{0}(이)가 보조무기 {1}(을)를 장착했습니다.</AutoArm_EquippedSidearm>
+  <AutoArm_EquippingSidearm>{0}(이)가 {1}(을)를 보조무기로 집고 있습니다.</AutoArm_EquippingSidearm>
+  <AutoArm_ReplacedWeapon>{0}(이)가 {1}(을)를 {2}(으)로 교체했습니다.</AutoArm_ReplacedWeapon>
+  <AutoArm_ForceWeapon>결속 무기 자동 강제</AutoArm_ForceWeapon>
+  <AutoArm_ForceWeaponDesc>활성화 시, 결속된 페르소나 무기는 자동으로 강제 장비 상태가 되어 교체되지 않습니다.</AutoArm_ForceWeaponDesc>
+  <AutoArm_AutoequipSpeedBoost>자동 장비 속도 향상</AutoArm_AutoequipSpeedBoost>
+  <AutoArm_AutoequipSpeedBoostTooltip>정착민이 새 무기를 장비하기 위해 달립니다. (기본값 = 1.0)</AutoArm_AutoequipSpeedBoostTooltip>
+  <AutoArm_DropBiocodedWeapons>생체인증 무기 버리기</AutoArm_DropBiocodedWeapons>
+  <AutoArm_CheckEnemyCorpses>적 시체 확인</AutoArm_CheckEnemyCorpses>
+  <AutoArm_CheckGuestCorpses>손님 시체 확인</AutoArm_CheckGuestCorpses>
+  <AutoArm_CheckColonistCorpses>정착민 시체 확인</AutoArm_CheckColonistCorpses>
+  <AutoArm_EnableForSlaves>노예 적용</AutoArm_EnableForSlaves>
+  <AutoArm_OnlyArmedEnemies>무장한 적 시체만 확인</AutoArm_OnlyArmedEnemies>
+  <AutoArm_OnlyArmedGuests>무장한 손님 시체만 확인</AutoArm_OnlyArmedGuests>
+  <AutoArm_OnlyArmedColonists>무장한 정착민 시체만 확인</AutoArm_OnlyArmedColonists>
+  <AutoArm_EnableCivilianMode>비전투 모드 활성화</AutoArm_EnableCivilianMode>
+  <AutoArm_CivilianModeTooltip>평화 시기에는 정착민이 높은 재미 상태에서 무기를 내려놓고, 소집되거나 재미가 낮아지면 다시 집습니다.</AutoArm_CivilianModeTooltip>
+  <AutoArm_CivilianJoyThreshold>비전투 모드 재미 임계값</AutoArm_CivilianJoyThreshold>
+  <AutoArm_EquipFirstWeapon>폰 → 첫 무기 장착</AutoArm_EquipFirstWeapon>
+  <AutoArm_PawnSettings>폰 설정</AutoArm_PawnSettings>
+  <AutoArm_CompatibilityPatches>호환성 패치</AutoArm_CompatibilityPatches>
+  <AutoArm_SimpleSidearms>Simple Sidearms</AutoArm_SimpleSidearms>
+  <AutoArm_CombatExtended>Combat Extended</AutoArm_CombatExtended>
+  <AutoArm_Loaded>활성</AutoArm_Loaded>
+  <AutoArm_NotFound>찾을 수 없음</AutoArm_NotFound>
+  <AutoArm_EnableSidearmAutoEquip>보조무기 자동 장착 허용</AutoArm_EnableSidearmAutoEquip>
+  <AutoArm_EnableSidearmAutoEquipDesc>정착민이 추가 무기를 보조무기로 자동 장착할 수 있습니다.</AutoArm_EnableSidearmAutoEquipDesc>
+  <AutoArm_AllowSidearmUpgrades>보조무기 업그레이드 허용</AutoArm_AllowSidearmUpgrades>
+  <AutoArm_AllowSidearmUpgradesDesc>활성화 시, 정착민이 기존 보조무기를 더 나은 품질로 업그레이드합니다. (실험적 기능)</AutoArm_AllowSidearmUpgradesDesc>
+  <AutoArm_RequireAmmunition>탄약 요구</AutoArm_RequireAmmunition>
+  <AutoArm_RequireAmmunitionDesc>활성화 시, 정착민은 적절한 탄약이 있을 때만 무기를 장비합니다.</AutoArm_RequireAmmunitionDesc>
+  <AutoArm_CEAmmoSystemDisabled>⚠ CE 탄약 시스템 비활성화됨</AutoArm_CEAmmoSystemDisabled>
+  <AutoArm_SimpleSidearmsSeparate>SimpleSidearms (v1.5.0.2): 보조무기를 별도 고려</AutoArm_SimpleSidearmsSeparate>
+  <AutoArm_SimpleSidearmsSeparateTooltip>활성화 시, 개체는 주무기와 별도로 보조무기를 탐색하고 장비합니다.</AutoArm_SimpleSidearmsSeparateTooltip>
+  <AutoArm_SimpleSidearmsReflectionFailed>⚠ SimpleSidearms 통합 실패 - 리플렉션 오류. 해당 기능은 비활성화됩니다.</AutoArm_SimpleSidearmsReflectionFailed>
+  <AutoArm_CheckCEAmmo>탄약 확인</AutoArm_CheckCEAmmo>
+  <AutoArm_CheckCEAmmoDesc>활성화 시, 정착민은 적절한 탄약이 있을 때만 무기를 집습니다. 비활성화 시, 탄약이 없는 무기를 소지할 수 있습니다.</AutoArm_CheckCEAmmoDesc>
+  <AutoArm_CombatExtendedAmmo>CombatExtended: 무기에 탄약 요구</AutoArm_CombatExtendedAmmo>
+  <AutoArm_WeaponStorageSharing>WeaponStorage: 락커 간 무기 공유 허용</AutoArm_WeaponStorageSharing>
+  <AutoArm_DetectedMods>호환 모드 감지됨</AutoArm_DetectedMods>
+  <AutoArm_NoCompatModsDetected>없음 - 기본 게임 기능만 사용 중</AutoArm_NoCompatModsDetected>
+  <AutoArm_WeaponUpgrades>무기 업그레이드</AutoArm_WeaponUpgrades>
+  <AutoArm_Threshold>임계값</AutoArm_Threshold>
+  <AutoArm_ThresholdDesc>정착민이 무기를 교체하기 위해 얼마나 더 나은 무기여야 하는지를 설정합니다. 낮을수록 교체 빈도가 높습니다.</AutoArm_ThresholdDesc>
+  <AutoArm_WeaponPreference>무기 선호도</AutoArm_WeaponPreference>
+  <AutoArm_WeaponPreferenceDesc>정착민 전체의 원거리/근접 무기 선호도를 조정합니다.</AutoArm_WeaponPreferenceDesc>
+  <AutoArm_AgeRestrictions>연령 제한</AutoArm_AgeRestrictions>
+  <AutoArm_AllowChildrenToEquipWeapons>자동 장비에 사용자 지정 연령 제한 적용</AutoArm_AllowChildrenToEquipWeapons>
+  <AutoArm_AllowChildrenToEquipWeaponsDesc>왼쪽으로 이동하면 어린이 민병대가 더 빨리 자동 무장하고, 오른쪽으로 이동하면 안전하게 지연됩니다. 아이들은 무기 무게 검사도 무시합니다. (절대 버그 아님)</AutoArm_AllowChildrenToEquipWeaponsDesc>
+  <AutoArm_MinimumAge>최소 연령</AutoArm_MinimumAge>
+  <AutoArm_MinimumAgeDesc>자동 무장 시작 최소 연령</AutoArm_MinimumAgeDesc>
+  <AutoArm_StrongMeleePreference>강한 근접 선호</AutoArm_StrongMeleePreference>
+  <AutoArm_ModerateMeleePreference>중간 근접 선호</AutoArm_ModerateMeleePreference>
+  <AutoArm_SlightMeleePreference>약한 근접 선호</AutoArm_SlightMeleePreference>
+  <AutoArm_Balanced>균형 (선호 없음)</AutoArm_Balanced>
+  <AutoArm_SlightRangedPreference>약한 원거리 선호</AutoArm_SlightRangedPreference>
+  <AutoArm_ModerateRangedPreference>중간 원거리 선호</AutoArm_ModerateRangedPreference>
+  <AutoArm_StrongRangedPreference>강한 원거리 선호</AutoArm_StrongRangedPreference>
+  <AutoArm_RiskOfWeaponSwapLoops>무기 교체 루프 위험</AutoArm_RiskOfWeaponSwapLoops>
+  <AutoArm_WhatCouldGoWrong>⚠ 랜디 승인됨!</AutoArm_WhatCouldGoWrong>
+  <AutoArm_EquipDelay>장비 지연</AutoArm_EquipDelay>
+  <AutoArm_EquipDelayTooltip>무기 검사 간 최소 시간(초)</AutoArm_EquipDelayTooltip>
+  <AutoArm_SearchRadius>탐색 반경</AutoArm_SearchRadius>
+  <AutoArm_SearchRadiusTooltip>정착민이 무기를 탐색하는 거리(타일 단위)</AutoArm_SearchRadiusTooltip>
+  <AutoArm_ThinkTrees>삽입할 사고 트리(쉼표로 구분)</AutoArm_ThinkTrees>
+  <AutoArm_EnablePerformanceMode>성능 모드 활성화</AutoArm_EnablePerformanceMode>
+  <AutoArm_EnablePerformanceModeTooltip>정착지 규모에 따라 검사 빈도를 자동 조정해 성능을 개선합니다.</AutoArm_EnablePerformanceModeTooltip>
+  <AutoArm_WeaponScoring>무기 점수</AutoArm_WeaponScoring>
+  <AutoArm_ScoreFormula>점수 = (기본 가치 × 가치 가중치) + (DPS × DPS 가중치)</AutoArm_ScoreFormula>
+  <AutoArm_ValueWeight>가치 가중치</AutoArm_ValueWeight>
+  <AutoArm_DPSWeight>DPS 가중치</AutoArm_DPSWeight>
+  <AutoArm_ImportantNote>중요: 둘 다 0으로 설정 시 Auto Arm 비활성화</AutoArm_ImportantNote>
+  <AutoArm_EnableVerboseLogging>상세 로그 활성화</AutoArm_EnableVerboseLogging>
+  <AutoArm_EnableDebugLogging>디버그 로그 활성화</AutoArm_EnableDebugLogging>
+  <AutoArm_EnableDebugLoggingDesc>문제 해결을 위해 디버그 로그에 세부 정보를 출력합니다. 많은 로그가 생성되어 성능에 영향을 줄 수 있습니다. 문제 보고 시에만 활성화하세요.</AutoArm_EnableDebugLoggingDesc>
+  <AutoArm_DebugColumns>디버그 열</AutoArm_DebugColumns>
+  <AutoArm_DumpCachedScores>캐시된 무기 점수를 로그로 덤프</AutoArm_DumpCachedScores>
+  <AutoArm_RunAllTests>모든 테스트 실행</AutoArm_RunAllTests>
+  <AutoArm_ClickToRun>클릭하여 실행</AutoArm_ClickToRun>
+  <AutoArm_RunTestSet>테스트 세트 실행: {0}</AutoArm_RunTestSet>
+  <AutoArm_DebugRequiresActiveGame>디버그 도구는 활성 게임이 필요합니다.</AutoArm_DebugRequiresActiveGame>
+  <AutoArm_DebugTools>Auto Arm 디버그 도구</AutoArm_DebugTools>
+  <AutoArm_RunPerformanceTest>포괄 성능 테스트 실행</AutoArm_RunPerformanceTest>
+  <AutoArm_TestWeaponDetection>무기 감지 및 개체 검증 테스트</AutoArm_TestWeaponDetection>
+  <AutoArm_CopyTestResults>테스트 결과 복사</AutoArm_CopyTestResults>
+  <AutoArm_TestResultsCopied>테스트 결과가 클립보드에 복사되었습니다.</AutoArm_TestResultsCopied>
+  <AutoArm_NoTestResultsToCopy>복사할 테스트 결과가 없습니다.</AutoArm_NoTestResultsToCopy>
+  <AutoArm_SaveBeforeTouching>무언가 하기 전에 저장하세요.</AutoArm_SaveBeforeTouching>
+  <AutoArm_Shortcuts>단축키: F5=테스트 실행, F6=결과 복사</AutoArm_Shortcuts>
+  <AutoArm_BondedWeaponsForced>{0} 결속 무기{1}(을)를 강제 장비로 표시했습니다.</AutoArm_BondedWeaponsForced>
+  <AutoArm_SettingsLoaded>오토암 설정이 불러와졌습니다.</AutoArm_SettingsLoaded>
+  <AutoArm_SettingsSaved>오토암 설정이 저장되었습니다.</AutoArm_SettingsSaved>
+  <AutoArm_SettingsReset>오토암 설정이 기본값으로 초기화되었습니다.</AutoArm_SettingsReset>
+  <AutoArm_ResetToDefaults>기본값으로 재설정</AutoArm_ResetToDefaults>
+  <AutoArm_NoTestDef>defName이 {0}인 AutoArmTestDef를 찾을 수 없습니다.</AutoArm_NoTestDef>
+  <AutoArm_NoWorkerInstance>AutoArmTestDef {0}에 workerInstance가 없습니다.</AutoArm_NoWorkerInstance>
+  <AutoArm_TestCompleted>테스트 {0} 완료됨</AutoArm_TestCompleted>
+  <AutoArm_TestError>테스트 {0} 실행 중 오류: {1}</AutoArm_TestError>
+  <AutoArm_AllTestsRun>모든 Auto Arm 테스트가 실행되었습니다.</AutoArm_AllTestsRun>
+  <AutoArm_RunningAllTests>모든 Aut oArm 테스트 실행 중...</AutoArm_RunningAllTests>
+  <AutoArm_CachedScoresDumped>캐시된 무기 점수가 로그로 출력되었습니다.</AutoArm_CachedScoresDumped>
+  <AutoArm_TestRunner>테스트 실행기</AutoArm_TestRunner>
+  <AutoArm_RunSpecificTest>특정 테스트 실행</AutoArm_RunSpecificTest>
+  <AutoArm_ExportLogs>디버그 로그 내보내기</AutoArm_ExportLogs>
+  <AutoArm_TestResults>테스트 결과</AutoArm_TestResults>
+  <AutoArm_TestDescription>{0} 테스트</AutoArm_TestDescription>
+  <AutoArm_ThinkTreeNotInjected>오토암: 사고 트리 미삽입 - 모드가 작동하지 않습니다!</AutoArm_ThinkTreeNotInjected>
+  <AutoArm_ThinkTreeInjected>오토암: 사고 트리가 올바르게 삽입되었습니다.</AutoArm_ThinkTreeInjected>
+  <AutoArm_ModDisabled>오토암: 설정에서 모드가 비활성화되었습니다!</AutoArm_ModDisabled>
+  <AutoArm_ColonistStatus>오토암: 정착민 {0}명 - 비무장 {1}명, 무장 {2}명</AutoArm_ColonistStatus>
+  <AutoArm_ThinkTreeInjectionFailed>오토암: 사고 트리 삽입 실패 - 모드가 제대로 작동하지 않습니다. 이 문제를 보고해 주세요.</AutoArm_ThinkTreeInjectionFailed>
+</LanguageData>
