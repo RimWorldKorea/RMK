@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Expanded Prosthetics and Organ Engineering - Forked</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicHeartAnimal"]/label</xpath>
+          <value>
+            <label>합성 동물 심장</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicHeartAnimal"]/labelNoun</xpath>
+          <value>
+            <labelNoun>합성 동물 심장</labelNoun>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicHeartAnimal"]/description</xpath>
+          <value>
+            <description>이식된 합성 동물 심장입니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="BionicHeartAnimal"]/label</xpath>
+          <value>
+            <label>합성 동물 심장</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="InstallBionicHeartAnimal"]/label</xpath>
+          <value>
+            <label>합성 동물 심장 이식</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="InstallBionicHeartAnimal"]/description</xpath>
+          <value>
+            <description>합성 동물 심장을 이식합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="InstallBionicHeartAnimal"]/jobString</xpath>
+          <value>
+            <jobString>합성 동물 심장 이식 중...</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicStomachAnimal"]/label</xpath>
+          <value>
+            <label>합성 동물 위</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicStomachAnimal"]/labelNoun</xpath>
+          <value>
+            <labelNoun>합성 동물 위</labelNoun>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicStomachAnimal"]/description</xpath>
+          <value>
+            <description>이식된 합성 동물 위입니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="BionicStomachAnimal"]/label</xpath>
+          <value>
+            <label>합성 동물 위</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="InstallBionicStomachAnimal"]/label</xpath>
+          <value>
+            <label>합성 동물 위 이식</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="InstallBionicStomachAnimal"]/description</xpath>
+          <value>
+            <description>합성 동물 위를 이식합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="InstallBionicStomachAnimal"]/jobString</xpath>
+          <value>
+            <jobString>합성 동물 위 이식 중...</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="SimpleProstheticHeartAnimal"]/label</xpath>
+          <value>
+            <label>동물 심장 유지장치</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="SimpleProstheticHeartAnimal"]/labelNoun</xpath>
+          <value>
+            <labelNoun>동물 심장 유지장치</labelNoun>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="SimpleProstheticHeartAnimal"]/description</xpath>
+          <value>
+            <description>이식된 동물 심장 유지장치입니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SimpleProstheticHeartAnimal"]/label</xpath>
+          <value>
+            <label>동물 심장 유지장치</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="InstallSimpleProstheticHeartAnimal"]/label</xpath>
+          <value>
+            <label>동물 심장 유지장치 이식</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="InstallSimpleProstheticHeartAnimal"]/description</xpath>
+          <value>
+            <description>동물 심장 유지장치를 이식합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="InstallSimpleProstheticHeartAnimal"]/jobString</xpath>
+          <value>
+            <jobString>동물 심장 유지장치 이식 중...</jobString>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
