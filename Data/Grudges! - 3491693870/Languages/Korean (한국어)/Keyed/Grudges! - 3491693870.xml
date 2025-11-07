@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RulePackDef>DW_GrudgeDescriptiondesc-&gt;[intro] [target] 상대로 [crime] [declarant] [end] [Victim_factionName] 의회는 다음과 같은 원한을 목격했음을 기록하노니, intro(own==1)-&gt;[Victim_factionName] 의회는 다음과 같은 원한을 목격했음을 기록하노니, intro(own==1)-&gt;[Victim_factionName] 의회는 다음과 같은 원한을 목격했음을 기록하노니, intro(own==1)-&gt;[Victim_factionName] 의회는 이 원한이 다음에 의해 선언되었음을 공식적으로 인정하노니, intro(own==0)-&gt;변방계의 의회는 다음과 같은 원한을 목격했음을 기록하노니, intro(own==0)-&gt;변방계의 의회는 다음에 의해 선언된 이 원한을 공식적으로 승인하노니 intro(own==0)-&gt;변방계의 의회는 다음과 같은 원한을 목격했음을 기록하노니, intro(own==0)-&gt;변방계의 의회는 이 원한이 다음에 의해 선언되었음을 공식적으로 목격하노니 declarant(posthumous==0)-&gt;[Wronged_nameFull](이)가 선언하노라. declarant(posthumous==1)-&gt;고(故) [Victim_nameFull](을)를 대신하여 [Wronged_nameFull](이)가 선언하노라. declarant(posthumous==1)-&gt;[Victim_nameFull](을)를 추서하며 [Wronged_nameFull](이)가 선언한다. declarant(posthumous==1)-&gt;[Wronged_nameFull](이)가 [Wronged_possessive] [friendo] [Victim_nameFull](을)를 위하여 선언하노라. target(target==1)-&gt;[FactionWrong]의 [Target_nameFull] target(target==0)-&gt;[FactionWrong]의 사람들 target(target==0)-&gt;[FactionWrong] crime(reason==0)-&gt;[Victim_nameFull]의 끔찍한 살해에 대하여 crime(reason==0)-&gt;[Victim_nameFull](을)를 살해한 죄로 crime(reason==0)-&gt;이 세상에서 [Victim_nameFull](을)를 앗아간 죄로 crime(reason==0)-&gt;[Victim_nameFull]의 잔혹한 살해에 대하여 crime(reason==1)-&gt;[ColonyName]에 대한 [raiding]에 대하여 crime(reason==2)-&gt;[Victim_nameFull](을)를 납치한 죄로 crime(reason==2)-&gt;[Victim_nameFull](을)를 친구와 가족에게서 빼앗은 죄로 crime(reason==2)-&gt;[Victim_nameFull](을)를 친구들에게서 떼어놓은 죄로 crime(reason==3)-&gt;[Wronged_nameFull]의 사랑하는 반려 [Victim_nameFull](을)를 죽인 죄로 crime(reason==3)-&gt;정착지의 사랑받는 [Victim_kind] 반려동물을 죽인 죄로 crime(reason==4)-&gt;[ColonyName]의 사람들을 학살한 죄로 crime(reason==4)-&gt;[ColonyName]의 사람들을 무자비하게 죽인 죄로 crime(reason==4)-&gt;[ColonyName]의 학살된 무고한 이들을 복수하기 위하여 crime(reason==5)-&gt;[Wronged_nameFull]의 조상들을 모욕한 죄로 crime(reason==5)-&gt;[Wronged_nameFull]의 업적과 유산을 모욕한 죄로 crime(reason==5)-&gt;[Wronged_nameFull](이)가 [Target_possessive] 대장간 작품을 훔쳤다고 누명 씌운 죄로 crime(reason==5)-&gt;[Wronged_nameFull]의 작품을 [Target_possessive] 자신의 것이라 주장한 죄로 crime(reason==6)-&gt;모드 페이지에 이를 보고해 주세요 end-&gt;조상을 위하여! end-&gt;조상 신들을 위하여! end-&gt;이 죄는 벌을 피하지 못할 것이다! end-&gt;이것은 용서될 수 없다! end-&gt;명예와 영광을 위하여! end-&gt; 와아아아! end-&gt;피의 대가를 치르게 하라! end-&gt;이 일은 잊히지 않을 것이다! end-&gt;그들은 후회하게 될 것이다! end-&gt;피의 신을 위하여 피를! end-&gt;해골 옥좌를 위하여 해골을! friendo-&gt;측근 friendo-&gt;친구 friendo-&gt;사랑하는 이 friendo-&gt;신뢰하는 이 friendo-&gt;동맹 raiding-&gt;습격 raiding-&gt;약탈 raiding-&gt;불태움 raiding-&gt;파괴 raiding-&gt;초토화</RulePackDef>
+  <Dw_descCompleted>이 원한은 청산되어 기록되었습니다. 명예가 회복되었습니다</Dw_descCompleted>
+  <Dw_ActiveGrudges>활성 원한</Dw_ActiveGrudges>
+  <Dw_HistoricalGrudges>과거의 원한</Dw_HistoricalGrudges>
+  <Dw_FactionOwnError>이런 일이 일어나면 안 됩니다. 대상이 플레이어 팩션으로 설정된 원한이 생성되었습니다. 제보해 주세요</Dw_FactionOwnError>
+  <Dw_FactionNameUI>세력 이름: {0}</Dw_FactionNameUI>
+  <Dw_FactionLeaderUI>세력 지도자: {0}</Dw_FactionLeaderUI>
+  <Dw_NameUI>이름: {0}</Dw_NameUI>
+  <Dw_AgeUI>나이: {0}</Dw_AgeUI>
+  <Dw_ReasonUI>사유: {0}</Dw_ReasonUI>
+  <Dw_IssuerUI>발행자: {0}</Dw_IssuerUI>
+  <Dw_ReasonMurder>살인</Dw_ReasonMurder>
+  <Dw_ReasonRaid>습격</Dw_ReasonRaid>
+  <Dw_ReasonAbduction>납치</Dw_ReasonAbduction>
+  <Dw_ReasonPetKill>반려동물 살해</Dw_ReasonPetKill>
+  <Dw_ReasonSlaughter>무고한 자들의 학살</Dw_ReasonSlaughter>
+  <Dw_ReasonInsult>모욕</Dw_ReasonInsult>
+  <Dw_LetterGrudgeInspiration>최근 지속 중이던 원한이 완료되어, {0}(이)가 영감을 받았습니다!</Dw_LetterGrudgeInspiration>
+  <Dw_GrudgeCompletedLetter>원한 청산</Dw_GrudgeCompletedLetter>
+  <Dw_GrudgeCompletedLabel>원한이 청산되었습니다! 정착지의 명예가 회복되었고 피해자들은 편히 쉴 수 있게 되었습니다.</Dw_GrudgeCompletedLabel>
+  <Dw_Accept>추적</Dw_Accept>
+  <Dw_PawnInMapError>이 대상의 위치가 알려졌습니다.</Dw_PawnInMapError>
+  <Dw_PawnBeingTrackedError>다른 퀘스트에서 이 대상의 위치가 알려졌습니다.</Dw_PawnBeingTrackedError>
+</LanguageData>
