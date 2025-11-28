@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Adaptive Storage Framework</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PFS_Shelf"]/label</xpath>
+          <value>
+            <label>PFS 선반</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PFS_Shelf"]/description</xpath>
+          <value>
+            <description>작은 컨테이너형 보관 유닛입니다.\n보관한 물건은 절대 손상되지 않고 주변 미관에도 영향을 주지 않습니다.\n공간이 제한되어 있어 큰 물품은 넣을 수 없습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PFS_DisplayPod"]/label</xpath>
+          <value>
+            <label>PFS 전시 캡슐</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PFS_DisplayPod"]/description</xpath>
+          <value>
+            <description>특별한 물품을 전시하기 위해 설계된 캡슐형 보관 장치입니다.\n보관된 물품은 손상되지 않습니다.\n한 개의 물품만 보관할 수 있으며, 큰 물품은 넣을 수 없습니다.\n전력이 공급되면 주변에 약한 빛을 냅니다.\n\nAdaptive Storage Framework가 활성화되어 있을 경우, 보관 용량이나 능력치에는 영향을 주지 않은 채 외형만 자동으로 정렬됩니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

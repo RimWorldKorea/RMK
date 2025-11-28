@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="TA_Spear"]/tools/li[1]/label</xpath>
+          <value>
+            <label>자루</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="TA_Spear"]/tools/li[2]/label</xpath>
+          <value>
+            <label>자루</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="TA_Spear"]/tools/li[3]/label</xpath>
+          <value>
+            <label>머리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="TA_Bill"]/tools/li[1]/label</xpath>
+          <value>
+            <label>자루</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="TA_Bill"]/tools/li[2]/label</xpath>
+          <value>
+            <label>날</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="TA_Bill"]/tools/li[3]/label</xpath>
+          <value>
+            <label>끝</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="TA_Greataxe"]/tools/li[1]/label</xpath>
+          <value>
+            <label>자루</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="TA_Greataxe"]/tools/li[2]/label</xpath>
+          <value>
+            <label>머리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="TA_Greataxe"]/tools/li[3]/label</xpath>
+          <value>
+            <label>날</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="TA_Handaxe"]/tools/li[1]/label</xpath>
+          <value>
+            <label>자루</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="TA_Handaxe"]/tools/li[2]/label</xpath>
+          <value>
+            <label>머리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="TA_Handaxe"]/tools/li[3]/label</xpath>
+          <value>
+            <label>날</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="TA_ArmingSword"]/tools/li[1]/label</xpath>
+          <value>
+            <label>자루</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="TA_ArmingSword"]/tools/li[2]/label</xpath>
+          <value>
+            <label>끝</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="TA_ArmingSword"]/tools/li[3]/label</xpath>
+          <value>
+            <label>날</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="TA_Scramasax"]/tools/li[1]/label</xpath>
+          <value>
+            <label>자루</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="TA_Scramasax"]/tools/li[2]/label</xpath>
+          <value>
+            <label>끝</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="TA_Scramasax"]/tools/li[3]/label</xpath>
+          <value>
+            <label>날</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
