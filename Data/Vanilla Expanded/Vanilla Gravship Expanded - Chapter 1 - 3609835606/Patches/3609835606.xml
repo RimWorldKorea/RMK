@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/DesignationCategoryDef[defName="Odyssey"]/label</xpath>
+    <value>
+      <label>중력부양선</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="GravFieldExtender"]/description</xpath>
+    <value>
+      <description>중력부양선의 크기를 확장할 때 필요한 초기술 장치입니다. 하부구조를 건설할 수 있는 영역을 넓혀주며, 중력부양선이 지탱할 수 있는 하부구조의 총량도 증가시켜줍니다. 반드시 중력구동기 근처에 설치해야 합니다.\n\n중력부양선에는 최대 10개의 중력장 확장기를 설치할 수 있습니다</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="BasicGravtech"]/description</xpath>
+    <value>
+      <description>화학연료를 우주연료로 정제하고 가압 탱크에 저장할 수 있게 됩니다. 중력도약선 구동기를 해금해 중력부양선 활용의 첫걸음을 내딛을 수 있습니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="OrbitalTech"]/description</xpath>
+    <value>
+      <description>감압에 대비한 진공 장벽과 방문할 수 있는 궤도상 장소를 찾아내는 궤도 탐지기를 건설할 수 있습니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="StandardGravtech"]/description</xpath>
+    <value>
+      <description>정착지를 궤도로 올려보낼 수 있는 중력부양선 구동기를 해금합니다. 중력기술 연구 및 정비와 같은 새로운 중력부양선 시스템용 제어 단말기를 건설할 수 있습니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="AdvancedGravtech"]/description</xpath>
+    <value>
+      <description>정착지 전체를 지탱할 수 있는 거대한 중력부양선인 중력거선을 해금합니다. 또한, 고급 중력부양선 건설에 필수적인 초기술 재료인 중력감응판을 제작할 수 있습니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="ChemfuelTank"]/label</xpath>
+    <value>
+      <label>소형 우주연료 탱크</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="ChemfuelTank"]/description</xpath>
+    <value>
+      <description>중력부양선의 추진기에 연료를 공급하는 우주연료 저장 탱크입니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="LargeChemfuelTank"]/label</xpath>
+    <value>
+      <label>대형 우주연료 탱크</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="LargeChemfuelTank"]/description</xpath>
+    <value>
+      <description>중력부양선의 추진기에 연료를 공급하는 대형 우주연료 저장 탱크입니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="GravcorePowerCell"]/description</xpath>
+    <value>
+      <description>중력부양선을 통과하는 중력파에서 소량의 에너지를 끌어오는 발전기입니다. 인접한 중력 코어 발전기 하나당 전력 출력이 15% 증가합니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/QuestScriptDef[defName="MechanoidSignal"]/questNameRules/rulesStrings/li[1]</xpath>
+    <value>
+      <li>questName-&gt;폭주하는 중력도약선</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/QuestScriptDef[defName="MechanoidSignal"]/questDescriptionRules/rulesStrings/li[1]</xpath>
+    <value>
+      <li>questDescription-&gt;교역 조합으로부터 긴급한 연락과 함께 제안이 들어왔습니다. 위험한 극비 화물을 실은 조합 소속 중력부양선 하나가 폭주 상태가 되었습니다. 탑승 인원은 전부 사망한 것으로 추정되며, 이대로라면 함선은 현재 조합의 궤도 플랫폼 중 하나와 충돌하게 될 것입니다. 또한, 이 함선은 메카노이드 무리의 추격을 받고 있습니다.\n\n그들은 더 큰 재앙을 막기 위해 함선의 경로를 변경해 이곳 근처에 추락시킬 것을 제안하며, 그 대가로 우리에게 함선의 잔해를 자유롭게 활용할 권리를 주겠다고 합니다. 함선은 심하게 파손되겠지만, 중력도약선 구동기는 온전하게 남아있을 것입니다.\n\n주의하세요. 함선이 추락하는 즉시 뒤쫓던 메카노이드들이 이곳에 강하할 것입니다.\n\n중력부양선은 희귀하고 강력한 함선으로, 로켓 없이 행성 표면을 횡단하고 낮은 궤도에 도달할 수 있습니다. 파손된 중력부양선이라도 소유권을 얻을 수 있다면 정착지의 미래가 바뀔 지도 모릅니다.</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/QuestScriptDef[defName="MechanoidSignal"]/questDescriptionRules/rulesStrings/li[2]</xpath>
+    <value>
+      <li>gravEngineSpawnedLetterLabel-&gt;파괴된 중력도약선 구동기</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/QuestScriptDef[defName="MechanoidSignal"]/questDescriptionRules/rulesStrings/li[3]</xpath>
+    <value>
+      <li>gravEngineSpawnedLetterText-&gt;파손된 교역 조합의 함선이 근처에 추락했습니다.\n\n잔해 속에서 기능이 온전한 중력도약선 구동기가 눈에 띕니다. 이는 함선을 행성 표면에서 궤도로 들어 올리는 데 사용되는 소형 중력 조작 코어입니다. 함선은 심하게 파손된 것으로 보이며, 상당한 수리가 필요할 것입니다.\n\n\n\n구동기를 조사해 사용할 수 있게 만들고 기본 중력기술 연구 프로젝트를 해금하세요.</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ScenPartDef[defName="VGE_ScenPart_SpawnMechDestroyers"]/label</xpath>
+    <value>
+      <label>메카노이드 파괴자</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RitualBehaviorDef[defName="GravshipLaunch"]/roles/li[3]/label</xpath>
+    <value>
+      <label>중력기술 연구원</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RitualBehaviorDef[defName="GravshipLaunch"]/roles/li[4]/label</xpath>
+    <value>
+      <label>중력기술 공학자</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RitualOutcomeEffectDef[defName="GravshipLaunch"]/comps/li[7]/label</xpath>
+    <value>
+      <label>{PAWN_labelShort}의 연구 능력</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RitualOutcomeEffectDef[defName="GravshipLaunch"]/comps/li[7]/labelAbstract</xpath>
+    <value>
+      <labelAbstract>중력기술 연구원의 연구 능력</labelAbstract>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RitualOutcomeEffectDef[defName="GravshipLaunch"]/comps/li[8]/label</xpath>
+    <value>
+      <label>{PAWN_labelShort}의 정비 능력</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RitualOutcomeEffectDef[defName="GravshipLaunch"]/comps/li[8]/labelAbstract</xpath>
+    <value>
+      <labelAbstract>중력기술 공학자의 정비 능력</labelAbstract>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RitualOutcomeEffectDef[defName="GravshipLaunch"]/comps/li[9]/label</xpath>
+    <value>
+      <label>초대형 추진기</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RitualOutcomeEffectDef[defName="GravshipLaunch"]/comps/li[10]/label</xpath>
+    <value>
+      <label>중력부양선의 평균 정비도</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RitualOutcomeEffectDef[defName="GravshipLaunch"]/comps/li[11]/label</xpath>
+    <value>
+      <label>조작 중인 부조종석 콘솔</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RitualOutcomeEffectDef[defName="GravshipLaunch"]/comps/li[12]/label</xpath>
+    <value>
+      <label>중력닻 근처에 착륙</label>
+    </value>
+  </Operation>
+</Patch>
