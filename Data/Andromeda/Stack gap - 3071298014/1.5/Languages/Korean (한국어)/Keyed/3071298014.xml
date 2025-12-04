@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <StackGap>수량 제한</StackGap>
+  <MultistackStorageTooltip>해당 저장구역에 대해 품목별 칸당 최대 스택 설정을 활성화합니다.\n\n각각의 품목마다 저장구역 한 칸에 저장될 수 있는 스택의 수는 설정된 값을 넘어설 수 없습니다.</MultistackStorageTooltip>
+  <SimilarStackLimit>품목별 칸당 최대 스택: x{0}</SimilarStackLimit>
+  <SimilarStackLimitDisabled>품목별 칸당 스택 무제한</SimilarStackLimitDisabled>
+  <SimilarStackLimitDefault>저장소 전체에 적용</SimilarStackLimitDefault>
+  <SimilarStackLimitDefaultTooltip>수량 제한 값이 저장소 전체에 적용됩니다.\n\n예를 들어 강철을 지정한 후 수량 제한을 25로 지정하면 저장소에 25개의 강철이 저장됩니다.</SimilarStackLimitDefaultTooltip>
+  <SimilarStackLimitDisabledTooltip>수량 제한 값이 각 칸마다 별개로 적용됩니다.\n\n예를 들어 강철을 지정한 후 수량 제한을 25로 지정하면 각 칸마다 25개의 강철이 저장됩니다.</SimilarStackLimitDisabledTooltip>
+  <SimilarStackLimitTooltip>수량과 스택 숫자를 제한합니다.\n\n예를 들어 강철을 지정한 후 수량 제한을 25로 지정하고 최대 스택 수가 2로 제한되어 있는 경우 저장소에 25개의 강철이 2스택까지 저장됩니다.</SimilarStackLimitTooltip>
+  <StackGapSettingsCategory>Stack gap</StackGapSettingsCategory>
+  <EnableHardEjection>수량 제한 초과시 강제로 스택 분할</EnableHardEjection>
+  <EnableHardEjectionTooltip>설정 변경 등으로 인해 저장구역에 놓인 물품이 지정된 수량을 넘어서는 경우 강제로 바닥에 떨어트립니다.</EnableHardEjectionTooltip>
+  <DisplayLogFactorInfo>수량 제한 슬라이더는 편의를 위해 각 구간이 비선형적으로 되어있습니다.\n\n비선형도가 낮을수록 슬라이더의 상대적 위치와 수량이 일치하며, 높을수록 낮은 수량 구간에서 더 세밀한 설정이 가능합니다.\n\n설정 (기본값 3.0):</DisplayLogFactorInfo>
+  <DisplayLogFactor>비선형도</DisplayLogFactor>
+  <DisplayLogFactorExample>비선형도에 따른 변화는 다음 슬라이더로 확인해보세요:</DisplayLogFactorExample>
+  <DisplayLogFactorExampleNote>(위 슬라이더는 게임에 영향을 주지 않습니다)</DisplayLogFactorExampleNote>
+  <PressIfStackSizeChangedRuntime>모드 등으로 스택 크기가 바뀐 경우 이 버튼을 눌러서 재설정하세요</PressIfStackSizeChangedRuntime>
+  <PercentageMode>수량 대신 최대 저장 공간에 따른 상대적 비율로 동작</PercentageMode>
+  <EnableSimilarStackLimits>품목별 칸당 최대 스택 제한 활성화</EnableSimilarStackLimits>
+  <MultistackDisabled>사용 안 함</MultistackDisabled>
+  <MultistackModeDisabledTooltip>품목별 칸당 최대 스택 설정을 무시하고 사용하지 않습니다.</MultistackModeDisabledTooltip>
+  <MultistackEnabledGlobal>모든 저장구역에 적용</MultistackEnabledGlobal>
+  <MultistackModeEnabledGlobalTooltip>모든 저장구역이 품목별 칸당 최대 스택 설정을 사용하도록 합니다.</MultistackModeEnabledGlobalTooltip>
+  <MultistackEnabledPerStorage>저장구역마다 개별 설정</MultistackEnabledPerStorage>
+  <MultistackModeEnabledPerStorageTooltip>각각의 저장구역마다 품목별 칸당 최대 스택을 사용할지 여부를 지정할 수 있습니다.</MultistackModeEnabledPerStorageTooltip>
+  <LimitSliderMaxValue>수량 제한 최대값 (0으로 설정시 기본값 500):</LimitSliderMaxValue>
+  <MultistackInfo>품목별 칸당 최대 스택 제한은 저장구역 한 칸마다 각각의 품목에 대해 얼마나 많은 스택이 저장될지 설정합니다.\n선반과 같은 대다수의 추가 저장소는 일반적으로 한 칸에 여러 개의 스택을 저장할 수 있습니다.\n무한 스택 저장고에는 적용되지 않습니다.</MultistackInfo>
+</LanguageData>
