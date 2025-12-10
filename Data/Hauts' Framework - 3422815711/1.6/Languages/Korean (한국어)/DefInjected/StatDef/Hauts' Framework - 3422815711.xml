@@ -46,8 +46,8 @@
   <Hauts_TierOnePsycastCostOffset.description>Vanilla Psycasts Expanded 모드가 활성화돼있는 경우 1단계 초능력을 시전하는데 필요한 초집중의 양에 고정된 수치만큼 보정값을 제공합니다. 그렇지 않고 이 값이 음수인 경우, 절대값이 모든 1단계 초능력의 초집중 환급 총합에 더해집니다.</Hauts_TierOnePsycastCostOffset.description>
   <!--Original=instructive ability-->
   <Hauts_InstructiveAbility.label>교육 능력</Hauts_InstructiveAbility.label>
-  <!--Original=A multiplier to the amount of skill experience and learning conveyed to children who take lessons from or watch the work of this character.-->
-  <Hauts_InstructiveAbility.description>이 대상으로부터 수업을 받거나 일을 구경하는 아이들이 얻는 기술 경험치와 학습 욕구의 배율입니다.</Hauts_InstructiveAbility.description>
+  <!--Original=A multiplier to the amount of skill experience and learning conveyed to those who take lessons from or watch the work of this character.-->
+  <Hauts_InstructiveAbility.description>이 대상으로부터 수업을 받거나 일을 구경하는 이들이 얻는 기술 경험치와 학습 욕구의 배율입니다.</Hauts_InstructiveAbility.description>
   <!--Original=apparel wear rate factor-->
   <Hauts_ApparelWearRateFactor.label>의류 마모율 계수</Hauts_ApparelWearRateFactor.label>
   <!--Original=A multiplier to the rate at which worn apparel deteriorates.-->
@@ -60,6 +60,18 @@
   <Hauts_BoredomDropPerDay.formatString>{0} / 일</Hauts_BoredomDropPerDay.formatString>
   <!--Original={0} / day-->
   <Hauts_BoredomDropPerDay.formatStringUnfinalized>{0} / 일</Hauts_BoredomDropPerDay.formatStringUnfinalized>
+  <!--Original=pilfering stealth-->
+  <Hauts_PilferingStealth.label>절도 은밀도</Hauts_PilferingStealth.label>
+  <!--Original=The chance to avoid being caught when attempting a pilfering activity. For pickpocketing, success chance equals the trader&apos;s alert level minus the thief&apos;s pilfering stealth; for burglary, success chance equals the settlement&apos;s alert level minus the average pilfering stealth of all free pilferingーcapable colonists in the caravan. A difference of 1 or higher guarantees success, while a difference of 0 or lower guarantees failure.\n\nA pawn must have a pilfering stealth higher than 0 in order to be capable of pilfering.\n\nA target&apos;s alert level is shown in parentheses on the option to pilfer from it. Alert level gains a high but gradually decaying boost after being pilfered from, which can be more severe if the total market value of pilfered items is very high. The base alert level of more technologically advanced settlements is higher; the base alert level of traders is based on a number of factors, including their senses, social skill, and pilfering stealth.-->
+  <Hauts_PilferingStealth.description>절도를 시도할 때 발각되지 않을 확률입니다. 소매치기의 경우, 성공 확률은 상인의 경계 수준에서 도둑의 절도 은밀도를 뺀 값입니다. 도둑질의 경우, 성공 확률은 정착지의 경계 수준에서 상단 내의 모든 자유로운 절도가 가능한 이들의 평균 절도 은밀도를 뺀 값입니다. 차이가 1 이상이면 성공이 보장되고, 0 이하이면 실패가 보장됩니다.\n\n절도 능력을 가지려면 절도 은밀도가 0 보다 높아야 합니다.\n\n대상의 경계 수준은 절도 옵션에서 괄호 안에 표시됩니다. 경계 수준은 절도당한 후에는 높지만 점차 감소하며, 절도된 물품들의 총 시장 가치가 매우 높으면 경계 수준이 더 심각할 수도 있습니다. 기술적으로 더 발전된 정착지의 기본 경계 수준은 더 높습니다. 상인의 기본 경계 수준은 이들의 감각, 사교 기술, 절도 은밀도를 포함한 여러 요소를 기반으로 합니다.</Hauts_PilferingStealth.description>
+  <!--Original=max pilfering value-->
+  <Hauts_MaxPilferingValue.label>최대 절도 값</Hauts_MaxPilferingValue.label>
+  <!--Original=The maximum net market value of items that can be stolen during a single pilfering attempt. The total weight of items that can be pilfered is still ultimately limited by the mass capacity of the caravan (for burglary) or the carry capacity of the thief (for pickpocketing).-->
+  <Hauts_MaxPilferingValue.description>한 번의 절도 시도로 훔칠 수 있는 물품들의 최대 순수 시장 가치입니다. 절도 가능한 물품들의 총 무게는 여전히 최종적으로는 상단의 질량 용량(도둑질 시) 또는 도둑의 운반 수량(소매치기 시)에 의해 제한됩니다.</Hauts_MaxPilferingValue.description>
+  <!--Original=alert level-->
+  <Hauts_PawnAlertLevel.label>경계 수준</Hauts_PawnAlertLevel.label>
+  <!--Original=The ability to detect and thwart pickpocketing attempts.-->
+  <Hauts_PawnAlertLevel.description>소매치기 시도를 감지하고 저지하는 능력입니다.</Hauts_PawnAlertLevel.description>
   <!--Original=skill gain from recreation-->
   <Hauts_SkillGainFromRecreation.label>오락을 통한 기술 경험치</Hauts_SkillGainFromRecreation.label>
   <!--Original=A multiplier to the skill xp gained while engaging in a joy activity.-->
