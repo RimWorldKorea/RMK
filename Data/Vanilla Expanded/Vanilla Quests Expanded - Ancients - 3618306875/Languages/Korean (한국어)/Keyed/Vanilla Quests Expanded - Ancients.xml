@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VQEA_ArchiteInjectionTitle>초월입자 주입</VQEA_ArchiteInjectionTitle>
+  <VQEA_ArchiteInjection_MainDesc>{PAWN}에게 불안정한 초월입자를 주입해 무작위 초월입자 유전자를 부여합니다. 이 과정은 위험하며 원하지 않았던 유전자가 생기는 부작용이나 거부 반응, 또는 급격한 신체 변이를 일으킬 수 있습니다. 주입 과정을 개선하려면 더 많은 고대 초월입자 실험실 장비를 확보하세요.</VQEA_ArchiteInjection_MainDesc>
+  <VQEA_ExpectedInfusionDuration>예상 소요 시간</VQEA_ExpectedInfusionDuration>
+  <VQEA_InfusionComaDuration>주입 혼수상태 지속시간</VQEA_InfusionComaDuration>
+  <VQEA_PawnGeneticComplexity>{0}의 유전자 복잡도</VQEA_PawnGeneticComplexity>
+  <VQEA_PatientGownBonus>환자복으로 인해 성공 확률이 증가합니다.</VQEA_PatientGownBonus>
+  <VQEA_ExpectedMetabolismSideEffect>부작용 유전자의 예상 대사 효율</VQEA_ExpectedMetabolismSideEffect>
+  <VQEA_SuccessChance>성공 확률</VQEA_SuccessChance>
+  <VQEA_RejectionChance>거부반응 확률</VQEA_RejectionChance>
+  <VQEA_SplicelingChance>변형종자 변이 확률</VQEA_SplicelingChance>
+  <VQEA_SplicehulkChance>변형괴인 변이 확률</VQEA_SplicehulkChance>
+  <VQEA_SplicefiendChance>변형악귀 변이 확률</VQEA_SplicefiendChance>
+  <VQEA_CompleteMoreAncientLabQuests>더 많은 고대 실험실 임무를 완료하면 더 많은 실험 장비를 발견 및 획득할 수 있습니다. 각 장비는 주입 성공 확률을 높여주는 고유 효과를 가지고 있습니다.</VQEA_CompleteMoreAncientLabQuests>
+  <VQEA_LinkedLabEquipment>연결된 실험실 장비</VQEA_LinkedLabEquipment>
+  <VQEA_RequiresArchiteCapsule>시술에는 초월입자 캡슐 1개가 필요합니다.</VQEA_RequiresArchiteCapsule>
+  <VQEA_AvailableArchiteCapsules>보관 중인 사용 가능한 초월입자 캡슐: {0}</VQEA_AvailableArchiteCapsules>
+  <VQEA_Inject>주입</VQEA_Inject>
+  <VQEA_Days>{0} 일</VQEA_Days>
+  <VQEA_Metabolism>{0} 대사 효율</VQEA_Metabolism>
+  <VQEA_StartInjection>주입 시작</VQEA_StartInjection>
+  <VQEA_StartInjectionDesc>초월정수 주입기를 가동합니다. 대상을 투입할 수 있게 됩니다.</VQEA_StartInjectionDesc>
+  <VQEA_InsertPerson>인간 투입</VQEA_InsertPerson>
+  <VQEA_InsertPersonDesc>초월정수 주입기에 인간을 투입합니다. 해당 대상의 유전 물질에는 불안정한 초월입자가 주입되며, 이는 무작위 유전자 변이를 일으켜 초월입자 유전자를 형성시키는 동시에 다른 변형인자 역시 무작위로 생성시킬 수 있습니다.\n\n초월입자 주입은 고통스러운 시술이며, 대상은 몸이 새로운 유전자 구성에 적응하는 동안 일시적인 혼수상태에 빠지게 됩니다.</VQEA_InsertPersonDesc>
+  <VQEA_LetterLabel_Success>초월정수 주입: 성공</VQEA_LetterLabel_Success>
+  <VQEA_LetterDesc_Success>초월입자 주입은 성공적이었습니다.\n\n{PAWN_nameDef}(은)는 불안정한 초월입자를 주입받아 새롭게 다음 초월입자 유전자를 얻었습니다: {ARCHITEGENE_label}.\n\n부작용으로 인해 {PAWN_nameDef}(은)는 다음 유전자 또한 추가적으로 얻었습니다: {SIDEEFFECTGENE_label}.\n\n{PAWN_pronoun}는 이제 몸이 새로운 유전자 구성에 적응할 때까지 주입 혼수상태에 빠지게 될 것입니다.</VQEA_LetterDesc_Success>
+  <VQEA_LetterDesc_SuccessNoSideEffect>초월입자 주입은 성공적이었습니다.\n\n{PAWN_nameDef}(은)는 불안정한 초월입자를 주입받아 새롭게 다음 초월입자 유전자를 얻었습니다: {ARCHITEGENE_label}.\n\n{PAWN_pronoun}는 이제 몸이 새로운 유전자 구성에 적응할 때까지 주입 혼수상태에 빠지게 될 것입니다.</VQEA_LetterDesc_SuccessNoSideEffect>
+  <VQEA_LetterLabel_Rejection>초월정수 주입: 거부 반응</VQEA_LetterLabel_Rejection>
+  <VQEA_LetterDesc_Rejection>초월입자 주입이 거부 반응을 일으켰습니다.\n\n{PAWN_nameDef}(은)는 불안정한 초월입자를 주입받았지만, {PAWN_possessive} 몸은 유전적 구성의 변화를 거부했습니다.\n\n{PAWN_pronoun}는 이제 몸이 회복할 때까지 주입 혼수상태에 빠지게 될 것입니다.</VQEA_LetterDesc_Rejection>
+  <VQEA_LetterLabel_Mutation>초월정수 주입: 변이</VQEA_LetterLabel_Mutation>
+  <VQEA_LetterDesc_Mutation>초월입자 주입이 변이를 일으켰습니다!\n\n{PAWN_nameDef}(은)는 불안정한 초월입자를 주입받았지만, {PAWN_possessive} 몸은 강제된 진화에 격렬하게 반응하여 모습이 변해버렸습니다.\n\n{PAWN_pronoun}는 초월정수 주입기에서 뛰쳐나와 마치 짐승 같은 무차별적 분노 속에서 눈에 띄는 모든 실험실 장비를 파괴할 것입니다.\n\n{PAWN_pronoun}를 막으려 시도하거나, 떠나도록 내버려 둘 수 있습니다.</VQEA_LetterDesc_Mutation>
+  <VQEA_ExperimentJoinsLetterLabel>실험체 합류: {PAWN_nameDef}</VQEA_ExperimentJoinsLetterLabel>
+  <VQEA_ExperimentJoinsLetterDescription>{PAWN_title}인 {PAWN_nameDef}(이)가 얇은 환자복만을 걸친 채 녹슨 냉동 수면 관에서 깨어났습니다. {PAWN_pronoun}는 즉시 당신의 정착지에 합류합니다.\n\n{PAWN_nameFull}(은)는 이상적 환자로 알려져 있습니다. {PAWN_pronoun}의 신체는 마치 유전적 변화에 적응하기 위해 만들어진 것처럼 거부 반응의 위험 없이 모든 초월입자 주입을 받아들입니다. 그 덕분에 {PAWN_pronoun}는 첨단 초월입자 기술 실험의 적합자라는 희소성을 가집니다. 이미 여러 초월입자 유전자를 보유하고 있는 점에서 알 수 있듯이, 실제로 {PAWN_pronoun}는 이전에도 몇 차례 실험을 거쳤습니다.\n\n또한, {PAWN_labelShort}(은)는 혈액 붕괴 증후군이라는 희귀한 질병을 앓고 있습니다. 이 병은 시간이 지남에 따라 혈액의 기능을 서서히 저하시켜 날이 갈수록 환자를 더욱 약해지게 합니다. 치료와 관리로 병의 진행을 늦출 수 있지만, 완치는 불가능하며 결국 {PAWN_possessive} 생명을 앗아갈 것입니다.</VQEA_ExperimentJoinsLetterDescription>
+  <VQEA_ArchogenInjectorWaitingForCapsule>초월입자 캡슐 투입 대기 중.</VQEA_ArchogenInjectorWaitingForCapsule>
+  <VQEA_ArchogenInjectorWaitingForPawn>인간 투입 대기 중.</VQEA_ArchogenInjectorWaitingForPawn>
+  <VQEA_ArchogenInjectorPawnInside>대상 투입됨, 주입 승인 대기 중</VQEA_ArchogenInjectorPawnInside>
+  <VQEA_ArchogenInjectorInjecting>주입 중. 남은 시간: {0}</VQEA_ArchogenInjectorInjecting>
+  <VQEA_ArchogenInjectorNotInit>초월정수 주입기가 가동되지 않은 상태입니다.</VQEA_ArchogenInjectorNotInit>
+  <VQEA_ArchogenInjectorOccupied>초월정수 주입기에 이미 투입된 대상이 있습니다.</VQEA_ArchogenInjectorOccupied>
+  <VQEA_ArchogenInjectorComplete>주입 완료.</VQEA_ArchogenInjectorComplete>
+  <VQEA_NoArchiteCapsules>사용 가능한 초월입자 캡슐이 없습니다.</VQEA_NoArchiteCapsules>
+  <VQEA_HasInjectionComa>주입 혼수상태입니다.</VQEA_HasInjectionComa>
+  <VQEA_ChooseGenesTitle>유전자 선택</VQEA_ChooseGenesTitle>
+  <VQEA_MustSelectGenes>각 카테고리마다 유전자를 선택해야 합니다.</VQEA_MustSelectGenes>
+  <VQEA_MustSelectArchiteGene>초월입자 유전자를 선택해야 합니다.</VQEA_MustSelectArchiteGene>
+  <VQEA_MustSelectSideEffectGene>부작용 유전자를 선택해야 합니다.</VQEA_MustSelectSideEffectGene>
+  <VQEA_AddsBurningPassionIn>{0_label}의 열정을 두 단계 증가시킵니다.</VQEA_AddsBurningPassionIn>
+  <VQEA_ArchiteGenes>초월입자 유전자</VQEA_ArchiteGenes>
+  <VQEA_NoArchiteGenes>유효한 초월입자 유전자가 없습니다.</VQEA_NoArchiteGenes>
+  <VQEA_SideEffectGenes>부작용 유전자</VQEA_SideEffectGenes>
+  <VQEA_NoSideEffectGenes>유효한 부작용 유전자가 없습니다.</VQEA_NoSideEffectGenes>
+  <VQEA_ChooseArchiteGene>초월입자 유전자를 선택하세요</VQEA_ChooseArchiteGene>
+  <VQEA_ChooseSideEffectGene>부작용 유전자를 선택하세요</VQEA_ChooseSideEffectGene>
+  <VQEA_NoInjectablePawns>주입 가능한 대상이 없습니다.</VQEA_NoInjectablePawns>
+  <VQEA_TextMote_ExceededExpectations>기대 초월</VQEA_TextMote_ExceededExpectations>
+  <VQEA_TextMote_MedicinePreserved>약품 절약</VQEA_TextMote_MedicinePreserved>
+  <VQEA_PawnRecruitable>{1}의 {2} 유전자의 영향으로 {0}의 확고한 충성심이 깨졌습니다.</VQEA_PawnRecruitable>
+  <VQEA_Override>보안 해제</VQEA_Override>
+  <VQEA_OverrideDesc>고대 파이프라인 연결부에 걸린 보안 시스템을 강제로 해제해 많은 양의 화학연료를 뽑아낼 정착민을 선택합니다. 파이프라인 연결부는 일정 시간이 지나야 다시 해킹할 수 있습니다.</VQEA_OverrideDesc>
+  <VQEA_OverrideDesc_Generic>여기에 걸린 보안 시스템을 강제로 해제할 정착민을 선택합니다.</VQEA_OverrideDesc_Generic>
+  <VQEA_OverrideDesc_Queue>이 보관함에 걸린 보안 시스템을 강제로 해제하고 개봉합니다.</VQEA_OverrideDesc_Queue>
+  <VQEA_CancelOverride>보안 해제 취소</VQEA_CancelOverride>
+  <VQEA_CancelOverrideDesc>이 대상의 보안을 강제로 해제하는 것을 취소합니다.</VQEA_CancelOverrideDesc>
+  <VQEA_LockedAncientVaultDoor>이 고대 기지 문은 잠겨 있습니다.</VQEA_LockedAncientVaultDoor>
+  <VQEA_InterceptBroadcast>신호 가로채기</VQEA_InterceptBroadcast>
+  <VQEA_InterceptBroadcastDesc>방송 신호를 가로채 이 방송이 송신되는 다른 실험실의 위치를 알아냅니다.</VQEA_InterceptBroadcastDesc>
+  <VQEA_CarryToBioBattery>{0}(을)를 생체 발전기로 옮기기</VQEA_CarryToBioBattery>
+  <VQEA_MassLeft>남은 질량: {0} / {1} ({2})</VQEA_MassLeft>
+  <VQEA_LoadCargo>화물 적재</VQEA_LoadCargo>
+  <VQEA_LoadCargoDesc>먼 곳에 있는 다른 기지로 보내질 캡슐에 화물을 적재합니다.</VQEA_LoadCargoDesc>
+  <VQEA_LaunchCapsule>캡슐 전송</VQEA_LaunchCapsule>
+  <VQEA_LaunchCapsuleDesc>화물이 담긴 캡슐을 기송관 시스템으로 내려보냅니다. 다른 기지로부터 답례로 물품이 도착할 수도 있습니다.</VQEA_LaunchCapsuleDesc>
+  <VQEA_PneumaticCapsuleReady>기송관 캡슐 적재 작업이 완료됐습니다. 전송할 준비가 되었습니다.</VQEA_PneumaticCapsuleReady>
+  <VQEA_PneumaticCapsuleArrived>다른 기지로부터 기송관 캡슐이 도착했습니다.</VQEA_PneumaticCapsuleArrived>
+  <VQEA_PneumaticTubeReturning>기송관 캡슐이 도착하고 있습니다.</VQEA_PneumaticTubeReturning>
+  <VQEA_MessageCantLoadMoreIntoPneumaticTube>일부 물품에 접근할 수 없어 {1}(이)가 기송관 캡슐 적재를 완료할 수 없습니다. ({2_labelShort})</VQEA_MessageCantLoadMoreIntoPneumaticTube>
+  <VQE_EnterVault>기지에 들어가기</VQE_EnterVault>
+  <VQE_ExitVault>기지에서 나가기</VQE_ExitVault>
+  <VQE_ViewVault>기지 보기</VQE_ViewVault>
+  <VQE_ViewVaultDesc>도착지 기지 내부를 봅니다.</VQE_ViewVaultDesc>
+  <VQEA_WonderdocContains>내용물: {0}</VQEA_WonderdocContains>
+  <VQEA_WonderdocCycle>절차: {0}</VQEA_WonderdocCycle>
+  <VQEA_WonderdocTimeRemaining>남은 시간: {0}</VQEA_WonderdocTimeRemaining>
+  <VQEA_WonderdocBioregenerationSuccess>기적실현기에서 {PAWN_nameDef}의 신체 재생 기적절차가 성공적으로 완료됐습니다.</VQEA_WonderdocBioregenerationSuccess>
+  <VQEA_WonderdocInstarehabSuccess>기적실현기에서 {PAWN_nameDef}의 순간 해독 기적절차가 성공적으로 완료됐습니다.</VQEA_WonderdocInstarehabSuccess>
+  <VQEA_WonderdocTimeReversalSuccess>기적실현기에서 {PAWN_nameDef}의 시간 역행 기적절차가 성공적으로 완료됐습니다.</VQEA_WonderdocTimeReversalSuccess>
+  <VQEA_WonderdocSkillReformattingSuccess>기적실현기에서 {PAWN_nameDef}의 기술 재편 기적절차가 성공적으로 완료됐습니다.</VQEA_WonderdocSkillReformattingSuccess>
+  <VQEA_WonderdocMalfunction>기적실현기가 {PAWN_nameDef}의 기적절차를 진행하던 중 오작동으로 망가졌습니다.</VQEA_WonderdocMalfunction>
+  <VQEA_ChanceToMalfunction>오작동 확률: {0}</VQEA_ChanceToMalfunction>
+  <VQEA_WonderdocOccupied>기적실현기가 사용 중입니다.</VQEA_WonderdocOccupied>
+  <VQEA_NoPawnsAvailableForWonderdoc>기적실현기를 사용할 수 있는 대상이 없습니다.</VQEA_NoPawnsAvailableForWonderdoc>
+</LanguageData>
