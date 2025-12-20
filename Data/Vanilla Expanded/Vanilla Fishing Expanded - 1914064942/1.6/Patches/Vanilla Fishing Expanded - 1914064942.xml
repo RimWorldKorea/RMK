@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Achievements Expanded</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Odyssey</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/AchievementsExpanded.AchievementTabDef[defName="VCE_AchievementsFishing"]/label</xpath>
+            <value>
+              <label>바닐라 낚시</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/AchievementsExpanded.AchievementDef[defName="VCE_AchievementFeelingALittleShellfish"]/label</xpath>
+            <value>
+              <label>작은 신사를 느껴보세요</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/AchievementsExpanded.AchievementDef[defName="VCE_AchievementFeelingALittleShellfish"]/description</xpath>
+            <value>
+              <description>랍스터로 호화로운 식사를 만듬</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/AchievementsExpanded.AchievementDef[defName="VCE_AchievementFugu"]/label</xpath>
+            <value>
+              <label>복어쟝…</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/AchievementsExpanded.AchievementDef[defName="VCE_AchievementFugu"]/description</xpath>
+            <value>
+              <description>복어를 생식함</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/AchievementsExpanded.AchievementDef[defName="VCE_AchievementSomethingSpecial"]/label</xpath>
+            <value>
+              <label>특별한 무언가</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/AchievementsExpanded.AchievementDef[defName="VCE_AchievementSomethingSpecial"]/description</xpath>
+            <value>
+              <description>낚시 중 아이템 발견</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Skills Expanded</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Odyssey</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VSE.Expertise.ExpertiseDef[defName="VCEF_Swiftcasting"]/label</xpath>
+            <value>
+              <label>빠른 낚시</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VSE.Expertise.ExpertiseDef[defName="VCEF_Swiftcasting"]/description</xpath>
+            <value>
+              <description>낚시 속도가 더 빨라집니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VSE.Expertise.ExpertiseDef[defName="VCEF_Catchmastery"]/label</xpath>
+            <value>
+              <label>대량 어업</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VSE.Expertise.ExpertiseDef[defName="VCEF_Catchmastery"]/description</xpath>
+            <value>
+              <description>낚시를 할 때 한 번에 더 많은 물고기를 낚습니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VSE.Expertise.ExpertiseDef[defName="VCEF_Aquabounty"]/label</xpath>
+            <value>
+              <label>바다의 선물</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/VSE.Expertise.ExpertiseDef[defName="VCEF_Aquabounty"]/description</xpath>
+            <value>
+              <description>낚시를 통해 물고기가 아닌 희귀한 아이템을 낚을 확률이 높아집니다.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+</Patch>

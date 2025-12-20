@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VCEF_FishingGrowingZone>낚시구역</VCEF_FishingGrowingZone>
+  <VCEF_FishingGrowingZoneDesc>정착민들이 물고기를 낚을 구역을 설정합니다.</VCEF_FishingGrowingZoneDesc>
+  <VCEF_ChooseFish>낚시 종류 선택</VCEF_ChooseFish>
+  <VCEF_ChooseFishDesc>이 지형에 서식하는 물고기 중 낚고 싶은 크기를 설정합니다. 작은 물고기는 낚는 시간은 짧지만 열량이 낮고, 큰 물고기는 낚는 데 오래 걸리지만 열량이 높습니다. 중간 크기 물고기는 시간과 열량 측면에서 균형 잡힌 선택이 될 것입니다. 어떤 크기를 선택하든, 간혹 색다른 물고기나 진귀한 아이템을 낚을 수도 있습니다.</VCEF_ChooseFishDesc>
+  <VCEF_ChooseFishSmallLabel>작은 물고기 잡기</VCEF_ChooseFishSmallLabel>
+  <VCEF_ChooseFishMediumLabel>중간 물고기 잡기</VCEF_ChooseFishMediumLabel>
+  <VCEF_ChooseFishLargeLabel>큰 물고기 잡기</VCEF_ChooseFishLargeLabel>
+  <VCEF_CommandAllowFishing>낚시 허용</VCEF_CommandAllowFishing>
+  <VCEF_CommandAllowFishingDesc>이 낚시구역에서 낚시를 허용합니다.</VCEF_CommandAllowFishingDesc>
+  <VCEF_ZoneSetTo>이 구역은 다음과 같은 크기의 물고기를 잡도록 설정되어 있습니다.</VCEF_ZoneSetTo>
+  <VCEF_FishesInThisZone>이 구역의 물고기: </VCEF_FishesInThisZone>
+  <VCEF_IsZoneOceanZone>해양 어업 구역: </VCEF_IsZoneOceanZone>
+  <VCEF_Yes>예</VCEF_Yes>
+  <VCEF_No>아니오</VCEF_No>
+  <VCEF_ZoneTooSmall>구역이 너무 좁습니다. ({0}칸)\n낚시구역이 작동하기 위해서는 최소 {1}칸 이상의 공간이 필요합니다.\n(넓이 계산은 일정 시간마다 수행됩니다. 넓이가 충분해도 이 문구가 뜬다면 업데이트를 위해 일시 정지를 해제하세요.)</VCEF_ZoneTooSmall>
+  <VCEF_NoFish>이 지형에서 잡을 수 있는 물고기가 없습니다. (이는 모드 지형의 문제거나, 생명이 살 수 없는 환경일 수도 있습니다. 제작자에게 얘기해 지원을 받으세요!)</VCEF_NoFish>
+  <VCEF_CaughtSpecial>{0}(이)가 낚시 도중 특별한 물건을 발견함: {1}</VCEF_CaughtSpecial>
+  <VCEF_minimumZoneSize>최소 낚시구역 크기</VCEF_minimumZoneSize>
+  <VCEF_minimumZoneSizeTooltip>최소 낚시구역 크기입니다. 기본값은 25칸입니다.</VCEF_minimumZoneSizeTooltip>
+  <VCEF_smallFishDurationFactor>기본 낚시 시간(틱)</VCEF_smallFishDurationFactor>
+  <VCEF_smallFishDurationFactorTooltip>기본 낚시에 소요되는 시간(틱 단위)입니다. 작은 물고기 기준 기본값은 4500틱입니다. 중간 크기 물고기는 이보다 두 배, 큰 물고기는 세 배의 시간이 걸립니다. 이 수치를 낮추면 하루에 낚을 수 있는 식량의 양이 늘어나고, 반대로 높이면 줄어듭니다.</VCEF_smallFishDurationFactorTooltip>
+  <VCEF_chanceForSpecials>생선 대신 특별한 아이템을 얻을 수 있는 기회</VCEF_chanceForSpecials>
+  <VCEF_chanceForSpecialsTooltip>낚시할 때 생선 대신 특별한 아이템을 얻을 기회입니다. 기본값은 낚시 작업당 1%입니다.</VCEF_chanceForSpecialsTooltip>
+  <VCEF_minMapTempForLowFish>물고기 생산량 감소가 시작되는 맵의 최저 온도</VCEF_minMapTempForLowFish>
+  <VCEF_minMapTempForLowFishTooltip>물고기 생산량 감소가 시작되는 맵의 최저 온도입니다. 이 온도 밑으로 내려가면 물고기 생산량이 크게 줄어듭니다. 기본 설정값은 0ºC입니다.</VCEF_minMapTempForLowFishTooltip>
+  <VCEF_maxMapTempForLowFish>물고기 생산량 감소가 시작되는 맵의 최대 온도</VCEF_maxMapTempForLowFish>
+  <VCEF_maxMapTempForLowFishTooltip>물고기 생산량 감소가 시작되는 맵의 최대 온도입니다. 이 온도 위로 올라가면 물고기 생산량이 크게 줄어듭니다. 기본 설정값은 50ºC입니다.</VCEF_maxMapTempForLowFishTooltip>
+  <VCEF_dropFish>어부가 잡은 물고기를 저장소로 옮기지 않고 바닥에 떨어뜨림</VCEF_dropFish>
+  <VCEF_TooPolluted>낚시구역이 오염되어 물고기를 낚을 수 없습니다.</VCEF_TooPolluted>
+  <VCEF_chanceForSpecialsTooltip_Odyssey>낚시할 때 생선 대신 특별한 아이템을 얻을 기회입니다. 기본값은 낚시 작업당 1%입니다. 오디세이에서는 기본적으로 최소 5일 간격으로 "희귀" 어획물을 낚을 수 있으며, 이 또한 설정에서 조정 가능합니다.</VCEF_chanceForSpecialsTooltip_Odyssey>
+  <VCEF_minDaysBetweenRareCatches>희귀 어획물 획득 최소 간격</VCEF_minDaysBetweenRareCatches>
+  <VCEF_minDaysBetweenRareCatchesTooltip>오디세이에서는 기본적으로 희귀 어획물을 낚은 후 최소 5일이 지나야 다시 희귀 어획물을 획득할 수 있습니다. 여기에서 이 최소 간격을 변경할 수 있습니다.</VCEF_minDaysBetweenRareCatchesTooltip>
+  <VCEF_fishingYieldMultiplier>어획량 계수</VCEF_fishingYieldMultiplier>
+  <VCEF_fishingYieldMultiplierTooltip>한 번에 잡는 물고기의 양에 곱해집니다.</VCEF_fishingYieldMultiplierTooltip>
+  <VCEF_fishingSpeedMultiplier>낚시 속도 계수</VCEF_fishingSpeedMultiplier>
+  <VCEF_fishingSpeedMultiplierTooltip>물고기를 낚는 속도에 곱해집니다.</VCEF_fishingSpeedMultiplierTooltip>
+  <VCEF_maxFishPopulationMultiplier>최대 어류 개체수 계수</VCEF_maxFishPopulationMultiplier>
+  <VCEF_maxFishPopulationMultiplierTooltip>오디세이에서는 각 생물군계마다 수역에 서식하는 어류 개체수의 최대치를 정해둡니다. 이 계수는 해당 최대치에 곱해집니다.</VCEF_maxFishPopulationMultiplierTooltip>
+  <VCEF_fishAmountMultiplier>(낚시구역) 어류 개체수 계수</VCEF_fishAmountMultiplier>
+  <VCEF_fishAmountMultiplierTooltip>이 계수는 낚시구역에 존재하는 어류 개체수에 곱해집니다.</VCEF_fishAmountMultiplierTooltip>
+  <VCEF_chanceForNegativeOutcome>부정적 결과 확률</VCEF_chanceForNegativeOutcome>
+  <VCEF_chanceForNegativeOutcomeTooltip>기본적으로 낚시 시에는 2% 확률로 부정적 결과를 얻을 수 있습니다.</VCEF_chanceForNegativeOutcomeTooltip>
+  <VCEF_Reset_Plain>전체 초기화</VCEF_Reset_Plain>
+  <VCEF_DisableGillRot>아가미 부패병 비활성화</VCEF_DisableGillRot>
+  <VCEF_DisableGillRotDesc>어떤 상황에서도 아가미 부패병이 일어나지 않도록 합니다.</VCEF_DisableGillRotDesc>
+  <VCEF_UseWorktype>"낚시" 작업을 가장 낮은 우선도로 만들기 (게임 리로드 필요)</VCEF_UseWorktype>
+  <VCEF_UseWorktypeDesc>기본적으로 오디세이는 낚시 작업의 우선도를 가공과 운반 사이에 놓습니다. 이 설정을 사용하면 낚시 작업의 우선도가 연구 다음인 90으로 변경되어 오디세이를 비활성화했을 때의 우선도와 동일하게 됩니다.</VCEF_UseWorktypeDesc>
+</LanguageData>
