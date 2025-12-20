@@ -1,0 +1,539 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VF_Caravan_Dismounted>하차</VF_Caravan_Dismounted>
+  <VF_Sailing>항해</VF_Sailing>
+  <VF_DockToCaravan>적재할 물품</VF_DockToCaravan>
+  <VF_ImpassableBiome>이 차량으로는 해당 생물군계를 통과할 수 없습니다.</VF_ImpassableBiome>
+  <VF_CaravanDisabled>상단 활동이 중지되었습니다.</VF_CaravanDisabled>
+  <VF_CaravanCantMove>이동할 수 없습니다.</VF_CaravanCantMove>
+  <VF_CantMergeAerialVehicle>비행 차량을 병합할 수 없습니다.</VF_CantMergeAerialVehicle>
+  <VF_CommandDisembark>차량 은닉</VF_CommandDisembark>
+  <VF_CommandDisembarkDesc>모든 차량을 남겨두고 도보로 이동합니다.  차량은 최대 20~30일 동안 세계 지도에 남아있게 됩니다.</VF_CommandDisembarkDesc>
+  <VF_CommandDisembarkImpassableBiome>정착민이 위치할 수 없는 장소입니다. 하선이 불가능합니다.</VF_CommandDisembarkImpassableBiome>
+  <VF_ToggleRepairVehicle>차량 수리</VF_ToggleRepairVehicle>
+  <VF_ToggleRepairVehicleDesc>휴식과 함께 상단에 포함된 차량을 수리합니다.</VF_ToggleRepairVehicleDesc>
+  <VF_CommandAttackDockDisable>해당 정착지에 정박된 동안에는 {0}(을)를 공격할 수 없습니다.</VF_CommandAttackDockDisable>
+  <VF_CommandTradeDockDisable>{0}(와)과 거래할 수 없습니다. 보트를 먼저 정박시켜야 합니다.</VF_CommandTradeDockDisable>
+  <VF_CaravanMustHaveEnoughSpaceOnShip>모든 정착민을 수용하기에는 보트 공간이 부족합니다.</VF_CaravanMustHaveEnoughSpaceOnShip>
+  <VF_CaravanMustHaveEnoughPawnsToOperate>출항하기에는 정착민이 충분하지 않습니다. {0}명이 필요합니다.</VF_CaravanMustHaveEnoughPawnsToOperate>
+  <VF_CaravanMustHaveAtLeastOneVehicle>경로를 선택하려면 최소 1대 이상의 차량을 선택해야 합니다.</VF_CaravanMustHaveAtLeastOneVehicle>
+  <VF_CommandFormVehicleCaravan>차량 상단 생성</VF_CommandFormVehicleCaravan>
+  <VF_CommandFormVehicleCaravanDesc>차량이 포함된 상단을 생성합니다.</VF_CommandFormVehicleCaravanDesc>
+  <VF_CommandReformVehicleCaravan>차량 상단 재생성</VF_CommandReformVehicleCaravan>
+  <VF_CommandReformVehicleCaravanDesc>차량을 선택하여 차량 상단을 재생성합니다.</VF_CommandReformVehicleCaravanDesc>
+  <VF_RoutePlannerToggleVehicleDefs>차량 방어</VF_RoutePlannerToggleVehicleDefs>
+  <VF_RoutePlannerToggleVehicles>차량</VF_RoutePlannerToggleVehicles>
+  <NotAllowed>비활성화</NotAllowed>
+  <DriverNeeded>정착민 운전</DriverNeeded>
+  <NoDriverNeeded>자율주행</NoDriverNeeded>
+  <Misc>기타</Misc>
+  <Transport>수송</Transport>
+  <Trader>상단</Trader>
+  <Combat>전투</Combat>
+  <Hybrid>하이브리드</Hybrid>
+  <Manual>수동</Manual>
+  <Opportunistic>선택 가능</Opportunistic>
+  <Automatic>자동</Automatic>
+  <VF_VehicleTracksNone>없음</VF_VehicleTracksNone>
+  <VF_VehicleTracksVanilla>바닐라와 동일</VF_VehicleTracksVanilla>
+  <VF_VehicleTracksFull>가득 참</VF_VehicleTracksFull>
+  <VF_BoardVehicleGroup>{0} 탑승</VF_BoardVehicleGroup>
+  <VF_BoardVehicleGroupFail>{0} 탑승 불가. {1}</VF_BoardVehicleGroupFail>
+  <VF_ActivityIconOnBoardShip>{0} 적재</VF_ActivityIconOnBoardShip>
+  <VF_IsIncapableOfRamming>{0} 밀기</VF_IsIncapableOfRamming>
+  <VF_CannotMoveToCell>{0}(은)는 이 지역에 도달할 수 없습니다.</VF_CannotMoveToCell>
+  <VF_LandVehicleHere>육상 차량</VF_LandVehicleHere>
+  <VF_LandVehicleEdge>{0} 지역 가장자리에 착륙.</VF_LandVehicleEdge>
+  <VF_LandVehicleCenter>{0} 지역 중앙에 착륙.</VF_LandVehicleCenter>
+  <VF_LandVehicleTargetedLanding>{0}에 착륙하고 착륙 지점을 선택합니다.</VF_LandVehicleTargetedLanding>
+  <VF_AttackAndTargetLanding>{0}(을)를 공격: 착륙 지점 선택</VF_AttackAndTargetLanding>
+  <VF_StrafeRun>폭격</VF_StrafeRun>
+  <VF_AerialReconSite>정찰</VF_AerialReconSite>
+  <VF_CantEnterVehicle_IdeoligionForbids>사상적 신념으로 인해 차량에 탑승할 수 없습니다.</VF_CantEnterVehicle_IdeoligionForbids>
+  <VehicleFramework>Vehicle Framework</VehicleFramework>
+  <VF_Vehicles>차량</VF_Vehicles>
+  <VF_LoadCargo>화물 적재</VF_LoadCargo>
+  <VF_HaulPawnToVehicle>정착민 승차</VF_HaulPawnToVehicle>
+  <VF_DisembarkAllPawns>모든 정착민 하차</VF_DisembarkAllPawns>
+  <VF_DisembarkSinglePawn>{0} 하차</VF_DisembarkSinglePawn>
+  <VF_DisembarkNoExit>차량에서 내릴 수 없습니다. 유효한 셀이 근처에 없습니다.</VF_DisembarkNoExit>
+  <VF_StopVehicle>정지</VF_StopVehicle>
+  <VF_UndraftVehicle>시동 끄기</VF_UndraftVehicle>
+  <VF_DraftVehicleDesc>차량이 이동할 수 있도록 시동을 겁니다. 시동을 걸었을 경우 차량이 대기 상태일 때도 연료를 소모합니다.</VF_DraftVehicleDesc>
+  <VF_StopVehicleDesc>차량을 즉시 정지합니다.</VF_StopVehicleDesc>
+  <VF_UndraftVehicleDesc>차량의 시동을 꺼서 연료 소비를 비활성화합니다. 이동할 수 없게 됩니다.</VF_UndraftVehicleDesc>
+  <VF_ShowAllItemsOnMap>지도에 모든 항목을 표시</VF_ShowAllItemsOnMap>
+  <VF_ResetColorPalettes>모든 팔레트 초기화</VF_ResetColorPalettes>
+  <VF_ResetColorPalettesConfirmation>저장된 모든 팔레트를 기본 설정으로 초기화하시겠습니까? 이 작업은 되돌릴 수 없습니다.</VF_ResetColorPalettesConfirmation>
+  <VF_RotateVehicleRendering>차량 회전</VF_RotateVehicleRendering>
+  <VF_SaveColorPalette>팔레트 저장</VF_SaveColorPalette>
+  <VF_ColorOne>첫번째 색상</VF_ColorOne>
+  <VF_ColorTwo>두번째 색상</VF_ColorTwo>
+  <VF_ColorThree>세번째 색상</VF_ColorThree>
+  <VF_ColorPickerHex>RGB</VF_ColorPickerHex>
+  <VF_JobSettings>역할 설정</VF_JobSettings>
+  <VF_VehicleAgeReadout>제작: {0}</VF_VehicleAgeReadout>
+  <VF_StatsReport_CargoWeight>화물: {0}</VF_StatsReport_CargoWeight>
+  <VF_RenameVehicleTooltip>차량에 이름을 지어주거나 원래대로 되돌립니다.</VF_RenameVehicleTooltip>
+  <VF_RecolorTooltip>차량 도색</VF_RecolorTooltip>
+  <VF_DoubleClickShuttleTarget>목적지를 확인하려면 클릭하십시오</VF_DoubleClickShuttleTarget>
+  <VF_SwapColors>색상을 순환시킵니다.\n\n첫번째 색상 -&gt; 두번째 색상 -&gt; 세번째 색상</VF_SwapColors>
+  <VF_StartFishing>낚시 시작</VF_StartFishing>
+  <VF_StartFishingDesc>물고기를 낚습니다.</VF_StartFishingDesc>
+  <VF_ExplosiveComponent>폭발</VF_ExplosiveComponent>
+  <VF_EditPawnOverlayRendererTooltip>정착민 오버레이 편집</VF_EditPawnOverlayRendererTooltip>
+  <VF_ComponentClickMoreInfoTooltip>자세한 정보를 보려면 클릭하십시오.</VF_ComponentClickMoreInfoTooltip>
+  <VF_Deploy>배치</VF_Deploy>
+  <VF_Undeploy>배치 해제</VF_Undeploy>
+  <VF_DeployDescription>포탑을 사용하기 위해 차량을 배치합니다.</VF_DeployDescription>
+  <VF_MustBeDeployed>차량을 배치해야 합니다.</VF_MustBeDeployed>
+  <VF_MustBeUndeployed>배치를 해제해야 합니다.</VF_MustBeUndeployed>
+  <VF_VehicleRestriction_Stationary>이동 중에는 발사할 수 없습니다.</VF_VehicleRestriction_Stationary>
+  <VF_TurretComponentDisabled>{0}(은)는 수리가 필요합니다.</VF_TurretComponentDisabled>
+  <VF_Patterns>패턴</VF_Patterns>
+  <VF_Skins>스킨</VF_Skins>
+  <VF_PatternZoom>줌</VF_PatternZoom>
+  <VF_PatternZoomTooltip>패턴을 확대하거나 축소합니다.</VF_PatternZoomTooltip>
+  <VF_PatternDisplacementX>X 위치값 조정</VF_PatternDisplacementX>
+  <VF_PatternDisplacementY>Y 위치값 조정</VF_PatternDisplacementY>
+  <VF_ElectricFlick>전력망 연결을 전환합니다.</VF_ElectricFlick>
+  <VF_ElectricFlickDesc>전력 전선 위에 있을 때 전력망에 연결되어, 배터리를 재충전하기 위해 에너지를 전달합니다.
+
+현재 연결 상태: {0}</VF_ElectricFlickDesc>
+  <VF_OutOfFuel>시동을 걸 수 없습니다. 차량에 더 많은 연료가 필요합니다.</VF_OutOfFuel>
+  <VF_Assigned>지정됨</VF_Assigned>
+  <VF_ApplyButton>적용</VF_ApplyButton>
+  <VF_Colonists>정착지</VF_Colonists>
+  <VF_ClearSeats>지우기</VF_ClearSeats>
+  <VF_RemoveFromRole>제거</VF_RemoveFromRole>
+  <VF_AddToRole>추가</VF_AddToRole>
+  <VF_RoutePlannerButtonTip>클릭 시 소유한 차량을 선택하여 여행을 계획할 수 있는 차량 계획 모드에 들어갑니다. 선택한 차량에 따라 경로가 조정됩니다.</VF_RoutePlannerButtonTip>
+  <VF_SelectVehiclesForPlanner>차량 선택</VF_SelectVehiclesForPlanner>
+  <VF_StartVehicleRoutePlanner>경로 지정 시작</VF_StartVehicleRoutePlanner>
+  <VF_OkName>이름 설정</VF_OkName>
+  <VF_RemoveName>이름 제거</VF_RemoveName>
+  <VF_NoFlightSpeed>비행 속도가 0이기에 발사할 수 없습니다.</VF_NoFlightSpeed>
+  <VF_CannotLaunchWhileMoving>{0}(이)가 이동하는 동안에는 실행할 수 없습니다.</VF_CannotLaunchWhileMoving>
+  <VF_CannotLaunchImmobile>{0}(은)는 움직이지 않는 상태에서 실행할 수 없습니다.</VF_CannotLaunchImmobile>
+  <VF_CannotLaunchOverEncumbered>{0}(은)는 과부하 상태이기에 실행할 수 없습니다.</VF_CannotLaunchOverEncumbered>
+  <VF_TabCargo>화물</VF_TabCargo>
+  <VF_TabPassengers>탑승객</VF_TabPassengers>
+  <VF_TabComponents>상태</VF_TabComponents>
+  <VF_TabUpgrades>커스터마이즈</VF_TabUpgrades>
+  <VF_ComponentHealth>상태</VF_ComponentHealth>
+  <VF_ComponentEfficiency>효율성</VF_ComponentEfficiency>
+  <VF_ComponentArmor>방호 장비</VF_ComponentArmor>
+  <VF_NoFuelReturnTrip>왕복하지 않음</VF_NoFuelReturnTrip>
+  <VF_NotEnoughFuel>범위를 벗어남</VF_NotEnoughFuel>
+  <VF_ConfirmationCancelLanding>착륙을 취소하시겠습니까? 공중 차량이 세계 지도로 방출됩니다.</VF_ConfirmationCancelLanding>
+  <VF_Cargo>화물</VF_Cargo>
+  <VF_Properties>속성</VF_Properties>
+  <VF_LauncherProperties>시작 속성</VF_LauncherProperties>
+  <VF_FueledTravelPropertes>연료</VF_FueledTravelPropertes>
+  <VF_JobLimitations>차량 작업</VF_JobLimitations>
+  <VF_IncidentCrashedSiteLabel_Crashing>{0}이 불시착</VF_IncidentCrashedSiteLabel_Crashing>
+  <VF_IncidentCrashedSiteLabel_ShotDown>{1}(이)가 {0}(을)를 격추</VF_IncidentCrashedSiteLabel_ShotDown>
+  <VF_IncidentReasonLister>\n\n사유:\n {0}</VF_IncidentReasonLister>
+  <VF_IncidentCrashedSite_Crashing>{0}(이)가 추락하였습니다.</VF_IncidentCrashedSite_Crashing>
+  <VF_IncidentCrashedSite_ShotDown>{0}(이)가 {1}에 의해 격추되었습니다.</VF_IncidentCrashedSite_ShotDown>
+  <VF_IncidentCrashedSiteReason_OutOfFuel>연료 부족</VF_IncidentCrashedSiteReason_OutOfFuel>
+  <VF_IncidentCrashedSiteReason_FlightControl>모든 비행 제어 능력이 상실됨</VF_IncidentCrashedSiteReason_FlightControl>
+  <VF_ReinforcementsArrivedLabel>증원</VF_ReinforcementsArrivedLabel>
+  <VF_ReinforcementsArrived>{0}(이)가 추락 현장을 조사하기 위해 지원군과 함께 도착하였습니다.</VF_ReinforcementsArrived>
+  <VF_BoatSunk>보트 침몰</VF_BoatSunk>
+  <VF_BoatSunkDesc>{0}(이)가 심해로 가라앉았습니다.</VF_BoatSunkDesc>
+  <VF_BoatSunkWithPawnsDesc>{0}(이)가 심해로 가라앉았습니다.\n\n다음 정착민이 사망하였습니다: \n{1}</VF_BoatSunkWithPawnsDesc>
+  <VF_MustSelectColorPalette>팔레트를 저장하려면 먼저 팔레트를 지정하십시오.</VF_MustSelectColorPalette>
+  <VF_VehicleUnableToMove>{0_labelShort}(이)가 움직일 수 없습니다.</VF_VehicleUnableToMove>
+  <VF_VehicleImmobileDeployed>{0_labelShort}(이)가 배치되어 움직일 수 없습니다.</VF_VehicleImmobileDeployed>
+  <VF_HandlerNotEnoughRoom>{0}(을)를 {1}에 적재하지 못했습니다. 더 이상의 여유 공간이 없습니다.</VF_HandlerNotEnoughRoom>
+  <VF_NotEnoughToOperate>차량이 작동하려면 더 많은 승무원이 필요합니다.</VF_NotEnoughToOperate>
+  <VF_UpgradeInProgress>차량을 업그레이드 하는 도중에는 시동을 걸 수 없습니다.</VF_UpgradeInProgress>
+  <VF_NotEnoughCrew>{0}에 {1}(을)를 운영할 수 있을 만큼의 정착민이 존재하지 않습니다.</VF_NotEnoughCrew>
+  <VF_CannotFit>공간이 부족합니다.</VF_CannotFit>
+  <VF_NoPathForVehicle>이 장소로 이동할 수 없습니다.</VF_NoPathForVehicle>
+  <VF_IncapableStatusForRole>{0}(은)는 이 역할을 수행할 수 없습니다.</VF_IncapableStatusForRole>
+  <VF_InvalidName>이 차량의 이름은 유효하지 않습니다.</VF_InvalidName>
+  <VF_OutOfFood>정착민이 탑승 중인 {0}에 음식이 부족합니다.</VF_OutOfFood>
+  <VF_NoAmmoLoadedTurret>장전된 탄약이 없습니다.</VF_NoAmmoLoadedTurret>
+  <VF_NoAmmoAvailable>소지품에 탄약이 없습니다.</VF_NoAmmoAvailable>
+  <VF_VehicleCaravanMentalBreakMovementRole>{0}(은)는 더 이상 차량 상단에서 제 역할을 수행할 수 없습니다.</VF_VehicleCaravanMentalBreakMovementRole>
+  <VF_PawnBoardedFormingCaravan>{0}(이)가 {1}에 탑승하였으며 출발할 준비가 완료되었습니다.</VF_PawnBoardedFormingCaravan>
+  <VF_CantAssignVehicle>{0}에 정착민이 부족합니다.</VF_CantAssignVehicle>
+  <VF_AssignFailure>좌석 할당에 실패하였습니다. {0}</VF_AssignFailure>
+  <VF_PackingSpotNotFound>차량 상단의 포장 장소를 찾을 수 없습니다. 구상에서 적재 장소를 지정하는 것을 권장합니다.</VF_PackingSpotNotFound>
+  <VF_ForceLeaveCaravan>강제로 출발</VF_ForceLeaveCaravan>
+  <VF_ForceLeaveCaravanDesc>차량 상단이 지금 즉시 출발하도록 명령합니다. 현재 적재되지 않은 물품은 생략됩니다.</VF_ForceLeaveCaravanDesc>
+  <VF_ForceLeaveConfirmation>승무원이 떠날 준비를 마쳤습니다.</VF_ForceLeaveConfirmation>
+  <VF_CaravanTerminatedNoVehicles>상단 활동이 중지되었습니다. 이동 가능한 차량이 없습니다.</VF_CaravanTerminatedNoVehicles>
+  <VF_LandAndSeaRoutePlannerRestriction>해상 및 육상에 대한 경로를 계획할 수 없습니다. 경로가 등록되지 않았습니다.</VF_LandAndSeaRoutePlannerRestriction>
+  <VF_LeaveVehicleBehindCaravan>정말 차량을 두고 떠나시겠습니까? 남겨진 차량: {0}</VF_LeaveVehicleBehindCaravan>
+  <VF_MustAssignEnoughToVehicle>차량 숫자에 맞게 정착민을 충분히 할당해야 합니다.</VF_MustAssignEnoughToVehicle>
+  <VF_AerialVehicleArrived>{0}(이)가 목적지에 도달하였습니다.</VF_AerialVehicleArrived>
+  <VF_AerialVehicleLeft>{0}(이)가 지도를 떠났습니다.</VF_AerialVehicleLeft>
+  <VF_AerialVehicleLaunchNotValid>실행할 수 없습니다. 부적절한 명령입니다.</VF_AerialVehicleLaunchNotValid>
+  <VF_LaunchOutOfFuel>실행할 수 없습니다. 연료가 부족합니다.</VF_LaunchOutOfFuel>
+  <VF_FlightPathMaxNodes>{0}의 비행 경로를 더 이상 지정할 수 없습니다.</VF_FlightPathMaxNodes>
+  <VF_MustTargetLanding>착륙지를 지정해야 합니다.</VF_MustTargetLanding>
+  <VF_DevMode>개발자 모드</VF_DevMode>
+  <VF_DevMode_Logging>로그 기록</VF_DevMode_Logging>
+  <VF_DevMode_Troubleshooting>문제 해결</VF_DevMode_Troubleshooting>
+  <VF_DevMode_Drawers>시각적 정보</VF_DevMode_Drawers>
+  <VF_DevMode_Pathing>경로</VF_DevMode_Pathing>
+  <VF_DevMode_ShowRecentNews>가장 최근 뉴스 보기</VF_DevMode_ShowRecentNews>
+  <VF_DevMode_OpenQuickTestSettings>빠른 테스트 메뉴</VF_DevMode_OpenQuickTestSettings>
+  <VF_DevMode_GraphEditor>그래프 편집기</VF_DevMode_GraphEditor>
+  <VF_DevMode_ResetAll>모든 설정 초기화</VF_DevMode_ResetAll>
+  <VF_DevMode_ResetVehicle>{0} 설정 초기화</VF_DevMode_ResetVehicle>
+  <VF_DevMode_ResetAllVehicles>모든 차량 설정 초기화</VF_DevMode_ResetAllVehicles>
+  <VF_DevMode_ResetPage>이 페이지 설정 초기화</VF_DevMode_ResetPage>
+  <VF_DevMode_ResetAllConfirmation>정말 모든 설정을 원래 값으로 재설정하시겠습니까? 예외 처리로 인해 모드 설정이 잠겨있을 경우 초기화 작업 이후 게임을 다시 시작해야 합니다.</VF_DevMode_ResetAllConfirmation>
+  <VF_DevMode_DebugLogging>디버그 정보 기록</VF_DevMode_DebugLogging>
+  <VF_DevMode_DebugLoggingTooltip>메세지 기록을 활성화하여 차량 디버깅에 유용한 특정 값과 정보를 출력합니다. 차량 에드온을 만들고자 할 경우에만 사용하십시오.</VF_DevMode_DebugLoggingTooltip>
+  <VF_DevMode_DebugPathCostRecalculationLogging>경로 계산 값을 재계산한 것을 기록</VF_DevMode_DebugPathCostRecalculationLogging>
+  <VF_DevMode_DebugPathCostRecalculationLoggingTooltip>지역 등의 영향을 받아 경로 계산이 변경되었을 때의 정보들을 로그에 기록합니다.</VF_DevMode_DebugPathCostRecalculationLoggingTooltip>
+  <VF_DevMode_DebugDraftAnyVehicle>모든 차량 시동 허용</VF_DevMode_DebugDraftAnyVehicle>
+  <VF_DevMode_DebugDraftAnyVehicleTooltip>승객 여부와 관계없이 모든 차량의 시동을 걸거나 이동시킬 수 있습니다. 비어있는 보트가 깊은 물 속에 존재하거나 빠른 테스트를 하고자 할 때 유용합니다.</VF_DevMode_DebugDraftAnyVehicleTooltip>
+  <VF_DevMode_DebugShootAnyTurret>모든 포탑 발사 허용</VF_DevMode_DebugShootAnyTurret>
+  <VF_DevMode_DebugShootAnyTurretTooltip>포탑이 작동중인지 여부와 관계없이 모든 포탑의 발사를 허용합니다.</VF_DevMode_DebugShootAnyTurretTooltip>
+  <VF_DevMode_DebugSpawnVehiclesGodMode>차량 건물 생성 (갓 모드)</VF_DevMode_DebugSpawnVehiclesGodMode>
+  <VF_DevMode_DebugSpawnVehiclesGodModeTooltip>갓모드 상태에서 배치되는 차량 청사진은 일반적인 생성을 위해 차량 정보를 생성하는것과는 다르게 차량을 변형시켜 생성합니다.</VF_DevMode_DebugSpawnVehiclesGodModeTooltip>
+  <VF_DevMode_DebugDrawUpgradeNodeGrid>업그레이드 트리 그리드 그리기</VF_DevMode_DebugDrawUpgradeNodeGrid>
+  <VF_DevMode_DebugDrawUpgradeNodeGridTooltip>(x,y) 축에 배치할 업그레이드 트리 그리드를 그립니다.</VF_DevMode_DebugDrawUpgradeNodeGridTooltip>
+  <VF_DevMode_DebugDrawHitbox>히트박스 표시</VF_DevMode_DebugDrawHitbox>
+  <VF_DevMode_DebugDrawHitboxTooltip>차량이 차지하고 있는 셀을 강조하면서 차량의 히트박스를 표시합니다.</VF_DevMode_DebugDrawHitboxTooltip>
+  <VF_DevMode_DebugDrawVehicleTracks>차량 트랙 표시</VF_DevMode_DebugDrawVehicleTracks>
+  <VF_DevMode_DebugDrawVehicleTracksTooltip>차량의 "VehicleTracks" 가 점유하고 있는 셀을 표시해서 이동 작업에 따라 손상되는 셀을 표시합니다.</VF_DevMode_DebugDrawVehicleTracksTooltip>
+  <VF_DevMode_DebugDrawBumpers>차량 범퍼 표시</VF_DevMode_DebugDrawBumpers>
+  <VF_DevMode_DebugDrawBumpersTooltip>차량 바로 앞에 셀을 표시하여 차량이 무언가에 "충돌"하여 이동하는 것을 멈출 때를 표시합니다.</VF_DevMode_DebugDrawBumpersTooltip>
+  <VF_DevMode_DebugDrawLordMeetingPoint>지도자 만남의 장소 강조</VF_DevMode_DebugDrawLordMeetingPoint>
+  <VF_DevMode_DebugDrawLordMeetingPointTooltip>차량 상단이 만나기로 설정한 셀을 강조 표시합니다.</VF_DevMode_DebugDrawLordMeetingPointTooltip>
+  <VF_DevMode_DebugDrawFleePoints>도주 경로 그리기</VF_DevMode_DebugDrawFleePoints>
+  <VF_DevMode_DebugDrawFleePointsTooltip>차량 충돌로부터 도망치려는 정착민의 이동 경로를 표시합니다.</VF_DevMode_DebugDrawFleePointsTooltip>
+  <VF_DevMode_DebugPathfinderDebugging>로컬 경로 지정</VF_DevMode_DebugPathfinderDebugging>
+  <VF_DevMode_DebugPathfinderDebuggingTooltip>경로 탐색의 다양한 출력과 관련된 디버깅을 위한 메뉴를 엽니다.</VF_DevMode_DebugPathfinderDebuggingTooltip>
+  <VF_DevMode_DebugWorldPathfinderDebugging>세계 경로 지정</VF_DevMode_DebugWorldPathfinderDebugging>
+  <VF_DevMode_DebugWorldPathfinderDebuggingTooltip>모든 VehicleDef 에 대한 WorldPathGrid 디버깅을 위한 메뉴를 엽니다.</VF_DevMode_DebugWorldPathfinderDebuggingTooltip>
+  <VF_DevMode_DebugDrawVehiclePathingCosts>경로 비용 표시</VF_DevMode_DebugDrawVehiclePathingCosts>
+  <VF_DevMode_DebugDrawVehiclePathingCostsTooltip>경로 탐색 알고리즘으로 계산된 셀/타일당 경로 비용과 누적 경로 비용을 표시합니다.</VF_DevMode_DebugDrawVehiclePathingCostsTooltip>
+  <VF_DevMode_DebugDrawPathfinderSearch>경로 탐색 표시</VF_DevMode_DebugDrawPathfinderSearch>
+  <VF_DevMode_DebugDrawPathfinderSearchTooltip>경로를 탐색하는 노드를 열고 닫을 때의 정보를 표시합니다. 계증적 경로 탐색이 활성화 된 경우 청크 검색도 표시됩니다. 대부분의 비동기 탐색은 너무 빨라서 눈으로 볼 수 없기에 정보를 제대로 표시하기 위해 의도적으로 속도를 낮춥니다.</VF_DevMode_DebugDrawPathfinderSearchTooltip>
+  <VF_VehicleEnabled>활성화</VF_VehicleEnabled>
+  <VF_VehicleDisabled>비활성화</VF_VehicleDisabled>
+  <VF_VehiclePlayerOnly>플레이어만 사용 가능</VF_VehiclePlayerOnly>
+  <VF_VehicleRaiderOnly>NPC만 사용 가능</VF_VehicleRaiderOnly>
+  <VF_EnableButtonTooltip>비활성화 시 이 차량은 게임 내에서 사용할 수 없게 됩니다. 플레이어와 NPC 세력 모두에게 적용됩니다.</VF_EnableButtonTooltip>
+  <VF_MovementPermissions>조종자</VF_MovementPermissions>
+  <VF_NavigationType>자동 이동</VF_NavigationType>
+  <VF_NavigationTypeTooltip>세계 지도를 이동할 때 차량이 어떤 식으로 운전하게 되는 지를 결정합니다.</VF_NavigationTypeTooltip>
+  <VF_Nameable>이름 재지정 허용</VF_Nameable>
+  <VF_NameableTooltip>이 차량의 이름을 지어주는 것을 허용합니다. 차량 위에 이름이 표시되며 기본 이름을 대체합니다.</VF_NameableTooltip>
+  <VF_CombatPower>전투력</VF_CombatPower>
+  <VF_CombatPowerTooltip>이벤트 등에서 차량을 생성 할 때 차량이 소모하는 포인트 값입니다.</VF_CombatPowerTooltip>
+  <VF_CanCaravan>상단</VF_CanCaravan>
+  <VF_CanCaravanTooltip>차량을 상단에 포함시킬 수 있습니다.</VF_CanCaravanTooltip>
+  <VF_SaveableFieldDisabledConditionTooltip>비활성화 됨. {0}</VF_SaveableFieldDisabledConditionTooltip>
+  <VF_DisabledSingleModDependencyTooltip>비활성화 됨. 현재 활성 모드 목록에 없음: {0}</VF_DisabledSingleModDependencyTooltip>
+  <VF_DisabledMultipleModsDependencyTooltip>비활성화 됨. 현재 활성 모드 목록에 없음: {0}</VF_DisabledMultipleModsDependencyTooltip>
+  <VF_SaveableFieldDisabledTooltip>비활성화 된 차량 유형입니다.</VF_SaveableFieldDisabledTooltip>
+  <VF_SaveableFieldLockedTooltip>이 차량에 대한 설정 변경이 금지되어 있습니다.</VF_SaveableFieldLockedTooltip>
+  <VF_DebugDisabledTooltip>모든 차량이 비활성화 되어 있습니다..</VF_DebugDisabledTooltip>
+  <VF_GizmoDisabledTooltip>모드 설정에서 비활성화 되었습니다.</VF_GizmoDisabledTooltip>
+  <VF_CollisionMultiplier>정착민 손상 배율</VF_CollisionMultiplier>
+  <VF_CollisionMultiplierTooltip>정착민과 차량이 충돌했을 때 적용되는 피해 배율입니다.</VF_CollisionMultiplierTooltip>
+  <VF_CollisionVehicleMultiplier>차량 손상 배율</VF_CollisionVehicleMultiplier>
+  <VF_CollisionVehicleMultiplierTooltip>정착민과 차량이 충돌했을 때 적용되는 피해 배율입니다.</VF_CollisionVehicleMultiplierTooltip>
+  <VF_ManhunterTargetsVehicle>인간사냥 타겟</VF_ManhunterTargetsVehicle>
+  <VF_ManhunterTargetsVehicleTooltip>인간사냥 상태인 동물이 이 차량을 목표로 삼고 공격합니다.</VF_ManhunterTargetsVehicleTooltip>
+  <VF_FishingEnabled>낚시 허용</VF_FishingEnabled>
+  <VF_FishingEnabledTooltip>이 차량이 물 위에 정지해 있을 경우 낚시를 할 수 있게 허용합니다.</VF_FishingEnabledTooltip>
+  <VF_MaxWorkers>최대 탑승 인원</VF_MaxWorkers>
+  <VF_WinterSpeedMultiplier>겨울 이동 페널티 배율</VF_WinterSpeedMultiplier>
+  <VF_WinterSpeedMultiplierTooltip>겨울에 세계지도에서 이동할 시 페널티를 받는 비용입니다.</VF_WinterSpeedMultiplierTooltip>
+  <VF_WorldSpeedMultiplier>세계 지도 속도 배율</VF_WorldSpeedMultiplier>
+  <VF_WorldSpeedMultiplierTooltip>상단에 소속된 상태로 세계 지도를 이동 중일 때 이동속도에 곱해지는 값입니다.</VF_WorldSpeedMultiplierTooltip>
+  <VF_DischargePerTick>방전율</VF_DischargePerTick>
+  <VF_TicksPerCharge>충전 속도</VF_TicksPerCharge>
+  <VF_FuelConsumptionRate>연료 소비량</VF_FuelConsumptionRate>
+  <VF_FuelConsumptionRateTooltip>하루 동안 소비되는 연료량입니다. 차량이 대기 상태일 때는 연료를 50% 적게 소비합니다.</VF_FuelConsumptionRateTooltip>
+  <VF_FuelConsumptionRateWorldMultiplier>세계지도 배율</VF_FuelConsumptionRateWorldMultiplier>
+  <VF_FuelConsumptionRateWorldMultiplierTooltip>세계지도에서 이동할 때 연료를 소비하는 배율입니다.</VF_FuelConsumptionRateWorldMultiplierTooltip>
+  <VF_FuelCapacity>연료 용량</VF_FuelCapacity>
+  <VF_FuelCapacityTooltip>저장할 수 있는 연료의 양입니다.</VF_FuelCapacityTooltip>
+  <VF_AutoRefuelPercent>자동 충전 비율 %</VF_AutoRefuelPercent>
+  <VF_AutoRefuelPercentTooltip>연료가 이 비율 이하로 떨어지면 정착민이 차량에 연료를 자동으로 보급합니다.</VF_AutoRefuelPercentTooltip>
+  <VF_FuelConsumptionWorld>연료 소비율 %</VF_FuelConsumptionWorld>
+  <VF_FuelConsumptionWorldTooltip>세계 지도를 이동할 때 연료 소비량에 곱해지는 비율입니다.</VF_FuelConsumptionWorldTooltip>
+  <VF_LaunchFixedMaxDistance>최대 이동 거리</VF_LaunchFixedMaxDistance>
+  <VF_LaunchFixedMaxDistanceTooltip>보유 연료량과는 관계없이 이 차량이 한번에 비행할 수 있는 최대 거리를 설정합니다.</VF_LaunchFixedMaxDistanceTooltip>
+  <VF_LaunchFixedMaxDistanceDisabled>없음</VF_LaunchFixedMaxDistanceDisabled>
+  <VF_ReconDistance>정찰 거리</VF_ReconDistance>
+  <VF_ReconDistanceTooltip>비행기가 주변을 탐색하거나 다른 정착지를 정찰할 수 있는 타일의 거리입니다.</VF_ReconDistanceTooltip>
+  <VF_ControlInFlight>비행 중 제어</VF_ControlInFlight>
+  <VF_ControlInFlightTooltip>비행 중에 비행 차량을 제어합니다. 비행 중에 비행 경로를 변경하거나 지역을 탐색한 후 착륙을 선택할 수도 있고 아직 불러오지 않은 지역을 공격할 수도 있습니다.</VF_ControlInFlightTooltip>
+  <VF_CanRoofPunch>지붕 관통 여부</VF_CanRoofPunch>
+  <VF_CanRoofPunchTooltip>차량이 착륙할 시 지붕을 뚫을 수 있습니다.</VF_CanRoofPunchTooltip>
+  <VF_SpaceFlight>우주 여행</VF_SpaceFlight>
+  <VF_SpaceFlightTooltip>우주에 있는 물체로 이착륙을 할 수 있게 허용합니다.</VF_SpaceFlightTooltip>
+  <VF_RateOfClimb>상승 속도</VF_RateOfClimb>
+  <VF_RateOfClimbTooltip>1틱당 차량이 상승하는 속도입니다.</VF_RateOfClimbTooltip>
+  <VF_MaxAltitude>최대 고도</VF_MaxAltitude>
+  <VF_MaxAltitudeTooltip>이 차량이 비행 중 도달할 수 있는 최대 고도입니다.</VF_MaxAltitudeTooltip>
+  <VF_MaxFallRate>최대 낙하 시간</VF_MaxFallRate>
+  <VF_MaxFallRateTooltip>이 차량이 격추되거나 연료가 부족해서 추락할 때 걸리는 최대 시간입니다.</VF_MaxFallRateTooltip>
+  <VF_Instant>즉시</VF_Instant>
+  <VF_DeployTime>배치 시간</VF_DeployTime>
+  <VF_MainSettings>기본 설정</VF_MainSettings>
+  <VF_ListSearchText>검색</VF_ListSearchText>
+  <VF_SettingsDisabledTooltip>이 차량에 대한 설정이 잠겨있기에 설정을 변경할 수 없습니다.</VF_SettingsDisabledTooltip>
+  <VF_NonUpgradeableSettingsTooltip>이 차량은 업그레이드 할 수 없습니다.</VF_NonUpgradeableSettingsTooltip>
+  <VF_RecolorDefaultMaskTooltip>기본 패턴 변경</VF_RecolorDefaultMaskTooltip>
+  <VF_WorldMapGen>세계/지도 생성</VF_WorldMapGen>
+  <VF_BeachGenMultiplier>해변 크기 배율</VF_BeachGenMultiplier>
+  <VF_BeachGenMultiplierTooltip>해안 지형 맵에서 물 타일의 비율을 증가시킵니다.</VF_BeachGenMultiplierTooltip>
+  <VF_RiverGenMultiplier>강 크기 배율</VF_RiverGenMultiplier>
+  <VF_RiverGenMultiplierTooltip>하천 지형 맵에서 하천의 폭을 증가시킵니다.</VF_RiverGenMultiplierTooltip>
+  <VF_WorldTiles>타일</VF_WorldTiles>
+  <VF_SettingsGeneral>일반적인 설정</VF_SettingsGeneral>
+  <VF_WillRequireRestart>이 설정을 적용하려면 게임을 다시 시작해야 합니다.</VF_WillRequireRestart>
+  <VF_ModifiableSettings>설정값 수정 허용</VF_ModifiableSettings>
+  <VF_ModifiableSettingsTooltip>이 모드의 설정값을 수정할 수 있게 설정합니다. 이 기능을 비활성화한 상태로 게임을 다시 시작하면 설정을 변경하더라도 반영되지 않을 수 있습니다.\n\n차량이 이 모드의 설정값(Def)값을 사용하는 지 여부를 결정합니다.</VF_ModifiableSettingsTooltip>
+  <VF_CustomShaders>RGB 셰이더 사용</VF_CustomShaders>
+  <VF_CustomShadersTooltip>프레임워크 내부에 존재하는 RGB 셰이더를 활성화합니다.</VF_CustomShadersTooltip>
+  <VF_DiagonalVehicleRendering>대각선 렌더링 허용</VF_DiagonalVehicleRendering>
+  <VF_DiagonalVehicleRenderingTooltip>대각선 렌더링을 지원하는 차량이 대각선 방향으로 회전할 때 상대적으로 자연스럽게 출력됩니다.</VF_DiagonalVehicleRenderingTooltip>
+  <VF_FullVehiclePathing>경로 계산 시 차량의 크기값 사용</VF_FullVehiclePathing>
+  <VF_FullVehiclePathingTooltip>최단 경로를 계산하는 중에 차량의 크기 정보를 사용합니다. 활성화와 상관없이 차량은 크기의 제약을 받습니다.</VF_FullVehiclePathingTooltip>
+  <VF_SmoothVehiclePathing>부드러운 경로 계산</VF_SmoothVehiclePathing>
+  <VF_SmoothVehiclePathingTooltip>최단 경로에서 발생하는 불필요한 지그재그 회전을 방지하기 위해 회전에 드는 비용을 추가합니다.</VF_SmoothVehiclePathingTooltip>
+  <VF_HierarchalPathfinding>계층 경로 탐색</VF_HierarchalPathfinding>
+  <VF_HierarchalPathfindingTooltip>경로 탐색 최적화를 위해 기존의 A* 알고리즘 대신 HPA* 알고리즘을 사용합니다. 먼 거리에서 더 빠른 경로 탐색이 가능하지만 약간의 정확도를 희생합니다.</VF_HierarchalPathfindingTooltip>
+  <VF_RoadBiomeCostPathing>도로에서 지형 무시</VF_RoadBiomeCostPathing>
+  <VF_RoadBiomeCostPathingTooltip>차량 상단은 세계 지도에서 도로를 따라 이동할 때 지형의 경로 비용을 무시합니다.</VF_RoadBiomeCostPathingTooltip>
+  <VF_MultiplePawnsPerJob>다수의 정착민의 차량 작업 허용</VF_MultiplePawnsPerJob>
+  <VF_MultiplePawnsPerJobTooltip>이 설정을 활성화하면 다수의 정착민이 차량과 상호작용하는 것을 예약하고 작업을 수행할 수 있습니다. 모더가 설정한 인원수 까지만 허용됩니다.</VF_MultiplePawnsPerJobTooltip>
+  <VF_PerformanceSettings>성능</VF_PerformanceSettings>
+  <VF_PassiveWaterWaves>자연스러운 파도</VF_PassiveWaterWaves>
+  <VF_PassiveWaterWavesTooltip>보트가 대기 상태일 때 파도를 생성합니다.</VF_PassiveWaterWavesTooltip>
+  <VF_AerialVehicleEffects>비행 차량 그림자 효과</VF_AerialVehicleEffects>
+  <VF_AerialVehicleEffectsTooltip>항공기가 이착륙 할 때 반점을 생성하고 텍스쳐를 오버레이합니다.</VF_AerialVehicleEffectsTooltip>
+  <VF_MeleeDamageMultiplier>근접 피해 배율</VF_MeleeDamageMultiplier>
+  <VF_RangedDamageMultiplier>원거리 피해 배율</VF_RangedDamageMultiplier>
+  <VF_ExplosiveDamageMultiplier>폭발 피해 배율</VF_ExplosiveDamageMultiplier>
+  <VF_VehicleTurrets>차량 포탑</VF_VehicleTurrets>
+  <VF_TurretOverheatMechanics>포탑 과열</VF_TurretOverheatMechanics>
+  <VF_TurretOverheatMechanicsTooltip>일부 차량 포탑에는 냉각 없이 계속 발사되는 것을 방지하기 위한 과열 매커니즘이 존재합니다. 활성화하시겠습니까?</VF_TurretOverheatMechanicsTooltip>
+  <VF_Fishing>낚시</VF_Fishing>
+  <VF_FishingInactive>낚시 (비활성화)</VF_FishingInactive>
+  <VF_FishingMultiplier>낚시 배율</VF_FishingMultiplier>
+  <VF_FishingMultiplierTooltip>보트에서 채집하는 물고기의 양을 조절합니다.</VF_FishingMultiplierTooltip>
+  <VF_FishingSkill>낚시 기술</VF_FishingSkill>
+  <VF_FishingSkillTooltip>보트에서 낚시를 하면 경험치를 얻습니다.</VF_FishingSkillTooltip>
+  <VF_AerialVehicles>항공기</VF_AerialVehicles>
+  <VF_DrawLandingGhost>착륙 지점 표시</VF_DrawLandingGhost>
+  <VF_DrawLandingGhostTooltip>항공기가 착륙 예정인 지점을 투명한 청사진으로 표시합니다.</VF_DrawLandingGhostTooltip>
+  <VF_RocketsBurnRadius>로켓 화염 분출</VF_RocketsBurnRadius>
+  <VF_RocketsBurnRadiusTooltip>이 설정을 지원하는 비행 차량이 이착륙할 때 작은 반경 이내의 모든 것을 불태울 수 있습니다.</VF_RocketsBurnRadiusTooltip>
+  <VF_DynamicDrawing>동적 렌더링</VF_DynamicDrawing>
+  <VF_DynamicDrawingTooltip>세계 지도를 확대했을 경우 비행중인 차량을 렌더링합니다.</VF_DynamicDrawingTooltip>
+  <VF_DeployOnLanding>착륙 시 자동 하차</VF_DeployOnLanding>
+  <VF_DeployOnLandingTooltip>비행 차량이 착륙했을 때 탑승한 모든 정착민이 하차합니다.</VF_DeployOnLandingTooltip>
+  <VF_DelayOnLanding>하차 지연</VF_DelayOnLanding>
+  <VF_DelayOnLandingTooltip>공충 차량이 착륙했을 때 정착민들이 동시에 내리지 않고 순서대로 내립니다.</VF_DelayOnLandingTooltip>
+  <VF_DelaySeconds>초</VF_DelaySeconds>
+  <VF_AirDefensesActive>방공</VF_AirDefensesActive>
+  <VF_AirDefensesActiveTooltip>방공망을 활용하여 항공기를 격추할 수 있습니다.</VF_AirDefensesActiveTooltip>
+  <VF_CombatSettings>전투</VF_CombatSettings>
+  <VF_RunOverPawns>차량 충돌</VF_RunOverPawns>
+  <VF_RunOverPawnsTooltip>차량이 정착민과 겹쳐서 달릴 수 있으며 차의 질량과 속도에 비례해서 둔탁함 피해를 입힙니다.</VF_RunOverPawnsTooltip>
+  <VF_ChanceToRunOverFriendlies>아군 오사 확률</VF_ChanceToRunOverFriendlies>
+  <VF_ChanceToRunOverFriendliesTooltip>아군을 공격할 확률입니다.</VF_ChanceToRunOverFriendliesTooltip>
+  <VF_VehicleStats>정보</VF_VehicleStats>
+  <VF_Upgrades>업그레이드</VF_Upgrades>
+  <VF_OverrideDrawColor>차량 색상 재정의</VF_OverrideDrawColor>
+  <VF_OverrideDrawColorTooltip>패턴 또는 특정 색상과 함께 제공되는 업그레이드를 사용하게 되면 이전 색상 정보가 무시됩니다.</VF_OverrideDrawColorTooltip>
+  <VF_FormingCaravanStatus_RopingAnimals>동물을 차량에 묶습니다.</VF_FormingCaravanStatus_RopingAnimals>
+  <VF_FormingCaravanStatus_RopingAnimals_Pause>동물을 차량에 묶습니다. (대기 중)</VF_FormingCaravanStatus_RopingAnimals_Pause>
+  <VF_FormingCaravanStatus_BoardVehicles>탑승.</VF_FormingCaravanStatus_BoardVehicles>
+  <VF_FormingCaravanStatus_BoardVehicles_Pause>탑승 중 (대기 중)</VF_FormingCaravanStatus_BoardVehicles_Pause>
+  <VF_FormingCaravanStatus_Leaving_Vehicles>떠나는 중</VF_FormingCaravanStatus_Leaving_Vehicles>
+  <VF_FormingCaravanStatus_Leaving_Vehicles_Pause>떠나는 중 (대기 중)</VF_FormingCaravanStatus_Leaving_Vehicles_Pause>
+  <VF_draftLabel>시동 걸기</VF_draftLabel>
+  <VF_healthLabel_Healthy>정상 작동</VF_healthLabel_Healthy>
+  <VF_healthLabel_Injured>수리 필요</VF_healthLabel_Injured>
+  <VF_healthLabel_Immobile>작동 불가</VF_healthLabel_Immobile>
+  <VF_healthLabel_Dead>파손</VF_healthLabel_Dead>
+  <VF_healthLabel_Beached>해상</VF_healthLabel_Beached>
+  <VF_ReloadVehicleTurret>재장전</VF_ReloadVehicleTurret>
+  <VF_AutoTargetingDisabled>이 포탑은 목표 자동 지정이 허용되지 않습니다.</VF_AutoTargetingDisabled>
+  <VF_VehicleTurrets_NoAmmoToReload>사용 가능한 탄약이 없습니다.</VF_VehicleTurrets_NoAmmoToReload>
+  <VF_SetReloadLevel>자동 재장전 기준을 {0}(으)로 설정</VF_SetReloadLevel>
+  <VF_SetReloadLevelTooltip>탄약 재장전 설정</VF_SetReloadLevelTooltip>
+  <VF_Upgrade>업그레이드</VF_Upgrade>
+  <VF_DisabledFromOtherNode>업그레이드 할 수 없습니다. 이전에 잠금 해제되었던 노드에 접근할 수 없습니다.</VF_DisabledFromOtherNode>
+  <VF_MissingPrerequisiteUpgrade>필수 노드가 존재하지 않습니다.</VF_MissingPrerequisiteUpgrade>
+  <VF_RemoveUpgrade>제거</VF_RemoveUpgrade>
+  <VF_DisabledByVehicleUpgrading>{0}(을)를 업그레이드하는 중입니다.</VF_DisabledByVehicleUpgrading>
+  <VF_VehicleFuelCost>연료: {0}</VF_VehicleFuelCost>
+  <VF_Depth>깊이</VF_Depth>
+  <VF_Depth_Internal>내부</VF_Depth_Internal>
+  <VF_Depth_External>외부</VF_Depth_External>
+  <VF_Depth_Undefined>미정의</VF_Depth_Undefined>
+  <VF_DevMode_LogThreadActivity>스레드 로그 기록</VF_DevMode_LogThreadActivity>
+  <VF_DevMode_LogThreadActivityTooltip>현재 보기에서 현재 맵의 전용 스레드에 진행 중인 비동기 작업을 기록합니다.</VF_DevMode_LogThreadActivityTooltip>
+  <VF_OffRoadMultiplier>오프로드 계수</VF_OffRoadMultiplier>
+  <VF_OffRoadMultiplierTooltip>오프로드 주행시 발생하는 비용 계수입니다.</VF_OffRoadMultiplierTooltip>
+  <ST_AnimationWindow>애니메이션</ST_AnimationWindow>
+  <ST_CreateNewClip>새 클립 만들기…</ST_CreateNewClip>
+  <ST_PreviewAnimation>미리보기</ST_PreviewAnimation>
+  <ST_PreviewAnimationTooltip>게임 내 엔티티 애니메이션의 미리보기 모드 활성화/비활성화</ST_PreviewAnimationTooltip>
+  <ST_PlayAnimationTooltip>애니메이션 재생</ST_PlayAnimationTooltip>
+  <ST_PauseAnimationTooltip>애니메이션 일시 중지</ST_PauseAnimationTooltip>
+  <ST_SkipFrameBeginningTooltip>애니메이션 시작 부분으로 이동</ST_SkipFrameBeginningTooltip>
+  <ST_SkipFramePreviousTooltip>이전 키프레임으로 이동</ST_SkipFramePreviousTooltip>
+  <ST_SkipFrameNextTooltip>다음 키프레임으로 이동</ST_SkipFrameNextTooltip>
+  <ST_SkipFrameEndTooltip>애니메이션 끝으로 이동</ST_SkipFrameEndTooltip>
+  <ST_AddKeyFrame>키프레임 추가</ST_AddKeyFrame>
+  <ST_AddAnimationEvent>이벤트 추가</ST_AddAnimationEvent>
+  <ST_AddProperty>속성 추가</ST_AddProperty>
+  <ST_DopesheetTab>도프시트</ST_DopesheetTab>
+  <ST_CurvesTab>커브</ST_CurvesTab>
+  <VF_GeneratingPathData>차량 경로 데이터 생성</VF_GeneratingPathData>
+  <VF_GeneratingPathGrids>경로 그리드 생성</VF_GeneratingPathGrids>
+  <VF_GeneratingRegions>차량 지역 생성</VF_GeneratingRegions>
+  <VF_Caravan_MoveSpeed>1일 동안 이동하는 타일 수.</VF_Caravan_MoveSpeed>
+  <VF_Caravan_Cargo>화물</VF_Caravan_Cargo>
+  <VF_ShowVehicleProperties>속성 보기</VF_ShowVehicleProperties>
+  <VF_RecoverVehicles>차량 회수</VF_RecoverVehicles>
+  <VF_RoadType_Prioritize>우선 이동구역</VF_RoadType_Prioritize>
+  <VF_BoardVehicle>{0}로 탑승 [{1}]</VF_BoardVehicle>
+  <VF_BoardFailureTooMany>선택 인원이 너무 많습니다.</VF_BoardFailureTooMany>
+  <VF_BoardFailureNonCombatant>{0}은(는) 전투가 불가능합니다.</VF_BoardFailureNonCombatant>
+  <VF_GearForward>전진</VF_GearForward>
+  <VF_GearReverse>후진</VF_GearReverse>
+  <VF_RefuelFromInventoryCount>{1} {0}x 보충</VF_RefuelFromInventoryCount>
+  <VF_RefuelFromInventoryDesc>화물에 있는 연료로 {0}을 보충합니다.</VF_RefuelFromInventoryDesc>
+  <VF_VehicleFullyFueled>{0}은(는) 이미 연료가 가득 차 있습니다.</VF_VehicleFullyFueled>
+  <VF_NoFuelInVehicle>{0}에 연료가 없습니다.</VF_NoFuelInVehicle>
+  <VF_CantRefuelWhileFlying>비행 중에는 {0}에 연료를 보충할 수 없습니다.</VF_CantRefuelWhileFlying>
+  <VF_TransferToVehicle_Order>차량으로 운반</VF_TransferToVehicle_Order>
+  <VF_TransferToVehicle_Order_Desc>선택한 물자를 대상 차량의 화물칸으로 운반합니다.</VF_TransferToVehicle_Order_Desc>
+  <VF_TransferToVehicle_Cancel>운반 취소</VF_TransferToVehicle_Cancel>
+  <VF_TransferToVehicle_Cancel_Desc>선택한 물자의 운반을 취소합니다.</VF_TransferToVehicle_Cancel_Desc>
+  <VF_RandomVehicle>무작위 차량</VF_RandomVehicle>
+  <VF_StatsReport_Deployed>배치됨</VF_StatsReport_Deployed>
+  <VF_CrewCount>승무원</VF_CrewCount>
+  <VF_CrewCountDesc>이 차량에 탑승할 수 있는 승무원 및 탑승객 수입니다.</VF_CrewCountDesc>
+  <VF_PaintableDesc>이 차량은 색상 메뉴에서 도색할 수 있습니다.</VF_PaintableDesc>
+  <VF_Upgradeable>업그레이드 가능</VF_Upgradeable>
+  <VF_UpgradeableDesc>업그레이드 트리를 통해 개조할 수 있습니다.</VF_UpgradeableDesc>
+  <VF_FuelType>연료 종류</VF_FuelType>
+  <VF_FuelTypeDesc>이 차량에 사용하는 연료입니다.</VF_FuelTypeDesc>
+  <VF_CancelUpgrade>{0}의 진행 중인 업그레이드를 취소합니다.</VF_CancelUpgrade>
+  <VF_RoadZoneExpand>도로 구역</VF_RoadZoneExpand>
+  <VF_RoadZoneExpandDesc>차량이 이 구역을 우선 이동 또는 회피하도록 설정합니다.
+
+지도 가장자리에 ‘우선 이동구역’을 지정하면 차량 캐러밴의 진입 지점이 됩니다.</VF_RoadZoneExpandDesc>
+  <VF_RoadZoneClear>도로 구역 제거</VF_RoadZoneClear>
+  <VF_RoadZoneClearDesc>도로 구역을 제거합니다. 해당 지역에서 차량 이동 방식이 변경되지 않습니다.</VF_RoadZoneClearDesc>
+  <VF_NoFishermenTooltip>낚시가 가능한 정착민이 탑승 중이 아닙니다.</VF_NoFishermenTooltip>
+  <VF_NoFishAtSpot>이 위치에는 물고기가 없습니다.</VF_NoFishAtSpot>
+  <VF_PatternDisplacementXTooltip>텍스처를 가로 축으로 이동합니다.</VF_PatternDisplacementXTooltip>
+  <VF_PatternDisplacementYTooltip>텍스처를 세로 축으로 이동합니다.</VF_PatternDisplacementYTooltip>
+  <VF_Electricity>전기</VF_Electricity>
+  <VF_AutoAssign>자동 배정</VF_AutoAssign>
+  <VF_CannotLaunchRotated>{0}은(는) 각도를 틀어 발사할 수 없습니다.</VF_CannotLaunchRotated>
+  <VF_EfficiencyEffector>영향받는 스탯</VF_EfficiencyEffector>
+  <VF_BaseArmorRating>기본 방어력: {0}</VF_BaseArmorRating>
+  <VF_NoSpaceFlight>{0}은(는) 우주 비행이 불가능합니다.</VF_NoSpaceFlight>
+  <VF_PawnsLeftBehindConfirm>좌석 부족</VF_PawnsLeftBehindConfirm>
+  <VF_PawnsLeftBehindConfirmDesc>떠나기</VF_PawnsLeftBehindConfirmDesc>
+  <VF_IdleInVehicle>다음 정착민이 차량 안에서 아무 일도 하지 않고 있습니다:\n{0}\n\n생산적인 작업을 배정하는 것이 좋습니다.</VF_IdleInVehicle>
+  <VF_CannotAddToCargo>{0}은(는) 화물칸에 넣을 수 없습니다.</VF_CannotAddToCargo>
+  <VF_DevMode_DebugInstantSendOff>즉시 공중 출격</VF_DevMode_DebugInstantSendOff>
+  <VF_DevMode_DebugInstantSendOffTooltip>애니메이션 및 대기 시간을 생략하고 항공기를 즉시 출격시킵니다.</VF_DevMode_DebugInstantSendOffTooltip>
+  <VF_DevMode_DebugDrawGrid>디버그 그리드 표시</VF_DevMode_DebugDrawGrid>
+  <VF_DevMode_DebugDrawGridTooltip>선택한 유형의 디버그 그리드를 표시합니다.</VF_DevMode_DebugDrawGridTooltip>
+  <VF_EMPStuns>EMP 기절</VF_EMPStuns>
+  <VF_EMPStunsTooltip>EMP 무기는 이 차량을 일시적으로 비활성화합니다.</VF_EMPStunsTooltip>
+  <VF_CanAdaptToEMP>적응 가능</VF_CanAdaptToEMP>
+  <VF_CanAdaptToEMPTooltip>EMP 피해에 적응하여 일시적으로 기절 면역이 될 수 있습니다.</VF_CanAdaptToEMPTooltip>
+  <VF_VehicleCannotStun>이 차량은 기절 기능이 없습니다.</VF_VehicleCannotStun>
+  <VF_DischargePerTickTooltip>틱당 배터리가 잃는 에너지량입니다.</VF_DischargePerTickTooltip>
+  <VF_TicksPerChargeTooltip>틱당 배터리에 충전되는 에너지량입니다.</VF_TicksPerChargeTooltip>
+  <VF_NotElectricPowered>전력식 차량이 아닙니다.</VF_NotElectricPowered>
+  <VF_PerDay>/ 일</VF_PerDay>
+  <VF_Fuel>연료</VF_Fuel>
+  <VF_TargetFuelConfigurable>연료량 조절 가능</VF_TargetFuelConfigurable>
+  <VF_TargetFuelConfigurableTooltip>최대 연료량을 설정할 수 있습니다.</VF_TargetFuelConfigurableTooltip>
+  <VF_AmbientHeat>주변 열기</VF_AmbientHeat>
+  <VF_AmbientHeatTooltip>연료가 소모될 때 방출되는 열입니다.</VF_AmbientHeatTooltip>
+  <VF_SignalJamming>신호 교란</VF_SignalJamming>
+  <VF_SignalJammingTooltip>특정 궤도 플랫폼에 접근할 수 있도록 신호를 교란할 수 있습니다.</VF_SignalJammingTooltip>
+  <VF_Rotatable>회전 가능</VF_Rotatable>
+  <VF_RotatableTooltip>포탑이 목표를 향해 회전할 수 있는지 여부입니다. 회전 불가 시 바라보는 방향으로만 사격합니다.</VF_RotatableTooltip>
+  <VF_MagazineCapacity>탄창 용량</VF_MagazineCapacity>
+  <VF_MagazineCapacityTooltip>재장전하기 전까지 사격할 수 있는 탄환 수입니다.</VF_MagazineCapacityTooltip>
+  <VF_MinRange>최소 사거리</VF_MinRange>
+  <VF_MinRangeTooltip>이 포탑의 최소 사거리입니다.</VF_MinRangeTooltip>
+  <VF_MaxRange>최대 사거리</VF_MaxRange>
+  <VF_MaxRangeTooltip>이 포탑의 최대 사거리입니다.</VF_MaxRangeTooltip>
+  <VF_WarmupTime>발사 준비 시간</VF_WarmupTime>
+  <VF_WarmupTimeValue>{0}초</VF_WarmupTimeValue>
+  <VF_WarmupTimeTooltip>사격을 준비하는 데 필요한 시간입니다.</VF_WarmupTimeTooltip>
+  <VF_ReloadTime>재장전 시간</VF_ReloadTime>
+  <VF_ReloadTimeValue>{0}초</VF_ReloadTimeValue>
+  <VF_ReloadTimeTooltip>포탑을 재장전하는 데 걸리는 시간입니다.</VF_ReloadTimeTooltip>
+  <VF_RotationSpeed>회전 속도</VF_RotationSpeed>
+  <VF_RotationSpeedValue>초당 {0}도</VF_RotationSpeedValue>
+  <VF_RotationSpeedTooltip>포탑이 목표를 향해 회전하는 속도입니다.</VF_RotationSpeedTooltip>
+  <VF_FireModes>사격 모드</VF_FireModes>
+  <VF_FireModesTooltip>포탑이 사용할 수 있는 사격 속도 모드입니다.</VF_FireModesTooltip>
+  <VF_RateOfFire>분당 발사 속도</VF_RateOfFire>
+  <VF_RateOfFireValue>분당 {0}발</VF_RateOfFireValue>
+  <VF_ShotsPerBurst>점사 발사 수</VF_ShotsPerBurst>
+  <VF_ShotGroup>탄착군</VF_ShotGroup>
+  <VF_ShotGroupValue>{0} 셀</VF_ShotGroupValue>
+  <VF_AdjustSettlementRadius>정착지 재배치</VF_AdjustSettlementRadius>
+  <VF_AdjustSettlementRadiusTooltip>차량 이동을 고려해 정착지를 주변 지형에 맞추어 조정합니다.</VF_AdjustSettlementRadiusTooltip>
+  <VF_AdjustCoastWeight>해안 가중치</VF_AdjustCoastWeight>
+  <VF_AdjustRiverWeight>강 가중치</VF_AdjustRiverWeight>
+  <VF_GraphicsSettings>그래픽</VF_GraphicsSettings>
+  <VF_ShellExplosionsOnWater>물 위 폭발 감소</VF_ShellExplosionsOnWater>
+  <VF_ShellExplosionsOnWaterTooltip>물 위에서 폭발하는 포탄은 폭발 반경이 감소하고 효과음이 물보라 소리로 변경됩니다.</VF_ShellExplosionsOnWaterTooltip>
+  <ST_Copy>복사</ST_Copy>
+  <ST_Paste>붙여넣기</ST_Paste>
+  <ST_Delete>삭제</ST_Delete>
+  <ST_ControllerWindow>컨트롤러</ST_ControllerWindow>
+  <ST_RemoveProperties>속성 제거</ST_RemoveProperties>
+  <ST_AddKey>키 추가</ST_AddKey>
+  <ST_RemoveKey>키 삭제</ST_RemoveKey>
+  <ST_Injected>삽입됨</ST_Injected>
+  <ST_UnsupportedType>미지원 유형</ST_UnsupportedType>
+  <ST_NoFunctionSelected>선택된 기능이 없습니다.</ST_NoFunctionSelected>
+  <ST_NoControllerParameters>컨트롤러 파라미터 없음</ST_NoControllerParameters>
+  <ST_Layers>레이어</ST_Layers>
+  <ST_Parameters>파라미터</ST_Parameters>
+  <ST_Conditions>조건</ST_Conditions>
+  <ST_CreateState>상태 생성</ST_CreateState>
+  <ST_CreateSubState>하위 상태기 생성</ST_CreateSubState>
+  <ST_MakeTransition>전이 만들기</ST_MakeTransition>
+  <ST_SetStateDefault>기본 상태로 설정</ST_SetStateDefault>
+  <ST_CreateBlendTree>블렌드 트리 생성</ST_CreateBlendTree>
+  <ST_Loop>루프</ST_Loop>
+  <ST_MotionFile>모션</ST_MotionFile>
+  <ST_MotionSpeed>속도</ST_MotionSpeed>
+  <ST_MotionSpeedMultiplier>배율</ST_MotionSpeedMultiplier>
+  <ST_MotionTime>모션 시간</ST_MotionTime>
+  <ST_Mirror>미러</ST_Mirror>
+  <ST_CycleOffset>사이클 오프셋</ST_CycleOffset>
+  <ST_WriteDefaults>기본값 저장</ST_WriteDefaults>
+  <ST_TransitionList>전이 목록</ST_TransitionList>
+  <ST_TransitionSolo>솔로</ST_TransitionSolo>
+  <ST_TransitionMute>뮤트</ST_TransitionMute>
+  <VF_ToggleAutoTargeting>자동 조준 전환</VF_ToggleAutoTargeting>
+  <VF_ToggleAutoTargetingDesc>이 설정은 터렛이 자동으로 적을 조준할지 여부를 결정합니다.
+활성화 시 사거리 내의 적을 자동으로 공격합니다.
+
+현재 자동 조준 상태: {0}</VF_ToggleAutoTargetingDesc>
+</LanguageData>
