@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RE_ReaperLowBarrier"]/label</xpath>
+          <value>
+            <label>리퍼 저각 보호막</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RE_ReaperLowBarrier"]/description</xpath>
+          <value>
+            <description>운동량 반발 보호막을 투사하는 차폐 장치입니다. 내부로부터의 사격은 가능하지만, 그 반대는 불가능합니다.\n\n이것은 낮은 각도에 맞춰져 있기 때문에 탄환과 같은 지상 투사체를 차단할 것입니다.\n\n투영 장치 자체에 충격을 주거나 보호막에 교란탄을 사용한 공격을 가해 장치를 일시적으로 무력화시킬 수 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RE_ReaperHighBarrier"]/label</xpath>
+          <value>
+            <label>리퍼 고각 보호막</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="RE_ReaperHighBarrier"]/description</xpath>
+          <value>
+            <description>운동량 반발 보호막을 투사하는 차폐 장치입니다. 내부로부터의 사격은 가능하지만, 그 반대는 불가능합니다.\n\n이것은 높은 각도에 맞춰져 있기 때문에 박격포탄 등을 차단할 것입니다.\n\n투영 장치 자체에 충격을 주거나 보호막에 교란탄을 사용한 공격을 가해 장치를 일시적으로 무력화시킬 수 있습니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
