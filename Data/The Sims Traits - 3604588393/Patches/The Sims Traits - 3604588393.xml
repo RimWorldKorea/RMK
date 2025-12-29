@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MentalFitDef[defName="ST_GoofballGiggling"]/label</xpath>
+          <value>
+            <label>웃음</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/MentalStateDef[defName="ST_GoofballGiggling"]/baseInspectLine</xpath>
+          <value>
+            <baseInspectLine>정신 상태: 웃음</baseInspectLine>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThoughtDef[defName="ST_FunnyPerson"]/stages/li[1]/label</xpath>
+          <value>
+            <label>재밌는 사람</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThoughtDef[defName="ST_FunnyPerson"]/stages/li[1]/description</xpath>
+          <value>
+            <description>하하, 하여간 {PAWN_pronoun}도 참 별나지!</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Traits Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThoughtDef[defName="ST_MyRivalsAreCaptured"]/stages/li[1]/label</xpath>
+          <value>
+            <label>원수를 사로잡음</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThoughtDef[defName="ST_MyRivalsAreCaptured"]/stages/li[1]/description</xpath>
+          <value>
+            <description>내 원수가 드디어 묫자리를 찾았군. 바로 내 무릎 위지!</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
