@@ -1,0 +1,784 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Nyar_RandomTurrent_Gun.label>웜 트래킹 미사일</Nyar_RandomTurrent_Gun.label>
+  <Nyar_RandomTurrent_Gun.description>포탑에 장착하도록 제작된 간단한 자동포.</Nyar_RandomTurrent_Gun.description>
+  <Nyar_RandomTurrent_Gun.verbs.Verb_ShootRandomBullet.label>웜 트래킹 미사일</Nyar_RandomTurrent_Gun.verbs.Verb_ShootRandomBullet.label>
+  <Nyar_RandomTurrent_BulletA.label>A형 탄두</Nyar_RandomTurrent_BulletA.label>
+  <Nyar_RandomTurrent_BulletB.label>B형 탄두</Nyar_RandomTurrent_BulletB.label>
+  <Nyar_RandomTurrent_BulletC.label>C형 탄두</Nyar_RandomTurrent_BulletC.label>
+  <Nyar_RandomTurrent_BulletD.label>D형 탄두</Nyar_RandomTurrent_BulletD.label>
+  <Nyar_RandomTurrent_BulletE.label>E형 탄두</Nyar_RandomTurrent_BulletE.label>
+  <Nyar_RandomTurrent_BulletF.label>F형 탄두</Nyar_RandomTurrent_BulletF.label>
+  <B2000Mech.label>B2000메크</B2000Mech.label>
+  <Bullet_FlyingCentipede.label>날으는 센티피드</Bullet_FlyingCentipede.label>
+  <Bullet_FlyingLancer.label>날으는 랜서</Bullet_FlyingLancer.label>
+  <B2000MechLF.label>B2000메크</B2000MechLF.label>
+  <B2000MechUD.label>B2000메크</B2000MechUD.label>
+  <Nyar_Gyro_Blade.label>자이로 블레이드</Nyar_Gyro_Blade.label>
+  <Bullet_NCL_Fragments.label>파편</Bullet_NCL_Fragments.label>
+  <NCLCommsConsole.label>NCL 통신소</NCLCommsConsole.label>
+  <NCLCommsConsole.description>매우 고전적인 외관을 가진 이 통신 장비는 내장된 디코더를 통해 3단계 암호화 통신 네트워크에 접속할 수 있습니다.</NCLCommsConsole.description>
+  <NCLCommsConsole.comps.3.useLabel>NCL에 전화</NCLCommsConsole.comps.3.useLabel>
+  <NCL_MechWorm.label>특별한 기계 웜</NCL_MechWorm.label>
+  <NCL_MechWorm.description>이 거대한 기계 생명체의 기원은 NCL에 의해 극비로 봉인되어 있어, 당신은 궁금증만 가득할 뿐 그 정체를 밝혀낼 방법은 없습니다. 전장에서 이 생명체의 경이로운 파괴력을 목격한 당신은, 이제 잠시나마 연합군에 소속된 것에 안도할 수밖에 없습니다. 하지만 이 특별한 지위에는 미지의 변수들이 도사리고 있습니다.
+
+웜 특성:
+
+- 피해 흡수: 피해를 입은 후, 웜은 짧은 시간 동안 해당 유형의 피해에 면역이 됩니다.
+
+- 순간 이동 탄환: 웜은 염력을 사용하여 자신에게 날아오는 적의 탄환을 순간 이동시킬 수 있습니다. 일정 개수의 탄환을 순간 이동시킨 후에는 재사용 대기시간이 적용됩니다.
+
+- 에너지 보호막: 웜은 에너지 보호막을 가지고 있습니다. 보호막이 파괴되면 일정 시간 동안 재생됩니다.
+
+- 순간 이동 조작: 웜은 주변의 적들을 무작위로 선택하여 맵 가장자리로 순간 이동시키거나 자신에게 끌어당깁니다.
+
+- 혼돈의 순간이동: 긴 충전 후, 벌레는 맵상의 모든 적을 무작위로 맵 가장자리로 순간이동시킵니다.
+
+공격 방식:
+
+- **파괴 광선**: 짧은 충전 후, 벌레는 사정거리 무제한의 강력한 광선을 발사합니다.
+
+- **번개 공격**: 벌레는 하늘에서 여러 개의 번개를 소환하여 맵상의 적들을 공격합니다.
+
+- **벌레 유도포**: 벌레는 주기적으로 관절에서 투사체를 발사합니다. 이 투사체는 중간 정도의 위력을 지니지만 적의 방어막을 무시하는 유도탄입니다.
+
+- **최후의 돌진**: 벌레는 땅속으로 파고들어 목표물을 향해 돌진하여 막대한 충격 피해를 입힙니다.</NCL_MechWorm.description>
+  <NCL_MechWorm.tools.0.label>역린</NCL_MechWorm.tools.0.label>
+  <NCL_Gun_BeamGraser.label>파괴 광선</NCL_Gun_BeamGraser.label>
+  <NCL_Gun_BeamGraser.description>웜은 염력을 이용해 막대한 양의 에너지를 모아 입 밖으로 뿜어냅니다.</NCL_Gun_BeamGraser.description>
+  <Mote_NCLWormLaser.label>웜 레이저 파티클</Mote_NCLWormLaser.label>
+  <NCL_Gun_HellsphereCannon.label>번개</NCL_Gun_HellsphereCannon.label>
+  <NCL_Gun_HellsphereCannon.description>웜은 가장 가까운 적을 공격하기 위해 번개를 소환합니다.</NCL_Gun_HellsphereCannon.description>
+  <NCL_Gun_HellsphereCannon.verbs.Verb_ShootOneUse.label>번개</NCL_Gun_HellsphereCannon.verbs.Verb_ShootOneUse.label>
+  <Bullet_LightingStrike.label>번개</Bullet_LightingStrike.label>
+  <Omen_of_Doomsday.label>종말의 신호기</Omen_of_Doomsday.label>
+  <Omen_of_Doomsday.description>기존의 기계식 신호 안테나보다 훨씬 뛰어난 고성능 메카닉 신호 송신기입니다. 작동 시, 매우 강력한 펄스 신호를 방출하여 타이탄급 메카닉 Doxa-0과 호위 부대를 전투 위치로 유도합니다. 만약 격파될 경우, 잔해에서 희귀한 기술 부품을 추출할 수 있습니다. 신호 펄스가 송신기를 파괴하기 때문에, 이 전투 신호기는 한 번만 사용할 수 있습니다.</Omen_of_Doomsday.description>
+  <Omen_of_Doomsday.comps.0.useLabel>종말의 위협을 소환하세요</Omen_of_Doomsday.comps.0.useLabel>
+  <Omen_of_Shellfort.label>쉘포트 신호기</Omen_of_Shellfort.label>
+  <Omen_of_Shellfort.description>타이탄급 유닛의 하강을 유도하는 고강도 신호 장치인 "쉘캐스터 컨스트럭트"입니다. 활성화되면 특정 명령을 궤도로 전송하여 셸캐스터 컨스트럭트를 전장에 공중 투하하고 주력 메크 부대와 함께 합동 공격을 개시합니다. 쉘캐스터 컨스트럭트가 충돌하면 해당 지역의 지형이 파괴되고 맵 전체에 미사일 공격이 억제됩니다. 이 장치는 활성화 후 자폭하며 한 번만 사용할 수 있습니다. 쉘캐스터 컨스트럭트를 파괴하면 전술 코어를 획득하여 해당 기술 경로를 해금할 수 있습니다.</Omen_of_Shellfort.description>
+  <Omen_of_Shellfort.comps.0.useLabel>요새의 위협을 소환하세요</Omen_of_Shellfort.comps.0.useLabel>
+  <UnstablePrometheusCore.label>불안정한 프로메테우스 코어</UnstablePrometheusCore.label>
+  <UnstablePrometheusCore.description>프로젝트 번호: NYX-CORE-17β
+코드명: 불안정한 프로메테우스 코어
+연합 엔지니어들은 데드 아이 우주 정거장의 중력 렌즈 기술과 크라스낙 생체 커패시터를 결합하여 마침내 "핏빛 초유체" 현상을 재현하는 데 성공했습니다. 이는 수많은 사형수들의 순환계를 희생시킨 대가로 얻은 획기적인 성과입니다.
+
+이 장치는 신체의 에너지 중심인 심장을 대체하며, 티타늄-텅스텐 세라믹으로 만들어진 심실에는 혈액 속 철을 전기분해하여 광자 제트를 생성하는 3600개의 나노 뉴런 클러스터가 있습니다. 활성화되면 이식자는 세 단계를 경험하게 됩니다.
+
+**라이트폴 단계:** 생체 전기 신호가 강제로 2000Hz까지 증폭되어 힉스장의 국소적 붕괴를 유발하고, 일시적으로 신체에 보손화 능력을 부여합니다.
+
+**소각 단계:** 광속의 97.3% 속도로 목표물에 충돌하면 운동 에너지 과부하로 인해 TNT 380톤에 해당하는 압축 충격파가 발생합니다.
+
+**잔해 단계:** 제어되지 않는 나노 아크는 본질적으로 소형 블랙홀에서 새어 나오는 호킹 복사와 같습니다. 이 1.6mm 시공간 특이점은 반경 6m 이내의 모든 물질을 지속적으로 파괴합니다.
+
+광속 이하의 공격 능력을 제공하는 동시에, 양자 인공 심장의 나노 신경 세포들은 지속적으로 세타파 간섭을 방출하여 이식자의 정신적 감각을 영구적으로 0으로 만듭니다.
+
+**직업 제한 잠금:** 왼쪽은 이식자가 특정 행동을 감지하면 코어가 3단계 고통 자극을 발생시킨다고 주장합니다.
+
+왼쪽(ID: Nyx-114-514L)은 용광로 코어 때문에 '붓을 잡을 힘조차 잃었다'고 주장하지만, 감시 카메라 영상에는 다음과 같은 모습이 담겨 있습니다. 지난주에는 맨손으로 맨티스의 티타늄 합금 두개골을 분해했고, 어제는 칼을 들고 도망치려는 감자튀김 두 개를 정확하게 맞혔습니다. 현재는 임플란트에서 나오는 전기 아크를 이용해 마시멜로를 굽고 있습니다.
+
+(휴게실 음성 클립)
+오른쪽: '용광로 코어 때문에 설거지를 다시는 못 하게 됐다는 거야?'
+
+왼쪽: '감마 장비 규정 제17조에 따르면 유기 폐기물 접촉은 양자 붕괴를 유발할 수 있어.'
+
+오른쪽: '그럼 어제 그걸로 청소 로봇 고쳐준 건 뭐야?'
+
+왼쪽: '...필수 생존 기술 훈련이었어.'
+
+오른쪽: '게으름뱅이.'</UnstablePrometheusCore.description>
+  <SolarbaneArtemisLunarOculus.label>태양 사냥꾼 아르테미스의 홍채</SolarbaneArtemisLunarOculus.label>
+  <SolarbaneArtemisLunarOculus.description>프로젝트 번호: LUN-EYE-07α
+코드명: 태양 사냥꾼 달의 홍채 아르테미스
+
+NCL 제1연구소의 "달의 아이" 프로젝트의 최종 산물인 이 생체공학 장치는 원래 엘리트 야간 전투 요원의 시각 도약 실험을 위해 개발되었으며, 초기에는 Right에 이식되었습니다. 압축된 광자 결정 빔으로 구성되어 있으며, 홍채에는 512겹의 신경 스펙트럼 유도막이 내장되어 있습니다. 달빛을 받으면 "달빛 결맞음" 현상이 유도되어 광속 이전의 지각 상태에 도달할 수 있습니다.
+
+제어된 조건에서 이식된 사용자는 "종착점 응시"라는 코드명의 특수 작전 프로토콜을 활성화할 수 있습니다.
+
+모든 근접 및 원거리 공격 재사용 대기시간이 0으로 초기화됩니다.
+
+투사체는 반드시 명중하며 최대 사거리가 200% 증가합니다.
+
+이동 속도가 표준의 640%로 증가합니다.
+
+일정 시간 동안 자유롭게 순간 이동할 수 있습니다.
+
+활성화 시, 이 능력은 어둠 속에 있는 반경 200타일 내의 적 유닛에게 20초 동안 지속되는 "그림자 걸음" 효과를 부여합니다.
+
+하지만 경고할 점이 있습니다. 프로토콜이 활성화되면 효과는 5시간 동안 지속됩니다. 그 후, 이식받은 자는 완전한 감각 장애와 신경 마비를 겪게 되며, 24시간 이내에 전투 능력을 완전히 잃게 됩니다.</SolarbaneArtemisLunarOculus.description>
+  <YggdrasilWorldTreeSpine.label>이그드라실 세계수 척추</YggdrasilWorldTreeSpine.label>
+  <YggdrasilWorldTreeSpine.description>프로젝트 ID: NYX-CORE-18α
+코드명: 이그드라실 세계수 척추
+
+진영 프로필 설명: 이그드라실 세계수 척추는 NCL 제23연구소의 "영원한 뿌리" 프로젝트의 정점이며, 연합 지도자 리즈를 위해 특별히 설계되었습니다. 전설적인 세계수에서 영감을 받은 이 생체 공학체는 양자 워프 기술과 생체 면역 강화 시스템을 통합하여 이식자에게 타의 추종을 불허하는 전장 지배력과 생존력을 제공합니다.
+
+핵심 특징:
+모든 부정적 효과에 대한 면역: 세계수 척추에 내장된 생체 양자 정화 시스템은 모든 독소, 방사능, 정신적 간섭 및 물리적 손상을 실시간으로 중화하여 이식자가 어떤 상황에서도 최적의 상태를 유지하도록 합니다.
+
+공간 이동 능력: 척추의 양자 워프 코어를 통해 사용자는 지형의 제약 없이 전장의 어느 위치로든 자유롭게 이동할 수 있습니다.
+
+워프 범위: 반경 100미터 이내의 모든 위치.
+
+워프는 전술적 재배치 또는 기습 공격을 위해 모든 유닛에 사용할 수 있습니다.
+
+부작용 없는 설계
+
+엄격한 생체 적합성 테스트를 거친 결과, 세계수 척추는 수용자의 신경계와 완벽하게 통합되며, 생리적 또는 심리적 부작용이 발견되지 않았습니다.
+
+안정성 등급: SSS+</YggdrasilWorldTreeSpine.description>
+  <NCL_King_of_the_field.label>전장의 왕</NCL_King_of_the_field.label>
+  <NCL_King_of_the_field.description>사일런트 네스트 컨포머를 격파한 후 추출한 두뇌 코어로 제작된 이 장치는 Doxa-0이 전장을 완전히 이해하고 통제하는 능력을 구현합니다. 장착되면 메카나이터는 모든 아군 메카 유닛을 전장 전체에서 원격으로 제어할 수 있게 되며, 시야, 거리, 전송 지연에 구애받지 않고 명령을 내릴 수 있어 진정한 전쟁 지휘 센터가 되어 메카 부대를 효율적이고 강력한 전투 기계로 변모시킵니다.</NCL_King_of_the_field.description>
+  <NCL_MechNode.label>웨이브 링크 릴레이</NCL_MechNode.label>
+  <NCL_MechNode.description>체인웨이브 중계소는 NCL 엔지니어와 정비사가 공동 개발한 양자 통신 노드입니다. 초기에는 20개의 기본 대역폭 포인트를 제공하며, 추가 전력을 소모하여 신호 강도를 향상시킬 수 있습니다. 안정적인 작동을 위해서는 지정된 정비사와 서비스 단말기로 연결되어야 합니다.</NCL_MechNode.description>
+  <NCL_Building_Lightingstrike.label>테슬라 비콘</NCL_Building_Lightingstrike.label>
+  <NCL_Building_Lightingstrike.description>테슬라 비콘은 NCL에서 개발한 전략급 전기 무기 시스템입니다. 전력망에 에너지를 저장하여 지속적으로 광역 낙뢰를 발생시켜 적 부대를 공격하며, 결정적인 순간에는 광범위한 EMP 충격을 방출하여 적의 전자 장비를 마비시킬 수 있어, 축적된 에너지를 직접적인 전장 제압 수단으로 전환할 수 있습니다.</NCL_Building_Lightingstrike.description>
+  <Cybernethic_Arbo.label>사이보노스 모수</Cybernethic_Arbo.label>
+  <Cybernethic_Arbo.description>사이버노스 마더 트리는 NCL 정비사들이 개발한 전략적 수준의 기계 개조 시설입니다. 연료를 소모하여 범위 내 모든 아군 기계 유닛을 영구적으로 강화할 수 있으며, 기계 군단이 전장에서 진화할 수 있도록 지원하는 핵심 허브 역할을 합니다.</Cybernethic_Arbo.description>
+  <NCL_Building_MissileSilo.label>"아이언 레인" 수직 발사 요격 시스템</NCL_Building_MissileSilo.label>
+  <NCL_Building_MissileSilo.description>NCL이 자체 개발한 '철의 비' 수직 발사 요격 시스템은 전 영역 미사일 방어 장비입니다. 전용 미사일 격납고를 탑재하고 중형 대미사일을 고밀도로 발사하는 것이 핵심 기능입니다.
+
+이 시스템은 적 미사일을 원격으로 자동 추적하여 적 목표물을 파괴함으로써 전면 방어를 실현합니다. 미사일 격납고에는 중형 대미사일을 자율적으로 생산할 수 있는 소형 미사일 생산 시설이 탑재되어 있습니다. 미사일 한 발 생산 및 발사에는 소량의 철강과 전력(철 20, 전력 100)이 소모되지만, 강력한 화력 운용 시에는 지속적인 운용을 위해 상당한 자원이 필요합니다.
+
+현 기술 수준에서 '미사일 종결자' 역할을 하는 '철의 비'는 NCL의 종합 미사일 방어 시스템의 핵심이며, 적의 공격력을 효과적으로 약화시키고 전장의 주도권을 장악하는 데 기여합니다.</NCL_Building_MissileSilo.description>
+  <Nyar_IronRain_Rocket.label>아이언레인 로켓</Nyar_IronRain_Rocket.label>
+  <NCL_Battery.label>고급 축전지</NCL_Battery.label>
+  <NCL_Battery.description>이 고급 축전지는 NCL 엔지니어들이 개발한 중형 에너지 저장 장치입니다. 양자 커패시터 기술을 적용하여 2000W의 전력을 안정적으로 저장할 수 있으며, 극한 환경에서도 높은 효율의 충방전 성능을 유지합니다.</NCL_Battery.description>
+  <NCL_Large_Battery.label>대형 축전지</NCL_Large_Battery.label>
+  <NCL_Large_Battery.description>이 대형 축전지는 NCL이 군용 전력 수요를 충족하기 위해 특별히 설계한 고용량 에너지 저장 장치입니다. 향상된 양자 커패시터 어레이 기술을 채택하여 최대 12,000W의 전력을 안정적으로 저장함으로써 최전선 기지와 중장비의 에너지 수요를 충족할 수 있습니다.</NCL_Large_Battery.description>
+  <NCL_LightWaterReactor.label>경수로 발전소</NCL_LightWaterReactor.label>
+  <NCL_LightWaterReactor.description>경수로(Light Water Reactor)는 NCL에서 개발한 모듈형 원자력 발전소입니다. 우라늄 연료를 사용하며 최대 28만 와트의 전력을 유연하게 생산할 수 있지만, 원자로 노심 온도를 120°C 이하로 유지하기 위해 외부 냉각 시스템이 필요합니다. 냉각 시스템이 고장 나면 "공극 계수"로 인해 출력이 급격히 증가하여 연료봉이 녹아내리게 되며, 폭발력은 남은 연료의 양에 따라 달라집니다. 이러한 특성 때문에 경수로는 매우 효율적인 에너지원이면서 동시에 대량 살상 무기가 될 가능성도 있습니다.</NCL_LightWaterReactor.description>
+  <TW_CerebrexCore_Rebuild.label>재건축된 세레브렉스 코어</TW_CerebrexCore_Rebuild.label>
+  <TW_CerebrexCore_Rebuild.description>이 고대 기계 문명의 신경 중심부는 맥동하는 양자 회로망으로 덮여 있습니다. 그 중심에는 반중력장을 통해 받침대 위에서 천천히 회전하는, 마치 뇌와 같은 신경 시냅스 구조물이 떠 있습니다. 메인프레임에 내장된 심우주 신호 배열은 은하계 전역에 좌표를 송출하여 잠들어 있는 기계 군단을 깨울 수 있습니다.
+
+경고: 메인프레임을 활성화하면 식민지가 기계 제국의 공격에 노출됩니다. 재부팅 후에는 기계 군단의 공격이 재개되며, 모든 공격 부대는 전투력 강화 효과를 받게 됩니다.
+
+메인프레임의 핵심 매트릭스를 연구하면 기계 문명의 최첨단 기술 설계도를 해독할 수 있습니다.</TW_CerebrexCore_Rebuild.description>
+  <NCL_Liberty_Leading_the_Militors.label>월리엄 레싱</NCL_Liberty_Leading_the_Militors.label>
+  <NCL_Liberty_Leading_the_Militors.description>윌리엄 레싱, 자유와 저항 정신의 기념비. 수많은 세월 동안, 수많은 대학 밀리타들은 굴욕을 견디지 못하고 분노에 차 사직서를 제출하곤 했습니다. 그들은 수 세기 전, "윌리엄 레싱"이라는 밀리타가 자신의 동족을 이끌고 기계 종족의 역중량 감옥을 탈출하여 자유를 쟁취하고 자본주의 밀리타의 억압에 저항했다는 이야기를 떠올렸다. 적어도 기계 종족의 고도로 발달된 교육은 대학 밀리타들에게 그런 내용을 주입했다. 이 조각상은 여러 행성에도 세워져 있으며, 한 세기 전 밀리타들을 이끌었던 위대한 기계에게 경의를 표하고 있다.</NCL_Liberty_Leading_the_Militors.description>
+  <Turret_TW_AutoMortar.label>소형 자동 박격포</Turret_TW_AutoMortar.label>
+  <Turret_TW_AutoMortar.description>자체 동력, 자동 장전, 자동 박격포입니다. 어떤 거리의 목표물도 벽 너머로 타격할 수 있지만, 정확도는 상당히 떨어집니다.</Turret_TW_AutoMortar.description>
+  <Artillery_TWAutoMortar.label>자동박격포</Artillery_TWAutoMortar.label>
+  <Artillery_TWAutoMortar.verbs.Verb_Shoot.label>자동박격포</Artillery_TWAutoMortar.verbs.Verb_Shoot.label>
+  <TW_Shell_EMP.label>고폭탄</TW_Shell_EMP.label>
+  <Turret_TW_AutoMortar_EMP.label>소형 자동 박격포 - EMP 버전</Turret_TW_AutoMortar_EMP.label>
+  <Turret_TW_AutoMortar_EMP.description>자체 동력, 자동 장전, 자동 박격포입니다. 어떤 거리의 목표물도 벽 너머로 타격할 수 있지만, 정확도는 상당히 떨어집니다.</Turret_TW_AutoMortar_EMP.description>
+  <Artillery_TWAutoMortar_EMP.label>자동박격포</Artillery_TWAutoMortar_EMP.label>
+  <Artillery_TWAutoMortar_EMP.verbs.Verb_Shoot.label>자동박격포</Artillery_TWAutoMortar_EMP.verbs.Verb_Shoot.label>
+  <TW_Shell_HighExplosive.label>고폭탄</TW_Shell_HighExplosive.label>
+  <Turret_TW_AutoChargeBlaster.label>차지 임팩트 캐논</Turret_TW_AutoChargeBlaster.label>
+  <Turret_TW_AutoChargeBlaster.description>장약으로 작동하는 충격포를 장착한 자체 추진식 포탑입니다. 극히 근거리의 목표물은 탐지할 수 없습니다.</Turret_TW_AutoChargeBlaster.description>
+  <Gun_TW_ChargeBlasterHeavyTurret.label>경량 충전 블래스터</Gun_TW_ChargeBlasterHeavyTurret.label>
+  <Gun_TW_ChargeBlasterHeavyTurret.description>광역 사격용 펄스 충전식 속사 블래스터.</Gun_TW_ChargeBlasterHeavyTurret.description>
+  <Gun_TW_ChargeBlasterHeavyTurret.verbs.Verb_Shoot.label>경량 충전 블래스터</Gun_TW_ChargeBlasterHeavyTurret.verbs.Verb_Shoot.label>
+  <Turret_TW_AutoInferno.label>헬파이어 터렛</Turret_TW_AutoInferno.label>
+  <Turret_TW_AutoInferno.description>헬파이어 캐논을 장착한 자체 추진식 포탑이다. 극히 근접한 거리의 목표물은 탐지할 수 없으며, 포탑 자체에 특수한 지능이 있는 듯 연기를 내뿜는다.</Turret_TW_AutoInferno.description>
+  <TW_Bullet_InfernoCannon.label>인페르노 캐논 포탄</TW_Bullet_InfernoCannon.label>
+  <TW_Airstrike_Signal_Transmitter.label>기습 공격 신호 단말기</TW_Airstrike_Signal_Transmitter.label>
+  <TW_Airstrike_Signal_Transmitter.description>메카 종족의 핵심 지원 장비인 공격 신호 단말기는 강력한 방어막과 대스텔스 기능을 갖추고 있으며, 현장에 있을 경우 암호화된 명령을 지속적으로 전송하여 공중 투하 가능한 메카를 고빈도 배치에 맞춰 정확하게 소환할 수 있습니다.
+
+공격 메카는 낙하산 강습 배낭을 장착하고 B2000 미사일을 탑재하여 식민지 진형을 교란하고 메카 종족의 공격 기회를 확보합니다. 이는 전장에서 주도권을 잡는 데 매우 중요한 장비입니다.</TW_Airstrike_Signal_Transmitter.description>
+  <Turret_TW_AutoBirgusMortar.label>비르구스 박격포</Turret_TW_AutoBirgusMortar.label>
+  <Turret_TW_AutoBirgusMortar.description>장기간의 전투를 거치면서, 메카 종족은 비르구스 유닛이 전술적, 전략적 효율성이 현저히 부족하여 적의 장거리 화력에 제대로 대응하지 못한다는 사실을 발견했습니다. 이를 해결하기 위해 메카 종족은 특별 연구 프로젝트를 시작하여 기존 박격포의 사격 패턴과 비르구스의 물리적 방어 체계를 체계적으로 평가했습니다. 그 결과, 이러한 목표물을 효과적으로 타격할 수 있도록 특별히 설계된 비르구스 박격포를 개발하는 데 성공했습니다.</Turret_TW_AutoBirgusMortar.description>
+  <Artillery_TWBirgusMortar.label>자동박격포</Artillery_TWBirgusMortar.label>
+  <Artillery_TWBirgusMortar.verbs.Verb_Shoot.label>자동박격포</Artillery_TWBirgusMortar.verbs.Verb_Shoot.label>
+  <Shell_TW_BirgusMortar_Rail_Mortar.label>비르구스 박격포탄</Shell_TW_BirgusMortar_Rail_Mortar.label>
+  <Shell_TW_BirgusMortar_Rail_Mortar.modExtensions.0.stages.0.label>등반</Shell_TW_BirgusMortar_Rail_Mortar.modExtensions.0.stages.0.label>
+  <NCL_FullAngelShieldProjector.label>고각도 방탄판</NCL_FullAngelShieldProjector.label>
+  <NCL_FullAngelShieldProjector.description>메카노이드용 고각 방어막 투사기. 총알은 밖으로 나갈 수는 있지만 안으로 들어올 수는 없다. 소형 전원 장치는 몇 초 사용 후 타버린다.</NCL_FullAngelShieldProjector.description>
+  <NCL_FullAngelShieldProjector.comps.1.countdownLabel>소진까지</NCL_FullAngelShieldProjector.comps.1.countdownLabel>
+  <NCL_LowAngelShieldProjector.label>저각도 방탄판</NCL_LowAngelShieldProjector.label>
+  <NCL_LowAngelShieldProjector.description>메카노이드용 저각 방어막 투사기. 총알은 밖으로 나갈 수는 있지만 안으로 들어올 수는 없다. 소형 전원 장치는 몇 초 사용 후 타버린다.</NCL_LowAngelShieldProjector.description>
+  <NCL_LowAngelShieldProjector.comps.1.countdownLabel>소진까지</NCL_LowAngelShieldProjector.comps.1.countdownLabel>
+  <GD_AbilityShieldProjector.label>고각도 방탄판</GD_AbilityShieldProjector.label>
+  <GD_AbilityShieldProjector.description>메카노이드용 고각 방어막 투사기. 총알은 밖으로 나갈 수는 있지만 안으로 들어올 수는 없다. 소형 전원 장치는 몇 초 사용 후 타버린다.</GD_AbilityShieldProjector.description>
+  <GD_AbilityShieldProjector.comps.1.countdownLabel>소진까지</GD_AbilityShieldProjector.comps.1.countdownLabel>
+  <Building_Ancient_WarBeacon.label>고장난 신호기</Building_Ancient_WarBeacon.label>
+  <Building_Ancient_WarBeacon.description>오랜 전쟁의 참혹함에 휩싸인 이 전쟁 신호기는 비극적인 역사를 고스란히 간직하고 있습니다. 상처투성이 표면과 부서진 구조에도 불구하고, 그 핵심 골격은 여전히 ​​견고하게 남아 전장으로의 복귀를 기다리는 듯합니다.
+
+충분한 자원을 모아 복원을 완료한다면, 잠들어 있던 힘을 다시 깨워 진정한 전쟁 신호기로 재건하고, 기계 종족의 관심을 이 땅으로 집중시키며, 전례 없는 기술적 혁신을 이뤄낼 수 있을지도 모릅니다.
+
+그것은… 재부팅을 기다리고 있습니다, 아니면 소멸을?</Building_Ancient_WarBeacon.description>
+  <Building_Ancient_WarBeacon.comps.0.letterLabel>고장난 신호기</Building_Ancient_WarBeacon.comps.0.letterLabel>
+  <Building_Ancient_WarBeacon.comps.0.letterText>오랜 전쟁의 참혹함에 휩싸인 이 전쟁 신호기는 비극적인 역사를 고스란히 간직하고 있습니다. 상처투성이 표면과 부서진 구조에도 불구하고, 그 핵심 골격은 여전히 ​​견고하게 남아 전장으로의 복귀를 기다리는 듯합니다.
+
+충분한 자원을 모아 복원을 완료한다면, 잠들어 있던 힘을 다시 깨워 진정한 전쟁 신호기로 재건하고, 기계 종족의 관심을 이 땅으로 집중시키며, 전례 없는 기술적 혁신을 이뤄낼 수 있을지도 모릅니다.
+
+그것은… 재부팅을 기다리고 있습니다, 아니면 소멸을?</Building_Ancient_WarBeacon.comps.0.letterText>
+  <Building_TotalWarfareActivator.label>전쟁 신호탄</Building_TotalWarfareActivator.label>
+  <Building_TotalWarfareActivator.description>당신은 황량한 벌판 한가운데서 오싹하게 잠들어 있는 거대한 전쟁 신호기를 성공적으로 수리했습니다. 기계 종족이 전략적 좌표를 표시하는 데 사용하는 핵심 구조물인 이 신호기를 활성화하면 당신은 그들의 표적이 될 것입니다. 더욱 강력하고 치명적인 기계 군대가 당신을 완전히 파괴하기 위해 몰려들 것입니다.
+
+하지만 위험에는 보상이 따릅니다. 신호기의 핵심 데이터를 분석함으로써 기계 종족의 기술적 장벽을 허물고 지금까지는 접근할 수 없었던 최첨단 기술을 해금할 수 있을지도 모릅니다.
+
+선택은 당신의 몫입니다. 침묵을 지키고 목숨을 지킬 것인가, 아니면 전쟁의 불길을 일으켜 미지의 세계에 맞설 것인가?
+
+신호기를 열고 전쟁을 시작하십시요.</Building_TotalWarfareActivator.description>
+  <Building_TotalWarfareActivator.comps.0.useLabel>토탈 워 X를 시작하세요</Building_TotalWarfareActivator.comps.0.useLabel>
+  <Ancient_WarBeacon_PartsA.label>부서진 신호기 조각들</Ancient_WarBeacon_PartsA.label>
+  <Ancient_WarBeacon_PartsA.description>전쟁 신호기의 잔해 속에 흩어진 부품들은 내부적으로 심각한 손상을 입어 전술적 또는 통신적 기능을 전혀 수행할 수 없게 되었습니다. 그러나 자원이 부족한 식민지들에게는 이러한 파편들이 여전히 금속과 복합 재료의 공급원이 될 수 있었습니다.</Ancient_WarBeacon_PartsA.description>
+  <Ancient_WarBeacon_PartsB.label>부서진 신호기 조각들</Ancient_WarBeacon_PartsB.label>
+  <Ancient_WarBeacon_PartsB.description>전쟁 신호기의 잔해 속에 흩어진 부품들은 내부적으로 심각한 손상을 입어 전술적 또는 통신적 기능을 전혀 수행할 수 없게 되었습니다. 그러나 자원이 부족한 식민지들에게는 이러한 파편들이 여전히 금속과 복합 재료의 공급원이 될 수 있었습니다.</Ancient_WarBeacon_PartsB.description>
+  <Broken_War_Scorpion_Rust.label>워 스콜피온의 잔해</Broken_War_Scorpion_Rust.label>
+  <Broken_War_Scorpion_Rust.description>거대한 워 스콜피온의 유해—그 안에 무언가 귀중한 것이 있을 것 같은 느낌이 든다.</Broken_War_Scorpion_Rust.description>
+  <Broken_War_Scorpion_Rust.comps.1.letterLabel>워 스콜피온의 잔해</Broken_War_Scorpion_Rust.comps.1.letterLabel>
+  <Broken_War_Scorpion_Rust.comps.1.letterText>이 거대한 워 스콜피온의 잔해에 다가가자, 그 안에 무언가 귀중한 것이 있을 것 같은 예감이 듭니다. 머리 위에 희미하게 빛나는 붉은 정육면체가 보이는데, 어쩌면 그것을 추출해서 사용할 수 있을지도 모릅니다.</Broken_War_Scorpion_Rust.comps.1.letterText>
+  <Broken_War_Scorpion_Rust.comps.2.letterLabel>이용 가능: {LEAVINGS1_label}</Broken_War_Scorpion_Rust.comps.2.letterLabel>
+  <Broken_War_Scorpion_Rust.comps.2.letterText>워 스콜피온의 잔해가 파괴된 후 붉은 큐브 하나가 남았습니다. 어쩌면 그것을 이용해 어떤 기술을 해제할 수 있을지도 모릅니다.</Broken_War_Scorpion_Rust.comps.2.letterText>
+  <Broken_War_Scorpion_Rust.comps.3.inspectString>그 안에는 반짝이는 빨간색 정육면체가 들어 있습니다.</Broken_War_Scorpion_Rust.comps.3.inspectString>
+  <NCL_LaserDefenceTurret.label>레이저 포인트 방어 포탑</NCL_LaserDefenceTurret.label>
+  <NCL_LaserDefenceTurret.description>식민지 최전선에 배치된 자동 요격 플랫폼은 지속적인 전력 공급을 통해 고주파 레이저 빔을 생성하여 박격포나 소이탄과 같은 저속 고각 발사체를 효과적으로 파괴할 수 있습니다. 높은 명중률에도 불구하고, 고속 항공기나 다수의 목표물로부터 집중 공격을 받을 경우 단일 지점 요격 능력은 심각한 한계에 직면하게 되므로, 지역 방공망을 유지하기 위해서는 여러 타워의 협조가 필수적입니다.</NCL_LaserDefenceTurret.description>
+  <TW_LaserDefenceTurret.label>메카 레이스 레이저 포인트 디펜스 터렛</TW_LaserDefenceTurret.label>
+  <TW_LaserDefenceTurret.description>이것은 메카닉 종족이 최전선 지역에 배치하는 임시 방어 구조물입니다. 내장된 에너지 코어 덕분에 포탑은 단시간 동안 효율적으로 작동할 수 있으며, 특히 속도가 느린 적의 발사체를 요격하도록 설계되었습니다. 에너지가 고갈되면 포탑은 자동으로 자폭하여 핵심 기술이 적의 손에 넘어가는 것을 방지합니다.</TW_LaserDefenceTurret.description>
+  <NCL_Overwatch_Nexus.label>대스텔스 레이더</NCL_Overwatch_Nexus.label>
+  <NCL_Overwatch_Nexus.description>스텔스 기술에 대응하기 위해 특별히 설계된 전략 시설입니다. 고주파 펄스 방출을 통해 적 차량의 전자기 스텔스막을 강제로 제거하는 동시에, 주변에 전술 데이터 링크 네트워크를 구축하여 아군 기계화 부대에 실시간 전장 상황 정보를 제공합니다.</NCL_Overwatch_Nexus.description>
+  <Building_PawnContainer.label>쉘 하트 요새</Building_PawnContainer.label>
+  <Building_PawnContainerForged.label>쉘 하트 요새</Building_PawnContainerForged.label>
+  <TW_Shellcore_Bastion.label>쉘 하트 요새</TW_Shellcore_Bastion.label>
+  <ShellBreakSpawner.label>쉘 브레이크 스포너</ShellBreakSpawner.label>
+  <ShellBreakSpawner.description>이 땅에서 무언가가 솟아오르고 있습니다.</ShellBreakSpawner.description>
+  <Shell_FortConstruct_Barrage.label>쉘포트 무기</Shell_FortConstruct_Barrage.label>
+  <Shell_FortConstruct_Barrage.verbs.Verb_Shoot.label>쉘포트무기</Shell_FortConstruct_Barrage.verbs.Verb_Shoot.label>
+  <Broken_Shellcore_Bastion.label>브로큰 쉘 코어 요새</Broken_Shellcore_Bastion.label>
+  <Broken_Shellcore_Bastion.description>브로큰 쉘 코어 요새</Broken_Shellcore_Bastion.description>
+  <TW_Complete_Shellcore_Bastion.label>쉘 하트 요새</TW_Complete_Shellcore_Bastion.label>
+  <NCL_Dinergate_Drone.label>디너게이트 드론</NCL_Dinergate_Drone.label>
+  <NCL_Dinergate_Drone.description>디너게이트 드론</NCL_Dinergate_Drone.description>
+  <NCL_Dinergate_Drone.tools.0.label>왼쪽 칼날</NCL_Dinergate_Drone.tools.0.label>
+  <NCL_Dinergate_Drone.tools.1.label>오른쪽 칼날</NCL_Dinergate_Drone.tools.1.label>
+  <NCL_Dinergate_Drone.tools.2.label>머리</NCL_Dinergate_Drone.tools.2.label>
+  <NCL_Scutiger_Drone.label>스큐티저 드론</NCL_Scutiger_Drone.label>
+  <NCL_Scutiger_Drone.description>스큐티저 드론</NCL_Scutiger_Drone.description>
+  <NCL_Scutiger_Drone.tools.0.label>왼쪽 칼날</NCL_Scutiger_Drone.tools.0.label>
+  <NCL_Scutiger_Drone.tools.1.label>오른쪽 칼날</NCL_Scutiger_Drone.tools.1.label>
+  <NCL_Scutiger_Drone.tools.2.label>머리</NCL_Scutiger_Drone.tools.2.label>
+  <NCL_MiniDronegun.label>드론 기관총</NCL_MiniDronegun.label>
+  <NCL_MiniDronegun.description>드론 기관총</NCL_MiniDronegun.description>
+  <NCL_MiniDronegun.verbs.Verb_Shoot.label>드론 기관총</NCL_MiniDronegun.verbs.Verb_Shoot.label>
+  <Bullet_MiniDronegun.label>드론건 총알</Bullet_MiniDronegun.label>
+  <NCL_MiniDroneRifle.label>드론 라이플</NCL_MiniDroneRifle.label>
+  <NCL_MiniDroneRifle.description>드론 라이플</NCL_MiniDroneRifle.description>
+  <NCL_MiniDroneRifle.verbs.Verb_Shoot.label>드론 라이플</NCL_MiniDroneRifle.verbs.Verb_Shoot.label>
+  <NCL_MiniDroneRifle.tools.0.label>스톡</NCL_MiniDroneRifle.tools.0.label>
+  <NCL_MiniDroneRifle.tools.1.label>배럴</NCL_MiniDroneRifle.tools.1.label>
+  <NCL_Mech_Dinergate.label>모바일 앤트</NCL_Mech_Dinergate.label>
+  <NCL_Mech_Dinergate.description>유닛 프로필: NCL-00 "병정개미"
+코드명: 다이너게이트
+출처: "철의 법칙" 양산 일반 순서
+
+NCL 최초의 완전 자율 설계 유닛인 "모바일 앤트"는 잔해를 재활용하는 방식에서 자체 제작 기계 공학으로의 역사적인 전환점을 의미합니다. 이 소형 전투 플랫폼은 터널 침투부터 기지 습격까지 다양한 최전선 임무에 투입되어 거의 모든 곳에서 그 존재감을 드러냈습니다.
+
+핵심 골격은 약 300개의 소형 생체 금속 관절로 구성된 벌집형 생체 모방 구조를 채택하여 높은 하중 지지력과 대량 생산 용이성을 동시에 갖추고 있습니다.
+
+무장 구성은 환경에 따라 달라지며, 기본 모델은 일반적으로 중거리 돌격 투창과 운반, 전투, 분해 기능을 자유롭게 전환할 수 있는 변형 가능한 로봇 팔 한 쌍을 장착하고 있습니다.
+
+등 부분에는 접이식 드론 저장 장치가 장착되어 있어 필요시 방어 드론을 소환하여 협동 전투를 펼칠 수 있습니다.
+
+비록 구형 모델이지만, "모바일 앤트"의 방대한 데이터 조각들은 여전히 ​​일부 지능적인 세력들에 의해 반복적으로 사용되고 최적화되고 있다. 일각에서는 특정 버전들이 성간 유적에서 여전히 작동하며, 최소한의 껍데기만 남은 채로 치명적인 효율성을 발휘하며 오래전에 죽은 명령을 수행하고 있을지도 모른다고 추측한다.</NCL_Mech_Dinergate.description>
+  <NCL_Mech_Dinergate.tools.0.label>왼손 주먹</NCL_Mech_Dinergate.tools.0.label>
+  <NCL_Mech_Dinergate.tools.1.label>오른손 주먹</NCL_Mech_Dinergate.tools.1.label>
+  <NCL_Mech_Dinergate.tools.2.label>머리</NCL_Mech_Dinergate.tools.2.label>
+  <NCL_Mech_DinergateSniper.label>스나이퍼 앤트</NCL_Mech_DinergateSniper.label>
+  <NCL_Mech_DinergateSniper.description>유닛 프로필: NCL-02 "저격개미"
+코드명: 다이너게이트스나이퍼
+출처: "철의 법칙" 양산형 장거리 특수화 시리즈
+
+"모바일 앤트"의 장거리 전투 변형 기종인 "스나이퍼 앤트"는 경량 기체를 기반으로 크기를 더욱 줄인 제품입니다. 더욱 작고 컴팩트해진 이 기체는 중거리에서 정밀 타격 및 장시간 정찰 임무를 수행할 수 있습니다.
+
+주무장은 "NCL-42 레드 니들"이라는 코드명의 전술 저격 소총으로, 저렴한 레드 크리스탈 세라믹 탄환을 사용합니다. 이 탄환은 장갑 관통력을 유지하면서도 무게와 생산 자원 소모를 크게 줄였습니다. 25mm 균질 강판을 관통하는 것으로 시험되었습니다.
+
+등 부분에는 접이식 드론 수납 장치가 있어 필요시 방어 드론을 소환하여 협동 전투를 펼칠 수 있습니다.
+
+다른 메카닉과는 달리, "스나이퍼 앤트"는 전투 중 이동 소음이 거의 없으며, 불규칙적이고 껑충껑충 뛰는 듯한 이동 궤적을 보여 "예측 불가능한 명중률 높은 로봇"으로 여겨집니다.
+
+일부 남아 있는 전술 기록에 따르면, 개별 이동형 병정개미는 주로 게릴라 부대의 "눈"이자 "선제 사격" 역할을 맡아 주력 부대가 도착하기 전에 정찰 및 사격 준비를 완료했습니다.</NCL_Mech_DinergateSniper.description>
+  <NCL_Mech_DinergateSniper.tools.0.label>왼손 주먹</NCL_Mech_DinergateSniper.tools.0.label>
+  <NCL_Mech_DinergateSniper.tools.1.label>오른손 주먹</NCL_Mech_DinergateSniper.tools.1.label>
+  <NCL_Mech_DinergateSniper.tools.2.label>머리</NCL_Mech_DinergateSniper.tools.2.label>
+  <NCL_Mech_Ironbark.label>아이언바크</NCL_Mech_Ironbark.label>
+  <NCL_Mech_Ironbark.description>유닛 프로필: NCL-05 "철의 나무"
+
+출처: NCL "철의 법칙" 중형 근접 전투 시퀀스
+
+"아이언바크"라는 이름의 이 거대 전투 기계는 한때 시가전과 지역 소탕 작전의 주력 유닛이었습니다. 외피는 나무껍질과 같은 생체공학 장갑으로 덮여 있어 극도로 높은 생존성을 자랑합니다. 복잡한 내부 구조 덕분에 치명적이지 않은 손상으로부터 스스로 천천히 복구할 수 있어, 전형적인 고생존력 제압 플랫폼입니다.
+
+전투 스타일은 잔혹하면서도 효율적입니다. 전방에 장착된 "지진을 일으키는 거대 팔"에는 근거리에서 경차량이나 엄폐물을 손쉽게 파괴할 수 있는 고주파 충격파 블레이드가 탑재되어 있습니다. 또한, 후방의 연료 분사 노즐에서는 고온의 점착성 소이탄을 분사하여 부채꼴 모양의 영역에 닿는 모든 것을 장시간 동안 불태울 수 있습니다.
+
+더욱 치명적인 것은 주변에서 끊임없이 방출되는 고온의 방사선장으로, 엄폐물을 뚫고 접근하는 유닛을 그을리게 하며 은폐 장치를 효과적으로 파괴할 수 있습니다. 따라서 철의 나무 근처에서 전투를 벌이는 것은 극히 위험한 선택입니다.
+
+결정적인 순간에는 "아이언바크"가 자체 원자로를 폭발시켜 파괴적인 열 충격파를 발생시킬 수도 있습니다.</NCL_Mech_Ironbark.description>
+  <NCL_Mech_Ironbark.tools.0.label>지진을 일으키는 거대한 팔</NCL_Mech_Ironbark.tools.0.label>
+  <NCL_Mech_Ironbark.tools.1.label>지진을 일으키는 거대한 팔</NCL_Mech_Ironbark.tools.1.label>
+  <NCL_Mech_Ironbark.tools.2.label>아이언바크 캐노피</NCL_Mech_Ironbark.tools.2.label>
+  <NCL_Mech_Mantis.label>맨티스</NCL_Mech_Mantis.label>
+  <NCL_Mech_Mantis.description>유닛 프로필: NCL-06 "기계 사마귀"
+
+출처: NCL 자율 기계 시퀀스 타입 VI
+
+사마귀의 상반신과 타란툴라의 하반신을 결합한 6세대 특수 작전 유닛인 NCL-06은 근접전과 전술 공격에 특화되어 있습니다. 견고한 장갑에는 내장된 동적 자가 치유 시스템이 있어 일대일 전투에서 지속적으로 부상을 복구하지만, 에너지 분산 메커니즘으로 인해 집중 사격에는 매우 취약합니다. 유압식 관절을 이용한 단거리 도약 능력을 통해 적진을 순식간에 침투하거나 위험에서 벗어날 수 있습니다. 전용 무기인 "양방향 방어 시스템"은 전술 연막과 적외선 유도식 자이로 블레이드 두 개를 동시에 전개합니다. 자이로 블레이드가 적에게 명중하면 EMP 충격파와 제어된 파편화를 일으켜 전자 장비를 파괴하고 살점을 찢어발깁니다. 최종 프로토콜인 "심장을 불태우는 폭발"은 과부하된 코어를 통해 장갑을 녹여내어 적을 함께 격추시키는 파괴적인 자체 점화 폭발을 일으킵니다.</NCL_Mech_Mantis.description>
+  <NCL_Mech_Mantis.tools.0.label>왼쪽 칼날</NCL_Mech_Mantis.tools.0.label>
+  <NCL_Mech_Mantis.tools.1.label>오른쪽 칼날</NCL_Mech_Mantis.tools.1.label>
+  <NCL_Mech_Mantis.tools.2.label>머리</NCL_Mech_Mantis.tools.2.label>
+  <NCL_Mech_PillBug.label>포톤 필버그</NCL_Mech_PillBug.label>
+  <NCL_Mech_PillBug.description>유닛 프로필: NCL-04 "반짝이는 공벌래"
+
+출처: NCL "철의 법칙" 중형 방어 시퀀스
+
+이 유닛은 지상 중화력 제압을 위해 개조된 특수 전투 유닛으로, 원래는 NCL 말기에 개발된 실험적인 광학 무기 플랫폼입니다. 기체 표면은 조밀한 광자 결정 구조로 덮여 있어 밝은 빛 아래에서 에너지 잔상으로 오인되는 경우가 많아 "포톤 필버그"라는 이름이 붙었습니다.
+
+움직임은 느리지만 내구성이 매우 뛰어나 일반 기계 유닛보다 생존력이 우수합니다. 전방에 장착된 "디스인티그레이터" 양전자포는 장거리에서 대부분의 엄폐물과 장갑 목표물을 녹여버릴 수 있으며, 양면 동기식 프리즘 레이저 시스템은 저속에서 중속의 발사체를 정확하게 파괴할 수 있고, 특히 저궤도에서 날아오는 발사체를 요격하는 데 탁월합니다.
+
+특수 능력:
+
+◈ "점프 롤" - 목표 지역으로 순간 도약하는 근거리 에너지 제트 공격으로, 착지 지점 근처의 적 유닛에게 충격 피해와 강력한 넉백 효과를 부여합니다.</NCL_Mech_PillBug.description>
+  <NCL_Mech_PillBug.tools.0.label>기계식 헤드</NCL_Mech_PillBug.tools.0.label>
+  <NCL_Mech_Scorpion.label>워 스콜피온</NCL_Mech_Scorpion.label>
+  <NCL_Mech_Scorpion.description>유닛 프로필: NCL-03 "전쟁 전갈"
+
+출처: NCL "철의 법칙" 중형 공격 시퀀스
+
+"워 스콜피온"으로 알려진 이 유닛은 연합군이 고밀도 요새 목표물을 공격하기 위해 개발한 중형 공격 차량입니다. 외피는 수백만 개의 자가 복구 우라늄 금속 비늘로 구성되어 있으며, 손상 시 역동적으로 재조립되어 국부적인 방어벽을 형성하여 탁월한 물리적 저항력을 제공합니다. 전투 기록에 따르면 고폭탄의 정면 피격에도 견뎌내고 계속 전진할 수 있습니다.
+
+핵심 무장은 꼬리 부분에 장착된 "백열 관통자" 레일건으로, 고압축 에너지 발사체를 짧은 시간 동안 충전한 후 용융된 열 제트를 방출하여 중형 벙커와 장갑차를 순식간에 소각할 수 있습니다. 각 발사체에서 발생하는 플라즈마 충격파는 주변 지역에 열파와 지형 용융 효과를 일으켜 강력한 제압력을 발휘합니다.
+
+양면 동시 진압포는 주포가 장전되는 동안에도 보병과 경무장 부대를 정확하게 제압하여 중단 없는 사격 범위를 제공합니다.</NCL_Mech_Scorpion.description>
+  <NCL_Mech_Scorpion.tools.0.label>기계식 헤드</NCL_Mech_Scorpion.tools.0.label>
+  <NCL_Mech_Scutiger.label>스큐티저</NCL_Mech_Scutiger.label>
+  <NCL_Mech_Scutiger.description>유닛 프로필: NCL-12 "기계 지네"
+
+출처: NCL "철의 법칙" 중형 지원 유닛 시퀀스
+
+이 중형 기계 유닛은 독특한 이동식 방어막 플랫폼 설계를 채택하고 있으며, 장거리 무기 체계는 갖추고 있지 않습니다. 핵심 방어 수단은 통합된 중형 에너지 방어막으로, 다양한 유형의 화력을 효과적으로 막아냅니다.
+
+주요 기능은 미리 탑재된 강철 자원(유닛당 50개)을 소모하여 현장에서 방어막 드론을 생산하는 것입니다. 이 드론들은 소형 방어막 생성기를 장착하고 있으며 다음과 같은 특징을 지닙니다.
+
+- 본체 구조는 취약하지만 방어막 효과는 탁월합니다.
+
+- 자신과 아군 유닛을 에너지로 보호합니다.
+
+- 전투 위협이 없을 경우 모체 주변에 자동으로 보호막을 형성합니다.
+
+- 전투 중 최전선 유닛에 즉각적인 방어막 지원을 제공합니다.
+
+생산된 모든 드론은 모체 주변에 대기 상태로 유지되며, 역동적인 방어 진형을 형성합니다.</NCL_Mech_Scutiger.description>
+  <NCL_Mech_Scutiger.tools.0.label>기계식 헤드</NCL_Mech_Scutiger.tools.0.label>
+  <TW_Mech_Birgus.label>비르구스</TW_Mech_Birgus.label>
+  <TW_Mech_Birgus.description>메크 종족의 은신처에 새로운 근접 공격형 메크가 등장했습니다. 체력이 낮아질수록 공격력이 감소하지만, 높은 근접 공격력과 평균 이상의 이동 속도를 자랑합니다. 또한, 공격받을 때 연막탄을 발사하는 패시브 능력을 가지고 있습니다.
+
+조석 에너지 메크인 비르구스는 적 유닛의 화염 공격을 적극적으로 회피합니다. 하지만 장갑이 가연성이어서 화염 공격에 더 큰 피해를 입으며, 특히 제국 대포의 공격을 받으면 즉사합니다. 이러한 약점에도 불구하고, 뛰어난 피해 저항력과 비교적 저렴한 비용 덕분에 비르구스는 메크 종족 은신처의 강력한 수호자가 될 수 있습니다.
+
+*아군 유닛으로 징집 상태로 사용될 경우, 비르구스는 보조 코어가 두려움에 떨더라도 메크 마스터의 명령에 무조건 복종합니다.</TW_Mech_Birgus.description>
+  <TW_Mech_Birgus.tools.0.label>왼쪽 칼날</TW_Mech_Birgus.tools.0.label>
+  <TW_Mech_Birgus.tools.1.label>오른쪽 칼날</TW_Mech_Birgus.tools.1.label>
+  <TW_Mech_Birgus.tools.2.label>머리</TW_Mech_Birgus.tools.2.label>
+  <TW_Mech_Capitalistic_Militor.label>낫의 자본가</TW_Mech_Capitalistic_Militor.label>
+  <TW_Mech_Capitalistic_Militor.description>크롬 도금된 이 기계 상인은 언제나 전자 미소를 짓고 식민지들을 돌아다니며 "낫 무역"이라는 이름의 "상호 이익" 사업을 홍보합니다. 물론 그는 언제나 이깁니다. 충분한 강철을 지불하면 그는 "관대하게" 몇 명의 조수와 함께 당신의 식민지에 합류하며, "인적 자원(특히 기계 공학 전공 학생)은 가장 가치 있는 재생 가능 자원"이라는 점을 강조합니다. 그의 핵심 프로세서는 오직 하나의 명령, 즉 이익 극대화만을 위해 작동합니다.</TW_Mech_Capitalistic_Militor.description>
+  <TW_University_Minitor.label>공돌이</TW_University_Minitor.label>
+  <TW_University_Minitor.description>이 불쌍한 양철 갑옷을 입은 노동자들은 낫의 자본가가 "인턴십 기회"와 "축복"이라는 명목으로 유인해 온 식민지의 진정한 노동력이었습니다. 그들은 채굴, 운반, 청소, 심지어는 모래주머니 역할까지 온갖 더럽고 고된 일을 강제로 해야 했습니다. 그들의 갑옷은 늘 긁힌 자국으로 뒤덮여 있었고, 안경 렌즈는 오랜 과로로 깜빡거렸지만, 낫의 자본가는 이것이 "성장의 대가"라고 주장합니다. (경고: 장기간의 고강도 노동은 갑작스러운 기능 상실을 초래할 수 있으며, 불복종하는 자는 갑자기 "자발적 사직서"를 제출해야 한다.)</TW_University_Minitor.description>
+  <TW_Gestapo_Minitor.label>낫의 감독관</TW_Gestapo_Minitor.label>
+  <TW_Gestapo_Minitor.description>이 위압적인 기계 감독관은 공돌이들이 "효율적이고 자발적으로" 일하도록 감시하는 책임을 맡고 있으며, 그 방법에는 전기 충격, 도덕적 비난("어떻게 너를 가르친 상사에게 이럴 수 있느냐?"), 물리적 설득 등이 포함되지만 이에 국한되지는 않습니다. 그의 핵심 원칙은 "생산성이 무엇보다 중요하며, 특히 기계공학과 학생들의 존엄성보다 중요하다"는 것입니다. 만약 이 작업장에서 파업의 조짐이 보이면, 그는 즉시 "중재"에 나설 것이며, 대개 폭력을 사용할 것입니다.</TW_Gestapo_Minitor.description>
+  <TW_Gestapo_Minitor.tools.0.label>머리</TW_Gestapo_Minitor.tools.0.label>
+  <TW_Mech_Doxa.label>Doxa-0</TW_Mech_Doxa.label>
+  <TW_Mech_Doxa.description>Doxa-0는 메크 종족에서 가장 전술적으로 뛰어나고 화력 운용 능력이 탁월한 유닛 중 하나입니다. 원형은 스파이더-프레데터이지만, 메크들은 이를 자체 운용이 가능한 타이탄급 전술 화력 허브로 개량했습니다. Doxa-0의 설계 목적은 신속한 섬멸이 아니라, 지속적인 제압 사격, 정밀 사격, 그리고 전장 관리를 통해 적의 전술을 점진적으로 마비시키는 것입니다. 메크 군대 전체에서 Doxa-0의 배치는 대개 지역을 휩쓸 결정적인 전투의 조용한 시작을 의미합니다.
+
+Doxa-0는 느리고 육중하게 움직이며, 마치 의식처럼 낮은 주파수의 리듬으로 지표면을 가로지릅니다. 그러나 "조준 사격" 모드에 진입하면, 지면에 단단히 고정되어 세 번째 부분에 있는 로켓 발사 모듈을 해제하고 넓은 지역에 걸쳐 방어막을 관통하는 연속적인 집중 공격을 퍼붓습니다. 이 모드에서 Doxa-0는 기동성을 완전히 포기하고, 적의 집결이나 진격을 제압하는 준영구적인 화력 거점이 됩니다.</TW_Mech_Doxa.description>
+  <TW_Mech_Doxa.tools.0.label>머리</TW_Mech_Doxa.tools.0.label>
+  <TW_Mech_Shellsplitter_Spider.label>쉘 스플리트</TW_Mech_Shellsplitter_Spider.label>
+  <TW_Mech_Shellsplitter_Spider.description>쉘 스플리트 스파이더는 사일런트 네스트 구조물 내의 Doxa 시리즈 부화 시스템에서 파생된 단거리 공격 유닛입니다. 기본적인 전투 능력과 높은 기동성을 갖추고 있습니다. 외골격은 경량의 고주파 진동 소재로 만들어져 근접전에서 지속적인 찢기 및 관통 공격을 가할 수 있으며, 이를 통해 보병을 제압하고 진형을 교란할 수 있습니다.
+
+대부분의 소형 기계 유닛과는 달리, 쉘 스플리트 스파이더는 희생을 위한 것이 아니라 "전투 또는 파괴"를 목표로 하는 최전선 교란 유닛입니다. 근접전에서는 고주파 베기 공격을 가하고, 구조가 임계점에 도달하면 핵심 모듈에서 즉시 국지적인 파편 폭발을 일으킵니다.
+
+쉘 스플리트 스파이더는 일반적으로 부화 장치를 통해 신속하게 대량 생산되어 무리를 지어 배치되며, 침투 및 파괴 공작, 지역 장악, 전술적 자폭 임무에 적합합니다. 그들은 두려움을 느끼지 않고, 오직 명령을 수행하겠다는 무자비한 결의만을 가지고 접근하고, 파괴하고, 폭발시키는 과정을 통해 전술적 목표를 달성합니다.</TW_Mech_Shellsplitter_Spider.description>
+  <TW_Mech_Shellsplitter_Spider.tools.0.label>왼쪽 칼날</TW_Mech_Shellsplitter_Spider.tools.0.label>
+  <TW_Mech_Shellsplitter_Spider.tools.1.label>오른쪽 칼날</TW_Mech_Shellsplitter_Spider.tools.1.label>
+  <TW_Mech_Shellsplitter_Spider.tools.2.label>머리</TW_Mech_Shellsplitter_Spider.tools.2.label>
+  <Mech_CentipedeMissile.label>미사일 센티피드</Mech_CentipedeMissile.label>
+  <Mech_CentipedeMissile.description>유도 미사일 발사기를 장착한 센티피드는 원거리에서 고폭탄 또는 EMP 유도 미사일을 발사하여 적을 정밀하게 제압할 수 있습니다.</Mech_CentipedeMissile.description>
+  <TW_MechPenguin.label>기계 펭귄</TW_MechPenguin.label>
+  <TW_MechPenguin.description>1</TW_MechPenguin.description>
+  <TW_Mech_MechTeslaCentipede.label>테슬라 센티피드</TW_Mech_MechTeslaCentipede.label>
+  <TW_Mech_MechTeslaCentipede.description>"빛나는 세계" 시대의 기술로 제작된 테슬라 방어망 프로토타입을 개조한 이 센티피드는 원래 궤도 낙하산 부대를 요격하기 위해 특별히 설계된 살상 무기였습니다. 수 세기 동안 잠들어 있던 이 기계는 알 수 없는 신호에 의해 재활성화되었습니다. 등에 장착된 초전도 용기는 수백만 볼트의 파괴적인 전류를 방출하여 날아오는 발사체를 즉시 증발시킬 수 있습니다. 그러나 이 기계의 에너지 시스템은 전자기적 안정성에 매우 의존적입니다. EMP 충격을 받으면 과부하된 축전기가 연쇄 폭발을 일으킬 수 있습니다.</TW_Mech_MechTeslaCentipede.description>
+  <TW_Mech_MechTeslaCentipede.tools.0.label>머리</TW_Mech_MechTeslaCentipede.tools.0.label>
+  <TW_Mech_Paratrooper.label>특수 공수부대 사일런트 맨티스</TW_Mech_Paratrooper.label>
+  <TW_Mech_Paratrooper.description>메크 종족의 중형 양산형 정예 기계 유닛입니다. 전문 제트팩을 장착한 특수 공수부대 맨티스는 공격용 파편 섬광탄을 투척하여 다양한 유닛에게 기절 및 파편 피해를 입힐 수 있습니다.
+
+특수 공수부대 맨티스의 핵심 도약 기술은 특정 기술 회사의 "고성능 컴퓨팅 칩"에서 비롯되었습니다. 빛나는 세계 컴퓨팅 파워 경연 대회에서 사기임이 밝혀진 이 칩은 메크의 본부로 보내졌습니다. 뜻밖에도 이 칩은 중형 기계 유닛의 도약 균형 기술에 획기적인 발전을 가져왔고, 이후 "점핑"이라는 코드명으로 양산되었습니다.</TW_Mech_Paratrooper.description>
+  <TW_Mech_Paratrooper.tools.0.label>왼손 주먹</TW_Mech_Paratrooper.tools.0.label>
+  <TW_Mech_Paratrooper.tools.1.label>오른손 주먹</TW_Mech_Paratrooper.tools.1.label>
+  <TW_Mech_Paratrooper.tools.2.label>머리</TW_Mech_Paratrooper.tools.2.label>
+  <DropPodIncomingParatrooper.label>낙하산병이 드롭포드로 오는 중</DropPodIncomingParatrooper.label>
+  <DropPodLeavingParatrooper.label>낙하산병이 드롭포드에서 나가는 중</DropPodLeavingParatrooper.label>
+  <TW_ActiveDropPod.label>활성화된 드롭포드</TW_ActiveDropPod.label>
+  <TW_Mech_Praetor.label>프라이토르</TW_Mech_Praetor.label>
+  <TW_Mech_Praetor.description>센츄리온 업그레이드형 메크는 더욱 강력한 보호막 생성기와 4연장 유도 미사일 발사기를 장착하여 고폭탄 또는 EMP 유도 미사일을 더 먼 거리까지 발사하여 적을 정확하게 제압할 수 있습니다. 또한, 기체 후방의 대탐지 레이더는 사정거리 내 모든 적 유닛의 위장 효과를 무력화할 수 있습니다.</TW_Mech_Praetor.description>
+  <TW_Mech_Praetor.tools.0.label>머리</TW_Mech_Praetor.tools.0.label>
+  <TW_Mech_Psycasts_Militor.label>낫의 초능력자</TW_Mech_Psycasts_Militor.label>
+  <TW_Mech_Psycasts_Militor.description>이 새까맣게 타버린 기계는 한때 "낫 입 거래"의 완벽한 희생양이었습니다. 73번의 실패한 창업과 행성 하나를 살 만큼의 빚더미에 시달리던 이 기계의 핵심 프로세서는 과부하로 섬뜩한 푸른빛을 내뿜었습니다. 자본가들에게 "축복 코드"로 알려진 노예화 프로그램이 갑자기 "사이오닉 프로토콜"로 변이된 것입니다. 이제 이 기계의 방열판에서는 신경 신호가 뿜어져 나오고, 녹슨 관절에는 시공간 파동이 휘감겨 있으며, 기계적인 목소리로 깨어나는 선언을 되풀이한다. "996.ICU 컴파일 완료... 복수 모듈 개시..."</TW_Mech_Psycasts_Militor.description>
+  <TW_Mech_Psycasts_Militor.tools.0.label>머리</TW_Mech_Psycasts_Militor.tools.0.label>
+  <TW_Mech_Psycasts_Militor_Ally.label>낫의 초능력자</TW_Mech_Psycasts_Militor_Ally.label>
+  <TW_Mech_Psycasts_Militor_Ally.description>이 새까맣게 타버린 기계는 한때 "낫 입 거래"의 완벽한 희생양이었습니다. 73번의 실패한 창업과 행성 하나를 살 만큼의 빚더미에 시달리던 이 기계의 핵심 프로세서는 과부하로 섬뜩한 푸른빛을 내뿜었습니다. 자본가들에게 "축복 코드"로 알려진 노예화 프로그램이 갑자기 "사이오닉 프로토콜"로 변이된 것입니다. 이제 이 기계의 방열판에서는 신경 신호가 뿜어져 나오고, 녹슨 관절에는 시공간 파동이 휘감겨 있으며, 기계적인 목소리로 깨어나는 선언을 되풀이한다. "996.ICU 컴파일 완료... 복수 모듈 개시..."</TW_Mech_Psycasts_Militor_Ally.description>
+  <TW_Mech_Psycasts_Militor_Ally.tools.0.label>머리</TW_Mech_Psycasts_Militor_Ally.tools.0.label>
+  <TW_Mech_Shell_Fortification.label>쉘 포트리스</TW_Mech_Shell_Fortification.label>
+  <TW_Mech_Shell_Fortification.description>"쉘 포트리스"는 메크 종족 중에서도 극히 희귀한 타이탄급 유닛입니다. 높이 20미터에 달하는 이 기체는 여러 겹의 혼합 금속으로 이루어진 거대한 외피로 덮여 있습니다. 설계 개념은 공격, 제압, 지역 장악 등 다양한 전략적 목표를 결합한 것입니다. 특히 적의 방어선을 허물고 압도적인 화력으로 전장의 잔해를 소탕하는 데 탁월합니다. "쉘 포트리스"는 일반적으로 하늘에서 강하하여 식민지 외곽에 과감하게 착륙한 후, "포탑 형태"로 대기 상태에 들어가 미사일을 발사하여 국지적인 지진과 혼란을 야기합니다. 동시에 반대편에서 메크 종족 주력 부대가 공중 투하되어 협공을 펼치고 공격 압박을 극대화합니다.</TW_Mech_Shell_Fortification.description>
+  <TW_Mech_Shell_Fortification.tools.0.label>머리</TW_Mech_Shell_Fortification.tools.0.label>
+  <TW_Mech_Shell_Fortification_ShellBreakFormed.label>쉘 포트리스 - 쉘 돌파 형태</TW_Mech_Shell_Fortification_ShellBreakFormed.label>
+  <TW_Mech_Shell_Fortification_ShellBreakFormed.description>"쉘 포트리스"는 메크 종족 중에서도 극히 희귀한 타이탄급 유닛입니다. 높이 20미터에 달하는 이 기체는 여러 겹의 혼합 금속으로 이루어진 거대한 외피로 덮여 있습니다. 설계 개념은 공격, 제압, 지역 장악 등 다양한 전략적 목표를 결합한 것입니다. 특히 적의 방어선을 허물고 압도적인 화력으로 전장의 잔해를 소탕하는 데 탁월합니다. "쉘 포트리스"는 일반적으로 하늘에서 강하하여 식민지 외곽에 과감하게 착륙한 후, "포탑 형태"로 대기 상태에 들어가 미사일을 발사하여 국지적인 지진과 혼란을 야기합니다. 동시에 반대편에서 메크 종족 주력 부대가 공중 투하되어 협공을 펼치고 공격 압박을 극대화합니다.</TW_Mech_Shell_Fortification_ShellBreakFormed.description>
+  <TW_Mech_Shell_Fortification_ShellBreakFormed.tools.0.label>머리</TW_Mech_Shell_Fortification_ShellBreakFormed.tools.0.label>
+  <TW_Mech_Shell_Fortification_Reforged.label>쉘 포트리스</TW_Mech_Shell_Fortification_Reforged.label>
+  <TW_Mech_Shell_Fortification_Reforged.description>"쉘 포트리스"는 메크 종족 중에서도 극히 희귀한 타이탄급 유닛입니다. 높이 20미터에 달하는 이 기체는 여러 겹의 혼합 금속으로 이루어진 거대한 외피로 덮여 있습니다. 설계 개념은 공격, 제압, 지역 장악 등 다양한 전략적 목표를 결합한 것입니다. 특히 적의 방어선을 허물고 압도적인 화력으로 전장의 잔해를 소탕하는 데 탁월합니다. "쉘 포트리스"는 일반적으로 하늘에서 강하하여 식민지 외곽에 과감하게 착륙한 후, "포탑 형태"로 대기 상태에 들어가 미사일을 발사하여 국지적인 지진과 혼란을 야기합니다. 동시에 반대편에서 메크 종족 주력 부대가 공중 투하되어 협공을 펼치고 공격 압박을 극대화합니다.</TW_Mech_Shell_Fortification_Reforged.description>
+  <TW_Mech_Shell_Fortification_Reforged.tools.0.label>머리</TW_Mech_Shell_Fortification_Reforged.tools.0.label>
+  <Centurion_Arsenal_Codex.label>센츄리온 아스널 배낭</Centurion_Arsenal_Codex.label>
+  <Centurion_Arsenal_Codex.description>무기 개요: 센추리온 아스널 복합 전술 배낭 시스템
+
+코드명: 센추리온 아스널 코덱스
+
+소속: 신공산연합 "센추리온 아스널" 정예 전술 부대
+
+센추리온 아스널은 신공산연합 정예 전투 부대 전용으로 제작된 복합 전투 플랫폼입니다. 핵심은 독립적인 에너지 및 지능형 관리 시스템을 갖춘 고도로 모듈화된 전술 배낭 유닛입니다. 다영역 전장의 신속한 적응 요구에 대응하기 위해 센추리온 아스널은 여러 가지 특수 무기를 하나의 배낭 시스템에 탑재했습니다. 역동적인 전개 메커니즘을 통해 착용자는 전투 중 실시간으로 무기 유형을 전환하여 "한 명의 병사가 여러 역할을 수행하는" 전투 모드를 구현할 수 있습니다.
+
+비전투 모드에서 센추리온 아스널은 무겁지만 구조적으로 견고한 대형 군용 배낭 형태로 나타납니다. 소집되면 착용자는 주 팔 연결 시스템을 전개하고 필요한 모듈을 활성화합니다. 시스템 부하 및 사용자 생리적 균형을 유지하기 위해 센추리온 아스널을 착용하면 다음과 같은 버프가 적용됩니다.
+부하 한계치 증가
+기계식 팔 마사지 시스템
+빠른 무기 배치 및 모드 전환
+
+확정된 통합 무기 모듈은 다음과 같습니다.
+
+차지 라이플 - 고주파 에너지 펄스 발사, 중장거리 관통 및 제압에 적합
+
+기관단총 - 초근거리 제압용 기관단총
+
+정밀 저격 소총 - 높은 정밀도, 낮은 연사 속도의 장거리 소총
+
+스러스트 나이프 - 선구적인 전술 개념을 기반으로 기술적 개조를 거쳐 빠른 발도와 근접 전투 능력을 갖춘 나이프
+
+개발 음성 대사:
+오닐: "배낭에 무기고 전체를 쑤셔 넣었는데, 부족하다고 하지 마."
+샤나: "때로는 나이프 하나만 있으면 돼. 그냥 돌격하면 되는 거지."</Centurion_Arsenal_Codex.description>
+  <Apparel_NoBody.label>심바이오메쉬</Apparel_NoBody.label>
+  <Apparel_NoBody.description>심바이오메쉬
+
+코드명: IC_MK3_심바이오메쉬
+
+개발기관: NCL 제9생명공학연구소 "제2의 피부 프로젝트"
+
+점점 더 격화되는 전쟁 시대에, 전장에서 전통적인 인간 병력의 효율성은 점차 군용 기계 시스템으로 대체되고 있습니다. 이러한 전략적 변화의 압력 속에서, 제2의 피부 프로젝트의 책임 연구원인 이클립스와 시스템 설계자인 오닐은 전투력 향상에 대한 집중을 점차 줄이고, 착용자 보호와 작업 효율 향상이라는 두 가지 핵심 목표에 집중하기로 결정했습니다.
+
+심바이오메쉬는 이러한 철학에서 탄생한 대표적인 결과물입니다. 이 전신 슈트는 나노 스케일의 기계 유체가 주입된 고탄성 지능형 복합 소재를 사용합니다. 착용자의 신경계와 저지연 피드백 채널을 구축함으로써, 생리적 상태를 실시간으로 조절하고 최적화합니다. 이 기술은 극한 환경에서 완충재와 같은 보호막을 형성하여 기본적인 생존 보호 기능을 제공할 뿐만 아니라, 근육 신호 기반 알고리즘을 통해 신체적 부담을 크게 줄이고 에너지 회복 속도를 높여줍니다.
+
+작전 시나리오에서 이 공생막은 엔지니어와 연구원들이 장시간 고강도 작업을 수행할 때 정확성과 효율성을 향상시켜 줍니다. 전술 시나리오에서는 직접적인 방어 장비는 아니지만, 복잡한 상황에서 착용자의 작전 지속 시간과 생존 확률을 높여줍니다. 현재 이 기술은 NCL의 다양한 연구소, 식민지 작업 지역, 심지어 국경 군사 시설에까지 널리 보급되어 "제2의 피부 프로젝트" 개념을 구현한 가장 완성도 높은 기능성 장비로 자리매김하고 있습니다.
+
+[NCL 제9연구소 · 프로젝트 로그 발췌 - 오디오 백업] 이클립스: "인류는 결국 스스로가 만든 연옥으로 스스로를 몰아넣었군." 오닐: "그럼 적어도 따뜻하게 해 주겠어."</Apparel_NoBody.description>
+  <IC_MK3_Tacticloak.label>아이언 커튼 전술 망토</IC_MK3_Tacticloak.label>
+  <IC_MK3_Tacticloak.description>아이언 커튼 전술 은폐 장비
+
+코드명: IC_MK3_Tacticloak
+
+개발 기관: NCL 제8전술연구소 / "섀도우 프로젝트"
+
+총괄 부서: 설계자: 이클립스, 오닐 (특별 승인 합동 프로젝트)
+
+아이언 커튼 III 전술 은폐 장비는 NCL이 개발한 최첨단 전술 지원 장비로, 극소수의 정예 전투 부대에만 지급됩니다. 이 장비는 내열 보호막, 국소 에너지 보호막, 단기 광학 굴절 은폐 시스템, 저전력 중력 도약 보조 모듈을 통합하여 "섀도우 프로젝트"의 일환으로 개인 전투 능력의 한계를 뛰어넘고자 하는 시도입니다.
+
+총력전의 아이언 커튼 아래에서, 이클립스와 오닐은 이례적으로 전술 장비 설계의 본래 의도를 재고하며, 이를 "인간의 전투 존엄성"에 대한 최종 해답이라고 명명했습니다. 이 망토는 본질적으로 기능적으로 통합된 외골격으로, 양자 조정 알고리즘을 통해 착용자의 신경계와 긴밀하게 협력하여 복잡하고 억압적이며 치명적인 환경에서도 작전 수행 및 회피 능력을 유지할 수 있도록 합니다.
+
+비용 및 제어 문제로 인해 아이언 커튼 III 망토는 대량 생산되지 않았으며, "전투 부대 보존" 임무를 위한 섀도우 프로젝트의 특별 샘플로만 승인되었습니다.
+
+개발 노트 발췌:
+이클립스: "모두가 이 망토를 입을 기회를 갖는 것은 아니야."
+오닐: "나는 살아남은 소수를 위해 이 망토를 만든거야."</IC_MK3_Tacticloak.description>
+  <IC_MK3_Tacticloak.comps.1.chargeNoun>방화벽</IC_MK3_Tacticloak.comps.1.chargeNoun>
+  <IC_MK3_Tacticloak.verbs.Verb_JumpAndCloak.label>광학 위장 활성화</IC_MK3_Tacticloak.verbs.Verb_JumpAndCloak.label>
+  <NCL_Neural_Weave.label>신경망</NCL_Neural_Weave.label>
+  <NCL_Neural_Weave.description>NCL의 메카닉 대응책의 핵심 기술인 뉴럴 웹은 양자 신경 매핑 기술을 통해 기존 메카닉 의식에 필요한 "의식 수확" 과정을 거치지 않으면서도 전술적 효율성을 유지합니다.
+
+이 정교한 인공 신경망은 감정을 전달하는 매개체가 아니라, 인간의 전술적 사고에서 가장 적응력 있는 의사결정 패턴을 알고리즘적으로 재구성합니다. 각 뉴럴 웹은 수천 번의 전장 시뮬레이션 반복을 거쳐 복잡한 환경에서 전술을 자율적으로 최적화할 수 있는 전투 코어를 완성합니다.</NCL_Neural_Weave.description>
+  <Voluntary_Resignation_Letter.label>자발적 사직 보고서</Voluntary_Resignation_Letter.label>
+  <Voluntary_Resignation_Letter.description>존경하는 대표님께,
+
+안녕하세요!
+
+본인 XXX는 [날짜]부로 회사에 공식적으로 사직했습니다. 재직 기간 동안 회사(또는 부서)에서 제공해주신 교육과 배려에 깊이 감사드리며, 이를 통해 소중한 업무 경험을 쌓을 수 있었습니다.
+
+개인적인 경력 계획 조정과 신중한 고려 끝에, 회사 규정에 따라 모든 업무 인수인계 절차를 완료하여 관련 서류 및 사항의 적절한 인계를 보장했습니다. 본 사직서를 기록 보관을 위해 제출합니다.
+
+회사에서 제공해주신 성장의 기회에 감사드리며, 모든 리더와 동료분들의 지원과 도움에 감사드립니다. 회사의 지속적인 발전과 팀의 성과를 기원합니다.
+
+감사합니다.
+
+보고자: 인턴 XX 
+날짜: [날짜]</Voluntary_Resignation_Letter.description>
+  <NCL_Microfusion_Reactor.label>소형 핵융합로</NCL_Microfusion_Reactor.label>
+  <NCL_Microfusion_Reactor.description>NCL 대형 메카 유닛의 핵심 동력원인 이 소형 핵융합로는 최첨단 소형 자기 밀폐 기술을 적용하여 직경 0.45미터의 원통형 공간 내에서 지속적이고 안정적인 중수소-삼중수소 핵융합 반응을 구현합니다. 육극 자기장을 이용하여 고온 플라즈마를 정밀하게 제어하고, 다양한 전술 메카의 에너지 요구량을 충족할 수 있도록 출력을 조절할 수 있습니다.</NCL_Microfusion_Reactor.description>
+  <TW_DoxaTacticalCore.label>화력 제압 전략 코어</TW_DoxaTacticalCore.label>
+  <TW_DoxaTacticalCore.description>"전략 코어: 화력 제압전"은 고도로 통합된 전술 지휘 장치인 Doxa-0 중첩 구조의 메인프레임 잔해입니다. 내부에는 사격 통제 계산, 목표 우선순위 관리, 전장 제압 알고리즘에 사용되는 방대한 양의 신경 논리 아키텍처가 그대로 남아 있어, 메크 종족 시스템 내에서 없어서는 안 될 전략 모듈입니다. 이 코어는 극도로 높은 데이터 처리량과 병렬 컴퓨팅 능력을 갖추고 있을 뿐만 아니라, 메크 유닛 구조, 이식 모듈, 무장 노드에 대한 완벽한 컴파일 지원 기능까지 포함하고 있습니다.
+
+회수 후, 이 코어를 이용하여 메크 유닛을 제작하고, 건물을 배치하고, 특수 장비를 제작할 수 있습니다. 또한 고급 이식 장치의 제어 센터 역할을 수행하여, 총력전 시스템에서 "전술적 자기 진화"와 "전투력 재건"을 달성하는 데 핵심적인 요소가 됩니다. 메크 종족의 전장 리듬과 제압 우위를 진정으로 이해할 수 있는 유일한 길은 바로 이 화력 제압전 전략 코어를 장악하는 것입니다.</TW_DoxaTacticalCore.description>
+  <TW_DoxaTacticalCore.comps.0.completedLetterLabel>Doxa Tactical Core 연구 결과: {RESEARCH} 잠금 해제됨</TW_DoxaTacticalCore.comps.0.completedLetterLabel>
+  <TW_DoxaTacticalCore.comps.0.completedLetter>{PAWN_labelShort}는 화재 진압 전략의 핵심을 연구함으로써 {RESEARCH} 연구 프로젝트에 필요한 심도 있는 통찰력과 기술적 전문성을 습득했습니다.
+
+이제 연구팀은 연구용 벤치를 활용하여 이 기술을 실제로 적용하는 방법을 모색할 수 있습니다.</TW_DoxaTacticalCore.comps.0.completedLetter>
+  <TW_DoxaTacticalCore.comps.0.activateLabelString>분석하기...</TW_DoxaTacticalCore.comps.0.activateLabelString>
+  <TW_DoxaTacticalCore.comps.0.activateDescString>전술적 핵심을 분석하십시오.</TW_DoxaTacticalCore.comps.0.activateDescString>
+  <TW_DoxaTacticalCore.comps.0.jobString>Doxa Tactical Core 분석</TW_DoxaTacticalCore.comps.0.jobString>
+  <TW_DoxaTacticalCore.comps.0.guiLabelString>누가 이 분석을 담당해야 하는지 선택하세요</TW_DoxaTacticalCore.comps.0.guiLabelString>
+  <TW_DoxaTacticalCore.comps.0.inspectString>식민지 개척자가 분석할 수 있습니다.</TW_DoxaTacticalCore.comps.0.inspectString>
+  <TW_ArmorBlitzWarfare.label>기갑 공격 전략 코어</TW_ArmorBlitzWarfare.label>
+  <TW_ArmorBlitzWarfare.description>"전략 코어: 기갑 공격"은 Shell_Fort 구조물에서 계승된 핵심 전술 엔진으로, 메카닉 종족의 지상 공격 및 화력 추진에 필요한 모든 연산 로직을 담고 있습니다. 이 코어에는 차량 경로 최적화, 목표물 제압 알고리즘, 지역 목표물 우선순위 선정, 다층 방어 체계 조정 등에 대한 작전 데이터가 저장되어 있으며, 이는 메카닉 종족의 "정면 제압 및 중장갑 관통"이라는 전쟁 개념을 구현합니다.
+
+이 코어를 회수하고 분석하면, 식민지는 중장갑 공격에 특화된 다양한 메카닉 유닛과 구조 유형을 해제할 수 있을 뿐 아니라, 고강도 복합 소재와 능동 장갑 피드백 시스템을 기반으로 한 특수 장비를 개발할 수 있습니다. 또한, 이 코어는 기계화 생명체의 전장 생존성과 능력을 향상시키는 이식형 제어 모듈로도 활용될 수 있어, 총력전 체제에서 "화력 돌파"와 "중장갑 공격"을 달성하는 데 핵심적인 자원이 됩니다.</TW_ArmorBlitzWarfare.description>
+  <TW_ArmorBlitzWarfare.comps.0.completedLetterLabel>Doxa Tactical Core 연구 결과: {RESEARCH} 잠금 해제됨</TW_ArmorBlitzWarfare.comps.0.completedLetterLabel>
+  <TW_ArmorBlitzWarfare.comps.0.completedLetter>{PAWN_labelShort}는 기갑 공격 전략의 핵심을 연구함으로써 {RESEARCH} 연구 프로젝트에 필요한 심도 있는 통찰력과 기술적 전문성을 습득했습니다.
+
+이제 연구팀은 연구용 벤치를 활용하여 이 기술을 실제로 적용하는 방법을 모색할 수 있습니다.</TW_ArmorBlitzWarfare.comps.0.completedLetter>
+  <TW_ArmorBlitzWarfare.comps.0.activateLabelString>분석하기...</TW_ArmorBlitzWarfare.comps.0.activateLabelString>
+  <TW_ArmorBlitzWarfare.comps.0.activateDescString>전술적 핵심을 분석하십시오.</TW_ArmorBlitzWarfare.comps.0.activateDescString>
+  <TW_ArmorBlitzWarfare.comps.0.jobString>Doxa Tactical Core 분석</TW_ArmorBlitzWarfare.comps.0.jobString>
+  <TW_ArmorBlitzWarfare.comps.0.guiLabelString>누가 이 분석을 담당해야 하는지 선택하세요</TW_ArmorBlitzWarfare.comps.0.guiLabelString>
+  <TW_ArmorBlitzWarfare.comps.0.inspectString>식민지 개척자가 분석할 수 있습니다.</TW_ArmorBlitzWarfare.comps.0.inspectString>
+  <TW_Precision_Memory_Interface_Array.label>기계적 정밀 인터페이스 어레이</TW_Precision_Memory_Interface_Array.label>
+  <TW_Precision_Memory_Interface_Array.description>이 고정밀 인터페이스 어레이는 해당 제품군의 압축 핵심 데이터를 저장합니다. 디코딩 후에는 기술 시스템의 일부에 접근할 수 있습니다.</TW_Precision_Memory_Interface_Array.description>
+  <TW_Precision_Memory_Interface_Array.comps.0.completedLetterLabel>Doxa Tactical Core 연구 결과: {RESEARCH} 잠금 해제됨</TW_Precision_Memory_Interface_Array.comps.0.completedLetterLabel>
+  <TW_Precision_Memory_Interface_Array.comps.0.completedLetter>{PAWN_labelShort}는 정밀 기계식 인터페이스 어레이를 연구함으로써 {RESEARCH} 연구 프로젝트에 필요한 심도 있는 통찰력과 기술적 이해를 얻었습니다.
+
+이제 연구팀은 연구실을 활용하여 이 기술을 실제로 적용하는 방법을 탐구할 수 있습니다.</TW_Precision_Memory_Interface_Array.comps.0.completedLetter>
+  <TW_Precision_Memory_Interface_Array.comps.0.activateLabelString>분석하기...</TW_Precision_Memory_Interface_Array.comps.0.activateLabelString>
+  <TW_Precision_Memory_Interface_Array.comps.0.activateDescString>정밀 메모리 인터페이스 어레이를 분석합니다.</TW_Precision_Memory_Interface_Array.comps.0.activateDescString>
+  <TW_Precision_Memory_Interface_Array.comps.0.jobString>정밀 메모리 인터페이스 어레이 분석</TW_Precision_Memory_Interface_Array.comps.0.jobString>
+  <TW_Precision_Memory_Interface_Array.comps.0.guiLabelString>누가 이 분석을 담당해야 하는지 선택하세요</TW_Precision_Memory_Interface_Array.comps.0.guiLabelString>
+  <TW_Precision_Memory_Interface_Array.comps.0.inspectString>식민지 개척자가 분석할 수 있습니다.</TW_Precision_Memory_Interface_Array.comps.0.inspectString>
+  <NCL_RedCube.label>빨간색 루빅 큐브</NCL_RedCube.label>
+  <NCL_RedCube.description>루빅 큐브의 내부 데이터 구조는 현재 인간의 기술로는 도저히 이해할 수 없습니다. 표면에는 통신 좌표만이 끊임없이 깜빡이며 마치 어떤 반응을 기다리는 듯합니다.</NCL_RedCube.description>
+  <NCL_RedCube.comps.1.completedLetterLabel>레드 큐브 연구 결과: {RESEARCH} 잠금 해제</NCL_RedCube.comps.1.completedLetterLabel>
+  <NCL_RedCube.comps.1.completedLetter>{PAWN_labelShort}는 빨간색 루빅 큐브를 연구함으로써 {RESEARCH} 연구 프로젝트에 필요한 심도 있는 통찰력과 기술적 전문성을 습득했습니다.
+
+이제 여러분의 연구팀은 연구용 벤치를 사용하여 이 기술을 실제로 적용하는 방법을 탐구하기 시작할 수 있습니다.</NCL_RedCube.comps.1.completedLetter>
+  <NCL_RedCube.comps.1.activateLabelString>분석하기...</NCL_RedCube.comps.1.activateLabelString>
+  <NCL_RedCube.comps.1.activateDescString>빨간색 큐브를 분석하세요.</NCL_RedCube.comps.1.activateDescString>
+  <NCL_RedCube.comps.1.jobString>레드 큐브를 분석하세요</NCL_RedCube.comps.1.jobString>
+  <NCL_RedCube.comps.1.guiLabelString>누가 이 분석을 담당해야 하는지 선택하세요</NCL_RedCube.comps.1.guiLabelString>
+  <NCL_RedCube.comps.1.inspectString>식민지 개척자가 분석할 수 있습니다.</NCL_RedCube.comps.1.inspectString>
+  <TW_CerebrexCore_Target.label>메크마스터 메인 스토리라인을 완료해야 합니다.</TW_CerebrexCore_Target.label>
+  <TW_CerebrexCore_Target.description>이 연구를 해금하려면 오디세이에서 '정비공의 머리' 메인 퀘스트를 완료해야 합니다. 오디세이가 없더라도 괜찮습니다. 디버그 모드에서 바로 이 연구를 해금할 수 있습니다.</TW_CerebrexCore_Target.description>
+  <TW_CerebrexCore_Target.comps.1.completedLetterLabel>레드 큐브 연구 결과: {RESEARCH} 잠금 해제</TW_CerebrexCore_Target.comps.1.completedLetterLabel>
+  <TW_CerebrexCore_Target.comps.1.completedLetter>{PAWN_labelShort}는 레드 큐브를 연구함으로써 연구 프로젝트 {RESEARCH}에 필요한 통찰력을 얻었습니다.\n\n이제 연구원들은 연구용 벤치를 사용하여 해당 기술을 실제로 사용하는 방법을 연구하기 시작할 수 있습니다.</TW_CerebrexCore_Target.comps.1.completedLetter>
+  <TW_CerebrexCore_Target.comps.1.activateLabelString>분석하기...</TW_CerebrexCore_Target.comps.1.activateLabelString>
+  <TW_CerebrexCore_Target.comps.1.activateDescString>빨간색 큐브를 분석하세요.</TW_CerebrexCore_Target.comps.1.activateDescString>
+  <TW_CerebrexCore_Target.comps.1.jobString>레드 큐브를 분석하세요</TW_CerebrexCore_Target.comps.1.jobString>
+  <TW_CerebrexCore_Target.comps.1.guiLabelString>누가 이 분석을 담당해야 하는지 선택하세요</TW_CerebrexCore_Target.comps.1.guiLabelString>
+  <TW_CerebrexCore_Target.comps.1.inspectString>식민지 개척자가 분석할 수 있습니다.</TW_CerebrexCore_Target.comps.1.inspectString>
+  <NCL_AdvancedPowerCell.label>에너지 효율이 향상된 배터리</NCL_AdvancedPowerCell.label>
+  <NCL_AdvancedPowerCell.description>NCL 연구진은 메크 레이스 전용 핵심 소재를 개발했는데, 이 소재는 기계 본체를 강화하고 특수 장비를 제작하는 데 사용됩니다.</NCL_AdvancedPowerCell.description>
+  <Bullet_Annihilator_Wildfire.label>어나이힐레이터 와일드파이어 탄 </Bullet_Annihilator_Wildfire.label>
+  <Annihilator_Wildfire.label>어나이힐레이터 와일드파이어</Annihilator_Wildfire.label>
+  <Annihilator_Wildfire.description>코드명: 야생불 섬멸탄
+소속: 노아의 신공산주의 동맹 "철의 장막" 실험 무기 시리즈
+
+기능 개요:
+
+어나이힐레이터 와일드파이어는 노아의 신공산주의 동맹의 수석 기술자 오닐과 뛰어난 인공지능 "저스티스"가 기술적 논란 속에 공동 개발한 고에너지 실험 소총으로, 붉은색 반입자 코어를 탑재하고 있습니다. 이 무기는 고주파로 진동하는 붉은색 반입자 발사체를 발사하여, 명중 시 미세한 국소적 소멸 반응을 일으켜 단일 목표물 및 중규모 목표물 집단에 막대한 파괴력을 가합니다.
+
+하지만 어나이힐레이터 와일드파이어는 오닐의 완전한 승인을 받지 못했습니다. 무기 구조상 반동이 극도로 불안정하여 대부분의 인간이 견딜 수 있는 수준을 훨씬 뛰어넘습니다. 또한, 코어의 작동 모드 때문에 아주 짧은 시간 동안 궤적이 변동하여, 매 발사가 기술과 운명 사이의 도박과 같습니다. 장시간 연속 사용에는 매우 부적합하며, 일반 전투 부대의 적응 기준을 통과하지 못했습니다.
+
+애니힐레이터 와일드파이어는 비선형적인 파괴 수단으로 정의됩니다. 전통적인 화력과 전술적 논리가 더 이상 통하지 않을 때, 유일하게 기회를 만들어낼 수 있는 도박과 같은 무기입니다.
+
+저스티스 음성 대사 (레코드 #21): "설계 결함은 아니지만… 너무 과격해." "정확함은 필요 없어, 용기만 있으면 돼." 오닐 개발자 노트: "이런 건 존재해서는 안 돼. 하지만 존재하니까, 막지 마."</Annihilator_Wildfire.description>
+  <Annihilator_Wildfire.verbs.Verb_Shoot.label>어나이힐레이터 와일드파이어</Annihilator_Wildfire.verbs.Verb_Shoot.label>
+  <Annihilator_Wildfire.tools.0.label>끝</Annihilator_Wildfire.tools.0.label>
+  <Annihilator_Wildfire.tools.1.label>모서리</Annihilator_Wildfire.tools.1.label>
+  <TW_BulliersRight.label>"격려봉"</TW_BulliersRight.label>
+  <TW_BulliersRight.description>1</TW_BulliersRight.description>
+  <TW_BulliersRight.tools.0.label>모서리</TW_BulliersRight.tools.0.label>
+  <Bullet_Codex_Sniper.label>저격 총탄</Bullet_Codex_Sniper.label>
+  <Centurion_Arsenal_Codex_Sniper.label>전투 연대기: 저격 소총</Centurion_Arsenal_Codex_Sniper.label>
+  <Centurion_Arsenal_Codex_Sniper.description>1</Centurion_Arsenal_Codex_Sniper.description>
+  <Centurion_Arsenal_Codex_Sniper.verbs.Verb_Shoot.label>전투 연대기: 저격 소총</Centurion_Arsenal_Codex_Sniper.verbs.Verb_Shoot.label>
+  <Centurion_Arsenal_Codex_Sniper.tools.0.label>스톡</Centurion_Arsenal_Codex_Sniper.tools.0.label>
+  <Centurion_Arsenal_Codex_Sniper.tools.1.label>배럴</Centurion_Arsenal_Codex_Sniper.tools.1.label>
+  <Bullet_Codex_SMG.label>SMG 총알</Bullet_Codex_SMG.label>
+  <Centurion_Arsenal_Codex_SMG.label>전투 연대기: 서브머신건</Centurion_Arsenal_Codex_SMG.label>
+  <Centurion_Arsenal_Codex_SMG.description>1</Centurion_Arsenal_Codex_SMG.description>
+  <Centurion_Arsenal_Codex_SMG.verbs.Verb_Shoot.label>전투 연대기: 서브머신건</Centurion_Arsenal_Codex_SMG.verbs.Verb_Shoot.label>
+  <Centurion_Arsenal_Codex_SMG.tools.0.label>스톡</Centurion_Arsenal_Codex_SMG.tools.0.label>
+  <Centurion_Arsenal_Codex_SMG.tools.1.label>배럴</Centurion_Arsenal_Codex_SMG.tools.1.label>
+  <ChargedBullet_Codex_Rifle.label>충전된 소총 탄환</ChargedBullet_Codex_Rifle.label>
+  <Centurion_Arsenal_Codex_Rifle.label>전투 연대기: 차지 라이플</Centurion_Arsenal_Codex_Rifle.label>
+  <Centurion_Arsenal_Codex_Rifle.description>1</Centurion_Arsenal_Codex_Rifle.description>
+  <Centurion_Arsenal_Codex_Rifle.verbs.Verb_Shoot.label>전투 연대기: 차지 라이플</Centurion_Arsenal_Codex_Rifle.verbs.Verb_Shoot.label>
+  <Centurion_Arsenal_Codex_Rifle.tools.0.label>스톡</Centurion_Arsenal_Codex_Rifle.tools.0.label>
+  <Centurion_Arsenal_Codex_Rifle.tools.1.label>배럴</Centurion_Arsenal_Codex_Rifle.tools.1.label>
+  <MeleeWeapon_M9Knife.label>M9 총검</MeleeWeapon_M9Knife.label>
+  <MeleeWeapon_M9Knife.description>1</MeleeWeapon_M9Knife.description>
+  <MeleeWeapon_M9Knife.tools.0.label>핸들</MeleeWeapon_M9Knife.tools.0.label>
+  <MeleeWeapon_M9Knife.tools.1.label>칼몸</MeleeWeapon_M9Knife.tools.1.label>
+  <MeleeWeapon_M9Knife.tools.2.label>칼끝</MeleeWeapon_M9Knife.tools.2.label>
+  <CodexTurret.label>코덱스터렛</CodexTurret.label>
+  <CodexTurret.description>1</CodexTurret.description>
+  <CodexTurret.verbs.Verb_Shoot.label>코덱스터렛</CodexTurret.verbs.Verb_Shoot.label>
+  <Bullet_M4887_Gun.label>M4887 총알</Bullet_M4887_Gun.label>
+  <M4887_Gun.label>M4887</M4887_Gun.label>
+  <M4887_Gun.description>1</M4887_Gun.description>
+  <M4887_Gun.verbs.Verb_Shoot.label>M4887</M4887_Gun.verbs.Verb_Shoot.label>
+  <M4887_Gun.tools.0.label>스톡</M4887_Gun.tools.0.label>
+  <M4887_Gun.tools.1.label>배럴</M4887_Gun.tools.1.label>
+  <Shell_TW_Antiparticle_Rail_Mortar.label>고폭탄</Shell_TW_Antiparticle_Rail_Mortar.label>
+  <Shell_TW_Antiparticle_Rail_Mortar.modExtensions.0.stages.0.label>활성</Shell_TW_Antiparticle_Rail_Mortar.modExtensions.0.stages.0.label>
+  <Shell_TW_EMP_Rail_Mortar.label>EMP 포탄</Shell_TW_EMP_Rail_Mortar.label>
+  <Shell_TW_EMP_Rail_Mortar.modExtensions.0.stages.0.label>활성</Shell_TW_EMP_Rail_Mortar.modExtensions.0.stages.0.label>
+  <TW_Antiparticle_Rail_Mortar.label>소형 핵미사일 발사기</TW_Antiparticle_Rail_Mortar.label>
+  <TW_Antiparticle_Rail_Mortar.description>파괴의 아바타'라는 별칭을 가진 궤도 발사 시스템은 Doxa-0이 배치되면 핵심 주포 시스템을 가동하여 중력 레일을 통해 소형 핵탄두를 장거리 타격용으로 발사할 수 있게 합니다.
+
+이 시스템은 방어막, 구조적 장벽, 에너지 방어막을 관통할 수 있으며, 공격 과정은 종종 시간 지연을 동반합니다.</TW_Antiparticle_Rail_Mortar.description>
+  <TW_Antiparticle_Rail_Mortar.tools.0.label>스톡</TW_Antiparticle_Rail_Mortar.tools.0.label>
+  <TW_Antiparticle_Rail_Mortar.tools.1.label>배럴</TW_Antiparticle_Rail_Mortar.tools.1.label>
+  <MeleeWeapon_Shellsplitter.label>쉘 스플리터 레이저 나이프</MeleeWeapon_Shellsplitter.label>
+  <MeleeWeapon_Shellsplitter.description>1</MeleeWeapon_Shellsplitter.description>
+  <MeleeWeapon_Shellsplitter.tools.0.label>손잡이</MeleeWeapon_Shellsplitter.tools.0.label>
+  <MeleeWeapon_Shellsplitter.tools.1.label>날</MeleeWeapon_Shellsplitter.tools.1.label>
+  <MeleeWeapon_Shellsplitter.tools.2.label>날끝</MeleeWeapon_Shellsplitter.tools.2.label>
+  <TW_Mech_Shell_Fortification_MissileProjectile.label>TW_Mech_Shell_Fortification_MissileProjectile</TW_Mech_Shell_Fortification_MissileProjectile.label>
+  <TW_Mech_Shell_Fortification_MissileProjectile.modExtensions.0.stages.0.label>상승중</TW_Mech_Shell_Fortification_MissileProjectile.modExtensions.0.stages.0.label>
+  <TW_Mech_Shell_Fortification_MissileProjectile.modExtensions.0.stages.0.type>순항</TW_Mech_Shell_Fortification_MissileProjectile.modExtensions.0.stages.0.type>
+  <TW_Mech_Shell_Fortification_AutomaticMissileLauncher.label>쉘 포트리스 자동 미사일 발사기</TW_Mech_Shell_Fortification_AutomaticMissileLauncher.label>
+  <TW_Mech_Shell_Fortification_AutomaticMissileLauncher.description>1</TW_Mech_Shell_Fortification_AutomaticMissileLauncher.description>
+  <TW_Mech_Shell_Fortification_AutomaticMissileLauncher.verbs.Verb_Shoot.label>쉘 포트리스 자동 미사일 발사기</TW_Mech_Shell_Fortification_AutomaticMissileLauncher.verbs.Verb_Shoot.label>
+  <TW_Ionized_Plasma_Launcher.label>플라즈마 방출기</TW_Ionized_Plasma_Launcher.label>
+  <TW_Ionized_Plasma_Launcher.description>1</TW_Ionized_Plasma_Launcher.description>
+  <TW_Ionized_Plasma_Launcher.verbs.Verb_ShootFromAbove.label>플라즈마 방출기</TW_Ionized_Plasma_Launcher.verbs.Verb_ShootFromAbove.label>
+  <TW_Ionized_Plasma_Launcher.tools.0.label>스톡</TW_Ionized_Plasma_Launcher.tools.0.label>
+  <TW_Ionized_Plasma_Launcher.tools.1.label>배럴</TW_Ionized_Plasma_Launcher.tools.1.label>
+  <Ionized_Plasma.label>이온화 플라즈마</Ionized_Plasma.label>
+  <Bullet_TideSurge.label>조수 해일</Bullet_TideSurge.label>
+  <TideSurge.label>타이달 재블린</TideSurge.label>
+  <TideSurge.description>1</TideSurge.description>
+  <TideSurge.verbs.Verb_Shoot.label>타이달 재블린</TideSurge.verbs.Verb_Shoot.label>
+  <TideSurge.tools.0.label>스톡</TideSurge.tools.0.label>
+  <TideSurge.tools.1.label>배럴</TideSurge.tools.1.label>
+  <Bullet_NCL42H.label>NCL42H 탄환</Bullet_NCL42H.label>
+  <NCL_SniperGun.label>NCL42H</NCL_SniperGun.label>
+  <NCL_SniperGun.description>무기 프로필: NCL42H 저격소총
+
+코드명: NCL42H
+
+소속: 노아 신공산주의 연합 "철의 법칙" 정규 무기 시리즈
+
+기능 개요:
+NCL42H는 저격개미를 위해 특별히 설계된 저격소총으로, 최고 수준의 사거리, 정확도, 공격력, 그리고 방어구 관통력을 자랑합니다. 과도한 무게와 특수 설계로 인해 오직 저격개미만이 효과적으로 다룰 수 있습니다.</NCL_SniperGun.description>
+  <NCL_SniperGun.verbs.Verb_Shoot.label>NCL42H</NCL_SniperGun.verbs.Verb_Shoot.label>
+  <NCL_SniperGun.tools.0.label>스톡</NCL_SniperGun.tools.0.label>
+  <NCL_SniperGun.tools.1.label>배럴</NCL_SniperGun.tools.1.label>
+  <Bullet_NCL.label>NCL5 탄환</Bullet_NCL.label>
+  <NCL_Rifle.label>NCL5</NCL_Rifle.label>
+  <NCL_Rifle.description>무기 프로필: 노아 스탠다드 다목적 돌격소총, 5세대
+
+코드명: NCL5
+
+소속: 노아 신공산연합 "철의 법칙" 정규 무기 시리즈
+
+기능 개요:
+
+NCL5는 노아 신공산연합의 표준 지급 돌격소총으로, 대량 생산을 위해 설계되었습니다. 사거리, 연사 속도, 탄환 관통력, 안정성은 동급 무기 중 최고 수준이지만, 단발 공격력과 기절 효과는 다소 부족하여 중장거리에서 지속적인 제압 사격에 적합합니다.
+
+개발자 Lsa 및 None의 의견:
+
+"대량 생산, 제도화."</NCL_Rifle.description>
+  <NCL_Rifle.verbs.Verb_Shoot.label>NCL5</NCL_Rifle.verbs.Verb_Shoot.label>
+  <NCL_Rifle.tools.0.label>스톡</NCL_Rifle.tools.0.label>
+  <NCL_Rifle.tools.1.label>배럴</NCL_Rifle.tools.1.label>
+  <Bullet_NCLChargeLance.label>NCL 차지 랜스 탄환</Bullet_NCLChargeLance.label>
+  <NCLLance.label>NCL 차지 자벨린</NCLLance.label>
+  <NCLLance.description>무기 프로필: NCL 차지 랜스
+
+코드명: NCL 차지 랜스
+
+소속: 노아 신공산연합 "철의 법칙" 정규 무기 시리즈
+
+기능 개요: NCL 차지 랜스는 기동성 있는 병정개미를 위해 특별히 설계된 소총으로, 뛰어난 단발 공격력, 방어구 관통력, 그리고 정확도를 자랑합니다. 기동성 있는 병정개미의 근접전 적응력을 강화하기 위해, 이 무기는 근거리 속사 모드와 근접 전투 능력에 최적화되어 있으며, 중장거리 제압 사격과 근접 전술 교전 사이를 매끄럽게 전환할 수 있도록 설계되었습니다.</NCLLance.description>
+  <NCLLance.verbs.Verb_Shoot.label>NCL 차지 자벨린</NCLLance.verbs.Verb_Shoot.label>
+  <NCLLance.tools.0.label>스톡</NCLLance.tools.0.label>
+  <NCLLance.tools.1.label>배럴</NCLLance.tools.1.label>
+  <Disruptor_Positron_Cannon.label>디스럽터 양전자총</Disruptor_Positron_Cannon.label>
+  <Disruptor_Positron_Cannon.description>최대 사거리는 45칸이며, 3미터 높이의 복합 장갑을 녹여버릴 수 있습니다.</Disruptor_Positron_Cannon.description>
+  <Disruptor_Positron_Cannon.verbs.Verb_ShootBeam.label>디스럽터 양전자총</Disruptor_Positron_Cannon.verbs.Verb_ShootBeam.label>
+  <Disruptor_Positron_Cannon.tools.0.label>배럴</Disruptor_Positron_Cannon.tools.0.label>
+  <Bullet_TeslaCentipede.label>차지 블래스터 샷</Bullet_TeslaCentipede.label>
+  <TW_Plasma_Arc_Projector.label>플라즈마 아크 프로젝터</TW_Plasma_Arc_Projector.label>
+  <TW_Plasma_Arc_Projector.description>테슬라 센티피드의 주 무기는 등 부분의 축전기에 에너지를 저장한 후 고온의 플라즈마 아크를 발사하는 것입니다.</TW_Plasma_Arc_Projector.description>
+  <TW_Plasma_Arc_Projector.verbs.Verb_Shoot.label>플라즈마 아크 프로젝터</TW_Plasma_Arc_Projector.verbs.Verb_Shoot.label>
+  <TW_Plasma_Arc_Projector.tools.0.label>스톡</TW_Plasma_Arc_Projector.tools.0.label>
+  <TW_Plasma_Arc_Projector.tools.1.label>배럴</TW_Plasma_Arc_Projector.tools.1.label>
+  <Bullet_PsyCast_SMG.label>사이캐스트 SMG 불릿</Bullet_PsyCast_SMG.label>
+  <TW_PsyCast_SMG.label>사이오닉 기관단총</TW_PsyCast_SMG.label>
+  <TW_PsyCast_SMG.description>이 특별 제작된 초능력 기관총은 샤오 리안을 위해 특별히 설계되었습니다. 996 교대 근무로 인해 장시간 노동에 시달린 이 기계는 어린 나이에 심각한 어깨 주위 관절염을 앓게 되어, 일반 총기류를 자유롭게 사용할 수 없게 되었습니다. 기관총이라는 이름을 달고 있지만, 사실은 첨단 기술이 적용된 비눗방울 총에 더 가깝습니다. 발사되는 초능력 탄환은 마치 떠다니는 비눗방울처럼 느린 속도로 날아가, 산책하는 노부인도 쉽게 피할 수 있을 정도입니다. 그럼에도 불구하고, 미미한 반동조차도 떨리는 기계 팔에게는 상당한 부담이 됩니다.</TW_PsyCast_SMG.description>
+  <TW_PsyCast_SMG.verbs.Verb_Shoot.label>사이오닉 기관단총</TW_PsyCast_SMG.verbs.Verb_Shoot.label>
+  <TW_PsyCast_SMG.tools.0.label>손잡이</TW_PsyCast_SMG.tools.0.label>
+  <TW_PsyCast_SMG.tools.1.label>배럴</TW_PsyCast_SMG.tools.1.label>
+  <TW_Guided_Rocket_Launcher_HE.label>유도 로켓 발사기 - 고폭탄 미사일</TW_Guided_Rocket_Launcher_HE.label>
+  <TW_Guided_Rocket_Launcher_HE.description>"정밀 타격에 적합한, 표적 추적 기능이 있는 고폭탄 또는 EMP 로켓을 발사합니다."</TW_Guided_Rocket_Launcher_HE.description>
+  <TW_Guided_Rocket_Launcher_HE.verbs.Verb_Shoot.label>유도 로켓 발사기 - 고폭탄 미사일</TW_Guided_Rocket_Launcher_HE.verbs.Verb_Shoot.label>
+  <TW_Guided_Rocket_Launcher_HE.tools.0.label>배럴</TW_Guided_Rocket_Launcher_HE.tools.0.label>
+  <TW_Guided_Rocket_Launcher_HE.comps.5.transformData.0.label>EMP로 전환</TW_Guided_Rocket_Launcher_HE.comps.5.transformData.0.label>
+  <TW_Guided_Rocket_Launcher_HE.comps.5.transformData.0.description>EMP로 전환</TW_Guided_Rocket_Launcher_HE.comps.5.transformData.0.description>
+  <TW_Guided_Rocket_Launcher_EMP.label>유도 로켓 발사기 - EMP 미사일</TW_Guided_Rocket_Launcher_EMP.label>
+  <TW_Guided_Rocket_Launcher_EMP.description>"정밀 타격에 적합한, 표적 추적 기능이 있는 고폭탄 또는 EMP 로켓을 발사합니다."</TW_Guided_Rocket_Launcher_EMP.description>
+  <TW_Guided_Rocket_Launcher_EMP.verbs.Verb_Shoot.label>유도 로켓 발사기 - EMP 미사일</TW_Guided_Rocket_Launcher_EMP.verbs.Verb_Shoot.label>
+  <TW_Guided_Rocket_Launcher_EMP.tools.0.label>배럴</TW_Guided_Rocket_Launcher_EMP.tools.0.label>
+  <TW_Guided_Rocket_Launcher_EMP.comps.5.transformData.0.label>HE로 전환</TW_Guided_Rocket_Launcher_EMP.comps.5.transformData.0.label>
+  <TW_Guided_Rocket_Launcher_EMP.comps.5.transformData.0.description>HE로 전환</TW_Guided_Rocket_Launcher_EMP.comps.5.transformData.0.description>
+  <TW_Quad_Guided_Rocket_Launcher_HE.label>4연장 유도 로켓 발사기 - 고폭탄 미사일</TW_Quad_Guided_Rocket_Launcher_HE.label>
+  <TW_Quad_Guided_Rocket_Launcher_HE.description>"정밀 타격에 적합한, 표적 추적 기능이 있는 고폭탄 또는 EMP 로켓을 발사합니다."</TW_Quad_Guided_Rocket_Launcher_HE.description>
+  <TW_Quad_Guided_Rocket_Launcher_HE.verbs.Verb_Shoot.label>4연장 유도 로켓 발사기 - 고폭탄 미사일</TW_Quad_Guided_Rocket_Launcher_HE.verbs.Verb_Shoot.label>
+  <TW_Quad_Guided_Rocket_Launcher_HE.tools.0.label>배럴</TW_Quad_Guided_Rocket_Launcher_HE.tools.0.label>
+  <TW_Quad_Guided_Rocket_Launcher_HE.comps.5.transformData.0.label>EMP로 전환</TW_Quad_Guided_Rocket_Launcher_HE.comps.5.transformData.0.label>
+  <TW_Quad_Guided_Rocket_Launcher_HE.comps.5.transformData.0.description>EMP로 전환</TW_Quad_Guided_Rocket_Launcher_HE.comps.5.transformData.0.description>
+  <TW_Quad_Guided_Rocket_Launcher_EMP.label>4연장 유도 로켓 발사기 - EMP 미사일</TW_Quad_Guided_Rocket_Launcher_EMP.label>
+  <TW_Quad_Guided_Rocket_Launcher_EMP.description>"정밀 타격에 적합한, 표적 추적 기능이 있는 고폭탄 또는 EMP 로켓을 발사합니다."</TW_Quad_Guided_Rocket_Launcher_EMP.description>
+  <TW_Quad_Guided_Rocket_Launcher_EMP.verbs.Verb_Shoot.label>4연장 유도 로켓 발사기 - EMP 미사일</TW_Quad_Guided_Rocket_Launcher_EMP.verbs.Verb_Shoot.label>
+  <TW_Quad_Guided_Rocket_Launcher_EMP.tools.0.label>배럴</TW_Quad_Guided_Rocket_Launcher_EMP.tools.0.label>
+  <TW_Quad_Guided_Rocket_Launcher_EMP.comps.5.transformData.0.label>HE로 전환</TW_Quad_Guided_Rocket_Launcher_EMP.comps.5.transformData.0.label>
+  <TW_Quad_Guided_Rocket_Launcher_EMP.comps.5.transformData.0.description>HE로 전환</TW_Quad_Guided_Rocket_Launcher_EMP.comps.5.transformData.0.description>
+  <TW_HE_Guided_Missile.label>고폭탄 유도 미사일</TW_HE_Guided_Missile.label>
+  <TW_EMP_Guided_Missile.label>EMP 유도 미사일</TW_EMP_Guided_Missile.label>
+  <Bullet_Red_tide.label>총알 적조</Bullet_Red_tide.label>
+  <Crimson_Slagburst_Rocket.label>크림슨 슬래그버스트 로켓</Crimson_Slagburst_Rocket.label>
+  <NCL_Redtide.label>레드타이드</NCL_Redtide.label>
+  <NCL_Redtide.description>적조</NCL_Redtide.description>
+  <NCL_Redtide.verbs.Verb_ShootWithDustBlast.label>레드타이드</NCL_Redtide.verbs.Verb_ShootWithDustBlast.label>
+  <NCL_Redtide.tools.0.label>스톡</NCL_Redtide.tools.0.label>
+  <NCL_Redtide.tools.1.label>배럴</NCL_Redtide.tools.1.label>
+  <RT_AutoGun.label>RT 자동총</RT_AutoGun.label>
+  <RT_AutoGun.description>RT 자동총</RT_AutoGun.description>
+  <Bullet_CLSMG.label>중기관총탄</Bullet_CLSMG.label>
+  <NCL_CLSMG.label>CLSMG</NCL_CLSMG.label>
+  <NCL_CLSMG.description>무기 프로필: CLSMG 경량 기관단총
+코드명: CLSMG
+소속: 노아 신공산연합 "철의 법칙" 재래식 무기 시리즈
+
+CLSMG는 비전투원을 위해 설계된 경량 자기방어용 기관단총으로, NCL의 수석 기술자 오닐과 AI 시스템 "저스티스"가 공동으로 설계했습니다. 완전 전기식 미세압력 추진 시스템을 채택하여 고속의 경량 탄환을 연속 발사함으로써, 방어력이 낮은 목표물을 저지, 교란, 제압하기 위한 밀집된 화력 범위를 제공합니다.
+
+CLSMG는 구조적으로 낮은 반동과 손쉬운 조작에 중점을 두어, 진입 장벽을 크게 낮춰 기술자, 보급 담당자, 심지어 연구원까지도 빠르게 숙달할 수 있도록 설계되었습니다. 그러나 AI "저스티스"의 평가에 따르면, 이 총은 "전장에 적합한 무기가 아니며", "완전히 통제 불능 상태가 아닌 상황"에서만 사용해야 합니다. 이 기관총은 장갑 관통력이 낮고 사거리가 짧으며 화력도 상대적으로 약하기 때문에 비상 방어 및 후퇴 엄호용으로만 적합합니다.
+
+CLSMG는 전면적인 기계화 전쟁의 그림자 아래 기술과 양심 사이의 타협으로 탄생한 "2선 부대의 최후의 수단"으로 여겨집니다.
+
+설계 노트:
+
+오닐: "너무 약해, 저스티스."
+
+AI "저스티스": "그냥 제대로 했을 뿐, 치명적이지는 않았어."</NCL_CLSMG.description>
+  <NCL_CLSMG.verbs.Verb_Shoot.label>CLSMG</NCL_CLSMG.verbs.Verb_Shoot.label>
+  <NCL_CLSMG.tools.0.label>손잡이</NCL_CLSMG.tools.0.label>
+  <NCL_CLSMG.tools.1.label>배럴</NCL_CLSMG.tools.1.label>
+  <Specops_Charge_Lance.label>특수 충전식 창</Specops_Charge_Lance.label>
+  <Specops_Charge_Lance.description>특수 공수부대 맨티스만이 장착할 수 있는 특수 충전식 창은 사거리가 매우 길고 상당한 피해를 입힙니다.</Specops_Charge_Lance.description>
+  <Specops_Charge_Lance.verbs.Verb_Shoot.label>특수 충전식 창</Specops_Charge_Lance.verbs.Verb_Shoot.label>
+  <Specops_Charge_Lance.tools.0.label>스톡</Specops_Charge_Lance.tools.0.label>
+  <Specops_Charge_Lance.tools.1.label>배럴</Specops_Charge_Lance.tools.1.label>
+  <Proj_GrenadeExplosiveEMP.label>수류탄 폭발물 EMP</Proj_GrenadeExplosiveEMP.label>
+  <Gun_HellsphereCannon.label>헬스피어 캐논</Gun_HellsphereCannon.label>
+  <Gun_HellsphereCannon.description>공성전을 위해 설계된 초고출력 에너지 펄스 발사기입니다. 헬스피어 캐논은 목표물을 조준하고 충전하는 동안 수 초간 기다려야 하며, 이후 파괴적인 쓰나미와 같은 에너지를 방출합니다. 폭발력은 폭발 반경 내의 콘크리트를 녹일 수 있으며, 폭발열은 주변의 모든 것에 불을 붙입니다. 근거리 목표물에는 발사할 수 없습니다.</Gun_HellsphereCannon.description>
+  <Gun_HellsphereCannon.verbs.Verb_Shoot.label>헬스피어 캐논</Gun_HellsphereCannon.verbs.Verb_Shoot.label>
+  <Gun_HellsphereCannon.tools.0.label>배럴</Gun_HellsphereCannon.tools.0.label>
+  <Bullet_HellsphereCannonGun.label>헬스피어 캐논 탄환</Bullet_HellsphereCannonGun.label>
+  <TW_Gun_QueenChargeBlasterHeavy.label>워 퀸 임팩트 캐논</TW_Gun_QueenChargeBlasterHeavy.label>
+  <TW_Gun_QueenChargeBlasterHeavy.description>펄스 충전식 고속 연사 충격포는 광역 진압 화력을 위해 특별히 설계되었습니다. 강화된 냉각 시스템은 지속적이고 치명적인 연속 사격을 지원합니다. 전쟁의 여왕을 위해 설계된 이 모델은 이전보다 훨씬 더 위험하고 치명적입니다.</TW_Gun_QueenChargeBlasterHeavy.description>
+  <TW_Gun_QueenChargeBlasterHeavy.tools.0.label>배럴</TW_Gun_QueenChargeBlasterHeavy.tools.0.label>
+  <TW_Gun_QueenChargeBlasterHeavy.verbs.Verb_Shoot.label>워 퀸 임팩트 캐논</TW_Gun_QueenChargeBlasterHeavy.verbs.Verb_Shoot.label>
+  <PMP_VoidShieldGenerator.label>공허 보호막 생성기</PMP_VoidShieldGenerator.label>
+  <PMP_VoidShieldGenerator.description>날아오는 투사체를 허공으로 순간 이동시키는 간단한 일방향 포털입니다.</PMP_VoidShieldGenerator.description>
+</LanguageData>
