@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VEE_Plant_GrandAnimaTree"]/comps/li[1]/message</xpath>
+          <value>
+            <message>대형 영혼 나무가 죽으면서 고통스러운 정신적 비명을 내질렀습니다.</message>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

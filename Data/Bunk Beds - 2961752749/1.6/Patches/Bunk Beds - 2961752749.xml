@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Spacer Module</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="BB_AdvBunkBedDouble"]/label</xpath>
+          <value>
+            <label>고급 2층 침대</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="BB_AdvBunkBedDouble"]/description</xpath>
+          <value>
+            <description>최첨단 2층 침대로, 뛰어난 편안함과 휴식을 제공합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="BB_AdvBunkBedTriple"]/label</xpath>
+          <value>
+            <label>고급 3층 침대</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="BB_AdvBunkBedTriple"]/description</xpath>
+          <value>
+            <description>최첨단 3층 침대로, 뛰어난 편안함과 휴식을 제공합니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

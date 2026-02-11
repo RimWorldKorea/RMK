@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/FactionDef[defName="Empire"]/description</xpath>
+          <value>
+            <description>중세적 질서에 기반한 사회로, 오랜 세월 제국을 유지해 온 집단입니다. 명예 규범과 엄격한 계급제, 사회적 정체성 유지를 중시합니다. 적절한 직책을 보유하지 않은 자와는 교역을 거부합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="CallMilitaryAidSmall"]/label</xpath>
+          <value>
+            <label>경보병 호출</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="CallMilitaryAidSmall"]/description</xpath>
+          <value>
+            <description>전투를 지원할 경보병 4명을 호출합니다. 모든 병사는 근접 및 원거리 전투로 훈련(7~11)되었으며 사슬 갑옷, 아밍 소드 또는 석궁으로 무장되어 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="CallMilitaryAidLarge"]/label</xpath>
+          <value>
+            <label>중보병 호출</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="CallMilitaryAidLarge"]/description</xpath>
+          <value>
+            <description>전투를 지원할 중보병 4명을 호출합니다. 모든 병사는 근접 및 원거리 전투에 숙련(12~16)되었으며 판금 갑옷, 귀족 검 또는 아바레스트로 무장되어 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="CallMilitaryAidGrand"]/label</xpath>
+          <value>
+            <label>크루세이더 호출</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="CallMilitaryAidGrand"]/description</xpath>
+          <value>
+            <description>전투를 지원할 크루세이더 4명을 호출합니다. 모든 병사는 근접 및 원거리 전투에 숙달(17~20)되었으며 판금 갑옷, 롱소드 또는 아바레스트로 무장되어 있습니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Empire</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="SteelDrop"]/label</xpath>
+          <value>
+            <label>철 투하</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="SteelDrop"]/description</xpath>
+          <value>
+            <description>철 400개를 요청합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="FoodDrop"]/description</xpath>
+          <value>
+            <description>포장 식량 20개를 요청합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_PlasteelDrop"]/label</xpath>
+          <value>
+            <label>강철 투하</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_PlasteelDrop"]/description</xpath>
+          <value>
+            <description>강철 150개를 요청합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_WoodDrop"]/label</xpath>
+          <value>
+            <label>목재 투하</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_WoodDrop"]/description</xpath>
+          <value>
+            <description>목재 400개를 요청합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_SynthreadDrop"]/label</xpath>
+          <value>
+            <label>실크 투하</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_SynthreadDrop"]/description</xpath>
+          <value>
+            <description>실크 125개를 요청합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_HerbalMedDrop"]/label</xpath>
+          <value>
+            <label>소규모 생약 투하</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_HerbalMedDrop"]/description</xpath>
+          <value>
+            <description>생약 25개를 요청합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_MedDrop"]/label</xpath>
+          <value>
+            <label>생약 투하</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_MedDrop"]/description</xpath>
+          <value>
+            <description>생약 50개를 요청합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="GlitterMedDrop"]/label</xpath>
+          <value>
+            <label>대규모 생약 투하</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="GlitterMedDrop"]/description</xpath>
+          <value>
+            <description>생약 100개를 요청합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_ChemfuelDrop"]/label</xpath>
+          <value>
+            <label>석탄 투하</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_ChemfuelDrop"]/description</xpath>
+          <value>
+            <description>석탄 220개를 요청합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_ComponentDrop"]/label</xpath>
+          <value>
+            <label>소규모 기초 부품 투하</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_ComponentDrop"]/description</xpath>
+          <value>
+            <description>기초 부품 15개를 요청합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_ComponentSpacerDrop"]/label</xpath>
+          <value>
+            <label>대규모 기초 부품 투하</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_ComponentSpacerDrop"]/description</xpath>
+          <value>
+            <description>기초 부품 30개를 요청합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_HEShellsDrop"]/label</xpath>
+          <value>
+            <label>발리스타 볼트 투하</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_HEShellsDrop"]/description</xpath>
+          <value>
+            <description>발리스타 볼트 20개를 요청합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_NobleFoodDrop"]/label</xpath>
+          <value>
+            <label>고급 식량 투하</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_NobleFoodDrop"]/description</xpath>
+          <value>
+            <description>록스 스테이크 15개를 요청합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallTrooperPlatoon"]/label</xpath>
+          <value>
+            <label>경보병 호출</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallTrooperPlatoon"]/description</xpath>
+          <value>
+            <description>전투를 지원할 경보병 10명을 호출합니다. 모든 병사는 근접 및 원거리 전투로 훈련(7~11)되었으며 사슬 갑옷, 아밍 소드 또는 석궁으로 무장되어 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallJanissaryPlatoon"]/label</xpath>
+          <value>
+            <label>중보병 호출</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallJanissaryPlatoon"]/description</xpath>
+          <value>
+            <description>전투를 지원할 중보병 10명을 호출합니다. 모든 병사는 근접 및 원거리 전투에 숙련(12~16)되었으며 판금 갑옷, 귀족 검 또는 아바레스트로 무장되어 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallCataphractPlatoon"]/label</xpath>
+          <value>
+            <label>크루세이더 호출</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RoyalTitlePermitDef[defName="VFEI_CallCataphractPlatoon"]/description</xpath>
+          <value>
+            <description>전투를 지원할 크루세이더 10명을 호출합니다. 모든 병사는 근접 및 원거리 전투에 숙달(17~20)되었으며 판금 갑옷, 롱소드 또는 아바레스트로 무장되어 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EEG_SimpleThrone"]/label</xpath>
+          <value>
+            <label>투박한 왕좌</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EEG_SimpleThrone"]/description</xpath>
+          <value>
+            <description>견고한 참나무로 제작되어 기능적인 우아함을 고려해 설계된 이 투박한 목제 왕좌는 하급 귀족에게도 편안함을 제공합니다. 등받이와 팔걸이는 정교한 문양이 세심하게 새겨져 있어 소박한 디자인에 고귀한 품격을 더합니다. 가장 웅장한 모델만큼 위압적이지는 않지만, 보다 절제된 존재감을 원하는 작은 궁정이나 전용 공간에 잘 어울립니다. 견고한 구조와 시대를 초월한 매력을 갖춘 이 왕좌는 대대로 소중히 여겨질 가구가 될 것입니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/HediffDef[defName="DeathAcidifier"]/label</xpath>
+    <value>
+      <label>소멸의 저주</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/HediffDef[defName="DeathAcidifier"]/description</xpath>
+    <value>
+      <description>사망 시 장비가 사라지도록 하는 강력한 저주입니다.</description>
+    </value>
+  </Operation>
+</Patch>

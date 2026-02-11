@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DefPos_basic_label>방어 진형</DefPos_basic_label>
+  <DefPos_basic_desc>정착민이 방어 진형으로 이동합니다.\nShift+click: 방어 진형을 설정합니다.\nAlt+click: 고급 모드로 전환합니다.</DefPos_basic_desc>
+  <DefPos_advanced_label>진형</DefPos_advanced_label>
+  <DefPos_advanced_desc>정착민이 {0}번 방어 진형으로 이동합니다.\nShift+click: 방어 진형을 설정합니다.\nCtrl/Option+click: 방어 진형을 취소합니다.\nAlt+click: 기본 모드로 전환합니다.</DefPos_advanced_desc>
+  <DefPos_context_assignPosition>{0} 방어 진형으로 설정</DefPos_context_assignPosition>
+  <DefPos_context_clearPosition>{0} 방어 진형 취소</DefPos_context_clearPosition>
+  <DefPos_context_slotSuffix> ({0}번)</DefPos_context_slotSuffix>
+  <DefPos_context_toggleAdvanced>고급 모드로 전환</DefPos_context_toggleAdvanced>
+  <DefPos_msg_noposition>방어 진형이 설정되지 않았습니다. Shift 키를 누른 상태로 마우스를 클릭하여 설정하십시오.</DefPos_msg_noposition>
+  <DefPos_msg_noposition_partial>정착민이 방어 진형을 잃어버렸습니다: {0}</DefPos_msg_noposition_partial>
+  <DefPos_msg_basicSet>{0}의 방어 진형이 설정되었습니다.</DefPos_msg_basicSet>
+  <DefPos_msg_advancedSet>{1}의 {0}번 방어 진형이 설정되었습니다.</DefPos_msg_advancedSet>
+  <DefPos_msg_basicCleared>정착민 {0}명의 방어 진형을 취소했습니다.</DefPos_msg_basicCleared>
+  <DefPos_msg_advancedCleared>정착민 {1}명의 {0}번 방어 진형을 취소했습니다.</DefPos_msg_advancedCleared>
+  <DefPos_msg_clearFailed>방어 진형이 설정되어 있지 않아 취소할 수 없습니다.</DefPos_msg_clearFailed>
+  <DefPos_msg_squadEmpty>{0}분대에 할당된 인원이 없습니다. 할당하려면 Ctrl 키를 누른 채로 다시 누르세요.</DefPos_msg_squadEmpty>
+  <DefPos_msg_squadCleared>선택된 분대원이 없습니다. {0}분대가 해제되었습니다.</DefPos_msg_squadCleared>
+  <DefPos_msg_squadAssigned>{1}분대에 {0}명이 할당되었습니다.</DefPos_msg_squadAssigned>
+  <DefPos_msg_selectedAll>모든 정착민이 선택되었습니다.</DefPos_msg_selectedAll>
+  <DefPos_msg_sentAllSlot>{0}명의 정착민을 {1}번 방어 진형으로 보냈습니다.</DefPos_msg_sentAllSlot>
+  <DefPos_msg_nopositionAllSlot>{0} 방어 진형이 설정된 정착민이 없습니다.</DefPos_msg_nopositionAllSlot>
+  <DefPos_msg_undraftedAll>{0}명의 정착민이 소집 해제되었습니다.</DefPos_msg_undraftedAll>
+  <DefPos_msg_nooneDrafted>모든 정착민이 이미 소집 해제 상태입니다.</DefPos_msg_nooneDrafted>
+  <setting_slotHotkeyMode_label>단축키 설정</setting_slotHotkeyMode_label>
+  <setting_slotHotkeyMode_desc>고급 모드에서 단축키의 동작 방식을 설정합니다:&lt;b&gt;첫 번째만:&lt;/b&gt; 항상 1번 방어 진형을 활성화합니다.&lt;b&gt;마지막 사용:&lt;/b&gt; 마지막으로 사용한 방어 진형을 활성화합니다.&lt;b&gt;누른 횟수:&lt;/b&gt; 단축키를 연속으로 눌러, 누른 횟수에 해당하는 방어 진형을 활성화합니다.</setting_slotHotkeyMode_desc>
+  <setting_slotHotkeyMode_FirstSlotOnly>1번 방어 진형</setting_slotHotkeyMode_FirstSlotOnly>
+  <setting_slotHotkeyMode_LastUsedSlot>마지막에 사용된 방어 진형</setting_slotHotkeyMode_LastUsedSlot>
+  <setting_slotHotkeyMode_MultiPress>누른 횟수 번 방어 진형</setting_slotHotkeyMode_MultiPress>
+  <setting_shiftKeyMode_label>Shift키 설정</setting_shiftKeyMode_label>
+  <setting_shiftKeyMode_desc>Shift 키를 누른 상태에서 방어 진형을 클릭하거나 단축키를 누를 때 어떤 동작을 수행할지 정의합니다. Shift 키를 '명령 대기열'로 설정하면 방어 진형의 우클릭 메뉴를 통해 정착민 위치를 대기열에 추가하거나 할당할 수 있습니다.</setting_shiftKeyMode_desc>
+  <setting_shiftKeyMode_AssignSlot>방어 진형 할당</setting_shiftKeyMode_AssignSlot>
+  <setting_shiftKeyMode_QueueOrder>이동 명령 대기열에 추가</setting_shiftKeyMode_QueueOrder>
+  <settings_sameGroupDistance_label>최소 거리 간격</settings_sameGroupDistance_label>
+  <settings_sameGroupDistance_desc>정착민들이 같은 그룹으로 간주되기 위해 서로 얼마나 떨어져 있어야 하는지를 설정합니다. 분대 키를 여러 번 눌러 분대 위치 사이를 점프할 때 사용됩니다. 개별 분대원 간에만 점프하려면 이 값을 낮게(0 이상) 설정하세요. 같은 분대 구성원이 점령한 지도들 사이만 점프하려면 1000처럼 크게 설정하세요.</settings_sameGroupDistance_desc>
+  <settings_jumpingSelectsNearby_label>점프 시 근처 멤버만 선택</settings_jumpingSelectsNearby_label>
+  <settings_jumpingSelectsNearby_desc>분대 키를 여러 번 눌러 분대 위치를 전환할 때 어떤 분대원이 선택되는지에 영향을 줍니다. 활성화하면 현재 위치에 가까운 분대원들만 선택됩니다. 비활성화하면 현재 맵의 모든 분대원이 항상 선택됩니다.</settings_jumpingSelectsNearby_desc>
+  <setting_restoreDefault_label>설정 초기화</setting_restoreDefault_label>
+  <setting_restoreDefault_buttonlabel>초기화</setting_restoreDefault_buttonlabel>
+  <setting_restoreDefault_desc>모든 설정을 기본값으로 되돌립니다.</setting_restoreDefault_desc>
+</LanguageData>
