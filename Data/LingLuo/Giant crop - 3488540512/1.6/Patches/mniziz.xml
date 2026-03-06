@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ideology</li>
+    </mods>
+    <nomatch Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="LGC_Plant_Nutrifungus"]/label</xpath>
+          <value>
+            <label>蘑菇</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="LGC_Plant_Nutrifungus"]/description</xpath>
+          <value>
+            <description>真菌类食物，生长在阴暗潮湿的环境中，有多种可食用品种。</description>
+          </value>
+        </li>
+      </operations>
+    </nomatch>
+  </Operation>
+</Patch>

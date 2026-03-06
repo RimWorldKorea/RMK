@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Fishing Expanded - Fishing Treasures AddOn</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/TraitDef[defName="OEFishermanVCEF"]/degreeDatas/li[1]/label</xpath>
+          <value>
+            <label>심해 낚시꾼</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/TraitDef[defName="OEFishermanVCEF"]/degreeDatas/li[1]/description</xpath>
+          <value>
+            <description>{PAWN_nameDef}(은)는 신중하고 집중력 있게 낚시를 하며, 낚싯대를 던질 때마다 더 많은 수확을 거둡니다.</description>
+          </value>
+        </li>
+        
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/TraitDef[defName="OEFishermanVCEF"]/degreeDatas/li[2]/label</xpath>
+          <value>
+            <label>빠른 챔질</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/TraitDef[defName="OEFishermanVCEF"]/degreeDatas/li[2]/description</xpath>
+          <value>
+            <description>{PAWN_nameDef}(은)는 낚싯대를 자주, 빠르게 던지지만 일부 물고기를 놓치기도 합니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

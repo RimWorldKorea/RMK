@@ -93,7 +93,7 @@
   <SoS.RemoveWrecksCommandDesc>이 지도에서 해당 난파선을 제거합니다.</SoS.RemoveWrecksCommandDesc>
   <SoS.PlaceOnShipHull>소유 중인 선체에 설치해야 합니다.</SoS.PlaceOnShipHull>
   <SoS.EnginePlaceRotation>엔진이 전부 같은 방향을 향해야 합니다!</SoS.EnginePlaceRotation>
-  <SoS.TradeComms>통신 시도: </SoS.TradeComms>
+  <SoS.TradeComms>통신 시도: {0}</SoS.TradeComms>
   <SoS.TradeTradeWith>그들과 통신을 시도합니다.</SoS.TradeTradeWith>
   <SoS.TradeTradeDecline>{0}(이)가 우리의 악명때문에 거래를 거부하였습니다.</SoS.TradeTradeDecline>
   <SoS.PirateTradeDemand>화물을 넘기라고 요구합니다. (이것은 불법 행위입니다!)</SoS.PirateTradeDemand>
@@ -171,7 +171,7 @@
   <SoS.MoveFailFaction>대상 지역 옆에 다른 세력이 존재합니다. 이동을 중단합니다.</SoS.MoveFailFaction>
   <SoS.MoveFailCombat>주요 지도에서 현재 전투가 벌어지고 있습니다.</SoS.MoveFailCombat>
   <SoS.Land>함선 착륙</SoS.Land>
-  <SoS.LandDesc>이 배를 착륙시킵니다. </SoS.LandDesc>
+  <SoS.LandDesc>이 배를 착륙시킵니다.</SoS.LandDesc>
   <SoS.Rebuild>함선 청사진 자동 배치</SoS.Rebuild>
   <SoS.RebuildDesc>이 함선에서 파괴된 건물에 청사진을 배치합니다.</SoS.RebuildDesc>
   <SoS.QuestPillarA>KSS 호라이즌 공격</SoS.QuestPillarA>
@@ -209,14 +209,14 @@
   <SoS.CloakBroken>열 수용량이 최대치에 도달하여 은폐 장치가 작동을 멈췄습니다.</SoS.CloakBroken>
   <SoS.HeatCritical>위험! 열 수용량 높음!</SoS.HeatCritical>
   <SoS.HeatNotConnected>냉각 설비에 연결되어 있지 않습니다.</SoS.HeatNotConnected>
-  <SoS.HeatTurretEnergy>열 에너지:</SoS.HeatTurretEnergy>
+  <SoS.HeatTurretEnergy>열 에너지: {0} Wd</SoS.HeatTurretEnergy>
   <SoS.TurretNotInShipCombat>경고: 함선 전투 중이 아니기에 포탑을 사용할 수 없습니다.</SoS.TurretNotInShipCombat>
   <SoS.TurretInPointDefense>경고: 근접 방어 모드로 설정되어 있기에 적 선박을 대상으로 조준하지 않습니다.</SoS.TurretInPointDefense>
   <SoS.TurretExtractTorpedo>어뢰 꺼내기</SoS.TurretExtractTorpedo>
   <SoS.TurretExtractTorpedoDesc>다른 어뢰를 장전하기 위해 현재 장전된 어뢰 전부를 꺼냅니다.</SoS.TurretExtractTorpedoDesc>
   <SoS.TurretExtractOneTorpedo>어뢰 하나 꺼내기</SoS.TurretExtractOneTorpedo>
   <SoS.TurretExtractOneTorpedoDesc>다른 어뢰를 장전하기 위해 현재 장전된 어뢰 하나를 꺼냅니다.</SoS.TurretExtractOneTorpedoDesc>
-  <SoS.TurretExtract>꺼내기</SoS.TurretExtract>
+  <SoS.TurretExtract>꺼내기 {0}</SoS.TurretExtract>
   <SoS.TurretOptimalRange>최적 사거리에서만 발사</SoS.TurretOptimalRange>
   <SoS.TurretOptimalRangeDesc>이 무기의 최적 사거리에서만 사격을 허용합니다.</SoS.TurretOptimalRangeDesc>
   <SoS.TurretPointDefense>근접 방어 모드</SoS.TurretPointDefense>
@@ -369,7 +369,7 @@
   <SoSMustDesignateWreckage>난파된 우주선의 선체를 지정해야 합니다.</SoSMustDesignateWreckage>
   <SoS.UnDockWarning>경고: 연결 중인 함선을 이동하게 되면 모든 연결 튜브가 비활성화됩니다.</SoS.UnDockWarning>
   <SoS.ExpelSuperheatedAir>과열된 공기 배출</SoS.ExpelSuperheatedAir>
-  <SoS.ExpelSuperheatedAirDesc>이 통풍구를 사용하여 방에 과열된 공기를 배출합니다. 이 과정은 방에 있는 타일당 한 지점씩 우주선의 생명 유지 시스템을 균등하게 분할하여 손상시킵니다.\n\n방에 있는 EVA를 사용할 수 없는 정착민은 폭발적인 감압에 노출되게 됩니다!</SoS.ExpelSuperheatedAirDesc>
+  <SoS.ExpelSuperheatedAirDesc>이 통풍구를 사용하여 방에 과열된 공기를 배출합니다. 이 과정은 방에 있는 타일당 한 지점씩 우주선의 생명 유지 시스템을 균등하게 분할하여 손상시킵니다.\n\n방에 있는 EVA를 사용할 수 없는 정착민은 폭발적인 감압에 노출되게 됩니다!생명 유지 장치 손상 정도: {0}</SoS.ExpelSuperheatedAirDesc>
   <SoS.AirNotSuperheated>공기가 과열되지 않았습니다.</SoS.AirNotSuperheated>
   <SoS.NoLifeSupport>활동 중인 생명체 없음</SoS.NoLifeSupport>
   <SoS.BreakCloakAtHeat>열 용량이 초 은폐 해제</SoS.BreakCloakAtHeat>
