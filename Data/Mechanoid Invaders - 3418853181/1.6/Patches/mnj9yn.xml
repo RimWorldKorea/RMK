@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="IM_Aide"]/label</xpath>
+          <value>
+            <label>에이드 배양</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="IM_Aide"]/description</xpath>
+          <value>
+            <description>에이드 메카노이드를 배양합니다.</description>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="IM_Skirmisher"]/label</xpath>
+          <value>
+            <label>스커미셔 배양</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="IM_Skirmisher"]/description</xpath>
+          <value>
+            <description>스커미셔 메카노이드를 배양합니다.</description>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="IM_Ripper"]/label</xpath>
+          <value>
+            <label>리퍼 배양</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="IM_Ripper"]/description</xpath>
+          <value>
+            <description>리퍼 메카노이드를 배양합니다.</description>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="IM_Infiltrator"]/label</xpath>
+          <value>
+            <label>인필트레이터 배양</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="IM_Infiltrator"]/description</xpath>
+          <value>
+            <description>인필트레이터 메카노이드를 배양합니다.</description>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="IM_Constrictor"]/label</xpath>
+          <value>
+            <label>컨스트릭터 배양</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="IM_Constrictor"]/description</xpath>
+          <value>
+            <description>컨스트릭터 메카노이드를 배양합니다.</description>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="IM_Templar"]/label</xpath>
+          <value>
+            <label>템플러 배양</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="IM_Templar"]/description</xpath>
+          <value>
+            <description>템플러 메카노이드를 배양합니다.</description>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="IM_Berserker"]/label</xpath>
+          <value>
+            <label>버서커 배양</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="IM_Berserker"]/description</xpath>
+          <value>
+            <description>버서커 메카노이드를 배양합니다.</description>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="IM_Bombardier"]/label</xpath>
+          <value>
+            <label>봄바디어 배양</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="IM_Bombardier"]/description</xpath>
+          <value>
+            <description>봄바디어 메카노이드를 배양합니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
