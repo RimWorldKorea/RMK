@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <NAT_RustedChat.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 [subjectDisturbing]에 대해 [maybeDarkSpeechAdverb] [spoke].</li>
+
+    <li>spoke->이야기함</li>
+    <li>spoke->중얼거림</li>
+    <li>spoke->더듬거리며 말함</li>
+    <li>spoke->징징거림</li>
+    <li>spoke->투덜거림</li>
+    <li>spoke->웅얼거림</li>
+    <li>spoke(p=5)->[rambled]</li>
+
+    <li>subjectDisturbing(p=3)->[subjectRustAbstract]</li>
+    <li>subjectDisturbing(p=5)->[subjectRust]</li>
+    <li>subjectDisturbing(p=2)->[subjectDarkStudy]</li>
+    <li>subjectDisturbing(p=2)->[subjectInsane]</li>
+
+    <li>maybeDarkSpeechAdverb(p=3)-></li>
+    <li>maybeDarkSpeechAdverb->[darkSpeechAdverb]</li>
+  </NAT_RustedChat.logRulesInitiator.rulesStrings>
+</LanguageData>
