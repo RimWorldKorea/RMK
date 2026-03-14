@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SEX_MakeshiftHeavyHumanChargedTurret"]/label</xpath>
+          <value>
+            <label>급조 전하 터렛포</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SEX_MakeshiftHeavyHumanChargedTurret"]/description</xpath>
+          <value>
+            <description>터렛 거치대에 장착된 급조 전하 블래스터입니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SEX_MakeshiftHeavyHumanChargedTurret"]/verbs/*[.//*[contains(text(), 'Verb_ShootCE')]]/label</xpath>
+          <value>
+            <label>급조 전하 터렛포</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
