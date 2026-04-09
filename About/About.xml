@@ -8,8 +8,8 @@
 <description>림월드 모드의 한국어 번역을 위한 모드입니다.
 
 [배열 순서]
-- RMK를 가능한 아래에 두세요. 아래에 위치한 데이터가 우선적으로 적용됩니다.
-- 몇몇 모드에 대해 '보다 뒤에 불러와야 합니다' 규칙이 기본으로 설정되어 있습니다. 모드에서 자체적으로 설정할 수 있는 정렬 규칙에 '가능한 아래에 배치'같은 기능이 없기 때문에, 자동 정렬만 사용하는 경우에 대비한 예방적 조치입니다.
+- RMK를 가능한 아래에 두세요. 아래에 위치한 모드가 우선적으로 적용됩니다.
+- 몇몇 모드에 대해 '보다 뒤에 불러오기' 규칙이 기본으로 설정되어 있습니다. 자동 정렬만 사용하는 경우 가능한 아래에 배열되도록 유도하기 위함입니다.
 - 설정된 배열 규칙을 따르지 않아서 경고가 뜨더라도 기본적으로는 무해합니다.
 
 번역 추가, 수정 및 기타 문제 사항등에 관한 제보나 문의는
@@ -29,15 +29,17 @@
 
     <incompatibleWith>
 
-        <li>CleanWater.PKTE.koreantranslate</li><!-- PKTE -->
+        <!-- 다른 번역 모드와 함께 사용해도 문제 없지만, 배열 순서에 유의하세요 -->
+        <!-- <li>CleanWater.PKTE.koreantranslate</li> --><!-- PKTE -->
         <!-- <li>DesTiNy.RKTM.Mod</li> --><!-- [RKTM] Mod -->
-        <li>Milsu.Rimwaldo.Mod</li><!-- [Milsu]Mod Korean -->
-        <li>RKTP.Mod</li><!-- [RKTM]MOD-unconfirm -->
-        <li>GamGi.RimMod.KR</li><!-- RimMod KR -->
-        <li>Nubula.HanRim</li><!-- HanRim -->
-        <li>RIM.KR</li><!-- RimKr -->
-        <li>zilrty.mkt</li><!-- MOD KOREAN TRANSLATE -->
+        <!-- <li>Milsu.Rimwaldo.Mod</li> --><!-- [Milsu]Mod Korean -->
+        <!-- <li>RKTP.Mod</li> --><!-- [RKTM]MOD-unconfirm -->
+        <!-- <li>GamGi.RimMod.KR</li> --><!-- RimMod KR -->
+        <!-- <li>Nubula.HanRim</li> --><!-- HanRim -->
+        <!-- <li>RIM.KR</li> --><!-- RimKr -->
+        <!-- <li>zilrty.mkt</li> --><!-- MOD KOREAN TRANSLATE -->
 
+        <!-- 상위 호환 기능이 내장되어 있으므로 불필요합니다. -->
         <li>maxzicode.translatednames</li><!-- Translated names (1.1) -->
         <li>kamikadza13.all.names</li><!-- Translated names (1.4) -->
 
@@ -54,13 +56,9 @@
         <li>neronix17.toolbox</li><!-- Tabula Rasa -->
         <li>TradingControl.Common.Core</li><!-- Trading Control -->
 
-        <!-- 모드에 따라 바닐라 번역을 수정해야 하는 경우가 있으므로 바닐라 번역은 RMK보다 앞에 와야함 -->
+        <!-- 모드에 따라 바닐라 번역을 수정해야 하는 경우가 있으므로 바닐라 번역은 RMK보다 앞에 와야합니다 -->
         <li>Milsu.Rimwaldo.Vanilla</li><!-- [Rimwaldo] Korean CRIBAO -->
 
     </loadAfter>
-
-    <loadBefore>
-        <li>Krkr.RocketMan</li><!-- RocketMan - Performance Mod -->
-    </loadBefore>
 
 </ModMetaData>
