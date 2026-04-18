@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Anomaly</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="PLAMilira_Harrier_Tower_Outpost_WorldMap"]/root/nodes/li[15]/nodes/li[4]/nodes/li[1]/name</xpath>
+          <value>
+            <name>sitePartsTags</name>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/QuestScriptDef[defName="PLAMilira_Harrier_Tower_Outpost_WorldMap"]/root/nodes/li[15]/nodes/li[4]/nodes/li[2]/name</xpath>
+          <value>
+            <name>siteSpecific</name>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
