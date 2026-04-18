@@ -4,6 +4,8 @@
   <AWL_MultiVerbSelect.description>여러 발사 방식 중 하나를 선택합니다.</AWL_MultiVerbSelect.description>
   <AWL_AmmoGizmoDisp.label>탄약 정보 표시</AWL_AmmoGizmoDisp.label>
   <AWL_AmmoGizmoDisp.description>현재 탄약 상태를 화면에 표시합니다.</AWL_AmmoGizmoDisp.description>
+  <AWL_AbilityTurret.label>능력탑</AWL_AbilityTurret.label>
+  <AWL_AbilityTurret.description>활성화된 능력을 자동으로 시전합니다.</AWL_AbilityTurret.description>
 
   <SR_AdonisHigh.label>아도니스</SR_AdonisHigh.label>
   <SR_AdonisHigh.description>아도니스 나노머신이 신체를 수복하고 사망으로부터 보호하고 있습니다.</SR_AdonisHigh.description>
@@ -48,19 +50,29 @@
 
   <SR_TurretTargeted.label>조준됨</SR_TurretTargeted.label>
   <SR_TurretTargeted.description>포탑의 조준선에 포착되었습니다.</SR_TurretTargeted.description>
+  <SR_TurretTargeted.stages.0.label>I</SR_TurretTargeted.stages.0.label>
+  <SR_TurretTargeted.stages.1.label>II</SR_TurretTargeted.stages.1.label>
+  <SR_TurretTargeted.stages.2.label>III</SR_TurretTargeted.stages.2.label>
   <SR_MythStun_Mech.label>신화 먼지 교란 (메카)</SR_MythStun_Mech.label>
   <SR_MythStun_Mech.description>나노머신이 메카노이드의 회로를 교란하고 있습니다.</SR_MythStun_Mech.description>
-  <SR_MythStun_Mech.stages.1.label>논리 혼선</SR_MythStun_Mech.stages.1.label>
+  <SR_MythStun_Mech.stages.0.label>초기</SR_MythStun_Mech.stages.0.label>
+  <SR_MythStun_Mech.stages.1.label>회로 혼선</SR_MythStun_Mech.stages.1.label>
   <SR_MythStun_Mech.stages.2.label>기능 정지</SR_MythStun_Mech.stages.2.label>
   <SR_MythStun_Mankind.label>신화 먼지 영향 (인간)</SR_MythStun_Mankind.label>
   <SR_MythStun_Mankind.description>나노머신이 신체 기능을 저해하고 있습니다.</SR_MythStun_Mankind.description>
+  <SR_MythStun_Mankind.stages.0.label>초기</SR_MythStun_Mankind.stages.0.label>
   <SR_MythStun_Mankind.stages.1.label>구역질</SR_MythStun_Mankind.stages.1.label>
   <SR_MythStun_Mankind.stages.2.label>논리 붕괴</SR_MythStun_Mankind.stages.2.label>
 
   <SR_Painful.label>극심한 고통</SR_Painful.label>
   <SR_Painful.description>으아아아아아아아악!!!!!!</SR_Painful.description>
+  <SR_Painful.stages.0.label>초기</SR_Painful.stages.0.label>
+  <SR_Painful.stages.1.label>경미함</SR_Painful.stages.1.label>
+  <SR_Painful.stages.3.label>통증</SR_Painful.stages.3.label>
   <SR_PyrolyticDecomposition.label>열분해 현상</SR_PyrolyticDecomposition.label>
   <SR_PyrolyticDecomposition.description>특수한 열에너지 신호가 대기 중의 나노 기계들을 목표 표면으로 집결시킵니다. 이는 대상의 기동성에 심각한 영향을 주며 장갑을 크게 약화시킵니다.</SR_PyrolyticDecomposition.description>
+  <SR_PyrolyticDecomposition.stages.0.label>초기</SR_PyrolyticDecomposition.stages.0.label>
+  <SR_PyrolyticDecomposition.stages.1.label>경미함</SR_PyrolyticDecomposition.stages.1.label>
   <SR_PyrolyticDecomposition.stages.2.label>폭발</SR_PyrolyticDecomposition.stages.2.label>
   <SR_PyrolyticDecomposition.stages.3.label>붕괴</SR_PyrolyticDecomposition.stages.3.label>
   <SR_PyrolyticDecomposition.stages.4.label>멜트다운</SR_PyrolyticDecomposition.stages.4.label>
@@ -89,4 +101,31 @@
   <SR_TimeBurn.description>급격한 노화로 인해 발생한 신체 균열입니다.</SR_TimeBurn.description>
   <SR_TimeBurn.injuryProps.destroyedLabel>떨어져 나감</SR_TimeBurn.injuryProps.destroyedLabel>
   <SR_TimeBurn.injuryProps.destroyedOutLabel>탈락됨</SR_TimeBurn.injuryProps.destroyedOutLabel>
+
+  <SR_PsychicInjury.label>정신적 화상</SR_PsychicInjury.label>
+  <SR_PsychicInjury.labelNoun>정신적 화상</SR_PsychicInjury.labelNoun>
+  <SR_PsychicInjury.description>정신적 화상입니다.</SR_PsychicInjury.description>
+  <SR_PsychicInjury.injuryProps.destroyedLabel>정신적으로 소멸됨</SR_PsychicInjury.injuryProps.destroyedLabel>
+  <SR_PsychicInjury.comps.0.labelTendedWell>치료됨</SR_PsychicInjury.comps.0.labelTendedWell>
+  <SR_PsychicInjury.comps.0.labelTendedWellInner>치료됨</SR_PsychicInjury.comps.0.labelTendedWellInner>
+  <SR_PsychicInjury.comps.0.labelSolidTendedWell>치료됨</SR_PsychicInjury.comps.0.labelSolidTendedWell>
+  <SR_PsychicInjury.comps.1.permanentLabel>정신적 흉터</SR_PsychicInjury.comps.1.permanentLabel>
+
+  <SR_PsychicInjurySkin.label>정신적 화상</SR_PsychicInjurySkin.label>
+  <SR_PsychicInjurySkin.labelNoun>정신적 화상</SR_PsychicInjurySkin.labelNoun>
+  <SR_PsychicInjurySkin.description>정신적 화상입니다.</SR_PsychicInjurySkin.description>
+  <SR_PsychicInjurySkin.injuryProps.destroyedLabel>정신적으로 소멸됨</SR_PsychicInjurySkin.injuryProps.destroyedLabel>
+  <SR_PsychicInjurySkin.comps.0.labelTendedWell>붕대 감음</SR_PsychicInjurySkin.comps.0.labelTendedWell>
+  <SR_PsychicInjurySkin.comps.0.labelTendedWellInner>드레싱함</SR_PsychicInjurySkin.comps.0.labelTendedWellInner>
+  <SR_PsychicInjurySkin.comps.0.labelSolidTendedWell>치료됨</SR_PsychicInjurySkin.comps.0.labelSolidTendedWell>
+  <SR_PsychicInjurySkin.comps.2.permanentLabel>정신적 흉터</SR_PsychicInjurySkin.comps.2.permanentLabel>
+
+  <SR_PsychicInjurySolid.label>정신적 화상</SR_PsychicInjurySolid.label>
+  <SR_PsychicInjurySolid.labelNoun>정신적 화상</SR_PsychicInjurySolid.labelNoun>
+  <SR_PsychicInjurySolid.description>정신적 화상입니다.</SR_PsychicInjurySolid.description>
+  <SR_PsychicInjurySolid.injuryProps.destroyedLabel>정신적으로 소멸됨</SR_PsychicInjurySolid.injuryProps.destroyedLabel>
+  <SR_PsychicInjurySolid.comps.0.labelTendedWell>치료됨</SR_PsychicInjurySolid.comps.0.labelTendedWell>
+  <SR_PsychicInjurySolid.comps.0.labelTendedWellInner>치료됨</SR_PsychicInjurySolid.comps.0.labelTendedWellInner>
+  <SR_PsychicInjurySolid.comps.0.labelSolidTendedWell>치료됨</SR_PsychicInjurySolid.comps.0.labelSolidTendedWell>
+  <SR_PsychicInjurySolid.comps.1.permanentLabel>영구적인 정신적 흉터</SR_PsychicInjurySolid.comps.1.permanentLabel>
 </LanguageData>
