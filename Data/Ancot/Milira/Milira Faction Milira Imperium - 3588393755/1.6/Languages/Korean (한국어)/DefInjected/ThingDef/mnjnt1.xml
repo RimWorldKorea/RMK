@@ -2,9 +2,11 @@
 <LanguageData>
   <PLAMiliraSariel_Heal.label>영혼</PLAMiliraSariel_Heal.label>
   <PLAMiliraSariel_Alarak_Wave.label>소멸 파동</PLAMiliraSariel_Alarak_Wave.label>
+<MI_Building_PsyChicCrystal.label>장막 수정 재배기</MI_Building_PsyChicCrystal.label>
+  <MI_Building_PsyChicCrystal.description>태양 수정을 장막 수정으로 변환하는 데 사용하는 초정신 장치입니다.\n\n장치에 내장된 초정신 코어가 베일을 조용히 뚫고 장막에서 소량의 초정신 에너지를 흡수하여, 에너지 밀도가 극도로 높은 태양 수정에 주입합니다.</MI_Building_PsyChicCrystal.description>
 
-  <Milira_DarkMatterConstrainer.label>암흑 물질 구속기</Milira_DarkMatterConstrainer.label>
-  <Milira_DarkMatterConstrainer.description>밀리라 제국이 지상 식민지에 널리 배치하는 초소형 암흑 물질 구속기입니다.\n\n군함이나 궤도 거주구에 건설되는 거대한 구속기에 비해 생산량은 훨씬 적지만, 훨씬 소형화되어 있으며 작동에 필요한 전력도 매우 적습니다.</Milira_DarkMatterConstrainer.description>
+  <MI_Building_DarkMatterConstrainer.label>암흑 물질 구속기</MI_Building_DarkMatterConstrainer.label>
+  <MI_Building_DarkMatterConstrainer.description>밀리라 제국이 지상 정착지에 널리 배치하는 초소형 암흑 물질 구속기입니다.\n\n군함이나 궤도 거주구에 건설되는 거대한 암흑 물질 구속기에 비해 암흑 물질 생산량은 훨씬 적지만, 크기가 훨씬 작을 뿐만 아니라 작동에 필요한 전력도 매우 적습니다.\n\n해당 효과는 CPU 로직이 아닌 GPU 셰이더를 통해 주로 구현되므로, &lt;color=#7AD77D&gt;TPS에 눈에 띄는 영향을 주지 않습니다&lt;/color&gt;.</MI_Building_DarkMatterConstrainer.description>
 
   <Milira_SunLightFruitGrowBox.label>태양꽃 열매 재배기</Milira_SunLightFruitGrowBox.label>
   <Milira_SunLightFruitGrowBox.description>밀리라 제국 거주민들의 가정에서 흔히 볼 수 있는 재배기로, 밀리라 인들이 가장 좋아하는 태양꽃을 재배합니다.\n\n재배기 내부의 아름다운 태양꽃은 '발레리 안드레아'라는 이름의 흑발 밀리라가 개량한 품종입니다.\n\n이 온도 및 습도 조절 재배기는 정기적으로 태양꽃 열매를 수확하게 해줍니다.\n\n수확한 열매는 보통 밀리라의 요리에 사용됩니다. 뭐, 사실 요리는 가정용 밀리언들이 대신 해줍니다.</Milira_SunLightFruitGrowBox.description>
@@ -142,6 +144,9 @@
   <Milira_NeutroniumFabric.label>뉴트로늄 직물</Milira_NeutroniumFabric.label>
   <Milira_NeutroniumFabric.description>뉴트로늄과 같은 공정을 통해 제작된 특수 직물입니다. 중성자별의 밀도를 가진 실로 짜여져 믿을 수 없는 방어력을 제공합니다.</Milira_NeutroniumFabric.description>
 
+  <Milira_ShroudCrystal.label>장막 수정</Milira_ShroudCrystal.label>
+  <Milira_ShroudCrystal.description>방대한 양의 장막 에너지가 포화된 태양 수정입니다. 장막 내부의 풍경을 아주 잠깐이나마 엿볼 수 있게 해주는 것 같습니다.</Milira_ShroudCrystal.description>
+
   <Milira_Feather_gold.label>황금 밀리라 깃털</Milira_Feather_gold.label>
   <Milira_Feather_gold.description>미량의 초월공학 가루가 스며들어 매혹적인 황금빛 광택을 띠는 밀리라 깃털입니다.\n\n밀리라 제국이 다른 종족에게 보내는 우정의 증표이자 공을 세운 전사에게 수여하는 명예로운 훈장이기도 합니다.\n\n통신기를 통해 밀리라 제국과 접촉하여 이 토큰을 소모해 자원을 얻거나 정착민을 모집할 수 있습니다. 제국 기사 작위에 도달한 후 지원을 요청하여 획득할 수 있습니다.</Milira_Feather_gold.description>
 
@@ -259,23 +264,41 @@
   <Milira_Rakuyo.tools.0.label>베기</Milira_Rakuyo.tools.0.label>
   <Milira_Rakuyo.tools.1.label>찌르기</Milira_Rakuyo.tools.1.label>
 
-  <Milira_HAVOCRifle.label>대혼란의 라이플</Milira_HAVOCRifle.label>
+  <Milira_Hammer_Pirate.label>밀리라 천둥 망치</Milira_Hammer_Pirate.label>
+  <Milira_Hammer_Pirate.description>밀리라 해적들이 휘두르는 거대한 전쟁 망치입니다. 외곽 지역 밀리라의 고유 기술을 사용할 수 있습니다.\n\n밀리라만이 이 무기의 기술을 사용할 수 있습니다.</Milira_Hammer_Pirate.description>
+  <Milira_Hammer_Pirate.tools.0.label>망치</Milira_Hammer_Pirate.tools.0.label>
+
+  <Milira_Hammer_Pirate_Enhanced.label>아스트로리엘의 망치</Milira_Hammer_Pirate_Enhanced.label>
+  <Milira_Hammer_Pirate_Enhanced.description>밀리라 해적들이 휘두르는 강화된 거대 전쟁 망치입니다. 외곽 지역 밀리라의 고유 기술을 사용할 수 있습니다.\n\n밀리라만이 이 무기의 기술을 사용할 수 있습니다.\n\n이 무기로 적을 처치하면 사용자가 명상 집중력을 얻습니다.</Milira_Hammer_Pirate_Enhanced.description>
+  <Milira_Hammer_Pirate_Enhanced.tools.0.label>망치</Milira_Hammer_Pirate_Enhanced.tools.0.label>
+
+  <Milira_GreatSword_Pirate.label>밀리라 뇌명검</Milira_GreatSword_Pirate.label>
+  <Milira_GreatSword_Pirate.description>밀리라 해적들이 휘두르는 대검입니다. 외곽 지역 밀리라의 고유 기술을 사용할 수 있습니다.</Milira_GreatSword_Pirate.description>
+  <Milira_GreatSword_Pirate.tools.0.label>강타</Milira_GreatSword_Pirate.tools.0.label>
+  <Milira_GreatSword_Pirate.tools.1.label>가르기</Milira_GreatSword_Pirate.tools.1.label>
+
+  <Milira_GreatSword_Pirate_Enhanced.label>운도미엘의 대검</Milira_GreatSword_Pirate_Enhanced.label>
+  <Milira_GreatSword_Pirate_Enhanced.description>밀리라 해적들이 휘두르는 대검입니다. 외곽 지역 밀리라의 고유 기술을 사용할 수 있습니다.\n\n이 무기로 적을 처치하면 사용자가 명상 집중력을 얻습니다.</Milira_GreatSword_Pirate_Enhanced.description>
+  <Milira_GreatSword_Pirate_Enhanced.tools.0.label>강타</Milira_GreatSword_Pirate_Enhanced.tools.0.label>
+  <Milira_GreatSword_Pirate_Enhanced.tools.1.label>가르기</Milira_GreatSword_Pirate_Enhanced.tools.1.label>
+
+  <Milira_HAVOCRifle.label>하복 라이플</Milira_HAVOCRifle.label>
   <Milira_HAVOCRifle.description>암흑 물질 에너지 전지로 구동되는 에너지 소총입니다. 거대한 반동으로 인해 제어가 어렵지만, 그 흉포한 위력은 이러한 사소한 결점을 덮고도 남습니다.\n\n이 무기의 피해는 '받는 피해 계수'를 무시합니다.\n\n탄창 용량(완벽 기준): 32</Milira_HAVOCRifle.description>
   <Milira_HAVOCRifle.tools.0.label>개머리판</Milira_HAVOCRifle.tools.0.label>
   <Milira_HAVOCRifle.tools.1.label>총열</Milira_HAVOCRifle.tools.1.label>
 
-  <Milira_HAVOCRifle_II.label>대혼란의 라이플</Milira_HAVOCRifle_II.label>
+  <Milira_HAVOCRifle_II.label>하복 라이플</Milira_HAVOCRifle_II.label>
   <Milira_HAVOCRifle_II.description>암흑 물질 에너지 전지로 구동되는 에너지 소총입니다. 거대한 반동으로 인해 제어가 어렵지만, 그 흉포한 위력은 이러한 사소한 결점을 덮고도 남습니다.\n\n이 무기의 피해는 '받는 피해 계수'를 무시합니다.</Milira_HAVOCRifle_II.description>
   <Milira_HAVOCRifle_II.tools.0.label>개머리판</Milira_HAVOCRifle_II.tools.0.label>
   <Milira_HAVOCRifle_II.tools.1.label>총열</Milira_HAVOCRifle_II.tools.1.label>
   <MiliraBullet_HAVOCRifle.label>광선</MiliraBullet_HAVOCRifle.label>
 
-  <Milira_DevotionLMG.label>헌신의 경기관총</Milira_DevotionLMG.label>
+  <Milira_DevotionLMG.label>디보션</Milira_DevotionLMG.label>
   <Milira_DevotionLMG.description>암흑 물질 에너지 전지로 구동되는 에너지 경기관총입니다. 거대한 반동으로 인해 제어가 어렵지만, 그 흉포한 위력은 이러한 사소한 결점을 덮고도 남습니다.\n\n에너지가 고갈되면 사격할 수 없습니다.\n\n이 무기의 피해는 '받는 피해 계수'를 무시합니다.\n\n탄창 용량(완벽 기준): 100</Milira_DevotionLMG.description>
   <Milira_DevotionLMG.tools.0.label>개머리판</Milira_DevotionLMG.tools.0.label>
   <Milira_DevotionLMG.tools.1.label>총열</Milira_DevotionLMG.tools.1.label>
 
-  <Milira_DevotionLMG_II.label>헌신의 경기관총</Milira_DevotionLMG_II.label>
+  <Milira_DevotionLMG_II.label>디보션</Milira_DevotionLMG_II.label>
   <Milira_DevotionLMG_II.description>암흑 물질 에너지 전지로 구동되는 에너지 경기관총입니다. 거대한 반동으로 인해 제어가 어렵지만, 그 흉포한 위력은 이러한 사소한 결점을 덮고도 남습니다.\n\n에너지가 고갈되면 사격할 수 없습니다.\n\n이 무기의 피해는 '받는 피해 계수'를 무시합니다.</Milira_DevotionLMG_II.description>
   <Milira_DevotionLMG_II.tools.0.label>개머리판</Milira_DevotionLMG_II.tools.0.label>
   <Milira_DevotionLMG_II.tools.1.label>총열</Milira_DevotionLMG_II.tools.1.label>
@@ -293,24 +316,24 @@
   <MiliraBullet_Peacekeeper_Concentrated.label>피스키퍼 총알</MiliraBullet_Peacekeeper_Concentrated.label>
   <MiliraBullet_Peacekeeper_Concentrated_Charged.label>피스키퍼 총알</MiliraBullet_Peacekeeper_Concentrated_Charged.label>
 
-  <Milira_ChargeRifle.label>전하 소총</Milira_ChargeRifle.label>
+  <Milira_ChargeRifle.label>차지 라이플</Milira_ChargeRifle.label>
   <Milira_ChargeRifle.description>암흑 물질 에너지 전지로 구동되는 에너지 소총입니다.\n\n이 무기는 표기된 위력으로 10발을 연속 사격하며, 마지막 발은 표기된 위력의 10배에 달하는 피해를 입힙니다.\n\n이 무기의 피해는 '받는 피해 계수'를 무시합니다.</Milira_ChargeRifle.description>
   <Milira_ChargeRifle.tools.0.label>개머리판</Milira_ChargeRifle.tools.0.label>
   <Milira_ChargeRifle.tools.1.label>총열</Milira_ChargeRifle.tools.1.label>
 
-  <Milira_ChargeRifle_II.label>전하 소총</Milira_ChargeRifle_II.label>
+  <Milira_ChargeRifle_II.label>차지 라이플</Milira_ChargeRifle_II.label>
   <Milira_ChargeRifle_II.description>암흑 물질 에너지 전지로 구동되는 에너지 소총입니다.\n\n이 무기는 표기된 위력으로 10발을 연속 사격하며, 마지막 발은 표기된 위력의 10배에 달하는 피해를 입힙니다.\n\n이 무기의 피해는 '받는 피해 계수'를 무시합니다.</Milira_ChargeRifle_II.description>
   <Milira_ChargeRifle_II.tools.0.label>개머리판</Milira_ChargeRifle_II.tools.0.label>
   <Milira_ChargeRifle_II.tools.1.label>총열</Milira_ChargeRifle_II.tools.1.label>
   <MiliraBullet_ChargeRifle.label>광선</MiliraBullet_ChargeRifle.label>
   <MiliraBullet_ChargeRifleII.label>광선</MiliraBullet_ChargeRifleII.label>
 
-  <Milira_VoltSMG.label>볼트 기관단총</Milira_VoltSMG.label>
+  <Milira_VoltSMG.label>볼트 SMG</Milira_VoltSMG.label>
   <Milira_VoltSMG.description>암흑 물질 에너지 전지로 구동되는 에너지 기관단총입니다. 반동은 적지만 에너지 탄환의 위력은 약한 편입니다.\n\n이 무기의 성능은 밀리라 종족 무기에 견줄 만하지만 민간용 무기로 분류됩니다.\n\n이 무기의 피해는 '받는 피해 계수'를 무시합니다.\n\n탄창 용량(완벽 기준): 26</Milira_VoltSMG.description>
   <Milira_VoltSMG.tools.0.label>개머리판</Milira_VoltSMG.tools.0.label>
   <Milira_VoltSMG.tools.1.label>총열</Milira_VoltSMG.tools.1.label>
 
-  <Milira_VoltSMG_II.label>볼트 기관단총</Milira_VoltSMG_II.label>
+  <Milira_VoltSMG_II.label>볼트 SMG</Milira_VoltSMG_II.label>
   <Milira_VoltSMG_II.description>An energy SMG powered by a dark matter energy cell. The recoil is low but the energy bullet is weak. \n\nThis weapon's damage ignores the Incoming Damage Factor.</Milira_VoltSMG_II.description>
   <Milira_VoltSMG_II.tools.0.label>개머리판</Milira_VoltSMG_II.tools.0.label>
   <Milira_VoltSMG_II.tools.1.label>총열</Milira_VoltSMG_II.tools.1.label>
@@ -370,7 +393,7 @@
   <Milira_CiGaussAutorifle.tools.1.label>총열</Milira_CiGaussAutorifle.tools.1.label>
   <MiliraBullet_CiAutorifle.label>5.56x45mm 전자기 탄환</MiliraBullet_CiAutorifle.label>
 
-  <Milira_GaussRevolver.label>윙맨 리볼버</Milira_GaussRevolver.label>
+  <Milira_GaussRevolver.label>윙맨</Milira_GaussRevolver.label>
   <Milira_GaussRevolver.description>전자기 코일을 이용해 탄환을 가속하는 대구경 복고풍 리볼버입니다. 탄도 컴퓨터가 통합되어 있으며 내부의 암흑 물질 에너지 전지로부터 지속적으로 전력을 공급받습니다.\n\n마이크로 스마트 전투 컴퓨터가 내장되어 탄환의 명중을 보장하며, 사용자의 사격 기술에 따라 확률적으로 각 사격의 피해를 증폭시킵니다.\n\n탄창 용량(완벽 기준): 6</Milira_GaussRevolver.description>
   <Milira_GaussRevolver.tools.0.label>개머리판</Milira_GaussRevolver.tools.0.label>
   <Milira_GaussRevolver.tools.1.label>총열</Milira_GaussRevolver.tools.1.label>
@@ -413,6 +436,17 @@
   <Milira_Rifle_Katia_II.comps.4.gizmoDesc2>포격 모드로 전환합니다.</Milira_Rifle_Katia_II.comps.4.gizmoDesc2>
   <Milira_Rifle_Katia_II.tools.0.label>개머리판</Milira_Rifle_Katia_II.tools.0.label>
   <Milira_Rifle_Katia_II.tools.1.label>총열</Milira_Rifle_Katia_II.tools.1.label>
+
+  <PLAMiliraSariel_Gun.label>"아포칼립스" 지정사수소총</PLAMiliraSariel_Gun.label>
+  <PLAMiliraSariel_Gun.description>사리엘이 휴대하는 소총입니다. 극도로 강력한 열에너지가 주입된 특수 탄환을 사용합니다.\n\n외형은 육중해 보이지만, 내부 구조는 '선구자'라고 알려진 먼 성계의 기술로 제작되었습니다. 내부의 상당 부분이 비어 있는 설계 덕분에 보기보다 가볍습니다. 사리엘의 말에 따르면 본인의 취향에 맞춰 외형을 어느 정도 개조했기 때문에 원래 설계와는 차이가 있다고 합니다.\n\n그녀는 이 무기의 본래 기원이나 관련 정보에 대해 말하기를 꺼려합니다.</PLAMiliraSariel_Gun.description>
+  
+  <PLAMiliraSariel_Gun.comps.4.gizmoLabel1>반자동 모드</PLAMiliraSariel_Gun.comps.4.gizmoLabel1>
+  <PLAMiliraSariel_Gun.comps.4.gizmoDesc1>반자동 모드로 전환합니다.</PLAMiliraSariel_Gun.comps.4.gizmoDesc1>
+  <PLAMiliraSariel_Gun.comps.4.gizmoDesc2>저격 모드로 전환합니다.</PLAMiliraSariel_Gun.comps.4.gizmoDesc2>
+  
+  <PLAMiliraSariel_Gun.tools.0.label>총열</PLAMiliraSariel_Gun.tools.0.label>
+  <PLAMiliraSarielBullet.label>탄환</PLAMiliraSarielBullet.label>
+  <PLAMiliraSarielBullet_RailGun.label>레일건</PLAMiliraSarielBullet_RailGun.label>
 
   <Milira_PrinterGun.label>밀리라 프린터건</Milira_PrinterGun.label>
   <Milira_PrinterGun.description>밀리라 제국의 한 천재 밀리라가 발명한 조립 및 결합 보조용 프린팅 건입니다.\n\n장착 시 구조물 조립 속도가 크게 빨라지고 작업 속도가 약간 향상됩니다.\n\n위험이 닥치면 레이저를 발사하여 자위용 무기로도 사용할 수 있습니다.</Milira_PrinterGun.description>
@@ -591,6 +625,10 @@
   <MI_Building_FloodLight.description>햇빛 나무를 담고 있는 스탠드형 조명입니다. '발레리 안드레아'가 디자인했습니다.</MI_Building_FloodLight.description>
   <MI_Building_Chair.label>밀리라 의자</MI_Building_Chair.label>
   <MI_Building_Chair.description>편안한 1인용 의자입니다.</MI_Building_Chair.description>
+  <MI_Building_Wardrobe.label>밀리라 옷장</MI_Building_Wardrobe.label>
+  <MI_Building_Wardrobe.description>밀리라 양식의 옷장입니다.</MI_Building_Wardrobe.description>
+  <MI_Building_WardrobeII.label>밀리라 대형 옷장</MI_Building_WardrobeII.label>
+  <MI_Building_WardrobeII.description>밀리라 양식의 대형 옷장입니다.</MI_Building_WardrobeII.description>
   <MI_Building_Stove.label>태양광 조리대</MI_Building_Stove.label>
   <MI_Building_Stove.description>태양 수정을 동력으로 사용하는 자가 발전 조리대입니다. 기본 작업 속도가 135%로 아주 빠릅니다. '발레리 안드레아'가 디자인했습니다.</MI_Building_Stove.description>
 
