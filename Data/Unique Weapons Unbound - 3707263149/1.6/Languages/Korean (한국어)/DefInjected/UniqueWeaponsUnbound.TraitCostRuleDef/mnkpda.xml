@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <UWU_BaseCostFromTechLevel.label>기술 수준별 기본 비용</UWU_BaseCostFromTechLevel.label>
+  <UWU_BaseCostFromTechLevel.description>무기의 기술 수준에서 파생된 대체 기본 비용을 제공합니다. 제작 레시피가 없는 무기라도 개조 비용을 가질 수 있도록 보장합니다. 원시는 나무, 중세는 강철, 산업은 강철과 부품, 우주 이상은 플라스틸과 고급 부품을 사용합니다.</UWU_BaseCostFromTechLevel.description>
+  <UWU_BaseCostFromRecipe.label>레시피 기반 기본 비용</UWU_BaseCostFromRecipe.label>
+  <UWU_BaseCostFromRecipe.description>기술 수준 기반 비용 대신, 고정 재료와 선택 재료를 모두 포함한 무기의 실제 제작 레시피 비용을 사용합니다. 무기에 제작 가능한 기반 정의가 있는 경우에만 작동합니다.</UWU_BaseCostFromRecipe.description>
+  <UWU_QualityMultiplier.label>품질 배수</UWU_QualityMultiplier.label>
+  <UWU_QualityMultiplier.description>무기 품질에 따라 비용을 조절합니다. 품질이 높은 무기일수록 개조 비용이 더 많이 듭니다. 기본 비용의 50% 분율이 포함되어 있어, 품질 배율 적용 전 각 특성의 비용은 무기 전체 제작 비용의 절반으로 책정됩니다.</UWU_QualityMultiplier.description>
+  <UWU_NegativeDowngrade.label>부정적 특성 재료 하향</UWU_NegativeDowngrade.label>
+  <UWU_NegativeDowngrade.description>부정적인 특성에 대해서는 비용 재료의 기술 수준을 한 단계 낮춥니다. 고급 부품은 부품으로, 플라스틸은 강철로, 강철은 나무로 변경됩니다. 이는 부정적인 개조가 더 조잡하고 저렴한 기술을 사용함을 반영합니다.</UWU_NegativeDowngrade.description>
+  <UWU_ToxSwap.label>독성 부품 교체</UWU_ToxSwap.label>
+  <UWU_ToxSwap.description>부품을 생약으로 교체하며(부품 수의 3배), 유기적 독소 보충 필요성을 반영합니다. 부품이 없는 경우, 시장 가치에 따라 기본 재료의 70%를 생약으로 전환합니다.</UWU_ToxSwap.description>
+  <UWU_IncendiarySwap.label>소이 부품 교체</UWU_IncendiarySwap.label>
+  <UWU_IncendiarySwap.description>부품을 화학연료로 교체하며(부품 수의 10배), 휘발성 연료 필요성을 반영합니다. 부품이 없는 경우, 시장 가치에 따라 기본 재료의 70%를 화학연료로 전환합니다.</UWU_IncendiarySwap.description>
+  <UWU_EmpSplit.label>EMP 가치 분할</UWU_EmpSplit.label>
+  <UWU_EmpSplit.description>고급 부품을 제거한 뒤, 시장 가치에 따라 기본 재료 비용의 70%를 부품으로 전환합니다. 이는 EMP 개조에 필요한 전자 부품을 나타냅니다.</UWU_EmpSplit.description>
+  <UWU_Lightweight.label>경량화 교체</UWU_Lightweight.label>
+  <UWU_Lightweight.description>나무 비용의 40%를 새 가죽으로 교체합니다. 이는 화살 깃에 사용되는 깃털 등을 나타냅니다.</UWU_Lightweight.description>
+  <UWU_Flarestriker.label>화염방사 가치 분할</UWU_Flarestriker.label>
+  <UWU_Flarestriker.description>시장 가치에 따라 기본 재료 비용의 70%를 생체강으로 전환합니다. 이는 화염 방사기에 필요한 특수한 연료원을 반영합니다.</UWU_Flarestriker.description>
+  <UWU_HeavyScrap.label>고철 덩어리 고정 비용</UWU_HeavyScrap.label>
+  <UWU_HeavyScrap.description>모든 비용을 고철 덩어리 하나로 대체합니다. 고철 개조는 조잡하고 저렴하며, 그저 고철 몇 개를 덧대는 방식입니다.</UWU_HeavyScrap.description>
+  <UWU_ChargeCategoryGated.label>전하 무기 (카테고리 제한)</UWU_ChargeCategoryGated.label>
+  <UWU_ChargeCategoryGated.description>전하 계열 무기 특성에 대해 모든 비용을 시장 가치에 따라 고급 부품으로 전환합니다. 이는 전하 및 광학 개조에 필요한 우주세기 기술을 나타냅니다.</UWU_ChargeCategoryGated.description>
+  <UWU_ChargeUnconditional.label>전하 무기 (제한 없음)</UWU_ChargeUnconditional.label>
+  <UWU_ChargeUnconditional.description>무기 카테고리와 상관없이, 고급 우주세기 기술이 포함된 특성에 대해 모든 비용을 시장 가치에 따라 고급 부품으로 전환합니다.</UWU_ChargeUnconditional.description>
+  <UWU_Akimbo.label>아킴보 비용 배수</UWU_Akimbo.label>
+  <UWU_Akimbo.description>아킴보(쌍수) 적용 시 두 번째 무기가 렌더링되고 발사 속도가 두 배가 되는 점을 반영하여 모든 비용을 두 배로 늘립니다. 이는 기본 50% 비용 분율을 상쇄하여 총비용을 전체 제작 레시피 수준으로 맞춥니다.</UWU_Akimbo.description>
+  <UWU_Grip.label>그립 부품 제거</UWU_Grip.label>
+  <UWU_Grip.description>비용에서 산업 시대 및 고급 부품을 제거합니다. 그립 개조는 복잡한 부품이 필요하지 않은 단순한 기계적 조정입니다.</UWU_Grip.description>
+  <UWU_Comfort.label>편안함 재료 전환</UWU_Comfort.label>
+  <UWU_Comfort.description>모든 비용 재료의 절반을 개수 기준으로 트럼보 모피로 전환합니다. 이는 편안함 개조에 사용되는 고급 패딩과 외피를 반영합니다.</UWU_Comfort.description>
+  <UWU_Ornamental.label>장식용 전환</UWU_Ornamental.label>
+  <UWU_Ornamental.description>부품을 제거한 뒤, 남은 비용의 절반을 개수 기준으로 은으로 전환합니다. 장식 작업은 기술적인 공학이 아닌 장식적인 공예의 영역입니다.</UWU_Ornamental.description>
+  <UWU_Inlay.label>상감 부품 제거</UWU_Inlay.label>
+  <UWU_Inlay.description>비용에서 산업 시대 및 고급 부품을 제거합니다. 상감 기법은 순수하게 미적인 개조이며 복잡한 부품이 아닌 원재료만을 필요로 합니다.</UWU_Inlay.description>
+  <UWU_MaterialOverride.label>재료 우선 적용</UWU_MaterialOverride.label>
+  <UWU_MaterialOverride.description>특성 이름에서 재료 명칭을 감지하여(예: "금 상감"의 "금") 원자재 비용을 해당 재료로 교체합니다. 특정 테마 규칙이 없는 특성들에 대한 포괄적인 규칙으로 작동합니다.</UWU_MaterialOverride.description>
+  <UWU_CostPrune.label>비용 재료 가지치기</UWU_CostPrune.label>
+  <UWU_CostPrune.description>UI 표시 한계를 방지하기 위해 비용 재료의 종류를 최대 3가지로 제한합니다. 3가지가 넘을 경우 단위 가격이 가장 저렴한 재료부터 먼저 제거됩니다.</UWU_CostPrune.description>
+</LanguageData>
