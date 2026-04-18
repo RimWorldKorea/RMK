@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Namer_NoteBook.rulePack.rulesStrings>
+    <li>title-&gt;[titleBasic]</li>
+    <li>title(p=2)-&gt;[titleAuthored]</li>
+    <li>title(p=2)-&gt;[titleAuthoredNoSubject]</li>
+    <li>title(length_subject_primary[less_than]20,p=4)-&gt;[titleAuthoredOneSubject]</li>
+    <li>title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)-&gt;[titleBasicTwoSubjects]</li>
+    <li>title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)-&gt;[titleAuthoredTwoSubjects]</li>
+
+    <li>titleBasic(p=6)-&gt;[randAdjective] [subject_primary]</li>
+    <li>titleBasic(p=6)-&gt;[randNoun](와)과 [subject_primary]</li>
+    <li>titleBasic-&gt;[subject_primary]에 대한 교훈</li>
+    <li>titleBasic-&gt;[subject_primary]에 관한 생각</li>
+    <li>titleBasic-&gt;[subject_primary] 가이드</li>
+    <li>titleBasic-&gt;[subject_primary] 입문</li>
+    <li>titleBasic-&gt;[subject_primary] 입문서</li>
+    <li>titleBasic-&gt;[subject_primary]의 핵심</li>
+    <li>titleBasic-&gt;[subject_primary] 숙달하기</li>
+    <li>titleBasic-&gt;[subject_primary]의 기초</li>
+    <li>titleBasic-&gt;[subject_primary] 탐구</li>
+    <li>titleBasic-&gt;[subject_primary]의 핵심 개념</li>
+    <li>titleBasic-&gt;[subject_primary]의 기술</li>
+    <li>titleBasic-&gt;마스터클래스: [subject_primary]</li>
+    <li>titleBasic-&gt;[subject_primary] 해독</li>
+    <li>titleBasic-&gt;[subject_primary] 심화 기술</li>
+    <li>titleBasic-&gt;[subject_primary]의 비밀을 풀다</li>
+    <li>titleBasic-&gt;[subject_primary] 실용 지침서</li>
+    <li>titleBasic-&gt;[subject_primary] 탐험</li>
+    <li>titleBasic-&gt;전문가의 팁: [subject_primary]</li>
+    <li>titleBasic-&gt;[subject_primary] 이해하기</li>
+    <li>titleBasic-&gt;[subject_primary]를(을) 통한 여정</li>
+    <li>titleBasic-&gt;[subject_primary]의 길</li>
+    <li>titleBasic-&gt;[subject_primary]에 대한 통찰</li>
+    <li>titleBasic-&gt;[subject_primary]의 실타래를 풀며</li>
+    <li>titleBasic-&gt;[subject_primary]의 비결</li>
+    <li>titleBasic-&gt;[subject_primary] 정복하기</li>
+    <li>titleBasic-&gt;[subject_primary] 심층 연구</li>
+
+    <li>titleAuthoredNoSubject-&gt;[ANYPAWN_nameIndef]의 연구</li>
+    <li>titleAuthoredNoSubject-&gt;[ANYPAWN_nameIndef]의 [randAdjective] 연구</li>
+    <li>titleAuthoredNoSubject-&gt;[ANYPAWN_nameIndef]의 일기</li>
+    <li>titleAuthoredNoSubject-&gt;[ANYPAWN_nameIndef]의 연대기</li>
+    <li>titleAuthoredNoSubject-&gt;[ANYPAWN_nameIndef]의 회고록</li>
+    <li>titleAuthoredNoSubject-&gt;[ANYPAWN_nameIndef]의 일지</li>
+    <li>titleAuthoredNoSubject-&gt;[ANYPAWN_nameIndef]의 사색</li>
+    <li>titleAuthoredNoSubject-&gt;[ANYPAWN_nameIndef]의 모험</li>
+    <li>titleAuthoredNoSubject-&gt;[ANYPAWN_nameIndef]의 성찰</li>
+    <li>titleAuthoredNoSubject-&gt;[ANYPAWN_nameIndef]의 탐사</li>
+    <li>titleAuthoredNoSubject-&gt;[ANYPAWN_nameIndef]의 증언</li>
+    <li>titleAuthoredNoSubject-&gt;[ANYPAWN_nameIndef]의 오디세이</li>
+    <li>titleAuthoredNoSubject-&gt;[ANYPAWN_nameIndef]의 여정</li>
+    <li>titleAuthoredNoSubject-&gt;[ANYPAWN_nameIndef]의 생애</li>
+    <li>titleAuthoredNoSubject-&gt;[ANYPAWN_nameIndef]의 이야기</li>
+    <li>titleAuthoredNoSubject-&gt;[ANYPAWN_nameIndef]의 유산</li>
+    <li>titleAuthoredNoSubject-&gt;[ANYPAWN_nameIndef]의 모험담</li>
+    <li>titleAuthoredNoSubject-&gt;[ANYPAWN_nameIndef]의 일기장</li>
+    <li>titleAuthoredNoSubject-&gt;[ANYPAWN_nameIndef]의 방랑기</li>
+    <li>titleAuthoredNoSubject-&gt;[ANYPAWN_nameIndef]의 명상</li>
+    <li>titleAuthoredNoSubject-&gt;[ANYPAWN_nameIndef]의 기록물</li>
+
+    <li>titleAuthoredOneSubject-&gt;[ANYPAWN_nameIndef]가(이) 말하는 [subject_primary]</li>
+    <li>titleAuthoredOneSubject-&gt;[ANYPAWN_nameIndef]의 [subject_primary] 가이드</li>
+    <li>titleAuthoredOneSubject-&gt;[ANYPAWN_nameIndef]의 [subject_primary] 입문</li>
+    <li>titleAuthoredOneSubject-&gt;[ANYPAWN_nameIndef]의 [subject_primary] 탐구</li>
+    <li>titleAuthoredOneSubject-&gt;[ANYPAWN_nameIndef]의 [subject_primary] 통찰</li>
+    <li>titleAuthoredOneSubject-&gt;[ANYPAWN_nameIndef]의 [subject_primary] 지침서</li>
+    <li>titleAuthoredOneSubject-&gt;[ANYPAWN_nameIndef]의 [subject_primary] 관점</li>
+    <li>titleAuthoredOneSubject-&gt;[ANYPAWN_nameIndef]의 [subject_primary] 핸드북</li>
+    <li>titleAuthoredOneSubject-&gt;[ANYPAWN_nameIndef]의 [subject_primary] 분석</li>
+    <li>titleAuthoredOneSubject-&gt;[ANYPAWN_nameIndef]의 [subject_primary] 접근법</li>
+    <li>titleAuthoredOneSubject-&gt;[ANYPAWN_nameIndef]의 [subject_primary] 발견</li>
+    <li>titleAuthoredOneSubject-&gt;[ANYPAWN_nameIndef]의 [subject_primary] 사색</li>
+    <li>titleAuthoredOneSubject-&gt;[ANYPAWN_nameIndef]의 [subject_primary] 연구</li>
+    <li>titleAuthoredOneSubject-&gt;[ANYPAWN_nameIndef]의 [subject_primary] 조사 보고서</li>
+    <li>titleAuthoredOneSubject-&gt;[ANYPAWN_nameIndef]의 [subject_primary] 보고서</li>
+
+    <li>titleAuthoredTwoSubjects-&gt;[ANYPAWN_nameIndef]가(이) 말하는 [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects-&gt;[ANYPAWN_nameIndef]의 [subjectsTuple] 가이드</li>
+    <li>titleAuthoredTwoSubjects-&gt;[ANYPAWN_nameIndef]의 [subjectsTuple] 입문</li>
+    <li>titleAuthoredTwoSubjects-&gt;[ANYPAWN_nameIndef]의 [subjectsTuple] 탐구</li>
+    <li>titleAuthoredTwoSubjects-&gt;[ANYPAWN_nameIndef]의 [subjectsTuple] 통찰</li>
+    <li>titleAuthoredTwoSubjects-&gt;[ANYPAWN_nameIndef]의 [subjectsTuple] 지침서</li>
+    <li>titleAuthoredTwoSubjects-&gt;[ANYPAWN_nameIndef]의 [subjectsTuple] 관점</li>
+    <li>titleAuthoredTwoSubjects-&gt;[ANYPAWN_nameIndef]의 [subjectsTuple] 핸드북</li>
+    <li>titleAuthoredTwoSubjects-&gt;[ANYPAWN_nameIndef]의 [subjectsTuple] 분석</li>
+    <li>titleAuthoredTwoSubjects-&gt;[ANYPAWN_nameIndef]의 [subjectsTuple] 접근법</li>
+    <li>titleAuthoredTwoSubjects-&gt;[ANYPAWN_nameIndef]의 [subjectsTuple] 발견</li>
+    <li>titleAuthoredTwoSubjects-&gt;[ANYPAWN_nameIndef]의 [subjectsTuple] 사색</li>
+    <li>titleAuthoredTwoSubjects-&gt;[ANYPAWN_nameIndef]의 [subjectsTuple] 연구</li>
+    <li>titleAuthoredTwoSubjects-&gt;[ANYPAWN_nameIndef]의 [subjectsTuple] 조사 보고서</li>
+    <li>titleAuthoredTwoSubjects-&gt;[ANYPAWN_nameIndef]의 [subjectsTuple] 보고서</li>
+
+    <li>titleBasicTwoSubjects-&gt;[subjectsTuple]</li>
+    <li>titleBasicTwoSubjects-&gt;[subjectsTuple] 입문</li>
+    <li>titleBasicTwoSubjects-&gt;[subjectsTuple] 컬렉션</li>
+    <li>titleBasicTwoSubjects-&gt;[subjectsTuple]의 조화</li>
+    <li>titleBasicTwoSubjects-&gt;[subjectsTuple]에 대한 교훈</li>
+    <li>titleBasicTwoSubjects-&gt;[subjectsTuple]에 관한 생각</li>
+    <li>titleBasicTwoSubjects-&gt;[subjectsTuple] 가이드</li>
+    <li>titleBasicTwoSubjects-&gt;[subjectsTuple] 입문서</li>
+    <li>titleBasicTwoSubjects-&gt;[subjectsTuple]의 핵심</li>
+    <li>titleBasicTwoSubjects-&gt;[subjectsTuple] 숙달하기</li>
+    <li>titleBasicTwoSubjects-&gt;[subjectsTuple]의 기초</li>
+    <li>titleBasicTwoSubjects-&gt;[subjectsTuple] 탐구</li>
+    <li>titleBasicTwoSubjects-&gt;[subjectsTuple]의 핵심 개념</li>
+    <li>titleBasicTwoSubjects-&gt;[subjectsTuple]의 기술</li>
+    <li>titleBasicTwoSubjects-&gt;마스터클래스: [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects-&gt;[subjectsTuple] 해독</li>
+    <li>titleBasicTwoSubjects-&gt;[subjectsTuple] 심화 기술</li>
+    <li>titleBasicTwoSubjects-&gt;[subjectsTuple]의 비밀을 풀다</li>
+    <li>titleBasicTwoSubjects-&gt;[subjectsTuple] 실용 지침서</li>
+    <li>titleBasicTwoSubjects-&gt;[subjectsTuple] 탐험</li>
+    <li>titleBasicTwoSubjects-&gt;전문가의 팁: [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects-&gt;[subjectsTuple] 이해하기</li>
+    <li>titleBasicTwoSubjects-&gt;[subjectsTuple]를(을) 통한 여정</li>
+    <li>titleBasicTwoSubjects-&gt;[subjectsTuple]의 길</li>
+    <li>titleBasicTwoSubjects-&gt;[subjectsTuple]에 대한 통찰</li>
+    <li>titleBasicTwoSubjects-&gt;[subjectsTuple]의 실타래를 풀며</li>
+    <li>titleBasicTwoSubjects-&gt;[subjectsTuple]의 비결</li>
+    <li>titleBasicTwoSubjects-&gt;[subjectsTuple] 정복하기</li>
+    <li>titleBasicTwoSubjects-&gt;[subjectsTuple] 심층 연구</li>
+
+    <li>subjectsTuple(has_subject_secondary==true,p=6)-&gt;[subject_primary](와)과 [subject_secondary]</li>
+    <li>subjectsTuple-&gt;[subject_secondary], [subject_primary], 그리고 [randTheme]</li>
+    <li>subjectsTuple-&gt;[subject_primary](와)과 [randTheme]</li>
+
+    <li>randNoun-&gt;죽음</li>
+    <li>randNoun-&gt;생명</li>
+    <li>randNoun-&gt;사랑</li>
+    <li>randNoun-&gt;성장</li>
+    <li>randNoun-&gt;용기</li>
+    <li>randNoun-&gt;지혜</li>
+    <li>randNoun-&gt;건강</li>
+    <li>randNoun-&gt;폭탄사슴</li>
+    <li>randNoun-&gt;해적</li>
+
+    <li>randAdjective-&gt;기초적인</li>
+    <li>randAdjective-&gt;효율적인</li>
+    <li>randAdjective-&gt;사려 깊은</li>
+    <li>randAdjective-&gt;장엄한</li>
+    <li>randAdjective-&gt;엉성한</li>
+    <li>randAdjective-&gt;나쁜</li>
+    <li>randAdjective-&gt;좋은</li>
+    <li>randAdjective-&gt;번화계식</li>
+    <li>randAdjective-&gt;전원적인</li>
+    <li>randAdjective-&gt;중세식</li>
+    <li>randAdjective-&gt;영감을 주는</li>
+    <li>randAdjective-&gt;건강한</li>
+    <li>randAdjective-&gt;사악한</li>
+    <li>randAdjective-&gt;혼돈의</li>
+    <li>randAdjective-&gt;웃기는</li>
+
+    <li>randTheme-&gt;지식</li>
+    <li>randTheme-&gt;자기 계발</li>
+    <li>randTheme-&gt;이해</li>
+  </Namer_NoteBook.rulePack.rulesStrings>
+</LanguageData>
