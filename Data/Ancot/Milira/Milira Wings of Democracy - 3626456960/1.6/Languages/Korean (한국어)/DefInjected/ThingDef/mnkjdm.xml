@@ -171,11 +171,11 @@
   <Aurora_Interceptora.comps.4.gizmoDesc>오로라 요격 체계를 활성화하여, 자신 주변 15칸 이내의 투사체에 초고속 요격 광선을 발사합니다.</Aurora_Interceptora.comps.4.gizmoDesc>
   <Aurora_Interceptora.comps.4.gizmoDesc2>해리어 전투기 요격을 활성화합니다. 오로라의 작전 범위 내에서 해리어가 폭탄을 투하하려 하면, 배터리 36을 소모하여 초고속 요격 광선으로 투사체를 격추합니다.</Aurora_Interceptora.comps.4.gizmoDesc2>
 
-  <PLAMilira_Organ_Base.label>"찬송가 오르간" 전자기 저격포</PLAMilira_Organ_Base.label>
+  <PLAMilira_Organ_Base.label>"성가 오르간" 전자기 저격포</PLAMilira_Organ_Base.label>
   <PLAMilira_Organ_Base.description>군집 연산 강화 유닛이 통합된 개량형 전자기포 포탑입니다. 기본 피해량과 장갑 관통력은 약간 낮지만, 주변에 밀리라 포탑이 많을수록 성능이 향상됩니다.\n\n반경 5칸 이내의 밀리라 포탑 하나당 피해량이 15%(최대 75%), 관통력이 25%(최대 150%) 증가합니다.</PLAMilira_Organ_Base.description>
-  <PLAMilira_Organ_Turret.label>찬송가 오르간</PLAMilira_Organ_Turret.label>
+  <PLAMilira_Organ_Turret.label>성가 오르간</PLAMilira_Organ_Turret.label>
   <PLAMilira_Organ_Turret.description>군집 연산 강화 효과를 받는 전자기 저격포입니다.</PLAMilira_Organ_Turret.description>
-  <PLAMilira_Organ_Turret.verbs.Verb_Shoot_Organ_Turret.label>찬송가 오르간</PLAMilira_Organ_Turret.verbs.Verb_Shoot_Organ_Turret.label>
+  <PLAMilira_Organ_Turret.verbs.Verb_Shoot_Organ_Turret.label>성가 오르간</PLAMilira_Organ_Turret.verbs.Verb_Shoot_Organ_Turret.label>
   <PLAMilira_Organ_Bullet.label>레일건 포탄</PLAMilira_Organ_Bullet.label>
 
   <PLAMilira_Tesla_Base.label>테슬라 탑</PLAMilira_Tesla_Base.label>
@@ -271,8 +271,12 @@
   <PLAMilira_SolarCrystalReactor.description>복사 촉매기에 장착하여 태양 수정을 생산하는 데 사용됩니다.</PLAMilira_SolarCrystalReactor.description>
   
   <EnemyMiliraNPCSpawner_Sleipnir.label>밀리라 소환장치</EnemyMiliraNPCSpawner_Sleipnir.label>
+  <EnemyMiliraNPCSpawner_Sleipnir.comps.0.activatedMessageKey>EnemyMiliraNPCSpawner_Sleipnir</EnemyMiliraNPCSpawner_Sleipnir.comps.0.activatedMessageKey>
   <EnemyMiliraNPCSpawner_Herfjotur.label>밀리라 소환장치</EnemyMiliraNPCSpawner_Herfjotur.label>
+  <EnemyMiliraNPCSpawner_Herfjotur.comps.0.activatedMessageKey>EnemyMiliraNPCSpawner_Herfjotur</EnemyMiliraNPCSpawner_Herfjotur.comps.0.activatedMessageKey>
   <EnemyMiliraNPCSpawner_Hlathguth.label>밀리라 소환장치</EnemyMiliraNPCSpawner_Hlathguth.label>
+  <EnemyMiliraNPCSpawner_Hlathguth.comps.0.activatedMessageKey>EnemyMiliraNPCSpawner_Hlathguth</EnemyMiliraNPCSpawner_Hlathguth.comps.0.activatedMessageKey>
+
   
   <PLAMilira_RadarMark.label>표식</PLAMilira_RadarMark.label>
   <New_Solar_Bombardment.label>태양 폭격</New_Solar_Bombardment.label>
@@ -283,6 +287,9 @@
   <Milira_Orbital_120mm_HE_Barrage.label>밀리라 궤도 120mm 고폭탄 사격</Milira_Orbital_120mm_HE_Barrage.label>
   <Milira_Orbital_380mm_HE_Barrage.label>밀리라 궤도 380mm 고폭탄 사격</Milira_Orbital_380mm_HE_Barrage.label>
   <Milira_Orbital_Cluster_Barrage.label>밀리라 궤도 확산탄 사격</Milira_Orbital_Cluster_Barrage.label>
+  <MiliraBullet_1_Milira_Orbital_Cluster_Barrage.label>밀리라 공중폭발탄 발사기</MiliraBullet_1_Milira_Orbital_Cluster_Barrage.label>
+  <MiliraBullet_2_Milira_Orbital_Cluster_Barrage.label>밀리라 공중폭발탄 발사기</MiliraBullet_2_Milira_Orbital_Cluster_Barrage.label>
+  <MiliraBullet_3_Milira_Orbital_Cluster_Barrage.label>밀리라 공중폭발탄 발사기</MiliraBullet_3_Milira_Orbital_Cluster_Barrage.label>
   <Milira_Orbital_Gatling_Barrage.label>밀리라 궤도 개틀링 사격</Milira_Orbital_Gatling_Barrage.label>
   <Milira_Orbital_Airburst_Strike.label>밀리라 궤도 공중폭발탄 타격</Milira_Orbital_Airburst_Strike.label>
   <Milira_Orbital_Flare_Barrage.label>밀리라 궤도 조명탄 투하</Milira_Orbital_Flare_Barrage.label>
@@ -302,16 +309,28 @@
   <PLAMilira_ChurchBombardment.label>지원 포격</PLAMilira_ChurchBombardment.label>
   <PLAMilira_Naglfar_Left_Bombardment.label>나글파르 함저 포격 지원</PLAMilira_Naglfar_Left_Bombardment.label>
   <PLAMilira_Naglfar_Middle_Bombardment.label>나글파르 함선 포격 지원</PLAMilira_Naglfar_Middle_Bombardment.label>
-  
+    <SplitManagerDummy.label>분할 관리자</SplitManagerDummy.label>
+  <HediffLaserBeam.label>분할 관리자</HediffLaserBeam.label>
+  <PLAMilira_GameconditionSpawner_Church_Mortar.label>게임 상태 소환기</PLAMilira_GameconditionSpawner_Church_Mortar.label>
+  <PLAMilira_GameconditionSpawner_Milira_HarrierRaid.label>게임 상태 소환기</PLAMilira_GameconditionSpawner_Milira_HarrierRaid.label>
+  <PLAMilira_GameconditionSpawner_Milira_NaglfarSupport.label>게임 상태 소환기</PLAMilira_GameconditionSpawner_Milira_NaglfarSupport.label>
   <PLAMilira_Raid_Caller.label>밀리라 습격 호출기</PLAMilira_Raid_Caller.label>
   <PLAMilira_Raid_Caller_Naglfar.label>밀리라 습격 호출기</PLAMilira_Raid_Caller_Naglfar.label>
-  
+  <MusicPlayer_Connexion.label>음악 재생기</MusicPlayer_Connexion.label>
+  <MusicPlayer_Naglfar.label>음악 재생기</MusicPlayer_Naglfar.label>
   <PLAMilira_AirburstRocketLauncher.label>공중폭발 집중 이온 방출기</PLAMilira_AirburstRocketLauncher.label>
   <PLAMilira_AirburstRocketLauncher.description>하늘깃털 교회와의 결별 이후, 크레이돌의 지상 소탕 부대는 이 프로토타입 광역 화기를 한정 배치하기 시작했습니다. 발사된 불안정한 이온 클러스터는 폭발 시 여러 번 분열됩니다. 단일 대상에 대한 살상력은 매우 낮지만, 이론적인 공격 범위가 워낙 넓어 밀집해 있는 지상 거주자들을 상대하기에 이상적입니다. 일설에 의하면 발사기에 실험적인 공간 교란기가 장착되어 있다고 하나, 기술이 너무 복잡하여 조작이 매우 어렵습니다.\n\n왜 대량으로 보급되지 않았냐고요? 제작사들은 "우리 기사들에게 공중폭발탄을 한 번만 더 쏘는 놈이 있으면, 앞으로 밀리라 배양 포드 관리는 니들이 직접 하라"고 만장일치로 선언했습니다.\n\n충전이 가능합니다. 충전된 상태에서는 불안정한 이온 클러스터가 한 번 더 분열합니다.\n\n밀리라 혹은 하늘깃털 교회와 동맹을 맺으면 추가 업그레이드가 가능합니다.\n\n역장 간섭: 공간 교란기의 지능형 간섭 모드를 활성화합니다. 불안정한 이온 클러스터가 충돌 시 추가적인 척력장을 생성합니다. 분열된 이온 클러스터는 사용자의 지능 수준에 따라 일정 확률로 인력장을 생성합니다. 다만 교란기의 복잡성 때문에 밀리라들조차 그 잠재력의 극히 일부만을 끌어낼 수 있습니다.\n\n긴급 지능 회피: 교란기의 지능형 위상 제어 시스템을 활성화합니다. 이온 클러스터의 폭발 범위에 휘말릴 위기에 처한 아군 유닛을 긴급 워프시켜 탈출시킵니다. 제작사들의 목소리가 너무나도 찢어질 듯 날카로웠기 때문입니다.</PLAMilira_AirburstRocketLauncher.description>
   <PLAMilira_AirburstRocketLauncher.tools.0.label>개머리판</PLAMilira_AirburstRocketLauncher.tools.0.label>
   <PLAMilira_AirburstRocketLauncher.tools.1.label>총열</PLAMilira_AirburstRocketLauncher.tools.1.label>
   <PLAMilira_AirburstRocketLauncher.comps.0.verbProps.label>충전 모드</PLAMilira_AirburstRocketLauncher.comps.0.verbProps.label>
-
+  <MiliraBullet_AirburstRocketLauncher_Charged.label>밀리라 공중폭발탄 발사기 Charged</MiliraBullet_AirburstRocketLauncher_Charged.label>
+  <MiliraBullet_AirburstRocketLauncher.label>밀리라 공중폭발탄 발사기</MiliraBullet_AirburstRocketLauncher.label>
+  <MiliraBullet_Child1_AirburstRocketLauncher.label>밀리라 공중폭발탄 발사기</MiliraBullet_Child1_AirburstRocketLauncher.label>
+  <MiliraBullet_Child2_AirburstRocketLauncher.label>밀리라 공중폭발탄 발사기</MiliraBullet_Child2_AirburstRocketLauncher.label>
+  <MiliraBullet_Child3_AirburstRocketLauncher.label>밀리라 공중폭발탄 발사기</MiliraBullet_Child3_AirburstRocketLauncher.label>
+  <MiliraBullet_2_AirburstRocketLauncher.label>밀리라 공중폭발탄 발사기</MiliraBullet_2_AirburstRocketLauncher.label>
+  <MiliraBullet_3_AirburstRocketLauncher.label>밀리라 공중폭발탄 발사기</MiliraBullet_3_AirburstRocketLauncher.label>
+  <MiliraBullet_4_AirburstRocketLauncher.label>밀리라 공중폭발탄 발사기</MiliraBullet_4_AirburstRocketLauncher.label>
   <Milira_Rumbler_Splitting.label>플라즈마 럼블러포</Milira_Rumbler_Splitting.label>
   <Milira_Rumbler_Splitting.description>하늘깃털 교회와의 결별 이후, 크레이돌의 엔지니어들이 경량 소재를 사용하여 개발한 생물권 특화 휴대용 박격포입니다. 전용 집속 탄두는 비행 중 능동적으로 분열하여 목표 구역에 광범위한 포격을 가합니다.\n\n충전이 가능합니다. 충전 상태에서는 모든 에너지를 소모하여 집속 독가스탄을 일제 사격한 뒤, '광범위 포격 모드'에 진입합니다.\n\n광범위 포격 모드에서는 매 사격 시 목표 지점에 8발의 집속 박격포탄을 발사합니다. 정확도는 매우 낮지만 타격 범위가 상당히 넓습니다.\n\n\n밀리라 혹은 하늘깃털 교회와 동맹을 맺으면 추가 업그레이드가 가능합니다.\n\n"타오르는 천둥" 비인도적 박멸 탄두: 충전 모드에서 집속 화학 독가스탄을 발사하도록 전환하며, 충격 지점에 추가로 인화성 담즙을 뿌리고 불을 붙입니다.\n\n"폭우" 집속 탄두: 광범위 포격 모드의 타격 반경이 50% 증가하며, 집속 탄두 분열 시 자탄이 3개 추가됩니다.</Milira_Rumbler_Splitting.description>
   <Milira_Rumbler_Splitting.tools.0.label>개머리판</Milira_Rumbler_Splitting.tools.0.label>
