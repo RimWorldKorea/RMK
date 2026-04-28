@@ -1,0 +1,15 @@
+BuildRule:
+  Binding:
+    PackageID:
+    - brrainz.harmony # Harmony 실행 시 함께 실행
+    Mode: None
+    Dependency: Independent
+  Order:
+    After: 
+    Before: 
+  Version:
+    Default: 1.5
+    LeftBoundary: 
+    RightBoundary: 
+    Designate: 
+    Ban: 
