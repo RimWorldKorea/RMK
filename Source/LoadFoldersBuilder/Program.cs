@@ -1,5 +1,6 @@
 ﻿// Powered by Rimworld Mod Korean and follows its copyright policy.
 
+using System.Buffers;
 using System.Diagnostics;
 using System.Xml.Linq;
 using LoadFoldersBuilder;
@@ -11,7 +12,7 @@ using YamlDotNet.Serialization.NamingConventions;
 // dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -p:PublishTrimmed=true -p:IncludeNativeLibrariesForSelfExtract=true -p:DebugType=embedded -p:ExcludeAllSymbols=true -o "../../out"
 
 {
-    Console.WriteLine("Powered by Rimworld Mod Korean and follows its copyright policy.\n::LoadFoldersBuilder::\n");
+    Console.WriteLine("Powered by Rimworld Mod Korean\n::LoadFoldersBuilder::\n");
     
     if (Statics.IsPathValid is not true)
     {
@@ -82,7 +83,7 @@ using YamlDotNet.Serialization.NamingConventions;
     }
     
     StopProgram();
-    StartMigration:
+    StartMigration: // 구글 시트에서 LFB로 이주용
     
     Console.WriteLine("\nLoadFolders.Build.yaml 파일로 변환할 tsv 형식의 파일 경로를 입력하십시오.");
     var InputPath = Console.ReadLine();
@@ -112,6 +113,9 @@ using YamlDotNet.Serialization.NamingConventions;
         // [4] PacakgeID
         string[] Cut = Line.Split('\t', StringSplitOptions.None);
         string[] Versions = Cut[3].Split(',');
+        
+        //TODO 구글 시트용 버전 지정자 규칙 반영 필요함
+        // 그런데 그게 필요한 양이 그렇게 많지 않고 한 번만 돌리면 되니 수동으로 하자
 
         string LoadPathBase = Path.Combine("Data", Cut[0], Cut[1] + " - " + Cut[2]);
 
@@ -120,16 +124,25 @@ using YamlDotNet.Serialization.NamingConventions;
         {
             string FilePath = LoadPathBase;
             
-            if (Version != String.Empty) FilePath = Path.Combine(FilePath, Version);
-            FilePath = Path.Combine(FilePath, Statics.BuildYamlFileName);
-            
             var YamlBox = new BuildRuleYamlStructure();
             YamlBox.BuildRule.Binding.PackageID = new [] { Cut[4] };
             YamlBox.BuildRule.Binding.Dependency = RuleDependency.Independent;
-            YamlBox.BuildRule.Version.Default = Version;
+            if (Version != String.Empty)
+            {
+                YamlBox.BuildRule.Version.Default = Version;
+                FilePath = Path.Combine(FilePath, Version);
+            }
+            FilePath = Path.Combine(FilePath, Statics.BuildYamlFileName);
 
-            //Directory.Creat
-            File.WriteAllText(FilePath, YamlSerializer.Serialize(YamlBox));
+            try
+            {
+                if (Version.AsSpan().ContainsAny("()[]")) throw new Exception();
+                File.WriteAllText(FilePath, YamlSerializer.Serialize(YamlBox));
+            }
+            catch
+            {
+                Console.WriteLine("\n{0} 생성에 실패했습니다.", FilePath);
+            }
         }
     }
     
