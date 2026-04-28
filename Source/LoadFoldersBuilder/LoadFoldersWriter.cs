@@ -212,7 +212,7 @@ public class LoadRack
                 InDegree[VersionRule] = 0;
             }
             
-            // 모든 순서 규칙을 A -> B 형태로 치환하여 그래프 생성
+            // 모든 순서 규칙을 A >> B 형태로 치환하여 그래프 생성
             for (int i = 0; i < VersionRules.Count; i++)
             {
                 for (int j = 0; j < VersionRules.Count; j++)
@@ -222,12 +222,16 @@ public class LoadRack
                     var A = VersionRules[i];
                     var B = VersionRules[j];
 
-                    // 모든 순서를 B After A로 치환
+                    // 모든 After, Before를 A >> B 순서로 치환
                     if ((B.LoadAfter is not null && A.PackageIDs.Overlaps(B.LoadAfter)) ||
                         (A.LoadBefore is not null && B.PackageIDs.Overlaps(A.LoadBefore)))
                     {
-                        Graph[A].Add(B);
-                        InDegree[B]++;
+                        // 여기서 중요!
+                        // LoadFolders.xml 내에서 '위'에 있는 폴더가 나중에, 즉 load after하므로
+                        // A >> B 순서를 맞추려면 실제론 B가 먼저 작성돼야함.
+                        // 참고 : https://github.com/RimWorldKorea/RMK/issues/458
+                        Graph[B].Add(A);
+                        InDegree[A]++;
                     }
                 }
             }
