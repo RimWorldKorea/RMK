@@ -36,13 +36,14 @@ using YamlDotNet.Serialization.NamingConventions;
     }
     
     StartBuild: // 하지마루요
+    Console.WriteLine("\n\e[32m빌드 시작\x1b[0m");
     Stopwatch Timer = Stopwatch.StartNew();
     
     // 파일 및 폴더 구조 단위에서 유효성을 검사합니다.
     string[] ValidPath = Statics.FindAndValidatePaths(Statics.TargetPath!);
     if (ValidPath.Length is 0)
     {
-        Console.WriteLine("\n\e[93m유효한 경로에 위치한 LoadFolders.Build.yaml 파일을 하나도 찾을 수 없습니다.\x1b[0m");
+        Console.WriteLine("\e[93m유효한 경로에 위치한 LoadFolders.Build.yaml 파일을 하나도 찾을 수 없습니다.\x1b[0m");
         StopProgram();
     }
     
@@ -54,31 +55,32 @@ using YamlDotNet.Serialization.NamingConventions;
     List<BuildRule> BuildQueue = new List<BuildRule>(ValidPath.Length);
     for (int i = 0; i < ValidPath.Length; i++)
     {
-        if (Statics.BuildYamlDeserialize(ref Deserializer, ValidPath[i]) is {} FriedFish)
+        if (Statics.BuildYamlDeserialize(Deserializer, ValidPath[i]) is {} FriedFish)
             BuildQueue.Add(FriedFish);
     }
 
     // BuildRules의 의존 경로 설정을 완성합니다.
     BuildRules FilteredRules = new BuildRules(BuildQueue);
     FilteredRules.CreateDependencyGraph(Statics.TargetPath!);
-    Console.WriteLine("\n규칙 의존성 초기화 완료.");
+    Console.WriteLine("의존성 그래프 생성 완료.");
     
     // 로드 구문을 작성하기 위한 최종 형태를 완성합니다.
     LoadRack MainRack = new LoadRack(Statics.BuildVersions!);
     MainRack.Initialize(FilteredRules);
+    Console.WriteLine("데이터 전처리 완료");
 
     if (MainRack.GenerateXDocument() is { } CompleteXML)
     {
-        string SavePath = Path.Combine(Statics.RootPath!, "loadFolders.xml");
+        string SavePath = Path.Combine(Statics.RootPath!, "LoadFolders.xml");
         CompleteXML.Save(SavePath, SaveOptions.None);
-        Console.WriteLine("\nloadFolders.xml 파일의 갱신이 완료되었습니다.");
-        
         Timer.Stop();
-        Console.WriteLine("\n총 작업시간 {0}초", Timer.Elapsed.TotalSeconds);
+        
+        Console.WriteLine("\e[32mLoadFolders.xml 파일 갱신 완료\x1b[0m");
+        Console.WriteLine("총 작업시간 {0:F2}초", Timer.Elapsed.TotalSeconds);
     }
     else
     {
-        Console.WriteLine("\n\e[93mXML 구조를 형성하는 중 문제가 발생했습니다.\x1b[0m");
+        Console.WriteLine("\e[93mXML 구조를 형성하는 중 문제가 발생했습니다.\x1b[0m");
         StopProgram();
     }
     

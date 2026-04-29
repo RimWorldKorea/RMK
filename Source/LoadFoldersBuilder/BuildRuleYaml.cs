@@ -1,4 +1,6 @@
-﻿namespace LoadFoldersBuilder;
+﻿// Powered by Rimworld Mod Korean and follows its copyright policy.
+
+namespace LoadFoldersBuilder;
 
 /** 이 구조체들은 필드의 유효성을 보장하지 않습니다.
  *  단순히 Yaml 역직렬화 데이터를 잠시 받아두는 용도

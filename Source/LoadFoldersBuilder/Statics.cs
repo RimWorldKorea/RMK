@@ -140,7 +140,7 @@ static class Statics
     }
 
     /** 미리 정의된 IDeserializer를 넘겨받아 BuildYamlLocation에 위치한 Build 파일을 역직렬화합니다. */
-    public static BuildRule? BuildYamlDeserialize(ref IDeserializer Deserializer, string BuildYamlLocation)
+    public static BuildRule? BuildYamlDeserialize(IDeserializer Deserializer, string BuildYamlLocation)
     {
         string LoadPath = Path.Combine(BuildYamlLocation, BuildYamlFileName);
         string YamlText = File.ReadAllText(LoadPath);
@@ -152,8 +152,13 @@ static class Statics
         }
         catch (Exception e)
         {
-            Console.WriteLine(e.InnerException?.Message);
-            Console.WriteLine("\n\e[91m{0}은 유효하지 않습니다.\x1b[0m", LoadPath);
+            string ErrorInfoMessage = String.Empty;
+            if (e.InnerException is InvalidCastException)
+                ErrorInfoMessage = " Yaml 파일에서 단일 요소 속성에 배열을 입력하거나, 다중 요소 속성에 단일 요소를 입력했을 수 있습니다.";
+            
+            ErrorInfoMessage += " => " + (e.InnerException?.Message ?? String.Empty);
+
+            Console.WriteLine("\n\e[91m{0}은 유효하지 않습니다.{1}\x1b[0m", LoadPath, ErrorInfoMessage);
             return null;
         }
         

@@ -1,4 +1,6 @@
-﻿using System.Xml.Linq;
+﻿// Powered by Rimworld Mod Korean and follows its copyright policy.
+
+using System.Xml.Linq;
 
 namespace LoadFoldersBuilder;
 

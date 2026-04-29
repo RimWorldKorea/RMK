@@ -1,4 +1,4 @@
-﻿using System.Runtime.CompilerServices;
+﻿// Powered by Rimworld Mod Korean and follows its copyright policy.
 
 namespace LoadFoldersBuilder;
 
@@ -117,12 +117,13 @@ public class BuildRule
             return;
         }*/
 
+        /* 허용 => 특정 버전에 종속되지 않는 '기본' 로드 폴더를 설정하고 싶을 수 있기 때문 - 이 경우 로드 우선권이 없게 된다.
         if (Default is null && Designate is null)
         {
             Console.WriteLine("\n\e[91m{0}의 Default 버전과 Designate 버전이 모두 존재하지 않습니다.\x1b[0m", LoadPath);
             IsValid = false;
             return;
-        }
+        }*/
 
         if (Designate is not null && Ban is not null && Designate.Intersect(Ban).Any())
         {
