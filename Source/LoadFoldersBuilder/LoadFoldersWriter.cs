@@ -138,28 +138,63 @@ public class LoadRack
                         else
                         {
                             VersionRule.OverrideAndLock(Rule);
+                            VersionRule.ScribeModifierVersion(Version);
                         }
                         continue;
+                    }
+
+                    // True인 경우 수정 후 수정 주체가 되는 규칙의 Default 버전을 기록.
+                    bool bNeedToScribeModifier = false;
+                    // 현재 BuildRule에 Default 버전이 지정되어있고,
+                    if (Rule.Default is not null)
+                    {
+                        // 현재 확인중인 버전에 다른 Default 버전의 수정 흔적이 없거나,
+                        // 수정 흔적이 있는 경우, 이전 수정자의 버전이 현재 규칙의 Default 버전보다 뒤에 있는 경우에만
+                        if (VersionRule.ModifiedBy is null ||
+                            (VersionRule.ModifiedBy is not null && Rule.Default < VersionRule.ModifiedBy))
+                            bNeedToScribeModifier = true;
+                        else // 이미 대항력 가진 임차인이 거주 중
+                            continue;
                     }
                     
                     // 이 버전이 Boundary 조건을 만족할 경우
                     switch (Rule.BoundaryCondition)
                     {
                         case BoundaryConditions.None:// 경계 조건이 없으면 가능한 채웁니다.
+                        {
                             VersionRule.Override(Rule);
+                            if (bNeedToScribeModifier) VersionRule.ScribeModifierVersion(Rule.Default!);
                             break;
+                        }
                         case BoundaryConditions.LeftBounded:
+                        {
                             if (Version >= Rule.LeftBoundary)
+                            {
                                 VersionRule.Override(Rule);
+                                if (bNeedToScribeModifier) VersionRule.ScribeModifierVersion(Rule.Default!);
+                            }
                             break;
+                        }
+
                         case BoundaryConditions.RightBounded:
+                        {
                             if (Version <= Rule.RightBoundary)
+                            {
                                 VersionRule.Override(Rule);
+                                if (bNeedToScribeModifier) VersionRule.ScribeModifierVersion(Rule.Default!);
+                            }
                             break;
+                        }
+
                         case BoundaryConditions.BothBounded:
+                        {
                             if (Version < Rule.LeftBoundary || Version > Rule.RightBoundary)
+                            {
                                 VersionRule.Override(Rule);
+                                if (bNeedToScribeModifier) VersionRule.ScribeModifierVersion(Rule.Default!);
+                            }
                             break;
+                        }
                     }
                 }
             }
@@ -331,6 +366,7 @@ public class InferredModTarget : IEquatable<InferredModTarget>
 
 /** 잠글 때 까지만 값을 수정할 수 있는 string 컨테이너입니다.
  *  한 번 잠그면 풀 수 없습니다.
+ *  그런데 만들다 보니깐 딱히 이런걸 만들어 둘 필요가 없게 됐습니다! - 요구 스펙이 많아졌습니다. 하지만 잘 돌아가니 냅둡시다.
  */
 public class LockableString
 {
@@ -389,12 +425,11 @@ public class SingleVersionRule : LockableString
     public string[]? LoadAfter;
     public string[]? LoadBefore;
 
-    //TODO 이거 동작 구현하가
     /** 이 규칙이 Default 버전에 의해 설정되었는지 여부를 기록합니다.
      *  null이 아닌 경우 해당 버전의 Default 설정에 의해 로드 정보가 설정된 것입니다.
      *  null인 경우 다른 규칙에 의해 로드 정보가 설정된 것입니다.
      */
-    public Version? OverridedBy = null;
+    public Version? ModifiedBy { get; private set; } = null;
 
     public SingleVersionRule(InferredModTarget ModTarget)
     {
@@ -402,18 +437,32 @@ public class SingleVersionRule : LockableString
         this.Mode = ModTarget.Mode;
     }
     
-    public void Override(BuildRule Rule)
+    public bool Override(BuildRule Rule)
     {
+        if (IsLocked(out _)) return false;
+            
         LoadPath = Rule.LoadPath;
         
         LoadAfter = Rule.After;
         LoadBefore = Rule.Before;
+
+        return true;
     }
     
-    public void OverrideAndLock(BuildRule Rule)
+    public bool OverrideAndLock(BuildRule Rule)
     {
-        Override(Rule);
+        if (!Override(Rule)) return false;
+        
         LockThis(Rule);
+        return true;
+    }
+    
+    public bool ScribeModifierVersion(Version ModifierVersion)
+    {
+        if (IsLocked(out _)) return false;
+        
+        ModifiedBy = ModifierVersion;
+        return true;
     }
     
     /** SingleVersionRule을 LoadFolders XML 형식에 사용되는 형태로 변환합니다. */
