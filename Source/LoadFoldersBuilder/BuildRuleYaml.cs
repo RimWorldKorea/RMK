@@ -10,6 +10,7 @@ namespace LoadFoldersBuilder;
 public struct BuildRuleYamlStructure
 {
     public YamlNode_BuildRule BuildRule;
+    public YamlNode_Metadata Metadata;
 }
 
 public struct YamlNode_BuildRule
@@ -39,4 +40,10 @@ public struct YamlNode_Version
     public string RightBoundary;
     public string[] Designate;
     public string[] Ban;
+}
+
+public struct YamlNode_Metadata
+{
+    public string WorkshopID;
+    public string ModName;
 }

@@ -120,13 +120,16 @@ using YamlDotNet.Serialization.NamingConventions;
         // 그런데 그게 필요한 양이 그렇게 많지 않고 한 번만 돌리면 되니 수동으로 하자
 
         string LoadPathBase = Path.Combine("Data", Cut[0], Cut[1] + " - " + Cut[2]);
-
-        // if (Versions.Length == 1 && Versions.First() == String.Empty)
+        
         foreach (var Version in Versions)
         {
             string FilePath = LoadPathBase;
             
             var YamlBox = new BuildRuleYamlStructure();
+            
+            YamlBox.Metadata.WorkshopID = Cut[2];
+            YamlBox.Metadata.ModName = Cut[1];
+            
             YamlBox.BuildRule.Binding.PackageID = new [] { Cut[4] };
             YamlBox.BuildRule.Binding.Dependency = RuleDependency.Independent;
             if (Version != String.Empty)

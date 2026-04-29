@@ -31,6 +31,9 @@ public class BuildRule
     public readonly Version[]? Designate;
     public readonly Version[]? Ban;
 
+    public readonly string? WorkshopID = null;
+    public readonly string? ModName = null;
+
     // null인 경우 미확인, false인 경우 유효하지 않음, true인 경우 유효 -> 사용 가능
     public bool? IsValid = null;
 
@@ -70,6 +73,9 @@ public class BuildRule
         if (Yaml.BuildRule.Version.Ban is { } BanTemp)
             if (BanTemp.Length > 0)
                 Ban = Array.ConvertAll(BanTemp, Version.Parse);
+
+        WorkshopID = Yaml.Metadata.WorkshopID;
+        ModName = Yaml.Metadata.ModName;
         
         CheckValidity();
     }
@@ -216,6 +222,39 @@ public class BuildRules
 
         // 무효한 룰을 제거합니다.
         foreach (var Key in PendingDelete) Rules.Remove(Key);
+    }
+
+    /** 이 BuildRules의 현재 BuildRule에 기록된 메타데이터로 모드 목록을 작성합니다.
+     *  공시용 데이터를 출력하기 위해 사용합니다.
+     */
+    public string ExportModList()
+    {
+        var ExportList = new OrderedDictionary<int, string>();
+        
+        foreach (var Pair in Rules)
+        {
+            if (Pair.Value.ModName is not { } ModName) continue;
+
+            int hash = 0;
+            var RelativeLocation = Pair.Key.Substring(Statics.RootPath!.Length).Replace("\\","/");
+            //TODO RelativeLocation 최종 경로가 1.3, 1.4같은 버전명인 경우 떼주기
+
+            //string 
+            if (Pair.Value.WorkshopID is { } WorkshopID)
+            {
+                hash = ModName.GetHashCode() ^ WorkshopID.GetHashCode();
+            }
+            else
+            {
+                WorkshopID = "";
+                //hash = //Todo 해시 어떻게 넣지?
+            }
+
+            string TextLine = $"{WorkshopID}\t{ModName}\t{RelativeLocation}\t{Pair.Value.PackageID.First()}";
+            ExportList.TryAdd(hash, TextLine);
+        }
+        
+        return ExportList.ToString() ?? String.Empty;
     }
 }
 
