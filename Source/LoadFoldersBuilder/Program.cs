@@ -38,9 +38,10 @@ using YamlDotNet.Serialization.NamingConventions;
     
     StartBuild: // 하지마루요
     Console.WriteLine("\n\e[32m빌드 시작\x1b[0m");
-    Stopwatch Timer = Stopwatch.StartNew();
+    TimeSpan TotalRunTime = TimeSpan.Zero;
     
     // 파일 및 폴더 구조 단위에서 유효성을 검사합니다.
+    Stopwatch Stopwatch = Stopwatch.StartNew();
     string[] ValidPath = Statics.FindAndValidatePaths(Statics.TargetPath!);
     if (ValidPath.Length is 0)
     {
@@ -48,7 +49,11 @@ using YamlDotNet.Serialization.NamingConventions;
         StopProgram();
     }
     
+    Stopwatch.Stop(); TotalRunTime += Stopwatch.Elapsed;
+    Console.WriteLine("\e[32m폴더 구조 및 필수 파일 확인 완료...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
+    
     // LoadFolders.Build.yaml을 불러들여 BuildRule 타입으로 변환합니다.
+    Stopwatch.Restart();
     IDeserializer Deserializer = new DeserializerBuilder()
         .WithNamingConvention(NullNamingConvention.Instance)
         .IgnoreUnmatchedProperties()
@@ -59,25 +64,44 @@ using YamlDotNet.Serialization.NamingConventions;
         if (Statics.BuildYamlDeserialize(Deserializer, ValidPath[i]) is {} FriedFish)
             BuildQueue.Add(FriedFish);
     }
-
+    
+    Stopwatch.Stop(); TotalRunTime += Stopwatch.Elapsed;
+    Console.WriteLine("\e[32mLoadFolders.Build.yaml 읽기 완료...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
+    
     // BuildRules의 의존 경로 설정을 완성합니다.
+    Stopwatch.Restart();
     BuildRules FilteredRules = new BuildRules(BuildQueue);
     FilteredRules.CreateDependencyGraph(Statics.TargetPath!);
-    Console.WriteLine("의존성 그래프 생성 완료.");
+    
+    Stopwatch.Stop(); TotalRunTime += Stopwatch.Elapsed;
+    Console.WriteLine("\e[32m로드 의존성 그래프 생성 완료...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
     
     // 로드 구문을 작성하기 위한 최종 형태를 완성합니다.
+    Stopwatch.Restart();
     LoadRack MainRack = new LoadRack(Statics.BuildVersions!);
     MainRack.Initialize(FilteredRules);
-    Console.WriteLine("데이터 전처리 완료");
+
+    Stopwatch.Stop(); TotalRunTime += Stopwatch.Elapsed;
+    Console.WriteLine("\e[32m데이터 전처리 완료...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
 
     if (MainRack.GenerateXDocument() is { } CompleteXML)
     {
+        // LoadFolders.xml 파일을 작성합니다.
+        Stopwatch.Restart();
         CompleteXML.Save(Path.Combine(Statics.RootPath!, "LoadFolders.xml"), SaveOptions.None);
-        File.WriteAllText(Path.Combine(Statics.RootPath!, "ModList.tsv"), FilteredRules.ExportModList());
-        Timer.Stop();
         
-        Console.WriteLine("\e[32mLoadFolders.xml 파일 갱신 완료\x1b[0m");
-        Console.WriteLine("총 작업시간 {0:F2}초", Timer.Elapsed.TotalSeconds);
+        Stopwatch.Stop(); TotalRunTime += Stopwatch.Elapsed;
+        Console.WriteLine("\e[32mLoadFolders.xml 작성 완료...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
+        
+        // 참고용으로 쓸 ModList.tsv 파일을 작성합니다.
+        Stopwatch.Restart();
+        File.WriteAllText(Path.Combine(Statics.RootPath!, "ModList.tsv"), FilteredRules.ExportModList());
+        
+        Stopwatch.Stop(); TotalRunTime += Stopwatch.Elapsed;
+        Console.WriteLine("\e[32mModList.tsv 작성 완료...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
+        
+        Console.WriteLine("\e[32m작업 완료\x1b[0m");
+        Console.WriteLine("총 작업시간 {0:F3}s", TotalRunTime.TotalSeconds);
     }
     else
     {
@@ -92,12 +116,13 @@ using YamlDotNet.Serialization.NamingConventions;
     string TSVPath;
     while (true)
     {
-        TSVPath = Console.ReadLine() ?? String.Empty;
+        TSVPath = Console.ReadLine()?.Trim('\"') ?? String.Empty;
         if (Path.Exists(TSVPath)) break;
         
         Console.WriteLine("\n입력한 파일 경로가 유효하지 않습니다.");
         if (TSVPath is "-cancel") StopProgram();
     }
+    Console.WriteLine("\n\e[32m데이터 변환 시작\x1b[0m\n");
     
     MigrationHelper.MigrateFromTSV(TSVPath);
     StopProgram();

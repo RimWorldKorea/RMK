@@ -30,7 +30,7 @@ public class LoadRack
     {
         foreach (var Rule in InputRules.Rules.Values)
         {
-            string FilePath = Rule.LoadPath + Statics.BuildYamlFileName; // 그냥 로그용
+            string FilePath = Path.Combine(Rule.LoadPath, Statics.BuildYamlFileName); // 그냥 로그용
             
             // 여기에서 필요한 패키지ID 조합과 BindingMode를 계산합니다.
             // PackageID 조합은 바인딩 설정에 따라 여러 개 나올 수 있으나, 바인딩 모드는 하나로 결정됩니다.
@@ -117,8 +117,8 @@ public class LoadRack
                         {
                             BuildRule? LockedBy = RawLockedBy as BuildRule;
                             string HisName = LockedBy!.LoadPath;
-                            Console.WriteLine("\n\e[91m{0}의 Designate 설정이 {1}(와)과 충돌합니다.\x1b[0m",
-                                FilePath, HisName + Statics.BuildYamlFileName);
+                            Console.WriteLine("\e[91m{0}의 Designate 설정이 {1}(와)과 충돌합니다.\x1b[0m",
+                                FilePath, Path.Combine(HisName, Statics.BuildYamlFileName));
                         }
                         else
                         {
@@ -134,8 +134,8 @@ public class LoadRack
                         {
                             BuildRule? LockedBy = RawLockedBy as BuildRule;
                             string HisName = LockedBy!.LoadPath;
-                            Console.WriteLine("\n\e[91m{0}의 Default 설정이 {1}(와)과 충돌합니다.\x1b[0m",
-                                FilePath, HisName + Statics.BuildYamlFileName);
+                            Console.WriteLine("\e[91m{0}의 Default 설정이 {1}(와)과 충돌합니다.\x1b[0m",
+                                FilePath, Path.Combine(HisName, Statics.BuildYamlFileName));
                         }
                         else
                         {

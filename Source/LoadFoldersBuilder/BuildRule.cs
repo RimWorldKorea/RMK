@@ -240,12 +240,17 @@ public class BuildRules
         {
             var Rule = Pair.Value;
             if (Rule.ModName is not { } ModName) continue;
-            
+
             string RelativeLocation = Path.GetRelativePath(Statics.RootPath!, Pair.Key);
-            string EndPath = Path.GetFileName(RelativeLocation);
-            int EndPathIndex = RelativeLocation.LastIndexOf(EndPath);
-            if(FolderNameChecker.IsMatch(EndPath) && EndPathIndex is not -1)
-               RelativeLocation = RelativeLocation.Remove(EndPathIndex).Replace("\\", "/");
+            
+            string TopLocation = Path.GetFileName(RelativeLocation);
+            int TrimIndex = RelativeLocation.LastIndexOf(TopLocation) - 1;
+            if(FolderNameChecker.IsMatch(TopLocation) && TrimIndex is not -1)
+               RelativeLocation = RelativeLocation.Remove(TrimIndex);
+            
+            TopLocation = Path.GetFileName(RelativeLocation);
+            TrimIndex = RelativeLocation.LastIndexOf(TopLocation) - 1;
+            RelativeLocation = RelativeLocation.Remove(TrimIndex).Replace("\\", "/");
             
             int hash = 0;
             unchecked
@@ -256,8 +261,8 @@ public class BuildRules
             string TextLine = $"{Rule.WorkshopID ?? "No ID"}\t{ModName}\t{RelativeLocation}\t{Rule.PackageID.First()}";
             ExportList.TryAdd(hash, TextLine);
         }
-        
-        return ExportList.ToString() ?? String.Empty;
+
+        return string.Join(Environment.NewLine, ExportList.Values);
     }
 }
 

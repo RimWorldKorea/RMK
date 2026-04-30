@@ -66,7 +66,7 @@ public static class MigrationHelper
                 }
                 catch
                 {
-                    Console.WriteLine("\n{0} 생성에 실패했습니다.", FilePath);
+                    Console.WriteLine("\e[93m{0} 생성에 실패했습니다.\x1b[0m", FilePath);
                 }
             }
         }
