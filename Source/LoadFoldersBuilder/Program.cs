@@ -71,8 +71,8 @@ using YamlDotNet.Serialization.NamingConventions;
 
     if (MainRack.GenerateXDocument() is { } CompleteXML)
     {
-        string SavePath = Path.Combine(Statics.RootPath!, "LoadFolders.xml");
-        CompleteXML.Save(SavePath, SaveOptions.None);
+        CompleteXML.Save(Path.Combine(Statics.RootPath!, "LoadFolders.xml"), SaveOptions.None);
+        File.WriteAllText(Path.Combine(Statics.RootPath!, "ModList.tsv"), FilteredRules.ExportModList());
         Timer.Stop();
         
         Console.WriteLine("\e[32mLoadFolders.xml 파일 갱신 완료\x1b[0m");
@@ -116,7 +116,7 @@ using YamlDotNet.Serialization.NamingConventions;
         string[] Cut = Line.Split('\t', StringSplitOptions.None);
         string[] Versions = Cut[3].Split(',');
         
-        //TODO 구글 시트용 버전 지정자 규칙 반영 필요함
+        // 구글 시트용 버전 지정자 규칙 반영 필요함
         // 그런데 그게 필요한 양이 그렇게 많지 않고 한 번만 돌리면 되니 수동으로 하자
 
         string LoadPathBase = Path.Combine("Data", Cut[0], Cut[1] + " - " + Cut[2]);

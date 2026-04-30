@@ -1,5 +1,7 @@
 ﻿// Powered by Rimworld Mod Korean and follows its copyright policy.
 
+using System.Text.RegularExpressions;
+
 namespace LoadFoldersBuilder;
 
 /** 폴더 로드 구문을 만드는 1차 재료입니다.
@@ -231,26 +233,27 @@ public class BuildRules
     {
         var ExportList = new OrderedDictionary<int, string>();
         
+        // 문자열이 d.d 형식인지 확인하는 정규식 패턴
+        Regex FolderNameChecker = new Regex(@"^\d+\.\d+$", RegexOptions.Compiled);
+        
         foreach (var Pair in Rules)
         {
-            if (Pair.Value.ModName is not { } ModName) continue;
-
+            var Rule = Pair.Value;
+            if (Rule.ModName is not { } ModName) continue;
+            
+            string RelativeLocation = Path.GetRelativePath(Statics.RootPath!, Pair.Key);
+            string EndPath = Path.GetFileName(RelativeLocation);
+            int EndPathIndex = RelativeLocation.LastIndexOf(EndPath);
+            if(FolderNameChecker.IsMatch(EndPath) && EndPathIndex is not -1)
+               RelativeLocation = RelativeLocation.Remove(EndPathIndex).Replace("\\", "/");
+            
             int hash = 0;
-            var RelativeLocation = Pair.Key.Substring(Statics.RootPath!.Length).Replace("\\","/");
-            //TODO RelativeLocation 최종 경로가 1.3, 1.4같은 버전명인 경우 떼주기
-
-            //string 
-            if (Pair.Value.WorkshopID is { } WorkshopID)
+            unchecked
             {
-                hash = ModName.GetHashCode() ^ WorkshopID.GetHashCode();
-            }
-            else
-            {
-                WorkshopID = "";
-                //hash = //Todo 해시 어떻게 넣지?
+                hash = ModName.GetHashCode() * 31 + Rule.WorkshopID?.GetHashCode() ?? ModName.GetHashCode();
             }
 
-            string TextLine = $"{WorkshopID}\t{ModName}\t{RelativeLocation}\t{Pair.Value.PackageID.First()}";
+            string TextLine = $"{Rule.WorkshopID ?? "No ID"}\t{ModName}\t{RelativeLocation}\t{Rule.PackageID.First()}";
             ExportList.TryAdd(hash, TextLine);
         }
         
