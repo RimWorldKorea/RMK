@@ -98,10 +98,17 @@ static class Statics
     /** Languages 폴더 및 LoadFolders.Build.yaml 파일을 기준으로 LoadFolders 규칙을 작성할 후보 대상을 선별합니다. */
     public static string[] FindAndValidatePaths(string TargetFolderPath)
     {
-        // Languages 검색
-        string[] LanguagesFolders =
-            Directory.GetDirectories(TargetFolderPath, "Languages", SearchOption.AllDirectories);
-        HashSet<string> FoldersWithLanguages =
+        //TODO 최상위 독립 폴더에는 데이터가 없고 모든 번역이 하위 종속 폴더에 있는 경우
+        // (예시 : The Tiny Tweaks Collection - 3262911991, Progression Storage - 3292746186)도 존재하므로 대응 필요.
+        
+        // Languages 및 Textures 폴더 검색 (이미지 번역만 있는 경우가 있기 때문에 Textures도 포함)
+        string[] SearchPattern = { "Languages", "Textures" };
+        string[] LanguagesFolders = SearchPattern.SelectMany(
+            SearchFolder =>
+                Directory.EnumerateDirectories(TargetFolderPath, SearchFolder, SearchOption.AllDirectories)
+                ).Distinct(StringComparer.Ordinal).ToArray();
+
+        HashSet<string> FoldersContainsRequiredFolders =
             new HashSet<string>(LanguagesFolders.Select(x => new DirectoryInfo(x).Parent!.ToString()));
         
         // LoadFolders.Build.yaml 검색
@@ -111,23 +118,23 @@ static class Statics
             new HashSet<string>(BuildYamlFiles.Select(x => new DirectoryInfo(x).Parent!.ToString()));
         
         // 차집함 검색
-        HashSet<string> HasNoBuildYaml = FoldersWithLanguages.Except(FoldersWithBuildYaml).ToHashSet();
-        HashSet<string> HasNoLanguages = FoldersWithBuildYaml.Except(FoldersWithLanguages).ToHashSet();
-        HashSet<string> HasBothRequirements = FoldersWithLanguages.Intersect(FoldersWithBuildYaml).ToHashSet();
+        HashSet<string> HasNoBuildYaml = FoldersContainsRequiredFolders.Except(FoldersWithBuildYaml).ToHashSet();
+        HashSet<string> HasNoLanguagesOrTextures = FoldersWithBuildYaml.Except(FoldersContainsRequiredFolders).ToHashSet();
+        HashSet<string> HasBothRequirements = FoldersContainsRequiredFolders.Intersect(FoldersWithBuildYaml).ToHashSet();
 
         if (HasNoBuildYaml.Count > 0)
         {
-            Console.WriteLine("\n\e[93m다음 {0}개 폴더는 Languages 폴더가 있지만 LoadFolders.Build.yaml 파일이 없습니다.\x1b[0m", HasNoBuildYaml.Count);
+            Console.WriteLine("\n\e[93m다음 {0}개 폴더는 Languages 또는 Textures 폴더가 있지만 LoadFolders.Build.yaml 파일이 없습니다.\x1b[0m", HasNoBuildYaml.Count);
             foreach (var Folder in HasNoBuildYaml)
             {
                 Console.WriteLine("\t" + Folder);
             }
         }
         
-        if (HasNoLanguages.Count > 0)
+        if (HasNoLanguagesOrTextures.Count > 0)
         {
-            Console.WriteLine("\n\e[93m다음 {0}개 폴더는 LoadFolders.Build.yaml 파일이 있지만 Languages 폴더가 없습니다.\x1b[0m", HasNoLanguages.Count);
-            foreach (var Folder in HasNoLanguages)
+            Console.WriteLine("\n\e[93m다음 {0}개 폴더는 LoadFolders.Build.yaml 파일이 있지만 Languages 또는 Textures 폴더가 없습니다.\x1b[0m", HasNoLanguagesOrTextures.Count);
+            foreach (var Folder in HasNoLanguagesOrTextures)
             {
                 Console.WriteLine("\t" + Folder);
             }
