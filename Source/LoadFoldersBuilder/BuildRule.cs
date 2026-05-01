@@ -91,28 +91,28 @@ public class BuildRule
     {
         if (PackageID.Length is 0)
         {
-            Console.WriteLine("\n\e[91m{0}의 PackageID 설정이 없습니다.\x1b[0m", LoadPath);
+            Console.WriteLine("\e[91m{0}의 PackageID 설정이 없습니다.\x1b[0m", LoadPath);
             IsValid = false;
             return;
         }
         
         if ((After is not null && Before is not null) && After.Intersect(Before).Any())
         {
-            Console.WriteLine("\n\e[91m{0}의 After와 Before 속성에 중복된 값이 있습니다.\x1b[0m", LoadPath);
+            Console.WriteLine("\e[91m{0}의 After와 Before 속성에 중복된 값이 있습니다.\x1b[0m", LoadPath);
             IsValid = false;
             return;
         }
 
         if (Default is not null && LeftBoundary is not null && Default < LeftBoundary)
         {
-            Console.WriteLine("\n\e[91m{0}의 Default 버전이 LeftBoundary보다 앞에 있습니다.\x1b[0m", LoadPath);
+            Console.WriteLine("\e[91m{0}의 Default 버전이 LeftBoundary보다 앞에 있습니다.\x1b[0m", LoadPath);
             IsValid = false;
             return;
         }
         
         if (Default is not null && RightBoundary is not null && Default > RightBoundary)
         {
-            Console.WriteLine("\n\e[91m{0}의 Default 버전이 RightBoundary보다 뒤에 있습니다.\x1b[0m", LoadPath);
+            Console.WriteLine("\e[91m{0}의 Default 버전이 RightBoundary보다 뒤에 있습니다.\x1b[0m", LoadPath);
             IsValid = false;
             return;
         }
@@ -135,21 +135,21 @@ public class BuildRule
 
         if (Designate is not null && Ban is not null && Designate.Intersect(Ban).Any())
         {
-            Console.WriteLine("\n\e[91m{0}의 Designate 버전과 Ban 버전에 중복이 존재합니다.\x1b[0m", LoadPath);
+            Console.WriteLine("\e[91m{0}의 Designate 버전과 Ban 버전에 중복이 존재합니다.\x1b[0m", LoadPath);
             IsValid = false;
             return;
         }
 
         if (Default is not null && Ban is not null && Ban.Contains(Default))
         {
-            Console.WriteLine("\n\e[91m{0}의 Ban 버전에 Default 버전이 존재합니다.\x1b[0m", LoadPath);
+            Console.WriteLine("\e[91m{0}의 Ban 버전에 Default 버전이 존재합니다.\x1b[0m", LoadPath);
             IsValid = false;
             return;
         }
 
         if (Mode is BindingMode.None && PackageID.Length > 1)
         {
-            Console.WriteLine("\n\e[91m{0}의 다중 PackageID 조건에 BindingMode 설정이 존재하지 않습니다.\x1b[0m", LoadPath);
+            Console.WriteLine("\e[91m{0}의 다중 PackageID 조건에 BindingMode 설정이 존재하지 않습니다.\x1b[0m", LoadPath);
             IsValid = false;
             return;
         }
