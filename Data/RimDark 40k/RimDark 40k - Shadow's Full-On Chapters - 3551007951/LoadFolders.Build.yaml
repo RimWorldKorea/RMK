@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Shadow.RimDark.ChapterFullGene
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Shadow.RimDark.ChapterFullGene"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3551007951"
+  ModName: "RimDark 40k - Shadow's Full-On Chapters"

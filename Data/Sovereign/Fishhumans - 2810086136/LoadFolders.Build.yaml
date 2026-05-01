@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - sovereign.fishhuman
-    Mode: None
-    Dependency: Independent
+    PackageID: ["sovereign.fishhuman"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2810086136"
+  ModName: "Fishhumans"

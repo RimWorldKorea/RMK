@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - void.charactereditor
-    Mode: None
-    Dependency: Independent
+    PackageID: ["void.charactereditor"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1874644848"
+  ModName: "Character Editor"

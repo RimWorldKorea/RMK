@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.DeadCryptosleep
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.DeadCryptosleep"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2388868790"
+  ModName: "Dead Cryptosleep (Continued)"

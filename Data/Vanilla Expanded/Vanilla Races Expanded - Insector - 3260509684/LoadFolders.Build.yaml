@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - vanillaracesexpanded.insector
-    Mode: None
-    Dependency: Independent
+    PackageID: ["vanillaracesexpanded.insector"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3260509684"
+  ModName: "Vanilla Races Expanded - Insector"

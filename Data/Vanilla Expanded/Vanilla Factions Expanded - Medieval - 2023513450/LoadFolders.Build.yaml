@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - OskarPotocki.VanillaFactionsExpanded.MedievalModule
-    Mode: None
-    Dependency: Independent
+    PackageID: ["OskarPotocki.VanillaFactionsExpanded.MedievalModule"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2023513450"
+  ModName: "Vanilla Factions Expanded - Medieval"

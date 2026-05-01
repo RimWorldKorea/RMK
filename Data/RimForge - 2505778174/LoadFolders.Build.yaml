@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - co.uk.epicguru.rimforge
-    Mode: None
-    Dependency: Independent
+    PackageID: ["co.uk.epicguru.rimforge"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2505778174"
+  ModName: "RimForge"

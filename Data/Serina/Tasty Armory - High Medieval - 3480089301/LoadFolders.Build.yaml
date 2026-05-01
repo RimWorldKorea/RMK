@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - al9000.highmedieval
-    Mode: None
-    Dependency: Independent
+    PackageID: ["al9000.highmedieval"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3480089301"
+  ModName: "Tasty Armory - High Medieval"

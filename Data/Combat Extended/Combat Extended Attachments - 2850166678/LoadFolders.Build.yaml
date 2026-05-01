@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - ceteam.combatextendedattachments
-    Mode: None
-    Dependency: Independent
+    PackageID: ["ceteam.combatextendedattachments"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2850166678"
+  ModName: "Combat Extended Attachments"

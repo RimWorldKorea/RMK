@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - VanillaExpanded.VanillaAnimalsExpanded
-    Mode: None
-    Dependency: Independent
+    PackageID: ["VanillaExpanded.VanillaAnimalsExpanded"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2871933948"
+  ModName: "Vanilla Animals Expanded"

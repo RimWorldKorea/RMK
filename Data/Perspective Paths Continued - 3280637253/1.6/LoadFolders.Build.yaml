@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Owlchemist.PerspectivePaths
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Owlchemist.PerspectivePaths"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3280637253"
+  ModName: "Perspective Paths Continued"

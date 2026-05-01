@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - augmented.vanilla.injectors
-    Mode: None
-    Dependency: Independent
+    PackageID: ["augmented.vanilla.injectors"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2885290339"
+  ModName: "Augmented Vanilla - Injectors "

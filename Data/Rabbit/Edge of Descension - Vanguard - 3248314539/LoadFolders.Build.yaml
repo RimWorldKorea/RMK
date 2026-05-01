@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Rabbit.EoDVanguard
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Rabbit.EoDVanguard"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3248314539"
+  ModName: "Edge of Descension - Vanguard"

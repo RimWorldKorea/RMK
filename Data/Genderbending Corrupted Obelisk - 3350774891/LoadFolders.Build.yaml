@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Abraxas.Genderbending.Corrupted.Obelisk
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Abraxas.Genderbending.Corrupted.Obelisk"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3350774891"
+  ModName: "Genderbending Corrupted Obelisk"

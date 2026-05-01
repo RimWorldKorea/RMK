@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - LotusLand.FixedPawnGenerate
-    Mode: None
-    Dependency: Independent
+    PackageID: ["LotusLand.FixedPawnGenerate"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3270351598"
+  ModName: "Fixed Pawn Generate"

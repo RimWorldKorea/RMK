@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - kentington.saveourship2
-    Mode: None
-    Dependency: Independent
+    PackageID: ["kentington.saveourship2"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.3
+    Default: "1.3"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1909914131"
+  ModName: "Save Our Ship 2"

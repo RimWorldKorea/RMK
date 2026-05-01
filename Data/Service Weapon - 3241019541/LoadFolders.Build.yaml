@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Artemiish.ServiceWeapon
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Artemiish.ServiceWeapon"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3241019541"
+  ModName: "Service Weapon"

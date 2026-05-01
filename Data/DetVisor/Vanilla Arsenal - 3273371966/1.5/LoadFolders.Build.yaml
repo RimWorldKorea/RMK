@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - det.vanillaarsenal
-    Mode: None
-    Dependency: Independent
+    PackageID: ["det.vanillaarsenal"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.5
+    Default: "1.5"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3273371966"
+  ModName: "Vanilla Arsenal"

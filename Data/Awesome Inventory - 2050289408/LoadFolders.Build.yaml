@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - NotooShabby.AwesomeInventory
-    Mode: None
-    Dependency: Independent
+    PackageID: ["NotooShabby.AwesomeInventory"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2050289408"
+  ModName: "Awesome Inventory"

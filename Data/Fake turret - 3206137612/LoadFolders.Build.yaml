@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - BonSombrero.trollturret
-    Mode: None
-    Dependency: Independent
+    PackageID: ["BonSombrero.trollturret"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3206137612"
+  ModName: "Fake turret"

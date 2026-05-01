@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Hiztaar.Essential.USCMCore
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Hiztaar.Essential.USCMCore"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "726855894"
+  ModName: "USCM - Core"

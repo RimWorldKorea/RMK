@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - RH2.Metal.Gear.Solid
-    Mode: None
-    Dependency: Independent
+    PackageID: ["RH2.Metal.Gear.Solid"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3058257385"
+  ModName: "[RH2] Metal Gear Solid"

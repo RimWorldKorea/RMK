@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - ancot.kiiroracegenepatch
-    Mode: None
-    Dependency: Independent
+    PackageID: ["ancot.kiiroracegenepatch"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2988200826"
+  ModName: "Kiiro Race Gene Patch"

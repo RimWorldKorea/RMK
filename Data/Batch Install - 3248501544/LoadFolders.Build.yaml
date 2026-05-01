@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - HellRevenger.BatchInstall
-    Mode: None
-    Dependency: Independent
+    PackageID: ["HellRevenger.BatchInstall"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3248501544"
+  ModName: "Batch Install"

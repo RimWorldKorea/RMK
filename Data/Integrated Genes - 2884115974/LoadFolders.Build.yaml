@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Turnovus.Biotech.IntegratedGenes
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Turnovus.Biotech.IntegratedGenes"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2884115974"
+  ModName: "Integrated Genes"

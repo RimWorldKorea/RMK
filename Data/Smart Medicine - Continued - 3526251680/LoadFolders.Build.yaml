@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Memegoddess.SmartMedicine
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Memegoddess.SmartMedicine"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3526251680"
+  ModName: "Smart Medicine - Continued"

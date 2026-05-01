@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - NoobertNebulous.Vidtuber
-    Mode: None
-    Dependency: Independent
+    PackageID: ["NoobertNebulous.Vidtuber"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3013420224"
+  ModName: "Noobert Nebulous - Vidtuber"

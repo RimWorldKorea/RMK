@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - lee.theforce.psycast
-    Mode: None
-    Dependency: Independent
+    PackageID: ["lee.theforce.psycast"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.5
+    Default: "1.5"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3100942433"
+  ModName: "Star Wars The Force-Psycast"

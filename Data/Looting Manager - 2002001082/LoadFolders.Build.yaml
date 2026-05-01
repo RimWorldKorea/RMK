@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - CarnySenpai.LootingManager
-    Mode: None
-    Dependency: Independent
+    PackageID: ["CarnySenpai.LootingManager"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2002001082"
+  ModName: "Looting Manager"

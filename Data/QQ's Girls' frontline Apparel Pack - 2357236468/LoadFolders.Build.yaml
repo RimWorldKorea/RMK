@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - qquack.gfap
-    Mode: None
-    Dependency: Independent
+    PackageID: ["qquack.gfap"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2357236468"
+  ModName: "QQ's Girls' frontline Apparel Pack"

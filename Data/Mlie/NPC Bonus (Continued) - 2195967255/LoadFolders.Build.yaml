@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.NPCBonus
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.NPCBonus"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2195967255"
+  ModName: "NPC Bonus (Continued)"

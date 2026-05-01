@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Oppey.EyeGenes2
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Oppey.EyeGenes2"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2898151329"
+  ModName: "[BT] EyeGenes2 Base - [NL] Facial Animation"

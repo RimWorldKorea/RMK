@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Phonicmas.40kCore
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Phonicmas.40kCore"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3025477432"
+  ModName: "Warhammer 40.000 - Core"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - erdelf.PrisonerRansom
-    Mode: None
-    Dependency: Independent
+    PackageID: ["erdelf.PrisonerRansom"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "794038005"
+  ModName: "PrisonerRansom"

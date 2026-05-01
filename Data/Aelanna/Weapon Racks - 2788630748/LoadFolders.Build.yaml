@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Aelanna.WeaponRacks
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Aelanna.WeaponRacks"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2788630748"
+  ModName: "Weapon Racks"

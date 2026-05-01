@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.BestMix
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.BestMix"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2195986094"
+  ModName: "Best Mix (Continued)"

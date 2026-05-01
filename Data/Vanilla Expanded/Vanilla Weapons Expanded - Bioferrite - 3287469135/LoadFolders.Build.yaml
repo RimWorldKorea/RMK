@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - VanillaExpanded.VWEBF
-    Mode: None
-    Dependency: Independent
+    PackageID: ["VanillaExpanded.VWEBF"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3287469135"
+  ModName: "Vanilla Weapons Expanded - Bioferrite"

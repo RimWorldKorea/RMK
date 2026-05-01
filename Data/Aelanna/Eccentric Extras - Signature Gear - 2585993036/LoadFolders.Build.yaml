@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Aelanna.EccentricExtras.SignatureGear
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Aelanna.EccentricExtras.SignatureGear"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2585993036"
+  ModName: "Eccentric Extras - Signature Gear"

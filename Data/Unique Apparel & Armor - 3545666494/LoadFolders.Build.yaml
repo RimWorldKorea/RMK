@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Amro.UniqueApparel
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Amro.UniqueApparel"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3545666494"
+  ModName: "Unique Apparel & Armor"

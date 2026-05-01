@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - vr.AnimaAnimalsCombined
-    Mode: None
-    Dependency: Independent
+    PackageID: ["vr.AnimaAnimalsCombined"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3190798512"
+  ModName: "Anima Animals Combined (Continued)"

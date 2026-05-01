@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - OskarPotocki.VFE.Pirates
-    Mode: None
-    Dependency: Independent
+    PackageID: ["OskarPotocki.VFE.Pirates"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.5
+    Default: "1.5"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2723801948"
+  ModName: "Vanilla Factions Expanded - Pirates"

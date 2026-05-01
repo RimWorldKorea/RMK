@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - LanceHardwood.Primaris
-    Mode: None
-    Dependency: Independent
+    PackageID: ["LanceHardwood.Primaris"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2827013992"
+  ModName: "Primaris warcasket armour and weaponry"

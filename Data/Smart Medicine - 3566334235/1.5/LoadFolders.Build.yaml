@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - uuugggg.smartmedicine
-    Mode: None
-    Dependency: Independent
+    PackageID: ["uuugggg.smartmedicine"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.5
+    Default: "1.5"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3566334235"
+  ModName: "Smart Medicine"

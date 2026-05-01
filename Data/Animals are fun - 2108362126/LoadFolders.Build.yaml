@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Revolus.AnimalsAreFun
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Revolus.AnimalsAreFun"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2108362126"
+  ModName: "Animals are fun"

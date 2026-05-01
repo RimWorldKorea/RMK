@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - DimonSever000.RPGTraits.Specific
-    Mode: None
-    Dependency: Independent
+    PackageID: ["DimonSever000.RPGTraits.Specific"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2585218174"
+  ModName: "RPG Traits+"

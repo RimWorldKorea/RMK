@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - 7f.SecurityClearance
-    Mode: None
-    Dependency: Independent
+    PackageID: ["7f.SecurityClearance"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3634353108"
+  ModName: "Security Clearance"

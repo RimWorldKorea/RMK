@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - vanillaexpanded.gravship
-    Mode: None
-    Dependency: Independent
+    PackageID: ["vanillaexpanded.gravship"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3609835606"
+  ModName: "Vanilla Gravship Expanded - Chapter 1"

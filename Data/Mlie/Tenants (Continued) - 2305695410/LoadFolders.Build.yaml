@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.Tenants
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.Tenants"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2305695410"
+  ModName: "Tenants (Continued)"

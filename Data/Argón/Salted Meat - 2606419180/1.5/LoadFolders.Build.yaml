@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Argon.SaltedMeatRemake
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Argon.SaltedMeatRemake"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.5
+    Default: "1.5"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2606419180"
+  ModName: "Salted Meat"

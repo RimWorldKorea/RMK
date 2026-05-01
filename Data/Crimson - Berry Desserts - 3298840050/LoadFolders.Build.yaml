@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - CC.Sweet.Dessert
-    Mode: None
-    Dependency: Independent
+    PackageID: ["CC.Sweet.Dessert"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3298840050"
+  ModName: "Crimson - Berry Desserts"

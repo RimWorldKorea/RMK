@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - iluvsilicon.caeruleanrace
-    Mode: None
-    Dependency: Independent
+    PackageID: ["iluvsilicon.caeruleanrace"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2691448639"
+  ModName: "RimRaces - Caerulean Race"

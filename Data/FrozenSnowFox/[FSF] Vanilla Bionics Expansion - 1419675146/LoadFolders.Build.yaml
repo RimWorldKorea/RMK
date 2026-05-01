@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - FrozenSnowFox.VanillaBionicsExpansion
-    Mode: None
-    Dependency: Independent
+    PackageID: ["FrozenSnowFox.VanillaBionicsExpansion"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1419675146"
+  ModName: "[FSF] Vanilla Bionics Expansion"

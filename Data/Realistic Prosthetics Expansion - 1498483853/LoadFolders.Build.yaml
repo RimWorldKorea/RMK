@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - TimeRider.RealisticProstheticsExpansion
-    Mode: None
-    Dependency: Independent
+    PackageID: ["TimeRider.RealisticProstheticsExpansion"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1498483853"
+  ModName: "Realistic Prosthetics Expansion"

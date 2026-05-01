@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - OskarPotocki.VFE.Insectoid2
-    Mode: None
-    Dependency: Independent
+    PackageID: ["OskarPotocki.VFE.Insectoid2"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3309003431"
+  ModName: "Vanilla Factions Expanded - Insectoids 2"

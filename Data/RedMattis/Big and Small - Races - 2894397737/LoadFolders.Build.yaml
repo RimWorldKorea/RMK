@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - redmattis.bigsmall
-    Mode: None
-    Dependency: Independent
+    PackageID: ["redmattis.bigsmall"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2894397737"
+  ModName: "Big and Small - Races"

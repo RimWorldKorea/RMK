@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - FunkyShit.RimOverhaul.Main
-    Mode: None
-    Dependency: Independent
+    PackageID: ["FunkyShit.RimOverhaul.Main"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1760022158"
+  ModName: "RimOverhaul"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Gege.mechanoidmodifications.tmpfix
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Gege.mechanoidmodifications.tmpfix"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3241410635"
+  ModName: "Mechanoid Modifications"

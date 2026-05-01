@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - idatenz.Mandola
-    Mode: None
-    Dependency: Independent
+    PackageID: ["idatenz.Mandola"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2861046473"
+  ModName: "[IZ]Mandola"

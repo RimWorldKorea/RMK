@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - The.Gods.Are.Angry
-    Mode: None
-    Dependency: Independent
+    PackageID: ["The.Gods.Are.Angry"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3028895348"
+  ModName: "The Gods Are Angry"

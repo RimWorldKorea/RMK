@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Community.Psychology.UnofficialUpdate
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Community.Psychology.UnofficialUpdate"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2016263135"
+  ModName: "Psychology (unofficial) "

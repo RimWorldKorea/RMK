@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Techmago.MoreMedications
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Techmago.MoreMedications"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1601812699"
+  ModName: "More Medications - Reborn"

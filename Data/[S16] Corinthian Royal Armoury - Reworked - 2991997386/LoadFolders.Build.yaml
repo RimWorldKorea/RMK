@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - s16.ddm
-    Mode: None
-    Dependency: Independent
+    PackageID: ["s16.ddm"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2991997386"
+  ModName: "[S16] Corinthian Royal Armoury - Reworked"

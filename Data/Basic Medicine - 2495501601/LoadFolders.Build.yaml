@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - iluvsilicon.basicmedicine2
-    Mode: None
-    Dependency: Independent
+    PackageID: ["iluvsilicon.basicmedicine2"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2495501601"
+  ModName: "Basic Medicine"

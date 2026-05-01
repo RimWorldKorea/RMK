@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - cyberware.2077
-    Mode: None
-    Dependency: Independent
+    PackageID: ["cyberware.2077"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3488436112"
+  ModName: "Cyberware 2077"

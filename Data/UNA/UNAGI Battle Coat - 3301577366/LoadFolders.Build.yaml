@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - UNAGI.Battle.coat
-    Mode: None
-    Dependency: Independent
+    PackageID: ["UNAGI.Battle.coat"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3301577366"
+  ModName: "UNAGI Battle Coat"

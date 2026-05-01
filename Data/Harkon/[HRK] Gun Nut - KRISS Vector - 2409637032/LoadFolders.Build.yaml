@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Harkon.GunNut.KRISSVector
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Harkon.GunNut.KRISSVector"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2409637032"
+  ModName: "[HRK] Gun Nut - KRISS Vector"

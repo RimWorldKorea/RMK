@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - digitalhare.klickmalacontinued
-    Mode: None
-    Dependency: Independent
+    PackageID: ["digitalhare.klickmalacontinued"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2806331695"
+  ModName: "Klickmala Race [Continued]"

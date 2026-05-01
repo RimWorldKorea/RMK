@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Dubwise.DubsMintMenus
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Dubwise.DubsMintMenus"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1446523594"
+  ModName: "Dubs Mint Menus"

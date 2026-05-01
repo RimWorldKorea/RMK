@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - sarg.magicalmenagerie
-    Mode: None
-    Dependency: Independent
+    PackageID: ["sarg.magicalmenagerie"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1821617793"
+  ModName: "Alpha Mythology"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - owlchemist.simplefx.splashes
-    Mode: None
-    Dependency: Independent
+    PackageID: ["owlchemist.simplefx.splashes"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2889330414"
+  ModName: "Simple FX Splashes"

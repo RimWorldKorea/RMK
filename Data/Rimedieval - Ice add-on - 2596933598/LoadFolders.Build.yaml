@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - rimedieval.ice
-    Mode: None
-    Dependency: Independent
+    PackageID: ["rimedieval.ice"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2596933598"
+  ModName: "Rimedieval - Ice add-on"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - leion247612.higherhpower
-    Mode: None
-    Dependency: Independent
+    PackageID: ["leion247612.higherhpower"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1409449372"
+  ModName: "Higher Power"

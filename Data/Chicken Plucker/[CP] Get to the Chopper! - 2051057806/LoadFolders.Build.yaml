@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - CP.Get.To.The.Chopper
-    Mode: None
-    Dependency: Independent
+    PackageID: ["CP.Get.To.The.Chopper"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2051057806"
+  ModName: "[CP] Get to the Chopper!"

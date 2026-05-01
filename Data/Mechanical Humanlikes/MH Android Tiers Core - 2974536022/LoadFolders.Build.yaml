@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Killathon.MechHumanlikes.AndroidTiersCore
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Killathon.MechHumanlikes.AndroidTiersCore"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2974536022"
+  ModName: "MH Android Tiers Core"

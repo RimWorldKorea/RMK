@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Vanya.Polarisbloc.SecurityForce.tmp
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Vanya.Polarisbloc.SecurityForce.tmp"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3225387996"
+  ModName: "Polarisbloc - Security Force tmp port"

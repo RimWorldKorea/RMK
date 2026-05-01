@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - lhoxris.truesight
-    Mode: None
-    Dependency: Independent
+    PackageID: ["lhoxris.truesight"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2555271662"
+  ModName: "Blindsight - Truesight"

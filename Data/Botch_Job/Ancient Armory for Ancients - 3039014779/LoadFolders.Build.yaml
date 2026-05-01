@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - BotchJob.ancientarmoryforancients
-    Mode: None
-    Dependency: Independent
+    PackageID: ["BotchJob.ancientarmoryforancients"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3039014779"
+  ModName: "Ancient Armory for Ancients"

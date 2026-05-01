@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - cedaro.readingbill
-    Mode: None
-    Dependency: Independent
+    PackageID: ["cedaro.readingbill"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3021977040"
+  ModName: "Reading Bill"

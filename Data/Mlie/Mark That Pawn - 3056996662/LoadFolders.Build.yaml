@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - mlie.markthatpawn
-    Mode: None
-    Dependency: Independent
+    PackageID: ["mlie.markthatpawn"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3056996662"
+  ModName: "Mark That Pawn"

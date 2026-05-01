@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - pipai.morerelationships
-    Mode: None
-    Dependency: Independent
+    PackageID: ["pipai.morerelationships"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1901469987"
+  ModName: "More Relationships"

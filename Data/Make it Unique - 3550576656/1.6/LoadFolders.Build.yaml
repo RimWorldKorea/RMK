@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Natangry.MakeItUnique
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Natangry.MakeItUnique"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3550576656"
+  ModName: "Make it Unique"

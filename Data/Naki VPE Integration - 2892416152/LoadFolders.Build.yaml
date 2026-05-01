@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - endy.nakivpe
-    Mode: None
-    Dependency: Independent
+    PackageID: ["endy.nakivpe"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2892416152"
+  ModName: "Naki VPE Integration"

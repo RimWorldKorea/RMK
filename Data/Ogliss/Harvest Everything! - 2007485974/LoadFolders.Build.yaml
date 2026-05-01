@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Ogliss.Ykara.HarvestEverything
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Ogliss.Ykara.HarvestEverything"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2007485974"
+  ModName: "Harvest Everything!"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - oracle.miscellania
-    Mode: None
-    Dependency: Independent
+    PackageID: ["oracle.miscellania"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3279582979"
+  ModName: "Oracle's Miscellania"

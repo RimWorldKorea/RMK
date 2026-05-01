@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - SafeNAweet.MooGirlMilkChemistry
-    Mode: None
-    Dependency: Independent
+    PackageID: ["SafeNAweet.MooGirlMilkChemistry"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3701138586"
+  ModName: "MooGirl Milk Chemistry"

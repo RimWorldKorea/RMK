@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - warshipgirlr.alienraces
-    Mode: None
-    Dependency: Independent
+    PackageID: ["warshipgirlr.alienraces"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2801742438"
+  ModName: "[Race]WarShipGirl R战舰少女R"

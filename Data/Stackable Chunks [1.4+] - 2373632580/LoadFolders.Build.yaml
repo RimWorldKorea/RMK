@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - zhrocks11.stackablechunks_copy
-    Mode: None
-    Dependency: Independent
+    PackageID: ["zhrocks11.stackablechunks_copy"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2373632580"
+  ModName: "Stackable Chunks [1.4+]"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.WeHadATrader
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.WeHadATrader"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1541408076"
+  ModName: "We Had a Trader (Continued)"

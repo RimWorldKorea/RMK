@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Daniledman.MechalitFaction2
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Daniledman.MechalitFaction2"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2660600094"
+  ModName: "Mechalit Faction v2"

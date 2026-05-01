@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Fluffy.Pharmacist
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Fluffy.Pharmacist"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2880823401"
+  ModName: "Pharmacist Temporary 1.4 Update"

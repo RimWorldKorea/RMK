@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Veltaris.Framework
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Veltaris.Framework"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3237129936"
+  ModName: "[AV] Framework"

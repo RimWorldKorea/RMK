@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - v1024.realtimeclockplus
-    Mode: None
-    Dependency: Independent
+    PackageID: ["v1024.realtimeclockplus"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1649648654"
+  ModName: "Real Time Clock Plus (v4.0.5.3)"

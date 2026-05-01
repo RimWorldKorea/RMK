@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.ReconAndDiscovery
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.ReconAndDiscovery"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2035131107"
+  ModName: "Recon And Discovery (Continued)"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Unreal.RIMSPR
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Unreal.RIMSPR"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3096937192"
+  ModName: "RIMSPR Craftable Genepacks"

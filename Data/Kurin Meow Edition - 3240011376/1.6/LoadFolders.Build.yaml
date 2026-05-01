@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - EoralMilk.KurinMeowEdition
-    Mode: None
-    Dependency: Independent
+    PackageID: ["EoralMilk.KurinMeowEdition"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3240011376"
+  ModName: "Kurin Meow Edition"

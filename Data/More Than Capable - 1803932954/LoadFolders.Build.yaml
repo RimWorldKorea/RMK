@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - notfood.MoreThanCapable
-    Mode: None
-    Dependency: Independent
+    PackageID: ["notfood.MoreThanCapable"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1803932954"
+  ModName: "More Than Capable"

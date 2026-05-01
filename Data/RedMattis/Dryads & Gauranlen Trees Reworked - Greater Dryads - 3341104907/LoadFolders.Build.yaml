@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - RedMattis.Dryads.Greater
-    Mode: None
-    Dependency: Independent
+    PackageID: ["RedMattis.Dryads.Greater"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3341104907"
+  ModName: "Dryads & Gauranlen Trees Reworked - Greater Dryads"

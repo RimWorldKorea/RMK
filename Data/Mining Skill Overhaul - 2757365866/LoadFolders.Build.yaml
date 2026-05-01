@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - mining.yield.chance.miathea.sokyran
-    Mode: None
-    Dependency: Independent
+    PackageID: ["mining.yield.chance.miathea.sokyran"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2757365866"
+  ModName: "Mining Skill Overhaul"

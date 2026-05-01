@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - SirMashedPotato.BlackPlague
-    Mode: None
-    Dependency: Independent
+    PackageID: ["SirMashedPotato.BlackPlague"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2798827353"
+  ModName: "RimWorld - Black Plague"

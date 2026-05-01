@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - RimEffect.Drell
-    Mode: None
-    Dependency: Independent
+    PackageID: ["RimEffect.Drell"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2651150217"
+  ModName: "Rim-Effect Drell"

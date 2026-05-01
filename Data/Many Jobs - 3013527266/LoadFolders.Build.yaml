@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - CaptainArbitrary.ManyJobs
-    Mode: None
-    Dependency: Independent
+    PackageID: ["CaptainArbitrary.ManyJobs"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3013527266"
+  ModName: "Many Jobs"

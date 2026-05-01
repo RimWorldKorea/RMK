@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Bonible.rimsenalfactions
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Bonible.rimsenalfactions"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3530301107"
+  ModName: "Rimsenal Factions (Continued)"

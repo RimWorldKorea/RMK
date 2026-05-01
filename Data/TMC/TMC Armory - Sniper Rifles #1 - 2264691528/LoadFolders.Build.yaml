@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - TMC.Armory.RF.1
-    Mode: None
-    Dependency: Independent
+    PackageID: ["TMC.Armory.RF.1"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2264691528"
+  ModName: "TMC Armory - Sniper Rifles #1"

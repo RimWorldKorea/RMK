@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - lunartika.OS
-    Mode: None
-    Dependency: Independent
+    PackageID: ["lunartika.OS"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3394085110"
+  ModName: "Office Supplies"

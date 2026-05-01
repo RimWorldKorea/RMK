@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - MemeGoddess.TDPack
-    Mode: None
-    Dependency: Independent
+    PackageID: ["MemeGoddess.TDPack"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3525414162"
+  ModName: "TD Enhancement Pack - Continued"

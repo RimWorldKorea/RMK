@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mihoyo.GenshinImpact.CharacterStyles
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mihoyo.GenshinImpact.CharacterStyles"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3219406187"
+  ModName: "[mhy] Genshin Styles - 原神造型包"

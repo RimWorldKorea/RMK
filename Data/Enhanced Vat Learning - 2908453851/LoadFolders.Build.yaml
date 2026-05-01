@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - smartkar.enhancedvatlearning
-    Mode: None
-    Dependency: Independent
+    PackageID: ["smartkar.enhancedvatlearning"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2908453851"
+  ModName: "Enhanced Vat Learning"

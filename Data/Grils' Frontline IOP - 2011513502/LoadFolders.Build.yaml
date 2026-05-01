@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - DEJ.GF.IOPTECH
-    Mode: None
-    Dependency: Independent
+    PackageID: ["DEJ.GF.IOPTECH"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2011513502"
+  ModName: "Grils' Frontline IOP"

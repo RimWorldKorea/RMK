@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - kompadt.warhammer.zhthyhl
-    Mode: None
-    Dependency: Independent
+    PackageID: ["kompadt.warhammer.zhthyhl"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1754691148"
+  ModName: "Warhammer Zhthy'hl"

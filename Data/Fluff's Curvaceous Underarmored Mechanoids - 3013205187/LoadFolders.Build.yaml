@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - fluff.mechanoidfuckable
-    Mode: None
-    Dependency: Independent
+    PackageID: ["fluff.mechanoidfuckable"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3013205187"
+  ModName: "Fluff's Curvaceous Underarmored Mechanoids"

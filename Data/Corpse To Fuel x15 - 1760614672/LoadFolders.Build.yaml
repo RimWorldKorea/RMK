@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Crusader.CTF15
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Crusader.CTF15"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1760614672"
+  ModName: "Corpse To Fuel x15"

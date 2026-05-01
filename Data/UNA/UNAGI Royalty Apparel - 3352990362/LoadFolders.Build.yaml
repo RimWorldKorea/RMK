@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - unagi.ap.dress
-    Mode: None
-    Dependency: Independent
+    PackageID: ["unagi.ap.dress"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3352990362"
+  ModName: "UNAGI Royalty Apparel"

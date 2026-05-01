@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - MD.GoToSleep
-    Mode: None
-    Dependency: Independent
+    PackageID: ["MD.GoToSleep"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3523734445"
+  ModName: "Go the Fork to Sleep"

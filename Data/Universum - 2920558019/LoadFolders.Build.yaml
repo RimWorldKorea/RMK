@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - sindre0830.universum
-    Mode: None
-    Dependency: Independent
+    PackageID: ["sindre0830.universum"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2920558019"
+  ModName: "Universum"

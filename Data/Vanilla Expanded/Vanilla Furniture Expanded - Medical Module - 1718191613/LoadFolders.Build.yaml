@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - VanillaExpanded.VFEMedical
-    Mode: None
-    Dependency: Independent
+    PackageID: ["VanillaExpanded.VFEMedical"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1718191613"
+  ModName: "Vanilla Furniture Expanded - Medical Module"

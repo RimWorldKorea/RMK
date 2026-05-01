@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - fxz.ratkinanomaly.update
-    Mode: None
-    Dependency: Independent
+    PackageID: ["fxz.ratkinanomaly.update"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3293914637"
+  ModName: "Ratkin Anomaly+"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.RationalRomance2
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.RationalRomance2"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2593521827"
+  ModName: "Rational Romance 2 (Continued)"

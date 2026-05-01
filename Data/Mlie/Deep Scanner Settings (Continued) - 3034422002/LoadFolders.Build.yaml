@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - mlie.deepscannersettings
-    Mode: None
-    Dependency: Independent
+    PackageID: ["mlie.deepscannersettings"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3034422002"
+  ModName: "Deep Scanner Settings (Continued)"

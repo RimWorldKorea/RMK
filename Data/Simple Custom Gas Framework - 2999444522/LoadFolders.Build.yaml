@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - NachoToast.SCGF
-    Mode: None
-    Dependency: Independent
+    PackageID: ["NachoToast.SCGF"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2999444522"
+  ModName: "Simple Custom Gas Framework"

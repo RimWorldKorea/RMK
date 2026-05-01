@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - fxz.selectsimilar
-    Mode: None
-    Dependency: Independent
+    PackageID: ["fxz.selectsimilar"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3349675904"
+  ModName: "Select Similar"

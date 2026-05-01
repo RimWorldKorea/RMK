@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Veltaris.MechStations
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Veltaris.MechStations"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3238521451"
+  ModName: "[AV] Mechanoid Spots"

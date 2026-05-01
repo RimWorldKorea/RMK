@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - WSP.deadmanswitch.upgrades
-    Mode: None
-    Dependency: Independent
+    PackageID: ["WSP.deadmanswitch.upgrades"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3310569544"
+  ModName: "The Dead Man's Switch - Additional Upgrades"

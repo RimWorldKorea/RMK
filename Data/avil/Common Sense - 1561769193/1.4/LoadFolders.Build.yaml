@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - avilmask.CommonSense
-    Mode: None
-    Dependency: Independent
+    PackageID: ["avilmask.CommonSense"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.4
+    Default: "1.4"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1561769193"
+  ModName: "Common Sense"

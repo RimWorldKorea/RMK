@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - CP.VOID.Storyteller
-    Mode: None
-    Dependency: Independent
+    PackageID: ["CP.VOID.Storyteller"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2130957394"
+  ModName: "[RH2] V.O.I.D. Storyteller"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - rjw.cum
-    Mode: None
-    Dependency: Independent
+    PackageID: ["rjw.cum"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "NS3576234"
+  ModName: "RimJobWorld - Cum"

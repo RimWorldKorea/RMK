@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - thegoofyone.driedmeats.kotobike
-    Mode: None
-    Dependency: Independent
+    PackageID: ["thegoofyone.driedmeats.kotobike"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2865424053"
+  ModName: "Dried Meats"

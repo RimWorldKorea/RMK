@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Aoba.Exosuit.Framework
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Aoba.Exosuit.Framework"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.5
+    Default: "1.5"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3352894993"
+  ModName: "Exosuit Framework"

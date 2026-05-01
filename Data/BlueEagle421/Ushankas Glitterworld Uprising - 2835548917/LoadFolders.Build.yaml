@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Ushanka.GlitterworldUprising
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Ushanka.GlitterworldUprising"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2835548917"
+  ModName: "Ushankas Glitterworld Uprising"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - kinetictail.ReinforcedWalls
-    Mode: None
-    Dependency: Independent
+    PackageID: ["kinetictail.ReinforcedWalls"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2882989451"
+  ModName: "Reinforced Walls"

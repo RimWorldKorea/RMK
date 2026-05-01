@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - avilmask.ResearchWhatever
-    Mode: None
-    Dependency: Independent
+    PackageID: ["avilmask.ResearchWhatever"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2552092060"
+  ModName: "Research Whatever"

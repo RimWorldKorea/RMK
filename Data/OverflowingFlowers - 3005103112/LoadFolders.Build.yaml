@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - sumika.OverflowingFlowers
-    Mode: None
-    Dependency: Independent
+    PackageID: ["sumika.OverflowingFlowers"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3005103112"
+  ModName: "OverflowingFlowers"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Stolij.MoreBatteries
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Stolij.MoreBatteries"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "747397788"
+  ModName: "More Batteries"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Harkon.GunNut.KSGShotgun
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Harkon.GunNut.KSGShotgun"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2416660319"
+  ModName: "[HRK] Gun Nut - Kel-Tec Firearms"

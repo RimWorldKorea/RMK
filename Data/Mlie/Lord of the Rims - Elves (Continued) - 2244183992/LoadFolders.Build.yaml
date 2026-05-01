@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.LordoftheRimsElves
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.LordoftheRimsElves"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2244183992"
+  ModName: "Lord of the Rims - Elves (Continued)"

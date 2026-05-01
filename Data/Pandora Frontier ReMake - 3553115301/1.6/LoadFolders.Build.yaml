@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - zawodroshen.pandora.frontier.remake
-    Mode: None
-    Dependency: Independent
+    PackageID: ["zawodroshen.pandora.frontier.remake"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3553115301"
+  ModName: "Pandora Frontier ReMake"

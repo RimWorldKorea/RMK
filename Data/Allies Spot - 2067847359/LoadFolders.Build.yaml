@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - gguake.alliesspot
-    Mode: None
-    Dependency: Independent
+    PackageID: ["gguake.alliesspot"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2067847359"
+  ModName: "Allies Spot"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - dismarzero.VGP.Smokedmeat
-    Mode: None
-    Dependency: Independent
+    PackageID: ["dismarzero.VGP.Smokedmeat"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1542364782"
+  ModName: "Smoked meat"

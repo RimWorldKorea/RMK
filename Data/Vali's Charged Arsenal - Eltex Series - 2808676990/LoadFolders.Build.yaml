@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Vali.CAES
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Vali.CAES"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2808676990"
+  ModName: "Vali's Charged Arsenal - Eltex Series"

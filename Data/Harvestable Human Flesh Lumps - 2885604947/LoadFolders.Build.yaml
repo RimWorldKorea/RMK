@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - 8z.humanfleshlumps
-    Mode: None
-    Dependency: Independent
+    PackageID: ["8z.humanfleshlumps"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2885604947"
+  ModName: "Harvestable Human Flesh Lumps"

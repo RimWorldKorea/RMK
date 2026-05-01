@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - yukiyuki.FLESHIA
-    Mode: None
-    Dependency: Independent
+    PackageID: ["yukiyuki.FLESHIA"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3459970098"
+  ModName: "FLESHIA"

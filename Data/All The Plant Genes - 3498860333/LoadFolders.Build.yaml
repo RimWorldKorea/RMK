@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - JHE2.MoPlantGen
-    Mode: None
-    Dependency: Independent
+    PackageID: ["JHE2.MoPlantGen"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3498860333"
+  ModName: "All The Plant Genes"

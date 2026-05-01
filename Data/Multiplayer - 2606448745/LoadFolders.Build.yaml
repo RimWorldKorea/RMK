@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - rwmt.Multiplayer
-    Mode: None
-    Dependency: Independent
+    PackageID: ["rwmt.Multiplayer"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2606448745"
+  ModName: "Multiplayer"

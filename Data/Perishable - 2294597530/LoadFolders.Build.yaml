@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - wtfomgjohnny.Perishable
-    Mode: None
-    Dependency: Independent
+    PackageID: ["wtfomgjohnny.Perishable"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2294597530"
+  ModName: "Perishable"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - LimeTreeSnake.AdvancedAmmoPack
-    Mode: None
-    Dependency: Independent
+    PackageID: ["LimeTreeSnake.AdvancedAmmoPack"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3014181576"
+  ModName: "[LTS]Ammunition - Advanced Ammo Pack"

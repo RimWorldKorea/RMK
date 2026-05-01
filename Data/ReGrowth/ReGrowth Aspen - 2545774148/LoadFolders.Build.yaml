@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - ReGrowth.BOTR.AspenForest
-    Mode: None
-    Dependency: Independent
+    PackageID: ["ReGrowth.BOTR.AspenForest"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2545774148"
+  ModName: "ReGrowth Aspen"

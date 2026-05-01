@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - pphhyy.ExpandedMechsScyther
-    Mode: None
-    Dependency: Independent
+    PackageID: ["pphhyy.ExpandedMechsScyther"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2966699873"
+  ModName: "phynilla Expanded Mechs Scyther"

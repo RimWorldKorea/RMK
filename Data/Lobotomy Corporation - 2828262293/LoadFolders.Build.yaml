@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Chocorofuru.Thaumoking.LobotomyCorporation
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Chocorofuru.Thaumoking.LobotomyCorporation"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2828262293"
+  ModName: "Lobotomy Corporation"

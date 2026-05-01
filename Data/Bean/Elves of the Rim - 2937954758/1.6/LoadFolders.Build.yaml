@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - bean.customxenotypes.elvesoftherim
-    Mode: None
-    Dependency: Independent
+    PackageID: ["bean.customxenotypes.elvesoftherim"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2937954758"
+  ModName: "Elves of the Rim"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - jecrell.StarWarsTheForce
-    Mode: None
-    Dependency: Independent
+    PackageID: ["jecrell.StarWarsTheForce"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "918226861"
+  ModName: "Star Wars - The Force"

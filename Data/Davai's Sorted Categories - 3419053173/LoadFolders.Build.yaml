@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - davai.sortedcategories
-    Mode: None
-    Dependency: Independent
+    PackageID: ["davai.sortedcategories"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3419053173"
+  ModName: "Davai's Sorted Categories"

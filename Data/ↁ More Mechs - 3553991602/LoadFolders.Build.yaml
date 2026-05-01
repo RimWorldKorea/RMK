@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - DevDesigner.MoreMechs
-    Mode: None
-    Dependency: Independent
+    PackageID: ["DevDesigner.MoreMechs"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3553991602"
+  ModName: "ↁ More Mechs"

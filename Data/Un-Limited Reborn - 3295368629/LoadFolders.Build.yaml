@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - NuanKi.UnlimitedReborn
-    Mode: None
-    Dependency: Independent
+    PackageID: ["NuanKi.UnlimitedReborn"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3295368629"
+  ModName: "Un-Limited Reborn"

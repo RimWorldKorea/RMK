@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - LSK.RabbieFurnitureAndFacilities.Basic
-    Mode: None
-    Dependency: Independent
+    PackageID: ["LSK.RabbieFurnitureAndFacilities.Basic"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3155273482"
+  ModName: "[LSK]Rabbie Furniture And Facilities-Basic"

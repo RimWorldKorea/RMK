@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - misstall.nisstallsarmoryz
-    Mode: None
-    Dependency: Independent
+    PackageID: ["misstall.nisstallsarmoryz"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3250588215"
+  ModName: "Misstall's Armory"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Okagrim.duskwood
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Okagrim.duskwood"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3560499511"
+  ModName: "Dusk Wood Biome"

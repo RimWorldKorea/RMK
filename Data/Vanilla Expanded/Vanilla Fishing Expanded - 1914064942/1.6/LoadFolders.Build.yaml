@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - VanillaExpanded.VCEF
-    Mode: None
-    Dependency: Independent
+    PackageID: ["VanillaExpanded.VCEF"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1914064942"
+  ModName: "Vanilla Fishing Expanded"

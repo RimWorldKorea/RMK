@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - JangoDsoul.StarsWars.Vader
-    Mode: None
-    Dependency: Independent
+    PackageID: ["JangoDsoul.StarsWars.Vader"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2396013974"
+  ModName: "Darth Vader Suit Set"

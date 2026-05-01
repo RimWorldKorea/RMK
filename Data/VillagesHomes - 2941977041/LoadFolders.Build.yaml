@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - ottersholdhands.villageshomes
-    Mode: None
-    Dependency: Independent
+    PackageID: ["ottersholdhands.villageshomes"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2941977041"
+  ModName: "VillagesHomes"

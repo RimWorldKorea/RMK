@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Dubwise.DubsBadHygiene.Lite
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Dubwise.DubsBadHygiene.Lite"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "836308268"
+  ModName: "Dubs Bad Hygiene"

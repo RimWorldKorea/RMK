@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - dani.moreTraits
-    Mode: None
-    Dependency: Independent
+    PackageID: ["dani.moreTraits"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2600986277"
+  ModName: "[DN] Bundle Of Traits"

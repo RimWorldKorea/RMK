@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Ryflamer.Rimcraft.PiratePatch
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Ryflamer.Rimcraft.PiratePatch"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1795171715"
+  ModName: "[Ry]Rimcraft Pirate Patch"

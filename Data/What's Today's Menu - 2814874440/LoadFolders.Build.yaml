@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - kaitorisenkou.WhatsTodaysMenu
-    Mode: None
-    Dependency: Independent
+    PackageID: ["kaitorisenkou.WhatsTodaysMenu"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2814874440"
+  ModName: "What's Today's Menu"

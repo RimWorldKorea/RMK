@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - NinaGoblin.NoOneLeftBehind
-    Mode: None
-    Dependency: Independent
+    PackageID: ["NinaGoblin.NoOneLeftBehind"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3536586707"
+  ModName: "No One Left Behind (1.6)"

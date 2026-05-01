@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - vanillaexpanded.vpsycastse
-    Mode: None
-    Dependency: Independent
+    PackageID: ["vanillaexpanded.vpsycastse"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2842502659"
+  ModName: "Vanilla Psycasts Expanded"

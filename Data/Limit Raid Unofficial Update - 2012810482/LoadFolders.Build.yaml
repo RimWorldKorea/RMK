@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Xiaozoom.Limitraid
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Xiaozoom.Limitraid"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2012810482"
+  ModName: "Limit Raid Unofficial Update"

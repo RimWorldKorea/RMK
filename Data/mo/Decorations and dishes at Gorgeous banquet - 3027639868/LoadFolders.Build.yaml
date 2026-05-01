@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - MO.DecorationsLuxury
-    Mode: None
-    Dependency: Independent
+    PackageID: ["MO.DecorationsLuxury"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3027639868"
+  ModName: "Decorations and dishes at Gorgeous banquet"

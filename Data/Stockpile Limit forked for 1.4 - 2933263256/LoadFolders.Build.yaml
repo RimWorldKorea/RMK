@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - seohyeon.stockpilelimit
-    Mode: None
-    Dependency: Independent
+    PackageID: ["seohyeon.stockpilelimit"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2933263256"
+  ModName: "Stockpile Limit forked for 1.4"

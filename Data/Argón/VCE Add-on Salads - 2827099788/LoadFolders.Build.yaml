@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Argon.VCESalads
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Argon.VCESalads"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2827099788"
+  ModName: "VCE Add-on Salads"

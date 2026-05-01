@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Rekasa.Momu
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Rekasa.Momu"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1929605886"
+  ModName: "Momu"

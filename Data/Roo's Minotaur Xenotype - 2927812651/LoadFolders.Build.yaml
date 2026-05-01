@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Rooboid.Minotaur
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Rooboid.Minotaur"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2927812651"
+  ModName: "Roo's Minotaur Xenotype"

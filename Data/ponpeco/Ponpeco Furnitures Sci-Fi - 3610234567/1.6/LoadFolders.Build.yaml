@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - ponpeco.PFSF
-    Mode: None
-    Dependency: Independent
+    PackageID: ["ponpeco.PFSF"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3610234567"
+  ModName: "Ponpeco Furnitures Sci-Fi"

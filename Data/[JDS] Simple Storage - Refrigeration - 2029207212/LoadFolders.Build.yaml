@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - JangoDsoul.SimpleStorage.Ref
-    Mode: None
-    Dependency: Independent
+    PackageID: ["JangoDsoul.SimpleStorage.Ref"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2029207212"
+  ModName: "[JDS] Simple Storage - Refrigeration"

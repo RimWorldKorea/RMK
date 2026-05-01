@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - cavenaugh.inventorytab
-    Mode: None
-    Dependency: Independent
+    PackageID: ["cavenaugh.inventorytab"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3232309538"
+  ModName: "InventoryTab (1.5 Update)"

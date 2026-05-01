@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - ponpeco.KidsClothes
-    Mode: None
-    Dependency: Independent
+    PackageID: ["ponpeco.KidsClothes"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3237739433"
+  ModName: "Ponpeco Kids' Clothes"

@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - vat.epoeforked
-    Mode: None
-    Dependency: Independent
+    PackageID: ["vat.epoeforked"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.5
+    Default: "1.5"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1949064302"
+  ModName: "Expanded Prosthetics and Organ Engineering - Forked"

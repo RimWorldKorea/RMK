@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mckay.ColonyLeadership.11
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mckay.ColonyLeadership.11"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1565942758"
+  ModName: "Colony Leadership"

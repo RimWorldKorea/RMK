@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - ReGrowth.BOTR.Core
-    Mode: None
-    Dependency: Independent
+    PackageID: ["ReGrowth.BOTR.Core"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.5
+    Default: "1.5"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2260097569"
+  ModName: "ReGrowth 2 Core"

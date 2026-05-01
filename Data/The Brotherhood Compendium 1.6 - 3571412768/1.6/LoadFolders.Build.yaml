@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - altushka.BosCompendium
-    Mode: None
-    Dependency: Independent
+    PackageID: ["altushka.BosCompendium"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3571412768"
+  ModName: "The Brotherhood Compendium 1.6"

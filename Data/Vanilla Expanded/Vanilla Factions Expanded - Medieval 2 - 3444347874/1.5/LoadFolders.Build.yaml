@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - OskarPotocki.VFE.Medieval2
-    Mode: None
-    Dependency: Independent
+    PackageID: ["OskarPotocki.VFE.Medieval2"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.5
+    Default: "1.5"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3444347874"
+  ModName: "Vanilla Factions Expanded - Medieval 2"

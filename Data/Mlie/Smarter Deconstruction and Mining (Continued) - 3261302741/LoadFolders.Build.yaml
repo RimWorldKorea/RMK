@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.SmarterDeconstructionAndMining
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.SmarterDeconstructionAndMining"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3261302741"
+  ModName: "Smarter Deconstruction and Mining (Continued)"

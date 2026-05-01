@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - VanillaStorytellersExpanded.WinstonWave
-    Mode: None
-    Dependency: Independent
+    PackageID: ["VanillaStorytellersExpanded.WinstonWave"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 
+    Default: "1.4"
     LeftBoundary: 
-    RightBoundary: 1.4
+    RightBoundary: "1.4"
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2734032569"
+  ModName: "Vanilla Storytellers Expanded - Winston Waves"

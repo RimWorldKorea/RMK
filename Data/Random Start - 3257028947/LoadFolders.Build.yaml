@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - bogknight.RandomStart
-    Mode: None
-    Dependency: Independent
+    PackageID: ["bogknight.RandomStart"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3257028947"
+  ModName: "Random Start"

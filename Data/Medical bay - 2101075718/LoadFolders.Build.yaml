@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - goudaquiche.LtfMedBay
-    Mode: None
-    Dependency: Independent
+    PackageID: ["goudaquiche.LtfMedBay"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2101075718"
+  ModName: "Medical bay"

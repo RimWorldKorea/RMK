@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Amegakull.WMOTBeacon
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Amegakull.WMOTBeacon"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3553078564"
+  ModName: "Wall-Mounted Orbital Trade Beacon"

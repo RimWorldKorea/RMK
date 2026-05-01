@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - MF.GorillaKing
-    Mode: None
-    Dependency: Independent
+    PackageID: ["MF.GorillaKing"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3545166645"
+  ModName: "Gorilla King"

@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - KOKODAYO.MGMechSpidergirl
-    Mode: None
-    Dependency: Independent
+    PackageID: ["KOKODAYO.MGMechSpidergirl"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3312056688"
+  ModName: "[MG]Mech Spider Girl"

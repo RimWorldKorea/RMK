@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - GHXX.TechAdvancing
-    Mode: None
-    Dependency: Independent
+    PackageID: ["GHXX.TechAdvancing"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "735268789"
+  ModName: "Tech Advancing"

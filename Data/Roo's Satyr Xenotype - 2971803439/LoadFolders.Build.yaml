@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Rooboid.Satyr
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Rooboid.Satyr"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2971803439"
+  ModName: "Roo's Satyr Xenotype"

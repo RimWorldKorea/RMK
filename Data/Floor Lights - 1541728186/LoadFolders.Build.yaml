@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - temeez.floorlights
-    Mode: None
-    Dependency: Independent
+    PackageID: ["temeez.floorlights"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1541728186"
+  ModName: "Floor Lights"

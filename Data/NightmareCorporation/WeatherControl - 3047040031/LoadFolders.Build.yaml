@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Nightmare.WeatherControl
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Nightmare.WeatherControl"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3047040031"
+  ModName: "WeatherControl"

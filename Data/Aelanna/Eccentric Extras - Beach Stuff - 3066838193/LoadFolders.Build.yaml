@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - aelanna.eccentrictech.beachstuff
-    Mode: None
-    Dependency: Independent
+    PackageID: ["aelanna.eccentrictech.beachstuff"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3066838193"
+  ModName: "Eccentric Extras - Beach Stuff"

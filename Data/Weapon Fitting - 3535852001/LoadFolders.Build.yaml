@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Deko.WeaponFitting
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Deko.WeaponFitting"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3535852001"
+  ModName: "Weapon Fitting"

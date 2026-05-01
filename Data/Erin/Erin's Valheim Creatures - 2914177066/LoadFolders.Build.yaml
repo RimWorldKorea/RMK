@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Erin.Valheim.Creatures
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Erin.Valheim.Creatures"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2914177066"
+  ModName: "Erin's Valheim Creatures"

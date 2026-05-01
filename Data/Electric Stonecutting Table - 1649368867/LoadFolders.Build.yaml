@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Cocaine.ElectricStonecuttingTable
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Cocaine.ElectricStonecuttingTable"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1649368867"
+  ModName: "Electric Stonecutting Table"

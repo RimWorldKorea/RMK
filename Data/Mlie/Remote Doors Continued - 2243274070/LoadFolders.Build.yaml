@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - mlie.remotedoors
-    Mode: None
-    Dependency: Independent
+    PackageID: ["mlie.remotedoors"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2243274070"
+  ModName: "Remote Doors Continued"

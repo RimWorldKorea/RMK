@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - oskarpotocki.vanillavehiclesexpandedtier3
-    Mode: None
-    Dependency: Independent
+    PackageID: ["oskarpotocki.vanillavehiclesexpandedtier3"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3047892432"
+  ModName: "Vanilla Vehicles Expanded - Tier 3"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - SHP.RUS
-    Mode: None
-    Dependency: Independent
+    PackageID: ["SHP.RUS"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3432907335"
+  ModName: "Stationhouse Supplies"

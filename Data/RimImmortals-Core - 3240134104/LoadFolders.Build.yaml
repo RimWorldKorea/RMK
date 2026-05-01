@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - RI.RimImmortals.Core
-    Mode: None
-    Dependency: Independent
+    PackageID: ["RI.RimImmortals.Core"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3240134104"
+  ModName: "RimImmortals-Core"

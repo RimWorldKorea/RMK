@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - VanillaExpanded.VFEPropsandDecor
-    Mode: None
-    Dependency: Independent
+    PackageID: ["VanillaExpanded.VFEPropsandDecor"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2102143149"
+  ModName: "Vanilla Furniture Expanded - Props and Decor"

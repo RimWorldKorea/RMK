@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Sierra.RT.MedievalTalents
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Sierra.RT.MedievalTalents"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1916352291"
+  ModName: "RimTraits - Medieval Talents"

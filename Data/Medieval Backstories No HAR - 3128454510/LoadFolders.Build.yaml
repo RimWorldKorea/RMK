@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - assassinsbro.medievalbackstoriesnohar
-    Mode: None
-    Dependency: Independent
+    PackageID: ["assassinsbro.medievalbackstoriesnohar"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3128454510"
+  ModName: "Medieval Backstories No HAR"

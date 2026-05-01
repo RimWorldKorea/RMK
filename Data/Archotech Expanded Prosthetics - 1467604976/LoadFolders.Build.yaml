@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Teok25.ArchotechExpanded.Prosthetics
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Teok25.ArchotechExpanded.Prosthetics"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1467604976"
+  ModName: "Archotech Expanded Prosthetics"

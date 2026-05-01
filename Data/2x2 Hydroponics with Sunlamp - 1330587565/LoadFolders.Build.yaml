@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - zzz.2x2HydroponicswithSunlamp
-    Mode: None
-    Dependency: Independent
+    PackageID: ["zzz.2x2HydroponicswithSunlamp"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1330587565"
+  ModName: "2x2 Hydroponics with Sunlamp"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - K.CyberNet
-    Mode: None
-    Dependency: Independent
+    PackageID: ["K.CyberNet"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1725545225"
+  ModName: "CyberNet"

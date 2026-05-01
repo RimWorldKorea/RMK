@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.ExtraPsycasts
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.ExtraPsycasts"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2560684411"
+  ModName: "ExtraPsycasts (Continued)"

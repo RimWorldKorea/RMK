@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Infinite.Scavenging
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Infinite.Scavenging"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2544523612"
+  ModName: "Scavenging mod"

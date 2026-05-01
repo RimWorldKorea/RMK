@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Santa.Straitjackets
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Santa.Straitjackets"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2232943730"
+  ModName: "Call of Cthulhu - Straitjackets"

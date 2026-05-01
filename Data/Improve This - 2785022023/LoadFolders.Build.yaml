@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - hexi.improvethisbuilding
-    Mode: None
-    Dependency: Independent
+    PackageID: ["hexi.improvethisbuilding"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2785022023"
+  ModName: "Improve This"

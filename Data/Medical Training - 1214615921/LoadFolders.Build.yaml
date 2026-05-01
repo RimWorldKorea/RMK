@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - itchyflea.medicaltraining
-    Mode: None
-    Dependency: Independent
+    PackageID: ["itchyflea.medicaltraining"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1214615921"
+  ModName: "Medical Training"

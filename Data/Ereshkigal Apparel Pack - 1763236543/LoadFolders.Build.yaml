@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - asjjkl.costume
-    Mode: None
-    Dependency: Independent
+    PackageID: ["asjjkl.costume"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1763236543"
+  ModName: "Ereshkigal Apparel Pack"

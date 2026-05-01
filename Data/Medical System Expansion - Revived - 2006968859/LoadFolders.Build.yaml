@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Abraxas.MSERevived
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Abraxas.MSERevived"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2006968859"
+  ModName: "Medical System Expansion - Revived"

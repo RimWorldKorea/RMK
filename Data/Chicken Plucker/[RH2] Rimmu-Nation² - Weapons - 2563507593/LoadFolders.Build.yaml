@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - CP.RimmuNation.2.Weapons
-    Mode: None
-    Dependency: Independent
+    PackageID: ["CP.RimmuNation.2.Weapons"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2563507593"
+  ModName: "[RH2] Rimmu-Nation² - Weapons"

@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - grimworld.astramilitarum
-    Mode: None
-    Dependency: Independent
+    PackageID: ["grimworld.astramilitarum"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3015391450"
+  ModName: "GrimWorld 40,000 - Hammer of the Imperium"

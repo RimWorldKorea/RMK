@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - ASMR.RJW.RaceSupport
-    Mode: None
-    Dependency: Independent
+    PackageID: ["ASMR.RJW.RaceSupport"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "NS9439099"
+  ModName: "RJW Race Support"

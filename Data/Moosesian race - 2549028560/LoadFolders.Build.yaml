@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - WaffelF.MoosesianRace
-    Mode: None
-    Dependency: Independent
+    PackageID: ["WaffelF.MoosesianRace"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2549028560"
+  ModName: "Moosesian race"

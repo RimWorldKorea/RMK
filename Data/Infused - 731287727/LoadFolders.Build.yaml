@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - notfood.Infused
-    Mode: None
-    Dependency: Independent
+    PackageID: ["notfood.Infused"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "731287727"
+  ModName: "Infused"

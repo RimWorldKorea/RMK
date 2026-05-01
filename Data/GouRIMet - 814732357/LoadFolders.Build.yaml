@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - spoonshortage.gourimet
-    Mode: None
-    Dependency: Independent
+    PackageID: ["spoonshortage.gourimet"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "814732357"
+  ModName: "GouRIMet"

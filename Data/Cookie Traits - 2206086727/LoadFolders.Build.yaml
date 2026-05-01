@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - lc.cookietweaks
-    Mode: None
-    Dependency: Independent
+    PackageID: ["lc.cookietweaks"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2206086727"
+  ModName: "Cookie Traits"

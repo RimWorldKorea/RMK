@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - RimThunderTeams.RimThunder.EnduringFreedom
-    Mode: None
-    Dependency: Independent
+    PackageID: ["RimThunderTeams.RimThunder.EnduringFreedom"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3328006205"
+  ModName: "RimThunder - Enduring Freedom"

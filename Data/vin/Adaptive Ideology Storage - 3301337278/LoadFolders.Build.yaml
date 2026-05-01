@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Adaptive.Ideology.Storage
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Adaptive.Ideology.Storage"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3301337278"
+  ModName: "Adaptive Ideology Storage"

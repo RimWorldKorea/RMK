@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - VanillaExpanded.VCookEBakery
-    Mode: None
-    Dependency: Independent
+    PackageID: ["VanillaExpanded.VCookEBakery"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3590516685"
+  ModName: "Vanilla Cooking Expanded - Bakery"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - vanillaracesexpanded.fungoid
-    Mode: None
-    Dependency: Independent
+    PackageID: ["vanillaracesexpanded.fungoid"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3042690053"
+  ModName: "Vanilla Races Expanded - Fungoid"

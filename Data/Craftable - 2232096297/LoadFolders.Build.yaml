@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - mawy.craftable
-    Mode: None
-    Dependency: Independent
+    PackageID: ["mawy.craftable"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2232096297"
+  ModName: "Craftable"

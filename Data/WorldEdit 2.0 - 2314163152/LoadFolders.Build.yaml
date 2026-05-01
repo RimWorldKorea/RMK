@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - funkyshit.mods.worldedit
-    Mode: None
-    Dependency: Independent
+    PackageID: ["funkyshit.mods.worldedit"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2314163152"
+  ModName: "WorldEdit 2.0"

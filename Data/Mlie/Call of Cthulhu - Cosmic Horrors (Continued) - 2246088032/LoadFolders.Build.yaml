@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.CallofCthulhuCosmicHorrors
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.CallofCthulhuCosmicHorrors"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2246088032"
+  ModName: "Call of Cthulhu - Cosmic Horrors (Continued)"

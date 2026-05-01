@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Bart.WBE
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Bart.WBE"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3575912544"
+  ModName: "Aquatic Repopulation"

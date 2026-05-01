@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - JellyCreative.IsekaiLeveling
-    Mode: None
-    Dependency: Independent
+    PackageID: ["JellyCreative.IsekaiLeveling"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3657580708"
+  ModName: "ISEKAI RPG LEVELING"

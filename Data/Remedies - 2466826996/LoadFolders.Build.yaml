@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - freefolk.Remedies
-    Mode: None
-    Dependency: Independent
+    PackageID: ["freefolk.Remedies"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2466826996"
+  ModName: "Remedies"

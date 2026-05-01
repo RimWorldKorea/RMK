@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.WeaponMastery
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.WeaponMastery"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2898431155"
+  ModName: "Weapon Mastery (Continued)"

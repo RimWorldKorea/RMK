@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.BirdsBeyond
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.BirdsBeyond"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3263608515"
+  ModName: "Birds Beyond (Continued)"

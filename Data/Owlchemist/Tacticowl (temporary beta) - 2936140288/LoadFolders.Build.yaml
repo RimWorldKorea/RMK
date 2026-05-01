@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - owlchemist.tacticowl
-    Mode: None
-    Dependency: Independent
+    PackageID: ["owlchemist.tacticowl"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2936140288"
+  ModName: "Tacticowl (temporary beta)"

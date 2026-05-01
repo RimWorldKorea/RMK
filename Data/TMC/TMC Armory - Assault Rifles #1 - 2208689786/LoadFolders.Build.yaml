@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - TMC.Armory.AssaultRifle.1
-    Mode: None
-    Dependency: Independent
+    PackageID: ["TMC.Armory.AssaultRifle.1"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2208689786"
+  ModName: "TMC Armory - Assault Rifles #1"

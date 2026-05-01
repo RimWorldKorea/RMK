@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - densevoid.onebedtosleepwithall
-    Mode: None
-    Dependency: Independent
+    PackageID: ["densevoid.onebedtosleepwithall"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2572109781"
+  ModName: "One bed to sleep with all"

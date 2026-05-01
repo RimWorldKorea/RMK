@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - kb.battlecruiser
-    Mode: None
-    Dependency: Independent
+    PackageID: ["kb.battlecruiser"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2822956166"
+  ModName: "环·战列巡航舰 Rim·Battlecruiser"

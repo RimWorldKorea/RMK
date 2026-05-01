@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - NachoToast.MustardGas
-    Mode: None
-    Dependency: Independent
+    PackageID: ["NachoToast.MustardGas"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3001437744"
+  ModName: "Mustard Gas"

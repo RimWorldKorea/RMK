@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Kompadt.Warhammer.Gor
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Kompadt.Warhammer.Gor"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1669073318"
+  ModName: "Warhammer Gor"

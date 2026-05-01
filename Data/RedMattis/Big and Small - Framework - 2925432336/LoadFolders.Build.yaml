@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - RedMattis.BetterPrerequisites
-    Mode: None
-    Dependency: Independent
+    PackageID: ["RedMattis.BetterPrerequisites"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2925432336"
+  ModName: "Big and Small - Framework"

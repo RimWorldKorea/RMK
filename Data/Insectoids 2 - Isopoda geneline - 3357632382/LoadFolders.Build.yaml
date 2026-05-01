@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Who.VFEE.IsopodaGeneline
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Who.VFEE.IsopodaGeneline"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3357632382"
+  ModName: "Insectoids 2 - Isopoda geneline"

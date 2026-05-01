@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - cucumpear.storage
-    Mode: None
-    Dependency: Independent
+    PackageID: ["cucumpear.storage"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "895944018"
+  ModName: "Storage Solutions"

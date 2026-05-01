@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - ELIF.SRTS.Helicopters
-    Mode: None
-    Dependency: Independent
+    PackageID: ["ELIF.SRTS.Helicopters"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2575097304"
+  ModName: "SRTS - Helicopters"

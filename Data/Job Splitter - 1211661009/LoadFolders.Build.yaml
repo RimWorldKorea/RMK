@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Fuglypump.JobSplitter
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Fuglypump.JobSplitter"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1211661009"
+  ModName: "Job Splitter"

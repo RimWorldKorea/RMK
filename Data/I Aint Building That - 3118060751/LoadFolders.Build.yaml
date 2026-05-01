@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Taggerung.IAintBuildingThat
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Taggerung.IAintBuildingThat"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3118060751"
+  ModName: "I Aint Building That"

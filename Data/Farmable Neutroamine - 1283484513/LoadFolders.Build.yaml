@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - nanonator102.FarmableNeutroamine
-    Mode: None
-    Dependency: Independent
+    PackageID: ["nanonator102.FarmableNeutroamine"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1283484513"
+  ModName: "Farmable Neutroamine"

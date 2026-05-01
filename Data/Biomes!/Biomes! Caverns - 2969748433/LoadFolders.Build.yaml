@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - BiomesTeam.BiomesCaverns
-    Mode: None
-    Dependency: Independent
+    PackageID: ["BiomesTeam.BiomesCaverns"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2969748433"
+  ModName: "Biomes! Caverns"

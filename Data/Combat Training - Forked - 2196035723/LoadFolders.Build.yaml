@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - helldragger.combattrainingforked
-    Mode: None
-    Dependency: Independent
+    PackageID: ["helldragger.combattrainingforked"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2196035723"
+  ModName: "Combat Training - Forked"

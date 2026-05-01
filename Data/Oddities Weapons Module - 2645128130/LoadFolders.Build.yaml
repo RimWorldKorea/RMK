@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Chairheir.OdditiesWeapons
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Chairheir.OdditiesWeapons"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2645128130"
+  ModName: "Oddities Weapons Module"

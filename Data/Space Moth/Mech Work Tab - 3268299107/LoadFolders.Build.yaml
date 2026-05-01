@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Spacemoth.MechTab
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Spacemoth.MechTab"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3268299107"
+  ModName: "Mech Work Tab"

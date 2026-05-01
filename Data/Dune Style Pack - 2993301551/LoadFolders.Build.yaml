@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - DSP.HalituisAmaricanous
-    Mode: None
-    Dependency: Independent
+    PackageID: ["DSP.HalituisAmaricanous"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2993301551"
+  ModName: "Dune Style Pack"

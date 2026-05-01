@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - tikubonn.DiceOfDestiny
-    Mode: None
-    Dependency: Independent
+    PackageID: ["tikubonn.DiceOfDestiny"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2246973533"
+  ModName: "Dice of Destiny"

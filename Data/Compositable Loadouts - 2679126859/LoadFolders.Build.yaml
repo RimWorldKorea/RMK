@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Wiri.compositableloadouts
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Wiri.compositableloadouts"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2679126859"
+  ModName: "Compositable Loadouts"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Taranchuk.ClaySoldeirs
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Taranchuk.ClaySoldeirs"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2307153650"
+  ModName: "Clay Soldier Race"

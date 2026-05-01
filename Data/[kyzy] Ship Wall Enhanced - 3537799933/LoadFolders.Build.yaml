@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Kyzy.ShipWallEnhanced
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Kyzy.ShipWallEnhanced"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3537799933"
+  ModName: "[kyzy] Ship Wall Enhanced"

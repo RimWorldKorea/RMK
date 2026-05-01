@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Asiimoves.DeadManSwitch.ModuleMechWeapons
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Asiimoves.DeadManSwitch.ModuleMechWeapons"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3483843496"
+  ModName: "The Dead Man's Switch - Module MechWeapons"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - CaptainMuscles.ChillOut
-    Mode: None
-    Dependency: Independent
+    PackageID: ["CaptainMuscles.ChillOut"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2369675899"
+  ModName: "Chill the F Out"

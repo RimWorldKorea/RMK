@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - madman.toolsofthetrade
-    Mode: None
-    Dependency: Independent
+    PackageID: ["madman.toolsofthetrade"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1851407975"
+  ModName: "Medieval Madness Tools of the Trade"

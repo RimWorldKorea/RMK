@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - SirMashedPotato.Bloodmoon
-    Mode: None
-    Dependency: Independent
+    PackageID: ["SirMashedPotato.Bloodmoon"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3523186663"
+  ModName: "Mashed's Bloodmoon"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - SheWantsRevenge.SkullsandIvory
-    Mode: None
-    Dependency: Independent
+    PackageID: ["SheWantsRevenge.SkullsandIvory"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3169742181"
+  ModName: "Skulls and Ivory"

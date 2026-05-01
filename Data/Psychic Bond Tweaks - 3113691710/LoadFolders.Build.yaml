@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - yowave.PsychicBondTweaks
-    Mode: None
-    Dependency: Independent
+    PackageID: ["yowave.PsychicBondTweaks"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3113691710"
+  ModName: "Psychic Bond Tweaks"

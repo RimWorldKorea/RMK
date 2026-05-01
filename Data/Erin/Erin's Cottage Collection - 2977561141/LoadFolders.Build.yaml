@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - erin.cottagecollection
-    Mode: None
-    Dependency: Independent
+    PackageID: ["erin.cottagecollection"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2977561141"
+  ModName: "Erin's Cottage Collection"

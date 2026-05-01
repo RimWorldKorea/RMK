@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Uuugggg.ShareTheLoad
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Uuugggg.ShareTheLoad"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1356838246"
+  ModName: "Share The Load"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Chairheir.OdditiesCore
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Chairheir.OdditiesCore"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2723455136"
+  ModName: "Oddities Core Module"

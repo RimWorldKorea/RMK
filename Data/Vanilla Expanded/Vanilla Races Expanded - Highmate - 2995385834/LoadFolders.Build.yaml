@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - vanillaracesexpanded.highmate
-    Mode: None
-    Dependency: Independent
+    PackageID: ["vanillaracesexpanded.highmate"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2995385834"
+  ModName: "Vanilla Races Expanded - Highmate"

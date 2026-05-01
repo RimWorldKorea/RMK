@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Lyinlen.CrusaderWhale
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Lyinlen.CrusaderWhale"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3171384758"
+  ModName: "CrusaderWhale"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - ComigoGames.Miniaturization.Kitchen
-    Mode: None
-    Dependency: Independent
+    PackageID: ["ComigoGames.Miniaturization.Kitchen"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2546863371"
+  ModName: "Comigo's Nutrition"

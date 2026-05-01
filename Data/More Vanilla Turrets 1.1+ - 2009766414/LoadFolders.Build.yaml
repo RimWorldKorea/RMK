@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - paradox.morevanillaturrets
-    Mode: None
-    Dependency: Independent
+    PackageID: ["paradox.morevanillaturrets"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2009766414"
+  ModName: "More Vanilla Turrets 1.1+"

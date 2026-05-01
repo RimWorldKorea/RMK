@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - oskarpotocki.vanillaexpanded.ideologypatches
-    Mode: None
-    Dependency: Independent
+    PackageID: ["oskarpotocki.vanillaexpanded.ideologypatches"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2566669771"
+  ModName: "Vanilla Expanded - Ideology Patches"

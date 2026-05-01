@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Aoba.Architecture
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Aoba.Architecture"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2493347264"
+  ModName: "Architecture of the Rim"

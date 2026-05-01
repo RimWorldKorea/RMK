@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - ferny.outreachcategory
-    Mode: None
-    Dependency: Independent
+    PackageID: ["ferny.outreachcategory"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3252683569"
+  ModName: "Outreach Category"

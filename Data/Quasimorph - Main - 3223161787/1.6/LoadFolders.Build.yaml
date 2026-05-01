@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - SGG1.QM
-    Mode: None
-    Dependency: Independent
+    PackageID: ["SGG1.QM"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3223161787"
+  ModName: "Quasimorph - Main"

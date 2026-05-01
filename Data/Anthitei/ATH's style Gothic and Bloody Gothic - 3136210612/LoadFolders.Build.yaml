@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - anthitei.athsstylegothic.style
-    Mode: None
-    Dependency: Independent
+    PackageID: ["anthitei.athsstylegothic.style"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3136210612"
+  ModName: "ATH's style Gothic and Bloody Gothic"

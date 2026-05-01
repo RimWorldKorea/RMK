@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - ZuoYao.KiiroMaineCoon
-    Mode: None
-    Dependency: Independent
+    PackageID: ["ZuoYao.KiiroMaineCoon"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3706665681"
+  ModName: "Kiiro Race - Maine Coon Xenotype"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - WexMan.TrainingConsole1.2
-    Mode: None
-    Dependency: Independent
+    PackageID: ["WexMan.TrainingConsole1.2"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1546200012"
+  ModName: "Training Console1.2"

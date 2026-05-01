@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - ferny.propscore
-    Mode: None
-    Dependency: Independent
+    PackageID: ["ferny.propscore"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3167021055"
+  ModName: "Ferny's Props Core"

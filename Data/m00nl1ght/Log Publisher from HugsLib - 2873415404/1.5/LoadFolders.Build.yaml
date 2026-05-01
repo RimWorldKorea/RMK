@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - m00nl1ght.UnofficialUpdates.HugsLogPublisher
-    Mode: None
-    Dependency: Independent
+    PackageID: ["m00nl1ght.UnofficialUpdates.HugsLogPublisher"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.5
+    Default: "1.5"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2873415404"
+  ModName: "Log Publisher from HugsLib"

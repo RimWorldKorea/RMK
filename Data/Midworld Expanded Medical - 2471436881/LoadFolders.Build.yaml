@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - miathea.medicalexpansion
-    Mode: None
-    Dependency: Independent
+    PackageID: ["miathea.medicalexpansion"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2471436881"
+  ModName: "Midworld Expanded Medical"

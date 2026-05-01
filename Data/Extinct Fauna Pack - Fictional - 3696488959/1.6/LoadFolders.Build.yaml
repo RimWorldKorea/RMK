@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - sneezingseal.extinctfaunapack.fictional
-    Mode: None
-    Dependency: Independent
+    PackageID: ["sneezingseal.extinctfaunapack.fictional"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3696488959"
+  ModName: "Extinct Fauna Pack - Fictional"

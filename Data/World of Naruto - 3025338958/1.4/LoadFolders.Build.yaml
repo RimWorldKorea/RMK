@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - LifeisGame.WorldOfNaruto
-    Mode: None
-    Dependency: Independent
+    PackageID: ["LifeisGame.WorldOfNaruto"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.4
+    Default: "1.4"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3025338958"
+  ModName: "World of Naruto"

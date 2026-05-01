@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - FarTresh.HadalMoyos
-    Mode: None
-    Dependency: Independent
+    PackageID: ["FarTresh.HadalMoyos"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3689163624"
+  ModName: "Moyo-Where the light ends"

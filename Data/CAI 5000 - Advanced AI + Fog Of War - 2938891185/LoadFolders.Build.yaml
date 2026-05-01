@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - krkr.rule56
-    Mode: None
-    Dependency: Independent
+    PackageID: ["krkr.rule56"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2938891185"
+  ModName: "CAI 5000 - Advanced AI + Fog Of War"

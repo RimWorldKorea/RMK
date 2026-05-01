@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - EBSG.Framework
-    Mode: None
-    Dependency: Independent
+    PackageID: ["EBSG.Framework"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3112549163"
+  ModName: "EBSG Framework"

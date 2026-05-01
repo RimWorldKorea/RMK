@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - sarg.alpharandom
-    Mode: None
-    Dependency: Independent
+    PackageID: ["sarg.alpharandom"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3642631969"
+  ModName: "Alpha Random"

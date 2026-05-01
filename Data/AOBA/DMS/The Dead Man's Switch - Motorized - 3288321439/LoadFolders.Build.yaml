@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Aoba.DeadManSwitch.Motorized
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Aoba.DeadManSwitch.Motorized"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3288321439"
+  ModName: "The Dead Man's Switch - Motorized"

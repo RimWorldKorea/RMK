@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - weilbyte.snapout
-    Mode: None
-    Dependency: Independent
+    PackageID: ["weilbyte.snapout"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1319782555"
+  ModName: "Snap Out!"

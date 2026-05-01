@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - VPE.Gravcaster.Sentinel
-    Mode: None
-    Dependency: Independent
+    PackageID: ["VPE.Gravcaster.Sentinel"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3526559471"
+  ModName: "VPE - Gravcaster"

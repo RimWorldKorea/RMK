@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Vortex.CustomizeWeapon
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Vortex.CustomizeWeapon"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3550585103"
+  ModName: "Customize Weapon"

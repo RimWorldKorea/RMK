@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Phonicmas.RimDark.MankindsFinest
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Phonicmas.RimDark.MankindsFinest"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3505068525"
+  ModName: "RimDark 40k - Mankinds Finest"

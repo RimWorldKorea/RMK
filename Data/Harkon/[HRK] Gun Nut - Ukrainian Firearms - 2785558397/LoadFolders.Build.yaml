@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Harkon.GunNut.UkrainianFirearms
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Harkon.GunNut.UkrainianFirearms"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2785558397"
+  ModName: "[HRK] Gun Nut - Ukrainian Firearms"

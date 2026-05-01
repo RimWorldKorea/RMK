@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - warlocksforge.fishtraps
-    Mode: None
-    Dependency: Independent
+    PackageID: ["warlocksforge.fishtraps"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2594468074"
+  ModName: "Fish Traps"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Bx395.WarhiveSeries.MechReconHive
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Bx395.WarhiveSeries.MechReconHive"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2562716978"
+  ModName: "Mechanoid Recon Hive"

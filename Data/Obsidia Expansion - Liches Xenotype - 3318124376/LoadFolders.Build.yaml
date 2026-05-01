@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - ObsidiaExpansion.Xenos.Liches
-    Mode: None
-    Dependency: Independent
+    PackageID: ["ObsidiaExpansion.Xenos.Liches"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3318124376"
+  ModName: "Obsidia Expansion - Liches Xenotype"

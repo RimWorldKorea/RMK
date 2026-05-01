@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Aoba.DeadManSwitch.Expedition
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Aoba.DeadManSwitch.Expedition"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3689879335"
+  ModName: "The Dead Man's Switch - Expedition"

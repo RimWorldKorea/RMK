@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Farxmai2.DBH.Expanded
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Farxmai2.DBH.Expanded"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3125246043"
+  ModName: "DBH Addon Expanded Pack"

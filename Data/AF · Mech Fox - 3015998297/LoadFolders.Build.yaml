@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Amli.Story.MechFox
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Amli.Story.MechFox"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3015998297"
+  ModName: "AF · Mech Fox"

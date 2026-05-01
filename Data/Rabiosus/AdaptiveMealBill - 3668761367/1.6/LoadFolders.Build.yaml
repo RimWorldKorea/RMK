@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - rabiosus.AdaptiveMealBill
-    Mode: None
-    Dependency: Independent
+    PackageID: ["rabiosus.AdaptiveMealBill"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3668761367"
+  ModName: "AdaptiveMealBill"

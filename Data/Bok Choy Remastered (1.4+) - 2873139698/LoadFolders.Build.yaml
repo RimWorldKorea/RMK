@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - aRoC.BokChoy
-    Mode: None
-    Dependency: Independent
+    PackageID: ["aRoC.BokChoy"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2873139698"
+  ModName: "Bok Choy Remastered (1.4+)"

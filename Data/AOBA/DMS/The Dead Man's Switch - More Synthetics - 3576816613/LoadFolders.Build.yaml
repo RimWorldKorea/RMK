@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Cephalopod.DeadManSwitch.MoreSynthetics
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Cephalopod.DeadManSwitch.MoreSynthetics"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3576816613"
+  ModName: "The Dead Man's Switch - More Synthetics"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.RoadsOfTheRim
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.RoadsOfTheRim"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2280318231"
+  ModName: "Roads of the Rim (Continued)"

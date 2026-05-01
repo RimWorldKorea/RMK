@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - miyamiya.compressedraid.latest
-    Mode: None
-    Dependency: Independent
+    PackageID: ["miyamiya.compressedraid.latest"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2377478084"
+  ModName: "Compressed Raid(Abandoned)"

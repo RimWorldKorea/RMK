@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Agracore.BSM
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Agracore.BSM"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2283449489"
+  ModName: "Better Survival Meals"

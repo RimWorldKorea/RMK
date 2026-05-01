@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - pluralled.raiderinfo
-    Mode: None
-    Dependency: Independent
+    PackageID: ["pluralled.raiderinfo"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3532072446"
+  ModName: "RaiderInfo[1.6] - Forked"

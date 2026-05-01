@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - xedos.personabond
-    Mode: None
-    Dependency: Independent
+    PackageID: ["xedos.personabond"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2178003816"
+  ModName: "Persona Bond Forge"

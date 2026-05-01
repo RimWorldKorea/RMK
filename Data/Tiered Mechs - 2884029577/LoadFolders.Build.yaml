@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - pyro.tieredmechs
-    Mode: None
-    Dependency: Independent
+    PackageID: ["pyro.tieredmechs"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2884029577"
+  ModName: "Tiered Mechs"

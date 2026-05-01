@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - moistestwhale.ceilingtradebeacon
-    Mode: None
-    Dependency: Independent
+    PackageID: ["moistestwhale.ceilingtradebeacon"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3214957801"
+  ModName: "Ceiling Mounted Orbital Trade Beacon"

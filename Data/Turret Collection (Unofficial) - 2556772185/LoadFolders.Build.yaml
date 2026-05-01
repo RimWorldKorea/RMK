@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - eatkenny.leafzxg.dws.turretcollection
-    Mode: None
-    Dependency: Independent
+    PackageID: ["eatkenny.leafzxg.dws.turretcollection"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2556772185"
+  ModName: "Turret Collection (Unofficial)"

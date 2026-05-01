@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - RimEffectRenegade.AsariReapers
-    Mode: None
-    Dependency: Independent
+    PackageID: ["RimEffectRenegade.AsariReapers"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3473370728"
+  ModName: "Rim-Effect Renegade Asari and Reapers"

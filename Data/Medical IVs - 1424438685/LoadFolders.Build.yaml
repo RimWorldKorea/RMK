@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Knight.MedicalIVs
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Knight.MedicalIVs"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1424438685"
+  ModName: "Medical IVs"

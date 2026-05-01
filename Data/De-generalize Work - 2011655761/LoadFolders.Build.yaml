@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Alias.DegeneralizeWork
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Alias.DegeneralizeWork"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2011655761"
+  ModName: "De-generalize Work"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - ellit.Omlettes
-    Mode: None
-    Dependency: Independent
+    PackageID: ["ellit.Omlettes"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2931714102"
+  ModName: "El's Omlettes"

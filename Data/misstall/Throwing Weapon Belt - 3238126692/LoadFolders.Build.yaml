@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - misstall.throwingweaponbeltz
-    Mode: None
-    Dependency: Independent
+    PackageID: ["misstall.throwingweaponbeltz"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3238126692"
+  ModName: "Throwing Weapon Belt"

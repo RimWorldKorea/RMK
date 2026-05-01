@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - VanillaExpanded.VMemesE
-    Mode: None
-    Dependency: Independent
+    PackageID: ["VanillaExpanded.VMemesE"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2636329500"
+  ModName: "Vanilla Ideology Expanded - Memes and Structures"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - MediocreSoftware.OverkillGodTrait
-    Mode: None
-    Dependency: Independent
+    PackageID: ["MediocreSoftware.OverkillGodTrait"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2032850941"
+  ModName: "Overkill (A God Trait)"

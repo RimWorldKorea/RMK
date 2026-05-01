@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Veltaris.Mechtech
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Veltaris.Mechtech"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3339795890"
+  ModName: "[AV] Mechtech"

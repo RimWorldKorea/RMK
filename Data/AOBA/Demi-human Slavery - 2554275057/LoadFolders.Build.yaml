@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Aoba.AlienSlavery
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Aoba.AlienSlavery"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2554275057"
+  ModName: "Demi-human Slavery"

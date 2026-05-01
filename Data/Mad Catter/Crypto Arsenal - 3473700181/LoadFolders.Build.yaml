@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - CAT.CryptoPack
-    Mode: None
-    Dependency: Independent
+    PackageID: ["CAT.CryptoPack"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3473700181"
+  ModName: "Crypto Arsenal"

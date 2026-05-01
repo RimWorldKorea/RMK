@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.LootBoxes
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.LootBoxes"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3258852853"
+  ModName: "Loot Boxes (Continued)"

@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - LingLuo.GiantCrop
-    Mode: None
-    Dependency: Independent
+    PackageID: ["LingLuo.GiantCrop"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3488540512"
+  ModName: "Giant crop"

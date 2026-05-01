@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - ocarina.rainworld
-    Mode: None
-    Dependency: Independent
+    PackageID: ["ocarina.rainworld"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3133075426"
+  ModName: "RainWorld"

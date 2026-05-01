@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - biotexpans.core
-    Mode: None
-    Dependency: Independent
+    PackageID: ["biotexpans.core"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.4
+    Default: "1.4"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2884018485"
+  ModName: "Biotech Expansion - Core"

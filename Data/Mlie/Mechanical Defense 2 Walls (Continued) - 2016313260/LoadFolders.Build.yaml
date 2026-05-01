@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.MechanicalDefense2Walls
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.MechanicalDefense2Walls"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2016313260"
+  ModName: "Mechanical Defense 2 Walls (Continued)"

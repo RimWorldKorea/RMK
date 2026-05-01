@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Phaneron.Vault111Startpack
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Phaneron.Vault111Startpack"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2985719270"
+  ModName: "Fallout Vault 111 Starter Pack"

@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - temmie3754.retend.1
-    Mode: None
-    Dependency: Independent
+    PackageID: ["temmie3754.retend.1"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.2
+    Default: "1.2"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3523724230"
+  ModName: "ReTend"

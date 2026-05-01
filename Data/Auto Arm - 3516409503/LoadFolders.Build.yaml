@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Snues.AutoArm
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Snues.AutoArm"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3516409503"
+  ModName: "Auto Arm"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Thek.GuardingP
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Thek.GuardingP"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3114183220"
+  ModName: "Guarding Pawns"

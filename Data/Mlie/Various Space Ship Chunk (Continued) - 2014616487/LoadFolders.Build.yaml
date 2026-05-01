@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.VariousSpaceShipChunk
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.VariousSpaceShipChunk"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2014616487"
+  ModName: "Various Space Ship Chunk (Continued)"

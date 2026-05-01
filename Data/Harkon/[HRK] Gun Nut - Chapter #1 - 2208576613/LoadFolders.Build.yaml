@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Harkon.GunNut.Chapter1
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Harkon.GunNut.Chapter1"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2208576613"
+  ModName: "[HRK] Gun Nut - Chapter #1"

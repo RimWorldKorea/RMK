@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - GoGaTio.MechanoidUpgrades.Anomaly
-    Mode: None
-    Dependency: Independent
+    PackageID: ["GoGaTio.MechanoidUpgrades.Anomaly"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3375627095"
+  ModName: "Mechanoid Upgrades - Anomaly"

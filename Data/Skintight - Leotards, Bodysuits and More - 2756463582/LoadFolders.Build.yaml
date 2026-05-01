@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Detrian.SkintightApparel
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Detrian.SkintightApparel"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2756463582"
+  ModName: "Skintight - Leotards, Bodysuits and More"

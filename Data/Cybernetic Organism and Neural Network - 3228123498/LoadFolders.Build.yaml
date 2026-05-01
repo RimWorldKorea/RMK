@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - doug.conn
-    Mode: None
-    Dependency: Independent
+    PackageID: ["doug.conn"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3228123498"
+  ModName: "Cybernetic Organism and Neural Network"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Oblitus.Carbon
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Oblitus.Carbon"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1376609823"
+  ModName: "Carbon"

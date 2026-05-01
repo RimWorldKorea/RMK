@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Petre27.BiotechCapacitorGenes
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Petre27.BiotechCapacitorGenes"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2882220355"
+  ModName: "Biotech Capacitor Genes - OP"

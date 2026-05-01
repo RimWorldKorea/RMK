@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Gunmar.TribalWarriorSet
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Gunmar.TribalWarriorSet"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2401466559"
+  ModName: "Tribal Warrior Set!"

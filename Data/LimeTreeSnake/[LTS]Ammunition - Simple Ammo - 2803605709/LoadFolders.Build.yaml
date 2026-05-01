@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - LimeTreeSnake.Ammo
-    Mode: None
-    Dependency: Independent
+    PackageID: ["LimeTreeSnake.Ammo"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2803605709"
+  ModName: "[LTS]Ammunition - Simple Ammo"

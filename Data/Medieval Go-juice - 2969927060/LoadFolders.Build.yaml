@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - rince.gaulishgojuice
-    Mode: None
-    Dependency: Independent
+    PackageID: ["rince.gaulishgojuice"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2969927060"
+  ModName: "Medieval Go-juice"

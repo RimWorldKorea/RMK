@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - sk.infusion
-    Mode: None
-    Dependency: Independent
+    PackageID: ["sk.infusion"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3536247747"
+  ModName: "Infusion 2 - Continued"

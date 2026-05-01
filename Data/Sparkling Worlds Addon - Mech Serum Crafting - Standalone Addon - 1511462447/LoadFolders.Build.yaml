@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Albion.SparklingWorlds.Addon.MechSerum
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Albion.SparklingWorlds.Addon.MechSerum"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1511462447"
+  ModName: "Sparkling Worlds Addon - Mech Serum Crafting - Standalone Addon"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - myde.drakkenlaserdrill
-    Mode: None
-    Dependency: Independent
+    PackageID: ["myde.drakkenlaserdrill"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2941974740"
+  ModName: "Drakken Laser Drill"

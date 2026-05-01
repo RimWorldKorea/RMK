@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Harkon.RIMATWAR.WW1WW2FrenchWeapons
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Harkon.RIMATWAR.WW1WW2FrenchWeapons"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2788783410"
+  ModName: "[HRK] RIM AT WAR - WW1 WW2 French Weapons"

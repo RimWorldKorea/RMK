@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - GarryFlowers.MoreSlaveryStuff
-    Mode: None
-    Dependency: Independent
+    PackageID: ["GarryFlowers.MoreSlaveryStuff"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2896845138"
+  ModName: "More Slavery Stuff"

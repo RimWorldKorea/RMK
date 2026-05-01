@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - zal.eyeprosthetics
-    Mode: None
-    Dependency: Independent
+    PackageID: ["zal.eyeprosthetics"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2973777411"
+  ModName: "[CZK] Eye Prosthetics (Continued)"

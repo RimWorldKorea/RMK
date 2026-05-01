@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - VanillaExpanded.VAPPE
-    Mode: None
-    Dependency: Independent
+    PackageID: ["VanillaExpanded.VAPPE"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1814987817"
+  ModName: "Vanilla Apparel Expanded"

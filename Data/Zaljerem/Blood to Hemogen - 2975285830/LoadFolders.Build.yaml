@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - zal.blood2hemogen
-    Mode: None
-    Dependency: Independent
+    PackageID: ["zal.blood2hemogen"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2975285830"
+  ModName: "Blood to Hemogen"

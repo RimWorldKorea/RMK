@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Qux.worldfood
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Qux.worldfood"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2993120312"
+  ModName: "World Food"

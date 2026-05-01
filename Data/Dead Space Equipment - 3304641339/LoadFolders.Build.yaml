@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - IssacZhuang.DeadSpace.Equipment
-    Mode: None
-    Dependency: Independent
+    PackageID: ["IssacZhuang.DeadSpace.Equipment"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3304641339"
+  ModName: "Dead Space Equipment"

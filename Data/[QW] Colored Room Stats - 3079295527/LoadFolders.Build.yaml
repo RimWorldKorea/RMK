@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - QW.ColoredRoomStats
-    Mode: None
-    Dependency: Independent
+    PackageID: ["QW.ColoredRoomStats"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3079295527"
+  ModName: "[QW] Colored Room Stats"

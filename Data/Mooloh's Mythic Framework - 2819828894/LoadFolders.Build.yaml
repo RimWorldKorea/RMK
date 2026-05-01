@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - mooloh.mythicitems
-    Mode: None
-    Dependency: Independent
+    PackageID: ["mooloh.mythicitems"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2819828894"
+  ModName: "Mooloh's Mythic Framework"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - 3HSTltd.Weapons.Jam
-    Mode: None
-    Dependency: Independent
+    PackageID: ["3HSTltd.Weapons.Jam"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2875909960"
+  ModName: "Bill Doors' Weapon Jams!"

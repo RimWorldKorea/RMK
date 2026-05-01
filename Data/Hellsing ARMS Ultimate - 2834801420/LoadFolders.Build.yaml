@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Baskerville.HellsingARMSUltimate
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Baskerville.HellsingARMSUltimate"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2834801420"
+  ModName: "Hellsing ARMS Ultimate"

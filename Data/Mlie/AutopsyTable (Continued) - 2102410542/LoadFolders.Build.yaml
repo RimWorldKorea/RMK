@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.AutopsyTable
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.AutopsyTable"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2102410542"
+  ModName: "AutopsyTable (Continued)"

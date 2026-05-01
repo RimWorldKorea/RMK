@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - gomi.humanoiddryad
-    Mode: None
-    Dependency: Independent
+    PackageID: ["gomi.humanoiddryad"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3031223525"
+  ModName: "Humanoid Dryad"

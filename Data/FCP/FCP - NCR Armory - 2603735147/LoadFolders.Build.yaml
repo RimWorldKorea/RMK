@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Rick.FCPBeta
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Rick.FCPBeta"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2603735147"
+  ModName: "FCP - NCR Armory"

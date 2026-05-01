@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - BotchJob.medievalfantasyrareresources
-    Mode: None
-    Dependency: Independent
+    PackageID: ["BotchJob.medievalfantasyrareresources"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2942661554"
+  ModName: "Medieval Fantasy Themed Rare Resources"

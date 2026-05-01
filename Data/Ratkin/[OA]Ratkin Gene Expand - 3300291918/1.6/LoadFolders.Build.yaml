@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - OARK.RatkinFaction.GeneExpand
-    Mode: None
-    Dependency: Independent
+    PackageID: ["OARK.RatkinFaction.GeneExpand"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3300291918"
+  ModName: "[OA]Ratkin Gene Expand"

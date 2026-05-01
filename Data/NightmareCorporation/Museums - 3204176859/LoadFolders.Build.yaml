@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Nightmare.Museums
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Nightmare.Museums"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3204176859"
+  ModName: "Museums"

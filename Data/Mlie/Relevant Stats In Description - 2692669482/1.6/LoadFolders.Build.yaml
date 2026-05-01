@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.RelevantStatsInDescription
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.RelevantStatsInDescription"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2692669482"
+  ModName: "Relevant Stats In Description"

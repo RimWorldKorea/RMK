@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Chaiop.RKUcepatch
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Chaiop.RKUcepatch"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3614631974"
+  ModName: "Ratkin Underground+ CE Patch"

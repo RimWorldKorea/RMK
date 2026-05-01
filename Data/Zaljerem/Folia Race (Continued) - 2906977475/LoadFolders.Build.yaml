@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - zal.folia
-    Mode: None
-    Dependency: Independent
+    PackageID: ["zal.folia"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2906977475"
+  ModName: "Folia Race (Continued)"

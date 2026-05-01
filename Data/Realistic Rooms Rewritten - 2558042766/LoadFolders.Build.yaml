@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Lucifer.RealisticRooms
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Lucifer.RealisticRooms"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2558042766"
+  ModName: "Realistic Rooms Rewritten"

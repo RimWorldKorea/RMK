@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - rainezean.gestateapocriton
-    Mode: None
-    Dependency: Independent
+    PackageID: ["rainezean.gestateapocriton"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3226030117"
+  ModName: "Gestatable apocriton"

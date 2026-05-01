@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - eltwofour.mantodeanrace
-    Mode: None
-    Dependency: Independent
+    PackageID: ["eltwofour.mantodeanrace"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2856039567"
+  ModName: "Mantodeans Continued"

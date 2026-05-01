@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - GoGaTio.LostFactoryMechanoids
-    Mode: None
-    Dependency: Independent
+    PackageID: ["GoGaTio.LostFactoryMechanoids"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3386146460"
+  ModName: "Lost Factory Mechanoids"

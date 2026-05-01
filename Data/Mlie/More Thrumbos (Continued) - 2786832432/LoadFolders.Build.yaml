@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.MoreThrumbos
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.MoreThrumbos"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2786832432"
+  ModName: "More Thrumbos (Continued)"

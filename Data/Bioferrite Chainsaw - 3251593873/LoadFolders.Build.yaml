@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Koni.Misc.BioferriteChainsaw
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Koni.Misc.BioferriteChainsaw"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3251593873"
+  ModName: "Bioferrite Chainsaw"

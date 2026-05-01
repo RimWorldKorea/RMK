@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - ferny.childhoodcategory
-    Mode: None
-    Dependency: Independent
+    PackageID: ["ferny.childhoodcategory"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3339092930"
+  ModName: "Childhood Category"

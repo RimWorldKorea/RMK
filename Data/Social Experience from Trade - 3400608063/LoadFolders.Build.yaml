@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Krelinos.SocialEXPFromTrade
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Krelinos.SocialEXPFromTrade"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3400608063"
+  ModName: "Social Experience from Trade"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Aoba.Exosuit.PowerLoader
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Aoba.Exosuit.PowerLoader"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3555609932"
+  ModName: "P–5000 Powered Work Loader"

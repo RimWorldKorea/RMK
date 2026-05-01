@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.HumanoidProject
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.HumanoidProject"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2169384011"
+  ModName: "Humanoid Project (Continued)"

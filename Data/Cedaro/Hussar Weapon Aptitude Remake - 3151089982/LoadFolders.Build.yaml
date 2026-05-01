@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - cedaro.hwar
-    Mode: None
-    Dependency: Independent
+    PackageID: ["cedaro.hwar"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3151089982"
+  ModName: "Hussar Weapon Aptitude Remake"

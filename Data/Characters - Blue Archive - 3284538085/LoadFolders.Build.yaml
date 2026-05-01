@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - LotusLand.FPGBlueArchive
-    Mode: None
-    Dependency: Independent
+    PackageID: ["LotusLand.FPGBlueArchive"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3284538085"
+  ModName: "Characters - Blue Archive"

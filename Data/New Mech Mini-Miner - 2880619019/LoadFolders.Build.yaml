@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - slashandz.miniminer
-    Mode: None
-    Dependency: Independent
+    PackageID: ["slashandz.miniminer"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2880619019"
+  ModName: "New Mech Mini-Miner"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - BFAnri.Autoinjectors
-    Mode: None
-    Dependency: Independent
+    PackageID: ["BFAnri.Autoinjectors"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2239914457"
+  ModName: "Autoinjectors"

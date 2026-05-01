@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - roolo.giddyupcaravan
-    Mode: None
-    Dependency: Independent
+    PackageID: ["roolo.giddyupcaravan"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1253251478"
+  ModName: "Giddy-up! Caravan"

@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - iceworld.tribalouterwear
-    Mode: None
-    Dependency: Independent
+    PackageID: ["iceworld.tribalouterwear"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3535359503"
+  ModName: "IceWorld Tribal Outerwear"

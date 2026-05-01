@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - aw.mech.helmets
-    Mode: None
-    Dependency: Independent
+    PackageID: ["aw.mech.helmets"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2899467256"
+  ModName: "Ancient Mech Armors"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - mst.ratkinweapon.warpStoneWeapons
-    Mode: None
-    Dependency: Independent
+    PackageID: ["mst.ratkinweapon.warpStoneWeapons"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3575567766"
+  ModName: "[MST]Ratkin Weapons - WarpStoneWeapons"

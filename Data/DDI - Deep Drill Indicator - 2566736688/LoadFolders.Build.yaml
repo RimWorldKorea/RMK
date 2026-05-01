@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - georodin.deepdrillindicator
-    Mode: None
-    Dependency: Independent
+    PackageID: ["georodin.deepdrillindicator"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2566736688"
+  ModName: "DDI - Deep Drill Indicator"

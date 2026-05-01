@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - zoarak.anomalyplat
-    Mode: None
-    Dependency: Independent
+    PackageID: ["zoarak.anomalyplat"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3527726648"
+  ModName: "Anomaly Research Asteroid"

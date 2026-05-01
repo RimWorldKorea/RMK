@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - jdgg.adaptive.cargoholds
-    Mode: None
-    Dependency: Independent
+    PackageID: ["jdgg.adaptive.cargoholds"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3536708812"
+  ModName: "Cargo Holds"

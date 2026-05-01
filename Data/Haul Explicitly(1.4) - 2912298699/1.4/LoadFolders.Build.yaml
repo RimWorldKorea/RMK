@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - likeafox.haulexplicitly
-    Mode: None
-    Dependency: Independent
+    PackageID: ["likeafox.haulexplicitly"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.4
+    Default: "1.4"
     LeftBoundary: 
-    RightBoundary: 1.5
+    RightBoundary: "1.5"
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2912298699"
+  ModName: "Haul Explicitly(1.4)"

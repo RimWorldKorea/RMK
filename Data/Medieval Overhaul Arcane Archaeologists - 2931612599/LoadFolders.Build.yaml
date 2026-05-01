@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - ogam.medievaloverhaul.arcanearchaeologists
-    Mode: None
-    Dependency: Independent
+    PackageID: ["ogam.medievaloverhaul.arcanearchaeologists"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2931612599"
+  ModName: "Medieval Overhaul Arcane Archaeologists"

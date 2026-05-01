@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - EoralMilk.RatkinGeneExpanded
-    Mode: None
-    Dependency: Independent
+    PackageID: ["EoralMilk.RatkinGeneExpanded"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.4
+    Default: "1.4"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3043354134"
+  ModName: "Ratkin Gene Expanded"

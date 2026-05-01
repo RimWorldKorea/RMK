@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - pelador.fireextinguisher
-    Mode: None
-    Dependency: Independent
+    PackageID: ["pelador.fireextinguisher"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2195996970"
+  ModName: "Fire Extinguisher (Continued)"

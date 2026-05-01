@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - mrrock23.antigrain.continued
-    Mode: None
-    Dependency: Independent
+    PackageID: ["mrrock23.antigrain.continued"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2889186547"
+  ModName: "Antigrain (Continued)"

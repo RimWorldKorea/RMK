@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Arquebus.StagzMerfolk
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Arquebus.StagzMerfolk"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3026235711"
+  ModName: "Goji's Fantasy Race Merren"

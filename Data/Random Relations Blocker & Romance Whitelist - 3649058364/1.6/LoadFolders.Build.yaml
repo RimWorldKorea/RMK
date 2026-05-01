@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - seekiworksmod.no19
-    Mode: None
-    Dependency: Independent
+    PackageID: ["seekiworksmod.no19"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3649058364"
+  ModName: "Random Relations Blocker & Romance Whitelist"

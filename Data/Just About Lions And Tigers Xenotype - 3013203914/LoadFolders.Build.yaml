@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - ja.lionsandtigers
-    Mode: None
-    Dependency: Independent
+    PackageID: ["ja.lionsandtigers"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3013203914"
+  ModName: "Just About Lions And Tigers Xenotype"

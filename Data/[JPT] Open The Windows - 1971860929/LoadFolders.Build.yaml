@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - JPT.OpenTheWindows
-    Mode: None
-    Dependency: Independent
+    PackageID: ["JPT.OpenTheWindows"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1971860929"
+  ModName: "[JPT] Open The Windows"

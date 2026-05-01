@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Horo.KibbleHay.11
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Horo.KibbleHay.11"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1528894837"
+  ModName: "Hay is Kibble"

@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - RoltonsMods.FultonExtraction
-    Mode: None
-    Dependency: Independent
+    PackageID: ["RoltonsMods.FultonExtraction"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3687327231"
+  ModName: "Tactical Fulton Extraction System"

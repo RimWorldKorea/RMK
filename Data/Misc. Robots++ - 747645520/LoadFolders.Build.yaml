@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Alaestor.MiscRobots.PlusPlus
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Alaestor.MiscRobots.PlusPlus"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "747645520"
+  ModName: "Misc. Robots++"

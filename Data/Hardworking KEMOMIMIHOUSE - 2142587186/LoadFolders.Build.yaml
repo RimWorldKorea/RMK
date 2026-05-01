@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - velc.HardworkingKemomimihouse
-    Mode: None
-    Dependency: Independent
+    PackageID: ["velc.HardworkingKemomimihouse"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2142587186"
+  ModName: "Hardworking KEMOMIMIHOUSE"

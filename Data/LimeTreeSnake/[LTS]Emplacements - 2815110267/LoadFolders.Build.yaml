@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - LimeTreeSnake.Emplacements
-    Mode: None
-    Dependency: Independent
+    PackageID: ["LimeTreeSnake.Emplacements"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2815110267"
+  ModName: "[LTS]Emplacements"

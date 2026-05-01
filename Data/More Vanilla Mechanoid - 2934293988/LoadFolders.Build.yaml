@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - teiwaz.mve
-    Mode: None
-    Dependency: Independent
+    PackageID: ["teiwaz.mve"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2934293988"
+  ModName: "More Vanilla Mechanoid"

@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - sarg.alphagenes
-    Mode: None
-    Dependency: Independent
+    PackageID: ["sarg.alphagenes"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.4
+    Default: "1.4"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2891845502"
+  ModName: "Alpha Genes"

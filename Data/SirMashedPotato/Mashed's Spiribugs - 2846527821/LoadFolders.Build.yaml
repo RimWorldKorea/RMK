@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - SirMashedPotato.Spiribugs
-    Mode: None
-    Dependency: Independent
+    PackageID: ["SirMashedPotato.Spiribugs"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2846527821"
+  ModName: "Mashed's Spiribugs"

@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - RP.RimTalk.PersonaDirector
-    Mode: None
-    Dependency: Independent
+    PackageID: ["RP.RimTalk.PersonaDirector"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3619548407"
+  ModName: "RimTalk Persona Director"

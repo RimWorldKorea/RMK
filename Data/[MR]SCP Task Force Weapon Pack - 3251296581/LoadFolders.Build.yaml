@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Lemontea.SCPWeapon
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Lemontea.SCPWeapon"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3251296581"
+  ModName: "[MR]SCP Task Force Weapon Pack"

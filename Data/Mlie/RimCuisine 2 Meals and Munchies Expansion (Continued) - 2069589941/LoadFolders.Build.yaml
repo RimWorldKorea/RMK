@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.RC2.MaME
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.RC2.MaME"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2069589941"
+  ModName: "RimCuisine 2 Meals and Munchies Expansion (Continued)"

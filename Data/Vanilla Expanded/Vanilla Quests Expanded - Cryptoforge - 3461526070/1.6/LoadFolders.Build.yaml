@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - vanillaquestsexpanded.cryptoforge
-    Mode: None
-    Dependency: Independent
+    PackageID: ["vanillaquestsexpanded.cryptoforge"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3461526070"
+  ModName: "Vanilla Quests Expanded - Cryptoforge"

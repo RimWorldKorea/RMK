@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Rycon.FamilyRelationsAdoption
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Rycon.FamilyRelationsAdoption"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3698779894"
+  ModName: "Family Relations Adoption"

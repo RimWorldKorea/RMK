@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.TPBlood
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.TPBlood"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2974969628"
+  ModName: "[TP]Blood (Continued)"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - avilmask.NonUnoPinata
-    Mode: None
-    Dependency: Independent
+    PackageID: ["avilmask.NonUnoPinata"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1778821244"
+  ModName: "Non uno Pinata (don't drop items)"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Goji.TheSimsTraits
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Goji.TheSimsTraits"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3604588393"
+  ModName: "The Sims Traits"

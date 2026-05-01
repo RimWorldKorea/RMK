@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Hol.NeolStuff
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Hol.NeolStuff"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2949033630"
+  ModName: "Neolithic Desk and Blackboard"

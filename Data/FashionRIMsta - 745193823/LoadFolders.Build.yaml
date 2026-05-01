@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - spoonshortage.fashionrimsta
-    Mode: None
-    Dependency: Independent
+    PackageID: ["spoonshortage.fashionrimsta"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "745193823"
+  ModName: "FashionRIMsta"

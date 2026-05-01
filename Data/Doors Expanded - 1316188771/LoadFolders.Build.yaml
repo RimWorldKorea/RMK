@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - jecrell.doorsexpanded
-    Mode: None
-    Dependency: Independent
+    PackageID: ["jecrell.doorsexpanded"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1316188771"
+  ModName: "Doors Expanded"

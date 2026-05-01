@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - zal.RFBonusFishingRecipes
-    Mode: None
-    Dependency: Independent
+    PackageID: ["zal.RFBonusFishingRecipes"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2602272144"
+  ModName: "[RF] Bonus Fishing Recipes"

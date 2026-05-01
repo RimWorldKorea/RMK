@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - GoGaTio.MechanoidUpgrades
-    Mode: None
-    Dependency: Independent
+    PackageID: ["GoGaTio.MechanoidUpgrades"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3365118555"
+  ModName: "Mechanoid Upgrades"

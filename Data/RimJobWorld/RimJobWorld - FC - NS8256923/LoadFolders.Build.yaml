@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - rjw.FC
-    Mode: None
-    Dependency: Independent
+    PackageID: ["rjw.FC"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "NS8256923"
+  ModName: "RimJobWorld - FC"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mario.QEE
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mario.QEE"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2566962342"
+  ModName: "Questionable Ethics Enhanced"

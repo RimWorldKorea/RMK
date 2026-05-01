@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - haplo.miscellaneous.robots
-    Mode: None
-    Dependency: Independent
+    PackageID: ["haplo.miscellaneous.robots"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "724602224"
+  ModName: "Misc. Robots"

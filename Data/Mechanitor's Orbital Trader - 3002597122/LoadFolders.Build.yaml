@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Sinigang.MechanitorOrbitalTrader
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Sinigang.MechanitorOrbitalTrader"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3002597122"
+  ModName: "Mechanitor's Orbital Trader"

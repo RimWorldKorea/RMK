@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - fxz.moelotlzombie.update
-    Mode: None
-    Dependency: Independent
+    PackageID: ["fxz.moelotlzombie.update"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3454053400"
+  ModName: "MoeLotl Rigor Mortis"

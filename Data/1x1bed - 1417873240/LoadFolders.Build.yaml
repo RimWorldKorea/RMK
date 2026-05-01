@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - 032.1x1bed
-    Mode: None
-    Dependency: Independent
+    PackageID: ["032.1x1bed"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1417873240"
+  ModName: "1x1bed"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - mlie.dismisstrader
-    Mode: None
-    Dependency: Independent
+    PackageID: ["mlie.dismisstrader"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2078518511"
+  ModName: "Dismiss Trader (Continued)"

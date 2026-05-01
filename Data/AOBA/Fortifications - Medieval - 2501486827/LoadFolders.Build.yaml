@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - aoba.fortress.medieval
-    Mode: None
-    Dependency: Independent
+    PackageID: ["aoba.fortress.medieval"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2501486827"
+  ModName: "Fortifications - Medieval"

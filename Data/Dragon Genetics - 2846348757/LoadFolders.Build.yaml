@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Hol.DragonGenetics
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Hol.DragonGenetics"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2846348757"
+  ModName: "Dragon Genetics"

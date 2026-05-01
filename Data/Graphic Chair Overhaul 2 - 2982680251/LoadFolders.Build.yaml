@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - sicafe.chair.overhaul
-    Mode: None
-    Dependency: Independent
+    PackageID: ["sicafe.chair.overhaul"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2982680251"
+  ModName: "Graphic Chair Overhaul 2"

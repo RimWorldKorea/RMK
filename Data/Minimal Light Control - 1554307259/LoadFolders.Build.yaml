@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - kapitanoczywisty.minimallightcontrol
-    Mode: None
-    Dependency: Independent
+    PackageID: ["kapitanoczywisty.minimallightcontrol"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1554307259"
+  ModName: "Minimal Light Control"

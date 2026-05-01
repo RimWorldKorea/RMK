@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - zymex.prf.lite
-    Mode: None
-    Dependency: Independent
+    PackageID: ["zymex.prf.lite"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2325176756"
+  ModName: "Project RimFactory Lite"

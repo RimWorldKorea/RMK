@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Keshash.LayeredWallDestruction
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Keshash.LayeredWallDestruction"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3024527775"
+  ModName: "Layered Wall Destruction"

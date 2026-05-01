@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - killathon.androidtiersreforged
-    Mode: None
-    Dependency: Independent
+    PackageID: ["killathon.androidtiersreforged"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2917948202"
+  ModName: "Android Tiers Reforged"

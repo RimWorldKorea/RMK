@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Neronix17.Outland.MotzCoalition
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Neronix17.Outland.MotzCoalition"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2839780788"
+  ModName: "Outland - Motz Coalition"

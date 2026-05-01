@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Seti.Victor.AnimaBodies
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Seti.Victor.AnimaBodies"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.5
+    Default: "1.5"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2879835262"
+  ModName: "Anima Bionics - Forked"

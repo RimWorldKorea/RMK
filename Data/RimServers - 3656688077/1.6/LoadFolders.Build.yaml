@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - ninoss.rimservers
-    Mode: None
-    Dependency: Independent
+    PackageID: ["ninoss.rimservers"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3656688077"
+  ModName: "RimServers"

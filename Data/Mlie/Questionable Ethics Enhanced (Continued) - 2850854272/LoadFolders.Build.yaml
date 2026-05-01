@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - mlie.questionableethicsenhanced
-    Mode: None
-    Dependency: Independent
+    PackageID: ["mlie.questionableethicsenhanced"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2850854272"
+  ModName: "Questionable Ethics Enhanced (Continued)"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - mlie.secretpassagedoors
-    Mode: None
-    Dependency: Independent
+    PackageID: ["mlie.secretpassagedoors"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2412682633"
+  ModName: "Secret Passage Doors (Continued)"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Primus.OverWallNutrient
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Primus.OverWallNutrient"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2074245348"
+  ModName: "Over-Wall Nutrient Paste Dispenser"

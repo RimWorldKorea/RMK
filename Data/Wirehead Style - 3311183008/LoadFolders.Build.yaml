@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Tleno.WireheadStyle
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Tleno.WireheadStyle"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3311183008"
+  ModName: "Wirehead Style"

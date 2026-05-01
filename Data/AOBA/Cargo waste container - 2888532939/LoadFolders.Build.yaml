@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - aoba.cargocontainer.waste
-    Mode: None
-    Dependency: Independent
+    PackageID: ["aoba.cargocontainer.waste"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2888532939"
+  ModName: "Cargo waste container"

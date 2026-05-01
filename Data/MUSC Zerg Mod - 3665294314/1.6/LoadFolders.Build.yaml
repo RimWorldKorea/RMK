@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - mustard1557.musc.zerg
-    Mode: None
-    Dependency: Independent
+    PackageID: ["mustard1557.musc.zerg"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3665294314"
+  ModName: "MUSC Zerg Mod"

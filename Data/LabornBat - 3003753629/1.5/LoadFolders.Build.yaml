@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Lyinlen.LaBornRace
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Lyinlen.LaBornRace"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.5
+    Default: "1.5"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3003753629"
+  ModName: "LabornBat"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - slimesenpai.endlessgrowth
-    Mode: None
-    Dependency: Independent
+    PackageID: ["slimesenpai.endlessgrowth"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2894401734"
+  ModName: "EndlessGrowth"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - MrKociak.VeGenetics_AnimalWorkImplantsAddons
-    Mode: None
-    Dependency: Independent
+    PackageID: ["MrKociak.VeGenetics_AnimalWorkImplantsAddons"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2842447638"
+  ModName: "Vanilla Genetics Expanded – Animal Work Implants"

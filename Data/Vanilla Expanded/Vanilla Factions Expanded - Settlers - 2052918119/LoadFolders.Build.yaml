@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - OskarPotocki.VanillaFactionsExpanded.SettlersModule
-    Mode: None
-    Dependency: Independent
+    PackageID: ["OskarPotocki.VanillaFactionsExpanded.SettlersModule"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2052918119"
+  ModName: "Vanilla Factions Expanded - Settlers"

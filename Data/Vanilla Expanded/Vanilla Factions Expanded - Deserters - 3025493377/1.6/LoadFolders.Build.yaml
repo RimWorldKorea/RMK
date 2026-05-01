@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - OskarPotocki.VFE.Deserters
-    Mode: None
-    Dependency: Independent
+    PackageID: ["OskarPotocki.VFE.Deserters"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3025493377"
+  ModName: "Vanilla Factions Expanded - Deserters"

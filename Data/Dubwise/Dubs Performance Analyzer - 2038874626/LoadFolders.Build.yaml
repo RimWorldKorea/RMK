@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Dubwise.DubsPerformanceAnalyzer.steam
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Dubwise.DubsPerformanceAnalyzer.steam"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2038874626"
+  ModName: "Dubs Performance Analyzer"

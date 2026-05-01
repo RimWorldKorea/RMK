@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - anthitei.athsstylenorse.style
-    Mode: None
-    Dependency: Independent
+    PackageID: ["anthitei.athsstylenorse.style"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3292048218"
+  ModName: "ATH's styles Norse"

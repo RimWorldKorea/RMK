@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Hiztaar.Optionnal.USCMFCM
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Hiztaar.Optionnal.USCMFCM"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "759866027"
+  ModName: "USCM - Colonial Marines Corps Faction"

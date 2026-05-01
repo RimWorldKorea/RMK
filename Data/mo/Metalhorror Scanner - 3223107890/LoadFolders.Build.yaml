@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mo.MHScanner
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mo.MHScanner"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3223107890"
+  ModName: "Metalhorror Scanner"

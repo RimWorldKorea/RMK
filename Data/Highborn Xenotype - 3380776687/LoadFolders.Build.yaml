@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - ElSov.Highborn
-    Mode: None
-    Dependency: Independent
+    PackageID: ["ElSov.Highborn"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3380776687"
+  ModName: "Highborn Xenotype"

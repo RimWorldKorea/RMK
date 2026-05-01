@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - limetreesnake.ammunition
-    Mode: None
-    Dependency: Independent
+    PackageID: ["limetreesnake.ammunition"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2803605634"
+  ModName: "[LTS]Ammunition - Framework"

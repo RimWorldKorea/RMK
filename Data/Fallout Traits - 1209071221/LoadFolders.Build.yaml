@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Fuglypump.FalloutTraits
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Fuglypump.FalloutTraits"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1209071221"
+  ModName: "Fallout Traits"

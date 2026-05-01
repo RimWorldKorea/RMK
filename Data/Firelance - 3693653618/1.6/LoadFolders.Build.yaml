@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - BigT.Firelance
-    Mode: None
-    Dependency: Independent
+    PackageID: ["BigT.Firelance"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3693653618"
+  ModName: "Firelance"

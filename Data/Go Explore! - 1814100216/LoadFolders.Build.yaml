@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Albion.GoExplore
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Albion.GoExplore"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1814100216"
+  ModName: "Go Explore!"

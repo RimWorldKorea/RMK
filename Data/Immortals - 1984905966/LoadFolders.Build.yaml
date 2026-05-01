@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - fridgeBaron.Immortals
-    Mode: None
-    Dependency: Independent
+    PackageID: ["fridgeBaron.Immortals"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1984905966"
+  ModName: "Immortals"

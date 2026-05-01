@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Revolus.WhatsMissing.15Tmp
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Revolus.WhatsMissing.15Tmp"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3231090162"
+  ModName: "What's Missing 1.5 temp"

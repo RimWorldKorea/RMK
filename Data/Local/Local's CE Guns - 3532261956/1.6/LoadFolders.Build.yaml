@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Locals.LCLCEGuns
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Locals.LCLCEGuns"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3532261956"
+  ModName: "Local's CE Guns"

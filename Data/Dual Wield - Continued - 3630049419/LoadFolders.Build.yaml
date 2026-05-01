@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - MemeGoddess.DualWield
-    Mode: None
-    Dependency: Independent
+    PackageID: ["MemeGoddess.DualWield"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3630049419"
+  ModName: "Dual Wield - Continued"

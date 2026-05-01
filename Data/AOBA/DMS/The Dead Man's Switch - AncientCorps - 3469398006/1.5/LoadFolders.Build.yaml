@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Aoba.DeadManSwitch.AncientCorps
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Aoba.DeadManSwitch.AncientCorps"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.5
+    Default: "1.5"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3469398006"
+  ModName: "The Dead Man's Switch - AncientCorps"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - ellit.glitterpaths
-    Mode: None
-    Dependency: Independent
+    PackageID: ["ellit.glitterpaths"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2732163964"
+  ModName: "Glitterpaths"

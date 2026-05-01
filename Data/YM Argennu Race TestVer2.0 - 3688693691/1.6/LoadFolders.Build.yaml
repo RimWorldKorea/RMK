@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - yoteimitei.argennurace.tv2
-    Mode: None
-    Dependency: Independent
+    PackageID: ["yoteimitei.argennurace.tv2"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3688693691"
+  ModName: "YM Argennu Race TestVer2.0"

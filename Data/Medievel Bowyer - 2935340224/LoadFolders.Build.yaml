@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - arisher.medieval.bowyer
-    Mode: None
-    Dependency: Independent
+    PackageID: ["arisher.medieval.bowyer"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2935340224"
+  ModName: "Medievel Bowyer"

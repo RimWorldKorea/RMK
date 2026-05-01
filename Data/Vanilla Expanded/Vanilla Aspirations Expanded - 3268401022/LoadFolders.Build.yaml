@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - VanillaExpanded.VanillaAspirationsExpanded
-    Mode: None
-    Dependency: Independent
+    PackageID: ["VanillaExpanded.VanillaAspirationsExpanded"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3268401022"
+  ModName: "Vanilla Aspirations Expanded"

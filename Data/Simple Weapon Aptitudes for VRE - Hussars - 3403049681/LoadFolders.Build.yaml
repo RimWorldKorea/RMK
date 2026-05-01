@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Hussars.BlaBlaBla.CantBeArsedToComeUpWithAFunnyID
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Hussars.BlaBlaBla.CantBeArsedToComeUpWithAFunnyID"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3403049681"
+  ModName: "Simple Weapon Aptitudes for VRE - Hussars"

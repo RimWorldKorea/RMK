@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Owlchemist.PowerTab.forked.RunningBugs
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Owlchemist.PowerTab.forked.RunningBugs"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3528086894"
+  ModName: "Power Tab 2 - 1.6 Bug Fixed Version"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Heremeus.MedicalDissection
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Heremeus.MedicalDissection"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1328216966"
+  ModName: "Medical Dissection"

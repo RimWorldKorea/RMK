@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Unofficial.MorePracticalTraits
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Unofficial.MorePracticalTraits"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2893524668"
+  ModName: "More Practical Traits - unofficial update"

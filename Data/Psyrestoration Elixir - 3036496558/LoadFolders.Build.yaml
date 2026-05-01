@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - mobivis.psyrestorationelixir
-    Mode: None
-    Dependency: Independent
+    PackageID: ["mobivis.psyrestorationelixir"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3036496558"
+  ModName: "Psyrestoration Elixir"

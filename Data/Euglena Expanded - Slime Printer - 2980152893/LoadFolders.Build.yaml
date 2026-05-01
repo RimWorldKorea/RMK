@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - EuglenaExpanded.SlimePrinter
-    Mode: None
-    Dependency: Independent
+    PackageID: ["EuglenaExpanded.SlimePrinter"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2980152893"
+  ModName: "Euglena Expanded - Slime Printer"

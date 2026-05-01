@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Rick.FCPFNVHeavyWeapons
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Rick.FCPFNVHeavyWeapons"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2541612295"
+  ModName: "FCP FNV Heavy Weapons Pack!"

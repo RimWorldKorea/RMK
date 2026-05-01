@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - XMB.AncientThreat.MO
-    Mode: None
-    Dependency: Independent
+    PackageID: ["XMB.AncientThreat.MO"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3313313985"
+  ModName: "Ancient amorphous threat"

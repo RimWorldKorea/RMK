@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - KOKODAYO.MGtechcore
-    Mode: None
-    Dependency: Independent
+    PackageID: ["KOKODAYO.MGtechcore"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3364606999"
+  ModName: "[MG]MG-TechCore"

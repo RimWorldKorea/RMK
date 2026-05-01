@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Aoba.WarCasket
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Aoba.WarCasket"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2733135485"
+  ModName: "WarCasket Expanded"

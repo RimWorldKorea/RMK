@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Dubwise.DubsRimkit
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Dubwise.DubsRimkit"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "832333531"
+  ModName: "Dubs Rimkit"

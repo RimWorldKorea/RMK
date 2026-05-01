@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.FalloutRacesTheRobotsPack
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.FalloutRacesTheRobotsPack"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2347136687"
+  ModName: "Fallout Races The Robots Pack (Continued)"

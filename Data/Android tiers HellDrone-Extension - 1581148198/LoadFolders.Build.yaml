@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Helldrone.HelldroneModupdate1.2
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Helldrone.HelldroneModupdate1.2"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1581148198"
+  ModName: "Android tiers HellDrone-Extension"

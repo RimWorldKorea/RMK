@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Argon.VMEu
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Argon.VMEu"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2259837114"
+  ModName: "Expanded Materials - Metals"

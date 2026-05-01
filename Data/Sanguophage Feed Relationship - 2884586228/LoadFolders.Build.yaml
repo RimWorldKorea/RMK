@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - opponent019.SanguophageFeedRelationship
-    Mode: None
-    Dependency: Independent
+    PackageID: ["opponent019.SanguophageFeedRelationship"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2884586228"
+  ModName: "Sanguophage Feed Relationship"

@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - veterano.mythicages.megafaunabestiary
-    Mode: None
-    Dependency: Independent
+    PackageID: ["veterano.mythicages.megafaunabestiary"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3537788184"
+  ModName: "Mythic Ages Megafauna Bestiary"

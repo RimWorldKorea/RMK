@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - historic.IndustrialRollers
-    Mode: None
-    Dependency: Independent
+    PackageID: ["historic.IndustrialRollers"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "784327493"
+  ModName: "Industrial Rollers"

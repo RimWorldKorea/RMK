@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Side1iner.PossessionsPlus
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Side1iner.PossessionsPlus"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3535813796"
+  ModName: "Possessions Plus"

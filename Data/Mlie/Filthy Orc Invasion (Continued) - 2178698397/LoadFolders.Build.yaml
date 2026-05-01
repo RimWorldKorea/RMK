@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.FilthyOrcInvasion
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.FilthyOrcInvasion"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2178698397"
+  ModName: "Filthy Orc Invasion (Continued)"

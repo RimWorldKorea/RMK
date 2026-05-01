@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - rooboid.paintings.ex
-    Mode: None
-    Dependency: Independent
+    PackageID: ["rooboid.paintings.ex"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2881104358"
+  ModName: "Roo's Painting Expansion"

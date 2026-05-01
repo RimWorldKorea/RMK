@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - tribalcrib.mod
-    Mode: None
-    Dependency: Independent
+    PackageID: ["tribalcrib.mod"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2881720620"
+  ModName: "Tribal Crib"

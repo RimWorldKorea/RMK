@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - agripnus.getrimped
-    Mode: None
-    Dependency: Independent
+    PackageID: ["agripnus.getrimped"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.4
+    Default: "1.4"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3158619572"
+  ModName: "Get Rimped - Gym Equipment"

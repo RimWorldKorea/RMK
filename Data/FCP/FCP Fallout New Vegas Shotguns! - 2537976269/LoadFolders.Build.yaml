@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Rick.FCPFNVShotguns
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Rick.FCPFNVShotguns"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2537976269"
+  ModName: "FCP Fallout New Vegas Shotguns!"

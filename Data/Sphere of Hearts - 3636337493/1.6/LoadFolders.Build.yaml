@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Astra.SphereOfHearts
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Astra.SphereOfHearts"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3636337493"
+  ModName: "Sphere of Hearts"

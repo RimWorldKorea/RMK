@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Ferpo.RimDark.Submod.SpecificMarineXenotypesII
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Ferpo.RimDark.Submod.SpecificMarineXenotypesII"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3551273695"
+  ModName: "RimDark 40k - SUBMOD Specific Marine Xenotypes II"

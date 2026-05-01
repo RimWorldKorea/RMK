@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - electricbraziers.papercrane.rw
-    Mode: None
-    Dependency: Independent
+    PackageID: ["electricbraziers.papercrane.rw"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2880247055"
+  ModName: "[1001] Electric Braziers"

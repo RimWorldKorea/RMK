@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - aznplucky.RimFlix
-    Mode: None
-    Dependency: Independent
+    PackageID: ["aznplucky.RimFlix"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2569957748"
+  ModName: "RimFlix"

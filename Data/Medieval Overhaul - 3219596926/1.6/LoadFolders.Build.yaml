@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - DankPyon.Medieval.Overhaul
-    Mode: None
-    Dependency: Independent
+    PackageID: ["DankPyon.Medieval.Overhaul"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3219596926"
+  ModName: "Medieval Overhaul"

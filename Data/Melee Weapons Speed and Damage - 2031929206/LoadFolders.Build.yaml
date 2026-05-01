@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - ac.mw.sad
-    Mode: None
-    Dependency: Independent
+    PackageID: ["ac.mw.sad"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2031929206"
+  ModName: "Melee Weapons Speed and Damage"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.O21Rimhammer40K
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.O21Rimhammer40K"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2408117769"
+  ModName: "[O21] Rimhammer 40K (Continued)"

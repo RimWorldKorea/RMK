@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - GwinnBleidd.ResearchTweaks
-    Mode: None
-    Dependency: Independent
+    PackageID: ["GwinnBleidd.ResearchTweaks"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2010527094"
+  ModName: "Technology Blueprints  Reverse Engineering"

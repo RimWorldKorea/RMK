@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Locals.HighTech
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Locals.HighTech"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3659632248"
+  ModName: "Local's CE Advanced Guns"

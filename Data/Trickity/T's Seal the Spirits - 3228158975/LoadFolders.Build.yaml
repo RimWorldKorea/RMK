@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Trickity.Seal.Spirits
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Trickity.Seal.Spirits"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3228158975"
+  ModName: "T's Seal the Spirits"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.SDBridges
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.SDBridges"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2036488024"
+  ModName: "[sd] Bridges (Continued)"

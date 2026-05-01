@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - owlchemist.cleanpathfinding
-    Mode: None
-    Dependency: Independent
+    PackageID: ["owlchemist.cleanpathfinding"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2603765747"
+  ModName: "Clean Pathfinding 2"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Sov.VisanderHedge
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Sov.VisanderHedge"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3146921182"
+  ModName: "Blooming hedges"

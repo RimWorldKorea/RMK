@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - malkav73.rollers
-    Mode: None
-    Dependency: Independent
+    PackageID: ["malkav73.rollers"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2060791442"
+  ModName: "Industrial Rollers Addon"

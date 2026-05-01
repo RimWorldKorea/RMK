@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - com.distman.gastrap
-    Mode: None
-    Dependency: Independent
+    PackageID: ["com.distman.gastrap"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2012627964"
+  ModName: "Gas Traps And Shells"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - AKRI.StarcraftersArmory_copy
-    Mode: None
-    Dependency: Independent
+    PackageID: ["AKRI.StarcraftersArmory_copy"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2491646797"
+  ModName: "Star Crafters Armory"

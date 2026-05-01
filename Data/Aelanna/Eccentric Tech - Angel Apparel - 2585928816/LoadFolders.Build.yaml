@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Aelanna.EccentricTech.AngelApparel
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Aelanna.EccentricTech.AngelApparel"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2585928816"
+  ModName: "Eccentric Tech - Angel Apparel"

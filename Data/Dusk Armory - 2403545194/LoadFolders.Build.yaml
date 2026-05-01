@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Harkon.DF.Dusk
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Harkon.DF.Dusk"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2403545194"
+  ModName: "Dusk Armory"

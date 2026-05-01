@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Gunmar.TribalHandCannon
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Gunmar.TribalHandCannon"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2379915331"
+  ModName: "Tribal Hand Cannon!"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - vanillaexpanded.achievements
-    Mode: None
-    Dependency: Independent
+    PackageID: ["vanillaexpanded.achievements"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2288125657"
+  ModName: "Vanilla Achievements Expanded"

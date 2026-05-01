@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - LovelyDovey.Sex.WithEuterpe
-    Mode: None
-    Dependency: Independent
+    PackageID: ["LovelyDovey.Sex.WithEuterpe"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3498422643"
+  ModName: "Intimacy - A Lovin' Expansion"

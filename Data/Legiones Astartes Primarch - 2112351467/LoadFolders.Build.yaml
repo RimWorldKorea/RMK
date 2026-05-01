@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Archaon.Primarch
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Archaon.Primarch"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2112351467"
+  ModName: "Legiones Astartes Primarch"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Memegoddess.ReplaceStuff
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Memegoddess.ReplaceStuff"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3526354009"
+  ModName: "Replace Stuff - Continued"

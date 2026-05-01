@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Udon.BouquetOfLove
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Udon.BouquetOfLove"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2590854091"
+  ModName: "Bouquet of Love"

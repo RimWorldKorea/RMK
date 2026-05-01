@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Anthitei.ATHsStyleableFramework.Style
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Anthitei.ATHsStyleableFramework.Style"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3016405872"
+  ModName: "ATH's Styleable Framework"

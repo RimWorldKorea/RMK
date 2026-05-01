@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - GodlyAnnihilator.AnimalMedicalBed
-    Mode: None
-    Dependency: Independent
+    PackageID: ["GodlyAnnihilator.AnimalMedicalBed"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3221610549"
+  ModName: "Animal Medical Bed 1.5"

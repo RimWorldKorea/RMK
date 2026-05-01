@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - assassinsbro.qualitybionicsremastered
-    Mode: None
-    Dependency: Independent
+    PackageID: ["assassinsbro.qualitybionicsremastered"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3528798857"
+  ModName: "Quality Bionics Remastered"

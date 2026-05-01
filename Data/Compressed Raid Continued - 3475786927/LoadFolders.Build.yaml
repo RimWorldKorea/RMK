@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - vk.compressedraid.latestContinued
-    Mode: None
-    Dependency: Independent
+    PackageID: ["vk.compressedraid.latestContinued"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3475786927"
+  ModName: "Compressed Raid Continued"

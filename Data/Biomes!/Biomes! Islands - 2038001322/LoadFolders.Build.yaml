@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - BiomesTeam.BiomesIslands
-    Mode: None
-    Dependency: Independent
+    PackageID: ["BiomesTeam.BiomesIslands"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2038001322"
+  ModName: "Biomes! Islands"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - ThePatchWorkHoax.MeleePsycasts
-    Mode: None
-    Dependency: Independent
+    PackageID: ["ThePatchWorkHoax.MeleePsycasts"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2552118979"
+  ModName: "Melee Psycasts"

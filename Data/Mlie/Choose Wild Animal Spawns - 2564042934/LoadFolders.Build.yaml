@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.ChooseWildAnimalSpawns
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.ChooseWildAnimalSpawns"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2564042934"
+  ModName: "Choose Wild Animal Spawns"

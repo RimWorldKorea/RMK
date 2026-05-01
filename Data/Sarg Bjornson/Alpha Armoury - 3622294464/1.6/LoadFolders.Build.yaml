@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - sarg.alphaarmoury
-    Mode: None
-    Dependency: Independent
+    PackageID: ["sarg.alphaarmoury"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3622294464"
+  ModName: "Alpha Armoury"

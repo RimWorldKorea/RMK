@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Neronix17.ForgottenRealms
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Neronix17.ForgottenRealms"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3068979395"
+  ModName: "Forgotten Realms - Biotech Edition"

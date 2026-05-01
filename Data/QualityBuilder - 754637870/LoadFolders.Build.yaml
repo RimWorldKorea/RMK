@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - hatti.qualitybuilder
-    Mode: None
-    Dependency: Independent
+    PackageID: ["hatti.qualitybuilder"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "754637870"
+  ModName: "QualityBuilder"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - sera.apinialienrace
-    Mode: None
-    Dependency: Independent
+    PackageID: ["sera.apinialienrace"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2204437968"
+  ModName: "Apini Playable Race, Continued!"

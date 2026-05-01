@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - showhair.kv.rw
-    Mode: None
-    Dependency: Independent
+    PackageID: ["showhair.kv.rw"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1180826364"
+  ModName: "Show Hair With Hats or Hide All Hats"

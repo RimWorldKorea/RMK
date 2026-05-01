@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - owlchemist.cherrypicker
-    Mode: None
-    Dependency: Independent
+    PackageID: ["owlchemist.cherrypicker"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3521312241"
+  ModName: "Cherry Picker"

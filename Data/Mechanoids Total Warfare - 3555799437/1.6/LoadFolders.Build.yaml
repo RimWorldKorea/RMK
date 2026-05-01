@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Nyar.NCLvsTW
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Nyar.NCLvsTW"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3555799437"
+  ModName: "Mechanoids Total Warfare"

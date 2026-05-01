@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Sierra.RF.MedievalOverhaul
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Sierra.RF.MedievalOverhaul"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2836791007"
+  ModName: "RimFantasy - Medieval Overhaul Edition"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - VanillaExpanded.VAERoy
-    Mode: None
-    Dependency: Independent
+    PackageID: ["VanillaExpanded.VAERoy"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2858079457"
+  ModName: "Vanilla Animals Expanded — Royal Animals"

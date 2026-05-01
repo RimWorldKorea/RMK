@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Spencer7w.Airsupport
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Spencer7w.Airsupport"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2587856172"
+  ModName: "Airsupport (Warhammer 40k)"

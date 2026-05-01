@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - onyxae.dragonsdescent
-    Mode: None
-    Dependency: Independent
+    PackageID: ["onyxae.dragonsdescent"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2026992161"
+  ModName: "Dragon's Descent"

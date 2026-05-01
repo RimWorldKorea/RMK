@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - syrchalis.blueberries
-    Mode: None
-    Dependency: Independent
+    PackageID: ["syrchalis.blueberries"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1488100231"
+  ModName: "[SYR] Blueberries"

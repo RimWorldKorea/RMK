@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - ASF.DeepStorage
-    Mode: None
-    Dependency: Independent
+    PackageID: ["ASF.DeepStorage"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3373064575"
+  ModName: "LWM's Adaptive Deep Storage"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - hatena.VoiceroidAsAnimal
-    Mode: None
-    Dependency: Independent
+    PackageID: ["hatena.VoiceroidAsAnimal"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2073559411"
+  ModName: "VoiceroidAsAnimal"

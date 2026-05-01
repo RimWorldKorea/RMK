@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - moistestWhale.SACGuns
-    Mode: None
-    Dependency: Independent
+    PackageID: ["moistestWhale.SACGuns"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3257892278"
+  ModName: "GiTS Seburo Advanced Weapon Systems"

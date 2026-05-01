@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - syrus.bpansresize
-    Mode: None
-    Dependency: Independent
+    PackageID: ["syrus.bpansresize"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2710513531"
+  ModName: "Biosculpter Pod and Neural Supercharger Resize"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - tikubonn.StuffedDoll
-    Mode: None
-    Dependency: Independent
+    PackageID: ["tikubonn.StuffedDoll"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1937192602"
+  ModName: "StuffedDoll"

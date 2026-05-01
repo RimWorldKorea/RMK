@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - CETeam.CombatExtendedArmors
-    Mode: None
-    Dependency: Independent
+    PackageID: ["CETeam.CombatExtendedArmors"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2798914758"
+  ModName: "Combat Extended Armors"

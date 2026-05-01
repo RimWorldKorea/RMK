@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - rimofmadness.callofcthulhu.elderthings
-    Mode: None
-    Dependency: Independent
+    PackageID: ["rimofmadness.callofcthulhu.elderthings"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "882126182"
+  ModName: "Call of Cthulhu - Elder Things"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Malistaticy.UnderWhere
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Malistaticy.UnderWhere"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1870010563"
+  ModName: "UnderWhere"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - LWM.DeepStorageHotfix
-    Mode: None
-    Dependency: Independent
+    PackageID: ["LWM.DeepStorageHotfix"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3220688225"
+  ModName: "LWM's Deep Storage (Unofficial 1.5)"

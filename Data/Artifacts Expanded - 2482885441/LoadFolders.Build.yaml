@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Carnagion.ArtifactsExpanded
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Carnagion.ArtifactsExpanded"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2482885441"
+  ModName: "Artifacts Expanded"

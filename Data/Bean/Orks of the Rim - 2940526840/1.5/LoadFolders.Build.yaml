@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - bean.customxenotypes.orksoftherim
-    Mode: None
-    Dependency: Independent
+    PackageID: ["bean.customxenotypes.orksoftherim"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.5
+    Default: "1.5"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2940526840"
+  ModName: "Orks of the Rim"

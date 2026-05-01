@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - fxz.ratkinfaction
-    Mode: None
-    Dependency: Independent
+    PackageID: ["fxz.ratkinfaction"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3036302713"
+  ModName: "Ratkin Faction+"

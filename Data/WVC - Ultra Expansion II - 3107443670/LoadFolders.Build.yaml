@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - wvc.sergkart.ultraexpansion
-    Mode: None
-    Dependency: Independent
+    PackageID: ["wvc.sergkart.ultraexpansion"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3107443670"
+  ModName: "WVC - Ultra Expansion II"

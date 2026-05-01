@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Bapador.ModestTrait
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Bapador.ModestTrait"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3358291723"
+  ModName: "Modest Trait"

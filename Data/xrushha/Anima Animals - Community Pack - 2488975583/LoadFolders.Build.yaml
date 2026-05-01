@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - xrushha.AnimaAnimalsCommunityPack
-    Mode: None
-    Dependency: Independent
+    PackageID: ["xrushha.AnimaAnimalsCommunityPack"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2488975583"
+  ModName: "Anima Animals - Community Pack"

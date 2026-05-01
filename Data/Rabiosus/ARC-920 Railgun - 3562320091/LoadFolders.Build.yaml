@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - rabiosus.HaloRailgun
-    Mode: None
-    Dependency: Independent
+    PackageID: ["rabiosus.HaloRailgun"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3562320091"
+  ModName: "ARC-920 Railgun"

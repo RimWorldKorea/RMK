@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.AnimalGenetics
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.AnimalGenetics"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2830943477"
+  ModName: "Animal Genetics (Continued)"

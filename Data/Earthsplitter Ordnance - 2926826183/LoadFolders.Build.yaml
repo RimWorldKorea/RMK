@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - myde.earthsplitterordnance
-    Mode: None
-    Dependency: Independent
+    PackageID: ["myde.earthsplitterordnance"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2926826183"
+  ModName: "Earthsplitter Ordnance"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - TheOcean.Grudges
-    Mode: None
-    Dependency: Independent
+    PackageID: ["TheOcean.Grudges"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3491693870"
+  ModName: "Grudges!"

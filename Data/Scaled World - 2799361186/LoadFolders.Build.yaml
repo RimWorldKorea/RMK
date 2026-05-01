@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - scaled.world
-    Mode: None
-    Dependency: Independent
+    PackageID: ["scaled.world"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2799361186"
+  ModName: "Scaled World"

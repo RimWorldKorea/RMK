@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - cedaro.DeviceStandby
-    Mode: None
-    Dependency: Independent
+    PackageID: ["cedaro.DeviceStandby"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2967053451"
+  ModName: "Device Standby"

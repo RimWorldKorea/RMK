@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - arl85.CorpseInfo
-    Mode: None
-    Dependency: Independent
+    PackageID: ["arl85.CorpseInfo"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2913588675"
+  ModName: "Corpse info"

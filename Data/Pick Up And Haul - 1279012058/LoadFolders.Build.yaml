@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mehni.PickUpAndHaul
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mehni.PickUpAndHaul"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1279012058"
+  ModName: "Pick Up And Haul"

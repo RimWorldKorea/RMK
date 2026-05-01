@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - bbb.ratkinweapon.morefailure
-    Mode: None
-    Dependency: Independent
+    PackageID: ["bbb.ratkinweapon.morefailure"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.5
+    Default: "1.5"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2779404660"
+  ModName: "Ratkin Weapons+"

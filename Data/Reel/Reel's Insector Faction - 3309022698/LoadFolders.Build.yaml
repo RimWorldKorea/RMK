@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Reel.InsectorFaction
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Reel.InsectorFaction"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3309022698"
+  ModName: "Reel's Insector Faction"

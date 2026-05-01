@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - mis.arknights
-    Mode: None
-    Dependency: Independent
+    PackageID: ["mis.arknights"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2910546545"
+  ModName: "[MIS] - Arknights"

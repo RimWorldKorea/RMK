@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - lan.fufu
-    Mode: None
-    Dependency: Independent
+    PackageID: ["lan.fufu"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3292320645"
+  ModName: "Xiaolan'fufu"

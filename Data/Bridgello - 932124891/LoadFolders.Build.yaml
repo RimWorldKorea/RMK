@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Shinzy.Bridgello
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Shinzy.Bridgello"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "932124891"
+  ModName: "Bridgello"

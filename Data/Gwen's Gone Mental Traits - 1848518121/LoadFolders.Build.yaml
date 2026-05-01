@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - GWEN.mod1
-    Mode: None
-    Dependency: Independent
+    PackageID: ["GWEN.mod1"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1848518121"
+  ModName: "Gwen's Gone Mental Traits"

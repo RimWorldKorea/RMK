@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - SomewhereOutInSpace.Spaceports
-    Mode: None
-    Dependency: Independent
+    PackageID: ["SomewhereOutInSpace.Spaceports"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2663999215"
+  ModName: "Rimsential - Spaceports"

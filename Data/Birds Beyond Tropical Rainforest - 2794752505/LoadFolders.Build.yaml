@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Zeitloser.BirdsBeyond.TRF
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Zeitloser.BirdsBeyond.TRF"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2794752505"
+  ModName: "Birds Beyond Tropical Rainforest"

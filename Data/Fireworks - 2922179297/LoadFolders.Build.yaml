@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - telardo.fireworks
-    Mode: None
-    Dependency: Independent
+    PackageID: ["telardo.fireworks"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2922179297"
+  ModName: "Fireworks"

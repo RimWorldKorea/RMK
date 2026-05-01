@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - vanillaracesexpanded.lycanthrope
-    Mode: None
-    Dependency: Independent
+    PackageID: ["vanillaracesexpanded.lycanthrope"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3114453100"
+  ModName: "Vanilla Races Expanded - Lycanthrope"

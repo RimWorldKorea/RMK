@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.UseThisInstead
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.UseThisInstead"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3396308787"
+  ModName: "Use This Instead"

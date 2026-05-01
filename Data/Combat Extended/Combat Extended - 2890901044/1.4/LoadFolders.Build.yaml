@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - CETeam.CombatExtended
-    Mode: None
-    Dependency: Independent
+    PackageID: ["CETeam.CombatExtended"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.4
-    LeftBoundary: 1.4
+    Default: "1.4"
+    LeftBoundary: "1.4"
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2890901044"
+  ModName: "Combat Extended"

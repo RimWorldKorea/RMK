@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - vanillaracesexpanded.saurid
-    Mode: None
-    Dependency: Independent
+    PackageID: ["vanillaracesexpanded.saurid"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2880990495"
+  ModName: "Vanilla Races Expanded - Saurid"

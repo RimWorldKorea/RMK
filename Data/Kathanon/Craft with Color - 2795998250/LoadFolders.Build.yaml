@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - kathanon.craftwithcolor
-    Mode: None
-    Dependency: Independent
+    PackageID: ["kathanon.craftwithcolor"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2795998250"
+  ModName: "Craft with Color"

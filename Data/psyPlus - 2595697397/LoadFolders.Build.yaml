@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - nookii.psyplus
-    Mode: None
-    Dependency: Independent
+    PackageID: ["nookii.psyplus"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2595697397"
+  ModName: "psyPlus"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.RecycleThis
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.RecycleThis"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3253550009"
+  ModName: "Recycle This (Continued)"

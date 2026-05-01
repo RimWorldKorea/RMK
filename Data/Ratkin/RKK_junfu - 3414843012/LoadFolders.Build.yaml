@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - ICEorANGE.RKKjunfu
-    Mode: None
-    Dependency: Independent
+    PackageID: ["ICEorANGE.RKKjunfu"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3414843012"
+  ModName: "RKK_junfu"

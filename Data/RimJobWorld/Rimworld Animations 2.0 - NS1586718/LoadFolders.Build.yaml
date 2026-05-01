@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - c0ffee.rimworld.animations
-    Mode: None
-    Dependency: Independent
+    PackageID: ["c0ffee.rimworld.animations"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "NS1586718"
+  ModName: "Rimworld Animations 2.0"

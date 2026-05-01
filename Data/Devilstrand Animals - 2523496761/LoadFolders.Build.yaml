@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - AveryTheKitty.DevilstrandAnimals
-    Mode: None
-    Dependency: Independent
+    PackageID: ["AveryTheKitty.DevilstrandAnimals"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2523496761"
+  ModName: "Devilstrand Animals"

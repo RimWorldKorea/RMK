@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - mlie.prisonersdonthavekeys
-    Mode: None
-    Dependency: Independent
+    PackageID: ["mlie.prisonersdonthavekeys"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2595360307"
+  ModName: "Prisoners Dont Have Keys"

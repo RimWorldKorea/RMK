@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - DMS.MOREDozer
-    Mode: None
-    Dependency: Independent
+    PackageID: ["DMS.MOREDozer"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3445608008"
+  ModName: "The Dead Man's Switch-more dozer"

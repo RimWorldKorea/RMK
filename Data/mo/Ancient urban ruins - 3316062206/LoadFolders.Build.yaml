@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - XMB.AncientUrbanrUins.MO
-    Mode: None
-    Dependency: Independent
+    PackageID: ["XMB.AncientUrbanrUins.MO"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3316062206"
+  ModName: "Ancient urban ruins"

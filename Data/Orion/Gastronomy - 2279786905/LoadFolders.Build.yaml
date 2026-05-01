@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Orion.Gastronomy
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Orion.Gastronomy"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2279786905"
+  ModName: "Gastronomy"

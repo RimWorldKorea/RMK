@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Troopersmith1.CraftableSynthetics
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Troopersmith1.CraftableSynthetics"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2016498352"
+  ModName: "Craftable Synthetics Continued"

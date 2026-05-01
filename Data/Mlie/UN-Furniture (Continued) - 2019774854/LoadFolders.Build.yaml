@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.UNFurniture
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.UNFurniture"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2019774854"
+  ModName: "UN-Furniture (Continued)"

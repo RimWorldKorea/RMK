@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Rick.FCPPreWarFoods
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Rick.FCPPreWarFoods"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2553041296"
+  ModName: "FCP Pre-War Meals!"

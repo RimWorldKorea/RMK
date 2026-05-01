@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Neronix17.VPE.CarbuncleConjurer
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Neronix17.VPE.CarbuncleConjurer"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2858067320"
+  ModName: "Carbuncle Conjurer"

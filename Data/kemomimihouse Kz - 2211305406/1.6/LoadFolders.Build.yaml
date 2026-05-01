@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Moo.kemomimihouse.Kz
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Moo.kemomimihouse.Kz"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2211305406"
+  ModName: "kemomimihouse Kz"

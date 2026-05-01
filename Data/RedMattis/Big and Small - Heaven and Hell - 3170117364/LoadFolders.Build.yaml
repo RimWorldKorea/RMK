@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - redmattis.heaven
-    Mode: None
-    Dependency: Independent
+    PackageID: ["redmattis.heaven"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3170117364"
+  ModName: "Big and Small - Heaven and Hell"

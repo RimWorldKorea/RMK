@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - hatti.cleaningarea
-    Mode: None
-    Dependency: Independent
+    PackageID: ["hatti.cleaningarea"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "870089952"
+  ModName: "CleaningArea"

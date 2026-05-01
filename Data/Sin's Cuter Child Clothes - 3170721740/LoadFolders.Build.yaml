@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Sins.CuterChildClothes
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Sins.CuterChildClothes"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3170721740"
+  ModName: "Sin's Cuter Child Clothes"

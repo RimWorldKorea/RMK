@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - ncook.storagepatches
-    Mode: None
-    Dependency: Independent
+    PackageID: ["ncook.storagepatches"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3566687115"
+  ModName: "Storage Balance Patches"

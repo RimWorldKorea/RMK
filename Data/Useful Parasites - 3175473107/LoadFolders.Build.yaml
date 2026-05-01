@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Romyashi.UsefulParasites
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Romyashi.UsefulParasites"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3175473107"
+  ModName: "Useful Parasites"

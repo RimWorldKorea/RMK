@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Fuu.BloodAnimations
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Fuu.BloodAnimations"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3228047321"
+  ModName: "Blood Animations"

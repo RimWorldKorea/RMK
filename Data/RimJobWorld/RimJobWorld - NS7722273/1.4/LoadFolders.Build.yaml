@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - rim.job.world
-    Mode: None
-    Dependency: Independent
+    PackageID: ["rim.job.world"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.4
+    Default: "1.4"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "NS7722273"
+  ModName: "RimJobWorld"

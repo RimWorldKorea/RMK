@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Kharshuf.JusticeForDryads
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Kharshuf.JusticeForDryads"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3272351780"
+  ModName: "Justice For Dryads"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - RashoMcree.Odyssey.OrbitalPlatforms
-    Mode: None
-    Dependency: Independent
+    PackageID: ["RashoMcree.Odyssey.OrbitalPlatforms"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3525980713"
+  ModName: "Orbital Platforms"

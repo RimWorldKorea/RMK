@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - fluff.cmbear
-    Mode: None
-    Dependency: Independent
+    PackageID: ["fluff.cmbear"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3023163660"
+  ModName: "[Curvaceous Mechanoid]The Teddy bear"

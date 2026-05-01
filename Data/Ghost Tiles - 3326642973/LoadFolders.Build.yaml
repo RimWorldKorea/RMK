@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - boeker.ghosttiles
-    Mode: None
-    Dependency: Independent
+    PackageID: ["boeker.ghosttiles"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3326642973"
+  ModName: "Ghost Tiles"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Kilo.VacSlipsuit
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Kilo.VacSlipsuit"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3536829054"
+  ModName: "VacSlipsuit"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - UNAGI.A.chinchira
-    Mode: None
-    Dependency: Independent
+    PackageID: ["UNAGI.A.chinchira"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3261620660"
+  ModName: "UNAGI Animal MOD フルッフィル"

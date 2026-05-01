@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - zal.aobamusket
-    Mode: None
-    Dependency: Independent
+    PackageID: ["zal.aobamusket"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3122117511"
+  ModName: "The Black Armory (Continued)"

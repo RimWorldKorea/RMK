@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - DiscoD3979.SkillMilestones
-    Mode: None
-    Dependency: Independent
+    PackageID: ["DiscoD3979.SkillMilestones"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3695771482"
+  ModName: "Skill Milestones"

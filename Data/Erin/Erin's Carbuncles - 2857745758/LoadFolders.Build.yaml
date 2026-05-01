@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Erin.Carbuncles
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Erin.Carbuncles"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2857745758"
+  ModName: "Erin's Carbuncles"

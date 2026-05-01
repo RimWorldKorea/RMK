@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - savestoragesettings.kv.rw
-    Mode: None
-    Dependency: Independent
+    PackageID: ["savestoragesettings.kv.rw"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2878346181"
+  ModName: "[KV] Save Storage, Outfit, Crafting, Drug, Operation Settings [1.4]"

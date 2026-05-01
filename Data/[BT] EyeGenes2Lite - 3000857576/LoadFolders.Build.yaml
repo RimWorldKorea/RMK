@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Oppey.EyeGenes2Lite
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Oppey.EyeGenes2Lite"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3000857576"
+  ModName: "[BT] EyeGenes2Lite"

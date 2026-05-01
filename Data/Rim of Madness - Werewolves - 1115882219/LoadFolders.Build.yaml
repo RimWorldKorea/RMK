@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - RimofMadness.Werewolves
-    Mode: None
-    Dependency: Independent
+    PackageID: ["RimofMadness.Werewolves"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1115882219"
+  ModName: "Rim of Madness - Werewolves"

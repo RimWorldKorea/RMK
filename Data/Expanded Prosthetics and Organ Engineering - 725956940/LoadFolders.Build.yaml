@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Ykara.EPOE
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Ykara.EPOE"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "725956940"
+  ModName: "Expanded Prosthetics and Organ Engineering"

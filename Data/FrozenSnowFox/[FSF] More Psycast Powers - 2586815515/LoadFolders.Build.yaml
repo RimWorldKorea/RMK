@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - FrozenSnowFox.MorePsycastPowers
-    Mode: None
-    Dependency: Independent
+    PackageID: ["FrozenSnowFox.MorePsycastPowers"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2586815515"
+  ModName: "[FSF] More Psycast Powers"

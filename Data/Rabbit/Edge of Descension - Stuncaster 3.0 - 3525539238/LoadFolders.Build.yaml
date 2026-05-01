@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Rabbit.eodstuncasterv3
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Rabbit.eodstuncasterv3"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3525539238"
+  ModName: "Edge of Descension - Stuncaster 3.0"

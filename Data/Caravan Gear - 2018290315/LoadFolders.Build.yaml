@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - jelly.caravangear
-    Mode: None
-    Dependency: Independent
+    PackageID: ["jelly.caravangear"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2018290315"
+  ModName: "Caravan Gear"

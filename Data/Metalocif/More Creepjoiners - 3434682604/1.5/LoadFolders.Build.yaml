@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - metalocif.morecreeps
-    Mode: None
-    Dependency: Independent
+    PackageID: ["metalocif.morecreeps"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.5
+    Default: "1.5"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3434682604"
+  ModName: "More Creepjoiners"

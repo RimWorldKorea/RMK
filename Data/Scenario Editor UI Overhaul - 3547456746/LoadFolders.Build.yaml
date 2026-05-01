@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - dev.soeur.ScenarioEditorUIOverhaul
-    Mode: None
-    Dependency: Independent
+    PackageID: ["dev.soeur.ScenarioEditorUIOverhaul"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3547456746"
+  ModName: "Scenario Editor UI Overhaul"

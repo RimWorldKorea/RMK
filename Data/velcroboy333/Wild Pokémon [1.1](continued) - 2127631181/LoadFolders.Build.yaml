@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - WildPokemon.velcroboy333
-    Mode: None
-    Dependency: Independent
+    PackageID: ["WildPokemon.velcroboy333"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2127631181"
+  ModName: "Wild Pokémon [1.1](continued)"

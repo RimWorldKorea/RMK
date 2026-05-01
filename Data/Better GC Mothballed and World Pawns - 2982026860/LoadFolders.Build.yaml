@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - GwinnBleidd.MothballedAndDeadPawns
-    Mode: None
-    Dependency: Independent
+    PackageID: ["GwinnBleidd.MothballedAndDeadPawns"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2982026860"
+  ModName: "Better GC Mothballed and World Pawns"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Dubwise.DubsCentralHeating
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Dubwise.DubsCentralHeating"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2619214952"
+  ModName: "Dubs Central Heating"

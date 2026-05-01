@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - BBIS.MaidProject
-    Mode: None
-    Dependency: Independent
+    PackageID: ["BBIS.MaidProject"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1498756997"
+  ModName: "[SS]Maid Project"

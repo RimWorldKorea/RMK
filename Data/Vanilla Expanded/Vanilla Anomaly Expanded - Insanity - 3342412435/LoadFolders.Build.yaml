@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - VanillaExpanded.VAnomalyEInsanity
-    Mode: None
-    Dependency: Independent
+    PackageID: ["VanillaExpanded.VAnomalyEInsanity"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3342412435"
+  ModName: "Vanilla Anomaly Expanded - Insanity"

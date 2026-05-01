@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - ReSplice.XOTR.Core
-    Mode: None
-    Dependency: Independent
+    PackageID: ["ReSplice.XOTR.Core"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3236303965"
+  ModName: "ReSplice Core"

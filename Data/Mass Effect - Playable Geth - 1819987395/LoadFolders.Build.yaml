@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - deathwing.gethrace
-    Mode: None
-    Dependency: Independent
+    PackageID: ["deathwing.gethrace"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1819987395"
+  ModName: "Mass Effect - Playable Geth"

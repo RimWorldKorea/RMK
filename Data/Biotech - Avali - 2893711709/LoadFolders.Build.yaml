@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - biotech.avali
-    Mode: None
-    Dependency: Independent
+    PackageID: ["biotech.avali"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2893711709"
+  ModName: "Biotech - Avali"

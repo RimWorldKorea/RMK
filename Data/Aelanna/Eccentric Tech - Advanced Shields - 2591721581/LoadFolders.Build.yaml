@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Aelanna.EccentricTech.AdvancedShields
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Aelanna.EccentricTech.AdvancedShields"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2591721581"
+  ModName: "Eccentric Tech - Advanced Shields"

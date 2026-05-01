@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - sleepy068.morepsycasts
-    Mode: None
-    Dependency: Independent
+    PackageID: ["sleepy068.morepsycasts"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2884678003"
+  ModName: "Sleepy's More Psycasts"

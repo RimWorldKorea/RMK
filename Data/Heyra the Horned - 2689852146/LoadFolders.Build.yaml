@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - bando.heyrathehorned
-    Mode: None
-    Dependency: Independent
+    PackageID: ["bando.heyrathehorned"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2689852146"
+  ModName: "Heyra the Horned"

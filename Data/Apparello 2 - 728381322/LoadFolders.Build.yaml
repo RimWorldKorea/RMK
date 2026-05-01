@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Shinzy.Apparello
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Shinzy.Apparello"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "728381322"
+  ModName: "Apparello 2"

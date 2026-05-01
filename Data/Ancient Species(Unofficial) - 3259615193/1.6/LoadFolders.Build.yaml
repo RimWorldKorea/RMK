@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Haduki.AncientSpecies.Unofficial
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Haduki.AncientSpecies.Unofficial"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3259615193"
+  ModName: "Ancient Species(Unofficial)"

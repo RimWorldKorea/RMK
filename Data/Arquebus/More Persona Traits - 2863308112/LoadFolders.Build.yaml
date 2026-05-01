@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Arquebus.MorePersonaTraits
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Arquebus.MorePersonaTraits"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2863308112"
+  ModName: "More Persona Traits"

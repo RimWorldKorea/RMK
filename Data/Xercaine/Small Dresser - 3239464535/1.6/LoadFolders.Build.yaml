@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Xercaine.SmallDresser
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Xercaine.SmallDresser"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3239464535"
+  ModName: "Small Dresser"

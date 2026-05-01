@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Kerevan.HisaFaction
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Kerevan.HisaFaction"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1617772184"
+  ModName: "Hisa Faction"

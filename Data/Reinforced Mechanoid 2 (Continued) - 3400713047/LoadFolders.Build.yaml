@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.ReinforcedMechanoid2
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.ReinforcedMechanoid2"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3400713047"
+  ModName: "Reinforced Mechanoid 2 (Continued)"

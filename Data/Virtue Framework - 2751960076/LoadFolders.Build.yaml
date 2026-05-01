@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - 22.Virtue.Frame
-    Mode: None
-    Dependency: Independent
+    PackageID: ["22.Virtue.Frame"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2751960076"
+  ModName: "Virtue Framework"

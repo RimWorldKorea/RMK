@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Alias.CampingStuff
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Alias.CampingStuff"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1523058989"
+  ModName: "Camping Stuff"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - VanillaExpanded.VWEC
-    Mode: None
-    Dependency: Independent
+    PackageID: ["VanillaExpanded.VWEC"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2375692535"
+  ModName: "Vanilla Weapons Expanded - Coilguns"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - sflegion.vfeea.powerextract
-    Mode: None
-    Dependency: Independent
+    PackageID: ["sflegion.vfeea.powerextract"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2812995516"
+  ModName: "VFEEA - Extract Super-Nanites"

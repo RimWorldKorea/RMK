@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Rin.RatkinApparel
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Rin.RatkinApparel"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2634067380"
+  ModName: "Ratkin Apparel+"

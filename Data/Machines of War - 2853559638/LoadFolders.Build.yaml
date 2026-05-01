@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - EL.MOW
-    Mode: None
-    Dependency: Independent
+    PackageID: ["EL.MOW"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2853559638"
+  ModName: "Machines of War"

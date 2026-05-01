@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - IssacZhuang.PLA.Vehicle
-    Mode: None
-    Dependency: Independent
+    PackageID: ["IssacZhuang.PLA.Vehicle"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2743947189"
+  ModName: "PLA Steel Torrent"

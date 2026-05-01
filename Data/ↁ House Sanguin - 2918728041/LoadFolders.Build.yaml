@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - devdesigner.blood
-    Mode: None
-    Dependency: Independent
+    PackageID: ["devdesigner.blood"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2918728041"
+  ModName: "ↁ House Sanguin"

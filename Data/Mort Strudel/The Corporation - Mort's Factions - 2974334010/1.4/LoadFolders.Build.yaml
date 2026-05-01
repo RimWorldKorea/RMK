@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - MortStrudel.CorporationFaction
-    Mode: None
-    Dependency: Independent
+    PackageID: ["MortStrudel.CorporationFaction"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.4
+    Default: "1.4"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2974334010"
+  ModName: "The Corporation - Mort's Factions"

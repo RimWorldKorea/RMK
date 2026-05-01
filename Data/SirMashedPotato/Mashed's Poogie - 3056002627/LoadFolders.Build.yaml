@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - SirMashedPotato.Poogie
-    Mode: None
-    Dependency: Independent
+    PackageID: ["SirMashedPotato.Poogie"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3056002627"
+  ModName: "Mashed's Poogie"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Amli.Story.Dumpling
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Amli.Story.Dumpling"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3139924720"
+  ModName: "AF · Dumpling"

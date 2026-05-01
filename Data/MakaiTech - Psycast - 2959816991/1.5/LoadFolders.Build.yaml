@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Aranmaho.Makai.Psycast
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Aranmaho.Makai.Psycast"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.5
+    Default: "1.5"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2959816991"
+  ModName: "MakaiTech - Psycast"

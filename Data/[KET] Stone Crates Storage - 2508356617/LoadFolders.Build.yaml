@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - ketaros.storages
-    Mode: None
-    Dependency: Independent
+    PackageID: ["ketaros.storages"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2508356617"
+  ModName: "[KET] Stone Crates Storage"

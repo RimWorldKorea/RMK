@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - jamaicancastle.shoo
-    Mode: None
-    Dependency: Independent
+    PackageID: ["jamaicancastle.shoo"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1307441653"
+  ModName: "Shoo!"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - tractor.TheRealCaptRex
-    Mode: None
-    Dependency: Independent
+    PackageID: ["tractor.TheRealCaptRex"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3276694110"
+  ModName: "Tractor"

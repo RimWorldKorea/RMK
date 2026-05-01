@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - tot.cmc.weaponry
-    Mode: None
-    Dependency: Independent
+    PackageID: ["tot.cmc.weaponry"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2883670795"
+  ModName: "Celestial Manufacturing Cooperation MKII"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - BiomesTeam.BiomesPollutedLands
-    Mode: None
-    Dependency: Independent
+    PackageID: ["BiomesTeam.BiomesPollutedLands"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3390196656"
+  ModName: "Biomes! Polluted Lands"

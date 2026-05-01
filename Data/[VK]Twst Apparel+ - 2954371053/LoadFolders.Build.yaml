@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - vk.twst.apparel
-    Mode: None
-    Dependency: Independent
+    PackageID: ["vk.twst.apparel"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2954371053"
+  ModName: "[VK]Twst Apparel+"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - joedaly.medmeds.mo
-    Mode: None
-    Dependency: Independent
+    PackageID: ["joedaly.medmeds.mo"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2883228057"
+  ModName: "Medieval Medicines Medieval Overhaul Edition"

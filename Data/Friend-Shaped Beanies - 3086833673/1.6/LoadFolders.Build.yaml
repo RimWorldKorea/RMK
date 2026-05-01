@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Nuff.animalbeanies
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Nuff.animalbeanies"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3086833673"
+  ModName: "Friend-Shaped Beanies"

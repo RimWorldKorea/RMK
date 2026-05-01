@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - cat2002.showhair
-    Mode: None
-    Dependency: Independent
+    PackageID: ["cat2002.showhair"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2879080074"
+  ModName: "[CAT] Show Hair With Hats or Hide All Hats"

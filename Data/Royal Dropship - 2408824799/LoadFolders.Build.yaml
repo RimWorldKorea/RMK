@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - ConanTheCivilian.RoyalDropship
-    Mode: None
-    Dependency: Independent
+    PackageID: ["ConanTheCivilian.RoyalDropship"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2408824799"
+  ModName: "Royal Dropship"

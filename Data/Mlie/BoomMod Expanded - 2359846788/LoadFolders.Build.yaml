@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - mlie.boommodexpanded
-    Mode: None
-    Dependency: Independent
+    PackageID: ["mlie.boommodexpanded"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2359846788"
+  ModName: "BoomMod Expanded"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - als.anomalygravship
-    Mode: None
-    Dependency: Independent
+    PackageID: ["als.anomalygravship"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3558784993"
+  ModName: "Anomaly for Gravship"

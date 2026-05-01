@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - nalzurin.entitycodexfixed
-    Mode: None
-    Dependency: Independent
+    PackageID: ["nalzurin.entitycodexfixed"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3392453152"
+  ModName: "Fixed! - Entity Codex"

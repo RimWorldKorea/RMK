@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - reel.expanded.storage
-    Mode: None
-    Dependency: Independent
+    PackageID: ["reel.expanded.storage"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3237638097"
+  ModName: "Reel's Expanded Storage"

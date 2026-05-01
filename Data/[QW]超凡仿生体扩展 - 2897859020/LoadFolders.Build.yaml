@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - qw.archotechimplantsexpanded
-    Mode: None
-    Dependency: Independent
+    PackageID: ["qw.archotechimplantsexpanded"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2897859020"
+  ModName: "[QW]超凡仿生体扩展"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - sarg.alphabiomes
-    Mode: None
-    Dependency: Independent
+    PackageID: ["sarg.alphabiomes"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1841354677"
+  ModName: "Alpha Biomes"

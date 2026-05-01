@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - trojan.deathrattle
-    Mode: None
-    Dependency: Independent
+    PackageID: ["trojan.deathrattle"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2879582925"
+  ModName: "Death Rattle [1.4]"

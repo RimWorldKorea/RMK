@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - punkyroo.containtoxicwaste
-    Mode: None
-    Dependency: Independent
+    PackageID: ["punkyroo.containtoxicwaste"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2881076651"
+  ModName: "Contain Toxic Waste"

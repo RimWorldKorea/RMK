@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - VMGE.ByNiki
-    Mode: None
-    Dependency: Independent
+    PackageID: ["VMGE.ByNiki"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3508565674"
+  ModName: "Vanilla Genes Expanded"

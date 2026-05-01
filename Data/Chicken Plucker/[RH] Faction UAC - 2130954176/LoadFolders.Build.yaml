@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - RH.Faction.UAC
-    Mode: None
-    Dependency: Independent
+    PackageID: ["RH.Faction.UAC"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2130954176"
+  ModName: "[RH] Faction UAC"

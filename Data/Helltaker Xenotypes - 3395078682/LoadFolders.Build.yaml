@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Saruman.HelltakerXenotypes
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Saruman.HelltakerXenotypes"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3395078682"
+  ModName: "Helltaker Xenotypes"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - mlie.npdtiers
-    Mode: None
-    Dependency: Independent
+    PackageID: ["mlie.npdtiers"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2043895447"
+  ModName: "NPDTiers - The Nutrient Paste Expansion Mod (Continued)"

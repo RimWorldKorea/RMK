@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - biowreck.personaldoors
-    Mode: None
-    Dependency: Independent
+    PackageID: ["biowreck.personaldoors"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3244733349"
+  ModName: "Personal Doors"

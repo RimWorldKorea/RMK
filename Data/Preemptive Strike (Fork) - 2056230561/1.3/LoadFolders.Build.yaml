@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - LtBob.PreemptiveStrike.Rimworld
-    Mode: None
-    Dependency: Independent
+    PackageID: ["LtBob.PreemptiveStrike.Rimworld"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 
+    Default: "1.3"
     LeftBoundary: 
-    RightBoundary: 1.3
+    RightBoundary: "1.3"
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2056230561"
+  ModName: "Preemptive Strike (Fork)"

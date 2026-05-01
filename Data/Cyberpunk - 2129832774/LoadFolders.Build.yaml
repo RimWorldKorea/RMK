@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Bennington.CyberPunk
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Bennington.CyberPunk"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2129832774"
+  ModName: "Cyberpunk"

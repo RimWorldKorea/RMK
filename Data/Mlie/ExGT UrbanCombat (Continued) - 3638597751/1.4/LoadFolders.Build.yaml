@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.ExGTUrbanCombat
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.ExGTUrbanCombat"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.4
+    Default: "1.4"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3638597751"
+  ModName: "ExGT UrbanCombat (Continued)"

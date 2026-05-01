@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Murmur.SubsurfaceConduit
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Murmur.SubsurfaceConduit"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1609226728"
+  ModName: "Subsurface Conduit"

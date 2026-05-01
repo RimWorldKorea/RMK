@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - VVenchov.VVNewHarvestIndustrialCrops
-    Mode: None
-    Dependency: Independent
+    PackageID: ["VVenchov.VVNewHarvestIndustrialCrops"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3552456765"
+  ModName: "VV - New Harvest Industrial Crops"

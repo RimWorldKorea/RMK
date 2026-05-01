@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - psy.bone.masks
-    Mode: None
-    Dependency: Independent
+    PackageID: ["psy.bone.masks"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3258538222"
+  ModName: "Psy Bone Masks - Remade"

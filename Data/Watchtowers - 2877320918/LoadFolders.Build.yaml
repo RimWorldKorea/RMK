@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - dartstriker.watchtowers
-    Mode: None
-    Dependency: Independent
+    PackageID: ["dartstriker.watchtowers"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2877320918"
+  ModName: "Watchtowers"

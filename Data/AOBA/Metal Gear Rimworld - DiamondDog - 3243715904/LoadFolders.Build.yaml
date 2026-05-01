@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Aoba.DiamondDog.Core
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Aoba.DiamondDog.Core"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3243715904"
+  ModName: "Metal Gear Rimworld - DiamondDog"

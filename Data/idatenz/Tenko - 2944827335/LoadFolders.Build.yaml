@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - idatenz.tenko
-    Mode: None
-    Dependency: Independent
+    PackageID: ["idatenz.tenko"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2944827335"
+  ModName: "Tenko"

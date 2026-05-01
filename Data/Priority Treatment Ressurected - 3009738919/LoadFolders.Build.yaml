@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - tk421storm.prioritytreatmentressurected
-    Mode: None
-    Dependency: Independent
+    PackageID: ["tk421storm.prioritytreatmentressurected"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3009738919"
+  ModName: "Priority Treatment Ressurected"

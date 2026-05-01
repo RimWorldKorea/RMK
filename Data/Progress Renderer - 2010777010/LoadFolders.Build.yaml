@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - neptimus7.progressrenderer
-    Mode: None
-    Dependency: Independent
+    PackageID: ["neptimus7.progressrenderer"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2010777010"
+  ModName: "Progress Renderer"

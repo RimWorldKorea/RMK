@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - vat.epoeforkedroyalty
-    Mode: None
-    Dependency: Independent
+    PackageID: ["vat.epoeforkedroyalty"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2008970276"
+  ModName: "EPOE-Forked Royalty DLC expansion"

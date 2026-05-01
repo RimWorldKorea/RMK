@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - mallow.shoes.socks
-    Mode: None
-    Dependency: Independent
+    PackageID: ["mallow.shoes.socks"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2880901640"
+  ModName: "Mallow's Shoes And Socks"

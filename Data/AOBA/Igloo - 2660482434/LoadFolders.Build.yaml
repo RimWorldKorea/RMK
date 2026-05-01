@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Aoba.Tent.Igloo
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Aoba.Tent.Igloo"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2660482434"
+  ModName: "Igloo"

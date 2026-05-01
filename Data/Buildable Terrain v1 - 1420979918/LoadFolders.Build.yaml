@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Buildable.Terrain
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Buildable.Terrain"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1420979918"
+  ModName: "Buildable Terrain v1"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - vanillaracesexpanded.genie
-    Mode: None
-    Dependency: Independent
+    PackageID: ["vanillaracesexpanded.genie"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2901424072"
+  ModName: "Vanilla Races Expanded - Genie"

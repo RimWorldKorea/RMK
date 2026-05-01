@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Scurvyez.RandomChance
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Scurvyez.RandomChance"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3011412382"
+  ModName: "Random Chance"

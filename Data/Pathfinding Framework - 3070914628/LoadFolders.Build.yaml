@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - pathfinding.framework
-    Mode: None
-    Dependency: Independent
+    PackageID: ["pathfinding.framework"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3070914628"
+  ModName: "Pathfinding Framework"

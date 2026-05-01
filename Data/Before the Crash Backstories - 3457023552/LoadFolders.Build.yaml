@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - BTC.backstories
-    Mode: None
-    Dependency: Independent
+    PackageID: ["BTC.backstories"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3457023552"
+  ModName: "Before the Crash Backstories"

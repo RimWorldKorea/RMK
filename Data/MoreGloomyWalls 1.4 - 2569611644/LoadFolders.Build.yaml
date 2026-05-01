@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - sunny.GLSterileWalls
-    Mode: None
-    Dependency: Independent
+    PackageID: ["sunny.GLSterileWalls"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2569611644"
+  ModName: "MoreGloomyWalls 1.4"

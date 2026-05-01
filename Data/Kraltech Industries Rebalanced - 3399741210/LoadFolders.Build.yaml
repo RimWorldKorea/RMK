@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - BlackMarket420.KraltechIndustries.Rebalanced
-    Mode: None
-    Dependency: Independent
+    PackageID: ["BlackMarket420.KraltechIndustries.Rebalanced"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3399741210"
+  ModName: "Kraltech Industries Rebalanced"

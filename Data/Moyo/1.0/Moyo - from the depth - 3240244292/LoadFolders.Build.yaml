@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Nemonian.MY
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Nemonian.MY"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3240244292"
+  ModName: "Moyo - from the depth"

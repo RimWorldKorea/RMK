@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - yukiyuki.ABYSS
-    Mode: None
-    Dependency: Independent
+    PackageID: ["yukiyuki.ABYSS"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3460293910"
+  ModName: "ABYSS"

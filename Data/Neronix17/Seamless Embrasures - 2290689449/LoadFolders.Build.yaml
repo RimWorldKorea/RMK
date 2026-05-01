@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - neronix17.embrasures
-    Mode: None
-    Dependency: Independent
+    PackageID: ["neronix17.embrasures"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2290689449"
+  ModName: "Seamless Embrasures"

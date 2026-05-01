@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Owlchemist.ToggleableReadouts
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Owlchemist.ToggleableReadouts"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2661792499"
+  ModName: "Toggleable Readouts"

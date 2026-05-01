@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - LadyCookie.VTEExpansion
-    Mode: None
-    Dependency: Independent
+    PackageID: ["LadyCookie.VTEExpansion"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2634423596"
+  ModName: "Add-On for Vanilla Traits Expanded"

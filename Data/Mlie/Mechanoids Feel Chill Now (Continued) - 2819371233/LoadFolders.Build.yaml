@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Mlie.MechanoidsFeelChillNow
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Mlie.MechanoidsFeelChillNow"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2819371233"
+  ModName: "Mechanoids Feel Chill Now (Continued)"

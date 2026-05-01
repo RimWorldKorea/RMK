@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - zylle.Elephants
-    Mode: None
-    Dependency: Independent
+    PackageID: ["zylle.Elephants"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2389095025"
+  ModName: "Elephants"

@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Rick.FCPFNVLeverActionRifles
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Rick.FCPFNVLeverActionRifles"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2538459641"
+  ModName: "FCP Fallout New Vegas Lever Action Rifles!"

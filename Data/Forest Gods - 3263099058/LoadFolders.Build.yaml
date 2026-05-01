@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - goat.forest.god
-    Mode: None
-    Dependency: Independent
+    PackageID: ["goat.forest.god"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3263099058"
+  ModName: "Forest Gods"

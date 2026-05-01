@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - det.epochstallow
-    Mode: None
-    Dependency: Independent
+    PackageID: ["det.epochstallow"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3502180016"
+  ModName: "Epochs - Tallow"

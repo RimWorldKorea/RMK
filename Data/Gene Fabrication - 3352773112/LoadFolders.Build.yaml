@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - AmCh.Eragon.HCGeneFabrication
-    Mode: None
-    Dependency: Independent
+    PackageID: ["AmCh.Eragon.HCGeneFabrication"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3352773112"
+  ModName: "Gene Fabrication"

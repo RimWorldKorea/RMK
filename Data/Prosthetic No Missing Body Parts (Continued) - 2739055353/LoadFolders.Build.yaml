@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - mlie.prostheticnomissingbodyparts
-    Mode: None
-    Dependency: Independent
+    PackageID: ["mlie.prostheticnomissingbodyparts"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2739055353"
+  ModName: "Prosthetic No Missing Body Parts (Continued)"

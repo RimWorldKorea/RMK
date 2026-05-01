@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - sierra.milkshakes.digitaldeluxeedition
-    Mode: None
-    Dependency: Independent
+    PackageID: ["sierra.milkshakes.digitaldeluxeedition"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2595980371"
+  ModName: "Milkshakes - Digital Deluxe Edition"

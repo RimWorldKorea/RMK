@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - velc.changedevspeed
-    Mode: None
-    Dependency: Independent
+    PackageID: ["velc.changedevspeed"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "2160022668"
+  ModName: "Change DevSpeed"

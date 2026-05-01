@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - nerdy.bm
-    Mode: None
-    Dependency: Independent
+    PackageID: ["nerdy.bm"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "1762848615"
+  ModName: "Bulk Meals"

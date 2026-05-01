@@ -1,9 +1,8 @@
 BuildRule:
   Binding:
-    PackageID:
-    - Van.DATools
-    Mode: None
-    Dependency: Independent
+    PackageID: ["Van.DATools"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
@@ -13,3 +12,6 @@ BuildRule:
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3028566550"
+  ModName: "Dark Ages Medieval Tools"

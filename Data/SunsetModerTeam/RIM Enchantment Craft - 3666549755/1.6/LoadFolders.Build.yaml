@@ -1,15 +1,17 @@
 BuildRule:
   Binding:
-    PackageID:
-    - SunsetModerTeam.RIMEnchantmentExpansion
-    Mode: None
-    Dependency: Independent
+    PackageID: ["SunsetModerTeam.RIMEnchantmentExpansion"]
+    Mode: "None"
+    Dependency: "Independent"
   Order:
     After: 
     Before: 
   Version:
-    Default: 1.6
+    Default: "1.6"
     LeftBoundary: 
     RightBoundary: 
     Designate: 
     Ban: 
+Metadata:
+  WorkshopID: "3666549755"
+  ModName: "RIM Enchantment Craft"
