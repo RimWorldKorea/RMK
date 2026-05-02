@@ -59,7 +59,7 @@ using YamlDotNet.Serialization.NamingConventions;
     List<BuildRule> BuildQueue = new List<BuildRule>(ValidPath.Length);
     for (int i = 0; i < ValidPath.Length; i++)
     {
-        if (Statics.BuildYamlDeserialize(Deserializer, ValidPath[i]) is {} FriedFish)
+        if (Statics.BuildYamlDeserialize(Deserializer, ValidPath[i]) is {} FriedFish && FriedFish.IsValid is true)
             BuildQueue.Add(FriedFish);
     }
     
