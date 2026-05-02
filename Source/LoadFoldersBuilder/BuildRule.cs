@@ -22,19 +22,23 @@ public class BuildRule
     public readonly string[]? After;
     public readonly string[]? Before;
     
-    /** [Nullable] 기본 지정 버전입니다. 가능한 경우 Boundary로 확장합니다. */
+    /** 기본 지정 버전입니다. 가능한 경우 Boundary로 확장합니다. */
     public readonly Version? Default;
-    /** [Nullable] Default 버전이 존재하는 경우 이 경계까지 확장합니다. */
+    /** Default 버전이 존재하는 경우 이 경계까지 확장합니다. */
     public readonly Version? LeftBoundary;
-    /** [Nullable] Default 버전이 존재하는 경우 이 경계까지 확장합니다. */
+    /** Default 버전이 존재하는 경우 이 경계까지 확장합니다. */
     public readonly Version? RightBoundary;
     /** Default와 Boundary 상태를 저장합니다. */
     public readonly BoundaryConditions BoundaryCondition;
     public readonly Version[]? Designate;
     public readonly Version[]? Ban;
 
+    /** ModList.tsv 작성 용도로만 사용됩니다. */
     public readonly string? WorkshopID = null;
+    /** ModList.tsv 작성 용도로만 사용됩니다. */
     public readonly string? ModName = null;
+    /** ModList.tsv 작성 용도로만 사용됩니다. */
+    public readonly string RepresentativePID;
 
     // null인 경우 미확인, false인 경우 유효하지 않음, true인 경우 유효 -> 사용 가능
     public bool? IsValid = null;
@@ -43,16 +47,18 @@ public class BuildRule
     public BuildRule(ref BuildRuleYamlStructure Yaml, string YamlPath)
     {
         LoadPath = YamlPath;
-        
-        PackageID = Yaml.BuildRule.Binding.PackageID;
+
+        var RawPIDS = Yaml.BuildRule.Binding.PackageID ?? new string[0];
+        RepresentativePID = RawPIDS.FirstOrDefault()!;
+        PackageID = RawPIDS.Select(PID => PID.ToLower()).ToArray();
         
         Mode = Yaml.BuildRule.Binding.Mode;
         if (PackageID.Length is 1) Mode = BindingMode.Any; // 요소가 1개면 의미가 없음. 텍스트나 절약.
         
         Dependency = Yaml.BuildRule.Binding.Dependency;
 
-        After = Yaml.BuildRule.Order.After;
-        Before = Yaml.BuildRule.Order.Before;
+        After = Yaml.BuildRule.Order.After?.Select(PID => PID.ToLower()).ToArray() ?? null;
+        Before = Yaml.BuildRule.Order.Before?.Select(PID => PID.ToLower()).ToArray() ?? null;
 
 
         string DefaultTemp = Yaml.BuildRule.Version.Default;
@@ -258,7 +264,7 @@ public class BuildRules
                 hash = ModName.GetHashCode() * 31 + Rule.WorkshopID?.GetHashCode() ?? ModName.GetHashCode();
             }
 
-            string TextLine = $"{Rule.WorkshopID ?? "No ID"}\t{ModName}\t{RelativeLocation}\t{Rule.PackageID.First()}";
+            string TextLine = $"{Rule.WorkshopID ?? "No ID"}\t{ModName}\t{RelativeLocation}\t{Rule.RepresentativePID}";
             ExportList.TryAdd(hash, TextLine);
         }
 
