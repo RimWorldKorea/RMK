@@ -3,7 +3,7 @@ import os
 MAX_INDEX = 100001
 LIMIT_FILENAME = 170
 WHITELISTED_PREFIX = ('ign_', 'Config')     # ('ign%', '이파일은수정하지말아줘' )
-RKM_DATA_PATH = os.path.join(os.getcwd(), 'Data')
+RMK_DATA_PATH = os.path.join(os.getcwd(), 'Data')
 
 
 flag_array = 1 << MAX_INDEX
@@ -35,7 +35,7 @@ def get_empty_idx() -> int:
 if __name__ == '__main__':
     # 이미 사용 중인 파일 이름 탐색
     cnt_distinguish = 0
-    for (root, dirs, files) in os.walk(RKM_DATA_PATH):
+    for (root, dirs, files) in os.walk(RMK_DATA_PATH):
         for file_name in files:
             if '.xml' in str.lower(file_name) and file_name[:-4].isdecimal():
                 idx = int(file_name[:-4])
@@ -48,7 +48,7 @@ if __name__ == '__main__':
 
     # 파일 이름을 바꿔야 하는 .xml 파일 탐색
     cnt_changed: int = 0
-    for (root, dirs, files) in os.walk(RKM_DATA_PATH):
+    for (root, dirs, files) in os.walk(RMK_DATA_PATH):
         for file_name in files:
             for prefix in WHITELISTED_PREFIX:
                 if file_name.startswith(prefix):
@@ -64,7 +64,7 @@ if __name__ == '__main__':
 
     # 지나치게 파일 경로가 긴 파일 탐색
     cnt_long_filename = 0
-    for (root, dirs, files) in os.walk(RKM_DATA_PATH):
+    for (root, dirs, files) in os.walk(RMK_DATA_PATH):
         for file_name in files:
             if '.xml' in str.lower(file_name):
                 file_path = os.path.join(root, file_name)

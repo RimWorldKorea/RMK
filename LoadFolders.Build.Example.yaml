@@ -1,0 +1,18 @@
+# 파일 이름은 반드시 LoadFolders.Build.yaml이어야 합니다. (예시 파일의 이름은 LoadFolders.Build.Example.yaml입니다.)
+# LoadFolders.Build.yaml이 위치한 폴더는 로드 기준점이 되는 폴더입니다. 해당 경로에 Languages 폴더 등이 있을 경우 아래 규칙에 따라 로드됩니다.
+# 모든 요소는 쌍따옴표로 "감싸"서 입력합니다. YAML 문법에 따른 다른 표기도 가능하지만, 사용자간에 혼란이 생길 수 있으므로 가급적 표현을 통일해주기 바랍니다.
+# 각 항목의 주석 앞부분에 [ ]가 있는 경우 [ ]로 입력해야 하며, 여러 개의 요소를 넣을 수 있습니다. 없는 경우 [ ]로 입력할 수 없습니다.
+BuildRule: ##
+  Binding: ##
+    PackageID: ["MoMo.Friends", "Peroro.Daisuki"] #[ ] 이 패키지ID를 가진 모드를 로드할 때 함께 로드합니다.
+    Mode: "None" # "All"인 경우 PackageID에 해당하는 모든 모드가 로드되어야 로드합니다. "Any"인 경우 그 중 하나만 로드되어도 로드합니다. PacakageID가 두 개 이상인 경우 필수입니다.
+    Dependency: "Independent" # "Independent"인 경우 모든 규칙을 그대로 적용하며, 하위 경로에는 Dependent 규칙만 존재할 수 있습니다. "Dependent"인 경우 상위 경로에 위치한 Independent 규칙이 가리키는 폴더를 로드할 때 함께 로드합니다.
+  Order: ##
+    After: ["kentington.saveourship2"] #[ ] 이 PackageID와 연결된 폴더가 로드되는 경우, 해당 폴더가 로드되고 난 다음 이 폴더를 로드합니다.
+    Before: ["Aoba.DeadManSwitch.Core"] #[ ] 이 PackageID와 연결된 폴더가 로드되는 경우, 이 폴더가 로드되고 난 다음 해당 폴더를 로드합니다.
+  Version: ##
+    Default: "1.5" # 이 폴더를 로드하는 기본 버전입니다. 해당 버전 앞뒤에서도 다른 규칙에 의해 막히지 않는한 로드하려고 합니다. 예를 들어, 동일한 PackageID를 참조하는 규칙에 "1.7"이 Default로 설정돼있는 경우 이 폴더는 1.6 버전까지 로드됩니다.
+    LeftBoundary: # Default 규칙이 앞버전으로 확장할 때, 이 버전까지만 로드하려고 합니다.
+    RightBoundary: # Default 규칙이 뒷버전으로 확장할 때, 이 버전까지만 로드하려고 합니다.
+    Designate: #[ ] Default 버전과 별도로 이 버전에도 로드합니다.
+    Ban: #[ ] 이 버전에는 로드하지 않습니다.
