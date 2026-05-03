@@ -43,7 +43,7 @@
   <REE_EquipmentList>장비 목록</REE_EquipmentList>
   <REE_Enchantments>부여된 마법</REE_Enchantments>
   <REE_EnchantmentDescription>설명</REE_EnchantmentDescription>
-  <REE_SkillLevelSelection>주입 기술 선택 (열정이 있으면 획득 레벨이 증가합니다)</REE_SkillLevelSelection>
+  <REE_SkillLevelSelection>레벨 주입 (열정 보유 시 보너스)</REE_SkillLevelSelection>
   <REE_LevelSummary>기술 레벨 정보</REE_LevelSummary>
   <REE_EnchantmentListWillBeHere>부여할 수 있는 마법이 여기 표시됩니다</REE_EnchantmentListWillBeHere>
   <REE_SelectEnchantmentToSeeDescription>마법을 선택하면 효과를 확인할 수 있습니다</REE_SelectEnchantmentToSeeDescription>
@@ -186,4 +186,50 @@
   <REE_Falloff>감쇄</REE_Falloff>
   <REE_BookshelfCount>{0}/{1}개의 책장 연결됨</REE_BookshelfCount>
   <REE_BookshelfMissing>최대 레벨 제한 도달까지 책장 {0}개 필요</REE_BookshelfMissing>
+  <REE_Anvil>모루</REE_Anvil>
+  <REE_OpenAnvil>모루 사용</REE_OpenAnvil>
+  <REE_SourceItem>추출 대상</REE_SourceItem>
+  <REE_TargetItem>부여 대상</REE_TargetItem>
+  <REE_SelectItem>물품 선택</REE_SelectItem>
+  <REE_ChangeItem>물품 변경</REE_ChangeItem>
+  <REE_NoItemSelected>선택된 물품 없음</REE_NoItemSelected>
+  <REE_NoEnchantments>부여된 마법 없음</REE_NoEnchantments>
+  <REE_NoEnchantableItems>마법 부여 가능 물품 없음</REE_NoEnchantableItems>
+  <REE_SelectSourceItemFirst>추출 대상을 먼저 선택하세요</REE_SelectSourceItemFirst>
+  <REE_SelectTargetItemFirst>부여 대상을 먼저 선택하세요</REE_SelectTargetItemFirst>
+  <REE_NoEnchantmentsToTransfer>옮길 마법이 없습니다</REE_NoEnchantmentsToTransfer>
+  <REE_NoTransferableEnchantments>옮길 수 있는 마법이 없습니다</REE_NoTransferableEnchantments>
+  <REE_TransferEnchant>마법 전수</REE_TransferEnchant>
+  <REE_InjectExperience>레벨 주입</REE_InjectExperience>
+  <REE_Inject>주입</REE_Inject>
+  <REE_InjectAmount>양</REE_InjectAmount>
+  <REE_CurrentAnvilLevel>모루 레벨</REE_CurrentAnvilLevel>
+  <REE_StoredLevel>저장된 레벨</REE_StoredLevel>
+  <REE_LevelInjected>{0} 레벨을 주입했습니다</REE_LevelInjected>
+  <REE_AnvilLevelFull>모루 레벨이 가득 찼습니다</REE_AnvilLevelFull>
+  <REE_InsufficientPlayerLevels>플레이어 레벨 부족</REE_InsufficientPlayerLevels>
+  <REE_PlayerAvailableLevels>주입 가능한 레벨</REE_PlayerAvailableLevels>
+  <REE_WillConsume>소모량</REE_WillConsume>
+  <REE_PlayerLevels>플레이어 레벨</REE_PlayerLevels>
+  <REE_AnvilLevel>모루 레벨</REE_AnvilLevel>
+  <REE_TargetCannotBeEnchanted>대상에 마법을 부여할 수 없습니다</REE_TargetCannotBeEnchanted>
+  <REE_EnchantmentTransferred>{0}(을)를 {1}에 부여했습니다</REE_EnchantmentTransferred>
+  <REE_Cost>비용</REE_Cost>
+  <REE_Transfer>옮기기 →</REE_Transfer>
+  <REE_TargetCannotAcceptEnchant>이 마법은 대상과 호환되지 않습니다</REE_TargetCannotAcceptEnchant>
+  <REE_InsufficientExperience>모루 레벨 부족</REE_InsufficientExperience>
+  <REE_SourceEnchantments>추출 대상 마법 목록</REE_SourceEnchantments>
+  <REE_TargetEnchantments>부여 대상 마법 목록</REE_TargetEnchantments>
+  <REE_SelectItemForRemove>마법을 제거하려면 물품을 선택하세요</REE_SelectItemForRemove>
+  <REE_Remove>제거</REE_Remove>
+  <REE_ConfirmRemoveEnchant>{0}(을)를 제거하시겠습니까? {1} 레벨을 돌려받게 됩니다.</REE_ConfirmRemoveEnchant>
+  <REE_CommandMakeAnvilStockpileLabel>모루 저장구역 만들기</REE_CommandMakeAnvilStockpileLabel>
+  <REE_CommandMakeAnvilStockpileDesc>모루의 범위와 일치하는 크기의 저장 구역을 생성합니다.</REE_CommandMakeAnvilStockpileDesc>
+  <REE_RefreshItemList>목록 새로고침</REE_RefreshItemList>
+  <REE_RefreshItemListDesc>저장고 안에 있는 마법 부여가 가능한 물품을 재탐색합니다</REE_RefreshItemListDesc>
+  <REE_ItemsInStorage>저장고에 있는 물품</REE_ItemsInStorage>
+  <REE_ItemListRefreshed>물품 목록이 새로고침되었습니다</REE_ItemListRefreshed>
+  <REE_HasEnchantmentNum>(마법 {0}개)</REE_HasEnchantmentNum>
+  <REE_InsufficientJade>비취옥 부족</REE_InsufficientJade>
+  <REE_InsufficientLevel>레벨 부족</REE_InsufficientLevel>
 </LanguageData>
