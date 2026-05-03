@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>RimCuisine 2 Core (Continued)</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Wheat"]/label</xpath>
+          <value>
+            <label>스펠트밀</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Wheat"]/description</xpath>
+          <value>
+            <description>스펠트밀은 기원전 5000년경부터 재배된 밀의 한 종류입니다. 식이섬유, 단백질, 비타민 및 미네랄의 좋은 공급원입니다. 스펠트밀은 수확에 한해 가까운 시간이 걸리는 곡물입니다. 연약하고 시간이 오래 걸리지만, 이 밀은 단순히 만지는 것만으로도 밀가루로 부드럽게 부서지도록 유전적으로 조작되었습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Flour"]/label</xpath>
+          <value>
+            <label>스펠트밀가루</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Flour"]/description</xpath>
+          <value>
+            <description>제빵에 사용되는 밀가루입니다. 상온에서도 오랫동안 보관할 수 있습니다. 조금만 힘을 줘도 쉽게 가루로 부서지는 유전자 조작 스펠트밀로 생산되었습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Cheese"]/label</xpath>
+          <value>
+            <label>젖소 치즈</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingCategoryDef[defName="VCE_Cheese"]/label</xpath>
+          <value>
+            <label>숙성 치즈</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_AgaveNectar"]/label</xpath>
+          <value>
+            <label>용설란 시럽</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_AgaveNectar"]/description</xpath>
+          <value>
+            <description>치유력과 항염 효과로 알려진 부드럽고 달콤한 시럽입니다. 설탕보다 건강하지만 과당 함량이 높아 지속적으로 섭취했을 시 해로울 수 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="VCE_ConsumedAgave"]/label</xpath>
+          <value>
+            <label>용설란 시럽이 들어간 음식</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="VCE_ConsumedAgave"]/description</xpath>
+          <value>
+            <description>치유력과 항염 효과로 알려진 부드럽고 달콤한 시럽입니다. 하루 동안 면역 획득 속도가 15% 증가합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_RawSugar"]/label</xpath>
+          <value>
+            <label>흑설탕</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_RawSugar"]/description</xpath>
+          <value>
+            <description>음식에 단맛을 더해주는 결정형 사탕수수 분말입니다. 설탕은 몸에서 쉽게 에너지로 전환됩니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="VCE_SugarRush"]/label</xpath>
+          <value>
+            <label>흑설탕이 들어간 음식</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>VGP Vegetable Garden</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Sugarcane"]/label</xpath>
+          <value>
+            <label>우바 사탕수수</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VCE_Sugarcane"]/description</xpath>
+          <value>
+            <description>마디가 있는 줄기를 가진 굵고 키 큰 열대성 풀입니다. 우바 품종은 일반 사탕수수보다 훨씬 튼튼하지만 생산성은 낮습니다. 생으로 먹기엔 별로지만, 이 유전자 변형 사탕수수는 쉽게 제분하여 설탕으로 만든 다음 다양한 요리, 특히 디저트에 사용됩니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

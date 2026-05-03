@@ -1,57 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <IP_InsertFirstItemDesc>재료 투입</IP_InsertFirstItemDesc>
-  <IP_InsertSecondItemDesc>재료 투입</IP_InsertSecondItemDesc>
-  <IP_InsertThirdItemDesc>재료 투입</IP_InsertThirdItemDesc>
-  <IP_InsertVariable>{0} 투입</IP_InsertVariable>
-  <IP_InsertVariableSecond>두 번째 칸에 {0} 투입</IP_InsertVariableSecond>
-  <IP_InsertVariableThird>세 번째 칸에 {0} 투입</IP_InsertVariableThird>
-  <IP_CantFindThing>현재 지역에 {0}(이)가 없습니다.</IP_CantFindThing>
-  <IP_BringIngredients>재료 운반</IP_BringIngredients>
-  <IP_BringIngredientsDesc>작업 시작을 위해 재료 운반</IP_BringIngredientsDesc>
-  <IP_CancelIngredients>재료 운반 취소</IP_CancelIngredients>
-  <IP_CancelIngredientsDesc>이 건물로 재료 운반 취소</IP_CancelIngredientsDesc>
-  <IP_NoIngredientFound>현재 지역에서 재료를 찾을 수 없음</IP_NoIngredientFound>
-  <IP_ChooseIngredient>재료 선택</IP_ChooseIngredient>
-  <IP_ChooseIngredientSecond>두 번째 재료 선택</IP_ChooseIngredientSecond>
-  <IP_ChooseIngredientThird>세 번째 재료 선택</IP_ChooseIngredientThird>
-  <IP_IngredientImproperlyDefined>재료 중 하나가 물품 작업이 중복 작동하도록 잘못 정의되었습니다. 모드 작성자에게 문의하십시오.</IP_IngredientImproperlyDefined>
-  <IP_NoPowerDestroysWarning>작업을 시작하려면 {0}에 연료를 공급해야 합니다.</IP_NoPowerDestroysWarning>
-  <IP_NoFuelDestroysWarning>작업을 시작하려면 {0}에 연료를 공급해야 합니다.</IP_NoFuelDestroysWarning>
-  <IP_LightDestroysWarning>{0}(이)가 작업을 시작하려면 주변에 적절한 조명이 있어야 합니다.</IP_LightDestroysWarning>
-  <IP_RainDestroysWarning>{0}(이)가 작업을 시작하려면 비가 오지 않아야 합니다.</IP_RainDestroysWarning>
-  <IP_TemperatureDestroysWarning>{0}(이)가 작업을 시작하려면 적절한 온도({1} - {2})가 있어야 합니다.</IP_TemperatureDestroysWarning>
-  <IP_NoPowerDestroysInitialWarning>가공 중에 정전이 발생해 음식이 상했습니다.</IP_NoPowerDestroysInitialWarning>
-  <IP_NoPowerDestroysMessage>가공 중에 정전이 발생해 음식이 상했습니다.</IP_NoPowerDestroysMessage>
-  <IP_GenericProductFinished>제품 가공이 완료되어 운반 대기 중</IP_GenericProductFinished>
-  <IP_IsEmpty>{0}(이)가 비어 있음</IP_IsEmpty>
-  <IP_FilledWith>{0}(은)는 {1}(으)로 예약됨</IP_FilledWith>
-  <IP_FilledWithSecond>{0}의 두 번째 칸은 {1}(으)로 예약됨</IP_FilledWithSecond>
-  <IP_FilledWithThird>{0}의 세 번째 칸은 {1}(으)로 예약됨</IP_FilledWithThird>
-  <IP_IngredientPercentage> ({1}개 중 {0}개 채워짐)</IP_IngredientPercentage>
-  <IP_ProcessorWorking>{0} 가공 중:</IP_ProcessorWorking>
-  <IP_ProcessingInProgress>{0}(이)가 {1}(을)를 가공 중입니다. {2}(은)는 {4} 뒤에 {3} 품질로 완성됩니다.</IP_ProcessingInProgress>
-  <IP_ProcessingInProgressNoQuality>{0}(이)가 {1}(을)를 가공 중입니다. {2}(은)는 {3} 뒤에 완성됩니다.</IP_ProcessingInProgressNoQuality>
-  <IP_RemoveProduct>{0} ({1}) 제거</IP_RemoveProduct>
-  <IP_RemoveProductDesc>{1}에서 {0}(을)를 제거하세요. 제품은 현재 품질 수준 ({2})로 완성됩니다.</IP_RemoveProductDesc>
-  <IP_ResetSemiautomatic>조리법 초기화</IP_ResetSemiautomatic>
-  <IP_ResetSemiautomaticDesc>현재 제품이 완성된 후 설정을 초기화합니다. 새로운 재료를 선택할 수 있습니다.</IP_ResetSemiautomaticDesc>
-  <IP_NoCombination>이 재료에 대한 조합을 찾을 수 없습니다.</IP_NoCombination>
-  <IP_SetAutoQuality>원하는 품질을 설정하세요. 설정한 품질에 도달하면 정착민이 자동으로 저장 장소까지 운반합니다. 설정하지 않으면 수동으로 명령을 내리거나 전설 품질이 될 때까지 기다린 후 운반합니다.</IP_SetAutoQuality>
-  <IP_ChooseQualityAuto>요구 품질 선택</IP_ChooseQualityAuto>
-  <IP_QualityAutoIs>요구 품질: {0}</IP_QualityAutoIs>
-  <IP_QualityAutoNot>요구 품질 비활성화</IP_QualityAutoNot>
-  <IP_QualityAutoEstablished>요구 품질, 해당 품질 수준에서 제품 운반: {0}</IP_QualityAutoEstablished>
-  <IP_ToggleAuto>자동 재료 보충</IP_ToggleAuto>
-  <IP_ToggleAutoDesc>활성화하면 인접한 저장 장소에서 자동으로 재료를 가져오고, 제품을 꺼내면 자동으로 다시 작업을 시작합니다. 비활성화할 경우 정착민이 재료를 건물로 운반해야 하며, 다시 채워지면 수동으로 활성화해야 합니다.</IP_ToggleAutoDesc>
-  <IP_ProductWaiting>운반 대기 중</IP_ProductWaiting>
-  <IP_OutsideLightRange>적절한 수준의 조명이 존재하지 않아 작동 중지되었습니다. 머지않아 결과물이 손상됩니다.</IP_OutsideLightRange>
-  <IP_SpoiledDueToLight>적절한 수준의 조명이 존재하지 않아 결과물이 손상되었습니다.</IP_SpoiledDueToLight>
-  <IP_ItRains>악천후로 인해 작동 중지되었습니다. 머지않아 결과물이 손상됩니다.</IP_ItRains>
-  <IP_SpoiledDueToRain>악천후로 인해 결과물이 손상되었습니다.</IP_SpoiledDueToRain>
-  <IP_WrongTemp>부적합한 온도로 인해 작동 중지되었습니다. 머지않아 결과물이 손상됩니다.</IP_WrongTemp>
-  <IP_SpoiledDueToWrongTemp>부적합한 온도로 인해 결과물이 손상되었습니다.</IP_SpoiledDueToWrongTemp>
-  <IP_TempRangeInThisMachine> 권장 온도: {0} - {1} ºC{2}</IP_TempRangeInThisMachine>
   <VCE_InsertSoup>수프 투입</VCE_InsertSoup>
   <VCE_InsertSoupDesc>수프 요리</VCE_InsertSoupDesc>
   <VCE_NoSoupsFound>현재 지역에 해당하는 수프가 없습니다.</VCE_NoSoupsFound>
@@ -111,13 +59,13 @@
   <VCE_CondimentEffectsSugar>설탕은 신체에서 쉽게 에너지로 전환됩니다. 음식에 넣어 섭취하면 12시간 동안 이동 속도가 15% 증가합니다.</VCE_CondimentEffectsSugar>
   <VCE_CondimentEffectsSpices>향기롭고 매콤한 향신료입니다. 음식에 넣어 섭취하면 12시간 동안 조작이 10% 증가합니다.</VCE_CondimentEffectsSpices>
   <VCE_CondimentEffectsSalt>음식에 넣어 섭취하면 12시간 동안 기분이 5 증가합니다.</VCE_CondimentEffectsSalt>
-  <VCE_CondimentEffectsMayo>음식에 넣어 섭취하면 12시간 동안 허기율이 15% 감소합니다.</VCE_CondimentEffectsMayo>
+  <VCE_CondimentEffectsMayo>음식에 넣어 섭취하면 12시간 동안 허기 감소 속도가 15% 감소합니다.</VCE_CondimentEffectsMayo>
   <VCE_CondimentEffectsJelly>음식에 넣어 섭취하면 12시간 동안 기분이 10 증가합니다.</VCE_CondimentEffectsJelly>
   <VCE_CondimentEffectsButter>음식에 넣어 섭취하면 중독 위험 없이 연초 환각을 일으킵니다.</VCE_CondimentEffectsButter>
   <VCE_CondimentEffectsSyrup>음식에 넣어 섭취하면 12시간 동안 기분이 7 증가합니다.</VCE_CondimentEffectsSyrup>
   <VCE_CondimentEffectsNanites>음식에 넣어 섭취하면 12시간 동안 조작이 1% 증가합니다. 해당 기간 동안 정착민이 사망할 경우 부활합니다.</VCE_CondimentEffectsNanites>
   <VCE_CondimentEffectsKetchup>음식에 넣어 섭취하면 12시간 동안 기분이 3 증가합니다.</VCE_CondimentEffectsKetchup>
-  <VCE_CondimentEffectsSauce>초강력 핫소스는 처음에는 혀가 아프지만, 섭취 직후 통증을 마비시키고 따뜻한 땀을 흘리게 만듭니다. 음식에 넣어 섭취하면 12시간 동안 통증 저항이 15% 증가하고 추위 저항이 10ºC 증가하며, 기분이 3 감소합니다.</VCE_CondimentEffectsSauce>
+  <VCE_CondimentEffectsSauce>음식에 넣어 섭취하면 12시간 동안 통증 저항이 15% 증가하고 추위 저항이 10ºC 증가하며, 기분이 3 감소합니다.</VCE_CondimentEffectsSauce>
   <VCE_HealthEffects>건강 효과</VCE_HealthEffects>
   <VCE_NoEffect>건강 효과 없음</VCE_NoEffect>
   <VCE_NoEffectDesc>음식에 넣어 섭취해도 건강에 부정적인 영향이 없습니다.</VCE_NoEffectDesc>
