@@ -151,12 +151,21 @@ public class LoadRack
                     if (Rule.Default is not null)
                     {
                         // 현재 확인중인 버전에 다른 Default 버전의 수정 흔적이 없거나,
-                        // 수정 흔적이 있는 경우, 이전 수정자의 버전이 현재 규칙의 Default 버전보다 뒤에 있는 경우에만
-                        if (VersionRule.ModifiedBy is null ||
-                            (VersionRule.ModifiedBy is not null && Rule.Default < VersionRule.ModifiedBy))
-                            bNeedToScribeModifier = true;
-                        else // 이미 대항력 가진 임차인이 거주 중
-                            continue;
+                        if (VersionRule.ModifiedBy is null) bNeedToScribeModifier = true;
+                        // 수정 흔적이 있는 경우,
+                        else
+                        {
+                            if (VersionRule.ModifiedBy > Rule.Default)
+                            {
+                                if (Version < VersionRule.ModifiedBy) bNeedToScribeModifier = true;
+                                else continue;
+                            }
+                            else
+                            {
+                                if (Version >= Rule.Default) bNeedToScribeModifier = true;
+                                else continue;
+                            }
+                        }
                     }
                     
                     // 이 버전이 Boundary 조건을 만족할 경우
