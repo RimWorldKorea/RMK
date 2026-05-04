@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ScenPartDef[defName="VGE_ScenPart_SpawnMechDestroyers"]/label</xpath>
+    <value>
+      <label>메카노이드 파괴자</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RitualBehaviorDef[defName="GravshipLaunch"]/roles/li[3]/label</xpath>
+    <value>
+      <label>중력기술 연구원</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RitualBehaviorDef[defName="GravshipLaunch"]/roles/li[4]/label</xpath>
+    <value>
+      <label>중력기술 공학자</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RitualOutcomeEffectDef[defName="GravshipLaunch"]/comps/li[7]/label</xpath>
+    <value>
+      <label>{PAWN_labelShort}의 연구 능력</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RitualOutcomeEffectDef[defName="GravshipLaunch"]/comps/li[7]/labelAbstract</xpath>
+    <value>
+      <labelAbstract>중력기술 연구원의 연구 능력</labelAbstract>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RitualOutcomeEffectDef[defName="GravshipLaunch"]/comps/li[8]/label</xpath>
+    <value>
+      <label>{PAWN_labelShort}의 정비 능력</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RitualOutcomeEffectDef[defName="GravshipLaunch"]/comps/li[8]/labelAbstract</xpath>
+    <value>
+      <labelAbstract>중력기술 공학자의 정비 능력</labelAbstract>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RitualOutcomeEffectDef[defName="GravshipLaunch"]/comps/li[9]/label</xpath>
+    <value>
+      <label>초대형 추진기</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RitualOutcomeEffectDef[defName="GravshipLaunch"]/comps/li[10]/label</xpath>
+    <value>
+      <label>중력부양선의 평균 정비도</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RitualOutcomeEffectDef[defName="GravshipLaunch"]/comps/li[11]/label</xpath>
+    <value>
+      <label>조작 중인 부조종석 콘솔</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/RitualOutcomeEffectDef[defName="GravshipLaunch"]/comps/li[12]/label</xpath>
+    <value>
+      <label>중력닻 근처에 착륙</label>
+    </value>
+  </Operation>
+</Patch>
