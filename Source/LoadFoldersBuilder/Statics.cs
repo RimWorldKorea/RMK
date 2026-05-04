@@ -8,6 +8,8 @@ namespace LoadFoldersBuilder;
 /** 작업에 필요한 여러 기본 정보와 파일을 수집하고, 사용 가능한 형태로 준비합니다. */
 static class Statics
 {
+    //TODO 인스턴스 클래스로 바꿔서 프로그램을 한 번 켜두고 반복 실행하기 쉽게 만들기
+    
     public static string? ExePath { get; private set; } // 실행 파일 경로
     public static string? RootPath { get; private set; } // 모드 최상위 루트 경로
     public static string? TargetPath { get; private set; } // 검색 대상 최상위 경로
@@ -117,7 +119,6 @@ static class Statics
         // 차집함 검색
         HashSet<string> HasNoBuildYaml = FoldersContainsRequiredFolders.Except(FoldersWithBuildYaml).ToHashSet();
         HashSet<string> HasNoLanguagesOrTextures = FoldersWithBuildYaml.Except(FoldersContainsRequiredFolders).ToHashSet();
-        // HashSet<string> HasBothRequirements = FoldersContainsRequiredFolders.Intersect(FoldersWithBuildYaml).ToHashSet();
 
         if (HasNoBuildYaml.Count > 0)
         {
