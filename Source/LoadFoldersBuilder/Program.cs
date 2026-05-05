@@ -84,9 +84,19 @@ using YamlDotNet.Serialization.NamingConventions;
 
     if (MainRack.GenerateXDocument() is { } CompleteXML)
     {
+
         // LoadFolders.xml 파일을 작성합니다.
         Stopwatch.Restart();
-        CompleteXML.Save(Path.Combine(Statics.RootPath!, "LoadFolders.xml"), SaveOptions.None);
+
+        try
+        {
+            CompleteXML.Save(Path.Combine(Statics.RootPath!, "LoadFolders.xml"), SaveOptions.None);
+        }
+        catch (IOException e) when (e.HResult is unchecked((int)0x800704C8))
+        {
+            Console.WriteLine("\e[93m다른 프로그램이 LoadFolders.xml의 쓰기 권한을 점유하고 있습니다.\n해당 프로그램을 닫고 다시 시도하세요.\n문제가 해결되지 않는다면 작업 관리자에서 Windows 탐색기를 '다시 시작'해보세요.\x1b[0m");
+            StopProgram();
+        }
         
         Stopwatch.Stop(); TotalRunTime += Stopwatch.Elapsed;
         Console.WriteLine("\e[32mLoadFolders.xml 작성 완료...{0:F3}s\x1b[0m", Stopwatch.Elapsed.TotalSeconds);
