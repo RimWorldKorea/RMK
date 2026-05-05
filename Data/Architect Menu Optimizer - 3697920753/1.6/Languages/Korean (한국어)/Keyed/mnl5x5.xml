@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AMO_SettingsCategory>구상 메뉴 최적화</AMO_SettingsCategory>
+  <AMO_SectionPerformance>성능 최적화</AMO_SectionPerformance>
+  <AMO_SectionCacheTuning>캐시 튜닝</AMO_SectionCacheTuning>
+  <AMO_SectionPagination>페이지 나누기</AMO_SectionPagination>
+  <AMO_SectionExperimental>실험적 최적화</AMO_SectionExperimental>
+  <AMO_SectionDebug>디버그</AMO_SectionDebug>
+  <AMO_CacheVisibility>표시 여부 캐시에 저장</AMO_CacheVisibility>
+  <AMO_CacheVisibilityDesc>연구/선행 조건/PlaceWorker 등 메뉴에 건물을 표시하기 위한 조건이 만족되었는지 확인하는 과정을 저장합니다. 가장 성능 개선 효과가 큽니다.</AMO_CacheVisibilityDesc>
+  <AMO_CacheGizmoGrid>버튼 정렬 캐시에 저장</AMO_CacheGizmoGrid>
+  <AMO_CacheGizmoGridDesc>프레임마다 버튼을 다시 정렬하지 않도록 정렬 순서를 캐시에 저장합니다.</AMO_CacheGizmoGridDesc>
+  <AMO_CacheLabels>이름 텍스트 캐시에 저장</AMO_CacheLabels>
+  <AMO_CacheLabelsDesc>프레임마다 텍스트 메모리를 새로 할당하지 않도록 건물 이름을 캐시에 저장합니다.</AMO_CacheLabelsDesc>
+  <AMO_CacheIconColor>아이콘 색상 캐시에 저장</AMO_CacheIconColor>
+  <AMO_CacheIconColorDesc>사상이나 재료에 따른 아이콘 색상을 매 프레임마다 계산하지 않고 캐시에 저장합니다.</AMO_CacheIconColorDesc>
+  <AMO_CacheStuffDef>재료 탐색 결과 캐시에 저장</AMO_CacheStuffDef>
+  <AMO_CacheStuffDefDesc>모든 자원 목록을 매 프레임마다 뒤지지 않도록 기본 재료 탐색 정보를 캐시에 저장합니다.</AMO_CacheStuffDefDesc>
+  <AMO_CacheTextMeasure>텍스트 크기 측정값 캐시에 저장</AMO_CacheTextMeasure>
+  <AMO_CacheTextMeasureDesc>Unity의 무거운 텍스트 레이아웃 호출을 줄이기 위해 Text.CalcHeight/CalcSize 값을 캐시에 저장합니다.</AMO_CacheTextMeasureDesc>
+  <AMO_VisibilityCacheMaxAge>표시 여부 캐시 유지 시간 (틱): {0}</AMO_VisibilityCacheMaxAge>
+  <AMO_StuffDefCacheMaxAge>재료 정보 캐시 유지 시간 (틱): {0}</AMO_StuffDefCacheMaxAge>
+  <AMO_EnablePagination>건물 페이지 나누기 활성화</AMO_EnablePagination>
+  <AMO_EnablePaginationDesc>많은 수의 건물이 속한 하위 메뉴 선택 시, 모든 건물을 한꺼번에 보여주지 않고 여러 페이지로 나눕니다.</AMO_EnablePaginationDesc>
+  <AMO_ItemsPerPage>페이지당 건물 수: {0}</AMO_ItemsPerPage>
+  <AMO_PageGizmoDesc>다음 페이지로 전환합니다.</AMO_PageGizmoDesc>
+  <AMO_EnableCategoryPagination>카테고리 버튼 페이지 나누기 활성화</AMO_EnableCategoryPagination>
+  <AMO_EnableCategoryPaginationDesc>구상 카테고리들을 한꺼번에 보여주지 않고 여러 페이지로 나눕니다.</AMO_EnableCategoryPaginationDesc>
+  <AMO_CategoriesPerPage>페이지당 버튼 수: {0}</AMO_CategoriesPerPage>
+  <AMO_CategoryPage>다음 페이지 {0}/{1}</AMO_CategoryPage>
+  <AMO_ExperimentalDevModeOnly>실험적 설정을 사용하려면 개발자 모드를 켜세요.</AMO_ExperimentalDevModeOnly>
+  <AMO_ShowExperimentalButton>실험적 기능 표시</AMO_ShowExperimentalButton>
+  <AMO_ExperimentalWarning>이 기능들은 충분한 테스트를 거치지 않았으며 예기치 않은 문제를 일으킬 수 있습니다.</AMO_ExperimentalWarning>
+  <AMO_AmortizedVisibility>표시 여부 분산 계산</AMO_AmortizedVisibility>
+  <AMO_AmortizedVisibilityDesc>표시 여부 계산을 여러 프레임에 걸쳐 나누어 처리합니다. 만료된 항목에 대해 우선 기존의 캐시된 값을 반환하고, 프레임당 정해진 소량의 배치만큼만 새로고침합니다. 정보 갱신이 약간 늦어질 수 있으나, 프레임별 연산 부하가 급증하는 현상을 줄여줍니다.</AMO_AmortizedVisibilityDesc>
+  <AMO_VisibilityBatchSize>프레임당 표시 여부 배치 크기: {0}</AMO_VisibilityBatchSize>
+  <AMO_CacheGizmoGrouping>기즈모 버튼 그룹화 결과 캐시에 저장</AMO_CacheGizmoGrouping>
+  <AMO_CacheGizmoGroupingDesc>기즈모 버튼 그리드 내에서 발생하는 O(n^2) 복잡도의 GroupsWith 루프 결과값을 캐시에 저장합니다. 기즈모 버튼 목록에 변경 사항이 없다면 무거운 재그룹화 과정을 건너뜁니다. 게임 재시작이 필요합니다.</AMO_CacheGizmoGroupingDesc>
+  <AMO_EventDrivenInvalidation>이벤트 기반 캐시 무효화</AMO_EventDrivenInvalidation>
+  <AMO_EventDrivenInvalidationDesc>난이도 변경, 이상 현상 등급 변경, 숨겨진 물품 발견, 갓모드 전환 시 캐시를 무효화하는 후크를 추가합니다. 이를 통해 표시 여부 캐시의 유지 시간을 안전하게 더 길게 설정할 수 있습니다. DLC 관련 후크는 게임 재시작이 필요합니다.</AMO_EventDrivenInvalidationDesc>
+  <AMO_CacheGizmoWidth>기즈모 버튼 너비 캐시에 저장</AMO_CacheGizmoWidth>
+  <AMO_CacheGizmoWidthDesc>프레임당 Gizmo.GetWidth() 호출 결과값을 캐시에 저장합니다. 이 메서드는 프레임당 각 기즈모 버튼마다 두 번씩 (레이아웃 및 렌더링 패스) 호출됩니다. 게임 재시작이 필요합니다.</AMO_CacheGizmoWidthDesc>
+  <AMO_DebugMode>캐시 통계 표시</AMO_DebugMode>
+  <AMO_DebugModeDesc>디버그 용도로 구상 메뉴에서 캐시 히트율을 화면에 표시합니다.</AMO_DebugModeDesc>
+  <AMO_ClearAllCaches>모든 캐시 삭제</AMO_ClearAllCaches>
+  <AMO_CachesCleared>모든 캐시가 삭제되었습니다.</AMO_CachesCleared>
+</LanguageData>
