@@ -4,7 +4,7 @@
   <Milira_Skill_Rapier.description>적을 관통하기 위해 연속적인 찌르기를 내지르기 전 힘을 모으는 전투 기술입니다. 적의 움직임을 제한하면서 넓은 범위에 연속적인 피해를 입힙니다.\n\n뒤로 도약하며 충전한 뒤, 구역 내 무작위 적 위치로 세 개의 관통하는 레이피어를 투사합니다. 이어서 주변 적 최대 5명에게 무기 피해량의 45%와 관통력 75%를 가진 다단계 타격을 가합니다. 마지막 타격은 넓은 범위의 모든 적에게 무기 피해량의 125%와 관통력 150%를 입히며, 적중 시 적의 행동을 차단하고 중심부로 계속해서 끌어당깁니다. 기술 사용 시 무기 에너지 80을 소모합니다.</Milira_Skill_Rapier.description>
   <Milira_Skill_Rapier.verbProperties.label>도약</Milira_Skill_Rapier.verbProperties.label>
 
-  <Milira_Solartest.label>태양광 시험</Milira_Solartest.label>
+  <Milira_Solartest.label>일광 시험</Milira_Solartest.label>
   <Milira_Solartest.description>광학 위장 모드를 활성화합니다. 이 상태에서는 공격받지 않으며, 원거리 피해량과 관통력이 상승합니다.</Milira_Solartest.description>
 
   <PLAMilira_Skill_AirController_Pawn.label>공습 유도: 폰</PLAMilira_Skill_AirController_Pawn.label>
@@ -22,6 +22,15 @@
 
   <PLAMilira_AlayaTiansha.label>불완전 공명: 천살성</PLAMilira_AlayaTiansha.label>
   <PLAMilira_AlayaTiansha.description>복제 유물인 천살성검 "아라야"와 불완전한 공명 상태에 진입합니다. 사용자는 통제 불능 상태가 되어 주변의 모든 생명체를 무차별적으로 공격합니다. 이 기간 동안 모든 공격은 반경 3타일 내의 모든 유닛에게 무기 기본 피해량의 75%와 관통력 100%에 해당하는 추가 피해를 입힙니다. 또한 이 상태를 활성화하면 격투 경험치를 추가로 상실하게 됩니다.</PLAMilira_AlayaTiansha.description>
+
+  <PLAMilira_GungnirBack.label>궁니르: 회수</PLAMilira_GungnirBack.label>
+  <PLAMilira_GungnirBack.description>궁니르 환영을 활성화합니다. 짧은 지연 시간 후, 대상에게 박혀있던 궁니르가 시전자에게 날아오며 경로상의 모든 유닛을 관통하고 시전자의 다음 근접 공격을 강화합니다.</PLAMilira_GungnirBack.description>
+
+  <PLAMilira_GungnirBackCharge.label>궁니르: 돌진</PLAMilira_GungnirBackCharge.label>
+  <PLAMilira_GungnirBackCharge.description>목표 지점을 향해 도약하며 찌르기를 수행하고 경로상의 모든 유닛을 관통합니다. 착지 시 반경 5타일 내의 모든 유닛에게 무기 기본 데미지의 50%와 무기 방어구 관통력의 75%에 해당하는 피해를 입힙니다. 그 후 궁니르 환영이 활성화되어, 대상에게 박혀있던 궁니르가 시전자에게 날아오며 경로상의 모든 유닛을 다시 한번 관통합니다.</PLAMilira_GungnirBackCharge.description>
+
+  <PLAMilira_GungnirLaunch.label>궁니르: 투척</PLAMilira_GungnirLaunch.label>
+  <PLAMilira_GungnirLaunch.description>궁니르 환영을 던져 대상을 포착하고 일정 시간 동안 밀어낸 뒤 넉백시킵니다. 충돌 시 대상에게 무기 기본 데미지의 100%와 무기 방어구 관통력의 100%에 해당하는 피해를 입히고 일정 기간 동안 "관통하는 투창: 궁니르" 상태를 부여합니다. 대상을 밀어내는 동안 벽이나 건물에 충돌하면 반경 4타일 내의 모든 유닛에게 무기 기본 데미지의 200%와 무기 방어구 관통력의 150%에 해당하는 피해를 입힙니다.\n\n사용 후 시전자는 "궁니르: 회수"와 "궁니르: 돌진" 중 하나만 사용할 수 있는 일회성 기술을 얻습니다.</PLAMilira_GungnirLaunch.description>
 
   <PLAMilian_Core_KnightIV_RepulsiveForce.label>분노의 망치</PLAMilian_Core_KnightIV_RepulsiveForce.label>
   <PLAMilian_Core_KnightIV_RepulsiveForce.description>최대 메카노이드 에너지의 10%를 소모하여 동력 코어를 과부하시키고, 주변 대상을 최대 15타일 앞까지 날려버립니다. 날아가는 경로에 구조물이 있다면 무기 피해량의 125%와 관통력 200%를 입힙니다. 이 피해 유형은 둔탁함으로 고정되며 대상의 피해 감소 계수 20%를 무시합니다.\n\n주 손에 무기를 장비했을 때만 사용할 수 있습니다.</PLAMilian_Core_KnightIV_RepulsiveForce.description>
