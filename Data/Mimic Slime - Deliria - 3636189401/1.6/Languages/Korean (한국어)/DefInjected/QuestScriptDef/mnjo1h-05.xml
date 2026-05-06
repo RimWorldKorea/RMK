@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <NFCResearchRequest.questDescriptionRules.rulesStrings>
+    <li>questDescription-&gt;인근 NFC 정착지인 [settlement_label]에서 특별한 요청을 보내왔습니다.
+			\n그들은 실험을 위해 특정 생물학적 샘플이 급히 필요하다고 합니다:
+			\n  [requestedThing_label] [requestedThingCount]개 [qualityInfo](가치: [requestedThingMarketValue_money])
+			\n거래에 응하려면 필요한 물품을 상단에 실어 보내십시오.[travelTime]</li>
+    <li>qualityInfo(requestedThingHasQuality==True,priority=1)-&gt;(일반 등급 이상) </li>
+    <li>qualityInfo-&gt;</li>
+    <li>travelTime(canCaravan==True,priority=1)-&gt; 예상 이동 시간은 [estimatedTravelTime_duration]입니다.</li>
+    <li>travelTime-&gt;</li>
+  </NFCResearchRequest.questDescriptionRules.rulesStrings>
+</LanguageData>
