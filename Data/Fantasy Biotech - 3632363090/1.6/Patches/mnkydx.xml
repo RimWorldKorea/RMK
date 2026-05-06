@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VR_Construct_Centurion"]/tools/li[1]/label</xpath>
+          <value>
+            <label>머리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VR_Construct_Centurion"]/tools/li[2]/label</xpath>
+          <value>
+            <label>오른손</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VR_Construct_Centurion"]/tools/li[3]/label</xpath>
+          <value>
+            <label>왼손</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VR_Construct_Constructoid"]/tools/li[1]/label</xpath>
+          <value>
+            <label>몸통</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VR_Construct_Agrihand"]/tools/li[1]/label</xpath>
+          <value>
+            <label>오른쪽 칼날</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VR_Construct_Agrihand"]/tools/li[2]/label</xpath>
+          <value>
+            <label>오른쪽 칼날</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VR_Construct_Scarab"]/tools/li[1]/label</xpath>
+          <value>
+            <label>집게</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VR_Construct_Scarab"]/tools/li[2]/label</xpath>
+          <value>
+            <label>집게</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VR_Construct_Ballistae"]/tools/li[1]/label</xpath>
+          <value>
+            <label>왼쪽 앞다리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VR_Construct_Ballistae"]/tools/li[2]/label</xpath>
+          <value>
+            <label>오른쪽 앞다리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VR_Construct_Ballistae"]/tools/li[3]/label</xpath>
+          <value>
+            <label>머리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VR_Construct_Apocriton"]/tools/li[1]/label</xpath>
+          <value>
+            <label>머리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VR_Construct_ScarabQueen"]/tools/li[1]/label</xpath>
+          <value>
+            <label>머리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VR_Construct_Colossus"]/tools/li[1]/label</xpath>
+          <value>
+            <label>머리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VR_Construct_Colossus"]/tools/li[2]/label</xpath>
+          <value>
+            <label>오른손</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VR_Construct_Colossus"]/tools/li[3]/label</xpath>
+          <value>
+            <label>왼손</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VR_Construct_SteamSword_Heavy"]/tools/li[1]/label</xpath>
+          <value>
+            <label>손잡이</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VR_Construct_SteamSword_Heavy"]/tools/li[2]/label</xpath>
+          <value>
+            <label>칼끝</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VR_Construct_SteamSword_Heavy"]/tools/li[3]/label</xpath>
+          <value>
+            <label>칼날</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VR_Construct_SteamHammer_Heavy"]/tools/li[1]/label</xpath>
+          <value>
+            <label>대</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VR_Construct_SteamHammer_Heavy"]/tools/li[2]/label</xpath>
+          <value>
+            <label>머리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VR_Construct_StakeDriver_Heavy"]/tools/li[1]/label</xpath>
+          <value>
+            <label>손잡이</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VR_Construct_StakeDriver_Heavy"]/tools/li[2]/label</xpath>
+          <value>
+            <label>끝</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VR_Construct_SteamSword"]/tools/li[1]/label</xpath>
+          <value>
+            <label>손잡이</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VR_Construct_SteamSword"]/tools/li[2]/label</xpath>
+          <value>
+            <label>칼끝</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VR_Construct_SteamSword"]/tools/li[3]/label</xpath>
+          <value>
+            <label>칼날</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VR_Construct_SteamHammer"]/tools/li[1]/label</xpath>
+          <value>
+            <label>대</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VR_Construct_SteamHammer"]/tools/li[2]/label</xpath>
+          <value>
+            <label>머리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VR_Construct_SteamLance"]/tools/li[1]/label</xpath>
+          <value>
+            <label>손잡이</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VR_Construct_SteamLance"]/tools/li[2]/label</xpath>
+          <value>
+            <label>창끝</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VR_Construct_ColossusAxe"]/tools/li[1]/label</xpath>
+          <value>
+            <label>대</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VR_Construct_ColossusAxe"]/tools/li[2]/label</xpath>
+          <value>
+            <label>날</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VR_Construct_LightBonk"]/tools/li[1]/label</xpath>
+          <value>
+            <label>손잡이</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VR_Construct_LightBonk"]/tools/li[2]/label</xpath>
+          <value>
+            <label>머리</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

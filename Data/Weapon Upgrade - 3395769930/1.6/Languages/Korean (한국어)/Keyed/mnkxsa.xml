@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WU_UnfinishedItem>{0}(강화 중)</WU_UnfinishedItem>
+  <WU_UnfinishedDowngradeItem>{0}(강등 중)</WU_UnfinishedDowngradeItem>
+  <WU_UpgradeFailed>{0} 강화 실패, 재료를 낭비했습니다</WU_UpgradeFailed>
+
+  <WU_Enum_Random>무작위</WU_Enum_Random>
+  <WU_Enum_Refresh>재설정</WU_Enum_Refresh>
+  <WU_Enum_Combine>결합</WU_Enum_Combine>
+
+  <WU_numberOfWeapons>필요한 아이템 수(폐지됨)</WU_numberOfWeapons>
+  <WU_numberOfWeapons_description>유효하지 않은 옵션입니다. 레시피에 표시되는 아이템의 수만 수정합니다. 대신 아래의 수량 설정을 사용하세요.</WU_numberOfWeapons_description>
+  <WU_Quantity>수량</WU_Quantity>
+  <WU_Quantity_description>강화에 필요한 아이템의 수입니다. (최소 2개)</WU_Quantity_description>
+
+  <WU_allowBiocode>생체 인증 무기 허용</WU_allowBiocode>
+  <WU_allowBiocode_description>생체 인증된 무기를 재료로 사용하는 것을 허용합니다.</WU_allowBiocode_description>
+  <WU_allowDead>유품 의류 허용</WU_allowDead>
+  <WU_allowDead_description>유품을 재료로 사용하는 것을 허용합니다.</WU_allowDead_description>
+
+  <WU_rate>성공률</WU_rate>
+  <WU_rate_description>강화 성공률입니다. (0~1 사이의 값이며 1은 100%를 의미)</WU_rate_description>
+  <WU_affectByHp>내구도 영향</WU_affectByHp>
+  <WU_affectByHp_description>아이템의 내구도가 강화 성공률에 영향을 미칩니다. 재료 중 하나라도 내구도가 10% 미만이면 강화는 반드시 실패합니다. 내구도가 50% 이상인 아이템은 과정에 영향을 주지 않습니다.</WU_affectByHp_description>
+  <WU_affectBySkillLevel>작업자 숙련도 영향</WU_affectBySkillLevel>
+  <WU_affectBySkillLevel_description>작업자의 제작 숙련도에 따라 -20% ~ 20%의 성공률 보너스를 제공합니다.\n예를 들어, 제작 레벨이 5라면 성공률이 10% 감소하고, 15라면 10% 증가합니다.</WU_affectBySkillLevel_description>
+
+  <WU_personaWeaponMode>결속 무기 강화 모드</WU_personaWeaponMode>
+  <WU_personaWeaponMode_description>결속 무기의 강화 모드를 선택합니다. (Infused 또는 Infusion 2 모드와는 호환되지 않습니다.)\n\n무작위: 재료 아이템들의 특성 중 하나를 무작위로 선택합니다.\n재설정: 병기의 특성을 새로 고칩니다.\n결합: 재료 아이템들이 가진 모든 특성을 하나로 합칩니다.</WU_personaWeaponMode_description>
+  <WU_personaAndUniqueWeaponMode>자아 및 고유 무기 강화 모드</WU_personaAndUniqueWeaponMode>
+  <WU_personaAndUniqueWeaponMode_description>결속 무기 및 고유 무기의 강화 모드를 선택합니다. (Infused 또는 Infusion 2 모드와는 호환되지 않습니다.)\n\n무작위: 재료 아이템들의 특성 중 하나를 무작위로 선택합니다.\n재설정: 병기의 특성을 새로 고칩니다.\n결합: 재료 아이템들이 가진 모든 특성을 하나로 합칩니다.</WU_personaAndUniqueWeaponMode_description>
+
+  <WU_TainedApparelMode>유품 제거 모드</WU_TainedApparelMode>
+  <WU_Enum_Remove>무조건 제거</WU_Enum_Remove>
+  <WU_Enum_RemoveConditionly>조건부 제거</WU_Enum_RemoveConditionly>
+  <WU_Enum_Keep>유품 유지</WU_Enum_Keep>
+  <WU_unconditionalRemoveDead>무조건 유품 제거</WU_unconditionalRemoveDead>
+  <WU_unconditionalRemoveDead_description>강화 재료와 관계없이 결과물은 항상 유품이 아닌 상태로 나옵니다.</WU_unconditionalRemoveDead_description>
+  <WU_tainedApparelMode_description>강화 재료로 사용된 유품의 제거 모드를 조정합니다.\n\n무조건 제거: 결과물이 항상 깨끗한 의류가 됩니다.\n조건부 제거: 재료 중에 유품이 아닌 의류가 포함되어 있다면 결과물이 깨끗해집니다.\n유품 유지: 재료에 유품이 포함되어 있다면 결과물도 항상 유품 상태가 됩니다.</WU_tainedApparelMode_description>
+
+  <WU_successRate>상세 강화 설정</WU_successRate>
+  <WU_QualityToLabel>{0}에서 {1}(으)로</WU_QualityToLabel>
+  <WU_Reset>초기화</WU_Reset>
+  <WU_allowDowngrade>아이템 강등 허용</WU_allowDowngrade>
+  <WU_allowDowngrade_description>기계 작업대에서 품질을 낮추는 옵션을 추가합니다. 품질 등급은 있으나 품질 보너스가 없는 아이템의 경우, 등급을 낮춰 정착지 자산 가치를 줄이는 것이 더 나은 선택일 수 있습니다.</WU_allowDowngrade_description>
+  <WU_settingConfigDef>난이도 프리셋</WU_settingConfigDef>
+  <WU_settingConfigCustom>사용자 정의</WU_settingConfigCustom>
+  <WU_workAmount>작업량</WU_workAmount>
+  <WU_workAmount_description>강화를 완료하는 데 필요한 틱 수입니다. (60틱은 실제 시간 약 1초에 해당)</WU_workAmount_description>
+</LanguageData>
