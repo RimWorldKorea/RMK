@@ -1,277 +1,264 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-  <DD_Mech>机甲</DD_Mech>
-  <DD_CannotDraftWithoutPilot>机甲无法在没有驾驶员的情况下活动！</DD_CannotDraftWithoutPilot>
-  <DD_NoPilot>该机甲无驾驶员</DD_NoPilot>
-  <DD_NoPilotShort>无驾驶员</DD_NoPilotShort>
-  <DD_PilotEnteredMech>{0} 已经进入 {1}</DD_PilotEnteredMech>
-  <DD_PilotExitedMech>{0} 已经从 {1} 离开</DD_PilotExitedMech>
-  <DD_SummonPilot>征召驾驶员···</DD_SummonPilot>
-  <DD_SummonPilotDesc>指定一名驾驶员进入机甲</DD_SummonPilotDesc>
-  <DD_EjectAllPilots>离开机甲</DD_EjectAllPilots>
-  <DD_EjectAllPilotsDesc>让该机甲的驾驶员离开机甲</DD_EjectAllPilotsDesc>
-  <DD_NoAvailablePilots>没有可以作为机甲驾驶员的殖民者</DD_NoAvailablePilots>
-  <DD_Equipment_For_Other_Mech>此装备不能由此机甲使用</DD_Equipment_For_Other_Mech>
-  <DD_Equipment_Not_Allow_For_Mech>此装备不是为机甲设计的</DD_Equipment_Not_Allow_For_Mech>
-  <DD_Human_Cannot_Equip_Mech_Weapon>此装备是专为机甲设计的，非机甲单位无法装备</DD_Human_Cannot_Equip_Mech_Weapon>
+  <DD_Mech>기갑</DD_Mech>
+  <DD_CannotDraftWithoutPilot>기갑은 조종사 없이는 소집될 수 없습니다!</DD_CannotDraftWithoutPilot>
+  <DD_NoPilot>조종사 없음</DD_NoPilot>
+  <DD_NoPilotShort>조종사 없음</DD_NoPilotShort>
+  <DD_PilotEnteredMech>{0}(이)가 {1}에 탑승했습니다</DD_PilotEnteredMech>
+  <DD_PilotExitedMech>{0}(이)가 {1}에서 내렸습니다</DD_PilotExitedMech>
+  <DD_SummonPilot>조종사 호출...</DD_SummonPilot>
+  <DD_SummonPilotDesc>기갑에 탑승할 조종사를 지정합니다</DD_SummonPilotDesc>
+  <DD_EjectAllPilots>기갑에서 하차</DD_EjectAllPilots>
+  <DD_EjectAllPilotsDesc>해당 기갑의 조종사를 하차시킵니다</DD_EjectAllPilotsDesc>
+  <DD_NoAvailablePilots>기갑 조종사가 될 수 있는 정착민이 없습니다</DD_NoAvailablePilots>
+  <DD_Equipment_For_Other_Mech>이 장비는 해당 기갑이 사용할 수 없습니다</DD_Equipment_For_Other_Mech>
+  <DD_Equipment_Not_Allow_For_Mech>이 장비는 기갑용으로 설계되지 않았습니다</DD_Equipment_Not_Allow_For_Mech>
+  <DD_Human_Cannot_Equip_Mech_Weapon>이 장비는 기갑 전용입니다. 인간은 장착할 수 없습니다</DD_Human_Cannot_Equip_Mech_Weapon>
 
-  <DD_Startup>机甲重新启动</DD_Startup>
-  <DD_NoColonistAvailable>没有可以执行操作的殖民者</DD_NoColonistAvailable>
-  <DD_NoFuelAvailable>没有可用的 {0} 用于加注燃料</DD_NoFuelAvailable>
-  <DD_OrderedRefuel>已下令 {0} 对 {1} 紧急加注燃料</DD_OrderedRefuel>
-  <DD_RefuelNow>紧急加注</DD_RefuelNow>
-  <DD_RefuelNowDesc>命令最近的殖民者为此机甲进行紧急的燃料加注</DD_RefuelNowDesc>
-  <DD_CannotRefuelNow>现在不能加注燃料</DD_CannotRefuelNow>
+  <DD_Startup>기갑 재가동</DD_Startup>
+  <DD_NoColonistAvailable>작업을 수행할 수 있는 정착민이 없습니다</DD_NoColonistAvailable>
+  <DD_NoFuelAvailable>연료 보급에 사용할 수 있는 {0}(이)가 없습니다</DD_NoFuelAvailable>
+  <DD_OrderedRefuel>{0}에게 {1}의 긴급 연료 보급을 명령했습니다</DD_OrderedRefuel>
+  <DD_RefuelNow>긴급 연료 보급</DD_RefuelNow>
+  <DD_RefuelNowDesc>가장 가까운 정착민에게 이 기갑의 긴급 연료 보급을 명령합니다</DD_RefuelNowDesc>
+  <DD_CannotRefuelNow>지금은 연료를 보급할 수 없습니다</DD_CannotRefuelNow>
   <DD_Fuel>{0}</DD_Fuel>
-  <DD_MechFuel>燃料</DD_MechFuel>
+  <DD_MechFuel>연료</DD_MechFuel>
 
-  <DD_ForceRepair>紧急维修</DD_ForceRepair>
-  <DD_ForceRepairDesc>命令最近的殖民者为此机甲进行紧急的维修</DD_ForceRepairDesc>
-  <DD_CannotRepairNow>现在无法维修</DD_CannotRepairNow>
-  <DD_OrderedRepair>已下令 {0} 对 {1} 进行紧急维修</DD_OrderedRepair>
-  <DD_NeedsRepair>需要维修</DD_NeedsRepair>
+  <DD_ForceRepair>긴급 수리</DD_ForceRepair>
+  <DD_ForceRepairDesc>가장 가까운 정착민에게 이 기갑의 긴급 수리를 명령합니다</DD_ForceRepairDesc>
+  <DD_CannotRepairNow>지금은 수리할 수 없습니다</DD_CannotRepairNow>
+  <DD_OrderedRepair>{0}에게 {1}의 긴급 수리를 명령했습니다</DD_OrderedRepair>
+  <DD_NeedsRepair>수리 필요</DD_NeedsRepair>
 
-  <DD_MechSkills>属性</DD_MechSkills>
-  <DD_NoMechSkillComps>此单位没有技能继承系统</DD_NoMechSkillComps>
-  <DD_PilotTitle>驾驶员信息</DD_PilotTitle>
-  <DD_PilotInfo>当前驾驶员 : {0}</DD_PilotInfo>
-  <DD_MechInitSkill>机甲固有</DD_MechInitSkill>
-  <DD_MechSkill_From>继承自: {0} ({1}级)</DD_MechSkill_From>
-  <DD_MechNoSkill>无技能等级</DD_MechNoSkill>
-  <DD_BlockByMechArmor>伤害抵挡</DD_BlockByMechArmor>
-  <DD_Operational>正常</DD_Operational>
+  <DD_MechSkills>속성</DD_MechSkills>
+  <DD_NoMechSkillComps>이 유닛에는 기술 계승 시스템이 없습니다</DD_NoMechSkillComps>
+  <DD_PilotTitle>조종사 정보</DD_PilotTitle>
+  <DD_PilotInfo>현재 조종사 : {0}</DD_PilotInfo>
+  <DD_MechInitSkill>기갑 고유</DD_MechInitSkill>
+  <DD_MechSkill_From>계승됨: {0} ({1}레벨)</DD_MechSkill_From>
+  <DD_MechNoSkill>기술 레벨 없음</DD_MechNoSkill>
+  <DD_BlockByMechArmor>피해 저항</DD_BlockByMechArmor>
+  <DD_Operational>정상</DD_Operational>
 
-  <DD_ImmuneToDamage>伤害免疫！</DD_ImmuneToDamage>
+  <DD_ImmuneToDamage>피해 면역!</DD_ImmuneToDamage>
   
-  <DD_EnterMech>进入 {0}</DD_EnterMech>
-  <DD_MechFull>机甲驾驶员位置已满</DD_MechFull>
-  <DD_CannotBecomePilot>不能成为该机甲的驾驶员</DD_CannotBecomePilot>
-  <DD_MechTooDamagedForEntry>该机甲损坏严重无法进入</DD_MechTooDamagedForEntry>
-  <DD_DisabledColonistRequiresCarry>（需要协助）</DD_DisabledColonistRequiresCarry>
-  <DD_NoAvailableCarrier>没有可用的协助者</DD_NoAvailableCarrier>
-  <DD_CarrierAssigned>已指派 {0} 协助 {1} 进入机甲</DD_CarrierAssigned>
+  <DD_EnterMech>{0}에 탑승</DD_EnterMech>
+  <DD_MechFull>기갑 조종석이 가득 찼습니다</DD_MechFull>
+  <DD_CannotBecomePilot>이 기갑의 조종사가 될 수 없습니다</DD_CannotBecomePilot>
+  <DD_MechTooDamagedForEntry>기갑이 너무 심하게 파손되어 탑승할 수 없습니다</DD_MechTooDamagedForEntry>
+  <DD_DisabledColonistRequiresCarry>(도움 필요)</DD_DisabledColonistRequiresCarry>
+  <DD_NoAvailableCarrier>도와줄 정착민이 없습니다</DD_NoAvailableCarrier>
+  <DD_CarrierAssigned>{0}(이)가 {1}의 기갑 탑승을 돕도록 지정되었습니다</DD_CarrierAssigned>
 
-  <DD_PilotsEjectedDueToLowHealth>{0}的损伤过于严重，驾驶员已被保险系统弹出</DD_PilotsEjectedDueToLowHealth>
+  <DD_PilotsEjectedDueToLowHealth>{0}의 손상이 매우 심각하여, 조종사가 탈출 시스템에 의해 사출되었습니다</DD_PilotsEjectedDueToLowHealth>
 
-  <DD_ForceEjectPilot>撬开 {0}</DD_ForceEjectPilot>
-  <DD_AlreadyPlayerMech>不能撬开本来就属于殖民地的机甲</DD_AlreadyPlayerMech>
-  <DD_MechNotDowned>该机甲仍有行动能力</DD_MechNotDowned>
-  <DD_ForceEjectComplete_WithPilots>{0} 撬开了 {1}，里面仍活着的 {2} 个驾驶员冲出来了！</DD_ForceEjectComplete_WithPilots>
-  <DD_ForceEjectComplete>{0} 撬开了 {1}，并接管了它。</DD_ForceEjectComplete>
+  <DD_ForceEjectPilot>{0} 강제 개방</DD_ForceEjectPilot>
+  <DD_AlreadyPlayerMech>아군 기갑은 강제로 개방할 수 없습니다</DD_AlreadyPlayerMech>
+  <DD_MechNotDowned>기갑이 여전히 가동 중입니다</DD_MechNotDowned>
+  <DD_ForceEjectComplete_WithPilots>{0}(이)가 {1}(을)를 강제로 열었습니다. 안에 살아있던 {2}명의 조종사가 뛰쳐나옵니다!</DD_ForceEjectComplete_WithPilots>
+  <DD_ForceEjectComplete>{0}(이)가 {1}(을)를 강제로 열고 제어권을 획득했습니다.</DD_ForceEjectComplete>
 
-  <DD_TargetDoesNotNeedHealing>目标不需要治疗</DD_TargetDoesNotNeedHealing>
-  <DD_HolyHealing_GayRevelation>{0} 变成女同了！</DD_HolyHealing_GayRevelation>
-  <DD_SelectTradeFlyover>选择飞跃商人</DD_SelectTradeFlyover>
-  <DD_Select>选择</DD_Select>
-  <DD_FlyoverProgress>进度：{0}%</DD_FlyoverProgress>
+  <DD_TargetDoesNotNeedHealing>대상이 치료를 필요로 하지 않습니다</DD_TargetDoesNotNeedHealing>
+  <DD_HolyHealing_GayRevelation>{0}(이)가 레즈비언이 되었습니다!</DD_HolyHealing_GayRevelation>
+  <DD_SelectTradeFlyover>교역 비행선 선택</DD_SelectTradeFlyover>
+  <DD_Select>선택</DD_Select>
+  <DD_FlyoverProgress>진행도: {0}%</DD_FlyoverProgress>
 
-  <DD_GizmoTradeWithFlyoverLabel>与飞艇交易</DD_GizmoTradeWithFlyoverLabel>
-  <DD_GizmoTradeWithFlyoverDesc>选择一个飞艇开始交易。</DD_GizmoTradeWithFlyoverDesc>
-  <DD_NoTradeFlyoversAvailable>没有可交易的飞艇</DD_NoTradeFlyoversAvailable>
-  <DD_NoNegotiatorAvailable>没有可用的谈判者</DD_NoNegotiatorAvailable>
-  <DD_FlyoverNoLongerAvailable>飞艇已无法交易</DD_FlyoverNoLongerAvailable>
-  <DD_TradeFlyoversAvailable>可交易飞艇：{0}</DD_TradeFlyoversAvailable>
+  <DD_GizmoTradeWithFlyoverLabel>비행선과 거래</DD_GizmoTradeWithFlyoverLabel>
+  <DD_GizmoTradeWithFlyoverDesc>거래를 시작할 비행선을 선택합니다.</DD_GizmoTradeWithFlyoverDesc>
+  <DD_NoTradeFlyoversAvailable>거래 가능한 비행선이 없습니다</DD_NoTradeFlyoversAvailable>
+  <DD_NoNegotiatorAvailable>가용한 협상가가 없습니다</DD_NoNegotiatorAvailable>
+  <DD_FlyoverNoLongerAvailable>비행선이 더 이상 거래할 수 없는 상태입니다</DD_FlyoverNoLongerAvailable>
+  <DD_TradeFlyoversAvailable>거래 가능 비행선: {0}</DD_TradeFlyoversAvailable>
 
-  <DD_Flyover_NoAircraft>无待命的飞行器</DD_Flyover_NoAircraft>
-  <DD_Flyover_Icon>图标</DD_Flyover_Icon>
+  <DD_Flyover_NoAircraft>대기 중인 비행체가 없습니다</DD_Flyover_NoAircraft>
+  <DD_Flyover_Icon>아이콘</DD_Flyover_Icon>
   <DD_Flyover_SkillSlot>{0}</DD_Flyover_SkillSlot>
-  <DD_Flyover_Dock>停靠</DD_Flyover_Dock>
-  <DD_Flyover_Deploy>部署</DD_Flyover_Deploy>
-  <DD_Flyover_Dock_Tooltip>停靠tooltip</DD_Flyover_Dock_Tooltip>
-  <DD_Flyover_Deploy_Tooltip>部署tooltip</DD_Flyover_Deploy_Tooltip>
-  <DD_Flyover_Title>双尾教国飞行器</DD_Flyover_Title>
-  <DD_Flyover_Status_OnMap>已部署</DD_Flyover_Status_OnMap>
-  <DD_Flyover_Status_Standby>就绪</DD_Flyover_Status_Standby>
-  <DD_Flyover_Status_Deploying>部署中</DD_Flyover_Status_Deploying>
-  <DD_Flyover_Status_Destroyed>销毁</DD_Flyover_Status_Destroyed>
-  <DD_Flyover_Status_Unknown>未知</DD_Flyover_Status_Unknown>
-  <DD_Flyover_SkillSlotEmpty>无行动</DD_Flyover_SkillSlotEmpty>
-  <DD_Flyover_SkillSlot>行动</DD_Flyover_SkillSlot>
-  <DD_Flyover_Cooldown>冷却中</DD_Flyover_Cooldown>
-  <DD_Flyover_Uses>弹药使用</DD_Flyover_Uses>
+  <DD_Flyover_Dock>정박</DD_Flyover_Dock>
+  <DD_Flyover_Deploy>배치</DD_Flyover_Deploy>
+  <DD_Flyover_Dock_Tooltip>비행체를 기지에 정박시킵니다</DD_Flyover_Dock_Tooltip>
+  <DD_Flyover_Deploy_Tooltip>비행체를 전장에 배치합니다</DD_Flyover_Deploy_Tooltip>
+  <DD_Flyover_Title>두 꼬리 교단 비행체</DD_Flyover_Title>
+  <DD_Flyover_Status_OnMap>배치됨</DD_Flyover_Status_OnMap>
+  <DD_Flyover_Status_Standby>준비됨</DD_Flyover_Status_Standby>
+  <DD_Flyover_Status_Deploying>배치 중</DD_Flyover_Status_Deploying>
+  <DD_Flyover_Status_Destroyed>파괴됨</DD_Flyover_Status_Destroyed>
+  <DD_Flyover_Status_Unknown>미확인</DD_Flyover_Status_Unknown>
+  <DD_Flyover_SkillSlotEmpty>명령 없음</DD_Flyover_SkillSlotEmpty>
+  <DD_Flyover_SkillSlot>작전</DD_Flyover_SkillSlot>
+  <DD_Flyover_Cooldown>재사용 대기 중</DD_Flyover_Cooldown>
+  <DD_Flyover_Uses>탄약 사용</DD_Flyover_Uses>
 
-  <DD_FlyoverSkillUnavailable>行动不可用</DD_FlyoverSkillUnavailable>
-  <DD_FlyoverSkillMaxLimit>行动已经达到使用上限（{0} / {1}）</DD_FlyoverSkillMaxLimit>
-  <DD_FlyoverSkillCooldown>行动仍在冷却（{0}秒）</DD_FlyoverSkillCooldown>
-  <DD_FlyoverSkillZeroCooldown>该行动无冷却时间</DD_FlyoverSkillZeroCooldown>
-  <DD_FlyoverSkillReady>准备就绪</DD_FlyoverSkillReady>
-  <DD_FlyoverSkillCooldown>行动冷却时间：{0}秒</DD_FlyoverSkillCooldown>
-  <DD_FlyoverSkillNoMap>不位于地图内</DD_FlyoverSkillNoMap>
-  <DD_FlyoverSkilPointNotInBounds>选择的点必须位于地图边界内</DD_FlyoverSkilPointNotInBounds>
-  <DD_FlyoverSkilPointsDifferent>两个点必须不在同一单元格</DD_FlyoverSkilPointsDifferent>
+  <DD_FlyoverSkillUnavailable>작전 사용 불가</DD_FlyoverSkillUnavailable>
+  <DD_FlyoverSkillMaxLimit>작전 사용 횟수 제한에 도달했습니다 ({0} / {1})</DD_FlyoverSkillMaxLimit>
+  <DD_FlyoverSkillCooldown>작전 재사용 대기 중 ({0}초)</DD_FlyoverSkillCooldown>
+  <DD_FlyoverSkillZeroCooldown>해당 작전은 재사용 대기 시간이 없습니다</DD_FlyoverSkillZeroCooldown>
+  <DD_FlyoverSkillReady>준비 완료</DD_FlyoverSkillReady>
+  <DD_FlyoverSkillCooldown>작전 재사용 대기 시간: {0}초</DD_FlyoverSkillCooldown>
+  <DD_FlyoverSkillNoMap>지도 내에 위치하지 않음</DD_FlyoverSkillNoMap>
+  <DD_FlyoverSkilPointNotInBounds>선택한 지점은 지도 경계 내에 있어야 합니다</DD_FlyoverSkilPointNotInBounds>
+  <DD_FlyoverSkilPointsDifferent>두 지점은 서로 다른 칸이어야 합니다</DD_FlyoverSkilPointsDifferent>
     
-  <DD_FlyoverSkillFailed>行动执行失败</DD_FlyoverSkillFailed>
-  <DD_FlyoverSkillNoAircraftData>未找到飞行器数据</DD_FlyoverSkillNoAircraftData>
-  <DD_FlyoverSkillAircraftDestroyed>飞行器已被摧毁</DD_FlyoverSkillAircraftDestroyed>
-  <DD_FlyoverSkillCannotUseOnMap>飞行器在地图上时不能使用此行动</DD_FlyoverSkillCannotUseOnMap>
-  <DD_FlyoverSkillCannotUseStandby>飞行器待命时不能使用此行动</DD_FlyoverSkillCannotUseStandby>
+  <DD_FlyoverSkillFailed>작전 실행 실패</DD_FlyoverSkillFailed>
+  <DD_FlyoverSkillNoAircraftData>비행체 데이터를 찾을 수 없습니다</DD_FlyoverSkillNoAircraftData>
+  <DD_FlyoverSkillAircraftDestroyed>비행체가 파괴되었습니다</DD_FlyoverSkillAircraftDestroyed>
+  <DD_FlyoverSkillCannotUseOnMap>비행체가 지도에 배치된 상태에서는 이 작전을 사용할 수 없습니다</DD_FlyoverSkillCannotUseOnMap>
+  <DD_FlyoverSkillCannotUseStandby>비행체가 대기 중일 때는 이 작전을 사용할 수 없습니다</DD_FlyoverSkillCannotUseStandby>
 
-  <DD_FlyoverSkillSkyfallerWarmup>{0} 准备中，剩余时间：{1}</DD_FlyoverSkillSkyfallerWarmup>
-  <DD_FlyoverSkillSkyfallerDropped>已投放 {0}</DD_FlyoverSkillSkyfallerDropped>
-  <DD_FlyoverSkillNoSkyfaller>未定义Skyfaller</DD_FlyoverSkillNoSkyfaller>
-  <DD_FlyoverSkillSpawnFailed>生成失败</DD_FlyoverSkillSpawnFailed>
-  <DD_FlyoverSkillWarmingUp>准备中：{0}</DD_FlyoverSkillWarmingUp>
-  <DD_FlyoverSkillSkyfallerDesc>投放一个 {0}</DD_FlyoverSkillSkyfallerDesc>
-  <DD_FlyoverSkillSkyfallerGeneric>投放一个Skyfaller</DD_FlyoverSkillSkyfallerGeneric>
+  <DD_FlyoverSkillSkyfallerWarmup>{0} 준비 중, 남은 시간: {1}</DD_FlyoverSkillSkyfallerWarmup>
+  <DD_FlyoverSkillSkyfallerDropped>{0}(을)를 투하했습니다</DD_FlyoverSkillSkyfallerDropped>
+  <DD_FlyoverSkillNoSkyfaller>Skyfaller가 정의되지 않았습니다</DD_FlyoverSkillNoSkyfaller>
+  <DD_FlyoverSkillSpawnFailed>생성 실패</DD_FlyoverSkillSpawnFailed>
+  <DD_FlyoverSkillWarmingUp>준비 중: {0}</DD_FlyoverSkillWarmingUp>
+  <DD_FlyoverSkillSkyfallerDesc>{0}(을)를 투하합니다</DD_FlyoverSkillSkyfallerDesc>
+  <DD_FlyoverSkillSkyfallerGeneric>Skyfaller를 투하합니다</DD_FlyoverSkillSkyfallerGeneric>
 
-  <DD_FlyoverSkillBombardmentSelectPoints>选择两个点以定义轰炸区域和方向</DD_FlyoverSkillBombardmentSelectPoints>
-  <DD_FlyoverSkillBombardment>轰炸</DD_FlyoverSkillBombardment>
-  <DD_FlyoverSkillBombardmentDescription>呼叫一次炮击轰炸。选择两个点来定义轰炸区域和方向。</DD_FlyoverSkillBombardmentDescription>
+  <DD_FlyoverSkillBombardmentSelectPoints>폭격 구역과 방향을 지정하기 위해 두 지점을 선택하십시오</DD_FlyoverSkillBombardmentSelectPoints>
+  <DD_FlyoverSkillBombardment>폭격</DD_FlyoverSkillBombardment>
+  <DD_FlyoverSkillBombardmentDescription>포격 지원을 요청합니다. 두 지점을 선택하여 폭격 구역과 방향을 지정합니다.</DD_FlyoverSkillBombardmentDescription>
 
-  <DD_Flyover_Land>降落</DD_Flyover_Land>
-  <DD_Flyover_Land_Tooltip>让 {0} 降落</DD_Flyover_Land_Tooltip>
-  <DD_Flyover_Landing>{0} 正在降落</DD_Flyover_Landing>
-  <DD_Flyover_ReEnter>重新入场</DD_Flyover_ReEnter>
-  <DD_Flyover_ReEnter_Tooltip>让 {0} 重新进入地图</DD_Flyover_ReEnter_Tooltip>
-  <DD_Flyover_SelectFirstPoint>选择进入方向</DD_Flyover_SelectFirstPoint>
-  <DD_Flyover_SelectSecondPoint>选择航线</DD_Flyover_SelectSecondPoint>
-  <DD_Flyover_PointOutOfBounds>选择的点必须在地图边界内</DD_Flyover_PointOutOfBounds>
-  <DD_Flyover_PointsSame>两个点不能相同</DD_Flyover_PointsSame>
-  <DD_Flyover_FailedCalculatePath>无法计算飞行路径</DD_Flyover_FailedCalculatePath>
-  <DD_Flyover_ReEnterSuccess>{0} 重新入场成功</DD_Flyover_ReEnterSuccess>
-  <DD_Flyover_FailedCreate>创建飞行器失败</DD_Flyover_FailedCreate>
-  <DD_Flyover_NoMap>当前没有地图</DD_Flyover_NoMap>
-  <DD_Flyover_Docking>{0} 正在停靠</DD_Flyover_Docking>
-  <DD_Flyover_Deploying>{0} 正在部署</DD_Flyover_Deploying>
-  <DD_Flyover_Destroyed>已销毁</DD_Flyover_Destroyed>
-  <DD_Flyover_Icon>图标</DD_Flyover_Icon>
-  <DD_Flyover_NoAvailablePawn>附近没有合适的未征召殖民者</DD_Flyover_NoAvailablePawn>
-  <DD_Flyover_CancelCallJob>取消呼叫</DD_Flyover_CancelCallJob>
-  <DD_Flyover_CancelCallJobDesc>取消当前的任务，结束飞行器呼叫</DD_Flyover_CancelCallJobDesc>
+  <DD_Flyover_Land>착륙</DD_Flyover_Land>
+  <DD_Flyover_Land_Tooltip>{0}(을)를 착륙시킵니다</DD_Flyover_Land_Tooltip>
+  <DD_Flyover_Landing>{0}(이)가 착륙 중입니다</DD_Flyover_Landing>
+  <DD_Flyover_ReEnter>재진입</DD_Flyover_ReEnter>
+  <DD_Flyover_ReEnter_Tooltip>{0}(이)가 지도로 재진입하게 합니다</DD_Flyover_ReEnter_Tooltip>
+  <DD_Flyover_SelectFirstPoint>진입 방향 선택</DD_Flyover_SelectFirstPoint>
+  <DD_Flyover_SelectSecondPoint>비행 경로 선택</DD_Flyover_SelectSecondPoint>
+  <DD_Flyover_PointOutOfBounds>선택한 지점은 지도 경계 내에 있어야 합니다</DD_Flyover_PointOutOfBounds>
+  <DD_Flyover_PointsSame>두 지점은 같을 수 없습니다</DD_Flyover_PointsSame>
+  <DD_Flyover_FailedCalculatePath>비행 경로를 계산할 수 없습니다</DD_Flyover_FailedCalculatePath>
+  <DD_Flyover_ReEnterSuccess>{0} 재진입 성공</DD_Flyover_ReEnterSuccess>
+  <DD_Flyover_FailedCreate>비행체 생성 실패</DD_Flyover_FailedCreate>
+  <DD_Flyover_NoMap>현재 활성화된 지도가 없습니다</DD_Flyover_NoMap>
+  <DD_Flyover_Docking>{0}(이)가 정박 중입니다</DD_Flyover_Docking>
+  <DD_Flyover_Deploying>{0}(이)가 배치 중입니다</DD_Flyover_Deploying>
+  <DD_Flyover_Destroyed>파괴됨</DD_Flyover_Destroyed>
+  <DD_Flyover_NoAvailablePawn>근처에 적절한 미소집 정착민이 없습니다</DD_Flyover_NoAvailablePawn>
+  <DD_Flyover_CancelCallJob>호출 취소</DD_Flyover_CancelCallJob>
+  <DD_Flyover_CancelCallJobDesc>현재 임무를 취소하고 비행체 호출을 종료합니다</DD_Flyover_CancelCallJobDesc>
 
-  <DD_Flyover_Manager>飞行器管理</DD_Flyover_Manager>
-  <DD_Flyover_ManagerDesc>打开飞行器管理面板，查看和管理当前的飞行器</DD_Flyover_ManagerDesc>
+  <DD_Flyover_Manager>비행체 관리</DD_Flyover_Manager>
+  <DD_Flyover_ManagerDesc>비행체 관리 창을 열어 현재 비행체들을 확인하고 관리합니다</DD_Flyover_ManagerDesc>
 
-  <DD_Flyover_Status_InAir>飞行中</DD_Flyover_Status_InAir>
-  <DD_Flyover_Status_Standby>待命</DD_Flyover_Status_Standby>
-  <DD_Flyover_Status_Deploying>部署中</DD_Flyover_Status_Deploying>
-  <DD_Flyover_Status_Destroyed>已销毁</DD_Flyover_Status_Destroyed>
-  <DD_Flyover_Status_Unknown>未知</DD_Flyover_Status_Unknown>
-  <!-- 航线信息相关 -->
-  <DD_FlightPath_TwoPointsExtended_DisplayName>两点延长线航线</DD_FlightPath_TwoPointsExtended_DisplayName>
-  <DD_FlightPath_TwoPointsExtended_Description>通过将两个选定的点延伸到地图边界来创建飞行路径</DD_FlightPath_TwoPointsExtended_Description>
-  <DD_FlightPath_Direct_DisplayName>直接航线</DD_FlightPath_Direct_DisplayName>
-  <DD_FlightPath_Direct_Description>直接指定起点和终点</DD_FlightPath_Direct_Description>
-  <DD_FlightPath_PointsDifferent>两个点必须不同</DD_FlightPath_PointsDifferent>
-  <DD_FlightPath_StartEndDifferent>起点和终点必须不同</DD_FlightPath_StartEndDifferent>
+  <DD_Flyover_Status_InAir>비행 중</DD_Flyover_Status_InAir>
+  <DD_FlightPath_TwoPointsExtended_DisplayName>양 지점 연장 경로</DD_FlightPath_TwoPointsExtended_DisplayName>
+  <DD_FlightPath_TwoPointsExtended_Description>선택한 두 지점을 지도 경계까지 연장하여 비행 경로를 생성합니다</DD_FlightPath_TwoPointsExtended_Description>
+  <DD_FlightPath_Direct_DisplayName>직선 경로</DD_FlightPath_Direct_DisplayName>
+  <DD_FlightPath_Direct_Description>시작점과 끝점을 직접 지정합니다</DD_FlightPath_Direct_Description>
+  <DD_FlightPath_PointsDifferent>두 지점은 서로 달라야 합니다</DD_FlightPath_PointsDifferent>
+  <DD_FlightPath_StartEndDifferent>시작점과 끝점은 서로 달라야 합니다</DD_FlightPath_StartEndDifferent>
 
-  <DD_FlyoverSkill_SinglePointSelectMessage>为 {0} 选择目标</DD_FlyoverSkill_SinglePointSelectMessage>
-  <DD_FlyoverSkill_TwoPointsFirstMessage>为 {0} 选择第一个点</DD_FlyoverSkill_TwoPointsFirstMessage>
-  <DD_FlyoverSkill_TwoPointsSecondMessage>为 {0} 选择第二个点</DD_FlyoverSkill_TwoPointsSecondMessage>
-  <DD_FlyoverSkill_InstantCastMessage>在飞机位置使用 {0}</DD_FlyoverSkill_InstantCastMessage>
+  <DD_FlyoverSkill_SinglePointSelectMessage>{0}의 대상을 선택하십시오</DD_FlyoverSkill_SinglePointSelectMessage>
+  <DD_FlyoverSkill_TwoPointsFirstMessage>{0}의 첫 번째 지점을 선택하십시오</DD_FlyoverSkill_TwoPointsFirstMessage>
+  <DD_FlyoverSkill_TwoPointsSecondMessage>{0}의 두 번째 지점을 선택하십시오</DD_FlyoverSkill_TwoPointsSecondMessage>
+  <DD_FlyoverSkill_InstantCastMessage>비행체 위치에서 {0}(을)를 사용합니다</DD_FlyoverSkill_InstantCastMessage>
 
-  <DD_FlyoverSkill_Seconds>{0}秒</DD_FlyoverSkill_Seconds>
+  <DD_FlyoverSkill_Seconds>{0}초</DD_FlyoverSkill_Seconds>
   <DD_FlyoverSkill_TicksToSeconds>{0}</DD_FlyoverSkill_TicksToSeconds>
   
-  <!-- 飞机呼叫工作相关 -->
-  <DD_CallFlyOver>呼叫飞行器</DD_CallFlyOver>
-  <DD_Flyover_FailedAssignJob>分配呼叫工作失败</DD_Flyover_FailedAssignJob>
-  <DD_Flyover_PawnAssigned>{0} 开始呼叫</DD_Flyover_PawnAssigned>
-  <DD_Flyover_OnCooldown>正在冷却，剩余{0}</DD_Flyover_OnCooldown>
-  <DD_Gizmo_Title>信仰系统</DD_Gizmo_Title>
-  <DD_Gizmo_RecoveryRate>+{0}/天</DD_Gizmo_RecoveryRate>
+  <DD_CallFlyOver>비행체 호출</DD_CallFlyOver>
+  <DD_Flyover_FailedAssignJob>호출 작업 할당 실패</DD_Flyover_FailedAssignJob>
+  <DD_Flyover_PawnAssigned>{0}(이)가 호출을 시작합니다</DD_Flyover_PawnAssigned>
+  <DD_Flyover_OnCooldown>재사용 대기 중, 남은 시간 {0}</DD_Flyover_OnCooldown>
+  <DD_Gizmo_Title>신앙 시스템</DD_Gizmo_Title>
+  <DD_Gizmo_RecoveryRate>+{0}/일</DD_Gizmo_RecoveryRate>
   
-  <!-- 基础工具提示 -->
-  <DD_Gizmo_BaseTitle>信仰与祈愿系统</DD_Gizmo_BaseTitle>
-  <DD_Gizmo_HoverHint>将鼠标悬停在每个条上查看详细信息。</DD_Gizmo_HoverHint>
-  <DD_Gizmo_FaithDesc>信仰：追随者的长期虔诚</DD_Gizmo_FaithDesc>
-  <DD_Gizmo_WishDesc>祈愿：每日恢复的短期狂热</DD_Gizmo_WishDesc>
-  <DD_Gizmo_CurrentLeader>当前领袖：{0}</DD_Gizmo_CurrentLeader>
+  <DD_Gizmo_BaseTitle>신앙 및 기원 시스템</DD_Gizmo_BaseTitle>
+  <DD_Gizmo_HoverHint>각 막대에 마우스를 올려 상세 정보를 확인하십시오.</DD_Gizmo_HoverHint>
+  <DD_Gizmo_FaithDesc>신앙: 추종자들의 장기적인 헌신</DD_Gizmo_FaithDesc>
+  <DD_Gizmo_WishDesc>기원: 매일 회복되는 단기적인 열광</DD_Gizmo_WishDesc>
+  <DD_Gizmo_CurrentLeader>현재 지도자: {0}</DD_Gizmo_CurrentLeader>
   
-  <!-- 调试信息 -->
-  <DD_Gizmo_DebugHeader>--- 调试信息 ---</DD_Gizmo_DebugHeader>
-  <DD_Gizmo_DebugSystemActive>系统激活：{0}</DD_Gizmo_DebugSystemActive>
-  <DD_Gizmo_DebugFollowers>信徒数量：{0}</DD_Gizmo_DebugFollowers>
+  <DD_Gizmo_DebugHeader>--- 디버그 정보 ---</DD_Gizmo_DebugHeader>
+  <DD_Gizmo_DebugSystemActive>시스템 활성화: {0}</DD_Gizmo_DebugSystemActive>
+  <DD_Gizmo_DebugFollowers>신도 수: {0}</DD_Gizmo_DebugFollowers>
   
-  <!-- 信仰条悬浮提示 -->
-  <DD_FaithTooltip_Title>信仰</DD_FaithTooltip_Title>
-  <DD_FaithTooltip_Current>当前：{0} / {1}</DD_FaithTooltip_Current>
-  <DD_FaithTooltip_Percent>百分比：{0}</DD_FaithTooltip_Percent>
-  <DD_FaithTooltip_Factors>影响因素：</DD_FaithTooltip_Factors>
-  <DD_FaithTooltip_Followers>• 信徒：{0}</DD_FaithTooltip_Followers>
-  <DD_FaithTooltip_FollowerCapacity>    - 每个信徒最大信仰值：100</DD_FaithTooltip_FollowerCapacity>
-  <DD_FaithTooltip_TotalCapacity>    - 总容量：{0}</DD_FaithTooltip_TotalCapacity>
-  <DD_FaithTooltip_Leader>• 领袖：{0}</DD_FaithTooltip_Leader>
-  <DD_FaithTooltip_Health>    - 健康度：{0}</DD_FaithTooltip_Health>
-  <DD_FaithTooltip_Mood>    - 心情：{0}</DD_FaithTooltip_Mood>
-  <DD_FaithTooltip_MoodPenalty>      (心情惩罚可能生效)</DD_FaithTooltip_MoodPenalty>
-  <DD_FaithTooltip_Description>描述：</DD_FaithTooltip_Description>
-  <DD_FaithTooltip_DescriptionText>信仰代表追随者的集体信仰和虔诚。它可以用于执行强大的仪式和增强殖民地活动。</DD_FaithTooltip_DescriptionText>
+  <DD_FaithTooltip_Title>신앙</DD_FaithTooltip_Title>
+  <DD_FaithTooltip_Current>현재: {0} / {1}</DD_FaithTooltip_Current>
+  <DD_FaithTooltip_Percent>백분율: {0}</DD_FaithTooltip_Percent>
+  <DD_FaithTooltip_Factors>영향 요인:</DD_FaithTooltip_Factors>
+  <DD_FaithTooltip_Followers>• 신도: {0}</DD_FaithTooltip_Followers>
+  <DD_FaithTooltip_FollowerCapacity>    - 신도당 최대 신앙치: 100</DD_FaithTooltip_FollowerCapacity>
+  <DD_FaithTooltip_TotalCapacity>    - 총 용량: {0}</DD_FaithTooltip_TotalCapacity>
+  <DD_FaithTooltip_Leader>• 지도자: {0}</DD_FaithTooltip_Leader>
+  <DD_FaithTooltip_Health>    - 건강도: {0}</DD_FaithTooltip_Health>
+  <DD_FaithTooltip_Mood>    - 기분: {0}</DD_FaithTooltip_Mood>
+  <DD_FaithTooltip_MoodPenalty>      (기분 패널티 적용 가능)</DD_FaithTooltip_MoodPenalty>
+  <DD_FaithTooltip_Description>설명:</DD_FaithTooltip_Description>
+  <DD_FaithTooltip_DescriptionText>신앙은 추종자들의 집단적인 믿음과 경건함을 나타냅니다. 강력한 의식을 수행하거나 정착지 활동을 강화하는 데 사용됩니다.</DD_FaithTooltip_DescriptionText>
   
-  <!-- 祈愿条悬浮提示 -->
-  <DD_WishTooltip_Title>祈愿</DD_WishTooltip_Title>
-  <DD_WishTooltip_Current>当前：{0} / {1}</DD_WishTooltip_Current>
-  <DD_WishTooltip_Percent>百分比：{0}</DD_WishTooltip_Percent>
-  <DD_WishTooltip_Recovery>恢复速率：{0}/天</DD_WishTooltip_Recovery>
-  <DD_WishTooltip_Factors>影响因素：</DD_WishTooltip_Factors>
-  <DD_WishTooltip_Capacity>• 容量：{0}</DD_WishTooltip_Capacity>
-  <DD_WishTooltip_CapacityExplanation>    - 等于剩余信仰容量</DD_WishTooltip_CapacityExplanation>
-  <DD_WishTooltip_MaxFaith>    - 最大信仰值：{0}</DD_WishTooltip_MaxFaith>
-  <DD_WishTooltip_CurrentFaith>    - 当前信仰值：{0}</DD_WishTooltip_CurrentFaith>
-  <DD_WishTooltip_RecoveryRate>• 恢复速率：{0}/天</DD_WishTooltip_RecoveryRate>
-  <DD_WishTooltip_BaseRate>    - 基础速率：10.0/天</DD_WishTooltip_BaseRate>
-  <DD_WishTooltip_HealthPenalty>    - 健康惩罚：{0} × 2</DD_WishTooltip_HealthPenalty>
-  <DD_WishTooltip_MoodPenalty>    - 心情惩罚：×0.5</DD_WishTooltip_MoodPenalty>
-  <DD_WishTooltip_MoodBonus>    - 心情加成：×1.5</DD_WishTooltip_MoodBonus>
-  <DD_WishTooltip_FollowersBonus>    - 信徒加成：+{0} × 0.5</DD_WishTooltip_FollowersBonus>
-  <DD_WishTooltip_TimeToFull>    - 充满时间：{0} 小时</DD_WishTooltip_TimeToFull>
-  <DD_WishTooltip_Description>描述：</DD_WishTooltip_Description>
-  <DD_WishTooltip_DescriptionText>祈愿代表追随者的瞬时狂热和即时虔诚。它随时间自然恢复，可用于快速、暂时的祝福。祈愿容量受剩余信仰容量限制。</DD_WishTooltip_DescriptionText>
+  <DD_WishTooltip_Title>기원</DD_WishTooltip_Title>
+  <DD_WishTooltip_Current>현재: {0} / {1}</DD_WishTooltip_Current>
+  <DD_WishTooltip_Percent>백분율: {0}</DD_WishTooltip_Percent>
+  <DD_WishTooltip_Recovery>회복률: {0}/일</DD_WishTooltip_Recovery>
+  <DD_WishTooltip_Factors>영향 요인:</DD_WishTooltip_Factors>
+  <DD_WishTooltip_Capacity>• 용량: {0}</DD_WishTooltip_Capacity>
+  <DD_WishTooltip_CapacityExplanation>    - 남은 신앙 용량과 동일</DD_WishTooltip_CapacityExplanation>
+  <DD_WishTooltip_MaxFaith>    - 최대 신앙치: {0}</DD_WishTooltip_MaxFaith>
+  <DD_WishTooltip_CurrentFaith>    - 현재 신앙치: {0}</DD_WishTooltip_CurrentFaith>
+  <DD_WishTooltip_RecoveryRate>• 회복률: {0}/일</DD_WishTooltip_RecoveryRate>
+  <DD_WishTooltip_BaseRate>    - 기본 회복률: 10.0/일</DD_WishTooltip_BaseRate>
+  <DD_WishTooltip_HealthPenalty>    - 건강 패널티: {0} × 2</DD_WishTooltip_HealthPenalty>
+  <DD_WishTooltip_MoodPenalty>    - 기분 패널티: ×0.5</DD_WishTooltip_MoodPenalty>
+  <DD_WishTooltip_MoodBonus>    - 기분 보너스: ×1.5</DD_WishTooltip_MoodBonus>
+  <DD_WishTooltip_FollowersBonus>    - 신도 보너스: +{0} × 0.5</DD_WishTooltip_FollowersBonus>
+  <DD_WishTooltip_TimeToFull>    - 완충 시간: {0} 시간</DD_WishTooltip_TimeToFull>
+  <DD_WishTooltip_Description>설명:</DD_WishTooltip_Description>
+  <DD_WishTooltip_DescriptionText>기원은 추종자들의 일시적인 열광과 즉각적인 헌신을 나타냅니다. 시간이 지남에 따라 자연적으로 회복되며 빠르고 일시적인 축복에 사용됩니다. 기원 용량은 남은 신앙 용량에 의해 제한됩니다.</DD_WishTooltip_DescriptionText>
 
-  <!-- Hediff抽卡系统 -->
-  <DD_HediffGacha_Title>选择一个效果</DD_HediffGacha_Title>
-  <DD_HediffGacha_TargetInfo>目标：{0}</DD_HediffGacha_TargetInfo>
-  <DD_HediffGacha_Select>选择</DD_HediffGacha_Select>
-  <DD_HediffGacha_Selected>{0} 获得了 {1}</DD_HediffGacha_Selected>
-  <DD_HediffGacha_Hint>点击卡片下方的按钮选择一个效果</DD_HediffGacha_Hint>
-  <DD_HediffGacha_HintWithCancel>点击卡片下方的按钮选择一个效果，或按ESC取消</DD_HediffGacha_HintWithCancel>
-  <DD_HediffGacha_NeedPawnTarget>需要选择一个目标角色</DD_HediffGacha_NeedPawnTarget>
-  <DD_HediffGacha_EmptyPool>Hediff池为空，无法使用此技能</DD_HediffGacha_EmptyPool>
+  <DD_HediffGacha_Title>효과 선택</DD_HediffGacha_Title>
+  <DD_HediffGacha_TargetInfo>대상: {0}</DD_HediffGacha_TargetInfo>
+  <DD_HediffGacha_Select>선택</DD_HediffGacha_Select>
+  <DD_HediffGacha_Selected>{0}(이)가 {1} 효과를 얻었습니다</DD_HediffGacha_Selected>
+  <DD_HediffGacha_Hint>카드 아래의 버튼을 클릭하여 효과를 선택하십시오</DD_HediffGacha_Hint>
+  <DD_HediffGacha_HintWithCancel>카드 아래의 버튼을 클릭하여 효과를 선택하거나, ESC를 눌러 취소하십시오</DD_HediffGacha_HintWithCancel>
+  <DD_HediffGacha_NeedPawnTarget>대상 캐릭터를 선택해야 합니다</DD_HediffGacha_NeedPawnTarget>
+  <DD_HediffGacha_EmptyPool>효과 목록이 비어 있어 이 기술을 사용할 수 없습니다</DD_HediffGacha_EmptyPool>
 
-  <!-- 自适应护盾系统 -->
-  <DD_Shield_Activated>护盾激活</DD_Shield_Activated>
-  <DD_Shield_Blocked>格挡 {0} 伤害</DD_Shield_Blocked>
-  <DD_Shield_Penetrated>穿透！({0}>{1}) 阈值提升至 {2}</DD_Shield_Penetrated>
-  <DD_Shield_Status>伤害阈值: {0}\n格挡次数: {1}\n穿透次数: {2}</DD_Shield_Status>
-  <DD_Lantern_Shield_ActivatedMessage>{0} 点燃了提灯</DD_Lantern_Shield_ActivatedMessage>
-  <DD_Lantern_Shield_DeactivatedMessage>{0} 的提灯熄灭了</DD_Lantern_Shield_DeactivatedMessage>
-  <DD_Shield_NoHediffConfigured>技能配置错误：未指定护盾Hediff</DD_Shield_NoHediffConfigured>
-  <DD_Shield_CurrentState>护盾状态: {0}</DD_Shield_CurrentState>
-  <DD_Shield_On>开启</DD_Shield_On>
-  <DD_Shield_Off>关闭</DD_Shield_Off>
+  <DD_Shield_Activated>보호막 활성화</DD_Shield_Activated>
+  <DD_Shield_Blocked>{0} 피해 방어</DD_Shield_Blocked>
+  <DD_Shield_Penetrated>관통됨! ({0}>{1}) 임계값이 {2}(으)로 상승</DD_Shield_Penetrated>
+  <DD_Shield_Status>피해 임계값: {0}\n방어 횟수: {1}\n관통 횟수: {2}</DD_Shield_Status>
+  <DD_Lantern_Shield_ActivatedMessage>{0}(이)가 제등에 불을 붙였습니다</DD_Lantern_Shield_ActivatedMessage>
+  <DD_Lantern_Shield_DeactivatedMessage>{0}의 제등 불빛이 꺼졌습니다</DD_Lantern_Shield_DeactivatedMessage>
+  <DD_Shield_NoHediffConfigured>기술 설정 오류: 보호막 Hediff가 지정되지 않음</DD_Shield_NoHediffConfigured>
+  <DD_Shield_CurrentState>보호막 상태: {0}</DD_Shield_CurrentState>
+  <DD_Shield_On>켜짐</DD_Shield_On>
+  <DD_Shield_Off>꺼짐</DD_Shield_Off>
 
-  <DD_MyCustomGacha_Title>提灯改造</DD_MyCustomGacha_Title>
-  <DD_Upgrade_Lantern_Selected>提灯改造完成！</DD_Upgrade_Lantern_Selected>
+  <DD_MyCustomGacha_Title>등불 개조</DD_MyCustomGacha_Title>
+  <DD_Upgrade_Lantern_Selected>등불 개조 완료!</DD_Upgrade_Lantern_Selected>
 
-  <DD_ShowWeatherShelter>显示庇护区域</DD_ShowWeatherShelter>
-  <DD_ShowWeatherShelter_Desc>高亮显示当前庇护区域，当启动地狱深潜时，受到庇护的区域不会被地狱的火焰、岩浆、陨石吞噬，地狱军团也不能直接出现在庇护区域内。</DD_ShowWeatherShelter_Desc>
+  <DD_ShowWeatherShelter>보호 구역 표시</DD_ShowWeatherShelter>
+  <DD_ShowWeatherShelter_Desc>현재 보호 구역을 강조 표시합니다. 지옥 심층 도약 가동 시, 보호된 구역은 지옥의 불길, 용암, 운석에 삼켜지지 않으며 지옥 군단이 보호 구역 내에 직접 나타날 수 없습니다.</DD_ShowWeatherShelter_Desc>
 
-  <DD_HellTeleporter_Willfinish>深潜即将完成... ({0} %)</DD_HellTeleporter_Willfinish>
-  <DD_HellTeleporter_Daysleft>深潜剩余时间: {0}天</DD_HellTeleporter_Daysleft>
-  <DD_HellTeleporter_TeleCancelDesc>取消正在进行的深潜。注意：即使强行从地狱中脱离，其造成的影响依然会持续一段时间！\n进度: {0}%\n剩余时间: {1}天</DD_HellTeleporter_TeleCancelDesc>
-  <DD_HellTeleporter_TeleCancelStatue>当前状态: {0}</DD_HellTeleporter_TeleCancelStatue>
-  <DD_HellTeleporter_TeleCancel>取消地狱深潜</DD_HellTeleporter_TeleCancel>
-  <DD_HellTeleporter_TeleCancelRemoveMark>取消地狱深潜，并移除目的地标记</DD_HellTeleporter_TeleCancelRemoveMark>
-  <DD_HellTeleporter_TeleStart>启动地狱深潜</DD_HellTeleporter_TeleStart>
-  <DD_HellTeleporter_TeleStartNeedResearch>需要研究: {0}</DD_HellTeleporter_TeleStartNeedResearch>
-  <DD_HellTeleporter_TeleStartBaseDesc>启动地狱深潜仪式，使得在深潜神龛影响范围内的殖民地向选定的新地图的指定位置移动，生物、机械、建筑、地面、物品等都会一并被带到新的区域。</DD_HellTeleporter_TeleStartBaseDesc>
-  <DD_HellTeleporter_TeleStartArea>传送面积: {0}x{1} 格</DD_HellTeleporter_TeleStartArea>
-  <DD_HellTeleporter_TeleStartTime>距离: {0} 天/格（大地图）</DD_HellTeleporter_TeleStartTime>
-  <DD_HellTeleporter_TeleStartOnlyCanBuildBase>只能传送到可以建立基地的地图类型</DD_HellTeleporter_TeleStartOnlyCanBuildBase>
-  <DD_HellTeleporter_NotVaildTile>无效目标地点</DD_HellTeleporter_NotVaildTile>
-  <DD_HellTeleporter_NotAllowBase>该地点不允许建立基地</DD_HellTeleporter_NotAllowBase>
-  <DD_HellTeleporter_WarmingMessage>传送预热开始...\n距离: {0} 格\n预计时间: {1} 天</DD_HellTeleporter_WarmingMessage>
-  <DD_HellTeleporter_NotVaildTarget>无效的传送目标</DD_HellTeleporter_NotVaildTarget>
-  <DD_HellTeleporter_SpawnMapFail>无法生成目标地图</DD_HellTeleporter_SpawnMapFail>
-  <Designator_TeleportLabel>选择传送到达点</Designator_TeleportLabel>
-  <Designator_TeleportDesc>在地图上选择一个位置作为传送到达点</Designator_TeleportDesc>
-  <Designator_TeleportOutofRange>位置超出地图边界</Designator_TeleportOutofRange>
-  <Designator_TeleportCloseToRange>位置过于靠近地图边缘</Designator_TeleportCloseToRange>
-  <Designator_TeleportFogCoverd>位置被战争迷雾覆盖</Designator_TeleportFogCoverd>
-  <Designator_TeleportBlockByBuilding>位置被不可摧毁的建筑 '{0}' 阻挡</Designator_TeleportBlockByBuilding>
-  <Designator_TeleportImpassable>地形不可通行</Designator_TeleportImpassable>
-  <DD_ConfirmTeleport>确认目标地点</DD_ConfirmTeleport>
-  <DD_ConfirmTeleportDesc>锁定目标地点，开始发起地狱深潜</DD_ConfirmTeleportDesc>
-  <DD_MoveMarker>移动标记</DD_MoveMarker>
-  <DD_MoveMarkerDesc>移动标记，以重新设置传送目的地</DD_MoveMarkerDesc>
+  <DD_HellTeleporter_Willfinish>도약 완료 임박... ({0} %)</DD_HellTeleporter_Willfinish>
+  <DD_HellTeleporter_Daysleft>도약 남은 시간: {0}일</DD_HellTeleporter_Daysleft>
+  <DD_HellTeleporter_TeleCancelDesc>진행 중인 심층 도약을 취소합니다. 주의: 지옥에서 강제로 이탈하더라도 그 영향은 한동안 지속될 것입니다!\n진행도: {0}%\n남은 시간: {1}일</DD_HellTeleporter_TeleCancelDesc>
+  <DD_HellTeleporter_TeleCancelStatue>현재 상태: {0}</DD_HellTeleporter_TeleCancelStatue>
+  <DD_HellTeleporter_TeleCancel>지옥 심층 도약 취소</DD_HellTeleporter_TeleCancel>
+  <DD_HellTeleporter_TeleCancelRemoveMark>도약을 취소하고 목적지 표식을 제거합니다</DD_HellTeleporter_TeleCancelRemoveMark>
+  <DD_HellTeleporter_TeleStart>지옥 심층 도약 시작</DD_HellTeleporter_TeleStart>
+  <DD_HellTeleporter_TeleStartNeedResearch>연구 필요: {0}</DD_HellTeleporter_TeleStartNeedResearch>
+  <DD_HellTeleporter_TeleStartBaseDesc>지옥 심층 도약 의식을 시작하여, 도약 성소 영향권 내의 정착지를 선택한 새 지도의 지정된 위치로 이동시킵니다. 생물, 기계, 건축물, 지형, 아이템 등이 모두 함께 새로운 구역으로 전송됩니다.</DD_HellTeleporter_TeleStartBaseDesc>
+  <DD_HellTeleporter_TeleStartArea>전송 면적: {0}x{1} 칸</DD_HellTeleporter_TeleStartArea>
+  <DD_HellTeleporter_TeleStartTime>거리: 칸당 {0}일 (세계지도)</DD_HellTeleporter_TeleStartTime>
+  <DD_HellTeleporter_TeleStartOnlyCanBuildBase>기지를 건설할 수 있는 유형의 지도로만 전송할 수 있습니다</DD_HellTeleporter_TeleStartOnlyCanBuildBase>
+  <DD_HellTeleporter_NotVaildTile>유효하지 않은 목표 지점입니다</DD_HellTeleporter_NotVaildTile>
+  <DD_HellTeleporter_NotAllowBase>해당 지점에는 기지를 건설할 수 없습니다</DD_HellTeleporter_NotAllowBase>
+  <DD_HellTeleporter_WarmingMessage>전송 예열 시작...\n거리: {0} 칸\n예상 시간: {1} 일</DD_HellTeleporter_WarmingMessage>
+  <DD_HellTeleporter_NotVaildTarget>유효하지 않은 전송 목표입니다</DD_HellTeleporter_NotVaildTarget>
+  <DD_HellTeleporter_SpawnMapFail>목표 지도를 생성할 수 없습니다</DD_HellTeleporter_SpawnMapFail>
+  <Designator_TeleportLabel>전송 도착점 선택</Designator_TeleportLabel>
+  <Designator_TeleportDesc>지도 상에서 전송될 도착 지점을 선택합니다</Designator_TeleportDesc>
+  <Designator_TeleportOutofRange>위치가 지도 경계를 벗어났습니다</Designator_TeleportOutofRange>
+  <Designator_TeleportCloseToRange>위치가 지도 가장자리와 너무 가깝습니다</Designator_TeleportCloseToRange>
+  <Designator_TeleportFogCoverd>위치가 안개로 가려져 있습니다</Designator_TeleportFogCoverd>
+  <Designator_TeleportBlockByBuilding>건축물 '{0}'(이)가 위치를 가로막고 있습니다</Designator_TeleportBlockByBuilding>
+  <Designator_TeleportImpassable>통행 불가능한 지형입니다</Designator_TeleportImpassable>
+  <DD_ConfirmTeleport>목표 지점 확인</DD_ConfirmTeleport>
+  <DD_ConfirmTeleportDesc>목표 지점을 고정하고 지옥 심층 도약을 개시합니다</DD_ConfirmTeleportDesc>
+  <DD_MoveMarker>표식 이동</DD_MoveMarker>
+  <DD_MoveMarkerDesc>표식을 이동하여 전송 목적지를 재설정합니다</DD_MoveMarkerDesc>
 </LanguageData>
