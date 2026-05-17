@@ -65,11 +65,19 @@
   <MiliraImperiumTurret_Disruptor.label>"별자리" 위상 교란기</MiliraImperiumTurret_Disruptor.label>
   <MiliraImperiumTurret_Disruptor.description>밀리라 제국에서 널리 사용하는 중형 함포로, 주로 중단거리에서 소형 군함을 요격하기 위해 설계되었습니다. 단일 밀리라 전함에는 보통 수백 개의 이러한 포탑이 장착되어 암흑 초월공학 전함에 효과적인 제압 사격을 가합니다.\n\n이 포탑은 피해 감소 계수를 무시할 수 있는 교란 광선을 발사합니다.</MiliraImperiumTurret_Disruptor.description>
   <MiliraBullet_Disruptor.label>플라즈마 탄환</MiliraBullet_Disruptor.label>
-  <MiliraTurretGun_Disruptor.label>중형 플라즈마포</MiliraTurretGun_Disruptor.label>
+  <MiliraTurretGun_Disruptor.label>대형 플라즈마포</MiliraTurretGun_Disruptor.label>
   <MiliraTurretGun_Disruptor.description>고정 포탑에 장착된 중형 화포입니다.</MiliraTurretGun_Disruptor.description>
 
   <MiliraImperiumTurret_MissileLauncher.label>"별빛" 미사일 발사기</MiliraImperiumTurret_MissileLauncher.label>
   <MiliraImperiumTurret_MissileLauncher.description>함선 탑재용 군집 미사일 클러스터 내의 단일 발사 유닛 역할을 하는 소형 미사일 발사기입니다.\n\n능동 레이더 유도 미사일을 발사합니다. 미사일은 불안정한 중성자 군집을 탄두로 사용하며, 대형 표적에 특히 효과적입니다.\n\n(대상의 크기 배율이 n배일 경우 미사일 데미지는 n배가 됩니다. 대상의 크기가 1.0 미만이면 데미지는 1배로 유지됩니다.)</MiliraImperiumTurret_MissileLauncher.description>
+
+  <MI_Building_ArcEmitter.label>"템페스트" 아크 방출기</MI_Building_ArcEmitter.label>
+  <MI_Building_ArcEmitter.description>밀리라 제국 전함의 부무장으로 흔히 사용되는 소형 아크 포탑입니다.\n\n아크는 대상에게 100% 명중하며, 주 타격 대상으로부터 1칸 이내의 적에게는 절반의 피해를 입힙니다. 방어막을 공격할 때, 집중된 아크는 훨씬 더 큰 에너지 고갈을 유발합니다.\n\n아크에 여러 번 적중당한 적은 의식을 잃게 됩니다.\n\n이 포탑이 발사하는 아크는 받는 피해 계수를 무시합니다.</MI_Building_ArcEmitter.description>
+  <MI_Turret_ArcEmitter.label>아크 방출포</MI_Turret_ArcEmitter.label>
+  <MI_Turret_ArcEmitter.description>고정식 포탑에 장착된 중형 화포입니다.</MI_Turret_ArcEmitter.description>
+  <MI_Turret_ArcEmitter.verbs.Verb_Shoot.label>아크 방출포</MI_Turret_ArcEmitter.verbs.Verb_Shoot.label>
+  <MI_Projectile_ArcTurret.label>아크</MI_Projectile_ArcTurret.label>
+
   <MI_Missile_StarLight.label>별빛 미사일</MI_Missile_StarLight.label>
   <MiliraTurretGun_MissileLauncher.label>미사일 발사기</MiliraTurretGun_MissileLauncher.label>
   <MiliraTurretGun_MissileLauncher.description>고정 포탑에 장착된 미사일 발사기입니다.</MiliraTurretGun_MissileLauncher.description>
@@ -134,7 +142,7 @@
   <MI_Thing_ShroudAsh.ingestible.ingestReportString>{0} 흡입 중.</MI_Thing_ShroudAsh.ingestible.ingestReportString>
 
   <MI_Thing_ShroudTea.label>장막 차</MI_Thing_ShroudTea.label>
-  <MI_Thing_ShroudTea.description>극소량의 장막 재를 넣어 우려낸 차로, 마실 때 은은한 라즈베리 향이 납니다.\n\n이 차는 희석 정도가 매우 높아 중독을 일으키지 않습니다.\n\n장막 차를 마시면 장막 가루에 대한 의존증을 해소할 수 있으며, 장막 내에서의 잠재력을 약간 강화할 수 있습니다.</MI_Thing_ShroudTea.description>
+  <MI_Thing_ShroudTea.description>극소량의 장막 재를 넣어 우려낸 차로, 마실 때 은은한 라즈베리 향이 납니다.\n\n이 차는 희석 정도가 매우 높아 중독을 일으키지 않습니다.\n\n장막 차를 마시면 장막 재에 대한 의존증을 해소할 수 있으며, 장막 내에서의 잠재력을 약간 강화할 수 있습니다.</MI_Thing_ShroudTea.description>
   <MI_Thing_ShroudTea.ingestible.ingestCommandString>{0} 마시기</MI_Thing_ShroudTea.ingestible.ingestCommandString>
   <MI_Thing_ShroudTea.ingestible.ingestReportString>{0} 마시는 중.</MI_Thing_ShroudTea.ingestible.ingestReportString>
 
@@ -234,6 +242,16 @@
   <MI_ShipFlyOver_Battleship.label>전함의 그림자</MI_ShipFlyOver_Battleship.label>
   <MI_ShipFlyOver_Destroyer.label>구축함의 그림자</MI_ShipFlyOver_Destroyer.label>
   <MI_ShipFlyOver_MotherShip.label>모선의 그림자</MI_ShipFlyOver_MotherShip.label>
+
+  <Milira_Spear_Pirate.label>밀리라의 천둥창</Milira_Spear_Pirate.label>
+  <Milira_Spear_Pirate.description>밀리라의 창입니다. 사용자는 무기에 새겨진 전투 기술을 사용할 수 있습니다.</Milira_Spear_Pirate.description>
+  <Milira_Spear_Pirate.tools.0.label>창끝</Milira_Spear_Pirate.tools.0.label>
+  <Milira_Spear_Pirate.tools.1.label>창날</Milira_Spear_Pirate.tools.1.label>
+
+  <Milira_Spear_Pirate_Enhanced.label>비렐리아의 창</Milira_Spear_Pirate_Enhanced.label>
+  <Milira_Spear_Pirate_Enhanced.description>밀리라 해적들이 사용하는 강화된 창으로, 다른 세계 밀리라의 고유 기술을 사용할 수 있습니다.\n\n이 무기로 적을 처치하면 사용자의 명상 집중을 충전합니다.</Milira_Spear_Pirate_Enhanced.description>
+  <Milira_Spear_Pirate_Enhanced.tools.0.label>창끝</Milira_Spear_Pirate_Enhanced.tools.0.label>
+  <Milira_Spear_Pirate_Enhanced.tools.1.label>날</Milira_Spear_Pirate_Enhanced.tools.1.label>
 
  <Milira_Arteria.label>아르테리아</Milira_Arteria.label>
   <Milira_Arteria.description>약 천 년 동안 리디아와 함께해 온 월광 대검입니다. 그녀의 가장 소중한 친구에게 받은 선물입니다.\n\n에너지 회로가 고장 난 지 오래되어 더 이상 월광 참격을 날릴 수는 없습니다.\n\n검신을 덮고 있는 암흑 초월공학 입자들이 칼날에 진홍빛 색조를 더해줍니다.\n\n검을 따라 새겨진 비문은 리디아가 여유 시간에 직접 새긴 것입니다.\n\n이 무기의 피해는 '받는 피해 계수'를 무시합니다.\n\n반복된 타격으로 대상에게 충분한 수준의 "예정된 죽음" 수치가 쌓이면, 공허 에너지가 대상에게 즉각적인 죽음을 선사합니다.\n\n죽기를 거부하는 적이라 할지라도, 수치가 더 높아지면 호락스에 의해 소멸될 것입니다.\n\n(물론, 모드 설정에서 이 기능을 비활성화할 수 있습니다. 어쨌든 플레이어인 당신은 이 게임에서 가장 위대한 초월공학 신이니까요.)</Milira_Arteria.description>
@@ -499,11 +517,11 @@
   <Milira_ShadowTacticalGoggles.label>밀리라 고스트 전술 고글</Milira_ShadowTacticalGoggles.label>
   <Milira_ShadowTacticalGoggles.description>섀도우 가드에게 지급되는 경량 전투용 후드입니다. \n\n이 의복 세트는 &lt;color=#7AD77D&gt;근접 전투와 은신 상태 진입&lt;/color&gt;에 특화되어 있습니다.</Milira_ShadowTacticalGoggles.description>
 
-  <Milira_MarinePowerArmor.label>밀리라 해병대 파워 아머</Milira_MarinePowerArmor.label>
-  <Milira_MarinePowerArmor.description>밀리라 제국의 표준 보급형 해병대 파워 아머로, 고전적인 발키리 전투 갑옷을 개량한 모델입니다. \n\n적 함선에 워프하여 강습하는 밀리라 스페이스 마린들을 효과적으로 보호합니다. \n\n이 갑옷은 가장 가혹한 행성 환경도 견뎌낼 수 있습니다. \n\n이 의복 세트는 &lt;color=#7AD77D&gt;사격과 방어&lt;/color&gt;에 특화되어 있습니다.</Milira_MarinePowerArmor.description>
+  <Milira_MarinePowerArmor.label>밀리라 시그룬 파워 아머</Milira_MarinePowerArmor.label>
+  <Milira_MarinePowerArmor.description>밀리라 제국의 표준 보급형 파워 아머로, 고전적인 발키리 전투 갑옷을 개량한 모델입니다. \n\n적 함선에 워프하여 강습하는 밀리라 스페이스 마린들을 효과적으로 보호합니다. \n\n이 갑옷은 가장 가혹한 행성 환경도 견뎌낼 수 있습니다. \n\n이 의복 세트는 &lt;color=#7AD77D&gt;사격과 방어&lt;/color&gt;에 특화되어 있습니다.</Milira_MarinePowerArmor.description>
 
-  <Milira_MarinePowerHelmet.label>밀리라 해병대 파워 헬멧</Milira_MarinePowerHelmet.label>
-  <Milira_MarinePowerHelmet.description>밀리라 제국의 표준 보급형 해병대 파워 헬멧으로, 고전적인 발키리 전투 갑옷을 개량한 모델입니다. \n\n적 함선에 워프하여 강습하는 밀리라 스페이스 마린들을 효과적으로 보호합니다. \n\n이 의복 세트는 &lt;color=#7AD77D&gt;사격과 방어&lt;/color&gt;에 특화되어 있습니다.</Milira_MarinePowerHelmet.description>
+  <Milira_MarinePowerHelmet.label>밀리라 시그룬 파워 헬멧</Milira_MarinePowerHelmet.label>
+  <Milira_MarinePowerHelmet.description>밀리라 제국의 표준 보급형 파워 헬멧으로, 고전적인 발키리 전투 갑옷을 개량한 모델입니다. \n\n적 함선에 워프하여 강습하는 밀리라 스페이스 마린들을 효과적으로 보호합니다. \n\n이 의복 세트는 &lt;color=#7AD77D&gt;사격과 방어&lt;/color&gt;에 특화되어 있습니다.</Milira_MarinePowerHelmet.description>
 
   <Milira_NavalUniform.label>밀리라 셀레네 아머</Milira_NavalUniform.label>
   <Milira_NavalUniform.description>이전 세대의 아르테미스 갑옷을 기반으로 방어력을 개선한 밀리라 제국 해군의 표준 군복입니다. 편안한 착용감과 아름다운 디자인 덕분에 승조원과 장교 모두에게 사랑받고 있습니다. \n\n이 의복 세트는 &lt;color=#7AD77D&gt;밀리라 무기의 에너지 충전 용량&lt;/color&gt;에 특화되어 있습니다.</Milira_NavalUniform.description>
@@ -632,6 +650,8 @@
   <MI_Building_Dresser.description>근처 침대에 안락함 보너스를 주는 서랍장입니다. '발레리 안드레아'가 디자인했습니다.</MI_Building_Dresser.description>
   <MI_Building_Table2x2c.label>밀리라 탁자 (2x2)</MI_Building_Table2x2c.label>
   <MI_Building_Table2x2c.description>밀리라 스타일의 탁자입니다. '발레리 안드레아'가 디자인했습니다.</MI_Building_Table2x2c.description>
+  <MI_Building_Table1x2c.label>밀리라 탁자 (1x2)</MI_Building_Table1x2c.label>
+  <MI_Building_Table1x2c.description>밀리라 스타일의 탁자입니다.</MI_Building_Table1x2c.description>
   <MI_Building_StandingLamp.label>밀리라 식물 전등</MI_Building_StandingLamp.label>
   <MI_Building_StandingLamp.description>햇빛 식물이 들어있는 스탠드입니다. 탁자 위에 놓을 수도 있습니다. '발레리 안드레아'가 디자인했습니다.</MI_Building_StandingLamp.description>
   <MI_Building_FloodLight.label>밀리라 나무 전등</MI_Building_FloodLight.label>
@@ -642,6 +662,8 @@
   <MI_Building_Wardrobe.description>밀리라 양식의 옷장입니다.</MI_Building_Wardrobe.description>
   <MI_Building_WardrobeII.label>밀리라 대형 옷장</MI_Building_WardrobeII.label>
   <MI_Building_WardrobeII.description>밀리라 양식의 대형 옷장입니다.</MI_Building_WardrobeII.description>
+  <MI_Building_Wisteria.label>등나무</MI_Building_Wisteria.label>
+  <MI_Building_Wisteria.description>희미한 보라색 빛을 발산하는 큰 등나무입니다.</MI_Building_Wisteria.description>
   <MI_Building_Stove.label>태양 조리대</MI_Building_Stove.label>
   <MI_Building_Stove.description>태양 수정을 동력으로 사용하는 자가 발전 조리대입니다. 기본 작업 속도가 135%로 아주 빠릅니다. '발레리 안드레아'가 디자인했습니다.</MI_Building_Stove.description>
 
@@ -694,4 +716,12 @@
   <Kiiro_RetroKnightArmor.description>고대 지구의 서양 판타지 게임에서 영감을 받은 디자인입니다. 겉보기에는 구식이고 투박해 보이지만, 사실 전투 컴퓨터와 항독성 장치가 내장된 첨단 파워 아머입니다. 제국에 큰 공을 세운 키이로 전사들만이 이 갑옷을 하사받을 수 있습니다.</Kiiro_RetroKnightArmor.description>
   <Kiiro_RetroKnightHelmet.label>키이로 복고풍 기사 투구</Kiiro_RetroKnightHelmet.label>
   <Kiiro_RetroKnightHelmet.description>판타지 게임에서 등장할 법한 구식 외형이지만, 전용 갑옷과 함께 착용하면 매우 뛰어난 방어 성능을 발휘합니다.</Kiiro_RetroKnightHelmet.description>
+<Kiiro_MarinePowerArmor.label>키이로 시그룬 파워 아머</Kiiro_MarinePowerArmor.label>
+  <Kiiro_MarinePowerArmor.description>전설적인 발키리 전투 갑옷을 개량한 밀리라 제국 표준 파워 아머입니다.\n\n워프를 통해 적함에 직접 돌입하는 키이로 우주 해병대를 효과적으로 보호합니다.\n\n이 갑옷은 가장 가혹한 행성 환경에서도 견뎌낼 수 있습니다.\n\n이 장비 세트는 &lt;color=#7AD77D&gt;사격과 방어&lt;/color&gt;에 특화되어 있습니다.</Kiiro_MarinePowerArmor.description>
+  <Kiiro_MarinePowerHelmet.label>키이로 시그룬 전투 모듈</Kiiro_MarinePowerHelmet.label>
+  <Kiiro_MarinePowerHelmet.description>밀리라 제국 표준 전술 모듈입니다.\n\n워프를 통해 적함에 직접 돌입하는 키이로 우주 해병대를 효과적으로 보호합니다.\n\n이 장비 세트는 &lt;color=#7AD77D&gt;사격과 방어&lt;/color&gt;에 특화되어 있습니다.</Kiiro_MarinePowerHelmet.description>
+  <Kiiro_ShadowCombatSuit.label>키이로 고스트 전투복</Kiiro_ShadowCombatSuit.label>
+  <Kiiro_ShadowCombatSuit.description>그림자 경비대에게 지급되는 경량 전투복입니다. 최소한의 무게에도 불구하고, 덩치 큰 파워 아머와 맞먹는 성능을 자랑합니다.\n\n스텔스 필드 발생기가 통합되어 있습니다.\n\n이 장비 세트는 &lt;color=#7AD77D&gt;근접전과 은신&lt;/color&gt;에 특화되어 있습니다.</Kiiro_ShadowCombatSuit.description>
+  <Kiiro_ShadowTacticalGoggles.label>키이로 시그룬 전투 모듈</Kiiro_ShadowTacticalGoggles.label>
+  <Kiiro_ShadowTacticalGoggles.description>밀리라 제국 표준 전술 모듈입니다.\n\n워프를 통해 적함에 직접 돌입하는 키이로 우주 해병대를 효과적으로 보호합니다.\n\n이 장비 세트는 &lt;color=#7AD77D&gt;사격과 방어&lt;/color&gt;에 특화되어 있습니다.</Kiiro_ShadowTacticalGoggles.description>
 </LanguageData>
