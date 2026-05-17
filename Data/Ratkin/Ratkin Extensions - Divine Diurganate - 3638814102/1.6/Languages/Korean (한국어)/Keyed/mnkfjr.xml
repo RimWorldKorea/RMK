@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <DD_Mech>机甲</DD_Mech>
+  <DD_CannotDraftWithoutPilot>机甲无法在没有驾驶员的情况下活动！</DD_CannotDraftWithoutPilot>
+  <DD_NoPilot>该机甲无驾驶员</DD_NoPilot>
+  <DD_NoPilotShort>无驾驶员</DD_NoPilotShort>
+  <DD_PilotEnteredMech>{0} 已经进入 {1}</DD_PilotEnteredMech>
+  <DD_PilotExitedMech>{0} 已经从 {1} 离开</DD_PilotExitedMech>
+  <DD_SummonPilot>征召驾驶员···</DD_SummonPilot>
+  <DD_SummonPilotDesc>指定一名驾驶员进入机甲</DD_SummonPilotDesc>
+  <DD_EjectAllPilots>离开机甲</DD_EjectAllPilots>
+  <DD_EjectAllPilotsDesc>让该机甲的驾驶员离开机甲</DD_EjectAllPilotsDesc>
+  <DD_NoAvailablePilots>没有可以作为机甲驾驶员的殖民者</DD_NoAvailablePilots>
+  <DD_Equipment_For_Other_Mech>此装备不能由此机甲使用</DD_Equipment_For_Other_Mech>
+  <DD_Equipment_Not_Allow_For_Mech>此装备不是为机甲设计的</DD_Equipment_Not_Allow_For_Mech>
+  <DD_Human_Cannot_Equip_Mech_Weapon>此装备是专为机甲设计的，非机甲单位无法装备</DD_Human_Cannot_Equip_Mech_Weapon>
+
+  <DD_Startup>机甲重新启动</DD_Startup>
+  <DD_NoColonistAvailable>没有可以执行操作的殖民者</DD_NoColonistAvailable>
+  <DD_NoFuelAvailable>没有可用的 {0} 用于加注燃料</DD_NoFuelAvailable>
+  <DD_OrderedRefuel>已下令 {0} 对 {1} 紧急加注燃料</DD_OrderedRefuel>
+  <DD_RefuelNow>紧急加注</DD_RefuelNow>
+  <DD_RefuelNowDesc>命令最近的殖民者为此机甲进行紧急的燃料加注</DD_RefuelNowDesc>
+  <DD_CannotRefuelNow>现在不能加注燃料</DD_CannotRefuelNow>
+  <DD_Fuel>{0}</DD_Fuel>
+  <DD_MechFuel>燃料</DD_MechFuel>
+
+  <DD_ForceRepair>紧急维修</DD_ForceRepair>
+  <DD_ForceRepairDesc>命令最近的殖民者为此机甲进行紧急的维修</DD_ForceRepairDesc>
+  <DD_CannotRepairNow>现在无法维修</DD_CannotRepairNow>
+  <DD_OrderedRepair>已下令 {0} 对 {1} 进行紧急维修</DD_OrderedRepair>
+  <DD_NeedsRepair>需要维修</DD_NeedsRepair>
+
+  <DD_MechSkills>属性</DD_MechSkills>
+  <DD_NoMechSkillComps>此单位没有技能继承系统</DD_NoMechSkillComps>
+  <DD_PilotTitle>驾驶员信息</DD_PilotTitle>
+  <DD_PilotInfo>当前驾驶员 : {0}</DD_PilotInfo>
+  <DD_MechInitSkill>机甲固有</DD_MechInitSkill>
+  <DD_MechSkill_From>继承自: {0} ({1}级)</DD_MechSkill_From>
+  <DD_MechNoSkill>无技能等级</DD_MechNoSkill>
+  <DD_BlockByMechArmor>伤害抵挡</DD_BlockByMechArmor>
+  <DD_Operational>正常</DD_Operational>
+
+  <DD_ImmuneToDamage>伤害免疫！</DD_ImmuneToDamage>
+  
+  <DD_EnterMech>进入 {0}</DD_EnterMech>
+  <DD_MechFull>机甲驾驶员位置已满</DD_MechFull>
+  <DD_CannotBecomePilot>不能成为该机甲的驾驶员</DD_CannotBecomePilot>
+  <DD_MechTooDamagedForEntry>该机甲损坏严重无法进入</DD_MechTooDamagedForEntry>
+  <DD_DisabledColonistRequiresCarry>（需要协助）</DD_DisabledColonistRequiresCarry>
+  <DD_NoAvailableCarrier>没有可用的协助者</DD_NoAvailableCarrier>
+  <DD_CarrierAssigned>已指派 {0} 协助 {1} 进入机甲</DD_CarrierAssigned>
+
+  <DD_PilotsEjectedDueToLowHealth>{0}的损伤过于严重，驾驶员已被保险系统弹出</DD_PilotsEjectedDueToLowHealth>
+
+  <DD_ForceEjectPilot>撬开 {0}</DD_ForceEjectPilot>
+  <DD_AlreadyPlayerMech>不能撬开本来就属于殖民地的机甲</DD_AlreadyPlayerMech>
+  <DD_MechNotDowned>该机甲仍有行动能力</DD_MechNotDowned>
+  <DD_ForceEjectComplete_WithPilots>{0} 撬开了 {1}，里面仍活着的 {2} 个驾驶员冲出来了！</DD_ForceEjectComplete_WithPilots>
+  <DD_ForceEjectComplete>{0} 撬开了 {1}，并接管了它。</DD_ForceEjectComplete>
+
+  <DD_TargetDoesNotNeedHealing>目标不需要治疗</DD_TargetDoesNotNeedHealing>
+  <DD_HolyHealing_GayRevelation>{0} 变成女同了！</DD_HolyHealing_GayRevelation>
+  <DD_SelectTradeFlyover>选择飞跃商人</DD_SelectTradeFlyover>
+  <DD_Select>选择</DD_Select>
+  <DD_FlyoverProgress>进度：{0}%</DD_FlyoverProgress>
+
+  <DD_GizmoTradeWithFlyoverLabel>与飞艇交易</DD_GizmoTradeWithFlyoverLabel>
+  <DD_GizmoTradeWithFlyoverDesc>选择一个飞艇开始交易。</DD_GizmoTradeWithFlyoverDesc>
+  <DD_NoTradeFlyoversAvailable>没有可交易的飞艇</DD_NoTradeFlyoversAvailable>
+  <DD_NoNegotiatorAvailable>没有可用的谈判者</DD_NoNegotiatorAvailable>
+  <DD_FlyoverNoLongerAvailable>飞艇已无法交易</DD_FlyoverNoLongerAvailable>
+  <DD_TradeFlyoversAvailable>可交易飞艇：{0}</DD_TradeFlyoversAvailable>
+
+  <DD_Flyover_NoAircraft>无待命的飞行器</DD_Flyover_NoAircraft>
+  <DD_Flyover_Icon>图标</DD_Flyover_Icon>
+  <DD_Flyover_SkillSlot>{0}</DD_Flyover_SkillSlot>
+  <DD_Flyover_Dock>停靠</DD_Flyover_Dock>
+  <DD_Flyover_Deploy>部署</DD_Flyover_Deploy>
+  <DD_Flyover_Dock_Tooltip>停靠tooltip</DD_Flyover_Dock_Tooltip>
+  <DD_Flyover_Deploy_Tooltip>部署tooltip</DD_Flyover_Deploy_Tooltip>
+  <DD_Flyover_Title>双尾教国飞行器</DD_Flyover_Title>
+  <DD_Flyover_Status_OnMap>已部署</DD_Flyover_Status_OnMap>
+  <DD_Flyover_Status_Standby>就绪</DD_Flyover_Status_Standby>
+  <DD_Flyover_Status_Deploying>部署中</DD_Flyover_Status_Deploying>
+  <DD_Flyover_Status_Destroyed>销毁</DD_Flyover_Status_Destroyed>
+  <DD_Flyover_Status_Unknown>未知</DD_Flyover_Status_Unknown>
+  <DD_Flyover_SkillSlotEmpty>无行动</DD_Flyover_SkillSlotEmpty>
+  <DD_Flyover_SkillSlot>行动</DD_Flyover_SkillSlot>
+  <DD_Flyover_Cooldown>冷却中</DD_Flyover_Cooldown>
+  <DD_Flyover_Uses>弹药使用</DD_Flyover_Uses>
+
+  <DD_FlyoverSkillUnavailable>行动不可用</DD_FlyoverSkillUnavailable>
+  <DD_FlyoverSkillMaxLimit>行动已经达到使用上限（{0} / {1}）</DD_FlyoverSkillMaxLimit>
+  <DD_FlyoverSkillCooldown>行动仍在冷却（{0}秒）</DD_FlyoverSkillCooldown>
+  <DD_FlyoverSkillZeroCooldown>该行动无冷却时间</DD_FlyoverSkillZeroCooldown>
+  <DD_FlyoverSkillReady>准备就绪</DD_FlyoverSkillReady>
+  <DD_FlyoverSkillCooldown>行动冷却时间：{0}秒</DD_FlyoverSkillCooldown>
+  <DD_FlyoverSkillNoMap>不位于地图内</DD_FlyoverSkillNoMap>
+  <DD_FlyoverSkilPointNotInBounds>选择的点必须位于地图边界内</DD_FlyoverSkilPointNotInBounds>
+  <DD_FlyoverSkilPointsDifferent>两个点必须不在同一单元格</DD_FlyoverSkilPointsDifferent>
+    
+  <DD_FlyoverSkillFailed>行动执行失败</DD_FlyoverSkillFailed>
+  <DD_FlyoverSkillNoAircraftData>未找到飞行器数据</DD_FlyoverSkillNoAircraftData>
+  <DD_FlyoverSkillAircraftDestroyed>飞行器已被摧毁</DD_FlyoverSkillAircraftDestroyed>
+  <DD_FlyoverSkillCannotUseOnMap>飞行器在地图上时不能使用此行动</DD_FlyoverSkillCannotUseOnMap>
+  <DD_FlyoverSkillCannotUseStandby>飞行器待命时不能使用此行动</DD_FlyoverSkillCannotUseStandby>
+
+  <DD_FlyoverSkillSkyfallerWarmup>{0} 准备中，剩余时间：{1}</DD_FlyoverSkillSkyfallerWarmup>
+  <DD_FlyoverSkillSkyfallerDropped>已投放 {0}</DD_FlyoverSkillSkyfallerDropped>
+  <DD_FlyoverSkillNoSkyfaller>未定义Skyfaller</DD_FlyoverSkillNoSkyfaller>
+  <DD_FlyoverSkillSpawnFailed>生成失败</DD_FlyoverSkillSpawnFailed>
+  <DD_FlyoverSkillWarmingUp>准备中：{0}</DD_FlyoverSkillWarmingUp>
+  <DD_FlyoverSkillSkyfallerDesc>投放一个 {0}</DD_FlyoverSkillSkyfallerDesc>
+  <DD_FlyoverSkillSkyfallerGeneric>投放一个Skyfaller</DD_FlyoverSkillSkyfallerGeneric>
+
+  <DD_FlyoverSkillBombardmentSelectPoints>选择两个点以定义轰炸区域和方向</DD_FlyoverSkillBombardmentSelectPoints>
+  <DD_FlyoverSkillBombardment>轰炸</DD_FlyoverSkillBombardment>
+  <DD_FlyoverSkillBombardmentDescription>呼叫一次炮击轰炸。选择两个点来定义轰炸区域和方向。</DD_FlyoverSkillBombardmentDescription>
+
+  <DD_Flyover_Land>降落</DD_Flyover_Land>
+  <DD_Flyover_Land_Tooltip>让 {0} 降落</DD_Flyover_Land_Tooltip>
+  <DD_Flyover_Landing>{0} 正在降落</DD_Flyover_Landing>
+  <DD_Flyover_ReEnter>重新入场</DD_Flyover_ReEnter>
+  <DD_Flyover_ReEnter_Tooltip>让 {0} 重新进入地图</DD_Flyover_ReEnter_Tooltip>
+  <DD_Flyover_SelectFirstPoint>选择进入方向</DD_Flyover_SelectFirstPoint>
+  <DD_Flyover_SelectSecondPoint>选择航线</DD_Flyover_SelectSecondPoint>
+  <DD_Flyover_PointOutOfBounds>选择的点必须在地图边界内</DD_Flyover_PointOutOfBounds>
+  <DD_Flyover_PointsSame>两个点不能相同</DD_Flyover_PointsSame>
+  <DD_Flyover_FailedCalculatePath>无法计算飞行路径</DD_Flyover_FailedCalculatePath>
+  <DD_Flyover_ReEnterSuccess>{0} 重新入场成功</DD_Flyover_ReEnterSuccess>
+  <DD_Flyover_FailedCreate>创建飞行器失败</DD_Flyover_FailedCreate>
+  <DD_Flyover_NoMap>当前没有地图</DD_Flyover_NoMap>
+  <DD_Flyover_Docking>{0} 正在停靠</DD_Flyover_Docking>
+  <DD_Flyover_Deploying>{0} 正在部署</DD_Flyover_Deploying>
+  <DD_Flyover_Destroyed>已销毁</DD_Flyover_Destroyed>
+  <DD_Flyover_Icon>图标</DD_Flyover_Icon>
+  <DD_Flyover_NoAvailablePawn>附近没有合适的未征召殖民者</DD_Flyover_NoAvailablePawn>
+  <DD_Flyover_CancelCallJob>取消呼叫</DD_Flyover_CancelCallJob>
+  <DD_Flyover_CancelCallJobDesc>取消当前的任务，结束飞行器呼叫</DD_Flyover_CancelCallJobDesc>
+
+  <DD_Flyover_Manager>飞行器管理</DD_Flyover_Manager>
+  <DD_Flyover_ManagerDesc>打开飞行器管理面板，查看和管理当前的飞行器</DD_Flyover_ManagerDesc>
+
+  <DD_Flyover_Status_InAir>飞行中</DD_Flyover_Status_InAir>
+  <DD_Flyover_Status_Standby>待命</DD_Flyover_Status_Standby>
+  <DD_Flyover_Status_Deploying>部署中</DD_Flyover_Status_Deploying>
+  <DD_Flyover_Status_Destroyed>已销毁</DD_Flyover_Status_Destroyed>
+  <DD_Flyover_Status_Unknown>未知</DD_Flyover_Status_Unknown>
+  <!-- 航线信息相关 -->
+  <DD_FlightPath_TwoPointsExtended_DisplayName>两点延长线航线</DD_FlightPath_TwoPointsExtended_DisplayName>
+  <DD_FlightPath_TwoPointsExtended_Description>通过将两个选定的点延伸到地图边界来创建飞行路径</DD_FlightPath_TwoPointsExtended_Description>
+  <DD_FlightPath_Direct_DisplayName>直接航线</DD_FlightPath_Direct_DisplayName>
+  <DD_FlightPath_Direct_Description>直接指定起点和终点</DD_FlightPath_Direct_Description>
+  <DD_FlightPath_PointsDifferent>两个点必须不同</DD_FlightPath_PointsDifferent>
+  <DD_FlightPath_StartEndDifferent>起点和终点必须不同</DD_FlightPath_StartEndDifferent>
+
+  <DD_FlyoverSkill_SinglePointSelectMessage>为 {0} 选择目标</DD_FlyoverSkill_SinglePointSelectMessage>
+  <DD_FlyoverSkill_TwoPointsFirstMessage>为 {0} 选择第一个点</DD_FlyoverSkill_TwoPointsFirstMessage>
+  <DD_FlyoverSkill_TwoPointsSecondMessage>为 {0} 选择第二个点</DD_FlyoverSkill_TwoPointsSecondMessage>
+  <DD_FlyoverSkill_InstantCastMessage>在飞机位置使用 {0}</DD_FlyoverSkill_InstantCastMessage>
+
+  <DD_FlyoverSkill_Seconds>{0}秒</DD_FlyoverSkill_Seconds>
+  <DD_FlyoverSkill_TicksToSeconds>{0}</DD_FlyoverSkill_TicksToSeconds>
+  
+  <!-- 飞机呼叫工作相关 -->
+  <DD_CallFlyOver>呼叫飞行器</DD_CallFlyOver>
+  <DD_Flyover_FailedAssignJob>分配呼叫工作失败</DD_Flyover_FailedAssignJob>
+  <DD_Flyover_PawnAssigned>{0} 开始呼叫</DD_Flyover_PawnAssigned>
+  <DD_Flyover_OnCooldown>正在冷却，剩余{0}</DD_Flyover_OnCooldown>
+  <DD_Gizmo_Title>信仰系统</DD_Gizmo_Title>
+  <DD_Gizmo_RecoveryRate>+{0}/天</DD_Gizmo_RecoveryRate>
+  
+  <!-- 基础工具提示 -->
+  <DD_Gizmo_BaseTitle>信仰与祈愿系统</DD_Gizmo_BaseTitle>
+  <DD_Gizmo_HoverHint>将鼠标悬停在每个条上查看详细信息。</DD_Gizmo_HoverHint>
+  <DD_Gizmo_FaithDesc>信仰：追随者的长期虔诚</DD_Gizmo_FaithDesc>
+  <DD_Gizmo_WishDesc>祈愿：每日恢复的短期狂热</DD_Gizmo_WishDesc>
+  <DD_Gizmo_CurrentLeader>当前领袖：{0}</DD_Gizmo_CurrentLeader>
+  
+  <!-- 调试信息 -->
+  <DD_Gizmo_DebugHeader>--- 调试信息 ---</DD_Gizmo_DebugHeader>
+  <DD_Gizmo_DebugSystemActive>系统激活：{0}</DD_Gizmo_DebugSystemActive>
+  <DD_Gizmo_DebugFollowers>信徒数量：{0}</DD_Gizmo_DebugFollowers>
+  
+  <!-- 信仰条悬浮提示 -->
+  <DD_FaithTooltip_Title>信仰</DD_FaithTooltip_Title>
+  <DD_FaithTooltip_Current>当前：{0} / {1}</DD_FaithTooltip_Current>
+  <DD_FaithTooltip_Percent>百分比：{0}</DD_FaithTooltip_Percent>
+  <DD_FaithTooltip_Factors>影响因素：</DD_FaithTooltip_Factors>
+  <DD_FaithTooltip_Followers>• 信徒：{0}</DD_FaithTooltip_Followers>
+  <DD_FaithTooltip_FollowerCapacity>    - 每个信徒最大信仰值：100</DD_FaithTooltip_FollowerCapacity>
+  <DD_FaithTooltip_TotalCapacity>    - 总容量：{0}</DD_FaithTooltip_TotalCapacity>
+  <DD_FaithTooltip_Leader>• 领袖：{0}</DD_FaithTooltip_Leader>
+  <DD_FaithTooltip_Health>    - 健康度：{0}</DD_FaithTooltip_Health>
+  <DD_FaithTooltip_Mood>    - 心情：{0}</DD_FaithTooltip_Mood>
+  <DD_FaithTooltip_MoodPenalty>      (心情惩罚可能生效)</DD_FaithTooltip_MoodPenalty>
+  <DD_FaithTooltip_Description>描述：</DD_FaithTooltip_Description>
+  <DD_FaithTooltip_DescriptionText>信仰代表追随者的集体信仰和虔诚。它可以用于执行强大的仪式和增强殖民地活动。</DD_FaithTooltip_DescriptionText>
+  
+  <!-- 祈愿条悬浮提示 -->
+  <DD_WishTooltip_Title>祈愿</DD_WishTooltip_Title>
+  <DD_WishTooltip_Current>当前：{0} / {1}</DD_WishTooltip_Current>
+  <DD_WishTooltip_Percent>百分比：{0}</DD_WishTooltip_Percent>
+  <DD_WishTooltip_Recovery>恢复速率：{0}/天</DD_WishTooltip_Recovery>
+  <DD_WishTooltip_Factors>影响因素：</DD_WishTooltip_Factors>
+  <DD_WishTooltip_Capacity>• 容量：{0}</DD_WishTooltip_Capacity>
+  <DD_WishTooltip_CapacityExplanation>    - 等于剩余信仰容量</DD_WishTooltip_CapacityExplanation>
+  <DD_WishTooltip_MaxFaith>    - 最大信仰值：{0}</DD_WishTooltip_MaxFaith>
+  <DD_WishTooltip_CurrentFaith>    - 当前信仰值：{0}</DD_WishTooltip_CurrentFaith>
+  <DD_WishTooltip_RecoveryRate>• 恢复速率：{0}/天</DD_WishTooltip_RecoveryRate>
+  <DD_WishTooltip_BaseRate>    - 基础速率：10.0/天</DD_WishTooltip_BaseRate>
+  <DD_WishTooltip_HealthPenalty>    - 健康惩罚：{0} × 2</DD_WishTooltip_HealthPenalty>
+  <DD_WishTooltip_MoodPenalty>    - 心情惩罚：×0.5</DD_WishTooltip_MoodPenalty>
+  <DD_WishTooltip_MoodBonus>    - 心情加成：×1.5</DD_WishTooltip_MoodBonus>
+  <DD_WishTooltip_FollowersBonus>    - 信徒加成：+{0} × 0.5</DD_WishTooltip_FollowersBonus>
+  <DD_WishTooltip_TimeToFull>    - 充满时间：{0} 小时</DD_WishTooltip_TimeToFull>
+  <DD_WishTooltip_Description>描述：</DD_WishTooltip_Description>
+  <DD_WishTooltip_DescriptionText>祈愿代表追随者的瞬时狂热和即时虔诚。它随时间自然恢复，可用于快速、暂时的祝福。祈愿容量受剩余信仰容量限制。</DD_WishTooltip_DescriptionText>
+
+  <!-- Hediff抽卡系统 -->
+  <DD_HediffGacha_Title>选择一个效果</DD_HediffGacha_Title>
+  <DD_HediffGacha_TargetInfo>目标：{0}</DD_HediffGacha_TargetInfo>
+  <DD_HediffGacha_Select>选择</DD_HediffGacha_Select>
+  <DD_HediffGacha_Selected>{0} 获得了 {1}</DD_HediffGacha_Selected>
+  <DD_HediffGacha_Hint>点击卡片下方的按钮选择一个效果</DD_HediffGacha_Hint>
+  <DD_HediffGacha_HintWithCancel>点击卡片下方的按钮选择一个效果，或按ESC取消</DD_HediffGacha_HintWithCancel>
+  <DD_HediffGacha_NeedPawnTarget>需要选择一个目标角色</DD_HediffGacha_NeedPawnTarget>
+  <DD_HediffGacha_EmptyPool>Hediff池为空，无法使用此技能</DD_HediffGacha_EmptyPool>
+
+  <!-- 自适应护盾系统 -->
+  <DD_Shield_Activated>护盾激活</DD_Shield_Activated>
+  <DD_Shield_Blocked>格挡 {0} 伤害</DD_Shield_Blocked>
+  <DD_Shield_Penetrated>穿透！({0}>{1}) 阈值提升至 {2}</DD_Shield_Penetrated>
+  <DD_Shield_Status>伤害阈值: {0}\n格挡次数: {1}\n穿透次数: {2}</DD_Shield_Status>
+  <DD_Lantern_Shield_ActivatedMessage>{0} 点燃了提灯</DD_Lantern_Shield_ActivatedMessage>
+  <DD_Lantern_Shield_DeactivatedMessage>{0} 的提灯熄灭了</DD_Lantern_Shield_DeactivatedMessage>
+  <DD_Shield_NoHediffConfigured>技能配置错误：未指定护盾Hediff</DD_Shield_NoHediffConfigured>
+  <DD_Shield_CurrentState>护盾状态: {0}</DD_Shield_CurrentState>
+  <DD_Shield_On>开启</DD_Shield_On>
+  <DD_Shield_Off>关闭</DD_Shield_Off>
+
+  <DD_MyCustomGacha_Title>提灯改造</DD_MyCustomGacha_Title>
+  <DD_Upgrade_Lantern_Selected>提灯改造完成！</DD_Upgrade_Lantern_Selected>
+
+  <DD_ShowWeatherShelter>显示庇护区域</DD_ShowWeatherShelter>
+  <DD_ShowWeatherShelter_Desc>高亮显示当前庇护区域，当启动地狱深潜时，受到庇护的区域不会被地狱的火焰、岩浆、陨石吞噬，地狱军团也不能直接出现在庇护区域内。</DD_ShowWeatherShelter_Desc>
+
+  <DD_HellTeleporter_Willfinish>深潜即将完成... ({0} %)</DD_HellTeleporter_Willfinish>
+  <DD_HellTeleporter_Daysleft>深潜剩余时间: {0}天</DD_HellTeleporter_Daysleft>
+  <DD_HellTeleporter_TeleCancelDesc>取消正在进行的深潜。注意：即使强行从地狱中脱离，其造成的影响依然会持续一段时间！\n进度: {0}%\n剩余时间: {1}天</DD_HellTeleporter_TeleCancelDesc>
+  <DD_HellTeleporter_TeleCancelStatue>当前状态: {0}</DD_HellTeleporter_TeleCancelStatue>
+  <DD_HellTeleporter_TeleCancel>取消地狱深潜</DD_HellTeleporter_TeleCancel>
+  <DD_HellTeleporter_TeleCancelRemoveMark>取消地狱深潜，并移除目的地标记</DD_HellTeleporter_TeleCancelRemoveMark>
+  <DD_HellTeleporter_TeleStart>启动地狱深潜</DD_HellTeleporter_TeleStart>
+  <DD_HellTeleporter_TeleStartNeedResearch>需要研究: {0}</DD_HellTeleporter_TeleStartNeedResearch>
+  <DD_HellTeleporter_TeleStartBaseDesc>启动地狱深潜仪式，使得在深潜神龛影响范围内的殖民地向选定的新地图的指定位置移动，生物、机械、建筑、地面、物品等都会一并被带到新的区域。</DD_HellTeleporter_TeleStartBaseDesc>
+  <DD_HellTeleporter_TeleStartArea>传送面积: {0}x{1} 格</DD_HellTeleporter_TeleStartArea>
+  <DD_HellTeleporter_TeleStartTime>距离: {0} 天/格（大地图）</DD_HellTeleporter_TeleStartTime>
+  <DD_HellTeleporter_TeleStartOnlyCanBuildBase>只能传送到可以建立基地的地图类型</DD_HellTeleporter_TeleStartOnlyCanBuildBase>
+  <DD_HellTeleporter_NotVaildTile>无效目标地点</DD_HellTeleporter_NotVaildTile>
+  <DD_HellTeleporter_NotAllowBase>该地点不允许建立基地</DD_HellTeleporter_NotAllowBase>
+  <DD_HellTeleporter_WarmingMessage>传送预热开始...\n距离: {0} 格\n预计时间: {1} 天</DD_HellTeleporter_WarmingMessage>
+  <DD_HellTeleporter_NotVaildTarget>无效的传送目标</DD_HellTeleporter_NotVaildTarget>
+  <DD_HellTeleporter_SpawnMapFail>无法生成目标地图</DD_HellTeleporter_SpawnMapFail>
+  <Designator_TeleportLabel>选择传送到达点</Designator_TeleportLabel>
+  <Designator_TeleportDesc>在地图上选择一个位置作为传送到达点</Designator_TeleportDesc>
+  <Designator_TeleportOutofRange>位置超出地图边界</Designator_TeleportOutofRange>
+  <Designator_TeleportCloseToRange>位置过于靠近地图边缘</Designator_TeleportCloseToRange>
+  <Designator_TeleportFogCoverd>位置被战争迷雾覆盖</Designator_TeleportFogCoverd>
+  <Designator_TeleportBlockByBuilding>位置被不可摧毁的建筑 '{0}' 阻挡</Designator_TeleportBlockByBuilding>
+  <Designator_TeleportImpassable>地形不可通行</Designator_TeleportImpassable>
+  <DD_ConfirmTeleport>确认目标地点</DD_ConfirmTeleport>
+  <DD_ConfirmTeleportDesc>锁定目标地点，开始发起地狱深潜</DD_ConfirmTeleportDesc>
+  <DD_MoveMarker>移动标记</DD_MoveMarker>
+  <DD_MoveMarkerDesc>移动标记，以重新设置传送目的地</DD_MoveMarkerDesc>
+</LanguageData>
