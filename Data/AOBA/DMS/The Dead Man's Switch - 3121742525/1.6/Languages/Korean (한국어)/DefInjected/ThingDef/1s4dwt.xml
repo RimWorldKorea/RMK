@@ -1,15 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <DMS_Bullet_FlashBang.label>섬광탄</DMS_Bullet_FlashBang.label>
-  <TaborFlyer.label>flying</TaborFlyer.label>
   <DMS_Bullet_EmperoExplosive.label>고폭탄</DMS_Bullet_EmperoExplosive.label>
   <DMS_AirRaidFlyBy.label>참새</DMS_AirRaidFlyBy.label>
   <Bullet_CASAC.label>오토캐논</Bullet_CASAC.label>
   <Proj_RocketCAS.label>로켓</Proj_RocketCAS.label>
   <DMS_Shuttle.label>대형 수송선</DMS_Shuttle.label>
   <DMS_Shuttle.description>지표면과 궤도 간의 이동을 위해 설계된 대형 수송선으로, 최대 2톤의 화물을 운반할 수 있습니다.</DMS_Shuttle.description>
+  <DMS_Shuttle_Player.label>궤도수송선</DMS_Shuttle_Player.label>
+  <DMS_Shuttle_Player.description>지상과 궤도 사이의 수송을 위해 설계된 경량 수송선으로, 최대 2톤의 화물을 탑재한 채 비행할 수 있습니다.</DMS_Shuttle_Player.description>
+  <DMS_Shuttle_Player.comps.3.fuelLabel>화학연료</DMS_Shuttle_Player.comps.3.fuelLabel>
+  <DMS_Shuttle_Player.comps.3.fuelGizmoLabel>화학연료</DMS_Shuttle_Player.comps.3.fuelGizmoLabel>
   <DMS_Ship_TransportShuttleIncoming.label>대형 수송선 (착륙 중)</DMS_Ship_TransportShuttleIncoming.label>
   <DMS_Ship_TransportShuttleLeaving.label>대형 수송선 (떠나는 중)</DMS_Ship_TransportShuttleLeaving.label>
+  <DMS_PlayerShip_TransportShuttleIncoming.label>궤도 수송선 (접근 중)</DMS_PlayerShip_TransportShuttleIncoming.label>
+  <DMS_PlayerShip_TransportShuttleLeaving.label>여객 왕복선 (떠나는 중)</DMS_PlayerShip_TransportShuttleLeaving.label>
+  <DMS_QuestDocument.label>중요 문서</DMS_QuestDocument.label>
+  <DMS_QuestDocument.description>처리 대상인 기밀 문서입니다.</DMS_QuestDocument.description>
   <DMS_Apparel_UnitSuit.label>유니폼</DMS_Apparel_UnitSuit.label>
   <DMS_Apparel_UnitSuit.description>식민지화 함대 승무원 및 일반 전투원의 점프수트 유니폼입니다.</DMS_Apparel_UnitSuit.description>
   <DMS_Apparel_GarrisonCap.label>개리슨 캡</DMS_Apparel_GarrisonCap.label>
@@ -42,10 +49,8 @@
   <DMS_Apparel_StealthMask.description>착용자의 얼굴을 가리는데 사용하는 천조각입니다.</DMS_Apparel_StealthMask.description>
   <DMS_Apparel_PackHound.label>하운드 드론 배낭</DMS_Apparel_PackHound.label>
   <DMS_Apparel_PackHound.description>원격 조종 하운드 드론을 운반하고 전개하기 위한 컨테이너 겸 조립 키트입니다. 전투 상황에서 하운드 드론을 신속하게 전개할 수 있으며, 동시에 드론을 제어하고 회수할 수 있는 원격 기지 역할도 수행합니다.</DMS_Apparel_PackHound.description>
-  <DMS_Apparel_PackHound.comps.3.chargeNoun>drone</DMS_Apparel_PackHound.comps.3.chargeNoun>
   <DMS_Apparel_PackVerling.label>벌링버드 드론 벨트</DMS_Apparel_PackVerling.label>
   <DMS_Apparel_PackVerling.description>원격 조종 벌링버드 드론을 운반하고 전개하기 위한 원격 조종기 겸 조립 모듈입니다. 드론을 신속히 투입할 수 있으며, 동시에 원격 기지로서 드론을 제어하는 역할도 수행합니다.</DMS_Apparel_PackVerling.description>
-  <DMS_Apparel_PackVerling.comps.3.chargeNoun>drone</DMS_Apparel_PackVerling.comps.3.chargeNoun>
   <DMS_DecoyRadio.label>미끼 안테나</DMS_DecoyRadio.label>
   <DMS_DecoyRadio.description>강력한 전송 신호를 보내도록 개조된 신호 송수신기입니다. 작동되었을 시 강력한 유인 신호를 발산하여 야생화된 오토마트로이드 무리를 유인합니다. 이들을 쓰러트린다면 그 잔해에서 특수한 부품을 회수할 수 있습니다. 신호 파장은 송신기를 태워버리므로 이 건물은 한 번만 사용할 수 있습니다.</DMS_DecoyRadio.description>
   <DMS_DecoyRadio.comps.0.useLabel>지오첼론 위협 호출</DMS_DecoyRadio.comps.0.useLabel>
@@ -58,8 +63,18 @@
   <DMS_Hound_Base.description>하운드를 수납하고 충전할 수 있는 스테이션입니다.</DMS_Hound_Base.description>
   <DMS_Recharger.label>오토마트로이드 충전기</DMS_Recharger.label>
   <DMS_Recharger.description>오토마트로이드는 여기서 충전할 수 있습니다. 충전기는 충전 과정에서 독성 폐기물을 생성하고 내부에 보관합니다. 보관량에는 한계가 있으므로 폐기물은 계속 비워줘야 합니다.</DMS_Recharger.description>
-  <DMS_Mote_SinteringFurnaceActive.label>Mote</DMS_Mote_SinteringFurnaceActive.label>
-  <DMS_Mote_ReactionChamberActive.label>Mote</DMS_Mote_ReactionChamberActive.label>
+  <DMS_MachineCabinet.label>공구 수납장</DMS_MachineCabinet.label>
+  <DMS_MachineCabinet.description>레이저 위치 조정기나 온도 감지기와 같은 복잡한 기계 공구가 들어있는 수납장입니다. 이러한 공구들은 작업 효율 또한 개선합니다.\n\n각 생산 건물엔 최대 8개의 공구 수납장을 연결할 수 있습니다. 품질이 있는 제품을 생산할 때, 각 수납장은 품질이 향상될 확률을 40% 제공합니다.</DMS_MachineCabinet.description>
+  <DMS_Hole_7x7Empty.label>시설 개방구</DMS_Hole_7x7Empty.label>
+  <DMS_Hole_7x7Empty.description>지하시설에서 흔히 발견되는, 아래로 뚫린 구멍이 있는 구조물입니다.</DMS_Hole_7x7Empty.description>
+  <DMS_Hole_5x5Empty.label>시설 개방구</DMS_Hole_5x5Empty.label>
+  <DMS_Hole_5x5Empty.description>지하시설에서 흔히 발견되는, 아래로 뚫린 구멍이 있는 구조물입니다.</DMS_Hole_5x5Empty.description>
+  <DMS_Hole_3x3Empty.label>시설 개방구</DMS_Hole_3x3Empty.label>
+  <DMS_Hole_3x3Empty.description>지하시설에서 흔히 발견되는, 아래로 뚫린 구멍이 있는 구조물입니다.</DMS_Hole_3x3Empty.description>
+  <DMS_Hole_3x5Empty.label>시설 개방구</DMS_Hole_3x5Empty.label>
+  <DMS_Hole_3x5Empty.description>지하시설에서 흔히 발견되는, 아래로 뚫린 구멍이 있는 구조물입니다.</DMS_Hole_3x5Empty.description>
+  <DMS_Hole_3x7Empty.label>시설 개방구</DMS_Hole_3x7Empty.label>
+  <DMS_Hole_3x7Empty.description>지하시설에서 흔히 발견되는, 아래로 뚫린 구멍이 있는 구조물입니다.</DMS_Hole_3x7Empty.description>
   <DMS_TableArtifuscle.label>아티퓨슬 챔버</DMS_TableArtifuscle.label>
   <DMS_TableArtifuscle.description>아티퓨슬 및 생체공학 배양을 위한 최첨단 생산 장비입니다.</DMS_TableArtifuscle.description>
   <DMS_LabReactor.label>실험용 반응로</DMS_LabReactor.label>
@@ -147,12 +162,8 @@
   <DMS_Schematic.description>기술을 사용하는 방법에 대해 설명하는 책입니다. 도면을 읽다보면 새로운 기술을 발견하는 데 도움이 될 수 있습니다.</DMS_Schematic.description>
   <Neuroglue.label>뉴로글루</Neuroglue.label>
   <Neuroglue.description>생물학적 조직과 신경 기계를 연결하는 단백질 유사 수용체 젤입니다. 뉴로글루는 환상통 증후군과 합성 거부반응을 효과적으로 차단할 수 있습니다 \n\n이 제품은 수십 년 동안 변방계와 중간계에 유통되어 왔지만, 이 제품을 생산했다고 주장하는 조직은 은하 중심부 요원들에 의해 제재를 받고 있습니다. 그들은 이 제품이 해적의 생체공학 수준을 높여 지역 균형에 도움이 되지 않는다고 선언했습니다.</Neuroglue.description>
-  <Neuroglue.ingestible.ingestCommandString>{0} 복용</Neuroglue.ingestible.ingestCommandString>
-  <Neuroglue.ingestible.ingestReportString>{0} 복용 중</Neuroglue.ingestible.ingestReportString>
   <DMS_CombatRation.label>C-레이션</DMS_CombatRation.label>
   <DMS_CombatRation.description>고에너지 유기 폴리머 보존식. 이는 제3차 세계대전 동안 전투 중 강화된 인간 병력을 위한 영양 보충제로 발명되었습니다. 영양 인터페이스가 장착된 병사들에게는 내부 장기가 오랜 시간 기능할 수 있을 만큼 충분한 칼로리를 제공합니다. 그러나 일반 인간에게는 약간의 소화불량을 유발할 수 있습니다.</DMS_CombatRation.description>
-  <DMS_CombatRation.ingestible.ingestCommandString>{0} 복용</DMS_CombatRation.ingestible.ingestCommandString>
-  <DMS_CombatRation.ingestible.ingestReportString>{0} 복용 중</DMS_CombatRation.ingestible.ingestReportString>
   <Polyester.label>폴리에스터</Polyester.label>
   <Polyester.description>합성 섬유의 일종으로, 못생겼지만 여전히 의류, 침구, 군수용 특수 직물과 같은 섬유 소재에 널리 사용되고 있는 섬유입니다.</Polyester.description>
   <Plasfiber.label>플라스피버</Plasfiber.label>
@@ -163,47 +174,46 @@
   <DMS_Ceramics.description>군용 기계의 방어용 부가재로 널리 사용되는 군용 표준 복합 세라믹 판으로, 내구성은 다소 떨어지지만 방어력이 우수하고 무게가 가볍습니다.</DMS_Ceramics.description>
   <Artifuscle.label>아티퓨슬</Artifuscle.label>
   <Artifuscle.description>유전자 조작된 사우로모프 근육 다발로 만든 보철 재료의 일종입니다.</Artifuscle.description>
-  <Artifuscle.comps.3.completedLetterLabel>아티퓨슬 분석 완료: {RESEARCH} 잠금 해제</Artifuscle.comps.3.completedLetterLabel>
-  <Artifuscle.comps.3.completedLetter>{STUDIER_labelShort}(이)가 {PARENT_label}(을)를 분석함으로써 {RESEARCH} 연구에 필요한 지식을 얻었습니다.\n\n이제 정착민들이 이 기술의 활용법을 연구할 수 있습니다.</Artifuscle.comps.3.completedLetter>
-  <Artifuscle.comps.3.activateLabelString>분석...</Artifuscle.comps.3.activateLabelString>
-  <Artifuscle.comps.3.activateDescString>아티퓨슬 분석</Artifuscle.comps.3.activateDescString>
-  <Artifuscle.comps.3.jobString>아티퓨슬을 분석합니다.</Artifuscle.comps.3.jobString>
-  <Artifuscle.comps.3.guiLabelString>분석할 사람을 선택하세요</Artifuscle.comps.3.guiLabelString>
-  <Artifuscle.comps.3.inspectString>정착민에 의해 분석 가능.</Artifuscle.comps.3.inspectString>
+  <Artifuscle.comps.2.completedLetterLabel>아티퓨슬 분석 완료: {RESEARCH} 잠금 해제</Artifuscle.comps.2.completedLetterLabel>
+  <Artifuscle.comps.2.completedLetter>{STUDIER_labelShort}(이)가 {PARENT_label}(을)를 분석함으로써 {RESEARCH} 연구에 필요한 지식을 얻었습니다.\n\n이제 정착민들이 이 기술의 활용법을 연구할 수 있습니다.</Artifuscle.comps.2.completedLetter>
+  <Artifuscle.comps.2.activateLabelString>분석...</Artifuscle.comps.2.activateLabelString>
+  <Artifuscle.comps.2.activateDescString>아티퓨슬 분석</Artifuscle.comps.2.activateDescString>
+  <Artifuscle.comps.2.jobString>아티퓨슬 분석</Artifuscle.comps.2.jobString>
+  <Artifuscle.comps.2.guiLabelString>분석할 사람을 선택하세요</Artifuscle.comps.2.guiLabelString>
+  <Artifuscle.comps.2.inspectString>정착민에 의해 분석 가능.</Artifuscle.comps.2.inspectString>
   <ComponentStamped.label>스탬포넨트</ComponentStamped.label>
   <ComponentStamped.description>유압식 일체형 부품. 조립 라인에서 대량 생산이 필요한 제품에 사용됩니다.</ComponentStamped.description>
   <Neurocomputer.label>웨트웨어 컴퓨터</Neurocomputer.label>
   <Neurocomputer.description>인공 유기물 뇌로 작동하는 유기물 컴퓨터로, 희귀 금속과 정밀 가공 기술에 접근할 수 없는 세력들을 위한 저렴한 계산 뇌 역할을 합니다.</Neurocomputer.description>
-  <Neurocomputer.comps.1.completedLetterLabel>웨트웨어 컴퓨터 분석 완료: {RESEARCH} 잠금 해제</Neurocomputer.comps.1.completedLetterLabel>
-  <Neurocomputer.comps.1.completedLetter>{STUDIER_labelShort}(이)가 {PARENT_label}(을)를 분석함으로써 {RESEARCH} 연구에 필요한 지식을 얻었습니다.\n\n이제 정착민들이 이 기술의 활용법을 연구할 수 있습니다.</Neurocomputer.comps.1.completedLetter>
-  <Neurocomputer.comps.1.activateLabelString>분석...</Neurocomputer.comps.1.activateLabelString>
-  <Neurocomputer.comps.1.activateDescString>웨트웨어 컴퓨터 분석</Neurocomputer.comps.1.activateDescString>
-  <Neurocomputer.comps.1.jobString>웨트웨어 컴퓨터를 분석합니다</Neurocomputer.comps.1.jobString>
-  <Neurocomputer.comps.1.guiLabelString>분석할 사람을 선택하세요</Neurocomputer.comps.1.guiLabelString>
-  <Neurocomputer.comps.1.inspectString>정착민에 의해 분석 가능.</Neurocomputer.comps.1.inspectString>
+  <Neurocomputer.comps.0.completedLetterLabel>웨트웨어 컴퓨터 분석 완료: {RESEARCH} 잠금 해제</Neurocomputer.comps.0.completedLetterLabel>
+  <Neurocomputer.comps.0.completedLetter>{STUDIER_labelShort}(이)가 {PARENT_label}(을)를 분석함으로써 {RESEARCH} 연구에 필요한 지식을 얻었습니다.\n\n이제 정착민들이 이 기술의 활용법을 연구할 수 있습니다.</Neurocomputer.comps.0.completedLetter>
+  <Neurocomputer.comps.0.activateLabelString>분석...</Neurocomputer.comps.0.activateLabelString>
+  <Neurocomputer.comps.0.activateDescString>웨트웨어 컴퓨터 분석</Neurocomputer.comps.0.activateDescString>
+  <Neurocomputer.comps.0.jobString>웨트웨어 컴퓨터를 분석합니다</Neurocomputer.comps.0.jobString>
+  <Neurocomputer.comps.0.guiLabelString>분석할 사람을 선택하세요</Neurocomputer.comps.0.guiLabelString>
+  <Neurocomputer.comps.0.inspectString>정착민에 의해 분석 가능.</Neurocomputer.comps.0.inspectString>
   <ComponentTransmitter.label>T/R 부품</ComponentTransmitter.label>
   <ComponentTransmitter.description>레이더 및 통신 장치용 정밀 전자 부품.</ComponentTransmitter.description>
-  <ComponentTransmitter.comps.1.completedLetterLabel>T/R 부품 분석 완료: {RESEARCH} 잠금 해제</ComponentTransmitter.comps.1.completedLetterLabel>
-  <ComponentTransmitter.comps.1.completedLetter>{STUDIER_labelShort}(이)가 {PARENT_label}(을)를 분석함으로써 {RESEARCH} 연구에 필요한 지식을 얻었습니다.\n\n이제 정착민들이 이 기술의 활용법을 연구할 수 있습니다.</ComponentTransmitter.comps.1.completedLetter>
-  <ComponentTransmitter.comps.1.activateLabelString>분석...</ComponentTransmitter.comps.1.activateLabelString>
-  <ComponentTransmitter.comps.1.activateDescString>T/R 부품 분석</ComponentTransmitter.comps.1.activateDescString>
-  <ComponentTransmitter.comps.1.jobString>T/R 부품을 분석합니다</ComponentTransmitter.comps.1.jobString>
-  <ComponentTransmitter.comps.1.guiLabelString>분석할 사람을 선택하세요</ComponentTransmitter.comps.1.guiLabelString>
-  <ComponentTransmitter.comps.1.inspectString>정착민에 의해 분석 가능.</ComponentTransmitter.comps.1.inspectString>
+  <ComponentTransmitter.comps.0.completedLetterLabel>T/R 부품 분석 완료: {RESEARCH} 잠금 해제</ComponentTransmitter.comps.0.completedLetterLabel>
+  <ComponentTransmitter.comps.0.completedLetter>{STUDIER_labelShort}(이)가 {PARENT_label}(을)를 분석함으로써 {RESEARCH} 연구에 필요한 지식을 얻었습니다.\n\n이제 정착민들이 이 기술의 활용법을 연구할 수 있습니다.</ComponentTransmitter.comps.0.completedLetter>
+  <ComponentTransmitter.comps.0.activateLabelString>분석...</ComponentTransmitter.comps.0.activateLabelString>
+  <ComponentTransmitter.comps.0.activateDescString>T/R 부품 분석</ComponentTransmitter.comps.0.activateDescString>
+  <ComponentTransmitter.comps.0.jobString>T/R 부품을 분석합니다</ComponentTransmitter.comps.0.jobString>
+  <ComponentTransmitter.comps.0.guiLabelString>분석할 사람을 선택하세요</ComponentTransmitter.comps.0.guiLabelString>
+  <ComponentTransmitter.comps.0.inspectString>정착민에 의해 분석 가능.</ComponentTransmitter.comps.0.inspectString>
   <ComponentControlChip.label>클러스터 제어 칩셋</ComponentControlChip.label>
   <ComponentControlChip.description>원격 기계 컨트롤러용 칩셋이자 산업용 기계의 핵심입니다.</ComponentControlChip.description>
   <ComponentFireControl.label>사격 제어 시스템</ComponentFireControl.label>
   <ComponentFireControl.description>무기 제어 지원 및 궤적 추적용으로 설계된 칩셋입니다.</ComponentFireControl.description>
-  <ComponentFireControl.comps.1.completedLetterLabel>사격 제어 시스템 분석 완료: {RESEARCH} 잠금 해제</ComponentFireControl.comps.1.completedLetterLabel>
-  <ComponentFireControl.comps.1.completedLetter>{STUDIER_labelShort}(이)가 {PARENT_label}(을)를 분석함으로써 {RESEARCH} 연구에 필요한 지식을 얻었습니다.\n\n이제 정착민들이 이 기술의 활용법을 연구할 수 있습니다.</ComponentFireControl.comps.1.completedLetter>
-  <ComponentFireControl.comps.1.activateLabelString>분석...</ComponentFireControl.comps.1.activateLabelString>
-  <ComponentFireControl.comps.1.activateDescString>사격 제어 시스템 분석</ComponentFireControl.comps.1.activateDescString>
-  <ComponentFireControl.comps.1.jobString>사격 제어 시스템을 분석합니다</ComponentFireControl.comps.1.jobString>
-  <ComponentFireControl.comps.1.guiLabelString>분석할 사람을 선택하세요</ComponentFireControl.comps.1.guiLabelString>
-  <ComponentFireControl.comps.1.inspectString>정착민에 의해 분석 가능.</ComponentFireControl.comps.1.inspectString>
+  <ComponentFireControl.comps.0.completedLetterLabel>사격 제어 시스템 분석 완료: {RESEARCH} 잠금 해제</ComponentFireControl.comps.0.completedLetterLabel>
+  <ComponentFireControl.comps.0.completedLetter>{STUDIER_labelShort}(이)가 {PARENT_label}(을)를 분석함으로써 {RESEARCH} 연구에 필요한 지식을 얻었습니다.\n\n이제 정착민들이 이 기술의 활용법을 연구할 수 있습니다.</ComponentFireControl.comps.0.completedLetter>
+  <ComponentFireControl.comps.0.activateLabelString>분석...</ComponentFireControl.comps.0.activateLabelString>
+  <ComponentFireControl.comps.0.activateDescString>사격 제어 시스템 분석</ComponentFireControl.comps.0.activateDescString>
+  <ComponentFireControl.comps.0.jobString>사격 제어 시스템을 분석합니다</ComponentFireControl.comps.0.jobString>
+  <ComponentFireControl.comps.0.guiLabelString>분석할 사람을 선택하세요</ComponentFireControl.comps.0.guiLabelString>
+  <ComponentFireControl.comps.0.inspectString>정착민에 의해 분석 가능.</ComponentFireControl.comps.0.inspectString>
   <DMS_EncryptedTransmitter.label>암호화 송신기</DMS_EncryptedTransmitter.label>
   <DMS_EncryptedTransmitter.description>식민지에서 긴급 호출 지원을 위해 사용되는 고출력 통신기입니다. 이 구조 프로토콜의 식별 코드는 오랫동안 버려졌기 때문에 지휘권을 잃은 기계화 유닛의 미끼로만 사용할 수 있습니다.</DMS_EncryptedTransmitter.description>
-  <DMS_EncryptedTransmitter.comps.1.useLabel>군단 위협 호출</DMS_EncryptedTransmitter.comps.1.useLabel>
   <Shell_BlasterSmoke.label>블래스터 스크린탄</Shell_BlasterSmoke.label>
   <Shell_BlasterSmoke.description>충격을 받으면 활성 입자장을 생성하여 차지탄을 공중에서 연소시키는 포탄으로, 기계 군단이나 중간계 메가코프와의 전투에서 완벽한 대응책이 될 수 있습니다. 하지만 변방계에서는 일반적으로 이를 필요로 하는 이들이 생산할 수 없을 뿐만 아니라, 기존 화기의 발사체를 요격할 수 없어 널리 보급되지 않는 제품입니다.</Shell_BlasterSmoke.description>
   <DMS_Bullet_BlasterSmoke.label>블래스터 스크린탄</DMS_Bullet_BlasterSmoke.label>
@@ -213,26 +223,26 @@
   <UnfinishedModification.description>미완성된 개조 부품</UnfinishedModification.description>
   <DMS_CeramicsPlating.label>세라믹 플레이트</DMS_CeramicsPlating.label>
   <DMS_CeramicsPlating.description>세라믹 플레이트를 메카의 외부 장갑에 장착하여 추가 보호를 제공합니다. 손상되면 새로운 플레이트로만 교체할 수 있습니다.\n\n메카에 적용할 수 있는 최대 장갑량은 메카의 신체 크기에 따라 달라집니다.</DMS_CeramicsPlating.description>
-  <DMS_CeramicsPlating.comps.1.useLabel>{0_label} 사용하기</DMS_CeramicsPlating.comps.1.useLabel>
+  <DMS_CeramicsPlating.comps.0.useLabel>{0_label} 사용</DMS_CeramicsPlating.comps.0.useLabel>
   <DMS_BrokenCeramics.label>부서진 세라믹</DMS_BrokenCeramics.label>
   <DMS_ReinforcedFrame.label>강화 프레임</DMS_ReinforcedFrame.label>
   <DMS_ReinforcedFrame.description>마모되기 쉬운 부품을 대체하는 텅스틸 프레임 세트로, 고강도 전투에서 내구성을 효과적으로 향상시키고 유지 보수에 소요되는 시간을 줄여줍니다. 그러나 그 대가로 메카의 무게가 크게 증가하여 속도에 영향을 미칩니다.</DMS_ReinforcedFrame.description>
-  <DMS_ReinforcedFrame.comps.1.useLabel>{0_label} 사용하기</DMS_ReinforcedFrame.comps.1.useLabel>
+  <DMS_ReinforcedFrame.comps.0.useLabel>{0_label} 사용</DMS_ReinforcedFrame.comps.0.useLabel>
   <DMS_NuclearBattery.label>핵 전지</DMS_NuclearBattery.label>
   <DMS_NuclearBattery.description>양자 배터리를 구동하는 핵분열 원자로입니다. 많은 무인 신호 기지와 방어 로봇에서 흔히 발견됩니다. 고강도 외피로 감싼 6개의 고밀도 우라늄-235 기둥과 여기서 나오는 열을 전기로 바꾸는 장치가 기둥에 통합되어 있습니다. 이 에너지는 대부분의 오토마트로이드 모델을 수십 년 동안 가동할 수 있을 만큼의 에너지를 제공합니다.</DMS_NuclearBattery.description>
-  <DMS_NuclearBattery.comps.1.useLabel>{0_label} 사용하기</DMS_NuclearBattery.comps.1.useLabel>
+  <DMS_NuclearBattery.comps.0.useLabel>{0_label} 사용</DMS_NuclearBattery.comps.0.useLabel>
   <DMS_SyntheticTendon.label>생체합성 근육</DMS_SyntheticTendon.label>
   <DMS_SyntheticTendon.description>기계적 사지의 외부에 부착된 생체합성 근육으로, 출력 향상에 효과적이지만 추가적인 에너지 소모를 요구합니다.</DMS_SyntheticTendon.description>
-  <DMS_SyntheticTendon.comps.1.useLabel>{0_label} 사용하기</DMS_SyntheticTendon.comps.1.useLabel>
+  <DMS_SyntheticTendon.comps.0.useLabel>{0_label} 사용</DMS_SyntheticTendon.comps.0.useLabel>
   <DMS_TB_HeavyHydraulicFrame.label>중량형 유압 프레임</DMS_TB_HeavyHydraulicFrame.label>
   <DMS_TB_HeavyHydraulicFrame.description>이구아나와 게코에 중화기를 장착하기 위해 설계된, 높은 내구성을 지닌 강화 유압 프레임입니다.</DMS_TB_HeavyHydraulicFrame.description>
-  <DMS_TB_HeavyHydraulicFrame.comps.1.useLabel>{0_label} 사용하기</DMS_TB_HeavyHydraulicFrame.comps.1.useLabel>
+  <DMS_TB_HeavyHydraulicFrame.comps.0.useLabel>{0_label} 사용</DMS_TB_HeavyHydraulicFrame.comps.0.useLabel>
   <DMS_BF_ExtendCargo.label>확장형 화물 선반</DMS_BF_ExtendCargo.label>
   <DMS_BF_ExtendCargo.description>배틀 프레임 측면에 설치할 수 있는 화물 선반으로, 배틀 프레임 및 그 변형 모델들의 적재 용량을 효과적으로 증가시킬 수 있습니다.</DMS_BF_ExtendCargo.description>
-  <DMS_BF_ExtendCargo.comps.1.useLabel>{0_label} 사용하기</DMS_BF_ExtendCargo.comps.1.useLabel>
+  <DMS_BF_ExtendCargo.comps.0.useLabel>{0_label} 사용</DMS_BF_ExtendCargo.comps.0.useLabel>
   <DMS_BF_ExtendArmor.label>확장형 추가 장갑</DMS_BF_ExtendArmor.label>
   <DMS_BF_ExtendArmor.description>전투 프레임 파일런에 적합한 복합 장갑 부착물로, 파편이나 대구경 총탄 등 다양한 위협으로부터 차체를 효과적으로 방어할 수 있습니다.</DMS_BF_ExtendArmor.description>
-  <DMS_BF_ExtendArmor.comps.1.useLabel>{0_label} 사용하기</DMS_BF_ExtendArmor.comps.1.useLabel>
+  <DMS_BF_ExtendArmor.comps.0.useLabel>{0_label} 사용</DMS_BF_ExtendArmor.comps.0.useLabel>
   <DMS_Mech_BattleFrame.label>배틀 프렌드</DMS_Mech_BattleFrame.label>
   <DMS_Mech_BattleFrame.description>경보병 전투 유닛으로 설계된 배틀 프렌드는 상당한 하중 용량과 대부분의 인간 장비를 사용할 수 있는 능력을 가지고 있습니다.</DMS_Mech_BattleFrame.description>
   <DMS_Mech_BattleFrame.tools.0.label>기계식 머리</DMS_Mech_BattleFrame.tools.0.label>
@@ -473,17 +483,17 @@
   <DMS_Gun_2A38M.tools.0.label>개머리판</DMS_Gun_2A38M.tools.0.label>
   <DMS_Gun_2A38M.tools.1.label>총열</DMS_Gun_2A38M.tools.1.label>
   <DMS_Gun_2A38M.verbs.Verb_Shoot.label>2A38M</DMS_Gun_2A38M.verbs.Verb_Shoot.label>
-  <DMS_Gun_DragoonRifle.label>매크 대전차 소총</DMS_Gun_DragoonRifle.label>
+  <DMS_Gun_DragoonRifle.label>메크 대전차 소총</DMS_Gun_DragoonRifle.label>
   <DMS_Gun_DragoonRifle.description>중형 메크나 드라군을 위한 경량 대전차 소총으로, 대량 생산이 가능하도록 설계되었습니다.\n\n이 무기는 오토마트로이드 전용으로 설계되었으며, 너무 무거워 특정 오토마트로이드만 운용할 수 있습니다.</DMS_Gun_DragoonRifle.description>
   <DMS_Gun_DragoonRifle.tools.0.label>개머리판</DMS_Gun_DragoonRifle.tools.0.label>
   <DMS_Gun_DragoonRifle.tools.1.label>총열</DMS_Gun_DragoonRifle.tools.1.label>
-  <DMS_Gun_DragoonRifle.verbs.Verb_Shoot.label>매크 대전차 소총</DMS_Gun_DragoonRifle.verbs.Verb_Shoot.label>
+  <DMS_Gun_DragoonRifle.verbs.Verb_Shoot.label>메크 대전차 소총</DMS_Gun_DragoonRifle.verbs.Verb_Shoot.label>
   <DMS_Bullet_Dragoon_Rifle.label>철갑탄</DMS_Bullet_Dragoon_Rifle.label>
-  <DMS_Gun_DragoonGrenade.label>매크 중형 유탄 발사기</DMS_Gun_DragoonGrenade.label>
+  <DMS_Gun_DragoonGrenade.label>메크 중형 유탄 발사기</DMS_Gun_DragoonGrenade.label>
   <DMS_Gun_DragoonGrenade.description>메크 운용을 위해 설계된 휴대용 박격포로, 6발 리볼버 방식으로 빠른 연속 사격이 가능합니다.\n\n이 무기는 오토마트로이드 전용으로 설계되었으며, 너무 무거워 특정 오토마트로이드만 운용할 수 있습니다.</DMS_Gun_DragoonGrenade.description>
   <DMS_Gun_DragoonGrenade.tools.0.label>개머리판</DMS_Gun_DragoonGrenade.tools.0.label>
   <DMS_Gun_DragoonGrenade.tools.1.label>총열</DMS_Gun_DragoonGrenade.tools.1.label>
-  <DMS_Gun_DragoonGrenade.verbs.Verb_Shoot.label>매크 중형 유탄 발사기</DMS_Gun_DragoonGrenade.verbs.Verb_Shoot.label>
+  <DMS_Gun_DragoonGrenade.verbs.Verb_Shoot.label>메크 중형 유탄 발사기</DMS_Gun_DragoonGrenade.verbs.Verb_Shoot.label>
   <DMS_Bullet_DGL.label>중형 유탄</DMS_Bullet_DGL.label>
   <DMS_Gun_DawnbladeM.label>MPQFS-85M "던블레이드"</DMS_Gun_DawnbladeM.label>
   <DMS_Gun_DawnbladeM.description>다목적 고속 발사 오토캐논을 메크 운용용으로 개조한 무기로, 타르보사우루스와 같은 초중형 유닛에만 장착할 수 있습니다. 그 무시무시한 발사 속도와 위력은 과거 메카노이드 전쟁에서 엑소스트라이더를 파괴하는 데 매우 효과적인 것으로 입증되었습니다.\n\n이 무기는 초중형 유닛 전용으로 설계되었으며, 고정 포탑으로도 설치 가능합니다.</DMS_Gun_DawnbladeM.description>
@@ -531,7 +541,7 @@
   <DMS_Gun_Vasilek_B.verbs.Verb_Shoot.label>2B9A 바실레크</DMS_Gun_Vasilek_B.verbs.Verb_Shoot.label>
   <DMS_DeposableRocketLauncher.label>일회용 발사기</DMS_DeposableRocketLauncher.label>
   <DMS_DeposableRocketLauncher.description>발사 후 버리는 일회용 무반동포로, 가볍고 벙커나 중형 메카에 효과적입니다. 사거리가 길며, 발사 시 반드시 목표가 시야에 있어야 합니다.</DMS_DeposableRocketLauncher.description>
-  <DMS_DeposableRocketLauncher.comps.2.chargeNoun>charge</DMS_DeposableRocketLauncher.comps.2.chargeNoun>
+  <DMS_DeposableRocketLauncher.comps.0.chargeNoun>charge</DMS_DeposableRocketLauncher.comps.0.chargeNoun>
   <DMS_Bullet_DR.label>폭파 로켓탄</DMS_Bullet_DR.label>
   <Bullet_9M311V.label>9M311</Bullet_9M311V.label>
   <DMS_AssaultShotgun.label>메크 돌격 산탄총</DMS_AssaultShotgun.label>
@@ -587,7 +597,7 @@
   <DMS_StunBaton.tools.1.label>칼끝</DMS_StunBaton.tools.1.label>
   <DMS_StunBaton.tools.2.label>칼날</DMS_StunBaton.tools.2.label>
   <DMS_Machete.label>마체테</DMS_Machete.label>
-  <DMS_Machete.description>평범한 마체테처럼 보이지만, 기계병의 근접 전투 능력에 특화된 디자인의 무기입니다..\n\n고주파 진동 칼날로 대부분의 물체를 쉽게 절단할 수 있습니다.</DMS_Machete.description>
+  <DMS_Machete.description>평범한 마체테처럼 보이지만, 기계병의 근접 전투 능력에 특화된 디자인의 무기입니다.\n\n고주파 진동 칼날로 대부분의 물체를 쉽게 절단할 수 있습니다.</DMS_Machete.description>
   <DMS_Machete.tools.0.label>손잡이</DMS_Machete.tools.0.label>
   <DMS_Machete.tools.1.label>칼끝</DMS_Machete.tools.1.label>
   <DMS_Machete.tools.2.label>칼날</DMS_Machete.tools.2.label>
@@ -604,9 +614,6 @@
   <DMS_MechLink_Nerfed.label>BOID 컨트롤러</DMS_MechLink_Nerfed.label>
   <DMS_MechLink_Nerfed.description>메카노이드를 직접 제어할 수 있는 인공 생체공학 임플란트입니다. 낮은 기술 수준에서도 제작 및 사용이 가능한 간소화된 버전으로, 제작 비용도 저렴합니다. 다만, 생산 품질의 한계로 인해 일정 시간이 지나면 고장을 일으키며 기능이 정지됩니다.</DMS_MechLink_Nerfed.description>
   <DMS_MechLink_Nerfed.comps.CompUsableImplant.useLabel>{0_label}(을)를 설치해 메카나이터 되기</DMS_MechLink_Nerfed.comps.CompUsableImplant.useLabel>
-  <DMS_MechConstructorForming.label>Mote</DMS_MechConstructorForming.label>
-  <DMS_MechConstructorCycleComplete.label>Mote</DMS_MechConstructorCycleComplete.label>
-  <DMS_MechConstructorFormed.label>Mote</DMS_MechConstructorFormed.label>
   <DMS_MechGestatorSmall.label>오토마트로이드 구성기</DMS_MechGestatorSmall.label>
   <DMS_MechGestatorSmall.description>오토마트로이드를 조립하는 데 사용되는 거대한 산업 장비입니다.</DMS_MechGestatorSmall.description>
   <Bullet_60mmMortarShell_DF_HE.label>60mm 박격포탄 (고폭탄)</Bullet_60mmMortarShell_DF_HE.label>
@@ -638,18 +645,8 @@
   <DMS_Dozer_KordMG.label>Kord HMG 터렛</DMS_Dozer_KordMG.label>
   <DMS_Dozer_KordMG.description>기계병 또는 보병 지원 플랫폼용 중기관총입니다.\n\n이 무기는 고정 장착을 전제로 설계되었기 때문에, 특정 유닛만 운용할 수 있습니다.</DMS_Dozer_KordMG.description>
   <DMS_Dozer_KordMG.verbs.Verb_ShootCE.label>Kord HMG 터렛</DMS_Dozer_KordMG.verbs.Verb_ShootCE.label>
-  <DMS_GestaltEngine.label>중앙 지휘 코어</DMS_GestaltEngine.label>
-  <DMS_GestaltEngine.description>대규모 메카 지휘용 초대형 컴퓨팅 코어로, 식민지 함대가 번화계를 지나며 가져온 기술입니다.</DMS_GestaltEngine.description>
-  <DMS_Shuttle_Player.label>궤도수송선</DMS_Shuttle_Player.label>
-  <DMS_Shuttle_Player.description>지상과 궤도 사이의 수송을 위해 설계된 경량 수송선으로, 최대 2톤의 화물을 탑재한 채 비행할 수 있습니다.</DMS_Shuttle_Player.description>
-  <DMS_Shuttle_Player.comps.3.fuelLabel>화학연료</DMS_Shuttle_Player.comps.3.fuelLabel>
-  <DMS_Shuttle_Player.comps.3.fuelGizmoLabel>화학연료</DMS_Shuttle_Player.comps.3.fuelGizmoLabel>
-  <DMS_PlayerShip_TransportShuttleIncoming.label>궤도 수송선 (접근 중)</DMS_PlayerShip_TransportShuttleIncoming.label>
-  <DMS_PlayerShip_TransportShuttleLeaving.label>여객 왕복선 (떠나는 중)</DMS_PlayerShip_TransportShuttleLeaving.label>
-  <DMS_MachineCabinet.label>공구 수납장</DMS_MachineCabinet.label>
-  <DMS_MachineCabinet.description>레이저 위치 조정기나 온도 감지기와 같은 복잡한 기계 공구가 들어있는 수납장입니다. 이러한 공구들은 작업 효율 또한 개선합니다.\n\n각 생산 건물엔 최대 8개의 공구 수납장을 연결할 수 있습니다. 품질이 있는 제품을 생산할 때, 각 수납장은 품질이 향상될 확률을 40% 제공합니다.</DMS_MachineCabinet.description>
   <DMS_TableAmmoPrinter.label>탄약 스탬핑 기계</DMS_TableAmmoPrinter.label>
   <DMS_TableAmmoPrinter.description>표준 공정 데이터를 기반으로 탄약을 대량 생산하도록 설계된 자동화 기계입니다.\n\n금형판을 교체하는 것만으로 다양한 구경의 표준 탄약을 신속하게 생산할 수 있습니다.\n\n한때 지구에서 사용되던 이 표준 규격은 그 효율성과 신뢰성 덕분에 지금도 식민지 함대 전역에서 널리 사용되고 있습니다.</DMS_TableAmmoPrinter.description>
-  <DMS_QuestDocument.label>중요 문서</DMS_QuestDocument.label>
-  <DMS_QuestDocument.description>처리 대상인 기밀 문서입니다.</DMS_QuestDocument.description>
+  <DMS_GestaltEngine.label>중앙 지휘 코어</DMS_GestaltEngine.label>
+  <DMS_GestaltEngine.description>대규모 메카 지휘용 초대형 컴퓨팅 코어로, 식민지 함대가 번화계를 지나며 가져온 기술입니다.</DMS_GestaltEngine.description>
 </LanguageData>
