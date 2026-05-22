@@ -7,7 +7,7 @@
   <AutoMinerOreAmount>광물의 양</AutoMinerOreAmount>
   <AutoMinerExpectedYield>예상 수확량</AutoMinerExpectedYield>
   <AutoMinerTimeRemaining>예상 완료 시간</AutoMinerTimeRemaining>
-  <AutoMinerLaunchCommand>자동 채굴 유닛 발사</AutoMinerLaunchCommand>
+  <AutoMinerLaunchCommand>채굴 유닛 발사</AutoMinerLaunchCommand>
   <AutoMinerLaunchCommandDesc>탐색된 광물 지대로 자동 채굴 유닛을 발사합니다. 연료가 충전된 인접한 채굴 유닛 발사대가 필요합니다.</AutoMinerLaunchCommandDesc>
   <AutoMinerNoLauncher>인접한 채굴 유닛 발사대를 찾을 수 없음</AutoMinerNoLauncher>
   <AutoMinerNoFuel>발사 및 임무 수행에 필요한 연료 부족</AutoMinerNoFuel>
@@ -33,4 +33,23 @@
   <AutoMinerSiteRecoverableOre>회수 가능한 광물: {0}</AutoMinerSiteRecoverableOre>
   <AutoMinerSiteOccupyingFaction>점령 세력: {0}</AutoMinerSiteOccupyingFaction>
   <AutoMinerSiteDescriptionCombat>{0}(이)가 점령한 채굴 지대입니다. 그들은 채굴 유닛을 탈취하고 {1} x{2}만큼을 훔쳤습니다.\n\n모든 적을 처치하고 광물을 회수하십시오.</AutoMinerSiteDescriptionCombat>
+  <AutoMinerAutoRebuildOff>자동 재건: 꺼짐</AutoMinerAutoRebuildOff>
+  <AutoMinerAutoRebuildOffDesc>발사 후 자동으로 다시 재건하지 않습니다.</AutoMinerAutoRebuildOffDesc>
+  <AutoMinerAutoRebuildProto>자동 재건: 프로토타입</AutoMinerAutoRebuildProto>
+  <AutoMinerAutoRebuildProtoDesc>발사 후 프로토타입 배치 포드를 재건합니다.</AutoMinerAutoRebuildProtoDesc>
+  <AutoMinerAutoRebuildStandard>발사 재건: 표준</AutoMinerAutoRebuildStandard>
+  <AutoMinerAutoRebuildStandardDesc>발사 후 표준 배치 포드를 재건합니다.</AutoMinerAutoRebuildStandardDesc>
+  <AutoMinerSettings_AsteroidSection>소행성 채굴 포드</AutoMinerSettings_AsteroidSection>
+  <AutoMinerSettings_AsteroidYield>자원 수확률</AutoMinerSettings_AsteroidYield>
+  <AutoMinerSettings_AsteroidDays>채굴 소요 기간 (일)</AutoMinerSettings_AsteroidDays>
+  <AutoMinerBringVacstone>진공암도 채굴함</AutoMinerBringVacstone>
+  <AutoMinerBringVacstoneDesc>채굴 유닛이 진공암을 함께 보내올 것입니다.</AutoMinerBringVacstoneDesc>
+  <AutoMinerNoVacstone>진공암은 채굴 안 함</AutoMinerNoVacstone>
+  <AutoMinerNoVacstoneDesc>채굴 유닛이 진공암을 함께 채굴하지 않을 것입니다.</AutoMinerNoVacstoneDesc>
+  <AutoMinerNeedAsteroidTarget>소행성 목표를 선택해야 함 (소행성 광물 매장지 혹은 일반 소행성)</AutoMinerNeedAsteroidTarget>
+  <AutoMinerVacstoneReturnLabel>진공암 도착함</AutoMinerVacstoneReturnLabel>
+  <AutoMinerVacstoneReturnText>자동 채굴 유닛이 진공암 {0}개를 보내왔습니다.</AutoMinerVacstoneReturnText>
+  <AutoMinerVacstoneYield>진공암 수확</AutoMinerVacstoneYield>
+  <AutoMinerAutoRebuildAsteroid>자동 재건: 소행성</AutoMinerAutoRebuildAsteroid>
+  <AutoMinerAutoRebuildAsteroidDesc>발사 후 소행성 배치 포드를 재건합니다.</AutoMinerAutoRebuildAsteroidDesc>
 </LanguageData>
