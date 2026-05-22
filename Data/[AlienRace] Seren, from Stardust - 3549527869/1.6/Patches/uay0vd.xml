@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ScenarioDef[defName="SerenRelocated"]/scenario/parts/li[1]/xenotypeCounts/li[1]/description</xpath>
+          <value>
+            <description>세렌 정착민</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ScenarioDef[defName="SerenPrisonCrash"]/scenario/parts/li[1]/xenotypeCounts/li[1]/description</xpath>
+          <value>
+            <description>세렌 정착민</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Call a Vampire a Vampire</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Biotech</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/GeneDef[defName="OL_SerenBlood"]/description</xpath>
+            <value>
+              <description>이 유전자를 가진 사람들은 다른 세렌과 같은 혈액형을 가지고 있어 보라색을 띠게 됩니다.\n\n뱀파이어 서클에서는 세렌의 피에서 포도 사탕 맛이 난다는 소문이 돌고 있지만 아직 입증된 바는 없습니다.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+</Patch>
