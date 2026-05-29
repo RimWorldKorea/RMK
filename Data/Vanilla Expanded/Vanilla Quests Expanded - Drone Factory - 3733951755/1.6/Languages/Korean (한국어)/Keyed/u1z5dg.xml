@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VQE_BroadcasterMode>{0} 모드</VQE_BroadcasterMode>
+  <VQE_BroadcasterModeDesc_Work>자동 방송 드론이 작업 의욕을 높여주는 신나는 음악을 재생합니다.</VQE_BroadcasterModeDesc_Work>
+  <VQE_BroadcasterModeDesc_Relax>자동 방송 드론이 편안한 기분이 들게 해주는 차분한 분위기의 음악을 재생합니다.</VQE_BroadcasterModeDesc_Relax>
+  <VQE_BroadcasterModeDesc_Recruitment>자동 방송 드론이 수감자들의 저항심을 낮추기 위한 선전 방송을 내보냅니다.</VQE_BroadcasterModeDesc_Recruitment>
+  <VQE_Shutdown>가동 종료</VQE_Shutdown>
+  <VQE_ShutdownDesc>드론을 영구적으로 가동 종료시킵니다.</VQE_ShutdownDesc>
+  <VQE_Reactivate>재가동</VQE_Reactivate>
+  <VQE_ReactivateDesc>드론을 재가동합니다. 재가동하기 위해서는 정착민이 직접 드론에 접근해 전원을 켜야 합니다.</VQE_ReactivateDesc>
+  <VQE_Standby>대기</VQE_Standby>
+  <VQE_EnterStandby>대기</VQE_EnterStandby>
+  <VQE_EnterStandbyDesc>대기 모드로 전환합니다. 드론의 전원이 꺼져 수명 소모가 90% 줄어듭니다. 대기 모드에 있는 드론은 피해를 입어도 반응하지 않고 작업 수행도 하지 않으며, 다시 작동하려면 재가동이 필요합니다.</VQE_EnterStandbyDesc>
+  <VQE_CannotUseConnectionTimedOut>연결 시간 초과 중에는 사용할 수 없습니다</VQE_CannotUseConnectionTimedOut>
+  <VQE_CannotUseOverclocked>오버클럭 중에는 사용할 수 없습니다</VQE_CannotUseOverclocked>
+  <VQE_CannotUseDesynchronised>동기화 오류 중에는 사용할 수 없습니다</VQE_CannotUseDesynchronised>
+  <VQE_CannotUseRebooting>재부팅 중에는 사용할 수 없습니다</VQE_CannotUseRebooting>
+  <VQE_CannotUseHardwareFailure>하드웨어 고장 중에는 사용할 수 없습니다</VQE_CannotUseHardwareFailure>
+  <VQE_CannotUseIndexing>색인 작업 중에는 사용할 수 없습니다</VQE_CannotUseIndexing>
+  <VQE_CannotUseInStandby>대기 중에는 사용할 수 없습니다</VQE_CannotUseInStandby>
+  <VQE_OutsideTransmitterRange>송신기 범위 밖</VQE_OutsideTransmitterRange>
+  <VQE_DroneMalfunction>{DRONE}(이)가 {1} 오작동을 겪고 있습니다</VQE_DroneMalfunction>
+  <VQE_HardcrashLetter>치명적 충돌: {DRONE}</VQE_HardcrashLetter>
+  <VQE_HardcrashLetterDesc>{DRONE}(이)가 치명적 충돌 오작동을 겪고 있습니다.\n\n이 드론은 감지기 가림 현상을 해결하기 위해 건물과 가구에 반복적으로 충돌을 시도할 것이며, 이 과정에서 해당 기물들이 파괴될 수 있습니다.\n\n이 오작동은 {DRONE}의 수명이 다해가기 때문에 발생했습니다.</VQE_HardcrashLetterDesc>
+  <VQE_KillswitchLetter>킬 스위치: {DRONE}</VQE_KillswitchLetter>
+  <VQE_KillswitchLetterDesc>{DRONE}(이)가 킬 스위치 오작동을 겪고 있습니다.\n\n이 드론은 자신에게 접근하는 모든 대상을 공격할 것입니다.\n\nThis has occurred because {DRONE} is reaching the end of its lifespan.</VQE_KillswitchLetterDesc>
+  <VQE_SelfDecommissionLetter>자가 퇴역: {DRONE}</VQE_SelfDecommissionLetter>
+  <VQE_SelfDecommissionLetterDesc>{DRONE}(이)가 자가 퇴역 오작동을 겪고 있습니다.\n\n이 드론은 자신이 일할 수 있는 기간이 종료되었다고 판단해 이곳을 떠나 외진 장소에서 가동을 중단할 것이며, 이 과정에서 어떠한 명령도 듣지 않을 것입니다.\n\n이 오작동은 {DRONE}의 수명이 다해가기 때문에 발생했습니다.</VQE_SelfDecommissionLetterDesc>
+  <VQE_DroneMalfunction_Death>. 오작동이 종료되면 이 드론의 가동이 중단될 것입니다.</VQE_DroneMalfunction_Death>
+  <VQE_IndexingLetter>색인 작업: {DRONE}</VQE_IndexingLetter>
+  <VQE_IndexingLetterDesc>{DRONE}(이)가 색인 작업 오작동을 겪고 있습니다.\n\n이 드론은 다른 드론을, 드론이 없을 경우 다른 정착민을 집중 연구한 후 특수한 설계도를 드론 코어에 새겨넣을 것입니다. 오작동이 종료되면 드론 코어가 생성됩니다. 코어를 해독하면 새로운 드론 유형을 영구적으로 해금할 수 있습니다.\n\n이 오작동은 {DRONE}(이)가 때때로 색인 작업을 수행하도록 프로그래밍되었기에 발생했습니다.</VQE_IndexingLetterDesc>
+  <VQE_ExtremeMalfunctionRisk>극심한 오작동 위험</VQE_ExtremeMalfunctionRisk>
+  <VQE_ExtremeMalfunctionRiskDesc>정착지에 있는 몇몇 드론의 수명이 다해가고 있습니다. 이 드론들은 극심한 오작동을 일으킬 수 있으니, 영구적으로 가동 종료시키는 것을 고려하세요.\n\n다음 드론은 극심한 오작동 위험이 있습니다:\n\n{0}</VQE_ExtremeMalfunctionRiskDesc>
+  <VQE_Malfunction>오작동</VQE_Malfunction>
+  <VQE_DecryptCore>{0}(을)를 해독해 새로운 드론 제작법 해금하기</VQE_DecryptCore>
+  <VQE_CoreDecryptedLetter>드론 해금: {0}</VQE_CoreDecryptedLetter>
+  <VQE_CoreDecryptedDesc>드론 코어를 해독해 새로운 드론의 설계도를 해금했습니다. 이제부터 다음 유형의 드론을 제작할 수 있습니다: {0}.\n\n{1}.</VQE_CoreDecryptedDesc>
+  <VQE_NoUnlockableRecipes>더 이상 해금할 수 있는 드론 제작법이 없습니다!</VQE_NoUnlockableRecipes>
+  <VQE_DroneSpawningIn>{1} 후 {0} 조립이 완료됩니다.</VQE_DroneSpawningIn>
+  <VQE_CarryDroneToTransmitter>{0}(을)를 제일 가까운 송신기로 옮기기</VQE_CarryDroneToTransmitter>
+  <VQE_TransmitterRadius>송신기 범위</VQE_TransmitterRadius>
+  <VQE_TransmitterRadiusDesc>송신기를 필요로 하는 드론이 송신기를 중심으로 활동할 수 있는 반경입니다. 기본값은 15입니다 (게임 구조상 실제 값은 14.9입니다).</VQE_TransmitterRadiusDesc>
+  <VQED_Reset>초기화</VQED_Reset>
+  <VQE_LifespanMultiplier>드론 수명 계수</VQE_LifespanMultiplier>
+  <VQE_LifespanMultiplierModOptions>모드 설정에서의 드론 수명 계수: {0}</VQE_LifespanMultiplierModOptions>
+  <VQE_LifespanMultiplierDesc>드론의 수명에 적용되는 배수입니다. 예를 들어 x2로 설정한다면 모든 드론의 수명이 2배가 됩니다. 이미 만들어진 드론의 현재 수명에는 적용되지 않는 점을 유의하세요.</VQE_LifespanMultiplierDesc>
+  <VQE_ConsumeLifespanOnRepair>드론 수리에 수명 소모</VQE_ConsumeLifespanOnRepair>
+  <VQE_ConsumeLifespanOnRepairDesc>활성화 시 드론을 수리할 때 수명이 소모됩니다. 수리 시 수명 소모를 막으려면 비활성화하세요.</VQE_ConsumeLifespanOnRepairDesc>
+  <VQE_DroneStockpileRaid>습격: 고대 드론</VQE_DroneStockpileRaid>
+  <VQE_DroneStockpileRaidDesc>인근 드론 창고에서 온 전투 드론들이 근처에 도착했습니다.\n\n적들은 즉시 공격할 것입니다.\n\n드론들이 습격해 오는 것을 막으려면 드론 창고를 파괴하세요.</VQE_DroneStockpileRaidDesc>
+  <VQE_JumpToDroneTransmitter>클릭해 드론 송신기로 이동</VQE_JumpToDroneTransmitter>
+  <VQE_BroadcasterModeDesc_Conversion>자동 방송 드론이 수감자들의 사상을 전향시키기 위한 이념 선전 방송을 내보냅니다.</VQE_BroadcasterModeDesc_Conversion>
+  <VQE_DroneWorkspeedStatOffset>드론 작업 속도 영향</VQE_DroneWorkspeedStatOffset>
+</LanguageData>
