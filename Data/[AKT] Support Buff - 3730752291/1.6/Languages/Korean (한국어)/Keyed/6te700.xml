@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Akata_SupportBuff_Settings_Section_Thresholds>호감도 기준</Akata_SupportBuff_Settings_Section_Thresholds>
+  <Akata_SupportBuff_Settings_Section_Scan>탐색</Akata_SupportBuff_Settings_Section_Scan>
+  <Akata_SupportBuff_Settings_Section_Intimate>친밀 관계</Akata_SupportBuff_Settings_Section_Intimate>
+  <Akata_SupportBuff_Settings_Section_Bond>동물 유대</Akata_SupportBuff_Settings_Section_Bond>
+  <Akata_SupportBuff_Settings_Section_Scope>버프 토글</Akata_SupportBuff_Settings_Section_Scope>
+  <Akata_SupportBuff_Settings_Section_Tuning>버프 수치</Akata_SupportBuff_Settings_Section_Tuning>
+  <Akata_SupportBuff_Settings_Section_Visualization>시각화</Akata_SupportBuff_Settings_Section_Visualization>
+  <Akata_SupportBuff_Settings_ThresholdFormula_Label>지원 조건: min(양측 호감도) &gt;= 등급별 기준 - (양측 지원 친화력 합 × 친화력 가중치) - (양측 사회 기술 합 × 사회 기술 가중치)</Akata_SupportBuff_Settings_ThresholdFormula_Label>
+  <Akata_SupportBuff_Settings_BuffFormula_Label>버프량 = 각 관계별 합산 ( 지원 레벨 × (본인 +/레벨 + 상대방 +/레벨) / 2 )</Akata_SupportBuff_Settings_BuffFormula_Label>
+  <Akata_SupportBuff_Settings_ThresholdC_Label>C등급 기준: {0}</Akata_SupportBuff_Settings_ThresholdC_Label>
+  <Akata_SupportBuff_Settings_ThresholdB_Label>B등급 기준: {0}</Akata_SupportBuff_Settings_ThresholdB_Label>
+  <Akata_SupportBuff_Settings_ThresholdA_Label>A등급 기준: {0}</Akata_SupportBuff_Settings_ThresholdA_Label>
+  <Akata_SupportBuff_Settings_ThresholdS_Label>S등급 기준: {0}</Akata_SupportBuff_Settings_ThresholdS_Label>
+  <Akata_SupportBuff_Settings_AffinityWeight_Label>친화력 스탯 가중치: {0}</Akata_SupportBuff_Settings_AffinityWeight_Label>
+  <Akata_SupportBuff_Settings_SocialSkillWeight_Label>사회 기술 가중치: {0}</Akata_SupportBuff_Settings_SocialSkillWeight_Label>
+  <Akata_SupportBuff_Settings_SearchRadius_Label>탐색 반경 (칸): {0}</Akata_SupportBuff_Settings_SearchRadius_Label>
+  <Akata_SupportBuff_Settings_ScanInterval_Label>탐색 간격 (틱): {0}</Akata_SupportBuff_Settings_ScanInterval_Label>
+  <Akata_SupportBuff_Settings_IntimateImportance_Label>관계 중요도 기준: {0}</Akata_SupportBuff_Settings_IntimateImportance_Label>
+  <Akata_SupportBuff_Settings_ApplyMeleeHit_Label>근접 명중률</Akata_SupportBuff_Settings_ApplyMeleeHit_Label>
+  <Akata_SupportBuff_Settings_ApplyMeleeDodge_Label>근접 회피율</Akata_SupportBuff_Settings_ApplyMeleeDodge_Label>
+  <Akata_SupportBuff_Settings_ApplyRangedHit_Label>사격 명중률</Akata_SupportBuff_Settings_ApplyRangedHit_Label>
+  <Akata_SupportBuff_Settings_ApplyMeleeDamage_Label>근접 피해 (친밀 관계 전용)</Akata_SupportBuff_Settings_ApplyMeleeDamage_Label>
+  <Akata_SupportBuff_Settings_ApplyRangedDamage_Label>원거리 피해 (친밀 관계 전용, [AKT] Ranged Damage Factor 필요)</Akata_SupportBuff_Settings_ApplyRangedDamage_Label>
+  <Akata_SupportBuff_Settings_ApplyBond_Label>활성화</Akata_SupportBuff_Settings_ApplyBond_Label>
+  <Akata_SupportBuff_Settings_MeleeHitScale_Label>근접 명중률: +/레벨: {0}%</Akata_SupportBuff_Settings_MeleeHitScale_Label>
+  <Akata_SupportBuff_Settings_MeleeHitCap_Label>근접 명중률: 상한: {0}%</Akata_SupportBuff_Settings_MeleeHitCap_Label>
+  <Akata_SupportBuff_Settings_MeleeDodgeScale_Label>근접 회피율: +/레벨: {0}%</Akata_SupportBuff_Settings_MeleeDodgeScale_Label>
+  <Akata_SupportBuff_Settings_MeleeDodgeCap_Label>근접 회피율: 상한: {0}%</Akata_SupportBuff_Settings_MeleeDodgeCap_Label>
+  <Akata_SupportBuff_Settings_RangedHitScale_Label>사격 명중률: +/레벨: {0}%</Akata_SupportBuff_Settings_RangedHitScale_Label>
+  <Akata_SupportBuff_Settings_RangedHitCap_Label>사격 명중률: 상한: {0}%</Akata_SupportBuff_Settings_RangedHitCap_Label>
+  <Akata_SupportBuff_Settings_MeleeDamageScale_Label>근접 피해: +/레벨: {0}%</Akata_SupportBuff_Settings_MeleeDamageScale_Label>
+  <Akata_SupportBuff_Settings_MeleeDamageCap_Label>근접 피해: 상한: {0}%</Akata_SupportBuff_Settings_MeleeDamageCap_Label>
+  <Akata_SupportBuff_Settings_RangedDamageScale_Label>원거리 피해: +/레벨: {0}%</Akata_SupportBuff_Settings_RangedDamageScale_Label>
+  <Akata_SupportBuff_Settings_RangedDamageCap_Label>원거리 피해: 상한: {0}%</Akata_SupportBuff_Settings_RangedDamageCap_Label>
+  <Akata_SupportBuff_Settings_BondMeleeHitScale_Label>유대 근접 명중: +: {0}%</Akata_SupportBuff_Settings_BondMeleeHitScale_Label>
+  <Akata_SupportBuff_Settings_BondMeleeHitCap_Label>유대 근접 명중: 상한: {0}%</Akata_SupportBuff_Settings_BondMeleeHitCap_Label>
+  <Akata_SupportBuff_Settings_BondMeleeDodgeScale_Label>유대 근접 회피: +: {0}%</Akata_SupportBuff_Settings_BondMeleeDodgeScale_Label>
+  <Akata_SupportBuff_Settings_BondMeleeDodgeCap_Label>유대 근접 회피: 상한: {0}%</Akata_SupportBuff_Settings_BondMeleeDodgeCap_Label>
+  <Akata_SupportBuff_Settings_BondRangedHitScale_Label>유대 사격 명중: +: {0}%</Akata_SupportBuff_Settings_BondRangedHitScale_Label>
+  <Akata_SupportBuff_Settings_BondRangedHitCap_Label>유대 사격 명중: 상한: {0}%</Akata_SupportBuff_Settings_BondRangedHitCap_Label>
+  <Akata_SupportBuff_Settings_BondMeleeDamageScale_Label>유대 근접 피해: +: {0}%</Akata_SupportBuff_Settings_BondMeleeDamageScale_Label>
+  <Akata_SupportBuff_Settings_BondMeleeDamageCap_Label>유대 근접 피해: 상한: {0}%</Akata_SupportBuff_Settings_BondMeleeDamageCap_Label>
+  <Akata_SupportBuff_Settings_BondRangedDamageScale_Label>유대 원거리 피해: +: {0}%</Akata_SupportBuff_Settings_BondRangedDamageScale_Label>
+  <Akata_SupportBuff_Settings_BondRangedDamageCap_Label>유대 원거리 피해: 상한: {0}%</Akata_SupportBuff_Settings_BondRangedDamageCap_Label>
+  <Akata_SupportBuff_Settings_ShowSupportLines_Label>지원 연결선</Akata_SupportBuff_Settings_ShowSupportLines_Label>
+  <Akata_SupportBuff_Settings_ShowSupportLines_Tooltip>각 지원 폰에서 지원을 받는 대상으로 색상 선을 그립니다. 색상은 지원 등급을 나타냅니다 (C=녹색, B=파랑, A=보라, S=금색). 동물 유대는 금색으로 표시됩니다.</Akata_SupportBuff_Settings_ShowSupportLines_Tooltip>
+  <Akata_SupportBuff_Settings_DeveloperMode_Label>개발자 모드</Akata_SupportBuff_Settings_DeveloperMode_Label>
+  <Akata_SupportBuff_Settings_DeveloperMode_Tooltip>개발자 전용 로그 및 진단 기능을 활성화합니다. 일반 배포 시 기본적으로 꺼져 있으며, 개발 프로필에서는 자동으로 켜집니다.</Akata_SupportBuff_Settings_DeveloperMode_Tooltip>
+  <Akata_SupportBuff_Settings_ResetButton_Label>기본값으로 초기화</Akata_SupportBuff_Settings_ResetButton_Label>
+  <Akata_SupportBuff_Settings_ResetConfirm>Akata.SupportBuff의 모든 설정을 기본값으로 초기화하시겠습니까?</Akata_SupportBuff_Settings_ResetConfirm>
+  <Akata_SupportBuff_Hediff_Tip>지원 상세: C×{0}, B×{1}, A×{2}, S×{3}</Akata_SupportBuff_Hediff_Tip>
+  <Akata_SupportBuff_Hediff_TipIntimate>친밀 상세: C×{0}, B×{1}, A×{2}, S×{3}</Akata_SupportBuff_Hediff_TipIntimate>
+  <Akata_SupportBuff_Hediff_TipBond>유대 상세: 지원 레벨 +{0}</Akata_SupportBuff_Hediff_TipBond>
+  <Akata_SupportBuff_Stat_Explanation>Akata.SupportBuff: +{0} (지원 버프)</Akata_SupportBuff_Stat_Explanation>
+  <Akata_SupportBuff_Debug_OpinionC_Label>[Akata.SupportBuff] 강한 유대 (C)</Akata_SupportBuff_Debug_OpinionC_Label>
+  <Akata_SupportBuff_Debug_OpinionC_Description>Akata.SupportBuff 디버그 액션으로 주입됨. 호감도를 C등급 기준까지 올립니다.</Akata_SupportBuff_Debug_OpinionC_Description>
+  <Akata_SupportBuff_Debug_OpinionB_Label>[Akata.SupportBuff] 강한 유대 (B)</Akata_SupportBuff_Debug_OpinionB_Label>
+  <Akata_SupportBuff_Debug_OpinionB_Description>Akata.SupportBuff 디버그 액션으로 주입됨. 호감도를 B등급 기준까지 올립니다.</Akata_SupportBuff_Debug_OpinionB_Description>
+  <Akata_SupportBuff_Debug_OpinionA_Label>[Akata.SupportBuff] 강한 유대 (A)</Akata_SupportBuff_Debug_OpinionA_Label>
+  <Akata_SupportBuff_Debug_OpinionA_Description>Akata.SupportBuff 디버그 액션으로 주입됨. 호감도를 A등급 기준까지 올립니다.</Akata_SupportBuff_Debug_OpinionA_Description>
+  <Akata_SupportBuff_Debug_OpinionS_Label>[Akata.SupportBuff] 강한 유대 (S)</Akata_SupportBuff_Debug_OpinionS_Label>
+  <Akata_SupportBuff_Debug_OpinionS_Description>Akata.SupportBuff 디버그 액션으로 주입됨. 호감도를 S등급 기준까지 올립니다.</Akata_SupportBuff_Debug_OpinionS_Description>
+</LanguageData>
