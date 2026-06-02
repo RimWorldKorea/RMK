@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <BuildingCapsule.Blueprint_Label>캡슐 배치 청사진</BuildingCapsule.Blueprint_Label>
+  <BuildingCapsule.Blueprint_LabelWithCapsule>캡슐 배치 청사진({0})</BuildingCapsule.Blueprint_LabelWithCapsule>
+  <BuildingCapsule.Blueprint_InspectTarget>대상 캡슐: {0}\n정착민이 이곳으로 캡슐을 운반하여 배치하기를 기다리는 중입니다.</BuildingCapsule.Blueprint_InspectTarget>
+  <BuildingCapsule.Blueprint_InspectDefault>캡슐 배치를 대기하는 중.</BuildingCapsule.Blueprint_InspectDefault>
+  <BuildingCapsule.Blueprint_CancelGizmoLabel>배치 취소</BuildingCapsule.Blueprint_CancelGizmoLabel>
+  <BuildingCapsule.Blueprint_CancelGizmoDesc>이 캡슐 배치 청사진을 취소합니다.</BuildingCapsule.Blueprint_CancelGizmoDesc>
+  <BuildingCapsule.Blueprint_CapsuleNotExist>캡슐이 더 이상 존재하지 않음</BuildingCapsule.Blueprint_CapsuleNotExist>
+  <BuildingCapsule.Blueprint_CannotReach>캡슐을 운반하여 배치 (도달할 수 없음)</BuildingCapsule.Blueprint_CannotReach>
+  <BuildingCapsule.Blueprint_Prioritize>캡슐 배치 우선 지정</BuildingCapsule.Blueprint_Prioritize>
+  <BuildingCapsule.Blueprint_CapsuleOccupied>캡슐이 사용 중임</BuildingCapsule.Blueprint_CapsuleOccupied>
+  <BuildingCapsule.Blueprint_BlueprintOccupied>청사진이 사용 중임</BuildingCapsule.Blueprint_BlueprintOccupied>
+  <BuildingCapsule.Blueprint_PrioritizeReason>캡슐 배치({0})</BuildingCapsule.Blueprint_PrioritizeReason>
+  <BuildingCapsule.Blueprint_CancelFloatMenu>배치 취소</BuildingCapsule.Blueprint_CancelFloatMenu>
+  <BuildingCapsule.Blueprint_JobDefNotFound>JobDef를 찾을 수 없음: DeliverCapsuleToBlueprint</BuildingCapsule.Blueprint_JobDefNotFound>
+  <BuildingCapsule.Platform_LabelWithCustomName>{0}({1})</BuildingCapsule.Platform_LabelWithCustomName>
+  <BuildingCapsule.Platform_WarnBuildingNull>BuildingData의 building이 비어 있음, 건너뜀</BuildingCapsule.Platform_WarnBuildingNull>
+  <BuildingCapsule.Platform_ErrorCapsuleDefNotFound>캡슐 아이템의 ThingDef를 찾을 수 없음: {0}</BuildingCapsule.Platform_ErrorCapsuleDefNotFound>
+  <BuildingCapsule.Plugin_GizmoRenameLabel>이름 바꾸기</BuildingCapsule.Plugin_GizmoRenameLabel>
+  <BuildingCapsule.Plugin_GizmoRenameDesc>플랫폼과 이에 대응하는 캡슐의 이름을 바꿉니다.</BuildingCapsule.Plugin_GizmoRenameDesc>
+  <BuildingCapsule.Plugin_GizmoPackUpLabel>캡슐에 수납</BuildingCapsule.Plugin_GizmoPackUpLabel>
+  <BuildingCapsule.Plugin_GizmoPackUpDesc>플랫폼과 건물을 캡슐 하나로 포장합니다.</BuildingCapsule.Plugin_GizmoPackUpDesc>
+  <BuildingCapsule.ApparelGizmo_DeployLabel>캡슐 배치</BuildingCapsule.ApparelGizmo_DeployLabel>
+  <BuildingCapsule.ApparelGizmo_DeployDesc>캡슐을 배치할 위치를 선택합니다. 정착민이 지정된 위치로 이동해 캡슐을 배치할 것입니다.</BuildingCapsule.ApparelGizmo_DeployDesc>
+  <BuildingCapsule.CapsuleComp_RenameLabel>이름 바꾸기</BuildingCapsule.CapsuleComp_RenameLabel>
+  <BuildingCapsule.CapsuleComp_RenameDesc>캡슐의 이름을 바꿉니다.</BuildingCapsule.CapsuleComp_RenameDesc>
+  <BuildingCapsule.CapsuleComp_DeployLabel>플랫폼으로 배치</BuildingCapsule.CapsuleComp_DeployLabel>
+  <BuildingCapsule.CapsuleComp_DeployDesc>이 캡슐을 배치할 위치를 선택합니다. 정착민이 대상 위치로 캡슐을 운반해 배치를 완료할 것입니다.</BuildingCapsule.CapsuleComp_DeployDesc>
+  <BuildingCapsule.CompBP_LogThrowerPawnInvalid>throwerPawn이 유효하지 않음, 일반 운반으로 전환</BuildingCapsule.CompBP_LogThrowerPawnInvalid>
+  <BuildingCapsule.CompBP_LogThrowerNotWearing>투척자가 캡슐을 장착하지 않음 (capsule={0}), 일반 운반으로 전환</BuildingCapsule.CompBP_LogThrowerNotWearing>
+  <BuildingCapsule.CompBP_LogThrowerCannotReach>투척자가 청사진 {0}에 도달할 수 없음</BuildingCapsule.CompBP_LogThrowerCannotReach>
+  <BuildingCapsule.CompBP_LogJobDefNotFound>JobDef를 찾을 수 없음: ThrowCapsuleAtBlueprint</BuildingCapsule.CompBP_LogJobDefNotFound>
+  <BuildingCapsule.CompBP_LogThrowerJobAccepted>정착민 {0}(이)가 투척 작업을 수행함 → 청사진 {1}</BuildingCapsule.CompBP_LogThrowerJobAccepted>
+  <BuildingCapsule.Designator_DeployLabel>캡슐 배치</BuildingCapsule.Designator_DeployLabel>
+  <BuildingCapsule.Designator_DeployDesc>캡슐을 배치할 위치를 선택합니다.\n플랫폼을 포함한 {0}개의 건물이 들어있습니다.</BuildingCapsule.Designator_DeployDesc>
+  <BuildingCapsule.Designator_OutOfBounds>일부 구역이 지도 밖에 있음</BuildingCapsule.Designator_OutOfBounds>
+  <BuildingCapsule.Designator_SubBuildingOutOfBounds>하위 건물 위치가 지도 밖에 있음</BuildingCapsule.Designator_SubBuildingOutOfBounds>
+  <BuildingCapsule.Designator_LogBpDefNotFound>Blueprint_DeployPlatform의 ThingDef를 찾을 수 없습니다!</BuildingCapsule.Designator_LogBpDefNotFound>
+  <BuildingCapsule.Dialog_Title>이름 바꾸기</BuildingCapsule.Dialog_Title>
+  <BuildingCapsule.Dialog_HintItem>아이템: {0}</BuildingCapsule.Dialog_HintItem>
+  <BuildingCapsule.Dialog_HintCurrentName>현재 사용자 지정 이름: {0}({1})</BuildingCapsule.Dialog_HintCurrentName>
+  <BuildingCapsule.Dialog_Confirm>확인</BuildingCapsule.Dialog_Confirm>
+  <BuildingCapsule.Dialog_Cancel>취소</BuildingCapsule.Dialog_Cancel>
+  <BuildingCapsule.Dialog_ClearName>이름 지우기 (기본값으로 복원)</BuildingCapsule.Dialog_ClearName>
+  <BuildingCapsule.JobDriverHaul_LogBlueprintOrCapsuleNull>[BuildingCapsule] JobDriver: 청사진 또는 캡슐이 null임</BuildingCapsule.JobDriverHaul_LogBlueprintOrCapsuleNull>
+  <BuildingCapsule.JobDriverHaul_FailedCapsuleLost>{0} 운반 실패: 캡슐 분실</BuildingCapsule.JobDriverHaul_FailedCapsuleLost>
+  <BuildingCapsule.JobDriverHaul_FailedCannotReachCapsule>{0} 운반 실패: 캡슐에 도달할 수 없음</BuildingCapsule.JobDriverHaul_FailedCannotReachCapsule>
+  <BuildingCapsule.JobDriverHaul_FailedBlueprintLost>{0} 운반 실패: 청사진 분실</BuildingCapsule.JobDriverHaul_FailedBlueprintLost>
+  <BuildingCapsule.JobDriverHaul_FailedCannotReachBlueprint>{0} 운반 실패: 청사진에 도달할 수 없음</BuildingCapsule.JobDriverHaul_FailedCannotReachBlueprint>
+  <BuildingCapsule.JobDriverThrow_LogDeploying>{0}(이)가 청사진 위치에 플랫폼을 배치함</BuildingCapsule.JobDriverThrow_LogDeploying>
+  <BuildingCapsule.Capsule_LabelWithCustomName>{0}({1})</BuildingCapsule.Capsule_LabelWithCustomName>
+  <BuildingCapsule.Capsule_LabelContainedBuildings>[건물 {0}개 포함]</BuildingCapsule.Capsule_LabelContainedBuildings>
+  <BuildingCapsule.Capsule_ThrowGizmoLabel>캡슐 배치</BuildingCapsule.Capsule_ThrowGizmoLabel>
+  <BuildingCapsule.Capsule_ThrowGizmoDesc>캡슐을 배치할 위치를 선택합니다. 정착민이 지정된 위치로 이동해 캡슐을 배치할 것입니다.</BuildingCapsule.Capsule_ThrowGizmoDesc>
+  <BuildingCapsule.Capsule_FloatMenuNoBlueprint>대응하는 청사진 없음</BuildingCapsule.Capsule_FloatMenuNoBlueprint>
+  <BuildingCapsule.Capsule_FloatMenuHaul>청사진으로 운반하여 배치</BuildingCapsule.Capsule_FloatMenuHaul>
+  <BuildingCapsule.Capsule_FloatMenuCannotReach>청사진으로 운반하여 배치 (도달할 수 없음)</BuildingCapsule.Capsule_FloatMenuCannotReach>
+  <BuildingCapsule.CapsuleComp_ExtractLabel>아이템 꺼내기</BuildingCapsule.CapsuleComp_ExtractLabel>
+  <BuildingCapsule.CapsuleComp_ExtractDesc>캡슐에서 일부 아이템을 꺼내 바닥에 내려놓습니다.</BuildingCapsule.CapsuleComp_ExtractDesc>
+  <BuildingCapsule.DialogExtract_Title>캡슐 내부 아이템 꺼내기</BuildingCapsule.DialogExtract_Title>
+  <BuildingCapsule.DialogExtract_NoItems>캡슐 안에 꺼낼 수 있는 아이템이 없습니다.</BuildingCapsule.DialogExtract_NoItems>
+  <BuildingCapsule.DialogExtract_SelectHint>꺼낼 수량을 조절할 아이템 유형을 선택하세요.</BuildingCapsule.DialogExtract_SelectHint>
+  <BuildingCapsule.DialogExtract_Amount>꺼낼 수량: {0} / {1}</BuildingCapsule.DialogExtract_Amount>
+  <BuildingCapsule.DialogExtract_Confirm>꺼내기 확인</BuildingCapsule.DialogExtract_Confirm>
+  <BuildingCapsule.DialogExtract_Cancel>취소</BuildingCapsule.DialogExtract_Cancel>
+  <BuildingCapsule.DialogExtract_Close>닫기</BuildingCapsule.DialogExtract_Close>
+  <BuildingCapsule.DialogExtract_All>전부</BuildingCapsule.DialogExtract_All>
+  <BuildingCapsule.DialogExtract_Summary>아이템 {0}개를 꺼낼 예정입니다.</BuildingCapsule.DialogExtract_Summary>
+  <BuildingCapsule.DialogExtract_Hint>팁: Ctrl 키를 누른 채 클릭하면 조절량이 10배, Shift 키는 100배, 동시에 누르면 1000배가 됩니다.</BuildingCapsule.DialogExtract_Hint>
+  <BuildingCapsule.Platform_CapturePawnsLabel>정착민 수납</BuildingCapsule.Platform_CapturePawnsLabel>
+  <BuildingCapsule.Platform_CapturePawnsDesc>활성화 시 플랫폼을 수납할 때 플랫폼 위에 있는 정착민도 함께 포장합니다. 기본값은 비활성입니다.</BuildingCapsule.Platform_CapturePawnsDesc>
+  <BuildingCapsule.Settings_PowerMultiplier>발전 플랫폼 발전량 계수: {0}x</BuildingCapsule.Settings_PowerMultiplier>
+  <BuildingCapsule.Settings_CostMultiplier>플랫폼 건설 비용 계수: {0}x</BuildingCapsule.Settings_CostMultiplier>
+  <BuildingCapsule.Settings_Reset>기본값으로 복원</BuildingCapsule.Settings_Reset>
+  <BuildingCapsule.Settings_HidePlatformTexture>플랫폼 텍스처 숨기기 (플랫폼을 어디에 배치했는지 잊어버린다면, Z를 눌러 플랫폼이라고 검색해보거나, 이 설정을 다시 원래대로 되돌리고 찾으세요.)</BuildingCapsule.Settings_HidePlatformTexture>
+</LanguageData>
