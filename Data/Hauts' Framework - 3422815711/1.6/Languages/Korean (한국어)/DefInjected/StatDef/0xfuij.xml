@@ -1,17 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <!--Original=ideoligious ability susceptibility-->
-  <Hauts_IdeoAbilityDurationSelf.label>사상 능력 민감성</Hauts_IdeoAbilityDurationSelf.label>
-  <!--Original=A multiplier to the duration of ideoligious abilityーcaused mental states and health conditions on this pawn.-->
-  <Hauts_IdeoAbilityDurationSelf.description>이 대상에 적용되는 사상 능력으로 인한 정신 상태와 건강 상태의 지속시간에 대한 계수입니다.</Hauts_IdeoAbilityDurationSelf.description>
-  <!--Original=ideoligious thought factor-->
-  <Hauts_IdeoThoughtFactor.label>사상 생각 계수</Hauts_IdeoThoughtFactor.label>
-  <!--Original=A multiplier to ideologyーcaused moods&apos; and opinions&apos; magnitude.-->
-  <Hauts_IdeoThoughtFactor.description>사상으로 인해 발생한 기분과 의견의 강도에 대한 계수입니다.</Hauts_IdeoThoughtFactor.description>
-  <!--Original=max dryad factor-->
-  <Hauts_MaxDryadFactor.label>나무지기 최대 수 계수</Hauts_MaxDryadFactor.label>
-  <!--Original=A multiplier to how many dryads a connected gauranlen tree can sustain. Rounds down.-->
-  <Hauts_MaxDryadFactor.description>연결된 요정나무가 수용할 수 있는 최대 나무지기의 수에 대한 계수입니다. 소수점은 버림합니다.</Hauts_MaxDryadFactor.description>
   <!--Original=psycast focus refund-->
   <Hauts_PsycastFocusRefund.label>초능력 집중 환불</Hauts_PsycastFocusRefund.label>
   <!--Original=On psycasting, regain this proportion of the psyfocus spent.-->
@@ -42,12 +30,8 @@
   <Hauts_SkipcastRangeFactor.description>이 대상이 사용하는 '공간도약' 초능력에 사거리에 대한 계수입니다. 공간도약이나 혼돈의 공간도약같이 이름에 '공간도약'이 포함된 초능력들이 여기에 해당합니다. 하지만 섬광폭풍같이 이 능력치에 영향을 받는 다른 초능력들도 있습니다. (이러한 초능력은 툴팁에서 관문을 사용하여 효과를 생성한다고 명시되거나 암시되어 있습니다.)</Hauts_SkipcastRangeFactor.description>
   <!--Original=firstーlevel psycast cost offset-->
   <Hauts_TierOnePsycastCostOffset.label>1단계 초능력 비용 보정치</Hauts_TierOnePsycastCostOffset.label>
-  <!--Original=If Vanilla Psycasts Expanded is in the active modlist, provides a flat offset to the amount of psyfocus needed to cast 1stーlevel psycasts. Otherwise, if negative, its absolute value is added to the total psyfocus cost refund of any 1stーlevel psycast.-->
-  <Hauts_TierOnePsycastCostOffset.description>Vanilla Psycasts Expanded 모드가 활성화돼있는 경우 1단계 초능력을 시전하는데 필요한 초집중의 양에 고정된 수치만큼 보정값을 제공합니다. 그렇지 않고 이 값이 음수인 경우, 절대값이 모든 1단계 초능력의 초집중 환급 총합에 더해집니다.</Hauts_TierOnePsycastCostOffset.description>
-  <!--Original=instructive ability-->
-  <Hauts_InstructiveAbility.label>교육 능력</Hauts_InstructiveAbility.label>
-  <!--Original=A multiplier to the amount of skill experience and learning conveyed to those who take lessons from or watch the work of this character.-->
-  <Hauts_InstructiveAbility.description>이 대상으로부터 수업을 받거나 일을 구경하는 이들이 얻는 기술 경험치와 학습 욕구의 계수입니다.</Hauts_InstructiveAbility.description>
+  <!--Original=If Vanilla Psycasts Expanded is in the active modlist, provides a flat offset to the amount of psyfocus needed to cast 1stーlevel psycasts. If not, it is added to the total psyfocus cost refund of any 1stーlevel psycast.-->
+  <Hauts_TierOnePsycastCostOffset.description>Vanilla Psycasts Expanded 모드가 활성화돼있는 경우 1단계 초능력을 시전하는데 필요한 초집중의 양에 고정된 수치만큼 보정값을 제공합니다. 활성화돼있지 않다면, 모든 1단계 초능력의 초집중 환급 총합에 더해집니다.</Hauts_TierOnePsycastCostOffset.description>
   <!--Original=apparel wear rate factor-->
   <Hauts_ApparelWearRateFactor.label>의류 마모율 계수</Hauts_ApparelWearRateFactor.label>
   <!--Original=A multiplier to the rate at which worn apparel deteriorates.\n\nThis only affects hit point loss from gradual deterioration, not hit point loss from damaging hits.-->
@@ -104,18 +88,10 @@
   <Hauts_PawnAlertLevel.label>경계 수준</Hauts_PawnAlertLevel.label>
   <!--Original=The ability to detect and thwart pickpocketing attempts.-->
   <Hauts_PawnAlertLevel.description>소매치기 시도를 감지하고 저지하는 능력입니다.</Hauts_PawnAlertLevel.description>
-  <!--Original=hemogen yield-->
-  <Hauts_HemogenContentFactor.label>혈액 수확량</Hauts_HemogenContentFactor.label>
-  <!--Original=The density of hemogen in this character&apos;s blood. At higher values, bloodfeeders will gain more hemogen per feeding from this character, and medical extraction of hemogen packs will incur less blood loss.-->
-  <Hauts_HemogenContentFactor.description>이 대상의 혈액 밀도입니다. 값이 높을수록, 흡혈종이 이 대상에게 흡혈할 때 더 많은 혈액정수를 획득하며, 의료 작업으로 혈액팩 추출 시 혈액 손실이 줄어듭니다.</Hauts_HemogenContentFactor.description>
   <!--Original=surveying speed-->
   <Hauts_SurveySpeed.label>측량 속도</Hauts_SurveySpeed.label>
   <!--Original=How quickly this person can find things using scanning equipment.-->
   <Hauts_SurveySpeed.description>탐색 장비를 사용해 대상을 발견하는 속도입니다.</Hauts_SurveySpeed.description>
-  <!--Original=recycling speed-->
-  <Hauts_RecyclingSpeed.label>재활용 속도</Hauts_RecyclingSpeed.label>
-  <!--Original=The speed at which this person recycles various forms of trash.\n\nSince recycling is dumb labor, recycling speed is not affected by any skill.-->
-  <Hauts_RecyclingSpeed.description>이 사람이 다양한 종류의 쓰레기를 재활용하는 속도입니다.\n\n재활용은 단순 노동이므로, 재활용 속도는 어떤 기술에도 영향을 받지 않습니다.</Hauts_RecyclingSpeed.description>
   <!--Original=breach damage factor-->
   <Hauts_BreachDamageFactor.label>파괴 피해 계수</Hauts_BreachDamageFactor.label>
   <!--Original=A multiplier to the amount of damage dealt to buildings.-->
@@ -132,12 +108,34 @@
   <Hauts_RangedArmorPenetration.label>원거리 방어 관통력 계수</Hauts_RangedArmorPenetration.label>
   <!--Original=A multiplier on ranged armor penetration.-->
   <Hauts_RangedArmorPenetration.description>원거리 방어 관통력에 적용되는 계수입니다.</Hauts_RangedArmorPenetration.description>
-  <!--Original=mech command range-->
-  <Hauts_MechCommandRange.label>메카노이드 명령 범위</Hauts_MechCommandRange.label>
-  <!--Original=The radius in which a mechanitor can issue specific orders to controlled mechanoids.-->
-  <Hauts_MechCommandRange.description>메카나이터가 지휘하는 메카노이드에게 특정 명령을 내릴 수 있는 범위입니다.</Hauts_MechCommandRange.description>
-  <!--Original=Tweaks Galore setting-->
-  <Hauts_MechCommandRange.parts.0.label>Tweaks Galore 설정</Hauts_MechCommandRange.parts.0.label>
+  <!--Original=ideoligious ability susceptibility-->
+  <Hauts_IdeoAbilityDurationSelf.label>사상 능력 민감성</Hauts_IdeoAbilityDurationSelf.label>
+  <!--Original=A multiplier to the duration of ideoligious abilityーcaused mental states and health conditions on this pawn.-->
+  <Hauts_IdeoAbilityDurationSelf.description>이 대상에 적용되는 사상 능력으로 인한 정신 상태와 건강 상태의 지속시간에 대한 계수입니다.</Hauts_IdeoAbilityDurationSelf.description>
+  <!--Original=ideoligious thought factor-->
+  <Hauts_IdeoThoughtFactor.label>사상 생각 계수</Hauts_IdeoThoughtFactor.label>
+  <!--Original=A multiplier to ideologyーcaused moods&apos; and opinions&apos; magnitude.-->
+  <Hauts_IdeoThoughtFactor.description>사상으로 인해 발생한 기분과 의견의 강도에 대한 계수입니다.</Hauts_IdeoThoughtFactor.description>
+  <!--Original=max dryad factor-->
+  <Hauts_MaxDryadFactor.label>나무지기 최대 수 계수</Hauts_MaxDryadFactor.label>
+  <!--Original=A multiplier to how many dryads a connected gauranlen tree can sustain. Rounds down.-->
+  <Hauts_MaxDryadFactor.description>연결된 요정나무가 수용할 수 있는 최대 나무지기의 수에 대한 계수입니다. 소수점은 버림합니다.</Hauts_MaxDryadFactor.description>
+  <!--Original=instructive ability-->
+  <Hauts_InstructiveAbility.label>교육 능력</Hauts_InstructiveAbility.label>
+  <!--Original=A multiplier to the amount of skill experience and learning conveyed to those who take lessons from or watch the work of this character.-->
+  <Hauts_InstructiveAbility.description>이 대상으로부터 수업을 받거나 일을 구경하는 이들이 얻는 기술 경험치와 학습 욕구의 계수입니다.</Hauts_InstructiveAbility.description>
+  <!--Original=hemogen yield-->
+  <Hauts_HemogenContentFactor.label>혈액 수확량</Hauts_HemogenContentFactor.label>
+  <!--Original=The density of hemogen in this character&apos;s blood. At higher values, bloodfeeders will gain more hemogen per feeding from this character, and medical extraction of hemogen packs will incur less blood loss.-->
+  <Hauts_HemogenContentFactor.description>이 대상의 혈액 밀도입니다. 값이 높을수록, 흡혈종이 이 대상에게 흡혈할 때 더 많은 혈액정수를 획득하며, 의료 작업으로 혈액팩 추출 시 혈액 손실이 줄어듭니다.</Hauts_HemogenContentFactor.description>
+  <!--Original=recycling speed-->
+  <Hauts_RecyclingSpeed.label>재활용 속도</Hauts_RecyclingSpeed.label>
+  <!--Original=The speed at which this person recycles various forms of trash.\n\nSince recycling is dumb labor, recycling speed is not affected by any skill.-->
+  <Hauts_RecyclingSpeed.description>이 사람이 다양한 종류의 쓰레기를 재활용하는 속도입니다.\n\n재활용은 단순 노동이므로, 재활용 속도는 어떤 기술에도 영향을 받지 않습니다.</Hauts_RecyclingSpeed.description>
+  <!--Original=mech command range (Deprecated!)-->
+  <Hauts_MechCommandRange.label>메카노이드 명령 범위 (사용 안함!)</Hauts_MechCommandRange.label>
+  <!--Original=Currently only exists for hypothetical backend compatibility purposes.-->
+  <Hauts_MechCommandRange.description>현재는 가상의 백엔드 호환성 확보 목적으로만 존재합니다.</Hauts_MechCommandRange.description>
   <!--Original=mech energy usage offset-->
   <Hauts_MechEnergyUsage.label>메카노이드 전력 사용 보정치</Hauts_MechEnergyUsage.label>
   <!--Original=An offset to the rate at which a mechanitor&apos;s mechanoids consume energy while operating.-->

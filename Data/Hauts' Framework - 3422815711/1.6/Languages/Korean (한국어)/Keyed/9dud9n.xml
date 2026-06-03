@@ -2,6 +2,10 @@
 <LanguageData>
   <!--English=[Hauts&apos; Framework] active.-->
   <Hauts_Initialize>[Hauts' Framework] active.</Hauts_Initialize>
+  <!--English=Enable traits to determine body type-->
+  <Hauts_SettingForcedBodyTypes>특성에 따른 체형 결정 활성화</Hauts_SettingForcedBodyTypes>
+  <!--English=Some traits (such as Mighty and Herculean from Hauts&apos; Added Traits) use a tool from this Framework to change some body types into others. Turning this off disables that behavior.\n\nDoes not undo body type changes that have already been wrought ー you will need some other means of changing body types to do so (e.g. Character Editor or Biotech&apos;s body type genes).-->
+  <Hauts_TooltipForcedBodyTypes>일부 특성(Hauts' Added Traits의 강력함과 초 강력함 같은 특성)은 이 프레임워크의 기능을 활용하여 특정 체형을 다른 체형으로 변경합니다. 이 설정을 끄면 해당 기능이 비활성화됩니다.\n\n이미 변경이 완료된 체형을 이전 체형으로 돌리지는 않습니다. - 원래대로 되돌리려면 다른 체형 변경 수단(예: Character Editor 또는 바이오테크의 체형 유전자)을 사용해야 합니다.</Hauts_TooltipForcedBodyTypes>
   <!--English=Crafting skill affects rate at which worn apparel decays-->
   <Hauts_SettingAWRFC>제작 기술이 착용한 의류 내구도 감소 속도에 영향</Hauts_SettingAWRFC>
   <!--English=If enabled, grants ー1% apparel wear rate factor per level of crafting skill.-->
@@ -18,6 +22,22 @@
   <Hauts_SettingPSC>사교 기술이 절도 은밀도에 영향</Hauts_SettingPSC>
   <!--English=If enabled, grants +0.01x pilfering stealth per level of social skill. Note, however, that the base value for pilfering stealth is 0, and only the Biotech DLC or certain other mods (such as Hauts&apos; Added Traits or Vanilla Skills Expanded) provide sources of flat pilfering stealth.-->
   <Hauts_TooltipPSC>활성화 시, 사교 기술 수준마다 절도 은밀도 +0.01x 가 부여됩니다. 단, 절도 은밀도의 기본 값은 0이며, Biotech DLC 또는 특정 다른 모드들(Hauts' Added Traits 또는 Vanilla Skills Expanded)만이 절도 은밀도의 기본 값 공급원을 제공한다는 점을 유의하세요.</Hauts_TooltipPSC>
+  <!--English=Gain Vanilla Psycasts Expanded xp from &quot;psyfocus per day&quot;-->
+  <Hauts_SettingVPEXPregen>"일일 초집중"으로 Vanilla Psycasts Expanded 경험치 획득</Hauts_SettingVPEXPregen>
+  <!--English=If enabled, psyfocus gained through the psyfocus per day stat generates xp.-->
+  <Hauts_TooltipVPEXPregen>활성화 시, 일일 초집중 능력치를 통해 얻는 초집중이 초능력 경험치를 생성합니다.</Hauts_TooltipVPEXPregen>
+  <!--English=Gain Vanilla Psycasts Expanded xp from &quot;psycast focus refund&quot;-->
+  <Hauts_SettingVPEXPrefund>"초능력 집중 환불"로 Vanilla Psycasts Expanded 경험치 획득</Hauts_SettingVPEXPrefund>
+  <!--English=If enabled, psyfocus gained through the psyfocus focus refund stat generates xp.-->
+  <Hauts_TooltipVPEXPrefund>활성화 시, 초능력 집중 환불 능력치를 통해 얻는 초집중이 초능력 경험치를 생성합니다.</Hauts_TooltipVPEXPrefund>
+  <!--English=Gain Vanilla Psycasts Expanded xp from &quot;psyfocus gain on kill&quot;-->
+  <Hauts_SettingVPEXPonKill>"처치시 초집중 획득"으로 Vanilla Psycasts Expanded 경험치 획득</Hauts_SettingVPEXPonKill>
+  <!--English=If enabled, psyfocus gained through the psyfocus gain on kill stat generates xp.-->
+  <Hauts_TooltipVPEXPonKill>활성화 시, 처치시 초집중 획득 능력치를 통해 얻는 초집중이 초능력 경험치를 생성합니다.</Hauts_TooltipVPEXPonKill>
+  <!--English=Gain Vanilla Psycasts Expanded xp from &quot;psyfocus gain per nutrition&quot;-->
+  <Hauts_SettingVPEXPonFood>"열량당 초집중 획득"로 Vanilla Psycasts Expanded 경험치 획득</Hauts_SettingVPEXPonFood>
+  <!--English=If enabled, psyfocus gained through the psyfocus gain per nutrition stat generates xp.-->
+  <Hauts_TooltipVPEXPonFood>활성화 시, 처치시 열량당 초집중 획득 능력치를 통해 얻는 초집중이 초능력 경험치를 생성합니다.</Hauts_TooltipVPEXPonFood>
   <!--English=Requires at least {0} {1}.-->
   <Hauts_AbilityNeedsHigherStatToUse>Requires at least {0} {1}.</Hauts_AbilityNeedsHigherStatToUse>
   <!--English=Jump range factor-->
@@ -131,9 +151,9 @@
   <!--English=target lacks any needs affected by the ability-->
   <Hauts_LacksAnyAffectedNeed>target lacks any needs affected by the ability</Hauts_LacksAnyAffectedNeed>
   <!--English=Paired with: -->
-  <Hauts_PairPrefix>Paired with: </Hauts_PairPrefix>
+  <Hauts_PairPrefix>연결됨: </Hauts_PairPrefix>
   <!--English=\n{0} on {1}-->
-  <Hauts_PairedWithHediff>\n{0} on {1}</Hauts_PairedWithHediff>
+  <Hauts_PairedWithHediff>\n{1}의 {0}</Hauts_PairedWithHediff>
   <!--English=\n{0}-->
   <Hauts_PairedWithOther>\n{0}</Hauts_PairedWithOther>
   <!--English=A bioferriteーdestabilizing effect within {PAWN_nameDef} destroyed a recently acquired metalhorror parasite. The destabilizer has been burnt out in the process.-->
@@ -198,6 +218,10 @@
   <Hauts_PickpocketOutcome3>{0}(은)는 어떤 물품도 훔치지 못했습니다.\n\n{1}의 근처에 있는 모든 사람들의 경계 수준이 높아졌고, 그들과의 우호도가 다소 낮아졌습니다.</Hauts_PickpocketOutcome3>
   <!--English={0} did not manage to steal any items from {1}, who has become enraged by the attempt!-->
   <Hauts_PickpocketOutcome3_Factionless>{0}(은)는 어떤 물품도 훔치지 못했으며, {1}(은)는 소매치기 시도로 인해 격노했습니다!</Hauts_PickpocketOutcome3_Factionless>
+  <!--English=Attempt to steal from this site. The site&apos;s current alert level is {0}, and the caravan&apos;s stealth rating (based on the pilfering stealth stat) is {1}. Failure may increase alert level and lead to other unpleasant consequences.\n\nSuccess is guaranteed if the caravan&apos;s stealth rating exceeds the site&apos;s alert level by 1 or more; failure is guaranteed if the difference is 0 or lower.-->
+  <Hauts_MiscSiteTheftTooltip>이 지역에서 훔치기를 시도합니다. 현재 이 지역의 경계 수준은 {0}이며, 상단 은밀도(절도 은밀도 능력치에 기반)는 {1}입니다. 실패 시 경계 수준이 높아지거나 다른 불미스러운 결과가 발생할 수 있습니다.\n\n상단 은밀도가 지역의 경계 수준보다 1 이상이면 무조건 성공합니다. 차이가 0 이하면 무조건 실패합니다.</Hauts_MiscSiteTheftTooltip>
+  <!--English=Affects the following damage types-->
+  <Hauts_AffectsTheseDamageTypes>다음과 같은 피해 유형에 영향을 줌</Hauts_AffectsTheseDamageTypes>
   <!--English=Cannot add {0} to inventory of {1} because it is not haulable.-->
   <Hauts_CantSpawnUnminified>{1}의 소지품에 {0}(을)를 추가할 수 없습니다. 운반 가능한 물품이 아니기 때문입니다.</Hauts_CantSpawnUnminified>
   <!--English=Body parts cannot be removed from {0} due to the {1} trait.-->
@@ -238,6 +262,26 @@
   <HVT_TooltipMinTraits>특히 특이한 상황 외에는 폰이 생성될 때 가지는 특성 수의 최소값입니다.\n\n성장의 순간(바이오테크 DLC)을 겪을 수 있는 어린 폰은 영향을 받지 않습니다.</HVT_TooltipMinTraits>
   <!--English=Maximum traits per pawn-->
   <HVT_SettingMaxTraits>폰당 최대 특성 수</HVT_SettingMaxTraits>
-  <!--English=Pawns will be able to spawn with up to this many traits, except in rare circumstances that force additional traits.\n\n\nWith the Biotech DLC, the number and spacing of growth moments for children adjusts as follows:\n\n3 max traits) Growth moments happen on the 7th, 10th, and 13th birthdays; growth points gain at the usual rate (25% slower for the first one, then at 1x speed).\n\n4mt) Growth moments on bdays 6, 9, 11, and 13; growth points gain 50% faster for the last two.\n\n5mt) Growth moments on bdays 5, 7, 9, 11, and 13; growth points gain 50% faster.\n\n6mt) Identical to 3mt, but there are two growth moments for each such birthday.\n\n7mt) One growth moment on bday 6, and two growth moments on bdays 9, 11, and 13; growth points gain 50% faster for the last two.\n\n8mt) Two growth moments each on bdays 6, 9, 11, and 13; growth points gain 50% faster for the last two.\n\n9mt) Identical to 3mt, but there are three growth moments for each such birthday.-->
-  <HVT_TooltipMaxTraits>추가 특성이 강제되는 드문 상황을 제외하고 폰이 생성될 때 가지는 특성 수의 최대값입니다.\n\n\n비이오테크 DLC를 사용하면 어린이의 성장의 순간 수와 간격이 다음과 같이 조정됩니다:\n\n최대 특성 수 3) 성장의 순간은 7, 10, 13살에 발생; 성장 등급은 보통 속도로 증가(첫 번째는 25% 느리게, 다음은 1배 속도)\n\n4) 성장의 순간은 6, 9, 11, 13살에 발생; 마지막 두 번의 성장의 순간에는 성장 등급 50% 빠르게 획득\n\n5) 성장의 순간은 5, 7, 9, 11, 13살에 발생; 성장 등급 50% 빠르게 획득\n\n6) 특성 수 3과 동일하지만 생일마다 성장의 순간 2번 발생\n\n7) 6살에 성장의 순간 한번, 9, 11, 13살에 성장의 순간 2번 발생; 마지막 두 번의 성장의 순간에는 성장 등급 50% 빠르게 획득\n\n8) 6, 9, 11, 13살에 성장의 순간 2번 발생; 마지막 두 번의 성장의 순간에는 성장 등급 50% 빠르게 획득\n\n9) 특성 수 3과 동일하지만 생일마다 성장의 순간 3번 발생</HVT_TooltipMaxTraits>
+  <!--English=Pawns will be able to spawn with up to this many traits, except in rare circumstances that force additional traits.\n\n\nWith the Biotech DLC, the number and spacing of growth moments for children adjusts as follows:
+\nー3 max traits) Growth moments happen on the 7th, 10th, and 13th birthdays; growth points gain at the usual rate (25% slower for the first one, then at 1x speed).
+\nー4mt) Moments on bdays 6, 9, 11, 13; growth points gain 50% faster for the last two.
+\nー5mt) Moments on bdays 5, 7, 9, 11, 13; points gain 50% faster.
+\nー6mt) Identical to 3mt, but there are two moments per bday.
+\nー7mt) One moment on bday 6; two on bdays 9, 11, 13; points gain 50% faster for the last two.
+\nー8mt) Two moments each on bdays 6, 9, 11, 13; points gain 50% faster for the last two.
+\nー9mt) Identical to 3mt, but there are three moments per bday.
+\nー10mt) Two moments on bdays 5, 7, 9, 11, 13; points gain 50% faster.
+\nー11mt) Two moments on bday 6; three on bdays 9, 11, 13; points gain 50% faster for the last two.
+\nー12mt) Three moments on bdays 6, 9, 11, 13; points gain 50% faster for the last two.-->
+  <HVT_TooltipMaxTraits>추가 특성을 강제하는 드문 상황을 제외하고 폰이 생성될 때 가지는 특성 수의 최대값입니다.\n\n\n비이오테크 DLC를 사용하면 어린이의 성장의 순간 수와 간격이 다음과 같이 조정됩니다:
+\n-최대 특성 수 3) 성장의 순간이 7, 10, 13살에 발생; 성장 등급은 보통 속도로 증가(첫 번째는 25% 느리게, 다음은 1배 속도)
+\n-4) 성장의 순간이 6, 9, 11, 13살에 발생; 마지막 두 번의 성장의 순간에는 성장 등급 50% 빠르게 획득
+\n-5) 성장의 순간이 5, 7, 9, 11, 13살에 발생; 성장 등급 50% 빠르게 획득
+\n-6) 특성 수 3과 동일하지만 생일마다 성장의 순간 두 번 발생
+\n-7) 6살에 성장의 순간 한 번, 9, 11, 13살에 성장의 순간 두 번 발생; 마지막 두 번의 성장의 순간에는 성장 등급 50% 빠르게 획득
+\n-8) 6, 9, 11, 13살에 성장의 순간 두 번 발생; 마지막 두 번의 성장의 순간에는 성장 등급 50% 빠르게 획득
+\n-9) 특성 수 3과 동일하지만 생일마다 성장의 순간 세 번 발생
+\n-10) 5, 7, 9, 11, 13살에 성장의 순간 두 번 발생; 성장 등급 50% 빠르게 획득
+\n-11) 6살에 성장의 순간 두 번, 9, 11, 13살에 성장의 순간 세 번 발생; 마지막 두 번의 성장의 순간에는 성장 등급 50% 빠르게 획득
+\n-12) 6, 9, 11, 13살에 성장의 순간 세 번 발생; 마지막 두 번의 성장의 순간에는 성장 등급 50% 빠르게 획득</HVT_TooltipMaxTraits>
 </LanguageData>
