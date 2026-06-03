@@ -236,8 +236,8 @@
   <HVT_TwistedHumanApathy.description>'뒤틀림' 특성을 가진 사람은 좋든 나쁘든 다른 사람에게 관심을 갖는 걸 어려워합니다.</HVT_TwistedHumanApathy.description>
   <!--Original=celestial celerity-->
   <HVT_SpaceSpeed.label>천공의 기민함</HVT_SpaceSpeed.label>
-  <!--Original=The &apos;Celestial Celerity&apos; trait grants moving and manipulation while in orbit.-->
-  <HVT_SpaceSpeed.description>'천공의 기민함' 특성은 궤도에 있을 때 이동과 조작 능력을 부여합니다.</HVT_SpaceSpeed.description>
+  <!--Original=The &apos;Celestial Celerity&apos; trait grants moving and manipulation while in space.-->
+  <HVT_SpaceSpeed.description>'천공의 기민함' 특성은 우주에 있을 때 이동과 조작 능력을 부여합니다.</HVT_SpaceSpeed.description>
   <!--Original=globetrotter&apos;s experience-->
   <HVT_GlobetrotterTracker.label>세계 여행자의 경험</HVT_GlobetrotterTracker.label>
   <!--Original=The &quot;Globetrotter&quot; trait grants +0.5 mood per unique biome or landmark feature witnessed.-->
@@ -728,8 +728,8 @@
   <HVT_THediffNotothen.description>섭씨 16C 미만일 때, 방어력과 신경열 회복속도에 보너스를 제공합니다. 온도가 낮을수록 보너스는 더 강력해집니다.</HVT_THediffNotothen.description>
   <!--Original=transcendent notothen resistances-->
   <HVT_THediffNotothen2.label>남극암치 초월자 저항력</HVT_THediffNotothen2.label>
-  <!--Original=These are handled separately because otherwise they&apos;d scale with the temperature.-->
-  <HVT_THediffNotothen2.description>이것들은 온도에 따라 변동하지 않도록 별도로 처리됩니다.</HVT_THediffNotothen2.description>
+  <!--Original=Deprecated.-->
+  <HVT_THediffNotothen2.description>사용 안함.</HVT_THediffNotothen2.description>
   <!--Original=transcendent oilbird-->
   <HVT_THediffOilbird.label>기름쏙독새 초월자</HVT_THediffOilbird.label>
   <!--Original=Tribal folklorists invoke the echolocating oilbird to describe psychics who receive information in places they&apos;ve recently psycast.-->
@@ -1142,10 +1142,6 @@
   <HVT_SuperSpreader.label>병원성</HVT_SuperSpreader.label>
   <!--Original=Putrefy, rot, spoil, and fester!-->
   <HVT_SuperSpreader.description>부패하고, 상하고, 썩어 문드러져라.</HVT_SuperSpreader.description>
-  <!--Original=choose ennui trait-->
-  <HVT_WordOfEnnuiSelf.label>권태 특성 선택</HVT_WordOfEnnuiSelf.label>
-  <!--Original=Choose a concernーnullifying trait to temporarily gain. Duration scales with psychic sensitivity. Can&apos;t restore a suppressed trait.-->
-  <HVT_WordOfEnnuiSelf.description>일시적으로 얻을 관심을 무효화하는 특성을 선택하세요. 지속시간은 정신 감응력에 비례합니다. 억제된 특성은 복구할 수 없습니다.</HVT_WordOfEnnuiSelf.description>
   <!--Original=psychicallyーinduced asceticism-->
   <HVT_Asceticism.label>정신적 유도된 검소</HVT_Asceticism.label>
   <!--Original=Inflicts the Ascetic trait. The duration scales with psychic sensitivity.-->
@@ -1166,10 +1162,6 @@
   <HVT_Teetotality.label>정신적 유도된 금주</HVT_Teetotality.label>
   <!--Original=Inflicts the Teetotaler trait. The duration scales with psychic sensitivity.-->
   <HVT_Teetotality.description>금주 특성을 부여합니다. 지속시간은 정신 감응력에 비례합니다.</HVT_Teetotality.description>
-  <!--Original=choose verve trait-->
-  <HVT_WordOfVerveSelf.label>활기 특성 선택</HVT_WordOfVerveSelf.label>
-  <!--Original=Choose a positive personality trait to temporarily gain. Duration scales with psychic sensitivity. Can&apos;t restore a suppressed trait.-->
-  <HVT_WordOfVerveSelf.description>일시적으로 얻을 긍정적인 성격 특성을 선택하세요. 지속시간은 정신 감응력에 비례합니다. 억제된 특성은 복구할 수 없습니다.</HVT_WordOfVerveSelf.description>
   <!--Original=psychicallyーinduced charisma-->
   <HVT_Charisma.label>정신적 유도된 재담가</HVT_Charisma.label>
   <!--Original=Inflicts the Conversationalist trait. The duration scales with psychic sensitivity.-->
@@ -1198,10 +1190,6 @@
   <HVT_ViciousBuff.label>초능력 악의</HVT_ViciousBuff.label>
   <!--Original=Increased attack speed, accuracy, damage, and armor penetration.-->
   <HVT_ViciousBuff.description>공격 속도, 명중률, 피해, 방어 관통력이 증가합니다.</HVT_ViciousBuff.description>
-  <!--Original=choose genius trait-->
-  <HVT_WordOfGeniusSelf.label>천재 특성 선택</HVT_WordOfGeniusSelf.label>
-  <!--Original=Choose a skillー or productivityーboosting trait to temporarily gain. Duration scales with psychic sensitivity. Can&apos;t restore a suppressed trait.-->
-  <HVT_WordOfGeniusSelf.description>일시적으로 얻을 기술 또는 생산성을 향상시키는 특성을 선택하세요. 지속시간은 정신 감응력에 비례합니다. 억제된 특성은 복구할 수 없습니다.</HVT_WordOfGeniusSelf.description>
   <!--Original=psychicallyーinduced drudgery-->
   <HVT_Drudgery.label>정신적 유도된 잡역부</HVT_Drudgery.label>
   <!--Original=Inflicts the Drudge trait. The duration scales with psychic sensitivity.-->

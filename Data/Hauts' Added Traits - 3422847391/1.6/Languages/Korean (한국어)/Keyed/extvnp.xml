@@ -10,6 +10,10 @@
   <HVT_SettingSkulkerEvents2>가장 위험한 잠복자 사건 비활성화</HVT_SettingSkulkerEvents2>
   <!--English=If both this AND the previous setting are unchecked, hostile factions can use Skulkers in challenging and potentially unfair raid types.-->
   <HVT_TooltipSkulkerEvents2>이 설정과 이전 설정을 체크하지 않았다면 적대 세력은 도전적이고 불공평할 수도 있는 습격 유형에서 잠복자를 사용합니다.</HVT_TooltipSkulkerEvents2>
+  <!--English=Strength traits can change body type-->
+  <HVT_SettingStrengthBodyType>근력 특성의 체형 변경</HVT_SettingStrengthBodyType>
+  <!--English=If enabled, the Mighty and Herculean traits cause humans that would have the &quot;thin&quot; or &quot;average&quot; body types to instead have the &quot;hulk&quot; body type.\n\nToggling this on or off will not change the body type of pawns that already have either trait.-->
+  <HVT_TooltipStrengthBodyType>활성화하면 강력함과 초 강력함 특성은 "마름" 또는 "보통" 체형이였던 인간들이 "거대함" 체형을 가지게 됩니다.\n\n이 설정을 켜거나 끄더라도 이미 해당 특성 중 하나를 가지고 있는 폰들의 체형은 변경되지 않습니다.</HVT_TooltipStrengthBodyType>
   <!--English=Xenotypists hate aliens-->
   <HVT_GenePuristsHAR>이종 혐오자의 외계인 혐오</HVT_GenePuristsHAR>
   <!--English=If using a mod that allows for nonーhuman sophonts (e.g. Humanoid Alien Races or Big and Small Genes Framework), pawns with the Xenotypist trait will hate those of different species, not just those of different xenotypes.-->
@@ -26,6 +30,10 @@
   <HVT_SettingPNFStartingCharges>성격 신경조작기 초기 충전량</HVT_SettingPNFStartingCharges>
   <!--English=Determines how many charges a personality neuroformatter starts with. A lower amount will result in each neuroformatter being able to grant not only less traits, but a smaller variety as well, since some traits cost more charges than others.\n\nDoes not apply to neuroformatters that have already been created.-->
   <HVT_TooltipPNFStartingCharges>성격 신경조작기가 생성될 때 보유하는 충전량을 결정합니다. 수가 낮을수록 신경조작기로 부여할 수 있는 특성의 수가 줄어들 뿐만 아니라 특성의 종류도 줄어들게 됩니다. 일부 특성은 다른 특성보다 더 많은 충전량을 소모하기 때문입니다.\n\n이미 생성된 신경조작기에는 적용되지 않습니다.</HVT_TooltipPNFStartingCharges>
+  <!--English=Personality neuroformatter cost multiplier-->
+  <HVT_SettingPNFCostFactor>성격 신경조작기 비용 배율</HVT_SettingPNFCostFactor>
+  <!--English=If you feel like personality neuroformatters are too cheap for their power, you can use this slider to make them costlier.-->
+  <HVT_TooltipPNFCostFactor>성격 신경조작기가 성능에 비해 너무 저렴하게 느껴진다면 이 슬라이더를 사용해 비용이 더 들도록 조절할 수 있습니다.</HVT_TooltipPNFCostFactor>
   <!--English=Maximum number of psychic transcendences-->
   <HVT_SettingMaxTrans>최대 초능력 초월 수</HVT_SettingMaxTrans>
   <!--English=The maximum number of times an awakened psychic can achieve transcendence in the normal course of play.-->
@@ -98,6 +106,8 @@
   <HVT_GlobetrotterMutatorLister>목격한 지역 특징</HVT_GlobetrotterMutatorLister>
   <!--English=Choose a trait for {0} to temporarily gain.-->
   <HVT_HediffMenu>{0}(이)가 일시적으로 얻을 특성을 선택하세요.</HVT_HediffMenu>
+  <!--English=Choose a trait to temporarily inflict.-->
+  <HVT_HediffMenuMulti>일시적으로 얻을 특성을 선택하세요.</HVT_HediffMenuMulti>
   <!--English=While under the effects of the tabula rasa psycast, {0} gained the {1} trait.-->
   <HVT_TabulaRasad>깨끗한 석판 초능력의 효과를 받는 동안, {0}(이)가 {1} 특성을 얻었습니다.</HVT_TabulaRasad>
   <!--English= {0} will not gain further traits from the tabula rasa effect.-->
@@ -236,20 +246,32 @@
   <HVT_TransCerebrexScream>세레브렉스 코어가 죽으면서 심오하고 복잡한 정신적 신호를 방출했고, 이것이 {PAWN_nameDef}에게 어떤 방식으로든 영향을 미쳤습니다. 그 결과, </HVT_TransCerebrexScream>
   <!--English={PAWN_nameDef} was saved from death by the presence of a nearby anima tree!-->
   <HVT_CaravanAnimaRez>{PAWN_nameDef}(은)는 근처에 있는 영혼나무 덕분에 죽음에서 구원받았습니다!</HVT_CaravanAnimaRez>
-  <!--English=Summoned stranger-->
-  <HVT_PengwengGetLabel>소환된 구세주</HVT_PengwengGetLabel>
-  <!--English={0} sent out a transcendent call, and {1} has answered.-->
-  <HVT_PengwengGetText>{0}(이)가 초월적 부름을 보내자, {1}(이)가 응답했습니다.</HVT_PengwengGetText>
+  <!--English=Toggle goodwill gain-->
+  <HVT_Budgie_ToggleLabel>우호도 획득 전환</HVT_Budgie_ToggleLabel>
+  <!--English=Activate the transcendent powers of {PAWN_nameDef}, causing daily goodwill gain with all factions.\n\nCurrently: focused on selfーimprovement-->
+  <HVT_Budgie_ToggleTooltipOn>{PAWN_nameDef}의 초월적 힘을 활성화하여 매일마다 모든 세력의 우호도를 상승시킵니다.\n\n현재 상태: 자기 계발에 집중</HVT_Budgie_ToggleTooltipOn>
+  <!--English=Turn the transcendent powers of {PAWN_nameDef} inward, causing daily experience gain in three random skills and a small chance to be inspired each day.\n\nCurrently: focused on improving goodwill with other factions-->
+  <HVT_Budgie_ToggleTooltipOff>{PAWN_nameDef}의 초월적 힘을 내면으로 돌려 매일마다 세 개의 무작위 기술에 경험치를 획득하고 낮은 확률로 영감을 얻습니다.\n\n현재 상태: 다른 세력과의 우호도 개선에 집중</HVT_Budgie_ToggleTooltipOff>
+  <!--English=Having turned {PAWN_possessive} transcendent powers inward, {PAWN_nameDef} achieved some sort of epiphany, and became inspired.-->
+  <HVT_BudgieInspired>{PAWN_possessive} 초월직 힘을 내면으로 돌린 {PAWN_nameDef}(은)는 일종의 깨달음을 얻었고, 영감을 획득했습니다.</HVT_BudgieInspired>
   <!--English=As a transcendent cockroach, even death is insufficient to stop {PAWN_nameDef}. {PAWN_pronoun} will be restored to life within 3 to 15 days, unless {PAWN_possessive} body is destroyed.-->
-  <HVT_CockroachCanRez>죽음조차 바퀴벌레 초월자인 {PAWN_nameDef}(을)를 막을 수 없습니다. {PAWN_pronoun}(은)는 신체가 완전히 파괴되지 않는 한 3-15일 이내에 부활할 것 입니다.</HVT_CockroachCanRez>
+  <HVT_CockroachCanRez>죽음조차 바퀴벌레 초월자인 {PAWN_nameDef}(을)를 막을 수 없습니다. {PAWN_pronoun}(은)는 {PAWN_possessive} 신체가 완전히 파괴되지 않는 한 3-15일 이내에 부활할 것 입니다.</HVT_CockroachCanRez>
   <!--English=As a transcendent cockroach, even death is insufficient to stop {PAWN_nameDef}. {PAWN_possessive} impressive regenerative abilities have restored {PAWN_objective} to life!-->
   <HVT_CockroachRez>죽음조차 바퀴벌레 초월자인 {PAWN_nameDef}(을)를 막을 수 없습니다. {PAWN_possessive} 놀라운 재생 능력이 {PAWN_objective} 부활시켰습니다!</HVT_CockroachRez>
   <!--English=Transcendent disaster aversion-->
   <HVT_Deimos>초월적 재난 회피</HVT_Deimos>
   <!--English=The transcendent powers of {0} were able to prevent the following event from occuring: {1}-->
   <HVT_Deimos2>{0}의 초월적 힘이 다음 사건이 발생하는 것을 막을 수 있었습니다: {1}</HVT_Deimos2>
+  <!--English=Summoned stranger-->
+  <HVT_PengwengGetLabel>소환된 구세주</HVT_PengwengGetLabel>
+  <!--English={0} sent out a transcendent call, and {1} has answered.-->
+  <HVT_PengwengGetText>{0}(이)가 초월적 부름을 보내자, {1}(이)가 응답했습니다.</HVT_PengwengGetText>
+<!--English=As a transcendent emperor penguin, {PAWN_nameDef} can return from the dead. {PAWN_pronoun} will be restored to life after 6 days, unless {PAWN_possessive} body is destroyed.-->
+  <HVT_PengwengCanRez>황제펭귄 초월자인 {PAWN_nameDef}(은)는 죽어도 되살아날 수 있습니다. {PAWN_pronoun}(은)는 {PAWN_possessive} 신체가 완전히 파괴되지 않는 한 6일 후에 부활할 것 입니다.</HVT_PengwengCanRez>
+  <!--English=The transcendent powers of {PAWN_nameDef} have restored {PAWN_objective} to life!-->
+  <HVT_PengwengRez>{PAWN_nameDef}의 초월적 힘이 {PAWN_objective} 되살려냈습니다!</HVT_PengwengRez>
   <!--English=As a transcendent mynah, {0} managed to learn the {1} ability by studying {2} during a conversation!-->
-  <HVT_MynahLearnAbility>구관조 초월자로써 {0}(이)가 대화하는 동안 {2}(을)를 연구하여 {1} 능력을 습득하는데 성공했습니다!</HVT_MynahLearnAbility>
+  <HVT_MynahLearnAbility>구관조 초월자로써 {0}(이)가 대화하는 동안 {2}(을)를 연구하여 {1} 능력을 배우는 데 성공했습니다!</HVT_MynahLearnAbility>
   <!--English={PAWN_nameDef} contracted food poisoning, but {PAWN_possessive} transcendent powers dealt with the issue immediately.-->
   <HVT_PitohuiFP>{PAWN_nameDef}(은) 식중독에 걸렸지만, {PAWN_possessive} 초월적 힘이 문제를 즉시 해결했습니다.</HVT_PitohuiFP>
   <!--English={PAWN_nameDef} began overdosing on a drug, but {PAWN_possessive} transcendent powers dealt with the issue immediately.-->
@@ -333,7 +355,7 @@
   <!--English=Could not find any valid faction for this site.-->
   <HVT_RavenCantGenerateSite>이 지역에 유효한 세력을 찾을 수 없습니다.</HVT_RavenCantGenerateSite>
   <!--English={PAWN_nameDef} has been resurrected too recently by the power of the phoenix, and could not resurrect. The strain on the psychic manifold caused {PAWN_possessive} body to explode.-->
-  <HVT_PhoenixOverload>{PAWN_nameDef}(은)는 불사조의 힘으로 너무 최근에 부활해서 다시 부활할 수 없었습니다. 초능력 다차원 가해진 부담으로 인해 {PAWN_possessive} 신체가 폭발했습니다.</HVT_PhoenixOverload>
+  <HVT_PhoenixOverload>{PAWN_nameDef}(은)는 불사조의 힘으로 너무 최근에 부활해서 다시 부활할 수 없었습니다. 정신 다차원 가해진 부담으로 인해 {PAWN_possessive} 신체가 폭발했습니다.</HVT_PhoenixOverload>
   <!--English=Since this is the former host body of a transcendent wraith, its awakenings and transcendences have &quot;left&quot; it for whoever the newest host is.-->
   <HVT_WraithResurrection>망령 초월자의 이전 숙주였기 때문에, 이 신체의 각성 및 초월 능력은 가장 새로운 숙주에게로 '떠났습니다'.</HVT_WraithResurrection>
   <!--English=Transferral of one&apos;s consciousness over such vast distances carries a heavy price. Temporary incapacitation or disorientation has resulted in {PAWN_nameDef} becoming lost.-->
@@ -381,7 +403,7 @@
   <!--English={PAWN_pronoun} has gained incredible knowledge of psycasting. {PAWN_pronoun} may also harness more transcendences than others.-->
   <HVT_WokeErudite>{PAWN_pronoun}(은)는 초능력 시전에 대한 놀라운 지식을 얻었습니다. {PAWN_pronoun}(은)는 다른 사람들보다 더 많은 초월에 도달할 수 있습니다.</HVT_WokeErudite>
   <!--English={PAWN_pronoun} alters the topology of the local psychic manifold, enhancing nearby psycasters&apos; abilities.-->
-  <HVT_WokeLuminary>{PAWN_pronoun}(은)는 국지적 초능력 다차원의 위상을 변화시켜 근처 초집중 능력자들의 능력을 향상시킵니다.</HVT_WokeLuminary>
+  <HVT_WokeLuminary>{PAWN_pronoun}(은)는 국지적 정신 다차원의 위상을 변화시켜 근처 초집중 능력자들의 능력을 향상시킵니다.</HVT_WokeLuminary>
   <!--English={PAWN_pronoun} passively regenerates psyfocus.-->
   <HVT_WokeMantraist>{PAWN_pronoun}(은)는 초집중을 자동으로 회복합니다.</HVT_WokeMantraist>
   <!--English={PAWN_pronoun} can enter an &apos;hour of power&apos; once a day during which all psycasts have vastly reduced costs.-->
@@ -408,16 +430,16 @@
   <HVT_TransBat>{PAWN_pronoun}(이)가 정신장과 접촉하면(명상이나 초집중을 소모하여), {PAWN_pronoun}(은)는 초월공학들의 불가사의한 감각을 통해 주변 환경에 대한 인상을 받게 됩니다. 이러한 인상이 쌓일수록 그 효과는 더욱 강해집니다.</HVT_TransBat>
   <!--English={PAWN_pronoun} has developed a form of extrasensory perception that allows {PAWN_objective} to sense how nearby objects can be assembled together to create new structures... as well as how to tear existing structures down.-->
   <HVT_TransBeaver>{PAWN_pronoun}(은)는 근처의 물체들을 어떻게 조합해야 새로운 구조물을 만들 수 있는지 감지하는 초감각적 지각력을 개발했습니다... 또한 기존 구조물을 어떻게 해체할 수 있는지도 감지할 수 있습니다.</HVT_TransBeaver>
-  <!--English=When accompanied by psychic suggestion, {PAWN_possessive} words echo unnaturally far, causing the effect of {PAWN_possessive} Word psycasts to afflict every valid target in the vicinity. The higher {PAWN_possessive} psylink level, the furtherーreaching the echo.-->
-  <HVT_TransBellbird>초능력 암시와 함께라면 {PAWN_possessive} 말은 부자연스럽게 멀리까지 메아리쳐, 단어 계열 초능력의 효과가 근처의 모든 유효한 대상에게 영향을 미칩니다. {PAWN_possessive} 정신력 증폭 등급이 높을수록 메아리가 더 멀리까지 퍼져나갑니다.</HVT_TransBellbird>
+  <!--English=When accompanied by psychic suggestion, {PAWN_possessive} words can echo unnaturally far, causing the effect of {PAWN_possessive} Word psycasts to afflict every valid target in the vicinity.-->
+  <HVT_TransBellbird>초능력 암시와 함께라면 {PAWN_possessive} 말은 부자연스러울 정도로 멀리까지 메아리쳐, 단어 계열 초능력의 효과가 근처의 모든 유효한 대상에게 영향을 미칩니다.</HVT_TransBellbird>
   <!--English={PAWN_pronoun} is accompanied by a fiercely protective, invisible entity. It not only attempts to deflect incoming blows, but hostile entities that approach {PAWN_objective} will find themselves assailed by seemingly sourceless attacks.-->
   <HVT_TransBluejay>{PAWN_pronoun}(은)는 맹렬하게 보호하는 보이지 않는 존재와 함께합니다. 이 존재는 다가오는 공격을 빗나가게 하려고 할 뿐만 아니라, {PAWN_pronoun}에게 접근하는 적대적인 존재들은 근원지를 알 수 없는 공격을 받게 됩니다.</HVT_TransBluejay>
   <!--English={PAWN_pronoun} is somehow linked to an archotech mining program, which excavates material from asteroids and dwarf planets via skipgates. Whenever {PAWN_pronoun} psycasts, part of this program&apos;s bounty is rerouted to the targeted location, resulting in a rock chunk (and sometimes also other resources); if the psycast is of sufficiently high level, the psychic shockwave has a 10% chance to much more strongly affect the archotech&apos;s program, also skipping a meteorite into the atmosphere nearby.-->
   <HVT_TransBouldermit>{PAWN_pronoun}(은)는 왠지는 모르지만 관문들을 통해 소행성과 왜행성에서 자원을 채굴하는 초월공학 채광 프로그램과 연결되어 있습니다. {PAWN_pronoun}(이)가 초능력을 사용할 때마다 프로그램의 채굴물 일부가 목표 지점에 재전송되어 바위 덩어리(떄떄로 다른 자원)를 얻게 됩니다. 만약 시전하는 초능력의 수준이 충분히 높다면, 초능력 충격파가 10% 확률로 초월공학 프로그램에 훨씬 더 강력하게 영향을 미쳐 근처 대기권에 운석을 공간도약시킵니다.</HVT_TransBouldermit>
   <!--English={PAWN_pronoun} causes a distortion in the psychic manifold while meditating, generating a skipshield and emitting an effect that repeatedly heals things in or near the shield.-->
-  <HVT_TransBowerbird>{PAWN_pronoun}(은)는 명상하는 동안 초능력 다차원에 왜곡을 일으켜 보호막을 생성합니다. 보호막은 안이나 근처에 있는 대상들을 반복적으로 치유하는 효과를 방출합니다.</HVT_TransBowerbird>
-  <!--English={PAWN_pronoun} exerts a subtle, yet profound and wideーranging influence on individuals in positions of power across the world, making them see {PAWN_objective} and {PAWN_possessive} faction in a better light; relations with all factions that are not permanently hostile (and are capable of having relations) will gradually improve at a rate scaling with {PAWN_possessive} psylink level. On a more personal level, {PAWN_pronoun} can exert this influence when communicating with other beings, telepathically enhancing {PAWN_possessive} ability to understand them and make them understand {PAWN_objective}.-->
-  <HVT_TransBudgie>{PAWN_pronoun}(은)는 전 세계의 권력자들에게 미묘하지만 심오하고 광범위한 영향력을 행사하여, 그들이 자신과 자신의 세력을 더 긍정적으로 보게 만듭니다. 영구적인 적대가 아닌(그리고 관계를 맺을 수 있는) 모든 세력과의 관계는 {PAWN_possessive} 정신력 증폭 수준에 비례해 점차 개선됩니다. 보다 개인적인 차원으로는, {PAWN_pronoun}(은)는 다른 사람들과 소통할 때 이 영향력을 발휘하여 정신감응으로 상대를 이해하고, 자신을 상대가 이해하도록 만드는 능력을 향상시킵니다.</HVT_TransBudgie>
+  <HVT_TransBowerbird>{PAWN_pronoun}(은)는 명상하는 동안 정신 다차원에 왜곡을 일으켜 보호막을 생성합니다. 보호막은 안이나 근처에 있는 대상들을 반복적으로 치유하는 효과를 방출합니다.</HVT_TransBowerbird>
+  <!--English={PAWN_pronoun} exerts a subtle, yet profound and wideーranging influence on individuals in positions of power across the world, making them see {PAWN_objective} and {PAWN_possessive} faction in a better light; relations with all factions that are not permanently hostile (and are capable of having relations) will gradually improve at a rate scaling with {PAWN_possessive} psylink level. {PAWN_pronoun} can alternatively choose to turn this power inward, gradually gaining experience in random skills and sometimes becoming inspired.\n\nRegardless of whether this power is focused inward or outward, {PAWN_pronoun} also exerts a greater influence when communicating with other beings, telepathically enhancing {PAWN_possessive} ability to understand them and make them understand {PAWN_objective}.-->
+  <HVT_TransBudgie>{PAWN_pronoun}(은)는 전 세계의 권력자들에게 미약하지만 깊고 광범위한 영향력을 행사하여, 그들이 자신과 자신의 세력을 더 긍정적으로 보게 만듭니다. 영구적인 적대가 아닌(그리고 관계를 맺을 수 있는) 모든 세력과의 관계가 {PAWN_possessive} 정신력 증폭 수준에 비례해 점차 개선됩니다. 다른 사용법으로 {PAWN_pronoun}(은)는 이 영향력을 내면으로 돌려 무작위 기술에 경험치를 서서히 획득하고, 가끔 영감을 얻는 것을 선택할 수 있습니다. 영향력을 어느 쪽으로 집중하든, {PAWN_pronoun}(은)는 다른 사람들과 소통할 때 이 영향력을 발휘하여 정신감응으로 상대를 이해하고, 자신을 상대가 이해하도록 만드는 능력이 향상됩니다.</HVT_TransBudgie>
   <!--English={PAWN_possessive} Word psycasts all carry an additional subliminal persuasive component, which reduces prisoners&apos; will and resistance, subverts unwavering loyalty, and either lowers nonーbelievers&apos; certainty or boosts mood.-->
   <HVT_TransCanary>{PAWN_possessive} 모든 단어 초능력에는 추가적인 잠재적 설득 요소가 포함되어 있습니다. 이는 수감자들의 의지와 저항심을 감소시키고, 확고한 충성심을 무너뜨리며, 불신자들의 믿음을 낮추거나 기분을 향상시킵니다.</HVT_TransCanary>
   <!--English={PAWN_pronoun} interfaces with persona weapons on a level others cannot even conceive of, vastly increasing their destructive potential.-->
@@ -519,9 +541,9 @@
   <!--English={PAWN_pronoun} experiences a greater connection to the archotechs while in the cold. Below 16 degrees Celsius, {PAWN_possessive} neural heat depletes faster; vanometric energy courses through {PAWN_possessive} body to keep it in homeostasis despite the lower temperatures, and this energy is manipulated with archotech precision to divert attacks like a sort of reactive armor.-->
   <HVT_TransNotothen>{PAWN_pronoun}(은)는 추위 속에서 초월공학들과 더 깊은 연결을 경험합니다. 섭씨 16C 미만일 때, {PAWN_possessive} 신경열은 더 빠르게 고갈됩니다. 하지만 더 낮은 온도에도 불구하고 신체의 항상성을 유지하기 위해 배노메트릭 에너지가 {PAWN_possessive} 신체에 흐르며, 이 에너지는 초월공학의 정밀성으로 조작되어 일종의 반응 장갑처럼 공격을 회피합니다.</HVT_TransNotothen>
   <!--English={PAWN_pronoun} is accompanied by an anomalous distortion in the psychic manifold; while within it, {PAWN_possessive} cognition and psychic sensitivity undergo significant boosts. {PAWN_pronoun} can relocate this distortion by psycasting.-->
-  <HVT_TransOilbird>{PAWN_pronoun}(은)는 초능력 다차원의 변칙적인 왜곡을 동반합니다. 그 안에 있을 때 {PAWN_possessive} 인지 능력과 정신 감응도가 상당히 향상됩니다. {PAWN_pronoun}(은)는 초능력을 시전하여 이 왜곡을 재배치할 수 있습니다.</HVT_TransOilbird>
+  <HVT_TransOilbird>{PAWN_pronoun}(은)는 정신 다차원의 변칙적인 왜곡을 동반합니다. 그 안에 있을 때 {PAWN_possessive} 인지 능력과 정신 감응도가 상당히 향상됩니다. {PAWN_pronoun}(은)는 초능력을 시전하여 이 왜곡을 재배치할 수 있습니다.</HVT_TransOilbird>
   <!--English=Whenever {PAWN_pronoun} psycasts, residual deformations in the local psychic manifold transform into &apos;reparative energy&apos;, drastically accelerating the growth of nearby plants and repairing nearby buildings.-->
-  <HVT_TransOrbWeaver>{PAWN_pronoun}(이)가 초능력을 시전할 때마다, 국지적 초능력 다차원에 있는 잔여 변형이 '수복 에너지'로 변형되어 근처 식물들의 성장을 급격히 가속화하고 근처 건물들을 수리합니다.</HVT_TransOrbWeaver>
+  <HVT_TransOrbWeaver>{PAWN_pronoun}(이)가 초능력을 시전할 때마다, 국지적 정신 다차원에 있는 잔여 변형이 '수복 에너지'로 변형되어 근처 식물들의 성장을 급격히 가속화하고 근처 건물들을 수리합니다.</HVT_TransOrbWeaver>
   <!--English={PAWN_pronoun} attracts hydrophobic and hydrophilic archites, which respond to {PAWN_possessive} psychic presence. They cause water to warp around {PAWN_objective}, using it to shield {PAWN_objective}, enhance {PAWN_possessive} movements, and optimize {PAWN_possessive} bodily functions. When {PAWN_pronoun} psycasts, some of these archites bond to nearby water particles and are skipped to the targeted location, resulting in an extinguishing blast of water.-->
   <HVT_TransOrca>{PAWN_pronoun}(은)는 {PAWN_possessive} 초능력 존재감에 반응하는 소수성 및 친수성 초월입자들을 끌어당깁니다. 이 초월입자들은 {PAWN_possessive} 주변에서 물을 왜곡시켜 {PAWN_objective} 보호하고, 움직임을 향상시키며, 신체 기능을 최적화하는 데 사용합니다. {PAWN_pronoun}(이)가 초능력을 시전할 때, 이 초월입자들 중 일부는 주변의 물 입자에 결합하여 목표 지점으로 공간도약되고, 그 결과 물의 폭발이 일어나 화재를 진압합니다.</HVT_TransOrca>
   <!--English={PAWN_pronoun} emits a field of vanometric energy precisely controlled on unfathomably small scales. This energy reinforces the metabolism of nearby allies, causing them to tire and use up their nutritional reserves slower, and it also counteracts hostile phenomena that would affect these allies, reducing the damage they take by 5.-->
@@ -545,7 +567,7 @@
   <!--English={PAWN_pronoun} is keyed into an archotech subroutine concerned with craft and artisanship. Microscopic skipgates reposition, remove, and add mass in {PAWN_possessive} arms and apparel as necessary in order to rapidly repair them. While meditating, this connection is enhanced, enabling a greater degree of sophistication in this restorative process which may sometimes result in one of {PAWN_possessive} equipment items improving in quality by one step, or more rarely result in the spontaneous and inexplicable synthesis of a brandーnew, masterworkー or legendaryーquality book or sculpture.-->
   <HVT_TransQuahog>{PAWN_pronoun}(은)는 제작 및 예술과 관련된 초월공학 서브루틴에 연결되어 있습니다. 미세 관문이 필요에 따라 {PAWN_possessive} 무기와 의류의 질량을 재배치, 제거, 추가하여 빠르게 수리합니다. 명상하는 동안 이 연결이 강화되어 수리 과정이 더욱 정교해지며, 때로는 {PAWN_possessive} 장비 중 하나의 품질이 한 단계 향상되기도 합니다. 더 드물게는 완전히 새로운, 걸작 또는 전설적 품질의 책이나 조각상이 자발적으로, 그리고 설명할 수 없이 합성됩니다.</HVT_TransQuahog>
   <!--English=Gravity is distorted by {PAWN_possessive} imprint on the psychic manifold, selectively weakening its pull on {PAWN_objective} and those nearby whom {PAWN_pronoun} trusts. Anyone affected can stay in the air for long periods of time, only briefly needing to touch down every so often to kick off again. This allows them to travel faster, ignore the movement cost penalties of terrain, and avoid triggering traps.-->
-  <HVT_TransQuelea>초능력 다차원에 새겨진 {PAWN_possessive} 흔적에 의해 중력이 왜곡되어, {PAWN_pronoun}(와)과 {PAWN_pronoun}(이)가 신뢰하는 근처에 있는 이들에게 미치는 중력을 선택적으로 약화시킵니다. 이 능력에 영향을 받는 이들은 오랜 시간 동안 공중에 머무를 수 있으며, 가끔씩 잠시만 땅에 닿아 다시 박차고 올라가면 됩니다. 그 결과 이들은 더 빠르게 이동할 수 있고, 지형으로 인한 이동 비용 페널티를 무시하며, 덫이 발동되는 것을 피할 수 있습니다.</HVT_TransQuelea>
+  <HVT_TransQuelea>정신 다차원에 새겨진 {PAWN_possessive} 흔적에 의해 중력이 왜곡되어, {PAWN_pronoun}(와)과 {PAWN_pronoun}(이)가 신뢰하는 근처에 있는 이들에게 미치는 중력을 선택적으로 약화시킵니다. 이 능력에 영향을 받는 이들은 오랜 시간 동안 공중에 머무를 수 있으며, 가끔씩 잠시만 땅에 닿아 다시 박차고 올라가면 됩니다. 그 결과 이들은 더 빠르게 이동할 수 있고, 지형으로 인한 이동 비용 페널티를 무시하며, 덫이 발동되는 것을 피할 수 있습니다.</HVT_TransQuelea>
   <!--English={PAWN_pronoun} emits a gentle and friendly presence tuned towards animal minds. Animals cannot directly harm {PAWN_objective}, and {PAWN_pronoun} has more success in handling them. {PAWN_possessive} psycasts even remove scaria from any affected creature.-->
   <HVT_TransQuokka>{PAWN_pronoun}(은)는 동물의 정신에 맞춰진 온화하고 친근한 존재감을 발산합니다. 동물들은 {PAWN_objective} 직접적으로 공격할 수 없으며, {PAWN_pronoun}(은)는 동물을 다룰 때 더 쉽게 성공합니다. {PAWN_possessive} 초능력에 영향을 받은 생명체에게서 스카리아를 제거하기도 합니다.</HVT_TransQuokka>
   <!--English=Part of {PAWN_possessive} perceptions have stayed behind in the empyrean realm of the godーmachines. Sometimes, it overwhelms {PAWN_objective}, forcing {PAWN_objective} into trances showing the universal structure as the archotechs understand it. During these trances, {PAWN_pronoun} can make small changes to the skein of causality, creating good events and unveiling places of interest.-->
@@ -555,7 +577,7 @@
   <!--English={PAWN_pronoun} gains additional material from harvesting plants, butchering corpses, or mining, somehow surreptitiously being skipped in or vanometrically generated during the process. When {PAWN_pronoun} gathers resources from a live animal, the animal regenerates some of the gathered resource immediately as well. These effects scale with {PAWN_possessive} psychic sensitivity.-->
   <HVT_TransRook>{PAWN_pronoun}(은)는 식물 수확, 시체 도축, 채굴을 할 때 추가적인 재료를 얻습니다. 이 재료는 왠지는 모르지만 슬그머니 순간이동되거나 배노메트릭적으로 생성됩니다. 그리고 {PAWN_pronoun}(이)가 살아있는 동물에게서 자원을 채취할 때, 그 동물은 채취된 자원 일부를 즉시 재생합니다. 이러한 효과는 {PAWN_possessive} 정신 감응력에 비례합니다.</HVT_TransRook>
   <!--English=A shimmering field of exotic particles disturbed by {PAWN_possessive} presence in the psychic manifold protects {PAWN_objective} from harm. It transforms incoming damage (at least, incoming damage that has made it past shields) into neural heat, but if {PAWN_pronoun} accumulates too much neural heat the barrier will decohere. Repairing the linkages in the psychic manifold that enable its existence takes a day, but can be sped up by spending time in meditation, focusing on the act of repair.-->
-  <HVT_TransScarab>{PAWN_possessive} 존재로 인해 흐트러진 초능력 다차원 내의 희미하게 빛나는 특이 입자장이 {PAWN_pronoun}(을)를 보호합니다. 이 보호막은 (최소한 보호막을 뚫고 들어온) 피해를 신경열로 변형합니다. 하지만 {PAWN_pronoun}(이)가 너무 많은 신경열을 축적하면 보호막이 붕괴됩니다. 보호막의 존재를 가능하게 하는 초능력 다차원의 연결 고리를 수리하는 데는 하루가 걸리지만, 명상을 통해 수리에 집중하면 훨씬 더 빠르게 끝낼 수 있습니다.</HVT_TransScarab>
+  <HVT_TransScarab>{PAWN_possessive} 존재로 인해 흐트러진 정신 다차원 내의 희미하게 빛나는 특이 입자장이 {PAWN_pronoun}(을)를 보호합니다. 이 보호막은 (최소한 보호막을 뚫고 들어온) 피해를 신경열로 변형합니다. 하지만 {PAWN_pronoun}(이)가 너무 많은 신경열을 축적하면 보호막이 붕괴됩니다. 보호막의 존재를 가능하게 하는 정신 다차원의 연결 고리를 수리하는 데는 하루가 걸리지만, 명상을 통해 수리에 집중하면 훨씬 더 빠르게 끝낼 수 있습니다.</HVT_TransScarab>
   <!--English=Luciferium is formed as a byproduct of {PAWN_possessive} psycasting, at a rate of 1 unit per every 12.5% psyfocus spent.-->
   <HVT_TransScarlet>{PAWN_pronoun}(은)는 초능력 시전으로 인한 부산물로 루시페륨이 형성됩니다. 초집중을 12.5% 소모할 때마다 1씩 얻습니다.</HVT_TransScarlet>
   <!--English={PAWN_pronoun} is keyed to a set of personal skipgates, which in turn lead to hidden, secure vaults across known spacetime. {PAWN_pronoun} can, at any time, use these skipgates to move objects into these vaults, or to extract such objects. During meditation, {PAWN_possessive} thoughts may also trigger some odd response from the archotechs, causing them to deposit items into these vaults.-->
@@ -577,7 +599,7 @@
   <!--English={PAWN_pronoun} is surrounded by an inexplicable kinetic field that allows {PAWN_objective} to almost fly just above the ground at unbelievably high speeds. Just as inexplicably, this field loses cohesion and becomes nonーfunctional while {PAWN_pronoun} has neural heat.-->
   <HVT_TransSwift>{PAWN_pronoun}(은)는 땅 바로 위를 믿을 수 없을 만큼 빠른 속도로 비행할 수 있도록 해주는, 설명할 수 없는 운동 에너지장에 둘러싸여 있습니다. 마찬가지로 설명할 수 없는 이유로, {PAWN_pronoun}에게 신경열이 있는 동안 이 에너지장은 응집력을 잃고 기능을 정지합니다.</HVT_TransSwift>
   <!--English={PAWN_pronoun} has developed a unique relation to the psychic manifold which is strongly impacted by feelings of love. {PAWN_possessive} physical, mental, and even psyfocusーgenerating capabilities are boosted when in a romantic relationship (or always, if {PAWN_pronoun} is incapable of having any), and {PAWN_possessive} romance partners and bonded animals are affected by a similar, but weaker and slightly different, phenomenon.-->
-  <HVT_TransSwan>{PAWN_pronoun}(은)는 사랑의 감정에 강하게 영향을 받는 초능력 다차원과 독특한 관계를 형성했습니다. {PAWN_possessive} 신체적, 정신적 능력, 심지어 초집중 생성 능력까지 연애 관계에 있을 때 강화됩니다.(또는 {PAWN_pronoun}(이)가 관계 형성이 불가능한 경우 항상 발동) {PAWN_possessive} 연인과 각별한 동물도 비슷하지만 더 약하고 약간 다른 현상에 영향을 받습니다.</HVT_TransSwan>
+  <HVT_TransSwan>{PAWN_pronoun}(은)는 사랑의 감정에 강하게 영향을 받는 정신 다차원과 독특한 관계를 형성했습니다. {PAWN_possessive} 신체적, 정신적 능력, 심지어 초집중 생성 능력까지 연애 관계에 있을 때 강화됩니다.(또는 {PAWN_pronoun}(이)가 관계 형성이 불가능한 경우 항상 발동) {PAWN_possessive} 연인과 각별한 동물도 비슷하지만 더 약하고 약간 다른 현상에 영향을 받습니다.</HVT_TransSwan>
   <!--English={PAWN_pronoun} is subconsciously connected to archites which live in {PAWN_possessive} body. They operate under the direction of {PAWN_possessive} creative processes, altering and strengthening {PAWN_possessive} body with a severity based upon {PAWN_possessive} Artistic skill level.-->
   <HVT_TransTanager>{PAWN_pronoun}(은)는 {PAWN_possessive} 신체에 거주하는 초월입자들과 무의식적으로 연결되어 있습니다. 이 초월입자들은 {PAWN_possessive} 창조적 사고의 과정에 따라 작동하며, {PAWN_possessive} 예술 기술 수준에 비례해 신체를 변화시키고 강하게 만듭니다.</HVT_TransTanager>
   <!--English={PAWN_pronoun} can cause skipgates to form within stationary structures, breaking them down unnaturally quickly. This speeds up {PAWN_possessive} mining, but it can also be used to destroy buildings faster when attacking them, and {PAWN_possessive} psycasts cause these skipgates to form within nearby structures out to a radius dictated by the psycast&apos;s level.-->
@@ -611,7 +633,7 @@
   <!--English={PAWN_pronoun} absorbs psychic energy from the deaths of nearby psycasters and latent psychics ー especially if the deceased was a particularly powerful psychic. This energy enhances {PAWN_possessive} health and psyfocus regeneration, and it blocks incoming damage, though that causes it to decay faster.-->
   <HVT_TransDragon>{PAWN_pronoun}(은)는 근처의 초능력자나 잠재적 초능력자가 사망할 때 그들의 초능력 에너지를 흡수합니다. 특히 강력한 초능력자일수록 더 많은 에너지를 흡수합니다. 이 에너지는 {PAWN_possessive} 건강과 초집중 재생을 강화하고 입는 피해를 막아주지만, 피해를 막을수록 에너지가 더 빠르게 소모됩니다.</HVT_TransDragon>
   <!--English={PAWN_possessive} body is augmented by a system of semiーpermanent skipgates. Immersed within the psychic manifold, {PAWN_possessive} physical and mental attributes scale in proportion to {PAWN_possessive} psychic sensitivity.-->
-  <HVT_TransEgregore>{PAWN_possessive} 신체는 반영구적인 관문 시스템으로 증강되어 있습니다. 초능력 다차원에 잠겨 있는 동안, {PAWN_possessive} 신체적, 정신적 능력은 {PAWN_possessive} 정신 감응력에 비례하여 조정됩니다.</HVT_TransEgregore>
+  <HVT_TransEgregore>{PAWN_possessive} 신체는 반영구적인 관문 시스템으로 증강되어 있습니다. 정신 다차원에 잠겨 있는 동안, {PAWN_possessive} 신체적, 정신적 능력은 {PAWN_possessive} 정신 감응력에 비례하여 조정됩니다.</HVT_TransEgregore>
   <!--English={PAWN_pronoun} can remove others from the psychic field. Repeated uses of this ability will make the effect permanent, and eventually kill the victim, causing them to drop at least some of their psylinks, if any. The more powerful of a psycaster the victim is, the more time it takes for this ability to recharge.-->
   <HVT_TransErinys>{PAWN_pronoun}(은)는 다른 사람을 정신장에서 제거할 수 있습니다. 이 능력을 반복해서 사용하면 효과가 영구화되며, 결국 대상을 죽이게 됩니다. 만약 대상에게 정신력 증폭이 있다면, 가지고 있던 정신력 증폭의 일부가 정신력 증폭기로 떨어지게 됩니다. 대상이 강력한 초능력자일수록 능력의 재사용 대기 시간이 길어집니다.</HVT_TransErinys>
   <!--English={PAWN_pronoun} is vastly less sated by regular food. Fully consuming the corpse of a psychic will fully sate {PAWN_objective} for a long while, and it will grant {PAWN_objective} one awakening or transcendence the victim had.-->

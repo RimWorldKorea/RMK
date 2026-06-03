@@ -28,6 +28,10 @@
   <HVT_Conversationalist.degreeDatas.0.label>재담가</HVT_Conversationalist.degreeDatas.0.label>
   <!--Original={PAWN_nameDef} is a master of small talk; speaking with others grants them a stacking mood bonus. If {PAWN_pronoun} goes on a mental break, it is likely to be an insulting spree.-->
   <HVT_Conversationalist.degreeDatas.0.description>{PAWN_nameDef}(은)는 잡담의 달인입니다. 다른 사람과 대화하면 그 사람은 중첩되는 기분 보너스를 받을 수 있습니다. {PAWN_pronoun}(이)가 정신이상을 겪는다면, 모욕을 퍼붓고 다닐 확률이 높습니다.</HVT_Conversationalist.degreeDatas.0.description>
+  <!--Original=curmudgeon-->
+  <HVT_Curmudgeon.degreeDatas.0.label>심술궂음</HVT_Curmudgeon.degreeDatas.0.label>
+  <!--Original={PAWN_nameDef} dislikes overt displays of happiness. {PAWN_pronoun} gets irritated when talking to anyone who is in a good mood, unless they share this particular outlook.-->
+  <HVT_Curmudgeon.degreeDatas.0.description>{PAWN_nameDef}(은)는 대놓고 행복해하는 모습을 보는 것을 싫어합니다. {PAWN_pronoun}(은)는 자신과 같은 관점을 가진 사람이 아니라면, 기분이 좋은 사람과 대화하면 불쾌해집니다.</HVT_Curmudgeon.degreeDatas.0.description>
   <!--Original=daydreamer-->
   <HVT_Daydreamer.degreeDatas.0.label>몽상가</HVT_Daydreamer.degreeDatas.0.label>
   <!--Original={PAWN_nameDef} has an overactive imagination. At random, or if {PAWN_pronoun} becomes too stressed, {PAWN_pronoun} will retreat into {PAWN_possessive} imagination, resulting in a harmless mental break. After indulging {PAWN_possessive} imagination in such a way, {PAWN_pronoun} becomes inspired.-->
@@ -478,8 +482,8 @@
   <HVT_TTraitBowerbird.degreeDatas.0.description>{PAWN_nameDef}(은)는 명상하는 동안 치유 보호막을 방출합니다. 치유 효과는 {PAWN_possessive} 아군 뿐만이 아니라, 범위 내의 모든 대상에게 적용됩니다.</HVT_TTraitBowerbird.degreeDatas.0.description>
   <!--Original=psychic budgie-->
   <HVT_TTraitBudgerigar.degreeDatas.0.label>초능력 사랑앵무</HVT_TTraitBudgerigar.degreeDatas.0.label>
-  <!--Original={PAWN_nameDef} has a farーreaching psychic influence that gradually improves relations with other factions.-->
-  <HVT_TTraitBudgerigar.degreeDatas.0.description>{PAWN_nameDef}(은)는 다른 세력들과의 관계를 점차 개선시키는 광범위한 초능력 영향력을 가지고 있습니다.</HVT_TTraitBudgerigar.degreeDatas.0.description>
+  <!--Original={PAWN_nameDef} has a farーreaching psychic influence that gradually improves relations with other factions. This same influence can be turned inward, gradually granting experience in random skills and occasionally causing an inspiration. Only one effect ー the goodwill improvement or the selfーimprovement ー can be active at a time.-->
+  <HVT_TTraitBudgerigar.degreeDatas.0.description>{PAWN_nameDef}(은)는 다른 세력들과의 관계를 점차 개선시키는 광범위한 초능력 영향력을 가지고 있습니다. 이 영향력을 내면으로 전환하면 무작위 기술의 경험치를 서서히 획득하고 가끔 영감을 얻을 수도 있습니다. 세력 우호도 개선 또는 자기 계발 중에서 한번의 하나의 효과만 활성화 할 수 있습니다.</HVT_TTraitBudgerigar.degreeDatas.0.description>
   <!--Original=psychic canary-->
   <HVT_TTraitCanary.degreeDatas.0.label>초능력 카나리아</HVT_TTraitCanary.degreeDatas.0.label>
   <!--Original=Word psycasts used by {PAWN_nameDef} have a profound influence on the target, breaking unwavering loyalty, reducing resistance, and altering mood and certainty.-->
