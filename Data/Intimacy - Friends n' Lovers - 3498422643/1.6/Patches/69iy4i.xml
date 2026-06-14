@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Races Expanded - Highmate</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/InteractionDef[defName="SEX_ProposeSex"]/symbol</xpath>
+          <value>
+            <symbol>UI/Gizmo/Gizmo_InitiateLovin</symbol>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/InteractionDef[defName="SEX_ProposeSexToMech"]/symbol</xpath>
+          <value>
+            <symbol>UI/Gizmo/Gizmo_InitiateLovin</symbol>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

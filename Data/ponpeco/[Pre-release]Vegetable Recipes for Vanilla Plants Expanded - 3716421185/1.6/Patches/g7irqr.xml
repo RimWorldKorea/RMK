@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Props and Decor</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PONDisplay_ShishitoPeppers"]/label</xpath>
+          <value>
+            <label>시시토 고추</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PONDisplay_GrilledOnionSteak"]/label</xpath>
+          <value>
+            <label>구운 양파 스테이크</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PONDisplay_RoastedTomato"]/label</xpath>
+          <value>
+            <label>구운 토마토</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PONDisplay_GrilledEggplant"]/label</xpath>
+          <value>
+            <label>구운 가지</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PONDisplay_SeasonedSnapPeas"]/label</xpath>
+          <value>
+            <label>양념 스냅 완두콩</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PONDisplay_SeasonedCabbage"]/label</xpath>
+          <value>
+            <label>양념 양배추</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PONDisplay_SimmeredPumpkin"]/label</xpath>
+          <value>
+            <label>조림 호박</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PONDisplay_WarmPeaSalad"]/label</xpath>
+          <value>
+            <label>따뜻한 완두콩 샐러드</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PONDisplay_Peperoncino"]/label</xpath>
+          <value>
+            <label>페페론치노</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PONDisplay_Caprese"]/label</xpath>
+          <value>
+            <label>카프레제</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PONDisplay_PumpkinSoup"]/label</xpath>
+          <value>
+            <label>호박 수프</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PONDisplay_BeetSandwich"]/label</xpath>
+          <value>
+            <label>비트 샌드위치</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PONDisplay_Okonomiyaki"]/label</xpath>
+          <value>
+            <label>오코노미야키</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PONDisplay_CheesyStuffedEggplant"]/label</xpath>
+          <value>
+            <label>치즈를 채운 가지</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PONDisplay_CheesyOnionBread"]/label</xpath>
+          <value>
+            <label>치즈 양파빵</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PONDisplay_CabbageRolls"]/label</xpath>
+          <value>
+            <label>양배추 롤</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PONDisplay_InfernoRamen"]/label</xpath>
+          <value>
+            <label>인페르노 라멘</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PONDisplay_FrenchOnionSoup"]/label</xpath>
+          <value>
+            <label>프렌치 어니언 수프</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PONDisplay_PumpkinPie"]/label</xpath>
+          <value>
+            <label>호박 파이</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PONDisplay_PizzaMargherita"]/label</xpath>
+          <value>
+            <label>마르게리타 피자</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PONDisplay_Borsch"]/label</xpath>
+          <value>
+            <label>보르시</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PONDisplay_MapoEggplant"]/label</xpath>
+          <value>
+            <label>마파가지</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PONDisplay_PeaSoboroSet"]/label</xpath>
+          <value>
+            <label>완두콩 소보로 정식</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PONDisplay_PearPannaCotta"]/label</xpath>
+          <value>
+            <label>배 판나코타</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PONDisplay_ChocolateBananaParfait"]/label</xpath>
+          <value>
+            <label>초콜릿 바나나 파르페</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PONDisplay_PeachMousseCakeWhole"]/label</xpath>
+          <value>
+            <label>복숭아 무스 케이크(전체)</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PONDisplay_PeachMousseCakeSlice"]/label</xpath>
+          <value>
+            <label>복숭아 무스 케이크(조각)</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PONDisplay_PricklyPearSorbet"]/label</xpath>
+          <value>
+            <label>백년초 소르베</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PONDisplay_CherryCheesecake"]/label</xpath>
+          <value>
+            <label>체리 치즈케이크</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PONDisplay_BearberryJamScones"]/label</xpath>
+          <value>
+            <label>베어베리 잼 스콘</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PONDisplay_Orangette"]/label</xpath>
+          <value>
+            <label>오랑제트</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PONDisplay_PlumCakeWhole"]/label</xpath>
+          <value>
+            <label>자두 케이크(전체)</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="PONDisplay_PlumCakeSlice"]/label</xpath>
+          <value>
+            <label>자두 케이크(조각)</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

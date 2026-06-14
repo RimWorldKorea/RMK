@@ -8,7 +8,6 @@ RimWorld Mod Korean Project
 디스코드 : [링크](https://discord.gg/5FdkKj2XUe)  
 
 번역 목록 열람: [링크](https://docs.google.com/spreadsheets/d/e/2PACX-1vTZtvMrguzs86lhnObgcacvtmTWJZ-H8ipgZcXdKC06GdfqADgZADk7kQxrftbZhJmP0uM9hRFtDoUK/pubhtml?gid=1757504801&single=true)  
-미등록 레거시 번역 목록 열람: [링크](https://docs.google.com/spreadsheets/d/1Dt3x8Yf-4hTAcs6zvcCVzezwjIAtry7zh9B1Jew2064/edit?usp=sharing)
 <hr>
 
 제보, 제안, 요청, 문의 사항 및 번역에 관한 질문 등이 있다면  
@@ -23,12 +22,11 @@ RimWorld Mod Korean Project
 진행 상황 등에 대한 안내 또한 별도로 하지 않으니 해당 [Issue](https://github.com/RimWorldKorea/RMK/issues)를 확인해주세요.  
 <hr>
 
-번역의 추가 또는 변경은 림추출기의 <i>확장 림왈도 서식</i> xlsx 파일을 통해서 이뤄집니다.  
-보다 매끄러운 협업을 위해서 [림추출기](https://github.com/csh1668/RimworldExtractor/releases)를 사용하여 번역하세요.  
+[림추출기](https://github.com/csh1668/RimworldExtractor/releases)를 사용하면 번역이 편리해집니다.  
 (알파추출기는 더 이상 사용되지 않습니다.)
 
-- <b>bus</b> 브랜치에 xlsx 파일이 포함된 변경사항을 커밋하거나  
-- 기타 수단을 통해 xlsx 파일을 공유한 뒤 관리자에게 요청하세요
+- <b>bus</b> 브랜치에 변경사항을 커밋하거나  
+- 기타 수단을 통해 파일을 공유한 뒤 관리자에게 등록을 요청하세요
 
 RMK는 유저 편익을 위해 웹 상에서 공유되는 번역 파일을  
 커뮤니티의 암묵적 합의 아래 별도의 과정 없이 병합하고 있습니다.
