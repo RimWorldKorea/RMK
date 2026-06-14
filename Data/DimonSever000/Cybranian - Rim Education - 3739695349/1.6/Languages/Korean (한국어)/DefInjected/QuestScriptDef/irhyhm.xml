@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 교사 도착 알림 -->
+  <Permit_CallTeacher.root.nodes.9.label>교사 도착</Permit_CallTeacher.root.nodes.9.label>
+  <Permit_CallTeacher.root.nodes.9.text>[permitFaction_name]에서 보낸 교사들이 도착했습니다. 이들을 데려갈 왕복선은 [laborersDurationDays]일 후에 도착합니다.</Permit_CallTeacher.root.nodes.9.text>
+  
+  <!-- 내부 시스템 변수 (번역 제외) -->
+  <Permit_CallTeacher.root.nodes.12.name>goodwillPenaltyPawn</Permit_CallTeacher.root.nodes.12.name>
+  <Permit_CallTeacher.root.nodes.13.name>goodwillChangeOnShuttleDestroyed</Permit_CallTeacher.root.nodes.13.name>
+  
+  <!-- 셔틀 및 상태 표시 -->
+  <Permit_CallTeacher.root.nodes.11.node.nodes.1.inspectString>왕복선을 타고 떠나야 함</Permit_CallTeacher.root.nodes.11.node.nodes.1.inspectString>
+  <Permit_CallTeacher.root.nodes.11.node.nodes.2.label>왕복선 도착</Permit_CallTeacher.root.nodes.11.node.nodes.2.label>
+  <Permit_CallTeacher.root.nodes.11.node.nodes.2.text>[permitFaction_name]에서 파견된 인원들을 데려갈 왕복선이 도착했습니다.</Permit_CallTeacher.root.nodes.11.node.nodes.2.text>
+  
+  <!-- 교사 사망 사건 -->
+  <Permit_CallTeacher.root.nodes.14.node.nodes.0.label>교사 사망: {SUBJECT_definite}</Permit_CallTeacher.root.nodes.14.node.nodes.0.label>
+  <Permit_CallTeacher.root.nodes.14.node.nodes.0.text>[permitFaction_name]에서 파견된 교사가 사망했습니다. [permitFaction_name]과의 관계가 [goodwillPenaltyPawn]만큼 하락했습니다.</Permit_CallTeacher.root.nodes.14.node.nodes.0.text>
+  
+  <!-- 교사 방치/유기 사건 -->
+  <Permit_CallTeacher.root.nodes.15.node.nodes.0.label>교사 방치됨: {SUBJECT_definite}</Permit_CallTeacher.root.nodes.15.node.nodes.0.label>
+  <Permit_CallTeacher.root.nodes.15.node.nodes.0.text>[permitFaction_name]에서 파견된 교사가 남겨졌습니다. 남은 인원들은 이제 정착지를 떠납니다.</Permit_CallTeacher.root.nodes.15.node.nodes.0.text>
+</LanguageData>

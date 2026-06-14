@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 폰 정보 및 능력 상태 -->
+  <ScienceRework.Education.Label>교육 수준: {0}</ScienceRework.Education.Label>
+  <ScienceRework.Education.Progress>{0}까지의 진행도: {1}</ScienceRework.Education.Progress>
+  <ScienceRework.Education.Expectations>[PAWN_nameDef](은)는 자신이 받은 교육으로 인해 {1} 기대감을 가집니다.</ScienceRework.Education.Expectations>
+  <ScienceRework.Education.MaxResearchLevel>최대 {0} 단계의 기술까지 연구할 수 있습니다.</ScienceRework.Education.MaxResearchLevel>
+  <ScienceRework.CompPawnEducation.EducationAttained>{0}(이)가 {PAWN_pronoun}의 교육 수준을 {1}에서 {2}(으)로 향상시켰습니다.</ScienceRework.CompPawnEducation.EducationAttained>
+  
+  <!-- 의식 및 역할 제한 사유 -->
+  <ScienceRework.RitualTargetFilter_LecternOrRitualsSpot.AbilityDisabledNoLecternOrRitualsSpot>도달 가능한 넓은 장소나 의식 장소가 없습니다.</ScienceRework.RitualTargetFilter_LecternOrRitualsSpot.AbilityDisabledNoLecternOrRitualsSpot>
+  <ScienceRework.RitualRoleStudent.MaxEducationReason>최대 교육 수준 도달함</ScienceRework.RitualRoleStudent.MaxEducationReason>
+  <ScienceRework.RitualRoleStudent.TeacherLowEducationReason>교사의 교육 수준이 더 낮음</ScienceRework.RitualRoleStudent.TeacherLowEducationReason>
+  <ScienceRework.RitualRoleTeacher.UneducatedTeacherReason>교사가 교육을 받지 않음(무학력)</ScienceRework.RitualRoleTeacher.UneducatedTeacherReason>
+  
+  <!-- 툴팁 및 보고서 -->
+  <ScienceRework.StatWorker_GetOffsetsAndFactorsExplanation_ScienceReworkPatch.StatsReport_Education>교육의 영향</ScienceRework.StatWorker_GetOffsetsAndFactorsExplanation_ScienceReworkPatch.StatsReport_Education>
+  <ScienceRework.FactionDef_Description_ScienceReworkPatch.Educations>세력 교육 수준</ScienceRework.FactionDef_Description_ScienceReworkPatch.Educations>
+  <ScienceRework.ReadingOutcomeDoerGainResearch_GetBenefitsString_ScienceReworkPatch.ReqEducation> * 혜택을 얻으려면 교육 수준이 최소 {0} 이상이어야 합니다.</ScienceRework.ReadingOutcomeDoerGainResearch_GetBenefitsString_ScienceReworkPatch.ReqEducation>
+  <ScienceRework.ReadingOutcomeDoerGainResearch_GetBenefitsString_ScienceReworkPatch.EducationByReading> * 아무 책이나 읽으면 교육 수준이 최대 {0}까지 상승합니다.</ScienceRework.ReadingOutcomeDoerGainResearch_GetBenefitsString_ScienceReworkPatch.EducationByReading>
+  
+  <!-- 아동 성장 및 알림 -->
+  <ScienceRework.ChoiceLetter_GrowthMoment_ConfigureGrowthLetter_ScienceReworkPatch.EducationText>{0}(은)는 주변 환경의 영향을 받아 성인으로 성장하는 과정에서 {1} 교육 수준에 도달했습니다.</ScienceRework.ChoiceLetter_GrowthMoment_ConfigureGrowthLetter_ScienceReworkPatch.EducationText>
+  <ScienceRework.ChoiceLetter_GrowthMoment_ConfigureGrowthLetter_ScienceReworkPatch.SignificantPeopleText>최근의 교사들: {0}.</ScienceRework.ChoiceLetter_GrowthMoment_ConfigureGrowthLetter_ScienceReworkPatch.SignificantPeopleText>
+  <ScienceRework.ResearchProjectDef_GetTip_ScienceReworkPatch.MinEducation> * 연구원의 교육 수준이 최소 {0} 이상이어야 합니다.</ScienceRework.ResearchProjectDef_GetTip_ScienceReworkPatch.MinEducation>
+  
+  <!-- 모드 설정창 (Settings) -->
+  <ScienceRework.Settings.ResetSettings>설정 초기화</ScienceRework.Settings.ResetSettings>
+  <ScienceRework.Settings.EducationSpeed>교육 습득 배율: {0}</ScienceRework.Settings.EducationSpeed>
+  <ScienceRework.Settings.EducationRestrictionsForResearch>연구 수행 시 교육 수준 제한: {0}</ScienceRework.Settings.EducationRestrictionsForResearch>
+  <ScienceRework.Settings.EducationRestrictionsForBooks>독서 혜택 시 교육 수준 제한: {0}</ScienceRework.Settings.EducationRestrictionsForBooks>
+  <ScienceRework.Settings.EducationStats>교육 수준이 능력치에 미치는 영향: {0}</ScienceRework.Settings.EducationStats>
+  <ScienceRework.Settings.EducationAptitudes>교육 수준이 소질에 미치는 영향: {0}</ScienceRework.Settings.EducationAptitudes>
+  <ScienceRework.Settings.EducationExpectations>교육 수준이 기대감에 미치는 영향: {0}</ScienceRework.Settings.EducationExpectations>
+  <ScienceRework.Settings.AnomalyResearchTechLevel>아노말리 연구가 가능한 교육 수준: {0}</ScienceRework.Settings.AnomalyResearchTechLevel>
+  <ScienceRework.Settings.EducationByReading>아무 책이나 읽어 교육 수준 향상 가능(최대 기초 교육까지): {0}</ScienceRework.Settings.EducationByReading>
+</LanguageData>
