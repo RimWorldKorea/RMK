@@ -51,7 +51,7 @@
   <USAC.UI.Assets.Apply.Title>RISK_PRICING_APPLICATION // 위험도 기반 금리 산정 신청</USAC.UI.Assets.Apply.Title>
   <USAC.UI.Assets.InterestRate>기본 약정 금리</USAC.UI.Assets.InterestRate>
   <USAC.UI.Assets.GrowthRate>일별 리스크 수수료/할증</USAC.UI.Assets.GrowthRate>
-  <USAC.UI.Assets.Stat.GrowthMode>리스크 증감 기준</USAC.UI.Assets.Stat.GrowthMode>
+  <USAC.UI.Assets.Stat.GrowthMode>원금 증가 방식</USAC.UI.Assets.Stat.GrowthMode>
   <USAC.UI.Assets.Stat.ActualInterest>실효 금리</USAC.UI.Assets.Stat.ActualInterest>
   <USAC.UI.Assets.Stat.CreditDiscount>신용 할인</USAC.UI.Assets.Stat.CreditDiscount>
   <USAC.UI.Assets.Apply.Confirm>계약 서명 확정</USAC.UI.Assets.Apply.Confirm>
@@ -59,8 +59,8 @@
   <USAC.UI.Assets.NextSettlement>정산까지 남은 시간</USAC.UI.Assets.NextSettlement>
   <USAC.UI.Assets.MissedWarning>⚠ 미납: {0}회! 1회 추가 미납 시 강제추심이 발동됩니다!</USAC.UI.Assets.MissedWarning>
   <USAC.UI.Assets.Cycle>일당</USAC.UI.Assets.Cycle>
-  <USAC.UI.Assets.GrowthMode.WealthBased>자산 연동 증가({0}%/일)</USAC.UI.Assets.GrowthMode.WealthBased>
-  <USAC.UI.Assets.GrowthMode.PrincipalBased>원금 연동 증가({0}%/일)</USAC.UI.Assets.GrowthMode.PrincipalBased>
+  <USAC.UI.Assets.GrowthMode.WealthBased>맵 총자산 기준 증가(×{0}%/주기)</USAC.UI.Assets.GrowthMode.WealthBased>
+  <USAC.UI.Assets.GrowthMode.PrincipalBased>현재 원금 기준 증가(×{0}%/주기)</USAC.UI.Assets.GrowthMode.PrincipalBased>
   <USAC.UI.Assets.Block.LowCredit>신용 점수가 너무 낮습니다(최소 30 필요). 금융 채널이 비활성화되었습니다.</USAC.UI.Assets.Block.LowCredit>
   <USAC.UI.Assets.Block.LowWealth>현재 자산 평가액이 요청 한도에 비해 부족합니다. 평가를 통과하려면 금리 플랜을 상향하십시오.</USAC.UI.Assets.Block.LowWealth>
   <USAC.UI.Assets.Stat.CreditScore>신용 점수</USAC.UI.Assets.Stat.CreditScore>
@@ -91,8 +91,8 @@
   <USAC.UI.Assets.Repay>원금 상환(신용 채권 {0}개)</USAC.UI.Assets.Repay>
   <USAC.UI.Assets.RepaySurcharge>원금 상환(신용 채권 {0}개, 할증 {1} 포함)</USAC.UI.Assets.RepaySurcharge>
   <USAC.UI.Assets.GrowthForecast>GROWTH_FORECAST // 원금 증가 예측</USAC.UI.Assets.GrowthForecast>
-  <USAC.UI.Assets.GrowthMode.Wealth>자산 비율 증가({0}%/일)</USAC.UI.Assets.GrowthMode.Wealth>
-  <USAC.UI.Assets.GrowthMode.Principal>원금 비율 증가({0}%/일)</USAC.UI.Assets.GrowthMode.Principal>
+  <USAC.UI.Assets.GrowthMode.Wealth>원금 증가 = 맵 총자산 × {0}% / 주기</USAC.UI.Assets.GrowthMode.Wealth>
+  <USAC.UI.Assets.GrowthMode.Principal>원금 증가 = 현재 원금 × {0}% / 주기</USAC.UI.Assets.GrowthMode.Principal>
   <USAC.UI.Assets.CurrentWealth>현재 맵 총자산: ₿{0}</USAC.UI.Assets.CurrentWealth>
   <USAC.UI.Nav.Home>전략 개요</USAC.UI.Nav.Home>
   <USAC.UI.Nav.Assets>자산 터미널</USAC.UI.Nav.Assets>
@@ -176,8 +176,8 @@
   <USAC.Debt.Transaction.PrincipalRepay>{0} 원금 상환</USAC.Debt.Transaction.PrincipalRepay>
   <USAC.Debt.Transaction.RepaySurcharge>{0} 초과 상환 할증</USAC.Debt.Transaction.RepaySurcharge>
   <USAC.Debt.Message.ContractSettled>[USAC] {0} 전액 정산 완료!</USAC.Debt.Message.ContractSettled>
-  <USAC.Debt.GrowthMode.WealthBase>자산 기반</USAC.Debt.GrowthMode.WealthBase>
-  <USAC.Debt.GrowthMode.PrincipalBase>원금 기반</USAC.Debt.GrowthMode.PrincipalBase>
+  <USAC.Debt.GrowthMode.WealthBase>맵 총자산 기준</USAC.Debt.GrowthMode.WealthBase>
+  <USAC.Debt.GrowthMode.PrincipalBase>현재 원금 기준</USAC.Debt.GrowthMode.PrincipalBase>
   <USAC.Debt.ScenPart.Summary>USAC {0}: ₿{1}\n주기 증가: {2}% ({3})\n주기 이자: {4}%</USAC.Debt.ScenPart.Summary>
   <USAC.Debt.ScenPart.InitialDebt>초기 채무 원금:</USAC.Debt.ScenPart.InitialDebt>
   <USAC.Debt.ScenPart.DebtType>채무 유형:</USAC.Debt.ScenPart.DebtType>
@@ -193,7 +193,7 @@
   <USAC.Debt.Message.PawnDemolished>[USAC] 채무 청산 집행: {0}이(가) 완전히 해체되었습니다.</USAC.Debt.Message.PawnDemolished>
   <USAC.Debt.Message.CreditDanger>[USAC] 신용 등급이 위험 수준으로 하락했습니다. USAC 교역 채널이 곧 폐쇄됩니다.</USAC.Debt.Message.CreditDanger>
   <USAC.Debt.Message.CreditPenalty>[USAC] 신용 대출 미납: 신용 점수 -25 (현재: {0})</USAC.Debt.Message.CreditPenalty>
-  <USAC.UI.Assets.SurchargeHint>분기별 무상 상환 한도 ₿{0} | 사용 ₿{1} | 10%▸무상 20%▸50% 30%▸100% 50%+▸200%</USAC.UI.Assets.SurchargeHint>
+  <USAC.UI.Assets.SurchargeHint>분기별 무상 한도 ₿{0} (잔여 ₿{4})  ▸  이번 할증 ₿{2}  →  총 비용 ₿{3}</USAC.UI.Assets.SurchargeHint>
   <USAC_FactionName>떠오르는 거인</USAC_FactionName>
   <USAC_FactionDesc>식민 함대가 떠난 뒤 찾아온 대규모 지식·기술 확산기 이후 부상한 거대 기업입니다. 정보·기술 우위를 바탕으로 현지 에너지 산업을 독점했으며, 문화적 헤게모니를 통해 급속히 팽창했습니다.</USAC_FactionDesc>
   <USAC_CorpseBag_Contains>내용물: {0}</USAC_CorpseBag_Contains>
@@ -234,13 +234,13 @@
   <USAC_Currency_LabelFull>바디백 가치: {0} (채권 x{1} 포함)</USAC_Currency_LabelFull>
   <USAC_Currency_LabelBondOnly>채권 x{0}</USAC_Currency_LabelBondOnly>
   <USAC_Currency_LabelCorpseBagOnly>바디백 가치: {0}</USAC_Currency_LabelCorpseBagOnly>
-  <USAC_Currency_LabelEmpty>역외 자산</USAC_Currency_LabelEmpty>
-  <USAC_Currency_Desc>이 자산은 궤도 청산 시스템에서 직접 식별할 수 있습니다. 환경설정에서 실물 채권 우선 사용을 지정하지 않는 한, USAC는 보관함의 자산을 우선 차감합니다.</USAC_Currency_Desc>
-  <USAC_Currency_Breakdown>자산 정산 내역:</USAC_Currency_Breakdown>
-  <USAC_Currency_CorpseBagValue>바디백 총가치: ₿{0}</USAC_Currency_CorpseBagValue>
-  <USAC_Currency_BondValue>신용 채권 보유량: {0}장 (가치 ₿{1})</USAC_Currency_BondValue>
-  <USAC_Currency_TotalValue>최대 결제 승인 한도: ₿{0}</USAC_Currency_TotalValue>
-  <USAC_Currency_SmallestBag>현재 인벤토리의 최소 정산 단위: ₿{0}</USAC_Currency_SmallestBag>
+  <USAC_Currency_LabelEmpty>USAC 화폐</USAC_Currency_LabelEmpty>
+  <USAC_Currency_Desc>USAC는 "신용 채권 결제 우선"을 활성화하지 않는 한 바디백을 결제에 우선 사용합니다. 주의: USAC는 거스름돈을 제공하지 않으며, 초과 가치는 손실됩니다.</USAC_Currency_Desc>
+  <USAC_Currency_Breakdown>자산 상세:</USAC_Currency_Breakdown>
+  <USAC_Currency_CorpseBagValue>바디백 가치: ₿{0}</USAC_Currency_CorpseBagValue>
+  <USAC_Currency_BondValue>신용 채권({0}개): ₿{1}</USAC_Currency_BondValue>
+  <USAC_Currency_TotalValue>사용 가능 결제액: ₿{0}</USAC_Currency_TotalValue>
+  <USAC_Currency_SmallestBag>최소 바디백 가치: ₿{0}</USAC_Currency_SmallestBag>
   <USAC_Currency_UntilNextBag>다음 바디백까지 사용 가능: {0}</USAC_Currency_UntilNextBag>
   <MessageTargetMustBeMechanoid>대상은 기계여야 합니다.</MessageTargetMustBeMechanoid>
   <MessageTargetMustBePlayerMech>대상은 아군 기계여야 합니다.</MessageTargetMustBePlayerMech>
@@ -380,8 +380,8 @@
   <USAC.Trade.Summary.Net>순 지출</USAC.Trade.Summary.Net>
   <USAC.Trade.Summary.Current>현재 자산</USAC.Trade.Summary.Current>
   <USAC.Trade.Summary.After>거래 후</USAC.Trade.Summary.After>
-  <USAC.Trade.Summary.NoChange>자산 보유량 변동 없음</USAC.Trade.Summary.NoChange>
-  <USAC.Trade.Summary.Wastage>현재 단위 상각 자산 손실: ₿{0}</USAC.Trade.Summary.Wastage>
+  <USAC.Trade.Summary.NoChange>자산 변동 없음</USAC.Trade.Summary.NoChange>
+  <USAC.Trade.Summary.Wastage>거스름돈 손실: ₿{0}</USAC.Trade.Summary.Wastage>
   <USAC.Trade.Summary.Tip_0>아이템 아이콘을 클릭하면 세부 정보를 확인할 수 있습니다.</USAC.Trade.Summary.Tip_0>
   <USAC.Trade.Summary.Tip_1>귀하는 이곳에 있고 싶지 않다고 말씀하셨죠~ (USAC 회장 선집, 3:43)</USAC.Trade.Summary.Tip_1>
   <USAC.Trade.Summary.Tip_2>USAC는 화폐 분할 및 거스름돈 서비스를 제공하지 않습니다.</USAC.Trade.Summary.Tip_2>
@@ -412,4 +412,29 @@
   <USAC.Trade.CannotOverlapWithPending>사전 계획된 공중 투하 구역과 겹칠 수 없습니다.</USAC.Trade.CannotOverlapWithPending>
   <USAC.Trade.CannotLandOnBuilding>기존 건물 위에는 착륙할 수 없습니다.</USAC.Trade.CannotLandOnBuilding>
   <USAC.Trade.NotEnoughCurrency>지불 실패: 거래 신호기 범위 내 화폐(시체 가방 또는 신용 채권)가 이 청구서를 결산하기에 부족합니다.</USAC.Trade.NotEnoughCurrency>
+  <USAC.UI.Assets.CycleForecast>CYCLE_FORECAST // 주기 예측</USAC.UI.Assets.CycleForecast>
+  <USAC.UI.Assets.NextInterest>다음 주기 이자</USAC.UI.Assets.NextInterest>
+  <USAC.UI.Assets.GrowthNote>원금 증가는 매 주기마다 원금에 직접 더해집니다</USAC.UI.Assets.GrowthNote>
+  <USAC.Alert.DebtRepayment.Explanation.ContractEntryWithGrowth>▸ {0}\n  원금: ₿{1}  예상 이자: ₿{2}\n  예상 원금 증가: +₿{5}\n  만기까지: {3}일  미납: {4}\n\n</USAC.Alert.DebtRepayment.Explanation.ContractEntryWithGrowth>
+  <USAC.Ending.Transfer.SilverBuyout.Title>SILVER_SETTLEMENT//은 상환 보고서</USAC.Ending.Transfer.SilverBuyout.Title>
+  <USAC.Ending.Transfer.SilverBuyout.Body>{0} 세력이 {1} 은 전액 결제 수령을 확인했습니다. 귀하의 채무 상태는 "정산 완료"로 갱신되었습니다.
+
+이 순간 궤도 정산 네트워크의 데이터 흐름이 잠시 정지했습니다. 채무 관리부의 리스크 통제 알고리즘은 이 거래의 적법성을 반복적으로 검증했지만, 그 이면의 논리는 끝내 이해하지 못했습니다. 귀하는 이처럼 막대한 은 보유량을 가지고 있었고, 이를 당사가 인정하는 결제 수단으로 전환할 방법도 수없이 많았음에도 여러 정산 주기 동안 아무 행동도 하지 않았습니다. 그리고 채무 이전 시점까지 버티다가, 결국 현금으로 전체 채무를 단번에 매입 상환했습니다.
+
+은 자체는 USAC의 궤도 정산 네트워크에서 아무 가치가 없습니다. 당사 시스템은 특정 결제 증빙만을 인정합니다. 그러나 {0} 측은 분명 개의치 않는 듯합니다. 그들은 이 은 더미를 현지 거래망에 투입하고, 길고 비효율적인 재판매 절차를 통해 최종적으로 비용을 회수할 것입니다. 방금 "부실 자산"을 인수한 세력에게 이 횡재는 재무 책임자를 3분 동안 정지시킬 만큼 충분했습니다.
+
+이 조치는 당사의 역사 기록에서도 극히 드문 사례입니다. 보통 이런 일을 하는 사람은 두 부류뿐입니다. 채무 이전의 회색지대에서 차익거래 기회를 찾아낸 계산에 능한 금융 천재이거나, 아니면 단순히 빚 독촉에 쫓기는 스릴을 즐기는 도박꾼입니다. 후자는 "돈이 충분히 많으면, 규칙은 그저 제안일 뿐"이라는 사실을 가장 비싼 방식으로 증명합니다.
+
+귀하가 어느 부류에 속하든, 적어도 한 가지는 증명되었습니다. 이 변방계에는 언제나 가장 터무니없는 방식으로 목표를 달성하는 사람들이 있다는 것입니다.</USAC.Ending.Transfer.SilverBuyout.Body>
+  <USAC.Ending.Transfer.SilverBuyout.Close>채무 관리부는 본 사례를 "비정형 정산 행위"로 기록했으며, 향후 리스크 통제 모델에 "결제 능력이 있는 상태에서의 고의적 지연" 평가 항목을 추가할 것을 권고합니다.
+
+모든 절차는 종료되었습니다. 귀하의 신용 기록은 시스템에서 삭제되었고, 그 자리는 "정산 완료(은 매입 상환)"이라는 차가운 데이터 항목으로 대체되었습니다.</USAC.Ending.Transfer.SilverBuyout.Close>
+  <USAC.Ending.Transfer.SilverBuyout.Ending>"돈 많고 제멋대로."</USAC.Ending.Transfer.SilverBuyout.Ending>
+  <USAC.Trade.Summary.Settlement>정산</USAC.Trade.Summary.Settlement>
+  <USAC.Trade.Summary.IncludeWastage>거스름돈 손실 ₿{0} 포함</USAC.Trade.Summary.IncludeWastage>
+  <USAC.Trade.Summary.CurrentAssets>현재</USAC.Trade.Summary.CurrentAssets>
+  <USAC.Trade.Summary.AfterTransaction>이후</USAC.Trade.Summary.AfterTransaction>
+  <USAC.Trade.Summary.AfterRemain>잔여</USAC.Trade.Summary.AfterRemain>
+  <USAC.Trade.Summary.BuyingFrom>구매처: {0}</USAC.Trade.Summary.BuyingFrom>
+  <USAC.Trade.Summary.SellingTo>판매처: {0}</USAC.Trade.Summary.SellingTo>
 </LanguageData>
