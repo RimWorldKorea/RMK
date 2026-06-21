@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <OAGene_SnowstormStrugglers.questDescriptionRules.rulesStrings>
+    <li>questDescription(uniqueQuestDesc!=True)-&gt;[approachInfo] [claimInfo] [asker_nameDef](은)는 [lodgersPronoun](이)가 재정비할 수 있도록 [questDurationTicks_duration] 동안 [map_definite]에 머물게 해달라고 요청했습니다.\n\n그 대가로 [lodgersPronoun](은)는 머무는 동안 무료로 일하고 싸우겠다고 [offer]했습니다.\n\n[joinInfo] [futureRewardInfo]\n\n[playerBetrayInfo]</li>
+    <li>offer(lodgerCount==1)-&gt;제안</li>
+    <li>offer(lodgerCount&gt;=2)-&gt;제안</li>
+    <li>lodgersPronoun(lodgerCount==1)-&gt;[asker_pronoun]</li>
+    <li>lodgersPronoun(lodgerCount&gt;=2)-&gt;그들</li>
+    <li>lodgersPreposition(lodgerCount==1)-&gt;[asker_objective] 자신</li>
+    <li>lodgersPreposition(lodgerCount&gt;=2)-&gt;그들 자신</li>
+    <li>lodgersObjective(lodgerCount==1)-&gt;[asker_objective]</li>
+    <li>lodgersObjective(lodgerCount&gt;=2)-&gt;그들</li>
+    <li>lodgersPossessive(lodgerCount==1)-&gt;[asker_possessive]</li>
+    <li>lodgersPossessive(lodgerCount&gt;=2)-&gt;그들의</li>
+    <li>lodgersSingularOrPluralDef(lodgerCount==1)-&gt;[asker_nameDef]</li>
+    <li>lodgersSingularOrPluralDef(lodgerCount&gt;=2)-&gt;[lodgersLabelPlural]</li>
+    <li>travelerInfo(lodgerCount==1)-&gt;이 [faction_pawnSingular]</li>
+    <li>travelerInfo(lodgerCount&gt;=2)-&gt;이 [faction_pawnsPlural]</li>
+    <li>joinInfo(allowJoinOffer!=True)-&gt;</li>
+    <li>joinInfo(allowJoinOffer==True,lodgerCount==1)-&gt;[asker_objective](을)를 만족시킨다면, [asker_pronoun](이)가 합류를 제안할 수도 있습니다.</li>
+    <li>joinInfo(allowJoinOffer==True,lodgerCount&gt;=2)-&gt;그들을 만족시킨다면, 그들 중 일부가 합류를 제안할 수도 있습니다.</li>
+    <li>futureRewardInfo(allowFutureReward!=True)-&gt;</li>
+    <li>futureRewardInfo(allowFutureReward==True)-&gt;[lodgersPronoun](은)는 나중에 당신이 [lodgersObjective](을)를 도운 것에 대해 보답할지도 모릅니다.</li>
+    <li>playerBetrayInfo(isMainFaction!=True)-&gt;[travelerInfo](은)는 어떤 주요 세력에도 속하지 않습니다. 원한다면 외교적 불이익 없이 [lodgersObjective](을)를 살해, 체포, 노예로 판매하거나 장기를 적출할 수 있습니다.</li>
+    <li>playerBetrayInfo(isMainFaction==True)-&gt;[travelerInfo](은)는 [asker_factionName] 소속입니다. [lodgersObjective](을)를 살해, 체포, 노예로 판매하거나 장기를 적출할 경우 심각한 외교적 파장이 일어납니다.</li>
+    <li>questDescription-&gt;[approachInfo][claimInfo][asker_nameDef](은)는 정착지 근처를 여행하던 중 갑작스러운 극심한 눈보라를 만나 야외에서 얼어 죽을 뻔했습니다. 절망에 빠져 있던 이 여행자 무리는 우연히 당신의 정착지를 발견하고는 이곳까지 힘겹게 발걸음을 옮겼습니다.\n마침내 당신의 정착지에 도착한 그들은, [lodgersPronoun](이)가 이 눈보라 속에서 살아남을 수 있도록 [map_definite]에 피신하게 해달라고 요청했습니다.\n\n그 대가로 [lodgersPronoun](은)는 머무는 동안 무료로 일하고 싸우겠다고 [offer]했습니다.\n\n[joinInfo][lodgersPronoun](은)는 나중에 당신이 [lodgersObjective](을)를 도운 것에 대해 보답할지도 모릅니다.\n\n[travelerInfo](은)는 [asker_factionName] 소속입니다. [lodgersObjective](을)를 살해, 체포, 노예로 판매하거나 장기를 적출할 경우 심각한 외교적 파장이 일어납니다.</li>
+    <li>approachInfo(lodgerCount==1)-&gt;[asker_nameDef](이)라는 이름의 절망에 빠진 [faction_pawnSingular](이)가 다가오고 있습니다. </li>
+    <li>approachInfo(lodgerCount==2)-&gt;[asker_nameDef](와)과 또 다른 절망에 빠진 [faction_pawnSingular](이)가 다가오고 있습니다. </li>
+    <li>approachInfo(lodgerCount==2,childCount==1,priority=1)-&gt;[asker_nameDef](이)가 아이 한 명을 데리고 다가오고 있습니다. </li>
+    <li>approachInfo(lodgerCount&gt;=3)-&gt;[lodgerCount]명의 절망에 빠진 [faction_pawnsPlural](이)가 다가오고 있으며, 이들의 지도자는 [asker_nameDef]입니다. </li>
+    <li>approachInfo(lodgerCount&gt;=3,childCount==1,priority=1)-&gt;벼랑 끝에 몰린 [lodgerCount]명의 [faction_pawnsPlural](이)가 아이 한 명을 데리고 다가오고 있습니다. 이들의 지도자는 [asker_nameDef]입니다. </li>
+    <li>approachInfo(lodgerCount&gt;=3,childCount&gt;=2,priority=1)-&gt;벼랑 끝에 몰린 [lodgerCount]명의 [faction_pawnsPlural](이)가 아이들을 데리고 다가오고 있습니다. 이들의 지도자는 [asker_nameDef]입니다. </li>
+    <li>approachInfo(lodgerCount&gt;=3,allButOneChildren==true,priority=2)-&gt;[asker_nameDef](이)가 보호 중인 [lodgersCountMinusOne]명의 아이들을 데리고 다가오고 있습니다. </li>
+    <li>claimInfo(lodgerCount==1)-&gt;[asker_nameDef](은)는 혼자 눈보라 속에서 길을 잃었다고 말합니다. </li>
+    <li>claimInfo(lodgerCount&gt;=2)-&gt;그들은 최근 습격으로 고향을 잃었다고 말합니다. </li>
+  </OAGene_SnowstormStrugglers.questDescriptionRules.rulesStrings>
+</LanguageData>

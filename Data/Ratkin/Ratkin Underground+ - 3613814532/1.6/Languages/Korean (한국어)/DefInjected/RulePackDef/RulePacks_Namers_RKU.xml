@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <NamerFaction_RKU.rulePack.rulesStrings>
+    <li>r_name->랫킨 지하 빨치산</li>
+  </NamerFaction_RKU.rulePack.rulesStrings>
+  
+  <NamerPerson_RKU.rulePack.rulesStrings>
+    <li>r_name(p=4)->[RKU_FirstName] [RKU_LastName]</li>
+    <li>r_name->[RKU_FirstName]</li>
+  </NamerPerson_RKU.rulePack.rulesStrings>
+  
+  <NamerSettlement_RKU.rulePack.rulesStrings>
+    <li>r_name->[RKU_Last_Underground] 마을</li>
+    <li>r_name->[RKU_Last_Underground] 성</li>
+    <li>r_name->[RKU_Last_Underground] 도시</li>
+    <li>r_name->지하 [RKU_Last_Underground]</li>
+    <li>r_name->심층 [RKU_Last_Underground]</li>
+    <li>r_name->[RKU_Last_Underground] 광산</li>
+    <li>r_name->[RKU_Last_Underground] 동굴</li>
+    <li>r_name->[RKU_Last_Underground] 대동굴</li>
+    <li>r_name->[townname_wordgen]</li>
+    <li>townname_wordgen->[RKU_Last_Underground][townend]</li>
+    <li>townend->마을</li>
+    <li>townend->성</li>
+    <li>townend->도시</li>
+    <li>townend->촌락</li>
+    <li>townend->동굴</li>
+    <li>townend->대동굴</li>
+    <li>townend->광산</li>
+  </NamerSettlement_RKU.rulePack.rulesStrings>
+
+  <RKU_NameUtility.rulePack.rulesStrings>
+    <li>RKU_FirstName->[RKU_FirstName]</li>
+    <li>RKU_LastName->[RKU_Last_Underground]</li>
+  </RKU_NameUtility.rulePack.rulesStrings>
+
+</LanguageData>

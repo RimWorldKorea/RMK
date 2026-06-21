@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HaulersDream.Setting.CarryLimit>운반 한도: 개인 최대 운반 용량의 {0}</HaulersDream.Setting.CarryLimit>
+  <HaulersDream.Setting.DropThenHaul>바닥에 떨어뜨린 뒤 주워 담기(현실적)</HaulersDream.Setting.DropThenHaul>
+  <HaulersDream.Setting.DropThenHaulDesc>켜면 수확/채굴한 물품이 땅에 떨어지고, 작업이 끝난 뒤 작업자가 그것을 인벤토리에 주워 담습니다. 끄면 물품이 바로 인벤토리로 들어갑니다(땅에 떨어지지 않음).</HaulersDream.Setting.DropThenHaulDesc>
+  <HaulersDream.Setting.MarkForUnload>주워 담은 물품 자동으로 내리기(작업 종료 시, 식사와 오락 전후, 과적 시, 그리고 아래 간격마다). 끄면  "소지품 내리기" 버튼을 누를 때까지 계속 들고 다닙니다.</HaulersDream.Setting.MarkForUnload>
+  <HaulersDream.Setting.UnloadAllSurplus>Hauler's Dream이 직접 주워 담지 않은 잉여 소지품도 정리하기(기본 꺼짐)</HaulersDream.Setting.UnloadAllSurplus>
+  <HaulersDream.Setting.UnloadAllSurplusDesc>기본 꺼짐: Hauler's Dream은 직접 주워 담은 물품만 내리므로, 정착민의 보조무기, 소지 중인 약품이나 물, 거래 물품은 건드리지 않습니다. 이유 없이 들고 다니는 잉여 물품(거래, 다른 모드, 수동 이동 등)까지 정리하고 싶다면 켜세요. "잉여"에는 정착민이 보관해야 하는 음식, 약물, 인벤토리 비축량과 Combat Extended 장비 설정(탄약 포함), 바닐라 중독/의존 약물, Simple Sidearms, Smart Medicine, Dub's Bad Hygiene이 인벤토리에 유지하도록 하는 물품(모두 자동 감지), 아래 개별 물품 내리기 설정에서 유지하도록 지정한 물품이 제외됩니다. 또한 보관할 곳이 있는 스택만 내리며, 상단 적재 중인 인벤토리는 그대로 둡니다.</HaulersDream.Setting.UnloadAllSurplusDesc>
+  <HaulersDream.Setting.ItemUnloadButton>개별 물품 내리기 설정…</HaulersDream.Setting.ItemUnloadButton>
+  <HaulersDream.Setting.ItemUnloadButtonN>개별 물품 내리기 설정({0})…</HaulersDream.Setting.ItemUnloadButtonN>
+  <HaulersDream.ItemUnload.Title>개별 물품 내리기 설정</HaulersDream.ItemUnload.Title>
+  <HaulersDream.ItemUnload.Desc>Hauler's Dream이 정착민의 인벤토리 안 특정 물품을 어떻게 처리할지 설정합니다. 각 물품마다 절대 내리지 않기(스택 전체 유지), 최대 N개만 유지(N개까지 들고 나머지는 내림), 항상 내리기(다른 모드가 유지하려 해도 정리)를 선택할 수 있습니다. 규칙이 없는 물품은 일반 동작을 따릅니다. 이 규칙은 Combat Extended, Simple Sidearms, Smart Medicine, Dub's Bad Hygiene 및 중독 관련 자동 유지 감지보다 우선합니다. 제거한 모드의 물품 선택도 기억해 두었다가 모드를 다시 설치하면 복원되며, 세이브 로딩에는 영향을 주지 않습니다. (팁: Combat Extended의 탄약 수량은 해당 장비 설정에서 지정하는 것이 가장 좋습니다. CE가 그 수량까지 탄약을 다시 가져옵니다.)</HaulersDream.ItemUnload.Desc>
+  <HaulersDream.ItemUnload.ClearAll>모두 지우기</HaulersDream.ItemUnload.ClearAll>
+  <HaulersDream.ItemUnload.ModeDefault>기본값</HaulersDream.ItemUnload.ModeDefault>
+  <HaulersDream.ItemUnload.ModeKeepAll>절대 내리지 않기</HaulersDream.ItemUnload.ModeKeepAll>
+  <HaulersDream.ItemUnload.ModeKeepAtMost>최대 보유량</HaulersDream.ItemUnload.ModeKeepAtMost>
+  <HaulersDream.ItemUnload.ModeUnloadAlways>항상 내리기</HaulersDream.ItemUnload.ModeUnloadAlways>
+  <HaulersDream.Setting.UnloadBeforeSleep>자기 전에 짐 내려놓기</HaulersDream.Setting.UnloadBeforeSleep>
+  <HaulersDream.Setting.UnloadBeforeSleepDesc>정착민이 일을 마치고 피곤한 상태(잠자러 가기 직전)이면, 주워 담은 짐을 침대로 들고 가는 대신 먼저 내린 뒤 빈손으로 잠자리에 듭니다. 실제로 일하는 중에는 평소처럼 계속 모읍니다.</HaulersDream.Setting.UnloadBeforeSleepDesc>
+  <HaulersDream.Setting.UnloadBeforeLeisure>오락 전에 짐 내려놓기</HaulersDream.Setting.UnloadBeforeLeisure>
+  <HaulersDream.Setting.UnloadBeforeLeisureDesc>정착민이 일을 멈추고 오락(오락 시간표 구간 또는 오락 활동)으로 향하면, 짐을 들고 쉬러 다니는 대신 먼저 내려놓습니다.</HaulersDream.Setting.UnloadBeforeLeisureDesc>
+  <HaulersDream.Setting.UnloadBeforeEating>식사 전에 짐 내려놓기</HaulersDream.Setting.UnloadBeforeEating>
+  <HaulersDream.Setting.UnloadBeforeEatingDesc>정착민이 일을 마치고 배고픈 상태(식사 직전)이면 먼저 짐을 내려놓습니다. 방금 캔 광석을 식탁까지 들고 가지 않게 됩니다.</HaulersDream.Setting.UnloadBeforeEatingDesc>
+  <HaulersDream.Setting.ShareHeader>정착민끼리 소지한 재료 공유:</HaulersDream.Setting.ShareHeader>
+  <HaulersDream.Setting.ShareForBuilding>소지 중인 재료를 건설에 사용</HaulersDream.Setting.ShareForBuilding>
+  <HaulersDream.Setting.ShareForCrafting>소지 중인 재료를 제작 작업에 사용</HaulersDream.Setting.ShareForCrafting>
+  <HaulersDream.Setting.ShareMeetInMiddle>쉬고 있는 운반꾼이 작업자 쪽으로 걸어가 물품을 건네줌</HaulersDream.Setting.ShareMeetInMiddle>
+  <HaulersDream.Setting.BatchWorkDeliveries>한 번에 여러 대기 중인 건설에 쓸 재료 운반</HaulersDream.Setting.BatchWorkDeliveries>
+  <HaulersDream.Setting.BatchWorkDeliveriesDesc>값싼 건설물(예: 긴 울타리)을 많이 지을 때, 정착민이 여러 대기 중인 건설에 충분한 재료를 한 번에 손에 들고 각 지점에 배달합니다. 조금씩 왕복하지 않습니다. 손에 들고 운반하므로 이동속도 저하가 없습니다.</HaulersDream.Setting.BatchWorkDeliveriesDesc>
+  <HaulersDream.Setting.InventoryConstructDeliver>큰 단일 건설의 재료를 인벤토리에 넣어 운반</HaulersDream.Setting.InventoryConstructDeliver>
+  <HaulersDream.Setting.InventoryConstructDeliverDesc>하나의 건설물이 한 재료의 한 손 분량보다 더 많이 필요할 때(예: 지열 발전기의 강철 340개), 정착민이 재료를 인벤토리에 실어 운반합니다. 이 방식은 스택 크기가 아니라 무게 한도를 따르므로, 한 번에 ~75개씩 손으로 나르는 대신 훨씬 적은 횟수로 배달합니다. 위의 스마트 과적 설정에 따라 100%를 얼마나 넘겨 실을지 정합니다. 과적을 끄면 100%까지만 싣습니다(이동속도 저하 없음).</HaulersDream.Setting.InventoryConstructDeliverDesc>
+  <HaulersDream.Setting.ShareHandHauled>저장하러 가는 정착민에게서 재료 가져오기(기본 꺼짐)</HaulersDream.Setting.ShareHandHauled>
+  <HaulersDream.Setting.ShareHandHauledDesc>건설자가 재료를 필요로 하는데 유일한 재고가 저장 구역으로 운반 중인 정착민의 손에 있을 경우, 재료가 저장소에 도착하기를 기다렸다가 다시 가져오는 대신 건설자가 이동 중인 그 정착민을 만나 스택을 가져옵니다. 특정 건설, 작업대 작업, 연료 보급 작업에 배달 중인 정착민은 절대 건드리지 않으며, 실제로 왕복을 줄일 때만 작동합니다. (현재는 건설 전용.)</HaulersDream.Setting.ShareHandHauledDesc>
+  <HaulersDream.Setting.BulkHaul>대량 운반 - 한 번의 운반이 주변 물품을 모두 주움</HaulersDream.Setting.BulkHaul>
+  <HaulersDream.Setting.BulkHaulDesc>정착민이 한 물품을 운반하러 가면, 그 주변의 운반 가능한 모든 물품을 인벤토리에 주워 담아 한 번의 저장소 이동으로 함께 배달합니다. 끄면 바닐라처럼 한 번에 한 물품만 운반합니다.</HaulersDream.Setting.BulkHaulDesc>
+  <HaulersDream.Setting.BulkHaulSecond>명령 운반은 근처에 두 번째 운반 명령이 있을 때만 훑어 담기</HaulersDream.Setting.BulkHaulSecond>
+  <HaulersDream.Setting.BulkHaulSecondDesc>자동 운반은 항상 주변 물품을 인벤토리에 훑어 담습니다(여러 물품을 한 번에 저장). 직접 명령한 운반은 정밀하게 그 물품 하나만 운반하지만, 근처에 두 번째 운반을 명령해 두었다면 정착민이 함께 훑어 담습니다. 더 세밀한 제어를 위한 기본값입니다.</HaulersDream.Setting.BulkHaulSecondDesc>
+  <HaulersDream.Setting.BulkHaulAlways>항상 훑어 담기 - 모든 운반이 주변 물품을 모두 주움</HaulersDream.Setting.BulkHaulAlways>
+  <HaulersDream.Setting.BulkHaulAlwaysDesc>자동이든 직접 명령이든 모든 운반에서 근처 운반 가능 물품도 정착민의 인벤토리에 함께 실어 한 번에 저장합니다. 운반량은 아래 스마트 과적 슬라이더를 따릅니다. 추가 무게 때문에 느려지는 것보다 왕복을 줄이는 편이 실제로 이득일 때만 더 싣습니다.</HaulersDream.Setting.BulkHaulAlwaysDesc>
+  <HaulersDream.Setting.HaulNearbyOption>우클릭 명령에 "근처 물건 모두 운반" 추가</HaulersDream.Setting.HaulNearbyOption>
+  <HaulersDream.Setting.HaulNearbyOptionDesc>운반 가능한 물품을 우클릭했을 때(운반 가능한 정착민에게) "근처 물건 모두 운반" 명령을 추가합니다. 즉시 대량 훑어 담기를 시작하므로, 대량 운반을 발동하려고 두 개의 운반을 우선 지정할 필요가 없습니다. 바닐라의 "운반 우선"은 단일 물품 운반용으로 함께 표시됩니다.</HaulersDream.Setting.HaulNearbyOptionDesc>
+  <HaulersDream.Setting.HaulOversized>초과 크기 스택을 인벤토리에 넣어 운반</HaulersDream.Setting.HaulOversized>
+  <HaulersDream.Setting.HaulOversizedDesc>단일 스택이 한 번에 팔에 들기에는 너무 클 때(예: 정착민이 72개만 들 수 있는데 강철 75개 스택이 있을 때), 정착민이 그것을 인벤토리에 넣어 한 번에 전체 스택을 배달합니다. 일부만 손으로 들고 나머지를 남기지 않습니다. 명령 운반과 자동 운반 모두에 적용되며, 저장소가 실제로 받을 수 있는 양만 운반하므로 물품이 어중간하게 남지 않습니다.</HaulersDream.Setting.HaulOversizedDesc>
+  <HaulersDream.Setting.SweepNearbyWhileWorking>일하면서 정리 - 근처 흩어진 물품도 주워 담기</HaulersDream.Setting.SweepNearbyWhileWorking>
+  <HaulersDream.Setting.SweepNearbyWhileWorkingDesc>정착민이 해체, 채굴, 수확을 하며 자기 산출물을 주워 담는 동안, 작업 지점 주변에 떨어진 다른 운반 가능 물품도 인벤토리에 함께 주워 담습니다. 따로 운반을 시키지 않아도 한 번의 통합 이동으로 주변이 정리됩니다. 운반이 필요하고 둘 곳이 있는 물품만 가져가며(다른 운반꾼의 대상이나 이미 저장된 재고는 제외), 스마트 과적 한도까지만 담습니다.</HaulersDream.Setting.SweepNearbyWhileWorkingDesc>
+  <HaulersDream.Setting.HaulToStack>기존 스택으로 운반(기존 스택 채우기, 목적지 칸 공유)</HaulersDream.Setting.HaulToStack>
+  <HaulersDream.Setting.ConstructTether>명령한 건설을 운반과 건설이 하나의 작업으로 처리</HaulersDream.Setting.ConstructTether>
+  <HaulersDream.Setting.ConstructTetherDesc>건설을 우클릭해 우선 지정하면, 정착민이 재료를 운반하고 바로 건설까지 하나의 연속 작업으로 수행합니다. 끄면 명령은 재료 배달만 수행하고(바닐라와 유사), 건설은 일반 작업으로 진행됩니다. "함께 건설"로 계획한 경로는 이 설정과 관계없이 자체 동작을 유지합니다.</HaulersDream.Setting.ConstructTetherDesc>
+  <HaulersDream.Setting.HaulToSiteOption>"재료를 ...로 운반 우선" 명령 표시</HaulersDream.Setting.HaulToSiteOption>
+  <HaulersDream.Setting.HaulToSiteOptionDesc>아직 건설할 수 없는 상태에서도 건설 현장에 재료를 채우는 우클릭 명령입니다. 끄면 이 명령이 숨겨집니다.</HaulersDream.Setting.HaulToSiteOptionDesc>
+  <HaulersDream.Setting.PlanRoutes>경로 계획기 활성화("우선 [작업] 계획…")</HaulersDream.Setting.PlanRoutes>
+  <HaulersDream.Setting.PlanRoutesDesc>수확, 채굴, 청소, 해체, 건설 경로를 지정하는 우클릭 계획 도구입니다. 끄면 모든 곳에서 메뉴 항목이 숨겨집니다.</HaulersDream.Setting.PlanRoutesDesc>
+  <HaulersDream.Setting.PlanCrafting>제작 계획기 활성화("우선 제작 계획…")</HaulersDream.Setting.PlanCrafting>
+  <HaulersDream.Setting.PlanCraftingDesc>작업대에서 작업대 작업을 여러 번 일괄 처리하고 재료 운반을 한 번으로 묶는 우클릭 계획 도구입니다. 끄면 메뉴 항목이 숨겨집니다.</HaulersDream.Setting.PlanCraftingDesc>
+  <HaulersDream.Setting.HaulToStackDesc>운반꾼은 새 스택을 만들기보다 기존의 일부만 찬 스택에 더하려고 합니다. 단, 게임이 이미 선택한 저장실 안에서만 적용됩니다(어느 저장 구역이 이기는지는 여전히 우선순위와 거리가 결정). 땅, 선반, 모드 저장 장치에서 작동합니다. 야외 저장소는 대신 짧은 반경 안의 주변 저장 구역을 살핍니다. 목적지 칸도 더 이상 예약되지 않으므로, 여러 운반꾼이 같은 칸에 동시에 배달할 수 있어 한 물품 종류가 열 칸에 흩어지는 일이 줄어듭니다.</HaulersDream.Setting.HaulToStackDesc>
+  <HaulersDream.Setting.AutoStripHeader>운반 중 자동 벗기기 - 시체 운반 시 몸을 벗기고, 전리품은 운반꾼 인벤토리에 실음:</HaulersDream.Setting.AutoStripHeader>
+  <HaulersDream.Setting.AutoStripMode>시체 벗기기: {0}</HaulersDream.Setting.AutoStripMode>
+  <HaulersDream.Setting.AutoStripAll>모든 시체 운반 시(저장 구역, 무덤, 화장, 도축)</HaulersDream.Setting.AutoStripAll>
+  <HaulersDream.Setting.AutoStripDisposal>처리 운반 시에만(무덤, 석관, 화장, 도축 - 일반 저장 구역 운반은 제외)</HaulersDream.Setting.AutoStripDisposal>
+  <HaulersDream.Setting.AutoStripOff>안 함(바닐라 동작)</HaulersDream.Setting.AutoStripOff>
+  <HaulersDream.Setting.StripColonists>플레이어 세력 시체도 벗기기</HaulersDream.Setting.StripColonists>
+  <HaulersDream.Setting.StripColonistsDesc>끄면(기본값) 우리 쪽 사망자, 즉 정착민과 식민지 동물은 장비와 존엄성을 유지합니다. 낯선 이와 적만 전리품을 챙깁니다.</HaulersDream.Setting.StripColonistsDesc>
+  <HaulersDream.Setting.TaintedSmeltable>오염된 의류(제련 가능): {0}</HaulersDream.Setting.TaintedSmeltable>
+  <HaulersDream.Setting.TaintedNonSmeltable>오염된 의류(제련 불가): {0}</HaulersDream.Setting.TaintedNonSmeltable>
+  <HaulersDream.Setting.TaintedTake>가져가기(판매, 착용, 제련)</HaulersDream.Setting.TaintedTake>
+  <HaulersDream.Setting.TaintedLeave>시체에 남겨두기(화장하면 몸과 함께 타며, 도축하면 바닐라처럼 작업대에 떨어짐)</HaulersDream.Setting.TaintedLeave>
+  <HaulersDream.Setting.TaintedForbid>떨어뜨리고 금지하기</HaulersDream.Setting.TaintedForbid>
+  <HaulersDream.Setting.TaintedDestroy>그 자리에서 파괴하기(퀘스트 물품과 유물은 대신 가져가며, 절대 파괴하지 않음)</HaulersDream.Setting.TaintedDestroy>
+  <HaulersDream.Setting.Overload>스마트 과적: {0}</HaulersDream.Setting.Overload>
+  <HaulersDream.Setting.OverloadDesc>정착민은 왕복을 줄이기 위해 최대 무게의 100%를 넘겨 재료를 들 수 있지만, 과적할수록 더 느려집니다. 실제로 왕복을 줄이는 이득이 느려지는 손해보다 클 때만 과적합니다(대기 중인 건설/제작 작업 포함). 왼쪽으로 밀면 속도 저하가 가볍고 더 많이 실으며, 오른쪽으로 밀면 속도 저하가 크고 더 적게 싣습니다.</HaulersDream.Setting.OverloadDesc>
+  <HaulersDream.Overload.Free>이동속도 저하 없음 - 자유롭게 운반</HaulersDream.Overload.Free>
+  <HaulersDream.Overload.Fair>보통(균형)</HaulersDream.Overload.Fair>
+  <HaulersDream.Overload.Off>끔 - 절대 과적하지 않음</HaulersDream.Overload.Off>
+  <HaulersDream.Overload.Eager>과적 적극적({0})</HaulersDream.Overload.Eager>
+  <HaulersDream.Overload.Cautious>과적 신중({0})</HaulersDream.Overload.Cautious>
+  <HaulersDream.Setting.StrictCarryWeight>엄격한 운반 무게(과적 금지)</HaulersDream.Setting.StrictCarryWeight>
+  <HaulersDream.Setting.StrictCarryWeightDesc>켜면 정착민은 최대 무게의 100%를 넘겨 들지 않고, 가득 찼다는 이유로 작업을 중단해 내리러 가지도 않습니다. 수확은 계속하고 초과분은 땅에 남겨 일반 운반 대상이 되게 합니다(지나가는 길에 주움). 끄면(기본값) 정착민이 위 슬라이더에 따라 과적하고, 가득 차면 내리러 갑니다.</HaulersDream.Setting.StrictCarryWeightDesc>
+  <HaulersDream.Setting.RouteMaxAmount>경로 계획 - "수량" 슬라이더 상한: {0} 지점</HaulersDream.Setting.RouteMaxAmount>
+  <HaulersDream.Setting.RouteCalcHeader>경로 계산(기본값 - 경로 대화창에서 대상 유형별로 덮어쓸 수 있음)</HaulersDream.Setting.RouteCalcHeader>
+  <HaulersDream.Setting.RouteSelection>선택 방식: {0}</HaulersDream.Setting.RouteSelection>
+  <HaulersDream.Setting.RouteDistance>거리 기준: {0}</HaulersDream.Setting.RouteDistance>
+  <HaulersDream.Setting.RouteOrderEffort>방문 순서를 정확히 계산할 최대 지점 수: {0}</HaulersDream.Setting.RouteOrderEffort>
+  <HaulersDream.Setting.OpportunisticUnload>저장소를 지날 때 내려놓기</HaulersDream.Setting.OpportunisticUnload>
+  <HaulersDream.Setting.OpportunisticUnloadDesc>주워 담은 물품을 든 정착민이 다음 작업을 위해 먼 길을 떠날 때 저장 구역이 대략 경로상에 있으면, 나중에 따로 왕복하지 않고 지나가며 짐을 내려놓습니다.</HaulersDream.Setting.OpportunisticUnloadDesc>
+  <HaulersDream.Stat.Overload>Hauler's Dream - 과적됨</HaulersDream.Stat.Overload>
+  <HaulersDream.Setting.WorkTypesHeader>다음 작업의 산출물 주워 담기:</HaulersDream.Setting.WorkTypesHeader>
+  <HaulersDream.Setting.HaulHarvest>식물 - 수확 및 벌목</HaulersDream.Setting.HaulHarvest>
+  <HaulersDream.Setting.HaulMining>채굴 - 광석 및 암석 덩어리</HaulersDream.Setting.HaulMining>
+  <HaulersDream.Setting.HaulDeepDrill>심층 굴착기</HaulersDream.Setting.HaulDeepDrill>
+  <HaulersDream.Setting.HaulDeconstruct>해체 회수품</HaulersDream.Setting.HaulDeconstruct>
+  <HaulersDream.Setting.HaulAnimals>동물 - 우유 및 털 깎기</HaulersDream.Setting.HaulAnimals>
+  <HaulersDream.Setting.HaulStrip>벗기기 - 제거된 장비</HaulersDream.Setting.HaulStrip>
+  <HaulersDream.Setting.HaulStripDesc>정착민이 포로, 쓰러진 정착민, 시체를 벗길 때(벗기기 명령), 벗긴 무기, 장비, 의류를 바로 인벤토리에 주워 담아 한 번에 집으로 운반합니다. 시체에서 나온 오염된 의류는 위의 오염 의류 선택을 따릅니다("시체에 남겨두기" 조각은 주워 담지 않고 땅에 남습니다). 살아 있는 대상의 경우, 대상이 남은 옷을 다시 입었을 가능성에 대비해 벗기는 정착민의 작업 목록 끝에 후속 벗기기를 예약합니다. 대상이 계속 벌거벗은 상태라면 아무 일도 하지 않습니다.</HaulersDream.Setting.HaulStripDesc>
+  <HaulersDream.Setting.WorkOverrideHeader>작업 불능 무시 설정(끔 = 바닐라):</HaulersDream.Setting.WorkOverrideHeader>
+  <HaulersDream.Setting.AllCanHaul>모든 정착민이 운반 가능</HaulersDream.Setting.AllCanHaul>
+  <HaulersDream.Setting.AllCanHaulDesc>배경, 특성, 유전자, 왕실 작위, 이념 역할, 건강 상태, 퀘스트 제한 그 무엇도 정착민을 운반 불능으로 만들 수 없습니다. 작업 탭, 우클릭 우선 지정, 자동 작업, 이 모드의 계획기에 적용됩니다. (활성화 후 작업 우선순위를 지정하세요. 새로 가능해진 정착민은 다른 작업처럼 미지정 상태로 시작합니다.)</HaulersDream.Setting.AllCanHaulDesc>
+  <HaulersDream.Setting.AllCanClean>모든 정착민이 청소 가능</HaulersDream.Setting.AllCanClean>
+  <HaulersDream.Setting.AllCanCleanDesc>어떤 불능도 정착민을 청소할 수 없게 만들 수 없습니다. 작업 탭, 우클릭 우선 지정, 자동 작업, 이 모드의 계획기("우선 청소 계획" 포함)에 적용됩니다. (활성화 후 작업 우선순위를 지정하세요. 새로 가능해진 정착민은 미지정 상태로 시작합니다.)</HaulersDream.Setting.AllCanCleanDesc>
+  <HaulersDream.Setting.AllCanCutPlants>모든 정착민이 식물 베기 가능</HaulersDream.Setting.AllCanCutPlants>
+  <HaulersDream.Setting.AllCanCutPlantsDesc>어떤 불능도 정착민을 식물 베기 불능으로 만들 수 없습니다. 식물 베기 작업만 활성화됩니다. 파종(재배)은 여전히 정착민의 실제 능력에 따릅니다.</HaulersDream.Setting.AllCanCutPlantsDesc>
+  <HaulersDream.Setting.PauseWhileDrafted>징집 중에는 일시 중지</HaulersDream.Setting.PauseWhileDrafted>
+  <HaulersDream.Setting.AllowMechanoids>메카노이드가 주워 담고 운반하도록 허용</HaulersDream.Setting.AllowMechanoids>
+  <HaulersDream.Setting.AllowIncapable>운반 불능 정착민이 자기 산출물을 주워 담도록 허용</HaulersDream.Setting.AllowIncapable>
+  <HaulersDream.Setting.EnableOnNonHomeMaps>캐러밴/비거주 지도에서도 작동</HaulersDream.Setting.EnableOnNonHomeMaps>
+  <HaulersDream.Setting.HideGizmo>정착민별 "소지품 내리기" 버튼 숨기기</HaulersDream.Setting.HideGizmo>
+  <HaulersDream.Setting.UnloadGrace>누적 시간: 마지막으로 주운 뒤 내리러 가기 전까지 {0}틱(~초당 60틱) 동안 계속 주워 담습니다. 높을수록 정착민이 더 과적하고 더 적은 횟수로 크게 운반합니다. 그래도 가득 차면 즉시 내립니다(과적 한도).</HaulersDream.Setting.UnloadGrace>
+  <HaulersDream.Setting.IntervalUnload>주기적 내리기: 게임 내 {0}시간마다</HaulersDream.Setting.IntervalUnload>
+  <HaulersDream.Setting.IntervalUnloadOff>주기적 내리기: 꺼짐(작업 종료/식사와 오락/과적/수동 시에만)</HaulersDream.Setting.IntervalUnloadOff>
+  <HaulersDream.Setting.AlertCannotUnload>정착민이 소지품을 내릴 수 없을 때 경고(빨간 경고)</HaulersDream.Setting.AlertCannotUnload>
+  <HaulersDream.Setting.AlertCannotUnloadDesc>하나 이상의 정착민이 주워 담은 물품을 정리할 수 없을 때, 화면 오른쪽 아래에 치명적인 "화재!"식 경고를 표시합니다. 지도에 그 물품을 받을 저장 구역/폐기 구역이 없거나, 도달 가능한 지점을 찾지 못했거나, 물품을 너무 오래 들고도 내리지 못한 경우(저장소 접근 불가 또는 다른 모드가 운반/내리기 작업을 계속 취소)입니다. 하나의 경고가 모든 영향을 받은 정착민을 포함합니다. 마우스를 올리면 정착민을 가리키고, 클릭하면 순서대로 이동합니다. 인벤토리가 조용히 "블랙홀"이 되지 않게 보장해 줍니다.</HaulersDream.Setting.AlertCannotUnloadDesc>
+  <HaulersDream.Setting.AlertStuckHours>...정착민이 내리지 못한 물품을 게임 내 {0}시간 동안 들고 있으면 표시</HaulersDream.Setting.AlertStuckHours>
+  <HaulersDream.Setting.VerboseLogging>자세한 디버그 로그</HaulersDream.Setting.VerboseLogging>
+  <HaulersDream.Gizmo.UnloadNow>소지품 내리기</HaulersDream.Gizmo.UnloadNow>
+  <HaulersDream.Gizmo.UnloadNowDesc>이 정착민이 주워 담은 모든 물품을 가장 가까운 유효 저장소로 운반하게 합니다.</HaulersDream.Gizmo.UnloadNowDesc>
+  <HaulersDream.Gizmo.UnloadNowDrafted>징집 중: 이 정착민의 징집을 해제해야 내릴 수 있습니다.</HaulersDream.Gizmo.UnloadNowDrafted>
+  <HaulersDream.Alert.CannotUnload>소지품을 내릴 수 없음({0})</HaulersDream.Alert.CannotUnload>
+  <HaulersDream.Alert.CannotUnloadDesc.NoStorage>이 정착민들은 주워 담은 물품을 둘 곳이 없습니다. 지도에 그 물품을 받는 저장 구역이나 폐기 구역이 없고, 도달 가능한 위치도 찾지 못했습니다. 저장 구역을 추가하거나(폐기 저장 구역은 암석 덩어리와 대부분의 폐기물을 받습니다), 기존 저장 구역에서 해당 물품 종류를 허용하세요:
+
+{0}
+
+그때까지 물품은 인벤토리에 남습니다. 이 경고를 클릭하면 해당 정착민들을 순서대로 선택하고, 마우스를 올리면 위치를 가리킵니다.</HaulersDream.Alert.CannotUnloadDesc.NoStorage>
+  <HaulersDream.Alert.CannotUnloadDesc.Stuck>이 정착민들은 주워 담은 물품을 오랫동안 들고도 내리지 못했습니다. 현재 위치에서 저장소까지 도달할 수 없거나, 다른 모드가 운반/내리기 작업을 반복해서 취소하고 있을 수 있습니다:
+
+{0}
+
+도달 가능하고 허용된 저장 구역이 있는지, 작업을 방해하는 모드가 있는지 확인하세요. 이 경고를 클릭하면 해당 정착민들을 순서대로 선택하고, 마우스를 올리면 위치를 가리킵니다.</HaulersDream.Alert.CannotUnloadDesc.Stuck>
+  <HaulersDream.PlanRoute.Option>우선 {0} 계획…</HaulersDream.PlanRoute.Option>
+  <HaulersDream.PlanRoute.ConstructGerund>건설</HaulersDream.PlanRoute.ConstructGerund>
+  <HaulersDream.PlanRoute.Title>경로 계획: {0}</HaulersDream.PlanRoute.Title>
+  <HaulersDream.PlanRoute.ModeChained>연쇄 - 가장 가까운 몇 개</HaulersDream.PlanRoute.ModeChained>
+  <HaulersDream.PlanRoute.ModeChainedDesc>클릭한 대상부터 시작해 가장 가까운 같은 종류의 대상들을 선택한 수만큼 경로에 넣습니다.</HaulersDream.PlanRoute.ModeChainedDesc>
+  <HaulersDream.PlanRoute.ModeVein>맞닿음 - 광맥 전체</HaulersDream.PlanRoute.ModeVein>
+  <HaulersDream.PlanRoute.ModeVeinDesc>클릭한 대상에서 바깥쪽으로 이어진 같은 종류의 맞닿은 군집(광맥, 식물 구역)을 선택한 수량까지 경로에 넣습니다.</HaulersDream.PlanRoute.ModeVeinDesc>
+  <HaulersDream.PlanRoute.ModeRadius>반경 안</HaulersDream.PlanRoute.ModeRadius>
+  <HaulersDream.PlanRoute.ModeRadiusDesc>클릭한 대상의 선택 반경 안에 있는 같은 종류의 모든 대상을 경로에 넣습니다.</HaulersDream.PlanRoute.ModeRadiusDesc>
+  <HaulersDream.PlanRoute.ModeRooms>방 안</HaulersDream.PlanRoute.ModeRooms>
+  <HaulersDream.PlanRoute.ModeRoomsDesc>선택한 방 안의 같은 종류 대상 전체를 경로에 넣습니다. 클릭한 대상이 있는 방은 항상 포함되며, 아래에서 방을 더 선택할 수 있습니다. 참고: 열린 야외는 수량 제한 안에서 하나의 큰 구역으로 취급됩니다.</HaulersDream.PlanRoute.ModeRoomsDesc>
+  <HaulersDream.PlanRoute.ModeZone>재배 구역 전체</HaulersDream.PlanRoute.ModeZone>
+  <HaulersDream.PlanRoute.ModeZoneDesc>클릭한 식물이 서 있는 재배 구역 안의 같은 종류 대상을 모두 경로에 넣습니다. 한 번 클릭으로 밭 전체를 작업합니다. 수확의 경우 성숙도 조건과 성장 한계값은 계속 적용됩니다.</HaulersDream.PlanRoute.ModeZoneDesc>
+  <HaulersDream.PlanRoute.PickRooms>방 선택…</HaulersDream.PlanRoute.PickRooms>
+  <HaulersDream.PlanRoute.PickRoomsStop>선택 완료(방 안을 클릭해 추가)</HaulersDream.PlanRoute.PickRoomsStop>
+  <HaulersDream.PlanRoute.RoomsHeader>방: {0}</HaulersDream.PlanRoute.RoomsHeader>
+  <HaulersDream.PlanRoute.RoomGone>(방이 더 이상 존재하지 않음)</HaulersDream.PlanRoute.RoomGone>
+  <HaulersDream.PlanRoute.RadiusLabel>반경: {0}칸</HaulersDream.PlanRoute.RadiusLabel>
+  <HaulersDream.PlanRoute.Amount>수량: {0}</HaulersDream.PlanRoute.Amount>
+  <HaulersDream.PlanRoute.VeinAll>전체</HaulersDream.PlanRoute.VeinAll>
+  <HaulersDream.PlanRoute.MaxTravel>최대 이동: {0}</HaulersDream.PlanRoute.MaxTravel>
+  <HaulersDream.PlanRoute.MaxTravelNoLimit>제한 없음</HaulersDream.PlanRoute.MaxTravelNoLimit>
+  <HaulersDream.PlanRoute.Smart>스마트 경로(저장소 쪽으로 돌아오도록)</HaulersDream.PlanRoute.Smart>
+  <HaulersDream.PlanRoute.SmartDesc>대상을 모으고 해당 물품이 들어갈 저장 구역으로 돌아오는 전체 여정이 최대한 짧아지도록 방문 순서를 정합니다. 경로는 그 저장소 옆에서 끝납니다. 끄면 수집 경로 자체가 가장 짧아지도록만 순서를 정합니다.</HaulersDream.PlanRoute.SmartDesc>
+  <HaulersDream.PlanRoute.AllowHarvest>표시하지 않은 식물 수확 허용</HaulersDream.PlanRoute.AllowHarvest>
+  <HaulersDream.PlanRoute.AllowHarvestDesc>아직 수확 표시를 하지 않은 같은 종류의 근처 식물도, 아래 성장 한계값 이상이면 경로에 포함합니다. 충분히 익은 구역 전체를 한 번 클릭으로 수확할 수 있습니다. 끄면 경로는 이미 수확 표시된 식물만 포함합니다.</HaulersDream.PlanRoute.AllowHarvestDesc>
+  <HaulersDream.PlanRoute.GrowthThreshold>성장 한계값: {0}%</HaulersDream.PlanRoute.GrowthThreshold>
+  <HaulersDream.PlanRoute.PickStart>반드시 포함할 대상 선택…</HaulersDream.PlanRoute.PickStart>
+  <HaulersDream.PlanRoute.PickStop>선택 완료(지도를 클릭해 추가)</HaulersDream.PlanRoute.PickStop>
+  <HaulersDream.PlanRoute.PickHeader>반드시 포함: {0}</HaulersDream.PlanRoute.PickHeader>
+  <HaulersDream.PlanRoute.PickRoleHint>대상에 S(시작) 또는 E(끝)를 표시해 경로가 시작하거나 끝나는 위치를 고정합니다. 지정하지 않으면 각 대상은 가장 짧은 위치에 배치됩니다.</HaulersDream.PlanRoute.PickRoleHint>
+  <HaulersDream.PlanRoute.PickStartBtn>S</HaulersDream.PlanRoute.PickStartBtn>
+  <HaulersDream.PlanRoute.PickEndBtn>E</HaulersDream.PlanRoute.PickEndBtn>
+  <HaulersDream.PlanRoute.PickStartBadge>(시작)</HaulersDream.PlanRoute.PickStartBadge>
+  <HaulersDream.PlanRoute.PickEndBadge>(끝)</HaulersDream.PlanRoute.PickEndBadge>
+  <HaulersDream.PlanRoute.PickStartTip>이 대상을 경로의 시작으로 설정합니다. 정착민이 처음 방문하는 지점입니다. 다시 클릭하면 해제됩니다.</HaulersDream.PlanRoute.PickStartTip>
+  <HaulersDream.PlanRoute.PickEndTip>이 대상을 경로의 끝으로 설정합니다. 저장소로 돌아가기 직전 마지막으로 들르는 지점입니다. 다시 클릭하면 해제됩니다.</HaulersDream.PlanRoute.PickEndTip>
+  <HaulersDream.PlanRoute.Selection>선택: {0}</HaulersDream.PlanRoute.Selection>
+  <HaulersDream.PlanRoute.DistanceBasis>거리: {0}</HaulersDream.PlanRoute.DistanceBasis>
+  <HaulersDream.PlanRoute.SelMostStops>이동 대비 지점 수 최다</HaulersDream.PlanRoute.SelMostStops>
+  <HaulersDream.PlanRoute.SelNearest>클릭한 대상에서 가장 가까움</HaulersDream.PlanRoute.SelNearest>
+  <HaulersDream.PlanRoute.DistStraight>직선 거리</HaulersDream.PlanRoute.DistStraight>
+  <HaulersDream.PlanRoute.DistWalking>실제 이동 경로</HaulersDream.PlanRoute.DistWalking>
+  <HaulersDream.PlanRoute.FogCaution>주의: 광맥의 모든 물품이 보이지 않을 수 있습니다. 채굴해서 더 드러나면 경로가 확장되어 그것들도 포함합니다.</HaulersDream.PlanRoute.FogCaution>
+  <HaulersDream.PlanRoute.Estimate>예상 시간: 약 {0}시간({1}개 지점, 수집 이동 약 {2}칸)</HaulersDream.PlanRoute.Estimate>
+  <HaulersDream.PlanRoute.Cells>{0}칸</HaulersDream.PlanRoute.Cells>
+  <HaulersDream.PlanRoute.EstimateLimited>- 이동 제한에 맞게 잘림</HaulersDream.PlanRoute.EstimateLimited>
+  <HaulersDream.PlanRoute.EstimateUnreachable>- 일부 대상에 도달할 수 없음</HaulersDream.PlanRoute.EstimateUnreachable>
+  <HaulersDream.PlanRoute.EstimateNone>이 경로에 도달 가능한 지점이 없습니다.</HaulersDream.PlanRoute.EstimateNone>
+  <HaulersDream.PlanRoute.Append>추가</HaulersDream.PlanRoute.Append>
+  <HaulersDream.PlanRoute.Replace>교체</HaulersDream.PlanRoute.Replace>
+  <HaulersDream.PlanRoute.Cancel>취소</HaulersDream.PlanRoute.Cancel>
+  <HaulersDream.PlanRoute.NoTargets>경로에 넣을 근처 대상이 없습니다.</HaulersDream.PlanRoute.NoTargets>
+  <HaulersDream.PlanRoute.WaitingForMaterials>경로 설정됨 - 재료를 사용할 수 있게 되면 청사진을 건설합니다.</HaulersDream.PlanRoute.WaitingForMaterials>
+  <HaulersDream.PlanRoute.NoMaterials>(재료 없음)</HaulersDream.PlanRoute.NoMaterials>
+  <HaulersDream.PlanRoute.Planned>{0}개 지점의 경로를 계획했습니다.</HaulersDream.PlanRoute.Planned>
+  <HaulersDream.PlanRoute.Capped>{0}개 지점의 경로를 계획했습니다(효율을 위해 제한됨).</HaulersDream.PlanRoute.Capped>
+  <HaulersDream.PlanRoute.DistanceLimited>{0}개 지점의 경로를 계획했습니다(이동 제한에 맞게 잘림).</HaulersDream.PlanRoute.DistanceLimited>
+  <HaulersDream.PlanRoute.Partial>{0}개 지점의 경로를 계획했습니다({1}개의 근처 대상에 도달할 수 없음).</HaulersDream.PlanRoute.Partial>
+  <HaulersDream.PlanCraft.Option>우선 제작 계획…</HaulersDream.PlanCraft.Option>
+  <HaulersDream.PlanCraft.Title>제작 계획: {0}</HaulersDream.PlanCraft.Title>
+  <HaulersDream.PlanCraft.NoBills>여기에 일괄 처리할 수 있는 작업대 작업이 없습니다. 일괄 처리를 계획하려면 생산 작업(요리, 약물, 단순 부품 - 미완성 물품이 필요한 작업은 제외)을 추가하세요.</HaulersDream.PlanCraft.NoBills>
+  <HaulersDream.PlanCraft.Repeat>반복: {0}회</HaulersDream.PlanCraft.Repeat>
+  <HaulersDream.PlanCraft.Timeout>제한 시간: {0}시간</HaulersDream.PlanCraft.Timeout>
+  <HaulersDream.PlanCraft.TimeoutOff>제한 시간: 없음</HaulersDream.PlanCraft.TimeoutOff>
+  <HaulersDream.PlanCraft.Resolved>{0}회분을 한 번에 제작합니다.</HaulersDream.PlanCraft.Resolved>
+  <HaulersDream.PlanCraft.ResolvedTrimmed>{0}회분을 한 번에 제작합니다 - {1}.</HaulersDream.PlanCraft.ResolvedTrimmed>
+  <HaulersDream.PlanCraft.LimitResources>사용 가능한 재료로 제한됨</HaulersDream.PlanCraft.LimitResources>
+  <HaulersDream.PlanCraft.LimitMass>정착민이 운반할 수 있는 양으로 제한됨</HaulersDream.PlanCraft.LimitMass>
+  <HaulersDream.PlanCraft.LimitTimeout>제한 시간으로 제한됨</HaulersDream.PlanCraft.LimitTimeout>
+  <HaulersDream.PlanCraft.LimitBillRepeat>작업대 작업의 남은 횟수로 제한됨</HaulersDream.PlanCraft.LimitBillRepeat>
+  <HaulersDream.PlanCraft.Ingredients>가져올 재료: {0}</HaulersDream.PlanCraft.Ingredients>
+  <HaulersDream.PlanCraft.EstTime>제작 시간: 약 {0}시간(재료를 가져오는 이동 별도, 결과물은 이후 최적 저장소로 운반됨)</HaulersDream.PlanCraft.EstTime>
+  <HaulersDream.PlanCraft.Infeasible>일괄 처리 불가: {0}</HaulersDream.PlanCraft.Infeasible>
+  <HaulersDream.PlanCraft.Confirm>우선 지정</HaulersDream.PlanCraft.Confirm>
+  <HaulersDream.PlanCraft.Cancel>취소</HaulersDream.PlanCraft.Cancel>
+  <HaulersDream.PlanCraft.Started>{0}회분 {1} 일괄 제작 중</HaulersDream.PlanCraft.Started>
+  <HaulersDream.PlanCraft.CouldNotStart>일괄 작업을 시작할 수 없습니다(작업대가 사용 중일 수 있음).</HaulersDream.PlanCraft.CouldNotStart>
+  <HaulersDream.PlanCraft.JobReport>{0} 제작 중(일괄 {1}/{2}).</HaulersDream.PlanCraft.JobReport>
+  <HaulersDream.PlanCraft.BlockUnsupported>이 제조법은 일괄 처리할 수 없음</HaulersDream.PlanCraft.BlockUnsupported>
+  <HaulersDream.PlanCraft.BlockNoIngredient>{0}에 사용할 수 있는 재료 없음</HaulersDream.PlanCraft.BlockNoIngredient>
+  <HaulersDream.PlanCraft.BlockNoReps>한 번 만들 재료도 부족함</HaulersDream.PlanCraft.BlockNoReps>
+  <HaulersDream.PlanCraft.BlockBillNotActive>작업대 작업이 중지되었거나 이미 충족됨</HaulersDream.PlanCraft.BlockBillNotActive>
+  <HaulersDream.HaulToSite.Option>{0}에 재료 운반 우선</HaulersDream.HaulToSite.Option>
+  <HaulersDream.HaulToSite.CouldNotStart>지금 운반할 수 있는 재료에 도달할 수 없습니다.</HaulersDream.HaulToSite.CouldNotStart>
+  <HaulersDream.HaulNearby.Option>근처 물건 모두 운반</HaulersDream.HaulNearby.Option>
+  <HaulersDream.HaulNearby.CouldNotStart>지금 근처에 운반할 것이 없습니다.</HaulersDream.HaulNearby.CouldNotStart>
+  <HaulersDream.PlanRoute.AlsoBuild>함께 건설(각 지점에서 운반 + 건설)</HaulersDream.PlanRoute.AlsoBuild>
+  <HaulersDream.PlanRoute.AlsoBuildDesc>켜면 정착민이 현장에 재료를 배달하고 다음 지점으로 이동하기 전에 직접 건설합니다. 전체 경로의 재료를 미리 모아 인벤토리에 보관합니다. 끄면 정착민은 현장에 재료만 채웁니다(다른 정착민이 건설 가능). 어느 쪽이든 현장은 다른 정착민에게 열려 있으므로 여러 정착민이 같은 실행에 병렬로 공급할 수 있습니다. 두 번째로 도착한 정착민은 남은 재료를 다음 지점에 쓰거나 마지막에 내려놓습니다.</HaulersDream.PlanRoute.AlsoBuildDesc>
+  <HaulersDream.Setting.CraftBatchTimeout>기본 제작 일괄 제한 시간: {0}시간</HaulersDream.Setting.CraftBatchTimeout>
+  <HaulersDream.Setting.CraftBatchTimeoutOff>기본 제작 일괄 제한 시간: 없음</HaulersDream.Setting.CraftBatchTimeoutOff>
+  <HaulersDream.Setting.InventoryCraftDeliver>제작 재료를 인벤토리에 넣어 운반(왕복 감소)</HaulersDream.Setting.InventoryCraftDeliver>
+  <HaulersDream.Setting.InventoryCraftDeliverDesc>정착민이 둘 이상의 별도 스택에서 재료가 필요한 제작 작업을 시작하면, 먼저 모든 재료를 한 번에 훑어 인벤토리에 모읍니다. 필요하면 과적하고 이동속도 저하를 감수합니다(엄격한 운반 무게가 켜져 있지 않은 경우). 그런 다음 작업대까지 한 번만 걸어가 소지한 재료로 제작합니다. 미완성 물품을 먼저 만드는 제조법(의류, 무기, 조각상)을 포함해 모든 제조법에서 작동합니다. 제작 자체는 100% 바닐라이므로 물품이 복제되거나 사라질 수 없습니다. 위의 "소지 중인 재료를 제작 작업에 사용"이 필요합니다.</HaulersDream.Setting.InventoryCraftDeliverDesc>
+  <HaulersDream.PrepGather.Report>제작 재료를 모으는 중</HaulersDream.PrepGather.Report>
+  <HaulersDream.BulkHaul.Report>근처 물건을 모두 운반하는 중</HaulersDream.BulkHaul.Report>
+  <HaulersDream.LoadPackAnimal.Report>짐 싣는 동물에 물건을 싣는 중</HaulersDream.LoadPackAnimal.Report>
+  <HaulersDream.LoadPackAnimal.BulkOption>근처 물건을 짐 싣는 동물에 싣기(대량)</HaulersDream.LoadPackAnimal.BulkOption>
+  <HaulersDream.LoadPackAnimal.CouldNotStart>지금 근처에 짐 싣는 동물에 실을 물건이 없습니다.</HaulersDream.LoadPackAnimal.CouldNotStart>
+  <HaulersDream.LoadPackAnimal.NoCarrier>근처에 여유 공간이 있는 사용 가능한 짐 싣는 동물이 없습니다.</HaulersDream.LoadPackAnimal.NoCarrier>
+  <HaulersDream.Setting.LoadPackAnimalBulk>대량 "짐 싣는 동물에 싣기" 명령</HaulersDream.Setting.LoadPackAnimalBulk>
+  <HaulersDream.Setting.LoadPackAnimalBulkDesc>캐러밴/원정 지도에서 우클릭 "근처 물건을 짐 싣는 동물에 싣기(대량)" 명령을 추가합니다. 한 정착민이 근처의 여러 스택을 인벤토리에 훑어 담아 짐 싣는 동물에게 한 번에 싣습니다. 한 스택씩 들고 다니지 않습니다. 바닐라의 단일 물품 "짐 싣는 동물에 싣기"도 함께 작동합니다.</HaulersDream.Setting.LoadPackAnimalBulkDesc>
+  <HaulersDream.Setting.AutoDivertToPackAnimal>짐 싣는 동물에게 내려놓기(캐러밴)</HaulersDream.Setting.AutoDivertToPackAnimal>
+  <HaulersDream.Setting.AutoDivertToPackAnimalDesc>캐러밴/원정 지도에서 정착민은 집에서 저장 구역에 내리듯이 주워 담은 전리품을 가장 가까운 소유 짐 싣는 동물에게 내려놓습니다. 작업이 끝났을 때, 쉬거나 먹거나 오락하기 전에, 주기적 안전장치가 작동할 때, 그리고 과적 상태가 되면 즉시 내려놓아 움직일 수 있게 합니다. 끄면 전리품은 정착민 자신의 인벤토리에 실린 채 귀환합니다(또는 수동 대량 적재 명령/캐러밴 재편성 사용). 이 모든 기능은 자동 내리기가 켜져 있어야 작동합니다(엄격한 운반 무게 모드에서는 과적 시 즉시 내려놓기가 비활성화됩니다).</HaulersDream.Setting.AutoDivertToPackAnimalDesc>
+</LanguageData>
