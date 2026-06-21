@@ -54,7 +54,7 @@
   <OAFrame_ResearchProgressAdded> The following research has added {0} progress: </OAFrame_ResearchProgressAdded>
   <!--Languages Keyed-->
   <!--Dialog-->
-  <OberoniaAureaGene>[OA]Ratkin Gene Expand</OberoniaAureaGene>
+  <OberoniaAureaGene>[OA] 유전자 확장</OberoniaAureaGene>
   <OAGene_SnowstormBreakRoof>눈보라가 건설된 지붕을 날려버릴 수 있는지의 여부</OAGene_SnowstormBreakRoof>
   <OAGene_SnowstormBreakNaturalRoof>눈보라가 자연 지붕을 날려버릴 수 있는지의 여부</OAGene_SnowstormBreakNaturalRoof>
   <OAGene_SnowstormBreakThickRoof>눈보라가 두꺼운 지붕을 날려버릴 수 있는지의 여부</OAGene_SnowstormBreakThickRoof>
@@ -63,6 +63,10 @@
   <OAGene_DodgeChancePatch>닿지 않는 칼날의 다중 회피 판정 메커니즘 활성화</OAGene_DodgeChancePatch>
   <OAGene_DodgeChancePatchTooltip>닿지 않는 칼날 유전자는 보조 회피 판정과 관련이 있어 Vanilla Combat Reloaded 충돌하여 비정상적인 라벨 깜빡임 현상이 발생합니다. 이 설정을 비활성화하면 '닿지 않는 칼날' 유전자가 작동하지 않지만, 충돌로 인한 깜빡임 현상은 사라집니다.\n\nVanilla Combat Reloaded 모드를 사용하지 않는다면, 이 설정을 활성화 상태로 유지하는 것을 권장합니다.</OAGene_DodgeChancePatchTooltip>
   <OAGene_ForMountaintopCave>내산지 애호가 추천 설정값</OAGene_ForMountaintopCave>
+  <!--Frame_Miss-->
+  <OARO_LetterLabel_FrameMiss>[OA] 프레임워크 누락</OARO_LetterLabel_FrameMiss>
+  <OARO_LetterText_FrameMiss>새로운 [OA] 랫킨 시리즈 확장팩은 정상적으로 작동하려면 [OA] 프레임워크가 필요합니다. 현재는 모드 자체에 내장된 임시 호환 프레임워크를 통해 실행되고 있으나, 잠재적인 버그를 방지하기 위해 이 내장 프레임워크는 곧 제거될 예정입니다.\n향후 모드 오류나 작동 불능 등의 문제가 발생하지 않도록, 가능한 한 빨리 창작마당에서 [OA] 프레임워크를 구독해 주시기 바랍니다.\n\n[OA] 프레임워크 창작마당 정보:\n모드 이름: [OA] 金鸢尾兰框架 | [OA] Oberonia Aurea Framework \n창작마당 ID: 3713589764</OARO_LetterText_FrameMiss>
+  
   <!--Letters-->
   <OAGene_LetterBillInspiration>유전자로 인한 유연한 사고가 예술 영감을 불러일으켰습니다.</OAGene_LetterBillInspiration>
   <OAGene_LetterLabel_ExtremeSnowstormCauseColdSnap>눈보라와 한파</OAGene_LetterLabel_ExtremeSnowstormCauseColdSnap>
@@ -81,6 +85,7 @@
   <OAGene_ConfirmStartNewGeneDiscriminat>유전자 분석기가 이미 유전자를 분석하고 있습니다. 현재 유전자 분석을 중지하고 새로운 유전자 분석을 시작하시겠습니까?</OAGene_ConfirmStartNewGeneDiscriminat>
   <OAGene_ConfirmRipGenePawn>파괴적 유전자 추출로 인해 {PAWN_nameDef}(은)는 사망할 것입니다. 계속하시겠습니까?</OAGene_ConfirmRipGenePawn>
   <OAGene_ConfirmCancelRipGene>파괴적 유전자 추출을 취소해도 {PAWN_nameDef}(은)는 사망할 것입니다. 계속하시겠습니까?</OAGene_ConfirmCancelRipGene>
+  <Mod.OberoniaAureaGene.Ratkin>[OA] 유전자 확장 - 랫킨</Mod.OberoniaAureaGene.Ratkin>
   <!--Ratkin_GameplayCommands-->
   <OAGene_CommandCancelWork>작업 취소</OAGene_CommandCancelWork>
   <OAGene_CommandCancelWorkDesc>진행 중인 작업을 취소하고 이미 적재된 모든 것을 밖으로 꺼냅니다.</OAGene_CommandCancelWorkDesc>
@@ -97,11 +102,11 @@
   <!--Ratkin_Letters-->
   <OAGene_LetterBillInspiration>유전자로 인한 유연한 사고가 예술 영감을 불러일으켰습니다.</OAGene_LetterBillInspiration>
   <OAGene_LetterLabelTravelRatkinTraderGroup>{0}에서 온 상단</OAGene_LetterLabelTravelRatkinTraderGroup>
-  <OAGene_LetterTravelRatkinTraderGroup>{0}에서 온 레밍킨 상단이 이곳을 지나가고 있습니다. 이 상단은 여러 개의 상단으로 구성되어 있으며, 이틀 동안 차례로 정착지 주변에 잠시 머무르다 여행을 계속할 것입니다.</OAGene_LetterTravelRatkinTraderGroup>
+  <OAGene_LetterTravelRatkinTraderGroup>{0}에서 온 레밍킨 상단이 이곳을 지나가고 있습니다. 그들은 여러 개의 상인 무리로 구성되어 있으며, 이틀 동안 순차적으로 정착지를 통과할 예정입니다. 이들은 정착지에 잠시 머문 뒤 다시 여행을 이어갈 것입니다.</OAGene_LetterTravelRatkinTraderGroup>
   <!--Ratkin_Messages-->
   <OAGene_MessageNoSelectedGene>선택된 유전자가 없습니다.</OAGene_MessageNoSelectedGene>
   <OAGene_MessageCantSelectArcGene>초월입자 유전자는 분석할 수 없습니다.</OAGene_MessageCantSelectArcGene>
-  <OAGene_GeneExtractionFail>{PAWN}에 대한 유전자 추출이 실패했습니다.</OAGene_GeneExtractionFail>
+  <OAGene_GeneExtractionFail>{PAWN}의 유전자 추출이 실패했습니다.</OAGene_GeneExtractionFail>
   <OAGene_PawnKilledDestructiveGeneExtract>{PAWN_nameDef}(이)가 파괴적 유전자 추출로 인해 사망하였습니다.</OAGene_PawnKilledDestructiveGeneExtract>
   <OAGene_GeneDiscriminationComplete>{0}(이)가 유전자묶음에서 성공적으로 분석되었습니다.</OAGene_GeneDiscriminationComplete>
   <OAGene_GeneDiscriminationFail>{0}의 유전자 분석에 실패했습니다.</OAGene_GeneDiscriminationFail>
