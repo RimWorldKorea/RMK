@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <BluesEmbersTab>불꽃</BluesEmbersTab>
+  <BluesEmbersBuildings>건물 이펙트 활성화</BluesEmbersBuildings>
+  <BluesEmbersTameTooltip>CompFireOverlay 컴포넌트가 있는 건물(모닥불, 횃불 등... 자동 호환됩니다) 이펙트를 활성화합니다. 변경 사항을 적용하려면 게임을 재시작해야 합니다.</BluesEmbersTameTooltip>
+  <BluesEmbersWildfire>산불 이펙트 활성화</BluesEmbersWildfire>
+  <BluesEmbersAlways>항상 산불 이펙트 적용</BluesEmbersAlways>
+  <BluesEmbersVanillaWildfire>바닐라 불 이펙트 활성화</BluesEmbersVanillaWildfire>
+  <BluesEmbersDisableAt>맵 화재 위험도가 {0}일 때 산불 이펙트 비활성화</BluesEmbersDisableAt>
+  <BluesEmbersWildTooltip>불이 지나치게 번져 FPS가 떨어지면 다시 바닐라 불 이펙트를 사용하도록 설정할 수 있습니다. 이 체크 기능은 게임의 Map.fireWatcher.FireDanger 값을 사용하며, 이는 불이 붙은 칸 수의 대략 두 배에 해당합니다.</BluesEmbersWildTooltip>
+  <BluesFireDebug>불 디버그 정보 활성화</BluesFireDebug>
+  <BluesFireDebugTooltip>불을 클릭할 수 있게 만들며, 정보창에 불의 크기와 맵 화재 위험도 값을 표시합니다.</BluesFireDebugTooltip>
+  <ForgeMain>Blues Forge</ForgeMain>
+  <ForgeTab>Forge</ForgeTab>
+  <BluesPatchExplosions>폭발 이펙트 패치</BluesPatchExplosions>
+  <BluesHideVanilla>바닐라 폭발 이펙트 숨기기</BluesHideVanilla>
+  <BluesDoFlash>섬광 이펙트 활성화</BluesDoFlash>
+  <BluesDoFlashTooltip>화면이 갑작스럽게 깜빡거리는 것으로 인해 불편함이나 건강상의 문제를 겪는 경우 이 기능을 비활성화하세요.\n모더용: FleckDef에 &lt;isFlash&gt;true&lt;/isFlash&gt;를 추가하면 이 설정과 연동시킬 수 있습니다.</BluesDoFlashTooltip>
+  <BluesCollision>전역 충돌 레벨 제한 {0}: {1}</BluesCollision>
+  <BluesCollisionTooltip>이펙트의 최대 충돌 연산 복잡도를 제한합니다. (EffectDef는 최적의 비주얼과 성능을 위해 이미 자체적인 충돌 레벨을 사용하고 있습니다). 최신 CPU는 이를 매우 빠르게 계산하며 코드도 고도로 최적화되어 있습니다. 대규모 폭발 중에 FPS가 떨어진다면, 전역 파티클 양을 줄이는 것이 더 큰 성능 향상을 가져올 것입니다. 식물 충돌 연산까지 하는 건 솔직히 좀 과하긴 하지만요 ¯_(ツ)_/¯</BluesCollisionTooltip>
+  <BluesParticles>전역 파티클 양: {0}%</BluesParticles>
+  <BluesDoFlicker>빛 깜빡임 활성화</BluesDoFlicker>
+  <BluesDoFlickerTooltip>실제 광원이 아니라 빛나는 파티클입니다. 깜빡이는 빛 이펙트를 가진 건물이 수백 개가 되지 않는 한 성능에 큰 부담을 주지 않습니다. 비주얼적 취향에 따라 비활성화하세요.</BluesDoFlickerTooltip>
+  <BluesFlickerIntensity>깜빡임 대비: {0}</BluesFlickerIntensity>
+  <BluesHumidifier>가습기 사용</BluesHumidifier>
+  <BluesHumidifierTooltip>약간의 미관, 청결도, 명상 장소를 제공하는 가구입니다. 기타 탭에서 찾을 수 있습니다. 실시간으로 이펙트를 쉽게 수정하고 디버깅할 수 있는 버튼이 있습니다.</BluesHumidifierTooltip>
+  <BluesForgeDebug>개발자 커맨드 버튼 활성화</BluesForgeDebug>
+  <BlueCol_0>없음</BlueCol_0>
+  <BlueCol_1>벽</BlueCol_1>
+  <BlueCol_2>1 + 건물</BlueCol_2>
+  <BlueCol_3>2 + 폰</BlueCol_3>
+  <BlueCol_4>3 + 식물</BlueCol_4>
+</LanguageData>
