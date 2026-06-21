@@ -15,7 +15,7 @@
   <CE_AutoLoader_ReloadTime>장전 시간: {0}초 남음</CE_AutoLoader_ReloadTime>
   <CE_AutoLoader_ShouldReplace>탄약 유형 교체: {0}</CE_AutoLoader_ShouldReplace>
   <CE_AutoLoaderBusy>자동 장전기가 장전중입니다.</CE_AutoLoaderBusy>
-  <CE_ArmorDurability>자연 장갑 내구력: </CE_ArmorDurability>
+  <CE_ArmorDurability>장갑 내구력: </CE_ArmorDurability>
   <CE_RepairArmorDurability>장갑 수리하기</CE_RepairArmorDurability>
   <CE_ArmorDurability_CannotRepairUndamaged>장갑이 피해를 입지 않아 수리할 수 없음</CE_ArmorDurability_CannotRepairUndamaged>
   <CE_ArmorDurability_CannonRepairNoResource>수리에 필요한 자원이 없어 수리할 수 없음</CE_ArmorDurability_CannonRepairNoResource>
@@ -64,11 +64,11 @@
   <CE_outfit>복장</CE_outfit>
   <CE_drugs>약물</CE_drugs>
   <CE_loadout>장비</CE_loadout>
-  <CE_DetailedWeightTip>현재 무게: {1}\n허용 무게: {0}\n\n이동 속도 계수: {2}\n방해물 패널티: {3}</CE_DetailedWeightTip>
-  <CE_DetailedBulkTip>현재 부피: {1}\n허용 부피: {0}\n\n작업 속도 계수: {2}</CE_DetailedBulkTip>
-  <CE_DetailedBaseWeightTip>현재 무게: {1}\n허용 무게: {0}\n\n이동 속도 계수: {2}\n방해물 패널티: {3}</CE_DetailedBaseWeightTip>
-  <CE_DetailedBaseBulkTip>현재 부피: {1}\n허용 부피: {0}\n\n작업 속도 계수: {2}</CE_DetailedBaseBulkTip>
-  <CE_EmptyLoadoutName>아무것도</CE_EmptyLoadoutName>
+  <CE_DetailedWeightTip>현재 무게: {1}\n허용 무게: {0}\n\n이동 속도 계수: {2}\n근접 회피 계수: {3}\n과적 패널티: {4}</CE_DetailedWeightTip>
+  <CE_DetailedBulkTip>현재 부피: {1}\n허용 부피: {0}\n\n작업 속도 계수: {2}\n근접 명중 계수: {3}\n근접 회피 계수: {4}</CE_DetailedBulkTip>
+  <CE_DetailedBaseWeightTip>현재 무게: {1}\n허용 무게: {0}\n\n이동 속도 계수: {2}\n근접 회피 계수: {3}\n과적 패널티: {4}</CE_DetailedBaseWeightTip>
+  <CE_DetailedBaseBulkTip>현재 부피: {1}\n허용 부피: {0}\n\n작업 속도 계수: {2}\n근접 명중 계수: {3}\n근접 회피 계수: {4}</CE_DetailedBaseBulkTip>
+  <CE_EmptyLoadoutName>없음</CE_EmptyLoadoutName>
   <CE_NoLoadouts>장비 없음</CE_NoLoadouts>
   <CE_SelectLoadout>장비 선택...</CE_SelectLoadout>
   <CE_NewLoadout>새 장비 구성</CE_NewLoadout>
@@ -76,6 +76,8 @@
   <CE_CopyLoadout>장비 복사</CE_CopyLoadout>
   <CE_SaveLoadout>장비 저장...</CE_SaveLoadout>
   <CE_LoadLoadout>장비 불러오기...</CE_LoadLoadout>
+  <CE_ParentLoadout>상위 장비...</CE_ParentLoadout>
+  <CE_ClearParentLoadout>(없음)</CE_ClearParentLoadout>
   <CE_MissingLoadoutSlots>다음 장비는 이 월드에 존재하지 않으므로 불러올 수 없습니다 : {0}</CE_MissingLoadoutSlots>
   <CE_NoLoadoutSelected>장비 선택 안됨</CE_NoLoadoutSelected>
   <CE_DefaultLoadoutName>장비</CE_DefaultLoadoutName>
@@ -113,6 +115,8 @@
   <CE_DescPelletCount>파편 개수</CE_DescPelletCount>
   <CE_DescSpreadMult>확산 인자</CE_DescSpreadMult>
   <CE_DescFragments>파편</CE_DescFragments>
+  <CE_DescDeteriorationHP>무기 내구도 저하</CE_DescDeteriorationHP>
+  <CE_DescReloadTimeMult>재장전 시간 계수</CE_DescReloadTimeMult>
   <CE_TravelingShell_Description>{0} ({1})에서 {2} ({3})(으)로 발사됨</CE_TravelingShell_Description>
   <CE_EnemyInfluenced>적 전력 영향</CE_EnemyInfluenced>
   <CE_FactionRecord_Explanation_Effects>효과:</CE_FactionRecord_Explanation_Effects>
@@ -139,29 +143,36 @@
   <CE_AutoFireLabel>자동</CE_AutoFireLabel>
   <CE_BurstFireLabel>점사</CE_BurstFireLabel>
   <CE_SingleFireLabel>단발</CE_SingleFireLabel>
-  <CE_SnapshotLabel>지향사격</CE_SnapshotLabel>
-  <CE_AimedShotLabel>조준사격</CE_AimedShotLabel>
-  <CE_SuppressFireLabel>제압사격</CE_SuppressFireLabel>
+  <CE_SnapshotLabel>지향 사격</CE_SnapshotLabel>
+  <CE_AimedShotLabel>조준 사격</CE_AimedShotLabel>
+  <CE_SuppressFireLabel>제압 사격</CE_SuppressFireLabel>
   <CE_HoldFireLabel>사격 금지</CE_HoldFireLabel>
-  <CE_ToggleFireModeDesc>사격 방식 전환.</CE_ToggleFireModeDesc>
-  <CE_ToggleAimModeDesc>조준 방식 전환.</CE_ToggleAimModeDesc>
+  <CE_ToggleFireModeDesc>사격 방식을 전환합니다.</CE_ToggleFireModeDesc>
+  <CE_ToggleAimModeDesc>조준 방식을 전환합니다.</CE_ToggleAimModeDesc>
   <CE_Bipod_Set_Up>양각대 설치됨</CE_Bipod_Set_Up>
   <CE_Bipod_Not_Set_Up>양각대 설치되지 않음</CE_Bipod_Not_Set_Up>
   <CE_Deploy_Bipod>양각대 설치하기</CE_Deploy_Bipod>
   <CE_Close_Bipod>양각대 철거하기</CE_Close_Bipod>
   <CE_MarkedForArtillery>포격을 위해 표시됨, 만료까지</CE_MarkedForArtillery>
-  <CE_VisibilityError>시야확보 오차</CE_VisibilityError>
+  <CE_VisibilityError>시야 확보 오차</CE_VisibilityError>
   <CE_SmokeDensity>연막</CE_SmokeDensity>
-  <CE_LeadError>목표인식 오차</CE_LeadError>
+  <CE_LeadError>목표 인식 오차</CE_LeadError>
   <CE_RangeError>거리 오차</CE_RangeError>
   <CE_Sway>흔들림</CE_Sway>
   <CE_Spread>탄 퍼짐</CE_Spread>
-  <CE_MissRadius>발사불가 반경</CE_MissRadius>
+  <CE_MissRadius>발사 불가 반경</CE_MissRadius>
   <CE_IndirectFire>간접 사격</CE_IndirectFire>
   <CE_CoverHeight>엄폐물 높이</CE_CoverHeight>
   <CE_TargetHeight>목표물 높이</CE_TargetHeight>
   <CE_TargetWidth>목표물 폭</CE_TargetWidth>
   <CE_EstimatedHitChance>예상 적중 확률</CE_EstimatedHitChance>
+  <CE_AttackedBy>{1_labelShort}의 공격</CE_AttackedBy>
+  <CE_MissChance>빗나감 확률</CE_MissChance>
+  <CE_TargetDodgeChance>목표물 회피 확률</CE_TargetDodgeChance>
+  <CE_ParryChance>차단 확률</CE_ParryChance>
+  <CE_CounterParryBonus>차단 봉쇄 보너스</CE_CounterParryBonus>
+  <CE_FinalToHitChance>명중률</CE_FinalToHitChance>
+  <CE_CritChance>치명타 확률</CE_CritChance>
   <CE_OutOfBounds>경계 바깥</CE_OutOfBounds>
   <CE_NoSelfTarget>스스로를 조준할 수 없음</CE_NoSelfTarget>
   <CE_NoLoS>조준선 없음</CE_NoLoS>
@@ -233,18 +244,18 @@
   <CE_cells>칸</CE_cells>
   <CE_degrees>°</CE_degrees>
   <CE_meters>m</CE_meters>
-  <CE_WeaponPenetrationFactor>무기 관통력 수치</CE_WeaponPenetrationFactor>
+  <CE_WeaponPenetrationFactor>무기 관통력 계수</CE_WeaponPenetrationFactor>
   <CE_WeaponPenetrationSkillFactor>기술 요인</CE_WeaponPenetrationSkillFactor>
   <CE_WeaponPenetrationOtherFactors>다른 요인들</CE_WeaponPenetrationOtherFactors>
   <CE_AdjustedForWeapon>재료, 품질에 의한 조정값</CE_AdjustedForWeapon>
-  <CE_RangedDamageMultiplier>투사체 피해 배율</CE_RangedDamageMultiplier>
+  <CE_RangedDamageMultiplier>투사체 피해량 배율</CE_RangedDamageMultiplier>
   <CE_RangedPenMultiplier>투사체 관통력 배율</CE_RangedPenMultiplier>																					
   <CE_DPS>초당 피해</CE_DPS>
-  <CE_DamageVariation>스킬 비례 피해 변화량</CE_DamageVariation>
-  <CE_FinalAverageDamage>최종 평균 데미지</CE_FinalAverageDamage>
-  <CE_WielderSkillLevel>스킬 레벨</CE_WielderSkillLevel>
+  <CE_DamageVariation>피해 변화량</CE_DamageVariation>
+  <CE_FinalAverageDamage>최종 평균 피해량</CE_FinalAverageDamage>
+  <CE_WielderSkillLevel>착용자 기술 수준</CE_WielderSkillLevel>
   <CE_Chance>확률</CE_Chance>
-  <CE_ChanceFactor>확률 배율</CE_ChanceFactor>
+  <CE_ChanceFactor>확률 계수</CE_ChanceFactor>
   <CE_LimbParryBonusChance>비인간 차단 보너스: + {0}%</CE_LimbParryBonusChance>
   <CE_LimbParryBonus>사지 공격: +{0}% (비인접 사지 {1}개)</CE_LimbParryBonus>
   <CE_ColonistHasShieldAndTwoHandedWeapon>방패 착용자가 양손무기 사용</CE_ColonistHasShieldAndTwoHandedWeapon>
@@ -279,7 +290,7 @@
   <CE_Generic_RawFood>생식 아무거나 챙기기</CE_Generic_RawFood>
   <CE_Generic_Drugs>약물 아무거나 챙기기</CE_Generic_Drugs>
   <CE_Generic_Ammo>맞는 탄약 챙기기: {0}</CE_Generic_Ammo>
-  <CE_Generic_Medicine>아무 약품</CE_Generic_Medicine>
+  <CE_Generic_Medicine>약품 아무거나 챙기기</CE_Generic_Medicine>
   <CE_Generic_Divider>/</CE_Generic_Divider>
   <CE_LongEvent_LoadoutProperties>CombatExtended 무기구성 생성기를 준비합니다.</CE_LongEvent_LoadoutProperties>
   <CE_LongEvent_AmmoInjector>탄약 주입 중</CE_LongEvent_AmmoInjector>
@@ -304,9 +315,9 @@
   <CE_Message_CounterShelling>{0}({1})에서 포격이 날아오고 있습니다.</CE_Message_CounterShelling>
   <CE_Message_CounterRaid>{0}에서 온 집단이 최근 발생한 사건에 대한 보복으로써 {1}을 습격할 계획을 짜고 있습니다.</CE_Message_CounterRaid>
   <DormantCompAmmoBeacon>탄약 재보급 준비 됨</DormantCompAmmoBeacon>
-  <CE_MeleeTargetting_CurPart>목표 신체부위:</CE_MeleeTargetting_CurPart>
-  <CE_MeleeTargetting_CurHeight>근접공격 영역</CE_MeleeTargetting_CurHeight>
-  <CE_NoBP>아니오</CE_NoBP>
+  <CE_MeleeTargetting_CurPart>목표 신체 부위:</CE_MeleeTargetting_CurPart>
+  <CE_MeleeTargetting_CurHeight>근접 공격 영역</CE_MeleeTargetting_CurHeight>
+  <CE_NoBP>없음</CE_NoBP>
   <CE_Yes>예</CE_Yes>
   <CE_No>아니오</CE_No>
   <CE_GiveAmmoToThing>탄약 주기:</CE_GiveAmmoToThing>
