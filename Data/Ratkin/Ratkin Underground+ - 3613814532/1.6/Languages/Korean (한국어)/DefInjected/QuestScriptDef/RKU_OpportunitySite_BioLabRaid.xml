@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RKU_OpportunitySite_BioLabRaid.questDescriptionRules.rulesStrings>
+    <li>questDescription->[asker_faction_name]의 [asker_faction_leaderTitle]인 [asker_nameFull](이)가 긴급한 첩보를 전해왔습니다. 랫킨 왕국이 은밀하게 운영해 온 생물학 연구 시설이 발견되었다고 합니다. 해당 시설에는 지하에 거주하는 모든 이들을 위협할 수 있는 끔찍한 실험용 무기와 생화학 물질이 숨겨져 있습니다. [asker_nameDef](은)는 우리에게 이 시설의 파괴를 의뢰했습니다. 즉, 그곳의 모든 병력을 섬멸하고 연구 장비를 산산조각 내야 합니다. [sitePart0_description].</li>
+  </RKU_OpportunitySite_BioLabRaid.questDescriptionRules.rulesStrings>
+
+  <RKU_OpportunitySite_BioLabRaid.questNameRules.rulesStrings>
+    <li>questName->[ratkin] [lab]</li>
+    <li>questName->[ratkin] [lab] [raid]</li>
+    <li>questName->[asker_nameDef]의 [lab] [raid]</li>
+    <li>lab->생화학 실험실</li>
+    <li>lab->생물학 연구 시설</li>
+    <li>lab->생화학 실험 시설</li>
+    <li>raid->공격</li>
+    <li>raid->강습</li>
+    <li>raid->타격</li>
+    <li>ratkin->랫킨 왕국</li>
+    <li>ratkin->왕국</li>
+  </RKU_OpportunitySite_BioLabRaid.questNameRules.rulesStrings>
+  
+  <!-- EN: RKU_GuerrillaSecretProtection_Completed -->
+  <RKU_OpportunitySite_BioLabRaid.root.nodes.RKU_CheckOnceEvent.eventKey.slateRef>RKU_GuerrillaSecretProtection_Completed</RKU_OpportunitySite_BioLabRaid.root.nodes.RKU_CheckOnceEvent.eventKey.slateRef>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <RKU_OpportunitySite_BioLabRaid.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>퀘스트 기한 만료: [resolvedQuestName]</RKU_OpportunitySite_BioLabRaid.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: The biological research facility has been abandoned. The quest [resolvedQuestName] has expired. -->
+  <RKU_OpportunitySite_BioLabRaid.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>생물학 연구 시설이 버려졌습니다. [resolvedQuestName] 퀘스트의 기한이 만료되었습니다.</RKU_OpportunitySite_BioLabRaid.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <RKU_OpportunitySite_BioLabRaid.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>퀘스트 실패: [resolvedQuestName]</RKU_OpportunitySite_BioLabRaid.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>
+  <!-- EN: After being discovered, the biological research facility has been evacuated. The quest [resolvedQuestName] has ended. -->
+  <RKU_OpportunitySite_BioLabRaid.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>생물학 연구 시설이 발각된 후, 그들은 모두 시설을 비우고 대피했습니다. [resolvedQuestName] 퀘스트가 종료되었습니다.</RKU_OpportunitySite_BioLabRaid.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>
+  <!-- EN: Payment arrived -->
+  <RKU_OpportunitySite_BioLabRaid.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterLabel.slateRef>보상 도착</RKU_OpportunitySite_BioLabRaid.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterLabel.slateRef>
+  <!-- EN: You have successfully destroyed the biological research facility!\n\nThe payment from the guerrillas has arrived. -->
+  <RKU_OpportunitySite_BioLabRaid.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterText.slateRef>성공적으로 생물학 연구 시설을 파괴했습니다!\n\n게릴라들로부터 약속된 보상이 도착했습니다.</RKU_OpportunitySite_BioLabRaid.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterText.slateRef>
+  <!-- EN: [asker_faction_royalFavorLabel] -->
+  <RKU_OpportunitySite_BioLabRaid.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef>[asker_faction_royalFavorLabel]</RKU_OpportunitySite_BioLabRaid.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef>
+  <!-- EN: These colonists participated in the victory for the quest [resolvedQuestName]. [asker_definite] wants to know who should receive the guerrilla commendation for this service. -->
+  <RKU_OpportunitySite_BioLabRaid.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.text.slateRef>이 정착민들은 [resolvedQuestName] 퀘스트의 승리에 기여했습니다. [asker_definite](은)는 이 공로를 인정하여, 누가 게릴라 훈장을 받을지 묻고 있습니다.</RKU_OpportunitySite_BioLabRaid.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.text.slateRef>
+
+</LanguageData>

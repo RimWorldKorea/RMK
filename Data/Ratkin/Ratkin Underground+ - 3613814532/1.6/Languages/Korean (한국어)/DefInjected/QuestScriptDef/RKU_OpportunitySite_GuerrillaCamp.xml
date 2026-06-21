@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RKU_OpportunitySite_GuerrillaCamp.questDescriptionRules.rulesStrings>
+    <li>questDescription->[asker_nameFull], [asker_faction_name]의 [asker_faction_leaderTitle](이)가 메시지를 보내왔습니다. 근처의 한 야영지에 기반을 둔 무법자들이 해당 세력의 상단을 습격하고 있다고 합니다.\n[asker_nameDef](은)는 우리가 이 야영지를 파괴해 모든 적들과 포탑을 제거해주기를 요청하고 있습니다. \n[asker_label](은)는 [sitePart0_description]라고 말합니다.
+    </li>
+  </RKU_OpportunitySite_GuerrillaCamp.questDescriptionRules.rulesStrings>
+
+  <RKU_OpportunitySite_GuerrillaCamp.questNameRules.rulesStrings>
+    <li>questName->[bandit] [camp]</li>
+    <li>questName->[bandit] [camp]</li>
+    <li>questName->[asker_nameDef](와)과 [camp]</li>
+    <li>camp->야영지</li>
+    <li>camp->전초기지</li>
+    <li>camp->은신처</li>
+    <li>camp->주둔지</li>
+    <li>bandit->도적</li>
+    <li>bandit->약탈자</li>
+    <li>bandit->무법자</li>
+    <li>bandit->악당</li>
+    <li>bandit->도망자</li>
+    <li>bandit->습격자</li>
+    <li>bandit->강도</li>
+    <li>bandit->산적</li>
+  </RKU_OpportunitySite_GuerrillaCamp.questNameRules.rulesStrings>
+  
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <RKU_OpportunitySite_GuerrillaCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>임무 기한 만료: [resolvedQuestName]</RKU_OpportunitySite_GuerrillaCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: The guerrilla camp has packed up and moved on. The quest [resolvedQuestName] has expired. -->
+  <RKU_OpportunitySite_GuerrillaCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>게릴라 야영지가 짐을 챙겨 다른 곳으로 떠났습니다. '[resolvedQuestName]' 임무의 기한이 만료되었습니다.</RKU_OpportunitySite_GuerrillaCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <RKU_OpportunitySite_GuerrillaCamp.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>임무 실패: [resolvedQuestName]</RKU_OpportunitySite_GuerrillaCamp.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>
+  <!-- EN: After being discovered, the guerrilla camp has dispersed. The quest [resolvedQuestName] has ended. -->
+  <RKU_OpportunitySite_GuerrillaCamp.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>발각된 게릴라 야영지가 뿔뿔이 흩어졌습니다. '[resolvedQuestName]' 임무가 종료되었습니다.</RKU_OpportunitySite_GuerrillaCamp.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>
+  <!-- EN: Payment arrived -->
+  <RKU_OpportunitySite_GuerrillaCamp.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterLabel.slateRef>보상 도착</RKU_OpportunitySite_GuerrillaCamp.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterLabel.slateRef>
+  <!-- EN: You have defeated the guerrilla camp!\n\nThe payment from [asker_faction_name] has arrived. -->
+  <RKU_OpportunitySite_GuerrillaCamp.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterText.slateRef>당신은 게릴라 야영지를 물리쳤습니다!\n\n[asker_faction_name]에서 보낸 보상이 도착했습니다.</RKU_OpportunitySite_GuerrillaCamp.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterText.slateRef>
+  <!-- EN: [asker_faction_royalFavorLabel] -->
+  <RKU_OpportunitySite_GuerrillaCamp.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef>[asker_faction_royalFavorLabel]</RKU_OpportunitySite_GuerrillaCamp.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef>
+  <!-- EN: These colonists participated in the victory for the quest [resolvedQuestName]. [asker_definite] wants to know who should receive the [royalFavorReward_amount] [asker_faction_royalFavorLabel] for this service. -->
+  <RKU_OpportunitySite_GuerrillaCamp.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.text.slateRef>다음 정착민들이 '[resolvedQuestName]' 임무를 승리로 이끄는 데 참여했습니다. [asker_definite](은)는 이 공로에 대한 보상으로 [royalFavorReward_amount]의 [asker_faction_royalFavorLabel](을)를 누구에게 수여해야 할지 묻고 있습니다.</RKU_OpportunitySite_GuerrillaCamp.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.text.slateRef>
+  
+  <!-- UNUSED -->
+  <RKU_OpportunitySite_GuerrillaCamp.LetterLabelQuestExpired.slateRef>임무 기한 만료: [resolvedQuestName]</RKU_OpportunitySite_GuerrillaCamp.LetterLabelQuestExpired.slateRef>
+  <RKU_OpportunitySite_GuerrillaCamp.LetterTextQuestExpired.slateRef>게릴라 야영지가 짐을 챙겨 이곳을 떠났습니다. '[resolvedQuestName]' 임무의 기한이 만료되었습니다.</RKU_OpportunitySite_GuerrillaCamp.LetterTextQuestExpired.slateRef>
+  <RKU_OpportunitySite_GuerrillaCamp.LetterLabelQuestFailed.slateRef>임무 실패: [resolvedQuestName]</RKU_OpportunitySite_GuerrillaCamp.LetterLabelQuestFailed.slateRef>
+  <RKU_OpportunitySite_GuerrillaCamp.LetterTextQuestFailed.slateRef>이 게릴라 야영지는 이미 발각되었습니다. '[resolvedQuestName]' 임무가 종료되었습니다.</RKU_OpportunitySite_GuerrillaCamp.LetterTextQuestFailed.slateRef>
+  <RKU_OpportunitySite_GuerrillaCamp.LetterLabelPaymentArrived.slateRef>보상 도착</RKU_OpportunitySite_GuerrillaCamp.LetterLabelPaymentArrived.slateRef>
+  <RKU_OpportunitySite_GuerrillaCamp.LetterTextPaymentArrived.slateRef>당신은 게릴라 야영지를 파괴했습니다!\n\n[asker_faction_name]에서 보낸 보상이 도착했습니다.</RKU_OpportunitySite_GuerrillaCamp.LetterTextPaymentArrived.slateRef>
+  <RKU_OpportunitySite_GuerrillaCamp.LetterLabelFavorReceiver.slateRef>[asker_faction_royalFavorLabel]</RKU_OpportunitySite_GuerrillaCamp.LetterLabelFavorReceiver.slateRef>
+  <RKU_OpportunitySite_GuerrillaCamp.LetterTextFavorReceiver.slateRef>다음 정착민들이 '[resolvedQuestName]' 임무를 승리로 이끄는 데 참여했습니다. [asker_definite](은)는 이 공로에 대한 보상으로 [royalFavorReward_amount]의 [asker_faction_royalFavorLabel](을)를 누구에게 수여해야 할지 묻고 있습니다.</RKU_OpportunitySite_GuerrillaCamp.LetterTextFavorReceiver.slateRef>
+</LanguageData>
