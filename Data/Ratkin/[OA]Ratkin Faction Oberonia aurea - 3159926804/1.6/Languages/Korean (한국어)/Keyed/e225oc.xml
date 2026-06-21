@@ -10,7 +10,6 @@
   <OAFrame_Message_AlreadyHasFixedCaravan>여기에는 이미 상단이 있습니다</OAFrame_Message_AlreadyHasFixedCaravan>
   <OAFrame_FixedCaravanWork_TimeLeft>상단 운행 중, 잔여 : {0}</OAFrame_FixedCaravanWork_TimeLeft>
   <OAFrame_Visit>{0} 입장</OAFrame_Visit>
-  <OAFrame_VisitInteractiveObject>입장</OAFrame_VisitInteractiveObject>
   <OAFrame_MessageNoDiplomat>적합한 외교관이 없습니다</OAFrame_MessageNoDiplomat>
   <OAFrame_MessageNoTrader>적합한 거래자가 없습니다</OAFrame_MessageNoTrader>
   <OAFrame_CaravanCategoryRequestInfo>필수: {0} ({1}개 남음)</OAFrame_CaravanCategoryRequestInfo>
@@ -481,4 +480,28 @@
   <OARK_UnlockedFile_EncryptedFile>아쉽게도 문서 자체는 암호화되어 있지 않았지만, 주인은 연구부의 독특한 인코딩 방식에 익숙해진 듯했습니다. 그래서 이 문서의 내용 역시 특별한 인코딩으로 작성되어 있었습니다.\n\n어쨌든 지금 당장 현장에서 해독하는 것은 적절하지 않았기에, {0}(은)는 데이터 전송기를 통해 해당 파일을 새로운 데이터 컨테이너에 복사하여 정착지로 전송했습니다. {0}(이)가 돌아오면, 바로 이 문서의 해독 작업을 시작할 수 있을 겁니다.</OARK_UnlockedFile_EncryptedFile>
   <OARK_UnlockedFile_NotLendPawn>독특한 코딩 암호화로 인해, 오베로니아 아우레아 연구부를 최근에 방문한 사람만이 해독할 수 있습니다.</OARK_UnlockedFile_NotLendPawn>
   <OARK_UnlockedFile_Expired>인코딩 실패로 인해 암호화된 파일이 만료되었습니다.</OARK_UnlockedFile_Expired>
+  <OAFrame_Check>확인</OAFrame_Check>
+  <OAFrame_Reject>거절</OAFrame_Reject>
+  <OAFrame_Submit>제출</OAFrame_Submit>
+  <OAFrame_LookOver>보기</OAFrame_LookOver>
+  <OAFrame_VisitObject>{0} 방문</OAFrame_VisitObject>
+  <OAFrame_Invite>초대</OAFrame_Invite>
+  <OAFrame_InviteObject>{0} 초대</OAFrame_InviteObject>
+  <OAFrame_MissSkillAvailablePawn>{SKILL_label} 작업을 수행할 수 있는 인원이 없습니다</OAFrame_MissSkillAvailablePawn>
+  <OAFrame_MissSkillSatisfiedPawn>기술 레벨 요구 사항을 충족하는 인원이 없습니다: {SKILL_label} &gt;= {Level}</OAFrame_MissSkillSatisfiedPawn>
+  <OAFrame_AllCarvanMemberGetXP>상단의 모든 인원이 {Count}점의 {SKILL_label} 경험치를 획득했습니다</OAFrame_AllCarvanMemberGetXP>
+  <OAFrame_CarvanGetThing>상단이 {THING_label} × {Count} 획득</OAFrame_CarvanGetThing>
+  <OARO_LetterLabel_FrameMiss>[OA] 프레임워크 누락</OARO_LetterLabel_FrameMiss>
+  <OARO_LetterText_FrameMiss>신규 오베로니아 아우레아 랫킨 시리즈 모드가 정상적으로 작동하려면 OA 선행 프레임워크가 필요합니다. 현재 게임은 내장된 임시 전환 프레임워크를 통해 호환 실행 중이지만, 잠재적인 버그를 방지하기 위해 이 내장 프레임워크는 곧 제거될 예정입니다.\n이후 모드에서 오류가 발생하거나 작동하지 않는 문제를 방지하려면 가능한 한 빨리 OA 선행 프레임워크를 구독해 주세요.\n\nOA 선행 프레임워크 창작마당 정보:\n모드 이름: [OA] 金鸢尾兰框架 | [OA] Oberonia Aurea Framework \n창작마당 ID: 3713589764</OARO_LetterText_FrameMiss>
+  <OARK_LetterLabel_AprilFoolsEvent>오베로니아 아우레아의 축제 서신</OARK_LetterLabel_AprilFoolsEvent>
+  <OARK_LetterText_AprilFoolsEvent>오베로니아 아우레아의 진정한 벗 {MAP_label}에게:\n\n격식을 차리는 명절에 축복을 주고받는 것이 전통적인 예의라면, 평범한 일상 속에서 뜬금없이 건네는 축복은 진심이 담긴 다정함이 아닐까 싶습니다. 오베로니아 아우레아의 오랜 관습에 따라, 며칠 뒤면 우리 마을들은 조금 특별한 시즌을 맞이한답니다.\n\n이 기간에는 딱딱한 대화 대신 실없는 농담이 오가고, 평소 쑥스러워 전하지 못했던 진심도 거짓말이라는 핑계를 빌려 전할 수 있죠. 누군가를 축복하는 데 거창한 이유 따윈 필요 없어집니다. 진심 어린 칭찬조차 능청스러운 거짓말에 덧대어 전할 수 있거든요. 비록 내일이 되면 속임수가 다시 나쁜 짓이 될지 몰라도, 오늘만큼은 따뜻한 선의를 두르는 포근한 외투가 되어준답니다.\n\n{MAP_label}의 뜻깊은 기념일을 축하하며, 작은 선물과 폭죽을 서신에 동봉합니다. {MAP_label}이(가) 오늘도 평안하기를 바랍니다.\n비록 오늘이 진짜 기념일은 아니지만 말이죠.\n\n아, 그리고 당신의 생일도 정말 축하합니다.\n\n\n\n{FACTION_name}의 {TITLE}\n{LEADER_nameDef}.</OARK_LetterText_AprilFoolsEvent>
+  <OARK_LetterLabel_OABirthdayWishes>{PawnsInfo}의 오베로니아 아우레아 시민 생일 선물</OARK_LetterLabel_OABirthdayWishes>
+  <OARK_LetterText_OABirthdayWishes>오늘은 {PawnsInfo}의 생일입니다. {Faction_name}(은)는 문화적 관습에 따라 오베로니아 아우레아 시민인 {PawnsInfo}의 생일 선물을 정착지로 보냈으며, {PawnsInfo}에게 간단한 생일 축하 인사를 전해왔습니다.</OARK_LetterText_OABirthdayWishes>
+  <OARK_LetterLabel_OABirthdayVisit>과학 부서의 통신</OARK_LetterLabel_OABirthdayVisit>
+  <OARK_LetterText_OABirthdayVisit>과학 부서로부터 통신이 수신되었습니다.\n\n조정 부서의 제재를 피해 몰래 연락을 시도한 탓인지, 통신 연결이 다소 불안정하고 잡음이 섞여 있습니다. 통신 너머로 몇몇 과학 부서 수행원들이 {PawnsInfo}에게 열렬한 생일 축하 인사를 건넸습니다. 그녀들은 조정 부서의 제재 때문에 원래 계획했던 직접 방문 대신 이런 방식으로나마 축하를 전하게 되어 아쉽다고 설명했습니다.\n\n짧은 담소를 나눈 후, 수행원들은 통신을 종료했습니다. 다음 생일에는 그녀들이 정착지에 직접 방문할 수 있기를 바랍니다.</OARK_LetterText_OABirthdayVisit>
+  <OARK_Birthday_Message>오늘은 {PawnsInfo}의 생일입니다.</OARK_Birthday_Message>
+  <Mod.OberoniaAurea>[OA] 오베로니아 아우레아</Mod.OberoniaAurea>
+  <OARK_Setting_BirthdayWishesShowLetter>시민 생일 선물을 편지 봉투 형태로 표시</OARK_Setting_BirthdayWishesShowLetter>
+  <OARK_LetterLabel_EMBlockEnd>오베로니아 아우레아의 감사 조정</OARK_LetterLabel_EMBlockEnd>
+  <OARK_LetterText_EMBlockEnd>얼마 전, 조정 부서가 과학 부서를 겨냥해 대대적으로 벌였던 감사가 마침내 막을 내렸습니다. 비록 조정 부서 측은 속으로 삭혀야만 하는 불만을 여전히 한가득 품고 있지만, 궁정 부서가 과학 부서의 연구 효율 저하를 우려하여 직접 중재에 나선 결과입니다. 결국 조정 부서는 그동안 과학 부서의 발목을 잡고 있던 까다로운 승인 제한 조치들을 대폭 완화해 주었고, 덕분에 현재 과학 부서는 예전의 활기를 되찾으며 점차 정상적인 업무 궤도에 오르고 있습니다.\n\n현재 조정 부서는 이번 조치에 대해 어떠한 공식적인 입장도 내놓지 않고 굳게 입을 다물고 있습니다. 하지만 전해지는 소문에 따르면, 과학 부서 인원들은 조정 부서의 이러한 '침묵'을 무언의 승인이자 지지로 받아들이며 깊은 감동을 받았다고 합니다. 이들은 자신들에게 주어진 믿음에 보답하겠다며, 눈부신 연구 성과를 내기 위해 불타는 의지를 다지고 있습니다.\n\n연구 포인트가 {0} 증가합니다.</OARK_LetterText_EMBlockEnd>
 </LanguageData>

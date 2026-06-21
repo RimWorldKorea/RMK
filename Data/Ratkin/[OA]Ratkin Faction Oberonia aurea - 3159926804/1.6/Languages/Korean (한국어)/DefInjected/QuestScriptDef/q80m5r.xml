@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <OA_ResearcherVisit.questContentRules.rulesStrings>
+  <OARK_ProspectingTeam.questContentRules.rulesStrings>
     <li>lastOrNot(lodgerCount==1)-&gt;</li>
     <li>lastOrNot(lodgerCount&gt;=2)-&gt;마지막</li>
     <li>lodgersPronoun(lodgerCount==1)-&gt;[asker_pronoun]</li>
@@ -10,7 +10,7 @@
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)-&gt;[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount&gt;=2)-&gt;[lodgersLabelPlural]</li>
     <li>lodgersArriveLetterLabel-&gt;[lodgersLabelSingularOrPlural] 도착</li>
-    <li>lodgersArriveLetterText-&gt;[lodgersSingularOrPluralDef] [hasHave] 도착했습니다. [lodgersPronoun](이)가 [questDurationTicks_duration]동안 함께할 것 입니다.</li>
+    <li>lodgersArriveLetterText-&gt;[lodgersSingularOrPluralDef] [hasHave] 도착했습니다. [lodgersPronoun](이)가 당신과 함께 [questDurationTicks_duration]동안 재정비합니다.</li>
     <li>hasHave(lodgerCount==1)-&gt;이미</li>
     <li>hasHave(lodgerCount==2)-&gt;이미</li>
     <li>appalledButNoAction-&gt;{PAWNSALIVECOUNT_multiple ? 다른 사람들은 : 마지막 [lodgersLabel](은)는} 이 일로 충격을 받았지만, 별다른 행동을 하지는 않을 것입니다</li>
@@ -37,7 +37,7 @@
     <li>lodgerArrestedLeaveMapLetterLabel-&gt;[lodgersLabel] 체포 : 떠남</li>
     <li>lodgerArrestedLeaveMapLetterText-&gt;[letterIntroArrested]\n\n[decidedToLeave]</li>
     <li>lodgersAllArrestedLetterLabel-&gt;임무 실패</li>
-    <li>lodgersAllArrestedLetterText-&gt;[lastOrNot] 절박한 [faction_pawnSingular], [whoAskedToStay] {SUBJECT_definite}(을)를 체포했습니다.\n\n[questOver]</li>
+    <li>[lodgersAllArrestedLetterText-&gt;lastOrNot] 절박한 [faction_pawnSingular], [whoAskedToStay] {SUBJECT_definite}(을)를 체포했습니다.\n\n[questOver]</li>
     <li>letterIntroLeftBehind-&gt;{SUBJECT_definite}, [oneOfThe](이)가 버려졌습니다.</li>
     <li>lodgerLeftBehindMemoryThoughtLetterLabel-&gt;[lodgersLabel] 버려짐：분노</li>
     <li>lodgerLeftBehindMemoryThoughtLetterText-&gt;[letterIntroLeftBehind]\n\n[appalledButNoAction]</li>
@@ -63,8 +63,6 @@
     <li>areIs(lodgerCount==1)-&gt;정</li>
     <li>areIs(lodgerCount==2)-&gt;정</li>
     <li>lodgersLeavingLetterLabel-&gt;[lodgersLabelSingularOrPlural] 떠남</li>
-    <li>lodgersLeavingLetterText(uniqueLeavingLetter!=True)-&gt;[asker_nameDef]에게 [lodgersLabelSingularOrPlural](이)가 [questDurationTicks_duration][동안 map_definite]에 머물 수 있도록 도와준 것에 대해 감사의 뜻을 표했습니다. [lodgersPronoun](은)는 이제 [lodgersPossessive] 동료들과 함께 나아갑니다.\n\n[asker_nameDef]가 해준 일들을 [lodgersPronoun]들은 영원히 기억할 것 입니다.</li>
-    <li>lodgersLeavingLetterLabel-&gt;[lodgersLabelSingularOrPlural] 떠남</li>
-    <li>lodgersLeavingLetterText-&gt;[asker_nameDef]에게 [questDurationTicks_duration]동안 [map_definite]에 머물 수 있도록 도와준 것에 대해 감사의 뜻을 표했습니다.  [lodgersPronoun](은)는 다른 연구원들과 함께 떠나고 있습니다.\n\n[asker_nameDef](은)는 [lodgersObjective](을)를 영원히 기억할 것 입니다.</li>
-  </OA_ResearcherVisit.questContentRules.rulesStrings>
+    <li>lodgersLeavingLetterText(uniqueLeavingLetter!=True)-&gt;[asker_nameDef](은)는 당신이 [lodgersLabelSingularOrPlural](이)가 [questDurationTicks_duration] 동안 [map_definite]에 머물게 해준 것에 감사합니다. [lodgersPronoun] 이제 [lodgersPossessive] 동료들과 함께 여정을 계속할 것입니다.\n\n[asker_nameDef](은)는 당신이 베푼 은혜를 결코 잊지 않겠다고 말했습니다.</li>
+  </OARK_ProspectingTeam.questContentRules.rulesStrings>
 </LanguageData>
