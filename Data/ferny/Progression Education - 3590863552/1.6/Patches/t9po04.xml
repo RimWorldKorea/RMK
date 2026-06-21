@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Odyssey</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="BasicGravtech"]/li[1]/title</xpath>
+          <value>
+            <title>궤도선 조종 숙련</title>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="BasicGravtech"]/li[1]/desc</xpath>
+          <value>
+            <desc>당신의 지식인이 궤도 이동수단을 조작하는 법에 대한 지식을 습득했습니다. 이제 숙련 수업을 통해 이 지식을 다른 정착민에게 가르칠 수 있습니다.</desc>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Blackboard"]/label</xpath>
+    <value>
+      <label>칠판 (1x2)</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="SchoolDesk"]/description</xpath>
+    <value>
+      <description>학생들이 수업을 배울 수 있는 책상입니다. 대부분의 수업을 괜찮은 속도로 진행합니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Blackboard"]/description</xpath>
+    <value>
+      <description>분필로 글을 쓰기 위한 돌 같은 질감의 평평한 판입니다. 칠판을 설치한 방은 교실로 지정되며 수업을 배정할 수 있습니다.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="Gunsmithing"]/li[1]/title</xpath>
+    <value>
+      <title>총기 사용법</title>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="Gunsmithing"]/li[1]/desc</xpath>
+    <value>
+      <desc>당신의 지식인이 총기 사용법에 대한 지식을 습득했습니다. 이제 숙련 수업을 통해 이 지식을 다른 정착민에게 가르칠 수 있습니다.</desc>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="Fabrication"]/li[1]/title</xpath>
+    <value>
+      <title>첨단 장비</title>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[defName="Fabrication"]/li[1]/desc</xpath>
+    <value>
+      <desc>당신의 지식인이 첨단 장비를 다루는 법에 대한 지식을 습득했습니다. 이제 숙련 수업을 통해 이 지식을 다른 정착민에게 가르칠 수 있습니다.</desc>
+    </value>
+  </Operation>
+</Patch>
