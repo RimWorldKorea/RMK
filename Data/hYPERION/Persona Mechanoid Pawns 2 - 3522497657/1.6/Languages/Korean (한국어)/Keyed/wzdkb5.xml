@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PMP_PersonaForbiddenTooltip>메카노이드는 사용할 수 없습니다!</PMP_PersonaForbiddenTooltip>
+  <PMP_PersonaForbiddenTooltipSubcoreScanners>메카노이드는 사용할 수 없습니다! 인공자아 인터페이스를 대신 이용하세요.</PMP_PersonaForbiddenTooltipSubcoreScanners>
+  <PMP_PersonaOverview>인공자아 메카노이드, 나이 {PAWN_ageFull}</PMP_PersonaOverview>
+  <PMP_PersonaOverviewRepair>자가수리</PMP_PersonaOverviewRepair>
+  <PMP_PersonaOverviewRepairDesc>자가수리가 허용된 페르소나 메카노이드는 침대로 향하는 대신 그 자리에서 자기 자신을 수리합니다. 자가수리를 위해서는 가공 작업이 결격이 아니며 해당 작업을 담당해야 합니다.\n\n저장된 에너지가 고갈되었다면, 새로운 자가수리를 수행할 수는 없습니다.\n\n자가수리에 배당된 페르소나 메카노이드는 메카나이터나 일반 메카노이드가 아니어도 수리 작업을 수행할 수 있습니다.\n\n제작 기술 수준은 전력 소모 효율에 비선형적으로 영향을 줍니다. 기술 수준이 낮을수록 전력 소모가 심합니다.</PMP_PersonaOverviewRepairDesc>
+  <PMP_PersonaOverviewHealForbidden>가공 작업을 수행할 수 없어 자가수리가 불가능합니다.</PMP_PersonaOverviewHealForbidden>
+  <PMP_PersonaOverviewHealNoEnergy>전력 잔량이 너무 낮아 자가수리 작업을 시작할 수 없습니다. 재충전을 하거나 다른 이들의 보조를 받으세요.</PMP_PersonaOverviewHealNoEnergy>
+  <PMP_PersonaOverviewHealUnset>가공 작업에 할당되지 않았습니다.</PMP_PersonaOverviewHealUnset>
+  <PMP_PersonaBioelectricEnergy>전력</PMP_PersonaBioelectricEnergy>
+  <PMP_PersonaBioelectricEnergyDesc>메카노이드가 작동하는 데 필요한 생체전기 에너지의 비축량. 자연적으로 방전되는 양 외에도 수리 진행 시에도 제작 기술 수준에 따라 추가로 전력이 소모됩니다. 기술 수준이 낮을수록 전력 소모가 심해집니다.\n\n페르소나 메카 충전기나 휴대용 생체전지로 충전할 수 있습니다.\n\n잔량이 50% 밑으로 내려가면 페르소나 메카가 스스로 충전기를 찾아가며, 30% 밑으로 감소하면 생체전지도 찾아갑니다. 통상적으로 하루에 10%의 전력이 소모됩니다.\n\n완전히 방전되면 메카는 최대 24시간 동안 긴급 전원 상태에 돌입하며, 그 이후로는 강제로 휴면 충전 상태에 빠집니다!</PMP_PersonaBioelectricEnergyDesc>
+  <PMP_PersonaTargetForbidden>대상이 메카노이드입니다.</PMP_PersonaTargetForbidden>
+  <PMP_PersonaBioelectricCellRechargerProgress>재충전 중: {0}</PMP_PersonaBioelectricCellRechargerProgress>
+  <PMP_PersonaBioelectricCellRechargerDone>전지가 완충되어 꺼낼 수 있습니다.</PMP_PersonaBioelectricCellRechargerDone>
+  <PMP_PersonaBioelectricCellRechargerDepletedContent>내용물: {0} / {1} 방전된 전지</PMP_PersonaBioelectricCellRechargerDepletedContent>
+  <PMP_PersonaBioelectricCellRechargerChargedContent>내용물: {0} / {1} 충전된 전지</PMP_PersonaBioelectricCellRechargerChargedContent>
+  <PMP_PersonaMechDirectRechargeNow>재충전 필요</PMP_PersonaMechDirectRechargeNow>
+  <PMP_OnlyPersonaMechanoidsAllowed>페르소나 메카노이드여야 합니다.</PMP_OnlyPersonaMechanoidsAllowed>
+  <PMP_PersonaHasSystemHaze>시스템 혼란이 끝날 때까지 기다려야 합니다.</PMP_PersonaHasSystemHaze>
+  <PMP_EngramModeTitle>엔그램 모드</PMP_EngramModeTitle>
+  <PMP_EngramModeDescInterface>인공자아 데이터 파편 대신 자아 엔그램을 생성합니다.\n\n경고: 이 작업을 완료하면 극심한 시스템 혼란이 발생합니다.\n\n이 옵션은 작업 완료 후 자동으로 비활성화됩니다.</PMP_EngramModeDescInterface>
+  <PMP_EngramModeDescScanner>이 기능을 활성화하면 스캐너는 자아 데이터 파편 대신 자아 엔그램을 우선적으로 생성합니다.\n\n이 옵션은 작업 완료 후 자동으로 비활성화됩니다.</PMP_EngramModeDescScanner>
+  <PMP_SubcoreModeTitle>서브코어 모드</PMP_SubcoreModeTitle>
+  <PMP_SubcoreModeDesc>페르소나 데이터 파편 대신 표준 서브코어를 생성합니다.\n\n이 옵션은 작업 완료 후 자동으로 비활성화됩니다.</PMP_SubcoreModeDesc>
+  <PMP_HighSubcoreModeTitle>상급 서브코어 모드</PMP_HighSubcoreModeTitle>
+  <PMP_HighSubcoreModeDesc>페르소나 데이터 파편 대신 상급 서브코어를 생성합니다.\n\n경고: 이 작업을 완료하면 극심한 시스템 혼란이 발생합니다.\n\n이 옵션은 작업 완료 후 자동으로 비활성화됩니다.</PMP_HighSubcoreModeDesc>
+  <PMP_RechargeBedModeTitle>충전 허용</PMP_RechargeBedModeTitle>
+  <PMP_RechargeBedModeDesc>침대에서 휴식하는 대상의 재충전 여부를 설정합니다.</PMP_RechargeBedModeDesc>
+  <PMP_PersonaHasLowPower>전력 잔량이 부족합니다.</PMP_PersonaHasLowPower>
+  <PMP_EngramApplySuccess>{0}이(가) {1}의 인공자아 엔그램을 성공적으로 통합했습니다.</PMP_EngramApplySuccess>
+  <PMP_EngramBerserkMessage>경고: 비정상적 정신체 활동이 감지되었습니다!\n\사유: 흡수된 인공자아 엔그램에 불량한 의도가 포함됨.</PMP_EngramBerserkMessage>
+  <PMP_EngramEncoded>부호화됨: {0}</PMP_EngramEncoded>
+  <PMP_EngramTraits>특성: {0}</PMP_EngramTraits>
+  <PMP_EngramNotableSkills>주요 기술 (≥7): {0}</PMP_EngramNotableSkills>
+  <PMP_EngramPassions>열정: {0}</PMP_EngramPassions>
+  <PMP_ManipulationCompromised>조작에 실패하였습니다.</PMP_ManipulationCompromised>
+  <PMP_PodNoPowerAlert>전력 불량, 긴급 방출 중: {0}</PMP_PodNoPowerAlert>
+  <PMP_PodNoSiphon>사용 불가: 피질 흡수 상태여야 합니다.</PMP_PodNoSiphon>
+  <PMP_PodBerserkMessage>지속적인 전력 불량으로 긴급 방출을 진행합니다.\n\n주의: 연결 해제 작업 불량으로 인해 대상이 폭주합니다!</PMP_PodBerserkMessage>
+</LanguageData>
