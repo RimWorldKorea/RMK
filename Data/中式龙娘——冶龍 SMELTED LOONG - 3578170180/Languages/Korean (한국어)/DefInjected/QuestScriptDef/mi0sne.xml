@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <NY_quest_MechPods.questDescriptionRules.rulesStrings>
+    <li>li = dangersDescription(priority=1)-&gt;
+
+이 공수 포드에는 다음 위협이 들어 있습니다:
+
+[allThreats]</li>
+    <li>li = dangersDescription-&gt;</li>
+    <li>li = questDescription(asker_factionLeader==True)-&gt;[asker_faction_name]의 [asker_faction_leaderTitle] [asker_nameFull](이)가 광역 통신으로 의뢰를 보냈습니다. [asker_faction_name]은 [map_definite] 근처에서 메카노이드의 둥지화된 조립 공장을 발견했고, 이를 파괴할 작전 계획을 세우고 있습니다. [commonMainPart]</li>
+    <li>li = questDescription(asker_royalInCurrentFaction==True)-&gt;[asker_faction_name]의 [asker_royalTitleInCurrentFaction] [asker_nameFull](은)는 [map_definite] 근처에서 메카노이드 저지 임무를 수행 중입니다. [commonMainPart]</li>
+    <li>li = commonMainPart-&gt;[asker_pronoun](은)는 [asker_faction_name] 부대가 메카노이드 둥지 깊숙이 돌입할 수 있도록 메카노이드의 방어 병력을 유인해 줄 사람이 필요합니다. 이 의뢰를 수락하면 (*Threat)메카노이드 집단(/Threat)이 [map_definite]에 강하합니다.[dangersDescription]
+
+이 메카노이드 집단은 처음에는 휴면 상태입니다. 어떤 카운트다운 프로그램이 끝나면 활성화될 수도 있고, 방해받지 않는 한 계속 휴면 상태로 남을 수도 있습니다.</li>
+  </NY_quest_MechPods.questDescriptionRules.rulesStrings>
+</LanguageData>

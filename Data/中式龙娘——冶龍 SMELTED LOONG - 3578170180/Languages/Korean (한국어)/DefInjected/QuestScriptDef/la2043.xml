@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <NY_badquest_BuildMonument.questDescriptionRules.rulesStrings>
+    <li>li = questDescription-&gt;[asker_faction_name]의 [asker_faction_leaderTitle] [asker_nameFull](은)는 당신이 [asker_faction_name]에 보여 준 성의가 부족하다고 판단하고, [buildReason] 기념비를 건설하라고 명령했습니다.
+
+[commonEnding]</li>
+    <li>li = buildReason-&gt;[asker_possessive] 자신의 [PersonalCharacteristic](을)를 기념하기 위해</li>
+    <li>li = buildReason-&gt;[asker_possessive] 경쟁자의 [PersonalCharacteristic](을)를 모욕하기 위해</li>
+    <li>li = buildReason-&gt;[asker_pronoun]의 [AdjectiveBadass](을)를 표현하기 위해</li>
+    <li>li = commonEnding-&gt;이 [monumentSize] 크기의 기념비에는 다음 자원이 필요합니다(총 가치 [monumentRequiredResourcesMarketValue_money]):
+
+[monumentRequiredResources]
+
+[asker_nameDef](을)를 기쁘게 하기 위한 이 구조물은 [constructionTimeoutDays]일 안에 완성되어야 합니다. 기한 내에 완성하면 [asker_faction_name]와의 우호를 유지할 수 있습니다.[dontDestroyMonument]</li>
+    <li>li = dontDestroyMonument(priority=-10)-&gt;</li>
+    <li>li = dontDestroyMonument-&gt;
+
+[keepMonumentDays]일 안에 이 기념비 구조물이 파괴되면, 당신과 [asker_factionName]의 관계가 [goodwillChangeIfMonumentDestroyed]만큼 하락합니다.</li>
+  </NY_badquest_BuildMonument.questDescriptionRules.rulesStrings>
+</LanguageData>
