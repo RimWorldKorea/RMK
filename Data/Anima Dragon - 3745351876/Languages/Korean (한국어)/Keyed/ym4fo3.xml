@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <AnimaDragon_Part>부위</AnimaDragon_Part>
+  <AnimaDragon_PartBody>몸통</AnimaDragon_PartBody>
+  <AnimaDragon_PartHorn>뿔</AnimaDragon_PartHorn>
+  <AnimaDragon_ColorA>주 색상</AnimaDragon_ColorA>
+  <AnimaDragon_ColorB>보조 색상</AnimaDragon_ColorB>
+  <AnimaDragon_Appearance>외형</AnimaDragon_Appearance>
+  <AnimaDragon_BodyStyle_A>기본</AnimaDragon_BodyStyle_A>
+  <AnimaDragon_HornStyle_None>뿔 없음</AnimaDragon_HornStyle_None>
+  <AnimaDragon_HornStyle_A>볏 모양</AnimaDragon_HornStyle_A>
+  <AnimaDragon_HornStyle_B>가시 모양</AnimaDragon_HornStyle_B>
+  <AnimaDragon_HornA>뿔 A</AnimaDragon_HornA>
+  <AnimaDragon_HornB>뿔 B</AnimaDragon_HornB>
+  <AD_Wisps>위습</AD_Wisps>
+  <AD_Growth>성장</AD_Growth>
+  <AD_Full>가득 참</AD_Full>
+  <AD_WispGrowthTooltip>영혼 위습은 영혼 능력을 사용할 힘을 유지하는 빛나는 영혼 조각입니다. 보통 작은 동물이나 식물의 모습으로 나타나며, 노드 생명체의 종류에 따라 형태가 달라집니다.
+위습은 노드 생명체 근처에서 명상할 때 성장합니다.
+
+현재 위습: {0} / {1}</AD_WispGrowthTooltip>
+  <AD_AutoMeditateOn>스스로 장소를 찾아 명상합니다. 위습 성장은 허기를 소모합니다. 클릭하면 끕니다.</AD_AutoMeditateOn>
+  <AD_AutoMeditateOff>명상이 허용되지 않았습니다. 클릭하면 켭니다.</AD_AutoMeditateOff>
+  <AD_AnimaLinkLabelWithWisps>영혼 연결 ({0} 위습)</AD_AnimaLinkLabelWithWisps>
+  <AD_ChangeColor>외형 꾸미기</AD_ChangeColor>
+  <AD_ChangeColorDesc>영혼용의 외형을 꾸밉니다.</AD_ChangeColorDesc>
+  <AD_AbsorbSeedJob>씨앗 흡수</AD_AbsorbSeedJob>
+  <AD_AbsorbSeed>씨앗 흡수...</AD_AbsorbSeed>
+  <AD_AbsorbSeedDesc>씨앗의 정수를 흡수해 능력을 해금하고 영혼 연결을 강화합니다.</AD_AbsorbSeedDesc>
+  <AD_AbsorbSeedChooseWho>누가 씨앗을 흡수할지 선택</AD_AbsorbSeedChooseWho>
+  <AD_SeedAbsorbedStatIncrease>{PAWN_labelShort}: {STAT}(이)가 {VALUE}(으)로 증가했습니다.</AD_SeedAbsorbedStatIncrease>
+  <AD_SeedAbsorbedDryadCap>{PAWN_labelShort}: 최대 드라이어드 수가 {COUNT}(으)로 증가했습니다.</AD_SeedAbsorbedDryadCap>
+  <AD_SeedAbsorbedAbilityUnlocked>해금됨: {ABILITY}</AD_SeedAbsorbedAbilityUnlocked>
+  <AD_SeedAbsorbedToxicImmunity>독성 축적에 면역입니다.</AD_SeedAbsorbedToxicImmunity>
+  <AD_SeedAbsorbedVacuumBurnImmunity>진공 화상에 면역입니다.</AD_SeedAbsorbedVacuumBurnImmunity>
+  <AD_AnimaLinkChooseDryadCasteDesc>생성될 드라이어드 계급을 선택합니다.</AD_AnimaLinkChooseDryadCasteDesc>
+  <AD_AnimaLinkDryadCasteChangeDesc>{PAWN_definite}의 드라이어드 계급을 바꾸면 기존 드라이어드가 모두 사라집니다.
+
+선택한 계급의 새 드라이어드가 제한 수까지 시간이 지나며 생성됩니다.</AD_AnimaLinkDryadCasteChangeDesc>
+  <AD_NeedAnimaLink>영혼 연결이 필요합니다.</AD_NeedAnimaLink>
+  <AD_InsufficientWisps>위습 부족: {0} (필요: {1})</AD_InsufficientWisps>
+  <AD_NotEnoughWisps>위습이 최소 {NEED} 필요합니다.</AD_NotEnoughWisps>
+  <AD_WispsRequired>필요 위습: {REQUIRED}</AD_WispsRequired>
+  <AD_AnimaLinkingStarting>영혼 연결이 시작됩니다.</AD_AnimaLinkingStarting>
+  <AD_RitualRoleMustBeAnimaDragon>영혼용이어야 합니다.</AD_RitualRoleMustBeAnimaDragon>
+  <AD_AnimaLinkingDragonMustBeUndrafted>영혼 연결 의식을 시작하려면 {DRAGON_labelShort}(이)가 소집 해제 상태여야 합니다.</AD_AnimaLinkingDragonMustBeUndrafted>
+  <AD_LetterLabelDragonLinkingCompleted>영혼 연결 완료</AD_LetterLabelDragonLinkingCompleted>
+  <AD_LetterTextDragonLinkingCompleted>{PAWN_labelShort}(이)가 {DRAGON_labelShort}(와)과의 영혼 연결 의식을 완료하고 새로운 정신력 레벨을 얻었습니다.</AD_LetterTextDragonLinkingCompleted>
+  <AD_LetterLabelDragonLinkingFailedNoWisps>영혼 연결 실패</AD_LetterLabelDragonLinkingFailedNoWisps>
+  <AD_LetterTextDragonLinkingFailedNoWisps>{DRAGON_labelShort}에게 위습이 충분하지 않아 영혼 연결 의식이 실패했습니다. (필요: {NEED})</AD_LetterTextDragonLinkingFailedNoWisps>
+  <TalkTo>{0_nameDef}에게 말 걸기</TalkTo>
+  <CannotTalkTo>{0_nameDef}에게 말할 수 없음</CannotTalkTo>
+  <AD_ElderScholarArrivalLabel>늙은 학자</AD_ElderScholarArrivalLabel>
+  <AD_ElderScholarArrivalText>노학자 한 명이 다가왔습니다. {PAWN_pronoun}(은)는 대화를 원하는 것 같습니다.</AD_ElderScholarArrivalText>
+  <AD_ElderScholarTalkLabel>{SCHOLAR_labelShort}(이)가 대화를 원함</AD_ElderScholarTalkLabel>
+  <AD_ElderScholarTalkText>{SCHOLAR_labelShort}(은)는 늙은 목소리로 {PAWN_labelShort}에게 인사를 건넨 뒤 말합니다.
+
+“정착지 근처에 있는 그 특이한 나무, 영혼 나무라고 부르는 것을 보았습니다. 이미 그 나무가 초자연적인 에너지와 공명할 수 있다는 사실을 눈치챘을지도 모르고, 아직 자세히 살펴보지 않았을지도 모르지요.”
+
+“하지만 수십 년 동안 조사한 결과, 영혼 나무는 사실 우리 물질 우주와 영혼의 영역을 잇는 노드입니다. 이 행성에는 오래전에 사라진 고대 문명이 있었고, 그들은 바로 그 나무를 이용해 자신의 존재를 어떤 집단 의식으로 바꾸어 일종의 불멸을 얻었습니다.”
+
+“다시 말해, 그들은 아직 살아 있습니다. 원리는 아직 밝혀내지 못했지만, 최근 저는 그 과정을 되돌려 그중 하나를 다시 불러오는 방법을 찾아냈습니다...”</AD_ElderScholarTalkText>
+  <AD_ElderScholarTalkTextPart2>{SCHOLAR_labelShort}(은)는 말을 이어갑니다.
+
+“간단히 말해, 알려진 영혼 나무 연결 의식은 사실 영혼을 되돌리기 위한 불완전한 과정입니다. 의식 시간이 너무 짧아서 영혼이 머물 그릇을 물질화하지 못합니다... 그래서 영혼은 연결자를 그릇으로 선택하고, 그 결과 정신력이 형성되는 것이지요.”
+
+“하지만 의식을 충분히 오래 지속한다면, 영혼이 머물 만큼 큰 실체를 물질화할 수 있을 겁니다. 다만 그것은 극도로 긴 시간이 필요합니다. 저는 이제 늙었고, 제 몸은 더 이상 그런 과정을 견딜 수 없습니다. 그래서 이 일을 당신들에게 맡기러 온 것입니다...”</AD_ElderScholarTalkTextPart2>
+  <AD_ElderScholarLearnRitual>계속</AD_ElderScholarLearnRitual>
+  <AD_ElderScholarEndTalk>확인</AD_ElderScholarEndTalk>
+  <AD_ElderScholarPostpone>나중에</AD_ElderScholarPostpone>
+  <AD_ElderScholarUnlockText>{SCHOLAR_labelShort}(이)가 {PAWN_labelShort}에게 의식의 비밀을 전해주었습니다. 이제 정착민들은 영혼 나무에서 소환 의식을 수행할 수 있습니다.
+
+{SCHOLAR_labelShort}(은)는 떠납니다.</AD_ElderScholarUnlockText>
+  <AD_SummonAnimaDragonBadBiome>부적절한 생물군계 때문에 소환에 실패했습니다.</AD_SummonAnimaDragonBadBiome>
+  <AD_SummonAnimaDragonNoValidSpot>이 영혼 나무 옆에 알을 물질화할 유효한 자리가 없습니다.</AD_SummonAnimaDragonNoValidSpot>
+  <AD_SummonAnimaDragonNoColonist>성인 정착민이 최소 한 명 필요합니다.</AD_SummonAnimaDragonNoColonist>
+  <AD_SummonAnimaDragonSuccessLabel>영혼용 알</AD_SummonAnimaDragonSuccessLabel>
+  <AD_SummonAnimaDragonSuccessText>영혼 나무가 초자연적인 에너지와 공명하는 듯합니다. 곁에 알 하나가 나타났습니다.</AD_SummonAnimaDragonSuccessText>
+  <AD_SummonAnimaDragonFailedLabel>소환 실패</AD_SummonAnimaDragonFailedLabel>
+  <AD_SummonAnimaDragonFailedText>의식은 완료되었지만, 영혼 나무가 에너지와 공명하지 않는 것 같습니다.</AD_SummonAnimaDragonFailedText>
+  <AD_AnimaDragonEggHatched>영혼용이 부화했습니다: {0}.
+이름을 지어줄 수 있습니다.</AD_AnimaDragonEggHatched>
+</LanguageData>
