@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ULS_LowerGroup>내리기</ULS_LowerGroup>
+  <ULS_LowerGroupDesc>현재 구조물을 내립니다.</ULS_LowerGroupDesc>
+  <ULS_RaiseGroup>올리기</ULS_RaiseGroup>
+  <ULS_RaiseGroupDesc>내려간 구조물을 올립니다.</ULS_RaiseGroupDesc>
+  <ULS_CancelLift>승강 취소</ULS_CancelLift>
+  <ULS_CancelLiftDesc>현재 승강 작업을 취소합니다.</ULS_CancelLiftDesc>
+  <ULS_GroupMergeToPrimary>선택한 그룹에 연결</ULS_GroupMergeToPrimary>
+  <ULS_GroupMergeToPrimaryDesc>선택한 컨트롤러를 동일한 그룹으로 병합합니다.</ULS_GroupMergeToPrimaryDesc>
+  <ULS_GroupSplitToNew>새 그룹으로 분리</ULS_GroupSplitToNew>
+  <ULS_GroupSplitToNewDesc>선택한 컨트롤러를 현재 그룹에서 분리해 새 그룹을 만듭니다.</ULS_GroupSplitToNewDesc>
+  <ULS_GroupSetIdDesc>컨트롤러의 그룹 ID를 생성합니다.</ULS_GroupSetIdDesc>
+  <ULS_SelectGroupControllers>같은 그룹의 모든 컨트롤러 선택</ULS_SelectGroupControllers>
+  <ULS_SelectGroupControllersDesc>현재 그룹 내 모든 구조물 컨트롤러를 선택합니다.</ULS_SelectGroupControllersDesc>
+  <ULS_AutoGroup_FilterDesc>자동 컨트롤러(그룹)의 대상 필터를 설정합니다.</ULS_AutoGroup_FilterDesc>
+  <ULS_AutoGroup_SetFilter_Friendly>설정: 아군</ULS_AutoGroup_SetFilter_Friendly>
+  <ULS_AutoGroup_SetFilter_Hostile>설정: 적군</ULS_AutoGroup_SetFilter_Hostile>
+  <ULS_AutoGroup_SetFilter_Neutral>설정: 중립</ULS_AutoGroup_SetFilter_Neutral>
+  <ULS_OverlayDisplayMasterToggleButton>추가정보 오버레이 표시</ULS_OverlayDisplayMasterToggleButton>
+  <ULS_NoStored>현재 컨트롤러에 내려진 구조물이 없습니다.</ULS_NoStored>
+  <ULS_NoEdifice>해당 칸에 내릴 수 있는 구조물이 없습니다.</ULS_NoEdifice>
+  <ULS_LowerNotPlayerOwned>플레이어 소유 구조물만 내릴 수 있습니다.</ULS_LowerNotPlayerOwned>
+  <ULS_CannotPlace_ControllerExists>해당 칸에 이미 승강 컨트롤러가 있습니다.</ULS_CannotPlace_ControllerExists>
+  <ULS_CannotPlace_BlacklistedOverlay>해당 칸에 화이트리스트에 등록되지 않은 구조물({0})이 존재하여 승강 컨트롤러를 배치할 수 없습니다.</ULS_CannotPlace_BlacklistedOverlay>
+  <ULS_CannotPlace_BridgeNeedsWater>다리 승강 컨트롤러는 물 위에만 건설할 수 있습니다.</ULS_CannotPlace_BridgeNeedsWater>
+  <ULS_MultiCellNeedControllerEveryCell>여러 칸을 차지하는 구조물은 차지하는 모든 칸에 승강 컨트롤러가 배치되어야 합니다.</ULS_MultiCellNeedControllerEveryCell>
+  <ULS_MultiCellControllerHasStored>그룹 내에 이미 내려진 구조물이 있는 컨트롤러가 존재하여 여러 칸을 차지하는 구조물을 내릴 수 없습니다.</ULS_MultiCellControllerHasStored>
+  <ULS_MultiCellControllerInGroup>일부 컨트롤러가 다른 여러 칸을 차지하는 구조물 그룹에 이미 점유되어 있어 여러 칸을 차지하는 구조물을 내릴 수 없습니다.</ULS_MultiCellControllerInGroup>
+  <ULS_MultiCellGroupAlreadyExists>해당 여러 칸을 차지하는 구조물은 이미 승강 대기 목록에 있습니다.</ULS_MultiCellGroupAlreadyExists>
+  <ULS_GroupTooLarge>그룹 크기가 상한을 초과했습니다. (상한: {0})</ULS_GroupTooLarge>
+  <ULS_GroupNoController>승강 컨트롤러를 찾을 수 없습니다.</ULS_GroupNoController>
+  <ULS_GroupBlacklistedAt>좌표 {0}의 구조물이 화이트리스트에 등록되지 않았습니다.</ULS_GroupBlacklistedAt>
+  <ULS_GroupNoLowerable>그룹 내에 내릴 수 있는 구조물이 없습니다. (이미 내려진 건물 등이 존재함)</ULS_GroupNoLowerable>
+  <ULS_GroupNoRaiseable>그룹 내 올릴 수 있는 모든 구조물이 차단되어 있습니다.</ULS_GroupNoRaiseable>
+  <ULS_AutoGroup_MixAutoAndManual>자동 컨트롤러 그룹과 수동 컨트롤러 그룹은 같은 그룹으로 합칠 수 없습니다.</ULS_AutoGroup_MixAutoAndManual>
+  <ULS_GroupLowerFailed>그룹 내리기 실패</ULS_GroupLowerFailed>
+  <ULS_GroupLoweredPartial>일부 내리기 성공: {0} (실패: {1})</ULS_GroupLoweredPartial>
+  <ULS_LiftInProcess>승강 진행 중</ULS_LiftInProcess>
+  <ULS_GroupRaisedPartial>일부 올리기 성공: {0} (실패: {1})</ULS_GroupRaisedPartial>
+  <ULS_PowerOff>그룹 내에 전력이 공급되지 않는 승강 컨트롤러가 있습니다.</ULS_PowerOff>
+  <ULS_GroupPowerInsufficient>그룹 내에 전력이 공급되지 않는 승강 컨트롤러가 있습니다.</ULS_GroupPowerInsufficient>
+  <ULS_PowerLost>승강 중단: 전력 부족</ULS_PowerLost>
+  <ULS_LiftConsoleMissing>사용 가능한 승강 콘솔을 찾을 수 없습니다.</ULS_LiftConsoleMissing>
+  <ULS_LiftConsolePowerOff>승강 콘솔이 전력망에 연결되어 있지 않습니다.</ULS_LiftConsolePowerOff>
+  <ULS_SettingsCategory>범용 승강 구조물</ULS_SettingsCategory>
+  <ULS_Tab_General>일반</ULS_Tab_General>
+  <ULS_Tab_Filter>필터</ULS_Tab_Filter>
+  <ULS_Tab_Other>기타</ULS_Tab_Other>
+  <ULS_Section_Core>기본 설정</ULS_Section_Core>
+  <ULS_Section_Visual>시각 설정</ULS_Section_Visual>
+  <ULS_Section_Performance>승강 소요 시간</ULS_Section_Performance>
+  <ULS_Section_Compatibility>호환성 옵션</ULS_Section_Compatibility>
+  <ULS_Settings_LiftControlMode>승강 제어 모드</ULS_Settings_LiftControlMode>
+  <ULS_Settings_LiftControlMode_Desc>승강을 제어하는 방식을 선택합니다.\n즉시: 즉시 적용; 콘솔: 승강 콘솔을 통해 통합 조작; 수동: 컨트롤러 본체를 직접 조작</ULS_Settings_LiftControlMode_Desc>
+  <ULS_LiftControlMode_Remote>즉시</ULS_LiftControlMode_Remote>
+  <ULS_LiftControlMode_Console>콘솔</ULS_LiftControlMode_Console>
+  <ULS_LiftControlMode_Manual>수동</ULS_LiftControlMode_Manual>
+  <ULS_Settings_GroupMaxSize>그룹 최대 크기</ULS_Settings_GroupMaxSize>
+  <ULS_Settings_EnableLiftPower>승강 추가 전력 소모 활성화</ULS_Settings_EnableLiftPower>
+  <ULS_Settings_EnableLiftPower_Desc>활성화 시: 승강 중 컨트롤러마다 1000W의 전력을 추가로 소모합니다.\n전력이 부족하면 승강을 시작할 수 없으며, 승강 도중 전력이 부족해지면 실패합니다.</ULS_Settings_EnableLiftPower_Desc>
+  <ULS_Settings_EnemiesIgnoreLiftController>적이 승강 컨트롤러를 파괴하지 않습니다.</ULS_Settings_EnemiesIgnoreLiftController>
+  <ULS_Settings_EnemiesIgnoreLiftConsole>승강 콘솔도 함께 보호합니다.</ULS_Settings_EnemiesIgnoreLiftConsole>
+  <ULS_Settings_LowerButtonOnController>컨트롤러 본체에 내리기 버튼 표시.</ULS_Settings_LowerButtonOnController>
+  <ULS_Settings_LowerButtonOnController_Desc>이 항목을 활성화하면 컨트롤러 본체에 내리기 버튼이 표시됩니다.</ULS_Settings_LowerButtonOnController_Desc>
+  <ULS_Settings_LiftDurationHpSet>승강 소요 시간 배율 (내구도 기반): {0}</ULS_Settings_LiftDurationHpSet>
+  <ULS_Settings_LiftDurationMassSet>승강 소요 시간 배율 (무게 기반): {0}</ULS_Settings_LiftDurationMassSet>
+  <ULS_Settings_DefNameBlacklist>화이트리스트</ULS_Settings_DefNameBlacklist>
+  <ULS_Settings_Search>검색</ULS_Settings_Search>
+  <ULS_Settings_ModFilter>출처</ULS_Settings_ModFilter>
+  <ULS_Settings_ModFilter_All>전체</ULS_Settings_ModFilter_All>
+  <ULS_Settings_BuiltInRules>특수 규칙</ULS_Settings_BuiltInRules>
+  <ULS_Settings_AllowNaturalRock>자연 암벽 허용</ULS_Settings_AllowNaturalRock>
+  <ULS_Settings_ResetToDefault>기본값으로 초기화</ULS_Settings_ResetToDefault>
+  <ULS_Settings_OverlayDisplay>오버레이 표시</ULS_Settings_OverlayDisplay>
+  <ULS_Settings_OverlayDisplay_ShowStoredGhost>내려진 구조물의 잔상 표시</ULS_Settings_OverlayDisplay_ShowStoredGhost>
+  <ULS_Settings_OverlayDisplay_ShowControllerCell>컨트롤러가 있는 칸 표시</ULS_Settings_OverlayDisplay_ShowControllerCell>
+  <ULS_Settings_OverlayDisplay_ShowAutoGroupDetectionProjection>자동 컨트롤러의 감지 범위 표시</ULS_Settings_OverlayDisplay_ShowAutoGroupDetectionProjection>
+  <ULS_Settings_OverlayDisplay_HideControllerWhenStored>내려진 상태일 때 컨트롤러 숨기기</ULS_Settings_OverlayDisplay_HideControllerWhenStored>
+  <ULS_GroupSetIdWithValue>그룹 설정: {0}</ULS_GroupSetIdWithValue>
+  <ULS_GroupSetId_Desc>같은 그룹 ID를 가진 컨트롤러는 동일한 그룹의 올리기/내리기를 실행합니다</ULS_GroupSetId_Desc>
+  <ULS_GroupSetId_Field>그룹 ID</ULS_GroupSetId_Field>
+  <ULS_GroupSetId_Accept>확인</ULS_GroupSetId_Accept>
+  <ULS_AutoGroup_FilterWithValue>감지 대상: {0}</ULS_AutoGroup_FilterWithValue>
+  <ULS_AutoGroup_Filter_Mixed>혼합</ULS_AutoGroup_Filter_Mixed>
+  <ULS_AutoGroup_Filter_Friendly>아군</ULS_AutoGroup_Filter_Friendly>
+  <ULS_AutoGroup_Filter_Hostile>적군</ULS_AutoGroup_Filter_Hostile>
+  <ULS_AutoGroup_Filter_Neutral>중립</ULS_AutoGroup_Filter_Neutral>
+  <ULS_AutoGroup_InvertedWithValue>반전 승강 모드: {0}</ULS_AutoGroup_InvertedWithValue>
+  <ULS_AutoGroup_InvertedDesc>자동 컨트롤러의 승강 모드를 전환합니다\n일반 모드: 대상 감지 시 내리기\n반전 모드: 대상 감지 시 올리기</ULS_AutoGroup_InvertedDesc>
+  <ULS_AutoGroup_Inverted_On>활성화됨</ULS_AutoGroup_Inverted_On>
+  <ULS_AutoGroup_Inverted_Off>비활성화됨</ULS_AutoGroup_Inverted_Off>
+  <ULS_AutoGroup_Inverted_Mixed>혼합</ULS_AutoGroup_Inverted_Mixed>
+</LanguageData>
