@@ -38,10 +38,10 @@
   <KTMGX94D.description>찰나의 순간에 살인적인 양의 탄약을 쏟아붓는 메탈 스톰 시스템입니다. 사거리 내로 진입한 적대적 대상을 눈 깜짝할 사이에 찢어발겨 버릴 수 있습니다.</KTMGX94D.description>
   <Bullet_KTMGX94D.label>「쓰나미」 메탈 스톰 시스템 탄환</Bullet_KTMGX94D.label>
   <Gun_KTMGX94D.label>「쓰나미」 메탈 스톰 시스템</Gun_KTMGX94D.label>
-  <KT57MMCANNON.label>「사이쓰」 57mm 보초 기관포</KT57MMCANNON.label>
+  <KT57MMCANNON.label>「사이쓰」 57mm 센트리 기관포</KT57MMCANNON.label>
   <KT57MMCANNON.description>중구경 속사 기관포탑으로, 고폭탄을 장착하여 사격합니다.\n\n&lt;color=#FFAA00&gt;&lt;i&gt;수동 조작 가능&lt;/i&gt;&lt;/color&gt;</KT57MMCANNON.description>
-  <Bullet_KT57MMCANNON.label>「사이쓰」 57mm 보초 기관포 탄환</Bullet_KT57MMCANNON.label>
-  <Gun_KT57MMCANNON.label>「사이쓰」 57mm 보초 기관포</Gun_KT57MMCANNON.label>
+  <Bullet_KT57MMCANNON.label>「사이쓰」 57mm 센트리 기관포 탄환</Bullet_KT57MMCANNON.label>
+  <Gun_KT57MMCANNON.label>「사이쓰」 57mm 센트리 기관포</Gun_KT57MMCANNON.label>
   <Gun_KT57MMCANNON.description>중구경 속사 기관포로, 고폭탄을 장착하여 사격합니다.\n\n&lt;color=#FFAA00&gt;&lt;i&gt;수동 조작 가능&lt;/i&gt;&lt;/color&gt;</Gun_KT57MMCANNON.description>
   <KTLM.label>「드리프트우드」 자폭 드론 발사기</KTLM.label>
   <KTLM.description>우리는 우주항 기지의 발사대에서 포획한 '루루새' 한 마리를 기반으로 클론 복제 기술과 고해상도 분해 스캐너를 가동했습니다. 이를 통해 이 소형 자폭 드론 발사기들의 핵심 연산 장치로 쓰일 생체 유닛을 안정적으로 대량 생산하는 데 성공했습니다.\n\n&lt;color=#FFAA00&gt;&lt;i&gt;벽 너머 사격 가능&lt;/i&gt;&lt;/color&gt;\n&lt;color=#FFAA00&gt;&lt;i&gt;수동 조작 가능&lt;/i&gt;&lt;/color&gt;</KTLM.description>
@@ -60,7 +60,7 @@
   <KTDOOMCANNON.description>긴 말이 필요 없습니다. 모든 것이 소멸될 뿐입니다.\n\n&lt;color=#FFAA00&gt;&lt;i&gt;모든 방어 메커니즘 무시&lt;/i&gt;&lt;/color&gt;\n&lt;color=#FFAA00&gt;&lt;i&gt;벽 너머 사격 가능&lt;/i&gt;&lt;/color&gt;\n&lt;color=#FFAA00&gt;&lt;i&gt;수동 조작 가능&lt;/i&gt;&lt;/color&gt;</KTDOOMCANNON.description>
   <Gun_KTDOOMCANNON.label>「둠스데이」 800mm 소멸포</Gun_KTDOOMCANNON.label>
   <Gun_KTDOOMCANNON.description>긴 말이 필요 없습니다. 모든 것이 소멸될 뿐입니다.\n\n&lt;color=#FFAA00&gt;&lt;i&gt;벽 너머 사격 가능&lt;/i&gt;&lt;/color&gt;\n&lt;color=#FFAA00&gt;&lt;i&gt;수동 조작 가능&lt;/i&gt;&lt;/color&gt;</Gun_KTDOOMCANNON.description>
-  <Bullet_KTDOOMCANNON.label>F</Bullet_KTDOOMCANNON.label>
+  <Bullet_KTDOOMCANNON.label>소멸포</Bullet_KTDOOMCANNON.label>
   <KTShieldGeneratorBullets.label>「호라이즌」 저각 보호막 발생기</KTShieldGeneratorBullets.label>
   <KTShieldGeneratorBullets.description>지상에서 날아오는 화력을 차단하는 광범위 저각 보호막 발생기입니다. 크기가 매우 작고 가벼워 탁자 위나 정수기 위, 심지어 천장에 직접 붙여놓는 등 장소를 가리지 않고 어디든 편리하게 배치할 수 있습니다.\n&lt;color=#FFAA00&gt;&lt;i&gt;편향 보호막 시스템이므로, 아군 포탑은 반드시 이 보호막의 범위 내부에 배치되어야 정상적으로 사격할 수 있습니다.&lt;/i&gt;&lt;/color&gt;</KTShieldGeneratorBullets.description>
   <KTShieldGeneratorMortar.label>「스카이라인」 고각 보호막 발생기</KTShieldGeneratorMortar.label>
@@ -294,6 +294,10 @@
   <KT_Main_battlewalker_war_tramples.label>전쟁 짓밟기</KT_Main_battlewalker_war_tramples.label>
   <KT_Main_battlewalker_war_tramples.description>와, 진짜로 이것까지 클릭해 보는 사람이 있다니! 이왕 들킨 김에 설명해 주자면, 이 유닛이 근접해서 적을 짓밟아 뭉개는 연출은 사실 투명하고 이펙트가 없는 폭발탄을 발사하는 포탑을 사용해 구현한 꼼수입니다. 심지어 피아식별 기능도 있어서 아주 스마트하답니다!</KT_Main_battlewalker_war_tramples.description>
   <KT_Bullet_Main_battlewalker_war_tramples.label>전쟁 짓밟기 탄환</KT_Bullet_Main_battlewalker_war_tramples.label>
+  <Duckmazon_AGT_Incoming.label>낙하 중</Duckmazon_AGT_Incoming.label>
+  <UF_Express_vanguard_main_autogun_Incoming.label>낙하 중</UF_Express_vanguard_main_autogun_Incoming.label>
+  <UF_Express_vanguard_main_gatling_gun_Incoming.label>낙하 중</UF_Express_vanguard_main_gatling_gun_Incoming.label>
+  <UF_Express_vanguard_main_gun_Incoming.label>낙하 중</UF_Express_vanguard_main_gun_Incoming.label>
   <KT_MoeLotl.label>「사이버네틱」 연맹국 모에로틀 제복</KT_MoeLotl.label>
   <KT_MoeLotl.description>얼핏 보기엔 얇고 가벼워 보이지만 실제로는 외관과 실용성을 겸비한 정밀 파워 아머입니다. 어느 평행 우주의 모에로틀 연맹국을 위해 특별히 설계되었으며, 설계자는 연합 고위 구성원의 배우자라는 설이 있습니다.\n정보에 따르면 해당 평행 우주의 모에로틀 연맹국 모성은 사막 행성으로, 건조한 환경을 선호한다고 합니다. 이 문명의 디자인 양식은 매우 간결하고 날카로우며 전체적으로 SF 스타일로, 판타지 장르는 코웃음치며 무시한다고 합니다. 이 문명의 시민 모두가 메카 마니아로, 메카노이드를 많이 보유할수록 기분이 좋아집니다. 전설에 따르면 그들의 조상은 메카노이드를 약탈하기 위해 행성 하나를 폭파한 적도 있다고 합니다.</KT_MoeLotl.description>
   <KT_Fox.label>「사이킥 데프」 연맹국 미호 제복</KT_Fox.label>
@@ -458,7 +462,7 @@
   <KT57MMCANNON.comps.5.fuelLabel>탄약 용량</KT57MMCANNON.comps.5.fuelLabel>
   <KT57MMCANNON.comps.5.fuelGizmoLabel>남은 탄약</KT57MMCANNON.comps.5.fuelGizmoLabel>
   <KT57MMCANNON.comps.5.outOfFuelMessage>탄약 필요</KT57MMCANNON.comps.5.outOfFuelMessage>
-  <Gun_KT57MMCANNON.verbs.Verb_ShootWithOffset.label>「사이쓰」 57mm 보초 기관포</Gun_KT57MMCANNON.verbs.Verb_ShootWithOffset.label>
+  <Gun_KT57MMCANNON.verbs.Verb_ShootWithOffset.label>「사이쓰」 57mm 센트리 기관포</Gun_KT57MMCANNON.verbs.Verb_ShootWithOffset.label>
   <Gun_KTBEAMCANNON.verbs.Verb_ShootWithOffset.label>「데이라이트」 레이저 방어포</Gun_KTBEAMCANNON.verbs.Verb_ShootWithOffset.label>
   <KT_Bunker.comps.5.fuelLabel>탄약 용량</KT_Bunker.comps.5.fuelLabel>
   <KT_Bunker.comps.5.fuelGizmoLabel>남은 탄약</KT_Bunker.comps.5.fuelGizmoLabel>
@@ -671,6 +675,9 @@
   <KT_Bullet_FlyOver_AX_rocket.label>플라잉구스 미사일</KT_Bullet_FlyOver_AX_rocket.label>
   <KT_FlyOver_AX_5000KG.label>AX-플라잉구스</KT_FlyOver_AX_5000KG.label>
   <KT_Bullet_FlyOver_AX_5000KG.label>플라잉구스 5000KG 항공폭탄</KT_Bullet_FlyOver_AX_5000KG.label>
+  <Humanoid_Express_BIO_CATGIRL_fabricor_Incoming.label>낙하 중</Humanoid_Express_BIO_CATGIRL_fabricor_Incoming.label>
+  <Humanoid_Express_BIO_CATGIRL_logistics_Incoming.label>낙하 중</Humanoid_Express_BIO_CATGIRL_logistics_Incoming.label>
+  <Galo_express_Incoming.label>낙하 중</Galo_express_Incoming.label>
   <KT_AG_TANK.tools.0.label>짓밟기</KT_AG_TANK.tools.0.label>
   <KT_AG_TANK_Turret.tools.0.label>짓밟기</KT_AG_TANK_Turret.tools.0.label>
   <KT_AG_TANK_turret_AAGUN.verbs.Verb_ShootSustained.label>「스매셔」 4연장 20MM 기관포</KT_AG_TANK_turret_AAGUN.verbs.Verb_ShootSustained.label>
@@ -701,4 +708,22 @@
   <KT_Battle_walker_main_gatling_gun.verbs.Verb_ShootSustained.label>「발칸」 14.5MM 개틀링 기관총</KT_Battle_walker_main_gatling_gun.verbs.Verb_ShootSustained.label>
   <KT_Battle_walker_main_gatling_gun.tools.0.label>짓밟기</KT_Battle_walker_main_gatling_gun.tools.0.label>
   <KT_Main_battlewalker_war_tramples.verbs.Verb_Shoot.label>짓밟기</KT_Main_battlewalker_war_tramples.verbs.Verb_Shoot.label>
+  <KT_FirefigherTurret.comps.5.fuelLabel>탄약 용량</KT_FirefigherTurret.comps.5.fuelLabel>
+  <KT_Shell_EMP.label>EMP 폭탄</KT_Shell_EMP.label>
+  <KT_Shell_EMP.description>EMP 폭탄</KT_Shell_EMP.description>
+  <KT_Shell_EMP_small.label>EMP 폭탄</KT_Shell_EMP_small.label>
+  <KT_Shell_EMP_small.description>EMP 폭탄</KT_Shell_EMP_small.description>
+  <MassdriverMuzzleFlash.label>매스드라이버 화염</MassdriverMuzzleFlash.label>
+  <MassdriverMuzzleFlash.description>매스드라이버 화염</MassdriverMuzzleFlash.description>
+  <KT_Massdriver.label>「디바인 퍼니시먼트」 매스 드라이버</KT_Massdriver.label>
+  <KT_Massdriver.description>행성 표면에서 우주로 화물을 빠르고 저렴하게 발사할 수 있는 대형 매스 드라이버입니다. 하지만 발사 각도를 적당히 조정하면, 대륙 간 공격도 수행할 수 있습니다.\n\n&lt;color=#FFAA00&gt;&lt;i&gt;월드 맵(다른 지역) 사격 가능&lt;/i&gt;&lt;/color&gt;\n&lt;color=#FFAA00&gt;&lt;i&gt;현재 맵 사격 불가&lt;/i&gt;&lt;/color&gt;\n&lt;color=#FFAA00&gt;&lt;i&gt;막을 수 없는 충격파&lt;/i&gt;&lt;/color&gt;\n&lt;color=#FFAA00&gt;&lt;i&gt;산 지붕 관통 가능&lt;/i&gt;&lt;/color&gt;</KT_Massdriver.description>
+  <Gun_KT_Massdriver.label>「디바인 퍼니시먼트」 매스 드라이버</Gun_KT_Massdriver.label>
+  <Gun_KT_Massdriver.description>행성 표면에서 우주로 화물을 빠르고 저렴하게 발사할 수 있는 대형 매스 드라이버입니다. 하지만 발사 각도를 적당히 조정하면, 대륙 간 공격도 수행할 수 있습니다.\n\n&lt;color=#FFAA00&gt;&lt;i&gt;월드 맵(다른 지역) 사격 가능&lt;/i&gt;&lt;/color&gt;\n&lt;color=#FFAA00&gt;&lt;i&gt;현재 맵 사격 불가&lt;/i&gt;&lt;/color&gt;\n&lt;color=#FFAA00&gt;&lt;i&gt;막을 수 없는 충격파&lt;/i&gt;&lt;/color&gt;\n&lt;color=#FFAA00&gt;&lt;i&gt;산 지붕 관통 가능&lt;/i&gt;&lt;/color&gt;</Gun_KT_Massdriver.description>
+  <Bullet_KT_Massdriver.label>매스드라이버</Bullet_KT_Massdriver.label>
+  <Bullet_KT_Massdriver_II.label>매스드라이버</Bullet_KT_Massdriver_II.label>
+  <KT_CraterLarge.label>크레이터</KT_CraterLarge.label>
+  <KT_CraterLarge.description>강력한 충격 또는 폭발로 인해 만들어진 작은 구덩이입니다.</KT_CraterLarge.description>
+  <KT_Crater_Massive.label>크레이터</KT_Crater_Massive.label>
+  <KT_Crater_Massive.description>강력한 충격 또는 폭발로 인해 만들어진 작은 구덩이입니다.</KT_Crater_Massive.description>
+  <Bombardment_KT_Massdriver.label>매스드라이버 폭격</Bombardment_KT_Massdriver.label>
 </LanguageData>
