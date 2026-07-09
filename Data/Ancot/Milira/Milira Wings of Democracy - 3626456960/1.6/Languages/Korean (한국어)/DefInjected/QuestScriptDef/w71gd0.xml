@@ -13,13 +13,10 @@
     <li>lodgersPossessive(lodgerCount&gt;=2)-&gt;그들의</li>
     <li>lodgersSingularOrPluralDef(lodgerCount==1)-&gt;[asker_nameDef]</li>
     <li>lodgersSingularOrPluralDef(lodgerCount&gt;=2)-&gt;이 [lodgersLabelPlural]</li>
-
     <li>questDescription-&gt;[approachInfo][claimInfo][asker_nameDef](이)가 휴식을 위해 [questDurationTicks_duration] 동안 [map_definite]에 머물 수 있게 해달라고 요청합니다.\n\n그 대가로, [lodgersPronoun](은)는 이 기간 동안 무상으로 노동과 전투에 참여할 것을 [offer]. &lt;color=#FF4D00&gt;\n\n이들은 허락 없이 당신의 주방에 난입하지 않겠다고 굳게 약속했습니다.&lt;/color&gt;\n\n[joinInfo][lodgersPronoun](을)를 도와준다면 나중에 보답을 해올지도 모릅니다.\n\n[travelerInfo] 크레이돌 소속입니다.</li>
-
     <li>approachInfo(lodgerCount==1)-&gt;[asker_nameDef](이)라는 이름의 [faction_pawnSingular](이)가 접근 중입니다. </li>
     <li>approachInfo(lodgerCount==2)-&gt;[asker_nameDef](와)과 또 다른 [faction_pawnSingular](이)가 접근 중입니다. </li>
     <li>approachInfo(lodgerCount&gt;=3)-&gt;[asker_nameDef](이)가 이끄는 [lodgerCount]명의 [faction_pawnsPlural](이)가 접근 중입니다. </li>
-
     <li>claimInfo(lodgerCount==1)-&gt;[asker_nameDef](은)는 주방에서 압력솥이 폭발했다고 주장합니다. 절대로 허락 없이 점심을 만들려다가 벌어진 일이 아니라고 강조하면서 말이죠. </li>
     <li>claimInfo(lodgerCount==1)-&gt;[asker_nameDef](은)는 미원을 소금으로 착각해 설탕 단지에 넣었다가 동료들에게 쫓겨났다고 주장합니다. </li>
     <li>claimInfo(lodgerCount==1)-&gt;[asker_nameDef](은)는 너무 배가 고파서 더 이상 날 수 없다고 주장합니다. </li>
@@ -29,7 +26,6 @@
     <li>claimInfo(lodgerCount&gt;=2)-&gt;그들은 자신들의 요리 실력이 동족을 훨씬 뛰어넘어, 인간과 신 모두를 불쾌하게 만드는 수준에 도달했다고 주장합니다. </li>
     <li>claimInfo(lodgerCount&gt;=2)-&gt;그들은 근처 키이로 마을에서 바비큐 파티를 열기 위해 이동하는 중이라고 말합니다. </li>
     <li>claimInfo(lodgerCount&gt;=2)-&gt;그들은 하늘깃털 교회로부터 공격을 받아 모든 음식을 빼앗겼다고 말합니다. </li>
-
     <li>joinInfo(lodgerCount==1)-&gt;[asker_pronoun](이)가 정착지 합류를 요청할 수도 있습니다. </li>
     <li>joinInfo(lodgerCount&gt;=2)-&gt;그들 중 일부가 정착지 합류를 요청할 수도 있습니다. </li>
     <li>travelerInfo(lodgerCount==1)-&gt;이 [faction_pawnSingular](은)는</li>

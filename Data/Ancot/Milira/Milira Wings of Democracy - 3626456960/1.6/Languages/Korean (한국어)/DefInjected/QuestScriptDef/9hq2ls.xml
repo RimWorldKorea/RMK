@@ -6,10 +6,8 @@
   <Milira_FallenAngel_SOS.root.nodes.12.nodes.1.nodes.0.node.text>정착지 주변에서 여러 차례의 대규모 밀리라 워프 신호가 감지되었음에도 불구하고, 그들은 우리의 납치 사실을 알아내지 못한 것으로 보입니다. 이제 우리는 중상을 입은 $pawn의 운명을 결정해야 합니다.</Milira_FallenAngel_SOS.root.nodes.12.nodes.1.nodes.0.node.text>
   <Milira_FallenAngel_SOS.root.nodes.12.nodes.0.nodes.0.node.parms.customLetterLabel>{BASELABEL} 지상 수색대</Milira_FallenAngel_SOS.root.nodes.12.nodes.0.nodes.0.node.parms.customLetterLabel>
   <Milira_FallenAngel_SOS.root.nodes.12.nodes.0.nodes.0.node.parms.customLetterText>{BASETEXT}\n\n우리가 밀리라 유닛을 납치했다는 사실이 크레이돌에 발각되었습니다. 분노한 [raidPawnKinds] 세력이 우리 정착지를 초토화하기 위해 접근 중입니다.</Milira_FallenAngel_SOS.root.nodes.12.nodes.0.nodes.0.node.parms.customLetterText>
-
   <SOS_Raid.root.nodes.0.customLetterLabel>$customLetterLabel</SOS_Raid.root.nodes.0.customLetterLabel>
   <SOS_Raid.root.nodes.0.customLetterText>$customLetterText</SOS_Raid.root.nodes.0.customLetterText>
-
   <PLAMilira_Harrier_Raid.root.nodes.9.name>rewardValue</PLAMilira_Harrier_Raid.root.nodes.9.name>
   <PLAMilira_Harrier_Raid.root.nodes.13.name>enemyFaction</PLAMilira_Harrier_Raid.root.nodes.13.name>
   <PLAMilira_Harrier_Raid.root.nodes.14.name>gameCondition</PLAMilira_Harrier_Raid.root.nodes.14.name>
@@ -27,7 +25,6 @@
   <PLAMilira_Harrier_Tower_Outpost_WorldMap.root.nodes.14.nodes.1.nodes.1.name>siteSpecific</PLAMilira_Harrier_Tower_Outpost_WorldMap.root.nodes.14.nodes.1.nodes.1.name>
   <PLAMilira_Harrier_Tower_Outpost_WorldMap.root.nodes.14.nodes.2.nodes.0.name>sitePartsTags</PLAMilira_Harrier_Tower_Outpost_WorldMap.root.nodes.14.nodes.2.nodes.0.name>
   <PLAMilira_Harrier_Tower_Outpost_WorldMap.root.nodes.14.nodes.2.nodes.1.name>siteSpecific</PLAMilira_Harrier_Tower_Outpost_WorldMap.root.nodes.14.nodes.2.nodes.1.name>
-  <PLAMilira_Secret.root.nodes.7.name>rewardValue</PLAMilira_Secret.root.nodes.7.name>
   <PLAMilira_Secret.root.nodes.8.name>questEndDelayTicks</PLAMilira_Secret.root.nodes.8.name>
   <PLAMilira_Rescue_Milira_Outpost_WorldMap.root.nodes.6.name>rewardValue</PLAMilira_Rescue_Milira_Outpost_WorldMap.root.nodes.6.name>
   <PLAMilira_Rescue_Milira_Outpost_WorldMap.root.nodes.8.name>siteDistRange</PLAMilira_Rescue_Milira_Outpost_WorldMap.root.nodes.8.name>
@@ -65,10 +62,7 @@
   <PLAMilira_Order.root.nodes.8.nodes.2.nodes.2.name>questChoiceFood</PLAMilira_Order.root.nodes.8.nodes.2.nodes.2.name>
   <PLAMilira_Order.root.nodes.8.nodes.3.nodes.5.name>questChoiceFood</PLAMilira_Order.root.nodes.8.nodes.3.nodes.5.name>
   <PLAMilira_Order.root.nodes.8.nodes.4.nodes.2.name>questChoiceFood</PLAMilira_Order.root.nodes.8.nodes.4.nodes.2.name>
-  <Spread_Democracy.root.nodes.4.name>rewardValue</Spread_Democracy.root.nodes.4.name>
   <Spread_Democracy.root.nodes.5.name>questEndDelayTicks</Spread_Democracy.root.nodes.5.name>
-  <Spread_Democracy.root.nodes.8.node.nodes.2.label>우호도 감소: [resolvedQuestName]</Spread_Democracy.root.nodes.8.node.nodes.2.label>
-  <Spread_Democracy.root.nodes.8.node.nodes.2.text>우리에 대한 [askerFaction_name] 세력의 우호도가 20만큼 감소했습니다.</Spread_Democracy.root.nodes.8.node.nodes.2.text>
   <PLAMilira_Order.root.nodes.10.node.nodes.0.name>rewardValue</PLAMilira_Order.root.nodes.10.node.nodes.0.name>
   <PLAMilira_Naglfar_1.root.nodes.12.label>임무 실패: [resolvedQuestName]</PLAMilira_Naglfar_1.root.nodes.12.label>
   <PLAMilira_Naglfar_1.root.nodes.12.text>[askerFaction_name] 세력이 이제 당신에게 적대적입니다.</PLAMilira_Naglfar_1.root.nodes.12.text>
@@ -76,50 +70,78 @@
   <PLAMilira_Naglfar_1.root.nodes.10.node.nodes.1.text>왕복선이 도착했습니다.</PLAMilira_Naglfar_1.root.nodes.10.node.nodes.1.text>
   <PLAMilira_Naglfar_1.root.nodes.13.node.nodes.1.label>우호도 감소: [resolvedQuestName]</PLAMilira_Naglfar_1.root.nodes.13.node.nodes.1.label>
   <PLAMilira_Naglfar_1.root.nodes.13.node.nodes.1.text>우리에 대한 [askerFaction_name] 세력의 우호도가 50만큼 감소했습니다.</PLAMilira_Naglfar_1.root.nodes.13.node.nodes.1.text>
-
   <PLAMilira_Naglfar_2.root.nodes.14.node.nodes.0.label>버려진 캠프</PLAMilira_Naglfar_2.root.nodes.14.node.nodes.0.label>
   <PLAMilira_Naglfar_2.root.nodes.14.node.nodes.0.text>이 캠프의 주인들은 떠난 것으로 보이며, 일부 밀리언들만이 남아있습니다. 더 조사해 볼 필요가 있습니다.</PLAMilira_Naglfar_2.root.nodes.14.node.nodes.0.text>
-
   <PLAMilira_Naglfar_3.root.nodes.16.inspectString>{0} 차단 중</PLAMilira_Naglfar_3.root.nodes.16.inspectString>
   <PLAMilira_Naglfar_3.root.nodes.15.node.nodes.0.label>크레이돌 강습</PLAMilira_Naglfar_3.root.nodes.15.node.nodes.0.label>
   <PLAMilira_Naglfar_3.root.nodes.15.node.nodes.0.text>크레이돌이 이 구역을 봉쇄하기 위해 해리어 편대를 배치했습니다. 하늘깃털 교회는 현재 밀리라의 선봉대와 교전 중입니다.</PLAMilira_Naglfar_3.root.nodes.15.node.nodes.0.text>
-
   <PLAMilira_Naglfar_4.root.nodes.14.inspectString>{0} 봉쇄 중</PLAMilira_Naglfar_4.root.nodes.14.inspectString>
-
   <PLAMilira_Naglfar_5.root.nodes.14.node.nodes.0.label>태양 용광로</PLAMilira_Naglfar_5.root.nodes.14.node.nodes.0.label>
   <PLAMilira_Naglfar_5.root.nodes.14.node.nodes.0.text>이 전초 기지의 물자들은 아직 완전히 대피하지 않은 상태인 것 같습니다.</PLAMilira_Naglfar_5.root.nodes.14.node.nodes.0.text>
-
   <PLAMilira_Naglfar_6.root.nodes.8.node.nodes.0.label>용융염 연료 보급소</PLAMilira_Naglfar_6.root.nodes.8.node.nodes.0.label>
   <PLAMilira_Naglfar_6.root.nodes.8.node.nodes.0.text>나글파르에서 멀리 떨어진 이곳 전초 기지에는 용융염 연료 보급소가 위치해 있습니다.</PLAMilira_Naglfar_6.root.nodes.8.node.nodes.0.text>
   <PLAMilira_Naglfar_6.root.nodes.9.node.nodes.0.label>임무 완료</PLAMilira_Naglfar_6.root.nodes.9.node.nodes.0.label>
   <PLAMilira_Naglfar_6.root.nodes.9.node.nodes.0.text>보상이 지급되었습니다.</PLAMilira_Naglfar_6.root.nodes.9.node.nodes.0.text>
-
   <PLAMilira_Naglfar_7_1.root.nodes.8.node.nodes.0.label>용골 사격 통제 진지</PLAMilira_Naglfar_7_1.root.nodes.8.node.nodes.0.label>
   <PLAMilira_Naglfar_7_1.root.nodes.8.node.nodes.0.text>이 진지를 파괴하면 다른 우주 진지들에 대한 용골 호의 화력 지원을 차단할 수 있습니다.</PLAMilira_Naglfar_7_1.root.nodes.8.node.nodes.0.text>
   <PLAMilira_Naglfar_7_1.root.nodes.9.node.nodes.0.label>임무 완료</PLAMilira_Naglfar_7_1.root.nodes.9.node.nodes.0.label>
   <PLAMilira_Naglfar_7_1.root.nodes.9.node.nodes.0.text>용골 화력 지원 시스템의 연결이 끊겼습니다.</PLAMilira_Naglfar_7_1.root.nodes.9.node.nodes.0.text>
-
   <PLAMilira_Naglfar_7_2.root.nodes.8.node.nodes.0.label>돛 사격 통제 진지</PLAMilira_Naglfar_7_2.root.nodes.8.node.nodes.0.label>
   <PLAMilira_Naglfar_7_2.root.nodes.8.node.nodes.0.text>이 진지를 파괴하면 다른 우주 진지들에 대한 돛 호의 화력 지원을 차단할 수 있습니다.</PLAMilira_Naglfar_7_2.root.nodes.8.node.nodes.0.text>
   <PLAMilira_Naglfar_7_2.root.nodes.9.node.nodes.0.label>임무 완료</PLAMilira_Naglfar_7_2.root.nodes.9.node.nodes.0.label>
   <PLAMilira_Naglfar_7_2.root.nodes.9.node.nodes.0.text>돛 화력 지원 시스템의 연결이 끊겼습니다.</PLAMilira_Naglfar_7_2.root.nodes.9.node.nodes.0.text>
-
   <PLAMilira_Naglfar_7_3.root.nodes.8.node.nodes.0.label>고물 사격 통제 진지</PLAMilira_Naglfar_7_3.root.nodes.8.node.nodes.0.label>
   <PLAMilira_Naglfar_7_3.root.nodes.8.node.nodes.0.text>이 진지를 파괴하면 다른 우주 진지들에 대한 고물 호의 화력 지원을 차단할 수 있습니다.</PLAMilira_Naglfar_7_3.root.nodes.8.node.nodes.0.text>
   <PLAMilira_Naglfar_7_3.root.nodes.9.node.nodes.0.label>임무 완료</PLAMilira_Naglfar_7_3.root.nodes.9.node.nodes.0.label>
   <PLAMilira_Naglfar_7_3.root.nodes.9.node.nodes.0.text>고물 화력 지원 시스템의 연결이 끊겼습니다.</PLAMilira_Naglfar_7_3.root.nodes.9.node.nodes.0.text>
-
   <PLAMilira_Naglfar_Final_1.root.nodes.8.node.nodes.0.label>나글파르 기지</PLAMilira_Naglfar_Final_1.root.nodes.8.node.nodes.0.label>
   <PLAMilira_Naglfar_Final_1.root.nodes.8.node.nodes.0.text>이 시설은 나글파르의 미완성 날개 부품들을 보관하고 있습니다.</PLAMilira_Naglfar_Final_1.root.nodes.8.node.nodes.0.text>
   <PLAMilira_Naglfar_Final_1.root.nodes.9.node.nodes.0.label>임무 완료</PLAMilira_Naglfar_Final_1.root.nodes.9.node.nodes.0.label>
   <PLAMilira_Naglfar_Final_1.root.nodes.9.node.nodes.0.text>나글파르 기지가 파괴되었습니다.</PLAMilira_Naglfar_Final_1.root.nodes.9.node.nodes.0.text>
-
   <PLAMilira_CrystalCluster_WorldMap.root.nodes.9.node.nodes.0.label>임무 완료</PLAMilira_CrystalCluster_WorldMap.root.nodes.9.node.nodes.0.label>
   <PLAMilira_CrystalCluster_WorldMap.root.nodes.9.node.nodes.0.text>보상이 지급되었습니다.</PLAMilira_CrystalCluster_WorldMap.root.nodes.9.node.nodes.0.text>
-
   <PLAMilira_HarrierCore_WorldMap.root.nodes.14.node.nodes.0.label>버려진 전초 기지</PLAMilira_HarrierCore_WorldMap.root.nodes.14.node.nodes.0.label>
   <PLAMilira_HarrierCore_WorldMap.root.nodes.14.node.nodes.0.text>이곳의 주인들은 떠난 것으로 보이며, 약간의 방어 시설만이 남아있습니다.</PLAMilira_HarrierCore_WorldMap.root.nodes.14.node.nodes.0.text>
-
   <PLAMilira_Super_Cluster_WorldMap.root.nodes.9.node.nodes.0.label>임무 완료</PLAMilira_Super_Cluster_WorldMap.root.nodes.9.node.nodes.0.label>
   <PLAMilira_Super_Cluster_WorldMap.root.nodes.9.node.nodes.0.text>보상이 지급되었습니다.</PLAMilira_Super_Cluster_WorldMap.root.nodes.9.node.nodes.0.text>
+  <PLAMilira_NoMiliraRaid.root.nodes.9.name>questEndDelayTicks</PLAMilira_NoMiliraRaid.root.nodes.9.name>
+  <PLAMilira_NoMiliraRaid.root.nodes.14.label>임무 실패: [resolvedQuestName]</PLAMilira_NoMiliraRaid.root.nodes.14.label>
+  <PLAMilira_NoMiliraRaid.root.nodes.14.text>이제 [askerFaction_name]은(는) 당신과 적대적입니다.</PLAMilira_NoMiliraRaid.root.nodes.14.text>
+  <PLAMilira_NoMiliraRaid.root.nodes.12.node.nodes.1.label>왕복선 도착</PLAMilira_NoMiliraRaid.root.nodes.12.node.nodes.1.label>
+  <PLAMilira_NoMiliraRaid.root.nodes.12.node.nodes.1.text>[requestedThing_label](을)를 수거하기 위해 왕복선이 도착했습니다.</PLAMilira_NoMiliraRaid.root.nodes.12.node.nodes.1.text>
+  <PLAMilira_NoMiliraRaid.root.nodes.15.node.nodes.1.label>관계 하락: [resolvedQuestName]</PLAMilira_NoMiliraRaid.root.nodes.15.node.nodes.1.label>
+  <PLAMilira_NoMiliraRaid.root.nodes.15.node.nodes.1.text>우리와 [askerFaction_name]의 관계가 50만큼 하락했습니다.</PLAMilira_NoMiliraRaid.root.nodes.15.node.nodes.1.text>
+  <PLAMilira_NoMiliraRaid.root.nodes.11.nodes.0.nodes.3.name>rewardValue</PLAMilira_NoMiliraRaid.root.nodes.11.nodes.0.nodes.3.name>
+  <PLAMilira_NoMiliraRaid.root.nodes.11.nodes.0.nodes.4.name>questChoiceThing</PLAMilira_NoMiliraRaid.root.nodes.11.nodes.0.nodes.4.name>
+  <PLAMilira_NoMiliraRaid.root.nodes.11.nodes.1.nodes.3.name>rewardValue</PLAMilira_NoMiliraRaid.root.nodes.11.nodes.1.nodes.3.name>
+  <PLAMilira_NoMiliraRaid.root.nodes.11.nodes.1.nodes.4.name>questChoiceThing</PLAMilira_NoMiliraRaid.root.nodes.11.nodes.1.nodes.4.name>
+  <PLAMilira_NoMiliraRaid.root.nodes.11.nodes.2.nodes.3.name>rewardValue</PLAMilira_NoMiliraRaid.root.nodes.11.nodes.2.nodes.3.name>
+  <PLAMilira_NoMiliraRaid.root.nodes.11.nodes.2.nodes.4.name>questChoiceThing</PLAMilira_NoMiliraRaid.root.nodes.11.nodes.2.nodes.4.name>
+  <PLAMilira_NoMiliraRaid.root.nodes.11.nodes.3.nodes.3.name>rewardValue</PLAMilira_NoMiliraRaid.root.nodes.11.nodes.3.nodes.3.name>
+  <PLAMilira_NoMiliraRaid.root.nodes.11.nodes.3.nodes.4.name>questChoiceThing</PLAMilira_NoMiliraRaid.root.nodes.11.nodes.3.nodes.4.name>
+  <PLAMilira_NoMiliraRaid.root.nodes.11.nodes.4.nodes.3.name>rewardValue</PLAMilira_NoMiliraRaid.root.nodes.11.nodes.4.nodes.3.name>
+  <PLAMilira_NoMiliraRaid.root.nodes.11.nodes.4.nodes.4.name>questChoiceThing</PLAMilira_NoMiliraRaid.root.nodes.11.nodes.4.nodes.4.name>
+  <PLAMilira_Secret.root.nodes.9.name>questEndDelayTicks</PLAMilira_Secret.root.nodes.9.name>
+  <PLAMilira_Student_Site_I.root.nodes.3.name>siteDistRange</PLAMilira_Student_Site_I.root.nodes.3.name>
+  <PLAMilira_Student_Site_I.root.nodes.5.name>siteFaction</PLAMilira_Student_Site_I.root.nodes.5.name>
+  <PLAMilira_Student_Site_I.root.nodes.6.name>sitePartsTags</PLAMilira_Student_Site_I.root.nodes.6.name>
+  <PLAMilira_Student_II.root.nodes.9.name>delayTicks</PLAMilira_Student_II.root.nodes.9.name>
+  <PLAMilira_Student_II.root.nodes.12.node.nodes.1.label>사이드 퀘스트 정보</PLAMilira_Student_II.root.nodes.12.node.nodes.1.label>
+  <PLAMilira_Student_II.root.nodes.12.node.nodes.1.text>게피온 스쿨드의 제자는 정착민으로서 장기간 머물게 됩니다. 특정 조건 하에, 특정 시간에, 또는 특정 퀘스트가 갱신될 때 그녀를 우클릭하여 대화를 나눌 수 있습니다.\n\n그녀의 운명은 전적으로 당신의 손에 달려 있습니다.</PLAMilira_Student_II.root.nodes.12.node.nodes.1.text>
+  <Spread_Democracy.root.nodes.6.name>questEndDelayTicks</Spread_Democracy.root.nodes.6.name>
+  <Spread_Democracy.root.nodes.9.node.nodes.2.label>신뢰도 하락: [resolvedQuestName]</Spread_Democracy.root.nodes.9.node.nodes.2.label>
+  <Spread_Democracy.root.nodes.9.node.nodes.2.text>우리에 대한 [askerFaction_name] 세력의 우호도가 20만큼 감소했습니다.</Spread_Democracy.root.nodes.9.node.nodes.2.text>
+  <PLAMilira_Naglfar_2.root.nodes.6.name>siteDistRange</PLAMilira_Naglfar_2.root.nodes.6.name>
+  <PLAMilira_Naglfar_2.root.nodes.8.name>siteFaction</PLAMilira_Naglfar_2.root.nodes.8.name>
+  <PLAMilira_Naglfar_3.root.nodes.6.name>siteDistRange</PLAMilira_Naglfar_3.root.nodes.6.name>
+  <PLAMilira_Naglfar_3.root.nodes.8.name>siteFaction</PLAMilira_Naglfar_3.root.nodes.8.name>
+  <PLAMilira_Naglfar_4.root.nodes.8.name>enemyFaction</PLAMilira_Naglfar_4.root.nodes.8.name>
+  <PLAMilira_Naglfar_4.root.nodes.9.name>gameCondition</PLAMilira_Naglfar_4.root.nodes.9.name>
+  <PLAMilira_Naglfar_4.root.nodes.10.name>raidDelayTicks</PLAMilira_Naglfar_4.root.nodes.10.name>
+  <PLAMilira_Naglfar_5.root.nodes.6.name>siteDistRange</PLAMilira_Naglfar_5.root.nodes.6.name>
+  <PLAMilira_Naglfar_5.root.nodes.8.name>siteFaction</PLAMilira_Naglfar_5.root.nodes.8.name>
+  <PLAMilira_HarrierCore_WorldMap.root.nodes.6.name>siteDistRange</PLAMilira_HarrierCore_WorldMap.root.nodes.6.name>
+  <PLAMilira_HarrierCore_WorldMap.root.nodes.8.name>siteFaction</PLAMilira_HarrierCore_WorldMap.root.nodes.8.name>
+  <PLAMilira_Paradeus_Raid.root.nodes.9.name>rewardValue</PLAMilira_Paradeus_Raid.root.nodes.9.name>
+  <PLAMilira_Paradeus_Raid.root.nodes.11.name>raidDelayTicks</PLAMilira_Paradeus_Raid.root.nodes.11.name>
 </LanguageData>
