@@ -23,7 +23,8 @@ RimWorld Mod Korean Project
 <hr>
 
 [림추출기](https://github.com/csh1668/RimworldExtractor/releases)를 사용하면 번역이 편리해집니다.  
-(알파추출기는 더 이상 사용되지 않습니다.)
+Data/User는 git 제외 폴더입니다. 로컬 작업에 활용하세요.
+(빌드 파일에 의한 LoadFolders 변경 사항은 여전히 추적되므로 유의)
 
 - <b>bus</b> 브랜치에 변경사항을 커밋하거나  
 - 기타 수단을 통해 파일을 공유한 뒤 관리자에게 등록을 요청하세요
