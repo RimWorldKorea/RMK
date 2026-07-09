@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FT_SideDishDescriptions.rulePack.rulesStrings>
+    <li>maindish(p=2)-&gt;[description_startofsentence]</li>
+    <li>maindish-&gt;[serving] {0} [description]</li>
+    <li>sidedish-&gt;[connector_clause] [description]</li>
+    <li>description_startofsentence-&gt;[conjunction_null] 이것은 {1}입니다</li>
+    <li>description_startofsentence(p=0.5)-&gt;간단히 설명드리면: {1}</li>
+    <li>description_startofsentence(p=0.2)-&gt;조리법은 다음과 같습니다: {1}</li>
+    <li>description_startofsentence(p=0.2)-&gt;{0}(은)는 설명하기 쉽지 않습니다. 이것은 {1}입니다</li>
+    <li>description-&gt;. [conjunction_null] 이것은 {1}입니다</li>
+    <li>description-&gt;, 다시 말해 {1}입니다</li>
+    <li>description(p=0.5)-&gt;, 즉 {1}입니다</li>
+    <li>description(p=0.5)-&gt;. 간단히 설명드리면: {1}</li>
+    <li>description(p=0.2)-&gt;. 조리법은 다음과 같습니다: {1}</li>
+    <li>description(p=0.2)-&gt;. {0}(은)는 설명하기 쉽지 않습니다. 이것은 {1}입니다</li>
+    <li>conjunction_null-&gt;</li>
+    <li>conjunction_null-&gt;[conjunctionShort]</li>
+    <li>conjunction_null-&gt;[conjunctionLong]</li>
+    <li>conjunctionShort-&gt;좀 더 자세히 설명하면</li>
+    <li>conjunctionShort-&gt;조금 더 자세히 설명하면</li>
+    <li>conjunctionShort-&gt;더 쉽게 설명하면</li>
+    <li>conjunctionShort-&gt;다시 설명하면</li>
+    <li>conjunctionShort-&gt;덧붙여 설명하면</li>
+    <li>conjunctionShort-&gt;설명하자면</li>
+    <li>conjunctionShort-&gt;요약하면</li>
+    <li>conjunctionShort-&gt;간단히 말하면</li>
+    <li>conjunctionShort-&gt;간략히 설명하면</li>
+    <li>conjunctionShort-&gt;이해를 돕기 위해 설명하면</li>
+    <li>conjunctionLong-&gt;흥미로운 요리로,</li>
+    <li>conjunctionLong-&gt;고대 지구 요리에 익숙하지 않은 독자를 위해 설명드리자면,</li>
+    <li>conjunctionLong-&gt;이 음식은 고대 식민선에 의해 전해졌으며,</li>
+    <li>conjunctionLong-&gt;현지 부족에게서 전해진 요리로,</li>
+    <li>conjunctionLong-&gt;[Enemy] 세력이 전파한 요리로,</li>
+    <li>conjunctionLong-&gt;현지 세력 사이에서 널리 알려진 요리로,</li>
+    <li>conjunctionLong-&gt;인근 림월드의 요리에서 유래한 것으로,</li>
+    <li>conjunctionLong-&gt;제국 기록 보관소에서 조리법이 발견된 것으로,</li>
+    <li>conjunctionLong-&gt;머나먼 아키텍트 월드의 전송 기록 속에 암호화되어 발견된 것으로,</li>
+    <li>conjunctionLong-&gt;가문의 조리법으로 대대로 전해 내려온 것으로,</li>
+    <li>conjunctionLong(p=2)-&gt;행성 전역에서 알려진 요리로,</li>
+    <li>conjunctionLong(p=2)-&gt;현지에서는 [name]라고 불리며,</li>
+    <li>conjunctionLong(p=2)-&gt;[name]라고도 불리며,</li>
+    <li>conjunctionLong(p=2)-&gt;구어체로는 [name]라고 불리며,</li>
+    <li>conjunctionLong(p=2)-&gt;식민지에서는 [name]라고 불리며,</li>
+    <li>verb(p=2)-&gt;입니다</li>
+    <li>verb-&gt;전통에 뿌리를 둔 [food]입니다.</li>
+    <li>verb-&gt;오랜 세월 사랑받아 온 [food]입니다.</li>
+    <li>verb-&gt;잘 알려지지 않은 [food]입니다.</li>
+    <li>verb-&gt;많은 사랑을 받는 [food]입니다.</li>
+    <li>verb-&gt;의 역사적인 명칭입니다.</li>
+    <li>verb-&gt;의 토착 명칭입니다.</li>
+    <li>verb-&gt;의 고대 명칭입니다.</li>
+    <li>verb-&gt;의 고대 지구식 명칭입니다.</li>
+    <li>verb-&gt;지구에서 익숙한 음식을 부르는 명칭으로,</li>
+    <li>verb-&gt;유명한 [food]입니다.</li>
+    <li>verb-&gt;더 오래된 요리에서 발전한 음식입니다.</li>
+    <li>connector_clause(p=3)-&gt;[previousDish_clause] [serving] {0} [dep_clause_null]</li>
+    <li>connector_clause-&gt;[serving] {0}도 함께 제공됩니다</li>
+    <li>connector_clause-&gt;[serving] {0}가 [dep_clause] 제공됩니다</li>
+    <li>connector_clause-&gt;[serving] {0}도 함께 제공됩니다 [dep_clause_null]</li>
+    <li>connector_clause-&gt;[serving] {0}가 곁에 놓여 있습니다 [manner_null]</li>
+    <li>connector_clause-&gt;[serving] {0}가 곁들여집니다</li>
+    <li>connector_clause-&gt;[dep_clause], [serving] {0}도 보실 수 있습니다</li>
+    <li>connector_clause-&gt;[dep_clause], [serving] {0}도 제공됩니다</li>
+    <li>connector_clause-&gt;[dep_clause], [serving] {0}도 함께 나옵니다</li>
+    <li>connector_clause-&gt;[dep_clause], [serving] {0}가 놓여 있습니다</li>
+    <li>connector_clause-&gt;[serving] {0}가 [dep_clause] 함께 제공됩니다</li>
+    <li>connector_clause-&gt;[previousDish](은)는 {0} 위에 담겨 제공됩니다 [dep_clause_null]</li>
+    <li>connector_clause(p=0.3)-&gt;셰프는 추가로 [serving] {0}(을)를 선택했습니다 [dep_clause]</li>
+    <li>connector_clause(p=0.1)-&gt;[previousDish]의 가운데를 비워 [serving] {0}(을)를 담았습니다 [manner_null]</li>
+    <li>connector_clause-&gt;다음 코스: {0}</li>
+    <li>previousDish-&gt;이 음식</li>
+    <li>previousDish-&gt;이 [food]</li>
+    <li>previousDish-&gt;이 메인 요리</li>
+    <li>previousDish-&gt;이 [food]</li>
+    <li>previousDish(p=0.5)-&gt;앞서 나온 음식</li>
+    <li>previousDish(p=0.5)-&gt;위의 음식</li>
+    <li>previousDish(p=0.2)-&gt;이 식사</li>
+    <li>food-&gt;음식</li>
+    <li>food-&gt;요리</li>
+    <li>food-&gt;식사</li>
+    <li>previousDish_clause-&gt;[previousDish]에는 다음이 함께 제공됩니다:</li>
+    <li>previousDish_clause-&gt;[previousDish] 위에는 다음이 올라갑니다:</li>
+    <li>previousDish_clause-&gt;[previousDish]에는 다음이 듬뿍 덮여 있습니다:</li>
+    <li>previousDish_clause-&gt;[previousDish]에는 다음이 곁들여집니다:</li>
+    <li>previousDish_clause-&gt;[previousDish]에는 다음도 함께 제공됩니다:</li>
+    <li>previousDish_clause-&gt;[previousDish] 다음으로는 다음 요리가 제공됩니다:</li>
+    <li>previousDish_clause(p=0.5)-&gt;[previousDish](은)는 식욕을 돋우기 위한 음식에 불과하며, 이어서 다음이 제공됩니다:</li>
+    <li>previousDish_clause(p=0.5)-&gt;[previousDish](은)는 여러 코스로 이루어진 식사의 일부이며, 다음 요리도 함께 포함됩니다:</li>
+    <li>previousDish_clause(p=0.5)-&gt;[previousDish](은)는 다음 재료와 함께 섞여 제공됩니다:</li>
+    <li>previousDish_clause(p=0.5)-&gt;[previousDish]에는 다음이 빠질 수 없습니다:</li>
+    <li>dep_clause_null-&gt;[dep_clause]</li>
+    <li>dep_clause_null-&gt;</li>
+    <li>dep_clause(p=3)-&gt;[manner]</li>
+    <li>dep_clause-&gt;[location]</li>
+    <li>manner_null-&gt;[manner]</li>
+    <li>manner_null-&gt;</li>
+    <li>manner-&gt;풍미를 더욱 살리기 위해</li>
+    <li>manner(p=0.4)-&gt;궁합을 이루도록</li>
+    <li>manner(p=0.4)-&gt;최고의 궁합을 이루도록</li>
+    <li>manner(p=0.4)-&gt;흥미로운 조합으로</li>
+    <li>manner(p=0.4)-&gt;이상적인 조합으로</li>
+    <li>manner-&gt;두 번째 코스로</li>
+    <li>manner-&gt;애피타이저로</li>
+    <li>manner-&gt;입가심용으로</li>
+    <li>manner-&gt;미적인 연출을 위해</li>
+    <li>manner-&gt;, 취향에 따라</li>
+    <li>manner-&gt;식사하는 이를 충분히 만족시키기 위해</li>
+    <li>manner-&gt;마무리로</li>
+    <li>manner-&gt;의외의 방식으로</li>
+    <li>manner-&gt;추가 선택지로</li>
+    <li>manner-&gt;수북이 쌓아</li>
+    <li>manner-&gt;, 접시에 아무렇게나 담아</li>
+    <li>manner-&gt;바싹 탈 정도로 구워</li>
+    <li>manner-&gt;, 접시에 대충 담아</li>
+    <li>manner-&gt;작은 그릇 여러 개에 나누어</li>
+    <li>manner-&gt;우아하게 담아</li>
+    <li>manner-&gt;식판 전체에 펼쳐 담아</li>
+    <li>manner-&gt;높이 수북이 쌓아</li>
+    <li>manner-&gt;, [Vegetable] 한 조각으로 장식하여</li>
+    <li>manner-&gt;, 뒤엉킨 재료 아래에 거의 보이지 않게</li>
+    <li>manner-&gt;아래에서 살짝 보이도록</li>
+    <li>manner-&gt;주방 요리책의 권장 방식에 따라</li>
+    <li>manner-&gt;현지 풍습에서 영감을 받아</li>
+    <li>manner-&gt;함께 섞어</li>
+    <li>manner-&gt;곁들여</li>
+    <li>manner(p=0.5)-&gt;, [Animal] 모양으로 만들어</li>
+    <li>manner(p=0.5)-&gt;, 선명한 [Color] 색으로 물들여</li>
+    <li>manner(p=0.2)-&gt;퓨전 요리를 시도한 결과로</li>
+    <li>manner(p=0.2)-&gt;, 다만 먹기 위한 것은 아닙니다</li>
+    <li>manner(p=0.1)-&gt;, 다만 이런 건 금지해야 할지도 모르겠습니다</li>
+    <li>manner(p=0.1)-&gt;, 다만 음식인지 숯덩이인지 구분하기 어려울 정도입니다</li>
+    <li>manner(p=0.2)-&gt;다소 의문스러운 선택으로</li>
+    <li>manner(p=0.1)-&gt;, 먹는 사람에게 끔찍한 설사를 안겨줄 것이 분명합니다</li>
+    <li>manner(p=0.3)-&gt;파슬리 한 줄기를 올려</li>
+    <li>manner(p=0.5)-&gt;, 앞의 음식에 비하면 존재감이 거의 없습니다</li>
+    <li>manner(p=0.3)-&gt;, 재료를 각각 분리한 형태로</li>
+    <li>manner(p=0.1)-&gt;, 이 식사의 주인공으로</li>
+    <li>manner(p=0.5)-&gt;요리 실험의 일환으로</li>
+    <li>location-&gt;주위를 [Shape] 모양으로 둘러 배치하여</li>
+    <li>location-&gt;곁들여</li>
+    <li>location-&gt;옆의 작은 접시에 담아</li>
+    <li>location-&gt;사이드 메뉴로</li>
+    <li>location-&gt;식판의 다른 칸에 담아</li>
+    <li>serving-&gt;약간의</li>
+    <li>serving-&gt;약간의</li>
+    <li>serving-&gt;[size_null] 코스</li>
+    <li>serving-&gt;[size_null] 인분</li>
+    <li>serving-&gt;[size_null] 분량</li>
+    <li>serving-&gt;[size_null] 곁들임</li>
+    <li>serving-&gt;[size] 분량</li>
+    <li>serving-&gt;[size_null] 한 접시</li>
+    <li>serving-&gt;[size_null] 한 그릇</li>
+    <li>serving-&gt;[size_null] 한 컵</li>
+    <li>serving-&gt;[size_null] 한 무더기</li>
+    <li>serving-&gt;약간의</li>
+    <li>serving(p=0.5)-&gt;적당한 양의</li>
+    <li>serving(p=0.2)-&gt;말도 안 될 만큼 많은</li>
+    <li>serving(p=0.2)-&gt;믿기 어려울 만큼 많은</li>
+    <li>serving(p=0.2)-&gt;역겨울 정도로 많은</li>
+    <li>size_null-&gt;한</li>
+    <li>size_null-&gt;[size]</li>
+    <li>size-&gt;커다란</li>
+    <li>size-&gt;푸짐한</li>
+    <li>size-&gt;든든한</li>
+    <li>size-&gt;수북한</li>
+    <li>size-&gt;작은</li>
+    <li>size-&gt;극히 작은</li>
+    <li>size-&gt;아주 작은</li>
+    <li>size-&gt;적당한</li>
+    <li>size-&gt;알맞은 크기의</li>
+    <li>size-&gt;보잘것없는</li>
+    <li>size-&gt;약간의</li>
+    <li>size-&gt;넉넉한</li>
+    <li>size-&gt;어울리는 크기의</li>
+    <li>size-&gt;거대한</li>
+    <li>size-&gt;엄청나게 큰</li>
+    <li>size-&gt;어린이용 크기의</li>
+    <li>size(p=0.2)-&gt;아주 조금의</li>
+    <li>name-&gt;"[AdjectiveBadass] {0}"</li>
+    <li>name-&gt;"[adjective_meal] {0}"</li>
+    <li>name(p=0.2)-&gt;"{0} [modifier_meal]"</li>
+    <li>name-&gt;"[Color] {0}"</li>
+    <li>name-&gt;"[NamePawn]의 {0}"</li>
+    <li>name-&gt;"[OutlanderTown] {0}"</li>
+    <li>name-&gt;"{0} 온 더 [TerrainFeature]"</li>
+    <li>name-&gt;"[Direction] {0}"</li>
+    <li>name-&gt;"[NamePawn]"</li>
+    <li>name-&gt;"[NamePawn]"</li>
+    <li>name-&gt;"[OutlanderTown]"</li>
+    <li>name-&gt;"[PlaceOutlander]"</li>
+    <li>name(p=4)-&gt;"[nameRandom]"</li>
+    <li>name-&gt;"[namePawn]의 [Apparel]"</li>
+    <li>name-&gt;"[namePawn]의 [Animal]"</li>
+    <li>name-&gt;"[namePawn]의 [BodyPart]"</li>
+    <li>name-&gt;"[namePawn]의 [NaturalObject]"</li>
+    <li>name-&gt;"[Color] [NamePerson]"</li>
+    <li>name-&gt;"[Animal]"</li>
+    <li>name-&gt;"[Color] [Animal]"</li>
+    <li>name-&gt;"[Enemy]"</li>
+    <li>name-&gt;"[PersonBadass]"</li>
+    <li>name-&gt;"[namePawn]"</li>
+    <li>name-&gt;"[PersonJob]"</li>
+    <li>adjective_meal-&gt;맛있는</li>
+    <li>adjective_meal-&gt;고급스러운</li>
+    <li>adjective_meal-&gt;림</li>
+    <li>adjective_meal-&gt;야식</li>
+    <li>adjective_meal-&gt;주간</li>
+    <li>adjective_meal-&gt;한밤중의</li>
+    <li>adjective_meal-&gt;점심</li>
+    <li>adjective_meal-&gt;아침</li>
+    <li>adjective_meal-&gt;저녁</li>
+    <li>adjective_meal-&gt;점심</li>
+    <li>adjective_meal-&gt;브런치</li>
+    <li>adjective_meal-&gt;맛좋은</li>
+    <li>adjective_meal-&gt;쓴맛의</li>
+    <li>adjective_meal-&gt;짭짤한</li>
+    <li>adjective_meal-&gt;감칠맛 나는</li>
+    <li>adjective_meal-&gt;달콤한</li>
+    <li>adjective_meal-&gt;새콤한</li>
+    <li>adjective_meal-&gt;해체된</li>
+    <li>adjective_meal-&gt;망가진</li>
+    <li>adjective_meal-&gt;뒤섞인</li>
+    <li>adjective_meal-&gt;퓨전</li>
+    <li>adjective_meal-&gt;간편한</li>
+    <li>adjective_meal-&gt;급하게 만든</li>
+    <li>adjective_meal-&gt;천천히 만든</li>
+    <li>adjective_meal-&gt;푸짐한</li>
+    <li>adjective_meal-&gt;풍성한</li>
+    <li>adjective_meal-&gt;매콤한</li>
+    <li>adjective_meal-&gt;향신료를 더한</li>
+    <li>adjective_meal-&gt;소금으로 간한</li>
+    <li>adjective_meal-&gt;연인의</li>
+    <li>adjective_meal-&gt;성대한</li>
+    <li>adjective_meal-&gt;훌륭한</li>
+    <li>adjective_meal-&gt;고귀한</li>
+    <li>adjective_meal-&gt;화려한</li>
+    <li>adjective_meal-&gt;메가</li>
+    <li>adjective_meal-&gt;고상한</li>
+    <li>adjective_meal-&gt;금단의</li>
+    <li>adjective_meal-&gt;울트라</li>
+    <li>adjective_meal-&gt;용암 같은</li>
+    <li>adjective_meal-&gt;일요일</li>
+    <li>adjective_meal-&gt;월요일</li>
+    <li>adjective_meal-&gt;화요일</li>
+    <li>adjective_meal-&gt;수요일</li>
+    <li>adjective_meal-&gt;목요일</li>
+    <li>adjective_meal-&gt;금요일</li>
+    <li>adjective_meal-&gt;토요일</li>
+    <li>adjective_meal-&gt;4분기</li>
+    <li>adjective_meal-&gt;1분기</li>
+    <li>adjective_meal-&gt;2분기</li>
+    <li>adjective_meal-&gt;3분기</li>
+    <li>adjective_meal-&gt;겨울</li>
+    <li>adjective_meal-&gt;여름</li>
+    <li>adjective_meal-&gt;봄</li>
+    <li>adjective_meal-&gt;가을</li>
+    <li>adjective_meal-&gt;가을</li>
+    <li>adjective_meal-&gt;봄날의</li>
+    <li>adjective_meal-&gt;여름의</li>
+    <li>adjective_meal-&gt;겨울의</li>
+    <li>adjective_meal-&gt;포근한</li>
+    <li>adjective_meal-&gt;반짝이는</li>
+    <li>adjective_meal-&gt;빛나는</li>
+    <li>adjective_meal-&gt;데블드</li>
+    <li>adjective_meal-&gt;뜨거운</li>
+    <li>adjective_meal-&gt;차가운</li>
+    <li>adjective_meal-&gt;얼어붙은</li>
+    <li>adjective_meal-&gt;서늘한</li>
+    <li>adjective_meal-&gt;끈적한</li>
+    <li>adjective_meal-&gt;묽은</li>
+    <li>adjective_meal-&gt;검게 그을린</li>
+    <li>adjective_meal-&gt;노릇하게 구운</li>
+    <li>adjective_meal-&gt;숟가락으로 먹는</li>
+    <li>adjective_meal-&gt;핥아 먹는</li>
+    <li>adjective_meal-&gt;아이싱을 입힌</li>
+    <li>adjective_meal-&gt;글레이즈를 입힌</li>
+    <li>adjective_meal-&gt;태양의</li>
+    <li>adjective_meal-&gt;달의</li>
+    <li>adjective_meal-&gt;태양</li>
+    <li>adjective_meal-&gt;달</li>
+    <li>adjective_meal-&gt;별빛의</li>
+    <li>adjective_meal-&gt;화창한</li>
+    <li>adjective_meal-&gt;한입 크기의</li>
+    <li>adjective_meal-&gt;왕사이즈</li>
+    <li>adjective_meal-&gt;황제의</li>
+    <li>adjective_meal-&gt;스텔라크의</li>
+    <li>adjective_meal-&gt;더블</li>
+    <li>adjective_meal-&gt;트리플</li>
+    <li>adjective_meal-&gt;혼합된</li>
+    <li>adjective_meal-&gt;바하</li>
+    <li>adjective_meal-&gt;건강한</li>
+    <li>adjective_meal-&gt;유기농</li>
+    <li>adjective_meal-&gt;크림을 넣은</li>
+    <li>adjective_meal-&gt;크리미한</li>
+    <li>adjective_meal-&gt;김이 나는</li>
+    <li>adjective_meal-&gt;바삭한</li>
+    <li>adjective_meal-&gt;담백한</li>
+    <li>adjective_meal-&gt;단백질</li>
+    <li>adjective_meal-&gt;기름진</li>
+    <li>adjective_meal-&gt;최고급의</li>
+    <li>adjective_meal-&gt;약한</li>
+    <li>adjective_meal-&gt;강한</li>
+    <li>modifier_meal-&gt;파라모르</li>
+    <li>modifier_meal-&gt;델리시오소</li>
+    <li>modifier_meal-&gt;장엄</li>
+    <li>modifier_meal-&gt;어둠의</li>
+    <li>modifier_meal-&gt;빛의</li>
+    <li>modifier_meal-&gt;밤의</li>
+    <li>modifier_meal-&gt;낮의</li>
+    <li>modifier_meal-&gt;블라스트</li>
+    <li>modifier_meal-&gt;슈프림</li>
+    <li>modifier_meal-&gt;제로</li>
+    <li>modifier_meal-&gt;라이트</li>
+    <li>modifier_meal-&gt;콘 [Vegetable]</li>
+    <li>modifier_meal-&gt;알라 [Vegetable]</li>
+    <li>modifier_meal-&gt;블리스</li>
+    <li>modifier_meal-&gt;딜라이트</li>
+    <li>modifier_meal-&gt;토스트</li>
+    <li>nameRandom-&gt;[SylE][SylE]</li>
+    <li>nameRandom(p=0.5)-&gt;[SylE][SylE][SylE]</li>
+    <li>nameRandom(p=0.1)-&gt;[SylE][SylE][SylE][SylE]</li>
+    <li>nameRandom-&gt;[SylD][SylD]</li>
+    <li>nameRandom(p=0.5)-&gt;[SylD][SylD][SylD]</li>
+    <li>nameRandom(p=0.1)-&gt;[SylD][SylD][SylD][SylD]</li>
+    <li>nameRandom-&gt;[WordTribal]</li>
+    <li>namePawn-&gt;[AnimalMale]</li>
+    <li>namePawn-&gt;[AnimalFemale]</li>
+    <li>namePawn-&gt;[AnimalUnisex]</li>
+    <li>namePawn-&gt;[CelestialPrefix]</li>
+    <li>namePawn-&gt;[NamePerson]</li>
+  </FT_SideDishDescriptions.rulePack.rulesStrings>
+</LanguageData>
