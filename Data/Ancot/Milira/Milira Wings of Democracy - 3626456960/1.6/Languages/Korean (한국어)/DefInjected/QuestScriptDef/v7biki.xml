@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PLAMilira_NoMiliraRaid.questDescriptionRules.rulesStrings>
+    <li>questDescription(asker_factionLeader==True)-&gt;[asker_faction_name]의 군수조정부에서 메시지가 도착했습니다. [asker_faction_leaderTitle]인 [asker_nameDef](은)는 현재 밀리라를 상대로 대규모 습격을 계획하고 있습니다. [Extra] 곧 물자를 수거할 왕복선이 도착할 것입니다.\n\n임무를 완료하면 [asker_faction_name](이)가 밀리라와 전투를 벌이는 다음 [finalDays]일 동안, 정착지는 밀리안 전초기지 강하 포드나 밀리라 위협 평가 습격(일반 습격 제외)을 받지 않게 됩니다.</li>
+    <li>Extra(questChoiceThing==Milira_SplendidSteel)-&gt;하지만 여전히 광휘강이 부족합니다. 그는 시장 가치의 2배에 달하는 보상과 [ExtraThing](을)를 교환할 의향이 있습니다.</li>
+    <li>Extra(questChoiceThing==ComponentIndustrial)-&gt;하지만 여전히 범용 부품이 부족합니다. 그는 시장 가치의 2배에 달하는 보상과 [ExtraThing](을)를 교환할 의향이 있습니다.</li>
+    <li>Extra(questChoiceThing==MedicineIndustrial)-&gt;하지만 여전히 의료 물자가 부족합니다. 그는 시장 가치의 4.5배에 달하는 보상과 [ExtraThing](을)를 교환할 의향이 있습니다.</li>
+    <li>Extra(questChoiceThing==Milira_FeatherThread)-&gt;하지만 여전히 방화 모래주머니 재료가 부족합니다. 그는 시장 가치의 4배에 달하는 보상과 [ExtraThing](을)를 교환할 의향이 있습니다.</li>
+    <li>Extra(questChoiceThing==MealSurvivalPack)-&gt;하지만 여전히 전투식량이 부족합니다. 그는 시장 가치의 4배에 달하는 보상과 [ExtraThing](을)를 교환할 의향이 있습니다.</li>
+    <li>ExtraThing(questChoiceThing==Milira_SplendidSteel)-&gt;광휘강 [requestedThingCount]개</li>
+    <li>ExtraThing(questChoiceThing==ComponentIndustrial)-&gt;부품 [requestedThingCount]개</li>
+    <li>ExtraThing(questChoiceThing==MedicineIndustrial)-&gt;의약품 [requestedThingCount]개</li>
+    <li>ExtraThing(questChoiceThing==Milira_FeatherThread)-&gt;깃털 원단 [requestedThingCount]개</li>
+    <li>ExtraThing(questChoiceThing==MealSurvivalPack)-&gt;보존 식량 [requestedThingCount]개</li>
+  </PLAMilira_NoMiliraRaid.questDescriptionRules.rulesStrings>
+</LanguageData>

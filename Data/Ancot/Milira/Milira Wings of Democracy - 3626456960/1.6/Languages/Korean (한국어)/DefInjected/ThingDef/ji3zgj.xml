@@ -1,0 +1,647 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PLAMiliraBullet_Skill_Rapier.label>레이피어</PLAMiliraBullet_Skill_Rapier.label>
+  <New_Solar_Bombardment_Ray.label>광선</New_Solar_Bombardment_Ray.label>
+  <PLAMiliraBullet_Gungnir.label>궁니르</PLAMiliraBullet_Gungnir.label>
+  <PLAMilira_GungnirAttach.label>궁니르</PLAMilira_GungnirAttach.label>
+  <PLAMilira_VisjnoePack.label>비시노에 부유 유닛 팩</PLAMilira_VisjnoePack.label>
+  <PLAMilira_VisjnoePack.description>주변에 자율 조절형 비시노에 부유 유닛을 배치할 수 있는 배낭입니다. 부유 유닛의 행동은 공격 모드와 추종 모드를 전환하여 제어할 수 있습니다.</PLAMilira_VisjnoePack.description>
+  <PLAMilira_VisjnoePack.verbs.Verb_DeployPawn.label>부유 유닛 사출</PLAMilira_VisjnoePack.verbs.Verb_DeployPawn.label>
+  <Milira_LeviathanArmor.label>밀리라 레비아탄 갑옷</Milira_LeviathanArmor.label>
+  <Milira_LeviathanArmor.description>밀리라 슬레이프니르 군단이 사용하는 중장갑 보호복입니다. 세포 활성 장치와 지능형 궤도 지원 체계를 통합했습니다.\n\n착용자는 점진적인 체력 재생 효과를 얻습니다. 적대적인 피해를 입으면 체계가 자동으로 공격자의 위치에 전자기 가속포 궤도 타격을 3회 연속 호출하며, 20초 동안 세포 활성 장치를 과부하시킵니다. 이 효과는 0.5시간의 재사용 대기시간을 가집니다.</Milira_LeviathanArmor.description>
+  <PLAMilira_Apparel_IndexConsole.label>위대한 마법의 삐삐</PLAMilira_Apparel_IndexConsole.label>
+  <PLAMilira_Apparel_IndexConsole.description>도시의 신으로부터 명령을 하달받기 위해 다른 세계에서 사용되는 단말기를 본떠 만든 작은 장치입니다. 이를 누르면 이해를 거부하는 명령이 내려집니다.</PLAMilira_Apparel_IndexConsole.description>
+  <PLAMilira_Apparel_PortableConsole.label>휴대용 크레이돌 통신기</PLAMilira_Apparel_PortableConsole.label>
+  <PLAMilira_Apparel_PortableConsole.description>허리에 장착할 수 있는 휴대용 통신기입니다. 이곳을 통해 크레이돌 민주파에 지원을 요청할 수 있습니다.</PLAMilira_Apparel_PortableConsole.description>
+  <PLAMilira_Apparel_Church_PortableConsole.label>휴대용 하늘깃털 교회 통신기</PLAMilira_Apparel_Church_PortableConsole.label>
+  <PLAMilira_Apparel_Church_PortableConsole.description>허리에 장착할 수 있는 휴대용 통신기입니다. 이곳을 통해 하늘깃털 교회에 지원을 요청할 수 있습니다.</PLAMilira_Apparel_Church_PortableConsole.description>
+  <PLAMilira_Apparel_SecretConsole.label>암호화 단말기</PLAMilira_Apparel_SecretConsole.label>
+  <PLAMilira_Apparel_SecretConsole.description>다양한 방법으로 암호화된 휴대용 단말기입니다.</PLAMilira_Apparel_SecretConsole.description>
+  <PLAMilira_HarrierBallModel.label>유도 신호기</PLAMilira_HarrierBallModel.label>
+  <PLAMilira_HarrierBallModel.description>궤도 지원을 호출하는 데 사용되는 유도 신호기입니다. 이를 연구하면 밀리라가 궤도 타격을 호출하는 원리를 규명할 수 있습니다.</PLAMilira_HarrierBallModel.description>
+  <Milira_ProjectionNode_Quest.label>크레이돌의 그림자 (초기화 중)</Milira_ProjectionNode_Quest.label>
+  <Milira_ProjectionNode_Quest.description>현재 초기화 중인 요새화 영사기입니다. 활성화되면 머리 위 하늘 도시에서 흔히 보이는 깃발 형상을 지속적으로 투사합니다.</Milira_ProjectionNode_Quest.description>
+  <Milira_ProjectionNode_Quest.comps.2.activatedMessageKey>하늘깃털 교회에서 크레이돌의 그림자를 해체하기 위해 공중 투하 부대를 파견했습니다.</Milira_ProjectionNode_Quest.comps.2.activatedMessageKey>
+  <Milira_DropProjectionNodePack.label>휴대용 영사기</Milira_DropProjectionNodePack.label>
+  <Milira_DropProjectionNodePack.description>휴대용 영사기입니다. 배치 후 초기화 시퀀스를 시작합니다.</Milira_DropProjectionNodePack.description>
+  <Milira_DropProjectionNodePack.verbs.Verb_DeployThing.label>영사기 배치</Milira_DropProjectionNodePack.verbs.Verb_DeployThing.label>
+  <Milira_SolarCrystalGatheringTower.label>복사 촉매기</Milira_SolarCrystalGatheringTower.label>
+  <Milira_SolarCrystalGatheringTower.description>태양광 반사경과 함께 사용하여 태양 에너지를 태양 연료로 변환하는 탑입니다. 또한 폐열을 전기 에너지로 변환할 수 있습니다. 반드시 실외에 건설해야 합니다.</Milira_SolarCrystalGatheringTower.description>
+  <Milira_SolarCrystalGatheringTower.comps.1.fuelLabel>현재 배터리 용량</Milira_SolarCrystalGatheringTower.comps.1.fuelLabel>
+  <Milira_SolarCrystalGatheringTower.comps.1.fuelGizmoLabel>태양 연료 배터리</Milira_SolarCrystalGatheringTower.comps.1.fuelGizmoLabel>
+  <Milira_SolarCrystalGatheringTower.comps.1.outOfFuelMessage>연료 보급 필요</Milira_SolarCrystalGatheringTower.comps.1.outOfFuelMessage>
+  <PLAMilira_Harrier_Tower.label>밀리라 해리어 유도 시설</PLAMilira_Harrier_Tower.label>
+  <PLAMilira_Harrier_Tower.description>고출력 전파 탐지기를 갖춘 대형 자동화 시설로, 크레이돌의 해리어 편대에 공습을 지시할 수 있습니다.\n\n공습 유도: 활성화되면 실외에 노출된 적을 주기적으로 포착하여, 일정 시간 후 무작위 유형의 해리어 지원 공격을 가합니다. 짧은 시간 내에 15칸 이상 이동하거나 도약 배낭처럼 지도에서 잠시 사라지는 능력을 사용하면 조준을 해제할 수 있습니다.\n\n해리어 이온 폭풍: 모드 설정이 활성화된 경우, 조준 해제가 5회 연속 발생하거나 유효한 표적을 찾지 못하면 해리어가 표적 제한을 해제하고 즉시 이온 폭풍을 일으켜 매우 넓은 지역의 유닛과 구조물에 파멸적인 피해를 입힙니다.\n\n강화 탄성 장갑: 관통력이 50% 미만인 모든 공격은 50% 확률로 튕겨 나갑니다.</PLAMilira_Harrier_Tower.description>
+  <PLAMilira_Field_Tower.label>밀리라 공간 파쇄 장치</PLAMilira_Field_Tower.label>
+  <PLAMilira_Field_Tower.description>역장 에너지를 이용해 공간을 간섭하는 대형 군집 시설입니다. 활성화되면 현재 지도 전역에 지속적으로 공간 왜곡을 일으킵니다.\n\n주기적으로 두 쌍의 적을 포착하여 각 쌍에 서로 다른 두 종류의 역장 닻을 적용합니다.\n\n반발 닻 (빨간색 광선): 대상 사이에 반발력을 고정합니다. 일정 시간 후 서로의 위치를 바꾸고 주변 유닛에 역장 난류를 일으킵니다. 고정된 후 거리를 벌리려 하면 즉시 역장 난류가 발생하며 장치가 과부하 모드로 전환됩니다.\n\n인력 닻 (하얀색 광선): 대상 사이에 인력을 고정합니다. 일정 시간 후 서로의 위치를 바꾸고 주변 유닛에 역장 난류를 일으킵니다. 고정된 후 거리를 좁히려 하면 즉시 역장 난류가 발생하며 장치가 과부하 모드로 전환됩니다.\n\n과부하 모드: 단일 적을 장시간 포착하여, 발밑에 넓은 범위의 지연형 중력 붕괴장을 주기적으로 생성합니다.\n\n강화 탄성 장갑: 관통력이 50% 미만인 모든 공격은 50% 확률로 튕겨 나갑니다.</PLAMilira_Field_Tower.description>
+  <PLAMilira_Milian_Tower.label>밀리라 통합 복합 생산기</PLAMilira_Milian_Tower.label>
+  <PLAMilira_Milian_Tower.description>승격 체계를 사용하여 밀리라 유닛의 대규모 재구성을 수행하는 실험용 통합 복합 생산기입니다. 가동되면 해당 위치에 신호탄을 투하하여 수많은 병사급 밀리라를 소환한 뒤 지속 운용 상태로 진입합니다.\n\n의식 업로드: 범위 내 고위급 밀리라 유닛 하나를 즉시 추출하여 정보를 업로드하고, 그 자리에 병사급 밀리라 여러 기를 공중 투하합니다.\n\n불멸의 재조립: 최대 12구의 아군 밀리라 잔해에서 정보를 수집합니다. 4구의 정보를 모을 때마다 근처 위치에 무작위 고위급 밀리라 하나를 재구성합니다.\n\n강화 탄성 장갑: 관통력이 50% 미만인 모든 공격은 50% 확률로 튕겨 나갑니다.</PLAMilira_Milian_Tower.description>
+  <PLAMilira_Milian_Tower.comps.7.activatedMessageKey>신호기가 밀리언 부대를 호출하며 전투에 뛰어듭니다.</PLAMilira_Milian_Tower.comps.7.activatedMessageKey>
+  <PLAMilira_DropBeaconCluster.label>밀리라 영광의 신호기</PLAMilira_DropBeaconCluster.label>
+  <PLAMilira_DropBeaconCluster.description>하늘로 신호를 보낼 수 있는 장치입니다. 활성화되면 즉시 밀리언 분대를 호출하여 전장 지원을 제공합니다.</PLAMilira_DropBeaconCluster.description>
+  <PLAMilira_DropBeaconCluster.comps.3.activatedMessageKey>신호기가 밀리언 부대를 호출하며 전투에 뛰어듭니다.</PLAMilira_DropBeaconCluster.comps.3.activatedMessageKey>
+  <PLAMilira_DropBeaconCluster_Milira.label>밀리라 영광의 신호기</PLAMilira_DropBeaconCluster_Milira.label>
+  <PLAMilira_DropBeaconCluster_Milira.description>하늘로 신호를 보낼 수 있는 장치입니다. 활성화되면 즉시 밀리언 분대를 호출하여 전장 지원을 제공합니다.</PLAMilira_DropBeaconCluster_Milira.description>
+  <PLAMilira_DropBeaconCluster_Milira.comps.3.activatedMessageKey>신호기가 밀리언 부대를 호출하며 전투에 뛰어듭니다.</PLAMilira_DropBeaconCluster_Milira.comps.3.activatedMessageKey>
+  <PLAMilira_ChurchBroadcastTower.label>하늘깃털 교회 무허가 방송탑</PLAMilira_ChurchBroadcastTower.label>
+  <PLAMilira_ChurchBroadcastTower.description>하늘깃털 교회의 무허가 방송탑입니다.</PLAMilira_ChurchBroadcastTower.description>
+  <PLAMilira_Naglfar_Research.label>밀리라 나글파르급 행성 파괴자</PLAMilira_Naglfar_Research.label>
+  <PLAMilira_Naglfar_Research.description>나글파르급 행성 파괴자를 파괴하기 전까지는 이 프로젝트를 연구할 수 없습니다.</PLAMilira_Naglfar_Research.description>
+  <PLAMilira_Naglfar_Left.label>밀리라 나글파르급 행성 파괴자 - 용골</PLAMilira_Naglfar_Left.label>
+  <PLAMilira_Naglfar_Left.description>미완성된 밀리라 나글파르급 행성 파괴함의 일부입니다. 수많은 지원 체계를 통해 전장의 다양한 방면에서 도움을 줄 수 있습니다. 순항 유도탄 발사기 하나와 근접 방어용 기관포 두 문을 갖추고 있습니다.\n\n나글파르급 지휘 체계와 연동할 수 있습니다.\n\n궁극의 에너지 소산 장갑 도금을 입혀 단일 피해가 750을 초과하지 않도록 방지하며, 200 이상의 피해는 1초마다 단 한 번만 받도록 제한합니다. (이 기능은 모드 설정에서 조정 가능합니다.)\n\n돛 체계가 연결되면 유도탄 발사기가 군집 공중폭발 유도탄을 발사하도록 전환되며, 근접 방어 기관포의 폭발 범위와 피해량, 관통력이 크게 증가합니다.\n\n고물 체계가 연결되면 관통력 50% 미만의 모든 피해를 확률적으로 튕겨내며, 지도의 아군들에게 주기적으로 역장 보호막을 적용합니다.\n\n고물 체계가 연결된 상태에서 용골이 파괴되면 즉시 광범위 초능력 장을 방출하여, 아군에게는 일정 시간 동안 헤오피오트의 가호를 부여하고 적들에게는 헤르보르의 위용을 과시합니다.</PLAMilira_Naglfar_Left.description>
+  <PLAMilira_Naglfar_Left.comps.5.gizmoLabel>고물 - 연결됨</PLAMilira_Naglfar_Left.comps.5.gizmoLabel>
+  <PLAMilira_Naglfar_Left.comps.5.gizmoDesc>활성화 시 고물 체계가 연결된 동안 지도의 아군들에게 주기적으로 역장 보호막을 적용합니다.</PLAMilira_Naglfar_Left.comps.5.gizmoDesc>
+  <PLAMilira_Naglfar_Left_Main.label>순항 유도탄 발사기</PLAMilira_Naglfar_Left_Main.label>
+  <PLAMilira_Naglfar_Left_Main.description>용골의 주포로, 두 발의 정밀 순항 유도탄을 동시에 발사합니다. 돛 체계와 연결되면 공중폭발 군집 유도탄을 발사하도록 강화됩니다.</PLAMilira_Naglfar_Left_Main.description>
+  <PLAMilira_Naglfar_Left_Main.verbs.Verb_ShootNaglfar.label>순항 유도탄 발사기</PLAMilira_Naglfar_Left_Main.verbs.Verb_ShootNaglfar.label>
+  <PLAMiliraBullet_Naglfar_Left_Missile.label>용골 공중폭발 군집 유도탄</PLAMiliraBullet_Naglfar_Left_Missile.label>
+  <PLAMiliraBullet_Naglfar_Left_Missile_Normal.label>용골 순항 유도탄</PLAMiliraBullet_Naglfar_Left_Missile_Normal.label>
+  <PLAMilira_Naglfar_Left_Sub_A.label>용골 근접 방어 기관포</PLAMilira_Naglfar_Left_Sub_A.label>
+  <PLAMilira_Naglfar_Left_Sub_A.description>용골의 부포입니다. 중량탄이 명중하면 추가 파편을 생성합니다. 돛 체계와 연결되면 폭발 범위, 피해량, 관통력 및 파편의 수가 모두 크게 증가합니다.</PLAMilira_Naglfar_Left_Sub_A.description>
+  <PLAMilira_Naglfar_Left_Sub_A.verbs.Verb_ShootNaglfar.label>용골 근접 방어 기관포</PLAMilira_Naglfar_Left_Sub_A.verbs.Verb_ShootNaglfar.label>
+  <PLAMilira_Naglfar_Left_Sub_B.label>용골 근접 방어 기관포</PLAMilira_Naglfar_Left_Sub_B.label>
+  <PLAMilira_Naglfar_Left_Sub_B.description>용골의 부포입니다. 중량탄이 명중하면 추가 파편을 생성합니다. 돛 체계와 연결되면 폭발 범위, 피해량, 관통력 및 파편의 수가 모두 크게 증가합니다.</PLAMilira_Naglfar_Left_Sub_B.description>
+  <PLAMilira_Naglfar_Left_Sub_B.verbs.Verb_ShootNaglfar.label>용골 근접 방어 기관포</PLAMilira_Naglfar_Left_Sub_B.verbs.Verb_ShootNaglfar.label>
+  <PLAMiliraBullet_Naglfar_Left_Autocannon_A.label>용골 강화 기관포탄</PLAMiliraBullet_Naglfar_Left_Autocannon_A.label>
+  <PLAMiliraBullet_Naglfar_Left_Autocannon_B.label>용골 강화 기관포탄</PLAMiliraBullet_Naglfar_Left_Autocannon_B.label>
+  <PLAMiliraBullet_Naglfar_Left_Autocannon_Normal_A.label>용골 기관포탄</PLAMiliraBullet_Naglfar_Left_Autocannon_Normal_A.label>
+  <PLAMiliraBullet_Naglfar_Left_Autocannon_Normal_B.label>용골 기관포탄</PLAMiliraBullet_Naglfar_Left_Autocannon_Normal_B.label>
+  <PLAMiliraBullet_Naglfar_Left_Autocannon_Child.label>용골 기관포 파편</PLAMiliraBullet_Naglfar_Left_Autocannon_Child.label>
+  <PLAMilira_Naglfar_Middle.label>밀리라 나글파르급 행성 파괴자 - 돛</PLAMilira_Naglfar_Middle.label>
+  <PLAMilira_Naglfar_Middle.description>미완성된 밀리라 나글파르급 행성 파괴함의 일부입니다. 나글파르의 주 사격 통제 핵심부 역할을 하며, 충격 관통포 한 문과 탄도 상의 표적을 꿰뚫는 근접 방어용 입자 기관총 네 문을 갖추고 있습니다.\n\n나글파르급 지휘 체계와 연동할 수 있습니다.\n\n궁극의 에너지 소산 장갑 도금을 입혀 단일 피해가 750을 초과하지 않도록 방지하며, 200 이상의 피해는 1초마다 단 한 번만 받도록 제한합니다. (이 기능은 모드 설정에서 조정 가능합니다.)\n\n고물 체계가 연결되면 관통력 100% 미만의 모든 피해를 확률적으로 튕겨내며, 지도의 아군들에게 주기적으로 은신장을 전개하여 잠시 투명 상태로 만들고 회피율을 크게 높입니다.\n\n용골 체계가 연결되면 감시 전파 탐지기를 사용하여 지도의 아군들에게 원거리 강화 효과를 제공하는 동시에 적의 무기 체계를 교란하여 원거리 무기의 피해량과 관통력을 감소시킵니다.\n\n용골 또는 고물 체계가 연결된 상태에서 돛이 파괴되면 즉시 광범위 초능력 파동을 방출하여 지도의 적 유닛들을 기절시키고 무작위 적에게 태양광 폭격을 가합니다.</PLAMilira_Naglfar_Middle.description>
+  <PLAMilira_Naglfar_Middle.comps.7.gizmoLabel>고물 - 연결됨</PLAMilira_Naglfar_Middle.comps.7.gizmoLabel>
+  <PLAMilira_Naglfar_Middle.comps.7.gizmoDesc>활성화 시 고물 체계가 연결된 동안 지도의 아군들에게 주기적으로 은신장을 전개하여 잠시 투명 상태로 만들고 회피율을 크게 높입니다.</PLAMilira_Naglfar_Middle.comps.7.gizmoDesc>
+  <PLAMilira_Naglfar_Middle.comps.8.gizmoLabel>용골 - 연결됨</PLAMilira_Naglfar_Middle.comps.8.gizmoLabel>
+  <PLAMilira_Naglfar_Middle.comps.8.gizmoDesc>활성화 시 용골 체계가 연결된 동안 감시 전파 탐지기를 사용하여 아군에게 원거리 강화를 제공하고, 적 무기 체계를 교란하여 원거리 피해량과 관통력을 감소시킵니다.</PLAMilira_Naglfar_Middle.comps.8.gizmoDesc>
+  <PLAMilira_Naglfar_Middle_Main.label>충격 관통포</PLAMilira_Naglfar_Middle_Main.label>
+  <PLAMilira_Naglfar_Middle_Main.description>돛의 주포로, 매우 높은 제압 능력을 갖춘 대구경 포탄 두 발을 동시에 발사합니다.</PLAMilira_Naglfar_Middle_Main.description>
+  <PLAMilira_Naglfar_Middle_Main.verbs.Verb_ShootNaglfar_Main.label>충격 관통포</PLAMilira_Naglfar_Middle_Main.verbs.Verb_ShootNaglfar_Main.label>
+  <PLAMiliraBullet_Naglfar_Middle_HeavyPlasma.label>돛 충격 관통포탄</PLAMiliraBullet_Naglfar_Middle_HeavyPlasma.label>
+  <PLAMilira_Naglfar_Middle_Sub_A.label>돛 근접 방어 입자 기관총</PLAMilira_Naglfar_Middle_Sub_A.label>
+  <PLAMilira_Naglfar_Middle_Sub_A.description>돛의 부포입니다. 발사된 고에너지 입자는 경로 상의 모든 적을 관통합니다.</PLAMilira_Naglfar_Middle_Sub_A.description>
+  <PLAMilira_Naglfar_Middle_Sub_A.verbs.Verb_ShootNaglfar.label>돛 근접 방어 입자 기관총</PLAMilira_Naglfar_Middle_Sub_A.verbs.Verb_ShootNaglfar.label>
+  <PLAMilira_Naglfar_Middle_Sub_B.label>돛 근접 방어 입자 기관총</PLAMilira_Naglfar_Middle_Sub_B.label>
+  <PLAMilira_Naglfar_Middle_Sub_B.description>돛의 부포입니다. 발사된 고에너지 입자는 경로 상의 모든 적을 관통합니다.</PLAMilira_Naglfar_Middle_Sub_B.description>
+  <PLAMilira_Naglfar_Middle_Sub_B.verbs.Verb_ShootNaglfar.label>돛 근접 방어 입자 기관총</PLAMilira_Naglfar_Middle_Sub_B.verbs.Verb_ShootNaglfar.label>
+  <PLAMilira_Naglfar_Middle_Sub_C.label>돛 근접 방어 입자 기관총</PLAMilira_Naglfar_Middle_Sub_C.label>
+  <PLAMilira_Naglfar_Middle_Sub_C.description>돛의 부포입니다. 발사된 고에너지 입자는 경로 상의 모든 적을 관통합니다.</PLAMilira_Naglfar_Middle_Sub_C.description>
+  <PLAMilira_Naglfar_Middle_Sub_C.verbs.Verb_ShootNaglfar.label>돛 근접 방어 입자 기관총</PLAMilira_Naglfar_Middle_Sub_C.verbs.Verb_ShootNaglfar.label>
+  <PLAMilira_Naglfar_Middle_Sub_D.label>돛 근접 방어 입자 기관총</PLAMilira_Naglfar_Middle_Sub_D.label>
+  <PLAMilira_Naglfar_Middle_Sub_D.description>돛의 부포입니다. 발사된 고에너지 입자는 경로 상의 모든 적을 관통합니다.</PLAMilira_Naglfar_Middle_Sub_D.description>
+  <PLAMilira_Naglfar_Middle_Sub_D.verbs.Verb_ShootNaglfar.label>돛 근접 방어 입자 기관총</PLAMilira_Naglfar_Middle_Sub_D.verbs.Verb_ShootNaglfar.label>
+  <PLAMiliraBullet_Naglfar_Middle_Gatling_A.label>고에너지 입자</PLAMiliraBullet_Naglfar_Middle_Gatling_A.label>
+  <PLAMiliraBullet_Naglfar_Middle_Gatling_B.label>고에너지 입자</PLAMiliraBullet_Naglfar_Middle_Gatling_B.label>
+  <PLAMiliraBullet_Naglfar_Middle_Gatling_C.label>고에너지 입자</PLAMiliraBullet_Naglfar_Middle_Gatling_C.label>
+  <PLAMiliraBullet_Naglfar_Middle_Gatling_D.label>고에너지 입자</PLAMiliraBullet_Naglfar_Middle_Gatling_D.label>
+  <PLAMilira_Naglfar_Right.label>밀리라 나글파르급 행성 파괴자 - 고물</PLAMilira_Naglfar_Right.label>
+  <PLAMilira_Naglfar_Right.description>미완성된 밀리라 나글파르급 행성 파괴함의 일부입니다. 레일건 유도 전파 탐지기 하나와 두 문의 하이브 미사일 발사기를 갖춘 고급 이지스 방어 체계를 탑재하고 있습니다.\n\n나글파르급 지휘 체계와 연동할 수 있습니다.\n\n궁극의 에너지 소산 장갑 도금을 입혀 단일 피해가 750을 초과하지 않도록 방지하며, 200 이상의 피해는 1초마다 단 한 번만 받도록 제한합니다. (이 기능은 모드 설정에서 조정 가능합니다.)\n\n돛 체계가 연결되면 우주 기반 레일건이 3연사 방식으로 강화되며, 하이브 미사일 발사기에서 사출되는 미사일 수가 크게 증가하고 타격 범위가 확장됩니다.\n\n용골 체계가 연결되면 마이크로 메카노이드를 지속적으로 사출하여 지도의 아군에게 근접 강화 효과를 제공하고 메카노이드 유닛을 주기적으로 수리합니다. 또한 크레이돌의 고궤도 위성을 통해 모든 적 유닛을 표기하여 은신을 방지하고, 표식 수에 비례하여 받는 피해 배율을 증가시킵니다. (피해를 입을 때마다 표식 중첩이 하나씩 제거됩니다.)\n\n용골 체계가 연결된 상태에서 고물이 파괴되면 현재 지도의 모든 아군 유닛에게 즉시 5중첩의 역장 보호막을 부여합니다.</PLAMilira_Naglfar_Right.description>
+  <PLAMilira_Naglfar_Right.comps.5.gizmoLabel>용골 - 연결됨</PLAMilira_Naglfar_Right.comps.5.gizmoLabel>
+  <PLAMilira_Naglfar_Right.comps.5.gizmoDesc>활성화 시 용골 체계가 연결된 동안 마이크로 메카노이드를 지속적으로 사출하여 아군에게 근접 강화를 제공하고 메카노이드를 수리합니다. 또한 고궤도 위성으로 모든 적을 표기하여 은신을 차단하고 표식 중첩에 따라 받는 피해를 증폭시킵니다.</PLAMilira_Naglfar_Right.comps.5.gizmoDesc>
+  <PLAMilira_Naglfar_Right_Main.label>고물 레일건 유도 전파 탐지기</PLAMilira_Naglfar_Right_Main.label>
+  <PLAMilira_Naglfar_Right_Main.description>고물의 주포로, 표적 인근에 유도형 궤도 레일건 타격을 호출할 수 있습니다. 돛 체계와 연결되면 3연사 방식으로 강화됩니다.</PLAMilira_Naglfar_Right_Main.description>
+  <PLAMilira_Naglfar_Right_Main.verbs.Verb_ShootNaglfar.label>고물 레일건 유도 전파 탐지기</PLAMilira_Naglfar_Right_Main.verbs.Verb_ShootNaglfar.label>
+  <PLAMiliraBullet_Naglfar_Right_OrbitalCannon.label>고물 강화 궤도 레일건</PLAMiliraBullet_Naglfar_Right_OrbitalCannon.label>
+  <PLAMiliraBullet_Naglfar_Right_OrbitalCannon_Normal.label>고물 궤도 레일건</PLAMiliraBullet_Naglfar_Right_OrbitalCannon_Normal.label>
+  <PLAMilira_Naglfar_Right_Sub_A.label>고물 하이브 미사일 포탑</PLAMilira_Naglfar_Right_Sub_A.label>
+  <PLAMilira_Naglfar_Right_Sub_A.description>고물의 부포입니다. 발사된 미사일은 표적 구역 상공에서 여러 개의 작은 자탄으로 분리됩니다. 돛 체계와 연결되면 자탄의 수가 두 배로 늘어나고 타격 범위가 확장됩니다.</PLAMilira_Naglfar_Right_Sub_A.description>
+  <PLAMilira_Naglfar_Right_Sub_A.verbs.Verb_ShootNaglfar.label>고물 하이브 미사일 포탑</PLAMilira_Naglfar_Right_Sub_A.verbs.Verb_ShootNaglfar.label>
+  <PLAMilira_Naglfar_Right_Sub_B.label>고물 하이브 미사일 포탑</PLAMilira_Naglfar_Right_Sub_B.label>
+  <PLAMilira_Naglfar_Right_Sub_B.description>고물의 부포입니다. 발사된 미사일은 표적 구역 상공에서 여러 개의 작은 자탄으로 분리됩니다. 돛 체계와 연결되면 자탄의 수가 두 배로 늘어나고 타격 범위가 확장됩니다.</PLAMilira_Naglfar_Right_Sub_B.description>
+  <PLAMilira_Naglfar_Right_Sub_B.verbs.Verb_ShootNaglfar.label>고물 하이브 미사일 포탑</PLAMilira_Naglfar_Right_Sub_B.verbs.Verb_ShootNaglfar.label>
+  <PLAMiliraBullet_Naglfar_Right_Missile_A.label>고물 하이브 미사일</PLAMiliraBullet_Naglfar_Right_Missile_A.label>
+  <PLAMiliraBullet_Naglfar_Right_Missile_B.label>고물 하이브 미사일</PLAMiliraBullet_Naglfar_Right_Missile_B.label>
+  <PLAMiliraBullet_Naglfar_Right_Missile_Normal_A.label>고물 하이브 미사일</PLAMiliraBullet_Naglfar_Right_Missile_Normal_A.label>
+  <PLAMiliraBullet_Naglfar_Right_Missile_Normal_B.label>고물 하이브 미사일</PLAMiliraBullet_Naglfar_Right_Missile_Normal_B.label>
+  <PLAMiliraBullet_Naglfar_Right_Missile_Child.label>고물 하이브 미사일</PLAMiliraBullet_Naglfar_Right_Missile_Child.label>
+  <PLAMiliraBullet_Naglfar_Right_Missile_Child_Normal.label>고물 하이브 미사일</PLAMiliraBullet_Naglfar_Right_Missile_Child_Normal.label>
+  <Milira_Nova_Sphere.label>노바 스피어</Milira_Nova_Sphere.label>
+  <Milira_Nova_Sphere.description>밀리라의 정밀 레이저 진형 체계입니다.\n\n기계 제국의 기술을 역설계하여 제작되었으며, 조준된 표적에게 회피가 거의 불가능한 고온 레이저 광선을 치명적인 정확도로 발사합니다.\n\n장갑을 열로 관통할 수 있습니다.</Milira_Nova_Sphere.description>
+  <PLAMiliraLaser_Turret.label>레이저 스피어</PLAMiliraLaser_Turret.label>
+  <PLAMiliraLaser_Turret.description>반사면을 통해 고에너지 레이저 광선을 투사할 수 있습니다.</PLAMiliraLaser_Turret.description>
+  <PLAMilira_Laser_Bullet.label>광선</PLAMilira_Laser_Bullet.label>
+  <Aurora_Interceptora.label>"오로라" 요격기</Aurora_Interceptora.label>
+  <Aurora_Interceptora.description>대규모 배치를 위해 밀리라가 전개한 실험용 레이저 요격 체계입니다. 반경 15칸 내의 투사체를 포착하여 초고속 요격 광선을 발사합니다. 함선급 통합 배터리를 갖추고 있으나, 레이저 방출기를 유지하려면 여전히 태양광 연료가 필요합니다.\n\n해리어 전투기의 폭격 투하물을 요격할 수 있습니다.\n배터리 소모량은 요격된 투사체의 피해량에 비례합니다. (피해량 5당 배터리 1유닛 소모)\n대부분의 비살상 유틸리티 투사체에는 반응하지 않습니다.\n피해량이 40을 초과하는 투사체는 요격할 수 없습니다.</Aurora_Interceptora.description>
+  <Aurora_Interceptora.comps.3.fuelLabel>현재 배터리 용량</Aurora_Interceptora.comps.3.fuelLabel>
+  <Aurora_Interceptora.comps.3.fuelGizmoLabel>태양광 연료 배터리</Aurora_Interceptora.comps.3.fuelGizmoLabel>
+  <Aurora_Interceptora.comps.3.outOfFuelMessage>연료 보급 필요</Aurora_Interceptora.comps.3.outOfFuelMessage>
+  <Aurora_Interceptora.comps.4.gizmoLabel>"오로라" 요격기</Aurora_Interceptora.comps.4.gizmoLabel>
+  <Aurora_Interceptora.comps.4.gizmoDesc>오로라 요격 체계를 활성화하여, 자신 주변 15칸 이내의 투사체에 초고속 요격 광선을 발사합니다.</Aurora_Interceptora.comps.4.gizmoDesc>
+  <Aurora_Interceptora.comps.4.gizmoDesc2>해리어 전투기 요격을 활성화합니다. 오로라의 작전 범위 내에서 해리어가 폭탄을 투하하려 하면, 배터리 36을 소모하여 초고속 요격 광선으로 투사체를 격추합니다.</Aurora_Interceptora.comps.4.gizmoDesc2>
+  <PLAMilira_Organ_Base.label>"성가 오르간" 전자기 저격포</PLAMilira_Organ_Base.label>
+  <PLAMilira_Organ_Base.description>군집 연산 강화 유닛이 통합된 개량형 전자기포 포탑입니다. 기본 피해량과 장갑 관통력은 약간 낮지만, 주변에 밀리라 포탑이 많을수록 성능이 향상됩니다.\n\n반경 5칸 이내의 밀리라 포탑 하나당 피해량이 15%(최대 75%), 관통력이 25%(최대 150%) 증가합니다.</PLAMilira_Organ_Base.description>
+  <PLAMilira_Organ_Turret.label>성가 오르간</PLAMilira_Organ_Turret.label>
+  <PLAMilira_Organ_Turret.description>군집 연산 강화 효과를 받는 전자기 저격포입니다.</PLAMilira_Organ_Turret.description>
+  <PLAMilira_Organ_Turret.verbs.Verb_Shoot_Organ_Turret.label>성가 오르간</PLAMilira_Organ_Turret.verbs.Verb_Shoot_Organ_Turret.label>
+  <PLAMilira_Organ_Bullet.label>레일건 포탄</PLAMilira_Organ_Bullet.label>
+  <PLAMilira_Tesla_Base.label>테슬라 탑</PLAMilira_Tesla_Base.label>
+  <PLAMilira_Tesla_Base.description>함선용 배터리 전력을 사용하여 수십만 볼트를 생성하는 강력한 전기장 발생기입니다. 생성된 호광은 공기를 찢고 대상에게 즉시 도달한 뒤, 12칸 반경 내의 유닛 최대 8기 사이를 전이합니다. 피해량은 낮지만 장갑 관통력이 높고 제압 능력이 탁월하며, 장갑을 무시하고 내부 장기에 직접 피해를 줄 확률이 있습니다.</PLAMilira_Tesla_Base.description>
+  <PLAMilira_Tesla_Turret.label>고출력 전기장 발생기</PLAMilira_Tesla_Turret.label>
+  <PLAMilira_Tesla_Turret.description>수십만 볼트의 전기장을 생성할 수 있는 발생기입니다.</PLAMilira_Tesla_Turret.description>
+  <PLAMilira_Tesla_Turret.verbs.Verb_Shoot.label>고출력 전기장 발생기</PLAMilira_Tesla_Turret.verbs.Verb_Shoot.label>
+  <PLAMiliraBullet_Tesla_Turret.label>전기 호광</PLAMiliraBullet_Tesla_Turret.label>
+  <PLAMilira_AntiAirMissile_Base.label>"스피닝 바스타드" 하이브 대공 미사일 포탑</PLAMilira_AntiAirMissile_Base.label>
+  <PLAMilira_AntiAirMissile_Base.description>공중 군집 유닛을 상대하는 데 특화된 포탑입니다. 표적을 포착하면 3발의 하이브 미사일을 순차적으로 발사합니다. 미사일은 정점에서 분리되어 표적 구역에 최대 10개의 작은 자탄을 방출합니다.\n\n비행 유닛에게 두 배의 피해를 입힙니다.\n\n미사일을 발사하여 해리어 항공기를 격추할 수 있습니다. 발사당 태양광 연료 10을 소모합니다.</PLAMilira_AntiAirMissile_Base.description>
+  <PLAMilira_AntiAirMissile_Base.comps.7.fuelLabel>현재 연료 잔량</PLAMilira_AntiAirMissile_Base.comps.7.fuelLabel>
+  <PLAMilira_AntiAirMissile_Base.comps.7.fuelGizmoLabel>소형 연료 전지</PLAMilira_AntiAirMissile_Base.comps.7.fuelGizmoLabel>
+  <PLAMilira_AntiAirMissile_Base.comps.7.outOfFuelMessage>연료 보급 필요</PLAMilira_AntiAirMissile_Base.comps.7.outOfFuelMessage>
+  <AntiHarrier_Missile.label>대 해리어 미사일</AntiHarrier_Missile.label>
+  <PLAMilira_AntiAirMissile_Turret.label>대공 미사일 발사기</PLAMilira_AntiAirMissile_Turret.label>
+  <PLAMilira_AntiAirMissile_Turret.description>하이브 대공 미사일을 신속하게 연사할 수 있는 발사기입니다.</PLAMilira_AntiAirMissile_Turret.description>
+  <PLAMilira_AntiAirMissile_Turret.verbs.Verb_Shoot.label>대공 미사일 발사기</PLAMilira_AntiAirMissile_Turret.verbs.Verb_Shoot.label>
+  <MiliraBullet_Missile.label>하이브 대공 미사일</MiliraBullet_Missile.label>
+  <PLAMiliraBullet_Missile_Child.label>하이브 대공 미사일</PLAMiliraBullet_Missile_Child.label>
+  <PLAMilira_Gatling_Base.label>"엘레우시스 밀교" 중화력 보병 지원 플랫폼</PLAMilira_Gatling_Base.label>
+  <PLAMilira_Gatling_Base.description>알 수 없는 유물 기술을 바탕으로 밀리라가 개발한 중화력 보병 지원 플랫폼으로, "악소의 그릇"을 업그레이드한 형태입니다. 두 문의 호신용 이온 기관총과 플라즈마 광선을 발사하는 주포 "아스프의 지팡이"을 갖추고 있으며, 로켓 발사기를 이용한 장거리 화력 지원도 제공합니다.\n\n내구도가 50% 이상일 때 광선은 추가로 실명 효과를 입히며, 장거리 지원을 위해 독가스 수류탄을 투척할 수 있습니다.\n\n"악소의 그릇": 중형 근접 방어용 이온 기관총입니다. 현재 대상이 쓰러지면 90도 범위 내의 다른 대상을 찾아 사격을 이어갑니다. 새로운 대상이 없으면 현재 대상을 계속 사격합니다. 탄도 상의 대상들에게 부수적인 피해를 입힙니다.\n\n"아스프의 지팡이": 보호막을 무시하고 장갑을 녹여버릴 수 있는 피할 수 없는 플라즈마 광선을 지속적으로 발사합니다.\n\n4연장 로켓 발사기: 표적 구역에 4발의 중형 로켓을 동시에 발사합니다. 플랫폼의 내구도가 50% 이상이면 추가로 독가스 수류탄 한 발을 발사합니다.</PLAMilira_Gatling_Base.description>
+  <PLAMilira_Gatling_Turret_Main.label>아스프의 지팡이</PLAMilira_Gatling_Turret_Main.label>
+  <PLAMilira_Gatling_Turret_Main.description>보호막을 무시하고 장갑을 녹여버릴 수 있는 피할 수 없는 플라즈마 광선을 지속적으로 발사합니다.</PLAMilira_Gatling_Turret_Main.description>
+  <PLAMilira_Gatling_Turret_Main_Laser_Bullet.label>플라즈마 레이저</PLAMilira_Gatling_Turret_Main_Laser_Bullet.label>
+  <PLAMilira_Gatling_Turret_Sub.label>악소의 그릇</PLAMilira_Gatling_Turret_Sub.label>
+  <PLAMilira_Gatling_Turret_Sub.description>중형 근접 방어용 이온 기관총입니다. 현재 대상이 쓰러지면 90도 범위 내의 다른 대상을 찾아 사격을 이어갑니다. 새로운 대상이 없으면 현재 대상을 계속 사격합니다. 탄도 상의 대상들에게 부수적인 피해를 입힙니다.</PLAMilira_Gatling_Turret_Sub.description>
+  <PLAMilira_Gatling_Turret_Sub.verbs.Verb_Shoot_Gatling_Turret.label>악소의 그릇</PLAMilira_Gatling_Turret_Sub.verbs.Verb_Shoot_Gatling_Turret.label>
+  <PLAMiliraBullet_Gatling_Turret.label>입자 광선</PLAMiliraBullet_Gatling_Turret.label>
+  <PLAMilira_Gatling_Turret_SubMortar.label>4연장 로켓 발사기</PLAMilira_Gatling_Turret_SubMortar.label>
+  <PLAMilira_Gatling_Turret_SubMortar.description>표적 구역에 4발의 중형 로켓을 동시에 발사합니다. 내구도가 50% 이상이면 추가로 독가스 수류탄 한 발을 발사합니다.</PLAMilira_Gatling_Turret_SubMortar.description>
+  <PLAMilira_Gatling_Turret_SubMortar.verbs.Verb_ShootMultiple_Eleusinian.label>4연장 로켓 발사기</PLAMilira_Gatling_Turret_SubMortar.verbs.Verb_ShootMultiple_Eleusinian.label>
+  <PLAMiliraBullet_Gatling_Turret_SubMortar.label>로켓</PLAMiliraBullet_Gatling_Turret_SubMortar.label>
+  <PLAMilira_Field_Tower_Player.label>복제된 역장 발생기</PLAMilira_Field_Tower_Player.label>
+  <PLAMilira_Field_Tower_Player.description>기능의 일부만 계승된 복제 역장 발생기입니다. 빠르게 재생되는 전방위 보호막을 갖추고 있으며, 유물 기술을 사용하여 아군에게 역장 보호막 보호를 제공할 수 있습니다.</PLAMilira_Field_Tower_Player.description>
+  <PLAMilira_Field_Tower_Player.comps.3.gizmoDesc>현재 지도의 아군에게 3시간 동안 지속되는 5중첩 역장 보호막을 즉시 부여합니다. 재사용 대기시간: 2일.</PLAMilira_Field_Tower_Player.comps.3.gizmoDesc>
+  <PLAMilira_InformationLetterI_Naglfar.label>파일: 밀리라 5326</PLAMilira_InformationLetterI_Naglfar.label>
+  <PLAMilira_InformationLetterI_Naglfar.description>밀리라에 관한 기록 파일입니다.</PLAMilira_InformationLetterI_Naglfar.description>
+  <PLAMilira_InformationLetterI_Naglfar.comps.0.useLabel>읽기</PLAMilira_InformationLetterI_Naglfar.comps.0.useLabel>
+  <PLAMilira_InformationLetterI_Naglfar.comps.0.customDiaLog.0.content>백색 날개의 천사, 호전적인 악마, 신비로운 하늘 엘프.\n\n"밀리라"라고 불리는 이 종족은 지난 수천 년 동안 압도적인 군사력으로 행성의 대다수 종족을 정복했습니다. 하지만 긴 수명 탓에 그들은 점차 정복에 흥미를 잃었고, 지상의 모든 지식을 수집하는 데 전념하며 "크레이돌"이라 불리는 천공 대도시를 건설했습니다. 그러나 갑작스러운 변혁 이후, 하늘 엘프들은 지상의 인류에 대한 신뢰를 잃었습니다. 크레이돌로부터 지상을 향해 다시 한번 전쟁의 먹구름이 퍼져나가기 시작했습니다.\n\n이것이 후대 지상 거주자들이 이 신비로운 종족에 대해 알고 있는 전부입니다. 하지만 다음에 들려줄 이야기는 이 변혁이 일어나기 전의 일입니다.\n\n\n\n5326년 겨울, 깊은 밤.\n\n하늘 도시의 거리는 텅 비어 있었습니다. 모두가 이미 따뜻한 침대 속으로 파고들었고, 초소 근무 중인 밀리라 위로 투사된 깃발의 희미한 빛만이 반사되고 있었습니다.\n\n갑자기, 밀리라에게는 흔치 않은 아기의 울음소리가 정적을 깨뜨렸습니다. 어두운 밤을 뚫고 이웃집 문들이 하나둘 열리며 부드러운 빛이 흘러나왔고, 호기심이나 도움을 주기 위해 이웃들이 모여들었습니다.\n\n"허, 당신도 들었어? 내가 잘못 들은 줄 알았네."\n\n"거기 서서 뭐 하는 거야? 가서 도와줘야지!"\n\n넓은 방 안은 날개를 접어야 할 정도로 순식간에 붐볐습니다. 모두가 한 손씩 거들며 방향을 잡아주고 도와준 덕분에, 헤오피오트 우르드가 이 세상에 태어났습니다.\n\n\n수 세기의 수명을 가진 하늘 엘프들에게는 가장 소중한 어린 시절을 학원 교육으로 채울 필요가 없었습니다. 크레이돌의 궁극적인 기술과 발전된 메카노이드 기술 덕분에 누구나 자신의 취미를 최대한 추구할 수 있었습니다. 거의 모든 기초 노동은 밀리라 메카노이드들이 수행했습니다. 아이들은 10년 동안의 기초 인지 교육만 마치면 자신의 관심사에 따라 자유롭게 분야를 선택할 수 있었습니다.\n\n대부분의 또래와 달리, 우르드는 도서관의 곰팡내 나는 고서에는 별 관심이 없었습니다. 오직 검을 휘두르며 땀을 흘리는 것만이 그녀를 설레게 했습니다. 발키리 혈통의 후예답게 우르드는 어린 나이부터 검술에 깊은 관심과 뛰어난 재능을 보였습니다. 12살 무렵, 그녀는 이미 집안 보안용 기사 II 모델과 대등하게 맞설 수 있었습니다. 5348년, 23세의 우르드는 단 한 번의 패배만으로 크레이돌 청소년 검술 대회에서 우승을 차지했습니다. 천재 검객의 우승 소식은 신문을 도배했고, 심지어 의회에서조차 사람을 보내 그녀의 집을 직접 방문해 축하를 건넸습니다.\n\n5371년, 이미 많은 영예를 얻고 지상 탐사팀의 수습 경비원으로 세 차례 복무했던 우르드는 의원의 추천을 받아 크레이돌 육군 사관학교에 진급하여 심화 학습을 시작했습니다. 그녀의 부모님은 기쁨에 겨워 많은 친구와 이웃을 집으로 초대해 축하 파티를 열었습니다.\n\n"오, 지금이 어느 시대인데? 더 이상 우리가 직접 싸우고 죽일 필요는 없어. 더럽고 힘든 일은 밀리라들에게 맡기면 되지."\n\n"네 관심사라면 더 말리지 않으마. 내가 지상에 동물 연구소를 하나 차렸단다. 지치면 언제든 날 찾아와서 몇 년 쉬면서 다른 취미를 찾아보렴. 최근에 아주 귀여운 고양이들을 한 무리 길렀거든. 관심 있니? 하나 줄 수도 있단다."\n\n"대부분의 사람이 모르는 사실인데... 근처에 심지어... 고양이↓소녀↑들도 있다고 하더라고."\n\n어머니의 자매의 고모의 조카라며 어디선가 나타나 끊임없이 고양이를 입양하라고 추천하는 이 밀리라를 마주하며, 우르드는 자신의 날개에 잔뜩 묻은 고양이 털을 보며 어색한 미소만 지을 뿐이었습니다.\n\n그해 겨울, 다시 한번 모든 이의 떠들썩한 도움 속에서 헤벨 베르단디가 모두의 시선 아래 태어났습니다.</PLAMilira_InformationLetterI_Naglfar.comps.0.customDiaLog.0.content>
+  <PLAMilira_InformationLetterII_Naglfar.label>파일: 밀리라 5394</PLAMilira_InformationLetterII_Naglfar.label>
+  <PLAMilira_InformationLetterII_Naglfar.description>밀리라에 관한 기록 파일입니다.</PLAMilira_InformationLetterII_Naglfar.description>
+  <PLAMilira_InformationLetterII_Naglfar.comps.0.useLabel>읽기</PLAMilira_InformationLetterII_Naglfar.comps.0.useLabel>
+  <PLAMilira_InformationLetterII_Naglfar.comps.0.customDiaLog.0.content>졸업 후 우르드는 검술을 연마하고 때때로 지상 탐사 임무의 전임 경비원으로 복무하며 이전의 삶을 이어갔습니다. 경비 업무는 대개 광분한 야생 동물이나 무모하게 흩어진 해적들을 소탕하는 일이었습니다. 결국 밀리라의 날개와 후광은 너무나 눈에 띄었고, 과거의 정복 전쟁이 남긴 '전쟁에 미친 종족'이라는 인상 덕분에 완전히 어리석지 않은 공격자라면 그들을 적극적으로 피했기 때문입니다.\n\n이 시기, 아마도 너무 긴 수명에 지루함을 느꼈는지 우르드는 고양이 털이 가득했던 그 천사의 거처를 수소문하여 그녀의 지상 생물 연구소를 방문했습니다. 임무 중에만 고양이를 몇 번 본 적이 있었던 우르드는 이 달라붙고 사랑스러운 작은 생물들에게 즉시 마음을 빼앗겼습니다. 생존 조건 때문에 크레이돌에서는 고양이를 기르는 것이 불가능하다는 사실을 알게 되자, 그녀는 그곳을 방문했던 다른 모든 밀리라들처럼 깊은 실망감을 드러냈습니다.\n\n"걱정 마, 난 항상 여기 사니까. 심심할 때면 언제든 놀러 오렴."\n\n"언니, 왜 요즘 그렇게 자주 지상에 내려가? 어른들이 밑에는 나쁜 사람이 많대. 조심해야 해."\n\n"아, 아하하, 정말? 아마 네가 잘못 기억하는 걸 거야..."\n\n\n어느 정기 방문 날, 우르드는 평소처럼 연구소 문을 밀고 들어갔습니다. 하지만 그녀를 맞이한 것은 새끼 고양이가 아니라 고양이 귀와 꼬리를 가진 메이드 복장의 작은 종족이었습니다. 양쪽 모두 서로를 보고 얼어붙었습니다.\n\n"너... 그 귀 진짜야?"\n\n"와, 꼬리도 정말 폭신폭신해."\n\n"세상에! 고양이 소녀가 정말 존재했구나!"\n\n"하악, 하!" 흥분한 우르드가 철저한 쓰다듬기 세션을 위해 달려들었습니다. 이 갑작스럽고 "열정적인" 낯선 이를 마주한 "고양이 소녀"는 정말 고양이처럼 반응했습니다. 수십 년간 검술을 수련한 우르드조차 그녀의 발톱을 피할 수 없었습니다.\n\n"이 아이는 키이로 부족원이야! 그렇게 갑자기 달려들어 쓰다듬는 건 정말 무례한 짓이란다."\n\n"전쟁과 약탈 때문에 정착지를 숨기고 살던 아이야. 밖에서 사냥하다가 다친 걸 내가 구했지. 상처가 다 나으면 마을로 돌려보낼 생각이야."\n\n"물론 크레이돌에는 보고하지 않았지! 의회의 그 고리타분한 영감들 말이야. 하늘 도시 안에는 동물 연구소 허가도 안 내주던걸. 전쟁 없는 세월이 수년인데 아직도 대외 정책을 개방하지 않으니, 말해봐야 무슨 소용이겠어?" 연구원과 이야기를 나누는 동안에도 우르드는 그 사랑스러운 키이로를 계속 힐끔거렸습니다. 하지만 이미 트라우마가 생긴 키이로는 소파 뒤에 숨어 새끼 고양이들과 함께 그들을 조용히 응시할 뿐이었습니다.\n\n\n"뭐? 언니, 폭신폭신한 귀를 가진 종족을 만났다고?! 나도 보고 싶어!"\n\n"넌 아직 어려. 좀 더 크면 언니가 지상으로 데려가 줄게."\n\n\n5394년, 69세의 우르드는 종합 평가 점수 전체 4위로 발키리 청년 전사단에 선발되었습니다. 단 4년 만에 전투 병기 사용법을 마스터한 그녀는 예외적으로 승격되어 발키리 백전 선봉대의 정식 일원이 되었습니다. 하지만 오랫동안 전쟁을 치르지 않은 크레이돌에서 선봉대가 된다는 것은 실전 부대라기보다는 개인의 재능과 노력에 대한 인정에 가까웠습니다. 일상적인 업무는 주로 순찰과 지상 탐사 중인 밀리라들을 보호하는 것이었습니다.\n\n같은 해, 28세의 베르단디는 도서관의 곰팡내 나는 낡은 이야기와 언니의 설명만으로 광활한 지상을 상상하는 것에 만족하지 못했습니다. 수년간의 요청 끝에 그녀는 마침내 언니의 보호 아래 지상을 직접 모험해도 좋다는 가족의 허락을 받아냈습니다.\n\n"와, 언니! 전에 말했던 그 연구소는 언제 갈 수 있어?"\n\n"그걸 아직도 기억해? 벌써 한참 전 일인데. 내일 가보는 건 어때? 나도 한동안 못 갔거든."\n\n다음 날, 베르단디는 마침내 언니와 함께 어린 시절부터 꿈꿔왔던 연구소에 도착했습니다. 이제 이곳은 연구소라기보다는 연구원이 개조한 고양이 카페에 가까웠고, 온갖 입양된 고양이들이 살고 있었습니다. 그리고 또한...\n\n"어? 이 메이드... 아직 마을로 안 돌아갔어?"\n\n"패트리샤라고 해. 회복하고 나니 이 근처 생활도 나쁘지 않다고 생각했나 봐. 내가 종종 우리 의료 물자나 무기를 챙겨줘서 마을로 가져가게 하거든. 어쨌든 지금은 나랑 같이 살고 있어."\n\n패트리샤는 예전의 갑작스러운 쓰다듬기 세션 때문에 여전히 앙금이 남아 있었지만, 연구원의 설명을 듣고 우르드가 악의가 없었다는 사실은 이해한 상태였습니다. 그녀는 우르드에게 인사를 건넸습니다.\n\n"우와! 네가 언니가 말했던 그 고양이 소녀구나! 귀가 정말 부드러워! 꼬리도 진짜 폭신폭신하고! 너무 귀여워!"\n\n"어, 베르단디, 안 돼!"\n\n불행히도 인사를 하던 패트리샤는 자기 뒤에 호기심 가득한 또 다른 밀리라가 있다는 사실을 눈치채지 못했습니다. 순식간에 그녀의 모든 털이 곤두섰습니다.\n\n"하악!"</PLAMilira_InformationLetterII_Naglfar.comps.0.customDiaLog.0.content>
+  <PLAMilira_InformationLetterIII_Naglfar.label>파일: 밀리라 5405</PLAMilira_InformationLetterIII_Naglfar.label>
+  <PLAMilira_InformationLetterIII_Naglfar.description>밀리라에 관한 기록 파일입니다.</PLAMilira_InformationLetterIII_Naglfar.description>
+  <PLAMilira_InformationLetterIII_Naglfar.comps.0.useLabel>읽기</PLAMilira_InformationLetterIII_Naglfar.comps.0.useLabel>
+  <PLAMilira_InformationLetterIII_Naglfar.comps.0.customDiaLog.0.content>5405년, 지상에 내려가 놀자며 끈질기게 졸라대는 동생의 성화를 이기지 못한 우르드는 결국 발키리 군단에 임시 휴가를 신청했습니다. 그녀는 그동안 모은 저축과 부모님의 지원을 보태어 지상 탐사팀을 꾸렸습니다.\n\n"너희 둘이 그렇게 자주 지상에 내려가는 걸 반대하지는 않지만, 항상 조심해야 한다."\n\n"걱정 마세요. 동생은 제가 지킬게요."\n\n두 사람은 몇 달 동안 지상을 탐사하며 적당한 부지를 선정하고 물자를 모았습니다. 마침내 몇몇 동료들과 함께 추가 탐사를 위한 전초 기지를 크레이돌에서 그리 멀지 않은 지상에 건설했습니다. 이후 몇 년 동안 두 사람은 주로 지상에서 활동하며 거점을 구축하고 주변 지역을 탐사했습니다. 휴식 시간에는 가끔 이제는 고양이 카페나 다름없게 변한 동물 연구소를 방문하곤 했습니다.\n\n"고양이 통조림을 봐서 이번엔 용서해 주겠다냥. 내 귀를 만지고 싶으면 먼저 물어보라냥. 한 번만 더 그랬다간 할퀴어 버릴 거다냥."\n\n"우리 마을? 덕분에 잘 지내고 있다냥. 다들 네가 준 약과 무기에 고마워하고 있다냥."\n\n"그런데 하늘을 날아다니는 너희 의회 사람들은 지상이랑 교류를 잘 안 한다면서냥? 우리한테 물자를 좀 팔아주면 근처 마을에도 나눠줄 수 있어서 참 좋을 텐데냥. 지금은 연구소 소장님이 쥐어짜 주는 것만으론 우리 마을 하나 지키기에도 벅차다냥."\n\n부모님과 의회의 요구에 따라, 우르드와 동생은 매년 마지막 몇 달 동안은 거점을 밀리라 자율 관리 체제로 맡겨두고 크레이돌로 돌아가 새해를 보냈습니다. 그곳에서 물자를 구매하고 지상 탐사 보고서를 요약해 의회에 제출했습니다.\n\n"음... 왜 탐사 비용 보고서에 고양이 통조림 항목이 이렇게 많은 거지?"\n\n5411년 여름. 부모님의 연락을 받은 두 사람은 설레는 마음으로 밤을 새워 크레이돌로 달려갔고, 새로 태어난 막내 동생과 마주했습니다.\n\n"우리가 이름을 지어줘도 돼요?"\n\n부모님의 허락 아래, 두 사람은 막내의 이름을 제퓨티 스쿨드라고 지어주었습니다. 이후 3년 동안 베르단디와 언니는 번갈아 가며 크레이돌에 머물며 막내 동생의 육아를 도왔습니다. 스쿨드가 혼자 걸을 수 있게 되자, 두 사람은 다시 지상 거점 건설에 집중하기 시작했습니다.</PLAMilira_InformationLetterIII_Naglfar.comps.0.customDiaLog.0.content>
+  <PLAMilira_InformationLetterIV_Naglfar.label>파일: 밀리라 5414</PLAMilira_InformationLetterIV_Naglfar.label>
+  <PLAMilira_InformationLetterIV_Naglfar.description>밀리라에 관한 기록 파일입니다.</PLAMilira_InformationLetterIV_Naglfar.description>
+  <PLAMilira_InformationLetterIV_Naglfar.comps.0.useLabel>읽기</PLAMilira_InformationLetterIV_Naglfar.comps.0.useLabel>
+  <PLAMilira_InformationLetterIV_Naglfar.comps.0.customDiaLog.0.content>"정말로 의회에 말할 거야? 반대할지도 모르고, 지상은 확실히 더 위험하잖아. 해적들은 누구 땅이든 가리지 않고 쳐들어올 정도로 미쳐있다고."\n\n"의회에 키이로들이 만든 옷이랑 종이접기를 보여주자. 무역부터 단계적으로 시작하면 될 거야. 언니가 우릴 지켜주면 아무 문제 없을 거야."\n\n5414년 겨울, 44세가 된 베르단디는 언니의 보증과 오랜 노력 끝에 마침내 의회 간부들을 설득하여 주변 세력과 시험적으로 우호 관계를 맺는 것을 허락받았습니다. 두 사람은 흥분된 마음으로 집으로 돌아와 부모님과 이웃, 친구들에게 의회의 결정을 공유했습니다.\n\n"허? 그걸 승인해 줬다고? 그럼 내 동물 연구소는 왜 수십 년째 승인이 안 나는 거야?"\n\n거점으로 돌아온 두 사람은 공중 투하된 편지와 선물을 통해 주변의 알려진 정착지들에 우호의 뜻을 전하기 시작했습니다.\n\n"소장님, 밀리라 거점에서 편지를 떨어뜨렸어요. 대화하고 싶다는데요."\n\n"누가?!"\n\n5419년, 베르단디와 언니의 노력 덕분에 주변 세력과의 외교는—밀리라라는 신분 때문에 완전히 순탄치는 않았지만—거점이 여러 세력과 임시 동맹을 맺는 상당한 성과를 거두었습니다. 이제 거점에는 크레이돌에서는 볼 수 없었던 다양한 이종족 방문객과 상인들이 며칠 간격으로 찾아오게 되었습니다.\n\n이 시기에 두 사람은 인근 키이로 마을에서 도망쳐온 절박한 상태의 키이로 모자를 거두어주었습니다.\n\n"제발, 저는... 콜록... 저는 이제 틀렸지만, 제 아이는 건강하고 말도 잘 들어냥. 폐 끼치지 않을거냥."\n\n"베르단디, 약 가져와! 걱정 마세요, 저를 따라... 아니, 제가 안고 갈게요."\n\n"걱정 마세요. 두 분 다 죽지 않을 거예요. 여기는 안전하니까 푹 쉬세요."\n\n검사 결과 어린 키이로는 질병이나 영양실조가 없었지만, 어머니는 최고급 약을 투여받은 후에야 겨우 회복되었습니다. 아이를 위해 그녀가 무엇을 견뎌왔을지 상상하기조차 어려웠습니다.\n\n어머니가 의식을 되찾은 후, 두 사람은 그녀의 이름이 퀼나라는 것을 알게 되었습니다. 그녀의 마을에 역병이 돌았고 마을 의사는 속수무책이었는데, 근처에 친절하고 기술력이 높은 거점이 있다는 소문을 듣고 아이를 살리기 위해 발이 부르트도록 걸어온 것이었습니다.\n\n"안심하세요. 당장 약을 챙겨서 비행정으로 마을을 도우러 갈게요. 아기는 안전하게 재워뒀어요. 푹 쉬세요."\n\n"정말 감사합니다냥. 전설에 나오던 피에 굶주린 분들이 정말 아니시군냥."\n"어... 음, 그건 말하기 좀 복잡하네요. 어쨌든 일단 쉬세요. 나중에 설명해 드릴게요."\n\n"냥?!"\n\n그들의 도움으로 키이로 마을은 선진 의료 기술을 통해 대규모 역병을 빠르게 진압했습니다. 안타깝게 목숨을 잃었던 두 마리의 고양이는 근처 유적에서 발견한 부활 메카 혈청으로 되살려내기까지 했습니다. 퀼나가 회복된 후, 두 사람은 그녀와 마을 사람들에게 하늘 엘프의 과거와 밀리라들이 시도하려는 변화에 관해 설명했습니다. 하지만 키이로들은 과거의 전쟁 따위는 신경 쓰지 않았습니다.\n\n"적어도 지금은 착한 고양이들이라냥. 아니었으면 우리 마을은 끝장났을 거다냥."\n\n퀼나의 소개를 통해 인근 마을의 많은 고양이 상인들이 거점에 가게를 열겠다고 신청해왔습니다. 갑자기 고양이 난민, 상인, 메이드, 방문객, 목동들이 비 온 뒤 죽순처럼 거점으로 몰려들었고, 때때로 식량 창고가 바닥날 지경에 이르렀습니다.\n\n"전에는 고양이 통조림을 사겠다고 하더니, 이제는 수십 명분의 식량을 사겠다고? 도대체 거점에서 무슨 일이 벌어지고 있는 거니?"\n\n"고양이 둥지를 건드렸다는 게 무슨 소리야?"</PLAMilira_InformationLetterIV_Naglfar.comps.0.customDiaLog.0.content>
+  <PLAMilira_InformationLetterV_Naglfar.label>파일: 밀리라 5424</PLAMilira_InformationLetterV_Naglfar.label>
+  <PLAMilira_InformationLetterV_Naglfar.description>밀리라에 관한 기록 파일입니다.</PLAMilira_InformationLetterV_Naglfar.description>
+  <PLAMilira_InformationLetterV_Naglfar.comps.0.useLabel>읽기</PLAMilira_InformationLetterV_Naglfar.comps.0.useLabel>
+  <PLAMilira_InformationLetterV_Naglfar.comps.0.customDiaLog.0.content>5424년, 13살이 된 스쿨드는 언니들이 새해 방문 때마다 들려주는 지상의 삶에 대해 점점 더 큰 호기심을 갖게 되었습니다. 그녀는 매년 부모님과 언니들에게 자기도 지상에 데려가 놀게 해달라고 졸랐습니다.\n\n"애가 너무 어려요. 아직 학교도 다 안 마쳤는데, 무슨 일이라도 생기면 어떡하니?"\n\n"저도 막내를 지상에 보내는 걸 전적으로 찬성하는 건 아니지만, 우리 거점은 이제 꽤 크고 안전해요. 집에만 있으면 계속 내려가겠다고 떼만 쓸 거예요."\n\n"우르드 언니는 대단해요, 혼자서 습격자들을 쫓아낼 수도 있다고요. 공부라면 제가 가르칠게요. 남은 학업 과정은 그리 중요하지도 않고요."\n\n부모님과 상의 끝에, 우르드와 베르단디는 결국 스쿨드를 지상 거점으로 데려와 함께 지내기로 결정했습니다.\n\n아직 배움의 시기였던 스쿨드는 거점의 모든 것에 엄청난 호기심을 보였습니다. 매일 쥐 수인 방문객의 꼬리를 잡아당기거나, 이름 모를 풀을 한 움큼 쥐고 근처의 드래곤 소녀들에게 먹이로 주곤 했습니다. 고양이 상인들을 처음 만났을 때 그녀의 반응은 언니들 못지않게 열광적이었습니다.\n\n"네 귀에는 솜털도 있구나, 정말 부드러워."\n\n"하악..."\n\n이 시기에 스쿨드의 수업을 마친 뒤, 동생을 끔찍이 아끼던 베르단디는 종종 우르드에게 근처 키이로 정착지를 방문할 때 호위해 달라고 부탁했습니다.\n\n"그쪽 보안은 우리만큼 좋지 않아. 공격이라도 받으면 어떡하려고?"\n\n"언니 혼자서도 우리 거점 공격은 거의 다 막아내잖아? 사람을 몇 명 더 데려가서 가는 길에 해적이나 좀 쫓아내 주지 뭐."\n\n"그리고 우리 거점이 안정된 뒤로 공격받은 지가 얼마나 됐어? 주변 정찰도 다 끝냈고, 근처에 적대적인 해적은 없어."\n\n"알았어, 네 말대로 할게. 하지만 일주일에 딱 한 번뿐이야. 그 이상 위험을 감수하게 할 순 없어."\n\n5429년, 스쿨드는 언니들의 보살핌 아래 크레이돌에서는 배울 수 없었던 많은 지식을 익히며 충실한 삶을 살았습니다. 18세인 스쿨드는 밀리라 문화에서는 아직 성인이 아니었지만, 주변의 많은 동맹 세력 친구들은 그녀를 위해 지상식 성인식을 열어주었습니다.\n\n"우리 귀에 관심이 많아 보여서, 우리 최고 장인이 너를 위해 폭신폭신한 쥐 귀를 만들었어."\n\n"이 종이접기는 내가 직접 접은 거다냥. 너희 종족의 후광을 어떻게 접을지 고민하느라 힘들었다냥."\n\n"너희 종족은, 음, 요리를 별로 못한다고 들었어. 이건 우리 특제 요리야."\n\n"다들 자리에 앉으세요. 곧 음식이 준비될 거예요."\n\n폭신한 쥐 귀를 쓰고 고양이 종이접기를 든 채 그 어느 때보다 밝게 웃는 스쿨드와, 손님들을 맞이하느라 분주한 베르단디를 보며 우르드는 자신과 의회의 지상에 대한 시각이 너무 보수적이고 보수적이었던 것은 아닌지 생각하기 시작했습니다. 지상의 대다수 사람은 고정관념만큼 나쁘지 않았습니다. 두 동생이 행복하게 살 수만 있다면, 그녀는 그들을 지키기 위해 무엇이든 할 준비가 되어 있었습니다.</PLAMilira_InformationLetterV_Naglfar.comps.0.customDiaLog.0.content>
+  <PLAMilira_InformationLetterVI_Naglfar.label>파일: 밀리라 5449</PLAMilira_InformationLetterVI_Naglfar.label>
+  <PLAMilira_InformationLetterVI_Naglfar.description>밀리라에 관한 기록 파일입니다.</PLAMilira_InformationLetterVI_Naglfar.description>
+  <PLAMilira_InformationLetterVI_Naglfar.comps.0.useLabel>읽기</PLAMilira_InformationLetterVI_Naglfar.comps.0.useLabel>
+  <PLAMilira_InformationLetterVI_Naglfar.comps.0.customDiaLog.0.content>\n"언니, 서쪽에서 유랑민들이 와서 식량 40상자를 달라고 해요."\n\n"? 방금 가져와서 난 먹지도 못했는데. 알았어, 그냥 줘버려."\n\n"베르단디, 깃털 원단이 다 떨어졌어. 시간 날 때 옆 동네 키이로 마을에 가서 가죽 좀 사 올 수 있어?"\n\n"알았어. 저기, 스쿨드도 데려가면 안 돼? 아이 참, 이제 걔도 다 컸는데 괜찮을 거야."\n\n지난 20년 동안 세 자매는 대부분의 시간을 지상에서 행복하고 보람차게 보냈습니다. 거점은 해가 갈수록 규모를 갖추어갔고, 그 지역에서 이름난 경제 및 문화의 중심지가 되었습니다. 크레이돌에 사는 많은 친구조차 호기심에 방문할 정도였습니다.\n\n"여기가 하늘 도시 거리보다 더 활기차네! 에휴, 의회의 그 고리타분한 영감님들은 아직도 허가를 안 내준다니까. 아니었으면 나도 너희처럼 내려와서 놀았을 텐데."\n\n"그런 날이 올 거야. 우린 이제 전쟁을 찬성하지 않잖아. 변화하는 데는 시간이 걸리는 법이야."\n\n세 사람은 물자를 보충하거나 가족과 친구를 만날 때, 혹은 명절 때만 크레이돌로 돌아갔습니다. 그때마다 이웃들은 그들을 에워싸고 도서관에도 기록되지 않은 다양한 지상의 일들에 관해 묻곤 했습니다.\n\n"부모님 말씀을 듣고 몇 년만 돌아가 있는 게 좋겠어. 하늘 도시의 환경이 여기보다 훨씬 좋잖니. 취미를 기른다고 생각하렴. 네가 원하는 건 뭐든 배울 수 있어."\n\n"안 들을 거야! 내 취미는 여기 있단 말이야! 안 돌아갈 거야!" 우르드와 부모님이 38세가 된 스쿨드에게 정식 교육을 위해 크레이돌로 돌아가라고 거듭 권유했지만, 스쿨드에게 거점을 떠나는 것은 한 달 동안 영양 죽만 먹는 것보다 끔찍한 일이었습니다. 게다가 지상에서도 베르단디 언니에게 배울 수 있었으니까요.\n\n"그럼 이렇게 하자. 돌아가서 체력 검사랑 사관학교 입학시험만 봐봐. 네 실력이 어느 정도인지 일단 확인은 해야 하니까."\n\n과연 스쿨드의 말대로, 오랜 지상 생활 덕분에 그녀의 체력은 가사 노동조차 밀리라들에게 맡기고 빈둥거리던 또래들보다 훨씬 뛰어났습니다. 입학시험 성적의 경우, 수명이 긴 밀리라들에게 크레이돌의 요구 수준은 그리 엄격하지 않았습니다. 언니의 지도 아래 독학해온 스쿨드는 간신히 합격선을 넘겼습니다.\n\n"그럼 됐다. 엄마랑 아빠, 나도 더는 뭐라 안 할게. 대신 물자를 가지러 갈 때마다 도서관에서 책을 몇 권씩 빌려와야 해. 언니가 다 읽는지 감시할 거야."\n\n그렇게 크레이돌에서 태어났지만 하늘 도시에서 보낸 시간이 거의 없는 아주 드문 밀리라 중 한 명으로서, 스쿨드는 두 언니와 함께 거점 생활을 이어갔습니다.</PLAMilira_InformationLetterVI_Naglfar.comps.0.customDiaLog.0.content>
+  <PLAMilira_InformationLetterVII_Naglfar.label>파일: 밀리라 5464</PLAMilira_InformationLetterVII_Naglfar.label>
+  <PLAMilira_InformationLetterVII_Naglfar.description>밀리라에 관한 기록 파일입니다.</PLAMilira_InformationLetterVII_Naglfar.description>
+  <PLAMilira_InformationLetterVII_Naglfar.comps.0.useLabel>읽기</PLAMilira_InformationLetterVII_Naglfar.comps.0.useLabel>
+  <PLAMilira_InformationLetterVII_Naglfar.comps.0.customDiaLog.0.content>5464년, 베르단디의 오랜 끈기 끝에 의회는 그들의 거점에 대한 종합 평가를 실시했고, 마침내 지상 외교관 직책을 신설하자는 안건을 통과시켰습니다. 개방적인 대외 정책이 시작된다는 소식은 하룻밤 사이에 하늘 도시 곳곳으로 퍼져나갔습니다.\n\n"들었어? 의장님이 기자들에게 크레이돌이 지상과 우호적인 교류를 맺을 거라고 직접 말씀하셨대."\n\n"이제야 정신을 차렸군? 진작 그랬어야지. 마지막 전쟁을 치른 지가 언제인데 아직도 옛날 규칙만 따르고 있었담?"\n\n"너희들 진심이야? 그럼 내 동물 연구소는 수십 년째 왜 승인이 안 나는 건데!"\n\n거점 주변 동맹 세력들의 지지 서명과 밀리라 친구들의 추천 덕분에, 94세의 베르단디는 당연하게도 크레이돌의 첫 번째 외교관으로 선출되었습니다. 53세인 스쿨드 역시 후보에 올랐으나, 너무 어린 나이 탓에 의회는 그녀를 언니들의 보좌관으로 임시 배정하고 성인이 되면 정식 직책을 주기로 했습니다. 우르드는 전직 발키리 선봉대 경력을 인정받아 외교 호위관으로 선정되었습니다.\n\n"조심하렴. 너희 거점은 위치가 좋아서 주변에 나쁜 사람이 별로 없었지만, 본격적인 외교가 시작되면 다른 세력들이 뭘 원할지 아무도 모른단다."\n\n"걱정 마세요, 엄마. 제가 두 동생을 지킬게요."\n\n이후 10년 동안 우르드는 호위관으로서 동생들과 함께 거점과 여러 세력의 정착지를 오갔고, 크레이돌로 돌아가 의회에 결과를 보고했습니다. 외교 관계 수립 소식을 듣자마자 즉시 무역 계획을 세우는 친절한 마을도 있었고, 거점에 들어서는 순간부터 그들의 첨단 장비를 탐내는 부족들도 있었습니다. 하지만 자매들의 공동 노력으로 크레이돌과 많은 지상 세력 간의 관계는 개선되었습니다. 모든 것이 가능한 한 긍정적으로 발전하고 있었습니다. 사실 수천 년 전의 전쟁 이야기를 꺼냈을 때, 대부분의 지상 거주자들은 거의 기억하지 못했습니다. 오직 소수의 세력만이 추상적인 텍스트로 이 모호한 역사를 기록하고 있을 뿐이었습니다.\n\n5479년, 의회 내 보수파의 오랜 방해에도 불구하고 크레이돌은 많은 지상 세력과 예비 동맹을 맺는 데 성공했습니다. 다만 크레이돌의 거주 환경과 역사적 문제로 인해 지상인들에게는 무역과 일방향 거주권만을 개방했습니다.\n\n갑자기 쏟아져 들어온 수많은 수입 식품은 밀리라 요리에만 국한되어 있던 하늘 엘프들의 세계관에 도전장을 내밀었습니다. 상점 윈도우는 다양한 옷감으로 만든 새로운 스타일의 의류로 채워졌습니다. 거점 출신의 몇몇 키이로 상인들은 크레이돌에 체인점을 열겠다고 제안하기도 했지만, 하늘 도시의 기온 환경을 알게 된 멍청한 고양이들은 곧바로 그 생각을 포기했습니다.\n\n"공기가 없다냥? 영하 45도가 상온이라냥??? 형개도 못 기른다냥???? 굶어 죽겠다냥."\n\n한편, 크레이돌은 지상 세력들이 외부 위협에 더 잘 대응할 수 있도록 낮은 단계의 태양강 단조 기술과 밀리라 재배 기술 일부를 공유했습니다. 일부 지나치게 열성적인 지상 거주자들은 밀리라를 하늘에서 내려와 축복을 내리는 신으로 숭배하는 종교를 만들기까지 했습니다.\n\n"들었어? 최근 지상에 미친놈들이 잔뜩 나타나서 우리만 보면 '주님, 주님' 거린다더라고."\n\n"어휴, 무슨 사이비 종교 같네."\n\n스스로를 '교황'이라 칭하는 자가 이끄는 이 광신적인 추종자들은 그가 창시한 신앙을 사방에 퍼뜨렸고, 놀라울 정도로 빠르게 수많은 신도를 모았습니다. 그들은 자신들만의 성스러운 도시를 건설하고, 그들이 '주님'이라 부르는 메카노이드들의 이름을 딴 귀족 체계를 세웠으며, 스스로를 **'하늘깃털 교회'**라고 불렀습니다. 크레이돌의 장로들조차 이런 현상은 처음 보았습니다. 의회는 유화적인 태도로 핵심 기술을 유출하지 않는 선에서 그들의 기도에 따라 더 많은 과학적, 물질적 원조를 제공했습니다. 이러한 지원이 이어지자 교회는 하늘 엘프들에게 더욱 집착하게 되었고, 그들의 종교는—완전히 평화롭지는 않았지만—점점 더 많은 신도를 확보해 나갔습니다.\n\n"아마 지상인들은 그냥 종교를 좋아하는 걸지도 몰라. 책에서 봤는데, 옛날에는 이스탄불인가 하는 곳을 뭐라고 부를지 가지고 천 년 넘게 싸웠다더라고."</PLAMilira_InformationLetterVII_Naglfar.comps.0.customDiaLog.0.content>
+  <PLAMilira_InformationLetterVIII_Naglfar.label>피 묻은 파일: 배신 5486</PLAMilira_InformationLetterVIII_Naglfar.label>
+  <PLAMilira_InformationLetterVIII_Naglfar.description>배신에 관한 기록 파일입니다.</PLAMilira_InformationLetterVIII_Naglfar.description>
+  <PLAMilira_InformationLetterVIII_Naglfar.comps.0.useLabel>읽기</PLAMilira_InformationLetterVIII_Naglfar.comps.0.useLabel>
+  <PLAMilira_InformationLetterVIII_Naglfar.comps.0.customDiaLog.0.content>그 후 몇 년 동안 크레이돌은 상호 이익의 원칙에 따라 지상 세계와 꾸준히 교류했습니다. 의회 내의 반대 목소리는 대중의 열광과 만족감에 비하면 미미한 수준이었습니다.\n\n5486년, 스쿨드는 마침내 75번째 생일을 맞이했습니다. 수년간의 경험은 세 자매에게 성숙함과 침착함을 더해주었습니다.\n\n특별한 기념비적 의미를 기리기 위해, 의회와의 논의 끝에 스쿨드의 성인식과 정식 외교관 취임식을 원래의 지상 거점에서 열기로 결정했습니다. 거의 한 세기에 걸친 발전 끝에 이곳은 지상에서 크레이돌의 경제 및 문화 중심지가 되었으며, 모든 지역의 방문객과 상인이 매일 모여드는 장소가 되었습니다. 하늘깃털 교회조차 그곳에 순번제 선교사를 배치해 신앙을 전파하고 있었지만, 대부분의 사람은 밀리라들과 마찬가지로 그들을 그저 좀 유난스러운 광신도 정도로 여겼습니다.\n\n오전 8시 13분, 스쿨드, 베르단디, 우르드와 부모님, 친구들, 그리고 의회의 임명관들이 거점에 도착했습니다. 크레이돌과 지상 문명의 관계 개선에 가장 큰 공을 세운 세 사람은 도착하자마자 뜨거운 환영을 받았습니다.\n\n오후 12시 02분, 행사가 공식적으로 시작되었습니다. 거점의 모든 이들이 중앙 광장에 모였습니다. 군중의 시선 아래, 스쿨드는 두 언니와 함께 연단 위로 걸어 올라갔습니다.\n\n오후 12시 04분, 누군가 타격 좌표를 제공한 듯 둔탁한 폭발음과 함께 여러 발의 고속 EMP 포탄이 거점의 모든 고각 보호막을 정밀하게 무력화했습니다.\n\n오후 12시 05분, 누구도 반응할 틈도 없이 포탄이 공기를 가르는 비명이 하늘을 찢었습니다. 여러 차례의 강렬한 집중 포격이 거점 위로 쏟아졌습니다.\n\n오후 12시 12분, 포격이 멎은 후 크레이돌의 장비를 갖춘 대규모 공격군과 정체불명의 밀리라 병사 및 기사들이 거점 주변에 나타났습니다. 거점 내부의 하늘깃털 교회 선교사들도 변장을 벗어 던지고 미리 숨겨둔 이온 소총을 꺼내 혼란을 가중했으나, 생존한 밀리라들에 의해 빠르게 진압되었습니다.\n\n오후 12시 23분, 자신의 부상도 잊은 채 베르단디는 필사적으로 중상을 입고 의식을 잃은 스쿨드를 찾아냈고, 다행히 폭발에 기절하기만 했던 부모님과 재회했습니다. 응급 처치를 마친 후, 우르드와 전투 능력이 남은 경비대원들은 주변 부상자들의 퇴로를 확보하기로 했습니다. 돌파팀의 화력에 눌린 것인지 아니면 다른 계획이 있는 것인지, 공격자들은 그들을 의도적으로 피하며 거점 중심부를 향해 진격을 계속했습니다.\n\n오후 1시 47분, 모두가 구조된 부상자들을 이끌고 크레이돌로 철수했습니다. 소식을 접한 의회는 인근의 군집 경비 부대를 급파하여 거점을 지원했으나 공격자들의 흔적은 남아 있지 않았습니다. 그들과 함께 태양 제련소 같은 생산 시설과 막대한 양의 원자재가 사라졌습니다.\n\n오후 5시 54분, 현장에 남겨진 흔적과 밀리라들의 시각 기록을 토대로 공격자의 정체가 확인되었습니다. 그들은 이전에 그토록 광신적이었던 종교 집단, **'하늘깃털 교회'**였습니다.</PLAMilira_InformationLetterVIII_Naglfar.comps.0.customDiaLog.0.content>
+  <PLAMilira_InformationLetterIX_Naglfar.label>파일: 균열 5486</PLAMilira_InformationLetterIX_Naglfar.label>
+  <PLAMilira_InformationLetterIX_Naglfar.description>균열에 관한 기록 파일입니다.</PLAMilira_InformationLetterIX_Naglfar.description>
+  <PLAMilira_InformationLetterIX_Naglfar.comps.0.useLabel>읽기</PLAMilira_InformationLetterIX_Naglfar.comps.0.useLabel>
+  <PLAMilira_InformationLetterIX_Naglfar.comps.0.customDiaLog.0.content>며칠 뒤인 5486년, 스쿨드는 크레이돌의 최고급 의료 처치를 받은 끝에 의식을 되찾았습니다. 심각한 다리 골절 외에는 다행히 큰 부상이 없었지만, 병원에서 지속적인 안정이 필요한 상태였습니다. 베르단디의 부상은 비교적 가벼워 신속히 처치를 받고 곧 퇴원했습니다. 첫 번째 외교관이자 지상 교류의 핵심 인물이었던 베르단디가 회복하자마자, 의회의 보수파들은 기회를 놓치지 않고 여론을 조작하며 그녀를 공개적으로 비난했습니다. 그들 중 한 명은 평화로운 관계를 구축하겠다는 망상에 빠져 조상의 원칙을 저버리고 지상인을 과하게 신뢰한 나머지, 스스로 재앙을 불러들였다며 그녀를 몰아세웠습니다.\n\n"어디 감히 그 입을 더 놀리는가!"\n\n분노를 억눌러왔던 우르드가 탁자를 내리치며 일어나 발언자를 노려보았습니다. 그녀의 오른손은 허리춤에 찬 검의 손잡이를 바스러뜨릴 듯 쥐고 있었고, 뿜어져 나오는 압도적인 살기는 당장에라도 같은 동족을 베어 넘길 기세였습니다. 순간 장내에는 정적이 감돌았고, 아무도 입을 떼지 못했습니다. 한참이 지나서야 보안 요원들이 조심스럽게 다가와 그녀를 회의장에서 퇴장시켰습니다.\n\n"그 빌어먹을 교회의 이단자 놈들! 처음부터 수작을 부릴 줄 알았어! 어떻게 감히 그런 짓을!"\n\n"이제 베르단디는 의회의 저 고리타분한 영감님들에게 괴롭힘당하게 생겼어. 그들에게는 비난할 완벽한 명분이 생긴 셈이니까. 휴."\n\n"이건 베르단디의 잘못이 아니야! 전초 기지가 얼마나 번창했는지 다들 봤잖아! 우린 그녀를 지지해!"\n\n자매들의 친구들이 베르단디를 강력히 옹호하며 결백을 증명하려 애썼지만, 여론 조작은 바람에 눕는 풀잎을 굽히는 것만큼이나 쉬운 일이었습니다. 때로는 뉴스 헤드라인의 단어 몇 개를 바꾸는 것만으로도 대중의 관심을 돌리기에 충분했습니다.\n\n결국 여론에 밀린 의회는 다음과 같은 결정을 내렸습니다.\n\n1. 최우선 과제로 모든 지상 거점을 즉시 포기한다. 수단과 방법을 가리지 않고 공유된 모든 기술과 생산 시설을 회수하며, 모든 지상 문명과의 무역 및 외교 관계를 일시적으로 단절한다.\n\n2. 베르단디와 스쿨드의 외교관 직위를 무기한 박탈한다. 향후 외교관 직책은 의회의 만장일치 승인이 없는 한 재신설하지 않는다.\n\n3. 스스로를 '하늘깃털 교회'라 칭하는 세력을 결코 용서받을 수 없는 철천지원수로 규정한다.\n\n\n5487년, 스쿨드는 베르단디와 부모님의 보살핌 속에 대부분 회복되었습니다. 그러나 우르드는 의회의 결정 이후 내성적이고 말수가 적어지더니 정치적 사안에 관심을 갖기 시작했고, 다시 백전 선봉대의 대열에 합류하기로 했습니다.\n\n"언니, 꼭... 다른 사람 같아. 의회에서 있었던 일은 너무 마음에 두지 마. 그들이 나한테 했던 말은 정말 심했지만, 이제 다 지난 일인걸."\n\n"적어도 언니랑 나 둘 다 무사하잖아. 우리에겐 아직 시간이 많아. 너무 스스로를 몰아세우지 마."\n\n"음. 너희는 편히 쉬렴. 난 괜찮아."\n\n같은 해, 지상 정찰팀은 하늘깃털 교회가 약탈한 기술을 사용하여 밀리라 장비와 하급 밀리라들을 대량 생산하기 시작했다는 보고를 올렸습니다. 우르드는 빈번하게 토벌팀에 합류하여 그들의 캠프를 습격하고 소탕하기 시작했습니다.\n\n2년 뒤, 크레이돌의 최대 의류 공급처였던 키이로들과의 무역마저 대외 정책으로 인해 차단되자, 수입 의류 재고가 거의 바닥을 드러냈습니다. 고양이 재봉사들이 손수 짠 정교한 의복에 익숙해진 밀리라들은 강한 불만을 나타냈습니다. 한편, 크레이돌의 보호를 받지 못하게 된 키이로 정착지들은 빈번한 습격에 노출되기 시작했습니다.\n\n몇 차례의 회의 끝에, 의회는 키이로들이 크레이돌에 어떠한 위협도 되지 않는다고 결론짓고 결국 그들에게만 예외적으로 모든 제한을 해제하기로 했습니다.\n\n같은 해, 우르드는 자신의 정치적 인맥과 군사적 성과를 활용해 이례적인 승진을 거듭하며 의회 집행관 중 한 명이 되었습니다.</PLAMilira_InformationLetterIX_Naglfar.comps.0.customDiaLog.0.content>
+  <PLAMilira_InformationLetterX_Naglfar.label>파일: 균열 5490</PLAMilira_InformationLetterX_Naglfar.label>
+  <PLAMilira_InformationLetterX_Naglfar.description>균열에 관한 기록 파일입니다.</PLAMilira_InformationLetterX_Naglfar.description>
+  <PLAMilira_InformationLetterX_Naglfar.comps.0.useLabel>읽기</PLAMilira_InformationLetterX_Naglfar.comps.0.useLabel>
+  <PLAMilira_InformationLetterX_Naglfar.comps.0.customDiaLog.0.content>"당신... 이건 강압이야! 언론에 폭로하겠어!"\n\n"하, 아직도 그런 말을 할 배짱이 있군. 예전에 우리를 어떻게 박해했는지 잊지 마. 내일 헤드라인에 누구 이름이 비난받게 될지 어디 한번 두고 보자고."\n\n5490년, 165세의 우르드는 압도적인 대중적 지지와 과반수 의석을 확보하며 의회 수석 집행관으로 선출되었습니다. 취임하자마자 그녀는 의회 의석에 대한 대대적인 개편을 단행했습니다. 강압적인 조치들을 통해 기존 보수파 의원들을 모두 몰아내고, 자신의 두 동생과 측근들을 새로운 의회 집행관으로 임명했습니다.\n\n5491년, 우르드의 주도 아래 크레이돌은 보복이라도 하듯 키이로를 제외한 모든 지상 문명을 철천지원수로 선포했습니다.\n\n"쾅!" 집무실 문이 거칠게 열렸습니다.\n\n"언니, 이게 언니가 제안한 안건이라니! 도대체 어떻게 된 거야?!"\n\n"뉴스에 나온 그대로야. 우리는 하늘깃털 교회와 연루되었거나 크레이돌에 조금이라도 위협이 되는 모든 지상 거주자를 박멸할 거야. 천 년 전 우리 조상들이 했던 것처럼 말이지."\n\n"어떻게 그런 말을 할 수 있어! 그럼 베르단디 언니가 그동안 해온 노력이 다 물거품이 되는 거잖아!"\n\n"베르단디와는 이미 얘기 끝났어. 이제 내 말을 따르기로 했으니까. 너도 적응하는 법을 배워야 해. 지상은 네 생각만큼 안전하지 않아."\n\n"얘기를 했다고?! 언니는 원래 자기 의견을 강하게 내세우는 성격이 아니잖아. 설득한 거야, 아니면 강요한 거야? 언니가 예전 사람들을 어떻게 쫓아냈는지 내가 모를 줄 알아? 언니는 완전히 딴사람이 됐어. 저 보수파들보다 훨씬 더 극단적이라고!"\n\n"그럼 내가 어떻게 하길 바래! 너 거기서 죽을 뻔했던 건 기억이나 하니? 너를 끌어낸 건 나랑 베르단디였어! 이번엔 하늘깃털 교회였지만, 다음번엔 또 누가 그럴 줄 알고? 또 가서 목숨이라도 버리겠다는 거야?!"\n\n이 정책은 스쿨드의 강렬한 불만을 샀습니다. 우르드와 대화하려던 여러 차례의 시도가 실패로 돌아가자, 스쿨드는 "너와 더 많은 시민의 안전을 철저히 보호하기 위해서"라는 언니의 명분을 받아들일 수 없었습니다. 그녀는 자진해서 의회에서 물러났습니다. 베르단디와 부모님이 두 사람 사이를 중재하려 애썼지만 아무 소용이 없었습니다.\n\n5492년, 의회는 소형 전초 기지 군집과 대형 자율형 밀리라 초소 배치에 관한 우르드의 안건을 통과시켰습니다. 베르단디는 동생들과 지상에서 함께했던 삶을 깊이 그리워했지만, 결국 단호한 우르드를 설득하지 못하고 무력하게 언니를 따르기로 했습니다.\n\n같은 해, 스쿨드는 대성당에서 일자리를 찾았고 근처 아카데미에서 역사를 가르치는 시간제 강사 일을 시작했습니다. 그녀는 크레이돌의 젊은 세대부터 시작해서 무고한 세력들과의 관계를 회복해보려 노력했습니다.\n\n5494년, 하늘깃털 교회가 반중력 기술을 터득하자 크레이돌에 대한 위협이 급격히 증가했습니다. 그러나 우르드 체제의 의회는 이 기술로 인한 모든 위협을 제거하기 위해 지상 거주자들을 대상으로 무차별적인 대규모 숙청을 감행하는 길을 택했습니다.\n\n"지금 무슨 짓을 하고 있는지 알기나 해?! 교회 하나 잡겠다고 조금이라도 연관된 사람들을 전부 짓밟겠다는 거야?!"\n\n"너야말로 네가 무슨 짓을 하는지 똑똑히 알아둬! 네 그 헛된 망상이 우리 국민을 지켜줄 것 같아? 반중력 기술이 우리에게 얼마나 큰 위협인지 알기나 하냐고!"\n\n"이제 언니가 누군지 모르겠어! 당신은 내 언니가 아니야!"\n\n스쿨드와 우르드의 갈등은 완전히 폭발했습니다. 매일 이어지는 논쟁은 자매 관계를 단절하기 직전까지 몰고 갔습니다. 베르단디는 의회의 번거로운 전투 보고서를 처리하거나 자매 사이를 중재하느라 하루하루를 보냈습니다. 정신적 한계에 다다른 그녀는 위안을 찾기 위해 잠시 부모님 댁으로 거처를 옮겼습니다.\n\n"정말로 이렇게 서둘러야만 해? 다른 길은 없는 거야? 언니는 항상 내 말만 듣고 따라오라고 하지만, 나도 이제 언니가 누구인지 잘 모르겠어."\n\n"나를 믿어줘. 이번이 마지막이야. 이게 다 끝나고 나면 더 이상의 위협은 없을 거야."\n\n"...하아."\n\n5498년, 베르단디와 태양강 장인들의 도움을 받아 우르드는 **'나글파르**급 행성 파괴용 성간함 계획을 공식 제안했습니다. 여론은 일시적으로 들끓었으나, 치밀하게 기획된 영향력 아래 전투에 능한 밀리라들은 대부분 이 계획을 받아들였습니다.\n\n같은 해, 87세가 된 스쿨드는 우르드에 대한 기대를 완전히 접었습니다. 그녀는 언니 베르단디와 부모님에게 편지 한 통을 남긴 채 몇몇 제자들과 함께 크레이돌을 떠났고, 그녀의 행방은 묘연해졌습니다.\n\n5499년, 우르드와 베르단디가 낸 수많은 실종자 전단에도 불구하고 아무런 정보도 얻지 못했습니다. 마지막 남은 버팀목마저 잃어버린 베르단디는 심신이 지친 채 의회를 떠났습니다.\n\n그해 겨울, 부모님께 작별 인사를 드린 뒤, 베르단디는 스쿨드의 편지와 자신이 쓴 편지를 우르드에게 보내고 스쿨드의 행방을 찾기 위해 홀로 크레이돌을 떠났습니다.</PLAMilira_InformationLetterX_Naglfar.comps.0.customDiaLog.0.content>
+  <PLAMilira_SolarCrystalReactor.label>흑체 복사 챔버</PLAMilira_SolarCrystalReactor.label>
+  <PLAMilira_SolarCrystalReactor.description>복사 촉매기에 장착하여 태양 수정을 생산하는 데 사용됩니다.</PLAMilira_SolarCrystalReactor.description>
+  <EnemyMiliraNPCSpawner_Sleipnir.label>밀리라 소환 장치</EnemyMiliraNPCSpawner_Sleipnir.label>
+  <EnemyMiliraNPCSpawner_Sleipnir.comps.0.activatedMessageKey>EnemyMiliraNPCSpawner_Sleipnir</EnemyMiliraNPCSpawner_Sleipnir.comps.0.activatedMessageKey>
+  <EnemyMiliraNPCSpawner_Herfjotur.label>밀리라 소환 장치</EnemyMiliraNPCSpawner_Herfjotur.label>
+  <EnemyMiliraNPCSpawner_Herfjotur.comps.0.activatedMessageKey>EnemyMiliraNPCSpawner_Herfjotur</EnemyMiliraNPCSpawner_Herfjotur.comps.0.activatedMessageKey>
+  <EnemyMiliraNPCSpawner_Hlathguth.label>밀리라 소환 장치</EnemyMiliraNPCSpawner_Hlathguth.label>
+  <EnemyMiliraNPCSpawner_Hlathguth.comps.0.activatedMessageKey>EnemyMiliraNPCSpawner_Hlathguth</EnemyMiliraNPCSpawner_Hlathguth.comps.0.activatedMessageKey>
+  <PLAMilira_RadarMark.label>표식</PLAMilira_RadarMark.label>
+  <New_Solar_Bombardment.label>태양 폭격</New_Solar_Bombardment.label>
+  <New_Test_Bombardment.label>태양 폭격</New_Test_Bombardment.label>
+  <Milira_Orbital_Railcannon_Strike.label>밀리라 궤도 레일건 타격</Milira_Orbital_Railcannon_Strike.label>
+  <Milira_Orbital_Laser.label>밀리라 궤도 레이저</Milira_Orbital_Laser.label>
+  <Milira_Orbital_EMP_Barrage.label>밀리라 궤도 EMP 일제 사격</Milira_Orbital_EMP_Barrage.label>
+  <Milira_Orbital_120mm_HE_Barrage.label>밀리라 궤도 120mm 고폭탄 사격</Milira_Orbital_120mm_HE_Barrage.label>
+  <Milira_Orbital_380mm_HE_Barrage.label>밀리라 궤도 380mm 고폭탄 사격</Milira_Orbital_380mm_HE_Barrage.label>
+  <Milira_Orbital_Cluster_Barrage.label>밀리라 궤도 확산탄 사격</Milira_Orbital_Cluster_Barrage.label>
+  <MiliraBullet_1_Milira_Orbital_Cluster_Barrage.label>밀리라 공중폭발탄 발사기</MiliraBullet_1_Milira_Orbital_Cluster_Barrage.label>
+  <MiliraBullet_2_Milira_Orbital_Cluster_Barrage.label>밀리라 공중폭발탄 발사기</MiliraBullet_2_Milira_Orbital_Cluster_Barrage.label>
+  <MiliraBullet_3_Milira_Orbital_Cluster_Barrage.label>밀리라 공중폭발탄 발사기</MiliraBullet_3_Milira_Orbital_Cluster_Barrage.label>
+  <Milira_Orbital_Gatling_Barrage.label>밀리라 궤도 개틀링 사격</Milira_Orbital_Gatling_Barrage.label>
+  <Milira_Orbital_Airburst_Strike.label>밀리라 궤도 공중폭발탄 타격</Milira_Orbital_Airburst_Strike.label>
+  <Milira_Orbital_Flare_Barrage.label>밀리라 궤도 조명탄 투하</Milira_Orbital_Flare_Barrage.label>
+  <PLAMilira_Flare_Releasing.label>조명탄 빛</PLAMilira_Flare_Releasing.label>
+  <Milira_Orbital_Support_Strike.label>밀리라 궤도 지원 타격</Milira_Orbital_Support_Strike.label>
+  <Harrier_Airstrike_Sweep.label>해리어 공습</Harrier_Airstrike_Sweep.label>
+  <Harrier_Cluster_Bomb_Sweep.label>해리어 확산탄 폭격</Harrier_Cluster_Bomb_Sweep.label>
+  <Harrier_EMP_Sweep.label>해리어 EMP 공격</Harrier_EMP_Sweep.label>
+  <Harrier_Napalm_Sweep.label>해리어 네이팜 폭격</Harrier_Napalm_Sweep.label>
+  <Harrier_Smoke_Sweep.label>해리어 연막 살포</Harrier_Smoke_Sweep.label>
+  <Harrier_Gas_Sweep.label>해리어 가스 살포</Harrier_Gas_Sweep.label>
+  <Harrier_Airburst_Sweep.label>해리어 공중폭발탄 공격</Harrier_Airburst_Sweep.label>
+  <Harrier_FiveKG_Sweep.label>해리어 5KG 폭탄 투하</Harrier_FiveKG_Sweep.label>
+  <Harrier_Strafing_Sweep.label>해리어 기총 소사</Harrier_Strafing_Sweep.label>
+  <PLAMilira_ChurchBombardment.label>지원 포격</PLAMilira_ChurchBombardment.label>
+  <PLAMilira_Naglfar_Left_Bombardment.label>나글파르 함저 포격 지원</PLAMilira_Naglfar_Left_Bombardment.label>
+  <PLAMilira_Naglfar_Middle_Bombardment.label>나글파르 함선 포격 지원</PLAMilira_Naglfar_Middle_Bombardment.label>
+  <SplitManagerDummy.label>분할 관리자</SplitManagerDummy.label>
+  <HediffLaserBeam.label>분할 관리자</HediffLaserBeam.label>
+  <PLAMilira_GameconditionSpawner_Church_Mortar.label>게임 상태 소환기</PLAMilira_GameconditionSpawner_Church_Mortar.label>
+  <PLAMilira_GameconditionSpawner_Milira_HarrierRaid.label>게임 상태 소환기</PLAMilira_GameconditionSpawner_Milira_HarrierRaid.label>
+  <PLAMilira_GameconditionSpawner_Milira_NaglfarSupport.label>게임 상태 소환기</PLAMilira_GameconditionSpawner_Milira_NaglfarSupport.label>
+  <PLAMilira_Raid_Caller.label>밀리라 습격 호출기</PLAMilira_Raid_Caller.label>
+  <PLAMilira_Raid_Caller_Naglfar.label>밀리라 습격 호출기</PLAMilira_Raid_Caller_Naglfar.label>
+  <PLAMilira_Rescue_Pawn_Spawner.label>소환 장치</PLAMilira_Rescue_Pawn_Spawner.label>
+  <PLAMilira_Rescue_Pawn_Spawner_Noforce.label>소환 장치</PLAMilira_Rescue_Pawn_Spawner_Noforce.label>
+  <MusicPlayer_Connexion.label>음악 재생기</MusicPlayer_Connexion.label>
+  <MusicPlayer_Naglfar.label>음악 재생기</MusicPlayer_Naglfar.label>
+  <PLAMilira_AirburstRocketLauncher.label>공중폭발 집중 이온 방출기</PLAMilira_AirburstRocketLauncher.label>
+  <PLAMilira_AirburstRocketLauncher.description>하늘깃털 교회와의 결별 이후, 크레이돌의 지상 소탕 부대는 이 프로토타입 광역 화기를 한정 배치하기 시작했습니다. 발사된 불안정한 이온 클러스터는 폭발 시 여러 번 분열됩니다. 단일 대상에 대한 살상력은 매우 낮지만, 이론적인 공격 범위가 워낙 넓어 밀집해 있는 지상 거주자들을 상대하기에 이상적입니다. 일설에 의하면 발사기에 실험적인 공간 교란기가 장착되어 있다고 하나, 기술이 너무 복잡하여 조작이 매우 어렵습니다.\n\n왜 대량으로 보급되지 않았냐고요? 제작사들은 "우리 기사들에게 공중폭발탄을 한 번만 더 쏘는 놈이 있으면, 앞으로 밀리라 배양 포드 관리는 니들이 직접 하라"고 만장일치로 선언했습니다.\n\n충전이 가능합니다. 충전된 상태에서는 불안정한 이온 클러스터가 한 번 더 분열합니다.\n\n밀리라 혹은 하늘깃털 교회와 동맹을 맺으면 추가 업그레이드가 가능합니다.\n\n역장 간섭: 공간 교란기의 지능형 간섭 모드를 활성화합니다. 불안정한 이온 클러스터가 충돌 시 추가적인 척력장을 생성합니다. 분열된 이온 클러스터는 사용자의 지능 수준에 따라 일정 확률로 인력장을 생성합니다. 다만 교란기의 복잡성 때문에 밀리라들조차 그 잠재력의 극히 일부만을 끌어낼 수 있습니다.\n\n긴급 지능 회피: 교란기의 지능형 위상 제어 시스템을 활성화합니다. 이온 클러스터의 폭발 범위에 휘말릴 위기에 처한 아군 유닛을 긴급 워프시켜 탈출시킵니다. 제작사들의 목소리가 너무나도 찢어질 듯 날카로웠기 때문입니다.</PLAMilira_AirburstRocketLauncher.description>
+  <PLAMilira_AirburstRocketLauncher.tools.0.label>개머리판</PLAMilira_AirburstRocketLauncher.tools.0.label>
+  <PLAMilira_AirburstRocketLauncher.tools.1.label>총열</PLAMilira_AirburstRocketLauncher.tools.1.label>
+  <MiliraBullet_AirburstRocketLauncher_Charged.label>밀리라 공중폭발탄 발사기 Charged</MiliraBullet_AirburstRocketLauncher_Charged.label>
+  <MiliraBullet_AirburstRocketLauncher.label>밀리라 공중폭발탄 발사기</MiliraBullet_AirburstRocketLauncher.label>
+  <MiliraBullet_Child1_AirburstRocketLauncher.label>밀리라 공중폭발탄 발사기</MiliraBullet_Child1_AirburstRocketLauncher.label>
+  <MiliraBullet_Child2_AirburstRocketLauncher.label>밀리라 공중폭발탄 발사기</MiliraBullet_Child2_AirburstRocketLauncher.label>
+  <MiliraBullet_Child3_AirburstRocketLauncher.label>밀리라 공중폭발탄 발사기</MiliraBullet_Child3_AirburstRocketLauncher.label>
+  <MiliraBullet_2_AirburstRocketLauncher.label>밀리라 공중폭발탄 발사기</MiliraBullet_2_AirburstRocketLauncher.label>
+  <MiliraBullet_3_AirburstRocketLauncher.label>밀리라 공중폭발탄 발사기</MiliraBullet_3_AirburstRocketLauncher.label>
+  <MiliraBullet_4_AirburstRocketLauncher.label>밀리라 공중폭발탄 발사기</MiliraBullet_4_AirburstRocketLauncher.label>
+  <Milira_Rumbler_Splitting.label>플라즈마 럼블러포</Milira_Rumbler_Splitting.label>
+  <Milira_Rumbler_Splitting.description>하늘깃털 교회와의 결별 이후, 크레이돌의 엔지니어들이 경량 소재를 사용하여 개발한 생물권 특화 휴대용 박격포입니다. 전용 집속 탄두는 비행 중 능동적으로 분열하여 목표 구역에 광범위한 포격을 가합니다.\n\n충전이 가능합니다. 충전 상태에서는 모든 에너지를 소모하여 집속 독가스탄을 일제 사격한 뒤, '광범위 포격 모드'에 진입합니다.\n\n광범위 포격 모드에서는 매 사격 시 목표 지점에 8발의 집속 박격포탄을 발사합니다. 정확도는 매우 낮지만 타격 범위가 상당히 넓습니다.\n\n\n밀리라 혹은 하늘깃털 교회와 동맹을 맺으면 추가 업그레이드가 가능합니다.\n\n"타오르는 천둥" 비인도적 박멸 탄두: 충전 모드에서 집속 화학 독가스탄을 발사하도록 전환하며, 충격 지점에 추가로 인화성 담즙을 뿌리고 불을 붙입니다.\n\n"폭우" 집속 탄두: 광범위 포격 모드의 타격 반경이 50% 증가하며, 집속 탄두 분열 시 자탄이 3개 추가됩니다.</Milira_Rumbler_Splitting.description>
+  <Milira_Rumbler_Splitting.tools.0.label>개머리판</Milira_Rumbler_Splitting.tools.0.label>
+  <Milira_Rumbler_Splitting.tools.1.label>총열</Milira_Rumbler_Splitting.tools.1.label>
+  <MiliraBullet_Mother_Charged.label>밀리라 탄환: 럼블러포 (충전됨)</MiliraBullet_Mother_Charged.label>
+  <MiliraBullet_Mother.label>밀리라 탄환: 럼블러포</MiliraBullet_Mother.label>
+  <MiliraBullet_Rumbler_Cannon.label>밀리라 탄환: 럼블러포</MiliraBullet_Rumbler_Cannon.label>
+  <MiliraBullet_Rumbler_CannonCharged.label>밀리라 탄환: 럼블러포</MiliraBullet_Rumbler_CannonCharged.label>
+  <PLAMilira_AntiMateriel_Rifle.label>대물 저격총 VBW-1</PLAMilira_AntiMateriel_Rifle.label>
+  <PLAMilira_AntiMateriel_Rifle.description>중기관총 탄환을 사용하는 이중 모드 중저격총입니다. 크레이돌 엔지니어들이 특별히 개발한 광휘강 투사체는 충격 시 대상의 구조적 무결성에 따라 관통력을 신속하게 조정합니다. 내장된 열 감지 고속 파편탄은 장시간 조준 및 록온 후 어느 정도의 유도 기능을 제공합니다.\n\n특수 광휘강 철갑탄과 지능형 고속 파편탄 사이를 전환할 수 있습니다.\n\n특수 광휘강 철갑탄 모드에서 무기에 표기된 피해량은 기본 수치일 뿐이며, 타격된 유닛의 날카로움 방어력에 따라 피해량과 관통력이 역동적으로 조절됩니다.\n\n고속 파편탄 모드에서는 사용자의 사격 기술에 따라 치명타 확률 보너스를 제공합니다.\n\n\n밀리라 혹은 하늘깃털 교회와 동맹을 맺으면 추가 업그레이드가 가능합니다.\n\nAPFSDS 초고속 철갑탄: 특수 광휘강 철갑탄을 프로토타입 초고속 날개안정분리철갑탄으로 업그레이드합니다. 고정된 장갑에 대한 추가 피해 계수가 250%로 크게 증가하지만, 착용 중인 방어구에 대한 추가 피해 계수는 절반으로 감소합니다.\n\n"날개의 마침표" 합동 전투 프로토콜: 지능형 전투 지휘 통신기가 장착됩니다. 고속 파편탄이 목표에 적중하면 즉시 대상 근처의 아군 유닛에게 신호를 보내 근접 지원 공격을 수행하도록 합니다.</PLAMilira_AntiMateriel_Rifle.description>
+  <PLAMilira_AntiMateriel_Rifle.verbs.Verb_Shoot.label>대물 저격총 VBW-1</PLAMilira_AntiMateriel_Rifle.verbs.Verb_Shoot.label>
+  <PLAMilira_AntiMateriel_Rifle.tools.0.label>개머리판</PLAMilira_AntiMateriel_Rifle.tools.0.label>
+  <PLAMilira_AntiMateriel_Rifle.tools.1.label>총열</PLAMilira_AntiMateriel_Rifle.tools.1.label>
+  <MiliraBullet_AntiMaterielRifle.label>대물 저격총 탄환</MiliraBullet_AntiMaterielRifle.label>
+  <MiliraBullet_AntiMaterielRifle_Smart.label>대물 저격총 탄환</MiliraBullet_AntiMaterielRifle_Smart.label>
+  <PLAMilira_Solar_Breaker.label>발화 브레이커</PLAMilira_Solar_Breaker.label>
+  <PLAMilira_Solar_Breaker.description>지상 탐사팀을 위해 설계된 근접 전투용 산탄총으로, 태양 수정 파편에 에너지를 주입하는 특수 대용량 드럼 탄창이 특징입니다.\n\n충전이 가능합니다. 충전 상태에서는 활성화된 태양 수정 조각을 발사하여 열기 피해를 입히고, 적중된 대상에게 '고에너지 태양 화상' 상태를 부여하여 내부로부터 지속적으로 증발시킵니다.\n\n태양 수정 에너지의 본질적인 불안정성 때문에 충전 모드의 피해량은 거리에 따라 역동적으로 변합니다. 6타일 이내 사격 시 3배의 관통력 보너스와 1.5배의 피해 승수를 얻습니다. 이 혜택은 단계적으로 감소하여 19타일에서 완전히 사라지며, 최대 사거리에서는 관통력 0.5배, 피해량 0.7배까지 약화됩니다.\n\n\n밀리라 혹은 하늘깃털 교회와 동맹을 맺으면 추가 업그레이드가 가능합니다.\n\n시준 수렴기: 수렴기를 설치하여 근접전 효율을 더욱 높입니다. 영거리 정확도가 150%, 근거리 정확도가 160%로 증가합니다.\n\n홍염 코어: 고급 자극 장치가 태양 수정 파편을 더욱 활성화합니다. 충전 모드에서 부여되는 화상 효과가 방어력을 무시하며 발동 간격이 절반으로 줄어듭니다.</PLAMilira_Solar_Breaker.description>
+  <PLAMilira_Solar_Breaker.tools.0.label>개머리판</PLAMilira_Solar_Breaker.tools.0.label>
+  <PLAMilira_Solar_Breaker.tools.1.label>총열</PLAMilira_Solar_Breaker.tools.1.label>
+  <MiliraBullet_SolarCrystalCharged.label>밀리라 탄환: 태양 수정 (충전됨)</MiliraBullet_SolarCrystalCharged.label>
+  <MiliraBullet_SolarCrystal.label>밀리라 탄환: 태양 수정</MiliraBullet_SolarCrystal.label>
+  <PLAMilira_WASP.label>W.A.S.P. 발사기</PLAMilira_WASP.label>
+  <PLAMilira_WASP.description>구역 잠금 모듈과 통합 최적 범위 화력 제어 시스템을 갖춘 미사일 발사기입니다. 목표를 포착하면 상대적 위치 고정 기능을 가진 여러 발의 소형 미사일을 발사하여, 밀리라의 폭발 비행만큼 빠른 목표라도 도망칠 수 없게 만듭니다.\n\n충전이 가능합니다. 충전 상태에서는 충격 지점에 여러 발의 소형 집속 이온탄을 추가로 방출합니다.\n\n\n밀리라 혹은 하늘깃털 교회와 동맹을 맺으면 추가 업그레이드가 가능합니다.\n\n"페로몬" 화력 제어 알고리즘: W.A.S.P. 발사기의 지능형 알고리즘을 활성화합니다. 모든 모드에서 주 목표에 최적의 타격을 주면서 최대한 많은 부차적 목표를 포함할 수 있는 위치를 우선적으로 조준합니다.\n\n"스팅어" 집중 탄두: 집속 이온 탄두에 소형 정밀 유도 미사일을 추가합니다. 충전 모드에서 주 목표에게 방어력을 무시하고 장갑을 녹여버릴 수 있는 확정 타격을 추가로 입힙니다.</PLAMilira_WASP.description>
+  <PLAMilira_WASP.tools.0.label>개머리판</PLAMilira_WASP.tools.0.label>
+  <PLAMilira_WASP.tools.1.label>총열</PLAMilira_WASP.tools.1.label>
+  <MiliraBullet_WASP.label>WASP</MiliraBullet_WASP.label>
+  <MiliraBullet_WASPCharged.label>WASP (충전됨)</MiliraBullet_WASPCharged.label>
+  <PLAMilira_Autocannon.label>오토캐논</PLAMilira_Autocannon.label>
+  <PLAMilira_Autocannon.description>레일건에서 파생된 경량 소구경 견착식 기관포입니다. 중저장갑 유닛에 대한 살상력이 개선되었습니다. "경량"이라는 명칭에도 불구하고, 원래 항공기용 기관총으로 설계되었기에 여전히 상당히 무겁고 번거롭습니다.\n\n철갑 예광탄과 고폭 공중폭발탄 사이를 전환할 수 있습니다.\n\n철갑 예광탄: 소규모 폭발을 일으킬 수 있으며 적절한 장갑 관통력을 갖추고 있습니다. 투사체의 충격력은 목표의 움직임을 크게 저해할 수 있습니다.\n\n고폭 공중폭발탄: 폭발 반경이 넓으며 충격 시 여러 개의 파편을 방출하여 주변 적들에게 피해를 입힙니다. 장갑 관통력은 더 낮습니다.\n\n\n밀리라 혹은 하늘깃털 교회와 동맹을 맺으면 추가 업그레이드가 가능합니다.\n\n2단 강화 철갑탄두: 철갑 예광탄의 관통 성능을 더욱 강화하여 저각 보호막을 무시할 수 있게 합니다. 또한 충격 시 목표 뒤편의 원뿔형 구역에 진동 효과를 발생시킵니다.\n\n포화 장약: 고폭 공중폭발탄의 폭약 충전량을 늘립니다. 충격 시 발생하는 파편 수가 33% 증가하고 파편 비산 범위가 50% 넓어집니다.</PLAMilira_Autocannon.description>
+  <PLAMilira_Autocannon.verbs.Verb_Shoot.label>오토캐논</PLAMilira_Autocannon.verbs.Verb_Shoot.label>
+  <PLAMilira_Autocannon.tools.0.label>개머리판</PLAMilira_Autocannon.tools.0.label>
+  <PLAMilira_Autocannon.tools.1.label>총열</PLAMilira_Autocannon.tools.1.label>
+  <PLAMiliraBullet_Autocannon.label>강철 볼트</PLAMiliraBullet_Autocannon.label>
+  <PLAMiliraBullet_Autocannon_Boost.label>밀리라 탄환: 공중폭발 로켓</PLAMiliraBullet_Autocannon_Boost.label>
+  <PLAMiliraBullet_Autocannon_Child.label>밀리라 탄환: 공중폭발 로켓</PLAMiliraBullet_Autocannon_Child.label>
+  <PLAMilira_Spear.label>FAF-14 스피어</PLAMilira_Spear.label>
+  <PLAMilira_Spear.description>크레이돌 야전군 엔지니어들이 개발한 휴대용 미사일 발사기입니다. 장력장 왜곡 엔진을 장착한 로켓은 놀라운 방식으로 가속하여 목표를 타격합니다.\n\n연구원들을 당황하게 만든 점은, 이 기술을 키이로 부족에게 전수했을 때 그들이 종종 이 발사기를 "뚱뚱한 고양이"라고 줄여 불렀다는 것입니다. 그들의 울음소리 언어에서 발음이 매우 유사하기 때문이라고 합니다.\n\n"장력장 폭발 모드"와 "위상 공간 포격 모드" 사이를 전환할 수 있습니다.\n\n장력장 폭발 모드: 발사된 4발의 미사일은 목표 포착 범위에 진입하면 최대 3번의 장력장 폭발 가속을 수행합니다. 가속 중에는 요격 보호막을 무시하며 비행 속도가 엄청나게 빨라집니다.\n\n위상 공간 포격 모드: 목표 주변에 최대 10발의 소형 폭탄을 즉시 워프시켜 광범위 포격을 가합니다. 재사용 대기시간은 짧지만 피해량과 관통력이 낮고 정확도가 매우 떨어집니다.\n\n\n밀리라 혹은 하늘깃털 교회와 동맹을 맺으면 추가 업그레이드가 가능합니다.\n\n공간 균열장: 장력장 폭발 모드의 미사일에 미세 공간 균열 장치를 장착합니다. 폭발 후 영향권 내 대상 주변의 공간을 지속적으로 왜곡하여 이동 능력을 크게 저하시킵니다.\n\n위상 안정기: 스피어 발사기의 텔레포트 장치를 더욱 정밀하게 조정합니다. 위상 공간 포격 모드에서 미사일의 탐색 범위가 30% 감소하고, 전체 분산 구역이 40% 줄어듭니다.</PLAMilira_Spear.description>
+  <PLAMilira_Spear.verbs.Verb_Shoot.label>FAF-14 스피어</PLAMilira_Spear.verbs.Verb_Shoot.label>
+  <PLAMilira_Spear.tools.0.label>개머리판</PLAMilira_Spear.tools.0.label>
+  <PLAMilira_Spear.tools.1.label>총열</PLAMilira_Spear.tools.1.label>
+  <MiliraBullet_Spear.label>스피어</MiliraBullet_Spear.label>
+  <MiliraBullet_Spear_Teleport.label>스피어</MiliraBullet_Spear_Teleport.label>
+  <Harrier_Airstrike.label>해리어 공습</Harrier_Airstrike.label>
+  <MiliraBullet_Harrier_Cluster_Bomb.label>해리어 확산탄</MiliraBullet_Harrier_Cluster_Bomb.label>
+  <Harrier_EMP.label>해리어 EMP</Harrier_EMP.label>
+  <Harrier_Napalm.label>해리어 네이팜</Harrier_Napalm.label>
+  <Harrier_Smoke.label>해리어 연막</Harrier_Smoke.label>
+  <Harrier_Gas.label>해리어 가스</Harrier_Gas.label>
+  <Harrier_Airburst.label>해리어 공중폭발탄</Harrier_Airburst.label>
+  <MiliraBullet_AirburstRailGun.label>밀리라 탄환: 공중폭발 레일건</MiliraBullet_AirburstRailGun.label>
+  <Harrier_FiveKG.label>해리어 5KG 폭탄</Harrier_FiveKG.label>
+  <Harrier_Strafing.label>해리어 기총 소사</Harrier_Strafing.label>
+  <Plane.label>비행기</Plane.label>
+  <AirstrikePlaneSweep.label>공습 비행</AirstrikePlaneSweep.label>
+  <ClusterBombPlaneSweep.label>확산탄 폭격 비행</ClusterBombPlaneSweep.label>
+  <EMPPlaneSweep.label>EMP 공격 비행</EMPPlaneSweep.label>
+  <NapalmPlaneSweep.label>네이팜 폭격 비행</NapalmPlaneSweep.label>
+  <SmokePlaneSweep.label>연막 살포 비행</SmokePlaneSweep.label>
+  <GasPlaneSweep.label>가스 살포 비행</GasPlaneSweep.label>
+  <AirburstPlaneSweep.label>공중폭발탄 공격 비행</AirburstPlaneSweep.label>
+  <FiveKGPlaneSweep.label>5KG 폭격 비행</FiveKGPlaneSweep.label>
+  <StrafingPlaneSweep.label>기총 소사 비행</StrafingPlaneSweep.label>
+  <Harrier_Airstrike_Ball.label>해리어 공습 호출기</Harrier_Airstrike_Ball.label>
+  <Harrier_Cluster_Bomb_Ball.label>해리어 확산탄 호출기</Harrier_Cluster_Bomb_Ball.label>
+  <Harrier_EMP_Ball.label>해리어 EMP 호출기</Harrier_EMP_Ball.label>
+  <Harrier_Napalm_Ball.label>해리어 네이팜 호출기</Harrier_Napalm_Ball.label>
+  <Harrier_Smoke_Ball.label>해리어 연막 호출기</Harrier_Smoke_Ball.label>
+  <Harrier_Gas_Ball.label>해리어 가스 호출기</Harrier_Gas_Ball.label>
+  <Harrier_Airburst_Ball.label>해리어 공중폭발탄 호출기</Harrier_Airburst_Ball.label>
+  <Harrier_FiveKG_Ball.label>해리어 5KG 호출기</Harrier_FiveKG_Ball.label>
+  <Harrier_Strafing_Ball.label>해리어 기총 소사 호출기</Harrier_Strafing_Ball.label>
+  <PLAMilira_Arc_Thrower.label>아크 투척기</PLAMilira_Arc_Thrower.label>
+  <PLAMilira_Arc_Thrower.description>잠시 동안 수만 볼트의 전압을 생성할 수 있는 강력한 전기장 발생기입니다. 발사 시 생성된 아크는 즉시 공기를 찢고 목표에 도달하며 최대 3개 유닛 사이를 빠르게 연쇄합니다. 피해량은 낮지만 제압 능력이 매우 뛰어납니다.\n\n충전이 가능합니다. 충전 시 아크의 피해량이 약간 증가하고, 스턴 지속 시간이 길어지며, 탐색 반경이 확장되고 최대 6개 유닛까지 연쇄될 수 있습니다.\n\n\n밀리라 혹은 하늘깃털 교회와 동맹을 맺으면 추가 업그레이드가 가능합니다.\n\n확장 회로: 여러 개의 내부 아크 연장기를 선형 사슬로 안전하게 연결합니다. 아크 투척기의 탐색 반경을 20% 넓히고 2개 유닛에 추가로 연쇄될 수 있게 합니다.\n\n전자 증폭기: 아크 투척기에서 생성되는 전압을 더욱 증폭합니다. 아크 피해량을 30% 늘리고 제어 효과의 지속 시간을 30% 연장합니다.</PLAMilira_Arc_Thrower.description>
+  <PLAMilira_Arc_Thrower.tools.0.label>개머리판</PLAMilira_Arc_Thrower.tools.0.label>
+  <PLAMilira_Arc_Thrower.tools.1.label>총열</PLAMilira_Arc_Thrower.tools.1.label>
+  <PLAMiliraBullet_ArcThrower_Charged.label>아크</PLAMiliraBullet_ArcThrower_Charged.label>
+  <PLAMiliraBullet_ArcThrower.label>아크</PLAMiliraBullet_ArcThrower.label>
+  <Milira_RaySG_Trident.label>레이 SG 트라이던트</Milira_RaySG_Trident.label>
+  <Milira_RaySG_Trident.description>교교형 레이저 발생기가 통합된 집중 에너지 소총으로, 한 번의 일제 사격으로 세 줄기의 핵분열 광선을 발사합니다.\n\n충전이 가능합니다. 충전 상태에서는 사거리가 증가하고 예열 시간이 크게 단축되며, 핵분열 광선의 피해량이 50% 증가하고 광선이 최대 1명의 적에게 튕길 수 있습니다.\n\n\n밀리라 혹은 하늘깃털 교회와 동맹을 맺으면 추가 업그레이드가 가능합니다.\n\n광선 발생기 예비 충전: 트라이던트의 전력 공급 시스템을 개선하여 일제 사격당 가용 에너지와 충전 효율을 크게 높입니다. 충전 모드에서 핵분열 광선이 최대 3번까지 튕길 수 있으며, 에너지 고갈 후 재충전 시간이 절반으로 단축됩니다.\n\n태양 프리즘 과부하 집중: 분자 배열 태양 프리즘 집중 장치를 사용하여 핵분열 광선의 온도를 메카노이드 장갑마저 녹일 수 있는 수준으로 높입니다. 충전 모드에서의 열기 관통력이 크게 증가하며, 적중 시 주 목표 지점에 소규모 이온 폭발을 일으킬 확률이 생깁니다.</Milira_RaySG_Trident.description>
+  <Milira_RaySG_Trident.tools.0.label>개머리판</Milira_RaySG_Trident.tools.0.label>
+  <Milira_RaySG_Trident.tools.1.label>총열</Milira_RaySG_Trident.tools.1.label>
+  <MiliraBullet_RayLink_Charged.label>광선</MiliraBullet_RayLink_Charged.label>
+  <MiliraBullet_RayLink.label>광선</MiliraBullet_RayLink.label>
+  <PLAMilira_Laser_Cannon.label>레이저포</PLAMilira_Laser_Cannon.label>
+  <PLAMilira_Laser_Cannon.description>에너지를 집중하여 대상에게 지속적인 충전 레이저 빔을 발사하는 중형 휴대용 레이저 방출기입니다. 광선은 명중이 보장되며 저각 보호막을 무시하고, 대상의 피해 감소 계수 10%를 관통합니다. 어느 정도의 대장갑 능력을 갖추고 있습니다.\n\n열기 시스템 탑재: 사격할 때마다 열기가 축적됩니다. 열기 1포인트당 원거리 피해량이 2.5%, 열기 장갑 관통력이 2.5% 증가합니다. 열기는 시간이 지남에 따라 소멸합니다. 최대 열기에 도달하면 무기가 과열 상태가 되어 사격할 수 없습니다.\n\n\n밀리라 혹은 하늘깃털 교회와 동맹을 맺으면 추가 업그레이드가 가능합니다.\n\n방열판: 레이저포의 냉각 시스템을 개선하여 과열 후 냉각 시간과 열기 소멸 간격을 30% 단축합니다.\n\n레이저 시준기: 새로운 준직 렌즈를 사용하여 광선의 분산을 줄이고 위력을 강화합니다. 열기 포인트당 피해 배율이 2.5%에서 4%로 증가하고, 전체 관통력이 25% 상승하며, 조준된 대상을 불태울 확률이 생깁니다.</PLAMilira_Laser_Cannon.description>
+  <PLAMilira_Laser_Cannon.tools.0.label>개머리판</PLAMilira_Laser_Cannon.tools.0.label>
+  <PLAMilira_Laser_Cannon.tools.1.label>총열</PLAMilira_Laser_Cannon.tools.1.label>
+  <PLAMilira_Laser_Cannon_Bullet.label>추적 광선</PLAMilira_Laser_Cannon_Bullet.label>
+  <Milira_Rapier.label>밀리라의 레이피어</Milira_Rapier.label>
+  <Milira_Rapier.description>밀리라의 레이피어입니다. 사용자는 무기에 새겨진 전투 기술을 사용할 수 있습니다.</Milira_Rapier.description>
+  <Milira_Rapier.tools.0.label>찌르기</Milira_Rapier.tools.0.label>
+  <PLAMilira_Alaya.label>천살성검 "아라야"</PLAMilira_Alaya.label>
+  <PLAMilira_Alaya.description>"거울" 기술을 사용하여 크레이돌이 추출해낸 불완전한 복제 유물입니다. 천살성검 "아라야"의 검집에는 "무아몽중", "아비규환", "지리멸렬"이라는 세 문구가 새겨져 있습니다.\n\n처음 무기를 집어 들면, 사용자의 특정 작업 유형에 대한 기억을 무작위로 베어 넘기며 생체 결속을 형성합니다.\n\n이 무기의 공격은 일반적인 피해를 입히지 않는 대신 흉터를 남깁니다. 높은 확률로 3연속 공격을 가하지만, 사용자의 격투 기술이 14 이상일 경우 휘두를 때마다 격투 경험치가 감소합니다. 또한, 사용자와 가장 가까운 이들에 대한 기억을 파괴할 수도 있습니다.\n\n장착 중일 때 사용자는 "전환"과 "불완전한 공명: 천살성" 능력을 활성화할 수 있습니다.</PLAMilira_Alaya.description>
+  <PLAMilira_Alaya.tools.0.label>베기</PLAMilira_Alaya.tools.0.label>
+  <PLAMilira_Gungnir.label>궁니르</PLAMilira_Gungnir.label>
+  <PLAMilira_Gungnir.description>크레이돌이 "거울" 기술을 사용해 추출해낸 궁니르의 불완전한 복제 유물입니다. 이 무기의 본래 주인은 '황금작살', '꿀빛투창', '금빛벌침'과 같은 영광스러운 칭호들을 가졌다고 전해지지만... 절대로 '똥색포크'라고 불린 적은 없다고 합니다.\n\n장착 중에는 유닛을 향해 반드시 명중하는 궁니르 환영을 투척할 수 있습니다. 환영은 대상을 가두고 짧은 충돌 시간 후 피해와 넉백을 입힙니다. 만약 건물에 부딪히면 피해량과 영향 범위가 크게 증가합니다.\n\n투척된 궁니르 환영은 대상의 몸에 박히며, 시전자에게 "궁니르: 회수"와 "궁니르: 돌진"이라는 상호 배타적인 일회성 기술 두 가지를 부여합니다. 기술 활성화 시 짧은 지연 시간 후 환영 창이 시전자의 손으로 날아오며 경로상의 모든 유닛에게 관통 피해를 입힙니다.</PLAMilira_Gungnir.description>
+  <PLAMilira_Gungnir.tools.0.label>창끝</PLAMilira_Gungnir.tools.0.label>
+  <PLAMilira_Gungnir.tools.1.label>창날</PLAMilira_Gungnir.tools.1.label>
+  <Orbital_Laser_Strike_Ball.label>궤도 레이저 타격 호출기</Orbital_Laser_Strike_Ball.label>
+  <Orbital_Railcannon_Strike_Ball.label>궤도 레일캐논 타격 호출기</Orbital_Railcannon_Strike_Ball.label>
+  <Orbital_Gatling_Barrage_Ball.label>궤도 개틀링 포격 호출기</Orbital_Gatling_Barrage_Ball.label>
+  <Orbital_Airburst_Strike_Ball.label>궤도 공중폭발탄 타격 호출기</Orbital_Airburst_Strike_Ball.label>
+  <MiliraBullet_Orbital_Airburst_RailGun.label>강철 볼트</MiliraBullet_Orbital_Airburst_RailGun.label>
+  <Orbital_120mm_HE_Barrage_Ball.label>궤도 120mm 고폭탄 포격 호출기</Orbital_120mm_HE_Barrage_Ball.label>
+  <Orbital_380mm_HE_Barrage_Ball.label>궤도 380mm 고폭탄 포격 호출기</Orbital_380mm_HE_Barrage_Ball.label>
+  <Orbital_Cluster_Barrage_Ball.label>궤도 집속탄 포격 호출기</Orbital_Cluster_Barrage_Ball.label>
+  <Orbital_Flare_Barrage_Ball.label>궤도 조명탄 포격 호출기</Orbital_Flare_Barrage_Ball.label>
+  <Orbital_Support_Strike_Ball.label>궤도 지원 타격 호출기</Orbital_Support_Strike_Ball.label>
+  <Milira_PlasmaCannon_Epoch.label>에포크 플라즈마포</Milira_PlasmaCannon_Epoch.label>
+  <Milira_PlasmaCannon_Epoch.description>하늘깃털 교회와의 분열 이후, 크레이돌의 엔지니어들이 이온 충격포을 기반으로 개발한 생물권 특화 열이온 충격포입니다. 넓은 범위의 효과를 위해 투사체 속도, 관통력 및 피해량을 일부 희생했습니다.\n\n충전이 가능합니다. 충전 모드에서는 열이온 덩어리의 속도가 크게 감소하며, 이온 용해 피해와 열기 피해를 절반씩 입히는 동시에 주변 환경에 상당한 열기를 방출합니다.\n\n과충전이 가능합니다.\n\n\n밀리라 혹은 하늘깃털 교회와 동맹을 맺으면 추가 업그레이드가 가능합니다.\n\n생체 신호 정화 프로토콜: 크레이돌 엔지니어들이 수수께끼의 "룬" 기술을 사용하여 열이온 덩어리에 생체 식별 기능을 추가했습니다. 충전 및 과충전 모드에서 방출되는 열기가 주변 환경이나 아군 유닛에게 불을 붙이지 않으며, 아군에 대한 부수적인 피해가 절반으로 줄어듭니다.\n\n양극 가속 임계 과충전: 지상 문명의 자폭형 충전 무기와 달리, 크레이돌의 첨단 기술은 이온 덩어리를 자폭 없이 임계점 상태로 완벽하게 유지할 수 있습니다. 에포크의 '임계 과충전' 모드를 활성화합니다. 충전 상태에서 과충전 에너지를 우선적으로 소모하여 임계 이온 덩어리를 발사합니다. 투사체 속도는 더 감소하지만 피해량, 관통력, 폭발 반경이 증가하며 적중 시 추가로 EMP 효과를 일으킵니다. 과충전 에너지는 사격을 멈춘 후 60초 뒤에 재생성됩니다.</Milira_PlasmaCannon_Epoch.description>
+  <Milira_PlasmaCannon_Epoch.tools.0.label>개머리판</Milira_PlasmaCannon_Epoch.tools.0.label>
+  <Milira_PlasmaCannon_Epoch.tools.1.label>총열</Milira_PlasmaCannon_Epoch.tools.1.label>
+  <MiliraBullet_PlasmaCannon_Epoch.label>충격 플라즈마 집속탄</MiliraBullet_PlasmaCannon_Epoch.label>
+  <MiliraBullet_PlasmaCannon_EpochCharged.label>충격 플라즈마 집속탄 (충전됨)</MiliraBullet_PlasmaCannon_EpochCharged.label>
+  <MiliraBullet_PlasmaCannon_EpochOverCharged.label>충격 플라즈마 집속탄 (충전됨)</MiliraBullet_PlasmaCannon_EpochOverCharged.label>
+  <PLAMilira_Plasma_Eruptor.label>이럽터</PLAMilira_Plasma_Eruptor.label>
+  <PLAMilira_Plasma_Eruptor.description>경량 레일건을 개조하여 강화한 중형 철갑소총입니다. 제어 가능한 안정화 기술을 사용하여 이온 빔 내부에 규칙적인 패턴으로 배열된 강철 못을 발사하며, 타격 범위는 넓히되 장갑 관통력은 약간 희생했습니다.\n\n충전이 가능합니다. 충전 상태에서는 이온 빔 내부의 강철 못이 폭발 시 흩어지며 여러 개의 원뿔형 구역에 파편 피해를 입힙니다.\n\n\n밀리라 혹은 하늘깃털 교회와 동맹을 맺으면 추가 업그레이드가 가능합니다.\n\n포화 이온 안정기: 이온 빔의 제어력을 더욱 향상시킵니다. 충전 모드에서 강철 못의 비산 범위가 절반으로 줄어들고 2발의 못이 추가로 발사됩니다.\n\n광각 파편 제한기: 이온 빔 내 강철 못의 배열 구조를 수정하여 파편 확산 각도를 30°에서 60°로 넓힙니다.</PLAMilira_Plasma_Eruptor.description>
+  <PLAMilira_Plasma_Eruptor.tools.0.label>개머리판</PLAMilira_Plasma_Eruptor.tools.0.label>
+  <PLAMilira_Plasma_Eruptor.tools.1.label>총열</PLAMilira_Plasma_Eruptor.tools.1.label>
+  <MiliraBullet_Eruptor_Charged.label>밀리라 탄환: 이럽터 (충전됨)</MiliraBullet_Eruptor_Charged.label>
+  <MiliraBullet_Eruptor.label>밀리라 탄환: 이럽터</MiliraBullet_Eruptor.label>
+  <MiliraBullet_EruptorRailGun.label>밀리라 탄환: 이럽터 레일건</MiliraBullet_EruptorRailGun.label>
+  <PLAMilira_Stalwart.label>이온 경기관총 "스털워트"</PLAMilira_Stalwart.label>
+  <PLAMilira_Stalwart.description>플라즈마 점사 기관총에 비해 투사체 확산이 약간 줄어들었지만, 정확도는 여전히 놀라울 정도로 낮습니다.\n\n충전이 가능합니다. 충전 상태에서는 연사 수가 크게 증가하며, 지속 사격 중에 대상을 변경할 수 있습니다.\n\n\n밀리라 혹은 하늘깃털 교회와 동맹을 맺으면 추가 업그레이드가 가능합니다.\n\n"성가 오르간" 협동 네트워크 증폭기: 새로운 집속 컴퓨팅 성능 증폭 장치를 설치합니다. 사격 중 3타일 이내에 같은 무기를 든 아군 유닛 수에 따라 성능이 강화됩니다. 아군 유닛당 무기 피해량이 40%, 장갑 관통력이 35% 증가하며, 최대 2명의 아군까지 적용됩니다.\n\n"푸사크" 장전기: 스털워트 기관총에 추가 에너지 방출 모듈을 설치합니다. 사격 시 15%의 확률로 무작위 전자자기 펄스 입자나 레이저 빔을 목표에 추가로 발사합니다.</PLAMilira_Stalwart.description>
+  <PLAMilira_Stalwart.tools.0.label>개머리판</PLAMilira_Stalwart.tools.0.label>
+  <PLAMilira_Stalwart.tools.1.label>총열</PLAMilira_Stalwart.tools.1.label>
+  <PLAMiliraBullet_Stalwart_Charged.label>스털워트 탄환</PLAMiliraBullet_Stalwart_Charged.label>
+  <PLAMiliraBullet_Stalwart.label>스털워트 탄환</PLAMiliraBullet_Stalwart.label>
+  <PLAMilira_RailGun.label>이온 레일건 RS-422</PLAMilira_RailGun.label>
+  <PLAMilira_RailGun.description>전자기력을 이용해 엄청난 운동 에너지를 가진 이온 빔을 가속시켜 발사하는 중화기입니다.\n\n충전 상태에서 발사된 이온 빔은 관통 능력을 갖추어 경로상의 여러 유닛을 타격할 수 있습니다. 관통할 때마다 피해량이 급격히 감소하지만, 덩치가 큰 대상이나 건물에 명중할 경우 관통 능력은 줄어드는 대신 피해량이 크게 증가합니다.\n\n충전이 가능합니다. 충전 상태에서는 조준 시간이 길어지지만 피해량과 방어구 관통력이 비약적으로 상승하며, 경로상의 대상을 최대 5명까지 관통할 수 있습니다.\n\n\n밀리라 제국 또는 하늘깃털 교회와 동맹 시 추가 업그레이드가 가능합니다:\n\n지능형 전극 재보정 모듈: AI를 활용한 실시간 탄도 계산으로 사격을 정밀하게 보정합니다. 과충전 모드에서 발사된 이온 빔은 사격 실력에 상관없이 주 대상에게 반드시 명중합니다. 최대 관통 대상 수가 5명에서 7명으로, 건물 관통 수는 1개에서 2개로 증가합니다.\n\n선형 가속기: 추가 가속을 통해 이온 빔의 운동 에너지를 증폭시킵니다. 과충전 모드에서 이온 빔이 적대적 유닛이나 건물에 명중할 때마다 현재 피해량의 50%와 방어구 관통력 100%를 계승하는 소규모 이온 폭발을 일으킵니다. 또한 이온 빔이 최대 사거리에 도달한 후에도 최대 15타일을 추가로 진행합니다.</PLAMilira_RailGun.description>
+  <PLAMilira_RailGun.tools.0.label>개머리판</PLAMilira_RailGun.tools.0.label>
+  <PLAMilira_RailGun.tools.1.label>총열</PLAMilira_RailGun.tools.1.label>
+  <PLAMilira_RailGun_Bullet_Pierce.label>이온 빔</PLAMilira_RailGun_Bullet_Pierce.label>
+  <PLAMilira_RailGun_Bullet_Plasma.label>이온 빔</PLAMilira_RailGun_Bullet_Plasma.label>
+  <PLAMilira_God_Tower.label>밀리라 다이달로스 신성 봉인</PLAMilira_God_Tower.label>
+  <PLAMilira_God_Tower.description>완전히 이해할 수 없는 원리로 작동하는 나선형 기둥 시설입니다. 활성화되어 활동 수준이 높아지면 단순히 접근하는 것만으로도 강력한 방사능에 노출됩니다. 전해지는 바에 따르면 하늘깃털 교회 연구팀이 주님의 피조물인 이것을 연구하려 했으나, 며칠 후 소수의 탈주 밀리라 유닛만이 발견되었다고 합니다.</PLAMilira_God_Tower.description>
+  <PLAMilira_God_Tower.comps.0.letterTitle>다이달로스 신성 봉인 활성화됨</PLAMilira_God_Tower.comps.0.letterTitle>
+  <PLAMilira_God_Tower.comps.1.activateLabelString>비활성화...</PLAMilira_God_Tower.comps.1.activateLabelString>
+  <PLAMilira_God_Tower.comps.1.activateDescString>다이달로스 신성 봉인을 영구적이고 안전하게 비활성화합니다. 활성화를 막을 수 있지만 장치는 영구적으로 파괴됩니다.\n\n초월공학 파편 2개가 필요합니다.</PLAMilira_God_Tower.comps.1.activateDescString>
+  <PLAMilira_God_Tower.comps.1.guiLabelString>수행할 인원 선택</PLAMilira_God_Tower.comps.1.guiLabelString>
+  <PLAMilira_God_Tower.comps.1.jobString>다이달로스 신성 봉인 비활성화 중</PLAMilira_God_Tower.comps.1.jobString>
+  <PLAMilira_God_Tower.comps.3.studyNotes.0.label>다이달로스 신성 봉인 조사 진행도</PLAMilira_God_Tower.comps.3.studyNotes.0.label>
+  <PLAMilira_God_Tower.comps.3.studyNotes.0.text>{PAWN_nameDef}(이)가 다이달로스 신성 봉인에 대한 예비 스캔을 수행했습니다. 이 구조물은 지속적으로 상당한 방사선을 방출하지만, 주변 사람들에게 나타나는 유일한 영향은 이따금 발생하는 환각과 지속적인 두통뿐입니다. 우리는 장치의 작동 원리나 목적을 전혀 이해하지 못했습니다. 재질의 강도는 현재 우리의 기술 수준을 훨씬 능가합니다.\n\n그대로 두면 활동 수준이 시간이 지남에 따라 증가할 것입니다. 완전히 활성화되었을 때 어떤 일이 벌어질지는 아무도 모릅니다.</PLAMilira_God_Tower.comps.3.studyNotes.0.text>
+  <PLAMilira_God_Tower.comps.3.studyNotes.1.label>다이달로스 신성 봉인 조사 진행도</PLAMilira_God_Tower.comps.3.studyNotes.1.label>
+  <PLAMilira_God_Tower.comps.3.studyNotes.1.text>다이달로스 신성 봉인의 기능을 상당 부분 해독했습니다. 이 장치는 광범위한 구역의 유닛들에게 '정신 덮어쓰기'를 수행할 수 있습니다. 구조물 주변의 방사능은 피아 식별 기능을 갖추고 있으며 대상의 정신을 지속적으로 뒤틀어, 가장 깊은 공포에 직면하게 하고 도망치게 만듭니다. 유효 범위 내에서 장시간 노출되면 되돌릴 수 없는 영구적인 변형이 일어납니다. 희생자의 의식은 완전히 지워지고, 그 정신을 계승한 듯한 탈주 밀리라 유닛만이 남게 됩니다. 그 사람의 다른 흔적은 전혀 남지 않습니다.\n\n억제하지 않으면 에너지 수치가 계속 상승할 것입니다. 완전히 활성화되면 장치 자체의 능력이 크게 강화될 것입니다.\n\n{PAWN_nameDef}은(는) 봉인을 안전하게 비활성화하고 핵을 추출하는 것이 가능하다고 믿지만, 이를 위해서는 추가 조사가 필요합니다.</PLAMilira_God_Tower.comps.3.studyNotes.1.text>
+  <PLAMilira_God_Tower.comps.3.studyNotes.2.label>오벨리스크 조사 완료</PLAMilira_God_Tower.comps.3.studyNotes.2.label>
+  <PLAMilira_God_Tower.comps.3.studyNotes.2.text>{PAWN_nameDef}(이)가 다이달로스 신성 봉인에 대한 조사를 마쳤습니다. {PAWN_pronoun}은(는) 초월공학 파편을 사용하여 장치를 안전하게 비활성화하고 핵을 추출하는 방법을 알아냈습니다.\n\n이 과정은 다이달로스 신성 봉인을 영구적으로 파괴할 것입니다.</PLAMilira_God_Tower.comps.3.studyNotes.2.text>
+  <PLAMilira_God_Tower_Player.label>복제된 신성 봉인</PLAMilira_God_Tower_Player.label>
+  <PLAMilira_God_Tower_Player.description>밀리라의 순백색 탑을 모델로 한 조각상입니다. 방사능 0%를 보장합니다. 침실이나 거실용 장식품으로 훌륭하며, 특정 괴짜들의 명상 요구치를 충족시켜 주기도 합니다.\n\n근데... '통합' 추종자가 아니고서야 누가 이걸 집에 두겠어요?</PLAMilira_God_Tower_Player.description>
+  <PLAMilira_AncientSealedCrate_Weapon_Window_Random.label>봉인된 무기 상자</PLAMilira_AncientSealedCrate_Weapon_Window_Random.label>
+  <PLAMilira_AncientSealedCrate_Weapon_Window_Random.description>보관소에서 회수된 오래된 무기 상자입니다. 해진 라벨을 보니 내부에 아주 정교하게 제작된 무기가 들어있음을 짐작할 수 있습니다.\n\n하지만 열어보기 전까지는 이온 권총이 들었는지, 전설적인 대검이 들었는지 알 수 없습니다.</PLAMilira_AncientSealedCrate_Weapon_Window_Random.description>
+  <PLAMilianBullet_Core_KnightIV_Archer.label>군집 미사일</PLAMilianBullet_Core_KnightIV_Archer.label>
+  <PLAMilianAbility_Core_KnightIV_Stella_Bullet.label>떨어지는 별</PLAMilianAbility_Core_KnightIV_Stella_Bullet.label>
+  <PLAMiliraBullet_PLAMilian_Core_BishopIV.label>응축된 에너지 투사체</PLAMiliraBullet_PLAMilian_Core_BishopIV.label>
+  <PLAMilian_BlindSmokeUnit_Proj.label>비행형 블라인드 스모크 유닛</PLAMilian_BlindSmokeUnit_Proj.label>
+  <PLAMilian_Shell_BlindSmoke_Releasing.label>포그 박스</PLAMilian_Shell_BlindSmoke_Releasing.label>
+  <PLAMilian_Shell_BlindSmoke_Releasing.description>배치된 포그 박스입니다.\n\n착륙 시 주변 적대적 메카노이드의 EMP 저항력을 감소시키고 EMP 펄스를 방출합니다. 이후 지속적으로 연기를 내뿜고 주변에 전자기 방해장을 생성하여 적대적 메카노이드의 회로 단락을 유발합니다. 단락된 유닛은 이동성이 저하되며 사격을 시도할 때 정신 핵에 비율 기반 피해를 입습니다.</PLAMilian_Shell_BlindSmoke_Releasing.description>
+  <PLAMilian_Shell_BlindSmoke_Releasing.comps.3.countdownLabel>소진까지</PLAMilian_Shell_BlindSmoke_Releasing.comps.3.countdownLabel>
+  <PLAMilira_Uhlan_Turret_HeavyPlasma.label>"아레스" 입자포</PLAMilira_Uhlan_Turret_HeavyPlasma.label>
+  <PLAMilira_Uhlan_Turret_HeavyPlasma.description>울란의 정밀 무기 플랫폼 모듈 중 하나인 "아레스" 입자포는 중간 위력의 입자 집속탄을 발사할 수 있습니다.</PLAMilira_Uhlan_Turret_HeavyPlasma.description>
+  <PLAMilira_Uhlan_Turret_HeavyPlasma.verbs.Verb_Shoot_UhlanBase.label>"아레스" 입자포</PLAMilira_Uhlan_Turret_HeavyPlasma.verbs.Verb_Shoot_UhlanBase.label>
+  <PLAMilira_Uhlan_Bullet_HeavyPlasma.label>입자 볼트</PLAMilira_Uhlan_Bullet_HeavyPlasma.label>
+  <PLAMilira_Uhlan_FortressGun_CIWS.label>"아레스" CIWS</PLAMilira_Uhlan_FortressGun_CIWS.label>
+  <PLAMilira_Uhlan_FortressGun_CIWS.description>울란의 정밀 무기 플랫폼 모듈 중 하나인 "아레스" CIWS는 극도로 높은 발사 속도를 가진 대구경 기관총으로, 비행 경로상의 목표물에 부수적인 피해를 입힙니다.</PLAMilira_Uhlan_FortressGun_CIWS.description>
+  <PLAMilira_Uhlan_FortressGun_CIWS.verbs.Verb_Shoot_UhlanBase.label>"아레스" CIWS</PLAMilira_Uhlan_FortressGun_CIWS.verbs.Verb_Shoot_UhlanBase.label>
+  <PLAMilira_Uhlan_Bullet_CIWS.label>CIWS 탄환</PLAMilira_Uhlan_Bullet_CIWS.label>
+  <PLAMilira_Uhlan_FortressGun_HeavyPlasma_II.label>"아레스" 플라즈마포</PLAMilira_Uhlan_FortressGun_HeavyPlasma_II.label>
+  <PLAMilira_Uhlan_FortressGun_HeavyPlasma_II.description>울란의 정밀 무기 플랫폼 모듈 중 하나인 "아레스" 플라즈마포는 EMP 효과가 있는 플라즈마 집속탄을 발사할 수 있습니다.</PLAMilira_Uhlan_FortressGun_HeavyPlasma_II.description>
+  <PLAMilira_Uhlan_FortressGun_HeavyPlasma_II.verbs.Verb_Shoot_UhlanBase.label>"아레스" 플라즈마포</PLAMilira_Uhlan_FortressGun_HeavyPlasma_II.verbs.Verb_Shoot_UhlanBase.label>
+  <PLAMilira_Uhlan_Bullet_HeavyPlasma_II.label>플라즈마</PLAMilira_Uhlan_Bullet_HeavyPlasma_II.label>
+  <PLAMilira_Uhlan_Turret_Smoke.label>"코이오스" 연막 투사기</PLAMilira_Uhlan_Turret_Smoke.label>
+  <PLAMilira_Uhlan_Turret_Smoke.description>울란의 정밀 무기 플랫폼 모듈 중 하나인 "코이오스" 연막 투사기는 목표 주변에 시야를 가리는 연막을 빠르게 전개할 수 있습니다.</PLAMilira_Uhlan_Turret_Smoke.description>
+  <PLAMilira_Uhlan_Turret_Smoke.verbs.Verb_Shoot_UhlanBase.label>"코이오스" 연막 투사기</PLAMilira_Uhlan_Turret_Smoke.verbs.Verb_Shoot_UhlanBase.label>
+  <PLAMilira_Uhlan_Bullet_Smoke.label>연막</PLAMilira_Uhlan_Bullet_Smoke.label>
+  <PLAMilira_Uhlan_FortressGun_Tesla.label>"아레스" 테슬라포</PLAMilira_Uhlan_FortressGun_Tesla.label>
+  <PLAMilira_Uhlan_FortressGun_Tesla.description>울란의 정밀 무기 플랫폼 모듈 중 하나인 "아레스" 테슬라포는 여러 목표 사이를 연쇄하는 거대한 전기 아크를 발사하여 뛰어난 군중 제어 능력을 제공합니다.</PLAMilira_Uhlan_FortressGun_Tesla.description>
+  <PLAMilira_Uhlan_FortressGun_Tesla.verbs.Verb_Shoot_UhlanBase.label>"아레스" 테슬라포</PLAMilira_Uhlan_FortressGun_Tesla.verbs.Verb_Shoot_UhlanBase.label>
+  <PLAMilira_Uhlan_Bullet_Tesla.label>전기 아크</PLAMilira_Uhlan_Bullet_Tesla.label>
+  <PLAMilira_Uhlan_Turret_OrbitalCannon.label>"아이기스" 유도 레이더</PLAMilira_Uhlan_Turret_OrbitalCannon.label>
+  <PLAMilira_Uhlan_Turret_OrbitalCannon.description>울란의 정밀 무기 플랫폼 모듈 중 하나인 "아이기스" 유도 레이더는 위성을 통해 궤도 타격을 지시할 수 있습니다. 이 타격은 자율 조준 기능을 갖추며 거대 유닛을 우선적으로 공격합니다.</PLAMilira_Uhlan_Turret_OrbitalCannon.description>
+  <PLAMilira_Uhlan_Turret_OrbitalCannon.verbs.Verb_Shoot_UhlanBase.label>"아이기스" 유도 레이더</PLAMilira_Uhlan_Turret_OrbitalCannon.verbs.Verb_Shoot_UhlanBase.label>
+  <PLAMilira_Uhlan_Bullet_OrbitalCannon.label>궤도 레일건</PLAMilira_Uhlan_Bullet_OrbitalCannon.label>
+  <PLAMilira_Uhlan_Turret_AttractiveGrenade.label>"아레스" 중력포</PLAMilira_Uhlan_Turret_AttractiveGrenade.label>
+  <PLAMilira_Uhlan_Turret_AttractiveGrenade.description>울란의 정밀 무기 플랫폼 모듈 중 하나인 "아레스" 중력포는 목표 주변에 거대한 중력장을 생성하여 근처의 모든 유닛을 끌어당길 수 있습니다.</PLAMilira_Uhlan_Turret_AttractiveGrenade.description>
+  <PLAMilira_Uhlan_Turret_AttractiveGrenade.verbs.Verb_Shoot_UhlanBase.label>"아레스" 중력포</PLAMilira_Uhlan_Turret_AttractiveGrenade.verbs.Verb_Shoot_UhlanBase.label>
+  <PLAMilira_Uhlan_AttractiveGrenade.label>중력</PLAMilira_Uhlan_AttractiveGrenade.label>
+  <PLAMilira_Uhlan_FortressGun_Ray.label>"티폰" 레일건</PLAMilira_Uhlan_FortressGun_Ray.label>
+  <PLAMilira_Uhlan_FortressGun_Ray.description>울란의 정밀 무기 플랫폼 모듈 중 하나인 "티폰" 레일건은 직선상으로 최대 5개 유닛에게 열기 피해를 입히는 관통 전자기 광선을 발사합니다. 관통할 때마다 이후 피해량은 10%씩 감소합니다.</PLAMilira_Uhlan_FortressGun_Ray.description>
+  <PLAMilira_Uhlan_FortressGun_Ray.verbs.Verb_Shoot_UhlanBase.label>"티폰" 레일건</PLAMilira_Uhlan_FortressGun_Ray.verbs.Verb_Shoot_UhlanBase.label>
+  <PLAMilira_Uhlan_Bullet_Ray.label>광선</PLAMilira_Uhlan_Bullet_Ray.label>
+  <PLAMilira_Uhlan_BroadShieldUnit.label>고각 역장 보호막</PLAMilira_Uhlan_BroadShieldUnit.label>
+  <PLAMilira_Uhlan_BroadShieldUnit.description>울란이 장착한 역장 보호막으로, 박격포탄과 같은 고각 투사체를 차단하는 장벽을 형성합니다. EMP 공격에 무력화될 수 있습니다.</PLAMilira_Uhlan_BroadShieldUnit.description>
+  <PLAMilian_FloatUnit_SmallLaser.label>소형 레이저 플로팅 유닛</PLAMilian_FloatUnit_SmallLaser.label>
+  <PLAMilian_FloatUnit_SmallLaser.description>적에게 보호막을 관통하는 확정 명중 레이저 공격을 가할 수 있는 소형 부유 장치입니다.</PLAMilian_FloatUnit_SmallLaser.description>
+  <PLAMilian_FloatUnit_SmallLaser.tools.0.label>본체</PLAMilian_FloatUnit_SmallLaser.tools.0.label>
+  <PLAMilian_FloatUnit_SmallLaser_Gun.label>소형 레이저 플로팅 유닛</PLAMilian_FloatUnit_SmallLaser_Gun.label>
+  <PLAMilian_FloatUnit_SmallLaser_Gun.description>소형 레이저 플로팅 유닛입니다.</PLAMilian_FloatUnit_SmallLaser_Gun.description>
+  <PLAMilianBullet_FloatUnit_SmallLaser_Gun.label>광선</PLAMilianBullet_FloatUnit_SmallLaser_Gun.label>
+  <PLAMilian_FloatUnit_SmallElc.label>소형 아크 플로팅 유닛</PLAMilian_FloatUnit_SmallElc.label>
+  <PLAMilian_FloatUnit_SmallElc.description>적에게 연쇄 아크 공격을 가할 수 있는 소형 부유 장치입니다.</PLAMilian_FloatUnit_SmallElc.description>
+  <PLAMilian_FloatUnit_SmallElc.tools.0.label>본체</PLAMilian_FloatUnit_SmallElc.tools.0.label>
+  <PLAMilian_FloatUnit_SmallElc_Gun.label>소형 아크 플로팅 유닛</PLAMilian_FloatUnit_SmallElc_Gun.label>
+  <PLAMilian_FloatUnit_SmallElc_Gun.description>소형 아크 플로팅 유닛입니다.</PLAMilian_FloatUnit_SmallElc_Gun.description>
+  <PLAMilian_FloatUnit_SmallElc_Gun.verbs.Verb_Shoot.label>소형 아크 플로팅 유닛</PLAMilian_FloatUnit_SmallElc_Gun.verbs.Verb_Shoot.label>
+  <PLAMilianBullet_FloatUnit_SmallElc_Gun.label>전기 아크</PLAMilianBullet_FloatUnit_SmallElc_Gun.label>
+  <PLAMilian_FloatUnit_Blade.label>부유 칼날</PLAMilian_FloatUnit_Blade.label>
+  <PLAMilian_FloatUnit_Blade.description>스마트 메카노이드 제어 코어가 탑재된 정예 부유 칼날로, 탁월한 자율 전투 능력을 갖추고 있습니다.</PLAMilian_FloatUnit_Blade.description>
+  <PLAMilian_FloatUnit_Blade.tools.0.label>몸체</PLAMilian_FloatUnit_Blade.tools.0.label>
+  <PLAMilira_PawnJumper_Rapier.label>비행</PLAMilira_PawnJumper_Rapier.label>
+  <PLAMilira_Mote_AirController.label>티끌</PLAMilira_Mote_AirController.label>
+  <PLAMilira_PawnJumper_Gungnir_RepulsiveForce.label>비행</PLAMilira_PawnJumper_Gungnir_RepulsiveForce.label>
+  <PLAMilira_VisjnoePack.comps.2.chargeNoun>부유 유닛</PLAMilira_VisjnoePack.comps.2.chargeNoun>
+  <PLAMilira_ElcPack.label>아크 부유 유닛 팩</PLAMilira_ElcPack.label>
+  <PLAMilira_ElcPack.description>주변에 자체 제어되는 아크 부유 유닛을 전개할 수 있는 배낭입니다. 부유 유닛의 행동은 공격 모드와 추종 모드를 전환하여 제어할 수 있습니다.</PLAMilira_ElcPack.description>
+  <PLAMilira_ElcPack.comps.2.chargeNoun>부유 유닛</PLAMilira_ElcPack.comps.2.chargeNoun>
+  <PLAMilira_ElcPack.verbs.Verb_DeployPawn.label>부유 유닛 전개</PLAMilira_ElcPack.verbs.Verb_DeployPawn.label>
+  <PLAMilira_LaserPack.label>레이저 부유 유닛 팩</PLAMilira_LaserPack.label>
+  <PLAMilira_LaserPack.description>주변에 자체 제어되는 레이저 부유 유닛을 전개할 수 있는 배낭입니다. 부유 유닛의 행동은 공격 모드와 추종 모드를 전환하여 제어할 수 있습니다.</PLAMilira_LaserPack.description>
+  <PLAMilira_LaserPack.comps.2.chargeNoun>부유 유닛</PLAMilira_LaserPack.comps.2.chargeNoun>
+  <PLAMilira_LaserPack.verbs.Verb_DeployPawn.label>부유 유닛 전개</PLAMilira_LaserPack.verbs.Verb_DeployPawn.label>
+  <Milira_Mote_Harrier_Enemy.label>티끌</Milira_Mote_Harrier_Enemy.label>
+  <Milira_Mote_Naglfar_Enemy.label>티끌</Milira_Mote_Naglfar_Enemy.label>
+  <Aegis_Link_Beam.label>티끌</Aegis_Link_Beam.label>
+  <Aegis_Link_Beam_Sec.label>티끌</Aegis_Link_Beam_Sec.label>
+  <Milira_Mote_Aegis_Locked.label>티끌</Milira_Mote_Aegis_Locked.label>
+  <Milira_Mote_Aegis_Link_Bomb.label>티끌</Milira_Mote_Aegis_Link_Bomb.label>
+  <Harrier_Mote_Random.label>티끌</Harrier_Mote_Random.label>
+  <Mote_ScrambledText.label>티끌</Mote_ScrambledText.label>
+  <PLAMilira_Alaya_BladeEffect_Particle_Fast.label>티끌</PLAMilira_Alaya_BladeEffect_Particle_Fast.label>
+  <PLAMilira_Mote_GungnirPulse.label>티끌</PLAMilira_Mote_GungnirPulse.label>
+  <PLAMilira_Gungnir_Particle_Fast.label>티끌</PLAMilira_Gungnir_Particle_Fast.label>
+  <PLAMilira_Gungnir_Particle.label>티끌</PLAMilira_Gungnir_Particle.label>
+  <Antiballistic_Mote.label>티끌</Antiballistic_Mote.label>
+  <Orbital_Walking_LaserPulse.label>티끌</Orbital_Walking_LaserPulse.label>
+  <BeamPlane_LaserPulse.label>티끌</BeamPlane_LaserPulse.label>
+  <Antiballistic_Beam_Mote.label>티끌</Antiballistic_Beam_Mote.label>
+  <Milira_Mote_Orbital_Railcannon_Strike.label>티끌</Milira_Mote_Orbital_Railcannon_Strike.label>
+  <Milira_Mote_Orbital_Laser.label>티끌</Milira_Mote_Orbital_Laser.label>
+  <Milira_Mote_Rapier0a.label>티끌</Milira_Mote_Rapier0a.label>
+  <Milira_Mote_Rapier45a.label>티끌</Milira_Mote_Rapier45a.label>
+  <Milira_Mote_Rapier90a.label>티끌</Milira_Mote_Rapier90a.label>
+  <Milira_Mote_Rapier135a.label>티끌</Milira_Mote_Rapier135a.label>
+  <Milira_Mote_Rapier180a.label>티끌</Milira_Mote_Rapier180a.label>
+  <Milira_Mote_Rapier225a.label>티끌</Milira_Mote_Rapier225a.label>
+  <Milira_Mote_Rapier270a.label>티끌</Milira_Mote_Rapier270a.label>
+  <Milira_Mote_Rapier315a.label>티끌</Milira_Mote_Rapier315a.label>
+  <Milira_Round1_Rapier.label>티끌</Milira_Round1_Rapier.label>
+  <Milira_Round2_Rapier.label>티끌</Milira_Round2_Rapier.label>
+  <PLAMilira_Mote_VisjnoeCommandLinkLine.label>티끌</PLAMilira_Mote_VisjnoeCommandLinkLine.label>
+  <PLAMilira_HarrierBallModel.comps.1.completedLetterLabel>{RESEARCH} 해제됨.</PLAMilira_HarrierBallModel.comps.1.completedLetterLabel>
+  <PLAMilira_HarrierBallModel.comps.1.completedLetter>신호기 구슬을 연구하여 {PAWN_labelShort}(이)가 궤도 지원을 호출하는 방법을 해독해 냈습니다! 이제 정착민을 배정하여 통신 콘솔과 관련된 기술을 연구할 수 있습니다.</PLAMilira_HarrierBallModel.comps.1.completedLetter>
+  <PLAMilira_HarrierBallModel.comps.1.activateLabelString>역설계</PLAMilira_HarrierBallModel.comps.1.activateLabelString>
+  <PLAMilira_HarrierBallModel.comps.1.activateDescString>신호기 구슬 연구</PLAMilira_HarrierBallModel.comps.1.activateDescString>
+  <PLAMilira_HarrierBallModel.comps.1.jobString>신호기 구슬 연구 중</PLAMilira_HarrierBallModel.comps.1.jobString>
+  <PLAMilira_HarrierBallModel.comps.1.guiLabelString>신호기 구슬을 연구할 정착민 선택</PLAMilira_HarrierBallModel.comps.1.guiLabelString>
+  <PLAMilira_HarrierBallModel.comps.1.inspectString>정착민이 연구할 수 있음</PLAMilira_HarrierBallModel.comps.1.inspectString>
+  <Milira_DropProjectionNodePack.comps.2.chargeNoun>투사 유닛</Milira_DropProjectionNodePack.comps.2.chargeNoun>
+  <PLAMilira_Naglfar_TargetMote_Main.label>티끌</PLAMilira_Naglfar_TargetMote_Main.label>
+  <PLAMilira_Mote_Naglfar_Middle_MainBeam.label>티끌</PLAMilira_Mote_Naglfar_Middle_MainBeam.label>
+  <PLAMilira_QuestLetter_Skuld_Student.label>낡은 편지</PLAMilira_QuestLetter_Skuld_Student.label>
+  <PLAMilira_QuestLetter_Skuld_Student.description>누군가 잃어버린 편지입니다. 무척 정교하면서도 완벽하게 온전한 상태를 유지하고 있는 것으로 보아, 주인이 이 편지를 깊이 아꼈던 것이 틀림없습니다.\n\n편지 뒷면에는 작은 글씨로 이렇게 적혀 있습니다: 퀘스트 선행 조건 안내. 앞으로 더 많은 세력과 동맹을 맺는 것이 매우 유리할 것입니다.</PLAMilira_QuestLetter_Skuld_Student.description>
+  <PLAMilira_QuestLetter_Skuld_Student.comps.0.useLabel>읽기</PLAMilira_QuestLetter_Skuld_Student.comps.0.useLabel>
+  <PLAMilira_QuestLetter_Skuld_Student.comps.0.customDiaLog.0.content>사랑하는 나의 학생들에게:\n너희가 이 편지를 읽을 때쯤이면, 나는 이미 칼리도를 떠났을 것 같구나. 나를 찾을 필요도, 걱정할 필요도 없단다. 나는 누구에게 추방당한 것도 아니고, 위험에 처한 것도 아니야. 그저 마침내 내가 떠날 때가 되었을 뿐이지.\n\n지난 수년간, 많은 사람들이 내게 질문을 던졌지.\n"스승님, 역사의 진정한 의미는 무엇인가요?"\n나는 항상 그 질문을 되묻는 것을 좋아했어. 역사는 책에 적힌 날짜도, 시험지의 정답도 아니기 때문이야.\n\n역사는 곧 사람이야.\n울어본 자들의 것이고,\n웃어본 자들의 것이며,\n실수를 저지른 자들의 것이고,\n그리고 실패할 것을 뻔히 알면서도, 여전히 옳은 일을 하기로 선택한 자들의 것이란다.\n\n내가 어렸을 때, 나는 지상에서 자랐단다. 그곳에는 천공 도시의 깨끗한 거리도, 어디에나 있는 밀리언도, 기후 제어 거주 구역도 없었지.\n하지만 흙이 있었고, 비가 내렸으며, 사람을 무는 야생 동물도 있었어. 그리고 남의 귀를 만져보려다 할퀴어지는 바보들도 있었고, 낯선 이에게 자신의 마지막 빵 한 조각을 기꺼이 나누어주는 좋은 사람들도 있었지.\n나중에서야 나는 역사책이 전쟁을 기록하는 것은 좋아하지만 평범한 사람들의 다정함은 거의 기록하지 않는다는 사실을 깨달았어. 마치 검과 칼날만이 세상을 바꿀 수 있는 것처럼 말이야.\n하지만, 나는 많은 것을 보았단다.\n키이로의 아이가 자신이 가장 아끼는 장난감을 친구에게 주는 것을 보았어.\n상인들이 목숨을 걸고 낯선 마을에 약을 전해주는 것을 보았고,\n누군가 화염으로부터 가족을 감싸는 것을 보았으며,\n서로 다른 종족의 사람들이 함께 앉아 저녁을 나누는 것을 보았어.\n이런 것들은 아주 작을지 몰라도, 역시 역사를 구성한단다.\n\n앞으로 너희는 많은 목소리를 듣게 될 거야.\n누군가는 누가 적이라고 말할 것이고, 누군가는 누가 미움받아 마땅하다고 말할 것이며, 누군가는 전쟁만이 유일하게 옳은 길이라고 말할 거야.\n하지만 나는 너희가 항상 한 가지만은 기억해주기를 바란단다. 나쁜 사람 한 명 때문에 모든 사람을 부정하지 마렴. 단 한 번의 배신 때문에 믿음을 포기하지 마. 세상이 어두워졌다고 해서 빛이 존재한 적이 없었다고 생각하지 마렴.\n진정으로 어려운 것은 검을 휘두르는 것이 아니라, 상처받은 후에도 다정함을 간직하는 것이란다.\n\n세상은 승자들만의 것이 아니야. 모든 것을 잃고도 여전히 세상을 온화하게 대하기로 선택한 사람들의 것이기도 하지.\n언젠가 교과서를 펼쳤을 때 역사가 나를 순진한 이상주의자로 기록했다 하더라도, 괜찮아. 왜냐하면 나는 내가 기억되는 것보다, 너희가 이 한 가지만은 이루기를 바라기 때문이야:\n힘을 가졌을 때 약자를 괴롭히지 말 것.\n지식을 가졌을 때 무지한 자를 속이지 말 것.\n선택의 기회가 있을 때 다정함을 저버리지 말 것.\n너희가 이렇게만 해준다면, 미래가 어떻게 되든, 나는 항상 너희의 스승이었다는 사실을 자랑스럽게 여길 거야.\n\n마침내 그림자가 닿지 않는 별들의 바다 아래에서, 우리가 다시 만날 수 있기를.\n— 게피온 스쿨드</PLAMilira_QuestLetter_Skuld_Student.comps.0.customDiaLog.0.content>
+  <PLAMilira_QuestLetter_Skuld_Student_A.label>일기장 조각 1</PLAMilira_QuestLetter_Skuld_Student_A.label>
+  <PLAMilira_QuestLetter_Skuld_Student_A.description>흩어진 일기장 페이지입니다.</PLAMilira_QuestLetter_Skuld_Student_A.description>
+  <PLAMilira_QuestLetter_Skuld_Student_A.comps.0.useLabel>읽기</PLAMilira_QuestLetter_Skuld_Student_A.comps.0.useLabel>
+  <PLAMilira_QuestLetter_Skuld_Student_A.comps.0.customDiaLog.0.content>5499.12.21\n\n스승님이 떠나신 지 3일째다.\n\n교회에 있는 스승님의 자리는 비어 있고, 역사 수업은 중단되었다. 학장님은 다른 사람이 수업을 대신할 거라고 하셨지만, 난 그게 예전 같지 않을 거란 걸 안다.\n\n고대 전쟁에 관해 이야기하다가 갑자기 주제를 벗어나 지상의 이종족 이야기를 들려줄 사람은 아무도 없을 것이다. 수십 명의 교수들 앞에서 어떤 어려움에도 굴하지 않고 끝까지 자신의 수업의 정당성을 옹호할 사람도 없을 것이다.\n\n오늘, 아카데미에 휴학 신청을 했다. 스승님을 찾고 싶다.\n적어도 누군가는 아직 스승님이 하신 말씀을 기억하고 있다는 걸 알려드리고 싶다.</PLAMilira_QuestLetter_Skuld_Student_A.comps.0.customDiaLog.0.content>
+  <PLAMilira_QuestLetter_Skuld_Student_B.label>일기장 조각 2</PLAMilira_QuestLetter_Skuld_Student_B.label>
+  <PLAMilira_QuestLetter_Skuld_Student_B.description>흩어진 일기장 페이지입니다.</PLAMilira_QuestLetter_Skuld_Student_B.description>
+  <PLAMilira_QuestLetter_Skuld_Student_B.comps.0.useLabel>읽기</PLAMilira_QuestLetter_Skuld_Student_B.comps.0.useLabel>
+  <PLAMilira_QuestLetter_Skuld_Student_B.comps.0.customDiaLog.0.content>5500.1.8\n\n크레이돌을 떠난다.\n\n친구들은 내가 미쳤다고 생각하고, 솔직히 나도 그렇게 생각한다. 지상은 너무나도 광활하고, 난 스승님이 어디로 가셨는지조차 모른다.\n\n유일한 단서는 스승님이 언젠가 보여주셨던 낡은 지도 한 장뿐이다. 거기엔 스승님이 젊은 시절 머무셨던 곳들—전초기지, 연구소, 교역 마을, 그리고 다른 세력의 전초기지들—이 많이 표시되어 있었다.\n난 이 장소들부터 시작해 보기로 결심했다.</PLAMilira_QuestLetter_Skuld_Student_B.comps.0.customDiaLog.0.content>
+  <PLAMilira_QuestLetter_Skuld_Student_C.label>일기장 조각 3</PLAMilira_QuestLetter_Skuld_Student_C.label>
+  <PLAMilira_QuestLetter_Skuld_Student_C.description>흩어진 일기장 페이지입니다.</PLAMilira_QuestLetter_Skuld_Student_C.description>
+  <PLAMilira_QuestLetter_Skuld_Student_C.comps.0.useLabel>읽기</PLAMilira_QuestLetter_Skuld_Student_C.comps.0.useLabel>
+  <PLAMilira_QuestLetter_Skuld_Student_C.comps.0.customDiaLog.0.content>5500.2.3\n\n옛 전초기지 폐허에 도착했다.\n\n이곳은 사진에서 본 것보다 훨씬 더 황폐해져 있었다. 포격의 흔적이 여전히 남아 있고, 광장에는 잡초가 무성하게 자라 있었다.\n\n마을이 파괴되어 임시로 이곳에 정착한 키이로 난민 무리를 발견했다.\n그들의 말에 따르면, 최근 크레이돌의 무차별 공격이 잦아지면서 그 혼란을 틈타 해적들마저 미쳐 날뛰며 약탈을 일삼고 있다고 한다. 마을의 늙은 할머니 한 분이 이 지역은 오래전에 이미 깨끗하게 약탈당했다는 걸 알고 계셔서, 해적들이 여기까지 그들을 쫓아오진 않을 거라 하셨다.\n\n나는 그들을 따라가 광장 근처의 외진 판잣집에서 이 노파를 찾아냈다 (책에선 이런 분을 "할머니"라고 불러야 한다지만, 음... 내가 분명 그녀보다 훨씬 나이가 많지 않나?)\n스승님의 이름을 듣자 수프를 젓던 그녀의 손이 한참 동안 멈칫하더니 내게 물었다. "네가 그 사람의 학생이니?"\n나는 고개를 끄덕였다.\n"좋은 사람이였지, 야옹"\n"너희가 지상 사람들과 무슨 원한이 있는진 모르겠지만, 그 사람이라면 절대 그렇게 극단적으로 굴진 않을 게야."\n\n그녀는 내게 수프 한 그릇을 나눠주었다. 이름 모를 레몬향이 나는 잎사귀가 둥둥 떠 있었는데, 톡 쏘는 맛이 있긴 했지만 나쁘진 않았다.\n"여기로 가보렴. 이곳의 주인이라면 네 스승을 아주 잘 알 거란다."</PLAMilira_QuestLetter_Skuld_Student_C.comps.0.customDiaLog.0.content>
+  <PLAMilira_QuestLetter_Skuld_Student_D.label>일기장 조각 4</PLAMilira_QuestLetter_Skuld_Student_D.label>
+  <PLAMilira_QuestLetter_Skuld_Student_D.description>흩어진 일기장 페이지입니다.</PLAMilira_QuestLetter_Skuld_Student_D.description>
+  <PLAMilira_QuestLetter_Skuld_Student_D.comps.0.useLabel>읽기</PLAMilira_QuestLetter_Skuld_Student_D.comps.0.useLabel>
+  <PLAMilira_QuestLetter_Skuld_Student_D.comps.0.customDiaLog.0.content>5500.3.11\n\n늙은 할머니가 알려주신 방향을 따라 지름길로 가니, 그 시절의 동물 연구소에 도착했다.\n\n이곳의 주인은 여전히 우리 동족인 그 연구원이었다. 장수하는 종족답게, 그녀는 할머니가 묘사했던 모습 그대로였다.\n그녀와 나는 테이블에 마주 앉아 "고양이"라는 길쭉한 생물들이 테이블과 의자 밑에서 쏜살같이 뛰노는 것을 지켜보며, 스승님의 과거와 현재에 대해 이야기를 나누었다. 그러다 문득 벽에 걸린 누렇게 바랜 단체 사진이 눈에 들어왔다.\n젊은 시절의 우르드, 베르단디, 그리고 쥐 귀를 단 스쿨드, 그 외에도 이름도 모르고 종족조차 알아볼 수 없는 많은 사람들의 모습이 담겨 있었다.\n\n다들 환하게 웃고 있었다.\n\n나는 그 사진을 한참 동안 물끄러미 바라보며, 지금 일어나고 있는 모든 일들을 되돌아보았다. 이 사진이 꿈을 나타내는 것인지, 현실을 나타내는 것인지 가늠하기 어려웠다.\n\n"그 아이가 아직 살아있다면, 틀림없이 북쪽으로 갔을 거야."\n"왜죠?"\n"어릴 때부터 슬픈 일이 있으면 혼자 눈밭으로 뛰쳐나가는 걸 좋아했거든."\n"눈이 뭐예요?"\n"?"</PLAMilira_QuestLetter_Skuld_Student_D.comps.0.customDiaLog.0.content>
+  <PLAMilira_QuestLetter_Skuld_Student_E.label>일기장 조각 5</PLAMilira_QuestLetter_Skuld_Student_E.label>
+  <PLAMilira_QuestLetter_Skuld_Student_E.description>흩어진 일기장 페이지입니다.</PLAMilira_QuestLetter_Skuld_Student_E.description>
+  <PLAMilira_QuestLetter_Skuld_Student_E.comps.0.useLabel>읽기</PLAMilira_QuestLetter_Skuld_Student_E.comps.0.useLabel>
+  <PLAMilira_QuestLetter_Skuld_Student_E.comps.0.customDiaLog.0.content>5500.4.19\n\n길을 따라갈수록 기후는 점점 추워지고, 분쟁과 전쟁도 더욱 잦아지고 있다.\n\n오늘 파괴된 마을을 지나갔다. 마을 사람들의 말에 따르면, 평의회 군이 스스로를 교회라고 부르는 세력과 충돌했을 때 공습에 휘말렸다고 한다.\n누군가 후드 너머로 내 얼굴이 그 의회 군인들과 많이 닮았다는 것을 알아보고는, 내 어깨를 붙잡고 자신들이 대체 무슨 잘못을 했냐며 따져 물었다.\n그들은 누가 옳고 그른지는 모르고 신경 쓰고 싶지도 않으며, 그저 살고 싶을 뿐이라고 외쳤다.\n나는 사과하며 많은 것을 설명하려 했지만, 내 말은 너무나도 작고 무력하게 느껴졌다.\n\n내가 아무런 악의도 보이지 않았기 때문인지, 촌장님이 나서서 사람들을 만류했다.\n"이전에 너희 동족 한 분대가 이곳을 지나간 적이 있지. 네가 하는 말은 그들의 대장이 했던 말과 참 많이 닮았구나."\n"우린 혼란을 틈타 우리를 공격하러 온 줄 알았는데, 오히려 해적들의 포위를 뚫는 걸 도와주고 은과 약품도 잔뜩 남겨두고 갔단다."\n"우리가 너희를 용서할 일은 없겠지만, 적어도 여기 있는 널 심판하진 않으마."\n나는 그들에게 깊이 고개 숙여 인사한 뒤, 그 대장이 향한 방향을 묻고는 계속해서 북쪽으로 걸음을 옮겼다.\n\n스승님, 역사책에 기록된 대부분의 승리와 패배는 평범한 사람들에겐 재앙일 뿐이라고 말씀하신 적이 있죠.\n저는 무엇을 이룰 수 있을까요? 저는 무엇을 해야 할까요?\n지금 어디에 계신가요?</PLAMilira_QuestLetter_Skuld_Student_E.comps.0.customDiaLog.0.content>
+  <PLAMilira_QuestLetter_Skuld_Student_F.label>일기장 조각 6</PLAMilira_QuestLetter_Skuld_Student_F.label>
+  <PLAMilira_QuestLetter_Skuld_Student_F.description>흩어진 일기장 페이지입니다.</PLAMilira_QuestLetter_Skuld_Student_F.description>
+  <PLAMilira_QuestLetter_Skuld_Student_F.comps.0.useLabel>읽기</PLAMilira_QuestLetter_Skuld_Student_F.comps.0.useLabel>
+  <PLAMilira_QuestLetter_Skuld_Student_F.comps.0.customDiaLog.0.content>5500.6.2\n\n오늘 아주 이상한 동족 여성을 만났다.\n\n그녀는 나와 같은 후드를 쓰고 있었고, 밤하늘처럼 맑고 결연한 눈동자를 지녔으며, 등에는 장검을 메고 허리에는 누렇게 바랜 편지 두 통을 단단히 묶어두고 있었다.\n그녀 역시 나와 같은 지상 여행자인 듯했고, 우리는 여행에 대한 정보를 교환하기 위해 그날 밤을 함께 보내기로 했다.\n내가 스승님의 제자라는 말을 꺼내자, 그녀는 갑자기 굳어버렸다. 한참이 지나서야 그녀는 자신 또한 스승님의 지인이라고 설명했다.\n나는 그녀에게 여행하며 스승님과 관련해 보고 들은 모든 것을 이야기해 주었다. 오랫동안 침묵하던 그녀는 단 한마디만을 남겼다.\n"그분을 보게 된다면, 아직 누군가가 집으로 돌아오길 기다리고 있다고 전해줘."\n그 말을 남기고 그녀는 날개를 펴고는 뒤도 돌아보지 않은 채 어둠 속으로 사라졌다.\n\n모닥불 불빛에 비친 그녀의 얼굴에서 희미하게 눈물 자국을 본 것만 같다. 다음에 다시 마주치게 된다면 그 일에 대해 조금 더 물어봐야겠다.</PLAMilira_QuestLetter_Skuld_Student_F.comps.0.customDiaLog.0.content>
+  <PLAMilira_QuestLetter_Skuld_Student_G.label>일기장 조각 7</PLAMilira_QuestLetter_Skuld_Student_G.label>
+  <PLAMilira_QuestLetter_Skuld_Student_G.description>흩어진 일기장 페이지입니다.</PLAMilira_QuestLetter_Skuld_Student_G.description>
+  <PLAMilira_QuestLetter_Skuld_Student_G.comps.0.useLabel>읽기</PLAMilira_QuestLetter_Skuld_Student_G.comps.0.useLabel>
+  <PLAMilira_QuestLetter_Skuld_Student_G.comps.0.customDiaLog.0.content>5500.7.16\n\n스승님을 보았다는 사람들이 점점 더 많아지고 있다.\n\n이상하게도, 내가 가는 곳마다 항상 스승님을 기억하는 누군가가 있다.\n\n어떤 이는 스승님과 우리 동족들이 정착지에 학교를 짓는 걸 도와줬다고 기억했다.\n어떤 이는 스승님이 자신들에게 많은 책을 주셨다고 기억했다.\n어떤 이는 마을 입구 상인에게 외국어로 된 편지를 번역해 주셨다고 기억했다.\n어떤 이는 새하얀 날개로 고아들을 안아주고 위로해 주셨다고 기억했다.\n\n\n\n지난 몇 달 동안, 나는 스승님의 행동을 본받아 전쟁의 참화에 피해를 입은 사람들을 적극적으로 도왔다.\n\n내 신분 때문에 나를 믿지 못하는 사람들도 있었지만, 대부분의 사람들은 여전히 내게 이해심을 보여주었다.</PLAMilira_QuestLetter_Skuld_Student_G.comps.0.customDiaLog.0.content>
+  <PLAMilira_QuestLetter_Skuld_Student_H.label>일기장 조각 8</PLAMilira_QuestLetter_Skuld_Student_H.label>
+  <PLAMilira_QuestLetter_Skuld_Student_H.description>흩어진 일기장 페이지입니다.</PLAMilira_QuestLetter_Skuld_Student_H.description>
+  <PLAMilira_QuestLetter_Skuld_Student_H.comps.0.useLabel>읽기</PLAMilira_QuestLetter_Skuld_Student_H.comps.0.useLabel>
+  <PLAMilira_QuestLetter_Skuld_Student_H.comps.0.customDiaLog.0.content>5500.10.5\n\n과연 내가 스승님을 찾을 수 있을지 의구심이 들기 시작한다.\n\n하지만 1년이 거의 다 지나가고 있는데, 스승님에 대한 단서는 갈수록 희미해지고 있다.\n\n누군가는 스승님을 보았다고 하고, 누군가는 이미 죽었다고 하며, 누군가는 북쪽으로 갔다고 하고, 또 다른 누군가는 어딘가에서 우리 동족 일부와 함께 자신만의 세력을 구축했다고 한다.\n\n스승님, 대체 어디에 계시며, 무슨 생각을 하고 계신 건가요?</PLAMilira_QuestLetter_Skuld_Student_H.comps.0.customDiaLog.0.content>
+  <PLAMilira_QuestLetter_Skuld_Student_I.label>일기장 조각 9</PLAMilira_QuestLetter_Skuld_Student_I.label>
+  <PLAMilira_QuestLetter_Skuld_Student_I.description>흩어진 일기장 페이지입니다.</PLAMilira_QuestLetter_Skuld_Student_I.description>
+  <PLAMilira_QuestLetter_Skuld_Student_I.comps.0.useLabel>읽기</PLAMilira_QuestLetter_Skuld_Student_I.comps.0.useLabel>
+  <PLAMilira_QuestLetter_Skuld_Student_I.comps.0.customDiaLog.0.content>5500.11.23\n\n스승님 꿈을 꾸었다.\n\n꿈속에서 나는 마침내 우리의 옛 교실에서 스승님을 뵈었다. 나는 끊임없이 질문을 던졌다: 어디로 가셨던 건가요? 최근에는 어떤 일들을 겪으셨나요? 내가 가장 묻고 싶었던 질문을 던지기 전까지, 스승님은 그저 미소만 지으실 뿐이었다.\n"우리는 무엇을 이룰 수 있을까요? 무엇을 해야 하나요? 만약 언젠가 역사가 우리가 틀렸다고 증명하면 어쩌죠?"\n\n"그건 중요하지 않아."\n"적어도 우리는 만회하기 위해 최선을 다했고, 무언가를 바꾸려 노력했잖니."\n\n\n\n오늘, 누군가를 구하려 달려들다가 해적의 눈먼 총알에 날개를 맞았다.\n\n너무 아프다. 일기를 쓰는 지금도 피가 멈추지 않는다. 흉터가 남을지 걱정이다.\n\n하지만 무고한 생명을 확실히 구해냈다는 사실을 떠올리면, 그만한 가치가 있었다는 생각이 든다.</PLAMilira_QuestLetter_Skuld_Student_I.comps.0.customDiaLog.0.content>
+  <PLAMilira_QuestLetter_Skuld_Student_J.label>일기장 조각 10</PLAMilira_QuestLetter_Skuld_Student_J.label>
+  <PLAMilira_QuestLetter_Skuld_Student_J.description>흩어진 일기장 페이지입니다.</PLAMilira_QuestLetter_Skuld_Student_J.description>
+  <PLAMilira_QuestLetter_Skuld_Student_J.comps.0.useLabel>읽기</PLAMilira_QuestLetter_Skuld_Student_J.comps.0.useLabel>
+  <PLAMilira_QuestLetter_Skuld_Student_J.comps.0.customDiaLog.0.content>5500.12.24\n\n크레이돌을 떠난 지 1년이 지났지만, 나는 아직 스승님을 찾지 못했다.\n\n하지만 이제는 조금 알 것 같다. 어쩌면 스승님은 애초에 우리가 자신을 찾기를 바란 게 아니라, 이 세상을 우리 자신의 눈으로 직접 보기를 원하셨던 건 아닐까.\n전쟁으로 파괴된 마을을 보기를.\n도움이 절실한 낯선 사람들과, 여전히 그들을 기꺼이 돕고자 하는 사람들을 보기를.\n역사책이 말해주지 않는 이야기들을 보기를 말이다.\n\n지난 1년 동안, 나는 사기꾼, 강도, 군벌, 광신도들을 만났다.\n그리고 상인, 농부, 성직자, 의사들도 만났다.\n수많은 선량한 평범한 사람들도 만났다.\n\n예전에는 스승님이 교실에서 그저 듣기 좋은 빈말을 하시는 거라고 느낀 적도 있었다. 하지만 이제서야 마침내 이해했다. 만약 정말로 스승님을 다시 뵙게 되는 날이 온다면, 이렇게 말씀드리고 싶다.\n"스승님, 의회에게 패배하셨고, 전쟁에 패배하셨고, 시대에 패배하셨죠. 하지만 스승님은 그 누구에게도 진 게 아니에요. 스승님을 기억하는 사람들, 스승님이 바꾸고자 노력했던 모든 것을 기억하는 수많은 사람들이 아직 남아있으니까요. 저를 포함해, 우리를 포함해, 지금 스승님의 발자취를 따르고 있는 모든 사람들이요."\n\n우리는 굳이 다시 만날 필요가 없습니다.\n\n우리의 의지는 결국 하늘의 별바다로 모여들어, 이 어둠을 흩어버릴 테니까요.</PLAMilira_QuestLetter_Skuld_Student_J.comps.0.customDiaLog.0.content>
+  <PLAMilian_FloatUnit_Visjnoe.label>비슈누 부유 유닛</PLAMilian_FloatUnit_Visjnoe.label>
+  <PLAMilian_FloatUnit_Visjnoe.description>유물 기술을 활용하여 보호막 역장을 생성하는 소형 전술 장치입니다.\n\n주변의 아군을 보호하고 대신 피해를 흡수합니다. 흡수한 피해의 20%는 장치 본체로 다시 전달됩니다.</PLAMilian_FloatUnit_Visjnoe.description>
+  <PLAMilian_FloatUnit_Visjnoe.tools.0.label>몸체</PLAMilian_FloatUnit_Visjnoe.tools.0.label>
+  <PLAMilira_AirburstRocketLauncher.comps.5.verbProps.label>충전 모드</PLAMilira_AirburstRocketLauncher.comps.5.verbProps.label>
+  <Milira_Rumbler_Splitting.comps.5.verbProps.label>충전 모드</Milira_Rumbler_Splitting.comps.5.verbProps.label>
+  <PLAMilira_AntiMateriel_Rifle.comps.5.gizmoLabel1>광휘강 철갑탄(AP)</PLAMilira_AntiMateriel_Rifle.comps.5.gizmoLabel1>
+  <PLAMilira_AntiMateriel_Rifle.comps.5.gizmoDesc1>고속 스마트 파쇄탄으로 전환합니다.</PLAMilira_AntiMateriel_Rifle.comps.5.gizmoDesc1>
+  <PLAMilira_AntiMateriel_Rifle.comps.5.gizmoDesc2>광휘강 철갑탄(AP)으로 전환합니다.</PLAMilira_AntiMateriel_Rifle.comps.5.gizmoDesc2>
+  <PLAMilira_Mote_AntiMaterielRifleTargeting.label>티끌</PLAMilira_Mote_AntiMaterielRifleTargeting.label>
+  <PLAMilira_Solar_Breaker.comps.5.verbProps.label>충전 모드</PLAMilira_Solar_Breaker.comps.5.verbProps.label>
+  <PLAMilira_DBS.label>이중 자유 DBS-2</PLAMilira_DBS.label>
+  <PLAMilira_DBS.description>지상 탐사대를 위해 설계된 차세대 호신용 산탄총으로, 전자기력을 이용해 탄환을 가속합니다. 충전 모드에서는 근거리에서 끔찍할 정도의 단기 폭발력을 발휘하지만, 지속 전투 능력은 다소 떨어집니다.\n\n피해량은 거리에 따라 유동적으로 변합니다. 4칸 이내에서 사격 시 방어구 관통력이 3배, 피해량이 1.5배로 증가합니다. 이 보너스는 단계적으로 감소하여 12칸에서는 완전히 사라지며, 최종적으로는 방어구 관통력 0.5배, 피해량 0.7배로 떨어집니다.\n\n이 무기는 충전할 수 있습니다. 충전 상태에서는 탄환의 운동 에너지가 더욱 강화되어 피해량과 방어구 관통력이 약간 증가하고 조준 시간이 크게 감소합니다.\n\n\n밀리라 또는 하늘 깃털 교회와 동맹을 맺으면 추가로 업그레이드할 수 있습니다.\n\n두 번째 기억: 구시대 무기 "이중 해방 DBS2"를 모델로 이중 자유 DBS-2를 개조하여 소규모 적 무리에 대한 제압력을 대폭 향상시킵니다. 에너지를 보유한 상태에서 발사하는 탄환은 추가 화상 피해를 입히며, 처음 명중한 대상을 관통할 수 있습니다.\n\n칠중 자유: 이중 자유 DBS-2에 특수 드럼 탄창을 장착하여 기본 최대 에너지 수치가 12에서 42로 증가합니다. 하지만 충전 간격 및 에너지 고갈 후의 재설정 시간이 300%로 늘어납니다.</PLAMilira_DBS.description>
+  <PLAMilira_DBS.tools.0.label>개머리판</PLAMilira_DBS.tools.0.label>
+  <PLAMilira_DBS.tools.1.label>총열</PLAMilira_DBS.tools.1.label>
+  <PLAMilira_DBS.comps.5.verbProps.label>충전 모드</PLAMilira_DBS.comps.5.verbProps.label>
+  <PLAMiliraBullet_DBSCharged.label>DBS 탄환 </PLAMiliraBullet_DBSCharged.label>
+  <PLAMiliraBullet_DBSCharged_UP.label>DBS 탄환 </PLAMiliraBullet_DBSCharged_UP.label>
+  <PLAMiliraBullet_DBS.label>DBS 탄환 </PLAMiliraBullet_DBS.label>
+  <PLAMilira_Speargun.label>스피어 건 S-11</PLAMilira_Speargun.label>
+  <PLAMilira_Speargun.description>전자기 가속과 기계적 동력을 결합하여 무거운 단창을 발사하는 스피어 건입니다. 이 단창은 어느 정도의 관통력을 지니고 있으며 명중 시 소량의 독가스를 방출합니다.\n\n\n밀리라 또는 하늘 깃털 교회와 동맹을 맺으면 추가로 업그레이드할 수 있습니다.\n\n다상 공진 얽힘 배열: 창끝에 신형 다상 교란 배열을 추가하여, 기계 유닛 명중 시 EMP 폭발을 일으키고, 원거리 유닛 명중 시 소량의 연막을 방출하며, 그 외의 유닛 명중 시 짧은 시간 동안 행동을 멈추게 합니다.\n\n장거리 가속 레일: 발사 레일을 연장하여 창끝의 운동 에너지를 한층 더 끌어올립니다. 창끝의 방어구 관통력이 25% 증가하며, 명중 시 일정 확률로 여러 번의 찢김 피해를 추가로 입힙니다.</PLAMilira_Speargun.description>
+  <PLAMilira_Speargun.verbs.Verb_Shoot.label>스피어 건 S-11</PLAMilira_Speargun.verbs.Verb_Shoot.label>
+  <PLAMilira_Speargun.tools.0.label>개머리판</PLAMilira_Speargun.tools.0.label>
+  <PLAMilira_Speargun.tools.1.label>총열</PLAMilira_Speargun.tools.1.label>
+  <PLAMiliraBullet_Speargun.label>단창</PLAMiliraBullet_Speargun.label>
+  <PLAMiliraBullet_SpeargunUP.label>단창</PLAMiliraBullet_SpeargunUP.label>
+  <PLAMilira_WASP.comps.5.verbProps.label>충전 모드</PLAMilira_WASP.comps.5.verbProps.label>
+  <PLAMilira_Autocannon.comps.5.gizmoLabel1>철갑 예광탄</PLAMilira_Autocannon.comps.5.gizmoLabel1>
+  <PLAMilira_Autocannon.comps.5.gizmoDesc1>고폭 공중폭발탄으로 전환합니다.</PLAMilira_Autocannon.comps.5.gizmoDesc1>
+  <PLAMilira_Autocannon.comps.5.gizmoDesc2>철갑 예광탄으로 전환합니다.</PLAMilira_Autocannon.comps.5.gizmoDesc2>
+  <PLAMilira_Spear.comps.5.gizmoLabel1>역장 폭파 모드</PLAMilira_Spear.comps.5.gizmoLabel1>
+  <PLAMilira_Spear.comps.5.gizmoDesc1>위상 공간 폭격 모드로 전환합니다.</PLAMilira_Spear.comps.5.gizmoDesc1>
+  <PLAMilira_Spear.comps.5.gizmoDesc2>역장 폭파 모드로 전환합니다.</PLAMilira_Spear.comps.5.gizmoDesc2>
+  <PLAMilira_Arc_Thrower.comps.5.verbProps.label>충전 모드</PLAMilira_Arc_Thrower.comps.5.verbProps.label>
+  <Milira_RaySG_Trident.comps.5.verbProps.label>충전 모드</Milira_RaySG_Trident.comps.5.verbProps.label>
+  <PLAMilira_Escalator.label>디-에스컬레이터 GL-52</PLAMilira_Escalator.label>
+  <PLAMilira_Escalator.description>크레이돌 공학부에서 개발한 인도주의적 유탄 발사기로, 고에너지 아크 유탄을 발사하며 3점사 모드와 단발 모드를 전환할 수 있습니다. 하지만 총몸에 적힌 "10MV"라는 수치가 대체 어떻게 인도주의적인지에 대해서는 수많은 의문이 제기되어 왔습니다. 발사된 유탄은 지면에 닿는 즉시 다수의 고전압 아크를 방출하여 주변의 최대 3기 유닛에게 연쇄적으로 피해를 입힙니다. 피해량은 낮지만 엄청난 제압력을 자랑합니다.\n\n이 무기는 충전할 수 있습니다. 충전 상태에서는 아크 피해량이 약간 증가하고 경직 시간이 연장됩니다.\n\n\n밀리라 또는 하늘 깃털 교회와 동맹을 맺으면 추가로 업그레이드할 수 있습니다 (이 무기는 아크 방사기와 업그레이드를 일부 공유합니다).\n\n동력 사출기: 아크 유탄 발사기 GL-52에서 발사된 유탄은 폭발 후 무작위 방향으로 1회 더 튕겨 나갑니다. 경고: 튕기는 방향과 거리는 예측할 수 없습니다.\n\n고정밀 부품 양산: 생산 공정을 개선하여 아크 유탄 발사기 GL-52의 품질 페널티를 완화합니다. 기본 에너지 보정 계수가 50%에서 80%로 증가합니다.</PLAMilira_Escalator.description>
+  <PLAMilira_Escalator.comps.5.gizmoLabel1>단발 모드</PLAMilira_Escalator.comps.5.gizmoLabel1>
+  <PLAMilira_Escalator.comps.5.gizmoDesc1>단발 모드로 전환합니다.</PLAMilira_Escalator.comps.5.gizmoDesc1>
+  <PLAMilira_Escalator.comps.5.gizmoDesc2>3점사 모드로 전환합니다.</PLAMilira_Escalator.comps.5.gizmoDesc2>
+  <PLAMilira_Escalator.tools.0.label>개머리판</PLAMilira_Escalator.tools.0.label>
+  <PLAMilira_Escalator.tools.1.label>총열</PLAMilira_Escalator.tools.1.label>
+  <PLAMiliraBullet_Escalator_Charged.label>아크 유탄</PLAMiliraBullet_Escalator_Charged.label>
+  <PLAMiliraBullet_Escalator.label>아크 유탄</PLAMiliraBullet_Escalator.label>
+  <PLAMilira_BreachingHammer.label>파쇄 해머 CQC-20</PLAMilira_BreachingHammer.label>
+  <PLAMilira_BreachingHammer.description>머리 부분에 지향성 압력 감지 에너지 방출 장치가 장착된 철거용 전투 망치로, 다소 무거운 편입니다.\n\n무기에 에너지가 충전되어 있을 때 공격하면 대상의 방향으로 원뿔 형태의 폭발을 일으켜 구조물을 상대로 충격적인 철거 효율을 자랑합니다.</PLAMilira_BreachingHammer.description>
+  <PLAMilira_BreachingHammer.tools.0.label>해머</PLAMilira_BreachingHammer.tools.0.label>
+  <PLAMilira_Plasma_Eruptor.comps.5.verbProps.label>충전 모드</PLAMilira_Plasma_Eruptor.comps.5.verbProps.label>
+  <PLAMilira_Stalwart.comps.5.verbProps.label>충전 모드</PLAMilira_Stalwart.comps.5.verbProps.label>
+  <PLAMilira_RailGun.comps.5.verbProps.label>충전 모드</PLAMilira_RailGun.comps.5.verbProps.label>
+  <PLAMilira_OneTwo.label>AR/GL-21 12</PLAMilira_OneTwo.label>
+  <PLAMilira_OneTwo.description>이온 소총과 유탄 발사기가 결합된 복합 무기입니다. 범용성이 매우 뛰어나지만 중화기와 비슷하게 다뤄야 합니다.\n\n소총 모드와 유탄 모드를 전환할 수 있습니다.\n\n\n밀리라 또는 하늘 깃털 교회와 동맹을 맺으면 추가로 업그레이드할 수 있습니다.\n\n과포화 플라즈마: 에너지 전도 시스템을 개선합니다. 소총 모드에서 에너지가 충전된 상태로 발사되는 이온 빔의 방어구 융해 효율이 50% 증가합니다.\n\n전자기 발진기: 유탄 모드에서 전자기 유탄을 발사하도록 변경됩니다. 폭발 시 추가로 EMP 충격을 발생시키며, 주 피해량이 25% 증가합니다.</PLAMilira_OneTwo.description>
+  <PLAMilira_OneTwo.comps.5.gizmoLabel1>소총 모드</PLAMilira_OneTwo.comps.5.gizmoLabel1>
+  <PLAMilira_OneTwo.comps.5.gizmoDesc1>유탄 모드로 전환합니다.</PLAMilira_OneTwo.comps.5.gizmoDesc1>
+  <PLAMilira_OneTwo.comps.5.gizmoDesc2>소총 모드로 전환합니다.</PLAMilira_OneTwo.comps.5.gizmoDesc2>
+  <PLAMilira_OneTwo.tools.0.label>개머리판</PLAMilira_OneTwo.tools.0.label>
+  <PLAMilira_OneTwo.tools.1.label>총열</PLAMilira_OneTwo.tools.1.label>
+  <PLAMiliraBullet_OneTwoChargedUP.label>충전된 이온 빔</PLAMiliraBullet_OneTwoChargedUP.label>
+  <PLAMiliraBullet_OneTwoGrenade.label>유탄</PLAMiliraBullet_OneTwoGrenade.label>
+  <PLAMiliraBullet_OneTwoGrenadeUP.label>유탄</PLAMiliraBullet_OneTwoGrenadeUP.label>
+  <PLAMilira_AncientSealedCrate_Milira_Resources.label>밀봉된 상자</PLAMilira_AncientSealedCrate_Milira_Resources.label>
+  <PLAMilira_AncientSealedCrate_Milira_Resources.description>아직 밀봉되어 있는 작은 상자입니다. 안에 귀중품이 들어있을지도 모릅니다.</PLAMilira_AncientSealedCrate_Milira_Resources.description>
+  <PLAMilira_AncientSealedCrate_Milira_Grave.label>밀봉된 상자</PLAMilira_AncientSealedCrate_Milira_Grave.label>
+  <PLAMilira_AncientSealedCrate_Milira_Grave.description>아직 밀봉되어 있는 작은 상자입니다. 안에 귀중품이 들어있을지도 모릅니다.</PLAMilira_AncientSealedCrate_Milira_Grave.description>
+  <PLAMilira_AncientSealedCrate_PLAMilira_Weapon.label>밀봉된 상자</PLAMilira_AncientSealedCrate_PLAMilira_Weapon.label>
+  <PLAMilira_AncientSealedCrate_PLAMilira_Weapon.description>아직 밀봉되어 있는 작은 상자입니다. 안에 귀중품이 들어있을지도 모릅니다.</PLAMilira_AncientSealedCrate_PLAMilira_Weapon.description>
+  <PLAMilira_AncientSealedCrate_PLAMilira_Core.label>밀봉된 상자</PLAMilira_AncientSealedCrate_PLAMilira_Core.label>
+  <PLAMilira_AncientSealedCrate_PLAMilira_Core.description>아직 밀봉되어 있는 작은 상자입니다. 안에 귀중품이 들어있을지도 모릅니다.</PLAMilira_AncientSealedCrate_PLAMilira_Core.description>
+  <PLAMilian_Mote_BishopIISmoke.label>티끌</PLAMilian_Mote_BishopIISmoke.label>
+  <PLAMilira_PawnJumper_BladeUnitCharge.label>비행</PLAMilira_PawnJumper_BladeUnitCharge.label>
+  <PLAMilira_Blade_Particle.label>티끌</PLAMilira_Blade_Particle.label>
+  <PLAMilira_PawnJumper_BladeUnitExplode.label>비행</PLAMilira_PawnJumper_BladeUnitExplode.label>
+  <PLAMilira_BladeUnitShield.label>저각 역장 보호막</PLAMilira_BladeUnitShield.label>
+  <PLAMilira_BladeUnitShield.description>탄환 및 기타 저각 투사체를 막아낼 수 있는 역장을 주변에 투사하는 보호막입니다. 주기적으로 에너지를 재충전해야 합니다.</PLAMilira_BladeUnitShield.description>
+  <PLAMilira_PawnJumper_Knight_IV_RepulsiveForce.label>비행</PLAMilira_PawnJumper_Knight_IV_RepulsiveForce.label>
+  <PLAMilira_PawnJumper_Knight_IV.label>비행</PLAMilira_PawnJumper_Knight_IV.label>
+</LanguageData>

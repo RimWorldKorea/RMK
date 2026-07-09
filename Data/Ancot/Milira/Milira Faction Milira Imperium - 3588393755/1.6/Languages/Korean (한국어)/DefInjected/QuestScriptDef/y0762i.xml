@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Milira_ImperiumHospitality.questContentRules.rulesStrings>
+    <li>lastOrNot(lodgerCount==1)-&gt;</li>
+    <li>lastOrNot(lodgerCount&gt;=2)-&gt;마지막</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount==1)-&gt;[lodgersLabel]</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount&gt;=2)-&gt;[lodgersLabelPlural]</li>
+    <li>lodgersArriveLetterLabel-&gt;[lodgersLabelSingularOrPlural] 도착</li>
+    <li>lodgersArriveLetterText-&gt;[lodgersSingularOrPluralDef](이)가 도착했습니다. [lodgersPronoun](은)는 [questDurationTicks_duration] 동안 손님으로 머물 것입니다. 하지만 [lodgersPronoun](은)는 가만히 쉬기보다는 기꺼이 노동에 참여하고자 합니다.</li>
+    <li>hasHave(lodgerCount==1)-&gt;했습니다</li>
+    <li>hasHave(lodgerCount&gt;=2)-&gt;했습니다</li>
+    <li>isAre(lodgerCount==1)-&gt;입니다</li>
+    <li>isAre(lodgerCount&gt;=2)-&gt;입니다</li>
+    <li>appalledButNoAction-&gt;{PAWNSALIVECOUNT_multiple ? 다른 이들은 : 남은 [lodgersLabel](은)는} 이에 경악했지만, 당신에게 별다른 조치를 취하지는 않을 것입니다.</li>
+    <li>othersWillNotAccept-&gt;{PAWNSALIVECOUNT_multiple ? 다른 이들은 : 남은 [lodgersLabel](은)는} 이를 받아들이려 하지 않습니다</li>
+    <li>turnedViolent-&gt;[othersWillNotAccept], 결국 당신에게 폭력적으로 대응하기 시작했습니다.</li>
+    <li>decidedToLeave-&gt;[othersWillNotAccept], 결국 떠나기로 결정했습니다.</li>
+    <li>whoAskedToStay-&gt;함께 머물기를 요청했던</li>
+    <li>oneOfThe-&gt;함께 머물기를 요청했던 [faction_pawnsPlural] 중 한 명</li>
+    <li>questOver-&gt;'[resolvedQuestName]' 퀘스트가 종료되었습니다.</li>
+    <li>letterIntroDeath-&gt;[oneOfThe]인 {SUBJECT_definite}(이)가 사망했습니다.</li>
+    <li>lodgerDiedMemoryThoughtLetterLabel-&gt;[lodgersLabel] 사망: 분노</li>
+    <li>lodgerDiedMemoryThoughtLetterText-&gt;[letterIntroDeath]\n\n[appalledButNoAction]</li>
+    <li>lodgerDiedAttackPlayerLetterLabel-&gt;[lodgersLabel] 사망: 복수</li>
+    <li>lodgerDiedAttackPlayerLetterText-&gt;[letterIntroDeath]\n\n[turnedViolent]</li>
+    <li>lodgerDiedLeaveMapLetterLabel-&gt;[lodgersLabel] 사망: 작별</li>
+    <li>lodgerDiedLeaveMapLetterText-&gt;[letterIntroDeath]\n\n[decidedToLeave]</li>
+    <li>lodgersAllDiedLetterLabel-&gt;퀘스트 실패</li>
+    <li>lodgersAllDiedLetterText-&gt;[whoAskedToStay] [lastOrNot] [faction_pawnSingular]인 {SUBJECT_definite}(이)가 사망했습니다.\n\n[questOver]</li>
+    <li>letterIntroArrested-&gt;당신은 [oneOfThe]인 {SUBJECT_definite}(을)를 체포했습니다.</li>
+    <li>lodgerArrestedMemoryThoughtLetterLabel-&gt;[lodgersLabel] 체포: 분노</li>
+    <li>lodgerArrestedMemoryThoughtLetterText-&gt;[letterIntroArrested]\n\n[appalledButNoAction]</li>
+    <li>lodgerArrestedAttackPlayerLetterLabel-&gt;[lodgersLabel] 체포: 복수</li>
+    <li>lodgerArrestedAttackPlayerLetterText-&gt;[letterIntroArrested]\n\n[turnedViolent]</li>
+    <li>lodgerArrestedLeaveMapLetterLabel-&gt;[lodgersLabel] 체포: 작별</li>
+    <li>lodgerArrestedLeaveMapLetterText-&gt;[letterIntroArrested]\n\n[decidedToLeave]</li>
+    <li>lodgersAllArrestedLetterLabel-&gt;퀘스트 실패</li>
+    <li>lodgersAllArrestedLetterText-&gt;당신은 [whoAskedToStay] [lastOrNot] [faction_pawnSingular]인 {SUBJECT_definite}(을)를 체포했습니다.\n\n[questOver]</li>
+    <li>letterIntroViolated-&gt;[oneOfThe]인 {SUBJECT_definite}(이)가 강제 수술을 당했습니다.</li>
+    <li>lodgerViolatedMemoryThoughtLetterLabel-&gt;[lodgersLabel] 신체 침해: 분노</li>
+    <li>lodgerViolatedMemoryThoughtLetterText-&gt;[letterIntroViolated]\n\n[appalledButNoAction]</li>
+    <li>lodgerViolatedAttackPlayerLetterLabel-&gt;[lodgersLabel] 신체 침해: 복수</li>
+    <li>lodgerViolatedAttackPlayerLetterText-&gt;[letterIntroViolated]\n\n[turnedViolent]</li>
+    <li>lodgerViolatedLeaveMapLetterLabel-&gt;[lodgersLabel] 체포: 작별</li>
+    <li>lodgerViolatedLeaveMapLetterText-&gt;[letterIntroViolated]\n\n[decidedToLeave]</li>
+    <li>lodgersLeavingLetterLabel-&gt;[lodgersLabelSingularOrPlural] 떠남</li>
+    <li>lodgersLeavingLetterText-&gt;{FACTION_leaderNameDef}(은)는 지난 [questDurationTicks_duration] 동안 자신들이 [map_definite]에 머물 수 있게 해준 것에 감사를 표합니다. {FACTION_leaderPronoun}(은)는 이제 자신의 일행과 함께 이동합니다.\n\n{FACTION_leaderNameDef}(은)는 당신의 은혜를 잊지 않겠다고 말합니다.</li>
+  </Milira_ImperiumHospitality.questContentRules.rulesStrings>
+</LanguageData>

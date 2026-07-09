@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Kiiro Race</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kiiro_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[7]/name</xpath>
+          <value>
+            <name>키이로 바보털 세실리아</name>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kiiro_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[8]/name</xpath>
+          <value>
+            <name>키이로 머리카락 세실리아</name>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kiiro_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[9]/name</xpath>
+          <value>
+            <name>키이로 뒷머리 세실리아</name>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>##packageId##KindSeal.LOL</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[48]/name</xpath>
+          <value>
+            <name>밀리라 헤일로 카인드실</name>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[49]/name</xpath>
+          <value>
+            <name>밀리라 머리카락 카인드실</name>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[50]/name</xpath>
+          <value>
+            <name>밀리라 뒷머리 카인드실</name>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[6]/name</xpath>
+    <value>
+      <name>밀리라 헤일로 레미엘</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[7]/name</xpath>
+    <value>
+      <name>밀리라 바보털 레미엘</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[8]/name</xpath>
+    <value>
+      <name>밀리라 머리카락 레미엘</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[9]/name</xpath>
+    <value>
+      <name>밀리라 뒷머리 레미엘</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[10]/name</xpath>
+    <value>
+      <name>밀리라 헤일로 에이미</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[11]/name</xpath>
+    <value>
+      <name>밀리라 머리카락 에이미</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[12]/name</xpath>
+    <value>
+      <name>밀리라 뒷머리 에이미</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[13]/name</xpath>
+    <value>
+      <name>밀리라 헤일로 크리스티나</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[14]/name</xpath>
+    <value>
+      <name>밀리라 머리카락 크리스티나</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[15]/name</xpath>
+    <value>
+      <name>밀리라 뒷머리 크리스티나</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[16]/name</xpath>
+    <value>
+      <name>밀리라 헤일로 후이빙</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[17]/name</xpath>
+    <value>
+      <name>밀리라 머리카락 후이빙</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[18]/name</xpath>
+    <value>
+      <name>밀리라 뒷머리 후이빙</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[19]/name</xpath>
+    <value>
+      <name>밀리라 헤일로 카티아</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[20]/name</xpath>
+    <value>
+      <name>밀리라 머리카락 카티아</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[21]/name</xpath>
+    <value>
+      <name>밀리라 뒷머리 카티아</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[22]/name</xpath>
+    <value>
+      <name>밀리라 헤일로 린허</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[23]/name</xpath>
+    <value>
+      <name>밀리라 머리카락 린허</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[24]/name</xpath>
+    <value>
+      <name>밀리라 뒷머리 린허</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[25]/name</xpath>
+    <value>
+      <name>밀리라 헤일로 루미오르</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[26]/name</xpath>
+    <value>
+      <name>밀리라 바보털 루미오르</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[27]/name</xpath>
+    <value>
+      <name>밀리라 머리카락 루미오르</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[28]/name</xpath>
+    <value>
+      <name>밀리라 뒷머리 루미오르</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[29]/name</xpath>
+    <value>
+      <name>밀리라 헤일로 루셀라이트</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[30]/name</xpath>
+    <value>
+      <name>밀리라 머리카락 루셀라이트</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[31]/name</xpath>
+    <value>
+      <name>밀리라 뒷머리 루셀라이트</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[32]/name</xpath>
+    <value>
+      <name>밀리라 헤일로 리디아</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[33]/name</xpath>
+    <value>
+      <name>밀리라 머리카락 리디아</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[34]/name</xpath>
+    <value>
+      <name>밀리라 뒷머리 리디아</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[35]/name</xpath>
+    <value>
+      <name>밀리라 헤일로 미카</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[36]/name</xpath>
+    <value>
+      <name>밀리라 머리카락 미카</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[37]/name</xpath>
+    <value>
+      <name>밀리라 뒷머리 미카</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[38]/name</xpath>
+    <value>
+      <name>밀리라 헤일로 칭냐오</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[39]/name</xpath>
+    <value>
+      <name>밀리라 바보털 칭냐오</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[40]/name</xpath>
+    <value>
+      <name>밀리라 머리카락 칭냐오</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[41]/name</xpath>
+    <value>
+      <name>밀리라 뒷머리 칭냐오</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[42]/name</xpath>
+    <value>
+      <name>밀리라 헤일로 사리엘</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[43]/name</xpath>
+    <value>
+      <name>밀리라 머리카락 사리엘</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[44]/name</xpath>
+    <value>
+      <name>밀리라 뒷머리 사리엘</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[45]/name</xpath>
+    <value>
+      <name>밀리라 헤일로 스쿨드</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[46]/name</xpath>
+    <value>
+      <name>밀리라 머리카락 스쿨드</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[47]/name</xpath>
+    <value>
+      <name>밀리라 뒷머리 스쿨드</name>
+    </value>
+  </Operation>
+</Patch>

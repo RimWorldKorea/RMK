@@ -1,0 +1,658 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PLAMiliraSariel_Heal.label>영혼</PLAMiliraSariel_Heal.label>
+  <PLAMiliraSariel_Alarak_Wave.label>소멸 파동</PLAMiliraSariel_Alarak_Wave.label>
+  <MI_Building_PsyChicCrystal.label>장막 수정 재배기</MI_Building_PsyChicCrystal.label>
+  <MI_Building_PsyChicCrystal.description>태양 수정을 장막 수정으로 변환하는 데 사용하는 초정신 장치입니다.\n\n장치에 내장된 초정신 코어가 베일을 조용히 뚫고 장막에서 소량의 초정신 에너지를 흡수하여, 에너지 밀도가 극도로 높은 태양 수정에 주입합니다.</MI_Building_PsyChicCrystal.description>
+  <MI_Building_DarkMatterConstrainer.label>암흑 물질 구속기</MI_Building_DarkMatterConstrainer.label>
+  <MI_Building_DarkMatterConstrainer.description>밀리라 제국이 지상 정착지에 널리 배치하는 초소형 암흑 물질 구속기입니다.\n\n군함이나 궤도 거주구에 건설되는 거대한 암흑 물질 구속기에 비해 암흑 물질 생산량은 훨씬 적지만, 크기가 훨씬 작을 뿐만 아니라 작동에 필요한 전력도 매우 적습니다.\n\n해당 효과는 CPU 로직이 아닌 GPU 셰이더를 통해 주로 구현되므로, &lt;color=#7AD77D&gt;TPS에 눈에 띄는 영향을 주지 않습니다&lt;/color&gt;.</MI_Building_DarkMatterConstrainer.description>
+  <Milira_SunLightFruitGrowBox.label>태양꽃 열매 재배기</Milira_SunLightFruitGrowBox.label>
+  <Milira_SunLightFruitGrowBox.description>밀리라 제국 거주민들의 가정에서 흔히 볼 수 있는 재배기로, 밀리라 인들이 가장 좋아하는 태양꽃을 재배합니다.\n\n재배기 내부의 아름다운 태양꽃은 '발레리 안드레아'라는 이름의 흑발 밀리라가 개량한 품종입니다.\n\n이 온도 및 습도 조절 재배기는 정기적으로 태양꽃 열매를 수확하게 해줍니다.\n\n수확한 열매는 보통 밀리라의 요리에 사용됩니다. 뭐, 사실 요리는 가정용 밀리언들이 대신 해줍니다.</Milira_SunLightFruitGrowBox.description>
+  <Milira_SolarCrystalGrowBox.label>태양 수정 재배기</Milira_SolarCrystalGrowBox.label>
+  <Milira_SolarCrystalGrowBox.description>태양 수정은 햇살 연료와 더불어 밀리라 종족의 또 다른 핵심 에너지원입니다.\n\n이 아름다운 결정은 밀리라가 발을 딛는 은하계 곳곳으로 퍼져 나갔습니다.\n\n크레이돌의 많은 밀리라 학자들은 태양 수정이 그들을 창조한 고대 앵콧 신이 내린 선물 중 하나라고 믿습니다.\n\n오래전 밀리라 제국은 이 신성한 선물을 대량 생산할 수 있는 안정적인 방법을 발견했으며, 이를 통해 거대한 제국 함대와 끝없는 대성전을 지탱해 왔습니다.</Milira_SolarCrystalGrowBox.description>
+  <Milira_Euphratespoplar.label>유프라테스 포플러</Milira_Euphratespoplar.label>
+  <Milira_Euphratespoplar.description>한때는 사막의 척박한 나무였으나, 유전자 조작을 거쳐 일 년 내내 잎이 황금빛으로 고정되었습니다.\n\n제국의 밀리라들은 이 영원한 광채를 사랑합니다. 거대 요새의 주거 지역과 궤도 거주구의 거리를 따라 늘어선 유프라테스 포플러는 거대한 황금빛 바다를 이룹니다.\n\n"인공 산들바람이 중앙 공원을 가로지를 때면, 황금빛 물결이 층층이 밀려오며 복고풍의 우아함과 엄숙함이 공존하는 의사당을 돋보이게 한다. 마치 황금빛 그림 속에서 시간이 천천히 흐르는 것만 같다." \n\n —————— 어느 키이로 여행자의 여행기 중에서.</Milira_Euphratespoplar.description>
+  <Milira_DarkMatterConstrainer.label>암흑 물질 구속기(구버전)</Milira_DarkMatterConstrainer.label>
+  <Milira_DarkMatterConstrainer.description>새로운 버전의 암흑 물질 구속기를 다시 건설해 주세요.</Milira_DarkMatterConstrainer.description>
+  <Milira_AuxiliaryReplicator.label>보조 복제기</Milira_AuxiliaryReplicator.label>
+  <Milira_AuxiliaryReplicator.description>내장된 암흑 물질 배터리 팩으로 구동되는 보조 복제기입니다.\n\n주변 밀리라 작업대의 생산 작업을 보조하여 정밀 부품 제작을 돕고, 제조 속도를 크게 향상시킵니다.\n\n밀리라 제국의 거의 모든 가정에 보급된 저렴하고 사용하기 쉬운 생산 시설입니다.\n\n연결 가능한 시설:\n밀리라 재봉 작업대\n밀리라 인쇄 작업대\n밀리라 드론 인쇄기\n밀리라 부품 작업대.</Milira_AuxiliaryReplicator.description>
+  <Milira_DarkMatterReactor.label>암흑 물질 발전기</Milira_DarkMatterReactor.label>
+  <Milira_DarkMatterReactor.description>밀리라 제국의 민간 성간함선에서 널리 사용되는 소형 암흑 물질 발전기입니다. 군함에 탑재되는 군용 발전기에 비해 저렴하고 소형이며 유지보수가 쉽습니다.</Milira_DarkMatterReactor.description>
+  <Milira_DarkMatterBattery.label>암흑 물질 축전지</Milira_DarkMatterBattery.label>
+  <Milira_DarkMatterBattery.description>암흑 물질이 밀봉되어 있고 초미세 반응기가 장착된 이 배터리는 최소 400년 동안 지속적으로 작동할 수 있습니다.\n\n이 배터리는 우주 전투기와 같은 밀리라 제국의 소규모 군사 장비에 흔히 사용됩니다.\n\n또한, 중력 직조기의 성능을 크게 강화할 수 있습니다. 중력 직조기 하나에 최대 4개의 암흑 물질 배터리를 연결할 수 있습니다.</Milira_DarkMatterBattery.description>
+  <Milira_GravityLoom.label>밀리라 중력 직조기</Milira_GravityLoom.label>
+  <Milira_GravityLoom.description>초능력으로 조정된 공간 곡률 배열을 사용하여 중력의 힘을 우아하게 다루고, 물질을 필요한 형태로 빚어냅니다.</Milira_GravityLoom.description>
+  <Milira_PsionicCounterMeasure.label>초능력 방출기</Milira_PsionicCounterMeasure.label>
+  <Milira_PsionicCounterMeasure.description>초능력 코어가 장착되고 초월공학 장치로 구성된 첨단 장비입니다. 현재 지역의 정신 파동 효과를 정화할 수 있습니다.\n\n밀리라 제국의 모든 군함에는 수많은 제국 사이캐스터들의 정신을 보호하기 위해 이 장치가 탑재되어 있습니다.\n\n60초마다 파동을 방출하며, 각 파동은 다음과 같은 효과를 가집니다.\n현재 지역 내 모든 아군에게 강화 버프를 부여합니다.\n모든 정신적 상태 이상 효과를 제거합니다.\n적의 투명화 상태를 해제합니다.\n\n초능력 강화 모드와 정신 방어 모드 사이를 전환할 수 있습니다.</Milira_PsionicCounterMeasure.description>
+  <MiliraImperiumTurret_MiniGun.label>"토네이도" 이온 회전포</MiliraImperiumTurret_MiniGun.label>
+  <MiliraImperiumTurret_MiniGun.description>밀리라 제국 식민지에서 주로 사용하는 이온 미니건 포탑입니다. "토네이도"는 함선용 스톰파이어 캐논의 소형화 버전으로, 지상 방어에 적합하며 조립 비용이 저렴합니다.</MiliraImperiumTurret_MiniGun.description>
+  <MiliraBullet_Turret_MiniGun.label>이온 광선</MiliraBullet_Turret_MiniGun.label>
+  <MiliraTurretGun_MiniGun.label>이온 회전포</MiliraTurretGun_MiniGun.label>
+  <MiliraTurretGun_MiniGun.description>고정 포탑에 장착된 중형 플라즈마포입니다.</MiliraTurretGun_MiniGun.description>
+  <MiliraTurretGun_MiniGun.verbs.Verb_ShootSustainedWithOffset.label>이온 회전포</MiliraTurretGun_MiniGun.verbs.Verb_ShootSustainedWithOffset.label>
+  <MiliraImperiumTurret_Typhoon.label>"태풍" 감마 레이저포</MiliraImperiumTurret_Typhoon.label>
+  <MiliraImperiumTurret_Typhoon.description>밀리라 제국 식민지에서 주로 사용하는 감마 레이저 포탑입니다. "태풍"은 함선용 감마 레이저 캐논의 소형화 버전으로, 지상 방어에 적합하며 조립 비용이 저렴합니다.</MiliraImperiumTurret_Typhoon.description>
+  <MiliraBullet_Turret_Typhoon.label>감마 레이저</MiliraBullet_Turret_Typhoon.label>
+  <MiliraTurretGun_Typhoon.label>감마 레이저포</MiliraTurretGun_Typhoon.label>
+  <MiliraTurretGun_Typhoon.description>고정 포탑에 장착된 중형 플라즈마포입니다.</MiliraTurretGun_Typhoon.description>
+  <MiliraTurretGun_Typhoon.verbs.Verb_Shoot.label>감마 레이저포</MiliraTurretGun_Typhoon.verbs.Verb_Shoot.label>
+  <MiliraImperiumTurret_PlasmaCannon.label>"혜성" 플라즈마포</MiliraImperiumTurret_PlasmaCannon.label>
+  <MiliraImperiumTurret_PlasmaCannon.description>밀리라 제국의 구축함에 주로 탑재되는 플라즈마포입니다.</MiliraImperiumTurret_PlasmaCannon.description>
+  <MiliraBullet_PlasmaCannon.label>플라즈마 탄환</MiliraBullet_PlasmaCannon.label>
+  <MiliraTurretGun_PlasmaCannon.label>중형 플라즈마포</MiliraTurretGun_PlasmaCannon.label>
+  <MiliraTurretGun_PlasmaCannon.description>고정 포탑에 장착된 중형 플라즈마포입니다.</MiliraTurretGun_PlasmaCannon.description>
+  <MiliraTurretGun_PlasmaCannon.verbs.Verb_Shoot.label>중형 플라즈마포</MiliraTurretGun_PlasmaCannon.verbs.Verb_Shoot.label>
+  <MiliraImperiumTurret_PointDefense.label>플라즈마 근접 방어 체계</MiliraImperiumTurret_PointDefense.label>
+  <MiliraImperiumTurret_PointDefense.description>충격량이 큰 플라즈마 탄환을 연속 사격하는 자체 동력 플라즈마 자동포탑입니다.\n\n이 근접 방어 포탑은 벽을 무시하고 사거리 내의 고각 투사체를 요격할 수 있습니다. 하지만 저각 표적을 공격할 때는 벽이나 유사한 구조물에 의해 시야가 제한됩니다.</MiliraImperiumTurret_PointDefense.description>
+  <MiliraBullet_PointDefense.label>충전된 플라즈마</MiliraBullet_PointDefense.label>
+  <MiliraTurretGun_PointDefense.label>"성운" 근접 방어포</MiliraTurretGun_PointDefense.label>
+  <MiliraTurretGun_PointDefense.description>고정 포탑에 장착된 중형 근접 방어포입니다.</MiliraTurretGun_PointDefense.description>
+  <MiliraImperiumTurret_Disruptor.label>"별자리" 위상 교란기</MiliraImperiumTurret_Disruptor.label>
+  <MiliraImperiumTurret_Disruptor.description>밀리라 제국에서 널리 사용하는 중형 함포로, 주로 중단거리에서 소형 군함을 요격하기 위해 설계되었습니다. 단일 밀리라 전함에는 보통 수백 개의 이러한 포탑이 장착되어 암흑 초월공학 전함에 효과적인 제압 사격을 가합니다.\n\n이 포탑은 피해 감소 계수를 무시할 수 있는 교란 광선을 발사합니다.</MiliraImperiumTurret_Disruptor.description>
+  <MiliraBullet_Disruptor.label>플라즈마 탄환</MiliraBullet_Disruptor.label>
+  <MiliraTurretGun_Disruptor.label>대형 플라즈마포</MiliraTurretGun_Disruptor.label>
+  <MiliraTurretGun_Disruptor.description>고정 포탑에 장착된 중형 화포입니다.</MiliraTurretGun_Disruptor.description>
+  <MiliraImperiumTurret_MissileLauncher.label>"별빛" 미사일 발사기</MiliraImperiumTurret_MissileLauncher.label>
+  <MiliraImperiumTurret_MissileLauncher.description>함선 탑재용 군집 미사일 클러스터 내의 단일 발사 유닛 역할을 하는 소형 미사일 발사기입니다.\n\n능동 레이더 유도 미사일을 발사합니다. 미사일은 불안정한 중성자 군집을 탄두로 사용하며, 대형 표적에 특히 효과적입니다.\n\n(대상의 크기 배율이 n배일 경우 미사일 데미지는 n배가 됩니다. 대상의 크기가 1.0 미만이면 데미지는 1배로 유지됩니다.)</MiliraImperiumTurret_MissileLauncher.description>
+  <MI_Building_ArcEmitter.label>"템페스트" 아크 방출기</MI_Building_ArcEmitter.label>
+  <MI_Building_ArcEmitter.description>밀리라 제국 전함의 부무장으로 흔히 사용되는 소형 아크 포탑입니다.\n\n아크는 대상에게 100% 명중하며, 주 타격 대상으로부터 1칸 이내의 적에게는 절반의 피해를 입힙니다. 방어막을 공격할 때, 집중된 아크는 훨씬 더 큰 에너지 고갈을 유발합니다.\n\n아크에 여러 번 적중당한 적은 의식을 잃게 됩니다.\n\n이 포탑이 발사하는 아크는 받는 피해 계수를 무시합니다.</MI_Building_ArcEmitter.description>
+  <MI_Turret_ArcEmitter.label>아크 방출포</MI_Turret_ArcEmitter.label>
+  <MI_Turret_ArcEmitter.description>고정식 포탑에 장착된 중형 화포입니다.</MI_Turret_ArcEmitter.description>
+  <MI_Turret_ArcEmitter.verbs.Verb_Shoot.label>아크 방출포</MI_Turret_ArcEmitter.verbs.Verb_Shoot.label>
+  <MI_Projectile_ArcTurret.label>아크</MI_Projectile_ArcTurret.label>
+  <MI_Missile_StarLight.label>별빛 미사일</MI_Missile_StarLight.label>
+  <MiliraTurretGun_MissileLauncher.label>미사일 발사기</MiliraTurretGun_MissileLauncher.label>
+  <MiliraTurretGun_MissileLauncher.description>고정 포탑에 장착된 미사일 발사기입니다.</MiliraTurretGun_MissileLauncher.description>
+  <MI_Building_ImperiumBannerProjection.label>밀리라 제국 깃발</MI_Building_ImperiumBannerProjection.label>
+  <MI_Building_ImperiumBannerProjection.description>밀리라 제국의 깃발을 영구적으로 유지하는 자체 유지 투사 장치입니다.</MI_Building_ImperiumBannerProjection.description>
+  <MI_Building_PirateBannerProjection.label>밀리라 해적 깃발</MI_Building_PirateBannerProjection.label>
+  <MI_Building_PirateBannerProjection.description>밀리라 해적의 깃발을 영구적으로 유지하는 자체 유지 투사 장치입니다.</MI_Building_PirateBannerProjection.description>
+  <MI_Building_PirateGriffin.label>밀리라 그리핀 전투기</MI_Building_PirateGriffin.label>
+  <MI_Building_PirateGriffin.description>밀리라 해적이 소유한 그리핀 전투기입니다.</MI_Building_PirateGriffin.description>
+  <Milira_SunLightDefenceTowerII.label>태양 에너지 수집/레이저 포탑</Milira_SunLightDefenceTowerII.label>
+  <Milira_SunLightDefenceTowerII.description>태양광 반사경과 연동하여 태양 에너지를 태양 연료로 변환하는 포탑입니다. 추가로 발생하는 폐열은 전기 에너지로 변환될 수 있습니다. 반드시 실외에 건설해야 합니다.\n\n레이저 결정이 장착된 이 버전은 주로 밀리라 제국 식민지에서 생산과 방어 양쪽 목적으로 설치됩니다. 다소 비싸지만 그만한 가치가 충분하며, 벽 너머로 사격이 가능합니다.</Milira_SunLightDefenceTowerII.description>
+  <MiliraBullet_SunLightGatheringTowerII.label>태양 레이저</MiliraBullet_SunLightGatheringTowerII.label>
+  <MiliraTurretGun_SunLightGatheringTowerII.label>태양광 수집 포탑</MiliraTurretGun_SunLightGatheringTowerII.label>
+  <MiliraTurretGun_SunLightGatheringTowerII.description>태양광 수집 포탑입니다.</MiliraTurretGun_SunLightGatheringTowerII.description>
+  <MiliraTurretGun_SunLightGatheringTowerII.verbs.Verb_ShootWithOffset.label>태양광 수집 포탑</MiliraTurretGun_SunLightGatheringTowerII.verbs.Verb_ShootWithOffset.label>
+  <Milira_SunLightDefenceTower.label>태양 에너지 수집/방어 포탑</Milira_SunLightDefenceTower.label>
+  <Milira_SunLightDefenceTower.description>태양광 반사경과 연동하여 태양 에너지를 태양 연료로 변환하는 포탑입니다. 추가로 발생하는 폐열은 전기 에너지로 변환될 수 있습니다. 반드시 실외에 건설해야 합니다.\n\n플라즈마 결정이 장착된 이 버전은 주로 밀리라 제국 식민지에서 생산과 방어 양쪽 목적으로 설치됩니다. 다소 비싸지만 그만한 가치가 충분합니다.</Milira_SunLightDefenceTower.description>
+  <MiliraBullet_SunLightGatheringTower.label>플라즈마 탄환</MiliraBullet_SunLightGatheringTower.label>
+  <MiliraTurretGun_SunLightGatheringTower.label>태양광 수집 포탑</MiliraTurretGun_SunLightGatheringTower.label>
+  <MiliraTurretGun_SunLightGatheringTower.description>태양광 수집 포탑입니다.</MiliraTurretGun_SunLightGatheringTower.description>
+  <MiliraTurretGun_SunLightGatheringTower.verbs.Verb_Shoot.label>태양광 수집 포탑</MiliraTurretGun_SunLightGatheringTower.verbs.Verb_Shoot.label>
+  <Milira_Soilponics.label>토양 수경재배 상자</Milira_Soilponics.label>
+  <Milira_Soilponics.description>자동화된 토양 기반 재배 상자입니다.\n\n작물 유형을 선택하기만 하면 안정적으로 작물을 계속 생산합니다.</Milira_Soilponics.description>
+  <Milira_Soilponics.comps.1.modes.0.label>옥수수 재배</Milira_Soilponics.comps.1.modes.0.label>
+  <Milira_Soilponics.comps.1.modes.0.desc>옥수수를 재배합니다.</Milira_Soilponics.comps.1.modes.0.desc>
+  <Milira_Soilponics.comps.1.modes.1.label>벼 재배</Milira_Soilponics.comps.1.modes.1.label>
+  <Milira_Soilponics.comps.1.modes.1.desc>벼를 재배합니다.</Milira_Soilponics.comps.1.modes.1.desc>
+  <Milira_Soilponics.comps.1.modes.2.label>감자 재배</Milira_Soilponics.comps.1.modes.2.label>
+  <Milira_Soilponics.comps.1.modes.2.desc>감자를 재배합니다.</Milira_Soilponics.comps.1.modes.2.desc>
+  <Milira_Soilponics.comps.1.modes.3.label>목화 재배</Milira_Soilponics.comps.1.modes.3.label>
+  <Milira_Soilponics.comps.1.modes.3.desc>목화를 재배합니다.</Milira_Soilponics.comps.1.modes.3.desc>
+  <Milira_Soilponics.comps.1.modes.4.label>악마가닥 재배</Milira_Soilponics.comps.1.modes.4.label>
+  <Milira_Soilponics.comps.1.modes.4.desc>악마가닥을 재배합니다.</Milira_Soilponics.comps.1.modes.4.desc>
+  <Milira_Soilponics.comps.1.modes.5.label>건초 재배</Milira_Soilponics.comps.1.modes.5.label>
+  <Milira_Soilponics.comps.1.modes.5.desc>건초를 재배합니다.</Milira_Soilponics.comps.1.modes.5.desc>
+  <Milira_Soilponics.comps.1.modes.6.label>약초 재배</Milira_Soilponics.comps.1.modes.6.label>
+  <Milira_Soilponics.comps.1.modes.6.desc>약초를 재배합니다.</Milira_Soilponics.comps.1.modes.6.desc>
+  <Milira_Soilponics.comps.1.modes.7.label>술보리 재배</Milira_Soilponics.comps.1.modes.7.label>
+  <Milira_Soilponics.comps.1.modes.7.desc>술보리를 재배합니다.</Milira_Soilponics.comps.1.modes.7.desc>
+  <Milira_Soilponics.comps.1.modes.8.label>광이풀 재배</Milira_Soilponics.comps.1.modes.8.label>
+  <Milira_Soilponics.comps.1.modes.8.desc>광이풀을 재배합니다.</Milira_Soilponics.comps.1.modes.8.desc>
+  <Milira_Soilponics.comps.1.modes.9.label>연초 재배</Milira_Soilponics.comps.1.modes.9.label>
+  <Milira_Soilponics.comps.1.modes.9.desc>연초를 재배합니다.</Milira_Soilponics.comps.1.modes.9.desc>
+  <Milira_Soilponics.comps.1.modes.10.label>딸기 재배</Milira_Soilponics.comps.1.modes.10.label>
+  <Milira_Soilponics.comps.1.modes.10.desc>딸기를 재배합니다.</Milira_Soilponics.comps.1.modes.10.desc>
+  <Milira_Soilponics.comps.1.modes.11.label>초콜릿 생산</Milira_Soilponics.comps.1.modes.11.label>
+  <Milira_Soilponics.comps.1.modes.11.desc>초콜릿을 생산합니다.</Milira_Soilponics.comps.1.modes.11.desc>
+  <MI_DummyResearchBuilding.label>알 수 없는 기술</MI_DummyResearchBuilding.label>
+  <MI_DummyResearchBuilding.description>일반적인 상황에서 이 기술의 데이터를 얻는 방법은 알려져 있지 않습니다. 단지 이 차원 어딘가에 이러한 해금 가능한 기술이 실제로 존재한다는 사실만 알 뿐입니다.</MI_DummyResearchBuilding.description>
+  <Milira_ImperiumArchive.label>밀리라 제국 기록 보관소</Milira_ImperiumArchive.label>
+  <Milira_ImperiumArchive.description>암흑 물질 전원이 내장된 견고한 전자 기록 보관소입니다.\n\n이론적으로, 물리적으로 파괴되지 않는 한 우주의 열적 죽음이 올 때까지 데이터를 온전하게 보존할 수 있습니다.</Milira_ImperiumArchive.description>
+  <MI_Thing_ShroudAsh.label>장막 재</MI_Thing_ShroudAsh.label>
+  <MI_Thing_ShroudAsh.description>사이오닉 중력을 통한 "증류" 과정으로 만들어진 고운 가루입니다. 직접 흡입하여 사용자의 장막 결속을 강화할 수 있지만, 어느 정도 중독성이 있습니다.</MI_Thing_ShroudAsh.description>
+  <MI_Thing_ShroudAsh.ingestible.ingestCommandString>{0} 흡입</MI_Thing_ShroudAsh.ingestible.ingestCommandString>
+  <MI_Thing_ShroudAsh.ingestible.ingestReportString>{0} 흡입 중.</MI_Thing_ShroudAsh.ingestible.ingestReportString>
+  <MI_Thing_ShroudTea.label>장막 차</MI_Thing_ShroudTea.label>
+  <MI_Thing_ShroudTea.description>극소량의 장막 재를 넣어 우려낸 차로, 마실 때 은은한 라즈베리 향이 납니다.\n\n이 차는 희석 정도가 매우 높아 중독을 일으키지 않습니다.\n\n장막 차를 마시면 장막 재에 대한 의존증을 해소할 수 있으며, 장막 내에서의 잠재력을 약간 강화할 수 있습니다.</MI_Thing_ShroudTea.description>
+  <MI_Thing_ShroudTea.ingestible.ingestCommandString>{0} 마시기</MI_Thing_ShroudTea.ingestible.ingestCommandString>
+  <MI_Thing_ShroudTea.ingestible.ingestReportString>{0} 마시는 중.</MI_Thing_ShroudTea.ingestible.ingestReportString>
+  <Milira_ImperiumLetterI_Cradol.label>제국 기록: 크레이돌</Milira_ImperiumLetterI_Cradol.label>
+  <Milira_ImperiumLetterI_Cradol.description>크레이돌의 밀리라에 관한 정보가 기록된 보관소입니다.</Milira_ImperiumLetterI_Cradol.description>
+  <Milira_ImperiumLetterI_Cradol.comps.0.useLabel>기록 읽기</Milira_ImperiumLetterI_Cradol.comps.0.useLabel>
+  <Milira_ImperiumLetterI_Cradol.comps.0.customDiaLog.0.content>“우리가 이 은하 구역을 떠나 있는 동안, 크레이돌 거주구 클러스터에 살고 있는 우리 동포들은 지상 거주자들과 심각하고 화해 불가능한 갈등에 빠진 것으로 보입니다.” \n\n“헌법에 따라, 우리는 이 갈등에 개입하거나 동포들을 제지할 권한이 없습니다.” \n\n      ------ 함대 평의회의 기록된 성명서.</Milira_ImperiumLetterI_Cradol.comps.0.customDiaLog.0.content>
+  <Milira_ImperiumLetterI_Imperium.label>제국 기록: 제국 함대</Milira_ImperiumLetterI_Imperium.label>
+  <Milira_ImperiumLetterI_Imperium.description>밀리라 제국 함대에 관한 정보가 기록된 보관소입니다.</Milira_ImperiumLetterI_Imperium.description>
+  <Milira_ImperiumLetterI_Imperium.comps.0.useLabel>기록 읽기</Milira_ImperiumLetterI_Imperium.comps.0.useLabel>
+  <Milira_ImperiumLetterI_Imperium.comps.0.customDiaLog.0.content>“밀리라 제국은 모든 인류 동포를 평등하게 보호하고, 모든 인류가 투쟁, 억압, 메카노이드, 그리고 암흑 초월공학 신의 위협으로부터 벗어날 수 있도록 도울 용의가 있습니다.” \n\n“본 함대는 제국 헌법을 준수하고자 하는 모든 보호령에 보호를 제공할 것입니다.” \n\n      ------ 함대 집정관의 기록된 성명서.\n\n\n통신기를 확인하여 밀리라 제국과 교신할 수 있습니다. \n기사 작위를 보유하고 있다면 무역선을 더 자주 호출할 수 있습니다. \n집정관 작위를 보유하고 있다면 이 변방계에서의 탈출 지원을 요청할 수 있습니다.</Milira_ImperiumLetterI_Imperium.comps.0.customDiaLog.0.content>
+  <Milira_DarkMatter.label>암흑 물질</Milira_DarkMatter.label>
+  <Milira_DarkMatter.description>중력 트랩을 사용하여 미량의 암흑 물질을 내부에 가두는 정교하게 제작된 소형 컨테이너입니다.</Milira_DarkMatter.description>
+  <Milira_Neutronium.label>뉴트로늄</Milira_Neutronium.label>
+  <Milira_Neutronium.description>정밀하게 제어된 초고에너지장 압축 기술을 사용하여 태양단강과 광휘강을 핵 밀도 한계까지 압축하여 형성된 양자 퇴보 상태의 물질입니다.\n이 물질은 중성자별과 맞먹는 질량 밀도를 가집니다.</Milira_Neutronium.description>
+  <Milira_NeutroniumFabric.label>뉴트로늄 직물</Milira_NeutroniumFabric.label>
+  <Milira_NeutroniumFabric.description>뉴트로늄과 같은 공정을 통해 제작된 특수 직물입니다. 중성자별의 밀도를 가진 실로 짜여져 믿을 수 없는 방어력을 제공합니다.</Milira_NeutroniumFabric.description>
+  <Milira_ShroudCrystal.label>장막 수정</Milira_ShroudCrystal.label>
+  <Milira_ShroudCrystal.description>방대한 양의 장막 에너지가 포화된 태양 수정입니다. 장막 내부의 풍경을 아주 잠깐이나마 엿볼 수 있게 해주는 것 같습니다.</Milira_ShroudCrystal.description>
+  <Milira_Feather_gold.label>황금 밀리라 깃털</Milira_Feather_gold.label>
+  <Milira_Feather_gold.description>미량의 초월공학 가루가 스며들어 매혹적인 황금빛 광택을 띠는 밀리라 깃털입니다.\n\n밀리라 제국이 다른 종족에게 보내는 우정의 증표이자 공을 세운 전사에게 수여하는 명예로운 훈장이기도 합니다.\n\n통신기를 통해 밀리라 제국과 접촉하여 이 토큰을 소모해 자원을 얻거나 정착민을 모집할 수 있습니다. 제국 기사 작위에 도달한 후 지원을 요청하여 획득할 수 있습니다.</Milira_Feather_gold.description>
+  <Milira_GargantuaCore.label>가르강튀아 코어</Milira_GargantuaCore.label>
+  <Milira_GargantuaCore.description>알 수 없는 재질의 껍데기에 싸인 초미세 블랙홀로, 암흑 물질 구속기의 핵심 부품으로 사용됩니다. 장치에는 다음과 같은 문구가 새겨져 있습니다. "기술은 단순히 문제를 해결하는 방법이 아니라, 우리가 세속을 초월하여 승천하기 위한 언어다. 열등한 지성체들은 우리의 진보를 이해하지 못할 뿐이다."\n\n통신기를 통해 밀리라 제국 토큰을 사용하여 획득할 수 있습니다.</Milira_GargantuaCore.description>
+  <Milira_PsionicCore.label>초능력 코어</Milira_PsionicCore.label>
+  <Milira_PsionicCore.description>초월공학 신의 총애를 받은 밀리라 제국은 놀라운 초능력 기술들을 빠르게 마스터했습니다. 초능력 저장은 제국 함대의 성간 워프와 더불어 두 번째로 거대한 응용 분야가 되었습니다.\n거대 요새 함선의 대성당에서 초능력 사제들은 이 초능력 코어를 조율했습니다. 이는 막대한 초능력 힘을 필요로 하는 수많은 장치의 심장 역할을 할 수 있습니다.\n\n통신기를 통해 밀리라 제국 토큰을 사용하여 획득할 수 있습니다.</Milira_PsionicCore.description>
+  <Milira_ImperiumEMPStrike.label>EMP 폭격</Milira_ImperiumEMPStrike.label>
+  <Milira_ImperiumPlasmaStrike.label>포격 지원</Milira_ImperiumPlasmaStrike.label>
+  <ApocalypseBombardment.label>아포칼립스 폭격</ApocalypseBombardment.label>
+  <Milira_WarmupRingMarker.label>준비 고리</Milira_WarmupRingMarker.label>
+  <Milira_WarmupRingMarkerII.label>준비 고리</Milira_WarmupRingMarkerII.label>
+  <Milira_WarmupRingMarkerIII.label>준비 고리</Milira_WarmupRingMarkerIII.label>
+  <Milira_ForceThrowFlyer.label>강제 투척 비행체</Milira_ForceThrowFlyer.label>
+  <OrbitalSlicerThing.label>궤도 절단기</OrbitalSlicerThing.label>
+  <MI_ShipFlyOver_Battleship_RoyalAid.label>밀리라 제국 전함</MI_ShipFlyOver_Battleship_RoyalAid.label>
+  <MiliraTurretGun_Orbital_Laser_IX.label>군함용 레이저포</MiliraTurretGun_Orbital_Laser_IX.label>
+  <MiliraTurretGun_Orbital_Laser_IX.description>군함용 레이저포입니다.</MiliraTurretGun_Orbital_Laser_IX.description>
+  <MiliraTurretGun_Orbital_Laser_X.label>군함용 레이저포</MiliraTurretGun_Orbital_Laser_X.label>
+  <MiliraTurretGun_Orbital_Laser_X.description>군함용 레이저포입니다.</MiliraTurretGun_Orbital_Laser_X.description>
+  <MiliraTurretGun_Orbital_Laser_XI.label>군함용 레이저포</MiliraTurretGun_Orbital_Laser_XI.label>
+  <MiliraTurretGun_Orbital_Laser_XI.description>군함용 레이저포입니다.</MiliraTurretGun_Orbital_Laser_XI.description>
+  <MiliraTurretGun_Orbital_Laser_XII.label>군함용 레이저포</MiliraTurretGun_Orbital_Laser_XII.label>
+  <MiliraTurretGun_Orbital_Laser_XII.description>군함용 레이저포입니다.</MiliraTurretGun_Orbital_Laser_XII.description>
+  <MiliraTurretGun_Orbital_Laser_XIII.label>군함용 레이저포</MiliraTurretGun_Orbital_Laser_XIII.label>
+  <MiliraTurretGun_Orbital_Laser_XIII.description>군함용 레이저포입니다.</MiliraTurretGun_Orbital_Laser_XIII.description>
+  <MiliraTurretGun_Orbital_Laser_XIV.label>군함용 레이저포</MiliraTurretGun_Orbital_Laser_XIV.label>
+  <MiliraTurretGun_Orbital_Laser_XIV.description>군함용 레이저포입니다.</MiliraTurretGun_Orbital_Laser_XIV.description>
+  <MiliraTurretGun_Orbital_Laser_XV.label>군함용 레이저포</MiliraTurretGun_Orbital_Laser_XV.label>
+  <MiliraTurretGun_Orbital_Laser_XV.description>군함용 레이저포입니다.</MiliraTurretGun_Orbital_Laser_XV.description>
+  <MiliraTurretGun_Orbital_Laser_XVI.label>군함용 레이저포</MiliraTurretGun_Orbital_Laser_XVI.label>
+  <MiliraTurretGun_Orbital_Laser_XVI.description>군함용 레이저포입니다.</MiliraTurretGun_Orbital_Laser_XVI.description>
+  <MiliraTurretGun_Orbital_Disruptor_II.label>위상 교란포</MiliraTurretGun_Orbital_Disruptor_II.label>
+  <MiliraTurretGun_Orbital_Disruptor_II.description>고정 포탑에 장착된 위상 교란포입니다.</MiliraTurretGun_Orbital_Disruptor_II.description>
+  <MiliraTurretGun_Orbital_Disruptor_III.label>위상 교란포</MiliraTurretGun_Orbital_Disruptor_III.label>
+  <MiliraTurretGun_Orbital_Disruptor_III.description>고정 포탑에 장착된 위상 교란포입니다.</MiliraTurretGun_Orbital_Disruptor_III.description>
+  <MI_ShipFlyOver_Cruiser_RoyalAid.label>밀리라 제국 순양함</MI_ShipFlyOver_Cruiser_RoyalAid.label>
+  <MiliraTurretGun_Orbital_Laser_V.label>군함용 레이저포</MiliraTurretGun_Orbital_Laser_V.label>
+  <MiliraTurretGun_Orbital_Laser_V.description>군함용 레이저포입니다.</MiliraTurretGun_Orbital_Laser_V.description>
+  <MiliraTurretGun_Orbital_Laser_VI.label>군함용 레이저포</MiliraTurretGun_Orbital_Laser_VI.label>
+  <MiliraTurretGun_Orbital_Laser_VI.description>군함용 레이저포입니다.</MiliraTurretGun_Orbital_Laser_VI.description>
+  <MiliraTurretGun_Orbital_Laser_VII.label>군함용 레이저포</MiliraTurretGun_Orbital_Laser_VII.label>
+  <MiliraTurretGun_Orbital_Laser_VII.description>군함용 레이저포입니다.</MiliraTurretGun_Orbital_Laser_VII.description>
+  <MiliraTurretGun_Orbital_Laser_VIII.label>군함용 레이저포</MiliraTurretGun_Orbital_Laser_VIII.label>
+  <MiliraTurretGun_Orbital_Laser_VIII.description>군함용 레이저포입니다.</MiliraTurretGun_Orbital_Laser_VIII.description>
+  <MiliraTurretGun_Orbital_Disruptor.label>위상 교란포</MiliraTurretGun_Orbital_Disruptor.label>
+  <MiliraTurretGun_Orbital_Disruptor.description>고정 포탑에 장착된 위상 교란포입니다.</MiliraTurretGun_Orbital_Disruptor.description>
+  <MiliraBullet_Disruptor_Orbital.label>위상 교란 광선</MiliraBullet_Disruptor_Orbital.label>
+  <MI_ShipFlyOver_Destroyer_RoyalAid.label>밀리라 제국 구축함</MI_ShipFlyOver_Destroyer_RoyalAid.label>
+  <MiliraTurretGun_Orbital_Laser.label>군함용 레이저포</MiliraTurretGun_Orbital_Laser.label>
+  <MiliraTurretGun_Orbital_Laser.description>군함용 레이저포입니다.</MiliraTurretGun_Orbital_Laser.description>
+  <MiliraTurretGun_Orbital_Laser_II.label>군함용 레이저포</MiliraTurretGun_Orbital_Laser_II.label>
+  <MiliraTurretGun_Orbital_Laser_II.description>군함용 레이저포입니다.</MiliraTurretGun_Orbital_Laser_II.description>
+  <MiliraTurretGun_Orbital_Laser_III.label>군함용 레이저포</MiliraTurretGun_Orbital_Laser_III.label>
+  <MiliraTurretGun_Orbital_Laser_III.description>군함용 레이저포입니다.</MiliraTurretGun_Orbital_Laser_III.description>
+  <MiliraTurretGun_Orbital_Laser_IV.label>군함용 레이저포</MiliraTurretGun_Orbital_Laser_IV.label>
+  <MiliraTurretGun_Orbital_Laser_IV.description>군함용 레이저포입니다.</MiliraTurretGun_Orbital_Laser_IV.description>
+  <MiliraBullet_Laser_Orbital.label>감마 레이저</MiliraBullet_Laser_Orbital.label>
+  <MI_ShipFlyOver_Titan.label>타이탄의 그림자</MI_ShipFlyOver_Titan.label>
+  <MI_ShipFlyOver_Battleship.label>전함의 그림자</MI_ShipFlyOver_Battleship.label>
+  <MI_ShipFlyOver_Destroyer.label>구축함의 그림자</MI_ShipFlyOver_Destroyer.label>
+  <MI_ShipFlyOver_MotherShip.label>모선의 그림자</MI_ShipFlyOver_MotherShip.label>
+  <Milira_Spear_Pirate.label>밀리라의 천둥창</Milira_Spear_Pirate.label>
+  <Milira_Spear_Pirate.description>밀리라의 창입니다. 사용자는 무기에 새겨진 전투 기술을 사용할 수 있습니다.</Milira_Spear_Pirate.description>
+  <Milira_Spear_Pirate.tools.0.label>창끝</Milira_Spear_Pirate.tools.0.label>
+  <Milira_Spear_Pirate.tools.1.label>창날</Milira_Spear_Pirate.tools.1.label>
+  <Milira_Spear_Pirate_Enhanced.label>비렐리아의 창</Milira_Spear_Pirate_Enhanced.label>
+  <Milira_Spear_Pirate_Enhanced.description>밀리라 해적들이 사용하는 강화된 창으로, 다른 세계 밀리라의 고유 기술을 사용할 수 있습니다.\n\n이 무기로 적을 처치하면 사용자의 명상 집중을 충전합니다.</Milira_Spear_Pirate_Enhanced.description>
+  <Milira_Spear_Pirate_Enhanced.tools.0.label>창끝</Milira_Spear_Pirate_Enhanced.tools.0.label>
+  <Milira_Spear_Pirate_Enhanced.tools.1.label>날</Milira_Spear_Pirate_Enhanced.tools.1.label>
+  <Milira_Arteria.label>아르테리아</Milira_Arteria.label>
+  <Milira_Arteria.description>약 천 년 동안 리디아와 함께해 온 월광 대검입니다. 그녀의 가장 소중한 친구에게 받은 선물입니다.\n\n에너지 회로가 고장 난 지 오래되어 더 이상 월광 참격을 날릴 수는 없습니다.\n\n검신을 덮고 있는 암흑 초월공학 입자들이 칼날에 진홍빛 색조를 더해줍니다.\n\n검을 따라 새겨진 비문은 리디아가 여유 시간에 직접 새긴 것입니다.\n\n이 무기의 피해는 '받는 피해 계수'를 무시합니다.\n\n반복된 타격으로 대상에게 충분한 수준의 "예정된 죽음" 수치가 쌓이면, 공허 에너지가 대상에게 즉각적인 죽음을 선사합니다.\n\n죽기를 거부하는 적이라 할지라도, 수치가 더 높아지면 호락스에 의해 소멸될 것입니다.\n\n(물론, 모드 설정에서 이 기능을 비활성화할 수 있습니다. 어쨌든 플레이어인 당신은 이 게임에서 가장 위대한 초월공학 신이니까요.)</Milira_Arteria.description>
+  <Milira_Arteria.tools.0.label>베기</Milira_Arteria.tools.0.label>
+  <Milira_Arteria.tools.1.label>내려치기</Milira_Arteria.tools.1.label>
+  <Milira_Sickle_Sariel.label>사리엘</Milira_Sickle_Sariel.label>
+  <Milira_Sickle_Sariel.description>사리엘이 주로 사용하는 이 거대한 낫은 고대의 유물이라고 전해지며, 제작자가 누구인지는 아무도 모릅니다.\n\n낫을 휘두를 때 발생하는 거대한 초능력 압력은 범위 내의 생명체들을 억눌러 버립니다.\n\n날카로움은 믿기 힘들 정도이며, 사리엘의 말에 따르면 이 무기가 베지 못한 장애물은 거의 없었다고 합니다.\n\n하지만 무기 특유의 성질 때문에 그녀 이외의 사람이 그 힘을 온전히 끌어내기는 어렵습니다.\n\n이 무기의 피해는 '받는 피해 계수'를 무시합니다.</Milira_Sickle_Sariel.description>
+  <Milira_Sickle_Sariel.tools.0.label>날</Milira_Sickle_Sariel.tools.0.label>
+  <Milira_MonoPsyblade.label>모노 싸이블레이드</Milira_MonoPsyblade.label>
+  <Milira_MonoPsyblade.description>초능력 코어가 장착된 뉴트로늄 재질의 단분자 검입니다.\n초경도 칼날 덕분에 사용자는 적의 공격 대부분을 손쉽게 쳐낼 수 있으며, 단분자 뉴트로늄 날은 어떤 종류의 장갑도 관통할 수 있게 해줍니다.\n\n내장된 초능력 코어는 사용자의 정신력을 증폭시키며, 쓰러뜨린 적에게서 정신 에너지를 흡수하여 정신 집중을 보충할 수 있게 해줍니다.\n\n이 무기의 피해는 '받는 피해 계수'를 무시합니다.</Milira_MonoPsyblade.description>
+  <Milira_MonoPsyblade.tools.0.label>베기</Milira_MonoPsyblade.tools.0.label>
+  <Milira_MonoPsyblade_II.label>공허 모노 싸이블레이드</Milira_MonoPsyblade_II.label>
+  <Milira_MonoPsyblade_II.description>초능력 코어에 막대한 양의 공허 에너지를 주입하여 호락스의 힘을 빌려 내부의 잠재력을 뒤틀었습니다. 이렇게 "이차 조율"되어 뒤틀린 초능력 코어를 모노 싸이블레이드에 장착하면, 무기는 적을 즉사시키는 능력을 얻게 됩니다.\n\n반복된 타격으로 대상에게 충분한 수준의 "예정된 죽음" 수치가 쌓이면, 공허 에너지가 대상에게 즉각적인 죽음을 선사합니다.\n\n죽기를 거부하는 적이라 할지라도 수치가 더 높아지면 호락스에 의해 소멸됩니다(기본 모드 설정에서는 비활성화되어 있습니다).\n\n물론 모드 설정에서 이 기능을 비활성화할 수 있습니다. 어쨌든 플레이어인 당신은 이 게임에서 가장 위대한 초월공학 신이니까요.</Milira_MonoPsyblade_II.description>
+  <Milira_MonoPsyblade_II.tools.0.label>베기</Milira_MonoPsyblade_II.tools.0.label>
+  <Milira_DragonslayerSpear.label>밀리라 용살창</Milira_DragonslayerSpear.label>
+  <Milira_DragonslayerSpear.description>지구의 오래된 서양 판타지 게임에서 유래한 원형을 바탕으로 제작된 긴 창입니다.\n\n밀리라의 무기 제작자들은 칼날에 초능력 에너지를 주입함으로써, 이 복제품이 원본의 가공할 위력을 최대한 충실하게 재현할 수 있도록 만들었습니다.\n\n내장된 초능력 코어는 사용자의 정신력을 증폭시키며, 쓰러뜨린 적에게서 정신 에너지를 흡수하여 정신 집중을 보충할 수 있게 해줍니다.</Milira_DragonslayerSpear.description>
+  <Milira_DragonslayerSpear.tools.0.label>베기</Milira_DragonslayerSpear.tools.0.label>
+  <Milira_DragonslayerSpear.tools.1.label>찌르기</Milira_DragonslayerSpear.tools.1.label>
+  <Milira_HolySword.label>밀리라 대검</Milira_HolySword.label>
+  <Milira_HolySword.description>지구의 오래된 서양 판타지 게임에서 유래한 원형을 바탕으로 제작된 양손 대검입니다.\n\n밀리라의 무기 제작자들은 칼날에 초능력 에너지를 주입함으로써, 이 복제품이 원본의 가공할 위력을 최대한 충실하게 재현할 수 있도록 만들었습니다.\n\n내장된 초능력 코어는 사용자의 정신력을 증폭시키며, 쓰러뜨린 적에게서 정신 에너지를 흡수하여 정신 집중을 보충할 수 있게 해줍니다.</Milira_HolySword.description>
+  <Milira_HolySword.tools.0.label>베기</Milira_HolySword.tools.0.label>
+  <Milira_HolySword.tools.1.label>내리치기</Milira_HolySword.tools.1.label>
+  <Milira_ShatteredGreatSword.label>밀리라의 부서진 대검</Milira_ShatteredGreatSword.label>
+  <Milira_ShatteredGreatSword.description>리디아의 설명을 바탕으로 제작한 아르테리아의 복제품입니다. 이 복제품은 원본과 거의 동일합니다.\n\n유일한 차이점은 원본 아르테리아가 부서진 초능력 코어를 구동하기 위해 리디아 자신의 초능력 능력을 필요로 하는 반면, 복제품의 코어는 누구나 구동할 수 있다는 점입니다.</Milira_ShatteredGreatSword.description>
+  <Milira_ShatteredGreatSword.tools.0.label>베기</Milira_ShatteredGreatSword.tools.0.label>
+  <Milira_ShatteredGreatSword.tools.1.label>내리치기</Milira_ShatteredGreatSword.tools.1.label>
+  <Milira_MoonLightGreatSword.label>밀리라 월광 대검</Milira_MoonLightGreatSword.label>
+  <Milira_MoonLightGreatSword.description>지구의 오래된 서양 판타지 게임에서 유래한 원형을 바탕으로 제작된 양손 대검입니다.\n\n밀리라의 무기 제작자들은 칼날에 초능력 에너지를 주입함으로써, 이 복제품이 원본의 가공할 위력을 최대한 충실하게 재현할 수 있도록 만들었습니다.\n\n내장된 초능력 코어는 사용자의 정신력을 증폭시키며, 쓰러뜨린 적에게서 정신 에너지를 흡수하여 정신 집중을 보충할 수 있게 해줍니다.</Milira_MoonLightGreatSword.description>
+  <Milira_MoonLightGreatSword.tools.0.label>베기</Milira_MoonLightGreatSword.tools.0.label>
+  <Milira_MoonLightGreatSword.tools.1.label>내리치기</Milira_MoonLightGreatSword.tools.1.label>
+  <Milira_Rakuyo.label>밀리라 양날검</Milira_Rakuyo.label>
+  <Milira_Rakuyo.description>지구의 오래된 서양 판타지 게임에서 유래한 원형을 바탕으로 제작된 쌍날검입니다.\n\n밀리라의 무기 제작자들은 칼날에 초능력 에너지를 주입함으로써, 이 복제품이 원본의 가공할 위력을 최대한 충실하게 재현할 수 있도록 만들었습니다.\n\n사용자가 밀리라라면 무기에 각인된 전투 기술을 사용할 수 있습니다.\n\n내장된 초능력 코어는 사용자의 정신력을 증폭시키며, 쓰러뜨린 적에게서 정신 에너지를 흡수하여 정신 집중을 보충할 수 있게 해줍니다.</Milira_Rakuyo.description>
+  <Milira_Rakuyo.tools.0.label>베기</Milira_Rakuyo.tools.0.label>
+  <Milira_Rakuyo.tools.1.label>찌르기</Milira_Rakuyo.tools.1.label>
+  <Milira_Hammer_Pirate.label>밀리라 천둥 망치</Milira_Hammer_Pirate.label>
+  <Milira_Hammer_Pirate.description>밀리라 해적들이 휘두르는 거대한 전쟁 망치입니다. 외곽 지역 밀리라의 고유 기술을 사용할 수 있습니다.\n\n밀리라만이 이 무기의 기술을 사용할 수 있습니다.</Milira_Hammer_Pirate.description>
+  <Milira_Hammer_Pirate.tools.0.label>망치</Milira_Hammer_Pirate.tools.0.label>
+  <Milira_Hammer_Pirate_Enhanced.label>아스트로리엘의 망치</Milira_Hammer_Pirate_Enhanced.label>
+  <Milira_Hammer_Pirate_Enhanced.description>밀리라 해적들이 휘두르는 강화된 거대 전쟁 망치입니다. 외곽 지역 밀리라의 고유 기술을 사용할 수 있습니다.\n\n밀리라만이 이 무기의 기술을 사용할 수 있습니다.\n\n이 무기로 적을 처치하면 사용자가 명상 집중력을 얻습니다.</Milira_Hammer_Pirate_Enhanced.description>
+  <Milira_Hammer_Pirate_Enhanced.tools.0.label>망치</Milira_Hammer_Pirate_Enhanced.tools.0.label>
+  <Milira_GreatSword_Pirate.label>밀리라 뇌명검</Milira_GreatSword_Pirate.label>
+  <Milira_GreatSword_Pirate.description>밀리라 해적들이 휘두르는 대검입니다. 외곽 지역 밀리라의 고유 기술을 사용할 수 있습니다.</Milira_GreatSword_Pirate.description>
+  <Milira_GreatSword_Pirate.tools.0.label>강타</Milira_GreatSword_Pirate.tools.0.label>
+  <Milira_GreatSword_Pirate.tools.1.label>가르기</Milira_GreatSword_Pirate.tools.1.label>
+  <Milira_GreatSword_Pirate_Enhanced.label>운도미엘의 대검</Milira_GreatSword_Pirate_Enhanced.label>
+  <Milira_GreatSword_Pirate_Enhanced.description>밀리라 해적들이 휘두르는 대검입니다. 외곽 지역 밀리라의 고유 기술을 사용할 수 있습니다.\n\n이 무기로 적을 처치하면 사용자가 명상 집중력을 얻습니다.</Milira_GreatSword_Pirate_Enhanced.description>
+  <Milira_GreatSword_Pirate_Enhanced.tools.0.label>강타</Milira_GreatSword_Pirate_Enhanced.tools.0.label>
+  <Milira_GreatSword_Pirate_Enhanced.tools.1.label>가르기</Milira_GreatSword_Pirate_Enhanced.tools.1.label>
+  <Milira_HAVOCRifle.label>하복 라이플</Milira_HAVOCRifle.label>
+  <Milira_HAVOCRifle.description>암흑 물질 에너지 전지로 구동되는 에너지 소총입니다. 거대한 반동으로 인해 제어가 어렵지만, 그 흉포한 위력은 이러한 사소한 결점을 덮고도 남습니다.\n\n이 무기의 피해는 '받는 피해 계수'를 무시합니다.\n\n탄창 용량(완벽 기준): 32</Milira_HAVOCRifle.description>
+  <Milira_HAVOCRifle.tools.0.label>개머리판</Milira_HAVOCRifle.tools.0.label>
+  <Milira_HAVOCRifle.tools.1.label>총열</Milira_HAVOCRifle.tools.1.label>
+  <Milira_HAVOCRifle_II.label>하복 라이플</Milira_HAVOCRifle_II.label>
+  <Milira_HAVOCRifle_II.description>암흑 물질 에너지 전지로 구동되는 에너지 소총입니다. 거대한 반동으로 인해 제어가 어렵지만, 그 흉포한 위력은 이러한 사소한 결점을 덮고도 남습니다.\n\n이 무기의 피해는 '받는 피해 계수'를 무시합니다.</Milira_HAVOCRifle_II.description>
+  <Milira_HAVOCRifle_II.tools.0.label>개머리판</Milira_HAVOCRifle_II.tools.0.label>
+  <Milira_HAVOCRifle_II.tools.1.label>총열</Milira_HAVOCRifle_II.tools.1.label>
+  <MiliraBullet_HAVOCRifle.label>광선</MiliraBullet_HAVOCRifle.label>
+  <Milira_DevotionLMG.label>디보션</Milira_DevotionLMG.label>
+  <Milira_DevotionLMG.description>암흑 물질 에너지 전지로 구동되는 에너지 경기관총입니다. 거대한 반동으로 인해 제어가 어렵지만, 그 흉포한 위력은 이러한 사소한 결점을 덮고도 남습니다.\n\n에너지가 고갈되면 사격할 수 없습니다.\n\n이 무기의 피해는 '받는 피해 계수'를 무시합니다.\n\n탄창 용량(완벽 기준): 100</Milira_DevotionLMG.description>
+  <Milira_DevotionLMG.tools.0.label>개머리판</Milira_DevotionLMG.tools.0.label>
+  <Milira_DevotionLMG.tools.1.label>총열</Milira_DevotionLMG.tools.1.label>
+  <Milira_DevotionLMG_II.label>디보션</Milira_DevotionLMG_II.label>
+  <Milira_DevotionLMG_II.description>암흑 물질 에너지 전지로 구동되는 에너지 경기관총입니다. 거대한 반동으로 인해 제어가 어렵지만, 그 흉포한 위력은 이러한 사소한 결점을 덮고도 남습니다.\n\n에너지가 고갈되면 사격할 수 없습니다.\n\n이 무기의 피해는 '받는 피해 계수'를 무시합니다.</Milira_DevotionLMG_II.description>
+  <Milira_DevotionLMG_II.tools.0.label>개머리판</Milira_DevotionLMG_II.tools.0.label>
+  <Milira_DevotionLMG_II.tools.1.label>총열</Milira_DevotionLMG_II.tools.1.label>
+  <MiliraBullet_DevotionLMG.label>광선</MiliraBullet_DevotionLMG.label>
+  <Milira_Peacekeeper.label>피스키퍼</Milira_Peacekeeper.label>
+  <Milira_Peacekeeper.description>암흑 물질 에너지 전지로 구동되는 에너지 산탄총입니다.\n\n두 가지 사격 모드가 있습니다. 속사 모드는 일반적인 산탄총으로 사용되며, 집중 모드는 탄환을 집중시켜 사거리를 늘리고 100%의 명중률을 확보합니다.\n\n충전된 탄환은 10%의 추가 피해를 입힙니다.\n\n이 무기의 피해는 '받는 피해 계수'를 무시합니다.</Milira_Peacekeeper.description>
+  <Milira_Peacekeeper.comps.4.gizmoLabel1>속사 모드</Milira_Peacekeeper.comps.4.gizmoLabel1>
+  <Milira_Peacekeeper.comps.4.gizmoDesc1>집중 모드로 전환합니다.</Milira_Peacekeeper.comps.4.gizmoDesc1>
+  <Milira_Peacekeeper.comps.4.gizmoDesc2>속사 모드로 전환합니다.</Milira_Peacekeeper.comps.4.gizmoDesc2>
+  <Milira_Peacekeeper.tools.0.label>개머리판</Milira_Peacekeeper.tools.0.label>
+  <Milira_Peacekeeper.tools.1.label>총열</Milira_Peacekeeper.tools.1.label>
+  <MiliraBullet_Peacekeeper.label>피스키퍼 총알</MiliraBullet_Peacekeeper.label>
+  <MiliraBullet_Peacekeeper_Charged.label>피스키퍼 총알</MiliraBullet_Peacekeeper_Charged.label>
+  <MiliraBullet_Peacekeeper_Concentrated.label>피스키퍼 총알</MiliraBullet_Peacekeeper_Concentrated.label>
+  <MiliraBullet_Peacekeeper_Concentrated_Charged.label>피스키퍼 총알</MiliraBullet_Peacekeeper_Concentrated_Charged.label>
+  <Milira_ChargeRifle.label>차지 라이플</Milira_ChargeRifle.label>
+  <Milira_ChargeRifle.description>암흑 물질 에너지 전지로 구동되는 에너지 소총입니다.\n\n이 무기는 표기된 위력으로 10발을 연속 사격하며, 마지막 발은 표기된 위력의 10배에 달하는 피해를 입힙니다.\n\n이 무기의 피해는 '받는 피해 계수'를 무시합니다.</Milira_ChargeRifle.description>
+  <Milira_ChargeRifle.tools.0.label>개머리판</Milira_ChargeRifle.tools.0.label>
+  <Milira_ChargeRifle.tools.1.label>총열</Milira_ChargeRifle.tools.1.label>
+  <Milira_ChargeRifle_II.label>차지 라이플</Milira_ChargeRifle_II.label>
+  <Milira_ChargeRifle_II.description>암흑 물질 에너지 전지로 구동되는 에너지 소총입니다.\n\n이 무기는 표기된 위력으로 10발을 연속 사격하며, 마지막 발은 표기된 위력의 10배에 달하는 피해를 입힙니다.\n\n이 무기의 피해는 '받는 피해 계수'를 무시합니다.</Milira_ChargeRifle_II.description>
+  <Milira_ChargeRifle_II.tools.0.label>개머리판</Milira_ChargeRifle_II.tools.0.label>
+  <Milira_ChargeRifle_II.tools.1.label>총열</Milira_ChargeRifle_II.tools.1.label>
+  <MiliraBullet_ChargeRifle.label>광선</MiliraBullet_ChargeRifle.label>
+  <MiliraBullet_ChargeRifleII.label>광선</MiliraBullet_ChargeRifleII.label>
+  <Milira_VoltSMG.label>볼트 SMG</Milira_VoltSMG.label>
+  <Milira_VoltSMG.description>암흑 물질 에너지 전지로 구동되는 에너지 기관단총입니다. 반동은 적지만 에너지 탄환의 위력은 약한 편입니다.\n\n이 무기의 성능은 밀리라 종족 무기에 견줄 만하지만 민간용 무기로 분류됩니다.\n\n이 무기의 피해는 '받는 피해 계수'를 무시합니다.\n\n탄창 용량(완벽 기준): 26</Milira_VoltSMG.description>
+  <Milira_VoltSMG.tools.0.label>개머리판</Milira_VoltSMG.tools.0.label>
+  <Milira_VoltSMG.tools.1.label>총열</Milira_VoltSMG.tools.1.label>
+  <Milira_VoltSMG_II.label>볼트 SMG</Milira_VoltSMG_II.label>
+  <Milira_VoltSMG_II.description>An energy SMG powered by a dark matter energy cell. The recoil is low but the energy bullet is weak. \n\nThis weapon's damage ignores the Incoming Damage Factor.</Milira_VoltSMG_II.description>
+  <Milira_VoltSMG_II.tools.0.label>개머리판</Milira_VoltSMG_II.tools.0.label>
+  <Milira_VoltSMG_II.tools.1.label>총열</Milira_VoltSMG_II.tools.1.label>
+  <MiliraBullet_VoltSMG.label>광선</MiliraBullet_VoltSMG.label>
+  <Milira_MarksmanGaussrifle.label>R-63 가우스 지정사수소총</Milira_MarksmanGaussrifle.label>
+  <Milira_MarksmanGaussrifle.description>일련의 전자기 코일을 사용해 탄환을 가속하는 지정사수 소총으로, 내부의 암흑 물질 배터리로부터 지속적으로 전력을 공급받습니다.\n\n탄창 용량(완벽 기준): 20</Milira_MarksmanGaussrifle.description>
+  <Milira_MarksmanGaussrifle.tools.0.label>개머리판</Milira_MarksmanGaussrifle.tools.0.label>
+  <Milira_MarksmanGaussrifle.tools.1.label>총열</Milira_MarksmanGaussrifle.tools.1.label>
+  <Bullet_Milira_MarksmanGaussrifle.label>7.62x51mm 전자기 탄환</Bullet_Milira_MarksmanGaussrifle.label>
+  <Milira_GaussAutorifle.label>AR-61 가우스 자동소총</Milira_GaussAutorifle.label>
+  <Milira_GaussAutorifle.description>일련의 전자기 코일을 사용해 탄환을 가속하는 자동소총으로, 내부의 암흑 물질 배터리로부터 지속적으로 전력을 공급받습니다. 군함에 탑승한 밀리라 승무원들의 표준 제식 무기입니다.\n\n탄창 용량(완벽 기준): 35</Milira_GaussAutorifle.description>
+  <Milira_GaussAutorifle.tools.0.label>개머리판</Milira_GaussAutorifle.tools.0.label>
+  <Milira_GaussAutorifle.tools.1.label>총열</Milira_GaussAutorifle.tools.1.label>
+  <MiliraBullet_Autorifle.label>7.62x39mm 전자기 탄환</MiliraBullet_Autorifle.label>
+  <Milira_GaussMachinegun.label>브림스톤 중기관총</Milira_GaussMachinegun.label>
+  <Milira_GaussMachinegun.description>일련의 전자기 코일을 사용해 탄환을 가속하는 중기관총으로, 내부의 암흑 물질 배터리로부터 지속적으로 전력을 공급받습니다. 밀리라 우주 해병대원들이 가장 좋아하는 무기입니다.\n\n탄창 용량(완벽 기준): 100</Milira_GaussMachinegun.description>
+  <Milira_GaussMachinegun.tools.0.label>칼날</Milira_GaussMachinegun.tools.0.label>
+  <MiliraBullet_HMG.label>12.7x99mm 전자기 탄환</MiliraBullet_HMG.label>
+  <Milira_RailShotgun.label>헬파이어 산탄총</Milira_RailShotgun.label>
+  <Milira_RailShotgun.description>중기관총만큼 거대한 중전자기 레일 가속 산탄총입니다. 23mm 구경의 탄환은 매우 다루기 힘들지만 파괴적인 화력을 제공합니다. 근접전을 즐기지만 모노 싸이블레이드를 쓰는 것은 꺼리는 일부 밀리라 우주 해병들이 선호합니다.\n\n한 번 사격할 때마다 4발의 산탄을 발사하여 표기된 피해의 4배에 달하는 총 피해를 입힙니다. 각 산탄은 매우 높은 스턴 효과를 지니며 EMP 효과도 적용합니다.</Milira_RailShotgun.description>
+  <Milira_RailShotgun.tools.0.label>개머리판</Milira_RailShotgun.tools.0.label>
+  <Milira_RailShotgun.tools.1.label>총열</Milira_RailShotgun.tools.1.label>
+  <MiliraBullet_HellfireShotGun.label>23mm shell</MiliraBullet_HellfireShotGun.label>
+  <Milira_AntiMaterielRailgun.label>크레이버 대물 레일건</Milira_AntiMaterielRailgun.label>
+  <Milira_AntiMaterielRailgun.description>대구경 탄환을 발사하는 코일 가속 저격소총입니다.\n\n암흑 물질 배터리와 매우 긴 레일 덕분에 극단적인 사거리를 자랑합니다.\n\n그럼에도 불구하고 밀리라 우주 해병들은 이 "지루한" 무기를 그다지 좋아하지 않습니다.\n\n마이크로 스마트 전투 컴퓨터가 내장되어 탄환의 명중을 보장하며, 사용자의 사격 기술에 따라 확률적으로 각 사격의 피해를 증폭시킵니다.\n\n탄창 용량(완벽 기준): 4</Milira_AntiMaterielRailgun.description>
+  <Milira_AntiMaterielRailgun.comps.5.gizmoLabel1>저격 모드</Milira_AntiMaterielRailgun.comps.5.gizmoLabel1>
+  <Milira_AntiMaterielRailgun.comps.5.gizmoDesc1>자율 모드로 전환합니다.\n무기 사거리가 80으로 줄어들지만, 자율/사냥 상태에서 대상 전환 시의 지연 시간이 사라집니다.</Milira_AntiMaterielRailgun.comps.5.gizmoDesc1>
+  <Milira_AntiMaterielRailgun.comps.5.gizmoDesc2>저격 모드로 전환합니다.\n무기 사거리가 200으로 늘어나지만, 이 사거리에서의 자율/사냥은 대상 전환 시 지연을 유발할 수 있습니다.</Milira_AntiMaterielRailgun.comps.5.gizmoDesc2>
+  <Milira_AntiMaterielRailgun.tools.0.label>개머리판</Milira_AntiMaterielRailgun.tools.0.label>
+  <Milira_AntiMaterielRailgun.tools.1.label>총열</Milira_AntiMaterielRailgun.tools.1.label>
+  <MiliraBullet_AntiMaterielRailgun.label>14.5x114mm 전자기 탄환</MiliraBullet_AntiMaterielRailgun.label>
+  <Milira_AstesiaAutoCannon.label>아스테시아 오토캐논</Milira_AstesiaAutoCannon.label>
+  <Milira_AstesiaAutoCannon.description>코일로 가속되는 초거대 자동포입니다. 35mm 탄환을 발사합니다.\n\n보병용 무기로서는 지나치게 구경이 크기 때문에 발사 속도가 느리고 명중률을 보장할 수 없습니다.\n\n이 오토캐논은 '받는 피해 계수'를 무시하는 교란탄과, 적의 크기에 따라 피해량이 증가하는 뉴트로늄 전구경 철갑탄을 발사할 수 있습니다.\n\n이 거대한 무기는 밀리라 포세이돈 강화갑옷과 밀리라 전술 모듈을 착용했을 때만 사용할 수 있습니다.\n\n탄창 용량(완벽 기준): 7</Milira_AstesiaAutoCannon.description>
+  <Milira_AstesiaAutoCannon.comps.4.gizmoLabel1>교란 모드</Milira_AstesiaAutoCannon.comps.4.gizmoLabel1>
+  <Milira_AstesiaAutoCannon.comps.4.gizmoDesc1>철갑 모드로 전환합니다.\n철갑탄으로 변경하며, 체격이 1.0보다 큰 대상에게 추가 피해를 입힙니다.</Milira_AstesiaAutoCannon.comps.4.gizmoDesc1>
+  <Milira_AstesiaAutoCannon.comps.4.gizmoDesc2>교란 모드로 전환합니다.\n교란탄으로 변경하며, '받는 피해 계수'를 무시하는 피해를 입힙니다.</Milira_AstesiaAutoCannon.comps.4.gizmoDesc2>
+  <Milira_AstesiaAutoCannon.tools.0.label>개머리판</Milira_AstesiaAutoCannon.tools.0.label>
+  <Milira_AstesiaAutoCannon.tools.1.label>총열</Milira_AstesiaAutoCannon.tools.1.label>
+  <MiliraBullet_AstesiaAutoCannon.label>35x228mm 전자기 탄환</MiliraBullet_AstesiaAutoCannon.label>
+  <MiliraBullet_AstesiaAutoCannon_II.label>35x228mm 전자기 탄환</MiliraBullet_AstesiaAutoCannon_II.label>
+  <Milira_LeverRailgun.label>레버 레일건</Milira_LeverRailgun.label>
+  <Milira_LeverRailgun.description>밀리라 제국의 가정에서 흔히 볼 수 있는 민간용 무기입니다.\n\n저렴한 태양 축전지를 사용하여 전자기 레일에 전력을 공급합니다.\n\n날개 안정식 태양단강 장철갑탄은 머팔로 같은 짐승도 깔끔하게 꿰뚫을 수 있습니다.\n\n이 무기의 성능은 밀리라 종족 무기에 견줄 만하지만 민간용 무기로 분류됩니다.\n\n탄창 용량(완벽 기준): 10</Milira_LeverRailgun.description>
+  <Milira_LeverRailgun.tools.0.label>개머리판</Milira_LeverRailgun.tools.0.label>
+  <Milira_LeverRailgun.tools.1.label>총열</Milira_LeverRailgun.tools.1.label>
+  <Bullet_Milira_LeverRailgun.label>11.6x53mm 전자기 탄환</Bullet_Milira_LeverRailgun.label>
+  <Milira_CiGaussAutorifle.label>AR-23 가우스 자동소총</Milira_CiGaussAutorifle.label>
+  <Milira_CiGaussAutorifle.description>민간용으로 제작된 코일건 돌격소총입니다.\n\n인구가 적은 제국 변방 행성의 밀리라 정착민들은 메카노이드로부터 자신을 지키기 위해 이 무기에 의존합니다.\n\n이 다루기 쉽고 믿음직한 민간용 소총은 많은 밀리라 해적들 사이에서도 흔히 쓰이는 무기입니다.\n\n이 무기의 성능은 밀리라 종족 무기에 견줄 만하지만 민간용 무기로 분류됩니다.\n\n탄창 용량(완벽 기준): 44</Milira_CiGaussAutorifle.description>
+  <Milira_CiGaussAutorifle.tools.0.label>개머리판</Milira_CiGaussAutorifle.tools.0.label>
+  <Milira_CiGaussAutorifle.tools.1.label>총열</Milira_CiGaussAutorifle.tools.1.label>
+  <MiliraBullet_CiAutorifle.label>5.56x45mm 전자기 탄환</MiliraBullet_CiAutorifle.label>
+  <Milira_GaussRevolver.label>윙맨</Milira_GaussRevolver.label>
+  <Milira_GaussRevolver.description>전자기 코일을 이용해 탄환을 가속하는 대구경 복고풍 리볼버입니다. 탄도 컴퓨터가 통합되어 있으며 내부의 암흑 물질 에너지 전지로부터 지속적으로 전력을 공급받습니다.\n\n마이크로 스마트 전투 컴퓨터가 내장되어 탄환의 명중을 보장하며, 사용자의 사격 기술에 따라 확률적으로 각 사격의 피해를 증폭시킵니다.\n\n탄창 용량(완벽 기준): 6</Milira_GaussRevolver.description>
+  <Milira_GaussRevolver.tools.0.label>개머리판</Milira_GaussRevolver.tools.0.label>
+  <Milira_GaussRevolver.tools.1.label>총열</Milira_GaussRevolver.tools.1.label>
+  <MiliraBullet_Wingman.label>12.7x33mm 전자기 탄환</MiliraBullet_Wingman.label>
+  <Milira_DBSIIShotgun.label>DBS-2 산탄총</Milira_DBSIIShotgun.label>
+  <Milira_DBSIIShotgun.description>전자기 레일을 사용하여 산탄을 발사하는 경량형 더블 배럴 산탄총입니다. 밀리라 제국의 민간인들에게 사랑받는 무기입니다. 신뢰성 높은 18.5mm 탄환 덕분에 사냥과 자기 방어용으로 훌륭한 도구입니다.\n\n한 번 사격할 때마다 6발의 산탄을 발사하여 표기된 피해의 6배에 달하는 총 피해를 입힙니다.\n\n이 무기의 성능은 밀리라 종족 무기에 견줄 만하지만 민간용 무기로 분류됩니다.</Milira_DBSIIShotgun.description>
+  <Milira_DBSIIShotgun.tools.0.label>개머리판</Milira_DBSIIShotgun.tools.0.label>
+  <Milira_DBSIIShotgun.tools.1.label>총열</Milira_DBSIIShotgun.tools.1.label>
+  <MiliraBullet_DBSIIShotgun.label>18.5mm 산탄</MiliraBullet_DBSIIShotgun.label>
+  <Milira_TaranPlasmaGun.label>가속 플라즈마건</Milira_TaranPlasmaGun.label>
+  <Milira_TaranPlasmaGun.description>밀리라 제국 우주 해병대에게 널리 보급된 대구경 플라즈마 소총으로, 주로 함선 강습 작전 시 돌파용 도구로 사용됩니다. 암흑 물질 에너지 전지 덕분에 공포스러운 파괴력을 발휘할 수 있습니다.\n\n이 무기는 고각 대구조물 탄환을 사격합니다.\n\n이 무기를 사용하려면 "플랫폼: 축전" 의류가 필요합니다.\n\n탄창 용량(완벽 기준): 3</Milira_TaranPlasmaGun.description>
+  <Milira_TaranPlasmaGun.tools.0.label>개머리판</Milira_TaranPlasmaGun.tools.0.label>
+  <Milira_TaranPlasmaGun.tools.1.label>총열</Milira_TaranPlasmaGun.tools.1.label>
+  <MiliraBullet_TaranPlasmaGun.label>플라즈마 칼날</MiliraBullet_TaranPlasmaGun.label>
+  <MiliraBullet_TaranPlasmaGunCharged.label>플라즈마 충전됨</MiliraBullet_TaranPlasmaGunCharged.label>
+  <Milira_DragonslayerGreatbow.label>스쿨드의 용살대궁</Milira_DragonslayerGreatbow.label>
+  <Milira_DragonslayerGreatbow.description>지구의 오래된 서양 판타지 게임에서 유래한 원형을 바탕으로 제작된 대궁입니다.\n\n이것은 자비로운 초월공학 신에 의해 장막 속에서 만들어진 창조물이며, 밀리라들은 아직 이와 유사한 무기를 복제해낼 수 없습니다.</Milira_DragonslayerGreatbow.description>
+  <Milira_DragonslayerGreatbow.tools.0.label>활대</Milira_DragonslayerGreatbow.tools.0.label>
+  <MiliraBullet_DragonslayerGreatbow.label>용살시</MiliraBullet_DragonslayerGreatbow.label>
+  <Milira_DragonslayerGreatbow_II.label>밀리라 용살대궁</Milira_DragonslayerGreatbow_II.label>
+  <Milira_DragonslayerGreatbow_II.description>지구의 오래된 서양 판타지 게임에서 유래한 원형을 바탕으로 제작된 대궁입니다.\n\n자비로운 초월공학 신에 의해 장막 속에서 만들어진 창조물입니다.\n\n이것은 복제 버전이며 성능은 원본보다 약간 떨어집니다.\n\n탄창 용량(완벽 기준): 36</Milira_DragonslayerGreatbow_II.description>
+  <Milira_DragonslayerGreatbow_II.tools.0.label>활대</Milira_DragonslayerGreatbow_II.tools.0.label>
+  <Milira_AstesiaAutoCannon_II.label>후이 빙의 아스테시아 오토캐논</Milira_AstesiaAutoCannon_II.label>
+  <Milira_AstesiaAutoCannon_II.description>후이 빙이 복무 중에 사용하던 아스테시아 오토캐논을 일부 개조한 것입니다.\n\n표준 버전에 비해 명중률과 재장전 속도가 더 높습니다. 또한 후이 빙은 무기의 연사 속도 제한기를 제거했습니다.\n\n이 오토캐논은 '받는 피해 계수'를 무시하는 교란탄과, 적의 크기에 따라 피해량이 증가하는 뉴트로늄 전구경 철갑탄을 발사할 수 있습니다.\n\n이 거대한 무기는 밀리라 포세이돈 강화갑옷과 밀리라 전술 모듈을 착용했을 때만 사용할 수 있습니다.</Milira_AstesiaAutoCannon_II.description>
+  <Milira_AstesiaAutoCannon_II.tools.0.label>개머리판</Milira_AstesiaAutoCannon_II.tools.0.label>
+  <Milira_AstesiaAutoCannon_II.tools.1.label>총열</Milira_AstesiaAutoCannon_II.tools.1.label>
+  <Milira_AstesiaAutoCannon_II.comps.4.gizmoLabel1>교란 모드</Milira_AstesiaAutoCannon_II.comps.4.gizmoLabel1>
+  <Milira_AstesiaAutoCannon_II.comps.4.gizmoDesc1>철갑 모드로 전환합니다.\n철갑탄으로 변경하며, 체격이 1.0보다 큰 대상에게 추가 피해를 입힙니다.</Milira_AstesiaAutoCannon_II.comps.4.gizmoDesc1>
+  <Milira_AstesiaAutoCannon_II.comps.4.gizmoDesc2>교란 모드로 전환합니다.\n교란탄으로 변경하며, '받는 피해 계수'를 무시하는 피해를 입힙니다.</Milira_AstesiaAutoCannon_II.comps.4.gizmoDesc2>
+  <Milira_Rifle_Katia_II.label>워스파이트 플라즈마 라이플</Milira_Rifle_Katia_II.label>
+  <Milira_Rifle_Katia_II.description>약 2세기 전 크레이돌의 밀리라들이 설계한 프로토타입 플라즈마 소총입니다.\n\n생산 비용이 비싸고 탄약으로 사용되는 압축 태양 배터리 팩이 너무 불안정하고 위험했기 때문에, 이 프로토타입 소총은 결국 폐기되었습니다.\n\n카티아가 크레이돌군에서 젊은 시절을 보낼 때 이 소총을 테스트할 기회를 가졌고, 이 다루기 쉽고 믿음직한 무기는 그녀의 평생을 함께하게 되었습니다.\n\n총기 몸체에는 "천사들이 복수하리라"라는 문구가 새겨져 있습니다.</Milira_Rifle_Katia_II.description>
+  <Milira_Rifle_Katia_II.comps.4.gizmoLabel1>소총 모드</Milira_Rifle_Katia_II.comps.4.gizmoLabel1>
+  <Milira_Rifle_Katia_II.comps.4.gizmoDesc1>소총 모드로 전환합니다.</Milira_Rifle_Katia_II.comps.4.gizmoDesc1>
+  <Milira_Rifle_Katia_II.comps.4.gizmoDesc2>포격 모드로 전환합니다.</Milira_Rifle_Katia_II.comps.4.gizmoDesc2>
+  <Milira_Rifle_Katia_II.tools.0.label>개머리판</Milira_Rifle_Katia_II.tools.0.label>
+  <Milira_Rifle_Katia_II.tools.1.label>총열</Milira_Rifle_Katia_II.tools.1.label>
+  <PLAMiliraSariel_Gun.label>"아포칼립스" 지정사수소총</PLAMiliraSariel_Gun.label>
+  <PLAMiliraSariel_Gun.description>사리엘이 휴대하는 소총입니다. 극도로 강력한 열에너지가 주입된 특수 탄환을 사용합니다.\n\n외형은 육중해 보이지만, 내부 구조는 '선구자'라고 알려진 먼 성계의 기술로 제작되었습니다. 내부의 상당 부분이 비어 있는 설계 덕분에 보기보다 가볍습니다. 사리엘의 말에 따르면 본인의 취향에 맞춰 외형을 어느 정도 개조했기 때문에 원래 설계와는 차이가 있다고 합니다.\n\n그녀는 이 무기의 본래 기원이나 관련 정보에 대해 말하기를 꺼려합니다.</PLAMiliraSariel_Gun.description>
+  <PLAMiliraSariel_Gun.comps.4.gizmoLabel1>반자동 모드</PLAMiliraSariel_Gun.comps.4.gizmoLabel1>
+  <PLAMiliraSariel_Gun.comps.4.gizmoDesc1>반자동 모드로 전환합니다.</PLAMiliraSariel_Gun.comps.4.gizmoDesc1>
+  <PLAMiliraSariel_Gun.comps.4.gizmoDesc2>저격 모드로 전환합니다.</PLAMiliraSariel_Gun.comps.4.gizmoDesc2>
+  <PLAMiliraSariel_Gun.tools.0.label>총열</PLAMiliraSariel_Gun.tools.0.label>
+  <PLAMiliraSarielBullet.label>탄환</PLAMiliraSarielBullet.label>
+  <PLAMiliraSarielBullet_RailGun.label>레일건</PLAMiliraSarielBullet_RailGun.label>
+  <Milira_PrinterGun.label>밀리라 프린터건</Milira_PrinterGun.label>
+  <Milira_PrinterGun.description>밀리라 제국의 한 천재 밀리라가 발명한 조립 및 결합 보조용 프린팅 건입니다.\n\n장착 시 구조물 조립 속도가 크게 빨라지고 작업 속도가 약간 향상됩니다.\n\n위험이 닥치면 레이저를 발사하여 자위용 무기로도 사용할 수 있습니다.</Milira_PrinterGun.description>
+  <Milira_PrinterGun.tools.0.label>개머리판</Milira_PrinterGun.tools.0.label>
+  <Milira_PrinterGun.tools.1.label>총열</Milira_PrinterGun.tools.1.label>
+  <Milira_CombatantSuit.label>밀리라 대거 전투복</Milira_CombatantSuit.label>
+  <Milira_CombatantSuit.description>보호용 부품 대부분을 제거한 전투복입니다. 착용자에게 탁월한 움직임의 자유를 제공하며, 내장된 근력 강화 시스템은 근접 피해를 높이는 동시에 화기를 더 쉽게 다루고 조작할 수 있게 해줍니다.\n\n이 의류 세트는 &lt;color=#7AD77D&gt;근접 전투 및 이동 속도&lt;/color&gt;에 중점을 둡니다.</Milira_CombatantSuit.description>
+  <Milira_CombatantMask.label>밀리라 전투 마스크</Milira_CombatantMask.label>
+  <Milira_CombatantMask.description>경량 전투복과 함께 착용하도록 설계된 전술 마스크로, 전투 컴퓨터와 항독성 보호 기능이 통합되어 있습니다.\n\n이 의류 세트는 &lt;color=#7AD77D&gt;근접 전투 및 이동 속도&lt;/color&gt;에 중점을 둡니다.</Milira_CombatantMask.description>
+  <Milira_CombatantCoat.label>밀리라 전투 코트</Milira_CombatantCoat.label>
+  <Milira_CombatantCoat.description>경량 전투복 위에 입는 코트입니다. 보호 성능은 거의 없지만 착용자의 체온을 유지해 줍니다.</Milira_CombatantCoat.description>
+  <Milira_NavigatorUniform.label>밀리라 아스테리아 제복</Milira_NavigatorUniform.label>
+  <Milira_NavigatorUniform.description>우주선을 워프시키는 책임을 맡은 네비게이터 전용 밀리라 제국 해군 제복입니다. 방어력은 제한적이지만 네비게이터의 정신력을 효과적으로 강화해 줍니다.\n\n이 의류 세트는 &lt;color=#7AD77D&gt;정신력&lt;/color&gt;에 중점을 둡니다.</Milira_NavigatorUniform.description>
+  <Milira_RetroKnightArmor.label>밀리라 레트로 기사 갑옷</Milira_RetroKnightArmor.label>
+  <Milira_RetroKnightArmor.description>지구 고대의 서양 판타지 게임에서 영감을 받은 밀리라 전투 갑옷으로, 겉모습은 오래되고 투박해 보입니다.\n\n하지만 실제로는 전투 컴퓨터와 항독성 장치가 장착된 첨단 강화갑옷입니다.\n특출난 군공을 세운 밀리라 전사들만이 밀리라 제국으로부터 이러한 강화갑옷을 하사받습니다.\n\n이 의류 세트는 &lt;color=#7AD77D&gt;근접 전투 및 방어&lt;/color&gt;에 중점을 둡니다.</Milira_RetroKnightArmor.description>
+  <Milira_RetroKnightHelmet.label>밀리라 레트로 기사 투구</Milira_RetroKnightHelmet.label>
+  <Milira_RetroKnightHelmet.description>지구 고대의 서양 판타지 게임에서 영감을 받은 밀리라 전투 투구로, 외형은 오래되고 투박해 보입니다.\n\n그러나 실제로는 전용 전투 갑옷과 함께 착용했을 때 최상의 방어 성능을 발휘할 수 있습니다.\n\n이 의류 세트는 &lt;color=#7AD77D&gt;근접 전투 및 방어&lt;/color&gt;에 중점을 둡니다.</Milira_RetroKnightHelmet.description>
+  <Milira_RetroHunterSuit.label>밀리라 레트로 헌터 슈트</Milira_RetroHunterSuit.label>
+  <Milira_RetroHunterSuit.description>지구 고대의 서양 판타지 게임에서 영감을 받은 밀리라 전투복으로, 외형은 오래되고 취약해 보입니다.\n\n하지만 실제로는 전투 컴퓨터와 항독성 장치가 장착된 첨단 전투복입니다.\n특출난 군공을 세운 밀리라 전사들만이 밀리라 제국으로부터 이러한 전투복을 하사받습니다.\n\n이 의류 세트는 &lt;color=#7AD77D&gt;두 종류의 아르테미스 갑옷 변형의 장점을 결합했지만, 원거리 무기 조작 성능은 희생했습니다&lt;/color&gt;.</Milira_RetroHunterSuit.description>
+  <Milira_RetroHunterHelmet.label>밀리라 레트로 헌터 헬멧</Milira_RetroHunterHelmet.label>
+  <Milira_RetroHunterHelmet.description>지구 고대의 서양 판타지 게임에서 영감을 받은 밀리라 헌터 모자로, 외형은 오래되고 취약해 보입니다.\n\n그러나 실제로는 전용 전투복과 함께 착용했을 때 최상의 방어 성능을 발휘할 수 있습니다.\n\n이 의류 세트는 &lt;color=#7AD77D&gt;두 종류의 아르테미스 갑옷 변형의 장점을 결합했지만, 원거리 무기 조작 성능은 희생했습니다&lt;/color&gt;.</Milira_RetroHunterHelmet.description>
+  <Milira_ShadowCombatSuit.label>밀리라 고스트 전술 슈트</Milira_ShadowCombatSuit.label>
+  <Milira_ShadowCombatSuit.description>섀도우 가드에게 지급되는 경량 전투복입니다. 최소한의 무게에도 불구하고 이 전투복의 성능은 부피가 큰 파워 아머에 필적합니다.\n\n또한 스텔스 야전 발전기를 통합합니다. \n\n이 의복 세트는 &lt;color=#7AD77D&gt;근접 전투와 은신 상태 진입&lt;/color&gt;에 특화되어 있습니다.</Milira_ShadowCombatSuit.description>
+  <Milira_ShadowTacticalGoggles.label>밀리라 고스트 전술 고글</Milira_ShadowTacticalGoggles.label>
+  <Milira_ShadowTacticalGoggles.description>섀도우 가드에게 지급되는 경량 전투용 후드입니다. \n\n이 의복 세트는 &lt;color=#7AD77D&gt;근접 전투와 은신 상태 진입&lt;/color&gt;에 특화되어 있습니다.</Milira_ShadowTacticalGoggles.description>
+  <Milira_MarinePowerArmor.label>밀리라 시그룬 파워 아머</Milira_MarinePowerArmor.label>
+  <Milira_MarinePowerArmor.description>밀리라 제국의 표준 보급형 파워 아머로, 고전적인 발키리 전투 갑옷을 개량한 모델입니다. \n\n적 함선에 워프하여 강습하는 밀리라 스페이스 마린들을 효과적으로 보호합니다. \n\n이 갑옷은 가장 가혹한 행성 환경도 견뎌낼 수 있습니다. \n\n이 의복 세트는 &lt;color=#7AD77D&gt;사격과 방어&lt;/color&gt;에 특화되어 있습니다.</Milira_MarinePowerArmor.description>
+  <Milira_MarinePowerHelmet.label>밀리라 시그룬 파워 헬멧</Milira_MarinePowerHelmet.label>
+  <Milira_MarinePowerHelmet.description>밀리라 제국의 표준 보급형 파워 헬멧으로, 고전적인 발키리 전투 갑옷을 개량한 모델입니다. \n\n적 함선에 워프하여 강습하는 밀리라 스페이스 마린들을 효과적으로 보호합니다. \n\n이 의복 세트는 &lt;color=#7AD77D&gt;사격과 방어&lt;/color&gt;에 특화되어 있습니다.</Milira_MarinePowerHelmet.description>
+  <Milira_NavalUniform.label>밀리라 셀레네 아머</Milira_NavalUniform.label>
+  <Milira_NavalUniform.description>이전 세대의 아르테미스 갑옷을 기반으로 방어력을 개선한 밀리라 제국 해군의 표준 군복입니다. 편안한 착용감과 아름다운 디자인 덕분에 승조원과 장교 모두에게 사랑받고 있습니다. \n\n이 의복 세트는 &lt;color=#7AD77D&gt;밀리라 무기의 에너지 충전 용량&lt;/color&gt;에 특화되어 있습니다.</Milira_NavalUniform.description>
+  <Milira_TacticalHeadset.label>밀리라 셀레네 헤드셋</Milira_TacticalHeadset.label>
+  <Milira_TacticalHeadset.description>셀레네 아머와 함께 사용하도록 설계된 전술 헤드셋입니다. \n\n전투 연산 장치가 탑재되어 전장 인식 능력을 향상시킬 뿐만 아니라 에너지 무기의 탄착군을 교정해 줍니다. \n\n이 의복 세트는 &lt;color=#7AD77D&gt;밀리라 무기의 에너지 충전 용량&lt;/color&gt;에 특화되어 있습니다.</Milira_TacticalHeadset.description>
+  <Milira_RetroNavalUniform.label>밀리라 복고풍 해군 제복</Milira_RetroNavalUniform.label>
+  <Milira_RetroNavalUniform.description>약 2,400년 전의 복고풍 해군 제복입니다. 밀리라 제국이 자애로운 초월공학 신의 뜻을 받들어 은하계 곳곳에서 어둠의 초월공학 신에 맞서 수많은 대성전을 벌이던 시절의 유산입니다. \n\n그 당시의 해군 제복은 실용성보다는 우아함과 예우를 중시했는데, 하늘을 뒤덮을 정도로 거대했던 당시 밀리라 제국 해군의 위용에 완벽하게 어울리는 스타일이었습니다.</Milira_RetroNavalUniform.description>
+  <Milira_FeatherDeco.label>밀리라 깃털 장식</Milira_FeatherDeco.label>
+  <Milira_FeatherDeco.description>리디아가 즐겨 쓰는 깃털 장식 스타일로 제작된 머리 장식입니다. \n\n이제 이 장식에 달린 밀리라 깃털은 오직 우정과 희망만을 상징할 것입니다.</Milira_FeatherDeco.description>
+  <Milira_HeavyPowerArmor.label>밀리라 포세이돈 파워 아머</Milira_HeavyPowerArmor.label>
+  <Milira_HeavyPowerArmor.description>중형 기관포 운용을 위해 설계된 특수 강화 갑옷입니다. \n\n일반적인 파워 아머와 달리, "포세이돈"급 파워 아머는 전투 컴퓨터를 포기하는 대신 보조 제어 장치를 장착했습니다. 그 결과 포세이돈 모델은 &lt;color=#7AD77D&gt;착용자가 엄청나게 무거운 '아스테시아' 자동 기관포를 휘두를 수 있게 해줍니다&lt;/color&gt;.</Milira_HeavyPowerArmor.description>
+  <Milira_PoseidonHeadset.label>밀리라 포세이돈 모듈</Milira_PoseidonHeadset.label>
+  <Milira_PoseidonHeadset.description>포세이돈 파워 아머와 함께 사용하도록 설계된 전술 모듈입니다. \n\n이 모듈에는 특수 작전용 전투 컴퓨터가 탑재되어 있습니다. 전장 인식 능력 향상은 제한적이지만, &lt;color=#7AD77D&gt;아스테시아 자동 기관포에 필요한 복잡한 사격 통제 계산을 수행&lt;/color&gt;할 수 있습니다.</Milira_PoseidonHeadset.description>
+  <Milira_Priest_Uniform.label>밀리라 사제복</Milira_Priest_Uniform.label>
+  <Milira_Priest_Uniform.description>원자력 시대 지구의 독특한 문화 작품에서 유래한 "사제복"입니다. 실제로 밀리라 제국의 사이오닉 사제들은 이를 제복으로 여기지 않으며, 몸매를 뽐내기 위한 모델용 의상에 가깝게 취급합니다.</Milira_Priest_Uniform.description>
+  <Milira_ImperiumOrdinaryI.label>밀리라 제국 의복</Milira_ImperiumOrdinaryI.label>
+  <Milira_ImperiumOrdinaryI.description>고대 지구의 서구 판타지 비디오 게임에서 영감을 받은 고딕 빅토리아풍 일상복입니다. 크라돌에 사는 밀리라 동족들과 비교했을 때, 밀리라 제국의 시민들은 우주의 극한 추위를 견딜 수 있는 의복을 선호합니다.</Milira_ImperiumOrdinaryI.description>
+  <Milira_ImperiumOrdinaryHatI.label>밀리라 보닛</Milira_ImperiumOrdinaryHatI.label>
+  <Milira_ImperiumOrdinaryHatI.description>고대 지구의 서구 판타지 비디오 게임에서 영감을 받은 고딕 빅토리아풍 일상 모자입니다.</Milira_ImperiumOrdinaryHatI.description>
+  <Milira_ThermalJumpsuit.label>밀리라 방한 점프수트</Milira_ThermalJumpsuit.label>
+  <Milira_ThermalJumpsuit.description>단열 성능이 뛰어난 일상 작업복입니다. \n\n밀리라 우주 조종사와 정비공들 모두 가볍고 활동이 자유로운 이 점프수트를 즐겨 입습니다.</Milira_ThermalJumpsuit.description>
+  <Milira_PilotSunglasses.label>밀리라 조종사 선글라스</Milira_PilotSunglasses.label>
+  <Milira_PilotSunglasses.description>제국의 성간전투기 캐노피는 우주의 과도한 태양 방사선으로부터 조종사의 시력을 보호하는 첨단 복합 소재로 제작되었습니다. 그래서 사실 이 에비에이터 선글라스는 멋을 아는 밀리라들을 위한 액세서리에 불과합니다. 하지만 민간 등급의 보조 조준경이 내장되어 있습니다.</Milira_PilotSunglasses.description>
+  <Milira_PilotSunglassesII.label>밀리라 조종사 선글라스 (머리 위)</Milira_PilotSunglassesII.label>
+  <Milira_PilotSunglassesII.description>제국의 성간전투기 캐노피는 우주의 과도한 태양 방사선으로부터 조종사의 시력을 보호하는 첨단 복합 소재로 제작되었습니다. 그래서 사실 이 에비에이터 선글라스는 멋을 아는 밀리라들을 위한 액세서리에 불과합니다. 하지만 민간 등급의 보조 조준경이 내장되어 있습니다.</Milira_PilotSunglassesII.description>
+  <Milira_PilotSunglassesIII.label>밀리라 조종사 선글라스 (내려씀)</Milira_PilotSunglassesIII.label>
+  <Milira_PilotSunglassesIII.description>제국의 성간전투기 캐노피는 첨단 소재로 제작되어 시력을 완벽하게 보호해 줍니다. 선글라스를 이렇게 코끝에 걸쳐 쓰는 방식은 스타일을 중요하게 여기는 젊은 천재 요리사 밀리라가 가장 좋아하는 방식입니다.</Milira_PilotSunglassesIII.description>
+  <Milira_ImperiumOrdinaryIII.label>밀리라 제국 예복</Milira_ImperiumOrdinaryIII.label>
+  <Milira_ImperiumOrdinaryIII.description>위엄 있으면서도 은근히 귀여운 미학이 담긴 제국의 예복입니다. 제국 관료들뿐만 아니라 일반 시민들도 즐겨 입는 옷입니다.</Milira_ImperiumOrdinaryIII.description>
+  <Milira_ImperiumOrdinaryHatIII.label>밀리라 제국 월계관</Milira_ImperiumOrdinaryHatIII.label>
+  <Milira_ImperiumOrdinaryHatIII.description>장식이 추가된 금빛 월계관으로, 착용자의 고귀한 신분에 걸맞은 품격을 보여줍니다.</Milira_ImperiumOrdinaryHatIII.description>
+  <Milira_ImperiumOrdinaryIV.label>밀리라 연금술사 의복</Milira_ImperiumOrdinaryIV.label>
+  <Milira_ImperiumOrdinaryIV.description>연금술사 스타일의 의복입니다. 헤루에스타 IV 행성에서 가장 유망했던 젊은 연금술사에게서 영감을 받았습니다. 아르콘의 딸이 성인식을 치르던 밤, 그 연금술사가 그녀를 납치해 흔적도 없이 사라졌다는 이야기가 전해 내려옵니다.</Milira_ImperiumOrdinaryIV.description>
+  <Milira_ImperiumOrdinaryV.label>밀리라 학원 제복</Milira_ImperiumOrdinaryV.label>
+  <Milira_ImperiumOrdinaryV.description>고대 지구의 어느 학원 도시 게임에 등장하는 상급 학생회 위원의 제복을 본떠 디자인했습니다. 격식을 차리면서도 귀여운 외형 덕분에 제국의 학생과 연구원들 사이에서 인기가 많습니다.</Milira_ImperiumOrdinaryV.description>
+  <Milira_ImperiumChefHat.label>밀리라 요리사 모자</Milira_ImperiumChefHat.label>
+  <Milira_ImperiumChefHat.description>요리사를 위해 특별히 제작된 모자입니다. 밀리라에게는 흔치 않은 복장입니다.</Milira_ImperiumChefHat.description>
+  <Milira_CelestialDress.label>밀리라 셀레스티얼 드레스</Milira_CelestialDress.label>
+  <Milira_CelestialDress.description>레트로 디자인 요소가 가미된 아름다운 드레스입니다.</Milira_CelestialDress.description>
+  <Milira_CelestialDressHairDeco.label>밀리라 셀레스티얼 머리 장식</Milira_CelestialDressHairDeco.label>
+  <Milira_CelestialDressHairDeco.description>고전적이고 우아한 머리 장식입니다.</Milira_CelestialDressHairDeco.description>
+  <Milira_SafetyHelmet.label>밀리라 안전모</Milira_SafetyHelmet.label>
+  <Milira_SafetyHelmet.description>건설 현장이나 위험도가 높은 공장에서 흔히 볼 수 있는 무거운 안전모입니다.</Milira_SafetyHelmet.description>
+  <Milira_DarkWarriorAttire.label>리디아의 해군 제복</Milira_DarkWarriorAttire.label>
+  <Milira_DarkWarriorAttire.description>리디아가 세심하게 관리하여 상태가 아주 훌륭합니다. 실용성보다 장식을 훨씬 중요하게 여겼던 수 세대 전 제국 해군의 제복입니다. 지금은 박물관에나 소장되어야 할 물건입니다.</Milira_DarkWarriorAttire.description>
+  <Milira_DarkWarriorFeatherDeco.label>리디아의 깃털 장식</Milira_DarkWarriorFeatherDeco.label>
+  <Milira_DarkWarriorFeatherDeco.description>리디아의 깃털 머리 장식입니다. 그녀의 말에 따르면 옛 친구의 날개로 만든 유품이라고 합니다. 배신과 분노, 슬픔이 얽힌 이야기라 자세히 말해주지는 않지만, 그녀는 이 장식을 보며 그 시절 가장 아름다웠던 순간들을 기억하고 싶어 합니다.</Milira_DarkWarriorFeatherDeco.description>
+  <Milira_SisterDress_Skuld.label>스쿨드의 수녀복</Milira_SisterDress_Skuld.label>
+  <Milira_SisterDress_Skuld.description>스쿨드가 정성껏 관리해온 수녀복입니다. 군에 입대하기 위해 지상을 떠나기 전, 마을의 키이로들이 선물로 준 꾸러미 안에 들어 있었습니다. 고향 집으로 돌아와 열어본 상자 안에는 정성스럽게 바느질된 수녀복과 함께, 그녀의 수업을 들었던 키이로 아이들이 쓴 수많은 감사 편지가 담겨 있었습니다.</Milira_SisterDress_Skuld.description>
+  <Milira_DellinAttire.label>델린의 우비</Milira_DellinAttire.label>
+  <Milira_DellinAttire.description>주인이 아주 소중히 아껴온 정교한 우비입니다. 언젠가 다른 밀리라 확장 모드에서 제작할 수 있게 될지도 모릅니다.</Milira_DellinAttire.description>
+  <Milira_DellinBeret.label>델린의 베레모</Milira_DellinBeret.label>
+  <Milira_DellinBeret.description>따뜻하고 편안한 뜨개질 베레모입니다. 언젠가 다른 밀리라 확장 모드에서 제작할 수 있게 될지도 모릅니다.</Milira_DellinBeret.description>
+  <Milira_Artemis_Katia.label>카티아의 개량형 아르테미스 아머 "라야얘캐리"</Milira_Artemis_Katia.label>
+  <Milira_Artemis_Katia.description>카티아가 하늘깃털 교단에 맞서 게릴라전을 벌일 때 입었던 갑옷입니다. 표준형 아르테미스 아머보다 극지방의 혹독한 환경에서 전투 능력을 발휘할 수 있도록 강화되었습니다.</Milira_Artemis_Katia.description>
+  <Milira_SarielArmor.label>사리엘의 드레스</Milira_SarielArmor.label>
+  <Milira_SarielArmor.description>사리엘이 평상시에 입는 화려하고 우아한 가운입니다. 정교한 외형에 방어 성능까지 갖추었습니다. 타인의 피를 흡수해 자신을 보호하는 능력이 있는데, 이는 사리엘이 가진 특별한 초능력에서 비롯된 것입니다.</Milira_SarielArmor.description>
+  <Milira_SarielDeco.label>사리엘의 머리 장식</Milira_SarielDeco.label>
+  <Milira_SarielDeco.description>사리엘이 직접 만든 아름다운 머리 장식입니다.</Milira_SarielDeco.description>
+  <Milira_eartag.label>밀리라 이식표</Milira_eartag.label>
+  <Milira_eartag.description>밀리라용 이식표입니다. 밀리라가 왜 이런 것을 달고 있는지는 오직 이 개체를 총애하는 초월공학 신만이 알고 있을 것입니다.</Milira_eartag.description>
+  <Milira_ElitePirateArmor.label>밀리라 네메시스 아머</Milira_ElitePirateArmor.label>
+  <Milira_ElitePirateArmor.description>밀리라 해적들 사이에서는 뛰어난 방어력과 편안함 때문에 "페르세포네" 아머라고 불립니다. 보통 엘리트 전사들만 착용할 수 있습니다. 이 옷을 입은 전사들은 잔혹한 근접전을 즐기며 적들에게 공포를 심어주는 것으로 유명합니다. 그 악명 때문에 제국 심문소의 감시 대상이기도 하며, 미개척 세계 사람들에게는 "복수의 여신" 그 자체로 통합니다. 이 의상은 &lt;color=#7AD77D&gt;근접전, 방어력, 그리고 밀리라 무기 충전 속도의 균형&lt;/color&gt;을 맞춰줍니다.</Milira_ElitePirateArmor.description>
+  <Milira_ElitePirateDeco.label>밀리라 네메시스 장식</Milira_ElitePirateDeco.label>
+  <Milira_ElitePirateDeco.description>머리 장식으로 위장한 소형 전투 컴퓨터입니다. 착용자가 더 치명적인 근접 공격을 가할 수 있게 도와줍니다. 갑옷과 마찬가지로 이 장식 역시 아는 사람들에게는 공포의 대상입니다. 이 장비는 &lt;color=#7AD77D&gt;근접전, 방어력, 그리고 밀리라 무기 충전 속도의 균형&lt;/color&gt;을 맞춰줍니다.</Milira_ElitePirateDeco.description>
+  <Milira_PirateArmor.label>밀리라 칼리스토 아머</Milira_PirateArmor.label>
+  <Milira_PirateArmor.description>밀리라 해적들이 널리 사용하는 표준 갑옷으로, 눈에 띄지 않는 절제된 스타일로 디자인되었습니다. 기존의 아르테미스 아머와 비교하면, 칼리스토 아머는 &lt;color=#7AD77D&gt;에너지 무기용 축전 성능을 포기한 대신 더 강력한 방어력&lt;/color&gt;을 얻었습니다.</Milira_PirateArmor.description>
+  <Milira_PirateHeadSet.label>밀리라 칼리스토 헤드셋</Milira_PirateHeadSet.label>
+  <Milira_PirateHeadSet.description>밀리라 해적들이 널리 사용하는 표준 전술 헤드셋입니다. 칼리스토 시리즈답게 &lt;color=#7AD77D&gt;무기 성능보다는 방어 보조 기능&lt;/color&gt;을 중시했습니다.</Milira_PirateHeadSet.description>
+  <Milira_Drone_Capacitor.label>플랫폼: 축전</Milira_Drone_Capacitor.label>
+  <Milira_Drone_Capacitor.description>초고용량 축전를 탑재한 부유 플랫폼입니다. 밀리라 에너지 무기에 추가적인 에너지 예비량을 제공합니다. 발사 시 엄청난 순간 에너지가 필요한 제국제 중화기들에게는 없어서는 안 될 보조 장비입니다.</Milira_Drone_Capacitor.description>
+  <Milira_CombatDrone_LightOfCradol.label>전투 플랫폼: 크레이돌의 빛</Milira_CombatDrone_LightOfCradol.label>
+  <Milira_CombatDrone_LightOfCradol.description>초능력 신호 송신기를 장착한 부유 플랫폼입니다. 범위 내 아군에게는 강화 신호를 보내고, 적군에게는 공격 신호를 가합니다.</Milira_CombatDrone_LightOfCradol.description>
+  <Milira_CombatDrone_LightOfCradol_II.label>전투 플랫폼: 에탕다르</Milira_CombatDrone_LightOfCradol_II.label>
+  <Milira_CombatDrone_LightOfCradol_II.description>초능력 신호 송신기를 장착한 부유 플랫폼입니다. 아군에게는 강화 신호를, 적군에게는 공격 신호를 가합니다.</Milira_CombatDrone_LightOfCradol_II.description>
+  <Milira_Solarshieldbelt_II.label>태양 보호막 벨트</Milira_Solarshieldbelt_II.label>
+  <Milira_Solarshieldbelt_II.description>에너지가 소진되면 재충전까지 10초가 걸립니다. EMP 타격 시 즉시 무력화됩니다. 타격당 에너지 소모량은 원거리 50, 근접 400입니다. 착용자에게서 분리되면 스스로 파괴되도록 설계되었습니다.</Milira_Solarshieldbelt_II.description>
+  <Milira_DarkMattershieldbelt_II.label>암흑 물질 보호막 벨트</Milira_DarkMattershieldbelt_II.label>
+  <Milira_DarkMattershieldbelt_II.description>에너지가 소진되면 재충전까지 10초가 걸립니다. EMP 타격 시 즉시 무력화됩니다. 타격당 에너지 소모량은 10, 근접 시 50으로 매우 효율적입니다. 분리 시 자폭합니다.</Milira_DarkMattershieldbelt_II.description>
+  <Milira_LydiasPendant.label>리디아의 정신 방어 펜던트</Milira_LydiasPendant.label>
+  <Milira_LydiasPendant.description>리디아의 정신 방어용 펜던트입니다. 특수 목적으로 강화되었습니다.</Milira_LydiasPendant.description>
+  <Milira_Lydiashield.label>보호막 역장</Milira_Lydiashield.label>
+  <Milira_Lydiashield.description>초능력 에너지로 형성된 보호막 역장입니다. 재충전까지 20초가 걸리고, 타격당 소모량은 원거리 5, 근접 20입니다. 분리 시 자폭합니다.</Milira_Lydiashield.description>
+  <Milira_Solarshieldbelt.label>태양 보호막 벨트</Milira_Solarshieldbelt.label>
+  <Milira_Solarshieldbelt.description>제국 공학 연구소에서 개발하여 시민들에게 찬사를 받은 보호막입니다. 편향형이라 공격 위력에 관계없이 소모 에너지가 고정되어 있습니다. 강력한 한 방은 잘 막지만 연사에는 취약합니다. 재설정 시간은 10초이며, 타격당 소모량은 원거리 50, 근접 300입니다.</Milira_Solarshieldbelt.description>
+  <Milira_DarkMattershieldbelt.label>암흑 물질 보호막 벨트</Milira_DarkMattershieldbelt.label>
+  <Milira_DarkMattershieldbelt.description>암흑 물질 에너지 셀로 구동되는 정예병용 장비입니다. 반물질 폭발 같은 초고에너지 피해도 견뎌낼 수 있을 만큼 보호막이 강력합니다. 편향형이라 한 방이 큰 공격에 특히 강합니다. 재설정 시간은 10초이며, 타격당 소모량은 일반 10, 근접 50입니다.</Milira_DarkMattershieldbelt.description>
+  <Milira_Psionicshieldbelt.label>초능력 보호막 벨트</Milira_Psionicshieldbelt.label>
+  <Milira_Psionicshieldbelt.description>암흑 물질 셀과 초능력 코어가 결합된 최상급 장비입니다. 편향형 보호막 성능은 물론이고, 보호막이 파괴될 때 주변 15타일 내의 모든 적을 10초 동안 기절시킵니다. 재설정 시간은 10초이며, 타격당 소모량은 일반 5, 근접 20입니다.</Milira_Psionicshieldbelt.description>
+  <Milira_AntitoxinFieldGenerator.label>항독성 역장 발생기</Milira_AntitoxinFieldGenerator.label>
+  <Milira_AntitoxinFieldGenerator.description>독성 물질을 걸러내는 역장을 생성하여 독이 가득한 환경에서도 쾌적하게 활동할 수 있게 해줍니다.</Milira_AntitoxinFieldGenerator.description>
+  <Milira_ThermalBarrierField.label>열 차단 역장</Milira_ThermalBarrierField.label>
+  <Milira_ThermalBarrierField.description>극한의 온도 전달을 차단하는 신기한 역장 발생기입니다. 우주 산책을 즐기는 커플들 사이에서 인기가 많습니다.</Milira_ThermalBarrierField.description>
+  <Milira_PsionicAmplifyPendant.label>초능력 증폭 펜던트</Milira_PsionicAmplifyPendant.label>
+  <Milira_PsionicAmplifyPendant.description>순수한 초능력 에너지가 응축된 수정이 박힌 화려한 펜던트입니다. 오직 교단에 충성하는 뛰어난 사이캐스터들에게만 수여됩니다. 모든 종류의 정신 붕괴를 막아줍니다.</Milira_PsionicAmplifyPendant.description>
+  <Milira_PsionicMechlink.label>초능력 메크링크</Milira_PsionicMechlink.label>
+  <Milira_PsionicMechlink.description>제국 패턴의 메크링크로 초능력 코어가 통합되어 있습니다. 뇌에 직접 이식할 필요 없이 생각만으로 군단을 지휘할 수 있게 해주지만, 대신 사용자의 초능력 역량 일부를 점유합니다.</Milira_PsionicMechlink.description>
+  <MiliraImperium_PortableConsole.label>제국 휴대용 콘솔</MiliraImperium_PortableConsole.label>
+  <MiliraImperium_PortableConsole.description>제국 함대에 지원을 요청할 수 있는 휴대용 콘솔입니다. 허가증을 선택한 뒤 사용하십시오!</MiliraImperium_PortableConsole.description>
+  <AfterimageEcho.label>잔상회향</AfterimageEcho.label>
+  <MI_Building_Laptop.label>밀리라 노트북</MI_Building_Laptop.label>
+  <MI_Building_Laptop.description>성간 네트워크를 이용할 수 있는 노트북입니다. 비디오 게임을 즐기면 사격 실력을 쌓는 데 도움이 될지도 모릅니다. '발레리 안드레아'라는 밀리라가 디자인했습니다.</MI_Building_Laptop.description>
+  <MI_Building_Bed.label>밀리라 침대</MI_Building_Bed.label>
+  <MI_Building_Bed.description>밀리라 스타일의 고급 침대입니다. 개인 침실은 물론 병원용 침대로 쓰기에도 아주 좋습니다.</MI_Building_Bed.description>
+  <MI_Building_DoubleBed.label>밀리라 2인용 침대</MI_Building_DoubleBed.label>
+  <MI_Building_DoubleBed.description>밀리라 스타일의 고급 2인용 침대입니다. 병실에서 사용하기에도 적합합니다.</MI_Building_DoubleBed.description>
+  <MI_Building_EndTable.label>밀리라 협탁</MI_Building_EndTable.label>
+  <MI_Building_EndTable.description>침대 곁에 두면 안락함을 더해주는 작은 탁자입니다. '발레리 안드레아'가 디자인했습니다.</MI_Building_EndTable.description>
+  <MI_Building_Dresser.label>밀리라 서랍장</MI_Building_Dresser.label>
+  <MI_Building_Dresser.description>근처 침대에 안락함 보너스를 주는 서랍장입니다. '발레리 안드레아'가 디자인했습니다.</MI_Building_Dresser.description>
+  <MI_Building_Table2x2c.label>밀리라 탁자 (2x2)</MI_Building_Table2x2c.label>
+  <MI_Building_Table2x2c.description>밀리라 스타일의 탁자입니다. '발레리 안드레아'가 디자인했습니다.</MI_Building_Table2x2c.description>
+  <MI_Building_Table1x2c.label>밀리라 탁자 (1x2)</MI_Building_Table1x2c.label>
+  <MI_Building_Table1x2c.description>밀리라 스타일의 탁자입니다.</MI_Building_Table1x2c.description>
+  <MI_Building_StandingLamp.label>밀리라 식물 전등</MI_Building_StandingLamp.label>
+  <MI_Building_StandingLamp.description>햇빛 식물이 들어있는 스탠드입니다. 탁자 위에 놓을 수도 있습니다. '발레리 안드레아'가 디자인했습니다.</MI_Building_StandingLamp.description>
+  <MI_Building_FloodLight.label>밀리라 나무 전등</MI_Building_FloodLight.label>
+  <MI_Building_FloodLight.description>햇빛 나무를 담고 있는 스탠드형 조명입니다. '발레리 안드레아'가 디자인했습니다.</MI_Building_FloodLight.description>
+  <MI_Building_Chair.label>밀리라 의자</MI_Building_Chair.label>
+  <MI_Building_Chair.description>편안한 1인용 의자입니다.</MI_Building_Chair.description>
+  <MI_Building_Wardrobe.label>밀리라 옷장</MI_Building_Wardrobe.label>
+  <MI_Building_Wardrobe.description>밀리라 양식의 옷장입니다.</MI_Building_Wardrobe.description>
+  <MI_Building_WardrobeII.label>밀리라 대형 옷장</MI_Building_WardrobeII.label>
+  <MI_Building_WardrobeII.description>밀리라 양식의 대형 옷장입니다.</MI_Building_WardrobeII.description>
+  <MI_Building_Wisteria.label>등나무</MI_Building_Wisteria.label>
+  <MI_Building_Wisteria.description>희미한 보라색 빛을 발산하는 큰 등나무입니다.</MI_Building_Wisteria.description>
+  <MI_Building_Stove.label>태양 조리대</MI_Building_Stove.label>
+  <MI_Building_Stove.description>태양 수정을 동력으로 사용하는 자가 발전 조리대입니다. 기본 작업 속도가 135%로 아주 빠릅니다. '발레리 안드레아'가 디자인했습니다.</MI_Building_Stove.description>
+  <Milira_DragonFighter.label>밀리라 에테르 드레이크 전투기</Milira_DragonFighter.label>
+  <Milira_DragonFighter.description>제국 항공단의 핵심 기체입니다. 미사일 발사기 2문과 적의 투사체를 요격하는 레이저 점방어 시스템을 갖추고 있습니다.</Milira_DragonFighter.description>
+  <Milira_DragonFighter.comps.CompRefuelableAerocraft.fuelLabel>태양 연료</Milira_DragonFighter.comps.CompRefuelableAerocraft.fuelLabel>
+  <Milira_DragonFighter.comps.CompRefuelableAerocraft.fuelGizmoLabel>태양 연료</Milira_DragonFighter.comps.CompRefuelableAerocraft.fuelGizmoLabel>
+  <Milira_DragonFighter.comps.11.gizmoLabel>레이저 점방어</Milira_DragonFighter.comps.11.gizmoLabel>
+  <Milira_DragonFighter.comps.11.gizmoDesc>레이저 점방어 시스템을 켭니다. 활성화되면 25타일 내의 적 투사체를 요격합니다.</Milira_DragonFighter.comps.11.gizmoDesc>
+  <Milira_GriffinFighter.label>밀리라 그리핀 전투기</Milira_GriffinFighter.label>
+  <Milira_GriffinFighter.description>프레데터에게 자리를 물려준 구식 함상 전투기입니다. 이제는 민간용으로 전환되면서 비싼 뉴트로늄 대신 값싼 태양단강을 사용했습니다. 덕분에 가격은 저렴하지만 내구도는 다소 떨어집니다. 복잡한 화력 제어 장치도 제외되어 레이저 연사 속도가 낮고 미사일 장착이 불가능합니다. 레이저 오토캐논 2문을 장착했습니다.</Milira_GriffinFighter.description>
+  <Milira_GriffinFighter.comps.CompRefuelableAerocraft.fuelLabel>태양 연료</Milira_GriffinFighter.comps.CompRefuelableAerocraft.fuelLabel>
+  <Milira_GriffinFighter.comps.CompRefuelableAerocraft.fuelGizmoLabel>태양 연료</Milira_GriffinFighter.comps.CompRefuelableAerocraft.fuelGizmoLabel>
+  <MiliraTurretGun_Orbital_Laser_Fighter_Griffin.label>전투기용 레이저포</MiliraTurretGun_Orbital_Laser_Fighter_Griffin.label>
+  <MiliraTurretGun_Orbital_Laser_Fighter_Griffin.description>전투기용 레이저포입니다.</MiliraTurretGun_Orbital_Laser_Fighter_Griffin.description>
+  <Milira_PredatorFighter.label>밀리라 프레데터 전투기</Milira_PredatorFighter.label>
+  <Milira_PredatorFighter.description>제국의 표준 전투기입니다. 플라즈마 추진기로 수직 이착륙이 가능합니다. 이륙할 때만 태양 연료를 소량 소모하며, 이후에는 내장된 암흑 물질 셀로 비행합니다. 레이저 오토캐논 2문과 미사일 발사기 2문을 장착했습니다.</Milira_PredatorFighter.description>
+  <Milira_PredatorFighter.comps.CompRefuelableAerocraft.fuelLabel>태양 연료</Milira_PredatorFighter.comps.CompRefuelableAerocraft.fuelLabel>
+  <Milira_PredatorFighter.comps.CompRefuelableAerocraft.fuelGizmoLabel>태양 연료</Milira_PredatorFighter.comps.CompRefuelableAerocraft.fuelGizmoLabel>
+  <MiliraBullet_Laser_Orbital_Fighter.label>감마 레이저</MiliraBullet_Laser_Orbital_Fighter.label>
+  <MiliraTurretGun_Orbital_Laser_Fighter.label>전투기용 레이저포</MiliraTurretGun_Orbital_Laser_Fighter.label>
+  <MiliraTurretGun_Orbital_Laser_Fighter.description>전투기용 레이저포입니다.</MiliraTurretGun_Orbital_Laser_Fighter.description>
+  <Milira_WyvernFighter.label>밀리라 와이번 전투기</Milira_WyvernFighter.label>
+  <Milira_WyvernFighter.description>제국의 중전투기입니다. 보통 프레데터와 편대를 이뤄 비행합니다. 프레데터가 근접전을 벌이는 동안 빠른 속도로 우회하여 치명적인 측면 타격을 가하는 것이 주 임무입니다. 미사일 발사기 4문을 장착했습니다.</Milira_WyvernFighter.description>
+  <Milira_WyvernFighter.comps.CompRefuelableAerocraft.fuelLabel>태양 연료</Milira_WyvernFighter.comps.CompRefuelableAerocraft.fuelLabel>
+  <Milira_WyvernFighter.comps.CompRefuelableAerocraft.fuelGizmoLabel>태양 연료</Milira_WyvernFighter.comps.CompRefuelableAerocraft.fuelGizmoLabel>
+  <MI_Missile_FoxIII.label>ARH 미사일</MI_Missile_FoxIII.label>
+  <MiliraTurretGun_WyvernFighter.label>FOX 3 미사일 발사기</MiliraTurretGun_WyvernFighter.label>
+  <MiliraTurretGun_WyvernFighter.description>FOX 3 미사일 발사기입니다.</MiliraTurretGun_WyvernFighter.description>
+  <MI_Missile_FoxII.label>WVR 미사일</MI_Missile_FoxII.label>
+  <MiliraTurretGun_FOXIILauncher.label>FOX 2 미사일 발사기</MiliraTurretGun_FOXIILauncher.label>
+  <MiliraTurretGun_FOXIILauncher.description>FOX 2 미사일 발사기입니다.</MiliraTurretGun_FOXIILauncher.description>
+  <Milira_DragonFighterIncoming.label>밀리라 에테르 드레이크 전투기 (진입 중)</Milira_DragonFighterIncoming.label>
+  <Milira_DragonFighterLeaving.label>밀리라 에테르 드레이크 전투기 (이탈 중)</Milira_DragonFighterLeaving.label>
+  <Milira_GriffinFighterIncoming.label>밀리라 그리핀 전투기 (진입 중)</Milira_GriffinFighterIncoming.label>
+  <Milira_GriffinFighterLeaving.label>밀리라 그리핀 전투기 (이탈 중)</Milira_GriffinFighterLeaving.label>
+  <Milira_PredatorFighterIncoming.label>밀리라 프레데터 전투기 (진입 중)</Milira_PredatorFighterIncoming.label>
+  <Milira_PredatorFighterLeaving.label>밀리라 프레데터 전투기 (이탈 중)</Milira_PredatorFighterLeaving.label>
+  <Milira_WyvernFighterIncoming.label>밀리라 와이번 전투기 (진입 중)</Milira_WyvernFighterIncoming.label>
+  <Milira_WyvernFighterLeaving.label>밀리라 와이번 전투기 (이탈 중)</Milira_WyvernFighterLeaving.label>
+  <MI_Building_SiloForScenario.label>중자 토피도 발사대</MI_Building_SiloForScenario.label>
+  <MI_Building_SiloForScenario.description>버려진 제국 우주 정거장의 주요 방어 체계입니다. 밀리라 해적의 전함 추적이 끝나면 정거장에 남은 대함용 중자 어뢰를 발사할 수 있습니다. 중자 어뢰는 거대 함선을 파괴하는 데 특화되어 있습니다. 추적을 계속하려면 전력이 유지되어야 합니다.</MI_Building_SiloForScenario.description>
+  <MI_Missile_TakingOff_ForScenario.label>어뢰 발사 중</MI_Missile_TakingOff_ForScenario.label>
+  <Kiiro_Kipfei_Attire.label>키이로 평상복</Kiiro_Kipfei_Attire.label>
+  <Kiiro_Kipfei_Attire.description>제국의 저거너트급 전함이나 궤도 거주구에 거주하는 키이로들이 평소에 즐겨 입는 옷입니다.</Kiiro_Kipfei_Attire.description>
+  <Kiiro_Kipfei_Hat.label>키이로 평상복 모자</Kiiro_Kipfei_Hat.label>
+  <Kiiro_Kipfei_Hat.description>궤도 거주구 등지에서 생활하는 키이로들이 즐겨 쓰는 따뜻한 모자입니다.</Kiiro_Kipfei_Hat.description>
+  <Kiiro_RetroKnightArmor.label>키이로 복고풍 기사 갑옷</Kiiro_RetroKnightArmor.label>
+  <Kiiro_RetroKnightArmor.description>고대 지구의 서양 판타지 게임에서 영감을 받은 디자인입니다. 겉보기에는 구식이고 투박해 보이지만, 사실 전투 컴퓨터와 항독성 장치가 내장된 첨단 파워 아머입니다. 제국에 큰 공을 세운 키이로 전사들만이 이 갑옷을 하사받을 수 있습니다.</Kiiro_RetroKnightArmor.description>
+  <Kiiro_RetroKnightHelmet.label>키이로 복고풍 기사 투구</Kiiro_RetroKnightHelmet.label>
+  <Kiiro_RetroKnightHelmet.description>판타지 게임에서 등장할 법한 구식 외형이지만, 전용 갑옷과 함께 착용하면 매우 뛰어난 방어 성능을 발휘합니다.</Kiiro_RetroKnightHelmet.description>
+  <Kiiro_MarinePowerArmor.label>키이로 시그룬 파워 아머</Kiiro_MarinePowerArmor.label>
+  <Kiiro_MarinePowerArmor.description>전설적인 발키리 전투 갑옷을 개량한 밀리라 제국 표준 파워 아머입니다.\n\n워프를 통해 적함에 직접 돌입하는 키이로 우주 해병대를 효과적으로 보호합니다.\n\n이 갑옷은 가장 가혹한 행성 환경에서도 견뎌낼 수 있습니다.\n\n이 장비 세트는 &lt;color=#7AD77D&gt;사격과 방어&lt;/color&gt;에 특화되어 있습니다.</Kiiro_MarinePowerArmor.description>
+  <Kiiro_MarinePowerHelmet.label>키이로 시그룬 전투 모듈</Kiiro_MarinePowerHelmet.label>
+  <Kiiro_MarinePowerHelmet.description>밀리라 제국 표준 전술 모듈입니다.\n\n워프를 통해 적함에 직접 돌입하는 키이로 우주 해병대를 효과적으로 보호합니다.\n\n이 장비 세트는 &lt;color=#7AD77D&gt;사격과 방어&lt;/color&gt;에 특화되어 있습니다.</Kiiro_MarinePowerHelmet.description>
+  <Kiiro_ShadowCombatSuit.label>키이로 고스트 전투복</Kiiro_ShadowCombatSuit.label>
+  <Kiiro_ShadowCombatSuit.description>그림자 경비대에게 지급되는 경량 전투복입니다. 최소한의 무게에도 불구하고, 덩치 큰 파워 아머와 맞먹는 성능을 자랑합니다.\n\n스텔스 필드 발생기가 통합되어 있습니다.\n\n이 장비 세트는 &lt;color=#7AD77D&gt;근접전과 은신&lt;/color&gt;에 특화되어 있습니다.</Kiiro_ShadowCombatSuit.description>
+  <Kiiro_ShadowTacticalGoggles.label>키이로 시그룬 전투 모듈</Kiiro_ShadowTacticalGoggles.label>
+  <Kiiro_ShadowTacticalGoggles.description>밀리라 제국 표준 전술 모듈입니다.\n\n워프를 통해 적함에 직접 돌입하는 키이로 우주 해병대를 효과적으로 보호합니다.\n\n이 장비 세트는 &lt;color=#7AD77D&gt;사격과 방어&lt;/color&gt;에 특화되어 있습니다.</Kiiro_ShadowTacticalGoggles.description>
+  <MI_Ability_Spear_Thunder_Mote.label>투척된 창</MI_Ability_Spear_Thunder_Mote.label>
+  <Milira_Mote_Railgun.label>티끌</Milira_Mote_Railgun.label>
+  <MI_Mote_LaserPulse.label>티끌</MI_Mote_LaserPulse.label>
+  <MI_Mote_LaserPulse_Wide.label>티끌</MI_Mote_LaserPulse_Wide.label>
+  <MI_Mote_Locked.label>티끌</MI_Mote_Locked.label>
+  <MI_Orbital_Laser_Locked.label>티끌</MI_Orbital_Laser_Locked.label>
+  <MI_Orbital_Disruptor_Locked.label>티끌</MI_Orbital_Disruptor_Locked.label>
+  <MI_Mote_Text.label>티끌</MI_Mote_Text.label>
+  <MI_Mote_LaserPulse_LightningInstant.label>티끌</MI_Mote_LaserPulse_LightningInstant.label>
+  <MI_Mote_LaserPulse_HAVOC.label>티끌</MI_Mote_LaserPulse_HAVOC.label>
+  <MI_Mote_LaserPulse_HAVOC_Red.label>티끌</MI_Mote_LaserPulse_HAVOC_Red.label>
+  <MI_Mote_LaserPulse_CRPre.label>티끌</MI_Mote_LaserPulse_CRPre.label>
+  <MI_Mote_LaserPulse_CR.label>티끌</MI_Mote_LaserPulse_CR.label>
+  <MI_Mote_LaserPulse_CR_Red.label>티끌</MI_Mote_LaserPulse_CR_Red.label>
+  <MI_Mote_LaserPulse_Disruptor.label>티끌</MI_Mote_LaserPulse_Disruptor.label>
+  <MI_Mote_LaserPulse_Typhoon.label>티끌</MI_Mote_LaserPulse_Typhoon.label>
+  <MiliraTurretGun_Disruptor.verbs.Verb_Shoot.label>중형 플라즈마 대포</MiliraTurretGun_Disruptor.verbs.Verb_Shoot.label>
+  <MI_Ethereal_DelayedSpawner_Lydia.label>지연 생성기 리디아</MI_Ethereal_DelayedSpawner_Lydia.label>
+  <Milira_PawnJumper_GreatSword.label>비행</Milira_PawnJumper_GreatSword.label>
+  <Milira_PawnJumper_Hammer_Thunder.label>비행</Milira_PawnJumper_Hammer_Thunder.label>
+  <Milira_PawnJumper_MichaSlice.label>비행</Milira_PawnJumper_MichaSlice.label>
+  <Milira_PawnJumper_Micha.label>비행</Milira_PawnJumper_Micha.label>
+  <Milira_PawnJumper_Rakuyo.label>비행</Milira_PawnJumper_Rakuyo.label>
+  <Milira_PawnJumper_Psyblade.label>비행</Milira_PawnJumper_Psyblade.label>
+  <Milira_PawnJumper_Psyblade_Red.label>비행</Milira_PawnJumper_Psyblade_Red.label>
+  <MiliraBullet_HAVOCRifle_Red.label>광선</MiliraBullet_HAVOCRifle_Red.label>
+  <MiliraBullet_DevotionLMG_Red.label>광선</MiliraBullet_DevotionLMG_Red.label>
+  <MiliraBullet_ChargeRifleII_Red.label>광선</MiliraBullet_ChargeRifleII_Red.label>
+  <MiliraBullet_VoltSMG_Red.label>광선</MiliraBullet_VoltSMG_Red.label>
+  <Milira_PrinterGun.comps.5.verbProps.label>충전 모드</Milira_PrinterGun.comps.5.verbProps.label>
+  <Milira_RetroHunterSuit.comps.8.gizmoLabel>에너지 보호막 전개</Milira_RetroHunterSuit.comps.8.gizmoLabel>
+  <Milira_RetroHunterSuit.comps.8.gizmoDesc>에너지 보호막을 전개합니다.</Milira_RetroHunterSuit.comps.8.gizmoDesc>
+  <Milira_PirateArmor.comps.8.gizmoLabel>에너지 보호막 전개</Milira_PirateArmor.comps.8.gizmoLabel>
+  <Milira_PirateArmor.comps.8.gizmoDesc>에너지 보호막을 전개합니다.</Milira_PirateArmor.comps.8.gizmoDesc>
+  <MI_Mote_Milian_Mote_DetectionRadar.label>티끌</MI_Mote_Milian_Mote_DetectionRadar.label>
+  <MI_Mote_LongSparkThrown_TwoHandSword_Red.label>티끌</MI_Mote_LongSparkThrown_TwoHandSword_Red.label>
+  <MI_Mote_LongSparkThrown_TwoHandSword_Red_SlowDiminish.label>티끌</MI_Mote_LongSparkThrown_TwoHandSword_Red_SlowDiminish.label>
+  <MI_Mote_LongSparkThrown_Red_Diminish.label>티끌</MI_Mote_LongSparkThrown_Red_Diminish.label>
+  <Milira_Mote_MichaCharge.label>티끌</Milira_Mote_MichaCharge.label>
+  <Milira_Mote_Psyblade.label>티끌</Milira_Mote_Psyblade.label>
+  <MI_Mote_LongSparkThrown_Plasma_Red.label>티끌</MI_Mote_LongSparkThrown_Plasma_Red.label>
+  <PLAMiliraSariel_Alarak_Wave_MeatExplosionMist_Main.label>티끌</PLAMiliraSariel_Alarak_Wave_MeatExplosionMist_Main.label>
+  <PLAMiliraSariel_Mote_Alarak_Wave_Particle_Fast.label>티끌</PLAMiliraSariel_Mote_Alarak_Wave_Particle_Fast.label>
+  <PLAMiliraSariel_Mote_Alarak_Wave_Particle.label>티끌</PLAMiliraSariel_Mote_Alarak_Wave_Particle.label>
+  <PLAMiliraSariel_Mote_MotherSlash_Stab.label>티끌</PLAMiliraSariel_Mote_MotherSlash_Stab.label>
+  <PLAMiliraSariel_Alarak_Wave_Mote_MeatExplosionMist.label>티끌</PLAMiliraSariel_Alarak_Wave_Mote_MeatExplosionMist.label>
+  <PLAMiliraSariel_Alarak_Wave_Mote_MeatExplosionFlyingSplatter.label>티끌</PLAMiliraSariel_Alarak_Wave_Mote_MeatExplosionFlyingSplatter.label>
+  <PLAMiliraSariel_Alarak_Wave_Mote_MeatExplosionFlyingPiece.label>티끌</PLAMiliraSariel_Alarak_Wave_Mote_MeatExplosionFlyingPiece.label>
+  <PLAMiliraSariel_Mote_MotherSlash.label>티끌</PLAMiliraSariel_Mote_MotherSlash.label>
+  <PLAMiliraSariel_MotherSlash_Mote_Random.label>티끌</PLAMiliraSariel_MotherSlash_Mote_Random.label>
+  <PLAMiliraSariel_Mind_Blast_Mote_Random.label>티끌</PLAMiliraSariel_Mind_Blast_Mote_Random.label>
+  <MI_Mote_ThunderSpear_Charge.label>티끌</MI_Mote_ThunderSpear_Charge.label>
+  <MI_Building_FakeShroudWell.label>장막 우물</MI_Building_FakeShroudWell.label>
+  <MI_Building_FakeShroudWell.description>장막 우물의 모조품입니다. 안으로 들어갈 수 없습니다.</MI_Building_FakeShroudWell.description>
+</LanguageData>
