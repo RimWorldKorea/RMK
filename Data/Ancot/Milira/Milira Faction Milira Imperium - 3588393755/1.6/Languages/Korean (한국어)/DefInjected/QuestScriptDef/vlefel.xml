@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Milira_Hospitality_Visitors.questDescriptionRules.rulesStrings>
+    <li>lodgersDef(lodgersCount==1)-&gt;[lodgers0_nameDef]</li>
+    <li>lodgersDef(lodgersCount&gt;=2)-&gt;[lodgersLabelPlural]</li>
+    <li>joinerEnding(priority=1)-&gt;</li>
+    <li>joinerEnding-&gt;당신은 자신의 정착민을 지휘하는 것과 똑같은 방식으로 [lodgersDef]에게 명령을 내릴 수 있습니다.</li>
+    <li>specialNeedsExplanation(asker_royalInCurrentFaction==True,priority=1)-&gt;</li>
+    <li>specialNeedsExplanation-&gt;</li>
+    <li>theirHisHer(lodgersCount==1)-&gt;[lodgers0_possessive]</li>
+    <li>theirHisHer(lodgersCount&gt;=2)-&gt;그들의</li>
+    <li>lodgersPronoun(lodgersCount==1)-&gt;[lodgers0_pronoun]</li>
+    <li>lodgersPronoun(lodgersCount&gt;=2)-&gt;그들</li>
+    <li>lodgersWasWere(lodgersCount==1)-&gt;였던</li>
+    <li>lodgersWasWere(lodgersCount&gt;=2)-&gt;였던</li>
+    <li>appreciateAppreciates(lodgersCount==1)-&gt;중요하게 생각합니다</li>
+    <li>appreciateAppreciates(lodgersCount&gt;=2)-&gt;중요하게 생각합니다</li>
+    <li>goodwillForMood(goodwillRewardForMood==true,priority=1)-&gt;\n\n[lodgersLabelSingOrPluralDef] 측은 숙소의 질을 [appreciateAppreciates]. 이들의 평균 기분을 50% 이상으로 유지하면 [asker_faction_name] 세력과의 우호도를 얻을 수 있습니다.</li>
+    <li>goodwillForMood-&gt;</li>
+    <li>questDescription(askerIsNull==true,lodgersCount==1)-&gt;[lodgers0_nameFull](이)라는 이름의 [lodgers0_title]이 [shuttleDelayTicks_duration] 동안 [map_definite]에서 자신을 보호해주길 원합니다. [allLodgerInfo][threatsInfo1][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)-&gt;\n\n이 밀리라는 제국 내 경쟁 가문이 고용한 [enemyFaction_name]에게 추격당하고 있습니다. [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==false)-&gt;이 밀리라는 이 자치령을 방문하고 싶어 합니다.</li>
+    <li>questDescription(askerIsNull==true,lodgersCount&gt;=2)-&gt;여행자 [lodgersCount]명이 [shuttleDelayTicks_duration] 동안 [map_definite]에 머물기를 원합니다. [allLodgerInfo][threatsInfo2][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)-&gt;\n\n이 밀리라들은 가문 간의 전쟁에서 막 탈출했으며, [enemyFaction_name]으로 위장한 경쟁 가문의 병사들이 이들을 뒤쫓고 있습니다. [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==false)-&gt;이 밀리라들은 자치령의 통치 체제를 관찰하기 위해 평의회(Conclave)에서 파견한 사절단입니다.</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==false,priority=1)-&gt;[asker_faction_name]의 [asker_faction_leaderTitle]인 [asker_nameFull](이)가 연락을 보내왔습니다. [asker_possessive] 친구인 [lodgers0_nameFull]이 자치령의 타 문화에 대해 배우는 것에 관심을 보이고 있으며, [asker_nameDef]은(는) 당신이 [shuttleDelayTicks_duration] 동안 [lodgers0_objective] 환대해주길 바랍니다. [allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid,priority=1)-&gt;[asker_faction_name]의 [asker_faction_leaderTitle]인 [asker_nameFull](이)가 연락을 보내왔습니다. [asker_nameDef]은(는) 당신이 [shuttleDelayTicks_duration] 동안 [lodgers0_nameDef](을)를 보호해주길 요청했습니다. [lodgers0_nameDef]은(는) 현재 '무너진 제국' 정보부의 표적이 된 상태입니다. 제국은 [enemyFaction_name](을)를 고용하여 [lodgers0_nameFull](을)를 납치한 뒤, 그녀에게 성간 군함을 위한 FTL 도약을 강요하려 합니다. \n\n최근 몇 년 동안 제국 정보부는 함대의 영향력을 확대하고 속령들에 대한 통제를 강화하기 위해 밀리라 제국 시민들을 대상으로 이러한 납치 행위를 반복해 왔습니다. \n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount&gt;=2,generateThreats==false,priority=1)-&gt;[asker_faction_name]의 [asker_faction_leaderTitle]인 [asker_nameFull]은(는) 최근 무너진 제국의 민간인 거주 구역으로 위장된 감옥에서 [lodgersCount]명의 [asker_faction_pawnsPlural](을)를 구조했습니다. [asker_pronoun]은(는) [shuttleDelayTicks_duration] 후에 이들을 데려갈 셔틀을 보낼 때까지 [map_definite]에서 이들을 보호해주길 원합니다. [allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount&gt;=2,generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid,priority=1)-&gt;[asker_faction_name]의 [asker_faction_leaderTitle]인 [asker_nameFull]은(는) [lodgersCount]명의 [asker_faction_pawnsPlural](이)가 당신의 자치령으로 정치적 망명을 신청했다고 알려왔습니다. \n\n이들의 가문은 현재 경쟁 가문에게 쫓기고 있습니다. 만약 당신이 이들의 망명을 허용한다면, 경쟁 가문에 고용된 [enemyFaction_name] 세력이 당신의 영토를 공격하여 이들을 살해하려 할 것입니다. \n\n[asker_nameDef]은(는) 자신이 평의회에 이 무의미한 제국 내 교전을 강제로 중단시키라는 명령을 내릴 때까지, [shuttleDelayTicks_duration] 동안 [map_definite]에서 이들을 보호해주길 원합니다.\n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1)-&gt;[asker_faction_name]의 [asker_nameFull](이)가 연락을 보내왔습니다. 최근 무너진 제국과의 외교 회담에서 사절로 활동하던 중, [asker_nameFull]은(는) 제국의 한 귀족에게 교묘하게 모욕을 주었습니다. [asker_nameFull]은(는) 상대방이 격분했을 것이라 믿고 있으며, 상황이 잠잠해질 때까지 [shuttleDelayTicks_duration] 동안 몸을 피하고 싶어 합니다. \n\n[threatsInfo5][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)-&gt;\n\n그 제국 귀족은 [asker_objective] 사냥하기 위해 [enemyFaction_name](을)를 고용했습니다. [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==false)-&gt;</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount&gt;=2)-&gt;[asker_faction_name]의 [asker_nameFull](이)가 연락을 보내왔습니다. [asker_nameFull]와(과) 다른 [lodgersCountMinusOne]명의 [asker_faction_pawnsPlural]은(는) 방금 인근의 밀리라 제국 지상 정보 초소에서 대피했습니다. \n\n이들은 가치 있는 지상 전략 정보들을 기록했으며 현재 회수를 기다리는 중입니다. [shuttleDelayTicks_duration] 후에 이단심문소(Inquisition)에서 이들을 데려갈 군함을 파견할 것입니다. \n\n[threatsInfo6][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)-&gt;[asker_nameDef]의 말에 따르면 [enemyFaction_name] 세력이 이들을 쫓고 있다고 합니다. [enemyFaction_name]은(는) 가치 있는 정보를 탈취하여 무너진 제국에 비싼 값에 되팔 계획입니다. \n\n[enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==false)-&gt;</li>
+    <li>allyAllies(lodgersCountMinusOne==1)-&gt;동료</li>
+    <li>allyAllies(lodgersCountMinusOne&gt;=2)-&gt;동료들</li>
+  </Milira_Hospitality_Visitors.questDescriptionRules.rulesStrings>
+</LanguageData>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Milira_ImperiumHospitality.questDescriptionRules.rulesStrings>
+    <li>offer(lodgerCount==1)-&gt;제안합니다</li>
+    <li>offer(lodgerCount&gt;=2)-&gt;제안합니다</li>
+    <li>lodgersPronoun(lodgerCount==1)-&gt;[asker_pronoun]</li>
+    <li>lodgersPronoun(lodgerCount&gt;=2)-&gt;그들</li>
+    <li>lodgersPreposition(lodgerCount==1)-&gt;자신</li>
+    <li>lodgersPreposition(lodgerCount&gt;=2)-&gt;그들 자신</li>
+    <li>lodgersObjective(lodgerCount==1)-&gt;[asker_objective]</li>
+    <li>lodgersObjective(lodgerCount&gt;=2)-&gt;그들</li>
+    <li>lodgersPossessive(lodgerCount==1)-&gt;[asker_possessive]</li>
+    <li>lodgersPossessive(lodgerCount&gt;=2)-&gt;그들의</li>
+    <li>lodgersSingularOrPluralDef(lodgerCount==1)-&gt;[asker_nameDef]</li>
+    <li>lodgersSingularOrPluralDef(lodgerCount&gt;=2)-&gt;[lodgersLabelPlural]</li>
+    <li>questDescription-&gt;[approachInfo] [claimInfo] [asker_nameDef](은)는 휴식을 취하고 제국 지상령의 문화와 전투 기술을 배우기 위해 [questDurationTicks_duration] 동안 [map_definite]에 머물 수 있게 해달라고 요청했습니다.\n\n그 대가로, [lodgersPronoun](은)는 머무는 동안 무상으로 노동과 전투에 참여할 것을 [offer].\n\n[joinInfo] 또한 [lodgersObjective] 도와준 것에 대해 나중에 보답을 할 수도 있습니다.\n\n[travelerInfo] 밀리라 제국의 일원입니다.</li>
+    <li>approachInfo(lodgerCount==1)-&gt;기품 있는 [faction_pawnSingular] [asker_nameDef](이)가 다가오고 있습니다.</li>
+    <li>approachInfo(lodgerCount==2)-&gt;[asker_nameDef](와)과 또 다른 [faction_pawnSingular]이(가) 연락을 보내왔습니다.</li>
+    <li>approachInfo(lodgerCount==2,childCount==1,priority=1)-&gt;[asker_nameDef]이(가) 아이 한 명을 데리고 다가오고 있습니다.</li>
+    <li>approachInfo(lodgerCount&gt;=3)-&gt;[lodgerCount]명의 [faction_pawnsPlural]이(가) 연락을 보내왔습니다. 이들의 리더는 [asker_nameDef]입니다.</li>
+    <li>approachInfo(lodgerCount&gt;=3,childCount==1,priority=1)-&gt;아이 한 명을 포함한 [lodgerCount]명의 [faction_pawnsPlural]이(가) 연락을 보내왔습니다. 이들의 리더는 [asker_nameDef]입니다.</li>
+    <li>approachInfo(lodgerCount&gt;=3,childCount&gt;=2,priority=1)-&gt;아이 몇 명을 포함한 [lodgerCount]명의 [faction_pawnsPlural]이(가) 연락을 보내왔습니다. 이들의 리더는 [asker_nameDef]입니다.</li>
+    <li>approachInfo(lodgerCount&gt;=3,allButOneChildren==true,priority=2)-&gt;[asker_nameDef]과(와) 그가 보살피고 있는 [lodgersCountMinusOne]명의 아이들을 포함한 [lodgerCount]명의 [faction_pawnsPlural] 무리가 연락을 보내왔습니다.</li>
+    <li>claimInfo(lodgerCount==1)-&gt;[asker_nameDef](은)는 이 정착지를 조사하는 데 관심이 있다고 주장합니다.</li>
+    <li>claimInfo(lodgerCount==1)-&gt;[asker_nameDef](은)는 이 정착지를 방문하고 싶어 합니다.</li>
+    <li>claimInfo(lodgerCount==1)-&gt;[asker_nameDef](은)는 이 지역에서 길을 잃었다고 주장합니다.</li>
+    <li>claimInfo(lodgerCount&gt;=2)-&gt;그들은 이 정착지를 방문하고 싶어 합니다.</li>
+    <li>claimInfo(lodgerCount&gt;=2)-&gt;그들은 이 정착지를 조사하는 데 관심이 있다고 주장합니다.</li>
+    <li>claimInfo(lodgerCount&gt;=2)-&gt;그들은 이 지역에서 길을 잃었다고 주장합니다.</li>
+    <li>claimInfo(lodgerCount&gt;=2)-&gt;그들은 이 정착지를 방문하고 싶어 합니다.</li>
+    <li>claimInfo(lodgerCount&gt;=2)-&gt;그들은 이 정착지를 조사하는 데 관심이 있다고 주장합니다.</li>
+    <li>claimInfo(lodgerCount&gt;=2)-&gt;그들은 지상 조사 임무가 끝났지만, 당분간 당신의 정착지에서 지내고 싶어 합니다.</li>
+    <li>joinInfo(lodgerCount==1)-&gt;[asker_pronoun](은)는 정착지에 합류하겠다고 제안할 수도 있습니다.</li>
+    <li>joinInfo(lodgerCount&gt;=2)-&gt;그들 중 일부는 정착지에 합류하겠다고 제안할 수도 있습니다.</li>
+    <li>travelerInfo(lodgerCount==1)-&gt;이 [faction_pawnSingular](은)는</li>
+    <li>travelerInfo(lodgerCount&gt;=2)-&gt;이 [faction_pawnsPlural](은)는</li>
+  </Milira_ImperiumHospitality.questDescriptionRules.rulesStrings>
+</LanguageData>
