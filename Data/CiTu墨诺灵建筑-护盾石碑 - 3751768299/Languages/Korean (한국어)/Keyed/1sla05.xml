@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CiTu.ShieldPowerState.Full>가득 참</CiTu.ShieldPowerState.Full>
+  <CiTu.ShieldPowerState.Powered>가동 중</CiTu.ShieldPowerState.Powered>
+  <CiTu.ShieldPowerState.Unpowered>가동 중지됨</CiTu.ShieldPowerState.Unpowered>
+  <CiTu.ShieldNode.Label.LightStatus>빛의 상태</CiTu.ShieldNode.Label.LightStatus>
+  <CiTu.ShieldNode.Label.ShieldEnergy>보호막 에너지</CiTu.ShieldNode.Label.ShieldEnergy>
+  <CiTu.ShieldNode.Label.RecoverySpeed>회복 속도</CiTu.ShieldNode.Label.RecoverySpeed>
+  <CiTu.ShieldNode.Recovery.Stalled>정지됨</CiTu.ShieldNode.Recovery.Stalled>
+  <CiTu.ShieldNode.Recovery.PerSecond>/초</CiTu.ShieldNode.Recovery.PerSecond>
+  <CiTu_ShieldNodeBuilder.NeedLight>보호막 노드를 건설하려면 {0}의 빛이 필요합니다. (현재: {1:F0})</CiTu_ShieldNodeBuilder.NeedLight>
+  <CiTu.RepairBuilding.Info>건물 수리: +{0} HP/수리 ({1} HP/초)</CiTu.RepairBuilding.Info>
+  <CiTu.RepairBuilding.Disabled>비활성화됨</CiTu.RepairBuilding.Disabled>
+  <CiTu.RepairMechanoid.Info>메카노이드 수리: +{0} HP/수리 ({1} HP/초)</CiTu.RepairMechanoid.Info>
+  <CiTu.RepairMechanoid.Disabled>비활성화됨</CiTu.RepairMechanoid.Disabled>
+  <CiTu.RepairMonolith.Info>하이브리드 수리: +{0} HP/수리 ({1} HP/초)</CiTu.RepairMonolith.Info>
+  <CiTu.Supporter.Info>빛 충전: 대상당 {0}, 최대 {1}명</CiTu.Supporter.Info>
+  <CiTu.Supporter.Disabled>비활성화됨</CiTu.Supporter.Disabled>
+  <CiTu.RepairBuilding.LightStock>건물 수리 재고: {0:F0}/{1:F0}</CiTu.RepairBuilding.LightStock>
+  <CiTu.RepairMechanoid.LightStock>메카노이드 수리 재고: {0:F0}/{1:F0}</CiTu.RepairMechanoid.LightStock>
+  <CiTu.RepairMonolith.LightStock>빛 재고: {0:F0}/{1:F0}</CiTu.RepairMonolith.LightStock>
+  <CiTu.Stat_LightCostToBuild_Name>건설에 필요한 빛 재고</CiTu.Stat_LightCostToBuild_Name>
+  <CiTu.Stat_LightCostToBuild_Desc>이 건물을 건설하는 데 필요한 빛 에너지의 양입니다.</CiTu.Stat_LightCostToBuild_Desc>
+  <CiTu.FaceTheLight.label>빛을 마주하라</CiTu.FaceTheLight.label>
+  <CiTu_ShieldNode.label>보호막 기둥</CiTu_ShieldNode.label>
+  <CiTu_ShieldNode.description>빛나는 광채에 휩싸인 고대 기둥으로, 빛을 엮어 날아오는 투사체를 차단하는 방어막을 형성할 수 있습니다.\n\n모노린의 기록에 따르면, 이 기둥들은 원래 성역을 수호하기 위해 만들어졌습니다. 보호막의 강도는 내부에 저장된 빛의 양에 따라 변동됩니다. 완전히 충전되었을 때는 방어막이 흔들림 없이 유지되지만, 에너지가 고갈되면 방어 체계가 완전히 붕괴합니다.\n\n기둥의 안쪽 표면에는 희미한 암호화된 문양들이 새겨져 있으며, 그 아래에는 아직 발견되지 않은 잠재된 기능들이 숨겨져 있는 듯합니다. 비록 오늘날까지 그 비밀을 풀어낸 이는 아무도 없지만 말입니다.\n\n방어적인 역할 외에도, 이 기둥은 매우 견고하여 지붕을 받치는 하중 지지 기둥 역할을 할 수도 있습니다. 요새화와 기반 시설의 가교 역할을 하는 다재다능한 구조물입니다.</CiTu_ShieldNode.description>
+  <CiTu_ShieldNodeBuilder.label>보호막 기둥</CiTu_ShieldNodeBuilder.label>
+  <CiTu_ShieldNodeBuilder.description>빛의 에너지를 이용해 보호막을 생성하는 방어용 기둥입니다. 또한 지붕을 받치는 구조적 하중을 견딜 수도 있습니다.</CiTu_ShieldNodeBuilder.description>
+  <CiTu.ShieldNode.Settings.Category>CiTu - 보호막 기둥</CiTu.ShieldNode.Settings.Category>
+  <CiTu.ShieldNode.Settings.Title>보호막 기둥 설정</CiTu.ShieldNode.Settings.Title>
+  <CiTu.ShieldNode.Settings.SubTitle>모든 설정은 즉시 적용됩니다</CiTu.ShieldNode.Settings.SubTitle>
+  <CiTu.ShieldNode.Settings.Module.Shield>보호막 최대 체력</CiTu.ShieldNode.Settings.Module.Shield>
+  <CiTu.ShieldNode.Settings.Module.Repair>수리 설정</CiTu.ShieldNode.Settings.Module.Repair>
+  <CiTu.ShieldNode.Settings.Module.Supporter>등불 재충전</CiTu.ShieldNode.Settings.Module.Supporter>
+  <CiTu.ShieldNode.Settings.Shield.MaxHP>보호막 최대 체력</CiTu.ShieldNode.Settings.Shield.MaxHP>
+  <CiTu.ShieldNode.Settings.Shield.RechargeRate>재충전율</CiTu.ShieldNode.Settings.Shield.RechargeRate>
+  <CiTu.ShieldNode.Settings.Shield.BreakCost>파괴 비용</CiTu.ShieldNode.Settings.Shield.BreakCost>
+  <CiTu.ShieldNode.Settings.Shield.RecoverOnBreak>파괴 시 회복</CiTu.ShieldNode.Settings.Shield.RecoverOnBreak>
+  <CiTu.ShieldNode.Settings.Shield.RecoverDesc>빛 500 소비 → HP 50% 회복</CiTu.ShieldNode.Settings.Shield.RecoverDesc>
+  <CiTu.ShieldNode.Settings.Repair.Building>건물 수리 (HP/수리)</CiTu.ShieldNode.Settings.Repair.Building>
+  <CiTu.ShieldNode.Settings.Repair.Mechanoid>메카노이드 수리 (HP/수리)</CiTu.ShieldNode.Settings.Repair.Mechanoid>
+  <CiTu.ShieldNode.Settings.Supporter.Enable>등불 재충전</CiTu.ShieldNode.Settings.Supporter.Enable>
+  <CiTu.ShieldNode.Settings.Supporter.TransferAmount>이전량</CiTu.ShieldNode.Settings.Supporter.TransferAmount>
+  <CiTu.ShieldNode.Settings.Supporter.MaxTargets>최대 대상 수</CiTu.ShieldNode.Settings.Supporter.MaxTargets>
+  <CiTu.ShieldNode.Settings.Unit.HPPerSecond>초당 HP 회복</CiTu.ShieldNode.Settings.Unit.HPPerSecond>
+  <CiTu.ShieldNode.Settings.Unit.Light>빛</CiTu.ShieldNode.Settings.Unit.Light>
+  <CiTu.ShieldNode.Settings.Unit.HP>HP</CiTu.ShieldNode.Settings.Unit.HP>
+  <CiTu.ShieldNode.Settings.Unit.Person>사람들</CiTu.ShieldNode.Settings.Unit.Person>
+  <CiTu.ShieldNode.Settings.Toggle.On>켜짐</CiTu.ShieldNode.Settings.Toggle.On>
+  <CiTu.ShieldNode.Settings.Toggle.Off>꺼짐</CiTu.ShieldNode.Settings.Toggle.Off>
+  <CiTu.ShieldNode.Settings.Note.Consumption>참고: 건축물 = 1:1 | 메카노이드 = 1:1.5 | 등불 = 1:2</CiTu.ShieldNode.Settings.Note.Consumption>
+  <CiTu.ShieldNode.Settings.Note.PerRepair>※ 수리 수치는 1회 수리당 수치이며, 실제 초당 HP는 건축물 정보 패널에서 확인할 수 있습니다</CiTu.ShieldNode.Settings.Note.PerRepair>
+  <CiTu.ShieldNode.Settings.Tooltip.ShieldMaxHP>보호막의 최대 내구도를 설정합니다. 보호막은 투사체를 차단하며 보호막 내구도를 소모합니다.</CiTu.ShieldNode.Settings.Tooltip.ShieldMaxHP>
+  <CiTu.ShieldNode.Settings.Tooltip.ShieldRechargeRate>초당 회복되는 보호막 내구도입니다. 충분한 빛 에너지가 필요합니다.</CiTu.ShieldNode.Settings.Tooltip.ShieldRechargeRate>
+  <CiTu.ShieldNode.Settings.Tooltip.ShieldBreakCost>보호막이 고갈되었을 때 소모되는 빛 에너지입니다. 비용을 발생시키지 않으려면 0으로 설정하세요.</CiTu.ShieldNode.Settings.Tooltip.ShieldBreakCost>
+  <CiTu.ShieldNode.Settings.Tooltip.ShieldRecoverOnBreak>활성화 시, 보호막이 파괴될 때 즉시 500의 빛을 소모하여 내구도의 50%를 회복합니다.</CiTu.ShieldNode.Settings.Tooltip.ShieldRecoverOnBreak>
+  <CiTu.ShieldNode.Settings.Tooltip.BuildingRepair>범위 내의 손상된 건물을 자동으로 수리합니다. 수리량만큼의 빛을 소모합니다.</CiTu.ShieldNode.Settings.Tooltip.BuildingRepair>
+  <CiTu.ShieldNode.Settings.Tooltip.MechanoidRepair>범위 내의 손상된 메카노이드를 자동으로 치유합니다. 회복된 내구도당 1.5배의 빛을 소모합니다.</CiTu.ShieldNode.Settings.Tooltip.MechanoidRepair>
+  <CiTu.ShieldNode.Settings.Tooltip.Supporter>범위 내의 등불을 소지한 정착민에게 빛 에너지를 제공합니다.</CiTu.ShieldNode.Settings.Tooltip.Supporter>
+  <CiTu.ShieldNode.Settings.Tooltip.TransferAmount>주기당 등불로 전송되는 빛 에너지의 양입니다.</CiTu.ShieldNode.Settings.Tooltip.TransferAmount>
+  <CiTu.ShieldNode.Settings.Tooltip.MaxTargets>동시에 충전할 수 있는 정착민의 최대 수입니다.</CiTu.ShieldNode.Settings.Tooltip.MaxTargets>
+  <CiTu.ShieldNode.Settings.Reset.Button>기본값으로 재설정</CiTu.ShieldNode.Settings.Reset.Button>
+  <CiTu.ShieldNode.Settings.Reset.Confirm>모든 설정을 기본값으로 재설정하시겠습니까?</CiTu.ShieldNode.Settings.Reset.Confirm>
+  <CiTu.ShieldNode.Settings.Reset.ConfirmButton>재설정 확인</CiTu.ShieldNode.Settings.Reset.ConfirmButton>
+  <CiTu.ShieldNode.Settings.Reset.Cancel>취소</CiTu.ShieldNode.Settings.Reset.Cancel>
+  <CiTu.ShieldNode.Settings.Reset.Log>[ShieldNode] 설정이 기본값으로 재설정되었습니다</CiTu.ShieldNode.Settings.Reset.Log>
+</LanguageData>
