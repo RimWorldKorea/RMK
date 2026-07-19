@@ -1,0 +1,1054 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Animals</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/TerrainDef[defName="TMM_AA_SkySteelTile"]/label</xpath>
+          <value>
+            <label>스카이 스틸 타일</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/TerrainDef[defName="TMM_AA_SkySteelTile"]/description</xpath>
+          <value>
+            <description>미래적이면서도 왕실풍의 분위기를 내고 싶다면 은빛 타일이 호화로운 방에 완벽하게 어울립니다. 청소가 빠르며 청결도 보너스를 받습니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Animals</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Furniture Expanded - Architect</li>
+      </mods>
+      <match Class="PatchOperationFindMod">
+        <mods>
+          <li>Royalty</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/TerrainDef[defName="TMM_VFEArch_FineSkySteelTile"]/label</xpath>
+              <value>
+                <label>고급 스카이 스틸 타일</label>
+              </value>
+            </li>
+          </operations>
+        </match>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Animals</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>ReBuild: Doors and Corners</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_RB_SkySteelGrateTile"]/label</xpath>
+            <value>
+              <label>스카이 스틸 격자 타일</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_RB_SkySteelGrateTile"]/description</xpath>
+            <value>
+              <description>우주선 작업장 같은 분위기를 내는 스카이 스틸 격자 타일입니다. 청소가 매우 빠르며 의료 환경에서 사용할 때 청결도 보너스를 받습니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_RB_SkySteelStuddedTile"]/label</xpath>
+            <value>
+              <label>스카이 스틸 징 장식 타일</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_RB_SkySteelStuddedTile"]/description</xpath>
+            <value>
+              <description>우주선 같은 분위기를 내는 스카이 스틸 징 장식 타일입니다. 청소가 빠르며 의료 환경에서 사용할 때 청결도 보너스를 받습니다.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Crafts</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Cooking Expanded</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="TMM_ConsumedInfusedMayo"]/stages/li[1]/label</xpath>
+            <value>
+              <label>주입된 마요네즈 섭취</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="TMM_ConsumedInfusedMayo"]/stages/li[1]/description</xpath>
+            <value>
+              <description>맛있는 주입된 마요네즈를 먹었어. 정말 든든해!</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Crafts</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Cooking Expanded</li>
+      </mods>
+      <match Class="PatchOperationFindMod">
+        <mods>
+          <li>Vanilla Plants Expanded - More Plants</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/ThoughtDef[defName="TMM_ConsumedBlackMayo"]/stages/li[1]/label</xpath>
+              <value>
+                <label>검은 마요네즈 섭취</label>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/ThoughtDef[defName="TMM_ConsumedBlackMayo"]/stages/li[1]/description</xpath>
+              <value>
+                <description>맛있는 검은 마요네즈를 먹었어. 꽤 든든해!</description>
+              </value>
+            </li>
+          </operations>
+        </match>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Genes</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Integrated Implants</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="TMM_AG_IncreasedCommandRange"]/label</xpath>
+            <value>
+              <label>명령 범위 증가</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="TMM_AG_IncreasedCommandRange"]/description</xpath>
+            <value>
+              <description>이 사람은 소집된 메카노이드를 더 멀리서도 조종할 수 있습니다.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Gulden Biome (Continued)</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Alpha Memes</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_AM_JewishTileAurelianStone"]/label</xpath>
+            <value>
+              <label>유대교식 아우렐리안 석재 타일</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_AM_JewishFineTileAurelianStone"]/label</xpath>
+            <value>
+              <label>유대교식 고급 아우렐리안 석재 타일</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_AM_KemeticTileAurelianStone"]/label</xpath>
+            <value>
+              <label>케메트식 아우렐리안 석재 타일</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_AM_KemeticFineTileAurelianStone"]/label</xpath>
+            <value>
+              <label>케메트식 고급 아우렐리안 석재 타일</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_AM_SteampunkTileAurelianStone"]/label</xpath>
+            <value>
+              <label>스팀펑크식 아우렐리안 석재 타일</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_AM_Tile_OcularAurelianStone"]/label</xpath>
+            <value>
+              <label>안구식 아우렐리안 석재 바닥</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Odyssey</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Alpha Memes</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_AM_JewishTileVacstone"]/label</xpath>
+            <value>
+              <label>유대교식 진공석 타일</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_AM_JewishFineTileVacstone"]/label</xpath>
+            <value>
+              <label>유대교식 고급 진공석 타일</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_AM_KemeticTileVacstone"]/label</xpath>
+            <value>
+              <label>케메트식 진공석 타일</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_AM_KemeticFineTileVacstone"]/label</xpath>
+            <value>
+              <label>케메트식 고급 진공석 타일</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_AM_SteampunkTileVacstone"]/label</xpath>
+            <value>
+              <label>스팀펑크식 진공석 타일</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_AM_Tile_OcularVacstone"]/label</xpath>
+            <value>
+              <label>안구식 진공석 바닥</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech Expansion - Mythic</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>ATH's style Draconic</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/CultureDef[defName="TMM_Draconic"]/label</xpath>
+            <value>
+              <label>드래곤풍</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/CultureDef[defName="TMM_Draconic"]/description</xpath>
+            <value>
+              <description>신화적인 이종인간들이 이끄는 림월드 부족들 사이의 드래곤풍 문화입니다.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Stoneborn - Dwarven Style Pack</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Det's Xenotypes - Stoneborn</li>
+        <li>Big and Small - Races ))</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/CultureDef[defName="TMM_Dwarven"]/label</xpath>
+            <value>
+              <label>드워프풍</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/CultureDef[defName="TMM_Dwarven"]/description</xpath>
+            <value>
+              <description>체구가 작은 사람들 사이에서 흔히 볼 수 있는 강인한 드워프 문화입니다.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ushankas Glittertech Expansion</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Big and Small - Simply Robots</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="TMM_BS_DisassembleRobot"]/label</xpath>
+            <value>
+              <label>로봇 분해</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="TMM_BS_DisassembleRobot"]/description</xpath>
+            <value>
+              <description>죽은 로봇을 분해하여 귀중한 자원을 추출합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="TMM_BS_DisassembleRobot"]/jobString</xpath>
+            <value>
+              <jobString>로봇 분해 중.</jobString>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Integrated Implants</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThoughtDef[defName="TMM_ActiveVoicelock_Masochist"]/stages/li[1]/label</xpath>
+          <value>
+            <label>음성 소거장치가 활성화됨 (피학적)</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThoughtDef[defName="TMM_ActiveVoicelock_Masochist"]/stages/li[1]/description</xpath>
+          <value>
+            <description>임플란트가 내 목소리를 막고 있어. 정말 기분 좋아!</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Rim-Gnoblins</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="TMM_RG_DregCoffinMeat"]/label</xpath>
+          <value>
+            <label>고기를 드레그로 발효</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="TMM_RG_DregCoffinMeat"]/description</xpath>
+          <value>
+            <description>고기 50개를 드레그 10개로 발효합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="TMM_RG_DregCoffinMeat"]/labelOverride</xpath>
+          <value>
+            <labelOverride>고기 50개를 드레그 10개로 발효</labelOverride>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>T's Samurai Faction</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Geist Xenotype</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/FactionDef[defName="TSF_SamuraiBase"]/label</xpath>
+            <value>
+              <label>명예를 저버린 막부</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/FactionDef[defName="TSF_SamuraiBase"]/description</xpath>
+            <value>
+              <description>비열한 사무라이 집단입니다. 이들의 쇼군과 일족은 수년 동안 이 땅을 유린해 왔습니다. 잔혹하고 지나치게 전통에 얽매인 이들은 더 많은 영토를 차지하고 약자에게서 빼앗는 것만을 추구합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/FactionDef[defName="TSF_SamuraiBase"]/pawnSingular</xpath>
+            <value>
+              <pawnSingular>구성원</pawnSingular>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/FactionDef[defName="TSF_SamuraiBase"]/pawnsPlural</xpath>
+            <value>
+              <pawnsPlural>구성원들</pawnsPlural>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/FactionDef[defName="TSF_SamuraiBase"]/leaderTitle</xpath>
+            <value>
+              <leaderTitle>지도자</leaderTitle>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Brewing Expanded</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Alpha Memes</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="TMM_VBE_FineRumAsIngredient"]/label</xpath>
+            <value>
+              <label>고급 럼 기반 칵테일을 마심</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="TMM_VBE_FineRumAsIngredient"]/description</xpath>
+            <value>
+              <description>이 정착민은 고급 럼이 재료로 들어간 칵테일을 마셨습니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="TMM_VBE_FineRumAsIngredient"]/stages/li[1]/label</xpath>
+            <value>
+              <label>고급 럼 기반 칵테일을 마심</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="TMM_VBE_FineRumAsIngredient"]/stages/li[1]/description</xpath>
+            <value>
+              <description>칵테일이 너무 맛있어서 쓰러진 동료들을 따뜻하게 추억할 수 있게 해 주었어.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="TMM_VBE_SuspiciousRumAsIngredient"]/label</xpath>
+            <value>
+              <label>수상한 럼 기반 칵테일을 마심</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="TMM_VBE_SuspiciousRumAsIngredient"]/description</xpath>
+            <value>
+              <description>이 정착민은 수상한 럼이 재료로 들어간 칵테일을 마셨습니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="TMM_VBE_SuspiciousRumAsIngredient"]/stages/li[1]/label</xpath>
+            <value>
+              <label>수상한 럼 기반 칵테일을 마심</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="TMM_VBE_SuspiciousRumAsIngredient"]/stages/li[1]/description</xpath>
+            <value>
+              <description>맛있어.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Brewing Expanded</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Det's Xenotypes - Keshig</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="TMM_VBE_GorewineAsIngredient"]/label</xpath>
+            <value>
+              <label>고어와인 기반 칵테일을 마심</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="TMM_VBE_GorewineAsIngredient"]/description</xpath>
+            <value>
+              <description>이 정착민은 고어와인이 재료로 들어간 칵테일을 마셨습니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="TMM_VBE_GorewineAsIngredient"]/stages/li[1]/label</xpath>
+            <value>
+              <label>고어와인 기반 칵테일을 마심</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="TMM_VBE_GorewineAsIngredient"]/stages/li[1]/description</xpath>
+            <value>
+              <description>맛있어.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Brewing Expanded</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Rimsenal Xenotype Pack - Harana</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="TMM_VBE_NeutroshineAsIngredient"]/label</xpath>
+            <value>
+              <label>뉴트로샤인 기반 칵테일을 마심</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="TMM_VBE_NeutroshineAsIngredient"]/description</xpath>
+            <value>
+              <description>이 정착민은 뉴트로샤인이 재료로 들어간 칵테일을 마셨습니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="TMM_VBE_NeutroshineAsIngredient"]/stages/li[1]/label</xpath>
+            <value>
+              <label>뉴트로샤인 기반 칵테일을 마심</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="TMM_VBE_NeutroshineAsIngredient"]/stages/li[1]/description</xpath>
+            <value>
+              <description>맛있는... 건가?</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Classical</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Furniture Expanded - Architect</li>
+      </mods>
+      <match Class="PatchOperationFindMod">
+        <mods>
+          <li>Royalty</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/TerrainDef[defName="TMM_VFEArch_FineBronzeTile"]/label</xpath>
+              <value>
+                <label>고급 청동 타일</label>
+              </value>
+            </li>
+          </operations>
+        </match>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Classical</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>ReBuild: Doors and Corners</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_RB_BronzeGrateTile"]/label</xpath>
+            <value>
+              <label>청동 격자 타일</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_RB_BronzeGrateTile"]/description</xpath>
+            <value>
+              <description>우주선 작업장 같은 분위기를 내는 청동 격자 타일입니다. 청소가 매우 빠르며 의료 환경에서 사용할 때 청결도 보너스를 받습니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_RB_BronzeStuddedTile"]/label</xpath>
+            <value>
+              <label>청동 징 장식 타일</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_RB_BronzeStuddedTile"]/description</xpath>
+            <value>
+              <description>우주선 같은 분위기를 내는 청동 징 장식 타일입니다. 청소가 빠르며 의료 환경에서 사용할 때 청결도 보너스를 받습니다.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Gulden Biome (Continued)</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Factions Expanded - Classical</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_VFEC_MosaicsAurelianStone"]/label</xpath>
+            <value>
+              <label>아우렐리안 석재 모자이크</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Odyssey</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Factions Expanded - Classical</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_VFEC_MosaicsVacstone"]/label</xpath>
+            <value>
+              <label>진공석 모자이크</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Memes</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Factions Expanded - Classical</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_VFEC_MosaicsPristineLimestone"]/label</xpath>
+            <value>
+              <label>청정 석회암 모자이크</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Biomes</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Factions Expanded - Classical</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_VFEC_MosaicsRoseQuartz"]/label</xpath>
+            <value>
+              <label>장미 수정 모자이크</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_VFEC_MosaicsCragstone"]/label</xpath>
+            <value>
+              <label>크래그스톤 모자이크</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_VFEC_MosaicsOnyxglass"]/label</xpath>
+            <value>
+              <label>오닉스 유리 모자이크</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_VFEC_MosaicsMudstone"]/label</xpath>
+            <value>
+              <label>이암 모자이크</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Biomes</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Furniture Expanded - Architect</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_VFEArch_PolishedStoneFloorRoseQuartz"]/label</xpath>
+            <value>
+              <label>장미 수정 연마 석재 바닥</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_VFEArch_CobblestoneFloorRoseQuartz"]/label</xpath>
+            <value>
+              <label>장미 수정 조약돌 바닥</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_VFEArch_PolishedStoneFloorCragstone"]/label</xpath>
+            <value>
+              <label>크래그스톤 연마 석재 바닥</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_VFEArch_CobblestoneFloorCragstone"]/label</xpath>
+            <value>
+              <label>크래그스톤 조약돌 바닥</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_VFEArch_PolishedStoneFloorOnyxglass"]/label</xpath>
+            <value>
+              <label>오닉스 유리 연마 석재 바닥</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_VFEArch_CobblestoneFloorOnyxglass"]/label</xpath>
+            <value>
+              <label>오닉스 유리 조약돌 바닥</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_VFEArch_PolishedStoneFloorMudstone"]/label</xpath>
+            <value>
+              <label>이암 연마 석재 바닥</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_VFEArch_CobblestoneFloorMudstone"]/label</xpath>
+            <value>
+              <label>이암 조약돌 바닥</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Odyssey</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Furniture Expanded - Architect</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_VFEArch_PolishedStoneFloorVacstone"]/label</xpath>
+            <value>
+              <label>진공석 연마 석재 바닥</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_VFEArch_CobblestoneFloorVacstone"]/label</xpath>
+            <value>
+              <label>진공석 조약돌 바닥</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Memes</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Furniture Expanded - Architect</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_VFEArch_PolishedStoneFloorPristineLimestone"]/label</xpath>
+            <value>
+              <label>청정 석회암 연마 석재 바닥</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/TerrainDef[defName="TMM_VFEArch_CobblestoneFloorPristineLimestone"]/label</xpath>
+            <value>
+              <label>청정 석회암 조약돌 바닥</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Base Generation Expanded</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Optimization: Meats - C# Edition</li>
+        <li>Optimization: Leathers - C# Edition ))</li>
+      </mods>
+      <nomatch Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="TMM_RandomGoodMeat"]/label</xpath>
+            <value>
+              <label>무작위 좋은 고기</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="TMM_RandomGoodMeat"]/description</xpath>
+            <value>
+              <description>무작위 고기를 생성합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="TMM_RandomLightLeatherMeat"]/label</xpath>
+            <value>
+              <label>무작위 고기 (가벼운 가죽)</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="TMM_RandomLightLeatherMeat"]/description</xpath>
+            <value>
+              <description>무작위 고기를 생성합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="TMM_RandomPlainLeatherMeat"]/label</xpath>
+            <value>
+              <label>무작위 고기 (평범한 가죽)</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="TMM_RandomPlainLeatherMeat"]/description</xpath>
+            <value>
+              <description>무작위 고기를 생성합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="TMM_RandomPantheraMeat"]/label</xpath>
+            <value>
+              <label>무작위 고기 (고양이과 모피)</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="TMM_RandomPantheraMeat"]/description</xpath>
+            <value>
+              <description>무작위 고기를 생성합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="TMM_RandomLeather"]/label</xpath>
+            <value>
+              <label>무작위 가죽</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="TMM_RandomLeather"]/description</xpath>
+            <value>
+              <description>무작위 가죽을 생성합니다.</description>
+            </value>
+          </li>
+        </operations>
+      </nomatch>
+    </match>
+  </Operation>
+</Patch>

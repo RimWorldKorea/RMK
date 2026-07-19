@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <BasicSettings>기본 설정</BasicSettings>
+  <AdvancedSettings>고급 설정</AdvancedSettings>
+  <DebugLog>디버그 메시지 기록</DebugLog>
+  <DebugLogTooltips>디버그 로그를 활성화합니다. 로그가 매우 많이 출력되므로 일반적인 게임 플레이에서는 사용하지 마십시오.</DebugLogTooltips>
+  <LongDistanceThreshold>"장거리" 기준 거리</LongDistanceThreshold>
+  <LongDistanceThresholdTooltips>바닐라 작업까지의 거리가 이 값보다 짧으면 다른 작업으로 대체하지 않습니다.
+
+바닐라 작업이 이 거리보다 멀리 있을 때만 주변 작업 검색이 활성화됩니다.</LongDistanceThresholdTooltips>
+  <MaxSearchRadius>주변 작업 검색 최대 반경</MaxSearchRadius>
+  <MaxSearchRadiusTooltips>주변 작업을 검색할 최대 반경입니다.
+
+주변 작업 검색은 이 반경을 벗어나지 않습니다.</MaxSearchRadiusTooltips>
+  <PriorityBoost>바닐라 작업과 주변 작업 사이의 최대 우선순위 차이</PriorityBoost>
+  <PriorityBoostTooltips>주변 작업의 우선순위를 높여서 평가합니다.
+
+주변 작업과 바닐라 작업의 우선순위 차이가 이 값보다 크면 해당 주변 작업을 고려하지 않습니다.</PriorityBoostTooltips>
+  <VanillaChancePercentage>주변 검색을 무작위로 무시하고 바닐라 작업을 유지할 확률</VanillaChancePercentage>
+  <VanillaChancePercentageTooltips>주변 작업 검색을 건너뛰고 바닐라 방식대로 행동할 확률입니다.
+
+이 값이 100%이면 주변 작업 검색을 전혀 하지 않고 항상 바닐라 방식을 사용합니다.
+
+이 값이 0%이면 바닐라에서 장거리 작업을 지정했을 때 항상 주변 작업을 검색합니다.
+
+정착민이 한 지역에 너무 오래 머무르지 않도록 낮은 확률로 설정하십시오.</VanillaChancePercentageTooltips>
+  <ClickPlusToEdit>편집하려면 "+"를 클릭</ClickPlusToEdit>
+  <ExcludedLongDistanceWorkTypes>장거리에서는 다음 작업 유형을 대체하지 않음</ExcludedLongDistanceWorkTypes>
+  <ExcludedLongDistanceWorkTypesTooltips>활성화하면 선택한 유형의 장거리 작업을 주변 작업으로 대체하지 않습니다.
+
+참고: 일부 작업 유형은 이 목록에 표시되어 있고 선택되지 않았더라도 원래부터 영향을 받지 않습니다.</ExcludedLongDistanceWorkTypesTooltips>
+  <ExcludedNearbyWorkTypes>주변에서는 다음 작업 유형을 우선하지 않음</ExcludedNearbyWorkTypes>
+  <ExcludedNearbyWorkTypesTooltips>활성화하면 선택한 유형의 주변 작업을 장거리 작업보다 우선하지 않습니다.
+
+참고: 일부 작업 유형은 이 목록에 표시되어 있고 선택되지 않았더라도 원래부터 영향을 받지 않습니다.</ExcludedNearbyWorkTypesTooltips>
+</LanguageData>
