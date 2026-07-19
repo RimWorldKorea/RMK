@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AllAnimalsNuzzle_UI_Title>모든 동물 애교 설정</AllAnimalsNuzzle_UI_Title>
+  <AllAnimalsNuzzle_UI_Subtitle>애교를 부릴 수 있는 동물에게 '위로' 훈련을 자동으로 추가하여 더 자주 애교를 부리고 정착지 분위기를 북돋습니다.</AllAnimalsNuzzle_UI_Subtitle>
+  <AllAnimalsNuzzle_UI_Subtitle_Comfort>대상 동물에게 '위로' 훈련을 자동으로 추가합니다(오디세이 DLC 필요). 동물이 다정한 행동을 배울 수 있도록 설정합니다.</AllAnimalsNuzzle_UI_Subtitle_Comfort>
+  <AllAnimalsNuzzle_UI_Subtitle_Nuzzled>바닐라 '애교 받음' 생각의 지속 시간, 중첩, 단계별 기분 보너스를 조정합니다.</AllAnimalsNuzzle_UI_Subtitle_Nuzzled>
+  <AllAnimalsNuzzle_UI_Tab_Comfort>위로</AllAnimalsNuzzle_UI_Tab_Comfort>
+  <AllAnimalsNuzzle_UI_Tab_Nuzzled>애교 받음</AllAnimalsNuzzle_UI_Tab_Nuzzled>
+  <AllAnimalsNuzzle_UI_OdysseyMissing>오디세이 DLC를 찾지 못했습니다 | '위로' 옵션을 사용하려면 오디세이 DLC가 필요합니다.</AllAnimalsNuzzle_UI_OdysseyMissing>
+  <AllAnimalsNuzzle_UI_ComfortMissing>현재 Def에 '위로' 훈련이 존재하지 않아 이 옵션을 사용할 수 없습니다.</AllAnimalsNuzzle_UI_ComfortMissing>
+  <AllAnimalsNuzzle_UI_Enable_Label>애교를 부리는 동물에게 '위로' 자동 추가</AllAnimalsNuzzle_UI_Enable_Label>
+  <AllAnimalsNuzzle_UI_Enable_Tooltip_Long>활성화하면 이 모드는 애교를 부릴 수 있는 동물에게 '위로' 훈련 항목을 추가합니다.
+
+작동 방식:
+- 이미 '위로'가 있는 동물은 변경하지 않습니다.
+- 중복 추가를 방지합니다.
+- 동물에게 &lt;specialTrainables/&gt;가 없으면 새로 생성한 뒤 '위로'를 추가합니다.
+
+비활성화하면 이 모드가 추가한 항목만 제거하고, 가능한 경우 원래 상태로 복원합니다.</AllAnimalsNuzzle_UI_Enable_Tooltip_Long>
+  <AllAnimalsNuzzle_UI_EnableLogging_Label>화면에 작업 메시지 표시</AllAnimalsNuzzle_UI_EnableLogging_Label>
+  <AllAnimalsNuzzle_UI_EnableLogging_Tooltip>활성화하면 모드가 '위로'를 추가하거나 되돌릴 때 화면에 짧은 메시지를 표시합니다. 디버깅에 유용합니다.</AllAnimalsNuzzle_UI_EnableLogging_Tooltip>
+  <AllAnimalsNuzzle_UI_TrackedHeading>추적된 변경 사항: (이 모드가 변경한 내용)</AllAnimalsNuzzle_UI_TrackedHeading>
+  <AllAnimalsNuzzle_UI_None>없음</AllAnimalsNuzzle_UI_None>
+  <AllAnimalsNuzzle_UI_Message_Enabled>AllAnimalsNuzzle: 해당하는 동물에게 '위로' 훈련 항목을 추가했습니다.</AllAnimalsNuzzle_UI_Message_Enabled>
+  <AllAnimalsNuzzle_UI_Message_Disabled>AllAnimalsNuzzle: 이전에 추가한 '위로' 훈련 항목을 가능한 범위에서 제거했습니다.</AllAnimalsNuzzle_UI_Message_Disabled>
+  <AllAnimalsNuzzle_Method_CreatedList>훈련 항목 목록을 생성하고 '위로'를 추가함</AllAnimalsNuzzle_Method_CreatedList>
+  <AllAnimalsNuzzle_Method_AddedExisting>기존 훈련 항목 목록에 '위로'를 추가함</AllAnimalsNuzzle_Method_AddedExisting>
+  <AllAnimalsNuzzle_Method_Unknown>수정됨(알 수 없는 방식)</AllAnimalsNuzzle_Method_Unknown>
+  <AllAnimalsNuzzle_UI_ModName_Unknown>알 수 없는 모드</AllAnimalsNuzzle_UI_ModName_Unknown>
+  <AllAnimalsNuzzle_UI_Nuzzled_Header>애교 받음 생각 | 설정 조정</AllAnimalsNuzzle_UI_Nuzzled_Header>
+  <AllAnimalsNuzzle_UI_Nuzzled_Duration_Label>지속 시간(일)</AllAnimalsNuzzle_UI_Nuzzled_Duration_Label>
+  <AllAnimalsNuzzle_UI_Nuzzled_Duration_Tip>'애교 받음' 기분이 지속되는 시간입니다. 0.1일에서 60일까지 설정할 수 있습니다.</AllAnimalsNuzzle_UI_Nuzzled_Duration_Tip>
+  <AllAnimalsNuzzle_UI_Nuzzled_StackLimit_Label>최대 중첩 수</AllAnimalsNuzzle_UI_Nuzzled_StackLimit_Label>
+  <AllAnimalsNuzzle_UI_Nuzzled_StackLimit_Tip>'애교 받음' 기분이 한 대상에게 중첩될 수 있는 횟수입니다. 2회에서 10회까지 설정할 수 있습니다.</AllAnimalsNuzzle_UI_Nuzzled_StackLimit_Tip>
+  <AllAnimalsNuzzle_UI_Nuzzled_StackedMultiplier_Label>중첩 배율</AllAnimalsNuzzle_UI_Nuzzled_StackedMultiplier_Label>
+  <AllAnimalsNuzzle_UI_Nuzzled_StackedMultiplier_Tip>애교가 여러 번 중첩될 때 적용되는 배율입니다. 0.1배에서 10배까지 설정할 수 있습니다.</AllAnimalsNuzzle_UI_Nuzzled_StackedMultiplier_Tip>
+  <AllAnimalsNuzzle_UI_Nuzzled_Stage0_Label>0단계 기분 보너스</AllAnimalsNuzzle_UI_Nuzzled_Stage0_Label>
+  <AllAnimalsNuzzle_UI_Nuzzled_Stage0_Tip>0단계의 기본 기분 효과입니다. 1에서 50까지 설정할 수 있습니다.</AllAnimalsNuzzle_UI_Nuzzled_Stage0_Tip>
+  <AllAnimalsNuzzle_UI_Nuzzled_Stage1_Label>1단계 기분 보너스</AllAnimalsNuzzle_UI_Nuzzled_Stage1_Label>
+  <AllAnimalsNuzzle_UI_Nuzzled_Stage1_Tip>1단계의 기본 기분 효과입니다. 1에서 50까지 설정할 수 있습니다.</AllAnimalsNuzzle_UI_Nuzzled_Stage1_Tip>
+  <AllAnimalsNuzzle_UI_Nuzzled_Reset_Button>기본값으로 초기화</AllAnimalsNuzzle_UI_Nuzzled_Reset_Button>
+  <AllAnimalsNuzzle_UI_Nuzzled_Reset_Confirm>모든 '애교 받음' 설정을 바닐라 기본값으로 초기화하시겠습니까? 슬라이더를 다시 설정하는 것 외에는 되돌릴 수 없습니다.</AllAnimalsNuzzle_UI_Nuzzled_Reset_Confirm>
+  <AllAnimalsNuzzle_UI_Nuzzled_Reset_Done>'애교 받음' 설정을 바닐라 기본값으로 초기화했습니다.</AllAnimalsNuzzle_UI_Nuzzled_Reset_Done>
+  <AllAnimalsNuzzle_Debug_Cleared>AllAnimalsNuzzle: 추적된 변경 사항을 지웠습니다.</AllAnimalsNuzzle_Debug_Cleared>
+</LanguageData>
