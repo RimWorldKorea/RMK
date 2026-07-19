@@ -3,7 +3,7 @@
   <Description_OrnateTome.rulePack.rulesStrings>
     <li>desc-&gt; [discussion]\n\n[anecdote] [production]\n\n[quality_statement]</li>
     <li>discussion-&gt; 이 화려한 [textbook](은)는 [medievalTopic]에 관한 [useful_information]을 제공합니다. [detail]</li>
-    <li>discussion-&gt; 이 황금색 [textbook](은)는 [medievalTopic]에 관한 [authorType]의 전문성을 입증합니다. [detail]</li>
+    <li>discussion-&gt;이 금박 [textbook](은)는 [medievalTopic]에 관한 [authorType]의 권위와 [authorType]로서의 지위를 확립합니다[detail]</li>
     <li>discussion-&gt; [medievalTopic]에 대한 [understanding_synonym] 이들은 이 [notable_adjective] [textbook](을)를 참고합니다. [detail]</li>
     <li>discussion-&gt; [medievalTopic]에 대한 고대 [textbook]. [detail]</li>
     <li>discussion-&gt; [authorType](이)가 쓴 [medievalTopic]에 관한 잊혀진 옛 [textbook]입니다. [detail]</li>
@@ -17,7 +17,7 @@
     <li>detail-&gt; 이 책은 주제를 단계별로 안내합니다.</li>
     <li>detail(quality[less_than]4)-&gt; 비록 [authorType](이)가 주제를 성급하게 다루긴했지만 말입니다.</li>
     <li>detail(quality[greater_than]3)-&gt; 이는 이 주제에 대한 포괄적인 연구서입니다.</li>
-    <li>detail-&gt; [authorType](은)는 [precis_synonym]에서 이 책의 위조본들이 존재하지만 이것은 그 위조본이 아니라고 주장합니다.</li>
+    <li>detail-&gt;. [authorType](은)는 [ANYPAWN_possessive] [precis_synonym]에서 이 책의 위조본이 존재하지만 이것은 그중 하나가 아니라고 주장합니다</li>
     <li>detail(quality[less_than]4)-&gt; 하지만 가상의 대화를 통해 그 아이디어들을 전달하려 했던 시도는 실수였던 것 같습니다.</li>
     <li>detail-&gt; [precis_synonym]에 있는 [authorType]의 수사는 핵심 개념들을 흐리지 않습니다.</li>
     <li>detail-&gt; [precis_synonym]에 있는 [authorType]의 수사는 핵심 개념들을 흐리지 않습니다.</li>
@@ -34,7 +34,7 @@
     <li>production-&gt; 쓰여진 [note](은)는 이 [textbook]의 대부분의 필사본들이 [medievalregion] 사건 동안 유실되었다고 기록되어 있습니다.</li>
     <li>production-&gt; [precis_synonym](은)는 고대 정보 전파 기술에 대한 지식이 있는 독자들이 이 [textbook] 시리즈를 피하는 경향이 있다는 점을 분명히 하고 있습니다. - 하지만 그 이유는 밝히지 않았습니다.</li>
     <li>production-&gt; [note_location](을)를 보면, [ancientempire]의 [medievalTopic] 전도자들이 이 책의 필사본들을 만드는 데 많은 돈을 들였고, 이후 이를 광범위하게 거래했다는 것이 분명합니다.</li>
-    <li>production-&gt; [note_location](은)는 이 책의 초기 필사본들이 [medievalname] 손으로 직접 쓰여졌다고 설명합니다.</li>
+    <li>production-&gt;[note_location](은)는 이 책의 초기 필사본을 [medievalname] [ANYPAWN_objective]가 손으로 직접 썼다고 설명합니다</li>
     <li>production-&gt; [ancientempire]의 공작부인이 이 책을 누구나 자유롭게 이용할 수 있는 조건으로 이 [textbook](을)를 후원했습니다.</li>
     <li>production-&gt; 문법이 엉성한 것을 보면, [authorType]들은 편집자로서의 임무를 더 성실히 수행했어야 했을 것입니다.</li>
     <li>quality_statement-&gt; [exterior_quality] [page_quality]</li>
@@ -44,7 +44,7 @@
     <li>anecdote-&gt; [note_location]에 따르면, [ANYPAWN_nameFull](은)는 여러 주제의 달인으로 알려져 있었습니다.</li>
     <li>anecdote-&gt; [note_location]에 따르면, [medievalregion]의 사람들은 여전히 [ANYPAWN_nameFull]에 대해 이야기하며 [ANYPAWN_possessive] [medievalTopic]에 대한 사랑을 회상합니다.</li>
     <li>anecdote-&gt; [note_location]에 따르면, [authorType] [ANYPAWN_nameFull](은)는 출판 직후 기이한 양자 얽힘 사고로 사망했습니다.</li>
-    <li>anecdote-&gt; [precis_synonym]에 따르면, [ANYPAWN_nameFull](은)는 [medievalregion]의 아카데미에서 가르치며 시간을 보냈습니다. 이 책은 [ANYPAWN_possessive] 강의에서 가져온 것입니다.</li>
+    <li>anecdote-&gt;[precis_synonym]에 따르면, [ANYPAWN_nameFull](은)는 [ANYPAWN_possessive] 나날을 [medievalregion]의 아카데미에서 가르치며 보냈습니다. 이 책은 [ANYPAWN_possessive] 강의를 바탕으로 합니다</li>
     <li>anecdote-&gt; [note_location]에 따르면, [ANYPAWN_nameFull](은)는 가난하여 이 시리즈의 권리를 아주 적은 금액에 팔았습니다.</li>
     <li>anecdote-&gt; [note_location]에 따르면, [ANYPAWN_nameFull](은)는 태어날 때부터 시각장애인이어서 [ANYPAWN_possessive] 책을 볼 수 없었습니다.</li>
     <li>anecdote-&gt; [note_location]에 따르면, [ANYPAWN_nameFull]의 책 초판에는 악명 높은 오십 페이지의 여담이 있었습니다. 두 번째 판에서는 삭제되었습니다.</li>
