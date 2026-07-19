@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Animals</li>
+    </mods>
+    <nomatch Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Leather_Chitin"]/label</xpath>
+          <value>
+            <label>키틴질</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="Leather_Chitin"]/description</xpath>
+          <value>
+            <description>곤충의 키틴질이 단단한 비늘처럼 겹쳐져 있습니다. 전투에서는 매우 튼튼하지만 날씨로부터는 거의 보호해 주지 못합니다.</description>
+          </value>
+        </li>
+      </operations>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>lla Animals Expanded — Waste Animals</li>
+      </mods>
+      <nomatch Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VAEWaste_ToxicLeather"]/label</xpath>
+            <value>
+              <label>폐기물 가죽</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="VAEWaste_ToxicLeather"]/description</xpath>
+            <value>
+              <description>쉽게 벗겨지는 저품질의 짙은 녹갈색 가죽입니다. 불이 매우 잘 붙습니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="ToxicMeat"]/label</xpath>
+            <value>
+              <label>독성 고기</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="ToxicMeat"]/description</xpath>
+            <value>
+              <description>독성 동물에게서 얻은 생고기입니다.\n\n질기고 젤라틴 같으며 역겹습니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="AteToxicMeatDirect"]/stages/li[1]/label</xpath>
+            <value>
+              <label>독성 고기를 먹음</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="AteToxicMeatDirect"]/stages/li[1]/description</xpath>
+            <value>
+              <description>독성 고기를 먹었다. 아마 내가 지금껏 맛본 것 중 가장 역겨운 음식이었을 것이다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="AteToxicMeatAsIngredient"]/stages/li[1]/label</xpath>
+            <value>
+              <label>조리된 독성 고기를 먹음</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThoughtDef[defName="AteToxicMeatAsIngredient"]/stages/li[1]/description</xpath>
+            <value>
+              <description>독성 고기로 만든 음식을 먹었다. 양념이 맛을 어느 정도 가려 주었지만, 여전히 독이 든 듯한 맛이 났다.</description>
+            </value>
+          </li>
+        </operations>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicArm_Animal_VerySmall"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <label>주먹</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicArm_Animal_Small"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <label>주먹</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicArm_Animal_Medium"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <label>주먹</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicArm_Animal_Large"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <label>주먹</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicArm_Animal_VeryLarge"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <label>주먹</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicArm_Animal_Huge"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <label>주먹</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicLeg_Animal_VerySmall"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <label>발톱</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicLeg_Animal_Small"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <label>발톱</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicLeg_Animal_Medium"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <label>발톱</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicLeg_Animal_Large"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <label>발톱</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicLeg_Animal_VeryLarge"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <label>발톱</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicLeg_Animal_Huge"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <label>발톱</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicJaw_Animal_VerySmall"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <label>이빨</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicJaw_Animal_Small"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <label>이빨</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicJaw_Animal_Medium"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <label>이빨</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicJaw_Animal_Large"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <label>이빨</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicJaw_Animal_VeryLarge"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <label>이빨</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="BionicJaw_Animal_Huge"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <label>이빨</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="ArchotechArm_Animal_VerySmall"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <label>주먹</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="ArchotechArm_Animal_Small"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <label>주먹</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="ArchotechArm_Animal_Medium"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <label>주먹</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="ArchotechArm_Animal_Large"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <label>주먹</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="ArchotechArm_Animal_VeryLarge"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <label>주먹</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="ArchotechArm_Animal_Huge"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <label>주먹</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="ArchotechLeg_Animal_VerySmall"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <label>발톱</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="ArchotechLeg_Animal_Small"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <label>발톱</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="ArchotechLeg_Animal_Medium"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <label>발톱</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="ArchotechLeg_Animal_Large"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <label>발톱</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="ArchotechLeg_Animal_VeryLarge"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <label>발톱</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/HediffDef[defName="ArchotechLeg_Animal_Huge"]/comps/li[1]/tools/li[1]/label</xpath>
+          <value>
+            <label>발톱</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ZoologyMod.LifeStagePenetrationDef, ZoologyMod[defName="AnimalBabyTiny"]/label</xpath>
+          <value>
+            <label>동물 새끼 초소형 관통력 계수</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ZoologyMod.LifeStagePenetrationDef, ZoologyMod[defName="AnimalBaby"]/label</xpath>
+          <value>
+            <label>동물 새끼 관통력 계수</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ZoologyMod.LifeStagePenetrationDef, ZoologyMod[defName="AnimalJuvenile"]/label</xpath>
+          <value>
+            <label>동물 미성숙체 관통력 계수</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ZoologyMod.LifeStagePenetrationDef, ZoologyMod[defName="EusocialInsectLarva"]/label</xpath>
+          <value>
+            <label>사회성 곤충 유충 관통력 계수</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ZoologyMod.LifeStagePenetrationDef, ZoologyMod[defName="EusocialInsectJuvenile"]/label</xpath>
+          <value>
+            <label>사회성 곤충 미성숙체 관통력 계수</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
