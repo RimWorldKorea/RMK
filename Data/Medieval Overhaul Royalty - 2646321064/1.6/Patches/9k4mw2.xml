@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Empire</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EEG_SimpleThrone"]/label</xpath>
+          <value>
+            <label>소박한 왕좌</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="EEG_SimpleThrone"]/description</xpath>
+          <value>
+            <description>견고한 참나무로 제작되어 기능적인 우아함을 고려해 설계된 이 소박한 목제 왕좌는 하급 귀족에게도 편안함을 제공합니다. 등받이와 팔걸이는 정교한 문양이 세심하게 새겨져 있어 소박한 디자인에 고귀한 품격을 더합니다. 가장 웅장한 모델만큼 위압적이지는 않지만, 보다 절제된 존재감을 원하는 작은 궁정이나 전용 공간에 잘 어울립니다. 견고한 구조와 시대를 초월한 매력을 갖춘 이 왕좌는 대대로 소중히 여겨질 가구가 될 것입니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
