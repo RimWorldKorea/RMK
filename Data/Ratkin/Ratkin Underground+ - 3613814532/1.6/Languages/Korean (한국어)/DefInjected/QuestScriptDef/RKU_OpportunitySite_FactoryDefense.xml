@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RKU_OpportunitySite_FactoryDefense.questDescriptionRules.rulesStrings>TODO</RKU_OpportunitySite_FactoryDefense.questDescriptionRules.rulesStrings>
+
+  <RKU_OpportunitySite_FactoryDefense.questNameRules.rulesStrings>
+    <li>questName->[factory] 방어</li>
+    <li>questName->[factory] 보호</li>
+    <li>questName->[asker_nameDef]의 [factory] 방어 임무</li>
+    <li>questName->[factory] 사수</li>
+    <li>factory->게릴라 공장</li>
+    <li>factory->지하 공장</li>
+    <li>factory->드릴러 공장</li>
+  </RKU_OpportunitySite_FactoryDefense.questNameRules.rulesStrings>
+  
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <RKU_OpportunitySite_FactoryDefense.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>퀘스트 기한 만료: [resolvedQuestName]</RKU_OpportunitySite_FactoryDefense.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: 工厂已被摧毁。任务[resolvedQuestName]已过期。 -->
+  <RKU_OpportunitySite_FactoryDefense.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>공장이 파괴되었습니다. [resolvedQuestName] 퀘스트의 기한이 만료되었습니다.</RKU_OpportunitySite_FactoryDefense.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <!-- EN: RKU_OpportunitySite_FactoryDefense_Failed -->
+  <RKU_OpportunitySite_FactoryDefense.root.nodes.WorldObjectTimeout.node.nodes.RKU_RecordOnceEvent.eventKey.slateRef>RKU_OpportunitySite_FactoryDefense_Failed</RKU_OpportunitySite_FactoryDefense.root.nodes.WorldObjectTimeout.node.nodes.RKU_RecordOnceEvent.eventKey.slateRef>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <RKU_OpportunitySite_FactoryDefense.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>퀘스트 실패: [resolvedQuestName]</RKU_OpportunitySite_FactoryDefense.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>
+  <!-- EN: 工厂防御失败。任务[resolvedQuestName]已结束。 -->
+  <RKU_OpportunitySite_FactoryDefense.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>공장 방어에 실패했습니다. [resolvedQuestName] 퀘스트가 종료되었습니다.</RKU_OpportunitySite_FactoryDefense.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>
+  <!-- EN: RKU_OpportunitySite_FactoryDefense_Failed -->
+  <RKU_OpportunitySite_FactoryDefense.root.nodes.siteDestroyed.node.nodes.RKU_RecordOnceEvent.eventKey.slateRef>RKU_OpportunitySite_FactoryDefense_Failed</RKU_OpportunitySite_FactoryDefense.root.nodes.siteDestroyed.node.nodes.RKU_RecordOnceEvent.eventKey.slateRef>
+  <!-- EN: RKU_OpportunitySite_FactoryDefense_Completed -->
+  <RKU_OpportunitySite_FactoryDefense.root.nodes.siteAllEnemiesDefeated.node.nodes.RKU_RecordOnceEvent.eventKey.slateRef>RKU_OpportunitySite_FactoryDefense_Completed</RKU_OpportunitySite_FactoryDefense.root.nodes.siteAllEnemiesDefeated.node.nodes.RKU_RecordOnceEvent.eventKey.slateRef>
+  <!-- EN: Payment arrived -->
+  <RKU_OpportunitySite_FactoryDefense.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterLabel.slateRef>보상 도착</RKU_OpportunitySite_FactoryDefense.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterLabel.slateRef>
+  <!-- EN: 你成功守卫了游击队工厂！\n\n游击队的报酬已送达。 -->
+  <RKU_OpportunitySite_FactoryDefense.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterText.slateRef>성공적으로 게릴라 공장을 지켜냈습니다!\n\n게릴라 측에서 약속한 보상이 도착했습니다.</RKU_OpportunitySite_FactoryDefense.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterText.slateRef>
+  <!-- EN: [asker_faction_royalFavorLabel] -->
+  <RKU_OpportunitySite_FactoryDefense.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef>[asker_faction_royalFavorLabel]</RKU_OpportunitySite_FactoryDefense.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef>
+  <!-- EN: These colonists participated in the victory for the quest [resolvedQuestName]. [asker_definite] wants to know who should receive the guerrilla commendation for this service. -->
+  <RKU_OpportunitySite_FactoryDefense.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.text.slateRef>이 정착민들은 [resolvedQuestName] 퀘스트의 승리에 기여했습니다. [asker_definite](은)는 이 공로를 인정하여, 누가 게릴라 훈장을 받을지 묻고 있습니다.</RKU_OpportunitySite_FactoryDefense.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.text.slateRef>
+</LanguageData>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RKU_OpportunitySite_CompoundRaid.questDescriptionRules.rulesStrings>[asker_faction_name]의 [asker_faction_leaderTitle]인 [asker_nameFull](이)가 긴급한 첩보를 전해왔습니다. 근처에 랫킨 군벌이 통제하는 무장 방어탑이 존재합니다. 이 방어탑은 외곽에 빈틈없는 방어 시설을 갖추고 있으며, 다수의 포탑이 배치되어 삼엄한 경계가 이루어지고 있습니다. [asker_nameDef](은)는 우리가 모든 적을 섬멸하고 이 요새화된 거점을 파괴해주기를 간절히 바라고 있습니다.</RKU_OpportunitySite_CompoundRaid.questDescriptionRules.rulesStrings>
+
+  <RKU_OpportunitySite_CompoundRaid.questNameRules.rulesStrings>
+    <li>questName->[enemy] [fortress] 공격</li>
+    <li>questName->[enemy] [fortress] 강습</li>
+    <li>questName->[asker_nameDef]의 [fortress] 임무</li>
+    <li>questName->[enemy] [fortress] 파괴</li>
+    <li>fortress->방어탑</li>
+    <li>fortress->보루</li>
+    <li>fortress->요새</li>
+    <li>fortress->거점</li>
+    <li>enemy->군벌</li>
+    <li>enemy->도적단</li>
+  </RKU_OpportunitySite_CompoundRaid.questNameRules.rulesStrings>
+  
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <RKU_OpportunitySite_CompoundRaid.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>퀘스트 기한 만료: [resolvedQuestName]</RKU_OpportunitySite_CompoundRaid.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: 炮楼已被废弃。任务[resolvedQuestName]已过期。 -->
+  <RKU_OpportunitySite_CompoundRaid.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>무장 방어탑이 버려졌습니다. [resolvedQuestName] 퀘스트의 기한이 만료되었습니다.</RKU_OpportunitySite_CompoundRaid.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <RKU_OpportunitySite_CompoundRaid.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>퀘스트 실패: [resolvedQuestName]</RKU_OpportunitySite_CompoundRaid.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>
+  <!-- EN: 被发现后，军阀炮楼已被撤离。任务[resolvedQuestName]已结束。 -->
+  <RKU_OpportunitySite_CompoundRaid.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>발각된 이후, 군벌들은 무장 방어탑을 비우고 대피했습니다. [resolvedQuestName] 퀘스트가 종료되었습니다.</RKU_OpportunitySite_CompoundRaid.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>
+  <!-- EN: Payment arrived -->
+  <RKU_OpportunitySite_CompoundRaid.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterLabel.slateRef>보상 도착</RKU_OpportunitySite_CompoundRaid.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterLabel.slateRef>
+  <!-- EN: 你成功摧毁了炮楼！\n\n游击队的报酬已送达。 -->
+  <RKU_OpportunitySite_CompoundRaid.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterText.slateRef>성공적으로 무장 방어탑을 파괴했습니다!\n\n게릴라 측에서 약속한 보상이 도착했습니다.</RKU_OpportunitySite_CompoundRaid.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.customLetterText.slateRef>
+  <!-- EN: [asker_faction_royalFavorLabel] -->
+  <RKU_OpportunitySite_CompoundRaid.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef>[asker_faction_royalFavorLabel]</RKU_OpportunitySite_CompoundRaid.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef>
+  <!-- EN: These colonists participated in the victory for the quest [resolvedQuestName]. [asker_definite] wants to know who should receive the guerrilla commendation for this service. -->
+  <RKU_OpportunitySite_CompoundRaid.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.text.slateRef>이 정착민들은 [resolvedQuestName] 퀘스트의 승리에 기여했습니다. [asker_definite](은)는 이 공로를 인정하여, 누가 게릴라 훈장을 받을지 묻고 있습니다.</RKU_OpportunitySite_CompoundRaid.root.nodes.siteAllEnemiesDefeated.node.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.text.slateRef>
+
+</LanguageData>

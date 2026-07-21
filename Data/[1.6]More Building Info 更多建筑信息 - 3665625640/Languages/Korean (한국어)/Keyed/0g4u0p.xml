@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MBI_MovementStats>이동 능력치</MBI_MovementStats>
+  <MBI_ShieldStats>방어막 능력치</MBI_ShieldStats>
+  <MBI_ShootingStats>사격 능력치</MBI_ShootingStats>
+  <MBI_Passability>통행성</MBI_Passability>
+  <MBI_Passability_Desc>폰이 이 오브젝트를 통과할 수 있는 방식을 결정합니다.\n\n- Standable: 폰이 그 위에 서 있을 수 있음\n- PassThroughOnly: 폰이 통과할 수는 있지만 서 있을 수는 없음\n- Impassable: 폰이 통과할 수 없음</MBI_Passability_Desc>
+  <MBI_PathCost>경로 비용</MBI_PathCost>
+  <MBI_PathCost_Desc>폰이 이 타일을 통과할 때 추가되는 틱입니다. 값이 높을수록 이동 속도가 더 느려집니다.</MBI_PathCost_Desc>
+  <MBI_WalkSpeed>이동 속도</MBI_WalkSpeed>
+  <MBI_WalkSpeed_Desc>이 오브젝트를 통과하며 이동할 때의 이동 속도 백분율입니다. 계산식은 다음과 같습니다: 13 / (pathCost + 13)</MBI_WalkSpeed_Desc>
+  <MBI_PathCostIgnoreRepeat>반복 경로 비용 무시</MBI_PathCostIgnoreRepeat>
+  <MBI_PathCostIgnoreRepeat_Desc>이 설정이 활성화되면, 폰이 이 오브젝트가 있는 연속된 여러 타일을 통과할 때 경로 비용이 한 번만 적용됩니다(반복 적용되지 않음). 즉, 이 플래그가 설정된 건물이 인접하게 배치된 경우, 폰은 첫 번째 건물에 진입할 때만 경로 비용(이동 속도 저하)이 발생하며, 이후 연속되는 건물들에서는 추가 비용이 발생하지 않습니다.\n\n이 설정은 pathCost가 25 이상일 때만 적용됩니다.</MBI_PathCostIgnoreRepeat_Desc>
+  <MBI_ShieldGround>지상 투사체 요격</MBI_ShieldGround>
+  <MBI_ShieldGround_Desc>쉴드가 탄환이나 로켓과 같은 지상 비행 투사체를 요격할지 여부입니다.</MBI_ShieldGround_Desc>
+  <MBI_ShieldAir>공중 투사체 요격</MBI_ShieldAir>
+  <MBI_ShieldAir_Desc>쉴드가 박격포 탄환이나 궤도 폭격과 같은 고고도 투사체를 요격할지 여부입니다.</MBI_ShieldAir_Desc>
+  <MBI_ShieldType>쉴드 유형</MBI_ShieldType>
+  <MBI_ShieldType_Desc>요격 능력에 따른 쉴드 분류입니다.</MBI_ShieldType_Desc>
+  <MBI_ShieldRadius>쉴드 반경</MBI_ShieldRadius>
+  <MBI_ShieldRadius_Desc>쉴드가 투사체를 요격할 수 있는 최대 거리(칸 단위)입니다.</MBI_ShieldRadius_Desc>
+  <MBI_ShieldEmp>EMP 무력화 지속 시간</MBI_ShieldEmp>
+  <MBI_ShieldEmp_Desc>EMP에 맞은 후 쉴드가 무력화된 상태로 유지되는 시간(틱 단위)입니다.</MBI_ShieldEmp_Desc>
+  <MBI_ShieldTypeFull>전방위 보호막</MBI_ShieldTypeFull>
+  <MBI_ShieldTypeLow>저각도 보호막</MBI_ShieldTypeLow>
+  <MBI_ShieldTypeHigh>고각도 보호막</MBI_ShieldTypeHigh>
+  <MBI_ShieldTypeNone>보호막 기능 없음</MBI_ShieldTypeNone>
+  <MBI_RequireLineOfSight>시야 확보 필요</MBI_RequireLineOfSight>
+  <MBI_RequireLineOfSight_Desc>사격 시 대상에 대한 가려지지 않은 시야 확보가 필요한지 여부를 결정합니다.</MBI_RequireLineOfSight_Desc>
+  <MBI_StopBurstWithoutLos>시야 미확보 시 연사 중단</MBI_StopBurstWithoutLos>
+  <MBI_StopBurstWithoutLos_Desc>연사 도중 시야가 확보되지 않으면 즉시 연사를 중단할지 여부를 결정합니다.</MBI_StopBurstWithoutLos_Desc>
+  <MBI_FlyOverhead>공중 투사체 비행</MBI_FlyOverhead>
+  <MBI_FlyOverhead_Desc>투사체가 "공중 비행"(예: 박격포 포탄) 유형인지 여부를 결정하며, 이는 포탑의 지붕 제한에 영향을 미칩니다.</MBI_FlyOverhead_Desc>
+  <MBI_Yes>예</MBI_Yes>
+  <MBI_No>아니요</MBI_No>
+  <MBI_Standable>서 있을 수 있음</MBI_Standable>
+  <MBI_PassThroughOnly>통과 전용</MBI_PassThroughOnly>
+  <MBI_Impassable>통과 불가</MBI_Impassable>
+  <MBI_SettingsCategory>건축물 상세 정보 더 보기</MBI_SettingsCategory>
+  <MBI_ShowPathCostValues>경로 비용 값 표시</MBI_ShowPathCostValues>
+  <MBI_MaxDisplayDistance>최대 표시 거리</MBI_MaxDisplayDistance>
+  <MBI_MaxDisplayDistance_Desc>경로 비용 텍스트의 최대 표시 거리(칸 단위). 마우스로부터 이 거리보다 멀리 있는 텍스트는 표시되지 않습니다.</MBI_MaxDisplayDistance_Desc>
+  <MBI_DensityGridSize>밀도 그리드 크기</MBI_DensityGridSize>
+  <MBI_DensityGridSize_Desc>경로 비용 텍스트 표시 밀도(칸 단위).</MBI_DensityGridSize_Desc>
+  <MBI_UseCustomColors>사용자 지정 색상 사용</MBI_UseCustomColors>
+  <MBI_UseCustomColors_Desc>활성화하면 일반 모드와 반복 무시 모드에 대한 그라데이션 시작 및 종료 색상을 사용자 지정할 수 있습니다.</MBI_UseCustomColors_Desc>
+  <MBI_ColorNormal>일반 모드 색상</MBI_ColorNormal>
+  <MBI_ColorNormal_Desc>ignoreRepeat이 활성화되지 않았을 때의 색상 그라데이션입니다.</MBI_ColorNormal_Desc>
+  <MBI_ColorNormalStart>일반 모드 시작</MBI_ColorNormalStart>
+  <MBI_ColorNormalEnd>일반 모드 종료</MBI_ColorNormalEnd>
+  <MBI_ColorIgnoreRepeat>반복 무시 모드 색상</MBI_ColorIgnoreRepeat>
+  <MBI_ColorIgnoreRepeat_Desc>ignoreRepeat이 활성화되었을 때의 색상 그라데이션.</MBI_ColorIgnoreRepeat_Desc>
+  <MBI_ColorIgnoreRepeatStart>반복 무시 모드 시작</MBI_ColorIgnoreRepeatStart>
+  <MBI_ColorIgnoreRepeatEnd>반복 무시 모드 종료</MBI_ColorIgnoreRepeatEnd>
+  <MBI_OverlayMode>오버레이 모드</MBI_OverlayMode>
+  <MBI_ToggleOverlayMode>오버레이 모드 전환</MBI_ToggleOverlayMode>
+  <MBI_OverlayMode_Off>꺼짐</MBI_OverlayMode_Off>
+  <MBI_OverlayMode_ActualCost>실제 건설 비용</MBI_OverlayMode_ActualCost>
+  <MBI_ToggleOverlayOn>경로 비용 오버레이 켜기</MBI_ToggleOverlayOn>
+  <MBI_ToggleOverlayOff>경로 비용 오버레이 끄기</MBI_ToggleOverlayOff>
+  <MBI_ToggleOverlayTooltip>경로 비용 오버레이 표시 전환</MBI_ToggleOverlayTooltip>
+  <MBI_ConstructionProcessExplanation>건물 계산 과정:\n1. 건물에 “반복 경로 비용 무시”가 활성화되어 있는 경우, 폰이 해당 건물의 연속된 여러 타일을 통과할 때 이후 건물의 경로 비용은 0으로 간주됩니다.\n2. 그 다음, 각 타일의 경로 비용은 해당 타일에 있는 모든 건물 중 가장 높은 값으로 산정됩니다.</MBI_ConstructionProcessExplanation>
+  <MBI_PathCostFunctionExplanation>경로 비용 기능:\n- 최대 비용: 표시된 숫자는 해당 타일의 최대 경로 비용입니다(0–100).\n- 괄호 안의 숫자: 반복 경로 비용 무시가 설정되지 않은 건물 중 가장 높은 비용을 나타냅니다. 최대 비용이 반복 경로 비용 무시 건물에서 발생할 경우, 괄호 안에는 비교를 위해 일반 건물의 최대 비용이 표시됩니다.</MBI_PathCostFunctionExplanation>
+  <MBI_ColorLegendExplanation>오버레이 색상 범례:\n- 노란색 → 주황색: 일반 건물 경로 비용 (비용이 높을수록 진함)\n- 연두색 → 진한 녹색: 반복 경로 비용 무시 건물 경로 비용 (비용이 높을수록 진함)\n- 빨간색: 통행 불가 (경로 비용 ≥ 10000)\n- 투명도: 비용이 높을수록 투명도가 낮음 (25%–75%)</MBI_ColorLegendExplanation>
+  <MBI_RoomStats>방 통계</MBI_RoomStats>
+  <MBI_OptimalRoom>최적의 방</MBI_OptimalRoom>
+  <MBI_OptimalRoom_Desc>이 건물이 가장 효율적으로 작동하는 방의 유형입니다. 이 유형의 방에 배치하면 작업 속도 패널티를 피할 수 있습니다.</MBI_OptimalRoom_Desc>
+  <MBI_RoomEfficiencyPenalty>방 효율 패널티</MBI_RoomEfficiencyPenalty>
+  <MBI_RoomEfficiencyPenalty_Desc>이 건물이 최적의 방 유형에 있지 않을 때의 작업 속도 배율입니다. 값이 낮을수록 패널티가 커집니다.</MBI_RoomEfficiencyPenalty_Desc>
+  <MBI_CurrentRoom>현재 방</MBI_CurrentRoom>
+  <MBI_CurrentRoom_Desc>이 건물이 현재 배치된 방의 유형입니다.</MBI_CurrentRoom_Desc>
+  <MBI_CurrentRoomOutdoors_Desc>이 건물이 실외 또는 적절한 방으로 간주되지 않는 구역에 배치되었습니다.</MBI_CurrentRoomOutdoors_Desc>
+  <MBI_InOptimalRoom>최적의 방에서</MBI_InOptimalRoom>
+  <MBI_InOptimalRoom_Desc>이 건물이 현재 최적의 방 유형에 배치되어 있는지 여부입니다.</MBI_InOptimalRoom_Desc>
+</LanguageData>

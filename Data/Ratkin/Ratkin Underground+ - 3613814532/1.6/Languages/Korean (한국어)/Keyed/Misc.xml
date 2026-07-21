@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: This location can only be accessed via drilling vehicle. -->
+  <RKU.RequireDrillingVehicle>이 지점은 드릴러 차량을 통해서만 접근할 수 있습니다.</RKU.RequireDrillingVehicle>
+  <!-- EN: Guerrilla Squad Departed -->
+  <RKU_RadioLeftTitle>빨치산 분대 출발</RKU_RadioLeftTitle>
+  <!-- EN: The guerrilla squad has left, but they left behind an encrypted radio. You can use this radio to maintain contact with them. -->
+  <RKU_RadioLeftMessage>빨치산 분대는 떠났으나, 암호화된 라디오를 남겨두고 갔습니다. 이 라디오를 통해 그들과 계속 연락하실 수 있습니다.</RKU_RadioLeftMessage>
+
+  <!-- Guerrilla Camp Quest Translations -->
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <RKU_QuestExpiredLabel>퀘스트 만료: [resolvedQuestName]</RKU_QuestExpiredLabel>
+  <!-- EN: The bandit camp has packed up and moved on. The quest [resolvedQuestName] has expired. -->
+  <RKU_QuestExpiredText>도적 캠프가 짐을 싸서 이동했습니다. 퀘스트 [resolvedQuestName](이)가 만료되었습니다.</RKU_QuestExpiredText>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <RKU_QuestFailedLabel>퀘스트 실패: [resolvedQuestName]</RKU_QuestFailedLabel>
+  <!-- EN: After being discovered, the bandit camp has dispersed. The quest [resolvedQuestName] has ended. -->
+  <RKU_QuestFailedText>도적 캠프가 발각되어 흩어져 버렸습니다. 퀘스트 [resolvedQuestName](이)가 종료되었습니다.</RKU_QuestFailedText>
+  <!-- EN: Payment arrived -->
+  <RKU_QuestCompletedLabel>보상 도착</RKU_QuestCompletedLabel>
+  <!-- EN: You have defeated the bandit camp!\n\nThe reward from the kingdom has arrived. -->
+  <RKU_QuestCompletedText>도적 캠프를 처치했습니다!\n\n왕국에서 보상이 도착했습니다.</RKU_QuestCompletedText>
+  <!-- EN: [asker_faction_royalFavorLabel] -->
+  <RKU_FavorReceiverLabel>[asker_faction_royalFavorLabel]</RKU_FavorReceiverLabel>
+  <!-- EN: These colonists participated in the victory for the quest [resolvedQuestName]. [asker_definite] wants to know who should receive the [royalFavorReward_amount] [asker_faction_royalFavorLabel] for this service. -->
+  <RKU_FavorReceiverText>정착민들이 퀘스트 [resolvedQuestName]의 승리에 기여했습니다. [asker_definite] 측에서 이번 공적으로 받을 [royalFavorReward_amount] [asker_faction_royalFavorLabel]을 누구에게 줄지 결정해 달라고 합니다.</RKU_FavorReceiverText>
+
+  <!-- Guerrilla Camp Quest Name Generation Rules -->
+  <!-- EN: The [bandit] [camp] -->
+  <RKU_QuestName_1>[bandit] [camp]</RKU_QuestName_1>
+  <!-- EN: [bandit] [camp] -->
+  <RKU_QuestName_2>[bandit] [camp]</RKU_QuestName_2>
+  <!-- EN: [asker_nameDef] and the [camp] -->
+  <!-- EN: [asker_nameDef] 和 [camp] -->
+  <RKU_QuestName_3>[asker_nameDef](와)과 [camp]</RKU_QuestName_3>
+
+  <!-- Camp Type Translations -->
+  <!-- EN: Camp -->
+  <RKU_Camp_Camp>야영지</RKU_Camp_Camp>
+  <!-- EN: Outpost -->
+  <RKU_Camp_Outpost>전초기지</RKU_Camp_Outpost>
+  <!-- EN: Lair -->
+  <RKU_Camp_Lair>은신처</RKU_Camp_Lair>
+  <!-- EN: Encampment -->
+  <RKU_Camp_Encampment>주둔지</RKU_Camp_Encampment>
+
+  <!-- Bandit Type Translations -->
+  <!-- EN: Bandit -->
+  <RKU_Bandit_Bandit>도적</RKU_Bandit_Bandit>
+  <!-- EN: Raider -->
+  <RKU_Bandit_Raider>약탈자</RKU_Bandit_Raider>
+  <!-- EN: Outlaw -->
+  <RKU_Bandit_Outlaw>무법자</RKU_Bandit_Outlaw>
+  <!-- EN: Desperado -->
+  <RKU_Bandit_Desperado>악당</RKU_Bandit_Desperado>
+  <!-- EN: Fugitive -->
+  <RKU_Bandit_Fugitive>도망자</RKU_Bandit_Fugitive>
+  <!-- EN: Marauder -->
+  <RKU_Bandit_Marauder>습격자</RKU_Bandit_Marauder>
+  <!-- EN: Robber -->
+  <RKU_Bandit_Robber>강도</RKU_Bandit_Robber>
+  <!-- EN: Brigand -->
+  <RKU_Bandit_Brigand>산적</RKU_Bandit_Brigand>
+<!-- Quest Description Translation -->
+  <!-- EN: [asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], has sent us a message. Apparently, a band of outlaws based in a nearby camp have been raiding their caravans.
+  [asker_nameDef] is asking us to destroy the camp, which means eliminating all enemies and turrets. [asker_label] says that [sitePart0_description]. -->
+  <RKU_QuestDescription>[asker_faction_name]의 [asker_faction_leaderTitle]인 [asker_nameFull](이)가 우리에게 서신을 보내왔습니다. 인근 야영지에 근거지를 둔 무법자 무리가 그들의 상단을 계속해서 약탈하고 있다고 합니다.\n[asker_nameDef](은)는 우리에게 해당 야영지의 파괴를 의뢰했습니다. 즉, 그곳의 모든 적과 포탑을 제거해야 합니다. [asker_label](은)는 [sitePart0_description](이)라고 덧붙였습니다.</RKU_QuestDescription>
+
+  <!-- Drilling Vehicle UI Translations -->
+  <!-- EN: Open Radio -->
+  <RKU.OpenRadio>무전기 켜기</RKU.OpenRadio>
+  <!-- EN: Call guerrillas -->
+  <RKU.OpenRadioDesc>게릴라 부대를 호출합니다.</RKU.OpenRadioDesc>
+  <!-- EN: Manage Passengers -->
+  <RKU.ManagePassengers> 탑승자 관리</RKU.ManagePassengers>
+  <!-- EN: Return -->
+  <RKU.Return>귀환</RKU.Return>
+  <!-- EN: Exit Vehicle -->
+  <RKU.ExitVehicle>차량에서 하차</RKU.ExitVehicle>
+  <!-- EN: Enter Vehicle -->
+  <RKU.EnterVehicle>차량에 탑승</RKU.EnterVehicle>
+  <!-- EN: Rescue {0} and enter vehicle -->
+  <RKU.RescueAndEnterVehicle>{0}(을)를 구조하여 탑승</RKU.RescueAndEnterVehicle>
+  <!-- EN: Move -->
+  <RKU.Move>이동</RKU.Move>
+  <!-- EN: Drill down! -->
+  <RKU.Drill>굴착!</RKU.Drill>
+  <!-- EN: Please choose the rig landing location -->
+  <RKU.ChooseDrillingVehicleSpot>드릴러가 착륙할 위치를 선택하십시오</RKU.ChooseDrillingVehicleSpot>
+  <!-- EN: Land -->
+  <RKU.Eject>착륙</RKU.Eject>
+  <!-- EN: Cannot spawn here - location is impassable -->
+  <RKU.CannotSpawnOnImpassable>이곳에는 생성할 수 없습니다</RKU.CannotSpawnOnImpassable>
+
+  <!-- Lantern (portable light) gizmo -->
+  <!-- EN: Light switch -->
+  <RKU.LanternLightSwitch>조명 스위치</RKU.LanternLightSwitch>
+
+  <!-- Other System Translations -->
+  <!-- EN: Underground Cave Collapsing -->
+  <LetterLabelUndercaveCollapsing>지하 동굴 붕괴</LetterLabelUndercaveCollapsing>
+  <!-- EN: An underground cave has collapsed, making some areas unstable. -->
+  <LetterUndercaveCollapsing>지하 동굴이 붕괴되어, 주변 지반이 불안정해졌습니다.</LetterUndercaveCollapsing>
+  <!-- EN: Stop Force Attack -->
+  <CommandStopForceAttack>강제 공격 중지</CommandStopForceAttack>
+  <!-- EN: Stop force attack mode -->
+  <!-- EN: Stop forced attacks mode. -->
+  <CommandStopForceAttackDesc>강제 공격 모드를 해제합니다.</CommandStopForceAttackDesc>
+  <!-- EN: Hold Fire -->
+  <CommandHoldFire>사격 중지</CommandHoldFire>
+  <!-- EN: Hold fire mode -->
+  <!-- EN: Hold fire mode. -->
+  <CommandHoldFireDesc>사격 중지 모드로 전환합니다.</CommandHoldFireDesc>
+
+  <!-- Hardcoded Message Translations -->
+  <!-- EN: Goods Arrived -->
+  <RKU_GoodsArrived>물품 배송 대기 중</RKU_GoodsArrived>
+  <!-- EN: Your ordered goods have arrived -->
+  <RKU_OrderedGoodsArrived>주문한 물품을 투하할 위치를 선택하십시오.</RKU_OrderedGoodsArrived>
+  <!-- EN: Stop your resistance... -->
+  <RKU_CannotTargetKnightCommander>무의미한 저항을 멈추어라...</RKU_CannotTargetKnightCommander>
+  <!-- EN: Yunnan Hallucination -->
+  <RKU_YunnanHallucination>윈난의 환각</RKU_YunnanHallucination>
+  <!-- EN: Ate allurecap -->
+  <RKU_AteAllurecap>매혹버섯 섭취함</RKU_AteAllurecap>
+  <!-- EN: Recovered from Yunnan hallucination -->
+  <RKU_RecoveredFromYunnanHallucination>윈난의 환각에서 벗어남.</RKU_RecoveredFromYunnanHallucination>
+  
+  <!-- Character Name Translations -->
+  <!-- EN: Zigstark -->
+  <RKU_Zigstark>지그스타크</RKU_Zigstark>
+  <!-- EN: Cheesecellar -->
+  <RKU_Cheesecellar>치즈셀러</RKU_Cheesecellar>
+  <!-- EN: Anzleia -->
+  <RKU_Anzleia>안젤라</RKU_Anzleia>
+  <!-- EN: Balsam -->
+  <RKU_Balsam>발삼</RKU_Balsam>
+  <!-- EN: Iron -->
+  <RKU_Iron>아이언</RKU_Iron>
+  <!-- EN: Star -->
+  <RKU_Star>스타</RKU_Star>
+  <!-- EN: Iron Star -->
+  <RKU_IronStar>아이언스타</RKU_IronStar>
+  <Phosphophyllite>포스포필라이트</Phosphophyllite>
+
+  <!-- Map Deletion Dialog Translations -->
+  <!-- EN: Delete Map -->
+  <RKU_RandomSiteDeleteMap>지도 삭제</RKU_RandomSiteDeleteMap>
+  <!-- EN: Delete this map and all its contents. This will permanently remove the map and cannot be undone. -->
+  <RKU_CommandViewQuestDesc>이 지도와 모든 내용을 삭제합니다. 삭제된 지도는 복구할 수 없습니다.</RKU_CommandViewQuestDesc>
+  <!-- EN: Are you sure you want to delete this map?\n\nThis will permanently remove the map and all colonists, items, and buildings on it. -->
+  <RKU_RandomSite_Confirm>정말로 이 지도를 삭제하시겠습니까?\n\n이 지도와 그 위의 모든 식민자, 아이템, 건물이 영구히 삭제됩니다.</RKU_RandomSite_Confirm>
+  <!-- EN: Confirm Delete -->
+  <RKU_RandomSite_Confirm_Accept>삭제 확인</RKU_RandomSite_Confirm_Accept>
+
+  <!-- Log Message Translations -->
+  <!-- EN: {0} has entered {1} state -->
+  <RKU_EnteredMentalState>{0}(이)가 {1} 상태에 들어갔습니다.</RKU_EnteredMentalState>
+  <!-- EN: Error applying mental state -->
+  <RKU_MentalStateError>정신 상태 적용 오류.</RKU_MentalStateError>
+
+  <!-- Radio UI Translations -->
+  <!-- EN: Guerrilla Radio -->
+  <!-- EN: Partisan Radio -->
+  <RKU_GuerrillaRadio>빨치산 주파수 채널</RKU_GuerrillaRadio>
+  <!-- EN: Royal Army Radio -->
+  <!-- EN: Royal Army Radio -->
+  <RKU_RoyalRadio>왕국군 주파수 채널</RKU_RoyalRadio>
+  <!-- EN: Online -->
+  <RKU_RadioOnline>온라인</RKU_RadioOnline>
+  <RKU_SignalGood>신호 양호</RKU_SignalGood>
+  <!-- EN: Power Sufficient -->
+  <RKU_PowerGood>전력 양호</RKU_PowerGood>
+  <!-- EN: Unknown Location -->
+  <RKU_UnknownLocation>알 수 없는 위치</RKU_UnknownLocation>
+  <RKU_TradeSignal>거래 신호</RKU_TradeSignal>
+  <RKU_ScanSignal>신호 스캔</RKU_ScanSignal>
+
+  <!-- EN: Tactical Support -->
+  <RKU_TacticalSupport>전술 지원을 요청</RKU_TacticalSupport>
+  <!-- EN: At least 75 favor is required for tactical support -->
+  <RKU_TacticalSupportFailReason>전술 지원을 요청하려면 최소 우호도 75가 필요합니다.</RKU_TacticalSupportFailReason>
+  
+  <!-- EN: Provide Support -->
+  <RKU_ProvideSupport>전술 지원을 제공</RKU_ProvideSupport>
+  <!-- EN: Trade on Cooldown -->
+
+  <RKU_TradeCooldownText>거래 재사용 대기 중</RKU_TradeCooldownText>
+  <RKU_StartTrade>거래 시작</RKU_StartTrade>
+  <RKU_WaitingForTrade>거래 대기 중...</RKU_WaitingForTrade>
+  <RKU_EmergencyCall>긴급 호출</RKU_EmergencyCall>
+
+  <!-- EN: Emergency call on cooldown, {0} days remaining -->
+  <RKU_EmergencyCooldownText>긴급 호출 재사용 대기 중, {0}일 남음.</RKU_EmergencyCooldownText>
+  <!-- EN: Emergency Cooldown ({0} days) -->
+  <RKU_EmergencyCooldownButton>긴급 호출 대기 중 ({0}일)</RKU_EmergencyCooldownButton>
+  <!-- EN: Provide support on cooldown, {0} days remaining -->
+  <RKU_RescueCooldownText>지원 제공 재사용 대기 중, {0}일 남음.</RKU_RescueCooldownText>
+  <!-- EN: Support Cooldown ({0} days) -->
+  <RKU_RescueCooldownButton>지원 재사용 대기 시간 ({0}일)</RKU_RescueCooldownButton>
+
+  <RKU_ScanCooldownText>스캔 재사용 대기 중</RKU_ScanCooldownText>
+
+  <!-- EN: At least 50 favor is required for special location scanning -->
+  <RKU_ScanFavorRequirement>특수 위치 스캔에는 최소 우호도 50이 필요합니다.</RKU_ScanFavorRequirement>
+
+  <!-- EN: At least 1 favor is required for underground caravan trading -->
+  <RKU_TradeFavorRequirement>랫킨 지하 캐러밴과 거래하려면 최소 우호도 1이 필요합니다.</RKU_TradeFavorRequirement>
+
+  <!-- EN: Discovered: {0} -->
+  <RKU_SiteDiscoveredLabel>발견: {0}</RKU_SiteDiscoveredLabel>
+  <!-- EN: Guerrilla forces have scanned a new location: {0} -->
+  <RKU_SiteDiscoveredText>빨치산이 새로운 지점을 스캔했습니다: {0}</RKU_SiteDiscoveredText>
+  <!-- EN: Ratkin Underground Supply Caravan -->
+  <RKU_TraderName>랫킨 지하 보급 상단</RKU_TraderName>
+  <!-- EN:        Signal incoming... -->
+  <RKU_SignalIncoming>신호 감지...</RKU_SignalIncoming>
+  <!-- EN: Starting signal scan... -->
+  <RKU_StartScanningSignal>신호 스캔 시작...</RKU_StartScanningSignal>
+  <!-- EN: Emergency call sent! -->
+  <RKU_EmergencyCallSent>긴급 호출 전송됨!</RKU_EmergencyCallSent>
+  <!-- EN: Signal received, we're preparing goods! -->
+  <RKU_SignalReceived>신호 수신, 물자를 준비 중입니다!</RKU_SignalReceived>
+  <!-- EN: Trade signal sent, waiting for underground caravan... -->
+  <RKU_TradeSignalSent>거래 신호 전송됨, 지하 캐러밴을 대기 중...</RKU_TradeSignalSent>
+  <!-- EN: Check out what we've prepared! -->
+  <RKU_CheckOurGoods>우리가 준비한 물건들을 확인하세요.</RKU_CheckOurGoods>
+  <!-- EN: No available colonists for trading. -->
+  <RKU_NoNegotiatorAvailable>거래 가능한 정착민이 없습니다.</RKU_NoNegotiatorAvailable>
+  <!-- EN: Goods are ready, you can start trading now! -->
+  <RKU_GoodsReady>물품이 준비되었습니다. 이제 거래를 시작할 수 있습니다!</RKU_GoodsReady>
+  <!-- EN: Radio Status: -->
+  <RKU_RadioStatus>무전기 상태:</RKU_RadioStatus>
+  <!-- EN: Research Progress -->
+  <RKU_ResearchProgress>연구 진행도</RKU_ResearchProgress>
+  <!-- EN: Faction Relation -->
+  <RKU_FactionRelation>세력 관계</RKU_FactionRelation>
+  <!-- EN: Trade Cooldown: {0} days -->
+  <RKU_TradeCooldown>거래 재사용 대기시간: {0}일</RKU_TradeCooldown>
+  <!-- EN: Scan Cooldown: {0} days -->
+  <RKU_ScanCooldown>스캔 재사용 대기시간: {0}일</RKU_ScanCooldown>
+  <!-- EN: Tactical support Cooldown: {0} days -->
+  <!-- EN: Tactical Support Cooldown: {0} day(s). -->
+  <RKU_EmergencyCooldown>전술 지원 요청 재사용 대기시간: {0}일</RKU_EmergencyCooldown>
+  <!-- EN: Provide support Cooldown: {0} days -->
+  <RKU_RescueCooldown>지원 제공 재사용 대기시간: {0}일</RKU_RescueCooldown>
+  <!-- EN: Map Location: {0} -->
+  <RKU_MapLocation>지도 위치: {0}</RKU_MapLocation>
+  <!-- EN: Reset Cooldowns (Dev) -->
+  <RKU_ResetCooldowns>재사용 대기시간 초기화</RKU_ResetCooldowns>
+  <!-- EN: All cooldowns have been reset -->
+  <!-- EN: All cooldowns have been reset -->
+  <RKU_CooldownsReset>모든 재사용 대기시간이 초기화되었습니다.</RKU_CooldownsReset>
+  <!-- EN: Partisan troop regional commander -->
+  <RKU_commanderTitle>빨치산 지역 사령관</RKU_commanderTitle>
+  
+  <!-- Debug Tool Translations -->
+  <!-- EN: Cooldown cancelled -->
+  <RKU_CooldownCancelled>쿨다운 취소됨.</RKU_CooldownCancelled>
+  <!-- EN: Trade ready -->
+  <RKU_TradeReady>거래 준비 완료.</RKU_TradeReady>
+  <!-- EN: Research progress filled -->
+  <RKU_ResearchProgressFull>연구 진행도가 최대치에 도달했습니다.</RKU_ResearchProgressFull>
+  <!-- EN: Research progress increased by half -->
+  <RKU_ResearchProgressHalf>연구 진행도가 절반만큼 증가했습니다.</RKU_ResearchProgressHalf>
+  <!-- EN: Relation level increased by 10 -->
+  <RKU_RelationIncreased>관계 수치가 10 증가했습니다.</RKU_RelationIncreased>
+  <!-- EN: Relation level decreased by 10 -->
+  <RKU_RelationDecreased>관계 수치가 10 감소했습니다.</RKU_RelationDecreased>
+
+  <!-- Allurecap Message Translation -->
+  <!-- EN: {0} intends to eat allurecap -->
+  <RKU_IntendsToEatAllurecap>{0}(이)가 매혹버섯을 먹으려 합니다.</RKU_IntendsToEatAllurecap>
+
+  <!-- Guerrilla Event Translations -->
+  <!-- EN: Ratkin Tunnel Guerrillas -->
+  <RKU_GuerrillaAttackLabel>랫킨 터널 빨치산</RKU_GuerrillaAttackLabel>
+  <!-- EN: Underground activity detected, a group of ratkin tunnel guerrillas are attacking the colony -->
+  <RKU_GuerrillaAttackText>지하 활동 감지 — 랫킨 터널 빨치산 부대가 정착지를 공격하고 있습니다.</RKU_GuerrillaAttackText>
+  <!-- EN: Ratkin Tunnel Guerrillas -->
+  <RKU_GuerrillaAllyLabel>랫킨 터널 빨치산</RKU_GuerrillaAllyLabel>
+  <!-- EN: Underground activity detected, a group of ratkin tunnel guerrillas are coming to assist in colony defense, please select their destination on the world map -->
+  <RKU_GuerrillaAllyText>지하 활동 감지 — 랫킨 터널 빨치산 부대가 정착지 방어를 지원하기 위해 오고 있습니다. 월드맵에서 목적지를 선택하십시오.</RKU_GuerrillaAllyText>
+  <!-- EN: Invalid target selected -->
+  <!-- EN: Invalid selecte target. -->
+  <RKU_InvalidTargetSelected>잘못된 대상이 선택되었습니다.</RKU_InvalidTargetSelected>
+  <!-- EN: No colonists at this location -->
+  <RKU_NoColonistsAtLocation>이 위치에는 정착민이 없습니다.</RKU_NoColonistsAtLocation>
+  <!-- EN: Ratkin Guerrillas Have Arrived -->
+  <RKU_GuerrillasArrivedLabel>랫킨 빨치산 도착</RKU_GuerrillasArrivedLabel>
+  <!-- EN: Guerrillas have arrived at the specified location and are ready to assist. -->
+  <RKU_GuerrillasArrivedText>빨치산이 지정된 위치에 도착했으며, 지원할 준비가 되어 있습니다.</RKU_GuerrillasArrivedText>
+
+   <!-- Drilling Vehicle Messages -->
+  <!-- EN: Drilling vehicle durability is too low, cannot use! -->
+  <RKU_DrillingVehicleLowDurability>드릴러 차량 내구도가 너무 낮아 사용할 수 없습니다!</RKU_DrillingVehicleLowDurability>
+  <!-- EN: No other colonists on the map, cannot move! -->
+  <RKU_NoOtherColonistsOnMap>지도에 다른 정착민이 없어 이동할 수 없습니다!</RKU_NoOtherColonistsOnMap>
+  <!-- EN: Drilling out of the drilling machine requires colonists to exist both on the map and inside the drilling machine -->
+  <!-- EN: Drilling out of the drilling machine requires colonists to exist both on the map and inside the drilling machine -->
+  <RKU_DrillOutDisabledReason>드릴러 차량이 지상으로 나오려면 지도에 있는 정착민과 차량 내부의 정착민이 모두 필요합니다.</RKU_DrillOutDisabledReason>
+
+  <!-- Castle Reinforcement Messages -->
+  <!-- EN: Ratkin reinforcements have arrived! -->
+  <RKU_RatkinReinforcementsArrived>랫킨 증원군이 도착했습니다!</RKU_RatkinReinforcementsArrived>
+
+  <!-- Guerrilla Final Defeat Messages -->
+  <!-- EN: Guerrilla Organization Collapse -->
+  <!-- EN: Guerrilla Organization Collapse -->
+  <RKU_GuerrillaOrganizationCollapse>빨치산 조직 붕괴</RKU_GuerrillaOrganizationCollapse>
+  <!-- EN: The guerrillas have suffered major losses and morale has collapsed. Their organization is effectively defunct and they will do anything to escape this area.\n\nThe guerrilla faction has been destroyed. -->
+  <!-- EN: The guerrillas have suffered major losses and morale has collapsed. Their organization is effectively defunct and they will do anything to escape this area.\n\nThe guerrilla faction has been destroyed. -->
+  <RKU_GuerrillaOrganizationCollapseDesc>빨치산 부대가 큰 피해를 입어 사기가 붕괴했습니다. 조직은 사실상 해체되었으며, 이 지역에서 어떻게든 빠져나가려 할 것입니다.\n\n빨치산 세력이 파괴되었습니다.</RKU_GuerrillaOrganizationCollapseDesc>
+  <!-- EN: Guerrilla Army Annihilated -->
+  <!-- EN: Guerrilla Army Annihilated -->
+  <RKU_GuerrillaLeadershipAnnihilated>빨치산 지도부 전멸</RKU_GuerrillaLeadershipAnnihilated>
+  <!-- EN: The guerrilla elite forces and leadership have been nearly annihilated, their organization has perished.\n\nThe guerrilla faction has been removed. -->
+  <!-- EN: The guerrilla elite forces and leadership have been nearly annihilated, their organization has perished.\n\nThe guerrilla faction has been destroyed. -->
+  <RKU_GuerrillaLeadershipAnnihilatedDesc>빨치산의 정예 병력과 지도부가 거의 전멸했습니다. 조직은 완전히 소멸되었습니다.\n\n빨치산 세력이 파괴되었습니다.</RKU_GuerrillaLeadershipAnnihilatedDesc>
+
+  <!-- EN: Final Desperate Attack -->
+  <RKU_FinalDesperateAttack>최후의 필사 공격</RKU_FinalDesperateAttack>
+  <!-- EN: The enemy has launched their final desperate attack! The guerrillas have deployed their ultimate weapon on the brink of collapse. -->
+  <!-- EN: The enemy has launched their final desperate attack! The guerrillas have deployed their ultimate weapon on the brink of collapse. -->
+  <RKU_FinalDesperateAttackDesc>적이 최후의 필사 공격을 개시했습니다! 빨치산은 붕괴 직전 최종 병기를 투입했습니다.</RKU_FinalDesperateAttackDesc>
+
+  <!-- Factory Raid Messages -->
+  <!-- EN: Enemy Raid -->
+  <RKU_EnemyRaid>적 습격</RKU_EnemyRaid>
+  <!-- EN: {0} is launching a raid on the factory!\nRaid Points: {1}\nTotal Enemy Deaths: {2}/800 -->
+  <!-- EN: {0} is launching a raid on the factory!\nRaid Points: {1}\nTotal Enemy Deaths: {2}/800 -->
+  <RKU_EnemyRaidDesc>{0}(이)가 공장을 습격하고 있습니다!\n습격 전력: {1}\n총 적 사망자: {2}/800.</RKU_EnemyRaidDesc>
+
+  <!-- Burst Fire Ability Translations -->
+  <!-- EN: Burst Fire -->
+  <RKU_BurstFireLabel>연발 사격</RKU_BurstFireLabel>
+  <!-- EN: Fire 21 shots in rapid succession, then the weapon will overheat and be unusable for 10 seconds. Cooldown: 30 seconds. -->
+  <RKU_BurstFireDescription>순식간에 25발의 탄환을 쏟아냅니다. 이후 무기가 심각하게 과열되어 10초 동안 사용할 수 없게 됩니다. 재사용 대기시간: 30초.</RKU_BurstFireDescription>
+  <!-- EN: Skill on cooldown, {0} seconds remaining -->
+  <RKU_BurstFireCooldown>기술 재사용 대기 중, {0}초 남음</RKU_BurstFireCooldown>
+  <!-- EN: Weapon overheating, {0} seconds remaining -->
+  <RKU_BurstFireDisabled>무기 과열됨, {0}초 남음</RKU_BurstFireDisabled>
+  <!-- EN: Burst firing in progress... ({0} shots remaining) -->
+  <RKU_BurstFireActive>연발 사격 진행 중... ({0}발 남음)</RKU_BurstFireActive>
+  <!-- EN: Weapon is not equipped -->
+  <RKU_BurstFireNoHolder>무기를 장착하지 않았습니다</RKU_BurstFireNoHolder>
+  <!-- EN: Weapon has no attack capability -->
+  <RKU_BurstFireNoVerb>무기에 공격 능력이 없습니다</RKU_BurstFireNoVerb>
+  <!-- EN: Cannot attack this target -->
+  <RKU_BurstFireInvalidTarget>이 대상을 공격할 수 없습니다</RKU_BurstFireInvalidTarget>
+  <!-- EN: Debug Features: -->
+  <RKU_DebugFeatures>디버그 기능:</RKU_DebugFeatures>
+  <!-- EN: Try Trigger Guerrillas Coming Quest -->
+  <!-- EN: Try Trigger Guerrillas Coming Quest -->
+  <RKU_TryTriggerGuerrillasQuest>빨치산 도착 퀘스트 강제 발생 시도</RKU_TryTriggerGuerrillasQuest>
+  <!-- EN: Please contact the guerrillas on the radio to expand faction relationship limits -->
+  <!-- EN: Please contact the guerrillas on the radio to expand faction relationship limits -->
+  <RKU_RelationLimitExceeded>세력 관계 한도를 확장하려면 무전기로 빨치산 측과 교신하십시오.</RKU_RelationLimitExceeded>
+  <!-- EN: Tech Breakthrough -->
+  <RKU_TechprintReceived>기술 혁신</RKU_TechprintReceived>
+  <!-- EN: {0} technology has achieved a breakthrough, and the blueprint has been organized by your scientists. -->
+  <RKU_TechprintReceivedDesc>{0} 기술 연구에 획기적인 진전이 있었습니다. 우리 정착지의 연구원들이 이 기술의 청사진을 성공적으로 정리했습니다.</RKU_TechprintReceivedDesc>
+  <!-- EN: The guerrillas send a warning: There is a noble here using a very dangerous special weapon. -->
+  <!-- EN: The guerrillas send a warning: There is an enemy here using a very dangerous special weapon. -->
+  <RKU_NobleWarning>빨치산 측에서 긴급 경고를 보내왔습니다: 이 일대에 매우 위험한 특수 무기로 무장한 적이 도사리고 있습니다.</RKU_NobleWarning>
+  <!-- EN: The guerrillas send a message: A powerful prototype weapon is stored in the factory, you can search for and use it. -->
+  <!-- EN: The guerrillas send a message: A powerful prototype weapon is stored in the factory, you can search for and use it. -->
+  <RKU_FactoryWeaponMessage>빨치산 측의 메시지: 공장 내부에 강력한 프로토타입 무기가 보관되어 있습니다. 이를 찾아내어 전력으로 활용하세요.</RKU_FactoryWeaponMessage>
+  <!-- EN: Target is already in your faction -->
+  <RKU_AlreadyPlayerFaction>대상이 이미 같은 세력에 속해 있습니다.</RKU_AlreadyPlayerFaction>
+  <!-- EN: Cannot change destination while drilling vehicle is in motion -->
+  <RKU_CantChangeDestination>드릴러가 이동 중일 때는 목적지를 변경할 수 없습니다.</RKU_CantChangeDestination>
+  <!-- EN: War Continues -->
+  <RKU_FactoryWarLetter>작전 승리?</RKU_FactoryWarLetter>
+  <!-- EN: The troops attacking the guerrilla factory have all been eliminated, but as long as the warlords exist, the war has no possibility of stopping... -->
+  <RKU_FactoryWarContinues>빨치산 공장을 공격하던 병력은 모조리 섬멸되었고, 마침내 빨치산들은 이곳에 굳건히 자리 잡았습니다. 하지만 무자비한 군벌들이 단 하루라도 숨을 쉬고 있는 한, 이 처절한 전쟁이 끝날 일은 결코 없을 것입니다.</RKU_FactoryWarContinues>
+  <!-- EN: The guerrillas send a message: There is a powerful prototype weapon here, you can search for and use it. -->
+  <RKU_AncientWeaponMessage>빨치산 측의 메시지: 이곳에 강력한 프로토타입 무기가 숨겨져 있습니다. 이를 찾아내어 전력으로 활용하세요.</RKU_AncientWeaponMessage>
+  <!-- EN: Settlement Established -->
+  <RKU_GenerateSettled>정착지 구축됨</RKU_GenerateSettled>
+  <!-- EN: With the help of nearby Ratkin residents, the Ratkin Guerrillas have established a settlement near the colony. -->
+  <RKU_GenerateSettledDesc>인근 랫킨 주민들의 헌신적인 도움으로, 랫킨 빨치산 부대가 정착지 근처에 새로운 거점을 구축했습니다.</RKU_GenerateSettledDesc>
+  <RKU_QuestNeed>빨치산 우호도를 더 높여야 합니다 (만약 80레벨 퀘스트를 이미 완료했다면, 더 이상의 후속 퀘스트는 없습니다)</RKU_QuestNeed>
+
+
+  <!-- Mod Settings Translations -->
+  <!-- EN: Show only current dialogue messages -->
+  <RKU_ShowOnlyCurrentDialogueMessages>현재 대화 메시지만 표시</RKU_ShowOnlyCurrentDialogueMessages>
+  <!-- EN: When enabled, opening the radio dialogue window will clear history messages and only show content from the current conversation. When disabled, all history messages will be retained. -->
+  <RKU_ShowOnlyCurrentDialogueMessagesDesc>이 옵션을 활성화하면 무전기 대화창을 열 때 이전 대화 기록이 지워지고 현재 대화 내용만 표시됩니다. 비활성화하면 모든 이전 메시지 기록이 유지됩니다.</RKU_ShowOnlyCurrentDialogueMessagesDesc>
+  <!-- EN: Adjust radio dialogue display behavior. When enabled, each time you open the radio will start a new conversation session. -->
+  <RKU_RadioDialogueBehaviorDesc>무전기 대화 표시 방식을 조정합니다. 활성화 시, 무전기를 켤 때마다 새로운 대화 세션이 시작됩니다.</RKU_RadioDialogueBehaviorDesc>
+  <!-- EN: Allow rescue mechs -->
+  <RKU_AllowRescueMechs>메카노이드 구조 허용</RKU_AllowRescueMechs>
+  <!-- EN: When enabled, player-controlled mechs can be rescued into the drilling vehicle even if they are not downed -->
+  <RKU_AllowRescueMechsDesc>이 옵션을 활성화하면 쓰러지지 않은 상태라도 플레이어가 조종하는 메카노이드를 드릴러에 탑승시킬 수 있습니다.</RKU_AllowRescueMechsDesc>
+  <!-- EN: Unload items -->
+  <RKU_UnloadItems>아이템 하역</RKU_UnloadItems>
+  <!-- EN: Unload items, fill 0 to unload -->
+  <RKU_UnloadItemsDesc>아이템을 하역합니다. 0을 입력하면 모두 하역합니다.</RKU_UnloadItemsDesc>
+  <!-- EN: Please use right-click to put {0} into passenger seat -->
+  <RKU_PawnInCargo>우클릭을 사용하여 {0}(을)를 조수석에 탑승시키십시오.</RKU_PawnInCargo>
+  <!-- EN: {0} cannot be placed in cargo, building has been removed -->
+  <RKU_BuildingInCargo>{0}(은)는 화물칸에 적재할 수 없습니다.</RKU_BuildingInCargo>
+  
+</LanguageData>
