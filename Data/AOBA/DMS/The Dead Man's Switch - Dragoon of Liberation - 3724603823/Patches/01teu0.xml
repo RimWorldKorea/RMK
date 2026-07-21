@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SDOL_Apparel_AntigrainPod"]/verbs/*[.//*[contains(text(), 'Verb_LaunchProjectileStaticCE')]]/label</xpath>
+          <value>
+            <label>미사일 발사</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SDOL_Apparel_AntigrainPod"]/comps/li[2]/chargeNoun</xpath>
+          <value>
+            <chargeNoun>미사일</chargeNoun>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SDOL_Apparel_ThunderGrenadePod"]/comps/li[2]/chargeNoun</xpath>
+          <value>
+            <chargeNoun>로켓</chargeNoun>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SDOL_Apparel_KornetLauncher"]/verbs/*[.//*[contains(text(), 'Verb_LaunchProjectileStaticCE')]]/label</xpath>
+          <value>
+            <label>미사일 발사</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="SDOL_Apparel_KornetLauncher"]/comps/li[2]/chargeNoun</xpath>
+          <value>
+            <chargeNoun>미사일</chargeNoun>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
