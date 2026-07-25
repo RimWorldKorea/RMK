@@ -2,10 +2,10 @@
 <LanguageData>
 
   <AB_VerboseLogging>상세 로깅</AB_VerboseLogging>
-  <AB_VerboseLoggingTip>로그에 자세한 진단 메시지를 기록합니다. 버그를 추적할 때만 유용합니다.</AB_VerboseLoggingTip>
+  <AB_VerboseLoggingTip>로그에 상세한 진단 메시지를 기록합니다. 버그를 추적할 때만 유용합니다.</AB_VerboseLoggingTip>
 
-  <AB_GoUp>위층으로 이동</AB_GoUp>
-  <AB_GoDown>아래층으로 이동</AB_GoDown>
+  <AB_GoUp>올라가기</AB_GoUp>
+  <AB_GoDown>내려가기</AB_GoDown>
   <AB_NoPath>경로 없음</AB_NoPath>
   <AB_NotLinkedShort>연결되지 않음</AB_NotLinkedShort>
   <AB_NotLinkedLine>아직 다른 층과 연결되지 않았습니다.</AB_NotLinkedLine>
@@ -13,152 +13,271 @@
   <AB_LinkedBelow>아래층과 연결됨.</AB_LinkedBelow>
   <AB_ViewAbove>위층 보기</AB_ViewAbove>
   <AB_ViewBelow>아래층 보기</AB_ViewBelow>
-  <AB_ViewOtherLevelDesc>다른 층의 연결된 계단실로 시점을 이동합니다. Page Up 및 Page Down 키를 눌러 층을 전환할 수도 있습니다.</AB_ViewOtherLevelDesc>
-  <AB_BasementCreated>지하 층이 개방되었습니다. 단단한 암반으로 이루어져 있으므로, 채굴하여 확장하세요.</AB_BasementCreated>
-  <AB_SkyCreated>하늘 층이 개방되었습니다. 지붕이 있는 방 위에 바닥을 건설하여 위쪽으로 확장하세요.</AB_SkyCreated>
-  <AB_OnlySurfaceForNow>지상 층에만 설치할 수 있습니다.</AB_OnlySurfaceForNow>
-  <AB_LevelCap>층 제한에 도달했습니다 (위로 한 층, 아래로 한 층).</AB_LevelCap>
+  <AB_ViewOtherLevelDesc>카메라를 다른 층의 연결된 계단실로 이동합니다. Page Up 및 Page Down 키를 눌러 층을 전환할 수도 있습니다.</AB_ViewOtherLevelDesc>
+  <AB_BasementCreated>지하 층이 개방되었습니다. 단단한 암반으로 이루어져 있으므로 채굴하여 확장하세요.</AB_BasementCreated>
+  <AB_SkyCreated>하늘 층이 개방되었습니다. 지붕이 있는 방 위로 바닥을 건설하여 위로 확장하세요.</AB_SkyCreated>
+  <AB_OnlySurfaceForNow>지상 층에만 건설할 수 있습니다.</AB_OnlySurfaceForNow>
+  <AB_LevelCap>층 제한 도달 (위로 하나, 아래로 하나).</AB_LevelCap>
+  <AB_NoLevelsUrbanRuins>여기에 층을 추가할 수 없습니다: 고대 도시 유적 탐사 맵입니다. 도시 유적 내부에 수직 기지를 건설하려면 'As above, So below' 설정의 호환성 탭에서 활성화하세요.</AB_NoLevelsUrbanRuins>
   <AB_ShowLiveBelow>아래층의 실시간 움직임 표시</AB_ShowLiveBelow>
-  <AB_ShowLiveBelowTip>탁 트인 공기를 통해 아래를 내려다볼 때 아래층의 정착민, 동물, 투사체를 표시합니다. 하늘 층에서 약간의 성능 향상을 원할 경우 끄세요.</AB_ShowLiveBelowTip>
-  <AB_SelectBelowInPlace>아래층의 정착민 선택</AB_SelectBelowInPlace>
-  <AB_SelectBelowInPlaceTip>하늘 보기 상태를 유지한 채로 탁 트인 공간 너머로 보이는 아래층 정착민을 클릭하여 선택합니다. 아래층의 실시간 움직임 표시가 활성화되어 있어야 합니다.</AB_SelectBelowInPlaceTip>
+  <AB_ShowLiveBelowTip>탁 트인 공중을 통해 아래를 내려다볼 때 아래층의 림, 동물, 발사체를 렌더링합니다. 하늘 층에서 약간의 성능 향상을 원하면 끄십시오.</AB_ShowLiveBelowTip>
+  <AB_SelectBelowInPlace>아래층의 대상 선택</AB_SelectBelowInPlace>
+  <AB_SelectBelowInPlaceTip>하늘 시점를 떠나지 않고 탁 트인 공중을 통해 아래층에서 보이는 림, 아이템, 건물을 클릭하여 선택합니다. 지상에서와 마찬가지로 아이템을 더블 클릭하면 근처의 동일한 유형의 모든 아이템이 선택됩니다. 아래층의 실시간 움직임 표시가 활성화되어 있어야 합니다.</AB_SelectBelowInPlaceTip>
+  <AB_BelowItemOverlays>아래층 아이템 수량 표시</AB_BelowItemOverlays>
+  <AB_BelowItemOverlaysTip>아래층 아이템 위에 적재 수량과 품질 문자를 표시하여 하늘에서 대충 봐도 지상 보관함을 파악할 수 있게 합니다. 지상에서와 마찬가지로 화면을 최대로 확대하면 숫자가 나타납니다.</AB_BelowItemOverlaysTip>
   <AB_BelowDim>아래층 어둡게 표시</AB_BelowDim>
-  <AB_BelowDimTip>위에서 아래를 내려다볼 때 아래층의 뷰를 어둡게 만드는 정도입니다.</AB_BelowDimTip>
-  <AB_BelowDepthShift>아래층 뷰 깊이 오프셋</AB_BelowDepthShift>
-  <AB_BelowDepthShiftTip>고지대 플랫폼과 벽이 땅에 그려진 것처럼 보이지 않고 솟아 있는 것처럼 보이도록 아래층 전체 뷰를 화면 아래쪽으로 살짝 이동합니다. 셀 단위로 측정되며, 0은 정확한 정렬로 복원합니다.</AB_BelowDepthShiftTip>
-  <AB_SlabEdge>지붕 슬래브 모서리 표시</AB_SlabEdge>
-  <AB_SlabEdgeTip>옥상, 하늘 바닥, 참가는 탁 트인 공기와 접하는 모서리를 따라 어두운 측면 면을 표시하여 상층이 아래층 위에 쌓인 슬래브처럼 보이도록 합니다. 남쪽 면의 높이는 아래층 뷰 깊이 오프셋을 따릅니다.</AB_SlabEdgeTip>
-  <AB_WallReveal>옥상에 테두리 벽 드러내기</AB_WallReveal>
-  <AB_WallRevealTip>옥상 타일의 바깥쪽 고리는 탁 트인 공기와 접하는 모서리를 따라 지지 벽 상단의 스트립을 표시하여 지붕이 떠 있는 것이 아니라 아래의 벽 라인에 안착해 있는 것처럼 보이게 합니다. 테두리에 지어지는 모든 것에 의해 가려집니다.</AB_WallRevealTip>
+  <AB_BelowDimTip>위에서 내려다볼 때 아래층 시야를 어둡게 만드는 정도입니다. 기본적으로 낮게 유지됩니다. 아래쪽 땅이 밝고 선명하게 유지되어야 빈 공간이 구덩이가 아니라 높이 솟은 층으로 느껴집니다.</AB_BelowDimTip>
+  <AB_SlabEdge>슬라브 가장자리 외곽선 그리기</AB_SlabEdge>
+  <AB_SlabEdgeTip>탁 트인 공중과 접하는 옥상 및 바닥 가장자리에 얇은 어두운 외곽선을 표시하여, 슬라브 경계가 거친 텍스처 경계 대신 깔끔한 이음새처럼 보이게 합니다.</AB_SlabEdgeTip>
+  <AB_WallReveal>옥상에 테두리 벽 표시</AB_WallReveal>
+  <AB_WallRevealTip>탁 트인 공중과 접하는 가장자리를 따라 옥상 타일의 바깥쪽 고리에 지지 벽의 상단 스트립이 표시되므로, 지붕이 공중에 떠 있는 것이 아니라 아래의 벽 라인에 얹혀 있는 것처럼 보입니다. 가장자리에 지어진 건축물에 의해 가려집니다.</AB_WallRevealTip>
   <AB_WallRevealWidth>테두리 벽 스트립 너비</AB_WallRevealWidth>
-  <AB_WallRevealWidthTip>바깥쪽 옥상 타일이 아래쪽 벽을 보여주는 비율(셀 단위)입니다.</AB_WallRevealWidthTip>
-  <AB_WallFacade>슬래브 모서리 아래에 벽 면 그리기</AB_WallFacade>
-  <AB_WallFacadeTip>남향 슬래브 모서리는 단순한 어두운 면 대신 실제 벽의 일부분을 표시하여, 지붕 모서리에 지어진 벽과 그 아래의 벽이 하나의 연속된 높은 벽처럼 보이도록 합니다. 아래층 뷰 깊이 오프셋을 따릅니다.</AB_WallFacadeTip>
+  <AB_WallRevealWidthTip>바깥쪽 옥상 타일 중 아래의 벽을 보여주는 비율(칸 단위).</AB_WallRevealWidthTip>
   <AB_BelowScale>아래층 오브젝트 크기 비율</AB_BelowScale>
-  <AB_BelowScaleTip>아래층의 정착민, 동물, 아이템, 식물 및 가구는 실제 크기보다 작게 그려져, 한 층 아래를 내려다보는 듯한 축소 효과를 줍니다. 모든 오브젝트가 제자리의 셀 안에서 줄어들므로 미끄러지거나 어긋나지 않습니다. 벽 및 기타 연결된 구조물은 원래 크기를 유지합니다.</AB_BelowScaleTip>
-  <AB_BelowParallax>아래층 시차(Parallax) 효과</AB_BelowParallax>
-  <AB_BelowParallaxTip>화면을 이동할 때 아래층이 카메라에 대해 살짝 움직여 실제 원근감을 모사합니다. 시각적인 효과뿐이며, 화면 가장자리 근처에서 약간의 지붕 모서리 어긋남을 감수하고 더 강한 깊이감을 줍니다.</AB_BelowParallaxTip>
-  <AB_BelowParallaxStrength>시차 강도</AB_BelowParallaxStrength>
-  <AB_BelowParallaxStrengthTip>화면 가장자리에서 아래층이 변위되는 거리(셀 단위). 화면 상의 변위는 줌 레벨 전반에 걸쳐 일정하게 유지됩니다.</AB_BelowParallaxStrengthTip>
+  <AB_BelowScaleTip>아래층의 림, 동물, 아이템, 식물, 가구의 크기를 실제보다 작게 그려 전체 층을 내려다보는 듯한 축소 효과를 줍니다. 모든 오브젝트가 각자의 칸에서 제자리에 축소되므로 밀리거나 어긋나지 않습니다. 벽 및 기타 연결된 구조물은 실제 크기를 유지합니다.</AB_BelowScaleTip>
+  <AB_TabGeneration>생성</AB_TabGeneration>
+  <AB_TabView>시야 및 카메라</AB_TabView>
+  <AB_TabWork>작업 및 물류</AB_TabWork>
+  <AB_TabCombat>전투 및 위협</AB_TabCombat>
+  <AB_TabCompat>호환성</AB_TabCompat>
+  <AB_TabAdvanced>고급</AB_TabAdvanced>
+  <AB_CompatNote>감지된 다른 'As above, So below' 모드에 대한 옵션입니다. 해당 모드가 로드된 경우에만 섹션이 나타납니다.</AB_CompatNote>
+  <AB_CompatNoneDetected>설정 가능한 호환성 옵션이 있는 모드가 감지되지 않았습니다. 별도의 옵션이 필요 없는 다른 모드와의 호환성은 자동으로 처리됩니다.</AB_CompatNoneDetected>
+  <AB_CompatAUR>고대 도시 유적</AB_CompatAUR>
+  <AB_AllowUrbanRuinsLevels>도시 유적 맵에서 Z축 층 허용</AB_AllowUrbanRuinsLevels>
+  <AB_AllowUrbanRuinsLevelsTip>기본적으로 고대 도시 유적 탐사 맵에서는 계단을 건설할 수 없으므로 임시 퀘스트 맵 위에 하늘이나 지하실을 실수로 겹쳐 짓는 일이 없습니다. 이 옵션을 켜면 도시 유적 맵을 일반 지상으로 취급하여 그 내부에 수직 기지를 건설할 수 있습니다. 유적 맵 자체가 제거될 때 그곳에 건설한 층들도 깔끔하게 함께 제거됩니다.</AB_AllowUrbanRuinsLevelsTip>
+  <AB_GenNote>생성 설정은 층이 처음 생성될 때 적용됩니다. 기존 하늘 및 지하 층은 생성될 당시의 외형을 유지합니다.</AB_GenNote>
+  <AB_Presets>봉우리 프리셋</AB_Presets>
+  <AB_PresetsTip>새로 생성되는 산봉우리를 위한 원클릭 외형 설정입니다. '기본값'은 모든 생성 설정을 복원하며, 나머지는 아래의 봉우리 슬라이더를 조정하되 광석 및 동굴 설정은 변경하지 않습니다.</AB_PresetsTip>
+  <AB_PresetDefault>기본값</AB_PresetDefault>
+  <AB_PresetDramatic>극적인 봉우리</AB_PresetDramatic>
+  <AB_PresetSubtle>은은한 봉우리</AB_PresetSubtle>
+  <AB_PresetLush>무성한 봉우리</AB_PresetLush>
+  <AB_PlateauOpenness>고원 개방도</AB_PlateauOpenness>
+  <AB_PlateauOpennessTip>산의 깊은 내부 중 단단한 암반 대신 걸어 다닐 수 있는 초원 고원으로 열리는 비율입니다. 값이 낮으면 험준하고 대부분 단단한 봉우리가 되고, 값이 높으면 넓고 탁 트인 고지가 됩니다.</AB_PlateauOpennessTip>
+  <AB_MeadowScale>초원 크기</AB_MeadowScale>
+  <AB_MeadowScaleTip>초원 패턴의 규모입니다. 값이 높으면 크고 서로 연결된 몇 개의 초원이 만들어지고, 값이 낮으면 작고 구불구불한 바위 손가락 모양의 주머니들이 많이 흩어집니다.</AB_MeadowScaleTip>
+  <AB_TerraceMax>가장자리 대지 폭</AB_TerraceMax>
+  <AB_TerraceMaxTip>산 가장자리를 따라 난 걸어 다닐 수 있는 바위 테라스가 산 내부로 파고들 수 있는 최대 깊이(칸 단위). 1은 고전적인 단일 덤벙이며, 값이 높을수록 넓은 선반 형태의 구간이 열립니다.</AB_TerraceMaxTip>
+  <AB_OutcropDensity>돌출부 밀도</AB_OutcropDensity>
+  <AB_OutcropDensityTip>탁 트인 고원을 점유하는 바위 돌출부 마운트의 수입니다. 0%로 설정하면 완전히 제거됩니다.</AB_OutcropDensityTip>
+  <AB_Tarns>산정 호수</AB_Tarns>
+  <AB_TarnsTip>탁 트인 고원에 고인 작은 산정 호수들로, 큰 호수의 중심에는 깊은 물이 있습니다. 0%로 설정하면 고원이 건조하게 유지됩니다.</AB_TarnsTip>
+  <AB_HiddenValleys>숨겨진 계곡</AB_HiddenValleys>
+  <AB_HiddenValleysTip>완전히 바위로 둘러싸여 밀폐된 채 탐험되지 않은 상태로 유지되는 초원 주머니(숨겨진 계곡)의 비율입니다. 나머지는 좁고 걸을 수 있는 틈새로 뚫려 도달 가능한 협곡 초원으로 생성됩니다.</AB_HiddenValleysTip>
+  <AB_SkyOre>하늘 층 광석 밀도</AB_SkyOre>
+  <AB_SkyOreTip>새로 생성되는 하늘 층의 산 질량 10,000칸당 광석 덩어리 수입니다.</AB_SkyOreTip>
+  <AB_BasementOre>지하 층 광석 밀도</AB_BasementOre>
+  <AB_BasementOreTip>새로 생성되는 지하실 암반 10,000칸당 광석 덩어리 수입니다.</AB_BasementOreTip>
+  <AB_ChamberFreq>동굴 방 빈도</AB_ChamberFreq>
+  <AB_ChamberFreqTip>동굴 네트워크가 채굴 단계마다 넓은 방 형태로 확장되는 빈도(백퍼센트 기준). 방은 동굴 생태계 자체의 호수와 지형 특징이 위치하는 곳이기도 하므로, 더 촉촉하고 넓은 동굴을 원한다면 이 값을 높이세요.</AB_ChamberFreqTip>
+  <AB_CavernFormations>동굴 지형 생성물 밀도</AB_CavernFormations>
+  <AB_CavernFormationsTip>생성된 동굴 내 종석 및 기타 'Biomes! Caverns' 생성물의 밀도입니다. 0%로 설정하면 완전히 건너뜁니다.</AB_CavernFormationsTip>
+  <AB_PreviewTitle>생성 미리보기</AB_PreviewTitle>
+  <AB_PreviewUpper>상층</AB_PreviewUpper>
+  <AB_PreviewLower>하층</AB_PreviewLower>
+  <AB_PreviewReroll>샘플 다시 돌리기</AB_PreviewReroll>
+  <AB_PreviewNote>예시 샘플입니다. 실제 봉우리는 실제 산 지형을 따릅니다.</AB_PreviewNote>
+  <AB_LegendMeadow>초원</AB_LegendMeadow>
+  <AB_LegendRock>암반 질량</AB_LegendRock>
+  <AB_LegendLedge>선반지</AB_LegendLedge>
+  <AB_LegendTarn>산정 호수</AB_LegendTarn>
+  <AB_LegendHidden>숨겨진 계곡</AB_LegendHidden>
+  <AB_LegendAir>탁 트인 공중</AB_LegendAir>
+  <AB_SkyLandmarks>하늘 층의 랜드마크</AB_SkyLandmarks>
+  <AB_SkyLandmarksTip>새로 생성된 하늘 층에는 고대 연기 배출구, 기념물 및 Odyssey 랜드마크 시스템의 기타 기능(Vanilla Landmarks Expanded와 같은 모드에서 추가된 랜드마크 포함)이 위치할 수 있습니다. 랜드마크에는 실제 산지 지형이 필요합니다. 최소 7x7 크기 이상의 탁 트인 고원이 있는 층에만 나타나며 구조물은 고원 범위 내로 제한됩니다. 하늘 층이 처음 생성될 때 적용됩니다.</AB_SkyLandmarksTip>
+  <AB_LandmarkChance>랜덤 랜드마크 확률</AB_LandmarkChance>
+  <AB_LandmarkChanceTip>탁 트인 고원 지형이 있는 새로 생성된 하늘 층이 '랜덤'으로 설정된 랜드마크 풀에서 하나의 랜드마크를 굴릴 확률입니다.</AB_LandmarkChanceTip>
+  <AB_LandmarkMax>층당 랜드마크 수</AB_LandmarkMax>
+  <AB_LandmarkMaxTip>하나의 하늘 층이 가질 수 있는 최대 랜드마크 수로, 강제, 활성화 및 무작위로 굴려진 랜드마크를 모두 합산합니다.</AB_LandmarkMaxTip>
+  <AB_LandmarksExpand>랜드마크 설정 ({0})...</AB_LandmarksExpand>
+  <AB_LandmarksCollapse>랜드마크 목록 숨기기 ({0})</AB_LandmarksCollapse>
+  <AB_LandmarksNeedOdyssey>하늘 층의 랜드마크는 Odyssey 확장팩이 필요합니다.</AB_LandmarksNeedOdyssey>
+  <AB_LandmarkDisabled>비활성화됨</AB_LandmarkDisabled>
+  <AB_LandmarkRandom>랜덤</AB_LandmarkRandom>
+  <AB_LandmarkEnabled>활성화됨</AB_LandmarkEnabled>
+  <AB_LandmarkForced>강제됨</AB_LandmarkForced>
+  <AB_GuardPanel>하위 시스템 상태</AB_GuardPanel>
+  <AB_GuardPanelTip>모든 하위 시스템은 자체 킬 스위치 뒤에서 실행됩니다. 오류가 발생하면 자체적으로 종료되어 모드의 나머지 부분과 게임이 계속 실행되도록 합니다. 트립된(오류로 중단된) 하위 시스템이 여기에 나열되며 다시 활성화할 수 있습니다. 게임이 로드될 때도 재설정됩니다.</AB_GuardPanelTip>
+  <AB_GuardAllGreen>모든 {0} 하위 시스템이 정상적으로 실행 중입니다.</AB_GuardAllGreen>
+  <AB_GuardTripped>{0} - {1}에서 오류가 발생한 후 종료됨</AB_GuardTripped>
+  <AB_ReArm>재활성화</AB_ReArm>
+  <AB_ResetTab>이 탭을 기본값으로 재설정</AB_ResetTab>
+  <AB_ResetAll>모든 설정을 기본값으로 재설정</AB_ResetAll>
+  <AB_ResetAllConfirm>모든 탭의 모든 설정을 기본값으로 재설정하시겠습니까?</AB_ResetAllConfirm>
+  <AB_SkyBiomeInherit>하늘 층이 지상 생태계 계승</AB_SkyBiomeInherit>
+  <AB_SkyBiomeInheritTip>새로 생성된 하늘 층은 아래쪽 지상 맵과 동일한 생태계를 사용하므로 고원 토양, 녹음, 나무 재생성, 야생 식물 구성, 날씨가 산 주변 세계와 일치합니다(모드로 추가된 생태계 포함. 해당 생태계의 비옥한 지형과 식물이 봉우리까지 이어집니다). 하늘 층이 처음 생성될 때 적용되며, 기존 하늘 층은 생성될 때 가졌던 생태계를 유지합니다. 끄면 삭살한 고산 지대 외형으로 복원됩니다.</AB_SkyBiomeInheritTip>
   <AB_ClimbTime>계단 오르기 시간</AB_ClimbTime>
-  <AB_ClimbTimeTip>모든 계단 유형을 오르는 데 걸리는 시간을 배율로 조절합니다. 사다리는 일반 계단보다 느리고, 웅장한 계단은 상관없이 더 빠릅니다.</AB_ClimbTimeTip>
-  <AB_ShowCeilingHint>지상에 천장 힌트 표시</AB_ShowCeilingHint>
-  <AB_ShowCeilingHintTip>건설된 하늘 층 바닥 아래의 셀에는 희미한 천장 텍스처가 그려지므로, 지상을 보면서 머리 위에 구조물이 있음을 알 수 있습니다.</AB_ShowCeilingHintTip>
+  <AB_ClimbTimeTip>모든 계단 유형을 오르는 데 걸리는 시간을 배율로 조절합니다. 사다리는 느리고 웅장한 계단은 일반 계단보다 관계없이 더 빠릅니다.</AB_ClimbTimeTip>
+  <AB_ShowCeilingHint>지상에 천장 안내 표시</AB_ShowCeilingHint>
+  <AB_ShowCeilingHintTip>건설된 하늘 층 바닥 아래의 칸들에 희미한 천장 텍스처를 그려주므로, 지상을 볼 때 머리 위에 구조물이 있음을 알 수 있습니다.</AB_ShowCeilingHintTip>
   <AB_StairsCollapsed>계단실이 지지를 잃고 무너졌습니다.</AB_StairsCollapsed>
-  <AB_DismountFirst>계단이나 엘리베이터를 이용하기 전에 탑승물에서 내리세요.</AB_DismountFirst>
-  <AB_GoUpDesc>가장 가까운 계단을 이용해 위층으로 이동합니다.</AB_GoUpDesc>
-  <AB_GoDownDesc>가장 가까운 계단을 이용해 아래층으로 이동합니다.</AB_GoDownDesc>
-  <AB_NoStairs>이 층에 연결된 계단이 없습니다</AB_NoStairs>
+  <AB_DismountFirst>계단이나 엘리베이터를 이용하기 전에 탑승 중인 동물에서 내리십시오.</AB_DismountFirst>
+  <AB_GoUpDesc>가장 가까운 계단을 타고 위층으로 이동합니다.</AB_GoUpDesc>
+  <AB_GoDownDesc>가장 가까운 계단을 타고 아래층으로 이동합니다.</AB_GoDownDesc>
+  <AB_NoStairs>이 층에는 연결된 계단이 없습니다</AB_NoStairs>
   <AB_LinkBlocked>계단실을 연결할 수 없습니다. 다른 층의 대응되는 위치가 막혀 있습니다.</AB_LinkBlocked>
   <AB_BlockedOnTarget>다른 층의 대응되는 위치가 막혀 있습니다.</AB_BlockedOnTarget>
   <AB_NoSupportOnTarget>다른 층의 대응되는 위치는 계단실을 지탱할 수 없습니다.</AB_NoSupportOnTarget>
   <AB_NoStairsToLevel>{0}(으)로 연결되는 계단이 없습니다</AB_NoStairsToLevel>
   <AB_LevelAbove>위층</AB_LevelAbove>
   <AB_LevelBelow>아래층</AB_LevelBelow>
-  <AB_CrossLevelOrders>선택한 정착민에게 층간 명령 내리기</AB_CrossLevelOrders>
-  <AB_CrossLevelOrdersTip>아래층에서 선택한 정착민에게 우클릭으로 명령을 내리면, 가장 가까운 계단으로 걸어가 위로 이동한 후 이 층의 선택된 지점에서 명령을 수행합니다. 징집된 이동, 공격, 운반, 작업 명령을 포함합니다.</AB_CrossLevelOrdersTip>
-  <AB_CrossLevelCombat>격차를 두고 전투 (층간 전투)</AB_CrossLevelCombat>
-  <AB_CrossLevelCombatTip>탁 트인 공간을 통해 아래층(또는 위층)의 적을 공격하도록 명령받은 징집된 정착민은 사선이 트여 있고 대상이 사거리 내에 있을 때 층을 가로질러 직접 사격합니다. 하향 또는 상향 사격은 정상적인 명중률과 피해로 다른 층에 적중합니다. 탁 트인 사선이 없거나 대상이 사거리 밖에 있거나 지하실에 있는 경우, 대신 계단을 이용해 해당 층에서 교전합니다.</AB_CrossLevelCombatTip>
-  <AB_CrossLevelAutoEngage>정착민이 알아서 층간 사격 수행</AB_CrossLevelAutoEngage>
-  <AB_CrossLevelAutoEngageTip>원거리 무기를 장착하고 자기 층에 도달 가능한 대상이 없는 적들이 탁 트인 공기를 통해 회원님의 정착민에게 상하향 사격을 가하며, 자유 의지 사격이 켜진 징집된 정착민들은 별도의 명령 없이 층을 가로질러 반격합니다. 층간 사격을 플레이어 수동 명령 전용으로 만들려면 끄세요.</AB_CrossLevelAutoEngageTip>
-  <AB_ReportAttackingAcross>층을 가로질러 {0}을(를) 공격 중입니다.</AB_ReportAttackingAcross>
-  <AB_MortarTargetSet>박격포가 유인되어 있고, 장탄되어 있으며, 주변 위협이 없는 경우 다른 층의 목표를 포격합니다.</AB_MortarTargetSet>
-  <AB_NoArcPath>층 간 포탄의 개방된 비행 경로가 없습니다.</AB_NoArcPath>
-  <AB_TurretTargetSet>포탑이 준비되어 있고 주변 위협이 없는 경우 다른 층의 목표를 사격합니다.</AB_TurretTargetSet>
-  <AB_NoGapLine>공간을 통과하는 명확한 사선이 없습니다.</AB_NoGapLine>
-  <AB_GapLineLost>{0}이(가) 다른 층으로 향하는 사선을 잃었습니다.</AB_GapLineLost>
-  <AB_StopCrossBombard>층간 포격 중지</AB_StopCrossBombard>
-  <AB_StopCrossBombardTip>이 포탑의 다른 층 대상 포격 명령을 취소합니다.</AB_StopCrossBombardTip>
+  <AB_CrossLevelOrders>층을 넘어선 림의 행동 지시</AB_CrossLevelOrders>
+  <AB_CrossLevelOrdersTip>아래층에서 선택한 림에게 우클릭으로 명령을 내리면, 가장 가까운 계단으로 걸어가 타고 올라간 뒤 이 층의 선택된 지점에서 명령을 수행합니다. 징집 이동, 공격, 운반 및 작업 명령을 포함합니다.</AB_CrossLevelOrdersTip>
+  <AB_CrossLevelCombat>틈새를 가로지르는 전투 (층 간 전투)</AB_CrossLevelCombat>
+  <AB_CrossLevelCombatTip>탁 트인 공중을 통해 아래층(또는 위층)의 적을 공격하도록 명령받은 징집된 정착민은, 사선이 트여 있고 대상이 사거리 내에 있을 때 틈새를 가로질러 직접 사격합니다. 아래로 내리꽂거나 위로 솟구치는 사격은 일반적인 명중률과 피해로 다른 층에 명중합니다. 탁 트인 사선이 없거나 대상이 사거리 밖에 있거나 지하실에 있는 경우, 대신 계단을 타고 올라가 해당 층에서 교전합니다.</AB_CrossLevelCombatTip>
+  <AB_CrossLevelAutoEngage>림이 스스로 틈새 너머로 사격</AB_CrossLevelAutoEngage>
+  <AB_CrossLevelAutoEngageTip>원거리 무기를 장착하고 자신의 층에 도달 가능한 대상이 없는 적들이 탁 트인 공중을 통해 당신의 림들을 향해 위아래로 사격하며, 자유 발사가 활성화된 당신의 징집된 정착민들도 명령 없이 틈새 너머로 응사합니다. 층 간 사격을 플레이어의 직접 명령으로만 제한하려면 끄십시오.</AB_CrossLevelAutoEngageTip>
+  <AB_ReportAttackingAcross>층을 넘어 {0}을(를) 공격하는 중.</AB_ReportAttackingAcross>
+  <AB_MortarTargetSet>조작원이 있고 장전되어 있으며 주변에 위협이 없는 경우, {0이(가)} 다른 층의 목표물을 포격합니다.</AB_MortarTargetSet>
+  <AB_NoArcPath>층 사이에 포탄이 지나갈 열린 곡사 경로가 없습니다.</AB_NoArcPath>
+  <AB_TurretTargetSet>준비되어 있고 주변에 위협이 없는 경우, {0이(가)} 다른 층의 목표물을 향해 사격합니다.</AB_TurretTargetSet>
+  <AB_NoGapLine>틈새를 통과하는 명확한 사선이 없습니다.</AB_NoGapLine>
+  <AB_GapLineLost>{0이(가)} 다른 층으로 향하는 사선을 잃었습니다.</AB_GapLineLost>
+  <AB_StopCrossBombard>층 간 포격 중지</AB_StopCrossBombard>
+  <AB_StopCrossBombardTip>다른 층을 향한 이 터렛의 포격 명령을 취소합니다.</AB_StopCrossBombardTip>
   <AB_AnimalWander>야생 동물이 층을 오가며 배회</AB_AnimalWander>
-  <AB_AnimalWanderTip>야생 동물은 계단실을 풍경의 일부로 취급합니다. 가끔 지하로 내려와 머물다가 다시 떠나며, 먹을 것이 없는 층에 갇힌 야생 동물은 지상으로 돌아갈 길을 찾습니다. 가축 및 정착지 동물은 스스로 배회하지 않으며, 어떤 동물도 스스로 하늘 층으로 올라가지 않습니다.</AB_AnimalWanderTip>
-  <AB_CrossLevelRituals>의식이 다른 층의 참가자 소집</AB_CrossLevelRituals>
-  <AB_CrossLevelRitualsTip>연결된 층의 의식 역할 담당자와 참가자는 참여 가능한 것으로 간주됩니다. 의식을 시작하면 먼저 모든 사람이 계단으로 이동하며, 모두 도착하는 순간 의식이 시작됩니다. 완료할 수 없는 모임(참가자 사망, 계단 파괴 등)은 몇 시간 후에 취소됩니다.</AB_CrossLevelRitualsTip>
-  <AB_CrossLevelSocial>연결된 층을 하나의 정착지로 간주</AB_CrossLevelSocial>
-  <AB_CrossLevelSocialTip>동일한 열의 다른 층에 있는 정착민도 여전히 함께 있고 집에 있는 것으로 간주됩니다. 정신적 유대(메이트 포함)는 열 내에서 유대 거리 패널티를 건너뛰며, 하늘 층과 지하 층은 플레이어 정착지의 일부로 보고되므로 바닐라 및 모드의 "정착지에서 멀어짐" 판정이 모든 이들을 집에 있는 것으로 처리합니다. 맵별 경고 및 퀘스트 맵 선택은 바닐라 동작을 유지합니다.</AB_CrossLevelSocialTip>
-  <AB_RitualGathering>{0} 의식 참가자(들)가 계단을 이용 중입니다. 모두 도착하면 의식이 시작됩니다.</AB_RitualGathering>
-  <AB_RitualGatherTimeout>{0}을(를) 위한 모임이 너무 오래 걸려 취소되었습니다.</AB_RitualGatherTimeout>
-  <AB_RitualNoRoute>{0}에게 의식 장소로 통하는 계단 경로가 없습니다.</AB_RitualNoRoute>
-  <AB_CrossLevelWork>정착민이 다른 층에서 일하기 위해 계단을 이용</AB_CrossLevelWork>
-  <AB_CrossLevelWorkTip>정착민이 현재 층에서 할 일을 찾지 못하면 직접 연결된 층을 확인하고 할 일이 있는 경우 계단을 이용합니다.</AB_CrossLevelWorkTip>
-  <AB_IdleReturnHome>대기 중인 정착민은 지상으로 복귀</AB_IdleReturnHome>
-  <AB_IdleReturnHomeTip>어떤 층에서도 할 일이 없는 정착민은 일하던 층을 배회하는 대신 지상으로 다시 내려옵니다.</AB_IdleReturnHomeTip>
-  <AB_CrossLevelHauling>층 간 아이템 운반</AB_CrossLevelHauling>
-  <AB_CrossLevelHaulingTip>아이템의 최적 보관 장소가 다른 층에 있을 때, 운반꾼들이 계단을 통해 아이템을 운반합니다. 동일한 층에서의 일반 운반 이후에 실행됩니다.</AB_CrossLevelHaulingTip>
-  <AB_CrossLevelSupply>다른 층에서 필요한 재료 조달</AB_CrossLevelSupply>
-  <AB_CrossLevelSupplyTip>청사진 및 프레임용 건축 자재, 청구서용 재료, 환자 및 죄수용 식량 등 층에 필요한 자재가 부족할 때 정착민이 재료가 있는 연결된 층으로 계단을 타고 올라가(또는 내려가) 가져옵니다. 자원이 다른 층의 보관 구역에 있고 그곳에 대기 중인 운반꾼이 없을 때 유용합니다.</AB_CrossLevelSupplyTip>
-  <AB_CrossLevelNeeds>정착민이 침대에서 자기 위해 층을 이동</AB_CrossLevelNeeds>
-  <AB_CrossLevelNeedsTip>침대가 다른 층에 있는 피곤한 정착민은 맨땅에서 자는 대신 계단을 이용합니다.</AB_CrossLevelNeedsTip>
-  <AB_CrossLevelPrisoners>간수가 죄수를 다른 층으로 이동</AB_CrossLevelPrisoners>
-  <AB_CrossLevelPrisonersTip>죄수의 유일한 사용 가능한 감옥이 다른 층에 있거나 다른 층의 침대를 배정했을 때, 간수가 계단을 통해 죄수를 그리로 이송합니다. 죄수를 우클릭하여 위아래 층의 감옥으로 보낼 수도 있습니다.</AB_CrossLevelPrisonersTip>
-  <AB_HaulUpTo>{0}을(를) 위층으로 운반</AB_HaulUpTo>
-  <AB_HaulDownTo>{0}을(를) 아래층으로 운반</AB_HaulDownTo>
-  <AB_RemoveLink>제거</AB_RemoveLink>
-  <AB_RemoveLinkDesc>철거 지정합니다. 건설업자가 해체하며, 이는 다른 층의 연결된 끝부분도 제거합니다. 수직 연결부는 손상될 수 없으므로 이것이 유일한 제거 방법입니다.</AB_RemoveLinkDesc>
-  <AB_RemoveQueued>이미 제거 예약되었습니다.</AB_RemoveQueued>
-  <AB_ColumnWealth>습격 규모가 전체 열(Column)의 부에 비례</AB_ColumnWealth>
-  <AB_ColumnWealthTip>이야기꾼이 지상뿐만 아니라 모든 층의 부와 정착민을 계산합니다. 지하실에 습격 스케일링으로부터 부를 숨기는 것을 방지합니다. 정직한 난이도를 위해 켜는 것을 권장합니다.</AB_ColumnWealthTip>
+  <AB_AnimalWanderTip>야생 동물은 계단실을 풍경의 일부로 취급합니다. 가끔 한 마리가 지하실로 내려와 피신했다가 잠시 머문 뒤 다시 떠나기도 하며, 먹을 것이 없어 특정 층에 갇힌 야생 동물은 지상으로 돌아가는 길을 찾습니다. 가축 및 구역 동물은 스스로 배회하지 않으며, 어떤 동물도 스스로 하늘 층으로 올라가지 않습니다.</AB_AnimalWanderTip>
+  <AB_CrossLevelRituals>다른 층의 참가자를 소집하는 의식</AB_CrossLevelRituals>
+  <AB_CrossLevelRitualsTip>연결된 층의 의식 역할 담당자와 참가자가 참여 가능한 것으로 간주됩니다. 의식을 시작하면 먼저 모두 계단으로 이동하며, 모두 도착하는 순간 의식이 시작됩니다. 완료할 수 없는 모임(참가자 사망, 계단 파괴 등)은 몇 시간 후에 취소됩니다.</AB_CrossLevelRitualsTip>
+  <AB_CrossLevelSocial>연결된 층들을 하나의 기지로 간주</AB_CrossLevelSocial>
+  <AB_CrossLevelSocialTip>동일한 기둥(수직축) 내의 다른 층에 있는 림들은 여전히 함께 있으며 집에 있는 것으로 간주됩니다. 정신적 유대(Highmate 포함)는 수직축 내에서 유대 거리 패널티를 무시하며, 하늘 및 지하 층은 플레이어 기지의 일부로 보고되므로 바닐라 및 모드의 "기지에서 벗어난" 체크가 모든 이들을 집에 있는 것으로 취급합니다. 맵별 경고 및 퀘스트 맵 선택은 바닐라 동작을 유지합니다.</AB_CrossLevelSocialTip>
+  <AB_RitualGathering>{0} 의식 참가자들이 계단을 이용하고 있습니다. 모두 도착하면 의식이 시작됩니다.</AB_RitualGathering>
+  <AB_RitualGatherTimeout>{0} 모임에 시간이 너무 오래 걸려 취소되었습니다.</AB_RitualGatherTimeout>
+  <AB_RitualNoRoute>{0}이(가) 의식 장소로 가는 계단 경로를 찾지 못했습니다.</AB_RitualNoRoute>
+  <AB_CrossLevelWork>정착민이 계단을 타고 다른 층에서 작업</AB_CrossLevelWork>
+  <AB_CrossLevelWorkTip>정착민이 현재 층에서 작업을 찾지 못하면 직접 연결된 층을 확인하고 할 일이 있는 경우 계단을 타고 이동합니다.</AB_CrossLevelWorkTip>
+<AB_PriorityCrossLevelWork>다른 층의 우선순위 높은 작업 추구</AB_PriorityCrossLevelWork>
+  <AB_PriorityCrossLevelWorkTip>정착민은 현재 층에 작업이 남아 있더라도 다른 층을 확인합니다. 연결된 층에 (작업 설정 기준) 확실히 더 높은 우선순위의 작업이 있는 경우, 현재 층의 낮은 우선순위 작업에 안주하지 않고 계단을 타고 이동합니다. 우선순위 1로 설정된 간수는 2순위 채굴을 중단하고 지하실의 죄수를 돌보러 갈 것입니다. 동일한 우선순위의 작업은 항상 현층에 유지되며, 결과가 캐시되므로 추가 검사에 따른 부하가 적습니다.</AB_PriorityCrossLevelWorkTip>
+  <AB_IdleReturnHome>대기 중인 정착민이 지상으로 복귀</AB_IdleReturnHome>
+  <AB_IdleReturnHomeTip>어떤 층에서도 할 일이 없는 정착민은 작업하던 층을 배회하는 대신 지상으로 다시 내려옵니다.</AB_IdleReturnHomeTip>
+  <AB_CrossLevelHauling>층 간 물품 운반</AB_CrossLevelHauling>
+  <AB_CrossLevelHaulingTip>물품의 최적 보관소가 다른 층에 있을 때, 운반꾼이 계단을 통해 물품을 운반합니다. 동일한 층에서의 일반 운반 작업 이후에 실행됩니다.</AB_CrossLevelHaulingTip>
+  <AB_CrossLevelSupply>다른 층에서 필요한 자재 조달</AB_CrossLevelSupply>
+  <AB_CrossLevelSupplyTip>현재 층에 부족한 자재(청소부와 골조를 위한 건설 자재, 작업대 재료, 환자 및 죄수를 위한 식사 등)가 필요할 때, 정착민이 계단을 타고 자재가 있는 연결된 층으로 가서 이를 가져옵니다. 자재가 다른 층의 보관함에 쌓여 있고 이를 밀어줄 대기 중인 운반꾼이 없을 때 발생하는 상황을 해결합니다.</AB_CrossLevelSupplyTip>
+  <AB_CrossLevelNeeds>정착민이 자신의 침대에서 자기 위해 층을 이동</AB_CrossLevelNeeds>
+  <AB_CrossLevelNeedsTip>침대가 다른 층에 있는 피로한 정착민은 바닥에서 자는 대신 계단을 이용합니다.</AB_CrossLevelNeedsTip>
+  <AB_CrossLevelPrisoners>간수가 층 간에 죄수 이송</AB_CrossLevelPrisoners>
+  <AB_CrossLevelPrisonersTip>죄수가 사용할 수 있는 유일한 감옥이 다른 층에 있거나 다른 층의 침대를 배정받은 경우, 간수가 계단을 통해 죄수를 그곳으로 이송합니다. 죄수를 우클릭하여 위쪽이나 아래쪽의 감옥으로 보낼 수도 있습니다.</AB_CrossLevelPrisonersTip>
+  <AB_HaulUpTo>{0}(을)를 위층으로 운반</AB_HaulUpTo>
+  <AB_HaulDownTo>{0}(을)를 아래층으로 운반</AB_HaulDownTo>
+  <AB_RemoveLink>해체</AB_RemoveLink>
+  <AB_RemoveLinkDesc>해체 대상으로 지정합니다. 건설업자가 이를 해체하며, 다른 층에 있는 연결된 끝부분도 함께 제거됩니다. 수직 연결부는 피해를 입지 않으므로 이것이 유일한 제거 방법입니다.</AB_RemoveLinkDesc>
+  <AB_RemoveQueued>이미 해체 대상으로 지정되었습니다.</AB_RemoveQueued>
+  <AB_ColumnWealth>수직축 전체 부에 따라 습격 규모 조절</AB_ColumnWealth>
+  <AB_ColumnWealthTip>이야기꾼이 지상뿐만 아니라 모든 층의 부와 림을 계산합니다. 지하실에 부를 숨겨 습격 규모 조절을 피하는 것을 방지합니다. 공정한 난이도를 위해 켜는 것을 권장합니다.</AB_ColumnWealthTip>
   <AB_WorldIntegration>월드 통합</AB_WorldIntegration>
-  <AB_WorldIntegrationTip>상단에 다른 층의 정착민을 포함할 수 있으며(계단을 이용해 모임에 합류함), 수송 포트와 셔틀을 하늘 층에서 발사할 수 있고, 어떤 층의 무역 비콘이든 상품을 판매하며, 통신기는 지하에서도 작동합니다.</AB_WorldIntegrationTip>
-  <AB_CaravanNeedsSurfacePawn>상단은 지상에서 결성해야 합니다: 지상 층에 있는 정착민을 최소한 한 명 포함하세요.</AB_CaravanNeedsSurfacePawn>
-  <AB_CaravanPawnNoStairs>{0}이(가) 지상으로 통하는 계단에 도달할 수 없어 상단에 합류하지 못합니다.</AB_CaravanPawnNoStairs>
-  <AB_CaravanPawnsDescending>정착민 {0명이 상단에 합류하기 위해 계단을 이용하고 있습니다.</AB_CaravanPawnsDescending>
-  <AB_AbandonLevelsWarning>정착민 {0}명이 이 정착지의 다른 층에 아직 남아 있습니다. 정착지를 포기하면 모든 층이 함께 파괴되어 그들을 잃게 됩니다. 확실합니까?</AB_AbandonLevelsWarning>
-  <AB_PodTransit>드랍 포트가 하늘 층의 빈 공간을 통과</AB_PodTransit>
-  <AB_PodTransitTip>지상을 향해 날아오는 드랍 포트, 우주선 파편, 운석은 착륙 지점 위에 열린 빈 공간이 있을 경우 하늘 층의 상공을 통과합니다. 상층을 지나는 동안 그곳에 지어진 대공 방어 시설이 교전할 수 있습니다. 착륙 지점, 낙하 시간 및 충격 효과는 유지됩니다. 하늘 층 자체에 착륙하는 셔틀 등은 영향을 받지 않습니다. 기본값은 켜짐입니다.</AB_PodTransitTip>
-  <AB_ThreatBasementInfest>지하실에 벌레 군락 발생 가능</AB_ThreatBasementInfest>
-  <AB_ThreatBasementInfestTip>정착지에 벌레 군락 이벤트가 발생할 때, 지상 대신 지하 층으로 뚫고 올라올 확률이 생깁니다. 위협 규모와 이야기꾼 페이스는 유지되며 전장만 바뀝니다. 기본값은 꺼짐입니다.</AB_ThreatBasementInfestTip>
-  <AB_ThreatSkyDrops>하늘 층에 드랍 포트 습격 가능</AB_ThreatSkyDrops>
-  <AB_ThreatSkyDropsTip>적 드랍 포트 습격이 발생할 때, 지상 대신 옥상에 착륙할 확률이 생깁니다. 위에서 싸울 상대를 찾지 못한 레이더들은 계단을 타고 내려올 것입니다. 위협 규모와 이야기꾼 페이스는 유지됩니다. 기본값은 꺼짐입니다.</AB_ThreatSkyDropsTip>
+  <AB_WorldIntegrationTip>캐러밴에 다른 층의 정착민이 포함될 수 있으며(계단을 타고 모임에 합류함), 수송 포드와 셔틀을 하늘 층에서 발사할 수 있고, 어느 층의 무역 비상콘솔이든 상품을 판매할 수 있으며, 통신 콘솔은 지하에서도 작동합니다.</AB_WorldIntegrationTip>
+  <AB_CaravanNeedsSurfacePawn>캐러밴은 지상에서 결성해야 합니다: 지상 층에 있는 정착민을 최소 한 명 포함하세요.</AB_CaravanNeedsSurfacePawn>
+  <AB_CaravanPawnNoStairs>{0}은(는) 지상으로 통하는 계단에 도달할 수 없어 캐러밴에 합류하지 않습니다.</AB_CaravanPawnNoStairs>
+  <AB_CaravanPawnsDescending>정착민 {0명이 계단을 타고 캐러밴에 합류하는 중입니다.</AB_CaravanPawnsDescending>
+  <AB_AbandonLevelsWarning>정착민 {0}명이 이 기지의 다른 층에 아직 남아 있습니다. 정착지를 포기하면 모든 층이 그와 함께 파괴되며 이들을 잃게 됩니다. 정말 포기하시겠습니까?</AB_AbandonLevelsWarning>
+  <AB_PodTransit>하늘 층 공백을 통과하는 낙하산 포드</AB_PodTransit>
+  <AB_PodTransitTip>지상을 향해 날아오는 낙하산 포드, 우주선 파편, 운석은 착륙 지점 위에 트인 공간이 있을 때 하늘 층의 공역을 통과합니다. 상층을 가로지르는 동안 그곳에 지어진 대공 방어 시설이 이들을 상대할 수 있습니다. 착륙 지점, 낙하 시간 및 충격 효과는 변경되지 않습니다. 셔틀 및 하늘 층에 직접 착륙하는 모든 것은 영향을 받지 않습니다. 기본값은 켜짐입니다.</AB_PodTransitTip>
+  <AB_ThreatBasementInfest>지하실을 목표로 할 수 있는 벌레 군식</AB_ThreatBasementInfest>
+  <AB_ThreatBasementInfestTip>벌레 군식 사건이 기지를 타격할 때, 지상 대신 지하실로 굴 파고 들어올 확률이 생깁니다. 위협 규모와 이야기꾼의 진행 속도는 변하지 않으며 오직 전장만 바뀝니다. 기본값은 꺼짐입니다.</AB_ThreatBasementInfestTip>
+  <AB_ThreatSkyDrops>하늘 층을 목표로 할 수 있는 낙하산 포드 습격</AB_ThreatSkyDrops>
+  <AB_ThreatSkyDropsTip>적대적인 낙하산 포드 습격이 기지를 타격할 때, 지상 대신 옥상에 착륙할 확률이 생깁니다. 그곳에서 싸울 상대를 찾지 못한 습격자들은 계단을 타고 내려올 것입니다. 위협 규모와 이야기꾼의 진행 속도는 변하지 않습니다. 기본값은 꺼짐입니다.</AB_ThreatSkyDropsTip>
   <AB_ThreatDivertChance>우회 확률</AB_ThreatDivertChance>
-  <AB_ThreatDivertChanceTip>적절한 사건이 지상을 강타하는 대신 다른 층으로 우회할 확률입니다.</AB_ThreatDivertChanceTip>
-  <AB_RescueUpTo>{0} 구조 (위층의 침대)</AB_RescueUpTo>
-  <AB_RescueDownTo>{0} 구조 (아래층의 침대)</AB_RescueDownTo>
-  <AB_CaptureUpTo>{0} 포획 (위층의 침대)</AB_CaptureUpTo>
-  <AB_CaptureDownTo>{0} 포획 (아래층의 침대)</AB_CaptureDownTo>
-  <AB_TakePrisonerUpTo>{0}을(를) 위층의 감옥으로 이송</AB_TakePrisonerUpTo>
-  <AB_TakePrisonerDownTo>{0}을(를) 아래층의 감옥으로 이송</AB_TakePrisonerDownTo>
-  <AB_ExtendUp>승강로를 위로 연장</AB_ExtendUp>
-  <AB_ExtendUpDesc>엘리베이터 승강로를 위층으로 연장하고(필요시 개방) 그곳에 연결된 승강기를 배치합니다.</AB_ExtendUpDesc>
-  <AB_ExtendDown>승강로를 아래로 연장</AB_ExtendDown>
-  <AB_ExtendDownDesc>엘리베이터 승강로를 아래층으로 연장하고(필요시 개방) 그곳에 연결된 승강기를 배치합니다.</AB_ExtendDownDesc>
+  <AB_ThreatDivertChanceTip>해당하는 사건이 지상을 타격하는 대신 다른 층으로 우회할 확률입니다.</AB_ThreatDivertChanceTip>
+  <AB_RescueUpTo>{0} 구조 (위층 침대)</AB_RescueUpTo>
+  <AB_RescueDownTo>{0} 구조 (아래층 침대)</AB_RescueDownTo>
+  <AB_CaptureUpTo>{0} 포획 (위층 침대)</AB_CaptureUpTo>
+  <AB_CaptureDownTo>{0} 포획 (아래층 침대)</AB_CaptureDownTo>
+  <AB_TakePrisonerUpTo>{0을(를) 위층 감옥으로 이송</AB_TakePrisonerUpTo>
+  <AB_TakePrisonerDownTo>{0을(를) 아래층 감옥으로 이송</AB_TakePrisonerDownTo>
+  <AB_ExtendUp>샤프트 위로 연장</AB_ExtendUp>
+  <AB_ExtendUpDesc>엘리베이터 샤프트를 위층으로 연장하여 필요시 개방하고, 그곳에 연결된 카를 배치합니다.</AB_ExtendUpDesc>
+  <AB_ExtendDown>샤프트 아래로 연장</AB_ExtendDown>
+  <AB_ExtendDownDesc>엘리베이터 샤프트를 아래층으로 연장하여 필요시 개방하고, 그곳에 연결된 카를 배치합니다.</AB_ExtendDownDesc>
   <AB_RideToSky>하늘 층으로 이동</AB_RideToSky>
-  <AB_RideToBasement>지하로 이동</AB_RideToBasement>
+  <AB_RideToBasement>지하실로 이동</AB_RideToBasement>
   <AB_LevelSky>하늘 층</AB_LevelSky>
   <AB_LevelSurface>지상</AB_LevelSurface>
-  <AB_LevelBasement>지하</AB_LevelBasement>
+  <AB_LevelBasement>지하실</AB_LevelBasement>
   <AB_LevelWidgetTip>Page Up 및 Page Down 키를 누를 수도 있습니다.</AB_LevelWidgetTip>
   <AB_ShowLevelWidget>층 보기 버튼 표시</AB_ShowLevelWidget>
-  <AB_ShowLevelWidgetTip>오른쪽 하단의 다른 보기 토글 옆에 위층 보기 및 아래층 보기 버튼을 추가합니다.</AB_ShowLevelWidgetTip>
-  <AB_OneColonistBar>각 열을 하나의 정착민 바 그룹으로 병합</AB_OneColonistBar>
-  <AB_OneColonistBarTip>단일 열에 하늘, 지상, 지하를 정착민 바에서 층간 구분 간격 없이 하나의 연속된 블록으로 표시합니다. 다른 정착지와 상단은 자체 그룹을 유지합니다. [LTO] Colony Groups 모드가 활성화된 경우 해당 모드를 따릅니다.</AB_OneColonistBarTip>
-  <AB_CameraFollowStairs>계단을 이용할 때 카메라가 정착민을 추적</AB_CameraFollowStairs>
-  <AB_CameraFollowStairsTip>선택된 정착민을 위아래 계단으로 보낼 때, 화면이 도착하는 층으로 따라가 동일한 줌 상태로 그들을 중심으로 비춥니다. 선택하고 주시하는 정착민만 추적하며, 자율 운반꾼, 펫, 적은 절대 카메라를 움직이지 않습니다.</AB_CameraFollowStairsTip>
-  <AB_GridLinkReceiving>전력망: 연결된 층에서 {0}W 수신 중.</AB_GridLinkReceiving>
-  <AB_GridLinkSending>전력망: 연결된 층으로 {0}W 송신 중.</AB_GridLinkSending>
-  <AB_GridLinkIdle>전력망: 연결됨, 전력 흐름 필요 없음.</AB_GridLinkIdle>
-  <AB_CrossLevelPipes>계단실을 통해 배관 연결</AB_CrossLevelPipes>
-  <AB_CrossLevelPipesTip>Dubs Bad Hygiene 또는 Vanilla Expanded 배관이 양쪽 층의 연결된 계단실에 닿을 때, 저장된 내용물이 층 사이를 흐릅니다. 전력망은 설정과 무관하게 계단실을 통해 연결됩니다.</AB_CrossLevelPipesTip>
-  <AB_CrossLevelTemperature>계단실을 통한 층간 열 교환</AB_CrossLevelTemperature>
-  <AB_CrossLevelTemperatureTip>연결된 계단실은 층 사이의 환풍구처럼, 위치한 방들 사이의 온도를 서서히 평형으로 맞춥니다. 하늘 층은 지상의 야외 온도와 계절도 따릅니다.</AB_CrossLevelTemperatureTip>
+  <AB_ShowLevelWidgetTip>우측 하단의 다른 보기 토글 옆에 위층 보기 및 아래층 보기 버튼을 추가합니다.</AB_ShowLevelWidgetTip>
+  <AB_OneColonistBar>각 수직축을 하나의 정착민 바 그룹으로 병합</AB_OneColonistBar>
+  <AB_OneColonistBarTip>단일 수직축의 하늘 층, 지상, 지하실을 정착민 바에서 층 사이의 간격 없이 하나의 연속된 블록으로 그립니다. 다른 기지와 캐러밴은 자체 그룹을 유지합니다. 해당 모드가 활성화된 경우 [LTO] Colony Groups 모드에 우선순위를 양보합니다.</AB_OneColonistBarTip>
+  <AB_CameraFollowStairs>계단을 이용할 때 카메라가 정착민을 따라감</AB_CameraFollowStairs>
+  <AB_CameraFollowStairsTip>선택한 정착민을 위아래 계단(또는 엘리베이터)으로 보낼 때, 화면이 그들이 도착하는 층으로 함께 이동하여 동일한 확대 배율로 그들을 중심에 비춥니다. 선택하고 주시하고 있는 정착민만 따라갑니다. 자율 운반꾼, 애완동물, 적은 카메라를 움직이지 않습니다.</AB_CameraFollowStairsTip>
+  <AB_GridLinkReceiving>그리드 링크: 연결된 층으로부터 {0} W 수신 중.</AB_GridLinkReceiving>
+  <AB_GridLinkSending>그리드 링크: 연결된 층으로 {0} W 송신 중.</AB_GridLinkSending>
+  <AB_GridLinkIdle>그리드 링크: 연결됨, 전력 흐름 불필요.</AB_GridLinkIdle>
+  <AB_CrossLevelPipes>계단실을 통한 파이프 네트워크 연결</AB_CrossLevelPipes>
+  <AB_CrossLevelPipesTip>Dubs Bad Hygiene 또는 Vanilla Expanded 파이프 네트워크의 파이프가 양쪽 층의 연결된 계단실에 닿을 때, 그들의 저장된 내용물이 층 사이를 흐릅니다. 전력선은 이 설정과 무관하게 계단실을 통해 연결됩니다.</AB_CrossLevelPipesTip>
+  <AB_CrossLevelTemperature>계단실을 통한 층 간 열 교환</AB_CrossLevelTemperature>
+  <AB_CrossLevelTemperatureTip>연결된 계단실은 층 사이의 통풍구처럼 그들이 위치한 방 사이의 온도를 서서히 균일하게 맞춥니다. 하늘 층은 또한 지상의 야외 온도와 계절을 따릅니다.</AB_CrossLevelTemperatureTip>
 
   <AB_CameraLockKeybind>카메라 층 고정 단축키</AB_CameraLockKeybind>
-  <AB_CameraLockKeybindTip>카메라 층 고정 단축키를 활성화합니다(기본값 End, 옵션 - 키보드 설정에서 변경 가능). 고정이 켜져 있는 동안 카메라는 보고 있는 층에 고정됩니다. 선택된 정착민이 계단을 탈 때 화면이 따라가지 않습니다. 수동 층 전환은 항상 작동합니다.</AB_CameraLockKeybindTip>
-  <AB_CameraLockOn>카메라 층 고정 켜짐: 뷰가 이 층에 고정됩니다. 해제하려면 단축키를 다시 누르세요.</AB_CameraLockOn>
-  <AB_CameraLockOff>카메라 층 고정 꺼짐: 카메라가 계단을 통해 정착민을 다시 추적합니다.</AB_CameraLockOff>
+  <AB_CameraLockKeybindTip>카메라 층 고정 단축키(기본값 End, 옵션 - 키보드 설정에서 변경 가능)를 활성화합니다. 고정이 켜져 있는 동안 카메라는 보고 있는 층에 고정됩니다. 선택한 정착민이 계단을 이용할 때 화면이 따라가지 않습니다. 수동 층 전환은 언제나 정상 작동합니다.</AB_CameraLockKeybindTip>
+  <AB_CameraLockOn>카메라 층 고정 켜짐: 시야가 이 층에 고정됩니다. 해제하려면 단축키를 다시 누르세요.</AB_CameraLockOn>
+  <AB_CameraLockOff>카메라 층 고정 꺼짐: 카메라가 계단을 통해 정착민을 다시 따라갑니다.</AB_CameraLockOff>
 
-  <AB_CavernBasements>지하를 살아있는 동굴로 생성 (Biomes! Caverns)</AB_CavernBasements>
-  <AB_CavernBasementsTip>새로 생성된 지하는 Biomes! Caverns의 동굴 바이옴 중 하나로 생성됩니다. 동굴 지형, 식생, 야생 동물, 종유석 및 수정이 있는 연결된 터널 네트워크가 암반 안에 밀봉되어 있다가 파고 들어가면 드러납니다. 기존 지하는 변경되지 않습니다. 참고: 대지의 깊이 바이옴은 항상 뜨겁습니다.</AB_CavernBasementsTip>
-  <AB_CavernBiome>동굴 바이옴</AB_CavernBiome>
-  <AB_CavernBiomeTip>새로운 지하실이 사용할 동굴 바이옴. 지하실마다 무작위로 선택되며 균사 숲 쪽으로 가중치가 부여됩니다. 대지의 깊이는 상시 55도의 열기 때문에 가혹한 지하실이 되므로 드물게 등장합니다.</AB_CavernBiomeTip>
+  <AB_BasementEnv>지하실 환경</AB_BasementEnv>
+  <AB_BasementEnvTip>새로 생성되는 지하실의 형태입니다. 단단한 암반이 기본 채굴 가능 채우기입니다. 다른 모드가 로드되면 Biomes! Caverns의 살아있는 동굴, Ancient urban ruins의 매장된 시설, 혹은 동굴로 파인 선별된 외부 생태계 같은 다른 옵션들이 나타납니다. 기존 지하실은 생성 당시의 외형을 유지합니다. 참고: 외부 생태계는 자체 고정 온도를 사용하므로 일부는 매우 뜨겁거나 차가울 수 있습니다.</AB_BasementEnvTip>
+  <AB_BasementSolidRock>단단한 암반</AB_BasementSolidRock>
+  <AB_BasementCaverns>살아있는 동굴 (Biomes! Caverns)</AB_BasementCaverns>
+  <AB_BasementUrbanRuins>매장된 시설 (Ancient urban ruins)</AB_BasementUrbanRuins>
+  <AB_UrbanRuinsOccupants>고대 거주자 포함</AB_UrbanRuinsOccupants>
+  <AB_UrbanRuinsOccupantsTip>지하실이 생성될 때 시설의 원래 청소부들을 스폰합니다: 어둠 속에서 펼쳐지는 전리품과 진짜 전투가 기다립니다. 조용하고 버려진 유적으로 만들려면 끄세요. 시설 자체의 출입구는 항상 제거되므로 계단이 유일한 진입로가 됩니다.</AB_UrbanRuinsOccupantsTip>
+  <AB_RevealBasement>로드 시 지하실 밝히기</AB_RevealBasement>
+  <AB_RevealBasementTip>지하실이 생성되거나 로드되는 순간 모든 안개를 제거하여, 채굴하여 발견하지 않아도 층 전체가 보이도록 합니다. 모든 지하실 유형에 적용됩니다. 어둠 속을 칸 단위로 부수며 정상적인 방법으로 지하실을 탐험하려면 끄세요.</AB_RevealBasementTip>
+  <AB_CavernBasements>지하실을 살아있는 동굴로 생성 (Biomes! Caverns)</AB_CavernBasements>
+  <AB_CavernBasementsTip>새로 생성되는 지하실이 Biomes! Caverns 모드의 동굴 생태계 중 하나로 나타납니다. 동굴 지형, 식물, 야생 동물, 석순 및 결정을 갖춘 연결된 터널 네트워크가 동굴을 뚫을 때까지 암반 내부에 밀폐되어 있습니다. 기존 지하실은 변경되지 않습니다. 참고: 진흙 깊은 곳 생태계는 지속적으로 뜨겁습니다.</AB_CavernBasementsTip>
+  <AB_CavernBiome>동굴 생태계</AB_CavernBiome>
+  <AB_CavernBiomeTip>새로운 지하실이 사용할 동굴 생태계입니다. 지하실마다 무작위로 선택되며 균사 숲에 가중치가 부여됩니다. 진흙 깊은 곳은 상시 55도의 고온으로 인해 가혹한 지하실이 되기 때문에 드물게 등장합니다.</AB_CavernBiomeTip>
   <AB_CavernBiomeRandom>무작위 (가중치 적용)</AB_CavernBiomeRandom>
   <AB_CavernOpenness>동굴 밀도</AB_CavernOpenness>
-  <AB_CavernOpennessTip>터널 네트워크가 지하실을 파내는 정도. 낮음은 가끔 동굴이 있는 채굴 가능한 암반으로 층을 유지하고, 높음은 넓게 펼쳐진 개방형 동굴 시스템을 만듭니다.</AB_CavernOpennessTip>
-
+  <AB_CavernOpennessTip>터널 네트워크가 지하실을 파내는 정도입니다. 낮게 설정하면 대부분의 층이 가끔 동굴이 있는 채굴 가능한 암반으로 유지되고, 높게 설정하면 넓게 펼쳐진 개방형 동굴 시스템이 만들어집니다.</AB_CavernOpennessTip>  <AB_NaturalPeaks>새로운 하늘 층에 자연스러운 산봉우리 생성</AB_NaturalPeaks>
+ 
   <AB_NaturalPeaks>새로운 하늘 층에 자연스러운 산봉우리 생성</AB_NaturalPeaks>
-  <AB_NaturalPeaksTip>새로 생성된 하늘 층의 산정상은 걸어 다닐 수 있는 고원 지대로 생성됩니다. 흙과 식생 조각, 바위 노출, 깊이가 자연스럽게 변하는 단단한 암반의 절벽 테두리가 있습니다. 끄면 기존의 완전히 단단한 봉우리로 복원됩니다. 기존 하늘 층은 어느 쪽이든 변경되지 않습니다.</AB_NaturalPeaksTip>
+  <AB_NaturalPeaksTip>새로 생성된 하늘 층의 산정상이 걸어 다닐 수 있는 고원 지대로 나타납니다. 토양과 초목 조각, 바위 돌출부, 그리고 깊이가 자연스럽게 변하는 단단한 암반의 절벽 테두리가 생깁니다. 끄면 고전적인 완전 단단한 봉우리로 복원됩니다. 기존 하늘 층은 어느 쪽이든 변경되지 않습니다.</AB_NaturalPeaksTip>
   <AB_PeakSoil>고원 경작 가능 토양</AB_PeakSoil>
-  <AB_PeakSoilTip>자갈이나 맨바닥이 아닌, 농사지을 수 있는 비옥한 토양이 고원 표면을 차지하는 비율입니다.</AB_PeakSoilTip>
+  <AB_PeakSoilTip>자갈과 맨땅이 아닌, 농사를 지을 수 있는 비옥한 토양이 고원 표면을 차지하는 비율입니다.</AB_PeakSoilTip>
   <AB_PeakVegetation>고원 식생</AB_PeakVegetation>
-  <AB_PeakVegetationTip>생성 시점에 고원에 시드되는 야생 식물과 나무의 밀도로, 지상 바이옴의 일반 밀도에 비례합니다. 이후의 재생장은 자연적으로 이루어집니다.</AB_PeakVegetationTip>
+  <AB_PeakVegetationTip>생성 시점에 고원에 시드되는 야생 식물과 나무의 밀도로, 지상 생태계의 일반적인 밀도에 비례합니다. 이후의 재생장은 자연스럽게 이루어집니다.</AB_PeakVegetationTip>
+
+  <AB_ClimbAnimations>계단 및 사다리 등반 애니메이션</AB_ClimbAnimations>
+  <AB_ClimbAnimationsTip>림들이 계단이나 사다리를 오를 때 발판 위로 걸어 올라가 아래로 갈 때는 가라앉고, 위로 갈 때는 솟아오르는 시각적 연출이 재생되며 다른 층에 도달할 때 짧은 등장 효과가 나타납니다. 엘리베이터에는 적용되지 않습니다. 순수하게 시각적인 효과입니다.</AB_ClimbAnimationsTip>
+
+  <AB_TabJobs>작업 탐색</AB_TabJobs>
+  <AB_JobsNote>림들이 층 간 작업을 얼마나 열성적으로 탐색할지 설정합니다. 탐색 주기가 빠를수록 반응성이 좋아지지만 대규모 정착지에서는 성능이 약간 저하될 수 있습니다. 기본값은 최적화된 내장 주기에 맞춰져 있습니다.</AB_JobsNote>
+  <AB_JobsPresets>탐색 적극성 프리셋</AB_JobsPresets>
+  <AB_JobsPresetsTip>원클릭 주기 프로필입니다. '여유로움'은 탐색 부하를 절반으로 줄이고, '열성적'은 두 배로 늘리며, '광란'은 층 간 반응이 거의 즉각적으로 필요한 소규모 정착지를 위한 설정입니다. 아래 슬라이더는 각 프리셋의 구체적인 수치를 보여줍니다.</AB_JobsPresetsTip>
+  <AB_JobsPresetRelaxed>여유로움</AB_JobsPresetRelaxed>
+  <AB_JobsPresetDefault>기본값</AB_JobsPresetDefault>
+  <AB_JobsPresetEager>열성적</AB_JobsPresetEager>
+  <AB_JobsPresetFrantic>광란</AB_JobsPresetFrantic>
+  <AB_JobProbeBudget>틱당 작업 프로브 수</AB_JobProbeBudget>
+  <AB_JobProbeBudgetTip>전체 정착지에서 게임 틱당 수행할 수 있는 층 간 작업 검사 횟수입니다. 값이 높을수록 림이 다른 층의 작업을 더 빨리 알아차립니다. 각 프로브는 제한된 가상 스캔입니다.</AB_JobProbeBudgetTip>
+  <AB_JobEmptyScanCooldown>작업 없을 때 재스캔 지연 시간</AB_JobEmptyScanCooldown>
+  <AB_JobEmptyScanCooldownTip>성과 없는 층 간 스캔 후 림이 다른 층을 다시 확인하기까지 대기하는 시간입니다. 값이 낮을수록 다른 곳에 새로 생긴 작업에 더 빨리 반응합니다.</AB_JobEmptyScanCooldownTip>
+  <AB_JobMigrationCooldown>층 간 이동 간격</AB_JobMigrationCooldown>
+  <AB_JobMigrationCooldownTip>작업을 위해 다른 층으로 이동한 후 림이 제자리에 머무는 최소 시간입니다. 이를 통해 림이 계단을 오르내리며 핑퐁처럼 왔다 갔다 하는 것을 방지합니다. 플레이어가 직접 내린 지정은 이 제한을 무시합니다.</AB_JobMigrationCooldownTip>
+  <AB_JobCacheTtl>작업 캐시 유지 시간</AB_JobCacheTtl>
+  <AB_JobCacheTtlTip>재구축되기 전까지 이용 가능한 작업 및 필요한 자원의 층별 요약이 캐시에 유지되는 시간입니다. 새로운 청사진과 지정은 이와 상관없이 즉시 캐시를 갱신합니다.</AB_JobCacheTtlTip>
+  <AB_SupplyConstruction>건설업자가 다른 층으로 자재 운반</AB_SupplyConstruction>
+  <AB_SupplyConstructionTip>건설 작업을 수행하는 림이 계단을 통해 연결된 층의 청사진과 골조로 필요한 건축 자재를 운반한 뒤 그곳에서 건설합니다.</AB_SupplyConstructionTip>
+  <AB_SupplyBills>다른 층에서 작업대 재료 조달</AB_SupplyBills>
+  <AB_SupplyBillsTip>활성화된 작업대가 있는 작업대는 재료 부족분을 등록하여 운반꾼이 연결된 층에서 재료를 채워 넣도록 합니다.</AB_SupplyBillsTip>
+  <AB_SupplyMeals>환자 및 죄수를 위한 식사 조달</AB_SupplyMeals>
+  <AB_SupplyMealsTip>병상의 환자나 죄수가 있는 층은 연결된 층에서 조달한 소량의 식사 비축분을 유지하여 의사와 간수들이 현장에서 바로 배식할 수 있게 합니다.</AB_SupplyMealsTip>
+  <AB_SupplyFuel>다른 층으로 연료 및 배양액 조달</AB_SupplyFuel>
+  <AB_SupplyFuelTip>발전기, 포탑, 성장 배양기 등 자동 재보급이 설정된 모든 장치가 연료 부족을 등록하므로 목재, 화학연료, 영양갱이 연료를 소모하는 층으로 흐르게 됩니다.</AB_SupplyFuelTip>
+  <AB_FetchFromOtherLevels>운반꾼이 다른 층에서 물건 가져오기</AB_FetchFromOtherLevels>
+  <AB_FetchFromOtherLevelsTip>대기 중인 운반꾼이 느린 대기 이동 표류를 기다리는 대신, 직접 연결된 층의 운반 작업을 확인하고 직접 가져옵니다.</AB_FetchFromOtherLevelsTip>
+
+  <AB_BringMaterialsAndBuild>{0}(을)를 가져와서 {1} 건설</AB_BringMaterialsAndBuild>
+  <AB_BringAndInstall>{0}(을)를 가져와서 여기에 설치</AB_BringAndInstall>
+  <AB_BringAndRefuel>{0}(을)를 가져와서 {1}에 연료 보급</AB_BringAndRefuel>
+
+  <AB_SubsystemDown>As above, so below: 게임을 보호하기 위해 '{0}' 하위 시스템에 오류가 발생하여 자체적으로 중단되었습니다. 다른 기능은 계속 실행됩니다. 모드 설정에서 다시 활성화할 수 있으며, 자세한 내용은 로그를 확인하세요.</AB_SubsystemDown>
+
+  <AB_SkyVisitors>방문객이 하늘 고원에 도착할 수 있음</AB_SkyVisitors>
+  <AB_SkyVisitorsTip>하늘 층에 플레이어 건물이 있고, 맵 가장자리에 서 있을 수 있는 개구부가 있으며, 작동하는 계단이 있는 경우, 방문객 및 여행자 그룹의 약 절반이 지상이 아닌 위쪽으로 걸어 들어옵니다. 무역 캐러밴은 항상 지상에 도착합니다.</AB_SkyVisitorsTip>
+  <AB_HospitalityRoaming>Hospitality 손님이 모든 층을 돌아다님</AB_HospitalityRoaming>
+  <AB_HospitalityRoamingTip>Hospitality 모드가 필요합니다. 방문 중 대기 중인 손님은 게스트 침대나 자판기가 있는 연결된 층을 가끔 관광하며, 그룹이 떠날 때 걸어서 돌아갑니다. 전체 게스트 서비스(쇼핑, 침대 배정)는 그룹이 도착한 층에 유지됩니다.</AB_HospitalityRoamingTip>
 
 </LanguageData>
