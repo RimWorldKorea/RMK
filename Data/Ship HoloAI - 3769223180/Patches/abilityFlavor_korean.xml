@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence"  MayRequire="chibi.shipholoai">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ShipHoloAI.HoloPersonaDef[defName="HoloAI_Persona_PRISM"]/abilityFlavor</xpath>
+        <value>
+          <abilityFlavor>
+            <li>정신이상 임계치에 다다르기 직전인 승무원을 직접 찾아가 조용히 이야기를 나눕니다.</li>
+          </abilityFlavor>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ShipHoloAI.HoloPersonaDef[defName="HoloAI_Persona_VESTA"]/abilityFlavor</xpath>
+        <value>
+          <abilityFlavor>
+                <li>그녀의 존재가 우주선에 안정감을 줍니다. 탑승한 승무원들은 마치 집에 있는 것처럼 편안함을 느낍니다.</li>
+                <li>야간 순찰을 돌며 잠든 승무원들에게 이불을 덮어줍니다. 그 덕분에 훨씬 편안하게 휴식을 취합니다.</li>
+          </abilityFlavor>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ShipHoloAI.HoloPersonaDef[defName="HoloAI_Persona_HERMES"]/abilityFlavor</xpath>
+        <value>
+          <abilityFlavor>
+            <li>심부름을 하는 틈틈이 투덜거리는 소리를 내며 직접 갑판을 청소합니다.</li>
+          </abilityFlavor>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ShipHoloAI.HoloPersonaDef[defName="HoloAI_Persona_ATHENA"]/abilityFlavor</xpath>
+        <value>
+          <abilityFlavor>
+            <li>여가 시간을 보내는 승무원들을 위해 즉석 세미나를 열어 자신의 가장 뛰어난 기술을 가르칩니다.</li>
+            <li>출석은 여가 활동으로 인정되며, 명상을 하던 이들은 집중력이 흐려지기는커녕 오히려 더 날카로워진 채 돌아갑니다.</li>
+          </abilityFlavor>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ShipHoloAI.HoloPersonaDef[defName="HoloAI_Persona_ACESO"]/abilityFlavor</xpath>
+        <value>
+          <abilityFlavor>
+            <li>의사가 오지 않을 때 직접 응급 의료 상황을 해결합니다.</li>
+          </abilityFlavor>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ShipHoloAI.HoloPersonaDef[defName="HoloAI_Persona_IXIA"]/abilityFlavor</xpath>
+        <value>
+          <abilityFlavor>
+            <li>훈련된 간수의 솜씨로 포섭, 개심, 진압, 배급 등 감옥 운영을 직접 도맡아 처리합니다.</li>
+            <li>그녀가 갑판을 순찰하는 동안 탈옥 사건이 4배 더 드물어집니다.</li>
+          </abilityFlavor>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>
