@@ -138,4 +138,151 @@
   <FFF.AmmoSwitch.Label>{0}</FFF.AmmoSwitch.Label>
   <FFF.AmmoSwitch.Desc>클릭하여 탄약 종류 전환</FFF.AmmoSwitch.Desc>
   <FFF.AmmoSwitch.AmmoTooltip>{0} - {1}</FFF.AmmoSwitch.AmmoTooltip>
+  <FFF.ScenPart_SelectPrefabDef>구조물 선택</FFF.ScenPart_SelectPrefabDef>
+  <FFF.Message.CannotPlaceWithoutWall>벽 또는 문에 설치해야 합니다 </FFF.Message.CannotPlaceWithoutWall>
+  <FFF.Message.MustOnACoverBuilding>엄폐물에 설치해야 합니다 </FFF.Message.MustOnACoverBuilding>
+  <FFF_Camouflage_Label>위장 </FFF_Camouflage_Label>
+  <FFF_Camouflage_Desc>위장 모드를 전환합니다. </FFF_Camouflage_Desc>
+  <FFF_Camouflage_CooldownDesc>위장 재설정까지 남은 시간: {0}. </FFF_Camouflage_CooldownDesc>
+  <FFF_MessageLadarTriggered>경계 스캐너가 투명 상태의 생물을 감지했습니다. </FFF_MessageLadarTriggered>
+  <FFF_LadarDetectedInvisible>근처에 투명 물체 있음 </FFF_LadarDetectedInvisible>
+  <FFF_Alert_AlertLevel_Label>경보 단계 {0}</FFF_Alert_AlertLevel_Label>
+  <FFF_Alert_AlertLevel_Label_Triggered>경보 발동!</FFF_Alert_AlertLevel_Label_Triggered>
+  <FFF_Alert_AlertLevel_Desc>이 지도의 경보 감지 건물들이 보안 경보 단계를 {0}까지 높였습니다.
+
+경보 단계가 최대치에 도달하면 자동 대응 체계가 발동합니다. 침입자나 스캐너를 무력화하면 경보 단계가 서서히 낮아집니다.
+
+감시 대상 건물: {1}</FFF_Alert_AlertLevel_Desc>
+  <FFF_Alert_AlertLevel_Desc_Triggered>보안 경보 단계가 최대치에 도달해 자동 대응 체계가 작동 중입니다.
+
+감시 대상 건물: {0}</FFF_Alert_AlertLevel_Desc_Triggered>
+  <FFF.AmmoSwitch.DefaultAmmo>기본 탄약</FFF.AmmoSwitch.DefaultAmmo>
+  <FFF.AmmoSwitch.DefaultProjectile>기본 투사체</FFF.AmmoSwitch.DefaultProjectile>
+  <FFF.AmmoSwitch.StatFactor>정확도 계수</FFF.AmmoSwitch.StatFactor>
+  <FFF.AmmoSwitch.UsingDefault>기본값 사용</FFF.AmmoSwitch.UsingDefault>
+  <FFF.BuildingMover.Dir0>전진</FFF.BuildingMover.Dir0>
+  <FFF.BuildingMover.Dir1>후진</FFF.BuildingMover.Dir1>
+  <FFF.BuildingMover.Dir2>오른쪽 이동</FFF.BuildingMover.Dir2>
+  <FFF.BuildingMover.Dir3>왼쪽 이동</FFF.BuildingMover.Dir3>
+  <FFF.BuildingMover.Desc>목적지가 비어 있으면 이 구조물이 바라보는 방향을 따라 이동합니다.</FFF.BuildingMover.Desc>
+  <FFF.BuildingMover.Blocked>목적지가 막혀 있습니다.</FFF.BuildingMover.Blocked>
+  <FFF.BuildingMover.Rotate>회전</FFF.BuildingMover.Rotate>
+  <FFF.BuildingMover.RotateDesc>공간이 있으면 이 구조물을 시계 방향으로 회전합니다.</FFF.BuildingMover.RotateDesc>
+  <FFF.BuildingMover.Place.Toggle>왕복 궤도: 앞뒤로 왕복</FFF.BuildingMover.Place.Toggle>
+  <FFF.BuildingMover.Place.OneWay>바라보는 방향을 따라 이동</FFF.BuildingMover.Place.OneWay>
+  <FFF.BuildingMover.Place.Crush>경로상의 장애물을 분쇄</FFF.BuildingMover.Place.Crush>
+  <FFF.BuildingMover.Place.Mine>분쇄하며 통과한 광맥을 채굴</FFF.BuildingMover.Place.Mine>
+  <DMS.MachineCabinet.Door.Open>문 열기</DMS.MachineCabinet.Door.Open>
+  <DMS.MachineCabinet.Door.Close>문 닫기</DMS.MachineCabinet.Door.Close>
+  <DMS.MachineCabinet.Door.OpenDesc>옆으로 미끄러져 열립니다. 경로에 있는 대상은 밀려나며 타박상을 입습니다.</DMS.MachineCabinet.Door.OpenDesc>
+  <DMS.MachineCabinet.Charge.Label>파쇄 돌진! </DMS.MachineCabinet.Charge.Label>
+  <DMS.MachineCabinet.Charge.Desc>전방으로 돌진해 경로의 모든 것을 짓뭉개고 암석에서 광물을 뜯어냅니다.</DMS.MachineCabinet.Charge.Desc>
+  <FFF_CompContinuousDamager_Activate>활성화</FFF_CompContinuousDamager_Activate>
+  <FFF_CompContinuousDamager_Deactivate>비활성화</FFF_CompContinuousDamager_Deactivate>
+  <FFF_CompContinuousDamager_Desc>이 장치를 활성화합니다. {1}초 동안 일정 간격마다 {0}만큼의 {2} 피해를 주고 스스로 파괴됩니다.</FFF_CompContinuousDamager_Desc>
+  <FFF_CompContinuousDamager_Remaining>활성화됨 — 남은 시간: {0}</FFF_CompContinuousDamager_Remaining>
+  <FFF_NoContinuousDamagerComp>이 건물에서 지속 피해 구성요소를 찾을 수 없습니다.</FFF_NoContinuousDamagerComp>
+  <FFF_ContinuousDamagerAlreadyActive>장치가 이미 활성화되어 있습니다.</FFF_ContinuousDamagerAlreadyActive>
+  <FFF_ArmThermiteDevice>기폭 준비</FFF_ArmThermiteDevice>
+  <FFF.DamageBlocker.Charges>차단 횟수: {0}/{1}</FFF.DamageBlocker.Charges>
+  <FFF.DamageBlocker.Replenish>재정비 ({0} x{1})</FFF.DamageBlocker.Replenish>
+  <FFF.DamageBlocker.Threshold>피해 기준치: {0}{1} </FFF.DamageBlocker.Threshold>
+  <FFF.DamageBlocker.Absorbed>피해가 흡수되었습니다. </FFF.DamageBlocker.Absorbed>
+  <FFF.DamageBlocker.Stat.Category>피해량 기반 방호 </FFF.DamageBlocker.Stat.Category>
+  <FFF.DamageBlocker.Stat.Threshold>피해 기준치 </FFF.DamageBlocker.Stat.Threshold>
+  <FFF.DamageBlocker.Stat.ThresholdDesc>이 수치를 기준으로 받는 피해에 적용되는 방호 효과가 달라집니다.
+</FFF.DamageBlocker.Stat.ThresholdDesc>
+  <FFF.DamageBlocker.Stat.Charges>차단 횟수</FFF.DamageBlocker.Stat.Charges>
+  <FFF.DamageBlocker.Stat.ChargesDesc>재정비가 필요해질 때까지 피해를 차단할 수 있는 횟수입니다. </FFF.DamageBlocker.Stat.ChargesDesc>
+  <FFF.DamageBlocker.Stat.Behavior>피해 대응 방식 </FFF.DamageBlocker.Stat.Behavior>
+  <FFF.DamageBlocker.Stat.BehaviorDesc>피해량이 기준치 이상이거나 미만일 때 방호가 어떻게 작동하는지 나타냅니다. </FFF.DamageBlocker.Stat.BehaviorDesc>
+  <FFF.DamageBlocker.Stat.BehaviorAbove>기준치 이상: {0} ({1}) </FFF.DamageBlocker.Stat.BehaviorAbove>
+  <FFF.DamageBlocker.Stat.BehaviorBelow>기준치 미만: {0} ({1}) </FFF.DamageBlocker.Stat.BehaviorBelow>
+  <FFF.DamageBlocker.Stat.ActionBlock>완전 차단</FFF.DamageBlocker.Stat.ActionBlock>
+  <FFF.DamageBlocker.Stat.ActionClamp>피해량을 {0}(으)로 제한</FFF.DamageBlocker.Stat.ActionClamp>
+  <FFF.DamageBlocker.Stat.ActionPass>피해 그대로 적용 </FFF.DamageBlocker.Stat.ActionPass>
+  <FFF.DamageBlocker.Stat.ConsumeYes>1회 소모 </FFF.DamageBlocker.Stat.ConsumeYes>
+  <FFF.DamageBlocker.Stat.ConsumeNo>소모 없음 </FFF.DamageBlocker.Stat.ConsumeNo>
+  <FFF.DamageBlocker.Stat.Filter>적용 대상</FFF.DamageBlocker.Stat.Filter>
+  <FFF.DamageBlocker.Stat.FilterDesc>이 방호가 적용되는 공격의 유형을 나타냅니다.</FFF.DamageBlocker.Stat.FilterDesc>
+  <FFF.DamageBlocker.Stat.FilterValue>적용 제한 있음</FFF.DamageBlocker.Stat.FilterValue>
+  <FFF.DamageBlocker.Stat.FilterSource>공격 유형: {0}</FFF.DamageBlocker.Stat.FilterSource>
+  <FFF.DamageBlocker.Stat.FilterAllowed>차단 대상: {0}</FFF.DamageBlocker.Stat.FilterAllowed>
+  <FFF.DamageBlocker.Stat.FilterExcluded>제외 대상: {0}</FFF.DamageBlocker.Stat.FilterExcluded>
+  <FFF.DamageBlocker.Stat.FilterWeaponTags>무기 태그: {0}</FFF.DamageBlocker.Stat.FilterWeaponTags>
+  <FFF.DamageBlocker.Stat.SourceRanged>원거리</FFF.DamageBlocker.Stat.SourceRanged>
+  <FFF.DamageBlocker.Stat.SourceMelee>근접</FFF.DamageBlocker.Stat.SourceMelee>
+  <FFF.DamageBlocker.Stat.SourceDirect>직접 피해</FFF.DamageBlocker.Stat.SourceDirect>
+  <FFF.DamageBlocker.Stat.SourceNone>없음</FFF.DamageBlocker.Stat.SourceNone>
+  <FFF.DamageBlocker.Stat.Era>반응 효과</FFF.DamageBlocker.Stat.Era>
+  <FFF.DamageBlocker.Stat.EraValue>반응 효과 {0}개</FFF.DamageBlocker.Stat.EraValue>
+  <FFF.DamageBlocker.Stat.EraTrigger>발동 시점: {0}</FFF.DamageBlocker.Stat.EraTrigger>
+  <FFF.DamageBlocker.Stat.EraEntry>{2}에 {1} 피해 {0}</FFF.DamageBlocker.Stat.EraEntry>
+  <FFF.DamageBlocker.Stat.EraEntryCond>{0}이(가) {1} 미만일 경우: {2}</FFF.DamageBlocker.Stat.EraEntryCond>
+  <FFF.DamageBlocker.Stat.EraEntryNone>반응 피해 없음</FFF.DamageBlocker.Stat.EraEntryNone>
+  <FFF.DamageBlocker.Stat.EraPartRandom>무작위 신체 부위</FFF.DamageBlocker.Stat.EraPartRandom>
+  <FFF.DamageBlocker.Stat.EraOnHit>피격 시</FFF.DamageBlocker.Stat.EraOnHit>
+  <FFF.DamageBlocker.Stat.EraOnConsume>차단 횟수 소모 시</FFF.DamageBlocker.Stat.EraOnConsume>
+  <FFF.DamageBlocker.Stat.EraOnAbove>기준치 이상</FFF.DamageBlocker.Stat.EraOnAbove>
+  <FFF.DamageBlocker.Stat.EraOnBelow>기준치 미만</FFF.DamageBlocker.Stat.EraOnBelow>
+  <FFF.DamageBlocker.Stat.EraNever>발동하지 않음</FFF.DamageBlocker.Stat.EraNever>
+  <FFF.PressureRestriction>최소 기압: {0} </FFF.PressureRestriction>
+  <FFF_PaintSystemTitle>도색 및 색상 시스템</FFF_PaintSystemTitle>
+  <FFF_ChangePaint>도색 변경</FFF_ChangePaint>
+  <FFF_ChangePaintDesc>사용자 지정 도색 화면을 엽니다.</FFF_ChangePaintDesc>
+  <FFF_NoDye>근처에 사용 가능한 염료 없음</FFF_NoDye>
+  <FFF_CancelPaint>도색 취소</FFF_CancelPaint>
+  <FFF_CancelPaintDesc>예약된 도색 작업을 취소합니다.</FFF_CancelPaintDesc>
+  <FFF_PaintRequestSent>도색 작업이 지정되었습니다.</FFF_PaintRequestSent>
+  <FFF_ConfirmPaint>색상 확정</FFF_ConfirmPaint>
+  <FFF_CamoScheme>위장무늬</FFF_CamoScheme>
+  <FFF_2Columns>2열</FFF_2Columns>
+  <FFF_4Columns>4열</FFF_4Columns>
+  <FFF_6Columns>6열</FFF_6Columns>
+  <FFF_CamoStandard>기본</FFF_CamoStandard>
+  <FFF_CamoStandardDesc>기본 (위장무늬 없음)</FFF_CamoStandardDesc>
+  <FFF_Color1>색상 1 (R)</FFF_Color1>
+  <FFF_Color2>색상 2 (G)</FFF_Color2>
+  <FFF_Color3>색상 3 (B)</FFF_Color3>
+  <FFF_Red>빨강</FFF_Red>
+  <FFF_Green>초록</FFF_Green>
+  <FFF_Blue>파랑</FFF_Blue>
+  <FFF_BaseBrightness>기본 밝기</FFF_BaseBrightness>
+  <FFF_OverlayMultiply> [곱하기]</FFF_OverlayMultiply>
+  <FFF_OverlayDirect> [직접]</FFF_OverlayDirect>
+  <FFF_OverlayTitle>오버레이</FFF_OverlayTitle>
+  <FFF_OverlayNone>오버레이 없음</FFF_OverlayNone>
+  <FFF_CopyPaintConfig>설정 복사</FFF_CopyPaintConfig>
+  <FFF_PaintConfigCopied>설정이 복사되었습니다.</FFF_PaintConfigCopied>
+  <FFF_PastePaintConfig>설정 붙여넣기</FFF_PastePaintConfig>
+  <FFF_PastePaintConfigDesc>복사한 도색 설정을 붙여넣습니다.</FFF_PastePaintConfigDesc>
+  <FFF.WeaponNotSupported>지원하지 않는 무기</FFF.WeaponNotSupported>
+  <FFF.FrameNotSupported>지원하지 않는 메카프레임</FFF.FrameNotSupported>
+  <FFF_InternalBattery>내장 배터리</FFF_InternalBattery>
+  <FFF_SelfPowered>자체 동력</FFF_SelfPowered>
+  <FFF_BatteryFull>가득 참</FFF_BatteryFull>
+  <FFF.Mod.CannotUseDueToNotSupport>이곳에는 이 무기 개조 부품을 적용할 수 없습니다.</FFF.Mod.CannotUseDueToNotSupport>
+  <FFF.Mod.NotAGun>대상이 무기가 아닙니다.</FFF.Mod.NotAGun>
+  <FFF.Mod.NotModifiable>이 무기는 개조를 지원하지 않습니다.</FFF.Mod.NotModifiable>
+  <FFF.Mod.NotValidForThisWeapon>이 개조는 해당 무기에 적용할 수 없습니다.</FFF.Mod.NotValidForThisWeapon>
+  <FFF_RaidWave_LetterLabel>습격대 도착</FFF_RaidWave_LetterLabel>
+  <FFF_RaidWave_LetterText>{0}의 습격대가 도착하여 정착지를 공격하고 있습니다.</FFF_RaidWave_LetterText>
+  <FFF_RaidWave_Alert>습격대 접근 중</FFF_RaidWave_Alert>
+  <FFF_RaidWave_AlertDesc>{0}의 습격대가 이동 중이며 곧 도착합니다.</FFF_RaidWave_AlertDesc>
+  <FFF_RaidWave_Cooldown>앞으로 {0} 동안 습격을 호출할 수 없습니다.</FFF_RaidWave_Cooldown>
+  <FFF_RaidWave_NoGameComponent>FFF: RaidWave 게임 구성요소를 찾을 수 없습니다.</FFF_RaidWave_NoGameComponent>
+  <FFF_RaidWave_ConfirmDialog>{WAVE}(을)를 호출하면 다음 병력이 정착지를 공격합니다:
+
+{PAWNS}
+
+계속하시겠습니까?</FFF_RaidWave_ConfirmDialog>
+  <FFF_Substation_TurnOn>변전소 전력 복구</FFF_Substation_TurnOn>
+  <FFF_Substation_TurnOnDesc>이 변전소를 수동으로 재가동합니다. 기술 판정은 필요하지 않습니다. 위험한 건 전원을 끄는 일입니다.</FFF_Substation_TurnOnDesc>
+  <FFF_Substation_HackPrompt>해킹하여 정지</FFF_Substation_HackPrompt>
+  <FFF_Substation_HackedLabel>오프라인 (정지됨)</FFF_Substation_HackedLabel>
+  <FFF_Substation_HackedMsg>{HACKER_labelShort}(이)가 {SUBJECT_label}(을)를 정지했습니다.</FFF_Substation_HackedMsg>
+  <FFF_Substation_Online>상태: 온라인 — 3000 W 발전 중</FFF_Substation_Online>
+  <FFF_Substation_Offline>상태: 오프라인 (수동 정지)</FFF_Substation_Offline>
+  <FFF_Substation_EMPDisabled>상태: EMP로 비활성화됨</FFF_Substation_EMPDisabled>
+  <FFF_Substation_ShockMessage>{PAWN_labelShort}(이)가 변전소를 정지하던 중 감전되었습니다!</FFF_Substation_ShockMessage>
 </LanguageData>
