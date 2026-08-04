@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Fortification Industrial -Nuclear Dawn</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="FT_TurretEmpero"]/description</xpath>
+          <value>
+            <description>초장거리 간접 사격용 중화포입니다. 포구 속도가 매우 높아 최소 사거리가 깁니다.
+핵탄두 포탄을 발사할 수 있습니다. 사용할 때는 극도로 주의하십시오.
+
+155mm 곡사포 NK-30 ‘엠페로’는 메카노이드 침공을 막아낼 수 없는 산업화 이전 세계를 지원하기 위해 성간 산업 복합체 나라에서 개발한 신뢰성 높은 포병 체계입니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Quests Expanded - Ancients</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="FT_ENIAC"]/description</xpath>
+          <value>
+            <description>전자식 수치 적분 및 계산기(Electronic Numerical Integrator And Computer), 즉 ENIAC은 복잡한 계산에 사용되는 거대한 초기 전자식 컴퓨터입니다. 막대한 전력을 소비합니다.
+
+첨단 연구 작업대 근처에 배치하면 연구 속도가 증가하고, 디스크를 읽어 새로운 연구 프로젝트를 해제할 수 있습니다. 첨단 연구 작업대 하나당 ENIAC을 최대 4대까지 연결할 수 있습니다.
+
+초월정수 주입기에 연결하면 초월입자 주입 성공 확률이 2 증가하고, 주입 혼수 기간이 2일 줄어들며, 주입 절차의 거부 확률이 10 감소합니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biomes! Core</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/TerrainDef[defName="FloatinggardenConcrete"]/label</xpath>
+          <value>
+            <label>콘크리트 수상 경작지</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
