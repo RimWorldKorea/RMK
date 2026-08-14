@@ -8,6 +8,14 @@
   <Psycho.description>광이풀에서 사이카이트를 농축하여 만들어낸 가루 형태의 조악한 약물입니다. 코를 통해 흡입하면, 사용자에게 짧은 시간 동안 강렬한 도취감과 고무감을 제공하여 극적으로 통각을 둔화시키고 감각을 날카롭게 만듭니다. 이런 취기 이후에는 마찬가지로 강렬하며 매우 불쾌한 후유증이 뒤따릅니다. 강렬한 효능과 조악한 처리 때문에, 사이코는 광이풀로 만들어낸 다른 종류의 마약에 비해 훨씬 위험하고 중독성이 강합니다.\n\n많은 부족민 전사들이 전투에 들어가기 전에 사이코를 복용하며, 이를 통해 감각을 예민하게 하고 행동을 제약하는 부상을 일시적으로 무시합니다.</Psycho.description>
   <Psycho.ingestible.ingestCommandString>{0} 흡입</Psycho.ingestible.ingestCommandString>
   <Psycho.ingestible.ingestReportString>{0} 흡입 중</Psycho.ingestible.ingestReportString>
+  <Mote_MeltaFlash.label>Mote</Mote_MeltaFlash.label>
+  <Mote_SuppressIcon.label>Mote</Mote_SuppressIcon.label>
+  <Mote_HunkerIcon.label>Mote</Mote_HunkerIcon.label>
+  <Mote_BigExplode.label>Mote</Mote_BigExplode.label>
+  <Mote_Firetrail.label>Mote</Mote_Firetrail.label>
+  <Mote_FlareGlow.label>Mote</Mote_FlareGlow.label>
+  <Mote_FlareSmoke.label>Mote</Mote_FlareSmoke.label>
+  <CE_Mote_Flamethrower_Warmup.label>Mote</CE_Mote_Flamethrower_Warmup.label>
   <CE_BarbedWire.label>철조망</CE_BarbedWire.label>
   <CE_BarbedWire.description>지나가는 적들을 느리게 만드는 저렴한 방어 체계입니다.</CE_BarbedWire.description>
   <CE_Embrasure.label>총안</CE_Embrasure.label>
@@ -125,7 +133,7 @@
   <Weapon_GrenadeFirefoam.tools.0.label>몸체</Weapon_GrenadeFirefoam.tools.0.label>
   <Weapon_GrenadeFirefoam.verbs.Verb_ShootCEOneUse.label>화재진압 수류탄 던지기</Weapon_GrenadeFirefoam.verbs.Verb_ShootCEOneUse.label>
   <CE_GrenadeLauncher.label>유탄 발사기</CE_GrenadeLauncher.label>
-  <CE_GrenadeLauncher.description>자체적으로 생산된 단순한 중절식 유탄 발사기입니다. 다양한 종류의 발사체를 사용할 수 있습니다.</CE_GrenadeLauncher.description>
+  <CE_GrenadeLauncher.description>국지적으로 생산된 단순한 중절식 유탄 발사기입니다. 다양한 종류의 발사체를 사용할 수 있습니다.</CE_GrenadeLauncher.description>
   <CE_GrenadeLauncher.verbs.Verb_ShootCE.label>유탄 발사기</CE_GrenadeLauncher.verbs.Verb_ShootCE.label>
   <CE_GrenadeLauncher.tools.0.label>개머리판</CE_GrenadeLauncher.tools.0.label>
   <CE_GrenadeLauncher.tools.1.label>총열</CE_GrenadeLauncher.tools.1.label>
@@ -187,7 +195,7 @@
   <Gun_AGSThirty.description>삼각대에 거치된 AGS-30 유탄 발사기입니다.</Gun_AGSThirty.description>
   <Gun_AGSThirty.verbs.Verb_ShootCE.label>AGS-30 유탄 발사기</Gun_AGSThirty.verbs.Verb_ShootCE.label>
   <PlantBlazebulb.label>화약초</PlantBlazebulb.label>
-  <PlantBlazebulb.description>발화 무기에 사용할 수 있는 자연 발화성 화합물을 생산하도록 고안된 유전자 조작 식물입니다.\n\n재배지의 화약초는 28°C이상에서 발화 할 수 있으므로 유지관리에 끊임없는 주의가 요구됩니다.</PlantBlazebulb.description>
+  <PlantBlazebulb.description>발화 무기에 사용할 수 있는 자연 발화성 화합물을 생산하도록 고안된 유전자 조작 식물입니다.\n\n재배지의 화약초는 28°C 이상에서 발화 할 수 있으므로 유지관리에 끊임없는 주의가 요구됩니다.</PlantBlazebulb.description>
   <Ammo_10x18mmCharged.description>저속 고출력 전자기 병기에 사용하는 전자기 충전탄입니다.</Ammo_10x18mmCharged.description>
   <Ammo_10x18mmCharged.label>10x18mm 전자기탄</Ammo_10x18mmCharged.label>
   <Ammo_10x18mmCharged_AP.description>저속 고출력 전자기 병기에 사용하는 전자기 충전탄입니다.</Ammo_10x18mmCharged_AP.description>
@@ -323,6 +331,16 @@
   <Bullet_8x50mmCharged.label>8x50mm 전자기탄 탄환</Bullet_8x50mmCharged.label>
   <Bullet_8x50mmCharged_AP.label>8x50mm 전자기탄 탄환 (입자집중탄)</Bullet_8x50mmCharged_AP.label>
   <Bullet_8x50mmCharged_Ion.label>8x50mm 전자기탄 탄환 (이온전자탄)</Bullet_8x50mmCharged_Ion.label>
+  <Ammo_ChargedRocket.description>전자기 이온 탄두가 탑재된 첨단 로켓입니다. 탄두가 공중에서 폭발하면 치명적인 전자기 파동이 방출됩니다.</Ammo_ChargedRocket.description>
+  <Ammo_ChargedRocket.label>전자기 로켓 (고폭전자기탄)</Ammo_ChargedRocket.label>
+  <Ammo_ChargedRocket_ICP.description>프로메튬 탄두가 탑재된 첨단 로켓입니다. 마그네슘 탄두가 충격으로 폭발하면 녹아내린 슬래그와 타오르는 유체가 전방향으로 방사됩니다.</Ammo_ChargedRocket_ICP.description>
+  <Ammo_ChargedRocket_ICP.label>전자기 로켓 (소이프로메튬)</Ammo_ChargedRocket_ICP.label>
+  <Ammo_ChargedRocket_BB.description>열압력 탄두가 탑재된 첨단 로켓입니다. 요새와 구조물을 파괴하도록 설계되었습니다.</Ammo_ChargedRocket_BB.description>
+  <Ammo_ChargedRocket_BB.label>전자기 로켓 (벙커버스터)</Ammo_ChargedRocket_BB.label>
+  <Bullet_AntiGrainRocket.label>전자기 로켓 (고폭전자기탄)</Bullet_AntiGrainRocket.label>
+  <Bullet_PrometheumRocket.label>전자기 로켓 (소이프로메튬)</Bullet_PrometheumRocket.label>
+  <Bullet_MoltenSlag.label>녹아내린 슬래그</Bullet_MoltenSlag.label>
+  <Bullet_ThermobaricRocket.label>전자기 로켓 (벙커버스터)</Bullet_ThermobaricRocket.label>
   <Ammo_LaserChargePack.description>다양한 레이저 무기를 위한 범용 충전 팩입니다.</Ammo_LaserChargePack.description>
   <Ammo_LaserChargePack.label>레이저 충전 팩</Ammo_LaserChargePack.label>
   <Ammo_LaserChargePack_Mech.label>메카노이드 레이저 충전 팩</Ammo_LaserChargePack_Mech.label>
@@ -468,6 +486,8 @@
   <Ammo_ArtilleryShell_EMP.label>야포탄 (EMP탄)</Ammo_ArtilleryShell_EMP.label>
   <Ammo_ArtilleryShell_Smoke.description>곡사포에서 사용되는 대형 포탄입니다.</Ammo_ArtilleryShell_Smoke.description>
   <Ammo_ArtilleryShell_Smoke.label>야포탄 (연막탄)</Ammo_ArtilleryShell_Smoke.label>
+  <Ammo_ArtilleryShell_Anti.label>야포탄 (반물질탄)</Ammo_ArtilleryShell_Anti.label>
+  <Ammo_ArtilleryShell_Anti.description>반물질 탄두 두 개를 묶은 번화계 수준의 포격용 포탄입니다.</Ammo_ArtilleryShell_Anti.description>
   <Ammo_LightCannonShell_AP.description>기관포나 대공포 등에 사용되는 대구경 포탄입니다.</Ammo_LightCannonShell_AP.description>
   <Ammo_LightCannonShell_AP.label>경량형 포탄 (철갑탄)</Ammo_LightCannonShell_AP.label>
   <Ammo_LightCannonShell_HE.description>기관포나 대공포 등에 사용되는 대구경 포탄입니다.</Ammo_LightCannonShell_HE.description>
@@ -1166,7 +1186,7 @@
   <Ammo_SlingBullet_Steel.label>슬링 탄환 (강철)</Ammo_SlingBullet_Steel.label>
   <Projectile_SlingBullet_Stone.label>슬링 탄환 (돌)</Projectile_SlingBullet_Stone.label>
   <Projectile_SlingBullet_Steel.label>슬링 탄환 (강철)</Projectile_SlingBullet_Steel.label>
-  <Ammo_Nail.description>수 인치 길이의 뾰족한 목공용 못입니다. 일반적인 도구로 사용할 경우에는 전투에 적합하지 않습니다.</Ammo_Nail.description>
+  <Ammo_Nail.description>수 인치 길이의 뾰족한 목공용 못입니다. 일반적인 도구로 발사하는 경우에는 전투에 적합하지 않습니다.</Ammo_Nail.description>
   <Ammo_Nail.label>못</Ammo_Nail.label>
   <Bullet_Nail.label>못</Bullet_Nail.label>
   <Bullet_Nail_HV.label>못</Bullet_Nail_HV.label>
@@ -2340,6 +2360,9 @@
   <Ammo_90mmRCR_CAN.label>90mm 무반동 로켓 (캐니스터탄)</Ammo_90mmRCR_CAN.label>
   <Bullet_90mmRCR_HEAT.label>90mm 무반동 로켓 (대전차고폭탄)</Bullet_90mmRCR_HEAT.label>
   <Bullet_90mmRCR_CAN.label>90mm 무반동 로켓 (캐니스터탄)</Bullet_90mmRCR_CAN.label>
+  <Ammo_BGM71_HEAT.description>유선 유도식 대전차 미사일입니다. 지상의 목표를 장거리에서 정확하게 타격할 수 있습니다.</Ammo_BGM71_HEAT.description>
+  <Ammo_BGM71_HEAT.label>BGM-71 TOW 미사일 (열압력탄)</Ammo_BGM71_HEAT.label>
+  <Bullet_BGM71_HEAT.label>BGM-71 TOW 미사일 (열압력탄)</Bullet_BGM71_HEAT.label>
   <Ammo_M6_HEAT.description>M1 바주카용으로 설계된 구식의 60mm 로켓 추진 유탄입니다.</Ammo_M6_HEAT.description>
   <Ammo_M6_HEAT.label>M6 로켓 (대전차고폭탄)</Ammo_M6_HEAT.label>
   <Bullet_M6_HEAT.label>M6 로켓 (대전차고폭탄)</Bullet_M6_HEAT.label>
@@ -2408,11 +2431,14 @@
   <Ammo_105mmHowitzerShell_EMP.label>105mm 곡사포탄 (EMP탄)</Ammo_105mmHowitzerShell_EMP.label>
   <Ammo_105mmHowitzerShell_Smoke.description>곡사포에서 사용되는 대형 포탄입니다.</Ammo_105mmHowitzerShell_Smoke.description>
   <Ammo_105mmHowitzerShell_Smoke.label>105mm 곡사포탄 (연막탄)</Ammo_105mmHowitzerShell_Smoke.label>
+ <Ammo_105mmHowitzerShell_Anti.description>곡사포에서 사용되는 대형 포탄입니다.</Ammo_105mmHowitzerShell_Anti.description>
+  <Ammo_105mmHowitzerShell_Anti.label>105mm 곡사포탄 (반물질탄)</Ammo_105mmHowitzerShell_Anti.label>
   <Bullet_105mmHowitzerShell_HE.label>105mm 곡사포탄 (고폭탄)</Bullet_105mmHowitzerShell_HE.label>
   <Bullet_105mmHowitzerShell_HE_HFuzed.label>105mm 곡사포탄 (공중폭발탄)</Bullet_105mmHowitzerShell_HE_HFuzed.label>
   <Bullet_105mmHowitzerShell_Incendiary.label>105mm 곡사포탄 (소이탄)</Bullet_105mmHowitzerShell_Incendiary.label>
   <Bullet_105mmHowitzerShell_EMP.label>105mm 곡사포탄 (EMP탄)</Bullet_105mmHowitzerShell_EMP.label>
   <Bullet_105mmHowitzerShell_Smoke.label>105mm 곡사포탄 (연막탄)</Bullet_105mmHowitzerShell_Smoke.label>
+  <Bullet_105mmHowitzerShell_Anti.label>105mm 곡사포탄 (반물질탄)</Bullet_105mmHowitzerShell_Anti.label>
   <Bullet_105mmHowitzerShell_HEAT_directfire.label>105mm 곡사포탄 (대전차고폭탄)</Bullet_105mmHowitzerShell_HEAT_directfire.label>
   <Bullet_105mmHowitzerShell_HE_directfire.label>105mm 곡사포탄 (고폭탄)</Bullet_105mmHowitzerShell_HE_directfire.label>
   <Bullet_105mmHowitzerShell_Incendiary_directfire.label>105mm 곡사포탄 (소이탄)</Bullet_105mmHowitzerShell_Incendiary_directfire.label>
@@ -2486,11 +2512,14 @@
   <Ammo_155mmHowitzerShell_EMP.label>155mm 곡사포탄 (EMP탄)</Ammo_155mmHowitzerShell_EMP.label>
   <Ammo_155mmHowitzerShell_Smoke.description>곡사포에서 사용되는 대형 포탄입니다.</Ammo_155mmHowitzerShell_Smoke.description>
   <Ammo_155mmHowitzerShell_Smoke.label>155mm 곡사포탄 (연막탄)</Ammo_155mmHowitzerShell_Smoke.label>
+  <Ammo_155mmHowitzerShell_Anti.label>155mm 곡사포탄 (반물질탄)</Ammo_155mmHowitzerShell_Anti.label>
+  <Ammo_155mmHowitzerShell_Anti.description>반물질 탄두 두 개를 묶은 번화계 수준의 포격용 포탄입니다.</Ammo_155mmHowitzerShell_Anti.description>  
   <Bullet_155mmHowitzerShell_HE.label>155mm 곡사포탄 (고폭탄)</Bullet_155mmHowitzerShell_HE.label>
   <Bullet_155mmHowitzerShell_HE_HFuzed.label>155mm 곡사포탄 (공중폭발탄)</Bullet_155mmHowitzerShell_HE_HFuzed.label>
   <Bullet_155mmHowitzerShell_Incendiary.label>155mm 곡사포탄 (소이탄)</Bullet_155mmHowitzerShell_Incendiary.label>
   <Bullet_155mmHowitzerShell_EMP.label>155mm 곡사포탄 (EMP탄)</Bullet_155mmHowitzerShell_EMP.label>
   <Bullet_155mmHowitzerShell_Smoke.label>155mm 곡사포탄 (연막탄)</Bullet_155mmHowitzerShell_Smoke.label>
+  <Bullet_155mmHowitzerShell_Anti.label>155mm 곡사포탄 (반물질탄)</Bullet_155mmHowitzerShell_Anti.label>
   <Bullet_155mmHowitzerShell_HE_directfire.label>155mm 곡사포탄 (고폭탄)</Bullet_155mmHowitzerShell_HE_directfire.label>
   <Bullet_155mmHowitzerShell_Incendiary_directfire.label>155mm 곡사포탄 (소이탄)</Bullet_155mmHowitzerShell_Incendiary_directfire.label>
   <Bullet_155mmHowitzerShell_EMP_directfire.label>155mm 곡사포탄 (EMP탄)</Bullet_155mmHowitzerShell_EMP_directfire.label>
@@ -2797,19 +2826,19 @@
   <Bullet_5x23mmCaseless_Incendiary.label>5x23mm 무탄피탄 탄환 (철갑소이탄)</Bullet_5x23mmCaseless_Incendiary.label>
   <Bullet_5x23mmCaseless_HE.label>5x23mm 무탄피탄 탄환 (HE)</Bullet_5x23mmCaseless_HE.label>
   <Bullet_5x23mmCaseless_Sabot.label>5x23mm 무탄피탄 탄환 (사보탄)</Bullet_5x23mmCaseless_Sabot.label>
-  <Ammo_762x51mmUNSC_FMJ.description>An improved version of the ancient 7.62x51mm cartridge, featuring a hardened penetrator and better propellent to counter advancements in body armour. A tiny amount of stopping power is sacrificed to achieve this superior penetrative capability. It is used by a large number of UNSC weaponry.</Ammo_762x51mmUNSC_FMJ.description>
+  <Ammo_762x51mmUNSC_FMJ.description>고대 7.62x51mm 탄약을 개선한 탄약입니다. 방탄장갑에 밪서기 위해 더 단단한 관통자와 더 질 높은 추진체를 사용하여, 약간의 저지력을 희생하여 높은 관통력을 얻었습니다. 상당수의 UNSC 총기에서 사용됩니다.</Ammo_762x51mmUNSC_FMJ.description>
   <Ammo_762x51mmUNSC_FMJ.label>7.62x51mm UNSC (일반탄)</Ammo_762x51mmUNSC_FMJ.label>
-  <Ammo_762x51mmUNSC_AP.description>An improved version of the ancient 7.62x51mm cartridge, featuring a hardened penetrator and better propellent to counter advancements in body armour. A tiny amount of stopping power is sacrificed to achieve this superior penetrative capability. It is used by a large number of UNSC weaponry.</Ammo_762x51mmUNSC_AP.description>
+  <Ammo_762x51mmUNSC_AP.description>고대 7.62x51mm 탄약을 개선한 탄약입니다. 방탄장갑에 밪서기 위해 더 단단한 관통자와 더 질 높은 추진체를 사용하여, 약간의 저지력을 희생하여 높은 관통력을 얻었습니다. 상당수의 UNSC 총기에서 사용됩니다.</Ammo_762x51mmUNSC_AP.description>
   <Ammo_762x51mmUNSC_AP.label>7.62x51mm UNSC (철갑탄)</Ammo_762x51mmUNSC_AP.label>
-  <Ammo_762x51mmUNSC_HP.description>An improved version of the ancient 7.62x51mm cartridge, featuring a hardened penetrator and better propellent to counter advancements in body armour. A tiny amount of stopping power is sacrificed to achieve this superior penetrative capability. It is used by a large number of UNSC weaponry.</Ammo_762x51mmUNSC_HP.description>
+  <Ammo_762x51mmUNSC_HP.description>고대 7.62x51mm 탄약을 개선한 탄약입니다. 방탄장갑에 밪서기 위해 더 단단한 관통자와 더 질 높은 추진체를 사용하여, 약간의 저지력을 희생하여 높은 관통력을 얻었습니다. 상당수의 UNSC 총기에서 사용됩니다.</Ammo_762x51mmUNSC_HP.description>
   <Ammo_762x51mmUNSC_HP.label>7.62x51mm UNSC (HP탄)</Ammo_762x51mmUNSC_HP.label>
-  <Ammo_762x51mmUNSC_Shredder.description>An improved version of the ancient 7.62x51mm cartridge, featuring a hardened penetrator and better propellent to counter advancements in body armour. A tiny amount of stopping power is sacrificed to achieve this superior penetrative capability. It is used by a large number of UNSC weaponry.</Ammo_762x51mmUNSC_Shredder.description>
+  <Ammo_762x51mmUNSC_Shredder.description>고대 7.62x51mm 탄약을 개선한 탄약입니다. 방탄장갑에 밪서기 위해 더 단단한 관통자와 더 질 높은 추진체를 사용하여, 약간의 저지력을 희생하여 높은 관통력을 얻었습니다. 상당수의 UNSC 총기에서 사용됩니다.</Ammo_762x51mmUNSC_Shredder.description>
   <Ammo_762x51mmUNSC_Shredder.label>7.62x51mm UNSC (파쇄탄)</Ammo_762x51mmUNSC_Shredder.label>
-  <Ammo_762x51mmUNSC_Incendiary.description>An improved version of the ancient 7.62x51mm cartridge, featuring a hardened penetrator and better propellent to counter advancements in body armour. A tiny amount of stopping power is sacrificed to achieve this superior penetrative capability. It is used by a large number of UNSC weaponry.</Ammo_762x51mmUNSC_Incendiary.description>
+  <Ammo_762x51mmUNSC_Incendiary.description>고대 7.62x51mm 탄약을 개선한 탄약입니다. 방탄장갑에 밪서기 위해 더 단단한 관통자와 더 질 높은 추진체를 사용하여, 약간의 저지력을 희생하여 높은 관통력을 얻었습니다. 상당수의 UNSC 총기에서 사용됩니다.</Ammo_762x51mmUNSC_Incendiary.description>
   <Ammo_762x51mmUNSC_Incendiary.label>7.62x51mm UNSC (철갑소이탄)</Ammo_762x51mmUNSC_Incendiary.label>
-  <Ammo_762x51mmUNSC_HE.description>An improved version of the ancient 7.62x51mm cartridge, featuring a hardened penetrator and better propellent to counter advancements in body armour. A tiny amount of stopping power is sacrificed to achieve this superior penetrative capability. It is used by a large number of UNSC weaponry.</Ammo_762x51mmUNSC_HE.description>
+  <Ammo_762x51mmUNSC_HE.description>고대 7.62x51mm 탄약을 개선한 탄약입니다. 방탄장갑에 밪서기 위해 더 단단한 관통자와 더 질 높은 추진체를 사용하여, 약간의 저지력을 희생하여 높은 관통력을 얻었습니다. 상당수의 UNSC 총기에서 사용됩니다.</Ammo_762x51mmUNSC_HE.description>
   <Ammo_762x51mmUNSC_HE.label>7.62x51mm UNSC (이중목적고폭탄)</Ammo_762x51mmUNSC_HE.label>
-  <Ammo_762x51mmUNSC_Sabot.description>An improved version of the ancient 7.62x51mm cartridge, featuring a hardened penetrator and better propellent to counter advancements in body armour. A tiny amount of stopping power is sacrificed to achieve this superior penetrative capability. It is used by a large number of UNSC weaponry.</Ammo_762x51mmUNSC_Sabot.description>
+  <Ammo_762x51mmUNSC_Sabot.description>고대 7.62x51mm 탄약을 개선한 탄약입니다. 방탄장갑에 밪서기 위해 더 단단한 관통자와 더 질 높은 추진체를 사용하여, 약간의 저지력을 희생하여 높은 관통력을 얻었습니다. 상당수의 UNSC 총기에서 사용됩니다.</Ammo_762x51mmUNSC_Sabot.description>
   <Ammo_762x51mmUNSC_Sabot.label>7.62x51mm UNSC (사보탄)</Ammo_762x51mmUNSC_Sabot.label>
   <Bullet_762x51mmUNSC_FMJ.label>7.62mm UNSC 탄환 (일반탄)</Bullet_762x51mmUNSC_FMJ.label>
   <Bullet_762x51mmUNSC_AP.label>7.62mm UNSC 탄환 (철갑탄)</Bullet_762x51mmUNSC_AP.label>
@@ -2825,18 +2854,18 @@
   <Bullet_762x51mmUNSC_Incendiary_DMR.label>7.62mm UNSC 탄환 (철갑소이탄)</Bullet_762x51mmUNSC_Incendiary_DMR.label>
   <Bullet_762x51mmUNSC_HE_DMR.label>7.62mm UNSC 탄환 (이중목적고폭탄)</Bullet_762x51mmUNSC_HE_DMR.label>
   <Bullet_762x51mmUNSC_Sabot_DMR.label>7.62mm UNSC 탄환 (사보탄)</Bullet_762x51mmUNSC_Sabot_DMR.label>
-  <Ammo_8Gauge_Buck.description>An uncommon, oversized shotgun shell used primarily in military application.</Ammo_8Gauge_Buck.description>
-  <Ammo_8Gauge_Buck.label>Soellkraft 8 gauge shell (벅샷)</Ammo_8Gauge_Buck.label>
-  <Ammo_8Gauge_Flechette.description>An uncommon, oversized shotgun shell used primarily in military application.</Ammo_8Gauge_Flechette.description>
-  <Ammo_8Gauge_Flechette.label>Soellkraft 8 gauge shell (플레셰트탄)</Ammo_8Gauge_Flechette.label>
-  <Ammo_8Gauge_Slug.description>An uncommon, oversized shotgun shell used primarily in military application.</Ammo_8Gauge_Slug.description>
-  <Ammo_8Gauge_Slug.label>Soellkraft 8 gauge shell (슬러그탄)</Ammo_8Gauge_Slug.label>
-  <Ammo_8Gauge_ElectroSlug.description>An uncommon, oversized shotgun shell used primarily in military application.</Ammo_8Gauge_ElectroSlug.description>
-  <Ammo_8Gauge_ElectroSlug.label>Soellkraft 8 gauge shell (EMP탄)</Ammo_8Gauge_ElectroSlug.label>
-  <Bullet_8Gauge_Buck.label>buckshot pellet</Bullet_8Gauge_Buck.label>
-  <Bullet_8Gauge_Flechette.label>Flechette</Bullet_8Gauge_Flechette.label>
-  <Bullet_8Gauge_Slug.label>shotgun slug</Bullet_8Gauge_Slug.label>
-  <Bullet_8Gauge_ElectroSlug.label>EMP slug</Bullet_8Gauge_ElectroSlug.label>
+  <Ammo_8Gauge_Buck.description>주로 군사적 목적으로 사용되는 보기드문 대형 산탄입니다.</Ammo_8Gauge_Buck.description>
+  <Ammo_8Gauge_Buck.label>소엘크라프트 8 게이지 (벅샷)</Ammo_8Gauge_Buck.label>
+  <Ammo_8Gauge_Flechette.description>주로 군사적 목적으로 사용되는 보기드문 대형 산탄입니다.</Ammo_8Gauge_Flechette.description>
+  <Ammo_8Gauge_Flechette.label>소엘크라프트 8 게이지 (플레셰트탄)</Ammo_8Gauge_Flechette.label>
+  <Ammo_8Gauge_Slug.description>주로 군사적 목적으로 사용되는 보기드문 대형 산탄입니다.</Ammo_8Gauge_Slug.description>
+  <Ammo_8Gauge_Slug.label>소엘크라프트 8 게이지 (슬러그탄)</Ammo_8Gauge_Slug.label>
+  <Ammo_8Gauge_ElectroSlug.description>주로 군사적 목적으로 사용되는 보기드문 대형 산탄입니다.</Ammo_8Gauge_ElectroSlug.description>
+  <Ammo_8Gauge_ElectroSlug.label>소엘크라프트 8 게이지 (EMP탄)</Ammo_8Gauge_ElectroSlug.label>
+  <Bullet_8Gauge_Buck.label>소엘크라프트 8 게이지 (벅샷)</Bullet_8Gauge_Buck.label>
+  <Bullet_8Gauge_Flechette.label>소엘크라프트 8 게이지 (플레셰트탄)</Bullet_8Gauge_Flechette.label>
+  <Bullet_8Gauge_Slug.label>소엘크라프트 8 게이지 (슬러그탄)</Bullet_8Gauge_Slug.label>
+  <Bullet_8Gauge_ElectroSlug.label>소엘크라프트 8 게이지 (EMP탄)</Bullet_8Gauge_ElectroSlug.label>
   <Ammo_95x40mmUNSC_FMJ.description>상대적으로 희귀한 대구경의 소총 탄약입니다. 첨단 추진제 덕분에 위력 손실 없이 길이를 줄일 수 있었습니다. 현재는 UNSC 전투소총에만 사용됩니다.</Ammo_95x40mmUNSC_FMJ.description>
   <Ammo_95x40mmUNSC_FMJ.label>9.5x40mm UNSC (일반탄)</Ammo_95x40mmUNSC_FMJ.label>
   <Ammo_95x40mmUNSC_AP.description>상대적으로 희귀한 대구경의 소총 탄약입니다. 첨단 추진제 덕분에 위력 손실 없이 길이를 줄일 수 있었습니다. 현재는 UNSC 전투소총에만 사용됩니다.</Ammo_95x40mmUNSC_AP.description>
@@ -2934,7 +2963,7 @@
   <Bullet_PlasmaPistol_Relic.label>플라즈마 권총 볼트</Bullet_PlasmaPistol_Relic.label>
   <Bullet_PlasmaRifle_Relic.label>플라즈마 소총 볼트</Bullet_PlasmaRifle_Relic.label>
   <CombatExtended_MechAmmoBeacon.label>메카 탄약보급 신호기</CombatExtended_MechAmmoBeacon.label>
-  <CombatExtended_MechAmmoBeacon.description>메카노이드 탄약 보급신호기로, 활성화가 되면 근처에 탄약이 도착합니다.</CombatExtended_MechAmmoBeacon.description>
+  <CombatExtended_MechAmmoBeacon.description>메카노이드 탄약 보급신호기입니다. 활성화되면 근처에 수송 포드의 형태로 탄약이 도착합니다.</CombatExtended_MechAmmoBeacon.description>
   <Gun_AutoBlasterTurret.label>전자기 포탑 총</Gun_AutoBlasterTurret.label>
   <Gun_AutoBlasterTurret.description>포탑에 장착된 전자기 화기.</Gun_AutoBlasterTurret.description>
   <Gun_AutoBlasterTurret.verbs.Verb_ShootCE.label>전자기 포탑 총</Gun_AutoBlasterTurret.verbs.Verb_ShootCE.label>
@@ -3172,4 +3201,46 @@
   <Bullet_50BMG_SabotStun.label>.50 BMG 탄환 (사보탄)</Bullet_50BMG_SabotStun.label>
   <Ammo_VoltLaserCellPack.description>다양한 레이저 무기를 위한 범용 충전 팩입니다.</Ammo_VoltLaserCellPack.description>
   <Ammo_VoltLaserCellPack.label>볼트 레이저 셀</Ammo_VoltLaserCellPack.label>
+  
+  <!-- Patch: Core -->
+  <Turret_AutoMiniTurret.label>소형 블래스터 포탑</Turret_AutoMiniTurret.label>
+  <Turret_MiniTurret.description>휴대 가능한 자동포탑입니다. 수준낮은 인공지능 두뇌를 사용하며 직접 조작할 수 없으므로 아군 오사에 주의하십시오.</Turret_MiniTurret.description>
+  <Turret_Mortar.label>81mm 박격포</Turret_Mortar.label>
+  <ThrumboHorn.description>트럼보의 뿔입니다. 극도로 희귀하여 대부분의 시장에서 가치를 매길 수 없는 귀중품으로 거래됩니다.</ThrumboHorn.description>
+  <ElephantTusk.description>코끼리의 뿔입니다. 희귀품 상인들에게 좋은 값에 팔릴 수 있습니다.</ElephantTusk.description>
+  <Apparel_AdvancedHelmet.label>합성 방탄모</Apparel_AdvancedHelmet.label>
+  <Apparel_AdvancedHelmet.description>복합 재료로 제작한 정교한 설계의 경량 전투모입니다. 일반적인 철제 방탄모에 비해 더 탁월한 보호를 제공하지만 내구력은 떨어집니다.</Apparel_AdvancedHelmet.description>
+  <Apparel_PowerArmorHelmet.description>플라스틸 복합 장갑 및 보조 컴퓨터로 구성된 해병용 헬멧입니다.\n\n내부의 서보모터가 착용자의 근육이 헬멧의 무게를 견딜 수 있도록 돕고 내부의 전투용 HUD가 사격 명중률을 향상시킵니다.\n\n우주 해병대에서 주로 사용하는 장비입니다.</Apparel_PowerArmorHelmet.description>
+  <Apparel_ArmorHelmetRecon.description>플라스틸 복합 장갑 및 보조 컴퓨터로 구성된 정찰용 헬멧입니다.\n\n내부의 서보모터가 착용자의 근육이 헬멧의 무게를 견딜 수 있도록 돕고 내부의 전투용 HUD가 사격 명중률을 향상시킵니다.\n\n제국 정찰대와 번화계 경찰이 주로 사용하는 장비입니다.</Apparel_ArmorHelmetRecon.description>
+  <Apparel_FlakJacket.description>방탄 소재를 덧대 만들어진 재킷입니다. 탄환 파편 및 총격에 대한 제한된 수준의 방호를 상대적으로 가벼운 무게로 제공합니다.</Apparel_FlakJacket.description>
+  <Apparel_FlakJacket.description>방탄 소재를 덧대 만들어진 바지입니다. 탄환 파편 및 총격에 대한 제한된 수준의 방호를 상대적으로 가벼운 무게로 제공합니다.</Apparel_FlakJacket.description>
+  <Apparel_PowerArmor.description>매우 뛰어난 방호력을 지닌 복합 플라스틸 재질의 동력 갑옷입니다. 약점이 거의 없으며, 착용자가 갑옷을 제어하는 것을 도와주는 신경망 보조 장치가 탑재되어 있습니다.\n\n거추장스럽고 무겁지만, 첨단 서보모터는 착용자의 운반 능력을 크게 향상시키며 무기 조작을 보조합니다.\n\n우주 해병대에서 주로 사용하는 장비입니다.</Apparel_PowerArmor.description>
+  <Apparel_ArmorRecon.description>빠른 움직임을 위해 설계된 경량 동력 갑옷입니다. 가벼운 플라스틸 복합 장갑은 이동성을 저하시키지 않으면서도 상당한 방호력을 제공합니다.\n\n내장된 첨단 서보모터는 착용자의 운반 능력을 크게 향상시킵니다.\n\n제국 정찰대와 번화계 경찰이 주로 사용하는 장비입니다.</Apparel_ArmorRecon.description>
+  <Gun_ChainShotgun.description>탄창 급탄식 완전 자동 산탄총입니다. 전형적인 산탄총과 사정거리는 비슷하지만 연발이 가능해서 훨씬 위협적입니다.</Gun_ChainShotgun.description>
+  <Boomrat.comps.CompShearableRenameable.growthLabel>분비물</Boomrat.comps.CompShearableRenameable.growthLabel>
+  <Boomalope.comps.CompShearableRenameable.growthLabel>분비물</Boomalope.comps.CompShearableRenameable.growthLabel>
+  
+  <!-- Patch: Royalty -->
+  <Apparel_ArmorCataphract.description>기동성을 포기한 대신 최대한의 방호력을 제공하는 강화 동력 갑옷입니다. 두꺼운 플라스틸 재질로 구성되어 대부분의 공격을 튕겨냅니다. 착용자가 갑옷을 제어하는 것을 돕는 신경망 보조 장치가 탑재되어 있어 그 엄청난 무게에도 움직이지 못하는 일은 없지만, 여전히 꽤 거추장스럽습니다.\n\n거추장스럽고 무겁지만, 내장된 첨단 서보모터는 착용자의 운반 능력을 크게 향상시키며 무기 조작을 보조합니다.\n\n이 갑옷은 제국이 요새화된 진지를 정면돌파할 때 주로 사용됩니다.</Apparel_ArmorCataphract.description>
+  <Apparel_ArmorMarineGrenadier.description>해병대 갑옷의 변형으로, 유탄 발사기가 내장되어 있습니다. 일반 해병 갑옷보다는 약간 방호력이 떨어집니다. 발사할 수 있는 유탄의 수에는 한계가 있으며 사용 후에는 재장전해야 합니다.\n\n척탄 갑옷은 건물이나 함선 내부 격벽을 파괴하는 데 특화되어 있습니다. 원거리 전투에서는 효율이 떨어지지만, 제한된 구역에서는 치명적입니다.\n\n거추장스럽고 무겁지만, 첨단 서보모터는 착용자의 운반 능력을 크게 향상시키며 무기 조작을 보조합니다.</Apparel_ArmorMarineGrenadier.description>
+  <Apparel_ArmorMarineGrenadier.verbs.0.label>30x29mm 유탄 발사</Apparel_ArmorMarineGrenadier.verbs.0.label>
+  <Apparel_ArmorCataphractPhoenix.description>근위대 갑옷의 변형으로, 소이탄 발사기가 내장되어 있습니다. 일반 근위대 갑옷보다는 약간 방호력이 떨어지지만, 불에 훨씬 강합니다. 발사할 수 있는 소이탄의 수에는 한계가 있으며 사용 후에는 재장전해야 합니다.\n\n불사조 갑옷은 제한된 실내 작전에서 적들로 가득 찬 공간을 정리하는데 특화되었습니다. 적의 화력에 노출된 복도를 정면돌파하면서, 화염으로 방을 쓸어버리고, 연기 속에서 상처 없이 빠져나올 수 있습니다.\n\n거추장스럽고 무겁지만, 내장된 첨단 서보모터는 착용자의 운반 능력을 크게 향상시키며 무기 조작을 보조합니다.</Apparel_ArmorCataphractPhoenix.description>
+  
+  <Apparel_ArmorMarineGrenadier.verbs.0.label>30x64mm 소이탄 발사</Apparel_ArmorMarineGrenadier.verbs.0.label>
+  <Apparel_ArmorLocust.description>정찰대 갑옷의 변형으로, 단거리 도약이 가능한 점프팩이 기본 내장되어 있습니다. 일반 정찰대 갑옷보다는 약간 방호력이 떨어집니다. 도약 횟수에는 한계가 있으며 사용 후에는 재장전해야 합니다.\n\n내장된 첨단 서보모터는 착용자의 운반 능력을 크게 향상시킵니다.\n\n도약 갑옷은 근접무기와 잘 어울리며, 점프팩을 활용하여 적의 방어선을 우회하고 백병전을 유도할 수 있습니다. 이 전략은 거점 방어전이나 좁은 전장에서는 사용하기 어렵지만, 함선 탈취나 임기응변에 강합니다.</Apparel_ArmorLocust.description>
+  <Apparel_ArmorReconPrestige.description>빠른 움직임을 위해 설계된 경량 동력 갑옷입니다. 가벼운 플라스틸 복합 장갑은 이동성을 저하시키지 않으면서도 상당한 방호력을 제공합니다. 착용자가 갑옷을 제어하는 것을 도와주는 신경망 보조 장치가 탑재되어 있습니다.\n\n내장된 첨단 서보모터는 착용자의 운반 능력을 크게 향상시킵니다.\n\n장교 갑옷은 높은 작위를 가진 사람들을 위해 만들어지며, 동급의 장비보다 훨씬 비싸고 아름답습니다. 또한 내장된 엘텍스 가닥이 착용자의 정신 감응력을 향상시킵니다.</Apparel_ArmorReconPrestige.description>
+  <Apparel_ArmorMarinePrestige.description>매우 뛰어난 방호력을 지닌 복합 플라스틸 재질의 동력 갑옷입니다. 약점이 거의 없으며, 착용자가 갑옷을 제어하는 것을 도와주는 신경망 보조 장치가 탑재되어 있습니다.\n\n거추장스럽고 무겁지만, 첨단 서보모터는 착용자의 운반 능력을 크게 향상시키며 무기 조작을 보조합니다.\n\n장교 갑옷은 높은 작위를 가진 사람들을 위해 만들어지며, 동급의 장비보다 훨씬 비싸고 아름답습니다. 또한 내장된 엘텍스 가닥이 착용자의 정신 감응력을 향상시킵니다.</Apparel_ArmorMarinePrestige.description>
+  <Apparel_ArmorCataphractPrestige.description>기동성을 포기한 대신 최대한의 방호력을 제공하는 강화 동력 갑옷입니다. 두꺼운 플라스틸 재질로 구성되어 대부분의 공격을 튕겨냅니다. 착용자가 갑옷을 제어하는 것을 돕는 신경망 보조 장치가 탑재되어 있어 그 엄청난 무게에도 움직이지 못하는 일은 없지만, 여전히 꽤 거추장스럽습니다.\n\n거추장스럽고 무겁지만, 내장된 첨단 서보모터는 착용자의 운반 능력을 크게 향상시키며 무기 조작을 보조합니다.\n\n장교 갑옷은 높은 작위를 가진 사람들을 위해 만들어지며, 동급의 장비보다 훨씬 비싸고 아름답습니다. 또한 내장된 엘텍스 가닥이 착용자의 정신 감응력을 향상시킵니다.</Apparel_ArmorCataphractPrestige.description>
+  <Apparel_ArmorHelmetCataphract.description>첨단기술이 적용된 중장갑 헬멧으로, 단단한 플라스틸 재질로 이뤄져 있으며 시야 확보를 위한 시각 시스템을 갖추고 있습니다. 거의 모든 공격을 튕겨냅니다.\n\n내부의 서보모터가 착용자의 근육이 헬멧의 무게를 견딜 수 있도록 돕고 내부의 전투용 HUD가 사격 명중률을 향상시킵니다.\n\n이 갑옷은 제국이 요새화된 진지를 정면돌파할 때 주로 사용됩니다.</Apparel_ArmorHelmetCataphract.description>
+  <Apparel_ArmorHelmetReconPrestige.description>플라스틸 복합 장갑 및 보조 컴퓨터로 구성된 정찰용 헬멧입니다.\n\n내부의 서보모터가 착용자의 근육이 헬멧의 무게를 견딜 수 있도록 돕고 내부의 전투용 HUD가 사격 명중률을 향상시킵니다.\n\n장교 갑옷은 높은 작위를 가진 사람들을 위해 만들어지며, 동급의 장비보다 훨씬 비싸고 아름답습니다. 또한 내장된 엘텍스 가닥이 착용자의 정신 감응력을 향상시킵니다.</Apparel_ArmorHelmetReconPrestige.description>
+  <Apparel_ArmorMarineHelmetPrestige.description>플라스틸 복합 장갑 및 보조 컴퓨터로 구성된 해병용 헬멧입니다.\n\n내부의 서보모터가 착용자의 근육이 헬멧의 무게를 견딜 수 있도록 돕고 내부의 전투용 HUD가 사격 명중률을 향상시킵니다.\n\n장교 갑옷은 높은 작위를 가진 사람들을 위해 만들어지며, 동급의 장비보다 훨씬 비싸고 아름답습니다. 또한 내장된 엘텍스 가닥이 착용자의 정신 감응력을 향상시킵니다.</Apparel_ArmorMarineHelmetPrestige.description>
+  <Apparel_ArmorHelmetCataphractPrestige.description>첨단기술이 적용된 중장갑 헬멧으로, 단단한 플라스틸 재질로 이뤄져 있으며 시야 확보를 위한 시각 시스템을 갖추고 있습니다. 거의 모든 공격을 튕겨냅니다.\n\n내부의 서보모터가 착용자의 근육이 헬멧의 무게를 견딜 수 있도록 돕고 내부의 전투용 HUD가 사격 명중률을 향상시킵니다.\n\n장교 갑옷은 높은 작위를 가진 사람들을 위해 만들어지며, 동급의 장비보다 훨씬 비싸고 아름답습니다. 또한 내장된 엘텍스 가닥이 착용자의 정신 감응력을 향상시킵니다.</Apparel_ArmorHelmetCataphractPrestige.description>
+  
+  <!-- Patch: Biotech -->
+  <Apparel_PackTox.description>재사용 가능한 시약 캐니스터와 독소 생성용 반응 장치를 부착한 등짐입니다. 활성화 시, 시약이 고갈될 때까지 수 초간 주위로 독소 가스를 내뿜습니다.\n\n독소 가스는 폐와 눈을 태워 일시적으로 호흡을 방해하고 시력을 떨어트립니다. 독소 가스에 계속 노출되면 중독되며, 사망할 수 있습니다.</Apparel_PackTox.description>
+  
+  <!-- Patch: Anomaly -->
+  <Turret_TacticalTurret.description>단거리 포탑입니다. 수준낮은 인공지능 두뇌를 사용하며 직접 조작할 수 없으므로 아군 오사에 주의하십시오.</Turret_TacticalTurret.description>
+  <Gun_HellcatRifle.description>짧은 총열을 가진 다용도의 돌격소총으로 사거리와 위력을 희생하여 무게와 부피를 경감시켰습니다.\n\n함께 장착된 튼튼한 생체강 연소기는 타오르는 연소제의 줄기로 근처의 적들을 태워버릴 수 있습니다.</Gun_HellcatRifle.description>
+  <Gun_Incinerator.description>튼튼한 생체강 총몸으로 된 중화기로, 구역에 불줄기를 분사할 수 있습니다.\n\n압력 통제 모듈이 내장되어 있어, 좁은 구역에 집중적으로 연료를 분사하여 작은 구역을 연속하여 태우도록 설정할 수 있습니다.</Gun_Incinerator.description>
 </LanguageData>

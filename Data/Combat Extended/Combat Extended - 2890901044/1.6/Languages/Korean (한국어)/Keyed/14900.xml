@@ -15,6 +15,8 @@
   <CE_AutoLoader_ReloadTime>장전 시간: {0}초 남음</CE_AutoLoader_ReloadTime>
   <CE_AutoLoader_ShouldReplace>탄약 유형 교체: {0}</CE_AutoLoader_ShouldReplace>
   <CE_AutoLoaderBusy>자동 장전기가 장전중입니다.</CE_AutoLoaderBusy>
+  <CE_SelectAmmoSet>탄약 선택</CE_SelectAmmoSet>
+  <CE_SelectAmmoSetDesc>자동 장전기에 넣을 탄약을 선택합니다.</CE_SelectAmmoSetDesc>
   <CE_ArmorDurability>장갑 내구력: </CE_ArmorDurability>
   <CE_RepairArmorDurability>장갑 수리하기</CE_RepairArmorDurability>
   <CE_ArmorDurability_CannotRepairUndamaged>장갑이 피해를 입지 않아 수리할 수 없음</CE_ArmorDurability_CannotRepairUndamaged>
@@ -114,6 +116,14 @@
   <CE_DescAmbientPenetration>장갑 감소</CE_DescAmbientPenetration>
   <CE_DescPelletCount>파편 개수</CE_DescPelletCount>
   <CE_DescSpreadMult>확산 인자</CE_DescSpreadMult>
+  <CE_DescRecoilMult>반동 계수</CE_DescRecoilMult>
+  <CE_DescRecoilOffset>반동 증감</CE_DescRecoilOffset>
+  <CE_DescEffectiveRangeMult>유효 사거리 계수</CE_DescEffectiveRangeMult>
+  <CE_DescEffectiveRangeOffset>유효 사거리 증감</CE_DescEffectiveRangeOffset>
+  <CE_DescWarmupMult>조준 시간 계수</CE_DescWarmupMult>
+  <CE_DescWarmupOffset>조준 시간 증감</CE_DescWarmupOffset>
+  <CE_DescMuzzleFlasMult>총구섬광 크기 계수</CE_DescMuzzleFlasMult>
+  <CE_DescMuzzleFlashOffset>총구섬광 크기 증감</CE_DescMuzzleFlashOffset>
   <CE_DescFragments>파편</CE_DescFragments>
   <CE_DescDeteriorationHP>무기 내구도 저하</CE_DescDeteriorationHP>
   <CE_DescReloadTimeMult>재장전 시간 계수</CE_DescReloadTimeMult>
@@ -130,6 +140,22 @@
   <CE_FactionRecord_Explanation_SiteDestroyed>{0}에 속한 거점이 파괴되었습니다.</CE_FactionRecord_Explanation_SiteDestroyed>
   <CE_FactionRecord_Explanation_EnemyWeakened>{0}의 적성 세력이 약화되어 {0}의 전력이 강화되었습니다.</CE_FactionRecord_Explanation_EnemyWeakened>
   <CE_Long_Range_Radio_Desc>이 장비를 장거리 포격을 위한 무전에 사용할 수 있는지를 나타냅니다.\n\n장거리 무전이 가능한 장비와 쌍안경과 무전기를 함께 장착한 정착민은 지도에 곡사무기가 없더라도 포격 목표를 지정할 수 있으며, 그 지점에는 다른 지도에 위치한 박격포를 사용하여 포격을 가할 수 있습니다.</CE_Long_Range_Radio_Desc>
+  <CE_ArcOfFireAdjLabel>회전각 조정</CE_ArcOfFireAdjLabel>
+  <CE_ArcOfFireAdjDesc>이 포탑의 회전각을 조정합니다. \n\n우클릭으로 설정 저장\n좌클릭으로 설정 취소\n가운데 클릭으로 회전각 편집\n{0}(을)를 누르면 실제로 목표할 수 있는 타일이 표시됩니다.</CE_ArcOfFireAdjDesc>
+  <CE_ArcOfFireToggle>{0}(을)를 누르고 클릭하면 일시적으로 이 포탑의 회전각 제한이 해제됩니다.</CE_ArcOfFireToggle>
+  <CE_ArcOfFireReset>{0}(을)를 누르고 클릭하면 이 포탑의 회전각을 초기화합니다.</CE_ArcOfFireReset>
+  <CE_ArcOfFireCopyLabel>회전각 설정 복사</CE_ArcOfFireCopyLabel>
+  <CE_ArcOfFireCopyDesc>이 포탑에서 회전각 설정을 복사합니다.</CE_ArcOfFireCopyDesc>
+  <CE_ArcOfFirePasteLabel>회전각 설정 붙여넣기</CE_ArcOfFirePasteLabel>
+  <CE_ArcOfFirePasteDesc>이 포탑에 회전각 설정을 붙여넣습니다. 복사된 설정이 한계를 초과한다면 한계치로 고정됩니다.</CE_ArcOfFirePasteDesc>
+  <CE_ArcOfFire>회전각:{0}~{1}</CE_ArcOfFire>
+  <CE_NonSnapTurretSpeed>포탑 회전 속도</CE_NonSnapTurretSpeed>
+  <CE_MaxArcOfFireSpan>회전각 범위 자유화</CE_MaxArcOfFireSpan>
+  <CE_MaxArcOfFireSpanDesc>중심선으로부터 최대 및 최소 회전각입니다.</CE_MaxArcOfFireSpanDesc>
+  <CE_MaxArcOfFireDeviation>최대 회전각</CE_MaxArcOfFireDeviation>
+  <CE_MaxArcOfFireDeviationDesc>포탑 중심선으로부터의 최대 회전각입니다.</CE_MaxArcOfFireDeviationDesc>
+  <CE_Settings_EnableArcOfFire_Title>포탑 회전 및 회전각</CE_Settings_EnableArcOfFire_Title>
+  <CE_Settings_EnableArcOfFire_Desc>활성화하면, 포탑의 사격각을 플레이어가 조정할 수 있습니다. 어떤 종류의 포탑은 회전각 한도가 존재할 수 있습니다.\n\n동시에, 포탑이 즉시 목표를 포착하는 대신 목표를 향해 시간을 들여 회전하게 됩니다.</CE_Settings_EnableArcOfFire_Desc>
   <CE_NoAmmoAvailable>근처에서 사용 가능한 탄약이 없습니다</CE_NoAmmoAvailable>
   <CE_TurretFull>포탑 탄창이 완전히 장전되었습니다.</CE_TurretFull>
   <CE_TurretNonAllied>포탑이 적대 세력에 속해 있습니다.</CE_TurretNonAllied>
@@ -140,6 +166,7 @@
   <CE_SuppressedMote>제압!</CE_SuppressedMote>
   <CE_HunkeringMote>포복!</CE_HunkeringMote>
   <CE_CrouchWalking>제압됨(포복 중)</CE_CrouchWalking>
+  <CE_Crouched>(엎드림)</CE_Crouched>
   <CE_AutoFireLabel>자동</CE_AutoFireLabel>
   <CE_BurstFireLabel>점사</CE_BurstFireLabel>
   <CE_SingleFireLabel>단발</CE_SingleFireLabel>
@@ -169,7 +196,11 @@
   <CE_AttackedBy>{1_labelShort}의 공격</CE_AttackedBy>
   <CE_MissChance>빗나감 확률</CE_MissChance>
   <CE_TargetDodgeChance>목표물 회피 확률</CE_TargetDodgeChance>
+  <CE_DeflectedChance>도탄 확률</CE_DeflectedChance>
+  <CE_DeflectionType>도탄 유형</CE_DeflectionType>
+  <CE_RiposteChance>반격 확률</CE_RiposteChance>
   <CE_ParryChance>차단 확률</CE_ParryChance>
+  <CE_BlockChance>방어 확률</CE_BlockChance>
   <CE_CounterParryBonus>차단 봉쇄 보너스</CE_CounterParryBonus>
   <CE_FinalToHitChance>명중률</CE_FinalToHitChance>
   <CE_CritChance>치명타 확률</CE_CritChance>
@@ -191,6 +222,7 @@
   <CE_ArtilleryTargetDesc>세계의 특정 타일을 공격합니다. 해당 타일의 지도가 있다면, 지도에서 어느 지점을 공격할 것인지 결정할 수 있습니다.</CE_ArtilleryTargetDesc>
   <CE_ArtilleryTarget_AlreadyDestroyed>선택한 목표는 이미 파괴되었습니다</CE_ArtilleryTarget_AlreadyDestroyed>
   <CE_ArtilleryTarget_MustTargetMark>포격 표식만 목표로 정할 수 있습니다</CE_ArtilleryTarget_MustTargetMark>
+  <CE_ArtilleryTarget_MarkerHoverHeader>이 지점을 목표로 하는 포격은 명중률이 다음만큼 향상됩니다:</CE_ArtilleryTarget_MarkerHoverHeader>
   <CE_MarkingUnavailableReason>포격 목표를 정할 수 없습니다. 관측수가 위치한 지도 내에 포격 장비가 없으며, 다른 지도에 위치한 포반원과 연락하기 위해서는 라디오 팩이 필요합니다.\n\n지도 내에 사용할 수 있는 포격 장비가 없고 관측수의 장거리 통신이 불가능한 경우 쌍안경과 무전기를 통한 포격 목표 지정은 비활성화됩니다.</CE_MarkingUnavailableReason>
   <CE_ReloadingEquipment>장비한</CE_ReloadingEquipment>
   <CE_ReloadingInventory>소지한</CE_ReloadingInventory>
@@ -203,6 +235,16 @@
   <CE_ReloadLabel>재장전</CE_ReloadLabel>
   <CE_ReloadDesc>탄창을 갈아 끼웁니다.</CE_ReloadDesc>
   <CE_TurretReloading>재장전중</CE_TurretReloading>
+  <CE_TryReloadAmmoTooltip>탄창에 {0}발 남으면 기회적 장전을 시도합니다.</CE_TryReloadAmmoTooltip>
+  <CE_Settings_OpportunisticReload_Title>기회적 장전</CE_Settings_OpportunisticReload_Title>
+  <CE_Settings_OpportunisticReload_Desc>탄창에 설정한 문턱값보다 적은 수의 탄환이 남아있고 장전하기에 안전한다면 기회적으로 재장전을 시도합니다.</CE_Settings_OpportunisticReload_Desc>
+  <CE_Settings_OpportunisticReload_Off>끄기</CE_Settings_OpportunisticReload_Off>
+  <CE_Settings_OpportunisticReload_DraftedOnly>소집된 중에만</CE_Settings_OpportunisticReload_DraftedOnly>
+  <CE_Settings_OpportunisticReload_Any>언제나</CE_Settings_OpportunisticReload_Any>
+  <CE_Settings_OpportunisticReload_SafeDistance_Title>장전에 안전한 거리: {0}</CE_Settings_OpportunisticReload_SafeDistance_Title>
+  <CE_Settings_OpportunisticReload_SafeDistance_Desc>기회적 장전을 시도하기 위해 적대적인 대상과 떨어져 있어야 하는 최소 거리입니다. 사선은 무시합니다.</CE_Settings_OpportunisticReload_SafeDistance_Desc>
+  <CE_Settings_OpportunisticReload_SecondsAfterFight_Title>전투 후 쿨다운: {0} 초</CE_Settings_OpportunisticReload_SecondsAfterFight_Title>
+  <CE_Settings_OpportunisticReload_SecondsAfterFight_Desc>비전투 상태에 돌입한 뒤 기회적 재장전을 시도하기 전의 시간 지연입니다.</CE_Settings_OpportunisticReload_SecondsAfterFight_Desc>
   <CE_TakeFromOther_Equipping>장착중</CE_TakeFromOther_Equipping>
   <CE_TakeFromOther_Taking>가지는중</CE_TakeFromOther_Taking>
   <CE_CarriedWeight>운반 무게</CE_CarriedWeight>
@@ -213,6 +255,7 @@
   <CE_PickUp>줍기:</CE_PickUp>
   <CE_PickUpHalf>절반 줍기:</CE_PickUpHalf>
   <CE_CannotPickUp>주울 수 없음</CE_CannotPickUp>
+  <CE_CookingOff>쿡오프 중</CE_CookingOff>
   <CE_OutOfAmmo>탄약 없음</CE_OutOfAmmo>
   <CE_PutAway>버리기: {0}</CE_PutAway>
   <CE_ReloadApparel>{1}(으)로 {0} 재장전</CE_ReloadApparel>
@@ -293,10 +336,14 @@
   <CE_Generic_Medicine>약품 아무거나 챙기기</CE_Generic_Medicine>
   <CE_Generic_Divider>/</CE_Generic_Divider>
   <CE_LongEvent_LoadoutProperties>CombatExtended 무기구성 생성기를 준비합니다.</CE_LongEvent_LoadoutProperties>
+  <CE_LongEvent_AmmoGeneralizer>탄약 일반화 중</CE_LongEvent_AmmoGeneralizer>
   <CE_LongEvent_AmmoInjector>탄약 주입 중</CE_LongEvent_AmmoInjector>
   <CE_LongEvent_BoundingBoxes>CombatExtended 경계 상자 생성</CE_LongEvent_BoundingBoxes>
-  <CE_LongEvent_TutorialPopup>튜토리얼 팝업을 로드하는 중입니다.</CE_LongEvent_TutorialPopup>
+  <CE_LongEvent_DefUtility>Def 데이터 캐싱 중</CE_LongEvent_DefUtility>
+  <CE_LongEvent_TutorialPopup>튜토리얼 팝업 로드 중</CE_LongEvent_TutorialPopup>
   <CE_LongEvent_CompatibilityPatches>호환 패치 적용 중.</CE_LongEvent_CompatibilityPatches>
+  <CE_LongEvent_CE_InitTabs>메뉴 번역 중</CE_LongEvent_CE_InitTabs>
+  <CE_LongEvent_LogUnpatchedTools>패치되지 않은 Tool 기록 중</CE_LongEvent_LogUnpatchedTools>
   <MTA_MagCount>탄창 수:</MTA_MagCount>
   <MTA_Shot>탄환</MTA_Shot>
   <MTA_SetMagCount>탄창 로드아웃 설정</MTA_SetMagCount>
@@ -304,19 +351,20 @@
   <MTA_NoNeedAmmo>탄약 재보급할 필요 없음</MTA_NoNeedAmmo>
   <MTA_MagazinePrefix>{0}발들이 탄창의 단위로 탄약을 보급합니다.</MTA_MagazinePrefix>
   <MTA_CannotSetLoadoutForMultipleEquipment>다른 무기를 사용하는 메카노이드의 로드아웃을 한꺼번에 설정할 수 없습니다. 비슷한 무기를 사용하는 메카노이드를 동시에 선택하여 다시 시도해 보십시오.</MTA_CannotSetLoadoutForMultipleEquipment>
-  <CE_Message_SiteDestroyed>거점 {0}이(가) 파괴되었습니다.</CE_Message_SiteDestroyed>
-  <CE_Message_SiteDestroyed_Faction>{1}에 속한 거점 {0}이(가) 파괴되었습니다.</CE_Message_SiteDestroyed_Faction>
+  <CE_Message_SiteDestroyed>거점 {0}(이)가 파괴되었습니다.</CE_Message_SiteDestroyed>
+  <CE_Message_SiteDestroyed_Faction>{1}에 속한 거점 {0}(이)가 파괴되었습니다.</CE_Message_SiteDestroyed_Faction>
   <CE_Message_SettlementDestroyed_Label>정착지 파괴됨</CE_Message_SettlementDestroyed_Label>
-  <CE_Message_SettlementDestroyed_Description>정착지 {0}이(가) 파괴되었습니다.</CE_Message_SettlementDestroyed_Description>
+  <CE_Message_SettlementDestroyed_Description>정착지 {0}(이)가 파괴되었습니다.</CE_Message_SettlementDestroyed_Description>
   <CE_Message_SettlementDestroyed_Faction_Description>{0}의 정착지가 파괴되었습니다.</CE_Message_SettlementDestroyed_Faction_Description>
   <CE_Message_SettlementDestroyed_Description_Responsibility>{0}이 {2}에 속한 정착지 {1}을(를) 파괴했습니다.</CE_Message_SettlementDestroyed_Description_Responsibility>
   <CE_Message_CounterRaid_Label>보복: {0}</CE_Message_CounterRaid_Label>
   <CE_Message_CounterRaid_Desc>{0}에 속한 병력 집단이 근처에 도착했습니다.\n\n그들은 {1}의 포격에 대한 보복으로써 공격을 준비하고 있습니다.</CE_Message_CounterRaid_Desc>
   <CE_Message_CounterShelling>{0}({1})에서 포격이 날아오고 있습니다.</CE_Message_CounterShelling>
-  <CE_Message_CounterRaid>{0}에서 온 집단이 최근 발생한 사건에 대한 보복으로써 {1}을 습격할 계획을 짜고 있습니다.</CE_Message_CounterRaid>
+  <CE_Message_CounterRaid>{0}에서 온 집단이 최근 발생한 사건에 대한 보복으로써 {1}(을)를 습격할 계획을 짜고 있습니다.</CE_Message_CounterRaid>
   <DormantCompAmmoBeacon>탄약 재보급 준비 됨</DormantCompAmmoBeacon>
   <CE_MeleeTargetting_CurPart>목표 신체 부위:</CE_MeleeTargetting_CurPart>
   <CE_MeleeTargetting_CurHeight>근접 공격 영역</CE_MeleeTargetting_CurHeight>
+  <CE_MeleeTargetting>영역 타게팅</CE_MeleeTargetting>
   <CE_NoBP>없음</CE_NoBP>
   <CE_Yes>예</CE_Yes>
   <CE_No>아니오</CE_No>
@@ -326,14 +374,19 @@
   <CE_AmmoAmount>쥐어줄 탄약 수:</CE_AmmoAmount>
   <CE_TargetInventoryFull>대상의 인벤토리가 가득 참</CE_TargetInventoryFull>
   <CE_Settings_HeaderGeneral>일반</CE_Settings_HeaderGeneral>
+  <CE_Settings_HeaderMechanics>메카닉</CE_Settings_HeaderMechanics>
   <CE_Settings_HeaderAmmo>탄약</CE_Settings_HeaderAmmo>
+  <CE_Settings_HeaderGraphic>그래픽</CE_Settings_HeaderGraphic>
+  <CE_Settings_HeaderMisc>기타</CE_Settings_HeaderMisc>
   <CE_Settings_HeaderAutopatcher>오토패처</CE_Settings_HeaderAutopatcher>
   <CE_Settings_Rendering_Title>렌더링 설정</CE_Settings_Rendering_Title>
   <CE_Settings_Rendering_Desc>의상 렌더링을 실험적으로 설정합니다.</CE_Settings_Rendering_Desc>
+  <CE_Settings_Value_Tweaks_Title>게임플레이 밸런스</CE_Settings_Value_Tweaks_Title>
+  <CE_Settings_Value_Tweaks_Desc>게임 플레이와 전투 밸런스에 영향을 끼치는 다양한 능력치와 계수를 조정합니다.</CE_Settings_Value_Tweaks_Desc>
   <CE_Settings_ShowCasings_Title>탄피 보이기</CE_Settings_ShowCasings_Title>
   <CE_Settings_ShowCasings_Desc>사격할 때 탄피가 떨어지는 효과가 보이도록 합니다. 옵션을 끄면 성능이 향상됩니다.</CE_Settings_ShowCasings_Desc>
   <CE_Settings_CreateCasingsFilth_Title>탄피를 오물로 생성하기</CE_Settings_CreateCasingsFilth_Title>
-  <CE_Settings_CreateCasingsFilth_Desc>사격할 때 탄피가 바닥에 떨어져 청소할 수 있는 오물로써 생성됩니다.</CE_Settings_CreateCasingsFilth_Desc>
+  <CE_Settings_CreateCasingsFilth_Desc>사격할 때 탄피가 바닥에 떨어져 청소할 수 있는 오물로서 생성됩니다.</CE_Settings_CreateCasingsFilth_Desc>
   <CE_Settings_StuckArrowsAsFlecks_Title>충돌하는 투사체의 파편 생성</CE_Settings_StuckArrowsAsFlecks_Title>
   <CE_Settings_StuckArrowsAsFlecks_Desc>화살과 같은 특정 투사체가 지면에 닿을 때 일시적인 파편 그래픽 효과를 일으킵니다.</CE_Settings_StuckArrowsAsFlecks_Desc>
   <CE_Settings_ShowTaunts_Title>전투시 도발 문구 보이기</CE_Settings_ShowTaunts_Title>
@@ -342,18 +395,20 @@
   <CE_Settings_AllowMeleeHunting_Desc>사냥꾼이 근접무기를 장착했을 경우에도 사냥을 할 수 있도록 합니다.</CE_Settings_AllowMeleeHunting_Desc>
   <CE_Settings_SmokeEffects_Title>검은 연기 시스템 활성화</CE_Settings_SmokeEffects_Title>
   <CE_Settings_SmokeEffects_Desc>불이 해로운 검은 연기를 생성할 수 있습니다. 보호 장비 없이 검은 연기에 노출되면 건강에 악영향을 받습니다.</CE_Settings_SmokeEffects_Desc>
-  <CE_Settings_MergeExplosions_Title>폭발 병합</CE_Settings_MergeExplosions_Title>
-  <CE_Settings_MergeExplosions_Desc>근접한 위치에서 발생한 폭발은 서로 병합됩니다. 이 옵션은 폭발물의 대규모 쿡오프가 발생할 경우 성능을 극적으로 향상시키므로, 켜둔 채로 놔두는 것을 강력히 권장합니다.</CE_Settings_MergeExplosions_Desc>
   <CE_Settings_TurretsBreakShields_Title>포탑을 조종하는 동안 보호막 벨트를 비활성화</CE_Settings_TurretsBreakShields_Title>
   <CE_Settings_TurretsBreakShields_Desc>이 옵션을 켜면, 포탑을 조종하는 동안 그 정착민이 착용한 보호막 벨트가 비활성화됩니다. 이 옵션을 끄면, 보호막 벨트는 포탑을 조종하는 동안에도 활성화되어 착용자에게 추가적인 보호를 제공합니다.</CE_Settings_TurretsBreakShields_Desc>
   <CE_Settings_ShowBackpacks_Title>배낭 표시</CE_Settings_ShowBackpacks_Title>
-  <CE_Settings_ShowBackpacks_Desc>모든 폰의 배낭 렌더링을 활성 / 비활성화 합니다.</CE_Settings_ShowBackpacks_Desc>
+  <CE_Settings_ShowBackpacks_Desc>모든 폰의 배낭 렌더링을 활성 / 비활성화합니다.</CE_Settings_ShowBackpacks_Desc>
   <CE_Settings_ShowWebbing_Title>전술 조끼 표시</CE_Settings_ShowWebbing_Title>
-  <CE_Settings_ShowWebbing_Desc>모든 폰의 전술 조끼 렌더링을 활성 / 비활성화 합니다.</CE_Settings_ShowWebbing_Desc>
+  <CE_Settings_ShowWebbing_Desc>모든 폰의 전술 조끼 렌더링을 활성 / 비활성화합니다.</CE_Settings_ShowWebbing_Desc>
   <CE_Settings_PartialStats_Title>부위 장갑 활성화</CE_Settings_PartialStats_Title>
   <CE_Settings_PartialStats_Desc>이 옵션을 켜면 몇몇 종류의 갑옷은 부위에 따라 서로 다른 장갑 수치를 갖게 됩니다.</CE_Settings_PartialStats_Desc>
   <CE_Settings_RecoilAnim_Title>반동 애니메이션 보이기</CE_Settings_RecoilAnim_Title>
   <CE_Settings_RecoilAnim_Desc>이 옵션을 켜면 원거리 무기나 포탑으로 사격하는 순간에 발생하는 반동을 나타내는 시각 효과가 추가됩니다.</CE_Settings_RecoilAnim_Desc>
+  <CE_Settings_VariedHumanHeight_Title>인간 몸 높이 다양화</CE_Settings_VariedHumanHeight_Title>
+  <CE_Settings_VariedHumanHeight_Desc>활성화하면, 아이나 장신 제노타입과 같은 특정한 부류의 인간은 신체 크기에 맞춘 고유의 신체 높이 및 너비를 갖습니다.\n\n이는 단신 폰은 높은 엄폐물을 넘어 사격할 수 없으며, 장신 폰은 엄폐물의 보호를 덜 받음을 의미합니다.\n\n비활성화하면 모든 인간이 신체 크기에 관계없이 1.75m의 키를 가진 것으로 취급합니다.</CE_Settings_VariedHumanHeight_Desc>
+  <CE_Settings_LogUnpatchedDefs_Title>패치되지 않은 Tool 기록하기</CE_Settings_LogUnpatchedDefs_Title>
+  <CE_Settings_LogUnpatchedDefs_Desc>활성화하면 게임을 시작할 때 패치되지 않은 근접무기에 관한 로그가 발생합니다.\n\n게임플레이에는 영향이 없으며, 호환 패치를 작성할 때에 유용합니다.</CE_Settings_LogUnpatchedDefs_Desc>
   <CE_Settings_EnableAmmoSystem_Title>탄약 시스템 활성화</CE_Settings_EnableAmmoSystem_Title>
   <CE_Settings_EnableAmmoSystem_Desc>무기들은 탄약을 필요로하고 또한 특수한 탄약도 선택할 수 있습니다.\n\n경고: 기존의 정착지에서 이 설정을 변경하면 버그와 불안정을 초래할수 있으므로 위험을 감수해야 합니다.</CE_Settings_EnableAmmoSystem_Desc>
   <CE_Settings_GenericAmmo>일반 탄약 시스템을 사용</CE_Settings_GenericAmmo>
@@ -361,25 +416,51 @@
   <CE_Settings_RightClickAmmoSelect_Title>마우스 우클릭으로 탄약 선택</CE_Settings_RightClickAmmoSelect_Title>
   <CE_Settings_RightClickAmmoSelect_Desc>재장전 버튼을 우클릭 하면 탄약 선택 메뉴가 나타납니다.</CE_Settings_RightClickAmmoSelect_Desc>
   <CE_Settings_AutoReloadOnChangeAmmo_Title>탄약 자동 재장전</CE_Settings_AutoReloadOnChangeAmmo_Title>
-  <CE_Settings_AutoReloadOnChangeAmmo_Desc>새로운 타입의 탄약이 선택되면 자동으로 재장전합니다.</CE_Settings_AutoReloadOnChangeAmmo_Desc>
+  <CE_Settings_AutoReloadOnChangeAmmo_Desc>새로운 유형의 탄약이 선택되면 자동으로 재장전합니다.</CE_Settings_AutoReloadOnChangeAmmo_Desc>
   <CE_Settings_AutoTakeAmmo_Title>탄약 자동 장비</CE_Settings_AutoTakeAmmo_Title>
   <CE_Settings_AutoTakeAmmo_Desc>로드아웃이 따로 지정되지 않은 정착민도 착용한 무기의 탄약은 자동으로 소지품에 넣습니다.</CE_Settings_AutoTakeAmmo_Desc>
   <CE_Settings_ShowCaliberOnGuns_Title>무기 구경 표시</CE_Settings_ShowCaliberOnGuns_Title>
   <CE_Settings_ShowCaliberOnGuns_Desc>무기 이름 뒤에 사용 탄약의 구경이 표시됩니다.</CE_Settings_ShowCaliberOnGuns_Desc>
   <CE_Settings_ReuseNeolithicProjectiles_Title>냉병기 투사체 재사용</CE_Settings_ReuseNeolithicProjectiles_Title>
   <CE_Settings_ReuseNeolithicProjectiles_Desc>냉병기의 투사체가 땅에 떨어져 아이템으로써 다시 사용할 수 있는 기회를 얻습니다. 땅에 떨어진 투사체는 상호작용이 금지된 채로 생성됩니다.</CE_Settings_ReuseNeolithicProjectiles_Desc>
+  <CE_Settings_ForbiddenNeolithicProjectiles_Title>냉병기 투사체 상호작용 자동 금지</CE_Settings_ForbiddenNeolithicProjectiles_Title>
+  <CE_Settings_ForbiddenNeolithicProjectiles_Desc>아이템으로서 생성된 냉병기의 투사체가 상호작용이 금지된 채로 생성됩니다.</CE_Settings_ForbiddenNeolithicProjectiles_Desc>
   <CE_Settings_RealisticCookOff_Title>사실적인 쿡오프</CE_Settings_RealisticCookOff_Title>
   <CE_Settings_RealisticCookOff_Desc>탄약이 손상되어 쿡오프가 발생하더라도 피해를 입히는 투사체는 생성되지 않습니다.</CE_Settings_RealisticCookOff_Desc>
   <CE_Settings_ShowExtraTooltips_Desc>왼쪽 Shift 키를 누르고 있는 동안 마우스 커서가 올려진 셀에 추가적인 툴팁을 표시합니다.</CE_Settings_ShowExtraTooltips_Desc>
   <CE_Settings_ShowExtraTooltips_Title>추가 툴팁 표시</CE_Settings_ShowExtraTooltips_Title>
   <CE_Settings_ShowExtraStats_Desc>일부 정보 탭에 추가적인 정보를 표시합니다.\n\n이 정보들은 내부적인 정보를 포함하거나, 중복되거나, 혼동될 수 있습니다.</CE_Settings_ShowExtraStats_Desc>
   <CE_Settings_ShowExtraStats_Title>추가 능력치 표시</CE_Settings_ShowExtraStats_Title>
+  <CE_Settings_DetailedMeleeTooltip_Desc>차단, 회피 및 다른 근접 전투 확률 요인에 관한 추가 정보를 툴팁에 표시합니다.</CE_Settings_DetailedMeleeTooltip_Desc>
+  <CE_Settings_DetailedMeleeTooltip_Title>자세한 근접전 툴팁</CE_Settings_DetailedMeleeTooltip_Title>
+  <CE_Settings_NonPlayerMeleeTooltip_Desc>야생동물, 아군 및 습격자를 포함한 모든 폰에게 근접전 툴팁을 표시합니다.</CE_Settings_NonPlayerMeleeTooltip_Desc>
+  <CE_Settings_NonPlayerMeleeTooltip_Title>모든 폰에게 근접전 툴팁 표시</CE_Settings_NonPlayerMeleeTooltip_Title>
   <CE_Settings_FragmentsFromWalls_Desc>활성화하면, 벽이 피해를 입을 때 파편을 만들어낼 수 있습니다.</CE_Settings_FragmentsFromWalls_Desc>
   <CE_Settings_FragmentsFromWalls_Title>벽에서 파편 튀기기</CE_Settings_FragmentsFromWalls_Title>
+  <CE_Settings_FragmentsFromWallsReflected_Desc>활성화하면 파편 일부가 벽에서 사격자를 향해 반사될 수 있습니다.</CE_Settings_FragmentsFromWallsReflected_Desc>
+  <CE_Settings_FragmentsFromWallsReflected_Title>벽에서 파편 반사</CE_Settings_FragmentsFromWallsReflected_Title>
+  <CE_Settings_FragmentsFromWallsIntensity_Desc>벽에서 파편이 반사되는 양과 크기를 정합니다.</CE_Settings_FragmentsFromWallsIntensity_Desc>
+  <CE_Settings_FragmentsFromWallsIntensity_Title>벽 파편 반사 강도</CE_Settings_FragmentsFromWallsIntensity_Title>
   <CE_Settings_FasterRepeatShots_Desc>활성화하면, 같은 목표나 그에 인접한 대상에게 반복해서 사격할 경우 더 빠르게 조준합니다.</CE_Settings_FasterRepeatShots_Desc>
   <CE_Settings_FasterRepeatShots_Title>빠른 후속사격</CE_Settings_FasterRepeatShots_Title>
+  <CE_Settings_MidBurstRetarget_Desc>활성화하면, 연속 사격 중에 원래 목표가 쓰러질 경우 새 목표를 잡습니다.</CE_Settings_MidBurstRetarget_Desc>
+  <CE_Settings_MidBurstRetarget_Title>사격 중 새 목표 잡기</CE_Settings_MidBurstRetarget_Title>
   <CE_Settings_EnableExtraEffects_Title>투사체의 추가적인 시각 효과 보이기</CE_Settings_EnableExtraEffects_Title>
   <CE_Settings_EnableExtraEffects_Desc>총알이 먼지를 휘날리거나 소이성 물질이 불꽃을 발생시키는 것과 같은 투사체의 추가적인 시각 효과를 활성화합니다. 시각적인 효과만 있으며 게임플레이에는 영향을 주지 않습니다.</CE_Settings_EnableExtraEffects_Desc>
+  <CE_Settings_SuppressionCausesRunning_Title>제압된 폰이 엄폐물을 탐색</CE_Settings_SuppressionCausesRunning_Title>
+  <CE_Settings_SuppressionCausesRunning_Desc>활성화하면, 가벼운 수준의 제압(노란색)을 당한 폰은 원래 작업을 그만두고 엄폐물을 찾습니다.. 강한 제압(주황색)을 당한 폰은 그 자리에 엎드립니다.</CE_Settings_SuppressionCausesRunning_Desc>
+  <CE_Settings_RealWeaponNames_Title>실물 병기 이름 사용</CE_Settings_RealWeaponNames_Title>
+  <CE_Settings_RealWeaponNames_Desc>활성화하면 본 게임의 무기와 몇몇 공식 애드온의 무기들이 현실에 실존하는 병기명을 사용합니다\n\n재시작해야 적용됩니다.</CE_Settings_RealWeaponNames_Desc>
+  <CE_Settings_ExplosionSettings>폭발 설정</CE_Settings_ExplosionSettings>
+  <CE_Settings_MergeExplosions_Title>폭발 병합</CE_Settings_MergeExplosions_Title>
+  <CE_Settings_MergeExplosions_Desc>근접한 위치에서 발생한 폭발은 서로 병합됩니다. 이 옵션은 폭발물의 대규모 쿡오프가 발생할 경우 성능을 극적으로 향상시키므로, 켜둔 채로 놔두는 것을 강력히 권장합니다.</CE_Settings_MergeExplosions_Desc>
+  <CE_Settings_ExplosionPenMultiplier_Title>폭발력 계수</CE_Settings_ExplosionPenMultiplier_Title>
+  <CE_Settings_ExplosionPenMultiplier_Desc>폭발 피해와 관통력에 적용되는 배율입니다.</CE_Settings_ExplosionPenMultiplier_Desc>
+  <CE_Settings_ExplosionDamageFalloffFactor_Title>폭발 감쇠 계수</CE_Settings_ExplosionDamageFalloffFactor_Title>
+  <CE_Settings_ExplosionDamageFalloffFactor_Desc>폭발의 감쇠 계수를 정합니다. 다른 계산 이전에 판정하는 진원으로부터 거리에 적용됩니다.</CE_Settings_ExplosionDamageFalloffFactor_Desc>
+  <CE_Settings_StabilizationSettings>응급처치 설정</CE_Settings_StabilizationSettings>
+  <CE_Settings_MedicineSearchRadius_Title>약품 찾기 반경</CE_Settings_MedicineSearchRadius_Title>
+  <CE_Settings_MedicineSearchRadius_Desc>폰을 응급처치할 때 사용할 약품을 찾는 거리 범위를 정합니다.</CE_Settings_MedicineSearchRadius_Desc>
   <CE_Settings_BipodSettings>양각대 설정</CE_Settings_BipodSettings>
   <CE_Settings_BipodMechanics_Title>양각대 메카니즘 활성화</CE_Settings_BipodMechanics_Title>
   <CE_Settings_BipodMechanics_Desc>일부 무기에 양각대 개념이 추가되어, 설치되지 않았을 경우에는 페널티를, 설치되었을 경우에는 보너스를 줍니다.\n\n양각대를 설치하는 데에는 약간의 시간이 소요되며, 위치를 이동하면 새로 양각대를 설치해야 합니다.</CE_Settings_BipodMechanics_Desc>
@@ -388,6 +469,11 @@
   <CE_Settings_Vehicles>차량 설정</CE_Settings_Vehicles>
   <CE_Settings_PatchArmorDamage_Title>새로운 차량 장갑 시스템을 사용합니다.</CE_Settings_PatchArmorDamage_Title>
   <CE_Settings_PatchArmorDamage_Desc>차량 장갑이 상대적인 수치에 따라 피해를 경감시킵니다. 고관통 공격에는 여전히 관통될 수 있습니다.</CE_Settings_PatchArmorDamage_Desc>
+  <CE_Settings_HitRandomVehicleComponents_Title>어느 부위든 타격</CE_Settings_HitRandomVehicleComponents_Title>
+  <CE_Settings_HitRandomVehicleComponents_Desc>차량의 내구력이 낮을 때, 투사체가 '살아있는' 부위를 만나지 못한다면 대신 무작위 부위를 타격합니다.\n\n이 기능은 크게 손상된 차량이 맞추기 어려운 작은 부품에 의존하여 체감 내구력이 향상된 상태로 기능하는 현상을 방지합니다.</CE_Settings_HitRandomVehicleComponents_Desc>
+  <CE_Settings_FragmentsFromVehicles_Title>차량에서 파편 발생</CE_Settings_FragmentsFromVehicles_Title>
+  <CE_Settings_FragmentsFromVehicles_Desc>투사체가 차량을 과관통하면 그 방향으로 파편이 생성됩니다.</CE_Settings_FragmentsFromVehicles_Desc>
+  
   <CE_Settings_VerboseAutopatcher_Title>오토패처 상세 로그</CE_Settings_VerboseAutopatcher_Title>
   <CE_Settings_VerboseAutopatcher_Desc>오토패처가 상세한 로그를 생성하도록 합니다.</CE_Settings_VerboseAutopatcher_Desc>
   <CE_Settings_ApparelAutopatcher_Title>의상 오토패처</CE_Settings_ApparelAutopatcher_Title>
@@ -444,6 +530,4 @@
   <CE_Wind_Tooltip>현재 풍속 및 방향입니다. \n\n 바람은 불의 확산 패턴에 영향을 미치며, 산들 바람에서 강풍까지 다양합니다.</CE_Wind_Tooltip>
   <CE_Settings_MainMenuOnly_Title>메인 메뉴에서만 설정가능</CE_Settings_MainMenuOnly_Title>
   <CE_Settings_MainMenuOnly_Desc>이 설정은 게임 플레이 문제를 방지하기 위해 메인 메뉴에서만 변경할 수 있도록 제한되었습니다.</CE_Settings_MainMenuOnly_Desc>
-  <CE_Settings_СreateCasingsFilth_Title>탄피를 오물로 생성하기</CE_Settings_СreateCasingsFilth_Title>
-  <CE_Settings_СreateCasingsFilth_Desc>사격할 때 탄피가 바닥에 떨어져 청소할 수 있는 오물로써 생성됩니다.</CE_Settings_СreateCasingsFilth_Desc>
 </LanguageData>
