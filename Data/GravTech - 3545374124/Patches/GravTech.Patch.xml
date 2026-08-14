@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Gravship Expanded - Chapter 1</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Gravship Expanded - Chapter 1</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="GravForge"]/description</xpath>
+            <value>
+              <description>강력한 중력파를 사용하여 중력 감응판을 압축함으로써 중력 코어를 조립하도록 설계된 첨단 단조기입니다.\n\n중력구동기 옆에 건설하면 작업 속도가 120% 증가합니다.\n중력거선 구동기 옆에 건설하면 작업 속도가 190% 증가합니다.\n\n&lt;color=#E5E54C&gt;게임플레이 영향:&lt;/color&gt; 이 중력 부양선에 있는 모든 중력 부양선 구조물의 유지보수 민감도를 0.25 감소시킵니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="GravBattery"]/description</xpath>
+            <value>
+              <description>막대한 용량을 가진 대형 전기 배터리입니다. 중력 코어의 도움으로 중력 감응판 사이의 중력 변동 형태로 에너지를 저장합니다.\n중력 부양선 비행으로부터 열을 흡수하여 사용 가능한 전력으로 빠르게 전환하고 중력구동기 재사용 대기시간을 감소시킵니다. 하나의 중력 부양선은 최대 4개의 중력 코어 배터리를 지원할 수 있습니다.\n\n지속적으로 500W를 발전합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AdvShip_GravChemfuelTank"]/label</xpath>
+            <value>
+              <label>중력 우주연료 탱크</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AdvShip_GravChemfuelTank"]/description</xpath>
+            <value>
+              <description>중력 부양선의 추진기에 연료를 공급하는 고급 우주연료 저장 탱크입니다. 중력 코어를 사용하여 연료를 압축하고 효율을 증가시킵니다.\n\n중력 부양선당 최대 두 개의 중력 우주연료 탱크를 지원할 수 있습니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="Apparel_GravPack"]/comps/li[1]/chargeNoun</xpath>
+            <value>
+              <chargeNoun>산소 u³</chargeNoun>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Combat Extended</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="GravBlaster"]/tools/li[1]/label</xpath>
+            <value>
+              <label>총열</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="GravRifle"]/tools/li[1]/label</xpath>
+            <value>
+              <label>총열</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/AbilityDef[defName="GravRifle_LooongShot"]/description</xpath>
+            <value>
+              <description>중력 탄환을 사용하는 장거리 사격입니다. (130 t)</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="GravBeamCannon"]/tools/li[1]/label</xpath>
+            <value>
+              <label>방출기</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="GravHammer"]/tools/li[1]/label</xpath>
+            <value>
+              <label>머리</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="GravHammerBladelink"]/tools/li[1]/label</xpath>
+            <value>
+              <label>머리</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="GravHands"]/comps/li[1]/tools/li[1]/label</xpath>
+            <value>
+              <label>중력 주먹</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>##packageId##CerebrexNodeUnleashed.Sentinel</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>##packageId##CerebrexNodeUnleashed.Sentinel</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="AdvShip_ComputerCore"]/description</xpath>
+            <value>
+              <description>세레브렉스 중력 부양선 파일럿 컴퓨터 코어입니다. 중력 부양선의 비행 품질을 30% 향상시킵니다.\n\n특정 메카니터와 동기화하여 능력을 향상시킬 수 있습니다.\n 대역폭 +32 \n 제어 그룹 +3 \n 메카노이드 작업 속도 +60% \n 형성 속도 +150% \n 세레브렉스 노드 능력</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+</Patch>
