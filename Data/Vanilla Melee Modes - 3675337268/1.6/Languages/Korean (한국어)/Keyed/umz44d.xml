@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--English=Vanilla Melee Modes-->
+  <VMM_ModTitle>Vanilla Melee Modes</VMM_ModTitle>
+  <!--English=Default-->
+  <VMM_DefaultMode>기본</VMM_DefaultMode>
+  <!--English=Aggressive-->
+  <VMM_AggressiveMode>강공</VMM_AggressiveMode>
+  <!--English=Flurry-->
+  <VMM_FlurryMode>연격</VMM_FlurryMode>
+  <!--English=Guard-->
+  <VMM_GuardMode>방어</VMM_GuardMode>
+  <!--English=Switch Melee Mode-->
+  <VMM_SwitchGizmoDesc>근접 전투 방식을 전환합니다.</VMM_SwitchGizmoDesc>
+  <!--English=Parry!-->
+  <VMM_MoteText_Parry>차단!</VMM_MoteText_Parry>
+  <!--English=Counter!-->
+  <VMM_MoteText_Counter>반격!</VMM_MoteText_Counter>
+  <!--English=Auto Selection-->
+  <VMM_AutoMode>자동 전환</VMM_AutoMode>
+  <!--English=Toggle automatic melee mode selection.
+When enabled, the pawn will automatically choose the best melee mode based on combat context.-->
+  <VMM_AutoMode_Desc>근접 전투 방식을 자동으로 전환합니다.\n활성화하면 전투 상황에 따라 가장 적합한 근접 전투 방식을 자동으로 선택합니다.</VMM_AutoMode_Desc>
+  <!--English=Reset To Default-->
+  <VMM_ResetButton_Label>설정 초기화</VMM_ResetButton_Label>
+  <!--English=Melee Hit Chance-->
+  <VMM_MeleeHitChance_Label>근접 명중률</VMM_MeleeHitChance_Label>
+  <!--English=Melee Dodge Chance-->
+  <VMM_MeleeDodgeChance_Label>근접 회피율</VMM_MeleeDodgeChance_Label>
+  <!--English=Melee Damage Factor-->
+  <VMM_MeleeDamageFactor_Label>근접 피해 계수</VMM_MeleeDamageFactor_Label>
+  <!--English=Melee Cooldown Factor-->
+  <VMM_MeleeCooldownFactor_Label>근접 재사용 대기시간 배수</VMM_MeleeCooldownFactor_Label>
+  <!--English=Melee Armor Penetration-->
+  <VMM_ArmorPenetration_Label>근접 방어 관통력</VMM_ArmorPenetration_Label>
+  <!--English=Effective Parry Angle-->
+  <VMM_MeleeParryAngle_Label>유효 차단 각도</VMM_MeleeParryAngle_Label>
+  <!--English=Melee Parry Factor-->
+  <VMM_MeleeParryChance_Label>근접 차단 계수</VMM_MeleeParryChance_Label>
+  <!--English=Parry Damage Reduction Factor-->
+  <VMM_MeleeParryDamageReduction_Label>차단 피해 감소 계수</VMM_MeleeParryDamageReduction_Label>
+  <!--English=Counter Attack Factor-->
+  <VMM_MeleeCounterChance_Label>반격 계수</VMM_MeleeCounterChance_Label>
+  <!--English=Combat Extended detected – CE compatibility mode enabled-->
+  <VMM_CE_IsActive_Label>Combat Extended 감지됨 – CE 호환 모드로 전환</VMM_CE_IsActive_Label>
+  <!--English=Melee Crit Chance Factor-->
+  <VMM_CE_MeleeCritChance_Label>근접 치명타 확률 계수</VMM_CE_MeleeCritChance_Label>
+  <!--English=Enable Parrying Mechanism-->
+  <VMM_EnableVanillaParry_Label>차단 시스템 활성화</VMM_EnableVanillaParry_Label>
+  <!--English=Enable Counterattack Mechanism-->
+  <VMM_EnableVanillaCounterattack_Label>반격 시스템 활성화</VMM_EnableVanillaCounterattack_Label>
+  <!--English=Enable Parrying and Counterattacking for NPCs-->
+  <VMM_EnableVanillaParryAndCounterattackForNpc_Label>NPC의 차단 및 반격 활성화</VMM_EnableVanillaParryAndCounterattackForNpc_Label>
+  <!--English=Enable autoーselection melee mode for playerーcontrolled pawns-->
+  <VMM_EnableAutoSelectionForPlayer_Label>플레이어가 제어하는 폰의 근접 전투 방식 자동 전환 활성화</VMM_EnableAutoSelectionForPlayer_Label>
+  <!--English=When enabled, the auto melee mode toggle button will be displayed. If you don&apos;t need this feature and prefer a less cluttered gizmo bar, you can disable it here.-->
+  <VMM_EnableAutoSelectionForPlayer_Desc>활성화하면 근접 전투 방식 자동 전환 버튼이 표시됩니다. 이 기능이 필요하지 않거나 UI 버튼 창이 너무 복잡해지는 것을 원하지 않는다면 비활성화하세요.</VMM_EnableAutoSelectionForPlayer_Desc>
+  <!--English=Enable autoーselection melee mode for NPCs-->
+  <VMM_EnableAutoSelectionForNPC_Label>NPC의 근접 전투 방식 자동 전환 활성화</VMM_EnableAutoSelectionForNPC_Label>
+  <!--English=When enabled, NPCs will automatically switch melee modes based on combat conditions.-->
+  <VMM_EnableAutoSelectionForNPC_Desc>활성화하면 NPC가 전투 상황에 따라 근접 전투 방식을 자동으로 전환합니다.</VMM_EnableAutoSelectionForNPC_Desc>
+  <!--English=Show gizmo buttons when undrafted-->
+  <VMM_AlwaysDisplayGizmo_Label>비소집 상태에서도 버튼 표시</VMM_AlwaysDisplayGizmo_Label>
+  <!--English=Enable autoーselection by default for new colonists-->
+  <VMM_AutoModeDefaultOn_Label>새 정착민은 근접 전투 방식 자동 전환 기본 적용</VMM_AutoModeDefaultOn_Label>
+  <!--English=When enabled, the auto melee mode toggle will be on by default for new colonists.-->
+  <VMM_AutoModeDefaultOn_Desc>활성화하면 새로운 정착민은 근접 공격 방식 자동 전환이 기본적으로 켜진 상태가 됩니다.</VMM_AutoModeDefaultOn_Desc>
+  <!--English=Melee Mode ({0}): {1}-->
+  <VMM_StatPart_Label>근접 전투 방식 ({0}): {1}</VMM_StatPart_Label>
+</LanguageData>
