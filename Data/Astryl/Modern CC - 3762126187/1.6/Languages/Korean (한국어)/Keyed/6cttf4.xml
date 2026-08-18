@@ -1,0 +1,713 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MCE_AddedPawn>{0}(을)를 추가했습니다.</MCE_AddedPawn>
+  <MCE_CouldNotAddLoaded>로드된 폰을 추가할 수 없습니다(로그 참조).</MCE_CouldNotAddLoaded>
+  <MCE_DragToResizeTip>드래그하여 크기 조정 · 두 번 클릭하여 초기화</MCE_DragToResizeTip>
+  <MCE_UnsavedChanges>저장되지 않은 변경사항</MCE_UnsavedChanges>
+  <MCE_Undo>실행 취소</MCE_Undo>
+  <MCE_Redo>다시 실행</MCE_Redo>
+  <MCE_Modules>모듈</MCE_Modules>
+  <MCE_RosterColony>정착지</MCE_RosterColony>
+  <MCE_RosterAnimals>동물</MCE_RosterAnimals>
+  <MCE_RosterWorld>세계</MCE_RosterWorld>
+  <MCE_RosterDead>사망</MCE_RosterDead>
+  <MCE_RosterDeadTip>이 지도에 매장되지 않은 사망한 폰</MCE_RosterDeadTip>
+  <MCE_SearchPawns>폰 검색...</MCE_SearchPawns>
+  <MCE_GenerateNewPawn>새 폰 생성</MCE_GenerateNewPawn>
+  <MCE_GenerateNewPawnTip>무작위 정착민을 생성해 지도에 배치합니다.</MCE_GenerateNewPawnTip>
+  <MCE_GeneratedPawn>{0}(을)를 생성했습니다.</MCE_GeneratedPawn>
+  <MCE_PawnGenFailed>폰 생성 실패(로그 참조)</MCE_PawnGenFailed>
+  <MCE_CannotDeleteLastColonist>마지막 정착민을 삭제할 수 없습니다.</MCE_CannotDeleteLastColonist>
+  <MCE_ConfirmDeletePawn>{0}(을)를 영구적으로 삭제하시겠습니까? 이 폰은 게임에서 완전히 제거되며 되돌릴 수 없습니다.</MCE_ConfirmDeletePawn>
+  <MCE_DeletedPawn>{0}(을)를 삭제했습니다.</MCE_DeletedPawn>
+  <MCE_ConfirmNeuralyze>{0}(을)를 신경소거하시겠습니까? 대상의 기억, 기술, 특성, 성장 배경, 관계 및 욕구를 지우고 이름, 신체, 유전자, 건강 및 장비만 유지합니다.</MCE_ConfirmNeuralyze>
+  <MCE_NeuralyzedPawn>신경소거된 {0}</MCE_NeuralyzedPawn>
+  <MCE_SelectPawnToEdit>편집할 폰을 선택하세요</MCE_SelectPawnToEdit>
+  <MCE_SaveLoad>저장/불러오기</MCE_SaveLoad>
+  <MCE_Randomize>무작위화</MCE_Randomize>
+  <MCE_RandomizeTabTip>현재 탭 무작위화</MCE_RandomizeTabTip>
+  <MCE_RandomizeAllTip>폰 전체 무작위화</MCE_RandomizeAllTip>
+  <MCE_RandomizeGenderTip>성별을 유지하고 폰 전체를 무작위화</MCE_RandomizeGenderTip>
+  <MCE_RandomizeGearTip>장비만 무작위화</MCE_RandomizeGearTip>
+  <MCE_SkipTip>선택한 폰을 지도의 특정 위치로 이동시킵니다.</MCE_SkipTip>
+  <MCE_HealAllTip>모든 부상과 질환 치료</MCE_HealAllTip>
+  <MCE_PawnHealed>{0} 치료됨</MCE_PawnHealed>
+  <MCE_NeuralyzeTip>신경소거: 기억, 기술, 특성, 성장 배경 및 관계를 삭제합니다(이름, 신체, 유전자 및 장비는 유지).</MCE_NeuralyzeTip>
+  <MCE_DeletePawnTip>선택한 폰을 영구적으로 삭제</MCE_DeletePawnTip>
+  <MCE_HotkeyHint>Ctrl+Z 실행 취소 / Ctrl+Y 다시 실행 / Esc 취소</MCE_HotkeyHint>
+  <MCE_BalanceMeter>균형: {1}점 중 {0}점</MCE_BalanceMeter>
+  <MCE_Revert>되돌리기</MCE_Revert>
+  <MCE_Apply>적용</MCE_Apply>
+  <MCE_ChangesApplied>변경사항이 적용되었습니다.</MCE_ChangesApplied>
+  <MCE_CannotSkipThere>그 위치로 이동할 수 없습니다.</MCE_CannotSkipThere>
+  <MCE_PawnSaved>폰 저장: {0}</MCE_PawnSaved>
+  <MCE_CouldNotSavePawn>폰을 저장할 수 없습니다(로그 참조)</MCE_CouldNotSavePawn>
+  <MCE_SaveLoadPawnsTitle>폰 저장/불러오기</MCE_SaveLoadPawnsTitle>
+  <MCE_PawnNamePlaceholder>폰 이름...</MCE_PawnNamePlaceholder>
+  <MCE_Override>덮어쓰기</MCE_Override>
+  <MCE_ConfirmOverride>저장된 폰 "{0}"(을)를 덮어쓰시겠습니까?\n\n기존 저장본이 교체됩니다.</MCE_ConfirmOverride>
+  <MCE_SavedPawnExistsTip>{0}(이)라는 이름의 저장된 폰이 이미 있습니다. 덮어쓰면 기존 저장본이 교체됩니다.</MCE_SavedPawnExistsTip>
+  <MCE_OpenPawnsFolder>폰 폴더 열기</MCE_OpenPawnsFolder>
+  <MCE_OpenPawnsFolderTip>저장된 폰 파일이 있는 폴더를 엽니다. 친구에게 받은 파일은 여기에 넣어 불러오고, 친구에게 보낼 파일은 여기에서 가져가세요.</MCE_OpenPawnsFolderTip>
+  <MCE_ImportShareCode>공유 코드 불러오기</MCE_ImportShareCode>
+  <MCE_PawnImported>폰을 가져왔습니다: {0} — 아래 목록에서 불러오세요.</MCE_PawnImported>
+  <MCE_NoShareCode>클립보드에 불러올 Modern CC 공유 코드가 없습니다.</MCE_NoShareCode>
+  <MCE_ImportShareCodeTip>다른 플레이어에게 받은 공유 코드가 클립보드에 복사된 상태에서 붙여넣으세요.</MCE_ImportShareCodeTip>
+  <MCE_SavedPawnsHeader>저장된 폰</MCE_SavedPawnsHeader>
+  <MCE_SafeImport>안전하게 가져오기</MCE_SafeImport>
+  <MCE_SafeImportTip>켜면(권장) 폰을 불러올 때 현재 설치되지 않은 모드의 장비, 건강 상태, 특성, 능력, 작위를 제거하고 깨진 외형 참조를 복구합니다. 따라서 잘못된 데이터가 게임에 유입되지 않습니다. 모드 설정에서도 변경할 수 있습니다.</MCE_SafeImportTip>
+  <MCE_SearchSavedPawns>저장된 폰 검색...</MCE_SearchSavedPawns>
+  <MCE_NoSavedPawns>아직 저장된 폰이 없습니다.</MCE_NoSavedPawns>
+  <MCE_CouldNotLoadPawn>{0}(을)를 로드할 수 없습니다(로그 참조).</MCE_CouldNotLoadPawn>
+  <MCE_Share>공유</MCE_Share>
+  <MCE_ShareCodeCopied>{0}의 공유 코드를 클립보드에 복사했습니다.</MCE_ShareCodeCopied>
+  <MCE_ShareTip>이 폰을 다른 플레이어에게 보내려면 공유 코드를 클립보드에 복사하세요.</MCE_ShareTip>
+  <MCE_DeleteSavedPawnTip>저장된 폰 삭제</MCE_DeleteSavedPawnTip>
+  <MCE_SavedPawnCaption>저장된 폰에는 모든 정보가 담깁니다. 불러오면 새 정착민으로 추가됩니다.</MCE_SavedPawnCaption>
+  <MCE_SavedPawnCaptionTip>저장된 폰은 정체성, 외모, 장비, 건강, 기술, 특성과 유전자를 보존합니다. 불러오면 폰을 복원해 정착지에 새 정착민으로 추가합니다.</MCE_SavedPawnCaptionTip>
+  <MCE_ImportFromCE>캐릭터 편집기에서 가져오기</MCE_ImportFromCE>
+  <MCE_ModulesTitle>모듈 및 API</MCE_ModulesTitle>
+  <MCE_InstalledModules>설치된 모듈</MCE_InstalledModules>
+  <MCE_OneModuleRequired>하나 이상의 모듈이 활성화된 상태로 유지되어야 합니다.</MCE_OneModuleRequired>
+  <MCE_MultiRowTabs>여러 줄 탭 표시줄</MCE_MultiRowTabs>
+  <MCE_MultiRowTabsTip>탭을 너비가 맞춰진 여러 줄로 배치합니다(고전 대화상자 방식). 활성 탭이 있는 줄은 내용 영역 바로 옆에 표시됩니다. 끄면 한 줄에서 페이지를 넘깁니다.</MCE_MultiRowTabsTip>
+  <MCE_DragRowsHint>행을 드래그해 편집기 탭 순서 변경</MCE_DragRowsHint>
+  <MCE_SandboxHint>외부 모듈에 오류가 발생해도 적용은 차단되지 않습니다.</MCE_SandboxHint>
+  <MCE_DocsLine>전체 문서 및 템플릿: astryls.github.io/Modern-Character-Editor</MCE_DocsLine>
+  <MCE_TagInherited>상속됨</MCE_TagInherited>
+  <MCE_RequiresX>{0} 필요</MCE_RequiresX>
+  <MCE_RequiresModTip>{0} 모드({1})(이)가 필요합니다.</MCE_RequiresModTip>
+  <MCE_RequiresDlcTip>{0} DLC가 필요합니다.</MCE_RequiresDlcTip>
+  <MCE_TagUnavailable>이용 불가</MCE_TagUnavailable>
+  <MCE_TagBuiltIn>내장</MCE_TagBuiltIn>
+  <MCE_ApiEditorModule>Draw(Rect, EditorSession), Randomize, OnPawnChanged, VisibleFor - 하위 클래스를 만든 뒤 def에서 지정합니다. 그리기 작업은 샌드박스에서 실행됩니다.</MCE_ApiEditorModule>
+  <MCE_ApiEditorSession>PushUndo(병합 가능), NotifyChanged, 밸런스 포인트, 장비·건강 상태 되돌리기 추적기</MCE_ApiEditorSession>
+  <MCE_ApiPawnSnapshot>실행 취소, 되돌리기 및 프리셋 기능을 지원하는 전체 폰 상태 캡처입니다. 함께 저장할 확장 기능을 등록할 수 있습니다.</MCE_ApiPawnSnapshot>
+  <MCE_ApiPresetManager>모든 정보를 보존하는 단일 폰 저장/불러오기(Scribe_Deep으로 폰 전체 저장). SaveData/MCEPawns에 저장되며, 불러오면 새 정착민이 추가됩니다.</MCE_ApiPresetManager>
+  <MCE_ChooseColor>색상을 선택하세요</MCE_ChooseColor>
+  <MCE_Brightness>밝기</MCE_Brightness>
+  <MCE_Palette>팔레트</MCE_Palette>
+  <MCE_Hex>16진수</MCE_Hex>
+  <MCE_CurrentColor>현재</MCE_CurrentColor>
+  <MCE_OldColor>이전</MCE_OldColor>
+  <MCE_RestoreOldTip>이전 색상을 복원하려면 클릭하세요.</MCE_RestoreOldTip>
+  <MCE_PastePawnString>폰 데이터 문자열 붙여넣기...</MCE_PastePawnString>
+  <MCE_Import>가져오기</MCE_Import>
+  <MCE_FoundPawns>발견된 폰</MCE_FoundPawns>
+  <MCE_Rescan>다시 검색</MCE_Rescan>
+  <MCE_NoCEPawnsFound>저장된 폰을 찾을 수 없습니다(캐릭터 편집기 슬롯 또는 데스크탑 Pawnslots.txt).</MCE_NoCEPawnsFound>
+  <MCE_ImportPawnTip>이 폰을 새로운 정착민으로 가져옵니다.\nShift-클릭: 대신 나열된 모든 폰을 저장된 폰으로 복사합니다.</MCE_ImportPawnTip>
+  <MCE_ImportFooterTip>폰을 재구성하고 새 정착민으로 추가합니다. 나열된 모든 폰을 저장된 폰에 복사하려면 Shift 키를 누른 채 가져오기를 클릭하세요.</MCE_ImportFooterTip>
+  <MCE_ImportCEModeTip>Character Editor를 함께 사용하면 건강, 욕구, 기억, 기록 등 모든 정보를 1:1로 가져옵니다. Character Editor가 없으면 화면에 표시된 캐릭터 정보만 가져옵니다.</MCE_ImportCEModeTip>
+  <MCE_ImportedPawn>가져온 폰</MCE_ImportedPawn>
+  <MCE_BulkSavedOk>폰 {0}명을 저장된 폰 목록에 저장했습니다.</MCE_BulkSavedOk>
+  <MCE_BulkSavedFail>폰 {0}명을 저장했고 {1}명은 실패했습니다(로그 참조).</MCE_BulkSavedFail>
+  <MCE_XenotypesTitle>인종형</MCE_XenotypesTitle>
+  <MCE_SaveGenesHeader>이 유전자들을 인종형으로 저장</MCE_SaveGenesHeader>
+  <MCE_SaveGenesInfo>이 폰의 {0} 유전자에 이름을 붙여 재사용 가능한 인종형(.xtp)으로 저장합니다. 기본 게임과 Character Editor에서도 함께 사용할 수 있습니다.</MCE_SaveGenesInfo>
+  <MCE_NoGenesToSave>이 폰에는 아직 저장할 유전자가 없습니다. 먼저 유전자 탭에서 유전자를 추가하세요.</MCE_NoGenesToSave>
+  <MCE_XenotypeNamePlaceholder>인종형 이름...</MCE_XenotypeNamePlaceholder>
+  <MCE_XenoIconTip>인종형 아이콘: {0}. 변경하려면 클릭하세요.</MCE_XenoIconTip>
+  <MCE_IconLabel>아이콘: {0}</MCE_IconLabel>
+  <MCE_IconBasic>기본</MCE_IconBasic>
+  <MCE_InheritableGenes>유전되는 유전자</MCE_InheritableGenes>
+  <MCE_InheritableGenesTip>켜기: 유전 가능한 생식 유전자(자녀에게 전달됨). 끄기: 변형인자(배아 이식 방식이며 유전되지 않음).</MCE_InheritableGenesTip>
+  <MCE_ImportXenoHeader>저장된 인종형 가져오기</MCE_ImportXenoHeader>
+  <MCE_Refresh>새로고침</MCE_Refresh>
+  <MCE_OpenFolder>폴더 열기</MCE_OpenFolder>
+  <MCE_XenoSourcesTip>현재 및 이전 플레이와 Character Editor에서 가져옵니다.</MCE_XenoSourcesTip>
+  <MCE_NoXenosFound>저장된 인종형을 찾지 못했습니다. 위에서 새로 만들거나 RimWorld 또는 Character Editor의 인종형 편집기에서 저장하면 여기에 표시됩니다.</MCE_NoXenosFound>
+  <MCE_XenoFromCE>Character Editor에서 저장한 폰에서 가져옴</MCE_XenoFromCE>
+  <MCE_XenoFromProfile>기본 RimWorld 프로필 폴더에서 가져옴(이 세션에서는 다른 저장 데이터 폴더가 활성화되어 있음)</MCE_XenoFromProfile>
+  <MCE_ConfirmDeleteXeno>인종형 "{0}"(을)를 영구적으로 삭제하시겠습니까?\n\n모든 플레이에서 공유되는 .xtp 파일이 삭제됩니다.</MCE_ConfirmDeleteXeno>
+  <MCE_DeleteXenoTip>이 인종형 파일 삭제</MCE_DeleteXenoTip>
+  <MCE_SavedXenotype>저장된 인종형: {0}</MCE_SavedXenotype>
+  <MCE_ConfirmOverrideXeno>저장된 인종형 "{0}"(을)를 덮어쓰시겠습니까?</MCE_ConfirmOverrideXeno>
+  <MCE_CouldNotLoadX>{0}(을)를 불러올 수 없습니다.</MCE_CouldNotLoadX>
+  <MCE_AppliedXenotype>인종형 적용됨: {0}(유전자 {1}개)</MCE_AppliedXenotype>
+  <MCE_XenoIconPickTitle>인종형 아이콘</MCE_XenoIconPickTitle>
+  <MCE_Filters>필터</MCE_Filters>
+  <MCE_ClearAll>모두 지우기</MCE_ClearAll>
+  <MCE_TriChipTip>클릭하여 전환: 모두 → 필수(+) → 제외(-)</MCE_TriChipTip>
+  <MCE_FiltersActive>활성 필터: {0}개(클릭하여 변경)</MCE_FiltersActive>
+  <MCE_Clear>지우기</MCE_Clear>
+  <MCE_ClearX>{0} 지우기</MCE_ClearX>
+  <MCE_Search>검색...</MCE_Search>
+  <MCE_CreateBackstory>사용자 지정 성장 배경 만들기</MCE_CreateBackstory>
+  <MCE_EditBackstory>사용자 지정 성장 배경 편집</MCE_EditBackstory>
+  <MCE_IdentityHeader>신원</MCE_IdentityHeader>
+  <MCE_TitleField>제목</MCE_TitleField>
+  <MCE_ShortTitleField>축약 명칭</MCE_ShortTitleField>
+  <MCE_Childhood>유년기</MCE_Childhood>
+  <MCE_Adulthood>성년기</MCE_Adulthood>
+  <MCE_BackstoryDescField>설명(PAWN_nameDef와 PAWN_pronoun 사용 가능)</MCE_BackstoryDescField>
+  <MCE_SkillGainsHeader>기술 보정</MCE_SkillGainsHeader>
+  <MCE_IncapableHeader>작업 불가</MCE_IncapableHeader>
+  <MCE_IconHeader>아이콘</MCE_IconHeader>
+  <MCE_NoIconPack>아이콘 팩을 찾지 못했습니다. 아이콘을 선택하려면 Trait and Backstory Icons를 활성화하세요.</MCE_NoIconPack>
+  <MCE_SearchIcons>아이콘 검색...</MCE_SearchIcons>
+  <MCE_BackstoryRemoved>사용자 지정 성장 배경이 삭제되었습니다(재시작 후 완전히 제거됨).</MCE_BackstoryRemoved>
+  <MCE_BackstorySaved>사용자 지정 성장 배경이 저장되었습니다: {0}</MCE_BackstorySaved>
+  <MCE_CustomTitleFallback>사용자 지정</MCE_CustomTitleFallback>
+  <MCE_NoStoryTracker>이 폰에는 스토리 추적기가 없으므로 여기에서 편집할 수 없습니다.</MCE_NoStoryTracker>
+  <MCE_FirstName>이름</MCE_FirstName>
+  <MCE_Nickname>별명</MCE_Nickname>
+  <MCE_LastName>성</MCE_LastName>
+  <MCE_NameField>이름</MCE_NameField>
+  <MCE_RandomName>임의의 이름</MCE_RandomName>
+  <MCE_RandomNameTip>오른쪽의 명명 규칙에 따라 새 이름을 생성합니다.</MCE_RandomNameTip>
+  <MCE_NamesFrom>이름 출처: {0}</MCE_NamesFrom>
+  <MCE_ThisPawnsFaction>이 폰의 세력</MCE_ThisPawnsFaction>
+  <MCE_NamesFromTip>무작위 이름이 따를 세력 또는 문화권의 명명 규칙을 선택하세요.</MCE_NamesFromTip>
+  <MCE_Change>변경</MCE_Change>
+  <MCE_RandomizeBackstory>성장 배경 무작위화</MCE_RandomizeBackstory>
+  <MCE_TagPlayer>플레이어</MCE_TagPlayer>
+  <MCE_CannotChangeFaction>세력을 변경할 수 없습니다.</MCE_CannotChangeFaction>
+  <MCE_EditCustomBackstoryTip>이 사용자 지정 성장 배경 편집</MCE_EditCustomBackstoryTip>
+  <MCE_CreateCustomBackstoryTip>사용자 지정 성장 배경 만들기</MCE_CreateCustomBackstoryTip>
+  <MCE_SearchBackstories>성장 배경 검색...</MCE_SearchBackstories>
+  <MCE_NBackstories>성장 배경 {0}개</MCE_NBackstories>
+  <MCE_NoneTooYoung>없음(너무 어림)</MCE_NoneTooYoung>
+  <MCE_Custom>사용자 지정</MCE_Custom>
+  <MCE_Vanilla>바닐라</MCE_Vanilla>
+  <MCE_FilterSkillBonus>기술 보너스</MCE_FilterSkillBonus>
+  <MCE_FilterSkillPenalty>기술 페널티</MCE_FilterSkillPenalty>
+  <MCE_FilterDisablesWork>작업 불가</MCE_FilterDisablesWork>
+  <MCE_FilterForcedTrait>강제 특성</MCE_FilterForcedTrait>
+  <MCE_FilterEffect>효과</MCE_FilterEffect>
+  <MCE_FilterMod>모드</MCE_FilterMod>
+  <MCE_ThisPawnsFactionDefault>이 폰의 세력(기본값)</MCE_ThisPawnsFactionDefault>
+  <MCE_FactionPrefix>세력: {0}</MCE_FactionPrefix>
+  <MCE_CulturePrefix>문화: {0}</MCE_CulturePrefix>
+  <MCE_BodyHeader>신체</MCE_BodyHeader>
+  <MCE_BodyType>체형</MCE_BodyType>
+  <MCE_SkinTone>피부색</MCE_SkinTone>
+  <MCE_HeadHeader>머리</MCE_HeadHeader>
+  <MCE_HeadShape>머리 모양</MCE_HeadShape>
+  <MCE_BioAge>생물학적 나이</MCE_BioAge>
+  <MCE_ChronoAge>실제 나이</MCE_ChronoAge>
+  <MCE_ColorsHeader>색상</MCE_ColorsHeader>
+  <MCE_Hair>머리카락</MCE_Hair>
+  <MCE_HairGene>머리색 유전자</MCE_HairGene>
+  <MCE_NoHairColorGene>머리색 유전자 없음(현재 색상 유지)</MCE_NoHairColorGene>
+  <MCE_HairGradient>머리카락 그라데이션</MCE_HairGradient>
+  <MCE_MaskButton>마스크...</MCE_MaskButton>
+  <MCE_GradientMaskTip>그라데이션 마스크: {0}</MCE_GradientMaskTip>
+  <MCE_RandomPair>무작위 조합</MCE_RandomPair>
+  <MCE_RandomPairTip>서로 어울리는 기본색과 그라데이션색 조합 및 새 마스크를 무작위로 선택합니다(Gradient Hair의 무작위화 기능이며 기본 머리색도 변경합니다).</MCE_RandomPairTip>
+  <MCE_GradientColor>그라데이션 색상</MCE_GradientColor>
+  <MCE_Eyes>눈</MCE_Eyes>
+  <MCE_StylesHeader>스타일</MCE_StylesHeader>
+  <MCE_Beard>수염</MCE_Beard>
+  <MCE_FaceTattoo>얼굴 문신</MCE_FaceTattoo>
+  <MCE_BodyTattoo>신체 문신</MCE_BodyTattoo>
+  <MCE_SearchStyles>스타일 검색...</MCE_SearchStyles>
+  <MCE_NStyles>{0} 스타일</MCE_NStyles>
+  <MCE_GradientMaskTitle>그라데이션 마스크</MCE_GradientMaskTitle>
+  <MCE_CustomColorTip>맞춤 색상</MCE_CustomColorTip>
+  <MCE_PawnIsDead>이 폰은 사망했습니다.</MCE_PawnIsDead>
+  <MCE_Resurrect>부활</MCE_Resurrect>
+  <MCE_ResurrectedMsg>{0}(이)가 부활했습니다.</MCE_ResurrectedMsg>
+  <MCE_ResurrectFailed>부활 실패</MCE_ResurrectFailed>
+  <MCE_ResurrectFailedLog>부활 실패(로그 참조)</MCE_ResurrectFailedLog>
+  <MCE_AgeHeader>나이</MCE_AgeHeader>
+  <MCE_CurrentLifeStage>현재 생애 단계: {0}</MCE_CurrentLifeStage>
+  <MCE_StorylessAppearanceNote>이 폰에는 스토리 추적기가 없습니다. 외모와 스타일은 편집할 수 없지만 나이는 편집할 수 있습니다.</MCE_StorylessAppearanceNote>
+  <MCE_NoSkillsTracker>이 폰에는 기술 추적기가 없으므로 여기에서 편집할 수 없습니다.</MCE_NoSkillsTracker>
+  <MCE_RandomizeSkills>기술 무작위화</MCE_RandomizeSkills>
+  <MCE_PointsLeft>{0} 포인트 남음</MCE_PointsLeft>
+  <MCE_DisabledIncapable>비활성화됨(작업 불가)</MCE_DisabledIncapable>
+  <MCE_DisabledBy1>비활성화됨 - {0}</MCE_DisabledBy1>
+  <MCE_DisabledByN>{0}개 원인으로 비활성화됨</MCE_DisabledByN>
+  <MCE_PassionTipVSE>열정: {0}\n순환하려면 왼쪽 클릭, 선택하려면 마우스 오른쪽 버튼 클릭</MCE_PassionTipVSE>
+  <MCE_PassionTipCycle>열정: {0}(클릭하여 순환)</MCE_PassionTipCycle>
+  <MCE_PassionMinor>작은 열정</MCE_PassionMinor>
+  <MCE_PassionMajor>큰 열정</MCE_PassionMajor>
+  <MCE_InnateLevel>기본(선천적) 레벨: {0}</MCE_InnateLevel>
+  <MCE_EffectiveLevel>유효 레벨: {0}</MCE_EffectiveLevel>
+  <MCE_CauseBackstory>성장 배경: {0}</MCE_CauseBackstory>
+  <MCE_CauseTrait>특성: {0}</MCE_CauseTrait>
+  <MCE_CauseGene>유전자: {0}</MCE_CauseGene>
+  <MCE_CauseHealth>건강 상태: {0}</MCE_CauseHealth>
+  <MCE_CauseTitle>작위: {0}</MCE_CauseTitle>
+  <MCE_CauseIdeoRole>이념 역할: {0}</MCE_CauseIdeoRole>
+  <MCE_CausePawnKind>폰 종류: {0}</MCE_CausePawnKind>
+  <MCE_CausePawnKindTip>폰 종류({0})에 고정된 요소이므로 여기에서 편집할 수 없습니다.</MCE_CausePawnKindTip>
+  <MCE_CauseMutant>돌연변이: {0}</MCE_CauseMutant>
+  <MCE_CauseMutantTip>폰의 돌연변이 상태로 인해 발생합니다. 여기서는 편집할 수 없습니다.</MCE_CauseMutantTip>
+  <MCE_CauseQuest>임무: {0}</MCE_CauseQuest>
+  <MCE_CauseQuestTip>활성 임무에 의해 부과되며 여기서 편집할 수 없습니다.</MCE_CauseQuestTip>
+  <MCE_SkillDisabledFor>이 폰은 {0}(을)를 사용할 수 없습니다.</MCE_SkillDisabledFor>
+  <MCE_NoDisablingSource>비활성화 원인을 확인할 수 없습니다(다른 모드에서 비롯된 것일 수 있습니다).</MCE_NoDisablingSource>
+  <MCE_DisabledBy>비활성화 원인:</MCE_DisabledBy>
+  <MCE_ClickOpenCauseTab>이 원인이 속한 탭을 열려면 클릭하세요.</MCE_ClickOpenCauseTab>
+  <MCE_ClickPickCause>원인을 선택하고 해당 탭으로 이동하려면 클릭하세요.</MCE_ClickPickCause>
+  <MCE_Equipped>장착</MCE_Equipped>
+  <MCE_Inventory>소지품</MCE_Inventory>
+  <MCE_CopiedLoadout>복사한 장비 구성({0}개)</MCE_CopiedLoadout>
+  <MCE_CopyLoadoutTip>이 폰의 의류, 무기 및 소지품 전체를 재질, 품질, 내구도, 색상과 함께 복사합니다.</MCE_CopyLoadoutTip>
+  <MCE_PastedLoadout>복사한 장비 구성을 {0}에게 붙여넣었습니다.</MCE_PastedLoadout>
+  <MCE_PasteLoadoutTip>이 폰의 의류, 무기 및 소지품을 복사한 장비 구성으로 교체합니다. 되돌리기 또는 취소를 누르면 원래 장비로 복원됩니다.</MCE_PasteLoadoutTip>
+  <MCE_CopyLoadoutFirst>먼저 다른 폰의 장비 구성을 복사하세요.</MCE_CopyLoadoutFirst>
+  <MCE_GearRevertNote>장비 변경은 Ctrl+Z가 아닌 취소로 되돌릴 수 있습니다.</MCE_GearRevertNote>
+  <MCE_RandomizeGear>장비 무작위화</MCE_RandomizeGear>
+  <MCE_NothingEquipped>장착한 장비 없음</MCE_NothingEquipped>
+  <MCE_ChangeColorTip>색상 변경</MCE_ChangeColorTip>
+  <MCE_AddGearHeader>장비 추가</MCE_AddGearHeader>
+  <MCE_Apparel>의류</MCE_Apparel>
+  <MCE_Weapons>무기</MCE_Weapons>
+  <MCE_Items>품목</MCE_Items>
+  <MCE_NEntries>{0} 항목</MCE_NEntries>
+  <MCE_Core>코어</MCE_Core>
+  <MCE_InvOverlay>소지품</MCE_InvOverlay>
+  <MCE_AddToInvTipStack>소지품에 추가합니다. 클릭: 1개 · Shift+클릭: 10개 · Ctrl+클릭: 한 묶음({0}개)</MCE_AddToInvTipStack>
+  <MCE_AddToInvTip>소지품에 추가</MCE_AddToInvTip>
+  <MCE_AddedToInventory>{0}(이)가 소지품에 추가되었습니다.</MCE_AddedToInventory>
+  <MCE_InvQtyNote>숫자를 입력해 묶음 수량 조정 · 취소하면 되돌아감</MCE_InvQtyNote>
+  <MCE_NothingCarried>소지한 물품 없음</MCE_NothingCarried>
+  <MCE_QtyTip>수량: 숫자를 입력해 이 묶음의 수량을 직접 설정합니다.</MCE_QtyTip>
+  <MCE_RemoveItemTip>항목 삭제</MCE_RemoveItemTip>
+  <MCE_Quality>품질</MCE_Quality>
+  <MCE_Material>재료</MCE_Material>
+  <MCE_HitPoints>내구도</MCE_HitPoints>
+  <MCE_Color>색상</MCE_Color>
+  <MCE_NoMaterials>사용 가능한 재질이 없습니다.</MCE_NoMaterials>
+  <MCE_Weapon>무기</MCE_Weapon>
+  <MCE_Other>기타</MCE_Other>
+  <MCE_Ranged>원거리</MCE_Ranged>
+  <MCE_Melee>근접</MCE_Melee>
+  <MCE_FilterClass>분류</MCE_FilterClass>
+  <MCE_FilterLayer>착용 위치</MCE_FilterLayer>
+  <MCE_NameLockedTip>이름이 잠겨 있습니다. 수정하려면 클릭하세요.</MCE_NameLockedTip>
+  <MCE_NameEditableTip>이름 편집 가능 - 잠그려면 클릭하세요.</MCE_NameEditableTip>
+  <MCE_XenotypeHeader>인종형</MCE_XenotypeHeader>
+  <MCE_SaveManage>저장/관리</MCE_SaveManage>
+  <MCE_SaveManageTip>이 폰의 유전자에 이름을 붙여 인종형으로 저장하거나 저장된 인종형을 삭제합니다. 인종형만 바꾸려면 '변경'을 사용하세요.</MCE_SaveManageTip>
+  <MCE_GenesHeader>유전자</MCE_GenesHeader>
+  <MCE_NGenes>{0} 유전자</MCE_NGenes>
+  <MCE_Xenogene>변형인자</MCE_Xenogene>
+  <MCE_Endogene>생식 유전자</MCE_Endogene>
+  <MCE_RerollGeneTip>외형 다시 생성: 이 유전자를 제거한 뒤 다시 추가하여 시각적 변형이 있는 유전자(귀, 꼬리, 무늬 등)가 새 외형을 선택하게 합니다. 다른 유전자는 영향을 받지 않습니다.</MCE_RerollGeneTip>
+  <MCE_AddGeneHeader>유전자 추가</MCE_AddGeneHeader>
+  <MCE_AsXenogene>변형인자로</MCE_AsXenogene>
+  <MCE_AsEndogene>생식 유전자로</MCE_AsEndogene>
+  <MCE_SearchGenes>유전자 검색...</MCE_SearchGenes>
+  <MCE_NoXenosMatch>검색어와 일치하는 인종형이 없습니다.</MCE_NoXenosMatch>
+  <MCE_SavedImported>저장 및 가져오기</MCE_SavedImported>
+  <MCE_FromCEPawn>캐릭터 편집기에서: {0}</MCE_FromCEPawn>
+  <MCE_FilterStats>통계</MCE_FilterStats>
+  <MCE_FilterAbilities>능력</MCE_FilterAbilities>
+  <MCE_FilterAptitudes>적성</MCE_FilterAptitudes>
+  <MCE_FilterMetabolism>대사</MCE_FilterMetabolism>
+  <MCE_FilterWork>작업</MCE_FilterWork>
+  <MCE_FilterCosmetic>외형</MCE_FilterCosmetic>
+  <MCE_FilterType>유형</MCE_FilterType>
+  <MCE_HealthConditions>건강 상태</MCE_HealthConditions>
+  <MCE_HealthRevertNote>건강 상태 변경은 Ctrl+Z가 아닌 취소로 되돌릴 수 있습니다.</MCE_HealthRevertNote>
+  <MCE_NoHealthConditions>건강 상태 없음</MCE_NoHealthConditions>
+  <MCE_WholeBody>전신</MCE_WholeBody>
+  <MCE_HealAll>모두 치료</MCE_HealAll>
+  <MCE_ShowHidden>숨겨진 항목 표시</MCE_ShowHidden>
+  <MCE_NHidden>숨김 {0}개</MCE_NHidden>
+  <MCE_SeverityLabel>심각도: {0}</MCE_SeverityLabel>
+  <MCE_AddPermanentScar>영구 흉터 추가</MCE_AddPermanentScar>
+  <MCE_AddCondition>건강 상태 추가</MCE_AddCondition>
+  <MCE_ChooseBodyPart>신체부위 선택</MCE_ChooseBodyPart>
+  <MCE_Conditions>건강 상태</MCE_Conditions>
+  <MCE_PermanentScars>영구 흉터</MCE_PermanentScars>
+  <MCE_ScarModeTip>치유된 영구 부상(오래된 상처)을 추가합니다. 흉터 의식처럼 베인 상처, 화상, 총상, 골절 등을 만들 수 있으며 상처는 사라지지 않습니다. 심각도는 안전한 범위에서 선택되며, 추가한 뒤 위의 흉터를 선택해 조정할 수 있습니다.</MCE_ScarModeTip>
+  <MCE_NScarTypes>흉터 유형 {0}개</MCE_NScarTypes>
+  <MCE_NConditions>건강 상태 {0}개</MCE_NConditions>
+  <MCE_Adding>추가할 항목: {0}</MCE_Adding>
+  <MCE_PermScarSuffix>(영구 흉터)</MCE_PermScarSuffix>
+  <MCE_CompatSlotsSuffix>(호환되는 슬롯)</MCE_CompatSlotsSuffix>
+  <MCE_GroupImplants>임플란트 및 보철</MCE_GroupImplants>
+  <MCE_GroupInjuries>부상</MCE_GroupInjuries>
+  <MCE_GroupMissingParts>결손 부위</MCE_GroupMissingParts>
+  <MCE_GroupDiseases>질병 및 상태</MCE_GroupDiseases>
+  <MCE_GroupAddictions>중독</MCE_GroupAddictions>
+  <MCE_NoTraitsTracker>이 폰에는 특성 추적기가 없으므로 여기에서 편집할 수 없습니다.</MCE_NoTraitsTracker>
+  <MCE_RandomizeTraits>특성 무작위화</MCE_RandomizeTraits>
+  <MCE_MaxN>최대: {0}</MCE_MaxN>
+  <MCE_MaxTraitsTip>특성 무작위화로 생성할 최대 특성 수를 설정합니다(1~8개). 현재 설정: {0}개. 이 폰의 특성: {1}개.</MCE_MaxTraitsTip>
+  <MCE_GeneTag>유전자</MCE_GeneTag>
+  <MCE_AddTraitHeader>특성 추가</MCE_AddTraitHeader>
+  <MCE_SearchTraits>특성 검색...</MCE_SearchTraits>
+  <MCE_FilterRarity>희귀성</MCE_FilterRarity>
+  <MCE_FilterMental>정신</MCE_FilterMental>
+  <MCE_RarityCommon>흔함</MCE_RarityCommon>
+  <MCE_RarityUncommon>드묾</MCE_RarityUncommon>
+  <MCE_RarityRare>희귀함</MCE_RarityRare>
+  <MCE_RarityEpic>에픽</MCE_RarityEpic>
+  <MCE_RarityLegendary>전설적</MCE_RarityLegendary>
+  <MCE_AlreadyHas>이미 보유</MCE_AlreadyHas>
+  <MCE_HasOtherDegree>다른 단계 보유</MCE_HasOtherDegree>
+  <MCE_ConflictsWith>충돌: {0}</MCE_ConflictsWith>
+  <MCE_MentalState>정신 상태</MCE_MentalState>
+  <MCE_CurrentX>현재: {0}</MCE_CurrentX>
+  <MCE_EndState>종료 상태</MCE_EndState>
+  <MCE_EndStateTip>현재 정신 상태를 즉시 종료합니다. 이 작업은 실행 취소할 수 없습니다.</MCE_EndStateTip>
+  <MCE_NoStateToEnd>종료할 정신 상태가 없습니다.</MCE_NoStateToEnd>
+  <MCE_StartState>시작...</MCE_StartState>
+  <MCE_StartStateTip>정신 상태(인간사냥, 광란 등)를 강제로 시작합니다. 이 폰이 일반적으로 진입할 수 없는 상태에는 '강제' 태그가 붙습니다. 즉시 적용되며 실행 취소할 수 없습니다. 중지하려면 '상태 종료'를 사용하세요.</MCE_StartStateTip>
+  <MCE_NoRelationsTracker>이 폰에는 관계 추적기가 없으므로 관계를 편집할 수 없습니다.</MCE_NoRelationsTracker>
+  <MCE_Relationships>관계</MCE_Relationships>
+  <MCE_NRelations>{0} 관계</MCE_NRelations>
+  <MCE_NoDirectRelationships>직접적인 관계 없음</MCE_NoDirectRelationships>
+  <MCE_AddRelationship>관계 추가</MCE_AddRelationship>
+  <MCE_ChooseOtherPawn>다른 폰을 선택하세요</MCE_ChooseOtherPawn>
+  <MCE_ShowOnlyMale>남성 폰만 표시</MCE_ShowOnlyMale>
+  <MCE_ShowOnlyFemale>여성 폰만 표시</MCE_ShowOnlyFemale>
+  <MCE_AddedRelation>관계 추가됨 — {0}: {1}</MCE_AddedRelation>
+  <MCE_CannotAddRelationship>해당 관계를 추가할 수 없습니다.</MCE_CannotAddRelationship>
+  <MCE_StartedStateOn>{1}에게 {0}(을)를 시작했습니다.</MCE_StartedStateOn>
+  <MCE_CouldNotStartState>{0}(을)를 시작할 수 없습니다.</MCE_CouldNotStartState>
+  <MCE_CouldNotStartStateLog>{0}(을)를 시작할 수 없습니다(로그 참조).</MCE_CouldNotStartStateLog>
+  <MCE_PsyHeader>정신력</MCE_PsyHeader>
+  <MCE_Psyfocus>초집중</MCE_Psyfocus>
+  <MCE_NeuralHeat>신경열</MCE_NeuralHeat>
+  <MCE_NAbilities>{0} 능력</MCE_NAbilities>
+  <MCE_NoAbilities>능력 없음</MCE_NoAbilities>
+  <MCE_LevelN>레벨 {0}</MCE_LevelN>
+  <MCE_AddAbilityHeader>능력 추가</MCE_AddAbilityHeader>
+  <MCE_SearchAbilities>능력 검색...</MCE_SearchAbilities>
+  <MCE_Psycast>초능력</MCE_Psycast>
+  <MCE_Innate>타고난</MCE_Innate>
+  <MCE_PsycastTip>로열티 또는 정신 계통의 초능력입니다.</MCE_PsycastTip>
+  <MCE_InnateTip>게임에서 별도 범주로 분류하지 않는 능력입니다. 일반적으로 유전자, 건강 상태 또는 모드로 부여됩니다.</MCE_InnateTip>
+  <MCE_IdeoligionHeader>이념</MCE_IdeoligionHeader>
+  <MCE_Certainty>확실성</MCE_Certainty>
+  <MCE_Role>역할</MCE_Role>
+  <MCE_NoRoleAssign>없음(이념 화면에서 역할 할당)</MCE_NoRoleAssign>
+  <MCE_FavoriteColor>좋아하는 색</MCE_FavoriteColor>
+  <MCE_NoIdeos>아직 이념이 없습니다.</MCE_NoIdeos>
+  <MCE_EmpireTitle>제국 작위</MCE_EmpireTitle>
+  <MCE_EmpireNotPresent>이 세계에는 제국이 존재하지 않습니다.</MCE_EmpireNotPresent>
+  <MCE_Honor>명예</MCE_Honor>
+  <MCE_Psylink>정신력 증폭</MCE_Psylink>
+  <MCE_PsylinkLevel>정신력 증폭 단계</MCE_PsylinkLevel>
+  <MCE_PsylinkNote>초능력 단계와 신경열을 부여합니다.</MCE_PsylinkNote>
+  <MCE_OtherTitles>기타 작위</MCE_OtherTitles>
+  <MCE_Memories>기억</MCE_Memories>
+  <MCE_NMemories>기억 {0}개</MCE_NMemories>
+  <MCE_NoMemories>기억 없음</MCE_NoMemories>
+  <MCE_AddMemory>기억 추가</MCE_AddMemory>
+  <MCE_NoRecordsTracker>이 폰에는 기록 추적기가 없습니다.</MCE_NoRecordsTracker>
+  <MCE_ConfirmClearStats>{0}의 모든 통계를 0으로 재설정하시겠습니까?\n\n이 작업은 취소할 수 없습니다.</MCE_ConfirmClearStats>
+  <MCE_ClearStatsTip>모든 통계를 즉시 0으로 설정합니다. 이 작업은 실행 취소할 수 없습니다.</MCE_ClearStatsTip>
+  <MCE_ResetToHuman>인간으로 재설정</MCE_ResetToHuman>
+  <MCE_NativeSwapNote>Modern CC의 내장 종족 변경 기능을 사용합니다(Big and Small 미적용). 새 종족에 없는 신체 부위의 임플란트는 제거됩니다.</MCE_NativeSwapNote>
+  <MCE_BigSmallRaces>Big &amp; Small 종족</MCE_BigSmallRaces>
+  <MCE_HARRaces>HAR 종족</MCE_HARRaces>
+  <MCE_NoRacesMatch>검색어와 일치하는 종족이 없습니다.</MCE_NoRacesMatch>
+  <MCE_NoIsekaiData>이 폰에는 이세계 데이터가 없습니다.</MCE_NoIsekaiData>
+  <MCE_LevelRank>레벨 및 등급</MCE_LevelRank>
+  <MCE_RankN>등급 {0}</MCE_RankN>
+  <MCE_Level>레벨</MCE_Level>
+  <MCE_AddXPBtn1>+1,000 XP</MCE_AddXPBtn1>
+  <MCE_AddXPBtn2>+3,000 XP</MCE_AddXPBtn2>
+  <MCE_AddXPBtn3>+30,000 XP</MCE_AddXPBtn3>
+  <MCE_AddXP>XP 추가</MCE_AddXP>
+  <MCE_Attributes>능력치</MCE_Attributes>
+  <MCE_AutoDistribute>자동 분배</MCE_AutoDistribute>
+  <MCE_ResetAttributes>능력치 초기화</MCE_ResetAttributes>
+  <MCE_StarPoints>스타 포인트</MCE_StarPoints>
+  <MCE_Points>포인트</MCE_Points>
+  <MCE_Respec>능력치 재분배</MCE_Respec>
+  <MCE_FullRespec>전체 재분배</MCE_FullRespec>
+  <MCE_IsekaiTraits>이세계 특성</MCE_IsekaiTraits>
+  <MCE_IsekaiNote>이세계 편집 내용은 즉시 적용되고 게임에 저장됩니다. 취소해도 되돌릴 수 없습니다.</MCE_IsekaiNote>
+  <MCE_Mood>기분</MCE_Mood>
+  <MCE_Needs>욕구</MCE_Needs>
+  <MCE_NeedsHint>−/+ 버튼은 10%씩 조정하며, 기분 버튼은 모든 욕구를 조정합니다.</MCE_NeedsHint>
+  <MCE_ToAllNeeds>모든 욕구에 적용</MCE_ToAllNeeds>
+  <MCE_SettingSafeImportTip>폰을 불러오거나 가져올 때 더 이상 존재하지 않는 정의의 항목(설치되지 않은 모드의 장비, 건강 상태, 특성, 능력, 작위)을 제거하고 누락된 외형 참조를 복구하여 손상된 데이터로 인한 실행 오류를 방지합니다.</MCE_SettingSafeImportTip>
+  <MCE_SettingMultiRowTip>편집기 탭을 한 줄에서 페이지로 넘기는 대신, 너비가 맞춰진 여러 줄로 표시합니다(고전 대화상자 방식). 활성 탭이 있는 줄은 내용 영역 바로 옆으로 이동합니다.</MCE_SettingMultiRowTip>
+  <MCE_BalanceMode>밸런스 모드</MCE_BalanceMode>
+  <MCE_BalanceModeTip>생성한 캐릭터가 균형을 유지하도록 포인트 예산으로 편집을 제한합니다.</MCE_BalanceModeTip>
+  <MCE_PointBudget>포인트 예산: {0}</MCE_PointBudget>
+  <MCE_PointBudgetTip>기술 레벨 1당 1점, 열정 단계당 4점, 특성 추가 6점, 특성 제거 3점. 외형과 성장 배경 편집은 무료입니다.</MCE_PointBudgetTip>
+  <MCE_NotEnoughPoints>밸런스 모드: 포인트가 부족함</MCE_NotEnoughPoints>
+  <MCE_NoPawnSelected>선택한 폰이 없습니다.</MCE_NoPawnSelected>
+  <MCE_BackdropDefault>배경: 기본</MCE_BackdropDefault>
+  <MCE_BackdropBlack>배경: 검정</MCE_BackdropBlack>
+  <MCE_BackdropGray>배경: 회색</MCE_BackdropGray>
+  <MCE_BackdropLight>배경: 밝음</MCE_BackdropLight>
+  <MCE_BackdropGreen>배경: 녹색</MCE_BackdropGreen>
+  <MCE_ScrollToZoom>스크롤하여 확대/축소</MCE_ScrollToZoom>
+  <MCE_OpenEditor>편집기 열기</MCE_OpenEditor>
+  <MCE_ComfortsNoData>이 폰에서는 Comforts 데이터를 사용할 수 없습니다.</MCE_ComfortsNoData>
+  <MCE_NoComfortsProfile>이 폰에는 Comforts 프로필이 없어 여기에서 편집할 수 없습니다.</MCE_NoComfortsProfile>
+  <MCE_ComfortsHeader>취향</MCE_ComfortsHeader>
+  <MCE_ResetToGenerated>생성된 상태로 재설정</MCE_ResetToGenerated>
+  <MCE_Generated>생성됨</MCE_Generated>
+  <MCE_FoodHeader>음식</MCE_FoodHeader>
+  <MCE_AddLikedFood>좋아하는 음식 추가</MCE_AddLikedFood>
+  <MCE_DislikedX>싫어함: {0}</MCE_DislikedX>
+  <MCE_SetDislikedFood>싫어하는 음식 설정</MCE_SetDislikedFood>
+  <MCE_AddLikedApparel>좋아하는 의류 추가</MCE_AddLikedApparel>
+  <MCE_NoFavoriteColor>좋아하는 색 없음</MCE_NoFavoriteColor>
+  <MCE_ChooseColorBtn>색상 선택</MCE_ChooseColorBtn>
+  <MCE_NoWeaponPref>무기 선호 없음</MCE_NoWeaponPref>
+  <MCE_PrefersMelee>근접 무기를 선호합니다</MCE_PrefersMelee>
+  <MCE_PrefersRanged>원거리 무기를 선호합니다</MCE_PrefersRanged>
+  <MCE_LikesSpecificWeapon>특정 무기 하나를 좋아함</MCE_LikesSpecificWeapon>
+  <MCE_StrongPreference>강한 선호</MCE_StrongPreference>
+  <MCE_StrongPrefTip>잘못된 종류의 무기를 들면 불편해할 정도로 강한 선호입니다.</MCE_StrongPrefTip>
+  <MCE_ChooseWeapon>무기를 선택하세요</MCE_ChooseWeapon>
+  <MCE_Recreation>오락</MCE_Recreation>
+  <MCE_AddRecreation>오락 추가</MCE_AddRecreation>
+  <MCE_Preferences>선호</MCE_Preferences>
+  <MCE_LovesNature>자연을 사랑함</MCE_LovesNature>
+  <MCE_LovesPreaching>설교를 좋아함</MCE_LovesPreaching>
+  <MCE_WantsRole>리더 역할을 원함</MCE_WantsRole>
+  <MCE_WantsLevels>레벨업을 원함</MCE_WantsLevels>
+  <MCE_WantsFineLoot>고급 전리품을 원함</MCE_WantsFineLoot>
+  <MCE_TasteShifts>취향 변화</MCE_TasteShifts>
+  <MCE_TasteShiftsOne>획득한 취향 변화 {0}개(정신 이상, 비탄, 성향 변화)</MCE_TasteShiftsOne>
+  <MCE_TasteShiftsMany>획득한 취향 변화 {0}개(정신 이상, 비탄, 성향 변화)</MCE_TasteShiftsMany>
+  <MCE_ClearTasteShifts>취향 변화 지우기</MCE_ClearTasteShifts>
+  <MCE_OffProfileQuirkTip>성격과 맞지 않는 특이 성향이며 툴팁에 표시됩니다.</MCE_OffProfileQuirkTip>
+  <MCE_ImmediateNote>수정 사항은 즉시 적용되며 실행 취소할 수 없습니다.</MCE_ImmediateNote>
+  <MCE_BridgeError>브리지 오류: {0}</MCE_BridgeError>
+  <MCE_EducationHeader>교육</MCE_EducationHeader>
+  <MCE_EduBridgeUnavailable>교육 브리지를 사용할 수 없습니다.</MCE_EduBridgeUnavailable>
+  <MCE_NoProficiencies>이 폰은 숙련도를 가질 수 없습니다.</MCE_NoProficiencies>
+  <MCE_TherapyHeader>치료</MCE_TherapyHeader>
+  <MCE_NoStabilityNeed>이 폰에는 정신 안정 욕구가 없습니다.</MCE_NoStabilityNeed>
+  <MCE_MentalStability>정신적 안정</MCE_MentalStability>
+  <MCE_TraumaIntegrityHeader>트라우마와 무결성</MCE_TraumaIntegrityHeader>
+  <MCE_TIBridgeUnavailable>Trauma and Integrity 연동을 사용할 수 없습니다.</MCE_TIBridgeUnavailable>
+  <MCE_DataError>데이터 오류: {0}</MCE_DataError>
+  <MCE_Integrity>무결성</MCE_Integrity>
+  <MCE_Trauma>외상</MCE_Trauma>
+  <MCE_Betrayer>배신자</MCE_Betrayer>
+  <MCE_Tempered>단련된</MCE_Tempered>
+  <MCE_NoTraumaticTrait>외상성 특성 없음 - 특성 탭에 하나 추가</MCE_NoTraumaticTrait>
+  <MCE_TraumaticTraitX>외상성 특성: {0}(특성 탭에서 관리)</MCE_TraumaticTraitX>
+  <MCE_FANoFace>이 폰에는 Facial Animation 얼굴 구성 요소가 없습니다.</MCE_FANoFace>
+  <MCE_EyeColors>눈 색상</MCE_EyeColors>
+  <MCE_FirstEye>첫 번째 눈</MCE_FirstEye>
+  <MCE_SecondEye>두 번째 눈</MCE_SecondEye>
+  <MCE_Copy12>복사 1 &gt; 2</MCE_Copy12>
+  <MCE_Copy21>복사 2 &gt; 1</MCE_Copy21>
+  <MCE_RandomOdd>무작위 오드아이</MCE_RandomOdd>
+  <MCE_EyeGene>눈 유전자</MCE_EyeGene>
+  <MCE_NoEyeGene>눈 색상 유전자 없음: 위에서 지정한 색상이 적용됩니다.</MCE_NoEyeGene>
+  <MCE_SelectEyeGene>눈 색상 유전자 선택</MCE_SelectEyeGene>
+  <MCE_CustomEyeColor>맞춤 색상</MCE_CustomEyeColor>
+  <MCE_CustomEyeColorTip>양쪽 눈의 사용자 지정 색상을 선택합니다(눈 색상 유전자는 제거됨).</MCE_CustomEyeColorTip>
+  <MCE_FaceParts>얼굴 구성 요소</MCE_FaceParts>
+  <MCE_RerollPart>부위 다시 생성</MCE_RerollPart>
+  <MCE_RerollFace>얼굴 다시 생성</MCE_RerollFace>
+  <MCE_NTypes>{0} 유형</MCE_NTypes>
+  <MCE_PartColor>부위 색상</MCE_PartColor>
+  <MCE_FollowsX>{0}(을)를 따름</MCE_FollowsX>
+  <MCE_NoPsycheData>이 폰에 대한 RimPsyche 데이터를 사용할 수 없습니다.</MCE_NoPsycheData>
+  <MCE_PsycheRawNote>원본 특성값 — 특성과 유전자로 인해 실제 적용값이 제한될 수 있습니다.</MCE_PsycheRawNote>
+  <MCE_PsycheDisabledNote>이 폰은 RimPsyche가 비활성화되어 있지만 값은 편집할 수 있습니다.</MCE_PsycheDisabledNote>
+  <MCE_RegeneratePersonality>성격 다시 생성</MCE_RegeneratePersonality>
+  <MCE_EffectiveClampTip>특성과 유전자의 제한을 적용한 실제 값</MCE_EffectiveClampTip>
+  <MCE_Psyche_Openness>개방성</MCE_Psyche_Openness>
+  <MCE_Psyche_Conscientiousness>성실성</MCE_Psyche_Conscientiousness>
+  <MCE_Psyche_Extraversion>외향성</MCE_Psyche_Extraversion>
+  <MCE_Psyche_Agreeableness>친화성</MCE_Psyche_Agreeableness>
+  <MCE_Psyche_Neuroticism>신경성</MCE_Psyche_Neuroticism>
+  <MCE_Psyche_Imagination>상상력</MCE_Psyche_Imagination>
+  <MCE_Psyche_Intellect>지능</MCE_Psyche_Intellect>
+  <MCE_Psyche_Curiosity>호기심</MCE_Psyche_Curiosity>
+  <MCE_Psyche_Industriousness>근면함</MCE_Psyche_Industriousness>
+  <MCE_Psyche_Orderliness>질서정연함</MCE_Psyche_Orderliness>
+  <MCE_Psyche_Integrity>정직성</MCE_Psyche_Integrity>
+  <MCE_Psyche_Sociability>사교성</MCE_Psyche_Sociability>
+  <MCE_Psyche_Assertiveness>자기주장</MCE_Psyche_Assertiveness>
+  <MCE_Psyche_Enthusiasm>열정</MCE_Psyche_Enthusiasm>
+  <MCE_Psyche_Compassion>연민</MCE_Psyche_Compassion>
+  <MCE_Psyche_Cooperation>협력</MCE_Psyche_Cooperation>
+  <MCE_Psyche_Humbleness>겸손</MCE_Psyche_Humbleness>
+  <MCE_Psyche_Volatility>정서 불안정성</MCE_Psyche_Volatility>
+  <MCE_Psyche_Pessimism>비관성</MCE_Psyche_Pessimism>
+  <MCE_Psyche_Insecurity>불안정성</MCE_Psyche_Insecurity>
+  <MCE_Pregnancy>임신</MCE_Pregnancy>
+  <MCE_NBabies>아기 {0}명</MCE_NBabies>
+  <MCE_Gestation>임신 진행도</MCE_Gestation>
+  <MCE_AdvanceToTerm>만삭으로 진행</MCE_AdvanceToTerm>
+  <MCE_Parents>부모</MCE_Parents>
+  <MCE_Mother>어머니</MCE_Mother>
+  <MCE_Father>아버지</MCE_Father>
+  <MCE_NotPregnant>임신하지 않음</MCE_NotPregnant>
+  <MCE_NotPregnantInfo>진행 중인 임신이 없습니다. 아래에서 임신을 시작하면 태아의 유전자(Biotech)를 출산 전까지 여기에서 편집할 수 있습니다.</MCE_NotPregnantInfo>
+  <MCE_StartPregnancyNoFather>임신 시작(아버지 없음)</MCE_StartPregnancyNoFather>
+  <MCE_StartWithFather>선택한 아버지로 시작...</MCE_StartWithFather>
+  <MCE_LayEgg>수정란 낳기</MCE_LayEgg>
+  <MCE_GWEggLayer>Gender Works 산란 개체</MCE_GWEggLayer>
+  <MCE_NoPregnancyPossible>이 폰은 임신을 시작할 수 없습니다(Biotech 또는 Gender Works 산란 개체 필요).</MCE_NoPregnancyPossible>
+  <MCE_UnbornGenes>태아 유전자</MCE_UnbornGenes>
+  <MCE_RerollFromParents>부모 유전자로 다시 생성</MCE_RerollFromParents>
+  <MCE_CopyMotherGenes>어머니의 유전자 복사</MCE_CopyMotherGenes>
+  <MCE_NoBabyGenes>유전자가 없어 아기는 일반인으로 태어납니다. '유전자 추가' 또는 '다시 생성'을 사용하세요.</MCE_NoBabyGenes>
+  <MCE_AddBabyGene>아기 유전자 추가</MCE_AddBabyGene>
+  <MCE_NoFather>(아버지 없음)</MCE_NoFather>
+  <MCE_ChooseFather>아버지를 선택하세요</MCE_ChooseFather>
+  <MCE_NotAndroid>이 폰은 안드로이드가 아닙니다</MCE_NotAndroid>
+  <MCE_AwakenedAndroidNote>각성한 안드로이드 — 편집 내용은 즉시 적용되며 실행 취소할 수 없습니다.</MCE_AwakenedAndroidNote>
+  <MCE_StandardAndroidNote>표준 안드로이드 — 편집 내용은 즉시 적용되며 실행 취소할 수 없습니다.</MCE_StandardAndroidNote>
+  <MCE_Awaken>각성시키기</MCE_Awaken>
+  <MCE_NoAndroidData>안드로이드 구성 요소 데이터를 사용할 수 없습니다.</MCE_NoAndroidData>
+  <MCE_Components>구성요소</MCE_Components>
+  <MCE_CloseCatalog>카탈로그 닫기</MCE_CloseCatalog>
+  <MCE_AddComponent>구성 요소 추가</MCE_AddComponent>
+  <MCE_AllComponentsInstalled>모든 안드로이드 구성요소가 이미 설치되어 있습니다.</MCE_AllComponentsInstalled>
+  <MCE_Subroutine>서브루틴</MCE_Subroutine>
+  <MCE_Hardware>하드웨어</MCE_Hardware>
+  <MCE_Subroutines>서브루틴</MCE_Subroutines>
+  <MCE_CouldNotAddComponent>구성 요소를 추가할 수 없습니다: {0}</MCE_CouldNotAddComponent>
+  <MCE_NoneInstalled>설치된 항목 없음</MCE_NoneInstalled>
+  <MCE_NoSyntheticGene>이 안드로이드에는 각성시킬 합성 신체 유전자가 없습니다.</MCE_NoSyntheticGene>
+  <MCE_HasAwakened>{0}가 깨어났습니다.</MCE_HasAwakened>
+  <MCE_AwakeningFailed>각성 실패: {0}</MCE_AwakeningFailed>
+  <MCE_NoRJWData>이 폰에서는 RimJobWorld 데이터를 사용할 수 없습니다.</MCE_NoRJWData>
+  <MCE_RerollParts>부위 다시 생성</MCE_RerollParts>
+  <MCE_Orientation>성적 지향</MCE_Orientation>
+  <MCE_BodyParts>신체 부위</MCE_BodyParts>
+  <MCE_AddPart>부위 추가</MCE_AddPart>
+  <MCE_NoParts>부위 없음 — '부위 추가' 또는 '부위 다시 생성' 사용</MCE_NoParts>
+  <MCE_NoPartSlot>이 폰에는 {0}(을)를 장착할 신체 부위 슬롯이 없습니다.</MCE_NoPartSlot>
+  <MCE_CouldNotAddPart>부위를 추가할 수 없습니다: {0}</MCE_CouldNotAddPart>
+  <MCE_NoFulfillment>이 폰에는 성취감 욕구(Vanilla Aspirations Expanded)가 없어 여기에서 편집할 수 없습니다.</MCE_NoFulfillment>
+  <MCE_Aspirations>열망</MCE_Aspirations>
+  <MCE_RerollAspirations>열망 다시 생성</MCE_RerollAspirations>
+  <MCE_NGoals>{0} / {1} 목표</MCE_NGoals>
+  <MCE_RemoveAspiration>열망 제거</MCE_RemoveAspiration>
+  <MCE_NoAspirations>열망이 없습니다. 아래에서 추가하세요.</MCE_NoAspirations>
+  <MCE_AddAspiration>열망 추가</MCE_AddAspiration>
+  <MCE_NoMatchingAspirations>이 폰에 추가할 수 있는 일치하는 열망이 없습니다.</MCE_NoMatchingAspirations>
+  <MCE_RerollPersonality>성격 다시 생성</MCE_RerollPersonality>
+  <MCE_Personality>성격</MCE_Personality>
+  <MCE_Root>루트</MCE_Root>
+  <MCE_Variant>변형</MCE_Variant>
+  <MCE_MainTrait>주요 특성</MCE_MainTrait>
+  <MCE_SecondTrait>두 번째 특성</MCE_SecondTrait>
+  <MCE_OptionalTrait>선택적 특성</MCE_OptionalTrait>
+  <MCE_DescriptionHeader>설명</MCE_DescriptionHeader>
+  <MCE_NoDescription>생성된 설명이 없습니다.</MCE_NoDescription>
+  <MCE_ChooseX>{0}(을)를 선택하세요</MCE_ChooseX>
+  <MCE_IntimacyNeed>친밀감 욕구</MCE_IntimacyNeed>
+  <MCE_NoIntimacyData>이 폰의 친밀감 데이터를 사용할 수 없습니다.</MCE_NoIntimacyData>
+  <MCE_ReproductiveOrgans>생식 기관</MCE_ReproductiveOrgans>
+  <MCE_OrganImmediateNote>생식 기관 편집은 즉시 적용되며 실행 취소할 수 없습니다.</MCE_OrganImmediateNote>
+  <MCE_AddWomb>자궁 추가</MCE_AddWomb>
+  <MCE_AddPenis>음경 추가</MCE_AddPenis>
+  <MCE_Neuter>중성화</MCE_Neuter>
+  <MCE_RemoveAll>모두 제거</MCE_RemoveAll>
+  <MCE_NoOrgans>생식 기관이 없습니다.</MCE_NoOrgans>
+  <MCE_NoRomanceData>이 폰에서는 Romance On The Rim 데이터를 사용할 수 없습니다.</MCE_NoRomanceData>
+  <MCE_RomanceNeed>로맨스 욕구</MCE_RomanceNeed>
+  <MCE_DesireX>욕구 단계: {0}</MCE_DesireX>
+  <MCE_NeedDisabled>욕구 비활성화됨</MCE_NeedDisabled>
+  <MCE_NeedEnabled>욕구 활성화됨</MCE_NeedEnabled>
+  <MCE_RomanceOffNote>이 폰의 로맨스 욕구가 꺼져 있습니다(즉시 적용되며 실행 취소할 수 없음).</MCE_RomanceOffNote>
+  <MCE_RomanceActiveNote>활성 — 같은 지도에 연인인 정착민이 있습니다.</MCE_RomanceActiveNote>
+  <MCE_RomanceDormantNote>휴면 — 연인인 정착민이 같은 지도에 있을 때만 욕구가 변합니다.</MCE_RomanceDormantNote>
+  <MCE_LovePartners>연인</MCE_LovePartners>
+  <MCE_NoLovePartners>연인이 없습니다. 관계 탭에서 관계를 추가하세요.</MCE_NoLovePartners>
+  <MCE_NYrs>{0}년</MCE_NYrs>
+  <MCE_ImportFailed>가져오기 실패(로그 참조)</MCE_ImportFailed>
+  <MCE_ImportedValues>값 {0}개를 가져왔습니다.</MCE_ImportedValues>
+  <MCE_SkippedDefsN>알 수 없는 정의 {0}개를 건너뛰었습니다.</MCE_SkippedDefsN>
+  <MCE_ManualImportNote>(Character Editor가 로드되지 않음 — 건강, 욕구 및 기억은 가져오지 않음)</MCE_ManualImportNote>
+  <MCE_Unnamed>이름 없음</MCE_Unnamed>
+  <MCE_InheritedNote>{0}의 편집기 도구 — 편집 내용은 즉시 적용되며 실행 취소할 수 없습니다.</MCE_InheritedNote>
+  <MCE_NotInline>이 편집기를 인라인으로 표시할 수 없습니다.</MCE_NotInline>
+  <MCE_OpenAsWindow>창으로 열기</MCE_OpenAsWindow>
+  <MCE_CouldNotOpenEditor>편집기를 열 수 없습니다: {0}</MCE_CouldNotOpenEditor>
+  <MCE_RetryInline>인라인으로 다시 시도</MCE_RetryInline>
+  <MCE_EyeFollowsGene>눈 색상은 다음 유전자를 따릅니다: {0}</MCE_EyeFollowsGene>
+  <MCE_EyeForcedBy>눈 색깔은 다음 요소에 의해 강제됩니다: {0}</MCE_EyeForcedBy>
+  <MCE_RomSatisfied>만족</MCE_RomSatisfied>
+  <MCE_RomContent>충족</MCE_RomContent>
+  <MCE_RomWants>로맨스를 원함</MCE_RomWants>
+  <MCE_RomWithdrawal>금단</MCE_RomWithdrawal>
+  <MCE_PregBiotech>바이오테크 임신</MCE_PregBiotech>
+  <MCE_PregRJW>RimJobWorld 임신</MCE_PregRJW>
+  <MCE_PregEgg>Gender Works 알</MCE_PregEgg>
+  <MCE_PregMech>메카노이드 임신</MCE_PregMech>
+  <MCE_ModuleFailed>이 모듈은 실패하여 이 세션에서 비활성화되었습니다. 자세한 내용은 로그를 참조하세요.</MCE_ModuleFailed>
+  <MCE_BustView>상반신 보기</MCE_BustView>
+  <MCE_FullBodyView>전신 보기</MCE_FullBodyView>
+  <MCE_ShowClothes>의복 표시</MCE_ShowClothes>
+  <MCE_ShowHeadgear>머리 장비 표시</MCE_ShowHeadgear>
+  <MCE_ForcedSuffix>(강제)</MCE_ForcedSuffix>
+  <MCE_WornByPawn>현재 이 폰이 착용하고 있습니다.</MCE_WornByPawn>
+  <MCE_EquippedWeapon>현재 이 폰의 무기로 장착되어 있습니다.</MCE_EquippedWeapon>
+  <MCE_AlreadyInInventory>이미 이 폰의 인벤토리에 있습니다.</MCE_AlreadyInInventory>
+  <MCE_CannotWearX>착용 불가: {0}</MCE_CannotWearX>
+  <MCE_CannotAddX>추가할 수 없음: {0}</MCE_CannotAddX>
+  <MCE_NoGenesToSaveMsg>이 폰에는 인종형으로 저장할 유전자가 없습니다.</MCE_NoGenesToSaveMsg>
+  <MCE_VPE_NotPsycaster>이 폰은 초능력자가 아닙니다.</MCE_VPE_NotPsycaster>
+  <MCE_VPE_MakePsycaster>초능력자로 만들기</MCE_VPE_MakePsycaster>
+  <MCE_VPE_Progression>진행 상황</MCE_VPE_Progression>
+  <MCE_VPE_PsylinkLevel>정신력 증폭 단계</MCE_VPE_PsylinkLevel>
+  <MCE_VPE_AbilityPoints>능력 포인트</MCE_VPE_AbilityPoints>
+  <MCE_VPE_StatPoints>능력치 포인트</MCE_VPE_StatPoints>
+  <MCE_VPE_Experience>경험치</MCE_VPE_Experience>
+  <MCE_VPE_ToNext>다음 레벨: {0}</MCE_VPE_ToNext>
+  <MCE_VPE_MaxLevelNote>최대 {0}</MCE_VPE_MaxLevelNote>
+  <MCE_VPE_LevelTip>정신력 증폭 단계를 변경하면 게임에서 레벨을 올릴 때와 동일하게 해당 능력 포인트가 추가되거나 제거됩니다.</MCE_VPE_LevelTip>
+  <MCE_VPE_Paths>경로</MCE_VPE_Paths>
+  <MCE_VPE_Psycasts>초능력</MCE_VPE_Psycasts>
+  <MCE_VPE_AddPsycast>초능력 추가...</MCE_VPE_AddPsycast>
+  <MCE_VPE_NoPsycasts>습득한 초능력이 없습니다.</MCE_VPE_NoPsycasts>
+  <MCE_VPE_RemovePsycastTip>이 초능력 제거</MCE_VPE_RemovePsycastTip>
+  <MCE_VPE_Reset>초능력 초기화</MCE_VPE_Reset>
+  <MCE_VPE_ResetConfirm>{0}의 모든 초능력 진행 상황을 초기화하시겠습니까? 습득한 모든 초능력과 잠금 해제한 경로가 제거되고 능력 포인트가 정신력 증폭 단계에 맞춰 초기화됩니다.</MCE_VPE_ResetConfirm>
+  <MCE_PS2_Specialization>전문화</MCE_PS2_Specialization>
+  <MCE_PS2_SpecPoints>전문화 포인트</MCE_PS2_SpecPoints>
+  <MCE_PS2_SpecXp>전문화 경험치</MCE_PS2_SpecXp>
+  <MCE_PS2_Nodes>노드</MCE_PS2_Nodes>
+  <MCE_PS2_NodeTip>{0} - 비용 {1}</MCE_PS2_NodeTip>
+  <MCE_PS2_Mastery>숙달</MCE_PS2_Mastery>
+  <MCE_PS2_Discipline>규율</MCE_PS2_Discipline>
+  <MCE_PS2_Attunement>조율</MCE_PS2_Attunement>
+  <MCE_PS2_ChoosePick>선택하세요...</MCE_PS2_ChoosePick>
+  <MCE_PS2_SkillLevels>기술 레벨</MCE_PS2_SkillLevels>
+  <MCE_PS2_NoPsycasts>습득한 초능력이 없습니다. 먼저 초능력 탭에서 초능력을 배우세요.</MCE_PS2_NoPsycasts>
+  <MCE_PS2_Enlightenment>깨달음</MCE_PS2_Enlightenment>
+  <MCE_PS2_TierNone>없음</MCE_PS2_TierNone>
+  <MCE_PS2_NoOptions>사용 가능한 옵션이 없습니다.</MCE_PS2_NoOptions>
+  <MCE_PS2_Reset>Psycasts² 초기화</MCE_PS2_Reset>
+  <MCE_PS2_ResetConfirm>{0}의 모든 Psycasts² 진행 상황을 초기화하시겠습니까? 기술 레벨, 전문화 노드 및 깨달음 단계가 모두 지워집니다.</MCE_PS2_ResetConfirm>
+  <MCE_IO_Items>아이템</MCE_IO_Items>
+  <MCE_IO_NoItems>접사를 부여할 수 있는 장비를 장착하거나 소지하고 있지 않습니다.</MCE_IO_NoItems>
+  <MCE_IO_SelectItem>편집하려면 위에서 항목을 선택하세요.</MCE_IO_SelectItem>
+  <MCE_IO_Rarity>희귀성</MCE_IO_Rarity>
+  <MCE_IO_TierLocked>이 아이템의 희귀도는 고정되어 있습니다(최상급 또는 세력 유물).</MCE_IO_TierLocked>
+  <MCE_IO_Affixes>접사</MCE_IO_Affixes>
+  <MCE_IO_Reroll>다시 생성</MCE_IO_Reroll>
+  <MCE_IO_AddAffix>접사 추가</MCE_IO_AddAffix>
+  <MCE_IO_NoAffixes>이 아이템에는 접사가 없습니다.</MCE_IO_NoAffixes>
+  <MCE_IO_Greater>상급</MCE_IO_Greater>
+  <MCE_IO_GreaterTip>이 접사를 상급 등급으로 승격합니다.</MCE_IO_GreaterTip>
+  <MCE_IO_Artifact>유물</MCE_IO_Artifact>
+  <MCE_IO_ArtifactTip>이 접사를 유물 등급(최고 단계)으로 승격합니다.</MCE_IO_ArtifactTip>
+  <MCE_IO_Sockets>소켓</MCE_IO_Sockets>
+  <MCE_IO_SocketCount>소켓 {1}개 중 {0}개 사용</MCE_IO_SocketCount>
+  <MCE_IO_SocketRune>소켓 룬...</MCE_IO_SocketRune>
+  <MCE_IO_ClearRunes>룬 제거</MCE_IO_ClearRunes>
+  <MCE_IO_SocketFailed>여기에는 해당 룬을 장착할 수 없습니다.</MCE_IO_SocketFailed>
+  <MCE_IO_NoRunes>사용할 수 있는 룬이 없습니다.</MCE_IO_NoRunes>
+  <MCE_IO_Runeword>룬워드: {0}</MCE_IO_Runeword>
+  <MCE_IO_Set>세트</MCE_IO_Set>
+  <MCE_IO_NoSet>(세트 없음)</MCE_IO_NoSet>
+  <MCE_IO_Unique>고유...</MCE_IO_Unique>
+  <MCE_IO_Mythic>신화...</MCE_IO_Mythic>
+  <MCE_IO_NoIdentities>이 아이템 슬롯과 일치하는 고유 항목이 없습니다.</MCE_IO_NoIdentities>
+  <MCE_IO_RandomAffix>무작위 접사</MCE_IO_RandomAffix>
+  <MCE_IO_Tier_Relic>유물</MCE_IO_Tier_Relic>
+  <MCE_IO_Tier_Broken>파손</MCE_IO_Tier_Broken>
+  <MCE_IO_Tier_LowQuality>저품질</MCE_IO_Tier_LowQuality>
+  <MCE_IO_Tier_White>흰색</MCE_IO_Tier_White>
+  <MCE_IO_Tier_Magic>마법</MCE_IO_Tier_Magic>
+  <MCE_IO_Tier_Rare>희귀</MCE_IO_Tier_Rare>
+  <MCE_IO_Tier_Legendary>전설</MCE_IO_Tier_Legendary>
+</LanguageData>
