@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <NNT_SettingsCategory>- Modern Needs Tab -</NNT_SettingsCategory>
+  <NNT_Settings_DisplayHeader>표시</NNT_Settings_DisplayHeader>
+  <NNT_Settings_BehaviorHeader>동작</NNT_Settings_BehaviorHeader>
+  <NNT_Settings_PerformanceHeader>성능</NNT_Settings_PerformanceHeader>
+  <NNT_Settings_IntegrationHeader>연동</NNT_Settings_IntegrationHeader>
+  <NNT_Setting_WantsIconsDesc>‘편안함/원함’ 카드와 필요별 아이콘 행에 표시할 선호 아이콘 수입니다. 아이콘은 한 줄에 6개씩 표시됩니다.</NNT_Setting_WantsIconsDesc>
+  <NNT_Setting_Enabled>Modern Needs Tab 사용</NNT_Setting_Enabled>
+  <NNT_Setting_EnabledDesc>끄면 바닐라 필요 탭이 표시됩니다. 모서리의 빛나는 버튼을 누르면 다시 전환할 수 있습니다.</NNT_Setting_EnabledDesc>
+  <NNT_Setting_VanillaTheme>바닐라 테마</NNT_Setting_VanillaTheme>
+  <NNT_Setting_VanillaThemeDesc>바닐라의 더 밝은 패널 색상, 테두리, 중립적인 강조색을 적용해 기본 게임과 비슷한 느낌으로 바꿉니다. 2분할 레이아웃, 그래프, 카드는 그대로 유지됩니다.</NNT_Setting_VanillaThemeDesc>
+  <NNT_Setting_SizeStagger>카드 높이 차등 적용</NNT_Setting_SizeStagger>
+  <NNT_Setting_SizeStaggerDesc>상단의 세 가지 생존 필요(음식, 휴식, 위생)를 3단 계단식으로 더 높게 표시합니다. 나머지 필요는 모두 표준형의 작은 크기로 표시됩니다. 끄면 모든 카드 높이가 같아집니다.</NNT_Setting_SizeStaggerDesc>
+  <NNT_Setting_GeneResources>유전자 자원 표시</NNT_Setting_GeneResources>
+  <NNT_Setting_GeneResourcesDesc>필요 아래에 생명공학의 유전자 자원(혈액정수 등)을 막대 카드로 표시합니다. 이 항목들은 필요가 아니라 유전자에 속하므로, 기본 게임에서는 유전자 탭에만 표시됩니다.</NNT_Setting_GeneResourcesDesc>
+  <NNT_Setting_WindowScale>창 배율: {0}</NNT_Setting_WindowScale>
+  <NNT_Setting_WindowScaleDesc>전체 탭을 같은 비율로 축소합니다. 100% = 화면에 자동 맞춤.</NNT_Setting_WindowScaleDesc>
+  <NNT_Setting_WantsIcons>표시할 원함 아이콘: {0} (한 줄에 6개)</NNT_Setting_WantsIcons>
+  <NNT_Setting_ColorByImpact>기분 영향에 따라 막대 색상 표시</NNT_Setting_ColorByImpact>
+  <NNT_Setting_ColorByImpactDesc>필요 종류별 색상 대신, 각 필요 막대를 빨간색(현재 폰의 기분을 낮춤)에서 중립색을 거쳐 초록색(기분을 높임)까지 기분 영향에 따라 표시합니다. 탭 머리글의 색상 견본 버튼으로도 전환할 수 있습니다.</NNT_Setting_ColorByImpactDesc>
+  <NNT_Setting_MoodBoxHeight>기분 효과 상자 최소 높이: {0}px</NNT_Setting_MoodBoxHeight>
+  <NNT_Setting_MoodBoxHeightDesc>버프/디버프 상자는 위 패널에서 사용하지 않는 공간을 채우도록 늘어납니다. 이 값은 최소 높이이며, 선택한 필요의 세부 정보가 패널을 채울 때 적용됩니다.</NNT_Setting_MoodBoxHeightDesc>
+  <NNT_Setting_ResetOrder>카드 순서 초기화</NNT_Setting_ResetOrder>
+  <NNT_Setting_ColonistBarPins>정착민 표시줄의 고정 필요 막대</NNT_Setting_ColonistBarPins>
+  <NNT_Setting_ColonistBarPinsDesc>상단 표시줄의 각 정착민 초상화 안에 고정한 필요의 얇은 수치 막대를 표시합니다. 끄면 프레임마다 막대를 그리는 작업을 생략합니다. 고정 항목은 유지되며 탭에도 계속 표시됩니다.</NNT_Setting_ColonistBarPinsDesc>
+  <NNT_Setting_TrackHistory>필요 내역 기록</NNT_Setting_TrackHistory>
+  <NNT_Setting_TrackHistoryDesc>그래프, 변화율 카드, 24시간 변화를 표시할 수 있도록 게임 내 시간마다 각 정착민의 필요 수치를 한 번씩 표본으로 기록합니다. 끄면 매 틱마다 실행되는 백그라운드 작업이 전혀 없습니다. 탭에는 실시간 필요 수치가 계속 표시되지만 그래프, 변화율, 이벤트 피드는 비어 있게 됩니다.</NNT_Setting_TrackHistoryDesc>
+  <NNT_Setting_EventDetection>필요 이벤트 감지</NNT_Setting_EventDetection>
+  <NNT_Setting_EventDetectionDesc>필요 수치의 급격한 변화(식사, 오락, 휴식)를 감지해 최근 활동 피드에 표시하고, 당시 폰이 하던 일도 함께 표시합니다. 끄면 주기적 검사와 작업 기록을 건너뜁니다. 필요 내역 기록이 켜져 있어야 합니다.</NNT_Setting_EventDetectionDesc>
+  <NNT_Setting_UIRefresh>데이터 새로 고침 간격: {0}초</NNT_Setting_UIRefresh>
+  <NNT_Setting_UIRefreshDesc>열린 탭이 최신 데이터로 그래프, 변화율, 기분 행을 다시 구성하는 주기입니다. 탭이 열려 있는 동안에는 주기가 길수록 성능 부담이 줄어듭니다. 실시간 필요 수치는 항상 매 프레임 갱신됩니다.</NNT_Setting_UIRefreshDesc>
+  <NNT_Setting_HistoryNote>모든 정착민, 죄수, 노예의 필요 내역은 게임 내 시간마다 한 번씩 표본으로 기록되며, 최근 15일치가 게임과 함께 저장됩니다.</NNT_Setting_HistoryNote>
+  <NNT_SwitchToModernTip>Modern Needs 보기로 돌아갑니다. 이 선택은 기억되며, 모서리의 목록 버튼으로 언제든 다시 전환할 수 있습니다.</NNT_SwitchToModernTip>
+  <NNT_SwitchToVanillaTip>바닐라 필요 보기로 전환합니다. 이 선택은 기억되며, 모서리의 빛나는 버튼으로 언제든 다시 전환할 수 있습니다.</NNT_SwitchToVanillaTip>
+  <NNT_PerPawnOn>정착민별 레이아웃: 켜짐\n이 정착민은 전용 카드 순서와 고정 항목을 사용합니다. 공유(전체) 레이아웃으로 돌아가려면 클릭하세요. 이 정착민의 사용자 설정은 다음에 사용할 수 있도록 유지됩니다.</NNT_PerPawnOn>
+  <NNT_PerPawnOff>정착민별 레이아웃: 꺼짐\n이 정착민은 공유(전체) 카드 순서와 고정 항목을 사용합니다. 이 정착민만의 순서와 고정 항목을 설정해 개별 관리하려면 클릭하세요.</NNT_PerPawnOff>
+  <NNT_On>켜짐</NNT_On>
+  <NNT_Off>꺼짐</NNT_Off>
+  <NNT_ImpactTip>{0}: 기분 영향에 따라 막대 색상 표시\n빨간색 = 이 필요가 현재 폰의 기분을 낮춤, 초록색 = 높임. 클릭하면 전환됩니다.</NNT_ImpactTip>
+  <NNT_NoNeeds>표시할 필요 항목 없음</NNT_NoNeeds>
+  <NNT_DragToReorder>드래그하여 순서 변경</NNT_DragToReorder>
+  <NNT_WantsCardLabel>원함</NNT_WantsCardLabel>
+  <NNT_WantsCardTip>개인 선호 — 이 폰이 원하는 장비, 색상, 무기입니다. 자세히 보려면 클릭하세요.</NNT_WantsCardTip>
+  <NNT_OfSatisfied>{1}개 중 {0}개 충족</NNT_OfSatisfied>
+  <NNT_WantsDesc>별도의 필요 수치가 없는 개인 선호 — 이 폰이 원하는 의류, 색상, 무기입니다. 보유하거나 사용하면 약간의 기분 보너스를 얻습니다.</NNT_WantsDesc>
+  <NNT_Preferences>선호</NNT_Preferences>
+  <NNT_PrefFulfilled>현재 충족됨.</NNT_PrefFulfilled>
+  <NNT_PrefUnfulfilled>최근 충족되지 않음.</NNT_PrefUnfulfilled>
+  <NNT_PrefDisliked>싫어함 — 노출되면 기분 디버프를 받으므로 피해야 합니다.</NNT_PrefDisliked>
+  <NNT_PrefFulfilledBy>충족 요인: {0}</NNT_PrefFulfilledBy>
+  <NNT_PrefTriggeredBy>발동 요인: {0}</NNT_PrefTriggeredBy>
+  <NNT_VAEAspirationsDesc>{0}(은)는 열망 {2}개 중 {1}개를 달성했습니다. 열망을 달성하면 이 필요 수치가 영구적으로 증가합니다.</NNT_VAEAspirationsDesc>
+  <NNT_UnpinTip>정착민 표시줄에 고정되어 있습니다. 고정을 해제하려면 클릭하세요.</NNT_UnpinTip>
+  <NNT_PinTip>이 필요를 정착민 표시줄에 고정합니다.\n모든 정착민의 초상화 아래에 작은 수치 막대가 나타나며, 카드가 목록 맨 위로 이동합니다.</NNT_PinTip>
+  <NNT_DevAdjustLevel>DEV: 수치 조정</NNT_DevAdjustLevel>
+  <NNT_DevAdjustAll>DEV: 모든 필요 조정</NNT_DevAdjustAll>
+  <NNT_DevAllNeedsTip>모든 필요 {0}</NNT_DevAllNeedsTip>
+  <NNT_MoreCount>+{0}개 더 보기</NNT_MoreCount>
+  <NNT_Range24h>24시간</NNT_Range24h>
+  <NNT_Range5d>5일</NNT_Range5d>
+  <NNT_Range15d>15일</NNT_Range15d>
+  <NNT_OverlayAll>모든 필요 겹쳐 보기</NNT_OverlayAll>
+  <NNT_CurrentRate>현재 변화율</NNT_CurrentRate>
+  <NNT_24hChange>24시간 변화</NNT_24hChange>
+  <NNT_RelatedThoughts>관련 생각</NNT_RelatedThoughts>
+  <NNT_RecentActivity>최근 활동</NNT_RecentActivity>
+  <NNT_CollapseGraph>그래프 접기</NNT_CollapseGraph>
+  <NNT_ExpandGraph>그래프 펼치기</NNT_ExpandGraph>
+  <NNT_CollectingHistory>내역 수집 중… (게임 내 시간마다 표본 1개)</NNT_CollectingHistory>
+  <NNT_NothingRecorded>아직 기록된 내용이 없습니다. 이 필요 수치의 급격한 변화(식사, 오락 등)가 여기에 표시됩니다.</NNT_NothingRecorded>
+  <NNT_Ago>{0} 전</NNT_Ago>
+  <NNT_Mood>기분</NNT_Mood>
+  <NNT_AllNeeds>모든 필요</NNT_AllNeeds>
+  <NNT_Tracked>{0}개 추적 중</NNT_Tracked>
+  <NNT_OverviewHint>필요를 살펴보려면 카드를 클릭하세요. 여기로 돌아오려면 다시 클릭하세요.</NNT_OverviewHint>
+  <NNT_MoodHeader>기분</NNT_MoodHeader>
+  <NNT_NoThoughts>현재 적용 중인 생각이 없습니다.</NNT_NoThoughts>
+  <NNT_WearsOffIn>{0} 후 사라짐</NNT_WearsOffIn>
+  <NNT_Steady>변화 없음</NNT_Steady>
+  <NNT_RatePerHour>{0}% /시간</NNT_RatePerHour>
+  <NNT_RatePerHourShort>{0}%/h</NNT_RatePerHourShort>
+  <NNT_NoDataYet>아직 데이터 없음</NNT_NoDataYet>
+  <NNT_TimeToFull>가득 찰 때까지 예상 시간</NNT_TimeToFull>
+  <NNT_TimeToEmpty>소진될 때까지 예상 시간</NNT_TimeToEmpty>
+  <NNT_Over15Days>&gt; 15일</NNT_Over15Days>
+  <NNT_DayAxisShort>{0}일</NNT_DayAxisShort>
+  <NNT_HourAxisShort>{0}시간</NNT_HourAxisShort>
+</LanguageData>
