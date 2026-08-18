@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--English=Vanilla Fire Modes-->
+  <VFM_ModTitle>Vanilla Fire Modes</VFM_ModTitle>
+  <!--English=Default-->
+  <VFM_DefaultMode>기본</VFM_DefaultMode>
+  <!--English=Precision-->
+  <VFM_PrecisionMode>정밀</VFM_PrecisionMode>
+  <!--English=Short Burst-->
+  <VFM_ShortBurstMode>속사</VFM_ShortBurstMode>
+  <!--English=Suppression-->
+  <VFM_SuppressionMode>제압</VFM_SuppressionMode>
+  <!--English=Switch Fire Mode-->
+  <VFM_SwitchGizmoDesc>사격 방식을 전환합니다.</VFM_SwitchGizmoDesc>
+  <!--English=Auto Selection-->
+  <VFM_AutoSelection>자동 전환</VFM_AutoSelection>
+  <!--English=Automatically switch firing modes based on target distance.-->
+  <VFM_AutoSelection_Desc>대상과의 거리에 따라 사격 방식을 자동으로 전환합니다.</VFM_AutoSelection_Desc>
+  <!--English=Default-->
+  <VFM_DefaultMode_Abbr>기본</VFM_DefaultMode_Abbr>
+  <!--English=Precision-->
+  <VFM_PrecisionMode_Abbr>정밀</VFM_PrecisionMode_Abbr>
+  <!--English=Burst-->
+  <VFM_ShortBurstMode_Abbr>속사</VFM_ShortBurstMode_Abbr>
+  <!--English=Suppress-->
+  <VFM_SuppressionMode_Abbr>제압</VFM_SuppressionMode_Abbr>
+  <!--English=Reset To Default-->
+  <VFM_ResetButton_Label>설정 초기화</VFM_ResetButton_Label>
+  <!--English=Accuracy Multiplier-->
+  <VFM_Accuracy_Label>정확도 계수</VFM_Accuracy_Label>
+  <!--English=Warmup Multiplier-->
+  <VFM_Warmup_Label>조준 지연 계수</VFM_Warmup_Label>
+  <!--English=Cooldown Multiplier-->
+  <VFM_Cooldown_Label>재사용 대기시간 배수</VFM_Cooldown_Label>
+  <!--English=Burst Shot Count-->
+  <VFM_BurstCount_Label>연발 횟수</VFM_BurstCount_Label>
+  <!--English=Accuracy-->
+  <VFM_Accuracy_Abbr>정확도</VFM_Accuracy_Abbr>
+  <!--English=Warmup-->
+  <VFM_Warmup_Abbr>조준 지연</VFM_Warmup_Abbr>
+  <!--English=Cooldown-->
+  <VFM_Cooldown_Abbr>재사용 대기시간</VFM_Cooldown_Abbr>
+  <!--English=BurstCount-->
+  <VFM_BurstCount_Abbr>연발 횟수</VFM_BurstCount_Abbr>
+  <!--English=Burst Count Scaling:-->
+  <VFM_Burst_Calculation_Mode_Label>연발 횟수 계산 방식:</VFM_Burst_Calculation_Mode_Label>
+  <!--English=Multiplier-->
+  <VFM_Burst_Linear_Label>배율</VFM_Burst_Linear_Label>
+  <!--English=Flat Bonus-->
+  <VFM_Burst_Additive_Label>고정값</VFM_Burst_Additive_Label>
+  <!--English=Tent Curve-->
+  <VFM_Burst_Tent_Label>텐트형 곡선</VFM_Burst_Tent_Label>
+  <!--English=Adaptive Curve-->
+  <VFM_Burst_Adaptive_Label>적응형 곡선</VFM_Burst_Adaptive_Label>
+  <!--English=Multiplier-->
+  <VFM_Burst_Linear_input_Label>배율</VFM_Burst_Linear_input_Label>
+  <!--English=Bonus Shots-->
+  <VFM_Burst_Additive_input_Label>최대 추가 탄환 수</VFM_Burst_Additive_input_Label>
+  <!--English=Peak Multiplier-->
+  <VFM_Burst_Tent_MaxMult_input_Label>최대 배율</VFM_Burst_Tent_MaxMult_input_Label>
+  <!--English=Slope-->
+  <VFM_Burst_Tent_SlopeK_input_Label>기울기</VFM_Burst_Tent_SlopeK_input_Label>
+  <!--English=Peak Position-->
+  <VFM_Burst_Tent_PeakOffset_input_Label>정점 위치</VFM_Burst_Tent_PeakOffset_input_Label>
+  <!--English=X: Base Burst Count | Y: Multiplier-->
+  <VFM_Burst_Tent_Graph_Label>X: 기본 연발 횟수 | Y: 배율</VFM_Burst_Tent_Graph_Label>
+  <!--English=Max Bonus-->
+  <VFM_Burst_Adaptive_ExtraBonus_input_Label>최대 추가 탄환 수</VFM_Burst_Adaptive_ExtraBonus_input_Label>
+  <!--English=Peak Position-->
+  <VFM_Burst_Adaptive_PeakOffset_input_Label>정점 위치</VFM_Burst_Adaptive_PeakOffset_input_Label>
+  <!--English=X: Base Burst Count | Y: Bonus Efficiency-->
+  <VFM_Burst_Adaptive_Graph_Label>X: 기본 연발 횟수 | Y: 추가 탄환 수 효율</VFM_Burst_Adaptive_Graph_Label>
+  <!--English=General Settings-->
+  <VFM_GeneralSettings_Label>일반 설정</VFM_GeneralSettings_Label>
+  <!--English=Show gizmo buttons when undrafted-->
+  <VFM_AlwaysDisplayGizmo_Label>비소집 상태에서도 버튼 표시</VFM_AlwaysDisplayGizmo_Label>
+  <!--English=Auto Mode Selection-->
+  <VFM_AutoSelection_Label>사격 방식 자동 전환</VFM_AutoSelection_Label>
+  <!--English=Enable automatic fire mode selection for playerーcontrolled pawns-->
+  <VFM_EnableAutoSelection_Player_Label>플레이어가 제어하는 폰의 사격 방식 자동 전환 활성화</VFM_EnableAutoSelection_Player_Label>
+  <!--English=When enabled, an automatic fire mode selection button will be available.
+If you do not need this feature and prefer to keep the command bar less cluttered, you can disable it.-->
+  <VFM_EnableAutoSelection_Player_Desc>활성화하면 사격 방식 자동 전환 버튼이 표시됩니다. 이 기능이 필요하지 않거나 UI 버튼 창이 너무 복잡해지는 것을 원하지 않는다면 비활성화하세요.</VFM_EnableAutoSelection_Player_Desc>
+  <!--English=Enable autoーselection by default for new colonists-->
+  <VFM_AutoModeDefaultOn_Label>새 정착민은 사격 방식 자동 전환 기본 적용</VFM_AutoModeDefaultOn_Label>
+  <!--English=When enabled, new colonists will have auto fire mode selection turned on by default.-->
+  <VFM_AutoModeDefaultOn_Desc>활성화하면 새로운 정착민은 사격 방식 자동 전환이 기본적으로 켜진 상태가 됩니다.</VFM_AutoModeDefaultOn_Desc>
+  <!--English=Enable automatic fire mode selection for NPCs-->
+  <VFM_EnableAutoSelection_NPC_Label>NPC의 사격 방식 자동 전환 활성화</VFM_EnableAutoSelection_NPC_Label>
+  <!--English=When enabled, NPCs will automatically select fire modes based on target distance.-->
+  <VFM_EnableAutoSelection_NPC_Desc>활성화하면 NPC가 대상과의 거리에 따라 사격 방식을 자동으로 전환합니다.</VFM_EnableAutoSelection_NPC_Desc>
+  <!--English=Automatic Fire Mode Selection Distance Thresholds-->
+  <VFM_AutoSelectionThresholds_Label>사격 방식 자동 전환 거리 설정</VFM_AutoSelectionThresholds_Label>
+  <!--English=Minimum Distance for Short Burst Mode-->
+  <VFM_Burst_Min_Distance>속사 최소 거리</VFM_Burst_Min_Distance>
+  <!--English=Minimum Distance for Precision Mode-->
+  <VFM_Precision_Min_Distance>정밀 최소 거리</VFM_Precision_Min_Distance>
+  <!--English=Current Fire Mode Distance Range-->
+  <VFM_AutoSelection_Range_Preview>현재 사격 방식 거리</VFM_AutoSelection_Range_Preview>
+  <!--English=Note: Default mode affects all Pawns, including enemies.-->
+  <VFM_Default_Warning_Label>주의: 기본 설정은 모든 폰(적 포함)에게 적용됩니다.</VFM_Default_Warning_Label>
+  <!--English=Custom Weapon Profiles-->
+  <VFM_CustomWeaponProfile_Label>사용자 정의 무기 목록</VFM_CustomWeaponProfile_Label>
+  <!--English=Add specific weapons here to enable independent configuration. Weapons added to this list will ignore global settings, allowing manual tuning of their parameters across different firing modes.-->
+  <VFM_CustomWeaponProfile_Desc>개별 설정을 적용할 특정 무기를 추가합니다. 목록에 추가된 무기는 전역 설정을 무시하며, 각 사격 방식의 매개변수를 수동으로 세밀하게 조정할 수 있습니다.</VFM_CustomWeaponProfile_Desc>
+  <!--English=Edit Custom Weapon Profiles-->
+  <VFM_CustomWeaponProfile_Button_Label>사용자 정의 무기 목록 편집</VFM_CustomWeaponProfile_Button_Label>
+  <!--English=Add All-->
+  <VFM_Profile_AddAllWeapons_Label>전체 추가</VFM_Profile_AddAllWeapons_Label>
+  <!--English=Clear All-->
+  <VFM_Profile_RemoveAllProfile_Label>전체 삭제</VFM_Profile_RemoveAllProfile_Label>
+  <!--English=Delete-->
+  <VFM_Delete_Button_Label>삭제</VFM_Delete_Button_Label>
+  <!--English=Edit-->
+  <VFM_Edit_Button_Label>편집</VFM_Edit_Button_Label>
+  <!--English=Confirm-->
+  <VFM_Confirm_Button_Label>확인</VFM_Confirm_Button_Label>
+  <!--English=Cancel-->
+  <VFM_Cancel_Button_Label>취소</VFM_Cancel_Button_Label>
+  <!--English=Are you sure you want to add all weapons to the custom configuration?-->
+  <VFM_AddAllWeapons_Dialog_1>모든 무기를 사용자 정의 무기 목록에 추가하시겠습니까?</VFM_AddAllWeapons_Dialog_1>
+  <!--English=Unless you plan to manually adjust parameters for every weapon, this operation will not bring any performance or balance benefits, and will only make your settings page much more cluttered.-->
+  <VFM_AddAllWeapons_Dialog_2>모든 무기의 매개변수를 일일이 수동으로 조정할 계획이 아니라면, 이 작업은 성능이나 수치에 아무런 영향을 주지 않습니다. 설정 페이지만 매우 복잡하게 만들 뿐입니다.</VFM_AddAllWeapons_Dialog_2>
+  <!--English=Fire Mode ({0}): {1}-->
+  <VFM_StatPart_Label>사격 방식 ({0}): {1}</VFM_StatPart_Label>
+</LanguageData>
