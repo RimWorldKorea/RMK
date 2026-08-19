@@ -37,8 +37,6 @@
   <MeleeParryChance.description>무기나 방패 등을 이용하여 상대의 근접공격을 차단할 확률. 근접공격을 차단하는 데에 성공하면 착용한 무기나 방패가 대신 피해를 받으며, 치명타 확률에 따라 즉시 반격할 수 있습니다.\n\n최종 확률은 상대의 차단 능력에도 영향을 받으며 동등한 상대에게는 기본적으로 20%가 적용됩니다.\n상세 계산식은 다음과 같습니다: 20% - 공격자의 차단 확률 * (1 + 차단 봉쇄 보너스) + 방어자의 차단 확률. 100% 초과는 100%로, 0% 미만은 0%로 적용됩니다.\n\n차단에 숙련된 폰은 맨손으로 공격을 차단할 때는 경감된 피해를 받으며, 무기를 든 채로 공격을 차단할 때에는 무기가 받는 피해를 줄일 수도 있습니다.</MeleeParryChance.description>
   <UnarmedDamage.label>비무장 피해량 보너스</UnarmedDamage.label>
   <UnarmedDamage.description>비무장 전투시 입힐 수 있는 추가 피해입니다.</UnarmedDamage.description>
-  <PartialArmorBody.description>특정 신체 부위에 있는 특별한 태생부터 있는 장갑</PartialArmorBody.description>
-  <PartialArmorBody.label>태생 장갑</PartialArmorBody.label>
   <BodyPartSharpArmor.description>무기의 관통력과 비교하여 다음 신체 부위까지 관통 할 수 있는지 확인합니다. 높은 값은 벅샷과 같은 낮은 관통력의 공격이 내부 장기를 공격하기 더 힘들다는 것을 의미합니다.</BodyPartSharpArmor.description>
   <BodyPartSharpArmor.label>신체 부위 RHA</BodyPartSharpArmor.label>
   <BodyPartSharpArmor.formatString>{0} mm RHA</BodyPartSharpArmor.formatString>
@@ -89,31 +87,28 @@
   <Recoil.label>반동 정도</Recoil.label>
   <Recoil.description>이 무기는 발사할 때 얼마나 많이 흔들리는지 알려줍니다.</Recoil.description>
   <CE_RangedWeapon_RecoilMultiplier.label>반동 계수</CE_RangedWeapon_RecoilMultiplier.label>
-  <CE_RangedWeapon_RecoilMultiplier.description>A multiplier applied to this weapon's recoil.</CE_RangedWeapon_RecoilMultiplier.description>
-  <MagazineCapacity.label>탄창 용량</MagazineCapacity.label>
-  <MagazineCapacity.description>How many projectiles this weapon's magazine holds and how long it takes to reload it.</MagazineCapacity.description>
-  <ReloadTime.label>재장전 시간</ReloadTime.label>
-  <ReloadTime.description>How long should this weapon take to reload.</ReloadTime.description>
-  <CE_RangedWeapon_ReloadFactor.label>재장선 시간 계수</CE_RangedWeapon_ReloadFactor.label>
-  <CE_RangedWeapon_ReloadFactor.description>A multiplier applied to this weapon's reload time.</CE_RangedWeapon_ReloadFactor.description>
-  <ammoConsumedPerShotCount.label>ammo consumed per shot</ammoConsumedPerShotCount.label>
-  <ammoConsumedPerShotCount.description>How many units of ammunition this gun consumes for each individual shot.\n\nThis applies to guns with multiple barrels that fire simultaneously with each pull of the trigger, or exotic energy weapons that use up different amounts of energy from a power cell.</ammoConsumedPerShotCount.description>
-  <AmmoGenPerMagOverride.label>ammo generation per magazine override</AmmoGenPerMagOverride.label>
-  <AmmoGenPerMagOverride.description>How many units of ammunition per magazine specified in pawnKindDef should a pawn bring.\n\nPurely used in pawn generation. You should not be able to read this in game.</AmmoGenPerMagOverride.description>
+  <CE_RangedWeapon_RecoilMultiplier.description>이 무기의 반동에 적용되는 배율입니다.</CE_RangedWeapon_RecoilMultiplier.description>
   <MagazineCapacity.label>탄창 용량/재장전 시간</MagazineCapacity.label>
   <MagazineCapacity.description>해당 총기의 탄창용량과 재장전에 걸리는 시간을 알려줍니다.</MagazineCapacity.description>
   <ReloadTime.label>재장전 시간</ReloadTime.label>
-  <ReloadTime.description>이 무기의 재장전 시간을 알려줍니다.</ReloadTime.description>
+  <ReloadTime.description>이 무기를 재장전하는 데에 걸리는 시간입니다.</ReloadTime.description>
+  <CE_RangedWeapon_ReloadFactor.label>재장전 시간 계수</CE_RangedWeapon_ReloadFactor.label>
+  <CE_RangedWeapon_ReloadFactor.description>이 무기의 재장전 시간에 걸리는 배율입니다.</CE_RangedWeapon_ReloadFactor.description>
   <ammoConsumedPerShotCount.label>발당 탄약 소비량</ammoConsumedPerShotCount.label>
-  <ammoConsumedPerShotCount.description>총이 각 발사에 소비하는 탄약 단위 수. \n\n 방아쇠를 당길 때마다 동시에 발사되는 여러 배럴이있는 총이나 파워 셀에서 다른 양의 에너지를 사용하는 에너지 무기에 적용됩니다.</ammoConsumedPerShotCount.description>
-  <AmmoGenPerMagOverride.label>탄창 당 탄약 생성 오버라이드</AmmoGenPerMagOverride.label>
+  <ammoConsumedPerShotCount.description>매 사격시에 소모되는 탄약 단위의 수입니다.\n\n한 번 방아쇠를 당길 때마다 여러 발이 동시에 발사되는 다총신 총기나, 파워 셀에서 다른 양의 에너지를 사용하는 에너지 병기에 적용합니다.</ammoConsumedPerShotCount.description>
+  <AmmoGenPerMagOverride.label>탄환 생성(탄창 단위) 오버라이드</AmmoGenPerMagOverride.label>
   <AmmoGenPerMagOverride.description>PawnKindDef가 Pawn을 생성할 때 한 개의 탄창에 몇 개의 탄약 단위를 가지고 생성될지를 정합니다.\n\n이 수치는 순수하게 Pawn의 생성시에만 사용됩니다. 인게임에서는 이 수치를 볼 수 없을 것입니다.</AmmoGenPerMagOverride.description>
+  
+  <!-- Patch: Core -->
   <ArmorRating_Blunt.formatString>{0} MPa</ArmorRating_Blunt.formatString>
   <StuffPower_Armor_Blunt.formatString>{0} MPa</StuffPower_Armor_Blunt.formatString>
   <ArmorRating_Sharp.formatString>{0} mm RHA</ArmorRating_Sharp.formatString>
   <StuffPower_Armor_Sharp.formatString>{0} mm RHA</StuffPower_Armor_Sharp.formatString>
+  <ArmorRating_Sharp.description>총탄, 찌르기, 베기, 할퀴기 및 깨물기와 같은 날카로운 피해가 경감되는 정도를 나타냅니다.\n\n날카로움 속성의 공격이 장갑을 만나면, 이 수치가 공격의 관통력과 피해를 감소시키는 계산에 사용됩니다. 이렇게 저지된 부분은 둔탁함 속성의 공격으로 변환됩니다. 장갑 수치가 증가할수록, 공격에서 더 높은 비중이 둔탁한 공격으로 전환되며, 방어도가 관통력을 넘어서면 날카로운 공격은 완전히 둔탁한 공격으로 전환됩니다. 예를 들어, 10mmRHA의 공격이 8mmRHA의 장갑에 적중하면, 피해와 관통력 모두 각각 20%만이 날카로운 공격으로 보존되며, 나머지 80% 만큼-즉 8MPa의 관통력을 가진 80% 피해의 둔탁한 공격을 둔탁함 방어도와 비교하게 됩니다.\n\n이런 감쇠 효과는 입고 있는 의류와 태생 장갑을 포함한 각 층마다 적용되어 공격이 모든 층을 뚫거나 완전히 감쇠될 때까지 되풀이됩니다.\n\n이 수치는 날카로운 공격에 의해 장갑이 받는 피해에 대한 저항력으로써도 기능합니다. 방탄조끼나 판금갑옷과 같은 단단한 장갑은 날카로운 공격의 관통력이 방어도에 근접할수록 더 높은 피해를 받으며, 파카나 바람막이와 같은 부드러운 장갑이 받는 피해는 제한되거나 공격의 피해량의 최소 20% 가량에 그칩니다. 각 층마다 감쇠된 피해 및 관통력은 의류가 받는 피해량도 감소시키며, 상층의 의류가 하층의 의류가 받을 피해를 감소시키는 셈입니다.\n\n내부 계산식은 다음과 같습니다:\n - 날카로움 피해 및 관통력 감쇠:\n잔여 날카로움 관통력 = 날카로움 관통력 - 날카로움 방어도 (최소 0)\n날카로움 피해 = 날카로움 피해 * 잔여 날카로움 관통력 / 날카로움 관통력\n날카로움 관통력 = 잔여 날카로움 관통력\n\n - 잔여 둔탁함 피해 및 관통력 = 감쇠된 날카로움 관통력 = 초기 날카로움 관통력 - 최종 날카로움 관통력\n둔탁함 관통력 = 둔탁함 관통력 * 감쇠된 날카로움 관통력 / 초기 날카로움 관통력\n둔탁함 피해 = (둔탁함 관통력 * 10) ^ (1/3)</ArmorRating_Sharp.description>
+  <ArmorRating_Blunt.description>주먹, 철퇴, 폭발이나 동물의 발굽과 같은 둔탁한 피해가 경감되는 정도를 나타냅니다.\n\n둔탁함 속성의 공격이 장갑을 만나면, 이 수치가 공격의 관통력과 피해를 감소시키는 계산에 사용됩니다. 장갑 수치가 증가할수록, 공격에서 더 높은 비중이 감쇠되며, 방어도가 관통력을 넘어서면 둔탁한 공격은 완전히 감쇠됩니다. 예를 들어, 10MPa의 공격이 8MPa의 장갑에 적중하면, 피해와 관통력 모두 각각 20%만이 보존됩니다.\n\n이런 감쇠 효과는 입고 있는 의류와 태생 장갑을 포함한 각 층마다 적용되어 공격이 모든 충을 뚫거나 완전히 감쇠될 때까지 되풀이됩니다.\n\n이 수치는 둔탁한 공격에 의해 장갑이 받는 피해에 대한 저항력으로써도 기능합니다. 방탄조끼나 판금갑옷과 같은 단단한 장갑은 둔탁한 공격의 관통력이 방어도에 근접할수록 더 높은 피해를 받으며, 파카나 바람막이와 같은 부드러운 장갑은 피해를 받지 않습니다. 각 층마다 감쇠된 피해 및 관통력은 의류가 받는 피해량도 감소시키며, 상층의 의류가 하층의 의류가 받을 피해를 감소시키는 셈입니다.\n\n둔탁함 피해 및 관통력의 감쇠에 대한 내부 계산식은 다음과 같습니다:\n잔여 둔탁함 관통력 = 둔탁함 관통력 - 둔탁함 방어도 (최소 0)\둔탁함 피해 = 둔탁함 피해 * 잔여 둔탁함 관통력 / 둔탁함 관통력\n둔탁함 관통력 = 잔여 둔탁함 관통력</ArmorRating_Blunt.description>
+  <ArmorRating_Heat.description>불, 인화성 폭발, 동상 피해와 같은 열기 및 냉기에 의한 피해가 경감되는 비율을 나타냅니다.\n\n보호받는 부위에 적용되는 모든 방어구의 방어도 수치를 합산한 후, 받은 공격의 방어 감소 수치를 차감합니다. 최종값이 100% 이상이라면, 해당 부위는 열기 및 냉기 피해에 면역이 됩니다.</ArmorRating_Heat.description>
   <ShootingAccuracyPawn.description>사수가 조준시에 총을 안정적으로 지지하고 반동을 제어하는 능력을 나타냅니다.\n\n총기의 최종 흔들림은 다음과 같이 계산됩니다: (4.5 - 사격 정확도) * 무기 흔들림 / 조준경 효율\n\n무기의 반동은 이 흔들림 수치에 무기의 반동 수치를 곱하는 것으로 표현되며, 반동은 연속 사격의 매 발사시마다 그 수치만큼 증가합니다.</ShootingAccuracyPawn.description>
-  <ArmorRating_Sharp.description>총탄, 날붙이의 찌르기, 동물의 깨물기와 같은 날카로운 피해가 경감되는 정도를 나타냅니다.\n\n공격의 관통 수치를 방어도와 비교하여, 방어도가 더 높으면 도탄이 발생합니다. 방어도가 더 낮다면, 관통 수치 대비 방어도의 비율만큼 피해가 비율로 경감됩니다. 즉, 실제 피해량은 원래 피해량 * (1 - (방어도/관통 수치))가 됩니다. 예를 들어, 8mmRHA의 장갑에 10mmRHA의 공격이 적중하면, 장갑은 80%의 피해를 방어할 것입니다.\n\n이러한 피해 경감 효과는 공격이 지나가는 매 층마다 적용되어 관통 능력과 피해를 경감시킵니다.\n\n공격이 도탄되었다면, 공격을 둔탁함 속성으로 변환하여 다시 피해 계산을 실시합니다. 이 때, 둔탁함 관통 수치는 원래의 날카로움 방어도 대비 관통 수치의 비율만큼 곱해지는 페널티를 받게 됩니다. 공격이 관통에 성공하여 일부만 방지되었을 경우에도, 방지된 피해에 대해 이와 같은 피해 계산을 실시합니다. 이 경우에는, 둔탁함 관통 수치는 원래 피해 대비 방어된 이후의 피해의 비율과 방어된 원래 방어 관통 수치 대비 방어된 이후의 관통 수치의 비율만큼 곱해집니다.</ArmorRating_Sharp.description>
-  <ArmorRating_Blunt.description>철퇴, 폭발, 동물의 발굽과 같은 둔탁한 피해가 경감되는 정도를 나타냅니다.\n\n공격의 관통 수치를 방어도와 비교하여, 방어도가 더 높으면 피해가 발생하지 않습니다. 방어도가 더 낮다면, 관통 수치 대비 방어도의 비율만큼 피해가 비율로 경감됩니다. 즉, 실제 피해량은 원래 피해량 * (1 - (방어도/관통 수치))가 됩니다. 예를 들어, 8MPa의 장갑에 10MPa의 공격이 적중하면, 장갑은 80%의 피해를 방어할 것입니다.\n\n이러한 피해 경감 효과는 공격이 지나가는 매 층마다 적용되어 관통 능력과 피해를 경감시킵니다.</ArmorRating_Blunt.description>
-  <ArmorRating_Heat.description>불이나 인화성 폭발과 같은 열기 피해가 경감되는 비율을 나타냅니다. 즉, 열기 방어도가 100% 이상이라면 열기 피해에 완전한 내성을 가질 수 있습니다.</ArmorRating_Heat.description>
+  
+  <PartialArmorBody.description>특정 신체 부위에 있는 특별한 태생부터 있는 장갑</PartialArmorBody.description>
+  <PartialArmorBody.label>태생 장갑</PartialArmorBody.label>
 </LanguageData>
