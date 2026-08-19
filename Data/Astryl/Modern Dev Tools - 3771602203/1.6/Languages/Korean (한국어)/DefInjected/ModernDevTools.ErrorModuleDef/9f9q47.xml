@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MDT_Module_StackTrace.label>스택 추적 원인 분석</MDT_Module_StackTrace.label>
+  <MDT_Module_StackTrace.description>오류의 스택 추적에 코드가 나타난 모드를 원인으로 지목하고, 바닐라·Harmony·Unity 프레임도 표시합니다.</MDT_Module_StackTrace.description>
+  <MDT_Module_MessageMentions.label>메시지 기반 원인 분석</MDT_Module_MessageMentions.label>
+  <MDT_Module_MessageMentions.description>메시지 본문에 이름이 등장한 모드를 원인으로 지목합니다. 스택 추적이 순수 바닐라인 로드 경고도 포함합니다(의존성·packageId 검증, 파일 경로 등).</MDT_Module_MessageMentions.description>
+  <MDT_Module_LogPrefix.label>로그 접두사 원인 분석</MDT_Module_LogPrefix.label>
+  <MDT_Module_LogPrefix.description>로그 줄에 자체 이름을 붙인 모드를 원인으로 지목합니다. 예: "[Giddy-Up] ...", "[Map Preview] ...". 대괄호 태그가 설치되어 활성화된 모드 하나와 일치할 때만 사용하며, 모호하거나 모드가 아닌 태그는 무시합니다.</MDT_Module_LogPrefix.description>
+  <MDT_Module_HarmonyPatches.label>Harmony 패치 원인 분석</MDT_Module_HarmonyPatches.label>
+  <MDT_Module_HarmonyPatches.description>라이브 Harmony 레지스트리를 읽고 스택 추적이 순수한 바닐라인 경우에도 오류가 있는 메서드를 패치하는 모드의 이름을 지정합니다. 두 개 이상의 모드가 동일한 방법을 패치하면 충돌 가능성이 있는 이름을 표시합니다. 로컬, 항상 켜져 있습니다.</MDT_Module_HarmonyPatches.description>
+  <MDT_Module_DependencyCheck.label>요구사항 및 로드 순서 누락</MDT_Module_DependencyCheck.label>
+  <MDT_Module_DependencyCheck.description>모든 활성 모드의 선언된 종속성과 모드 목록에 대한 로드 순서를 확인하고 누락되거나 비활성인 필수 모드와 잘못된 로드 순서, 정의 누락, 유형 누락 및 해결되지 않은 참조 오류의 일반적인 근본 원인을 설명합니다. 로컬, 항상 켜져 있습니다.</MDT_Module_DependencyCheck.description>
+  <MDT_Module_VersionMismatch.label>버전 불일치</MDT_Module_VersionMismatch.label>
+  <MDT_Module_VersionMismatch.description>오류의 일반적인 원인인 RimWorld 버전에 대한 지원을 나열하지 않는 모드에 플래그를 지정합니다. 로컬, 인터넷 없음.</MDT_Module_VersionMismatch.description>
+  <MDT_Module_ModIssues.label>모드로 제공되는 알려진 문제</MDT_Module_ModIssues.label>
+  <MDT_Module_ModIssues.description>모드가 자체 폴더(ModernDevTools/known-issues.json) 내에 제공하는 알려진 문제 파일(커뮤니티 데이터베이스와 동일한 형식)을 사용하여 오류를 설명합니다. 로컬, 항상 켜져 있습니다.</MDT_Module_ModIssues.description>
+  <MDT_Module_AboutIncompat.label>비호환성 선언</MDT_Module_AboutIncompat.label>
+  <MDT_Module_AboutIncompat.description>두 개의 활성 모드가 자체 About.xml에서 서로 호환되지 않는다고 선언할 때 플래그를 지정합니다. 이는 커뮤니티 데이터베이스가 나열하지 않을 수 있는 오류의 일반적인 원인입니다. 로컬, 항상 켜져 있습니다.</MDT_Module_AboutIncompat.description>
+  <MDT_Module_Community.label>커뮤니티 데이터베이스</MDT_Module_Community.label>
+  <MDT_Module_Community.description>옵트인 커뮤니티 데이터베이스를 사용하여 오래된 모드에 대한 대체품을 제안하고 알려진 비호환성을 표시합니다. 모듈 창에서 커뮤니티 데이터를 활성화합니다.</MDT_Module_Community.description>
+  <MDT_Module_CommunityBugs.label>커뮤니티 버그 데이터베이스</MDT_Module_CommunityBugs.label>
+  <MDT_Module_CommunityBugs.description>커뮤니티 버그 및 수정 데이터베이스(GitHub의 기여자가 편집 가능한 JSON)와 오류를 일치시킵니다. 모듈 창에서 커뮤니티 데이터를 활성화합니다.</MDT_Module_CommunityBugs.description>
+  <MDT_Module_KnownIssues.label>지식 라이브러리</MDT_Module_KnownIssues.label>
+  <MDT_Module_KnownIssues.description>일반 언어로 오류를 설명하고 제공된 타사 지식 라이브러리를 사용하여 수정 사항을 제안합니다.</MDT_Module_KnownIssues.description>
+  <MDT_Module_Glossary.label>일반 언어 용어집</MDT_Module_Glossary.label>
+  <MDT_Module_Glossary.description>오류 또는 해당 설명(Harmony, def, xpath, TPS, 로드 순서 등)의 모딩 전문 용어를 정의하는 짧은 "이 오류의 용어" 카드를 추가하므로 사전 지식 없이도 로그를 읽을 수 있습니다.</MDT_Module_Glossary.description>
+</LanguageData>
