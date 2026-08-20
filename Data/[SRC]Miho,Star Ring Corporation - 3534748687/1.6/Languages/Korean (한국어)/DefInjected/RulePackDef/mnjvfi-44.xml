@@ -22,7 +22,7 @@
     <li>title-&gt;[randAdjective] [subject_primary] [referenceType], 제[volNumeral]권</li>
     <li>title-&gt;[randAdjective] [subject_primary] [studiesStart], 제[volNumeral]권</li>
     <li>title-&gt;[randAdjective] [subject_primary] [studiesStart] [referenceType]</li>
-    <li>title-&gt;[lifeEvent] [discussionNoun]와(과) [subject_primary]</li>
+    <li>title-&gt;[lifeEvent] [discussionNoun](와)과 [subject_primary]</li>
 
     <li>studiesStart-&gt;연구</li>
     <li>studiesStart-&gt;기초</li>
@@ -105,9 +105,9 @@
     <li>authored_title_gen_two-&gt;[ANYPAWN_nameIndef](이)가 말하는 [subjectsTuple] 가이드</li>
     <li>authored_title_gen_two-&gt;[ANYPAWN_nameIndef](이)가 쓴 [subjectsTuple] 입문서</li>
 
-    <li>subjectsTuple(has_subject_secondary==true,p=2)-&gt;[subject_primary]와(과) [subject_secondary]</li>
-    <li>subjectsTuple(has_subject_secondary==true)-&gt;[subject_secondary]와(과) [randTheme]</li>
-    <li>subjectsTuple-&gt;[subject_primary]와(과) [randTheme]</li>
+    <li>subjectsTuple(has_subject_secondary==true,p=2)-&gt;[subject_primary](와)과 [subject_secondary]</li>
+    <li>subjectsTuple(has_subject_secondary==true)-&gt;[subject_secondary](와)과 [randTheme]</li>
+    <li>subjectsTuple-&gt;[subject_primary](와)과 [randTheme]</li>
 
     <li>randAdjective-&gt;기초</li>
     <li>randAdjective-&gt;최고의</li>
