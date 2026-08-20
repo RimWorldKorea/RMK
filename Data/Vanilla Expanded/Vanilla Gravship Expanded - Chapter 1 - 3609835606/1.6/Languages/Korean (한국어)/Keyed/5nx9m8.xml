@@ -131,7 +131,7 @@
   <VGE_ColorPickerValue>밝기</VGE_ColorPickerValue>
   <VGE_ColorPickerValueTooltip>색상 밝기를 설정하여 색상을 선택하세요.\n\n밝기는 HSV 색상 모델(색상, 채도, 명도/밝기)의 "명도(value)"를 의미합니다.</VGE_ColorPickerValueTooltip>
   <VGE_MustBePlacedInRangeOfGravSource>중력구동기 또는 중력장 증폭기 범위 내에 설치해야 합니다.</VGE_MustBePlacedInRangeOfGravSource>
-  <GravEngineInspectedLetterContents>추락한 중력부양선의 잔해 속에서 여전히 손상되지 않은 중력도약선 구동기 하나가 소리를 내며 작동하고 있습니다.\n\n하부구조를 수리하는 것은 가능하지만, 중력부양선의 여러 부품은 회생 불가능한 상태입니다. 구동기는 중력에 저항하며 함선을 부양시키고 장거리 이동을 가능하게 합니다. 중력부양선을 항해시키며 시스템을 재건하고 그보다 더한 기회를 제공하는 기술을 해금할 수 있습니다.\n\n함선을 축소하고, 손상된 하부구조를 수리하며, 파손된 추진기와 우주연료 탱크를 교체하여 중력부양선을 발사하세요. 연료 정제기에서 우주연료를 추가로 정제하고, 여행 중 중력구동기에 부하를 주며 진행할 중력기술 연구 프로젝트를 선택하세요.\n\n중력부양선을 발사하면 현재 지역을 버릴 수 있는 선택지가 주어집니다.\n\n  - 연구 과제 완료: 기초 중력기술\n  - 바닥 해금: 중력부양선 하부구조\n  - 벽 해금: 중력부양선 외벽\n  - 구조물 해금: 콕핏 콘솔, 중력도약선 구동기, 소형 추진기, 소형 우주연료 탱크, 우주연료 배관, 우주연료 밸브, 우주연료 배출구, 우주연료 주입구, 중력장 확장기\n  - 제작법 해금: 우주연료 생산 (화학연료)</GravEngineInspectedLetterContents>
+  <GravEngineInspectedLetterContents>추락한 중력부양선의 잔해 속에서 여전히 손상되지 않은 중력도약선 구동기 하나가 소리를 내며 작동하고 있습니다.\n\n하부구조를 수리하는 것은 가능하지만, 중력부양선의 여러 부품은 회생 불가능한 상태입니다. 구동기는 중력에 저항하며 함선을 부양시키고 장거리 이동을 가능하게 합니다. 중력부양선을 항해시키며 시스템을 재건하고 그보다 더한 기회를 제공하는 기술을 해금할 수 있습니다.\n\n함선을 축소하고, 손상된 하부구조를 수리하며, 파손된 추진기와 우주연료 탱크를 교체하여 중력부양선을 발사하세요. 연료 정제기에서 우주연료를 추가로 정제하고, 여행 중 중력구동기에 부하를 주며 진행할 중력기술 연구 프로젝트를 선택하세요.\n\n중력부양선을 발사하면 현재 지역을 버릴 수 있는 선택지가 주어집니다.\n\n  - 연구 과제 완료: 기초 중력기술\n  - 바닥 해금: 중력부양선 하부구조\n  - 벽 해금: 중력부양선 외벽\n  - 구조물 해금: 콕핏 콘솔, 중력도약선 구동기, 소형 추진기, 소형 우주연료 탱크, 우주연료 배관, 우주연료 밸브, 우주연료 배출구, 우주연료 주입구, 중력장 확장기, 소형 방열판\n  - 제작법 해금: 우주연료 생산 (화학연료)</GravEngineInspectedLetterContents>
   <VGE_AgrocellSunLampEnable>태양등 켜기</VGE_AgrocellSunLampEnable>
   <VGE_AgrocellSunLampDisable>태양등 끄기</VGE_AgrocellSunLampDisable>
   <VGE_AgrocellSunLampDesc>태양등을 켜 두면 재배 모듈이 낮 동안 빛을 내며, 전력 소모량을 늘리고 대부분의 식물이 자랄 수 있게 합니다. 태양등을 끄면 어둠 속에서만 자랄 수 있는 식물을 기를 수 있음과 동시에 전력을 아낄 수 있습니다.</VGE_AgrocellSunLampDesc>
@@ -178,4 +178,19 @@
   <VGE_ScannerCluster_LongRangeResource>장거리 {RESOURCE}</VGE_ScannerCluster_LongRangeResource>
   <VGE_ProtectingFromSpaceSolarFlare>우주 흑점 폭발로부터 보호 중</VGE_ProtectingFromSpaceSolarFlare>
   <VGE_GravcoreTax>중력 코어 세금</VGE_GravcoreTax>
+  <VGE_TargetOutOfRange>목표가 사거리 밖에 있습니다.</VGE_TargetOutOfRange>
+  <VGE_MustBeAimedViaEquippedTargeter>장착된 조준 장치로 조준해야 합니다.</VGE_MustBeAimedViaEquippedTargeter>
+  <VGE_MaintenanceMultiplier>정비도 감소 계수 (높을수록 감소 빠름)</VGE_MaintenanceMultiplier>
+  <VGE_MaintenanceMultiplierDesc>중력부양선 이동과 시간에 따른 정비도 감소량이 이 수치에 곱해집니다. 예를 들어 2로 설정한다면 정비도가 2배 빨리 감소하게 됩니다. Sam Streamer의 요청으로 추가되었습니다.</VGE_MaintenanceMultiplierDesc>
+  <VGE_ScannerCluster_MissingResearchPrerequisite>{RESEARCH_label} 연구 필요</VGE_ScannerCluster_MissingResearchPrerequisite>
+  <VGE_GravshipFuelTab>연료</VGE_GravshipFuelTab>
+  <VGE_FuelTab_ThrustersTitle>{RESOURCE} 추진기</VGE_FuelTab_ThrustersTitle>
+  <VGE_FuelTab_Thrusters>연결된 추진기</VGE_FuelTab_Thrusters>
+  <VGE_FuelTab_OtherFuelTitle>기타 연료</VGE_FuelTab_OtherFuelTitle>
+  <VGE_FuelTab_OtherFuel>연료</VGE_FuelTab_OtherFuel>
+  <VGE_FuelTab_Range>범위</VGE_FuelTab_Range>
+  <VGE_FuelTab_UsagePerTile>연료 소모: 타일당 {COST} {RESOURCE}</VGE_FuelTab_UsagePerTile>
+  <VGE_OtherFuel>기타 연료</VGE_OtherFuel>
+  <VGE_PermanentlyDisabled>영구적으로 비활성화됨 (전쟁컴퓨터 파괴됨)</VGE_PermanentlyDisabled>
+  <TerrainTagSpace>우주</TerrainTagSpace>
 </LanguageData>
