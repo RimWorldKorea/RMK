@@ -1,15 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <ConfigurableDynamicCooldownTitle>- Dynamic Weapon Cooldown -</ConfigurableDynamicCooldownTitle>
-  <ConfigurableDynamicCooldown.RangedCooldownManipulationFactor>원거리 조작 능력 재사용 대기시간 패치 활성화</ConfigurableDynamicCooldown.RangedCooldownManipulationFactor>
-  <ConfigurableDynamicCooldown.RangedCooldownManipulationFactor.Desc>활성화하면 원거리 무기의 재사용 대기시간이 조작 능력에 따라 변경됩니다. (재시작 필요)</ConfigurableDynamicCooldown.RangedCooldownManipulationFactor.Desc>
-  <ConfigurableDynamicCooldown.RangedCooldownSightFactor>원거리 시력 재사용 대기시간 패치 활성화</ConfigurableDynamicCooldown.RangedCooldownSightFactor>
-  <ConfigurableDynamicCooldown.RangedCooldownSightFactor.Desc>활성화하면 원거리 무기의 재사용 대기시간이 시력에 따라 변경됩니다. 조작 능력과 달리 시력이 100%를 넘어도 추가 효과는 없습니다. (재시작 필요)</ConfigurableDynamicCooldown.RangedCooldownSightFactor.Desc>
-  <ConfigurableDynamicCooldown.MeleeCooldownManipulationFactor>근접 재사용 대기시간 패치 활성화</ConfigurableDynamicCooldown.MeleeCooldownManipulationFactor>
-  <ConfigurableDynamicCooldown.MeleeCooldownManipulationFactor.Desc>활성화하면 근접 공격의 재사용 대기시간이 조작 능력에 따라 변경됩니다. (재시작 필요)</ConfigurableDynamicCooldown.MeleeCooldownManipulationFactor.Desc>
+  <ConfigurableDynamicCooldown.RangedCooldownFactor>원거리 재사용 대기시간 패치</ConfigurableDynamicCooldown.RangedCooldownFactor>
+  <ConfigurableDynamicCooldown.RangedCooldownFactor.Desc>활성화하면 조작 능력에 따라 원거리 공격의 재사용 대기시간이 변경됩니다.</ConfigurableDynamicCooldown.RangedCooldownFactor.Desc>
+  <ConfigurableDynamicCooldown.MeleeeCooldownFactor>근접 재사용 대기시간 패치</ConfigurableDynamicCooldown.MeleeeCooldownFactor>
+  <ConfigurableDynamicCooldown.MeleeeCooldownFactor.Desc>활성화하면 조작 능력에 따라 근접 공격의 재사용 대기시간이 변경됩니다.</ConfigurableDynamicCooldown.MeleeeCooldownFactor.Desc>
   <ConfigurableDynamicCooldown.Scale>재사용 대기시간 배율</ConfigurableDynamicCooldown.Scale>
-  <ConfigurableDynamicCooldown.DiminishingReturns>점감 효과</ConfigurableDynamicCooldown.DiminishingReturns>
-  <ConfigurableDynamicCooldown.MeleeDiminishingReturns>근접 점감률</ConfigurableDynamicCooldown.MeleeDiminishingReturns>
-  <ConfigurableDynamicCooldown.RangedDiminishingReturns>원거리 점감률</ConfigurableDynamicCooldown.RangedDiminishingReturns>
-  <ConfigurableDynamicCooldown.DiminishingReturns.Desc>조작 능력이 100%를 초과한 뒤 재사용 대기시간 감소 효과가 얼마나 점감되는지를 설정합니다.</ConfigurableDynamicCooldown.DiminishingReturns.Desc>
+  <ConfigurableDynamicCooldown.DiminishingReturns>효과 체감</ConfigurableDynamicCooldown.DiminishingReturns>
+  <ConfigurableDynamicCooldown.MeleeDiminishingReturns>근접 효과 체감률</ConfigurableDynamicCooldown.MeleeDiminishingReturns>
+  <ConfigurableDynamicCooldown.RangedDiminishingReturns>원거리 효과 체감률</ConfigurableDynamicCooldown.RangedDiminishingReturns>
+  <ConfigurableDynamicCooldown.DiminishingReturns.Desc>조작 능력이 100%를 초과할수록 효과를 얼마나 감소시킬지 설정합니다.</ConfigurableDynamicCooldown.DiminishingReturns.Desc>
+  <ConfigurableDynamicCooldown.CurveMode>곡선 모드(조작 능력을 재사용 대기시간에 반영하는 방식):</ConfigurableDynamicCooldown.CurveMode>
+  <ConfigurableDynamicCooldown.CurveMode.Diminishing>효과 체감(기본값)</ConfigurableDynamicCooldown.CurveMode.Diminishing>
+  <ConfigurableDynamicCooldown.CurveMode.Inverse>조작 능력의 역수(재사용 대기시간 = 1 / 조작 능력^강도)</ConfigurableDynamicCooldown.CurveMode.Inverse>
+  <ConfigurableDynamicCooldown.CurveMode.Linear>선형(곡선 없음)</ConfigurableDynamicCooldown.CurveMode.Linear>
+  <ConfigurableDynamicCooldown.InverseInfo>재사용 대기시간 배율 = 조작 능력^(-강도). 강도가 1.0일 때: 조작 능력 100% = 재사용 대기시간 100%, 200% = 50%, 500% = 20%, 1000% = 10%. 강도가 높을수록 높은 조작 능력의 효과가 더욱 커집니다.</ConfigurableDynamicCooldown.InverseInfo>
+  <ConfigurableDynamicCooldown.RangedInverseStrength>원거리 역수 강도</ConfigurableDynamicCooldown.RangedInverseStrength>
+  <ConfigurableDynamicCooldown.MeleeInverseStrength>근접 역수 강도</ConfigurableDynamicCooldown.MeleeInverseStrength>
 </LanguageData>

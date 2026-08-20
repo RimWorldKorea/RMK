@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Nals.FacialAnimation</li>
+      <li>[NL] Facial Animation - WIP</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>[NL] Facial Animation - WIP</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Raven_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[22]/name</xpath>
+            <value>
+              <name>raven_fa_subtitle</name>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Raven_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[11]/name</xpath>
+    <value>
+      <name>raven_bloodline_wolfein_tail</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Raven_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[12]/name</xpath>
+    <value>
+      <name>raven_bloodline_moelotl_ears</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Raven_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[13]/name</xpath>
+    <value>
+      <name>raven_bloodline_epona_ears</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Raven_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[14]/name</xpath>
+    <value>
+      <name>raven_bloodline_epona_ears_back</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Raven_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[15]/name</xpath>
+    <value>
+      <name>raven_bloodline_milira_halo</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Raven_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[16]/name</xpath>
+    <value>
+      <name>raven_bloodline_nivarian_horns</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Raven_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[17]/name</xpath>
+    <value>
+      <name>raven_bloodline_mugirl_ears</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Raven_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[18]/name</xpath>
+    <value>
+      <name>raven_bloodline_moyo_antenna</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Raven_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[19]/name</xpath>
+    <value>
+      <name>raven_bloodline_moyo_antenna_glow</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Raven_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[20]/name</xpath>
+    <value>
+      <name>raven_bloodline_moyo_head_glow</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Raven_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[21]/name</xpath>
+    <value>
+      <name>raven_bloodline_secretary_ears</name>
+    </value>
+  </Operation>
+</Patch>
