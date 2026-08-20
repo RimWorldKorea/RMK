@@ -35,14 +35,23 @@
   <WG_Performance>적재 중량:</WG_Performance>
   <WG_OverallArmor>내구도</WG_OverallArmor>
   <WG_ArmorSpeed>엑소슈트 이동속도:</WG_ArmorSpeed>
+  <WG_PilotExosuitMoveSpeed>파일럿 엑소슈트 이동속도:</WG_PilotExosuitMoveSpeed>
   <WG_ArmorDeadWeight>중량:</WG_ArmorDeadWeight>
   <WG_ArmorCapacity>적재 중량:</WG_ArmorCapacity>
   <WG_HasMechWeapon>무장 모듈</WG_HasMechWeapon>
   <WG_Disabled_VictimInWalkerCore>구조 불가: 엑소슈트 착용 중 부상.</WG_Disabled_VictimInWalkerCore>
-  <WG_Sharp_CE>mm RHA</WG_Sharp_CE>
-  <WG_Blunt_CE>MPA</WG_Blunt_CE>
   <WG_AutoRepair>자동 수리</WG_AutoRepair>
   <WG_AutoRepair_Desc>정착민이 이 갠트리의 손상된 모듈을 자동으로 수리할지 여부를 토글합니다.</WG_AutoRepair_Desc>
+  <WG_PreferModuleWeapon_Idle_Pilot>기본 : 파일럿 무기</WG_PreferModuleWeapon_Idle_Pilot>
+  <WG_PreferModuleWeapon_Idle_Module>기본 : 모듈 무기</WG_PreferModuleWeapon_Idle_Module>
+  <WG_PreferModuleWeapon_Hover_ToModule>모듈 무기로 전환</WG_PreferModuleWeapon_Hover_ToModule>
+  <WG_PreferModuleWeapon_Hover_ToPilot>파일럿 무기로 전환</WG_PreferModuleWeapon_Hover_ToPilot>
+  <WG_PreferModuleWeapon_Desc>파일럿이 엑소슈트에 탑승할때, 기본으로 장착될 무기를 선택합니다.</WG_PreferModuleWeapon_Desc>
+  <WG_PreferMeleeModuleWeapon_Idle_Melee>기본 : 근접 모듈</WG_PreferMeleeModuleWeapon_Idle_Melee>
+  <WG_PreferMeleeModuleWeapon_Idle_Ranged>기본 : 원거리 모듈</WG_PreferMeleeModuleWeapon_Idle_Ranged>
+  <WG_PreferMeleeModuleWeapon_Hover_ToMelee>근접 모듈로 전환</WG_PreferMeleeModuleWeapon_Hover_ToMelee>
+  <WG_PreferMeleeModuleWeapon_Hover_ToRanged>원거리 모듈로 전환</WG_PreferMeleeModuleWeapon_Hover_ToRanged>
+  <WG_PreferMeleeModuleWeapon_Desc>근접 무기 모듈과 원거리 무기 모듈이 모두 설치되어 있을 때, 탑승 시 어느 무기를 장착할지 선택합니다. </WG_PreferMeleeModuleWeapon_Desc>
   <WG_AvailableModuleForThisSlot>이 슬롯에 사용 가능한 모듈</WG_AvailableModuleForThisSlot>
   <WG_ChangeModuleColor>모듈 색상 교체</WG_ChangeModuleColor>
   <WG_NoAvailablePilot>사용 가능한 파일럿 없음</WG_NoAvailablePilot>
@@ -70,8 +79,21 @@
   <WG_PendingReplace>교체 중</WG_PendingReplace>
   <WG_CoreWorkInProgress>코어 작업이 진행 중이므로 작동할 수 없습니다.</WG_CoreWorkInProgress>
   <WG_CancelCoreWork>코어 작업 취소</WG_CancelCoreWork>
+  <WG_WeaponModule>무장</WG_WeaponModule>
+  <WG_WeaponModule_Desc>이 모듈이 제공하는 무장입니다. 엑소슈트가 활성화된 상태에서 전환할 수 있습니다.</WG_WeaponModule_Desc>
   <WG_FuelCell_Fuel>연료</WG_FuelCell_Fuel>
   <WG_FuelCell_Tip>연료전지는 엑소슈트에 추가 에너지를 공급하며, 탑승 중에 소모됩니다.\n정착민이 자동으로 화학 연료를 운반해 보충합니다.</WG_FuelCell_Tip>
+  <WG_FuelCell_FuelPercent>연료량</WG_FuelCell_FuelPercent>
+  <WG_FuelCell_FuelPercent_Desc>모듈에 현재 남아 있는 연료 비율입니다.</WG_FuelCell_FuelPercent_Desc>
+  <WG_FuelCell_FuelCapacity>연료 용량</WG_FuelCell_FuelCapacity>
+  <WG_FuelCell_FuelCapacity_Desc>모듈에 저장할 수 있는 최대 연료량입니다.</WG_FuelCell_FuelCapacity_Desc>
+  <WG_FuelCell_FuelPerUnit>단위당 재충전량</WG_FuelCell_FuelPerUnit>
+  <WG_FuelCell_FuelPerUnit_Desc>연료 1개당 재충전되는 연료량입니다.</WG_FuelCell_FuelPerUnit_Desc>
+  <WG_FuelCell_FuelConsumptionPerDay>일일 연료 소모량</WG_FuelCell_FuelConsumptionPerDay>
+  <WG_FuelCell_FuelConsumptionPerDay_Desc>작동 중 하루에 소모되는 연료량입니다.</WG_FuelCell_FuelConsumptionPerDay_Desc>
+  <WG_FuelCell_MoveSpeedOffset_Desc>연료가 충분할 때 이 엑소슈트 모듈이 제공하는 이동 속도 보너스입니다.</WG_FuelCell_MoveSpeedOffset_Desc>
+  <WG_FuelCell_Hediff>상태 효과</WG_FuelCell_Hediff>
+  <WG_FuelCell_Hediff_Desc>이 모듈이 활성화되면 적용되는 헤디프입니다.</WG_FuelCell_Hediff_Desc>
   <WG_ModuleInfo_Load>적재량: {0}</WG_ModuleInfo_Load>
   <WG_ModuleInfo_Slots>교체 예정 슬롯: {0}</WG_ModuleInfo_Slots>
   <WG_ModuleInfo_LoadTip>모듈 질량: {0}kg\n설치 후 적재량: {1} / {2}</WG_ModuleInfo_LoadTip>
@@ -85,6 +107,10 @@
   <WG_CommandStopAttackDesc>현재 강제 공격을 중지하고 자동 사격 모드로 복귀합니다.</WG_CommandStopAttackDesc>
   <WG_CommandManualAttack>수동 공격 ({0})</WG_CommandManualAttack>
   <WG_CommandManualAttackDesc>이 포탑에 특정 대상을 공격하도록 명령합니다.</WG_CommandManualAttackDesc>
+  <WG_GetInDesc>배정된 파일럿에게 정비 격납고로 이동해 장비를 갖추도록 명령합니다. 도착하면 엑소슈트를 자동으로 착용합니다. </WG_GetInDesc>
+  <WG_GetOff>격납고로 복귀</WG_GetOff>
+  <WG_GetOffDesc>파일럿에게 배정된 정비 격납고로 돌아가도록 명령합니다. 도착하면 엑소슈트를 자동으로 해제합니다. </WG_GetOffDesc>
+  <MF_ModuleEjected>{0}(이)가 소진되어 {1}의 엑소슈트에서 사출되었습니다.</MF_ModuleEjected>
   <WG_AmmoBackpack_Title>탄약 배낭</WG_AmmoBackpack_Title>
   <WG_AmmoBackpack_EditorTitle>탄약 보관 편집기</WG_AmmoBackpack_EditorTitle>
   <WG_AmmoBackpack_NoWeapon>호환되는 무기 없음</WG_AmmoBackpack_NoWeapon>
@@ -157,6 +183,8 @@
   <WG_AmmoBackpack_ColorOrange>주황</WG_AmmoBackpack_ColorOrange>
   <WG_AmmoBackpack_ColorRed>빨강</WG_AmmoBackpack_ColorRed>
   <WG_AmmoBackpack_ColorGray>회색</WG_AmmoBackpack_ColorGray>
+  <WG_Sharp_CE>mm RHA</WG_Sharp_CE>
+  <WG_Blunt_CE>MPA</WG_Blunt_CE>
   <WG_TurretAmmo_Label>포탑 탄약</WG_TurretAmmo_Label>
   <WG_TurretAmmo_Selected>탄약:</WG_TurretAmmo_Selected>
   <WG_TurretAmmo_None>없음</WG_TurretAmmo_None>
@@ -166,30 +194,4 @@
   <WG_TurretAmmo_NoAmmo>장전된 탄약 없음</WG_TurretAmmo_NoAmmo>
   <WG_TurretAmmo_Status>{0}: {1}/{2}</WG_TurretAmmo_Status>
   <WG_TurretAmmo_BackpackEnabled>배낭 급탄: 활성화됨</WG_TurretAmmo_BackpackEnabled>
-  <WG_WeaponModule>무장</WG_WeaponModule>
-  <WG_WeaponModule_Desc>이 모듈이 제공하는 무장입니다. 엑소슈트가 활성화된 상태에서 전환할 수 있습니다.</WG_WeaponModule_Desc>
-  <WG_FuelCell_FuelPercent>연료량</WG_FuelCell_FuelPercent>
-  <WG_FuelCell_FuelPercent_Desc>모듈에 현재 남아 있는 연료 비율입니다.</WG_FuelCell_FuelPercent_Desc>
-  <WG_FuelCell_FuelCapacity>연료 용량</WG_FuelCell_FuelCapacity>
-  <WG_FuelCell_FuelCapacity_Desc>모듈에 저장할 수 있는 최대 연료량입니다.</WG_FuelCell_FuelCapacity_Desc>
-  <WG_FuelCell_FuelPerUnit>단위당 재충전량</WG_FuelCell_FuelPerUnit>
-  <WG_FuelCell_FuelPerUnit_Desc>연료 1개당 재충전되는 연료량입니다.</WG_FuelCell_FuelPerUnit_Desc>
-  <WG_FuelCell_FuelConsumptionPerDay>일일 연료 소모량</WG_FuelCell_FuelConsumptionPerDay>
-  <WG_FuelCell_FuelConsumptionPerDay_Desc>작동 중 하루에 소모되는 연료량입니다.</WG_FuelCell_FuelConsumptionPerDay_Desc>
-  <WG_FuelCell_MoveSpeedOffset_Desc>연료가 충분할 때 이 엑소슈트 모듈이 제공하는 이동 속도 보너스입니다.</WG_FuelCell_MoveSpeedOffset_Desc>
-  <WG_FuelCell_Hediff>상태 효과</WG_FuelCell_Hediff>
-  <WG_FuelCell_Hediff_Desc>이 모듈이 활성화되면 적용되는 헤디프입니다.</WG_FuelCell_Hediff_Desc>
-  <WG_PreferModuleWeapon_Idle_Pilot>기본 : 파일럿 무기</WG_PreferModuleWeapon_Idle_Pilot>
-  <WG_PreferModuleWeapon_Idle_Module>기본 : 모듈 무기</WG_PreferModuleWeapon_Idle_Module>
-  <WG_PreferModuleWeapon_Hover_ToModule>모듈 무기로 전환</WG_PreferModuleWeapon_Hover_ToModule>
-  <WG_PreferModuleWeapon_Hover_ToPilot>파일럿 무기로 전환</WG_PreferModuleWeapon_Hover_ToPilot>
-  <WG_PreferModuleWeapon_Desc>파일럿이 엑소슈트에 탑승할때, 기본으로 장착될 무기를 선택합니다.</WG_PreferModuleWeapon_Desc>
-  <WG_PreferMeleeModuleWeapon_Idle_Melee>기본 : 근접 모듈</WG_PreferMeleeModuleWeapon_Idle_Melee>
-  <WG_PreferMeleeModuleWeapon_Idle_Ranged>기본 : 원거리 모듈</WG_PreferMeleeModuleWeapon_Idle_Ranged>
-  <WG_PreferMeleeModuleWeapon_Hover_ToMelee>근접 모듈로 전환</WG_PreferMeleeModuleWeapon_Hover_ToMelee>
-  <WG_PreferMeleeModuleWeapon_Hover_ToRanged>원거리 모듈로 전환</WG_PreferMeleeModuleWeapon_Hover_ToRanged>
-  <WG_PreferMeleeModuleWeapon_Desc>근접 무기 모듈과 원거리 무기 모듈이 모두 설치되어 있을 때, 탑승 시 어느 무기를 장착할지 선택합니다. </WG_PreferMeleeModuleWeapon_Desc>
-  <WG_GetInDesc>배정된 파일럿에게 정비 격납고로 이동해 장비를 갖추도록 명령합니다. 도착하면 엑소슈트를 자동으로 착용합니다. </WG_GetInDesc>
-  <WG_GetOff>격납고로 복귀</WG_GetOff>
-  <WG_GetOffDesc>파일럿에게 배정된 정비 격납고로 돌아가도록 명령합니다. 도착하면 엑소슈트를 자동으로 해제합니다. </WG_GetOffDesc>
 </LanguageData>
