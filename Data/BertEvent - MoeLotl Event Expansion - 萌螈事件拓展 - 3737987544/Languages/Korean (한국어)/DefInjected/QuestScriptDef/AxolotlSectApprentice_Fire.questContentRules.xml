@@ -2,17 +2,17 @@
 <LanguageData>
   <AxolotlSectApprentice_Fire.questContentRules.rulesStrings>
     <li>lastOrNot(lodgerCount==1)-&gt;</li>
-    <li>lastOrNot(lodgerCount>=2)-&gt;마지막</li>
+    <li>lastOrNot(lodgerCount&gt;=2)-&gt;마지막</li>
     <li>lodgersPronoun(lodgerCount==1)-&gt;[asker_pronoun]이</li>
-    <li>lodgersPronoun(lodgerCount>=2)-&gt;이들이</li>
+    <li>lodgersPronoun(lodgerCount&gt;=2)-&gt;이들이</li>
     <li>lodgersPossessive(lodgerCount==1)-&gt;[asker_possessive]</li>
-    <li>lodgersPossessive(lodgerCount>=2)-&gt;이들의</li>
+    <li>lodgersPossessive(lodgerCount&gt;=2)-&gt;이들의</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)-&gt;[lodgersLabel]</li>
-    <li>lodgersLabelSingularOrPlural(lodgerCount>=2)-&gt;[lodgersLabelPlural]</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount&gt;=2)-&gt;[lodgersLabelPlural]</li>
     <li>lodgersArriveLetterLabel-&gt;[lodgersLabelSingularOrPlural] 도착</li>
     <li>lodgersArriveLetterText-&gt;[lodgersSingularOrPluralDef](이)가 [hasHave] 도착했습니다. [lodgersPronoun] 정비를 위해 귀하와 [questDurationTicks_duration] 동안 함께 지내게 됩니다.</li>
     <li>hasHave(lodgerCount==1)-&gt;무사히</li>
-    <li>hasHave(lodgerCount>=2)-&gt;무사히</li>
+    <li>hasHave(lodgerCount&gt;=2)-&gt;무사히</li>
     <li>appalledButNoAction-&gt;{PAWNSALIVECOUNT_multiple ? 다른 이들은 : 마지막 [lodgersLabel]님은} 이에 대해 경악했지만, 귀하에게 직접적인 행동을 취하지는 않습니다.</li>
     <li>othersWillNotAccept-&gt;{PAWNSALIVECOUNT_multiple ? 다른 이들은 : 마지막 [lodgersLabel]님은} 이를 받아들일 수 없으며</li>
     <li>turnedViolent-&gt;[othersWillNotAccept], 귀하에게 극도로 분노하고 있습니다.</li>
@@ -60,7 +60,7 @@
     <li>mutinyLetterLabel-&gt;배신</li>
     <li>mutinyLetterText-&gt;[lodgersSingularOrPluralDef]([whoAskedToStay])(이)가 귀하에게 칼을 겨눕니다!\n\n[lodgersPronoun] 이 배신을 오래전부터 계획했던 모양입니다.</li>
     <li>areIs(lodgerCount==1)-&gt;하고</li>
-    <li>areIs(lodgerCount>=2)-&gt;하고</li>
+    <li>areIs(lodgerCount&gt;=2)-&gt;하고</li>
     <li>lodgersLeavingLetterLabel-&gt;[lodgersLabelSingularOrPlural] 떠남</li>
     <li>lodgersLeavingLetterText(uniqueLeavingLetter!=True)-&gt;[asker_nameDef]님이 [lodgersLabelSingularOrPlural](이)가 [map_definite]에서 [questDurationTicks_duration] 동안 머물 수 있게 해준 것에 대해 감사를 표합니다. [lodgersPronoun] 이제 [lodgersPossessive] 동료들과 함께 길을 떠납니다.\n\n[asker_nameDef](은)는 귀하가 베푼 은혜를 결코 잊지 않겠다고 말합니다.</li>
     <li>lodgersLeavingLetterLabel-&gt;[lodgersLabelPlural] 떠남</li>
