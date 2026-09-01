@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- 流浪者任务 -->
+  <BertWandererJoins_Label>모에로틀 유랑자</BertWandererJoins_Label>
+  <BertWandererJoins_Desc>길을 잃은 모에로틀 한 명이 당신의 정착지 근처로 찾아왔습니다...</BertWandererJoins_Desc>
+
+
+  <!-- 商人任务 -->
+  <BertMerchantJoins_Label>조난당한 상인</BertMerchantJoins_Label>
+  
+  <!-- 三个故事版本 -->
+  <BertMerchantJoins_Desc_Pirates>
+    모에로틀 상인 한 명이 당신의 정착지에 찾아왔습니다.
+    
+    그녀는 상단이 도중에 해적을 만나 모든 화물을 빼앗겼다고 말했습니다. 그녀는 일 한 푼 없이 갈 곳이 없는 신세입니다.
+    
+    "세상을 떠돌며 장사한 지 수년 만에 이런 일을 겪을 줄은..." 그녀가 쓴웃음을 지으며 말했습니다.
+    
+    그녀는 쓸모 있는 정착민이 될 것이며, 어쩌면 비상금을 조금 숨겨두었을지도 모릅니다.
+  </BertMerchantJoins_Desc_Pirates>
+  
+  <BertMerchantJoins_Desc_BadDeal>
+    모에로틀 상인 한 명이 당신의 정착지에 찾아왔습니다.
+    
+    그녀는 지친 기색으로 최근 잘못된 거래를 하는 바람에 원금을 모두 날렸다고 털어놓았습니다. 채권자들이 뒤를 쫓고 있어 이곳으로 도망쳐 온 것입니다.
+    
+    "장사를 한 지 수년 만에 눈이 멀어버리다니..." 그녀가 한숨을 쉬며 말했습니다. "저를 거두어 주신다면, 정착지의 무역을 도와드리겠습니다."
+    
+    지금은 몰락했으나, 그녀의 상업적 식견은 여전히 녹슬지 않았습니다.
+  </BertMerchantJoins_Desc_BadDeal>
+  
+  <BertMerchantJoins_Desc_Escaped>
+    모에로틀 상인 한 명이 비틀거리며 당신의 정착지에 도착했습니다.
+    
+    그녀는 자신이 노예로 팔려간 상인이었으며, 노예상들의 손아귀에서 겨우 도망쳐 나왔다고 말했습니다. 그녀의 몸에는 여전히 채찍 자국이 남아 있었습니다.
+    
+    "그들은 내 물건을 빼앗고, 나를 노예로 팔아넘겼어..." 그녀가 이를 악물며 말했습니다.
+    
+    그녀의 눈빛은 굳건합니다. 고난을 겪은 자일수록 대개 더욱 믿음직스러운 법입니다.
+  </BertMerchantJoins_Desc_Escaped>
+
+
+  <!-- 春节事件 -->
+  <Bert_ChineseNewYear_Label>모에로틀 춘절 축복 - {0}년</Bert_ChineseNewYear_Label>
+  <Bert_ChineseNewYear_Desc>
+모에로틀 왕조에서 춘절 사신을 파견했습니다!
+
+{0}년의 축복: {1}
+
+선물 목록:
+• 은 ×{2}
+• 양금원단 ×{3}
+• 엽화떡 ×{4}
+
+선물이 정착지 근처로 공중 투하되었습니다.
+  </Bert_ChineseNewYear_Desc>
+
+  <!--比武大会-->
+  <BertEvent_Join>{0} 참가</BertEvent_Join>
+  <BertEvent_VisitObject>{0} 방문</BertEvent_VisitObject>
+  <BertEvent_VisitBiWu>{0} 예방</BertEvent_VisitBiWu>
+  <MessageNoFighter>적당한 격투가가 없습니다</MessageNoFighter>
+  <!-- 信件标签 -->
+  <BertEvent_LetterLabelMultiPartyTalks_Disaster>비무대회: 참패</BertEvent_LetterLabelMultiPartyTalks_Disaster>
+  <BertEvent_LetterLabelMultiPartyTalks_Backfire>비무대회: 패배</BertEvent_LetterLabelMultiPartyTalks_Backfire>
+  <BertEvent_LetterLabelMultiPartyTalks_Flounder>비무대회: 무승부</BertEvent_LetterLabelMultiPartyTalks_Flounder>
+  <BertEvent_LetterLabelMultiPartyTalks_Success>비무대회: 승리</BertEvent_LetterLabelMultiPartyTalks_Success>
+  <BertEvent_LetterLabelMultiPartyTalks_Triumph>비무대회: 대승</BertEvent_LetterLabelMultiPartyTalks_Triumph>
+  
+  <!-- 信件内容 -->
+  <BertEvent_LetterMultiPartyTalks_Disaster>당신의 격투가가 비무대회에서 극도로 저조한 기량을 보이며 상대에게 참패했습니다. 이는 {0} 세력과의 관계에 심각한 타격을 주었으며(-50), 다른 참가 세력들도 여러분에게 실망했습니다(각각 -40).</BertEvent_LetterMultiPartyTalks_Disaster>
+  
+  <BertEvent_LetterMultiPartyTalks_Backfire>당신의 격투가가 비무대회에서 부진한 모습을 보이며 패배했습니다. 이는 모든 참가 세력과의 관계를 악화시켰습니다(각각 -20).</BertEvent_LetterMultiPartyTalks_Backfire>
+  
+  <BertEvent_LetterMultiPartyTalks_Flounder>비무대회가 무승부로 끝났습니다. 당신의 격투가는 평범한 기량을 보였으나, 주최 측인 {0} 세력은 여러분의 참가를 인정했습니다(+5).</BertEvent_LetterMultiPartyTalks_Flounder>
+  
+  <BertEvent_LetterMultiPartyTalks_Success>당신의 격투가가 비무대회에서 승리를 거두었습니다! 주최 측인 {0} 세력이 여러분의 활약상에 깊은 인상을 받았으며(+30), 다른 3개의 참가 세력도 여러분을 다시 보게 되었습니다(각각 +20).</BertEvent_LetterMultiPartyTalks_Success>
+  
+  <BertEvent_LetterMultiPartyTalks_Triumph>당신의 격투가가 비무대회에서 대승을 거두며 온 천하를 놀라게 했습니다! 주최 측인 {0} 세력이 여러분의 무예를 극찬했으며(+60), 모든 참가 세력이 여러분을 경외하게 되었습니다(각각 +40). 다음과 같은 보상 물품을 획득했습니다:\n\n{1}\n\n</BertEvent_LetterMultiPartyTalks_Triumph>
+  
+  <!-- 好感度变化文本 -->
+  <BertEvent_GoodWillChange>{0} 세력과의 관계 {1:+#;-#;0}</BertEvent_GoodWillChange>
+  <BertEvent_MeleeXPGain>{0}이(가) 비무대회에서 격투 경험치를 {1} 얻었습니다.</BertEvent_MeleeXPGain>
+
+
+  <!-- 逃亡的赤血弟子任务 -->
+  <AxolotlFugitiveDiscipleJoins_Label>도망친 적혈종 제자</AxolotlFugitiveDiscipleJoins_Label>
+  
+  <AxolotlFugitiveDiscipleJoins_Desc>
+    {0}이(가) 지친 기색으로 당신의 정착지 근처에 도착했습니다. 그녀의 옷은 남루했고, 눈에는 공포와 경계심이 서려 있었습니다.
+
+    "제발요, 여기서 잠시만 머물게 해주세요..." 그녀가 몸을 떨며 말했습니다. "도망쳐 나온 거예요. 그들이 날 추격할 겁니다."
+
+    그녀는 자신이 적혈종의 제자였으나, 우연한 기회에 문파의 진실—살아있는 평민 백성을 재물 삼아 단약을 연제한다는 것—을 알게 되었다고 털어놓았습니다. 그날 밤, 그녀는 노인과 아이들이 피 붉은 단로 속으로 던져지는 것을 똑똑히 목격했습니다. 비명 소리는 진법에 의해 차단되었고, 그저 일그러진 얼굴들만이 눈에 아렸습니다.
+
+    "수선이란 속세를 초월하는 것인 줄 알았는데, 사람을 잡아먹는 마굴일 줄이야..." 그녀가 나직이 흐느꼈습니다.
+
+    그녀는 밤을 타 도망쳐 나와 숨죽이며 길을 걸었습니다. 비록 몸에는 여전히 적혈종의 영기가 남아 있으나, 두 다시는 그곳으로 돌아가지 않겠다고 맹세했습니다.
+
+    만약 그녀를 거두어 준다면, 그녀는 충실한 정착민이 되어줄 것입니다. 다만 조심하십시오. 적혈종에서 추격대를 보낼지도 모릅니다...
+  </AxolotlFugitiveDiscipleJoins_Desc>
+  
+  <AxolotlFugitiveDiscipleJoins_Desc_Short>
+    도망쳐 나온 적혈종 제자가 비호를 요청합니다.
+  </AxolotlFugitiveDiscipleJoins_Desc_Short>
+  
+  <AxolotlFugitiveDiscipleJoins_Accept>거두어주기</AxolotlFugitiveDiscipleJoins_Accept>
+  <AxolotlFugitiveDiscipleJoins_Accept_Desc>정착지에 합류시켜 안전한 안식처를 제공합니다.</AxolotlFugitiveDiscipleJoins_Accept_Desc>
+  
+  <AxolotlFugitiveDiscipleJoins_Reject>내쫓기</AxolotlFugitiveDiscipleJoins_Reject>
+  <AxolotlFugitiveDiscipleJoins_Reject_Desc>문젯거리에 휘말리기 싫으므로 떠나보냅니다. 하지만 적혈종이 그녀를 찾아낼지도 모릅니다...</AxolotlFugitiveDiscipleJoins_Reject_Desc>
+  
+  <AxolotlFugitiveDiscipleJoins_LetterLabel>도망자: {0}</AxolotlFugitiveDiscipleJoins_LetterLabel>
+  
+  <AxolotlFugitiveDiscipleJoins_Timeout>그녀는 하루 동안 기다렸으나 여러분의 응답이 없자, 쓸쓸히 자리를 떠났습니다. 그녀가 다른 안식처를 찾을 수 있기를...</AxolotlFugitiveDiscipleJoins_Timeout>
+  
+  <!-- 后续追兵事件（预留） -->
+  <AxolotlFugitiveDisciple_Revenge_Label>적혈종의 추격대</AxolotlFugitiveDisciple_Revenge_Label>
+  <AxolotlFugitiveDisciple_Revenge_Desc>
+    적혈종의 제자들이 배신자의 흔적을 추적하여 당신의 정착지를 포위했습니다!
+
+    "당장 그 배신자를 내놓아라, 그렇지 않으면 이 땅을 짓밟아 버리겠다!" 우두머리 수사가 냉랭하게 으르렁거렸습니다.
+  </AxolotlFugitiveDisciple_Revenge_Desc>
+</LanguageData>

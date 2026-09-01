@@ -161,6 +161,17 @@
             <label>머리</label>
           </value>
         </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+      <li>##packageId##CETeam.CombatExtended_steam</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
         <li Class="PatchOperationReplace">
           <success>Always</success>
           <xpath>/Defs/ThingDef[defName="USAC_Mech_Gonk"]/tools/li[2]/label</xpath>
