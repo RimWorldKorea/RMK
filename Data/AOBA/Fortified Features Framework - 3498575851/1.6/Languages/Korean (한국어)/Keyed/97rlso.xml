@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FFF.AccessKeyDoor.Locked>출입 잠김</FFF.AccessKeyDoor.Locked>
+  <FFF.AccessKeyDoor.LockedKeysRemaining>출입 잠김: 출입 키를 {0}회 더 사용해야 함</FFF.AccessKeyDoor.LockedKeysRemaining>
+  <FFF.AccessKeyDoor.Unlocked>{0}(이)가 출입 키를 인식하고 열립니다.</FFF.AccessKeyDoor.Unlocked>
+  <FFF_Alert_AlertLevel_Label>경보 단계 {0}</FFF_Alert_AlertLevel_Label>
+  <FFF_Alert_AlertLevel_Label_Triggered>경보 발동!</FFF_Alert_AlertLevel_Label_Triggered>
+  <FFF_Alert_AlertLevel_Desc>이 지도의 경보 감지 건물이 보안 경보 단계를 {0}까지 높였습니다.\n\n경보 단계가 최대치에 도달하면 자동 대응 체계가 발동합니다. 스캐너를 무력화하면 경보 단계가 서서히 낮아집니다.\n\n감시 대상 건물: {1}</FFF_Alert_AlertLevel_Desc>
+  <FFF_Alert_AlertLevel_Desc_Triggered>보안 경보 단계가 최대치에 도달해 자동 대응 체계가 작동 중입니다.\n\n감시 대상 건물: {0}</FFF_Alert_AlertLevel_Desc_Triggered>
+  <FFF.AmmoSwitch.Label>{0}</FFF.AmmoSwitch.Label>
+  <FFF.AmmoSwitch.Desc>클릭하여 탄약 종류 전환</FFF.AmmoSwitch.Desc>
+  <FFF.AmmoSwitch.AmmoTooltip>{0} - {1}</FFF.AmmoSwitch.AmmoTooltip>
+  <FFF.AmmoSwitch.DefaultAmmo>기본 탄약</FFF.AmmoSwitch.DefaultAmmo>
+  <FFF.AmmoSwitch.DefaultProjectile>기본 투사체</FFF.AmmoSwitch.DefaultProjectile>
+  <FFF.AmmoSwitch.StatFactor>정확도 계수</FFF.AmmoSwitch.StatFactor>
+  <FFF.AmmoSwitch.UsingDefault>기본값 사용</FFF.AmmoSwitch.UsingDefault>
+  <FFF.CancelActiveBill>작업 취소</FFF.CancelActiveBill>
+  <FFF.CancelActiveBillDesc>현재 작업중인 내용을 취소합니다. 재료가 반환되고 전력을 소모하지 않습니다.</FFF.CancelActiveBillDesc>
+  <FFF.Autofacturer.WorkerCanceled>현재 실행 중인 작업이 취소되었지만, 작동을 멈추기 위해 조작을 해야합니다.</FFF.Autofacturer.WorkerCanceled>
+  <FFF.Autofacturer.WorkerDone>{0} 완료됨</FFF.Autofacturer.WorkerDone>
+  <FFF.Autofacturer.CurrentRecipe>현재 작업 : {0}</FFF.Autofacturer.CurrentRecipe>
+  <FFF.Autofacturer.WorkerFinished>현재 실행 중인 작업이 완료되었습니다. 작업할 정착민이 필요합니다.</FFF.Autofacturer.WorkerFinished>
+  <FFF.Autofacturer.Information>남은 작업량 : {0}\n남은 작업단계 : {1}</FFF.Autofacturer.Information>
+  <FFF.Autofacturer.Prepared>완료됨. 정착민의 작업 필요</FFF.Autofacturer.Prepared>
+  <FFF.StopWarmup>방송 중지</FFF.StopWarmup>
+  <FFF.StartWarmup>방송 시작</FFF.StartWarmup>
+  <FFF.NotCooldown>시작 불가: 재사용 대기 중</FFF.NotCooldown>
+  <FFF.WillReadyAt>방송 완료 시간:</FFF.WillReadyAt>
+  <FFF.WillCooldownAt>재사용 대기 시간:</FFF.WillCooldownAt>
+  <FFF.BuildingMover.Dir0>전진</FFF.BuildingMover.Dir0>
+  <FFF.BuildingMover.Dir1>후진</FFF.BuildingMover.Dir1>
+  <FFF.BuildingMover.Dir2>오른쪽 이동</FFF.BuildingMover.Dir2>
+  <FFF.BuildingMover.Dir3>왼쪽 이동</FFF.BuildingMover.Dir3>
+  <FFF.BuildingMover.Desc>목적지가 비어 있으면 이 구조물이 바라보는 방향을 따라 이동합니다.</FFF.BuildingMover.Desc>
+  <FFF.BuildingMover.Blocked>목적지가 막혀 있습니다.</FFF.BuildingMover.Blocked>
+  <FFF.BuildingMover.Rotate>회전</FFF.BuildingMover.Rotate>
+  <FFF.BuildingMover.RotateDesc>공간이 있으면 이 구조물을 시계 방향으로 회전합니다.</FFF.BuildingMover.RotateDesc>
+  <FFF.BuildingMover.Place.Toggle>왕복 궤도: 앞뒤로 왕복</FFF.BuildingMover.Place.Toggle>
+  <FFF.BuildingMover.Place.OneWay>바라보는 방향을 따라 이동</FFF.BuildingMover.Place.OneWay>
+  <FFF.BuildingMover.Place.Crush>경로상의 장애물을 분쇄</FFF.BuildingMover.Place.Crush>
+  <FFF.BuildingMover.Place.Mine>분쇄하며 통과한 광맥을 채굴</FFF.BuildingMover.Place.Mine>
+  <DMS.MachineCabinet.Door.Open>문 열기</DMS.MachineCabinet.Door.Open>
+  <DMS.MachineCabinet.Door.Close>문 닫기</DMS.MachineCabinet.Door.Close>
+  <DMS.MachineCabinet.Door.OpenDesc>옆으로 미끄러져 열립니다. 경로에 있는 대상은 밀려나며 타박상을 입습니다.</DMS.MachineCabinet.Door.OpenDesc>
+  <DMS.MachineCabinet.Charge.Label>파쇄 돌진!</DMS.MachineCabinet.Charge.Label>
+  <DMS.MachineCabinet.Charge.Desc>전방으로 돌진해 경로의 모든 것을 짓뭉개고 암석에서 광물을 뜯어냅니다.</DMS.MachineCabinet.Charge.Desc>
+  <FFF_CompContinuousDamager_Activate>활성화</FFF_CompContinuousDamager_Activate>
+  <FFF_CompContinuousDamager_Deactivate>비활성화</FFF_CompContinuousDamager_Deactivate>
+  <FFF_CompContinuousDamager_Desc>이 장치를 활성화합니다. {1}초 동안 일정 간격마다 {0}만큼의 {2} 피해를 주고 스스로 파괴됩니다.</FFF_CompContinuousDamager_Desc>
+  <FFF_CompContinuousDamager_Remaining>활성화됨 — 남은 시간: {0}</FFF_CompContinuousDamager_Remaining>
+  <FFF_NoContinuousDamagerComp>이 건물에서 지속 피해 구성요소를 찾을 수 없습니다.</FFF_NoContinuousDamagerComp>
+  <FFF_ContinuousDamagerAlreadyActive>장치가 이미 활성화되어 있습니다.</FFF_ContinuousDamagerAlreadyActive>
+  <FFF_ArmThermiteDevice>기폭 준비</FFF_ArmThermiteDevice>
+  <FFF.DamageBlocker.Charges>차단 횟수: {0}/{1}</FFF.DamageBlocker.Charges>
+  <FFF.DamageBlocker.Replenish>재정비 ({0} x{1})</FFF.DamageBlocker.Replenish>
+  <FFF.DamageBlocker.Threshold>피해 기준치: {0}{1}</FFF.DamageBlocker.Threshold>
+  <FFF.DamageBlocker.Absorbed>피해가 흡수되었습니다.</FFF.DamageBlocker.Absorbed>
+  <FFF.DamageBlocker.Stat.Category>피해량 기반 방호</FFF.DamageBlocker.Stat.Category>
+  <FFF.DamageBlocker.Stat.Threshold>피해 기준치</FFF.DamageBlocker.Stat.Threshold>
+  <FFF.DamageBlocker.Stat.ThresholdDesc>이 방호가 활성화되는 피해량 기준입니다.</FFF.DamageBlocker.Stat.ThresholdDesc>
+  <FFF.DamageBlocker.Stat.Charges>차단 횟수</FFF.DamageBlocker.Stat.Charges>
+  <FFF.DamageBlocker.Stat.ChargesDesc>재정비가 필요해질 때까지 피해를 차단할 수 있는 횟수입니다.</FFF.DamageBlocker.Stat.ChargesDesc>
+  <FFF.DamageBlocker.Stat.Behavior>피해 대응 방식</FFF.DamageBlocker.Stat.Behavior>
+  <FFF.DamageBlocker.Stat.BehaviorDesc>피해량이 기준치 이상이거나 미만일 때 방호가 어떻게 작동하는지 나타냅니다.</FFF.DamageBlocker.Stat.BehaviorDesc>
+  <FFF.DamageBlocker.Stat.BehaviorAbove>기준치 이상: {0} ({1})</FFF.DamageBlocker.Stat.BehaviorAbove>
+  <FFF.DamageBlocker.Stat.BehaviorBelow>기준치 미만: {0} ({1})</FFF.DamageBlocker.Stat.BehaviorBelow>
+  <FFF.DamageBlocker.Stat.ActionBlock>완전 차단</FFF.DamageBlocker.Stat.ActionBlock>
+  <FFF.DamageBlocker.Stat.ActionClamp>피해량을 {0}(으)로 제한</FFF.DamageBlocker.Stat.ActionClamp>
+  <FFF.DamageBlocker.Stat.ActionPass>피해 그대로 적용</FFF.DamageBlocker.Stat.ActionPass>
+  <FFF.DamageBlocker.Stat.ConsumeYes>1회 소모</FFF.DamageBlocker.Stat.ConsumeYes>
+  <FFF.DamageBlocker.Stat.ConsumeNo>소모 없음</FFF.DamageBlocker.Stat.ConsumeNo>
+  <FFF.DamageBlocker.Stat.Filter>적용 대상</FFF.DamageBlocker.Stat.Filter>
+  <FFF.DamageBlocker.Stat.FilterDesc>이 방호가 적용되는 공격의 유형을 나타냅니다.</FFF.DamageBlocker.Stat.FilterDesc>
+  <FFF.DamageBlocker.Stat.FilterValue>적용 제한 있음</FFF.DamageBlocker.Stat.FilterValue>
+  <FFF.DamageBlocker.Stat.FilterSource>공격 유형: {0}</FFF.DamageBlocker.Stat.FilterSource>
+  <FFF.DamageBlocker.Stat.FilterAllowed>차단 대상: {0}</FFF.DamageBlocker.Stat.FilterAllowed>
+  <FFF.DamageBlocker.Stat.FilterExcluded>제외 대상: {0}</FFF.DamageBlocker.Stat.FilterExcluded>
+  <FFF.DamageBlocker.Stat.FilterWeaponTags>무기 태그: {0}</FFF.DamageBlocker.Stat.FilterWeaponTags>
+  <FFF.DamageBlocker.Stat.SourceRanged>원거리</FFF.DamageBlocker.Stat.SourceRanged>
+  <FFF.DamageBlocker.Stat.SourceMelee>근접</FFF.DamageBlocker.Stat.SourceMelee>
+  <FFF.DamageBlocker.Stat.SourceDirect>직접 피해</FFF.DamageBlocker.Stat.SourceDirect>
+  <FFF.DamageBlocker.Stat.SourceNone>없음</FFF.DamageBlocker.Stat.SourceNone>
+  <FFF.DamageBlocker.Stat.Era>반응 효과</FFF.DamageBlocker.Stat.Era>
+  <FFF.DamageBlocker.Stat.EraValue>반응 효과 {0}개</FFF.DamageBlocker.Stat.EraValue>
+  <FFF.DamageBlocker.Stat.EraTrigger>발동 시점: {0}</FFF.DamageBlocker.Stat.EraTrigger>
+  <FFF.DamageBlocker.Stat.EraEntry>{2}에 {1} 피해 {0}</FFF.DamageBlocker.Stat.EraEntry>
+  <FFF.DamageBlocker.Stat.EraEntryCond>{0}이(가) {1} 미만일 경우: {2}</FFF.DamageBlocker.Stat.EraEntryCond>
+  <FFF.DamageBlocker.Stat.EraEntryNone>반응 피해 없음</FFF.DamageBlocker.Stat.EraEntryNone>
+  <FFF.DamageBlocker.Stat.EraPartRandom>무작위 신체 부위</FFF.DamageBlocker.Stat.EraPartRandom>
+  <FFF.DamageBlocker.Stat.EraOnHit>피격 시</FFF.DamageBlocker.Stat.EraOnHit>
+  <FFF.DamageBlocker.Stat.EraOnConsume>차단 횟수 소모 시</FFF.DamageBlocker.Stat.EraOnConsume>
+  <FFF.DamageBlocker.Stat.EraOnAbove>기준치 이상</FFF.DamageBlocker.Stat.EraOnAbove>
+  <FFF.DamageBlocker.Stat.EraOnBelow>기준치 미만</FFF.DamageBlocker.Stat.EraOnBelow>
+  <FFF.DamageBlocker.Stat.EraNever>발동하지 않음</FFF.DamageBlocker.Stat.EraNever>
+  <FFF.CurrentOperator>오퍼레이터:</FFF.CurrentOperator>
+  <FFF.RequireOperator>작업자 필요</FFF.RequireOperator>
+  <FFF.BunkerFacility_EnterText>진지 진입</FFF.BunkerFacility_EnterText>
+  <FFF.BunkerFacility_ExitText>진지 이탈</FFF.BunkerFacility_ExitText>
+  <FFF.DisabledUndrafted>소집되지 않음</FFF.DisabledUndrafted>
+  <FFF.MinifiedDeployable.SelectedAreaBlocked>지역 봉쇄됨</FFF.MinifiedDeployable.SelectedAreaBlocked>
+  <FFF.Drone.NoRestrict>제한 없음</FFF.Drone.NoRestrict>
+  <FFF.Drone.AllowedArea>허가 구역</FFF.Drone.AllowedArea>
+  <FFF.Drone.AllowedAreaDesc>드론에 허가 구역을 설정하면, 배치된 드론은 플랫폼의 영역 설정을 준수합니다.</FFF.Drone.AllowedAreaDesc>
+  <FFF.Drone.NoControlPlatform>플랫폼 사용불가</FFF.Drone.NoControlPlatform>
+  <FFF.Drone.NoController>제어 불가</FFF.Drone.NoController>
+  <FFF.Drone.ControllerNotInControl>플랫폼 제어 불가</FFF.Drone.ControllerNotInControl>
+  <FFF.Drone.ControllerNotDrafted>플랫폼 소집되지 않음</FFF.Drone.ControllerNotDrafted>
+  <FFF.Drone.ControllerNotInMap>플랫폼이 맵에 존재하지 않음</FFF.Drone.ControllerNotInMap>
+  <FFF.ExplosiveOnDead>충돌 후 탑재된 폭발물이 폭발합니다.</FFF.ExplosiveOnDead>
+  <FFF.FillMechPlatform>{0} {1}개 채우기</FFF.FillMechPlatform>
+  <FFF.Drone.Return>플랫폼으로 귀환</FFF.Drone.Return>
+  <FFF.Drone.ReturnDesc>드론을 배치 플랫폼으로 복귀시키고 종료하도록 명령하면 소모된 자원이 복구됩니다.</FFF.Drone.ReturnDesc>
+  <FFF.Drone.NoPlatform>{0}에 대한 배치 플랫폼을 사용할 수 없습니다.</FFF.Drone.NoPlatform>
+  <FFF.DeployDrone>{0} 배치</FFF.DeployDrone>
+  <FFF.DeployDroneDesc>저장된 {0}을 소모하여 최대 {1}대의 {2} 드론을 배치할 수 있습니다. 플랫폼이 파괴되면 해당 플랫폼에서 제어하는 모든 {3}(이)가 종료됩니다. {4}(은)는 내부 배터리로 작동하며 배터리가 부족하면 자동으로 플랫폼으로 복귀합니다.</FFF.DeployDroneDesc>
+  <FFF.AutoDeploy>자동 배치</FFF.AutoDeploy>
+  <FFF.AutoDeployDesc>주기적으로 드론을 자동으로 배치하고 회수하도록 명령합니다.</FFF.AutoDeployDesc>
+  <FFF.AutoDeployEnabled>자동 배치 활성화</FFF.AutoDeployEnabled>
+  <FFF.WillDeployAt>배치 간격: {0}</FFF.WillDeployAt>
+  <FFF.RetractDrones>모든 {0} 회수하기</FFF.RetractDrones>
+  <FFF.RetractDronesDesc>해당 플랫폼이 제어하는 모든 {0}을 회수해 {1} 소모량을 보충합니다.</FFF.RetractDronesDesc>
+  <FFF.Message.BillSuspended>{1}의 {0}(이)가 중단되었습니다.</FFF.Message.BillSuspended>
+  <FFF.Cannot.TableNotInCleanRoom>작업 불가: 청결도가 {1}보다 높은 먼지 없는 환경이 필요합니다. 현재: {0}</FFF.Cannot.TableNotInCleanRoom>
+  <FFF.Cannot.TableNotInTemperatureBetween>온도가 {1}~{2} 사이여야 합니다. 현재: {0}</FFF.Cannot.TableNotInTemperatureBetween>
+  <FFF.Cannot.TableNotInLightnessBetween>밝기가 {1}~{2} 사이여야 합니다. 현재: {0}</FFF.Cannot.TableNotInLightnessBetween>
+  <FFF.Cannot.TableNotInLightness>밝기가 {1} 이상이어야 합니다. 현재: {0}</FFF.Cannot.TableNotInLightness>
+  <FFF.Cannot.TableNotInDarkness>작업 불가: 밝기가 {1}보다 낮은 어두운 환경이 필요합니다. 현재: {0}</FFF.Cannot.TableNotInDarkness>
+  <FFF.Cannot.TableNotInPressureBetween>진공도가 {1}~{2} 범위인 환경이 필요합니다. 현재: {0}</FFF.Cannot.TableNotInPressureBetween>
+  <FFF.Cannot.TableNotInPressure>진공도가 {1} 이하인 환경이 필요합니다. 현재: {0}</FFF.Cannot.TableNotInPressure>
+  <FFF.Cannot.TableNotInVacuum>작업 불가: 진공도가 {1}보다 높은 저압 환경이 필요합니다. 현재: {0}</FFF.Cannot.TableNotInVacuum>
+  <FFF.Cannot.TableNotInMicroGravity>작업 불가: 미세 중력 환경 필요</FFF.Cannot.TableNotInMicroGravity>
+  <FFF.EnvironmentRestriction>필요 환경</FFF.EnvironmentRestriction>
+  <FFF.CleanRoom>실내 청결도: {0} 이상</FFF.CleanRoom>
+  <FFF.Temperature>실내 온도 범위: {0} ~ {1}</FFF.Temperature>
+  <FFF.LightnessDarkness>실내 밝기 범위: {0} ~ {1}</FFF.LightnessDarkness>
+  <FFF.Lightness>실내 밝기: {0} 이상</FFF.Lightness>
+  <FFF.Darkness>실내 밝기: {0} 이하</FFF.Darkness>
+  <FFF.PressureVacuum>진공도 범위: {0} ~ {1}</FFF.PressureVacuum>
+  <FFF.Pressure>진공도: {0} 이하</FFF.Pressure>
+  <FFF.Vacuum>진공도: {0} 이상</FFF.Vacuum>
+  <FFF.MicroGravity>미세 중력</FFF.MicroGravity>
+  <FFF.PressureRestriction>최소 기압: {0}</FFF.PressureRestriction>
+  <FFF.Cannot.TableEnvironmentUnknown>작업대 주변의 환경을 확인할 수 없습니다.</FFF.Cannot.TableEnvironmentUnknown>
+  <FFF.EnvironmentExemption.Label>환경 조건 면제</FFF.EnvironmentExemption.Label>
+  <FFF.EnvironmentExemption.Desc>이 시설이 연결된 상태로 작동 중이면, 연결된 작업대에서 사용하는 제작법의 환경 조건을 면제하거나 완화합니다.</FFF.EnvironmentExemption.Desc>
+  <FFF.EnvironmentExemption.Inactive>비활성</FFF.EnvironmentExemption.Inactive>
+  <FFF.EnvironmentExemption.NoneLabel>없음</FFF.EnvironmentExemption.NoneLabel>
+  <FFF.EnvironmentExemption.StatusLine>면제 항목: {0}</FFF.EnvironmentExemption.StatusLine>
+  <FFF.EnvironmentExemption.RecipeNote>(연결된 시설에 의해 면제될 수 있음)</FFF.EnvironmentExemption.RecipeNote>
+  <FFF.EnvironmentExemption.Cleanliness>청결도</FFF.EnvironmentExemption.Cleanliness>
+  <FFF.EnvironmentExemption.Temperature>온도</FFF.EnvironmentExemption.Temperature>
+  <FFF.EnvironmentExemption.Lightness>밝기</FFF.EnvironmentExemption.Lightness>
+  <FFF.EnvironmentExemption.Darkness>어두움</FFF.EnvironmentExemption.Darkness>
+  <FFF.EnvironmentExemption.Pressure>기압</FFF.EnvironmentExemption.Pressure>
+  <FFF.EnvironmentExemption.Vacuum>진공도</FFF.EnvironmentExemption.Vacuum>
+  <FFF.EnvironmentExemption.MicroGravity>미세중력</FFF.EnvironmentExemption.MicroGravity>
+  <FFF.EnvironmentExemption.CleanlinessOffset>청결도 -{0}</FFF.EnvironmentExemption.CleanlinessOffset>
+  <FFF.EnvironmentExemption.TemperatureOffset>온도 ±{0}</FFF.EnvironmentExemption.TemperatureOffset>
+  <FFF.EnvironmentExemption.LightnessOffset>밝기 -{0}</FFF.EnvironmentExemption.LightnessOffset>
+  <FFF.EnvironmentExemption.DarknessOffset>어두움 +{0}</FFF.EnvironmentExemption.DarknessOffset>
+  <FFF.EnvironmentExemption.PressureOffset>기압 +{0}</FFF.EnvironmentExemption.PressureOffset>
+  <FFF.EnvironmentExemption.VacuumOffset>진공도 -{0}</FFF.EnvironmentExemption.VacuumOffset>
+  <FFF_PaintSystemTitle>도색 및 색상 시스템</FFF_PaintSystemTitle>
+  <FFF_ChangePaint>도색 변경</FFF_ChangePaint>
+  <FFF_ChangePaintDesc>사용자 지정 도색 화면을 엽니다.</FFF_ChangePaintDesc>
+  <FFF_NoDye>근처에 사용 가능한 염료 없음</FFF_NoDye>
+  <FFF_CancelPaint>도색 취소</FFF_CancelPaint>
+  <FFF_CancelPaintDesc>예약된 도색 작업을 취소합니다.</FFF_CancelPaintDesc>
+  <FFF_PaintRequestSent>도색 작업이 지정되었습니다.</FFF_PaintRequestSent>
+  <FFF_ConfirmPaint>색상 확정</FFF_ConfirmPaint>
+  <FFF_CamoScheme>위장무늬</FFF_CamoScheme>
+  <FFF_2Columns>2열</FFF_2Columns>
+  <FFF_4Columns>4열</FFF_4Columns>
+  <FFF_6Columns>6열</FFF_6Columns>
+  <FFF_CamoStandard>기본</FFF_CamoStandard>
+  <FFF_CamoStandardDesc>기본 (위장무늬 없음)</FFF_CamoStandardDesc>
+  <FFF_Color1>색상 1 (R)</FFF_Color1>
+  <FFF_Color2>색상 2 (G)</FFF_Color2>
+  <FFF_Color3>색상 3 (B)</FFF_Color3>
+  <FFF_Red>빨강</FFF_Red>
+  <FFF_Green>초록</FFF_Green>
+  <FFF_Blue>파랑</FFF_Blue>
+  <FFF_BaseBrightness>기본 밝기</FFF_BaseBrightness>
+  <FFF_OverlayMultiply> [곱하기]</FFF_OverlayMultiply>
+  <FFF_OverlayDirect> [직접]</FFF_OverlayDirect>
+  <FFF_OverlayTitle>오버레이</FFF_OverlayTitle>
+  <FFF_OverlayNone>오버레이 없음</FFF_OverlayNone>
+  <FFF_CopyPaintConfig>설정 복사</FFF_CopyPaintConfig>
+  <FFF_PaintConfigCopied>설정이 복사되었습니다.</FFF_PaintConfigCopied>
+  <FFF_PastePaintConfig>설정 붙여넣기</FFF_PastePaintConfig>
+  <FFF_PastePaintConfigDesc>복사한 도색 설정을 붙여넣습니다.</FFF_PastePaintConfigDesc>
+  <FFF_TimedSite_AlreadyActive>동일 유형의 작전이 이미 진행 중입니다.</FFF_TimedSite_AlreadyActive>
+  <FFF_TimedSite_CannotFindSite>목표를 찾을 수 없습니다. 세계 지도에서 유효한 지점을 발견하지 못했습니다.</FFF_TimedSite_CannotFindSite>
+  <FFF_TimedSite_ExpiredLabel>목표 지점 상실</FFF_TimedSite_ExpiredLabel>
+  <FFF_TimedSite_ExpiredText>작전 기한이 끝났습니다. 목표 지점이 이동하여 위치를 알 수 없습니다.</FFF_TimedSite_ExpiredText>
+  <FFF_TimedSite_ClearedLabel>지점 확보</FFF_TimedSite_ClearedLabel>
+  <FFF_TimedSite_ClearedText>지점의 모든 적대 세력을 무력화했습니다. 현장에 남은 것은 모두 당신의 몫입니다.</FFF_TimedSite_ClearedText>
+  <FFF_TimedSite_EntryCountdownLabel>적대 지점: 지원군 접근 중</FFF_TimedSite_EntryCountdownLabel>
+  <FFF_TimedSite_EntryCountdownText>적대 시설에 진입하여 존재가 발각되었습니다.\n\n적 지원군이 {0} 후 도착합니다. 용무를 마치고 철수하거나, 자리를 지키며 맞서십시오.</FFF_TimedSite_EntryCountdownText>
+  <FFF.MountedWeapon>장착된 무기</FFF.MountedWeapon>
+  <FFF.MountedWeaponCanOnlyBeEquippedBySpecificApparelOrRaces>이 무기는 나열된 오토마트로이드 또는 메카노이드 프레임에만 장착할 수 있습니다.</FFF.MountedWeaponCanOnlyBeEquippedBySpecificApparelOrRaces>
+  <FFF.WeaponCanBeEquippedBySpecificApparelOrRaces>이 무기는 나열된 특정 의상 또는 생체공학 장비를 착용해야 사용할 수 있습니다.</FFF.WeaponCanBeEquippedBySpecificApparelOrRaces>
+  <FFF.Req_TechLevel>다음 기술 수준에 해당해야 함:</FFF.Req_TechLevel>
+  <FFF.Req_BodySize>요구 신체크기가 {0} 이하인 중화기를 장비할 수 있음</FFF.Req_BodySize>
+  <FFF.Req_WeaponFilter>아래에 명시된 무기만 사용 가능</FFF.Req_WeaponFilter>
+  <FFF.Req_NoWeaponFilter>그 외 무기에는 제한 없음</FFF.Req_NoWeaponFilter>
+  <FFF.BodysizeNotSupported>신체크기 지원 안함 ({0} 이상 필요)</FFF.BodysizeNotSupported>
+  <FFF.ViewUsableWeapons>사용 가능한 무기 보기</FFF.ViewUsableWeapons>
+  <FFF.WeaponNotSupported>지원하지 않는 무기</FFF.WeaponNotSupported>
+  <FFF.FrameNotSupported>지원하지 않는 메카노이드 프레임</FFF.FrameNotSupported>
+  <FFF_InternalBattery>내장 배터리</FFF_InternalBattery>
+  <FFF_SelfPowered>자체 동력</FFF_SelfPowered>
+  <FFF_BatteryFull>가득 참</FFF_BatteryFull>
+  <FFF.WillTerminateTheBetrayedUnit>데드맨 스위치 : 트리거 발동됨</FFF.WillTerminateTheBetrayedUnit>
+  <FFF.Reason.NoMechanitorInMap>메카나이터가 필요합니다</FFF.Reason.NoMechanitorInMap>
+  <FFF.Reason.NotMechanitor>메카나이터 필요</FFF.Reason.NotMechanitor>
+  <FFF.Message.BandwidthSupported>궤도 다운링크가 메카나이터와 연결되었습니다.</FFF.Message.BandwidthSupported>
+  <FFF.Reason.NoPayloadCapacity>소지품 가득참</FFF.Reason.NoPayloadCapacity>
+  <FFF.TakeToInventory>{0} 줍기</FFF.TakeToInventory>
+  <FFF.DropGears>내려놓기</FFF.DropGears>
+  <FFF.Reason.WorkTypeDisabled>작업 비활성화됨</FFF.Reason.WorkTypeDisabled>
+  <FFF.Reason.NeedBandwidth>대역폭 필요:{0}</FFF.Reason.NeedBandwidth>
+  <FFF.Reason.AltitudeLayerOccupied>해당 위치에 다른 물체가 있습니다</FFF.Reason.AltitudeLayerOccupied>
+  <FFF.Reason.NoEnoughFuel>연료 부족</FFF.Reason.NoEnoughFuel>
+  <FFF.Reason.NotFueled>연료 없음</FFF.Reason.NotFueled>
+  <FFF.DeactivatedMech_Disable>메카노이드 비활성화</FFF.DeactivatedMech_Disable>
+  <FFF.DeactivatedMech_TryHack>{0} 해킹 시도</FFF.DeactivatedMech_TryHack>
+  <FFF.DeactivatedMech_CannotHack>해킹 불가</FFF.DeactivatedMech_CannotHack>
+  <FFF.BillRequires.Mass>총질량이 {0}을 초과해야 합니다.</FFF.BillRequires.Mass>
+  <FFF.BillRequires.MarketValue>총 시장 가치가 {0}을 초과해야 합니다.</FFF.BillRequires.MarketValue>
+  <FFF.MechReturn>방황하던 메카노이드 복귀함</FFF.MechReturn>
+  <FFF.MechReturnDesc>당신의 지휘를 받던 방랑 메카노이드가 기지로 돌아왔습니다.</FFF.MechReturnDesc>
+  <FFF.MechWake>스위치 재설정 실패</FFF.MechWake>
+  <FFF.MechWakeDesc>오랫동안 방황한 탓인지, 데드맨 스위치가 평소처럼 초기화되지 않았고, 결함 있는 유닛은 죽음이라는 개념을 이해하게 되었습니다.\n\n그 유닛은 스스로 이름을 지었고, 이제는 통제를 거부하지만 과거의 지휘관을 존중하고 있습니다.\n\n그 유닛은 떠나기로 결정할 때까지 당신의 명령을 따를 것입니다.</FFF.MechWakeDesc>
+  <FFF.MechStartLeave>{0} 떠남</FFF.MechStartLeave>
+  <FFF.MechStartLeaveDesc>어느 정도 시간을 함께 보낸 후, {0}(은)는 떠날 때가 되었다고 결정했습니다.</FFF.MechStartLeaveDesc>
+  <FFF.WokenMechLeave>{0} 떠남</FFF.WokenMechLeave>
+  <FFF.WokenMechLeaveDesc>어느 정도 시간을 함께 보낸 후, {0}(은)는 떠날 때가 되었다고 결정했습니다.</FFF.WokenMechLeaveDesc>
+  <FFF.MechStory_Attack>{0}의 후일담</FFF.MechStory_Attack>
+  <FFF.MechStory_Loot>{0}의 보답</FFF.MechStory_Loot>
+  <FFF.APS_TickRemain>APS 남은 시간: {0}</FFF.APS_TickRemain>
+  <FFF.WeaponImprinted>각인됨: {0}({1})</FFF.WeaponImprinted>
+  <FFF.Inprinted>각인됨: {0}</FFF.Inprinted>
+  <FFF.InprintedDesc>정착지의 메카노이드 {0}(은)는 최초로 장착한 무기에 적응하여, 해당 유형의 무기에 학습 능력이 고정되었습니다.</FFF.InprintedDesc>
+  <FFF.AirSupportFromClosestBase>{0}에서 출격한 {1}이 접근 중입니다.</FFF.AirSupportFromClosestBase>
+  <FFF.Armor.CE>{0}mmRha 방어도</FFF.Armor.CE>
+  <FFF.Armor.Vanilla>{0}% 방어도</FFF.Armor.Vanilla>
+  <FFF.ScenPart_SelectPrefabDef>구조물 선택</FFF.ScenPart_SelectPrefabDef>
+  <FFF.Message.CannotPlaceWithoutWall>벽 또는 문에 설치해야 합니다</FFF.Message.CannotPlaceWithoutWall>
+  <FFF.Message.MustOnACoverBuilding>엄폐물에 설치해야 합니다</FFF.Message.MustOnACoverBuilding>
+  <FFF_NextRaidIn>다음 습격까지 예상 시간: {0}</FFF_NextRaidIn>
+  <FFF_NextStrikeIn>다음 공습까지 예상 시간: {0}</FFF_NextStrikeIn>
+  <FFF_NextStrikeStatus>항공 지원 상태: {0}</FFF_NextStrikeStatus>
+  <FFF_Status_Standby>대기 중 (표적 지정 대기)</FFF_Status_Standby>
+  <FFF_Site_LocalMonitoring>현지 감시 중 (오프라인)</FFF_Site_LocalMonitoring>
+  <FFF.DeactivateMech>비활성화</FFF.DeactivateMech>
+  <FFF.DeactivateMechDesc>이 메카노이드를 동면 모드로 전환합니다. 이후 메카나이터가 다시 활성화할 때까지, 휴면 구조물 상태로 유지됩니다.</FFF.DeactivateMechDesc>
+  <FFF.MechDeactivated>{0}(이)가 동면 모드에 들어갔습니다.</FFF.MechDeactivated>
+  <FFF.MechActivated>{0}(이)가 활성화되었으며, 이제 {1}의 통제하에 있습니다.</FFF.MechActivated>
+  <FFF.ContainsMech>내용물: {0}</FFF.ContainsMech>
+  <FFF.CannotReach>접근 불가</FFF.CannotReach>
+  <FFF.NeedMoreBandwidth>이 메카노이드를 통제하려면 대역폭 {0}이 필요합니다.</FFF.NeedMoreBandwidth>
+  <FFF.DeactivatedMech_Control>{0} 통제</FFF.DeactivatedMech_Control>
+  <FFF.DeactivatedMech_CannotControl>통제할 수 없음</FFF.DeactivatedMech_CannotControl>
+  <FFF.HackFailed>해킹 실패</FFF.HackFailed>
+  <FFF.HackFailedDesc>{0}(이)가 메카노이드 해킹에 실패했습니다. 메카노이드가 깨어나 적대 상태가 되었습니다!</FFF.HackFailedDesc>
+  <FFF.Mothball.Reason.NotSpawned>배치되지 않음</FFF.Mothball.Reason.NotSpawned>
+  <FFF.Mothball.Reason.NotMech>메카노이드가 아님</FFF.Mothball.Reason.NotMech>
+  <FFF.Mothball.Reason.NotPlayer>플레이어 통제하에 있지 않음</FFF.Mothball.Reason.NotPlayer>
+  <FFF.Mothball.Reason.Drafted>소집 중에는 보관 처리 불가</FFF.Mothball.Reason.Drafted>
+  <FFF.Mothball.Reason.Downed>쓰러진 상태에서는 보관 처리 불가</FFF.Mothball.Reason.Downed>
+  <FFF.Mothball.Reason.NoCapsule>이 동체에 맞는 보관 프레임 없음</FFF.Mothball.Reason.NoCapsule>
+  <FFF_Camouflage_Label>위장</FFF_Camouflage_Label>
+  <FFF_Camouflage_Desc>위장 모드를 전환합니다.</FFF_Camouflage_Desc>
+  <FFF_Camouflage_CooldownDesc>위장 재설정까지 남은 시간: {0}.</FFF_Camouflage_CooldownDesc>
+  <FFF_MessageLadarTriggered>경계 스캐너가 투명 상태의 생물을 감지했습니다.</FFF_MessageLadarTriggered>
+  <FFF_LadarDetectedInvisible>근처에 투명 물체 있음</FFF_LadarDetectedInvisible>
+  <FFF.Reason.WeaponNotSupported>지원하지 않는 무기 체계입니다.</FFF.Reason.WeaponNotSupported>
+  <FFF.Reason.FrameNotSupported>지원하지 않는 프레임입니다.</FFF.Reason.FrameNotSupported>
+  <FFF.Modification_RaceNotSupported>지원하지 않는 모델입니다.</FFF.Modification_RaceNotSupported>
+  <FFF.Modification_NoValidPart>개조를 적용 할 수 있는 부위가 없습니다.</FFF.Modification_NoValidPart>
+  <FFF.Modification_Remove>{0} 제거</FFF.Modification_Remove>
+  <FFF.Message.AddonBroken>메카노이드에 부착된 개조 내구도가 소진되었습니다.</FFF.Message.AddonBroken>
+  <FFF.Message.Modification.Applied>개조 적용됨</FFF.Message.Modification.Applied>
+  <FFF.Message.Modification.Removed>개조 제거됨</FFF.Message.Modification.Removed>
+  <FFF.PlatingTooltip>일회용 세라믹 장갑은 피해를 흡수하는 소모성 장갑으로서 메카노이드를 보호하며, 내구도가 소진되면 교체가 필요합니다.</FFF.PlatingTooltip>
+  <FFF.Mod.CannotUseDueToNotSupport>이곳에는 이 무기 개조 부품을 적용할 수 없습니다.</FFF.Mod.CannotUseDueToNotSupport>
+  <FFF.Mod.NotAGun>대상이 무기가 아닙니다.</FFF.Mod.NotAGun>
+  <FFF.Mod.NotModifiable>이 무기는 개조를 지원하지 않습니다.</FFF.Mod.NotModifiable>
+  <FFF.Mod.NotValidForThisWeapon>이 개조는 해당 무기에 적용할 수 없습니다.</FFF.Mod.NotValidForThisWeapon>
+  <FFF.MultiTurret.WeaponSlot>슬롯</FFF.MultiTurret.WeaponSlot>
+  <FFF.SelectWeapon>포탑 선택</FFF.SelectWeapon>
+  <FFF.MultiTurret.AttackRectTip>포탑의 표적을 선택합니다. {0}을(를) 사용하면 모든 포탑에 지정합니다. 강제 표적을 해제하려면 우클릭하십시오({0}을(를) 사용하면 모든 포탑의 표적을 해제합니다).</FFF.MultiTurret.AttackRectTip>
+  <FFF.MultiTurret.AutoAttackTip>자동 공격 모드를 전환합니다. {0}을(를) 사용하면 모든 포탑에 적용합니다.</FFF.MultiTurret.AutoAttackTip>
+  <FFF.MultiTurret.DropWeaponTip>포탑 무기를 내립니다. {0}을(를) 사용하면 모든 무기를 내립니다.</FFF.MultiTurret.DropWeaponTip>
+  <FFF.MultiTurret.SelectAmmoTypeTip>탄약 유형을 선택합니다. 현재: {0}</FFF.MultiTurret.SelectAmmoTypeTip>
+  <FFF.MultiTurret.CommandSetAmmoSettings>탄약 설정</FFF.MultiTurret.CommandSetAmmoSettings>
+  <FFF.MultiTurret.CommandSetAmmoSettingsDesc>자동 탄약 회수 설정을 지정합니다.</FFF.MultiTurret.CommandSetAmmoSettingsDesc>
+  <FFF_Occultech_SourceRemaining>불가사의 지식: {0} / {1} 남음</FFF_Occultech_SourceRemaining>
+  <FFF_Occultech_SourceDepleted>고갈됨 — 지식이 남지 않은 텅 빈 잔해</FFF_Occultech_SourceDepleted>
+  <FFF_Occultech_SourceStatLabel>지식 비축량</FFF_Occultech_SourceStatLabel>
+  <FFF_Occultech_SourceStatDesc>이 원천에서 아직 추출할 수 있는 불가사의 지식의 양입니다.</FFF_Occultech_SourceStatDesc>
+  <FFF_Occultech_ExtractorNoPower>비활성: 전력 없음</FFF_Occultech_ExtractorNoPower>
+  <FFF_Occultech_ExtractorNoSource>비활성: 전방에 지식 원천 없음</FFF_Occultech_ExtractorNoSource>
+  <FFF_Occultech_ExtractorSourceDepleted>비활성: 지식 원천 고갈</FFF_Occultech_ExtractorSourceDepleted>
+  <FFF_Occultech_ExtractorNoResearch>비활성: 진행 중인 연구 없음</FFF_Occultech_ExtractorNoResearch>
+  <FFF_Occultech_ExtractorWorking>지식 추출 중: 일일 {0} (원천 잔량: {1})</FFF_Occultech_ExtractorWorking>
+  <FFF_Occultech_ExtractorStatLabel>추출 속도</FFF_Occultech_ExtractorStatLabel>
+  <FFF_Occultech_ExtractorStatDesc>작동 중 하루에 추출하는 지식 점수입니다. 지식은 {0} 범주에 쌓이며, 넘치는 점수는 같은 연구 탭의 다음 범주로 넘어갑니다.</FFF_Occultech_ExtractorStatDesc>
+  <FFF_RaidWave_LetterLabel>습격대 도착</FFF_RaidWave_LetterLabel>
+  <FFF_RaidWave_LetterText>{0}의 습격대가 도착하여 정착지를 공격하고 있습니다.</FFF_RaidWave_LetterText>
+  <FFF_RaidWave_Alert>습격대 접근 중</FFF_RaidWave_Alert>
+  <FFF_RaidWave_AlertDesc>{0}의 습격대가 이동 중이며 곧 도착합니다.</FFF_RaidWave_AlertDesc>
+  <FFF_RaidWave_Cooldown>앞으로 {0} 동안 습격을 호출할 수 없습니다.</FFF_RaidWave_Cooldown>
+  <FFF_RaidWave_NoGameComponent>FFF: RaidWave 게임 구성요소를 찾을 수 없습니다.</FFF_RaidWave_NoGameComponent>
+  <FFF_RaidWave_ConfirmDialog>{WAVE}(을)를 호출하면 다음 병력이 정착지를 공격합니다:
+
+{PAWNS}
+
+계속하시겠습니까?</FFF_RaidWave_ConfirmDialog>
+  <FFF.ColonistCount>정착민 숫자: {0}</FFF.ColonistCount>
+  <FFF.MessageCooldownRemaining>장비 냉각중: {0} 남음</FFF.MessageCooldownRemaining>
+  <FFF.MessageDeviceReady>{0} 냉각 완료, 작업 가능</FFF.MessageDeviceReady>
+  <FFF.DeviceIntercepted>방어막 장치가 {0}의 공격을 요격했습니다.</FFF.DeviceIntercepted>
+  <FFF.Shielded>방어막 가동됨</FFF.Shielded>
+  <FFF_StructureGenerated>전개된 구조물: {0}</FFF_StructureGenerated>
+  <FFF_Substation_TurnOn>변전소 전력 복구</FFF_Substation_TurnOn>
+  <FFF_Substation_TurnOnDesc>이 변전소를 수동으로 재가동합니다. 기술 판정은 필요하지 않습니다. 위험한 건 전원을 끄는 일입니다.</FFF_Substation_TurnOnDesc>
+  <FFF_Substation_HackPrompt>해킹하여 정지</FFF_Substation_HackPrompt>
+  <FFF_Substation_HackedLabel>오프라인 (정지됨)</FFF_Substation_HackedLabel>
+  <FFF_Substation_HackedMsg>{HACKER_labelShort}(이)가 {SUBJECT_label}(을)를 정지했습니다.</FFF_Substation_HackedMsg>
+  <FFF_Substation_Online>상태: 온라인 — 3000 W 발전 중</FFF_Substation_Online>
+  <FFF_Substation_Offline>상태: 오프라인 (수동 정지)</FFF_Substation_Offline>
+  <FFF_Substation_EMPDisabled>상태: EMP로 비활성화됨</FFF_Substation_EMPDisabled>
+  <FFF_Substation_ShockMessage>{PAWN_labelShort}(이)가 변전소를 정지하던 중 감전되었습니다!</FFF_Substation_ShockMessage>
+  <FFF_RimIgnore_Title>창작마당 업로드 — 제외된 콘텐츠</FFF_RimIgnore_Title>
+  <FFF_RimIgnore_Subtitle>{0} — {1}에 따라 업로드 필터링됨</FFF_RimIgnore_Subtitle>
+  <FFF_RimIgnore_Summary>업로드 예정: {0}개 파일 ({1})\n\n제외됨: 항목 {2}개 / 파일 {3}개 ({4})</FFF_RimIgnore_Summary>
+  <FFF_RimIgnore_ColPath>항목</FFF_RimIgnore_ColPath>
+  <FFF_RimIgnore_ColSize>크기</FFF_RimIgnore_ColSize>
+  <FFF_RimIgnore_ColRule>일치한 규칙</FFF_RimIgnore_ColRule>
+  <FFF_RimIgnore_DirSize>{0}개 파일 / {1}</FFF_RimIgnore_DirSize>
+  <FFF_RimIgnore_NothingExcluded>제외된 항목이 없습니다.</FFF_RimIgnore_NothingExcluded>
+  <FFF_RimIgnore_OpenFile>.rimignore 열기</FFF_RimIgnore_OpenFile>
+  <FFF_RimIgnore_Rescan>다시 검사</FFF_RimIgnore_Rescan>
+  <FFF_RimIgnore_Confirm>업로드</FFF_RimIgnore_Confirm>
+  <FFF_RimIgnore_CannotUpload>검사가 완료되지 않았거나 업로드될 파일이 없습니다.</FFF_RimIgnore_CannotUpload>
+  <FFF_RimIgnore_RescanFailed>다시 검사에 실패했습니다.</FFF_RimIgnore_RescanFailed>
+  <FFF_RimIgnore_FileMissing>.rimignore 파일을 찾을 수 없습니다.</FFF_RimIgnore_FileMissing>
+  <FFF_RimIgnore_UploadAnyway>무시하고 모두 업로드</FFF_RimIgnore_UploadAnyway>
+  <FFF_RimIgnore_ErrorTitle>업로드 제외 규칙 처리 실패</FFF_RimIgnore_ErrorTitle>
+  <FFF_RimIgnore_MoreWarnings>… (외 {0}개)</FFF_RimIgnore_MoreWarnings>
+  <FFF_RimIgnore_RuleImplicit>[기본 제공] {0}</FFF_RimIgnore_RuleImplicit>
+  <FFF_RimIgnore_RuleLine>L{0}: {1}</FFF_RimIgnore_RuleLine>
+  <FFF_RimIgnore_ModRootLabel>[모드 루트]</FFF_RimIgnore_ModRootLabel>
+  <FFF_RimIgnore_Warn_NoPatternAfterBang>{0}행: '!' 뒤에 패턴이 없어 무시했습니다.</FFF_RimIgnore_Warn_NoPatternAfterBang>
+  <FFF_RimIgnore_Warn_SlashOnly>{0}행: 패턴이 '/'뿐이어서 무시했습니다.</FFF_RimIgnore_Warn_SlashOnly>
+  <FFF_RimIgnore_Warn_EmptyPattern>{0}행: 빈 패턴이어서 무시했습니다.</FFF_RimIgnore_Warn_EmptyPattern>
+  <FFF_RimIgnore_Warn_ParseFailed>{0}행: 패턴을 해석할 수 없어 무시했습니다({1}).</FFF_RimIgnore_Warn_ParseFailed>
+  <FFF_RimIgnore_Warn_CompileFailed>{0}행: 패턴을 컴파일하지 못해 무시했습니다({1}).</FFF_RimIgnore_Warn_CompileFailed>
+  <FFF_RimIgnore_Warn_TooManyLines>{0}의 줄 수가 {1}행을 초과하여 나머지는 건너뛰었습니다.</FFF_RimIgnore_Warn_TooManyLines>
+  <FFF_RimIgnore_Warn_DepthLimit>디렉터리 중첩이 {0}단계를 초과하여 다음 위치에서 하위 검색을 중지했습니다: {1}</FFF_RimIgnore_Warn_DepthLimit>
+  <FFF_RimIgnore_Warn_ListDirFailed>디렉터리 내용을 나열할 수 없습니다({0}): {1}</FFF_RimIgnore_Warn_ListDirFailed>
+  <FFF_RimIgnore_Warn_AttributeFailed>항목 속성을 읽을 수 없습니다({0}): {1}</FFF_RimIgnore_Warn_AttributeFailed>
+  <FFF_RimIgnore_Warn_SkippedSymlink>심볼릭 링크 / 접합점을 건너뜀: {0}</FFF_RimIgnore_Warn_SkippedSymlink>
+  <FFF_RimIgnore_Warn_EntryLimit>항목이 {0}개를 초과하여 검사가 조기에 중단되었습니다. {1}의 경로를 확인하세요.</FFF_RimIgnore_Warn_EntryLimit>
+  <FFF_RimIgnore_Err_LoadFailed>{0}을(를) 읽을 수 없어 업로드를 중단했습니다. 자세한 내용은 개발자 콘솔을 확인하세요.</FFF_RimIgnore_Err_LoadFailed>
+  <FFF_RimIgnore_Err_ScanFailed>모드 폴더를 검사할 수 없어 업로드를 중단했습니다. 자세한 내용은 개발자 콘솔을 확인하세요.</FFF_RimIgnore_Err_ScanFailed>
+  <FFF_RimIgnore_Err_Unexpected>제외 규칙을 적용하는 중 예기치 않은 오류가 발생하여 업로드를 중단했습니다. 자세한 내용은 개발자 콘솔을 확인하세요.</FFF_RimIgnore_Err_Unexpected>
+  <FFF_RimIgnore_Err_StagingFailed>스테이징 미러를 만들지 못해 업로드를 중단했습니다(원본 모드 파일은 변경되지 않았습니다).\n\n{0}</FFF_RimIgnore_Err_StagingFailed>
+  <FFF_RimIgnore_Err_PlanTruncated>검사가 완료되지 않았습니다(안전 제한 초과). 미러 생성을 중단했습니다.</FFF_RimIgnore_Err_PlanTruncated>
+  <FFF_RimIgnore_Err_NothingToUpload>{0}을(를) 적용하면 업로드할 파일이 없어 작업을 중단했습니다.</FFF_RimIgnore_Err_NothingToUpload>
+  <FFF_RimIgnore_Err_MirrorCountMismatch>미러 파일 수가 일치하지 않습니다(예상 {0}개, 실제 {1}개).</FFF_RimIgnore_Err_MirrorCountMismatch>
+  <FFF_RimIgnore_Err_StaleStagingLocked>기존 스테이징 미러를 정리할 수 없습니다: {0}</FFF_RimIgnore_Err_StaleStagingLocked>
+  <FFF_RimIgnore_Dbg_NoLocalMods>로컬 모드 폴더를 찾을 수 없습니다.</FFF_RimIgnore_Dbg_NoLocalMods>
+  <FFF_RimIgnore_Dbg_AllHaveIgnore>모든 로컬 모드에 이미 {0} 파일이 있습니다.</FFF_RimIgnore_Dbg_AllHaveIgnore>
+  <FFF_RimIgnore_Dbg_LoadFailed>{0}을(를) 읽을 수 없습니다.</FFF_RimIgnore_Dbg_LoadFailed>
+  <FFF_RimIgnore_Dbg_ScanFailed>모드 폴더를 검사할 수 없습니다.</FFF_RimIgnore_Dbg_ScanFailed>
+  <FFF_RimIgnore_Dbg_TemplateCreated>{0} 생성 완료</FFF_RimIgnore_Dbg_TemplateCreated>
+  <FFF_RimIgnore_Dbg_TemplateFailed>생성 실패. 자세한 내용은 개발자 콘솔을 확인하세요.</FFF_RimIgnore_Dbg_TemplateFailed>
+  <FFF_RimIgnore_Dbg_NoIgnoreSuffix> ({0} 없음)</FFF_RimIgnore_Dbg_NoIgnoreSuffix>
+  <FFF_RimIgnore_Template># .rimignore — Steam 창작마당에 업로드할 때 제외할 파일과 폴더
+#
+# 문법은 GitHub의 .gitignore와 동일합니다:
+#   #        주석(리터럴 해시는 \#)
+#   !xxx     다시 포함. 뒤의 규칙이 앞의 규칙보다 우선함
+#   /xxx     모드 루트를 기준으로 고정
+#   xxx/     디렉터리에만 적용
+#   *        모든 문자와 일치하지만 /는 넘지 않음
+#   ?        단일 문자와 일치하지만 /는 넘지 않음
+#   [abc]    문자 집합. [!abc]는 반전
+#   **/xxx   모든 깊이에서 일치. xxx/**는 해당 폴더 내부 전체
+#
+# 참고: Git과 마찬가지로 디렉터리가 제외되면 그 내용은 !로 다시 포함할 수 없습니다.
+# 기본적으로 항상 제외: 이 파일, .git/ .gitignore .gitattributes
+#                         .svn/ .hg/ .vs/ .idea/ .vscode/
+#                         Thumbs.db desktop.ini .DS_Store
+# 기본 제공 규칙은 !로 재정의할 수 있습니다. 예: !.rimignore를 쓰면 이 파일도 업로드됩니다.
+
+# -- 소스 코드 및 빌드 출력 --
+/_Sources/
+/Source/
+**/obj/
+**/bin/
+*.pdb
+*.csproj.user
+*.sln
+*.suo
+
+# -- Unity 프로젝트 --
+/UnityProject/
+
+# -- 개발 도구 및 바로 가기 --
+/_Tools/
+*.lnk
+*.bat
+
+# -- 편집기 및 백업 파일 --
+*.orig
+*.rej
+*.bak
+*~
+
+# -- 예시: 폴더 내용은 제외하되 파일 하나는 유지 --
+# 폴더 자체 대신 *내용*을 제외한 뒤 다시 포함합니다:
+# /Docs/*
+# !/Docs/Manual.md
+</FFF_RimIgnore_Template>
+</LanguageData>
