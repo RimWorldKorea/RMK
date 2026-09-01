@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AxolotlSectApprentice_Fire.questContentRules.rulesStrings>
+    <li>lastOrNot(lodgerCount==1)-&gt;</li>
+    <li>lastOrNot(lodgerCount&gt;=2)-&gt;마지막</li>
+    <li>lodgersPronoun(lodgerCount==1)-&gt;[asker_pronoun]이</li>
+    <li>lodgersPronoun(lodgerCount&gt;=2)-&gt;이들이</li>
+    <li>lodgersPossessive(lodgerCount==1)-&gt;[asker_possessive]</li>
+    <li>lodgersPossessive(lodgerCount&gt;=2)-&gt;이들의</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount==1)-&gt;[lodgersLabel]</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount&gt;=2)-&gt;[lodgersLabelPlural]</li>
+    <li>lodgersArriveLetterLabel-&gt;[lodgersLabelSingularOrPlural] 도착</li>
+    <li>lodgersArriveLetterText-&gt;[lodgersSingularOrPluralDef](이)가 [hasHave] 도착했습니다. [lodgersPronoun] 정비를 위해 귀하와 [questDurationTicks_duration] 동안 함께 지내게 됩니다.</li>
+    <li>hasHave(lodgerCount==1)-&gt;무사히</li>
+    <li>hasHave(lodgerCount&gt;=2)-&gt;무사히</li>
+    <li>appalledButNoAction-&gt;{PAWNSALIVECOUNT_multiple ? 다른 이들은 : 마지막 [lodgersLabel]님은} 이에 대해 경악했지만, 귀하에게 직접적인 행동을 취하지는 않습니다.</li>
+    <li>othersWillNotAccept-&gt;{PAWNSALIVECOUNT_multiple ? 다른 이들은 : 마지막 [lodgersLabel]님은} 이를 받아들일 수 없으며</li>
+    <li>turnedViolent-&gt;[othersWillNotAccept], 귀하에게 극도로 분노하고 있습니다.</li>
+    <li>decidedToLeave-&gt;[othersWillNotAccept], 결국 떠나기로 결정했습니다.</li>
+    <li>whoAskedToStay-&gt;함께 지내기를 요청한 자</li>
+    <li>oneOfThe-&gt;절망에 빠진 [whoAskedToStay] 중 한 명인</li>
+    <li>questOver-&gt;임무 '[resolvedQuestName]'(이)가 종료되었습니다.</li>
+    <li>letterIntroDeath-&gt;{SUBJECT_definite}, [oneOfThe](이)가 사망했습니다.</li>
+    <li>lodgerDiedMemoryThoughtLetterLabel-&gt;[lodgersLabel] 사망: 분노</li>
+    <li>lodgerDiedMemoryThoughtLetterText-&gt;[letterIntroDeath]\n\n[appalledButNoAction]</li>
+    <li>lodgerDiedAttackPlayerLetterLabel-&gt;[lodgersLabel] 사망: 복수</li>
+    <li>lodgerDiedAttackPlayerLetterText-&gt;[letterIntroDeath]\n\n[turnedViolent]</li>
+    <li>lodgerDiedLeaveMapLetterLabel-&gt;[lodgersLabel] 사망: 이탈</li>
+    <li>lodgerDiedLeaveMapLetterText-&gt;[letterIntroDeath]\n\n[decidedToLeave]</li>
+    <li>lodgersAllDiedLetterLabel-&gt;임무 실패</li>
+    <li>lodgersAllDiedLetterText-&gt;{SUBJECT_definite}, [lastOrNot] 절망적인 [faction_pawnSingular]([whoAskedToStay])(이)가 사망했습니다.\n\n[questOver]</li>
+    <li>letterIntroArrested-&gt;귀하가 {SUBJECT_definite}(을)를 ([oneOfThe]) 체포했습니다.</li>
+    <li>lodgerArrestedMemoryThoughtLetterLabel-&gt;[lodgersLabel] 체포: 분노</li>
+    <li>lodgerArrestedMemoryThoughtLetterText-&gt;[letterIntroArrested]\n\n[appalledButNoAction]</li>
+    <li>lodgerArrestedAttackPlayerLetterLabel-&gt;[lodgersLabel] 체포: 복수</li>
+    <li>lodgerArrestedAttackPlayerLetterText-&gt;[letterIntroArrested]\n\n[turnedViolent]</li>
+    <li>lodgerArrestedLeaveMapLetterLabel-&gt;[lodgersLabel] 체포: 이탈</li>
+    <li>lodgerArrestedLeaveMapLetterText-&gt;[letterIntroArrested]\n\n[decidedToLeave]</li>
+    <li>lodgersAllArrestedLetterLabel-&gt;임무 실패</li>
+    <li>lodgersAllArrestedLetterText-&gt;귀하가 {SUBJECT_definite}, [lastOrNot] 절망적인 [faction_pawnSingular]([whoAskedToStay])(을)를 체포했습니다.\n\n[questOver]</li>
+    <li>letterIntroLeftBehind-&gt;[oneOfThe], {SUBJECT_definite}(이)가 홀로 버려졌습니다.</li>
+    <li>lodgerLeftBehindMemoryThoughtLetterLabel-&gt;[lodgersLabel] 유기: 분노</li>
+    <li>lodgerLeftBehindMemoryThoughtLetterText-&gt;[letterIntroLeftBehind]\n\n[appalledButNoAction]</li>
+    <li>lodgerLeftBehindLeaveMapLetterLabel-&gt;[lodgersLabel] 유기: 이탈</li>
+    <li>lodgerLeftBehindLeaveMapLetterText-&gt;[letterIntroLeftBehind]\n\n[decidedToLeave]</li>
+    <li>letterIntroViolated-&gt;{SUBJECT_definite}([oneOfThe])에게 금지된 수술이 시행되었습니다.</li>
+    <li>lodgerViolatedMemoryThoughtLetterLabel-&gt;[lodgersLabel] 위약: 분노</li>
+    <li>lodgerViolatedMemoryThoughtLetterText-&gt;[letterIntroViolated]\n\n[appalledButNoAction]</li>
+    <li>lodgerViolatedAttackPlayerLetterLabel-&gt;[lodgersLabel] 위약: 복수</li>
+    <li>lodgerViolatedAttackPlayerLetterText-&gt;[letterIntroViolated]\n\n[turnedViolent]</li>
+    <li>lodgerViolatedLeaveMapLetterLabel-&gt;[lodgersLabel] 위약: 이탈</li>
+    <li>lodgerViolatedLeaveMapLetterText-&gt;[letterIntroViolated]\n\n[decidedToLeave]</li>
+    <li>letterIntroPsychicRitualTarget-&gt;{SUBJECT_definite}([oneOfThe])(이)가 의식의 제물이 되었습니다.</li>
+    <li>lodgerPsychicRitualTargetMemoryThoughtLetterLabel-&gt;[lodgersLabel] 위약: 분노</li>
+    <li>lodgerPsychicRitualTargetMemoryThoughtLetterText-&gt;[letterIntroPsychicRitualTarget]\n\n[appalledButNoAction]</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterLabel-&gt;[lodgersLabel] 위약: 복수</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterText-&gt;[letterIntroPsychicRitualTarget]\n\n[turnedViolent]</li>
+    <li>lodgerPsychicRitualTargetLeaveMapLetterLabel-&gt;[lodgersLabel] 위약: 이탈</li>
+    <li>lodgerPsychicRitualTargetLeaveMapLetterText-&gt;[letterIntroPsychicRitualTarget]\n\n[decidedToLeave]</li>
+    <li>mutinyLetterLabel-&gt;배신</li>
+    <li>mutinyLetterText-&gt;[lodgersSingularOrPluralDef]([whoAskedToStay])(이)가 귀하에게 칼을 겨눕니다!\n\n[lodgersPronoun] 이 배신을 오래전부터 계획했던 모양입니다.</li>
+    <li>areIs(lodgerCount==1)-&gt;하고</li>
+    <li>areIs(lodgerCount&gt;=2)-&gt;하고</li>
+    <li>lodgersLeavingLetterLabel-&gt;[lodgersLabelSingularOrPlural] 떠남</li>
+    <li>lodgersLeavingLetterText(uniqueLeavingLetter!=True)-&gt;[asker_nameDef]님이 [lodgersLabelSingularOrPlural](이)가 [map_definite]에서 [questDurationTicks_duration] 동안 머물 수 있게 해준 것에 대해 감사를 표합니다. [lodgersPronoun] 이제 [lodgersPossessive] 동료들과 함께 길을 떠납니다.\n\n[asker_nameDef](은)는 귀하가 베푼 은혜를 결코 잊지 않겠다고 말합니다.</li>
+    <li>lodgersLeavingLetterLabel-&gt;[lodgersLabelPlural] 떠남</li>
+    <li>lodgersLeavingLetterText-&gt;[asker_nameDef]님과 다른 담화 제자들이 [map_definite]에서 [questDurationTicks_duration] 동안 휴양을 마치고 부상을 회복했습니다. 그들은 사부에게 돌아가 처벌을 받을 준비를 합니다.\n\n[asker_nameDef](은)는 귀하의 은혜를 기억하겠다고 말합니다.</li>
+    <li>lodgersLeavingEarlyLetterLabel-&gt;[lodgersLabelPlural] 떠남</li>
+    <li>lodgersLeavingEarlyLetterText-&gt;[asker_nameDef]님이 [map_definite]에서 [questDurationTicks_duration] 동안 머물 수 있게 해준 것에 감사를 표합니다. 이제 그들은 부상을 회복하고 사부에게 돌아가 처벌을 받을 준비를 합니다.\n\n[asker_nameDef](은)는 귀하의 은혜를 기억하겠다고 말합니다.</li>
+  </AxolotlSectApprentice_Fire.questContentRules.rulesStrings>
+</LanguageData>

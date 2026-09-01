@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MDT_DepMissingUrl.label>모드 종속성에 다운로드 링크가 없습니다</MDT_DepMissingUrl.label>
+  <MDT_DepMissingUrl.description>모드는 다른 모드를 종속성으로 나열하지만 해당 모드에 대한 다운로드나 창작마당 링크를 추가하지 않았습니다. 이것은 무해합니다. 게임은 계속 실행되고 아무 문제도 발생하지 않습니다.</MDT_DepMissingUrl.description>
+  <MDT_PackageIdFormat.label>모드에 잘못된 packageId가 있습니다</MDT_PackageIdFormat.label>
+  <MDT_PackageIdFormat.description>모드의 packageId가 예상한 작성자.modname 형식(문자, 숫자, 점)이 아닙니다. 게임은 여전히 ​​이를 로드하지만 잘못된 packageId로 인해 종속성과 로드 순서 확인이 혼동될 수 있습니다.</MDT_PackageIdFormat.description>
+  <MDT_ModMetaWarning.label>모드 종속성 메타데이터가 불완전합니다</MDT_ModMetaWarning.label>
+  <MDT_ModMetaWarning.description>모드의 About.xml에 누락된 packageId, 잘못된 packageId 또는 빈 표시 이름 등 불완전한 종속성 항목이 있습니다. 플레이에는 무해하지만 종속성이 올바르게 해결되지 않을 수 있습니다.</MDT_ModMetaWarning.description>
+  <MDT_NullReference.label>null 참조 예외</MDT_NullReference.label>
+  <MDT_NullReference.description>코드 조각이 존재하지 않는 항목(널 값)을 사용하려고 했습니다. 이는 가장 일반적인 오류 유형이며 일반적으로 모드가 작성자가 예상하지 못한 상황에 직면했음을 의미합니다.</MDT_NullReference.description>
+  <MDT_MissingMember.label>메소드 또는 멤버 누락</MDT_MissingMember.label>
+  <MDT_MissingMember.description>로드된 버전에 존재하지 않는 메서드 또는 필드를 호출한 코드입니다. 이는 거의 항상 두 개의 모드가 동일한 코드의 다른 버전을 기대하거나 모드가 현재 가지고 있는 것과 다른 게임 또는 라이브러리 버전에 대해 빌드되었음을 의미합니다.</MDT_MissingMember.description>
+  <MDT_TypeLoad.label>모드가 코드를 로드하지 못했습니다.</MDT_TypeLoad.label>
+  <MDT_TypeLoad.description>모드의 어셈블리를 완전히 로드할 수 없습니다. 해당 모드의 모든 기능이 비활성화되고 해당 정의가 로드되지 않을 수 있으며, 이로 인해 더 많은 오류가 발생하는 경우가 많습니다.</MDT_TypeLoad.description>
+  <MDT_MissingTexture.label>텍스처 누락</MDT_MissingTexture.label>
+  <MDT_MissingTexture.description>게임이 존재하지 않는 이미지를 로드하려고 했습니다. 이를 필요로 하는 아이템, 폰 또는 UI 요소에는 분홍색과 검정색 자리 표시자가 표시됩니다.</MDT_MissingTexture.description>
+  <MDT_MissingAudio.label>소리가 들리지 않음</MDT_MissingAudio.label>
+  <MDT_MissingAudio.description>게임이 존재하지 않는 사운드 파일을 로드하려고 했습니다. 소리가 단순히 재생되지 않습니다.</MDT_MissingAudio.description>
+  <MDT_CrossRef.label>해결되지 않은 def 참조</MDT_CrossRef.label>
+  <MDT_CrossRef.description>def는 존재하지 않는 이름으로 다른 def를 참조합니다. 참조가 해결될 때까지 참조 콘텐츠가 손상되거나 누락됩니다.</MDT_CrossRef.description>
+  <MDT_UnknownType.label>XML의 알 수 없는 유형</MDT_UnknownType.label>
+  <MDT_UnknownType.description>def 또는 패치는 로드되지 않은 C# 클래스의 이름을 지정하므로 RimWorld는 해당 def를 빌드할 수 없으며 정의된 콘텐츠는 표시되지 않습니다.</MDT_UnknownType.description>
+  <MDT_UnknownField.label>알 수 없는 XML 필드</MDT_UnknownField.label>
+  <MDT_UnknownField.description>def 또는 패치는 해당 유형에 존재하지 않는 필드를 설정하므로 값이 무시되고 의도한 효과가 누락됩니다.</MDT_UnknownField.description>
+  <MDT_DuplicateDef.label>중복 defName</MDT_DuplicateDef.label>
+  <MDT_DuplicateDef.description>두 개의 def가 동일한 이름을 공유하므로 RimWorld는 하나만 유지하고 다른 하나는 자동으로 재정의됩니다. 이로 인해 모드가 마치 기능이 누락된 것처럼 작동하게 될 수 있습니다.</MDT_DuplicateDef.description>
+  <MDT_XmlError.label>모드의 XML 오류</MDT_XmlError.label>
+  <MDT_XmlError.description>모드의 XML 형식이 잘못되었거나 게임에서 인식하지 못하는 필드를 사용하므로 영향을 받는 정의 또는 패치를 건너뜁니다.</MDT_XmlError.description>
+  <MDT_MissingTranslation.label>번역 키 누락</MDT_MissingTranslation.label>
+  <MDT_MissingTranslation.description>모드가 현재 언어에 정의되지 않은 키로 번역된 텍스트를 요청했기 때문에 게임에 원시 키 또는 영어 대체가 표시됩니다.</MDT_MissingTranslation.description>
+  <MDT_PatchFailed.label>패치를 적용할 수 없습니다</MDT_PatchFailed.label>
+  <MDT_PatchFailed.description>모드의 XML 패치가 적용되지 않았습니다. 일반적으로 대상이 더 이상 존재하지 않거나 다른 모드가 이를 먼저 변경했기 때문에 패치된 변경 사항이 발생하지 않았습니다.</MDT_PatchFailed.description>
+  <MDT_LoadReference.label>저장된 참조를 로드할 수 없습니다.</MDT_LoadReference.label>
+  <MDT_LoadReference.description>로드하는 동안 게임에서 이름으로 참조하는 항목을 찾을 수 없습니다. 저장에서 이는 일반적으로 이전에 존재했던 모드가 현재 누락되었거나 변경되었음을 의미합니다.</MDT_LoadReference.description>
+  <MDT_HarmonyConflict.label>하모니 패치 충돌 가능성</MDT_HarmonyConflict.label>
+  <MDT_HarmonyConflict.description>오류는 게임 동작을 변경하는 데 사용하는 라이브러리 모드인 Harmony를 통해 전달됩니다. 두 모드가 호환되지 않는 방식으로 동일한 방법을 변경하면 하나가 다른 모드를 손상시킬 수 있습니다.</MDT_HarmonyConflict.description>
+  <MDT_ExceptionFillingWindow.label>UI 창에서 오류가 발생했습니다.</MDT_ExceptionFillingWindow.label>
+  <MDT_ExceptionFillingWindow.description>창의 그리기 코드에서 예외가 발생하여 RimWorld가 창을 닫거나 건너뛰었습니다. UI 패널이 사라지거나 오작동할 수 있습니다.</MDT_ExceptionFillingWindow.description>
+  <MDT_RootOnGUI.label>화면상의 그리기 후크에서 오류가 발생했습니다.</MDT_RootOnGUI.label>
+  <MDT_RootOnGUI.description>프레임별 드로우 후크가 최상위 수준에 발생했기 때문에 RimWorld는 해당 프레임 UI의 나머지 부분을 중단했습니다. 증상은 종종 관련되지 않은 여러 UI 요소가 깜박이거나 한 번에 업데이트되지 않는 것입니다.</MDT_RootOnGUI.description>
+  <MDT_Reservation.label>폰이 목표물을 예약할 수 없습니다</MDT_Reservation.label>
+  <MDT_Reservation.description>폰이 작업하려는 항목을 요청(예약)하지 못해 작업이 취소되었습니다. 이것들이 터지면 폰이 유휴 상태로 남을 수 있습니다. 맵 사이에서 폰을 이동시키는 모드의 경우 일반적으로 다른 맵의 무언가를 목표로 하는 작업을 의미합니다.</MDT_Reservation.description>
+  <MDT_JobLoop.label>폰이 작업을 시작하면서 멈췄습니다</MDT_JobLoop.label>
+  <MDT_JobLoop.description>폰은 단일 틱으로 많은 작업을 시작했는데, RimWorld는 정지를 피하기 위해 이를 멈췄습니다. 폰의 AI는 일반적으로 완료되지 않는 모드 작업이나 작업 제공자 때문에 루프에 갇히게 됩니다.</MDT_JobLoop.description>
+  <MDT_JobException.label>작업이나 틱에서 오류가 발생했습니다.</MDT_JobException.label>
+  <MDT_JobException.description>폰의 작업을 실행하는 코드 또는 틱별 업데이트에서 예외가 발생했습니다. 폰은 작업을 중단하거나, 정지하거나, 매 틱마다 오류를 반복할 수 있습니다.</MDT_JobException.description>
+  <MDT_SpawnState.label>생성 또는 소멸 상태 오류</MDT_SpawnState.label>
+  <MDT_SpawnState.description>무언가가 이미 세계에 있는 것을 생성하거나 그렇지 않은 것을 소멸시키려고 했기 때문에 해당 개체에 대한 세계 상태가 일치하지 않습니다.</MDT_SpawnState.description>
+  <MDT_CollectionModified.label>목록을 읽는 동안 변경된 목록</MDT_CollectionModified.label>
+  <MDT_CollectionModified.description>코드의 다른 부분이 반복되는 동안 코드가 컬렉션을 변경하여 실행 중인 모든 항목을 던지고 중단합니다.</MDT_CollectionModified.description>
+  <MDT_IndexRange.label>범위를 벗어난 인덱스</MDT_IndexRange.label>
+  <MDT_IndexRange.description>코드에서 목록이나 배열의 끝을 넘어서는 항목을 요청했기 때문에 해당 항목이 필요한 작업이 실패했습니다.</MDT_IndexRange.description>
+  <MDT_InvalidCast.label>잘못된 캐스트</MDT_InvalidCast.label>
+  <MDT_InvalidCast.description>코드는 객체를 객체가 아닌 유형으로 처리했습니다. 모딩 시 이는 종종 잘못된 유형에 대해 실행되는 일반 메소드의 하모니 패치로, 창의 모든 프레임에 스팸을 보낼 수 있습니다.</MDT_InvalidCast.description>
+  <MDT_KeyNotFound.label>조회 키가 누락되었습니다</MDT_KeyNotFound.label>
+  <MDT_KeyNotFound.description>코드는 키가 포함되지 않은 사전에서 키를 찾았습니다. 이는 종종 모든 데이터가 준비되기 전에 모드의 캐시가 구축되었거나 다른 모드가 예상했던 것을 제거했음을 의미합니다.</MDT_KeyNotFound.description>
+  <MDT_Argument.label>잘못된 값이 메소드에 전달되었습니다.</MDT_Argument.label>
+  <MDT_Argument.description>메서드에 허용되지 않는 인수(null 또는 허용 범위를 벗어남)가 주어졌으므로 계속하는 대신 오류가 발생합니다.</MDT_Argument.description>
+  <MDT_QuestGrammar.label>임무가 텍스트를 작성하지 못했습니다.</MDT_QuestGrammar.label>
+  <MDT_QuestGrammar.description>일반적으로 모드 임무 부분에서 값이 설정되지 않은 상태로 남아 있기 때문에 임무에서 설명 텍스트를 확인할 수 없습니다. 임무에 ERR: 또는 깨진 태그와 같은 자리 표시자 텍스트가 표시될 수 있습니다.</MDT_QuestGrammar.description>
+  <MDT_Incompatible.label>모드 호환성 또는 로드 순서 경고</MDT_Incompatible.label>
+  <MDT_Incompatible.description>모드가 다른 모드와 호환되지 않는다고 선언했거나 다른 모드 이전이나 이후에 로드해야 하며 해당 조건이 충족되지 않는다고 선언했습니다.</MDT_Incompatible.description>
+  <MDT_DefInstantiate.label>def를 만들 수 없습니다</MDT_DefInstantiate.label>
+  <MDT_DefInstantiate.description>RimWorld는 정의를 생성하거나 초기화할 수 없으므로 정의에서 설명하는 항목, 건물 또는 기능이 누락됩니다.</MDT_DefInstantiate.description>
+  <MDT_GuiState.label>UI 그리기 버그</MDT_GuiState.label>
+  <MDT_GuiState.description>모드의 UI 코드가 프레임 끝에서 텍스트 또는 GUI 상태를 잘못 유지했거나 스크롤 또는 그룹 호출과 일치하지 않았습니다. RimWorld는 프레임당 한 번씩 이를 보고합니다.</MDT_GuiState.description>
+  <MDT_DepMissingUrl.attributeRegex>^Mod (.+?) dependency</MDT_DepMissingUrl.attributeRegex>
+  <MDT_DepMissingUrl.fix>게임에서 따로 고칠 것은 없습니다. 해당 모드를 직접 만들었다면 About.xml의 그 종속성 항목에 steamWorkshopUrl 및/또는 downloadUrl을 추가하세요. 다른 사람의 모드라면 이 경고는 안전하게 무시해도 됩니다.</MDT_DepMissingUrl.fix>
+  <MDT_DepMissingUrl.keywords.0>needs to have &lt;downloadurl&gt;</MDT_DepMissingUrl.keywords.0>
+  <MDT_DepMissingUrl.regexes.0>dependency \(.*\) needs to have</MDT_DepMissingUrl.regexes.0>
+  <MDT_PackageIdFormat.attributeRegex>^Mod (.+?) &lt;packageId&gt;</MDT_PackageIdFormat.attributeRegex>
+  <MDT_PackageIdFormat.fix>해당 모드의 제작 과정에서 생긴 문제입니다. 직접 만든 모드라면 About.xml의 packageId를 yourname.modname과 같은 올바른 형식으로 설정하세요. 다른 사람의 모드라면 제작자에게 제보하세요. 일반적으로 무시해도 안전합니다.</MDT_PackageIdFormat.fix>
+  <MDT_PackageIdFormat.keywords.0>is not in valid format</MDT_PackageIdFormat.keywords.0>
+  <MDT_ModMetaWarning.attributeRegex>^Mod (.+?) has a dependency</MDT_ModMetaWarning.attributeRegex>
+  <MDT_ModMetaWarning.fix>해당 모드의 제작 과정에서 생긴 문제입니다. 직접 만든 모드라면 종속성 항목의 packageId와 displayName을 입력하세요. 다른 사람의 모드라면 무시하거나 제작자에게 제보하세요.</MDT_ModMetaWarning.fix>
+  <MDT_ModMetaWarning.keywords.0>has a dependency</MDT_ModMetaWarning.keywords.0>
+  <MDT_NullReference.fix>위의 추정 원인을 확인하세요. 특정 모드가 지목되었다면 그 모드를 업데이트해야 하거나 다른 모드와 충돌하고 있을 가능성이 큽니다. 해당 모드를 비활성화하여 원인인지 확인한 뒤, 전체 스택 추적을 제작자에게 보내세요.</MDT_NullReference.fix>
+  <MDT_MissingMember.fix>게임, 해당 모드, Harmony가 모두 최신 버전인지 확인하세요. 스택 추적에 다른 모드의 타입이 언급된다면 두 모드 간 버전 불일치가 원인일 가능성이 큽니다. 더 오래된 모드를 업데이트하거나 제거하세요.</MDT_MissingMember.fix>
+  <MDT_TypeLoad.fix>일반적으로 종속성 누락이나 버전 충돌을 의미합니다. 해당 모드에 필요한 모드가 모두 설치되어 활성화되어 있는지, 로드 순서가 올바른지, Harmony가 설치되어 있으며 최신 버전인지 확인하세요.</MDT_TypeLoad.fix>
+  <MDT_TypeLoad.keywords.0>could not load type</MDT_TypeLoad.keywords.0>
+  <MDT_TypeLoad.keywords.1>getting types in assembly</MDT_TypeLoad.keywords.1>
+  <MDT_MissingTexture.fix>해당 모드에 텍스처가 없거나 잘못된 경로를 가리키고 있습니다. 파일 이름이나 위치를 바꿨다면 원래대로 되돌리고, 그렇지 않다면 모드를 다시 설치하세요. 다른 모드를 활성화했을 때만 발생한다면 패치가 존재하지 않는 텍스처를 가리키고 있는 것입니다.</MDT_MissingTexture.fix>
+  <MDT_MissingTexture.keywords.0>could not load texture</MDT_MissingTexture.keywords.0>
+  <MDT_MissingTexture.regexes.0>Could not load .*Texture</MDT_MissingTexture.regexes.0>
+  <MDT_MissingAudio.fix>해당 모드에 오디오 파일이 없거나 잘못된 경로를 참조하고 있습니다. 모드를 다시 설치하거나, 누락된 경로를 제작자에게 제보하세요.</MDT_MissingAudio.fix>
+  <MDT_MissingAudio.keywords.0>could not load audioclip</MDT_MissingAudio.keywords.0>
+  <MDT_CrossRef.fix>필수 모드가 누락되었거나, 필요한 모드보다 나중에 로드되고 있을 가능성이 큽니다. 해당 모드의 모든 종속성이 설치되어 활성화되어 있는지 확인하고, 참조 대상 def를 제공하는 모드가 먼저 로드되도록 로드 순서를 수정하세요.</MDT_CrossRef.fix>
+  <MDT_CrossRef.keywords.0>could not resolve cross-reference</MDT_CrossRef.keywords.0>
+  <MDT_CrossRef.keywords.1>could not find def named</MDT_CrossRef.keywords.1>
+  <MDT_UnknownType.fix>해당 클래스를 제공하는 모드가 누락되었거나 로드에 실패했거나, 선택적 종속성이 설치되지 않았습니다. 필요한 모드를 설치하세요. 클래스가 지목된 모드 자체에 속한다면 그 모드의 코드가 로드되지 않은 것이므로, 앞서 발생한 어셈블리 로드 오류를 찾아보세요.</MDT_UnknownType.fix>
+  <MDT_UnknownType.keywords.0>could not find type named</MDT_UnknownType.keywords.0>
+  <MDT_UnknownType.keywords.1>is not a def type</MDT_UnknownType.keywords.1>
+  <MDT_UnknownType.keywords.2>found no type named</MDT_UnknownType.keywords.2>
+  <MDT_UnknownField.fix>해당 모드의 XML에 있는 오류입니다. 게임 업데이트로 필드 이름이 바뀌거나 필드가 제거되었을 때, 또는 패치가 잘못된 타입을 대상으로 할 때 자주 발생합니다. 모드를 업데이트하거나 제작자에게 제보하세요.</MDT_UnknownField.fix>
+  <MDT_UnknownField.keywords.0>doesn't correspond to any field</MDT_UnknownField.keywords.0>
+  <MDT_UnknownField.keywords.1>corresponds to a field but</MDT_UnknownField.keywords.1>
+  <MDT_DuplicateDef.fix>두 모드가 같은 항목을 정의했거나 패치가 이미 존재하는 def를 추가했습니다. 일반적으로 모드 충돌이므로 두 모드의 이름을 제작자들에게 제보하거나 둘 중 하나를 제거하세요.</MDT_DuplicateDef.fix>
+  <MDT_DuplicateDef.keywords.0>was defined twice</MDT_DuplicateDef.keywords.0>
+  <MDT_DuplicateDef.keywords.1>already have a def</MDT_DuplicateDef.keywords.1>
+  <MDT_DuplicateDef.keywords.2>received two defs</MDT_DuplicateDef.keywords.2>
+  <MDT_XmlError.fix>해당 모드의 데이터 파일에 있는 오류입니다. XML을 직접 수정했다면 변경 사항을 되돌리세요. 그렇지 않다면 오류 메시지 전체를 모드 제작자에게 제보하세요. 사용자 쪽에서 고칠 수 있는 문제는 없습니다.</MDT_XmlError.fix>
+  <MDT_XmlError.keywords.0>config error</MDT_XmlError.keywords.0>
+  <MDT_XmlError.keywords.1>unknown field</MDT_XmlError.keywords.1>
+  <MDT_XmlError.keywords.2>could not parse</MDT_XmlError.keywords.2>
+  <MDT_MissingTranslation.fix>무해한 오류입니다. 해당 모드에 현재 언어의 번역 항목이 없습니다. 누락된 키를 제작자에게 제보하거나, 그 문구를 확인할 때 언어를 영어로 설정하세요.</MDT_MissingTranslation.fix>
+  <MDT_MissingTranslation.keywords.0>tried to get translated string</MDT_MissingTranslation.keywords.0>
+  <MDT_MissingTranslation.keywords.1>missing translation</MDT_MissingTranslation.keywords.1>
+  <MDT_MissingTranslation.keywords.2>could not find translation</MDT_MissingTranslation.keywords.2>
+  <MDT_PatchFailed.fix>해당 모드와 다른 모드 사이의 로드 순서 또는 호환성 문제인 경우가 많습니다. 모드를 업데이트하거나 로드 순서를 조정하고, 해결되지 않으면 패치 실패를 제작자에게 제보하세요.</MDT_PatchFailed.fix>
+  <MDT_PatchFailed.keywords.0>patch operation</MDT_PatchFailed.keywords.0>
+  <MDT_PatchFailed.keywords.1>failed to find a node</MDT_PatchFailed.keywords.1>
+  <MDT_LoadReference.fix>저장 파일을 불러오는 중 발생했다면, 저장 파일이 만들어진 뒤 모드가 제거되었거나 업데이트된 것입니다. 누락된 모드를 다시 추가하거나 참조하던 콘텐츠가 사라진 상태를 감수해야 합니다. 게임 시작 중 발생했다면 종속성 누락이나 로드 순서 문제를 뜻합니다.</MDT_LoadReference.fix>
+  <MDT_LoadReference.keywords.0>could not load reference to</MDT_LoadReference.keywords.0>
+  <MDT_HarmonyConflict.fix>위의 추정 원인에서 관련 모드를 확인하세요. 모드를 하나씩 비활성화하여 충돌하는 조합을 찾은 뒤, 이 스택 추적과 함께 양쪽 제작자에게 제보하세요.</MDT_HarmonyConflict.fix>
+  <MDT_HarmonyConflict.keywords.0>wrapper dynamic-method</MDT_HarmonyConflict.keywords.0>
+  <MDT_ExceptionFillingWindow.fix>대개 모드의 UI 코드에서 발생합니다. 추정 원인과 스택 추적에서 관련 모드를 확인한 뒤 업데이트하거나 비활성화하고, 스택 추적을 제작자에게 제보하세요.</MDT_ExceptionFillingWindow.fix>
+  <MDT_ExceptionFillingWindow.keywords.0>exception filling window</MDT_ExceptionFillingWindow.keywords.0>
+  <MDT_RootOnGUI.fix>화면을 그리는 모드에 오류가 있습니다. 스택 추적으로 해당 모드를 찾고, 비활성화하여 원인인지 확인한 뒤 스택 추적을 제보하세요. 원인 분석에서 바닐라 코드만 지목하더라도 모드의 전역 그리기 후크가 원인일 가능성이 큽니다.</MDT_RootOnGUI.fix>
+  <MDT_RootOnGUI.keywords.0>root level exception in ongui</MDT_RootOnGUI.keywords.0>
+  <MDT_Reservation.fix>오류가 반복된다면 해당 작업을 제어하는 모드에 대상 지정 오류가 있는 것입니다. 폰들이 무엇을 하려 했는지 기록하고, 추정 원인이나 스택 추적에서 관련 모드를 찾아 제보하세요. 한 번만 발생했다면 대개 무해합니다.</MDT_Reservation.fix>
+  <MDT_Reservation.keywords.0>could not reserve</MDT_Reservation.keywords.0>
+  <MDT_Reservation.keywords.1>no existing reserver</MDT_Reservation.keywords.1>
+  <MDT_Reservation.keywords.2>trymakepretoilreservations returned false</MDT_Reservation.keywords.2>
+  <MDT_JobLoop.fix>해당 작업을 발생시킨 모드를 추정 원인이나 스택 추적에서 찾아 제보하세요. 임시 해결책으로 폰을 징집했다가 해제하거나 해당 모드를 제거하면 반복을 끊을 수 있습니다.</MDT_JobLoop.fix>
+  <MDT_JobLoop.keywords.0>jobs in one tick</MDT_JobLoop.keywords.0>
+  <MDT_JobLoop.keywords.1>jobs in 10 ticks</MDT_JobLoop.keywords.1>
+  <MDT_JobException.fix>해당 작업이나 컴포넌트를 소유한 모드의 오류입니다. 추정 원인과 스택 추적에서 관련 모드를 찾아 제보하거나 비활성화하세요.</MDT_JobException.fix>
+  <MDT_JobException.keywords.0>exception ticking</MDT_JobException.keywords.0>
+  <MDT_JobException.keywords.1>error in jobdriver</MDT_JobException.keywords.1>
+  <MDT_JobException.keywords.2>jobdriver threw</MDT_JobException.keywords.2>
+  <MDT_JobException.keywords.3>exception in job</MDT_JobException.keywords.3>
+  <MDT_SpawnState.fix>대개 모드가 생성 또는 소멸 처리를 잘못한 경우입니다. 오류에 나온 대상의 이름을 기록하고 스택 추적과 함께 제보하세요. 한 번만 발생한 경우에는 정상적으로 복구되는 경우가 많습니다.</MDT_SpawnState.fix>
+  <MDT_SpawnState.keywords.0>already spawned</MDT_SpawnState.keywords.0>
+  <MDT_SpawnState.keywords.1>tried to despawn</MDT_SpawnState.keywords.1>
+  <MDT_SpawnState.keywords.2>but it's unspawned</MDT_SpawnState.keywords.2>
+  <MDT_SpawnState.keywords.3>is not spawned</MDT_SpawnState.keywords.3>
+  <MDT_CollectionModified.fix>해당 모드의 스레드 처리 또는 실행 순서에 있는 오류입니다. 스택 추적을 제작자에게 제보하세요. 사용자가 직접 해결할 방법은 없습니다.</MDT_CollectionModified.fix>
+  <MDT_CollectionModified.keywords.0>collection was modified</MDT_CollectionModified.keywords.0>
+  <MDT_IndexRange.fix>해당 모드의 오류이며, 다른 모드가 예상 데이터의 구조나 내용을 변경해 문제가 드러나는 경우가 많습니다. 스택 추적을 제보하고 최근에 추가한 모드를 비활성화해 보세요.</MDT_IndexRange.fix>
+  <MDT_InvalidCast.fix>스택 추적에서 관련 모드를 찾으세요. 바닐라 창에서 매 프레임 반복된다면 모드 패치가 원인입니다. 의심되는 모드를 하나씩 비활성화하고 스택 추적을 제보하세요.</MDT_InvalidCast.fix>
+  <MDT_KeyNotFound.fix>해당 모드의 오류이거나 로드 순서 문제입니다. 스택 추적을 제보하세요. 로드 순서를 바꾸거나 모드를 업데이트하면 해결되는 경우도 있습니다.</MDT_KeyNotFound.fix>
+  <MDT_Argument.fix>해당 모드의 오류입니다. 스택 추적을 제보하세요. 모드를 추가한 뒤 발생하기 시작했다면 새로 추가한 모드가 원인을 촉발했을 가능성이 큽니다.</MDT_Argument.fix>
+  <MDT_QuestGrammar.fix>해당 임무를 추가한 모드의 오류입니다. 제작자에게 제보하세요. 임무를 거절하거나 무시해도 안전하며 정착지가 망가지지는 않습니다.</MDT_QuestGrammar.fix>
+  <MDT_QuestGrammar.keywords.0>grammar unresolvable</MDT_QuestGrammar.keywords.0>
+  <MDT_Incompatible.fix>오류 메시지의 안내에 따라 두 모드 중 하나를 제거하거나, 지목된 모드를 로드 순서에서 더 앞이나 뒤로 옮기세요. 모드 목록 정렬 도구를 사용하면 자동으로 처리할 수 있습니다.</MDT_Incompatible.fix>
+  <MDT_Incompatible.keywords.0>incompatible with</MDT_Incompatible.keywords.0>
+  <MDT_Incompatible.keywords.1>should be loaded before</MDT_Incompatible.keywords.1>
+  <MDT_Incompatible.keywords.2>should be loaded after</MDT_Incompatible.keywords.2>
+  <MDT_Incompatible.keywords.3>must be loaded</MDT_Incompatible.keywords.3>
+  <MDT_DefInstantiate.fix>대개 해당 모드의 잘못된 XML, 누락된 타입 또는 패치 충돌 때문에 발생합니다. 모드를 업데이트하고 종속성을 확인한 뒤, 계속 발생하면 오류 메시지를 제작자에게 제보하세요.</MDT_DefInstantiate.fix>
+  <MDT_DefInstantiate.keywords.0>could not instantiate or initialize a def</MDT_DefInstantiate.keywords.0>
+  <MDT_DefInstantiate.keywords.1>exception loading def</MDT_DefInstantiate.keywords.1>
+  <MDT_DefInstantiate.keywords.2>error loading def</MDT_DefInstantiate.keywords.2>
+  <MDT_GuiState.fix>해당 모드의 UI 그리기 오류입니다. 대개 시각적인 문제에 그치지만 다른 UI의 정렬까지 어긋나게 할 수 있습니다. 스택 추적을 제작자에게 제보하세요.</MDT_GuiState.fix>
+  <MDT_GuiState.keywords.0>at end of frame</MDT_GuiState.keywords.0>
+  <MDT_GuiState.keywords.1>more calls to beginscrollview</MDT_GuiState.keywords.1>
+  <MDT_GuiState.keywords.2>mouse position stack</MDT_GuiState.keywords.2>
+</LanguageData>

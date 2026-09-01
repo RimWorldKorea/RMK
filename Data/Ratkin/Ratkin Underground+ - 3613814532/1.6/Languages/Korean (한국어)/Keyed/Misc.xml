@@ -32,7 +32,6 @@
   <!-- EN: [bandit] [camp] -->
   <RKU_QuestName_2>[bandit] [camp]</RKU_QuestName_2>
   <!-- EN: [asker_nameDef] and the [camp] -->
-  <!-- EN: [asker_nameDef] 和 [camp] -->
   <RKU_QuestName_3>[asker_nameDef](와)과 [camp]</RKU_QuestName_3>
 
   <!-- Camp Type Translations -->
@@ -62,6 +61,7 @@
   <RKU_Bandit_Robber>강도</RKU_Bandit_Robber>
   <!-- EN: Brigand -->
   <RKU_Bandit_Brigand>산적</RKU_Bandit_Brigand>
+
 <!-- Quest Description Translation -->
   <!-- EN: [asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], has sent us a message. Apparently, a band of outlaws based in a nearby camp have been raiding their caravans.
   [asker_nameDef] is asking us to destroy the camp, which means eliminating all enemies and turrets. [asker_label] says that [sitePart0_description]. -->
@@ -129,6 +129,7 @@
   
   <!-- Character Name Translations -->
   <!-- EN: Zigstark -->
+  <Raeline>래일린</Raeline>
   <RKU_Zigstark>지그스타크</RKU_Zigstark>
   <!-- EN: Cheesecellar -->
   <RKU_Cheesecellar>치즈셀러</RKU_Cheesecellar>
@@ -295,6 +296,8 @@
    <!-- Drilling Vehicle Messages -->
   <!-- EN: Drilling vehicle durability is too low, cannot use! -->
   <RKU_DrillingVehicleLowDurability>드릴러 차량 내구도가 너무 낮아 사용할 수 없습니다!</RKU_DrillingVehicleLowDurability>
+  <RKU_DrillingVehicleLowFuel>드릴 차량의 연료가 부족하여 사용할 수 없습니다!</RKU_DrillingVehicleLowFuel>
+  <RKU_DrillingVehicleFuelLow>드릴 차량의 연료가 곧 고갈됩니다. 서둘러 연료를 보충해 주세요!</RKU_DrillingVehicleFuelLow>
   <!-- EN: No other colonists on the map, cannot move! -->
   <RKU_NoOtherColonistsOnMap>지도에 다른 정착민이 없어 이동할 수 없습니다!</RKU_NoOtherColonistsOnMap>
   <!-- EN: Drilling out of the drilling machine requires colonists to exist both on the map and inside the drilling machine -->
@@ -328,9 +331,9 @@
   <!-- Factory Raid Messages -->
   <!-- EN: Enemy Raid -->
   <RKU_EnemyRaid>적 습격</RKU_EnemyRaid>
-  <!-- EN: {0} is launching a raid on the factory!\nRaid Points: {1}\nTotal Enemy Deaths: {2}/800 -->
-  <!-- EN: {0} is launching a raid on the factory!\nRaid Points: {1}\nTotal Enemy Deaths: {2}/800 -->
-  <RKU_EnemyRaidDesc>{0}(이)가 공장을 습격하고 있습니다!\n습격 전력: {1}\n총 적 사망자: {2}/800.</RKU_EnemyRaidDesc>
+  <!-- EN: {0} is launching a raid on the factory!\nRaid Points: {1}\nTotal Enemy Deaths: {2}/{3} -->
+  <!-- EN: {0} is launching a raid on the factory!\nRaid Points: {1}\nTotal Enemy Deaths: {2}/{3} -->
+  <RKU_EnemyRaidDesc>{0}(이)가 공장을 습격하고 있습니다!\n습격 전력: {1}\n총 적 사망자: {2}/{3}.</RKU_EnemyRaidDesc>
 
   <!-- Burst Fire Ability Translations -->
   <!-- EN: Burst Fire -->
@@ -373,6 +376,7 @@
   <RKU_CantChangeDestination>드릴러가 이동 중일 때는 목적지를 변경할 수 없습니다.</RKU_CantChangeDestination>
   <!-- EN: War Continues -->
   <RKU_FactoryWarLetter>작전 승리?</RKU_FactoryWarLetter>
+  <RKU_QuestNeed>빨치산 우호도를 더 높여야 합니다 (만약 80레벨 퀘스트를 이미 완료했다면, 더 이상의 후속 퀘스트는 없습니다)</RKU_QuestNeed>
   <!-- EN: The troops attacking the guerrilla factory have all been eliminated, but as long as the warlords exist, the war has no possibility of stopping... -->
   <RKU_FactoryWarContinues>빨치산 공장을 공격하던 병력은 모조리 섬멸되었고, 마침내 빨치산들은 이곳에 굳건히 자리 잡았습니다. 하지만 무자비한 군벌들이 단 하루라도 숨을 쉬고 있는 한, 이 처절한 전쟁이 끝날 일은 결코 없을 것입니다.</RKU_FactoryWarContinues>
   <!-- EN: The guerrillas send a message: There is a powerful prototype weapon here, you can search for and use it. -->
@@ -381,20 +385,20 @@
   <RKU_GenerateSettled>정착지 구축됨</RKU_GenerateSettled>
   <!-- EN: With the help of nearby Ratkin residents, the Ratkin Guerrillas have established a settlement near the colony. -->
   <RKU_GenerateSettledDesc>인근 랫킨 주민들의 헌신적인 도움으로, 랫킨 빨치산 부대가 정착지 근처에 새로운 거점을 구축했습니다.</RKU_GenerateSettledDesc>
-  <RKU_QuestNeed>빨치산 우호도를 더 높여야 합니다 (만약 80레벨 퀘스트를 이미 완료했다면, 더 이상의 후속 퀘스트는 없습니다)</RKU_QuestNeed>
-
 
   <!-- Mod Settings Translations -->
   <!-- EN: Show only current dialogue messages -->
   <RKU_ShowOnlyCurrentDialogueMessages>현재 대화 메시지만 표시</RKU_ShowOnlyCurrentDialogueMessages>
   <!-- EN: When enabled, opening the radio dialogue window will clear history messages and only show content from the current conversation. When disabled, all history messages will be retained. -->
   <RKU_ShowOnlyCurrentDialogueMessagesDesc>이 옵션을 활성화하면 무전기 대화창을 열 때 이전 대화 기록이 지워지고 현재 대화 내용만 표시됩니다. 비활성화하면 모든 이전 메시지 기록이 유지됩니다.</RKU_ShowOnlyCurrentDialogueMessagesDesc>
-  <!-- EN: Adjust radio dialogue display behavior. When enabled, each time you open the radio will start a new conversation session. -->
-  <RKU_RadioDialogueBehaviorDesc>무전기 대화 표시 방식을 조정합니다. 활성화 시, 무전기를 켤 때마다 새로운 대화 세션이 시작됩니다.</RKU_RadioDialogueBehaviorDesc>
   <!-- EN: Allow rescue mechs -->
   <RKU_AllowRescueMechs>메카노이드 구조 허용</RKU_AllowRescueMechs>
   <!-- EN: When enabled, player-controlled mechs can be rescued into the drilling vehicle even if they are not downed -->
   <RKU_AllowRescueMechsDesc>이 옵션을 활성화하면 쓰러지지 않은 상태라도 플레이어가 조종하는 메카노이드를 드릴러에 탑승시킬 수 있습니다.</RKU_AllowRescueMechsDesc>
+  <!-- EN: Final Battle Max Deaths -->
+  <RKU_FinalBattleMaxDeaths>최종전 적 수 조정</RKU_FinalBattleMaxDeaths> 
+  <!-- EN: Adjust radio dialogue display behavior. When enabled, each time you open the radio will start a new conversation session. -->
+  <RKU_RadioDialogueBehaviorDesc>무전기 대화 표시 방식을 조정합니다. 활성화 시, 무전기를 켤 때마다 새로운 대화 세션이 시작됩니다.</RKU_RadioDialogueBehaviorDesc>
   <!-- EN: Unload items -->
   <RKU_UnloadItems>아이템 하역</RKU_UnloadItems>
   <!-- EN: Unload items, fill 0 to unload -->
