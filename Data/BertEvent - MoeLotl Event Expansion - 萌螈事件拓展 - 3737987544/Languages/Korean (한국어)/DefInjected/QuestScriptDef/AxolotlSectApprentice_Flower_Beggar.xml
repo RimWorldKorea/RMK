@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AxolotlSectApprentice_Flower_Beggar.questDescriptionRules.rulesStrings>
+    <li>groupLabelPlural-&gt;모단정 제자</li>
+    <li>groupLabelSingle-&gt;모단정 제자</li>
+    <li>travelerInfo(beggarCount==1)-&gt;이 [groupLabelSingle](은)는 소속이</li>
+    <li>travelerInfo(beggarCount&gt;=2)-&gt;이 [groupLabelPlural](은)는 소속이</li>
+    <li>beggingForInfo-&gt;[requestedThingCount]개의 [requestedThing_label]</li>
+    <li>questDescription-&gt;[approachInfo]\n\n[requestInfo]\n\n[claimInfo]\n\n[interactionInfo]\n\n[moveOnInfo]\n\n[travelerInfo]모에로틀 왕조입니다.</li>
+    <li>approachInfo(beggarCount==1)-&gt;모단정 복장을 한 젊은 제자가 정착지에 찾아왔습니다. 걸어오면서도 하품을 멈추지 않는 것이 세상 지치고 졸려 보입니다. 이 제자의 이름은 [beggars0_nameDef]입니다.</li>
+    <li>approachInfo(beggarCount&gt;=2)-&gt;모단정 복장을 한 젊은 제자 무리가 정착지에 찾아왔습니다. 하나같이 졸린 눈을 하고서 하품을 연달아 해 대고 있습니다. 이들은 모에로틀 왕조 모단정에서 온 수련생들입니다.</li>
+    <li>requestInfo(beggarCount==1)-&gt;[beggars0_nameDef](이)가 쑥스러워하며 [beggingForInfo] 지원을 요청합니다.</li>
+    <li>requestInfo(beggarCount&gt;=2)-&gt;무리의 우두머리인 제자가 쑥스러워하며 [beggingForInfo] 지원을 요청합니다.</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)-&gt;최근 동문들 사이에서 수업 시간에 자꾸 조는 바람에 사부가 화병으로 쓰러졌다며, 치료를 위해 약초가 절실하다고 합니다.</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)-&gt;최근 동문들 사이에서 수업 시간에 자꾸 조는 바람에 사부가 화병으로 쓰러졌다며, 치료를 위해 약품이 절실하다고 합니다.</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineUltratech)-&gt;최근 동문들 사이에서 수업 시간에 자꾸 조는 바람에 사부가 화병으로 쓰러졌다며, 치료를 위해 번화계 약품이 절실하다고 합니다.</li>
+    <li>claimInfo(beggarCount&gt;=2,requestedThingDefName==MedicineHerbal)-&gt;최근 수업 시간에 자꾸 조는 바람에 사부가 화병으로 쓰러졌다며, 치료를 위해 약초가 절실하다고 합니다.</li>
+    <li>claimInfo(beggarCount&gt;=2,requestedThingDefName==MedicineIndustrial)-&gt;최근 수업 시간에 자꾸 조는 바람에 사부가 화병으로 쓰러졌다며, 치료를 위해 약품이 절실하다고 합니다.</li>
+    <li>claimInfo(beggarCount&gt;=2,requestedThingDefName==MedicineUltratech)-&gt;최근 수업 시간에 자꾸 조는 바람에 사부가 화병으로 쓰러졌다며, 치료를 위해 번화계 약품이 절실하다고 합니다.</li>
+    <li>interactionInfo(beggarCount==1)-&gt;정착민을 선택한 뒤 [beggars0_nameDef](을)를 우클릭하여 물품을 전달할 수 있습니다.</li>
+    <li>interactionInfo(beggarCount&gt;=2)-&gt;정착민을 선택한 뒤 무리의 우두머리인 [beggars0_nameDef](을)를 우클릭하여 물품을 전달할 수 있습니다.</li>
+    <li>moveOnInfo(beggarCount==1)-&gt;[beggars0_nameDef](은)는 사부의 병환을 걱정하며 [visitDurationTicks_duration] 동안 기다릴 것입니다.</li>
+    <li>moveOnInfo(beggarCount&gt;=2)-&gt;제자들은 사부의 병환을 걱정하며 [visitDurationTicks_duration] 동안 기다릴 것입니다.</li>
+  </AxolotlSectApprentice_Flower_Beggar.questDescriptionRules.rulesStrings>
+</LanguageData>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AxolotlSectGuerilla.questContentRules.rulesStrings>
+    <li>lastOrNot(lodgerCount==1)-&gt;</li>
+    <li>lastOrNot(lodgerCount&gt;=2)-&gt;마지막</li>
+    <li>lodgersPronoun(lodgerCount==1)-&gt;[asker_pronoun]이</li>
+    <li>lodgersPronoun(lodgerCount&gt;=2)-&gt;이들이</li>
+    <li>lodgersPossessive(lodgerCount==1)-&gt;[asker_possessive]</li>
+    <li>lodgersPossessive(lodgerCount&gt;=2)-&gt;이들의</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount==1)-&gt;[lodgersLabel]</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount&gt;=2)-&gt;[lodgersLabelPlural]</li>
+    <li>lodgersArriveLetterLabel-&gt;[lodgersLabelSingularOrPlural] 도착</li>
+    <li>lodgersArriveLetterText-&gt;[lodgersSingularOrPluralDef](이)가 [hasHave] 도착했습니다. [lodgersPronoun] 정비를 위해 귀하와 [questDurationTicks_duration] 동안 함께 지내게 됩니다.</li>
+    <li>hasHave(lodgerCount==1)-&gt;무사히</li>
+    <li>hasHave(lodgerCount&gt;=2)-&gt;무사히</li>
+    <li>appalledButNoAction-&gt;{PAWNSALIVECOUNT_multiple ? 다른 이들은 : 마지막 [lodgersLabel](은)는} 이에 대해 경악했지만, 귀하에게 직접적인 행동을 취하지는 않습니다.</li>
+    <li>othersWillNotAccept-&gt;{PAWNSALIVECOUNT_multiple ? 다른 이들은 : 마지막 [lodgersLabel](은)는} 이를 받아들일 수 없으며</li>
+    <li>turnedViolent-&gt;[othersWillNotAccept], 귀하에게 극도로 분노하고 있습니다.</li>
+    <li>decidedToLeave-&gt;[othersWillNotAccept], 결국 떠나기로 결정했습니다.</li>
+    <li>whoAskedToStay-&gt;함께 지내기를 요청한 자</li>
+    <li>oneOfThe-&gt;절망에 빠진 [whoAskedToStay] 중 한 명인</li>
+    <li>questOver-&gt;임무 '[resolvedQuestName]'(이)가 종료되었습니다.</li>
+    <li>letterIntroDeath-&gt;{SUBJECT_definite}, [oneOfThe](이)가  사망했습니다.</li>
+    <li>lodgerDiedMemoryThoughtLetterLabel-&gt;[lodgersLabel] 사망: 분노</li>
+    <li>lodgerDiedMemoryThoughtLetterText-&gt;[letterIntroDeath]\n\n[appalledButNoAction]</li>
+    <li>lodgerDiedAttackPlayerLetterLabel-&gt;[lodgersLabel] 사망: 복수</li>
+    <li>lodgerDiedAttackPlayerLetterText-&gt;[letterIntroDeath]\n\n[turnedViolent]</li>
+    <li>lodgerDiedLeaveMapLetterLabel-&gt;[lodgersLabel] 사망: 이탈</li>
+    <li>lodgerDiedLeaveMapLetterText-&gt;[letterIntroDeath]\n\n[decidedToLeave]</li>
+    <li>lodgersAllDiedLetterLabel-&gt;임무 실패</li>
+    <li>lodgersAllDiedLetterText-&gt;{SUBJECT_definite}, [lastOrNot] 절망적인 [faction_pawnSingular]([whoAskedToStay])(이)가 사망했습니다.\n\n[questOver]</li>
+    <li>letterIntroArrested-&gt;귀하가 {SUBJECT_definite}(을)를 ([oneOfThe]) 체포했습니다.</li>
+    <li>lodgerArrestedMemoryThoughtLetterLabel-&gt;[lodgersLabel] 체포: 분노</li>
+    <li>lodgerArrestedMemoryThoughtLetterText-&gt;[letterIntroArrested]\n\n[appalledButNoAction]</li>
+    <li>lodgerArrestedAttackPlayerLetterLabel-&gt;[lodgersLabel] 체포: 복수</li>
+    <li>lodgerArrestedAttackPlayerLetterText-&gt;[letterIntroArrested]\n\n[turnedViolent]</li>
+    <li>lodgerArrestedLeaveMapLetterLabel-&gt;[lodgersLabel] 체포: 이탈</li>
+    <li>lodgerArrestedLeaveMapLetterText-&gt;[letterIntroArrested]\n\n[decidedToLeave]</li>
+    <li>lodgersAllArrestedLetterLabel-&gt;임무 실패</li>
+    <li>lodgersAllArrestedLetterText-&gt;귀하가 {SUBJECT_definite}, [lastOrNot] 절망적인 [faction_pawnSingular]([whoAskedToStay])(을)를 체포했습니다.\n\n[questOver]</li>
+    <li>letterIntroLeftBehind-&gt;[oneOfThe], {SUBJECT_definite}(이)가 홀로 버려졌습니다.</li>
+    <li>lodgerLeftBehindMemoryThoughtLetterLabel-&gt;[lodgersLabel] 유기: 분노</li>
+    <li>lodgerLeftBehindMemoryThoughtLetterText-&gt;[letterIntroLeftBehind]\n\n[appalledButNoAction]</li>
+    <li>lodgerLeftBehindLeaveMapLetterLabel-&gt;[lodgersLabel] 유기: 이탈</li>
+    <li>lodgerLeftBehindLeaveMapLetterText-&gt;[letterIntroLeftBehind]\n\n[decidedToLeave]</li>
+    <li>letterIntroViolated-&gt;{SUBJECT_definite}([oneOfThe])에게 금지된 생체 수술이 시행되었습니다.</li>
+    <li>lodgerViolatedMemoryThoughtLetterLabel-&gt;[lodgersLabel] 위약: 분노</li>
+    <li>lodgerViolatedMemoryThoughtLetterText-&gt;[letterIntroViolated]\n\n[appalledButNoAction]</li>
+    <li>lodgerViolatedAttackPlayerLetterLabel-&gt;[lodgersLabel] 위약: 복수</li>
+    <li>lodgerViolatedAttackPlayerLetterText-&gt;[letterIntroViolated]\n\n[turnedViolent]</li>
+    <li>lodgerViolatedLeaveMapLetterLabel-&gt;[lodgersLabel] 위약: 이탈</li>
+    <li>lodgerViolatedLeaveMapLetterText-&gt;[letterIntroViolated]\n\n[decidedToLeave]</li>
+    <li>letterIntroPsychicRitualTarget-&gt;{SUBJECT_definite}([oneOfThe])(이)가 의식의 제물이 되었습니다.</li>
+    <li>lodgerPsychicRitualTargetMemoryThoughtLetterLabel-&gt;[lodgersLabel] 위약: 분노</li>
+    <li>lodgerPsychicRitualTargetMemoryThoughtLetterText-&gt;[letterIntroPsychicRitualTarget]\n\n[appalledButNoAction]</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterLabel-&gt;[lodgersLabel] 위약: 복수</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterText-&gt;[letterIntroPsychicRitualTarget]\n\n[turnedViolent]</li>
+    <li>lodgerPsychicRitualTargetLeaveMapLetterLabel-&gt;[lodgersLabel] 위약: 이탈</li>
+    <li>lodgerPsychicRitualTargetLeaveMapLetterText-&gt;[letterIntroPsychicRitualTarget]\n\n[decidedToLeave]</li>
+    <li>mutinyLetterLabel-&gt;배신</li>
+    <li>mutinyLetterText-&gt;[lodgersSingularOrPluralDef]([whoAskedToStay])(이)가 귀하에게 칼을 겨눕니다!\n\n[lodgersPronoun] 이 배신을 오래전부터 계획했던 모양입니다.</li>
+    <li>areIs(lodgerCount==1)-&gt;하고</li>
+    <li>areIs(lodgerCount&gt;=2)-&gt;하고</li>
+    <li>lodgersLeavingLetterLabel-&gt;[lodgersLabelSingularOrPlural] 떠남</li>
+    <li>lodgersLeavingLetterText(uniqueLeavingLetter!=True)-&gt;[asker_nameDef]님이 [lodgersLabelSingularOrPlural](이)가 [map_definite]에서 [questDurationTicks_duration] 동안 머물 수 있게 해준 것에 대해 감사를 표합니다. [lodgersPronoun] 이제 [lodgersPossessive] 동료들과 함께 길을 떠납니다.\n\n[asker_nameDef](은)는 귀하가 베푼 은혜를 결코 잊지 않겠다고 말합니다.</li>
+    <li>lodgersArriveLetterLabel-&gt;[lodgersLabelPlural] 도착</li>
+    <li>lodgersArriveLetterText-&gt;[asker_nameDef]님과 동료들이 비틀거리며 [map_definite]에 도착했습니다. 그들의 온몸에는 [bloodCult] 특유의 기괴하고 붉은 베인 상처가 가득합니다.\n\n[asker_nameDef]은(는) 허약하게 말했습니다. "거두어 주셔서 감사합니다... [bloodCult]의 추격대가 언제 들이닥칠지 모르니, 몸을 추스릴 곳만 부탁드립니다..."</li>
+    <li>lodgersLeavingLetterLabel-&gt;[lodgersLabelSingularOrPlural] 떠남</li>
+    <li>lodgersLeavingLetterText-&gt;[asker_nameDef]님과 동료들이 [map_definite]에서 [questDurationTicks_duration] 동안 요양을 마치고 상처를 모두 치유했습니다. 떠나기 전, [asker_nameDef](은)는 진심을 담아 감사를 표했습니다.\n\n"거두어 주셔서 [bloodCult]의 추격을 피할 수 있었습니다. 이 은혜는 모에로틀 문파가 영원히 기억하겠습니다."</li>
+    <li>lodgersLeavingEarlyLetterLabel-&gt;[lodgersLabelSingularOrPlural] 조기 출발</li>
+    <li>lodgersLeavingEarlyLetterText-&gt;[asker_nameDef]님과 동료들이 급히 귀하에게 작사를 고합니다. [bloodCult]의 추격대가 이 지역에 접근하고 있다는 소식을 접한 그들은, 귀하에게 누를 끼치지 않기 위해 즉시 떠나야만 합니다.\n\n[asker_nameDef]이(가) 말했습니다. "살아서 돌아갈 수만 있다면, 반드시 이 은혜를 갚겠습니다."</li>
+    <li>bloodCultRaidLetterLabel-&gt;적혈종 추격대!</li>
+    <li>bloodCultRaidLetterText-&gt;적혈종의 추적자가 모에로틀 제자의 행적을 찾아냈습니다! 흉악한 적혈종 무리가 정착지를 향해 쳐들어옵니다!</li>
+    <li>questSuccessLetterLabel-&gt;임무 완료: [questName]</li>
+    <li>questSuccessLetterText-&gt;모든 모에로틀 제자가 무사히 부상을 치료하고 떠났으며, [bloodCult]의 추격을 완벽히 따돌렸습니다.\n\n귀하와 모에로틀 문파의 관계가 개선되었습니다.</li>
+    <li>lodgerDiedAttackPlayerLetterLabel-&gt;비극 발생: [lodgersLabelSingularOrPlural]</li>
+    <li>lodgerDiedAttackPlayerLetterText-&gt;모에로틀 제자 한 명이 부상을 이기지 못하고 안타깝게 사망했습니다. 동료들은 슬픔에 잠겨 통곡합니다.\n\n귀하와 모에로틀 문파의 관계가 악화되었습니다.</li>
+    <li>lodgerArrestedAttackPlayerLetterLabel-&gt;배신: [lodgersLabelSingularOrPlural]</li>
+    <li>lodgerArrestedAttackPlayerLetterText-&gt;모에로틀 제자를 체포했습니다! 동료들은 분노하며 귀하와 완전히 등을 돌렸습니다.\n\n귀하와 모에로틀 문파의 관계가 파탄 났습니다!</li>
+  </AxolotlSectGuerilla.questContentRules.rulesStrings>
+</LanguageData>

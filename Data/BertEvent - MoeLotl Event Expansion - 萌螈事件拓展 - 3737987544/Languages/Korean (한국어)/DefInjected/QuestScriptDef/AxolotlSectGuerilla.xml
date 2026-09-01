@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AxolotlSectGuerilla.questDescriptionRules.rulesStrings>
+    <li>questDescription(uniqueQuestDesc!=True)-&gt;[approachInfo][claimInfo][asker_nameDef]님이 [map_definite]에 [questDurationTicks_duration] 동안 머물며 [lodgersPronoun] 정비할 수 있도록 허락해 달라고 요청합니다.\n\n그 대가로 [lodgersPronoun] 체류 기간 동안 무료로 귀하를 위해 일하고 싸워줄 것을 [offer].\n\n[joinInfo] [futureRewardInfo]\n\n[playerBetrayInfo]</li>
+    <li>offer(lodgerCount==1)-&gt;제안합니다</li>
+    <li>offer(lodgerCount&gt;=2)-&gt;제안합니다</li>
+    <li>lodgersPronoun(lodgerCount==1)-&gt;[asker_pronoun](이)가</li>
+    <li>lodgersPronoun(lodgerCount&gt;=2)-&gt;이들이</li>
+    <li>lodgersPreposition(lodgerCount==1)-&gt;[asker_objective] 스스로</li>
+    <li>lodgersPreposition(lodgerCount&gt;=2)-&gt;그들 스스로</li>
+    <li>lodgersObjective(lodgerCount==1)-&gt;[asker_objective]</li>
+    <li>lodgersObjective(lodgerCount&gt;=2)-&gt;이들을</li>
+    <li>lodgersPossessive(lodgerCount==1)-&gt;[asker_possessive]</li>
+    <li>lodgersPossessive(lodgerCount&gt;=2)-&gt;이들의</li>
+    <li>lodgersSingularOrPluralDef(lodgerCount==1)-&gt;[asker_nameDef]</li>
+    <li>lodgersSingularOrPluralDef(lodgerCount&gt;=2)-&gt;[lodgersLabelPlural]</li>
+    <li>travelerInfo(lodgerCount==1)-&gt;이 [faction_pawnSingular](은)는</li>
+    <li>travelerInfo(lodgerCount&gt;=2)-&gt;이 [faction_pawnsPlural](은)는</li>
+    <li>joinInfo(allowJoinOffer!=True)-&gt;</li>
+    <li>joinInfo(allowJoinOffer==True,lodgerCount==1)-&gt;[asker_objective] 만족스럽게 대한다면, [asker_pronoun] 귀하에게 합류를 제안할지도 모릅니다.</li>
+    <li>joinInfo(allowJoinOffer==True,lodgerCount&gt;=2)-&gt;이들을 만족스럽게 대한다면, 이들 중 일부가 귀하에게 합류를 제안할지도 모릅니다.</li>
+    <li>futureRewardInfo(allowFutureReward!=True)-&gt;</li>
+    <li>futureRewardInfo(allowFutureReward==True)-&gt;[lodgersPronoun] 나중에 [lodgersObjective] 도와준 것에 대해 보답할지도 모릅니다.</li>
+    <li>playerBetrayInfo(isMainFaction!=True)-&gt;[travelerInfo] 주요 세력에 속하지 않습니다. 원하신다면 이들을 살해, 체포, 판매하거나 [lodgersObjective] 도려낼 수 있으며, 어떠한 외교적 후폭풍도 발생하지 않습니다.</li>
+    <li>playerBetrayInfo(isMainFaction==True)-&gt;[travelerInfo] [asker_factionName]의 소속입니다. 만약 이들을 살해, 체포, 판매하거나 [lodgersObjective] 도려내기로 선택한다면, 매우 심각한 외교적 후폭풍이 발생할 것입니다.</li>
+    <li>approachInfo-&gt;행색이 남루하고 온몸에 상처를 입은 모에로틀 제자 무리가 정착지로 걸어오고 있습니다. 그들은 경계하며 자꾸 뒤를 돌아보고 있습니다.</li>
+    <li>approachInfo(lodgerCount&gt;=3)-&gt;온몸에 상처를 입은 [lodgerCount]명의 모에로틀 제자가 다가오고 있습니다.</li>
+    <li>claimInfo-&gt;그들은 모에로틀 유격대의원으로, 방금 [bloodCult]와의 교전에서 참패했습니다. 모두가 적혈종 특유의 베인 상처를 입었으며, 이러한 상처는 좀처럼 아물지 않습니다. 그들은 [bloodCult]의 추격대가 쫓아올까 두려워 귀하의 정착지에서 잠시 숨어 지내기를 원합니다. 부상이 호전되면 곧바로 떠날 것입니다.</li>
+  </AxolotlSectGuerilla.questDescriptionRules.rulesStrings>
+</LanguageData>
