@@ -1,12 +1,311 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <UFEL_SettingsCategory>UFLI 연합 경공업</UFEL_SettingsCategory>
-  <UFEL_DisableStuffColorMask>건축 재료 색상 마스크 비활성화</UFEL_DisableStuffColorMask>
-  <UFEL_DisableStuffColorMaskDesc>활성화하면 StuffColorDisableExtension 확장이 적용된 건축물이 재료에 따라 색상이 변경되지 않습니다.</UFEL_DisableStuffColorMaskDesc>
+  <UFLIFB_SettingsCategory>UFLI 연합 경공업</UFLIFB_SettingsCategory>
+  <UFLIFB_DisableStuffColorMask>건축 재료 색상 마스크 비활성화</UFLIFB_DisableStuffColorMask>
+  <UFLIFB_DisableStuffColorMaskDesc>활성화하면 StuffColorDisableExtension 확장이 적용된 건축물이 재료에 따라 색상이 변경되지 않습니다.</UFLIFB_DisableStuffColorMaskDesc>
+
   <Holographic.LabelNext>"영상 전환"</Holographic.LabelNext>
   <Holographic.DescNext>"수동으로 다음 홀로그램으로 전환합니다."</Holographic.DescNext>
   <Holographic.LabelAutoplay>"자동 반복"</Holographic.LabelAutoplay>
   <Holographic.DescAutoplay>"자동 반복을 켜거나 끕니다."</Holographic.DescAutoplay>
   <Holographic.DisableReasonNoPower>"홀로그램 전력 부족!"</Holographic.DisableReasonNoPower>
   <Holographic.DisableReasonChanging>"홀로그램 전환 중."</Holographic.DisableReasonChanging>
+
+  <UFLIFB_IdeoReformatterStart>사상 세뇌 시작</UFLIFB_IdeoReformatterStart>
+  <UFLIFB_IdeoReformatterStartDesc>대상 캐릭터의 사상을 재구성합니다. 완료 후 처리 시 재료가 소모되지 않습니다.\n\n소요 시간: {1}</UFLIFB_IdeoReformatterStartDesc>
+  <UFLIFB_IdeoReformatterInsertDesc>{0}에 넣을 정착민, 노예 또는 수감자를 선택하세요.</UFLIFB_IdeoReformatterInsertDesc>
+  <UFLIFB_IdeoReformatterCancel>세뇌 취소</UFLIFB_IdeoReformatterCancel>
+  <UFLIFB_IdeoReformatterCancelDesc>현재 진행 중인 세뇌를 취소하고 내부의 캐릭터를 배출합니다.</UFLIFB_IdeoReformatterCancelDesc>
+  <UFLIFB_IdeoReformatterNotStarted>사상 세뇌기가 아직 시작되지 않았습니다.</UFLIFB_IdeoReformatterNotStarted>
+  <UFLIFB_IdeoReformatterWaitingForPawn>캐릭터를 기다리는 중입니다.</UFLIFB_IdeoReformatterWaitingForPawn>
+  <UFLIFB_IdeoReformatterNoPrimaryIdeo>식민지에 주요 사상이 없습니다.</UFLIFB_IdeoReformatterNoPrimaryIdeo>
+  <UFLIFB_IdeoReformatterPawnHasNoIdeo>{PAWN_nameDef} 유형의 재구성 가능한 사상이 없습니다.</UFLIFB_IdeoReformatterPawnHasNoIdeo>
+  <UFLIFB_IdeoReformatterNoPawns>재구성할 수 있는 캐릭터가 없습니다.</UFLIFB_IdeoReformatterNoPawns>
+  <UFLIFB_IdeoReformatterChooseStatusTitle>세뇌 완료</UFLIFB_IdeoReformatterChooseStatusTitle>
+  <UFLIFB_IdeoReformatterChooseStatusText>{PAWN_nameDef}(이)가 정착지의 주요 사상으로 개종되었습니다.\n\n최종 신분을 선택하세요.</UFLIFB_IdeoReformatterChooseStatusText>
+  <UFLIFB_IdeoReformatterStatusColonist>정착민</UFLIFB_IdeoReformatterStatusColonist>
+  <UFLIFB_IdeoReformatterStatusSlave>노예</UFLIFB_IdeoReformatterStatusSlave>
+  <UFLIFB_IdeoReformatterStatusUnchanged>변경 안 함</UFLIFB_IdeoReformatterStatusUnchanged>
+  <UFLIFB_IdeoReformatterOutcomeColonistMessage>{PAWN_nameDef}(이)가 정착민으로 합류했습니다.</UFLIFB_IdeoReformatterOutcomeColonistMessage>
+  <UFLIFB_IdeoReformatterOutcomeSlaveMessage>{PAWN_nameDef}(이)가 노예가 되었습니다.</UFLIFB_IdeoReformatterOutcomeSlaveMessage>
+  <UFLIFB_IdeoReformatterOutcomeUnchangedMessage>{PAWN_nameDef}의 신분이 유지되었습니다.</UFLIFB_IdeoReformatterOutcomeUnchangedMessage>
+
+  <UFRecipes.SettingsCategory>UF 프린터 및 작업대 설정</UFRecipes.SettingsCategory>
+  <UFRecipes.WorkbenchTuning>작업대 조정</UFRecipes.WorkbenchTuning>
+  <UFRecipes.WorkSpeedSetting>기본 작업 속도</UFRecipes.WorkSpeedSetting>
+  <UFRecipes.EfficiencySetting>기본 생산 효율</UFRecipes.EfficiencySetting>
+  <UFRecipes.BaseSkillSetting>기본 숙련도</UFRecipes.BaseSkillSetting>
+  <UFRecipes.QualityOffsetSetting>기본 품질 보정</UFRecipes.QualityOffsetSetting>
+  <UFRecipes.ResetSettingsDefaults>기본 설정 복원</UFRecipes.ResetSettingsDefaults>
+  <UFRecipes.QualityPreview>생산 품질 확률 미리보기 (좌측의 기본값 기준)</UFRecipes.QualityPreview>
+  <UFRecipes.QualityPreviewAverage>평균 품질</UFRecipes.QualityPreviewAverage>
+  <UFRecipes.QualityPreviewSampleTip>기본값 기준으로 계산된 결과만 표시하며, 최종 품질은 바닐라 알고리즘 및 작업대 보너스의 영향을 받습니다.</UFRecipes.QualityPreviewSampleTip>
+  <UFRecipes.TuningGlobalNote>아래 수치는 전역으로 적용됩니다.\n기본값만 조정되며 후처리는 정상적으로 계산됩니다.</UFRecipes.TuningGlobalNote>
+  <UFRecipes.WorkSpeedSettingTip>기본 작업 속도: 작업대의 기초 작업 속도입니다.</UFRecipes.WorkSpeedSettingTip>
+  <UFRecipes.EfficiencySettingTip>기본 산출 효율: 작업대의 기초 생산 효율입니다.</UFRecipes.EfficiencySettingTip>
+  <UFRecipes.BaseSkillSettingTip>기본 숙련도: 작업대의 기술 등급이며 최대 20레벨입니다.</UFRecipes.BaseSkillSettingTip>
+  <UFRecipes.QualityOffsetSettingTip>기본 품질 보정: 숙련도 계산 후 등급에 따라 생산품 품질을 증감합니다 (-6~+6).</UFRecipes.QualityOffsetSettingTip>
+  <UFRecipes.OpenSettings>계획서 검색 설정 열기</UFRecipes.OpenSettings>
+  <UFRecipes.GizmoFullAutoMode>전자동 모드 (전역)\n창고에서 재료를 자동으로 가져오며, 생산품이 자동으로 배출됩니다.</UFRecipes.GizmoFullAutoMode>
+  <UFRecipes.GizmoManualMode>반자동 모드 (전역)\n정착민이 수동으로 재료를 운반해야 합니다.</UFRecipes.GizmoManualMode>
+  <UFRecipes.ModeSwitchBlockedActive>아직 작동 중인 프린터 작업이 있습니다. 자동 모드를 전환하기 전에 작업을 완료하거나 취소하세요.</UFRecipes.ModeSwitchBlockedActive>
+  <UFRecipes.InspirationSettings>기계혼 영감</UFRecipes.InspirationSettings>
+  <UFRecipes.InspirationGained>{0}(이)가 기계혼 영감을 얻었습니다: {1}</UFRecipes.InspirationGained>
+  <UFRecipes.InspirationGainedLabel>기계혼 영감: {0}</UFRecipes.InspirationGainedLabel>
+  <UFRecipes.BreakDownGained>{0}의 기계혼이 불만을 품었습니다: {1}</UFRecipes.BreakDownGained>
+  <UFRecipes.BreakDownGainedLabel>기계혼 불만: {0}</UFRecipes.BreakDownGainedLabel>
+  <UFRecipes.InspirationExpired>{0}의 기계혼 영감이 흩어졌습니다.</UFRecipes.InspirationExpired>
+  <UFRecipes.InspirationExhausted>{0}의 기계혼 영감이 소모되었습니다.</UFRecipes.InspirationExhausted>
+  <UFRecipes.Inspiration_FreeCraft>헌신의 영감</UFRecipes.Inspiration_FreeCraft>
+  <UFRecipes.Inspiration_DoubleOutput>관대의 영감</UFRecipes.Inspiration_DoubleOutput>
+  <UFRecipes.Inspiration_DoubleSpeed>열의의 영감</UFRecipes.Inspiration_DoubleSpeed>
+  <UFRecipes.Inspiration_InstantComplete>격동의 영감</UFRecipes.Inspiration_InstantComplete>
+  <UFRecipes.InspirationDesc_FreeCraft>다음 생산은 재료가 소모되지 않으며, 프린터는 정상적인 작업 시간을 채워야 합니다.</UFRecipes.InspirationDesc_FreeCraft>
+  <UFRecipes.InspirationDesc_DoubleOutput>향후 {0}일 동안 프린터의 생산 효율이 2배가 됩니다.</UFRecipes.InspirationDesc_DoubleOutput>
+  <UFRecipes.InspirationDesc_DoubleSpeed>향후 {0}일 동안 프린터의 작업 속도가 2배가 됩니다.</UFRecipes.InspirationDesc_DoubleSpeed>
+  <UFRecipes.InspirationDesc_InstantComplete>프린터가 현재 계획서를 즉시 완료합니다.</UFRecipes.InspirationDesc_InstantComplete>
+  <UFRecipes.BreakDown_HalfSpeed>정체</UFRecipes.BreakDown_HalfSpeed>
+  <UFRecipes.BreakDown_LessQuality>오류</UFRecipes.BreakDown_LessQuality>
+  <UFRecipes.BreakDown_LockSemiAuto>침묵</UFRecipes.BreakDown_LockSemiAuto>
+  <UFRecipes.BreakDownDesc_HalfSpeed>다음 3일 동안 작업 속도가 절반으로 감소합니다.</UFRecipes.BreakDownDesc_HalfSpeed>
+  <UFRecipes.BreakDownDesc_LessQuality>다음 2일 동안 품질 보정이 2 감소합니다.</UFRecipes.BreakDownDesc_LessQuality>
+  <UFRecipes.BreakDownDesc_LockSemiAuto>다음 2일 동안 반자동 모드가 고정됩니다.</UFRecipes.BreakDownDesc_LockSemiAuto>
+  <UFRecipes.BreakDownModeSwitchBlocked>기계혼이 불만을 품은 동안에는 전자동 모드로 전환할 수 없습니다.</UFRecipes.BreakDownModeSwitchBlocked>
+  <UFRecipes.LockSemiAutoEnded>{0}의 기계혼 불만이 가라앉았습니다.</UFRecipes.LockSemiAutoEnded>
+  <UFRecipes.InspirationState>영감: {0} ({1})</UFRecipes.InspirationState>
+  <UFRecipes.MachineSpiritState>기계혼 상태: {0} ({1})</UFRecipes.MachineSpiritState>
+  <UFRecipes.InspirationRemainingDays>남은 기간: {0}일</UFRecipes.InspirationRemainingDays>
+  <UFRecipes.InspirationCharges>남은 횟수: {0}회</UFRecipes.InspirationCharges>
+  <UFRecipes.InspirationNone>현재 영감 없음</UFRecipes.InspirationNone>
+  <UFRecipes.Setting_InspirationTriggerChance>영감 발동 확률</UFRecipes.Setting_InspirationTriggerChance>
+  <UFRecipes.Setting_InspirationWeightFreeCraft>헌신의 영감 가중치</UFRecipes.Setting_InspirationWeightFreeCraft>
+  <UFRecipes.Setting_InspirationWeightDoubleOutput>관대의 영감 가중치</UFRecipes.Setting_InspirationWeightDoubleOutput>
+  <UFRecipes.Setting_InspirationWeightDoubleSpeed>열의의 영감 가중치</UFRecipes.Setting_InspirationWeightDoubleSpeed>
+  <UFRecipes.Setting_InspirationWeightInstantComplete>격동의 영감 가중치</UFRecipes.Setting_InspirationWeightInstantComplete>
+  <UFRecipes.Setting_InspirationBreakDownChance>불만 발동 확률</UFRecipes.Setting_InspirationBreakDownChance>
+  <UFRecipes.Setting_InspirationWeightBreakDownHalfSpeed>정체 가중치</UFRecipes.Setting_InspirationWeightBreakDownHalfSpeed>
+  <UFRecipes.Setting_InspirationWeightBreakDownLessQuality>오류 가중치</UFRecipes.Setting_InspirationWeightBreakDownLessQuality>
+  <UFRecipes.Setting_InspirationWeightBreakDownLockSemiAuto>침묵 가중치</UFRecipes.Setting_InspirationWeightBreakDownLockSemiAuto>
+  <UFRecipes.InspirationPositiveHeader>기계혼 영감</UFRecipes.InspirationPositiveHeader>
+  <UFRecipes.BreakDownWeightsHeader>기계혼 불만</UFRecipes.BreakDownWeightsHeader>
+  <UFRecipes.FreeCraftUnsupportedSpecial>헌신의 영감은 특수 계획서를 처리할 수 없습니다: {0}. 일반 재료 생산으로 대체됩니다.</UFRecipes.FreeCraftUnsupportedSpecial>
+  <UFRecipes.FreeCraftDeliveryFailed>헌신의 영감 산출물을 전달할 수 없습니다: {0}. 이번 생산은 잠시 후 다시 시도됩니다.</UFRecipes.FreeCraftDeliveryFailed>
+  <UFRecipes.FreeCraftPartialDelivery>헌신의 영감이 일부 산출물만 전달했습니다: {0}. 중복 생산을 방지하기 위해 이번 생산은 종료되었습니다.</UFRecipes.FreeCraftPartialDelivery>
+  <UFRecipes.ProjectionSettings>UF 홀로그램 제어 단말기 설정</UFRecipes.ProjectionSettings>
+  <UFRecipes.EnableProjection>제어 단말기 활성화</UFRecipes.EnableProjection>
+  <UFRecipes.ProjectionRefreshInterval>새로고침 주기 (틱)</UFRecipes.ProjectionRefreshInterval>
+  <UFRecipes.ProjectedSpeedMultiplier>단말기 속도 보너스 배율</UFRecipes.ProjectedSpeedMultiplier>
+  <UFRecipes.InspirationDurationDoubleOutput>관대 지속 시간 (일)</UFRecipes.InspirationDurationDoubleOutput>
+  <UFRecipes.InspirationDurationDoubleSpeed>열의 지속 시간 (일)</UFRecipes.InspirationDurationDoubleSpeed>
+  <UFRecipes.SelectProjectionHolder>소유자 선택</UFRecipes.SelectProjectionHolder>
+  <UFRecipes.ProjectionSelectHolder>단말기 소유자 선택</UFRecipes.ProjectionSelectHolder>
+  <UFRecipes.ProjectionHolderInactive>사용 불가</UFRecipes.ProjectionHolderInactive>
+  <UFRecipes.ProjectionNoHolders>UF 홀로그램 제어 단말기가 이식된 정착민이 없습니다 (소유자 없음)</UFRecipes.ProjectionNoHolders>
+  <UFRecipes.ProjectionInstallNotEligible>수감되거나 노예 상태가 아닌 정착민에게만 이 보철물을 설치할 수 있습니다.</UFRecipes.ProjectionInstallNotEligible>
+  <UFRecipes.ProjectionAlreadyAssigned>이미 다른 소유자가 존재합니다: {0}.</UFRecipes.ProjectionAlreadyAssigned>
+  <UFRecipes.ProjectionHediffInactive>제어 단말기가 활성화되지 않았습니다: {0}</UFRecipes.ProjectionHediffInactive>
+  <UFRecipes.ProjectionNoHolderReason>유효한 소유자가 없습니다</UFRecipes.ProjectionNoHolderReason>
+  <UFRecipes.ProjectionPrisonerReason>소유자가 수감되었습니다</UFRecipes.ProjectionPrisonerReason>
+  <UFRecipes.ProjectionSlaveReason>소유자가 노예가 되었습니다</UFRecipes.ProjectionSlaveReason>
+  <UFRecipes.ProjectionUnavailableReason>소유자를 잠시 사용할 수 없습니다</UFRecipes.ProjectionUnavailableReason>
+  <UFRecipes.ProjectionWorkSpeed>단말기 작업 속도 보너스: {0}</UFRecipes.ProjectionWorkSpeed>
+  <UFRecipes.ProjectionWorkSpeedFormula>전역 작업 속도 {0} * 의식 {1} + 기술 {2} * 2.5%</UFRecipes.ProjectionWorkSpeedFormula>
+  <UFRecipes.ProjectionQuality>품질 보정: {0}</UFRecipes.ProjectionQuality>
+  <UFRecipes.ProjectionRemoved>{0}에게서 UF 홀로그램 제어 단말기가 제거되었습니다.</UFRecipes.ProjectionRemoved>
+  <UFRecipes.ProjectionLost>제어 단말기를 사용할 수 없습니다. 전자동 모드가 반자동으로 전환되었습니다.</UFRecipes.ProjectionLost>
+  <UFRecipes.ProjectionRestored>{0}에게 제어 단말기가 이식되었습니다. 이제 프린터 전자동 모드를 켤 수 있습니다.</UFRecipes.ProjectionRestored>
+  <UFRecipes.ProjectionBenchDisabled>투영: 설정에서 꺼짐</UFRecipes.ProjectionBenchDisabled>
+  <UFRecipes.ProjectionBenchConnected>투영: 연결됨 — {0}</UFRecipes.ProjectionBenchConnected>
+  <UFRecipes.ProjectionBenchUnavailable>투영: 사용할 수 없음 — {0}; 전자동 비활성화됨</UFRecipes.ProjectionBenchUnavailable>
+  <UFRecipes.ProjectionFullAutoUnavailable>전자동 모드에는 유효한 UF 홀로그램 제어 단말기 소유자가 필요합니다.</UFRecipes.ProjectionFullAutoUnavailable>
+  <UFRecipes.FullAutoWithoutImplant>전용 보철물 없이 전자동 모드 가능</UFRecipes.FullAutoWithoutImplant>
+  <UFRecipes.ProjectionSelectedHolder>현재 소유자: {0}</UFRecipes.ProjectionSelectedHolder>
+  <UFRecipes.ProjectionLostNoGate>투영이 무효화되었습니다. 작업대가 자체 능력치로 생산을 계속합니다.</UFRecipes.ProjectionLostNoGate>
+  <UFRecipes.ProjectionBenchUnavailableNoGate>투영: 사용할 수 없음 — {0}</UFRecipes.ProjectionBenchUnavailableNoGate>
+
+  <UFRecipes.SearchBenches>작업대 검색</UFRecipes.SearchBenches>
+  <UFRecipes.Recipes>계획서</UFRecipes.Recipes>
+  <UFRecipes.SearchRecipes>계획서 검색</UFRecipes.SearchRecipes>
+  <UFRecipes.NoRecipes>일치하는 계획서가 없습니다.</UFRecipes.NoRecipes>
+
+  <UFRecipes.SourceInjected>주입됨</UFRecipes.SourceInjected>
+  <UFRecipes.SourceHandwritten>수기</UFRecipes.SourceHandwritten>
+  <UFRecipes.HiddenCount>숨겨짐: {0}</UFRecipes.HiddenCount>
+
+  <UFRecipes.Hide>이 작업대에서 이 계획서 숨기기</UFRecipes.Hide>
+  <UFRecipes.Show>이 작업대에서 이 계획서 표시</UFRecipes.Show>
+  <UFRecipes.Favorite>계획서 즐겨찾기</UFRecipes.Favorite>
+  <UFRecipes.Unfavorite>계획서 즐겨찾기 취소</UFRecipes.Unfavorite>
+  <UFRecipes.AddRecipeBill>계획 추가</UFRecipes.AddRecipeBill>
+  <UFRecipes.AddNRecipeBills>선택한 {0}개의 계획서를 주문서로 추가</UFRecipes.AddNRecipeBills>
+  <UFRecipes.HideNRecipes>선택한 {0}개의 계획서 숨기기</UFRecipes.HideNRecipes>
+  <UFRecipes.ShowNRecipes>선택한 {0}개의 계획서 표시</UFRecipes.ShowNRecipes>
+  <UFRecipes.FavoriteNRecipes>선택한 {0}개의 계획서 즐겨찾기</UFRecipes.FavoriteNRecipes>
+  <UFRecipes.UnfavoriteNRecipes>선택한 {0}개의 계획서 즐겨찾기 취소</UFRecipes.UnfavoriteNRecipes>
+  <UFRecipes.ClearRecipeChecks>모든 선택 해제</UFRecipes.ClearRecipeChecks>
+  <UFRecipes.RecipeCheckedRightClickRejected>이미 선택된 계획서가 있습니다. 선택된 계획서를 우클릭하거나 먼저 모든 선택을 해제하세요.</UFRecipes.RecipeCheckedRightClickRejected>
+  <UFRecipes.AddRecipeBillsFailed>{0}개의 계획서를 추가할 수 없습니다.</UFRecipes.AddRecipeBillsFailed>
+
+  <UFRecipes.Bills>주문서</UFRecipes.Bills>
+  <UFRecipes.NoBills>주문서가 없습니다. 중간 패널에서 계획서를 클릭하여 추가하세요.</UFRecipes.NoBills>
+  <UFRecipes.DeleteCompleted>완료된 주문서 제거</UFRecipes.DeleteCompleted>
+  <UFRecipes.RemoveAllBills>모두 제거</UFRecipes.RemoveAllBills>
+  <UFRecipes.RemoveAllBillsTip>이 프린터의 모든 주문서를 삭제합니다.</UFRecipes.RemoveAllBillsTip>
+  <UFRecipes.PasteList>주문서 붙여넣기</UFRecipes.PasteList>
+  <UFRecipes.PasteListTip>클립보드에서 계획서를 구문 분석하고 일괄적으로 주문서를 추가합니다.</UFRecipes.PasteListTip>
+  <UFRecipes.CopyAllTip>이 프린터의 모든 주문서를 복사합니다 (프린터 간 붙여넣기 가능).</UFRecipes.CopyAllTip>
+  <UFRecipes.PasteBillsTip>클립보드의 주문서를 붙여넣습니다 (바닐라 작업대에는 아직 붙여넣기 지원 안 함).</UFRecipes.PasteBillsTip>
+  <UFRecipes.CopyListText>주문서를 텍스트로 복사</UFRecipes.CopyListText>
+  <UFRecipes.CopyListTextN>{0}개의 주문서를 텍스트로 복사</UFRecipes.CopyListTextN>
+  <UFRecipes.BillRowTip>\n더블 클릭하여 레시피 정보 보기\n우클릭하여 작업 메뉴 열기\nShift + 좌클릭 드래그로 다중 선택\nShift + 우클릭으로 빠르게 제거\nShift / Ctrl / Alt + 휠로 주문서 횟수 증감</UFRecipes.BillRowTip>
+  <UFRecipes.DetailsTip>상세 계획서 설정</UFRecipes.DetailsTip>
+  <UFRecipes.CopyBill>주문서 복사</UFRecipes.CopyBill>
+  <UFRecipes.PasteBill>주문서 붙여넣기</UFRecipes.PasteBill>
+  <UFRecipes.RemoveBill>주문서 제거</UFRecipes.RemoveBill>
+  <UFRecipes.CopyNBills>{0}개의 주문서 복사</UFRecipes.CopyNBills>
+  <UFRecipes.PasteNBills>{0}개의 주문서 붙여넣기</UFRecipes.PasteNBills>
+  <UFRecipes.RemoveNBills>{0}개의 주문서 제거</UFRecipes.RemoveNBills>
+
+  <UFRecipes.ProductInfo>생산물 정보</UFRecipes.ProductInfo>
+  <UFRecipes.NoRecipeSelected>선택된 계획서가 없습니다. 중간 '계획서 검색' 패널에서 레시피를 클릭하여 생산물 정보를 확인하세요.</UFRecipes.NoRecipeSelected>
+  <UFRecipes.CategorySpecificInfo>분류 정보</UFRecipes.CategorySpecificInfo>
+  <UFRecipes.StatDamage>피해량</UFRecipes.StatDamage>
+  <UFRecipes.StatDPS>초당 피해량</UFRecipes.StatDPS>
+  <UFRecipes.StatRange>사거리</UFRecipes.StatRange>
+  <UFRecipes.StatAimTime>조준 시간</UFRecipes.StatAimTime>
+  <UFRecipes.StatCooldown>재사용 대기시간</UFRecipes.StatCooldown>
+  <UFRecipes.StatBurst>연사</UFRecipes.StatBurst>
+  <UFRecipes.StatArmorBlunt>둔기 방어</UFRecipes.StatArmorBlunt>
+  <UFRecipes.StatArmorSharp>날카로움 방어</UFRecipes.StatArmorSharp>
+  <UFRecipes.StatArmorHeat>열 방어</UFRecipes.StatArmorHeat>
+  <UFRecipes.StatEquippedOffsets>장착 보너스</UFRecipes.StatEquippedOffsets>
+  <UFRecipes.StatEffect>장착 효과</UFRecipes.StatEffect>
+  <UFRecipes.StatDuration>지속 시간</UFRecipes.StatDuration>
+  <UFRecipes.StatImplantEffect>이식 효과</UFRecipes.StatImplantEffect>
+  <UFRecipes.StatPartEfficiency>부위 효율</UFRecipes.StatPartEfficiency>
+  <UFRecipes.NoHediffEffects>능력치 보너스 없음</UFRecipes.NoHediffEffects>
+  <UFRecipes.StatNoData>—</UFRecipes.StatNoData>
+
+  <UFRecipes.ApparelMaterialPreview>재료 미리보기</UFRecipes.ApparelMaterialPreview>
+  <UFRecipes.MaterialDefault>기본 (재료 없음)</UFRecipes.MaterialDefault>
+  <UFRecipes.StatMaterial>재료</UFRecipes.StatMaterial>
+  <UFRecipes.ApparelRightClickHint>재료를 우클릭하여 선택하고 해당 재료로 제작한 방어구를 미리보세요</UFRecipes.ApparelRightClickHint>
+
+  <UFRecipes.SectionIngredients>재료</UFRecipes.SectionIngredients>
+  <UFRecipes.SectionProducts>생산물</UFRecipes.SectionProducts>
+  <UFRecipes.SectionWorkAmount>작업량</UFRecipes.SectionWorkAmount>
+  <UFRecipes.SectionPowerConsumption>계획서 전력 소모</UFRecipes.SectionPowerConsumption>
+  <UFRecipes.NoIngredients>재료 없음</UFRecipes.NoIngredients>
+  <UFRecipes.NoProducts>생산물 없음 (해체 / 변환)</UFRecipes.NoProducts>
+  <UFRecipes.WorkAmountSecondsUnit>초</UFRecipes.WorkAmountSecondsUnit>
+  <UFRecipes.ProductEfficiencyTip>\n기본 생산량 {0} × {1} = {2}</UFRecipes.ProductEfficiencyTip>
+
+  <UFRecipes.IngredientStock>재고: {0}</UFRecipes.IngredientStock>
+  <UFRecipes.IngredientOutOfStock>현재 지도에 이 재료 재고가 없습니다</UFRecipes.IngredientOutOfStock>
+
+  <UFRecipes.ProductClass.Default>기타</UFRecipes.ProductClass.Default>
+  <UFRecipes.ProductClass.Weapon>무기</UFRecipes.ProductClass.Weapon>
+  <UFRecipes.ProductClass.Apparel>의류</UFRecipes.ProductClass.Apparel>
+  <UFRecipes.ProductClass.Addictive>약물</UFRecipes.ProductClass.Addictive>
+  <UFRecipes.ProductClass.Implant>보철물</UFRecipes.ProductClass.Implant>
+
+  <UFRecipes.ResetWindowPos>창 위치 초기화</UFRecipes.ResetWindowPos>
+  <UFRecipes.ResetWindowPosTip>창 위치를 초기화합니다.</UFRecipes.ResetWindowPosTip>
+
+  <UFRecipes.ExportConfigTip>즐겨찾기 및 숨긴 계획서를 설정 파일로 내보냅니다.</UFRecipes.ExportConfigTip>
+  <UFRecipes.ImportConfigTip>설정 파일에서 즐겨찾기 및 숨긴 계획서를 가져옵니다.</UFRecipes.ImportConfigTip>
+  <UFRecipes.ExportConfigTitle>계획서 설정 내보내기</UFRecipes.ExportConfigTitle>
+  <UFRecipes.ImportConfigTitle>계획서 설정 가져오기</UFRecipes.ImportConfigTitle>
+  <UFRecipes.ExportConfigDone>설정이 {0}(으)로 저장되었습니다.</UFRecipes.ExportConfigDone>
+  <UFRecipes.ImportConfigDone>설정 {0}(을)를 가져왔습니다.</UFRecipes.ImportConfigDone>
+  <UFRecipes.ImportConfigMissingFile>설정 파일을 찾을 수 없습니다.</UFRecipes.ImportConfigMissingFile>
+  <UFRecipes.ImportConfigParseError>설정 파일 구문 분석에 실패했습니다.</UFRecipes.ImportConfigParseError>
+  <UFRecipes.InvalidName>유효한 설정 이름을 입력하세요.</UFRecipes.InvalidName>
+  <UFRecipes.NoConfigs>설정을 찾을 수 없습니다. 먼저 내보내기를 진행하세요.</UFRecipes.NoConfigs>
+  <UFRecipes.IncludeFavorites>즐겨찾기 계획서 포함</UFRecipes.IncludeFavorites>
+  <UFRecipes.IncludeHidden>숨긴 계획서 포함</UFRecipes.IncludeHidden>
+  <UFRecipes.DeleteConfigTip>이 설정 삭제</UFRecipes.DeleteConfigTip>
+
+  <UFRecipes.RecipeBrowser>계획서 탐색</UFRecipes.RecipeBrowser>
+  <UFRecipes.NoBench>선택된 작업대가 없습니다.</UFRecipes.NoBench>
+  <UFRecipes.RecipeRowTip>\nShift + 좌클릭: 100개 추가\nCtrl + 좌클릭: 10개 추가\nAlt + 좌클릭: 1개 추가</UFRecipes.RecipeRowTip>
+  <UFRecipes.GroupHeaderTip>\n{0}개의 계획서\n제목을 클릭하여 이 그룹을 접거나 펼치세요</UFRecipes.GroupHeaderTip>
+  <UFRecipes.ExpandGroup>이 그룹 펼치기</UFRecipes.ExpandGroup>
+  <UFRecipes.CollapseGroup>이 그룹 접기</UFRecipes.CollapseGroup>
+  <UFRecipes.CollapseAllGroups>모두 접기</UFRecipes.CollapseAllGroups>
+  <UFRecipes.ExpandAllGroups>모두 펼치기</UFRecipes.ExpandAllGroups>
+  <UFRecipes.CollapseAllTip>현재 목록의 모든 그룹을 접습니다.</UFRecipes.CollapseAllTip>
+  <UFRecipes.ExpandAllTip>현재 목록의 모든 그룹을 펼칩니다.</UFRecipes.ExpandAllTip>
+  <UFRecipes.SearchPlaceholder>계획서 검색…</UFRecipes.SearchPlaceholder>
+  <UFRecipes.SearchSyntaxHint>ESC로 검색창 포커스 해제\n공백으로 다중 선택 구분\n계획서 이름 / 생산물 등 검색 가능\n영문 입력 지원</UFRecipes.SearchSyntaxHint>
+  <UFRecipes.SearchAssistant>검색 도우미</UFRecipes.SearchAssistant>
+
+  <UFRecipes.SequencePanel>자동 제조</UFRecipes.SequencePanel>
+  <UFRecipes.NotSuperWorkbench>이 건축물은 슈퍼 작업대가 아닙니다 (thingClass는 UFRecipes.Building_SuperWorkbench여야 합니다).</UFRecipes.NotSuperWorkbench>
+  <UFRecipes.CancelRun>작동 취소</UFRecipes.CancelRun>
+  <UFRecipes.CancelRunDesc>현재 작업 진행 상황을 비우고 작업대를 일시 중지합니다. 모든 주문서와 보관함 재료는 유지됩니다. 다시 클릭하면 작동이 재개됩니다.</UFRecipes.CancelRunDesc>
+  <UFRecipes.ResumeRun>작동 재개</UFRecipes.ResumeRun>
+  <UFRecipes.ResumeRunDesc>플레이어가 일시 중지한 작업대를 재개합니다.</UFRecipes.ResumeRunDesc>
+
+  <UFRecipes.StateIdle>대기 중</UFRecipes.StateIdle>
+  <UFRecipes.StateReady>준비 완료</UFRecipes.StateReady>
+  <UFRecipes.StateWorking>작업 중</UFRecipes.StateWorking>
+  <UFRecipes.StateNeedsMaintenance>유지보수 필요</UFRecipes.StateNeedsMaintenance>
+  <UFRecipes.SequenceState>상태: {0}</UFRecipes.SequenceState>
+  <UFRecipes.CurrentRecipe>현재 계획서: {0}</UFRecipes.CurrentRecipe>
+  <UFRecipes.PausedReason>일시 중지: {0}</UFRecipes.PausedReason>
+  <UFRecipes.PausedMaterials>재료 부족</UFRecipes.PausedMaterials>
+  <UFRecipes.PausedPower>전력 차단</UFRecipes.PausedPower>
+  <UFRecipes.PausedStoredPower>저장 전력 부족</UFRecipes.PausedStoredPower>
+  <UFRecipes.PausedFlicker>스위치 꺼짐</UFRecipes.PausedFlicker>
+  <UFRecipes.PausedBreakdown>고장 남</UFRecipes.PausedBreakdown>
+  <UFRecipes.PausedManual>플레이어 일시 중지</UFRecipes.PausedManual>
+  <UFRecipes.StageXofY>단계 {0}/{1}</UFRecipes.StageXofY>
+  <UFRecipes.StageIdle>단계: 사용 가능</UFRecipes.StageIdle>
+  <UFRecipes.TotalProgress>전체 진행도: {0}%</UFRecipes.TotalProgress>
+  <UFRecipes.MaterialsReady>재료 충분함</UFRecipes.MaterialsReady>
+  <UFRecipes.MaterialsMissing>재료 부족함</UFRecipes.MaterialsMissing>
+  <UFRecipes.MaintenanceHint>기계는 {0} 작업량을 달성할 때마다 단계를 완료합니다.</UFRecipes.MaintenanceHint>
+  <UFRecipes.MissingMaterials>재료 부족: {0}. 재료가 채워지면 제작 과정이 자동으로 재개됩니다.</UFRecipes.MissingMaterials>
+  <UFRecipes.WorkSpeedGrew>작업 속도가 {0}(으)로 향상됨</UFRecipes.WorkSpeedGrew>
+  <UFRecipes.SkillGrew>숙련도가 {0}(으)로 향상됨</UFRecipes.SkillGrew>
+  <UFRecipes.GrowthSummary>성장: 속도 {0} · 기술 {1}</UFRecipes.GrowthSummary>
+  <UFRecipes.PowerStatus>전력: {0} W · 전력망 저장량 {1} Wd</UFRecipes.PowerStatus>
+  <UFRecipes.GizmoWorkProgress>작업 진행도:</UFRecipes.GizmoWorkProgress>
+  <UFRecipes.GizmoEfficiency>작업 효율: {0}</UFRecipes.GizmoEfficiency>
+  <UFRecipes.GizmoSkillLevel>숙련도: {0}</UFRecipes.GizmoSkillLevel>
+  <UFRecipes.GizmoQualityOffset>품질 보정: {0}</UFRecipes.GizmoQualityOffset>
+  <UFRecipes.GizmoStatus>프린터 상태:</UFRecipes.GizmoStatus>
+  <UFRecipes.GizmoProperties>속성:</UFRecipes.GizmoProperties>
+
+  <UFRecipes.PanelLayoutInfo>UF 홀로그램 프린터 패널: {0}×{1}</UFRecipes.PanelLayoutInfo>
+  <UFRecipes.ResetLayout>패널 초기화</UFRecipes.ResetLayout>
+
+  <UFRecipes.Category.All>전체</UFRecipes.Category.All>
+  <UFRecipes.Category.Apparel>의류</UFRecipes.Category.Apparel>
+  <UFRecipes.Category.Weapon>무기</UFRecipes.Category.Weapon>
+  <UFRecipes.Category.Implant>보철물</UFRecipes.Category.Implant>
+  <UFRecipes.Category.Medicine>의약품</UFRecipes.Category.Medicine>
+  <UFRecipes.Category.Stuff>재료</UFRecipes.Category.Stuff>
+  <UFRecipes.Category.Breakdown>폐기물</UFRecipes.Category.Breakdown>
+  <UFRecipes.Category.Other>기타</UFRecipes.Category.Other>
+  <UFRecipes.Category.Favorite>즐겨찾기</UFRecipes.Category.Favorite>
+  <UFRecipes.Category.Hidden>숨긴</UFRecipes.Category.Hidden>
+
+  <UFRecipes.OpenTutorial>튜토리얼 열기</UFRecipes.OpenTutorial>
+  <UFRecipes.Tutorial.Title>홀로그램 프린터 조작 튜토리얼</UFRecipes.Tutorial.Title>
+  <UFRecipes.Tutorial.BillOps.Title>주문서 행 조작</UFRecipes.Tutorial.BillOps.Title>
+  <UFRecipes.Tutorial.BillOps.1>주문서 행 더블 클릭: 레시피 상세 정보 보기</UFRecipes.Tutorial.BillOps.1>
+  <UFRecipes.Tutorial.BillOps.2>주문서 행 우클릭: 작업 메뉴 열기</UFRecipes.Tutorial.BillOps.2>
+  <UFRecipes.Tutorial.BillOps.3>Shift + 좌클릭 드래그: 주문서 다중 선택</UFRecipes.Tutorial.BillOps.3>
+  <UFRecipes.Tutorial.BillOps.4>Shift + 우클릭 드래그: 주문서 빠르게 제거</UFRecipes.Tutorial.BillOps.4>
+  <UFRecipes.Tutorial.BillOps.5>Shift / Ctrl / Alt + 휠: 주문서 횟수 증감</UFRecipes.Tutorial.BillOps.5>
+  <UFRecipes.Tutorial.RecipeAdd.Title>레시피 추가: 선택 및 일괄 조작</UFRecipes.Tutorial.RecipeAdd.Title>
+  <UFRecipes.Tutorial.RecipeAdd.1>레시피 더블 클릭: 주문서 1개 추가</UFRecipes.Tutorial.RecipeAdd.1>
+  <UFRecipes.Tutorial.RecipeAdd.2>체크박스 또는 Shift + 좌클릭 드래그: 레시피 체크</UFRecipes.Tutorial.RecipeAdd.2>
+  <UFRecipes.Tutorial.RecipeAdd.3>선택한 레시피 우클릭: 일괄 추가, 숨기기 또는 즐겨찾기</UFRecipes.Tutorial.RecipeAdd.3>
+  <UFRecipes.Tutorial.Panel.Title>패널 및 진입점</UFRecipes.Tutorial.Panel.Title>
+  <UFRecipes.Tutorial.Panel.1>작업대 기즈모 패널: 전자동/반자동 모드 전역 전환 (전역), 모드 설정 열기</UFRecipes.Tutorial.Panel.1>
+  <UFRecipes.Tutorial.Panel.2>튜토리얼 진입점: 패널의 '?' 버튼 또는 모드 설정 상단의 '튜토리얼 열기' 버튼</UFRecipes.Tutorial.Panel.2>
+  <UFRecipes.Tutorial.Panel.3>패널 수치에 마우스를 올리면 의미를 확인할 수 있습니다.</UFRecipes.Tutorial.Panel.3>
 </LanguageData>

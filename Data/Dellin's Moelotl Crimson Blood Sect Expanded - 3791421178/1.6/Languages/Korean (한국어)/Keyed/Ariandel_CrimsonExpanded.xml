@@ -18,4 +18,9 @@
   <Ariandel_CrimsonExpanded_NonPlayerAutoAbsorb_Label>비플레이어 세력 사수의 시체 자동 흡수 활성화</Ariandel_CrimsonExpanded_NonPlayerAutoAbsorb_Label>
   <Ariandel_CrimsonExpanded_NonPlayerAutoAbsorb_Tooltip>활성화 시 조건을 만족하는 비플레이어 사수은 설정된 간격에 따라 자동으로 시체를 흡수하며, 흡수 시 생기 2점을 획득하고 '생명력 흡수'를 0.5초 증가시킵니다.\n 쓰러지지 않은 적대 유닛이 존재할 경우 자신 주변 20칸 이내만 탐색하고, 그렇지 않으면 맵 전체를 탐색하며 쓰러진 적은 탐색 범위에 영향을 주지 않습니다.\n 비플레이어 세력의 신선한 비메카노이드 시체를 우선 흡수하며, 없을 경우에만 플레이어 세력의 시체를 흡수하고 상호작용 금지 표시는 무시합니다.\n 기본값은 꺼짐입니다.</Ariandel_CrimsonExpanded_NonPlayerAutoAbsorb_Tooltip>
   <Ariandel_CrimsonExpanded_ResetDefaults>기본 설정 복원</Ariandel_CrimsonExpanded_ResetDefaults>
+  <Ariandel_CrimsonWeaponEnhancement_Label>무기 강화 모드</Ariandel_CrimsonWeaponEnhancement_Label>
+  <Ariandel_CrimsonWeaponEnhancement_CrimsonBlade_Desc>비활성화일 때는 적괴도의 고유 추가 찢김이 건축물이 아닌 대상을 적중한 후 0.3초 동안 '생명력 흡수'를 얻습니다.\n활성화일 때는 매번 적중할 때마다 생기 1을 소모하며, 70% 확률로 최대 5회의 추가 찢김 판정을 연속으로 시도합니다. 성공할 때마다 다음 확률이 절반으로 줄어듭니다.\n각 추가 찢김은 6의 기본 피해를 주고 48%의 방어구 관통력을 가집니다. 건축물아닌 대상을 적중한 후 0.7초 동안 '생명력 흡수'를 얻습니다.\n생기가 부족할 경우 자동으로 꺼집니다.\n마화경맥을 가진 모에로틀만 사용할 수 있습니다.\n기본값은 꺼짐입니다.</Ariandel_CrimsonWeaponEnhancement_CrimsonBlade_Desc>
+  <Ariandel_CrimsonWeaponEnhancement_BoneSpitterSpear_Desc>비활성화일 때는 타골창의 고유 추가 찢김이 건축물이 아닌 대상을 적중한 후 0.5초 동안 '생명력 흡수'를 얻으며, 기계가 아닌 대상을 적중 시 50% 확률로 생기 1을 얻습니다.\n활성화일 때는 매번 적중할 때마다 생기 2를 소모하며, 70% 확률로 최대 3회의 추가 찢김 판정을 연속으로 시도합니다. 성공할 때마다 다음 확률이 절반으로 줄어듭니다. 각 추가 찢김은 10의 기본 피해를 주고 58%의 방어구 관통력을 가집니다. 건축물이 아닌 대상을 적중한 후 1초 동안 '생명력 흡수'를 얻으며, 기계가 아닌 대상을 적중 시 여전히 50% 확률로 생기 1을 얻습니다.\n생기가 부족할 경우 자동으로 꺼집니다.\n마화경맥을 가진 모에로틀만 사용할 수 있습니다.\n기본값은 꺼짐입니다.</Ariandel_CrimsonWeaponEnhancement_BoneSpitterSpear_Desc>
+  <Ariandel_CrimsonWeaponEnhancement_NotEnoughVitality>이 무기의 강화 모드를 켜려면 생기가 최소 {0} 필요합니다.</Ariandel_CrimsonWeaponEnhancement_NotEnoughVitality>
+  <Ariandel_CrimsonWeaponEnhancement_AutoDisabled>{0}의 무기 강화 모드가 자동으로 꺼졌습니다. 현재 생기가 다음 적중 시 소모되는 {1}보다 부족합니다.</Ariandel_CrimsonWeaponEnhancement_AutoDisabled>
 </LanguageData>
