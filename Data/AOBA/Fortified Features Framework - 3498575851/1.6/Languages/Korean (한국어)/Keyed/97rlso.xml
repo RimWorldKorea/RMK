@@ -426,4 +426,48 @@
 # /Docs/*
 # !/Docs/Manual.md
 </FFF_RimIgnore_Template>
+  <FFF.Drone.SelectKind>배치 기종: {0}</FFF.Drone.SelectKind>
+  <FFF.Drone.SelectKindDesc>이 플랫폼에서 배치할 유닛 기종을 선택합니다. 이미 현장에 배치된 유닛에는 영향을 주지 않습니다.</FFF.Drone.SelectKindDesc>
+  <FFF.Drone.KindLocked>{0} 필요</FFF.Drone.KindLocked>
+  <FFF.Drone.NoSpawnKind>배치할 수 있는 기종 없음</FFF.Drone.NoSpawnKind>
+  <FFF.Drone.GenericPlural>드론</FFF.Drone.GenericPlural>
+  <FFF.MechModification.InfoName>이름: {0}</FFF.MechModification.InfoName>
+  <FFF.MechModification.InfoRace>기종: {0}</FFF.MechModification.InfoRace>
+  <FFF.MechModification.InfoAge>가동 기간: {0}</FFF.MechModification.InfoAge>
+  <FFF.MechModification.PawnInfoTip>메카노이드 정보 열기</FFF.MechModification.PawnInfoTip>
+  <FFF.MechModification.GizmoLabel>메카노이드 개조</FFF.MechModification.GizmoLabel>
+  <FFF.MechModification.GizmoDesc>이 메카노이드의 개조 창을 엽니다. 미소전자공학 연구가 필요합니다.</FFF.MechModification.GizmoDesc>
+  <FFF.MechModification.SelectModsFor>{0}에 사용할 수 있는 개조</FFF.MechModification.SelectModsFor>
+  <FFF.MechModification.SelectPartPrompt>신체 부위 슬롯을 선택하세요.</FFF.MechModification.SelectPartPrompt>
+  <FFF.MechModification.NoModsOnMap>현재 지도에 호환되는 개조품이 없습니다.</FFF.MechModification.NoModsOnMap>
+  <FFF.MechModification.QueueEmpty>대기 중인 작업이 없습니다.</FFF.MechModification.QueueEmpty>
+  <FFF.MechModification.QueueInstall>{1}에 {0} 설치</FFF.MechModification.QueueInstall>
+  <FFF.MechModification.QueueUninstall>{1}에서 {0} 제거</FFF.MechModification.QueueUninstall>
+  <FFF.MechModification.Missing>누락</FFF.MechModification.Missing>
+  <FFF.MechModification.PartFallback>몸체</FFF.MechModification.PartFallback>
+  <FFF.MechModification.SavePreset>저장</FFF.MechModification.SavePreset>
+  <FFF.MechModification.LoadPreset>불러오기</FFF.MechModification.LoadPreset>
+  <FFF.MechModification.PresetDefaultName>메카노이드 프리셋</FFF.MechModification.PresetDefaultName>
+  <FFF.MechModification.PresetSaved>프리셋 저장됨: {0}</FFF.MechModification.PresetSaved>
+  <FFF.MechModification.PresetLoaded>프리셋 불러옴: {0}</FFF.MechModification.PresetLoaded>
+  <FFF.MechModification.PresetLoadFailed>프리셋을 불러올 수 없습니다: {0}</FFF.MechModification.PresetLoadFailed>
+  <FFF.MechModification.Apply>적용</FFF.MechModification.Apply>
+  <FFF.MechModification.Reset>초기화</FFF.MechModification.Reset>
+  <FFF.MechModification.Return>돌아가기</FFF.MechModification.Return>
+  <FFF.MechModification.AppliedQueued>설정을 적용하고 작업 {0}개를 대기열에 추가했습니다.</FFF.MechModification.AppliedQueued>
+  <FFF.MechModification.InvalidModification>이 아이템에는 유효한 메카노이드 개조가 정의되어 있지 않습니다.</FFF.MechModification.InvalidModification>
+  <FFF.MechModification.NotEnoughItems>이 지도에는 도달 가능한 {0}의 수가 부족합니다.</FFF.MechModification.NotEnoughItems>
+  <FFF.MechModification.PartOccupied>{0}에는 다른 개조품이 이미 설치되어 있거나 설치 대기 중입니다.</FFF.MechModification.PartOccupied>
+  <FFF.MechModification.Unique>{0}(은)는 고유 개조품이므로 같은 슬롯에 두 번 이상 설치할 수 없습니다.</FFF.MechModification.Unique>
+  <FFF.MechModification.StackFull>{0}의 설치 한도({1})에 도달했습니다.</FFF.MechModification.StackFull>
+  <FFF_SelectMechToControlLabel>메카노이드 제어</FFF_SelectMechToControlLabel>
+  <FFF_SelectMechToControlDesc>이 통제자가 제어할 메카노이드를 선택합니다.</FFF_SelectMechToControlDesc>
+  <FFF.ArtificialOrganismRations>식량: {COUNT} / {MAX}</FFF.ArtificialOrganismRations>
+  <FFF_Research_DiscoveredLetterLabel>연구 프로젝트 발견</FFF_Research_DiscoveredLetterLabel>
+  <FFF_Research_DiscoveredLetterText>최근 연구 성과를 통해 이전에는 판독할 수 없던 보관 자료를 해석했습니다. 다음 연구 프로젝트의 정체가 밝혀져 이제 연구를 시작할 수 있습니다:</FFF_Research_DiscoveredLetterText>
+  <FFF_Research_UnsealLetterLabel>보관된 기술 발견</FFF_Research_UnsealLetterLabel>
+  <FFF_Research_UnsealLetterText>기록 해독에 성공하여 보관되어 있던 {PROJECT}의 정체가 밝혀졌으며, 기존 자료만으로 연구점수 {PROGRESS}점만큼 연구가 진행되었습니다.</FFF_Research_UnsealLetterText>
+  <FFF_Research_UnsealProgressMessage>{PROJECT} 연구에 연구점수 {PROGRESS}점이 추가되었습니다.</FFF_Research_UnsealProgressMessage>
+  <FFF_Research_UnsealNothingMessage>해독한 데이터에는 가치 있는 기술 자료가 없었지만, {PAWN}(은)는 그 과정에서 {SKILL} 경험치 {XP}를 얻었습니다.</FFF_Research_UnsealNothingMessage>
+  <FFF_Research_UnsealNothingNoGainMessage>해독한 데이터에는 가치 있는 자료가 없었고, 누구도 그 과정에서 아무것도 배우지 못했습니다.</FFF_Research_UnsealNothingNoGainMessage>
 </LanguageData>

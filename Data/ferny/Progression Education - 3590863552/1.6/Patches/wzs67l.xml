@@ -9,16 +9,54 @@
       <operations>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ResearchProjectDef[defName="BasicGravtech"]/li[1]/title</xpath>
+          <xpath>/Defs/ResearchProjectDef[defName="Shuttles"]/li[1]/title</xpath>
           <value>
             <title>궤도선 조종 숙련</title>
           </value>
         </li>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/ResearchProjectDef[defName="BasicGravtech"]/li[1]/desc</xpath>
+          <xpath>/Defs/ResearchProjectDef[defName="Shuttles"]/li[1]/desc</xpath>
           <value>
             <desc>당신의 지식인이 궤도 이동수단을 조작하는 법에 대한 지식을 습득했습니다. 이제 숙련 수업을 통해 이 지식을 다른 정착민에게 가르칠 수 있습니다.</desc>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Vehicles Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="VVE_BasicVehicles"]/li[1]/title</xpath>
+          <value>
+            <title>자동차 운전 숙련</title>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="VVE_BasicVehicles"]/li[1]/desc</xpath>
+          <value>
+            <desc>당신의 지식인이 자동차를 운전하는 법에 대한 지식을 습득했습니다. 이제 숙련 수업을 통해 이 지식을 다른 정착민에게 가르칠 수 있습니다.</desc>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="VVE_AerialVehicles"]/li[1]/title</xpath>
+          <value>
+            <title>항공기 조종 숙련</title>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="VVE_AerialVehicles"]/li[1]/desc</xpath>
+          <value>
+            <desc>당신의 지식인이 항공기를 조종하는 법에 대한 지식을 습득했습니다. 이제 숙련 수업을 통해 이 지식을 다른 정착민에게 가르칠 수 있습니다.</desc>
           </value>
         </li>
       </operations>

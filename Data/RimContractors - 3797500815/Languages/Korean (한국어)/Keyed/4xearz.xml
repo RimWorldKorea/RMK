@@ -1,0 +1,794 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RC_Custody_Carry>구조 대상 {0} 운반</RC_Custody_Carry>
+  <RC_Custody_Arrest>{0} 현장 체포 및 운반</RC_Custody_Arrest>
+  <RC_Custody_Downed>대상이 쓰러진 상태여야 합니다</RC_Custody_Downed>
+  <RC_Custody_Unreachable>안전하게 도달할 수 있는 경로가 없거나 대상이 예약되어 있습니다.</RC_Custody_Unreachable>
+  <RC_Collection_Method_Party>세력 회수반</RC_Collection_Method_Party>
+  <RC_Collection_Method_Shuttle>의뢰인 왕복선</RC_Collection_Method_Shuttle>
+  <RC_Collection_Method_Aircraft>의뢰인 항공기</RC_Collection_Method_Aircraft>
+  <RC_Collection_ReturnStable>대상을 정착지로 데려와 건강 상태를 안정시키십시오.</RC_Collection_ReturnStable>
+  <RC_Collection_Treatment>치료 대기 중: 출혈을 멈추고 생명을 위협하는 상태를 안정시키십시오.</RC_Collection_Treatment>
+  <RC_Collection_Unload>대상을 내려놓고 징집을 해제하십시오. 정신이상 상태가 끝날 때까지 인계를 기다립니다.</RC_Collection_Unload>
+  <RC_Collection_Due>의뢰인 회수팀 도착까지 {0}</RC_Collection_Due>
+  <RC_Collection_Waiting>의뢰인 측이 안전하게 도착하기를 기다리는 중입니다. 이동 경로를 확보하고 의뢰인과의 관계를 확인하십시오.</RC_Collection_Waiting>
+  <RC_Collection_Collecting>의뢰인의 회수팀이 대상을 인계받고 있습니다.</RC_Collection_Collecting>
+  <RC_Collection_Departing>의뢰인이 대상을 인계받았습니다. 현재 철수 중입니다.</RC_Collection_Departing>
+  <RC_Collection_Lost>대상이 사망했거나 더 이상 인계할 수 없어 회수를 계속할 수 없습니다. 계약은 이미 정산되었으므로 보상이 다시 지급되거나 추가 불이익이 적용되지는 않습니다.</RC_Collection_Lost>
+  <RC_Collection_ArrivedTitle>의뢰인 회수팀 도착</RC_Collection_ArrivedTitle>
+  <RC_Collection_Arrived>{0}(이)가 {1}의 회수팀을 보냈습니다. 회수 방식: {2}. 이동 경로를 비우고 대상의 징집을 해제한 상태로 두십시오. 회수팀이 직접 대상을 데리고 떠나므로 의뢰인의 정착지까지 이동할 필요는 없습니다.</RC_Collection_Arrived>
+  <RC_Collection_DoneTitle>의뢰인 회수 완료</RC_Collection_DoneTitle>
+  <RC_Collection_Done>{0}(은)는 {1}의 회수팀과 함께 떠났습니다. 계약은 이미 정산되었으므로 이번 인계에 대한 추가 보상은 없습니다.</RC_Collection_Done>
+  <RC_Collection_ReturnFailed>확보한 대상이 정착지로 복귀하는 과정에서 사망했거나, 의학적으로 안정시켜야 하는 기한이 만료되었습니다.</RC_Collection_ReturnFailed>
+  <RC_Collection_ReportPending>계약 정산 후 의뢰인이 대상을 회수하기로 했습니다. 이 보고서가 기록될 당시에는 대상 인계와 회수팀의 철수가 아직 완료되지 않았습니다.</RC_Collection_ReportPending>
+  <RC_Collection_CardTitle>의뢰인 회수 — {0}</RC_Collection_CardTitle>
+  <RC_Collection_ClientPatient>{0} · {1}</RC_Collection_ClientPatient>
+  <RC_Collection_Locate>대상 위치 확인</RC_Collection_Locate>
+  <RC_Collection_Details>회수 조건</RC_Collection_Details>
+  <RC_Collection_PickupTerms>계약 목표를 달성하고, 대상이 살아 있으며 의학적으로 안정된 상태로 플레이어의 정착지 맵에 실제로 도착하면 계약이 정산됩니다. 대상이 세계 지도상의 상단에 있거나 착륙한 수송기에 아직 탑승해 있다면 인도된 것으로 인정되지 않습니다. 치료할 수 있는 부상이나 영구적인 흉터가 남아 있어도 괜찮지만, 출혈 중이거나 생명을 위협하는 상태 또는 호흡·혈액 순환이 불가능한 상태여서는 안 됩니다.\n\n계약 정산 6시간 후 의뢰인이 회수팀을 파견합니다. 파견되기 전에 세력 회수반, 의뢰인 왕복선 또는 호환되는 의뢰인 항공기 중 하나를 선택하십시오. 항공기는 호환되는 관련 콘텐츠가 설치된 경우에만 이용할 수 있습니다. 의뢰인이 중세 기술 수준이거나 중세 모드를 사용 중이면 도보 회수반이 파견됩니다. 의뢰인 측에서 제공하는 운송 수단이므로 플레이어 정착지의 왕복선 연구는 필요하지 않습니다.\n\n회수팀은 정착지 맵에 진입해 대상에게 접근한 뒤 대상을 인계받아 맵 출구나 착륙한 수송기까지 운반합니다. 이동 경로를 비우고 대상의 징집을 해제한 상태로 두십시오. 대상의 치료, 막힌 이동 경로, 운송 문제 또는 의뢰인이 회수할 수 없는 상태로 인해 회수가 지연될 수 있습니다. 대상은 순간이동으로 사라지지 않습니다. 계약 정산 후 이번 인계로 추가 보상이 지급되거나 사후에 실패 처리되는 일도 없습니다.</RC_Collection_PickupTerms>
+  <RC_ContractorRaid_Title>용병 습격</RC_ContractorRaid_Title>
+  <RC_ContractorRaid_Body>고용된 용병 분대가 지역에 진입해 정착지를 공격하고 있습니다. 이들은 플레이어의 회사 소속이 아닌 독립 용병입니다.\n\n어떤 세력이 중개인을 통해 이 공격을 의뢰했습니다. 의뢰인의 정체는 감춰져 있으며, 적대 세력이나 중립 세력, 심지어 겉으로는 동맹인 세력일 수도 있습니다. 용병들은 고용주를 밝혀낼 만한 확실한 증거를 지니고 있지 않습니다.\n\n즉시 공격해 옵니다. 정착지를 방어하십시오!</RC_ContractorRaid_Body>
+  <RC_ContractorRaid_Setting>적대 용병 습격 사건 허용</RC_ContractorRaid_Setting>
+  <RC_ContractorRaid_SettingTip>중립 세력이나 동맹을 포함한 다른 세력이 정체를 숨긴 채 용병을 고용해 플레이어의 정착지를 공격할 수 있습니다. 이는 임무 후 보복 확률 판정과 별개로 이야기꾼이 발생시키는 위협입니다. 따라서 보복 확률을 0%로 설정해도 비활성화되지 않습니다. 회사를 등록하지 않은 상태에서도 발생할 수 있습니다. 이 설정을 끄면 새로운 용병 습격 사건은 발생하지 않지만, 이미 맵에 나타난 공격자는 제거되지 않습니다.</RC_ContractorRaid_SettingTip>
+  <RC_Op_Modern>{0} {1} 작전 #{2}</RC_Op_Modern>
+  <RC_Op_Medieval>{0} {1} #{2}</RC_Op_Medieval>
+  <RC_Op_Adjective_1>호박빛</RC_Op_Adjective_1>
+  <RC_Op_Adjective_2>침묵의</RC_Op_Adjective_2>
+  <RC_Op_Adjective_3>철의</RC_Op_Adjective_3>
+  <RC_Op_Adjective_4>잿빛</RC_Op_Adjective_4>
+  <RC_Op_Adjective_5>겨울의</RC_Op_Adjective_5>
+  <RC_Op_Adjective_6>숨겨진</RC_Op_Adjective_6>
+  <RC_Op_Adjective_7>진홍빛</RC_Op_Adjective_7>
+  <RC_Op_Adjective_8>공허한</RC_Op_Adjective_8>
+  <RC_Op_Adjective_9>은빛</RC_Op_Adjective_9>
+  <RC_Op_Adjective_10>흑요석</RC_Op_Adjective_10>
+  <RC_Op_Adjective_11>황금</RC_Op_Adjective_11>
+  <RC_Op_Adjective_12>한밤의</RC_Op_Adjective_12>
+  <RC_Op_Adjective_13>인내의</RC_Op_Adjective_13>
+  <RC_Op_Adjective_14>몰락한</RC_Op_Adjective_14>
+  <RC_Op_Adjective_15>천둥</RC_Op_Adjective_15>
+  <RC_Op_Adjective_16>창백한</RC_Op_Adjective_16>
+  <RC_Op_Noun_1>등불</RC_Op_Noun_1>
+  <RC_Op_Noun_2>선봉</RC_Op_Noun_2>
+  <RC_Op_Noun_3>항구</RC_Op_Noun_3>
+  <RC_Op_Noun_4>매</RC_Op_Noun_4>
+  <RC_Op_Noun_5>관문</RC_Op_Noun_5>
+  <RC_Op_Noun_6>약속</RC_Op_Noun_6>
+  <RC_Op_Noun_7>단검</RC_Op_Noun_7>
+  <RC_Op_Noun_8>파수</RC_Op_Noun_8>
+  <RC_Op_Noun_9>길목</RC_Op_Noun_9>
+  <RC_Op_Noun_10>가시</RC_Op_Noun_10>
+  <RC_Op_Noun_11>혜성</RC_Op_Noun_11>
+  <RC_Op_Noun_12>왕관</RC_Op_Noun_12>
+  <RC_Op_Noun_13>방패</RC_Op_Noun_13>
+  <RC_Op_Noun_14>봉화</RC_Op_Noun_14>
+  <RC_Op_Noun_15>맹세</RC_Op_Noun_15>
+  <RC_Op_Noun_16>망치</RC_Op_Noun_16>
+  <RC_Op_Rename>작전명 변경</RC_Op_Rename>
+  <RC_Op_NameTip>최대 {0}자로 작전명을 지정하십시오. 작전명을 변경해도 목표, 보상 또는 결과에는 영향을 주지 않습니다.</RC_Op_NameTip>
+  <RC_Op_Generate>작전명 생성</RC_Op_Generate>
+  <RC_Op_SaveName>작전명 저장</RC_Op_SaveName>
+  <RC_AAR_MissionHeading>작전</RC_AAR_MissionHeading>
+  <RC_AAR_OpenTip>클릭하여 작전 후일담과 상세 보고서를 확인합니다.</RC_AAR_OpenTip>
+  <RC_AAR_StoryHeading>작전 후일담</RC_AAR_StoryHeading>
+  <RC_AAR_FactsHeading>계약 기록</RC_AAR_FactsHeading>
+  <RC_AAR_HealthHeading>인원 및 의료 보고서</RC_AAR_HealthHeading>
+  <RC_AAR_Duration>작전 경과 시간: {0}</RC_AAR_Duration>
+  <RC_AAR_Started>작전 시작: {0}</RC_AAR_Started>
+  <RC_AAR_Close>보고서 닫기</RC_AAR_Close>
+  <RC_AAR_ReadHistory>기록 탭을 열고 해당 작전을 선택하면 저장된 작전 후일담과 의료 보고서를 확인할 수 있습니다.</RC_AAR_ReadHistory>
+  <RC_AAR_LegacyStory>이 계약은 작전 후일담 기능이 추가되기 전에 생성되었습니다. 기록된 결과와 정산 내역은 아래에 보존되어 있으며, 기록되지 않은 사건을 임의로 만들어 내지는 않았습니다.</RC_AAR_LegacyStory>
+  <RC_AAR_Simulated>이 후일담은 자동 판정 결과를 바탕으로 재구성되었습니다. 서술은 자동으로 생성된 것이며, 전투의 모든 과정을 순서대로 기록한 전술 기록은 아닙니다.</RC_AAR_Simulated>
+  <RC_AAR_FieldRecord>이 기록은 현장에서 확인된 임무 목표와 손실을 요약한 것으로, 개별 전술 행동을 기록한 것은 아닙니다.</RC_AAR_FieldRecord>
+  <RC_AAR_HealthUnavailable>이번 파견에서는 요원별 의료 상태가 기록되지 않았습니다. 기록이 없다고 해서 모두가 다치지 않았다는 뜻은 아닙니다.</RC_AAR_HealthUnavailable>
+  <RC_AAR_SnapshotNote>계약 정산 시점의 상태 기록입니다. 기록된 부상은 이후 치유되었을 수 있습니다. 회수한 시신은 귀환을 위해 확보되었지만, 귀환 수송이나 정착지 인도가 아직 끝나지 않았을 수 있습니다. 회수하지 못한 시신과 그 시신에 남은 장비는 영구적으로 소실되며, 별도의 회수 임무는 생성되지 않습니다.</RC_AAR_SnapshotNote>
+  <RC_AAR_DeadRecovered>사망 — 시신 회수됨</RC_AAR_DeadRecovered>
+  <RC_AAR_DeadMissing>사망 — 시신 미회수</RC_AAR_DeadMissing>
+  <RC_AAR_DeadUnknown>사망 — 시신 회수 여부 미기록</RC_AAR_DeadUnknown>
+  <RC_AAR_Grade_0>임무 중 새로 입은 부상 없음</RC_AAR_Grade_0>
+  <RC_AAR_Grade_1>경미한 부상</RC_AAR_Grade_1>
+  <RC_AAR_Grade_2>중등도 부상</RC_AAR_Grade_2>
+  <RC_AAR_Grade_3>심각한 부상</RC_AAR_Grade_3>
+  <RC_AAR_WoundDetail>{0}, {1} (부상 심각도 +{2})</RC_AAR_WoundDetail>
+  <RC_AAR_Scar>영구적인 흉터가 남았습니다.</RC_AAR_Scar>
+  <RC_AAR_Tended>현장 응급처치: 치료 품질 {0}. 정착지에서 추가 치료가 필요할 수 있습니다.</RC_AAR_Tended>
+  <RC_AAR_RiskTip>자동 판정에서는 경미하거나 중등도 또는 심각한 부상을 입을 수 있으며, 심각하게 패배하면 드물게 영구적인 흉터가 남거나 사망할 수도 있습니다. 강한 분대와 방어구, 높은 의학 능력은 위험을 낮춥니다. 현장 응급처치는 정착지에서의 치료를 대신하지 않습니다. 시신은 대개 회수되지만, 패배하거나 분대가 전멸하면 유해와 남은 장비를 영구적으로 잃을 수 있습니다. 사상자가 발생해도 회사 평판이나 세력 관계에는 추가 불이익이 없습니다.</RC_AAR_RiskTip>
+  <RC_AAR_RiskLabel>의료 및 시신 회수 위험</RC_AAR_RiskLabel>
+  <RC_Story_Opening_1>{0}(은)는 {1}의 의뢰로 {3} 임무에 배정되었습니다. 작전 지침에 따라 {2}(으)로 향했습니다. 계약의 성패는 단순한 전투 승리가 아니라 임무 목표 달성 여부로 결정될 예정이었습니다.</RC_Story_Opening_1>
+  <RC_Story_Opening_2>회사는 {0}(을)를 {2}에서 진행되는 {1}의 계약에 배정했습니다. 임무 목표는 {3}(이)었으며, 투입 전에 계약 조건과 마감 기한이 확정되었습니다.</RC_Story_Opening_2>
+  <RC_Story_Opening_3>{1}의 의뢰서는 {2}(을)를 작전의 중심으로 삼았습니다. {0}(은)는 {3} 임무에 선발되어 그 결과를 책임지게 되었습니다.</RC_Story_Opening_3>
+  <RC_Story_FightWon_1>교전은 회사에 유리하게 흘러갔습니다. 적의 저항을 제압하여 임무 수행에 필요한 돌파구를 마련했습니다.</RC_Story_FightWon_1>
+  <RC_Story_FightWon_2>회사의 대비는 압박 속에서도 제 역할을 했습니다. 전투는 유리하게 끝났지만, 계약 목표 달성 여부는 별도로 확인해야 했습니다.</RC_Story_FightWon_2>
+  <RC_Story_FightWon_3>적은 회사가 유리한 전투 결과를 거두는 것을 막지 못했습니다. 이제 관건은 그 우세를 계약 완료로 이어 갈 수 있느냐였습니다.</RC_Story_FightWon_3>
+  <RC_Story_FightLost_1>적의 저항은 투입된 병력이 감당하기에 너무 강했습니다. 교전은 회사에 불리하게 전개되었고, 기존 계획을 더는 실행할 수 없게 되었습니다.</RC_Story_FightLost_1>
+  <RC_Story_FightLost_2>적의 저항으로 작전의 기세가 꺾였습니다. 전투는 불리하게 끝났고, 계약 목표는 달성되지 않은 채 남았습니다.</RC_Story_FightLost_2>
+  <RC_Story_FightLost_3>회사가 기대한 우위는 끝내 나타나지 않았습니다. 교전에서 패배하면서 계획대로 임무를 완수할 기회도 사라졌습니다.</RC_Story_FightLost_3>
+  <RC_Story_Objective_RC_SearchAndDestroy>계약 대상 수비대를 제압했습니다. 지역 확보 조건을 충족했고, 의뢰인이 결과를 승인했습니다.</RC_Story_Objective_RC_SearchAndDestroy>
+  <RC_Story_Objective_RC_Rescue>{0}의 구조 성공이 확인되었습니다. 대상은 생존했으며, 의뢰인이 구조 결과를 승인했습니다.</RC_Story_Objective_RC_Rescue>
+  <RC_Story_Objective_RC_Kidnap>{0}(은)는 생포되었습니다. 의뢰인의 요구 조건을 충족하여 임무를 성공적으로 종료할 수 있었습니다.</RC_Story_Objective_RC_Kidnap>
+  <RC_Story_Objective_RC_Assassination>작전 결과 {0}(이)가 사망한 것으로 확인되었습니다. 암살 조건을 충족했습니다.</RC_Story_Objective_RC_Assassination>
+  <RC_Story_Objective_RC_Sabotage>지정된 구조물을 기능 불능으로 만들었습니다. 지역 전체를 소탕하지 않고도 파괴 공작 조건을 충족했습니다.</RC_Story_Objective_RC_Sabotage>
+  <RC_Story_Objective_RC_Security>요구된 기간 동안 경비 임무를 수행했습니다. 경비 조건을 충족하여 임무를 종료할 수 있었습니다.</RC_Story_Objective_RC_Security>
+  <RC_Story_Objective_Generic>계약 목표를 달성했고 의뢰인이 결과를 승인했습니다.</RC_Story_Objective_Generic>
+  <RC_Story_ObjectiveLost>유리한 전투 결과만으로는 충분하지 않았습니다. 전투에서는 승리했지만 목표를 놓쳤고, 회사는 결국 계약을 잃었습니다.</RC_Story_ObjectiveLost>
+  <RC_Story_Unfinished>목표를 끝내 달성하지 못했습니다. 전투에서 어떤 성과를 거두었든 의뢰인의 조건에는 미치지 못했습니다.</RC_Story_Unfinished>
+  <RC_Story_Recall_1>회사는 정산 전에 작전을 철회했습니다. 작전 중 확보한 인원과 화물의 귀환 절차가 마련되었으며, 철회 과정에서 별도의 자동 판정 전투는 발생하지 않았습니다.</RC_Story_Recall_1>
+  <RC_Story_Recall_2>임무가 중단되었습니다. 확보한 인원과 화물은 귀환 대상으로 지정되었고, 기존 계약은 포기한 것으로 처리되었습니다.</RC_Story_Recall_2>
+  <RC_Story_NoEngagement>이 임무에서는 교전 결과가 판정되지 않았습니다. 아래에 기록된 실패 사유에 따라 별도의 전투를 만들어 내지 않고 계약이 종료되었습니다.</RC_Story_NoEngagement>
+  <RC_Story_FieldSuccess>분대가 목표를 달성하고 철수 조건도 충족했습니다. 의뢰인은 작전을 성공으로 승인했습니다.</RC_Story_FieldSuccess>
+  <RC_Story_FieldFailure>승인된 성과 없이 현장 파견이 종료되었습니다. 현장에서 일부 진전을 이루었더라도 아래에 기록된 실패 사유에 따라 계약은 실패로 처리되었습니다.</RC_Story_FieldFailure>
+  <RC_Story_Wounded_1>{0}(은)는 {1}(을)를 입었습니다: {2}. 치료와 회복도 작전의 대가가 되었습니다.</RC_Story_Wounded_1>
+  <RC_Story_Wounded_2>의료 기록상 {0}(은)는 {1}(을)를 입었습니다: {2}. 이 부상들이 남은 상태로 귀환 절차가 진행되었습니다.</RC_Story_Wounded_2>
+  <RC_Story_Scar>{0}의 부상 하나는 완전히 치유되지 않고 영구적인 흉터를 남겼습니다.</RC_Story_Scar>
+  <RC_Story_BodyRecovered>{0}(이)가 사망했습니다. 시신은 회수되어 정착지로 귀환할 수 있도록 확보되었습니다.</RC_Story_BodyRecovered>
+  <RC_Story_BodyMissing>{0}(이)가 사망했지만 시신을 회수하지 못했습니다. 회사에 남은 것은 귀환시킬 시신이 아니라 확인된 사망 기록뿐입니다.</RC_Story_BodyMissing>
+  <RC_Story_BodyUnknown>{0}(은)는 사망자로 기록되었습니다. 이 기록만으로는 시신 회수 여부를 확인할 수 없습니다.</RC_Story_BodyUnknown>
+  <RC_Story_Unhurt>확인 대상 용병들에게 임무 중 새로 생긴 부상은 기록되지 않았습니다. 기존 건강 상태는 이 보고서의 대상이 아닙니다.</RC_Story_Unhurt>
+  <RC_Story_Medic>{0}(은)는 기록된 부상에 현장 응급처치를 실시했습니다. 응급처치로 부상은 안정되었지만, 회복과 추가 치료는 정착지에서 맡아야 했습니다.</RC_Story_Medic>
+  <RC_Story_Paid>{0}(이)가 완료된 계약에 따라 은 {1}의 지급을 승인했습니다. 보상 지급과 회사 평판·세력 우호도 변화는 인명 피해와 별도로 아래에 기록됩니다.</RC_Story_Paid>
+  <RC_Story_Unpaid>{0}(은)는 완료 보상을 지급할 의무가 없었습니다. 회사 평판과 세력 우호도 변화는 아래에 기록됩니다. 사상자로 인한 추가 불이익은 없습니다.</RC_Story_Unpaid>
+  <RC_Hire_Tab>요원 고용</RC_Hire_Tab>
+  <RC_Hire_Subtitle>후보 9명 · 30일 계약 · 3일 후 도착 · 영구 고용 및 우선 도착 선택 가능</RC_Hire_Subtitle>
+  <RC_Hire_Candidates>고용 가능한 요원</RC_Hire_Candidates>
+  <RC_Hire_Bookings>예약 및 복무</RC_Hire_Bookings>
+  <RC_Hire_AllSpecialties>모든 전문 분야</RC_Hire_AllSpecialties>
+  <RC_Hire_AllGenders>모든 성별</RC_Hire_AllGenders>
+  <RC_Hire_AllXenotypes>모든 인종형</RC_Hire_AllXenotypes>
+  <RC_Hire_FilterTip>현재 후보 9명을 필터링할 뿐, 후보를 다시 생성하지는 않습니다. 이번 주 후보군에는 희귀 인종형이 없을 수도 있습니다. 중세 모드에서는 산업 시대의 약물 의존 인종형이 생성되지 않습니다.</RC_Hire_FilterTip>
+  <RC_Hire_NoBiotech>인종형을 선택하려면 바이오테크가 필요합니다. 바이오테크가 없으면 요원은 모두 일반 인간으로 생성됩니다.</RC_Hire_NoBiotech>
+  <RC_Hire_Count>후보 {0}/{1}명 표시 · 후보군 갱신까지 {2}</RC_Hire_Count>
+  <RC_Hire_NoMatches>필터 조건에 맞는 후보가 없거나 후보군을 준비 중입니다. 필터를 해제하면 모든 후보를 볼 수 있습니다. 고용된 후보의 자리는 새 후보로 대체되며, 수락하지 않은 후보군은 매주 갱신됩니다.</RC_Hire_NoMatches>
+  <RC_Hire_NoBookings>도착 대기 중이거나 임시 계약으로 복무 중인 요원이 없습니다. 영구 고용한 요원은 일반 정착민으로 관리됩니다.</RC_Hire_NoBookings>
+  <RC_Hire_Unknown>알 수 없는 요원</RC_Hire_Unknown>
+  <RC_Hire_Generating>요원 후보 준비 중</RC_Hire_Generating>
+  <RC_Hire_GenerationFailed>일부 요원 후보를 준비하지 못했습니다. 고용 비용은 차감되지 않았으며 후보 생성을 다시 시도합니다.</RC_Hire_GenerationFailed>
+  <RC_Hire_Unavailable>이 후보 또는 고용 계약은 더 이상 유효하지 않습니다.</RC_Hire_Unavailable>
+  <RC_Hire_StyleChanged>회사 운영 방식이 변경되었습니다. 수락하지 않은 제안은 갱신해야 하지만, 결제한 예약과 수락한 계약 조건은 합의된 내용대로 유지됩니다.</RC_Hire_StyleChanged>
+  <RC_Hire_Permanent>영구 고용</RC_Hire_Permanent>
+  <RC_Hire_Temporary>임시 고용</RC_Hire_Temporary>
+  <RC_Hire_Instant>안전한 진입 지점이 확보되는 즉시 우선 도착</RC_Hire_Instant>
+  <RC_Hire_ThreeDays>3일 후 도착</RC_Hire_ThreeDays>
+  <RC_Hire_ThirtyDays>도착일부터 30일간 복무</RC_Hire_ThirtyDays>
+  <RC_Hire_BookedTitle>요원 고용 완료</RC_Hire_BookedTitle>
+  <RC_Hire_Booked>{0}(이)가 {1} 계약을 체결했습니다.\n\n지급액: 은 {2}. 도착: {3}.\n\n미리보기에 표시된 바로 그 인물이 선택한 정착지의 맵 가장자리에 도착합니다. 복무 기간은 실제로 도착한 뒤에만 시작됩니다. 해당 정착지를 잃으면 다른 플레이어 정착지를 이용하며, 안전하게 도착할 정착지가 없으면 예약 상태로 보존됩니다.</RC_Hire_Booked>
+  <RC_Hire_ArrivedTitle>요원 도착</RC_Hire_ArrivedTitle>
+  <RC_Hire_Arrived>{0}(이)가 도착하여 정착지 작업과 회사 임무에 투입할 수 있습니다.\n\n계약 조건: {1}. 식사와 숙소, 의료 지원 및 인종형에 따른 욕구를 충족해 주십시오. 대기 및 이동 중 필요한 의존성 약물은 중개 기관이 제공했지만, 이후 복용분은 플레이어가 마련해야 합니다.</RC_Hire_Arrived>
+  <RC_Hire_ExpiringTitle>요원 복무 종료 임박</RC_Hire_ExpiringTitle>
+  <RC_Hire_Expiring>{0}의 복무 기간이 하루 안에 끝납니다. 요원 고용 → 예약 및 복무에서 30일 계약을 갱신하거나 영구 고용으로 전환하십시오.\n\n갱신하지 않으면 요원이 정착지에 안전하게 돌아와 있고, 스스로 이동할 수 있으며, 징집되지 않았고, 진행 중인 회사 임무에 배정되지 않았을 때 떠납니다. 계약 기간이 만료된 뒤에는 새로운 회사 임무에 배정할 수 없습니다.</RC_Hire_Expiring>
+  <RC_Hire_TermOver>{0}의 유료 복무 기간이 끝났습니다. 새로운 회사 임무에 배정하려면 계약을 갱신하거나 영구 고용으로 전환하십시오.</RC_Hire_TermOver>
+  <RC_Hire_DepartingTitle>요원 철수</RC_Hire_DepartingTitle>
+  <RC_Hire_Departing>{0}의 임시 복무가 끝났습니다. 휴대한 보급품과 탈착 가능한 장비를 현재 위치에 내려놓았으며, 기본 복장만 입고 도보로 떠납니다. 이식한 임플란트는 제거되지 않습니다. 이로 인한 추가 회사 평판 불이익은 없습니다.</RC_Hire_Departing>
+  <RC_Hire_AwaitingHome>안전한 정착지 진입 지점 대기 중</RC_Hire_AwaitingHome>
+  <RC_Hire_Due>도착까지 {0}</RC_Hire_Due>
+  <RC_Hire_Leaving>정착지에서 떠나는 중</RC_Hire_Leaving>
+  <RC_Hire_AwaitingRelease>복무 기간 만료 · 안전한 철수 대기 중</RC_Hire_AwaitingRelease>
+  <RC_Hire_Remaining>남은 복무 기간: {0}</RC_Hire_Remaining>
+  <RC_Hire_Baseliner>베이스라이너</RC_Hire_Baseliner>
+  <RC_Hire_Identity>{0} · {1}세</RC_Hire_Identity>
+  <RC_Hire_CardCost>30일 고용 비용: 은 {0}</RC_Hire_CardCost>
+  <RC_Hire_Preview>미리보기</RC_Hire_Preview>
+  <RC_Hire_PreviewTitle>요원 미리보기: {0}</RC_Hire_PreviewTitle>
+  <RC_Hire_HealthDetails>확인 가능한 건강 상태 및 임플란트: {0}</RC_Hire_HealthDetails>
+  <RC_Hire_Gear>포함 장비: {0}</RC_Hire_Gear>
+  <RC_Hire_Genes>유전자: {0}</RC_Hire_Genes>
+  <RC_Hire_Terms>임시 복무 기간은 실제 도착일부터 30일입니다. 일반 도착에는 3일이 걸리며, 우선 도착에는 별도 요금이 부과됩니다. 영구 고용 비용은 임시 고용 비용의 3배입니다. 기존 임시 고용 요원은 최초 고용 비용으로 계약을 갱신하거나, 그 두 배를 지불하고 영구 고용으로 전환할 수 있습니다.\n\n모든 후보는 24~40세로 생성됩니다. 여기에 표시된 기술 수준, 열정, 특성, 건강 상태, 장비, 성별 및 인종형은 실제로 저장된 동일 인물의 정보이며, 도착할 때 다시 생성되지 않습니다. 유전자와 관련된 욕구 및 제한은 그대로 적용됩니다. 아르코테크 인종형은 드물며 고용 비용도 더 높습니다.\n\n계약 기간이 끝난 요원은 수행 중인 임무를 마친 뒤 안전하게 정착지 맵에서 떠날 수 있을 때까지 기다립니다. 상단이나 차량 또는 병원에서 갑자기 사라지지 않습니다. 철수를 시작하기 전까지는 계약을 갱신할 수 있습니다. 탈착 가능한 장비와 소지품은 반환하지만, 이식한 임플란트는 요원에게 남습니다. 사망하거나 포로로 잡히거나 변절하더라도 비용은 환불되지 않습니다. 영구 고용한 요원은 일반 정착민으로 남습니다.\n\n중세 모드에서는 새 후보의 직업과 장비 구성이 달라지며, 우선 고용을 포함한 모든 요원이 도보로 도착합니다. 회사 운영 방식이 바뀌어도 이미 결제한 예약의 인물과 장비는 계약 당시 내용대로 유지됩니다.</RC_Hire_Terms>
+  <RC_Hire_Close>미리보기 닫기</RC_Hire_Close>
+  <RC_Hire_Destination>도착 정착지: {0}</RC_Hire_Destination>
+  <RC_Hire_NoHome>선택된 정착지 없음</RC_Hire_NoHome>
+  <RC_Hire_PermanentExtra>영구 고용 추가 비용: 은 {0}</RC_Hire_PermanentExtra>
+  <RC_Hire_InstantExtra>우선 도착 추가 비용: 은 {0}</RC_Hire_InstantExtra>
+  <RC_Hire_Total>총 선불금: 은 {0}</RC_Hire_Total>
+  <RC_Hire_Confirm>고용 확정</RC_Hire_Confirm>
+  <RC_Hire_Renew>30일 갱신({0})</RC_Hire_Renew>
+  <RC_Hire_Upgrade>영구 고용 전환({0})</RC_Hire_Upgrade>
+  <RC_Hire_ExtendConfirm>계약 연장 비용: 은 {1}. {0}의 계약을 연장하시겠습니까?\n\n새 계약 조건: {2}. 갱신하면 오늘과 기존 계약 종료일 중 더 늦은 시점을 기준으로 30일이 추가됩니다. 영구 고용에는 복무 만료일이 없습니다. 이번 비용은 이전 고용 비용 및 도착 비용과 별도로 부과됩니다.</RC_Hire_ExtendConfirm>
+  <RC_Hire_DebugArrival>대기 중인 요원들의 도착 예정 시각을 현재로 변경했습니다. 실제로 도착하려면 여전히 안전한 맵 가장자리 진입 지점이 필요합니다.</RC_Hire_DebugArrival>
+  <RC_Hire_DebugExpiry>임시 복무 계약의 만료 시각을 현재로 변경했습니다. 임무에 배정되었거나 징집되었거나 쓰러졌거나 정착지 밖에 있는 요원은 안전하게 철수할 수 있을 때까지 기다립니다.</RC_Hire_DebugExpiry>
+  <RC_ContractorRaid_MedievalTitle>용병 전투단</RC_ContractorRaid_MedievalTitle>
+  <RC_ContractorRaid_MedievalBody>고용된 궁수와 갑옷을 갖춘 검사들로 이루어진 용병대가 지역에 진입하여 정착지를 공격하고 있습니다. 이들은 독립 용병단 소속으로, 당신 회사의 병력이 아닙니다.\n\n고용주는 의뢰 사실을 숨겼습니다. 적대 영주나 중립 세력, 심지어 겉으로는 동맹인 세력일 수도 있습니다. 고용주를 밝혀낼 만한 확실한 증거는 없습니다.\n\n곧바로 공격해 옵니다. 정착지를 방어하십시오!</RC_ContractorRaid_MedievalBody>
+  <RC_Supply_CaravanOnly>상단 배송</RC_Supply_CaravanOnly>
+  <RC_Supply_NoMedievalPods>중세 모드에서 보급품을 배송하려면 상단이 필요합니다. 이미 비행 중인 수송 포드는 계속 안전하게 처리됩니다.</RC_Supply_NoMedievalPods>
+  <RC_Supply_BriefMedieval>{0}\n\n조건: 내구도 95% 이상. 오염되거나 생체인증된 장비는 허용되지 않습니다. 재질이 지정 내용과 일치해야 합니다. 주문 물품을 상단의 짐으로 실으십시오. 착용 중인 방어구와 장비 중인 무기는 인도되지 않습니다.\n\n최소 지급액: 은 {1}. 물품 가격은 내구도가 100%일 때의 시장 가치에 {2}배를 곱하고, 은 {3}의 물류 지원금을 더해 산정합니다. 더 좋은 품질의 물품은 상승한 시장 가치에 더해 추가 품질 등급마다 5%를 더 받습니다. 보급 계약을 성공적으로 완수하면 사전에 고지된 조달 수수료도 환급됩니다. 비싼 물품을 구매하거나 우회하거나 계약에 실패하면 실제 수익이 줄어들 수 있습니다.\n\n기한 안에 상단으로 물품 인수 거점에 납품하십시오. 일부만 납품해도 해당 물품은 의뢰인의 소유가 되며, 대금은 전체 주문을 완수해야 지급됩니다. 이미 납품한 물품은 계약에 실패해도 반환되지 않습니다. 중세 모드에서는 수송 포드를 이용한 신규 배송을 선택할 수 없습니다.\n\n수락한 주문은 회사 운영 방식이 바뀌어도 기존 품목과 수량 및 가격이 유지됩니다. 이미 발사한 화물 가운데 기한을 넘겼거나 주문량을 초과한 물품은 상단으로 회수할 수 있도록 보관됩니다.</RC_Supply_BriefMedieval>
+  <RC_Mod_Company>PMC</RC_Mod_Company>
+  <RC_Med_Company>용병단</RC_Med_Company>
+  <RC_Mod_CompanyLong>민간 군사 기업</RC_Mod_CompanyLong>
+  <RC_Med_CompanyLong>용병단</RC_Med_CompanyLong>
+  <RC_Mod_Register>PMC 등록</RC_Mod_Register>
+  <RC_Med_Register>용병단 창설</RC_Med_Register>
+  <RC_Mod_Contractor>계약 요원</RC_Mod_Contractor>
+  <RC_Med_Contractor>용병</RC_Med_Contractor>
+  <RC_Mod_Contractors>계약 요원</RC_Mod_Contractors>
+  <RC_Med_Contractors>용병</RC_Med_Contractors>
+  <RC_Mod_Roster>요원 명단</RC_Mod_Roster>
+  <RC_Med_Roster>용병단</RC_Med_Roster>
+  <RC_Mod_Reputation>평판</RC_Mod_Reputation>
+  <RC_Med_Reputation>명성</RC_Med_Reputation>
+  <RC_Mod_Level>PMC 등급</RC_Mod_Level>
+  <RC_Med_Level>위상</RC_Med_Level>
+  <RC_Mod_Operations>작전</RC_Mod_Operations>
+  <RC_Med_Operations>계약</RC_Med_Operations>
+  <RC_Mod_Mission>임무</RC_Mod_Mission>
+  <RC_Med_Mission>임무</RC_Med_Mission>
+  <RC_Mod_Missions>임무</RC_Mod_Missions>
+  <RC_Med_Missions>임무</RC_Med_Missions>
+  <RC_Mod_Deploy>파견</RC_Mod_Deploy>
+  <RC_Med_Deploy>출정</RC_Med_Deploy>
+  <RC_Mod_Client>의뢰인</RC_Mod_Client>
+  <RC_Med_Client>후원자</RC_Med_Client>
+  <RC_Mod_DashboardTitle>PMC 작전 현황</RC_Mod_DashboardTitle>
+  <RC_Med_DashboardTitle>용병단 장부</RC_Med_DashboardTitle>
+  <RC_Difficulty_Easy>쉬움</RC_Difficulty_Easy>
+  <RC_Difficulty_Normal>보통</RC_Difficulty_Normal>
+  <RC_Difficulty_Hard>어려움</RC_Difficulty_Hard>
+  <RC_Difficulty_Extreme>극한</RC_Difficulty_Extreme>
+  <RC_MissionStatus_Travelling>이동 중</RC_MissionStatus_Travelling>
+  <RC_MissionStatus_OnObjective>목표 수행 중</RC_MissionStatus_OnObjective>
+  <RC_MissionStatus_Extracting>철수 중</RC_MissionStatus_Extracting>
+  <RC_MissionStatus_Succeeded>완료</RC_MissionStatus_Succeeded>
+  <RC_MissionStatus_Failed>실패</RC_MissionStatus_Failed>
+  <RC_MissionStatus_Boarding>왕복선 탑승 중</RC_MissionStatus_Boarding>
+  <RC_MissionStatus_MarchingOut>도보 출발 중</RC_MissionStatus_MarchingOut>
+  <RC_Phase_Deploying>작전 투입 중</RC_Phase_Deploying>
+  <RC_Phase_InTheField>현장 작전 중</RC_Phase_InTheField>
+  <RC_Phase_Returning>복귀 중</RC_Phase_Returning>
+  <RC_Deploy_Foot>도보</RC_Deploy_Foot>
+  <RC_Deploy_Mounts>탈것</RC_Deploy_Mounts>
+  <RC_Deploy_Vehicles>차량</RC_Deploy_Vehicles>
+  <RC_Deploy_Shuttle>왕복선</RC_Deploy_Shuttle>
+  <RC_Deploy_Gravship>중력부양선</RC_Deploy_Gravship>
+  <RC_Deploy_FootTipRemote>{0}들이 지도 가장자리까지 걸어가 밖으로 나가고, 임무가 끝나면 다시 걸어서 지도에 들어옵니다. 느리지만 언제든 이용할 수 있습니다.</RC_Deploy_FootTipRemote>
+  <RC_Deploy_FootTipField>별도의 이동 수단은 제공되지 않습니다. 목표 지점이 세계 지도에 표시되며, 선택한 요원은 정착지에 그대로 남습니다. 일반 상단처럼 직접 상단을 구성하여 목표 지점까지 이동해야 합니다. 임무 카드에 상단 구성 버튼이 표시됩니다.</RC_Deploy_FootTipField>
+  <RC_Deploy_MountsTip>Giddy-Up 2 모드가 필요합니다. 이동 속도가 다소 빨라집니다.</RC_Deploy_MountsTip>
+  <RC_Deploy_VehiclesTip>Vanilla Vehicles Expanded 모드가 필요합니다. 이동 속도가 크게 빨라집니다.</RC_Deploy_VehiclesTip>
+  <RC_Deploy_ShuttleTipRemote>왕복선이 정착지에 착륙하면 분대가 탑승하여 출발합니다. 가장 빠른 방식이며, 귀환할 때도 사상자를 포함한 분대원 모두가 같은 방식으로 이동합니다.</RC_Deploy_ShuttleTipRemote>
+  <RC_Deploy_ShuttleTipField>왕복선이 분대를 태우러 온 뒤, 목표 지도에서 분대를 내려놓을 위치를 직접 지정합니다. 상단으로 이동할 필요가 없습니다.</RC_Deploy_ShuttleTipField>
+  <RC_Deploy_GravshipTip>오디세이가 필요합니다. 직접 보유한 중력부양선을 타고 목표 지점으로 이동하여 원하는 곳에 착륙하십시오. 해당 현장은 중력부양선이 착륙할 수 있도록 정리되어 있습니다.</RC_Deploy_GravshipTip>
+  <RC_Outcome_Success>성공</RC_Outcome_Success>
+  <RC_Outcome_Failure>실패</RC_Outcome_Failure>
+  <RC_Outcome_Abandoned>포기</RC_Outcome_Abandoned>
+  <RC_Outcome_Expired>만료</RC_Outcome_Expired>
+  <RC_Mode_Remote>자동 판정</RC_Mode_Remote>
+  <RC_Mode_Field>현장 파견</RC_Mode_Field>
+  <RC_Contract>계약</RC_Contract>
+  <RC_UnknownClient>알 수 없는 의뢰인</RC_UnknownClient>
+  <RC_UnknownTarget>알 수 없는 대상</RC_UnknownTarget>
+  <RC_UnknownLocation>조사되지 않은 위치</RC_UnknownLocation>
+  <RC_UnknownObjective>목표 불명</RC_UnknownObjective>
+  <RC_None>없음</RC_None>
+  <RC_NowAt>이제 {0}</RC_NowAt>
+  <RC_TilesAway>{0} 타일</RC_TilesAway>
+  <RC_Brief_Client>의뢰인</RC_Brief_Client>
+  <RC_Brief_Target>목표</RC_Brief_Target>
+  <RC_Brief_Location>위치</RC_Brief_Location>
+  <RC_Brief_Distance>거리</RC_Brief_Distance>
+  <RC_Brief_Difficulty>난이도</RC_Brief_Difficulty>
+  <RC_Brief_Opposition>적 전력</RC_Brief_Opposition>
+  <RC_OppositionDesc>적 약 {0}명({1} 위협)</RC_OppositionDesc>
+  <RC_Brief_Recommended>권장 인원</RC_Brief_Recommended>
+  <RC_Brief_TimeLimit>시간 제한</RC_Brief_TimeLimit>
+  <RC_Brief_HoldFor>방어 기간</RC_Brief_HoldFor>
+  <RC_Brief_Payout>보상</RC_Brief_Payout>
+  <RC_Brief_RepReward>성공 시</RC_Brief_RepReward>
+  <RC_Brief_RepPenalty>실패 시</RC_Brief_RepPenalty>
+  <RC_Brief_ClientRelations>성공 시 의뢰인 우호도</RC_Brief_ClientRelations>
+  <RC_Brief_TargetRelations>성공 시 대상 세력 우호도</RC_Brief_TargetRelations>
+  <RC_Brief_FriendlyTargetWarning>참고: {0}(은)는 우리와 적대 관계가 아닙니다. 누가 보수를 지급하든 이 계약을 맡으면 현재의 우호 관계가 악화됩니다.</RC_Brief_FriendlyTargetWarning>
+  <RC_Card_Parties>{0} 대 {1}</RC_Card_Parties>
+  <RC_Card_Squad>{0} 권장</RC_Card_Squad>
+  <RC_Card_Expires>제안 만료까지 {0}</RC_Card_Expires>
+  <RC_Card_NamedTarget>{0}, {1}</RC_Card_NamedTarget>
+  <RC_Card_Opposition>{1} 소속 적 {0}명</RC_Card_Opposition>
+  <RC_TargetDescriptor1>중간급 간부</RC_TargetDescriptor1>
+  <RC_TargetDescriptor2>상단 병참장교</RC_TargetDescriptor2>
+  <RC_TargetDescriptor3>야전 의무병</RC_TargetDescriptor3>
+  <RC_TargetDescriptor4>하급 장교</RC_TargetDescriptor4>
+  <RC_TargetDescriptor5>회사 서기</RC_TargetDescriptor5>
+  <RC_Title_SearchDestroy>{1}에서 {0} 세력 소탕</RC_Title_SearchDestroy>
+  <RC_Obj_SearchDestroy>목표 지역에 있는 {1} 소속 적 약 {0}명을 제거하십시오.</RC_Obj_SearchDestroy>
+  <RC_Title_Rescue>{1}에서 {0} 구출</RC_Title_Rescue>
+  <RC_Obj_Rescue>{1}에게 붙잡힌 {0}(을)를 확보하여 생환시키십시오.</RC_Obj_Rescue>
+  <RC_Extract_WithTarget>{0}(을)를 운반하십시오. 우호적인 구조 대상은 체포하거나 침대에 눕힐 필요가 없습니다. 상단, 왕복선 또는 차량으로 정착지에 데려와 하차시킨 뒤 의학적으로 안정시키십시오. 계약 정산 후 의뢰인이 대상을 회수합니다.</RC_Extract_WithTarget>
+  <RC_Title_Kidnap>{1}에서 {0} 생포</RC_Title_Kidnap>
+  <RC_Obj_Kidnap>{1} 소속 {0}(을)를 생포하십시오. 대상이 사망하면 계약이 무효가 됩니다.</RC_Obj_Kidnap>
+  <RC_Extract_WithCaptive>{0}(을)를 쓰러뜨린 뒤 '현장 체포 및 운반'을 사용하십시오(침대는 필요하지 않습니다). 이후 상단, 왕복선 또는 차량으로 정착지에 데려와 하차시킨 뒤 의학적으로 안정시키십시오. 계약 정산 후 의뢰인이 대상을 회수합니다.</RC_Extract_WithCaptive>
+  <RC_Title_Assassination>{1}에서 {0} 처치</RC_Title_Assassination>
+  <RC_Obj_Assassination>{1} 소속 {0}(을)를 처치하십시오. 다른 사람을 죽일 필요는 없습니다.</RC_Obj_Assassination>
+  <RC_Extract_AfterKill>대상의 사망을 확인한 뒤 현장에서 철수하십시오.</RC_Extract_AfterKill>
+  <RC_Fail_MarkEscaped>{0}(은)는 살아서 해당 지역을 벗어났습니다.</RC_Fail_MarkEscaped>
+  <RC_Title_Sabotage>{1}에서 {0} 기반 시설 파괴</RC_Title_Sabotage>
+  <RC_Obj_Sabotage>{1}(이)가 점유한 {0}(을)를 파괴하십시오. 현장을 소탕할 필요는 없습니다.</RC_Obj_Sabotage>
+  <RC_Extract_AfterSabotage>구조물을 파괴한 뒤 현장에서 철수하십시오.</RC_Extract_AfterSabotage>
+  <RC_Card_Sabotage>{0} 대상 파괴 공작</RC_Card_Sabotage>
+  <RC_Sabotage_Structure>목표 구조물</RC_Sabotage_Structure>
+  <RC_Title_Security>{0} 거점 방어</RC_Title_Security>
+  <RC_Obj_Security>{1} 측을 위해 목표 지점을 {0} 동안 방어하십시오. 임무지를 일찍 떠나면 계약이 파기됩니다.</RC_Obj_Security>
+  <RC_Extract_AfterHold>경비 기간을 채우면 현장에서 철수하십시오.</RC_Extract_AfterHold>
+  <RC_Extract_Remote>{0}들이 목표를 달성하면 자체적으로 정착지로 복귀합니다.</RC_Extract_Remote>
+  <RC_Extract_Field>목표를 달성한 뒤 현장에서 철수하십시오.</RC_Extract_Field>
+  <RC_Fail_TargetDied>{0}(은)는 구출되기 전에 사망했습니다.</RC_Fail_TargetDied>
+  <RC_Fail_CaptiveDied>{0}(이)가 사망했습니다. 계약상 대상은 살아 있어야 했습니다.</RC_Fail_CaptiveDied>
+  <RC_Fail_TargetDiedRemote>{0}(은)는 작전에서 살아남지 못했습니다. 계약상 생존이 필수였습니다.</RC_Fail_TargetDiedRemote>
+  <RC_Fail_PostAbandoned>필요한 기간을 채우기 전에 경비지를 이탈했습니다.</RC_Fail_PostAbandoned>
+  <RC_Fail_Deadline>목표를 달성하지 못한 채 마감일이 지났습니다.</RC_Fail_Deadline>
+  <RC_Fail_NoOneLeft>그 일을 끝낼 수 있는 사람은 아무도 남지 않았습니다.</RC_Fail_NoOneLeft>
+  <RC_Fail_ObjectiveLost>혼란 속에서 목표를 놓쳤습니다.</RC_Fail_ObjectiveLost>
+  <RC_Fail_Recalled>회사는 일을 마치기도 전에 철수했습니다.</RC_Fail_Recalled>
+  <RC_LetterLabel_Accepted>{0} 수락</RC_LetterLabel_Accepted>
+  <RC_Letter_AcceptedRemote>{0}들이 {1}의 계약을 수행하기 위해 정착지를 떠났습니다. 약 {2} 후 목표 지역에 도착합니다. 의뢰인의 마감 기한까지 {3} 남았습니다.</RC_Letter_AcceptedRemote>
+  <RC_Letter_AcceptedField>{0}들이 {1}의 계약을 맡았습니다. 상단을 구성하여 {2}(으)로 이동하십시오. 의뢰인의 마감 기한까지 {3} 남았습니다.</RC_Letter_AcceptedField>
+  <RC_Letter_TransportUsed>수송: {0}</RC_Letter_TransportUsed>
+  <RC_Letter_AcceptedBoarding>{0}(을)를 태울 왕복선이 접근 중입니다. 탑승이 끝나면 {1}의 계약을 수행하러 출발합니다.</RC_Letter_AcceptedBoarding>
+  <RC_Letter_AcceptedMarching>{0}들이 지도 가장자리로 이동 중입니다. 정착지를 벗어나면 {1}의 계약을 수행하러 출발합니다.</RC_Letter_AcceptedMarching>
+  <RC_LetterLabel_Departed>계약 수행을 위해 출발</RC_LetterLabel_Departed>
+  <RC_Letter_DepartedBody>{0}들이 정착지를 벗어나 {1}의 계약 현장으로 이동 중입니다. 약 {2} 후 목표 지역에 도착합니다.</RC_Letter_DepartedBody>
+  <RC_LetterLabel_BoardingFailed>빈 왕복선 출발</RC_LetterLabel_BoardingFailed>
+  <RC_Letter_BoardingFailedBody>아무도 제때 정착지를 떠나지 못해 {0} 계약이 실패 처리되었습니다. 분대가 밖으로 나갈 경로를 확보했는지 확인하십시오.</RC_Letter_BoardingFailedBody>
+  <RC_Fail_NeverBoarded>분대가 정착지를 떠나지 못했습니다.</RC_Fail_NeverBoarded>
+  <RC_LetterLabel_Inserted>분대 현장 투입</RC_LetterLabel_Inserted>
+  <RC_Letter_InsertedBody>{0}들이 {1}에 투입되었습니다.</RC_Letter_InsertedBody>
+  <RC_LetterLabel_ObjectiveDone>목표 완료</RC_LetterLabel_ObjectiveDone>
+  <RC_Letter_ObjectiveDoneBody>목표가 달성되었습니다. {0}</RC_Letter_ObjectiveDoneBody>
+  <RC_LetterLabel_Success>{0} 완료</RC_LetterLabel_Success>
+  <RC_LetterLabel_Failed>{0} 실패</RC_LetterLabel_Failed>
+  <RC_Letter_SuccessBody>{0}(이)가 계약을 완수했습니다. {1}(이)가 보상을 지급했으며 이를 기록에 남겼습니다.</RC_Letter_SuccessBody>
+  <RC_Letter_FailBody>{0}(이)가 계약을 완수하지 못했습니다. {1}(은)는 보상을 지급하지 않으며, 실패 소식도 퍼질 것입니다.</RC_Letter_FailBody>
+  <RC_Letter_AbandonBody>{0}(이)가 계약을 포기했습니다. {1}(은)는 보상을 지급하지 않으며 이 일을 기억할 것입니다.</RC_Letter_AbandonBody>
+  <RC_Letter_Casualties>이 계약의 손실 인원: {0}.</RC_Letter_Casualties>
+  <RC_Letter_CasualtiesNoPenalty>사상자는 작전상 손실일 뿐 계약 실패로 간주되지 않습니다. 이로 인해 {0} 수치가 감소하지 않습니다.</RC_Letter_CasualtiesNoPenalty>
+  <RC_LetterLabel_LevelUp>{0} 증가</RC_LetterLabel_LevelUp>
+  <RC_LetterText_LevelUp>{0}(이)가 {1}등급에 도달했습니다. 이제 한 번에 투입할 수 있는 {3} 인원이 최대 {2}명으로 늘어났으며, 계약 게시판에 보수가 더 높은 임무가 나타납니다.</RC_LetterText_LevelUp>
+  <RC_Comms_Option>{0} 열기</RC_Comms_Option>
+  <RC_Comms_OptionLicense>{0}에 운영 허가 신청</RC_Comms_OptionLicense>
+  <RC_Licensor_Default>실바란 산업</RC_Licensor_Default>
+  <RC_Licensor_Order>실바란 기사단</RC_Licensor_Order>
+  <RC_Licensor_DefaultBlurb>{0}(은)는 변방계 전역의 민간 군사 업무를 보증합니다. 이 행성에 직접 진출하지는 않았지만 서류망은 이어져 있습니다. 등록된 면허가 없으면 어떤 세력도 플레이어와 계약하려 하지 않습니다.</RC_Licensor_DefaultBlurb>
+  <RC_Licensor_FactionBlurb>{0}(은)는 이 세계에서 운영 허가증을 발급하고 보증합니다. 허가증이 없어도 돈을 받고 싸울 수는 있지만, 어떤 세력도 명부에 등록되지 않은 회사와 정식 계약을 맺지는 않습니다.</RC_Licensor_FactionBlurb>
+  <RC_License_Title>운영 허가증</RC_License_Title>
+  <RC_License_IssuedBy>발급 기관: {0}</RC_License_IssuedBy>
+  <RC_License_Terms>허가 내용</RC_License_Terms>
+  <RC_License_TermsBody>정착지를 계약 회사로 등록합니다. 세력들이 계약을 제안하기 시작하며, 계약에 {0}(을)를 투입할 수 있습니다. 완료한 임무로 {1}(을)를 쌓아 더 좋은 계약 조건을 확보할 수 있습니다.</RC_License_TermsBody>
+  <RC_License_Fee>허가 수수료</RC_License_Fee>
+  <RC_License_OnHand>보유 은</RC_License_OnHand>
+  <RC_License_OnHandTip>정착지 맵에서 전장의 안개에 가려지지 않고 금지되지 않은 은을 계산합니다. 선반이나 바닥에 놓인 은도 포함되며, 무역 송신기는 필요하지 않습니다.</RC_License_OnHandTip>
+  <RC_License_NoFee>허가 수수료 없음 — 모드 설정에서 운영 허가증 요구가 꺼져 있습니다.</RC_License_NoFee>
+  <RC_License_Buy>은 {0} 지불</RC_License_Buy>
+  <RC_License_CantAfford>운영 허가증 가격: 은 {0}. 정착지 보유량: 은 {1}.</RC_License_CantAfford>
+  <RC_License_PaymentFailed>대금을 지급할 수 없습니다.</RC_License_PaymentFailed>
+  <RC_License_LetterLabel>운영 허가 발급</RC_License_LetterLabel>
+  <RC_License_LetterBody>{0}(은)는 이제 {1}에 등록된 정식 계약 회사입니다. 앞으로 계약 제안이 들어옵니다. 현황판에서 계약 게시판을 확인하고, 계약을 맡을 때 투입할 {2}(을)를 선택하십시오.</RC_License_LetterBody>
+  <RC_Comms_UnregisteredInfo>정착지가 {0}(으)로 등록되지 않았습니다. 통신 콘솔에서 등록한 뒤 계약을 수주하십시오.</RC_Comms_UnregisteredInfo>
+  <RC_Comms_BoardCount>게시판의 제안 수: {0}</RC_Comms_BoardCount>
+  <RC_Comms_ActiveCount>활성 계약: {0}</RC_Comms_ActiveCount>
+  <RC_Chip_LifetimeSilver>계약으로 획득한 은 총액</RC_Chip_LifetimeSilver>
+  <RC_Tab_Overview>개요</RC_Tab_Overview>
+  <RC_Tab_Contracts>계약</RC_Tab_Contracts>
+  <RC_Tab_Active>진행 중</RC_Tab_Active>
+  <RC_Tab_History>기록</RC_Tab_History>
+  <RC_Nav_NextLevel>{0}등급까지 진행도</RC_Nav_NextLevel>
+  <RC_UnnamedCompany>이름 없는 회사</RC_UnnamedCompany>
+  <RC_Sec_Ledger>장부</RC_Sec_Ledger>
+  <RC_Sec_Board>게시 중</RC_Sec_Board>
+  <RC_Sec_Clients>계약 의뢰인</RC_Sec_Clients>
+  <RC_Clients_None>회사에 계약을 제안하는 세력이 없습니다. 다시 제안을 받으려면 세력과의 관계를 개선하십시오.</RC_Clients_None>
+  <RC_Clients_Tip>{0}(은)는 현재 회사에 최대 {1} 난이도의 계약을 맡길 의향이 있습니다. 관계가 좋을수록 더 많은 제안과 어려운 계약이 들어오며 보수도 조금 높아집니다.</RC_Clients_Tip>
+  <RC_Sec_Integrations>수송</RC_Sec_Integrations>
+  <RC_Ov_ActiveContracts>활성 계약</RC_Ov_ActiveContracts>
+  <RC_Ov_SquadCap>최대 분대 규모</RC_Ov_SquadCap>
+  <RC_Ov_TotalSilver>총 은 획득량</RC_Ov_TotalSilver>
+  <RC_Ov_Completed>계약 완료</RC_Ov_Completed>
+  <RC_Ov_Failed>계약 실패</RC_Ov_Failed>
+  <RC_Ov_Casualties>사상자</RC_Ov_Casualties>
+  <RC_Ov_NoOffers>지금은 제안이 없습니다. 하루나 이틀 뒤에 다시 확인해 보세요.</RC_Ov_NoOffers>
+  <RC_MaxLevel>최대 레벨</RC_MaxLevel>
+  <RC_Active>사용 가능</RC_Active>
+  <RC_Off>끔</RC_Off>
+  <RC_Btn_Rename>{0} 이름 바꾸기</RC_Btn_Rename>
+  <RC_Standing1>아직 {0}의 이름을 아는 이가 없습니다. 작은 계약부터 맡아 모두 무사히 돌아오면 더 많은 제안이 열릴 것입니다.</RC_Standing1>
+  <RC_Standing2>입소문이 퍼지기 시작했습니다. 의뢰인들은 {0}에 더 중요한 일을 맡기고, 한 계약에 투입할 수 있는 {1} 수도 늘릴 것입니다.</RC_Standing2>
+  <RC_Standing3>업계에 이름이 알려졌습니다. 더 어려운 의뢰가 들어오며, 위험에 걸맞은 보수가 지급됩니다.</RC_Standing3>
+  <RC_Standing4>평판이 좋습니다. 세력들이 특별히 {0}(을)를 찾아오며 상당한 보수를 제시합니다.</RC_Standing4>
+  <RC_Standing5>업계 정상에 올랐습니다. 게시판의 어떤 계약도 {0}에게 벅차지 않지만, 안전한 계약도 없습니다.</RC_Standing5>
+  <RC_Sec_Available>사용 가능한 계약({0})</RC_Sec_Available>
+  <RC_Sec_Briefing>브리핑</RC_Sec_Briefing>
+  <RC_Contracts_Empty>현재 제안된 계약이 없습니다. 시간이 지나면 새로운 계약이 나타납니다.</RC_Contracts_Empty>
+  <RC_Contracts_SelectPrompt>브리핑을 보려면 계약을 선택하십시오.</RC_Contracts_SelectPrompt>
+  <RC_Neg_Button>계약 협상</RC_Neg_Button>
+  <RC_Neg_ButtonTip>제안을 기다리는 대신 세력에 접촉하여 계약을 요청합니다. 의뢰인과 계약 종류, 난이도를 선택할 수 있지만 게시판 한 칸을 사용하며, 다시 협상하려면 대기 시간이 필요합니다.</RC_Neg_ButtonTip>
+  <RC_Neg_Title>계약 협상</RC_Neg_Title>
+  <RC_Neg_Sub>{0}(이)가 접촉할 세력과 요청할 계약 종류를 선택하십시오.</RC_Neg_Sub>
+  <RC_Neg_Client>의뢰인</RC_Neg_Client>
+  <RC_Neg_Difficulty>난이도</RC_Neg_Difficulty>
+  <RC_Neg_DifficultyCap>{1}(이)가 현재 회사에 맡길 수 있는 최고 난이도는 {0}입니다.</RC_Neg_DifficultyCap>
+  <RC_Neg_Type>계약 종류</RC_Neg_Type>
+  <RC_Neg_UpTo>최대 {0}</RC_Neg_UpTo>
+  <RC_Neg_Confirm>계약 요청</RC_Neg_Confirm>
+  <RC_Neg_PickClient>접촉할 세력을 선택하십시오.</RC_Neg_PickClient>
+  <RC_Neg_PickType>요청할 계약 종류를 선택하십시오.</RC_Neg_PickType>
+  <RC_Neg_TooHard>{0}(은)는 아직 회사에 그 정도로 중요한 계약을 맡기지 않습니다.</RC_Neg_TooHard>
+  <RC_Neg_NoTypes>현재 회사 등급으로는 해당 난이도의 계약을 수행할 수 없습니다.</RC_Neg_NoTypes>
+  <RC_Neg_NoClients>지금 당장 회사와 거래할 의향이 있는 세력은 없습니다.</RC_Neg_NoClients>
+  <RC_Neg_Disabled>모드 설정에서 협상이 꺼져 있습니다.</RC_Neg_Disabled>
+  <RC_Neg_BoardFull>계약 게시판이 이미 가득 찼습니다. 먼저 제안을 수락하거나 만료될 때까지 기다리십시오.</RC_Neg_BoardFull>
+  <RC_Neg_Cooldown>{0} 후 의뢰인에게 다시 계약을 요청할 수 있습니다.</RC_Neg_Cooldown>
+  <RC_Neg_Failed>조건에 맞는 계약을 마련하지 못했습니다.</RC_Neg_Failed>
+  <RC_Neg_Success>{0}(이)가 {1} 계약을 게시판에 올렸습니다.</RC_Neg_Success>
+  <RC_Btn_DeployRemote>자동 판정</RC_Btn_DeployRemote>
+  <RC_Btn_DeployField>요원 파견</RC_Btn_DeployField>
+  <RC_Tip_DeployRemote>선택한 {0}(을)를 정착지 밖으로 파견해 전투를 자동 판정합니다. 시간이 흐른 뒤 적의 전력과 요원의 기술, 장비, 건강 상태에 따라 결과가 결정됩니다. 전투를 직접 진행하지 않습니다.</RC_Tip_DeployRemote>
+  <RC_Tip_DeployField>세계 지도에 실제 임무지를 생성한 뒤 직접 원정대를 준비합니다. 인원을 선택하고 상단, 개인 왕복선, 중력부양선 또는 다른 운송 수단을 이용하십시오. 자동 출발이나 철수는 지원되지 않습니다.</RC_Tip_DeployField>
+  <RC_Sec_ActiveMissions>활성 임무({0})</RC_Sec_ActiveMissions>
+  <RC_Missions_Empty>진행 중인 {0}(이)가 없습니다.</RC_Missions_Empty>
+  <RC_Mis_Location>위치: {0}</RC_Mis_Location>
+  <RC_Mis_Deployed>파견 인원: {0}</RC_Mis_Deployed>
+  <RC_Mis_Extraction>철수: {0}</RC_Mis_Extraction>
+  <RC_Mis_ObjectiveDone>목표 달성</RC_Mis_ObjectiveDone>
+  <RC_Mis_TimeLeft>{0} 남음</RC_Mis_TimeLeft>
+  <RC_Mis_Payout>보상</RC_Mis_Payout>
+  <RC_Mis_Mode>방식</RC_Mis_Mode>
+  <RC_Btn_Locate>지도에 표시</RC_Btn_Locate>
+  <RC_Btn_FormCaravan>상단 구성</RC_Btn_FormCaravan>
+  <RC_Tip_FormCaravan>상단 구성 화면을 열어 선택한 인원을 {0}(으)로 보내십시오. 상단을 구성하기 전까지는 정착지에 남아 있습니다.</RC_Tip_FormCaravan>
+  <RC_Btn_Shuttle>왕복선 표시</RC_Btn_Shuttle>
+  <RC_Tip_Shuttle>착륙장에 대기 중인 회수 왕복선 위치로 이동합니다.</RC_Tip_Shuttle>
+  <RC_Btn_Abandon>포기</RC_Btn_Abandon>
+  <RC_Btn_Extract>철수 요청</RC_Btn_Extract>
+  <RC_Tip_Extract>목표 지역의 인원들을 투입 때와 같은 방식으로 정착지로 철수시킵니다. 정착민과 포로, 회수한 전사자의 시신이 포함됩니다. 철수가 완료되면 계약이 종료되고 보상이 지급됩니다.</RC_Tip_Extract>
+  <RC_Confirm_Extract>이 임무에 투입된 요원과 확보한 대상, 회수한 사상자를 철수시키겠습니까? 다른 정착민과 포로는 현장에 남습니다.</RC_Confirm_Extract>
+  <RC_Extract_FieldOnly>현장 파견 임무에서만 철수를 요청할 수 있습니다.</RC_Extract_FieldOnly>
+  <RC_Extract_ObjectiveFirst>먼저 목표를 완료하세요.</RC_Extract_ObjectiveFirst>
+  <RC_Extract_NobodyThere>철수시킬 인원이 목표 지역에 없습니다.</RC_Extract_NobodyThere>
+  <RC_Tip_Locate>세계 지도에서 목표 지점으로 이동합니다.</RC_Tip_Locate>
+  <RC_Tip_Abandon>계약을 포기합니다. 회사 {1}: -{0}. 의뢰인과의 관계가 악화되며 보상은 없습니다.</RC_Tip_Abandon>
+  <RC_Confirm_Abandon>{0} 계약을 포기하시겠습니까? {1} {2}(을)를 잃고 의뢰인과의 관계가 악화되며, 보상도 받을 수 없습니다.</RC_Confirm_Abandon>
+  <RC_Tip_MissionClock>의뢰인 마감일: {0} 남음.</RC_Tip_MissionClock>
+  <RC_Tip_PhaseTracker>현재 단계: {0} · 이 구간 종료까지 약 {1}</RC_Tip_PhaseTracker>
+  <RC_Add_SearchHint>이름으로 검색...</RC_Add_SearchHint>
+  <RC_Col_Shooting>사격</RC_Col_Shooting>
+  <RC_Col_Melee>근접 전투</RC_Col_Melee>
+  <RC_Col_Medical>의학</RC_Col_Medical>
+  <RC_Col_Health>건강 상태</RC_Col_Health>
+  <RC_Assignment_Standby>대기 중</RC_Assignment_Standby>
+  <RC_Tip_HealthSummary>전반적인 상태: {0}</RC_Tip_HealthSummary>
+  <RC_Tip_Downed>현재 쓰러져 있습니다.</RC_Tip_Downed>
+  <RC_Sec_History>계약 내역({0})</RC_Sec_History>
+  <RC_History_Empty>아직 종료된 계약이 없습니다.</RC_History_Empty>
+  <RC_Col_Result>결과</RC_Col_Result>
+  <RC_Col_Type>계약</RC_Col_Type>
+  <RC_Col_Relations>관계</RC_Col_Relations>
+  <RC_Col_Losses>손실</RC_Col_Losses>
+  <RC_Hist_Mode>수행 방식</RC_Hist_Mode>
+  <RC_Hist_Result>결과</RC_Hist_Result>
+  <RC_Hist_Deployed>투입 인원</RC_Hist_Deployed>
+  <RC_Hist_Casualties>사상자</RC_Hist_Casualties>
+  <RC_Hist_Silver>은</RC_Hist_Silver>
+  <RC_Hist_ClientRel>의뢰인 관계</RC_Hist_ClientRel>
+  <RC_Hist_TargetRel>대상 세력 관계</RC_Hist_TargetRel>
+  <RC_Tip_Difficulty>난이도: {0}</RC_Tip_Difficulty>
+  <RC_Tip_Reputation>계약을 완료하면 획득합니다. 회사 등급과 최대 분대 규모, 게시판에 올라오는 계약의 질에 영향을 줍니다. 은과 세력 관계와는 별개입니다.</RC_Tip_Reputation>
+  <RC_Tip_NextLevel>다음 등급까지 {1} {0} 필요.</RC_Tip_NextLevel>
+  <RC_Tip_Capacity>이 등급에서 회사가 자동 판정 계약 하나에 투입할 수 있는 {0}의 최대 인원입니다. 플레이어가 직접 준비하는 현장 원정대는 이 분대 선택 제한을 받지 않습니다.</RC_Tip_Capacity>
+  <RC_Tip_CasualtiesNoPenalty>계약 요원의 사망은 작전상 손실입니다. 이로 인해 {0} 수치가 감소하거나 세력 관계가 악화되지는 않습니다.</RC_Tip_CasualtiesNoPenalty>
+  <RC_Tip_Odds>적 전력과 비교한 분대의 기술, 무기, 방어구, 건강 상태를 바탕으로 계산한 목표 달성 확률입니다. 의무병이 있으면 부상이 사망으로 이어질 확률이 낮아집니다.</RC_Tip_Odds>
+  <RC_Tip_StrengthField>적군과 비교한 아군 분대의 전투력입니다. 수치가 비슷하면 대등한 싸움입니다. 전투를 직접 진행하므로 이 수치는 참고용이며 주사위 판정이 아닙니다.</RC_Tip_StrengthField>
+  <RC_Dlg_RenameTitle>{0} 이름 변경</RC_Dlg_RenameTitle>
+  <RC_Dlg_RenameBlurb>새 이름을 선택하세요. 다른 것은 변하지 않습니다.</RC_Dlg_RenameBlurb>
+  <RC_Dlg_CompanyName>회사명</RC_Dlg_CompanyName>
+  <RC_Dlg_NameTooShort>2자 이상의 이름을 선택하세요.</RC_Dlg_NameTooShort>
+  <RC_Btn_Randomise>추천</RC_Btn_Randomise>
+  <RC_Btn_Cancel>취소</RC_Btn_Cancel>
+  <RC_Btn_Confirm>확인</RC_Btn_Confirm>
+  <RC_Dlg_SquadTitle>{0} 파견</RC_Dlg_SquadTitle>
+  <RC_Dlg_PickSquad>{0} 선택 — {1} 권장</RC_Dlg_PickSquad>
+  <RC_Dlg_Selected>파견</RC_Dlg_Selected>
+  <RC_Dlg_NoAvailable>사용 가능한 {0}(이)가 없습니다.</RC_Dlg_NoAvailable>
+  <RC_Dlg_Rating>등급 {0}</RC_Dlg_Rating>
+  <RC_Dlg_Transport>수송</RC_Dlg_Transport>
+  <RC_Dlg_MapSize>목표 지도</RC_Dlg_MapSize>
+  <RC_Dlg_MapSizeTip>목표 지점에 생성되는 지도의 크기입니다. 지도가 크면 이동해야 할 범위가 넓고 성능 부담도 커집니다. 작은 지도에서는 좁은 공간에서 빠르게 교전하게 됩니다.</RC_Dlg_MapSizeTip>
+  <RC_Dlg_Odds>성공 확률</RC_Dlg_Odds>
+  <RC_Dlg_RelativeStrength>분대 대 적 전력</RC_Dlg_RelativeStrength>
+  <RC_Dlg_RoundTrip>예상 왕복 시간</RC_Dlg_RoundTrip>
+  <RC_Dlg_Deadline>의뢰인 마감 기한</RC_Dlg_Deadline>
+  <RC_Btn_ConfirmRemote>{0}</RC_Btn_ConfirmRemote>
+  <RC_Btn_ConfirmField>임무지 생성</RC_Btn_ConfirmField>
+  <RC_Msg_SiteCreated>세계 지도에서 {0}에 목표 지점을 표시했습니다. 상단을 구성해 이동하십시오.</RC_Msg_SiteCreated>
+  <RC_Reason_Unknown>파견을 준비하지 못했습니다.</RC_Reason_Unknown>
+  <RC_Reason_NotRegistered>정착지가 {0}(으)로 등록되지 않았습니다.</RC_Reason_NotRegistered>
+  <RC_Reason_NoContract>선택한 계약이 없습니다.</RC_Reason_NoContract>
+  <RC_Reason_TooManyActive>이미 동시에 진행할 수 있는 최대 계약 수({0}개)에 도달했습니다.</RC_Reason_TooManyActive>
+  <RC_Reason_NoSquad>{0} 중 하나 이상을 선택하세요.</RC_Reason_NoSquad>
+  <RC_Reason_AlreadyDeployed>{0}(은)는 이미 다른 계약에 투입되어 있습니다.</RC_Reason_AlreadyDeployed>
+  <RC_Reason_DeadContractor>선정된 용병 중 한 명이 사망했습니다.</RC_Reason_DeadContractor>
+  <RC_Reason_Downed>{0}(은)는 쓰러져 있어 파견할 수 없습니다.</RC_Reason_Downed>
+  <RC_Reason_MustLeaveSomeone>누군가는 정착지에 남아 관리해야 합니다.</RC_Reason_MustLeaveSomeone>
+  <RC_Reason_OverCapacity>한 계약에 최대 {0}명만 투입할 수 있습니다. 더 많은 인원을 보내려면 회사 등급을 올리십시오.</RC_Reason_OverCapacity>
+  <RC_Reason_NotOnMap>{0}(은)는 지도에 없으므로 그곳에서 출발할 수 없습니다.</RC_Reason_NotOnMap>
+  <RC_Reason_DifferentMaps>전체 분대가 같은 장소에서 출발해야 합니다.</RC_Reason_DifferentMaps>
+  <RC_Reason_NoHomeMap>파견 거점으로 삼을 정착지가 필요합니다.</RC_Reason_NoHomeMap>
+  <RC_Reason_RemoteDisabled>모드 설정에서 자동 판정이 꺼져 있습니다.</RC_Reason_RemoteDisabled>
+  <RC_Reason_FieldDisabled>모드 설정에서 현장 파견이 꺼져 있습니다.</RC_Reason_FieldDisabled>
+  <RC_Reason_BadTile>목표 위치가 잘못되었습니다.</RC_Reason_BadTile>
+  <RC_Reason_TileOccupied>다른 것이 이미 해당 세계 타일을 차지하고 있습니다.</RC_Reason_TileOccupied>
+  <RC_Reason_MissingSiteDef>계약 임무지 정의가 누락되었습니다.</RC_Reason_MissingSiteDef>
+  <RC_Reason_SiteFailed>목표 임무지를 생성할 수 없습니다.</RC_Reason_SiteFailed>
+  <RC_Detected>감지됨</RC_Detected>
+  <RC_NotInstalled>설치되지 않음</RC_NotInstalled>
+  <RC_Shuttle_NotAvailable>왕복선 운송 콘텐츠를 이용할 수 없습니다.</RC_Shuttle_NotAvailable>
+  <RC_Shuttle_NeedsResearch>{0} 연구가 필요합니다</RC_Shuttle_NeedsResearch>
+  <RC_Shuttle_MedievalBlocked>중세 방식에서는 이용할 수 없음</RC_Shuttle_MedievalBlocked>
+  <RC_Shuttle_NoLandingSpot>왕복선이 착륙할 안전한 지점이 없습니다. 평평하고 지붕이 없는 공간을 확보하십시오.</RC_Shuttle_NoLandingSpot>
+  <RC_Shuttle_NoComp>그 왕복선은 사람을 태울 수 없습니다.</RC_Shuttle_NoComp>
+  <RC_Shuttle_Failed>왕복선을 준비할 수 없습니다.</RC_Shuttle_Failed>
+  <RC_Msg_ShuttleInbound>{0}(을)를 태울 왕복선이 접근 중입니다.</RC_Msg_ShuttleInbound>
+  <RC_Msg_MarchingOut>{0}들이 지도 가장자리로 이동 중입니다.</RC_Msg_MarchingOut>
+  <RC_March_NoRoute>아무도 지도 가장자리에 도달할 수 없습니다. 밖으로 나갈 경로를 확인하십시오.</RC_March_NoRoute>
+  <RC_March_NoEntry>지도로 돌아갈 방법을 찾을 수 없습니다.</RC_March_NoEntry>
+  <RC_Msg_PickLandingSpot>분대를 내려놓을 위치를 선택하십시오.</RC_Msg_PickLandingSpot>
+  <RC_MapSize_Default>기본(200)</RC_MapSize_Default>
+  <RC_MapSize_Value>{0} x {0}</RC_MapSize_Value>
+  <RC_NameSuggestMod1>아이언베일 시큐리티</RC_NameSuggestMod1>
+  <RC_NameSuggestMod2>블랙파인 그룹</RC_NameSuggestMod2>
+  <RC_NameSuggestMod3>메리디언 리스크</RC_NameSuggestMod3>
+  <RC_NameSuggestMod4>나인스 라인 솔루션</RC_NameSuggestMod4>
+  <RC_NameSuggestMod5>캐시터 컨트랙팅</RC_NameSuggestMod5>
+  <RC_NameSuggestMod6>핼시언 택티컬</RC_NameSuggestMod6>
+  <RC_NameSuggestMod7>애시필드 컨설팅</RC_NameSuggestMod7>
+  <RC_NameSuggestMod8>레드라크 오퍼레이션즈</RC_NameSuggestMod8>
+  <RC_NameSuggestMod9>밴티지 오버워치</RC_NameSuggestMod9>
+  <RC_NameSuggestMod10>세이블 유니온</RC_NameSuggestMod10>
+  <RC_NameSuggestMed1>철의 용병단</RC_NameSuggestMed1>
+  <RC_NameSuggestMed2>블랙파인 자유검단</RC_NameSuggestMed2>
+  <RC_NameSuggestMed3>제9군기단</RC_NameSuggestMed3>
+  <RC_NameSuggestMed4>애시필드의 아들들</RC_NameSuggestMed4>
+  <RC_NameSuggestMed5>회색 창기병단</RC_NameSuggestMed5>
+  <RC_NameSuggestMed6>레드라크 직속대</RC_NameSuggestMed6>
+  <RC_NameSuggestMed7>부러진 창</RC_NameSuggestMed7>
+  <RC_NameSuggestMed8>검은 손 용병단</RC_NameSuggestMed8>
+  <RC_NameSuggestMed9>떠도는 검들</RC_NameSuggestMed9>
+  <RC_NameSuggestMed10>밴티지 자유 용병단</RC_NameSuggestMed10>
+  <RC_Set_Sec_Style>회사 운영 방식</RC_Set_Sec_Style>
+  <RC_Set_Style>방식</RC_Set_Style>
+  <RC_Set_Style_Modern>현대</RC_Set_Style_Modern>
+  <RC_Set_Style_Medieval>중세</RC_Set_Style_Medieval>
+  <RC_Set_Style_ModernTip>PMC, 계약 요원, 평판, 작전.</RC_Set_Style_ModernTip>
+  <RC_Set_Style_MedievalTip>용병단, 용병, 명성, 경비 임무. 작동 방식은 동일합니다.</RC_Set_Style_MedievalTip>
+  <RC_Set_Sec_License>허가 제도</RC_Set_Sec_License>
+  <RC_Set_RequireLicense>운영 허가증 필요</RC_Set_RequireLicense>
+  <RC_Set_RequireLicenseTip>계약을 받으려면 먼저 정착지의 운영 허가증을 구매해야 합니다. 무료로 등록하려면 이 설정을 끄십시오.</RC_Set_RequireLicenseTip>
+  <RC_Set_LicenseCost>허가 수수료(은)</RC_Set_LicenseCost>
+  <RC_Set_MainButton>빠른 실행 버튼</RC_Set_MainButton>
+  <RC_Set_MainButtonTip>현황판을 여는 버튼을 화면 하단 메뉴에 추가합니다. 기본적으로 켜져 있습니다.</RC_Set_MainButtonTip>
+  <RC_Set_Sec_Progression>성장</RC_Set_Sec_Progression>
+  <RC_Set_StartingRep>시작 평판</RC_Set_StartingRep>
+  <RC_Set_Starting>시작</RC_Set_Starting>
+  <RC_Set_RepGain>난이도별 성공 평판 획득량</RC_Set_RepGain>
+  <RC_Set_RepGainTip>계약이 성공적으로 완료되었을 때 적용됩니다.</RC_Set_RepGainTip>
+  <RC_Set_RepLoss>난이도별 실패 평판 감소량</RC_Set_RepLoss>
+  <RC_Set_RepLossTip>계약 실패 또는 포기 시 적용됩니다. 계약 요원의 사망으로 평판이 감소하지는 않습니다.</RC_Set_RepLossTip>
+  <RC_Set_Capacity>회사 등급별 파견 정원</RC_Set_Capacity>
+  <RC_Set_CapacityTip>각 회사 등급에서 자동 판정 임무 하나에 투입할 수 있는 최대 계약 요원 수입니다. 현장 원정대는 별도로 편성합니다.</RC_Set_CapacityTip>
+  <RC_Set_Level>레벨 {0}</RC_Set_Level>
+  <RC_Set_Thresholds>레벨당 필요한 평판</RC_Set_Thresholds>
+  <RC_Set_ThresholdsTip>각 회사 레벨에 도달하려면 평판이 필요합니다. 레벨 1은 항상 0입니다.</RC_Set_ThresholdsTip>
+  <RC_Set_Sec_Economy>경제</RC_Set_Sec_Economy>
+  <RC_Set_SilverMult>은 보상 배율</RC_Set_SilverMult>
+  <RC_Set_SilverMultTip>모든 보상에 적용되는 배율입니다. 여러 배율이 중첩되어 보상이 지나치게 커지지 않도록 난이도별 상한도 적용됩니다.</RC_Set_SilverMultTip>
+  <RC_Set_MissionSpeed>자동 판정 임무 속도</RC_Set_MissionSpeed>
+  <RC_Set_MissionSpeedTip>높을수록 빠릅니다. 이동 시간과 목표에 소요된 시간을 모두 조정합니다. 이 외에도 운송 수단 선택이 여전히 중요합니다. 왕복선은 행진하는 것보다 훨씬 빠릅니다.</RC_Set_MissionSpeedTip>
+  <RC_Set_SuccessBias>자동 판정 성공 보정</RC_Set_SuccessBias>
+  <RC_Set_SuccessBiasTip>자동 판정에서 분대 전투력에 보정 배율을 적용합니다. 값이 높을수록 판정이 유리해집니다. 실제 성공 확률은 장비와 건강 상태, 적 전력에 따라 달라지며, 미리보기에는 임무 목표에 따른 별도 실패 위험도 반영됩니다. </RC_Set_SuccessBiasTip>
+  <RC_Set_Sec_Board>계약 게시판</RC_Set_Sec_Board>
+  <RC_Set_BoardSize>게시판의 제안 수</RC_Set_BoardSize>
+  <RC_Set_MaxActive>최대 활성 계약</RC_Set_MaxActive>
+  <RC_Set_Interval>새 제안 간격(일)</RC_Set_Interval>
+  <RC_Set_IntervalTip>계약 게시판에 새 제안이 나타날 때까지의 간격입니다. 기본값은 하루에 하나입니다.</RC_Set_IntervalTip>
+  <RC_Set_Difficulty>계약 난이도</RC_Set_Difficulty>
+  <RC_Set_DifficultyTip>난이도 판정과 생성되는 적의 전력을 함께 조정합니다. 높을수록 어렵지만 보상도 증가합니다.</RC_Set_DifficultyTip>
+  <RC_Set_Deadline>계약 마감일</RC_Set_Deadline>
+  <RC_Set_DeadlineTip>계약 수락 후 주어지는 시간을 조정합니다. 마감 기한이 촉박할수록 추가 보상이 붙습니다.</RC_Set_DeadlineTip>
+  <RC_Set_BoardExpiry>제안이 만료되기 전 일수</RC_Set_BoardExpiry>
+  <RC_Set_BoardExpiryTip>수락하지 않은 제안이 계약 게시판에 남아 있는 기간입니다.</RC_Set_BoardExpiryTip>
+  <RC_Set_Sec_Diplomacy>세력 관계</RC_Set_Sec_Diplomacy>
+  <RC_Set_ClientGain>의뢰인 우호도 획득 배율</RC_Set_ClientGain>
+  <RC_Set_ClientGainTip>계약 성공 시 의뢰인 세력과 얻는 우호도에 적용됩니다.</RC_Set_ClientGainTip>
+  <RC_Set_FailLoss>실패 시 우호도 감소 배율</RC_Set_FailLoss>
+  <RC_Set_FailLossTip>계약 실패 또는 포기 시 의뢰인 세력과 잃는 우호도에 적용됩니다.</RC_Set_FailLossTip>
+  <RC_Set_TargetPenalty>대상 세력 우호도 불이익 비율</RC_Set_TargetPenalty>
+  <RC_Set_TargetPenaltyTip>의뢰인 우호도 획득량의 일부를 대상 세력의 우호도 감소량으로 적용합니다. 0.5라면 의뢰인 +2, 대상 세력 -1입니다.</RC_Set_TargetPenaltyTip>
+  <RC_Set_RelAware>세력 관계 반영</RC_Set_RelAware>
+  <RC_Set_RelAwareTip>동맹 세력을 완전히 제외하지는 않되 계약 대상으로 선정될 확률을 낮춥니다. 대상을 완전히 무작위로 정하려면 끄십시오.</RC_Set_RelAwareTip>
+  <RC_Set_RelGates>우호도에 따른 계약 난이도 제한</RC_Set_RelGates>
+  <RC_Set_RelGatesTip>세력은 회사와 충분한 신뢰를 쌓아야 중요한 계약을 맡깁니다. 끄면 관계와 무관하게 모든 의뢰인이 모든 난이도의 계약을 제안할 수 있습니다.</RC_Set_RelGatesTip>
+  <RC_Set_MinGoodwill>회사 고용에 필요한 최소 우호도</RC_Set_MinGoodwill>
+  <RC_Set_AllowNegotiate>계약 협상 허용</RC_Set_AllowNegotiate>
+  <RC_Set_AllowNegotiateTip>제안을 기다리는 대신 특정 세력에 접촉하여 원하는 종류의 계약을 요청할 수 있습니다.</RC_Set_AllowNegotiateTip>
+  <RC_Set_NegCooldown>협상 간 일수</RC_Set_NegCooldown>
+  <RC_Set_NegCooldownTip>의뢰인과 계약 협상을 마친 뒤 다시 협상할 수 있을 때까지 기다려야 하는 시간입니다.</RC_Set_NegCooldownTip>
+  <RC_Set_Sec_Paths>임무 수행 방식</RC_Set_Sec_Paths>
+  <RC_Set_AllowRemote>자동 판정 허용</RC_Set_AllowRemote>
+  <RC_Set_AllowRemoteTip>계약 요원은 정착지를 떠나며, 기술과 장비 및 건강 상태에 따라 교전 결과가 자동으로 결정됩니다. 중세 용병단은 항상 도보로 출발하고 복귀하며 왕복선을 이용할 수 없습니다.</RC_Set_AllowRemoteTip>
+  <RC_Set_AllowField>현장 파견 허용</RC_Set_AllowField>
+  <RC_Set_AllowFieldTip>계약을 수락하면 세계 지도에 실제 임무지가 생성되며, 상단을 보내 직접 진행합니다.</RC_Set_AllowFieldTip>
+  <RC_Set_Sec_MapGen>목표 지도 생성</RC_Set_Sec_MapGen>
+  <RC_Set_MapSize>목표 지도 크기</RC_Set_MapSize>
+  <RC_Set_MapSizeTip>계약 목표에 생성되는 지도의 기본 크기입니다. '기본값'은 바닐라의 200×200 크기를 유지합니다. 파견할 때 계약별로 변경할 수 있습니다.</RC_Set_MapSizeTip>
+  <RC_Set_Sec_Integrations>선택적 모드 연동</RC_Set_Sec_Integrations>
+  <RC_Set_Vehicles>자동 판정을 위해 전세 항공기 허용</RC_Set_Vehicles>
+  <RC_Set_VehiclesTip>Vanilla Vehicles Expanded를 비롯해 설치된 호환 Vehicle Framework 콘텐츠에서 회사 제공 여객기를 사용합니다. 적합한 항공기가 필요하며 지상 차량과 탈것은 자동 판정에 사용할 수 없습니다.</RC_Set_VehiclesTip>
+  <RC_Set_GiddyUp>가능한 경우 탈것 이용</RC_Set_GiddyUp>
+  <RC_Set_GiddyUpTip>Giddy-Up 2. 모드가 설치되지 않으면 무시됩니다.</RC_Set_GiddyUpTip>
+  <RC_Set_Shuttle>가능한 경우 왕복선 이용</RC_Set_Shuttle>
+  <RC_Set_ShuttleTip>전세 왕복선이 선택한 분대를 태우러 와 생존자와 사상자를 귀환시킵니다. 왕복선 운송 정의와 설정된 연구 조건이 필요합니다.</RC_Set_ShuttleTip>
+  <RC_Set_ShuttleResearch>왕복선에는 연구가 필요합니다</RC_Set_ShuttleResearch>
+  <RC_Set_ShuttleResearchTip>이용 가능한 경우 오디세이의 왕복선 연구가 필요하며, 그렇지 않으면 수송 포드 연구가 필요합니다. 처음부터 전세 왕복선을 이용하려면 끄십시오. 이미 수락한 계약은 귀환편을 계속 이용할 수 있습니다.</RC_Set_ShuttleResearchTip>
+  <RC_Set_Reset>모든 설정을 기본값으로 재설정</RC_Set_Reset>
+  <RC_OfferUnavailable>이 제안은 만료되었거나 이미 수락되었으며, 또는 의뢰인이 더 이상 제공하지 않습니다.</RC_OfferUnavailable>
+  <RC_InvalidContractor>서로 다른 플레이어 소속 인간형 정착민을 선택하십시오.</RC_InvalidContractor>
+  <RC_TransportUnavailable>이 운송 수단은 더 이상 이용할 수 없습니다. 파견 화면을 다시 열고 다른 방식을 선택하십시오.</RC_TransportUnavailable>
+  <RC_TargetNotSecured>생존 대상이 더는 플레이어의 구금 상태가 아닙니다. 철수하기 전에 다시 확보하십시오.</RC_TargetNotSecured>
+  <RC_ExtractUseGravship>중력부양선의 발사 조작부를 사용하여 승무원과 선체를 함께 철수시키십시오.</RC_ExtractUseGravship>
+  <RC_SabotageFallback>목표 구조물을 배치하지 못했습니다. 대신 {0}의 수비대를 소탕하십시오.</RC_SabotageFallback>
+  <RC_Passion_None>열정 없음</RC_Passion_None>
+  <RC_Passion_Minor>관심 있음</RC_Passion_Minor>
+  <RC_Passion_Major>불타는 열정</RC_Passion_Major>
+  <RC_PendingSilver>미지급 계약금: 은 {0}. 이용 가능한 정착지 맵이 생기면 배송을 재개합니다.</RC_PendingSilver>
+  <RC_WaitingLanding>착륙 지점을 선택하세요</RC_WaitingLanding>
+  <RC_Supply_Progress>물품 {0}/{1}개 납품</RC_Supply_Progress>
+  <RC_Supply_Line>{0}: {1}/{2} 납품 · 품질 {3} 이상</RC_Supply_Line>
+  <RC_Supply_PreviewItem>{0} × {1}: 은 {2}</RC_Supply_PreviewItem>
+  <RC_Supply_PreviewCredit>이번 배송의 물품 인정액: 은 {0}. 즉시 지급되지 않고 최종 보상액에 반영됩니다. 전체 주문을 완료하면 배송 지원금과 조달 수수료 환급액이 추가됩니다.</RC_Supply_PreviewCredit>
+  <RC_Supply_QualityCount>{0} × {1}</RC_Supply_QualityCount>
+  <RC_Supply_UnknownItem>이용할 수 없는 장비</RC_Supply_UnknownItem>
+  <RC_Supply_Terms>의뢰인: {0}\n목적지: {1}\n수락 후 납품 기한: {2}\n난이도: {3}</RC_Supply_Terms>
+  <RC_Supply_Brief>{0}\n\n조건: 내구도 95% 이상. 오염되거나 생체인증된 장비는 허용되지 않습니다. 지정된 재질이 일치해야 합니다. 장비 중인 무기와 착용 중인 방어구는 상단에서 인계되지 않으므로 주문 물품을 화물로 적재하십시오.\n\n최소 총 지급액: 은 {1}. 물품 가격은 내구도가 100%일 때의 시장 가치에 {2}배를 곱하고 은 {3}의 배송 지원금을 더해 산정합니다. 요구된 최저 품질보다 높은 물품은 상승한 시장 가치에 더해 품질 등급당 5%를 추가로 받습니다. 게시된 견적은 고정되지만 납품 시 시장 가치가 더 높아지면 개당 지급액이 증가할 수 있으며 감소하지는 않습니다. 보급 주문을 성공적으로 완료하면 견적에 포함된 협상 수수료도 환급됩니다.\n\n일부 물품만 먼저 납품할 수 있습니다. 전체 주문을 기한 안에 완료해야 대금이 지급됩니다. 납품한 물품은 의뢰인의 소유가 되며, 주문에 실패하거나 포기해도 반환되지 않습니다. 비싼 상인 가격과 우회, 지나치게 많은 배송 횟수로 실제 수익이 줄어들 수 있습니다.\n\n상단을 물품 인수 거점으로 보내거나, 해당 거점으로 수송 포드를 발사할 때 '보급품 납품'을 선택하십시오. 수송 포드에는 화물만 실을 수 있습니다. 초과분이나 거부된 화물, 기한이 지난 포드 화물은 파괴되지 않고 상단으로 회수할 수 있도록 거점에 보관됩니다.</RC_Supply_Brief>
+  <RC_Supply_Routes>상단 / 수송 포드</RC_Supply_Routes>
+  <RC_Supply_NoShipments>수락한 배송 없음</RC_Supply_NoShipments>
+  <RC_Supply_Caravan>상단 배송</RC_Supply_Caravan>
+  <RC_Supply_Pods>수송 포드 배송</RC_Supply_Pods>
+  <RC_Supply_Accept>보급 주문 수락</RC_Supply_Accept>
+  <RC_Supply_AcceptConfirm>이 장비 보급 주문을 수락하시겠습니까? 납품 기한은 {0}이며 지금부터 계산됩니다. 주문 목록의 물품을 모두 제작하거나 확보하여 실제로 납품해야 합니다. 전체 주문을 완료해야 대금이 지급되며, 일부만 납품한 물품은 실패해도 반환되지 않습니다.</RC_Supply_AcceptConfirm>
+  <RC_Supply_AcceptedTitle>보급 주문 수락</RC_Supply_AcceptedTitle>
+  <RC_Supply_AcceptedBody>{0}\n\n{1} 이내에 주문품을 납품하십시오. 의뢰인의 물품 인수 거점이 세계 지도에 표시되어 있습니다.\n\n{2}</RC_Supply_AcceptedBody>
+  <RC_Supply_DepotBlocked>목적지 타일이 다른 대상으로 점유되어 물품 인수 거점을 생성할 수 없습니다.</RC_Supply_DepotBlocked>
+  <RC_Supply_NoAutoresolve>보급 주문은 상단 또는 수송 포드로 실제 납품해야 하며 자동 판정할 수 없습니다.</RC_Supply_NoAutoresolve>
+  <RC_Supply_Closed>이 보급 주문은 종료되었거나 더 이상 이용할 수 없습니다. 거부된 화물은 계속 회수할 수 있습니다.</RC_Supply_Closed>
+  <RC_Supply_Late>배송 마감일이 지났습니다.</RC_Supply_Late>
+  <RC_Supply_ClientLost>의뢰인이 이 보급 주문을 더 이상 이행할 수 없습니다.</RC_Supply_ClientLost>
+  <RC_Supply_DepotLost>물품 인수 거점을 더 이상 이용할 수 없습니다.</RC_Supply_DepotLost>
+  <RC_Supply_NoCargo>남은 주문 수량과 품질, 재질, 내구도 조건을 모두 충족하는 적재 화물이 없습니다.</RC_Supply_NoCargo>
+  <RC_Supply_Completed>장비 주문 전체가 마감 기한 전에 접수되었습니다. 지급액에는 품질 추가금과 배송 지원금이 포함됩니다.</RC_Supply_Completed>
+  <RC_Supply_Partial>납품 접수: {0}. 대금을 받으려면 마감 기한 전에 나머지 물품을 납품하십시오.</RC_Supply_Partial>
+  <RC_Supply_Story>{0}\n\n의뢰인: {1}\n\n기록된 납품 내역:\n{2}\n\n배송: {3}\n\n결과: {4}\n지급액: 은 {5}.\n\n이 기록은 보급 주문에 관한 것으로 원정 전투 보고서가 아닙니다. 납품된 장비는 의뢰인에게 이전되었으며, 남거나 거부된 화물은 납품으로 계산되지 않았습니다.</RC_Supply_Story>
+  <RC_Supply_DepotLabel>물품 인수 거점: {0}</RC_Supply_DepotLabel>
+  <RC_Supply_ReturnedCargo>미회수 화물: 물품 {0}개(상단으로 회수).</RC_Supply_ReturnedCargo>
+  <RC_Supply_Visit>{0} 방문</RC_Supply_Visit>
+  <RC_Supply_Deliver>보급품 납품</RC_Supply_Deliver>
+  <RC_Supply_DeliverTip>상단 소지품 중 주문 조건에 맞는 화물을 인계합니다. 조건을 충족하는 물품 중 품질이 가장 낮은 것부터 선택합니다. 장비하거나 착용 중인 물품은 소유자에게 남습니다.</RC_Supply_DeliverTip>
+  <RC_Supply_Reclaim>거부 화물 회수</RC_Supply_Reclaim>
+  <RC_Supply_ReclaimTip>미회수 화물과 초과분 또는 거부된 포드 화물을 이 상단에 적재합니다. 적재 후 운반 한도를 확인하십시오.</RC_Supply_ReclaimTip>
+  <RC_Supply_DeliveryConfirm>이 주문 조건에 맞는 적재 화물을 인계하시겠습니까?\n\n{0}\n\n아직 필요한 수량만 가져가며, 조건을 충족하는 물품 중 품질이 낮은 것부터 인계합니다. 더 높은 품질의 물품에는 추가 보상이 지급됩니다. 장착하거나 착용한 물품은 제외됩니다. 주문을 전부 완료해야 대금이 지급되며, 일부만 전달한 물품은 돌려받을 수 없습니다.</RC_Supply_DeliveryConfirm>
+  <RC_Supply_CargoOnly>승객이나 동물 없이 장비 화물만 보내십시오.</RC_Supply_CargoOnly>
+  <RC_Supply_SendPods>{0}에 보급품 납품</RC_Supply_SendPods>
+  <RC_Supply_PodConfirm>이 장비 화물을 발사하시겠습니까? 조건에 맞는 화물은 발사할 때가 아니라 도착할 때 인계됩니다. 전체 주문이 마감 기한 전에 도착해야 합니다. 초과분이나 거부된 화물 또는 기한이 지난 화물은 상단으로 회수할 수 있도록 거점에 보관됩니다. 주문에 실패하면 일부만 납품한 물품은 반환되지 않습니다.</RC_Supply_PodConfirm>
+  <RC_Supply_Travelling>물품 인수 거점으로 이동 중</RC_Supply_Travelling>
+  <RC_Supply_ReturnedTitle>미회수 보급 화물</RC_Supply_ReturnedTitle>
+  <RC_Supply_ReturnedBody>일부 화물이 접수되지 않아 물품 인수 거점에 보관되었습니다. 상단을 보내 '거부 화물 회수'를 사용하면 되찾을 수 있습니다. 주문량을 초과한 물품과 주문 종료 후 도착한 화물도 포함됩니다.</RC_Supply_ReturnedBody>
+  <RC_Supply_DebugDeliver>보급 주문은 실제로 납품해야 합니다. 빠른 진행으로 완료된 배송을 만들어 내지는 않습니다.</RC_Supply_DebugDeliver>
+  <RC_Supply_MinimumPay>완료 시 최소 지급액</RC_Supply_MinimumPay>
+  <RC_Supply_QualityBonus>고품질 추가 보상</RC_Supply_QualityBonus>
+  <RC_Supply_Details>주문 상세</RC_Supply_Details>
+  <RC_Supply_AbandonConfirm>이 보급 주문을 포기하시겠습니까? 보상은 지급되지 않으며 이미 납품한 장비는 의뢰인에게 남습니다. 일반적인 실패 불이익이 적용됩니다. 초과분 또는 거부된 포드 화물은 상단으로 계속 회수할 수 있습니다.</RC_Supply_AbandonConfirm>
+  <RC_Supply_DebugOffer>현재 의뢰인과 회사 등급 및 장비 정의로는 보급 제안을 생성할 수 없습니다.</RC_Supply_DebugOffer>
+  <RC_Supply_DebugStock>테스트용 보급품을 정착지의 교역 물품 투하 지점 근처에 배치했습니다. 상단이나 수송 포드로 납품하십시오.</RC_Supply_DebugStock>
+  <RC_Payment_Failed>지급할 은을 확보할 수 없습니다. 비용은 청구되지 않았습니다.</RC_Payment_Failed>
+  <RC_Payment_CantAfford>필요한 비용: 은 {0}. 정착지 맵에서 이용 가능한 은: {1}.</RC_Payment_CantAfford>
+  <RC_Neg_FeeChanged>협상 수수료가 변경되었습니다. 수수료를 검토하고 다시 확인하세요. 아무것도 청구되지 않았습니다.</RC_Neg_FeeChanged>
+  <RC_Neg_PayBypass>은 {0} 지불 후 대기 시간 중 협상</RC_Neg_PayBypass>
+  <RC_Neg_FeeSetting>협상 대기 시간 건너뛰기 비용(은)</RC_Neg_FeeSetting>
+  <RC_Neg_FeeSettingTip>협상 대기 시간 중에 다른 제안을 협상하기 위한 선택적 선불 비용입니다. 유효한 제안이 생성된 뒤 정착지 맵에서 이용 가능한 은으로만 지불합니다. 대기 시간만 건너뛰며 게시판 수용량과 의뢰인 관계, 회사 등급 제한은 그대로 적용됩니다. 협상에 성공하면 새로운 대기 시간이 시작됩니다. 보급 계약은 성공적으로 완료하면 이 비용을 환급하지만 다른 계약은 환급하지 않습니다.</RC_Neg_FeeSettingTip>
+  <RC_Deploy_CharteredAircraft>전세 항공기</RC_Deploy_CharteredAircraft>
+  <RC_Deploy_Independent>플레이어 직접 이동</RC_Deploy_Independent>
+  <RC_Field_AcceptConfirm>{0}의 임무지를 생성하시겠습니까?\n\n직접 인원과 보급품, 운송 수단을 준비하십시오. 상단이나 개인 왕복선, 중력부양선 또는 이용 가능한 다른 차량을 사용할 수 있습니다. 운송 수단이나 계약 요원은 자동으로 파견되지 않습니다.\n\n마감 기한이 지금 시작됩니다: {1}.</RC_Field_AcceptConfirm>
+  <RC_Field_SiteReady>{0}의 목표 지점이 {1}에 표시되었습니다. 직접 원정대를 준비하고 이용 가능한 수단으로 이동하십시오. 목표를 완수한 뒤 철수도 직접 준비해야 합니다. 마감 기한까지 {2} 남았습니다.</RC_Field_SiteReady>
+  <RC_Field_TravelTip>상단이나 개인 왕복선, 중력부양선 또는 이용 가능한 다른 운송 수단으로 이동과 철수를 직접 준비하십시오. 회사는 현장 원정대를 파견하거나 회수하지 않습니다.</RC_Field_TravelTip>
+  <RC_Field_Preparing>원정대 출발 대기 중</RC_Field_Preparing>
+  <RC_Aircraft_Tip>회사에서 호환되는 Vehicle Framework 콘텐츠의 항공기와 조종사를 제공합니다. 항공기가 착륙하면 선택한 계약 요원이 승객석에 탑승한 뒤 이륙합니다. 생존자와 회수된 시신 및 화물은 같은 항공기로 귀환합니다. 정착지 소유 차량이나 연료는 필요하지 않습니다. 충분한 승객석과 활주로 조건을 포함해 안전한 착륙·이륙 공간이 필요합니다.</RC_Aircraft_Tip>
+  <RC_Aircraft_Unavailable>이 분대 전원을 태울 승객석이 있는 호환 전세기가 없습니다.</RC_Aircraft_Unavailable>
+  <RC_Aircraft_NoLanding>이 항공기가 안전하게 착륙하고 이륙할 공간을 찾지 못했습니다. 더 넓은 빈터를 확보하거나 활주로 조건을 충족하거나 다른 출발 방식을 선택하십시오.</RC_Aircraft_NoLanding>
+  <RC_Aircraft_CompanyOwned>이 항공기는 전세 회사 소유이므로 징발하거나 해체할 수 없습니다.</RC_Aircraft_CompanyOwned>
+  <RC_Aircraft_Named>전세 {0}</RC_Aircraft_Named>
+  <RC_Aircraft_Auto>항공기: 회사 자동 선택</RC_Aircraft_Auto>
+  <RC_Aircraft_Seats>{0} — 승객석 {1}개</RC_Aircraft_Seats>
+  <RC_Aircraft_Inbound>회사에서 제공한 항공기가 선택한 {0}(을)를 태우러 접근 중입니다. 착륙하면 징집되지 않은 계약 요원이 자동으로 탑승합니다. 수동으로 탑승시키려면 항공기를 선택해 '전세기 탑승'을 누르거나, 배정된 계약 요원을 선택한 채 항공기를 우클릭하십시오.</RC_Aircraft_Inbound>
+  <RC_Aircraft_Accepted>회사에서 제공한 항공기가 {1}의 계약을 수행할 {0}(을)를 태우러 접근 중입니다. 조종사는 회사에서 제공하며, 선택한 계약 요원은 승객석을 사용합니다.\n\n착륙 후 항공기나 진행 중인 임무 카드에서 '전세기 탑승'을 누르십시오. 배정된 계약 요원을 선택한 채 항공기를 우클릭해도 됩니다. 수동 탑승 명령은 징집 중에도 사용할 수 있습니다.</RC_Aircraft_Accepted>
+  <RC_Aircraft_Locate>항공기</RC_Aircraft_Locate>
+  <RC_Aircraft_Approaching>항공기 접근 중</RC_Aircraft_Approaching>
+  <RC_Aircraft_TakingOff>항공기 이륙 중</RC_Aircraft_TakingOff>
+  <RC_Aircraft_WaitForDeparture>전세 항공기가 착륙하고 분대가 탑승한 뒤 이륙을 마칠 때까지 기다리십시오.</RC_Aircraft_WaitForDeparture>
+  <RC_Aircraft_EmergencyReturn>전세 항공기가 귀환을 완료하지 못했습니다. 확보된 승객과 화물을 위한 긴급 이송이 준비되었습니다.</RC_Aircraft_EmergencyReturn>
+  <RC_Aircraft_Board>전세기 탑승</RC_Aircraft_Board>
+  <RC_Aircraft_BoardDesc>{0}에 배정된 계약 요원에게 이 전세기에 탑승하라고 명령합니다. 징집 중에도 수동 명령을 내릴 수 있습니다. 계약 요원은 승객석만 사용하며 회사 조종사는 조종석을 유지합니다. 출발하기 전에 모두 항공기까지 직접 이동해야 합니다.</RC_Aircraft_BoardDesc>
+  <RC_Aircraft_BoardInactive>이 전세기는 더 이상 승객을 받지 않습니다.</RC_Aircraft_BoardInactive>
+  <RC_Aircraft_BoardLanding>항공기가 착륙을 마칠 때까지 기다리십시오.</RC_Aircraft_BoardLanding>
+  <RC_Aircraft_BoardDeparting>항공기가 이미 출발 중입니다.</RC_Aircraft_BoardDeparting>
+  <RC_Aircraft_BoardExpired>탑승 기간 또는 계약 기한이 만료되었습니다.</RC_Aircraft_BoardExpired>
+  <RC_Aircraft_BoardHostile>전세기 조종사가 적대적으로 변했습니다.</RC_Aircraft_BoardHostile>
+  <RC_Aircraft_BoardDisabled>항공기가 운항 불가 상태이므로 탑승 명령을 받을 수 없습니다.</RC_Aircraft_BoardDisabled>
+  <RC_Aircraft_BoardNotAssigned>이 전세기의 계약에 배정되지 않았습니다.</RC_Aircraft_BoardNotAssigned>
+  <RC_Aircraft_BoardUnavailable>이 계약 요원은 사망했거나 실종되었거나 더 이상 플레이어가 통제할 수 없습니다.</RC_Aircraft_BoardUnavailable>
+  <RC_Aircraft_BoardAlready>이미 탑승했습니다.</RC_Aircraft_BoardAlready>
+  <RC_Aircraft_BoardOtherMap>계약 요원과 항공기가 같은 지도에 있어야 합니다.</RC_Aircraft_BoardOtherMap>
+  <RC_Aircraft_BoardDowned>이 계약 요원은 쓰러져 있어 걸어서 탑승할 수 없습니다.</RC_Aircraft_BoardDowned>
+  <RC_Aircraft_BoardMental>이 계약 요원은 정신이상 상태입니다.</RC_Aircraft_BoardMental>
+  <RC_Aircraft_BoardDrafted>징집 중에는 자동 탑승하지 않습니다. '전세기 탑승'으로 직접 명령하십시오.</RC_Aircraft_BoardDrafted>
+  <RC_Aircraft_BoardForbidden>항공기가 금지되어 있거나 계약 요원의 허용 구역 밖에 있습니다.</RC_Aircraft_BoardForbidden>
+  <RC_Aircraft_BoardNoPath>항공기까지 안전한 경로가 없습니다.</RC_Aircraft_BoardNoPath>
+  <RC_Aircraft_BoardNoSeat>비어 있는 승객석이 없습니다.</RC_Aircraft_BoardNoSeat>
+  <RC_Aircraft_BoardJobMissing>Vehicle Framework의 탑승 작업을 이용할 수 없습니다.</RC_Aircraft_BoardJobMissing>
+  <RC_Aircraft_BoardRejected>탑승 명령이 받아들여지지 않았습니다.</RC_Aircraft_BoardRejected>
+  <RC_Aircraft_BoardFailed>탑승 명령을 내릴 수 없습니다. 자세한 내용은 디버그 로그를 확인하십시오.</RC_Aircraft_BoardFailed>
+  <RC_Aircraft_BoardQueued>탑승 명령 수: {0}</RC_Aircraft_BoardQueued>
+  <RC_Aircraft_BoardBlocked>탑승 명령 실패: {0}</RC_Aircraft_BoardBlocked>
+  <RC_Aircraft_BoardPawnReason>{0}: {1}</RC_Aircraft_BoardPawnReason>
+  <RC_Aircraft_BoardOptionBlocked>{0}: {1}</RC_Aircraft_BoardOptionBlocked>
+  <RC_Aircraft_BoardProgress>탑승한 계약 요원: {0}/{1}. 항공기를 선택해 '전세기 탑승'을 누르거나, 배정된 계약 요원을 선택한 채 항공기를 우클릭하십시오.</RC_Aircraft_BoardProgress>
+  <RC_Aircraft_BoardAllAboard>탑승 가능한 계약 요원이 모두 탑승했습니다. 이륙 허가를 기다리는 중입니다.</RC_Aircraft_BoardAllAboard>
+  <RC_Retaliation_Setting>적 보복 확률: {0}%</RC_Retaliation_Setting>
+  <RC_Retaliation_SettingTip>자동 판정과 VIP 경호를 포함하여 계약이 성공하거나 실패할 때마다 한 번 판정합니다. 기본값은 60%입니다. 0%는 보복을 비활성화하고 대기 중인 보복 습격을 취소하며, 100%는 항상 보복을 시도합니다. 자발적으로 계약을 포기하거나 제안을 수락하지 않은 경우에는 보복을 판정하지 않습니다. 실제 습격이 발생하려면 공격할 수 있는 적대 세력과 정착지 맵이 필요합니다.</RC_Retaliation_SettingTip>
+  <RC_Retaliation_Brief>성공하거나 실패하면 정착지에 보복 습격이 발생할 수 있습니다(확률 {0}%). 계약 포기 시에는 보복을 판정하지 않습니다.</RC_Retaliation_Brief>
+  <RC_Retaliation_WarningTitle>적의 보복 가능성</RC_Retaliation_WarningTitle>
+  <RC_Retaliation_Warning>가로챈 통신에 따르면 적들이 {0} 때문에 정착지를 공격할 준비를 하고 있습니다. 빠르면 {1} 후 도착할 것으로 예상됩니다. 방어를 준비하십시오. 이는 별도의 공격이며 새로운 계약 목표가 아닙니다.</RC_Retaliation_Warning>
+  <RC_Retaliation_AttackTitle>계약 보복</RC_Retaliation_AttackTitle>
+  <RC_Retaliation_Attack>{1}의 적대 병력이 {0}에 대한 보복으로 정착지를 공격하고 있습니다.</RC_Retaliation_Attack>
+  <RC_Retaliation_CancelledTitle>보복 취소</RC_Retaliation_CancelledTitle>
+  <RC_Retaliation_Cancelled>예고된 {0} 관련 공격은 끝내 일어나지 않았습니다. 적은 경고 기간 안에 이용 가능한 정착지 맵을 공격할 병력을 마련하지 못했습니다.</RC_Retaliation_Cancelled>
+  <RC_VIP_Background_Noble>귀족</RC_VIP_Background_Noble>
+  <RC_VIP_Background_Researcher>중요 연구자</RC_VIP_Background_Researcher>
+  <RC_VIP_Background_Spy>첩보원</RC_VIP_Background_Spy>
+  <RC_VIP_Background_Prisoner>보호 중인 포로</RC_VIP_Background_Prisoner>
+  <RC_VIP_ProfileBrief>VIP 정보: {0}. 포로가 아닌 VIP는 임시 퀘스트 손님입니다. 보호 중인 포로는 보호 구금 상태를 유지하며 수감실이 필요합니다. 모든 VIP는 의뢰 세력 소속을 유지합니다. 의복과 장비 및 소지품 설정은 잠기므로 옷을 벗기거나 장비를 바꾸거나 소지품을 가져갈 수 없습니다. 식사와 치료 및 필요한 운송은 정상적으로 제공할 수 있습니다. 귀족 배경 때문에 로열티 작위나 DLC 전용 욕구가 추가되지는 않습니다.</RC_VIP_ProfileBrief>
+  <RC_VIP_BoardSummary>{0} · 정착지에서 습격 3회 방어</RC_VIP_BoardSummary>
+  <RC_VIP_Objective>{0}(을)를 세 차례의 습격으로부터 보호하십시오.</RC_VIP_Objective>
+  <RC_VIP_KeepOnMap>경호 맵에서 VIP를 생존시키고 보호 상태를 유지하십시오. 원정 철수는 필요하지 않습니다.</RC_VIP_KeepOnMap>
+  <RC_VIP_HomeLocation>플레이어 정착지(수락 시 선택)</RC_VIP_HomeLocation>
+  <RC_VIP_NoEnemy>지정된 공격자는 더 이상 적대적인 습격을 가할 수 없습니다.</RC_VIP_NoEnemy>
+  <RC_VIP_AlreadyHosting>이 정착지는 이미 계약 VIP를 경호 중입니다.</RC_VIP_AlreadyHosting>
+  <RC_VIP_NoAutoresolve>VIP 경호는 플레이어 정착지에서 직접 진행하며 자동 판정할 수 없습니다.</RC_VIP_NoAutoresolve>
+  <RC_VIP_ArrivalBlocked>선택한 운송 수단으로 VIP를 안전하게 이송하지 못했습니다. 착륙 지점을 확보하거나 다른 운송 수단을 선택하십시오.</RC_VIP_ArrivalBlocked>
+  <RC_VIP_AcceptedTitle>VIP 경호 계약 수락</RC_VIP_AcceptedTitle>
+  <RC_VIP_Accepted>{0}\n\n의뢰인이 {2}인 {1}(을)를 {3}(으)로 보내고 있습니다. 임무 완료 기한은 {4}입니다. 적의 세 차례 공세를 모두 물리쳐야 합니다. 첫 공세는 VIP가 착륙한 지 6시간 뒤에 도착하며, 이후 공세는 앞선 공세를 격퇴한 지 12시간 뒤에 이어집니다. 손님을 살려 두고 경호 맵에 머물게 하십시오.</RC_VIP_Accepted>
+  <RC_VIP_ArrivedTitle>VIP가 도착했습니다</RC_VIP_ArrivedTitle>
+  <RC_VIP_Arrived>{1}인 {0}(이)가 도착했습니다. 첫 적 공세는 {2} 뒤에 도착할 예정입니다. 거처와 식량, 의료 지원을 마련하십시오. 보호 중인 포로에게는 수감자용 침대가 필요하며, 다른 VIP에게는 명령과 허용 구역을 지정할 수 있습니다. 보호 중에는 개인 장비와 소지품 설정이 잠기지만 식사와 치료는 정상적으로 제공할 수 있습니다. 쓰러지는 것만으로는 실패하지 않습니다.</RC_VIP_Arrived>
+  <RC_VIP_Inbound>VIP 접근 중 — 착륙 후 공세 시작</RC_VIP_Inbound>
+  <RC_VIP_Hosting>VIP 보호</RC_VIP_Hosting>
+  <RC_VIP_WaveActive>공세 {0}/{1} · 남은 공격자 {2}명</RC_VIP_WaveActive>
+  <RC_VIP_NextWave>다음 공세 {0}/{1}까지 {2}</RC_VIP_NextWave>
+  <RC_VIP_WaveDelayed>공세 {0}/{1} 지연 · 습격 가능 상태 대기 중</RC_VIP_WaveDelayed>
+  <RC_VIP_WaveTitle>VIP 방어: 공세 {0}/{1}</RC_VIP_WaveTitle>
+  <RC_VIP_WaveBody>{1}(이)가 총 {3}차례 중 {2}번째 공세를 보냈습니다. {0}(을)를 보호하십시오! 다음 준비 시간이 시작되기 전에 이 공세를 격퇴하거나 공격자를 포로로 잡거나 쫓아내십시오.</RC_VIP_WaveBody>
+  <RC_VIP_MapLost>경호 정착지를 더 이상 이용할 수 없습니다.</RC_VIP_MapLost>
+  <RC_VIP_Died>VIP는 보호 계약에서 살아남지 못했습니다.</RC_VIP_Died>
+  <RC_VIP_Lost>VIP가 경호 맵을 떠났거나 더 이상 필요한 보호 상태에 있지 않습니다.</RC_VIP_Lost>
+  <RC_VIP_WaveUnavailable>약속된 적 공세를 하루 안에 생성하지 못했습니다. 경호 임무를 완료할 수 없어 보상 없이 실패 처리됩니다.</RC_VIP_WaveUnavailable>
+  <RC_VIP_Success>{0}(이)가 적의 세 차례 공세에서 모두 살아남았습니다. 경호 임무가 완료되었습니다.</RC_VIP_Success>
+  <RC_VIP_ReleasedTitle>VIP 보호 종료</RC_VIP_ReleasedTitle>
+  <RC_VIP_Released>{0}(은)는 더 이상 회사의 보호를 받지 않으며 의뢰인 측으로 돌아갑니다. 의뢰인 회수가 예정되어 있으면 회수팀이 대상을 데려갑니다. 그렇지 않으면 이동할 수 있을 때 도보로 떠납니다. 쓰러진 손님은 여전히 구조와 치료가 필요할 수 있습니다.</RC_VIP_Released>
+  <RC_VIP_Story>회사는 {2}의 의뢰로 {1}인 {0}(을)를 경호했습니다. 도착 수단: {3}.\n\n실제로 도착한 적 공세: {4}/3. 격퇴한 공세: {5}/3.\n\n{6}\n\n계약 보상: 은 {7}.</RC_VIP_Story>
+  <RC_VIP_AcceptButton>정착지에서 VIP 경호</RC_VIP_AcceptButton>
+  <RC_VIP_AcceptTip>정착지 맵과 이용 가능한 도착 수단을 선택하십시오. 이 계약을 수락하면 해당 정착지에 실제 적 습격이 세 차례 발생합니다.</RC_VIP_AcceptTip>
+  <RC_VIP_Confirm>{0}\n\n정착지에서 {1}(을)를 경호하십시오. 첫 공세 전 6시간, 각 공세 격퇴 후 12시간의 간격을 두고 실제 습격이 세 차례 발생합니다. 모두 격퇴할 때까지 손님을 보호하고 출혈이나 생명을 위협하는 상태를 안정시키십시오. 이후 의뢰인이 회수반, 왕복선 또는 호환 항공기를 보내 손님을 데려갑니다. 마감 기한: {2}.\n\n성공하거나 실패하면 이후 보복 습격이 발생할 확률 {3}%도 판정합니다.</RC_VIP_Confirm>
+  <RC_VIP_SelectHome>경호 정착지: {0}</RC_VIP_SelectHome>
+  <RC_VIP_Transport>VIP 도착: {0}</RC_VIP_Transport>
+  <RC_VIP_ConfirmButton>보호 계약 수락</RC_VIP_ConfirmButton>
+  <RC_VIP_Locate>VIP</RC_VIP_Locate>
+  <RC_VIP_OverlayTitle>{0} 보호</RC_VIP_OverlayTitle>
+  <RC_VIP_ArrivalSection>경호 장소 및 도착</RC_VIP_ArrivalSection>
+  <RC_VIP_TrackerHide>추적기 숨기기</RC_VIP_TrackerHide>
+  <RC_VIP_TrackerShow>추적기 표시</RC_VIP_TrackerShow>
+  <RC_VIP_TrackerHideTip>이 정착지의 공세 추적기를 숨깁니다. 계약 → 진행 중 → 추적기 표시에서 다시 표시할 수 있습니다. 숨긴 동안에도 습격과 타이머는 계속됩니다.</RC_VIP_TrackerHideTip>
+  <RC_VIP_TrackerToggleTip>이 정착지 맵을 보는 동안 공세 추적기를 표시하거나 숨깁니다. 위치와 표시 여부는 정착지마다 저장됩니다. 숨겨도 습격이나 타이머가 멈추지 않습니다.</RC_VIP_TrackerToggleTip>
+  <RC_VIP_TrackerDragTip>추적기를 이동하려면 이 머리글을 드래그하십시오. 위치는 해당 정착지별로 기억되며, 해상도나 UI 배율이 바뀌어도 화면 안에 유지됩니다.</RC_VIP_TrackerDragTip>
+  <RC_VIP_DebugWait>VIP 공세 디버그: VIP가 도착할 때까지 기다리고 현재 공세를 먼저 격퇴하십시오.</RC_VIP_DebugWait>
+  <RC_VIP_DebugOffer>VIP 경호 계약 제안을 생성할 수 없습니다. 회사를 등록하고 의뢰인 세력과 적대적인 습격 세력이 존재하는지 확인하십시오.</RC_VIP_DebugOffer>
+  <RC_VIP_PossessionsLocked>이 VIP의 의복과 장비 및 소지품은 경호 계약에 따라 보호됩니다.</RC_VIP_PossessionsLocked>
+</LanguageData>
