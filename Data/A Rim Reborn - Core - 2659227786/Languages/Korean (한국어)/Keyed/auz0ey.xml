@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ARR_UsePotionOn>{0}(을)를 사용할 대상 선택</ARR_UsePotionOn>
+  <ARR_DetoxifyAmount>{0}%</ARR_DetoxifyAmount>
+  <ARR_ToxicShock>에테르 과잉</ARR_ToxicShock>
+  <ARR_ToxicShockText>{PAWN_nameDef}(은)는 물약을 너무 많이 복용해 에테르가 과잉됐습니다! 이로 인해 의식을 잃으며, 이 상태는 최대 반나절 동안 지속될 수 있습니다.</ARR_ToxicShockText>
+  <ARR_AccumulatorProgress>축전량: {0}</ARR_AccumulatorProgress>
+  <ARR_AccumulatorMustBeUnroofed>지붕 아래에서는 작동할 수 없습니다.</ARR_AccumulatorMustBeUnroofed>
+  <ARR_AccumulatorCannotBeAdjacent>다른 축적기와 인접하게 설치할 수 없습니다.</ARR_AccumulatorCannotBeAdjacent>
+  <ARR_AccumulatorTooClose>기존 축적기와 너무 가까워 설치할 수 없습니다.</ARR_AccumulatorTooClose>
+  <ARR_CapacitorAutoFill>자동 보충</ARR_CapacitorAutoFill>
+  <ARR_CapacitorAutoFillDesc>정착민이 이 장치에 에테르 크리스탈을 자동으로 보충하게 합니다.</ARR_CapacitorAutoFillDesc>
+  <ARR_CapacitorFillMax>최대 보충량</ARR_CapacitorFillMax>
+  <ARR_CapacitorFillMaxLabel>최대 보충량: {0}%</ARR_CapacitorFillMaxLabel>
+  <ARR_CapacitorFillMaxDesc>이 장치를 자동으로 보충할 최대 수준을 설정합니다.</ARR_CapacitorFillMaxDesc>
+  <ARR_CapacitorFillMin>보충 기준</ARR_CapacitorFillMin>
+  <ARR_CapacitorFillMinLabel>보충 기준: {0}%</ARR_CapacitorFillMinLabel>
+  <ARR_CapacitorFillMinDesc>충전량이 이 수준보다 낮아지면 정착민이 자동으로 보충합니다.</ARR_CapacitorFillMinDesc>
+  <ARR_CapacitorAutoEmpty>자동 회수</ARR_CapacitorAutoEmpty>
+  <ARR_CapacitorAutoEmptyDesc>정착민이 이 장치에서 에테르 크리스탈을 자동으로 회수하게 합니다.</ARR_CapacitorAutoEmptyDesc>
+  <ARR_CapacitorEmptyMax>회수 기준</ARR_CapacitorEmptyMax>
+  <ARR_CapacitorEmptyMaxLabel>회수 기준: {0}%</ARR_CapacitorEmptyMaxLabel>
+  <ARR_CapacitorEmptyMaxDesc>충전량이 이 수준보다 높아지면 정착민이 장치에서 에테르 크리스탈을 자동으로 회수합니다.</ARR_CapacitorEmptyMaxDesc>
+  <ARR_CapacitorEmptyMin>최소 잔량</ARR_CapacitorEmptyMin>
+  <ARR_CapacitorEmptyMinLevel>최소 잔량: {0}%</ARR_CapacitorEmptyMinLevel>
+  <ARR_CapacitorEmptyMinDesc>자동 회수 후 이 장치에 남겨 둘 최소 수준을 설정합니다.</ARR_CapacitorEmptyMinDesc>
+  <ARR_CapacitorDebugFill>디버그 보충</ARR_CapacitorDebugFill>
+  <ARR_CapacitorDebugFillDesc>이 축전기를 채웁니다.</ARR_CapacitorDebugFillDesc>
+  <ARR_CapacitorDebugEmpty>디버그 비우기</ARR_CapacitorDebugEmpty>
+  <ARR_CapacitorDebugEmptyDesc>이 축전기를 비웁니다.</ARR_CapacitorDebugEmptyDesc>
+  <ARR_CapacitorMode>활성 속성</ARR_CapacitorMode>
+  <ARR_CapacitorModeDesc>이 장치가 동조할 원소 속성을 변경합니다.</ARR_CapacitorModeDesc>
+  <ARR_CapacitorModeNotEmpty>축전기가 비어 있지 않으면 장치의 속성을 변경할 수 없습니다.</ARR_CapacitorModeNotEmpty>
+  <ARR_AetherUserRatePerDay>에테르 소모량: {0} / 일</ARR_AetherUserRatePerDay>
+  <ARR_AetherUserRatePerDayInactive>에테르 소모량: {0} / 일 (비활성)</ARR_AetherUserRatePerDayInactive>
+  <ARR_AetherUserAdjustRate>강도</ARR_AetherUserAdjustRate>
+  <ARR_AetherUserAdjustRateDesc>이 장치가 에테르를 소모하는 속도를 조절합니다.</ARR_AetherUserAdjustRateDesc>
+  <ARR_AetherUserAdjustRateLabel>강도: {0}%</ARR_AetherUserAdjustRateLabel>
+  <ARR_AetherAccumulatorGenerationRate>축적 속도: {0} / 일</ARR_AetherAccumulatorGenerationRate>
+  <ARR_AetherStorage>축전량: {0} / {1}</ARR_AetherStorage>
+  <ARR_AetherNetworkStorage>에테르 연결망: {0} / {1} (+{2} / {3})</ARR_AetherNetworkStorage>
+  <ARR_AetherLinkDisconnected>활성화된 연결 없음</ARR_AetherLinkDisconnected>
+  <ARR_AetherLinkEnabled>연결 활성화됨</ARR_AetherLinkEnabled>
+  <ARR_AetherLinkEnabledDesc>이 에테르 장치는 현재 연결이 활성화되어 있어 다른 장치와 연결할 수 있습니다. 클릭하면 연결을 비활성화합니다.</ARR_AetherLinkEnabledDesc>
+  <ARR_AetherLinkDisabled>연결 비활성화됨</ARR_AetherLinkDisabled>
+  <ARR_AetherLinkDisabledDesc>이 에테르 장치는 현재 연결이 비활성화되어 있어 다른 장치와 연결할 수 없습니다. 클릭하면 연결을 활성화합니다.</ARR_AetherLinkDisabledDesc>
+  <ARR_AetherLinkMinEnergyLevel>최소 에테르 수준: {0}%</ARR_AetherLinkMinEnergyLevel>
+  <ARR_AetherLinkMinEnergy>최소 에테르</ARR_AetherLinkMinEnergy>
+  <ARR_AetherLinkMinEnergyDesc>이 장치가 작동하는 데 필요한 네트워크의 최소 에테르 수준을 설정합니다. 네트워크 전체의 에테르량이 이 기준보다 낮아지면 장치가 작동을 멈춥니다.</ARR_AetherLinkMinEnergyDesc>
+  <ARR_AetherGlowerAspect>속성</ARR_AetherGlowerAspect>
+  <ARR_AetherGlowerAspectDesc>동조한 원소 속성입니다. 방출하는 빛의 색이 결정됩니다.</ARR_AetherGlowerAspectDesc>
+  <ARR_AetherGlowerCannotChange>지금은 빛의 색을 변경할 수 없습니다.</ARR_AetherGlowerCannotChange>
+  <ARR_ThermostatTargetTemp>온도</ARR_ThermostatTargetTemp>
+  <ARR_ThermostatTargetTempDesc>이 장치가 유지할 설정 온도입니다.</ARR_ThermostatTargetTempDesc>
+  <ARR_ThermostatTargetTempLabel>설정 온도: {0}</ARR_ThermostatTargetTempLabel>
+  <ARR_SpawnerProgress>진행도: {0}%</ARR_SpawnerProgress>
+  <LetterLabelRiftRefugee>차원의 틈 난민</LetterLabelRiftRefugee>
+  <RiftRefugee>{PAWN_titleIndef}, {PAWN_nameDef}(이)가 근처에 열린 차원의 틈을 통해 넘어오고 있습니다. 무사히 넘어오는 데 성공하더라도 심각한 부상을 입을 것입니다.</RiftRefugee>
+  <RiftRefugee_Factionless>{PAWN_nameDef}(은)는 어느 세력 소속도 아닙니다. 구조하면 정착지에 합류할 수도 있고 그저 떠날 수도 있습니다. 포획하여 동료로 만들거나 노예로 부릴 수 있습니다.</RiftRefugee_Factionless>
+  <RiftRefugee_Hostile>{PAWN_nameDef}(은)는 적대 세력 {PAWN_factionName} 소속입니다. 포획해서 동료로 만들거나 노예로 부릴 수 있습니다.</RiftRefugee_Hostile>
+  <RiftRefugee_NonHostile>{PAWN_nameDef}(은)는 {PAWN_factionName} 소속입니다. {PAWN_nameDef}(이)가 무사히 집으로 돌아가면 당신의 선행을 세력에 알릴 것입니다.\n\n포획해 영입하거나 노예로 삼을 수도 있지만, {PAWN_factionName}(이)가 분노할 것입니다.</RiftRefugee_NonHostile>
+  <ARR_ImbuedWeaponDamage>주입된 피해</ARR_ImbuedWeaponDamage>
+  <ARR_ImbuedWeaponDamageDesc>에테르의 흐름을 지닌 사람이 사용할 때 이 무기가 입히는 피해량입니다.</ARR_ImbuedWeaponDamageDesc>
+  <ARR_ImbuedWeaponDamageValue>{0} (+{1})</ARR_ImbuedWeaponDamageValue>
+  <ARR_ImbuedWeaponDamageMultiplier>+{0}%</ARR_ImbuedWeaponDamageMultiplier>
+  <ARR_ImbuedWeaponArmorPenetration>주입된 방어구 관통력</ARR_ImbuedWeaponArmorPenetration>
+  <ARR_ImbuedWeaponArmorPenetrationDesc>에테르의 흐름을 지닌 사람이 사용할 때 이 무기가 추가로 얻는 방어구 관통력입니다.</ARR_ImbuedWeaponArmorPenetrationDesc>
+  <ARR_ImbuedWeaponArmorPenetrationValue>{0}% (+{1}%)</ARR_ImbuedWeaponArmorPenetrationValue>
+  <ARR_ImbuedWeaponArmorPenetrationMultiplier>+{0}%</ARR_ImbuedWeaponArmorPenetrationMultiplier>
+  <ARR_ImbuedWeaponStoppingPower>주입된 저지력</ARR_ImbuedWeaponStoppingPower>
+  <ARR_ImbuedWeaponStoppingPowerDesc>에테르의 흐름을 지닌 사람이 사용할 때 이 무기가 지니는 저지력입니다.</ARR_ImbuedWeaponStoppingPowerDesc>
+  <ARR_ImbuedWeaponStoppingPowerValue>{0} (+{1})</ARR_ImbuedWeaponStoppingPowerValue>
+  <ARR_ImbuedWeaponRange>주입된 사거리</ARR_ImbuedWeaponRange>
+  <ARR_ImbuedWeaponRangeDesc>에테르의 흐름을 지닌 사람이 사용할 때 이 무기의 사거리입니다.</ARR_ImbuedWeaponRangeDesc>
+  <ARR_ImbuedWeaponRangeValue>{0} (+{1})</ARR_ImbuedWeaponRangeValue>
+  <ARR_TeleportFocusAttunement>교감</ARR_TeleportFocusAttunement>
+  <ARR_TeleportFocusAttunementDesc>이 펜던트의 착용자가 교감한 에테라이트입니다.</ARR_TeleportFocusAttunementDesc>
+  <ARR_TeleportFocusRequiresAether>에테르 필요</ARR_TeleportFocusRequiresAether>
+  <ARR_TeleportFocusRequiresAetherDesc>이 아니마 펜던트를 사용하려면 에테르의 흐름을 지녀야 하는지를 설정합니다.</ARR_TeleportFocusRequiresAetherDesc>
+  <ARR_TeleportFocusUnattuned>교감하지 않음</ARR_TeleportFocusUnattuned>
+  <ARR_TeleportFocusAttuned>교감 완료 ({0})</ARR_TeleportFocusAttuned>
+  <ARR_TeleportReturn>데존</ARR_TeleportReturn>
+  <ARR_TeleportReturnDesc>귀환 지점으로 등록한 에테라이트로 이동합니다.</ARR_TeleportReturnDesc>
+  <ARR_TeleportTeleport>텔레포</ARR_TeleportTeleport>
+  <ARR_TeleportTeleportDesc>교감한 에테라이트로 텔레포합니다. (우클릭하여 목적지 선택)</ARR_TeleportTeleportDesc>
+  <ARR_TeleportTeleportSingleDesc>{0}(으)로 텔레포합니다.</ARR_TeleportTeleportSingleDesc>
+  <ARR_TeleportTeleportOption>{1}, {0}</ARR_TeleportTeleportOption>
+  <ARR_TeleportTeleportOptionHome>{1}, {0} (귀환 지점)</ARR_TeleportTeleportOptionHome>
+  <ARR_TeleportTeleportOptionCustomHome>{0} (귀환 지점)</ARR_TeleportTeleportOptionCustomHome>
+  <ARR_TeleportTeleportOptionNone>(없음)</ARR_TeleportTeleportOptionNone>
+  <ARR_TeleportTeleportOptionUnknown>알 수 없음</ARR_TeleportTeleportOptionUnknown>
+  <ARR_TeleportAttune>교감</ARR_TeleportAttune>
+  <ARR_TeleportAttuneDesc>이 펜던트를 에테라이트와 교감시킵니다.</ARR_TeleportAttuneDesc>
+  <ARR_TeleportBeaconRename>이름 변경</ARR_TeleportBeaconRename>
+  <ARR_TeleportBeaconRenameDesc>이 에테라이트의 이름을 변경합니다.</ARR_TeleportBeaconRenameDesc>
+  <ARR_TeleportBeaconAttuned>이미 교감한 에테라이트입니다.</ARR_TeleportBeaconAttuned>
+  <ARR_TeleportBeaconAttune>에테라이트와 교감</ARR_TeleportBeaconAttune>
+  <ARR_TeleportBeaconAttuneAndSetHome>에테라이트와 교감하고 귀환 지점으로 설정</ARR_TeleportBeaconAttuneAndSetHome>
+  <ARR_TeleportBeaconSetHome>에테라이트를 귀환 지점으로 설정</ARR_TeleportBeaconSetHome>
+  <ARR_TeleportBeaconNamed>에테라이트의 이름을 {0}(으)로 변경했습니다.</ARR_TeleportBeaconNamed>
+  <ARR_TeleportBeaconUnnamed>에테라이트의 사용자 지정 이름을 삭제했습니다.</ARR_TeleportBeaconUnnamed>
+  <ARR_TeleportBeaconFatalError>지정한 에테라이트로 텔레포할 수 없습니다.</ARR_TeleportBeaconFatalError>
+  <ARR_TeleportBeaconInsufficientAether>에테라이트의 에테르가 부족하여 텔레포 요청을 받을 수 없습니다.</ARR_TeleportBeaconInsufficientAether>
+  <ARR_TeleportFocusDestinationError>안전한 도착 지점을 찾지 못해 텔레포할 수 없습니다.</ARR_TeleportFocusDestinationError>
+  <ARR_TeleportFocusBeaconUnattuned>교감하지 않은 에테라이트로는 텔레포할 수 없습니다.</ARR_TeleportFocusBeaconUnattuned>
+  <ARR_TeleportFocusBeaconMissing>아니마 펜던트를 사용하려면 먼저 에테라이트와 교감해야 합니다.</ARR_TeleportFocusBeaconMissing>
+  <ARR_TeleportFocusAetherMissing>착용자가 에테르의 흐름을 지니지 않으면 현재 아니마 펜던트를 사용할 수 없습니다.</ARR_TeleportFocusAetherMissing>
+  <ARR_TeleportFocusAnimaMissing>착용자가 아니마 고갈 상태인 동안에는 텔레포할 수 없습니다.</ARR_TeleportFocusAnimaMissing>
+  <ARR_TeleportFocusUncharged>다시 사용하려면 아니마 펜던트를 재충전해야 합니다.</ARR_TeleportFocusUncharged>
+  <ARR_TeleportFocusWearerDowned>착용자가 쓰러진 상태에서는 텔레포할 수 없습니다.</ARR_TeleportFocusWearerDowned>
+  <ARR_TeleportFocusNoSharedBeacons>상단원 모두가 공통으로 교감한 에테라이트가 없습니다.</ARR_TeleportFocusNoSharedBeacons>
+  <ARR_TeleportFocusMissingForPawn>{0}에게 사용 가능한 아니마 펜던트가 없습니다.</ARR_TeleportFocusMissingForPawn>
+  <ARR_TeleportFocusConfirmMassTeleport>정착민 {0}명을 {1}(으)로 텔레포하시겠습니까?</ARR_TeleportFocusConfirmMassTeleport>
+  <ARR_PotionBeltUse>{0} ({1})</ARR_PotionBeltUse>
+  <ARR_PotionBeltUseDefault>물약 사용 ({0})</ARR_PotionBeltUseDefault>
+  <ARR_PotionBeltUseDesc>포션 벨트에 보관된 물약을 사용합니다.</ARR_PotionBeltUseDesc>
+  <ARR_PotionBeltUseMissing>사용할 수 있는 물약이 없습니다.</ARR_PotionBeltUseMissing>
+  <ARR_PotionBeltPickupOne>{0}에 보관</ARR_PotionBeltPickupOne>
+  <ARR_PotionBeltPickupMultiple>{0}에 보관…</ARR_PotionBeltPickupMultiple>
+  <ARR_PotionBeltPickupAll>{0}에 모두 보관 ({1})</ARR_PotionBeltPickupAll>
+  <ARR_PotionBeltPickupDialog>보관할 수량: {0}</ARR_PotionBeltPickupDialog>
+  <ARR_PotionBeltCapacity>용량</ARR_PotionBeltCapacity>
+  <ARR_PotionBeltCapacityValue>{0} / {1}</ARR_PotionBeltCapacityValue>
+  <ARR_PotionBeltCapacityDesc>이 용기에 보관할 수 있는 물약의 수입니다.</ARR_PotionBeltCapacityDesc>
+  <ARR_PotionBeltContents>현재 내용물:</ARR_PotionBeltContents>
+  <ARR_PotionBeltContentsNone>(비어 있음)</ARR_PotionBeltContentsNone>
+  <ARR_RaceModMissing>A Rim Reborn - Core가 작동하려면 A Rim Reborn 종족 모드가 하나 이상 필요합니다. 모드 목록에 ARR 종족 모드를 추가하거나 Core를 비활성화하세요. 종족 모드가 없으면 새 게임을 시작할 수 없습니다.</ARR_RaceModMissing>
+  <ARR_Aether>에테르 순환</ARR_Aether>
+  <ARR_AnimaDrain>아니마 고갈</ARR_AnimaDrain>
+  <ARR_ElementNone>무속성</ARR_ElementNone>
+  <ARR_ElementEarth>땅</ARR_ElementEarth>
+  <ARR_ElementFire>불</ARR_ElementFire>
+  <ARR_ElementIce>얼음</ARR_ElementIce>
+  <ARR_ElementLightning>번개</ARR_ElementLightning>
+  <ARR_ElementWater>물</ARR_ElementWater>
+  <ARR_ElementWind>바람</ARR_ElementWind>
+</LanguageData>
