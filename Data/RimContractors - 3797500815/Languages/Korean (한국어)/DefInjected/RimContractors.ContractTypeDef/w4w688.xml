@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <RC_SearchAndDestroy.label>수색 섬멸</RC_SearchAndDestroy.label>
-  <RC_SearchAndDestroy.description>표시된 지역으로 이동하여 그곳을 점거한 적대 세력을 제거하십시오. 서 있는 적이 하나도 남지 않으면 지역을 확보한 것으로 간주합니다.</RC_SearchAndDestroy.description>
+  <RC_SearchAndDestroy.description>표시된 야영지로 이동하여 그곳을 점거한 적대 세력을 섬멸하십시오. 목표는 적 그 자체이며, 현장의 모든 적을 사살하거나 쓰러뜨리거나 몰아내야 합니다. 건물을 파괴할 필요는 없습니다. 현장에 남아 있는 시설과 보관된 물자는 철수하면서 자유롭게 회수할 수 있습니다.</RC_SearchAndDestroy.description>
   <RC_Rescue.label>구조</RC_Rescue.label>
   <RC_Rescue.description>표시된 지역에 포로가 붙잡혀 있습니다. 대상을 운반해 정착지로 데려온 뒤 의학적으로 안정시키십시오. 우호적인 구조 대상은 침대에 눕히거나 체포할 필요가 없습니다. 계약 정산 후 의뢰인이 회수팀을 보냅니다.</RC_Rescue.description>
   <RC_Kidnap.label>납치</RC_Kidnap.label>
@@ -9,11 +9,13 @@
   <RC_Assassination.label>암살</RC_Assassination.label>
   <RC_Assassination.description>의뢰인은 특정 인물 한 명의 죽음을 원합니다. 대상에게 접근해 처치한 뒤 철수하십시오. 다른 사람을 죽일 필요는 없으며 현장의 나머지는 신경 쓰지 않아도 됩니다.</RC_Assassination.description>
   <RC_Sabotage.label>파괴 공작</RC_Sabotage.label>
-  <RC_Sabotage.description>지정된 기반 시설을 파괴하고 철수하십시오. 현장을 완전히 소탕할 필요는 없습니다. 침투해서 부수고 빠져나오면 됩니다.</RC_Sabotage.description>
+  <RC_Sabotage.description>적 야영지 내의 지정된 시설 하나가 목표입니다. 브리핑에서 목표 시설을 지정합니다. 해당 시설을 파괴한 뒤 철수하십시오. 주둔 병력은 목표가 아닙니다. 야영지를 소탕할 필요도 없으며, 그곳의 적을 모두 처치해도 추가 보상은 없습니다. 침투하여 목표 시설만 파괴한 뒤 철수하십시오.</RC_Sabotage.description>
   <RC_Security.label>경비 임무</RC_Security.label>
-  <RC_Security.description>임무 기간 내내 표시된 지역을 공격해 오는 모든 적으로부터 지키십시오. 일찍 철수하면 계약을 포기한 것으로 간주합니다.</RC_Security.description>
+  <RC_Security.description>표시된 야영지에 주둔하여 임무 기간 내내 지키십시오. 현장에 계약자 한 명 이상이 실제로 주둔하고 있을 때만 임무 시간이 진행되므로, 전원이 철수하면 시간이 멈춥니다. 적의 공격이 발생하지만, 이를 격퇴하는 것은 임무 수행 과정일 뿐 그 자체가 목표는 아닙니다. 임무 기간이 끝나기 전에 철수하면 계약을 이행하지 않은 것으로 처리됩니다.</RC_Security.description>
   <RC_HostVIP.label>VIP 경호</RC_HostVIP.label>
   <RC_HostVIP.description>정착지에 중요 인사를 머물게 하고 세 차례의 적 습격에서 살아남도록 보호하십시오. 의뢰인이 VIP의 도착을 준비합니다. 거처와 식량, 의료 지원을 마련하십시오. 세 차례의 습격을 모두 물리치고 VIP를 경호 맵에 머물게 해야 보상을 받을 수 있습니다. 이 계약은 정착지 방어 임무이며, 맵 밖에서 자동 판정되는 임무가 아닙니다.</RC_HostVIP.description>
-  <RC_SupplyEquipment.label>장비 보급</RC_SupplyEquipment.label>
+  <RC_SupplyEquipment.label>장비 납품</RC_SupplyEquipment.label>
   <RC_SupplyEquipment.description>요청받은 무기와 방어구를 제작하거나 확보한 뒤, 마감 기한 전에 상단 또는 수송 포드로 의뢰인의 물품 인수 거점에 전달하십시오. 물품은 지정된 품질과 내구도 조건을 충족해야 하며, 더 높은 품질의 물품에는 추가 보상이 지급됩니다.</RC_SupplyEquipment.description>
+  <RC_SettlementStrike.label>정착지 타격</RC_SettlementStrike.label>
+  <RC_SettlementStrike.description>의뢰인이 주민이 거주하는 정착지를 파괴하기를 원합니다. 표시된 마을로 이동하여 그곳을 점거하고 있는 무장 병력을 섬멸하십시오. 해당 정착지에는 주민이 거주하고 있으며, 주민들은 비무장 상태로 전투에 참여하지 않고 도주합니다. 주민은 목표가 아니며, 이들을 살해해도 임무 수행에 도움이 되지 않습니다. 다만 해당 세력은 주민의 피해를 인지할 것입니다. 캠프보다 훨씬 규모가 큰 거점에 대비하십시오.</RC_SettlementStrike.description>
 </LanguageData>

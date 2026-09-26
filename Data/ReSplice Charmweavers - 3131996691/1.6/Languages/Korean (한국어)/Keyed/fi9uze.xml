@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RS.TargetTooYoung>너무 어립니다.</RS.TargetTooYoung>
+  <RS.TargetIsLovehexer>대상이 예속술사입니다.</RS.TargetIsLovehexer>
+  <RS.ThrallOf>{PAWN_nameDef}의 노예</RS.ThrallOf>
+  <RS.BerserkThrallStateReason>이건 {0_definite}의 죽음 때문에 발생했습니다.</RS.BerserkThrallStateReason>
+  <RS.NewThrall>새 노예: {PAWN_nameDef}</RS.NewThrall>
+  <RS.NewThrallDesc>{CASTER_nameDef}(이)가 {TARGET_nameDef}(을)를 성공적으로 예속시켰습니다.</RS.NewThrallDesc>
+  <RS.MaxThrallAmount>기본 최대 권속 수</RS.MaxThrallAmount>
+  <RS.MaxThrallControlGroupAmount>기본 최대 권속 통제 그룹 수</RS.MaxThrallControlGroupAmount>
+  <RS.MaxMultiPregnancyAmount>최대 동시 임신 수</RS.MaxMultiPregnancyAmount>
+  <RS.ThrallAmount>권속 수</RS.ThrallAmount>
+  <RS.AlreadyHasMaxThrallAmount>이미 최대 권속 수를 초과했습니다.</RS.AlreadyHasMaxThrallAmount>
+  <RS.CannotLovethrall>예속 불가</RS.CannotLovethrall>
+  <RS.MessageLovethrallCapacityChanged>{PAWN_nameDef}의 권속 수용량이 {OLD}에서 {NEW}(으)로 증가했습니다.</RS.MessageLovethrallCapacityChanged>
+  <RS.MessageLovethrallControlGroupCapacityChanged>{PAWN_nameDef}의 권속 그룹 수용량이 {OLD}에서 {NEW}(으)로 증가했습니다.</RS.MessageLovethrallControlGroupCapacityChanged>
+  <RS.LovethrallCapacity>권속 수용량</RS.LovethrallCapacity>
+  <RS.LovethrallCapacityDesc>이 폰이 거느릴 수 있는 최대 권속 수입니다.\n\n권속 수용량은 권속 수용량 혈청으로 늘릴 수 있습니다. 이 혈청은 상인에게서 구매할 수 있습니다.</RS.LovethrallCapacityDesc>
+  <RS.PsychicEnthrallment>정신 예속</RS.PsychicEnthrallment>
+  <RS.PsychicEnthrallmentDesc>권속 수: {0}
+
+{PAWN_nameDef}(은)는 사랑의 권속을 최대 {1}명까지 통제할 수 있습니다.
+
+정신 예속 유전자를 지닌 사람은 다른 이의 정신을 조종해 자발적이고 충성스러운 하인으로 만들 수 있습니다. 이는 유전자 보유자 또는 예속된 사람이 죽을 때까지 영구히 지속됩니다.</RS.PsychicEnthrallmentDesc>
+  <RS.LoveThralls>사랑의 권속</RS.LoveThralls>
+  <RS.LoveThrallsDesc>정신 예속 유전자를 지닌 사람은 다른 이의 정신을 조종해 자발적이고 충성스러운 하인으로 만들 수 있습니다. 이는 유전자 보유자 또는 예속된 사람이 죽을 때까지 영구히 지속됩니다.</RS.LoveThrallsDesc>
+  <RS.CannotArrestMaster>{PAWN_nameDef}(은)는 {PAWN_possessive} 주인을 체포하지 않습니다.</RS.CannotArrestMaster>
+  <RS.CannotCaptureMaster>{PAWN_nameDef}(은)는 {PAWN_possessive} 주인을 포획하지 않습니다.</RS.CannotCaptureMaster>
+  <RS.CannotAttackMaster>{PAWN_nameDef}(은)는 {PAWN_possessive} 주인을 공격하지 않습니다.</RS.CannotAttackMaster>
+  <RS.CannotUseHarmfulAbilitiesOnMaster>{PAWN_nameDef}(은)는 {PAWN_possessive} 주인에게 해로운 능력을 사용하지 않습니다.</RS.CannotUseHarmfulAbilitiesOnMaster>
+  <RS.CommandSelectAllThralls>모든 권속 선택</RS.CommandSelectAllThralls>
+  <RS.CommandSelectAllThrallsDesc>이 {PAWN_xenotype}에 귀속된 모든 권속을 선택합니다.</RS.CommandSelectAllThrallsDesc>
+  <RS.CommandSelectMaster>선택\n주인</RS.CommandSelectMaster>
+  <RS.CommandSelectMasterDesc>이 권속이 귀속된 {PAWN_xenotype}을(를) 선택합니다.</RS.CommandSelectMasterDesc>
+  <RS.Group>그룹</RS.Group>
+  <RS.Groups>그룹</RS.Groups>
+  <RS.NoThralls>권속 없음</RS.NoThralls>
+  <RS.AssignToGroup>그룹에 배정...</RS.AssignToGroup>
+  <RS.AssignToGroupDesc>선택한 권속을 현재 주인의 다른 통제 그룹에 배정합니다.</RS.AssignToGroupDesc>
+  <RS.ControlGroup>통제 그룹</RS.ControlGroup>
+  <RS.CurrentThrallWorkMode>현재 모드</RS.CurrentThrallWorkMode>
+  <RS.AssignedThralls>배정된 권속</RS.AssignedThralls>
+  <RS.CannotAssignThrallToControlGroup>{0}번 통제 그룹에 배정할 수 없음</RS.CannotAssignThrallToControlGroup>
+  <RS.AssignThrallAlreadyAssigned>이미 배정됨</RS.AssignThrallAlreadyAssigned>
+  <RS.AssignThrallToControlGroup>{0}번 통제 그룹에 배정</RS.AssignThrallToControlGroup>
+  <RS.MessageCaravanAddingEscortingThrall>{THRALL_possessive}(은)는 {MASTER_nameDef}을(를) 호위하고 있으므로 {THRALL_nameDef}을(를) 캐러밴에 자동으로 추가합니다.</RS.MessageCaravanAddingEscortingThrall>
+  <RS.MessageCaravanRemovingEscortingThrall>{THRALL_possessive}(은)는 {MASTER_nameDef}을(를) 호위하고 있으므로 {THRALL_nameDef}을(를) 캐러밴에서 자동으로 제거합니다.</RS.MessageCaravanRemovingEscortingThrall>
+  <RS.MessageThrallIncapableOfWorkInGroupViolent>{THRALL}(은)는 {WORKMODE} 그룹에 배정되었으나, 폭력을 행사할 수 없습니다.</RS.MessageThrallIncapableOfWorkInGroupViolent>
+  <RS.MessageThrallIncapableOfWorkInGroupSocial>{THRALL}(은)는 {WORKMODE} 그룹에 배정되었으나, 사교 활동을 할 수 없습니다.</RS.MessageThrallIncapableOfWorkInGroupSocial>
+  <RS.CannotTooPregnant>동시 임신 수가 너무 많음</RS.CannotTooPregnant>
+  <RS.CannotPregnantTooRecently>최근 임신함</RS.CannotPregnantTooRecently>
+  <RS.EnthrallmentTraitChangesMessage>{PAWN}(은)는 예속에서 풀려났지만, 그로 인해 생긴 변화 일부가 아직 남아 있는 듯합니다.</RS.EnthrallmentTraitChangesMessage>
+  <RS.MessageEnthrallerChangedTarget>{PAWN_labelShort}(은)는 {PAWN_possessive} 예속 대상을 {TARGET_label}(으)로 바꾸기로 했습니다.</RS.MessageEnthrallerChangedTarget>
+</LanguageData>
