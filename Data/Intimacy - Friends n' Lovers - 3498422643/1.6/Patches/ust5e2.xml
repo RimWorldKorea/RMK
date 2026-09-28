@@ -14,11 +14,49 @@
             <symbol>UI/Gizmo/Gizmo_InitiateLovin</symbol>
           </value>
         </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ideology</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
         <li Class="PatchOperationReplace">
           <success>Always</success>
-          <xpath>/Defs/InteractionDef[defName="SEX_ProposeSexToMech"]/symbol</xpath>
+          <xpath>/Defs/PreceptDef[defName="Lovin_SpouseOnly_Strict"]/label</xpath>
           <value>
-            <symbol>UI/Gizmo/Gizmo_InitiateLovin</symbol>
+            <label>배우자만 허용</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PreceptDef[defName="Lovin_SpouseOnly_Moderate"]/label</xpath>
+          <value>
+            <label>연인만 허용</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PreceptDef[defName="Lovin_SpouseOnly_Moderate"]/description</xpath>
+          <value>
+            <description>연인 관계 밖의 사람과 사랑을 나누는 행위는 잘못되었다. 육체적 사랑은 배우자, 약혼자 또는 연인과만 나누어야 한다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PreceptDef[defName="Lovin_SpouseOnly_Mild"]/label</xpath>
+          <value>
+            <label>연인이 있다면 연인만 허용</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/PreceptDef[defName="Lovin_SpouseOnly_Mild"]/description</xpath>
+          <value>
+            <description>혼인 관계 밖의 사람과 사랑을 나누는 것은 이해할 만하다. 하지만 연인 관계에 있다면 상대에게 충실해야 한다.</description>
           </value>
         </li>
       </operations>
