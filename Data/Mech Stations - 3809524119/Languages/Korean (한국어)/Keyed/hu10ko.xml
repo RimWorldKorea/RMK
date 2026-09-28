@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MS_GizmoAssignLabel>메크 배정</MS_GizmoAssignLabel>
+  <MS_GizmoAssignDesc>이 스테이션에 메카노이드를 배정합니다. 대기 상태거나 에너지가 부족할 때 이곳으로 돌아옵니다.</MS_GizmoAssignDesc>
+  <MS_GizmoUnassignLabel>메크 배정 해제</MS_GizmoUnassignLabel>
+  <MS_GizmoUnassignDesc>이 스테이션에서 메카노이드 배정을 제거합니다.</MS_GizmoUnassignDesc>
+  <MS_GizmoRecallLabel>메크 소환</MS_GizmoRecallLabel>
+  <MS_GizmoRecallDesc>배정된 메카노이드에게 즉시 이 스테이션으로 돌아오도록 명령합니다.</MS_GizmoRecallDesc>
+  <MS_GizmoReturnLabel>스테이션으로 복귀</MS_GizmoReturnLabel>
+  <MS_GizmoReturnDesc>이 메카노이드에게 즉시 배정된 스테이션으로 돌아오도록 명령합니다.</MS_GizmoReturnDesc>
+  <MS_GizmoFacingLabel>메크 방향 설정</MS_GizmoFacingLabel>
+  <MS_GizmoFacingDesc>도킹된 메카노이드가 바라보는 방향을 순환합니다. 이곳에 도킹하는 모든 메크에 적용됩니다.</MS_GizmoFacingDesc>
+  <MS_GizmoBoostLabel>충전 부스트</MS_GizmoBoostLabel>
+  <MS_GizmoBoostDesc>이 모듈을 켜거나 끕니다. 꺼져 있어도 대기 전력을 소모하지만 충전 속도는 증가하지 않습니다. 완전히 끄려면 전원 스위치를 사용하세요.</MS_GizmoBoostDesc>
+  <MS_InspectBoostOn>충전 부스트: {0}</MS_InspectBoostOn>
+  <MS_InspectBoostOff>충전 부스트: 비활성화됨</MS_InspectBoostOff>
+  <MS_GizmoRepairLabel>자동 수리</MS_GizmoRepairLabel>
+  <MS_GizmoRepairDesc>이 모듈을 켜거나 끕니다. 꺼져 있어도 대기 전력을 소모하지만 아무것도 수리하지 않습니다. 완전히 끄려면 전원 스위치를 사용하세요.</MS_GizmoRepairDesc>
+  <MS_InspectRepairOn>자동 수리: 직접 수리 속도의 {0}</MS_InspectRepairOn>
+  <MS_InspectRepairOff>자동 수리: 비활성화됨</MS_InspectRepairOff>
+  <MS_GizmoPositionLabel>위치 조정</MS_GizmoPositionLabel>
+  <MS_GizmoPositionDesc>이 건물의 사용 가능한 그리기 위치를 순환합니다. 그래픽만 이동하며, 메카노이드가 실제로 서 있는 위치는 변경되지 않습니다.</MS_GizmoPositionDesc>
+  <MS_Place_NoTargetPort>메크 스테이션을 향해야 합니다.</MS_Place_NoTargetPort>
+  <MS_Place_WrongPortType>이 스테이션은 이 모듈 유형을 받지 않습니다.</MS_Place_WrongPortType>
+  <MS_Place_NotAligned>스테이션의 중앙과 정렬되어야 합니다.</MS_Place_NotAligned>
+  <MS_InspectNone>배정된 메크: 없음</MS_InspectNone>
+  <MS_InspectAssigned>배정된 메크: {MECH}</MS_InspectAssigned>
+  <MS_InspectDead>배정된 메크: {MECH} (사망)</MS_InspectDead>
+  <MS_MenuNoMechs>사용 가능한 적합한 메카노이드가 없습니다</MS_MenuNoMechs>
+  <MS_MenuAlreadyAssigned>(이미 배정됨)</MS_MenuAlreadyAssigned>
+  <MS_InspectWasteContainer>연결된 포트 폐기물: {0} (용량 +{1})</MS_InspectWasteContainer>
+  <MS_InspectWasteUnlinked>포트에 연결되지 않았습니다.</MS_InspectWasteUnlinked>
+  <MS_Place_TooManyModules>한 포트에 이 모듈을 {0}개 초과로 장착할 수 없습니다.</MS_Place_TooManyModules>
+  <MS_InspectModules>모듈 ({0})</MS_InspectModules>
+  <MS_InspectModulesInactive>모듈 ({0}): 활성화된 것 없음</MS_InspectModulesInactive>
+  <MS_InspectModuleCharge>충전 +{0}</MS_InspectModuleCharge>
+  <MS_InspectModuleRepair>수리 {0}</MS_InspectModuleRepair>
+  <MS_InspectModuleWaste>폐기물 용량 +{0}</MS_InspectModuleWaste>
+  <MS_SettingSuppressChargeAnimation>스테이션의 충전 애니메이션 숨기기</MS_SettingSuppressChargeAnimation>
+  <MS_SettingStatusMask>텍스처에 충전 상태 표시</MS_SettingStatusMask>
+  <MS_SettingStatusGlow>충전 상태를 영역 조명으로 표시</MS_SettingStatusGlow>
+  <MS_SettingIdleMask>대기 상태일 때 텍스처에 불 켜기</MS_SettingIdleMask>
+  <MS_SettingIdleGlow>대기 상태일 때 영역에 불 켜기</MS_SettingIdleGlow>
+  <MS_SettingSizePatches>크기 패치</MS_SettingSizePatches>
+  <MS_SettingSizePatchesDesc>형태가 소형 포트에 비해 너무 큰 중형 메크는 대형 포트에서만 수용됩니다.</MS_SettingSizePatchesDesc>
+  <MS_SettingSizePatchesTip>이는 포트 선택 외에는 아무것도 영향을 주지 않습니다. 중량 등급, 대역폭 및 바닐라 재충전기는 그대로 유지됩니다.</MS_SettingSizePatchesTip>
+  <MS_ClassOverrideGroup_Pikeman>파이크맨 변종</MS_ClassOverrideGroup_Pikeman>
+  <MS_ClassOverride_VanillaPikeman>바닐라 파이크맨</MS_ClassOverride_VanillaPikeman>
+  <MS_ClassOverride_GD5Expansion>글리터월드 디스트로이어 5 확장</MS_ClassOverride_GD5Expansion>
+  <MS_ClassOverride_DMWP>다양한 메카노이드 전쟁 절차</MS_ClassOverride_DMWP>
+  <MS_ClassOverrideGroup_Apex>에이펙스 메카노이드</MS_ClassOverrideGroup_Apex>
+  <MS_ClassOverride_ApexJavelin>재블린</MS_ClassOverride_ApexJavelin>
+  <MS_ClassOverride_ApexFrostivus>프로스티부스</MS_ClassOverride_ApexFrostivus>
+  <MS_SettingForeignWorkModes>WVC 작업 모드 패치</MS_SettingForeignWorkModes>
+  <MS_SettingForeignWorkModesDesc>배정된 메크는 다른 곳으로 가기 전에 자신의 포트로 갑니다. 배정된 메크가 포트에 서 있을 때는 "적 대기" 또는 "작업 및 대기" 모드에서 예상되는 것처럼 맵에서 적의 존재에 반응하기 전에 깨어나야 합니다.</MS_SettingForeignWorkModesDesc>
+  <MS_AlertPortFull>메크 포트가 폐기물 팩으로 가득 참</MS_AlertPortFull>
+  <MS_AlertPortFullDesc>이 메크 포트들은 폐기물 팩으로 가득 차 충전을 멈췄습니다. 도킹된 메크는 포트를 유지하고 떠나지 않고 그곳에서 기다립니다. 다시 충전하려면 폐기물 팩을 운반해 치우세요.</MS_AlertPortFullDesc>
+</LanguageData>
