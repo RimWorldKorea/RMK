@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <ARIO_ArrivalStatus_Prefix>무역 대상단: {0}</ARIO_ArrivalStatus_Prefix>
+  <ARIO_ArrivalStatus_Unavailable>도착 스케줄러가 작동하지 않습니다; 로그를 확인하세요.</ARIO_ArrivalStatus_Unavailable>
+  <ARIO_ArrivalStatus_NotHome>거래 파티는 플레이어의 집 지도만 방문합니다.</ARIO_ArrivalStatus_NotHome>
+  <ARIO_ArrivalStatus_Initializing>다음 날 일일 점검 준비 중입니다.</ARIO_ArrivalStatus_Initializing>
+  <ARIO_ArrivalStatus_NextRoll>매일 다음 50% 점검은 {0} 6시간 후 (현지 시간 06:00)에 이루어집니다. (가문: 정착민들의 충성도를 확인하는 시간, 주군: 게임 마스터, 정착지: 가문의 영지)</ARIO_ArrivalStatus_NextRoll>
+  <ARIO_ArrivalStatus_NoShoppers>오늘은 무역 파티가 없습니다. 다음 일일 점검은 {0} 시간 후입니다.</ARIO_ArrivalStatus_NoShoppers>
+  <ARIO_ArrivalStatus_NextParty>다음 파티는 {0} 시간 후에 {1} 명의 정착민이 참여합니다.</ARIO_ArrivalStatus_NextParty>
+  <ARIO_ArrivalStatus_Delayed>지연됨:{0}다시 시도하기{1}시간.</ARIO_ArrivalStatus_Delayed>
+  <ARIO_ArrivalStatus_Progress>{0}/{1} 가문들이 도착했습니다. {2}</ARIO_ArrivalStatus_Progress>
+  <ARIO_ArrivalStatus_Finished>{0}/{1}계획된 정착민 부대 도착 완료. 다음 일일 점검 예정 시간:{2}시간 후.</ARIO_ArrivalStatus_Finished>
+  <ARIO_ArrivalStatus_Rules>지정된 시장은 매일 오전 6시 현지 시간에 50% 확률로 롤을 진행합니다. 성공 시 정착민 2~5명으로 구성된 1~5개의 무역 단체가 오전 8시부터 오후 10시까지 방문하게 됩니다. 단체들은 최소 2시간 간격으로 도착하며 약 8시간 동안 방문합니다. 방문은 겹칠 수 있습니다.\n\n차단된 단체는 15분마다 재시도하며, 계획된 규모와 2시간 간격의 도착 시간을 유지합니다. 여전히 도착하지 못한 단체는 자정에 만료되며 다음 날의 대기열로 전환되지 않습니다. 일정과 롤 결과는 저장 및 로드 시 유지됩니다.\n\n오전 6시 이후에 개장하거나 처음 업데이트된 시장은 다음 날 아침 확인 시 시작됩니다. 일반 방문객은 여전히 독립적으로 쇼핑할 수 있습니다. 각 무역 단체는 방문 기간 동안 시장 지출의 1000~2000 실버를 공유하며, 상인 대상단은 2000~3000 실버를 공유합니다. 남은 예산은 저장 및 로드 시 유지됩니다. 쇼핑 방문객을 선택하여 공유된 잔액을 확인하세요. 일반 플레이어 간 협상된 거래는 별도입니다. 이 상태를 호버하면 오늘의 예정 도착 시간을 확인할 수 있습니다.</ARIO_ArrivalStatus_Rules>
+  <ARIO_ArrivalStatus_PartyDetail>단체 구성원 수{0}: {1}계획된{2} - {3}</ARIO_ArrivalStatus_PartyDetail>
+  <ARIO_ArrivalParty_Pending>대기 중인</ARIO_ArrivalParty_Pending>
+  <ARIO_ArrivalParty_Arrived>도착 완료</ARIO_ArrivalParty_Arrived>
+  <ARIO_ArrivalParty_Missed>밤이 오기 전 도착 불가</ARIO_ArrivalParty_Missed>
+  <ARIO_ArrivalParty_Failed>세대 생성 또는 생성 실패; 로그 확인</ARIO_ArrivalParty_Failed>
+  <ARIO_ArrivalBlock_None>준비 완료</ARIO_ArrivalBlock_None>
+  <ARIO_ArrivalBlock_NoMarket>시장 구역 지정되지 않음</ARIO_ArrivalBlock_NoMarket>
+  <ARIO_ArrivalBlock_NoStock>판매할 상품 없음. 은화는 화폐이지 상품이 아님</ARIO_ArrivalBlock_NoStock>
+  <ARIO_ArrivalBlock_NoAffordableStock>방문 그룹 예산 범위 내 상품 없음. 구매 가능한 상품이 없음</ARIO_ArrivalBlock_NoAffordableStock>
+  <ARIO_ArrivalBlock_NoFaction>적대 세력 없음. 우호적인 세력이 무역단을 파견할 수 없음</ARIO_ArrivalBlock_NoFaction>
+  <ARIO_ArrivalBlock_Temperature>온도 부적합. 현재 또는 계절 온도가 도착 가능 세력의 제한 범위를 벗어남</ARIO_ArrivalBlock_Temperature>
+  <ARIO_ArrivalBlock_Unsafe>안전하지 않음. 적대 세력이 방문을 방해하고 있음</ARIO_ArrivalBlock_Unsafe>
+  <ARIO_ArrivalBlock_Conditions>중립 세력의 방문이 허용되지 않는 영지 조건이 활성화되어 있습니다.</ARIO_ArrivalBlock_Conditions>
+  <ARIO_ArrivalBlock_NoEntry>유효한 영지 경계 진입 지점을 찾을 수 없습니다.</ARIO_ArrivalBlock_NoEntry>
+  <ARIO_ArrivalBlock_NoRoute>진입 지점에서 시장까지 보행 가능한 경로를 찾을 수 없습니다.</ARIO_ArrivalBlock_NoRoute>
+  <ARIO_ArrivalBlock_IncidentRule>사건 또는 지도 레이어 규칙이 이 도착을 거부했습니다; 도착 진단을 확인하세요.</ARIO_ArrivalBlock_IncidentRule>
+  <ARIO_ArrivalBlock_GenerationFailed>상업 파티 생성이 실패했습니다; 이 파티는 반복되지 않습니다. 로그를 확인하세요.</ARIO_ArrivalBlock_GenerationFailed>
+  <ARIO_ArrivalBlock_SpawnFailed>상업 파티 생성 실패; 이 파티는 반복되지 않습니다. 로그를 확인하세요.</ARIO_ArrivalBlock_SpawnFailed>
+  <ARIO_ArrivalLetter_Title>상업 파티 도착 알림</ARIO_ArrivalLetter_Title>
+  <ARIO_ArrivalLetter_Body>{2}을(를) 대표하여 {1}에서 온 {0}명의 상인단이 시장을 둘러보기 위해 도착했습니다.\n\n상인단 구성원: {3}.\n\n이들은 약 8시간 동안 머물며 원하는 물품을 구매해 돌아갈 예정입니다. 위험이 닥치거나 기온이 안전하지 않으면 일찍 떠날 수 있습니다.</ARIO_ArrivalLetter_Body>
+  <ARIO_ArrivalMessage>{1}에서 온 {0} 상인단이 시장을 둘러보기 위해 도착했습니다.</ARIO_ArrivalMessage>
+  <ARIO_ArrivalDebug_Scheduled>정착민 무역단 디버깅 모드 활성화. 정착지 도착 예정 시간 확인 (첫 번째 무역단은 최소 2시간 후 도착 예정).</ARIO_ArrivalDebug_Scheduled>
+</LanguageData>
