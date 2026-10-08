@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RC_Letter_MechLosses>손실된 메카노이드(장비로 취급되며 평판에 영향 없음): {0}</RC_Letter_MechLosses>
+  <RC_Hist_MechLosses>손실된 메카노이드</RC_Hist_MechLosses>
+  <RC_Hist_UplinkFee>지휘 중계기 비용: 은 {0}</RC_Hist_UplinkFee>
+  <RC_Set_UplinkFee>계약 1일당 메카노이드 한 기의 지휘 중계기 비용(은)</RC_Set_UplinkFee>
+  <RC_Control_Open>회사 현황판 열기</RC_Control_Open>
+  <RC_Control_OpenTip>이 임무 통제소에서 회사와 회사 계좌를 관리합니다. 건물이 사라져도 예치된 자금은 보존됩니다. 다시 이용하려면 건물을 재건하십시오.</RC_Control_OpenTip>
+  <RC_Control_Required>사용 가능한 플레이어 소유 임무 통제소를 선택한 뒤 '회사 현황판 열기'를 누르십시오. 필요하다면 건축 메뉴의 기타 항목에서 건설하십시오.</RC_Control_Required>
+  <RC_Control_WrongStyle>이 임무 통제소는 현재 계약 방식에 맞지 않습니다. 현대식 회사는 전력이 필요한 단말기를, 중세식 회사는 전력이 필요 없는 통제대를 사용합니다.</RC_Control_WrongStyle>
+  <RC_Control_NoPower>현황판과 계좌를 이용하려면 임무 통제소에 전력을 공급해야 합니다.</RC_Control_NoPower>
+  <RC_Control_OnlyBuilding>회사 현황판은 임무 통제소에서만 열 수 있습니다. 기타 항목에서 현재 방식에 맞는 단말기나 중세식 통제대를 건설하십시오.</RC_Control_OnlyBuilding>
+  <RC_Bank_Title>회사 은 계좌</RC_Bank_Title>
+  <RC_Bank_Balance>예치된 은: {0}</RC_Bank_Balance>
+  <RC_Bank_ServiceBody>예치된 은은 정착지 재산에 포함되지 않습니다. 예치 수수료는 10%이며 인출은 무료입니다. 각 입출금은 정착민이 직접 처리합니다. 고용, 왕복선 및 지원군 비용은 이 계좌에서 지불합니다.</RC_Bank_ServiceBody>
+  <RC_Bank_Deposit>은 예치</RC_Bank_Deposit>
+  <RC_Bank_Withdraw>은 인출</RC_Bank_Withdraw>
+  <RC_Bank_DepositTip>운반 담당자가 임무 통제소로 은을 가져옵니다. 계좌에는 금액의 90%가 소수점 이하를 버린 값으로 입금됩니다. 은이 도착하기 전에는 입금되지 않습니다.</RC_Bank_DepositTip>
+  <RC_Bank_WithdrawTip>정착민이 임무 통제소를 조작하면 그 옆에 은이 놓입니다. 수수료는 없으며, 작업 한 번에 최대 50,000까지 인출할 수 있습니다. 인출한 은은 정착지 재산에 포함됩니다.</RC_Bank_WithdrawTip>
+  <RC_Bank_Amount>은 수량</RC_Bank_Amount>
+  <RC_Bank_LooseSilver>이 맵에서 사용 가능한 은: {0}</RC_Bank_LooseSilver>
+  <RC_Bank_FeePreview>10% 수수료: 은 {0}. 계좌 입금액: 은 {1}.</RC_Bank_FeePreview>
+  <RC_Bank_InvalidAmount>0보다 큰 금액을 입력하십시오. 직접 예치할 때는 수수료를 제외하고도 은이 최소 1 남아야 합니다.</RC_Bank_InvalidAmount>
+  <RC_Bank_NotEnoughLoose>이 임무 통제소가 있는 맵에 사용 가능한 은이 부족합니다.</RC_Bank_NotEnoughLoose>
+  <RC_Bank_NotEnoughStored>회사 계좌에 그만큼의 은이 없습니다.</RC_Bank_NotEnoughStored>
+  <RC_Bank_Full>회사 계좌에 해당 금액을 예치할 수 없습니다. 은은 가져가지 않았습니다.</RC_Bank_Full>
+  <RC_Bank_WithdrawalLimit>한 번에 최대 은 {0}까지 인출할 수 있습니다.</RC_Bank_WithdrawalLimit>
+  <RC_Bank_NoDropSpace>일부 은을 임무 통제소 옆에 놓을 수 없었습니다. 실제로 놓인 만큼만 계좌에서 차감되었으며, 나머지는 계좌에 남아 있습니다.</RC_Bank_NoDropSpace>
+  <RC_Bank_DepositRollback>예치가 취소되었습니다. 은 {0}을 맵에 돌려놓을 수 없어 수수료 없이 회사 계좌에 보관했습니다. 사라진 은은 없습니다.</RC_Bank_DepositRollback>
+  <RC_Bank_Deposited>은 {0} 예치됨. 수수료: {1}. 계좌 입금액: {2}.</RC_Bank_Deposited>
+  <RC_Bank_Withdrawn>임무 통제소 옆에 은 {0}이 인출되었습니다.</RC_Bank_Withdrawn>
+  <RC_Bank_SlipTitle>회사 입금 전표 제출됨</RC_Bank_SlipTitle>
+  <RC_Bank_SlipBody>{0} 명의로 입금 전표가 제출되었습니다.\n\n의뢰인: {1}\n계약: {2}\n입금액: 은 {3}\n계좌 잔액: 은 {4}\n\n계약 보수 전액이 수수료 없이 입금되었습니다. 임무 통제소에서 계좌를 확인하고 인출할 수 있습니다. 건물이 파괴되어도 계좌의 자금은 안전하게 보존됩니다.</RC_Bank_SlipBody>
+  <RC_MechLicense_Label>메카노이드 운용 면허</RC_MechLicense_Label>
+  <RC_MechLicense_Held>면허를 보유하고 있습니다. 임대 메카노이드를 동반하는 메카나이터가 요원 고용 목록에 나타납니다.</RC_MechLicense_Held>
+  <RC_MechLicense_NotHeld>면허가 없습니다. 구매하면 임대 메카노이드를 동반하는 메카나이터가 요원 고용 목록에 추가됩니다.</RC_MechLicense_NotHeld>
+  <RC_MechLicense_Buy>면허 구매 ({0})</RC_MechLicense_Buy>
+  <RC_MechLicense_Tip>은 {0}을 한 번 지불하면 면허를 영구적으로 보유합니다. 메카나이터 고용비는 별도로 지불해야 하며, 동반하는 메카노이드의 임대료가 추가됩니다.</RC_MechLicense_Tip>
+  <RC_MechLicense_Confirm>은 {0}을 지불하고 영구 메카노이드 운용 면허를 구매하시겠습니까?
+
+면허는 회사에 귀속되며 만료되지 않습니다. 메카나이터 임대 상품을 이용할 수 있게 되지만, 각 상품의 비용은 별도로 지불해야 합니다.</RC_MechLicense_Confirm>
+  <RC_MechLicense_LetterTitle>메카노이드 운용 면허 취득</RC_MechLicense_LetterTitle>
+  <RC_MechLicense_LetterBody>{0}(이)가 회사에 영구 메카노이드 운용 면허를 발급했습니다. 이제 요원 중개업체에서 임대 메카노이드를 동반하는 메카나이터를 파견할 수 있습니다.</RC_MechLicense_LetterBody>
+  <RC_MechLicense_Required>회사의 메카노이드 운용 면허가 필요합니다. 요원 고용 화면 상단에서 한 번만 구매하면 됩니다.</RC_MechLicense_Required>
+  <RC_MechLicense_Owned>회사가 이미 메카노이드 운용 면허를 보유하고 있습니다.</RC_MechLicense_Owned>
+  <RC_MechLicense_NoBiotech>메카노이드 운용에는 바이오테크 확장팩이 필요합니다.</RC_MechLicense_NoBiotech>
+  <RC_MechLicense_Medieval>중세식 계약에서는 메카노이드를 투입하지 않습니다.</RC_MechLicense_Medieval>
+  <RC_Hire_MechCount>{0} ×{1}</RC_Hire_MechCount>
+  <RC_Hire_MechPackage>임대 메카노이드: {0}</RC_Hire_MechPackage>
+  <RC_Hire_MechPremium>비용에 포함된 메카노이드 추가 임대료: 은 {0}</RC_Hire_MechPremium>
+  <RC_Hire_MechTerms>메카노이드 임대: 메카나이터는 메크링크에 이미 연결된 메카노이드와 함께 도착하며, 일반적인 대역폭, 제어 그룹 및 작업 모드를 사용합니다. 메카노이드의 소유권은 중개업체에 있습니다. 기간이 끝나면 메카나이터와 함께 떠나며, 메카나이터가 사망하거나 붙잡히거나 정착지를 떠나면 조기에 회수됩니다. 손실된 메카노이드에 대해서는 환불도 추가 청구도 하지 않습니다. 임대 기간은 연장할 수 있지만 영구 고용으로 전환할 수는 없습니다.</RC_Hire_MechTerms>
+  <RC_Hire_MechNoPermanent>메카나이터 임대 상품은 영구 고용으로 전환할 수 없습니다.</RC_Hire_MechNoPermanent>
+  <RC_Hire_MechStatus>운용 중인 메카노이드 {0}/{1}</RC_Hire_MechStatus>
+  <RC_Hire_MechRecall>메카나이터 상실 · 임대 메카노이드 {0}기 회수 중</RC_Hire_MechRecall>
+  <RC_Hire_ArrivedMechs>{0}(이)가 임대 메카노이드 {1}와(과) 함께 도착했습니다. 메카노이드는 {0}에게 연결되어 있으며 바로 작업할 수 있습니다.</RC_Hire_ArrivedMechs>
+  <RC_Hire_MechsRecalledTitle>임대 메카노이드 회수</RC_Hire_MechsRecalledTitle>
+  <RC_Hire_MechsRecalled>{0}(은)는 더 이상 임대 메카노이드를 제어할 수 없습니다. 중개업체가 이들을 회수합니다. 본거지 정착지에 있고, 징집이 해제되어 있으며, 걸을 수 있게 되는 즉시 떠납니다.</RC_Hire_MechsRecalled>
+  <RC_Hire_MechLeaseDeparting>{0}의 임대 기간이 끝났습니다. 메카나이터와 임대 메카노이드가 떠납니다.</RC_Hire_MechLeaseDeparting>
+  <RC_Hire_MechsDeparting>{0}의 임대 메카노이드가 중개업체로 돌아갑니다.</RC_Hire_MechsDeparting>
+  <RC_Hire_MechanitorLeftMechs>{0}(이)가 떠났습니다. 이 메카나이터가 제어하던 정착지 소유 메카노이드가 제어 불능 상태가 되었습니다: {1}</RC_Hire_MechanitorLeftMechs>
+  <RC_Tip_RemoteStrength>선택한 요원들의 전투력 합계에 성공 확률 설정을 적용한 값과, 이 계약에 저장된 적 전력을 비교합니다. 새 계약의 적 전력은 주로 난이도 단계와 회사의 성장에 따라 결정되며, 이야기꾼의 위협 수준은 제한된 범위에서만 영향을 줍니다. 이미 게시된 계약의 적 전력은 유지됩니다.</RC_Tip_RemoteStrength>
+  <RC_Tip_ObjectiveRisk>교전에서 승리한 뒤에도 포로 사망이나 표적 도주 등으로 임무에 실패할 추가 확률입니다. 이 확률은 위에 표시된 전체 성공 확률에 이미 반영되어 있습니다. 부상, 의료 및 시신 회수 위험은 별도입니다.</RC_Tip_ObjectiveRisk>
+  <RC_Tip_Recommended>새로 게시된 계약에서 이 목표를 상대로 약 60%의 전투 성공률을 얻는 데 필요한 인원 수를 추산합니다. 건강하고 전투력이 약 140인 요원을 기준으로 합니다. 참고용 수치이며 필수 인원이나 승리를 보장하는 수치는 아닙니다. 이전에 게시된 계약은 기존 권장 인원을 유지합니다.</RC_Tip_Recommended>
+  <RC_Dlg_RemoteStrength>분대 전투력 / 적 전력</RC_Dlg_RemoteStrength>
+  <RC_Dlg_ObjectiveRisk>목표 달성 추가 위험</RC_Dlg_ObjectiveRisk>
+  <RC_Shuttle_FieldEdgeFallback>지붕이 없는 왕복선 착륙 지점을 찾지 못했습니다. 분대가 맵 가장자리에서 진입합니다.</RC_Shuttle_FieldEdgeFallback>
+  <RC_Shuttle_ReturnEdgeFallback>지휘관님, 지붕이 없는 착륙 지점을 찾지 못했습니다. 복귀하는 분대가 맵 가장자리에서 진입합니다.</RC_Shuttle_ReturnEdgeFallback>
+  <RC_Set_MechLicenseCost>메카노이드 운용 면허 비용(은)</RC_Set_MechLicenseCost>
+  <RC_Services_Tab>서비스</RC_Services_Tab>
+  <RC_Services_Subtitle>회사 계좌 업무, 전세 비행, 실바라 가문 지원군 및 메카노이드 운용</RC_Services_Subtitle>
+  <RC_Services_CompanyShuttle>회사 왕복선 (연구 필요)</RC_Services_CompanyShuttle>
+  <RC_Services_ShuttleTitle>왕복선 대절</RC_Services_ShuttleTitle>
+  <RC_Services_ShuttleBody>이곳으로 왕복선을 호출하고 일반적인 방식으로 탑승한 뒤, '보내기'를 눌러 로열티 허가처럼 세계 지도에서 목적지를 선택하십시오. 호출 시 예치된 은 500을 지불하며, 출발 시 타일당 은 10을 추가로 지불합니다. 최대 8명까지 탑승할 수 있습니다. 계약, 작위 또는 신임장가 필요하지 않습니다.</RC_Services_ShuttleBody>
+  <RC_Services_ShuttleReady>왕복선을 호출하고 탑승한 뒤 '보내기'를 누르십시오.</RC_Services_ShuttleReady>
+  <RC_Services_ShuttleBoarding>왕복선이 탑승 지점에 착륙했습니다. 탑승 중입니다.</RC_Services_ShuttleBoarding>
+  <RC_Services_ShuttleInFlight>전세 왕복선이 비행 중입니다. 탑승자 정보는 도착할 때까지 보존됩니다.</RC_Services_ShuttleInFlight>
+  <RC_Services_ShuttleWaiting>도착 지연: 지정한 착륙 칸이 막혀 있습니다. 탑승자는 이동 중 안전하게 대기합니다.</RC_Services_ShuttleWaiting>
+  <RC_Services_NoField>진행 중인 현장 계약이 없습니다. 비행을 예약하려면 게시판에서 현장 계약을 수락하십시오.</RC_Services_NoField>
+  <RC_Services_NoFieldShort>진행 중인 계약 없음</RC_Services_NoFieldShort>
+  <RC_Services_NeedsField>진행 중인 현장 계약이 필요합니다.</RC_Services_NeedsField>
+  <RC_Services_ChooseMission>현장 계약: {0}</RC_Services_ChooseMission>
+  <RC_Services_SilvaranTitle>실바라 가문 지원군</RC_Services_SilvaranTitle>
+  <RC_Services_SilvaranBody>정예 실바란 지원군: 병사 2 / 4 / 6명이 포드 1 / 2 / 3개로 도착하며, 비용은 회사 계좌에서 은 3,000 / 6,000 / 9,000을 지불합니다. 착륙 시점부터 하루 동안 복무하며 기존 장비를 그대로 사용합니다. 식량과 실내에 침낭을 펼칠 공간을 제공하십시오. 포드마다 착륙 칸을 하나씩 지정해야 하며, 충돌 시 주변이 파괴됩니다.</RC_Services_SilvaranBody>
+  <RC_Services_SilvaranButton>지원군 상품 선택 (은 {0}부터)</RC_Services_SilvaranButton>
+  <RC_Services_MechTitle>메카노이드 운용 및 지휘 중계기</RC_Services_MechTitle>
+  <RC_Services_MechBody>바이오테크와 현대식 계약이 필요합니다. 회사의 영구 면허를 구매하면 임대 메카노이드를 동반하는 메카나이터를 고용할 수 있습니다. 면허를 보유한 회사는 지휘 중계기도 구매할 수 있어, 정착지에 남은 메카나이터가 계약 현장의 메카노이드를 제어할 수 있습니다.</RC_Services_MechBody>
+  <RC_Services_UplinkRate>지휘 중계기: 계약의 남은 일수마다 메카노이드 한 기당 은 {0}.</RC_Services_UplinkRate>
+  <RC_Services_UplinkHelp>중계기를 사용하려면 메카나이터 없이 메카노이드가 파견된 현장 계약을 선택하십시오. 원격 계약에서는 분대를 선택할 때 중계기를 추가하십시오.</RC_Services_UplinkHelp>
+  <RC_Services_UplinkLocked>회사가 면허를 보유하면 지휘 중계기를 이용할 수 있습니다.</RC_Services_UplinkLocked>
+  <RC_Service_Title>실바란 왕복선 서비스</RC_Service_Title>
+  <RC_Service_Button>왕복선 호출</RC_Service_Button>
+  <RC_Service_Tip>안전한 탑승 칸 하나를 선택하십시오. 계좌에서 은 500을 지불하고 일반 왕복선 조작 방식으로 탑승한 뒤, '보내기'를 눌러 세계 지도에서 목적지를 선택하십시오. 출발 시 타일당 은 10의 요금이 계좌에서 지불됩니다.</RC_Service_Tip>
+  <RC_Service_OneWay>편도 요금: 은 {0} · 기본 500 + 세계 타일당 10</RC_Service_OneWay>
+  <RC_Service_From>탑승 출발지: {0}</RC_Service_From>
+  <RC_Service_To>목적지: {0}</RC_Service_To>
+  <RC_Service_Select>탑승자: {0}/{1} · 정착민과 제어 중인 메카노이드 선택</RC_Service_Select>
+  <RC_Service_Mech>메카노이드</RC_Service_Mech>
+  <RC_Service_SelectPads>착륙 칸 선택</RC_Service_SelectPads>
+  <RC_Service_PickPickupPad>{0}에서 정확한 탑승 지점을 선택하십시오. 지붕이 없고 안전한 칸을 좌클릭하십시오. 우클릭하면 비용 없이 취소합니다.</RC_Service_PickPickupPad>
+  <RC_Service_PickDestinationPad>{0}에서 정확한 도착 지점을 선택하십시오. 지붕이 없고 안전한 칸을 좌클릭하십시오. 우클릭하면 비용 없이 취소합니다.</RC_Service_PickDestinationPad>
+  <RC_Service_PadConfirm>다음 편도 전세 비행을 확인하십시오:\n\n탑승: {0}의 ({1}, {2})\n도착: {3}의 ({4}, {5})\n\n요금: 은 {6}. 파견 시 청구됩니다. 도착 칸이 막히면 탑승자는 이동 중 대기합니다. 다른 착륙 지점이나 맵 가장자리로 이동하지 않습니다.</RC_Service_PadConfirm>
+  <RC_Service_PadChanged>선택한 착륙 칸, 탑승자 또는 맵 중 하나를 더 이상 이용할 수 없습니다. 비용은 청구되지 않았습니다. 안전한 착륙 지점을 다시 선택하십시오.</RC_Service_PadChanged>
+  <RC_Service_PadSelectionCancelled>전세 왕복선 착륙 지점 선택을 취소했습니다. 은은 청구되지 않았습니다.</RC_Service_PadSelectionCancelled>
+  <RC_Service_WaitingPadNotice>전세 왕복선이 지정한 도착 칸 ({0}, {1})이 비워지기를 기다리고 있습니다. 탑승자는 이동 중 안전하게 대기하며, 다른 착륙 지점은 사용하지 않습니다.</RC_Service_WaitingPadNotice>
+  <RC_Service_WaitingPadTip>{0}의 지정 지점 ({1}, {2})에서 대기 중입니다. 비행을 재개하려면 지붕, 건물 및 기타 장애물을 치우십시오. 탑승자는 정보가 보존된 비행 대기 공간에서 안전하게 기다리며, 맵 가장자리로 도착하지 않습니다.</RC_Service_WaitingPadTip>
+  <RC_Service_Confirm>비행 파견 (은 {0})</RC_Service_Confirm>
+  <RC_Service_Ready>최대 8명의 탑승자를 선택한 뒤, 출발지와 목적지 맵에서 지붕이 없는 착륙 칸을 하나씩 정확히 지정하십시오. 확인 전에는 비용이 청구되지 않습니다.</RC_Service_Ready>
+  <RC_Service_Unavailable>로열티와 현대식 계약이 필요합니다.</RC_Service_Unavailable>
+  <RC_Service_Busy>이 임무에는 이미 진행 중인 전세 비행이 있습니다.</RC_Service_Busy>
+  <RC_Service_Source>불러온 본거지 정착지 또는 계약 현장을 탑승 지점으로 선택하십시오.</RC_Service_Source>
+  <RC_Service_Passengers>중복 없이 1명에서 {0}명까지 탑승자를 선택하십시오.</RC_Service_Passengers>
+  <RC_Service_PassengerUnavailable>선택한 탑승자 중 하나를 해당 탑승 지점에서 더 이상 이용할 수 없습니다.</RC_Service_PassengerUnavailable>
+  <RC_Service_Pickup>전세 왕복선을 파견했습니다. 은 {0}을 지불했습니다. 실바란 왕복선이 착륙하면 탑승하십시오.</RC_Service_Pickup>
+  <RC_Service_CancelPickup>탑승 취소</RC_Service_CancelPickup>
+  <RC_Service_CancelPickupTip>탑승한 인원을 이 맵으로 돌려보내고 편도 요금을 환불합니다. 왕복선이 출발하기 전에만 가능합니다.</RC_Service_CancelPickupTip>
+  <RC_Service_Cancelled>전세 왕복선 탑승이 취소되었거나 완료되지 못했습니다. 탑승자는 출발지에 남아 있으며 요금은 환불되었습니다.</RC_Service_Cancelled>
+  <RC_Service_Arrived>전세 왕복선이 도착했습니다. 탑승자가 목적지에 내렸습니다.</RC_Service_Arrived>
+  <RC_Service_EdgeArrival>도착 지점이 지정되지 않은 이전 전세 비행에 기존의 안전한 맵 가장자리 도착 방식이 적용되었습니다.</RC_Service_EdgeArrival>
+  <RC_Service_Fees>왕복선 전세 요금: 은 {0}</RC_Service_Fees>
+  <RC_Silvaran_Title>실바란 지원군 서비스</RC_Silvaran_Title>
+  <RC_Silvaran_Subtitle>정예 지원군 - 스태그폴 포드 1~3개 선택</RC_Silvaran_Subtitle>
+  <RC_Silvaran_PackageTitle>지원군 상품</RC_Silvaran_PackageTitle>
+  <RC_Silvaran_PackageSingle>포드 {0}개 - 실바란 병사 {1}명 - 계좌에서 은 {2}</RC_Silvaran_PackageSingle>
+  <RC_Silvaran_PackagePlural>포드 {0}개 - 실바란 병사 {1}명 - 계좌에서 은 {2}</RC_Silvaran_PackagePlural>
+  <RC_Silvaran_InvalidPackage>포드 1개, 2개 또는 3개로 구성된 지원군 상품을 선택하십시오.</RC_Silvaran_InvalidPackage>
+  <RC_Silvaran_PodLocation>포드 {0}: ({1}, {2})</RC_Silvaran_PodLocation>
+  <RC_Silvaran_Button>실바란 지원 요청</RC_Silvaran_Button>
+  <RC_Silvaran_ButtonTip>정예 실바란 병사 2명, 4명 또는 6명으로 구성된 상품을 선택하십시오. 비용은 회사 계좌에서 은 {0}부터 지불하며, 파견 확인 전에는 청구되지 않습니다. 포드마다 착륙 칸 하나를 지정하십시오. 지붕이 있거나 무언가 차지한 칸도 선택할 수 있지만, 충돌 시 주변 시설과 물품, 식물이 파괴됩니다.</RC_Silvaran_ButtonTip>
+  <RC_Silvaran_Terms>실바란 혈통 병사: {0}명. 스태그폴 포드: {1}개. 비용: 계좌에서 은 {2}. 착륙 시점부터 하루 동안 복무합니다. 기존 정예 장비를 사용하며, 현대식 모드에서는 드론과 스태그워드도 포함됩니다. 순찰하며 활동 중인 적과 교전하고, 각자 재사용 가능한 침낭을 휴대합니다. 식량과 비어 있는 실내 공간을 제공하십시오. 포드마다 맵의 칸 하나를 선택하십시오. 충돌 시 주변 시설, 지붕, 물품 및 식물이 파괴됩니다. 로열티는 필요하지 않습니다.</RC_Silvaran_Terms>
+  <RC_Silvaran_Destination>지원군 목적지</RC_Silvaran_Destination>
+  <RC_Silvaran_Colony>플레이어 정착지</RC_Silvaran_Colony>
+  <RC_Silvaran_Site>계약 현장</RC_Silvaran_Site>
+  <RC_Silvaran_SelectPods>착륙 구역 지정 ({0})</RC_Silvaran_SelectPods>
+  <RC_Silvaran_PickPod>포드 {0}/{1}. 좌클릭하여 배치하고 우클릭하여 취소하십시오.</RC_Silvaran_PickPod>
+  <RC_Silvaran_PickCancelled>지원군 파견을 취소했습니다. 은은 청구되지 않았습니다.</RC_Silvaran_PickCancelled>
+  <RC_Silvaran_PickConfirm>{0}\n\n실바란 병사: {1}명. 포드: {2}개. 착륙 시점부터 하루 동안 복무합니다. 회사 계좌에서 은 {3}을 지불합니다. 기존 장비는 유지됩니다. 충돌 시 주변이 파괴되며, 기본 게임의 충돌 구덩이는 배치 가능한 곳에만 남습니다.</RC_Silvaran_PickConfirm>
+  <RC_Silvaran_PickedLZInvalid>선택한 상품의 포드마다 맵 범위 안에서 서로 다른 칸 하나씩을 선택하십시오. 은은 청구되지 않았습니다.</RC_Silvaran_PickedLZInvalid>
+  <RC_Silvaran_Confirm>실바란 병사 {0}명 파견 (은 {1})</RC_Silvaran_Confirm>
+  <RC_Silvaran_Ready>필요한 착륙 구역: {0}. 파견 확인 전에는 비용이 청구되지 않습니다.</RC_Silvaran_Ready>
+  <RC_Silvaran_InboundTitle>실바란 지원군 접근 중</RC_Silvaran_InboundTitle>
+  <RC_Silvaran_Inbound>병사 {0}명이 착륙 중입니다. 스태그폴 포드: {2}개. 회사 계좌에서 {1}을 지불했습니다. 착륙 시점부터 하루 동안 순찰 및 전투 임무를 수행합니다. 침낭을 휴대하고 있으니 비어 있는 실내 공간과 식량을 제공하십시오.</RC_Silvaran_Inbound>
+  <RC_Silvaran_NotAvailable>실바란 지원에는 바이오테크와 원래의 실바란 혈통이 필요합니다. Silvaran Order가 활성화되어 있으면 실바라 가문도 존재하고 지원 가능한 상태여야 합니다. Silvaran Order가 비활성화된 경우에는 모드에 포함된 콘텐츠를 사용합니다.</RC_Silvaran_NotAvailable>
+  <RC_Silvaran_Hostile>실바란 지원 세력이 적대적이거나 패배했거나 이용할 수 없는 상태여서 지원할 수 없습니다.</RC_Silvaran_Hostile>
+  <RC_Silvaran_NeedMap>불러온 플레이어 정착지 또는 맵이 생성된 진행 중인 계약 현장을 선택하십시오.</RC_Silvaran_NeedMap>
+  <RC_Silvaran_AlreadyHere>이 맵에는 이미 실바란 지원 부대가 배정되어 있습니다.</RC_Silvaran_AlreadyHere>
+  <RC_Silvaran_NoClearLZ>지붕, 사람, 시설 및 작물이 없는 야외 충돌 구역 세 곳이 각각 필요합니다. 비용은 받지 않았습니다.</RC_Silvaran_NoClearLZ>
+  <RC_Silvaran_Failed>실바란 지원군 파견에 실패했습니다. 발사된 포드가 없다면 비용은 환불되었습니다.</RC_Silvaran_Failed>
+  <RC_Silvaran_Partial>스태그폴 발사가 중단되었습니다. 이미 접근 중인 포드는 계속 작동하며, 발사되지 못한 병사는 확보된 충돌 구역 근처로 진입합니다.</RC_Silvaran_Partial>
+  <RC_Silwia_Name>실비아</RC_Silwia_Name>
+  <RC_Set_MedievalHandler>중세식 임무 담당자</RC_Set_MedievalHandler>
+  <RC_Set_MedievalHandlerDefault>중세식 임무 담당자: 실비아. A Rim of Ice and Fire를 설치하면 대신 카티야를 선택할 수 있습니다.</RC_Set_MedievalHandlerDefault>
+  <RC_Set_MedievalHandlerSilwia>실비아 (기본값)</RC_Set_MedievalHandlerSilwia>
+  <RC_Set_MedievalHandlerKatya>카티야</RC_Set_MedievalHandlerKatya>
+  <RC_Set_MedievalHandlerTip>표시되는 이름과 초상화만 바뀝니다. 대화, 관계, 계약 기능 및 Player2 음성 선택은 유지됩니다. 중세식 모드에서 A Rim of Ice and Fire가 활성화되어 있을 때 사용할 수 있습니다.</RC_Set_MedievalHandlerTip>
+  <RC_Supply_OutlierWithdrawn>보수가 비정상적으로 높은 미서명 납품 제안이 하나 이상 철회되었습니다. 수락한 주문과 이미 완료된 지급 내역은 바뀌지 않았습니다.</RC_Supply_OutlierWithdrawn>
+  <RC_Neg_SupplyCeiling>이 납품 주문의 최고 품질 보수에 협상 비용을 더하면 제안 한도를 초과합니다. 다른 주문을 선택하거나 게시판이 갱신되기를 기다리십시오. 은은 청구되지 않았습니다.</RC_Neg_SupplyCeiling>
+  <RC_VIP_ShuttleFallback>지붕이 없는 왕복선 착륙 지점을 찾지 못했습니다. VIP가 대신 육로로 도착합니다.</RC_VIP_ShuttleFallback>
+  <RC_VIP_PrisonerAccepted>의뢰인의 무장 부대가 {1}(으)로 {0}(을)를 호송합니다. 습격이 시작되기 전에 경비병 한 명이 포로를 예약된 포로용 침대에 수용합니다.</RC_VIP_PrisonerAccepted>
+  <RC_VIP_PrisonerArrived>{0}(이)가 예약된 포로용 침대에 수용되었습니다. 첫 번째 공격은 {1} 후에 예상됩니다.</RC_VIP_PrisonerArrived>
+  <RC_VIP_PrisonerHandoff>호송대가 VIP를 예약된 포로용 침대에 수용하는 중입니다.</RC_VIP_PrisonerHandoff>
+  <RC_VIP_NoPrisonBed>보호 중인 포로 계약에는 안전하게 밀폐된 감방이나 포로 수용실 안에 사용 가능한 인간형 포로용 침대가 필요합니다.</RC_VIP_NoPrisonBed>
+  <RC_VIP_OverlayCollectionTitle>{0} 인계</RC_VIP_OverlayCollectionTitle>
+</LanguageData>
