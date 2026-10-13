@@ -1,0 +1,707 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DT_AreaDeploymentShort>구역 출격</DT_AreaDeploymentShort>
+  <DT_AreaDeploymentDesc>범위 피해 능력을 가진 드론의 배치를 허용합니다. 비활성화하면 자동, 수동 및 작업 출격이 차단되고 배치된 기체가 복귀합니다. 폭발, 선형 펄스, 휩쓸기 레이저, 근접 방사 피해, 링/가위형 궤적 피해가 포함됩니다. 범위 무기가 하나라도 장착된 드론은 이 제한의 적용을 받습니다. 성환 액티브 능력 및 능력에 참여 중인 드론은 지속 시간 동안 예외로 적용됩니다.</DT_AreaDeploymentDesc>
+  <DT_AutoAttackDetailsDesc>함대 전체의 적대적 목표 자동 포착을 제어합니다. 비활성화하면 전투 기체를 복귀시킵니다. 범위 출격 토글의 적용을 받는 수동 목표 지정은 여전히 가능합니다.</DT_AutoAttackDetailsDesc>
+  <DT_DeploymentBase>프레임 통신 범위</DT_DeploymentBase>
+  <DT_CoreCommunicationEfficiency>통신 게인</DT_CoreCommunicationEfficiency>
+  <DT_DeploymentRangeFormula>최대 배치 반경(칸) = 프레임 통신 범위 × 통신 게인. 프레임 통신 범위에는 진급 보너스가 포함됩니다. 코어 세대마다 5%p씩 증가하여, I세대의 100%부터 IX세대의 140%까지 상승합니다.</DT_DeploymentRangeFormula>
+  <DT_CoreCommunicationEfficiencyDesc>배치 반경에 대한 코어 승수입니다. I세대 100%에서 시작하며, 업그레이드마다 복리 없이 5%p씩 합산 증가합니다.</DT_CoreCommunicationEfficiencyDesc>
+  <DT_Catalog_DeploymentBase>프레임 통신 범위(칸)</DT_Catalog_DeploymentBase>
+  <DT_Catalog_CoreCommunicationEfficiency>통신 게인</DT_Catalog_CoreCommunicationEfficiency>
+  <DT_DockWake>항적</DT_DockWake>
+  <DT_DockStability>안정성</DT_DockStability>
+  <DT_DockWakeDesc>프레임 및 추진기 출력에 의해 결정됩니다. 주 엔진 발진 후 진입로를 비우면 항적과 동일한 난류가 발생하며, 보조 도킹 완료 시에는 25%의 난류가 발생합니다. 난류는 해당 진입로에서만 초당 90포인트씩 감쇄합니다. 취소된 예약은 항적을 남기지 않습니다. 무제한 중첩 대신 더 강한 잔류 수치가 유지됩니다. 성환은 적용이 면제됩니다.</DT_DockWakeDesc>
+  <DT_DockStabilityDesc>프레임 및 추진기 출력에 의해 결정됩니다. 출발 또는 도착 예약을 확보하려면 안정성이 해당 진입로의 현재 난류보다 엄격하게 커야 합니다. 값이 같은 경우에도 대기가 필요합니다. 수치가 높을수록 더 강한 항적에 저항합니다. 선체 간격, 편대 윈도우, 점화 시퀀스는 여전히 적용됩니다. 성환은 면제됩니다.</DT_DockStabilityDesc>
+  <DT_Catalog_OpenDetails>기술 기록 보기</DT_Catalog_OpenDetails>
+  <DT_Catalog_Bench>조립 설비</DT_Catalog_Bench>
+  <DT_Catalog_Weight>구조 질량</DT_Catalog_Weight>
+  <DT_Catalog_Scale>크기 요구치</DT_Catalog_Scale>
+  <DT_Catalog_Work>부품 단계 작업량</DT_Catalog_Work>
+  <DT_Catalog_WorkReport>한 조립 단계의 기본 작업량입니다. 배터리와 추진기는 각각 하나의 단계를 공유하며, 무기 슬롯은 각자 전용 단계를 갖습니다. 생산량과 장착 수량은 재료 소모에만 영향을 줍니다.</DT_Catalog_WorkReport>
+  <DT_Catalog_Costs>부품당 재료</DT_Catalog_Costs>
+  <DT_Catalog_FrameCosts>프레임 재료에 의해 결정됨</DT_Catalog_FrameCosts>
+  <DT_Catalog_CostsReport>수량은 기체 1대의 부품 1개에 적용됩니다. 주 분사구 1개를 포함하여 배터리 및 추진기 비용에 장착 수량을 곱하십시오. 일반 주문은 기체 2기를 생산하며, 링 구성은 1기를 생산합니다.</DT_Catalog_CostsReport>
+  <DT_Catalog_BaseScale>기본 크기</DT_Catalog_BaseScale>
+  <DT_Catalog_ScaleLimit>크기 한계</DT_Catalog_ScaleLimit>
+  <DT_Catalog_BaseWeightLimit>기본 질량 허용치</DT_Catalog_BaseWeightLimit>
+  <DT_Catalog_StrengthCoefficient>재료 강도 적재 계수</DT_Catalog_StrengthCoefficient>
+  <DT_Catalog_FrameMaterialCount>기체당 프레임 재료 단위</DT_Catalog_FrameMaterialCount>
+  <DT_Catalog_MaterialWork>프레임 재료 성형 작업량</DT_Catalog_MaterialWork>
+  <DT_Catalog_FixedJets>고정 자세 분사구 수</DT_Catalog_FixedJets>
+  <DT_Catalog_RingThrust>기본 원주 장 추진력</DT_Catalog_RingThrust>
+  <DT_Catalog_RingThrustPerGeneration>세대당 장 추진력</DT_Catalog_RingThrustPerGeneration>
+  <DT_Catalog_IdleEnergy>작동 에너지 / 0.5초</DT_Catalog_IdleEnergy>
+  <DT_Catalog_RingAttackEnergy>원주 공격 에너지</DT_Catalog_RingAttackEnergy>
+  <DT_Catalog_Generation>제어 세대</DT_Catalog_Generation>
+  <DT_Catalog_WeaponSlots>무기 채널 한계</DT_Catalog_WeaponSlots>
+  <DT_Catalog_WorkFactor>전역 작업 속도 향상</DT_Catalog_WorkFactor>
+  <DT_Catalog_WeaponFactor>무기 에너지 변환율</DT_Catalog_WeaponFactor>
+  <DT_Catalog_ChargeFactor>충전 효율</DT_Catalog_ChargeFactor>
+  <DT_Catalog_ThrusterEnergyFactor>추진 소모량</DT_Catalog_ThrusterEnergyFactor>
+  <DT_Catalog_EnergyDensity>에너지 밀도</DT_Catalog_EnergyDensity>
+  <DT_Catalog_Capacity>단위당 저장 에너지</DT_Catalog_Capacity>
+  <DT_Catalog_Output>단위당 출력</DT_Catalog_Output>
+  <DT_Catalog_ChargePower>단위당 충전 전력</DT_Catalog_ChargePower>
+  <DT_Catalog_ChargeEfficiency>충전 효율</DT_Catalog_ChargeEfficiency>
+  <DT_Catalog_WeaponBehavior>전투 모드</DT_Catalog_WeaponBehavior>
+  <DT_Catalog_Accuracy>명중률 모델</DT_Catalog_Accuracy>
+  <DT_Catalog_AttackEnergy>요구 공격 에너지</DT_Catalog_AttackEnergy>
+  <DT_Catalog_DamageEfficiency>에너지 단위당 피해량</DT_Catalog_DamageEfficiency>
+  <DT_Catalog_Range>유효 사거리 구간</DT_Catalog_Range>
+  <DT_Catalog_RepeatInterval>최소 연속 공격 주기 / 초</DT_Catalog_RepeatInterval>
+  <DT_Catalog_RepeatIntervalReport>이 무기의 충전 및 작동 시간에 프레임의 후열 냉각/회복 시간을 더해 계산합니다. 기체의 이동, 목표 변경, 협조 대기 시간에 따라 실제 주기는 더 길어질 수 있습니다. 근접 콤보는 타격당 평균 주기를 표시합니다.</DT_Catalog_RepeatIntervalReport>
+  <DT_Catalog_PathDependent>비행 경로에 따름</DT_Catalog_PathDependent>
+  <DT_Catalog_DamageType>주 피해 유형</DT_Catalog_DamageType>
+  <DT_Catalog_SecondaryDamageType>보조 피해 유형</DT_Catalog_SecondaryDamageType>
+  <DT_Catalog_ArmorPenetration>방어 관통력</DT_Catalog_ArmorPenetration>
+  <DT_Catalog_StoppingPower>저지력</DT_Catalog_StoppingPower>
+  <DT_Catalog_ChargeDuration>충전 시간 / 초</DT_Catalog_ChargeDuration>
+  <DT_Catalog_ActionDuration>작동 시간 / 초</DT_Catalog_ActionDuration>
+  <DT_Catalog_BlastRadius>주 폭발 반경</DT_Catalog_BlastRadius>
+  <DT_Catalog_SecondaryBlastRadius>보조 폭발 반경</DT_Catalog_SecondaryBlastRadius>
+  <DT_Catalog_CompatibleFrames>호환 구성</DT_Catalog_CompatibleFrames>
+  <DT_Catalog_Thrust>분사구당 최대 추진력</DT_Catalog_Thrust>
+  <DT_Catalog_WorkAffinity>작업 특화</DT_Catalog_WorkAffinity>
+  <DT_Catalog_WorkPerGeneration>세대당 작업 효율</DT_Catalog_WorkPerGeneration>
+  <DT_Catalog_DamagePerGeneration>세대당 추가 피해량</DT_Catalog_DamagePerGeneration>
+  <DT_Catalog_SeverityPerGeneration>세대당 상태 이상 심각도</DT_Catalog_SeverityPerGeneration>
+  <DT_Catalog_ProcPerGeneration>세대당 발동 확률</DT_Catalog_ProcPerGeneration>
+  <DT_Catalog_RecoveryPerGeneration>세대당 발동 회복량</DT_Catalog_RecoveryPerGeneration>
+  <DT_Catalog_Affinity_Crafting>제작 및 건축 작업</DT_Catalog_Affinity_Crafting>
+  <DT_Catalog_Affinity_Cooking>열처리 및 조리</DT_Catalog_Affinity_Cooking>
+  <DT_Catalog_Affinity_Medical>의료 작업</DT_Catalog_Affinity_Medical>
+  <DT_Catalog_Affinity_Cleaning>청소 작업</DT_Catalog_Affinity_Cleaning>
+  <DT_AssemblyArmamentCount>{0}×{1}</DT_AssemblyArmamentCount>
+  <DT_AssemblyArmamentSeparator>+</DT_AssemblyArmamentSeparator>
+  <DT_Catalog_ShortLabel>호출부호</DT_Catalog_ShortLabel>
+  <DT_GroupRenameDesc>동기화된 편대 및 소속 드론의 이름을 변경합니다.</DT_GroupRenameDesc>
+  <DT_GroupRenameTitle>동기화 편대 이름 지정</DT_GroupRenameTitle>
+  <DT_GroupSideLeft>L · 좌측 드론</DT_GroupSideLeft>
+  <DT_GroupSideRight>R · 우측 드론</DT_GroupSideRight>
+  <DT_GroupSideSingle>단일 드론</DT_GroupSideSingle>
+  <DT_GroupSideTooltip>{0}\n{1}: {2}\n에너지: {3}</DT_GroupSideTooltip>
+  <DT_GroupSideEmpty>{0}\n{1}: 오프라인 / 누락</DT_GroupSideEmpty>
+  <DT_GroupLegacySlotName>개별 명칭: {0}</DT_GroupLegacySlotName>
+  <DT_GroupSelectHint>이름 또는 L/R을 클릭하여 공유 페어 속성, 작업 할당 및 기록을 엽니다. 양쪽 기체는 각자의 에너지와 상태를 유지합니다.</DT_GroupSelectHint>
+  <DT_DroneName>이름</DT_DroneName>
+  <DT_PromotionCarryCapacity>운반 능력</DT_PromotionCarryCapacity>
+  <DT_PromotionLevel>(+{0})</DT_PromotionLevel>
+  <DT_Promote>진급</DT_Promote>
+  <DT_PromotionResearchRequired>필요 연구: 판넬 드론 진급.</DT_PromotionResearchRequired>
+  <DT_PromotionDescription>완수한 작업 및 확인된 격추 수가 10, 20, 40, 80 및 이후 2배씩 늘어나는 마일스톤에 도달할 때마다 진급 기회를 1회씩 부여합니다. 진급 시 무작위 속성 하나가 향상됩니다. 어느 속성이든 7레벨에 도달하면 시너지 진화가 발동하여 6개 속성 모두가 1레벨씩 상승합니다.</DT_PromotionDescription>
+  <DT_DroneEvolutionMessage>{0}(이)가 시너지 진화를 거쳤습니다. 6가지 모든 속성이 1레벨 상승했습니다.</DT_DroneEvolutionMessage>
+  <DT_Catalog_SynchronizationBase>프레임 기본 동기화 부하</DT_Catalog_SynchronizationBase>
+  <DT_Catalog_SynchronizationFreeGroups>체급별 편대 허용치</DT_Catalog_SynchronizationFreeGroups>
+  <DT_Catalog_SynchronizationGenerationFactor>동기화 세대 계수</DT_Catalog_SynchronizationGenerationFactor>
+  <DT_SyncUnitBaseLoad>드론당 기본 부하</DT_SyncUnitBaseLoad>
+  <DT_SyncAssemblyBaseLoad>조립체당 기본 부하</DT_SyncAssemblyBaseLoad>
+  <DT_SyncUnitBaseInspect>기본 동기화 부하: 드론당 {0} (체급 페널티 적용 전)</DT_SyncUnitBaseInspect>
+  <DT_SyncBaseReport>드론당 기본 부하는 프레임 부하, 코어 세대 및 장착된 무기 수를 합산하여 소수점 첫째 자리에서 반올림합니다. 체급 페널티는 조종사의 전체 동기화 편대를 대상으로 계산됩니다.</DT_SyncBaseReport>
+  <DT_SyncClassReport>편대 수는 이 프레임 체급에 해당하는 조종사의 총 드론 수를 기준으로 계산됩니다: 링형은 1기당 1개 편대, 그 외 드론은 2기당 1개 편대로 계산하며 미달하는 편대는 올림 처리합니다. 코어 및 무기 변형 기체도 편대 수를 공유합니다. 허용치를 초과하면 해당 체급의 모든 기본 부하에 설정된 페널티가 적용됩니다.</DT_SyncClassReport>
+  <DT_SyncClassUsage>{0}: 드론 {1}기 / {2}개 편대; 허용치 {3}</DT_SyncClassUsage>
+  <DT_SyncRoundingExplanation>기본 {4} × {5} = {6}</DT_SyncRoundingExplanation>
+  <DT_EligiblePsychicLanceImmune>기본 부하는 드론당 소수점 첫째 자리에서 반올림됩니다. 체급 페널티는 합산 전에 적용되며, 최종 사용량은 소수점 첫째 자리에서 반올림됩니다.</DT_EligiblePsychicLanceImmune>
+  <DT_AutoAttack>조준 불가</DT_AutoAttack>
+  <DT_AutoAttackDesc>판넬 자동 공격</DT_AutoAttackDesc>
+  <DT_FocusTarget>모든 판넬을 사출하여 각자 독립적으로 적대적 목표를 포착하고 지속적으로 공격하도록 합니다. 근처에 적대적 또는 폭주한 판넬이 감지되면 요격 사출을 우선적으로 실행합니다.</DT_FocusTarget>
+  <DT_FocusTargetDesc>판넬 집중 목표</DT_FocusTargetDesc>
+  <DT_Recall>진영에 관계없이 선택한 폰, 건물 또는 아이템을 공격하도록 모든 판넬에 명령합니다.</DT_Recall>
+  <DT_RecallDesc>판넬 복귀</DT_RecallDesc>
+  <DT_AutoWork>배치된 모든 판넬을 복귀시키고 이 토글이 비활성화될 때까지 도킹 상태를 유지합니다.</DT_AutoWork>
+  <DT_AutoWorkDesc>자동 지원 작업</DT_AutoWorkDesc>
+  <DT_InvalidTarget>착용자가 소집되지 않은 동안 다목적 유틸리티 판넬이 설정된 지원 작업을 수행하도록 허용합니다.</DT_InvalidTarget>
+  <DT_TargetOutOfRange>선택한 대상은 이 지도에서 유효한 공격 목표가 아닙니다.</DT_TargetOutOfRange>
+  <DT_Status>선택한 목표가 판넬 사거리 밖입니다 ({0}칸).</DT_Status>
+  <DT_RecallState>도킹된 판넬: {0}/{1}; 조종사: {2}</DT_RecallState>
+  <DT_ReadyState>복귀 중</DT_ReadyState>
+  <DT_PanelTitle>준비 완료</DT_PanelTitle>
+  <DT_PanelDocked>판넬 제어판</DT_PanelDocked>
+  <DT_SlotTooltip>도킹됨 {0}/{1}</DT_SlotTooltip>
+  <DT_EnergyTooltip>판넬 슬롯 {0}: {1}</DT_EnergyTooltip>
+  <DT_Details>판넬 {0}: {1}; 에너지 {2}</DT_Details>
+  <DT_DetailsDesc>세부 정보</DT_DetailsDesc>
+  <DT_EnergyPoolTooltip>판넬 사령 센터를 열어 속성, 기록 및 작업 설정을 확인합니다.</DT_EnergyPoolTooltip>
+  <DT_SynchronizationTooltip>동기화 부하: {0} / {1} 사용 중 ({2})</DT_SynchronizationTooltip>
+  <DT_PanelDockTooltip>도킹됨 {0}/{1}; 전개됨 {2}.</DT_PanelDockTooltip>
+  <DT_PanelDeployStats>출격 {0} · 작업 {1} · 전력 {2}</DT_PanelDeployStats>
+  <DT_PanelTargetLine>목표: {0}</DT_PanelTargetLine>
+  <DT_PanelFocusLine>집중: {0}</DT_PanelFocusLine>
+  <DT_PanelNoTarget>없음</DT_PanelNoTarget>
+  <DT_PanelEmptySlot>빈 슬롯</DT_PanelEmptySlot>
+  <DT_TargetPriorityShort_Nearest>가장 가까운 순</DT_TargetPriorityShort_Nearest>
+  <DT_TargetPriorityShort_HighestThreat>위협 순</DT_TargetPriorityShort_HighestThreat>
+  <DT_TargetPriorityShort_LowestHealth>가장 약한 순</DT_TargetPriorityShort_LowestHealth>
+  <DT_CommandCenterTitle>{0} · 판넬 사령 센터</DT_CommandCenterTitle>
+  <DT_ControlledDrones>판넬 목록</DT_ControlledDrones>
+  <DT_SelectedDrone>선택된 판넬</DT_SelectedDrone>
+  <DT_DroneRosterEntry>유닛 {0} · {1}</DT_DroneRosterEntry>
+  <DT_DroneAttributes>판넬 속성</DT_DroneAttributes>
+  <DT_DroneHistory>기록</DT_DroneHistory>
+  <DT_DroneAttributesAndHistory>판넬 속성 및 기록</DT_DroneAttributesAndHistory>
+  <DT_CombatSection>전투</DT_CombatSection>
+  <DT_WorkSection>작업 및 비행</DT_WorkSection>
+  <DT_SynchronizationLoad>동기화 부하</DT_SynchronizationLoad>
+  <DT_LumenPool>루멘 비축량</DT_LumenPool>
+  <DT_MaxEnergyOutput>최대 에너지 출력</DT_MaxEnergyOutput>
+  <DT_MaxEnergyOutputDesc>단일 공격에 소모할 수 있는 공격 에너지의 상한선입니다. 피해량은 실제 공격 에너지 × 기본 무기 효율 × 코어 무기 효율 계수로 계산됩니다. 현재 하드웨어 한계치의 {0}입니다. 좌클릭으로 증가, 우클릭으로 감소합니다.</DT_MaxEnergyOutputDesc>
+  <DT_EnergyOutputValue>{0} / {1}</DT_EnergyOutputValue>
+  <DT_ExpectedDamage>예상 피해량</DT_ExpectedDamage>
+  <DT_EnergySection>에너지</DT_EnergySection>
+  <DT_EnergyDrain>에너지 소모율</DT_EnergyDrain>
+  <DT_ChargeEfficiency>충전 효율</DT_ChargeEfficiency>
+  <DT_ChargePower>최대 충전 전력</DT_ChargePower>
+  <DT_ReturnThreshold>복귀 기준치</DT_ReturnThreshold>
+  <DT_ReturnThresholdDesc>에너지가 이 수준 밑으로 떨어지면 판넬은 수행 중이던 작업을 마친 후 재충전을 위해 복귀합니다.</DT_ReturnThresholdDesc>
+  <DT_DeployThreshold>재배치 기준치</DT_DeployThreshold>
+  <DT_DeployThresholdDesc>판넬은 충전량이 이 수준에 도달할 때까지 거치대에 머무릅니다.</DT_DeployThresholdDesc>
+  <DT_StepClickHint>좌클릭 증가 · 우클릭 감소</DT_StepClickHint>
+  <DT_AttackRange>공격 사거리</DT_AttackRange>
+  <DT_MaxDeployRange>배치 반경</DT_MaxDeployRange>
+  <DT_MaxFlightSpeed>최대 속도</DT_MaxFlightSpeed>
+  <DT_FlightAcceleration>가속도</DT_FlightAcceleration>
+  <DT_CellsPerSecond>{0} 칸/초</DT_CellsPerSecond>
+  <DT_CellsPerSecondSquared>{0} 칸/초²</DT_CellsPerSecondSquared>
+  <DT_EnergyCapacity>에너지 용량</DT_EnergyCapacity>
+  <DT_CombatHistory>전투 기록</DT_CombatHistory>
+  <DT_WorkHistory>작업 기록</DT_WorkHistory>
+  <DT_Attacks>공격 횟수</DT_Attacks>
+  <DT_Kills>확인된 격추 수</DT_Kills>
+  <DT_NominalDamage>공칭 피해량</DT_NominalDamage>
+  <DT_DamageOutput>피해량</DT_DamageOutput>
+  <DT_Headshots>머리 명중</DT_Headshots>
+  <DT_JobsStarted>시작한 작업 수</DT_JobsStarted>
+  <DT_JobsFinished>완료한 작업 수</DT_JobsFinished>
+  <DT_WorkTicks>작업 틱</DT_WorkTicks>
+  <DT_LastJob>마지막 작업</DT_LastJob>
+  <DT_MostExecutedWorkType>가장 많이 수행한 작업 유형</DT_MostExecutedWorkType>
+  <DT_WorkTime>작업 시간</DT_WorkTime>
+  <DT_DetailedAttributes>판넬 상세 속성</DT_DetailedAttributes>
+  <DT_NoWorkTypes>이 판넬은 수행 가능한 작업 유형이 없습니다</DT_NoWorkTypes>
+  <DT_WorkTypeDisabled>꺼짐</DT_WorkTypeDisabled>
+  <DT_TargetPriorityDesc>클릭하여 자동 목표 우선순위를 순환합니다.</DT_TargetPriorityDesc>
+  <DT_DronePromotion>판넬 진급</DT_DronePromotion>
+  <DT_DroneModification>판넬 개조</DT_DroneModification>
+  <DT_HexChart>성능 차트</DT_HexChart>
+  <DT_WorkTypeSettings>참여 중인 작업 유형</DT_WorkTypeSettings>
+  <DT_WorkDispatchWeight>작업 가중치 (1이 가장 높음)</DT_WorkDispatchWeight>
+  <DT_ManualPriorities>수동 우선순위</DT_ManualPriorities>
+  <DT_ManualPrioritiesDesc>바닐라 작업 탭과 동일합니다: 모든 작업 유형은 1-4의 우선순위를 가지며 숫자가 낮을수록 더 중요합니다. 대리자는 바닐라 순서대로 작업을 선택합니다.</DT_ManualPrioritiesDesc>
+  <DT_PriorityClickHint>좌클릭 증가 · 우클릭 감소</DT_PriorityClickHint>
+  <DT_ToggleClickHint>좌클릭으로 이 작업 유형 전환</DT_ToggleClickHint>
+  <DT_CommandProtocol>명령 프로토콜 및 부하</DT_CommandProtocol>
+  <DT_NotImplemented>향후 구현 예정</DT_NotImplemented>
+  <DT_LoadPlaceholder>부하 자리표시자</DT_LoadPlaceholder>
+  <DT_AutoAttackShort>자동 목표</DT_AutoAttackShort>
+  <DT_FocusTargetShort>공격</DT_FocusTargetShort>
+  <DT_KillModeShort>사살 모드</DT_KillModeShort>
+  <DT_KillModeDesc>활성화하면 판넬이 쓰러진 모든 적대적 대상을 자동으로 공격합니다. 비활성화하면 쓰러진 비틀거리는 자(섐블러)만 유효한 대상으로 유지됩니다.</DT_KillModeDesc>
+  <DT_AutoWorkShort>지원 작업</DT_AutoWorkShort>
+  <DT_RecallShort>복귀</DT_RecallShort>
+  <DT_TargetPriority_Nearest>목표 우선순위: 가장 가까운 순</DT_TargetPriority_Nearest>
+  <DT_TargetPriority_HighestThreat>목표 우선순위: 가장 위협적인 순</DT_TargetPriority_HighestThreat>
+  <DT_TargetPriority_LowestHealth>목표 우선순위: 체력이 가장 낮은 순</DT_TargetPriority_LowestHealth>
+  <DT_State_Docked>도킹됨</DT_State_Docked>
+  <DT_State_Launching>사출 중</DT_State_Launching>
+  <DT_State_MovingToAttack>공격 위치로 이동 중</DT_State_MovingToAttack>
+  <DT_State_Repositioning>전투 기동 중</DT_State_Repositioning>
+  <DT_State_Attacking>공격 중</DT_State_Attacking>
+  <DT_State_Returning>복귀 중</DT_State_Returning>
+  <DT_State_MovingToWork>작업 위치로 이동 중</DT_State_MovingToWork>
+  <DT_State_Working>작업 중</DT_State_Working>
+  <DT_State_Resting>전투 대기 지점</DT_State_Resting>
+  <DT_State_Charging>충전 중</DT_State_Charging>
+  <DT_State_Fallen>지상에서 전력 고갈됨</DT_State_Fallen>
+  <DT_State_Cooling>냉각 중</DT_State_Cooling>
+  <DT_OpenAssemblyUI>판넬 조립 열기</DT_OpenAssemblyUI>
+  <DT_OpenAssemblyUIDesc>동기화 대기 상태로 전시실에 보관될 판넬 드론 기체를 구성합니다.</DT_OpenAssemblyUIDesc>
+  <DT_DefaultAssemblyName>새 판넬 설계</DT_DefaultAssemblyName>
+  <DT_AssemblyTitle>{0} · 판넬 조립</DT_AssemblyTitle>
+  <DT_AssemblyConsoleTitle>부유포 조립 시스템</DT_AssemblyConsoleTitle>
+  <DT_AssemblyConsoleSubtitle>부유포 조립 시스템 · 동기화 페어 생산</DT_AssemblyConsoleSubtitle>
+  <DT_AssemblyDesignName>설계 이름</DT_AssemblyDesignName>
+  <DT_AssemblyComponentCategories>부품</DT_AssemblyComponentCategories>
+  <DT_AssemblyRequiredAndLabor>세부 정보</DT_AssemblyRequiredAndLabor>
+  <DT_AssemblyOptionLabor>작업량: {0}</DT_AssemblyOptionLabor>
+  <DT_AssemblyTotals>재료 및 작업</DT_AssemblyTotals>
+  <DT_AssemblyTotalLabor>작업량: {0}</DT_AssemblyTotalLabor>
+  <DT_AssemblyMaterialAvailability>{0} {1} / {2}</DT_AssemblyMaterialAvailability>
+  <DT_AssemblyPreviewTitle>판넬 미리보기</DT_AssemblyPreviewTitle>
+  <DT_AssemblyPairPreviewHint>공유 페어 설계 · 실시간 자세 미리보기</DT_AssemblyPairPreviewHint>
+  <DT_AssemblyPerformanceTitle>기본 속성</DT_AssemblyPerformanceTitle>
+  <DT_AssemblyMetricDamage>피해량 {0}</DT_AssemblyMetricDamage>
+  <DT_AssemblyMetricRange>사거리 {0}</DT_AssemblyMetricRange>
+  <DT_AssemblyMetricEnergy>에너지 {0}</DT_AssemblyMetricEnergy>
+  <DT_AssemblyMetricSpeed>속도 {0}</DT_AssemblyMetricSpeed>
+  <DT_AssemblyMetricMass>질량 {0}/{1}</DT_AssemblyMetricMass>
+  <DT_AssemblyMetricScale>크기 {0}/{1}</DT_AssemblyMetricScale>
+  <DT_AssemblyMetricOutput>출력 {0}</DT_AssemblyMetricOutput>
+  <DT_AssemblyMetricWork>코어 효율 {0}</DT_AssemblyMetricWork>
+  <DT_AssemblyChamberSelection>전시실</DT_AssemblyChamberSelection>
+  <DT_AssemblyNoChambersInMap>이 지도에서 이용 가능한 전시실이 없습니다.</DT_AssemblyNoChambersInMap>
+  <DT_AssemblyChamberSlot>챔버 A</DT_AssemblyChamberSlot>
+  <DT_AssemblyChamberAvailable>{0}</DT_AssemblyChamberAvailable>
+  <DT_AssemblyChamberUnavailable>이용 가능 · 클릭하여 선택</DT_AssemblyChamberUnavailable>
+  <DT_AssemblyChamberOccupied>이용 불가</DT_AssemblyChamberOccupied>
+  <DT_AssemblyChamberIncomingShort>이미 페어가 보관됨</DT_AssemblyChamberIncomingShort>
+  <DT_AssemblyChamberReserved>다른 조립 작업에서 예약함</DT_AssemblyChamberReserved>
+  <DT_AssemblySelectedChamberUnavailable>선택한 전시실을 이용할 수 없습니다. 비어 있는 2×2 전시실을 선택하십시오.</DT_AssemblySelectedChamberUnavailable>
+  <DT_AssemblyBuildTooltip>판넬 조립 주문을 제출합니다. 모든 재료가 운반되면 각 부품 조립 작업이 활성화되며 여러 정착민이 병렬로 함께 조립할 수 있습니다.</DT_AssemblyBuildTooltip>
+  <DT_CancelAssembly>조립 취소</DT_CancelAssembly>
+  <DT_CancelAssemblyDesc>현재 판넬 조립 주문을 취소합니다. 운반되었거나 투입된 모든 재료는 반환되며, 완료된 부품 조립 작업량은 소실됩니다.</DT_CancelAssemblyDesc>
+  <DT_AssemblyCancelled>“{0}” 조립 주문을 취소하고 재료 {1}단위를 반환했습니다.</DT_AssemblyCancelled>
+  <DT_AssemblyFooterStatus>총 작업량 {0} · 목적지: {1}</DT_AssemblyFooterStatus>
+  <DT_AssemblyNoCoatingDesc>추가 코팅 또는 보조 효과 없음.</DT_AssemblyNoCoatingDesc>
+  <DT_AssemblyNoMaterialCost>추가 재료 없음</DT_AssemblyNoMaterialCost>
+  <DT_AssemblySeconds>{0}초</DT_AssemblySeconds>
+  <DT_AssemblyPageChassis>프레임</DT_AssemblyPageChassis>
+  <DT_AssemblyPageMaterial>프레임 재료</DT_AssemblyPageMaterial>
+  <DT_AssemblyPageCore>제어 코어</DT_AssemblyPageCore>
+  <DT_AssemblyPageBattery>배터리</DT_AssemblyPageBattery>
+  <DT_AssemblyPageWeapon>무기</DT_AssemblyPageWeapon>
+  <DT_AssemblyPageThruster>추진기</DT_AssemblyPageThruster>
+  <DT_AssemblyPageCoating>코팅</DT_AssemblyPageCoating>
+  <DT_AssemblyBenchTier>설비 등급: {0}</DT_AssemblyBenchTier>
+  <DT_AssemblyReset>초기화</DT_AssemblyReset>
+  <DT_AssemblySaveDraft>판넬 설계 저장</DT_AssemblySaveDraft>
+  <DT_AssemblyBuild>판넬 조립</DT_AssemblyBuild>
+  <DT_AssemblyDraftSaved>설계 “{0}”(을)를 저장했습니다.</DT_AssemblyDraftSaved>
+  <DT_AssemblyFailed>조립 실패.</DT_AssemblyFailed>
+  <DT_AssemblyBatteryCount>배터리 수량: {0}</DT_AssemblyBatteryCount>
+  <DT_AssemblyThrusterLayout>자세 제어 배치</DT_AssemblyThrusterLayout>
+  <DT_AssemblyThrusterLayoutFixed>자세 제어 배치: 고정형 {0}</DT_AssemblyThrusterLayoutFixed>
+  <DT_AssemblyNoCoating>코팅 없음</DT_AssemblyNoCoating>
+  <DT_AssemblyPlaceholder>예약된 세대</DT_AssemblyPlaceholder>
+  <DT_AssemblyMaterialStats>프레임 강도 {0} · 프레임 질량 계수 {1}</DT_AssemblyMaterialStats>
+  <DT_AssemblyModuleBrief>질량 {0} · 크기 {1} · {2} {3}</DT_AssemblyModuleBrief>
+  <DT_AssemblySummary>프레임: {0}\n재료: {1}\n코어: {2}\n배터리: {3} × {4}\n무기: {5}\n추진기: {6} ({7} 자세 분사구 + 주 추진기)\n코팅: {8}</DT_AssemblySummary>
+  <DT_AssemblyPerformance>프레임 강도: {0}\n프레임 질량: {1}\n질량/한계: {2} / {3}\n크기/한계: {4} / {5}\n용량: {6}\n최대 출력: {7}\n충전 전력: {8}\n예상 피해량: {9}\n가속도: {10}\n최대 속도: {11}\n코어 효율: {12}</DT_AssemblyPerformance>
+  <DT_AssemblyCosts>페어 조립 재료</DT_AssemblyCosts>
+  <DT_AssemblyErrors>유효성 검사</DT_AssemblyErrors>
+  <DT_AssemblyNoDesign>저장된 설계 없음</DT_AssemblyNoDesign>
+  <DT_AssemblyDesignValid>유효함</DT_AssemblyDesignValid>
+  <DT_AssemblyDesignInvalid>유효하지 않음</DT_AssemblyDesignInvalid>
+  <DT_AssemblyItemInspect>{0}\n프레임: {1} · 코어: {2}\n질량: {3} · 에너지: {4} · {5}</DT_AssemblyItemInspect>
+  <DT_AssemblyCompleted>“{0}” 조립을 완료했습니다.</DT_AssemblyCompleted>
+  <DT_AssemblyNoPower>조립 설비에 전력이 공급되지 않습니다.</DT_AssemblyNoPower>
+  <DT_AssemblyNoMap>조립 설비가 지도상에 존재하지 않습니다.</DT_AssemblyNoMap>
+  <DT_AssemblyProductMissing>조립 완제품 Def 또는 설계 구성요소가 누락되었습니다.</DT_AssemblyProductMissing>
+  <DT_AssemblyMissingIngredient>누락됨: {0} × {1}.</DT_AssemblyMissingIngredient>
+  <DT_DisplayChamberEmpty>전시실이 비어 있습니다 (0/2).</DT_DisplayChamberEmpty>
+  <DT_DisplayChamberDefaultName>전시실 {0}</DT_DisplayChamberDefaultName>
+  <DT_DisplayChamberIncoming>페어 “{0}” 입고 중.</DT_DisplayChamberIncoming>
+  <DT_DisplayChamberOccupiedNoDeconstruct>이 전시실을 철거하거나 설치 해제하려면 먼저 보관 중이거나 입고 중인 판넬 드론을 제거해야 합니다.</DT_DisplayChamberOccupiedNoDeconstruct>
+  <DT_DisplayChamberStored>페어 동기화 대기 중: {0}\n프레임: {1} · 코어: {2}\n페어 질량: {3} · 보관됨: {4}/{5}</DT_DisplayChamberStored>
+  <DT_AssemblyNoEmptyDisplayChamber>비어 있는 페어용 전시실이 없습니다. 먼저 비어 있는 2×2 전시실을 건설하십시오.</DT_AssemblyNoEmptyDisplayChamber>
+  <DT_AssemblyPairStarted>페어 “{0}”의 모든 재료가 도착했습니다. 이제 모든 부품 제작 작업을 진행할 수 있습니다.</DT_AssemblyPairStarted>
+  <DT_AssemblyOrderQueued>조립 주문 “{0}”(이)가 제출되었습니다. 정착민들이 재료를 운반할 것이며, 완성된 페어는 {1}에 할당됩니다.</DT_AssemblyOrderQueued>
+  <DT_AssemblyOrderQueuedLocal>조립 주문 “{0}”(이)가 제출되었습니다. 정착민들이 재료를 운반할 것이며, 완성된 페어는 이 설비에 남아있게 됩니다.</DT_AssemblyOrderQueuedLocal>
+  <DT_AssemblyAwaitingMaterials>“{0}” 재료 대기 중: {1}/{2}</DT_AssemblyAwaitingMaterials>
+  <DT_AssemblyMaterialsInspectHeader>판넬 페어 “{0}” 재료 (운반됨/필요함):</DT_AssemblyMaterialsInspectHeader>
+  <DT_AssemblyMaterialInspectLine>{0}: {1}/{2}</DT_AssemblyMaterialInspectLine>
+  <DT_AssemblyIngredientsReady>“{0}”의 재료가 준비되었습니다. 조립을 시작하기 위해 설비 전력을 대기하는 중입니다.</DT_AssemblyIngredientsReady>
+  <DT_AssemblyPairDeliveryStarted>페어 “{0}”(이)가 완성되었습니다. 두 기체 모두 제작 윤곽선 위에 머물고 있으며, 곧 함께 {1}(으)로 이동합니다.</DT_AssemblyPairDeliveryStarted>
+  <DT_AssemblyAlreadyRunning>이 조립 설비는 이미 판넬 드론 페어를 제조하고 있습니다.</DT_AssemblyAlreadyRunning>
+  <DT_AssemblyPairProgress>페어 “{0}” 제조 중: {1}</DT_AssemblyPairProgress>
+  <DT_AssemblyComponentProgress>페어 “{0}” 조립 중\n현재 부품 {1}/{2}: {3} ({4})\n전체 진행도: {5}</DT_AssemblyComponentProgress>
+  <DT_AssemblyParallelProgress>페어 “{0}” 조립 중\n완료된 부품: {1}/{2}\n전체 진행도: {3}</DT_AssemblyParallelProgress>
+  <DT_AssemblyWorkInspectHeader>페어 “{0}”의 남은 부품 작업량 (전체 {1}):</DT_AssemblyWorkInspectHeader>
+  <DT_AssemblyWorkInspectLine>{0}. {1}: {2}</DT_AssemblyWorkInspectLine>
+  <DT_AssembleDroneComponentReport>부품 제작 중: {0}</DT_AssembleDroneComponentReport>
+  <DT_ForceAssembleDroneComponent>판넬 부품 조립 우선</DT_ForceAssembleDroneComponent>
+  <DT_AssemblyPawnCannotSmith>이 정착민은 제작 작업을 수행할 수 없습니다</DT_AssemblyPawnCannotSmith>
+  <DT_AssemblyNoAvailableComponent>도달 가능하고 예약되지 않은 부품 작업 위치가 없습니다</DT_AssemblyNoAvailableComponent>
+  <DT_ForceHaulAssemblyMaterial>판넬 조립 재료 운반 우선</DT_ForceHaulAssemblyMaterial>
+  <DT_ForceHaulAssemblyIngredient>운반 우선: {0} × {1}</DT_ForceHaulAssemblyIngredient>
+  <DT_AssemblyPawnCannotHaul>이 정착민은 운반 작업을 수행할 수 없습니다</DT_AssemblyPawnCannotHaul>
+  <DT_AssemblyNoAvailableIngredient>도달 가능하고 예약되지 않은 필요 재료가 없습니다</DT_AssemblyNoAvailableIngredient>
+  <DT_AssemblyDeliveryDestinationLost>목적지 전시실을 이용할 수 없게 되어 드론이 입고를 취소했습니다.</DT_AssemblyDeliveryDestinationLost>
+  <DT_SyncStart>“{0}” 동기화</DT_SyncStart>
+  <DT_SyncRequiresEligible>적격 조종사만 이 드론을 동기화할 수 있습니다</DT_SyncRequiresEligible>
+  <DT_SyncInvalidPawn>이 폰은 동기화를 시작할 수 없습니다</DT_SyncInvalidPawn>
+  <DT_SyncNoInventory>판넬 조종사 컨테이너를 생성할 수 없습니다</DT_SyncNoInventory>
+  <DT_SyncChamberEmpty>전시실에 완전한 페어가 보관되어 있지 않습니다</DT_SyncChamberEmpty>
+  <DT_SyncDifferentMap>조종사와 전시실이 서로 다른 지도에 있습니다</DT_SyncDifferentMap>
+  <DT_SyncCapacityInsufficient>동기화 용량 부족: 필요량 {0}, 잔여량 {1}</DT_SyncCapacityInsufficient>
+  <DT_SyncJobUnavailable>동기화 작업 정의(JobDef)를 사용할 수 없습니다. 게임을 재시작하고 모드 파일을 확인하십시오</DT_SyncJobUnavailable>
+  <DT_SyncControllerMissing>동기화 조종사 노드 Def 또는 컴포넌트가 누락되었습니다</DT_SyncControllerMissing>
+  <DT_SyncCompleted>페어 “{0}”(이)가 {1}(와)과 동기화되었습니다.</DT_SyncCompleted>
+  <DT_AssemblyErrorNoDesign>설계 없음.</DT_AssemblyErrorNoDesign>
+  <DT_AssemblyErrorNoChassis>선택된 프레임 없음.</DT_AssemblyErrorNoChassis>
+  <DT_AssemblyErrorNoMaterial>선택된 프레임 재료 없음.</DT_AssemblyErrorNoMaterial>
+  <DT_AssemblyErrorNoCore>선택된 제어 코어 없음.</DT_AssemblyErrorNoCore>
+  <DT_AssemblyErrorNoBattery>선택된 배터리 없음.</DT_AssemblyErrorNoBattery>
+  <DT_AssemblyErrorNoThruster>선택된 추진기 없음.</DT_AssemblyErrorNoThruster>
+  <DT_AssemblyErrorNoWeapon>최소 1개 이상의 무기가 필요합니다.</DT_AssemblyErrorNoWeapon>
+  <DT_AssemblyErrorOverweight>총 질량 {0}(이)가 프레임 한계치 {1}(을)를 초과합니다.</DT_AssemblyErrorOverweight>
+  <DT_AssemblyErrorOverscale>크기 {0}(이)가 프레임 한계치 {1}(을)를 초과합니다.</DT_AssemblyErrorOverscale>
+  <DT_AssemblyErrorTooManyWeapons>무기 {0}개가 이 코어의 한계치인 {1}개를 초과합니다.</DT_AssemblyErrorTooManyWeapons>
+  <DT_AssemblyErrorWeaponRole>{0}(은)는 {1}(와)과 호환되지 않습니다.</DT_AssemblyErrorWeaponRole>
+  <DT_AssemblyErrorPlaceholderCore>{0}(은)는 예약되어 있어 제작할 수 없습니다.</DT_AssemblyErrorPlaceholderCore>
+  <DT_AssemblyErrorBenchTier>{0}(은)는 {1}등급 설비가 필요합니다.</DT_AssemblyErrorBenchTier>
+  <DT_AssemblyErrorResearchLocked>연구 미완료: {0}.</DT_AssemblyErrorResearchLocked>
+  <DT_AssemblyResearchLocked>필요 연구: {0}</DT_AssemblyResearchLocked>
+  <DT_AssemblyPreviewHint>실시간 비행 미리보기 — 가속 · 감속 · 호버링 · 공격</DT_AssemblyPreviewHint>
+  <DT_AssemblyPreviewNoBody>프레임을 선택하면 설계 비행 모습을 볼 수 있습니다.</DT_AssemblyPreviewNoBody>
+  <DT_AssemblyPreviewSpeed>{0} c/t</DT_AssemblyPreviewSpeed>
+  <DT_AssemblyPhaseAccelerate>가속</DT_AssemblyPhaseAccelerate>
+  <DT_AssemblyPhaseDecelerate>감속</DT_AssemblyPhaseDecelerate>
+  <DT_AssemblyPhaseHover>호버링</DT_AssemblyPhaseHover>
+  <DT_AssemblyPhaseAttack>공격</DT_AssemblyPhaseAttack>
+  <DT_DisplayChamberPartial>2기 중 {0}기 보관 중 — 나머지 페어 기체를 기다리는 중입니다.</DT_DisplayChamberPartial>
+  <DT_DisplayChamberPairLost>{0}: 페어의 나머지 한 기가 도착하지 않았습니다. 홀로 남겨진 기체는 분해되었으며 전시실은 다시 비워졌습니다.</DT_DisplayChamberPairLost>
+  <DT_AssemblyTier_Industrial>산업시대</DT_AssemblyTier_Industrial>
+  <DT_AssemblyTier_Spacer>우주시대</DT_AssemblyTier_Spacer>
+  <DT_AssemblyTier_Ultra>초기술</DT_AssemblyTier_Ultra>
+  <DT_AssemblyDesignNamePattern>{0} {1} {2} {3} 판넬</DT_AssemblyDesignNamePattern>
+  <DT_AssemblyDesignNameWithCoating>{0} · {1}</DT_AssemblyDesignNameWithCoating>
+  <DT_AssemblyArmamentNone>비무장</DT_AssemblyArmamentNone>
+  <DT_AssemblySpec_Light>경량</DT_AssemblySpec_Light>
+  <DT_AssemblySpec_Medium>중형</DT_AssemblySpec_Medium>
+  <DT_AssemblySpec_Heavy>중장갑</DT_AssemblySpec_Heavy>
+  <DT_AssemblyRole_Ranged>원거리</DT_AssemblyRole_Ranged>
+  <DT_AssemblyRole_Melee>근접</DT_AssemblyRole_Melee>
+  <DT_AssemblyGeneration_White>던라이트</DT_AssemblyGeneration_White>
+  <DT_AssemblyGeneration_Blue>프로스트웨이크</DT_AssemblyGeneration_Blue>
+  <DT_AssemblyGeneration_Green>버던스</DT_AssemblyGeneration_Green>
+  <DT_AssemblyGeneration_Yellow>선스파이어</DT_AssemblyGeneration_Yellow>
+  <DT_AssemblyGeneration_Black>보이드라인</DT_AssemblyGeneration_Black>
+  <DT_AssemblyGeneration_Purple>아메신</DT_AssemblyGeneration_Purple>
+  <DT_AssemblyGeneration_RedGold>엠버스론</DT_AssemblyGeneration_RedGold>
+  <DT_AssemblyGeneration_PurpleGold>레갈리움</DT_AssemblyGeneration_PurpleGold>
+  <DT_AssemblyGeneration_PinkGold>오로라크라운</DT_AssemblyGeneration_PinkGold>
+  <DT_AssemblyLoadDesign>판넬 설계 불러오기</DT_AssemblyLoadDesign>
+  <DT_AssemblyLoadTitle>판넬 설계 라이브러리</DT_AssemblyLoadTitle>
+  <DT_AssemblyLoadEmpty>저장된 판넬 설계가 아직 없습니다.</DT_AssemblyLoadEmpty>
+  <DT_AssemblyLoadSummary>{0} · {1} · {2}</DT_AssemblyLoadSummary>
+  <DT_AssemblyLoadDeleteConfirm>설계 “{0}”(을)를 삭제하시겠습니까?</DT_AssemblyLoadDeleteConfirm>
+  <DT_AssemblyNameDialogTitle>이 판넬 설계 이름 지정</DT_AssemblyNameDialogTitle>
+  <DT_AssemblyNameConfirm>저장</DT_AssemblyNameConfirm>
+  <DT_AssemblyNameCancel>취소</DT_AssemblyNameCancel>
+  <DT_AssemblyBuildNameDialogTitle>이 판넬 편대 이름 지정</DT_AssemblyBuildNameDialogTitle>
+  <DT_AssemblyBuildNameConfirm>조립 시작</DT_AssemblyBuildNameConfirm>
+  <DT_AssemblyChassisNameToken>프레임</DT_AssemblyChassisNameToken>
+  <DT_AssemblyUnitNamePrefix>{0} · {1} · {2}</DT_AssemblyUnitNamePrefix>
+  <DT_AssemblyUnitNameNumbered>{0} {1}</DT_AssemblyUnitNameNumbered>
+  <DT_Detach>도킹 해제</DT_Detach>
+  <DT_DetachDesc>동기화를 종료하고 용량을 확보합니다. 비어 있는 전시실이 없으면 확인 절차를 거친 폐기 비행을 통해 주거 구역 밖에서 드론을 자폭시킬 수 있습니다.</DT_DetachDesc>
+  <DT_DetachInvalid>이 페어는 도킹을 해제할 수 없습니다.</DT_DetachInvalid>
+  <DT_DetachNoDesign>제어 노드에 사용 가능한 설계 데이터가 없습니다.</DT_DetachNoDesign>
+  <DT_DetachNoChamber>기체를 수용할 빈 전시실이 없습니다.</DT_DetachNoChamber>
+  <DT_DetachUnitMissing>판넬 유닛 Def에 필수 컴포넌트가 누락되었습니다.</DT_DetachUnitMissing>
+  <DT_DetachCompleted>“{0}”(이)가 도킹을 해제하고 {1}(으)로 복귀 중입니다.</DT_DetachCompleted>
+  <DT_DetachDestroyNoChamberConfirm>비어 있는 전시실이 없습니다. 판넬 드론을 파괴하시겠습니까?</DT_DetachDestroyNoChamberConfirm>
+  <DT_DetachDisposalStarted>“{0}”(이)가 도킹을 해제하고 주거 구역 밖으로 폐기 비행을 시작했습니다.</DT_DetachDisposalStarted>
+  <DT_DetachDisposalFailed>판넬 드론이 안전하게 폐기 비행을 시작할 수 없습니다.</DT_DetachDisposalFailed>
+  <DT_CaptureFriendlyControllerDestroyConfirm>{0}(을)를 체포하면 판넬 드론 {2}기를 포함한 동기화 조종사 편대 {1}개가 빈 전시실 없이 남겨집니다. 해당 판넬들은 도킹이 해제되어 자폭하게 됩니다. 체포를 계속 진행하시겠습니까?</DT_CaptureFriendlyControllerDestroyConfirm>
+  <DT_AssemblyChamberPick>전시실 선택…</DT_AssemblyChamberPick>
+  <DT_AssemblyVfxModeLabel>조립 챔버 시각 모드</DT_AssemblyVfxModeLabel>
+  <DT_AssemblyVfxAuto>자동 (바닐라 배양기 효과)</DT_AssemblyVfxAuto>
+  <DT_AssemblyVfxGpu>바닐라 배양기 Mote 셰이더</DT_AssemblyVfxGpu>
+  <DT_AssemblyVfxFallback>저성능 투명 레이어</DT_AssemblyVfxFallback>
+  <DT_AssemblyVfxModeDesc>자동 모드는 외부 AssetBundle 없이 바이오테크(Biotech) 내장 메카노이드 배양기 Mote 셰이더를 사용하며, 그렇지 않을 경우 일반 투명 텍스처로 대체됩니다.</DT_AssemblyVfxModeDesc>
+  <DT_BedsideChargePowerGizmo>충전 전력: {0}W</DT_BedsideChargePowerGizmo>
+  <DT_BedsideChargePowerGizmoDesc>침대형 충전기의 전력 입력을 1,200W, 2,400W, 3,600W 사이에서 순환 전환합니다.</DT_BedsideChargePowerGizmoDesc>
+  <DT_BedsideChargeInspect>선택됨: {0}W\n현재 입력: {1}W\n루멘 충전: {2}W\n대상: {3}</DT_BedsideChargeInspect>
+  <DT_WirelessChargeNoTarget>없음</DT_WirelessChargeNoTarget>
+  <DT_WirelessChargeInspect>고정된 목표: {0}\n잉여 전력망 입력: {1}W\n루멘 충전: {2}W\n효율: {3}</DT_WirelessChargeInspect>
+  <DT_AssemblyWeaponBrief>질량 {0} · 크기 {1} · 소모 {2} · 기본 무기 효율 {3} · 사거리 {4}</DT_AssemblyWeaponBrief>
+  <DT_AssemblyWeaponTooltip>{0}\n작동: {1}\n명중률: {2}\n공격 에너지: {3} · 기본 무기 효율: {4}\n최소/최대 사거리: {5}/{6}\n이 프레임의 최소 연속 공격 주기: {7}\n\n{8}</DT_AssemblyWeaponTooltip>
+  <DT_WeaponBehavior_Legacy>구형 호환성</DT_WeaponBehavior_Legacy>
+  <DT_WeaponBehavior_PhysicalProjectile>물리 발사체</DT_WeaponBehavior_PhysicalProjectile>
+  <DT_WeaponBehavior_RailProjectile>레일 관통 탄자</DT_WeaponBehavior_RailProjectile>
+  <DT_WeaponBehavior_SustainedThermalBeam>지속 열선 빔</DT_WeaponBehavior_SustainedThermalBeam>
+  <DT_WeaponBehavior_TripleExplosiveBurst>단일 스마트 탄두</DT_WeaponBehavior_TripleExplosiveBurst>
+  <DT_WeaponBehavior_LinearOverloadPulse>선형 과부하 펄스</DT_WeaponBehavior_LinearOverloadPulse>
+  <DT_WeaponBehavior_Melee>근접 돌격</DT_WeaponBehavior_Melee>
+  <DT_WeaponBehavior_RotaryRingBlade>회전 원주 칼날</DT_WeaponBehavior_RotaryRingBlade>
+  <DT_WeaponAccuracy_Guaranteed>필중</DT_WeaponAccuracy_Guaranteed>
+  <DT_WeaponAccuracy_WearerShooting>착용자의 바닐라 사격 명중률</DT_WeaponAccuracy_WearerShooting>
+  <DT_WeaponAccuracy_UraniumCannon>바닐라 우라늄 슬러그포 명중률</DT_WeaponAccuracy_UraniumCannon>
+  <DT_DroneRenameDesc>이 판넬 드론 이름 변경.</DT_DroneRenameDesc>
+  <DT_IdentitySection>식별</DT_IdentitySection>
+  <DT_GenerationLabel>세대</DT_GenerationLabel>
+  <DT_ChassisLabel>프레임</DT_ChassisLabel>
+  <DT_FrameMaterialLabel>프레임 재료</DT_FrameMaterialLabel>
+  <DT_CoreLabel>제어 코어</DT_CoreLabel>
+  <DT_BatteryLabel>배터리</DT_BatteryLabel>
+  <DT_ThrusterLabel>추진기</DT_ThrusterLabel>
+  <DT_CoatingLabel>코팅</DT_CoatingLabel>
+  <DT_ModuleWithCount>{0} x{1}</DT_ModuleWithCount>
+  <DT_WeaponSection>무장</DT_WeaponSection>
+  <DT_WeaponSectionNumbered>무장 {0}</DT_WeaponSectionNumbered>
+  <DT_WeaponModule>모델</DT_WeaponModule>
+  <DT_WeaponOutputCapability>출력 성능</DT_WeaponOutputCapability>
+  <DT_WeaponOutputValue>{0} 에너지 -&gt; {1} 피해</DT_WeaponOutputValue>
+  <DT_WeaponAccuracy>명중률</DT_WeaponAccuracy>
+  <DT_AssemblyGenerationChip>{0}세대</DT_AssemblyGenerationChip>
+  <DT_SelectDisplayChamberForDrones>드론용 전시실 선택</DT_SelectDisplayChamberForDrones>
+  <DT_SelectDisplayChamberForDronesDesc>이 설비에 보관 중인 완성된 페어를 하나의 단일 이동 단위로 사용 가능한 전시실에 보냅니다.</DT_SelectDisplayChamberForDronesDesc>
+  <DT_NoDisplayChamberAvailable>이 지도에서 페어를 수용할 수 있는 이용 가능한 전시실이 없습니다.</DT_NoDisplayChamberAvailable>
+  <DT_DisplayChamberMenuEntry>{0}</DT_DisplayChamberMenuEntry>
+  <DT_DisplayChamberNoStoredPair>이 전시실에는 완전한 드론 페어가 보관되어 있지 않습니다.</DT_DisplayChamberNoStoredPair>
+  <DT_DisplayChamberTransferStarted>페어 “{0}”(이)가 {1}에서 {2}(으)로 함께 비행 중입니다.</DT_DisplayChamberTransferStarted>
+  <DT_AssemblyPairHovering>체공 중인 페어: {0} (2/2)</DT_AssemblyPairHovering>
+  <DT_AssemblyBenchHoldingPair>이 조립 설비에는 이미 완성되어 체공 중인 페어가 있습니다. 먼저 동기화하거나 전시실로 보내십시오.</DT_AssemblyBenchHoldingPair>
+  <DT_AssemblyBenchNoStoredPair>이 조립 설비에는 완전한 드론 페어가 보관되어 있지 않습니다.</DT_AssemblyBenchNoStoredPair>
+  <DT_AssemblyPairStartedLocal>“{0}” 조립이 시작되었습니다. 완성된 페어는 이 설비 내부에서 체공합니다.</DT_AssemblyPairStartedLocal>
+  <DT_AssemblyPairStoredAtBench>“{0}” 완성이 완료되어 조립 설비 내부에서 체공 중입니다.</DT_AssemblyPairStoredAtBench>
+  <DT_AssemblyKeepAtBench>없음 (조립 설비에 보관)</DT_AssemblyKeepAtBench>
+  <DT_AssemblyKeepAtBenchStatus>완성된 페어는 설비 윤곽선 위치에서 체공하며, 직접 동기화하거나 나중에 전시실을 지정할 수 있습니다.</DT_AssemblyKeepAtBenchStatus>
+  <DT_AssemblyUnavailableChamberFallsBack>선택한 전시실을 이용할 수 없습니다 ({0}). 조립을 시작하면 이 설비 내부에 페어를 보관하도록 대체됩니다.</DT_AssemblyUnavailableChamberFallsBack>
+  <DT_AssemblyRingNoThruster>링형 프레임에는 추진기를 장착할 수 없습니다. 테두리 외곽의 차동 점화로 구동되며, 추진력은 테두리 및 제어 코어의 세대를 따릅니다.</DT_AssemblyRingNoThruster>
+  <DT_DamageSourceLegacySweepWeapon>구형 휩쓸기 레이저 무장</DT_DamageSourceLegacySweepWeapon>
+  <DT_DamageSourceUnknownWeapon>알 수 없는 드론 무장</DT_DamageSourceUnknownWeapon>
+  <DT_DroneRecords>판넬 기록</DT_DroneRecords>
+  <DT_CombatLumenSpent>전투 루멘 소모량</DT_CombatLumenSpent>
+  <DT_WorkLumenSpent>작업 루멘 소모량</DT_WorkLumenSpent>
+  <DT_DroneCaravanCapacityLine>{0}의 판넬 드론: {1}</DT_DroneCaravanCapacityLine>
+  <DT_DroneCarryCapacity>운반 능력</DT_DroneCarryCapacity>
+  <DT_DebugEligibleRaidNoMap>적격 조종사 습격을 생성할 지도가 없습니다.</DT_DebugEligibleRaidNoMap>
+  <DT_DebugEligibleRaidNoFaction>습격에 사용할 수 있는 적대적 인간형 진영이 없습니다.</DT_DebugEligibleRaidNoFaction>
+  <DT_DebugEligibleRaidNoEntryCell>적격 조종사 습격의 유효한 진입 지점(칸)을 찾지 못했습니다.</DT_DebugEligibleRaidNoEntryCell>
+  <DT_DebugEligibleRaidSpawned>적격 조종사 습격 생성됨: {0}, 프리셋 “{1}”, 판넬 드론 {2}기; 동기화 부하 {3}/{4}.</DT_DebugEligibleRaidSpawned>
+  <DT_DebugEligibleRaidFailed>적격 조종사 습격 “{0}” 생성 실패: {1}</DT_DebugEligibleRaidFailed>
+  <DT_DebugEligibleCaravanNoMap>적격 조종사 상단에 사용할 지도가 없습니다.</DT_DebugEligibleCaravanNoMap>
+  <DT_DebugEligibleCaravanNoFaction>상단을 생성할 수 있는 비적대적 인간 진영이 없습니다.</DT_DebugEligibleCaravanNoFaction>
+  <DT_DebugEligibleCaravanSpawned>우호적 적격 조종사 상단 생성됨: {1} 진영의 대표 {0}, 판넬 드론 {2}기 제어 중; 동기화 부하 {3}/{4}.</DT_DebugEligibleCaravanSpawned>
+  <DT_DebugEligibleCaravanFailed>우호적 적격 조종사 상단 생성 실패: {0}</DT_DebugEligibleCaravanFailed>
+  <DT_WeaponEnergyEfficiency>기본 무기 효율</DT_WeaponEnergyEfficiency>
+  <DT_WeaponEnergyEfficiencyValue>{0} 피해/공격 에너지</DT_WeaponEnergyEfficiencyValue>
+  <DT_FinalWeaponEfficiencyValue>{0} 피해/공격 에너지</DT_FinalWeaponEfficiencyValue>
+  <DT_CoreWorkFactor>코어 효율</DT_CoreWorkFactor>
+  <DT_AssemblyCoreSection>판넬 코어</DT_AssemblyCoreSection>
+  <DT_CoreChargeFactor>충전 활용률</DT_CoreChargeFactor>
+  <DT_CoreWeaponFactor>무기 효율 승수</DT_CoreWeaponFactor>
+  <DT_CoreThrusterFactor>추진기 효율</DT_CoreThrusterFactor>
+  <DT_CoreEnergyDrain>코어 소모율</DT_CoreEnergyDrain>
+  <DT_CoreMaxWeapons>무기 한계</DT_CoreMaxWeapons>
+  <DT_AccuracyBands>{0} {1} {2} {3}</DT_AccuracyBands>
+  <DT_HexAttack>공격</DT_HexAttack>
+  <DT_HexSpeed>속도</DT_HexSpeed>
+  <DT_HexCapacity>내구</DT_HexCapacity>
+  <DT_HexWork>작업</DT_HexWork>
+  <DT_HexEfficiency>효율</DT_HexEfficiency>
+  <DT_HexRecovery>회복</DT_HexRecovery>
+  <DT_LostDroneRecoveryWarning>통제 불능 상태의 판넬 드론이 감지되었습니다. 지속적으로 회수에 실패할 경우 자폭 시퀀스를 시작합니다.</DT_LostDroneRecoveryWarning>
+  <DT_RequiresEligible>적격자 필요</DT_RequiresEligible>
+  <DT_RingSimpleParticles>링형: 단순 궤도 파티클 사용</DT_RingSimpleParticles>
+  <DT_RingSimpleParticlesDesc>커스텀 셰이더 흐름 대신 테두리를 공전하는 스파크를 사용합니다. 커스텀 셰이더를 사용할 수 없거나 지원되지 않을 경우 자동으로 대체 적용됩니다.</DT_RingSimpleParticlesDesc>
+  <DT_AssemblyPhaseAlign>이동 정렬</DT_AssemblyPhaseAlign>
+  <DT_AssemblyPhaseTurn>도착 정렬</DT_AssemblyPhaseTurn>
+  <DT_EligibleImplantHealthLevel>{0} ({1}레벨)</DT_EligibleImplantHealthLevel>
+  <DT_EligibleFrameSetActive>5부위 동기화: 활성화</DT_EligibleFrameSetActive>
+  <DT_EligibleFrameSetInactive>5부위 동기화: 비활성화</DT_EligibleFrameSetInactive>
+  <DT_EligibleImplantRequiresController>적격 조종사만 이 이식물을 사용할 수 있습니다.</DT_EligibleImplantRequiresController>
+  <DT_EligibleImplantInvalidDefinition>이식물 정의가 불완전합니다.</DT_EligibleImplantInvalidDefinition>
+  <DT_EligibleImplantWrongStage>이 단계는 현재 {0}-{1}레벨이 필요합니다. 현재 레벨: {2}.</DT_EligibleImplantWrongStage>
+  <DT_EligibleImplantExclusiveConflict>상호 배타적인 계열을 먼저 제거하십시오: {0}.</DT_EligibleImplantExclusiveConflict>
+  <DT_EligibleImplantMissingBodyPart>이식 가능한 신체 부위 누락: {0}.</DT_EligibleImplantMissingBodyPart>
+  <DT_EligibleControllerRequiresHumanlike>인간형 폰만 적격 조종사가 될 수 있습니다.</DT_EligibleControllerRequiresHumanlike>
+  <DT_EligibleControllerAlreadyInstalled>이 폰은 이미 적격 조종사입니다.</DT_EligibleControllerAlreadyInstalled>
+  <DT_EligibleImplantInstalled>{1}에 {0}(을)를 설치했습니다.</DT_EligibleImplantInstalled>
+  <DT_LumenDomeUnavailable>루멘 돔 방어막 프로토콜이 설치되어 있지 않습니다.</DT_LumenDomeUnavailable>
+  <DT_LumenDomeNoLumen>최소 1 루멘이 필요합니다.</DT_LumenDomeNoLumen>
+  <DT_LumenDomeInvalidTarget>목표가 유효하지 않거나 루멘이 부족합니다.</DT_LumenDomeInvalidTarget>
+  <DT_ImplantInfoInstallMethod>설치 방식</DT_ImplantInfoInstallMethod>
+  <DT_ImplantInfoInstallDirect>직접 설치</DT_ImplantInfoInstallDirect>
+  <DT_ImplantInfoInstallSurgery>이식 수술</DT_ImplantInfoInstallSurgery>
+  <DT_ImplantInfoInstallMethodReport>이 아이템에 사용되는 설치 절차입니다. 직접 설치는 메카나이터 업그레이드 아이템의 방식을 따르며, 수술은 바닐라 의료 처방 절차를 따릅니다.</DT_ImplantInfoInstallMethodReport>
+  <DT_ImplantInfoRequirement>요구 조건</DT_ImplantInfoRequirement>
+  <DT_ImplantInfoEligibleController>적격 조종사</DT_ImplantInfoEligibleController>
+  <DT_ImplantInfoRequirementReport>이미 적격 조종사인 폰만 이 부품을 설치하거나 사용할 수 있습니다.</DT_ImplantInfoRequirementReport>
+  <DT_ImplantInfoResultLevels>달성 레벨</DT_ImplantInfoResultLevels>
+  <DT_ImplantInfoLevelRangeValue>{0}-{1}</DT_ImplantInfoLevelRangeValue>
+  <DT_ImplantInfoResultLevelsReport>표시된 단계 내에서는 동일한 아이템을 반복해서 설치할 수 있습니다. 아이템 하나당 해당 계열이 1레벨씩 상승합니다.</DT_ImplantInfoResultLevelsReport>
+  <DT_ImplantInfoLevelValue>Lv.{0}: {1}</DT_ImplantInfoLevelValue>
+  <DT_ImplantInfoWattsValue>{0} W</DT_ImplantInfoWattsValue>
+  <DT_ImplantInfoCellsValue>{0} 칸</DT_ImplantInfoCellsValue>
+  <DT_ImplantInfoSecondsValue>{0} 초</DT_ImplantInfoSecondsValue>
+  <DT_ImplantInfoSyncBandwidth>동기화 용량 오프셋</DT_ImplantInfoSyncBandwidth>
+  <DT_ImplantInfoSyncBandwidthReport>달성한 각 레벨에서 이 계열이 제공하는 총 동기화 용량 증가량입니다.</DT_ImplantInfoSyncBandwidthReport>
+  <DT_ImplantInfoDroneWorkFactor>전역 판넬 작업 계수</DT_ImplantInfoDroneWorkFactor>
+  <DT_ImplantInfoDroneWorkFactorReport>이 적격 조종사가 소유한 모든 판넬 드론의 전역 작업 속도에 곱해집니다.</DT_ImplantInfoDroneWorkFactorReport>
+  <DT_ImplantInfoMaxChargePower>최대 충전 입력</DT_ImplantInfoMaxChargePower>
+  <DT_ImplantInfoMaxChargePowerReport>적격 조종사가 모든 충전 공급원으로부터 수용할 수 있는 최대 복합 입력 전력입니다.</DT_ImplantInfoMaxChargePowerReport>
+  <DT_ImplantInfoChargeEfficiency>충전 효율 계수</DT_ImplantInfoChargeEfficiency>
+  <DT_ImplantInfoChargeEfficiencyReport>충전기 자체의 효율이 계산된 후, 획득한 루멘에 적용되는 승수입니다.</DT_ImplantInfoChargeEfficiencyReport>
+  <DT_ImplantInfoInscriptionFactor>각인 공명 계수</DT_ImplantInfoInscriptionFactor>
+  <DT_ImplantInfoInscriptionFactorReport>달성한 각 레벨에서 6가지 모든 각인의 피해량, 상태 이상 심각도, 발동 확률, 에너지 회복량 및 호환 작업 보너스에 곱해집니다.</DT_ImplantInfoInscriptionFactorReport>
+  <DT_ImplantInfoBaseEffect>기본 적중 시 효과</DT_ImplantInfoBaseEffect>
+  <DT_ImplantInfoLightningBaseValue>번개: 세대당 0.375 EMP 피해\n화염: 세대당 0.325 화염 피해 및 0.003 열사병 심각도\n빙화: 세대당 0.3 동상 피해 및 0.003 저체온증 심각도\n뇌전: 세대당 0.625% 발동 확률, 발동 시 세대당 3.5 EMP 피해 및 1 에너지 회복\n순간 빙결: 세대당 0.625% 발동 확률, 발동 시 세대당 0.08 동결 심각도\n사이킥: 세대당 0.005 의식 저하 심각도\n\n기본값에 판넬 세대를 곱한 후 각인 공명 계수를 곱합니다. 뇌전과 순간 빙결은 발동 확률과 발동 효과 모두에 곱해집니다.</DT_ImplantInfoLightningBaseValue>
+  <DT_ImplantInfoFlameBaseValue>호환 작업</DT_ImplantInfoFlameBaseValue>
+  <DT_ImplantInfoIceFlowerBaseValue>건설, 일반 노동, 제작, 제봉, 조각 및 채굴: 세대당 +4.5%\n조리: 세대당 +4.5%\n치료, 수술 속도 및 수술 성공률: 세대당 +4%\n청소: 세대당 +5.5%\n\n표시된 기본 작업 보너스에 판넬 세대와 각인 공명 계수를 곱합니다.</DT_ImplantInfoIceFlowerBaseValue>
+  <DT_ImplantInfoThunderboltBaseValue>각인 대상</DT_ImplantInfoThunderboltBaseValue>
+  <DT_ImplantInfoFlashFreezeBaseValue>판넬 드론에 영향 없음</DT_ImplantInfoFlashFreezeBaseValue>
+  <DT_ImplantInfoPsychicBaseValue>모든 각인의 적중 시 효과는 판넬 드론 사물(Thing)과 판넬 대리 폰(Proxy pawn) 모두를 건너뜁니다.</DT_ImplantInfoPsychicBaseValue>
+  <DT_ImplantInfoBaseEffectReport>루멘-피해 변환</DT_ImplantInfoBaseEffectReport>
+  <DT_ImplantInfoCompatibleWork>원시 피해 1당 {0} 루멘</DT_ImplantInfoCompatibleWork>
+  <DT_ImplantInfoLightningWorkValue>장막은 이 비율로 루멘을 지불하여 공격을 완전히 흡수합니다.</DT_ImplantInfoLightningWorkValue>
+  <DT_ImplantInfoFlameWorkValue>계산 순서</DT_ImplantInfoFlameWorkValue>
+  <DT_ImplantInfoIceFlowerWorkValue>의복 방어막 후, 방어구 전</DT_ImplantInfoIceFlowerWorkValue>
+  <DT_ImplantInfoFlashFreezeWorkValue>의복 방어막에 흡수되지 않은 외부 공격만이 장막에 도달합니다. 성공적으로 흡수하면 방어구 판정을 건너뜁니다.</DT_ImplantInfoFlashFreezeWorkValue>
+  <DT_ImplantInfoCompatibleWorkReport>적용 범위</DT_ImplantInfoCompatibleWorkReport>
+  <DT_ImplantInfoInscriptionTarget>근접 및 원거리; 사격 차단 안 함</DT_ImplantInfoInscriptionTarget>
+  <DT_ImplantInfoInscriptionTargetValue>장막은 적격 조종사가 원거리 무기를 사용하는 것을 방해하지 않으면서 들어오는 근접 및 원거리 공격을 막아냅니다.</DT_ImplantInfoInscriptionTargetValue>
+  <DT_ImplantInfoInscriptionTargetReport>지불 조건</DT_ImplantInfoInscriptionTargetReport>
+  <DT_ImplantInfoVeilConversion>비용 전액 보유 필요</DT_ImplantInfoVeilConversion>
+  <DT_ImplantInfoVeilConversionValue>현재 루멘으로 공격의 유효 비용 전액을 지불할 수 없는 경우 장막이 발동하지 않습니다.</DT_ImplantInfoVeilConversionValue>
+  <DT_ImplantInfoVeilConversionReport>피격당 루멘 한도</DT_ImplantInfoVeilConversionReport>
+  <DT_ImplantInfoVeilTiming>계산 순서</DT_ImplantInfoVeilTiming>
+  <DT_ImplantInfoVeilTimingValue>의복 방어막 후; 방어구 전</DT_ImplantInfoVeilTimingValue>
+  <DT_ImplantInfoVeilTimingReport>의복 방어막에 흡수되지 않은 외부 공격만이 장막에 도달합니다. 성공적으로 흡수하면 방어구 판정을 건너뜁니다.</DT_ImplantInfoVeilTimingReport>
+  <DT_ImplantInfoVeilCoverage>적용 범위</DT_ImplantInfoVeilCoverage>
+  <DT_ImplantInfoVeilCoverageValue>근접 및 원거리; 사격 차단 안 함</DT_ImplantInfoVeilCoverageValue>
+  <DT_ImplantInfoVeilCoverageReport>장막은 적격 조종사가 원거리 무기를 사용하는 것을 방해하지 않으면서 들어오는 근접 및 원거리 공격을 막아냅니다.</DT_ImplantInfoVeilCoverageReport>
+  <DT_ImplantInfoVeilPayment>지불 조건</DT_ImplantInfoVeilPayment>
+  <DT_ImplantInfoVeilPaymentValue>비용 전액 보유 필요</DT_ImplantInfoVeilPaymentValue>
+  <DT_ImplantInfoVeilPaymentReport>현재 루멘으로 공격의 유효 비용 전액을 지불할 수 없는 경우 장막이 발동하지 않습니다.</DT_ImplantInfoVeilPaymentReport>
+  <DT_ImplantInfoConsumptionCap>피격당 루멘 한도</DT_ImplantInfoConsumptionCap>
+  <DT_ImplantInfoConsumptionCapReport>장막이 단일 공격을 완전히 막아내기 위해 지불해야 하는 최대 루멘입니다. 값이 낮을수록 더 많은 루멘을 보존합니다.</DT_ImplantInfoConsumptionCapReport>
+  <DT_ImplantInfoProtocolDependency>의존성</DT_ImplantInfoProtocolDependency>
+  <DT_ImplantInfoRequiresLumenVeil>루멘 장막 레벨이 철의 장막 레벨을 초과함</DT_ImplantInfoRequiresLumenVeil>
+  <DT_ImplantInfoProtocolDependencyReport>철의 장막은 장막의 피격당 지불 규칙만을 변경하며, 레벨 조건을 충족하기 전까지는 비활성 상태로 유지됩니다.</DT_ImplantInfoProtocolDependencyReport>
+  <DT_ImplantInfoDomeCapacity>돔 루멘 할당량</DT_ImplantInfoDomeCapacity>
+  <DT_ImplantInfoDomeCapacityReport>돔을 전개할 때 투입할 수 있는 최대 루멘입니다. 보유량이 이보다 적을 경우 현재 보유한 모든 루멘이 투입됩니다.</DT_ImplantInfoDomeCapacityReport>
+  <DT_ImplantInfoDomeConversion>방어막 변환</DT_ImplantInfoDomeConversion>
+  <DT_ImplantInfoDomeConversionValue>1 루멘 = 1 방어막 내구도</DT_ImplantInfoDomeConversionValue>
+  <DT_ImplantInfoDomeConversionReport>배치 시 할당된 루멘은 돔의 투사체 방어막 내구도로 직결됩니다.</DT_ImplantInfoDomeConversionReport>
+  <DT_ImplantInfoDomeRadius>방어막 반경</DT_ImplantInfoDomeRadius>
+  <DT_ImplantInfoDomeRadiusReport>돔이 날아오는 지상 투사체를 요격하는 반경입니다.</DT_ImplantInfoDomeRadiusReport>
+  <DT_ImplantInfoDomeRange>시전 사거리</DT_ImplantInfoDomeRange>
+  <DT_ImplantInfoDomeRangeReport>적격 조종사가 돔의 중심을 배치할 수 있는 최대 거리입니다.</DT_ImplantInfoDomeRangeReport>
+  <DT_ImplantInfoDomeDuration>지속 시간</DT_ImplantInfoDomeDuration>
+  <DT_ImplantInfoDomeDurationReport>돔은 이 지속 시간이 끝나거나 방어막 내구도가 모두 소모되면 사라집니다.</DT_ImplantInfoDomeDurationReport>
+  <DT_ImplantInfoDomeCooldown>능력 재사용 대기시간</DT_ImplantInfoDomeCooldown>
+  <DT_ImplantInfoDomeCooldownReport>적격 조종사가 루멘 돔을 다시 전개할 수 있을 때까지 걸리는 시간입니다.</DT_ImplantInfoDomeCooldownReport>
+  <DT_ImplantInfoDomeDirection>투사체 방향</DT_ImplantInfoDomeDirection>
+  <DT_ImplantInfoDomeDirectionValue>유입 차단; 유출 허용</DT_ImplantInfoDomeDirectionValue>
+  <DT_ImplantInfoDomeDirectionReport>돔은 외부에서 날아오는 적대적 지상 투사체를 요격하지만, 내부 인원이 외부로 사격하는 것은 허용합니다.</DT_ImplantInfoDomeDirectionReport>
+  <DT_ImplantInfoEligibleLevel>적격자 레벨 오프셋</DT_ImplantInfoEligibleLevel>
+  <DT_ImplantInfoEligibleLevelReport>달성한 각 레벨에서 신경절이 제공하는 총 적격자 레벨 증가량입니다.</DT_ImplantInfoEligibleLevelReport>
+  <DT_ImplantInfoLumenCapacityTotal>총 루멘 용량</DT_ImplantInfoLumenCapacityTotal>
+  <DT_ImplantInfoLumenCapacityTotalReport>적격 조종사의 기본 용량을 포함하여, 달성한 각 신경절 레벨에서의 총 루멘 용량입니다.</DT_ImplantInfoLumenCapacityTotalReport>
+  <DT_ImplantInfoFrameRole>5부위 프레임 부품</DT_ImplantInfoFrameRole>
+  <DT_ImplantInfoFrameArmValue>팔 (좌우 모두 필요)</DT_ImplantInfoFrameArmValue>
+  <DT_ImplantInfoFrameLegValue>다리 (좌우 모두 필요)</DT_ImplantInfoFrameLegValue>
+  <DT_ImplantInfoFrameRoleReport>이 부품은 완전한 5부위 동기화 프레임을 완성하는 데 기여합니다.</DT_ImplantInfoFrameRoleReport>
+  <DT_ImplantInfoFrameRequirement>5부위 요구 조건</DT_ImplantInfoFrameRequirement>
+  <DT_ImplantInfoFrameRequirementValue>루멘 베인 팔 2개 + 루멘 베인 다리 2개 + 동기화 척추 1개</DT_ImplantInfoFrameRequirementValue>
+  <DT_ImplantInfoFrameRequirementReport>단일 적격 조종사에게 5개 부위를 모두 이식해야 합니다. 선택한 척추에 따라 세트 보너스가 결정됩니다.</DT_ImplantInfoFrameRequirementReport>
+  <DT_ImplantInfoFrameTarget>강화 판넬</DT_ImplantInfoFrameTarget>
+  <DT_ImplantInfoFrameTargetAll>모든 판넬 드론</DT_ImplantInfoFrameTargetAll>
+  <DT_ImplantInfoFrameTargetLightRanged>스타팔콘 호위 판넬</DT_ImplantInfoFrameTargetLightRanged>
+  <DT_ImplantInfoFrameTargetMediumRanged>메리디안 정찰 판넬</DT_ImplantInfoFrameTargetMediumRanged>
+  <DT_ImplantInfoFrameTargetHeavyRanged>흑요석 요새 판넬</DT_ImplantInfoFrameTargetHeavyRanged>
+  <DT_ImplantInfoFrameTargetMeleeThrust>빛추격자 요격 판넬</DT_ImplantInfoFrameTargetMeleeThrust>
+  <DT_ImplantInfoFrameTargetMeleeSlash>최후의 판결 절단 판넬</DT_ImplantInfoFrameTargetMeleeSlash>
+  <DT_ImplantInfoFrameTargetMeleeCleave>쌍섬광 절단 판넬</DT_ImplantInfoFrameTargetMeleeCleave>
+  <DT_ImplantInfoFrameTargetMeleeRing>아스트랄 헤일로 판넬</DT_ImplantInfoFrameTargetMeleeRing>
+  <DT_ImplantInfoFrameTargetReport>5부위 동기화가 활성화된 동안 표시된 판넬 유형만 세트 보너스를 받습니다.</DT_ImplantInfoFrameTargetReport>
+  <DT_ImplantInfoFrameMaxSpeed>최대 비행 속도 계수</DT_ImplantInfoFrameMaxSpeed>
+  <DT_ImplantInfoFrameWork>전역 작업 계수</DT_ImplantInfoFrameWork>
+  <DT_ImplantInfoFrameDamage>공격 피해 계수</DT_ImplantInfoFrameDamage>
+  <DT_ImplantInfoFrameAcceleration>비행 가속도 계수</DT_ImplantInfoFrameAcceleration>
+  <DT_ImplantInfoFrameConversion>에너지 변환 효율 계수</DT_ImplantInfoFrameConversion>
+  <DT_ImplantInfoFrameDeployment>최대 도킹 해제 반경 (절단 범위) 계수</DT_ImplantInfoFrameDeployment>
+  <DT_ImplantInfoFrameBonusReport>완전한 5부위 프레임이 활성화된 동안 강화 판넬 유형에 적용되는 고정 승수입니다.</DT_ImplantInfoFrameBonusReport>
+  <DT_EligibleImplantCapInactive>비활성: 더 높은 루멘 장막 프로토콜 레벨이 필요합니다.</DT_EligibleImplantCapInactive>
+  <DT_WeaponBehavior_Plasma>플라스마</DT_WeaponBehavior_Plasma>
+  <DT_WeaponBehavior_Electron>전자빔</DT_WeaponBehavior_Electron>
+  <DT_WeaponBehavior_Proton>양성자 휩쓸기</DT_WeaponBehavior_Proton>
+  <DT_WeaponBehavior_Ion>이온 랜스</DT_WeaponBehavior_Ion>
+  <DT_WeaponBehavior_Gamma>감마선 조사</DT_WeaponBehavior_Gamma>
+  <DT_WeaponBehavior_ChainArc>연쇄 아크</DT_WeaponBehavior_ChainArc>
+  <DT_WeaponBehavior_Infrasound>초저주파 충격</DT_WeaponBehavior_Infrasound>
+  <DT_MeltdownHeatDamage>열 피해: ×{0}</DT_MeltdownHeatDamage>
+  <DT_FlightSoundVolume>드론 엔진 음량: {0}%</DT_FlightSoundVolume>
+  <DT_FlightSoundVolumeDesc>주 엔진 점화를 제어합니다. 0%로 설정하면 음소거됩니다. 뷰포트 내에서 짧은 음향이 재생되며 함대 전체 재생 빈도 제한이 공유됩니다. 게임의 효과음 볼륨도 함께 적용됩니다.</DT_FlightSoundVolumeDesc>
+  <DT_FlightSoundPreviewIgnition>엔진 점화 미리듣기</DT_FlightSoundPreviewIgnition>
+  <DT_BroadcastConfigure>방송 설정</DT_BroadcastConfigure>
+  <DT_BroadcastConfigureDesc>단편 세대 및 정착민이 비축해 둘 수량을 선택합니다.</DT_BroadcastConfigureDesc>
+  <DT_BroadcastRun>방송</DT_BroadcastRun>
+  <DT_BroadcastRunDesc>단편이 보관되어 있고 전력이 공급되는 동안 방송합니다. 단편은 소모되지 않습니다.</DT_BroadcastRunDesc>
+  <DT_BroadcastEmpty>선택한 단편이 보관되어 있지 않습니다.</DT_BroadcastEmpty>
+  <DT_BroadcastInactive>방송 비활성</DT_BroadcastInactive>
+  <DT_BroadcastActive>방송 활성</DT_BroadcastActive>
+  <DT_BroadcastPulse>단펄스 오버클럭</DT_BroadcastPulse>
+  <DT_BroadcastPulseDesc>적격 조종사로만 구성된 적대적 습격을 호출하기 위해 집중 펄스를 발신합니다. 현재 가장 강한 방송에 따라 해당 습격의 세대와 피보나치 수량 상한이 결정됩니다. 8세대 이상일 경우 습격군 전체가 1~2개의 인공자아 인격 코어를 소지하며 적격 조종사들에게 무작위로 분배됩니다. 3일마다 재충전됩니다.</DT_BroadcastPulseDesc>
+  <DT_BroadcastCooldown>펄스 충전 중: {0}</DT_BroadcastCooldown>
+  <DT_BroadcastContents>{0}: {1} / {2}</DT_BroadcastContents>
+  <DT_BroadcastPower>방송 요구 전력: {0} W</DT_BroadcastPower>
+  <DT_BroadcastLimit>비축 상한 (1–1000)</DT_BroadcastLimit>
+  <DT_BroadcastNoFaction>이 펄스에 응답할 수 있는 인간 적대 진영이 없습니다.</DT_BroadcastNoFaction>
+  <DT_BroadcastPulseSent>지평선을 가르는 펄스</DT_BroadcastPulseSent>
+  <DT_BroadcastPulseSentDesc>송신기가 짧고 강력한 신호를 보냈습니다. {0}(이)가 응답했습니다. 적격 조종사들이 약 1시간 내에 도착합니다.</DT_BroadcastPulseSentDesc>
+  <DT_BroadcastRaidFailed>응답한 습격군이 이 지도에 도달할 수 없습니다.</DT_BroadcastRaidFailed>
+  <DT_MysteriousLightSiteLabel>의문의 빛</DT_MysteriousLightSiteLabel>
+  <DT_MysteriousLightArrivalLabel>빛이 사라짐</DT_MysteriousLightArrivalLabel>
+  <DT_MysteriousLightArrivalText>빛이 사라졌습니다. 구역 중앙에는 껍질 벗겨진 씨앗처럼 뚫린 고대 건축물이 덩그러니 놓여 있습니다. 동쪽에는 흰 장갑을 입은 인물이, 서쪽에는 검은 장갑을 입은 인물이 대기하고 있습니다. 16기의 아메신 판넬이 일제히 도킹을 해제합니다.\n\n경고도 협상도 없습니다. 오래된 두 프로토콜이 서로를 인식하며 전투가 시작됩니다.</DT_MysteriousLightArrivalText>
+  <DT_MysteriousLightFragmentStolen>{0}(이)가 더 이상 레갈리움 데이터 단편을 감지할 수 없어 정착지를 공격하기 시작합니다.</DT_MysteriousLightFragmentStolen>
+  <DT_MysteriousLightQuestDebugFailed>의문의 빛 퀘스트를 생성할 수 없습니다.</DT_MysteriousLightQuestDebugFailed>
+  <DT_RiftSlashLabel>{0} · 영위상 균열 베기</DT_RiftSlashLabel>
+  <DT_RiftSlashExecuting>실행 중</DT_RiftSlashExecuting>
+  <DT_RiftSlashNotReady>작동 가능한 조종사와 최소 1기 이상의 완충 및 도킹된 단죄가 필요합니다.</DT_RiftSlashNotReady>
+  <DT_RiftSlashPairLimit>적격 조종사는 단죄 1페어만 동기화할 수 있습니다.</DT_RiftSlashPairLimit>
+  <DT_RiftSlashGenerationRequired>단죄는 선스파이어, 보이드라인, 아메신, 엠버스론, 레갈리움, 오로라크라운 코어 중 하나와 정확히 1개의 영위상 균열 칼날을 필요로 합니다. 초기 3개 세대는 지원되지 않습니다.</DT_RiftSlashGenerationRequired>
+  <DT_RiftSlashDescription>독립된 2회의 에너지 충전량을 가지며 별도의 재사용 대기시간은 없습니다. 목표나 위치를 선택한 뒤 방향을 클릭하십시오. 선택한 위치는 이동하는 목표를 추적하지 않습니다.\n\n기계 대검을 전개하여 넓은 호를 그리며 휘두릅니다. 균열은 피해를 입을 수 있는 모든 대상에게 1회 적중하며 기체 1기 용량의 90%를 방출합니다. 피해량 = 실제 에너지 출력 × 무기 변환 효율 × 코어 변환 계수로 계산됩니다. 복귀를 위해 10%를 남겨둡니다. 모든 파편이 착탄하면 균열 축을 따라 폭발하며, 각 폭발은 베기 피해량의 5분의 1을 입힙니다. 진영 면역은 없습니다: 시전자, 아군 유닛, 동맹도 공격 범위 내에 있으면 피해를 입습니다. 외부 장갑으로 복귀하여 재충전합니다.</DT_RiftSlashDescription>
+  <DT_StarRingControllerDead>조종사가 사망했거나 행방불명입니다.</DT_StarRingControllerDead>
+  <DT_StarRingControllerDowned>조종사가 쓰러졌습니다.</DT_StarRingControllerDowned>
+  <DT_StarRingControllerAway>조종사가 이 지도에 없습니다.</DT_StarRingControllerAway>
+  <DT_StarRingControllerNotPlayer>조종사가 플레이어의 제어 하에 있지 않습니다.</DT_StarRingControllerNotPlayer>
+  <DT_StarRingBlockedDown>링이 이 지도에 배치되지 않았거나 격추되었습니다.</DT_StarRingBlockedDown>
+  <DT_StarRingBlockedRogue>링이 폭주했습니다.</DT_StarRingBlockedRogue>
+  <DT_StarRingBlockedReserved>링이 이미 성환 기술을 실행하고 있습니다.</DT_StarRingBlockedReserved>
+  <DT_StarRingBlockedLowEnergy>링이 재충전을 위해 복귀 중입니다 (에너지 부족).</DT_StarRingBlockedLowEnergy>
+  <DT_StarRingBlockedController>조종사가 더 이상 이 링을 지휘할 수 없습니다.</DT_StarRingBlockedController>
+  <DT_StarRingBlockedRecall>이 조종사의 드론에 복귀 명령이 활성화되어 있습니다.</DT_StarRingBlockedRecall>
+  <DT_StarRingBlockedSync>조종사에게 남은 동기화 용량이 없습니다.</DT_StarRingBlockedSync>
+  <DT_StarRingBlockedNoEnergy>링에 에너지가 없습니다.</DT_StarRingBlockedNoEnergy>
+  <DT_StarCannonLabel>{0} · 성환포</DT_StarCannonLabel>
+  <DT_StarCannonUnavailable>이 링에는 화염 각인이 없습니다.</DT_StarCannonUnavailable>
+  <DT_StarCannonBusy>이 조종사의 드론들이 성환포 명령을 실행하고 있습니다.</DT_StarCannonBusy>
+  <DT_StarCannonDamageSource>성환포</DT_StarCannonDamageSource>
+  <DT_StarCannonLogDestroyedPart>{0} 파괴 예정</DT_StarCannonLogDestroyedPart>
+  <DT_StarCannonLogInjuredPart>{0} 부상 예정,</DT_StarCannonLogInjuredPart>
+  <DT_StarCannonLogJoiner>{0} 피해</DT_StarCannonLogJoiner>
+  <DT_StarCannonLogDamage>방어 후 피해 없음</DT_StarCannonLogDamage>
+  <DT_StarCannonLogAbsorbed>및 사망</DT_StarCannonLogAbsorbed>
+  <DT_StarCannonLogKilled>및 무력화</DT_StarCannonLogKilled>
+  <DT_StarCannonLogDowned>공유 에너지: {0} ({1} / {2})\n사용 가능한 폭발 파동: {3}</DT_StarCannonLogDowned>
+  <DT_StarCannonPoolStatus>선택한 위치에 드론들을 모아 대포를 형성한 뒤 충전하여 지정한 방향으로 연속 폭발 파동을 발사합니다. 조립 및 충전 도중 피격당하면 대포가 약화되며, 에너지가 극도로 부족해지면 대포가 와해되고 링이 추락합니다. 참여한 드론들은 발사 후 재충전을 위해 편대로 복귀합니다.</DT_StarCannonPoolStatus>
+  <DT_StarCannonSummary>폭발 구역 내의 아군과 건물도 피해를 입습니다.</DT_StarCannonSummary>
+  <DT_StarCannonFriendlyFire>영역 선택됨 (녹색). 비활성화하려면 클릭하십시오. 다른 링을 먼저 선택하면 이 영역이 회수됩니다.</DT_StarCannonFriendlyFire>
+  <DT_RingDomainSelected>영역 비활성 (회색). 이 링을 선택하려면 클릭하십시오. 각 조종사는 한 번에 하나의 영역만 유지할 수 있습니다.</DT_RingDomainSelected>
+  <DT_RingDomainUnselected>접선 회전 속도</DT_RingDomainUnselected>
+  <DT_RingDomainLinearSpeed>링 영역</DT_RingDomainLinearSpeed>
+  <DT_State_RingDomain>{0} · 성환 결계</DT_State_RingDomain>
+  <DT_IceWardLabel>{0} · 성환 결계 회수</DT_IceWardLabel>
+  <DT_IceWardRecall>선택한 위치에 결계를 전개하여 내부의 물품을 보호하고 아군 유닛 및 건물이 받는 피해를 조종사에게 이전합니다. 조종사의 루멘이 부족해지면 결계가 종료됩니다.</DT_IceWardRecall>
+  <DT_IceWardDescription>동일한 지도에 의식이 있는 적격 조종사와 빙화 각인을 지닌 성환이 필요합니다.</DT_IceWardDescription>
+  <DT_IceWardUnavailable>이 성환은 이미 다른 액티브 능력을 사용하고 있습니다.</DT_IceWardUnavailable>
+  <DT_IceWardBusy>조종사의 루멘이 20% 미만이어서 결계를 유지할 수 없습니다.</DT_IceWardBusy>
+  <DT_IceWardLowLumen>{0} · 성환 살진</DT_IceWardLowLumen>
+  <DT_KillArrayLabel>{0} · 성환 살진 회수</DT_KillArrayLabel>
+  <DT_KillArrayRecall>순간 빙결 성환과 사용 가능한 적격 조종사가 필요합니다.</DT_KillArrayRecall>
+  <DT_KillArrayUnavailable>살진에 합류할 수 있는 다른 드론이 없습니다.</DT_KillArrayUnavailable>
+  <DT_KillArrayNoMembers>살육 구역을 형성하고 드론들을 얼음 결정포와 고드름 가시로 집결시킵니다. 대포는 구역 내의 적에게 사격하고, 가시는 경로상의 적을 꿰뚫으며 돌진합니다. 이 구역은 화재를 진압하고 경계를 따라 임시 얼음 벽을 형성합니다. 드론은 에너지가 부족해지면 편대로 복귀합니다.</DT_KillArrayNoMembers>
+  <DT_KillArrayDescription>{0} · 성환 도약</DT_KillArrayDescription>
+  <DT_LightningLabel>{0} · 성환 도약 종료</DT_LightningLabel>
+  <DT_LightningRecall>번개 양식의 성환과 사용 가능한 적격 조종사가 필요합니다.</DT_LightningRecall>
+  <DT_LightningUnavailable>루멘을 소모하여 제어 중인 드론이 공격 위치로 도약하고 조종사에게서 더 멀리 떨어진 곳에서도 작전할 수 있게 하지만, 공격 사이의 대기 시간이 길어집니다. 조종사와 드론은 추가 EMP 피해를 입힙니다. 능력이 종료되면 정상 사거리를 벗어난 드론은 편대로 복귀합니다.</DT_LightningUnavailable>
+  <DT_LightningDescription>{0} · 사이킥 공명</DT_LightningDescription>
+  <DT_PsychicLabel>{0} · 사이킥 공명</DT_PsychicLabel>
+  <DT_PsychicRecall>{0} · 사이킥 공명 회수</DT_PsychicRecall>
+  <DT_PsychicDescription>루멘을 소모하여 조종사의 루멘과 초집중을 지속적으로 조율하며 사이킥 엔트로피를 생성합니다. 공명 중에는 자원 소모나 시전 부작용 없이 시전할 수 있고 사용 시 소모되는 무작위 임시 초능력을 획득합니다. 사용하지 않은 임시 초능력은 공명이 종료되면 사라집니다.</DT_PsychicDescription>
+  <DT_PsychicUnavailable>작동 가능한 사이킥 양식의 성환 및 조종사가 필요합니다.</DT_PsychicUnavailable>
+  <DT_PsychicNeedsPsylink>사이링크가 필요합니다.</DT_PsychicNeedsPsylink>
+  <DT_PsychicEntropyLimit>사이킥 엔트로피가 활성화된 제한기의 상한에 도달했습니다.</DT_PsychicEntropyLimit>
+  <DT_PsychicInsufficientGifts>사용 가능한 임시 초능력이 5개 미만입니다. 사이킥 공명을 시작할 수 없습니다.</DT_PsychicInsufficientGifts>
+  <DT_PsychicGiftLabel>대여됨 · {0} (1회)</DT_PsychicGiftLabel>
+  <DT_PsychicGiftDescription>사이킥 공명으로 부여된 임시 초능력으로 초집중 소모, 엔트로피 증가, 시전 부작용이 없습니다. 사용 후 또는 공명이 종료되면 사라집니다.</DT_PsychicGiftDescription>
+  <DT_PsychicGiftExpired>임시 초능력이 소모되었거나 사이킥 공명이 종료되었습니다.</DT_PsychicGiftExpired>
+  <DT_ThunderboltLabel>{0} · 폭풍 영역</DT_ThunderboltLabel>
+  <DT_ThunderboltRecall>{0} · 폭풍 영역 회수</DT_ThunderboltRecall>
+  <DT_ThunderboltDescription>조종사의 주변을 이동하는 폭풍 영역으로 둘러싸며, 루멘을 소모해 날아오는 투사체를 요격하고 내부의 적을 지속적으로 타격합니다. 제어 중인 드론은 영역 밖에서도 공격 시 추가 낙뢰를 유발할 수 있습니다. 낙뢰는 적 드론의 에너지를 고갈시키고 좀비의 악의를 감소시킵니다.</DT_ThunderboltDescription>
+  <DT_ThunderboltUnavailable>뇌전 양식이 장착된 제어 가능한 성환이 필요합니다.</DT_ThunderboltUnavailable>
+</LanguageData>
