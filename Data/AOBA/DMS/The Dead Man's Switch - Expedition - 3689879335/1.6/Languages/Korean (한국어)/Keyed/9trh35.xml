@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DMSE.MissileBase.NextFireIn>다음 미사일 공격까지: {0}</DMSE.MissileBase.NextFireIn>
+  <DMSE.MissileBase.LocalMonitoring>진지 탐지됨(현지 지도 관측 중)</DMSE.MissileBase.LocalMonitoring>
+  <DMSE.MissileBase.RelocationIn>진지 이동까지: {0}</DMSE.MissileBase.RelocationIn>
+  <DMSE.MissileBase.Relocated>미사일 진지 이동</DMSE.MissileBase.Relocated>
+  <DMSE.MissileBase.RelocatedDesc>적 미사일 발사 진지가 타격 임무를 마치고 반격을 피하기 위해 위치를 옮겼습니다.</DMSE.MissileBase.RelocatedDesc>
+  <DMSE.MissileBase.Destroyed>미사일 진지 파괴</DMSE.MissileBase.Destroyed>
+  <DMSE.MissileBase.DestroyedDesc>정착민들이 적 미사일 진지의 모든 레이더와 발사 시설을 파괴했습니다. 이 진지에서 발생하는 미사일 위협이 제거되었습니다.</DMSE.MissileBase.DestroyedDesc>
+  <DMSE.MissileBase.ShuttleBlocked>이 지역은 적 미사일 진지에서 반경 {0}타일 이내의 방공 차단 구역에 있습니다. 이곳에서는 왕복선이 이착륙할 수 없습니다.</DMSE.MissileBase.ShuttleBlocked>
+  <DMSE.MissileBase.ReentryBlockedIn>지상 접근 차단됨 — 적 재정비 중({0})</DMSE.MissileBase.ReentryBlockedIn>
+  <DMSE.MissileBase.ReentryBlocked>접근 차단됨 — 적 재정비 중({0})</DMSE.MissileBase.ReentryBlocked>
+  <DMSE.MissileBase.ArrivedLetter>정착민들이 미사일 발사 진지에 도착했습니다. 적은 이곳에 사격 통제 레이더와 발사 차량을 배치하여 인근 정착지를 지속적으로 공격하고 있습니다. 모든 레이더를 파괴하면 적의 타격 능력을 무력화할 수 있습니다.</DMSE.MissileBase.ArrivedLetter>
+  <DMSE.MissileBase.SiteDesc>사격 통제 레이더와 미사일 발사기를 갖춘 이동식 전술 탄도 미사일 발사 진지입니다. 임무를 마치면 위치를 옮깁니다.</DMSE.MissileBase.SiteDesc>
+  <ScorerLaunch>미사일 발사</ScorerLaunch>
+  <ScorerLaunchDesc>장전된 전술 미사일을 현재 지도 밖의 표적에 발사합니다. 피해를 확인할 수 있도록 표적 지도의 시야를 2일 동안 유지합니다. 다시 발사하면 시야 유지 시간이 초기화됩니다.</ScorerLaunchDesc>
+  <DMSE.Letter.HuntdownThreat.Label>추적</DMSE.Letter.HuntdownThreat.Label>
+  <DMSE.Letter.HuntdownThreat.Text>(TODO) 어쩌고저쩌고, 아무튼 {0}(은)는 당신이 죽기를 바랍니다.</DMSE.Letter.HuntdownThreat.Text>
+  <DMSE.Alert.HuntdownThreat>추적대</DMSE.Alert.HuntdownThreat>
+  <DMSE.Alert.HuntdownThreat.Desc>식민 함대 헌병대가 실종된 스텔레호의 신호를 추적하고 있습니다. 그들이 당신을 찾아내 추적대를 보내는 것은 시간문제입니다.</DMSE.Alert.HuntdownThreat.Desc>
+  <DMSE.Alert.HuntdownThreatCritical>추적 분대 접근 중</DMSE.Alert.HuntdownThreatCritical>
+  <DMSE.Alert.HuntdownThreatCritical.Desc>스텔레호의 위치가 특정되었습니다. 추적대가 곧 도착하며, 공습도 가해질 수 있습니다. 늦기 전에 이곳을 떠나세요.</DMSE.Alert.HuntdownThreatCritical.Desc>
+  <DMSE.Alert.Pods>위협 {0}개 접근 중 — 요격 가능 시간: {1} 남음</DMSE.Alert.Pods>
+  <DMSE.Alert.Pods.Window.Midcourse>중간 단계 요격 가능 시간: {0}</DMSE.Alert.Pods.Window.Midcourse>
+  <DMSE.Alert.Pods.Window.Terminal>종말 단계(CIWS) 요격 가능 시간: {0}</DMSE.Alert.Pods.Window.Terminal>
+  <DMSE.Alert.Pods.Target>  · {0}  [{1}]</DMSE.Alert.Pods.Target>
+  <DMSE.Alert.Pods.Status.InFlight>요격탄 비행 중</DMSE.Alert.Pods.Status.InFlight>
+  <DMSE.Alert.Pods.Status.Locking>사격 통제 표적 고정 중</DMSE.Alert.Pods.Status.Locking>
+  <DMSE.Alert.Pods.Status.Unengaged>미교전</DMSE.Alert.Pods.Status.Unengaged>
+  <DMSE.Alert.BVRStatus.Label>BVR 시스템</DMSE.Alert.BVRStatus.Label>
+  <DMSE.Alert.BVRStatus.SearchRadars>탐색 레이더:</DMSE.Alert.BVRStatus.SearchRadars>
+  <DMSE.Alert.BVRStatus.SearchRadar.Line>  · {0}  탐지 거리 {1}, 스텔스 탐지 {2}, 출력 {3}  [{4}]</DMSE.Alert.BVRStatus.SearchRadar.Line>
+  <DMSE.Alert.BVRStatus.FireControlRadars>사격 통제 레이더:</DMSE.Alert.BVRStatus.FireControlRadars>
+  <DMSE.Alert.BVRStatus.FireControl.Line>  · {0}  채널 {1}개, 출력 {2}  [{3}]</DMSE.Alert.BVRStatus.FireControl.Line>
+  <DMSE.Alert.BVRStatus.FireControl.Occupied>  사용 중인 채널: {0} / {1}</DMSE.Alert.BVRStatus.FireControl.Occupied>
+  <DMSE.Alert.BVRStatus.None>  (설치된 장치 없음)</DMSE.Alert.BVRStatus.None>
+  <DMSE.Flight.Select>비행 모드 선택</DMSE.Flight.Select>
+  <DMSE.Flight.Regular>일반 비행</DMSE.Flight.Regular>
+  <DMSE.Flight.Transfer>전이 비행</DMSE.Flight.Transfer>
+  <DMSE.Flight.ShowAdvanced>고급 옵션 표시</DMSE.Flight.ShowAdvanced>
+  <DMSE.Flight.Impact>충돌 비행</DMSE.Flight.Impact>
+  <DMSE.Flight.ImpactHard>강행 충돌 비행</DMSE.Flight.ImpactHard>
+  <DMSE.Cannot.Reason.Null>전이 불가: 함선 상태가 올바르지 않습니다.</DMSE.Cannot.Reason.Null>
+  <DMSE.Cannot.Reason.NotInSpace>전이 불가: 우주 공간에 있어야 합니다.</DMSE.Cannot.Reason.NotInSpace>
+  <DMSE.Cannot.Reason.TransferThruster>전이 불가: 전이 추진기가 부족합니다({0}/{1}).</DMSE.Cannot.Reason.TransferThruster>
+  <DMSE.Cannot.Reason.NoFusionCore>전이 불가: 연결된 퓨전 코어가 없습니다.</DMSE.Cannot.Reason.NoFusionCore>
+  <DMSE.Cannot.Reason.NoFuel>전이 불가: 연료가 없습니다.</DMSE.Cannot.Reason.NoFuel>
+  <DMSE.Disabled.DestinationOccupied>전이 불가: 목적지가 점유되어 있습니다.</DMSE.Disabled.DestinationOccupied>
+  <DMSE.Disabled.TargetedSurface>전이 불가: 목적지는 우주 공간이어야 합니다.</DMSE.Disabled.TargetedSurface>
+  <DMSE.Flight.Select.Desc>이 함선에는 유효한 비행 모듈이 설치되어 있습니다. 비행 모드를 선택하십시오:</DMSE.Flight.Select.Desc>
+  <DMSE.Flight.Impact.Header>정착민들은 이것이 실행 가능한 선택이라는 사실을 알지만, 현명한 선택은 아니라고 생각합니다.</DMSE.Flight.Impact.Header>
+  <DMSE.Flight.Impact.Confirm>항법 콘솔에 새빨간 경고가 깜박이지만, 여전히 실행 가능한 가속 계획이 표시됩니다.\n\n강행 충돌 프로토콜을 활성화하면 퓨전 코어가 과부하 상태에서 최대 출력을 내고, 핵열 엔진이 함선을 최대 추력으로 행성 쪽으로 가속시켜 지표에 충돌시킵니다.\n\n이로써 함선과 그 운동량은 고위력 운동 에너지 무기가 되어 행성에 되돌릴 수 없는 피해를 줍니다.\n\n\n\n정말로 진행하시겠습니까?</DMSE.Flight.Impact.Confirm>
+  <DMSE_ShipWarmUpBegin>퓨전 코어 가열 중. 발사까지 6...</DMSE_ShipWarmUpBegin>
+  <DMSE_ShipWarmUpCountdown>발사까지 {0}</DMSE_ShipWarmUpCountdown>
+  <DMSE.Impact.Ending.Intro>불타는 궤적을 그리며 하늘을 가로지른 중력부양선은 거대한 질량을 지면에 내리꽂았습니다. 지평선은 빛으로 뒤덮였고, 뒤이어 거대한 충격파가 폭풍과 지진이 되어 행성 표면을 휩쓸었습니다. 짧은 시간 사이, 이 세계를 뒤흔든 충돌로 수많은 생명과 풍경이 지워졌습니다.</DMSE.Impact.Ending.Intro>
+  <DMSE.Impact.Ending.Outro>다행히도 이것은 핵열 엔진이 낼 수 있는 최대 출력이 아니었습니다. 재난이 가라앉은 뒤에도 지표의 대다수 사람들은 살아남았습니다. 그 목적이 무엇이었든, 이 충돌은 이 세계의 역사에 영원히 남게 될 것입니다.</DMSE.Impact.Ending.Outro>
+  <DMSE.Impact.Ending.Aboard>중력부양선 승무원들이 마지막 순간에 탈출했는지, 아니면 충돌과 함께 완전히 사라졌는지는 끝내 알 수 없을 것입니다.</DMSE.Impact.Ending.Aboard>
+  <DMSE.Impact.Ending.FleetFailed.Outro>피해를 평가한 뒤, 식민 함대 사령부는 지표 생존자들을 철수시키는 것 외에는 선택할 수 없었습니다. 예상되는 테라포밍 비용 때문에 함대는 이 행성의 개발을 포기했습니다. 그 목적이 무엇이었든, 함대와 이 세계 모두 이 충돌을 영원히 기억하게 될 것입니다.</DMSE.Impact.Ending.FleetFailed.Outro>
+  <DMSE.Impact.Planetkiller.Ending.Intro>중력부양선은 하늘을 가르며 날아들었고, 모든 열핵 엔진이 압도적인 추력으로 포효한 끝에 그 거대한 질량을 지면에 내리꽂았습니다. 지평선 너머로 치솟는 지각의 장벽이 솟아올랐고, 뒤이어 초고열 충격파가 불의 바다가 되어 행성 표면을 휩쓸었습니다.</DMSE.Impact.Planetkiller.Ending.Intro>
+  <DMSE.Impact.Planetkiller.Ending.Outro>이것은 천상의 불꽃이자, 성스러운 경전에서 오직 신들에게만 허락된 것으로 전해지는 지고의 심판이었습니다.\n\n그 목적이 무엇이었든, 이 세계는 앞으로 백 년 동안 생명을 되찾지 못할지도 모릅니다.</DMSE.Impact.Planetkiller.Ending.Outro>
+  <DMSE.Impact.Planetkiller.Ending.Aboard>이 정도 규모의 대격변에서 살아남을 수 있는 존재는 없습니다.</DMSE.Impact.Planetkiller.Ending.Aboard>
+  <DMSE_Crater>{0} 분화구</DMSE_Crater>
+  <DMS_Exist>지도 시야 유지 시간: {0}</DMS_Exist>
+  <DMSE.Alert.Exist.Observing>관측 중: {0}</DMSE.Alert.Exist.Observing>
+  <DMSE.Alert.Exist.TimeLeft>관측 종료까지: {0}</DMSE.Alert.Exist.TimeLeft>
+  <DMSE.Alert.Exist.EnemiesAlive>남은 적 전투원: {0}</DMSE.Alert.Exist.EnemiesAlive>
+  <DMSE.Alert.Exist.IsMissileBase>현재 작동 중인 미사일 발사 진지입니다. 관측을 조기에 종료하면 적 운용 인원이 재정비하여 방어 체계를 초기화할 수 있습니다.</DMSE.Alert.Exist.IsMissileBase>
+  <DMSE.Alert.Exist.ClickHint>클릭하면 관측을 조기에 종료합니다.</DMSE.Alert.Exist.ClickHint>
+  <DMSE.Alert.Exist.EndEarly.Confirm>지금 관측을 종료하시겠습니까? 지도를 더 이상 열린 상태로 유지하지 않으며, 게임이 해당 지도를 정리할 수 있습니다.</DMSE.Alert.Exist.EndEarly.Confirm>
+  <DMSE.Alert.Exist.EndEarly.Confirm.MissileBase>관측을 조기에 종료하시겠습니까?\n\n적 운용 인원이 재정비할 기회를 얻게 됩니다. 관측을 하지 않았던 것처럼 발사 진지의 방어 체계와 타이머가 초기화됩니다.\n\n이 작업은 되돌릴 수 없습니다.</DMSE.Alert.Exist.EndEarly.Confirm.MissileBase>
+  <DMSE.Alert.Exist.ObservationEnded>관측을 조기에 종료했습니다. 적 병력이 재정비할 수 있습니다.</DMSE.Alert.Exist.ObservationEnded>
+  <DMSE.Alert.PlayerMissiles.Label>미사일 {0}발 비행 중 — 첫 착탄까지 {1}</DMSE.Alert.PlayerMissiles.Label>
+  <DMSE.Alert.PlayerMissiles.MapHeader>표적: {0}</DMSE.Alert.PlayerMissiles.MapHeader>
+  <DMSE.Alert.PlayerMissiles.WaveImpact>  착탄까지 {0}:</DMSE.Alert.PlayerMissiles.WaveImpact>
+  <DMSE.Alert.PlayerMissiles.Target>    · {0}  ({1},{2})  [{3}]</DMSE.Alert.PlayerMissiles.Target>
+  <DMSE.Alert.PlayerMissiles.ClickHint>왼쪽 클릭으로 다음 착탄 지점으로 이동합니다. 오른쪽 클릭으로 이전 지점으로 이동합니다.</DMSE.Alert.PlayerMissiles.ClickHint>
+  <DMSE.BVR.Online>작동 중</DMSE.BVR.Online>
+  <DMSE.BVR.Offline>정지됨</DMSE.BVR.Offline>
+  <DMSE.BVR.SearchRadar>탐색 레이더: 탐지 거리 {0}, 스텔스 탐지 {1}({2})</DMSE.BVR.SearchRadar>
+  <DMSE.BVR.FireControl>사격 통제: 채널 {0}개({1})</DMSE.BVR.FireControl>
+  <DMSE.BVR.ArtilleryChannels>포격 유도 채널: {0} / {1}개 사용 가능</DMSE.BVR.ArtilleryChannels>
+  <DMSE.Missile.Tab>조립</DMSE.Missile.Tab>
+  <DMSE.Missile.Body>미사일 본체</DMSE.Missile.Body>
+  <DMSE.Missile.None>없음</DMSE.Missile.None>
+  <DMSE.Missile.Locked>잠김</DMSE.Missile.Locked>
+  <DMSE.Missile.Stats>예상 성능(조립 후)</DMSE.Missile.Stats>
+  <DMSE.Missile.Stat.Radius>폭발 반경: {0}</DMSE.Missile.Stat.Radius>
+  <DMSE.Missile.Stat.Damage>탄두: {0}({1})</DMSE.Missile.Stat.Damage>
+  <DMSE.Missile.Stat.Scatter>착탄 분산도: {0}</DMSE.Missile.Stat.Scatter>
+  <DMSE.Missile.Stat.Speed>비행 속도: x{0}</DMSE.Missile.Stat.Speed>
+  <DMSE.Missile.Stat.Fuel>연료: {0}</DMSE.Missile.Stat.Fuel>
+  <DMSE.Missile.Stat.Impulse>비추력: {0}</DMSE.Missile.Stat.Impulse>
+  <DMSE.Missile.Stat.Range>사거리: {0}타일</DMSE.Missile.Stat.Range>
+  <DMSE.MissileLauncher.OutOfRange>표적이 미사일 사거리({0}타일)를 벗어났습니다.</DMSE.MissileLauncher.OutOfRange>
+  <DMSE.MissileLauncher.RangeLabel>{0} / {1}타일</DMSE.MissileLauncher.RangeLabel>
+  <DMSE.Missile.Cat.Warhead>탄두</DMSE.Missile.Cat.Warhead>
+  <DMSE.Missile.Cat.Guidance>유도 장치</DMSE.Missile.Cat.Guidance>
+  <DMSE.Missile.Cat.Propulsion>추진 장치</DMSE.Missile.Cat.Propulsion>
+  <DMSE.Missile.Cat.Payload>탑재물</DMSE.Missile.Cat.Payload>
+  <DMSE.Missile.Inspect>본체: {0}\n탄두: {1}\n폭발 반경: {2} / 피해량 {3}</DMSE.Missile.Inspect>
+  <DMSE.Missile.NeedResources>조립에 필요한 재료: {0}</DMSE.Missile.NeedResources>
+  <DMSE.Missile.ReadyToAssemble>재료 준비됨 — 확인하면 조립을 시작합니다</DMSE.Missile.ReadyToAssemble>
+  <DMSE.Missile.NoResources>조립에 사용할 재료가 없습니다</DMSE.Missile.NoResources>
+  <DMSE.Missile.EditingSlot>보관대의 미사일 {0}발 중 1번 편집 중</DMSE.Missile.EditingSlot>
+  <DMSE.Missile.ConfirmAssembly>조립 예약</DMSE.Missile.ConfirmAssembly>
+  <DMSE.Missile.AssemblyQueued>조립 예약됨 — 정착민들이 곧 작업을 시작합니다</DMSE.Missile.AssemblyQueued>
+  <DMSE.Missile.ResetToCurrent>조립된 구성으로 되돌리기</DMSE.Missile.ResetToCurrent>
+  <DMSE.MissileLauncher.LaunchCooldown>발사 레일 재장전 중: {0}</DMSE.MissileLauncher.LaunchCooldown>
+  <DMSE.MissileLauncher.Rail.NoMissileLoaded>장전된 미사일 없음</DMSE.MissileLauncher.Rail.NoMissileLoaded>
+  <DMSE.Missile.NoRackAvailable>호환 미사일이 있는 미사일 보관대를 찾을 수 없습니다</DMSE.Missile.NoRackAvailable>
+  <DMSE.MissileLauncher.Interceptor.Reloading>재장전 중: {0}</DMSE.MissileLauncher.Interceptor.Reloading>
+  <DMSE.MissileLauncher.Interceptor.Ready>발사 준비 완료</DMSE.MissileLauncher.Interceptor.Ready>
+  <DMSE.Missile.IncomingLetter>미사일 접근</DMSE.Missile.IncomingLetter>
+  <DMSE.Missile.IncomingLetterDesc>{0}에서 발사한 미사일이 접근 중이며, 곧 정착지를 타격합니다.</DMSE.Missile.IncomingLetterDesc>
+  <DMSE_MissileDecayedAway>{0}의 내구도가 사용 불가능한 수준까지 감소하여 부서졌습니다.</DMSE_MissileDecayedAway>
+  <DMSE_MissileDecaySheltered>보호됨: 내구도 유지</DMSE_MissileDecaySheltered>
+  <DMSE_MissileDecayUnsheltered>보호되지 않음: 하루에 내구도 {0} 감소</DMSE_MissileDecayUnsheltered>
+  <DMSE_MissileRackStored>보관 중인 미사일: {0} / {1}</DMSE_MissileRackStored>
+  <DMSE.Tab.MissileInventory>보관함</DMSE.Tab.MissileInventory>
+  <DMSE.MissileInventory.Count>장전됨: {0} / {1}</DMSE.MissileInventory.Count>
+  <DMSE.MissileInventory.Empty>장전된 미사일이 없습니다.</DMSE.MissileInventory.Empty>
+  <DMSE.MissileInventory.Stats>폭발 반경 {0}  ·  피해량 {1}</DMSE.MissileInventory.Stats>
+  <DMSE.MissileInventory.Pending>조립 대기 중</DMSE.MissileInventory.Pending>
+  <DMSE.MissileLauncher.Ballistic.Fire>탄도 미사일 발사</DMSE.MissileLauncher.Ballistic.Fire>
+  <DMSE.MissileLauncher.Ballistic.FireDesc>조립된 탄도 미사일을 세계 지도의 표적에 발사합니다. 미사일은 높이 솟는 궤적을 따라 비행하며, 발사 후에는 요격이 거의 불가능합니다.</DMSE.MissileLauncher.Ballistic.FireDesc>
+  <DMSE.MissileLauncher.Ballistic.NotLoaded>미사일이 조립되지 않았습니다. 조립 탭에서 설정하면 정착민들이 재료를 운반하고 조립합니다.</DMSE.MissileLauncher.Ballistic.NotLoaded>
+  <DMSE.MissileLauncher.Ballistic.Loaded>탄도 미사일: 조립 및 준비 완료</DMSE.MissileLauncher.Ballistic.Loaded>
+  <DMSE.MissileLauncher.Ballistic.LoadedWith>장전된 탄도 미사일: {0}</DMSE.MissileLauncher.Ballistic.LoadedWith>
+  <DMSE.MissileLauncher.Ballistic.AwaitingAssembly>탄도 미사일: 정착민의 조립 대기 중</DMSE.MissileLauncher.Ballistic.AwaitingAssembly>
+  <DMSE.MissileLauncher.Ballistic.Unloaded>탄도 미사일 사일로: 미장전 — 조립 탭에서 설정하세요</DMSE.MissileLauncher.Ballistic.Unloaded>
+  <DMSE.Artillery.Fire>포격 개시</DMSE.Artillery.Fire>
+  <DMSE.Artillery.FireDesc>세계 지도에서 표적을 선택합니다. 중지할 때까지 계속 사격합니다.</DMSE.Artillery.FireDesc>
+  <DMSE.Artillery.Stop>사격 중지</DMSE.Artillery.Stop>
+  <DMSE.Artillery.StopDesc>지속 사격을 중지합니다. 현재 상태: {0}</DMSE.Artillery.StopDesc>
+  <DMSE.Artillery.TooClose>표적이 너무 가깝습니다. 최소 사거리는 {0}칸입니다.</DMSE.Artillery.TooClose>
+  <DMSE.Artillery.NoFireControl>사용 가능한 유도 채널이 있는 사격 통제 레이더가 없습니다.</DMSE.Artillery.NoFireControl>
+  <DMSE.Artillery.NoAmmo>포탄이 장전되지 않아 지속 사격을 중지했습니다.</DMSE.Artillery.NoAmmo>
+  <DMSE.Artillery.NoBarrel>포신이 마모되어 지속 사격을 중지했습니다. 강화 포신을 교체하세요.</DMSE.Artillery.NoBarrel>
+  <DMSE.BVR.DeviceInactive>장치가 작동하지 않습니다(전력 없음, 고장 또는 꺼짐).</DMSE.BVR.DeviceInactive>
+  <DMSE.Artillery.StateCooldown>재장전 중, {0} 남음</DMSE.Artillery.StateCooldown>
+  <DMSE.Artillery.StateAiming>조준 중({0}%)</DMSE.Artillery.StateAiming>
+  <DMSE.Artillery.StateReady>발사 준비 완료</DMSE.Artillery.StateReady>
+  <DMSE.Artillery.Ready>포격: 발사 준비 완료</DMSE.Artillery.Ready>
+  <DMSE.PlaceWorker.TooCloseSameLayer>{0}에 너무 가깝습니다(동일한 배치 레이어).</DMSE.PlaceWorker.TooCloseSameLayer>
+  <DMSE.Platform.Remove>플랫폼 철거</DMSE.Platform.Remove>
+  <DMSE.Platform.RemoveDesc>우주 플랫폼이나 진공암 지면을 철거하여 우주 공허로 되돌리고 일부 재료를 회수합니다.</DMSE.Platform.RemoveDesc>
+  <DMSE.Platform.FloorOnTop>바닥을 먼저 철거하세요.</DMSE.Platform.FloorOnTop>
+  <DMSE.Platform.Blocked>이곳에는 {0}(이)가 건설되어 있습니다.</DMSE.Platform.Blocked>
+  <DMSE.Pile.BuildBeam>강철 보 설치</DMSE.Pile.BuildBeam>
+  <DMSE.Pile.BuildBeamDesc>범위 안의 다른 구조 지주까지 강철 보를 설치하도록 지시합니다. 완성된 강철 보로 연결된 지주들만 하나의 함선으로 함께 이동합니다.\n\nShift 키를 누른 채 클릭하면 대상 지주에서 계속 연결할 수 있습니다.</DMSE.Pile.BuildBeamDesc>
+  <DMSE.Pile.DismantleBeam>강철 보 해체</DMSE.Pile.DismantleBeam>
+  <DMSE.Pile.DismantleBeamDesc>완성된 강철 보를 해체합니다. 재료의 일부를 돌려받습니다.</DMSE.Pile.DismantleBeamDesc>
+  <DMSE.Pile.DismantleAll>모두 해체</DMSE.Pile.DismantleAll>
+  <DMSE.Pile.CancelBeam>강철 보 설치 지시 취소</DMSE.Pile.CancelBeam>
+  <DMSE.Pile.CancelBeamDesc>강철 보 설치 지시를 취소합니다. 운반한 재료는 지주 옆에 떨어집니다.</DMSE.Pile.CancelBeamDesc>
+  <DMSE.Pile.CancelAll>모두 취소</DMSE.Pile.CancelAll>
+  <DMSE.Pile.LinkSelected>선택한 지주 연결</DMSE.Pile.LinkSelected>
+  <DMSE.Pile.LinkSelectedDesc>선택한 두 구조 지주 사이에 강철 보를 설치하도록 지시합니다.</DMSE.Pile.LinkSelectedDesc>
+  <DMSE.Pile.SelectNetwork>연결망 선택</DMSE.Pile.SelectNetwork>
+  <DMSE.Pile.SelectNetworkDesc>완성된 강철 보로 이 지주에 연결된 모든 구조 지주를 선택합니다.</DMSE.Pile.SelectNetworkDesc>
+  <DMSE.Pile.Disabled.NoLinks>이 지주에는 완성된 강철 보가 없습니다.</DMSE.Pile.Disabled.NoLinks>
+  <DMSE.Pile.Disabled.AllDismantling>모든 강철 보가 이미 해체 중입니다.</DMSE.Pile.Disabled.AllDismantling>
+  <DMSE.Pile.Disabled.NoOrders>이 지주에는 강철 보 설치 지시가 없습니다.</DMSE.Pile.Disabled.NoOrders>
+  <DMSE.Pile.Link.NotPile>자신의 구조 지주를 대상으로 지정해야 합니다.</DMSE.Pile.Link.NotPile>
+  <DMSE.Pile.Link.OutOfRange>범위를 벗어났습니다: {0}칸(최대 {1}칸).</DMSE.Pile.Link.OutOfRange>
+  <DMSE.Pile.Link.AlreadyLinked>이미 연결되었거나 설치 지시가 내려져 있습니다.</DMSE.Pile.Link.AlreadyLinked>
+  <DMSE.Pile.Link.MaxLinks>{0}의 강철 보 연결 수가 한도에 도달했습니다({1}개, 설치 지시 포함).</DMSE.Pile.Link.MaxLinks>
+  <DMSE.Pile.Link.CostLabel>강철 보: {0}칸 · {1} · 작업량 {2}</DMSE.Pile.Link.CostLabel>
+  <DMSE.Pile.Link.Locked>카운트다운 중에는 강철 보를 변경할 수 없습니다.</DMSE.Pile.Link.Locked>
+  <DMSE.Pile.Link.NoRange>소형 구조 지주끼리는 연결할 수 없습니다.</DMSE.Pile.Link.NoRange>
+  <DMSE.Pile.LinkOption>→ ({0}, {1}) · {2}칸</DMSE.Pile.LinkOption>
+  <DMSE.Pile.OrderKind.Build>설치</DMSE.Pile.OrderKind.Build>
+  <DMSE.Pile.OrderKind.Dismantle>해체</DMSE.Pile.OrderKind.Dismantle>
+  <DMSE.Pile.Inspect.Network>구조 연결망: 지주 {0}개, 강철 보 {1}개, 선체 {2}칸</DMSE.Pile.Inspect.Network>
+  <DMSE.Pile.Inspect.Links>강철 보: 완성 {0}개, 설치 지시 포함 {1} / {2}개</DMSE.Pile.Inspect.Links>
+  <DMSE.Pile.Inspect.LinksUnlimited>강철 보: 완성 {0}개</DMSE.Pile.Inspect.LinksUnlimited>
+  <DMSE.Pile.Inspect.Building>강철 보 시공: → ({0}, {1}) {2}칸 | 재료 {3} | 진행도 {4}</DMSE.Pile.Inspect.Building>
+  <DMSE.Pile.Inspect.Dismantling>강철 보 해체: → ({0}, {1}) {2}칸 | 진행도 {3}</DMSE.Pile.Inspect.Dismantling>
+  <DMSE.Pile.Inspect.Queued>추가 강철 보 설치 지시 {0}개 대기 중</DMSE.Pile.Inspect.Queued>
+  <DMSE.Pile.NetworkSplit>구조 연결망이 여러 함선으로 분리되었습니다.</DMSE.Pile.NetworkSplit>
+  <DMSE.Pile.Place.OverVoid>단단한 지면에 설치해야 합니다.</DMSE.Pile.Place.OverVoid>
+  <DMSE.Pile.Place.NeedProviderRange>대형 구조 지주나 구조 고정 지주의 연결 범위 안에 설치해야 합니다.</DMSE.Pile.Place.NeedProviderRange>
+  <DMSE.Pile.Place.WrongTerrain>{0}에는 설치할 수 없습니다.</DMSE.Pile.Place.WrongTerrain>
+  <DMSE.Pile.Place.SpaceOnly>우주에서만 건설할 수 있습니다.</DMSE.Pile.Place.SpaceOnly>
+  <DMSE.Pile.Report.Dismantle>{0}의 강철 보 해체 중.</DMSE.Pile.Report.Dismantle>
+  <DMSE.Transfer.Tab>전이</DMSE.Transfer.Tab>
+  <DMSE.Transfer.Console.Plan>전이 계획</DMSE.Transfer.Console.Plan>
+  <DMSE.Transfer.Console.PlanDesc>목적지를 선택하고 연료, 이동 시간, 준비 상태를 확인합니다.</DMSE.Transfer.Console.PlanDesc>
+  <DMSE.Transfer.Console.Abort>전이 취소</DMSE.Transfer.Console.Abort>
+  <DMSE.Transfer.Console.AbortDesc>현재 전이 계획을 폐기합니다.</DMSE.Transfer.Console.AbortDesc>
+  <DMSE.Transfer.Console.ShowFootprint>선체 표시</DMSE.Transfer.Console.ShowFootprint>
+  <DMSE.Transfer.Console.ShowFootprintDesc>이 함선의 선체 범위와 엔진 배기 구역을 항상 표시합니다.</DMSE.Transfer.Console.ShowFootprintDesc>
+  <DMSE.Transfer.Console.AlreadyLaunching>이미 전이가 진행 중입니다.</DMSE.Transfer.Console.AlreadyLaunching>
+  <DMSE.Transfer.Console.NotOnShip>함선 위에 있지 않습니다.</DMSE.Transfer.Console.NotOnShip>
+  <DMSE.Transfer.Console.Primary>함선 지휘 콘솔</DMSE.Transfer.Console.Primary>
+  <DMSE.Transfer.Console.Backup>예비 콘솔</DMSE.Transfer.Console.Backup>
+  <DMSE.Transfer.Console.ShipSummary>함선: 지주 {0}개, 작동 중인 엔진 {1}기, 추력 대 중량비 {2}, 연료 {3}</DMSE.Transfer.Console.ShipSummary>
+  <DMSE.Transfer.Console.PlanSummary>{0}번 타일로 전이 계획됨({1}타일)</DMSE.Transfer.Console.PlanSummary>
+  <DMSE.Transfer.Console.Launch>출발 시작</DMSE.Transfer.Console.Launch>
+  <DMSE.Transfer.Console.LaunchDesc>출발 절차를 시작합니다. 정착민이 이 콘솔을 조작하면 함선이 카운트다운을 시작한 뒤 출발합니다.</DMSE.Transfer.Console.LaunchDesc>
+  <DMSE.Transfer.Console.AwaitingOperatorMsg>출발 절차가 시작되었습니다. 조작 담당자를 기다리는 중입니다.</DMSE.Transfer.Console.AwaitingOperatorMsg>
+  <DMSE.Transfer.Console.StateAwaitingOperator>조작 담당자를 기다리는 중입니다.</DMSE.Transfer.Console.StateAwaitingOperator>
+  <DMSE.Transfer.Console.StateCountdown>출발까지 {0}.</DMSE.Transfer.Console.StateCountdown>
+  <DMSE.Transfer.Console.Rename>함선 이름 지정</DMSE.Transfer.Console.Rename>
+  <DMSE.Transfer.Console.RenameDesc>함선에 이름을 붙입니다. 이름은 함선의 모든 콘솔에 저장되며, 전이 비행 때마다 유지됩니다.</DMSE.Transfer.Console.RenameDesc>
+  <DMSE.Transfer.Console.ShipName>함선 이름: {0}</DMSE.Transfer.Console.ShipName>
+  <DMSE.Transfer.Console.Unnamed>이름 없음(출발 시 자동 지정)</DMSE.Transfer.Console.Unnamed>
+  <DMSE.Transfer.Separating>함선 분리 중</DMSE.Transfer.Separating>
+  <DMSE.Transfer.Abort.NoPlan>전이 계획이 없습니다.</DMSE.Transfer.Abort.NoPlan>
+  <DMSE.Transfer.Abort.NoFreeTile>정박할 빈 타일이 없습니다.</DMSE.Transfer.Abort.NoFreeTile>
+  <DMSE.Transfer.Abort.NetworkChanged>카운트다운 중에 함선 구조가 변경되었습니다.</DMSE.Transfer.Abort.NetworkChanged>
+  <DMSE.Transfer.Letter.AbortedLabel>전이 중단</DMSE.Transfer.Letter.AbortedLabel>
+  <DMSE.Transfer.Letter.AbortedText>출발이 중단되었습니다: {0}\n\n계획은 유지됩니다.</DMSE.Transfer.Letter.AbortedText>
+  <DMSE.Transfer.Letter.SeparatedLabel>함선 분리</DMSE.Transfer.Letter.SeparatedLabel>
+  <DMSE.Transfer.Letter.SeparatedText>{0}(이)가 분리되어 독립된 함선이 되었습니다.</DMSE.Transfer.Letter.SeparatedText>
+  <DMSE.Transfer.Letter.Destroyed>선체 경계에서 파괴됨:</DMSE.Transfer.Letter.Destroyed>
+  <DMSE.Transfer.Letter.LeftBehind>남겨짐:</DMSE.Transfer.Letter.LeftBehind>
+  <DMSE.Transfer.Letter.BrokenLinks>파손된 강철 보: {0}개. 취소된 강철 보 설치 지시: {1}개.</DMSE.Transfer.Letter.BrokenLinks>
+  <DMSE.Transfer.Letter.LostThings>손실: 운반할 수 없었던 개체 {0}개.</DMSE.Transfer.Letter.LostThings>
+  <DMSE.Transfer.Letter.OriginAbandoned>기존 장소를 포기했습니다.</DMSE.Transfer.Letter.OriginAbandoned>
+  <DMSE.Transfer.Ship.DefaultName>전이 함선 {0}</DMSE.Transfer.Ship.DefaultName>
+  <DMSE.Transfer.Ship.Inspect>구조 지주: {0}개, 연결망: {1}개</DMSE.Transfer.Ship.Inspect>
+  <DMSE.Transfer.Ship.Abandon>함선 포기</DMSE.Transfer.Ship.Abandon>
+  <DMSE.Transfer.Ship.AbandonDesc>함선과 그 안의 모든 것을 포기합니다.</DMSE.Transfer.Ship.AbandonDesc>
+  <DMSE.Transfer.Ship.AbandonConfirm>{0}(을)를 포기하시겠습니까? 함선에 실린 모든 것을 잃게 됩니다.</DMSE.Transfer.Ship.AbandonConfirm>
+  <DMSE.Transfer.Ship.AbandonHasColonists>아직 함선에 정착민이 있습니다.</DMSE.Transfer.Ship.AbandonHasColonists>
+  <DMSE.Transfer.Alert.PawnsOutside>출발할 함선 밖의 인원</DMSE.Transfer.Alert.PawnsOutside>
+  <DMSE.Transfer.Alert.PawnsOutsideDesc>함선 밖에 있어 출발 시 남겨질 인원입니다.</DMSE.Transfer.Alert.PawnsOutsideDesc>
+  <DMSE.Transfer.Alert.ExhaustDanger>엔진 배기 구역의 인원</DMSE.Transfer.Alert.ExhaustDanger>
+  <DMSE.Transfer.Alert.ExhaustDangerDesc>엔진 배기 구역에 있어 엔진 점화 시 화상을 입을 인원입니다.</DMSE.Transfer.Alert.ExhaustDangerDesc>
+  <DMSE.Transfer.Dest.Invalid>다른 타일을 선택하세요.</DMSE.Transfer.Dest.Invalid>
+  <DMSE.Transfer.Dest.OtherLayer>현재 함선과 같은 궤도에 있는 타일을 선택해야 합니다.</DMSE.Transfer.Dest.OtherLayer>
+  <DMSE.Transfer.Dest.OutOfRange>범위를 벗어났습니다({0}타일).</DMSE.Transfer.Dest.OutOfRange>
+  <DMSE.Transfer.Dest.Occupied>이미 점유되어 있으며, 인근에 빈 타일도 없습니다.</DMSE.Transfer.Dest.Occupied>
+  <DMSE.Transfer.Dialog.Title>전이 계획</DMSE.Transfer.Dialog.Title>
+  <DMSE.Transfer.Dialog.Route>{0}번 타일 → {1}번 타일, {2}타일</DMSE.Transfer.Dialog.Route>
+  <DMSE.Transfer.Dialog.Reselect>다시 선택</DMSE.Transfer.Dialog.Reselect>
+  <DMSE.Transfer.Dialog.Confirm>계획 확정</DMSE.Transfer.Dialog.Confirm>
+  <DMSE.Transfer.Dialog.ConfirmBlocked>먼저 오류를 해결하세요.</DMSE.Transfer.Dialog.ConfirmBlocked>
+  <DMSE.Transfer.Dialog.PlanSet>전이 계획이 설정되었습니다.</DMSE.Transfer.Dialog.PlanSet>
+  <DMSE.Transfer.UI.NetworkHeader>구조 연결망</DMSE.Transfer.UI.NetworkHeader>
+  <DMSE.Transfer.UI.Piles>지주</DMSE.Transfer.UI.Piles>
+  <DMSE.Transfer.UI.Beams>강철 보</DMSE.Transfer.UI.Beams>
+  <DMSE.Transfer.UI.Footprint>선체 칸 수</DMSE.Transfer.UI.Footprint>
+  <DMSE.Transfer.UI.TornApart>출발 시 분리 과정에서 파괴될 건물</DMSE.Transfer.UI.TornApart>
+  <DMSE.Transfer.UI.Contested>다른 연결망에서 가져올 칸</DMSE.Transfer.UI.Contested>
+  <DMSE.Transfer.UI.UnlinkedPiles>인근의 연결되지 않은 지주</DMSE.Transfer.UI.UnlinkedPiles>
+  <DMSE.Transfer.UI.PendingOrders>강철 보 설치 지시가 있는 지주</DMSE.Transfer.UI.PendingOrders>
+  <DMSE.Transfer.UI.PropulsionHeader>추진</DMSE.Transfer.UI.PropulsionHeader>
+  <DMSE.Transfer.UI.NoEngines>이 함선에는 전이 엔진이 없습니다.</DMSE.Transfer.UI.NoEngines>
+  <DMSE.Transfer.UI.ReactorSupport>핵융합로 지원(필요 / 지원 가능)</DMSE.Transfer.UI.ReactorSupport>
+  <DMSE.Transfer.UI.FuelHeader>연료</DMSE.Transfer.UI.FuelHeader>
+  <DMSE.Transfer.UI.NoFuelSources>이 함선에는 연료 탱크가 없습니다.</DMSE.Transfer.UI.NoFuelSources>
+  <DMSE.Transfer.UI.EstimateHeader>전이 능력</DMSE.Transfer.UI.EstimateHeader>
+  <DMSE.Transfer.UI.PlanHeader>계획: {0}번 타일로 이동</DMSE.Transfer.UI.PlanHeader>
+  <DMSE.Transfer.UI.ParkedAtNeighbor>타일이 점유되어 있어 함선이 그 옆에 정박합니다.</DMSE.Transfer.UI.ParkedAtNeighbor>
+  <DMSE.Transfer.UI.MassWeight>질량</DMSE.Transfer.UI.MassWeight>
+  <DMSE.Transfer.UI.MassWeightValue>{0}(지주 {1}개)</DMSE.Transfer.UI.MassWeightValue>
+  <DMSE.Transfer.UI.Thrust>추력</DMSE.Transfer.UI.Thrust>
+  <DMSE.Transfer.UI.ThrustWithBoosters>{0}(부스터 추력 +{1}, 출발 시에만 적용)</DMSE.Transfer.UI.ThrustWithBoosters>
+  <DMSE.Transfer.UI.TWR>추력 대 중량비(최소 {0})</DMSE.Transfer.UI.TWR>
+  <DMSE.Transfer.UI.Eta>연료 소모 계수</DMSE.Transfer.UI.Eta>
+  <DMSE.Transfer.UI.FuelAvailable>함선 내 연료</DMSE.Transfer.UI.FuelAvailable>
+  <DMSE.Transfer.UI.MaxDistance>이동 가능 거리(타일)</DMSE.Transfer.UI.MaxDistance>
+  <DMSE.Transfer.UI.CannotDepart>출발 불가</DMSE.Transfer.UI.CannotDepart>
+  <DMSE.Transfer.UI.BurnTime>각 점화 시간</DMSE.Transfer.UI.BurnTime>
+  <DMSE.Transfer.UI.Distance>거리(타일)</DMSE.Transfer.UI.Distance>
+  <DMSE.Transfer.UI.FuelRequired>필요 연료</DMSE.Transfer.UI.FuelRequired>
+  <DMSE.Transfer.UI.CoastTime>관성 비행 시간</DMSE.Transfer.UI.CoastTime>
+  <DMSE.Transfer.UI.TotalTime>총 이동 시간</DMSE.Transfer.UI.TotalTime>
+  <DMSE.Transfer.UI.IssuesHeader>준비 상태</DMSE.Transfer.UI.IssuesHeader>
+  <DMSE.Transfer.UI.NoIssues>준비 완료.</DMSE.Transfer.UI.NoIssues>
+  <DMSE.Transfer.UI.ErrorPrefix>[오류]</DMSE.Transfer.UI.ErrorPrefix>
+  <DMSE.Transfer.UI.WarningPrefix>[경고]</DMSE.Transfer.UI.WarningPrefix>
+  <DMSE.Transfer.Issue.NotInSpace>함선이 궤도에 있어야 합니다.</DMSE.Transfer.Issue.NotInSpace>
+  <DMSE.Transfer.Issue.ConsoleNotOnShip>콘솔이 함선 위에 있지 않습니다.</DMSE.Transfer.Issue.ConsoleNotOnShip>
+  <DMSE.Transfer.Issue.ConsoleUnavailable>콘솔에 전력이 없거나 꺼져 있거나 고장 났습니다.</DMSE.Transfer.Issue.ConsoleUnavailable>
+  <DMSE.Transfer.Issue.NoEngines>작동 중인 전이 엔진이 없습니다.</DMSE.Transfer.Issue.NoEngines>
+  <DMSE.Transfer.Issue.LowTWR>추력 대 중량비 {0}(이)가 {1}보다 낮습니다.</DMSE.Transfer.Issue.LowTWR>
+  <DMSE.Transfer.Issue.NotEnoughFuel>연료가 부족합니다({0}/{1}).</DMSE.Transfer.Issue.NotEnoughFuel>
+  <DMSE.Transfer.Issue.OtherShipDeparting>이곳의 다른 함선이 이미 출발 중입니다.</DMSE.Transfer.Issue.OtherShipDeparting>
+  <DMSE.Transfer.Issue.PawnsLeftBehind>선체 밖의 인원 {0}명이 남겨집니다.</DMSE.Transfer.Issue.PawnsLeftBehind>
+  <DMSE.Transfer.Issue.NotCarried>개체 {0}개를 운반할 수 없어 잃게 됩니다.</DMSE.Transfer.Issue.NotCarried>
+  <DMSE.Transfer.Issue.PawnsInExhaust>인원 {0}명이 배기 구역에 있습니다.</DMSE.Transfer.Issue.PawnsInExhaust>
+  <DMSE.Transfer.Issue.NearbyUnlinkedPiles>인근 지주 {0}개가 이 함선에 연결되지 않았습니다.</DMSE.Transfer.Issue.NearbyUnlinkedPiles>
+  <DMSE.Transfer.Issue.TornApart>건물 {0}개가 선체 경계에 걸쳐 있어 파괴됩니다.</DMSE.Transfer.Issue.TornApart>
+  <DMSE.Transfer.Issue.TornApartWithPawns>그중 {0}개에는 내부에 사람이 있습니다.</DMSE.Transfer.Issue.TornApartWithPawns>
+  <DMSE.Transfer.Issue.Contested>다른 함선에서 {0}칸을 가져옵니다(건물 {1}개, 지주 {2}개).</DMSE.Transfer.Issue.Contested>
+  <DMSE.Transfer.Issue.PendingBeamOrders>지주 {0}개에 미완성 강철 보가 있습니다.</DMSE.Transfer.Issue.PendingBeamOrders>
+  <DMSE.Transfer.Engine.Stats>전이 추력 {0}, 연료 소모 {1}</DMSE.Transfer.Engine.Stats>
+  <DMSE.Transfer.Engine.BoosterStats>출발 추력 {0}: 이륙 추력 대 중량비를 높이며, 함선의 연료를 소비하지 않고 출발 점화가 끝나면 소진됩니다</DMSE.Transfer.Engine.BoosterStats>
+  <DMSE.Transfer.Engine.RequiresReactor>핵융합로의 지원이 필요합니다.</DMSE.Transfer.Engine.RequiresReactor>
+  <DMSE.Transfer.Engine.Status.Operational>준비 완료</DMSE.Transfer.Engine.Status.Operational>
+  <DMSE.Transfer.Engine.Status.NotOnShip>함선 밖</DMSE.Transfer.Engine.Status.NotOnShip>
+  <DMSE.Transfer.Engine.Status.BrokenDown>고장</DMSE.Transfer.Engine.Status.BrokenDown>
+  <DMSE.Transfer.Engine.Status.SwitchedOff>꺼짐</DMSE.Transfer.Engine.Status.SwitchedOff>
+  <DMSE.Transfer.Engine.Status.NoPower>전력 없음</DMSE.Transfer.Engine.Status.NoPower>
+  <DMSE.Transfer.Engine.Status.ExhaustBlocked>{0}(으)로 배기 구역 막힘</DMSE.Transfer.Engine.Status.ExhaustBlocked>
+  <DMSE.Transfer.Engine.Status.NoReactorSupport>핵융합로 지원 없음</DMSE.Transfer.Engine.Status.NoReactorSupport>
+  <DMSE.Transfer.Engine.PlacedBlocked>{0}: 배기 구역이 {1}(으)로 막혀 있습니다.</DMSE.Transfer.Engine.PlacedBlocked>
+  <DMSE.Transfer.Reactor.Support>핵열 추진기 {0}기를 지원합니다(함선: 필요 {1} / 지원 가능 {2}).</DMSE.Transfer.Reactor.Support>
+  <DMSE.Transfer.Reactor.NotOnShip>함선의 핵열 추진기 {0}기를 지원합니다.</DMSE.Transfer.Reactor.NotOnShip>
+  <DMSE.Transfer.Alert.CountdownDesc>함선이 출발 카운트다운 중입니다.</DMSE.Transfer.Alert.CountdownDesc>
+  <DMSE.Transfer.Phase.DepartureBurn>출발 점화</DMSE.Transfer.Phase.DepartureBurn>
+  <DMSE.Transfer.Phase.Coast>관성 비행</DMSE.Transfer.Phase.Coast>
+  <DMSE.Transfer.Phase.ArrivalBurn>도착 점화</DMSE.Transfer.Phase.ArrivalBurn>
+  <DMSE.Transfer.Phase.Arrived>도착</DMSE.Transfer.Phase.Arrived>
+  <DMSE.Transfer.Flight.Status>전이 비행: {0}, 현재 단계 종료까지 {1}</DMSE.Transfer.Flight.Status>
+  <DMSE.Transfer.Flight.Progress>{1}번 타일로 이동 중, 진행도 {0}, 도착까지 {2}</DMSE.Transfer.Flight.Progress>
+  <DMSE.Transfer.Flight.CoastBegin>{0}(이)가 관성 비행 중입니다.</DMSE.Transfer.Flight.CoastBegin>
+  <DMSE.Transfer.Flight.BoostersBurnedOut>{0}: 로켓 부스터 {1}기가 소진되었습니다.</DMSE.Transfer.Flight.BoostersBurnedOut>
+  <DMSE.Transfer.Flight.ArrivalBurnBegin>{0}(이)가 도착 점화 중입니다.</DMSE.Transfer.Flight.ArrivalBurnBegin>
+  <DMSE.Transfer.Flight.Rerouted>{0}의 목적지가 점유되어 있어 인근에 정박합니다.</DMSE.Transfer.Flight.Rerouted>
+  <DMSE.Transfer.Flight.NoThrustLabel>도착에 필요한 추력 없음</DMSE.Transfer.Flight.NoThrustLabel>
+  <DMSE.Transfer.Flight.NoThrustText>{0}에 작동 중인 엔진이 없어 자세 제어 추진기로 감속합니다({1}).</DMSE.Transfer.Flight.NoThrustText>
+  <DMSE.Transfer.Flight.ArrivedLabel>전이 완료</DMSE.Transfer.Flight.ArrivedLabel>
+  <DMSE.Transfer.Flight.ArrivedText>{0}(이)가 도착했습니다.</DMSE.Transfer.Flight.ArrivedText>
+  <DMSE.Transfer.Issue.InFlight>함선이 비행 중입니다.</DMSE.Transfer.Issue.InFlight>
+  <DMSE.Transfer.UI.FlightHeader>비행 중: {0}</DMSE.Transfer.UI.FlightHeader>
+  <DMSE.Transfer.Grace.Begin>{0}(이)가 눈에 띄지 않고 도착했습니다. {1} 동안 이 지도에 사건이 발생하지 않습니다(선체: {2}칸).</DMSE.Transfer.Grace.Begin>
+  <DMSE.Transfer.UI.GracePeriod>도착 후 안전 기간</DMSE.Transfer.UI.GracePeriod>
+  <DMSE.Transfer.UI.Phase>단계</DMSE.Transfer.UI.Phase>
+  <DMSE.Transfer.UI.PhaseLeft>현재 단계의 남은 시간</DMSE.Transfer.UI.PhaseLeft>
+  <DMSE.Transfer.UI.FlightProgress>진행도</DMSE.Transfer.UI.FlightProgress>
+  <DMSE.Transfer.UI.Destination>목적지 타일</DMSE.Transfer.UI.Destination>
+  <DMSE.Transfer.UI.ArrivalIn>도착까지</DMSE.Transfer.UI.ArrivalIn>
+  <DMSE.Transfer.ShuttleBlockedBurn>함선의 엔진이 점화 중일 때는 왕복선이 이륙할 수 없습니다.</DMSE.Transfer.ShuttleBlockedBurn>
+  <DMSE.Transfer.Console.PlanImpact>충돌 비행 계획</DMSE.Transfer.Console.PlanImpact>
+  <DMSE.Transfer.Console.PlanImpactDesc>함선을 행성 표면에 충돌시킵니다. 탑승한 모든 인원을 잃으며 게임이 끝납니다.\n\n작동 중인 핵열 추진기 {0}기가 필요합니다. {1}기 이상이면 행성이 파괴됩니다.</DMSE.Transfer.Console.PlanImpactDesc>
+  <DMSE.Transfer.Console.PlanSummaryImpact>{0}번 타일에 충돌 계획됨({1}타일)</DMSE.Transfer.Console.PlanSummaryImpact>
+  <DMSE.Transfer.Dest.NotSurface>행성 표면의 타일을 선택해야 합니다.</DMSE.Transfer.Dest.NotSurface>
+  <DMSE.Transfer.Dest.ImpactHasMap>지도가 있는 장소는 표적으로 삼을 수 없습니다.</DMSE.Transfer.Dest.ImpactHasMap>
+  <DMSE.Transfer.Issue.ImpactEngines>작동 중인 핵열 추진기 {1}기가 필요합니다(현재 {0}기).</DMSE.Transfer.Issue.ImpactEngines>
+  <DMSE.Transfer.Dialog.ImpactTitle>충돌 비행</DMSE.Transfer.Dialog.ImpactTitle>
+  <DMSE.Transfer.Dialog.ImpactWarning>함선은 감속하지 않습니다. 탑승한 모든 인원을 잃으며 게임이 끝납니다.</DMSE.Transfer.Dialog.ImpactWarning>
+  <DMSE.Transfer.Dialog.ImpactPlanetkiller>핵열 추진기 {0}기: 충돌로 행성이 파괴됩니다.</DMSE.Transfer.Dialog.ImpactPlanetkiller>
+  <DMSE.Transfer.Dialog.ImpactRoute>충돌 지점: {0}번 타일, 비행 거리 {1}타일</DMSE.Transfer.Dialog.ImpactRoute>
+  <DMSE.Transfer.Dialog.ConfirmImpact>충돌 확정</DMSE.Transfer.Dialog.ConfirmImpact>
+  <DMSE.Transfer.Phase.ImpactCourse>충돌 항로</DMSE.Transfer.Phase.ImpactCourse>
+  <DMSE.Transfer.Flight.ImpactCourseBegin>{0}(이)가 충돌 항로에 진입했습니다. 충돌까지 {1}.</DMSE.Transfer.Flight.ImpactCourseBegin>
+  <DMSE.Transfer.Flight.ImpactProgress>{1}번 타일의 충돌 지점으로 이동 중, 진행도 {0}, 충돌까지 {2}</DMSE.Transfer.Flight.ImpactProgress>
+  <DMSE.Transfer.UI.ImpactIn>충돌까지</DMSE.Transfer.UI.ImpactIn>
+  <DMSE.Transfer.UI.ImpactPlanHeader>계획: {0}번 타일에 충돌</DMSE.Transfer.UI.ImpactPlanHeader>
+  <DMSE.Transfer.UI.LandOnSite>{0}에 착륙합니다.</DMSE.Transfer.UI.LandOnSite>
+  <DMSE.Transfer.Landing>착륙 중</DMSE.Transfer.Landing>
+  <DMSE.Transfer.Land.Designator>착륙 지점 선택</DMSE.Transfer.Land.Designator>
+  <DMSE.Transfer.Land.DesignatorDesc>이 지도에서 함선이 착륙할 위치를 선택합니다.</DMSE.Transfer.Land.DesignatorDesc>
+  <DMSE.Transfer.Land.WillMove>가장 가까운 빈 공간에 착륙합니다.</DMSE.Transfer.Land.WillMove>
+  <DMSE.Transfer.Land.Gizmo>{0}에 착륙</DMSE.Transfer.Land.Gizmo>
+  <DMSE.Transfer.Land.GizmoDesc>{0}에서 착륙 지점을 선택합니다.</DMSE.Transfer.Land.GizmoDesc>
+  <DMSE.Transfer.Land.Auto>자동 착륙</DMSE.Transfer.Land.Auto>
+  <DMSE.Transfer.Land.AutoDesc>지도 중앙에서 가장 가까운 빈 공간에 착륙합니다.</DMSE.Transfer.Land.AutoDesc>
+  <DMSE.Transfer.Land.Cancel>착륙 취소</DMSE.Transfer.Land.Cancel>
+  <DMSE.Transfer.Land.CancelDesc>이곳에 계속 정박합니다.</DMSE.Transfer.Land.CancelDesc>
+  <DMSE.Transfer.Land.NoRoom>{0}에 착륙할 공간이 없습니다.</DMSE.Transfer.Land.NoRoom>
+  <DMSE.Transfer.Land.SiteGone>착륙 장소가 더 이상 존재하지 않습니다.</DMSE.Transfer.Land.SiteGone>
+  <DMSE.Transfer.Land.ArrivedText>{0}(이)가 {1}에 착륙하기를 기다리고 있습니다.</DMSE.Transfer.Land.ArrivedText>
+  <DMSE.Transfer.Land.LandedLabel>함선 착륙</DMSE.Transfer.Land.LandedLabel>
+  <DMSE.Transfer.Land.LandedText>{0}(이)가 {1}에 착륙했습니다.</DMSE.Transfer.Land.LandedText>
+  <DMSE.Transfer.Land.Moved>선택한 지점이 막혀 있어 가장 가까운 빈 공간에 착륙했습니다.</DMSE.Transfer.Land.Moved>
+</LanguageData>

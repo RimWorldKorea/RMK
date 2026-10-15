@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Drone_Protector"]/tools/li[1]/label</xpath>
+          <value>
+            <label>방탄 방패</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Drone_Protector"]/tools/li[2]/label</xpath>
+          <value>
+            <label>오른쪽 주먹</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Drone_Gladiator"]/tools/li[1]/label</xpath>
+          <value>
+            <label>돌격 방패</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Drone_Gladiator"]/tools/li[2]/label</xpath>
+          <value>
+            <label>오른쪽 주먹</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Drone_Iguana"]/tools/li[1]/label</xpath>
+          <value>
+            <label>왼쪽 다리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Drone_Iguana"]/tools/li[2]/label</xpath>
+          <value>
+            <label>오른쪽 다리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Drone_Iguana"]/tools/li[3]/label</xpath>
+          <value>
+            <label>기계식 머리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Drone_IguanaFull"]/tools/li[1]/label</xpath>
+          <value>
+            <label>왼쪽 다리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Drone_IguanaFull"]/tools/li[2]/label</xpath>
+          <value>
+            <label>오른쪽 다리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Drone_IguanaFull"]/tools/li[3]/label</xpath>
+          <value>
+            <label>기계식 머리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Drone_Gecko"]/tools/li[1]/label</xpath>
+          <value>
+            <label>왼쪽 다리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Drone_Gecko"]/tools/li[2]/label</xpath>
+          <value>
+            <label>오른쪽 다리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Drone_Gecko"]/tools/li[3]/label</xpath>
+          <value>
+            <label>기계식 머리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Drone_Killdozer"]/tools/li[1]/label</xpath>
+          <value>
+            <label>도저날</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_DroneStunBaton"]/tools/li[1]/label</xpath>
+          <value>
+            <label>손잡이</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_DroneStunBaton"]/tools/li[2]/label</xpath>
+          <value>
+            <label>봉 몸통</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_DroneStunBaton"]/tools/li[3]/label</xpath>
+          <value>
+            <label>봉 끝</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_DroneMachete"]/tools/li[1]/label</xpath>
+          <value>
+            <label>손잡이</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_DroneMachete"]/tools/li[2]/label</xpath>
+          <value>
+            <label>날</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_DroneMachete"]/tools/li[3]/label</xpath>
+          <value>
+            <label>칼끝</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Drone_SnakeCaretta"]/tools/li[1]/label</xpath>
+          <value>
+            <label>도저날</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Drone_Tarbosaurus"]/tools/li[1]/label</xpath>
+          <value>
+            <label>왼쪽 다리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Drone_Tarbosaurus"]/tools/li[2]/label</xpath>
+          <value>
+            <label>오른쪽 다리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMS_Drone_Tarbosaurus"]/tools/li[3]/label</xpath>
+          <value>
+            <label>기계식 머리</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="DMS_Drone_Breacher"]/tools/li[1]/label</xpath>
+    <value>
+      <label>방탄 방패</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="DMS_Drone_Breacher"]/tools/li[2]/label</xpath>
+    <value>
+      <label>오른쪽 주먹</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="DMS_Drone_Krepost"]/tools/li[1]/label</xpath>
+    <value>
+      <label>왼쪽 다리</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="DMS_Drone_Krepost"]/tools/li[2]/label</xpath>
+    <value>
+      <label>오른쪽 다리</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="DMS_Drone_Krepost"]/tools/li[3]/label</xpath>
+    <value>
+      <label>기계식 머리</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="DMS_Drone_ErodedEXO"]/tools/li[1]/label</xpath>
+    <value>
+      <label>왼쪽 촉수</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="DMS_Drone_ErodedEXO"]/tools/li[2]/label</xpath>
+    <value>
+      <label>오른쪽 촉수</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="DMS_Drone_ErodedEXO"]/tools/li[3]/label</xpath>
+    <value>
+      <label>앞쪽 촉수</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="DMS_Drone_WarSweeper"]/tools/li[1]/label</xpath>
+    <value>
+      <label>왼쪽 촉수</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="DMS_Drone_WarSweeper"]/tools/li[2]/label</xpath>
+    <value>
+      <label>오른쪽 촉수</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="DMS_Drone_WarSweeper"]/tools/li[3]/label</xpath>
+    <value>
+      <label>앞쪽 촉수</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="DMS_Drone_WarAttacker"]/tools/li[1]/label</xpath>
+    <value>
+      <label>왼쪽 촉수</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="DMS_Drone_WarAttacker"]/tools/li[2]/label</xpath>
+    <value>
+      <label>오른쪽 촉수</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="DMS_Drone_WarAttacker"]/tools/li[3]/label</xpath>
+    <value>
+      <label>앞쪽 촉수</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="DMS_Drone_Tombstone"]/tools/li[1]/label</xpath>
+    <value>
+      <label>왼쪽 다리</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="DMS_Drone_Tombstone"]/tools/li[2]/label</xpath>
+    <value>
+      <label>오른쪽 다리</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="DMS_Drone_Tombstone"]/tools/li[3]/label</xpath>
+    <value>
+      <label>앞쪽 촉수</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="DMS_DroneTombstoneGun"]/tools/li[1]/label</xpath>
+    <value>
+      <label>개머리판</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="DMS_DroneTombstoneGun"]/tools/li[2]/label</xpath>
+    <value>
+      <label>총열</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="DMS_DroneTombstoneGun"]/tools/li[3]/label</xpath>
+    <value>
+      <label>총구</label>
+    </value>
+  </Operation>
+</Patch>
