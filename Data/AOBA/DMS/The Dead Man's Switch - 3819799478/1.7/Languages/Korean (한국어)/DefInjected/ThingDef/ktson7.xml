@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <DMS_Bullet_FlashBang.label>섬광탄</DMS_Bullet_FlashBang.label>
+  <TaborFlyer.label>비행 중</TaborFlyer.label>
   <DMS_Bullet_EmperoExplosive.label>고폭탄</DMS_Bullet_EmperoExplosive.label>
   <DMS_AirRaidFlyBy.label>스페로우</DMS_AirRaidFlyBy.label>
-  <Bullet_CASAC.label>오토캐논 탄</Bullet_CASAC.label>
+  <Bullet_CASAC.label>기관포탄</Bullet_CASAC.label>
   <Proj_RocketCAS.label>로켓</Proj_RocketCAS.label>
   <DMS_Shuttle.label>궤도 수송선</DMS_Shuttle.label>
   <DMS_Shuttle.description>지상과 궤도 사이의 수송을 위해 설계된 경량 수송선으로, 최대 2톤의 화물을 탑재한 채 비행할 수 있습니다.</DMS_Shuttle.description>
@@ -55,10 +56,10 @@
   <DMS_Apparel_StealthMask.description>착용자의 얼굴을 가리는 천 조각입니다.</DMS_Apparel_StealthMask.description>
   <DMS_Apparel_PackHound.label>하운드 드론 배낭</DMS_Apparel_PackHound.label>
   <DMS_Apparel_PackHound.description>원격 조종 하운드 드론을 운반하고 배치하기 위한 수납함 겸 조립 키트입니다. 전투 중 하운드 드론을 신속하게 투입할 수 있으며, 드론을 제어하고 회수하는 원격 제어 기지국 역할도 합니다.</DMS_Apparel_PackHound.description>
-  <DMS_Apparel_PackHound.comps.1.chargeNoun>드론</DMS_Apparel_PackHound.comps.1.chargeNoun>
+  <DMS_Apparel_PackHound.comps.3.chargeNoun>드론</DMS_Apparel_PackHound.comps.3.chargeNoun>
   <DMS_Apparel_PackVerling.label>벌링버드 드론 벨트</DMS_Apparel_PackVerling.label>
   <DMS_Apparel_PackVerling.description>벌링버드 드론을 배치하기 위한 원격 조종기 겸 조립 모듈입니다. 전투 중 드론을 신속하게 투입할 수 있으며, 드론을 제어하는 원격 제어 기지국 역할도 합니다.</DMS_Apparel_PackVerling.description>
-  <DMS_Apparel_PackVerling.comps.1.chargeNoun>드론</DMS_Apparel_PackVerling.comps.1.chargeNoun>
+  <DMS_Apparel_PackVerling.comps.3.chargeNoun>드론</DMS_Apparel_PackVerling.comps.3.chargeNoun>
   <DMS_Apparel_PackScanner.label>탐지기 배낭</DMS_Apparel_PackScanner.label>
   <DMS_Apparel_PackScanner.description>배터리로 작동하는 접근 탐지기를 배치할 수 있는 배낭입니다. 사출 장치가 내장되어 있어 탐지기를 짧은 거리까지 발사할 수 있습니다. 탐지기 배터리는 몇 시간 동안 지속됩니다.</DMS_Apparel_PackScanner.description>
   <DMS_Apparel_PackScanner.verbs.Verb_LaunchProjectileStaticOneUse.label>탐지기 배치</DMS_Apparel_PackScanner.verbs.Verb_LaunchProjectileStaticOneUse.label>
@@ -80,6 +81,7 @@
   <DMS_Gun_LightMachineGun.verbs.Verb_Shoot.label>메크 LMG</DMS_Gun_LightMachineGun.verbs.Verb_Shoot.label>
   <DMS_LightMachineGun.label>메크 LMG</DMS_LightMachineGun.label>
   <DMS_LightMachineGun.description>대구경 소총탄을 사용하는 제압 사격 특화 무기입니다.\n\n오토마트로이드 전용으로 설계되어 일반적인 인간은 외부 장비나 신체 개조 없이는 제대로 사용하기 어렵습니다.\n\n접이식 양각대 덕분에 소집된 운용자가 그 자리에서 사격 위치에 거치했다가 빠르게 다시 집어 들 수 있습니다.</DMS_LightMachineGun.description>
+  <DMS_LightMachineGun.comps.2.useLabel>{0_label} 집어 들기</DMS_LightMachineGun.comps.2.useLabel>
   <DMS_LightMachineGun.verbs.Verb_Shoot.label>메크 LMG</DMS_LightMachineGun.verbs.Verb_Shoot.label>
   <DMS_LightMachineGun.tools.0.label>개머리판</DMS_LightMachineGun.tools.0.label>
   <DMS_LightMachineGun.tools.1.label>총열</DMS_LightMachineGun.tools.1.label>
@@ -88,22 +90,23 @@
   <DMS_Turret_AutomaticGrenadeLauncher.comps.2.useLabel>{0_label} 집어 들기</DMS_Turret_AutomaticGrenadeLauncher.comps.2.useLabel>
   <DMS_Gun_AutomaticGrenadeLauncher.label>메크 유탄발사기</DMS_Gun_AutomaticGrenadeLauncher.label>
   <DMS_Gun_AutomaticGrenadeLauncher.description>낮은 삼각대에 장착한 자동 유탄발사기입니다.</DMS_Gun_AutomaticGrenadeLauncher.description>
-  <DMS_Gun_AutomaticGrenadeLauncher.comps.0.ammos.0.label>고폭 유탄</DMS_Gun_AutomaticGrenadeLauncher.comps.0.ammos.0.label>
-  <DMS_Gun_AutomaticGrenadeLauncher.comps.0.ammos.0.description>밀집한 표적을 소탕하기 위한 고폭 파편탄입니다. 표준 탄띠입니다.</DMS_Gun_AutomaticGrenadeLauncher.comps.0.ammos.0.description>
-  <DMS_Gun_AutomaticGrenadeLauncher.comps.0.ammos.1.label>EMP 유탄</DMS_Gun_AutomaticGrenadeLauncher.comps.0.ammos.1.label>
-  <DMS_Gun_AutomaticGrenadeLauncher.comps.0.ammos.1.description>작은 반경 내의 메카노이드와 포탑을 파괴하는 대신 기절시키는 축전기 탄입니다. 생체에는 효과가 없으며, 무거운 신관 조립체 때문에 연사 속도가 느려집니다.</DMS_Gun_AutomaticGrenadeLauncher.comps.0.ammos.1.description>
-  <DMS_Gun_AutomaticGrenadeLauncher.comps.0.ammos.2.label>연막 유탄</DMS_Gun_AutomaticGrenadeLauncher.comps.0.ammos.2.label>
-  <DMS_Gun_AutomaticGrenadeLauncher.comps.0.ammos.2.description>착탄 지점에 연막을 형성하는 차폐용 탄입니다. 폭발탄보다 가벼워 조금 더 멀리 날아가며 표적에도 더 빨리 도달합니다.</DMS_Gun_AutomaticGrenadeLauncher.comps.0.ammos.2.description>
+  <DMS_Gun_AutomaticGrenadeLauncher.comps.3.ammos.0.label>고폭 유탄</DMS_Gun_AutomaticGrenadeLauncher.comps.3.ammos.0.label>
+  <DMS_Gun_AutomaticGrenadeLauncher.comps.3.ammos.0.description>밀집한 표적을 소탕하는 고폭 파편탄입니다. 기본 탄띠에 사용됩니다.</DMS_Gun_AutomaticGrenadeLauncher.comps.3.ammos.0.description>
+  <DMS_Gun_AutomaticGrenadeLauncher.comps.3.ammos.1.label>EMP 유탄</DMS_Gun_AutomaticGrenadeLauncher.comps.3.ammos.1.label>
+  <DMS_Gun_AutomaticGrenadeLauncher.comps.3.ammos.1.description>메카노이드와 포탑을 파괴하는 대신 좁은 범위 안에서 기절시키는 축전식 탄환입니다. 생체에는 효과가 없으며, 신관 장치가 더 무거워 점사 준비에 시간이 더 걸립니다.</DMS_Gun_AutomaticGrenadeLauncher.comps.3.ammos.1.description>
+  <DMS_Gun_AutomaticGrenadeLauncher.comps.3.ammos.2.label>연막 유탄</DMS_Gun_AutomaticGrenadeLauncher.comps.3.ammos.2.label>
+  <DMS_Gun_AutomaticGrenadeLauncher.comps.3.ammos.2.description>착탄 지점에 연막을 형성하는 차폐용 탄환입니다. 폭발탄보다 가벼워 사거리가 조금 더 길고 조준 시간도 짧습니다.</DMS_Gun_AutomaticGrenadeLauncher.comps.3.ammos.2.description>
   <DMS_AutomaticGrenadeLauncher.label>메크 유탄발사기</DMS_AutomaticGrenadeLauncher.label>
   <DMS_AutomaticGrenadeLauncher.description>밀집한 표적을 제거하는 휴대용 자동 유탄발사기입니다.\n\n오토마트로이드 전용으로 설계되어 일반적인 인간은 외부 장비나 신체 개조 없이는 제대로 사용하기 어렵습니다.\n\n삼각대를 총몸 아래로 접을 수 있어 징집된 운용자가 그 자리에서 사격 진지에 설치했다가 빠르게 다시 거둘 수 있습니다.</DMS_AutomaticGrenadeLauncher.description>
+  <DMS_AutomaticGrenadeLauncher.comps.2.useLabel>{0_label} 집어 들기</DMS_AutomaticGrenadeLauncher.comps.2.useLabel>
   <DMS_AutomaticGrenadeLauncher.tools.0.label>개머리판</DMS_AutomaticGrenadeLauncher.tools.0.label>
   <DMS_AutomaticGrenadeLauncher.tools.1.label>총열</DMS_AutomaticGrenadeLauncher.tools.1.label>
-  <DMS_AutomaticGrenadeLauncher.comps.0.ammos.0.label>고폭 유탄</DMS_AutomaticGrenadeLauncher.comps.0.ammos.0.label>
-  <DMS_AutomaticGrenadeLauncher.comps.0.ammos.0.description>밀집한 표적을 소탕하기 위한 고폭 파편탄입니다. 표준 탄띠입니다.</DMS_AutomaticGrenadeLauncher.comps.0.ammos.0.description>
-  <DMS_AutomaticGrenadeLauncher.comps.0.ammos.1.label>EMP 유탄</DMS_AutomaticGrenadeLauncher.comps.0.ammos.1.label>
-  <DMS_AutomaticGrenadeLauncher.comps.0.ammos.1.description>작은 반경 내의 메카노이드와 포탑을 파괴하는 대신 기절시키는 축전기 탄입니다. 생체에는 효과가 없으며, 무거운 신관 조립체 때문에 연사 속도가 느려집니다.</DMS_AutomaticGrenadeLauncher.comps.0.ammos.1.description>
-  <DMS_AutomaticGrenadeLauncher.comps.0.ammos.2.label>연막 유탄</DMS_AutomaticGrenadeLauncher.comps.0.ammos.2.label>
-  <DMS_AutomaticGrenadeLauncher.comps.0.ammos.2.description>착탄 지점에 연막을 형성하는 차폐용 탄입니다. 폭발탄보다 가벼워 조금 더 멀리 날아가며 표적에도 더 빨리 도달합니다.</DMS_AutomaticGrenadeLauncher.comps.0.ammos.2.description>
+  <DMS_AutomaticGrenadeLauncher.comps.5.ammos.0.label>고폭 유탄</DMS_AutomaticGrenadeLauncher.comps.5.ammos.0.label>
+  <DMS_AutomaticGrenadeLauncher.comps.5.ammos.0.description>밀집한 표적을 소탕하는 고폭 파편탄입니다. 기본 탄띠에 사용됩니다.</DMS_AutomaticGrenadeLauncher.comps.5.ammos.0.description>
+  <DMS_AutomaticGrenadeLauncher.comps.5.ammos.1.label>EMP 유탄</DMS_AutomaticGrenadeLauncher.comps.5.ammos.1.label>
+  <DMS_AutomaticGrenadeLauncher.comps.5.ammos.1.description>메카노이드와 포탑을 파괴하는 대신 좁은 범위 안에서 기절시키는 축전식 탄환입니다. 생체에는 효과가 없으며, 신관 장치가 더 무거워 점사 준비에 시간이 더 걸립니다.</DMS_AutomaticGrenadeLauncher.comps.5.ammos.1.description>
+  <DMS_AutomaticGrenadeLauncher.comps.5.ammos.2.label>연막 유탄</DMS_AutomaticGrenadeLauncher.comps.5.ammos.2.label>
+  <DMS_AutomaticGrenadeLauncher.comps.5.ammos.2.description>착탄 지점에 연막을 형성하는 차폐용 탄환입니다. 폭발탄보다 가벼워 사거리가 조금 더 길고 조준 시간도 짧습니다.</DMS_AutomaticGrenadeLauncher.comps.5.ammos.2.description>
   <DMS_Turret_HeavyMachineGun.label>메크 HMG</DMS_Turret_HeavyMachineGun.label>
   <DMS_Turret_HeavyMachineGun.description>메크 병사나 보병 지원 플랫폼이 사용하는 중기관총입니다.\n\n오토마트로이드 전용으로 설계된 매우 무거운 무기로, 지원 플랫폼에 거치하지 않으면 일부 오토마트로이드만 운용할 수 있습니다.\n\n삼각대에 거치하면 반동을 안정적으로 억제할 수 있어 탄착 범위가 좁아지고 더 긴 연속사격이 가능하며, 견착 사격으로는 불가능한 수준의 지속적인 제압 사격을 가할 수 있습니다.</DMS_Turret_HeavyMachineGun.description>
   <DMS_Turret_HeavyMachineGun.comps.2.useLabel>{0_label} 집어 들기</DMS_Turret_HeavyMachineGun.comps.2.useLabel>
@@ -111,6 +114,7 @@
   <DMS_Gun_HeavyMachineGun.description>삼각대에 장착한 중기관총입니다.</DMS_Gun_HeavyMachineGun.description>
   <DMS_HeavyMachineGun.label>메크 HMG</DMS_HeavyMachineGun.label>
   <DMS_HeavyMachineGun.description>메크 병사나 보병 지원 플랫폼이 사용하는 중기관총입니다.\n\n오토마트로이드 전용으로 설계되어 매우 무거우므로 지원 플랫폼에 거치하지 않으면 일부 오토마트로이드만 운용할 수 있습니다.\n\n삼각대를 총몸 아래로 접을 수 있어 징집된 운용자가 그 자리에서 사격 진지에 설치했다가 빠르게 다시 거둘 수 있습니다.</DMS_HeavyMachineGun.description>
+  <DMS_HeavyMachineGun.comps.2.useLabel>{0_label} 집어 들기</DMS_HeavyMachineGun.comps.2.useLabel>
   <DMS_HeavyMachineGun.tools.0.label>개머리판</DMS_HeavyMachineGun.tools.0.label>
   <DMS_HeavyMachineGun.tools.1.label>총열</DMS_HeavyMachineGun.tools.1.label>
   <DMS_TrashBin_Base.label>트래시팬 스테이션</DMS_TrashBin_Base.label>
@@ -148,7 +152,9 @@
   <DMS_OccultechExtractor.label>해독기</DMS_OccultechExtractor.label>
   <DMS_OccultechExtractor.description>파괴적인 방식으로 자료를 읽는 해독 장비입니다. 비석 내부의 홀로그램 저장판에 고에너지 레이저를 쏜 뒤 산란된 스펙트럼을 분석해 자료를 읽습니다. 식민 함대 외부의 세력이 비석의 내용에 접근할 수 있는 유일한 방법입니다. 비석에 바로 맞붙여 설치하고 전력을 공급하면 연구자 없이도 지속적으로 지식을 추출해 원정 연구에 축적합니다. 비석의 자료가 고갈되거나 전력이 끊기거나 정면에 비석이 없으면 추출이 중단됩니다. 포장해서 다른 곳에 다시 설치할 수 있습니다.</DMS_OccultechExtractor.description>
   <DMS_HydraulicFracturingRig.label>수압 파쇄기</DMS_HydraulicFracturingRig.label>
-  <DMS_HydraulicFracturingRig.description>초고압 유체로 기반암을 갈라 채굴하는 자동 심층 채굴기입니다. 작업자가 필요 없으며, 전력이 공급되면 6시간마다 자원을 한 차례 생산합니다. 우선 범위 내의 심층 광맥을 채굴하고, 고갈되면 기반암에서 화학연료나 강철을 뽑아냅니다.\n\n생산할 때마다 주변 지면을 오염시킵니다. 제거한 뒤 옮길 수 있습니다.</DMS_HydraulicFracturingRig.description>
+  <DMS_HydraulicFracturingRig.description>초고압 유체로 기반암을 갈라 채굴하는 자동 심층 굴착기입니다. 작업자가 필요 없으며, 전력이 공급되면 6시간마다 자원을 한 차례 생산합니다. 우선 범위 내의 심층 광맥을 채굴하고, 고갈되면 기반암에서 화학연료나 강철을 뽑아냅니다.\n\n생산할 때마다 주변 지면을 오염시킵니다. 포장하여 옮길 수 있습니다.</DMS_HydraulicFracturingRig.description>
+  <DMS_Mote_SinteringFurnaceActive.label>Mote</DMS_Mote_SinteringFurnaceActive.label>
+  <DMS_Mote_ReactionChamberActive.label>Mote</DMS_Mote_ReactionChamberActive.label>
   <DMS_TableArtifuscle.label>아티퓨슬 챔버</DMS_TableArtifuscle.label>
   <DMS_TableArtifuscle.description>아티퓨슬 및 생체공학품 배양을 위한 최첨단 생산 장비입니다.</DMS_TableArtifuscle.description>
   <DMS_LabReactor.label>실험용 반응로</DMS_LabReactor.label>
@@ -166,7 +172,7 @@
   <DMS_AutoMill.label>자동 석재 가공대</DMS_AutoMill.label>
   <DMS_AutoMill.description>연속 공급 라인을 통해 원료를 공급받는 자동 석재 가공대입니다. 암석 덩어리를 넣으면 정밀도를 희생하는 대신 작업자 없이 자동으로 갈고 절단해 석재 벽돌로 가공합니다.</DMS_AutoMill.description>
   <DMS_Turret_Sentry.label>소형 포탑</DMS_Turret_Sentry.label>
-  <DMS_Turret_Sentry.description>배터리가 내장된 경량 자동 포탑으로, 화력이 필요한 곳에 휴대해 설치하도록 설계되었습니다. 전력망에 연결하면 내부 배터리를 충전하며, 전력망에서 분리되면 저장한 전력을 사용해 배터리가 빌 때까지 계속 사격합니다. 전원을 끄면 대기 상태가 되어 감시를 멈추고 절약한 전력을 충전에 돌려 두 배 빠르게 충전합니다.\n\n삼각대를 납작하게 접을 수 있어 징집된 운용자가 집어 들고 전진한 뒤 그 자리에서 배치할 수 있습니다. 출발 전에 배터리를 충전하면 며칠 동안 경계를 유지할 수 있습니다.</DMS_Turret_Sentry.description>
+  <DMS_Turret_Sentry.description>배터리가 내장된 경량 자동 포탑으로, 화력이 필요한 곳에 휴대해 설치하도록 설계되었습니다. 전력망에 연결하면 내부 배터리를 충전하며, 전력망에서 분리되면 저장한 전력으로 배터리가 방전될 때까지 계속 사격합니다. 전원을 끄면 대기 상태가 되어 감시를 멈추고 절약한 전력을 충전에 돌려 두 배 빠르게 충전합니다.\n\n삼각대를 납작하게 접을 수 있어 징집된 운용자가 집어 들고 전진한 뒤 그 자리에서 배치할 수 있습니다. 출발 전에 배터리를 충전하면 며칠 동안 경계를 유지할 수 있습니다.</DMS_Turret_Sentry.description>
   <DMS_Turret_Sentry.comps.5.useLabel>{0_label} 집어 들기</DMS_Turret_Sentry.comps.5.useLabel>
   <DMS_Turret_GateKeeper.label>게이트키퍼</DMS_Turret_GateKeeper.label>
   <DMS_Turret_GateKeeper.description>대구경 다중 총열 기관포 포탑으로, 주로 우주선과 해상 함선에서 사용됩니다. 매우 높은 발사 속도를 자랑하며, 강력한 제압 능력을 갖추고 있습니다.</DMS_Turret_GateKeeper.description>
@@ -194,12 +200,12 @@
   <DMS_Gun_Kord.verbs.Verb_Shoot.label>코르드</DMS_Gun_Kord.verbs.Verb_Shoot.label>
   <DMS_Bullet_Kord.label>우라늄 APT 탄</DMS_Bullet_Kord.label>
   <DMS_Turret_Vasilek.label>바실레크</DMS_Turret_Vasilek.label>
-  <DMS_Turret_Vasilek.description>고대의 제압용 속사 박격포입니다. 한번의 사격에 4발의 포탄을 발사할 수 있습니다.</DMS_Turret_Vasilek.description>
+  <DMS_Turret_Vasilek.description>고대의 설계를 따른 속사 박격포로, 한 번의 점사로 박격포탄 네 발을 발사할 수 있습니다.</DMS_Turret_Vasilek.description>
   <DMS_Turret_Vasilek.comps.2.fuelLabel>포신 교체 전까지 발사 가능한 횟수</DMS_Turret_Vasilek.comps.2.fuelLabel>
   <DMS_Turret_Vasilek.comps.2.fuelGizmoLabel>포신 내구도</DMS_Turret_Vasilek.comps.2.fuelGizmoLabel>
   <DMS_Turret_Vasilek.comps.2.outOfFuelMessage>사격 불가: 새 강화 포신 필요</DMS_Turret_Vasilek.comps.2.outOfFuelMessage>
   <DMS_Gun_Vasilek.label>2B9M 바실레크</DMS_Gun_Vasilek.label>
-  <DMS_Gun_Vasilek.description>고대의 제압용 속사 박격포입니다. 한번의 사격에 4발의 포탄을 발사할 수 있습니다.</DMS_Gun_Vasilek.description>
+  <DMS_Gun_Vasilek.description>고대의 설계를 따른 속사 박격포로, 한 번의 점사로 박격포탄 네 발을 발사할 수 있습니다.</DMS_Gun_Vasilek.description>
   <DMS_Gun_Vasilek.verbs.Verb_Shoot.label>2B9M 바실레크</DMS_Gun_Vasilek.verbs.Verb_Shoot.label>
   <DMS_Turret_Dawnblade.label>던블레이드</DMS_Turret_Dawnblade.label>
   <DMS_Turret_Dawnblade.description>MPQFS-85 "던블레이드"는 탑재형 다목적 속사포 시스템입니다. 드럼 탄창과 자동 회전식 장전기를 사용해 높은 지속 사격 속도를 냅니다.\n\n강력한 화력 지원이 필요한 곳으로 옮겨 배치할 수 있도록 장갑판이 제거되었습니다.</DMS_Turret_Dawnblade.description>
@@ -249,12 +255,20 @@
   <DMS_Schematic.description>기술과 그 활용 방법을 설명하는 기술 도면입니다. 도면을 읽으면 새로운 기술을 해제하는 데 도움이 됩니다.</DMS_Schematic.description>
   <Neuroglue.label>뉴로글루</Neuroglue.label>
   <Neuroglue.description>생체 조직과 신경 기계를 연결하는 단백질 유사 수용체 젤입니다. 뉴로글루는 환상통 증후군과 합성 거부반응을 효과적으로 억제하며, 한 번 투여할 때마다 제노 사지 증후군을 한 단계 완화합니다.\n\n이러한 제품은 수십 년간 변방계와 중간계에서 유통되어 왔지만, 이 제품을 생산했다고 주장하는 조직은 모두 중심계 요원들의 제재를 받았습니다. 이들은 이 제품이 해적의 생체공학 수준을 높여 지역의 세력 균형을 위협한다고 선언합니다.</Neuroglue.description>
+  <Neuroglue.ingestible.ingestCommandString>{0} 복용</Neuroglue.ingestible.ingestCommandString>
+  <Neuroglue.ingestible.ingestReportString>{0} 복용 중</Neuroglue.ingestible.ingestReportString>
   <DMS_CombatRation.label>C-레이션</DMS_CombatRation.label>
-  <DMS_CombatRation.description>고에너지 유기 폴리머 보존식으로, 이는 제3차 세계대전 동안 전투 중 강화된 인간 병력을 위한 영양 보충제로 발명되었습니다. 영양 인터페이스가 장착된 병사들에게는 내부 장기가 오랜 시간 기능할 수 있을 만큼 충분한 칼로리를 제공합니다. 그러나 일반 인간에게는 약간의 소화불량을 유발할 수 있습니다.</DMS_CombatRation.description>
+  <DMS_CombatRation.description>3차 세계대전 중 신체를 강화한 병사들의 전투용 영양 보충제로 개발된 고열량 유기 고분자 전투식량입니다. 영양 공급 인터페이스를 장착한 병사에게는 내장 기관을 오랫동안 유지할 만큼 충분한 열량을 제공합니다. 일반인이 먹으면 가벼운 위장 불편을 일으킬 수 있습니다.</DMS_CombatRation.description>
+  <DMS_CombatRation.ingestible.ingestCommandString>{0} 먹기</DMS_CombatRation.ingestible.ingestCommandString>
+  <DMS_CombatRation.ingestible.ingestReportString>{0} 먹는 중</DMS_CombatRation.ingestible.ingestReportString>
   <DMS_CombatRegenSerum.label>전투 재생 혈청</DMS_CombatRegenSerum.label>
   <DMS_CombatRegenSerum.description>줄기세포가 다량 함유된 고농도 신경 표적 약물입니다. 2~3일 안에 잃어버린 신체 부위를 원래 상태로 재생시키지만, 그 과정에서 막대한 에너지를 소모하므로 환자는 평소보다 훨씬 많이 먹어야 합니다. 재생에 따르는 통증과 거부반응의 위험은 대상자의 정신 건강에 큰 부담을 줍니다. 이런 종류의 약물이 변방에서 좀처럼 보이지 않는 이유입니다.\n\n중독성이 없습니다. 한 번 투여할 때마다 3단계 제노 사지 증후군을 일으킬 가능성이 있습니다.</DMS_CombatRegenSerum.description>
+  <DMS_CombatRegenSerum.ingestible.ingestCommandString>{0} 복용</DMS_CombatRegenSerum.ingestible.ingestCommandString>
+  <DMS_CombatRegenSerum.ingestible.ingestReportString>{0} 복용 중</DMS_CombatRegenSerum.ingestible.ingestReportString>
   <DMS_SensibilityBlocker.label>감성 차단제</DMS_SensibilityBlocker.label>
   <DMS_SensibilityBlocker.description>감정적 사고를 담당하는 수용체를 억제하는 고농도 신경 표적 약물입니다. 효과가 지속되는 동안 겉으로는 주변 환경에 대한 거부감이 거의 사라지므로, 한때 장기 임무를 수행하는 외골격 조종사의 표준 전투 약물로 쓰였습니다. 하지만 약효가 사라진 뒤에도 경험에 대한 기억은 온전히 남으며, 감각 상실을 일으킬 수 있다는 사실이 밝혀진 뒤 점차 사용이 금지되었습니다.\n\n미관, 편안함, 실외, 실내, 공간 등 부차적 욕구를 일시적으로 중단시키며, 환경과 관련된 생각으로 인한 무드 불이익을 무효화합니다.</DMS_SensibilityBlocker.description>
+  <DMS_SensibilityBlocker.ingestible.ingestCommandString>{0} 복용</DMS_SensibilityBlocker.ingestible.ingestCommandString>
+  <DMS_SensibilityBlocker.ingestible.ingestReportString>{0} 복용 중</DMS_SensibilityBlocker.ingestible.ingestReportString>
   <Polyester.label>폴리에스터</Polyester.label>
   <Polyester.description>미관이 좋지는 않지만 의류, 침구, 군용 특수 직물 등 다양한 섬유 제품에 널리 쓰이는 합성 섬유입니다.</Polyester.description>
   <Plasfiber.label>플라스파이버</Plasfiber.label>
@@ -265,58 +279,58 @@
   <DMS_Ceramics.description>군용 기계의 방어용 부가재로 널리 사용되는 군용 표준 복합 세라믹 판입니다.\n\n내구성은 다소 떨어지지만 방어력이 우수하고 무게가 가볍습니다.</DMS_Ceramics.description>
   <Artifuscle.label>아티퓨슬</Artifuscle.label>
   <Artifuscle.description>유전적으로 강화한 근섬유 다발을 실험실에서 배양해 만든 보철 재료입니다.</Artifuscle.description>
-  <Artifuscle.comps.2.completedLetterLabel>아티퓨슬 분석 완료: {RESEARCH} 잠금 해제</Artifuscle.comps.2.completedLetterLabel>
-  <Artifuscle.comps.2.completedLetter>{STUDIER_labelShort}(이)가 {PARENT_label}(을)를 분석하여 {RESEARCH} 연구에 필요한 통찰을 얻었습니다.\n\n이제 연구자들이 연구대에서 이 기술을 실제로 활용하는 방법을 연구할 수 있습니다.</Artifuscle.comps.2.completedLetter>
-  <Artifuscle.comps.2.activateLabelString>분석...</Artifuscle.comps.2.activateLabelString>
-  <Artifuscle.comps.2.activateDescString>아티퓨슬 분석</Artifuscle.comps.2.activateDescString>
-  <Artifuscle.comps.2.jobString>아티퓨슬 분석</Artifuscle.comps.2.jobString>
-  <Artifuscle.comps.2.guiLabelString>분석할 사람을 선택하세요</Artifuscle.comps.2.guiLabelString>
-  <Artifuscle.comps.2.inspectString>정착민에 의해 분석 가능.</Artifuscle.comps.2.inspectString>
+  <Artifuscle.comps.3.completedLetterLabel>인공 근육 분석 완료: {RESEARCH} 연구 해금</Artifuscle.comps.3.completedLetterLabel>
+  <Artifuscle.comps.3.completedLetter>{STUDIER_labelShort}(이)가 {PARENT_label}(을)를 분석하여 {RESEARCH} 연구에 필요한 지식을 얻었습니다.\n\n이제 연구자들이 연구 작업대에서 이 기술을 실제로 활용하는 방법을 연구할 수 있습니다.</Artifuscle.comps.3.completedLetter>
+  <Artifuscle.comps.3.activateLabelString>분석...</Artifuscle.comps.3.activateLabelString>
+  <Artifuscle.comps.3.activateDescString>인공 근육 분석</Artifuscle.comps.3.activateDescString>
+  <Artifuscle.comps.3.jobString>인공 근육 분석 중</Artifuscle.comps.3.jobString>
+  <Artifuscle.comps.3.guiLabelString>분석할 정착민 선택</Artifuscle.comps.3.guiLabelString>
+  <Artifuscle.comps.3.inspectString>정착민이 분석할 수 있습니다.</Artifuscle.comps.3.inspectString>
   <DMS_Artiprotein.label>아티프로틴</DMS_Artiprotein.label>
   <DMS_Artiprotein.description>미리 분해한 영양 원료를 공학적으로 설계한 생물 효소로 합성한 고밀도 단백질 덩어리입니다. 생선과 비슷한 식감을 지니며 충분한 단백질을 공급하고, 도축한 고기보다 영양 밀도가 높으면서 훨씬 오래 보존됩니다. 장기 비축용 표준 식량이자 생체 조직 배양에 선호되는 유기 원료입니다.</DMS_Artiprotein.description>
   <ComponentStamped.label>스탬포넨트</ComponentStamped.label>
   <ComponentStamped.description>유압식 일체형 부품. 조립 라인에서 대량 생산이 필요한 제품에 사용됩니다.</ComponentStamped.description>
   <Neurocomputer.label>웨트웨어 컴퓨터</Neurocomputer.label>
   <Neurocomputer.description>인공 유기물 뇌로 작동하는 유기물 컴퓨터로, 희귀 금속과 정밀 가공 기술에 접근할 수 없는 세력들을 위한 저렴한 계산 뇌 역할을 합니다.</Neurocomputer.description>
-  <Neurocomputer.comps.0.completedLetterLabel>웨트웨어 컴퓨터 분석 완료: {RESEARCH} 잠금 해제</Neurocomputer.comps.0.completedLetterLabel>
-  <Neurocomputer.comps.0.completedLetter>{STUDIER_labelShort}(이)가 {PARENT_label}(을)를 분석하여 {RESEARCH} 연구에 필요한 통찰을 얻었습니다.\n\n이제 연구자들이 연구대에서 이 기술을 실제로 활용하는 방법을 연구할 수 있습니다.</Neurocomputer.comps.0.completedLetter>
-  <Neurocomputer.comps.0.activateLabelString>분석...</Neurocomputer.comps.0.activateLabelString>
-  <Neurocomputer.comps.0.activateDescString>웨트웨어 컴퓨터 분석</Neurocomputer.comps.0.activateDescString>
-  <Neurocomputer.comps.0.jobString>웨트웨어 컴퓨터를 분석합니다</Neurocomputer.comps.0.jobString>
-  <Neurocomputer.comps.0.guiLabelString>분석할 사람을 선택하세요</Neurocomputer.comps.0.guiLabelString>
-  <Neurocomputer.comps.0.inspectString>정착민에 의해 분석 가능.</Neurocomputer.comps.0.inspectString>
+  <Neurocomputer.comps.1.completedLetterLabel>웨트웨어 컴퓨터 분석 완료: {RESEARCH} 연구 해금</Neurocomputer.comps.1.completedLetterLabel>
+  <Neurocomputer.comps.1.completedLetter>{STUDIER_labelShort}(이)가 {PARENT_label}(을)를 분석하여 {RESEARCH} 연구에 필요한 지식을 얻었습니다.\n\n이제 연구자들이 연구 작업대에서 이 기술을 실제로 활용하는 방법을 연구할 수 있습니다.</Neurocomputer.comps.1.completedLetter>
+  <Neurocomputer.comps.1.activateLabelString>분석...</Neurocomputer.comps.1.activateLabelString>
+  <Neurocomputer.comps.1.activateDescString>웨트웨어 컴퓨터 분석</Neurocomputer.comps.1.activateDescString>
+  <Neurocomputer.comps.1.jobString>웨트웨어 컴퓨터 분석 중</Neurocomputer.comps.1.jobString>
+  <Neurocomputer.comps.1.guiLabelString>분석할 정착민 선택</Neurocomputer.comps.1.guiLabelString>
+  <Neurocomputer.comps.1.inspectString>정착민이 분석할 수 있습니다.</Neurocomputer.comps.1.inspectString>
   <ComponentTransmitter.label>T/R 부품</ComponentTransmitter.label>
   <ComponentTransmitter.description>레이더 및 통신 장치용 정밀 전자 부품.</ComponentTransmitter.description>
-  <ComponentTransmitter.comps.0.completedLetterLabel>T/R 부품 분석 완료: {RESEARCH} 잠금 해제</ComponentTransmitter.comps.0.completedLetterLabel>
-  <ComponentTransmitter.comps.0.completedLetter>{STUDIER_labelShort}(이)가 {PARENT_label}(을)를 분석하여 {RESEARCH} 연구에 필요한 통찰을 얻었습니다.\n\n이제 연구자들이 연구대에서 이 기술을 실제로 활용하는 방법을 연구할 수 있습니다.</ComponentTransmitter.comps.0.completedLetter>
-  <ComponentTransmitter.comps.0.activateLabelString>분석...</ComponentTransmitter.comps.0.activateLabelString>
-  <ComponentTransmitter.comps.0.activateDescString>T/R 부품 분석</ComponentTransmitter.comps.0.activateDescString>
-  <ComponentTransmitter.comps.0.jobString>T/R 부품을 분석합니다</ComponentTransmitter.comps.0.jobString>
-  <ComponentTransmitter.comps.0.guiLabelString>분석할 사람을 선택하세요</ComponentTransmitter.comps.0.guiLabelString>
-  <ComponentTransmitter.comps.0.inspectString>정착민에 의해 분석 가능.</ComponentTransmitter.comps.0.inspectString>
+  <ComponentTransmitter.comps.1.completedLetterLabel>T/R 부품 분석 완료: {RESEARCH} 연구 해금</ComponentTransmitter.comps.1.completedLetterLabel>
+  <ComponentTransmitter.comps.1.completedLetter>{STUDIER_labelShort}(이)가 {PARENT_label}(을)를 분석하여 {RESEARCH} 연구에 필요한 지식을 얻었습니다.\n\n이제 연구자들이 연구 작업대에서 이 기술을 실제로 활용하는 방법을 연구할 수 있습니다.</ComponentTransmitter.comps.1.completedLetter>
+  <ComponentTransmitter.comps.1.activateLabelString>분석...</ComponentTransmitter.comps.1.activateLabelString>
+  <ComponentTransmitter.comps.1.activateDescString>T/R 부품 분석</ComponentTransmitter.comps.1.activateDescString>
+  <ComponentTransmitter.comps.1.jobString>T/R 부품 분석 중</ComponentTransmitter.comps.1.jobString>
+  <ComponentTransmitter.comps.1.guiLabelString>분석할 정착민 선택</ComponentTransmitter.comps.1.guiLabelString>
+  <ComponentTransmitter.comps.1.inspectString>정착민이 분석할 수 있습니다.</ComponentTransmitter.comps.1.inspectString>
   <ComponentControlChip.label>클러스터 제어 칩셋</ComponentControlChip.label>
   <ComponentControlChip.description>원격 기계 컨트롤러용 칩셋이자 산업용 기계의 핵심입니다.</ComponentControlChip.description>
-  <ComponentControlChip.comps.0.completedLetterLabel>클러스터 제어 칩셋 분석 완료: {RESEARCH} 잠금 해제</ComponentControlChip.comps.0.completedLetterLabel>
-  <ComponentControlChip.comps.0.completedLetter>{STUDIER_labelShort}(이)가 {PARENT_label}(을)를 분석하여 {RESEARCH} 연구에 필요한 통찰을 얻었습니다.\n\n이제 연구자들이 연구대에서 이 기술을 실제로 활용하는 방법을 연구할 수 있습니다.</ComponentControlChip.comps.0.completedLetter>
-  <ComponentControlChip.comps.0.activateLabelString>분석...</ComponentControlChip.comps.0.activateLabelString>
-  <ComponentControlChip.comps.0.activateDescString>클러스터 제어 칩셋 분석</ComponentControlChip.comps.0.activateDescString>
-  <ComponentControlChip.comps.0.jobString>클러스터 제어 칩셋 분석 중</ComponentControlChip.comps.0.jobString>
-  <ComponentControlChip.comps.0.guiLabelString>분석할 사람을 선택하세요</ComponentControlChip.comps.0.guiLabelString>
-  <ComponentControlChip.comps.0.inspectString>정착민에 의해 분석 가능.</ComponentControlChip.comps.0.inspectString>
+  <ComponentControlChip.comps.1.completedLetterLabel>클러스터 제어 칩셋 분석 완료: {RESEARCH} 연구 해금</ComponentControlChip.comps.1.completedLetterLabel>
+  <ComponentControlChip.comps.1.completedLetter>{STUDIER_labelShort}(이)가 {PARENT_label}(을)를 분석하여 {RESEARCH} 연구에 필요한 지식을 얻었습니다.\n\n이제 연구자들이 연구 작업대에서 이 기술을 실제로 활용하는 방법을 연구할 수 있습니다.</ComponentControlChip.comps.1.completedLetter>
+  <ComponentControlChip.comps.1.activateLabelString>분석...</ComponentControlChip.comps.1.activateLabelString>
+  <ComponentControlChip.comps.1.activateDescString>클러스터 제어 칩셋 분석</ComponentControlChip.comps.1.activateDescString>
+  <ComponentControlChip.comps.1.jobString>클러스터 제어 칩셋 분석 중</ComponentControlChip.comps.1.jobString>
+  <ComponentControlChip.comps.1.guiLabelString>분석할 정착민 선택</ComponentControlChip.comps.1.guiLabelString>
+  <ComponentControlChip.comps.1.inspectString>정착민이 분석할 수 있습니다.</ComponentControlChip.comps.1.inspectString>
   <ComponentFireControl.label>사격 제어 시스템</ComponentFireControl.label>
   <ComponentFireControl.description>무기 제어 지원 및 궤적 추적용으로 설계된 칩셋입니다.</ComponentFireControl.description>
-  <ComponentFireControl.comps.0.completedLetterLabel>사격 제어 시스템 분석 완료: {RESEARCH} 잠금 해제</ComponentFireControl.comps.0.completedLetterLabel>
-  <ComponentFireControl.comps.0.completedLetter>{STUDIER_labelShort}(이)가 {PARENT_label}(을)를 분석하여 {RESEARCH} 연구에 필요한 통찰을 얻었습니다.\n\n이제 연구자들이 연구대에서 이 기술을 실제로 활용하는 방법을 연구할 수 있습니다.</ComponentFireControl.comps.0.completedLetter>
-  <ComponentFireControl.comps.0.activateLabelString>분석...</ComponentFireControl.comps.0.activateLabelString>
-  <ComponentFireControl.comps.0.activateDescString>사격 제어 시스템 분석</ComponentFireControl.comps.0.activateDescString>
-  <ComponentFireControl.comps.0.jobString>사격 제어 시스템을 분석합니다</ComponentFireControl.comps.0.jobString>
-  <ComponentFireControl.comps.0.guiLabelString>분석할 사람을 선택하세요</ComponentFireControl.comps.0.guiLabelString>
-  <ComponentFireControl.comps.0.inspectString>정착민에 의해 분석 가능.</ComponentFireControl.comps.0.inspectString>
+  <ComponentFireControl.comps.1.completedLetterLabel>사격 제어 시스템 분석 완료: {RESEARCH} 연구 해금</ComponentFireControl.comps.1.completedLetterLabel>
+  <ComponentFireControl.comps.1.completedLetter>{STUDIER_labelShort}(이)가 {PARENT_label}(을)를 분석하여 {RESEARCH} 연구에 필요한 지식을 얻었습니다.\n\n이제 연구자들이 연구 작업대에서 이 기술을 실제로 활용하는 방법을 연구할 수 있습니다.</ComponentFireControl.comps.1.completedLetter>
+  <ComponentFireControl.comps.1.activateLabelString>분석...</ComponentFireControl.comps.1.activateLabelString>
+  <ComponentFireControl.comps.1.activateDescString>사격 제어 시스템 분석</ComponentFireControl.comps.1.activateDescString>
+  <ComponentFireControl.comps.1.jobString>사격 제어 시스템 분석 중</ComponentFireControl.comps.1.jobString>
+  <ComponentFireControl.comps.1.guiLabelString>분석할 정착민 선택</ComponentFireControl.comps.1.guiLabelString>
+  <ComponentFireControl.comps.1.inspectString>정착민이 분석할 수 있습니다.</ComponentFireControl.comps.1.inspectString>
   <PulsarEmitterUnit.label>펄스 역장 발생기</PulsarEmitterUnit.label>
   <PulsarEmitterUnit.description>펄스 역장을 생성하는 정밀 부품이자 대부분의 중간계 방어막 기술의 기반입니다. 발생기 하나가 유지할 수 있는 역장의 세기는 제한적이지만, 여러 개를 배열하면 포탄도 튕겨낼 만큼 강력한 에너지 방어막을 형성할 수 있습니다.</PulsarEmitterUnit.description>
   <DMS_EncryptedTransmitter.label>암호화 송신기</DMS_EncryptedTransmitter.label>
   <DMS_EncryptedTransmitter.description>식민지에서 긴급 호출 지원을 위해 사용되는 고출력 통신기입니다. 이 구조 프로토콜의 식별 코드는 오랫동안 버려졌기 때문에 지휘권을 잃은 기계화 유닛의 미끼로만 사용할 수 있습니다.</DMS_EncryptedTransmitter.description>
-  <DMS_EncryptedTransmitter.comps.0.useLabel>리전 위협 호출</DMS_EncryptedTransmitter.comps.0.useLabel>
+  <DMS_EncryptedTransmitter.comps.1.useLabel>군단의 위협 유도</DMS_EncryptedTransmitter.comps.1.useLabel>
   <Shell_BlasterSmoke.label>블래스터 스크린탄</Shell_BlasterSmoke.label>
   <Shell_BlasterSmoke.description>활성 입자장을 생성하는 시약을 담은 포탄입니다. 이 입자장은 날아오는 대전 입자탄을 비행 중에 폭발시킵니다. 메크 군단이나 중간계 거대기업과 싸울 때 선호되는 대응 수단이며, 다른 발사체에는 영향을 주지 않습니다.</Shell_BlasterSmoke.description>
   <DMS_Bullet_BlasterSmoke.label>블래스터 스크린탄</DMS_Bullet_BlasterSmoke.label>
@@ -326,32 +340,32 @@
   <UnfinishedModification.description>미완성된 개조 부품</UnfinishedModification.description>
   <DMS_CeramicsPlating.label>세라믹 플레이트</DMS_CeramicsPlating.label>
   <DMS_CeramicsPlating.description>세라믹 플레이트를 메카의 외부 장갑에 장착하여 추가 보호를 제공합니다. 손상되면 새로운 플레이트로만 교체할 수 있습니다.\n\n메카에 적용할 수 있는 최대 장갑량은 메카의 신체 크기에 따라 달라집니다.</DMS_CeramicsPlating.description>
-  <DMS_CeramicsPlating.comps.0.useLabel>{0_label} 사용</DMS_CeramicsPlating.comps.0.useLabel>
+  <DMS_CeramicsPlating.comps.1.useLabel>{0_label} 사용</DMS_CeramicsPlating.comps.1.useLabel>
   <DMS_BrokenCeramics.label>부서진 세라믹</DMS_BrokenCeramics.label>
   <DMS_ReinforcedFrame.label>강화 프레임</DMS_ReinforcedFrame.label>
-  <DMS_ReinforcedFrame.description>마모되기 쉬운 부품을 대체하기 위한 텅스틸 부품 세트로, 고강도 전투 중 신뢰성과 내구성을 효과적으로 향상시킵니다. 이 중장비 교체 부품은 메크의 무게를 크게 늘려 속도에 영향을 줍니다.</DMS_ReinforcedFrame.description>
-  <DMS_ReinforcedFrame.comps.0.useLabel>{0_label} 사용</DMS_ReinforcedFrame.comps.0.useLabel>
+  <DMS_ReinforcedFrame.description>마모되기 쉬운 부품을 대체하는 텅스틸 부품 세트로, 격렬한 전투 중 신뢰성과 내구성을 높입니다. 이 튼튼한 교체 부품은 메크의 중량을 크게 늘려 이동 속도에 영향을 줍니다.</DMS_ReinforcedFrame.description>
+  <DMS_ReinforcedFrame.comps.1.useLabel>{0_label} 사용</DMS_ReinforcedFrame.comps.1.useLabel>
   <DMS_NuclearBattery.label>핵 전지</DMS_NuclearBattery.label>
-  <DMS_NuclearBattery.description>양자 배터리를 구동하는 핵분열 원자로입니다. 많은 무인 신호 기지와 방어 로봇에서 흔히 발견됩니다. 고강도 외피로 감싼 6개의 고밀도 우라늄-235 기둥과 여기서 나오는 열을 전기로 바꾸는 장치가 기둥에 통합되어 있습니다. 이 에너지는 대부분의 오토마트로이드 모델을 수십 년 동안 가동할 수 있을 만큼의 에너지를 제공합니다.</DMS_NuclearBattery.description>
-  <DMS_NuclearBattery.comps.0.useLabel>{0_label} 사용</DMS_NuclearBattery.comps.0.useLabel>
+  <DMS_NuclearBattery.description>양자 배터리에 전력을 공급하는 핵분열 원자로로, 무인 신호 기지와 방어 로봇에서 흔히 볼 수 있습니다. 열전대가 통합된 고밀도 우라늄-235 기둥 여섯 개를 고강도 외피로 감싼 구조입니다. 대부분의 오토마트로이드 모델을 수십 년간 가동할 만큼 충분한 에너지를 제공합니다.</DMS_NuclearBattery.description>
+  <DMS_NuclearBattery.comps.1.useLabel>{0_label} 사용</DMS_NuclearBattery.comps.1.useLabel>
   <DMS_SyntheticTendon.label>합성 힘줄</DMS_SyntheticTendon.label>
-  <DMS_SyntheticTendon.description>기계적 사지의 외부에 부착된 생체합성 근육으로, 출력 향상에 효과적이지만 추가적인 에너지 소모를 요구합니다.</DMS_SyntheticTendon.description>
-  <DMS_SyntheticTendon.comps.0.useLabel>{0_label} 사용</DMS_SyntheticTendon.comps.0.useLabel>
+  <DMS_SyntheticTendon.description>기계식 사지의 바깥쪽에 부착하는 생체합성 근육입니다. 합성 힘줄은 추가로 에너지를 소모하는 대신 출력을 효과적으로 높입니다.</DMS_SyntheticTendon.description>
+  <DMS_SyntheticTendon.comps.1.useLabel>{0_label} 사용</DMS_SyntheticTendon.comps.1.useLabel>
   <DMS_CommandCoprocessor.label>지휘 보조 프로세서</DMS_CommandCoprocessor.label>
   <DMS_CommandCoprocessor.description>지휘형 오토마트로이드의 코어 프로세서 옆에 장착하는 보조 처리 기판입니다. 주 프로세서가 처리하던 신호 다중화와 부대 현황 관리를 맡아, 오토마트로이드가 동시에 더 많은 부대를 지휘 계통에 유지할 수 있게 합니다.\n\n추가된 반도체가 계속 전력을 소모하므로 오토마트로이드의 에너지 소비량이 약간 증가합니다.\n\n지휘형 오토마트로이드만 이를 장착할 수 있는 프로세서 버스를 갖추고 있습니다.</DMS_CommandCoprocessor.description>
-  <DMS_CommandCoprocessor.comps.0.useLabel>{0_label} 사용</DMS_CommandCoprocessor.comps.0.useLabel>
+  <DMS_CommandCoprocessor.comps.1.useLabel>{0_label} 사용</DMS_CommandCoprocessor.comps.1.useLabel>
   <DMS_TB_HeavyHydraulicFrame.label>대형 유압 프레임</DMS_TB_HeavyHydraulicFrame.label>
   <DMS_TB_HeavyHydraulicFrame.description>이구아나와 게코에 중화기를 장착하기 위해 설계된, 높은 내구성을 지닌 강화 유압 프레임입니다.</DMS_TB_HeavyHydraulicFrame.description>
-  <DMS_TB_HeavyHydraulicFrame.comps.0.useLabel>{0_label} 사용</DMS_TB_HeavyHydraulicFrame.comps.0.useLabel>
+  <DMS_TB_HeavyHydraulicFrame.comps.1.useLabel>{0_label} 사용</DMS_TB_HeavyHydraulicFrame.comps.1.useLabel>
   <DMS_BF_RecoillessRifle.label>무반동포 발사대</DMS_BF_RecoillessRifle.label>
   <DMS_BF_RecoillessRifle.description>하나의 거치대에 함께 장착된 65mm 무반동포 발사관 한 쌍으로, 배틀 프레임의 측면 파일런에 볼트로 고정하도록 설계되었습니다. 일선 부대가 이 장비를 사용하는 이유는 명확합니다. 프레임의 자체 경무장으로는 장갑을 갖춘 표적이나 구축된 사격 진지에 제대로 대응할 수 없지만, 보행 플랫폼이라면 2인조 운용반이 접근하기 어려운 지형까지 발사관을 운반할 수 있기 때문입니다.\n\n성형작약 로켓으로 프레임의 체급으로는 상대하기 어려운 장갑 표적과 방어 시설도 격파할 수 있으며, 사격 통제 장치가 교전 사이에 휴대한 예비탄으로 사용한 발사관을 재장전합니다. 그 대가로 이동 속도와 회피 능력, 적재 한도가 감소하며, 사격할 때마다 발생하는 후폭풍으로 전장의 관측자들에게 위치를 드러냅니다.</DMS_BF_RecoillessRifle.description>
-  <DMS_BF_RecoillessRifle.comps.0.useLabel>{0_label} 사용</DMS_BF_RecoillessRifle.comps.0.useLabel>
+  <DMS_BF_RecoillessRifle.comps.1.useLabel>{0_label} 사용</DMS_BF_RecoillessRifle.comps.1.useLabel>
   <DMS_BF_ExtendCargo.label>확장형 화물 선반</DMS_BF_ExtendCargo.label>
   <DMS_BF_ExtendCargo.description>배틀 프레임의 측면 파일런에 장착하는 화물 선반입니다. 배틀 프레임과 파생 기종의 운반 능력을 높이며, 장착한 유닛은 충분한 짐을 운반해 함께 이동하는 상단의 이동 속도를 높입니다. 다만 추가된 중량 때문에 도보 이동 속도는 감소합니다.</DMS_BF_ExtendCargo.description>
-  <DMS_BF_ExtendCargo.comps.0.useLabel>{0_label} 사용</DMS_BF_ExtendCargo.comps.0.useLabel>
+  <DMS_BF_ExtendCargo.comps.1.useLabel>{0_label} 사용</DMS_BF_ExtendCargo.comps.1.useLabel>
   <DMS_BF_ExtendArmor.label>추가 장갑판</DMS_BF_ExtendArmor.label>
   <DMS_BF_ExtendArmor.description>배틀 프레임의 파일런에 장착하도록 설계된 복합 장갑판입니다. 파편과 중구경 사격으로부터 차체를 보호하여 배틀 프레임의 생존성을 높입니다.</DMS_BF_ExtendArmor.description>
-  <DMS_BF_ExtendArmor.comps.0.useLabel>{0_label} 사용</DMS_BF_ExtendArmor.comps.0.useLabel>
+  <DMS_BF_ExtendArmor.comps.1.useLabel>{0_label} 사용</DMS_BF_ExtendArmor.comps.1.useLabel>
   <DMS_AMO_Beast.label>비스트</DMS_AMO_Beast.label>
   <DMS_AMO_Beast.description>TODO</DMS_AMO_Beast.description>
   <DMS_AMO_Beast.tools.0.label>촉수</DMS_AMO_Beast.tools.0.label>
@@ -541,12 +555,12 @@
   <DMS_Revolver.verbs.Verb_Shoot_AmmoSwitch.label>폭동 진압용 리볼버</DMS_Revolver.verbs.Verb_Shoot_AmmoSwitch.label>
   <DMS_Revolver.tools.0.label>손잡이</DMS_Revolver.tools.0.label>
   <DMS_Revolver.tools.1.label>총열</DMS_Revolver.tools.1.label>
-  <DMS_Revolver.comps.0.ammos.0.label>고무 슬러그탄</DMS_Revolver.comps.0.ammos.0.label>
-  <DMS_Revolver.comps.0.ammos.0.description>죽이는 대신 멍들게 하고 쓰러뜨리는 저살상 슬러그탄입니다. 리볼버에 기본으로 들어 있던 탄이며, 대부분의 사용자는 굳이 바꾸지 않습니다.</DMS_Revolver.comps.0.ammos.0.description>
-  <DMS_Revolver.comps.0.ammos.1.label>벅샷</DMS_Revolver.comps.0.ammos.1.label>
-  <DMS_Revolver.comps.0.ammos.1.description>상황이 소란을 넘어 전투로 번졌을 때 사용하는 치명적인 산탄입니다. 고무 슬러그탄보다 살짝 조준하기 어렵습니다.</DMS_Revolver.comps.0.ammos.1.description>
-  <DMS_Revolver.comps.0.ammos.2.label>슬러그탄</DMS_Revolver.comps.0.ammos.2.label>
-  <DMS_Revolver.comps.0.ammos.2.description>산탄보다 훨씬 멀리 날아가 경장갑을 관통하는 납 슬러그탄 한 발입니다. 강한 장약 때문에 리볼버로 표적을 조준하는 속도가 느려집니다.</DMS_Revolver.comps.0.ammos.2.description>
+  <DMS_Revolver.comps.4.ammos.0.label>고무 슬러그탄</DMS_Revolver.comps.4.ammos.0.label>
+  <DMS_Revolver.comps.4.ammos.0.description>살상하는 대신 타박상을 입히고 쓰러뜨리는 저살상 슬러그탄입니다. 이 리볼버를 판매할 때 기본으로 제공하는 탄환이며, 대부분의 소유자는 굳이 다른 탄환으로 바꾸려 하지 않습니다.</DMS_Revolver.comps.4.ammos.0.description>
+  <DMS_Revolver.comps.4.ammos.1.label>산탄</DMS_Revolver.comps.4.ammos.1.label>
+  <DMS_Revolver.comps.4.ammos.1.description>상황이 단순한 소요를 넘어 교전으로 번졌을 때 사용하는 살상용 산탄입니다. 고무 슬러그탄보다 명중시키기가 조금 더 어렵습니다.</DMS_Revolver.comps.4.ammos.1.description>
+  <DMS_Revolver.comps.4.ammos.2.label>슬러그탄</DMS_Revolver.comps.4.ammos.2.label>
+  <DMS_Revolver.comps.4.ammos.2.description>산탄보다 훨씬 멀리 날아가며 얇은 장갑을 관통하는 단발 납 슬러그탄입니다. 장약이 더 무거워 리볼버로 표적을 조준하는 데 시간이 더 걸립니다.</DMS_Revolver.comps.4.ammos.2.description>
   <DMS_Bullet_RiotRevolver.label>20게이지 고무 슬러그탄</DMS_Bullet_RiotRevolver.label>
   <DMS_Bullet_RiotRevolver.description>20게이지 고무 슬러그탄입니다. 퍼지는 대신 한 번의 묵직한 충격을 가해 대상을 쓰러뜨리며, 그보다 심한 부상을 주는 일은 드뭅니다. 장갑판에는 전혀 통하지 않습니다.</DMS_Bullet_RiotRevolver.description>
   <DMS_Bullet_RiotRevolver_Buck.label>20게이지 벅샷</DMS_Bullet_RiotRevolver_Buck.label>
@@ -558,14 +572,14 @@
   <DMS_RiotShotgun.verbs.Verb_Shoot_AmmoSwitch.label>강선 슬러그총</DMS_RiotShotgun.verbs.Verb_Shoot_AmmoSwitch.label>
   <DMS_RiotShotgun.tools.0.label>개머리판</DMS_RiotShotgun.tools.0.label>
   <DMS_RiotShotgun.tools.1.label>총열</DMS_RiotShotgun.tools.1.label>
-  <DMS_RiotShotgun.comps.0.ammos.0.label>고무 슬러그탄</DMS_RiotShotgun.comps.0.ammos.0.label>
-  <DMS_RiotShotgun.comps.0.ammos.0.description>표적을 죽이는 대신 쓰러뜨리는 고무 슬러그탄 한 발입니다. 폭동 진압과 포로 생포에 사용하는 표준 탄환입니다.</DMS_RiotShotgun.comps.0.ammos.0.description>
-  <DMS_RiotShotgun.comps.0.ammos.1.label>벅샷</DMS_RiotShotgun.comps.0.ammos.1.label>
-  <DMS_RiotShotgun.comps.0.ammos.1.description>장갑으로 보호받지 않는 생체 표적을 근거리에서 상대하기 위한 치명적인 산탄입니다. 고무 슬러그탄보다 약간 조준하기 어렵습니다.</DMS_RiotShotgun.comps.0.ammos.1.description>
-  <DMS_RiotShotgun.comps.0.ammos.2.label>EMP 탄</DMS_RiotShotgun.comps.0.ammos.2.label>
-  <DMS_RiotShotgun.comps.0.ammos.2.description>명중하면 방전되어 메카노이드 체계를 파괴하지 않고 단락시키는 축전기 슬러그탄입니다. 살에는 아무런 효과도 없고 무거운 탑재물 때문에 유효 사거리가 짧습니다.</DMS_RiotShotgun.comps.0.ammos.2.description>
-  <DMS_RiotShotgun.comps.0.ammos.3.label>파쇄탄</DMS_RiotShotgun.comps.0.ammos.3.label>
-  <DMS_RiotShotgun.comps.0.ammos.3.description>문이나 얇은 벽을 팔 길이 거리에서 쏘도록 만든 통짜 슬러그탄입니다. 다른 탄으로는 열 수 없는 진입로를 만들지만, 그보다 먼 거리에서는 거의 쓸모가 없습니다.</DMS_RiotShotgun.comps.0.ammos.3.description>
+  <DMS_RiotShotgun.comps.4.ammos.0.label>고무 슬러그탄</DMS_RiotShotgun.comps.4.ammos.0.label>
+  <DMS_RiotShotgun.comps.4.ammos.0.description>표적을 죽이는 대신 쓰러뜨리는 단발 고무 슬러그탄입니다. 폭동 진압과 생포에 쓰이는 기본 탄환입니다.</DMS_RiotShotgun.comps.4.ammos.0.description>
+  <DMS_RiotShotgun.comps.4.ammos.1.label>산탄</DMS_RiotShotgun.comps.4.ammos.1.label>
+  <DMS_RiotShotgun.comps.4.ammos.1.description>가까운 거리의 비장갑 생체 표적을 상대하는 살상용 산탄입니다. 고무 슬러그탄보다 명중시키기가 조금 더 어렵습니다.</DMS_RiotShotgun.comps.4.ammos.1.description>
+  <DMS_RiotShotgun.comps.4.ammos.2.label>EMP탄</DMS_RiotShotgun.comps.4.ammos.2.label>
+  <DMS_RiotShotgun.comps.4.ammos.2.description>충돌 시 방전하여 메카노이드 시스템을 파괴하는 대신 단락시키는 축전식 슬러그탄입니다. 생체에는 전혀 효과가 없으며, 탄두가 무거워 유효 사거리가 짧습니다.</DMS_RiotShotgun.comps.4.ammos.2.description>
+  <DMS_RiotShotgun.comps.4.ammos.3.label>돌파탄</DMS_RiotShotgun.comps.4.ammos.3.label>
+  <DMS_RiotShotgun.comps.4.ammos.3.description>팔을 뻗으면 닿을 거리에서 문이나 얇은 벽에 발사하도록 만든 단단한 슬러그탄입니다. 다른 수단으로 뚫지 못하는 곳에 진입로를 낼 수 있지만, 그 밖의 거리에서는 거의 쓸모가 없습니다.</DMS_RiotShotgun.comps.4.ammos.3.description>
   <DMS_Bullet_RiotShotgun.label>4게이지 고무 슬러그탄</DMS_Bullet_RiotShotgun.label>
   <DMS_Bullet_RiotShotgun.description>4게이지 고무 슬러그탄입니다. 표적을 죽이지 않고 쓰러뜨리기 위해 관통하지 않는 강력한 충격을 가합니다. 장갑판에는 효과가 없습니다.</DMS_Bullet_RiotShotgun.description>
   <DMS_Bullet_RiotShotgun_Buck.label>4게이지 벅샷</DMS_Bullet_RiotShotgun_Buck.label>
@@ -620,14 +634,14 @@
   <DMS_Gun_Recoilless.tools.0.label>개머리판</DMS_Gun_Recoilless.tools.0.label>
   <DMS_Gun_Recoilless.tools.1.label>총열</DMS_Gun_Recoilless.tools.1.label>
   <DMS_Gun_Recoilless.verbs.Verb_Shoot_AmmoSwitch.label>무반동포</DMS_Gun_Recoilless.verbs.Verb_Shoot_AmmoSwitch.label>
-  <DMS_Gun_Recoilless.comps.0.ammos.0.label>공중폭발 산탄</DMS_Gun_Recoilless.comps.0.ammos.0.label>
-  <DMS_Gun_Recoilless.comps.0.ammos.0.description>보통 수준의 관통력과 넓은 금속 화살탄 폭발 범위를 지닌 폭발성 산탄입니다. 비장갑 표적 무리에 가장 효과적입니다.</DMS_Gun_Recoilless.comps.0.ammos.0.description>
-  <DMS_Gun_Recoilless.comps.0.ammos.1.label>성형작약탄</DMS_Gun_Recoilless.comps.0.ammos.1.label>
-  <DMS_Gun_Recoilless.comps.0.ammos.1.description>장갑 관통력이 매우 높은 화학 에너지 관통체입니다. 파편 슬리브가 전방 원뿔 형태로 파편을 뿌립니다. 중장갑 표적에 가장 효과적입니다.</DMS_Gun_Recoilless.comps.0.ammos.1.description>
-  <DMS_Gun_Recoilless.comps.0.ammos.2.label>폭파탄</DMS_Gun_Recoilless.comps.0.ammos.2.label>
-  <DMS_Gun_Recoilless.comps.0.ammos.2.description>구조물에 특화된 고폭탄으로, 포탑과 벽을 비롯한 내구력이 높은 표적을 무너뜨릴 수 있습니다.</DMS_Gun_Recoilless.comps.0.ammos.2.description>
-  <DMS_Gun_Recoilless.comps.0.ammos.3.label>공중폭발 연막탄</DMS_Gun_Recoilless.comps.0.ammos.3.label>
-  <DMS_Gun_Recoilless.comps.0.ammos.3.description>착탄점 위에서 터져 연막을 펼치는 지원용 탄두입니다.</DMS_Gun_Recoilless.comps.0.ammos.3.description>
+  <DMS_Gun_Recoilless.comps.4.ammos.0.label>공중폭발 산탄</DMS_Gun_Recoilless.comps.4.ammos.0.label>
+  <DMS_Gun_Recoilless.comps.4.ammos.0.description>가시형 다트를 넓은 범위로 흩뿌리는 폭발성 산탄이지만, 관통력은 평범합니다. 비장갑 표적 무리를 상대할 때 가장 효과적입니다.</DMS_Gun_Recoilless.comps.4.ammos.0.description>
+  <DMS_Gun_Recoilless.comps.4.ammos.1.label>성형작약탄</DMS_Gun_Recoilless.comps.4.ammos.1.label>
+  <DMS_Gun_Recoilless.comps.4.ammos.1.description>매우 높은 장갑 관통력을 지닌 화학 에너지 관통탄으로, 파편 외피가 전방 원뿔 범위로 파편을 흩뿌립니다. 중장갑 표적을 상대할 때 가장 효과적입니다.</DMS_Gun_Recoilless.comps.4.ammos.1.description>
+  <DMS_Gun_Recoilless.comps.4.ammos.2.label>구조물 파괴탄</DMS_Gun_Recoilless.comps.4.ammos.2.label>
+  <DMS_Gun_Recoilless.comps.4.ammos.2.description>구조물 파괴에 특화된 고폭탄으로, 포탑과 벽을 비롯한 내구도가 높은 표적을 무너뜨릴 수 있습니다.</DMS_Gun_Recoilless.comps.4.ammos.2.description>
+  <DMS_Gun_Recoilless.comps.4.ammos.3.label>공중폭발 연막탄</DMS_Gun_Recoilless.comps.4.ammos.3.label>
+  <DMS_Gun_Recoilless.comps.4.ammos.3.description>착탄 지점 위에서 터져 연막을 형성하는 지원용 탄두입니다.</DMS_Gun_Recoilless.comps.4.ammos.3.description>
   <DMS_Bullet_RR.label>공중폭발 산탄</DMS_Bullet_RR.label>
   <DMS_Bullet_RR.description>공중에서 날카로운 금속 화살탄을 터뜨리는 성형작약 산탄입니다. 사선을 따라 전방 원뿔 형태로 화살탄을 뿌려 엄폐물 뒤의 대상까지 해칩니다.</DMS_Bullet_RR.description>
   <DMS_Bullet_RR_HE.label>73mm 고폭 파편탄</DMS_Bullet_RR_HE.label>
@@ -694,7 +708,7 @@
   <DMS_LightMachineGunMounted.description>표준 소총탄을 사용하는 제압용 무기입니다.\n\n거치 운용을 위해 특별히 설계된 무기로, 특정 유닛만 장착할 수 있습니다.</DMS_LightMachineGunMounted.description>
   <DMS_LightMachineGunMounted.verbs.Verb_Shoot.label>거치용 LMG</DMS_LightMachineGunMounted.verbs.Verb_Shoot.label>
   <DMS_HeavyMachineGunMounted.label>거치용 HMG</DMS_HeavyMachineGunMounted.label>
-  <DMS_HeavyMachineGunMounted.description>기계병 또는 보병 지원 플랫폼용 중기관총\n\n이 무기는 고정 장착을 전제로 설계되었기 때문에, 특정 유닛만 운용할 수 있습니다.</DMS_HeavyMachineGunMounted.description>
+  <DMS_HeavyMachineGunMounted.description>메크 병사나 보병 지원 플랫폼용 중기관총입니다.\n\n이 무기는 고정 장착용으로 설계되어 특정 유닛만 장착할 수 있습니다.</DMS_HeavyMachineGunMounted.description>
   <DMS_HeavyMachineGunMounted.verbs.Verb_Shoot.label>거치용 HMG</DMS_HeavyMachineGunMounted.verbs.Verb_Shoot.label>
   <DMS_Gun_Kord_Vehicle.label>코르드</DMS_Gun_Kord_Vehicle.label>
   <DMS_Gun_Kord_Vehicle.description>죽음을 쏘아 모든 것을 쓸어버리는 코르드 기관총입니다.\n\n거치 운용을 위해 특별히 설계된 무기로, 특정 유닛만 장착할 수 있습니다.</DMS_Gun_Kord_Vehicle.description>
@@ -704,23 +718,23 @@
   <DMS_Gun_Vasilek_B.verbs.Verb_Shoot.label>2B9A 바실레크</DMS_Gun_Vasilek_B.verbs.Verb_Shoot.label>
   <DMS_DeposableRocketLauncher.label>일회용 발사기</DMS_DeposableRocketLauncher.label>
   <DMS_DeposableRocketLauncher.description>발사 후 버리도록 설계한 일회용 무반동포입니다. 가볍고 벙커와 중장 메크에 효과적입니다. 사거리가 길며 표적까지 시야가 확보되어야 합니다.</DMS_DeposableRocketLauncher.description>
-  <DMS_DeposableRocketLauncher.comps.0.chargeNoun>로켓탄</DMS_DeposableRocketLauncher.comps.0.chargeNoun>
+  <DMS_DeposableRocketLauncher.comps.2.chargeNoun>탄약</DMS_DeposableRocketLauncher.comps.2.chargeNoun>
   <DMS_Bullet_DR.label>폭파 로켓탄</DMS_Bullet_DR.label>
   <DMS_Gun_RecoillessLight.label>경량 무반동포</DMS_Gun_RecoillessLight.label>
   <DMS_Gun_RecoillessLight.description>분대 단위까지 지급되는 4kg짜리 일회용 무반동 발사기입니다. 장갑과 벙커, 출입구에 대응하는 소모품으로, 섬유를 감아 만든 발사관은 한 번 쏘면 버립니다. 사격 통제 장치는 교체 가능한 탄두 네 종류를 받아들이므로 발사관을 어깨에 올리기 전에 효과를 선택합니다.\n\n정찰 드론도 들 수 있을 만큼 가볍고 성형작약 탄두는 훨씬 무거운 장갑도 뚫으며, 폭파탄과 연막탄을 사용하면 병사 한 명이 벽을 열거나 철수를 엄호할 수 있습니다. 하지만 모든 것을 한 발에 소모합니다. 재장전할 수 없고 유효 사거리가 짧으며, 후폭풍이 전장의 모든 화기에 운용자의 위치를 알려줍니다.</DMS_Gun_RecoillessLight.description>
+  <DMS_Gun_RecoillessLight.comps.5.chargeNoun>탄약</DMS_Gun_RecoillessLight.comps.5.chargeNoun>
   <DMS_Gun_RecoillessLight.tools.0.label>발사관</DMS_Gun_RecoillessLight.tools.0.label>
   <DMS_Gun_RecoillessLight.verbs.Verb_Shoot_AmmoSwitch.label>경량 무반동포</DMS_Gun_RecoillessLight.verbs.Verb_Shoot_AmmoSwitch.label>
-  <DMS_Gun_RecoillessLight.comps.1.chargeNoun>로켓탄</DMS_Gun_RecoillessLight.comps.1.chargeNoun>
-  <DMS_Gun_RecoillessLight.comps.0.ammos.0.label>고폭 파편탄</DMS_Gun_RecoillessLight.comps.0.ammos.0.label>
-  <DMS_Gun_RecoillessLight.comps.0.ammos.0.description>넓은 폭발 범위와 보통 수준의 관통력을 지닌 고폭탄입니다. 비장갑 표적 무리에 가장 효과적입니다.</DMS_Gun_RecoillessLight.comps.0.ammos.0.description>
-  <DMS_Gun_RecoillessLight.comps.0.ammos.1.label>성형작약탄</DMS_Gun_RecoillessLight.comps.0.ammos.1.label>
-  <DMS_Gun_RecoillessLight.comps.0.ammos.1.description>폭발 범위는 작지만 장갑 관통력이 매우 높은 화학 에너지 관통체입니다. 중장갑 표적에 가장 효과적입니다.</DMS_Gun_RecoillessLight.comps.0.ammos.1.description>
-  <DMS_Gun_RecoillessLight.comps.0.ammos.2.label>폭파탄</DMS_Gun_RecoillessLight.comps.0.ammos.2.label>
-  <DMS_Gun_RecoillessLight.comps.0.ammos.2.description>구조물에 특화된 고폭탄으로, 포탑과 벽을 비롯한 내구력이 높은 표적을 무너뜨릴 수 있습니다.</DMS_Gun_RecoillessLight.comps.0.ammos.2.description>
-  <DMS_Gun_RecoillessLight.comps.0.ammos.3.label>공중폭발 연막탄</DMS_Gun_RecoillessLight.comps.0.ammos.3.label>
-  <DMS_Gun_RecoillessLight.comps.0.ammos.3.description>착탄점 위에서 터져 연막을 펼치는 지원용 탄두입니다.</DMS_Gun_RecoillessLight.comps.0.ammos.3.description>
-  <DMS_Gun_RecoillessLight.comps.0.ammos.4.label>소화거품</DMS_Gun_RecoillessLight.comps.0.ammos.4.label>
-  <DMS_Gun_RecoillessLight.comps.0.ammos.4.description>넓은 구역에 난연성 거품을 분사해 불길을 덮어 끄고, 거품층을 남겨 다시 불붙지 않게 하는 소방용 탄입니다. 피해를 주지 않습니다.</DMS_Gun_RecoillessLight.comps.0.ammos.4.description>
+  <DMS_Gun_RecoillessLight.comps.4.ammos.0.label>고폭 파편탄</DMS_Gun_RecoillessLight.comps.4.ammos.0.label>
+  <DMS_Gun_RecoillessLight.comps.4.ammos.0.description>폭발 범위가 넓지만 관통력은 평범한 고폭탄입니다. 비장갑 표적 무리를 상대할 때 가장 효과적입니다.</DMS_Gun_RecoillessLight.comps.4.ammos.0.description>
+  <DMS_Gun_RecoillessLight.comps.4.ammos.1.label>성형작약탄</DMS_Gun_RecoillessLight.comps.4.ammos.1.label>
+  <DMS_Gun_RecoillessLight.comps.4.ammos.1.description>폭발 범위는 좁지만 장갑 관통력이 매우 높은 화학 에너지 관통탄입니다. 중장갑 표적을 상대할 때 가장 효과적입니다.</DMS_Gun_RecoillessLight.comps.4.ammos.1.description>
+  <DMS_Gun_RecoillessLight.comps.4.ammos.2.label>구조물 파괴탄</DMS_Gun_RecoillessLight.comps.4.ammos.2.label>
+  <DMS_Gun_RecoillessLight.comps.4.ammos.2.description>구조물 파괴에 특화된 고폭탄으로, 포탑과 벽을 비롯한 내구도가 높은 표적을 무너뜨릴 수 있습니다.</DMS_Gun_RecoillessLight.comps.4.ammos.2.description>
+  <DMS_Gun_RecoillessLight.comps.4.ammos.3.label>공중폭발 연막탄</DMS_Gun_RecoillessLight.comps.4.ammos.3.label>
+  <DMS_Gun_RecoillessLight.comps.4.ammos.3.description>착탄 지점 위에서 터져 연막을 형성하는 지원용 탄두입니다.</DMS_Gun_RecoillessLight.comps.4.ammos.3.description>
+  <DMS_Gun_RecoillessLight.comps.4.ammos.4.label>소방거품탄</DMS_Gun_RecoillessLight.comps.4.ammos.4.label>
+  <DMS_Gun_RecoillessLight.comps.4.ammos.4.description>넓은 범위에 난연성 거품을 뿌려 불길을 덮어 끄고, 거품층을 남겨 다시 불이 붙지 않도록 하는 소방탄입니다. 피해는 입히지 않습니다.</DMS_Gun_RecoillessLight.comps.4.ammos.4.description>
   <DMS_Bullet_LRR_HE.label>65mm 고폭 파편 로켓</DMS_Bullet_LRR_HE.label>
   <DMS_Bullet_LRR_HE.description>소량의 작약을 채운 얇은 외피의 파편 탄두입니다. 넓게 퍼지는 파편으로 개활지의 보병과 참호선을 쓸어버리지만, 부드러운 외피는 장갑을 뚫지 못하고 납작해집니다.</DMS_Bullet_LRR_HE.description>
   <DMS_Bullet_LRR_HEAT.label>65mm 성형작약 로켓</DMS_Bullet_LRR_HEAT.label>
@@ -736,14 +750,14 @@
   <DMS_AssaultShotgun.description>스탬포넨트로 대량 생산이 가능한 자동 산탄총입니다.\n\n이 무기는 오토마트로이드 전용으로 설계되어, 일반적인 인간은 외부 보조 장비나 신체 증강 없이는 제대로 다루기 어렵습니다.</DMS_AssaultShotgun.description>
   <DMS_AssaultShotgun.tools.0.label>개머리판</DMS_AssaultShotgun.tools.0.label>
   <DMS_AssaultShotgun.tools.1.label>총열</DMS_AssaultShotgun.tools.1.label>
-  <DMS_AssaultShotgun.comps.0.ammos.0.label>벅샷</DMS_AssaultShotgun.comps.0.ammos.0.label>
-  <DMS_AssaultShotgun.comps.0.ammos.0.description>표준 산탄을 3점사합니다. 특별한 점은 없지만, 장갑을 입지 않은 대상이라면 누구도 앞에 서고 싶지 않을 것입니다.</DMS_AssaultShotgun.comps.0.ammos.0.description>
-  <DMS_AssaultShotgun.comps.0.ammos.1.label>슬러그탄</DMS_AssaultShotgun.comps.0.ammos.1.label>
-  <DMS_AssaultShotgun.comps.0.ammos.1.description>산탄 대신 강선형 슬러그탄 한 발을 발사합니다. 방아쇠를 당길 때마다 발사체 하나만 나가는 대신 훨씬 멀리 날아가 경장갑을 관통합니다.</DMS_AssaultShotgun.comps.0.ammos.1.description>
-  <DMS_AssaultShotgun.comps.0.ammos.2.label>텅스텐 플레셰트탄</DMS_AssaultShotgun.comps.0.ammos.2.label>
-  <DMS_AssaultShotgun.comps.0.ammos.2.description>텅스텐 심을 넣은 화살탄을 사보에 담았습니다. 각각의 질량이 거의 없어 살에는 별다른 피해를 주지 않지만, 한 번에 다섯 발이 날아가 벅샷을 튕겨내는 장갑도 뚫고 들어갑니다.</DMS_AssaultShotgun.comps.0.ammos.2.description>
-  <DMS_AssaultShotgun.comps.0.ammos.3.label>용의 숨결탄</DMS_AssaultShotgun.comps.0.ammos.3.label>
-  <DMS_AssaultShotgun.comps.0.ammos.3.description>총열을 벗어나며 발화하는 지르코늄 산탄입니다. 불타는 구름은 몇 걸음밖에 나아가지 못하고 자체 피해도 낮지만, 네 발이면 복도 전체에 불을 붙여 누구도 지나가지 못하게 할 수 있습니다.</DMS_AssaultShotgun.comps.0.ammos.3.description>
+  <DMS_AssaultShotgun.comps.4.ammos.0.label>산탄</DMS_AssaultShotgun.comps.4.ammos.0.label>
+  <DMS_AssaultShotgun.comps.4.ammos.0.description>산탄을 세 발씩 점사하는 기본 탄종입니다. 별다른 기교는 없지만, 장갑이 없는 표적이라면 누구도 그 앞에 서고 싶어 하지 않습니다.</DMS_AssaultShotgun.comps.4.ammos.0.description>
+  <DMS_AssaultShotgun.comps.4.ammos.1.label>슬러그탄</DMS_AssaultShotgun.comps.4.ammos.1.label>
+  <DMS_AssaultShotgun.comps.4.ammos.1.description>산탄 대신 표면에 홈이 파인 슬러그탄 한 발을 발사합니다. 사거리가 훨씬 길고 얇은 장갑도 관통하지만, 방아쇠를 한 번 당길 때 발사되는 탄환은 한 발뿐입니다.</DMS_AssaultShotgun.comps.4.ammos.1.description>
+  <DMS_AssaultShotgun.comps.4.ammos.2.label>텅스텐 플레셰트탄</DMS_AssaultShotgun.comps.4.ammos.2.label>
+  <DMS_AssaultShotgun.comps.4.ammos.2.description>텅스텐 심을 넣은 다트를 담은 분리철갑탄입니다. 다트 하나하나의 질량이 극히 작아 생체에는 별다른 피해를 주지 못하지만, 방아쇠를 한 번 당길 때 다섯 발이 발사되어 산탄을 거뜬히 막아내는 장갑도 뚫고 들어갑니다.</DMS_AssaultShotgun.comps.4.ammos.2.description>
+  <DMS_AssaultShotgun.comps.4.ammos.3.label>용의 숨결탄</DMS_AssaultShotgun.comps.4.ammos.3.label>
+  <DMS_AssaultShotgun.comps.4.ammos.3.description>총열을 벗어나면서 불이 붙는 지르코늄 산탄입니다. 불타는 탄환 구름은 몇 걸음밖에 날아가지 않고 자체 피해도 작지만, 네 발을 발사하면 복도를 불바다로 만들어 아무것도 지나가지 못하게 합니다.</DMS_AssaultShotgun.comps.4.ammos.3.description>
   <DMS_Bullet_AssaultShotgun_Slug.label>12게이지 슬러그탄</DMS_Bullet_AssaultShotgun_Slug.label>
   <DMS_Bullet_AssaultShotgun_Slug.description>퍼지는 산탄 대신 강선형 납 슬러그탄 한 발을 발사합니다. 훨씬 멀리 날아가 경장갑을 관통하지만, 방아쇠를 당길 때마다 총열을 나서는 발사체는 하나뿐입니다.</DMS_Bullet_AssaultShotgun_Slug.description>
   <DMS_Bullet_AssaultShotgun_Flechette.label>12게이지 텅스텐 플레셰트탄</DMS_Bullet_AssaultShotgun_Flechette.label>
@@ -819,8 +833,14 @@
   <DMS_MechLink_Nerfed.label>BOID 컨트롤러</DMS_MechLink_Nerfed.label>
   <DMS_MechLink_Nerfed.description>메카노이드를 직접 제어할 수 있는 인공 생체공학 임플란트입니다. 낮은 기술 수준에서도 제작 및 사용이 가능한 간소화된 버전으로, 제작 비용도 저렴합니다. 다만, 생산 품질의 한계로 인해 일정 시간이 지나면 고장을 일으키며 기능이 정지됩니다.</DMS_MechLink_Nerfed.description>
   <DMS_MechLink_Nerfed.comps.CompUsableImplant.useLabel>{0_label}(을)를 설치해 메카나이터 되기</DMS_MechLink_Nerfed.comps.CompUsableImplant.useLabel>
+  <DMS_MechConstructorForming.label>Mote</DMS_MechConstructorForming.label>
+  <DMS_MechConstructorCycleComplete.label>Mote</DMS_MechConstructorCycleComplete.label>
+  <DMS_MechConstructorFormed.label>Mote</DMS_MechConstructorFormed.label>
   <DMS_MechGestatorSmall.label>오토마트로이드 구성기</DMS_MechGestatorSmall.label>
   <DMS_MechGestatorSmall.description>경량 및 중형 오토마트로이드를 조립하는 대형 산업 장비입니다.</DMS_MechGestatorSmall.description>
+  <DMS_LargeMechConstructorForming.label>Mote</DMS_LargeMechConstructorForming.label>
+  <DMS_LargeMechConstructorCycleComplete.label>Mote</DMS_LargeMechConstructorCycleComplete.label>
+  <DMS_LargeMechConstructorFormed.label>Mote</DMS_LargeMechConstructorFormed.label>
   <DMS_MechGestatorLarge.label>대형 오토마트로이드 구성기</DMS_MechGestatorLarge.label>
   <DMS_MechGestatorLarge.description>대형 오토마트로이드를 조립하는 거대한 산업 장비입니다.</DMS_MechGestatorLarge.description>
   <Bullet_60mmMortarShell_DF_HE.label>60mm 박격포탄 (고폭탄)</Bullet_60mmMortarShell_DF_HE.label>
@@ -845,7 +865,7 @@
   <DMS_SubTurret_127Gatling.description>어깨에 거치하는 다총열 포탑입니다.</DMS_SubTurret_127Gatling.description>
   <DMS_SubTurret_127Gatling.verbs.Verb_ShootCE.label>거치용 GAU-19/A</DMS_SubTurret_127Gatling.verbs.Verb_ShootCE.label>
   <DMS_Tarbosaurus_SubMachineGun.label>중기관총 포탑</DMS_Tarbosaurus_SubMachineGun.label>
-  <DMS_Tarbosaurus_SubMachineGun.description>기계병 또는 보병 지원 플랫폼을 위한 중기관총입니다.\n\n이 무기는 고정 장착을 전제로 설계되었기 때문에, 특정 유닛만 운용할 수 있습니다.</DMS_Tarbosaurus_SubMachineGun.description>
+  <DMS_Tarbosaurus_SubMachineGun.description>메크 병사나 보병 지원 플랫폼용 중기관총입니다.\n\n이 무기는 고정 장착용으로 설계되어 특정 유닛만 장착할 수 있습니다.</DMS_Tarbosaurus_SubMachineGun.description>
   <DMS_Tarbosaurus_SubMachineGun.verbs.Verb_ShootCE.label>중기관총 포탑</DMS_Tarbosaurus_SubMachineGun.verbs.Verb_ShootCE.label>
   <DMS_Tarbosaurus_ShotgunGun.label>근접 방어 시스템</DMS_Tarbosaurus_ShotgunGun.label>
   <DMS_Tarbosaurus_ShotgunGun.description>근거리에서 적을 제압하도록 설계된 다총열 산탄총 포탑입니다.</DMS_Tarbosaurus_ShotgunGun.description>
@@ -869,6 +889,8 @@
   <DMS_ConsoleDouble_Neutral.description>다목적 컴퓨터 단말기입니다.</DMS_ConsoleDouble_Neutral.description>
   <DMS_AccessConsole_Neutral.label>접근 콘솔</DMS_AccessConsole_Neutral.label>
   <DMS_AccessConsole_Neutral.description>다목적 컴퓨터 단말기입니다. 내장 판독 장치에 키 카드를 넣을 수 있습니다.</DMS_AccessConsole_Neutral.description>
+  <DMS_BossKillRelay.label>수호기 봉쇄 중계기</DMS_BossKillRelay.label>
+  <DMS_BossKillRelay.description>시설 수호기의 생체 신호에 연동된 보안 중계기입니다. 연결된 모든 문은 그 신호가 끊길 때까지 봉인된 상태를 유지합니다.</DMS_BossKillRelay.description>
   <DMS_SealedRollingDoor_Single.label>밀폐문</DMS_SealedRollingDoor_Single.label>
   <DMS_SealedRollingDoor_Single.description>밀폐식 강화문입니다.</DMS_SealedRollingDoor_Single.description>
   <DMS_SealedRollingDoor_Double.label>밀폐문</DMS_SealedRollingDoor_Double.label>
@@ -1092,7 +1114,7 @@
   <DMS_FPVNest.label>FPV 드론 둥지</DMS_FPVNest.label>
   <DMS_FPVNest.description>봉인된 개척기 설계로 제작한 주둔용 드론 둥지입니다. 강철을 넣으면 동축 반전 로터식 자폭 드론인 와일드폴을 조립합니다. 드론은 적을 추적해 충돌하며 폭발하고, 한 번에 최대 네 대씩 발사됩니다.\n\n이 세계의 시설을 아직도 지키는 둥지와 달리 보급용 지하 군수망이 없어 수동으로 자재를 넣어야 합니다. 불러들인 드론에서는 강철을 회수할 수 있지만, 배터리가 완전히 방전된 드론은 소실됩니다.</DMS_FPVNest.description>
   <DMS_MechCapsule_VaultKennel.label>동면 중인 불하운드</DMS_MechCapsule_VaultKennel.label>
-  <DMS_MechCapsule_VaultKennel.description>등쪽 거치대에 무장을 그대로 장착한 채 충전용 거치대에 고정되어 동면 중인 불하운드 주둔 오토마트로이드입니다. 시설이 봉인될 때 경계 임무에 남겨졌으며, 경보 회로가 아직 살아 있습니다. 메카나이터가 해킹해 제어할 수 있습니다.</DMS_MechCapsule_VaultKennel.description>
+  <DMS_MechCapsule_VaultKennel.description>등 장착대의 무장이 장전된 상태로 충전 격납대에 고정되어 동면 중인 불하운드 또는 헬하운드 주둔 오토마트로이드입니다. 시설이 봉인될 때 경계 임무를 맡긴 채 남겨졌으며, 경보 회로는 아직 살아 있습니다. 메카나이터가 해킹해 통제권을 확보하려 시도할 수 있습니다.</DMS_MechCapsule_VaultKennel.description>
   <DMS_MechCapsule_PirateRaider.label>작동 불능 메크</DMS_MechCapsule_PirateRaider.label>
   <DMS_MechCapsule_PirateRaider.description>제작된 조립 받침대에 고정된 채 휴면 중인 레이더형 오토마트로이드입니다. 생산 라인이 지휘 인증을 잠그기 전에 작업이 중단되었습니다. 메카나이터가 해킹하여 통제를 시도할 수 있습니다.</DMS_MechCapsule_PirateRaider.description>
   <DMS_MechCapsule_PirateTachanka.label>작동 불능 메크</DMS_MechCapsule_PirateTachanka.label>
@@ -1112,16 +1134,16 @@
   <DMS_OccultechKey.description>봉인된 케이스에 든 손바닥 크기의 암호판입니다. 문양마다 이 세계의 지하에 묻힌 비석을 여는 인증 키의 일부를 담고 있습니다. 식민 함대는 각 비석의 키를 여러 문양으로 나누어 흩어 놓으므로, 하나만 발견해서는 비석을 열 수 없습니다.\n\n큐비트 해독으로 한 세트를 모두 읽으면 해당 비석의 위치와 봉인을 푸는 방법을 알아낼 수 있습니다. 판독으로 양자 상태가 붕괴되어 문양은 소모됩니다.</DMS_OccultechKey.description>
   <DMS_DataCache_Restricted.label>제한 기술 자료함</DMS_DataCache_Restricted.label>
   <DMS_DataCache_Restricted.description>현지 유통 허가가 한 번도 내려지지 않은 기술 파일을 담은 암호화 기록 모듈입니다. 식민지 육군 부대가 기술적 특징을 대조하기 위한 참고 자료로 보관해 왔습니다. 정착민 한 명이 몇 시간 동안 이를 해독하면 제한 등급의 봉인 기술 연구 과제 하나를 밝혀내고 연구 진행도를 조금 높일 수 있습니다.</DMS_DataCache_Restricted.description>
-  <DMS_DataCache_Restricted.comps.0.useLabel>{0_label} 해독</DMS_DataCache_Restricted.comps.0.useLabel>
+  <DMS_DataCache_Restricted.comps.1.useLabel>{0_label} 해독</DMS_DataCache_Restricted.comps.1.useLabel>
   <DMS_DataCache_Sealed.label>봉인 자료함</DMS_DataCache_Sealed.label>
   <DMS_DataCache_Sealed.description>봉인이 온전히 유지된 기록 모듈입니다. 이 등급의 파일은 함대가 감시하는 기록 보관소 밖으로 거의 반출되지 않습니다. 정착민 한 명이 이를 해독하면 봉인 등급의 봉인 기술 연구 과제 하나를 밝혀내고 연구 진행도를 어느 정도 높일 수 있습니다.</DMS_DataCache_Sealed.description>
-  <DMS_DataCache_Sealed.comps.0.useLabel>{0_label} 해독</DMS_DataCache_Sealed.comps.0.useLabel>
+  <DMS_DataCache_Sealed.comps.1.useLabel>{0_label} 해독</DMS_DataCache_Sealed.comps.1.useLabel>
   <DMS_DataCache_Occulted.label>극비 자료함</DMS_DataCache_Occulted.label>
   <DMS_DataCache_Occulted.description>연결 단자도 이음매도 없으며 아무런 표식도 없는 복합재 기록 모듈입니다. 정착민 한 명이 이를 해독하면 극비 등급의 봉인 기술 연구 과제 하나를 밝혀내고 연구 진행도를 어느 정도 높일 수 있습니다.</DMS_DataCache_Occulted.description>
-  <DMS_DataCache_Occulted.comps.0.useLabel>{0_label} 해독 </DMS_DataCache_Occulted.comps.0.useLabel>
+  <DMS_DataCache_Occulted.comps.1.useLabel>{0_label} 해독</DMS_DataCache_Occulted.comps.1.useLabel>
   <DMS_SubsonicModule.label>초저주파 모듈</DMS_SubsonicModule.label>
   <DMS_SubsonicModule.description>메크의 차체에 볼트로 고정하고 동력 배터리에서 전력을 공급받도록 구성한 정밀 조율 초저주파 방출기 배열입니다. 명령을 받으면 메크 주변에 초저주파를 한 차례 방출합니다. 영향을 받은 적대 생물은 구역질과 통증에 시달리며, 다수는 공포에 질려 그대로 달아납니다. 메크에는 효과가 없습니다.\n\n방출기가 계속 전력을 소모하므로 메크의 에너지 소비량이 약간 증가합니다.</DMS_SubsonicModule.description>
-  <DMS_SubsonicModule.comps.0.useLabel>{0_label} 사용</DMS_SubsonicModule.comps.0.useLabel>
+  <DMS_SubsonicModule.comps.1.useLabel>{0_label} 사용</DMS_SubsonicModule.comps.1.useLabel>
   <DMS_Weapon_GrenadeSubsonic.label>초저주파 수류탄</DMS_Weapon_GrenadeSubsonic.label>
   <DMS_Weapon_GrenadeSubsonic.description>파편 대신 정밀 조율된 초저주파를 한 차례 방출하는 수류탄입니다. 초저주파는 벽과 엄폐물을 모두 통과하므로 반경 내의 모든 생물에게 적아 구분 없이 닿아 구역질과 통증을 일으키고, 다수를 공황 상태에 빠뜨립니다. 건물과 메크는 영향을 받지 않습니다.</DMS_Weapon_GrenadeSubsonic.description>
   <DMS_Weapon_GrenadeSubsonic.verbs.Verb_LaunchProjectile.label>초저주파 수류탄 투척</DMS_Weapon_GrenadeSubsonic.verbs.Verb_LaunchProjectile.label>
@@ -1132,7 +1154,7 @@
 이 모델은 자동 산탄총을 장착합니다. 거치대가 고정되어 있어 무기를 교체할 수 없습니다.</DMS_Mech_BullHound.description>
   <DMS_Mech_BullHound.tools.0.label>턱</DMS_Mech_BullHound.tools.0.label>
   <DMS_Mech_BullHound.tools.1.label>들이받기</DMS_Mech_BullHound.tools.1.label>
-  <DMS_Mech_BullHound_Flamer.label>불하운드 (화염방사형)</DMS_Mech_BullHound_Flamer.label>
+  <DMS_Mech_BullHound_Flamer.label>헬하운드</DMS_Mech_BullHound_Flamer.label>
   <DMS_Mech_BullHound_Flamer.description>주둔 임무용으로 제작한 중장 사족 보행 오토마트로이드입니다. 도기의 대형 파생형으로, 소형 원형의 인공 근육이 주는 민첩성을 포기하고 두꺼운 장갑과 등쪽 고정 거치대를 갖췄습니다. 잔존군 시설의 관문과 복도 교차로에 배치되어 침입자를 근거리에서 저지했습니다.
 
 이 모델은 복도 소탕용 화염 발사기를 장착하며, 자체 화염에 견디도록 장갑을 처리했습니다. 거치대가 고정되어 있어 무기를 교체할 수 없습니다.</DMS_Mech_BullHound_Flamer.description>
