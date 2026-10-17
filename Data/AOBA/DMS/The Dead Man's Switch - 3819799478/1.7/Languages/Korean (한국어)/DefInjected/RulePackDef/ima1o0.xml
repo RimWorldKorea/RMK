@@ -8,17 +8,22 @@
     <li>acquitLetterLabel-&gt;판결: 무죄</li>
     <li>acquitLetterText-&gt;예상과 달리 [defendantName](이)가 법정에서 설득력 있게 변론했습니다. [issuerFactionName] 항법청은 혐의에 근거가 없다고 판결하고 계급과 복무 기록을 그대로 유지한 채 즉시 석방하라고 명령했습니다.\n\n장교단은 눈에 띄게 깊은 인상을 받았습니다. [issuerFactionName](은)는 우리를 공식적으로 인정했으며, 이제 우리와 동맹 관계입니다. [defendantName](은)는 낙하 포드로 귀환하고 있습니다.</li>
     <li>acquitNoAllyLetterText-&gt;예상과 달리 [defendantName](이)가 법정에서 설득력 있게 변론했습니다. [issuerFactionName] 항법청은 혐의에 근거가 없다고 판결하고 계급과 복무 기록을 그대로 유지한 채 즉시 석방하라고 명령했습니다.\n\n사건은 종결되었지만, 우리가 여전히 봉인 기술을 보유하고 있어 [issuerFactionName](은)는 거리를 두고 있습니다. 관계는 중립으로 돌아가며, 그 이상은 개선되지 않습니다. [defendantName](은)는 낙하 포드로 귀환하고 있습니다.</li>
+    <li>acquitDeviantLetterText-&gt;예상과 달리 [defendantName](은)는 법정에서 설득력 있게 변론했습니다. [issuerFactionName] 항법청은 탈영한 사유를 인정하고 혐의를 기각했으며, [defendantName]에 대한 추적 명령을 철회했습니다.\n\n다만 함대는 그 이상의 호의를 베풀지 않으며, 관계는 중립으로 돌아갑니다. [defendantName](은)는 낙하 포드로 귀환 중입니다.</li>
     <li>verdictLetterLabel-&gt;판결: [defendantName]</li>
     <li>verdictLetterLabel-&gt;형 선고</li>
     <li>verdictLetterText-&gt;[issuerFactionName] 항법청이 형을 선고했습니다. [defendantName]의 협조를 고려해 처벌은 최저 수준인 [oldTitle]에서 [newTitle](으)로의 강등과 [detentionDays]일 구금으로 정해졌으며, 즉시 집행됩니다.\n\n구금 기간 동안 숙식과 의료 비용은 함대가 부담합니다.</li>
     <li>verdictLetterNoDemotionText-&gt;[issuerFactionName] 항법청이 형을 선고했습니다. [defendantName](은)는 함대 명부에 등록된 계급이 없으므로 박탈할 계급도 없습니다. 처벌은 [detentionDays]일 구금이며, 즉시 집행됩니다.
 
 구금 기간 동안 숙식과 의료 비용은 함대가 부담합니다.</li>
+    <li>verdictLetterDeviantText-&gt;[issuerFactionName] 항법청이 형을 선고했습니다. [defendantName](은)는 한때 함대 명부에 이름을 올렸으나 스스로 함대를 떠났습니다. 이제 박탈할 계급은 없으며, 탈영과 기밀 유출에 대한 책임만 남았습니다. 처벌은 [detentionDays]일 구금이며, 즉시 집행됩니다.\n\n구금 기간 동안 숙식과 의료 비용은 함대가 부담합니다. 형기를 마치면 [defendantName]에 대한 추적이 종료됩니다.</li>
     <li>returnAllyLetterLabel-&gt;[defendantName] 귀환: 함대의 인정을 받음</li>
     <li>returnAllyLetterText-&gt;[defendantName](이)가 형기를 마치고 낙하 포드로 귀환했습니다.\n\n구금 기간 내내 [defendantName]의 태도와 증언은 [issuerFactionName] 장교단에 깊은 인상을 남겼습니다. 함대는 우리를 공식적으로 인정했으며, 이제 [issuerFactionName](와)과 동맹 관계입니다.</li>
     <li>returnNeutralLetterLabel-&gt;[defendantName] 귀환</li>
     <li>returnNeutralLetterText-&gt;[defendantName](이)가 형기를 마치고 낙하 포드로 귀환했습니다.\n\n[issuerFactionName](은)는 사건이 공식적으로 종결된 것으로 간주합니다. 관계는 중립으로 유지됩니다. 휴전은 이어지지만 우호 관계로 발전하지는 못했습니다.</li>
     <li>betrayLetterLabel-&gt;군사재판 합의 위반</li>
-    <li>betrayLetterText-&gt;[issuerFactionName]과의 군사재판 합의가 파기되었습니다. 헌병사령부는 재판 절차를 무효로 선언했으며, [issuerFactionName](은)는 우리에 대한 적대 행위를 재개했습니다.</li>
+    <li>betrayLetterText-&gt;[issuerFactionName](와)과의 군사재판 합의가 파기되었습니다. 헌병 사령부는 재판 절차를 무효로 선언했으며, [issuerFactionName](은)는 우리에 대한 적대 행위를 재개했습니다.</li>
+    <li>acquitDeviantKillOrderLetterText-&gt;예상과 달리 [defendantName](은)는 법정에서 설득력 있게 변론했습니다. [issuerFactionName] 항법청은 탈영한 사유를 인정하고 혐의를 기각했으며, [defendantName]에 대한 추적 명령을 철회했습니다.\n\n하지만 봉인 기술에 대한 사살 명령은 여전히 유효합니다. 사건이 종결되면서 휴전도 끝났고, [issuerFactionName](은)는 다시 우리와 적대하게 되었습니다. [defendantName](은)는 낙하 포드로 귀환 중입니다.</li>
+    <li>returnDeviantKillOrderLetterLabel-&gt;[defendantName] 귀환: 사살 명령 유효</li>
+    <li>returnDeviantKillOrderLetterText-&gt;[defendantName](이)가 형기를 마치고 낙하 포드로 귀환했으며, [issuerFactionName](은)는 [defendantName]에 대한 추적을 중단했습니다.\n\n봉인 기술에 대한 사살 명령은 여전히 유효합니다. 사건이 종결되면서 휴전도 끝났고, [issuerFactionName](은)는 다시 우리와 적대하게 되었습니다. 사살 명령을 해제하려면 별도의 군법회의가 필요합니다.</li>
   </DMS_CourtMartialLetters.rulePack.rulesStrings>
 </LanguageData>

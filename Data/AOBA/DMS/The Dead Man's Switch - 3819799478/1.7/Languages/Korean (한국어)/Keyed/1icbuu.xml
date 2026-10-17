@@ -276,4 +276,52 @@
   <DMS_RealityAnchor_Field>영향 범위 내: {0} (억제 중: {1})</DMS_RealityAnchor_Field>
   <DMS_RealityAnchor_PsycastBlocked>현실 고정기의 장에 차단되었습니다.</DMS_RealityAnchor_PsycastBlocked>
   <DMS_StatRule_Max>{0}: 최대 {1}로 제한</DMS_StatRule_Max>
+  <DMS_Settings_SituationalMusic>상황별 음악</DMS_Settings_SituationalMusic>
+  <DMS_Settings_SituationalMusicDesc>DMS 장소와 지하 시설, DMS 보스 조우 및 추적대 습격 시 상황에 맞는 DMS 음악을 재생합니다. 탐사, 경보, 전투, 보스전, 봉쇄, 사건 이후 상황에 따라 음악이 달라집니다. 비활성화하면 기본 게임과 다른 모드가 음악을 재생합니다. 변경 사항은 즉시 적용됩니다.</DMS_Settings_SituationalMusicDesc>
+  <DMS_DeviantRefuge_ArrivedLabel>이탈자 도착</DMS_DeviantRefuge_ArrivedLabel>
+  <DMS_DeviantRefuge_ArrivedText>{DEVIANT_nameFull}(이)가 도착하여 정착지에 합류했습니다.\n\n{DEVIANT_pronoun}(은)는 암호화 기록을 복원하기 시작했으며, {DAYS}일이 걸릴 것으로 보입니다. 그때까지 {FLEET}(은)는 {DEVIANT_nameDef}(이)가 이곳에 있다는 사실을 모릅니다.</DMS_DeviantRefuge_ArrivedText>
+  <DMS_DeviantRefuge_HandoverInfo>기록 복원: {0}</DMS_DeviantRefuge_HandoverInfo>
+  <DMS_DeviantRefuge_HandoverInfoTip>{0}에 암호화 기록 복원이 완료되며, 그때 식민 함대가 이탈자의 인도를 요구할 것입니다.</DMS_DeviantRefuge_HandoverInfoTip>
+  <DMS_DeviantRefuge_HandoverLabel>봉인된 파일 복원</DMS_DeviantRefuge_HandoverLabel>
+  <DMS_DeviantRefuge_HandoverText>{DEVIANT_nameFull}(은)는 {DEVIANT_possessive} 약속대로 복원한 암호화 파일을 넘겨주었습니다.\n\n{GRANTED}\n\n동시에 {FLEET}(은)는 우리가 망명자를 숨겨 주고 있다고 판단하여 적대로 돌아섰습니다.\n\n함대는 이 일을 그냥 넘기지 않을 것입니다. {DEVIANT_nameDef}(이)가 정착지에 머무르는 한 추적대는 계속 찾아올 것입니다.</DMS_DeviantRefuge_HandoverText>
+  <DMS_DeviantRefuge_HandoverTextDeferred>{DEVIANT_nameFull}(은)는 {DEVIANT_possessive} 약속대로 복원한 암호화 파일을 넘겨주었습니다.\n\n{GRANTED}\n\n{FLEET}(은)는 우리가 {DEVIANT_nameDef}(을)를 숨겨 주고 있다는 사실을 알아차렸지만, 아직 군법회의가 진행 중이므로 휴전을 지키며 사격을 삼가고 있습니다. 재판이 끝나는 순간 관계는 적대로 바뀌고, 추적대가 뒤따를 것입니다.</DMS_DeviantRefuge_HandoverTextDeferred>
+  <DMS_DeviantRefuge_DeferredInfo>군법회의가 끝나면 적대 관계로 전환</DMS_DeviantRefuge_DeferredInfo>
+  <DMS_DeviantRefuge_HostilityLabel>함대의 적대 전환</DMS_DeviantRefuge_HostilityLabel>
+  <DMS_DeviantRefuge_HostilityText>군법회의가 끝나면서 휴전도 종료되었습니다. {FLEET}(은)는 우리가 망명자를 숨겨 주었다는 이유로 적대로 돌아섰습니다.\n\n함대는 이 일을 그냥 넘기지 않을 것입니다. {DEVIANT_nameDef}(이)가 정착지에 머무르는 한 추적대는 계속 찾아올 것입니다.</DMS_DeviantRefuge_HostilityText>
+  <DMS_DeviantExtradition_LetterLabel>인도 요구: {DEVIANT_nameDef}</DMS_DeviantExtradition_LetterLabel>
+  <DMS_DeviantExtradition_LetterText>{DEVIANT_nameFull}(이)가 기록 복원을 마쳤지만, 동시에 {FLEET}(은)는 우리가 {DEVIANT_nameDef}(을)를 숨겨 주고 있다는 사실을 알아차렸습니다. 헌병 사령부에서 정식으로 신병 인도를 요구해 왔습니다.\n\n{DEVIANT_objective}(을)를 인도할 경우:\n{REWARDS}\n함대가 암호화 기록을 압수합니다.\n\n거부할 경우: {DEVIANT_nameDef}(은)는 복원한 파일을 우리에게 넘겨주고, {FLEET}(은)는 적대로 돌아섭니다. 이후 {DEVIANT_pronoun}(이)가 죽거나 정착지에서 추방될 때까지 {DEVIANT_objective}(을)를 노리는 추적대를 계속 보낼 것입니다.\n\n{DAYS} 안에 답변하지 않으면 함대는 거부한 것으로 간주합니다.</DMS_DeviantExtradition_LetterText>
+  <DMS_DeviantExtradition_RewardGoodwill>- {FLEET}(와)과의 우호도 +{AMOUNT}</DMS_DeviantExtradition_RewardGoodwill>
+  <DMS_DeviantExtradition_RewardHonor>- 우리가 선택한 정착민 한 명에게 함대 계급 진급에 필요한 {HONOR} {AMOUNT} 수여</DMS_DeviantExtradition_RewardHonor>
+  <DMS_DeviantExtradition_RewardMood>- 정착민들이 동료를 넘겼다는 사실에 괴로워함</DMS_DeviantExtradition_RewardMood>
+  <DMS_DeviantExtradition_Extradite>{DEVIANT_nameDef} 인도</DMS_DeviantExtradition_Extradite>
+  <DMS_DeviantExtradition_Refuse>인도 거부</DMS_DeviantExtradition_Refuse>
+  <DMS_DeviantExtradition_DeadlineInfo>인도 요구 답변 기한: {0}</DMS_DeviantExtradition_DeadlineInfo>
+  <DMS_DeviantExtradition_DeadlineInfoTip>기한 내에 답변하지 않으면 함대는 거부한 것으로 간주합니다.</DMS_DeviantExtradition_DeadlineInfoTip>
+  <DMS_DeviantExtradition_SilenceMessage>{FLEET}의 인도 요구에 답변하지 않았습니다. 함대는 이를 거부로 간주했습니다.</DMS_DeviantExtradition_SilenceMessage>
+  <DMS_DeviantExtradition_DoneLabel>인도 완료: {DEVIANT_nameDef}</DMS_DeviantExtradition_DoneLabel>
+  <DMS_DeviantExtradition_DoneText>함대의 궤도 수송선이 {DEVIANT_nameFull}(을)를 암호화 기록과 함께 데려갔습니다. {FLEET}(은)는 우리의 협조를 인정했습니다.\n\n이제 {DEVIANT_objective}에게 어떤 일이 기다리고 있을지는 아무도 모릅니다.</DMS_DeviantExtradition_DoneText>
+  <DMS_DeviantExtradition_HonorLabel>누가 {HONOR}(을)를 받겠습니까?</DMS_DeviantExtradition_HonorLabel>
+  <DMS_DeviantExtradition_HonorText>{FLEET}(은)는 우리의 신병 인도를 인정하여 {HONOR} {AMOUNT}(을)를 수여하겠다고 합니다. 누가 받겠습니까?</DMS_DeviantExtradition_HonorText>
+  <DMS_DeviantRefuge_GrantedLine>- {PROJECT}</DMS_DeviantRefuge_GrantedLine>
+  <DMS_DeviantRefuge_PendingLine>- {PROJECT} (자료 확보, {PREREQS} 연구 완료 시 자동 해독)</DMS_DeviantRefuge_PendingLine>
+  <DMS_DeviantRefuge_AlreadyHeldLine>- {PROJECT} (정착지에서 이미 보유한 지식)</DMS_DeviantRefuge_AlreadyHeldLine>
+  <DMS_DeviantRefuge_NothingGranted>(기록에 정착지가 모르는 새로운 지식이 없었음)</DMS_DeviantRefuge_NothingGranted>
+  <DMS_DeviantRefuge_PendingDecodedLabel>기록 해독: {PROJECT}</DMS_DeviantRefuge_PendingDecodedLabel>
+  <DMS_DeviantRefuge_PendingDecodedText>선행 연구를 마쳐 연구진이 마침내 이탈자가 남긴 {PROJECT} 파일을 읽을 수 있게 되었습니다.</DMS_DeviantRefuge_PendingDecodedText>
+  <DMS_DeviantRefuge_FailedDiedLabel>이탈자 사망</DMS_DeviantRefuge_FailedDiedLabel>
+  <DMS_DeviantRefuge_FailedDiedText>{DEVIANT_nameFull}(이)가 복원을 마치기 전에 사망하여, 암호화 기록을 읽을 수 있는 유일한 열쇠가 사라졌습니다.\n\n함대는 {DEVIANT_pronoun}(이)가 이곳에 있었다는 사실을 끝내 알지 못했습니다.</DMS_DeviantRefuge_FailedDiedText>
+  <DMS_DeviantRefuge_FailedLeftLabel>이탈자 떠남</DMS_DeviantRefuge_FailedLeftLabel>
+  <DMS_DeviantRefuge_FailedLeftText>{DEVIANT_nameFull}(이)가 복원을 마치기 전에 암호화 기록을 가지고 정착지를 떠났습니다.</DMS_DeviantRefuge_FailedLeftText>
+  <DMS_DeviantRefuge_FailedKidnappedLabel>이탈자 납치</DMS_DeviantRefuge_FailedKidnappedLabel>
+  <DMS_DeviantRefuge_FailedKidnappedText>{DEVIANT_nameFull}(이)가 복원을 마치기 전에 납치되었으며, 암호화 기록도 {DEVIANT_objective}(와)과 함께 사라졌습니다.</DMS_DeviantRefuge_FailedKidnappedText>
+  <DMS_DeviantRefuge_FailedNoArrivalLabel>이탈자 도착 실패</DMS_DeviantRefuge_FailedNoArrivalLabel>
+  <DMS_DeviantRefuge_FailedNoArrivalText>{DEVIANT_nameFull}(은)는 정착지에 도착하지 못했으며, 이후 {DEVIANT_objective}에게서 아무런 소식도 듣지 못했습니다.</DMS_DeviantRefuge_FailedNoArrivalText>
+  <DMS_DeviantHunt_EndedDiedLabel>추적 종료</DMS_DeviantHunt_EndedDiedLabel>
+  <DMS_DeviantHunt_EndedDiedText>{DEVIANT_nameFull}(이)가 사망했습니다. {FLEET}(은)는 망명자를 명부에서 지웠으며, 더는 추적대가 오지 않을 것입니다.\n\n하지만 함대와의 적대 관계는 끝나지 않습니다.</DMS_DeviantHunt_EndedDiedText>
+  <DMS_DeviantHunt_EndedLeftLabel>추적 종료</DMS_DeviantHunt_EndedLeftLabel>
+  <DMS_DeviantHunt_EndedLeftText>{DEVIANT_nameFull}(은)는 더 이상 정착지에 있지 않습니다. {FLEET}(은)는 추적 대상을 찾아 다른 곳으로 향했으며, 더는 우리에게 추적대를 보내지 않을 것입니다.\n\n하지만 함대와의 적대 관계는 끝나지 않습니다.</DMS_DeviantHunt_EndedLeftText>
+  <DMS_DeviantHunt_GoodwillBlocked>정착지는 아직 {FLEET}(이)가 추적하는 이탈자를 숨겨 주고 있습니다. 함대와의 관계를 개선할 수 없습니다.</DMS_DeviantHunt_GoodwillBlocked>
+  <DMS_Occultech_RenounceBlockedDeviant>아직 함대가 추적하는 이탈자를 숨겨 주고 있습니다. 함대는 우리가 어떤 선언을 하더라도 받아들이지 않을 것입니다.</DMS_Occultech_RenounceBlockedDeviant>
+  <DMS_HuntBreaker_SuspendedTextDeviant>{NODE_definite}(이)가 파괴되었습니다.\n\n이로 인해 이 행성에서 {FLEET}(이)가 운용하는 레이더 추적 및 항법망에 큰 공백이 생겼습니다. 함대는 이탈자의 행방을 놓쳤고, 추적은 중단되었습니다.\n\n하지만 오래가지는 않을 것입니다. 조만간 SAGE 네트워크의 다른 컴퓨터가 이 노드의 업무를 인계할 것이며, 약 {DURATION} 뒤에 추적이 재개될 것으로 보입니다.\n\n주의: 이탈자를 숨겨 주는 동안에는 함대와의 적대 관계가 해제되지 않습니다.</DMS_HuntBreaker_SuspendedTextDeviant>
+  <DMS_HuntBreaker_SuspendedDeviantLine>이탈자를 숨겨 주어 시작된 추적도 함께 중단되었으며, 같은 시점에 재개됩니다.</DMS_HuntBreaker_SuspendedDeviantLine>
 </LanguageData>
