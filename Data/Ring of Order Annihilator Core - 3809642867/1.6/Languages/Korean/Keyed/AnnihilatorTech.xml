@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ATech_OnlyOneMultiAnalyzer>절멸자 다중 분석기는 전체 지도에 단 한 대만 건설할 수 있습니다.</ATech_OnlyOneMultiAnalyzer>
+  <ATech_AnalyzerGlobalWorkText>지도 전체 작업량 감소: −{0}% (건설 및 제작, 전체 지도 적용)</ATech_AnalyzerGlobalWorkText>
+  <ATech_AutoResearchOn>자동 연구: 일일 +{0} 점 (절멸자 연구 작업대에 연결됨, 연구 완료 시 다음 항목 자동 진행)</ATech_AutoResearchOn>
+  <ATech_AutoResearchManual>자동 연구: 일일 +{0} 점 (연구 작업대에 연결됨, 현재 항목 완료 시 중단)</ATech_AutoResearchManual>
+  <ATech_AutoResearchNoBench>자동 연구: 절멸자 연구 작업대에 연결되지 않음 (연구 작업대에 인접해야 하며 전력이 공급되어야 함)</ATech_AutoResearchNoBench>
+  <ATech_AutoResearchIdle>자동 연구: 대기 중 (현재 진행 중인 연구 프로젝트가 없음)</ATech_AutoResearchIdle>
+  <ATech_AutoResearchBlocked>자동 연구: 현재 프로젝트 진행 불가 (기술 청사진, 샘플 분석 또는 필수 연구 작업대 부족)</ATech_AutoResearchBlocked>
+  <ATech_AutoResearchToggleOn>자동 연속 연구: 켜짐</ATech_AutoResearchToggleOn>
+  <ATech_AutoResearchToggleOff>자동 연속 연구: 꺼짐</ATech_AutoResearchToggleOff>
+  <ATech_AutoResearchToggleDesc>활성화하면 현재 연구가 완료되었을 때 연구 가능한 다음 항목을 자동으로 선택해 진행합니다. 비활성화하면 직접 선택한 항목만 진행하고 완료 시 중단됩니다. 두 상태 모두 분석기가 절멸자 연구 작업대에 인접해 있어야 하며 전력이 공급되어야 합니다.</ATech_AutoResearchToggleDesc>
+
+  <ATech_NaniteReassembly>나노 재조합</ATech_NaniteReassembly>
+  <ATech_NaniteReassemblyDesc>전투 피해를 입으면 그 자리에서 즉시 활성화됩니다. 나노 재구축 모듈이 가동되어 장갑의 미세 유닛이 자율적으로 구조적 손상을 완벽하게 복구합니다. 재사용 대기시간: 1일.</ATech_NaniteReassemblyDesc>
+  <ATech_NaniteInProgress>진행 중</ATech_NaniteInProgress>
+  <ATech_NaniteCooldown>재사용 대기 중: {0}</ATech_NaniteCooldown>
+  <ATech_NaniteStarted>절멸자가 나노 재조합을 시작합니다: 기체가 제자리에 고정되며, 전체 기체가 표준 상태로 초기화됩니다.</ATech_NaniteStarted>
+  <ATech_NaniteFinished>나노 재조합 완료. 기체가 표준 상태로 복구되었습니다.</ATech_NaniteFinished>
+
+  <ATech_TerminalHackedLabel>전초기지 터미널 해킹 완료</ATech_TerminalHackedLabel>
+  <ATech_TerminalHackedText>터미널 해킹이 완료되어 데이터베이스의 물자 보관 목록을 읽어왔습니다. 목록에 명시된 절멸합금이 터미널 근처에 하역되었습니다.</ATech_TerminalHackedText>
+  <ATech_AcceptanceRemaining>인수 남은 시간: {0}</ATech_AcceptanceRemaining>
+  <ATech_AcceptanceRemainingTip>예상 완료 시간: {0}</ATech_AcceptanceRemainingTip>
+  <ATech_WaveProgress>습격 포위: 제 {0} / {1} 파, 다음 파는 {2} 후 도착 예정</ATech_WaveProgress>
+  <ATech_WaveAllSpawned>습격 포위: 8파의 습격이 모두 도착했습니다</ATech_WaveAllSpawned>
+  <ATech_WaveRemainingNow>남은 적 기체: {0}</ATech_WaveRemainingNow>
+  <ATech_WaveRemaining>남은 적 기체: {0} / {1}</ATech_WaveRemaining>
+  <ATech_WaveListNone>(없음)</ATech_WaveListNone>
+
+  <ATech_SlaughterLabel>절멸</ATech_SlaughterLabel>
+  <ATech_SlaughterDesc>켜짐: 자율 전투 모드입니다. 자동으로 적을 탐색하고 제거합니다. 꺼짐: 해당 위치 근처를 무작위로 방랑 대기하며, 공격받을 경우 반격합니다.</ATech_SlaughterDesc>
+  <ATech_WarpLabel>공간 도약</ATech_WarpLabel>
+  <ATech_WarpDesc>공간을 찢고 62칸 내의 지정한 위치로 기체를 즉시 순간이동 시킵니다.</ATech_WarpDesc>
+  <ATech_RayLabel>절멸 광선</ATech_RayLabel>
+  <ATech_RayDesc>광학 유닛에서 죽음의 광선을 발사합니다. 72칸 내에 시작점과 끝점을 지정하면, 붉은 광선 검이 선을 따라 쓸어버립니다. 피해량은 대상이 광선 범위 내에 노출된 시간에 비례합니다. 살짝 스치기만 해도 최소 피해를 주며, 지속적으로 노출될수록 피해량이 급증합니다. 광선이 벽에 가로막히면 벽 뒤의 대상에게는 피해를 주지 못하지만, 광선을 차단한 벽 자체는 모든 피해를 고스란히 받습니다.</ATech_RayDesc>
+  <ATech_UnableToAct>코어 재장전 중</ATech_UnableToAct>
+  <ATech_FiringRay>절멸 광선 발사 중</ATech_FiringRay>
+  <ATech_Cooldown>재사용 대기 중: 약 {0}</ATech_Cooldown>
+  <ATech_WarpDowned>절멸자가 행동 불능 상태여서 도약을 시전하지 못했습니다.</ATech_WarpDowned>
+  <ATech_WarpFiring>절멸 광선을 발사하는 중에는 도약할 수 없습니다.</ATech_WarpFiring>
+  <ATech_WarpOutOfRange>도약 목표 지점은 반드시 62칸 이내여야 합니다.</ATech_WarpOutOfRange>
+  <ATech_WarpBlocked>목표 지점에 기체가 들어설 공간이 없습니다 (벽이나 물건에 가로막힘).</ATech_WarpBlocked>
+  <ATech_RayStartOutOfRange>시작 지점은 반드시 절멸자 기준 62칸 이내여야 합니다.</ATech_RayStartOutOfRange>
+  <ATech_RayDowned>절멸자가 행동 불능 상태여서 광선을 발사하지 못했습니다.</ATech_RayDowned>
+  <ATech_RayEndsOutOfRange>시작 지점과 끝 지점 모두 절멸자 기준 62칸 이내여야 합니다.</ATech_RayEndsOutOfRange>
+  <ATech_RiftLabel>균열 권역</ATech_RiftLabel>
+  <ATech_RiftDesc>지도의 임의의 종착지를 지정합니다. 시간이 정지된 상태에서 기체가 그곳으로 돌격하며 경로상의 전장을 베어 넘깁니다. 시간이 재개되는 순간, 종착지를 중심으로 반경 16칸 내의 모든 적대적 유닛을 동시에 타격합니다.</ATech_RiftDesc>
+  <ATech_RiftDowned>절멸자가 행동 불능 상태여서 균열 권역을 시전하지 못했습니다.</ATech_RiftDowned>
+  <ATech_RiftFiring>절멸 광선을 발사하는 중에는 균열 권역을 시전할 수 없습니다.</ATech_RiftFiring>
+  <ATech_RiftBlocked>종착지에 기체가 들어설 공간이 없습니다 (벽이나 물건에 가로막힘).</ATech_RiftBlocked>
+  <ATech_RiftBusy>균열 권역 시전 중</ATech_RiftBusy>
+  <ATech_DevResetCooldowns>DEV: 모든 스킬 쿨타임 초기화</ATech_DevResetCooldowns>
+  <ATech_DevResetCooldownsDesc>개발자 도구: 절멸 광선, 공간 도약, 균열 권역, 나노 재조합의 재사용 대기시간을 모두 초기화합니다.</ATech_DevResetCooldownsDesc>
+  <ATech_DevResetDone>모든 스킬의 재사용 대기시간이 초기화되었습니다.</ATech_DevResetDone>
+
+  <ATech_DecodeFail>디코딩 실패: {0}</ATech_DecodeFail>
+  <ATech_DecodeMenu>연구 작업대에서 디코딩하여 절멸자 기술 해금</ATech_DecodeMenu>
+  <ATech_NoResearchBench>주변에 사용할 수 있는 연구 작업대가 없습니다.</ATech_NoResearchBench>
+  <ATech_OutpostArrivalLabel>신호원: 메카노이드 경계 전초기지</ATech_OutpostArrivalLabel>
+  <ATech_OutpostArrivalText>신호원에 도착했습니다. 이 전초기지는 '질서의 고리(Ring of Order)' 군수 부서에 의해 버려진 곳으로, 장갑 방호는 온전하며 메카노이드들이 여전히 예전 수칙에 따라 경계 근무를 서고 있습니다. 중심부의 오두막으로 진입하기 전에 외곽의 경비병들을 먼저 처치하십시오.</ATech_OutpostArrivalText>
+  <ATech_ContainerPickedUpLabel>기술 고정 컨테이너 획득</ATech_ContainerPickedUpLabel>
+  <ATech_ContainerPickedUpText>절멸자 프로젝트 Ω형 기술 고정 컨테이너를 확보했습니다. 이것을 연구 작업대로 가져가 연결 및 디코딩하면 절멸자 기술의 복원을 시작할 수 있습니다.</ATech_ContainerPickedUpText>
+  <ATech_DecodedLetterLabel>기술 고정 컨테이너 디코딩 완료</ATech_DecodedLetterLabel>
+  <ATech_DecodedLetterText>연구 작업대에서 Ω형 기술 고정 컨테이너의 디코딩이 완료되었습니다. 이제 절멸자 기술 복원 작업을 시작할 수 있습니다.</ATech_DecodedLetterText>
+
+  <ATech_FoundryRunning>절멸자 금속 제련 장치 가동 중: {0}% (합금 {1}개 생산, 남은 수량 {2})</ATech_FoundryRunning>
+  <ATech_FoundryNoPower>절멸자 금속 제련 장치 대기 중: 전력 없음.</ATech_FoundryNoPower>
+  <ATech_FoundryWaiting>절멸자 금속 제련 장치 재료 대기 중 (묶음: {0}); 저장됨: {1}; 부족함: {2} ×{3}</ATech_FoundryWaiting>
+  <ATech_FoundryReady>절멸자 금속 제련 장치 준비 완료 (묶음: {0}), 곧 시작됩니다</ATech_FoundryReady>
+  <ATech_MetallurgyBatch_0>표준 (100)</ATech_MetallurgyBatch_0>
+  <ATech_MetallurgyBatch_1>대량 (300)</ATech_MetallurgyBatch_1>
+  <ATech_MetallurgyBatch_2>대규모 (500)</ATech_MetallurgyBatch_2>
+  <ATech_FoundrySwitchBatch>생산량 전환: {0}</ATech_FoundrySwitchBatch>
+  <ATech_FoundrySwitchBatchDesc>금속 제련 장치의 생산 묶음 단위를 전환합니다. 표준 = 게임 시간당 합금 100개이며, 더 큰 묶음은 더 많은 원료를 소모하지만 시간당 출력 속도(게임 시간당 100개)는 동일합니다.</ATech_FoundrySwitchBatchDesc>
+  <ATech_FoundrySwitchBatchRunning>가동 중에는 생산량을 전환할 수 없습니다</ATech_FoundrySwitchBatchRunning>
+
+</LanguageData>

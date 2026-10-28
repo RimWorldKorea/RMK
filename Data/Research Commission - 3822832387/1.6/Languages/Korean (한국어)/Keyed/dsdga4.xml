@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RC_ModName>연구 의뢰</RC_ModName>
+  <RC_SilverAmount>은 {0}</RC_SilverAmount>
+  <RC_Quoted>“{0}”</RC_Quoted>
+  <RC_PageClassicTitle>클래식 모드</RC_PageClassicTitle>
+  <RC_PageExtended>확장 모드 (기본)</RC_PageExtended>
+  <RC_ClassicDesc>의뢰가 무작위 임무로 들어옵니다.\n· 은을 받고 연구: 연구 창의 &quot;의뢰&quot; 탭에서 연구를 끝내면 검수관이 찾아와 은을 두고 갑니다.\n· 은을 주고 연구: 은을 캐러밴으로 판매자의 정착지까지 가져가면 연구를 얻습니다.\n· 의뢰 규모와 보수는 정착지 부와 연구 진척도에 따라 커집니다.</RC_ClassicDesc>
+  <RC_ExtendedDesc>임무 없이 모든 것을 별도의 단말기에서 처리합니다.\n· 통신기를 우클릭해 &quot;연구 의뢰 보기&quot;를 고르면 의뢰를 받고 연구를 살 수 있습니다.\n· 대금은 궤도 교역 신호기 범위 안의 은으로 치르며, 업로드와 다운로드는 30초쯤 걸리고 정착민이 필요 없습니다.\n· 부족과의 거래는 중개인을 거치며, 중개인이 은의 {0}(을)를 추가로 가져갑니다.\n· 의뢰는 정착지와 함께 커지고, 세력이 많을수록 제안도 많아지며, 단말기에서 의뢰 성향을 고를 수 있습니다.</RC_ExtendedDesc>
+  <RC_SwitchModeTip>클릭하면 이 모드로 바꿉니다. 모드마다 설정이 따로 저장됩니다.</RC_SwitchModeTip>
+  <RC_CommsRequests>통신기로 연구 대행</RC_CommsRequests>
+  <RC_CommsRequestsTip>적대적이지 않은 세력에 연락할 때 &quot;연구 대행&quot; 선택지를 추가합니다. 현재 연구 중인 과제를 제공해 달라고 하거나, 맡길 연구가 있는지 물어볼 수 있습니다. 거절할 수도 있으며, 세력마다 재사용 대기시간이 따로 있습니다.\n\n변칙 연구, 기술서 연구, 일반적인 방법으로 배울 수 없는 연구, 세력의 기술 수준보다 높은 연구는 요청할 수 없습니다.</RC_CommsRequestsTip>
+  <RC_SkipDelivery>검수와 배달 이동 없음</RC_SkipDelivery>
+  <RC_SkipDeliveryTip>은을 받고 연구: 연구를 끝내는 즉시 은이 투하되며, 검수관이 찾아오지 않습니다.\n은을 주고 연구: 임무를 수락하는 즉시 궤도 교역 신호기 범위에서 은을 가져가고 연구를 완료합니다. 캐러밴이 필요 없습니다.</RC_SkipDeliveryTip>
+  <RC_MainButton>하단 바 버튼 추가</RC_MainButton>
+  <RC_MainButtonTip>하단 메뉴 바에 연구 의뢰 단말기를 여는 &quot;연구 의뢰&quot; 버튼을 추가합니다.</RC_MainButtonTip>
+  <RC_RefreshInterval>제안 갱신 간격</RC_RefreshInterval>
+  <RC_RefreshIntervalTip>단말기에 새 제안이 올라오는 평균 간격입니다. 실제 대기 시간은 위아래로 최대 25%까지 달라집니다. 제안이 게시되는 기간도 이에 비례합니다.</RC_RefreshIntervalTip>
+  <RC_RefreshIntervalValue>약 {0}마다</RC_RefreshIntervalValue>
+  <RC_Rates>교환 비율</RC_Rates>
+  <RC_Preset>프리셋</RC_Preset>
+  <RC_PresetGenerous>후함</RC_PresetGenerous>
+  <RC_PresetStandard>표준</RC_PresetStandard>
+  <RC_PresetHarsh>가혹함</RC_PresetHarsh>
+  <RC_PresetCustom>사용자 지정</RC_PresetCustom>
+  <RC_SellRate>은을 받고 연구</RC_SellRate>
+  <RC_SellRateTip>완료한 의뢰의 연구 점수 1점당 받는 은입니다.</RC_SellRateTip>
+  <RC_BuyRate>은을 주고 연구</RC_BuyRate>
+  <RC_BuyRateTip>구매한 연구 점수 1점당 치르는 은입니다.</RC_BuyRateTip>
+  <RC_PerPoint>점당 은 {0}</RC_PerPoint>
+  <RC_TechFactors>기술 수준 배율</RC_TechFactors>
+  <RC_TechFactorsTip>연구의 기술 수준에 따라 비율 위에 추가로 곱해지며, 의뢰 보수와 구매 가격 모두에 적용됩니다.</RC_TechFactorsTip>
+  <RC_Example>예시: 연구 점수 1000점짜리 산업 시대 연구는 의뢰로 약 {0}(을)를 받고, 구매하려면 약 {1}(이)가 듭니다.</RC_Example>
+  <RC_ProjectDescClient>의뢰인: {0}</RC_ProjectDescClient>
+  <RC_ProjectDescReward>보수: {0}</RC_ProjectDescReward>
+  <RC_ProjectDescFooter>이 연구는 완료하면 여기서 사라집니다.</RC_ProjectDescFooter>
+  <RC_MirrorKnownNote>이 연구는 이미 알고 있는 {0}(을)를 바탕으로 하며, {1} 진척도에서 시작합니다.</RC_MirrorKnownNote>
+  <RC_MirrorUnknownNote>이 연구를 완료하면 기술 트리의 {0} 진척도가 {1}만큼 오릅니다.</RC_MirrorUnknownNote>
+  <RC_MessageMirrorProgress>{0} 연구 진척도가 {1}만큼 올랐습니다.</RC_MessageMirrorProgress>
+  <RC_QuestDescRFSIntro>{0}(이)가 연구를 대신 수행해 줄 이를 찾고 있습니다. 의뢰 연구: {1} ({2}, 연구 {3}).</RC_QuestDescRFSIntro>
+  <RC_QuestDescRFSSteps>수락하면 연구 창의 &quot;의뢰&quot; 탭에 연구가 나타납니다. {0} 안에 끝내세요.</RC_QuestDescRFSSteps>
+  <RC_QuestDescRFSInspection>연구를 끝내고 반나절 안에 {0}의 검수관들이 정착지를 찾아와, 두 시간쯤 머물며 결과를 확인하고 보수로 {1}(을)를 두고 갑니다. 머무는 동안 그들을 안전하게 지키세요.</RC_QuestDescRFSInspection>
+  <RC_QuestDescRFSDirect>연구를 끝내면 보수 {0}(이)가 바로 투하됩니다.</RC_QuestDescRFSDirect>
+  <RC_ExpiryResearch>연구 기한: {0}</RC_ExpiryResearch>
+  <RC_ExpiryResearchTip>{0} 전에 연구를 끝내세요</RC_ExpiryResearchTip>
+  <RC_ExpiryInspectionPending>검수관 대기 중</RC_ExpiryInspectionPending>
+  <RC_ExpiryInspecting>검수 진행 중</RC_ExpiryInspecting>
+  <RC_MessageCommissionAccepted>의뢰 {0}(을)를 수락했습니다. 연구 창의 &quot;의뢰&quot; 탭에 연구가 추가되었습니다.</RC_MessageCommissionAccepted>
+  <RC_LetterLabelCommissionResearched>의뢰 연구 완료</RC_LetterLabelCommissionResearched>
+  <RC_LetterCommissionResearchedInspection>의뢰받은 연구 {1}(을)를 끝냈습니다. {0}의 검수관들이 반나절 안에 도착해 결과를 확인할 것입니다.</RC_LetterCommissionResearchedInspection>
+  <RC_LetterCommissionResearchedDirect>의뢰받은 연구 {1}(을)를 끝냈습니다. {0}에서 보낸 {2}(이)가 투하되었습니다.</RC_LetterCommissionResearchedDirect>
+  <RC_LetterLabelInspectorsComing>검수관 도착 예정</RC_LetterLabelInspectorsComing>
+  <RC_LetterInspectorsComing>{0}의 검수관들이 {1}의 결과를 확인하러 오고 있습니다. 그들은 {2} 동안 정착지 근처에 머물다가 떠날 때 {3}(을)를 두고 갑니다.\n\n그들을 안전하게 지키세요. 한 명이라도 쓰러지거나 붙잡히거나 죽으면 의뢰가 실패합니다.</RC_LetterInspectorsComing>
+  <RC_MessageInspectorsArrived>{0}의 검수관들이 자리를 잡고 연구를 확인하고 있습니다 (약 {1}).</RC_MessageInspectorsArrived>
+  <RC_LetterLabelInspectionPassed>검수 통과</RC_LetterLabelInspectionPassed>
+  <RC_LetterInspectionPassed>{0}의 검수관들이 {2}의 결과를 확인하고 {1}(을)를 두고 돌아갔습니다.</RC_LetterInspectionPassed>
+  <RC_LetterLabelCommissionFailed>의뢰 실패</RC_LetterLabelCommissionFailed>
+  <RC_FailDeadline>의뢰받은 연구 {0}(을)를 기한 안에 끝내지 못했습니다. 의뢰가 취소됩니다.</RC_FailDeadline>
+  <RC_FailClientHostile>{0}(이)가 이제 당신에게 적대적입니다. 의뢰 {1}(이)가 취소됩니다.</RC_FailClientHostile>
+  <RC_FailProjectLost>의뢰받은 연구 {0}(이)가 더 이상 존재하지 않습니다. 의뢰가 취소됩니다.</RC_FailProjectLost>
+  <RC_FailInspectorsHarmed>{0}의 검수관들이 해를 입었습니다. 의뢰 {1}(이)가 실패했습니다.</RC_FailInspectorsHarmed>
+  <RC_FailInspectorsGone>{0}의 검수관들이 검수를 마치기 전에 떠났습니다. 의뢰 {1}(이)가 실패했습니다.</RC_FailInspectorsGone>
+  <RC_RewardSilverTip>의뢰를 완료하면 지급: {0}.</RC_RewardSilverTip>
+  <RC_RewardResearchProgress>{0} +{1}</RC_RewardResearchProgress>
+  <RC_RewardResearchProgressTip>의뢰받은 연구를 끝내면 {0} 진척도가 {1}만큼 오릅니다.</RC_RewardResearchProgressTip>
+  <RC_QuestDescSFRIntro>{0}(이)가 당신이 관심을 가질 만한 연구를 가지고 있다고 합니다: {1} ({2}). 가격은 {3}입니다.</RC_QuestDescSFRIntro>
+  <RC_QuestDescSFRCaravan>수락하면 {1}(을)를 실은 캐러밴을 {0}(으)로 보내세요. 그곳에서 은을 건네면 연구를 바로 얻습니다. 거래는 {2} 안에 끝내야 합니다.</RC_QuestDescSFRCaravan>
+  <RC_QuestDescSFRDirect>수락하는 즉시 궤도 교역 신호기 범위에서 {0}(을)를 가져가고 연구를 완료합니다.</RC_QuestDescSFRDirect>
+  <RC_RewardResearch>연구: {0}</RC_RewardResearch>
+  <RC_RequirementBeaconSilver>궤도 교역 신호기 범위 안에 {0} 필요</RC_RequirementBeaconSilver>
+  <RC_ExpiryDelivery>배달 기한: {0}</RC_ExpiryDelivery>
+  <RC_ExpiryDeliveryTip>{0} 전에 은을 배달하세요</RC_ExpiryDeliveryTip>
+  <RC_CommandDeliverSilver>{0} 대금 지불</RC_CommandDeliverSilver>
+  <RC_CommandDeliverSilverDesc>이 정착지에 {0}(을)를 건네고 연구 {1}(을)를 바로 받습니다.</RC_CommandDeliverSilverDesc>
+  <RC_CommandDeliverSilverConfirm>{0}(을)를 건네고 연구 {1}(을)를 받으시겠습니까?</RC_CommandDeliverSilverConfirm>
+  <RC_MessageCaravanLacksSilver>캐러밴에 은이 부족합니다 ({0} 필요)</RC_MessageCaravanLacksSilver>
+  <RC_SettlementDealInspect>연구 거래: {0}, {1} 지불 ({2} 남음)</RC_SettlementDealInspect>
+  <RC_LetterLabelResearchAcquired>연구 획득</RC_LetterLabelResearchAcquired>
+  <RC_LetterResearchAcquired>{2}(을)를 치르고 {0}에게서 연구 {1}(을)를 받았습니다.</RC_LetterResearchAcquired>
+  <RC_LetterLabelPurchaseFailed>연구 거래 실패</RC_LetterLabelPurchaseFailed>
+  <RC_FailDeliveryDeadline>기한 안에 은을 배달하지 못했습니다. {0} 거래가 무산되었습니다.</RC_FailDeliveryDeadline>
+  <RC_FailSellerHostile>{0}(이)가 이제 당신에게 적대적입니다. {1} 거래가 무산되었습니다.</RC_FailSellerHostile>
+  <RC_FailSettlementGone>정착지가 더 이상 존재하지 않습니다. {0} 거래가 무산되었습니다.</RC_FailSettlementGone>
+  <RC_FailNoBeaconSilver>궤도 교역 신호기 범위 안에 은이 부족합니다 ({0} 필요). 거래가 무산되었습니다.</RC_FailNoBeaconSilver>
+  <RC_MessagePurchaseObsolete>{0}(은)는 이미 연구했습니다. 관련 거래가 취소됩니다.</RC_MessagePurchaseObsolete>
+  <RC_CommsOption>연구 대행</RC_CommsOption>
+  <RC_CommsIntro>{0}: 연구를 함께하자고요? 말씀해 보세요.</RC_CommsIntro>
+  <RC_CommsRequestCurrent>연구 요청: {0}</RC_CommsRequestCurrent>
+  <RC_CommsRequestCurrentNone>현재 연구 과제 요청</RC_CommsRequestCurrentNone>
+  <RC_CommsAskNeed>맡길 연구가 있는지 묻기</RC_CommsAskNeed>
+  <RC_CommsNoCurrentProject>진행 중인 연구 과제 없음</RC_CommsNoCurrentProject>
+  <RC_CommsProjectNotTradeable>이 연구는 거래로 얻을 수 없습니다</RC_CommsProjectNotTradeable>
+  <RC_CommsTechTooHigh>{0}의 기술 수준({1})이 너무 낮아 이 연구를 제공할 수 없습니다</RC_CommsTechTooHigh>
+  <RC_CommsAlreadyOffered>이 연구는 이미 거래 중입니다</RC_CommsAlreadyOffered>
+  <RC_CommsNoSettlement>{0}에는 캐러밴이 갈 수 있는 정착지가 없습니다</RC_CommsNoSettlement>
+  <RC_CommsCooldown>{0} 뒤에 다시 물어볼 수 있음</RC_CommsCooldown>
+  <RC_CommsNoBench>정착지에 연구대가 없습니다</RC_CommsNoBench>
+  <RC_CommsRefused>{0}: 미안하지만 지금은 거기에 내줄 사람이 없어요. 다음에 다시 얘기하죠.</RC_CommsRefused>
+  <RC_CommsUnavailable>{0}: 지금은 준비할 수가 없네요. 나중에 다시 연락 주세요.</RC_CommsUnavailable>
+  <RC_CommsAcceptedPurchase>{0}: 마침 그거라면 우리가 알고 있어요. 조건을 보내 드렸습니다.</RC_CommsAcceptedPurchase>
+  <RC_CommsAcceptedCommission>{0}: 마침 맡길 연구가 좀 있어요. 자세한 내용을 보내 드리죠.</RC_CommsAcceptedCommission>
+  <RC_OpenTerminal>연구 의뢰 보기</RC_OpenTerminal>
+  <RC_TerminalTitle>연구 의뢰 단말기</RC_TerminalTitle>
+  <RC_TerminalSubtitle>적대적이지 않은 세력과 연구를 거래합니다</RC_TerminalSubtitle>
+  <RC_FeeDeducted>부족 중개 수수료 {0} 공제</RC_FeeDeducted>
+  <RC_FeeIncluded>부족 중개 수수료 {0} 포함</RC_FeeIncluded>
+  <RC_FeeTipReward>기본 보수 {0}. 의뢰인이 부족이라 중개인이 거래를 대신 전달하고 {2}({1})(을)를 가져갑니다.</RC_FeeTipReward>
+  <RC_FeeTipPrice>기본 가격 {0}. 판매자가 부족이라 중개인이 거래를 대신 전달하고 {2}({1})(을)를 추가로 받습니다.</RC_FeeTipPrice>
+  <RC_LetterUploadCompleteFee>{0}의 결과를 {1}에 업로드했습니다. 부족 중개 수수료 {3}(을)를 뺀 보수 {2}(이)가 투하되었습니다.</RC_LetterUploadCompleteFee>
+  <RC_DownloadConfirmFee>부족 중개 수수료 {0}(이)가 포함되어 있습니다.</RC_DownloadConfirmFee>
+  <RC_TerminalClassicLeftover>클래식 모드가 켜져 있습니다. 끝나지 않은 확장 모드 의뢰와 다운로드만 여기에 남아 있습니다.</RC_TerminalClassicLeftover>
+  <RC_BeaconSilverCaption>신호기 범위 안의 은</RC_BeaconSilverCaption>
+  <RC_BeaconSilverTip>이 지도에서 전력이 공급되는 궤도 교역 신호기 범위 안에 있는 은입니다. 구매 대금은 여기서 치르며, 의뢰 보수는 교역 투하 지점에 떨어집니다.</RC_BeaconSilverTip>
+  <RC_NoBeacon>전력이 공급되는 신호기 없음</RC_NoBeacon>
+  <RC_TabOffers>의뢰 ({0})</RC_TabOffers>
+  <RC_TabMarket>연구 시장</RC_TabMarket>
+  <RC_TabActive>진행 중 ({0})</RC_TabActive>
+  <RC_ActiveCount>진행 중인 의뢰: {0}/{1}</RC_ActiveCount>
+  <RC_NextOffers>약 {0} 뒤 새 의뢰</RC_NextOffers>
+  <RC_NoOffers>지금은 받을 수 있는 의뢰가 없습니다. 새 의뢰는 때때로 들어옵니다.</RC_NoOffers>
+  <RC_OfferDetails>의뢰인: {0} · 연구 {1} · 기한 {2}</RC_OfferDetails>
+  <RC_OfferExpires>{0} 뒤 철회</RC_OfferExpires>
+  <RC_OfferTipSteps>수락하면 연구 창의 &quot;의뢰&quot; 탭에 연구가 나타납니다. {0} 안에 끝낸 뒤, 여기로 돌아와 결과를 업로드하고 보수를 받으세요.</RC_OfferTipSteps>
+  <RC_Reward>보수</RC_Reward>
+  <RC_Accept>수락</RC_Accept>
+  <RC_TooManyActive>진행 중인 의뢰가 너무 많습니다 (최대 {0})</RC_TooManyActive>
+  <RC_ClientUnavailable>{0}(은)는 지금 아무것도 의뢰할 수 없습니다</RC_ClientUnavailable>
+  <RC_MarketInfo>선행 연구를 마쳤고 적대적이지 않은 세력이 알고 있는 연구만 표시됩니다.</RC_MarketInfo>
+  <RC_MarketDetails>남은 연구 {0} · 판매자: {1}</RC_MarketDetails>
+  <RC_MarketNoMatch>맞는 연구가 없습니다.</RC_MarketNoMatch>
+  <RC_NoMarket>지금은 판매 중인 연구가 없습니다.</RC_NoMarket>
+  <RC_Price>가격</RC_Price>
+  <RC_Download>다운로드</RC_Download>
+  <RC_Downloading>다운로드 중</RC_Downloading>
+  <RC_DownloadConfirm>{1}(을)를 치르고 {2}에게서 “{0}”(을)를 다운로드하시겠습니까?</RC_DownloadConfirm>
+  <RC_AlreadyDownloading>이미 다운로드 중</RC_AlreadyDownloading>
+  <RC_NotEnoughSilver>신호기 범위 안에 은이 부족합니다 ({0} 필요)</RC_NotEnoughSilver>
+  <RC_NoActive>진행 중인 의뢰나 다운로드가 없습니다.</RC_NoActive>
+  <RC_StatusResearching>연구 중</RC_StatusResearching>
+  <RC_StatusReadyToUpload>업로드 준비 완료</RC_StatusReadyToUpload>
+  <RC_StatusUploading>업로드 중</RC_StatusUploading>
+  <RC_ActiveDetails>의뢰인: {0} · {1} 남음</RC_ActiveDetails>
+  <RC_ActiveDetailsDone>의뢰인: {0} · 연구 완료, 업로드하면 보수 지급</RC_ActiveDetailsDone>
+  <RC_ClickToShowInResearch>클릭하면 연구 창에서 이 연구를 보여 줍니다</RC_ClickToShowInResearch>
+  <RC_SetCurrent>이 연구 진행</RC_SetCurrent>
+  <RC_IsCurrent>연구 중</RC_IsCurrent>
+  <RC_IsCurrentResearch>이미 현재 연구 과제입니다</RC_IsCurrentResearch>
+  <RC_CannotResearchNow>지금은 이 연구를 진행할 수 없습니다</RC_CannotResearchNow>
+  <RC_Upload>업로드</RC_Upload>
+  <RC_Abandon>포기</RC_Abandon>
+  <RC_AbandonConfirm>의뢰 {0}(을)를 포기하시겠습니까? 연구와 그 진척도가 삭제됩니다.</RC_AbandonConfirm>
+  <RC_MessageCommissionAbandoned>의뢰 {0}(을)를 포기했습니다.</RC_MessageCommissionAbandoned>
+  <RC_TransferProgress>{0} · 약 {1}초</RC_TransferProgress>
+  <RC_DownloadTitle>다운로드: {0}</RC_DownloadTitle>
+  <RC_DownloadDetails>판매자: {0}</RC_DownloadDetails>
+  <RC_Paid>지불 완료</RC_Paid>
+  <RC_LetterTerminalResearchDone>{0}에서 의뢰한 연구 {1}(을)를 끝냈습니다. 연구 의뢰 단말기에서 결과를 업로드하면 {2}(을)를 받습니다.</RC_LetterTerminalResearchDone>
+  <RC_LetterLabelUploadComplete>업로드 완료</RC_LetterLabelUploadComplete>
+  <RC_LetterUploadComplete>{0}의 결과를 {1}에 업로드했습니다. 보수 {2}(이)가 투하되었습니다.</RC_LetterUploadComplete>
+  <RC_LetterLabelDownloadComplete>다운로드 완료</RC_LetterLabelDownloadComplete>
+  <RC_LetterDownloadComplete>{1}에서 내려받은 연구 {0}(이)가 완료되었습니다.</RC_LetterDownloadComplete>
+  <RC_MessageDownloadRefund>다운로드가 끝나기 전에 {0}(을)를 연구했습니다. {1}(이)가 환불되었습니다.</RC_MessageDownloadRefund>
+  <RC_OfferCapacity>제안 슬롯: {0}</RC_OfferCapacity>
+  <RC_OfferCapacityTip>제안 목록과 갱신량은 저장 파일의 세력 수에 비례합니다. 현재 세력 {0}개, ×{1}, 갱신마다 새 제안 약 {2}개.</RC_OfferCapacityTip>
+  <RC_TendencyCaption>성향</RC_TendencyCaption>
+  <RC_TendencyChipTip>{0}: {1}.\n\n선택하면 이후 갱신에서는 이 등급만 들어옵니다. 등급이 높을수록 연구량이 많고 기한이 빠듯하지만 보수가 훨씬 좋습니다. 이미 게시된 제안은 조건이 그대로입니다.</RC_TendencyChipTip>
+  <RC_Tendency_Standard>표준</RC_Tendency_Standard>
+  <RC_Tendency_Challenge>도전</RC_Tendency_Challenge>
+  <RC_Tendency_Breakthrough>돌파</RC_Tendency_Breakthrough>
+  <RC_TendencyDesc_Standard>일반적인 연구량, 기한, 보수</RC_TendencyDesc_Standard>
+  <RC_TendencyDesc_Harder>연구량 ×{0}, 빠듯한 기한, 보수 ×{1}</RC_TendencyDesc_Harder>
+  <RC_TendencyChanged>의뢰 성향을 {0}(으)로 정했습니다. 다음 갱신부터 적용됩니다.</RC_TendencyChanged>
+  <RC_TendencyCleared>의뢰 성향을 해제했습니다. 다음 갱신부터 세 등급이 섞여서 들어옵니다.</RC_TendencyCleared>
+  <RC_TendencyChipTipClear>다시 클릭하면 성향을 해제합니다. 그러면 이후 제안에 세 등급이 섞입니다.</RC_TendencyChipTipClear>
+  <RC_TendencyChipTipMixed>성향을 고르지 않음: 이후 제안에 세 등급이 섞이며, 표준이 가장 자주 나옵니다.</RC_TendencyChipTipMixed>
+  <RC_OfferTendencyLine>성향: {0} ({1})</RC_OfferTendencyLine>
+  <RC_DevActionResetCooldowns>클래식: 재사용 대기시간 초기화</RC_DevActionResetCooldowns>
+  <RC_DevActionArriveNow>클래식: 검수관 도착</RC_DevActionArriveNow>
+  <RC_DevActionRefreshOffers>확장: 제안 갱신</RC_DevActionRefreshOffers>
+  <RC_DebugCooldownsReset>모든 세력의 연구 대행 재사용 대기시간을 초기화했습니다 ({0}개 진행 중이었음).</RC_DebugCooldownsReset>
+  <RC_DebugArriveNow>개발: 검수관 즉시 도착</RC_DebugArriveNow>
+  <RC_DebugInspectorsArrived>검수 팀 {0}개가 즉시 도착했습니다.</RC_DebugInspectorsArrived>
+  <RC_DebugNoPendingInspection>대기 중인 검수가 없습니다.</RC_DebugNoPendingInspection>
+  <RC_DebugOffersRefreshed>의뢰 제안 갱신됨: {0}개 이용 가능.</RC_DebugOffersRefreshed>
+  <RC_DebugResetCooldown>(디버그) 연구 대행 재사용 대기시간 초기화</RC_DebugResetCooldown>
+  <RC_DebugRefreshOffersButton>개발: 제안 갱신</RC_DebugRefreshOffersButton>
+</LanguageData>
