@@ -1,0 +1,812 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Mugirl.Appearance.BodyAccessoryAddon>몸 장신구</Mugirl.Appearance.BodyAccessoryAddon>
+  <Mugirl.CorporateFinance.Title>대출과 담보</Mugirl.CorporateFinance.Title>
+  <Mugirl.CorporateFinance.Terms>일 {0}% · 연체 {1}% · 기간 {2}일</Mugirl.CorporateFinance.Terms>
+  <Mugirl.CorporateFinance.FinePrint>이자는 남은 원금에 매일 붙으며 복리가 아닙니다. 상환금은 이자부터 갚습니다. 추가 연체 이자는 원금까지만 붙으며, 상한에 닿은 뒤에도 추심은 계속됩니다.\n\n모두 갚으면 새 추심 습격이 멈춥니다. 이미 출동한 추심반과 다른 외교 분쟁에는 영향이 없습니다.</Mugirl.CorporateFinance.FinePrint>
+  <Mugirl.CorporateFinance.CollateralFinePrint>일반 내구재와 장비를 받습니다. 은, 사람, 부패하는 물건, 퀘스트 물품, 내용물이 든 용기는 제외됩니다. 원래 물건은 상환 후 돌려받습니다.</Mugirl.CorporateFinance.CollateralFinePrint>
+  <Mugirl.CorporateFinance.TermsButton>계약 조건</Mugirl.CorporateFinance.TermsButton>
+  <Mugirl.CorporateFinance.Summary>남은 원금: {0}\n쌓인 이자: {1}\n지금 상환 시: {2}\n만기까지: {3}일\n현재 원금 기준 예상 만기 금액: {4}</Mugirl.CorporateFinance.Summary>
+  <Mugirl.CorporateFinance.Collection>계좌 연체. 무장 추심이 승인되었습니다. 다음 출동까지 약 {0}일.</Mugirl.CorporateFinance.Collection>
+  <Mugirl.CorporateFinance.Repayment>상환 금액</Mugirl.CorporateFinance.Repayment>
+  <Mugirl.CorporateFinance.PayAmount>{0} 상환</Mugirl.CorporateFinance.PayAmount>
+  <Mugirl.CorporateFinance.PayAll>전액 상환</Mugirl.CorporateFinance.PayAll>
+  <Mugirl.CorporateFinance.HeldValue>보관 중인 자산 · 감정가 {0}</Mugirl.CorporateFinance.HeldValue>
+  <Mugirl.CorporateFinance.Liquidate>담보 처분</Mugirl.CorporateFinance.Liquidate>
+  <Mugirl.CorporateFinance.LiquidateConfirm>이 담보를 처분할까요?\n\n{0}\n\n처분 대금: {1}\n처분 후 남는 빚: {2}\n\n처분 대금은 이자부터 갚고 원금을 갚으며, 남는 금액은 받을 수 있습니다. 물건은 영구히 넘겨집니다. 빚이 남아 있는 동안 추심은 계속됩니다.</Mugirl.CorporateFinance.LiquidateConfirm>
+  <Mugirl.CorporateFinance.ReadyToClaim>담보가 풀렸습니다. 수령 대기 중인 은: {0}. 추가 대출은 수령 후에 가능합니다.</Mugirl.CorporateFinance.ReadyToClaim>
+  <Mugirl.CorporateFinance.Claim>돌려받을 자산 수령</Mugirl.CorporateFinance.Claim>
+  <Mugirl.CorporateFinance.CollateralRules>선지급 {0}% · 원금 {1}~{2} 은</Mugirl.CorporateFinance.CollateralRules>
+  <Mugirl.CorporateFinance.EmptyCollateral>이 배송 지점에는 담보로 쓸 수 있는 물건이 없습니다.</Mugirl.CorporateFinance.EmptyCollateral>
+  <Mugirl.CorporateFinance.Unit>개</Mugirl.CorporateFinance.Unit>
+  <Mugirl.CorporateFinance.SelectedValue>감정가 {0} · 대출 가능액 {1}</Mugirl.CorporateFinance.SelectedValue>
+  <Mugirl.CorporateFinance.BorrowAmount>신청 원금</Mugirl.CorporateFinance.BorrowAmount>
+  <Mugirl.CorporateFinance.PreviewDue>{1}일 뒤 {0} 상환</Mugirl.CorporateFinance.PreviewDue>
+  <Mugirl.CorporateFinance.Sign>대출 계약 서명</Mugirl.CorporateFinance.Sign>
+  <Mugirl.CorporateFinance.SignConfirm>받는 원금: {0}\n기간: {3}일\n기한 내 상환액: {2}\n\n다음 물건을 즉시 담보로 맡깁니다:\n{1}\n\n상환금은 이자부터 갚고 원금을 갚습니다. 원래 물건은 전액 상환한 뒤에만 돌려받습니다. 연체하면 적대 관계로 고정되고 추심 습격이 일어납니다. 담보는 자동으로 처분되지 않으며, 처분하려면 따로 확인해야 합니다. 이 계약에 서명할까요?</Mugirl.CorporateFinance.SignConfirm>
+  <Mugirl.CorporateFinance.Existing>먼저 기존 대출을 갚고 남은 자산을 돌려받으세요.</Mugirl.CorporateFinance.Existing>
+  <Mugirl.CorporateFinance.InvalidAmount>올바른 원금을 입력하고 담보를 고르세요.</Mugirl.CorporateFinance.InvalidAmount>
+  <Mugirl.CorporateFinance.CollateralChanged>담보, 수량, 거래 가능 여부가 바뀌었습니다. 다시 고르세요.</Mugirl.CorporateFinance.CollateralChanged>
+  <Mugirl.CorporateFinance.InsufficientCollateral>고른 담보의 감정가로는 이 원금을 빌릴 수 없습니다.</Mugirl.CorporateFinance.InsufficientCollateral>
+  <Mugirl.CorporateFinance.TransferFailed>인도가 완료되지 않았습니다. 넘어간 물건은 보관 중이며 &quot;돌려받을 자산 수령&quot;으로 되찾을 수 있습니다. 실패한 대출 지급으로는 빚이 생기지 않았습니다.</Mugirl.CorporateFinance.TransferFailed>
+  <Mugirl.CorporateFinance.NoDebt>갚을 빚이 없거나 상환 금액이 올바르지 않습니다.</Mugirl.CorporateFinance.NoDebt>
+  <Mugirl.CorporateFinance.NoSilver>현재 거래 구역에 은이 부족합니다.</Mugirl.CorporateFinance.NoSilver>
+  <Mugirl.CorporateFinance.CannotLiquidate>연체된 대출의 처분되지 않은 담보만 넘길 수 있습니다.</Mugirl.CorporateFinance.CannotLiquidate>
+  <Mugirl.CorporateFinance.InvalidContext>통신 또는 배송 위치가 더 이상 유효하지 않습니다. 유효한 단말기로 다시 연결하세요.</Mugirl.CorporateFinance.InvalidContext>
+  <Mugirl.CorporateFinance.ReminderTitle>기업 대출 만기 임박</Mugirl.CorporateFinance.ReminderTitle>
+  <Mugirl.CorporateFinance.Reminder>기업 대출 만기가 약 {0}일 남았습니다. 단말기에서 원금과 이자를 확인하고 상환을 준비하세요. 연체된 계좌에는 무장 추심이 들어옵니다.</Mugirl.CorporateFinance.Reminder>
+  <Mugirl.CorporateFinance.DefaultTitle>기업 채무 추심</Mugirl.CorporateFinance.DefaultTitle>
+  <Mugirl.CorporateFinance.DefaultLetter>대출이 연체되어 {0} 은이 남아 있습니다. 기업이 적대 관계를 고정하고 추심반을 준비하고 있습니다. 담보는 계속 보관됩니다. 현금으로 갚거나 단말기에서 담보를 스스로 처분하세요. 일반 외교로는 채무로 인한 고정을 풀 수 없습니다.</Mugirl.CorporateFinance.DefaultLetter>
+  <Mugirl.CorporateFinance.SettledTitle>기업 대출 상환 완료</Mugirl.CorporateFinance.SettledTitle>
+  <Mugirl.CorporateFinance.SettledLetter>원금과 이자를 모두 갚았습니다. 더 이상 추심 습격은 없습니다. 처분되지 않은 담보는 단말기에서 돌려받으세요. 다른 행동으로 생긴 외교적 결과는 그대로 남습니다.</Mugirl.CorporateFinance.SettledLetter>
+  <Mugirl.CorporateFinance.LoanSigned>대출 계약</Mugirl.CorporateFinance.LoanSigned>
+  <Mugirl.CorporateFinance.Payment>대출 상환</Mugirl.CorporateFinance.Payment>
+  <Mugirl.CorporateFinance.Liquidated>담보 처분</Mugirl.CorporateFinance.Liquidated>
+  <Mugirl.CorporateFinance.Success>대출 거래가 완료되었습니다.</Mugirl.CorporateFinance.Success>
+  <Mugirl.CorporatePeople.Title>눈소 거래</Mugirl.CorporatePeople.Title>
+  <Mugirl.CorporatePeople.Intro>인사부 · 명단에 오른 눈소들은 화려한 맞춤 의상을 입고 있으며, 노예나 정착민으로 합류할 수 있습니다.</Mugirl.CorporatePeople.Intro>
+  <Mugirl.CorporatePeople.BuyTab>이번 주 명단</Mugirl.CorporatePeople.BuyTab>
+  <Mugirl.CorporatePeople.SellTab>기업 매입</Mugirl.CorporatePeople.SellTab>
+  <Mugirl.CorporatePeople.ClaimSilver>대금 수령: {0}</Mugirl.CorporatePeople.ClaimSilver>
+  <Mugirl.CorporatePeople.RequiresIdeology>노예로 사려면 Ideology DLC가 필요합니다. 정착민으로는 계속 살 수 있습니다.</Mugirl.CorporatePeople.RequiresIdeology>
+  <Mugirl.CorporatePeople.NoOffers>이번 주 명단은 매진되었습니다. 다음 주에 새로 들어옵니다.</Mugirl.CorporatePeople.NoOffers>
+  <Mugirl.CorporatePeople.ClaimPerson>결제한 인원 인수</Mugirl.CorporatePeople.ClaimPerson>
+  <Mugirl.CorporatePeople.BuyPrice>인원 구매 · {0}</Mugirl.CorporatePeople.BuyPrice>
+  <Mugirl.CorporatePeople.BuyConfirm>구매: {0}\n최종 결제액: {1}\n인도: {2}\n\n기업은 명단의 눈소에게 화려한 맞춤 의상을 입혀 보냅니다. 늘어나는 인원과 장비의 무게는 상단이 감당해야 합니다.\n\n결제를 승인할까요?</Mugirl.CorporatePeople.BuyConfirm>
+  <Mugirl.CorporatePeople.BuyAsSlave>노예로 구매</Mugirl.CorporatePeople.BuyAsSlave>
+  <Mugirl.CorporatePeople.BuyAsColonist>정착민으로 구매 (+50%)</Mugirl.CorporatePeople.BuyAsColonist>
+  <Mugirl.CorporatePeople.BasePrice>기본 가격: {0}</Mugirl.CorporatePeople.BasePrice>
+  <Mugirl.CorporatePeople.ColonistPremium>정착민 할증: {0}</Mugirl.CorporatePeople.ColonistPremium>
+  <Mugirl.CorporatePeople.HandlingFee>수수료: {0}</Mugirl.CorporatePeople.HandlingFee>
+  <Mugirl.CorporatePeople.ShippingFee>배송비: {0}</Mugirl.CorporatePeople.ShippingFee>
+  <Mugirl.CorporatePeople.PurchaseTotal>최종 결제액: {0}</Mugirl.CorporatePeople.PurchaseTotal>
+  <Mugirl.CorporatePeople.SaleNet>순수익: {0}</Mugirl.CorporatePeople.SaleNet>
+  <Mugirl.CorporatePeople.FreeApplied>이번 주 무료 구매로 가격과 모든 수수료가 면제됩니다.</Mugirl.CorporatePeople.FreeApplied>
+  <Mugirl.CorporatePeople.BuySlaveConfirmDetailed>구매: {0} (노예)\n기본 가격: {1}\n수수료: {2}\n배송비: {3}\n최종 결제액: {4}\n인도: {5}\n\n기업은 명단의 눈소에게 화려한 맞춤 의상을 입혀 보냅니다. 숙소와 진압은 구매자가 맡아야 하며, 늘어나는 인원과 장비의 무게는 상단이 감당해야 합니다.\n\n구매할까요?</Mugirl.CorporatePeople.BuySlaveConfirmDetailed>
+  <Mugirl.CorporatePeople.BuyColonistConfirmDetailed>구매: {0} (정착민)\n기본 가격: {1}\n정착민 할증: {2}\n수수료: {3}\n배송비: {4}\n최종 결제액: {5}\n인도: {6}\n\n기업은 명단의 눈소에게 화려한 맞춤 의상을 입혀 보냅니다. 늘어나는 인원과 장비의 무게는 상단이 감당해야 합니다.\n\n구매할까요?</Mugirl.CorporatePeople.BuyColonistConfirmDetailed>
+  <Mugirl.CorporatePeople.SaleWarning>노예 거래 · 가족과 이념에 영향이 있으며, 정착민들이 8일 동안 기분 -8을 받습니다.</Mugirl.CorporatePeople.SaleWarning>
+  <Mugirl.CorporatePeople.NoCandidates>해당하는 인원이 없습니다. 붙잡아 둔 성인 눈소 포로와 노예만 매입합니다. 자유 정착민, 방문자, 퀘스트 임시 인원은 제외됩니다.</Mugirl.CorporatePeople.NoCandidates>
+  <Mugirl.CorporatePeople.SellPrice>기업에 판매 · {0}</Mugirl.CorporatePeople.SellPrice>
+  <Mugirl.CorporatePeople.MapGear>의복은 사람과 함께 넘어갑니다. 무기, 소지품, 무기 휠 예비품은 현장에 남습니다.</Mugirl.CorporatePeople.MapGear>
+  <Mugirl.CorporatePeople.CaravanGear>무기 휠 예비품을 포함해 들고 있는 모든 물건이 사람과 함께 넘어갑니다. 남길 물건은 미리 옮겨 두세요.</Mugirl.CorporatePeople.CaravanGear>
+  <Mugirl.CorporatePeople.SellConfirm>인계: {0}\n순수익: {1}\n\n노예 거래는 가족과 이념에 영향을 줍니다. 정착민들은 &quot;눈소를 무자비한 기업에 보냄&quot;으로 8일 동안 기분 -8을 받으며, 또 팔면 기간이 새로 갱신됩니다.\n\n{2}\n\n인계는 되돌릴 수 없습니다. 이 사람은 더 이상 정착지 소유가 아니게 됩니다. 계약서에 서명할까요?</Mugirl.CorporatePeople.SellConfirm>
+  <Mugirl.CorporatePeople.SellConfirmDetailed>인계: {0}\n기본 가격: {1}\n수수료: -{2}\n배송비: -{3}\n순수익: {4}\n\n노예 거래는 가족과 이념에 영향을 줍니다. 정착민들은 &quot;눈소를 무자비한 기업에 보냄&quot;으로 8일 동안 기분 -8을 받으며, 또 팔면 기간이 새로 갱신됩니다.\n\n{5}\n\n인계는 되돌릴 수 없습니다. 이 사람은 더 이상 정착지 소유가 아니게 됩니다. 계약서에 서명할까요?</Mugirl.CorporatePeople.SellConfirmDetailed>
+  <Mugirl.CorporatePeople.AgeHealth>나이 {0} · 전체 건강 {1}</Mugirl.CorporatePeople.AgeHealth>
+  <Mugirl.CorporatePeople.Skills>주요 기술: {0} (* 관심, ** 열정)</Mugirl.CorporatePeople.Skills>
+  <Mugirl.CorporatePeople.Traits>특성: {0}</Mugirl.CorporatePeople.Traits>
+  <Mugirl.CorporatePeople.Health>건강 상태: {0}</Mugirl.CorporatePeople.Health>
+  <Mugirl.CorporatePeople.Apparel>의복: {0}</Mugirl.CorporatePeople.Apparel>
+  <Mugirl.CorporatePeople.Relations>정착지 관계: {0}</Mugirl.CorporatePeople.Relations>
+  <Mugirl.CorporatePeople.NoSilver>현재 거래 구역에 은이 부족합니다.</Mugirl.CorporatePeople.NoSilver>
+  <Mugirl.CorporatePeople.NoNegotiator>이 거래를 협상할 수 있는, 의식 있는 자유 정착민이 없습니다.</Mugirl.CorporatePeople.NoNegotiator>
+  <Mugirl.CorporatePeople.OfferChanged>대상, 자격, 가격이 바뀌었습니다. 다시 고르세요.</Mugirl.CorporatePeople.OfferChanged>
+  <Mugirl.CorporatePeople.InvalidContext>거래 장소나 통신 접속이 더 이상 유효하지 않습니다. 다시 연결하세요.</Mugirl.CorporatePeople.InvalidContext>
+  <Mugirl.CorporatePeople.IdeoRefusal>협상자의 이념이 이 노예 판매를 허락하지 않습니다.</Mugirl.CorporatePeople.IdeoRefusal>
+  <Mugirl.CorporatePeople.DismountFirst>거래하기 전에 이 사람의 탑승 관계를 먼저 끝내세요.</Mugirl.CorporatePeople.DismountFirst>
+  <Mugirl.CorporatePeople.DeliveryPending>인도가 대기 중입니다. 결제한 인원이나 대금은 보존되며, 유효한 단말기에서 다시 결제하지 않고 받을 수 있습니다.</Mugirl.CorporatePeople.DeliveryPending>
+  <Mugirl.CorporatePeople.GenerationError>기업 인원 생성 실패: {0}</Mugirl.CorporatePeople.GenerationError>
+  <Mugirl.CorporatePeople.TraderName>기업 인사부</Mugirl.CorporatePeople.TraderName>
+  <Mugirl.CorporatePeople.Purchased>눈소 구매</Mugirl.CorporatePeople.Purchased>
+  <Mugirl.CorporatePeople.Sold>눈소 판매</Mugirl.CorporatePeople.Sold>
+  <Mugirl.CorporatePeople.Success>인원 거래가 완료되었습니다.</Mugirl.CorporatePeople.Success>
+  <Mugirl.CorporatePeopleCards.Years>{0}세</Mugirl.CorporatePeopleCards.Years>
+  <Mugirl.CorporatePeopleCards.Paid>결제 완료 · 인도 대기</Mugirl.CorporatePeopleCards.Paid>
+  <Mugirl.CorporatePeopleCards.FullRecord>인사 기록</Mugirl.CorporatePeopleCards.FullRecord>
+  <Mugirl.CorporatePeopleCards.Age>나이</Mugirl.CorporatePeopleCards.Age>
+  <Mugirl.CorporatePeopleCards.Health>건강</Mugirl.CorporatePeopleCards.Health>
+  <Mugirl.CorporatePeopleCards.Pain>통증</Mugirl.CorporatePeopleCards.Pain>
+  <Mugirl.CorporatePeopleCards.Quote>견적 / 은</Mugirl.CorporatePeopleCards.Quote>
+  <Mugirl.CorporatePeopleCards.Skills>기술</Mugirl.CorporatePeopleCards.Skills>
+  <Mugirl.CorporatePeopleCards.Incapable>불가능</Mugirl.CorporatePeopleCards.Incapable>
+  <Mugirl.CorporatePeopleCards.Traits>특성</Mugirl.CorporatePeopleCards.Traits>
+  <Mugirl.CorporatePeopleCards.HealthRecord>의료 기록</Mugirl.CorporatePeopleCards.HealthRecord>
+  <Mugirl.CorporatePeopleCards.NoConditions>보고된 질환 없음</Mugirl.CorporatePeopleCards.NoConditions>
+  <Mugirl.CorporatePeopleCards.WholeBody>전신</Mugirl.CorporatePeopleCards.WholeBody>
+  <Mugirl.CorporatePeopleCards.Apparel>의복</Mugirl.CorporatePeopleCards.Apparel>
+  <Mugirl.CorporatePeopleCards.Relations>정착지 관계</Mugirl.CorporatePeopleCards.Relations>
+  <Mugirl.CorporatePeopleCards.None>기록 없음</Mugirl.CorporatePeopleCards.None>
+  <Mugirl.CQ.DebugMapSpawned>현재 맵 중앙에 핵융합 연구소 시험 맵을 생성했습니다.</Mugirl.CQ.DebugMapSpawned>
+  <Mugirl.CQ.DebugMapUnavailable>핵융합 연구소 시험을 쓰려면 개발자 모드에서 맵을 먼저 여세요.</Mugirl.CQ.DebugMapUnavailable>
+  <Mugirl.CQ.DebugMapFailed>핵융합 연구소 시험 맵을 생성하지 못했습니다: {0}</Mugirl.CQ.DebugMapFailed>
+  <Mugirl.CQ.Kind.Processing>위탁 제조</Mugirl.CQ.Kind.Processing>
+  <Mugirl.CQ.Kind.Purge>소탕</Mugirl.CQ.Kind.Purge>
+  <Mugirl.CQ.Kind.Investment>벤처 투자</Mugirl.CQ.Kind.Investment>
+  <Mugirl.CQ.Kind.Distribution>유통</Mugirl.CQ.Kind.Distribution>
+  <Mugirl.CQ.Kind.Native>협력사 의뢰</Mugirl.CQ.Kind.Native>
+  <Mugirl.CQ.Kind.Fusion>소탕: 핵융합 투자자들</Mugirl.CQ.Kind.Fusion>
+  <Mugirl.CQ.State.Available>수주 가능</Mugirl.CQ.State.Available>
+  <Mugirl.CQ.State.Active>진행 중</Mugirl.CQ.State.Active>
+  <Mugirl.CQ.State.Ready>정산 가능</Mugirl.CQ.State.Ready>
+  <Mugirl.CQ.State.Completed>완료</Mugirl.CQ.State.Completed>
+  <Mugirl.CQ.State.Failed>실패</Mugirl.CQ.State.Failed>
+  <Mugirl.CQ.State.Expired>만료</Mugirl.CQ.State.Expired>
+  <Mugirl.CQ.State.Abandoned>포기</Mugirl.CQ.State.Abandoned>
+  <Mugirl.CQ.HighRisk>고위험</Mugirl.CQ.HighRisk>
+  <Mugirl.CQ.AnyMaterial>아무 재료</Mugirl.CQ.AnyMaterial>
+  <Mugirl.CQ.ProcessingDesc>생산: {0} × {1}회\n납품: {2} × {3} · 재료 {7} · 보통 이상 · 내구도 90% 이상\n보증금 {4} · 수수료 {5} 은 · 투입 {6}\n나눠서 납품할 수 있습니다. 상했거나 시체로 오염된 물건은 받지 않습니다. 늦거나 포기하면 보증금과 우호도를 잃습니다.</Mugirl.CQ.ProcessingDesc>
+  <Mugirl.CQ.HighQualityConfirm>{0} 납품에 좋음 이상 품질의 물건이 포함됩니다. 총 가공 수수료는 {1} 은으로 고정되며, 품질이 높아도 추가 보수는 없습니다. 조건을 충족하는 가장 낮은 품질부터 먼저 납품합니다. 계속할까요?</Mugirl.CQ.HighQualityConfirm>
+  <Mugirl.CQ.PurgeDesc>대상: {0} · 예상 전력 {1}\n보수: {2} 은. 기한 안에 지정된 수비대를 제거하거나 사로잡으세요. 도망치게 두면 계약 위반입니다.</Mugirl.CQ.PurgeDesc>
+  <Mugirl.CQ.InvestmentDesc>투자금: {0} 은\n원금 포함 수익: 30% → 0.6배 / 45% → 1.05배 / 25% → 1.6배\n만기에 지급합니다. 중도 인출은 불가하며, 손실이 나도 빚은 생기지 않습니다.</Mugirl.CQ.InvestmentDesc>
+  <Mugirl.CQ.InvestmentHighDesc>고위험 투자금: {0} 은\n원금 포함 수익: 45% → 0.2배 / 35% → 1.2배 / 20% → 2.6배\n만기에 지급합니다. 중도 인출은 불가하며, 손실이 나도 빚은 생기지 않습니다.</Mugirl.CQ.InvestmentHighDesc>
+  <Mugirl.CQ.DistributionDesc>출하: {1} × {0} · 비용 {2} 은 · 판매 목표 {3}\n외부 판매만 인정됩니다. 사용, 선물, 파괴, 반품은 제외됩니다. 실패해도 불이익은 없으며, 팔지 못한 물건은 그대로 가집니다.</Mugirl.CQ.DistributionDesc>
+  <Mugirl.CQ.NativeDesc>협력사에서 소개한 의뢰입니다. 의뢰인이 보수 조건과 요구 사항을 따로 보내 줄 겁니다.</Mugirl.CQ.NativeDesc>
+  <Mugirl.CQ.FusionDesc>지식재산부: 집행하기 전에 독립 연구소를 찾아가 책임자와 이야기하세요.\n기한 안에 지정된 인원과 경비를 제거하거나 사로잡으세요.</Mugirl.CQ.FusionDesc>
+  <Mugirl.CQ.OfferGone>이 제안은 더 이상 유효하지 않습니다.</Mugirl.CQ.OfferGone>
+  <Mugirl.CQ.Limit>일일 계약은 최대 {0}개까지 진행할 수 있습니다.</Mugirl.CQ.Limit>
+  <Mugirl.CQ.NeedSilver>사용 가능한 은 {0}이 필요합니다.</Mugirl.CQ.NeedSilver>
+  <Mugirl.CQ.NoWorkshop>해금된 제조법과 그에 맞는 정착지 작업대가 필요합니다.</Mugirl.CQ.NoWorkshop>
+  <Mugirl.CQ.NoMap>이 의뢰를 수행할 정착지 맵이 없습니다.</Mugirl.CQ.NoMap>
+  <Mugirl.CQ.GenerationFailed>현재 조건에서는 이 의뢰를 만들 수 없습니다. 비용은 청구되지 않았습니다.</Mugirl.CQ.GenerationFailed>
+  <Mugirl.CQ.NoSite>근처에 알맞은 장소가 없습니다. 비용은 청구되지 않았습니다.</Mugirl.CQ.NoSite>
+  <Mugirl.CQ.ReadyLetter>기업: 계약 정산 가능</Mugirl.CQ.ReadyLetter>
+  <Mugirl.CQ.ReadyText>{0} 정산이 준비되었습니다. 기업 단말기에서 보수나 보상을 받으세요.</Mugirl.CQ.ReadyText>
+  <Mugirl.CQ.FailedLetter>기업: 계약 미완료</Mugirl.CQ.FailedLetter>
+  <Mugirl.CQ.FailedText>{0} 계약이 실패했거나 포기되었습니다. 보증금, 재고, 보상은 약정된 조건에 따라 처리됩니다.</Mugirl.CQ.FailedText>
+  <Mugirl.CQ.FusionInvitation>기업: 지식재산권 집행</Mugirl.CQ.FusionInvitation>
+  <Mugirl.CQ.ResearchOriginal>당신이군요. 제가 정착지에 찾아갔던 핵융합 투자 담당자예요.</Mugirl.CQ.ResearchOriginal>
+  <Mugirl.CQ.ResearchRepresentative>저는 원래의 핵융합 연구 프로젝트를 대표합니다. 전에 연락드린 건 {0}였지만, 오늘은 제가 팀을 대신해 말씀드리죠.</Mugirl.CQ.ResearchRepresentative>
+  <Mugirl.CQ.OriginalTeam>원래 프로젝트 팀</Mugirl.CQ.OriginalTeam>
+  <Mugirl.CQ.ResearchDialogue>우리는 첫 성과를 보내 드렸고 약속도 지켰어요. 기업은 이 프로젝트에 은 한 닢도 투자한 적이 없어요. 그런데 이제 와서 눈소를 연구하는 방법까지 자기네 지식재산이라고 주장하네요. 정말 그 계약을 집행하러 오신 건가요?</Mugirl.CQ.ResearchDialogue>
+  <Mugirl.CQ.ResearchMore>우리 연구는 자발적인 참여와 열린 교류로 이루어져요. 기업은 라이선스 주장을 부풀려 연구 자체를 자기 소유라고 우기고 있어요. 우리는 독점 계약에 서명한 적이 없고, 참여자들을 넘기지도 않을 거예요.\n거절하면 기업과의 관계가 나빠지겠죠. 하지만 여기 있는 사람들은 살 수 있어요.</Mugirl.CQ.ResearchMore>
+  <Mugirl.CQ.Back>뒤로</Mugirl.CQ.Back>
+  <Mugirl.CQ.AskResearch>연구와 혐의에 대해 묻는다</Mugirl.CQ.AskResearch>
+  <Mugirl.CQ.Execute>기업 계약을 집행한다</Mugirl.CQ.Execute>
+  <Mugirl.CQ.ExecuteConfirm>연구원과 경비가 저항할 겁니다. 기업 보상을 받으려면 지정된 대상을 실제로 죽이거나 사로잡아야 합니다. 이 결정은 되돌릴 수 없습니다.</Mugirl.CQ.ExecuteConfirm>
+  <Mugirl.CQ.Protect>거절하고 연구원들을 보호한다</Mugirl.CQ.Protect>
+  <Mugirl.CQ.ProtectConfirm>거절하면 기업 보수를 모두 잃습니다. 기본 우호도 변화: {0}. 현재 관계 기준 예상 변화는 {1}({2} → {3})입니다.\n연구원들이 선물을 보내 줍니다: {4}. 수송 포드로 정착지에 배달됩니다. 발송 전에 그들을 공격하면 배달되지 않은 선물은 취소되고, 기업 계약도 되살아나지 않습니다. 물러날까요?</Mugirl.CQ.ProtectConfirm>
+  <Mugirl.CQ.Later>나중에 결정한다</Mugirl.CQ.Later>
+  <Mugirl.CQ.ResearchTitle>연구원과 접촉</Mugirl.CQ.ResearchTitle>
+  <Mugirl.CQ.ReopenDialogue>현장 대화를 다시 열어 기업 계약을 집행할지 정합니다.</Mugirl.CQ.ReopenDialogue>
+  <Mugirl.CQ.CombatLetter>연구소의 저항</Mugirl.CQ.CombatLetter>
+  <Mugirl.CQ.CombatText>기업 계약을 집행하기로 했습니다. 연구원과 경비가 저항할 겁니다. 지정된 대상을 죽이거나 사로잡은 뒤 단말기에서 보수를 받으세요.</Mugirl.CQ.CombatText>
+  <Mugirl.CQ.ThanksTitle>투자팀의 감사</Mugirl.CQ.ThanksTitle>
+  <Mugirl.CQ.ThanksText>&quot;장부에서 지워 버릴 숫자가 아니라 사람으로 대해 주셔서 고마워요. 당신의 투자 덕분에 연구를 이어 올 수 있었고, 오늘의 결정 덕분에 우리가 살아서 연구를 계속할 수 있게 됐어요. 소중히 아껴 둔 기술교수 코어와 비상용 메크 혈청을 챙겨 두었어요. 당신이 아끼는 사람들을 지키는 데도 도움이 되면 좋겠어요. 정착지 사람들 몫으로 유제품도 조금 넣었어요.&quot;\n연구원들이 선물을 준비했습니다: {0}. 곧 수송 포드로 정착지에 배달됩니다. 정착지가 없으면 새 거처를 마련할 때까지 물건을 보관해 둡니다.\n기업 소탕 계약을 거절해 보수를 잃고 외교적 대가를 치렀습니다. 연구원들은 계속 우호적입니다.</Mugirl.CQ.ThanksText>
+  <Mugirl.CQ.ProtectionReward>연구원 보호에 대한 선물: {0}, 정착지로 배달.</Mugirl.CQ.ProtectionReward>
+  <Mugirl.CQ.ThanksPreparationFailed>연구원들의 선물을 준비하지 못해 보호 선택이 정산되지 않았습니다: {0}</Mugirl.CQ.ThanksPreparationFailed>
+  <Mugirl.CQ.ThanksRevokedTitle>연구원들이 감사를 거둬들임</Mugirl.CQ.ThanksRevokedTitle>
+  <Mugirl.CQ.ThanksRevokedText>보호하겠다고 약속한 뒤 연구원들을 공격했습니다. 그들은 감사를 거둬들이고 배달되지 않은 선물을 모두 취소합니다. 기업 계약은 닫힌 채로 남고, 잃은 우호도도 돌아오지 않습니다.</Mugirl.CQ.ThanksRevokedText>
+  <Mugirl.CQ.Daily>일일 계약</Mugirl.CQ.Daily>
+  <Mugirl.CQ.Side>사이드 스토리</Mugirl.CQ.Side>
+  <Mugirl.CQ.Main>메인 스토리</Mugirl.CQ.Main>
+  <Mugirl.CQ.BoardHelp>계약 {0}개 진행 중 · 매주 모집</Mugirl.CQ.BoardHelp>
+  <Mugirl.CQ.NoSide>개인 의뢰가 없습니다. 고객 관리 부서에서 연락할 겁니다.</Mugirl.CQ.NoSide>
+  <Mugirl.CQ.NoMissions>이번 기간에는 열린 계약이 없습니다.</Mugirl.CQ.NoMissions>
+  <Mugirl.CQ.Progress>진행도 {0}/{1}</Mugirl.CQ.Progress>
+  <Mugirl.CQ.OfferTime>제안 만료까지 {0}일</Mugirl.CQ.OfferTime>
+  <Mugirl.CQ.DueTime>기한까지 {0}일</Mugirl.CQ.DueTime>
+  <Mugirl.CQ.Accept>수락</Mugirl.CQ.Accept>
+  <Mugirl.CQ.SignConfirm>서명 시 결제액: {0} 은. 비용, 기한, 실패 시 결과를 확인했는지 확인하세요.</Mugirl.CQ.SignConfirm>
+  <Mugirl.CQ.Submit>제품 납품</Mugirl.CQ.Submit>
+  <Mugirl.CQ.NoProducts>현재 거래 재고에 재료, 품질, 내구도 조건을 만족하는 제품이 없습니다.</Mugirl.CQ.NoProducts>
+  <Mugirl.CQ.Claim>정산: {0} 은</Mugirl.CQ.Claim>
+  <Mugirl.CQ.DeliveryFailed>납품을 완료하지 못했습니다. 정산은 계속 받을 수 있습니다.</Mugirl.CQ.DeliveryFailed>
+  <Mugirl.CQ.Locate>위치 보기</Mugirl.CQ.Locate>
+  <Mugirl.CQ.Talk>대화</Mugirl.CQ.Talk>
+  <Mugirl.CQ.QuestLog>퀘스트 기록</Mugirl.CQ.QuestLog>
+  <Mugirl.CQ.Abandon>포기</Mugirl.CQ.Abandon>
+  <Mugirl.CQ.AbandonConfirm>이 계약을 포기할까요? 위탁 제조 보증금은 우호도 불이익과 함께 몰수되고, 소탕 의뢰는 종료됩니다. 구매한 유통 재고는 그대로 가집니다.</Mugirl.CQ.AbandonConfirm>
+  <Mugirl.CQ.ReceiveGoods>대기 중인 계약 물품 수령</Mugirl.CQ.ReceiveGoods>
+  <Mugirl.CQ.AcceptedRecord>계약 서명</Mugirl.CQ.AcceptedRecord>
+  <Mugirl.CQ.ClaimedRecord>계약 정산</Mugirl.CQ.ClaimedRecord>
+  <Mugirl.CQ.FailedRecord>계약 미완료</Mugirl.CQ.FailedRecord>
+  <Mugirl.CQ.ProtectedRecord>연구원 보호</Mugirl.CQ.ProtectedRecord>
+  <Mugirl.CQ.Terms>서명 후 기한: {0}일. 완료 시 우호도 변화: {1}.</Mugirl.CQ.Terms>
+  <Mugirl.CQ.FusionTerms>집행 보상: {0} 은. 거절하면 보수를 잃고 기업 우호도가 {1} 변합니다.</Mugirl.CQ.FusionTerms>
+  <Mugirl.CorporateServices.Page>고객 서비스</Mugirl.CorporateServices.Page>
+  <Mugirl.CorporateServices.Summary>누적 거래액을 쌓으면 주문 할인, 더 많은 재고, 주간 선물, 무료 인원, 지정 전투 지원이 열립니다.</Mugirl.CorporateServices.Summary>
+  <Mugirl.CorporateServices.Status>고객 등급 {0} · 누적 거래액 {1} 은</Mugirl.CorporateServices.Status>
+  <Mugirl.CorporateServices.Counting>재고, 주문, 기업 상단이나 기업 정착지와의 거래를 포함해 사고판 금액이 모두 집계됩니다. 눈소는 처음 돈을 주고받은 인원 거래 한 번만, 실제로 지불하거나 받은 금액으로 집계됩니다. 같은 눈소를 다시 거래해도 거래액은 늘지 않습니다. 주문은 인도될 때 집계되며, 환불, 선물, 금융 이체는 집계되지 않습니다. 기존 저장 파일은 이 업데이트 이후의 거래부터 집계합니다.</Mugirl.CorporateServices.Counting>
+  <Mugirl.CorporateServices.Current>주문 할인 {0}% · 다음 주 재고 {1}종 · {2}일 뒤 갱신</Mugirl.CorporateServices.Current>
+  <Mugirl.CorporateServices.Tier>등급 {0} / 거래액 {1} 은 / {2}</Mugirl.CorporateServices.Tier>
+  <Mugirl.CorporateServices.Active>해금됨</Mugirl.CorporateServices.Active>
+  <Mugirl.CorporateServices.Locked>잠김</Mugirl.CorporateServices.Locked>
+  <Mugirl.CorporateServices.Tier1>계약 고객: 주문 5% 할인.</Mugirl.CorporateServices.Tier1>
+  <Mugirl.CorporateServices.Tier2>우대 고객: 주문 8% 할인, 주간 재고 8종 추가.</Mugirl.CorporateServices.Tier2>
+  <Mugirl.CorporateServices.Tier3>VIP 고객: 주문 10% 할인, 재고 12종 추가, 우주 시대 물품 선택지 확대. 주간 선물: 산업 의약품 10개, 포장 생존 식량 20개.</Mugirl.CorporateServices.Tier3>
+  <Mugirl.CorporateServices.Tier4>전략 고객: 주문 12% 할인, 재고 16종 추가. 주간 명단에서 눈소 한 명을 노예나 정착민으로 무료 구매할 수 있습니다. 노예 구매에는 Ideology가 필요합니다.</Mugirl.CorporateServices.Tier4>
+  <Mugirl.CorporateServices.Tier5>최상위 고객: 주문 15% 할인, 재고 24종 추가. 일주일에 한 번, 잘 무장한 눈소 강습대원 4명을 불러온 맵의 실외 착륙 지점으로 무료로 부를 수 있습니다. 모두 기업 결사대원 특성을 지녀 절대 후퇴하지 않으며, 오인 사격으로 잃는 우호도가 95% 줄어듭니다. 하루 뒤 철수합니다.</Mugirl.CorporateServices.Tier5>
+  <Mugirl.CorporateServices.Tier6>정예 고객: 최상위 혜택을 모두 유지합니다. 지원 인원이 호출당 8명으로 늘고 일주일에 두 번 무료로 부를 수 있습니다. 이번 주에 이미 쓴 호출도 그대로 셉니다.</Mugirl.CorporateServices.Tier6>
+  <Mugirl.CorporateServices.SupportAllowance>분대 규모: {0} · 이번 주 남은 호출: {1} / {2}</Mugirl.CorporateServices.SupportAllowance>
+  <Mugirl.CorporateServices.ClaimGift>주간 선물 받기</Mugirl.CorporateServices.ClaimGift>
+  <Mugirl.CorporateServices.GiftSuccess>주간 선물을 보냈습니다. 배달되지 않은 소포는 주문 화면에서 계속 받을 수 있습니다.</Mugirl.CorporateServices.GiftSuccess>
+  <Mugirl.CorporateServices.FreeAvailable>주간 무료 눈소: 사용 가능. 두 신분 모두 해당되며 가격 전체가 면제됩니다. 인원 가격에 이 혜택이 반영되어 있습니다.</Mugirl.CorporateServices.FreeAvailable>
+  <Mugirl.CorporateServices.FreeUnavailable>주간 무료 눈소: 잠겨 있거나 이미 사용함.</Mugirl.CorporateServices.FreeUnavailable>
+  <Mugirl.CorporateServices.FreePerson>주간 무료 구매 사용</Mugirl.CorporateServices.FreePerson>
+  <Mugirl.CorporateServices.OpenPeople>인원 거래 열기</Mugirl.CorporateServices.OpenPeople>
+  <Mugirl.CorporateServices.CallSupport>지정 지원 호출 · 맵 선택</Mugirl.CorporateServices.CallSupport>
+  <Mugirl.CorporateServices.WeeklyHint>주간 혜택은 재고와 함께 갱신됩니다. 놓친 주의 혜택은 쌓이지 않습니다. 비활성화된 버튼은 잠겼거나, 이미 썼거나, 지금 쓸 수 없는 서비스입니다. 대상 선택을 취소하면 호출은 소모되지 않습니다.</Mugirl.CorporateServices.WeeklyHint>
+  <Mugirl.CorporateServices.TargetHint>안개가 걷히고 지붕이 없으며 설 수 있는 착륙 지점을 고르세요. 우클릭이나 Esc로 취소하면 호출이 소모되지 않습니다.</Mugirl.CorporateServices.TargetHint>
+  <Mugirl.CorporateServices.InvalidTarget>불러온 맵에서 안개가 걷히고 지붕이 없으며 설 수 있는 칸을 고르세요.</Mugirl.CorporateServices.InvalidTarget>
+  <Mugirl.CorporateServices.SupportSuccess>눈소 강습대를 선택한 착륙 지점으로 보냈습니다.</Mugirl.CorporateServices.SupportSuccess>
+  <Mugirl.CorporateServices.Unavailable>이 서비스는 잠겨 있거나 이번 주 사용량을 이미 다 썼습니다.</Mugirl.CorporateServices.Unavailable>
+  <Mugirl.CorporateServices.LevelUp>기업 고객 등급이 {0}(으)로 올랐습니다. 고객 서비스를 열어 새 혜택을 확인하세요.</Mugirl.CorporateServices.LevelUp>
+  <Mugirl.CorporateServices.Unlocked>고객 서비스 등급 상승</Mugirl.CorporateServices.Unlocked>
+  <Mugirl.CorporateServices.GiftRecord>주간 선물 수령</Mugirl.CorporateServices.GiftRecord>
+  <Mugirl.CorporateServices.SupportRecord>지정 지원</Mugirl.CorporateServices.SupportRecord>
+  <Mugirl.Corporate.InvalidContext>연결이 끊어졌습니다. 작동하는 통신기나 기업 정착지를 통해 다시 연결하세요.</Mugirl.Corporate.InvalidContext>
+  <Mugirl.Corporate.Locked>아직 상업 접촉이 이루어지지 않았습니다. 먼저 기업 대표의 방문을 마치세요.</Mugirl.Corporate.Locked>
+  <Mugirl.Corporate.NoFaction>연락할 수 있는 기업 대표가 없습니다. 기존 계약은 계정에 그대로 남아 있습니다.</Mugirl.Corporate.NoFaction>
+  <Mugirl.Corporate.Hostile>기업이 신규 거래를 중단했습니다. 빚 상환과 기존 배송은 계속 이용할 수 있습니다.</Mugirl.Corporate.Hostile>
+  <Mugirl.Corporate.DeliveryError>기업 배송을 마치지 못했습니다: {0}</Mugirl.Corporate.DeliveryError>
+  <Mugirl.Corporate.GenerationError>{0}(을)를 준비하지 못했습니다: {1}</Mugirl.Corporate.GenerationError>
+  <Mugirl.Corporate.GoodsChanged>물품이나 견적이 바뀌었습니다. 다시 고르세요.</Mugirl.Corporate.GoodsChanged>
+  <Mugirl.Corporate.DeliveryUnavailable>배송할 곳이 없습니다. 서명한 계약의 물품은 계속 보관됩니다.</Mugirl.Corporate.DeliveryUnavailable>
+  <Mugirl.Corporate.InsufficientSilver>은 {0}이 필요합니다. 교역 신호기 범위나 이 상단의 소지품을 확인하세요.</Mugirl.Corporate.InsufficientSilver>
+  <Mugirl.Corporate.CannotMake>지금은 이 물품을 준비할 수 없습니다. 은은 청구되지 않았습니다.</Mugirl.Corporate.CannotMake>
+  <Mugirl.Corporate.InvalidOrder>이 주문의 물품, 재료, 품질, 수량이 올바르지 않습니다.</Mugirl.Corporate.InvalidOrder>
+  <Mugirl.Corporate.OrderLimit>수령하지 않은 주문은 한 번에 최대 {0}개까지만 열 수 있습니다.</Mugirl.Corporate.OrderLimit>
+  <Mugirl.Corporate.CannotCancel>이 주문은 더 이상 취소할 수 없거나 이미 배송이 시작되었습니다.</Mugirl.Corporate.CannotCancel>
+  <Mugirl.Corporate.RecordSale>제품 매입</Mugirl.Corporate.RecordSale>
+  <Mugirl.Corporate.RecordPurchase>물품 주문</Mugirl.Corporate.RecordPurchase>
+  <Mugirl.Corporate.RecordRefund>주문 환불</Mugirl.Corporate.RecordRefund>
+  <Mugirl.Corporate.OrderArrivedTitle>기업 주문품 준비 완료</Mugirl.Corporate.OrderArrivedTitle>
+  <Mugirl.Corporate.OrderArrivedText>주문하신 {0} ×{1}(을)를 기업 네트워크에서 받을 수 있습니다.\n\n배송지를 알려 주실 때까지 물품은 보관됩니다. 기다림은 끝났습니다. 회사의 의무는 거의 다 이행되었습니다.</Mugirl.Corporate.OrderArrivedText>
+  <Mugirl.Corporate.Maximum>최대</Mugirl.Corporate.Maximum>
+  <Mugirl.Corporate.Success>기업이 거래를 확인했습니다.</Mugirl.Corporate.Success>
+  <Mugirl.Corporate.WeeklyStock>주간 보급품</Mugirl.Corporate.WeeklyStock>
+  <Mugirl.Corporate.ProductPurchase>눈소 물품 판매</Mugirl.Corporate.ProductPurchase>
+  <Mugirl.Corporate.ProductHint>우유, 양털, 승인된 제품, 설치하지 않은 포장된 눈소 양털 가구는 언제나 받습니다. 맵에서는 전력이 들어간 교역 신호기 범위 안에 물품을 두고, 상단은 소지품에 넣고 있어야 합니다.</Mugirl.Corporate.ProductHint>
+  <Mugirl.Corporate.StockHint>이번 주 재고입니다. 결제가 확인되면 출하됩니다.</Mugirl.Corporate.StockHint>
+  <Mugirl.Corporate.SearchGoods>물품 이름 검색…</Mugirl.Corporate.SearchGoods>
+  <Mugirl.Corporate.StockRow>단가 {0}\n재고 {1}</Mugirl.Corporate.StockRow>
+  <Mugirl.Corporate.EmptyGoods>이 분류에는 견적이 없습니다.</Mugirl.Corporate.EmptyGoods>
+  <Mugirl.Corporate.SelectGoods>조달할 물품을 골라 주세요.</Mugirl.Corporate.SelectGoods>
+  <Mugirl.Corporate.ConfirmSale>판매 확정</Mugirl.Corporate.ConfirmSale>
+  <Mugirl.Corporate.ConfirmPurchase>구매 확정</Mugirl.Corporate.ConfirmPurchase>
+  <Mugirl.Corporate.CaravanWeight>배송 무게: {0} kg</Mugirl.Corporate.CaravanWeight>
+  <Mugirl.Corporate.BeaconHint>교역 신호기 범위 안으로 배송합니다.</Mugirl.Corporate.BeaconHint>
+  <Mugirl.Corporate.OrderCatalog>주문 목록</Mugirl.Corporate.OrderCatalog>
+  <Mugirl.Corporate.MyOrders>내 주문</Mugirl.Corporate.MyOrders>
+  <Mugirl.Corporate.OrderHint>희귀한 물품. 전담 조달. 기다림에는 대가가 따릅니다.</Mugirl.Corporate.OrderHint>
+  <Mugirl.Corporate.NoStuff>재료 고정</Mugirl.Corporate.NoStuff>
+  <Mugirl.Corporate.OrderTerms>준비 기간 {0}~{1}일 · 첫날 취소 시 {2}% 환불</Mugirl.Corporate.OrderTerms>
+  <Mugirl.Corporate.PlaceOrder>결제하고 주문</Mugirl.Corporate.PlaceOrder>
+  <Mugirl.Corporate.OrderReceipt>{0} 결제 · {1}일 뒤 준비 완료</Mugirl.Corporate.OrderReceipt>
+  <Mugirl.Corporate.Claim>수령</Mugirl.Corporate.Claim>
+  <Mugirl.Corporate.CancelOrder>주문 취소</Mugirl.Corporate.CancelOrder>
+  <Mugirl.Corporate.NoOrders>이 계정에는 물품 주문이 없습니다.</Mugirl.Corporate.NoOrders>
+  <Mugirl.Corporate.OrderState.Preparing>준비 중</Mugirl.Corporate.OrderState.Preparing>
+  <Mugirl.Corporate.OrderState.Ready>수령 가능</Mugirl.Corporate.OrderState.Ready>
+  <Mugirl.Corporate.OrderState.Completed>배송 완료</Mugirl.Corporate.OrderState.Completed>
+  <Mugirl.Corporate.OrderState.Cancelled>취소됨</Mugirl.Corporate.OrderState.Cancelled>
+  <Mugirl.Corporate.OrderState.RefundDue>물품 조달 불가, 환불 예정</Mugirl.Corporate.OrderState.RefundDue>
+  <Mugirl.Corporate.OrderState.Refunded>환불됨</Mugirl.Corporate.OrderState.Refunded>
+  <Mugirl.CorporateTradeBrowser.All>전체 보급품</Mugirl.CorporateTradeBrowser.All>
+  <Mugirl.CorporateTradeBrowser.Materials>재료</Mugirl.CorporateTradeBrowser.Materials>
+  <Mugirl.CorporateTradeBrowser.Food>식량</Mugirl.CorporateTradeBrowser.Food>
+  <Mugirl.CorporateTradeBrowser.Medicine>의약품</Mugirl.CorporateTradeBrowser.Medicine>
+  <Mugirl.CorporateTradeBrowser.Weapons>무기</Mugirl.CorporateTradeBrowser.Weapons>
+  <Mugirl.CorporateTradeBrowser.Apparel>의복</Mugirl.CorporateTradeBrowser.Apparel>
+  <Mugirl.CorporateTradeBrowser.Rare>희귀품</Mugirl.CorporateTradeBrowser.Rare>
+  <Mugirl.CorporateTradeBrowser.Other>기타 물품</Mugirl.CorporateTradeBrowser.Other>
+  <Mugirl.CorporateTradeBrowser.SortName>이름순</Mugirl.CorporateTradeBrowser.SortName>
+  <Mugirl.CorporateTradeBrowser.SortPriceLow>가격 낮은 순</Mugirl.CorporateTradeBrowser.SortPriceLow>
+  <Mugirl.CorporateTradeBrowser.SortPriceHigh>가격 높은 순</Mugirl.CorporateTradeBrowser.SortPriceHigh>
+  <Mugirl.CorporateTradeBrowser.GridView>상품 보기</Mugirl.CorporateTradeBrowser.GridView>
+  <Mugirl.CorporateTradeBrowser.ListView>가격표</Mugirl.CorporateTradeBrowser.ListView>
+  <Mugirl.CorporateTradeBrowser.Results>상품 {0}개</Mugirl.CorporateTradeBrowser.Results>
+  <Mugirl.CorporateTradeBrowser.PurchaseDesk>눈소 물품과 포장된 양털 가구</Mugirl.CorporateTradeBrowser.PurchaseDesk>
+  <Mugirl.CorporateTradeBrowser.ProcurementDesk>기업 공급망 / 주문 제작</Mugirl.CorporateTradeBrowser.ProcurementDesk>
+  <Mugirl.CorporateTradeBrowser.UpdatingCatalog>보급품 목록을 준비하는 중…</Mugirl.CorporateTradeBrowser.UpdatingCatalog>
+  <Mugirl.CorporateTradeBrowser.RefreshIn>다음 입고까지 {0}일</Mugirl.CorporateTradeBrowser.RefreshIn>
+  <Mugirl.CorporateTradeBrowser.Available>{0}개 구매 가능</Mugirl.CorporateTradeBrowser.Available>
+  <Mugirl.CorporateTradeBrowser.SoldOut>매진</Mugirl.CorporateTradeBrowser.SoldOut>
+  <Mugirl.CorporateTradeBrowser.UnitPrice>단가</Mugirl.CorporateTradeBrowser.UnitPrice>
+  <Mugirl.CorporateTradeBrowser.PurchasePrice>매입가</Mugirl.CorporateTradeBrowser.PurchasePrice>
+  <Mugirl.CorporateTradeBrowser.Stock>재고</Mugirl.CorporateTradeBrowser.Stock>
+  <Mugirl.CorporateTradeBrowser.Quantity>수량</Mugirl.CorporateTradeBrowser.Quantity>
+  <Mugirl.CorporateTradeBrowser.Total>합계</Mugirl.CorporateTradeBrowser.Total>
+  <Mugirl.CorporateTradeBrowser.InsufficientFunds>사용 가능한 은이 부족합니다.</Mugirl.CorporateTradeBrowser.InsufficientFunds>
+  <Mugirl.CorporateTradeBrowser.Mass>배송 무게: {0} kg</Mugirl.CorporateTradeBrowser.Mass>
+  <Mugirl.CorporateTradeBrowser.DeliveryTo>배송지: {0}</Mugirl.CorporateTradeBrowser.DeliveryTo>
+  <Mugirl.CorporateTradeBrowser.Lead>{0}~{1}일 뒤 준비 완료</Mugirl.CorporateTradeBrowser.Lead>
+  <Mugirl.CorporateTradeBrowser.SpecialLead>특수 조달 / {0}~{1}일</Mugirl.CorporateTradeBrowser.SpecialLead>
+  <Mugirl.CorporateTradeBrowser.Days>{0}~{1}일</Mugirl.CorporateTradeBrowser.Days>
+  <Mugirl.CorporateTradeBrowser.Preparation>준비 기간</Mugirl.CorporateTradeBrowser.Preparation>
+  <Mugirl.CorporateTradeBrowser.Material>재료</Mugirl.CorporateTradeBrowser.Material>
+  <Mugirl.CorporateTradeBrowser.Quality>품질</Mugirl.CorporateTradeBrowser.Quality>
+  <Mugirl.CorporateTradeBrowser.Cancellation>{0}일 안에 취소 시 {1}% 환불</Mugirl.CorporateTradeBrowser.Cancellation>
+  <Mugirl.CorporateTradeBrowser.NoResults>맞는 보급품이 없습니다.</Mugirl.CorporateTradeBrowser.NoResults>
+  <Mugirl.CorporateTradeBrowser.ResetFilters>전체 보급품</Mugirl.CorporateTradeBrowser.ResetFilters>
+  <Mugirl.CorporateTradeBrowser.SelectProduct>상품을 골라 주세요</Mugirl.CorporateTradeBrowser.SelectProduct>
+  <Mugirl.CorporateTradeBrowser.ProductDetails>상품 정보</Mugirl.CorporateTradeBrowser.ProductDetails>
+  <Mugirl.CorporateTradeBrowser.StandardSourcing>일반 공급</Mugirl.CorporateTradeBrowser.StandardSourcing>
+  <Mugirl.CorporateTradeBrowser.RareSourcing>희귀품 / 우선 조달</Mugirl.CorporateTradeBrowser.RareSourcing>
+  <Mugirl.CorporateTradeBrowser.SpecialSourcing>특수 조달 / 비시장 공급</Mugirl.CorporateTradeBrowser.SpecialSourcing>
+  <Mugirl.CorporateTradeBrowser.Unavailable>견적 불가</Mugirl.CorporateTradeBrowser.Unavailable>
+  <Mugirl.CorporateTradeBrowser.QuotePending>견적 준비 중…</Mugirl.CorporateTradeBrowser.QuotePending>
+  <Mugirl.CorporateTradeBrowser.RemainingDays>{0}일 남음</Mugirl.CorporateTradeBrowser.RemainingDays>
+  <Mugirl.CorporateTradeBrowser.Paid>{0} 결제</Mugirl.CorporateTradeBrowser.Paid>
+  <Mugirl.CorporateTradeBrowser.ConfirmCancellation>주문 #{0}(을)를 취소할까요? 기업이 계약에 따라 결제액의 {1}%를 환불합니다.</Mugirl.CorporateTradeBrowser.ConfirmCancellation>
+  <Mugirl.CorporatePricing.Restricted>이 물품의 특수 효과나 자원 산출은 가치를 제대로 매길 수 없습니다. 자동 조달을 이용할 수 없습니다. 이미 결제한 주문은 원래 조건대로 수령할 수 있습니다.</Mugirl.CorporatePricing.Restricted>
+  <Mugirl.CorporatePricing.RestrictedShort>자동 조달 불가</Mugirl.CorporatePricing.RestrictedShort>
+  <Mugirl.CorporatePricing.RestrictionDiagnostic>{0} 자동 공급 제한. 인식하지 못한 구성 요소 동작: {1}</Mugirl.CorporatePricing.RestrictionDiagnostic>
+  <Mugirl.CorporatePricing.QuantityLimitSingle>겹쳐지지 않는 물품: 주문당 최대 {0}개.</Mugirl.CorporatePricing.QuantityLimitSingle>
+  <Mugirl.CorporatePricing.QuantityLimitHighValue>표준가 {0} 은 이상: 주문당 최대 {1}개.</Mugirl.CorporatePricing.QuantityLimitHighValue>
+  <Mugirl.CorporatePricing.QuantityLimitBulk>겹쳐지는 보급품: 주문당 최대 {0}개.</Mugirl.CorporatePricing.QuantityLimitBulk>
+  <Mugirl.CorporatePricing.QuantityLimitTerms>표준 단가는 고객 할인과 긴급 준비 비용을 빼고, 고른 재료와 품질로 매깁니다. 할인과 준비 속도는 수량 등급을 바꾸지 않습니다. 이미 결제한 주문은 원래 수량을 유지합니다.</Mugirl.CorporatePricing.QuantityLimitTerms>
+  <Mugirl.CorporatePricing.QuantityLimitExceeded>이 사양은 주문당 {0}개로 제한됩니다. 은은 청구되지 않았습니다.</Mugirl.CorporatePricing.QuantityLimitExceeded>
+  <Mugirl.CorporatePricing.Redemption>환급 가능한 산출물은 최저가를 두고 시장 가치로 견적을 냅니다.</Mugirl.CorporatePricing.Redemption>
+  <Mugirl.CorporatePricing.Natural>동물, 시체, 전체 생산 과정의 가치는 받지 않고 제품 자체의 시장 가치로 매깁니다.</Mugirl.CorporatePricing.Natural>
+  <Mugirl.CorporatePricing.Sourced>시장 가치로 매기며, 정기 공급처가 적어 준비 기간이 더 깁니다.</Mugirl.CorporatePricing.Sourced>
+  <Mugirl.CorporatePricing.Market>실제 시장 가치, 재료, 품질, 기술 수준으로 매깁니다.</Mugirl.CorporatePricing.Market>
+  <Mugirl.CorporatePricing.SpeedLabel>준비 기간</Mugirl.CorporatePricing.SpeedLabel>
+  <Mugirl.CorporatePricing.Speed.Standard>일반 · 기본 가격/시간</Mugirl.CorporatePricing.Speed.Standard>
+  <Mugirl.CorporatePricing.Speed.Express>급행 · +50%, 시간 1/2</Mugirl.CorporatePricing.Speed.Express>
+  <Mugirl.CorporatePricing.Speed.Priority>최우선 · +100%, 시간 1/4</Mugirl.CorporatePricing.Speed.Priority>
+  <Mugirl.CorporatePricing.Breakdown>표준 금액: {0}\n긴급 처리 수수료: {1}</Mugirl.CorporatePricing.Breakdown>
+  <Mugirl.CorporateUI.Dialog.ConfirmTitle>작업 확인</Mugirl.CorporateUI.Dialog.ConfirmTitle>
+  <Mugirl.CorporateUI.Dialog.Authorization>고객 관리 / 계약</Mugirl.CorporateUI.Dialog.Authorization>
+  <Mugirl.CorporateUI.Dialog.ReviewRequired>자산 관리 / 처분</Mugirl.CorporateUI.Dialog.ReviewRequired>
+  <Mugirl.CorporateUI.Dialog.ChooseTitle>선택지 고르기</Mugirl.CorporateUI.Dialog.ChooseTitle>
+  <Mugirl.CorporateUI.Dialog.AvailableOptions>거대 기업 / 선택 가능 항목</Mugirl.CorporateUI.Dialog.AvailableOptions>
+  <Mugirl.CorporateUI.Dialog.NoOptions>지금 고를 수 있는 선택지가 없습니다.</Mugirl.CorporateUI.Dialog.NoOptions>
+  <Mugirl.CorporateUI.Title>거대 기업 / 상업 네트워크</Mugirl.CorporateUI.Title>
+  <Mugirl.CorporateUI.Silver>은</Mugirl.CorporateUI.Silver>
+  <Mugirl.CorporateUI.HeaderStatus>보유: {0}    ·    다음 입고: {1}일</Mugirl.CorporateUI.HeaderStatus>
+  <Mugirl.CorporateUI.Context>배송 지점: {0}</Mugirl.CorporateUI.Context>
+  <Mugirl.CorporateUI.Motto>고객 관리\n모든 자산에는 쓰임새가 있습니다.</Mugirl.CorporateUI.Motto>
+  <Mugirl.CorporateUI.Page.Overview>개요</Mugirl.CorporateUI.Page.Overview>
+  <Mugirl.CorporateUI.Page.Trade>보급품</Mugirl.CorporateUI.Page.Trade>
+  <Mugirl.CorporateUI.Page.Orders>특별 주문</Mugirl.CorporateUI.Page.Orders>
+  <Mugirl.CorporateUI.Page.People>눈소 거래소</Mugirl.CorporateUI.Page.People>
+  <Mugirl.CorporateUI.Page.Finance>대출과 담보</Mugirl.CorporateUI.Page.Finance>
+  <Mugirl.CorporateUI.Page.Missions>계약</Mugirl.CorporateUI.Page.Missions>
+  <Mugirl.CorporateUI.Page.Introduction>기업 이야기</Mugirl.CorporateUI.Page.Introduction>
+  <Mugirl.CorporateUI.Page.History>계정 기록</Mugirl.CorporateUI.Page.History>
+  <Mugirl.CorporateUI.ConnectionLost>연결이 끊어졌습니다. 담당자, 통신기, 거래 장소를 더 이상 쓸 수 없습니다. 유효한 단말기로 다시 연결하세요.</Mugirl.CorporateUI.ConnectionLost>
+  <Mugirl.CorporateUI.Locked>아직 상업 접촉이 이루어지지 않았습니다. 방문한 고객 관리 담당자와 이야기하세요. 진행 상황은 퀘스트 목록에서 볼 수 있습니다.</Mugirl.CorporateUI.Locked>
+  <Mugirl.CorporateUI.Unavailable>지금은 이 통신기를 조작할 수 없습니다.</Mugirl.CorporateUI.Unavailable>
+  <Mugirl.CorporateUI.NoPower>통신기에 전력이 없거나 전기가 끊겼습니다.</Mugirl.CorporateUI.NoPower>
+  <Mugirl.CorporateUI.CannotTalk>조작자가 말할 수 없습니다.</Mugirl.CorporateUI.CannotTalk>
+  <Mugirl.CorporateUI.NoPath>상호작용 대상에 도달하거나 예약할 수 없습니다.</Mugirl.CorporateUI.NoPath>
+  <Mugirl.CorporateUI.CallOption>기업 네트워크에 연락</Mugirl.CorporateUI.CallOption>
+  <Mugirl.CorporateUI.SettlementOption>기업 단말기</Mugirl.CorporateUI.SettlementOption>
+  <Mugirl.CorporateUI.SettlementDescription>이 상단의 은과 물품으로 정착지 단말기에 접속합니다. 적대 관계 중에도 계정 조회와 빚 상환은 계속 이용할 수 있습니다.</Mugirl.CorporateUI.SettlementDescription>
+  <Mugirl.CorporateUI.Welcome>어서 오세요, 고객님.</Mugirl.CorporateUI.Welcome>
+  <Mugirl.CorporateUI.WelcomeText>당신의 요구가 곧 우리의 다음 기회입니다.</Mugirl.CorporateUI.WelcomeText>
+  <Mugirl.CorporateUI.Hostile>신규 거래가 중단되었습니다. 서명한 계약은 여전히 유효하며, 이자는 계속 붙습니다.</Mugirl.CorporateUI.Hostile>
+  <Mugirl.CorporateUI.AccountReady>계정 상태 양호. 각 부서가 거래를 기다리고 있습니다.</Mugirl.CorporateUI.AccountReady>
+  <Mugirl.CorporateUI.Summary.Trade>즉시 배송. 우유, 양털, 완제품, 포장된 양털 가구를 연중 매입합니다.</Mugirl.CorporateUI.Summary.Trade>
+  <Mugirl.CorporateUI.Summary.Orders>전담 조달. 희소성은 가격의 문제일 뿐입니다.</Mugirl.CorporateUI.Summary.Orders>
+  <Mugirl.CorporateUI.Summary.People>이번 주 인사 기록과 인계 견적입니다.</Mugirl.CorporateUI.Summary.People>
+  <Mugirl.CorporateUI.Summary.Finance>놀고 있는 재고를 일하게 하세요. 담보를 맡기면 자금이 나옵니다.</Mugirl.CorporateUI.Summary.Finance>
+  <Mugirl.CorporateUI.Summary.Missions>자금은 우리가, 실행은 당신이.</Mugirl.CorporateUI.Summary.Missions>
+  <Mugirl.CorporateUI.HistoryHint>모든 배송을 빠짐없이 기록합니다.</Mugirl.CorporateUI.HistoryHint>
+  <Mugirl.CorporateUI.NoHistory>아직 계정 활동이 없습니다.</Mugirl.CorporateUI.NoHistory>
+  <Mugirl.CorporateUI.RecordTitle>{0}일째 · {1} · {2}</Mugirl.CorporateUI.RecordTitle>
+  <Mugirl.CorporateIntro.Title>상업 접촉 수립</Mugirl.CorporateIntro.Title>
+  <Mugirl.CorporateIntro.QuestDescription>거대 기업의 고객 관리 부서가 자사의 상업 네트워크를 소개하고 싶어 합니다. 배달원의 인계 보고서가 보관 처리되면, 약 이틀 안에 대표가 찾아와 지난 배달원 접촉과 눈소들, 그리고 친선 선물에 관해 이야기할 겁니다.\n\n대표가 도착하면 말할 수 있는 정착민을 선택하고 방문자를 우클릭해 대화하세요. 이 장을 마치는 데 통신기는 필요 없습니다. 상업 접촉을 받아들이면 통신기와 정착지 단말기가 모두 열립니다.</Mugirl.CorporateIntro.QuestDescription>
+  <Mugirl.CorporateIntro.QuestProgress>고객 관리 담당자가 안전한 아군 정착지에서 기다리고 있습니다. 아직 도착하지 않았다면 퀘스트에 예상 도착 시간이 표시됩니다. 대화를 미루거나, 대표가 떠나거나 사고를 당해도 접촉 요청은 유지됩니다. 다음 방문을 기다리세요.</Mugirl.CorporateIntro.QuestProgress>
+  <Mugirl.CorporateIntro.QuestProgressWait>운송 인계 보고서가 아직 부서 사이를 돌고 있습니다. 고객 관리 부서는 {0} 뒤에 대표를 보낼 예정입니다.</Mugirl.CorporateIntro.QuestProgressWait>
+  <Mugirl.CorporateIntro.ArrivalTitle>기업 대표 도착</Mugirl.CorporateIntro.ArrivalTitle>
+  <Mugirl.CorporateIntro.ArrivalText>{0}(이)가 얇은 서류철을 들고 도착해 거대 기업 고객 관리 담당자라고 자신을 소개합니다. 운송 사건 파일이 얼마 전에야 책상에 올라왔고, 바로 그날 저녁 배편을 잡았다고 합니다.\n\n말할 수 있는 정착민을 선택하고 대표를 우클릭해 &quot;기업 대표와 대화&quot;를 고르세요. 당신의 눈소들을 되찾아 가지는 않습니다.</Mugirl.CorporateIntro.ArrivalText>
+  <Mugirl.CorporateIntro.Talk>기업 대표와 대화</Mugirl.CorporateIntro.Talk>
+  <Mugirl.CorporateIntro.Opening>&quot;안녕하십니까. 먼지투성이라 죄송합니다. 착륙지가 서류에 적힌 것보다 훨씬 멀더군요.&quot; (소매의 재를 털어 내며 절제된 미소) &quot;고객 관리부입니다. 운송 인계 보고서를 한 글자도 빼놓지 않고 읽었습니다. 읽다가 중간쯤엔 저도 배달원 면허를 신청할 뻔했지요. 농담입니다. 대체로요. 회사를 대신해 그 페이지를 넘기고, 이야기할 만한 일을 이야기하러 왔습니다.&quot;</Mugirl.CorporateIntro.Opening>
+  <Mugirl.CorporateIntro.OpeningOldSave>&quot;안녕하십니까. 이 지역 고객 명부를 정리하는 중입니다. 쉽게 말하면, 본사가 이 황무지에도 담당자가 필요하다는 걸 얼마 전에야 인정했다는 뜻이죠.&quot; (옅은 미소) &quot;운송 쪽에서 무슨 일이 있었든 오늘부로 종결입니다. 저는 소환장이 아니라 계약서를 들고 왔습니다.&quot;</Mugirl.CorporateIntro.OpeningOldSave>
+  <Mugirl.CorporateIntro.OpeningLong>&quot;정식 방문이 정말 늦었습니다. 제 잘못입니다. 한 계절 동안 부서 네 곳을 순회한 서류 탓도 있고요.&quot; (한숨) &quot;기계는 원래 그렇게 돌아갑니다. 서류는 여행을 떠나고, 고객은 기다리죠. 누군가 마침내 &apos;보류&apos; 더미에서 당신 서류를 건져 냈습니다. 그게 저였습니다. 자, 잃어버린 시간을 만회해 봅시다.&quot;</Mugirl.CorporateIntro.OpeningLong>
+  <Mugirl.CorporateIntro.OpeningLate>&quot;이 지역 기록을 보관 처리하다가, 당신 정착지가 얼마나 오래 버텨 왔는지, 그리고 저희가 한 번도 인사를 드리지 않았다는 걸 알게 됐습니다.&quot; (두 손을 펼쳐 보이며) &quot;무례했지요. 반박하지 않겠습니다. 보급품은 사과의 뜻으로 받아 주십시오. 늦게 온 이웃이라고 생각해 주세요. 늦긴 했지만 선물과 진심을 들고 왔으니까요.&quot;</Mugirl.CorporateIntro.OpeningLate>
+  <Mugirl.CorporateIntro.Reaction.Killed>&quot;운송부가 배달원 파일을 닫았습니다. 서류엔 제가 직접 서명했지요. 종이가 몇 장 안 들더군요.&quot; (잠시 침묵) &quot;책임을 따지러 온 건 아닙니다. 회사가 저를 보낸 건 죽은 사람 때문이 아니라 산 사람들, 그리고 그들과 아직 할 수 있는 거래 때문입니다. 개인적인 말을 덧붙이자면, 첫 계약에 두 번째 부고가 따라붙지 않았으면 합니다.&quot;</Mugirl.CorporateIntro.Reaction.Killed>
+  <Mugirl.CorporateIntro.Reaction.DeadUnknown>&quot;마지막으로 받은 건 그의 위치 신호였습니다. 그 뒤로는 아무것도 없었죠. 구조 조항으로는 상공 수색 한 번이 전부였습니다.&quot; (손에 든 단말기를 닫으며) &quot;황무지는 누구 편도 들지 않습니다. 당신 잘못이 아니었고, 누구 잘못일 필요도 없습니다. 제가 온 건, 다음에 이 길을 걷는 사람이 안전하게 쉬어 갈 곳이 있도록 하기 위해서입니다.&quot;</Mugirl.CorporateIntro.Reaction.DeadUnknown>
+  <Mugirl.CorporateIntro.Reaction.Released>&quot;그는 살아서 돌아와 보고서를 직접 제출했습니다. 거기 이런 문장이 있더군요. &apos;정착지는 자제력을 보였다.&apos; 우리끼리 얘기지만, 그 문장 덕분에 그는 분기 평가를 무사히 넘겼고 저는 사고 서류 한 장을 덜 썼습니다.&quot; (드물게 짧은 미소) &quot;그가 체면을 지킨 채 떠나게 해 주셨죠. 눈여겨봤습니다. 그런 건 기억해 둡니다.&quot;</Mugirl.CorporateIntro.Reaction.Released>
+  <Mugirl.CorporateIntro.Reaction.Conflict>&quot;현장 보고서를 읽었습니다. 양쪽 다 쐈고, 누가 먼저 쐈는지는 두 진술이 다르더군요.&quot; (손을 내저으며) &quot;그냥 두시죠. 그 장부는 엉망입니다. 그는 위험 조항에 서명했고, 저도 마찬가지입니다. 오늘 저는 추심부가 아니라 고객 관리부를 대표해 왔습니다.&quot;</Mugirl.CorporateIntro.Reaction.Conflict>
+  <Mugirl.CorporateIntro.Reaction.Unresolved>&quot;운송부 말로는 인계가 &apos;아직 진행 중&apos;이랍니다. 번역하면, 그의 단말기가 사흘째 신호가 없다는 뜻이죠.&quot; (잠시 멈칫) &quot;오해는 마십시오. 압박하러 온 건 아닙니다. 그가 아직 당신 땅에 있다면 아직 살아 있다는 뜻이고, 그게 어떤 보고서보다 중요합니다. 거래 이야기부터 하죠. 그의 서류는 그가 알아서 마무리할 겁니다.&quot;</Mugirl.CorporateIntro.Reaction.Unresolved>
+  <Mugirl.CorporateIntro.Reaction.Unknown>&quot;그 접촉에 관해서는 기록이 반 페이지밖에 없습니다. 나머지 반은 운송부 서버가 가지고 있나 봅니다.&quot; (어깨를 으쓱하며) &quot;상관없습니다. 오래된 장부는 감사부 몫이고, 새 친구는 제 몫이니까요.&quot;</Mugirl.CorporateIntro.Reaction.Unknown>
+  <Mugirl.CorporateIntro.KeepMugirl>&quot;눈소들은 그냥 두십시오. 회사는 손해 보는 거래도, 남을 파탄 내는 거래도 하지 않습니다.&quot; (방목장 쪽을 흘끗 보며) &quot;잘 돌본 무리는 가둬 둔 무리보다 훨씬 값어치가 있습니다. 그건 우리 둘 다 동의할 수 있는 셈법이죠.&quot;</Mugirl.CorporateIntro.KeepMugirl>
+  <Mugirl.CorporateIntro.NoReclaim>&quot;옛 자산 회수요? 그건 추심부 일이고, 서류는 그쪽이 다 가져가도 좋습니다.&quot; (드물게 건조한 농담) &quot;고객 관리부에는 규칙이 하나 있습니다. 장부는 맞추되, 사람을 벼랑 끝으로 몰지는 않는다. 눈소들이 어디서 사는지는 회사가 신경 쓸 일이 아닙니다. 얼마나 잘 사는지, 그게 매입가를 움직이죠.&quot;</Mugirl.CorporateIntro.NoReclaim>
+  <Mugirl.CorporateIntro.Proposal>&quot;고객 관리부의 친선 선물입니다. 보급품에 눈소 기술 입문 자료를 곁들였습니다. 유제품 가공, 구속과 밧줄, 의복 재단. 세 가지 입문 자료가 지금 막 당신의 연구 데이터베이스에 입력되었습니다. 좋은 기술이 좋은 공급자를 만들죠.&quot; (탁자에 데이터 패드를 내려놓으며) &quot;매입, 공급, 인사, 금융. 네 가지 사업이 모두 당신 정착지에 열려 있습니다. 오늘 답하실 필요는 없습니다. 신뢰는 천천히 협상되는 법이고, 좋은 거래도 마찬가지입니다. 서류가 절대 가르쳐 주지 않는 부분이죠.&quot;</Mugirl.CorporateIntro.Proposal>
+  <Mugirl.CorporateIntro.Question.Courier>배달원 일은 왜 눈감아 주는 거지?</Mugirl.CorporateIntro.Question.Courier>
+  <Mugirl.CorporateIntro.Question.Mugirl>왜 눈소들을 그냥 두는 거지?</Mugirl.CorporateIntro.Question.Mugirl>
+  <Mugirl.CorporateIntro.Question.Services>기업은 어떤 서비스를 제공하지?</Mugirl.CorporateIntro.Question.Services>
+  <Mugirl.CorporateIntro.Answer.Courier>&quot;회사가 왜 눈감아 주냐고요?&quot; (얇은 미소) &quot;배달원은 오천 명이나 있습니다. 당신 같은 고객은 행성 하나에 한 명 있을까 말까죠. 이건 용서가 아니라 셈법입니다. 용서는 제 담당이 아니에요. 셈법이라면 자신 있습니다만.&quot;</Mugirl.CorporateIntro.Answer.Courier>
+  <Mugirl.CorporateIntro.Answer.Mugirl>&quot;사슬은 생산량을 묶어 둘 수는 있어도, 그걸 만들어 내는 생명까지 묶어 둘 수는 없다. 제 전 상사가 한 말입니다. 그분은 회사에서 최적화되어 사라졌지만, 말은 살아남았죠.&quot; (방목장 쪽을 흘끗 보며) &quot;잘 먹은 눈소는 더 많이 생산하고, 매입가도 더 너그러워집니다. 이렇게 보시죠. 그들을 잘 대하는 건 우리 둘이 서명할 계약 중에 가장 싼 계약입니다.&quot;</Mugirl.CorporateIntro.Answer.Mugirl>
+  <Mugirl.CorporateIntro.Answer.Services>&quot;쉽게 말씀드리죠. 당신이 생산하면 우리가 전부 삽니다. 부족하면 매주 채워 드립니다. 특별 주문도 되고, 일손도 구할 수 있고, 담보를 잡고 돈도 빌릴 수 있습니다.&quot; (손가락을 꼽으며) &quot;계약 센터는 제조, 제거, 투자, 유통을 다룹니다. 모든 조건은 서명하기 전에 서면으로 드립니다. 제가 처음 배운 규칙이 그겁니다. 깨알 같은 조항을 읽는 고객은 계속 고객으로 남는다.&quot;</Mugirl.CorporateIntro.Answer.Services>
+  <Mugirl.CorporateIntro.Back>협력 이야기로 돌아간다.</Mugirl.CorporateIntro.Back>
+  <Mugirl.CorporateIntro.Accept>선물을 받고 상업 접촉을 수립한다.</Mugirl.CorporateIntro.Accept>
+  <Mugirl.CorporateIntro.Postpone>자료는 두고 가. 생각해 볼게.</Mugirl.CorporateIntro.Postpone>
+  <Mugirl.CorporateIntro.CompletedStatus>상업 접촉 수립 완료</Mugirl.CorporateIntro.CompletedStatus>
+  <Mugirl.CorporateIntro.CompletedLetter>기업 고객 관리부가 당신의 정착지를 상업 고객으로 등록했습니다. 친선 선물 배송이 준비되었습니다. 배송할 곳이 없으면 배송이 가능해질 때까지 보급품을 보관합니다.\n\n정착민에게 통신기를 쓰게 한 뒤 &quot;기업 네트워크에 연락&quot;을 고르거나, 상단을 기업 정착지에 멈추고 &quot;기업 단말기&quot;를 여세요. 이후 거래는 계약에 따라 진행됩니다.\n\n스토리 첫 장이 끝났습니다. 다음 장은 곧 공개됩니다.</Mugirl.CorporateIntro.CompletedLetter>
+  <Mugirl.CorporateIntro.ResearchGiftLine>친선 선물의 기술 입문 자료가 연구 데이터베이스에 입력되었습니다. 다음 눈소 연구가 완료되었습니다: {0}.</Mugirl.CorporateIntro.ResearchGiftLine>
+  <Mugirl.CorporateIntro.HostilityRemains>별개의 외교 분쟁은 그대로 남습니다. 계정을 열어도 기업을 공격해 생긴 적대 관계는 지워지지 않습니다. 관계를 회복할 때까지 신규 거래는 제한되며, 계정 조회와 상환은 계속 이용할 수 있습니다.</Mugirl.CorporateIntro.HostilityRemains>
+  <Mugirl.CorporateIntro.ChapterCompleted>고객 등록: 완료.\n운송 사건: 보관 처리, 회수 명령 없음.\n\n고객 관리부는 수익성 높은 협력을 기대합니다.</Mugirl.CorporateIntro.ChapterCompleted>
+  <Mugirl.CorporateIntro.ComingSoon>다음 스토리 장: 곧 공개.</Mugirl.CorporateIntro.ComingSoon>
+  <Mugirl.CorporateIntro.GiftError>기업 친선 선물을 준비하지 못해 계정 개설이 완료되지 않았습니다: {0}</Mugirl.CorporateIntro.GiftError>
+  <Mugirl.CorporateIntro.GiftStorageError>친선 선물을 배송용으로 보관하지 못했습니다.</Mugirl.CorporateIntro.GiftStorageError>
+  <Mugirl.CorporateUI.PrivateChannel>비공개 채널</Mugirl.CorporateUI.PrivateChannel>
+  <Mugirl.CorporateUI.CloseHint>단말기 닫기 · Esc</Mugirl.CorporateUI.CloseHint>
+  <Mugirl.CorporateUI.Services>서비스 목록</Mugirl.CorporateUI.Services>
+  <Mugirl.CorporateUI.MetricStock>카탈로그</Mugirl.CorporateUI.MetricStock>
+  <Mugirl.CorporateUI.MetricContracts>진행 중인 계약</Mugirl.CorporateUI.MetricContracts>
+  <Mugirl.CorporateUI.MetricRecords>계정 기록</Mugirl.CorporateUI.MetricRecords>
+  <Mugirl.CorporateUI.OpenService>서비스 열기</Mugirl.CorporateUI.OpenService>
+  <Mugirl.CorporateIntro.Independent.QuestDescription>거대 기업이 이 지역에서 새 거래처를 찾고 있습니다. 고객 관리 담당자가 약 이틀 뒤 정착지를 찾아와 자사의 상업 네트워크를 소개하고 환영 선물을 건넬 예정입니다.\n\n담당자가 도착하면 말할 수 있는 정착민을 선택하고 담당자를 우클릭해 대화하세요. 연락을 트는 데 통신기는 필요 없습니다. 제안을 받아들이면 통신기와 기업 정착지에서 기업 서비스가 열립니다.</Mugirl.CorporateIntro.Independent.QuestDescription>
+  <Mugirl.CorporateIntro.Independent.QuestProgressWait>고객 관리 부서가 방문 일정을 잡고 있습니다. 담당자는 {0} 뒤에 도착할 예정입니다.</Mugirl.CorporateIntro.Independent.QuestProgressWait>
+  <Mugirl.CorporateIntro.Independent.ArrivalText>{0}(이)가 서류철을 들고 도착해 기업 고객 관리 담당자라고 자신을 소개합니다. &quot;이 지역을 막 맡게 돼서 한번 들러 봤습니다. 필요한 보급품이 있으신가요? 팔 물건이 있다면 그 얘기도 나눌 수 있습니다.&quot;\n\n말할 수 있는 정착민을 선택하고 담당자를 우클릭해 &quot;기업 대표와 대화&quot;를 고르면 거래 서비스와 환영 선물에 관해 이야기할 수 있습니다.</Mugirl.CorporateIntro.Independent.ArrivalText>
+  <Mugirl.CorporateIntro.Independent.Opening>&quot;안녕하십니까. 기업 고객 관리부에서 이 지역의 새 고객을 찾고 있는 사람입니다.&quot; (손에 든 서류철을 톡톡 두드리며) &quot;지도에서 이 정착지를 보고 들러 봤습니다. 보급품이 필요하거나 팔 물건이 있다면, 연락할 사람이 있는 편이 낫지요. 앉아서 얘기 좀 나눌까요? 저희 서비스를 차근차근 설명해 드리겠습니다.&quot;</Mugirl.CorporateIntro.Independent.Opening>
+  <Mugirl.CorporateIntro.Independent.MugirlsPresent>&quot;여기 눈소들이 있군요? 그럼 우유와 양모를 팔 곳이 필요하시겠네요. 저희는 둘 다 사들이고, 완제품도 삽니다. 납품해 주신다면 주문마다 약정대로 정산해 드립니다. 사람들을 잘 돌보고 공급만 꾸준히 해 주시면, 몇 년이고 함께 거래할 수 있을 겁니다.&quot;</Mugirl.CorporateIntro.Independent.MugirlsPresent>
+  <Mugirl.CorporateIntro.Independent.NoMugirls>&quot;아직 팔 물건이 없어도 괜찮습니다. 일단 안면부터 트죠. 나중에 보급품이 필요하거나 우유, 양모, 완제품을 팔고 싶으시면 연락 주십시오. 계정을 하나 만들어 두면 급할 때 연락처를 찾느라 헤맬 일이 없습니다.&quot;</Mugirl.CorporateIntro.Independent.NoMugirls>
+  <Mugirl.CorporateIntro.Independent.Question.Visit>우리 정착지에는 무슨 일로 오셨습니까?</Mugirl.CorporateIntro.Independent.Question.Visit>
+  <Mugirl.CorporateIntro.Independent.Answer.Visit>&quot;이쪽엔 정착지가 꽤 많습니다. 회사가 예전엔 주요 교역로에만 매달리느라 작은 고객들을 많이 놓쳤지요.&quot; (지도를 펼치며) &quot;제가 맡은 뒤로 한 곳씩 찾아다니고 있습니다. 보급품이 필요하시면 저희가 팔고, 물건이 있으시면 저희가 삽니다. 연락처부터 주고받고, 어떤 거래가 나오는지 보시죠.&quot;</Mugirl.CorporateIntro.Independent.Answer.Visit>
+  <Mugirl.CorporateIntro.Independent.Question.Mugirl>눈소 제품도 사들입니까?</Mugirl.CorporateIntro.Independent.Question.Mugirl>
+  <Mugirl.CorporateIntro.Independent.Answer.Mugirl>&quot;우유, 양모, 완제품 모두 저희 네트워크에 구매자가 있습니다. 수량과 가격은 그때그때 주문에 따라 다르고, 조건은 납품 전에 문서로 정리해 드립니다.&quot; (서류철 속 목록을 가리키며) &quot;사람들을 잘 돌보고 공급을 꾸준히 해 주시면, 저희도 다른 데를 알아볼 이유가 줄어들지요. 장비나 원자재 얘기도 나눌 수 있습니다.&quot;</Mugirl.CorporateIntro.Independent.Answer.Mugirl>
+  <Mugirl.CorporateIntro.Independent.ChapterCompleted>고객 등록: 완료.\n고객 관리 담당자의 방문으로 연락이 트였습니다.\n\n고객 관리부는 당신의 정착지와 오래가는 거래 관계를 기대합니다.</Mugirl.CorporateIntro.Independent.ChapterCompleted>
+  <Mugirl.Lance.PointCharge.Label>일점 돌격</Mugirl.Lance.PointCharge.Label>
+  <Mugirl.Lance.PointCharge.Desc>사거리 안의 적 한 명에게 일직선으로 돌격합니다. 피해는 랜스의 현재 내구도에 따라 정해지며, 그 뒤 랜스의 내구도가 줄고 살아남은 대상은 기절합니다. 경로에 있는 벽을 뚫고 지나가며, 벽의 현재 체력을 합계 1550까지 없앱니다. 이 한도를 다 쓴 뒤에도 벽이 막고 있으면 벽 앞에서 멈추고 대상 타격은 취소됩니다.</Mugirl.Lance.PointCharge.Desc>
+  <Mugirl.Lance.LineCharge.Label>직선 돌격</Mugirl.Lance.LineCharge.Label>
+  <Mugirl.Lance.LineCharge.Desc>선택한 칸이나 적을 향해 일직선으로 돌격하며, 지나가는 적을 모두 때리고 기절시키고 밀쳐 냅니다. 기수가 타고 있으면 기수도 그 대상을 공격합니다. 경로에 있는 벽을 뚫고 지나가며, 벽의 현재 체력을 합계 1550까지 없앱니다. 남은 한도로 벽을 부술 수 없으면 남은 한도를 그 벽에 쓰고 벽 앞에서 멈춥니다.</Mugirl.Lance.LineCharge.Desc>
+  <Mugirl.Lance.MustBeDrafted>사용자가 소집되어 있어야 합니다.</Mugirl.Lance.MustBeDrafted>
+  <Mugirl.Lance.Cooldown>{0} 뒤 사용 가능.</Mugirl.Lance.Cooldown>
+  <Mugirl.Lance.PointCharge.InvalidTarget>{1}칸 안에 있는 살아 있는 적을 고르세요.</Mugirl.Lance.PointCharge.InvalidTarget>
+  <Mugirl.Lance.LineCharge.InvalidTarget>{0}~{1}칸 떨어진 지면 칸이나 살아 있는 적을 고르세요.</Mugirl.Lance.LineCharge.InvalidTarget>
+  <Mugirl.Weapon.MugirlOnly>눈소만 이 무기를 안전하게 장비할 수 있습니다.</Mugirl.Weapon.MugirlOnly>
+  <Mugirl.Lance.MotionBlur.Unavailable>랜스 잔상 효과를 불러오지 못했습니다: {0}</Mugirl.Lance.MotionBlur.Unavailable>
+  <Mugirl.Text.FormatFailedLog>눈소 텍스트 서식 처리 실패: {ERROR}</Mugirl.Text.FormatFailedLog>
+  <Mugirl.Settings.Category>눈소 모드 설정</Mugirl.Settings.Category>
+  <Mugirl.Bootstrap.HarmonyPatchFailed>하모니 패치를 건너뛰었습니다: {0}. {1}</Mugirl.Bootstrap.HarmonyPatchFailed>
+  <Mugirl.PatchRegistry.NullHarmony>하모니 인스턴스가 없어 수동 패치를 건너뛰었습니다.</Mugirl.PatchRegistry.NullHarmony>
+  <Mugirl.PatchRegistry.PawnGeneratorGeneratePawn>PawnGenerator.GeneratePawn 노예 의상 잠금 postfix</Mugirl.PatchRegistry.PawnGeneratorGeneratePawn>
+  <Mugirl.PatchRegistry.MissingTarget>수동 패치 대상을 찾을 수 없습니다: {0}</Mugirl.PatchRegistry.MissingTarget>
+  <Mugirl.PatchRegistry.MissingPatchMethod>수동 패치 메서드를 찾을 수 없습니다: {0}</Mugirl.PatchRegistry.MissingPatchMethod>
+  <Mugirl.PatchRegistry.PatchFailed>수동 패치에 실패했습니다: {0}. {1}</Mugirl.PatchRegistry.PatchFailed>
+  <Mugirl.GameUtility.WindowStackUnavailable>창 스택을 사용할 수 없는 상태에서 눈소 창을 열려고 했습니다.</Mugirl.GameUtility.WindowStackUnavailable>
+  <Mugirl.GameUtility.LetterStackUnavailable>게임 편지 스택을 사용할 수 없는 상태에서 눈소 편지를 보내려고 했습니다.</Mugirl.GameUtility.LetterStackUnavailable>
+  <Mugirl.GameUtility.WorldPawnsUnavailable>WorldPawns를 사용할 수 없는 상태에서 생성된 눈소 폰을 월드 저장소로 옮기려고 했습니다.</Mugirl.GameUtility.WorldPawnsUnavailable>
+  <Mugirl.DropThingTooltip.TranspilerNotApplied>예상한 바닐라 IL 패턴을 찾지 못해 장비 드롭 툴팁 패치를 건너뛰었습니다.</Mugirl.DropThingTooltip.TranspilerNotApplied>
+  <Mugirl.RopingTick.BreakRopeWithRoperMissing>바닐라 BreakRopeWithRoper 메서드를 찾지 못해, 밧줄 처리 틱이 대체 수단으로 BreakAllRopes를 사용했습니다.</Mugirl.RopingTick.BreakRopeWithRoperMissing>
+  <Mugirl.Mount.DropAtFailed>탑승자 {0}(을)를 {1}에서 내리지 못해, 대체 처리로 월드 저장소에 넘겼습니다.</Mugirl.Mount.DropAtFailed>
+  <Mugirl.Restraints.MagneticShackles.ActivateLabel>족쇄 작동</Mugirl.Restraints.MagneticShackles.ActivateLabel>
+  <Mugirl.Restraints.MagneticShackles.ActivateDesc>자기 족쇄를 작동시켜 대상을 구속합니다.</Mugirl.Restraints.MagneticShackles.ActivateDesc>
+  <Mugirl.Restraints.MagneticShackles.DeactivateLabel>족쇄 해제</Mugirl.Restraints.MagneticShackles.DeactivateLabel>
+  <Mugirl.Restraints.MagneticShackles.DeactivateDesc>자기 족쇄를 해제합니다.</Mugirl.Restraints.MagneticShackles.DeactivateDesc>
+  <Mugirl.Restraints.MagneticShackles.LabelActive>자기 족쇄 (작동 중)</Mugirl.Restraints.MagneticShackles.LabelActive>
+  <Mugirl.Restraints.MagneticShackles.LabelInactive>자기 족쇄 (정지)</Mugirl.Restraints.MagneticShackles.LabelInactive>
+  <Mugirl.Restraints.MagneticShackles.MoteOn>자기 족쇄 작동!</Mugirl.Restraints.MagneticShackles.MoteOn>
+  <Mugirl.Restraints.MagneticShackles.MoteOff>자기 족쇄 해제!</Mugirl.Restraints.MagneticShackles.MoteOff>
+  <Mugirl.Restraints.MagneticShackles.MessageOn>{0}의 자기 족쇄가 갑자기 작동했습니다.</Mugirl.Restraints.MagneticShackles.MessageOn>
+  <Mugirl.Restraints.MagneticShackles.MessageOff>{0}의 자기 족쇄가 해제되었습니다.</Mugirl.Restraints.MagneticShackles.MessageOff>
+  <Mugirl.Restraints.MagneticShackles.CooldownTicksLeft>재사용 대기 중: {0}</Mugirl.Restraints.MagneticShackles.CooldownTicksLeft>
+  <Mugirl.Restraints.ShockCollar.PowerLabel>강력 충격</Mugirl.Restraints.ShockCollar.PowerLabel>
+  <Mugirl.Restraints.ShockCollar.PowerDesc>강력 충격을 한 번 가합니다.</Mugirl.Restraints.ShockCollar.PowerDesc>
+  <Mugirl.Restraints.ShockCollar.CommonLabel>일반 충격</Mugirl.Restraints.ShockCollar.CommonLabel>
+  <Mugirl.Restraints.ShockCollar.CommonDesc>일반 충격을 한 번 가합니다.</Mugirl.Restraints.ShockCollar.CommonDesc>
+  <Mugirl.Restraints.ShockCollar.PowerCooldownTicksLeft>재사용 대기 중: {0}</Mugirl.Restraints.ShockCollar.PowerCooldownTicksLeft>
+  <Mugirl.Restraints.ShockCollar.CommonCooldownTicksLeft>재사용 대기 중: {0}</Mugirl.Restraints.ShockCollar.CommonCooldownTicksLeft>
+  <Mugirl.Restraints.DevUnlock.Label>개발자: {0} 잠금 해제</Mugirl.Restraints.DevUnlock.Label>
+  <Mugirl.Restraints.DevUnlock.Desc>개발자 모드: 디버깅을 위해 {0}의 착용 잠금을 즉시 해제합니다.</Mugirl.Restraints.DevUnlock.Desc>
+  <Mugirl.Restraints.DevUnlock.Message>개발자 모드로 {0}의 {1}(을)를 해제했습니다.</Mugirl.Restraints.DevUnlock.Message>
+  <Mugirl.Restraints.BrainwashHelmet.ActivateLabel>세뇌 작동</Mugirl.Restraints.BrainwashHelmet.ActivateLabel>
+  <Mugirl.Restraints.BrainwashHelmet.ActivateDesc>세뇌 헬멧을 작동시켜 대상을 세뇌합니다.</Mugirl.Restraints.BrainwashHelmet.ActivateDesc>
+  <Mugirl.Restraints.BrainwashHelmet.ManualTriggerMessage>{0}(이)가 세뇌 장치를 작동시켰습니다.</Mugirl.Restraints.BrainwashHelmet.ManualTriggerMessage>
+  <Mugirl.Restraints.BrainwashHelmet.IdeoConvertLabel>이념 전향</Mugirl.Restraints.BrainwashHelmet.IdeoConvertLabel>
+  <Mugirl.Restraints.BrainwashHelmet.IdeoConvertDesc>착용자의 이념을 정착지의 주 이념으로 바꿉니다.</Mugirl.Restraints.BrainwashHelmet.IdeoConvertDesc>
+  <Mugirl.Restraints.BrainwashHelmet.IdeoConvertMessage>{0}의 이념이 정착지의 주 이념으로 전향되었습니다.</Mugirl.Restraints.BrainwashHelmet.IdeoConvertMessage>
+  <Mugirl.Restraints.TriggeredByHediff>세뇌 장치 때문에 일어난 일입니다.</Mugirl.Restraints.TriggeredByHediff>
+  <Mugirl.MilkingDevice.StoredMessage>{0}의 착유 장치가 생산분 한 회를 저장했습니다 ({1}/{2}).</Mugirl.MilkingDevice.StoredMessage>
+  <Mugirl.MilkingDevice.ReleaseMessage>{0}(이)가 저장된 우유를 방출해 눈소 우유 {1}(을)를 생산했습니다.</Mugirl.MilkingDevice.ReleaseMessage>
+  <Mugirl.MilkingDevice.ReleaseLabel>저장된 우유 방출</Mugirl.MilkingDevice.ReleaseLabel>
+  <Mugirl.MilkingDevice.ReleaseDesc>이 장치에 저장된 눈소 우유를 전부 바닥에 방출합니다.</Mugirl.MilkingDevice.ReleaseDesc>
+  <Mugirl.MilkingDevice.InspectLabel>저장된 우유</Mugirl.MilkingDevice.InspectLabel>
+  <Mugirl.MilkingDevice.InspectLabelWithCharges>저장된 우유 횟수</Mugirl.MilkingDevice.InspectLabelWithCharges>
+  <Mugirl.MilkingDevice.Inspect>{0}: {1}/{2} ({3}x {4})</Mugirl.MilkingDevice.Inspect>
+  <Mugirl.MilkingDevice.NoChargeText>방출할 저장 우유가 없습니다.</Mugirl.MilkingDevice.NoChargeText>
+  <Mugirl.MilkingDevice.StoredMoteText>저장된 우유 +1</Mugirl.MilkingDevice.StoredMoteText>
+  <Mugirl.MilkingDevice.AutoReleaseEnabled>자동 착유: 켜짐</Mugirl.MilkingDevice.AutoReleaseEnabled>
+  <Mugirl.MilkingDevice.AutoReleaseDisabled>자동 착유: 꺼짐</Mugirl.MilkingDevice.AutoReleaseDisabled>
+  <Mugirl.MilkingDevice.AutoReleaseDesc>켜면 착용자의 우유가 가득 찰 때 착유 장치가 즉시 우유를 방출합니다. 끄면 저장 공간이 이미 가득 찬 뒤 다시 우유가 가득 찼을 때 넘치는 분량만 방출합니다.</Mugirl.MilkingDevice.AutoReleaseDesc>
+  <Mugirl.MilkingDevice.PowerReleaseEnabled>강제 방출: 켜짐</Mugirl.MilkingDevice.PowerReleaseEnabled>
+  <Mugirl.MilkingDevice.PowerReleaseDisabled>강제 방출: 꺼짐</Mugirl.MilkingDevice.PowerReleaseDisabled>
+  <Mugirl.MilkingDevice.DevFill.Label>개발자: 착유 진행도 채우기</Mugirl.MilkingDevice.DevFill.Label>
+  <Mugirl.MilkingDevice.DevFill.Desc>개발자 모드: 현재 착용자의 우유 진행도를 즉시 가득 채우고 착유 장치 동작을 발동시킵니다.</Mugirl.MilkingDevice.DevFill.Desc>
+  <Mugirl.MilkingDevice.DevFill.Success>개발자 모드로 {0}의 우유 진행도를 채웠습니다.</Mugirl.MilkingDevice.DevFill.Success>
+  <Mugirl.MilkingDevice.DevFill.Failed>지금은 개발자 모드로 {0}의 우유 진행도를 채울 수 없습니다.</Mugirl.MilkingDevice.DevFill.Failed>
+  <Mugirl.MilkingDevice.ReleaseThingMissing>착유 장치가 방출할 결과물 Def를 찾지 못했습니다.</Mugirl.MilkingDevice.ReleaseThingMissing>
+  <Mugirl.Settings.StructuralCrashEvent.Label>눈소 추락 사건 활성화</Mugirl.Settings.StructuralCrashEvent.Label>
+  <Mugirl.Settings.StructuralCrashEvent.Desc>눈소 추락 사건이 발생할 수 있는지 여부를 정합니다. 끄면 이 사건이 발생하지 않습니다.</Mugirl.Settings.StructuralCrashEvent.Desc>
+  <Mugirl.Settings.FastMilking.Label>빠른 착유</Mugirl.Settings.FastMilking.Label>
+  <Mugirl.Settings.FastMilking.Desc>켜면 눈소의 자가 착유와 보조 착유 작업 시간이 1초로 줄어듭니다.</Mugirl.Settings.FastMilking.Desc>
+  <Mugirl.Settings.VanillaMilkGauge.Label>바닐라 방식 우유 게이지 사용</Mugirl.Settings.VanillaMilkGauge.Label>
+  <Mugirl.Settings.VanillaMilkGauge.Desc>켜면 선택한 눈소의 우유 게이지가 전용 텍스처 게이지 대신 바닐라 방식의 긴 막대 형태로 표시됩니다.</Mugirl.Settings.VanillaMilkGauge.Desc>
+  <Mugirl.Settings.MigrationEvent.Label>눈소 이주 활성화</Mugirl.Settings.MigrationEvent.Label>
+  <Mugirl.Settings.MigrationEvent.Desc>야생 눈소 이주 사건이 발생할 수 있는지 여부를 정합니다.</Mugirl.Settings.MigrationEvent.Desc>
+  <Mugirl.Settings.FusionInvestmentEvent.Label>소 융합 투자 활성화</Mugirl.Settings.FusionInvestmentEvent.Label>
+  <Mugirl.Settings.FusionInvestmentEvent.Desc>수상한 소 융합 투자자가 방문할 수 있는지 여부를 정합니다.</Mugirl.Settings.FusionInvestmentEvent.Desc>
+  <Mugirl.Settings.FusionInvestmentEvent.DevDeliver>개발자: 소 융합 보상 즉시 지급</Mugirl.Settings.FusionInvestmentEvent.DevDeliver>
+  <Mugirl.Settings.RunawayFarmQuest.Label>폭주한 눈소 목장 임무 활성화</Mugirl.Settings.RunawayFarmQuest.Label>
+  <Mugirl.Settings.RunawayFarmQuest.Desc>폭주한 눈소 목장 임무가 등장할 수 있는지 여부를 정합니다.</Mugirl.Settings.RunawayFarmQuest.Desc>
+  <Mugirl.Settings.HideBackWeapons.Label>무기 휠 등 무기 숨기기</Mugirl.Settings.HideBackWeapons.Label>
+  <Mugirl.Settings.HideBackWeapons.Desc>켜면 등에 멘 무기 두 개를 더 이상 그리지 않습니다. 자동 장전 장치 홈에 있는 무기는 영향을 받지 않습니다.</Mugirl.Settings.HideBackWeapons.Desc>
+  <Mugirl.Settings.WeaponWheelDevLog.Label>무기 휠 개발자 로그</Mugirl.Settings.WeaponWheelDevLog.Label>
+  <Mugirl.Settings.WeaponWheelDevLog.Desc>켜면 눈소의 모든 사격과 무기 휠의 전투 판단마다 진단 정보를 디버그 로그에 출력합니다(사격 방식과 소속 모드, 점사 완료 확인, 전화력 자격, 칸별 사격 가능 여부, 순환 중단 사유). 무기 휠이 의존하는 바닐라 메서드의 Harmony 패치 소유 보고서도 함께 출력합니다. 다른 모드와의 전화력 충돌을 조사할 때만 쓰세요. 로그가 매우 많이 나옵니다.</Mugirl.Settings.WeaponWheelDevLog.Desc>
+  <Mugirl.Settings.WeaponWheelDevLog.DumpPatches>지금 Harmony 패치 보고서 출력</Mugirl.Settings.WeaponWheelDevLog.DumpPatches>
+  <Mugirl.Migration.LetterLabel>눈소 이주</Mugirl.Migration.LetterLabel>
+  <Mugirl.Migration.LetterText>비키니 차림의 야생 눈소 무리가 지도 가장자리에서 걸어 들어옵니다. 이곳의 식물에 이끌린 듯 한동안 근처에 머물며 쉴 새 없이 고개를 숙여 풀을 뜯고, 때로는 나무까지 씹어댑니다. 성질이 온순하니 길들여 볼 수 있고, 젖이 차면 직접 짜낼 수도 있습니다. 배가 부르면 아직 야생인 눈소들은 알아서 떠납니다. 식물을 더 뜯어 먹는 것이 싫다면 아무나 한 마리를 공격해 쫓아내십시오. 한 마리라도 맞으면 무리 전체가 즉시 지도에서 달아납니다.</Mugirl.Migration.LetterText>
+  <Mugirl.FusionInvestment.LetterLabel>소 융합 투자</Mugirl.FusionInvestment.LetterLabel>
+  <Mugirl.FusionInvestment.LetterText>수상한 투자자가 지도 가장자리에서 걸어 들어왔습니다. 그는 풀을 뜯는 눈소들의 놀라운 전환 효율을 오래 관찰한 끝에 &apos;소 융합 기술&apos;로 가는 길을 발견했다고 주장합니다. 이제 당신에게 초기 자금을 대달라고 합니다. 들을수록 미덥지 않은 이야기지만, 그의 눈빛만큼은 섬뜩할 만큼 진지합니다. 정착민을 보내 이야기를 나눠보고 투자 여부를 결정하십시오.</Mugirl.FusionInvestment.LetterText>
+  <Mugirl.FusionInvestment.TalkOption>소 융합 투자자와 대화하기</Mugirl.FusionInvestment.TalkOption>
+  <Mugirl.FusionInvestment.TalkCannotReach>도달할 수 없음</Mugirl.FusionInvestment.TalkCannotReach>
+  <Mugirl.FusionInvestment.TalkOptionDisabled>{0} ({1})</Mugirl.FusionInvestment.TalkOptionDisabled>
+  <Mugirl.FusionInvestment.DialogTitle>소 융합 투자</Mugirl.FusionInvestment.DialogTitle>
+  <Mugirl.FusionInvestment.DialogText>수상한 투자자가 목소리를 낮추더니, 우주의 법칙이라도 밝히는 듯한 무게로 말을 꺼냅니다.\n\n&quot;수치를 봤습니다. 눈소가 풀을 우유로 바꾸는 비율은 도무지 말이 되지 않아요. 초기 자본만 대주시면, 나는 이 현상을 소 융합 단계까지 밀어붙일 수 있습니다. 지금 투자하십시오. 성공하면 유제품과 실험용 이주 인원이 당신을 기다리고 있을 겁니다.&quot;</Mugirl.FusionInvestment.DialogText>
+  <Mugirl.FusionInvestment.OptionInvest>은 {0} 투자</Mugirl.FusionInvestment.OptionInvest>
+  <Mugirl.FusionInvestment.OptionNoMap>투자할 수 있는 지도가 없음</Mugirl.FusionInvestment.OptionNoMap>
+  <Mugirl.FusionInvestment.OptionNoSilver>지도 창고에 은 {0} 필요</Mugirl.FusionInvestment.OptionNoSilver>
+  <Mugirl.FusionInvestment.OptionReject>아무리 들어도 터무니없다</Mugirl.FusionInvestment.OptionReject>
+  <Mugirl.FusionInvestment.OptionPostpone>나중에 다시 이야기하자</Mugirl.FusionInvestment.OptionPostpone>
+  <Mugirl.FusionInvestment.AlreadyResolved>이 투자자와는 더 이상 협상할 수 없습니다.</Mugirl.FusionInvestment.AlreadyResolved>
+  <Mugirl.FusionInvestment.MessageNoSilver>은 {0}(을)를 투자하기에는 쓸 수 있는 은이 부족합니다.</Mugirl.FusionInvestment.MessageNoSilver>
+  <Mugirl.FusionInvestment.MessageAccepted>소 융합 기술에 은 {0}(을)를 투자했습니다.</Mugirl.FusionInvestment.MessageAccepted>
+  <Mugirl.FusionInvestment.MessageRejected>소 융합 투자를 거절했습니다. 투자자는 도표를 챙겨 떠납니다.</Mugirl.FusionInvestment.MessageRejected>
+  <Mugirl.FusionInvestment.MessagePostponed>소 융합 투자를 일단 미뤄 두었습니다. 투자자는 기회의 창은 소중하다고 중얼거리면서도, 나중에 다시 이야기할 수 있도록 남아 있습니다.</Mugirl.FusionInvestment.MessagePostponed>
+  <Mugirl.FusionInvestment.DevDeliver.NoPending>대기 중인 소 융합 투자가 없습니다.</Mugirl.FusionInvestment.DevDeliver.NoPending>
+  <Mugirl.FusionInvestment.ResultLetterLabel>소 융합 대성공</Mugirl.FusionInvestment.ResultLetterLabel>
+  <Mugirl.FusionInvestment.ResultLetterText>수상한 투자자가 잔뜩 들뜬 편지를 보내왔습니다. 소 융합 실험이 대성공을 거뒀다는 주장입니다. 동봉된 도표는 아무도 이해할 수 없지만, 편지와 함께 도착한 눈소 유제품과 이주해 온 눈소 노예들만큼은 분명한 현실입니다.</Mugirl.FusionInvestment.ResultLetterText>
+  <Mugirl.RunawayFarm.ArrivedLetterLabel>폭주한 눈소 목장</Mugirl.RunawayFarm.ArrivedLetterLabel>
+  <Mugirl.RunawayFarm.ArrivedLetterText>아수라장이 된 눈소 목장에 도착했습니다. 폭주한 눈소들이 사방에서 날뛰고 있습니다. 밧줄로 붙잡아 준비된 말뚝에 한 마리도 빠짐없이 묶으십시오.</Mugirl.RunawayFarm.ArrivedLetterText>
+  <Mugirl.RunawayFarm.SuccessLetterLabel>목장에 다시 찾아온 평온</Mugirl.RunawayFarm.SuccessLetterLabel>
+  <Mugirl.RunawayFarm.SuccessLetterText>폭주한 눈소를 전부 말뚝에 다시 묶었습니다. 목장주가 땀을 훔치며 고마움을 전합니다. 그때 {PAWN_labelShort}(이)가 곁에 바짝 붙어 떨어지려 하지 않는 것이 눈에 들어옵니다. 목장주는 그 모습을 한 번, 당신을 한 번 바라보더니 그 자리에서 함께 데려가도 좋다고 말합니다.</Mugirl.RunawayFarm.SuccessLetterText>
+  <Mugirl.RunawayFarm.Log.NoMap>폭주한 눈소 목장 임무 중단: 유효한 지도 대상이 없습니다.</Mugirl.RunawayFarm.Log.NoMap>
+  <Mugirl.RunawayFarm.Log.NoTile>폭주한 눈소 목장 임무 중단: 유효한 월드 지점 타일이 없습니다.</Mugirl.RunawayFarm.Log.NoTile>
+  <Mugirl.Milk.Gauge.Label>젖 분비</Mugirl.Milk.Gauge.Label>
+  <Mugirl.Milk.Gauge.Desc>이 눈소의 현재 우유 충만도입니다. 붉은 선은 자동 착유 기준선이며, 이 선에 도달하면 정착민이 자동으로 젖을 짭니다.</Mugirl.Milk.Gauge.Desc>
+  <Mugirl.Milk.FullnessDisplay>눈소 우유</Mugirl.Milk.FullnessDisplay>
+  <Mugirl.Milk.FullnessInspect>{0}: {1}</Mugirl.Milk.FullnessInspect>
+  <Mugirl.Milk.Gauge.Tooltip>{0}\n\n현재: {1}\n기준선: {2}\n붉은 선을 끌어 자동 착유 기준선을 조절하세요\n1회 예상 착유량: {3}\n젖 분비 속도: {4}</Mugirl.Milk.Gauge.Tooltip>
+  <Mugirl.Milk.Gauge.ApplyAll.Label>모두 적용</Mugirl.Milk.Gauge.ApplyAll.Label>
+  <Mugirl.Milk.Gauge.ApplyAll.Desc>켜면 우유 기준선을 끌 때 선택한 모든 눈소에게 한꺼번에 적용됩니다.</Mugirl.Milk.Gauge.ApplyAll.Desc>
+  <Mugirl.Milk.Gauge.MultiHint>여러 명 선택 중: 위쪽 이름 막대에 마우스를 올리면 표시할 눈소가 바뀝니다. &quot;모두 적용&quot;을 켜면 기준선이 선택한 모든 눈소에게 한꺼번에 적용됩니다.</Mugirl.Milk.Gauge.MultiHint>
+  <Mugirl.Milk.ProductionRate>{0}% / {1}초</Mugirl.Milk.ProductionRate>
+  <Mugirl.Milk.DevFill.Label>개발자: 우유 채우기</Mugirl.Milk.DevFill.Label>
+  <Mugirl.Milk.DevFill.Desc>개발자 모드: 선택한 눈소의 우유량을 즉시 최대로 채웁니다.</Mugirl.Milk.DevFill.Desc>
+  <Mugirl.Milk.DevFill.Success>{0}의 우유량을 채웠습니다.</Mugirl.Milk.DevFill.Success>
+  <Mugirl.Milk.DevFill.Failed>지금은 {0}의 우유량을 채울 수 없습니다.</Mugirl.Milk.DevFill.Failed>
+  <Mugirl.Milk.FeedingDebug.Button>개발자: 수유 자세</Mugirl.Milk.FeedingDebug.Button>
+  <Mugirl.Milk.FeedingDebug.ButtonDesc>맵에서 수유 장면을 미리 보고 두 폰의 위치와 각도를 조정합니다.</Mugirl.Milk.FeedingDebug.ButtonDesc>
+  <Mugirl.Milk.FeedingDebug.Title>수유 자세 배치</Mugirl.Milk.FeedingDebug.Title>
+  <Mugirl.Milk.FeedingDebug.Choose>근처의 받는 사람 고르기</Mugirl.Milk.FeedingDebug.Choose>
+  <Mugirl.Milk.FeedingDebug.NoRecipient>먼저 이 눈소 옆에 다른 인간형 폰을 두세요.</Mugirl.Milk.FeedingDebug.NoRecipient>
+  <Mugirl.Milk.FeedingDebug.Hint>게임이 일시 정지되었습니다. 이 창을 옆으로 옮겨 실시간 미리보기를 확인하세요. X는 받는 사람이 방향을 바꾸면 좌우 반전되고, Z는 화면 세로 방향입니다. 바꾼 값은 수유에 곧바로 적용됩니다.</Mugirl.Milk.FeedingDebug.Hint>
+  <Mugirl.Milk.FeedingDebug.SourceX>우유 출처 X: {0}</Mugirl.Milk.FeedingDebug.SourceX>
+  <Mugirl.Milk.FeedingDebug.SourceZ>우유 출처 Z: {0}</Mugirl.Milk.FeedingDebug.SourceZ>
+  <Mugirl.Milk.FeedingDebug.RecipientX>받는 사람 X: {0}</Mugirl.Milk.FeedingDebug.RecipientX>
+  <Mugirl.Milk.FeedingDebug.RecipientZ>받는 사람 Z: {0}</Mugirl.Milk.FeedingDebug.RecipientZ>
+  <Mugirl.Milk.FeedingDebug.SourceAngle>우유 출처 각도: {0}°</Mugirl.Milk.FeedingDebug.SourceAngle>
+  <Mugirl.Milk.FeedingDebug.RecipientAngle>받는 사람 각도: {0}°</Mugirl.Milk.FeedingDebug.RecipientAngle>
+  <Mugirl.Milk.FeedingDebug.Reset>기본값으로 되돌리기</Mugirl.Milk.FeedingDebug.Reset>
+  <Mugirl.Milk.FeedingDebug.Jump>폰으로 이동</Mugirl.Milk.FeedingDebug.Jump>
+  <Mugirl.Milk.FeedingDebug.Copy>XML 복사</Mugirl.Milk.FeedingDebug.Copy>
+  <Mugirl.Milk.FeedingDebug.Save>설정 저장</Mugirl.Milk.FeedingDebug.Save>
+  <Mugirl.Milk.FeedingDebug.Copied>XML을 복사했습니다.</Mugirl.Milk.FeedingDebug.Copied>
+  <Mugirl.Milk.FeedingDebug.Saved>{0}에 저장했습니다.</Mugirl.Milk.FeedingDebug.Saved>
+  <Mugirl.Milk.FeedingDebug.Failed>배치 작업 실패: {0}</Mugirl.Milk.FeedingDebug.Failed>
+  <Mugirl.Milk.SprayText>우유 분출!</Mugirl.Milk.SprayText>
+  <Mugirl.Milk.FloatMenu.Gather>젖 짜기 ({0})</Mugirl.Milk.FloatMenu.Gather>
+  <Mugirl.Milk.FloatMenu.Drink>우유 마시기 ({0})</Mugirl.Milk.FloatMenu.Drink>
+  <Mugirl.Milk.FloatMenu.ChildDrink>젖 찾기 ({0})</Mugirl.Milk.FloatMenu.ChildDrink>
+  <Mugirl.Milk.FloatMenu.Feed>우유 먹이기 ({0})</Mugirl.Milk.FloatMenu.Feed>
+  <Mugirl.Milk.FloatMenu.Disabled>{0}: {1}</Mugirl.Milk.FloatMenu.Disabled>
+  <Mugirl.Milk.FloatMenu.FeedJobMissing>Job_FeedMilkToDowned 없음</Mugirl.Milk.FloatMenu.FeedJobMissing>
+  <Mugirl.Milk.FloatMenu.NotActive>우유를 생산할 수 없음</Mugirl.Milk.FloatMenu.NotActive>
+  <Mugirl.Milk.FloatMenu.NotEnoughMilk>우유가 부족함</Mugirl.Milk.FloatMenu.NotEnoughMilk>
+  <Mugirl.Milk.FloatMenu.ManagedByDevice>착유 장치가 관리 중</Mugirl.Milk.FloatMenu.ManagedByDevice>
+  <Mugirl.Milk.GatherInactiveLog>눈소: {0}(이)가 비활성 상태에서 신체 자원을 채집했습니다: {1}</Mugirl.Milk.GatherInactiveLog>
+  <Mugirl.Nurture.Completed>{PAWN_labelShort}(이)가 눈소의 보살핌을 온전히 받았습니다.</Mugirl.Nurture.Completed>
+  <Mugirl.CrackBondageGear_TargetNotValid>대상은 해독할 수 없습니다. 복호화가 불가능합니다.</Mugirl.CrackBondageGear_TargetNotValid>
+  <Mugirl.CrackBondageGear_CrackAdvanced>고급 구속구를 해독 중: {0}.</Mugirl.CrackBondageGear_CrackAdvanced>
+  <Mugirl.CrackBondageGear_CrackBrainwash>세뇌 구속구를 해독 중: {0}.</Mugirl.CrackBondageGear_CrackBrainwash>
+  <Mugirl.CrackBondageGear_NoCrackableType>알 수 없는 유형입니다. 해독할 수 없습니다.</Mugirl.CrackBondageGear_NoCrackableType>
+  <Mugirl.SelfLabel>자신</Mugirl.SelfLabel>
+  <Mugirl.Reserved>예약됨</Mugirl.Reserved>
+  <Mugirl.NotWearingLockedApparel>잠금된 구속구를 착용하고 있지 않습니다.</Mugirl.NotWearingLockedApparel>
+  <Mugirl.AlreadyCracked>이 장치는 이미 해제되었습니다.</Mugirl.AlreadyCracked>
+  <Mugirl.InvalidTarget>유효하지 않은 대상입니다.</Mugirl.InvalidTarget>
+  <Mugirl.SlaveApparelCannotBeRemoved>눈소 구속구는 제거할 수 없습니다. 이 구속구를 해제하려면 해당 열쇠가 필요합니다.</Mugirl.SlaveApparelCannotBeRemoved>
+  <Mugirl.BrainwashStart>세뇌 장치가 갑자기 작동했습니다. {0}(이)가 세뇌 중입니다.</Mugirl.BrainwashStart>
+  <Mugirl.BrainwashEnd>{0}의 세뇌가 종료되었습니다.</Mugirl.BrainwashEnd>
+  <Mugirl.SuppressionIncrease>억제력 +{0}</Mugirl.SuppressionIncrease>
+  <Mugirl.SlaveApparelFullyUnlocked>{0}의 구속구가 완전히 해제되었습니다.</Mugirl.SlaveApparelFullyUnlocked>
+  <Mugirl.Restraints.UnlockTargetMissingLog>해제 실패: 대상 폰이나 대상 의상이 없습니다.</Mugirl.Restraints.UnlockTargetMissingLog>
+  <Mugirl.Restraints.ForceUnlock.FloatMenu>구속구 강제로 열기 ({0})</Mugirl.Restraints.ForceUnlock.FloatMenu>
+  <Mugirl.Restraints.ForceUnlock.StrengthTooLow>힘이 부족합니다: {0}/{1}. 필요 기준: {2}</Mugirl.Restraints.ForceUnlock.StrengthTooLow>
+  <Mugirl.Restraints.ForceUnlock.RequirementRough>체구 1.0, 조작 100%, 근접 10</Mugirl.Restraints.ForceUnlock.RequirementRough>
+  <Mugirl.Restraints.ForceUnlock.RequirementFine>체구 1.0, 조작 100%, 근접 14</Mugirl.Restraints.ForceUnlock.RequirementFine>
+  <Mugirl.Restraints.ForceUnlock.RequirementUnsupported>지원하지 않는 구속구 종류</Mugirl.Restraints.ForceUnlock.RequirementUnsupported>
+  <Mugirl.Restraints.ForceUnlock.Success>{0}(이)가 {1}의 {2}(을)를 강제로 열었습니다.</Mugirl.Restraints.ForceUnlock.Success>
+  <Mugirl.Restraints.ForceUnlock.WoundMote>부상!</Mugirl.Restraints.ForceUnlock.WoundMote>
+  <Mugirl.HandsBlocked>이 정착민은 스스로를 풀 수 없습니다: 손이 묶여 있습니다.</Mugirl.HandsBlocked>
+  <Mugirl.SlaveApparelUnlockPartial>{0}(이)가 {1}의 구속구를 해제했습니다. 완전히 해제하려면 열쇠가 {2}개 더 필요합니다.</Mugirl.SlaveApparelUnlockPartial>
+  <Mugirl.WrongKeyType>해제 불가: 열쇠 유형이 {0}(와)과 일치하지 않습니다.</Mugirl.WrongKeyType>
+  <Mugirl.NoPath>경로 없음</Mugirl.NoPath>
+  <Mugirl.CannotPrioritizeWorkTypeDisabled>작업 불가 ({0}(이)가 비활성화되었습니다)</Mugirl.CannotPrioritizeWorkTypeDisabled>
+  <Mugirl.SlaveApparelCracked>{0}의 구속구가 해제되었습니다.</Mugirl.SlaveApparelCracked>
+  <Mugirl.SlaveApparel.StatusLabel>{0} ({1})</Mugirl.SlaveApparel.StatusLabel>
+  <Mugirl.CrackStatus>해독 상태</Mugirl.CrackStatus>
+  <Mugirl.Cracked>해제됨</Mugirl.Cracked>
+  <Mugirl.Uncracked>해제되지 않음</Mugirl.Uncracked>
+  <Mugirl.CrackStatusDesc>이 구속구가 해제되었는지 여부입니다.</Mugirl.CrackStatusDesc>
+  <Mugirl.RopeToHitch>묶어 고정하기</Mugirl.RopeToHitch>
+  <Mugirl.NoValidToRope>묶을 수 있는 유효한 대상이 없습니다.</Mugirl.NoValidToRope>
+  <Mugirl.RopedByPawn>다른 폰에게 이미 묶여 있습니다.</Mugirl.RopedByPawn>
+  <Mugirl.RopedToHitchingPost>말뚝 고정대에 묶였습니다.</Mugirl.RopedToHitchingPost>
+  <Mugirl.RopedToSpot>특정 지점에 묶였습니다.</Mugirl.RopedToSpot>
+  <Mugirl.Rope.Target>{0}(을)를 묶습니다.</Mugirl.Rope.Target>
+  <Mugirl.Rope.SuccessChance>성공 확률</Mugirl.Rope.SuccessChance>
+  <Mugirl.Rope.TargetWithSuccessChance>{0} ({1} {2})</Mugirl.Rope.TargetWithSuccessChance>
+  <Mugirl.Unrope.Target>{0}의 밧줄을 풉니다.</Mugirl.Unrope.Target>
+  <Mugirl.FloatMenu.OptionWithReason>{0} ({1})</Mugirl.FloatMenu.OptionWithReason>
+  <Mugirl.FloatMenu.ActionOnTarget>{1}에게 {0}</Mugirl.FloatMenu.ActionOnTarget>
+  <Mugirl.FloatMenu.ActionOnReserved>({1})에게 {0}</Mugirl.FloatMenu.ActionOnReserved>
+  <Mugirl.DraftDisabledWhileRoped>눈소이 현재 다른 사람에게 묶여 있어 징집할 수 없습니다.</Mugirl.DraftDisabledWhileRoped>
+  <Mugirl.Mount.Target>{0}에 탑승</Mugirl.Mount.Target>
+  <Mugirl.Mount.DismountRider>탑승자 내리기</Mugirl.Mount.DismountRider>
+  <Mugirl.Mount.DismountRiderDesc>이 눈소에서 현재 탑승자를 내립니다.</Mugirl.Mount.DismountRiderDesc>
+  <Mugirl.Mount.SelectRider>탑승자 선택</Mugirl.Mount.SelectRider>
+  <Mugirl.Mount.SelectRiderDesc>이 눈소에 타고 있는 폰을 선택합니다.</Mugirl.Mount.SelectRiderDesc>
+  <Mugirl.Mount.SelectCarrier>눈소 선택</Mugirl.Mount.SelectCarrier>
+  <Mugirl.Mount.SelectCarrierDesc>이 탑승자를 태우고 있는 눈소를 선택합니다.</Mugirl.Mount.SelectCarrierDesc>
+  <Mugirl.Mount.FireAtWill>자유 사격</Mugirl.Mount.FireAtWill>
+  <Mugirl.Mount.FireAtWillDesc>탑승자가 자동 원거리 기마 화기처럼 행동하도록 허용합니다.</Mugirl.Mount.FireAtWillDesc>
+  <Mugirl.Mount.HoldFire>사격 중지</Mugirl.Mount.HoldFire>
+  <Mugirl.Mount.HoldFireDesc>탑승자가 자동으로 사격하지 않도록 합니다.</Mugirl.Mount.HoldFireDesc>
+  <Mugirl.Mount.CannotMount>탑승할 수 없음</Mugirl.Mount.CannotMount>
+  <Mugirl.Mount.LabelWithReason>{0}: {1}</Mugirl.Mount.LabelWithReason>
+  <Mugirl.Mount.MountedMessage>{0}(이)가 {1}에 탑승했습니다.</Mugirl.Mount.MountedMessage>
+  <Mugirl.Mount.DismountedMessage>{0}(이)가 {1}에서 내렸습니다.</Mugirl.Mount.DismountedMessage>
+  <Mugirl.Mount.AutoDismountMessage>{0}(이)가 자동으로 내렸습니다: {1}.</Mugirl.Mount.AutoDismountMessage>
+  <Mugirl.Mount.NoDismountCell>{0} 근처에 내릴 수 있는 칸이 없습니다.</Mugirl.Mount.NoDismountCell>
+  <Mugirl.Mount.InspectRider>탑승자: {0}</Mugirl.Mount.InspectRider>
+  <Mugirl.Mount.ReasonInvalid>잘못된 대상</Mugirl.Mount.ReasonInvalid>
+  <Mugirl.Mount.ReasonAlreadyHasRider>이미 탑승자가 있음</Mugirl.Mount.ReasonAlreadyHasRider>
+  <Mugirl.Mount.ReasonTargetNotMugirl>대상이 눈소가 아님</Mugirl.Mount.ReasonTargetNotMugirl>
+  <Mugirl.Mount.ReasonTargetBadState>눈소의 상태가 좋지 않음</Mugirl.Mount.ReasonTargetBadState>
+  <Mugirl.Mount.ReasonRiderBadState>탑승자의 상태가 좋지 않음</Mugirl.Mount.ReasonRiderBadState>
+  <Mugirl.Mount.ReasonRiderNotHumanlike>탑승자는 인간형 폰이어야 함</Mugirl.Mount.ReasonRiderNotHumanlike>
+  <Mugirl.Mount.ReasonAlreadyMounted>이미 탑승 중</Mugirl.Mount.ReasonAlreadyMounted>
+  <Mugirl.Mount.ReasonRoped>밧줄에 묶인 폰은 탑승할 수 없음</Mugirl.Mount.ReasonRoped>
+  <Mugirl.Mount.ReasonReserved>이미 예약됨</Mugirl.Mount.ReasonReserved>
+  <Mugirl.Mount.ReasonNoPath>경로 없음</Mugirl.Mount.ReasonNoPath>
+  <Mugirl.Mount.ReasonRiderHungry>배고픔</Mugirl.Mount.ReasonRiderHungry>
+  <Mugirl.Mount.ReasonRiderTired>탈진</Mugirl.Mount.ReasonRiderTired>
+  <Mugirl.Mount.ReasonRiderMedical>치료 휴식 필요</Mugirl.Mount.ReasonRiderMedical>
+  <Mugirl.Mount.ReasonTurretHoldFire>탑승자가 사격을 중지 중</Mugirl.Mount.ReasonTurretHoldFire>
+  <Mugirl.Mount.ReasonNoRangedWeapon>탑승자에게 원거리 무기가 없음</Mugirl.Mount.ReasonNoRangedWeapon>
+  <Mugirl.CourierContactLetterLabel>기업 배달원</Mugirl.CourierContactLetterLabel>
+  <Mugirl.CourierContactLetterText>거대 기업의 배달원이 지도 가장자리에서 다가오고 있습니다. 총을 쏘지는 않았지만 몹시 불안해 보입니다. 정착민을 보내 그와 협상할 수 있습니다.</Mugirl.CourierContactLetterText>
+  <Mugirl.CourierTalkOption>기업 배달원과 협상하기</Mugirl.CourierTalkOption>
+  <Mugirl.CourierTalkCannotReach>도달할 수 없음</Mugirl.CourierTalkCannotReach>
+  <Mugirl.CourierTalkOptionDisabled>{0} ({1})</Mugirl.CourierTalkOptionDisabled>
+  <Mugirl.CourierAlreadyResolved>이 배달원과는 더 이상 협상할 수 없습니다.</Mugirl.CourierAlreadyResolved>
+  <Mugirl.CourierDialogTitle>기업 배달원</Mugirl.CourierDialogTitle>
+  <Mugirl.CourierDialogText>기업 배달원이 몇 걸음 떨어진 곳에서 멈춰 섭니다. 한 손을 반쯤 든 채, 눈은 당신과 자신이 온 길 사이를 쉴 새 없이 오갑니다. 전문가다운 자세를 유지하려 애쓰지만, 권총집 위에 올린 손가락은 계속 떨리고 있습니다.\n\n&quot;진정해... 다들 진정하자고. 내 이름은 {COURIER}. 그냥 배달원이야. 소매에 사번이 박혀 있는 그런 부류.&quot; (갈라진 입술을 핥으며) &quot;배가 궤도에서 부서졌어. 화물은 추락 현장 여기저기 흩어졌고. 시스템이 날 도망자로 기록하기 전에 찾으려고 추락 이후로 계속 걷고 있었지...&quot;\n\n(작고 씁쓸한 웃음) &quot;내가 이걸 다 털어놓고 있네. 거래하자. 내가 가진 일지랑 구속구 열쇠는 너희 거야. 화물은 &apos;운송 중 분실&apos;로 처리하면 돼. 나를 보내 주면 아무도 윗선에 보고하지 않아. 어때, {NEGOTIATOR}? 서로 좋은 일이잖아.&quot;</Mugirl.CourierDialogText>
+  <Mugirl.CourierDialogLeaveItems>물건을 두고 떠나게 한다</Mugirl.CourierDialogLeaveItems>
+  <Mugirl.CourierDialogFight>지금 사격한다</Mugirl.CourierDialogFight>
+  <Mugirl.CourierItemsDroppedMessage>기업 배달원이 지니고 있던 물건을 내려놓고 떠납니다.</Mugirl.CourierItemsDroppedMessage>
+  <Mugirl.CourierFightMessage>기업 배달원이 무기를 뽑아 듭니다. 이 충돌은 거대 기업과의 관계에 영향을 주지 않습니다.</Mugirl.CourierFightMessage>
+  <Mugirl.CourierFightReason>협상이 결렬되었습니다.</Mugirl.CourierFightReason>
+  <Mugirl.CourierRaid.Log.NoMap>배달원 습격 임무 중단: 유효한 지도 대상이 없습니다.</Mugirl.CourierRaid.Log.NoMap>
+  <Mugirl.CourierRaid.Log.NoFaction>배달원 습격 임무 중단: 적대적인 거대 기업 세력을 찾지 못했습니다.</Mugirl.CourierRaid.Log.NoFaction>
+  <Mugirl.CourierRaid.Log.NoSpawnCell>배달원 습격 임무 중단: 유효한 생성 칸이 없습니다.</Mugirl.CourierRaid.Log.NoSpawnCell>
+  <Mugirl.CourierRaid.Log.MissingOpeningPawns>배달원이 구속구 열쇠를 셀 첫 추락 폰들을 찾지 못했습니다.</Mugirl.CourierRaid.Log.MissingOpeningPawns>
+  <Mugirl.CourierRaid.SpawnLog.NoMap>배달원 습격 생성 중단: 지도가 null입니다.</Mugirl.CourierRaid.SpawnLog.NoMap>
+  <Mugirl.CourierRaid.SpawnLog.NoFaction>배달원 습격 생성 중단: 세력이 null입니다.</Mugirl.CourierRaid.SpawnLog.NoFaction>
+  <Mugirl.CourierRaid.SpawnLog.NoSpawnCell>배달원 습격 생성 중단: 유효한 생성 칸이 없습니다.</Mugirl.CourierRaid.SpawnLog.NoSpawnCell>
+  <Mugirl.CourierDiary.Title>배달원의 일지</Mugirl.CourierDiary.Title>
+  <Mugirl.CourierDiary.ReadOption>{0} 읽기</Mugirl.CourierDiary.ReadOption>
+  <Mugirl.CourierDiary.OptionDisabled>{0} ({1})</Mugirl.CourierDiary.OptionDisabled>
+  <Mugirl.CourierDiary.CannotReach>도달할 수 없음</Mugirl.CourierDiary.CannotReach>
+  <Mugirl.CourierDiary.PageCounter>{0} / {1}쪽</Mugirl.CourierDiary.PageCounter>
+  <Mugirl.CourierDiary.PreviousPage>이전</Mugirl.CourierDiary.PreviousPage>
+  <Mugirl.CourierDiary.NextPage>다음</Mugirl.CourierDiary.NextPage>
+  <Mugirl.CourierDiary.Close>닫기</Mugirl.CourierDiary.Close>
+  <Mugirl.CourierDiary.Page1>[첫째 쪽]\n\n배달원의 일지에 오신 것을 환영합니다.\n\n이 일지에는 거대 기업에서 일하던 말단 배달원의 경험이 기록되어 있습니다. 실용적인 조언과 생존 교훈이 담겨 있습니다.</Mugirl.CourierDiary.Page1>
+  <Mugirl.CourierDiary.Page2>[둘째 쪽]\n\n거대 기업에 관하여:\n\n거대 기업은 여러 행성에 무력을 뻗친 거대한 기업 연합입니다. 이들은 독자적인 OPIC 계열과 PMC 계열 무기를 운용합니다.\n\n습격을 마주하면 적의 장비 등급을 눈여겨보십시오. PMC 접두어가 붙은 무기를 든 적은 대체로 더 위험합니다.</Mugirl.CourierDiary.Page2>
+  <Mugirl.CourierDiary.Page3>[셋째 쪽]\n\n눈소에 관하여:\n\n눈소는 유전공학의 산물입니다. 그 우유는 영양가가 대단히 뛰어나며, 눈소 유제품은 추가적인 이로움을 줍니다.\n\n눈소 우유 푸딩은 기분을 좋게 하고, 치즈는 해독에 도움이 되며, 숙성 치즈와 우유 정제는 면역력을 강화해 줍니다.</Mugirl.CourierDiary.Page3>
+  <Mugirl.CourierDiary.Page4>[넷째 쪽]\n\n구속구 열쇠에 관하여:\n\n조잡한 구속구 열쇠는 기계 작업대나 대장간에서 만들 수 있습니다. 정교한 구속구 열쇠에는 더 상위의 작업대가 필요합니다.\n\n운 좋은 배달원이 지니고 있던 열쇠를 손에 넣었다면, 그것으로 눈소의 구속구를 풀 수 있습니다.</Mugirl.CourierDiary.Page4>
+  <Mugirl.CourierDiary.Page5>[다섯째 쪽]\n\n생존 조언:\n\n1. 눈소 목축을 키워 안정적인 우유 공급을 확보할 것\n2. 거대 기업의 습격에 대비해 충분한 방어를 갖출 것\n3. 유제품을 생산해 정착민을 강화할 것\n4. 구속구 열쇠는 노예가 된 눈소를 영입하는 데 도움이 됨\n\n이 잔혹한 세계에서 살아남길 빕니다.</Mugirl.CourierDiary.Page5>
+  <Mugirl.LetterLabelWandererJoins>방랑자 합류: {PAWN_nameDef}</Mugirl.LetterLabelWandererJoins>
+  <Mugirl.LetterWandererJoins>{PAWN_nameDef}라는 이름의 {PAWN_title}(이)가 이곳에 도착하여 식민지에 합류하길 원하고 있습니다.\n\n[PAWN_pronoun](은)는 더 이상 갈 곳이 없으며, 정착지에 기여하겠다고 말합니다. [PAWN_pronoun](은)는 자발적으로 떠나지 않을 것이며, 당신은 {PAWN_objective} 받아들이지 않고 돌려보낼 수도 있습니다. 그러나 도움이 필요한 이를 내쫓는다면 식민지 사람들은 불편함을 느낄 것입니다.</Mugirl.LetterWandererJoins>
+  <Mugirl.LetterLabelOpeningPodCrash>수송 포드 추락 (눈소 노예)</Mugirl.LetterLabelOpeningPodCrash>
+  <Mugirl.OpeningPodCrash_MultipleIntro>탈출자 여럿을 태운 수송 포드가 추락했습니다.</Mugirl.OpeningPodCrash_MultipleIntro>
+  <Mugirl.OpeningPodCrash>근처에 두 개의 수송 포드가 추락했습니다. 각각에는 탈출한 눈소 노예 한 명씩이 타고 있습니다.\n\n그녀들은 거대 기업의 노예 수송선에서 탈출한 것으로 보이지만, 그것이 선박의 고장 때문인지, 공격 때문인지, 혹은 다른 이유인지는 알 수 없습니다. 탈출 과정에서 그녀들은 완전히 지쳐버렸고, 몸에 남은 단단한 구속 장비는 거대 기업의 폭정 아래서 견뎌야 했던 고통과 굴종의 시간을 고요히 증언하고 있습니다. 충돌의 충격으로 두 사람 모두 심각한 부상을 입었습니다.\n\n이제 그녀들에게는 더 이상 갈 곳이 없습니다. 만약 당신이 그녀들을 구한다면, 그들은 식민지에 합류할 것입니다. 당신은 이 불쌍하면서도 사랑스러운 두 탈출자에게 자유와 새로운 삶의 기회를 줄 것입니까?</Mugirl.OpeningPodCrash>
+  <Mugirl.OpeningPodCrash_Child>그중 {PAWN_nameDef}(은)는 {AGE}세의 어린아이로, 막 노예 행렬에서 탈출해 완전히 홀로 남겨졌습니다.</Mugirl.OpeningPodCrash_Child>
+  <Mugirl.OpeningPodCrash_Factionless>그중 [PAWN_pronoun](은)는 어떤 세력에도 속해 있지 않습니다.\n\n당신은 [PAWN_objective] 구해 자발적으로 정착지에 합류하길 기대할 수도 있고, 혹은 [PAWN_objective] 포획해 모집하거나 노예로 삼을 수도 있습니다.</Mugirl.OpeningPodCrash_Factionless>
+  <Mugirl.OpeningPodCrash_FactionlessMultiple>둘 다 어느 세력에도 속해 있지 않습니다. 구조해 자발적으로 정착지에 합류하기를 기대할 수도 있고, 붙잡아 영입하거나 노예로 삼을 수도 있습니다.</Mugirl.OpeningPodCrash_FactionlessMultiple>
+  <Mugirl.OpeningPodCrash_Hostile>그중 {PAWN_nameDef}(은)는 적대 세력인 {PAWN_factionName} 출신입니다.\n\n당신은 [PAWN_objective] 포획해 모집하거나 노예로 삼을 수 있습니다.</Mugirl.OpeningPodCrash_Hostile>
+  <Mugirl.OpeningPodCrash_NonHostile>{PAWN_nameDef}(은)는 {PAWN_factionName} 출신입니다.\n\n당신이 [PAWN_objective] 구해주면, [PAWN_pronoun]는 복귀할 때 당신의 세력과 그들의 관계가 개선될 것입니다.\n\n물론 [PAWN_objective] 포획해 모집하거나 노예로 삼을 수도 있지만, 그렇게 하면 [PAWN_possessive] 세력이 분노할 것입니다.</Mugirl.OpeningPodCrash_NonHostile>
+  <Mugirl.OpeningPodCrash.Log.FactionlessGenerationFailed>{0}회 시도 후에도 세력 없는 시작 포드 폰 생성에 실패했습니다. PawnKindDef나 다른 폰 생성 패치를 확인하십시오.</Mugirl.OpeningPodCrash.Log.FactionlessGenerationFailed>
+  <Mugirl.Newborn.Log.CorrectedBodyTypes>어린 눈소의 체형을 바로잡았습니다: {0}.</Mugirl.Newborn.Log.CorrectedBodyTypes>
+  <Mugirl.FeralChild>야생 아이</Mugirl.FeralChild>
+  <Mugirl.Child>아이</Mugirl.Child>
+  <Mugirl.Person>사람</Mugirl.Person>
+  <Mugirl.LetterLabelRefugeePodCrash>수송 포드 추락 (눈소 노예)</Mugirl.LetterLabelRefugeePodCrash>
+  <Mugirl.RefugeePodCrash>근처에 한 대의 수송 포드가 추락했습니다. 그 안에는 {PAWN_nameDef}라는 이름의 {PAWN_titleIndef}(이)가 타고 있습니다.\n\n그녀는 거대 기업의 노예 수송선에서 탈출한 것으로 보이지만, 그것이 선박의 고장 때문인지, 공격 때문인지, 혹은 다른 이유 때문인지는 알 수 없습니다. 탈출 과정에서 그녀는 완전히 지쳐버렸고, 몸에 남은 단단한 구속 장비는 거대 기업의 폭정 아래서 견뎌야 했던 고통과 굴종의 시간을 고요히 증언하고 있습니다. 충돌의 충격으로 그녀 또한 심각한 부상을 입었습니다.\n\n당신은 이 탈출자에게 자유와 새로운 삶의 기회를 줄 것입니까?</Mugirl.RefugeePodCrash>
+  <Mugirl.RefugeePodCrash_Child>{PAWN_nameDef}(은)는 {AGE}세의 어린아이로, 완전히 혼자입니다.</Mugirl.RefugeePodCrash_Child>
+  <Mugirl.RefugeePodCrash_Factionless>[PAWN_pronoun](은)는 어떤 세력에도 속해 있지 않습니다.\n\n당신은 [PAWN_objective] 구해 자발적으로 정착지에 합류하길 기대할 수도 있고, 혹은 [PAWN_objective] 포획해 모집하거나 노예로 삼을 수도 있습니다.</Mugirl.RefugeePodCrash_Factionless>
+  <Mugirl.RefugeePodCrash_Hostile>{PAWN_nameDef}(은)는 적대 세력인 {PAWN_factionName} 출신입니다.\n\n당신은 [PAWN_objective] 포획해 모집하거나 노예로 삼을 수 있습니다.</Mugirl.RefugeePodCrash_Hostile>
+  <Mugirl.RefugeePodCrash_NonHostile>{PAWN_nameDef}(은)는 {PAWN_factionName} 출신입니다.\n\n당신이 [PAWN_objective] 구해주면, [PAWN_pronoun](이)가 복귀할 때 당신의 세력과 그들의 관계가 개선될 것입니다.\n\n하지만 [PAWN_objective] 포획해 모집하거나 노예로 삼을 수도 있으며, 그렇게 하면 [PAWN_possessive] 세력이 분노할 것입니다.</Mugirl.RefugeePodCrash_NonHostile>
+  <Mugirl.RefugeePodCrash.Log.DownedGenerationFallback>{0}회 시도 후에도 난민 포드 폰을 쓰러진 상태로 만들지 못해, 대체로 멀쩡한 폰을 사용합니다.</Mugirl.RefugeePodCrash.Log.DownedGenerationFallback>
+  <Mugirl.RefugeePodCrash.Log.GenerationFailed>{0}회 시도 후 난민 포드 폰 생성에 실패했습니다. PawnKindDef나 다른 폰 생성 패치를 확인하십시오.</Mugirl.RefugeePodCrash.Log.GenerationFailed>
+  <Mugirl.RefugeePodCrash.Log.MissingQuestContext>난민 포드 추락 임무 루트가 유효한 임무 컨텍스트 없이 실행되었습니다.</Mugirl.RefugeePodCrash.Log.MissingQuestContext>
+  <Mugirl.RefugeePodCrash.Log.MissingMap>난민 포드 추락 임무가 사용할 수 있는 대상 지도를 찾지 못했습니다.</Mugirl.RefugeePodCrash.Log.MissingMap>
+  <Mugirl.WeaponWheel.Tab>무기 휠</Mugirl.WeaponWheel.Tab>
+  <Mugirl.WeaponWheel.TabShort>무기</Mugirl.WeaponWheel.TabShort>
+  <Mugirl.WeaponWheel.HeaderSlots>{0} / {1}</Mugirl.WeaponWheel.HeaderSlots>
+  <Mugirl.WeaponWheel.Locked>잠김</Mugirl.WeaponWheel.Locked>
+  <Mugirl.WeaponWheel.LockedDesc>자주식 자동 장전 연구를 완료하면 이 휠 칸이 해금됩니다.</Mugirl.WeaponWheel.LockedDesc>
+  <Mugirl.WeaponWheel.DevUnlock>잠금 해제</Mugirl.WeaponWheel.DevUnlock>
+  <Mugirl.WeaponWheel.EmptySlotDesc>클릭한 뒤 지도에서 무기를 선택하면 이 휠 칸에 장착됩니다.</Mugirl.WeaponWheel.EmptySlotDesc>
+  <Mugirl.WeaponWheel.DropWeapon>{0} 장착 해제</Mugirl.WeaponWheel.DropWeapon>
+  <Mugirl.WeaponWheel.InvalidWeapon>대상은 장착할 수 있는 주무기가 아닙니다.</Mugirl.WeaponWheel.InvalidWeapon>
+  <Mugirl.WeaponWheel.SlotLocked>이 휠 칸은 잠겨 있습니다.</Mugirl.WeaponWheel.SlotLocked>
+  <Mugirl.WeaponWheel.SlotOccupied>이 휠 칸에는 이미 무기가 들어 있습니다.</Mugirl.WeaponWheel.SlotOccupied>
+  <Mugirl.WeaponWheel.Busy>사격, 교체, 재장전 중에는 무기 휠을 수정할 수 없습니다.</Mugirl.WeaponWheel.Busy>
+  <Mugirl.WeaponWheel.AlreadyStored>이 무기는 이미 휠에 들어 있습니다.</Mugirl.WeaponWheel.AlreadyStored>
+  <Mugirl.WeaponWheel.CannotStore>이 무기는 휠에 넣을 수 없습니다.</Mugirl.WeaponWheel.CannotStore>
+  <Mugirl.WeaponWheel.CannotSwap>이 휠 칸들은 서로 바꿀 수 없습니다.</Mugirl.WeaponWheel.CannotSwap>
+  <Mugirl.WeaponWheel.CannotDrop>지금은 이 무기를 장착 해제할 수 없습니다.</Mugirl.WeaponWheel.CannotDrop>
+  <Mugirl.WeaponWheel.StatusFull>무기 휠: 전력 사격 활성화</Mugirl.WeaponWheel.StatusFull>
+  <Mugirl.WeaponWheel.StatusSwordDance>무기 휠: 연격 검무 활성화</Mugirl.WeaponWheel.StatusSwordDance>
+  <Mugirl.WeaponWheel.StatusSwordDanceDesc>근접 공격마다 33% 확률로 적의 뒤로 돌진해 기절시키고 충격 피해와 근접 공격 피해를 준 뒤, 다음 근접 무기로 교체하며 5초 동안 근접 공격 속도를 200% 높입니다.</Mugirl.WeaponWheel.StatusSwordDanceDesc>
+  <Mugirl.WeaponWheel.BackLayoutDebug.Title>등 무기 배치 디버그</Mugirl.WeaponWheel.BackLayoutDebug.Title>
+  <Mugirl.WeaponWheel.BackLayoutDebug.Weapon0>휠 1번 칸</Mugirl.WeaponWheel.BackLayoutDebug.Weapon0>
+  <Mugirl.WeaponWheel.BackLayoutDebug.Weapon1>휠 2번 칸</Mugirl.WeaponWheel.BackLayoutDebug.Weapon1>
+  <Mugirl.WeaponWheel.BackLayoutDebug.OffsetX>X 오프셋: {0}</Mugirl.WeaponWheel.BackLayoutDebug.OffsetX>
+  <Mugirl.WeaponWheel.BackLayoutDebug.OffsetZ>Z 오프셋: {0}</Mugirl.WeaponWheel.BackLayoutDebug.OffsetZ>
+  <Mugirl.WeaponWheel.BackLayoutDebug.Angle>회전: {0}°</Mugirl.WeaponWheel.BackLayoutDebug.Angle>
+  <Mugirl.WeaponWheel.BackLayoutDebug.Layer>레이어: {0}</Mugirl.WeaponWheel.BackLayoutDebug.Layer>
+  <Mugirl.WeaponWheel.BackLayoutDebug.SouthAutoloadingLayer>남쪽 / 자동 장전 장치 레이어: {0}</Mugirl.WeaponWheel.BackLayoutDebug.SouthAutoloadingLayer>
+  <Mugirl.WeaponWheel.BackLayoutDebug.CopyXml>XML 복사</Mugirl.WeaponWheel.BackLayoutDebug.CopyXml>
+  <Mugirl.WeaponWheel.BackLayoutDebug.CopyCSharp>C# 기본값 복사</Mugirl.WeaponWheel.BackLayoutDebug.CopyCSharp>
+  <Mugirl.WeaponWheel.BackLayoutDebug.WriteFile>설정 파일 쓰기</Mugirl.WeaponWheel.BackLayoutDebug.WriteFile>
+  <Mugirl.WeaponWheel.BackLayoutDebug.Reset>초기화</Mugirl.WeaponWheel.BackLayoutDebug.Reset>
+  <Mugirl.WeaponWheel.BackLayoutDebug.OpenFolder>설정 폴더 열기</Mugirl.WeaponWheel.BackLayoutDebug.OpenFolder>
+  <Mugirl.WeaponWheel.BackLayoutDebug.Hint>바꾼 값은 모든 눈소에게 즉시 적용됩니다. +/- 단위: 오프셋 0.005, 각도 1°, 레이어 0.5. 남쪽을 보는 등 무기는 자동 장전 장치가 있을 때 별도 레이어를 씁니다. 초기화는 메모리만 바꾸며, 다음 실행에 적용하려면 저장하세요. 경로: {0}</Mugirl.WeaponWheel.BackLayoutDebug.Hint>
+  <Mugirl.WeaponWheel.BackLayoutDebug.StatusCopied>클립보드에 복사했습니다.</Mugirl.WeaponWheel.BackLayoutDebug.StatusCopied>
+  <Mugirl.WeaponWheel.BackLayoutDebug.StatusWritten>기록함: {0}</Mugirl.WeaponWheel.BackLayoutDebug.StatusWritten>
+  <Mugirl.WeaponWheel.BackLayoutDebug.StatusReset>내장 기본값으로 되돌렸습니다(메모리만 변경, 설정 파일은 지우지 않음).</Mugirl.WeaponWheel.BackLayoutDebug.StatusReset>
+  <Mugirl.Punisher.LetterLabel>눈소 응징자</Mugirl.Punisher.LetterLabel>
+  <Mugirl.Punisher.LetterText>당신은 죄 없는 눈소들을 잔혹하게 학살했습니다! 눈소의 신이 당신을 응징할 것입니다!</Mugirl.Punisher.LetterText>
+  <Mugirl.Punisher.Departed>눈소 응징자가 응징을 마치고 떠났습니다.</Mugirl.Punisher.Departed>
+  <Mugirl.Throw.InvalidTarget>이 대상은 집어 들 수 없습니다.</Mugirl.Throw.InvalidTarget>
+  <Mugirl.Dunk.InvalidDestination>덩크 착지 지점은 대상에게서 {0}칸 안이어야 합니다.</Mugirl.Dunk.InvalidDestination>
+  <Mugirl.Dunk.PickupReadout>{0}의 머리를 드리블해 메테오 덩크.</Mugirl.Dunk.PickupReadout>
+  <Mugirl.Dunk.InvalidTarget>이 장난에는 인간형 폰을 고르세요.</Mugirl.Dunk.InvalidTarget>
+  <Mugirl.Dunk.NoHead>{0}에게는 농구공으로 쓸 머리가 없습니다.</Mugirl.Dunk.NoHead>
+  <Mugirl.Dunk.DevOnly>개발자 모드에서만 쓸 수 있습니다.</Mugirl.Dunk.DevOnly>
+  <Mugirl.Throw.IndestructibleTarget>{0}(은)는 옮길 수 없습니다.</Mugirl.Throw.IndestructibleTarget>
+  <Mugirl.Throw.ConnectedTarget>{0}(은)는 다른 구조물에 연결되어 있어 들어 올릴 수 없습니다.</Mugirl.Throw.ConnectedTarget>
+  <Mugirl.Throw.AlreadyHolding>이미 무언가를 들고 있습니다.</Mugirl.Throw.AlreadyHolding>
+  <Mugirl.Throw.TooHeavy>너무 무겁습니다: 무게 {0} kg, 운반 능력 {1} kg.</Mugirl.Throw.TooHeavy>
+  <Mugirl.Throw.PickupReadout>무게 {0} kg / 운반 능력 {1} kg</Mugirl.Throw.PickupReadout>
+  <Mugirl.Throw.OutOfRange>투척 사거리를 벗어났습니다 (최대 {0}칸).</Mugirl.Throw.OutOfRange>
+  <Mugirl.Throw.AimReadout>피해 {0} / 폭발 반경 {1} / 최대 사거리 {2}</Mugirl.Throw.AimReadout>
+  <Mugirl.Throw.PlaceFailed>{0}(을)를 안전하게 내려놓지 못했습니다: {1}</Mugirl.Throw.PlaceFailed>
+  <Mugirl.Throw.BusyHolding>{0}(은)는 던질 물체를 들고 있어 사격할 수 없습니다</Mugirl.Throw.BusyHolding>
+  <Mugirl.Settings.ExtraOutline.Label>추가 윤곽선 켜기</Mugirl.Settings.ExtraOutline.Label>
+  <Mugirl.Settings.ExtraOutline.Desc>눈소의 몸, 머리카락, 의복 둘레에 검은 외곽선을 한 겹 더합니다. 무기에는 윤곽선이 생기지 않습니다. 기본으로 꺼져 있습니다. 멀리 있는 폰은 게임의 텍스처 캐싱을 그대로 씁니다.</Mugirl.Settings.ExtraOutline.Desc>
+  <Mugirl.Settings.ExtraOutline.Width>윤곽선 두께: {0}배</Mugirl.Settings.ExtraOutline.Width>
+  <Mugirl.Outline.Unavailable>추가 윤곽선 셰이더를 불러오지 못했습니다. 일반 폰 렌더링은 그대로 유지됩니다. 자세한 내용: {0}</Mugirl.Outline.Unavailable>
+  <Mugirl.FoodPolicy.Grass.Label>풀</Mugirl.FoodPolicy.Grass.Label>
+  <Mugirl.WeaponWheel.BackLayoutDebug.ChoosePawn>미리보기 폰 고르기</Mugirl.WeaponWheel.BackLayoutDebug.ChoosePawn>
+  <Mugirl.WeaponWheel.BackLayoutDebug.NoPawn>미리 볼 눈소가 없습니다. 먼저 맵에 서 있는 눈소를 준비하세요.</Mugirl.WeaponWheel.BackLayoutDebug.NoPawn>
+  <Mugirl.WeaponWheel.BackLayoutDebug.Zoom>미리보기 확대: {0}</Mugirl.WeaponWheel.BackLayoutDebug.Zoom>
+  <Mugirl.WeaponWheel.BackLayoutDebug.PreviewHint>등 무기는 항상 휠 1번과 2번 칸을 씁니다. 손에 들었거나 교체 중인 무기는 뒤 칸으로 채우지 않고 숨깁니다. 자동 장전 장치 홈의 무기는 비교용으로 계속 보입니다.</Mugirl.WeaponWheel.BackLayoutDebug.PreviewHint>
+  <Mugirl.WeaponWheel.BackLayoutDebug.NumericHint>{0}부터 {1}까지 숫자를 입력하면 즉시 적용됩니다. 소수점은 점(.)을 쓰세요. 잘못되었거나 범위를 벗어난 값은 빨간 밑줄이 그어지고 값이 바뀌지 않습니다.</Mugirl.WeaponWheel.BackLayoutDebug.NumericHint>
+  <Mugirl.WeaponWheel.BackLayoutDebug.EmptyWeapon>이 위치에 일반 등 무기가 없습니다. 먼저 무기 휠에 예비 무기를 넣으세요.</Mugirl.WeaponWheel.BackLayoutDebug.EmptyWeapon>
+  <Mugirl.WeaponWheel.BackLayoutDebug.ResetPose>이 방향 초기화</Mugirl.WeaponWheel.BackLayoutDebug.ResetPose>
+  <Mugirl.WeaponWheel.BackLayoutDebug.StatusFailed>작업 실패: {0}</Mugirl.WeaponWheel.BackLayoutDebug.StatusFailed>
+  <Mugirl.WeaponWheel.BackLayoutDebug.FlipHorizontal>좌우 뒤집기</Mugirl.WeaponWheel.BackLayoutDebug.FlipHorizontal>
+  <Mugirl.WeaponWheel.BackLayoutDebug.FlipVertical>상하 뒤집기</Mugirl.WeaponWheel.BackLayoutDebug.FlipVertical>
+  <Mugirl.WeaponWheel.BackLayoutDebug.MirrorHint>회전하기 전에 현재 무기 텍스처를 좌우나 상하로 뒤집습니다. 두 옵션은 함께 쓸 수 있으며, 위치, 크기, 렌더 레이어는 바뀌지 않습니다.</Mugirl.WeaponWheel.BackLayoutDebug.MirrorHint>
+  <Mugirl.SaveUpgrade.CompletedTitle>눈소 저장 파일 업그레이드 완료</Mugirl.SaveUpgrade.CompletedTitle>
+  <Mugirl.SaveUpgrade.SourceWarnings>작업 AI 출처 {0}개를 복구하지 못했습니다. 원래 키와 저장된 작업 진행도는 남겨 두었습니다. 다음에 AI가 할 일을 판단할 때 새 작업을 고를 수 있습니다. 자세한 내용은 로그에 기록되어 있습니다.</Mugirl.SaveUpgrade.SourceWarnings>
+  <Mugirl.SaveUpgrade.CompletedBody>현재 버전의 Mugirl 모드에 맞게 저장 파일을 자동으로 업그레이드했습니다. 원본 저장 파일은 백업해 두었습니다.\n\n백업 파일: {0}\n\n업그레이드 표시는 게임과 함께 저장됩니다. 업그레이드된 저장 파일을 불러오면 이 알림은 다시 나오지 않습니다.</Mugirl.SaveUpgrade.CompletedBody>
+  <Mugirl.SaveUpgrade.Failed>Mugirl 저장 파일 호환 단계 하나를 끝내지 못했습니다.\n단계: {0}\n원인: {1}\n\n원본을 덮어쓰기 전에, 조사를 위해 원본 저장 파일과 이 로그, 기존 .bak 백업을 보관하세요.\n진단 빌드: {2}</Mugirl.SaveUpgrade.Failed>
+  <Mugirl.SaveUpgrade.NewerSave>이 저장 파일은 더 최신 버전의 Mugirl 모드로 만들어졌습니다(저장 스키마 {0}). 이 버전으로 저장하면 새 데이터가 사라지니, 저장하기 전에 모드를 업데이트하세요.</Mugirl.SaveUpgrade.NewerSave>
+  <Mugirl.SaveUpgrade.MooGirlEra>이 저장 파일에는 더 이상 지원하지 않는 MooGirl 시절(0.4.4 이하)의 콘텐츠가 들어 있습니다. 불러오면서 그 콘텐츠는 버렸고, 나머지는 모두 유지했습니다.</Mugirl.SaveUpgrade.MooGirlEra>
+  <Mugirl.SaveUpgrade.NotInstalled>Mugirl 모드가 저장 파일 업그레이드 후크를 설치하지 못했습니다({0}). 이번 세션에서는 예전 버전의 Mugirl 저장 파일을 불러오면 위험합니다. 로그에서 Harmony 충돌을 확인하세요.</Mugirl.SaveUpgrade.NotInstalled>
+  <Mugirl.StoryDebug.AlreadyTriggered>이 이벤트는 이미 시작되었거나 끝났습니다</Mugirl.StoryDebug.AlreadyTriggered>
+  <Mugirl.StoryDebug.Triggered>이벤트를 미리 발생시켰습니다. 퀘스트를 진행하려면 일시 정지를 푸세요</Mugirl.StoryDebug.Triggered>
+  <Mugirl.StoryDebug.RequiresHomeMap>개발자 모드에서 아군 거점 맵을 여세요</Mugirl.StoryDebug.RequiresHomeMap>
+  <Mugirl.StoryDebug.NoFaction>기업 세력이 없거나 이미 패배했습니다</Mugirl.StoryDebug.NoFaction>
+  <Mugirl.StoryDebug.Failed>이벤트를 생성하지 못했습니다. 진입 칸과 게임 로그를 확인하세요</Mugirl.StoryDebug.Failed>
+</LanguageData>
