@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WorkplaceAccidents.Settings.Intro>작업 중 사고: 자주, 작게 일어나며, 심한 경우는 드물고, 절대 죽지 않습니다. 기술, 조명, 휴식, 기분, 건강이 모두 확률을 낮춥니다.</WorkplaceAccidents.Settings.Intro>
+  <WorkplaceAccidents.Settings.Frequency>사고 빈도</WorkplaceAccidents.Settings.Frequency>
+  <WorkplaceAccidents.Settings.FrequencyHint>모든 사고 판정에 곱하는 위험 배율입니다. 100%일 때 정착민은 직접 일하는 시간 열흘에 대략 한 번 사고를 겪으므로, 3명 정착지는 며칠에 한 번, 10명 정착지는 하루에 한 번쯤 사고가 납니다. 슬라이더 최댓값은 일부러 위험하게 만든 작업장이며, 짧은 플레이에서 시스템이 돌아가는 걸 보려면 이 방법밖에 없습니다.</WorkplaceAccidents.Settings.FrequencyHint>
+  <WorkplaceAccidents.Settings.Severity>심각도</WorkplaceAccidents.Settings.Severity>
+  <WorkplaceAccidents.Settings.SeverityHint>사고가 심각해지는 빈도, 피해 크기, 신체 부위를 잃을 확률을 조절합니다. 0이면 가벼운 사고만 일어납니다.</WorkplaceAccidents.Settings.SeverityHint>
+  <WorkplaceAccidents.Settings.LimbLoss>신체 절단</WorkplaceAccidents.Settings.LimbLoss>
+  <WorkplaceAccidents.Settings.LimbLossHint>심각한 사고로 손가락, 손, 팔, 발, 다리를 영영 잃을 확률을 조절합니다. 0이면 절대 절단되지 않으며, 대신 심한 사고는 영구적인 손상을 남깁니다.</WorkplaceAccidents.Settings.LimbLossHint>
+  <WorkplaceAccidents.Settings.Scars>영구 흔적</WorkplaceAccidents.Settings.Scars>
+  <WorkplaceAccidents.Settings.ScarsHint>심각한 사고가 영구적인 흉터를 남길 확률입니다. 일터의 이야깃거리는 여기서 나옵니다.</WorkplaceAccidents.Settings.ScarsHint>
+  <WorkplaceAccidents.Settings.GracePeriod>유예 기간</WorkplaceAccidents.Settings.GracePeriod>
+  <WorkplaceAccidents.Settings.GraceValue>{0}일</WorkplaceAccidents.Settings.GraceValue>
+  <WorkplaceAccidents.Settings.GraceNone>없음</WorkplaceAccidents.Settings.GraceNone>
+  <WorkplaceAccidents.Settings.GracePeriodHint>새 정착지를 얼마나 오래 봐줄지 정합니다. 초반 정착지에는 약도, 쓸 만한 의사도, 남는 일손도 없으므로 초반 사고는 이야깃거리가 아니라 벌입니다. 모드를 추가한 날이 아니라 게임 시작부터 계산하므로, 오래된 저장 파일에서는 아무것도 보호하지 않습니다.</WorkplaceAccidents.Settings.GracePeriodHint>
+  <WorkplaceAccidents.Settings.ApparelDamage>기계가 옷을 손상시킬 수 있음</WorkplaceAccidents.Settings.ApparelDamage>
+  <WorkplaceAccidents.Settings.ApparelDamageHint>동력 기계에 소매가 끼이면 옷의 내구도가 조금 깎입니다. 옷이 한 번에 파괴되지는 않습니다.</WorkplaceAccidents.Settings.ApparelDamageHint>
+  <WorkplaceAccidents.Settings.KitchenFires>화재와 폭발</WorkplaceAccidents.Settings.KitchenFires>
+  <WorkplaceAccidents.Settings.KitchenFiresHint>스토브에서 기름 팬에 불이 붙거나, 약물 제조대에서 배합물이 터질 수 있습니다. 문제는 작업대 바로 위에서 시작되므로 작업자가 늘 곁에서 불을 끌 수 있고, 돌로 된 방은 아예 불이 옮겨붙지 않는 경우가 많습니다. 폭발 자체는 누구에게도 직접 피해를 주지 않으며, 화상은 일반 사고 규칙으로 발생합니다. 기본 빈도에서 정착지마다 열흘에 한 번이며, 빈도 슬라이더를 올릴수록 간격이 줄어듭니다.</WorkplaceAccidents.Settings.KitchenFiresHint>
+  <WorkplaceAccidents.Settings.NearMisses>아차 사고</WorkplaceAccidents.Settings.NearMisses>
+  <WorkplaceAccidents.Settings.NearMissesHint>일부 심각한 사고가 손 한 뼘 차이로 빗나가 메시지만 남깁니다. 피 없이 긴장감만 공짜로.</WorkplaceAccidents.Settings.NearMissesHint>
+  <WorkplaceAccidents.Settings.IncludeChildren>아이들도 사고를 겪음</WorkplaceAccidents.Settings.IncludeChildren>
+  <WorkplaceAccidents.Settings.IncludeChildrenHint>일하는 13세 미만 정착민에게 적용됩니다. 같은 상한과 재사용 대기시간이 아이들도 보호합니다.</WorkplaceAccidents.Settings.IncludeChildrenHint>
+  <WorkplaceAccidents.Settings.MinorMessages>가벼운 사고 메시지</WorkplaceAccidents.Settings.MinorMessages>
+  <WorkplaceAccidents.Settings.MinorMessagesHint>끄면 가벼운 사고는 정착민 머리 위에 짧은 글자만 띄웁니다. 부상은 그대로 일어나고, 알림만 보내지 않습니다.</WorkplaceAccidents.Settings.MinorMessagesHint>
+  <WorkplaceAccidents.Settings.SevereLetters>심각한 사고는 편지로 알림</WorkplaceAccidents.Settings.SevereLetters>
+  <WorkplaceAccidents.Settings.SevereLettersHint>끄면 심각한 사고를 편지 대신 메시지로 알립니다. 부상, 이야기, 기분 영향은 그대로입니다.</WorkplaceAccidents.Settings.SevereLettersHint>
+  <WorkplaceAccidents.Settings.CareTraits>새 인물에게 신중함/덜렁댐 특성 부여</WorkplaceAccidents.Settings.CareTraits>
+  <WorkplaceAccidents.Settings.CareTraitsHint>새로 생성되는 인물의 특성 목록에 양면 특성 하나를 추가합니다. 신중한 정착민은 사고가 훨씬 적고 조금 느리게 일하며, 덜렁대는 정착민은 그 반대입니다. 끄면 특성 목록이 바닐라 그대로 유지되며, 이미 특성을 가진 정착민은 그대로 유지합니다.</WorkplaceAccidents.Settings.CareTraitsHint>
+  <WorkplaceAccidents.Settings.OfficerEffect>안전 관리자 효과</WorkplaceAccidents.Settings.OfficerEffect>
+  <WorkplaceAccidents.Settings.OfficerEffectHint>사교 10인 안전 관리자가 깨어 있고, 맵에 있고, 일할 수 있을 때 다른 모든 사람의 사고가 얼마나 줄어드는지 정합니다. 말솜씨가 좋을수록 효과가 커지며 최대 1.5배까지 오릅니다. 사교 5 미만이거나, 취했거나, 피곤하거나, 어둡거나, 덜렁대는 관리자는 오히려 상황을 악화시킵니다. 0이면 게시판은 그냥 숫자 세는 판이 됩니다.</WorkplaceAccidents.Settings.OfficerEffectHint>
+  <WorkplaceAccidents.Settings.OfficerDisliked>모두가 안전 관리자를 싫어함</WorkplaceAccidents.Settings.OfficerDisliked>
+  <WorkplaceAccidents.Settings.OfficerDislikedHint>안전 관리자를 맡고 있는 동안 모든 정착민의 호감도가 5 낮아집니다. 끄면 이 자리는 좀 더 조용한 방식으로 보람 없는 자리가 됩니다.</WorkplaceAccidents.Settings.OfficerDislikedHint>
+  <WorkplaceAccidents.Settings.OfficerRounds>안전 관리자 순찰</WorkplaceAccidents.Settings.OfficerRounds>
+  <WorkplaceAccidents.Settings.OfficerRoundsHint>몇 시간마다 안전 관리자가 일하는 누군가에게 다가가 잠시 지켜보고 한마디 합니다. 그 정착민은 하루 동안 사고가 절반으로 줄어듭니다. 사교 기록에 남으며, 기분 영향은 없습니다.</WorkplaceAccidents.Settings.OfficerRoundsHint>
+  <WorkplaceAccidents.Settings.OfficerAtBoard>안전 관리자가 게시판을 지킴</WorkplaceAccidents.Settings.OfficerAtBoard>
+  <WorkplaceAccidents.Settings.OfficerAtBoardHint>전임직입니다. 안전 관리자는 게시판 곁에 서 있다가 순찰, 식사, 수면, 오락, 일정, 직접 내린 명령일 때만 자리를 비웁니다. 자리를 지키는 동안 순찰이 두 배로 잦아집니다. 작업대에 일손 하나가 줄어드는 것이 이 자리의 대가입니다. 끄면 순찰 사이사이에 평소 일을 합니다.</WorkplaceAccidents.Settings.OfficerAtBoardHint>
+  <WorkplaceAccidents.Settings.Reset>기본값으로 초기화</WorkplaceAccidents.Settings.Reset>
+  <WorkplaceAccidents.Settings.Advanced>작업 분류</WorkplaceAccidents.Settings.Advanced>
+  <WorkplaceAccidents.Settings.AdvancedIntro>분류를 끄면 그 분류에서는 사고가 전혀 일어나지 않습니다. 그 아래에서 사고를 하나하나 따로 끌 수도 있습니다.</WorkplaceAccidents.Settings.AdvancedIntro>
+  <WorkplaceAccidents.Settings.CategoryList>작업 종류</WorkplaceAccidents.Settings.CategoryList>
+  <WorkplaceAccidents.Settings.MishapList>개별 사고</WorkplaceAccidents.Settings.MishapList>
+  <WorkplaceAccidents.Settings.SevereTag>심각</WorkplaceAccidents.Settings.SevereTag>
+  <WorkplaceAccidents.Ctx.Cooking>조리</WorkplaceAccidents.Ctx.Cooking>
+  <WorkplaceAccidents.Ctx.Butchery>도축</WorkplaceAccidents.Ctx.Butchery>
+  <WorkplaceAccidents.Ctx.Smithing>대장 작업</WorkplaceAccidents.Ctx.Smithing>
+  <WorkplaceAccidents.Ctx.Machining>동력 기계</WorkplaceAccidents.Ctx.Machining>
+  <WorkplaceAccidents.Ctx.Crafting>제작</WorkplaceAccidents.Ctx.Crafting>
+  <WorkplaceAccidents.Ctx.Construction>건설</WorkplaceAccidents.Ctx.Construction>
+  <WorkplaceAccidents.Ctx.Mining>채굴</WorkplaceAccidents.Ctx.Mining>
+  <WorkplaceAccidents.Ctx.Felling>벌목</WorkplaceAccidents.Ctx.Felling>
+  <WorkplaceAccidents.Ctx.Farming>밭일</WorkplaceAccidents.Ctx.Farming>
+  <WorkplaceAccidents.Ctx.Animals>동물 다루기</WorkplaceAccidents.Ctx.Animals>
+  <WorkplaceAccidents.Ctx.Demolition>철거</WorkplaceAccidents.Ctx.Demolition>
+  <WorkplaceAccidents.Ctx.Electrical>활선 전기 작업</WorkplaceAccidents.Ctx.Electrical>
+  <WorkplaceAccidents.Ctx.Research>연구</WorkplaceAccidents.Ctx.Research>
+  <WorkplaceAccidents.Ctx.Chemistry>약물 합성</WorkplaceAccidents.Ctx.Chemistry>
+  <WorkplaceAccidents.Ctx.Munitions>탄약 작업</WorkplaceAccidents.Ctx.Munitions>
+  <WorkplaceAccidents.Ctx.Fishing>낚시</WorkplaceAccidents.Ctx.Fishing>
+  <WorkplaceAccidents.MishapMote>아야!</WorkplaceAccidents.MishapMote>
+  <WorkplaceAccidents.NearMiss>{PAWN_labelShort}(이)가 손 한 뼘 차이로 큰 사고를 면했습니다.</WorkplaceAccidents.NearMiss>
+  <WorkplaceAccidents.Since.First>이 정착지에서 처음 일어난 작업 중 사고입니다.</WorkplaceAccidents.Since.First>
+  <WorkplaceAccidents.Since.SameDay>지난 사고 이후 하루도 지나지 않았습니다.</WorkplaceAccidents.Since.SameDay>
+  <WorkplaceAccidents.Since.OneDay>지난 사고 이후 하루가 지났습니다.</WorkplaceAccidents.Since.OneDay>
+  <WorkplaceAccidents.Since.Days>지난 사고 이후 {0}일이 지났습니다.</WorkplaceAccidents.Since.Days>
+  <WorkplaceAccidents.Board.Appoint>안전 관리자 임명</WorkplaceAccidents.Board.Appoint>
+  <WorkplaceAccidents.Board.AppointDesc>게시판의 숫자를 지키는 책임을 맡을 정착민을 고릅니다. 이 맵에서 깨어 돌아다니는 동안 다른 모든 사람의 사고가 줄어듭니다. 관리자 본인은 예외이고, 관리자를 좋아하는 사람은 별로 없습니다.</WorkplaceAccidents.Board.AppointDesc>
+  <WorkplaceAccidents.Board.Dismiss>{0} 해임</WorkplaceAccidents.Board.Dismiss>
+  <WorkplaceAccidents.Board.DismissDesc>안전 관리자를 자리에서 물러나게 합니다. 게시판의 숫자는 그대로 남습니다.</WorkplaceAccidents.Board.DismissDesc>
+  <WorkplaceAccidents.Board.Nobody>가능한 사람 없음</WorkplaceAccidents.Board.Nobody>
+  <WorkplaceAccidents.Board.Days>무사고 일수: {0}</WorkplaceAccidents.Board.Days>
+  <WorkplaceAccidents.Board.NoAccident>사고 기록 없음.</WorkplaceAccidents.Board.NoAccident>
+  <WorkplaceAccidents.Board.Officer>안전 관리자: {0} ({1})</WorkplaceAccidents.Board.Officer>
+  <WorkplaceAccidents.Board.OnDuty>근무 중</WorkplaceAccidents.Board.OnDuty>
+  <WorkplaceAccidents.Board.OffDuty>근무 외</WorkplaceAccidents.Board.OffDuty>
+  <WorkplaceAccidents.Board.NoOfficer>안전 관리자 없음. 아무도 이 일을 원하지 않습니다.</WorkplaceAccidents.Board.NoOfficer>
+  <WorkplaceAccidents.Board.Quality>안전 관리자로서: {0}. 다른 모든 사람의 사고 ×{1}.</WorkplaceAccidents.Board.Quality>
+  <WorkplaceAccidents.Board.Candidate>{0} (사교 {1}{2})</WorkplaceAccidents.Board.Candidate>
+  <WorkplaceAccidents.Quality.Excellent>탁월함</WorkplaceAccidents.Quality.Excellent>
+  <WorkplaceAccidents.Quality.Competent>유능함</WorkplaceAccidents.Quality.Competent>
+  <WorkplaceAccidents.Quality.Adequate>무난함</WorkplaceAccidents.Quality.Adequate>
+  <WorkplaceAccidents.Quality.Liability>짐덩이</WorkplaceAccidents.Quality.Liability>
+  <WorkplaceAccidents.Quality.Hazard>위험 요소</WorkplaceAccidents.Quality.Hazard>
+  <WorkplaceAccidents.Officer.Appointed>{PAWN_labelShort}(이)가 이제 안전 관리자입니다. 축하는 짧았습니다.</WorkplaceAccidents.Officer.Appointed>
+  <WorkplaceAccidents.Officer.Dismissed>{PAWN_labelShort}(은)는 더 이상 안전 관리자가 아닙니다. 모두가 한시름 놓았습니다.</WorkplaceAccidents.Officer.Dismissed>
+</LanguageData>
