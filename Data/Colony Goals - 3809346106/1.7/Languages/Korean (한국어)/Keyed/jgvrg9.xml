@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ColonyGoals.SettingsCategory>정착지 목표</ColonyGoals.SettingsCategory>
+  <ColonyGoals.Settings.DefaultHeading>새 게임 기본값</ColonyGoals.Settings.DefaultHeading>
+  <ColonyGoals.Settings.DefaultExplanation>불러온 게임이 없습니다. 여기서 고른 값이 앞으로의 정착지 목표 회차의 시작 설정이 됩니다.</ColonyGoals.Settings.DefaultExplanation>
+  <ColonyGoals.Settings.ActiveHeading>이 게임의 설정</ColonyGoals.Settings.ActiveHeading>
+  <ColonyGoals.Settings.ActiveExplanation>게임을 불러온 상태입니다. 여기서 바꾼 내용은 이 저장 파일에만 적용되며, 새 게임 기본값은 바뀌지 않습니다.</ColonyGoals.Settings.ActiveExplanation>
+  <ColonyGoals.Settings.NoActiveRun>이 게임에는 진행 중인 정착지 목표 회차가 없습니다.</ColonyGoals.Settings.NoActiveRun>
+  <ColonyGoals.Settings.RunBonusHeading>회차 보너스</ColonyGoals.Settings.RunBonusHeading>
+  <ColonyGoals.Settings.BonusChanged>이 게임의 회차 보너스가 {0}(으)로 바뀌었습니다.</ColonyGoals.Settings.BonusChanged>
+  <ColonyGoals.Settings.ConfirmModeChange>이 게임을 {0} 모드에서 {1} 모드로 바꾸겠습니까?\n\n현재 카드, 목표치, 진행 상황은 유지됩니다. 진행 중인 실패 및 위반 카운트다운은 새 모드 기준으로 다시 시작됩니다. 되돌릴 수 없는 규칙 위반은 기록에 남습니다.\n\n보너스 모드는 정착지 목표의 불이익을 없앱니다. 체크리스트 모드와 도전 모드는 카드 제한을 곧바로 다시 켤 수 있습니다.</ColonyGoals.Settings.ConfirmModeChange>
+  <ColonyGoals.Settings.ModeChanged>이 게임은 이제 {0} 모드를 사용합니다.</ColonyGoals.Settings.ModeChanged>
+  <ColonyGoals.Settings.ModeIncompatible>{0}(은)는 {1} 모드에서 쓸 수 없어 모드를 바꾸지 않았습니다.</ColonyGoals.Settings.ModeIncompatible>
+  <ColonyGoals.Settings.ModeUnavailable>선택한 모드는 이 게임에서 쓸 수 없습니다.</ColonyGoals.Settings.ModeUnavailable>
+  <ColonyGoals.ModLoaded>정착지 목표가 활성화되었습니다.</ColonyGoals.ModLoaded>
+  <ColonyGoals.UI.Header>진행 중인 목표</ColonyGoals.UI.Header>
+  <ColonyGoals.UI.HeaderVersion>진행 중인 목표 (베타 {0})</ColonyGoals.UI.HeaderVersion>
+  <ColonyGoals.UI.Mode>모드: {0}</ColonyGoals.UI.Mode>
+  <ColonyGoals.UI.Mode.Checklist>체크리스트</ColonyGoals.UI.Mode.Checklist>
+  <ColonyGoals.UI.Mode.Challenge>도전</ColonyGoals.UI.Mode.Challenge>
+  <ColonyGoals.UI.Mode.Bonus>보너스</ColonyGoals.UI.Mode.Bonus>
+  <ColonyGoals.UI.Mode.Victory>승리</ColonyGoals.UI.Mode.Victory>
+  <ColonyGoals.UI.NoManager>정착지 목표 관리자를 쓸 수 없습니다.</ColonyGoals.UI.NoManager>
+  <ColonyGoals.UI.NoGoals>진행 중인 목표가 없습니다.</ColonyGoals.UI.NoGoals>
+  <ColonyGoals.UI.CardsHeading>도전 카드</ColonyGoals.UI.CardsHeading>
+  <ColonyGoals.UI.ShowOverlay>카드 오버레이 표시</ColonyGoals.UI.ShowOverlay>
+  <ColonyGoals.Overlay.Title>정착지 목표</ColonyGoals.Overlay.Title>
+  <ColonyGoals.Overlay.DragHint>끌어서 이동</ColonyGoals.Overlay.DragHint>
+  <ColonyGoals.UI.DetailTitle>카드 상세</ColonyGoals.UI.DetailTitle>
+  <ColonyGoals.UI.SelectGoal>도전 카드를 선택하면 요구 조건과 현재 진행 상황이 표시됩니다.</ColonyGoals.UI.SelectGoal>
+  <ColonyGoals.UI.Requirements>요구 조건</ColonyGoals.UI.Requirements>
+  <ColonyGoals.UI.Rewards>보상</ColonyGoals.UI.Rewards>
+  <ColonyGoals.UI.CurrentProgress>현재 진행 상황</ColonyGoals.UI.CurrentProgress>
+  <ColonyGoals.UI.ProgressFraction>{0} / {1}</ColonyGoals.UI.ProgressFraction>
+  <ColonyGoals.UI.NoProgressData>아직 추적된 진행 상황이 없습니다.</ColonyGoals.UI.NoProgressData>
+  <ColonyGoals.UI.FailureReason>실패: {0}</ColonyGoals.UI.FailureReason>
+  <ColonyGoals.UI.StatusComplete>완료</ColonyGoals.UI.StatusComplete>
+  <ColonyGoals.UI.StatusMet>충족</ColonyGoals.UI.StatusMet>
+  <ColonyGoals.UI.StatusActive>진행 중</ColonyGoals.UI.StatusActive>
+  <ColonyGoals.UI.StatusFailed>실패</ColonyGoals.UI.StatusFailed>
+  <ColonyGoals.UI.StatusHidden>숨겨짐</ColonyGoals.UI.StatusHidden>
+  <ColonyGoals.UI.StatusBreach>위반 경고</ColonyGoals.UI.StatusBreach>
+  <ColonyGoals.UI.Hidden>숨겨짐</ColonyGoals.UI.Hidden>
+  <ColonyGoals.UI.CardType.Restriction>지속 제한</ColonyGoals.UI.CardType.Restriction>
+  <ColonyGoals.UI.CardType.Maintained>유지 조건</ColonyGoals.UI.CardType.Maintained>
+  <ColonyGoals.UI.CardType.Progress>진행 목표</ColonyGoals.UI.CardType.Progress>
+  <ColonyGoals.UI.CardType.OneTime>일회성 목표</ColonyGoals.UI.CardType.OneTime>
+  <ColonyGoals.Bonus.Source.Main>주 회차 보너스</ColonyGoals.Bonus.Source.Main>
+  <ColonyGoals.Bonus.Source.MainScaled>주 회차 보너스 ({0})</ColonyGoals.Bonus.Source.MainScaled>
+  <ColonyGoals.Bonus.Status.Active>활성</ColonyGoals.Bonus.Status.Active>
+  <ColonyGoals.Bonus.Status.Inactive>비활성</ColonyGoals.Bonus.Status.Inactive>
+  <ColonyGoals.Bonus.Status.Scaled>{0}, 목표 {2}개 중 {1}개 충족</ColonyGoals.Bonus.Status.Scaled>
+  <ColonyGoals.Bonus.Status.NoneMet>비활성, 목표 {1}개 중 {0}개 충족</ColonyGoals.Bonus.Status.NoneMet>
+  <ColonyGoals.Bonus.MainStatus>주 보너스: {0} ({1})</ColonyGoals.Bonus.MainStatus>
+  <ColonyGoals.Bonus.CardStatus>카드 보너스: {0} ({1})</ColonyGoals.Bonus.CardStatus>
+  <ColonyGoals.PersonalGrowth.Status.Waiting>모든 카드 충족 대기 중, 목표 {1}개 중 {0}개 충족</ColonyGoals.PersonalGrowth.Status.Waiting>
+  <ColonyGoals.PersonalGrowth.Status.Progress>모든 카드 충족 {0} / {1}일</ColonyGoals.PersonalGrowth.Status.Progress>
+  <ColonyGoals.PersonalGrowth.Status.Pending>보상 준비됨</ColonyGoals.PersonalGrowth.Status.Pending>
+  <ColonyGoals.PersonalGrowth.ChooseButton>성장 보상 고르기</ColonyGoals.PersonalGrowth.ChooseButton>
+  <ColonyGoals.PersonalGrowth.ReadyLetterTitle>개인 성장 보상 준비됨</ColonyGoals.PersonalGrowth.ReadyLetterTitle>
+  <ColonyGoals.PersonalGrowth.ReadyLetterBody>정착지가 한 분기 동안 모든 도전 카드를 계속 충족했습니다. 정착지 목표 탭을 열어 새 특성이나 열정을 받을 성인 정착민을 고르세요. 나중에 카드 조건을 못 지키게 되더라도 이미 얻은 보상은 계속 받을 수 있습니다.</ColonyGoals.PersonalGrowth.ReadyLetterBody>
+  <ColonyGoals.PersonalGrowth.NoEligibleColonists>지금은 조건에 맞는 성인 자유 정착민이 없습니다. 보상은 대기 상태로 남습니다.</ColonyGoals.PersonalGrowth.NoEligibleColonists>
+  <ColonyGoals.PersonalGrowth.NoChoices>{0}에게 고를 수 있는 개인 성장 보상이 없습니다. 다른 정착민을 고르세요.</ColonyGoals.PersonalGrowth.NoChoices>
+  <ColonyGoals.PersonalGrowth.RecipientUnavailable>선택한 정착민이 더 이상 조건에 맞지 않습니다. 보상 창을 다시 열어 다른 정착민을 고르세요.</ColonyGoals.PersonalGrowth.RecipientUnavailable>
+  <ColonyGoals.PersonalGrowth.ChooseFor>{0}의 개인 성장 보상을 고르세요.</ColonyGoals.PersonalGrowth.ChooseFor>
+  <ColonyGoals.PersonalGrowth.ChooseOne>영구 보상 하나를 고르세요. 이 창을 닫아도 같은 선택지를 나중에 다시 고를 수 있습니다.</ColonyGoals.PersonalGrowth.ChooseOne>
+  <ColonyGoals.PersonalGrowth.PassionHeading>기술 하나의 열정 높이기:</ColonyGoals.PersonalGrowth.PassionHeading>
+  <ColonyGoals.PersonalGrowth.TraitHeading>특성 하나 얻기:</ColonyGoals.PersonalGrowth.TraitHeading>
+  <ColonyGoals.PersonalGrowth.PassionTooltip>{0}의 열정을 {1}에서 {2}(으)로 높입니다.</ColonyGoals.PersonalGrowth.PassionTooltip>
+  <ColonyGoals.PersonalGrowth.NoLongerEligible>이 선택지는 더 이상 고를 수 없습니다.</ColonyGoals.PersonalGrowth.NoLongerEligible>
+  <ColonyGoals.PersonalGrowth.AcceptSummary>{0}에게 이 영구 보상을 줍니다.</ColonyGoals.PersonalGrowth.AcceptSummary>
+  <ColonyGoals.PersonalGrowth.SelectReward>특성이나 열정을 고르세요.</ColonyGoals.PersonalGrowth.SelectReward>
+  <ColonyGoals.PersonalGrowth.NoLongerAvailable>그 보상은 더 이상 받을 수 없습니다. 다른 선택지를 고르거나 나중에 다시 오세요.</ColonyGoals.PersonalGrowth.NoLongerAvailable>
+  <ColonyGoals.PersonalGrowth.AllChoicesUnavailable>이 정착민에게 저장된 선택지가 모두 조건에 맞지 않습니다. 보상 창을 다시 열어 다른 정착민을 고르세요.</ColonyGoals.PersonalGrowth.AllChoicesUnavailable>
+  <ColonyGoals.PersonalGrowth.Granted>{0}(이)가 개인 성장 보상을 받았습니다: {1}.</ColonyGoals.PersonalGrowth.Granted>
+  <ColonyGoals.PersonalGrowth.DevComplete>개발: 개인 성장 연속 기록 완료</ColonyGoals.PersonalGrowth.DevComplete>
+  <ColonyGoals.PersonalGrowth.DevRequiresAll>개인 성장 연속 기록을 완료하려면 지금 모든 카드가 조건을 충족해야 합니다.</ColonyGoals.PersonalGrowth.DevRequiresAll>
+  <ColonyGoals.Progress.KillCount>처치: {0} / {1}</ColonyGoals.Progress.KillCount>
+  <ColonyGoals.Progress.BowKillsThisQuadrum>이번 분기 활 처치: {0} / {1}</ColonyGoals.Progress.BowKillsThisQuadrum>
+  <ColonyGoals.Preview.BowKillsPerQuadrum>분기마다 활로 적을 최소 {0}명 처치하세요.</ColonyGoals.Preview.BowKillsPerQuadrum>
+  <ColonyGoals.Progress.HaveTamedAnimal>길들인 동물: {0} / {1}</ColonyGoals.Progress.HaveTamedAnimal>
+  <ColonyGoals.Progress.ColonistCount>정착민: {0} / {1}</ColonyGoals.Progress.ColonistCount>
+  <ColonyGoals.Progress.DurationComplete>완료 (하루 기다림)</ColonyGoals.Progress.DurationComplete>
+  <ColonyGoals.Progress.DurationRemaining>약 {0}일 뒤 완료</ColonyGoals.Progress.DurationRemaining>
+  <ColonyGoals.Progress.MaxColonists>정착민: {0} (최대 {1})</ColonyGoals.Progress.MaxColonists>
+  <ColonyGoals.Progress.SoloRun>정착민: {0} (단독 기간이 끝날 때까지 최대 {1}), 약 {2}일 남음</ColonyGoals.Progress.SoloRun>
+  <ColonyGoals.Progress.SoloWaiting>단독 기간 추적이 아직 시작되지 않았습니다.</ColonyGoals.Progress.SoloWaiting>
+  <ColonyGoals.Progress.SlaveRatio>노예: {0} (정착민 {1}명 기준 최소 {2}명 필요)</ColonyGoals.Progress.SlaveRatio>
+  <ColonyGoals.Progress.SlaveRatioWaiting>정착민이 {0}명 이상이 되면 적용됩니다.</ColonyGoals.Progress.SlaveRatioWaiting>
+  <ColonyGoals.Preview.SlaveRatioLow>정착민이 {0}명 이상이 되면 정착민 한 명당 노예를 최소 한 명 유지하세요(1:1).</ColonyGoals.Preview.SlaveRatioLow>
+  <ColonyGoals.Preview.SlaveRatioMedium>정착민이 {0}명 이상이 되면 노예가 정착민보다 최소 한 명 많아야 합니다.</ColonyGoals.Preview.SlaveRatioMedium>
+  <ColonyGoals.Preview.SlaveRatioHigh>정착민이 {0}명 이상이 되면 정착민 한 명당 노예를 최소 두 명 유지하세요(2:1).</ColonyGoals.Preview.SlaveRatioHigh>
+  <ColonyGoals.Preview.SlaveRatioBrutal>정착민이 {0}명 이상이 되면 정착민 한 명당 노예를 최소 세 명 유지하세요(3:1).</ColonyGoals.Preview.SlaveRatioBrutal>
+  <ColonyGoals.Preview.AlwaysOnRoad>정착민이 {0}명이 되면, 경로가 정해져 있고 일시 정지되지 않은 상단에 정착민이 최소 한 명 있어야 합니다. 상단 없이 최대 {1}까지 버틸 수 있습니다.</ColonyGoals.Preview.AlwaysOnRoad>
+  <ColonyGoals.Progress.AlwaysOnRoadWaiting>인구: {0} / {1}, 길 위 규칙은 아직 적용되지 않습니다.</ColonyGoals.Progress.AlwaysOnRoadWaiting>
+  <ColonyGoals.Progress.AlwaysOnRoadMoving>정착민 상단이 이동 중입니다.</ColonyGoals.Progress.AlwaysOnRoadMoving>
+  <ColonyGoals.Progress.AlwaysOnRoadCountdown>이동 중인 정착민 상단이 없습니다. 남은 시간: {0}.</ColonyGoals.Progress.AlwaysOnRoadCountdown>
+  <ColonyGoals.Failure.AlwaysOnRoad>정착민 상단이 허용 시간 {0}보다 오래 이동하지 않았습니다.</ColonyGoals.Failure.AlwaysOnRoad>
+  <ColonyGoals.Scope.Colonists>정착민 침대</ColonyGoals.Scope.Colonists>
+  <ColonyGoals.Scope.ColonistsSlaves>정착민과 노예 침대</ColonyGoals.Scope.ColonistsSlaves>
+  <ColonyGoals.Scope.ColonistsSlavesPrisoners>정착민, 노예, 죄수 침대</ColonyGoals.Scope.ColonistsSlavesPrisoners>
+  <ColonyGoals.Preview.UnderStars>{0}에는 지붕이 없어야 하며, {1}%가 지켜야 합니다.</ColonyGoals.Preview.UnderStars>
+  <ColonyGoals.Progress.UnderStars>야외 침대: {0} / {1} ({2}%, 필요 {3}%).</ColonyGoals.Progress.UnderStars>
+  <ColonyGoals.Failure.UnderStars>대상 침대 중 {0}%만 야외에 있습니다. 이 도전은 {1}%가 필요합니다.</ColonyGoals.Failure.UnderStars>
+  <ColonyGoals.Preview.VillageLow>정착민 침실의 최소 {0}%는 다른 정착민 침실과 벽을 공유하면 안 됩니다.</ColonyGoals.Preview.VillageLow>
+  <ColonyGoals.Preview.VillageMedium>정착민 침실끼리 벽을 공유하면 안 됩니다.</ColonyGoals.Preview.VillageMedium>
+  <ColonyGoals.Preview.VillageHigh>정착민, 노예, 죄수의 침실이 모두 서로 떨어져 있어야 합니다.</ColonyGoals.Preview.VillageHigh>
+  <ColonyGoals.Preview.VillageBrutal>정착지의 둘러싸인 방은 모두 다른 방과 벽을 공유하지 않고 따로 떨어져 있어야 합니다.</ColonyGoals.Preview.VillageBrutal>
+  <ColonyGoals.Progress.Village>떨어진 방: {0} / {1} ({2}%, 필요 {3}%).</ColonyGoals.Progress.Village>
+  <ColonyGoals.Failure.Village>대상 방 중 {0}%만 떨어져 있습니다. 이 도전은 {1}%가 필요합니다.</ColonyGoals.Failure.Village>
+  <ColonyGoals.Preview.AnimalMajorityLow>길들인 동물이 자유 정착민보다 많아야 합니다.</ColonyGoals.Preview.AnimalMajorityLow>
+  <ColonyGoals.Preview.AnimalMajorityRatio>자유 정착민 한 명당 길들인 동물을 최소 {0}마리 유지하세요.</ColonyGoals.Preview.AnimalMajorityRatio>
+  <ColonyGoals.Progress.AnimalMajority>길들인 동물: {0} / {1} (자유 정착민 {2}명 기준)</ColonyGoals.Progress.AnimalMajority>
+  <ColonyGoals.Preview.TinderboxLow>나무로 지을 수 있는 건설한 벽은 모두 나무여야 합니다.</ColonyGoals.Preview.TinderboxLow>
+  <ColonyGoals.Preview.TinderboxMedium>모든 벽, 울타리, 울타리 문, 건설한 바닥은 나무여야 합니다.</ColonyGoals.Preview.TinderboxMedium>
+  <ColonyGoals.Preview.TinderboxHigh>나무로 지을 수 있는 모든 건물과 건설한 바닥 전부가 나무여야 합니다.</ColonyGoals.Preview.TinderboxHigh>
+  <ColonyGoals.Progress.Tinderbox>나무로 된 대상 구조물과 바닥: {0} / {1} ({2}%, 필요 {3}%).</ColonyGoals.Progress.Tinderbox>
+  <ColonyGoals.Failure.Tinderbox>대상 구조물과 바닥 중 {0}%만 나무입니다. 이 도전은 {1}%가 필요합니다.</ColonyGoals.Failure.Tinderbox>
+  <ColonyGoals.Preview.NoWallsAllowance>건설한 벽을 {0}칸 이하로 유지하세요. 자연 암석, 문, 울타리는 허용됩니다.</ColonyGoals.Preview.NoWallsAllowance>
+  <ColonyGoals.Preview.NoWallsNone>건설한 벽을 한 칸도 두지 마세요. 자연 암석, 문, 울타리는 허용됩니다.</ColonyGoals.Preview.NoWallsNone>
+  <ColonyGoals.Progress.NoWalls>건설한 벽 칸: {0} / 허용 {1}.</ColonyGoals.Progress.NoWalls>
+  <ColonyGoals.Failure.NoWalls>건설한 벽이 {0}칸 남아 있습니다. 한도는 {1}칸입니다.</ColonyGoals.Failure.NoWalls>
+  <ColonyGoals.Progress.NudePercent>나체 정착민: {0}% (필요 {1}%)</ColonyGoals.Progress.NudePercent>
+  <ColonyGoals.Progress.NudePercentWaiting>정착민이 두 명 이상이 되면 적용됩니다.</ColonyGoals.Progress.NudePercentWaiting>
+  <ColonyGoals.Failure.NudePercent>정착민 중 {0}%만 나체입니다. 이 도전은 {1}%가 필요합니다.</ColonyGoals.Failure.NudePercent>
+  <ColonyGoals.Preview.UniformXenotypeLow>정착민의 최소 75%가 같은 인종형이어야 합니다(인종형 무관).</ColonyGoals.Preview.UniformXenotypeLow>
+  <ColonyGoals.Preview.UniformXenotypeMedium>정착민 전원이 같은 인종형이어야 합니다(인종형 무관).</ColonyGoals.Preview.UniformXenotypeMedium>
+  <ColonyGoals.Preview.UniformXenotypeHigh>정착민과 노예 전원이 같은 인종형이어야 합니다.</ColonyGoals.Preview.UniformXenotypeHigh>
+  <ColonyGoals.Preview.UniformXenotypeBrutal>정착민, 노예, 죄수 전원이 같은 인종형이어야 합니다.</ColonyGoals.Preview.UniformXenotypeBrutal>
+  <ColonyGoals.Preview.DesignatedXenotype>집계되는 폰은 모두 이 인종형이어야 합니다: {0}</ColonyGoals.Preview.DesignatedXenotype>
+  <ColonyGoals.Preview.DesignatedXenotypePending>카드를 나눌 때 인종형이 정해집니다.</ColonyGoals.Preview.DesignatedXenotypePending>
+  <ColonyGoals.Progress.XenotypeWaiting>지도에 정착민이 나타나기를 기다리는 중입니다.</ColonyGoals.Progress.XenotypeWaiting>
+  <ColonyGoals.Preview.BloodlineLow>정착민은 창립 혈통 안에 있어야 합니다. 가족의 연인과 혈통의 복제인간은 합류할 수 있습니다. 노예는 확인하지 않습니다.</ColonyGoals.Preview.BloodlineLow>
+  <ColonyGoals.Preview.BloodlineMedium>정착민은 창립 가문의 혈족, 배우자, 복제인간이어야 합니다. 노예는 확인하지 않습니다.</ColonyGoals.Preview.BloodlineMedium>
+  <ColonyGoals.Preview.BloodlineHigh>정착민과 노예는 창립 가문의 혈족, 배우자, 복제인간이어야 합니다.</ColonyGoals.Preview.BloodlineHigh>
+  <ColonyGoals.Progress.BloodlineWaiting>지도에 정착민이 나타나기를 기다리는 중입니다.</ColonyGoals.Progress.BloodlineWaiting>
+  <ColonyGoals.Progress.Bloodline>혈통 내 {0} / {1}</ColonyGoals.Progress.Bloodline>
+  <ColonyGoals.Progress.BloodlineOutsiders>혈통 내 {0} / {1}, 외부인: {2}</ColonyGoals.Progress.BloodlineOutsiders>
+  <ColonyGoals.Failure.Bloodline>외부인이 정착지에 합류했습니다(혈통 내 {0} / {1}: {2}).</ColonyGoals.Failure.Bloodline>
+  <ColonyGoals.Progress.UniformXenotype>인종형 통일도: {0}% (필요 {1}%), 주 인종형: {2}</ColonyGoals.Progress.UniformXenotype>
+  <ColonyGoals.Progress.DesignatedXenotype>{2} 일치: {0} / {1} (필요 {3}%)</ColonyGoals.Progress.DesignatedXenotype>
+  <ColonyGoals.Failure.UniformXenotype>인종형 통일도가 {0}%로 떨어졌습니다(필요 {1}%).</ColonyGoals.Failure.UniformXenotype>
+  <ColonyGoals.Failure.DesignatedXenotype>{0} 인종형이 부족합니다({1}%, 필요 {2}%).</ColonyGoals.Failure.DesignatedXenotype>
+  <ColonyGoals.Preview.NoPermanentHomeLow>어느 정착지든 2년이 넘기 전에 버리거나 옮기세요. 정착지를 여러 개 둘 수 있습니다.</ColonyGoals.Preview.NoPermanentHomeLow>
+  <ColonyGoals.Preview.NoPermanentHomeMedium>어느 정착지든 1년이 넘기 전에 버리거나 옮기세요. 정착지를 여러 개 둘 수 있습니다.</ColonyGoals.Preview.NoPermanentHomeMedium>
+  <ColonyGoals.Preview.NoPermanentHomeHigh>어느 정착지든 20일이 넘기 전에 버리거나 옮기세요. 정착지를 여러 개 둘 수 있습니다.</ColonyGoals.Preview.NoPermanentHomeHigh>
+  <ColonyGoals.Preview.NoPermanentHomeBrutal>정착지는 하나만 둘 수 있고, 20일이 넘기 전에 옮겨야 합니다. 중력부양선 이동도 인정됩니다.</ColonyGoals.Preview.NoPermanentHomeBrutal>
+  <ColonyGoals.Progress.NoPermanentHomeWaiting>지도에 정착민이 나타나기를 기다리는 중입니다.</ColonyGoals.Progress.NoPermanentHomeWaiting>
+  <ColonyGoals.Progress.NoPermanentHome>가장 오래된 정착지: {0} / {1}, 정착지 수: {2}</ColonyGoals.Progress.NoPermanentHome>
+  <ColonyGoals.Progress.NoPermanentHomeBrutal>가장 오래된 정착지: {0} / {1}, 정착지 수: {2} / {3}</ColonyGoals.Progress.NoPermanentHomeBrutal>
+  <ColonyGoals.Failure.NoPermanentHomeAge>정착지에 너무 오래 머물렀습니다({0}, 한도 {1}).</ColonyGoals.Failure.NoPermanentHomeAge>
+  <ColonyGoals.Failure.NoPermanentHomeCount>정착지가 너무 많습니다({0}, 최대 {1}).</ColonyGoals.Failure.NoPermanentHomeCount>
+  <ColonyGoals.Progress.RobocopPreviewLow>정착민의 50%(아이는 포함, 아기와 손님은 제외)가 보철물 이상의 팔다리를 지녀야 합니다.</ColonyGoals.Progress.RobocopPreviewLow>
+  <ColonyGoals.Progress.RobocopPreviewMedium>정착민 전원이 보철물 이상의 팔다리를 지녀야 합니다. 원래 팔다리에 단 강화 부품도 인정됩니다.</ColonyGoals.Progress.RobocopPreviewMedium>
+  <ColonyGoals.Progress.RobocopPreviewHigh>정착민 전원: 보철물 이상의 팔다리, 그리고 어디든 보철물 이상의 부위 2개 추가.</ColonyGoals.Progress.RobocopPreviewHigh>
+  <ColonyGoals.Progress.RobocopPreviewBrutal>정착민 전원: 생체공학 이상의 팔다리와 눈, 그리고 어디든 보철물 이상의 부위 2개 추가.</ColonyGoals.Progress.RobocopPreviewBrutal>
+  <ColonyGoals.Progress.Robocop>개조된 정착민: {0}% (필요 {1}%)</ColonyGoals.Progress.Robocop>
+  <ColonyGoals.Progress.LongTermBuilding>장기 목표: 처음 달성하기 전까지는 실패하지 않습니다.</ColonyGoals.Progress.LongTermBuilding>
+  <ColonyGoals.Progress.RobocopHigh>개조된 정착민: {0}% (필요 {1}%, 한 명당 추가 보철 부위 2개 포함)</ColonyGoals.Progress.RobocopHigh>
+  <ColonyGoals.Progress.RobocopBrutal>개조된 정착민: {0}% (필요 {1}%, 생체공학 팔다리와 눈, 한 명당 추가 보철 부위 2개)</ColonyGoals.Progress.RobocopBrutal>
+  <ColonyGoals.Failure.Robocop>개조된 정착민이 부족합니다({0}%, 필요 {1}%).</ColonyGoals.Failure.Robocop>
+  <ColonyGoals.Failure.TooManyColonists>정착민이 너무 많습니다({0}명). 한도는 {1}명입니다.</ColonyGoals.Failure.TooManyColonists>
+  <ColonyGoals.Failure.ColonistCapBroken>단독 도전 실패: 정착민 {0}명 (최대 {1}명).</ColonyGoals.Failure.ColonistCapBroken>
+  <ColonyGoals.Breach.WarningStarted>{0}: 제한 위반. 약 {1}일 안에 바로잡지 않으면 도전에 실패합니다.</ColonyGoals.Breach.WarningStarted>
+  <ColonyGoals.Breach.FixWithin>약 {0}일 안에 바로잡지 않으면 이 도전에 실패합니다.</ColonyGoals.Breach.FixWithin>
+  <ColonyGoals.Alert.Breach.Single>{0}: {1}일 안에 바로잡기</ColonyGoals.Alert.Breach.Single>
+  <ColonyGoals.Alert.Breach.Multiple>도전 위반 {0}건, 가장 급한 것 {1}일</ColonyGoals.Alert.Breach.Multiple>
+  <ColonyGoals.Alert.Breach.ExplanationHeader>도전 카드를 위반했습니다. 유예 시간이 끝나기 전에 바로잡지 않으면 카드가 실패합니다.</ColonyGoals.Alert.Breach.ExplanationHeader>
+  <ColonyGoals.Alert.Breach.Line>• {0}: {1}일 남음</ColonyGoals.Alert.Breach.Line>
+  <ColonyGoals.Alert.Breach.ClickHint>클릭하면 정착지 목표를 엽니다.</ColonyGoals.Alert.Breach.ClickHint>
+  <ColonyGoals.Failure.ForbiddenResearch>금지된 연구 완료: {0}.</ColonyGoals.Failure.ForbiddenResearch>
+  <ColonyGoals.Failure.PermanentViolation>되돌릴 수 없는 도전 규칙을 어겼습니다.</ColonyGoals.Failure.PermanentViolation>
+  <ColonyGoals.Progress.LowTechLow>우주 단계 연구를 완료하지 마세요.</ColonyGoals.Progress.LowTechLow>
+  <ColonyGoals.Progress.LowTechMedium>미소전자공학을 연구하지 마세요.</ColonyGoals.Progress.LowTechMedium>
+  <ColonyGoals.Progress.LowTechHigh>전기를 연구하지 마세요.</ColonyGoals.Progress.LowTechHigh>
+  <ColonyGoals.Progress.LowTechBrutal>산업 단계 연구를 완료하지 마세요.</ColonyGoals.Progress.LowTechBrutal>
+  <ColonyGoals.Progress.LowTechUnknownResearch>금지된 연구</ColonyGoals.Progress.LowTechUnknownResearch>
+  <ColonyGoals.Progress.NoResearchTablesLow>책상 연구는 속도 40%이며, 작업대 연구는 정착지의 기분을 상하게 합니다.</ColonyGoals.Progress.NoResearchTablesLow>
+  <ColonyGoals.Progress.NoResearchTablesBonus>이 카드의 보상을 받으려면 정착지에 연구 작업대를 두지 마세요. 연구와 독서는 막히지도 불이익을 받지도 않습니다.</ColonyGoals.Progress.NoResearchTablesBonus>
+  <ColonyGoals.Progress.NoResearchTablesMedium>연구 작업대를 짓거나 쓰지 마세요.</ColonyGoals.Progress.NoResearchTablesMedium>
+  <ColonyGoals.Progress.NoResearchTablesHigh>연구 작업대 금지, 모든 책을 절반 속도로 읽습니다.</ColonyGoals.Progress.NoResearchTablesHigh>
+  <ColonyGoals.Progress.NoResearchTablesBrutal>연구 작업대 금지, 정착민이 책을 읽을 수 없습니다.</ColonyGoals.Progress.NoResearchTablesBrutal>
+  <ColonyGoals.BookReading.Forbidden>이 정착지의 도전 규칙상 책을 읽을 수 없습니다.</ColonyGoals.BookReading.Forbidden>
+  <ColonyGoals.Breach.ResearchBenchBuilt>금지된 연구 작업대를 지었습니다: {0}.</ColonyGoals.Breach.ResearchBenchBuilt>
+  <ColonyGoals.Breach.ResearchBenchPresent>지도에 금지된 연구 작업대가 있습니다.</ColonyGoals.Breach.ResearchBenchPresent>
+  <ColonyGoals.Breach.ResearchWorkEnabled>아직 연구 작업이 켜진 정착민이 있습니다.</ColonyGoals.Breach.ResearchWorkEnabled>
+  <ColonyGoals.Breach.ResearchAtBench>정착민이 일반 작업대 연구를 시작했습니다.</ColonyGoals.Breach.ResearchAtBench>
+  <ColonyGoals.EachToTheirOwn.Group.Unarmed>맨손</ColonyGoals.EachToTheirOwn.Group.Unarmed>
+  <ColonyGoals.EachToTheirOwn.Group.Other>기타 원거리</ColonyGoals.EachToTheirOwn.Group.Other>
+  <ColonyGoals.Progress.EachToTheirOwnWeaponDef>가장 큰 무기 그룹: {2} 사용 정착민 {0}명 (최대 {1}명)</ColonyGoals.Progress.EachToTheirOwnWeaponDef>
+  <ColonyGoals.Progress.EachToTheirOwnCategoryBalance>분류 편차: {0} (최대 {1}), 최다 {2} {3}, 최소 {4}</ColonyGoals.Progress.EachToTheirOwnCategoryBalance>
+  <ColonyGoals.Failure.EachToTheirOwnWeaponDef>정착민 {0}명이 {2}(을)를 함께 씁니다. 무기당 한도는 {1}명입니다.</ColonyGoals.Failure.EachToTheirOwnWeaponDef>
+  <ColonyGoals.Failure.EachToTheirOwnCategoryBalance>{1}에 정착민 {0}명이 있지만 가장 작은 분류는 {2}명뿐입니다(편차 {3}, 최대 {4}).</ColonyGoals.Failure.EachToTheirOwnCategoryBalance>
+  <ColonyGoals.UndergroundPeople.Room.Unknown>방</ColonyGoals.UndergroundPeople.Room.Unknown>
+  <ColonyGoals.Progress.LootedWeaponsOnly>허용된 무장: {0}% (필요 {1}%, 무장한 정착민 {2}/{3})</ColonyGoals.Progress.LootedWeaponsOnly>
+  <ColonyGoals.Failure.LootedWeaponsOnly>금지된 무기를 장비했습니다(준수 {0}%, 필요 {1}%). 예: {2}의 {3}.</ColonyGoals.Failure.LootedWeaponsOnly>
+  <ColonyGoals.Progress.UndergroundPeople>지하 방: {0}% (필요 {1}%, 대상 방 {2}/{3} 충족)</ColonyGoals.Progress.UndergroundPeople>
+  <ColonyGoals.Failure.UndergroundPeople>대상 방이 완전히 지하에 있지 않습니다(준수 {0}%, 필요 {1}%). 예: {2}.</ColonyGoals.Failure.UndergroundPeople>
+  <ColonyGoals.Tooltip.UndergroundPeople.Header>지하에 있지 않은 대상 방:</ColonyGoals.Tooltip.UndergroundPeople.Header>
+  <ColonyGoals.Tooltip.UndergroundPeople.Room>• {0}</ColonyGoals.Tooltip.UndergroundPeople.Room>
+  <ColonyGoals.Tooltip.UndergroundPeople.RoomWithThing>{1}(이)가 있는 {0}</ColonyGoals.Tooltip.UndergroundPeople.RoomWithThing>
+  <ColonyGoals.Tooltip.UndergroundPeople.None>현재 모든 대상 방이 지하 지붕 규칙을 충족합니다.</ColonyGoals.Tooltip.UndergroundPeople.None>
+  <ColonyGoals.Progress.Barracks>한 방에 있는 배정 침대: {0}% (필요 {1}%, 배정 침대 {2}개 집계)</ColonyGoals.Progress.Barracks>
+  <ColonyGoals.Progress.BarracksBrutal>정착민 막사: {0}%, 죄수 막사: {1}% (필요 {2}%, 정착민/노예 침대 {3}개, 죄수 침대 {4}개)</ColonyGoals.Progress.BarracksBrutal>
+  <ColonyGoals.Failure.Barracks>배정 침대가 여러 방에 나뉘어 있습니다(가장 큰 방에 {0}%, 필요 {1}%).</ColonyGoals.Failure.Barracks>
+  <ColonyGoals.Failure.BarracksBrutal>막사가 여러 방에 나뉘어 있습니다(정착민/노예 {0}%, 죄수 {1}%, 각각 {2}% 필요).</ColonyGoals.Failure.BarracksBrutal>
+  <ColonyGoals.Progress.PrivateRooms>1인 침실: {0}% (필요 {1}%)</ColonyGoals.Progress.PrivateRooms>
+  <ColonyGoals.Progress.PrivateRoomsBrutal>정착민/노예 1인 침실: {0}%, 죄수 1인 침실: {1}% (각각 {2}% 필요)</ColonyGoals.Progress.PrivateRoomsBrutal>
+  <ColonyGoals.Failure.PrivateRooms>함께 쓰는 침실이 너무 많습니다(1인실 {0}%, 필요 {1}%).</ColonyGoals.Failure.PrivateRooms>
+  <ColonyGoals.Failure.PrivateRoomsBrutal>함께 쓰는 침실이 남아 있습니다(정착민/노예 {0}%, 죄수 {1}%, 각각 {2}% 필요).</ColonyGoals.Failure.PrivateRoomsBrutal>
+  <ColonyGoals.Progress.BowsOnly>활 무장: 준수 {0}% (필요 {1}%, 규칙: {2})</ColonyGoals.Progress.BowsOnly>
+  <ColonyGoals.Failure.BowsOnly>활 무장 위반(준수 {0}%, 필요 {1}%, 규칙: {2})</ColonyGoals.Failure.BowsOnly>
+  <ColonyGoals.Progress.GunsOnly>총 무장: 준수 {0}% (필요 {1}%, 규칙: {2})</ColonyGoals.Progress.GunsOnly>
+  <ColonyGoals.Failure.GunsOnly>총 무장 위반(준수 {0}%, 필요 {1}%, 규칙: {2})</ColonyGoals.Failure.GunsOnly>
+  <ColonyGoals.Progress.MeleeOnly>근접 무장: 준수 {0}% (필요 {1}%, 규칙: {2})</ColonyGoals.Progress.MeleeOnly>
+  <ColonyGoals.Failure.MeleeOnly>근접 무장 위반(준수 {0}%, 필요 {1}%, 규칙: {2})</ColonyGoals.Failure.MeleeOnly>
+  <ColonyGoals.Progress.ClubsOnly>곤봉 무장: 준수 {0}% (필요 {1}%, 규칙: {2})</ColonyGoals.Progress.ClubsOnly>
+  <ColonyGoals.Failure.ClubsOnly>곤봉 무장 위반(준수 {0}%, 필요 {1}%, 규칙: {2})</ColonyGoals.Failure.ClubsOnly>
+  <ColonyGoals.Preview.ClubsOnlyLow>정착민의 최소 50%가 곤봉이나 목재를 들거나 맨손이어야 합니다.</ColonyGoals.Preview.ClubsOnlyLow>
+  <ColonyGoals.Preview.ClubsOnlyMedium>모든 정착민이 곤봉이나 목재를 들거나 맨손이어야 합니다.</ColonyGoals.Preview.ClubsOnlyMedium>
+  <ColonyGoals.Preview.ClubsOnlyHigh>모든 정착민과 노예가 곤봉이나 목재를 들거나 맨손이어야 합니다.</ColonyGoals.Preview.ClubsOnlyHigh>
+  <ColonyGoals.Preview.ClubsOnlyBrutal>모든 정착민과 노예가 곤봉이나 목재를 들거나 맨손이어야 합니다.</ColonyGoals.Preview.ClubsOnlyBrutal>
+  <ColonyGoals.WeaponLoadout.Category.Bow>활</ColonyGoals.WeaponLoadout.Category.Bow>
+  <ColonyGoals.WeaponLoadout.Category.Gun>총</ColonyGoals.WeaponLoadout.Category.Gun>
+  <ColonyGoals.WeaponLoadout.Category.Melee>근접</ColonyGoals.WeaponLoadout.Category.Melee>
+  <ColonyGoals.WeaponLoadout.Category.Club>곤봉, 목재, 맨손</ColonyGoals.WeaponLoadout.Category.Club>
+  <ColonyGoals.WeaponLoadout.Rule.LenientWithUnarmed>60% 초과가 {0} 또는 맨손</ColonyGoals.WeaponLoadout.Rule.LenientWithUnarmed>
+  <ColonyGoals.WeaponLoadout.Rule.StrictWithUnarmed>{0} 또는 맨손만</ColonyGoals.WeaponLoadout.Rule.StrictWithUnarmed>
+  <ColonyGoals.WeaponLoadout.Rule.StrictOnly>{0}만</ColonyGoals.WeaponLoadout.Rule.StrictOnly>
+  <ColonyGoals.Progress.AdultColonistsWaiting>성인 자유 정착민을 기다리는 중입니다.</ColonyGoals.Progress.AdultColonistsWaiting>
+  <ColonyGoals.Preview.NoAdultRecruits>시작 정착민은 허용됩니다. 활성화 이후에는 아기와 아이만 자유 정착민이 될 수 있으며, 그렇게 들어온 아이는 자라서도 남을 수 있습니다.</ColonyGoals.Preview.NoAdultRecruits>
+  <ColonyGoals.Progress.NoAdultRecruits>유효한 정착민: {0} / {1}, 활성화 이후 합류한 성인 없음.</ColonyGoals.Progress.NoAdultRecruits>
+  <ColonyGoals.Progress.NoAdultRecruitsInvalid>유효한 정착민: {0} / {1}. 아직 남아 있는 성인 합류자: {2}</ColonyGoals.Progress.NoAdultRecruitsInvalid>
+  <ColonyGoals.Failure.NoAdultRecruits>활성화 이후 성인 정착민이 합류했습니다: {0}.</ColonyGoals.Failure.NoAdultRecruits>
+  <ColonyGoals.Preview.RoyalCourt>성인 자유 정착민의 최소 {0}%가 작위를 지녀야 합니다.</ColonyGoals.Preview.RoyalCourt>
+  <ColonyGoals.Progress.RoyalCourt>작위를 지닌 성인: {0} / {1} (필요 {2}%)</ColonyGoals.Progress.RoyalCourt>
+  <ColonyGoals.Preview.Awakened>성인 자유 정착민의 최소 {0}%가 정신력 증폭 {1}단계 이상이어야 합니다.</ColonyGoals.Preview.Awakened>
+  <ColonyGoals.Progress.Awakened>각성한 성인: {0} / {1} (정신력 증폭 {3}단계 이상 {2}% 필요)</ColonyGoals.Progress.Awakened>
+  <ColonyGoals.Setup.Title>정착지 목표</ColonyGoals.Setup.Title>
+  <ColonyGoals.Setup.Section.HowToPlay>플레이 방식</ColonyGoals.Setup.Section.HowToPlay>
+  <ColonyGoals.Setup.Section.Deal>카드 구성</ColonyGoals.Setup.Section.Deal>
+  <ColonyGoals.Setup.Section.CardSource>카드 출처</ColonyGoals.Setup.Section.CardSource>
+  <ColonyGoals.Setup.Section.Difficulty>난이도</ColonyGoals.Setup.Section.Difficulty>
+  <ColonyGoals.Setup.Section.Bonus>회차 보너스</ColonyGoals.Setup.Section.Bonus>
+  <ColonyGoals.Setup.AdvancedSettingsCollapsed>고급 설정 ▸</ColonyGoals.Setup.AdvancedSettingsCollapsed>
+  <ColonyGoals.Setup.AdvancedSettingsExpanded>고급 설정 ▾</ColonyGoals.Setup.AdvancedSettingsExpanded>
+  <ColonyGoals.Setup.AdvancedSettings.Title>고급 설정</ColonyGoals.Setup.AdvancedSettings.Title>
+  <ColonyGoals.Setup.AdvancedSettings.Desc>카드 출처, 난이도, 미스터리 카드 규칙</ColonyGoals.Setup.AdvancedSettings.Desc>
+  <ColonyGoals.Setup.Mode>모드</ColonyGoals.Setup.Mode>
+  <ColonyGoals.Setup.Mode.Checklist.Label>체크리스트</ColonyGoals.Setup.Mode.Checklist.Label>
+  <ColonyGoals.Setup.Mode.Checklist.Desc>재미로 목표를 기록합니다. 목표를 달성해도 승리 조건과는 상관없습니다.</ColonyGoals.Setup.Mode.Checklist.Desc>
+  <ColonyGoals.Setup.Mode.Checklist.CardDesc>보상이나 불이익 없이 목표만 기록합니다.</ColonyGoals.Setup.Mode.Checklist.CardDesc>
+  <ColonyGoals.Setup.Mode.Checklist.Badge>기록만</ColonyGoals.Setup.Mode.Checklist.Badge>
+  <ColonyGoals.Setup.Mode.Challenge.Label>도전</ColonyGoals.Setup.Mode.Challenge.Label>
+  <ColonyGoals.Setup.Mode.Challenge.Desc>모든 카드를 충족해야 회차 전체 보상을 유지합니다. 위반하면 카드 규칙에 따라 경고, 불이익, 실패가 생길 수 있습니다.</ColonyGoals.Setup.Mode.Challenge.Desc>
+  <ColonyGoals.Setup.Mode.Challenge.CardDesc>모든 카드를 충족해 보상을 유지합니다. 위반하면 불이익이나 실패가 생길 수 있습니다.</ColonyGoals.Setup.Mode.Challenge.CardDesc>
+  <ColonyGoals.Setup.Mode.Challenge.Badge>보상 + 위험</ColonyGoals.Setup.Mode.Challenge.Badge>
+  <ColonyGoals.Setup.Mode.Bonus.Label>보너스</ColonyGoals.Setup.Mode.Bonus.Label>
+  <ColonyGoals.Setup.Mode.Bonus.Desc>보상만 있는 선택 목표입니다. 카드를 무시해도 불이익이 없고, 충족하면 보너스를 얻습니다.</ColonyGoals.Setup.Mode.Bonus.Desc>
+  <ColonyGoals.Setup.Mode.Bonus.CardDesc>충족한 목표만큼 보상을 얻습니다. 나머지는 무시해도 불이익이 없습니다.</ColonyGoals.Setup.Mode.Bonus.CardDesc>
+  <ColonyGoals.Setup.Mode.Bonus.Badge>보상만</ColonyGoals.Setup.Mode.Bonus.Badge>
+  <ColonyGoals.Setup.Mode.Victory.Label>승리</ColonyGoals.Setup.Mode.Victory.Label>
+  <ColonyGoals.Setup.Mode.Victory.Desc>모든 카드를 완료하면 회차에서 승리합니다.</ColonyGoals.Setup.Mode.Victory.Desc>
+  <ColonyGoals.Setup.Mode.Victory.CardDesc>모든 카드를 완료해 승리한 뒤 정착지를 계속 이어 갑니다.</ColonyGoals.Setup.Mode.Victory.CardDesc>
+  <ColonyGoals.Setup.Mode.Victory.Badge>추후 추가</ColonyGoals.Setup.Mode.Victory.Badge>
+  <ColonyGoals.Setup.GenerationType>회차 유형</ColonyGoals.Setup.GenerationType>
+  <ColonyGoals.Setup.GenerationType.Generated.Label>무작위 배분</ColonyGoals.Setup.GenerationType.Generated.Label>
+  <ColonyGoals.Setup.GenerationType.Generated.Desc>정한 장수와 난이도에 따라 덱에서 카드를 뽑습니다.</ColonyGoals.Setup.GenerationType.Generated.Desc>
+  <ColonyGoals.Setup.GenerationType.ChallengeSet.Label>도전 세트</ColonyGoals.Setup.GenerationType.ChallengeSet.Label>
+  <ColonyGoals.Setup.GenerationType.ChallengeSet.Desc>고유 규칙이 있는 엄선된 고정 카드 세트로 플레이합니다.</ColonyGoals.Setup.GenerationType.ChallengeSet.Desc>
+  <ColonyGoals.Setup.Hardness>도전 난이도</ColonyGoals.Setup.Hardness>
+  <ColonyGoals.Setup.Hardness.Low.Label>낮음</ColonyGoals.Setup.Hardness.Low.Label>
+  <ColonyGoals.Setup.Hardness.Low.Desc>관대한 목표치와 가벼운 제한.</ColonyGoals.Setup.Hardness.Low.Desc>
+  <ColonyGoals.Setup.Hardness.Medium.Label>보통</ColonyGoals.Setup.Hardness.Medium.Label>
+  <ColonyGoals.Setup.Hardness.Medium.Desc>표준 도전 조정.</ColonyGoals.Setup.Hardness.Medium.Desc>
+  <ColonyGoals.Setup.Hardness.High.Label>높음</ColonyGoals.Setup.Hardness.High.Label>
+  <ColonyGoals.Setup.Hardness.High.Desc>더 빡빡한 한도와 엄격한 규칙.</ColonyGoals.Setup.Hardness.High.Desc>
+  <ColonyGoals.Setup.Hardness.Brutal.Label>가혹</ColonyGoals.Setup.Hardness.Brutal.Label>
+  <ColonyGoals.Setup.Hardness.Brutal.Desc>최대 압박. 뼈아픈 선택을 각오하세요.</ColonyGoals.Setup.Hardness.Brutal.Desc>
+  <ColonyGoals.Setup.HiddenHarshness>숨겨진 카드 가혹도</ColonyGoals.Setup.HiddenHarshness>
+  <ColonyGoals.Setup.HiddenHarshness.Fair.Label>공정</ColonyGoals.Setup.HiddenHarshness.Fair.Label>
+  <ColonyGoals.Setup.HiddenHarshness.Fair.Desc>숨겨진 카드가 정한 난이도에 맞는 적당한 범위 안에 머뭅니다.</ColonyGoals.Setup.HiddenHarshness.Fair.Desc>
+  <ColonyGoals.Setup.HiddenHarshness.Spicy.Label>매운맛</ColonyGoals.Setup.HiddenHarshness.Spicy.Label>
+  <ColonyGoals.Setup.HiddenHarshness.Spicy.Desc>숨겨진 카드가 공개된 카드보다 눈에 띄게 혹독할 수 있습니다.</ColonyGoals.Setup.HiddenHarshness.Spicy.Desc>
+  <ColonyGoals.Setup.HiddenHarshness.Brutal.Label>가혹</ColonyGoals.Setup.HiddenHarshness.Brutal.Label>
+  <ColonyGoals.Setup.HiddenHarshness.Brutal.Desc>숨겨진 카드가 정한 난이도를 훨씬 넘어설 수 있습니다.</ColonyGoals.Setup.HiddenHarshness.Brutal.Desc>
+  <ColonyGoals.Setup.KnownCount>공개 카드: {0}</ColonyGoals.Setup.KnownCount>
+  <ColonyGoals.Setup.HiddenCount>숨겨진 카드: {0}</ColonyGoals.Setup.HiddenCount>
+  <ColonyGoals.Setup.FaceUpCards>공개 카드</ColonyGoals.Setup.FaceUpCards>
+  <ColonyGoals.Setup.FaceUpCards.Desc>배분을 확정하기 전에 보이는 카드입니다.</ColonyGoals.Setup.FaceUpCards.Desc>
+  <ColonyGoals.Setup.MysteryCards>미스터리 카드</ColonyGoals.Setup.MysteryCards>
+  <ColonyGoals.Setup.MysteryCards.Desc>정착지가 시작될 때 공개되는 카드입니다.</ColonyGoals.Setup.MysteryCards.Desc>
+  <ColonyGoals.Setup.HiddenHarshnessNone>숨겨진 카드를 늘려야 숨겨진 카드 가혹도를 설정할 수 있습니다.</ColonyGoals.Setup.HiddenHarshnessNone>
+  <ColonyGoals.Setup.CardsTotal>이번 회차 총 {0}장 (공개 {1}장, 숨김 {2}장)</ColonyGoals.Setup.CardsTotal>
+  <ColonyGoals.Setup.Deck>덱</ColonyGoals.Setup.Deck>
+  <ColonyGoals.Setup.ChallengeSet>도전 세트</ColonyGoals.Setup.ChallengeSet>
+  <ColonyGoals.Setup.NoChallengeSets>아직 불러온 도전 세트가 없습니다.</ColonyGoals.Setup.NoChallengeSets>
+  <ColonyGoals.Setup.InspirationCredit>{0}에서 영감을 받았습니다. 이것은 독립적인 커뮤니티 도전이며, 공식 승인을 받은 것이 아닙니다.</ColonyGoals.Setup.InspirationCredit>
+  <ColonyGoals.Setup.RunBonus>주 회차 보너스</ColonyGoals.Setup.RunBonus>
+  <ColonyGoals.Setup.NoBonus>없음</ColonyGoals.Setup.NoBonus>
+  <ColonyGoals.Setup.NoBonus.Desc>회차 전체 보상 없이 플레이합니다.</ColonyGoals.Setup.NoBonus.Desc>
+  <ColonyGoals.Setup.NoBonus.CardDesc>회차 전체 보상 없음.</ColonyGoals.Setup.NoBonus.CardDesc>
+  <ColonyGoals.Setup.ContinuousBonus.CardDesc>단계적으로 커지는 정착지 전체 강화.</ColonyGoals.Setup.ContinuousBonus.CardDesc>
+  <ColonyGoals.Setup.PersonalGrowth.CardDesc>반복해서 받을 수 있는 정착민 성장.</ColonyGoals.Setup.PersonalGrowth.CardDesc>
+  <ColonyGoals.Setup.BonusBadge.None>보상 없음</ColonyGoals.Setup.BonusBadge.None>
+  <ColonyGoals.Setup.BonusBadge.Reward>회차 보상</ColonyGoals.Setup.BonusBadge.Reward>
+  <ColonyGoals.Setup.DealCards>카드 나누기</ColonyGoals.Setup.DealCards>
+  <ColonyGoals.Setup.SkipCardsThisRun>이번 회차는 카드 없이 하기</ColonyGoals.Setup.SkipCardsThisRun>
+  <ColonyGoals.Setup.Summary.Title>이번 회차</ColonyGoals.Setup.Summary.Title>
+  <ColonyGoals.Setup.Summary.Ready>이번 회차</ColonyGoals.Setup.Summary.Ready>
+  <ColonyGoals.Setup.Summary.Headline>{0} · {1} · {2}</ColonyGoals.Setup.Summary.Headline>
+  <ColonyGoals.Setup.Summary.CardsHeading>카드</ColonyGoals.Setup.Summary.CardsHeading>
+  <ColonyGoals.Setup.Summary.DealHeading>배분</ColonyGoals.Setup.Summary.DealHeading>
+  <ColonyGoals.Setup.Summary.CardsTotal>총 {0}장 (공개 {1}장, 숨김 {2}장)</ColonyGoals.Setup.Summary.CardsTotal>
+  <ColonyGoals.Setup.Summary.HiddenHarshness>숨겨진 카드 가혹도: {0}</ColonyGoals.Setup.Summary.HiddenHarshness>
+  <ColonyGoals.Setup.Summary.MysteryHeading>미스터리 카드 가혹도</ColonyGoals.Setup.Summary.MysteryHeading>
+  <ColonyGoals.Setup.Summary.SourceHeading>출처</ColonyGoals.Setup.Summary.SourceHeading>
+  <ColonyGoals.Setup.Summary.NoDeck>선택한 덱 없음</ColonyGoals.Setup.Summary.NoDeck>
+  <ColonyGoals.Setup.Summary.NoChallengeSet>선택한 도전 세트 없음</ColonyGoals.Setup.Summary.NoChallengeSet>
+  <ColonyGoals.Setup.Summary.BonusHeading>회차 보너스</ColonyGoals.Setup.Summary.BonusHeading>
+  <ColonyGoals.Setup.SharePaste>공유받은 도전 코드 가져오기</ColonyGoals.Setup.SharePaste>
+  <ColonyGoals.Setup.PasteCode>코드 적용 후 카드 나누기</ColonyGoals.Setup.PasteCode>
+  <ColonyGoals.Reveal.Title>도전 카드</ColonyGoals.Reveal.Title>
+  <ColonyGoals.Reveal.NoRun>설정된 회차가 없습니다.</ColonyGoals.Reveal.NoRun>
+  <ColonyGoals.Reveal.KnownHeader>공개 카드</ColonyGoals.Reveal.KnownHeader>
+  <ColonyGoals.Reveal.KnownCardTag>공개</ColonyGoals.Reveal.KnownCardTag>
+  <ColonyGoals.Reveal.HiddenCardLabel>숨김</ColonyGoals.Reveal.HiddenCardLabel>
+  <ColonyGoals.Reveal.HiddenCardTag>시작 전까지 비밀</ColonyGoals.Reveal.HiddenCardTag>
+  <ColonyGoals.Reveal.DetailTitle>카드 상세</ColonyGoals.Reveal.DetailTitle>
+  <ColonyGoals.Reveal.SelectCard>카드를 선택하면 고른 난이도에서의 요구 조건이 표시됩니다.</ColonyGoals.Reveal.SelectCard>
+  <ColonyGoals.Reveal.AtHardness>{0} 난이도:</ColonyGoals.Reveal.AtHardness>
+  <ColonyGoals.Reveal.TargetValue>목표치: {0}</ColonyGoals.Reveal.TargetValue>
+  <ColonyGoals.Reveal.StartingAlonePreview>최대 정착민: {0}. 기간: {1}.</ColonyGoals.Reveal.StartingAlonePreview>
+  <ColonyGoals.Reveal.RequiredPercent>필요: 준수율 {0}%</ColonyGoals.Reveal.RequiredPercent>
+  <ColonyGoals.Preview.EachToTheirOwn.Low>같은 무기는 무장한 정착민 두 명까지만 함께 쓸 수 있습니다.</ColonyGoals.Preview.EachToTheirOwn.Low>
+  <ColonyGoals.Preview.EachToTheirOwn.Medium>무장한 정착민은 모두 서로 다른 무기를 들어야 합니다.</ColonyGoals.Preview.EachToTheirOwn.Medium>
+  <ColonyGoals.Preview.EachToTheirOwn.High>무기 분류가 고르게 퍼져야 합니다(최대 편차 1). 맨손 정착민은 제외합니다.</ColonyGoals.Preview.EachToTheirOwn.High>
+  <ColonyGoals.Preview.EachToTheirOwn.Brutal>맨손을 포함해 분류가 고르게 퍼져야 하고, 무장한 정착민은 모두 서로 다른 무기를 들어야 합니다.</ColonyGoals.Preview.EachToTheirOwn.Brutal>
+  <ColonyGoals.Preview.BarracksBrutal>정착민 막사와 죄수 막사 모두 배정 침대의 {0}%가 한 방에 있어야 합니다.</ColonyGoals.Preview.BarracksBrutal>
+  <ColonyGoals.Preview.PrivateRoomsBrutal>정착민 1인 침실과 죄수 1인 침실 모두 준수율 {0}%가 필요합니다.</ColonyGoals.Preview.PrivateRoomsBrutal>
+  <ColonyGoals.Reveal.DurationValue>기간: {0}</ColonyGoals.Reveal.DurationValue>
+  <ColonyGoals.Reveal.HiddenCardDetail>이 카드는 정착지가 시작될 때까지 숨겨집니다. 그때까지는 규칙을 알 수 없습니다.</ColonyGoals.Reveal.HiddenCardDetail>
+  <ColonyGoals.Reveal.NoKnownCards>뽑힌 카드가 없습니다. 다른 덱을 쓰거나 장수를 줄여 보세요.</ColonyGoals.Reveal.NoKnownCards>
+  <ColonyGoals.Reveal.HiddenSummary>숨겨진 카드: {0}</ColonyGoals.Reveal.HiddenSummary>
+  <ColonyGoals.Reveal.HiddenNotDrawn>숨겨진 카드 {0}장을 뽑지 못했습니다. 덱에 숨길 수 있는 카드가 부족합니다. 다시 나누거나 숨길 수 있는 카드를 더 추가하세요.</ColonyGoals.Reveal.HiddenNotDrawn>
+  <ColonyGoals.Reveal.HiddenHint>이름은 정착지가 시작될 때까지 비밀입니다.</ColonyGoals.Reveal.HiddenHint>
+  <ColonyGoals.Reveal.CopyCode>도전 코드 복사</ColonyGoals.Reveal.CopyCode>
+  <ColonyGoals.Reveal.CopySuccess>도전 코드를 클립보드에 복사했습니다.</ColonyGoals.Reveal.CopySuccess>
+  <ColonyGoals.Reveal.PasteSuccess>도전 코드를 적용했습니다.</ColonyGoals.Reveal.PasteSuccess>
+  <ColonyGoals.Reveal.Continue>수락하고 계속</ColonyGoals.Reveal.Continue>
+  <ColonyGoals.Reveal.Redeal>다시 나누기</ColonyGoals.Reveal.Redeal>
+  <ColonyGoals.Reveal.RedealDisabled>모드 설정에서 다시 나누기가 꺼져 있습니다.</ColonyGoals.Reveal.RedealDisabled>
+  <ColonyGoals.Reveal.Redrawn>새 시드로 카드를 다시 나눴습니다.</ColonyGoals.Reveal.Redrawn>
+  <ColonyGoals.Reveal.Seed>회차 시드(개발): {0}</ColonyGoals.Reveal.Seed>
+  <ColonyGoals.Reveal.SeedCopied>시드를 클립보드에 복사했습니다.</ColonyGoals.Reveal.SeedCopied>
+  <ColonyGoals.Reveal.HiddenLetterTitle>숨겨진 목표 공개</ColonyGoals.Reveal.HiddenLetterTitle>
+  <ColonyGoals.Reveal.HiddenLetterBody>다음 숨겨진 도전 카드가 이제 활성화되었습니다:</ColonyGoals.Reveal.HiddenLetterBody>
+  <ColonyGoals.Share.Empty>도전 코드가 비어 있습니다.</ColonyGoals.Share.Empty>
+  <ColonyGoals.Share.InvalidFormat>도전 코드를 읽을 수 없습니다.</ColonyGoals.Share.InvalidFormat>
+  <ColonyGoals.Share.UnsupportedVersion>도전 코드 버전 {0}(은)는 지원하지 않습니다.</ColonyGoals.Share.UnsupportedVersion>
+  <ColonyGoals.Share.InvalidContent>도전 코드에 잘못된 설정이나 값이 있습니다.</ColonyGoals.Share.InvalidContent>
+  <ColonyGoals.Share.CountMismatch>도전 코드의 카드 장수가 카드 목록과 맞지 않습니다.</ColonyGoals.Share.CountMismatch>
+  <ColonyGoals.Share.UnavailableChallengeSet>이 도전 세트에는 현재 켜져 있지 않은 DLC나 모드가 필요합니다.</ColonyGoals.Share.UnavailableChallengeSet>
+  <ColonyGoals.Share.IncompatibleCard>도전 코드의 카드 {0}(은)는 선택한 모드, 난이도, DLC, 다른 카드와 호환되지 않습니다.</ColonyGoals.Share.IncompatibleCard>
+  <ColonyGoals.Share.MissingDefs>없는 콘텐츠: {0}</ColonyGoals.Share.MissingDefs>
+  <ColonyGoals.Preview.TinyLiving>정착지마다 벽으로 둘러싸이고 지붕이 완전히 덮인 공간을 기본 {0}칸에 자유 정착민 한 명당 {1}칸씩 더한 만큼 쓸 수 있습니다.</ColonyGoals.Preview.TinyLiving>
+  <ColonyGoals.Progress.TinyLiving>가장 붐비는 정착지의 둘러싸인 칸: {0} / {1} (정착민 {2}명)</ColonyGoals.Progress.TinyLiving>
+  <ColonyGoals.Progress.TinyLiving.NoColony>자유 정착민이 있는 플레이어 정착지를 기다리는 중입니다.</ColonyGoals.Progress.TinyLiving.NoColony>
+  <ColonyGoals.Preview.Isolationists>거래를 하지 마세요. 선물은 치지 않습니다. 보너스 모드에서는 거래 없이 15일이 지나면 카드가 회복됩니다.</ColonyGoals.Preview.Isolationists>
+  <ColonyGoals.Progress.Isolationists.Clean>이 카드가 활성화된 뒤로 완료한 거래가 없습니다.</ColonyGoals.Progress.Isolationists.Clean>
+  <ColonyGoals.Progress.Isolationists.Recovery>마지막 거래 이후 거래 없는 날: {0} / {1}</ColonyGoals.Progress.Isolationists.Recovery>
+  <ColonyGoals.Progress.Isolationists.Broken>이 카드가 활성화된 뒤 거래를 완료했습니다.</ColonyGoals.Progress.Isolationists.Broken>
+  <ColonyGoals.Failure.Isolationists>선물이 아닌 거래를 완료했습니다.</ColonyGoals.Failure.Isolationists>
+  <ColonyGoals.Preview.LibraryOfAlexandria>한 정착지에 조건에 맞는 책을 {0}권 보관하세요. 책을 읽을 수 있는 자유 정착민은 모두 {1} 안에 책을 읽어야 하며, 새 정착민에게는 기간 전체가 주어집니다.</ColonyGoals.Preview.LibraryOfAlexandria>
+  <ColonyGoals.Progress.LibraryOfAlexandria>책 {0} / {1}권, 최근 독서자 {2} / {3}명</ColonyGoals.Progress.LibraryOfAlexandria>
+  <ColonyGoals.Tooltip.LibraryOfAlexandria.None>조건에 맞는 정착민 모두가 최근에 책을 읽었습니다.</ColonyGoals.Tooltip.LibraryOfAlexandria.None>
+  <ColonyGoals.Tooltip.LibraryOfAlexandria.Overdue>책을 읽어야 함: {0}</ColonyGoals.Tooltip.LibraryOfAlexandria.Overdue>
+  <ColonyGoals.Preview.Charity.Low>이 카드가 활성화된 뒤 제안되는 자선 기회를 모두 받아들이세요.</ColonyGoals.Preview.Charity.Low>
+  <ColonyGoals.Preview.Charity.Medium>이 카드가 활성화된 뒤 제안되는 자선 기회를 모두 받아들이세요.</ColonyGoals.Preview.Charity.Medium>
+  <ColonyGoals.Preview.Charity.High>자선 기회를 모두 받아들이고, 받아들여 결과가 난 자선 퀘스트의 최소 75%를 성공시키세요.</ColonyGoals.Preview.Charity.High>
+  <ColonyGoals.Preview.Charity.Brutal>자선 기회를 모두 받아들이고 전부 성공시키세요.</ColonyGoals.Preview.Charity.Brutal>
+  <ColonyGoals.Progress.Charity>수락 {0}, 성공 {1}, 실패 {2}, 거절 {3}, 성공률 {4}%</ColonyGoals.Progress.Charity>
+  <ColonyGoals.Failure.CharityRefused>자선 기회를 거절했거나 기한을 넘겼습니다.</ColonyGoals.Failure.CharityRefused>
+  <ColonyGoals.Failure.CharityFailed>받아들인 자선 퀘스트가 성공으로 끝나지 않았습니다.</ColonyGoals.Failure.CharityFailed>
+</LanguageData>
