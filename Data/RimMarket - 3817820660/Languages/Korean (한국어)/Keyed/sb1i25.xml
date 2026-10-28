@@ -1,0 +1,647 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RimMarket.Settings.FeeMode>노점 사용료</RimMarket.Settings.FeeMode>
+  <RimMarket.Settings.TabMarket>시장</RimMarket.Settings.TabMarket>
+  <RimMarket.Settings.TabVisitors>방문객</RimMarket.Settings.TabVisitors>
+  <RimMarket.Settings.TabEvents>이벤트</RimMarket.Settings.TabEvents>
+  <RimMarket.Settings.TabTrade>무역</RimMarket.Settings.TabTrade>
+  <RimMarket.Settings.ResetTab>이 탭 초기화</RimMarket.Settings.ResetTab>
+  <RimMarket.Settings.CaptionCaravans>상단</RimMarket.Settings.CaptionCaravans>
+  <RimMarket.Settings.CaptionColony>정착지 노점과 여관</RimMarket.Settings.CaptionColony>
+  <RimMarket.Settings.Days>{0}일</RimMarket.Settings.Days>
+  <RimMarket.Settings.FeeModeHint>상단의 노점 사용료 지불 방식입니다. 도착할 때 내거나, 손님의 구매액 중 일부를 내거나(Hospitality 또는 Hotels and Recreation 필요), 무료로 이용할 수 있습니다. 시장 표식마다 별도로 설정할 수 있습니다.</RimMarket.Settings.FeeModeHint>
+  <RimMarket.Settings.FeePercentHint>상단이 운반하는 상품 가치 중 이 비율만큼을 도착 시 사용료로 받습니다.</RimMarket.Settings.FeePercentHint>
+  <RimMarket.Settings.FeeCapHint>도착 시 사용료는 이 금액을 넘지 않습니다.</RimMarket.Settings.FeeCapHint>
+  <RimMarket.Settings.SharePercentHint>손님이 노점에서 쓴 돈 중 시장이 가져가는 몫입니다. 방문 기간 중 계산대에 놓고 갑니다. 당신이 직접 구매하는 물건에는 세금을 부과하지 않습니다.</RimMarket.Settings.SharePercentHint>
+  <RimMarket.Settings.MarketDaysHint>상단이 노점에서 머물다가 짐을 챙겨 떠날 때까지의 기간입니다.</RimMarket.Settings.MarketDaysHint>
+  <RimMarket.Settings.MaxMerchantsHint>시장에서 동시에 거래할 수 있는 상단의 수입니다.</RimMarket.Settings.MaxMerchantsHint>
+  <RimMarket.Settings.HaggleBonusHint>흥정에 성공했을 때 가격이 내려가는 정도이자, 실패했을 때 올라가는 정도입니다.</RimMarket.Settings.HaggleBonusHint>
+  <RimMarket.Settings.ThiefMtbHint>도둑이 한 명 나타난 뒤 다음 도둑이 나타날 때까지 걸리는 평균 시장 운영 일수입니다.</RimMarket.Settings.ThiefMtbHint>
+  <RimMarket.Settings.MessagesHint>시장에 일어난 일을 화면 구석의 메시지로 알립니다.</RimMarket.Settings.MessagesHint>
+  <RimMarket.Settings.FairCostHint>대장터 개최를 알리는 데 전령들이 받는 은의 양입니다.</RimMarket.Settings.FairCostHint>
+  <RimMarket.Settings.FairCooldownHint>대장터를 다시 열 수 있을 때까지의 최소 일수입니다.</RimMarket.Settings.FairCooldownHint>
+  <RimMarket.Settings.RouteOpenCostHint>무역로 개설 비용을 조정합니다. 20타일 떨어진 마을의 경우 약 {0} 은이 듭니다.</RimMarket.Settings.RouteOpenCostHint>
+  <RimMarket.Settings.RouteTollHint>각 수송대의 비용을 조정합니다. 20타일 거리에서는 약 {0} 은이 듭니다. 0%로 설정하면 수송대가 무료로 찾아옵니다.</RimMarket.Settings.RouteTollHint>
+  <RimMarket.Settings.FeePercent>상품 가치 대비 비율</RimMarket.Settings.FeePercent>
+  <RimMarket.Settings.FeeCap>최대 금액</RimMarket.Settings.FeeCap>
+  <RimMarket.Settings.SharePercent>손님 구매액 대비 비율</RimMarket.Settings.SharePercent>
+  <RimMarket.Settings.FeeInGoods>은이 부족하면 물건으로 받기</RimMarket.Settings.FeeInGoods>
+  <RimMarket.Settings.FeeInGoodsHint>상인이 상단의 상품을 노점에 내려놓아 차액을 지불합니다.</RimMarket.Settings.FeeInGoodsHint>
+  <RimMarket.Settings.TurnAwayIfBroke>사용료를 못 내면 돌려보내기</RimMarket.Settings.TurnAwayIfBroke>
+  <RimMarket.Settings.TurnAwayIfBrokeHint>끄면 가진 만큼만 내고 노점을 엽니다. 켜면 시장을 이용하지 않고 기본 게임의 상단처럼 정착지 벽 밖에서 기다립니다.</RimMarket.Settings.TurnAwayIfBrokeHint>
+  <RimMarket.Settings.WaiveAfterToll>RimToll 통행료를 냈으면 면제</RimMarket.Settings.WaiveAfterToll>
+  <RimMarket.Settings.WaiveAfterTollHint>RimToll이 활성화되어 있을 때만 적용됩니다. 하루 이내에 통행료 초소에 돈을 낸 세력에는 노점 사용료를 추가로 부과하지 않습니다.</RimMarket.Settings.WaiveAfterTollHint>
+  <RimMarket.Settings.MarketDays>시장 체류 기간</RimMarket.Settings.MarketDays>
+  <RimMarket.Settings.MaxMerchants>동시 상인 수</RimMarket.Settings.MaxMerchants>
+  <RimMarket.Settings.ShoppersVisit>지나가는 쇼핑객</RimMarket.Settings.ShoppersVisit>
+  <RimMarket.Settings.ShoppersVisitHint>상인이 노점을 차리고 한두 시간이 지나면 우호적인 세력에서 몇 명이 은을 가지고 찾아와 노점을 구경하고, 살 수 있는 물건을 산 뒤 약 다섯 시간 후에 집으로 돌아갑니다. 여관에서 침대를 빌리면 다음 날 아침에 돌아갑니다. 상인이 마을에 없어도 정착지 노점이 있으면 아래에 설정한 빈도로 쇼핑객 무리가 찾아옵니다. Hospitality는 필요하지 않습니다.\n\n끄면 쇼핑객이 오지 않습니다. Hospitality 손님은 계속 물건을 삽니다.</RimMarket.Settings.ShoppersVisitHint>
+  <RimMarket.ShoppersArrived>{0}의 쇼핑객들이 시장 소식을 듣고 찾아오고 있습니다.</RimMarket.ShoppersArrived>
+  <RimMarket.ShoppersForColonyStall>{0}의 쇼핑객들이 정착지 노점에 어떤 물건이 있는지 보러 왔습니다.</RimMarket.ShoppersForColonyStall>
+  <RimMarket.ShoppersForBargains>{0}의 쇼핑객들이 이 정착지의 물건이 싸다는 소문을 듣고 저렴한 물건을 사러 왔습니다.</RimMarket.ShoppersForBargains>
+  <RimMarket.Settings.InnPrice>시장 여관의 1박당 요금</RimMarket.Settings.InnPrice>
+  <RimMarket.Settings.InnPriceHint>시장 여관으로 지정한 침대에서 하룻밤을 보내는 투숙객 한 명당 요금입니다. 상인은 상단 경비원들의 요금을 내고, 쇼핑객은 자신의 요금을 냅니다. 형편없는 방에 비싼 요금을 매기면 손님들이 기억해 둡니다. 0으로 설정하면 무료로 운영합니다.</RimMarket.Settings.InnPriceHint>
+  <RimMarket.CommandInnBed>시장 여관</RimMarket.CommandInnBed>
+  <RimMarket.CommandInnBedDesc>시장을 찾는 상인, 비번인 경비원, 지나가는 쇼핑객에게 이 침대를 빌려줍니다. 하룻밤마다 요금을 내고(모드 설정에서 가격 지정), 침대 옆에 은을 놓고 갑니다. 정착민, 수감자, 노예는 이용하지 않습니다. 좋은 개인실은 만족을 주지만, 헛간에 놓인 침낭은 그렇지 않습니다.</RimMarket.CommandInnBedDesc>
+  <RimMarket.InnBedPrisonCell>감방은 여관으로 적합하지 않습니다.</RimMarket.InnBedPrisonCell>
+  <RimMarket.InnBedHotelGuest>호텔 손님용 침대입니다. 먼저 호텔 지정을 해제하세요.</RimMarket.InnBedHotelGuest>
+  <RimMarket.InnBedLocked>시장 여관으로 대여 중인 침대입니다. 먼저 시장 여관 지정을 해제하세요.</RimMarket.InnBedLocked>
+  <RimMarket.InnBedInspect>시장 여관: 1박당 {0} 은.</RimMarket.InnBedInspect>
+  <RimMarket.InnBedInspectFree>시장 여관: 무료.</RimMarket.InnBedInspectFree>
+  <RimMarket.InnBedLabel>여관 ({0})</RimMarket.InnBedLabel>
+  <RimMarket.InnBedLabelFree>여관 (무료)</RimMarket.InnBedLabelFree>
+  <RimMarket.ReportGoingToInn>여관 침대로 이동 중</RimMarket.ReportGoingToInn>
+  <RimMarket.Settings.GuardsAtStall>노점당 경비원 수</RimMarket.Settings.GuardsAtStall>
+  <RimMarket.Settings.GuardsAtStallHint>계산대 옆에 서서 도둑을 쫓습니다. 나머지 경비원은 경비원 휴식 지점에서, 짐꾼 동물은 상단 야영지에서 기다립니다. 해당 지점이 없으면 모두 시장 바로 밖에서 기다립니다.</RimMarket.Settings.GuardsAtStallHint>
+  <RimMarket.Settings.MaxGuards>상단당 최대 경비원 수</RimMarket.Settings.MaxGuards>
+  <RimMarket.Settings.MaxGuardsHint>시장이 있는 지도로 향하는 상단은 이 수를 넘지 않는 범위에서 가장 강한 경비원들을 데려옵니다. 나머지는 집에 남습니다. 교대할 사람이 있도록 항상 노점당 경비원 수보다 적어도 한 명 더 많아야 합니다.</RimMarket.Settings.MaxGuardsHint>
+  <RimMarket.Settings.NoLimit>제한 없음</RimMarket.Settings.NoLimit>
+  <RimMarket.Settings.Haggle>흥정</RimMarket.Settings.Haggle>
+  <RimMarket.Settings.HaggleHint>방문마다 한 번 시도할 수 있습니다. 사교 능력과 우호도로 상인의 인내심에 맞섭니다. 실패하면 같은 비율만큼 가격이 불리해지고 상인이 더 일찍 떠납니다.</RimMarket.Settings.HaggleHint>
+  <RimMarket.Settings.HaggleBonus>보너스</RimMarket.Settings.HaggleBonus>
+  <RimMarket.Settings.ColonistsBrowse>정착민의 노점 구경</RimMarket.Settings.ColonistsBrowse>
+  <RimMarket.Settings.ColonistsBrowseHint>한가한 정착민들이 찾아와 상품을 구경하고 상인과 이야기를 나눕니다. 정착지의 은을 마음대로 쓰지는 않습니다.</RimMarket.Settings.ColonistsBrowseHint>
+  <RimMarket.Settings.GuestsShop>손님의 노점 구매</RimMarket.Settings.GuestsShop>
+  <RimMarket.Settings.GuestsShopHint>Hospitality 또는 Hotels and Recreation이 필요합니다. 은을 지니고 있거나 호텔 체류 예산이 남은 손님들이 상인 노점과 정착지 노점에서 물건을 사고, 노예 경매도 구경하러 옵니다. 매출 비례 사용료를 받는 경우, 시장은 판매 건마다 자기 몫을 받습니다.</RimMarket.Settings.GuestsShopHint>
+  <RimMarket.Settings.Reputation>평판</RimMarket.Settings.Reputation>
+  <RimMarket.Settings.ReputationHint>평판이 좋으면 상단이 더 많이 찾아오고, 드문 종류의 상인도 방문하며 거래 가격도 유리해집니다. 평판이 나쁘면 상단은 바깥에서 야영하고 가격도 올라갑니다. 끄면 평판은 계속 기록되지만 아무 영향도 주지 않습니다.</RimMarket.Settings.ReputationHint>
+  <RimMarket.Settings.Thieves>도둑</RimMarket.Settings.Thieves>
+  <RimMarket.Settings.ThievesHint>가끔 소매치기가 군중에 섞여 계산대에서 물건을 훔쳐 달아납니다. 상단의 경비원들이 추격하며, 정착민도 도망치는 도둑을 우클릭해 제압할 수 있습니다. 노점 주변에 사람이 많을수록 도둑이 범행을 시도하기 어려워집니다.</RimMarket.Settings.ThievesHint>
+  <RimMarket.Settings.ThiefMtb>평균 발생 간격</RimMarket.Settings.ThiefMtb>
+  <RimMarket.Settings.Messages>시장 메시지</RimMarket.Settings.Messages>
+  <RimMarket.FeeModeNone>없음</RimMarket.FeeModeNone>
+  <RimMarket.FeeModeArrival>도착 시</RimMarket.FeeModeArrival>
+  <RimMarket.FeeModeShare>매출 비례</RimMarket.FeeModeShare>
+  <RimMarket.FeeModeGlobal>{0}, 모드 설정에 따름</RimMarket.FeeModeGlobal>
+  <RimMarket.FeeModeGlobalShort>{0} (모드 설정)</RimMarket.FeeModeGlobalShort>
+  <RimMarket.ShowMarkerLabel>표식 표시</RimMarket.ShowMarkerLabel>
+  <RimMarket.ShowMarkerDesc>바닥 표식을 표시하거나 숨깁니다. 어느 쪽이든 시장은 계속 운영되며, 대장터가 열리면 이 자리에 축제 기둥이 세워집니다.</RimMarket.ShowMarkerDesc>
+  <RimMarket.ShowSpotLabel>지점 표시</RimMarket.ShowSpotLabel>
+  <RimMarket.ShowSpotDesc>바닥 표식을 표시하거나 숨깁니다. 어느 쪽이든 기능은 유지되며, 해당 칸을 클릭하면 선택할 수 있습니다.</RimMarket.ShowSpotDesc>
+  <RimMarket.OpenMarketLabel>시장 개방</RimMarket.OpenMarketLabel>
+  <RimMarket.OpenMarketDesc>시장이 열려 있으면 도착한 무역 상단이 이 표식의 반경 안에 있는 빈 노점을 차지합니다. 닫으면 새 상단은 평소처럼 정착지 벽 밖에서 기다립니다. 이미 노점에 있는 상인은 떠날 때까지 머뭅니다.</RimMarket.OpenMarketDesc>
+  <RimMarket.FeeModeLabel>사용료: {0}</RimMarket.FeeModeLabel>
+  <RimMarket.FeeModeDesc>이 시장에서 상인이 노점 사용료를 내는 방식입니다. 도착 시 사용료: 노점을 열기 전에 계산대에서 은으로 지불합니다. 사용료 없음: 무료로 이용합니다. 모드 설정을 따를 수도 있습니다.</RimMarket.FeeModeDesc>
+  <RimMarket.FeeModeDescShare>매출 비례 사용료: 당신의 손님(Hospitality 또는 Hotels and Recreation)이 노점에서 쓴 돈 중 일부를 방문 기간 중 계산대에 놓고 갑니다. 당신이 직접 구매하는 물건에는 세금을 부과하지 않습니다.</RimMarket.FeeModeDescShare>
+  <RimMarket.CloseMarketLabel>상인 즉시 철수</RimMarket.CloseMarketLabel>
+  <RimMarket.CloseMarketDesc>이 시장의 노점에 있는 모든 상인을 즉시 집으로 돌려보냅니다. 짐을 챙겨 평소 경로로 떠납니다. 지도 내 다른 시장에는 영향을 주지 않으며, 이후에 찾아올 상단을 위한 시장 개방 상태도 바꾸지 않습니다.</RimMarket.CloseMarketDesc>
+  <RimMarket.CloseMarketConfirm>지금 상인 {0}명을 돌려보내겠습니까?</RimMarket.CloseMarketConfirm>
+  <RimMarket.RadiusPlus>반경 {0} +</RimMarket.RadiusPlus>
+  <RimMarket.RadiusMinus>반경 {0} -</RimMarket.RadiusMinus>
+  <RimMarket.RadiusDesc>이 반경 안의 노점은 이 시장에 속합니다.</RimMarket.RadiusDesc>
+  <RimMarket.RadiusAuto>자동</RimMarket.RadiusAuto>
+  <RimMarket.RadiusAutoDesc>표식 주변의 벽, 울타리, 문에 맞춰 시장 광장의 범위를 설정합니다.</RimMarket.RadiusAutoDesc>
+  <RimMarket.QuarterNotEnclosed>표식에서 {0}칸 이내에 광장이 완전히 둘러싸여 있지 않습니다. 벽이나 울타리로 둘러싸거나 반경을 직접 설정하세요.</RimMarket.QuarterNotEnclosed>
+  <RimMarket.QuarterAutoFit>벽에 맞춰 시장 광장의 범위를 설정했습니다: {0}칸.</RimMarket.QuarterAutoFit>
+  <RimMarket.MarketOpen>시장 개방 중</RimMarket.MarketOpen>
+  <RimMarket.MarketClosed>새 상단을 받지 않는 중</RimMarket.MarketClosed>
+  <RimMarket.MarkerStalls>노점: {0}개 (빈 노점 {1}개, 사용 중 {2}개)</RimMarket.MarkerStalls>
+  <RimMarket.MarkerFee>노점 사용료: {0}</RimMarket.MarkerFee>
+  <RimMarket.MarkerCollected>지금까지 걷은 사용료: {0} 은</RimMarket.MarkerCollected>
+  <RimMarket.MarkerGuestSales>손님이 노점에서 쓴 돈: {0} 은</RimMarket.MarkerGuestSales>
+  <RimMarket.MarkerColonySales>정착지 노점 매출: {0} 은</RimMarket.MarkerColonySales>
+  <RimMarket.MarkerSecurity>도둑 체포 {0}명, 도주 {1}명, 접근 저지 {2}명.</RimMarket.MarkerSecurity>
+  <RimMarket.MarkerHidden>표식 숨김</RimMarket.MarkerHidden>
+  <RimMarket.SpotHidden>지점 숨김</RimMarket.SpotHidden>
+  <RimMarket.TradingControlNote>이 지도에 Trading Control 지점이 있습니다. 상단은 빈 노점이 생길 때까지 그곳에서 기다립니다.</RimMarket.TradingControlNote>
+  <RimMarket.StallFree>비어 있음</RimMarket.StallFree>
+  <RimMarket.StallNoMarker>이 노점을 포함하는 시장 표식이 없음</RimMarket.StallNoMarker>
+  <RimMarket.StallMarketClosed>시장이 닫혀 있음</RimMarket.StallMarketClosed>
+  <RimMarket.StallBlocked>상인 자리가 막혀 있음</RimMarket.StallBlocked>
+  <RimMarket.StallUnreachable>상인이 지도 가장자리에서 상인 자리까지 올 수 없음</RimMarket.StallUnreachable>
+  <RimMarket.StallTaken>{1} 소속 {0} ({2})</RimMarket.StallTaken>
+  <RimMarket.StallTimeLeft>{0}시간 후 철수</RimMarket.StallTimeLeft>
+  <RimMarket.StallFeePaid>납부한 노점 사용료: {0} 은</RimMarket.StallFeePaid>
+  <RimMarket.StallFeeDue>납부할 노점 사용료: {0} 은</RimMarket.StallFeeDue>
+  <RimMarket.StallFeeUnpaid>노점 사용료: 낼 돈도 물건도 없었음</RimMarket.StallFeeUnpaid>
+  <RimMarket.StallFeeWaived>노점 사용료 면제됨</RimMarket.StallFeeWaived>
+  <RimMarket.StallShare>징수한 매출 몫: {0} 은 (미납 {1})</RimMarket.StallShare>
+  <RimMarket.StallHaggleOpen>흥정: 아직 시도하지 않음</RimMarket.StallHaggleOpen>
+  <RimMarket.StallHaggleWon>흥정: 더 좋은 가격</RimMarket.StallHaggleWon>
+  <RimMarket.StallHaggleLost>흥정: 상인의 기분을 상하게 함</RimMarket.StallHaggleLost>
+  <RimMarket.ColonyStallToggle>정착지 노점</RimMarket.ColonyStallToggle>
+  <RimMarket.ColonyStallToggleDesc>이 노점을 정착지의 물건을 파는 데 사용합니다. 방문 상인은 다른 노점을 찾습니다. 판매 목록에서 상품, 수량, 가격을 정하면 운반 담당자가 상품을 가져오고, 쇼핑객과 손님이 계산대에서 돈을 냅니다. 은은 계산대 끝에 놓이므로 누군가 가져가 보관할 수 있습니다.\n\n다시 일반 노점으로 전환하면 판매 목록이 지워지고, 계산대에 남은 물건은 앞쪽 바닥에 내려놓습니다.</RimMarket.ColonyStallToggleDesc>
+  <RimMarket.ColonyStallBusy>{0}(이)가 이 노점에서 거래 중</RimMarket.ColonyStallBusy>
+  <RimMarket.ColonyStallSetup>노점 설정</RimMarket.ColonyStallSetup>
+  <RimMarket.ColonyStallSetupDesc>이 노점의 판매 목록을 엽니다. 상품, 수량, 가격을 정할 수 있습니다.</RimMarket.ColonyStallSetupDesc>
+  <RimMarket.ColonyStallEmpty>정착지 노점: 아직 판매할 물건이 없습니다. 노점 설정을 사용하세요.</RimMarket.ColonyStallEmpty>
+  <RimMarket.ColonyStallForSale>정착지 노점의 판매 상품:</RimMarket.ColonyStallForSale>
+  <RimMarket.ColonyStallOrderLine>  {0}: 판매할 수량 {1}, 계산대 수량 {2}, 가치 {3}</RimMarket.ColonyStallOrderLine>
+  <RimMarket.ColonyStallMoreOrders>  외 {0}개</RimMarket.ColonyStallMoreOrders>
+  <RimMarket.StallSetupTitle>{0}: 판매 목록</RimMarket.StallSetupTitle>
+  <RimMarket.StallSetupIntro>계산대에 올릴 상품, 수량, 가격을 정하세요. 운반 담당자가 알아서 상품을 가져오며, 정한 수량을 모두 팔면 판매를 멈춥니다. 고객은 자신의 은으로 구매하며, 상품이 비쌀수록 그냥 지나치는 사람이 많아집니다.</RimMarket.StallSetupIntro>
+  <RimMarket.StallSetupOnlyForSale>판매 상품만 표시</RimMarket.StallSetupOnlyForSale>
+  <RimMarket.StallSetupItem>상품</RimMarket.StallSetupItem>
+  <RimMarket.StallSetupAvailable>정착지 보유량</RimMarket.StallSetupAvailable>
+  <RimMarket.StallSetupOnCounter>계산대 수량</RimMarket.StallSetupOnCounter>
+  <RimMarket.StallSetupToSell>판매할 수량</RimMarket.StallSetupToSell>
+  <RimMarket.StallSetupPrice>가격</RimMarket.StallSetupPrice>
+  <RimMarket.StallSetupAll>전부</RimMarket.StallSetupAll>
+  <RimMarket.StallSetupAdjustTip>정착지가 보유한 물건 중 판매할 수량입니다. Shift: 한 번에 10개. Ctrl: 한 번에 100개. 전부: 모두 선택하며, 이미 전부 선택된 경우 모두 해제합니다.</RimMarket.StallSetupAdjustTip>
+  <RimMarket.StallSetupPriceHeaderTip>상품 가치 대비 판매 가격의 비율입니다. Shift: 한 번에 25%씩 조정합니다.</RimMarket.StallSetupPriceHeaderTip>
+  <RimMarket.StallSetupPriceTip>상품 가치의 {0}: 개당 {1} 은. 이 가격에서 상품을 마음에 들어 하는 고객이 구매할 확률은 {2}입니다.</RimMarket.StallSetupPriceTip>
+  <RimMarket.StallSetupSummary>{1}종류의 상품 {0}개를 판매합니다. 모두 팔리면 약 {2} 은을 받습니다.</RimMarket.StallSetupSummary>
+  <RimMarket.StallSetupSummaryNone>아직 판매할 물건이 없습니다.</RimMarket.StallSetupSummaryNone>
+  <RimMarket.StallSetupDrawOff>모드 설정에서 쇼핑객이 꺼져 있습니다. Hospitality 손님만 이곳에서 구매합니다.</RimMarket.StallSetupDrawOff>
+  <RimMarket.StallSetupDraw>이 가격에서는 낮에 시장이 열려 있는 동안 약 {0}마다 쇼핑객 무리가 찾아옵니다.</RimMarket.StallSetupDraw>
+  <RimMarket.StallSetupDrawBargain>저렴하다는 소문이 퍼집니다. 낮에 시장이 열려 있는 동안 약 {0}마다 쇼핑객 무리가 찾아옵니다.</RimMarket.StallSetupDrawBargain>
+  <RimMarket.StallSetupDrawDear>이 가격에서는 소문이 천천히 퍼집니다. 낮에 시장이 열려 있는 동안 약 {0}마다 쇼핑객 무리가 찾아옵니다.</RimMarket.StallSetupDrawDear>
+  <RimMarket.StallSetupNothing>정착지에 조건에 맞는 물건이 없습니다.</RimMarket.StallSetupNothing>
+  <RimMarket.ColonyStallKeeper>점포 관리인: {0}</RimMarket.ColonyStallKeeper>
+  <RimMarket.ColonyStallNoKeeper>계산대에 점포 관리인이 없어 물건이 팔리지 않음</RimMarket.ColonyStallNoKeeper>
+  <RimMarket.ColonyStallTakings>현재까지 매출: {1}회 판매로 {0} 은</RimMarket.ColonyStallTakings>
+  <RimMarket.ColonyStallNothingToSell>노점에 판매할 물건이 없음</RimMarket.ColonyStallNothingToSell>
+  <RimMarket.StallWatch>경비 중: {0}</RimMarket.StallWatch>
+  <RimMarket.StallRelief>경비 교대: {0}(이)가 {1} 대신 근무하러 오는 중</RimMarket.StallRelief>
+  <RimMarket.StallGuestSales>손님에게 판매한 금액: {0} 은</RimMarket.StallGuestSales>
+  <RimMarket.TradeGizmoLabel>거래</RimMarket.TradeGizmoLabel>
+  <RimMarket.TradeGizmoDesc>정착민을 계산대로 보내 {0}(와)과 거래합니다.</RimMarket.TradeGizmoDesc>
+  <RimMarket.TraderBusy>상인이 지금은 거래하지 않습니다</RimMarket.TraderBusy>
+  <RimMarket.MessageNoNegotiator>지금 이 노점에서 거래할 수 있는 사람이 없습니다.</RimMarket.MessageNoNegotiator>
+  <RimMarket.PlaceMerchantCellBlocked>상인 자리(흰색 테두리)는 비워 두어야 합니다.</RimMarket.PlaceMerchantCellBlocked>
+  <RimMarket.PaintAwning>차양 칠하기</RimMarket.PaintAwning>
+  <RimMarket.PaintAwningDesc>이 노점 차양의 테두리, 무늬, 두 가지 색을 선택하세요. 상인들에게는 줄무늬에 대한 취향이 있습니다. 대개는 입 밖에 내지 않습니다.</RimMarket.PaintAwningDesc>
+  <RimMarket.AwningTitle>차양 칠하기</RimMarket.AwningTitle>
+  <RimMarket.AwningEdge>테두리</RimMarket.AwningEdge>
+  <RimMarket.AwningPattern>무늬</RimMarket.AwningPattern>
+  <RimMarket.AwningCanvas>천 색상</RimMarket.AwningCanvas>
+  <RimMarket.AwningStripe>무늬 색상</RimMarket.AwningStripe>
+  <RimMarket.AwningRandom>무작위 선택</RimMarket.AwningRandom>
+  <RimMarket.AwningApplyAll>모든 노점에 적용</RimMarket.AwningApplyAll>
+  <RimMarket.AwningAppliedAll>다른 노점 {0}개의 색과 무늬를 동일하게 바꿨습니다.</RimMarket.AwningAppliedAll>
+  <RimMarket.PlaceCanopyOverlap>다른 노점과 너무 가깝습니다. 차양이 겹치게 됩니다.</RimMarket.PlaceCanopyOverlap>
+  <RimMarket.PlaceCustomerCellBlocked>고객 자리(청록색 테두리)는 비워 두어야 합니다.</RimMarket.PlaceCustomerCellBlocked>
+  <RimMarket.PlaceTakesNeighbourSpot>옆 노점의 상인 자리나 고객 자리를 차지하게 됩니다. 이웃은 그런 일을 오래 기억합니다.</RimMarket.PlaceTakesNeighbourSpot>
+  <RimMarket.PlaceSpotUnderStall>상인 자리나 고객 자리가 다른 노점 안에 놓이게 됩니다.</RimMarket.PlaceSpotUnderStall>
+  <RimMarket.HaggleButton>흥정</RimMarket.HaggleButton>
+  <RimMarket.HaggleTip>{0}(이)가 가격을 흥정합니다. 방문마다 한 번 시도할 수 있습니다. 성공: 구매와 판매 가격이 모두 {1}% 유리해집니다. 실패: {1}% 불리해지고, 상인이 더 일찍 철수합니다.</RimMarket.HaggleTip>
+  <RimMarket.HaggleDone>흥정 성공: {0}% 유리한 가격</RimMarket.HaggleDone>
+  <RimMarket.HaggleFailed>흥정 실패: {0}% 불리한 가격</RimMarket.HaggleFailed>
+  <RimMarket.MoteDeal>좋아요!</RimMarket.MoteDeal>
+  <RimMarket.MoteRefused>안 돼요.</RimMarket.MoteRefused>
+  <RimMarket.MoteBought>{0}: {1} 은</RimMarket.MoteBought>
+  <RimMarket.MoteThief>도둑이야!</RimMarket.MoteThief>
+  <RimMarket.MoteNotToday>오늘은 안 되겠군.</RimMarket.MoteNotToday>
+  <RimMarket.MoteGotYou>잡았다!</RimMarket.MoteGotYou>
+  <RimMarket.MoteSlipped>놓쳤다!</RimMarket.MoteSlipped>
+  <RimMarket.MoteReturned>반환됨</RimMarket.MoteReturned>
+  <RimMarket.ReportFleeing>훔친 물건을 들고 도주 중</RimMarket.ReportFleeing>
+  <RimMarket.TackleThief>{0} 제압</RimMarket.TackleThief>
+  <RimMarket.TackleIncapable>{0}(은)는 폭력을 행사할 수 없음</RimMarket.TackleIncapable>
+  <RimMarket.MessageSnatched>도둑입니다! {0}(이)가 {2} 노점에서 {1}(을)를 훔쳐 달아나고 있습니다. 정착민을 선택한 뒤 도둑을 우클릭하면 제압할 수 있습니다.</RimMarket.MessageSnatched>
+  <RimMarket.MessageThiefDeterred>{0}(이)가 노점을 살피고 지켜보는 사람 수를 세더니, 오늘은 정직하게 살기로 했습니다.</RimMarket.MessageThiefDeterred>
+  <RimMarket.MessageThiefCaughtBy>{0}(이)가 도둑 {1}(을)를 제압했습니다. 물건은 상인에게 돌려줍니다. 현행범이므로 수감해도 소속 세력의 기분을 상하게 하지 않습니다. 그대로 두면 의식을 되찾은 뒤 절뚝거리며 집으로 돌아갑니다.</RimMarket.MessageThiefCaughtBy>
+  <RimMarket.MessageThiefCaught>도둑 {0}(이)가 쓰러졌습니다. 물건은 상인에게 돌려줍니다. 현행범이므로 수감해도 소속 세력의 기분을 상하게 하지 않습니다. 그대로 두면 의식을 되찾은 뒤 절뚝거리며 집으로 돌아갑니다.</RimMarket.MessageThiefCaught>
+  <RimMarket.MessageCulpritCaptured>{0}(이)가 현행범으로 붙잡혔습니다. {1}(은)는 체포에 반감을 품지 않으며, 풀어 줘도 고마워하지 않습니다.</RimMarket.MessageCulpritCaptured>
+  <RimMarket.CaughtRedHanded>현행범이므로 반감 없음</RimMarket.CaughtRedHanded>
+  <RimMarket.MessageThiefEscaped>도둑이 {0}(을)를 훔쳐 달아났습니다. {1} 상인은 시장 탓을 하며 일찍 철수할 것입니다.</RimMarket.MessageThiefEscaped>
+  <RimMarket.MessageTakingStall>{0} 상단이 시장으로 향합니다. {1}(이)가 노점을 차지합니다.</RimMarket.MessageTakingStall>
+  <RimMarket.MessageMarketFull>시장에서 받을 수 있는 상인 수가 한도에 도달했습니다. {0} 상단은 상인 한 명이 떠날 때까지 밖에서 기다립니다.</RimMarket.MessageMarketFull>
+  <RimMarket.MessageNoFreeStall>모든 노점이 사용 중입니다. {0} 상단은 빈 노점이 생길 때까지 밖에서 기다립니다.</RimMarket.MessageNoFreeStall>
+  <RimMarket.MessageNoReachableStall>{0} 상단이 접근할 수 있는 빈 노점이 없습니다. 노점을 선택해 무엇이 막고 있는지 확인하세요.</RimMarket.MessageNoReachableStall>
+  <RimMarket.MessageCannotAfford>{0} 상단은 노점 사용료 {1} 은을 낼 수 없어 시장 밖에 머뭅니다.</RimMarket.MessageCannotAfford>
+  <RimMarket.MessageFeePaid>{0}(이)가 노점 사용료를 냈습니다. 계산대에 {1} 은을 놓았습니다.</RimMarket.MessageFeePaid>
+  <RimMarket.MessageFeeUnpaid>{0} 상인에게는 노점 사용료로 낼 돈도 물건도 없었습니다. 그래도 노점을 이용합니다.</RimMarket.MessageFeeUnpaid>
+  <RimMarket.MessageSharePaid>{0}(이)가 시장의 몫인 {1} 은을 계산대에 놓았습니다.</RimMarket.MessageSharePaid>
+  <RimMarket.MessagePackingUp>{0} 상인이 짐을 챙겨 시장을 떠납니다.</RimMarket.MessagePackingUp>
+  <RimMarket.MessageMarketClosedLeaving>시장 영업을 마칩니다. {0} 상인이 짐을 챙깁니다.</RimMarket.MessageMarketClosedLeaving>
+  <RimMarket.MessageStallGone>노점이 사라졌습니다. {0} 상인이 짐을 챙겨 떠납니다.</RimMarket.MessageStallGone>
+  <RimMarket.MessageLeavingEarly>{0} 상인이 시장을 일찍 떠납니다.</RimMarket.MessageLeavingEarly>
+  <RimMarket.MessageFeudLeaving>{0} 상인은 이제 적대 관계가 된 {1} 옆에서 거래하려 하지 않습니다. 누군가 무기를 뽑기 전에 짐을 챙깁니다.</RimMarket.MessageFeudLeaving>
+  <RimMarket.MessageMovingStall>{0} 상인이 다른 노점으로 옮깁니다.</RimMarket.MessageMovingStall>
+  <RimMarket.MessageMarketClosed>시장 상인 {0}명을 돌려보냈습니다.</RimMarket.MessageMarketClosed>
+  <RimMarket.MessageHaggleWon>{0}(이)가 상인을 설득했습니다. 가격이 {1}% 유리해졌습니다.</RimMarket.MessageHaggleWon>
+  <RimMarket.MessageHaggleLost>{0}(이)가 너무 무리하게 흥정했습니다. {1}(이)가 기분이 상해 가격이 불리해지고, 노점도 더 일찍 닫습니다.</RimMarket.MessageHaggleLost>
+  <RimMarket.ReputationLabel>평판</RimMarket.ReputationLabel>
+  <RimMarket.ReputationDesc>상인들이 시장을 어떻게 평가하는지와 그 평가가 주는 영향을 확인합니다.</RimMarket.ReputationDesc>
+  <RimMarket.MarkerReputation>평판: {0}</RimMarket.MarkerReputation>
+  <RimMarket.StallRepBetter>시장의 평판으로 가격이 {0}% 유리해짐</RimMarket.StallRepBetter>
+  <RimMarket.StallRepWorse>시장의 평판으로 가격이 {0}% 불리해짐</RimMarket.StallRepWorse>
+  <RimMarket.AxisSafety>안전</RimMarket.AxisSafety>
+  <RimMarket.AxisFairness>공정한 거래</RimMarket.AxisFairness>
+  <RimMarket.AxisFees>사용료</RimMarket.AxisFees>
+  <RimMarket.AxisAppeal>매력</RimMarket.AxisAppeal>
+  <RimMarket.RepSafe>안전함</RimMarket.RepSafe>
+  <RimMarket.RepCutthroat>무법천지</RimMarket.RepCutthroat>
+  <RimMarket.RepHonest>정직함</RimMarket.RepHonest>
+  <RimMarket.RepGrasping>탐욕스러움</RimMarket.RepGrasping>
+  <RimMarket.RepLowTax>낮은 세금</RimMarket.RepLowTax>
+  <RimMarket.RepRacket>착취</RimMarket.RepRacket>
+  <RimMarket.RepLively>활기참</RimMarket.RepLively>
+  <RimMarket.RepShabby>초라함</RimMarket.RepShabby>
+  <RimMarket.RepUnknown>알려지지 않음</RimMarket.RepUnknown>
+  <RimMarket.RepNotorious>악명 높음</RimMarket.RepNotorious>
+  <RimMarket.RepDubious>미심쩍음</RimMarket.RepDubious>
+  <RimMarket.RepUnremarkable>평범함</RimMarket.RepUnremarkable>
+  <RimMarket.RepRespectable>믿을 만함</RimMarket.RepRespectable>
+  <RimMarket.RepRenowned>명성 높음</RimMarket.RepRenowned>
+  <RimMarket.RepWindowTitle>시장 평판: {0}</RimMarket.RepWindowTitle>
+  <RimMarket.RepNotEstablished>시장을 운영한 날이 너무 적어 아직 평가할 수 없습니다. 시장을 몇 번 더 열어 보세요.</RimMarket.RepNotEstablished>
+  <RimMarket.RepEffectsHeader>평판의 영향:</RimMarket.RepEffectsHeader>
+  <RimMarket.RepEffectCaravans>소문이 퍼집니다. 시장을 찾는 추가 상단이 약 {0}일마다 도착합니다.</RimMarket.RepEffectCaravans>
+  <RimMarket.RepEffectRare>드문 종류의 상인이 찾아올 가능성이 높아집니다.</RimMarket.RepEffectRare>
+  <RimMarket.RepEffectRefusal>상단의 약 {0}%가 시장에서 노점을 여는 것을 거부합니다.</RimMarket.RepEffectRefusal>
+  <RimMarket.RepEffectPricesBetter>상인들이 당신의 노점에서 {0}% 유리한 가격을 제시합니다.</RimMarket.RepEffectPricesBetter>
+  <RimMarket.RepEffectPricesWorse>상인들이 당신의 노점에서 {0}% 더 높은 가격을 부릅니다.</RimMarket.RepEffectPricesWorse>
+  <RimMarket.RepEffectNone>아직 영향이 없습니다. 당신의 시장은 유명하지도, 악명 높지도 않습니다.</RimMarket.RepEffectNone>
+  <RimMarket.RepEffectsOff>모드 설정에서 평판의 영향이 꺼져 있습니다.</RimMarket.RepEffectsOff>
+  <RimMarket.RepJournal>최근 시장 운영 기록</RimMarket.RepJournal>
+  <RimMarket.RepJournalEmpty>아직 시장을 운영한 적이 없습니다.</RimMarket.RepJournalEmpty>
+  <RimMarket.RepJournalLine>{0} 전: {2} 소속 {1}(이)가 {3} 철수했습니다.</RimMarket.RepJournalLine>
+  <RimMarket.RepJournalLineReasons>{0} 전: {2} 소속 {1}(이)가 {3} 철수했습니다 ({4}).</RimMarket.RepJournalLineReasons>
+  <RimMarket.RepGlobal>시장 전체 (모든 세력)</RimMarket.RepGlobal>
+  <RimMarket.RepFactionTitle>{0}의 평가: {1}</RimMarket.RepFactionTitle>
+  <RimMarket.RepFactionNote>막대는 이 세력이 직접 방문하며 쌓은 경험을 보여 줍니다. 이 세력의 평가는 그 경험({0}%)과 시장에 대한 전반적인 소문을 함께 반영합니다.</RimMarket.RepFactionNote>
+  <RimMarket.RepFactionUnknown>{0}의 방문 횟수가 너무 적어 아직 자체 경험만으로 판단할 수 없습니다.</RimMarket.RepFactionUnknown>
+  <RimMarket.RepEffectsHeaderFaction>이 세력의 상단에 미치는 영향:</RimMarket.RepEffectsHeaderFaction>
+  <RimMarket.RepEffectRefusalFaction>이 세력의 상단이 노점을 여는 것을 거부할 확률은 약 {0}%입니다.</RimMarket.RepEffectRefusalFaction>
+  <RimMarket.VerdictPleased>미소를 지으며</RimMarket.VerdictPleased>
+  <RimMarket.VerdictGrumbling>투덜거리며</RimMarket.VerdictGrumbling>
+  <RimMarket.VerdictNeutral>아무 말 없이</RimMarket.VerdictNeutral>
+  <RimMarket.MessageVerdictPleased>{0} 상인이 미소를 지으며 철수합니다: {1}.</RimMarket.MessageVerdictPleased>
+  <RimMarket.MessageVerdictGrumbling>{0} 상인이 {1} 때문에 투덜거리며 철수합니다.</RimMarket.MessageVerdictGrumbling>
+  <RimMarket.MessageRefuseUnsafe>{0} 상단은 시장이 도둑 소굴이라는 소문을 듣고 밖에서 야영합니다.</RimMarket.MessageRefuseUnsafe>
+  <RimMarket.MessageRefuseUnfair>{0} 상단은 시장에서 상인이 부당한 대우를 받는다는 소문을 듣고 밖에서 야영합니다.</RimMarket.MessageRefuseUnfair>
+  <RimMarket.MessageRefuseRacket>{0} 상단은 부당한 사용료를 내지 않으려 밖에서 야영합니다.</RimMarket.MessageRefuseRacket>
+  <RimMarket.MessageRefuseShabby>{0} 상단은 시장이 돌아서 찾아갈 가치가 없다는 소문을 듣고 밖에서 야영합니다.</RimMarket.MessageRefuseShabby>
+  <RimMarket.MessageRefuseGrudge>{0} 상단은 이곳에서의 지난 장사 경험을 기억하고 밖에서 야영합니다.</RimMarket.MessageRefuseGrudge>
+  <RimMarket.TakingsLine>매출: {0}.</RimMarket.TakingsLine>
+  <RimMarket.TakingsNone>거래가 없었음.</RimMarket.TakingsNone>
+  <RimMarket.TakingsBought>당신이 {0} 은어치의 상품을 구매함</RimMarket.TakingsBought>
+  <RimMarket.TakingsSold>당신이 상인에게 {0} 은어치의 상품을 판매함</RimMarket.TakingsSold>
+  <RimMarket.TakingsGuests>손님이 {0} 지출함</RimMarket.TakingsGuests>
+  <RimMarket.TakingsFees>시장이 사용료 {0} 징수함</RimMarket.TakingsFees>
+  <RimMarket.TakingsInn>여관이 {0} 벌어들임</RimMarket.TakingsInn>
+  <RimMarket.Settings.AwayStalls>다른 마을의 노점</RimMarket.Settings.AwayStalls>
+  <RimMarket.Settings.AwayStallsHint>상단이 우호적인 정착지에서 하루 동안 노점을 열어 마을 주민에게 상품을 팔 수 있습니다. 동맹은 노점 사용료를 적게 받습니다. 식량과 약품은 상단이 보유합니다.</RimMarket.Settings.AwayStallsHint>
+  <RimMarket.AwayOption>{0}에서 시장 노점 운영 (하루)</RimMarket.AwayOption>
+  <RimMarket.AwayReport>{0}에서 노점을 열러 가는 중</RimMarket.AwayReport>
+  <RimMarket.AwayAlreadyHolding>이미 노점 운영 중</RimMarket.AwayAlreadyHolding>
+  <RimMarket.AwayStallTaken>다른 아군 상단이 이곳에서 노점 운영 중</RimMarket.AwayStallTaken>
+  <RimMarket.AwayCooldown>최근에 이 시장에서 노점을 운영했음. {0} 후 다시 방문 가능</RimMarket.AwayCooldown>
+  <RimMarket.AwayNoSeller>거래할 수 있는 사람이 없음</RimMarket.AwayNoSeller>
+  <RimMarket.AwayNothingToSell>상대가 원하는 상품이 없음</RimMarket.AwayNothingToSell>
+  <RimMarket.AwayCannotStart>{0}: 노점을 운영할 수 없습니다 ({1}).</RimMarket.AwayCannotStart>
+  <RimMarket.AwayStarted>{0}(이)가 {1} 시장에서 하루 동안 노점을 엽니다. 노점 사용료는 매출의 {2}%입니다.</RimMarket.AwayStarted>
+  <RimMarket.AwayTownHolding>당신의 상단 {0}(이)가 이곳 시장에서 노점을 운영합니다.</RimMarket.AwayTownHolding>
+  <RimMarket.AwayTownCooldown>최근에 이곳에서 노점을 운영했습니다. {0} 후 이 시장에서 다시 노점을 열 수 있습니다.</RimMarket.AwayTownCooldown>
+  <RimMarket.AwayCaravanInspect>{0}에서 노점 운영 중: 남은 시간 {1}, 물건 {2}개를 팔아 {3} 은을 벌었음.</RimMarket.AwayCaravanInspect>
+  <RimMarket.AwayInspectFestival>축제일: 평소의 두 배에 달하는 인파.</RimMarket.AwayInspectFestival>
+  <RimMarket.AwayInspectRival>경쟁 상인이 고객의 절반을 빼앗아 감.</RimMarket.AwayInspectRival>
+  <RimMarket.AwayPackUpLabel>노점 철수</RimMarket.AwayPackUpLabel>
+  <RimMarket.AwayPackUpDesc>지금 노점을 닫고 떠날 준비를 합니다. 상단을 이동시켜도 마찬가지입니다.</RimMarket.AwayPackUpDesc>
+  <RimMarket.AwayEventRival>경쟁 상인이 {0}의 광장 맞은편에 노점을 차렸습니다. 고객의 절반이 그쪽으로 발길을 돌립니다.</RimMarket.AwayEventRival>
+  <RimMarket.AwayEventFestival>{0}의 축제일입니다. 평소의 두 배에 달하는 인파가 몰렸고, 모두 돈을 쓸 여유가 있습니다.</RimMarket.AwayEventFestival>
+  <RimMarket.AwayEventRich>부유한 고객이 흥정도 없이 {0}(을)를 {1} 은에 샀습니다. 이것도 나름 무례한 행동입니다.</RimMarket.AwayEventRich>
+  <RimMarket.AwayEventPickpocketCaught>{0}(이)가 소매치기의 손목을 붙잡아 노점에서 아무것도 가져가지 못하게 했습니다.</RimMarket.AwayEventPickpocketCaught>
+  <RimMarket.AwayEventPickpocket>소매치기가 {1} {0}개를 훔쳐 달아났습니다. 늘 그렇듯, 아무도 아무것도 보지 못했습니다.</RimMarket.AwayEventPickpocket>
+  <RimMarket.AwayLost>{0}의 노점이 사라졌습니다. 상단이나 시장이 더 이상 그곳에 없습니다.</RimMarket.AwayLost>
+  <RimMarket.AwayEndNormal>{0}(이)가 장사를 마치고 {1}의 노점을 철수합니다.</RimMarket.AwayEndNormal>
+  <RimMarket.AwayEndPackedUp>{0}(이)가 {1}의 노점을 일찍 철수합니다.</RimMarket.AwayEndPackedUp>
+  <RimMarket.AwayEndMoved>{0}(이)가 노점을 챙겨 {1}(을)를 떠났습니다.</RimMarket.AwayEndMoved>
+  <RimMarket.AwayEndSoldOut>{0}(이)가 {1} 시장에서 원하는 상품을 모두 팔아 짐을 챙깁니다.</RimMarket.AwayEndSoldOut>
+  <RimMarket.AwayTakings>매출: 물건 {0}개를 팔아 {1} 은을 벌었으며, 그중 {2}(을)를 시장에 냈습니다.</RimMarket.AwayTakings>
+  <RimMarket.AwayNoSales>아무것도 팔리지 않았습니다.</RimMarket.AwayNoSales>
+  <RimMarket.Settings.SlaveAuctions>노예 경매</RimMarket.Settings.SlaveAuctions>
+  <RimMarket.Settings.SlaveAuctionsHint>노예를 판매하는 상단이 시장에 자리를 잡고 광장에 경매 기둥이 있으면, 노예 상인이 한 명씩 경매에 부칩니다. 다른 세력의 구매자와 당신의 손님들이 입찰에 참여하며, 당신도 참여할 수 있습니다.</RimMarket.Settings.SlaveAuctionsHint>
+  <RimMarket.AuctionBuyerNamed>{1} 소속 {0}</RimMarket.AuctionBuyerNamed>
+  <RimMarket.AuctionBuyersComing>구매자들이 경매에 참여하러 오는 중입니다: {0}. 기둥 앞에 앉아 자신의 은으로 입찰하고, 낙찰받은 노예를 데리고 떠납니다.</RimMarket.AuctionBuyersComing>
+  <RimMarket.AuctionIdle>진행 중인 경매 없음.</RimMarket.AuctionIdle>
+  <RimMarket.AuctionNextLot>경매 진행 중: {0} 후 다음 노예가 나옴.</RimMarket.AuctionNextLot>
+  <RimMarket.AuctionLotLine>경매 번호 {0}: {1}, 가치 약 {2} 은.</RimMarket.AuctionLotLine>
+  <RimMarket.AuctionBidLine>현재 입찰가: {0} 은, 입찰자 {1}. {2} 후 낙찰됩니다.</RimMarket.AuctionBidLine>
+  <RimMarket.AuctionColonySilver>정착지에서 입찰에 쓸 수 있는 은: {0}.</RimMarket.AuctionColonySilver>
+  <RimMarket.AuctionLeaderYou>당신의 정착지</RimMarket.AuctionLeaderYou>
+  <RimMarket.AuctionLeaderNone>아직 없음</RimMarket.AuctionLeaderNone>
+  <RimMarket.AuctionBidLabel>{0} 입찰</RimMarket.AuctionBidLabel>
+  <RimMarket.AuctionBidDesc>{0}(을)를 사기 위해 {1} 은을 입찰합니다. 낙찰될 때까지 더 높은 입찰이 없으면 보관 구역에서 은을 지불하고, 노예 상인에게 직접 구매한 것처럼 {0}(을)를 얻습니다.</RimMarket.AuctionBidDesc>
+  <RimMarket.AuctionYouLead>당신의 정착지가 최고 입찰가를 제시함</RimMarket.AuctionYouLead>
+  <RimMarket.AuctionNotEnoughSilver>보관 구역에 {0} 입찰에 필요한 은이 부족함</RimMarket.AuctionNotEnoughSilver>
+  <RimMarket.AuctionAnnounced>{0} 노예 상인이 두 시간 후 당신의 경매 기둥에서 데려온 노예 {1}명을 경매에 부칩니다. 은을 준비하세요.</RimMarket.AuctionAnnounced>
+  <RimMarket.AuctionLotOpen>경매 번호 {0}: 기둥에 {1}(이)가 나왔습니다. 시작 입찰가는 {2} 은입니다.</RimMarket.AuctionLotOpen>
+  <RimMarket.AuctionLotWithdrawn>{0}(이)가 경매 기둥에서 내려왔습니다.</RimMarket.AuctionLotWithdrawn>
+  <RimMarket.AuctionOver>{0} 노예 상인이 경매를 마칩니다.</RimMarket.AuctionOver>
+  <RimMarket.AuctionOutbid>{0}(이)가 {1} 은을 입찰해 당신의 정착지보다 높은 가격을 제시했습니다.</RimMarket.AuctionOutbid>
+  <RimMarket.AuctionCannotPay>낙찰 시점에 정착지가 {0}의 대금을 낼 수 없었습니다. 노예 상인이 그대로 데리고 있습니다.</RimMarket.AuctionCannotPay>
+  <RimMarket.AuctionSoldToYou>당신의 정착지에 낙찰됨: {0}, {1} 은.</RimMarket.AuctionSoldToYou>
+  <RimMarket.AuctionSoldTo>{0}(이)가 {1}에게 {2} 은에 팔렸습니다.</RimMarket.AuctionSoldTo>
+  <RimMarket.AuctionNoTakers>{0}(을)를 사겠다는 사람이 없습니다. 노예 상인이 그대로 데리고 있습니다.</RimMarket.AuctionNoTakers>
+  <RimMarket.AuctionNoSlaves>{0} 노예 상인은 이번에 판매할 노예가 없어 경매를 열지 않습니다.</RimMarket.AuctionNoSlaves>
+  <RimMarket.AuctionNoSlavesIdeo>{0} 노예 상인에게 판매할 노예가 없습니다. 수레의 간판에 뭐라고 쓰여 있든, 이들의 이념은 노예제를 허용하지 않습니다. 오늘은 경매가 없습니다.</RimMarket.AuctionNoSlavesIdeo>
+  <RimMarket.AuctionNoBlock>{0} 노예 상인이 판매할 노예({1})를 데려왔지만, 이 시장 광장에는 경매 기둥이 없습니다.</RimMarket.AuctionNoBlock>
+  <RimMarket.AlertNoStall>상단에 노점 필요</RimMarket.AlertNoStall>
+  <RimMarket.AlertNoStallDesc>다음 상단은 시장에서 노점을 열고 싶어 하지만 열 수 없습니다:\n\n{0}\n\n노점을 더 짓거나 빈 노점으로 가는 길을 확보하세요. 노점이 비면 바로 장사를 시작하며, 그때까지 밖에서 야영합니다.</RimMarket.AlertNoStallDesc>
+  <RimMarket.WaitNoFreeStall>모든 노점이 사용 중</RimMarket.WaitNoFreeStall>
+  <RimMarket.WaitUnreachable>빈 노점에 접근할 수 없음</RimMarket.WaitUnreachable>
+  <RimMarket.WaitMarketFull>시장의 상인 수가 모드 설정의 한도에 도달함</RimMarket.WaitMarketFull>
+  <RimMarket.AlertThief>도둑 도주 중</RimMarket.AlertThief>
+  <RimMarket.AlertThiefDesc>상인의 물건을 훔쳐 달아나는 중:\n\n{0}\n\n지도 가장자리에 도달하기 전에 정착민을 선택해 도둑을 우클릭하면 제압할 수 있습니다.</RimMarket.AlertThiefDesc>
+  <RimMarket.MessageWordSpread>시장 소문이 퍼졌습니다. {0}의 상단({1})이 장사를 하러 찾아옵니다.</RimMarket.MessageWordSpread>
+  <RimMarket.ReasonMerchantHurt>상인의 부상</RimMarket.ReasonMerchantHurt>
+  <RimMarket.ReasonCaravanHurt>상단 인원의 손실</RimMarket.ReasonCaravanHurt>
+  <RimMarket.ReasonSafe>조용하고 안전한 광장</RimMarket.ReasonSafe>
+  <RimMarket.ReasonFullDay>하루 내내 이어진 장사</RimMarket.ReasonFullDay>
+  <RimMarket.ReasonClosedEarly>이른 철수 요구</RimMarket.ReasonClosedEarly>
+  <RimMarket.ReasonStallGone>노점의 상실</RimMarket.ReasonStallGone>
+  <RimMarket.ReasonNoFee>무료 노점</RimMarket.ReasonNoFee>
+  <RimMarket.ReasonGentleFee>저렴한 사용료</RimMarket.ReasonGentleFee>
+  <RimMarket.ReasonSteepFee>비싼 사용료</RimMarket.ReasonSteepFee>
+  <RimMarket.ReasonRacket>착취나 다름없는 사용료</RimMarket.ReasonRacket>
+  <RimMarket.ReasonTaxedTwice>하루에 두 번 낸 세금</RimMarket.ReasonTaxedTwice>
+  <RimMarket.ReasonHandsome>보기 좋은 광장</RimMarket.ReasonHandsome>
+  <RimMarket.ReasonShabby>초라한 광장</RimMarket.ReasonShabby>
+  <RimMarket.ReasonBigMarket>노점이 많은 제대로 된 시장</RimMarket.ReasonBigMarket>
+  <RimMarket.ReasonGoodSales>손님에게서 올린 높은 매출</RimMarket.ReasonGoodSales>
+  <RimMarket.ReasonBusy>많은 구경꾼</RimMarket.ReasonBusy>
+  <RimMarket.ReasonInnFine>여관에서 보낸 편안한 밤</RimMarket.ReasonInnFine>
+  <RimMarket.ReasonInnPoor>여관에서 보낸 불편한 밤</RimMarket.ReasonInnPoor>
+  <RimMarket.ReasonInnSteep>터무니없이 비싼 침대 요금</RimMarket.ReasonInnSteep>
+  <RimMarket.ReasonThiefCaught>도둑 체포</RimMarket.ReasonThiefCaught>
+  <RimMarket.ReasonThiefDeterred>도둑 접근 저지</RimMarket.ReasonThiefDeterred>
+  <RimMarket.ReasonRobbed>도둑의 도주</RimMarket.ReasonRobbed>
+  <RimMarket.ReasonHaggledHard>끈질긴 흥정</RimMarket.ReasonHaggledHard>
+  <RimMarket.ReasonInsulted>모욕적인 흥정</RimMarket.ReasonInsulted>
+  <RimMarket.Settings.ColonyShopperDays>정착지 노점의 쇼핑객 무리 방문 간격</RimMarket.Settings.ColonyShopperDays>
+  <RimMarket.Settings.ColonyShopperDaysHint>마을에 상인이 없을 때 정착지 노점을 찾아오는 쇼핑객 무리의 방문 빈도입니다. 낮에 시장이 열려 있는 시간만 계산하며, 상품 가치의 110%에 판매할 때를 기준으로 합니다. 더 싸거나 비싸게 파는 노점은 아래 설정에 따라 방문 빈도가 달라집니다.</RimMarket.Settings.ColonyShopperDaysHint>
+  <RimMarket.Settings.BargainEffect>가격의 영향</RimMarket.Settings.BargainEffect>
+  <RimMarket.Settings.BargainEffectHint>100%: 상품 가치의 85% 이하에 판매하는 노점에는 쇼핑객이 두 배의 빈도로 찾아오며, 상품 가치의 두 배 가격에 판매하는 노점에는 약 3분의 1의 빈도로 찾아옵니다. 0%: 가격은 구매 여부에만 영향을 주며 방문 빈도를 바꾸지 않습니다. 200%: 저렴한 상품이 지역 전체의 화젯거리가 됩니다.</RimMarket.Settings.BargainEffectHint>
+  <RimMarket.Settings.Shopkeepers>정착지 노점에 점포 관리인 필요</RimMarket.Settings.Shopkeepers>
+  <RimMarket.Settings.ShopkeepersHint>끄면 손님의 양심에 맡겨 정착지 노점을 무인으로 운영합니다. 켜면 고객이 마을에 있는 동안 점포 관리 작업을 맡은 정착민이 계산대를 지켜야 합니다. 사교 능력이 높으면 판매 가격이 올라가고, 고객은 조금 더 쉽게 구매하며, 판매할 때마다 담당자가 경험을 얻습니다. 작업 탭의 점포 관리 항목은 게임을 재시작하면 나타납니다.</RimMarket.Settings.ShopkeepersHint>
+  <RimMarket.FairAnnounceLabel>대장터 개최 공고</RimMarket.FairAnnounceLabel>
+  <RimMarket.FairAnnounceDesc>모든 우호적인 세력에 전령을 보냅니다. {1}일 후 새벽부터 해 질 녘까지 대장터를 엽니다. 최대 {2}개 상단이 동시에 노점을 열고, 평소보다 두둑한 지갑을 가진 쇼핑객들이 몰려옵니다. 정착민들은 하루를 즐겁게 보내고, 소매치기들은 일주일 벌이를 해냅니다. 좋은 대장터는 시장의 명성을 크게 높여 줍니다.\n\n전령 비용은 {0} 은입니다.</RimMarket.FairAnnounceDesc>
+  <RimMarket.FairAnnounceConfirm>{0}에 대장터를 열겠습니까? 전령 비용 {1} 은을 지금 지불합니다.</RimMarket.FairAnnounceConfirm>
+  <RimMarket.FairCancelLabel>대장터 취소</RimMarket.FairCancelLabel>
+  <RimMarket.FairCancelDesc>대장터를 취소합니다. 전령 비용은 돌려받지 못합니다.</RimMarket.FairCancelDesc>
+  <RimMarket.FairCancelConfirm>대장터를 취소하겠습니까? 전령들은 은을 돌려주지 않으며, 취소 이유도 모두에게 알릴 것입니다.</RimMarket.FairCancelConfirm>
+  <RimMarket.FairCancelled>대장터가 취소되었습니다.</RimMarket.FairCancelled>
+  <RimMarket.FairCancelledMarker>시장 표식이 사라져 대장터도 취소되었습니다.</RimMarket.FairCancelledMarker>
+  <RimMarket.FairAlreadyPlanned>이미 대장터가 예정되어 있음</RimMarket.FairAlreadyPlanned>
+  <RimMarket.FairTooSoon>아직 지난 대장터 이야기가 오갑니다. {0} 기다리세요.</RimMarket.FairTooSoon>
+  <RimMarket.FairNeedStalls>표식 주변에 시장 노점이 최소 {0}개 필요함</RimMarket.FairNeedStalls>
+  <RimMarket.FairNoSilver>전령 비용 {0} 은이 필요함</RimMarket.FairNoSilver>
+  <RimMarket.FairAnnouncedLabel>대장터 개최 공고됨</RimMarket.FairAnnouncedLabel>
+  <RimMarket.FairAnnouncedText>전령들이 길을 나섰습니다. {0}, {1}시부터 {2}시까지 대장터를 엽니다.\n\n그날 모든 우호적인 세력의 상단이 한꺼번에 노점을 열려고 찾아오고, 수많은 쇼핑객도 뒤따를 것입니다. 노점을 비워 두고 광장을 안전하게 유지하세요.</RimMarket.FairAnnouncedText>
+  <RimMarket.FairOpens>대장터가 열렸습니다. 상단들이 오는 중입니다.</RimMarket.FairOpens>
+  <RimMarket.FairCrowd>{0}에서 대장터를 찾는 인파가 왔습니다.</RimMarket.FairCrowd>
+  <RimMarket.FairOverLabel>대장터 종료</RimMarket.FairOverLabel>
+  <RimMarket.FairOverText>대장터가 끝났고, 광장에는 짓밟힌 풀 냄새가 납니다.\n\n상단: {0} ({1}).\n쇼핑객 무리: {2}.\n걷은 노점 사용료: {3} 은.\n정착지 노점 매출: {4} 은.\n방문객이 상인에게 쓴 돈: {5} 은.\n잡은 도둑: {6}. 달아난 도둑: {7}.\n\n대장터 소식과 함께 시장의 이름도 퍼지고 있습니다. 상단들은 내일 아침에 철수합니다.</RimMarket.FairOverText>
+  <RimMarket.FairOverEmpty>대장터에 아무도 오지 않았습니다. 전령들은 모두에게 알렸다고 맹세합니다. 시장의 명성은 나아지지 않았습니다.</RimMarket.FairOverEmpty>
+  <RimMarket.FairPrizeMote>대장터 최고의 노점!</RimMarket.FairPrizeMote>
+  <RimMarket.FairPrizeMerchant>심사 결과가 나왔습니다. 새벽부터 {2} 은을 벌어들인 {1} 소속 {0}의 노점이 대장터 최고의 노점으로 선정되었습니다. {1}(은)는 영광으로 여깁니다 (우호도 +{3}).</RimMarket.FairPrizeMerchant>
+  <RimMarket.FairPrizeColony>심사 결과가 나왔습니다. 새벽부터 {0} 은을 벌어들인 정착지 노점이 대장터 최고의 노점으로 선정되었습니다. 정착민들이 두고두고 자랑할 것입니다.</RimMarket.FairPrizeColony>
+  <RimMarket.FairOverWinner>최고의 노점: {1} 소속 {0}, 매출 {2} 은.</RimMarket.FairOverWinner>
+  <RimMarket.FairOverWinnerColony>최고의 노점: 정착지 노점, 매출 {0} 은.</RimMarket.FairOverWinnerColony>
+  <RimMarket.FairInspectAnnounced>대장터 예정: {0}, {1}시부터</RimMarket.FairInspectAnnounced>
+  <RimMarket.FairInspectRunning>오늘 대장터: 상단 {0}개, 쇼핑객 무리 {1}개, {2}시까지</RimMarket.FairInspectRunning>
+  <RimMarket.AlertFairSoon>{0} 후 대장터</RimMarket.AlertFairSoon>
+  <RimMarket.AlertFairSoonDesc>{0}, {1}시에 대장터가 열립니다. 시장을 열어 두고 노점을 비워 두세요. 상단들이 한꺼번에 자리를 잡으러 오고, 인파도 뒤따를 것입니다.</RimMarket.AlertFairSoonDesc>
+  <RimMarket.AlertFairToday>오늘 대장터</RimMarket.AlertFairToday>
+  <RimMarket.AlertFairTodayDesc>대장터는 {0}시까지 열립니다. 상단과 인파가 몰려오고, 정착민은 즐거워하며 소매치기는 바빠질 것입니다.</RimMarket.AlertFairTodayDesc>
+  <RimMarket.Settings.Fair>대장터</RimMarket.Settings.Fair>
+  <RimMarket.Settings.FairHint>시장 표식의 버튼으로 며칠 뒤에 열릴 대장터를 공고합니다. 상단과 인파, 장식 깃발로 가득한 하루가 됩니다. 끄면 대장터를 열 수 없습니다.</RimMarket.Settings.FairHint>
+  <RimMarket.Settings.FairCost>전령 비용</RimMarket.Settings.FairCost>
+  <RimMarket.Settings.FairCooldown>대장터 개최 간격</RimMarket.Settings.FairCooldown>
+  <RimMarket.Settings.TradeRoutes>무역로</RimMarket.Settings.TradeRoutes>
+  <RimMarket.Settings.TradeRoutesHint>통신기로 세력과 대화할 때 무역로 항목을 추가합니다. Medieval Overhaul이 있으면 전서구로도 이용할 수 있습니다. 은을 지불하면 해당 세력의 마을에서 1~2주마다 시장으로 수송대를 보내며, 세계 지도에서 이동을 지켜볼 수 있습니다. 적대적인 마을 근처를 지나거나, Faction Territories and Vassalage가 있을 때 적대 영토를 지나는 수송대는 매복 공격을 받을 수 있습니다. 호위를 붙이면 비용이 더 들지만 도움이 됩니다. 끄면 새 무역로를 열 수 없고 수송대도 출발하지 않지만, 기존 무역로는 유지됩니다.</RimMarket.Settings.TradeRoutesHint>
+  <RimMarket.Settings.RouteOpenCost>개설 비용</RimMarket.Settings.RouteOpenCost>
+  <RimMarket.Settings.RouteToll>수송대당 비용</RimMarket.Settings.RouteToll>
+  <RimMarket.Settings.SpecialOrders>특별 주문</RimMarket.Settings.SpecialOrders>
+  <RimMarket.Settings.SpecialOrdersHint>통신기에서 세력에 비용을 지불하고 원하는 상품으로 가득한 상단을 요청합니다. Medieval Overhaul이 있으면 전령 책상에서도 이용할 수 있습니다. 상단은 노점을 열며, 이미 방문 비용을 지불했으므로 노점 사용료는 면제됩니다.</RimMarket.Settings.SpecialOrdersHint>
+  <RimMarket.OrderOption>특별 주문</RimMarket.OrderOption>
+  <RimMarket.OrderPending>이미 주문이 오는 중</RimMarket.OrderPending>
+  <RimMarket.OrderLimit>주문 한도에 도달함 ({0})</RimMarket.OrderLimit>
+  <RimMarket.OrderPickSettlement>{0}의 어느 마을에 주문하겠습니까? 멀수록 기다리는 시간도 길어지고 비용도 늘어납니다.</RimMarket.OrderPickSettlement>
+  <RimMarket.OrderPickWhat>{0}에게 무엇을 가져오라고 할까요?\n\n상품 종류를 선택하세요. 평소 판매하는 물건에 더해 해당 종류의 상품을 상단에 싣습니다. 주문 비용은 운송비만 포함합니다. 도착하면 상품은 상인의 가격으로 따로 구매해야 하며, 노점 사용료는 면제됩니다.\n\n특정 물건을 찾고 있나요? 대신 통신기에서 구매 공고를 내어 모든 우호적인 마을의 제안을 받아 보세요.\n\n정착지의 은: {1}.</RimMarket.OrderPickWhat>
+  <RimMarket.OrderFamilySmall>{0}, 수레 한 대 분량 ({1} 은)</RimMarket.OrderFamilySmall>
+  <RimMarket.OrderFamilyLarge>{0}, 상단 하나 분량 ({1} 은)</RimMarket.OrderFamilyLarge>
+  <RimMarket.OrderFamilyNothing>해당 종류의 판매 상품 없음</RimMarket.OrderFamilyNothing>
+  <RimMarket.OrderFamily_Provisions>식량과 약품</RimMarket.OrderFamily_Provisions>
+  <RimMarket.OrderFamily_Materials>천과 재료</RimMarket.OrderFamily_Materials>
+  <RimMarket.OrderFamily_Arms>무기와 방어구</RimMarket.OrderFamily_Arms>
+  <RimMarket.OrderFamily_Luxuries>사치품</RimMarket.OrderFamily_Luxuries>
+  <RimMarket.OrderWhatSmall>수레 한 대 분량의 {0}</RimMarket.OrderWhatSmall>
+  <RimMarket.OrderWhatLarge>상단 하나 분량의 {0}</RimMarket.OrderWhatLarge>
+  <RimMarket.OrderPlaced>{0}에 주문을 보냈습니다: {1}, 비용 {2} 은. 상품을 모으는 데 시간이 조금 걸린 뒤 출발합니다.</RimMarket.OrderPlaced>
+  <RimMarket.OrderPendingNode>{0}에 보낸 주문: {1}. 지불한 금액: {2} 은.
+
+{3}</RimMarket.OrderPendingNode>
+  <RimMarket.OrderStatusPacking>아직 상품을 모으고 있으며, 약 {0} 후 출발합니다.</RimMarket.OrderStatusPacking>
+  <RimMarket.OrderLeft>주문한 상품이 {0}에서 출발했습니다. 이동에 약 {1} 걸립니다.</RimMarket.OrderLeft>
+  <RimMarket.OrderArrivedLabel>특별 주문 도착</RimMarket.OrderArrivedLabel>
+  <RimMarket.OrderArrivedText>{1}에서 온 {0} 상단이 주문한 상품을 가져왔습니다: {2}.\n\n이미 운송비를 지불했으므로 노점 사용료는 면제됩니다. 종류별 주문 상품은 평소 가격에 판매합니다. 할인해 준다는 말은 없었습니다. 구매 공고로 주문한 상품은 이미 대금을 지불했으므로 바로 건네받습니다.</RimMarket.OrderArrivedText>
+  <RimMarket.OrderTurnedBack>{1}에서 온 상단이 정착지 가장자리에서 기다리다 포기했습니다. 주문 비용 중 {2} 은이 반환됩니다.</RimMarket.OrderTurnedBack>
+  <RimMarket.OrderCancelledGone>{0}(이)가 더 이상 {1}에서 주문 상품을 보내 줄 수 없습니다. {2} 은이 반환됩니다.</RimMarket.OrderCancelledGone>
+  <RimMarket.OrderCancelledHostile>{0}(이)가 적대적으로 돌아서 {1}에서 보내기로 한 주문도 취소되었습니다. {2} 은이 반환됩니다. 적이 돈까지 돌려주는 일은 드뭅니다.</RimMarket.OrderCancelledHostile>
+  <RimMarket.OrderCancelledHome>{1}에서 보낼 주문 상품을 배달할 곳이 없습니다. {2} 은이 반환됩니다.</RimMarket.OrderCancelledHome>
+  <RimMarket.OrderCancelledNoRoad>{1}에서 온 상단이 당신에게 오는 길을 찾지 못했습니다. {2} 은이 반환됩니다.</RimMarket.OrderCancelledNoRoad>
+  <RimMarket.OrderCancelledLost>{1}에서 보낸 주문 상품이 끝내 도착하지 못했습니다. {2} 은이 반환됩니다. 나머지는 이제 누군가의 약탈품이 되었습니다.</RimMarket.OrderCancelledLost>
+  <RimMarket.OrderWindowValue>상품 가치: {0}</RimMarket.OrderWindowValue>
+  <RimMarket.WantedCallLabel>구매 공고 내기</RimMarket.WantedCallLabel>
+  <RimMarket.WantedCallInfo>모든 우호적인 마을에 특정 물건을 요청하고 누가 응답하는지 확인합니다.</RimMarket.WantedCallInfo>
+  <RimMarket.WantedDisabled>설정에서 특별 주문이 꺼져 있음</RimMarket.WantedDisabled>
+  <RimMarket.WantedAlreadyOut>이미 공고가 나가 있음</RimMarket.WantedAlreadyOut>
+  <RimMarket.WantedWindowTitle>구매 공고</RimMarket.WantedWindowTitle>
+  <RimMarket.WantedWindowIntro>원하는 상품을 정확히 지정하세요. 최대 {0}종류까지 선택할 수 있습니다. 공고는 당신과 전쟁 중이지 않은 모든 마을로 전달됩니다. 며칠에 걸쳐 일부 마을이 가격과 소요 시간을 제안합니다. 요청한 수량 중 일부만 제공하거나, 은 대신 물물교환을 제안하기도 합니다.\n\n제안 가격은 대개 운송비와 상품 가치의 상당 부분을 합친 금액이며, 당신을 좋아하면 더 싸게 제안합니다. 제안 가격에 상품 대금도 포함되므로, 상단이 도착하면 바로 상품을 받습니다.</RimMarket.WantedWindowIntro>
+  <RimMarket.WantedPost>공고 내기</RimMarket.WantedPost>
+  <RimMarket.WantedPosted>구매 공고를 냈습니다. 앞으로 며칠에 걸쳐 제안이 들어올 것입니다.</RimMarket.WantedPosted>
+  <RimMarket.WantedNobody>공고에 관심을 보이는 곳이 없습니다. 다른 상품을 요청하거나 먼저 우호 관계를 쌓아 보세요.</RimMarket.WantedNobody>
+  <RimMarket.WantedOfferIn>{0}(이)가 구매 공고에 응답했습니다: {1}.</RimMarket.WantedOfferIn>
+  <RimMarket.WantedSilverWord>{0} 은</RimMarket.WantedSilverWord>
+  <RimMarket.WantedBarterWord>물물교환</RimMarket.WantedBarterWord>
+  <RimMarket.WantedClosed>구매 공고가 종료되었습니다.</RimMarket.WantedClosed>
+  <RimMarket.WantedGizmo>구매 공고 ({0})</RimMarket.WantedGizmo>
+  <RimMarket.WantedGizmoDesc>구매 공고에 들어온 제안을 확인하고, 하나를 수락하거나 공고를 내립니다.</RimMarket.WantedGizmoDesc>
+  <RimMarket.WantedBoardTitle>구매 공고에 들어온 제안</RimMarket.WantedBoardTitle>
+  <RimMarket.WantedBoardHead>요청한 상품: {0}.</RimMarket.WantedBoardHead>
+  <RimMarket.WantedBoardWaiting>아직 응답이 더 올 수 있습니다.</RimMarket.WantedBoardWaiting>
+  <RimMarket.WantedBoardNone>아직 제안이 없습니다. 마을들이 서두르지는 않습니다.</RimMarket.WantedBoardNone>
+  <RimMarket.WantedOfferTitle>{1}의 {0}. 약 {2} 후 도착. {3}</RimMarket.WantedOfferTitle>
+  <RimMarket.WantedPartial>(요청한 상품의 일부만 제공)</RimMarket.WantedPartial>
+  <RimMarket.WantedPaySilver>가격: {0} 은, 지금 지불합니다.</RimMarket.WantedPaySilver>
+  <RimMarket.WantedPayBarter>물물교환: {0}(을)를 원하며, 도착할 때 받습니다. 그때 물건이 없으면 대신 {1} 은을 받습니다.</RimMarket.WantedPayBarter>
+  <RimMarket.WantedBarterMissing>현재 보관 구역에 해당 물건이 없습니다.</RimMarket.WantedBarterMissing>
+  <RimMarket.WantedExpires>제안 유효 기간: {0}.</RimMarket.WantedExpires>
+  <RimMarket.WantedAccept>수락</RimMarket.WantedAccept>
+  <RimMarket.WantedHaggle>흥정</RimMarket.WantedHaggle>
+  <RimMarket.WantedHaggleDesc>말솜씨가 가장 좋은 {0}(이)가 이 제안에 대해 흥정합니다. 제안마다 한 번 시도할 수 있습니다. 적게 깎아 달라고 해도 거절할 수 있으며, 너무 많이 요구하면 제안을 철회할 수 있습니다.</RimMarket.WantedHaggleDesc>
+  <RimMarket.WantedHaggleMenu>{0}의 할인 요구</RimMarket.WantedHaggleMenu>
+  <RimMarket.WantedHaggleAsk>{0} 할인 (성공 확률 {1})</RimMarket.WantedHaggleAsk>
+  <RimMarket.WantedHaggleAskRisky>{0} 할인 (성공 확률 {1}, 실패하면 제안을 철회할 수 있음)</RimMarket.WantedHaggleAskRisky>
+  <RimMarket.WantedHaggleAskSure>{0} 할인 (성공 확률 {1}, 실패하면 제안 철회)</RimMarket.WantedHaggleAskSure>
+  <RimMarket.WantedHaggleDone>이미 이 제안에 대해 흥정했습니다.</RimMarket.WantedHaggleDone>
+  <RimMarket.WantedHaggleNoOne>이곳의 정착민 중 협상할 수 있는 사람이 없습니다.</RimMarket.WantedHaggleNoOne>
+  <RimMarket.WantedHaggleWon>{0}(이)가 {1}(을)를 설득했습니다. 제안 가격이 {2} 은이 되었습니다.</RimMarket.WantedHaggleWon>
+  <RimMarket.WantedHaggleWonBarter>{0}(이)가 {1}(을)를 설득했습니다. 교환할 물건을 더 적게 요구합니다.</RimMarket.WantedHaggleWonBarter>
+  <RimMarket.WantedHaggleRefused>{0}(은)는 양보하지 않습니다. 제안은 그대로 유지됩니다.</RimMarket.WantedHaggleRefused>
+  <RimMarket.WantedHaggleWalked>{0}(이)가 기분이 상해 제안을 철회했습니다.</RimMarket.WantedHaggleWalked>
+  <RimMarket.WantedAccepted>{0}의 제안을 수락했습니다. 상품이 곧 {1}에서 출발합니다.</RimMarket.WantedAccepted>
+  <RimMarket.WantedWithdraw>공고 내리기</RimMarket.WantedWithdraw>
+  <RimMarket.WantedWithdrawConfirm>공고를 내리겠습니까? 모든 제안이 폐기됩니다.</RimMarket.WantedWithdrawConfirm>
+  <RimMarket.WantedBarterTaken>{0}(이)가 교환품을 받았습니다: {1}.</RimMarket.WantedBarterTaken>
+  <RimMarket.WantedBarterSilver>교환품이 없어 {0}(이)가 대신 {1} 은을 받았습니다.</RimMarket.WantedBarterSilver>
+  <RimMarket.WantedBarterFailedLabel>물물교환 무산</RimMarket.WantedBarterFailedLabel>
+  <RimMarket.WantedBarterFailedText>{0}(이)가 {1} 또는 {2} 은을 받으러 왔지만, 어느 쪽도 없었습니다. 주문한 상품은 건네주지 않으며, 이번 일을 기억할 것입니다.</RimMarket.WantedBarterFailedText>
+  <RimMarket.WantedHandedOver>{0}(이)가 주문한 상품을 건넸습니다: {1}.</RimMarket.WantedHandedOver>
+  <RimMarket.AlertWantedOffers>공고에 들어온 제안: {0}</RimMarket.AlertWantedOffers>
+  <RimMarket.AlertWantedOffersDesc>마을들이 구매 공고에 응답했습니다. 클릭해 제안을 확인하세요.</RimMarket.AlertWantedOffersDesc>
+  <RimMarket.OrderTooManyLines>한 주문에는 최대 {0}종류의 상품을 담을 수 있습니다.</RimMarket.OrderTooManyLines>
+  <RimMarket.OrderTooBig>한 주문의 최대 가치는 {0}입니다. 아무리 뛰어난 상단이라도 한계가 있습니다.</RimMarket.OrderTooBig>
+  <RimMarket.ConvoyCarryingOrder>주문 상품 운송 중: {0}</RimMarket.ConvoyCarryingOrder>
+  <RimMarket.StallOrderLine>특별 주문으로 방문함: 노점 사용료 면제.</RimMarket.StallOrderLine>
+  <RimMarket.RoutesOption>무역로 ({0}/{1})</RimMarket.RoutesOption>
+  <RimMarket.RoutesNode>{0}(와)과 연결하는 무역로입니다. 해당 세력의 마을에서 정기적으로 시장에 무역 수송대를 보냅니다. 개설할 때 한 번 비용을 내고, 수송대가 도착할 때마다 수송대 비용을 냅니다. 시장의 평판에 따라 총 {1}개의 무역로를 유지할 수 있습니다.</RimMarket.RoutesNode>
+  <RimMarket.RouteLine>{0}: {1}, {2}일 간격. {3}</RimMarket.RouteLine>
+  <RimMarket.RouteStatusOnRoad>수송대가 이동 중이며, 약 {0} 후 도착합니다.</RimMarket.RouteStatusOnRoad>
+  <RimMarket.RouteStatusWaiting>수송대가 정착지 가장자리에서 기다립니다.</RimMarket.RouteStatusWaiting>
+  <RimMarket.RouteStatusNext>다음 수송대는 약 {0} 후 출발합니다.</RimMarket.RouteStatusNext>
+  <RimMarket.RouteOpen>무역로 개설</RimMarket.RouteOpen>
+  <RimMarket.RouteClose>{0}의 무역로 폐쇄</RimMarket.RouteClose>
+  <RimMarket.RouteCloseConfirm>{0}의 무역로를 폐쇄하겠습니까? 수송대 방문이 멈추고 이동 중인 수송대도 돌아갑니다. 지불한 비용은 돌려받지 못합니다.</RimMarket.RouteCloseConfirm>
+  <RimMarket.RouteCloseYes>폐쇄</RimMarket.RouteCloseYes>
+  <RimMarket.RoutePickSettlement>{0}의 어느 마을에서 수송대를 보내게 할까요? 멀수록 이동 거리와 비용이 늘어납니다.</RimMarket.RoutePickSettlement>
+  <RimMarket.RouteSettlementOption>{0} ({1}타일, 이동 시간 약 {2}, {3})</RimMarket.RouteSettlementOption>
+  <RimMarket.RouteRiskSafe>안전한 길</RimMarket.RouteRiskSafe>
+  <RimMarket.RouteRisk>매복 확률 {0}, 주로 {1}</RimMarket.RouteRisk>
+  <RimMarket.RouteEscortNote>이 길에서는 수송대의 약 {0}가 주로 {1}에게 공격을 받습니다. 호위를 붙이면 약 {2}로 줄어들며, 호위가 있는 수송대는 공격을 받아도 대개 무사히 통과합니다.</RimMarket.RouteEscortNote>
+  <RimMarket.RouteWeeklyEscort>매주, 호위 포함: 개설 비용 {0} 은, 이후 수송대당 {1}</RimMarket.RouteWeeklyEscort>
+  <RimMarket.RouteFortnightlyEscort>2주마다, 호위 포함: 개설 비용 {0} 은, 이후 수송대당 {1}</RimMarket.RouteFortnightlyEscort>
+  <RimMarket.RouteStatusAttacked>수송대가 {0}에게 공격받고 있습니다!</RimMarket.RouteStatusAttacked>
+  <RimMarket.RouteStatusEscort>호위 있음.</RimMarket.RouteStatusEscort>
+  <RimMarket.RouteStatusAmbushes>매복 {0}회, 수송대 손실 {1}개.</RimMarket.RouteStatusAmbushes>
+  <RimMarket.ConvoyAmbushed>{0}의 무역 수송대가 {1}에게 매복 공격을 받았습니다!</RimMarket.ConvoyAmbushed>
+  <RimMarket.ConvoyRepelled>{0}의 무역 수송대가 {1}(을)를 격퇴하고 다시 이동합니다. 몇 시간 늦어졌습니다.</RimMarket.ConvoyRepelled>
+  <RimMarket.ConvoyPlundered>{0}의 무역 수송대가 {1}에게서 벗어났지만, 상품의 약 {2}(을)를 잃었습니다. 남은 상품을 가지고 계속 이동합니다.</RimMarket.ConvoyPlundered>
+  <RimMarket.ConvoyLost>{0}의 무역 수송대가 {1}의 공격에 무너졌습니다. 다음 수송대는 예정대로 출발합니다.</RimMarket.ConvoyLost>
+  <RimMarket.ConvoyUnderAttack>{0}에게 공격받는 중! 전투는 약 {1} 후 끝날 것입니다.</RimMarket.ConvoyUnderAttack>
+  <RimMarket.ConvoyEscorted>호위와 함께 이동 중</RimMarket.ConvoyEscorted>
+  <RimMarket.ConvoyPlunderedLine>도중에 상품의 약 {0}(을)를 잃음.</RimMarket.ConvoyPlunderedLine>
+  <RimMarket.RouteNoTowns>수송대를 보낼 마을이 없습니다.</RimMarket.RouteNoTowns>
+  <RimMarket.RouteNoRoad>시장으로 오는 길이 없음</RimMarket.RouteNoRoad>
+  <RimMarket.RouteExists>이미 무역로가 개설되어 있음</RimMarket.RouteExists>
+  <RimMarket.RoutePickKind>{0}의 수송대가 무엇을 가져오게 할까요?</RimMarket.RoutePickKind>
+  <RimMarket.RouteNoKinds>방문하려는 상인이 없음</RimMarket.RouteNoKinds>
+  <RimMarket.RoutePickCadence>{0} 수송대를 {1}에서 얼마나 자주 출발하게 할까요? 개설할 때 한 번 비용을 내고, 수송대가 도착할 때마다 보관 구역과 주거 구역의 은으로 수송대 비용을 지불합니다. 현재 {2} 보유 중입니다. 비용을 지불하지 못하면 수송대가 돌아가고, 마을은 이를 무역로의 문제로 기록합니다.</RimMarket.RoutePickCadence>
+  <RimMarket.RouteWeekly>매주: 개설 비용 {0} 은, 이후 수송대당 {1}</RimMarket.RouteWeekly>
+  <RimMarket.RouteFortnightly>2주마다: 개설 비용 {0} 은, 이후 수송대당 {1}</RimMarket.RouteFortnightly>
+  <RimMarket.RouteTollPaid>{0}의 수송대가 도착했습니다. 운송비 {1} 은을 지불했습니다.</RimMarket.RouteTollPaid>
+  <RimMarket.RouteTollUnpaid>{0}의 수송대가 돌아갔습니다. 수송대 비용 {1} 은을 지불할 수 없었습니다. 무역로 문제 누적 {2}/{3}회.</RimMarket.RouteTollUnpaid>
+  <RimMarket.RouteStatusToll>수송대 비용: {0} 은.</RimMarket.RouteStatusToll>
+  <RimMarket.RouteNoSilver>{0} 은이 필요함</RimMarket.RouteNoSilver>
+  <RimMarket.RouteOpened>합의되었습니다. 첫 {1} 수송대는 하루쯤 안에 {0}에서 출발합니다. 세계 지도에서 확인할 수 있습니다.</RimMarket.RouteOpened>
+  <RimMarket.RouteHostile>적대적인 세력임</RimMarket.RouteHostile>
+  <RimMarket.RouteNeedsMarket>이 정착지에 열린 시장이 없음</RimMarket.RouteNeedsMarket>
+  <RimMarket.RouteUnknownHelp>{0}(은)는 아직 당신의 시장에서 거래하거나 자기 시장에 당신의 노점을 받아 준 적이 없습니다. 먼저 당신의 시장에서 이 세력과 거래하거나, 이 세력의 시장에서 노점을 운영한 뒤 다시 연락하세요.</RimMarket.RouteUnknownHelp>
+  <RimMarket.RouteUnknown>아직 당신의 시장을 모름</RimMarket.RouteUnknown>
+  <RimMarket.RouteGrudge>당신의 시장에 앙심을 품고 있음</RimMarket.RouteGrudge>
+  <RimMarket.RouteLimit>무역로 한도에 도달함</RimMarket.RouteLimit>
+  <RimMarket.RouteConvoyLeft>{1}(을)를 동반한 무역 수송대가 {0}에서 당신의 시장을 향해 출발했습니다. 약 {2} 후 도착할 것입니다.</RimMarket.RouteConvoyLeft>
+  <RimMarket.RouteConvoyWaiting>{0}의 무역 수송대가 정착지 가장자리에서 기다립니다. 당신의 시장에 이들의 적이 있습니다.</RimMarket.RouteConvoyWaiting>
+  <RimMarket.RouteConvoyDelayed>{0}의 무역 수송대가 정착지에 도착했지만 아직 들어올 수 없습니다. 다시 시도할 것입니다.</RimMarket.RouteConvoyDelayed>
+  <RimMarket.RouteConvoyTurnedBack>{0}의 무역 수송대가 기다리다 포기하고 집으로 돌아갔습니다.</RimMarket.RouteConvoyTurnedBack>
+  <RimMarket.RouteStrike>{0}(은)는 시장에서 좋지 않은 하루를 보낸 뒤 무역로에 대한 신뢰를 잃어 가고 있습니다 ({1}/{2}).</RimMarket.RouteStrike>
+  <RimMarket.RouteClosedGone>{0}(와)과의 무역로가 폐쇄되었습니다. 해당 세력이 더 이상 {1}(을)를 소유하지 않아 그곳에서 수송대를 보낼 수 없습니다.</RimMarket.RouteClosedGone>
+  <RimMarket.RouteClosedHostile>{0}(와)과의 무역로가 폐쇄되었습니다. 해당 세력이 적대적으로 돌아섰습니다.</RimMarket.RouteClosedHostile>
+  <RimMarket.RouteClosedHome>{0}(와)과의 무역로가 폐쇄되었습니다. 당신의 시장 마을이 사라졌습니다.</RimMarket.RouteClosedHome>
+  <RimMarket.RouteClosedGrudge>{0}(이)가 {1}에서 출발하는 무역로를 폐쇄합니다. 더 이상 당신의 시장을 신뢰하지 않습니다.</RimMarket.RouteClosedGrudge>
+  <RimMarket.RouteClosedStrikes>{0}(이)가 당신의 시장에서 너무 자주 좋지 않은 일을 겪어 {1}의 무역로를 폐쇄합니다.</RimMarket.RouteClosedStrikes>
+  <RimMarket.RouteClosedNoRoad>{0}(와)과의 무역로가 폐쇄되었습니다. 더 이상 {1}에서 당신의 시장으로 오는 길이 없습니다.</RimMarket.RouteClosedNoRoad>
+  <RimMarket.ConvoyBound>{0}(으)로 향하는 중, 약 {1} 후 도착.</RimMarket.ConvoyBound>
+  <RimMarket.ConvoyWaiting>{0}에 들어가기 위해 대기 중</RimMarket.ConvoyWaiting>
+  <RimMarket.ConvoyCarrying>상인: {0}.</RimMarket.ConvoyCarrying>
+  <RimMarket.Settings.OpenGuide>시장 안내서 열기</RimMarket.Settings.OpenGuide>
+  <RimMarket.Guide.GizmoLabel>안내서</RimMarket.Guide.GizmoLabel>
+  <RimMarket.Guide.GizmoDesc>시장 안내서를 엽니다. 각 시설을 어디에 배치하는지, 이 지도에서 시장에 아직 필요한 것은 무엇인지, 상단이 아직 찾아오지 않는 이유를 확인할 수 있습니다.</RimMarket.Guide.GizmoDesc>
+  <RimMarket.GuideLetterLabel>첫 시장</RimMarket.GuideLetterLabel>
+  <RimMarket.GuideLetterText>시장 표식을 놓았습니다. 이제 반경 안에 시장 노점을 몇 개 짓고, 각 계산대 끝의 상인 자리를 비워 두세요. 상단이 지도 가장자리에서 들어올 길도 확보하세요.\n\n표식을 선택하고 안내서를 누르면 시장에 아직 필요한 것과 상단이 찾아오지 않는 이유를 단계별로 확인할 수 있습니다.</RimMarket.GuideLetterText>
+  <RimMarket.Guide.Title>시장 안내서</RimMarket.Guide.Title>
+  <RimMarket.Guide.Progress>시장 준비: {1}단계 중 {0}단계 완료</RimMarket.Guide.Progress>
+  <RimMarket.Guide.NoMap>정착지를 불러오면 시장의 상태를 확인할 수 있습니다.</RimMarket.Guide.NoMap>
+  <RimMarket.Guide.Optional>선택 사항</RimMarket.Guide.Optional>
+  <RimMarket.Guide.More>남은 준비</RimMarket.Guide.More>
+  <RimMarket.Guide.On>켜짐</RimMarket.Guide.On>
+  <RimMarket.Guide.Off>꺼짐</RimMarket.Guide.Off>
+  <RimMarket.Guide.PlaceMarker>표식 배치</RimMarket.Guide.PlaceMarker>
+  <RimMarket.Guide.ShowMarker>표식 보기</RimMarket.Guide.ShowMarker>
+  <RimMarket.Guide.PlaceStall>노점 배치</RimMarket.Guide.PlaceStall>
+  <RimMarket.Guide.ShowStalls>내 노점 보기</RimMarket.Guide.ShowStalls>
+  <RimMarket.Guide.PlaceCamp>상단 야영지 배치</RimMarket.Guide.PlaceCamp>
+  <RimMarket.Guide.PlaceRest>경비원 휴식 지점 배치</RimMarket.Guide.PlaceRest>
+  <RimMarket.Guide.PlaceAuction>경매 기둥 배치</RimMarket.Guide.PlaceAuction>
+  <RimMarket.Guide.OpenSettings>설정 열기</RimMarket.Guide.OpenSettings>
+  <RimMarket.Guide.MarkerTitle>시장 표식</RimMarket.Guide.MarkerTitle>
+  <RimMarket.Guide.MarkerBody>모든 것은 시장 표식에서 시작됩니다(구상 → 기타). 광장 한가운데에 놓으세요. 반경 안에 있는 모든 노점이 이 시장에 속합니다.\n\n표식을 선택해 한 번의 클릭으로 반경을 벽에 맞추고, 노점 사용료를 설정하거나 시장을 열고 닫으며, 평판을 확인하고 대장터 개최를 공고할 수 있습니다. 광장을 완성하면 표식을 숨길 수 있습니다.</RimMarket.Guide.MarkerBody>
+  <RimMarket.Guide.MarkerPlaced>이 지도에 시장 표식 있음</RimMarket.Guide.MarkerPlaced>
+  <RimMarket.Guide.MarkerOpen>시장 개방 중</RimMarket.Guide.MarkerOpen>
+  <RimMarket.Guide.StallsTitle>당신의 노점</RimMarket.Guide.StallsTitle>
+  <RimMarket.Guide.StallsBody>시장 표식의 반경 안에 시장 노점을 지으세요(구상 → 기타). 각 노점의 상인 자리는 비워 두어야 합니다. 계산대 끝에 있는 칸으로, 배치할 때 흰색 테두리로 표시됩니다.\n\n상단은 지도 가장자리에서 걸어 들어오고 우호적인 방문객처럼 문을 열 수 있습니다. 들어올 길을 확보하세요. 계산대는 재료의 색을 따르며, 차양은 노점을 선택해 칠할 수 있습니다.</RimMarket.Guide.StallsBody>
+  <RimMarket.Guide.StallInside>표식 반경 안에 노점이 하나 이상 있음</RimMarket.Guide.StallInside>
+  <RimMarket.Guide.StallNoneOutside>표식 반경 밖에 남은 노점 없음</RimMarket.Guide.StallNoneOutside>
+  <RimMarket.Guide.StallSpotFree>모든 노점의 상인 자리가 비어 있음</RimMarket.Guide.StallSpotFree>
+  <RimMarket.Guide.StallFromEdge>상단이 지도 가장자리에서 모든 노점까지 걸어올 수 있음</RimMarket.Guide.StallFromEdge>
+  <RimMarket.Guide.StallThree>대장터를 위한 노점 3개 이상</RimMarket.Guide.StallThree>
+  <RimMarket.Guide.SpotsTitle>야영지와 휴식 지점</RimMarket.Guide.SpotsTitle>
+  <RimMarket.Guide.SpotsBody>두 지점으로 광장을 정돈할 수 있습니다(구상 → 기타). 상단 야영지는 짐꾼 동물이 기다리는 곳입니다. 울타리로 둘러싸면 동물들이 그 안에 머뭅니다. 경비원 휴식 지점은 경비원 한 명이 노점을 지키는 동안 비번인 경비원들이 앉아서 잡담하고 식사하는 곳입니다.\n\n둘 다 선택 사항입니다. 없으면 동물과 경비원이 시장 바로 밖에서 기다립니다. 각 지점의 위치를 익힌 뒤 표식을 숨길 수 있습니다.</RimMarket.Guide.SpotsBody>
+  <RimMarket.Guide.SpotCamp>짐꾼 동물을 위한 상단 야영지</RimMarket.Guide.SpotCamp>
+  <RimMarket.Guide.SpotRest>호위 경비원을 위한 휴식 지점</RimMarket.Guide.SpotRest>
+  <RimMarket.Guide.FeesTitle>사용료와 흥정</RimMarket.Guide.FeesTitle>
+  <RimMarket.Guide.FeesBody>상인은 도착할 때 계산대에서 노점 사용료를 세어 낸 뒤 시장 체류 기간 동안 머뭅니다. 노점이나 상인을 통해 평소와 같은 거래 창으로 거래할 수 있습니다.\n\n방문마다 한 번 거래 창에서 흥정을 시도할 수 있습니다. 협상가의 사교 능력을 사용하며, 실패하면 성공 시 얻을 이득만큼 손해를 봅니다. 사용료, 흥정, 체류 기간은 모드 설정에서 정하며, 표식마다 사용료를 별도로 설정할 수도 있습니다.</RimMarket.Guide.FeesBody>
+  <RimMarket.Guide.FeeMode>노점 사용료: {0}</RimMarket.Guide.FeeMode>
+  <RimMarket.Guide.FeeHaggle>흥정: {0}</RimMarket.Guide.FeeHaggle>
+  <RimMarket.Guide.FeeDay>시장 체류 기간: {0}</RimMarket.Guide.FeeDay>
+  <RimMarket.Guide.ColonyStallTitle>정착지 노점</RimMarket.Guide.ColonyStallTitle>
+  <RimMarket.Guide.ColonyStallBody>어떤 노점에서든 정착지의 물건을 팔 수 있습니다. 노점을 선택해 정착지 노점으로 전환하세요. 판매 목록에는 정착지가 보유한 물건이 표시됩니다. 판매할 상품, 수량, 가격을 정하면 운반 담당자가 상품을 가져옵니다.\n\n우호적인 세력의 쇼핑객과 당신의 손님이 계산대에서 돈을 냅니다. 가격이 저렴할수록 쇼핑객이 더 자주 찾아옵니다.</RimMarket.Guide.ColonyStallBody>
+  <RimMarket.Guide.ColonyStallBuilt>정착지 노점 있음</RimMarket.Guide.ColonyStallBuilt>
+  <RimMarket.Guide.ColonyStallStocked>판매 목록에 상품 있음</RimMarket.Guide.ColonyStallStocked>
+  <RimMarket.Guide.InnTitle>여관</RimMarket.Guide.InnTitle>
+  <RimMarket.Guide.InnBody>어떤 침대든 여관 침대로 바꿀 수 있습니다. 침대를 선택하고 시장 여관 버튼을 누르세요. 상인, 경비원, 쇼핑객이 하룻밤마다 요금을 내며, 상단은 짐에 든 돈으로 지불합니다. 상인과 경비원이 침대를 우선 이용합니다.\n\n좋은 개인실은 시장의 매력을 높여 줍니다. 형편없는 방이나 비싼 요금은 반대의 영향을 줍니다.</RimMarket.Guide.InnBody>
+  <RimMarket.Guide.InnBed>여관 침대가 하나 이상 있음</RimMarket.Guide.InnBed>
+  <RimMarket.Guide.FairTitle>대장터</RimMarket.Guide.FairTitle>
+  <RimMarket.Guide.FairBody>노점이 3개 이상 있으면 표식에서 사흘 뒤 열릴 대장터를 공고할 수 있습니다. 당일에는 최대 6개 상단이 동시에 자리를 잡고, 평소보다 두둑한 지갑을 가진 쇼핑객들이 몰려오며, 정착민들도 즐기러 찾아옵니다.\n\n저녁 6시에 심사위원들이 최고의 노점을 선정합니다. 밤 10시에는 풍등을 띄우며 대장터를 마칩니다. 대부분의 노점이 금속으로 지어졌다면 대신 불꽃놀이를 합니다.</RimMarket.Guide.FairBody>
+  <RimMarket.Guide.AuctionTitle>노예 경매</RimMarket.Guide.AuctionTitle>
+  <RimMarket.Guide.AuctionBody>시장 안에 경매 기둥을 지으세요(구상 → 기타). 상단이 노예를 데려오면 두 시간 전에 경매를 공고하고, 구매자들이 기둥 앞에 앉으러 찾아옵니다. 각 노예의 시작 입찰가는 가치의 절반입니다.\n\n노예가 경매에 나와 있을 때 기둥을 선택하면 입찰할 수 있습니다. 더 높은 입찰이 없으면 보관 구역에서 은을 지불하고, 노예가 정착지에 합류합니다.</RimMarket.Guide.AuctionBody>
+  <RimMarket.Guide.AuctionPost>경매 기둥 있음</RimMarket.Guide.AuctionPost>
+  <RimMarket.Guide.RoutesTitle>무역로, 주문, 공고</RimMarket.Guide.RoutesTitle>
+  <RimMarket.Guide.RoutesBody>통신기에서 무역로를 개설하거나, 수레 한 대 분량의 상품을 특별 주문하거나, 구매 공고를 낼 수 있습니다. 무역로를 열면 해당 마을에서 1~2주마다 수송대를 보냅니다. 구매 공고에는 며칠에 걸쳐 마을들이 응답하며, 표식에서 제안을 수락할 수 있습니다.\n\n당신의 상단도 우호적인 마을에서 하루 동안 노점을 운영할 수 있습니다.</RimMarket.Guide.RoutesBody>
+  <RimMarket.Guide.DiagTitle>상단이 오지 않는 이유</RimMarket.Guide.DiagTitle>
+  <RimMarket.Guide.DiagBody>무역 상단은 이야기꾼의 주기에 따라 며칠에 한 번쯤 찾아오며, 평판이 좋으면 추가 상단이 찾아옵니다. 상단이 도착했지만 시장을 지나쳤다면 아래 목록에서 이유를 확인할 수 있습니다.</RimMarket.Guide.DiagBody>
+  <RimMarket.Guide.DiagOpen>시장 개방 중</RimMarket.Guide.DiagOpen>
+  <RimMarket.Guide.DiagFreeStall>상인 자리가 비어 있는 빈 노점 있음</RimMarket.Guide.DiagFreeStall>
+  <RimMarket.Guide.DiagReach>상단이 지도 가장자리에서 접근할 수 있는 빈 노점 있음</RimMarket.Guide.DiagReach>
+  <RimMarket.Guide.DiagRoom>상인을 더 받을 여유 있음 ({1}자리 중 {0}자리 사용 중)</RimMarket.Guide.DiagRoom>
+  <RimMarket.Guide.DiagFactions>상단을 보내는 우호적인 세력: {0}</RimMarket.Guide.DiagFactions>
+  <RimMarket.Guide.DiagNoRefuse>시장을 거부하는 세력 없음</RimMarket.Guide.DiagNoRefuse>
+  <RimMarket.Guide.DiagRefuse>평판 때문에 방문을 꺼리는 세력: {0}</RimMarket.Guide.DiagRefuse>
+  <RimMarket.Guide.DiagBroke>사용료를 낼 수 없는 상단은 돌려보내도록 설정됨 (모드 설정)</RimMarket.Guide.DiagBroke>
+  <RimMarket.Guide.DiagWaiting>{0}의 상단 대기 중: {1}</RimMarket.Guide.DiagWaiting>
+  <RimMarket.DealsGizmo>시장 거래 현황 ({0})</RimMarket.DealsGizmo>
+  <RimMarket.DealsGizmoDesc>시장에서 진행 중인 모든 거래를 확인합니다. 무역로와 수송대, 특별 주문, 구매 공고와 제안, 다른 마을에서 노점을 운영 중인 아군 상단을 볼 수 있습니다.</RimMarket.DealsGizmoDesc>
+  <RimMarket.DealsTitle>시장 거래 현황</RimMarket.DealsTitle>
+  <RimMarket.DealsTabRoutes>무역로 ({0}/{1})</RimMarket.DealsTabRoutes>
+  <RimMarket.DealsTabOrders>특별 주문 ({0})</RimMarket.DealsTabOrders>
+  <RimMarket.DealsTabWanted>구매 공고 ({0})</RimMarket.DealsTabWanted>
+  <RimMarket.DealsTabAway>원정 노점 ({0})</RimMarket.DealsTabAway>
+  <RimMarket.DealsColTown>마을</RimMarket.DealsColTown>
+  <RimMarket.DealsColMerchant>상인</RimMarket.DealsColMerchant>
+  <RimMarket.DealsColGoods>상품</RimMarket.DealsColGoods>
+  <RimMarket.DealsColSold>판매량</RimMarket.DealsColSold>
+  <RimMarket.DealsColStatus>상태</RimMarket.DealsColStatus>
+  <RimMarket.DealsEvery>{0}일마다</RimMarket.DealsEvery>
+  <RimMarket.DealsPaid>{0} 은 지불함</RimMarket.DealsPaid>
+  <RimMarket.DealsAtMarket>해당 상단이 당신의 시장에 있습니다.</RimMarket.DealsAtMarket>
+  <RimMarket.DealsShowConvoy>수송대 보기</RimMarket.DealsShowConvoy>
+  <RimMarket.DealsShowTown>마을 보기</RimMarket.DealsShowTown>
+  <RimMarket.DealsShowCaravan>상단 보기</RimMarket.DealsShowCaravan>
+  <RimMarket.DealsOpenBoard>제안 게시판</RimMarket.DealsOpenBoard>
+  <RimMarket.DealsYourNotice>당신의 공고</RimMarket.DealsYourNotice>
+  <RimMarket.DealsNoticeStatus>아직 응답하지 않은 마을 {0}곳, 현재까지 제안 {1}건. {2} 후 응답 접수가 끝납니다.</RimMarket.DealsNoticeStatus>
+  <RimMarket.DealsOffer>가격 {0}, 약 {1} 후 배달하는 조건입니다.</RimMarket.DealsOffer>
+  <RimMarket.DealsPrice>{0} 은</RimMarket.DealsPrice>
+  <RimMarket.DealsBarter>물물교환</RimMarket.DealsBarter>
+  <RimMarket.DealsSold>물건 {0}개, {1} 은</RimMarket.DealsSold>
+  <RimMarket.DealsAwayStatus>{0}(이)가 {1} 더 노점을 운영합니다.</RimMarket.DealsAwayStatus>
+  <RimMarket.DealsNoRoutes>개설된 무역로가 없습니다. 통신기에서 세력과 대화해 개설하세요.</RimMarket.DealsNoRoutes>
+  <RimMarket.DealsNoOrders>진행 중인 특별 주문이 없습니다. 통신기에서 세력과 대화해 주문하세요.</RimMarket.DealsNoOrders>
+  <RimMarket.DealsNoNotice>게시된 구매 공고가 없습니다. 통신기에서 공고를 내세요.</RimMarket.DealsNoNotice>
+  <RimMarket.DealsNoAway>노점을 운영하는 아군 상단이 없습니다. 우호적인 마을로 상단을 보내고, 도착하면 "시장 노점 운영"을 선택하세요.</RimMarket.DealsNoAway>
+  <RimMarket.DealsHintComms>통신기에서 해당 세력과 대화해 개설, 폐쇄, 변경할 수 있습니다.</RimMarket.DealsHintComms>
+  <RimMarket.DealsHintAway>상단은 장사가 끝나면 알아서 노점을 철수합니다.</RimMarket.DealsHintAway>
+</LanguageData>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PS_GizmoLabel>무기</PS_GizmoLabel>
+  <PS_GizmoDescription>폰의 장비 선택</PS_GizmoDescription>
+  <PS_SettingCategory>Pocket Sand</PS_SettingCategory>
+  <PS_SettingMassCheck>무기 질량 검사 활성화</PS_SettingMassCheck>
+  <PS_SettingEquipDelay>장착 지연 활성화</PS_SettingEquipDelay>
+  <PS_SettingCaravanDrop>상단 도착 시 무기 내려놓기 방지</PS_SettingCaravanDrop>
+  <PS_SettingShuttleInventory>왕복선이 탑승자의 소지품을 가져가지 않도록 설정</PS_SettingShuttleInventory>
+  <PS_SettingEquipDelayMultiplier>장착 지연 배율</PS_SettingEquipDelayMultiplier>
+  <PS_SettingBlacklist>상단 무기 보관 제외 목록</PS_SettingBlacklist>
+  <PS_SettingAddBlacklist>무기 추가</PS_SettingAddBlacklist>
+  <PS_SettingJobDriver>JobDriver 정보:</PS_SettingJobDriver>
+  <PS_SettingJobDriverOk>PocketSand의 상단 하역 JobDriver 사용 중</PS_SettingJobDriverOk>
+  <PS_SettingJobDriverError>외부 모드의 상단 하역 JobDriver 사용 중</PS_SettingJobDriverError>
+  <PS_SettingJobDriverCaravan>상단 하역</PS_SettingJobDriverCaravan>
+  <PS_SettingJobDriverEquip>물품 장착</PS_SettingJobDriverEquip>
+  <PS_SettingJobDriverDrop>물품 장착 해제</PS_SettingJobDriverDrop>
+  <PS_TooltipGizmoWeapon>{thing}
+왼쪽 클릭하여 장착합니다.
+오른쪽 클릭하여 내려놓습니다.</PS_TooltipGizmoWeapon>
+  <PS_TooltipGizmoWeaponActive>{thing}</PS_TooltipGizmoWeaponActive>
+  <PS_TooltipGizmoUnarmed>비무장
+왼쪽 클릭하여 현재 장착한 무기를 해제합니다.</PS_TooltipGizmoUnarmed>
+  <PS_TooltipGizmoUnarmedActive>비무장</PS_TooltipGizmoUnarmedActive>
+  <PS_TooltipSettingCaravan>상단이 도착한 뒤 하역 작업을 할 때 폰이 무기를 내려놓지 않도록 합니다.</PS_TooltipSettingCaravan>
+  <PS_TooltipSettingShuttle>오디세이 왕복선이 탑승자의 소지품을 화물칸으로 옮기지 않도록 합니다.</PS_TooltipSettingShuttle>
+  <PS_TooltipSettingCaravanBlacklist>이 목록에 무기를 추가하면 상단이 도착했을 때 해당 무기를 내려놓을 수 있습니다.</PS_TooltipSettingCaravanBlacklist>
+  <PS_TooltipSettingEquipDelay>무기를 장착할 때 무기 질량에 따른 지연 시간을 적용합니다.
+기본 림월드의 장착 해제 지연 시간도 변경합니다.</PS_TooltipSettingEquipDelay>
+  <PS_TooltipSettingEquipDelayMultiplier>장착 지연 배율을 틱 단위로 설정합니다.
+지연 시간 = 무기 질량 * 배율
+60틱 = 1초</PS_TooltipSettingEquipDelayMultiplier>
+  <PS_TooltipSettingMassCheck>바닥에 있는 무기를 장착할 때 폰의 소지품이 너무 무거워지지 않도록 검사합니다.
+이미 폰의 소지품에 있는 무기에는 적용되지 않습니다.</PS_TooltipSettingMassCheck>
+  <PS_MessageOverCapacity>{pawn}(이)가 {thing}(을)를 주워 장착하려 했지만, 소지품이 너무 무거웠습니다.</PS_MessageOverCapacity>
+</LanguageData>
