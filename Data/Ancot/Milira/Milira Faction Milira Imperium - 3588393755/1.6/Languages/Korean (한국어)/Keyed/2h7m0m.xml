@@ -48,7 +48,7 @@
   <NeedMilira_FeatherThreadLaunchable>궤도 무역 송신기 범위 내에 깃털 원단이 부족합니다.</NeedMilira_FeatherThreadLaunchable>
   <NeedMilira_DarkMatterLaunchable>궤도 무역 송신기 범위 내에 암흑 물질이 부족합니다.</NeedMilira_DarkMatterLaunchable>
   <NeedTokenLaunchable>궤도 무역 송신기 범위 내에 밀리라 제국 징표가 부족합니다.</NeedTokenLaunchable>
-  <Milira_Comms_Root_Text>{0}와(과) 통신 채널을 엽니다.</Milira_Comms_Root_Text>
+  <Milira_Comms_Root_Text>{0}(와)과 통신 채널을 엽니다.</Milira_Comms_Root_Text>
   <Milira_CallFoodOrbital_Top>밀리라 궤도 무역선 호출</Milira_CallFoodOrbital_Top>
   <Milira_CallFoodOrbital_TitleNotEnough>작위가 부족합니다. 최소 제국 기사 이상의 작위가 필요합니다.</Milira_CallFoodOrbital_TitleNotEnough>
   <Milira_CallFoodOrbital_Subtitle>제국 궤도 무역</Milira_CallFoodOrbital_Subtitle>
@@ -83,7 +83,7 @@
   <MiliraImperium_GiftButton_Title>밀리라 제국 사선대의 공격을 요청합니다.</MiliraImperium_GiftButton_Title>
   <MiliraImperium_GiftButton_Desc>함대 사령부에 사포권 발행을 요청합니다. 근처의 밀리라 제국 사선대가 적대 세력을 급습할 것입니다. \n습격 후 사선대는 전리품을 정착지에 공중 투하합니다. (필요 예비대 포인트: {0}/10)</MiliraImperium_GiftButton_Desc>
   <MiliraImperium_Gift_FactionMissing>밀리라 제국이 현재 세계에 존재하지 않아 사선대 공격을 요청할 수 없습니다.</MiliraImperium_Gift_FactionMissing>
-  <MiliraImperium_Gift_NeedAlly>사선대 공격을 요청하려면 {0}와(과) 동맹 상태여야 합니다.</MiliraImperium_Gift_NeedAlly>
+  <MiliraImperium_Gift_NeedAlly>사선대 공격을 요청하려면 {0}(와)과 동맹 상태여야 합니다.</MiliraImperium_Gift_NeedAlly>
   <MiliraImperium_Gift_SupportNotEnough>제국 예비대 포인트가 부족합니다. (현재 {0} 포인트)</MiliraImperium_Gift_SupportNotEnough>
   <MiliraImperium_Gift_Started>제국 예비대 포인트 10점을 소비했습니다. 밀리라 제국 사선대가 습격 작전을 시작했습니다...</MiliraImperium_Gift_Started>
   <Milira_ImperiumGift_Start_Label>습격 시작</Milira_ImperiumGift_Start_Label>
@@ -105,10 +105,88 @@
   <MiliraImperium_TechOrbital_Desc>호출 시 밀리라 제국 소속의 공학 연구소 무역선이 정착지 동기 궤도로 워프합니다. (필요 예비대 포인트: {0}/3)</MiliraImperium_TechOrbital_Desc>
   <MiliraImperium_TributeOrbital_Title>제국 이단심문소 호출</MiliraImperium_TributeOrbital_Title>
   <MiliraImperium_TributeOrbital_Desc>호출 시 밀리라 제국 소속의 이단심문소 전함이 정착지 동기 궤도로 워프합니다. (필요 예비대 포인트: {0}/3) \n정착지의 전쟁 포로나 노예를 명예 점수로 교환하기 위해 이단심문소로 이송할 수 있습니다. 밀리라 제국은 인도적인 차원에서 이 포로들을 적절히 재정착시킬 것입니다.</MiliraImperium_TributeOrbital_Desc>
+  <MI_Console_AidTab_Tooltip>함대 지원 호출</MI_Console_AidTab_Tooltip>
+  <MI_Console_ContactTab_Tooltip>밀리라 제국에 연락</MI_Console_ContactTab_Tooltip>
+  <MI_Console_ArchiveTab_Tooltip>상황 기록</MI_Console_ArchiveTab_Tooltip>
+  <MI_Key_Overview>개요</MI_Key_Overview>
+  <MI_Key_GroundStation>지상 기지: {0}</MI_Key_GroundStation>
+  <MI_Key_GroundStation_Tooltip>지금 이 행성에 있는 밀리라 제국 지상 기지의 수입니다.</MI_Key_GroundStation_Tooltip>
+  <MI_Key_CurrentPop>현재 주민: {0}</MI_Key_CurrentPop>
+  <MI_Key_CurrentPop_Tooltip>지금 이 행성에 머무는 밀리라 제국 시민의 수입니다. 지상 기지와 궤도 함선에 있는 인원을 모두 포함합니다. 근무 인원이 자주 교대하므로 이 수치는 자주, 그리고 꽤 큰 폭으로 바뀝니다.</MI_Key_CurrentPop_Tooltip>
+  <MI_Key_CurrentShips>현재 함선: {0}</MI_Key_CurrentShips>
+  <MI_Key_CurrentShips_Tooltip>지금 이 행성 궤도에 있는 밀리라 제국 함선의 수입니다. 민간 항성선과 군함을 모두 포함합니다.</MI_Key_CurrentShips_Tooltip>
+  <MI_Key_DonationKind>기부할 자원</MI_Key_DonationKind>
+  <MI_Key_CurrentCount>현재 수량</MI_Key_CurrentCount>
+  <MI_Console_DonateButton>기부</MI_Console_DonateButton>
+  <MI_Console_ContactFaction>밀리라 제국에 연락</MI_Console_ContactFaction>
+  <MI_Console_NetworkUpgrade>밀리언 데이터 링크 업그레이드</MI_Console_NetworkUpgrade>
+  <MI_Console_PrivateerFleet>사선대 호출</MI_Console_PrivateerFleet>
+  <MI_Console_ProceedToImperium>밀리라 제국으로 이주</MI_Console_ProceedToImperium>
+  <MI_Console_CallRawTrader>궤도 크레이돌 메가코프 호출</MI_Console_CallRawTrader>
+  <MI_Console_CallFoodTrader>궤도 식량 무역선 호출</MI_Console_CallFoodTrader>
+  <MI_Console_CallTechTrader>궤도 기술 무역선 호출</MI_Console_CallTechTrader>
+  <MI_Console_CallTributeTrader>이단심문소 전함 호출</MI_Console_CallTributeTrader>
+  <MI_Console_ExchangeGargantuaCore>가르강튀아 코어 교환</MI_Console_ExchangeGargantuaCore>
+  <MI_Console_ExchangePsionicCore>초능력 코어 교환</MI_Console_ExchangePsionicCore>
+  <MI_Console_ExchangeHealerSerum>회복 혈청 x2 교환</MI_Console_ExchangeHealerSerum>
+  <MI_Console_ExchangeResurrectorSerum>부활 혈청 교환</MI_Console_ExchangeResurrectorSerum>
+  <MI_Console_RecruitCitizen>제국 시민 영입</MI_Console_RecruitCitizen>
+  <MI_Console_DonateResources>자원 기부</MI_Console_DonateResources>
+  <MI_Console_TransactionUnavailable>지금은 이 조작을 할 수 없습니다.</MI_Console_TransactionUnavailable>
+  <MI_Console_FactionUnavailable>지금은 밀리라 제국에 연락할 수 없습니다.</MI_Console_FactionUnavailable>
+  <MI_Console_ProceedUnavailable>밀리라 제국으로 이주할 조건이 아직 갖춰지지 않았습니다.</MI_Console_ProceedUnavailable>
+  <MI_Console_ResourceAmount>{0} × {1}</MI_Console_ResourceAmount>
+  <MI_Console_FavorReward>제국 예비대 포인트 {0}점 획득</MI_Console_FavorReward>
+  <MI_Console_CurrentTokens>황금 밀리라 깃털: {0}</MI_Console_CurrentTokens>
+  <MI_Console_AidStatusOwned>권한 보유</MI_Console_AidStatusOwned>
+  <MI_Console_AidStatusLocked>권한 없음</MI_Console_AidStatusLocked>
+  <MI_Console_AidCooldownReady>호출 가능</MI_Console_AidCooldownReady>
+  <MI_Console_AidCooldownRemaining>남은 대기시간: {0}</MI_Console_AidCooldownRemaining>
+  <MI_speakerName_Lumiour>루미우르</MI_speakerName_Lumiour>
   <MI_WarriorCulture_LetterLabel>전사 문화에 관하여</MI_WarriorCulture_LetterLabel>
   <MI_WarriorCulture_LetterText>전사 문화는 진화하는 문화입니다(스텔라리스의 국가 정책에서 유래했기에 규율보다는 문화라고 부르는 것을 선호합니다). \n\n정착민들은 처치 수가 50/350/1000에 도달함에 따라 점진적으로 더 강력한 버프를 얻습니다. 또한 폭력적인 행위에 참여할 수 없는 경우 무드 버프를 얻기도 합니다.</MI_WarriorCulture_LetterText>
   <Milira_SpecialPawnIdeoSyncedLabel>이념 변경됨: {0}</Milira_SpecialPawnIdeoSyncedLabel>
   <Milira_SpecialPawnIdeoSyncedText>{0}(이)가 정착지의 주요 이념인 {1}(으)로 개종했습니다.</Milira_SpecialPawnIdeoSyncedText>
+  <MI_Key_LiaisonOfficerLumileia>&lt;color=#87FFCF&gt;연락 장교&lt;/color&gt; 루미레이아</MI_Key_LiaisonOfficerLumileia>
+  <MI_Key_LumileiaHostile>......신호 없음.</MI_Key_LumileiaHostile>
+  <MI_Key_LumileiaNeutral_I>안녕하세요, 낯선 분. 오늘 하루도 좋은 날이 되시길 바랍니다.</MI_Key_LumileiaNeutral_I>
+  <MI_Key_LumileiaNeutral_II>안녕하세요, 낯선 분. 여기는 밀리라 제국입니다. 용건을 말씀해 주세요.</MI_Key_LumileiaNeutral_II>
+  <MI_Key_LumileiaNeutral_III>정신파 주파수 보정 완료. 통신 신호를 연결합니다.</MI_Key_LumileiaNeutral_III>
+  <MI_Key_LumileiaNeutral_IV>안녕하세요, 낯선 분. 저는 연락 장교 루미레이아입니다.</MI_Key_LumileiaNeutral_IV>
+  <MI_Key_LumileiaAlly_I>안녕하세요, 소중한 동맹이시여. 오늘 하루도 즐거우시길 바랍니다.</MI_Key_LumileiaAlly_I>
+  <MI_Key_LumileiaAlly_II>어서 오세요, 동맹이시여. 여기는 밀리라 제국 함대입니다. 필요하신 것을 말씀해 주세요.</MI_Key_LumileiaAlly_II>
+  <MI_Key_LumileiaAlly_III>정신파 주파수 보정 완료. 통신 신호를 연결합니다.\n다시 뵙게 되어 반가워요, 동맹이시여.</MI_Key_LumileiaAlly_III>
+  <MI_Key_LumileiaAlly_IV>안녕하세요, 동맹이시여. 당신의 전담 연락 장교 루미레이아입니다.\n저는 오늘도 기운이 넘친답니다.</MI_Key_LumileiaAlly_IV>
+  <MI_Key_LumileiaAlly_V>저기요, 동맹이시여. 그쪽 행성에는 맛있는 특산물이 있나요?\n괜찮으시다면 제1함대로 좀 보내 주실 수 있을까요?\n주소는 성보석 구역 화합 거리...</MI_Key_LumileiaAlly_V>
+  <MI_Key_LumileiaAlly_VI>안녕하세요, 소중한 동맹이시여.\n오늘은 당신의 통치를 어떻게 도와드릴까요?</MI_Key_LumileiaAlly_VI>
+  <MI_Key_LumileiaAlly_VII>저기요, 동맹이시여. 알고 계셨나요? 제국의 열일곱 함대 가운데 어느 하나도 오십 년 넘게 대원정을 나간 적이 없답니다.\n똑같은 나날이 어찌나 지루한지. 164년 뒤에 제가 퇴역하면, 그때 당신을 찾아가서 같이 모험을 떠나 볼까요?</MI_Key_LumileiaAlly_VII>
+  <MI_Key_LumileiaAlly_VIII>안녕하세요, 소중한 동맹이시여.\n심연 밀리라가 외부 세력에 넘어가 제국에 반기를 들었다는 소문을 들었어요.\n사실인지는 모르겠네요. 이런 일을 너무 깊이 캐다 보면 이단심문소가 문을 두드리기 딱 좋거든요...</MI_Key_LumileiaAlly_VIII>
+  <MI_Key_LumileiaAlly_IX>안녕하세요, 소중한 동맹이시여.\n오늘도 부디 무사하시길 바랍니다. 당신의 항성계에 심연 밀리라가 꽤 많이 활동한다고 들었어요.</MI_Key_LumileiaAlly_IX>
+  <MI_Key_LumileiaAlly_X>안녕하세요, 소중한 동맹이시여.\n오늘은 저에게 들려주실 재미난 정착지 이야기나 여행담이 있으신가요?</MI_Key_LumileiaAlly_X>
+  <MI_Key_LumileiaAlly_XI>안녕하세요, 소중한 동맹이시여.\n......네? 제가 아는 밀리라와 무척 닮았다고요?\n......아하하, 그럴 리가요. 제가 어떻게 그 사람이겠어요?\n저는 그저 평범한 밀리라 행인일 뿐인걸요... 아하하, 그렇죠...?</MI_Key_LumileiaAlly_XI>
+  <MI_Key_LumileiaDataLink_I>알겠습니다. 현지 기술자들에게 연락해 대역폭 배정을 시작하도록 하겠습니다.</MI_Key_LumileiaDataLink_I>
+  <MI_Key_LumileiaDataLink_II>알겠습니다. 현지 기술자들이 농땡이 피우며 자고 있지 않기를 바랄 뿐이에요.\n변경 지역에 주둔한 밀리라는 어쩜 그렇게 근무지에서 빈둥거리기를 좋아하는지!</MI_Key_LumileiaDataLink_II>
+  <MI_Key_LumileiaPrivateer_I>사선대 군함이 출항했습니다. 승전 소식을 기다려 보죠.</MI_Key_LumileiaPrivateer_I>
+  <MI_Key_LumileiaPrivateer_II>사선대 한 무리가 초청에 응했습니다. 곧 전리품을 보내 올 거예요.</MI_Key_LumileiaPrivateer_II>
+  <MI_Key_LumileiaToImperium_I>알겠습니다. 셔틀을 불러 모셔 가도록 하겠습니다.\n별일 없다면 내일쯤 도미네이터 군함에 닿으실 거예요.</MI_Key_LumileiaToImperium_I>
+  <MI_Key_LumileiaToImperium_II>알겠습니다. 셔틀을 불러 모셔 가도록 하겠습니다.\n제가 제1함대 소속이라는 게 아쉽네요. 아니었다면 언젠가 뵐 수 있었을지도 모르는데.</MI_Key_LumileiaToImperium_II>
+  <MI_Key_LumileiaMegaCorp_I>크레이돌 메가코프가 운용하는 타이탄급 군함에 연락해 두었습니다.\n......저는 저 밀리라들이 마음에 들지 않아요. 우리 제국 사람들과는 다르거든요.\n인권이나 윤리보다 효율을 앞세우는 자들이죠. 참 매정한 무리예요.</MI_Key_LumileiaMegaCorp_I>
+  <MI_Key_LumileiaMegaCorp_II>크레이돌 메가코프가 운용하는 타이탄급 군함에 연락해 두었습니다.\n곧 정착지 상공의 동기 궤도에 도착할 거예요.</MI_Key_LumileiaMegaCorp_II>
+  <MI_Key_LumileiaMegaCorp_III>크레이돌 메가코프가 운용하는 타이탄급 군함에 연락해 두었습니다.\n중무장한 거대 함선에 앉아 있으면서도, 몇 발 쏴서 습격자들을 쫓아 주지는 않는다니까요. 습격자들도 잠재 고객이라 그런 걸까요?</MI_Key_LumileiaMegaCorp_III>
+  <MI_Key_LumileiaFood_I>식량 보급선에 연락해 두었습니다.</MI_Key_LumileiaFood_I>
+  <MI_Key_LumileiaFood_II>식량 보급선에 연락해 두었습니다.\n왜 가끔 인육을 파느냐고요?!\n그 보급선들은 무인선이에요. 이상한 화물이 실려 있다면 분명 암흑 초월공학 신의 농간일 겁니다!!</MI_Key_LumileiaFood_II>
+  <MI_Key_LumileiaFood_III>식량 보급선에 연락해 두었습니다.\n저는 전통 키이로 요리를 무척 좋아해요. 당신은 어떠세요?</MI_Key_LumileiaFood_III>
+  <MI_Key_LumileiaTech_I>공학 보급선에 연락해 두었습니다.</MI_Key_LumileiaTech_I>
+  <MI_Key_LumileiaTech_II>공학 보급선에 연락해 두었습니다.\n재미난 물건을 사시면 저한테도 꼭 보여 주셔야 해요, 아셨죠? 제가 수집을 꽤 좋아하거든요.</MI_Key_LumileiaTech_II>
+  <MI_Key_LumileiaInquisition_I>이단심문소 군함에 연락해 두었습니다.\n......저는 저쪽도 마음에 들지 않아요. 하는 일이 죄다 은밀한 데다, 하나같이 표정이 험악하거든요.</MI_Key_LumileiaInquisition_I>
+  <MI_Key_LumileiaInquisition_II>이단심문소 군함에 연락해 두었습니다.\n이단심문소를 상대할 때는 조심하세요. 저는 예전에 키이로 심문관의 꼬리를 살짝 만졌다가 하루 종일 어두운 방에 갇힌 적이 있어요.</MI_Key_LumileiaInquisition_II>
+  <MI_Key_LumileiaInquisition_III>이단심문소 군함에 연락해 두었습니다.\n저는 이단심문소가 늘 진지하기만 하다고 생각한 적도 없어요. 어떤 밀리라가 랫킨 행정관의 키를 두고 사석에서 농담했다가 이단심문소에 끌려가 조사받았다는 이야기를 들은 적이 있거든요.</MI_Key_LumileiaInquisition_III>
+  <MI_Key_LumileiaThing>알겠습니다. 항해사에게 일러 물자를 그쪽으로 워프시키겠습니다.</MI_Key_LumileiaThing>
+  <MI_Key_LumileiaRecruit>제국 시민 한 명이 충성을 맹세했습니다. 가서 맞이해 주세요!</MI_Key_LumileiaRecruit>
+  <MI_Key_LumileiaReservePoint_Fail>죄송해요, 예비대 포인트가 모자랍니다. 이 요청은 처리해 드릴 수 없어요.</MI_Key_LumileiaReservePoint_Fail>
+  <MI_Key_LumileiaToImperium_Fail>다음 이주까지는 아직 시간이 좀 남았습니다. 조금만 기다려 주세요.</MI_Key_LumileiaToImperium_Fail>
+  <MI_Key_LumileiaGoldenFeather_Fail_I>죄송해요, 황금 밀리라 깃털이 모자랍니다. 이 요청은 도와드릴 수 없어요.</MI_Key_LumileiaGoldenFeather_Fail_I>
+  <MI_Key_LumileiaGoldenFeather_Fail_II>죄송해요, 황금 밀리라 깃털이 모자랍니다.\n제 깃털을 하나 뽑아 금색으로 칠해 드리고 싶은 마음은 굴뚝같지만, 누가 알기라도 하면 뒷일이 아마 끔찍할 거예요...</MI_Key_LumileiaGoldenFeather_Fail_II>
   <MI_Name_Lydia_First>리디아</MI_Name_Lydia_First>
   <MI_Name_Lydia_Last>아올세이스</MI_Name_Lydia_Last>
   <MI_Name_Lydia_Nick>리디아</MI_Name_Lydia_Nick>
@@ -140,16 +218,10 @@
   <MI_DarkWarrior_SavedText>리디아가 퇴각하여 공허 속에서 회복 중입니다. 그녀는 15일 후에 돌아올 것입니다.</MI_DarkWarrior_SavedText>
   <MI_DarkWarrior_ReturnedTitle>리디아 귀환</MI_DarkWarrior_ReturnedTitle>
   <MI_DarkWarrior_ReturnedText>리디아가 회복을 마치고 돌아왔습니다.</MI_DarkWarrior_ReturnedText>
-  <Milira_Immortal_Label>동력 실패</Milira_Immortal_Label>
-  <Milira_Immortal_Text>"내가 지켜보고 있다. 이런 얄팍한 속임수는 통하지 않아." 호락스가 말했습니다.</Milira_Immortal_Text>
   <MI_OCGuardian_OCPawn>당신의 동료</MI_OCGuardian_OCPawn>
   <MiliraImperium_DuplicatorProtected_Label>복제 실패</MiliraImperium_DuplicatorProtected_Label>
   <MiliraImperium_DuplicatorProtected_Desc>호락스가 오벨리스크를 통해 당신의 복제 요청을 받고, 당신이 복제하고자 하는 비현실적인 밀리라를 힐끗 본 뒤 어쩔 수 없다는 듯 미안한 표정으로 고개를 저었습니다.</MiliraImperium_DuplicatorProtected_Desc>
   <MiliraImperium_DuplicatorProtected_DarkWarrior_Desc>호락스가 리디아를 쳐다보더니 미소를 지으며 당신에게 물었습니다. “이 아이를 복제하고 싶다고? 그럼 내가 그녀에게 부여한 힘도 몇 개 더 만들어야 한다는 뜻인가?” \n\n암흑 초월공학 신은 어이없다는 듯 헛웃음을 지으며 고개를 젓고는 자신의 일로 돌아갔습니다.</MiliraImperium_DuplicatorProtected_DarkWarrior_Desc>
-  <Milira_OvumBlocked_Label>추출 실패</Milira_OvumBlocked_Label>
-  <Milira_OvumBlocked_Text>{PAWN_labelShort}(에)게서 추출할 수 있는 난자가 없습니다.</Milira_OvumBlocked_Text>
-  <Milira_BirthBlocked_Label>출산 실패</Milira_BirthBlocked_Label>
-  <Milira_BirthBlocked_Text>{PAWN_labelShort}(이)가 아이를 낳지 못했습니다.</Milira_BirthBlocked_Text>
   <Milira_WeaponRejected>"이상해... 칼자루를 잡는 순간 온몸의 힘이 빠져나갔어... 이게 공허의 힘인가...?" {0}(이)가 말했습니다.</Milira_WeaponRejected>
   <Setting_MI>일반 설정</Setting_MI>
   <Setting_Lydia>리디아 설정</Setting_Lydia>
@@ -159,6 +231,8 @@
   <MI_ResetToDefaults_Confirm>기본값으로 재설정하시겠습니까? 이 작업은 되돌릴 수 없습니다.</MI_ResetToDefaults_Confirm>
   <MI_SetLowIntensity>밀리라 종족 표준 환경으로 설정</MI_SetLowIntensity>
   <MI_SetLowIntensity_Confirm>모든 배율을 밀리라 종족 모드의 원본 환경에 맞춰 조정하시겠습니까? \n\n이 설정은 피드백을 바탕으로 원본 밀리라 종족의 위력에 가장 근접하도록 구성한 수치입니다. 이 배율에 대해 의견이나 제안이 있으시면 언제든 제작자에게 연락해 주세요!</MI_SetLowIntensity_Confirm>
+  <MI_ResetModSettingGuide>모드 설정 안내 초기화</MI_ResetModSettingGuide>
+  <MI_ResetModSettingGuide_Done>모드 설정 안내가 초기화됩니다. 다음에 세이브에 진입할 때 다시 표시됩니다.</MI_ResetModSettingGuide_Done>
   <Setting5_MI>군용 원거리 데미지 배율</Setting5_MI>
   <Setting5_1_MI>군용 원거리 데미지</Setting5_1_MI>
   <Setting6_MI>군용 원거리 방어구 관통 배율</Setting6_MI>
@@ -171,6 +245,8 @@
   <Setting11_1_MI>근접 데미지</Setting11_1_MI>
   <Turret_Damage_Factor_MI>포탑/우주 전투기 데미지 배율</Turret_Damage_Factor_MI>
   <Turret_Damage_Factor_1_MI>포탑/우주 전투기 데미지</Turret_Damage_Factor_1_MI>
+  <Turret_Health_Factor_MI>포탑/우주 전투기 체력 배율</Turret_Health_Factor_MI>
+  <Turret_Health_Factor_1_MI>포탑/우주 전투기 기본 체력</Turret_Health_Factor_1_MI>
   <MI_ShieldCapacityFactor>보호막 벨트 에너지량 배율</MI_ShieldCapacityFactor>
   <MI_ShieldCapacityFactor_Tip>태양광, 암흑 물질, 사이오닉 보호막 벨트의 에너지 저장 용량입니다.</MI_ShieldCapacityFactor_Tip>
   <PenetrationFactor_MI>에너지 무기 피해 감소 관통 배율</PenetrationFactor_MI>
@@ -215,18 +291,42 @@
   <MI_EnableNpcExclusiveGear_Tip>활성화 시, 정착지 가치가 일정 수치에 도달함에 따라 밀리라 해적의 인간형 습격자들이 고품질의 태양광 보호막 벨트를 장비합니다. (15만: 일반, 30만: 상급, 45만: 우수, 55만: 완벽, 60만: 전설) \n\n플레이어가 쓰러진 적에게서 보호막을 회수하는 것을 잊을 수 있으므로, 이 특수 보호막은 적이 쓰러지거나 사망할 때 자동으로 자가 파괴됩니다. \n\n팁: 태양광 보호막은 EMP 공격에 즉시 파괴되지만, 암흑 물질 및 사이오닉 보호막은 EMP에 저항력이 있습니다.</MI_EnableNpcExclusiveGear_Tip>
   <MI_EnableDisruptorRandomized>현실적인 위상 분해기 모드</MI_EnableDisruptorRandomized>
   <MI_EnableDisruptorRandomized_Tip>활성화 시 위상 분해기가 스텔라리스처럼 작동합니다. 각 사격은 고정 데미지 대신 1부터 무기 표기 데미지 사이의 무작위 데미지를 입힙니다.</MI_EnableDisruptorRandomized_Tip>
+  <MI_PsiShieldBanKillEnabled>초능력 보호막 사망 차단 사용</MI_PsiShieldBanKillEnabled>
+  <MI_PsiShieldBanKillEnabled_Tip>켜면 에너지가 남아 있는 초능력 보호막이 치명적인 사망 판정과 즉사 처리를 막아냅니다.</MI_PsiShieldBanKillEnabled_Tip>
+  <MI_ModSetting_MiliraPirateDifficultyLabel>심연 밀리라 습격 난이도:</MI_ModSetting_MiliraPirateDifficultyLabel>
+  <MI_ModSetting_MiliraPirateDifficultySelectionLabel>난이도 선택</MI_ModSetting_MiliraPirateDifficultySelectionLabel>
+  <MI_ModSetting_MiliraPirateDifficulty_Easy>쉬움</MI_ModSetting_MiliraPirateDifficulty_Easy>
+  <MI_ModSetting_MiliraPirateDifficulty_Easy_Desc>다행히 이 변방계는 어느 제국의 영역 안에 있어, 밀리라 심연 해적은 신분을 위장해 크레이돌에서 밀리언을 사들여 지상 강습 부대로 쓸 수밖에 없습니다.\n습격에 밀리라 적은 등장하지 않습니다. 밀리언도 밀리라 제국제 무기를 장비하지 않습니다.</MI_ModSetting_MiliraPirateDifficulty_Easy_Desc>
+  <MI_ModSetting_MiliraPirateDifficulty_Normal>보통</MI_ModSetting_MiliraPirateDifficulty_Normal>
+  <MI_ModSetting_MiliraPirateDifficulty_Normal_Desc>심연 밀리라가 이 항성계를 상대로 약탈 작전을 벌이고 있습니다. 재산이 늘어날수록 적의 습격은 점점 위험해집니다.\n재산이 350,000을 넘으면 밀리라 적이 등장하고, 밀리언이 낮은 확률로 밀리라 제국제 무기를 장비합니다.\n이 확률은 재산이 늘어날수록 높아집니다.</MI_ModSetting_MiliraPirateDifficulty_Normal_Desc>
+  <MI_ModSetting_MiliraPirateDifficulty_Hard>어려움</MI_ModSetting_MiliraPirateDifficulty_Hard>
+  <MI_ModSetting_MiliraPirateDifficulty_Hard_Desc>이 항성계는 심연 밀리라에게 각별한 전략적 가치가 있어, 목표 달성을 위해 더 많은 자원을 투입합니다.\n이제부터 밀리언이 밀리라 제국제 무기와 태양 보호막을 장비할 확률이 생깁니다.\n이 확률은 재산이 늘어날수록 높아집니다.</MI_ModSetting_MiliraPirateDifficulty_Hard_Desc>
+  <MI_ModSetting_MiliraPirateDifficulty_Extreme>잔혹</MI_ModSetting_MiliraPirateDifficulty_Extreme>
+  <MI_ModSetting_MiliraPirateDifficulty_Extreme_Desc>심연 밀리라의 분함대가 이 항성계를 배회하며, 이곳의 밀리라 제국 전력을 제거하기로 결정했습니다.\n이제부터 모든 밀리라 적이 암흑물질 보호막을 사용하고, 모든 밀리언이 밀리라 제국제 무기와 태양 보호막을 사용합니다.</MI_ModSetting_MiliraPirateDifficulty_Extreme_Desc>
+  <MI_ModSetting_MiliraPirateDifficulty_Peace>평화</MI_ModSetting_MiliraPirateDifficulty_Peace>
+  <MI_ModSetting_MiliraPirateDifficulty_Peace_Desc>이 항성계의 심연 밀리라 분함대는 신중하고 자제하는 태도를 유지하며, 밀리라 제국 외의 세력은 먼저 공격하지 않습니다.\n밀리라 제국과 외교 관계를 맺고 있더라도 당신에게는 중립을 지킵니다.\n밀리라 해적 습격이 발생하더라도 그 습격은 취소됩니다.</MI_ModSetting_MiliraPirateDifficulty_Peace_Desc>
+  <MI_ModSetting_MiliraPirateDifficulty_ExtremePlus>잔혹+</MI_ModSetting_MiliraPirateDifficulty_ExtremePlus>
+  <MI_ModSetting_MiliraPirateDifficulty_ExtremePlus_Desc>심연 밀리라의 타이탄급 전함 여러 척이 이 항성계에 배치되었습니다.\n이 타이탄급 전함들은 기함으로서 지상 강하 부대에 다양한 무작위 지원을 제공합니다.\n"잔혹" 난이도를 기반으로 하며, 재산이 350,000을 넘으면 밀리라 해적 습격에 "변이"가 추가됩니다.</MI_ModSetting_MiliraPirateDifficulty_ExtremePlus_Desc>
+  <MI_Letter_MiliraPirateRaidPeace_Label>습격 취소</MI_Letter_MiliraPirateRaidPeace_Label>
+  <MI_Letter_MiliraPirateRaidPeace_Text>심연 밀리라가 당신에 대한 중립 태도를 유지하며 이번 강하 작전을 취소했습니다.</MI_Letter_MiliraPirateRaidPeace_Text>
+  <MI_TriggerShieldEffect>보호막 효과를 끌까요？</MI_TriggerShieldEffect>
+  <MI_TriggerShieldEffect_Tip>켜면 태양 보호막 벨트의 GPU 사용량이 줄어듭니다.</MI_TriggerShieldEffect_Tip>
+  <MI_EnabledScenarioWarningSound>시나리오 음성 경보 사용</MI_EnabledScenarioWarningSound>
+  <MI_EnabledScenarioWarningSound_Tip>켜면 "밀리라 해적으로부터의 탈출" 시나리오에서 추격 카운트다운이 시작될 때와 적이 워프해 들어올 때 음성 경보가 재생됩니다.</MI_EnabledScenarioWarningSound_Tip>
+  <MI_DisableTitleAppointment>밀리라 제국 작위 서임 상황을 건너뛸까요?</MI_DisableTitleAppointment>
+  <MI_DisableTitleAppointment_Tip>켜면 식민지 총독, 행성 집정관, 성간 집정관 서임 상황이 발생하지 않습니다. 정착민은 필요한 명예를 갖추면 저절로 승급합니다.</MI_DisableTitleAppointment_Tip>
   <MI_Name_Remiel_First>레미엘</MI_Name_Remiel_First>
   <MI_Name_Remiel_Last>아리안델</MI_Name_Remiel_Last>
   <MI_Name_Remiel_Nick>레미엘</MI_Name_Remiel_Nick>
   <MI_Name_Lumiour_First>루미오르</MI_Name_Lumiour_First>
   <MI_Name_Lumiour_Last>이코노멜리</MI_Name_Lumiour_Last>
   <MI_Name_Lumiour_Nick>루미오르</MI_Name_Lumiour_Nick>
-  <MI_Name_QingNiao_First>칭냐오</MI_Name_QingNiao_First>
-  <MI_Name_QingNiao_Last>췌셩</MI_Name_QingNiao_Last>
-  <MI_Name_QingNiao_Nick>칭냐오</MI_Name_QingNiao_Nick>
+  <MI_Name_QingNiao_First>췌성</MI_Name_QingNiao_First>
+  <MI_Name_QingNiao_Last>칭냐오</MI_Name_QingNiao_Last>
+  <MI_Name_QingNiao_Nick>췌성</MI_Name_QingNiao_Nick>
   <MI_Name_Katia_First>탈리아</MI_Name_Katia_First>
-  <MI_Name_Katia_Last>카티아</MI_Name_Katia_Last>
-  <MI_Name_Katia_Nick>카스티아</MI_Name_Katia_Nick>
+  <MI_Name_Katia_Last>카스티야</MI_Name_Katia_Last>
+  <MI_Name_Katia_Nick>카티아</MI_Name_Katia_Nick>
   <MI_Name_Amy_First>에이미</MI_Name_Amy_First>
   <MI_Name_Amy_Last>카트</MI_Name_Amy_Last>
   <MI_Name_Amy_Nick>에이미</MI_Name_Amy_Nick>
@@ -251,12 +351,12 @@
   <MI.RecruitFeiJiangDesc>미라 쿠르의 포섭을 시도합니다.</MI.RecruitFeiJiangDesc>
   <MI.FeiJiangRecruitSuccess_Label>미라 쿠르 포섭 성공</MI.FeiJiangRecruitSuccess_Label>
   <MI.FeiJiangRecruitSuccess_Text>"좋아요, 친애하는 초월공학 신이시여. 우리가 즐거운 시간을 보낼 수 있기를."</MI.FeiJiangRecruitSuccess_Text>
-  <MiliraImperium_NPCProtected_Label>정신 결속 의식 실패</MiliraImperium_NPCProtected_Label>
-  <MiliraImperium_NPCProtected_Desc>희미한 속삭임이 들립니다. 이 비현실적인 존재를 창조한 초월공학 신과 변이 의식을 주관하는 초월공학 신이 무언가 대화를 나눈 듯합니다.\n\n어쨌든, {0}(을)를 다크 밀리안으로 변전시키려는 의식은 아무런 효과가 없었습니다.</MiliraImperium_NPCProtected_Desc>
-  <Milira_WeaponRejected_Skuld>“아니요… 자애로운 초월공학 신께서 제게 이 무기를 사용할 권한을 허락하지 않으셨습니다.” {0}(이)가 말했습니다.</Milira_WeaponRejected_Skuld>
   <MI_Name_Skuld_First>스쿨드</MI_Name_Skuld_First>
   <MI_Name_Skuld_Last>제퓨티</MI_Name_Skuld_Last>
   <MI_Name_Skuld_Nick>스쿨드</MI_Name_Skuld_Nick>
+  <MiliraImperium_NPCProtected_Label>정신 결속 의식 실패</MiliraImperium_NPCProtected_Label>
+  <MiliraImperium_NPCProtected_Desc>희미한 속삭임이 들립니다. 이 비현실적인 존재를 창조한 초월공학 신과 변이 의식을 주관하는 초월공학 신이 무언가 대화를 나눈 듯합니다.\n\n어쨌든, {0}(을)를 다크 밀리언으로 변전시키려는 의식은 아무런 효과가 없었습니다.</MiliraImperium_NPCProtected_Desc>
+  <Milira_WeaponRejected_Skuld>“아니요… 자애로운 초월공학 신께서 제게 이 무기를 사용할 권한을 허락하지 않으셨습니다.” {0}(이)가 말했습니다.</Milira_WeaponRejected_Skuld>
   <MI_Name_Luoyan_First>뤄얀</MI_Name_Luoyan_First>
   <MI_Name_Luoyan_Last>화위예</MI_Name_Luoyan_Last>
   <MI_Name_Luoyan_Nick>뤄얀</MI_Name_Luoyan_Nick>
@@ -280,6 +380,28 @@
   <MI_Name_Sariel_Nick>사리엘</MI_Name_Sariel_Nick>
   <MI_WarshipAlreadyActive>현재 지도 상공에 밀리라 제국 군함이 머물고 있습니다. 다른 군함을 호출하기 전에 현재 군함이 떠날 때까지 기다려 주세요.</MI_WarshipAlreadyActive>
   <MiliraImperiumWarshipIncoming>밀리라 제국 군함이 저궤도로 진입 중입니다...</MiliraImperiumWarshipIncoming>
+  <MI_Key_RoyalTitleVIIIInvitation.Label>식민지 총독 서임식</MI_Key_RoyalTitleVIIIInvitation.Label>
+  <MI_Key_RoyalTitleVIIIInvitation.Desc>밀리라 제국 연락 장교가 식민지 총독 서임 절차를 논의할 준비를 마쳤습니다.</MI_Key_RoyalTitleVIIIInvitation.Desc>
+  <MI_Key_RoyalTitleIXInvitation.Label>행성 집정관 서임식(주의: 누르기 전에 저장하세요!)</MI_Key_RoyalTitleIXInvitation.Label>
+  <MI_Key_RoyalTitleIXInvitation.Desc>밀리라 제국 연락 장교가 행성 집정관 서임 절차를 논의할 준비를 마쳤습니다.\n경고: 이 상황에는 심연 밀리라의 공격이 포함됩니다.</MI_Key_RoyalTitleIXInvitation.Desc>
+  <MI_Key_RoyalTitleXInvitation.Label>성간 집정관 서임식(주의: 누르기 전에 저장하세요!)</MI_Key_RoyalTitleXInvitation.Label>
+  <MI_Key_RoyalTitleXInvitation.Desc>밀리라 제국 연락 장교가 성간 집정관 서임 절차를 논의할 준비를 마쳤습니다.\n경고: 이 상황에는 심연 밀리라의 공격이 포함됩니다.</MI_Key_RoyalTitleXInvitation.Desc>
+  <MI_Key_RoyalTitleCeremonyManagerUnavailable>작위 진행 기록을 쓸 수 없습니다.</MI_Key_RoyalTitleCeremonyManagerUnavailable>
+  <MI_Key_RoyalTitleCeremonySystemUnavailable>지금은 서임 체계를 쓸 수 없습니다.</MI_Key_RoyalTitleCeremonySystemUnavailable>
+  <MI_Key_RoyalTitleCeremonyNoLivingTarget>지금 이 서임 대화에 나설 수 있는, 살아 있고 조건에 맞는 폰이 없습니다.</MI_Key_RoyalTitleCeremonyNoLivingTarget>
+  <MI_Key_RoyalTitleCeremonyTargetInvalid>고른 폰은 더 이상 이 서임 조건에 맞지 않습니다.</MI_Key_RoyalTitleCeremonyTargetInvalid>
+  <MI_Key_RoyalTitleCeremonyNoLongerAvailable>이 서임 초청은 더 이상 유효하지 않습니다.</MI_Key_RoyalTitleCeremonyNoLongerAvailable>
+  <MI_Key_RoyalTitleCeremonyTargetInCaravan>대상이 카라반에 있어 워프시킬 수 없습니다.</MI_Key_RoyalTitleCeremonyTargetInCaravan>
+  <MI_Key_RoyalTitleCeremonyInvalidProgressMultiplier>서임 절차의 진행 배율이 잘못되었습니다.</MI_Key_RoyalTitleCeremonyInvalidProgressMultiplier>
+  <MI_Key_SitutaionRoyalTitleMiliraPirate.Label>심연 밀리라 습격</MI_Key_SitutaionRoyalTitleMiliraPirate.Label>
+  <MI_Key_SitutaionRoyalTitleMiliraPirate.Desc>심연 연합의 밀리라 전사들이 워프해 오고 있습니다. 이 정착지가 새 집정관을 서임하기 전에 무너뜨리려 할 것입니다.</MI_Key_SitutaionRoyalTitleMiliraPirate.Desc>
+  <MI_Key_SituationRoyalTitleOutcome.Label>승급 완료</MI_Key_SituationRoyalTitleOutcome.Label>
+  <MI_Key_RoyalTitleOutcome.Desc>서임 절차가 무사히 끝났습니다. {0}의 밀리라 제국 작위가 올랐습니다.</MI_Key_RoyalTitleOutcome.Desc>
+  <MI_Key_RoyalTitleOutcome.NoEligiblePawn>지금 조건에 맞는 폰 없음</MI_Key_RoyalTitleOutcome.NoEligiblePawn>
+  <MI_Key_SitutaionRoyalTitleMiliraPirate.Desc_II>심연 연합의 밀리라 전사들이 워프해 오고 있습니다. 이 정착지가 새 집정관을 서임하기 전에 무너뜨리려 할 것입니다.\n\n적이 두 배 규모의 침공 부대를 워프시켰습니다.</MI_Key_SitutaionRoyalTitleMiliraPirate.Desc_II>
+  <MI_Key_SitutaionRoyalTitleMiliraPirate.Desc_III>심연 연합의 밀리라 전사들이 워프해 오고 있습니다. 이 정착지가 새 집정관을 서임하기 전에 무너뜨리려 할 것입니다.\n\n적이 세 배 규모의 침공 부대를 워프시켰습니다.</MI_Key_SitutaionRoyalTitleMiliraPirate.Desc_III>
+  <MI_Key_GravEngineHacked.Label>중력 엔진 해킹당함</MI_Key_GravEngineHacked.Label>
+  <MI_Key_GravEngineHacked.Desc>습격자들이 중력선 엔진을 해킹해 발진 절차를 잠갔습니다.\n\n엔진을 다시 켤 수 있을 때까지 약 10시간이 걸립니다.</MI_Key_GravEngineHacked.Desc>
   <MI_LetterLabelMiliraPirateThreat>추격: 밀리라 해적</MI_LetterLabelMiliraPirateThreat>
   <MI_LetterTextMiliraPirateThreat>밀리라 해적의 전함이 귀하의 중력선 좌표를 파악했습니다. 적군이 몇 시간 내에 워프해 올 것입니다.</MI_LetterTextMiliraPirateThreat>
   <MI_PirateThreatAlertLabel>밀리라 해적 접근 중</MI_PirateThreatAlertLabel>
@@ -328,7 +450,7 @@
   <MI_Silo_LeftMap_Text>{0}(이)가 지역을 벗어나 임무가 실패했습니다.</MI_Silo_LeftMap_Text>
   <MI_Silo_FinaleLetter_Label>이야기의 끝</MI_Silo_FinaleLetter_Label>
   <MI_Silo_FinaleLetter_Desc>중자 어뢰가 "팬시" 호를 직격했습니다. 이 거대한 해적 기함은 {0}의 과거 기록과 함께 산산조각 났으며, 이제 밀리라 해적은 다시는 그들을 추격할 수 없을 것입니다.\n\n오늘부터 {0}(은)는 자유입니다.</MI_Silo_FinaleLetter_Desc>
-  <MI_Silo_FinaleCreditsIntro>밀리라 해적의 통신 채널은 짧은 비명과 날카로운 경보음으로 가득 차더니, 이내 적막에 휩싸였습니다. 타키온 센서는 판타지 호의 파괴가 남긴 먼지와 방사능을 감지했습니다. \n오랫동안 {0}을 괴롭혔던 악몽 같은 함선은 이제 존재하지 않습니다. \n\n“성기사님, 우리가 해냈어요... 이제 집에 갈 수 있어요!” \n\n"밀리라 세력: 밀리라 제국"을 플레이해 주셔서 감사합니다.</MI_Silo_FinaleCreditsIntro>
+  <MI_Silo_FinaleCreditsIntro>밀리라 해적의 통신 채널은 짧은 비명과 날카로운 경보음으로 가득 차더니, 이내 적막에 휩싸였습니다. 타키온 센서는 판타지 호의 파괴가 남긴 먼지와 방사능을 감지했습니다. \n오랫동안 {0}을 괴롭혔던 악몽 같은 함선은 이제 존재하지 않습니다. \n\n“팔라딘, 우리가 해냈어... 이제 집에 갈 수 있어!” \n\n"밀리라 세력: 밀리라 제국"을 플레이해 주셔서 감사합니다.</MI_Silo_FinaleCreditsIntro>
   <MI_Church_Reinforce_Label>하늘깃털 교회 지원군</MI_Church_Reinforce_Label>
   <MI_Church_Reinforce_Text>귀하의 행보를 지켜보던 하늘깃털 교회 신자들이 계획을 알게 되었습니다. 헌신적인 기사들이 그들이 경외하는 "주님"을 돕기로 결심했습니다. 보급품을 지닌 하늘깃털 교회 기사들이 궤도 플랫폼으로 워프해 오고 있습니다.\n\n팁: 임시 지원군은 정신 붕괴를 일으키지 않습니다.</MI_Church_Reinforce_Text>
   <MI_Milira_Reinforce_Label>밀리라 베테랑 지원군</MI_Milira_Reinforce_Label>
@@ -368,34 +490,22 @@
   <Milira_WeaponRejected_Mote>장착할 수 없어요!</Milira_WeaponRejected_Mote>
   <MI_MechanoidSignalHackWarning>밀리언 데이터 네트워크 공격 시도로 인해 정착지의 메카노이드 네트워크가 노출되었으며, 모든 메카노이드 방화벽이 뚫렸습니다.</MI_MechanoidSignalHackWarning>
   <MI_MiliraAllyFirewallBlock>동기 궤도에 위치한 밀리라 제국 군함의 자율 인공지능이 정착지 메카노이드 네트워크에 대한 공격을 차단했습니다.</MI_MiliraAllyFirewallBlock>
-  <MI_speakerName_Lumiour>루미오르</MI_speakerName_Lumiour>
-  <MI_ResetModSettingGuide>모드 설정 안내 초기화</MI_ResetModSettingGuide>
-  <MI_ResetModSettingGuide_Done>모드 설정 안내가 초기화됩니다. 다음번에 세이브 파일을 불러올 때 다시 나타납니다.</MI_ResetModSettingGuide_Done>
-  <Turret_Health_Factor_MI>포탑/우주 전투기 체력 배율</Turret_Health_Factor_MI>
-  <Turret_Health_Factor_1_MI>포탑/우주 전투기 체력</Turret_Health_Factor_1_MI>
-  <MI_PsiShieldBanKillEnabled>초능력 보호막의 사망 방지 기능 활성화</MI_PsiShieldBanKillEnabled>
-  <MI_PsiShieldBanKillEnabled_Tip>활성화 시, 에너지가 남아있는 초능력 보호막이 치명적인 사망 판정 및 즉사 처리를 막아냅니다.</MI_PsiShieldBanKillEnabled_Tip>
-  <MI_ModSetting_MiliraPirateDifficultyLabel>심연 밀리라 습격 난이도:</MI_ModSetting_MiliraPirateDifficultyLabel>
-  <MI_ModSetting_MiliraPirateDifficultySelectionLabel>난이도 선택</MI_ModSetting_MiliraPirateDifficultySelectionLabel>
-  <MI_ModSetting_MiliraPirateDifficulty_Easy>쉬움</MI_ModSetting_MiliraPirateDifficulty_Easy>
-  <MI_ModSetting_MiliraPirateDifficulty_Easy_Desc>다행히 이 변방계는 어떤 제국의 영토 내에 위치해 있어, 밀리라 심연 해적들은 지상 강습 부대로 쓰기 위해 위장 신분으로 크레이돌에서 밀리언을 구매할 수밖에 없습니다.\n습격에 밀리라 적대 세력은 나타나지 않습니다. 밀리언들은 밀리라 제국 무기로 무장하지 않습니다.</MI_ModSetting_MiliraPirateDifficulty_Easy_Desc>
-  <MI_ModSetting_MiliraPirateDifficulty_Normal>보통</MI_ModSetting_MiliraPirateDifficulty_Normal>
-  <MI_ModSetting_MiliraPirateDifficulty_Normal_Desc>심연 밀리라는 이 항성계에 대한 습격 작전을 수행 중입니다. 기지가치가 증가함에 따라 적의 습격은 점차 더 위험해집니다.\n기지가치가 350,000을 초과하면 밀리라 적대 세력이 나타나며, 밀리언들은 낮은 확률로 밀리라 제국 무기로 무장합니다.\n이 확률은 기지가치가 오를수록 증가합니다.</MI_ModSetting_MiliraPirateDifficulty_Normal_Desc>
-  <MI_ModSetting_MiliraPirateDifficulty_Hard>어려움</MI_ModSetting_MiliraPirateDifficulty_Hard>
-  <MI_ModSetting_MiliraPirateDifficulty_Hard_Desc>이 항성계는 심연 밀리라에게 특별한 전략적 가치를 지니고 있으며, 그들은 전략적 목표를 달성하기 위해 더 많은 자원을 투입할 것입니다.\n이제부터 밀리언들은 밀리라 제국 무기와 태양 보호막으로 무장할 확률이 생깁니다.\n이 확률은 기지가치가 오를수록 증가합니다.</MI_ModSetting_MiliraPirateDifficulty_Hard_Desc>
-  <MI_ModSetting_MiliraPirateDifficulty_Extreme>잔혹함</MI_ModSetting_MiliraPirateDifficulty_Extreme>
-  <MI_ModSetting_MiliraPirateDifficulty_Extreme_Desc>심연 밀리라 함대가 이 항성계를 배회하고 있으며, 이곳에 있는 밀리라 제국 세력을 제거하기로 결정했습니다.\n이제부터 모든 밀리라 적대 세력은 암흑 물질 보호막을 사용하며, 모든 밀리언은 밀리라 제국 무기와 태양 보호막을 사용합니다.</MI_ModSetting_MiliraPirateDifficulty_Extreme_Desc>
-  <MI_ModSetting_MiliraPirateDifficulty_Peace>평화</MI_ModSetting_MiliraPirateDifficulty_Peace>
-  <MI_ModSetting_MiliraPirateDifficulty_Peace_Desc>이 항성계에 있는 심연 밀리라 분함대는 신중하고 절제된 태도를 유지하며, 밀리라 제국 이외의 세력은 먼저 공격하지 않습니다.\n당신이 밀리라 제국과 외교 관계를 유지하더라도 그들은 당신에게 중립을 유지할 것입니다.\n밀리라 해적 습격이 촉발되더라도 해당 습격은 취소됩니다.</MI_ModSetting_MiliraPirateDifficulty_Peace_Desc>
-  <MI_ModSetting_MiliraPirateDifficulty_ExtremePlus>잔혹함+</MI_ModSetting_MiliraPirateDifficulty_ExtremePlus>
-  <MI_ModSetting_MiliraPirateDifficulty_ExtremePlus_Desc>심연 밀리라 소속의 타이탄급 전함 여러 대가 이 항성계에 배치되었습니다.\n이 타이탄급 전함들은 지휘함으로서 지상 상륙 부대에 다양한 무작위 지원을 제공할 것입니다.\n"잔혹함" 난이도를 바탕으로, 기지가치가 350,000을 초과하면 밀리라 해적 습격에 "뮤테이터"가 포함됩니다.</MI_ModSetting_MiliraPirateDifficulty_ExtremePlus_Desc>
-  <MI_Letter_MiliraPirateRaidPeace_Label>습격 취소됨</MI_Letter_MiliraPirateRaidPeace_Label>
-  <MI_Letter_MiliraPirateRaidPeace_Text>심연 밀리라는 당신에 대한 중립 입장을 유지하며 이번 상륙 작전을 취소했습니다.</MI_Letter_MiliraPirateRaidPeace_Text>
-  <MI_TriggerShieldEffect>보호막 이펙트를 끄시겠습니까?</MI_TriggerShieldEffect>
-  <MI_TriggerShieldEffect_Tip>활성화 시 태양 보호막 벨트의 GPU 사용량이 감소합니다.</MI_TriggerShieldEffect_Tip>
-  <MI_EnabledScenarioWarningSound>시나리오 음성 알림 활성화</MI_EnabledScenarioWarningSound>
-  <MI_EnabledScenarioWarningSound_Tip>활성화 시, "밀리라 해적으로부터의 탈출" 시나리오에서 추격 카운트다운이 시작될 때와 적이 워프해 올 때 음성 알림이 재생됩니다.</MI_EnabledScenarioWarningSound_Tip>
   <MiliraImperium_DevSpawnLydia_Label>개발자 도구: 리디아 소환</MiliraImperium_DevSpawnLydia_Label>
-  <MiliraImperium_DevSpawnLydia_Desc>지정된 칸에 밀리라 어둠의 전사를 소환합니다. 이 명령어 버튼을 사용한 후에는 버튼이 사라집니다.</MiliraImperium_DevSpawnLydia_Desc>
+  <MiliraImperium_DevSpawnLydia_Desc>지정한 칸에 밀리라 어둠의 전사를 소환합니다. 이 명령 버튼을 사용하면 버튼이 사라집니다.</MiliraImperium_DevSpawnLydia_Desc>
   <MiliraImperium_DevSpawnLydia_Success>밀리라 어둠의 전사가 배치되었습니다.</MiliraImperium_DevSpawnLydia_Success>
+  <MI_Key_ALVersionIncompatible.Label>아리안델 도서관 버전 불일치</MI_Key_ALVersionIncompatible.Label>
+  <MI_Key_ALVersionIncompatible.Desc>「밀리라 세력: 밀리라 제국」 모드가 요구하는 아리안델 도서관 버전과 맞지 않습니다. 게임이 제대로 돌아가지 않을 가능성이 매우 큽니다.\n\n필요한 라이브러리를 손수 갱신해 이 문제를 해결하십시오. 스팀 창작마당은 모든 모드 업데이트를 제때 내려받아 주지 못하는 일이 잦습니다.\n\n손수 갱신하는 방법: 먼저 아리안델 도서관 구독을 해지한 뒤 다시 구독하십시오. 그러면 스팀 창작마당이 아리안델 도서관의 최신 판본을 내려받습니다.</MI_Key_ALVersionIncompatible.Desc>
+  <Milira_Immortal_Label>동력 실패</Milira_Immortal_Label>
+  <Milira_Immortal_Text>"내가 지켜보고 있다. 이런 얄팍한 속임수는 통하지 않아." 호락스가 말했습니다.</Milira_Immortal_Text>
+  <Milira_OvumBlocked_Label>추출 실패</Milira_OvumBlocked_Label>
+  <Milira_OvumBlocked_Text>{PAWN_labelShort}(에)게서 추출할 수 있는 난자가 없습니다.</Milira_OvumBlocked_Text>
+  <Milira_BirthBlocked_Label>출산 실패</Milira_BirthBlocked_Label>
+  <Milira_BirthBlocked_Text>{PAWN_labelShort}(이)가 아이를 낳지 못했습니다.</Milira_BirthBlocked_Text>
+  <Milira_DevVanish_Label>개발자: 폰 소멸</Milira_DevVanish_Label>
+  <Milira_DevVanish_Desc>대상을 즉시 소멸시킵니다(Vanish 모드).</Milira_DevVanish_Desc>
+  <MI_Name_Dellin_First>코르시스</MI_Name_Dellin_First>
+  <MI_Name_Dellin_Last>델린</MI_Name_Dellin_Last>
+  <MI_Name_Dellin_Nick>델린</MI_Name_Dellin_Nick>
+  <MI_VoidWarshipStrikeRounds>아이리스 호 공습 횟수</MI_VoidWarshipStrikeRounds>
+  <MI_VoidWarshipStrikeRounds_Tip>아이리스 호의 공습 횟수를 설정합니다(5~50회).</MI_VoidWarshipStrikeRounds_Tip>
 </LanguageData>

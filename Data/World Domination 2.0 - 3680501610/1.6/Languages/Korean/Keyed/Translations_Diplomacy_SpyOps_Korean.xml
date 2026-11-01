@@ -1,0 +1,671 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <TSA_WD_AllegianceLock_ScopeInfo>이 목록은 World Domination 모드가 시도하는 관계 변경에 적용됩니다.</TSA_WD_AllegianceLock_ScopeInfo>
+  <TSA_WD_AllegianceLock_Title>허용된 외교 변경</TSA_WD_AllegianceLock_Title>
+  <TSA_WD_BtnAllowAll>모두 허용</TSA_WD_BtnAllowAll>
+  <TSA_WD_BtnAllowAll_Tooltip>모든 세력이 다른 모든 세력과 자유롭게 외교 관계를 변경할 수 있게 됩니다.</TSA_WD_BtnAllowAll_Tooltip>
+  <TSA_WD_BtnLockAll>모두 고정</TSA_WD_BtnLockAll>
+  <TSA_WD_BtnLockAll_Tooltip>World Domination 모드를 통한 어떠한 외교 관계 변경도 발생하지 않습니다.</TSA_WD_BtnLockAll_Tooltip>
+  <TSA_WD_BtnReset>기본값</TSA_WD_BtnReset>
+  <TSA_WD_BtnResetGlobal>영구 적대</TSA_WD_BtnResetGlobal>
+  <TSA_WD_BtnResetGlobal_Tooltip>영구 적대 세력이 포함된 모든 관계 쌍(플레이어와의 관계 포함)을 고정하고, 곤충 군체 세력은 모든 대상에 대해 고정합니다. WD 외교가 해당 관계를 변경하지 못하도록 방지합니다.</TSA_WD_BtnResetGlobal_Tooltip>
+  <TSA_WD_BtnReset_Tooltip>기본 고정 규칙을 적용합니다: 영구 적대 세력(곤충 군체 및 바닐라 영구 적대 세력) 간의 관계는 상호 고정되며, 곤충 군체 세력은 모든 대상에 대해 고정됩니다. 플레이어와의 관계를 포함한 다른 세력 쌍은 아래 목록에서 직접 고정하지 않는 한 고정 해제 상태로 유지됩니다.</TSA_WD_BtnReset_Tooltip>
+  <TSA_WD_DescAllegianceMatrix>게임 내 전용: 세력 참여 여부(WD 활동, 맵 생성, 이야기꾼) 및 세력 쌍별 외교 관계 설정입니다.</TSA_WD_DescAllegianceMatrix>
+  <TSA_WD_Diplo_ActionShareMult>일일 활동 점유율 배수</TSA_WD_Diplo_ActionShareMult>
+  <TSA_WD_Diplo_AntiLeader>반패권 동맹 활성화</TSA_WD_Diplo_AntiLeader>
+  <TSA_WD_Diplo_AntiLeaderTooltip>약소 세력들이 균형을 회복하기 위해 방어 동맹을 결성하고 세계 최강의 패권 세력에 선전포고할 수 있습니다.</TSA_WD_Diplo_AntiLeaderTooltip>
+  <TSA_WD_Diplo_AttritionMult>이동 소모 배수</TSA_WD_Diplo_AttritionMult>
+  <TSA_WD_Diplo_Block_Coalition>반패권 동맹</TSA_WD_Diplo_Block_Coalition>
+  <TSA_WD_Diplo_Block_Leader>세계 패권 세력 페널티</TSA_WD_Diplo_Block_Leader>
+  <TSA_WD_Diplo_Block_Underdog>열세 세력 성장 강화</TSA_WD_Diplo_Block_Underdog>
+  <TSA_WD_Diplo_Block_Zeal>팽창주의 열의</TSA_WD_Diplo_Block_Zeal>
+  <TSA_WD_Diplo_Change_Label>외교 변경</TSA_WD_Diplo_Change_Label>
+  <TSA_WD_Diplo_CoalitionTriggerChance>동맹 결성 확률</TSA_WD_Diplo_CoalitionTriggerChance>
+  <TSA_WD_Diplo_CoalitionTriggerChanceTooltip>패권 세력이 존재하고 대기 시간이 지났을 때 반패권 동맹이 결성될 일일 확률입니다.</TSA_WD_Diplo_CoalitionTriggerChanceTooltip>
+  <TSA_WD_Diplo_Coalition_Label>방어 동맹 (강화)</TSA_WD_Diplo_Coalition_Label>
+  <TSA_WD_Diplo_Coalition_Msg>{0} 세력들이 선두 세력인 {1}을(를) 무너뜨리기 위해 동맹을 결성했습니다.</TSA_WD_Diplo_Coalition_Msg>
+  <TSA_WD_Diplo_CoalitionAbandoned_Label>반패권 동맹 해산</TSA_WD_Diplo_CoalitionAbandoned_Label>
+  <TSA_WD_Diplo_CoalitionAbandoned_Msg>반패권 동맹이 해산되었습니다. 외교 관계가 동맹 결성 이전 상태로 돌아갑니다.
+
+{0}</TSA_WD_Diplo_CoalitionAbandoned_Msg>
+  <TSA_WD_Diplo_CoalitionAbandoned_Pair>{0} 및 {1}: {2}</TSA_WD_Diplo_CoalitionAbandoned_Pair>
+  <TSA_WD_Diplo_CoalitionShortened_Msg>반패권 압박 완화: {0} 세력이 약소화되어 기민해졌습니다. 동맹은 약 {1}일 더 유지됩니다.</TSA_WD_Diplo_CoalitionShortened_Msg>
+  <TSA_WD_Diplo_Enable>활성화</TSA_WD_Diplo_Enable>
+  <TSA_WD_Diplo_ExpansionistZeal>팽창주의 열의 (강화)</TSA_WD_Diplo_ExpansionistZeal>
+  <TSA_WD_Diplo_ExpansionistZealTooltip>야망 있는 무작위 세력이 때때로 공격 반경 +50%를 획득할 수 있도록 허용합니다.</TSA_WD_Diplo_ExpansionistZealTooltip>
+  <TSA_WD_Diplo_ExpansionistZeal_Msg>강화: '{0}' 세력이 향후 {1}일 동안 공격 반경 +50% 효과를 얻습니다.</TSA_WD_Diplo_ExpansionistZeal_Msg>
+  <TSA_WD_Diplo_Flavor_Ally>{0}과(와) {1}이(가) 이제 동맹 관계입니다.</TSA_WD_Diplo_Flavor_Ally>
+  <TSA_WD_Diplo_Flavor_AllyByTrade>{0}과(와) {1}이(가) 무역을 통해 동맹이 되었습니다.</TSA_WD_Diplo_Flavor_AllyByTrade>
+  <TSA_WD_Diplo_Flavor_Peace>{0}과(와) {1}이(가) 평화 협정을 체결했습니다.</TSA_WD_Diplo_Flavor_Peace>
+  <TSA_WD_Diplo_Flavor_War>{0}과(와) {1}이(가) 선전포고했습니다.</TSA_WD_Diplo_Flavor_War>
+  <TSA_WD_Diplo_AlliedRaidAwardCosts>플레이어 양도 시 우호도 비용</TSA_WD_Diplo_AlliedRaidAwardCosts>
+  <TSA_WD_Diplo_AlliedRaidAwardCostsTooltip>동맹 세력에게 적대 정착지를 정복하고 그 폐허를 플레이어에게 넘겨주도록 요청할 때 지불하는 우호도입니다.</TSA_WD_Diplo_AlliedRaidAwardCostsTooltip>
+  <TSA_WD_Diplo_AlliedRaidClaimCosts>동맹 점령 시 우호도 비용</TSA_WD_Diplo_AlliedRaidClaimCosts>
+  <TSA_WD_Diplo_AlliedRaidClaimCostsTooltip>동맹 세력에게 적대 정착지를 정복하고 직접 차지하도록 요청할 때 지불하는 우호도입니다.</TSA_WD_Diplo_AlliedRaidClaimCostsTooltip>
+  <TSA_WD_Diplo_ConquestAllyGiftGoodwill>정복 정착지 양도 우호도 보상</TSA_WD_Diplo_ConquestAllyGiftGoodwill>
+  <TSA_WD_Diplo_ConquestAllyGiftGoodwillTooltip>정복 후 정착지 폐허를 동맹 또는 중립 세력에게 양도했을 때 획득하는 우호도입니다.</TSA_WD_Diplo_ConquestAllyGiftGoodwillTooltip>
+  <TSA_WD_GoodwillMsg_Trade>{0}과(와) 거래했습니다. 우호도 {1}, 현재 {2}</TSA_WD_GoodwillMsg_Trade>
+  <TSA_WD_GoodwillMsg_QuestReward>{0}의 임무 보상. 우호도 {1}, 현재 {2}</TSA_WD_GoodwillMsg_QuestReward>
+  <TSA_WD_GoodwillMsg_AlliedRaidOrdered>동맹 {0}에 {1} 습격을 지시했습니다. 우호도 -{2}, 현재 {3}</TSA_WD_GoodwillMsg_AlliedRaidOrdered>
+  <TSA_WD_GoodwillMsg_AlliedRaidRefund>{0}의 {1} 동맹 습격이 취소되었습니다. 우호도 {2} 환급, 현재 {3}</TSA_WD_GoodwillMsg_AlliedRaidRefund>
+  <TSA_WD_GoodwillMsg_ConquestGift>{0}이(가) {1}에 정착지를 건설했습니다. 우호도 +{2}, 현재 {3}</TSA_WD_GoodwillMsg_ConquestGift>
+  <TSA_WD_GoodwillMsg_SpyOpFailure>{1}에서의 {0} 공작 실패. {3} 세력과의 우호도 -{2}, 현재 {4}</TSA_WD_GoodwillMsg_SpyOpFailure>
+  <TSA_WD_GoodwillMsg_TraderCaravan>상단이 정착지에 도착했습니다. {0} 세력과의 우호도 +{1}, 현재 {2}</TSA_WD_GoodwillMsg_TraderCaravan>
+  <TSA_WD_GoodwillMsg_Embassy>대사관 {3}: {0} 세력과의 우호도 {1}, 현재 {2}</TSA_WD_GoodwillMsg_Embassy>
+  <TSA_WD_GoodwillMsg_OrderedRoadOrdered>{1}의 {0}에 {2}(으)로 향하는 도로 건설을 지시했습니다. 우호도 -{3}, 현재 {4}</TSA_WD_GoodwillMsg_OrderedRoadOrdered>
+  <TSA_WD_GoodwillMsg_OrderedTraderOrdered>{1}의 {0}에 {2}(으)로 상인({3}) 파견을 요청했습니다. 우호도 -{4}, 현재 {5}</TSA_WD_GoodwillMsg_OrderedTraderOrdered>
+  <TSA_WD_GoodwillMsg_SettlementBuyPaid>{0}에게서 정착지 {1}을(를) 매입했습니다. 우호도 -{2}, 현재 {3}</TSA_WD_GoodwillMsg_SettlementBuyPaid>
+  <TSA_WD_GoodwillMsg_SettlementBuyRefund>정착지 {1} 매입이 환급되었습니다. {0} 세력과의 우호도 +{2}, 현재 {3}</TSA_WD_GoodwillMsg_SettlementBuyRefund>
+  <TSA_WD_GoodwillMsg_OrderedRoadRefundCancel>{1}(으)로 향하는 도로 건설 지시가 취소되었습니다. 우호도 {2} 환급(미건설 {3}개 구간), 현재 {4}</TSA_WD_GoodwillMsg_OrderedRoadRefundCancel>
+  <TSA_WD_GoodwillMsg_OrderedRoadRefundDestroyed>{0} 파괴됨. 도로 건설 지시 우호도 {2} 환급(미건설 {3}개 구간), 현재 {4}</TSA_WD_GoodwillMsg_OrderedRoadRefundDestroyed>
+  <TSA_WD_GoodwillMsg_OrderedRoadRefundHostile>{0}이(가) 적대화되었습니다. 도로 건설 지시 우호도 {2} 환급(미건설 {3}개 구간), 현재 {4}</TSA_WD_GoodwillMsg_OrderedRoadRefundHostile>
+  <TSA_WD_GoodwillMsg_OrderedRoadRefundAbort>{1}(으)로 향하는 도로 건설 지시가 중단되었습니다. 우호도 {2} 환급(미건설 {3}개 구간), 현재 {4}</TSA_WD_GoodwillMsg_OrderedRoadRefundAbort>
+  <TSA_WD_Diplo_OrderedRoadOrdersHeader>도로 건설 지시</TSA_WD_Diplo_OrderedRoadOrdersHeader>
+  <TSA_WD_Diplo_OrderedRoadPerSegmentCosts>도로 구간당 우호도 (도로 유형별)</TSA_WD_Diplo_OrderedRoadPerSegmentCosts>
+  <TSA_WD_Diplo_OrderedRoadPerSegmentCostsTooltip>세력에 도로 건설을 지시할 때 도로 구간당 청구되는 우호도입니다. 지불 시 올림되며, 미건설 구간에 대한 환급 시 내림 처리됩니다.</TSA_WD_Diplo_OrderedRoadPerSegmentCostsTooltip>
+  <TSA_WD_Diplo_OrderedTraderCost>상단 호출 (우호도)</TSA_WD_Diplo_OrderedTraderCost>
+  <TSA_WD_Diplo_OrderedTraderCostTooltip>중립 또는 동맹 정착지에서 상단을 호출하는 고정 우호도 비용입니다. 모든 상단 종류의 비용은 동일합니다. 지불 후 최소 10의 우호도가 남아 있어야 합니다.</TSA_WD_Diplo_OrderedTraderCostTooltip>
+  <TSA_WD_FacDet_HeaderRoadForPlayer>플레이어를 위한 도로 건설</TSA_WD_FacDet_HeaderRoadForPlayer>
+  <TSA_WD_Diplo_AlliedRaidMinWinChance>동맹 습격 최소 성공 확률</TSA_WD_Diplo_AlliedRaidMinWinChance>
+  <TSA_WD_Diplo_AlliedRaidMinWinChanceTooltip>예상 성공 확률이 최소 이 값 이상일 때만 동맹 습격 지시를 시작할 수 있습니다.</TSA_WD_Diplo_AlliedRaidMinWinChanceTooltip>
+  <TSA_WD_Diplo_AlliedRaidOrdersHeader>동맹 습격 지시</TSA_WD_Diplo_AlliedRaidOrdersHeader>
+  <TSA_WD_Diplo_GlobalEventsHeader>일시적 강화 및 약화 효과</TSA_WD_Diplo_GlobalEventsHeader>
+  <TSA_WD_Diplo_GrowthGainMult>성장 전투력 획득 배수</TSA_WD_Diplo_GrowthGainMult>
+  <TSA_WD_Diplo_Header>동적 세계 외교 관계</TSA_WD_Diplo_Header>
+  <TSA_WD_Diplo_IncidentSeverity>사건 전투력 손실 배수</TSA_WD_Diplo_IncidentSeverity>
+  <TSA_WD_Diplo_IncidentWeight>사건 발생 확률 배수</TSA_WD_Diplo_IncidentWeight>
+  <TSA_WD_Diplo_LeaderHandicap>패권 세력 페널티 활성화 (약화)</TSA_WD_Diplo_LeaderHandicap>
+  <TSA_WD_Diplo_LeaderHandicapTooltip>가장 강력한 세력이 내분과 보급 문제로 고통받아 사건 발생 빈도가 증가합니다.</TSA_WD_Diplo_LeaderHandicapTooltip>
+  <TSA_WD_Diplo_LeaderHandicap_Label>약화: 세계 패권 세력</TSA_WD_Diplo_LeaderHandicap_Label>
+  <TSA_WD_Diplo_LeaderHandicap_Msg>약화: '{0}' 세력이 패권 세력이 되었습니다. 거대한 규모로 인해 향후 {1}일 동안 더 많은 사건에 직면하게 됩니다.</TSA_WD_Diplo_LeaderHandicap_Msg>
+  <TSA_WD_Diplo_LeaderIncidentSeverity>패권 세력: 사건 전투력 손실 배수</TSA_WD_Diplo_LeaderIncidentSeverity>
+  <TSA_WD_Diplo_LeaderIncidentSeverityTooltip>세계 패권 세력이 사건을 겪을 때 차감되는 전투력에 이 배수가 곱해집니다 (예: 2 = 피해 2배).</TSA_WD_Diplo_LeaderIncidentSeverityTooltip>
+  <TSA_WD_Diplo_LeaderIncidentWeight>패권 세력: 사건 발생 확률 배수</TSA_WD_Diplo_LeaderIncidentWeight>
+  <TSA_WD_Diplo_LeaderIncidentWeightTooltip>세계 패권 세력이 약화 효과를 받고 있을 때 소규모/대규모 사건 가중치에 이 배수가 곱해집니다 (예: 2 = 발생 확률 2배).</TSA_WD_Diplo_LeaderIncidentWeightTooltip>
+  <TSA_WD_Diplo_LeaderTriggerChance>패권 세력 약화 발동 확률</TSA_WD_Diplo_LeaderTriggerChance>
+  <TSA_WD_Diplo_LeaderTriggerChanceTooltip>조건이 충족되었을 때 패권 세력 페널티가 적용될 일일 확률입니다.</TSA_WD_Diplo_LeaderTriggerChanceTooltip>
+  <TSA_WD_Diplo_RaidRangeMult>습격 범위 배수</TSA_WD_Diplo_RaidRangeMult>
+  <TSA_WD_Diplo_RandomChance>일일 외교 관계 변경 확률</TSA_WD_Diplo_RandomChance>
+  <TSA_WD_Diplo_RandomChanceTooltip>두 세력 간에 무작위 외교 사건이 발생할 일일 확률입니다.</TSA_WD_Diplo_RandomChanceTooltip>
+  <TSA_WD_Diplo_RandomEnable>무작위 외교 관계 변경 활성화</TSA_WD_Diplo_RandomEnable>
+  <TSA_WD_Diplo_RandomEnableTooltip>활성화하면 NPC 세력들이 독자적으로 상호 관계(평화, 전쟁, 동맹)를 간혹 변경합니다.</TSA_WD_Diplo_RandomEnableTooltip>
+  <TSA_WD_Diplo_StrongFactionWarEnable>강대 세력 간 전쟁 활성화</TSA_WD_Diplo_StrongFactionWarEnable>
+  <TSA_WD_Diplo_StrongFactionWarEnableTooltip>매일 가장 강력한 NPC 세력들(세계 전투력 상위 점유율)이 동맹을 중립으로 냉각하거나, 중립 관계를 전쟁으로 격화시킬 수 있습니다. 동맹에서 적대로 곧바로 건너뛰지는 않습니다. 무작위 외교 관계 변경과는 별개로 작동합니다.</TSA_WD_Diplo_StrongFactionWarEnableTooltip>
+  <TSA_WD_Diplo_StrongFactionWarChance>강대 세력 전쟁 확률</TSA_WD_Diplo_StrongFactionWarChance>
+  <TSA_WD_Diplo_StrongFactionWarChanceTooltip>최상위 강대 NPC 세력 중 적격한 중립 또는 동맹 쌍 하나가 관계를 격화(동맹에서 중립, 또는 중립에서 전쟁)시킬 일일 확률입니다.</TSA_WD_Diplo_StrongFactionWarChanceTooltip>
+  <TSA_WD_Diplo_StrongFactionWarTopPct>대상 강대 세력 비율</TSA_WD_Diplo_StrongFactionWarTopPct>
+  <TSA_WD_Diplo_StrongFactionWarTopPctTooltip>강대 세력 관계 격화 대상으로 선택될 수 있는 최상위 NPC 세력 비율(총 전투력 기준)입니다. 가능한 경우 항상 최소 두 개 세력이 고려됩니다.</TSA_WD_Diplo_StrongFactionWarTopPctTooltip>
+  <TSA_WD_Diplo_StrongFactionWarRequireMidOrLate>중반 또는 후반 이후에만 활성화</TSA_WD_Diplo_StrongFactionWarRequireMidOrLate>
+  <TSA_WD_Diplo_StrongFactionWarRequireMidOrLateTooltip>활성화하면 중반 또는 후반 게임 격화가 활성화된 경우에만 강대 세력 간 전쟁이 발생합니다.</TSA_WD_Diplo_StrongFactionWarRequireMidOrLateTooltip>
+  <TSA_WD_Diplo_StrongFactionWarCooldown>강대 세력 전쟁 대기 시간</TSA_WD_Diplo_StrongFactionWarCooldown>
+  <TSA_WD_Diplo_StrongFactionWarCooldownTooltip>강대 세력 전쟁이 성공적으로 발동한 후 다음 전쟁이 발생하기까지 대기할 일수입니다. 특수 사건 공유 대기 시간이 켜져 있으면 무시됩니다.</TSA_WD_Diplo_StrongFactionWarCooldownTooltip>
+  <TSA_WD_Diplo_StrongFactionWar_Label>강대 세력 간 전쟁</TSA_WD_Diplo_StrongFactionWar_Label>
+  <TSA_WD_Diplo_StrongFactionWar_Msg>전쟁: 최강 세력에 속하는 '{0}'과(와) '{1}'이(가) 서로에게 선전포고했습니다.</TSA_WD_Diplo_StrongFactionWar_Msg>
+  <TSA_WD_Diplo_StrongFactionWar_Cool_Label>강대 세력 관계 냉각</TSA_WD_Diplo_StrongFactionWar_Cool_Label>
+  <TSA_WD_Diplo_StrongFactionWar_Cool_Msg>관계 냉각: 최강 세력에 속하는 '{0}'과(와) '{1}'이(가) 동맹을 끝내고 중립 관계가 되었습니다.</TSA_WD_Diplo_StrongFactionWar_Cool_Msg>
+  <TSA_WD_Diplo_Reset>이 페이지를 기본값으로 재설정</TSA_WD_Diplo_Reset>
+  <TSA_WD_Diplo_RevoltChance>일일 반란 확률</TSA_WD_Diplo_RevoltChance>
+  <TSA_WD_Diplo_RevoltChanceTooltip>멸망한 세력이 다시 돌아와 정착지 수가 가장 많은 최상위 NPC 세력들로부터 3~7개의 정착지(최대 세력에서 최소 3개, 나머지 2개 세력에서 나머지)를 탈취할 일일 확률입니다. 낮은 등급의 정착지를 우선 선택하며, 플레이어 소유지는 절대 빼앗기지 않습니다.</TSA_WD_Diplo_RevoltChanceTooltip>
+  <TSA_WD_Diplo_RevoltCooldown>반란 대기 시간</TSA_WD_Diplo_RevoltCooldown>
+  <TSA_WD_Diplo_RevoltCooldownTooltip>반란이 성공적으로 발동한 후 다음 반란이 발생하기까지 대기할 일수입니다. 특수 사건 공유 대기 시간이 켜져 있으면 무시됩니다.</TSA_WD_Diplo_RevoltCooldownTooltip>
+  <TSA_WD_Diplo_ForwardAssaultEnable>전진 공세 활성화 (전위대 / 침공)</TSA_WD_Diplo_ForwardAssaultEnable>
+  <TSA_WD_Diplo_ForwardAssaultEnableTooltip>멀리 떨어진 강력한 적대 세력이 5~7개 정착지를 몇몇 강력한 전위대 상단으로 통합하여 전선에 진지를 구축하거나, 침공을 위해 5~7회의 조직적인 습격을 감행(본거지는 유지)할 수 있습니다. 전위대와 침공의 발동 시점은 전투 난이도의 위협 진입 장벽에서 설정하며, 공유 전진 공세 활성화, 확률, 거리 조절도 해당 페이지에 있습니다. 전위대가 군집을 확보하지 못하고 대체 설정이 켜져 있다면 침공을 대신 시도합니다.</TSA_WD_Diplo_ForwardAssaultEnableTooltip>
+  <TSA_WD_Diplo_ForwardAssaultChance>전진 공세 확률</TSA_WD_Diplo_ForwardAssaultChance>
+  <TSA_WD_Diplo_ForwardAssaultChanceTooltip>중/후반 게임 난이도 조건과 대기 시간이 허용될 때 전위대 또는 침공 전진 공세를 시도할 일일 확률입니다.</TSA_WD_Diplo_ForwardAssaultChanceTooltip>
+  <TSA_WD_Diplo_ForwardAssaultTopPct>대상 강대 세력 비율</TSA_WD_Diplo_ForwardAssaultTopPct>
+  <TSA_WD_Diplo_ForwardAssaultTopPctTooltip>전진 공세 침략자로 선택될 수 있는 최상위 NPC 세력 비율(총 전투력 기준)입니다.</TSA_WD_Diplo_ForwardAssaultTopPctTooltip>
+  <TSA_WD_Diplo_ForwardAssaultMinDist>플레이어와의 최소 거리 (타일)</TSA_WD_Diplo_ForwardAssaultMinDist>
+  <TSA_WD_Diplo_ForwardAssaultMinDistTooltip>발원지 정착지가 가장 가까운 플레이어 정착지에서 최소 이 거리 이상 떨어져 있어야 전위대 통합 대상이나 침공 습격 발원지로 지정될 수 있습니다.</TSA_WD_Diplo_ForwardAssaultMinDistTooltip>
+  <TSA_WD_Diplo_ForwardAssaultCooldown>전진 공세 대기 시간</TSA_WD_Diplo_ForwardAssaultCooldown>
+  <TSA_WD_Diplo_ForwardAssaultCooldownTooltip>전위대 또는 침공이 한 번 개시된 후 다음 전진 공세가 시작되기까지 대기할 일수입니다. 두 모드가 공유합니다. 특수 사건 공유 대기 시간이 켜져 있으면 무시됩니다.</TSA_WD_Diplo_ForwardAssaultCooldownTooltip>
+  <TSA_WD_Diplo_SharedSpecialEventCooldown>특수 사건 공유 대기 시간</TSA_WD_Diplo_SharedSpecialEventCooldown>
+  <TSA_WD_Diplo_SharedSpecialEventCooldownTooltip>활성화하면 강대 세력 전쟁, 반란, 전진 공세가 하나의 대기 시간 슬라이더를 공유합니다. 비활성화하면 각 사건이 개별 대기 시간을 갖습니다. 필사의 습격은 이 공유 대기 시간을 사용하지 않습니다.</TSA_WD_Diplo_SharedSpecialEventCooldownTooltip>
+  <TSA_WD_Diplo_SharedSpecialEventCooldownDays>특수 사건 공유 대기 시간</TSA_WD_Diplo_SharedSpecialEventCooldownDays>
+  <TSA_WD_Diplo_SharedSpecialEventCooldownDaysTooltip>강대 세력 전쟁, 반란, 전진 공세 중 하나가 성공한 후 셋 중 어느 것이든 다시 발동하기까지 대기할 일수입니다. 필사의 습격은 세력별 자체 대기 시간을 사용합니다.</TSA_WD_Diplo_SharedSpecialEventCooldownDaysTooltip>
+  <TSA_WD_Diplo_StrongFactionWarHeader>강대 세력 전쟁</TSA_WD_Diplo_StrongFactionWarHeader>
+  <TSA_WD_Diplo_RevoltHeader>반란</TSA_WD_Diplo_RevoltHeader>
+  <TSA_WD_Diplo_ForwardAssaultHeader>전진 공세</TSA_WD_Diplo_ForwardAssaultHeader>
+  <TSA_WD_Diplo_DesperationRaidHeader>정착지 상실 대응 전략</TSA_WD_Diplo_DesperationRaidHeader>
+  <TSA_WD_Diplo_SharedSpecialEventCooldownHeader>특수 사건 공유 대기 시간</TSA_WD_Diplo_SharedSpecialEventCooldownHeader>
+  <TSA_WD_Diplo_DesperationRaidEnable>필사의 습격 활성화</TSA_WD_Diplo_DesperationRaidEnable>
+  <TSA_WD_Diplo_DesperationRaidEnableTooltip>적격한 NPC 군집이 정착지를 잃었을 때, 해당 세력은 농성하거나 필사의 습격을 감행할 수 있습니다. 난이도 사전 설정은 이 조건을 제어하지 않습니다.</TSA_WD_Diplo_DesperationRaidEnableTooltip>
+  <TSA_WD_Diplo_StrategyFireChance>전략 발동 확률</TSA_WD_Diplo_StrategyFireChance>
+  <TSA_WD_Diplo_StrategyFireChanceTooltip>압도당한 군집이 정착지를 잃고 전략 대기 시간이 아닐 때, 전략(농성 또는 필사의 습격)이 실제로 발동할 확률입니다. 발동 실패 시 아무 일도 일어나지 않으며 전략 대기 시간도 시작되지 않습니다.</TSA_WD_Diplo_StrategyFireChanceTooltip>
+  <TSA_WD_Diplo_DesperationChance>필사의 습격 허용 여부</TSA_WD_Diplo_DesperationChance>
+  <TSA_WD_Diplo_DesperationChanceTooltip>압도당한 군집에서 정착지를 잃은 후 전략이 발동하면, 세력은 농성(단일 정착지로 병력 집결)하거나 필사의 습격(정착지를 버리고 가장 가까운 목표로 돌격)을 감행할 수 있습니다.
+
+군집이란 해당 세력의 정착지들이 {0} 타일 이내로 연결된 집합을 의미합니다. '압도당함'이란 군집 내 임의의 기지로부터 {2} 타일 이내에 위치한 적대 공격력이 해당 군집 자체 공격력의 최소 {1}% 이상임을 뜻합니다.
+
+이 설정이 켜져 있을 때:
+강대 세력: 필사의 습격 안 함, 항상 농성
+보통 세력: {3}% 필사의 습격, {4}% 농성
+약소 세력: {5}% 필사의 습격, {6}% 농성
+
+강대 = 생존 NPC 균등 전투력(1/N)의 최소 {7}% 이상
+보통 = 균등 전투력의 {8}% ~ {7}%
+약소 = 균등 전투력의 {8}% 미만
+
+꺼짐 = 전략 발동 시 농성만 수행합니다.</TSA_WD_Diplo_DesperationChanceTooltip>
+  <TSA_WD_Diplo_DesperationMaxShare>약소 세력 전투력 기준</TSA_WD_Diplo_DesperationMaxShare>
+  <TSA_WD_Diplo_DesperationMaxShareTooltip>세이브 호환성을 위해 유지된 기존 설정입니다. 전략은 이제 균등 지분 구간을 대신 사용합니다.</TSA_WD_Diplo_DesperationMaxShareTooltip>
+  <TSA_WD_Diplo_DesperationCooldown>전략 대기 시간</TSA_WD_Diplo_DesperationCooldown>
+  <TSA_WD_Diplo_DesperationCooldownTooltip>동일한 세력이 정착지 상실 대응 전략(농성 또는 필사의 습격)을 다시 실행하기까지 대기할 일수입니다. 전쟁, 반란, 전진 공세와 공유되지 않습니다.</TSA_WD_Diplo_DesperationCooldownTooltip>
+  <TSA_WD_Diplo_DesperationNotify>필사의 습격 개시 시 알림</TSA_WD_Diplo_DesperationNotify>
+  <TSA_WD_Diplo_DesperationNotifyTooltip>필사의 습격 부대가 짐을 꾸려 행군을 시작할 때 편지를 보냅니다.</TSA_WD_Diplo_DesperationNotifyTooltip>
+  <TSA_WD_Diplo_TriggerChance>발동 확률</TSA_WD_Diplo_TriggerChance>
+  <TSA_WD_Diplo_UnderdogActionShare>열세 세력: 일일 활동 점유율 배수</TSA_WD_Diplo_UnderdogActionShare>
+  <TSA_WD_Diplo_UnderdogActionShareTooltip>열세 세력 강화가 활성화되어 있을 때, 해당 세력의 일일 활동 점유율에 이 배수가 곱해집니다 (예: 2 = 활동 2배).</TSA_WD_Diplo_UnderdogActionShareTooltip>
+  <TSA_WD_Diplo_UnderdogBuff>열세 세력 성장 강화 활성화 (강화)</TSA_WD_Diplo_UnderdogBuff>
+  <TSA_WD_Diplo_UnderdogBuffTooltip>균등 전투력 미만의 약소 NPC 세력은 기민한 상태가 되어(한 번에 여러 세력 가능), 일정 기간 동안 더 빠른 성장과 더 강력한 방어력을 얻을 수 있습니다.</TSA_WD_Diplo_UnderdogBuffTooltip>
+  <TSA_WD_Diplo_UnderdogBuff_Label>강화: 성장 촉진</TSA_WD_Diplo_UnderdogBuff_Label>
+  <TSA_WD_Diplo_UnderdogBuff_Msg>강화: '{0}' 세력은 규모가 작고 기민하여 향후 {1}일 동안 더 빠르게 성장합니다.</TSA_WD_Diplo_UnderdogBuff_Msg>
+  <TSA_WD_Diplo_UnderdogBuff_MsgMulti>강화: {0} 세력이 규모가 작고 기민하여 향후 {1}일 동안 더 빠르게 성장합니다.</TSA_WD_Diplo_UnderdogBuff_MsgMulti>
+  <TSA_WD_Diplo_PerFactionCooldownTooltip>해당 세력에게 이 강화/약화 효과가 끝난 후 적용되는 세력별 대기 시간입니다. 다른 세력은 여전히 효과를 받을 수 있습니다.</TSA_WD_Diplo_PerFactionCooldownTooltip>
+  <TSA_WD_Diplo_MaxConcurrentUnderdogs>동시 열세 세력 최대 수</TSA_WD_Diplo_MaxConcurrentUnderdogs>
+  <TSA_WD_Diplo_MaxConcurrentUnderdogsTooltip>한 번에 기민함 강화 효과를 보유할 수 있는 약소 NPC 세력의 수입니다.</TSA_WD_Diplo_MaxConcurrentUnderdogsTooltip>
+  <TSA_WD_Diplo_LeaderGrowthGainMult>패권 세력: 성장 전투력 획득 배수</TSA_WD_Diplo_LeaderGrowthGainMult>
+  <TSA_WD_Diplo_LeaderGrowthGainTooltip>세계 패권 세력 페널티가 활성화되어 있을 때 지속 성장으로 얻는 전투력에 이 배수가 곱해집니다.</TSA_WD_Diplo_LeaderGrowthGainTooltip>
+  <TSA_WD_Diplo_LeaderAllyRadiusMult>패권 세력: 동맹 증원 반경 배수</TSA_WD_Diplo_LeaderAllyRadiusMult>
+  <TSA_WD_Diplo_LeaderAllyRadiusTooltip>패권 세력 페널티가 활성화된 동안 동맹군 증원 반경을 축소합니다.</TSA_WD_Diplo_LeaderAllyRadiusTooltip>
+  <TSA_WD_Diplo_LeaderExpandCdMult>패권 세력: 확장 대기 시간 배수</TSA_WD_Diplo_LeaderExpandCdMult>
+  <TSA_WD_Diplo_LeaderExpandCdTooltip>패권 세력 페널티가 활성화된 동안 확장 대기 시간을 늘립니다.</TSA_WD_Diplo_LeaderExpandCdTooltip>
+  <TSA_WD_Diplo_LeaderFortifyDensityMult>패권 세력: 요새화 밀도 배수</TSA_WD_Diplo_LeaderFortifyDensityMult>
+  <TSA_WD_Diplo_LeaderFortifyDensityTooltip>패권 세력 페널티가 활성화된 동안 요새화 키트 대전차 수량 / 상단 밀도를 조절합니다.</TSA_WD_Diplo_LeaderFortifyDensityTooltip>
+  <TSA_WD_Diplo_LeaderAttackAttWinMult>패권 세력 공격 시: 공격측 승률 배수</TSA_WD_Diplo_LeaderAttackAttWinMult>
+  <TSA_WD_Diplo_LeaderAttackAttWinTooltip>페널티를 받는 패권 세력이 공격할 때 공격측 승리 확률에 곱해지는 배수입니다.</TSA_WD_Diplo_LeaderAttackAttWinTooltip>
+  <TSA_WD_Diplo_LeaderDefendAttWinMult>패권 세력 수비 시: 공격측 승률 배수</TSA_WD_Diplo_LeaderDefendAttWinMult>
+  <TSA_WD_Diplo_LeaderDefendAttWinTooltip>페널티를 받는 패권 세력이 수비할 때 공격측 승리 확률에 곱해지는 배수입니다 (높을수록 패권 세력을 무너뜨리기 쉬워짐).</TSA_WD_Diplo_LeaderDefendAttWinTooltip>
+  <TSA_WD_Diplo_UnderdogAllyRadiusMult>열세 세력: 동맹 증원 반경 배수</TSA_WD_Diplo_UnderdogAllyRadiusMult>
+  <TSA_WD_Diplo_UnderdogAllyRadiusTooltip>기민함 효과가 활성화된 동안 동맹군 증원 반경을 넓힙니다.</TSA_WD_Diplo_UnderdogAllyRadiusTooltip>
+  <TSA_WD_Diplo_UnderdogExpandWeightMult>열세 세력: 발전/확장 가중치 배수</TSA_WD_Diplo_UnderdogExpandWeightMult>
+  <TSA_WD_Diplo_UnderdogExpandWeightTooltip>기민함 효과가 활성화된 동안 발전/확장 행동 가중치를 높입니다.</TSA_WD_Diplo_UnderdogExpandWeightTooltip>
+  <TSA_WD_Diplo_UnderdogExpandCdMult>열세 세력: 확장 대기 시간 배수</TSA_WD_Diplo_UnderdogExpandCdMult>
+  <TSA_WD_Diplo_UnderdogExpandCdTooltip>기민함 효과가 활성화된 동안 확장 대기 시간을 단축합니다.</TSA_WD_Diplo_UnderdogExpandCdTooltip>
+  <TSA_WD_Diplo_UnderdogFortifyDensityMult>열세 세력: 요새화 밀도 배수</TSA_WD_Diplo_UnderdogFortifyDensityMult>
+  <TSA_WD_Diplo_UnderdogFortifyDensityTooltip>기민함 효과가 활성화된 동안 요새화 키트 대전차 수량 / 상단 밀도를 조절합니다.</TSA_WD_Diplo_UnderdogFortifyDensityTooltip>
+  <TSA_WD_Diplo_UnderdogDefendAttWinMult>열세 세력 수비 시: 공격측 승률 배수</TSA_WD_Diplo_UnderdogDefendAttWinMult>
+  <TSA_WD_Diplo_UnderdogDefendAttWinTooltip>기민함 효과를 받는 세력이 수비할 때 공격측 승리 확률에 곱해지는 배수입니다 (낮을수록 열세 세력이 소멸하기 어려워짐).</TSA_WD_Diplo_UnderdogDefendAttWinTooltip>
+  <TSA_WD_Diplo_UnderdogAttackAttWinMult>열세 세력 공격 시: 공격측 승률 배수</TSA_WD_Diplo_UnderdogAttackAttWinMult>
+  <TSA_WD_Diplo_UnderdogAttackAttWinTooltip>기민함 효과를 받는 세력이 공격할 때 공격측 승리 확률에 곱해지는 배수입니다 (영토 탈환에 도움).</TSA_WD_Diplo_UnderdogAttackAttWinTooltip>
+  <TSA_WD_Diplo_UnderdogGrowthGain>열세 세력: 성장 전투력 획득 배수</TSA_WD_Diplo_UnderdogGrowthGain>
+  <TSA_WD_Diplo_UnderdogGrowthGainTooltip>열세 세력 강화가 활성화되어 있을 때, 성장 행동으로 얻는 전투력에 이 배수가 곱해집니다 (예: 2 = 성장치 2배).</TSA_WD_Diplo_UnderdogGrowthGainTooltip>
+  <TSA_WD_Diplo_UnderdogIncidentWeight>사건 발생 확률 배수</TSA_WD_Diplo_UnderdogIncidentWeight>
+  <TSA_WD_Diplo_UnderdogIncidentWeightTooltip>열세 세력 강화가 활성화되어 있을 때, 사건 발생 빈도에 이 배수가 곱해집니다 (예: 0.5 = 발생 빈도 절반).</TSA_WD_Diplo_UnderdogIncidentWeightTooltip>
+  <TSA_WD_Diplo_UnderdogIncidentSeverity>사건 전투력 손실 배수</TSA_WD_Diplo_UnderdogIncidentSeverity>
+  <TSA_WD_Diplo_UnderdogIncidentSeverityTooltip>열세 세력 강화가 활성화되어 있을 때, 사건으로 인해 감소하는 전투력에 이 배수가 곱해집니다 (예: 0.5 = 손실 절반).</TSA_WD_Diplo_UnderdogIncidentSeverityTooltip>
+  <TSA_WD_Diplo_UnderdogTriggerChance>열세 세력 강화 발동 확률</TSA_WD_Diplo_UnderdogTriggerChance>
+  <TSA_WD_Diplo_UnderdogTriggerChanceTooltip>조건이 충족되었을 때 최대 여러 약소 세력에 기민함 효과가 시작될 일일 확률입니다.</TSA_WD_Diplo_UnderdogTriggerChanceTooltip>
+  <TSA_WD_Diplo_ZealAttritionMult>열의: 이동 소모 배수</TSA_WD_Diplo_ZealAttritionMult>
+  <TSA_WD_Diplo_ZealAttritionMultTooltip>세력에 열의 효과가 있을 때 시간당 상단 전투력 손실에 이 배수가 곱해집니다 (예: 0.5 = 기본 소모의 절반).</TSA_WD_Diplo_ZealAttritionMultTooltip>
+  <TSA_WD_Diplo_ZealRaidRangeMult>열의: 습격 범위 배수</TSA_WD_Diplo_ZealRaidRangeMult>
+  <TSA_WD_Diplo_ZealRaidRangeMultTooltip>세력에 팽창주의 열의가 있을 때 습격 목표 반경에 이 배수가 곱해집니다 (예: 1.5 = +50% 범위).</TSA_WD_Diplo_ZealRaidRangeMultTooltip>
+  <TSA_WD_Diplo_ZealTriggerChance>열의 강화 발동 확률</TSA_WD_Diplo_ZealTriggerChance>
+  <TSA_WD_Diplo_ZealTriggerChanceTooltip>야망 있는 세력이 팽창주의 열의를 얻게 될 일일 백분율 확률입니다 (강화 효과가 대기 시간 중이 아닐 때).</TSA_WD_Diplo_ZealTriggerChanceTooltip>
+  <TSA_WD_Diplo_Zeal_Label>강화: 총동원</TSA_WD_Diplo_Zeal_Label>
+  <TSA_WD_DiplomacyMatrix>외교 관계도</TSA_WD_DiplomacyMatrix>
+  <TSA_WD_DiplomacyMatrix_Title>전 세계 외교 관계</TSA_WD_DiplomacyMatrix_Title>
+  <TSA_WD_Diplomacy_AllyOf>동맹 관계:</TSA_WD_Diplomacy_AllyOf>
+  <TSA_WD_Diplomacy_HostileTo>적대 관계:</TSA_WD_Diplomacy_HostileTo>
+  <TSA_WD_Diplomacy_NeutralWith>중립 관계:</TSA_WD_Diplomacy_NeutralWith>
+  <TSA_WD_Diplomacy_H_Goodwill>우호도</TSA_WD_Diplomacy_H_Goodwill>
+  <TSA_WD_Diplomacy_GoodwillTip>이 세력과의 우호도: {0}</TSA_WD_Diplomacy_GoodwillTip>
+  <TSA_WD_Diplomacy_WdCooldown>대기: {0}일</TSA_WD_Diplomacy_WdCooldown>
+  <TSA_WD_Diplomacy_WdCooldownTip>대기 시간이 만료될 때까지 World Domination 모드에서 이 세력 관계를 변경할 수 없습니다.</TSA_WD_Diplomacy_WdCooldownTip>
+  <TSA_WD_Dis_BaseReduc>기본 전투력 감소량</TSA_WD_Dis_BaseReduc>
+  <TSA_WD_Dis_BaseReducTooltip>성공 시 정착지에서 차감되는 전투력입니다.</TSA_WD_Dis_BaseReducTooltip>
+  <TSA_WD_Dis_CombatSave>전투 레벨당 돌파 보너스</TSA_WD_Dis_CombatSave>
+  <TSA_WD_Dis_CombatSaveTooltip>시도 실패 시 사격/격투 기술 레벨(둘 중 높은 쪽)당 '치명적' 결과를 '부상'으로 전환할 백분율 확률입니다.</TSA_WD_Dis_CombatSaveTooltip>
+  <TSA_WD_Dis_Cooldown>역정보 유포 시도 후 대기 시간</TSA_WD_Dis_Cooldown>
+  <TSA_WD_Dis_CooldownTooltip>시도 후 대상 정착지가 최고 경계 태세를 유지하는 기간입니다.</TSA_WD_Dis_CooldownTooltip>
+  <TSA_WD_Dis_DisabledAlert>인근 목표들이 첩보 최고 경계 태세에 돌입했습니다.</TSA_WD_Dis_DisabledAlert>
+  <TSA_WD_Dis_FailureClean>주민들은 소문에 반응하지 않았지만, 스파이는 당국이 경계하기 전에 무사히 후퇴했습니다.</TSA_WD_Dis_FailureClean>
+  <TSA_WD_Dis_FailureExecuted>국가 기밀을 유포하다 붙잡혀 간첩 혐의로 처형당했습니다.</TSA_WD_Dis_FailureExecuted>
+  <TSA_WD_Dis_FailureFightback>소문의 진원지로 지목되어 경비병들이 체포를 시도했습니다. 격렬하게 저항하여 사형을 면하고 부상을 입은 채 탈출했습니다.</TSA_WD_Dis_FailureFightback>
+  <TSA_WD_Dis_FailureSilvertongue>정보원과 접선 중 발각될 뻔했으나 뛰어난 사교 능력으로 의심을 풀고 들키지 않고 빠져나왔습니다.</TSA_WD_Dis_FailureSilvertongue>
+  <TSA_WD_Dis_FailureSpotted>선동가로 지목되어 도시를 탈출하던 중 부상을 입었습니다.</TSA_WD_Dis_FailureSpotted>
+  <TSA_WD_Dis_GizmoDesc>정착민 {0}(사교: {1})을(를) 통해 역정보 유포 공작을 시작합니다.
+
+성공 확률 계산:
+  기본: {2}
+  기술 가중치: +{3}
+  등급 가중치: -{4}
+  건강: x{5}
+--------------------------
+  총 성공률: {6}
+
+발각 시 우호도 -30 페널티를 받습니다.</TSA_WD_Dis_GizmoDesc>
+  <TSA_WD_Dis_GizmoLabel>역정보 유포</TSA_WD_Dis_GizmoLabel>
+  <TSA_WD_Dis_HeaderModifiers>성공 확률 보정치</TSA_WD_Dis_HeaderModifiers>
+  <TSA_WD_Dis_HeaderOutcome>성공 결과 및 대기 시간</TSA_WD_Dis_HeaderOutcome>
+  <TSA_WD_Dis_HeaderSaves>위기 회피 판정</TSA_WD_Dis_HeaderSaves>
+  <TSA_WD_Dis_HeaderSimulation>구체적 예시 (건강한 정착민 기준 2등급 마을 대상)</TSA_WD_Dis_HeaderSimulation>
+  <TSA_WD_Dis_HeaderWeights>역정보 유포 설정: 기본 결과 확률</TSA_WD_Dis_HeaderWeights>
+  <TSA_WD_Dis_HealthImpact>건강 상태가 성공률에 미치는 영향</TSA_WD_Dis_HealthImpact>
+  <TSA_WD_Dis_HealthImpactTooltip>건강 상태가 성공률에 얼마나 영향을 미치는지 설정합니다. 100%일 때, 건강이 50%인 정착민은 성공 가중치가 절반으로 감소합니다.</TSA_WD_Dis_HealthImpactTooltip>
+  <TSA_WD_Dis_LetterCollapsedLabel>정착지 붕괴!</TSA_WD_Dis_LetterCollapsedLabel>
+  <TSA_WD_Dis_LetterCollapsedText>{0}의 역정보 공작이 매우 효과적이어서 {1} 정착지가 극심한 혼란 속에 무너졌습니다. 당분간 폐허가 남아 인근에 새로운 정착지가 들어서는 것을 막습니다.</TSA_WD_Dis_LetterCollapsedText>
+  <TSA_WD_Dis_LetterFailedLabel>역정보 공작 실패</TSA_WD_Dis_LetterFailedLabel>
+  <TSA_WD_Dis_LetterFailedTextBase>{0}(이)가 {1}에 불화를 조장하는 데 실패했습니다. </TSA_WD_Dis_LetterFailedTextBase>
+  <TSA_WD_Dis_LetterSuccessLabel>역정보 공작 성공</TSA_WD_Dis_LetterSuccessLabel>
+  <TSA_WD_Dis_LetterSuccessText>{0}(이)가 소문과 불화를 퍼뜨려 {1}의 전투력을 {2}만큼 감소시켰습니다.</TSA_WD_Dis_LetterSuccessText>
+  <TSA_WD_Dis_LogClean>실패 (무사 탈출)</TSA_WD_Dis_LogClean>
+  <TSA_WD_Dis_LogDestroyed>역정보 공작: 파괴됨 ({0} -&gt; 0)</TSA_WD_Dis_LogDestroyed>
+  <TSA_WD_Dis_LogInjured>실패 (발각/부상)</TSA_WD_Dis_LogInjured>
+  <TSA_WD_Dis_LogKilled>실패 (사망)</TSA_WD_Dis_LogKilled>
+  <TSA_WD_Dis_LogMain>역정보 공작: {0}</TSA_WD_Dis_LogMain>
+  <TSA_WD_Dis_LogSuccess>역정보 공작: 성공 ({0} -&gt; {1})</TSA_WD_Dis_LogSuccess>
+  <TSA_WD_Dis_MenuOption>{0} ({1}) - 성공 확률 {2}</TSA_WD_Dis_MenuOption>
+  <TSA_WD_Dis_Reset>이 페이지를 기본값으로 초기화</TSA_WD_Dis_Reset>
+  <TSA_WD_Dis_SimLvl0>모든 관련 기술 0레벨</TSA_WD_Dis_SimLvl0>
+  <TSA_WD_Dis_SimLvl10>모든 관련 기술 10레벨</TSA_WD_Dis_SimLvl10>
+  <TSA_WD_Dis_SimLvl20>모든 관련 기술 20레벨</TSA_WD_Dis_SimLvl20>
+  <TSA_WD_Dis_SimResult>{0} | 성공: {1} | 무사 탈출: {2} | 부상: {3} | 사망: {4}</TSA_WD_Dis_SimResult>
+  <TSA_WD_Dis_SkillBonus>사교 레벨당 성공 가중치 보너스</TSA_WD_Dis_SkillBonus>
+  <TSA_WD_Dis_SkillBonusTooltip>사교 레벨당 성공 결과 가중치에 고정 포인트를 추가합니다.</TSA_WD_Dis_SkillBonusTooltip>
+  <TSA_WD_Dis_SkillReduc>사교 기술 레벨당 전투력 감소량</TSA_WD_Dis_SkillReduc>
+  <TSA_WD_Dis_SkillReducTooltip>정착민의 사교 기술에 비례하여 전투력에 가하는 추가 피해량입니다.</TSA_WD_Dis_SkillReducTooltip>
+  <TSA_WD_Dis_SocialSave>사교 레벨당 감언이설 보너스</TSA_WD_Dis_SocialSave>
+  <TSA_WD_Dis_SocialSaveTooltip>공작 실패 시 '부상' 결과를 '무사 탈출'로 전환할 사교 기술 레벨당 확률(%)입니다.</TSA_WD_Dis_SocialSaveTooltip>
+  <TSA_WD_Dis_TierPenalty>정착지 단계당 성공 가중치 페널티</TSA_WD_Dis_TierPenalty>
+  <TSA_WD_Dis_TierPenaltyTooltip>대상 정착지의 단계에 따라 성공 결과 가중치에서 고정 포인트를 차감합니다.</TSA_WD_Dis_TierPenaltyTooltip>
+  <TSA_WD_Dis_WeightClean>실패 가중치 (무사 탈출)</TSA_WD_Dis_WeightClean>
+  <TSA_WD_Dis_WeightCleanTooltip>발각되지 않고 안전하게 탈출하는 실패의 상대적 빈도입니다.</TSA_WD_Dis_WeightCleanTooltip>
+  <TSA_WD_Dis_WeightFatal>실패 가중치 (사망)</TSA_WD_Dis_WeightFatal>
+  <TSA_WD_Dis_WeightFatalTooltip>실패 시 처형(사망)당할 상대적 빈도입니다.</TSA_WD_Dis_WeightFatalTooltip>
+  <TSA_WD_Dis_WeightInjured>실패 가중치 (부상)</TSA_WD_Dis_WeightInjured>
+  <TSA_WD_Dis_WeightInjuredTooltip>실패 시 부상을 입고 도주할 상대적 빈도입니다.</TSA_WD_Dis_WeightInjuredTooltip>
+  <TSA_WD_Dis_WeightSuccess>성공 가중치</TSA_WD_Dis_WeightSuccess>
+  <TSA_WD_Dis_WeightSuccessTooltip>수정치가 적용되기 전, 역정보 공작 성공의 기본 가중치입니다.</TSA_WD_Dis_WeightSuccessTooltip>
+  <TSA_WD_Fort_DisabledAlert>인근 정착지들은 최근 이미 방어를 보강했습니다.</TSA_WD_Fort_DisabledAlert>
+  <TSA_WD_Fort_GizmoDesc>정착민 {0}(제작: {1})을(를) 파견하여 정착지 방어를 보강합니다.
+
+성공 확률: {2}
+성공 시 방어 전투력이 증가합니다.</TSA_WD_Fort_GizmoDesc>
+  <TSA_WD_Fort_GizmoLabel>방어 보강</TSA_WD_Fort_GizmoLabel>
+  <TSA_WD_Fort_LetterFailedLabel>방어 보강 실패</TSA_WD_Fort_LetterFailedLabel>
+  <TSA_WD_Fort_LetterFailedText>{0}(이)가 {1}의 방어 설비를 유의미하게 개선하지 못했습니다.</TSA_WD_Fort_LetterFailedText>
+  <TSA_WD_Fort_LetterSuccessLabel>방어 보강 성공</TSA_WD_Fort_LetterSuccessLabel>
+  <TSA_WD_Fort_LetterSuccessText>{0}(이)가 {1} 정착지를 성공적으로 지원했습니다. 기반 시설이 보강되어 전투력이 {2} 증가했습니다.</TSA_WD_Fort_LetterSuccessText>
+  <TSA_WD_Fort_LogFailed>방어 보강: 실패</TSA_WD_Fort_LogFailed>
+  <TSA_WD_Fort_LogSuccess>방어 보강: 성공 ({0} -&gt; {1})</TSA_WD_Fort_LogSuccess>
+  <TSA_WD_Fort_MenuOption>{0} - 성공 확률 {1}</TSA_WD_Fort_MenuOption>
+  <TSA_WD_OnlyInGame>허용된 외교 관계 변경</TSA_WD_OnlyInGame>
+  <TSA_WD_Sab_BaseReduc>기본 전투력 감소량</TSA_WD_Sab_BaseReduc>
+  <TSA_WD_Sab_BaseReducTooltip>파괴 공작 성공 시 대상 정착지에서 차감되는 기본 전투력 수치입니다.</TSA_WD_Sab_BaseReducTooltip>
+  <TSA_WD_Sab_CombatSave>전투 기술 레벨당 돌파 보너스</TSA_WD_Sab_CombatSave>
+  <TSA_WD_Sab_CombatSaveTooltip>공작 실패 시 '사망/처형' 결과를 '부상'으로 전환할 전투 기술(사격/격투) 레벨당 확률입니다.</TSA_WD_Sab_CombatSaveTooltip>
+  <TSA_WD_Sab_Cooldown>시도 후 대기시간</TSA_WD_Sab_Cooldown>
+  <TSA_WD_Sab_CooldownTooltip>대상 정착지가 고도 경계 태세를 유지하여 추가 파괴 공작이 불가능한 기간(일 단위)입니다.</TSA_WD_Sab_CooldownTooltip>
+  <TSA_WD_Sab_DisabledAlert>인근의 모든 대상이 고도 경계 상태입니다.</TSA_WD_Sab_DisabledAlert>
+  <TSA_WD_Sab_FailureClean>발각되기 전 어둠 속으로 무사히 빠져나왔습니다.</TSA_WD_Sab_FailureClean>
+  <TSA_WD_Sab_FailureExecuted>현장에서 체포되어 즉결 처형당했습니다.</TSA_WD_Sab_FailureExecuted>
+  <TSA_WD_Sab_FailureFightback>붙잡혀 처형될 위기에 처했으나, 뛰어난 전투 기량으로 저항하여 목숨을 건지고 부상을 입은 채 탈출했습니다.</TSA_WD_Sab_FailureFightback>
+  <TSA_WD_Sab_FailureSilvertongue>발각될 뻔했으나, 사교 기술을 발휘해 말솜씨로 위기를 넘기고 빠져나왔습니다.</TSA_WD_Sab_FailureSilvertongue>
+  <TSA_WD_Sab_FailureSpotted>경비병들에게 발각되어 현장을 벗어나는 과정에서 부상을 입었습니다.</TSA_WD_Sab_FailureSpotted>
+  <TSA_WD_Sab_GizmoDesc>정착민 {0}(제작: {1})을(를) 보내 파괴 공작 임무를 수행합니다.
+
+총 성공 확률: {2}
+발각 시 우호도가 30 감소합니다.</TSA_WD_Sab_GizmoDesc>
+  <TSA_WD_Sab_GizmoLabel>파괴 공작</TSA_WD_Sab_GizmoLabel>
+  <TSA_WD_Sab_HeaderModifiers>성공 확률 수정치</TSA_WD_Sab_HeaderModifiers>
+  <TSA_WD_Sab_HeaderOutcome>성공 결과 및 대기시간</TSA_WD_Sab_HeaderOutcome>
+  <TSA_WD_Sab_HeaderSaves>위기 모면 (기술 기반 생존)</TSA_WD_Sab_HeaderSaves>
+  <TSA_WD_Sab_HeaderSimulation>시뮬레이션: T2 정착지 대상 (건강한 정착민)</TSA_WD_Sab_HeaderSimulation>
+  <TSA_WD_Sab_HeaderWeights>파괴 공작 설정: 기본 결과 확률</TSA_WD_Sab_HeaderWeights>
+  <TSA_WD_Sab_HealthImpact>건강 상태가 성공률에 미치는 영향</TSA_WD_Sab_HealthImpact>
+  <TSA_WD_Sab_HealthImpactTooltip>정착민의 건강 상태가 성공률에 미치는 영향입니다. 100%일 때, 건강이 50%인 정착민은 성공 가중치가 절반으로 감소합니다.</TSA_WD_Sab_HealthImpactTooltip>
+  <TSA_WD_Sab_LetterFailedLabel>파괴 공작 실패</TSA_WD_Sab_LetterFailedLabel>
+  <TSA_WD_Sab_LetterFailedTextBase>{0}(이)가 {1}에서의 임무에 실패했습니다. </TSA_WD_Sab_LetterFailedTextBase>
+  <TSA_WD_Sab_LetterObliteratedLabel>정착지 파괴됨!</TSA_WD_Sab_LetterObliteratedLabel>
+  <TSA_WD_Sab_LetterObliteratedText>{0}(이)가 {1} 정착지를 완전히 파괴했습니다. 당분간 폐허가 남아 인근에 새로운 정착지가 들어서는 것을 막습니다.</TSA_WD_Sab_LetterObliteratedText>
+  <TSA_WD_Sab_LetterSuccessLabel>파괴 공작 성공</TSA_WD_Sab_LetterSuccessLabel>
+  <TSA_WD_Sab_LetterSuccessText>{0}(이)가 {1}의 전투력을 {2}만큼 감소시켰습니다.</TSA_WD_Sab_LetterSuccessText>
+  <TSA_WD_Sab_LogClean>실패 (무사 탈출)</TSA_WD_Sab_LogClean>
+  <TSA_WD_Sab_LogDestroyed>파괴 공작: 파괴됨 ({0} -&gt; 0)</TSA_WD_Sab_LogDestroyed>
+  <TSA_WD_Sab_LogInjured>실패 (부상)</TSA_WD_Sab_LogInjured>
+  <TSA_WD_Sab_LogMain>파괴 공작: {0}</TSA_WD_Sab_LogMain>
+  <TSA_WD_Sab_LogSuccess>파괴 공작: 성공 ({0} -&gt; {1})</TSA_WD_Sab_LogSuccess>
+  <TSA_WD_Sab_MenuOption>{0} ({1}) - 성공 확률 {2}</TSA_WD_Sab_MenuOption>
+  <TSA_WD_Sab_Reset>이 페이지를 기본값으로 초기화</TSA_WD_Sab_Reset>
+  <TSA_WD_Sab_SimLvl0>모든 관련 기술 0레벨</TSA_WD_Sab_SimLvl0>
+  <TSA_WD_Sab_SimLvl10>모든 관련 기술 10레벨</TSA_WD_Sab_SimLvl10>
+  <TSA_WD_Sab_SimLvl20>모든 관련 기술 20레벨</TSA_WD_Sab_SimLvl20>
+  <TSA_WD_Sab_SimResult>{0} | 성공: {1} | 무사 탈출: {2} | 부상: {3} | 사망: {4}</TSA_WD_Sab_SimResult>
+  <TSA_WD_Sab_SkillBonus>제작 레벨당 성공 가중치 보너스</TSA_WD_Sab_SkillBonus>
+  <TSA_WD_Sab_SkillBonusTooltip>제작 레벨당 성공 결과 가중치에 고정 포인트를 추가합니다.</TSA_WD_Sab_SkillBonusTooltip>
+  <TSA_WD_Sab_SkillReduc>제작 레벨당 추가 감소량</TSA_WD_Sab_SkillReduc>
+  <TSA_WD_Sab_SkillReducTooltip>정착민의 제작 기술 레벨마다 가해지는 추가 전투력 피해량입니다.</TSA_WD_Sab_SkillReducTooltip>
+  <TSA_WD_Sab_SocialSave>사교 레벨당 '감언이설' 보너스</TSA_WD_Sab_SocialSave>
+  <TSA_WD_Sab_SocialSaveTooltip>사교 레벨마다 '부상' 결과를 '무사 탈출'로 전환할 확률입니다.</TSA_WD_Sab_SocialSaveTooltip>
+  <TSA_WD_Sab_TierPenalty>단계당 성공 가중치 페널티</TSA_WD_Sab_TierPenalty>
+  <TSA_WD_Sab_TierPenaltyTooltip>대상 정착지의 단계에 따라 성공 결과 가중치에서 고정 포인트를 차감합니다.</TSA_WD_Sab_TierPenaltyTooltip>
+  <TSA_WD_Sab_WeightClean>실패 가중치 (무사 탈출)</TSA_WD_Sab_WeightClean>
+  <TSA_WD_Sab_WeightCleanTooltip>정착민이 발각되지 않고 탈출하는 실패 결과의 확률 가중치입니다.</TSA_WD_Sab_WeightCleanTooltip>
+  <TSA_WD_Sab_WeightFatal>실패 가중치 (사망)</TSA_WD_Sab_WeightFatal>
+  <TSA_WD_Sab_WeightFatalTooltip>정착민이 사망하는 실패 결과의 확률 가중치입니다.</TSA_WD_Sab_WeightFatalTooltip>
+  <TSA_WD_Sab_WeightInjured>실패 가중치 (부상)</TSA_WD_Sab_WeightInjured>
+  <TSA_WD_Sab_WeightInjuredTooltip>정착민이 부상을 입고 탈출하는 실패 결과의 확률 가중치입니다.</TSA_WD_Sab_WeightInjuredTooltip>
+  <TSA_WD_Sab_WeightSuccess>성공 가중치</TSA_WD_Sab_WeightSuccess>
+  <TSA_WD_Sab_WeightSuccessTooltip>수정치가 적용되기 전 파괴 공작 성공의 기본 가중치입니다.</TSA_WD_Sab_WeightSuccessTooltip>
+  <TSA_WD_StatusLocked>잠김</TSA_WD_StatusLocked>
+  <TSA_WD_StatusPossible>변경 가능</TSA_WD_StatusPossible>
+  <TSA_WD_BuySettlement_GizmoLabel>정착지 매입</TSA_WD_BuySettlement_GizmoLabel>
+  <TSA_WD_BuySettlement_GizmoDesc>정착지/창고의 물자와 우호도를 지불하여 이 정착지를 평화적으로 매입합니다. 상단이 대금을 전달하며, 도착 시 해당 타일을 어떻게 활용할지 결정할 수 있습니다(빈터로 남겨둘 수 없으며, 판매자에게 다시 선물할 수 없음).</TSA_WD_BuySettlement_GizmoDesc>
+  <TSA_WD_BuySettlement_Disabled>모드 설정에서 정착지 매입 기능이 비활성화되어 있습니다.</TSA_WD_BuySettlement_Disabled>
+  <TSA_WD_BuySettlement_Pending>이 정착지로 매입 상단이 이미 이동 중입니다.</TSA_WD_BuySettlement_Pending>
+  <TSA_WD_BuySettlement_NoColony>물품으로 지불하려면 플레이어 정착지 맵이 필요합니다.</TSA_WD_BuySettlement_NoColony>
+  <TSA_WD_BuySettlement_TooFewSettlements>판매 세력은 정착지를 최소 {0}개 이상 보유하고 있어야 합니다.</TSA_WD_BuySettlement_TooFewSettlements>
+  <TSA_WD_BuySettlement_DealTitle>T{0} 정착지 '{1}' 매입</TSA_WD_BuySettlement_DealTitle>
+  <TSA_WD_BuySettlement_DealPrice>가격: {0} 은 (또는 이에 상응하는 물품).</TSA_WD_BuySettlement_DealPrice>
+  <TSA_WD_BuySettlement_DealPriceTip>은, 물품, 또는 우호도로 지불할 수 있습니다. 지불 대금(물품 및 우호도)은 즉시 차감됩니다. 가장 가까운 전초기지나 정착지에서 대상지로 상단이 출발합니다. 상단이 파괴되면 지불한 대금은 사라집니다. 정착지가 파괴되거나 거래가 무효화되면(외교 관계, 판매자의 정착지 수, 단계 변경 등) 물품과 우호도가 환급됩니다. 초과 지불액은 환급되지 않습니다. 지불된 대금과 초과분은 판매 세력의 인근 정착지들을 강화합니다(전투력 증가 및 단계 업그레이드 가능).</TSA_WD_BuySettlement_DealPriceTip>
+  <TSA_WD_BuySettlement_DealPriceTipTiers>T1 = {0} 은
+T2 = {1} 은
+T3 = {2} 은
+T4 = {3} 은</TSA_WD_BuySettlement_DealPriceTipTiers>
+  <TSA_WD_BuySettlement_FactionActiveTooltip>이 세력의 정착지 중 최소 하나가 매입 진행 중입니다.</TSA_WD_BuySettlement_FactionActiveTooltip>
+  <TSA_WD_BuySettlement_Offered>제시액: {0}</TSA_WD_BuySettlement_Offered>
+  <TSA_WD_BuySettlement_Remaining>남은 금액: {0}</TSA_WD_BuySettlement_Remaining>
+  <TSA_WD_BuySettlement_Overspending>초과 지불: {0} (환급 불가!)</TSA_WD_BuySettlement_Overspending>
+  <TSA_WD_BuySettlement_GoodwillRate>우호도 1 = {0} 은</TSA_WD_BuySettlement_GoodwillRate>
+  <TSA_WD_BuySettlement_GoodwillCurrent>현재 우호도: {0}</TSA_WD_BuySettlement_GoodwillCurrent>
+  <TSA_WD_BuySettlement_GoodwillMinRetain>유지해야 할 최소 우호도: {0}</TSA_WD_BuySettlement_GoodwillMinRetain>
+  <TSA_WD_BuySettlement_GoodwillRateTip>우호도 1점당 요구액 중 {0} 은을 대체합니다.</TSA_WD_BuySettlement_GoodwillRateTip>
+  <TSA_WD_BuySettlement_PayWithGoods>현물로 지불</TSA_WD_BuySettlement_PayWithGoods>
+  <TSA_WD_BuySettlement_GoodwillOffer>우호도 제시량: {0} ({1} 은 가치, 최대 {2})</TSA_WD_BuySettlement_GoodwillOffer>
+  <TSA_WD_BuySettlement_GoodwillNone>지불에 사용할 수 있는 우호도가 부족합니다. 최소 {0}이(가) 필요하지만, 현재 {1} 보유 중입니다.</TSA_WD_BuySettlement_GoodwillNone>
+  <TSA_WD_BuySettlement_AbortLetterTextLost>{0}(으)로 향하던 매입 상단이 파괴되었습니다. 지불된 물품과 우호도가 소실되었습니다.</TSA_WD_BuySettlement_AbortLetterTextLost>
+  <TSA_WD_BuySettlement_AbortLetterTextRefund>{0} 매입을 완료할 수 없었습니다. 지불된 물품과 우호도가 반환되었습니다.</TSA_WD_BuySettlement_AbortLetterTextRefund>
+  <TSA_WD_BuySettlement_AbortLetterTextSettlementGone>해당 정착지가 더 이상 존재하지 않아 {0} 매입에 실패했습니다. 지불된 물품과 우호도가 반환되었습니다.</TSA_WD_BuySettlement_AbortLetterTextSettlementGone>
+  <TSA_WD_BuySettlement_AbortLetterTextTierMismatch>이동 중 정착지의 단계가 변경되어 {0} 매입에 실패했습니다. 지불된 물품과 우호도가 반환되었습니다.</TSA_WD_BuySettlement_AbortLetterTextTierMismatch>
+  <TSA_WD_BuySettlement_AbortLetterTextBadRelation>소유 세력과 더 이상 동맹 또는 중립 관계가 아니므로 {0} 매입에 실패했습니다. 지불된 물품과 우호도가 반환되었습니다.</TSA_WD_BuySettlement_AbortLetterTextBadRelation>
+  <TSA_WD_BuySettlement_AbortLetterTextTooFewSettlements>판매 세력이 보유한 정착지가 최소 {1}개 미만이 되어 {0} 매입에 실패했습니다. 지불된 물품과 우호도가 반환되었습니다.</TSA_WD_BuySettlement_AbortLetterTextTooFewSettlements>
+  <TSA_WD_BuySettlement_ColName>아이템</TSA_WD_BuySettlement_ColName>
+  <TSA_WD_BuySettlement_ColQty>보유량</TSA_WD_BuySettlement_ColQty>
+  <TSA_WD_BuySettlement_ColSilverPer>개당 은 가치</TSA_WD_BuySettlement_ColSilverPer>
+  <TSA_WD_BuySettlement_ColSilverPerTip>바닐라 판매 가격 계수가 적용된 지불 가치입니다(상인에게 판매할 때와 동일하게 무기는 일반적으로 기본 시장 가치의 20% 적용).</TSA_WD_BuySettlement_ColSilverPerTip>
+  <TSA_WD_BuySettlement_ColSilver>은</TSA_WD_BuySettlement_ColSilver>
+  <TSA_WD_BuySettlement_Filter>필터</TSA_WD_BuySettlement_Filter>
+  <TSA_WD_QuantityAdjustTip>Ctrl 키를 누르면 ×10, Shift 키는 ×100, 둘 다 누르면 ×1000 단위로 조절합니다.</TSA_WD_QuantityAdjustTip>
+  <TSA_WD_BuySettlement_Confirm>매입 확정</TSA_WD_BuySettlement_Confirm>
+  <TSA_WD_BuySettlement_UnderAsk>제시액이 요구 가격에 미치지 못합니다.</TSA_WD_BuySettlement_UnderAsk>
+  <TSA_WD_BuySettlement_GoodwillTooHigh>우호도 제시량이 허용치를 초과했습니다.</TSA_WD_BuySettlement_GoodwillTooHigh>
+  <TSA_WD_BuySettlement_DeductFailed>정착지/창고에서 {0}을(를) 차감할 수 없습니다.</TSA_WD_BuySettlement_DeductFailed>
+  <TSA_WD_BuySettlement_NoOrigin>매입 상단이 출발할 장소가 없습니다.</TSA_WD_BuySettlement_NoOrigin>
+  <TSA_WD_BuySettlement_SpawnFailed>매입 상단을 출발시키는 데 실패했습니다.</TSA_WD_BuySettlement_SpawnFailed>
+  <TSA_WD_BuySettlement_TargetGone>해당 정착지가 더 이상 존재하지 않습니다.</TSA_WD_BuySettlement_TargetGone>
+  <TSA_WD_BuySettlement_BadRelation>소유 세력과 동맹이거나 중립 관계여야 합니다.</TSA_WD_BuySettlement_BadRelation>
+  <TSA_WD_BuySettlement_StartLetterLabel>정착지 매입 시작</TSA_WD_BuySettlement_StartLetterLabel>
+  <TSA_WD_BuySettlement_StartLetterText>매입 상단이 {0} ({1})에 대금을 전달하러 이동 중입니다.</TSA_WD_BuySettlement_StartLetterText>
+  <TSA_WD_BuySettlement_CompleteLetterLabel>정착지 매입 완료</TSA_WD_BuySettlement_CompleteLetterLabel>
+  <TSA_WD_BuySettlement_CompleteLetterText>{1}에게서 {0}을(를) 매입했습니다. 이 타일을 어떻게 사용할지 선택하세요.</TSA_WD_BuySettlement_CompleteLetterText>
+  <TSA_WD_BuyOutcome_Label>정착지 매입 완료</TSA_WD_BuyOutcome_Label>
+  <TSA_WD_BuyOutcome_Text>{0} (T{1})을(를) 매입했습니다. 원하는 전초기지로 전환하거나, 주민을 영입하거나, 우호적인 세력에 이 부지를 넘겨줄 수 있습니다.</TSA_WD_BuyOutcome_Text>
+  <TSA_WD_Buy_OptConvertOutpost>전초기지로 전환</TSA_WD_Buy_OptConvertOutpost>
+  <TSA_WD_Buy_OptRecruit>주민 영입</TSA_WD_Buy_OptRecruit>
+  <TSA_WD_Buy_OptGiveAlly>동맹 또는 중립 세력이 정착하도록 양도</TSA_WD_Buy_OptGiveAlly>
+  <TSA_WD_BuySettlement_AbortLetterLabel>정착지 매입 실패</TSA_WD_BuySettlement_AbortLetterLabel>
+  <TSA_WD_BuySettlement_AbortLetterText>{0} 매입을 완료할 수 없었습니다.</TSA_WD_BuySettlement_AbortLetterText>
+  <TSA_WD_GiftsAndPurchases_SettingsHeader>선물 및 매입</TSA_WD_GiftsAndPurchases_SettingsHeader>
+  <TSA_WD_GiftSettlement_GoodwillDivisor>우호도 1점당 선물 은 가치</TSA_WD_GiftSettlement_GoodwillDivisor>
+  <TSA_WD_GiftSettlement_GoodwillDivisorTip>선물이 도착했을 때 획득하는 우호도는 원자재 시장 가치를 이 숫자로 나눈 값입니다(거래 창의 판매가 평가액이 아님). 값이 높을수록 우호도 획득량이 감소합니다. 바닐라 기본값은 40입니다.</TSA_WD_GiftSettlement_GoodwillDivisorTip>
+  <TSA_WD_GiftSettlement_MinSilverSetting>최소 선물 가치 (은)</TSA_WD_GiftSettlement_MinSilverSetting>
+  <TSA_WD_GiftSettlement_MinSilverSettingTip>확정하기 전에 선물 상단의 물품이 거래 창(판매 가격 기준)에서 이 은 가치에 도달해야 합니다.</TSA_WD_GiftSettlement_MinSilverSettingTip>
+  <TSA_WD_BuySettlement_SettingsHeader>정착지 매입</TSA_WD_BuySettlement_SettingsHeader>
+  <TSA_WD_BuySettlement_Enable>정착지 매입 활성화</TSA_WD_BuySettlement_Enable>
+  <TSA_WD_BuySettlement_EnableTip>활성화하면 동맹 및 중립 WD 정착지에 '정착지 매입' 명령이 표시됩니다.</TSA_WD_BuySettlement_EnableTip>
+  <TSA_WD_BuySettlement_AskT1>요구액 (T1 은)</TSA_WD_BuySettlement_AskT1>
+  <TSA_WD_BuySettlement_AskT2>요구액 (T2 은)</TSA_WD_BuySettlement_AskT2>
+  <TSA_WD_BuySettlement_AskT3>요구액 (T3 은)</TSA_WD_BuySettlement_AskT3>
+  <TSA_WD_BuySettlement_AskT4>요구액 (T4 은)</TSA_WD_BuySettlement_AskT4>
+  <TSA_WD_BuySettlement_AskTip>은 단위의 요구 가격입니다. 동맹과 중립 모두 동일하며 우호도 수준에 따른 할인은 적용되지 않습니다.</TSA_WD_BuySettlement_AskTip>
+  <TSA_WD_BuySettlement_SilverPerGw>우호도 1점당 은 환산치</TSA_WD_BuySettlement_SilverPerGw>
+  <TSA_WD_BuySettlement_SilverPerGwTip>우호도 1점이 요구액 중 대체할 수 있는 은의 양입니다.</TSA_WD_BuySettlement_SilverPerGwTip>
+  <TSA_WD_BuySettlement_MaxGwShare>우호도로 지불 가능한 최대 비율</TSA_WD_BuySettlement_MaxGwShare>
+  <TSA_WD_BuySettlement_MaxGwShareTip>우호도로 충당할 수 있는 요구액의 최대 비율입니다. 단, 최소 우호도 하한선 이하로 소모할 수는 없습니다.</TSA_WD_BuySettlement_MaxGwShareTip>
+  <TSA_WD_BuySettlement_ResetAll>모두 초기화</TSA_WD_BuySettlement_ResetAll>
+  <TSA_WD_BuySettlement_AssignExpensiveFirst>고가 품목 우선 배정</TSA_WD_BuySettlement_AssignExpensiveFirst>
+  <TSA_WD_BuySettlement_AssignExpensiveFirstTip>현재 물품 제안을 비운 뒤, 요구액을 충족할 때까지 즐겨찾기(★)되지 않은 가장 가치 높은 물품부터 배정합니다. 마지막 품목은 필요한 수량만큼만 선택됩니다. 즐겨찾기된 물품은 제외됩니다. 우호도 제시량은 유지됩니다.</TSA_WD_BuySettlement_AssignExpensiveFirstTip>
+  <TSA_WD_DealItems_ColStar>★</TSA_WD_DealItems_ColStar>
+  <TSA_WD_DealItems_StarTip>즐겨찾기(★)된 물품은 '고가 품목 우선 배정', '요구액 맞춤 배정', '최소치 맞춤 배정' 시 자동으로 선택되지 않습니다. 수동 제안용으로는 계속 사용 가능합니다. 즐겨찾기 설정은 세계 저장 데이터에 보존되며 매입, 선물, 뇌물 거래 간에 공유됩니다.</TSA_WD_DealItems_StarTip>
+  <TSA_WD_DealItems_CatAll>전체</TSA_WD_DealItems_CatAll>
+  <TSA_WD_DealItems_CatWeapons>무기</TSA_WD_DealItems_CatWeapons>
+  <TSA_WD_DealItems_CatApparel>의류</TSA_WD_DealItems_CatApparel>
+  <TSA_WD_DealItems_CatTextiles>섬유</TSA_WD_DealItems_CatTextiles>
+  <TSA_WD_DealItems_CatFood>음식</TSA_WD_DealItems_CatFood>
+  <TSA_WD_DealItems_CatOther>기타</TSA_WD_DealItems_CatOther>
+  <TSA_WD_DealItems_AssignUnderfill>즐겨찾기되지 않은 물품만으로는 요구액을 채울 수 없습니다. 일부 물품의 즐겨찾기를 해제하거나 수동으로 더 추가하세요.</TSA_WD_DealItems_AssignUnderfill>
+  <TSA_WD_FactionInvestment_LetterLabel>세력 정착지 강화됨</TSA_WD_FactionInvestment_LetterLabel>
+  <TSA_WD_FactionInvestment_LetterBuy>{0}(이)가 매입 대금을 받아 인근 정착지의 전투력을 강화했습니다({1}개 정착지 충원, {2}회 단계 상승).</TSA_WD_FactionInvestment_LetterBuy>
+  <TSA_WD_FactionInvestment_LetterGift>{0}(이)가 선물 가치를 받아 인근 정착지의 전투력을 강화했습니다({1}개 정착지 충원, {2}회 단계 상승).</TSA_WD_FactionInvestment_LetterGift>
+  <TSA_WD_FactionInvestment_LetterGiftFullyCapped>범위 내 {0} 정착지들이 이미 최대 단계와 전투력에 도달했습니다. 추가 선물로 인한 WD 전투력 증가는 없습니다.</TSA_WD_FactionInvestment_LetterGiftFullyCapped>
+  <TSA_WD_FactionInvestment_LetterGiftNoEffect>선물 가치({1} 은 상당)로 인해 범위 내 {0} 정착지에 변화가 없었습니다(현재 단계의 최대치에 도달했으며, 남은 금액이 다음 단계 업그레이드 비용보다 적음).</TSA_WD_FactionInvestment_LetterGiftNoEffect>
+  <TSA_WD_FactionInvestment_LogNoneInRange>{1} 은 상당의 혜택을 받을 수 있는 투자 범위 내 {0} 정착지가 없습니다.</TSA_WD_FactionInvestment_LogNoneInRange>
+  <TSA_WD_FactionInvestment_SettingsHeader>세력 정착지 투자</TSA_WD_FactionInvestment_SettingsHeader>
+  <TSA_WD_FactionInvestment_Enable>선물/매입 전투력 투자 활성화</TSA_WD_FactionInvestment_Enable>
+  <TSA_WD_FactionInvestment_EnableTip>정착지를 매입하거나 물품을 선물할 때, 은 환산 가치를 인근 동일 세력 정착지의 전투력으로 변환한 뒤 단계를 상승시키며 예산이 소진될 때까지 이를 반복합니다.</TSA_WD_FactionInvestment_EnableTip>
+  <TSA_WD_FactionInvestment_StrengthPer100>100 은당 전투력</TSA_WD_FactionInvestment_StrengthPer100>
+  <TSA_WD_FactionInvestment_StrengthPer100Tip>정착지를 해당 단계 최대치까지 채울 때 100 은 상당의 선물 또는 매입 대금이 부여하는 공격 전투력입니다.</TSA_WD_FactionInvestment_StrengthPer100Tip>
+  <TSA_WD_FactionInvestment_Radius>투자 반경 (타일)</TSA_WD_FactionInvestment_Radius>
+  <TSA_WD_FactionInvestment_RadiusTip>선물 또는 매입 타일로부터 이 거리보다 먼 정착지는 전투력을 받지 않습니다.</TSA_WD_FactionInvestment_RadiusTip>
+  <TSA_WD_FactionInvestment_UpgradeT1T2>T1에서 T2로 업그레이드하는 데 필요한 은</TSA_WD_FactionInvestment_UpgradeT1T2>
+  <TSA_WD_FactionInvestment_UpgradeT2T3>T2에서 T3로 업그레이드하는 데 필요한 은</TSA_WD_FactionInvestment_UpgradeT2T3>
+  <TSA_WD_FactionInvestment_UpgradeT3T4>T3에서 T4로 업그레이드하는 데 필요한 은</TSA_WD_FactionInvestment_UpgradeT3T4>
+  <TSA_WD_FactionInvestment_UpgradeTip>은을 사용하여 범위 내 동일 세력 정착지를 가까운 순서대로 현재 단계 최대치까지 채운 뒤, 단계 업그레이드를 구매하고 다시 채우는 과정을 예산이 부족할 때까지 반복합니다.</TSA_WD_FactionInvestment_UpgradeTip>
+  <TSA_WD_FactionInvestment_UpgradeSuccessChance>단계 업그레이드 성공 확률</TSA_WD_FactionInvestment_UpgradeSuccessChance>
+  <TSA_WD_FactionInvestment_UpgradeSuccessChanceTip>비용을 지불한 투자 단계 업그레이드가 성공할 확률입니다. 성공 여부와 관계없이 은은 소모됩니다. 실패 시 해당 정착지는 이번 선물이나 매입에서 다시 시도되지 않습니다.</TSA_WD_FactionInvestment_UpgradeSuccessChanceTip>
+  <TSA_WD_Log_SettlementBuyLaunched>{0}(이)가 {1} ({2})(으)로 매입 상단을 파견했습니다.</TSA_WD_Log_SettlementBuyLaunched>
+  <TSA_WD_Log_SettlementBuyCompleted>{1}에게서 {0}을(를) 매입했습니다.</TSA_WD_Log_SettlementBuyCompleted>
+  <TSA_WD_Notify_SettlementBuyCompleted>정착지 매입 완료</TSA_WD_Notify_SettlementBuyCompleted>
+  <TSA_WD_Notify_SettlementBuyCompletedTooltip>대금이 도착하여 해당 타일을 자유롭게 선택하여 사용할 수 있게 되었을 때 알림 편지를 받습니다.</TSA_WD_Notify_SettlementBuyCompletedTooltip>
+  <TSA_WD_Notify_SettlementBuyAborted>정착지 매입 실패</TSA_WD_Notify_SettlementBuyAborted>
+  <TSA_WD_Notify_SettlementBuyAbortedTooltip>매입 상단이 파괴되거나 거래가 실패했을 때(단계 변경, 정착지 소멸, 외교 관계 악화, 판매 세력의 정착지 수 부족 등) 알림 편지를 받습니다. 실패 사유와 대금 환급 여부가 명시됩니다.</TSA_WD_Notify_SettlementBuyAbortedTooltip>
+  <TSA_WD_Negotiate_Btn>협상</TSA_WD_Negotiate_Btn>
+  <TSA_WD_Negotiate_BtnWar>선전포고</TSA_WD_Negotiate_BtnWar>
+  <TSA_WD_Negotiate_BtnPeace>휴전</TSA_WD_Negotiate_BtnPeace>
+  <TSA_WD_Negotiate_BtnAlly>동맹 체결</TSA_WD_Negotiate_BtnAlly>
+  <TSA_WD_Negotiate_BtnNone>행동 없음</TSA_WD_Negotiate_BtnNone>
+  <TSA_WD_Negotiate_H_Faction>세력</TSA_WD_Negotiate_H_Faction>
+  <TSA_WD_Negotiate_H_Relation>관계</TSA_WD_Negotiate_H_Relation>
+  <TSA_WD_Negotiate_H_Strength>해당 세력 vs. 대상 세력</TSA_WD_Negotiate_H_Strength>
+  <TSA_WD_Negotiate_H_WarFoes>해당 세력 vs. 전체 전투력</TSA_WD_Negotiate_H_WarFoes>
+  <TSA_WD_Negotiate_H_Ask>은 요구액</TSA_WD_Negotiate_H_Ask>
+  <TSA_WD_Negotiate_H_Action>요청 행동</TSA_WD_Negotiate_H_Action>
+  <TSA_WD_Negotiate_StrengthTip>대가를 지불할 이 세력의 전투력을 대상 세력의 전투력으로 나눈 비율입니다. 1.00× 미만이면 대상 세력보다 약하다는 의미입니다.</TSA_WD_Negotiate_StrengthTip>
+  <TSA_WD_Negotiate_WarFoesTip>이 세력의 전투력을 이미 전쟁 중인 세력들의 총전투력으로 나눈 비율입니다 (예: 0.20×는 총합의 20%). 이 값이 낮을수록 전선이 분산되어 과부하 상태임을 나타내며, 선전포고 요구액이 상승합니다.</TSA_WD_Negotiate_WarFoesTip>
+  <TSA_WD_Negotiate_RelationTip>이 세력과 대가를 지불할 세력 간의 현재 외교 상태입니다.</TSA_WD_Negotiate_RelationTip>
+  <TSA_WD_Negotiate_AskTip>이 변경을 요청하는 데 필요한 은 환산 가격입니다. 거부되었거나 외교 동결 상태인 항목은 아직 요청할 수 없습니다.</TSA_WD_Negotiate_AskTip>
+  <TSA_WD_Negotiate_ActionTip>이 세력에게 목록에 표시된 상대 세력을 상대로 선전포고, 휴전, 동맹 체결을 요청합니다.</TSA_WD_Negotiate_ActionTip>
+  <TSA_WD_Negotiate_ActionWar>선전포고</TSA_WD_Negotiate_ActionWar>
+  <TSA_WD_Negotiate_ActionPeace>중립 관계 전환</TSA_WD_Negotiate_ActionPeace>
+  <TSA_WD_Negotiate_ActionAlly>동맹 체결</TSA_WD_Negotiate_ActionAlly>
+  <TSA_WD_Negotiate_OverviewTitle>{0} 세력과 협상</TSA_WD_Negotiate_OverviewTitle>
+  <TSA_WD_Negotiate_OverviewTip>이 세력에 대가를 지불하여 다른 세력과의 외교 관계를 변경하도록 합니다.</TSA_WD_Negotiate_OverviewTip>
+  <TSA_WD_Negotiate_DealTitle>{0} 세력에 대가를 지불하여 {2} 대상 {1}</TSA_WD_Negotiate_DealTitle>
+  <TSA_WD_Negotiate_PayWithGoods>물품으로 지불 ({0}에 전달)</TSA_WD_Negotiate_PayWithGoods>
+  <TSA_WD_Negotiate_AskSilver>요구액: 은 {0}개</TSA_WD_Negotiate_AskSilver>
+  <TSA_WD_Negotiate_OfferedRemaining>제공액: {0} (추가 필요: {1})</TSA_WD_Negotiate_OfferedRemaining>
+  <TSA_WD_Negotiate_OfferedMet>제공액: {0} (요구액 충족)</TSA_WD_Negotiate_OfferedMet>
+  <TSA_WD_Negotiate_Confirm>지불 확정</TSA_WD_Negotiate_Confirm>
+  <TSA_WD_Negotiate_CdShort>대기시간: {0}일</TSA_WD_Negotiate_CdShort>
+  <TSA_WD_Negotiate_Disabled>모드 설정에서 외교 협상이 비활성화되어 있습니다.</TSA_WD_Negotiate_Disabled>
+  <TSA_WD_Negotiate_BadPlayerRelation>해당 세력과 동맹 또는 중립 관계여야 합니다.</TSA_WD_Negotiate_BadPlayerRelation>
+  <TSA_WD_Negotiate_GoodwillFloor>해당 세력과의 우호도가 최소 {0} 이상이어야 합니다.</TSA_WD_Negotiate_GoodwillFloor>
+  <TSA_WD_Negotiate_Pending>해당 세력으로 향하는 협상 상단이 이미 이동 중입니다.</TSA_WD_Negotiate_Pending>
+  <TSA_WD_Negotiate_NoSettlement>해당 세력에 대가를 전달할 지상 정착지가 없습니다.</TSA_WD_Negotiate_NoSettlement>
+  <TSA_WD_Negotiate_InvalidPair>해당 세력 쌍 간에는 협상할 수 없습니다.</TSA_WD_Negotiate_InvalidPair>
+  <TSA_WD_Negotiate_PairLocked>해당 세력 쌍의 외교 관계는 영구적으로 고정되어 있습니다.</TSA_WD_Negotiate_PairLocked>
+  <TSA_WD_Negotiate_PairFrozen>외교 동결: 남은 기간 {0}일.</TSA_WD_Negotiate_PairFrozen>
+  <TSA_WD_Negotiate_AllyUntouchable>동맹 관계인 세력 쌍 간에는 협상할 수 없습니다.</TSA_WD_Negotiate_AllyUntouchable>
+  <TSA_WD_Negotiate_WarNeedsNeutral>해당 세력과 중립 관계가 아닙니다 (중립 상태에서만 선전포고 가능).</TSA_WD_Negotiate_WarNeedsNeutral>
+  <TSA_WD_Negotiate_PeaceNeedsHostile>해당 세력과 전쟁 중이 아닙니다.</TSA_WD_Negotiate_PeaceNeedsHostile>
+  <TSA_WD_Negotiate_TooWeakForWar>{0} 세력의 전투력이 {1} 세력 전투력의 최소 {2}% 이상일 때만 {1} 세력에 선전포고하도록 설득할 수 있습니다.</TSA_WD_Negotiate_TooWeakForWar>
+  <TSA_WD_Negotiate_TooWeakForPeace>{0} 세력의 전투력이 {1} 세력 전투력의 최소 {2}% 이상일 때만 {1} 세력과 휴전하도록 설득할 수 있습니다.</TSA_WD_Negotiate_TooWeakForPeace>
+  <TSA_WD_Negotiate_CannotAsk>거부됨</TSA_WD_Negotiate_CannotAsk>
+  <TSA_WD_Negotiate_AllegianceColorTip>색상은 플레이어와의 외교 관계를 기준으로 표시됩니다.</TSA_WD_Negotiate_AllegianceColorTip>
+  <TSA_WD_Negotiate_UnderAsk>제공액이 요구액(은 {0}개)에 미치지 못합니다.</TSA_WD_Negotiate_UnderAsk>
+  <TSA_WD_Negotiate_NoOrigin>협상 상단을 출발시킬 정착지 또는 창고가 없습니다.</TSA_WD_Negotiate_NoOrigin>
+  <TSA_WD_Negotiate_SameTile>목적지 정착지와 동일한 타일에서는 대가를 보낼 수 없습니다.</TSA_WD_Negotiate_SameTile>
+  <TSA_WD_Negotiate_SpawnFailed>협상 상단을 출발시키는 데 실패했습니다.</TSA_WD_Negotiate_SpawnFailed>
+  <TSA_WD_Negotiate_StartLetterLabel>외교 협상</TSA_WD_Negotiate_StartLetterLabel>
+  <TSA_WD_Negotiate_StartLetterText>상단이 {0} 세력이 {2} 대상 {1}을(를) 진행하도록 대가를 전달하고 있습니다.</TSA_WD_Negotiate_StartLetterText>
+  <TSA_WD_Negotiate_CompleteLetterLabel>외교 협상 완료</TSA_WD_Negotiate_CompleteLetterLabel>
+  <TSA_WD_Negotiate_CompleteLetterText>{0} 세력이 {2} 대상 {1}에 동의했습니다. 지불된 대가로 해당 세력 정착지들의 전투력이 증강되었습니다.</TSA_WD_Negotiate_CompleteLetterText>
+  <TSA_WD_Negotiate_AbortLetterLabel>외교 협상 실패</TSA_WD_Negotiate_AbortLetterLabel>
+  <TSA_WD_Negotiate_AbortLetterText>{0} 세력과의 {1} 관련 협상을 완료할 수 없었습니다.</TSA_WD_Negotiate_AbortLetterText>
+  <TSA_WD_Negotiate_AbortLetterTextLost>{0} 세력의 {1} 협상을 위한 상단이 파괴되었습니다. 대가로 지불한 물품이 손실되었습니다.</TSA_WD_Negotiate_AbortLetterTextLost>
+  <TSA_WD_Negotiate_AbortLetterTextRefund>{0} 세력과의 {1} 관련 협상을 완료할 수 없었습니다. 지불한 물품이 반환되었습니다.</TSA_WD_Negotiate_AbortLetterTextRefund>
+  <TSA_WD_Negotiate_AbortLetterTextBadRelation>{0} 세력과 더 이상 동맹 또는 중립 관계가 아니어서 {1} 관련 협상이 실패했습니다. 지불한 물품이 반환되었습니다.</TSA_WD_Negotiate_AbortLetterTextBadRelation>
+  <TSA_WD_Negotiate_AbortLetterTextFrozen>해당 세력 쌍이 외교 동결 상태에 들어가 {0} 세력과의 {1} 관련 협상이 실패했습니다. 지불한 물품이 반환되었습니다.</TSA_WD_Negotiate_AbortLetterTextFrozen>
+  <TSA_WD_Negotiate_AbortLetterTextLocked>해당 세력 쌍의 외교 관계가 영구적으로 고정되어 {0} 세력과의 {1} 관련 협상이 실패했습니다. 지불한 물품이 반환되었습니다.</TSA_WD_Negotiate_AbortLetterTextLocked>
+  <TSA_WD_Negotiate_AbortLetterTextInvalid>{0} 세력과의 {1} 관련 협상이 더 이상 유효하지 않습니다. 지불한 물품이 반환되었습니다.</TSA_WD_Negotiate_AbortLetterTextInvalid>
+  <TSA_WD_Negotiate_AbortLetterTextGone>세력 또는 정착지가 소멸하여 {0} 세력과의 {1} 관련 협상이 실패했습니다. 지불한 물품이 반환되었습니다.</TSA_WD_Negotiate_AbortLetterTextGone>
+  <TSA_WD_Negotiate_SettingsHeader>외교 협상</TSA_WD_Negotiate_SettingsHeader>
+  <TSA_WD_Negotiate_Enable>외교 협상 활성화</TSA_WD_Negotiate_Enable>
+  <TSA_WD_Negotiate_EnableTip>활성화하면 외교 현황판의 동맹 및 중립 NPC 세력에 협상 버튼이 표시됩니다.</TSA_WD_Negotiate_EnableTip>
+  <TSA_WD_Negotiate_AskMin>요구액 하한선 (은)</TSA_WD_Negotiate_AskMin>
+  <TSA_WD_Negotiate_AskMinTip>전투력 비율상 행동이 허용될 때의 최소 협상 요구액입니다.</TSA_WD_Negotiate_AskMinTip>
+  <TSA_WD_Negotiate_AskMax>요구액 상한선 (은)</TSA_WD_Negotiate_AskMax>
+  <TSA_WD_Negotiate_AskMaxTip>전투력 가격 곡선상에서 적용되는 최대 협상 요구액입니다.</TSA_WD_Negotiate_AskMaxTip>
+  <TSA_WD_Log_NegotiateLaunched>{0} 세력이 {1} 세력에 {3} 대상 {2} 협상을 위한 상단을 파견했습니다.</TSA_WD_Log_NegotiateLaunched>
+  <TSA_WD_Log_NegotiateCompleted>{0} 세력이 {2} 대상 {1}에 합의했습니다.</TSA_WD_Log_NegotiateCompleted>
+  <TSA_WD_Notify_NegotiateStarted>외교 협상 시작</TSA_WD_Notify_NegotiateStarted>
+  <TSA_WD_Notify_NegotiateStartedTooltip>협상 대가 운반 상단이 출발할 때 편지를 받습니다 (기본값: 꺼짐).</TSA_WD_Notify_NegotiateStartedTooltip>
+  <TSA_WD_Notify_NegotiateCompleted>외교 협상 완료</TSA_WD_Notify_NegotiateCompleted>
+  <TSA_WD_Notify_NegotiateCompletedTooltip>대가가 전달되고 관계 변경이 적용될 때 편지를 받습니다.</TSA_WD_Notify_NegotiateCompletedTooltip>
+  <TSA_WD_Notify_NegotiateAborted>외교 협상 실패</TSA_WD_Notify_NegotiateAborted>
+  <TSA_WD_Notify_NegotiateAbortedTooltip>협상 상단이 파괴되거나 협상이 결렬되었을 때 편지를 받습니다. 실패 원인 및 환불 여부가 안내됩니다.</TSA_WD_Notify_NegotiateAbortedTooltip>
+  <TSA_WD_GiftSettlement_GizmoLabel>선물 보내기</TSA_WD_GiftSettlement_GizmoLabel>
+  <TSA_WD_GiftSettlement_GizmoDesc>가장 가까운 정착지나 창고에서 물품 선물을 보냅니다. 상단 도착 시 우호도가 상승하며 선물 가치에 비례해 해당 정착지 소속 세력의 전투력이 증가합니다.</TSA_WD_GiftSettlement_GizmoDesc>
+  <TSA_WD_GiftSettlement_Pending>해당 정착지로 향하는 선물 상단이 이미 이동 중입니다.</TSA_WD_GiftSettlement_Pending>
+  <TSA_WD_GiftSettlement_DialogTitle>'{0}' 정착지에 선물</TSA_WD_GiftSettlement_DialogTitle>
+  <TSA_WD_GiftSettlement_PayWithGoods>현물 물품으로 선물</TSA_WD_GiftSettlement_PayWithGoods>
+  <TSA_WD_GiftSettlement_MinSilver>최소 선물 가치: 은 {0}개</TSA_WD_GiftSettlement_MinSilver>
+  <TSA_WD_GiftSettlement_Offered>제공액: {0}</TSA_WD_GiftSettlement_Offered>
+  <TSA_WD_GiftSettlement_AssignToMin>최소치 자동 할당</TSA_WD_GiftSettlement_AssignToMin>
+  <TSA_WD_GiftSettlement_AssignToMinTip>현재 제안된 물품을 비우고, 최소 선물 가치를 충족할 때까지 별표(즐겨찾기)되지 않은 가장 가치 높은 물품부터 할당합니다. 마지막 물품은 필요한 수량만 채웁니다. 별표가 지정된 물품은 건너뜁니다.</TSA_WD_GiftSettlement_AssignToMinTip>
+  <TSA_WD_GiftSettlement_Confirm>선물 확정</TSA_WD_GiftSettlement_Confirm>
+  <TSA_WD_GiftSettlement_UnderMin>선물 가치가 최소 은 {0}개 이상이어야 합니다.</TSA_WD_GiftSettlement_UnderMin>
+  <TSA_WD_GiftSettlement_NoOrigin>선물 상단을 출발시킬 정착지나 창고가 없습니다.</TSA_WD_GiftSettlement_NoOrigin>
+  <TSA_WD_GiftSettlement_SameTile>정착지와 동일한 타일에서는 선물을 보낼 수 없습니다.</TSA_WD_GiftSettlement_SameTile>
+  <TSA_WD_GiftSettlement_SpawnFailed>선물 상단을 출발시키는 데 실패했습니다.</TSA_WD_GiftSettlement_SpawnFailed>
+  <TSA_WD_GiftSettlement_TargetGone>해당 정착지가 더 이상 존재하지 않습니다.</TSA_WD_GiftSettlement_TargetGone>
+  <TSA_WD_GiftSettlement_BadRelation>정착지 소유 세력과 동맹 또는 중립 관계여야 합니다.</TSA_WD_GiftSettlement_BadRelation>
+  <TSA_WD_GiftSettlement_CompletedLetterLabel>선물 도착</TSA_WD_GiftSettlement_CompletedLetterLabel>
+  <TSA_WD_GiftSettlement_CompletedLetterText>{0}({1})에 선물이 도착했습니다. 은 {2}개 가치의 물품이 전달되었습니다.</TSA_WD_GiftSettlement_CompletedLetterText>
+  <TSA_WD_GiftSettlement_AbortLetterLabel>선물 상단 실패</TSA_WD_GiftSettlement_AbortLetterLabel>
+  <TSA_WD_GiftSettlement_AbortLetterText>{0} 정착지로의 선물 전달을 완료할 수 없었습니다.</TSA_WD_GiftSettlement_AbortLetterText>
+  <TSA_WD_GiftSettlement_AbortLetterTextLost>{0} 정착지로 향하던 선물 상단이 파괴되었습니다. 물품이 손실되었습니다.</TSA_WD_GiftSettlement_AbortLetterTextLost>
+  <TSA_WD_GiftSettlement_AbortLetterTextRefund>{0} 정착지로의 선물 전달을 완료할 수 없었습니다. 물품이 반환되었습니다.</TSA_WD_GiftSettlement_AbortLetterTextRefund>
+  <TSA_WD_GiftSettlement_AbortLetterTextSettlementGone>정착지가 더 이상 존재하지 않아 {0} 정착지로의 선물 전달이 실패했습니다. 물품이 반환되었습니다.</TSA_WD_GiftSettlement_AbortLetterTextSettlementGone>
+  <TSA_WD_GiftSettlement_AbortLetterTextBadRelation>소유 세력과 더 이상 동맹 또는 중립 관계가 아니어서 {0} 정착지로의 선물 전달이 실패했습니다. 물품이 반환되었습니다.</TSA_WD_GiftSettlement_AbortLetterTextBadRelation>
+  <TSA_WD_GiftSettlement_AbortLetterTextFactionChanged>정착지의 소유 세력이 변경되어 {0} 정착지로의 선물 전달이 실패했습니다. 물품이 반환되었습니다.</TSA_WD_GiftSettlement_AbortLetterTextFactionChanged>
+  <TSA_WD_SettlementGifterCaravan>선물 상단</TSA_WD_SettlementGifterCaravan>
+  <TSA_WD_Log_SettlementGiftLaunched>{0} 세력이 {1}({2}) 정착지에 선물 상단을 파견했습니다.</TSA_WD_Log_SettlementGiftLaunched>
+  <TSA_WD_Log_SettlementGiftCompleted>{0}({1}) 정착지에 선물이 전달되었습니다.</TSA_WD_Log_SettlementGiftCompleted>
+  <TSA_WD_SettlementCaravan_InterceptWarning>경고: 이 상단이 요격당하면 공격 측 정착지가 빼앗은 물품 가치만큼 전투력을 획득합니다.</TSA_WD_SettlementCaravan_InterceptWarning>
+  <TSA_WD_SettlementCaravan_LootLetterLabel>상단 요격당함</TSA_WD_SettlementCaravan_LootLetterLabel>
+  <TSA_WD_SettlementCaravan_LootLetterBody>{0} 세력이 플레이어의 {1} 상단을 요격하여 은 {2}개 가치의 물품을 약탈했습니다.</TSA_WD_SettlementCaravan_LootLetterBody>
+  <TSA_WD_SettlementCaravan_LootMissionBuy>구매</TSA_WD_SettlementCaravan_LootMissionBuy>
+  <TSA_WD_SettlementCaravan_LootMissionGift>선물</TSA_WD_SettlementCaravan_LootMissionGift>
+  <TSA_WD_SettlementCaravan_LootLetterRadius>이로 인해 사건 발생지 기준 {0}타일 반경 내 해당 세력의 정착지들이 강화되었습니다.</TSA_WD_SettlementCaravan_LootLetterRadius>
+  <TSA_WD_SettlementCaravan_LootLetterNoTowns>물품을 약탈당했으나, {0}타일 반경 내에 강화할 해당 세력의 정착지가 없었습니다.</TSA_WD_SettlementCaravan_LootLetterNoTowns>
+  <TSA_WD_SettlementCaravan_LootLetterNoEffect>범위 내에 약탈된 물품으로 전투력이 강화된 정착지가 없습니다.</TSA_WD_SettlementCaravan_LootLetterNoEffect>
+  <TSA_WD_SettlementCaravan_LootDetailStrength>{0} 정착지가 전투력 {1}을(를) 얻었습니다.</TSA_WD_SettlementCaravan_LootDetailStrength>
+  <TSA_WD_SettlementCaravan_LootDetailUpgrade>{0} 정착지가 {1}(으)로 승격되었습니다.</TSA_WD_SettlementCaravan_LootDetailUpgrade>
+  <TSA_WD_Bribe_SettlementGizmoLabel>휴전 뇌물 제공</TSA_WD_Bribe_SettlementGizmoLabel>
+  <TSA_WD_Bribe_SettlementGizmoDesc>물품을 제공하여 일시적인 휴전을 맺습니다. 선택한 기간 동안 이 세력은 플레이어 정착지나 전초기지에 새로운 World Domination 습격을 시작하지 않습니다. 이미 이동 중인 습격은 취소되지 않습니다.</TSA_WD_Bribe_SettlementGizmoDesc>
+  <TSA_WD_Bribe_RaidGizmoLabel>습격 상단 뇌물 매수</TSA_WD_Bribe_RaidGizmoLabel>
+  <TSA_WD_Bribe_RaidGizmoDesc>뇌물 상단을 보내 이 습격 부대를 따라잡습니다. 뇌물 전달 시 해당 습격대는 해산됩니다. 전투력 투자는 습격이 출발한 정착지 주변을 중심으로 이루어집니다.</TSA_WD_Bribe_RaidGizmoDesc>
+  <TSA_WD_Bribe_Disabled>설정에서 세력 뇌물이 비활성화되어 있습니다.</TSA_WD_Bribe_Disabled>
+  <TSA_WD_Bribe_Pending>해당 목표로 향하는 뇌물 상단이 이미 이동 중입니다.</TSA_WD_Bribe_Pending>
+  <TSA_WD_Bribe_Cannot>이 대상을 뇌물로 매수할 수 없습니다.</TSA_WD_Bribe_Cannot>
+  <TSA_WD_Bribe_TargetGone>해당 대상이 더 이상 존재하지 않습니다.</TSA_WD_Bribe_TargetGone>
+  <TSA_WD_Bribe_BadRelation>해당 세력과 적대 관계여야 뇌물을 줄 수 있습니다.</TSA_WD_Bribe_BadRelation>
+  <TSA_WD_Bribe_UnderAsk>최소 은 {0}개 상당의 물품을 제공해야 합니다.</TSA_WD_Bribe_UnderAsk>
+  <TSA_WD_Bribe_NoOrigin>뇌물 상단을 출발시킬 정착지나 창고가 없습니다.</TSA_WD_Bribe_NoOrigin>
+  <TSA_WD_Bribe_SameTile>정착지와 동일한 타일에서는 뇌물을 보낼 수 없습니다.</TSA_WD_Bribe_SameTile>
+  <TSA_WD_Bribe_SpawnFailed>뇌물 상단을 출발시키는 데 실패했습니다.</TSA_WD_Bribe_SpawnFailed>
+  <TSA_WD_Bribe_SettlementDialogTitle>'{0}' 정착지에 휴전 뇌물 제공</TSA_WD_Bribe_SettlementDialogTitle>
+  <TSA_WD_Bribe_RaidDialogTitle>'{0}' 습격대 매수</TSA_WD_Bribe_RaidDialogTitle>
+  <TSA_WD_Bribe_PayWithGoods>현물 물품으로 지불</TSA_WD_Bribe_PayWithGoods>
+  <TSA_WD_Bribe_Confirm>뇌물 확정</TSA_WD_Bribe_Confirm>
+  <TSA_WD_Bribe_AssignToAsk>요구액 자동 할당</TSA_WD_Bribe_AssignToAsk>
+  <TSA_WD_Bribe_AssignToAskTip>현재 제안된 물품을 비우고, 요구액을 충족할 때까지 별표(즐겨찾기)되지 않은 가장 가치 높은 물품부터 할당합니다. 마지막 물품은 필요한 수량만 채웁니다. 별표가 지정된 물품은 건너뜁니다.</TSA_WD_Bribe_AssignToAskTip>
+  <TSA_WD_Bribe_AskCeasefireLabel>휴전 요구액:</TSA_WD_Bribe_AskCeasefireLabel>
+  <TSA_WD_Bribe_AskCeasefireTip>플레이어 정착지 또는 전초기지를 공격할 수 있는 정착지 전투력: {0}\n해당 세력 전체 정착지 전투력: {1}\n가격 산정에 사용된 합산 수치: {2}\n수치 1점당 요구되는 은: {3}\n\n현재 제안 기준:\n인근 마을에 추가될 예상 전투력: 은 {4}개 상당\n\n이미 이동 중인 습격은 여전히 도착합니다. 해당 습격 상단을 개별 매수하거나 맞서 싸우세요.</TSA_WD_Bribe_AskCeasefireTip>
+  <TSA_WD_Bribe_RaidDealPriceTip>습격대 현재 전투력: {0}\n습격 출발 당시 전투력: {1}\n요구 가격은 현재 전투력과 출발 전투력의 {2}% 중 더 높은 수치를 기준으로 책정됩니다.\n전투력 1점당 은 가격 ({4}): {3}\n\n현재 제안 기준:\n습격대 출발지 인근에 추가될 예상 전투력: 은 {5}개 상당</TSA_WD_Bribe_RaidDealPriceTip>
+  <TSA_WD_Bribe_DurationButton>{0}일</TSA_WD_Bribe_DurationButton>
+  <TSA_WD_Bribe_DurationSelected>휴전 기간: {0}일</TSA_WD_Bribe_DurationSelected>
+  <TSA_WD_Bribe_ThreatWeighted>범위 내 위협 {0}, 세력 전체 {1}, 가중 요구 기준치 {2}</TSA_WD_Bribe_ThreatWeighted>
+  <TSA_WD_Bribe_SettlementRate>정착지 전투력당 은 요구량: {0}</TSA_WD_Bribe_SettlementRate>
+  <TSA_WD_Bribe_CaravanRate>습격대 전투력당 은 요구량: {0} ({1})</TSA_WD_Bribe_CaravanRate>
+  <TSA_WD_Bribe_RaidStrength>습격대 현재 전투력 {0} (출발 시 {1})</TSA_WD_Bribe_RaidStrength>
+  <TSA_WD_Bribe_Ask>요구액: 은 {0}개</TSA_WD_Bribe_Ask>
+  <TSA_WD_Bribe_ExpectedGoodwill>예상 우호도: +{0}</TSA_WD_Bribe_ExpectedGoodwill>
+  <TSA_WD_Bribe_ExpectedInvest>예상 전투력 투자액: 은 {0}개 상당</TSA_WD_Bribe_ExpectedInvest>
+  <TSA_WD_Bribe_Offered>제공액: {0}</TSA_WD_Bribe_Offered>
+  <TSA_WD_Bribe_InFlightWarning>해당 세력에서 이미 파견된 습격 상단은 여전히 도착합니다. 각 습격 상단을 개별 매수하거나 맞서 싸우세요.</TSA_WD_Bribe_InFlightWarning>
+  <TSA_WD_Bribe_StageEarly>초기</TSA_WD_Bribe_StageEarly>
+  <TSA_WD_Bribe_StageMid>중기</TSA_WD_Bribe_StageMid>
+  <TSA_WD_Bribe_StageLate>후기</TSA_WD_Bribe_StageLate>
+  <TSA_WD_BribeSettlementCaravan>뇌물 상단</TSA_WD_BribeSettlementCaravan>
+  <TSA_WD_BribeRaidCaravan>습격 매수 상단</TSA_WD_BribeRaidCaravan>
+  <TSA_WD_Bribe_SettlementCompletedLabel>휴전 뇌물 전달 완료</TSA_WD_Bribe_SettlementCompletedLabel>
+  <TSA_WD_Bribe_SettlementCompletedText>뇌물이 {0}({1})에 도착했습니다. 해당 세력의 플레이어 정착지 및 전초기지를 향한 새로운 World Domination 습격이 {2}일 동안 차단됩니다. 전투력 투자: 은 {3}개 상당. 이미 이동 중인 습격은 취소되지 않습니다.</TSA_WD_Bribe_SettlementCompletedText>
+  <TSA_WD_Bribe_RaidCompletedLabel>습격 매수 완료</TSA_WD_Bribe_RaidCompletedLabel>
+  <TSA_WD_Bribe_RaidCompletedText>뇌물로 {0}({1}) 습격대를 해산시켰습니다. 출발지 인근 전투력 투자: 은 {2}개 상당.</TSA_WD_Bribe_RaidCompletedText>
+  <TSA_WD_Bribe_SettlementAbortLabel>휴전 뇌물 전달 실패</TSA_WD_Bribe_SettlementAbortLabel>
+  <TSA_WD_Bribe_RaidAbortLabel>습격 매수 실패</TSA_WD_Bribe_RaidAbortLabel>
+  <TSA_WD_Bribe_AbortText>{0} 대상 뇌물 전달을 완료할 수 없었습니다.</TSA_WD_Bribe_AbortText>
+  <TSA_WD_Bribe_AbortTextLost>{0} 정착지로 향하던 뇌물 상단이 파괴되었습니다. 물품이 손실되었습니다.</TSA_WD_Bribe_AbortTextLost>
+  <TSA_WD_Bribe_AbortTextRefund>{0} 대상 뇌물 전달을 완료할 수 없었습니다. 물품이 반환되었습니다.</TSA_WD_Bribe_AbortTextRefund>
+  <TSA_WD_Bribe_AbortTextTargetGone>대상이 더 이상 존재하지 않아 {0} 대상 뇌물 전달이 실패했습니다. 물품이 반환되었습니다.</TSA_WD_Bribe_AbortTextTargetGone>
+  <TSA_WD_Bribe_AbortTextBadRelation>소유 세력과 더 이상 적대 관계가 아니어서 {0} 대상 뇌물 전달이 실패했습니다. 물품이 반환되었습니다.</TSA_WD_Bribe_AbortTextBadRelation>
+  <TSA_WD_Bribe_CeasefireExpiredLabel>뇌물 휴전 만료</TSA_WD_Bribe_CeasefireExpiredLabel>
+  <TSA_WD_Bribe_CeasefireExpiredText>{0} 세력과의 뇌물 휴전이 만료되었습니다. 해당 세력이 플레이어 정착지와 전초기지에 새로운 World Domination 습격을 다시 보낼 수 있습니다.</TSA_WD_Bribe_CeasefireExpiredText>
+  <TSA_WD_Diplomacy_BribeCeasefire>(뇌물 휴전 {0}일)</TSA_WD_Diplomacy_BribeCeasefire>
+  <TSA_WD_Log_BribeSettlementLaunched>{0} 세력이 {1}({2}) 정착지에 뇌물 상단을 파견했습니다.</TSA_WD_Log_BribeSettlementLaunched>
+  <TSA_WD_Log_BribeRaidLaunched>{0} 세력이 {1}({2}) 습격대를 뒤쫓아 뇌물 상단을 파견했습니다.</TSA_WD_Log_BribeRaidLaunched>
+  <TSA_WD_Log_BribeSettlementCompleted>{0} 정착지를 통해 {1} 세력과 {2}일간 뇌물 휴전을 체결했습니다.</TSA_WD_Log_BribeSettlementCompleted>
+  <TSA_WD_Log_BribeRaidCompleted>{0}({1}) 습격대를 매수하여 해산시켰습니다.</TSA_WD_Log_BribeRaidCompleted>
+  <TSA_WD_Log_Raid_SkippedBribeCeasefire>습격 생략: {0} 세력과의 뇌물 휴전이 아직 활성 상태입니다.</TSA_WD_Log_Raid_SkippedBribeCeasefire>
+  <TSA_WD_Bribe_CostHeader>뇌물 비용</TSA_WD_Bribe_CostHeader>
+  <TSA_WD_Bribe_SettlementSilverPerStr>정착지 전투력당 은 요구량</TSA_WD_Bribe_SettlementSilverPerStr>
+  <TSA_WD_Bribe_SettlementSilverPerStrTip>휴전 뇌물의 고정 비율입니다. 중기 및 후기 고조 단계에서도 이 비율은 변경되지 않습니다 (공격 범위 내에 더 많은 정착지가 들어오면 위협 수치는 계속 증가할 수 있습니다).</TSA_WD_Bribe_SettlementSilverPerStrTip>
+  <TSA_WD_Bribe_CaravanSilverPerStrEarly>습격대 전투력당 은 요구량 (초기)</TSA_WD_Bribe_CaravanSilverPerStrEarly>
+  <TSA_WD_Bribe_CaravanSilverPerStrEarlyTip>중기 및 후기 고조 단계가 비활성 상태일 때 사용됩니다.</TSA_WD_Bribe_CaravanSilverPerStrEarlyTip>
+  <TSA_WD_Bribe_CaravanSilverPerStrMid>습격대 전투력당 은 요구량 (중기)</TSA_WD_Bribe_CaravanSilverPerStrMid>
+  <TSA_WD_Bribe_CaravanSilverPerStrMidTip>중기 고조 단계에서 사용됩니다. 후기 단계가 활성화되면 후기 설정으로 대체됩니다.</TSA_WD_Bribe_CaravanSilverPerStrMidTip>
+  <TSA_WD_Bribe_CaravanSilverPerStrLate>습격대 전투력당 은 요구량 (후기)</TSA_WD_Bribe_CaravanSilverPerStrLate>
+  <TSA_WD_Bribe_CaravanSilverPerStrLateTip>후기 고조 단계에서 사용됩니다.</TSA_WD_Bribe_CaravanSilverPerStrLateTip>
+  <TSA_WD_Bribe_SettingsHeader>세력 뇌물</TSA_WD_Bribe_SettingsHeader>
+  <TSA_WD_Bribe_Enable>세력 뇌물 활성화</TSA_WD_Bribe_Enable>
+  <TSA_WD_Bribe_EnableTip>활성화하면 플레이어를 목표로 하는 적대 World Domination 정착지 및 지상 습격 상단에 뇌물 기즈모가 표시됩니다.</TSA_WD_Bribe_EnableTip>
+  <TSA_WD_Bribe_DaysShort>휴전 일수 (단기)</TSA_WD_Bribe_DaysShort>
+  <TSA_WD_Bribe_DaysMedium>휴전 일수 (중기)</TSA_WD_Bribe_DaysMedium>
+  <TSA_WD_Bribe_DaysLong>휴전 일수 (장기)</TSA_WD_Bribe_DaysLong>
+  <TSA_WD_Bribe_DaysTip>정착지 뇌물 전달에 성공한 후 해당 세력의 새로운 World Domination 습격이 차단되는 기간입니다.</TSA_WD_Bribe_DaysTip>
+  <TSA_WD_Bribe_DiscountMedium>중기 패키지 할인율</TSA_WD_Bribe_DiscountMedium>
+  <TSA_WD_Bribe_DiscountLong>장기 패키지 할인율</TSA_WD_Bribe_DiscountLong>
+  <TSA_WD_Bribe_DiscountTip>가격 배율: (일수 / 단기 일수) × (1 - 할인율).</TSA_WD_Bribe_DiscountTip>
+  <TSA_WD_Bribe_RaidAskFloor>습격대 요구액 하한 (출발 전투력 대비 비율)</TSA_WD_Bribe_RaidAskFloor>
+  <TSA_WD_Bribe_RaidAskFloorTip>습격대 매수 요구액은 현재 전투력과 출발 당시 전투력에 이 비율을 곱한 값 중 더 큰 값을 사용합니다.</TSA_WD_Bribe_RaidAskFloorTip>
+  <TSA_WD_Bribe_InvestmentFraction>뇌물 전투력 전환 비율</TSA_WD_Bribe_InvestmentFraction>
+  <TSA_WD_Bribe_InvestmentFractionTip>뇌물 성공 시 지불한 물품 가치가 인근 정착지의 전투력으로 전환되는 비율입니다 (선물 및 구매는 100% 전환). 요격당한 약탈품은 전액이 전투력으로 전환됩니다.</TSA_WD_Bribe_InvestmentFractionTip>
+  <TSA_WD_Bribe_CaravanInvestRadius>습격 매수 전투력 투자 반경</TSA_WD_Bribe_CaravanInvestRadius>
+  <TSA_WD_Bribe_CaravanInvestRadiusTip>습격 매수 성공 후 전투력을 투자할 때 습격 출발 정착지로부터 계산할 타일 반경입니다.</TSA_WD_Bribe_CaravanInvestRadiusTip>
+  <TSA_WD_Bribe_GoodwillBonusDivisor>우호도 1점당 은 요구량</TSA_WD_Bribe_GoodwillBonusDivisor>
+  <TSA_WD_Bribe_GoodwillBonusDivisorTip>뇌물 성공 시 얻는 우호도는 지불한 시장 가치를 이 수치로 나눈 값입니다. 뇌물은 우호도로 지불할 수 없습니다. 수치가 높을수록 획득 우호도가 낮아집니다. 세계 지도 선물 우호도는 '선물 및 구매' 항목의 자체 제수를 사용합니다.</TSA_WD_Bribe_GoodwillBonusDivisorTip>
+  <TSA_WD_Notify_BribeSettlementCompleted>정착지 뇌물 전달 완료</TSA_WD_Notify_BribeSettlementCompleted>
+  <TSA_WD_Notify_BribeSettlementCompletedTooltip>휴전 뇌물이 도착했을 때 편지를 받습니다. 이미 이동 중인 습격은 취소되지 않음을 상기시켜 줍니다.</TSA_WD_Notify_BribeSettlementCompletedTooltip>
+  <TSA_WD_Notify_BribeSettlementAborted>정착지 뇌물 전달 실패</TSA_WD_Notify_BribeSettlementAborted>
+  <TSA_WD_Notify_BribeSettlementAbortedTooltip>휴전 뇌물이 이동 중 실패하거나 무효화되었을 때 편지를 받습니다 (해당 시 환불 포함).</TSA_WD_Notify_BribeSettlementAbortedTooltip>
+  <TSA_WD_Notify_BribeRaidCompleted>습격 매수 완료</TSA_WD_Notify_BribeRaidCompleted>
+  <TSA_WD_Notify_BribeRaidCompletedTooltip>습격 매수 뇌물이 전달되어 해당 상단이 해산되었을 때 편지를 받습니다.</TSA_WD_Notify_BribeRaidCompletedTooltip>
+  <TSA_WD_Notify_BribeRaidAborted>습격 매수 실패</TSA_WD_Notify_BribeRaidAborted>
+  <TSA_WD_Notify_BribeRaidAbortedTooltip>습격 매수가 실패했을 때(대상 소멸, 추격 실패, 유효하지 않은 거래) 편지를 받습니다 (해당 시 환불 포함).</TSA_WD_Notify_BribeRaidAbortedTooltip>
+  <TSA_WD_Notify_BribeLostInTransit>뇌물 상단 요격당함</TSA_WD_Notify_BribeLostInTransit>
+  <TSA_WD_Notify_BribeLostInTransitTooltip>뇌물 상단이 파괴되어 지불 물품을 잃었을 때 편지를 받습니다 (실패/환불 경우와 구분됨).</TSA_WD_Notify_BribeLostInTransitTooltip>
+  <TSA_WD_Notify_BribeCeasefireExpired>뇌물 휴전 만료</TSA_WD_Notify_BribeCeasefireExpired>
+  <TSA_WD_Notify_BribeCeasefireExpiredTooltip>세력의 뇌물 휴전 타이머가 종료되었을 때 편지를 받습니다.</TSA_WD_Notify_BribeCeasefireExpiredTooltip>
+</LanguageData>

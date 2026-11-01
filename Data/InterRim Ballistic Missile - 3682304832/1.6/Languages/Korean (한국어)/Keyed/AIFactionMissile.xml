@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- Alert -->
+  <IRBM.AlertHostileReconSatellite>적대 정찰 위성</IRBM.AlertHostileReconSatellite>
+  <IRBM.AlertHostileReconSatelliteDesc>{0} 세력이 우리 식민지를 관측할 수 있는 정찰 위성을 배치했습니다.</IRBM.AlertHostileReconSatelliteDesc>
+  <IRBM.AlertHostileReconSatellitesDesc>궤도에 적대 정찰 위성이 {0}개 있습니다.</IRBM.AlertHostileReconSatellitesDesc>
+
+  <!-- Letter -->
+  <IRBM.LetterLabelReconSatelliteDeployed>정찰 위성 배치됨</IRBM.LetterLabelReconSatelliteDeployed>
+  <IRBM.LetterTextReconSatelliteDeployed>센서가 {0} 세력이 {1} 상공에 정찰 위성을 배치한 것을 감지했습니다.\n\n이 위성은 정보를 수집하고 목표물에 대한 타격을 조율하는 데 사용될 수 있습니다.</IRBM.LetterTextReconSatelliteDeployed>
+
+  <!-- Radar -->
+  <IRBM.RadarRange>탐지 범위: {0}타일</IRBM.RadarRange>
+  <IRBM.RadarLevel>탐지 수준: {0}</IRBM.RadarLevel>
+  <IRBM.CIWSRange>요격 범위: {0}타일</IRBM.CIWSRange>
+  <IRBM.CIWSEfficiency>요격 효율: 틱당 {0}</IRBM.CIWSEfficiency>
+  <IRBM.CIWSBlockedByRoof>요격 불가: 지붕에 막힘</IRBM.CIWSBlockedByRoof>
+  <IRBM.CIWSNoFuel>요격 불가: 탄약 없음</IRBM.CIWSNoFuel>
+  <IRBM.CIWSLowPower>요격 불가: 전력망 전력 부족</IRBM.CIWSLowPower>
+  <IRBM.MessageMissileInterceptedByCIWS>{0}에서 발사한 미사일을 아군 근접 방어 시설이 요격했습니다.</IRBM.MessageMissileInterceptedByCIWS>
+  <IRBM.ShowPassingMissiles>통과하는 미사일 알림</IRBM.ShowPassingMissiles>
+  <IRBM.ShowPassingMissilesDesc>플레이어를 노리지 않고 지나가는 미사일을 레이더가 탐지했을 때 흰색 경보를 표시할지 설정합니다.</IRBM.ShowPassingMissilesDesc>
+
+  <IRBM.AlertMissileIncoming>뱀파이어! 뱀파이어!</IRBM.AlertMissileIncoming>
+  <IRBM.AlertMissileIncomingDesc>우리를 향해 날아오는 미사일이 탐지되었습니다!</IRBM.AlertMissileIncomingDesc>
+  <MessageCriticalAlert>긴급 경보: {0}</MessageCriticalAlert>
+  <IRBM.AlertMissilePassingBy>미사일 통과 중</IRBM.AlertMissilePassingBy>
+  <IRBM.AlertMissilePassingByDesc>하나 이상의 미사일이 방어 구역을 통과하는 것이 탐지되었습니다. 목표는 우리가 아닙니다.</IRBM.AlertMissilePassingByDesc>
+
+  <!-- Anti-Satellite -->
+  <IRBM.LetterLabelSatelliteDestroyed>위성 파괴됨</IRBM.LetterLabelSatelliteDestroyed>
+  <IRBM.LetterTextSatelliteDestroyed>우리 위성 중 하나가 {0}에서 발사한 미사일에 파괴되었습니다.</IRBM.LetterTextSatelliteDestroyed>
+
+  <!-- Settlement Destruction -->
+  <IRBM.LetterLabelSettlementVaporized>전략 타격 피격</IRBM.LetterLabelSettlementVaporized>
+  <IRBM.LetterTextSettlementVaporizedAllDead>{0}에서 발사한 전략 미사일이 우리 {1}에 명중했습니다.\n\n지역 전체가 심각한 피해를 입었습니다.</IRBM.LetterTextSettlementVaporizedAllDead>
+
+  <!-- Tactical Missile Impact -->
+  <IRBM.LetterLabelTacticalMissileImpact>전술 타격 피격</IRBM.LetterLabelTacticalMissileImpact>
+  <IRBM.LetterTextTacticalMissileImpact>{0}에서 발사한 전술 미사일이 우리 {1}에 명중했습니다.</IRBM.LetterTextTacticalMissileImpact>
+
+  <!-- Recon Satellite Gizmos -->
+  <IRBM.GizmoDestroySatellite>파괴</IRBM.GizmoDestroySatellite>
+  <IRBM.GizmoDestroySatelliteDesc>이 위성을 퇴역시키고 파괴합니다.</IRBM.GizmoDestroySatelliteDesc>
+  <IRBM.GizmoObserve>관측</IRBM.GizmoObserve>
+  <IRBM.GizmoObserveDesc>계속 관측할 목표 타일 또는 세계 오브젝트를 선택합니다. 지도가 강제로 불러와집니다.</IRBM.GizmoObserveDesc>
+  <IRBM.GizmoStopObservation>관측 중단</IRBM.GizmoStopObservation>
+  <IRBM.GizmoStopObservationDesc>{0}번 타일 관측을 중단합니다. 지도는 다시 일반적인 불러오기/내리기 흐름으로 돌아갑니다.</IRBM.GizmoStopObservationDesc>
+  <IRBM.SelectToObserve>이 위치를 관측 대상으로 선택합니다.</IRBM.SelectToObserve>
+  <IRBM.ObservingTile>관측 중: {0}번 타일</IRBM.ObservingTile>
+  <IRBM.SatelliteStatusIdle>상태: 대기 중(선택한 목표 없음)</IRBM.SatelliteStatusIdle>
+
+</LanguageData>
