@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--English=Controlled: {0} of {1} installed mech parts\nBandwidth used: {0} / {2}-->
+  <MR_InterfaceCapacityDesc>제어 중: 이식된 메카노이드 이식물 {0} / {1}\n대역폭 사용량: {0} / {2}</MR_InterfaceCapacityDesc>
+  <!--English={0} has no {1} to install this on.-->
+  <MR_NoBodyPartToInstallOn>{0}(은)는 이 이식물을 설치할 {1}(이)가 없습니다.</MR_NoBodyPartToInstallOn>
+  <!--English={0} already has this implant installed.-->
+  <MR_AlreadyInstalled>{0}(은)는 이미 이식됨</MR_AlreadyInstalled>
+  <!--English=Only humanlikes can use this.-->
+  <MR_HumanlikeOnly>인간형 생명체만 사용 가능</MR_HumanlikeOnly>
+  <!--English={0}&apos;s mechanoid neural link is upgraded. It can now control {1} implants.-->
+  <MR_InterfaceUpgraded>{0}의 메카노이드 뉴럴링크가 향상되었습니다. 이제 이식물 {1}개를 제어할 수 있습니다.</MR_InterfaceUpgraded>
+  <!--English={0} has no mechanoid neural link to upgrade.-->
+  <MR_NoInterfaceToUpgrade>{0}(은)는 향상할 메카노이드 뉴럴링크가 없음</MR_NoInterfaceToUpgrade>
+  <!--English={0}&apos;s mechanoid neural link has no room for another {1}. The {2} is what comes next.-->
+  <MR_InterfaceTierAlready>{0}(은)는 {1} 설치 불가, 다음 단계인 {2} 설치 가능</MR_InterfaceTierAlready>
+  <!--English={0}&apos;s mechanoid neural link is not ready for this sublink. Install the {1} first ー they must be seated in order.-->
+  <MR_InterfaceTierTooLow>{0}(은)는 이 서브링크 설치 불가, 먼저 {1} 설치 필요</MR_InterfaceTierTooLow>
+  <!--English={0}&apos;s mechanoid neural link is fully extended ー it already controls an entire mechanoid body.-->
+  <MR_InterfaceTierMax>{0}(은)는 이미 최고 단계임</MR_InterfaceTierMax>
+  <!--English=Uncontrolled: no bonus, and the part works at natural efficiency. Needs free mechanoid neural link bandwidth.-->
+  <MR_Tip_Unsynced>제어되지 않음: 추가 효과가 없으며 이식물은 기본 효율로 작동합니다. 사용 가능한 메카노이드 뉴럴링크 대역폭이 필요합니다.</MR_Tip_Unsynced>
+  <!--English=Uncontrolled: no bonus, and the part works at {0} efficiency. Needs free mechanoid neural link bandwidth.-->
+  <MR_Tip_UnsyncedEfficiency>제어되지 않음: 추가 효과가 없으며 이식물은 {0} 효율로 작동합니다. 사용 가능한 메카노이드 뉴럴링크 대역폭이 필요합니다.</MR_Tip_UnsyncedEfficiency>
+  <!--English=Illness worsens {0} more slowly-->
+  <MR_Tip_DiseaseSlowed>질병 속도 {0} 감소</MR_Tip_DiseaseSlowed>
+  <!--English=Wound infection worsens {0} more slowly-->
+  <MR_Tip_InfectionSlowed>감염 속도 {0} 감소</MR_Tip_InfectionSlowed>
+  <!--English=Hunger rate x{0}-->
+  <MR_Tip_HungerRate>굶주림 x{0}</MR_Tip_HungerRate>
+  <!--English=Body size x{0}-->
+  <MR_Tip_BodySize>신체 크기 x{0}</MR_Tip_BodySize>
+  <!--English=Aging speed {0}-->
+  <MR_Tip_AgingRate>노화 속도 {0}</MR_Tip_AgingRate>
+  <!--English=Learning speed {0}-->
+  <MR_Tip_SkillLearning>학습 속도 {0}</MR_Tip_SkillLearning>
+  <!--English=Skill decay {0}-->
+  <MR_Tip_SkillDecay>기술 감소 {0}</MR_Tip_SkillDecay>
+  <!--English=(all skills but {0})-->
+  <MR_Tip_SkillLearningExcept>({0} 제외한 모든 기술)</MR_Tip_SkillLearningExcept>
+  <!--English=Chance to be hit by shots {0}-->
+  <MR_Tip_IncomingHitChance>사격에 맞을 확률 {0}</MR_Tip_IncomingHitChance>
+  <!--English=Armor penetration of the pawn&apos;s shots {0}-->
+  <MR_Tip_RangedArmorPenetration>대상이 가하는 사격의 방어 관통력 {0}</MR_Tip_RangedArmorPenetration>
+  <!--English=Caravan carrying capacity {0}-->
+  <MR_Tip_CaravanCapacity>상단 최대 수용량 {0}</MR_Tip_CaravanCapacity>
+  <!--English=Starfire breath range {0}-->
+  <MR_Tip_BreathBoost>스타파이어 숨결 사거리 {0}</MR_Tip_BreathBoost>
+  <!--English=Explodes on death-->
+  <MR_Tip_DeathExplosion>사망 시 폭발</MR_Tip_DeathExplosion>
+  <!--English=Prisoner is always loyal-->
+  <MR_Tip_PreventsEscape>수감자는 항상 충성스러움</MR_Tip_PreventsEscape>
+  <!--English=(only in space)-->
+  <MR_Tip_OnlyInSpace>(우주에서만)</MR_Tip_OnlyInSpace>
+  <!--English=Mechanoid parts in space:-->
+  <MR_StatsReport_InSpace>우주에 있는 메카노이드 이식물:</MR_StatsReport_InSpace>
+  <!--English=Ignores {0} of the slowdown from terrain-->
+  <MR_Tip_TerrainSlowdown>지형으로 인한 이동속도 저하 {0} 무시</MR_Tip_TerrainSlowdown>
+  <!--English=Psyfocus cost of psycasts {0}-->
+  <MR_Tip_PsyfocusCost>초능력 사용 시 초집중 비용 {0}</MR_Tip_PsyfocusCost>
+  <!--English=Its bite sets the target on fire {0} of the time-->
+  <MR_Tip_IgniteOnHit>깨물기 공격 시 {0} 확률로 대상을 불태움</MR_Tip_IgniteOnHit>
+  <!--English=Meals give {0} nutrition; no mood penalty for raw food, kibble or paste-->
+  <MR_Tip_NutritankDiet>음식이 열량 {0} 제공; 생식, 사료, 영양죽 섭취 시 기분 감소 없음</MR_Tip_NutritankDiet>
+  <!--English=Hemogen packs and bloodfeeding are blood meals: {0} nutrition, then hunger x0.25 until the next ordinary meal. Ordinary food gives {1} nutrition; no mood penalty for hemogen packs-->
+  <MR_Tip_BloodDiet>혈액팩과 흡혈은 혈액 음식: 열량 {0} 제공 후 일반 음식을 섭취할 때까지 굶주림 x0.25. 일반 음식이 열량 {1} 제공; 혈액팩 섭취 시 기분 감소 없음</MR_Tip_BloodDiet>
+  <!--English={0} HP to {1}-->
+  <MR_Tip_PartMaxHp>{0} HP에서 {1} HP로</MR_Tip_PartMaxHp>
+  <!--English=Gives the {0} trait-->
+  <MR_Tip_ForcedTrait>{0} 특성 부여</MR_Tip_ForcedTrait>
+  <!--English=immune to {0}-->
+  <MR_Tip_ImmuneTo>{0} 면역</MR_Tip_ImmuneTo>
+  <!--English=all diseases-->
+  <MR_Tip_AllDiseases>모든 질병</MR_Tip_AllDiseases>
+  <!--English=Immune to:-->
+  <MR_Tip_ImmuneToList>다음에 면역:</MR_Tip_ImmuneToList>
+  <!--English=Immune to (only in space):-->
+  <MR_Tip_ImmuneToListOnlyInSpace>다음에 면역(우주에서만):</MR_Tip_ImmuneToListOnlyInSpace>
+  <!--English=incoming {0} damage is converted to {1}-->
+  <MR_Tip_DamageConverted>받는 {0} 피해가 {1} 피해로 전환됨</MR_Tip_DamageConverted>
+  <!--English=When controlled:-->
+  <MR_ItemDesc_WhenControlled>제어 중일 때:</MR_ItemDesc_WhenControlled>
+  <!--English=When paired with {0} activates: {1}.-->
+  <MR_ItemDesc_Combo>{0}와 함께 사용 시 발동: {1}.</MR_ItemDesc_Combo>
+  <!--English=a second {0}-->
+  <MR_ItemDesc_ComboSecond>두 번째 {0}</MR_ItemDesc_ComboSecond>
+  <!--English=two {0}-->
+  <MR_ItemDesc_ComboTwo>{0} 두 개</MR_ItemDesc_ComboTwo>
+  <!--English=mechanoid {0}-->
+  <MR_ItemDesc_MechanoidPart>메카노이드 {0}</MR_ItemDesc_MechanoidPart>
+  <!--English=a {0}-->
+  <MR_ItemDesc_ComboOne>{0}</MR_ItemDesc_ComboOne>
+  <!--English=Assembling: {0} ({1}, {2} left)-->
+  <MR_GestatingImplant>조립 중: {0} ({1}, {2} 남음)</MR_GestatingImplant>
+  <!--English=The mechanoid recycler has started assembling a {0}.-->
+  <MR_GestationStarted>메카노이드 재활용기가 {0} 조립을 시작했습니다.</MR_GestationStarted>
+  <!--English=The mechanoid recycler has finished a {0}.-->
+  <MR_GestationComplete>메카노이드 재활용기가 {0} 조립을 완료했습니다.</MR_GestationComplete>
+  <!--English=The mechanoid recycler has finished a {0}, but there is no room to put it down. It will hold the implant until the space around it is cleared.-->
+  <MR_GestationNoRoom>메카노이드 재활용기가 {0} 조립을 완료했지만 내려놓을 공간이 없습니다. 주변 공간을 비울 때까지 이식물을 보관합니다.</MR_GestationNoRoom>
+  <!--English=Holding: {0} (no room to put it down)-->
+  <MR_GestationHolding>보관 중: {0} (내려놓을 공간 없음)</MR_GestationHolding>
+  <!--English=The assembly failed at {1}. The {0} is a total loss, along with everything loaded into the recycler.-->
+  <MR_GestationFailed>{1} 에서 조립에 실패했습니다. {0}(은)는 재활용기에 적재한 모든 것과 함께 손실되었습니다.</MR_GestationFailed>
+  <!--English=Cancel assembly-->
+  <MR_CancelGestation>조립 취소</MR_CancelGestation>
+  <!--English=Unclamp the workpiece and abandon the run in progress. Nothing is recovered.-->
+  <MR_CancelGestationDesc>작업물을 고정 장치에서 풀고 진행 중인 조립을 중단합니다. 아무것도 회수할 수 없습니다.</MR_CancelGestationDesc>
+  <!--English=Assembly success chance-->
+  <MR_Stat_SuccessChance>조립 성공 확률</MR_Stat_SuccessChance>
+  <!--English=Chance that a finished run yields its implant.\n\nA failed run is a total loss: the corpse and everything else loaded into the recycler are gone with it.\n\nBase chance for the recycler alone: {0}.-->
+  <MR_Stat_SuccessChanceDesc>조립이 완료되었을 때 이식물을 얻을 확률입니다.\n\n조립에 실패하면 시체와 재활용기에 적재한 모든 것이 손실됩니다.\n\n재활용기만 사용할 때의 기본 확률: {0}</MR_Stat_SuccessChanceDesc>
+  <!--English=Assembly time-->
+  <MR_Stat_GestationTime>조립 시간</MR_Stat_GestationTime>
+  <!--English=How long one run takes once a worker has loaded it. The recycler works unattended for the whole of it.\n\nBase time for the recycler alone: {0}.-->
+  <MR_Stat_GestationTimeDesc>작업자가 재료를 적재한 뒤 한 번의 조립이 완료되기까지 걸리는 시간입니다. 이 시간 동안 재활용기는 무인으로 작동합니다.\n\n재활용기만 사용할 때의 기본 시간: {0}</MR_Stat_GestationTimeDesc>
+  <!--English=Accelerators linked: {0} (+{1} success chance, ー{2} assembly time).-->
+  <MR_Stat_AcceleratorsLinked>연결된 가속기: {0} (조립 성공 확률 +{1}, 조립 시간 -{2})</MR_Stat_AcceleratorsLinked>
+  <!--English=No accelerators linked. Each one placed within three tiles improves both numbers, and a recycler draws from one of each type ー all three together make a run certain and cut it to a quarter of the time.-->
+  <MR_Stat_AcceleratorsNone>연결된 가속기가 없습니다. 3칸 이내에 설치된 가속기는 조립 성공 확률과 조립 시간을 모두 개선합니다. 재활용기는 종류별로 가속기를 하나씩 활용하며, 세 종류를 모두 연결하면 조립이 확정으로 성공하고 조립 시간이 4분의 1로 단축됩니다.</MR_Stat_AcceleratorsNone>
+  <!--English=Assembly success chance-->
+  <MR_Stat_SuccessChanceOffset>조립 성공 확률</MR_Stat_SuccessChanceOffset>
+  <!--English=Added to the success chance of the mechanoid recycler this accelerator is linked to.\n\nA recycler draws from one accelerator of each type; all three together make a run certain.-->
+  <MR_Stat_SuccessChanceOffsetDesc>이 가속기와 연결된 메카노이드 재활용기의 조립 성공 확률을 높여줍니다.\n\n재활용기는 종류별로 가속기를 하나씩 활용하며, 세 종류를 모두 연결하면 조립이 확정으로 성공합니다.</MR_Stat_SuccessChanceOffsetDesc>
+  <!--English=Assembly time-->
+  <MR_Stat_GestationTimeOffset>조립 시간</MR_Stat_GestationTimeOffset>
+  <!--English=Taken off the assembly time of the mechanoid recycler this accelerator is linked to. The cut is off the recycler&apos;s base time, so the offsets add rather than compounding: all three together leave a quarter of it.-->
+  <MR_Stat_GestationTimeOffsetDesc>이 가속기와 연결된 메카노이드 재활용기의 조립 시간을 단축합니다. 단축량은 재활용기의 기본 시간을 기준으로 하므로, 곱연산이 아닌 합연산으로 적용됩니다. 세 종류를 모두 연결하면 조립 시간이 4분의 1로 단축됩니다.</MR_Stat_GestationTimeOffsetDesc>
+  <!--English={PAWN_labelShort} has reconnected to the mech hive and is leaving.-->
+  <MR_ConfusedWorkerLeft>{PAWN_labelShort}(이)가 메카노이드 군락과 다시 연결되었으며, 정착지를 떠나고 있습니다.</MR_ConfusedWorkerLeft>
+  <!--English={PAWN_labelShort} was attacked and is fleeing back to the mech hive.-->
+  <MR_ConfusedWorkerAttacked>{PAWN_labelShort}(이)가 공격을 받아 메카노이드 군락으로 도망치고 있습니다.</MR_ConfusedWorkerAttacked>
+  <!--English=General-->
+  <MR_Settings_TabGeneral>일반</MR_Settings_TabGeneral>
+  <!--English=Events-->
+  <MR_Settings_TabEvents>사건</MR_Settings_TabEvents>
+  <!--English=Chimeras-->
+  <MR_Settings_TabChimeras>키메라</MR_Settings_TabChimeras>
+  <!--English=Confused mechanoid worker-->
+  <MR_Settings_ConfusedWorker>혼란스러운 작업용 메카노이드</MR_Settings_ConfusedWorker>
+  <!--English=Enable the event-->
+  <MR_Settings_ConfusedWorkerEnabled>사건 활성화</MR_Settings_ConfusedWorkerEnabled>
+  <!--English=A worker mechanoid that lost its hive connection wanders into the colony. Take it over with a mechanitor within a day, or it leaves.-->
+  <MR_Settings_ConfusedWorkerEnabledDesc>메카노이드 군락과 연결이 끊긴 작업용 메카노이드가 정착지로 들어옵니다. 하루 안에 메카나이터로 제어하지 않으면 떠납니다.</MR_Settings_ConfusedWorkerEnabledDesc>
+  <!--English=Shortest time between events: {0}-->
+  <MR_Settings_IntervalMin>사건 사이 최소 간격: {0}</MR_Settings_IntervalMin>
+  <!--English=Longest time between events: {0}-->
+  <MR_Settings_IntervalMax>사건 사이 최대 간격: {0}</MR_Settings_IntervalMax>
+  <!--English=Mechanite damage on birthdays-->
+  <MR_Settings_Birthday>생일에 기계입자 손상 발생</MR_Settings_Birthday>
+  <!--English=Mechanoid bionics can destroy organs-->
+  <MR_Settings_OrganDamage>메카노이드 이식물이 장기를 손상시킬 수 있음</MR_Settings_OrganDamage>
+  <!--English=On a birthday, a pawn with at least one mechanoid implant may get organ decay in a natural organ. Without a mechanoid brain implant, and with Anomaly, the brain can get crumbling mind instead.-->
+  <MR_Settings_OrganDamageDesc>생일에 메카노이드 이식물이 하나 이상 있는 폰은 생체 장기에 장기 부패가 발생할 수 있습니다. 메카노이드 뇌 이식물이 없고 아노말리 DLC가 활성화되어 있다면, 대신 뇌에 허물어지는 정신이 발생할 수 있습니다.</MR_Settings_OrganDamageDesc>
+  <!--English=Mechanoid bionics can wither limbs-->
+  <MR_Settings_LimbWithering>메카노이드 이식물이 사지를 시들게 할 수 있음</MR_Settings_LimbWithering>
+  <!--English=On a birthday, a pawn with at least one mechanoid implant may get a permanent withering scar on a natural arm or leg. Scars stack on the same limb over the years.-->
+  <MR_Settings_LimbWitheringDesc>생일에 메카노이드 이식물이 하나 이상 있는 폰은 생체 팔이나 다리에 영구적인 시든 흉터가 생길 수 있습니다. 흉터는 수년에 걸쳐 동일한 사지에 누적됩니다.</MR_Settings_LimbWitheringDesc>
+  <!--English=Boosts shields: shield belts +{0} energy, centurion&apos;s shield +{2} energy and +{1} s-->
+  <MR_Tip_ShieldBoost>보호막 강화: 보호막 벨트 최대 용량 +{0}, 센추리온 보호막 최대 용량 +{2}, 지속 시간 +{1}초</MR_Tip_ShieldBoost>
+  <!--English=Boosts shields: shield belts +{0} energy, centurion&apos;s shield +{2} energy-->
+  <MR_Tip_ShieldBoostNoTime>보호막 강화: 보호막 벨트 최대 용량 +{0}, 센추리온 보호막 최대 용량 +{2}</MR_Tip_ShieldBoostNoTime>
+  <!--English=Body modifications-->
+  <MR_Stat_ShieldBoost>신체 개조</MR_Stat_ShieldBoost>
+  <!--English=Centurion&apos;s shield: {0}-->
+  <MR_ShieldGizmo>센추리온 보호막: {0}</MR_ShieldGizmo>
+  <!--English=Creates a shield which blocks bullets and explosions until it is down or its time runs out.-->
+  <MR_ShieldGizmoDesc>보호막이 소진되거나 지속 시간이 끝날 때까지 탄환과 폭발을 막아줍니다.</MR_ShieldGizmoDesc>
+  <!--English=Absorbs about {0} damage for {1} seconds.-->
+  <MR_ShieldAbilityStats>{1}초 동안 피해를 {0} 흡수합니다.</MR_ShieldAbilityStats>
+  <!--English=Mechanoid implants reworked-->
+  <MR_ImplantReworkedLabel>메카노이드 이식물 개편</MR_ImplantReworkedLabel>
+  <!--English=Some mechanoid implants were reworked in this version of Mechanoid Repurposing. The old versions have been taken out, and these organs are natural again:-->
+  <MR_ImplantReworkedText>이번 Mechanoid Repurposing 모드 버전에서 일부 메카노이드 이식물이 개편되었습니다. 기존 버전은 제거되었으며, 다음 장기는 다시 생체 장기가 되었습니다:</MR_ImplantReworkedText>
+  <!--English={0}: {1}-->
+  <MR_ImplantReworkedLine>{0}: {1}</MR_ImplantReworkedLine>
+  <!--English=Made from {0} corpse, a mech from {1}.-->
+  <MR_Tip_SourceMod>{1} 모드의 메카노이드인 {0} 시체로 만들어졌습니다.</MR_Tip_SourceMod>
+  <!--English=Mechanoid skin color-->
+  <MR_Settings_SkinColor>메카노이드 외피 색상</MR_Settings_SkinColor>
+  <!--English=Ancient mechanoid shell-->
+  <MR_Settings_SkinColorAncient>고대 메카노이드 외피</MR_Settings_SkinColorAncient>
+  <!--English=The centipede&apos;s shell keeps the weathered green of the mechs it was taken from. Ears, noses and other skinーcolored parts turn the same color. A pikeman&apos;s lens casing is this green on everyone.-->
+  <MR_Settings_SkinColorAncientDesc>센티피드 외피는 부품을 가져온 메카노이드처럼 풍화된 녹색을 유지합니다. 귀와 코 등 피부색을 띠는 부위도 같은 색으로 바뀝니다. 모든 폰의 파이크맨 렌즈 케이스도 풍화된 녹색이 됩니다.</MR_Settings_SkinColorAncientDesc>
+  <!--English=Pristine mechanoid shell-->
+  <MR_Settings_SkinColorPristine>깨끗한 메카노이드 외피</MR_Settings_SkinColorPristine>
+  <!--English=The centipede&apos;s shell stays white, like a freshly built mech. Ears, noses and other skinーcolored parts turn the same color. A pikeman&apos;s lens casing is white on everyone.-->
+  <MR_Settings_SkinColorPristineDesc>센티피드 외피는 갓 배양된 메카노이드처럼 흰색을 유지합니다. 귀와 코 등 피부색을 띠는 부위도 같은 색으로 바뀝니다. 모든 폰의 파이크맨 렌즈 케이스도 흰색이 됩니다.</MR_Settings_SkinColorPristineDesc>
+  <!--English=Natural skin color-->
+  <MR_Settings_SkinColorNatural>자연 피부색</MR_Settings_SkinColorNatural>
+  <!--English=The centipede&apos;s shell and a pikeman&apos;s lens casing take the pawn&apos;s own skin color.-->
+  <MR_Settings_SkinColorNaturalDesc>센티피드 외피와 파이크맨의 렌즈 케이스가 폰의 피부색을 띱니다.</MR_Settings_SkinColorNaturalDesc>
+  <!--English=Implants-->
+  <MR_Settings_Implants>이식물</MR_Settings_Implants>
+  <!--English=Changes here take effect after restarting the game.-->
+  <MR_Settings_ImplantsRestart>변경 사항은 게임을 재시작한 뒤 적용됩니다.</MR_Settings_ImplantsRestart>
+  <!--English=Restart the game to apply these changes.-->
+  <MR_Settings_ImplantsRestartNow>변경 사항을 적용하려면 게임을 재시작하세요.</MR_Settings_ImplantsRestartNow>
+  <!--English=Uncontrolled implant efficiency: {0}-->
+  <MR_Settings_UncontrolledEfficiency>제어되지 않은 이식물의 신체부위 능률: {0}</MR_Settings_UncontrolledEfficiency>
+  <!--English=How well an implant works while the neural link has no bandwidth to control it. 100% is a natural part.-->
+  <MR_Settings_UncontrolledEfficiencyDesc>뉴럴링크에 대역폭이 없어 제어되지 않는 이식물의 신체부위 능률입니다. 100%는 생체 장기와 같은 수준입니다.</MR_Settings_UncontrolledEfficiencyDesc>
+  <!--English=Controlled implant efficiency: {0}-->
+  <MR_Settings_ControlledEfficiency>제어 중인 이식물의 신체부위 능률: {0}</MR_Settings_ControlledEfficiency>
+  <!--English=How well an implant works once it is controlled. Skins, muscle layers and brains are not affected.-->
+  <MR_Settings_ControlledEfficiencyDesc>제어 중인 이식물의 신체부위 능률입니다. 피부, 근육, 뇌에는 영향을 주지 않습니다.</MR_Settings_ControlledEfficiencyDesc>
+  <!--English=Mechanoid corpses per implant: {0} ({1} for worker mechs)-->
+  <MR_Settings_Corpses>이식물당 메카노이드 시체: {0} (작업 메카노이드는 {1})</MR_Settings_Corpses>
+  <!--English=How many corpses of the source mech each mechanoid recycler bill takes. Worker mechs always take twice as many.-->
+  <MR_Settings_CorpsesDesc>메카노이드 재활용기의 조립마다 필요한 원본 메카노이드 시체 수입니다. 작업 메카노이드는 항상 두 배가 필요합니다.</MR_Settings_CorpsesDesc>
+  <!--English=Components per implant: {0}-->
+  <MR_Settings_Components>이식물당 부품: {0}</MR_Settings_Components>
+  <!--English=Industrial components each mechanoid recycler bill takes, and what smelting an implant gives back. The neural link and sublinks are not affected.-->
+  <MR_Settings_ComponentsDesc>메카노이드 재활용기의 조립마다 필요한 부품 수와 이식물 분해 시 회수되는 부품 수입니다. 뉴럴링크과 서브링크에는 영향을 주지 않습니다.</MR_Settings_ComponentsDesc>
+  <!--English=Plasteel per implant: {0}-->
+  <MR_Settings_Plasteel>이식물당 플라스틸: {0}</MR_Settings_Plasteel>
+  <!--English=Plasteel each mechanoid recycler bill takes, and what smelting an implant gives back. The neural link and sublinks are not affected.-->
+  <MR_Settings_PlasteelDesc>메카노이드 재활용기의 조립마다 필요한 플라스틸 수와 이식물 분해 시 회수되는 플라스틸 수입니다. 뉴럴링크과 서브링크에는 영향을 주지 않습니다.</MR_Settings_PlasteelDesc>
+  <!--English=Reset implant settings to defaults-->
+  <MR_Settings_ImplantsReset>이식물 설정을 기본값으로 초기화</MR_Settings_ImplantsReset>
+  <!--English=Trade-->
+  <MR_Settings_Trade>거래</MR_Settings_Trade>
+  <!--English=No trade-->
+  <MR_Settings_TradeNone>거래 불가</MR_Settings_TradeNone>
+  <!--English=Traders don&apos;t buy or sell implants. You get them only from the mechanoid recycler or chimera remains.-->
+  <MR_Settings_TradeNoneDesc>상인이 이식물을 구매하거나 판매하지 않습니다. 이식물은 메카노이드 재활용기나 키메라 잔해에서만 얻을 수 있습니다.</MR_Settings_TradeNoneDesc>
+  <!--English=Traders buy implants-->
+  <MR_Settings_TradeBuy>상인이 이식물 구매</MR_Settings_TradeBuy>
+  <!--English=Traders buy implants for {0} of the price, but don&apos;t sell them.-->
+  <MR_Settings_TradeBuyDesc>상인이 시장 가치의 {0} 가격으로 이식물을 구매하지만, 판매하지는 않습니다.</MR_Settings_TradeBuyDesc>
+  <!--English=Traders sell implants-->
+  <MR_Settings_TradeSell>상인이 이식물 판매</MR_Settings_TradeSell>
+  <!--English=Traders sell implants, but don&apos;t buy them. New stock shows up after traders restock.-->
+  <MR_Settings_TradeSellDesc>상인이 이식물을 판매하지만, 구매하지는 않습니다. 상인의 재고가 보충되면 새로운 상품이 추가됩니다.</MR_Settings_TradeSellDesc>
+  <!--English=Traders buy and sell implants-->
+  <MR_Settings_TradeBoth>상인이 이식물 매매</MR_Settings_TradeBoth>
+  <!--English=Traders sell implants and buy them for {0} of the price. New stock shows up after traders restock.-->
+  <MR_Settings_TradeBothDesc>상인이 이식물을 판매하며, 시장 가치의 {0} 가격으로 이식물을 구매합니다. 상인의 재고가 보충되면 새로운 상품이 추가됩니다.</MR_Settings_TradeBothDesc>
+  <!--English=Allow implants without dependency (drops and traders)-->
+  <MR_Settings_AllowMissingModImplants>종속성 없는 이식물 허용(전리품 및 상인)</MR_Settings_AllowMissingModImplants>
+  <!--English=For parts from mods or DLCs you don&apos;t have. On: chimera remains can drop them, and traders can sell them. Off: only chimeras carry them. Any you get can still be installed.-->
+  <MR_Settings_AllowMissingModImplantsDesc>보유하지 않은 모드나 DLC에 속한 메카노이드 이식물에 적용됩니다. 켬: 키메라 잔해에서 해당 이식물들이 나오며 상인이 판매할 수도 있습니다. 끔: 키메라만 해당 이식물을 가지고 있습니다. 어떤 방식으로든 획득한 이식물은 정상적으로 설치할 수 있습니다.</MR_Settings_AllowMissingModImplantsDesc>
+  <!--English=Chimera escort: {BOSS_labelShort}-->
+  <MR_ChimeraBossRaidLabel>키메라 호위: {BOSS_labelShort}</MR_ChimeraBossRaidLabel>
+  <!--English={BOSS_indefinite} is coming, escorted by chimeras of {FACTION} and a few mechanoids.\n\nThey will guard it with their lives. If it falls, they will attack without restraint.-->
+  <MR_ChimeraBossRaidText>{BOSS_indefinite}(이)가 {FACTION}의 키메라들과 소수의 메카노이드의 호위를 받으며 접근하고 있습니다.\n\n이들은 {BOSS_indefinite}(을)를 지키기 위해 목숨을 바칠 것입니다. {BOSS_indefinite}(이)가 쓰러진다면 가차 없이 공격할 것입니다.</MR_ChimeraBossRaidText>
+  <!--English=The boss has fallen: the chimeras attack!-->
+  <MR_ChimeraBossFallen>키메라들의 호위 대상이 쓰러졌습니다. 키메라들이 공격합니다!</MR_ChimeraBossFallen>
+  <!--English=Chimera siege-->
+  <MR_ChimeraSiegeLabel>키메라 습격</MR_ChimeraSiegeLabel>
+  <!--English=Chimeras of {FACTION} have dropped a siege camp: {MORTARS} mechanoid auto mortars and some defenses.\n\nThe mortars are dormant, but in about a day they will wake and start shelling your colony. The chimeras guard them, and will attack if provoked or once the mortars are destroyed.-->
+  <MR_ChimeraSiegeText>{FACTION}의 키메라들이 공성 진지를 구축했습니다. 메카노이드 자동 박격포 {MORTARS}문과 방어 시설이 배치되어 있습니다.\n\n박격포는 아직 휴면 상태지만, 하루 정도가 지나면 활성화되어 정착지를 포격하기 시작합니다. 키메라들은 박격포를 지키며, 도발을 받거나 박격포가 파괴되면 공격할 것입니다.</MR_ChimeraSiegeText>
+  <!--English=The siege chimeras attack!-->
+  <MR_ChimeraSiegeAttack>키메라들이 공격합니다!</MR_ChimeraSiegeAttack>
+  <!--English=Chimera suicide wave-->
+  <MR_ChimeraSuicideWaveLabel>키메라 습격</MR_ChimeraSuicideWaveLabel>
+  <!--English={COUNT} chimeras of {FACTION} are coming in scattered along the edge of the map, lightly armored and running for your base.\n\nEach carries a dead man&apos;s switch: it explodes five seconds after it dies, wherever it falls. Kill them before they reach your turrets, workbenches and walls.-->
+  <MR_ChimeraSuicideWaveText>{FACTION}의 키메라 {COUNT}기가 지도 가장자리에 흩어져 나타나, 가벼운 갑옷만 걸친 채 정착지를 향해 달려오고 있습니다.\n\n각 키메라는 데드맨 스위치를 가지고 있어 죽는 순간 그 자리에서 5초 뒤에 폭발합니다. 포탑과 작업대, 벽에 도달하기 전에 처치하세요.</MR_ChimeraSuicideWaveText>
+  <!--English=The mechhive has calculated {PAWN_nameDef} to be a threat and released a command to eliminate the target.-->
+  <MR_ChimeraAssassinationMark>메카노이드 군락은 {PAWN_nameDef}(을)를 위협으로 판단하고 제거 명령을 내렸습니다.</MR_ChimeraAssassinationMark>
+  <!--English=The chimeras can&apos;t reach {PAWN_nameDef}. They attack whatever is in reach while they wait.-->
+  <MR_ChimeraAssassinationOutOfReach>키메라들이 {PAWN_nameDef}에게 도달할 수 없습니다. 기다리는 동안 사정거리 안의 대상을 공격합니다.</MR_ChimeraAssassinationOutOfReach>
+  <!--English={PAWN_nameDef} is in reach again. The chimeras rush for the target!-->
+  <MR_ChimeraAssassinationAppeared>{PAWN_nameDef}(이)가 다시 사정거리 안에 들어왔습니다. 키메라들이 제거 대상을 향해 돌진합니다!</MR_ChimeraAssassinationAppeared>
+  <!--English=The chimeras&apos; target is dead. They turn on the colony.-->
+  <MR_ChimeraAssassinationDone>키메라들의 제거 대상이 사망했습니다. 이제 정착지를 공격합니다.</MR_ChimeraAssassinationDone>
+  <!--English=Scavenged {0}-->
+  <MR_ChimeraRemainsScavenged>{0}(을)를 회수했습니다.</MR_ChimeraRemainsScavenged>
+  <!--English=Scavenged nothing from the chimera remains-->
+  <MR_ChimeraRemainsNothing>키메라 잔해에서 아무것도 회수하지 못했습니다.</MR_ChimeraRemainsNothing>
+  <!--English={PAWN_nameDef}&apos;s mechhive controller rejects {PAWN_possessive} new masters, and {PAWN_pronoun} will fight until destroyed.-->
+  <MR_ChimeraRejectsMaster>{PAWN_nameDef}의 메카노이드 군락 제어기가 {PAWN_possessive} 새로운 주인을 거부합니다. {PAWN_pronoun}(은)는 파괴될 때까지 싸울 것입니다.</MR_ChimeraRejectsMaster>
+  <!--English=Chimeras-->
+  <MR_Settings_ChimerasEnabled>키메라</MR_Settings_ChimerasEnabled>
+  <!--English=Mechanoid chimeras appear in the game. Turned off, none spawn anywhere and no mechanoid is replaced by one.-->
+  <MR_Settings_ChimerasEnabledDesc>메카노이드 키메라가 게임에 등장합니다. 끄면 어디에서도 생성되지 않으며, 메카노이드가 키메라로 대체되지도 않습니다.</MR_Settings_ChimerasEnabledDesc>
+  <!--English=Chance a mechanoid is a chimera instead: {0}-->
+  <MR_Settings_ChimeraSwap>메카노이드가 키메라로 대체될 확률: {0}</MR_Settings_ChimeraSwap>
+  <!--English=Each time the game picks a hostile mechanoid for a raid, mech cluster or ancient danger, this is the chance it picks a chimera instead and pays its cost from the same budget, so the group keeps its strength. Bosses and their escorts are never replaced.-->
+  <MR_Settings_ChimeraSwapDesc>게임에서 습격, 메카노이드 전초기지, 고대 위협에 적대적 메카노이드가 배치될 때 메카노이드 대신 키메라를 선택할 확률입니다. 키메라는 동일한 점수에서 비용를 차감하므로 전체적인 수준은 유지됩니다. 우두머리와 그 호위대는 대체되지 않습니다.</MR_Settings_ChimeraSwapDesc>
+  <!--English=Reset chimera settings to defaults-->
+  <MR_Settings_ChimerasReset>키메라 설정을 기본값으로 초기화</MR_Settings_ChimerasReset>
+  <!--English=Chance a big threat is a chimera attack: {0}-->
+  <MR_Settings_ChimeraThreats>대규모 위협이 키메라 공격일 확률: {0}</MR_Settings_ChimeraThreats>
+  <!--English=Each time the storyteller sends a big threat, this is the chance it is a chimera attack instead: a chimera raid, a breach raid, chimeras dropping all over the map, and more. Chimeras are meant to be rare: they leave nothing to recycle. The default is 1 in 6.-->
+  <MR_Settings_ChimeraThreatsDesc>이야기꾼이 대규모 위협을 보낼 때 키메라 공격으로 대체될 확률입니다. 키메라 습격, 돌파 습격, 지도 전역에 키메라가 낙하하는 사건 등이 포함됩니다. 키메라는 재활용할 자원을 남기지 않으므로 드물게 등장하도록 설계되었습니다. 기본값은 6분의 1입니다.</MR_Settings_ChimeraThreatsDesc>
+  <!--English=Chimera cost: x{0} (reaver {1}, gunner {2}, psycaster {3}, juggernaut {4}, shield bearer {5}, breacher {6}, suicider {7})-->
+  <MR_Settings_ChimeraCost>키메라 비용: x{0} (리버 {1}, 거너 {2}, 사이캐스터 {3}, 저거너트 {4}, 실드 베어러 {5}, 브리처 {6}, 수어사이더 {7})</MR_Settings_ChimeraCost>
+  <!--English=How many raid points each chimera costs. Cheaper chimeras come in larger numbers and from earlier on; dearer ones are fewer and later. 1 is the default, 0.5 half the cost.-->
+  <MR_Settings_ChimeraCostDesc>키메라 한 기당 소모되는 습격 점수입니다. 비용이 낮은 키메라는 더 많은 수가 더 이른 시점에 등장하고, 높은 키메라는 더 적은 수가 더 늦게 등장합니다. 기본값은 1이며 0.5로 설정하면 비용이 절반이 됩니다.</MR_Settings_ChimeraCostDesc>
+  <!--English=Scavenge gear chance: {0}-->
+  <MR_Settings_ChimeraScavenge>장비 회수 확률: {0}</MR_Settings_ChimeraScavenge>
+  <!--English=The chance that opening a chimera&apos;s remains yields one of the things it carried: one of its implants or a piece of its armour, as it was. The default is 5%.-->
+  <MR_Settings_ChimeraScavengeDesc>키메라 잔해를 열었을 때 지니고 있던 이식물이나 갑옷을 회수할 확률입니다. 기본값은 5%입니다.</MR_Settings_ChimeraScavengeDesc>
+  <!--English=Chimeras awaken after: {0} days-->
+  <MR_Settings_ChimeraAwaken>키메라 각성까지: {0}일</MR_Settings_ChimeraAwaken>
+  <!--English=Chimera attacks and quests begin only after a letter, &quot;Mechanical doll incident&quot;, which comes once this many days have passed. Before it, a chimera can still turn up now and then among mechanoids. The default is 30 days.-->
+  <MR_Settings_ChimeraAwakenDesc>키메라 공격과 임무는 설정한 날짜가 지난 뒤 발생하는 '기계 인형 사건' 편지 이후부터 시작됩니다. 그전에도 메카노이드 무리에서 가끔 키메라가 나타날 수 있습니다. 기본값은 30일입니다.</MR_Settings_ChimeraAwakenDesc>
+  <!--English=Mechanical doll incident-->
+  <MR_ChimeraAwakeningLabel>기계 인형 사건</MR_ChimeraAwakeningLabel>
+  <!--English=Strange news from a distant settlement of {FACTION_name}: mechanical humans have been spotted there, with uncanny expressions and robotic voices. What can it mean?-->
+  <MR_ChimeraAwakeningText>멀리있는 {FACTION_name}의 정착지에서 이상한 소식이 들려왔습니다. 그곳에서 기괴한 표정과 로봇 같은 목소리를 지닌 기계 인간들이 목격되었다고 합니다. 대체 무슨 일일까요?</MR_ChimeraAwakeningText>
+  <!--English=Strange news from a distant settlement: mechanical humans have been spotted there, with uncanny expressions and robotic voices. What can it mean?-->
+  <MR_ChimeraAwakeningTextNoFaction>멀리있는 정착지에서 이상한 소식이 들려왔습니다. 그곳에서 기괴한 표정과 로봇 같은 목소리를 지닌 기계 인간들이 목격되었다고 합니다. 대체 무슨 일일까요?</MR_ChimeraAwakeningTextNoFaction>
+  <!--English=Chimeras come from Mechanoid Repurposing. You can turn them off in the mod settings (Chimeras tab).-->
+  <MR_ChimeraAwakeningSettingsNote>키메라는 Mechanoid Repurposing 모드의 콘텐츠입니다. 모드 설정의 키메라 탭에서 비활성화할 수 있습니다.</MR_ChimeraAwakeningSettingsNote>
+  <!--English=Signal from the camp-->
+  <MR_EmptySettlementLetterLabel>야영지에서 온 신호</MR_EmptySettlementLetterLabel>
+  <!--English=A call for help went out from a camp of {FACTION_name} on an open frequency, then cut off midーsentence. The camp hasn&apos;t sent anything since, and nobody there answers. Someone will have to go and check in person.-->
+  <MR_EmptySettlementLetterText>{FACTION_name} 야영지에서 공개 주파수로 구조 요청이 들어왔지만, 문장이 끝나기도 전에 통신이 끊겼습니다. 그 후 야영지에서 아무런 연락도 오지 않으며, 응답도 없는 상태입니다. 누군가 직접 가서 상황을 확인해야 합니다.</MR_EmptySettlementLetterText>
+  <!--English=Chimeras appeared-->
+  <MR_EmptySettlementAmbushLabel>키메라 출현</MR_EmptySettlementAmbushLabel>
+  <!--English=Now we know why this settlement was abandoned. The chimeras of {FACTION} are coming for you next.-->
+  <MR_EmptySettlementAmbushText>이제 이 정착지가 버려진 이유를 알 것 같습니다. {FACTION}의 키메라들이 다가오고 있습니다.</MR_EmptySettlementAmbushText>
+  <!--English=Not enough bandwidth-->
+  <MR_AlertHivemindBandwidth>대역폭 부족</MR_AlertHivemindBandwidth>
+  <!--English=Some colonists don&apos;t have enough bandwidth to control their mechanoid parts.\n\nAffected:-->
+  <MR_AlertHivemindBandwidthDesc>일부 정착민이 이식된 메카노이드 이식물을 제어할 대역폭이 부족합니다.\n\n대상:</MR_AlertHivemindBandwidthDesc>
+  <!--English=Unruly implants-->
+  <MR_AlertHivemindUnruly>제어 불가 이식물</MR_AlertHivemindUnruly>
+  <!--English=Some colonists carry mechanoid parts that refuse to obey them. The only fix is to remove the unruly parts and install them again.\n\nAffected:-->
+  <MR_AlertHivemindUnrulyDesc>일부 정착민의 메카노이드 이식물이 제어 불가 상태입니다. 문제를 해결하려면 해당 이식물을 제거한 뒤 다시 설치해야 합니다.\n\n대상:</MR_AlertHivemindUnrulyDesc>
+  <!--English=Mechanoid influence-->
+  <MR_AlertHivemindInfluence>메카노이드의 영향</MR_AlertHivemindInfluence>
+  <!--English=Uncontrolled mechanoid implants are having a grim influence on some colonists. Act before something terrible happens.\n\nAffected:-->
+  <MR_AlertHivemindInfluenceDesc>제어되지 않은 메카노이드 이식물이 일부 정착민에게 음울한 영향을 미치고 있습니다. 끔찍한 일이 벌어지기 전에 조치를 취하세요.\n\n대상:</MR_AlertHivemindInfluenceDesc>
+  <!--English={PAWN_nameDef} swears {PAWN_pronoun} hears the hivemind giving {PAWN_objective} commands. Do something, and do it fast.-->
+  <MR_HivemindRedMessage>{PAWN_nameDef}(은)는 군락 의식이 {PAWN_pronoun}에게 명령하는 소리가 들린다고 주장합니다. 서둘러 조치를 취해야 합니다.</MR_HivemindRedMessage>
+  <!--English=Hivemind interference comes from Mechanoid Repurposing. You can turn it off in the mod settings (Events tab).-->
+  <MR_HivemindSettingsNote>군락 의식 간섭은 Mechanoid Repurposing 모드의 콘텐츠입니다. 모드 설정의 사건 탭에서 비활성화할 수 있습니다.</MR_HivemindSettingsNote>
+  <!--English=Started from the dev tools.-->
+  <MR_HivemindReasonDev>개발자 도구에서 시작됨.</MR_HivemindReasonDev>
+  <!--English=Colonist lost: {PAWN_nameDef}-->
+  <MR_HivemindLostLabel>정착민 실종: {PAWN_nameDef}</MR_HivemindLostLabel>
+  <!--English={PAWN_nameDef} has left the colony. Will {PAWN_pronoun} ever return?-->
+  <MR_HivemindLostText>{PAWN_nameDef}(이)가 정착지를 떠났습니다. {PAWN_pronoun}(은)는 다시 돌아올 수 있을까요?</MR_HivemindLostText>
+  <!--English=Missing colonist {PAWN_nameDef} has returned to the colony.-->
+  <MR_MissingColonistFound>실종되었던 정착민 {PAWN_nameDef}(이)가 정착지로 돌아왔습니다.</MR_MissingColonistFound>
+  <!--English=Missing colonist returns-->
+  <MR_MissingColonistReturnLabel>실종 정착민 귀환</MR_MissingColonistReturnLabel>
+  <!--English=Missing colonists return-->
+  <MR_MissingColonistsReturnLabel>실종 정착민들 귀환</MR_MissingColonistsReturnLabel>
+  <!--English=Hivemind interference-->
+  <MR_Settings_Hivemind>군락 의식 간섭</MR_Settings_Hivemind>
+  <!--English=Hivemind interference-->
+  <MR_Settings_HivemindEnabled>군락 의식 간섭</MR_Settings_HivemindEnabled>
+  <!--English=A colonist whose mechanoid parts are out of control (not enough bandwidth, no neural link, or unruly parts) falls under the hive&apos;s influence. After 5 days, the next major mental break walks the colonist off the map, and later back as a chimera in a chimera attack. Turned off, uncontrolled parts only cost their bonuses.-->
+  <MR_Settings_HivemindEnabledDesc>메카노이드 이식물을 제어할 수 없는 정착민(대역폭 부족, 뉴럴링크 부재 또는 제어 불가 이식물)은 군락의 영향에 빠집니다. 5일이 지나고 다음 심각한 정신이상이 발생하면 해당 정착민은 걸어서 지도 밖으로 떠나며, 나중에 키메라 공격 중 키메라로 변해 돌아옵니다. 이 설정을 끄면 제어되지 않는 이식물은 추가 효과만 제공하지 않게 됩니다.</MR_Settings_HivemindEnabledDesc>
+  <!--English=Brain implant breaks-->
+  <MR_Settings_MechanicalBrainBreak>뇌 이식물 정신이상</MR_Settings_MechanicalBrainBreak>
+  <!--English=A colonist with a mechanoid brain implant (an apocriton&apos;s pathways, a legate&apos;s database and the like), controlled or not, may answer the hive on an extreme mental break, like giving up and leaving or running wild: hivemind interference walks the colonist off the map, and later back as a chimera.-->
+  <MR_Settings_MechanicalBrainBreakDesc>아포크리톤 신경 경로, 레게이트 전략실 등 메카노이드 뇌 이식물을 가진 정착민은 해당 이식물의 제어 여부와 관계없이 극심한 정신이상을 겪을 때 군락의 부름에 응답할 수 있습니다. 예를 들어 탈주하거나 야생화 될 때 군락 의식의 간섭으로 걸어서 지도 밖으로 떠나며, 나중에 키메라로 변해 돌아옵니다.</MR_Settings_MechanicalBrainBreakDesc>
+  <!--English=Affects: {IMPLANT}-->
+  <MR_RebellionAffects>영향: {IMPLANT}</MR_RebellionAffects>
+  <!--English=The mechanoid rebellion in {PAWN_nameDef} has spread to {PAWN_possessive} {IMPLANT}.-->
+  <MR_RebellionSpread>{PAWN_nameDef}에게서 발생한 메카노이드 반란이 {PAWN_possessive} {IMPLANT}(으)로 확산되었습니다.</MR_RebellionSpread>
+  <!--English=The mechanoid rebellion in {PAWN_nameDef}&apos;s {IMPLANT} has burned out. The part is unruly now: only removing and reinstalling it will reset it.-->
+  <MR_RebellionBecameUnruly>{PAWN_nameDef}의 {IMPLANT}에서 발생한 메카노이드 반란이 소진되었습니다. 이제 해당 이식물은 제어 불가 상태이며, 초기화하려면 제거한 뒤 다시 이식해야만 합니다.</MR_RebellionBecameUnruly>
+  <!--English={PAWN_nameDef}&apos;s mechanoid bionics are stabilized and back under control.-->
+  <MR_StabilizeCycleDone>{PAWN_nameDef}의 메카노이드 이식물이 안정화되어 다시 제어 상태로 돌아왔습니다.</MR_StabilizeCycleDone>
+  <!--English={PAWN_nameDef}&apos;s mechanoid bionics had nothing to stabilize.-->
+  <MR_StabilizeCycleNothing>{PAWN_nameDef}의 메카노이드 이식물에는 안정화할 대상이 없습니다.</MR_StabilizeCycleNothing>
+  <!--English=Mechanoid rebellion-->
+  <MR_Settings_Rebellion>메카노이드 반란</MR_Settings_Rebellion>
+  <!--English=Enable the event-->
+  <MR_Settings_RebellionEnabled>사건 활성화</MR_Settings_RebellionEnabled>
+  <!--English=A converted colonist&apos;s mechanoid part rebels and becomes uncontrollable. Left alone it spreads to other parts or burns out for good.-->
+  <MR_Settings_RebellionEnabledDesc>메카노이드화된 정착민의 메카노이드 이식물이 반란을 일으켜 제어할 수 없는 상태가 됩니다. 방치하면 다른 이식물로 확산되거나 영구적으로 기능을 상실하게 됩니다.</MR_Settings_RebellionEnabledDesc>
+</LanguageData>
