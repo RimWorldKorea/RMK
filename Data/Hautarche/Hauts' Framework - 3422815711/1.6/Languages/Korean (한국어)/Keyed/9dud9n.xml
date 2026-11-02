@@ -130,6 +130,10 @@
   <Hauts_GotInspiredOnHit>{0}(이)가 {1}의 적중 시 효과로 영감을 얻었습니다.</Hauts_GotInspiredOnHit>
   <!--English=The {0} onーhit effect is responsible.-->
   <Hauts_GotMBOnHit>The {0} on-hit effect is responsible.</Hauts_GotMBOnHit>
+  <!--English={0}% of {1}% psyfocus spent to trigger-->
+  <Hauts_PsyfocusSpentTrackerTooltip>{0}% of {1}% psyfocus spent to trigger</Hauts_PsyfocusSpentTrackerTooltip>
+  <!--English={0}% of {1}% mana spent to trigger-->
+  <Hauts_PsyfocusSpentTrackerTooltipFantasy>{0}% of {1}% mana spent to trigger</Hauts_PsyfocusSpentTrackerTooltipFantasy>
   <!--English={0}s to recharge-->
   <Hauts_ShieldRecharge>{0}s to recharge</Hauts_ShieldRecharge>
   <!--English=Grants {0} {1} xp per day-->
@@ -142,6 +146,8 @@
   <Hauts_StatWorkerLackOfFactor>x (1 - {0}), min {1}</Hauts_StatWorkerLackOfFactor>
   <!--English=Is invisible: minimum {0}-->
   <Hauts_StatWorkerIsInvisible>Is invisible: minimum {0}</Hauts_StatWorkerIsInvisible>
+  <!--English={0} of currently operated facility-->
+  <Hauts_StatWorkerAffectedByStatOfCurTarget>{0} of currently operated facility</Hauts_StatWorkerAffectedByStatOfCurTarget>
   <!--English=\n{0}/{1} charge-->
   <Hauts_TilNextSpawn>\n{0}/{1} 충전</Hauts_TilNextSpawn>
   <!--English=\n{0} hours to next spawn-->
@@ -262,26 +268,30 @@
   <HVT_TooltipMinTraits>특히 특이한 상황 외에는 폰이 생성될 때 가지는 특성 수의 최소값입니다.\n\n성장의 순간(바이오테크 DLC)을 겪을 수 있는 어린 폰은 영향을 받지 않습니다.</HVT_TooltipMinTraits>
   <!--English=Maximum traits per pawn-->
   <HVT_SettingMaxTraits>폰당 최대 특성 수</HVT_SettingMaxTraits>
-  <!--English=Pawns will be able to spawn with up to this many traits, except in rare circumstances that force additional traits.\n\n\nWith the Biotech DLC, the number and spacing of growth moments for children adjusts as follows:
-\nー3 max traits) Growth moments happen on the 7th, 10th, and 13th birthdays; growth points gain at the usual rate (25% slower for the first one, then at 1x speed).
-\nー4mt) Moments on bdays 6, 9, 11, 13; growth points gain 50% faster for the last two.
-\nー5mt) Moments on bdays 5, 7, 9, 11, 13; points gain 50% faster.
-\nー6mt) Identical to 3mt, but there are two moments per bday.
-\nー7mt) One moment on bday 6; two on bdays 9, 11, 13; points gain 50% faster for the last two.
-\nー8mt) Two moments each on bdays 6, 9, 11, 13; points gain 50% faster for the last two.
-\nー9mt) Identical to 3mt, but there are three moments per bday.
-\nー10mt) Two moments on bdays 5, 7, 9, 11, 13; points gain 50% faster.
-\nー11mt) Two moments on bday 6; three on bdays 9, 11, 13; points gain 50% faster for the last two.
-\nー12mt) Three moments on bdays 6, 9, 11, 13; points gain 50% faster for the last two.-->
-  <HVT_TooltipMaxTraits>추가 특성을 강제하는 드문 상황을 제외하고 폰이 생성될 때 가지는 특성 수의 최대값입니다.\n\n\n비이오테크 DLC를 사용하면 어린이의 성장의 순간 수와 간격이 다음과 같이 조정됩니다:
-\n-최대 특성 수 3) 성장의 순간이 7, 10, 13살에 발생; 성장 등급은 보통 속도로 증가(첫 번째는 25% 느리게, 다음은 1배 속도)
-\n-4) 성장의 순간이 6, 9, 11, 13살에 발생; 마지막 두 번의 성장의 순간에는 성장 등급 50% 빠르게 획득
-\n-5) 성장의 순간이 5, 7, 9, 11, 13살에 발생; 성장 등급 50% 빠르게 획득
-\n-6) 특성 수 3과 동일하지만 생일마다 성장의 순간 두 번 발생
-\n-7) 6살에 성장의 순간 한 번, 9, 11, 13살에 성장의 순간 두 번 발생; 마지막 두 번의 성장의 순간에는 성장 등급 50% 빠르게 획득
-\n-8) 6, 9, 11, 13살에 성장의 순간 두 번 발생; 마지막 두 번의 성장의 순간에는 성장 등급 50% 빠르게 획득
-\n-9) 특성 수 3과 동일하지만 생일마다 성장의 순간 세 번 발생
-\n-10) 5, 7, 9, 11, 13살에 성장의 순간 두 번 발생; 성장 등급 50% 빠르게 획득
-\n-11) 6살에 성장의 순간 두 번, 9, 11, 13살에 성장의 순간 세 번 발생; 마지막 두 번의 성장의 순간에는 성장 등급 50% 빠르게 획득
-\n-12) 6, 9, 11, 13살에 성장의 순간 세 번 발생; 마지막 두 번의 성장의 순간에는 성장 등급 50% 빠르게 획득</HVT_TooltipMaxTraits>
+  <!--English=Pawns will be able to spawn with up to this many traits, except in rare circumstances that force additional traits.\n\n\nWith the Biotech DLC, children gain &apos;bonus&apos; growth moments (BGMs) on their growth birthdays to enable them to reach the maximum trait count:
+\nー3 max traits) 0/0/0 BGMs on the first/second/third growth bday, respectively.
+\nー4mt) 0/0/1
+\nー5mt) 0/1/1
+\nー6mt) 1/1/1
+\nー7mt) 1/1/2
+\nー8mt) 1/2/2
+\nー9mt) 2/2/2
+\nー10mt) 2/2/3
+\nー11mt) 2/3/3
+\nー12mt) 3/3/3
+\nThese bonus growth moments only grant a trait, not any skill passions.
+\nThis system assumes that the pawn has at least three growth birthdays. If a pawn has fewer growth moments due to some strange other mod, they won&apos;t have the opportunity to get as many bonus growth moments.-->
+  <HVT_TooltipMaxTraits>추가 특성을 강제하는 드문 상황을 제외하고 폰이 생성될 때 가지는 특성 수의 최대값입니다.\n\n\n비이오테크 DLC를 사용하면 어린이의 성장의 순간에 '보너스' 성장의 순간이 발생하며, 이를 통해 최대 특성 수까지 특성을 얻을 수 있습니다:
+\n-최대 특성 수 3) 0/0/0 각각 첫 번째/두 번쨰/세 번째 성장의 순간에 보너스 성장의 순간이 발생합니다.
+\n-4) 0/0/1
+\n-5) 0/1/1
+\n-6) 1/1/1
+\n-7) 1/1/2
+\n-8) 1/2/2
+\n-9) 2/2/2
+\n-10) 2/2/3
+\n-11) 2/3/3
+\n-12) 3/3/3
+\n보너스 성장의 순간은 특성만 부여하며 기술 열정은 부여하지 않습니다.
+\n이 시스템은 폰이 최소 세 번의 성장의 순간을 거친다고 가정합니다. 다른 모드로 인해 폰이 거치는 성장의 순간 단계가 더 적다면, 그만큼 보너스 성장의 순간을 얻을 기회를 갖지 못하게 됩니다.</HVT_TooltipMaxTraits>
 </LanguageData>
