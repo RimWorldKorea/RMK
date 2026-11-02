@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Insectoids 2</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="VFEI2_Nullipede"]/description</xpath>
+          <value>
+            <description>외계 계통의 매우 희귀하고 엄청나게 큰 곤충입니다. 널리피드는 우주의 혹독한 진공 환경에 완벽하게 적응한 거대한 곤충형 괴수입니다. 엄청난 세포 재생 능력을 가지고 있어 치명적인 상처를 순식간에 봉합하고 피해를 거의 즉각 수복할 수 있습니다. 불에 직접 노출될 경우 생체 수복 시스템이 완전 정지합니다. 막강한 회복력으로 인해 우주에서는 공포스러운 불사신과 같은 존재로 여겨지며, 많은 탐험가들이 우주로 나가지 않고 행성에 머물게 만드는 주된 이유이기도 합니다. 널리피드가 죽으면 몸에서 외계 페로코어를 추출할 수 있습니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="SignalJammer"]/description</xpath>
+    <value>
+      <description>중력부양선의 전자기 신호를 위장해, 방어가 삼엄한 착륙 지점에 접근할 수 있게 해주는 신호 방출기입니다. 작동하는 동안 중력부양선의 에너지 신호를 효율적으로 감춰 감지될 확률을 낮춰 줍니다. 또한 방어 병력이 있는 곳에 도착했을 때 적 중력부양선 포탑을 12시간 동안 마비시키고 임박한 감지 이벤트를 24시간 동안 지연시킬 수 있어 전술적으로도 매우 유용합니다.</description>
+    </value>
+  </Operation>
+</Patch>
