@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Wolfein_HospitalityRefugee.questDescriptionRules.rulesStrings>
+    <li>offer(lodgerCount==1)-&gt;</li>
+    <li>offer(lodgerCount&gt;=2)-&gt;</li>
+    <li>lodgersPronoun(lodgerCount==1)-&gt;[asker_pronoun]</li>
+    <li>lodgersPronoun(lodgerCount&gt;=2)-&gt;그들</li>
+    <li>lodgersPreposition(lodgerCount==1)-&gt;[asker_pronoun]</li>
+    <li>lodgersPreposition(lodgerCount&gt;=2)-&gt;이들</li>
+    <li>lodgersObjective(lodgerCount==1)-&gt;</li>
+    <li>lodgersObjective(lodgerCount&gt;=2)-&gt;</li>
+    <li>lodgersPossessive(lodgerCount==1)-&gt;</li>
+    <li>lodgersPossessive(lodgerCount&gt;=2)-&gt;</li>
+    <li>lodgersSingularOrPluralDef(lodgerCount==1)-&gt;[asker_nameDef]</li>
+    <li>lodgersSingularOrPluralDef(lodgerCount&gt;=2)-&gt;[lodgersLabelPlural]</li>
+    <li>questDescription-&gt;[approachInfo] [claimInfo] [asker_nameDef](은)는 휴식과 재충전을 위해 [questDurationTicks_duration] 동안 [map_definite]에 머무를 것을 요청했습니다.\n\n[lodgersPronoun](은)는 체류 대가로 보수를 받지 않고도 함께 일하며 싸워줄 것을 약속했습니다.\n\n[joinInfo] 합류하지 않더라도 받은 도움에 대해서는 보답할지도 모릅니다. 하지만 [lodgersPronoun]의 진정한 의도를 알 방법은 없습니다.\n\n[travelerInfo](은)는 어떠한 세력에도 소속되어 있지 않습니다. [lodgersPronoun](을)를 체포 및 팔거나, 장기를 수확 또는 죽이더라도 외교적 불이익은 없습니다.</li>
+    <li>approachInfo(lodgerCount==1)-&gt;[asker_nameDef](이)라는 이름의 절박한 [faction_pawnSingular](이)가 접근하고 있습니다.</li>
+    <li>approachInfo(lodgerCount==2)-&gt;절박한 [asker_nameDef](와)과 [faction_pawnSingular](이)가 접근하고 있습니다.</li>
+    <li>approachInfo(lodgerCount==2,childCount==1,priority=1)-&gt;[asker_nameDef](이)가 어린 아이를 데리고 접근하고 있습니다.</li>
+    <li>approachInfo(lodgerCount&gt;=3)-&gt;[lodgerCount]명의 절박한 [faction_pawnsPlural](이)가 접근하고 있습니다. 그들의 지도자는 [asker_nameDef]입니다.</li>
+    <li>approachInfo(lodgerCount&gt;=3,childCount==1,priority=1)-&gt;[lodgerCount]명의 절박한 [faction_pawnsPlural](이)가 접근하고 있습니다. 어린 아이도 데리고 있습니다. 그들의 지도자는 [asker_nameDef]입니다.</li>
+    <li>approachInfo(lodgerCount&gt;=3,childCount&gt;=2,priority=1)-&gt;[lodgerCount]명의 절박한 [faction_pawnsPlural](이)가 접근하고 있습니다. 어린 아이들도 데리고 있습니다. 그들의 지도자는 [asker_nameDef]입니다.</li>
+    <li>approachInfo(lodgerCount&gt;=3,allButOneChildren==true,priority=2)-&gt;[lodgerCount]명의 [faction_pawnsPlural](으)로 구성된 무리가 접근하고 있습니다. 이 무리의 유일한 성인은 [asker_nameDef](이)고, 나머지 [lodgersCountMinusOne]명은 모두 어린 아이들입니다.</li>
+    <li>claimInfo(lodgerCount==1)-&gt;[asker_pronoun](은)는 최근 받은 공격 때문에 자신의 집이 파괴됐다고 주장합니다.</li>
+    <li>claimInfo(lodgerCount==1)-&gt;[asker_pronoun](은)는 자신이 막 동면에서 깨어났고, 아는 사람은 한 명도 없다고 주장합니다.</li>
+    <li>claimInfo(lodgerCount==1)-&gt;[asker_pronoun](은)는 복수심에 찬 전 애인이 자신을 집에서 쫓아냈다고 주장합니다.</li>
+    <li>claimInfo(lodgerCount==1)-&gt;[asker_pronoun](은)는 마을의 지도자와 언쟁을 벌인 후 추방당했다고 주장합니다.</li>
+    <li>claimInfo(lodgerCount&gt;=2)-&gt;이들은 최근에 공격을 받아 머물 곳이 파괴됐다고 주장합니다.</li>
+    <li>claimInfo(lodgerCount&gt;=2)-&gt;이들은 장기를 수확당하기 전에 도망친 거라고 주장합니다.</li>
+    <li>claimInfo(lodgerCount&gt;=2)-&gt;이들은 노예상에게서 도망친 거라고 주장합니다.</li>
+    <li>claimInfo(lodgerCount&gt;=2)-&gt;이들은 극심한 병충해 때문에 고향에서 도망칠 수밖에 없었다고 주장합니다.</li>
+    <li>claimInfo(lodgerCount&gt;=2)-&gt;이들은 강렬한 섬광폭풍이 집을 모두 불태웠다고 주장합니다.</li>
+    <li>claimInfo(lodgerCount&gt;=2)-&gt;이들은 습격자들이 몸만 빼고 모두 다 가져가버렸다고 주장합니다.</li>
+    <li>claimInfo(lodgerCount&gt;=2)-&gt;이들은 마을에서 있었던 도덕적 논쟁 때문에 추방당했다고 주장합니다.</li>
+    <li>joinInfo(lodgerCount==1)-&gt;[asker_pronoun]의 기분을 높게 유지하면 정착지 합류 의사를 밝힐 수도 있습니다.</li>
+    <li>joinInfo(lodgerCount&gt;=2)-&gt;이들의 기분을 높게 유지하면 일부 사람들이 정착지 합류 의사를 밝힐 수도 있습니다.</li>
+    <li>travelerInfo(lodgerCount==1)-&gt;[faction_pawnSingular]</li>
+    <li>travelerInfo(lodgerCount&gt;=2)-&gt;[faction_pawnsPlural]</li>
+  </Wolfein_HospitalityRefugee.questDescriptionRules.rulesStrings>
+</LanguageData>
