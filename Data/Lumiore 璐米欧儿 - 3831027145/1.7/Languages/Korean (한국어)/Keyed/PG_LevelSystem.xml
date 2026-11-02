@@ -1,0 +1,432 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <PG_ChurchShadowTimeRemaining>소멸까지 남은 시간: {0}</PG_ChurchShadowTimeRemaining>
+  <PG_WingCombatTool>날개</PG_WingCombatTool>
+  <PG_LevelGizmoTitle>레벨: {0}</PG_LevelGizmoTitle>
+  <PG_LevelExperience>{0} / {1}</PG_LevelExperience>
+  <PG_LevelMax>최고 레벨</PG_LevelMax>
+  <PG_LevelTooltip>레벨: {0} / {1}
+경험치: {2} / {3}
+
+하루가 끝날 때마다 경험치 1을 얻고, 혈육이 있는 생물을 처치할 때마다 경험치 1을 얻습니다. 필요한 경험치를 모으면 자동으로 레벨이 오릅니다.</PG_LevelTooltip>
+  <PG_LevelTooltipMax>레벨: {0} / {1}
+최고 레벨에 도달했습니다.</PG_LevelTooltipMax>
+  <PG_LevelUpMessage>{0}의 레벨이 {1}로 올랐습니다.</PG_LevelUpMessage>
+  <PG_DevResetLevel>레벨 초기화</PG_DevResetLevel>
+  <PG_DevResetLevelDesc>개발자 디버그: 레벨과 현재 경험치를 0으로 초기화합니다.</PG_DevResetLevelDesc>
+  <PG_DevLevelUp>레벨 +1</PG_DevLevelUp>
+  <PG_DevLevelUpDesc>개발자 디버그: 즉시 레벨을 1 올리고 현재 경험치를 초기화합니다.</PG_DevLevelUpDesc>
+  <PG_LevelAlreadyMax>이미 최고 레벨에 도달했습니다.</PG_LevelAlreadyMax>
+  <PG_LevelStatSource>과거의 힘 ({0}레벨)</PG_LevelStatSource>
+  <PG_PiercingSweepRequiresLevel>황금 용 레벨 1이 필요합니다.</PG_PiercingSweepRequiresLevel>
+  <PG_PiercingSweepUnavailable>현재 관통 휩쓸기를 사용할 수 없습니다.</PG_PiercingSweepUnavailable>
+  <PG_PiercingSweepInProgress>아직 관통 휩쓸기가 끝나지 않았습니다.</PG_PiercingSweepInProgress>
+  <PG_PiercingSweepInvalidTarget>시전자 자신의 칸이 아닌 유효한 칸을 선택해야 합니다.</PG_PiercingSweepInvalidTarget>
+  <PG_WingShieldTitle>날개 방패</PG_WingShieldTitle>
+  <PG_WingShieldValue>{0} / {1}</PG_WingShieldValue>
+  <PG_WingShieldOn>켜기</PG_WingShieldOn>
+  <PG_WingShieldOff>끄기</PG_WingShieldOff>
+  <PG_WingShieldActivating>날개 방패: 활성화 중</PG_WingShieldActivating>
+  <PG_WingShieldDeactivating>날개 방패: 비활성화 중</PG_WingShieldDeactivating>
+  <PG_WingShieldCooldown>날개 방패 재사용 대기시간: {0}초</PG_WingShieldCooldown>
+  <PG_WingShieldCastingProgress>{0}%</PG_WingShieldCastingProgress>
+  <PG_WingShieldNoCharge>날개 방패에 남은 보호량이 없습니다.</PG_WingShieldNoCharge>
+  <PG_WingShieldRequiresLevel>황금 용 레벨 2가 필요합니다.</PG_WingShieldRequiresLevel>
+  <PG_WingShieldTooltip>날개 방패: {0} / {1}
+상태: {2}
+
+날개를 펼쳐 회복한 힘으로 날개 표면을 뒤덮습니다. 날개 방패는 보호량을 소모해 공격을 막고, 활성화 중에는 이동 속도가 50% 감소합니다.
+
+&lt;color=#C79A3B&gt;&lt;i&gt;날개를 펼친 자리에는 위험이 더 이상 한 걸음도 들어서지 못하리라.&lt;/i&gt;&lt;/color&gt;</PG_WingShieldTooltip>
+  <PG_DevFillWingShield>날개 방패 충전</PG_DevFillWingShield>
+  <PG_DevFillWingShieldDesc>개발자 디버그: 방패가 파괴된 후의 재사용 대기시간을 지우고 보호량을 현재 최대치까지 채웁니다. 날개 방패가 자동으로 켜지지는 않습니다.</PG_DevFillWingShieldDesc>
+  <PG_TarotRequiresLevel>해당 일기 장을 먼저 완료해야 합니다.</PG_TarotRequiresLevel>
+  <PG_TarotNoCards>현재 메인 스토리 진행도에서 뽑을 수 있는 타로 카드가 없습니다.</PG_TarotNoCards>
+  <PG_TarotDrawn>{0}이(가) {1}을(를) 뽑았습니다.</PG_TarotDrawn>
+  <PG_TarotDraw_Fool>광대여! 무지한 자는 결핍을 두려워하지 않으니, 우연이 모여 부를 이루리라.</PG_TarotDraw_Fool>
+  <PG_TarotDraw_Magician>마법사여! 의지를 매개로 삼아 만물이 손안에서 새로운 형태를 얻으리라.</PG_TarotDraw_Magician>
+  <PG_TarotDraw_HighPriestess>여사제여! 침묵 속에서 계시를 듣고 장막 뒤에 잠든 의지를 깨우라.</PG_TarotDraw_HighPriestess>
+  <PG_TarotDraw_Empress>여황제여! 비옥한 땅에서 만물을 싹틔우고, 풍년이 봄빛에 부끄럽지 않게 하라.</PG_TarotDraw_Empress>
+  <PG_TarotDraw_Emperor>황제여! 왕좌로 만인의 마음을 모으고 칙령으로 공적을 판가름하라.</PG_TarotDraw_Emperor>
+  <PG_TarotDraw_Hierophant>교황이여! 한 사람의 깨달음이 모두의 계시가 되게 하라.</PG_TarotDraw_Hierophant>
+  <PG_TarotDraw_Lovers>연인이여! 서로의 마음이 통하고 운명이 얽히게 하라.</PG_TarotDraw_Lovers>
+  <PG_TarotDraw_Strength>힘이여! 마음속 맹수의 발톱을 거두고 흔들리지 않는 것마저 다른 곳으로 옮겨라.</PG_TarotDraw_Strength>
+  <PG_LoversInvalidCaster>&lt;color=#FF4040&gt;&lt;i&gt;"자기야, 저 사람이 네 연인이야?"&lt;/i&gt;&lt;/color&gt;</PG_LoversInvalidCaster>
+  <PG_LoversInvalidTarget>&lt;color=#FF4040&gt;&lt;i&gt;"자기야, 저 사람이 네 연인이야?"&lt;/i&gt;&lt;/color&gt;</PG_LoversInvalidTarget>
+  <PG_LoversTargetAdjacent>&lt;color=#FF4040&gt;&lt;i&gt;"좀 더 가까이 와!"&lt;/i&gt;&lt;/color&gt;</PG_LoversTargetAdjacent>
+  <PG_LoversPreviewOpinion>좋아, 두 사람의 호감을 더 깊게 만들어 줄게.</PG_LoversPreviewOpinion>
+  <PG_LoversPreviewBlessing>아, 얼마나 아름다운 사랑이야! 상을 받아 마땅하겠어!</PG_LoversPreviewBlessing>
+  <PG_LoversPreviewRomance>저 사람의 연인이 되고 싶어? 문제없지.</PG_LoversPreviewRomance>
+  <PG_LoversPreviewProposal>아, 얼마나 달콤한 사랑이야.</PG_LoversPreviewProposal>
+  <PG_LoversPreviewEngaged>둘은 아직도 결혼식을 안 올린 거야?</PG_LoversPreviewEngaged>
+  <PG_TarotDraw_Chariot>전차여! 머나먼 길을 넘어 운명이 정한 종착지로 나아가라.</PG_TarotDraw_Chariot>
+  <PG_TarotDraw_Judgement>심판이여! 패자에게 묵은 빚을 갚게 하고 승자에게 새 삶을 맞이하게 하라.</PG_TarotDraw_Judgement>
+  <PG_JudgementBattleNotOver>"전투가 끝나지 않았으니 아직 판결할 수 없다."</PG_JudgementBattleNotOver>
+  <PG_JudgementInvalidCaster>"죽은 자는 판결을 내리지 못하고 먼 길을 떠난 자는 나팔 소리를 듣지 못한다."</PG_JudgementInvalidCaster>
+  <PG_JudgementRevelationTriggered>{PAWN_labelShort}은(는) 이 공격으로 죽었어야 했지만, '심판'이 최후의 판결을 미뤘습니다.</PG_JudgementRevelationTriggered>
+  <PG_TarotDraw_Hermit>은둔자여! 침묵 속에서 지나온 길을 분별하고 고독 속에서 앞날을 지켜보라.</PG_TarotDraw_Hermit>
+  <PG_TarotDraw_WheelOfFortune>운명의 수레바퀴여! 미래가 선택에 굴복할 때까지 돌아라.</PG_TarotDraw_WheelOfFortune>
+  <PG_TarotDraw_Justice>정의여! 죄 없는 자가 칼날에 상처받지 않고 싸우는 자들이 판결을 기다리게 하라.</PG_TarotDraw_Justice>
+  <PG_TarotDraw_HangedMan>매달린 사람이여! 거꾸로 뒤집힌 동화 속에 잠들어라. 깨어날 때는 옛날의 족쇄를 그곳에 두고 오라.</PG_TarotDraw_HangedMan>
+  <PG_TarotDraw_Death>죽음이여! 마지막 종소리가 울릴 때, 어떤 생명도 그 부름을 거부할 수 없으리라.</PG_TarotDraw_Death>
+  <PG_TarotDraw_Temperance>절제여! 무너진 균형을 되찾고 재앙을 선물로 바꾸어라.</PG_TarotDraw_Temperance>
+  <PG_TarotDraw_Tower>탑이여! 오래된 질서가 무너진 폐허에서야 진실이 모습을 드러내리라.</PG_TarotDraw_Tower>
+  <PG_TarotDraw_Star>별이여! 지친 나그네를 긴 밤의 끝으로 이끌고 남은 삶을 뒤따르는 이들의 머리 위를 비추는 희미한 빛으로 바꾸어라.</PG_TarotDraw_Star>
+  <PG_TarotDraw_Moon>달이여! 은빛 광채로 위장을 벗겨 내면서 진실을 더 깊은 그림자 속에 잠기게 하라.</PG_TarotDraw_Moon>
+  <PG_TarotDraw_Sun>태양이여! 따뜻한 빛으로 생명을 비추고 죽음이 남긴 그림자를 모두 태워 없애라.</PG_TarotDraw_Sun>
+  <PG_TarotDraw_World>세계여! 여정은 끝에 이르렀지만 그 끝 너머로 새로운 경계가 모습을 드러낸다.</PG_TarotDraw_World>
+  <PG_TarotCardMissing>소지품에 해당 타로 카드가 없습니다.</PG_TarotCardMissing>
+  <PG_StrengthInvalidTarget>&lt;color=#B8E986&gt;&lt;i&gt;"그건 '힘'으로 끌어당길 수 있는 물건이 아니야."&lt;/i&gt;&lt;/color&gt;</PG_StrengthInvalidTarget>
+  <PG_StrengthModObjectUnsafe>&lt;color=#B8E986&gt;&lt;i&gt;"무게의 문제가 아니야. 무언가가 이걸 옮기지 못하게 막고 있어."&lt;/i&gt;&lt;/color&gt;</PG_StrengthModObjectUnsafe>
+  <PG_StrengthSteamGeyserOccupied>&lt;color=#B8E986&gt;&lt;i&gt;"저 위에 다른 건물이 놓여 있어. 먼저 그것부터 옮겨."&lt;/i&gt;&lt;/color&gt;</PG_StrengthSteamGeyserOccupied>
+  <PG_StrengthChooseDestination>&lt;color=#B8E986&gt;&lt;i&gt;"{0}을(를) 옮길 새 위치를 골라 줘. 회전할 수 있는 대상은 Q/E로 방향을 조정하고, 오른쪽 클릭으로 취소해."&lt;/i&gt;&lt;/color&gt;</PG_StrengthChooseDestination>
+  <PG_StrengthSamePosition>&lt;color=#B8E986&gt;&lt;i&gt;"그걸 원래 자리에 다시 놓으라는 거야?"&lt;/i&gt;&lt;/color&gt;</PG_StrengthSamePosition>
+  <PG_StrengthCannotRotate>&lt;color=#B8E986&gt;&lt;i&gt;"옮길 수는 있지만 방향까지 바꿀 수는 없어."&lt;/i&gt;&lt;/color&gt;</PG_StrengthCannotRotate>
+  <PG_StrengthDestinationBlocked>&lt;color=#B8E986&gt;&lt;i&gt;"거기에는 들어가지 않아."&lt;/i&gt;&lt;/color&gt;</PG_StrengthDestinationBlocked>
+  <PG_StrengthDestinationOccupied>&lt;color=#B8E986&gt;&lt;i&gt;"먼저 {0}을(를) 치워 줘. 거기에는 둘 다 들어갈 공간이 없어."&lt;/i&gt;&lt;/color&gt;</PG_StrengthDestinationOccupied>
+  <PG_StrengthCustomFootprintRotation>&lt;color=#B8E986&gt;&lt;i&gt;"모양이 너무 특이해서 원래 방향 그대로 옮길 수밖에 없어."&lt;/i&gt;&lt;/color&gt;</PG_StrengthCustomFootprintRotation>
+  <PG_StrengthContainerUnsafe>&lt;color=#B8E986&gt;&lt;i&gt;"안에 뭐가 들어 있는지도 알 수 없는데 안전하게 옮길 수는 없어."&lt;/i&gt;&lt;/color&gt;</PG_StrengthContainerUnsafe>
+  <PG_StrengthRelocationFailed>&lt;color=#B8E986&gt;&lt;i&gt;"{0}을(를) 안전하게 옮기지 못했어. 카드는 돌려줄게."&lt;/i&gt;&lt;/color&gt;</PG_StrengthRelocationFailed>
+  <PG_StrengthRelocationSucceeded>&lt;color=#B8E986&gt;&lt;i&gt;"봐, 움직일 수 없다던 것도 '힘'을 만나지 못했을 뿐이야."&lt;/i&gt;&lt;/color&gt;</PG_StrengthRelocationSucceeded>
+  <PG_StrengthPlacementLabel>옮길 위치 지정</PG_StrengthPlacementLabel>
+  <PG_StrengthPlacementDesc>&lt;color=#B8E986&gt;&lt;i&gt;"아직 원래 자리에 있어. 목적지를 정해야 실제로 옮겨 줄 수 있어."&lt;/i&gt;&lt;/color&gt;</PG_StrengthPlacementDesc>
+  <PG_TemperanceMustTargetSelf>&lt;color=#FFE699&gt;&lt;i&gt;"시전자 자신을 선택해서 발동을 확인해 줘."&lt;/i&gt;&lt;/color&gt;</PG_TemperanceMustTargetSelf>
+  <PG_TemperanceNoConvertibleDisaster>&lt;color=#FFE699&gt;&lt;i&gt;"재해가 없으면 내가 도와줄 수도 없어."&lt;/i&gt;&lt;/color&gt;</PG_TemperanceNoConvertibleDisaster>
+  <PG_TemperanceConvertedSolarFlare>태양 플레어가 황금빛 긴 낮으로 바뀌었습니다.</PG_TemperanceConvertedSolarFlare>
+  <PG_TemperanceConvertedEclipse>일식이 지지 않는 새벽으로 바뀌었습니다.</PG_TemperanceConvertedEclipse>
+  <PG_TemperanceConvertedToxicFallout>낙진이 정화의 단비로 바뀌었습니다.</PG_TemperanceConvertedToxicFallout>
+  <PG_UnsettingDawnStatFactor>지지 않는 새벽: ×{0}</PG_UnsettingDawnStatFactor>
+  <PG_TarotTargetNeedsSight>대상이 범위 안에 있어야 하며 사용자에게 보이는 위치여야 합니다.</PG_TarotTargetNeedsSight>
+  <PG_HierophantMaximumShadows>&lt;color=#FFFFFF&gt;&lt;i&gt;"그림자가 너무 많아."&lt;/i&gt;&lt;/color&gt;</PG_HierophantMaximumShadows>
+  <PG_HierophantNotEnoughSpace>&lt;color=#FFFFFF&gt;&lt;i&gt;"공간이 너무 좁아."&lt;/i&gt;&lt;/color&gt;</PG_HierophantNotEnoughSpace>
+  <PG_ChurchShadowName>교회의 그림자</PG_ChurchShadowName>
+  <PG_TarotTowerInvalidTarget>&lt;color=#FFB347&gt;&lt;i&gt;"저기에는 탑을 세울 자리도, 무너뜨릴 자리도 없어."&lt;/i&gt;&lt;/color&gt;</PG_TarotTowerInvalidTarget>
+  <PG_TarotSunInvalidTarget>&lt;color=#FFD54F&gt;&lt;i&gt;"저곳은 태양빛이 닿지 않아."&lt;/i&gt;&lt;/color&gt;</PG_TarotSunInvalidTarget>
+  <PG_MoonInvalidTarget>&lt;color=#B8C7FF&gt;&lt;i&gt;"좀 더 가까이 와서 달빛이 네가 가리키는 곳을 비추게 해 줘."&lt;/i&gt;&lt;/color&gt;</PG_MoonInvalidTarget>
+  <PG_MoonEclipseAlreadyActive>&lt;color=#B8C7FF&gt;&lt;i&gt;"이미 달이 떠올랐어. 두 번째 밤하늘까지는 필요 없어."&lt;/i&gt;&lt;/color&gt;</PG_MoonEclipseAlreadyActive>
+  <PG_TarotRitualTargetSelf>타로 의식은 루미오르 자신을 대상으로 해야 합니다.</PG_TarotRitualTargetSelf>
+  <PG_TarotPickUp>{0}을(를) 소지품에 넣기</PG_TarotPickUp>
+  <PG_WheelMustTargetSelf>&lt;color=#5DADE2&gt;&lt;i&gt;"시전자 자신을 선택해서 발동을 확인해 줘."&lt;/i&gt;&lt;/color&gt;</PG_WheelMustTargetSelf>
+  <PG_WheelNotEnoughEvents>&lt;color=#5DADE2&gt;&lt;i&gt;"응? 네 미래가 어떻게……"&lt;/i&gt;&lt;/color&gt;</PG_WheelNotEnoughEvents>
+  <PG_WheelEventFailed>선택한 사건이 발생하지 않았으므로 운명의 수레바퀴는 소모되지 않았습니다.</PG_WheelEventFailed>
+  <PG_WheelMiracleWindowTitle>자, 네 운명을 선택해</PG_WheelMiracleWindowTitle>
+  <PG_WheelRevelationWindowTitle>운명의 수레바퀴가 돌아갑니다</PG_WheelRevelationWindowTitle>
+  <PG_WheelChooseEvent>이 운명 선택</PG_WheelChooseEvent>
+  <PG_WheelAcceptFate>운명 받아들이기</PG_WheelAcceptFate>
+  <PG_WheelRerollTitle>운명의 수레바퀴를 다시 돌리겠습니까?</PG_WheelRerollTitle>
+  <PG_WheelRerollQuestion>왼쪽에 이미 드러난 사건을 포기하고 현재 적용되는 원래 가중치에 따라 완전히 새로운 사건을 뽑습니다. 새 사건은 미리 내용을 알 수 없으며, 뽑히는 즉시 발생합니다.</PG_WheelRerollQuestion>
+  <PG_WheelRerollFate>다시 돌리기</PG_WheelRerollFate>
+  <PG_WheelUnknownEvent>알 수 없는 사건</PG_WheelUnknownEvent>
+  <PG_WheelUnknownValue>알 수 없음</PG_WheelUnknownValue>
+  <PG_WheelEventCategory>사건 유형: {0}</PG_WheelEventCategory>
+  <PG_WheelEventNature>사건 성격: {0}</PG_WheelEventNature>
+  <PG_WheelEventPoints>사건 점수: {0}</PG_WheelEventPoints>
+  <PG_WheelEventScale>예상 규모: {0}</PG_WheelEventScale>
+  <PG_WheelEventScaleUnknown>예상 규모: 발생 시 결정</PG_WheelEventScaleUnknown>
+  <PG_WheelEventPawnCount>예상 캐릭터 수: {0}</PG_WheelEventPawnCount>
+  <PG_WheelEventFaction>관련 세력: {0}</PG_WheelEventFaction>
+  <PG_WheelEventFactionUnknown>관련 세력: 사건 발생 시 결정</PG_WheelEventFactionUnknown>
+  <PG_WheelEventCondition>지도 상태: {0}</PG_WheelEventCondition>
+  <PG_WheelEventDisease>질병: {0}</PG_WheelEventDisease>
+  <PG_WheelEventMaxVictims>최대 영향 대상: {0}</PG_WheelEventMaxVictims>
+  <PG_WheelEventDuration>예상 지속 시간: {0}일</PG_WheelEventDuration>
+  <PG_WheelEventNoFurtherDetails>나머지 세부 사항은 사건이 발생할 때 현재 지도 상태에 따라 결정됩니다.</PG_WheelEventNoFurtherDetails>
+  <PG_WheelNatureNegative>위협</PG_WheelNatureNegative>
+  <PG_WheelNatureNeutral>중립 또는 방문</PG_WheelNatureNeutral>
+  <PG_WheelNaturePositive>유리함</PG_WheelNaturePositive>
+  <PG_WheelScaleSmall>소규모</PG_WheelScaleSmall>
+  <PG_WheelScaleMedium>중규모</PG_WheelScaleMedium>
+  <PG_WheelScaleLarge>대규모</PG_WheelScaleLarge>
+  <PG_WheelScaleExtreme>초대규모</PG_WheelScaleExtreme>
+  <PG_WheelCategory_Misc>무작위 사건</PG_WheelCategory_Misc>
+  <PG_WheelCategory_ThreatSmall>소규모 위협</PG_WheelCategory_ThreatSmall>
+  <PG_WheelCategory_ThreatBig>대규모 위협</PG_WheelCategory_ThreatBig>
+  <PG_WheelCategory_FactionArrival>세력 방문</PG_WheelCategory_FactionArrival>
+  <PG_WheelCategory_OrbitalVisitor>궤도 방문객</PG_WheelCategory_OrbitalVisitor>
+  <PG_WheelCategory_ShipChunkDrop>물체 낙하</PG_WheelCategory_ShipChunkDrop>
+  <PG_WheelCategory_DiseaseHuman>인간 질병</PG_WheelCategory_DiseaseHuman>
+  <PG_WheelCategory_DiseaseAnimal>동물 질병</PG_WheelCategory_DiseaseAnimal>
+  <PG_TemperanceConvertedVolcanicWinter>화산 겨울이 황금 용암의 따뜻한 겨울로 바뀌었습니다.</PG_TemperanceConvertedVolcanicWinter>
+  <PG_TemperanceConvertedColdSnap>한파가 맑고 차분한 하늘로 바뀌었습니다.</PG_TemperanceConvertedColdSnap>
+  <PG_TemperanceConvertedHeatWave>폭염이 시원한 계절풍으로 바뀌었습니다.</PG_TemperanceConvertedHeatWave>
+  <PG_TemperanceConvertedFlashstorm>뇌우가 고요한 번개의 하늘로 바뀌었습니다.</PG_TemperanceConvertedFlashstorm>
+  <PG_TemperanceConvertedPsychicDrone>정신파동이 마음의 공명으로 바뀌었습니다.</PG_TemperanceConvertedPsychicDrone>
+  <PG_ClearHeartSkyStatFactor>맑고 차분한 하늘: ×{0}</PG_ClearHeartSkyStatFactor>
+  <PG_ClearHeartSkyBreakThreshold>맑고 차분한 하늘: {0}</PG_ClearHeartSkyBreakThreshold>
+  <PG_HeartResonanceStatFactor>마음의 공명: ×{0}</PG_HeartResonanceStatFactor>
+  <PG_TemperanceConvertedUnnaturalDarkness>기이한 어둠이 고요한 밤의 안식으로 바뀌었습니다.</PG_TemperanceConvertedUnnaturalDarkness>
+  <PG_QuietNightHealingFactor>고요한 밤의 안식: ×{0}</PG_QuietNightHealingFactor>
+  <PG_TemperanceConvertedMoonMiracle>달의 기적이 은빛 물결로 바뀌었습니다.</PG_TemperanceConvertedMoonMiracle>
+  <PG_SilverTideShootingAccuracy>은빛 물결: ×{0}</PG_SilverTideShootingAccuracy>
+  <PG_TemperanceConvertedBloodRain>핏빛 비가 회춘의 붉은 비로 바뀌었습니다.</PG_TemperanceConvertedBloodRain>
+  <PG_RejuvenatingCrimsonRainStatFactor>회춘의 붉은 비: ×{0}</PG_RejuvenatingCrimsonRainStatFactor>
+  <PG_TemperanceConvertedDeathPall>죽음의 장막이 저승꽃 비로 바뀌었습니다.</PG_TemperanceConvertedDeathPall>
+  <PG_TemperanceConvertedGrayPall>잿빛 장막이 향기로운 맑은 안개로 바뀌었습니다.</PG_TemperanceConvertedGrayPall>
+  <PG_FragrantClearHazeStatFactor>향기로운 맑은 안개: ×{0}</PG_FragrantClearHazeStatFactor>
+  <PG_TemperanceConvertedNoxiousHaze>산성 안개가 유리처럼 맑은 하늘로 바뀌었습니다.</PG_TemperanceConvertedNoxiousHaze>
+  <PG_GlassClearSkyStatFactor>유리처럼 맑은 하늘: ×{0}</PG_GlassClearSkyStatFactor>
+  <PG_TemperanceConvertedDrought>가뭄이 맑은 샘물의 흐름으로 바뀌었습니다.</PG_TemperanceConvertedDrought>
+  <PG_TemperanceConvertedVolcanicAsh>화산재가 별모래 맑은 하늘로 바뀌었습니다.</PG_TemperanceConvertedVolcanicAsh>
+  <PG_TemperanceConvertedLavaFlow>용암류가 온천의 맥으로 바뀌었습니다.</PG_TemperanceConvertedLavaFlow>
+  <PG_TemperanceConvertedGillRot>아가미 부패병이 풍성한 물고기 물결로 바뀌었습니다.</PG_TemperanceConvertedGillRot>
+  <PG_TemperanceConvertedDryThunderstorm>마른 뇌우가 천둥을 달래는 단비로 바뀌었습니다.</PG_TemperanceConvertedDryThunderstorm>
+  <PG_TemperanceConvertedToxRain>유독성 비가 오염을 정화하는 영험한 비로 바뀌었습니다.</PG_TemperanceConvertedToxRain>
+  <PG_StarSandClearSkyStatFactor>별모래 맑은 하늘: ×{0}</PG_StarSandClearSkyStatFactor>
+  <PG_HotSpringVeinsFlammability>온천의 맥: ×{0}</PG_HotSpringVeinsFlammability>
+  <PG_TemperanceConvertedSandstorm>모래폭풍이 모래를 씻어 내는 황금 바람으로 바뀌었습니다.</PG_TemperanceConvertedSandstorm>
+  <PG_TemperanceConvertedBlindFog>자욱한 안개가 회복의 이슬안개로 바뀌었습니다.</PG_TemperanceConvertedBlindFog>
+  <PG_TemperanceConvertedBlizzard>눈보라가 풍요를 품은 은빛 눈으로 바뀌었습니다.</PG_TemperanceConvertedBlizzard>
+  <PG_TemperanceConvertedTorrentialRain>폭우가 잔잔한 맑은 비로 바뀌었습니다.</PG_TemperanceConvertedTorrentialRain>
+  <PG_GoldWindStatFactor>모래를 씻어 내는 황금 바람: ×{0}</PG_GoldWindStatFactor>
+  <PG_HealingDewFogStatFactor>회복의 이슬안개: ×{0}</PG_HealingDewFogStatFactor>
+  <PG_CalmRainHarvestFactor>잔잔한 맑은 비: ×{0}</PG_CalmRainHarvestFactor>
+  <PG_TarotTableAutomaticDraw>자동 점술</PG_TarotTableAutomaticDraw>
+  <PG_TarotTableAutomaticDrawDesc>타로 카드 탁자가 매일 자정에 자동으로 타로 카드를 뽑을지 설정합니다. 자동 뽑기를 멈춰도 카드를 넣거나 꺼낼 수 있습니다.</PG_TarotTableAutomaticDrawDesc>
+  <PG_TarotTableDisableAutomaticDraw>자동 점술 끄기</PG_TarotTableDisableAutomaticDraw>
+  <PG_TarotTableDisableAutomaticDrawDesc>이 타로 카드 탁자에서 매일 자정에 타로 카드를 자동으로 뽑지 않도록 합니다. 꺼도 카드를 넣거나 꺼낼 수 있습니다.</PG_TarotTableDisableAutomaticDrawDesc>
+  <PG_TarotAdditionalRevelations>추가 계시</PG_TarotAdditionalRevelations>
+  <PG_TarotAdditionalRevelationsDesc>타로 카드 탁자가 카드를 자동으로 뽑은 후 추가로 발동할 계시를 선택합니다. 모든 타로 카드 탁자가 같은 설정을 공유합니다.</PG_TarotAdditionalRevelationsDesc>
+  <PG_TarotTableChooseTransferTarget>타로 카드 자동 이송</PG_TarotTableChooseTransferTarget>
+  <PG_TarotTableChooseTransferTargetDesc>카드를 자동으로 이송할 다른 타로 카드 탁자를 지정합니다. 현재 탁자에 카드가 쌓이면 보관된 모든 카드를 한꺼번에 대상 탁자로 옮깁니다. 대상의 공간이 부족하면 대기합니다. 이송 시 특수 효과는 현재 탁자에서만 재생됩니다.</PG_TarotTableChooseTransferTargetDesc>
+  <PG_TarotTableChooseTransferTargetPrompt>타로 카드를 받을 다른 타로 카드 탁자를 선택하세요.</PG_TarotTableChooseTransferTargetPrompt>
+  <PG_TarotTableClearTransferTarget>자동 이송 중단</PG_TarotTableClearTransferTarget>
+  <PG_TarotTableClearTransferTargetDesc>현재 탁자에 지정된 자동 이송 대상을 해제합니다.</PG_TarotTableClearTransferTargetDesc>
+  <PG_TarotTableTransferTargetSet>{0}을(를) 자동 이송 대상으로 지정했습니다.</PG_TarotTableTransferTargetSet>
+  <PG_TarotTableTransferTargetInspect>자동 이송 대상: {0}</PG_TarotTableTransferTargetInspect>
+  <PG_TarotTableStored>보관된 타로 카드: {0} / {1}</PG_TarotTableStored>
+  <PG_TarotTableRunning>자동 카드 뽑기: 켜짐</PG_TarotTableRunning>
+  <PG_TarotTablePaused>자동 카드 뽑기: 꺼짐</PG_TarotTablePaused>
+  <PG_TarotTableNoGoldDragon>현재 지도에 황금 용이 없어 타로 카드 탁자는 장식용으로만 작동합니다.</PG_TarotTableNoGoldDragon>
+  <PG_TarotTableFull>타로 카드 탁자가 가득 차서 카드를 더 뽑을 수 없습니다.</PG_TarotTableFull>
+  <PG_TarotTableGranted>{0}이(가) 만든 타로 카드 탁자가 근처에 설치되었습니다.</PG_TarotTableGranted>
+  <PG_TarotTableEjectCard>타로 카드 한 장 꺼내기</PG_TarotTableEjectCard>
+  <PG_TarotDraw_Devil>악마여! 영혼 깊숙이 숨긴 욕망을 채워 주겠지만, 약속한 대가 역시 반드시 거두어 가리라.</PG_TarotDraw_Devil>
+  <PG_DevilInvalidCaster>악마는 지성을 갖춘 인간과만 계약합니다.</PG_DevilInvalidCaster>
+  <PG_DevilWindowTitle>네가 무엇을 원하는지는 모르지만, 몇 가지 제안은 해 줄 수 있지.</PG_DevilWindowTitle>
+  <PG_DevilContract_Greed_Label>탐욕</PG_DevilContract_Greed_Label>
+  <PG_DevilContract_Greed_Description>즉시 금 666개와 은 6666개를 얻습니다. 12~24시간 뒤 악마의 대리인이 습격해 옵니다.</PG_DevilContract_Greed_Description>
+  <PG_DevilContract_Pride_Label>오만</PG_DevilContract_Pride_Label>
+  <PG_DevilContract_Pride_Description>캐릭터 한 명을 선택합니다. 모든 기술 레벨이 3 오르고 무작위 기술 3개에 열정이 추가됩니다. 그러나 계약자는 영구적으로 청소와 운반을 거부하고, 모든 영구 정착민과의 호감도가 서로 25 감소합니다.</PG_DevilContract_Pride_Description>
+  <PG_DevilContract_Sloth_Label>나태</PG_DevilContract_Sloth_Label>
+  <PG_DevilContract_Sloth_Description>현재 진행 중인 연구, 재료가 충분한 건설 및 제작을 완료하고 성숙한 작물을 모두 수확하며 플레이어 구역을 청소합니다. 대신 모든 영구 정착민이 앞으로 12시간 동안 생산적인 노동을 거부합니다.</PG_DevilContract_Sloth_Description>
+  <PG_DevilContract_Gluttony_Label>폭식</PG_DevilContract_Gluttony_Label>
+  <PG_DevilContract_Gluttony_Description>모든 정착민의 허기, 휴식, 오락이 100%로 회복되고 하루 동안 감소하지 않으며 기분이 30 증가합니다. 효과가 끝나면 3일간 허기가 두 배 빠르게 감소하고 기분이 15 떨어집니다.</PG_DevilContract_Gluttony_Description>
+  <PG_DevilContract_Envy_Label>질투</PG_DevilContract_Envy_Label>
+  <PG_DevilContract_Envy_Description>교섭 가능한 세력 하나를 선택합니다. 해당 세력과 플레이어 세력이 다른 세력들에 대해 가진 관계와 호감도를 서로 맞바꿉니다. 플레이어와 해당 세력의 관계는 -100이 됩니다.</PG_DevilContract_Envy_Description>
+  <PG_DevilContract_Wrath_Label>분노</PG_DevilContract_Wrath_Label>
+  <PG_DevilContract_Wrath_Description>무작위 정착민 한 명이 악마의 '계약'을 얻습니다. 발동하면 악마가 지도에 있는 적들을 차례로 데려갑니다. 마지막 적이 사라진 뒤에는 계약자까지 데려갑니다.</PG_DevilContract_Wrath_Description>
+  <PG_DevilContract_Wrath_SelectedLabel>분노</PG_DevilContract_Wrath_SelectedLabel>
+  <PG_DevilContract_Wrath_SelectedDescription>{0}이(가) 일회용 능력 '계약'을 얻습니다. 3초 동안 시전한 뒤 지도에 있는 적들을 악마가 하나씩 데려가며 그 간격은 점점 짧아집니다. 마지막에는 {0}도 사라집니다.</PG_DevilContract_Wrath_SelectedDescription>
+  <PG_DevilContract_Lust_Label>색욕</PG_DevilContract_Lust_Label>
+  <PG_DevilContract_Lust_Description>캐릭터 한 명에게 완벽한 연인을 만들어 줍니다. 다만 악마의 선물에는 언제나 대가가 따릅니다.</PG_DevilContract_Lust_Description>
+  <PG_DevilChoosePrideTarget>오만 계약을 받아들일 캐릭터를 선택하세요.</PG_DevilChoosePrideTarget>
+  <PG_DevilChooseLustTarget>색욕 계약을 받아들이고 연인을 얻을 성인 캐릭터를 선택하세요.</PG_DevilChooseLustTarget>
+  <PG_DevilIdealLoverInvalidTarget>안 돼, 악마와 다시는 거래하지 않겠어!</PG_DevilIdealLoverInvalidTarget>
+  <PG_DevilGreedAccepted>탐욕의 선물이 도착했습니다. 빚을 거두러 올 자들도 오고 있습니다.</PG_DevilGreedAccepted>
+  <PG_DevilPrideAccepted>{0}이(가) 오만의 선물과 그 대가를 받아들였습니다.</PG_DevilPrideAccepted>
+  <PG_DevilSlothAccepted>나태가 모든 일을 끝냈지만, 계속 일하려는 의지까지 앗아 갔습니다.</PG_DevilSlothAccepted>
+  <PG_DevilGluttonyAccepted>끝없는 연회가 시작되었습니다.</PG_DevilGluttonyAccepted>
+  <PG_DevilNoEnvyFaction>관계를 교환할 수 있는 적격 세력이 없습니다.</PG_DevilNoEnvyFaction>
+  <PG_DevilEnvyAccepted>질투가 당신과 {0}의 관계를 찢어 놓고 다시 얽었습니다.</PG_DevilEnvyAccepted>
+  <PG_DevilNoWrathCandidate>조건에 맞으며 아직 '계약'이 없는 캐릭터가 없습니다.</PG_DevilNoWrathCandidate>
+  <PG_DevilWrathAccepted>{0}이(가) '계약'을 얻었습니다. 축복일까요, 저주일까요?</PG_DevilWrathAccepted>
+  <PG_DevilWrathCasterTaken>악마가 계약을 지켰습니다. 이제 {0}의 차례입니다.</PG_DevilWrathCasterTaken>
+  <PG_DevilLustAccepted>악마가 {0}이(가) 꿈꾸던 이상적인 연인, {1}을(를) 데려왔습니다.</PG_DevilLustAccepted>
+  <PG_DevilContractNoEnemies>&lt;color=#E33A42&gt;&lt;i&gt;"뭐야, 그렇게 조급해?"&lt;/i&gt;&lt;/color&gt;</PG_DevilContractNoEnemies>
+  <PG_DevilDebtRaidArrived>악마가 탐욕 계약의 빚을 거두러 왔습니다!</PG_DevilDebtRaidArrived>
+  <PG_DevilLustChoiceTitle>선물을 받으면 언제나 대가를 치러야 합니다</PG_DevilLustChoiceTitle>
+  <PG_DevilLustPayLabel>지불하기</PG_DevilLustPayLabel>
+  <PG_DevilLustPayDescription>금 666개를 지불하면 연인이 영구적으로 머무릅니다.</PG_DevilLustPayDescription>
+  <PG_DevilLustLeaveLabel>놓아주기</PG_DevilLustLeaveLabel>
+  <PG_DevilLustLeaveDescription>악마가 연인을 데려가게 둡니다.</PG_DevilLustLeaveDescription>
+  <PG_DevilLustFightLabel>무기를 들기</PG_DevilLustFightLabel>
+  <PG_DevilLustFightDescription>악마에게 무기를 겨눕니다. 몸에 깃든 악마를 물리치면 연인의 저주를 영구적으로 풀 수 있습니다.</PG_DevilLustFightDescription>
+  <PG_DevilLustPaid>악마가 제물을 받아들였습니다. {0}은(는) 악마의 지배에서 벗어났습니다…… 적어도 지금은.</PG_DevilLustPaid>
+  <PG_DevilLustReleased>연인이 떠나면서 계약이 끝났습니다.</PG_DevilLustReleased>
+  <PG_DevilLustFightBegins>{0}의 복제체가 나타났습니다! 조심하세요. 몸에 악마의 기운이 가득합니다.</PG_DevilLustFightBegins>
+  <PG_DevilLustFightWon>{0}이(가) 악마의 계약에서 영원히 벗어났습니다.</PG_DevilLustFightWon>
+  <PG_DevilDevTriggerLustDue>개발자: 색욕 계약을 30일째로 진행</PG_DevilDevTriggerLustDue>
+  <PG_DevilDevTriggerLustDueDesc>색욕 계약을 즉시 30일째로 진행합니다.</PG_DevilDevTriggerLustDueDesc>
+  <PG_WorldRevelationSkillTooltip>만물 귀일: 현재 유효한 {1} 레벨은 {0}에게서 가져옵니다. 원래 레벨은 {2}이며 75%를 적용한 유효 레벨은 {3}입니다.</PG_WorldRevelationSkillTooltip>
+  <PG_WorldMustTargetSelf>&lt;i&gt;&lt;color=#FF5C5C&gt;"&lt;/color&gt;&lt;color=#FFB347&gt;세&lt;/color&gt;&lt;color=#FFE66D&gt;계&lt;/color&gt;&lt;color=#6EE7B7&gt;를&lt;/color&gt;&lt;color=#5DADE2&gt;가&lt;/color&gt;&lt;color=#9B7EDE&gt;진&lt;/color&gt;&lt;color=#FF7AC8&gt;자&lt;/color&gt;&lt;color=#FF5C5C&gt;가&lt;/color&gt;&lt;color=#FFB347&gt;직&lt;/color&gt;&lt;color=#FFE66D&gt;접&lt;/color&gt;&lt;color=#6EE7B7&gt;확&lt;/color&gt;&lt;color=#5DADE2&gt;장&lt;/color&gt;&lt;color=#9B7EDE&gt;할&lt;/color&gt;&lt;color=#FF7AC8&gt;방&lt;/color&gt;&lt;color=#FF5C5C&gt;향&lt;/color&gt;&lt;color=#FFB347&gt;을&lt;/color&gt;&lt;color=#FFE66D&gt;고&lt;/color&gt;&lt;color=#6EE7B7&gt;르&lt;/color&gt;&lt;color=#5DADE2&gt;게&lt;/color&gt;&lt;color=#9B7EDE&gt;해&lt;/color&gt;&lt;color=#FF7AC8&gt;."&lt;/color&gt;&lt;/i&gt;</PG_WorldMustTargetSelf>
+  <PG_WorldExpansionLimitReached>&lt;i&gt;&lt;color=#FF5C5C&gt;"&lt;/color&gt;&lt;color=#FFB347&gt;사&lt;/color&gt;&lt;color=#FFE66D&gt;방&lt;/color&gt;&lt;color=#6EE7B7&gt;이&lt;/color&gt;&lt;color=#5DADE2&gt;이&lt;/color&gt;&lt;color=#9B7EDE&gt;미&lt;/color&gt;&lt;color=#FF7AC8&gt;완&lt;/color&gt;&lt;color=#FF5C5C&gt;전&lt;/color&gt;&lt;color=#FFB347&gt;해&lt;/color&gt;&lt;color=#FFE66D&gt;졌&lt;/color&gt;&lt;color=#6EE7B7&gt;어&lt;/color&gt;&lt;color=#5DADE2&gt;.&lt;/color&gt;&lt;color=#9B7EDE&gt;세&lt;/color&gt;&lt;color=#FF7AC8&gt;계&lt;/color&gt;&lt;color=#FF5C5C&gt;는&lt;/color&gt;&lt;color=#FFB347&gt;더&lt;/color&gt;&lt;color=#FFE66D&gt;는&lt;/color&gt;&lt;color=#6EE7B7&gt;확&lt;/color&gt;&lt;color=#5DADE2&gt;장&lt;/color&gt;&lt;color=#9B7EDE&gt;되&lt;/color&gt;&lt;color=#FF7AC8&gt;지&lt;/color&gt;&lt;color=#FF5C5C&gt;않&lt;/color&gt;&lt;color=#FFB347&gt;아&lt;/color&gt;&lt;color=#FFE66D&gt;."&lt;/color&gt;&lt;/i&gt;</PG_WorldExpansionLimitReached>
+  <PG_StarUnknownName>이름 없는 별</PG_StarUnknownName>
+  <PG_StarTargetSameMap>&lt;color=#8FD3FF&gt;&lt;i&gt;"이 밤하늘의 빛은 아직 그가 있는 먼 곳까지 닿지 않아."&lt;/i&gt;&lt;/color&gt;</PG_StarTargetSameMap>
+  <PG_StarTargetPermanentColonist>&lt;color=#8FD3FF&gt;&lt;i&gt;"이곳을 돌아갈 집으로 여기는 사람만이 여기를 지키는 별이 될 수 있어."&lt;/i&gt;&lt;/color&gt;</PG_StarTargetPermanentColonist>
+  <PG_StarTargetAdult>&lt;color=#8FD3FF&gt;&lt;i&gt;"젊은 나그네가 그렇게 일찍 종착지에 닿아서는 안 돼."&lt;/i&gt;&lt;/color&gt;</PG_StarTargetAdult>
+  <PG_StarCannotTakeLastColonist>&lt;color=#8FD3FF&gt;&lt;i&gt;"마지막 남은 사람까지 별이 된다면 땅에서 누가 하늘을 올려다보겠어?"&lt;/i&gt;&lt;/color&gt;</PG_StarCannotTakeLastColonist>
+  <PG_StarNoArchive>별의 기록 보관소가 아직 준비되지 않아 별 카드는 소모되지 않았습니다.</PG_StarNoArchive>
+  <PG_StarNoSkills>&lt;color=#8FD3FF&gt;&lt;i&gt;"이 별은 아직 후세에 전할 만큼 밝은 빛을 모으지 못했어."&lt;/i&gt;&lt;/color&gt;</PG_StarNoSkills>
+  <PG_StarRetirementComplete>{0}이(가) 정착지에 작별을 고하고 후세를 지켜보는 별이 되었습니다.</PG_StarRetirementComplete>
+  <PG_StarRetirementFailed>{0}이(가) 별이 되는 과정에 실패했습니다. 캐릭터와 별 카드는 그대로 남아 있어야 합니다. 로그를 확인하세요.</PG_StarRetirementFailed>
+  <PG_StarConfirmTitle>별의 은총</PG_StarConfirmTitle>
+  <PG_StarConfirmIntro>{0}이(가) 정착지에 작별을 고하고 별이 되게 하시겠습니까? 확인하면 캐릭터 자체가 게임에서 완전히 제거되고 소지품, 장비, 의류는 그 자리에 남습니다.</PG_StarConfirmIntro>
+  <PG_StarConfirmSkill>{0}의 {1} ({2} {3}레벨)</PG_StarConfirmSkill>
+  <PG_StarConfirmWarning>일단 시작하면 되돌릴 수 없습니다. 캐릭터의 가장 높은 기술 3개가 세력의 별 기록에 영원히 남습니다. 성공적으로 별이 된 후에만 별 카드가 소모됩니다.</PG_StarConfirmWarning>
+  <PG_StarConfirmButton>별이 되기</PG_StarConfirmButton>
+  <PG_StarCompanionLabel>별과 함께 걷기: {0}</PG_StarCompanionLabel>
+  <PG_StarCompanionDescription>{0}은(는) 완전히 떠난 게 아니에요. 밤하늘을 올려다볼 때마다 여전히 내 곁을 함께 걷고 있으니까요.</PG_StarCompanionDescription>
+  <PG_StarLedgerOpen>별 살펴보기</PG_StarLedgerOpen>
+  <PG_StarLedgerOpenDesc>별이 된 정착민들과 그들이 세력에 남긴 기술 보너스를 확인합니다.</PG_StarLedgerOpenDesc>
+  <PG_StarLedgerTitle>별 기록 보관소</PG_StarLedgerTitle>
+  <PG_StarLedgerEmpty>아직 이 정착지에서 밤하늘의 별이 된 사람이 없습니다.</PG_StarLedgerEmpty>
+  <PG_StarLedgerSummary>별의 수: {0}　긴 밤의 별 축제: 매년 {1}일. 별의 보너스는 밤에 전부 적용됩니다. 같은 기술의 별 레벨 합계가 20에 이르면 낮에는 절반만 적용됩니다. 별 축제 당일과 연장 기간에는 하루 종일 두 배로 적용됩니다.</PG_StarLedgerSummary>
+  <PG_StarLedgerSkillLine>{0}: {1} {2}레벨</PG_StarLedgerSkillLine>
+  <PG_StarWatchSkillLine>{0} 총 별 레벨: {1} ({2})</PG_StarWatchSkillLine>
+  <PG_StarStatSource>{0}의 {1} (기록된 레벨 {2}): {3}</PG_StarStatSource>
+  <PG_StarLedgerBonusSection>기술 보너스</PG_StarLedgerBonusSection>
+  <PG_StarLedgerSourceSection>별의 출처</PG_StarLedgerSourceSection>
+  <PG_StarLedgerSkillHeader>기술</PG_StarLedgerSkillHeader>
+  <PG_StarLedgerTotalHeader>총 별 레벨</PG_StarLedgerTotalHeader>
+  <PG_StarLedgerDayHeader>낮 보너스</PG_StarLedgerDayHeader>
+  <PG_StarLedgerNightHeader>밤 보너스</PG_StarLedgerNightHeader>
+  <PG_StarLedgerNoBonus>적용 안 됨</PG_StarLedgerNoBonus>
+  <PG_StarLedgerSourceEntry>{0} ({1} {2}레벨)</PG_StarLedgerSourceEntry>
+  <PG_StarInactive>밤을 기다리는 중</PG_StarInactive>
+  <PG_StarNightActive>밤에 전체 적용</PG_StarNightActive>
+  <PG_StarDayHalfActive>낮에 절반 적용</PG_StarDayHalfActive>
+  <PG_StarDoubleActive>별 축제에 두 배 적용</PG_StarDoubleActive>
+  <PG_LongNightStarFestivalName>긴 밤의 별 축제</PG_LongNightStarFestivalName>
+  <PG_StarDescriptorShooting>선견지명</PG_StarDescriptorShooting>
+  <PG_StarDescriptorMelee>용맹</PG_StarDescriptorMelee>
+  <PG_StarDescriptorConstruction>장인의 생각</PG_StarDescriptorConstruction>
+  <PG_StarDescriptorMining>개척</PG_StarDescriptorMining>
+  <PG_StarDescriptorCooking>남은 향기</PG_StarDescriptorCooking>
+  <PG_StarDescriptorPlants>풍요</PG_StarDescriptorPlants>
+  <PG_StarDescriptorAnimals>목가</PG_StarDescriptorAnimals>
+  <PG_StarDescriptorCrafting>장인정신</PG_StarDescriptorCrafting>
+  <PG_StarDescriptorArtistic>화려함</PG_StarDescriptorArtistic>
+  <PG_StarDescriptorMedicine>자애</PG_StarDescriptorMedicine>
+  <PG_StarDescriptorSocial>기품</PG_StarDescriptorSocial>
+  <PG_StarDescriptorIntellectual>학식</PG_StarDescriptorIntellectual>
+  <PG_DeathInvalidTarget>&lt;color=#C7A0FF&gt;&lt;i&gt;"이곳에는 죽음이 거두어 갈 생명이 없어."&lt;/i&gt;&lt;/color&gt;</PG_DeathInvalidTarget>
+  <PG_DeathRevelationReady>죽음과의 약속: 아직 이행하지 않음</PG_DeathRevelationReady>
+  <PG_DeathRevelationSpent>죽음과의 약속: 이미 이행함</PG_DeathRevelationSpent>
+  <PG_DeathRevelationTriggered>죽음이 잠시 {PAWN}을(를) 놓아주고 안전한 곳으로 돌려보냈습니다.</PG_DeathRevelationTriggered>
+  <PG_DeathCurseLevel>죽음의 부름 · {0}</PG_DeathCurseLevel>
+  <PG_DeathCursePending>죽음은 기한이 지난 빚을 기억하고 있습니다. 이 캐릭터가 다음에 지도에 등장하면 곧바로 목숨을 거두러 옵니다.</PG_DeathCursePending>
+  <PG_DeathCurseInspectPaused>저주 타이머가 일시 정지되었습니다. 재개 후 죽음까지 남은 시간: {0}</PG_DeathCurseInspectPaused>
+  <PG_DeathCurseInspect>죽음까지 남은 시간: {0}. 혈육이 있는 생물을 직접 처치하면 기한이 초기화됩니다.</PG_DeathCurseInspect>
+  <PG_DeathCurseFirstWarning>&lt;color=#C7A0FF&gt;&lt;i&gt;"너무 오래 기다렸어. 가서 나에게 생명 하나를 가져와."&lt;/i&gt;&lt;/color&gt;</PG_DeathCurseFirstWarning>
+  <PG_DeathCurseFinalWarningLabel>죽음이 빚을 거두러 옵니다</PG_DeathCurseFinalWarningLabel>
+  <PG_DeathCurseFinalWarningText>{PAWN}에게 남은 시간은 단 하루뿐입니다. 직접 생명을 하나 빼앗지 않으면 죽음이 친히 빚을 거두러 올 것입니다.</PG_DeathCurseFinalWarningText>
+  <PG_DeathCurseGizmoTitle>죽음의 부름 · {0}</PG_DeathCurseGizmoTitle>
+  <PG_DeathCurseGizmoPaused>시간 정지됨
+재개 후 남은 시간: {0}</PG_DeathCurseGizmoPaused>
+  <PG_DeathCurseGizmoActive>죽음까지: {0}
+직접 처치하면 초기화</PG_DeathCurseGizmoActive>
+  <PG_DeathCurseDevTenSecondsLabel>개발자: 죽음까지 10초</PG_DeathCurseDevTenSecondsLabel>
+  <PG_DeathCurseDevTenSecondsDesc>이 캐릭터의 '죽음의 부름' 상태를 죽음까지 10초만 남도록 진행시켜 기한 만료 시 사망 처리 과정을 신속하게 시험합니다.</PG_DeathCurseDevTenSecondsDesc>
+  <PG_MagicianTargetValue>제물 총가치: {0}</PG_MagicianTargetValue>
+  <PG_MagicianNoValidItems>&lt;color=#D9A6FF&gt;&lt;i&gt;"제물이 없다면 기적도 침묵할 수밖에 없어."&lt;/i&gt;&lt;/color&gt;</PG_MagicianNoValidItems>
+  <PG_MagicianNoValidOutput>&lt;color=#D9A6FF&gt;&lt;i&gt;"가치는 충분하지만 운명이 거기에 맞는 그릇을 마련하지 않았어."&lt;/i&gt;&lt;/color&gt;</PG_MagicianNoValidOutput>
+  <PG_MagicianRevelationSkillTooltip>마법사의 계시로 이번 {0} 판정은 {1}레벨로 계산됩니다.</PG_MagicianRevelationSkillTooltip>
+  <PG_GoldDragonSkillBook>루미오르의 일기장</PG_GoldDragonSkillBook>
+  <PG_GoldDragonSkillBookDesc>루미오르의 일기장을 엽니다.</PG_GoldDragonSkillBookDesc>
+  <PG_ObserveStarsLabel>별 관측하기</PG_ObserveStarsLabel>
+  <PG_ObserveStarsDesc>맑은 밤에 지붕이 없는 야외에서 별을 관측합니다. 관측 진행도는 영구적으로 유지되며, 누적 2시간을 채우면 새로운 일기 내용이 해금됩니다.</PG_ObserveStarsDesc>
+  <PG_ObserveStarsAlreadyObserving>루미오르는 이미 별을 관측하고 있습니다.</PG_ObserveStarsAlreadyObserving>
+  <PG_ObserveStarsUnavailable>루미오르는 지금 별을 관측할 수 없습니다.</PG_ObserveStarsUnavailable>
+  <PG_ObserveStarsDrafted>징집 중에는 별 관측에 집중할 수 없습니다.</PG_ObserveStarsDrafted>
+  <PG_ObserveStarsRoofed>지붕이 없는 곳에 서 있어야 합니다.</PG_ObserveStarsRoofed>
+  <PG_ObserveStarsDaytime>밤이 된 후에만 별을 관측할 수 있습니다.</PG_ObserveStarsDaytime>
+  <PG_ObserveStarsBadWeather>비나 눈이 그치고 하늘이 다시 맑아질 때까지 기다려야 합니다.</PG_ObserveStarsBadWeather>
+  <PG_AskRevelationFeelingsLabel>계시를 겪은 기분 묻기</PG_AskRevelationFeelingsLabel>
+  <PG_AskRevelationFeelingsDesc>아직 물어보지 않은 다른 정착민을 선택해 계시를 받았을 때 무엇이 남았는지 이야기를 들어 봅니다.</PG_AskRevelationFeelingsDesc>
+  <PG_AskRevelationFeelingsDialogueOpen>아직 대화가 끝나지 않았습니다.</PG_AskRevelationFeelingsDialogueOpen>
+  <PG_AskRevelationFeelingsUnavailable>루미오르는 현재 다른 사람과 이야기할 수 없습니다.</PG_AskRevelationFeelingsUnavailable>
+  <PG_AskRevelationFeelingsInvalidTarget>쓰러지지 않았고 정상적으로 대화할 수 있는 다른 우호적인 정착민에게만 물을 수 있습니다.</PG_AskRevelationFeelingsInvalidTarget>
+  <PG_AskRevelationFeelingsAlreadyAsked>다른 사람과 이야기해 봐야겠어</PG_AskRevelationFeelingsAlreadyAsked>
+  <PG_JudgmentImprint>무기 투영</PG_JudgmentImprint>
+  <PG_JudgmentImprintDesc>현재 지도 바닥에 떨어진 근접 무기 하나를 모든 타로 카드 탁자가 공유하는 특수 보관함에 넣습니다. '단죄'이 해당 무기의 표기 피해량이 가장 높은 공격과 그 공격의 재사용 대기시간을 투영합니다.</PG_JudgmentImprintDesc>
+  <PG_JudgmentImprintEmpty>특수 보관함이 비어 있습니다. '단죄'은 자체 기본 수치를 사용합니다.</PG_JudgmentImprintEmpty>
+  <PG_JudgmentImprintStore>무기 보관</PG_JudgmentImprintStore>
+  <PG_JudgmentImprintReplace>무기 교체</PG_JudgmentImprintReplace>
+  <PG_JudgmentImprintWithdraw>무기 꺼내기</PG_JudgmentImprintWithdraw>
+  <PG_JudgmentImprintCopiedAttack>투영된 공격: {0}</PG_JudgmentImprintCopiedAttack>
+  <PG_JudgmentImprintCopiedDamage>표기 피해량: {0}</PG_JudgmentImprintCopiedDamage>
+  <PG_JudgmentImprintCopiedCooldown>공격 재사용 대기시간: {0}초</PG_JudgmentImprintCopiedCooldown>
+  <PG_JudgmentImprintChoosePrompt>현재 지도 바닥에 떨어진 근접 무기를 선택하세요.</PG_JudgmentImprintChoosePrompt>
+  <PG_JudgmentImprintInvalidWeapon>현재 지도에 떨어져 있는 다른 근접 무기만 선택할 수 있습니다.</PG_JudgmentImprintInvalidWeapon>
+  <PG_JudgmentImprintNoUsableAttack>{0}에는 투영할 근접 공격이 없습니다.</PG_JudgmentImprintNoUsableAttack>
+  <PG_JudgmentImprintCannotReplace>이전 무기를 지금은 특수 보관함에서 꺼낼 수 없습니다.</PG_JudgmentImprintCannotReplace>
+  <PG_JudgmentImprintBusy>무기를 보관하거나 꺼내는 중입니다. 현재 특수 효과가 끝날 때까지 기다리세요.</PG_JudgmentImprintBusy>
+  <PG_JudgmentImprintStored>{0}을(를) 무기 투영의 공유 보관함에 넣었습니다.</PG_JudgmentImprintStored>
+  <PG_JudgmentImprintWithdrawn>무기 투영에서 {0}을(를) 꺼냈습니다.</PG_JudgmentImprintWithdrawn>
+  <PG_HangedManInvalidTarget>매달린 사람이 응답하지 않습니다. 이 이야기는 카드를 든 사람이 직접 끝까지 걸어가야 합니다.</PG_HangedManInvalidTarget>
+  <PG_HangedManAlreadyDreaming>{0}은(는) 아직 이전의 뒤집힌 긴 꿈에서 깨어나지 않았습니다.</PG_HangedManAlreadyDreaming>
+  <PG_HangedManDreamStarted>{0}이(가) 매달린 사람의 동화 속으로 떨어졌습니다.</PG_HangedManDreamStarted>
+  <PG_HangedManDreamCompleted>{0}이(가) 뒤집힌 동화에서 깨어났습니다.</PG_HangedManDreamCompleted>
+  <PG_HangedManDreamInterrupted>이야기가 끝나기도 전에 {0}이(가) 먼저 깨어났습니다. 매달린 사람은 아무런 선물도 남기지 않았습니다.</PG_HangedManDreamInterrupted>
+  <PG_HangedManDreamRemaining>이야기 종료까지: {0}</PG_HangedManDreamRemaining>
+  <PG_HangedManDevFinishLabel>개발자: 매달린 사람의 동화 즉시 종료</PG_HangedManDevFinishLabel>
+  <PG_HangedManDevFinishDesc>현재 꿈을 자연스러운 결말까지 바로 진행하고 정상적인 완료 효과를 모두 발동시킵니다.</PG_HangedManDevFinishDesc>
+  <PG_ChariotRequiresSurfaceMap>평범한 지상 정착지 지도에 있는 카드 소지자만 전차의 바퀴 자국을 남길 수 있습니다.</PG_ChariotRequiresSurfaceMap>
+  <PG_ChariotChooseMarkerTile>"다음에는 바퀴가 어디를 지나가야 할지 말해 줘."</PG_ChariotChooseMarkerTile>
+  <PG_ChariotInvalidLayer>"바퀴 자국은 땅에만 남아. 하늘은 '전차'가 달릴 길이 아니야."</PG_ChariotInvalidLayer>
+  <PG_ChariotImpassableTile>"평범한 행상대도 갈 수 없는 곳이라면 '전차'도 바퀴 자국을 남길 수 없어."</PG_ChariotImpassableTile>
+  <PG_ChariotOccupiedTile>"다른 무언가가 이미 그곳을 차지하고 있어. '전차'의 바퀴 자국을 겹쳐서 남길 수는 없어."</PG_ChariotOccupiedTile>
+  <PG_ChariotUnreachableTile>"'전차'는 먼 길을 짧게 만들 수 있지만, 원래 이어지지 않은 두 땅을 연결할 수는 없어."</PG_ChariotUnreachableTile>
+  <PG_ChariotMarkerTileValid>이곳에 '전차'의 바퀴 자국 남기기</PG_ChariotMarkerTileValid>
+  <PG_ChariotMarkerCreated>"'전차'가 {0}을(를) 기억했어. 아무리 먼 길이라도 언젠가는 도착할 거야."</PG_ChariotMarkerCreated>
+  <PG_ChariotMarkerDefaultName>전차의 바퀴 자국 {0}</PG_ChariotMarkerDefaultName>
+  <PG_ChariotMarkerInspect>현재 연결망에 전차의 바퀴 자국이 {0}개 있습니다.</PG_ChariotMarkerInspect>
+  <PG_ChariotRenameMarker>전차의 바퀴 자국 이름 변경</PG_ChariotRenameMarker>
+  <PG_ChariotRenameMarkerDesc>세계 지도에 표시되는 이 바퀴 자국의 이름을 바꿉니다.</PG_ChariotRenameMarkerDesc>
+  <PG_ChariotDeleteMarker>전차의 바퀴 자국 지우기</PG_ChariotDeleteMarker>
+  <PG_ChariotDeleteMarkerDesc>이 바퀴 자국을 영구적으로 제거합니다. '전차' 카드는 돌려받지 못합니다.</PG_ChariotDeleteMarkerDesc>
+  <PG_ChariotDeleteMarkerConfirm>{0}을(를) 영구적으로 지우겠습니까? '전차' 카드는 돌려받지 못합니다.</PG_ChariotDeleteMarkerConfirm>
+  <PG_ChariotDestinationInUse>"지금 지우면 저 행상대는 목적지를 잃게 돼. 그럴 수는 없어."</PG_ChariotDestinationInUse>
+  <PG_ChariotRequiresSourceMarker>"아직 길의 시작점을 찾지 못했어. 먼저 행상대를 바퀴 자국 하나가 있는 곳으로 보내 줘."</PG_ChariotRequiresSourceMarker>
+  <PG_ChariotNeedsAnotherMarker>"시작점만 있고 종착점이 없어. '전차'의 바퀴 자국을 하나 더 남겨 줘."</PG_ChariotNeedsAnotherMarker>
+  <PG_ChariotTravelTo>'전차'로 이동: {0}</PG_ChariotTravelTo>
+  <PG_ChariotTravelUnavailable>"{0}으로 가는 길이 끊어졌어."</PG_ChariotTravelUnavailable>
+  <PG_ChariotJourneyCannotStart>"바퀴가 움직이지 않아. 무언가가 이번 여정을 막고 있어."</PG_ChariotJourneyCannotStart>
+  <PG_ChariotJourneyStarted>{0}이(가) '전차'를 타고 {1}을(를) 향해 출발했습니다. 바퀴가 멈출 때까지 여정을 취소하거나 목적지를 바꿀 수 없습니다.</PG_ChariotJourneyStarted>
+  <PG_ChariotJourneyCompleted>{1}으로 향한 여정이 끝났습니다. {0}이(가) 도착했습니다.</PG_ChariotJourneyCompleted>
+  <PG_ChariotJourneyInProgress>"바퀴가 아직 멈추지 않았어. 지금은 다른 길을 고를 수 없어."</PG_ChariotJourneyInProgress>
+  <PG_ChariotUnknownDestination>목적지</PG_ChariotUnknownDestination>
+  <PG_EmperorInvalidCaster>&lt;color=#D8B35A&gt;&lt;i&gt;"황제의 인장을 맡지 않은 자에게 '황제'를 대신해 명령할 권리는 없어."&lt;/i&gt;&lt;/color&gt;</PG_EmperorInvalidCaster>
+  <PG_EmperorNoFaction>&lt;color=#D8B35A&gt;&lt;i&gt;"칙령을 내리겠다는 세력을 하나도 찾지 못하겠군. 온 나라를 한꺼번에 적으로 돌리는 것도 재주라면 재주지."&lt;/i&gt;&lt;/color&gt;</PG_EmperorNoFaction>
+  <PG_EmperorNoReward>&lt;color=#D8B35A&gt;&lt;i&gt;"칙령은 있지만 그것에 합당한 보상이 없군."&lt;/i&gt;&lt;/color&gt;</PG_EmperorNoReward>
+  <PG_EmperorNoQuest>&lt;color=#D8B35A&gt;&lt;i&gt;"명령할 일이 없는데 칙령을 남발해서는 안 되지. 정세가 바뀌면 다시 오게."&lt;/i&gt;&lt;/color&gt;</PG_EmperorNoQuest>
+  <PG_EmperorQuestChanged>&lt;color=#D8B35A&gt;&lt;i&gt;"상황이 바뀌었네. 예전 칙령은 더 이상 유효하지 않아."&lt;/i&gt;&lt;/color&gt;</PG_EmperorQuestChanged>
+  <PG_EmperorQuestFailed>&lt;color=#D8B35A&gt;&lt;i&gt;"칙령을 문서로 작성하지 못했네. '황제' 카드는 여전히 자네 것이야."&lt;/i&gt;&lt;/color&gt;</PG_EmperorQuestFailed>
+  <PG_EmperorQuestCreated>&lt;color=#D8B35A&gt;&lt;i&gt;"사명이 정해졌네: {0}. 이 보상에 걸맞은 성과를 거두길 바라네."&lt;/i&gt;&lt;/color&gt;</PG_EmperorQuestCreated>
+  <PG_EmperorFactionWindowTitle>어느 세력이 칙령을 내릴까요?</PG_EmperorFactionWindowTitle>
+  <PG_EmperorRatioWindowTitle>공적을 어떻게 포상할까요?</PG_EmperorRatioWindowTitle>
+  <PG_EmperorRewardWindowTitle>어떤 포상을 지급할까요?</PG_EmperorRewardWindowTitle>
+  <PG_EmperorQuestWindowTitle>어떤 임무를 명할까요?</PG_EmperorQuestWindowTitle>
+  <PG_EmperorRatioCardItems>물자 포상 칙령</PG_EmperorRatioCardItems>
+  <PG_EmperorRatioCardMixed>물자와 호의 함께 지급</PG_EmperorRatioCardMixed>
+  <PG_EmperorRatioCardSocial>명예 포상</PG_EmperorRatioCardSocial>
+  <PG_EmperorRewardCardTitle>{0}번째 포상</PG_EmperorRewardCardTitle>
+  <PG_EmperorFactionOption>{0}의 의뢰 수락 ({1})</PG_EmperorFactionOption>
+  <PG_EmperorRatioItems>예산 전액을 물품 보상 생성에 사용합니다.</PG_EmperorRatioItems>
+  <PG_EmperorRatioMixed>예산의 절반은 물품을 지급하고 나머지 절반은 우호도로 전환합니다. 명예를 줄 수 있는 세력은 명예 점수를 우선 지급합니다.</PG_EmperorRatioMixed>
+  <PG_EmperorRatioSocial>예산 전액을 우호도로 전환합니다. 명예를 줄 수 있는 세력은 명예 점수를 우선 지급합니다.</PG_EmperorRatioSocial>
+  <PG_EmperorRewardOption>{0}</PG_EmperorRewardOption>
+  <PG_EmperorQuestOption>선택하는 즉시 칙령이 발효됩니다.</PG_EmperorQuestOption>
+  <PG_EmperorQuestBanditCamp>도적 야영지 소탕</PG_EmperorQuestBanditCamp>
+  <PG_EmperorQuestMissionBanditCamp>소탕 임무 수행</PG_EmperorQuestMissionBanditCamp>
+  <PG_EmperorQuestRaid>적대 세력 습격 격퇴</PG_EmperorQuestRaid>
+  <PG_EmperorQuestMechCluster>메카노이드 집단 격퇴</PG_EmperorQuestMechCluster>
+  <PG_EmperorQuestInfestation>벌레 군락 제거</PG_EmperorQuestInfestation>
+  <PG_EmperorQuestManhunters>광란의 동물 격퇴</PG_EmperorQuestManhunters>
+  <PG_EmperorQuestCondition>악천후 견디기</PG_EmperorQuestCondition>
+  <PG_EmperorQuestThreatSite>위협 거점 제거</PG_EmperorQuestThreatSite>
+  <PG_EmperorQuestMonument>기념비 건설</PG_EmperorQuestMonument>
+  <PG_EmperorQuestProtectedMonument>기념비 건설 및 방어</PG_EmperorQuestProtectedMonument>
+  <PG_EmperorQuestTrade>특수 거래 완료</PG_EmperorQuestTrade>
+  <PG_EmperorQuestPollution>오염 폐기물 수령</PG_EmperorQuestPollution>
+  <PG_EmperorQuestPrisoners>포로 감시</PG_EmperorQuestPrisoners>
+  <PG_EmperorQuestAnimals>동물 위탁 돌봄</PG_EmperorQuestAnimals>
+  <PG_EmperorQuestGuests>손님 접대</PG_EmperorQuestGuests>
+  <PG_EmperorQuestPawnLend>정착민 대여</PG_EmperorQuestPawnLend>
+  <PG_EmperorQuestShuttleRescue>추락한 셔틀 구출</PG_EmperorQuestShuttleRescue>
+  <PG_HighPriestessVeilAsk>장막에 질문하기</PG_HighPriestessVeilAsk>
+  <PG_HighPriestessVeilAskDesc>세 가지 질문 중 하나를 골라 장막 뒤에 있는 사람에게 물어봅니다. '여사제'는 '예' 또는 '아니요'로만 답합니다.</PG_HighPriestessVeilAskDesc>
+  <PG_HighPriestessVeilReveal>진짜 이름 밝히기</PG_HighPriestessVeilReveal>
+  <PG_HighPriestessVeilRevealDesc>장막 뒤에 있다고 생각하는 정착민을 선택하세요. 이름을 말하는 순간 '여사제'가 판결을 내립니다.</PG_HighPriestessVeilRevealDesc>
+  <PG_TarotInsufficientMagicPower>시전자가 있는 구역에 사용 가능한 마력이 부족합니다. {0}의 마력이 필요합니다.</PG_TarotInsufficientMagicPower>
+</LanguageData>
