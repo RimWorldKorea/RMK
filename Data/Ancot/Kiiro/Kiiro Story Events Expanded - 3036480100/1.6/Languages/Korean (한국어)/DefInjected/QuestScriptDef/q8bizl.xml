@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Kiiro_Beggars.questNameRules.rulesStrings>
+    <li>questName(beggarCount==1)-&gt;키이로 [beggarSingle] [alms] [seekingSingle]</li>
+    <li>questName(beggarCount==1,childCount==1,priority=1)-&gt;어린 키이로 [beggarSingle] [alms] [seekingSingle]</li>
+    <li>questName(beggarCount&gt;=2)-&gt;키이로 [beggarPlural] [alms] [seekingPlural]</li>
+    <li>questName(beggarCount&gt;=2,allChildren==true,priority=1)-&gt;어린 키이로 [beggarPlural] [alms] [seekingPlural]</li>
+    <li>beggarSingle-&gt;방랑자</li>
+    <li>beggarSingle-&gt;유랑자</li>
+    <li>beggarSingle-&gt;여행자</li>
+    <li>beggarPlural-&gt;[beggarSingle]들</li>
+    <li>seekingSingle-&gt;희망</li>
+    <li>seekingSingle-&gt;요청</li>
+    <li>seekingSingle-&gt;기대</li>
+    <li>seekingSingle-&gt;요구</li>
+    <li>seekingPlural-&gt;희망</li>
+    <li>seekingPlural-&gt;요청</li>
+    <li>seekingPlural-&gt;기대</li>
+    <li>seekingPlural-&gt;요구</li>
+    <li>alms-&gt;도움</li>
+    <li>alms-&gt;자선</li>
+    <li>alms-&gt;자원</li>
+  </Kiiro_Beggars.questNameRules.rulesStrings>
+</LanguageData>
