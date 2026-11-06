@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <PG_AlchemyOpenLabel>물약 제조</PG_AlchemyOpenLabel>
+  <PG_AlchemyElementExperimentLabel>네 원소 실험하기</PG_AlchemyElementExperimentLabel>
+  <PG_AlchemyElementExperimentDesc>나무×10, 강철×10, 천×5, 생약×5를 소모해 루미오르가 이 연금 조합대에서 네 원소 실험을 진행합니다.</PG_AlchemyElementExperimentDesc>
+  <PG_AlchemyElementExperimentAlreadyQueued>이 연금 조합대에는 이미 네 원소 실험이 예약되어 있습니다.</PG_AlchemyElementExperimentAlreadyQueued>
+  <PG_AlchemyElementExperimentInProgress>네 원소 실험을 진행하는 중입니다.</PG_AlchemyElementExperimentInProgress>
+  <PG_AlchemyElementExperimentLabUnavailable>이 연금 조합대는 현재 정상적으로 작동하지 않습니다.</PG_AlchemyElementExperimentLabUnavailable>
+  <PG_AlchemyElementExperimentUnavailable>현재 네 원소 실험을 시작할 수 없습니다.</PG_AlchemyElementExperimentUnavailable>
+  <PG_AlchemyElementExperimentLumioreMissing>네 원소 실험을 진행하려면 루미오르가 이 연금 조합대가 있는 맵에 있어야 합니다.</PG_AlchemyElementExperimentLumioreMissing>
+  <PG_AlchemyElementExperimentCompleted>네 원소 실험이 완료되었습니다.</PG_AlchemyElementExperimentCompleted>
+  <PG_AlchemyOpenDesc>원소 조합 화면을 열어 궤도 위에 재료를 배치하고 최종 물약 효과를 미리 확인합니다.</PG_AlchemyOpenDesc>
+  <PG_AlchemyCancelOrderLabel>첫 번째 제조 작업 취소</PG_AlchemyCancelOrderLabel>
+  <PG_AlchemyCancelOrderDesc>대기열 맨 앞의 미완성 제조 작업을 제거합니다. 작업대 근처로 운반된 재료는 삭제되지 않습니다.</PG_AlchemyCancelOrderDesc>
+  <PG_AlchemyNoOrders>제조 대기 중인 물약이 없습니다.</PG_AlchemyNoOrders>
+  <PG_AlchemyQueuedOrders>제조 대기열: {0}개</PG_AlchemyQueuedOrders>
+  <PG_AlchemyFirstOrder>다음 작업: {0}
+재료: {1}
+마력: 500</PG_AlchemyFirstOrder>
+  <PG_AlchemyWindowTitle>원소 조합</PG_AlchemyWindowTitle>
+  <PG_AlchemyKnownEffects>알고 있는 효과</PG_AlchemyKnownEffects>
+  <PG_AlchemyTrackTitle>제조 궤도 (현재 10칸 사용 가능)</PG_AlchemyTrackTitle>
+  <PG_AlchemySelectMaterialHint>오른쪽에서 재료를 선택한 다음 배치할 시작 칸을 클릭하세요.</PG_AlchemySelectMaterialHint>
+  <PG_AlchemyCurrentEffects>현재 효과</PG_AlchemyCurrentEffects>
+  <PG_AlchemyPotionName>물약 이름</PG_AlchemyPotionName>
+  <PG_AlchemyBottleKind>물약병 종류</PG_AlchemyBottleKind>
+  <PG_AlchemyBottleDrink>마시기</PG_AlchemyBottleDrink>
+  <PG_AlchemyBottleCoating>무기 도포</PG_AlchemyBottleCoating>
+  <PG_AlchemyBottleThrowable>투척</PG_AlchemyBottleThrowable>
+  <PG_AlchemyCurrentCost>이번 소모량: {0}</PG_AlchemyCurrentCost>
+  <PG_AlchemyMaterials>재료 및 원소 필터</PG_AlchemyMaterials>
+  <PG_AlchemySpecialFilter>특수</PG_AlchemySpecialFilter>
+  <PG_AlchemyUndo>한 단계 되돌리기</PG_AlchemyUndo>
+  <PG_AlchemyQueueBrew>배합법 확인</PG_AlchemyQueueBrew>
+  <PG_AlchemyCombinationTable>기본 원소 조합표</PG_AlchemyCombinationTable>
+  <PG_AlchemyNeedEffect>최종 궤도에서 알고 있는 물약 효과 하나 이상과 일치해야 합니다.</PG_AlchemyNeedEffect>
+  <PG_AlchemyPlacementOutsideTrack>재료의 유효한 모든 원소가 해금된 궤도 안에 완전히 들어와야 합니다.</PG_AlchemyPlacementOutsideTrack>
+  <PG_AlchemyOrderQueued>'{0}'을(를) 연금 조합대의 제조 대기열에 추가했습니다.</PG_AlchemyOrderQueued>
+  <PG_AlchemyDefaultPotionName>이름 없는 물약</PG_AlchemyDefaultPotionName>
+  <PG_AlchemyPotionNameSuffix>물약</PG_AlchemyPotionNameSuffix>
+  <PG_AlchemyCombinedPotionName>{0} 물약</PG_AlchemyCombinedPotionName>
+  <PG_AlchemyNone>없음</PG_AlchemyNone>
+  <PG_AlchemyEffectEnhancementLabel>효과 강화</PG_AlchemyEffectEnhancementLabel>
+  <PG_AlchemyEffectEnhancementDesc>은 원소 세 개로 구성됩니다. 투척 물약의 범위가 13칸 마름모로 넓어지고 폭발이 커집니다. 무기 도포 효과는 두 배로 강화되며 즉시 적용됩니다. 음용 물약의 지속시간은 두 배로 늘고 사용 횟수도 2회 추가됩니다.</PG_AlchemyEffectEnhancementDesc>
+  <PG_AlchemyEffectSlowLabel>감속 물약</PG_AlchemyEffectSlowLabel>
+  <PG_AlchemyEffectSlowDesc>대상의 이동 속도를 60%로 낮춥니다.</PG_AlchemyEffectSlowDesc>
+  <PG_AlchemyEffectBlindLabel>실명 물약</PG_AlchemyEffectBlindLabel>
+  <PG_AlchemyEffectBlindDesc>대상의 시력을 60%로 낮춥니다.</PG_AlchemyEffectBlindDesc>
+  <PG_AlchemyEffectWeakLabel>쇠약 물약</PG_AlchemyEffectWeakLabel>
+  <PG_AlchemyEffectWeakDesc>대상의 조작 능력을 70%로 낮춥니다.</PG_AlchemyEffectWeakDesc>
+  <PG_AlchemyEffectBrittleLabel>취약화 물약</PG_AlchemyEffectBrittleLabel>
+  <PG_AlchemyEffectBrittleDesc>대상의 날카로운 피해·둔기 피해·열 피해 방어력을 각각 10%p 낮춥니다.</PG_AlchemyEffectBrittleDesc>
+  <PG_AlchemyEffectHasteLabel>가속 물약</PG_AlchemyEffectHasteLabel>
+  <PG_AlchemyEffectHasteDesc>대상의 이동 속도를 30% 높입니다.</PG_AlchemyEffectHasteDesc>
+  <PG_AlchemyEffectAgilityLabel>민첩 물약</PG_AlchemyEffectAgilityLabel>
+  <PG_AlchemyEffectAgilityDesc>대상의 근접 회피율을 15%p 높입니다.</PG_AlchemyEffectAgilityDesc>
+  <PG_AlchemyEffectStrengthLabel>완력 물약</PG_AlchemyEffectStrengthLabel>
+  <PG_AlchemyEffectStrengthDesc>대상의 근접 공격 피해량을 30% 높입니다.</PG_AlchemyEffectStrengthDesc>
+  <PG_AlchemyEffectSunlightLabel>햇살 물약</PG_AlchemyEffectSunlightLabel>
+  <PG_AlchemyEffectSunlightDesc>대상의 의식·이동·조작·시력을 10% 높입니다.</PG_AlchemyEffectSunlightDesc>
+  <PG_AlchemyEffectBlastLabel>폭발 물약</PG_AlchemyEffectBlastLabel>
+  <PG_AlchemyEffectBlastDesc>던지면 착탄 지점에서 폭발합니다. 마시거나 무기에 바르면 사용자의 현재 위치에서 폭발합니다.</PG_AlchemyEffectBlastDesc>
+  <PG_AlchemyEffectLightningLabel>번개 물약</PG_AlchemyEffectLightningLabel>
+  <PG_AlchemyEffectLightningDesc>던지면 착탄 지점에 번개를 소환합니다. 마시거나 무기에 바르면 사용자의 현재 위치에 번개를 소환합니다.</PG_AlchemyEffectLightningDesc>
+  <PG_AlchemyEffectFlameLabel>화염 물약</PG_AlchemyEffectFlameLabel>
+  <PG_AlchemyEffectFlameDesc>마시면 사용자에게 불이 붙습니다. 던지면 범위 안의 지면과 가연물에 불이 붙습니다. 무기로 명중시키면 화염 누적치가 증가합니다.</PG_AlchemyEffectFlameDesc>
+  <PG_AlchemyEffectOvergrowthLabel>폭발 성장 물약</PG_AlchemyEffectOvergrowthLabel>
+  <PG_AlchemyEffectOvergrowthDesc>던지면 3×3 범위 안에 있는 식물의 성장 진행도가 30% 증가합니다. 마시거나 도포된 무기에 맞은 캐릭터는 기분이 1 감소합니다.</PG_AlchemyEffectOvergrowthDesc>
+  <PG_AlchemyEffectPoisonLabel>맹독 물약</PG_AlchemyEffectPoisonLabel>
+  <PG_AlchemyEffectPoisonDesc>마시거나 던지면 독성 누적치가 45% 증가합니다. 도포된 무기로 명중할 때마다 독성 누적치가 15% 증가합니다.</PG_AlchemyEffectPoisonDesc>
+  <PG_AlchemyEffectInsectBreathLabel>벌레 숨결 물약</PG_AlchemyEffectInsectBreathLabel>
+  <PG_AlchemyEffectInsectBreathDesc>곤충형 생명체의 행동 능력을 즉시 차단합니다. 다른 생명체는 이동 속도가 80%로 줄고 독성 누적치가 20% 증가합니다. 도포된 무기로 명중한 경우에는 4%만 증가합니다. 8시간 동안 지속됩니다.</PG_AlchemyEffectInsectBreathDesc>
+  <PG_RuinInsectBreathCoatingName>강화 벌레 숨결 물약 (도포용)</PG_RuinInsectBreathCoatingName>
+  <PG_RuinInsectBreathThrowableName>강화 벌레 숨결 물약 (투척용)</PG_RuinInsectBreathThrowableName>
+  <PG_AlchemyEffectVacuumResistanceLabel>진공 저항 물약</PG_AlchemyEffectVacuumResistanceLabel>
+  <PG_AlchemyEffectVacuumResistanceDesc>대상의 진공 저항을 100%로 높입니다.</PG_AlchemyEffectVacuumResistanceDesc>
+  <PG_AlchemyEffectFireResistanceLabel>내열 물약</PG_AlchemyEffectFireResistanceLabel>
+  <PG_AlchemyEffectFireResistanceDesc>대상의 최고 쾌적 온도를 1,000℃ 높입니다.</PG_AlchemyEffectFireResistanceDesc>
+  <PG_AlchemyEffectColdResistanceLabel>내한 물약</PG_AlchemyEffectColdResistanceLabel>
+  <PG_AlchemyEffectColdResistanceDesc>대상의 최저 쾌적 온도를 200℃ 낮춥니다.</PG_AlchemyEffectColdResistanceDesc>
+  <PG_AlchemyEffectStoneSkinLabel>석화 피부 물약</PG_AlchemyEffectStoneSkinLabel>
+  <PG_AlchemyEffectStoneSkinDesc>대상의 날카로운 피해·둔기 피해·열 피해 방어력을 각각 50%p 높입니다.</PG_AlchemyEffectStoneSkinDesc>
+  <PG_AlchemyEffectHallucinationLabel>환각 물약</PG_AlchemyEffectHallucinationLabel>
+  <PG_AlchemyEffectHallucinationDesc>마시면 즉시 광란 상태에 빠집니다. 던지면 환각 누적치가 50% 증가하며, 도포된 무기로 적중할 때마다 환각 누적치가 35% 증가합니다.</PG_AlchemyEffectHallucinationDesc>
+  <PG_AlchemyEffectFearLabel>공포 물약</PG_AlchemyEffectFearLabel>
+  <PG_AlchemyEffectFearDesc>마시면 즉시 혼미 상태로 배회하게 됩니다. 던지면 공포 누적치가 50% 증가하며, 도포된 무기로 적중할 때마다 공포 누적치가 35% 증가합니다.</PG_AlchemyEffectFearDesc>
+  <PG_AlchemyEffectCurseLabel>저주 물약</PG_AlchemyEffectCurseLabel>
+  <PG_AlchemyEffectCurseDesc>대상이 받는 모든 피해가 방어구와 다른 방어 효과를 계산하기 전에 50% 증가합니다.</PG_AlchemyEffectCurseDesc>
+  <PG_AlchemyEffectRejuvenationLabel>회춘 물약</PG_AlchemyEffectRejuvenationLabel>
+  <PG_AlchemyEffectRejuvenationDesc>매초 대상의 부상 부위 하나에 생명력 2를 회복시킵니다. 던져서 적용하면 초당 1로 절반만 회복합니다.</PG_AlchemyEffectRejuvenationDesc>
+  <PG_AlchemyEffectEnergyLabel>활력 물약</PG_AlchemyEffectEnergyLabel>
+  <PG_AlchemyEffectEnergyDesc>마시면 휴식 욕구가 즉시 80%로 올라가고 6시간 동안 80% 아래로 내려가지 않습니다. 던지면 최소치가 60%가 됩니다. 효과가 끝나면 18시간 동안 반동이 발생해 마신 사람은 휴식 욕구 감소 속도가 2배, 투척 대상은 1.5배로 빨라집니다. 긍정적 효과나 반동이 지속되는 동안에는 다시 적용할 수 없습니다. 도포된 무기로 명중시켜도 효과가 없습니다.</PG_AlchemyEffectEnergyDesc>
+  <PG_AlchemyEffectRecreationLabel>오락 물약</PG_AlchemyEffectRecreationLabel>
+  <PG_AlchemyEffectRecreationDesc>마시면 오락 욕구가 즉시 80%로 올라가고 6시간 동안 80% 아래로 내려가지 않습니다. 던지면 최소치가 60%가 됩니다. 효과가 끝나면 18시간 동안 반동이 발생해 마신 사람은 오락 욕구 감소 속도가 2배, 투척 대상은 1.5배로 빨라집니다. 긍정적 효과나 반동이 지속되는 동안에는 다시 적용할 수 없습니다. 도포된 무기로 명중시켜도 효과가 없습니다.</PG_AlchemyEffectRecreationDesc>
+  <PG_AlchemyEffectEuphoriaLabel>환희 물약</PG_AlchemyEffectEuphoriaLabel>
+  <PG_AlchemyEffectEuphoriaDesc>마시면 6시간 동안 기분이 +40, 던지면 +20 증가합니다. 효과가 끝나면 18시간 동안 반동이 발생해 마신 사람은 기분 -20, 투척 대상은 -10 효과를 받습니다. 긍정적 효과나 반동이 지속되는 동안에는 다시 적용할 수 없습니다. 도포된 무기로 명중시켜도 효과가 없습니다.</PG_AlchemyEffectEuphoriaDesc>
+  <PG_AlchemyElementNone>빈칸</PG_AlchemyElementNone>
+  <PG_AlchemyElementAir>공기</PG_AlchemyElementAir>
+  <PG_AlchemyElementMagic>마법</PG_AlchemyElementMagic>
+  <PG_AlchemyElementWater>물</PG_AlchemyElementWater>
+  <PG_AlchemyElementLife>생명</PG_AlchemyElementLife>
+  <PG_AlchemyElementEarth>대지</PG_AlchemyElementEarth>
+  <PG_AlchemyElementDeath>죽음</PG_AlchemyElementDeath>
+  <PG_AlchemyElementFire>불</PG_AlchemyElementFire>
+  <PG_AlchemyElementExplosion>폭발</PG_AlchemyElementExplosion>
+  <PG_AlchemyElementSilver>은</PG_AlchemyElementSilver>
+  <PG_AlchemyElementGold>금</PG_AlchemyElementGold>
+  <PG_AlchemyPotionEmpty>약병의 남은 사용 횟수가 없습니다.</PG_AlchemyPotionEmpty>
+  <PG_AlchemyPotionCooldown>물약을 다시 사용하려면 {0}만큼 기다려야 합니다.</PG_AlchemyPotionCooldown>
+  <PG_AlchemyPotionUnavailable>지금은 이 물약을 사용할 수 없습니다.</PG_AlchemyPotionUnavailable>
+  <PG_AlchemyEmergencyEffectBlocked>이 물약의 적용 가능한 모든 효과가 이미 발동 중이거나 반동 상태입니다. 더 마셔도 아무 효과가 없습니다.</PG_AlchemyEmergencyEffectBlocked>
+  <PG_AlchemyUseDrink>물약 마시기</PG_AlchemyUseDrink>
+  <PG_AlchemyUseCoating>물약 바르기</PG_AlchemyUseCoating>
+  <PG_AlchemyUseThrowable>물약 던지기</PG_AlchemyUseThrowable>
+  <PG_AlchemyUsePotionDesc>이 물약을 사용합니다. 남은 사용 횟수: {0}/{1}.</PG_AlchemyUsePotionDesc>
+  <PG_AlchemyNeedMeleeWeapon>먼저 근접 무기를 장착해야 합니다.</PG_AlchemyNeedMeleeWeapon>
+  <PG_AlchemyLuckCannotBeCoating>행운 효과는 무기 도포용 물약으로 제조하거나 사용할 수 없습니다.</PG_AlchemyLuckCannotBeCoating>
+  <PG_AlchemyThrowOutOfRange>물약은 7칸보다 멀리 던질 수 없습니다.</PG_AlchemyThrowOutOfRange>
+  <PG_AlchemyPotionInspect>남은 사용 횟수: {0}/{1}
+물약 효과: {2}
+보충 재료: {3}</PG_AlchemyPotionInspect>
+  <PG_AlchemyRenamePotion>물약 이름 바꾸기</PG_AlchemyRenamePotion>
+  <PG_AlchemyRenamePotionDesc>이 약병에 표시되는 이름을 변경합니다.</PG_AlchemyRenamePotionDesc>
+  <PG_AlchemyRenamePotionPrompt>물약 이름 입력 (최대 24자):</PG_AlchemyRenamePotionPrompt>
+  <PG_AlchemyBrewCompleted>{0} 제조를 완료했습니다.</PG_AlchemyBrewCompleted>
+  <PG_AlchemyWorkFailed>제조에 필요한 재료의 상태가 달라져 이번 작업에서는 재료를 소모하지 않았습니다.</PG_AlchemyWorkFailed>
+  <PG_AlchemyUnfinishedProgress>제조 진행도: {0}%</PG_AlchemyUnfinishedProgress>
+  <PG_AlchemyRefillUnfinishedProgress>물약 보충 진행도: {0}%</PG_AlchemyRefillUnfinishedProgress>
+  <PG_AlchemyPrioritizeBrew>물약 제조 우선하기</PG_AlchemyPrioritizeBrew>
+  <PG_AlchemyCannotBrew>현재 제조를 시작할 수 없습니다.</PG_AlchemyCannotBrew>
+  <PG_AlchemyMaterialStock>{0}: 재고 {1}/필요 {2}</PG_AlchemyMaterialStock>
+  <PG_AlchemyGoldEscalationHint>금 촉매를 한 번 더 추가할 때마다 이번에 필요한 금의 양이 이전의 10배가 됩니다.</PG_AlchemyGoldEscalationHint>
+  <PG_AlchemyMissingBrewMaterials>부족한 재료: {0}</PG_AlchemyMissingBrewMaterials>
+  <PG_AlchemyMissingMaterialEntry>{0} (재고 {1}/필요 {2})</PG_AlchemyMissingMaterialEntry>
+  <PG_AlchemyRefillMenu>소지한 물약 보충</PG_AlchemyRefillMenu>
+  <PG_AlchemyRefillChoice>{0} 보충 (재료: {1}, 마력: {2})</PG_AlchemyRefillChoice>
+  <PG_AlchemyMissingRefillMaterials>맵에 이 물약을 보충할 재료가 충분하지 않습니다.</PG_AlchemyMissingRefillMaterials>
+  <PG_AlchemyInsufficientMagicPower>연금 조합대가 있는 지역의 사용 가능한 마력이 부족합니다. 마력 {0}이 필요합니다.</PG_AlchemyInsufficientMagicPower>
+  <PG_AlchemyRefillCompleted>{0}을(를) 완전히 보충했습니다.</PG_AlchemyRefillCompleted>
+  <PG_AlchemyPickUp>{0} 줍기</PG_AlchemyPickUp>
+  <PG_AlchemyEffectGiantLabel>거대화 물약</PG_AlchemyEffectGiantLabel>
+  <PG_AlchemyEffectGiantDesc>외형 크기가 150%로 커지고 근접 공격 피해량이 ×1.3배, 회피율이 10%p 감소합니다.</PG_AlchemyEffectGiantDesc>
+  <PG_AlchemyEffectMiniatureLabel>소형화 물약</PG_AlchemyEffectMiniatureLabel>
+  <PG_AlchemyEffectMiniatureDesc>외형 크기가 65%로 작아지고 근접 공격 피해량이 ×0.7배, 회피율이 10%p 증가합니다.</PG_AlchemyEffectMiniatureDesc>
+  <PG_AlchemyEffectInspirationLabel>영감 물약</PG_AlchemyEffectInspirationLabel>
+  <PG_AlchemyEffectInspirationDesc>사용 가능한 기본 게임의 영감 하나를 얻습니다. 투척 시 누적 진행도가 50% 증가합니다.</PG_AlchemyEffectInspirationDesc>
+  <PG_AlchemyEffectLuckLabel>행운 물약</PG_AlchemyEffectLuckLabel>
+  <PG_AlchemyEffectLuckDesc>행운 4중첩을 얻고 투척 시에는 2중첩을 얻습니다. 중첩 하나당 피해 10을 초과하는 공격 한 번을 막거나 제작한 물품의 품질을 한 단계 높입니다.</PG_AlchemyEffectLuckDesc>
+  <PG_AlchemyLuckCharges>남은 중첩: {0}</PG_AlchemyLuckCharges>
+  <PG_AlchemyInspirationReason>연금술 물약이 영감을 불러일으켰습니다.</PG_AlchemyInspirationReason>
+  <PG_AlchemyImprintExport>배합 각인 내보내기</PG_AlchemyImprintExport>
+  <PG_AlchemyImprintImport>배합 각인 가져오기</PG_AlchemyImprintImport>
+  <PG_AlchemyImprintTitle>연금 배합 각인</PG_AlchemyImprintTitle>
+  <PG_AlchemyImprintHelp>각인에는 약병 종류, 단계별 재료와 수량, 배치 위치, 최종 원소가 기록됩니다. 공유 코드를 이용하면 같은 배합을 재현할 수 있습니다. 가져오기는 재료를 제공하지 않으며, 재고가 부족하면 미리 보기만 가능합니다.</PG_AlchemyImprintHelp>
+  <PG_AlchemyImprintCopy>코드 복사</PG_AlchemyImprintCopy>
+  <PG_AlchemyImprintPaste>코드 붙여넣기</PG_AlchemyImprintPaste>
+  <PG_AlchemyImprintApply>각인 적용</PG_AlchemyImprintApply>
+  <PG_AlchemyImprintInvalid>각인 형식이나 체크섬이 잘못되었거나 지원하지 않는 버전입니다. PGAL1으로 시작하는 코드 전체를 복사하세요.</PG_AlchemyImprintInvalid>
+  <PG_AlchemyImprintMissingDef>각인에 필요한 물품이 설치되어 있지 않습니다: {0}. 관련 DLC 또는 모드를 확인하세요.</PG_AlchemyImprintMissingDef>
+  <PG_AlchemyImprintRulesChanged>재료 {0}의 수량이나 원소가 변경되어 이 각인을 정확히 재현할 수 없습니다.</PG_AlchemyImprintRulesChanged>
+  <PG_AlchemyImprintOverflow>{0}번째 단계에서 비어 있지 않은 원소가 해금된 궤도 밖으로 나가 각인을 적용하지 않았습니다.</PG_AlchemyImprintOverflow>
+  <PG_AlchemyImprintTrackChanged>원소 합성 규칙이나 물약 효과 배합법이 바뀌어 최종 결과가 일치하지 않습니다. 각인을 적용하지 않았습니다.</PG_AlchemyImprintTrackChanged>
+  <PG_AlchemyImprintImported>배합 각인을 재현했습니다. 제조를 시작하기 전에 배합법을 확인하세요.</PG_AlchemyImprintImported>
+  <PG_AlchemyDevilCompensationLabel>보상 약제 제조</PG_AlchemyDevilCompensationLabel>
+  <PG_AlchemyDevilCompensationDesc>세 가지 반동 중 어느 하나라도 끝나기 전에 {0}이(가) 직접 보상 약제를 제조해야 합니다. 흑화×1이 필요하며, 현재 진행도는 {1}/{2}입니다. 재료는 성공할 때만 소모되며 완성품은 남지 않습니다.</PG_AlchemyDevilCompensationDesc>
+  <PG_AlchemyDevilCompensationUnavailable>현재 보상 약제를 제조할 수 없습니다.</PG_AlchemyDevilCompensationUnavailable>
+  <PG_AlchemyDevilCompensationCompleted>보상 약제 제조가 완료되었습니다.</PG_AlchemyDevilCompensationCompleted>
+</LanguageData>
