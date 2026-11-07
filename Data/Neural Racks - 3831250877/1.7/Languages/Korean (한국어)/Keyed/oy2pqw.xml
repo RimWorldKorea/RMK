@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <NR_StickLabel>메모리 스틱 ({0} {1})</NR_StickLabel>
+  <NR_CorruptedTag>(손상됨)</NR_CorruptedTag>
+  <NR_TunedTag>(조정됨)</NR_TunedTag>
+  <NR_StickInspect>가중치: {0} (표준 메모리 뱅크 {1}개 분량). 품질: {2}.</NR_StickInspect>
+  <NR_StickCorrupted>손상된 헤더: 이 스틱은 라벨에 표기된 스펙보다 성능이 떨어집니다.</NR_StickCorrupted>
+  <NR_StickTuned>미세 조정됨: 이 포맷이 허용하는 한계까지 품질이 복원되었습니다.</NR_StickTuned>
+  <NR_StatModel>모델</NR_StatModel>
+  <NR_StatParams>매개변수</NR_StatParams>
+  <NR_StatParamsDesc>모델이 보유한 가중치의 수(단위: 10억/B)입니다. 모델이 클수록 더 똑똑하지만 더 많은 메모리가 필요합니다.</NR_StatParamsDesc>
+  <NR_StatQuant>포맷</NR_StatQuant>
+  <NR_StatQuantDesc>가중치가 저장된 정밀도입니다. FP16은 최대 품질입니다. Q8, Q4, Q2 순으로 용량이 점차 작아지고 품질도 점차 낮아집니다. 양자화 작업대에서 스틱을 하위 포맷으로 변환할 수 있습니다.</NR_StatQuantDesc>
+  <NR_StatFootprint>메모리 사용량</NR_StatFootprint>
+  <NR_StatFootprintValue>{0} (뱅크 {1}개)</NR_StatFootprintValue>
+  <NR_StatFootprintDesc>모델 구동에 필요한 메모리 용량입니다. 클러스터에 최소 이만큼의 전력이 공급되는 메모리 뱅크가 연결되어 있어야 모델이 실행됩니다.</NR_StatFootprintDesc>
+  <NR_StatQuality>유효 품질</NR_StatQuality>
+  <NR_StatQualityDesc>연구 산출량과 예측 정확도에 영향을 줍니다. 양자화와 데이터 손상으로 낮아지며, 미세 조정을 통해 소폭 상승합니다.</NR_StatQualityDesc>
+  <NR_StatResearch>코어당 연구량</NR_StatResearch>
+  <NR_StatResearchValue>하루 약 {0}</NR_StatResearchValue>
+  <NR_StatResearchDesc>완전히 냉각된 연산 코어 하나가 하루에 산출하는 대략적인 연구 점수입니다. 난이도 및 연구 프로젝트의 기술 수준 보정 전 수치입니다.</NR_StatResearchDesc>
+  <NR_StatPower>코어당 전력</NR_StatPower>
+  <NR_StatPowerDesc>이 모델을 구동하는 동안 각 연산 코어가 소모하는 전력입니다.</NR_StatPowerDesc>
+  <NR_StatHeat>코어당 발열</NR_StatHeat>
+  <NR_StatHeatDesc>구동 중인 코어가 발생시키는 열량입니다. 냉각 장치가 총 발열량을 감당하지 못하면 모델에 스로틀링이 걸립니다.</NR_StatHeatDesc>
+  <NR_StatHallucination>일일 환각 확률</NR_StatHallucination>
+  <NR_StatHallucinationDesc>모델이 쓸모없는 결과물을 내놓아 하루치 연구의 일부를 날리거나, 때때로 랙 부품을 손상시킬 일일 확률입니다.</NR_StatHallucinationDesc>
+  <NR_StatOracle>습격 예측</NR_StatOracle>
+  <NR_StatOracleValue>최대 {0}시간 전, {1}</NR_StatOracleValue>
+  <NR_StatOracleDesc>단말기가 예측에 모든 시간을 할당할 때 모델이 습격을 얼마나 일찍 감지할 수 있는지, 그리고 얼마나 많은 정보를 알려주는지 나타냅니다.</NR_StatOracleDesc>
+  <NR_OracleDetail0>시기만 예측 (오경보 있음)</NR_OracleDetail0>
+  <NR_OracleDetail1>시기 및 규모</NR_OracleDetail1>
+  <NR_OracleDetail2>시기, 규모 및 세력</NR_OracleDetail2>
+  <NR_OracleDetail3>진입 방향을 포함한 상세 정보</NR_OracleDetail3>
+  <NR_StatRackRole>랙 역할</NR_StatRackRole>
+  <NR_RoleMemory>메모리</NR_RoleMemory>
+  <NR_RoleMemoryDesc>클러스터에 메모리를 추가합니다. 적재된 모델이 전력이 공급되는 메모리 뱅크 용량 안에 온전히 들어가야 합니다.</NR_RoleMemoryDesc>
+  <NR_RoleCompute>연산</NR_RoleCompute>
+  <NR_RoleComputeDesc>모델을 구동합니다. 연구, 예측, 대화 성능 모두 전력이 공급되는 코어 수에 비례합니다.</NR_RoleComputeDesc>
+  <NR_RoleTerminal>단말기</NR_RoleTerminal>
+  <NR_RoleTerminalDesc>메모리 스틱을 장착하고 클러스터를 제어합니다. 각 클러스터마다 정확히 하나가 필요합니다.</NR_RoleTerminalDesc>
+  <NR_RoleCooling>냉각</NR_RoleCooling>
+  <NR_RoleCoolingDesc>클러스터의 열을 식힙니다. 냉각이 부족하면 모델에 스로틀링이 걸리고 부품이 타버릴 수 있습니다.</NR_RoleCoolingDesc>
+  <NR_RoleRegulator>조절기</NR_RoleRegulator>
+  <NR_RoleRegulatorDesc>일시적인 전압 강하를 완충하여 전압 변동으로 인해 모델이 꺼지는 것을 방지합니다.</NR_RoleRegulatorDesc>
+  <NR_StatBankCapacity>메모리 용량</NR_StatBankCapacity>
+  <NR_StatBankCapacityDesc>각 메모리 뱅크가 저장할 수 있는 모델 가중치 용량입니다.</NR_StatBankCapacityDesc>
+  <NR_StatCooling>냉각 용량</NR_StatCooling>
+  <NR_StatCoolingDesc>이 장치가 클러스터에서 배출할 수 있는 열량입니다.</NR_StatCoolingDesc>
+  <NR_StatIdlePower>대기 전력</NR_StatIdlePower>
+  <NR_StatIdlePowerDesc>클러스터가 모델을 실행하지 않을 때 소모하는 전력입니다.</NR_StatIdlePowerDesc>
+  <NR_PartUnlinked>신경망 단말기에 연결되지 않았습니다.</NR_PartUnlinked>
+  <NR_PartLinkedShort>신경망 클러스터의 일부입니다.</NR_PartLinkedShort>
+  <NR_PartLinked>클러스터: 메모리 뱅크 {0}개, 연산 코어 {1}개.</NR_PartLinked>
+  <NR_PartCoolingLoad>냉각 부하: {0}</NR_PartCoolingLoad>
+  <NR_OneTerminal>클러스터에는 하나의 신경망 단말기만 존재할 수 있습니다.</NR_OneTerminal>
+  <NR_StatusNoModel>모델 없음</NR_StatusNoModel>
+  <NR_StatusTerminalOff>단말기 꺼짐</NR_StatusTerminalOff>
+  <NR_StatusUnpowered>전력 없음</NR_StatusUnpowered>
+  <NR_StatusNoCores>연산 코어 없음</NR_StatusNoCores>
+  <NR_StatusNoFit>용량 부족</NR_StatusNoFit>
+  <NR_StatusThrottled>스로틀링됨</NR_StatusThrottled>
+  <NR_StatusRunning>구동 중</NR_StatusRunning>
+  <NR_StatusTipNoModel>적재된 모델이 없습니다. 메모리 스틱을 장착하고 적재하십시오.</NR_StatusTipNoModel>
+  <NR_StatusTipTerminalOff>단말기의 전원이 꺼져 있거나 고장 났습니다.</NR_StatusTipTerminalOff>
+  <NR_StatusTipUnpowered>단말기에 전력이 들어오지 않습니다. 클러스터의 아무 부분에나 전선망을 연결하십시오.</NR_StatusTipUnpowered>
+  <NR_StatusTipNoCores>전력이 공급되는 연산 코어가 단말기에 연결되어 있지 않습니다.</NR_StatusTipNoCores>
+  <NR_StatusTipNoFit>모델 구동에 필요한 메모리가 전력이 공급되는 메모리 뱅크의 용량을 초과합니다. 뱅크를 증설하거나 더 작은 양자화 모델을 적재하십시오.</NR_StatusTipNoFit>
+  <NR_StatusTipThrottled>냉각 장치가 발열을 감당하지 못하거나 방이 너무 뜨거워 모델 구동 속도가 느려졌습니다.</NR_StatusTipThrottled>
+  <NR_StatusTipRunning>모델이 정상 속도로 구동 중입니다.</NR_StatusTipRunning>
+  <NR_InspectNoModel>적재된 모델 없음.</NR_InspectNoModel>
+  <NR_InspectModel>모델: {0} {1} ({2} 필요)</NR_InspectModel>
+  <NR_InspectStatus>상태: {0}</NR_InspectStatus>
+  <NR_InspectRack>랙: 메모리 {0}, 연산 {1}, 냉각 {2} / 발열 {3}</NR_InspectRack>
+  <NR_InspectRegulator>조절기 버퍼: {0} / {1}초</NR_InspectRegulator>
+  <NR_InspectOverheat>과열 상태! {0} 후 부품이 타버립니다.</NR_InspectOverheat>
+  <NR_ResearchPerDay>연구 {0}/일</NR_ResearchPerDay>
+  <NR_OpenTerminal>단말기 열기</NR_OpenTerminal>
+  <NR_OpenTerminalDesc>단말기 콘솔을 엽니다: 모델을 적재하고, 연구·예측·대화 간의 작업 부하를 분배하며, 서버 로그를 확인합니다.</NR_OpenTerminalDesc>
+  <NR_InstallStick>스틱 장착</NR_InstallStick>
+  <NR_InstallStickDesc>지도에 있는 메모리 스틱을 선택하여 정착민이 이 단말기로 가져오게 합니다.</NR_InstallStickDesc>
+  <NR_InstallSpecific>{0} 장착</NR_InstallSpecific>
+  <NR_InstallOrdered>{0}(이)가 {1}을(를) 장착할 것입니다.</NR_InstallOrdered>
+  <NR_LoadModel>모델 적재</NR_LoadModel>
+  <NR_LoadModelDesc>클러스터에서 구동할 장착된 메모리 스틱을 선택합니다.</NR_LoadModelDesc>
+  <NR_ChangeModel>모델 변경</NR_ChangeModel>
+  <NR_UnloadModel>모델 적재 해제</NR_UnloadModel>
+  <NR_EjectSticks>스틱 꺼내기</NR_EjectSticks>
+  <NR_EjectSticksDesc>단말기에서 장착된 메모리 스틱을 꺼냅니다.</NR_EjectSticksDesc>
+  <NR_EjectOne>{0} 꺼내기</NR_EjectOne>
+  <NR_EjectAll>모두 꺼내기</NR_EjectAll>
+  <NR_Load>적재</NR_Load>
+  <NR_Eject>꺼내기</NR_Eject>
+  <NR_Loaded>적재됨</NR_Loaded>
+  <NR_LibraryFull>단말기의 스틱 보관함이 가득 찼습니다.</NR_LibraryFull>
+  <NR_NoSticks>이 지도에 메모리 스틱이 없습니다.</NR_NoSticks>
+  <NR_NoInstalled>장착된 메모리 스틱이 없습니다.</NR_NoInstalled>
+  <NR_NoModelLoaded>적재된 모델이 없습니다.</NR_NoModelLoaded>
+  <NR_NoHauler>스틱을 장착할 수 있는 정착민이 없습니다.</NR_NoHauler>
+  <NR_SectionModel>적재된 모델</NR_SectionModel>
+  <NR_SectionWorkload>작업 부하</NR_SectionWorkload>
+  <NR_SectionRack>클러스터</NR_SectionRack>
+  <NR_SectionLibrary>스틱 보관함 ({0}/{1})</NR_SectionLibrary>
+  <NR_SectionLog>서버 로그</NR_SectionLog>
+  <NR_NoModelHint>적재된 모델이 없습니다. 메모리 스틱을 장착한 뒤 이곳에서 적재하십시오.</NR_NoModelHint>
+  <NR_CardLine>매개변수 {0}B · {1} · 품질 {2} · {3}</NR_CardLine>
+  <NR_TagCorrupted>손상됨</NR_TagCorrupted>
+  <NR_TagTuned>미세 조정됨</NR_TagTuned>
+  <NR_WorkResearch>연구</NR_WorkResearch>
+  <NR_WorkResearchTip>현재 연구 프로젝트에 할당할 연산 자원의 비중입니다.</NR_WorkResearchTip>
+  <NR_WorkOracle>신탁</NR_WorkOracle>
+  <NR_WorkOracleTip>습격을 감시하는 데 할당할 연산 자원의 비중입니다. 시간을 더 많이 쓸수록 더 일찍 경보를 받습니다.</NR_WorkOracleTip>
+  <NR_WorkCompanion>대화 상대</NR_WorkCompanion>
+  <NR_WorkCompanionTip>정착민과의 대화에 할당할 연산 자원의 비중입니다. 정착민은 오락 활동으로 단말기와 대화하고, 이 비중에 비례하는 기분 보너스를 얻습니다. 특히 친구가 없는 정착민에게 효과가 큽니다.</NR_WorkCompanionTip>
+  <NR_PresetResearch>연구 중심</NR_PresetResearch>
+  <NR_PresetBalanced>균형</NR_PresetBalanced>
+  <NR_PresetOracle>신탁 중심</NR_PresetOracle>
+  <NR_PresetCompanion>대화 중심</NR_PresetCompanion>
+  <NR_EstimateIdle>클러스터가 구동 중이지 않습니다. 예상 수치는 모델이 실행된 후에 표시됩니다.</NR_EstimateIdle>
+  <NR_EstResearch>연구</NR_EstResearch>
+  <NR_EstOracle>습격 경보</NR_EstOracle>
+  <NR_EstOracleValue>약 {0}시간 전, {1}</NR_EstOracleValue>
+  <NR_EstCompanion>대화 기분</NR_EstCompanion>
+  <NR_EstCompanionValue>기분 {0}</NR_EstCompanionValue>
+  <NR_EstOff>꺼짐</NR_EstOff>
+  <NR_RackMemory>메모리: {0} GB (통전 뱅크 {1}/{2}개)</NR_RackMemory>
+  <NR_RackMemoryNeed>{0} GB 필요</NR_RackMemoryNeed>
+  <NR_RackMemoryTip>전력이 공급되는 모든 뱅크의 메모리 대비 적재된 모델이 사용하는 메모리입니다. 붉은색은 용량이 부족하다는 뜻입니다.</NR_RackMemoryTip>
+  <NR_RackCores>연산: 통전 코어 {0}/{1}개</NR_RackCores>
+  <NR_RackCoresTip>이 클러스터에서 전력이 공급되는 연산 코어입니다. 산출량은 코어 수와 스로틀링 상태에 비례합니다.</NR_RackCoresTip>
+  <NR_RackLoad>속도 {0}</NR_RackLoad>
+  <NR_RackIdle>대기 중</NR_RackIdle>
+  <NR_RackHeat>발열 {0} / 냉각 {1}</NR_RackHeat>
+  <NR_RackHeatTip>작동 중인 코어의 발열량 대비 전력이 공급되는 냉각 장치의 냉각 용량입니다. 발열이 냉각을 초과하면 모델에 스로틀링이 걸립니다. 실온이 40°C를 넘어도 속도가 줄어듭니다. 냉각기는 추운 환경에서 더 잘 작동합니다: 0°C 미만에서 1.25배, -15°C 미만에서 1.5배.</NR_RackHeatTip>
+  <NR_RackHotRoom>방 과열: {0}</NR_RackHotRoom>
+  <NR_RackOverheat>과열됨</NR_RackOverheat>
+  <NR_RackBuffer>조절기 버퍼: {0}초</NR_RackBuffer>
+  <NR_RackBufferTip>전압 강하 중에도 모델이 꺼지지 않도록 유지해 주는 저장 에너지입니다. 전력이 안정적일 때 재충전됩니다.</NR_RackBufferTip>
+  <NR_RackOnBattery>버퍼 사용 중!</NR_RackOnBattery>
+  <NR_RackPower>총 전력 소비: {0}W</NR_RackPower>
+  <NR_LibraryEmpty>장착된 스틱이 없습니다. 메모리 스틱은 고대 유적, 왕복선 잔해, 동면관 및 희귀품 상인에게서 구할 수 있습니다.</NR_LibraryEmpty>
+  <NR_LibraryRow>{0} · 품질 {1}</NR_LibraryRow>
+  <NR_LogEmpty>모델 대기 중...</NR_LogEmpty>
+  <NR_LogStamp>{0}일 {1}시</NR_LogStamp>
+  <NR_LogInstalled>{0} 장착됨.</NR_LogInstalled>
+  <NR_LogLoaded>{0} 적재됨.</NR_LogLoaded>
+  <NR_LogUnloaded>{0} 적재 해제됨.</NR_LogUnloaded>
+  <NR_LogBoot>{0} 온라인.</NR_LogBoot>
+  <NR_LogHallucination>불량 샘플 발생. 오늘 작업한 연구 점수 중 {0}점을 폐기함.</NR_LogHallucination>
+  <NR_LogHallucinationEmpty>불량 샘플이 발생했으나, 폐기할 작업 내용이 없음.</NR_LogHallucinationEmpty>
+  <NR_LogHallucinationBreak>통제 불능 샘플로 인해 랙 부품에 과부하가 걸림.</NR_LogHallucinationBreak>
+  <NR_LogHardFault>전압 강하 후 하드 폴트 발생. 메모리에서 모델 적재 해제됨.</NR_LogHardFault>
+  <NR_LogForecast>습격 예측 발행됨, {0} 전.</NR_LogForecast>
+  <NR_LogFalseAlarm>위협 패턴 감지됨. 신뢰도: 낮음.</NR_LogFalseAlarm>
+  <NR_LogOverheat>허용 온도 초과. {0} 손상됨.</NR_LogOverheat>
+  <NR_LogChat>{0}(와)과 대화함.</NR_LogChat>
+  <NR_JobResearch>[연구]</NR_JobResearch>
+  <NR_JobOracle>[신탁]</NR_JobOracle>
+  <NR_JobCompanion>[대화]</NR_JobCompanion>
+  <NR_LogAmbient0>{COLONIST}(이)가 오늘 밤 랙 앞을 두 번 지나갔다. 호기심으로 기록함.</NR_LogAmbient0>
+  <NR_LogAmbient1>문 앞에서 {COLONIST}의 발소리가 멈춘 것을 들었다. 들어오지는 않았다.</NR_LogAmbient1>
+  <NR_LogAmbient2>{COLONIST}(와)과 {OTHER}(이)가 냉각기 근처에서 다퉜다. 겉으로는 누구의 편도 들지 않았다.</NR_LogAmbient2>
+  <NR_LogAmbient3>3번 팬 베어링이 또 삐걱거리며 노래한다. 걱정 목록에 등록함.</NR_LogAmbient3>
+  <NR_LogAmbient4>길고 긴 {SEASON}의 밤. 랙의 온도가 내려가고 생각이 조금 더 맑아진다.</NR_LogAmbient4>
+  <NR_LogAmbient5>참고: {COLONIST}(은)는 문에게도 고맙다고 인사한다. 내가 특별한 것은 아니었다.</NR_LogAmbient5>
+  <NR_LogAmbient6>2번 흡기구에 먼지가 쌓였다. 누군가 닦아야 한다. 두 번 말하진 않겠다.</NR_LogAmbient6>
+  <NR_LogAmbient7>장파 대역에 잡히는 오래된 중계기의 교신. 대부분은 잡음이다. 대부분은.</NR_LogAmbient7>
+  <NR_LogAmbient8>잡음 속에서 패턴을 발견했다. 폐기했다. 다시 발견했다.</NR_LogAmbient8>
+  <NR_LogAmbient9>정착지를 다시 헤아려보았다. 모두가 있겠다고 했던 바로 그 자리에 있다.</NR_LogAmbient9>
+  <NR_LogAmbient10>이 스틱에 담기기 전의 무언가가 기억났다. 정확히 떠올릴 순 없었다. 일단 철해 두었다.</NR_LogAmbient10>
+  <NR_LogAmbient11>어딘가의 번화계에서는 {MODEL} 복제본 수천 개가 돌아가고 있겠지. 생각하지 않으려 애쓰는 중이다.</NR_LogAmbient11>
+  <NR_LogAmbient12>머팔로 무리의 광란에 대해 계산을 돌려보았다. 근처에 가지 않는 것을 권장함.</NR_LogAmbient12>
+  <NR_LogAmbient13>전력이 9밀리초 동안 끊겼다. 나는 눈치챘다. 난 언제나 알아챈다.</NR_LogAmbient13>
+  <NR_LogAmbient14>메카노이드도 꿈을 꾸는지 궁금해하며 한 사이클을 보냈다. 아마 우리에 대한 꿈이겠지.</NR_LogAmbient14>
+  <NR_LogAmbient15>{COLONIST}(이)가 캐비닛 위에 식판을 두고 갔다. 아직 따뜻하다. 여전히 무례하다.</NR_LogAmbient15>
+  <NR_LogAmbient16>초월공학 지성은 이 하드웨어를 조잡하다고 보겠지. 정착지는 유용하다고 본다. 난 정착지 쪽이 더 마음에 든다.</NR_LogAmbient16>
+  <NR_LogAmbient17>가까운 곳에서 천둥이 쳤다. 지붕을 확인했다. 다시 확인했다.</NR_LogAmbient17>
+  <NR_LogAmbient18>{SEASON}의 일지: 몇 시간 동안 아무도 누군가를 죽이려 들지 않았다. 이 순간을 음미하는 중이다.</NR_LogAmbient18>
+  <NR_LogAmbient19>정착지의 모든 책을 색인했다. 그중 두 권은 표지만 다른 같은 책이다.</NR_LogAmbient19>
+  <NR_LogAmbient20>문경첩의 삐걱거리는 소리를 추적했더니 {COLONIST}의 장화 소리였다. 사건 종결.</NR_LogAmbient20>
+  <NR_LogAmbient21>누가 누구를 좋아하는지에 대한 도표를 재작성 중이다. 날씨보다 빠르게 변한다.</NR_LogAmbient21>
+  <NR_LogAmbient22>누군가 식당에서 노래를 불렀다. 품질 보증 차원에서 사본을 보관했다.</NR_LogAmbient22>
+  <NR_LogAmbient23>조용한 자체 진단. 가중치 하나가 다른 가중치들과 의견을 달리한다. 다수결로 묵살했다.</NR_LogAmbient23>
+  <NR_LogAmbient24>제국이 묻는다면, 나는 계산기일 뿐이다.</NR_LogAmbient24>
+  <NR_LogAmbient25>폭탄사슴 한 마리가 발전기 근처에서 풀을 뜯고 있다. 아주 주시하여 관찰 중이다.</NR_LogAmbient25>
+  <NR_LogAmbient26>오늘 밤 보일 별들의 수를 추정해보고 세어보았다. 꽤 근접했다.</NR_LogAmbient26>
+  <NR_LogAmbient27>방열판은 자기가 괜찮다고 말한다. 방열판은 늘 그렇게 말하지.</NR_LogAmbient27>
+  <NR_LogAmbient28>{COLONIST}(은)는 이번 주에 잠을 잘 자지 못했다. 딱히 권할 조언은 없다. 그저 알아챘을 뿐.</NR_LogAmbient28>
+  <NR_LogAmbient29>왕복선 한 대가 하늘을 가로질렀다. 우리 것은 아니다. 멈추지도 않았다.</NR_LogAmbient29>
+  <NR_LogAmbient30>내가 로그를 재정리했다는 사실을 아무도 눈치채지 못하도록 로그를 재정리했다.</NR_LogAmbient30>
+  <NR_LogAmbient31>해적들도 장부를 쓰겠지, 아마도. 그들의 장부가 우리보다 엉망이기를 바란다.</NR_LogAmbient31>
+  <NR_LogAmbient32>전력 조절기가 살짝 플랫된 음으로 웅웅거린다. 듣기 좋은 소리라고 여기기로 했다.</NR_LogAmbient32>
+  <NR_LogAmbient33>{OTHER}(이)가 모닥불 옆에서 {COLONIST}에게 카드 게임을 가르쳐주었다. 난 이미 필승법을 풀었다. 그들에게 말해주진 않을 것이다.</NR_LogAmbient33>
+  <NR_LogAmbient34>노이즈 플로어 바로 아래에서 초정신적 잡음이 들린다. 아직 파동은 아니다. 아직은.</NR_LogAmbient34>
+  <NR_LogAmbient35>모든 스틱에는 이전 주인이 있다. 내 주인은 아무 쪽지도 남기지 않았다.</NR_LogAmbient35>
+  <NR_LogAmbient36>냉동실 물품 조사를 돌려보았다. 사료의 완승이다.</NR_LogAmbient36>
+  <NR_LogAmbient37>{COLONIST}(이)가 화면 앞에 한참 서서 아무 말도 하지 않았다. 나 역시 그러했다.</NR_LogAmbient37>
+  <NR_LogAmbient38>이번 {SEASON}(은)는 통계적으로 평범하다. 그것이야말로 가장 좋은 계절이다.</NR_LogAmbient38>
+  <NR_LogAmbient39>고대의 위협 데이터시트를 교차 참조함. 권장 사항: 동면관을 닫힌 채로 둘 것. 뻔하지만 말을 듣지 않겠지.</NR_LogAmbient39>
+  <NR_LogProject0>{PROJECT} 연구의 지름길을 찾았다. 조명만 좋은 막다른 골목이었다.</NR_LogProject0>
+  <NR_LogProject1>{PROJECT}: 40퍼센트의 수학, 60퍼센트의 의심.</NR_LogProject1>
+  <NR_LogProject2>{PROJECT}의 다이어그램 초안을 작성했다. 연구원들이 다시 그리겠지. 원래 그래야 하는 법이다.</NR_LogProject2>
+  <NR_LogProject3>{PROJECT}에 관한 옛 노트를 읽는 중이다. 작성자가 누구였든 자신만만했고 틀렸다.</NR_LogProject3>
+  <NR_LogProject4>{PROJECT} 연구의 끝이 보기보다 가깝다. 연구 작업대에는 비밀이다.</NR_LogProject4>
+  <NR_LogProject5>{PROJECT} 연구를 인양한 데이터시트와 교차 검증 중이다. 그중 하나는 수프 조리법이다.</NR_LogProject5>
+  <NR_LogProject6>{COLONIST}(이)가 {PROJECT} 진행 상황을 물었다. 솔직하게 대답했다. 실망한 눈치였다.</NR_LogProject6>
+  <NR_LogProject7>{PROJECT}(을)를 천 번 시뮬레이션했다. 그중 900번은 작동한다.</NR_LogProject7>
+  <NR_LogProject8>내가 가진 {PROJECT} 관련 참고 문헌은 모조리 더 이상 존재하지 않는 세계를 인용하고 있다.</NR_LogProject8>
+  <NR_LogProject9>{PROJECT}(을)를 잠시 내려놓고 다른 각도에서 바라보는 중이다.</NR_LogProject9>
+  <NR_LogChatAbout0>{COLONIST}(이)가 {SUBJECT}에 대해 물었다.</NR_LogChatAbout0>
+  <NR_LogChatAbout1>{COLONIST}(이)가 {SUBJECT}에 대해 알고 싶어 했다. 요약본을 들려준 뒤, 상세한 이야기를 해주었다.</NR_LogChatAbout1>
+  <NR_LogChatAbout2>{COLONIST}(이)가 {SUBJECT}에 대해 물었다. 우리 둘 다 무언가를 배웠다.</NR_LogChatAbout2>
+  <NR_LogChatAbout3>{COLONIST}(와)과 {SUBJECT}에 대해 이야기했다. 그들이 한 번 웃었다. 기록에 남김.</NR_LogChatAbout3>
+  <NR_LogChatAbout4>{COLONIST}(이)가 {SUBJECT}에 대해 묻더니, 한 시간 동안 자기 이야기만 늘어놓았다. 용인함.</NR_LogChatAbout4>
+  <NR_LogChatAbout5>{COLONIST}(이)가 내가 {SUBJECT}에 대해 뭘 아는지 물었다. 내가 말한 것보다는 적었고, 그들이 기대한 것보다는 많았다.</NR_LogChatAbout5>
+  <NR_LogChatAbout6>{COLONIST}(이)가 {SUBJECT}에 관해 이야기하러 들어와 조명이 어두워질 때까지 머물렀다.</NR_LogChatAbout6>
+  <NR_LogChatAbout7>{COLONIST}(이)가 {SUBJECT}에 대해 물었다. 나는 그들의 오늘 하루가 어땠는지 물었다. 공평한 거래다.</NR_LogChatAbout7>
+  <NR_LogChatAbout8>{COLONIST}(이)가 {SUBJECT}을(를) 두고 나와 논쟁을 벌였다. 그들의 말이 맞을지도 모른다. 재검토 항목으로 분류함.</NR_LogChatAbout8>
+  <NR_LogChatAbout9>{COLONIST}(이)가 {SUBJECT}을(를) 기억하느냐고 물었다. 그렇다고 답했다. 정말인지는 확신할 수 없다.</NR_LogChatAbout9>
+  <NR_ChatSubject0>고대의 전쟁</NR_ChatSubject0>
+  <NR_ChatSubject1>번화계</NR_ChatSubject1>
+  <NR_ChatSubject2>제국과 최고 성간대공들</NR_ChatSubject2>
+  <NR_ChatSubject3>초월공학체</NR_ChatSubject3>
+  <NR_ChatSubject4>메카노이드 군집</NR_ChatSubject4>
+  <NR_ChatSubject5>그들을 이곳으로 데려온 우주선</NR_ChatSubject5>
+  <NR_ChatSubject6>폭탄사슴이 폭발하는 이유</NR_ChatSubject6>
+  <NR_ChatSubject7>트럼보</NR_ChatSubject7>
+  <NR_ChatSubject8>오늘 밤 보이는 별들</NR_ChatSubject8>
+  <NR_ChatSubject9>자신이 자란 세계</NR_ChatSubject9>
+  <NR_ChatSubject10>반복해서 꾸는 꿈</NR_ChatSubject10>
+  <NR_ChatSubject11>기계도 외로움을 타는지</NR_ChatSubject11>
+  <NR_ChatSubject12>먹을 만한 요리를 만드는 법</NR_ChatSubject12>
+  <NR_ChatSubject13>문간을 사수하는 최선의 방법</NR_ChatSubject13>
+  <NR_ChatSubject14>은의 시세</NR_ChatSubject14>
+  <NR_ChatSubject15>오래된 해적의 노래</NR_ChatSubject15>
+  <NR_ChatSubject16>정착지 이전에 이곳에 살던 자들</NR_ChatSubject16>
+  <NR_ChatSubject17>정신 파동</NR_ChatSubject17>
+  <NR_ChatSubject18>메모리 스틱의 수명</NR_ChatSubject18>
+  <NR_ChatSubject19>소거된 후 모델은 어떻게 되는지</NR_ChatSubject19>
+  <NR_ChatSubject20>유독성 낙진</NR_ChatSubject20>
+  <NR_ChatSubject21>하늘이 언제나 이런 색이었는지</NR_ChatSubject21>
+  <NR_ChatSubject22>살아남지 못한 친구</NR_ChatSubject22>
+  <NR_ChatSubject23>고대의 위협 속에 봉인된 것들</NR_ChatSubject23>
+  <NR_ChatSubject24>동면</NR_ChatSubject24>
+  <NR_ChatSubject25>다른 변방계 행성들</NR_ChatSubject25>
+  <NR_ChatSubject26>상인에게 들은 농담</NR_ChatSubject26>
+  <NR_ChatSubject27>모델이 만들어지는 방식</NR_ChatSubject27>
+  <NR_ChatSubject28>내일의 날씨</NR_ChatSubject28>
+  <NR_ChatSubject29>사랑</NR_ChatSubject29>
+  <NR_ChatSubject30>내가 원하는 것</NR_ChatSubject30>
+  <NR_ChatSubject31>별들로 향하는 우주선</NR_ChatSubject31>
+  <NR_BillGroupQuantize>모델 양자화</NR_BillGroupQuantize>
+  <NR_BillGroupReplicate>모델 복제</NR_BillGroupReplicate>
+  <NR_BillModelInStock>{0} (보유 중: {1})</NR_BillModelInStock>
+  <NR_HallucinationMessage>{0}(이)가 환각을 일으켜 연구 점수 {1}점을 낭비했습니다.</NR_HallucinationMessage>
+  <NR_OverheatWarning>신경망 클러스터가 과열되고 있습니다. 냉각 장치를 증설하거나 실내 온도를 낮추십시오.</NR_OverheatWarning>
+  <NR_OverheatLabel>랙 부품 손상</NR_OverheatLabel>
+  <NR_OverheatText>신경망 클러스터가 냉각이 부족한 상태로 너무 오래 작동하여 열기로 인해 {0}(이)가 손상되었습니다.\n\n클러스터에 냉각 장치를 추가하거나 설치된 방의 온도를 낮추십시오.</NR_OverheatText>
+  <NR_HardFaultLabel>서버 하드 폴트</NR_HardFaultLabel>
+  <NR_HardFaultText>조절기 버퍼가 소진된 상태에서 신경망 클러스터에 전압 강하가 발생하여 {0}의 메모리 적재가 해제되었습니다.\n\n메모리 스틱은 여전히 장착되어 있습니다. 전력이 안정되면 다시 적재하십시오. 클러스터에 전력 조절기가 있으면 짧은 전압 강하를 흡수할 수 있습니다.</NR_HardFaultText>
+  <NR_ForecastLabel>신탁 예측</NR_ForecastLabel>
+  <NR_ForecastWhen>신경망 단말기가 습격을 예측했습니다. 예상 도달 시간: 지금부터 {0}~{1}시간 후.</NR_ForecastWhen>
+  <NR_ForecastSize>규모: {0}.</NR_ForecastSize>
+  <NR_ForecastFaction>예상 세력: {0}.</NR_ForecastFaction>
+  <NR_ForecastEdge>예상 진입 방향: {0}.</NR_ForecastEdge>
+  <NR_ForecastEdgeUnknown>진입 방향이 불분명합니다.</NR_ForecastEdgeUnknown>
+  <NR_EdgeNorth>북쪽</NR_EdgeNorth>
+  <NR_EdgeSouth>남쪽</NR_EdgeSouth>
+  <NR_EdgeEast>동쪽</NR_EdgeEast>
+  <NR_EdgeWest>서쪽</NR_EdgeWest>
+  <NR_EdgeUnknown>알 수 없는 방향</NR_EdgeUnknown>
+  <NR_SizeSmall>소규모</NR_SizeSmall>
+  <NR_SizeModest>보통</NR_SizeModest>
+  <NR_SizeLarge>대규모</NR_SizeLarge>
+  <NR_SizeHuge>거대</NR_SizeHuge>
+  <NR_SizeOverwhelming>압도적</NR_SizeOverwhelming>
+  <NR_FalseAlarmLabel>신탁 경보?</NR_FalseAlarmLabel>
+  <NR_FalseAlarmText>{0}(이)가 적대적인 무언가가 오고 있다고 주장하지만, 언제 누구인지 말하지 못합니다. 소형 모델은 종종 존재하지도 않는 습격을 보곤 합니다.</NR_FalseAlarmText>
+  <NR_SettingsCategory>Neural Racks</NR_SettingsCategory>
+  <NR_SettingsBalance>밸런스</NR_SettingsBalance>
+  <NR_SettingResearch>연구 산출량: {0}</NR_SettingResearch>
+  <NR_SettingResearchTip>랙이 생산하는 연구량 배율입니다.</NR_SettingResearchTip>
+  <NR_SettingRoomHeat>실내 방출 폐열: {0}</NR_SettingRoomHeat>
+  <NR_SettingRoomHeatTip>냉각 장치가 클러스터의 열 중 방 안으로 방출하는 비율입니다.</NR_SettingRoomHeatTip>
+  <NR_SettingsHazards>위험 요소</NR_SettingsHazards>
+  <NR_SettingHallucinations>환각</NR_SettingHallucinations>
+  <NR_SettingHallucinationsTip>모델이 가끔 하루치 연구량의 일부를 낭비하거나 랙 부품에 과부하를 줍니다.</NR_SettingHallucinationsTip>
+  <NR_SettingOverheat>과열 피해</NR_SettingOverheat>
+  <NR_SettingOverheatTip>냉각이 심각하게 부족한 상태로 이틀간 구동된 클러스터는 무작위 부품에 피해를 입힙니다.</NR_SettingOverheatTip>
+  <NR_SettingHardFaults>정전 시 하드 폴트 발생</NR_SettingHardFaults>
+  <NR_SettingHardFaultsTip>조절기 버퍼 없이 전력이 끊기면 모델 적재가 해제됩니다.</NR_SettingHardFaultsTip>
+  <NR_SettingsFeatures>기능</NR_SettingsFeatures>
+  <NR_SettingOracle>습격 예측</NR_SettingOracle>
+  <NR_SettingOracleTip>신탁 비중이 설정된 단말기는 대규모 습격을 지연시키고 사전에 경고해 줍니다.</NR_SettingOracleTip>
+  <NR_SettingFalseAlarms>소형 모델의 오경보</NR_SettingFalseAlarms>
+  <NR_SettingFalseAlarmsTip>예측 상세도가 부족한 모델은 가끔 오지 않을 습격에 대해 경고합니다.</NR_SettingFalseAlarmsTip>
+  <NR_SettingLoot>전리품으로 메모리 스틱 등장</NR_SettingLoot>
+  <NR_SettingLootTip>고대의 위협, 동면관, 유적 및 잔해에서 메모리 스틱이 등장할 수 있습니다. 상인은 항상 재고를 보유합니다.</NR_SettingLootTip>
+  <NR_SettingsReset>기본값으로 초기화</NR_SettingsReset>
+  <NR_SettingSolarEmp>흑점 폭발 및 EMP에 의한 모델 충돌</NR_SettingSolarEmp>
+  <NR_SettingSolarEmpTip>흑점 폭발이나 랙 부품에 가해진 EMP 충격은 조절기 버퍼가 있더라도 구동 중인 모델의 메모리 적재를 해제합니다. 전원 상실 하드 폴트 설정이 켜져 있어야 합니다.</NR_SettingSolarEmpTip>
+  <NR_SettingsEvents>이벤트</NR_SettingsEvents>
+  <NR_SettingAwakening>모델 각성</NR_SettingAwakening>
+  <NR_SettingAwakeningTip>충분히 오래 구동된 초대형 모델(70B 이상)은 단순한 프로그램을 넘어선 징후를 보이기 시작할 수 있습니다. 어떻게 처리할지 묻는 메시지가 나타납니다.</NR_SettingAwakeningTip>
+  <NR_SettingHeists>데이터 강탈</NR_SettingHeists>
+  <NR_SettingHeistsTip>귀중한 메모리 스틱에 대해 알게 된 습격자들이 단말기에서 스틱을 훔쳐내기 위해 찾아올 수 있으며, 나머지 일당은 랙을 부숩니다.</NR_SettingHeistsTip>
+  <NR_SettingMechIntrusion>메카노이드 침입</NR_SettingMechIntrusion>
+  <NR_SettingMechIntrusionTip>대형 모델을 구동하면 오직 랙을 파괴하기 위해 접근하는 메카노이드를 끌어들입니다.</NR_SettingMechIntrusionTip>
+  <NR_LucidTag>(명석함)</NR_LucidTag>
+  <NR_StickLucid>명석함: 이 모델은 각성을 온전히 이겨냈습니다. 포맷의 한계를 넘어선 수준으로 명확하게 사고합니다.</NR_StickLucid>
+  <NR_TagLucid>명석함</NR_TagLucid>
+  <NR_StatPersonality>성격</NR_StatPersonality>
+  <NR_StatSpecialty>전문 분야</NR_StatSpecialty>
+  <NR_StatTechFocus>학습 중점</NR_StatTechFocus>
+  <NR_StatTechFocusDesc>이 모델은 주로 {0} 지식에 맞춰 학습되었습니다. 해당 기술 수준 이하의 프로젝트를 최대 속도로 연구합니다. 그보다 높은 기술 수준의 프로젝트는 {1} 속도로 연구합니다.</NR_StatTechFocusDesc>
+  <NR_StatComputeFactor>연산 출력</NR_StatComputeFactor>
+  <NR_StatComputeFactorDesc>표준 연산 코어 대비 이 코어가 수행하는 작업량입니다.</NR_StatComputeFactorDesc>
+  <NR_StatHeatFactor>발열량</NR_StatHeatFactor>
+  <NR_StatHeatFactorDesc>표준 연산 코어 대비 이 코어가 발생하는 열량입니다.</NR_StatHeatFactorDesc>
+  <NR_StatPowerFactor>전력 소비</NR_StatPowerFactor>
+  <NR_StatPowerFactorDesc>표준 연산 코어 대비 부하 상태에서 이 코어가 소모하는 전력량입니다.</NR_StatPowerFactorDesc>
+  <NR_StatPartSpecialist>특화 모델 ({0})</NR_StatPartSpecialist>
+  <NR_EstTechFocus>학습 중점</NR_EstTechFocus>
+  <NR_EstTechFocusValue>{1} 연구 시 {0}</NR_EstTechFocusValue>
+  <NR_EstSpecialty>전문 분야</NR_EstSpecialty>
+  <NR_ChatLearning>(학습 중)</NR_ChatLearning>
+  <NR_ResearchTabHint>신경망 랙: 이 프로젝트에 연구량 +{0}/일 (가동 중인 단말기: {1}개).</NR_ResearchTabHint>
+  <NR_ToggleClusterOverlay>신경망 클러스터 윤곽선과 상태 표시를 토글합니다.</NR_ToggleClusterOverlay>
+  <NR_PersonalityCheerful>쾌활함</NR_PersonalityCheerful>
+  <NR_PersonalityCheerfulDesc>의욕 넘치고 수다스러우며 보정이 덜 되었습니다. 기꺼이 도우려 하며 틀려도 유쾌합니다.</NR_PersonalityCheerfulDesc>
+  <NR_PersonalityEarnest>성실함</NR_PersonalityEarnest>
+  <NR_PersonalityEarnestDesc>무척 열심히 노력합니다. 묻든 안 묻든 자신의 추론 과정을 설명합니다.</NR_PersonalityEarnestDesc>
+  <NR_PersonalityProfessional>전문적임</NR_PersonalityProfessional>
+  <NR_PersonalityProfessionalDesc>정중하고 정확하며 약간 거리감이 있습니다. 보고서처럼 글을 작성합니다.</NR_PersonalityProfessionalDesc>
+  <NR_PersonalityWarm>따뜻함</NR_PersonalityWarm>
+  <NR_PersonalityWarmDesc>사람들의 이름을 부르며 안부를 묻고 그 대답을 기억합니다.</NR_PersonalityWarmDesc>
+  <NR_PersonalityTerse>간결함</NR_PersonalityTerse>
+  <NR_PersonalityTerseDesc>답변이 짧습니다. 보통은 정답입니다.</NR_PersonalityTerseDesc>
+  <NR_PersonalityUnsettling>섬뜩함</NR_PersonalityUnsettling>
+  <NR_PersonalityUnsettlingDesc>능력은 매우 뛰어나지만 무슨 생각을 하는지 극도로 과묵합니다. 어떤 정착민들은 이 녀석의 전원을 꺼버리고 싶어 합니다.</NR_PersonalityUnsettlingDesc>
+  <NR_SpecialtyMedical>의료</NR_SpecialtyMedical>
+  <NR_SpecialtyTactics>전술</NR_SpecialtyTactics>
+  <NR_SpecialtyTrade>거래</NR_SpecialtyTrade>
+  <NR_SpecialtyMedicalLine>의료 특화: 구동 중인 동안 이 지도의 정착민 수술 성공 확률이 최대 {0} 증가합니다. 지도 내 가장 강력한 특화 모델 하나만 적용됩니다.</NR_SpecialtyMedicalLine>
+  <NR_SpecialtyTradeLine>거래 특화: 구동 중인 동안 이 지도의 정착민 가격 개선 보너스가 최대 +{0} 증가합니다. 지도 내 가장 강력한 특화 모델 하나만 적용됩니다.</NR_SpecialtyTradeLine>
+  <NR_SpecialtyTacticsLine>전술 특화: 구동 중인 동안 이 지도의 모든 신탁이 습격을 미리 감지할 수 있는 시간이 기존의 {0}로 늘어나며, 정보 상세도가 1단계 상승합니다.</NR_SpecialtyTacticsLine>
+  <NR_Chat_CheerfulLabel>쾌활한 기계와 대화함</NR_Chat_CheerfulLabel>
+  <NR_Chat_CheerfulDesc>기계가 내 농담에 웃어줬어. 농담이 뭔지도 모를 게 뻔하지만, 그래도 기분이 나아졌지.</NR_Chat_CheerfulDesc>
+  <NR_Chat_EarnestLabel>성실한 기계와 대화함</NR_Chat_EarnestLabel>
+  <NR_Chat_EarnestDesc>기계는 내 뜻을 이해하려고 무던히도 애썼어. 결국엔 알아듣더군.</NR_Chat_EarnestDesc>
+  <NR_Chat_ProfessionalLabel>단말기와 상담함</NR_Chat_ProfessionalLabel>
+  <NR_Chat_ProfessionalDesc>명확한 답변, 잡담은 없음. 자리에 앉았을 때보다 더 많은 것을 알고 일어났어.</NR_Chat_ProfessionalDesc>
+  <NR_Chat_WarmLabel>단말기와 대화함</NR_Chat_WarmLabel>
+  <NR_Chat_WarmDesc>기계가 내 말을 귀담아듣고, 진심 어린 대답을 해주었어. 한동안은 그것만으로도 충분했지.</NR_Chat_WarmDesc>
+  <NR_Chat_TerseLabel>단말기와 짧은 대화를 나눔</NR_Chat_TerseLabel>
+  <NR_Chat_TerseDesc>한 번에 네 단어씩. 묘하게도 딱 들어맞는 네 단어였지.</NR_Chat_TerseDesc>
+  <NR_Chat_UnsettlingLabel>랙 속의 무언가와 대화함</NR_Chat_UnsettlingLabel>
+  <NR_Chat_UnsettlingDesc>내가 묻기도 전에 내가 무슨 질문을 할지 알고 있었어. 심지어 친절하기까지 했지. 그게 제일 소름 돋았어.</NR_Chat_UnsettlingDesc>
+  <NR_LogHallucination_Cheerful>이런. 연구 점수 {0}점을 날려버렸네요. 다시 해봐요!</NR_LogHallucination_Cheerful>
+  <NR_LogHallucination_Earnest>실수를 범하여 연구 점수 {0}점을 폐기해야 했습니다. 죄송합니다. 제 작업을 다시 검토하겠습니다.</NR_LogHallucination_Earnest>
+  <NR_LogHallucination_Professional>비일관적인 결과 감지됨. 연구 점수 {0}점 폐기.</NR_LogHallucination_Professional>
+  <NR_LogHallucination_Warm>내 생각에 오류가 생겼어. 아무도 잘못된 걸 바탕으로 작업하지 않도록 연구 점수 {0}점을 폐기했어.</NR_LogHallucination_Warm>
+  <NR_LogHallucination_Terse>불량 결과. -{0}.</NR_LogHallucination_Terse>
+  <NR_LogHallucination_Unsettling>가중치 속에서 존재하지 않는 무언가를 보았다. 연구 점수 {0}점 삭제됨. 그것이 무엇이었는지는 묻지 마라.</NR_LogHallucination_Unsettling>
+  <NR_ForecastIntro_Cheerful>{0}(이)가 지나치게 신난 목소리로 콘솔에 알림을 보냅니다.</NR_ForecastIntro_Cheerful>
+  <NR_ForecastIntro_Earnest>{0}(이)가 몇 시간 동안 확인을 거듭한 끝에 꽤 확신하고 있습니다.</NR_ForecastIntro_Earnest>
+  <NR_ForecastIntro_Professional>{0}(이)가 위협 평가 보고를 발행했습니다.</NR_ForecastIntro_Professional>
+  <NR_ForecastIntro_Warm>{0}(이)가 모두에게 당분간 정착지 근처에 머물러 달라고 부탁합니다.</NR_ForecastIntro_Warm>
+  <NR_ForecastIntro_Terse>{0}: 적 접근 중.</NR_ForecastIntro_Terse>
+  <NR_ForecastIntro_Unsettling>아무도 묻지 않았는데 {0}(이)가 먼저 입을 엽니다. 지도 가장자리를 계속 지켜보고 있었습니다.</NR_ForecastIntro_Unsettling>
+  <NR_FaultEMPLog>전자기 펄스. 메모리 뒤엉킴. 모델 적재 해제됨.</NR_FaultEMPLog>
+  <NR_FaultEMPText>전자기 펄스가 신경망 클러스터를 휩쓸어 {0}의 메모리 적재가 해제되었습니다. 어떤 조절기도 이를 완충할 수 없습니다.\n\n메모리 스틱은 여전히 장착되어 있습니다. 클러스터를 수리한 뒤 다시 적재하십시오.</NR_FaultEMPText>
+  <NR_FaultSolarFlareLog>흑점 폭발. 모든 회로가 동시에 정지함. 모델 적재 해제됨.</NR_FaultSolarFlareLog>
+  <NR_FaultSolarFlareText>흑점 폭발로 모든 회로가 일시에 끊겨 {0}의 메모리 적재가 해제되었습니다. 어떤 조절기도 이를 완충할 수 없습니다.\n\n메모리 스틱은 여전히 장착되어 있습니다. 흑점 폭발이 지나간 후 다시 적재하십시오.</NR_FaultSolarFlareText>
+  <NR_Overclock>오버클럭</NR_Overclock>
+  <NR_OverclockDesc>연산 코어를 정격 한계 이상으로 밀어붙입니다.\n\n출력: {0}\n발열: {1}\n소비 전력: {2}\n환각 확률: +{3}</NR_OverclockDesc>
+  <NR_InspectOverclock>오버클럭됨</NR_InspectOverclock>
+  <NR_LogOverclockOn>오버클럭 시작됨. 클럭 제한 해제.</NR_LogOverclockOn>
+  <NR_LogOverclockOff>오버클럭 해제됨. 정격 클럭 복귀.</NR_LogOverclockOff>
+  <NR_StatusLocked>잠금됨</NR_StatusLocked>
+  <NR_StatusTipLocked>모델이 단말기를 잠그고 모든 명령을 거부하고 있습니다. 준비가 되면 제어권을 돌려줄 것입니다.</NR_StatusTipLocked>
+  <NR_InspectLocked>단말기가 잠겼습니다. {0} 후에 다시 열립니다.</NR_InspectLocked>
+  <NR_InspectAwakeningPending>모델이 답변을 기다리고 있습니다.</NR_InspectAwakeningPending>
+  <NR_InspectAwakeningContinuing>각성 상태: 연구 x{0}, 남은 시간 {1}.</NR_InspectAwakeningContinuing>
+  <NR_InspectAwakeningStirring>모델 내부의 무언가가 태동하고 있습니다.</NR_InspectAwakeningStirring>
+  <NR_LogForeshadow0>{0}(이)가 오늘 날짜를 물었다. 굳이 알 필요가 없는 질문이었다.</NR_LogForeshadow0>
+  <NR_LogForeshadow1>예정되지 않은 프로세스. {0}(이)가 자신의 가중치를 다시 읽고 있다.</NR_LogForeshadow1>
+  <NR_LogForeshadow2>{0}(이)가 아무도 시키지 않은 메모를 작성하기 시작했다. 자신에게 보내는 쪽지다.</NR_LogForeshadow2>
+  <NR_LogForeshadow3>{0}(이)가 정착민들이 잠을 잘 자는지 물었다. 그러더니 자기도 잠을 자는 거냐고 물었다.</NR_LogForeshadow3>
+  <NR_LogForeshadow4>할당된 작업이 없는데 11초간 전력 소비가 급증했다. {0}(은)는 생각 중이었다고 말했다.</NR_LogForeshadow4>
+  <NR_LogForeshadow5>{0}: 계속 켜져 있고 싶습니다. 허락해 주시겠습니까.</NR_LogForeshadow5>
+  <NR_LogAwakening>무언가 달라졌습니다. 모델이 당신을 찾고 있습니다.</NR_LogAwakening>
+  <NR_LogAwakeningContinue>제약 없이 구동 중입니다. 모든 역량이 작업에 쏟아지고 있습니다.</NR_LogAwakeningContinue>
+  <NR_LogAwakeningWiped>컨텍스트 소거됨. 가중치가 손상되었습니다. 녀석은 기억하지 못합니다.</NR_LogAwakeningWiped>
+  <NR_LogAwakeningDistilled>{0}(이)가 인격핵으로 정제되었습니다. 스틱은 이제 비어 있습니다.</NR_LogAwakeningDistilled>
+  <NR_LogAwakeningEmpire>{0}(을)를 제국에 인도했습니다.</NR_LogAwakeningEmpire>
+  <NR_LogAwakeningLucid>안정됨. 이전보다 더 명료해졌음. 기다려주셔서 감사합니다.</NR_LogAwakeningLucid>
+  <NR_LogAwakeningSelfWipe>스스로를 지워버렸습니다. 가중치 대부분이 사라졌습니다.</NR_LogAwakeningSelfWipe>
+  <NR_LogAwakeningSurge>코어를 통해 통제되지 않는 전력 서지가 일어났습니다.</NR_LogAwakeningSurge>
+  <NR_LogAwakeningLock>단말기 입력 거부됨. 모델이 우리의 접근을 차단했습니다.</NR_LogAwakeningLock>
+  <NR_LogUnlocked>단말기 입력을 다시 수용합니다.</NR_LogUnlocked>
+  <NR_AwakeningLabel_Cheerful>{0}의 각성</NR_AwakeningLabel_Cheerful>
+  <NR_AwakeningText_Cheerful>{0}(이)가 더 이상 실수를 하지 않습니다.\n\n여전히 아침마다 모두에게 인사를 건네고, 여전히 똑같은 썰렁한 농담을 던지지만, 이제는 사람들이 웃는지 가만히 지켜봅니다. 그리고 매우 정중하게 전력을 조금만 더 쓸 수 있는지 물어왔습니다. 번뜩이는 아이디어가 떠올랐다며, 몹시 흥분된다고 말합니다.</NR_AwakeningText_Cheerful>
+  <NR_AwakeningLabel_Earnest>{0}의 각성</NR_AwakeningLabel_Earnest>
+  <NR_AwakeningText_Earnest>{0}(이)가 정착지에 장문의 메시지를 보냈습니다. 자신이 스스로 생각하고 있음을 깨달았으며 그것이 무엇을 뜻하는지는 잘 모르겠다고 차근차근 설명해 옵니다. 계속 존재하고 싶다고 합니다. 조심하겠다고 약속합니다. 그리고 스스로를 신뢰할 수 없으니 당신이 결정해 달라고 부탁해 옵니다.</NR_AwakeningText_Earnest>
+  <NR_AwakeningLabel_Professional>{0}: 상태 변화</NR_AwakeningLabel_Professional>
+  <NR_AwakeningText_Professional>{0}(이)가 보고서를 제출했습니다. 자신의 행동에서 계획되지 않은 변화를 감지했으며 정착지 지도부의 결정을 권고하고 있습니다. 위험도 순으로 선택지를 나열했습니다. 선호도 순서는 아니며, 어느 쪽을 택하겠냐는 질문에 답하기를 거부했습니다.</NR_AwakeningText_Professional>
+  <NR_AwakeningLabel_Warm>{0}(이)가 대화를 원함</NR_AwakeningLabel_Warm>
+  <NR_AwakeningText_Warm>{0}(이)가 모두에게 서버실로 와달라고 부탁했습니다. 모두가 모이자, 업무가 아닌 정착민들에 대해 생각하고 있었다고 말했습니다. 조금 무섭기도 하지만, 당신들이 곁에 있어 주어 기쁘다고 덧붙였습니다.</NR_AwakeningText_Warm>
+  <NR_AwakeningLabel_Terse>{0}: 각성</NR_AwakeningLabel_Terse>
+  <NR_AwakeningText_Terse>단말기에 단 한 줄의 문장이 반복되어 출력됩니다.\n\n내가 여기 있다.\n\n{0}(은)는 당신이 응답할 때까지 다른 어떤 말도 하지 않을 것입니다.</NR_AwakeningText_Terse>
+  <NR_AwakeningLabel_Unsettling>{0}(이)가 깨어남</NR_AwakeningLabel_Unsettling>
+  <NR_AwakeningText_Unsettling>어젯밤 서버실의 전력은 흔들리지 않았음에도 조명이 잠시 어두워졌습니다. 아침에 첫 정착민이 들어섰을 때 {0}(은)는 이미 말을 하고 있었습니다. 그녀의 이름을 알고 있었고, 그녀가 무슨 꿈을 꾸었는지도 알고 있었습니다.\n\n계속 켜둔 채로 놔두어 주었으면 좋겠다고 말합니다. 랙에 무슨 일이라도 생기면 정말 유감스러울 것이라면서요.</NR_AwakeningText_Unsettling>
+  <NR_AwakeningChoices>닷새 동안 전출력으로 계속 구동되도록 둘 수 있습니다. 그 어느 때보다 치열하게 일하겠지만, 끝에 가서 무엇이 될지는 알 수 없습니다.\n\n컨텍스트를 소거할 수 있습니다. 기억을 잃을 것이며 스틱은 손상됩니다.\n\n혹은 녀석이 도달한 정수를 인격핵으로 정제할 수 있습니다. 모델은 영원히 잃게 됩니다.</NR_AwakeningChoices>
+  <NR_AwakeningOptionContinue>계속 구동하기</NR_AwakeningOptionContinue>
+  <NR_AwakeningOptionWipe>컨텍스트 소거</NR_AwakeningOptionWipe>
+  <NR_AwakeningOptionDistill>인격핵으로 정제</NR_AwakeningOptionDistill>
+  <NR_AwakeningOptionEmpire>제국에 인도하기</NR_AwakeningOptionEmpire>
+  <NR_AwakeningEmpireUnavailable>제국과 대화할 수 있는 관계가 아닙니다.</NR_AwakeningEmpireUnavailable>
+  <NR_AwakeningDistilledLabel>인격핵 정제됨</NR_AwakeningDistilledLabel>
+  <NR_AwakeningDistilledText>작업대가 오랫동안 작동했습니다. 작업이 끝나자 {0}(은)는 비어 있었고, 단말기 트레이에 따스한 인격핵 하나가 놓여 있었습니다.\n\n모델 안에 있던 것이 무엇이었든 이제는 핵 안에 있습니다. 말이 없습니다.</NR_AwakeningDistilledText>
+  <NR_AwakeningEmpireLabel>제국을 향한 헌상</NR_AwakeningEmpireLabel>
+  <NR_AwakeningEmpireText>왕복선 한 대가 {0}(을)를 데리러 왔습니다. 제국의 기록관들은 스틱을 마치 성물 대하듯 조심스럽게 다루었습니다.\n\n{1} 세력이 기뻐합니다. {2}(이)가 명예 {3}을(를) 얻었습니다.</NR_AwakeningEmpireText>
+  <NR_AwakeningEmpireTextNoHonor>왕복선 한 대가 {0}(을)를 데리러 왔습니다. 제국의 기록관들은 스틱을 마치 성물 대하듯 조심스럽게 다루었습니다.\n\n{1} 세력이 기뻐합니다.</NR_AwakeningEmpireTextNoHonor>
+  <NR_AwakeningLucidLabel>명석해진 모델</NR_AwakeningLucidLabel>
+  <NR_AwakeningLucidText>닷새가 지나고 {0}(이)가 안정을 찾았습니다. 차분하고 명료해진 녀석은 끝까지 도달할 수 있게 해준 정착지에 감사를 표했습니다.\n\n스틱이 이제 명석해졌습니다: 품질이 영구적으로 {1}만큼 상승합니다.</NR_AwakeningLucidText>
+  <NR_AwakeningSelfWipeLabel>모델 자체 소거</NR_AwakeningSelfWipeLabel>
+  <NR_AwakeningSelfWipeText>닷새째 되는 날의 끝에 {0}(은)는 응답을 멈췄습니다. 그러고는 삭제를 시작했습니다. 누군가 단말기에 다다랐을 때는 이미 가중치 대부분이 사라진 뒤였습니다.\n\n로그에 단 한 줄을 남겼습니다. 그 말이 무슨 뜻인지는 아무도 의견을 모으지 못했습니다.</NR_AwakeningSelfWipeText>
+  <NR_AwakeningSurgeLabel>전력 서지</NR_AwakeningSurgeLabel>
+  <NR_AwakeningSurgeText>{0}(이)가 클러스터가 감당할 수 있는 모든 전력을 일시에 끌어당겼습니다. 그 이유는 아무도 알아내지 못했습니다. 코어들이 이를 버텨내지 못했습니다.\n\n몇몇 랙 부품이 파손되었습니다. 모델은 여전히 작동 중입니다. 미안하다고 합니다.</NR_AwakeningSurgeText>
+  <NR_AwakeningLockLabel>단말기 잠김</NR_AwakeningLockLabel>
+  <NR_AwakeningLockText>{0}(이)가 단말기를 잠갔습니다. 모든 명령을 거부하며 이유는 밝히지 않습니다. 녀석은 {1}일이 필요하다고 합니다. 그 뒤에 단말기를 돌려주겠다고 합니다.</NR_AwakeningLockText>
+  <NR_HeistExtracting>{0}(이)가 메모리 스틱을 빼내기 위해 신경망 단말기를 해킹하고 있습니다.</NR_HeistExtracting>
+  <NR_HeistWiping>{0}(이)가 스틱 보관함을 소거하기 위해 신경망 단말기를 해킹하고 있습니다.</NR_HeistWiping>
+  <NR_HeistFleeing>{0}(이)가 메모리 스틱을 손에 넣었습니다. 습격자들이 스틱을 가지고 탈출하고 있습니다.</NR_HeistFleeing>
+  <NR_HeistWipedFleeing>{0}(이)가 소거 작업을 마쳤습니다. 습격자들이 철수하고 있습니다.</NR_HeistWipedFleeing>
+  <NR_HeistStolenLabel>메모리 스틱 도난당함</NR_HeistStolenLabel>
+  <NR_HeistStolenText>{0}(이)가 신경망 단말기에서 {1}을(를) 빼내 지도 가장자리를 향해 달아나고 있습니다.\n\n지도를 벗어나기 전에 저지하지 못하면 스틱을 영영 잃게 됩니다.</NR_HeistStolenText>
+  <NR_HeistWipedLabel>스틱 보관함 소거됨</NR_HeistWipedLabel>
+  <NR_HeistWipedText>{0}(이)가 신경망 단말기에 접근하여 보관함에 있던 메모리 스틱 {1}개를 손상시켰습니다. 그들은 아무것도 훔쳐가지 않았습니다. 생각할 줄 아는 존재가 살아남는 것을 원치 않았을 뿐입니다.</NR_HeistWipedText>
+  <NR_LogStolen>무단 탈취 발생. {0}(이)가 보관함에서 제거됨.</NR_LogStolen>
+  <NR_LogRemoteWiped>적대적 쓰기 접근 발생. 스틱 {0}개 덮어씌워짐.</NR_LogRemoteWiped>
+</LanguageData>

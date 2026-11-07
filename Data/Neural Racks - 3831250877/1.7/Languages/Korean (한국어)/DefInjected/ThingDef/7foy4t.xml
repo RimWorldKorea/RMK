@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <NR_MemoryBank.label>메모리 뱅크</NR_MemoryBank.label>
+  <NR_MemoryBank.description>고속 메모리 모듈이 장착된 랙 캐비닛입니다. 각 뱅크는 4GB의 모델 가중치를 저장할 수 있습니다. 언어 모델 전체가 클러스터의 메모리 용량 안에 들어가지 않으면 실행되지 않습니다.\n\n랙 부품들은 서로 전력을 전달하므로, 클러스터의 어느 한 부분에만 전선이 연결되어도 전체에 전력이 공급됩니다. 클러스터를 구성하려면 단 하나의 신경망 단말기와 다른 부품들을 서로 맞닿게 배치하십시오.</NR_MemoryBank.description>
+  <NR_ComputeCore.label>연산 코어</NR_ComputeCore.label>
+  <NR_ComputeCore.description>육중한 방열판 아래에 행렬 프로세서가 밀집된 블록입니다. 코어는 실제로 모델을 구동하는 핵심 장치입니다: 코어가 많을수록 하루에 더 많은 연구를 수행하지만, 더 많은 전력을 소모하고 훨씬 많은 열을 발생시킵니다. 유휴 상태의 코어는 전력을 거의 쓰지 않지만, 부하가 걸린 코어는 많은 전력을 소모합니다.</NR_ComputeCore.description>
+  <NR_NeuralTerminal.label>신경망 단말기</NR_NeuralTerminal.label>
+  <NR_NeuralTerminal.description>랙 클러스터의 제어 콘솔입니다. 이곳에 메모리 스틱을 장착하고 모델을 적재한 뒤, 모델의 연산 시간을 연구, 습격 예측, 정착민과의 대화로 분배할 수 있습니다. 각 클러스터에는 정확히 하나의 단말기가 필요합니다.\n\n단말기를 선택하고 "단말기 열기"를 통해 관리하십시오.</NR_NeuralTerminal.description>
+  <NR_CoolingUnit.label>냉각 장치</NR_CoolingUnit.label>
+  <NR_CoolingUnit.description>클러스터에서 열을 배출하는 이중 팬 수랭식 냉각 캐비닛입니다. 냉각 장치가 코어의 발열을 따라가지 못하면 모델에 스로틀링이 걸리고, 랙이 과열된 상태로 방치되면 결국 부품이 타버립니다. 폐열의 일부가 방으로 방출되므로 랙이 있는 방을 환기하거나 냉방기를 설치하십시오.</NR_CoolingUnit.description>
+  <NR_PowerRegulator.label>전력 조절기</NR_PowerRegulator.label>
+  <NR_PowerRegulator.description>클러스터를 위한 축전기 뱅크 겸 전력 조절 장비입니다. 이 장치가 없으면 전압이 약간만 떨어져도 적재된 모델이 즉시 비정상 종료(하드 크래시)됩니다. 장치가 있으면 버퍼를 사용해 최대 15초 동안의 전압 강하를 버텨내며, 버퍼는 전력이 안정적인 동안 재충전됩니다.</NR_PowerRegulator.description>
+  <NR_QuantBench.label>양자화 작업대</NR_QuantBench.label>
+  <NR_QuantBench.description>모델 가중치를 압축하는 작업대입니다. 연구 능력이 있는 정착민이 메모리 스틱을 품질을 희생하는 대신 더 작은 포맷으로 양자화하여 적은 메모리 뱅크에 적재되도록 만들 수 있습니다. 또한 스틱을 오랫동안 미세 조정(파인튜닝)하여 손실된 품질 일부를 복원할 수도 있지만, 상위 포맷의 품질에는 미치지 못합니다.</NR_QuantBench.description>
+  <NR_Stick_Asclepius8B_FP16.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_Asclepius8B_FP16.description>
+  <NR_Stick_Asclepius8B_FP16.label>메모리 스틱 (아스클레피오스-8B FP16)</NR_Stick_Asclepius8B_FP16.label>
+  <NR_Stick_Asclepius8B_Q8.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_Asclepius8B_Q8.description>
+  <NR_Stick_Asclepius8B_Q8.label>메모리 스틱 (아스클레피오스-8B Q8)</NR_Stick_Asclepius8B_Q8.label>
+  <NR_Stick_Asclepius8B_Q4.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_Asclepius8B_Q4.description>
+  <NR_Stick_Asclepius8B_Q4.label>메모리 스틱 (아스클레피오스-8B Q4)</NR_Stick_Asclepius8B_Q4.label>
+  <NR_Stick_Asclepius8B_Q2.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_Asclepius8B_Q2.description>
+  <NR_Stick_Asclepius8B_Q2.label>메모리 스틱 (아스클레피오스-8B Q2)</NR_Stick_Asclepius8B_Q2.label>
+  <NR_Stick_Strategos20B_FP16.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_Strategos20B_FP16.description>
+  <NR_Stick_Strategos20B_FP16.label>메모리 스틱 (스트라테고스-20B FP16)</NR_Stick_Strategos20B_FP16.label>
+  <NR_Stick_Strategos20B_Q8.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_Strategos20B_Q8.description>
+  <NR_Stick_Strategos20B_Q8.label>메모리 스틱 (스트라테고스-20B Q8)</NR_Stick_Strategos20B_Q8.label>
+  <NR_Stick_Strategos20B_Q4.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_Strategos20B_Q4.description>
+  <NR_Stick_Strategos20B_Q4.label>메모리 스틱 (스트라테고스-20B Q4)</NR_Stick_Strategos20B_Q4.label>
+  <NR_Stick_Strategos20B_Q2.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_Strategos20B_Q2.description>
+  <NR_Stick_Strategos20B_Q2.label>메모리 스틱 (스트라테고스-20B Q2)</NR_Stick_Strategos20B_Q2.label>
+  <NR_Stick_Haggler7B_FP16.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_Haggler7B_FP16.description>
+  <NR_Stick_Haggler7B_FP16.label>메모리 스틱 (흥정꾼-7B FP16)</NR_Stick_Haggler7B_FP16.label>
+  <NR_Stick_Haggler7B_Q8.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_Haggler7B_Q8.description>
+  <NR_Stick_Haggler7B_Q8.label>메모리 스틱 (흥정꾼-7B Q8)</NR_Stick_Haggler7B_Q8.label>
+  <NR_Stick_Haggler7B_Q4.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_Haggler7B_Q4.description>
+  <NR_Stick_Haggler7B_Q4.label>메모리 스틱 (흥정꾼-7B Q4)</NR_Stick_Haggler7B_Q4.label>
+  <NR_Stick_Haggler7B_Q2.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_Haggler7B_Q2.description>
+  <NR_Stick_Haggler7B_Q2.label>메모리 스틱 (흥정꾼-7B Q2)</NR_Stick_Haggler7B_Q2.label>
+  <NR_Stick_Chinchilla1B_FP16.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_Chinchilla1B_FP16.description>
+  <NR_Stick_Chinchilla1B_FP16.label>메모리 스틱 (친칠라-1B FP16)</NR_Stick_Chinchilla1B_FP16.label>
+  <NR_Stick_Chinchilla1B_Q8.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_Chinchilla1B_Q8.description>
+  <NR_Stick_Chinchilla1B_Q8.label>메모리 스틱 (친칠라-1B Q8)</NR_Stick_Chinchilla1B_Q8.label>
+  <NR_Stick_Chinchilla1B_Q4.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_Chinchilla1B_Q4.description>
+  <NR_Stick_Chinchilla1B_Q4.label>메모리 스틱 (친칠라-1B Q4)</NR_Stick_Chinchilla1B_Q4.label>
+  <NR_Stick_Chinchilla1B_Q2.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_Chinchilla1B_Q2.description>
+  <NR_Stick_Chinchilla1B_Q2.label>메모리 스틱 (친칠라-1B Q2)</NR_Stick_Chinchilla1B_Q2.label>
+  <NR_Stick_Alpaca4B_FP16.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_Alpaca4B_FP16.description>
+  <NR_Stick_Alpaca4B_FP16.label>메모리 스틱 (알파카-4B FP16)</NR_Stick_Alpaca4B_FP16.label>
+  <NR_Stick_Alpaca4B_Q8.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_Alpaca4B_Q8.description>
+  <NR_Stick_Alpaca4B_Q8.label>메모리 스틱 (알파카-4B Q8)</NR_Stick_Alpaca4B_Q8.label>
+  <NR_Stick_Alpaca4B_Q4.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_Alpaca4B_Q4.description>
+  <NR_Stick_Alpaca4B_Q4.label>메모리 스틱 (알파카-4B Q4)</NR_Stick_Alpaca4B_Q4.label>
+  <NR_Stick_Alpaca4B_Q2.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_Alpaca4B_Q2.description>
+  <NR_Stick_Alpaca4B_Q2.label>메모리 스틱 (알파카-4B Q2)</NR_Stick_Alpaca4B_Q2.label>
+  <NR_Stick_Muffstral12B_FP16.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_Muffstral12B_FP16.description>
+  <NR_Stick_Muffstral12B_FP16.label>메모리 스틱 (머프스트랄-12B FP16)</NR_Stick_Muffstral12B_FP16.label>
+  <NR_Stick_Muffstral12B_Q8.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_Muffstral12B_Q8.description>
+  <NR_Stick_Muffstral12B_Q8.label>메모리 스틱 (머프스트랄-12B Q8)</NR_Stick_Muffstral12B_Q8.label>
+  <NR_Stick_Muffstral12B_Q4.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_Muffstral12B_Q4.description>
+  <NR_Stick_Muffstral12B_Q4.label>메모리 스틱 (머프스트랄-12B Q4)</NR_Stick_Muffstral12B_Q4.label>
+  <NR_Stick_Muffstral12B_Q2.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_Muffstral12B_Q2.description>
+  <NR_Stick_Muffstral12B_Q2.label>메모리 스틱 (머프스트랄-12B Q2)</NR_Stick_Muffstral12B_Q2.label>
+  <NR_Stick_Jade27B_FP16.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_Jade27B_FP16.description>
+  <NR_Stick_Jade27B_FP16.label>메모리 스틱 (제이드-27B FP16)</NR_Stick_Jade27B_FP16.label>
+  <NR_Stick_Jade27B_Q8.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_Jade27B_Q8.description>
+  <NR_Stick_Jade27B_Q8.label>메모리 스틱 (제이드-27B Q8)</NR_Stick_Jade27B_Q8.label>
+  <NR_Stick_Jade27B_Q4.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_Jade27B_Q4.description>
+  <NR_Stick_Jade27B_Q4.label>메모리 스틱 (제이드-27B Q4)</NR_Stick_Jade27B_Q4.label>
+  <NR_Stick_Jade27B_Q2.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_Jade27B_Q2.description>
+  <NR_Stick_Jade27B_Q2.label>메모리 스틱 (제이드-27B Q2)</NR_Stick_Jade27B_Q2.label>
+  <NR_Stick_DeepDrill70B_FP16.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_DeepDrill70B_FP16.description>
+  <NR_Stick_DeepDrill70B_FP16.label>메모리 스틱 (딥드릴-70B FP16)</NR_Stick_DeepDrill70B_FP16.label>
+  <NR_Stick_DeepDrill70B_Q8.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_DeepDrill70B_Q8.description>
+  <NR_Stick_DeepDrill70B_Q8.label>메모리 스틱 (딥드릴-70B Q8)</NR_Stick_DeepDrill70B_Q8.label>
+  <NR_Stick_DeepDrill70B_Q4.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_DeepDrill70B_Q4.description>
+  <NR_Stick_DeepDrill70B_Q4.label>메모리 스틱 (딥드릴-70B Q4)</NR_Stick_DeepDrill70B_Q4.label>
+  <NR_Stick_DeepDrill70B_Q2.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_DeepDrill70B_Q2.description>
+  <NR_Stick_DeepDrill70B_Q2.label>메모리 스틱 (딥드릴-70B Q2)</NR_Stick_DeepDrill70B_Q2.label>
+  <NR_Stick_Thrumbo400B_FP16.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_Thrumbo400B_FP16.description>
+  <NR_Stick_Thrumbo400B_FP16.label>메모리 스틱 (트럼보-400B FP16)</NR_Stick_Thrumbo400B_FP16.label>
+  <NR_Stick_Thrumbo400B_Q8.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_Thrumbo400B_Q8.description>
+  <NR_Stick_Thrumbo400B_Q8.label>메모리 스틱 (트럼보-400B Q8)</NR_Stick_Thrumbo400B_Q8.label>
+  <NR_Stick_Thrumbo400B_Q4.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_Thrumbo400B_Q4.description>
+  <NR_Stick_Thrumbo400B_Q4.label>메모리 스틱 (트럼보-400B Q4)</NR_Stick_Thrumbo400B_Q4.label>
+  <NR_Stick_Thrumbo400B_Q2.description>모델 가중치가 담긴 데이터 스틱입니다. 신경망 단말기에 장착하십시오. 연결된 메모리 뱅크에 파일 전체가 들어가지 않으면 모델이 실행되지 않습니다.</NR_Stick_Thrumbo400B_Q2.description>
+  <NR_Stick_Thrumbo400B_Q2.label>메모리 스틱 (트럼보-400B Q2)</NR_Stick_Thrumbo400B_Q2.label>
+  <NR_BlankStick.label>빈 메모리 스틱</NR_BlankStick.label>
+  <NR_BlankStick.description>비어 있는 메모리 스틱입니다. 강철 케이스와 제어기용 부품이 들어 있지만 내부는 완전히 비어 있습니다. 양자화 작업대에서 이 스틱에 가중치를 기록합니다.</NR_BlankStick.description>
+  <NR_MemoryBankII.label>메모리 뱅크 II</NR_MemoryBankII.label>
+  <NR_MemoryBankII.description>적층 모듈이 장착된 2세대 메모리 캐비닛입니다. 각 뱅크는 8GB의 모델 가중치를 저장할 수 있어, 동일한 면적에서 1세대 설계의 두 배 용량을 제공합니다.\n\n다른 모든 랙 부품과 마찬가지로 맞닿아 있는 부품에 전력을 전달합니다.</NR_MemoryBankII.description>
+  <NR_ComputeCoreII.label>연산 코어 II</NR_ComputeCoreII.label>
+  <NR_ComputeCoreII.description>베이퍼 챔버 아래에 장착된 듀얼 행렬 프로세서입니다. 1세대 코어 1.5개분 이상의 작업을 수행하지만, 그만큼 더 뜨겁고 더 많은 전력을 소비합니다. 요구하는 만큼의 냉각기를 붙여주십시오.</NR_ComputeCoreII.description>
+</LanguageData>
