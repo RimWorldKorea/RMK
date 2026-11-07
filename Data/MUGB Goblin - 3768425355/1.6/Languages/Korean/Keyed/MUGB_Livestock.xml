@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- 기즈모 -->
+  <MUGB_DesignateForSlaughter>가축으로 지정</MUGB_DesignateForSlaughter>
+  <MUGB_DesignateForSlaughterDesc>살아있는 채로 도축 작업대까지 끌고 가 그 자리에서 처분하도록 지정합니다. 시체는 작업대 옆에 남아 곧바로 도축됩니다.\n\n해당 종족의 시체를 허용하는 도축 계획서가 걸린 작업대로만 데려갑니다.</MUGB_DesignateForSlaughterDesc>
+
+  <MUGB_NoButcherStationWarning>{PAWN_nameDef}을(를) 받아줄 도축 작업대가 없습니다. 도축대나 고블린 조리대에 계획서를 걸고, 재료 목록에서 해당 종족의 시체를 허용하세요.</MUGB_NoButcherStationWarning>
+  <MUGB_NoUsableButcherStation>이 종족의 시체를 허용하는 도축 계획서가 걸린 작업대가 없음.</MUGB_NoUsableButcherStation>
+
+  <!-- 인간가축 탭 -->
+  <MUGB_TabViewPrisoners>죄수</MUGB_TabViewPrisoners>
+  <MUGB_TabViewSlaves>노예</MUGB_TabViewSlaves>
+  <MUGB_TabViewMarked>지정됨</MUGB_TabViewMarked>
+  <MUGB_TabBulkTreatment>전체 처우 지정</MUGB_TabBulkTreatment>
+  <MUGB_TabSummary>노예 {0}명 · 죄수 {1}명          도축 지정 {2}명</MUGB_TabSummary>
+  <MUGB_TabSummaryNoStation>받아줄 도축 계획서가 없습니다</MUGB_TabSummaryNoStation>
+
+  <!-- 탭 컬럼 -->
+  <MUGB_ColumnDesignateTip>도축 대상으로 지정합니다. 조련 담당 폰이 도축 작업대로 데려가 처분합니다.</MUGB_ColumnDesignateTip>
+  <MUGB_ColumnProtectTip>자동 규칙에서 영구히 제외합니다. 손으로 지정하는 것은 여전히 가능합니다.</MUGB_ColumnProtectTip>
+  <MUGB_LivestockSourceManual>수동</MUGB_LivestockSourceManual>
+  <MUGB_LivestockSourceTreatment>처우</MUGB_LivestockSourceTreatment>
+  <MUGB_KindHybridXenotype>혼합 제노타입</MUGB_KindHybridXenotype>
+
+  <!-- 모드 설정 -->
+  <MUGB_SettingsLivestockHeader>인간가축</MUGB_SettingsLivestockHeader>
+  <MUGB_SettingsNewPrisonersAsMeatLabel>새로 잡힌 죄수를 '고기용 가축' 처우로 시작</MUGB_SettingsNewPrisonersAsMeatLabel>
+  <MUGB_SettingsNewPrisonersAsMeatDesc>전투 후 포로마다 처우를 지정하는 수고를 덜어줍니다. 켜두고 잊으면 능력이 좋은 포로나 퀘스트 인질까지 도축대로 갈 수 있으니, 인간가축 탭에서 예외를 빼주세요. 이미 다른 처우가 지정된 죄수는 건드리지 않습니다.</MUGB_SettingsNewPrisonersAsMeatDesc>
+  <MUGB_NewPrisonerSetToMeatLivestock>{PAWN_nameDef}이(가) 고기용 가축으로 지정되었습니다.</MUGB_NewPrisonerSetToMeatLivestock>
+
+  <MUGB_TabNoPrecept>이데올로기에 '노예 도축' 규율이 없어 기능이 잠겨 있습니다. 이데올로기 개혁에서 '노예 도축'을 '상관없음' 또는 '허용함'으로 설정하세요.</MUGB_TabNoPrecept>
+  <MUGB_DesignateNoPrecept>이데올로기에 '노예 도축' 규율이 없습니다. 이데올로기 개혁에서 '상관없음' 또는 '허용함'을 선택하세요.</MUGB_DesignateNoPrecept>
+
+
+  <!-- 자동 도축 (P4) -->
+  <MUGB_TabAutoSlaughter>자동 도축</MUGB_TabAutoSlaughter>
+  <MUGB_AutoSlaughterTitle>자동 솎아내기</MUGB_AutoSlaughterTitle>
+  <MUGB_AutoSlaughterEnable>자동 솎아내기 사용</MUGB_AutoSlaughterEnable>
+  <MUGB_AutoSlaughterNoKinds>이 정착지에 노예가 없습니다.</MUGB_AutoSlaughterNoKinds>
+  <MUGB_CullOrderLowestSkill>능력 낮은 순</MUGB_CullOrderLowestSkill>
+  <MUGB_CullOrderOldest>오래된 순</MUGB_CullOrderOldest>
+  <MUGB_CullOrderRecentlyAdult>최근 성인이 된 순</MUGB_CullOrderRecentlyAdult>
+
+
+  <MUGB_AutoSlaughterHint>빈 칸은 상한 없음입니다. 각 칸 위 작은 숫자가 현재 인원입니다. 보호 표시된 노예는 규칙과 무관하게 항상 제외됩니다.</MUGB_AutoSlaughterHint>
+  <MUGB_AutoSlaughterNoCapTip>비워 두면 상한이 없습니다.</MUGB_AutoSlaughterNoCapTip>
+  <MUGB_AutoColTotal>총원</MUGB_AutoColTotal>
+  <MUGB_AutoColMales>수컷</MUGB_AutoColMales>
+  <MUGB_AutoColFemales>암컷</MUGB_AutoColFemales>
+  <MUGB_AutoColMalesYoung>어린 수컷</MUGB_AutoColMalesYoung>
+  <MUGB_AutoColFemalesYoung>어린 암컷</MUGB_AutoColFemalesYoung>
+  <MUGB_AutoColPregnant>임신 도축</MUGB_AutoColPregnant>
+  <MUGB_AutoColPregnantTip>임신한 노예도 같이 솎아냅니다. 꺼두면 임신 중에는 지정되지 않습니다.</MUGB_AutoColPregnantTip>
+  <MUGB_AutoColOrder>솎는 순서</MUGB_AutoColOrder>
+  <MUGB_AutoColOrderTip>상한을 넘겼을 때 누구부터 지정할지 정합니다.</MUGB_AutoColOrderTip>
+
+  <MUGB_LivestockSourceAuto>자동</MUGB_LivestockSourceAuto>
+
+  <MUGB_SettingsShowLivestockTabLabel>인간가축 탭 표시</MUGB_SettingsShowLivestockTabLabel>
+  <MUGB_SettingsShowLivestockTabDesc>하단 탭바에 인간가축 탭 버튼을 띄웁니다. 꺼도 노예·죄수 기즈모와 죄수 처우는 그대로 쓸 수 있고, 자동 솎아내기 설정도 유지됩니다. 탭바를 깔끔하게 쓰고 싶을 때만 끄세요.</MUGB_SettingsShowLivestockTabDesc>
+
+</LanguageData>
