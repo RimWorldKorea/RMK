@@ -1,5 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+  <DMS_ArchiveCasket_LabelFormat>{0} ({1})</DMS_ArchiveCasket_LabelFormat>
+  <DMS_ArchiveCasket_Contents>내용물: {0} ({1} 문서)</DMS_ArchiveCasket_Contents>
+  <DMS_ArchiveCasket_UnsealedLabel>보관함 개봉됨: {0}</DMS_ArchiveCasket_UnsealedLabel>
+  <DMS_ArchiveCasket_UnsealedText>{PAWN}(이)가 {CASKET}(을)를 개봉했습니다. 안에는 해석이 완료된, 완전한 문서인 {PROJECT} 하나가 들어있습니다. 이 기술은 이제 우리의 것입니다.</DMS_ArchiveCasket_UnsealedText>
+  <DMS_ArchiveCasket_PendingLabel>보유 문서: {0}</DMS_ArchiveCasket_PendingLabel>
+  <DMS_ArchiveCasket_PendingText>{PAWN}(이)가 {CASKET}(을)를 개봉했습니다. 내부 문서는 {PROJECT}이며, 먼저 {PREREQS}가 필요합니다. 연구원들은 잠시 보류하기로 했습니다.</DMS_ArchiveCasket_PendingText>
+  <DMS_ArchiveCasket_DecodedLabel>문서 해석됨: {0}</DMS_ArchiveCasket_DecodedLabel>
+  <DMS_ArchiveCasket_DecodedText>준비 작업이 끝났습니다: {PROJECT}는 이제 우리의 것입니다.</DMS_ArchiveCasket_DecodedText>
+  <DMS_ArchiveCasket_AlreadyOpenText>{CASKET}은 이미 개봉된 지 오래입니다. 그럼에도 불구하고, {PAWN}은 남은 암호화 정보로부터 약간의 이득을 볼 수 있었습니다.</DMS_ArchiveCasket_AlreadyOpenText>
+  <DMS_ArchiveCasket_EmptyText>{CASKET} 안에는 아무것도 없습니다. 그럼에도 불구하고, {PAWN}은 남은 암호화 정보로부터 약간의 이득을 볼 수 있었습니다.</DMS_ArchiveCasket_EmptyText>
+  <DMS_Arsenal_ExpiredLabel>무기고의 단서 소실</DMS_Arsenal_ExpiredLabel>
+  <DMS_Arsenal_ExpiredText>옛 무기고에 관한 조사 기록이 너무 오래되었습니다. 현장 위치를 잃었습니다.</DMS_Arsenal_ExpiredText>
+  <DMS_Arsenal_ClearedLabel>무기고 확보</DMS_Arsenal_ClearedLabel>
+  <DMS_Arsenal_ClearedText>옛 무기고를 순찰하던 그레이브키퍼들이 쓰러지고 현장의 방어 체계가 잠잠해졌습니다.\n\n벙커의 봉인은 아직 유지되고 있습니다. 중앙 플랫폼의 유인 레이더로 타르보사우루스를 불러들여 파괴한 뒤, 각 벙커의 보안 제어 단말기를 해킹해 방폭문을 열고 무엇이 남아 있는지 확인하십시오.</DMS_Arsenal_ClearedText>
+  <DMS_Arsenal_EntryCountdownLabel>옛 무기고: 증원군 접근 중</DMS_Arsenal_EntryCountdownLabel>
+  <DMS_Arsenal_EntryCountdownText>옛 무기고에 진입했습니다. 무인 보안망이 당신들의 존재를 포착했습니다.\n\n{0} 후 적 증원군이 도착합니다. 그 전에 그레이브키퍼들을 처리하고, 타르보사우루스를 불러들여 파괴한 뒤 벙커 안으로 진입하십시오.</DMS_Arsenal_EntryCountdownText>
+  <DMS_ArsenalPatrol_Challenge>그레이브키퍼 한 기가 멈춰 서서 {0}(을)를 검문하고 있습니다. 그레이브키퍼는 공격받거나, 침입자가 벙커에 들어가거나, 벙커의 봉인이 풀리거나, 시설의 경계 수준이 높아지기 전까지는 발포하지 않습니다.</DMS_ArsenalPatrol_Challenge>
+  <DMS_ArsenalPatrol_Search>벙커의 봉인이 풀렸습니다. 그레이브키퍼들이 단지를 수색하고 있습니다.</DMS_ArsenalPatrol_Search>
   <DMS_BionicShock_LevelUp>{PAWN_labelShort}의 상태가 악화되었습니다: {0}.</DMS_BionicShock_LevelUp>
   <DMS_BionicShock_LevelDown>{PAWN_labelShort}의 상태가 완화되었습니다: {0}.</DMS_BionicShock_LevelDown>
   <DMS_BionicShock_Cured>{PAWN_labelShort}의 {0}(이)가 완치되었습니다.</DMS_BionicShock_Cured>
@@ -18,6 +36,62 @@
   <DMS_DecoySite_ClearedText>잔존군 중계 기지의 모든 적을 무력화했습니다. 미끼 안테나를 비롯한 현장 장비를 사용할 수 있지만, 잔존군이 계속 주변을 탐색할 수 있으니 대비하십시오.</DMS_DecoySite_ClearedText>
   <DMS_DecoySite_EntryCountdownLabel>적대 시설: 증원군 접근 중</DMS_DecoySite_EntryCountdownLabel>
   <DMS_DecoySite_EntryCountdownText>적대적인 잔존군 시설에 진입했습니다. 감시 프로토콜이 우리의 존재를 감지했습니다.\n\n{0} 후 적 지원군이 도착합니다. 볼일을 마치고 떠나거나 방어 진지를 구축하십시오.</DMS_DecoySite_EntryCountdownText>
+  <DMS_DeviantRefuge_ArrivedLabel>이탈자 도착</DMS_DeviantRefuge_ArrivedLabel>
+  <DMS_DeviantRefuge_ArrivedText>{DEVIANT_nameFull}(이)가 도착하여 정착지에 합류했습니다.\n\n{DEVIANT_pronoun}(은)는 암호화 기록을 복원하기 시작했으며, {DAYS}일이 걸릴 것으로 보입니다. 그때까지 {FLEET}(은)는 {DEVIANT_nameDef}(이)가 이곳에 있다는 사실을 모릅니다.</DMS_DeviantRefuge_ArrivedText>
+  <DMS_DeviantRefuge_HandoverInfo>기록 복원: {0}</DMS_DeviantRefuge_HandoverInfo>
+  <DMS_DeviantRefuge_HandoverInfoTip>{0}에 암호화 기록 복원이 완료되며, 그때 식민 함대가 이탈자의 인도를 요구할 것입니다.</DMS_DeviantRefuge_HandoverInfoTip>
+  <DMS_DeviantRefuge_HandoverLabel>봉인된 파일 복원</DMS_DeviantRefuge_HandoverLabel>
+  <DMS_DeviantRefuge_HandoverText>{DEVIANT_nameFull}(은)는 {DEVIANT_possessive} 약속대로 복원한 암호화 파일을 넘겨주었습니다.\n\n{GRANTED}\n\n동시에 {FLEET}(은)는 우리가 이탈자를 숨겨 주고 있다고 판단하여 적대로 돌아섰습니다.\n\n함대는 이 일을 그냥 넘기지 않을 것입니다. {DEVIANT_nameDef}(이)가 정착지에 머무르는 한 추적대는 계속 찾아올 것입니다.</DMS_DeviantRefuge_HandoverText>
+  <DMS_DeviantRefuge_HandoverTextDeferred>{DEVIANT_nameFull}(은)는 {DEVIANT_possessive} 약속대로 복원한 암호화 파일을 넘겨주었습니다.\n\n{GRANTED}\n\n{FLEET}(은)는 우리가 {DEVIANT_nameDef}(을)를 숨겨 주고 있다는 사실을 알아차렸지만, 아직 군법회의가 진행 중이므로 휴전을 지키며 사격을 삼가고 있습니다. 재판이 끝나는 순간 관계는 적대로 바뀌고, 추적대가 뒤따를 것입니다.</DMS_DeviantRefuge_HandoverTextDeferred>
+  <DMS_DeviantRefuge_DeferredInfo>군법회의가 끝나면 적대 관계로 전환</DMS_DeviantRefuge_DeferredInfo>
+  <DMS_DeviantRefuge_HostilityLabel>함대의 적대 전환</DMS_DeviantRefuge_HostilityLabel>
+  <DMS_DeviantRefuge_HostilityText>군법회의가 끝나면서 휴전도 종료되었습니다. {FLEET}(은)는 우리가 이탈자를 숨겨 주었다는 이유로 적대로 돌아섰습니다.\n\n함대는 이 일을 그냥 넘기지 않을 것입니다. {DEVIANT_nameDef}(이)가 정착지에 머무르는 한 추적대는 계속 찾아올 것입니다.</DMS_DeviantRefuge_HostilityText>
+  <DMS_DeviantExtradition_LetterLabel>인도 요구: {DEVIANT_nameDef}</DMS_DeviantExtradition_LetterLabel>
+  <DMS_DeviantExtradition_LetterText>{DEVIANT_nameFull}(이)가 기록 복원을 마쳤지만, 동시에 {FLEET}(은)는 우리가 {DEVIANT_nameDef}(을)를 숨겨 주고 있다는 사실을 알아차렸습니다. 헌병 사령부에서 정식으로 신병 인도를 요구해 왔습니다.\n\n{DEVIANT_objective}(을)를 인도할 경우:\n{REWARDS}\n함대가 암호화 기록을 압수합니다.\n\n거부할 경우: {DEVIANT_nameDef}(은)는 복원한 파일을 우리에게 넘겨주고, {FLEET}(은)는 적대로 돌아섭니다. 이후 {DEVIANT_pronoun}(이)가 죽거나 정착지에서 추방될 때까지 {DEVIANT_objective}(을)를 노리는 추적대를 계속 보낼 것입니다.\n\n{DAYS} 안에 답변하지 않으면 함대는 거부한 것으로 간주합니다.</DMS_DeviantExtradition_LetterText>
+  <DMS_DeviantExtradition_RewardKept>- {FLEET}(이)가 복원된 파일 중 무작위로 하나를 골라 우리에게 제공</DMS_DeviantExtradition_RewardKept>
+  <DMS_DeviantExtradition_RewardGoodwill>- {FLEET}(와)과의 우호도 +{AMOUNT}</DMS_DeviantExtradition_RewardGoodwill>
+  <DMS_DeviantExtradition_RewardHonor>- 우리가 선택한 정착민 한 명에게 함대 계급 진급에 필요한 {HONOR} {AMOUNT} 수여</DMS_DeviantExtradition_RewardHonor>
+  <DMS_DeviantExtradition_RewardMood>- 정착민들이 동료를 넘겼다는 사실에 괴로워함</DMS_DeviantExtradition_RewardMood>
+  <DMS_DeviantExtradition_Extradite>{DEVIANT_nameDef} 인도</DMS_DeviantExtradition_Extradite>
+  <DMS_DeviantExtradition_Refuse>인도 거부</DMS_DeviantExtradition_Refuse>
+  <DMS_DeviantExtradition_DeadlineInfo>인도 요구 답변 기한: {0}</DMS_DeviantExtradition_DeadlineInfo>
+  <DMS_DeviantExtradition_DeadlineInfoTip>기한 내에 답변하지 않으면 함대는 거부한 것으로 간주합니다.</DMS_DeviantExtradition_DeadlineInfoTip>
+  <DMS_DeviantExtradition_SilenceMessage>{FLEET}의 인도 요구에 답변하지 않았습니다. 함대는 이를 거부로 간주했습니다.</DMS_DeviantExtradition_SilenceMessage>
+  <DMS_DeviantExtradition_DoneLabel>인도 완료: {DEVIANT_nameDef}</DMS_DeviantExtradition_DoneLabel>
+  <DMS_DeviantExtradition_DoneText>함대의 궤도 수송선이 {DEVIANT_nameFull}(을)를 암호화 기록과 함께 데려갔습니다. {FLEET}(은)는 우리의 협조를 인정했습니다.\n\n이제 {DEVIANT_objective}에게 어떤 일이 기다리고 있을지는 아무도 모릅니다.</DMS_DeviantExtradition_DoneText>
+  <DMS_DeviantExtradition_DoneTextKept>함대의 궤도 수송선이 {DEVIANT_nameFull}(을)를 암호화 기록과 함께 데려갔습니다. {FLEET}(은)는 우리의 협조를 인정했습니다.\n\n그 대가로 함대가 복원된 파일 중 하나를 우리에게 제공했습니다.\n\n{GRANTED}\n\n이제 {DEVIANT_objective}에게 어떤 일이 기다리고 있을지는 아무도 모릅니다.</DMS_DeviantExtradition_DoneTextKept>
+  <DMS_DeviantExtradition_HonorLabel>누가 {HONOR}(을)를 받겠습니까?</DMS_DeviantExtradition_HonorLabel>
+  <DMS_DeviantExtradition_HonorText>{FLEET}(은)는 우리의 신병 인도를 인정하여 {HONOR} {AMOUNT}(을)를 수여하겠다고 합니다. 누가 받겠습니까?</DMS_DeviantExtradition_HonorText>
+  <DMS_DeviantRefuge_GrantedLine>- {PROJECT}</DMS_DeviantRefuge_GrantedLine>
+  <DMS_DeviantRefuge_PendingLine>- {PROJECT} (자료 확보, {PREREQS} 연구 완료 시 자동 해독)</DMS_DeviantRefuge_PendingLine>
+  <DMS_DeviantRefuge_AlreadyHeldLine>- {PROJECT} (정착지에서 이미 보유한 지식)</DMS_DeviantRefuge_AlreadyHeldLine>
+  <DMS_DeviantRefuge_NothingGranted>(기록에 정착지가 모르는 새로운 지식이 없었음)</DMS_DeviantRefuge_NothingGranted>
+  <DMS_DeviantRefuge_PendingDecodedLabel>기록 해독: {PROJECT}</DMS_DeviantRefuge_PendingDecodedLabel>
+  <DMS_DeviantRefuge_PendingDecodedText>선행 연구를 마쳐 연구진이 마침내 이탈자가 남긴 {PROJECT} 파일을 읽을 수 있게 되었습니다.</DMS_DeviantRefuge_PendingDecodedText>
+  <DMS_DeviantRefuge_FailedDiedLabel>이탈자 사망</DMS_DeviantRefuge_FailedDiedLabel>
+  <DMS_DeviantRefuge_FailedDiedText>{DEVIANT_nameFull}(이)가 복원을 마치기 전에 사망하여, 암호화 기록을 읽을 수 있는 유일한 열쇠가 사라졌습니다.\n\n함대는 {DEVIANT_pronoun}(이)가 이곳에 있었다는 사실을 끝내 알지 못했습니다.</DMS_DeviantRefuge_FailedDiedText>
+  <DMS_DeviantRefuge_FailedLeftLabel>이탈자 떠남</DMS_DeviantRefuge_FailedLeftLabel>
+  <DMS_DeviantRefuge_FailedLeftText>{DEVIANT_nameFull}(이)가 복원을 마치기 전에 암호화 기록을 가지고 정착지를 떠났습니다.</DMS_DeviantRefuge_FailedLeftText>
+  <DMS_DeviantRefuge_FailedKidnappedLabel>이탈자 납치</DMS_DeviantRefuge_FailedKidnappedLabel>
+  <DMS_DeviantRefuge_FailedKidnappedText>{DEVIANT_nameFull}(이)가 복원을 마치기 전에 납치되었으며, 암호화 기록도 {DEVIANT_objective}(와)과 함께 사라졌습니다.</DMS_DeviantRefuge_FailedKidnappedText>
+  <DMS_DeviantRefuge_FailedNoArrivalLabel>이탈자 도착 실패</DMS_DeviantRefuge_FailedNoArrivalLabel>
+  <DMS_DeviantRefuge_FailedNoArrivalText>{DEVIANT_nameFull}(은)는 정착지에 도착하지 못했으며, 이후 {DEVIANT_objective}에게서 아무런 소식도 듣지 못했습니다.</DMS_DeviantRefuge_FailedNoArrivalText>
+  <DMS_DeviantHunt_EndedDiedLabel>추적 종료</DMS_DeviantHunt_EndedDiedLabel>
+  <DMS_DeviantHunt_EndedDiedText>{DEVIANT_nameFull}(이)가 사망했습니다. {FLEET}(은)는 이탈자를 명부에서 지웠으며, 더는 추적대가 오지 않을 것입니다.\n\n하지만 함대와의 적대 관계는 끝나지 않습니다.\n\n{DEVIANT_nameDef}(이)가 되살아나면 추적이 다시 시작됩니다.</DMS_DeviantHunt_EndedDiedText>
+  <DMS_DeviantHunt_EndedLeftLabel>추적 종료</DMS_DeviantHunt_EndedLeftLabel>
+  <DMS_DeviantHunt_EndedLeftText>{DEVIANT_nameFull}(은)는 더 이상 정착지에 있지 않습니다. {FLEET}(은)는 추적 대상을 찾아 다른 곳으로 향했으며, 더는 우리에게 추적대를 보내지 않을 것입니다.\n\n하지만 함대와의 적대 관계는 끝나지 않습니다.</DMS_DeviantHunt_EndedLeftText>
+  <DMS_DeviantHunt_AwayLabel>추적 보류: {DEVIANT_nameDef}</DMS_DeviantHunt_AwayLabel>
+  <DMS_DeviantHunt_AwayText>{DEVIANT_nameFull}(은)는 더 이상 정착지의 보호 아래 있지 않습니다. {FLEET}(은)는 당분간 우리에게 추적대를 보내지 않기로 했지만, 이탈자를 명부에서 지우지는 않았습니다. 살아 있는 한 {DEVIANT_pronoun}(은)는 여전히 수배 대상입니다.\n\n{DEVIANT_nameDef}(이)가 정착지로 돌아오면 추적이 재개됩니다. {DEVIANT_pronoun}(이)가 지도를 떠나면 함대가 지도 밖에서 {DEVIANT_objective}(을)를 데려갈 것입니다.</DMS_DeviantHunt_AwayText>
+  <DMS_DeviantHunt_ReturnedLabel>추적 재개: {DEVIANT_nameDef}</DMS_DeviantHunt_ReturnedLabel>
+  <DMS_DeviantHunt_ReturnedText>{DEVIANT_nameFull}(이)가 정착지로 돌아왔고, {FLEET}(은)는 그 사실을 알고 있습니다. 추적이 재개되었으니 다시 추적대가 찾아올 것입니다.\n\n우리가 {DEVIANT_objective}(을)를 숨겨 주는 한 함대와의 관계는 적대로 고정됩니다.</DMS_DeviantHunt_ReturnedText>
+  <DMS_DeviantHunt_CapturedLabel>이탈자 체포: {DEVIANT_nameDef}</DMS_DeviantHunt_CapturedLabel>
+  <DMS_DeviantHunt_CapturedText>{FLEET}(이)가 {DEVIANT_nameFull}(을)를 체포했다고 알려왔습니다. 우리 손을 떠나 눈이 닿지 않는 곳에 있던 {DEVIANT_pronoun}(은)는 함대 추적대의 손쉬운 먹잇감이 되었습니다. {DEVIANT_nameDef}(은)는 현재 함대에 구금되어 있으며, 군사 법정에서 재판을 받게 됩니다.\n\n추적은 끝났습니다. 하지만 함대와의 적대 관계는 끝나지 않습니다.</DMS_DeviantHunt_CapturedText>
+  <DMS_DeviantHunt_RevivedLabel>추적 재개: {DEVIANT_nameDef}</DMS_DeviantHunt_RevivedLabel>
+  <DMS_DeviantHunt_RevivedText>{DEVIANT_nameFull}(이)가 죽음에서 돌아왔습니다. {FLEET}(이)가 사망의 증거로 삼으려던 시신은 이제 없습니다. 이탈자는 다시 명부에 올랐고, 추적이 다시 시작됩니다.</DMS_DeviantHunt_RevivedText>
+  <DMS_DeviantHunt_GoodwillBlocked>정착지는 아직 {FLEET}(이)가 추적하는 이탈자를 숨겨 주고 있습니다. 함대와의 관계를 개선할 수 없습니다.</DMS_DeviantHunt_GoodwillBlocked>
+  <DMS_Occultech_RenounceBlockedDeviant>아직 함대가 추적하는 이탈자를 숨겨 주고 있습니다. 함대는 우리가 어떤 선언을 하더라도 받아들이지 않을 것입니다.</DMS_Occultech_RenounceBlockedDeviant>
+  <DMS_HuntBreaker_SuspendedTextDeviant>{NODE_definite}(이)가 파괴되었습니다.\n\n이로 인해 이 행성에서 {FLEET}(이)가 운용하는 레이더 추적 및 항법망에 큰 공백이 생겼습니다. 함대는 이탈자의 행방을 놓쳤고, 추적은 중단되었습니다.\n\n하지만 오래가지는 않을 것입니다. 조만간 SAGE 네트워크의 다른 컴퓨터가 이 노드의 업무를 인계할 것이며, 약 {DURATION} 뒤에 추적이 재개될 것으로 보입니다.\n\n주의: 이탈자를 숨겨 주는 동안에는 함대와의 적대 관계가 해제되지 않습니다.</DMS_HuntBreaker_SuspendedTextDeviant>
+  <DMS_HuntBreaker_SuspendedDeviantLine>이탈자를 숨겨 주어 시작된 추적도 함께 중단되었으며, 같은 시점에 재개됩니다.</DMS_HuntBreaker_SuspendedDeviantLine>
   <DMS_DocQuest_ArrivedLabel>문서 도착</DMS_DocQuest_ArrivedLabel>
   <DMS_DocQuest_ArrivedText1>{0}에서 보낸 문서가 무역 신호기나 정착지 중심부 근처에 낙하 포드로 도착했습니다. 함대는 모든 문서가 하나도 빠짐없이 온전한 상태로 반환되기를 기대합니다.</DMS_DocQuest_ArrivedText1>
   <DMS_DocQuest_ArrivedText2>봉인된 문서 상자가 무역 신호기 근처에 착륙했습니다. 동봉된 명세서에는 {0}의 서명과 함께 다음과 같이 적혀 있습니다. '전부 처리하고 날인한 뒤 반환할 것.'</DMS_DocQuest_ArrivedText2>
@@ -30,6 +104,31 @@
   <DMS_DocQuest_CompleteText1>모든 문서의 처리가 끝났으며, 누락 없이 모두 확인되었습니다. 약속한 보수도 발송되었습니다.</DMS_DocQuest_CompleteText1>
   <DMS_DocQuest_CompleteText2>마지막 서류까지 확인을 마치고 반환용 상자에 넣었습니다. {0}(은)는 계약이 이행되었음을 확인했으며, 보수도 곧 도착할 것입니다.</DMS_DocQuest_CompleteText2>
   <DMS_DocQuest_CompleteText3>함대의 모든 서류를 기한 내에 처리했습니다. {0}(은)는 추후 계약이 생기면 우리에게 우선 제안할 수도 있다고 전했습니다.</DMS_DocQuest_CompleteText3>
+  <DMS_ServerHack_Stage>해킹 단계: {0} / {1}</DMS_ServerHack_Stage>
+  <DMS_ServerHack_Depleted>모든 자료 추출 완료</DMS_ServerHack_Depleted>
+  <DMS_ServerHack_AlarmWarning>해킹을 시도할 때마다 시설 경보가 울립니다</DMS_ServerHack_AlarmWarning>
+  <DMS_ServerHack_AlarmTripped>{HACKER_nameDef}(이)가 {SERVER_definite} 해킹을 시작했습니다. 시설 경보가 울렸습니다!</DMS_ServerHack_AlarmTripped>
+  <DMS_ServerHack_AlarmTrippedNoHacker>누군가 {SERVER_definite}(을)를 해킹하고 있습니다. 시설 경보가 울렸습니다!</DMS_ServerHack_AlarmTrippedNoHacker>
+  <DMS_ServerHack_StageLetterLabel>자료 추출: {SERVER_label}</DMS_ServerHack_StageLetterLabel>
+  <DMS_ServerHack_StageLetterText>{SERVER_definite}의 하위 저장 계층에서 {REWARD_labelShort}(을)를 추출했습니다.\n\n해킹 진행도: {DONE} / {TOTAL}. 추가로 추출하려면 다시 해킹을 시작해야 하며, 시설 경보도 다시 울립니다.</DMS_ServerHack_StageLetterText>
+  <DMS_HuntBreaker_InspectActive>이 노드를 파괴하면 식민 함대의 추적을 한동안 중단시킬 수 있습니다</DMS_HuntBreaker_InspectActive>
+  <DMS_HuntBreaker_InspectSuspended>추적 중단됨. {0} 후 재개 예상</DMS_HuntBreaker_InspectSuspended>
+  <DMS_HuntBreaker_NoHunt>{NODE_definite}(이)가 파괴되었습니다. 노드가 지원하던 추적망은 조용해졌지만, 지금 식민 함대가 우리를 추적하고 있지는 않습니다.</DMS_HuntBreaker_NoHunt>
+  <DMS_HuntBreaker_Extended>{NODE_definite}(이)가 파괴되어 추적망 복구가 더욱 늦어졌습니다. 약 {DURATION} 후 추적이 재개될 것으로 예상됩니다.</DMS_HuntBreaker_Extended>
+  <DMS_HuntBreaker_SuspendedLabel>추적 중단</DMS_HuntBreaker_SuspendedLabel>
+  <DMS_HuntBreaker_SuspendedText>{NODE_definite}(이)가 파괴되었습니다.\n\n노드가 사라지자 이 행성의 {FLEET} 레이더 추적망과 항법망에 큰 공백이 생겼습니다. 함대는 우리를 놓쳤으며 추적을 중단했습니다.\n\n영원히 지속되지는 않습니다. 조만간 SAGE 망의 다른 컴퓨터가 노드의 임무를 이어받을 것입니다. 약 {DURATION} 후 추적이 재개될 것으로 예상됩니다.\n\n참고: 함대와의 영구 적대 관계는 해제되지 않았습니다.</DMS_HuntBreaker_SuspendedText>
+  <DMS_HuntBreaker_ResumedLabel>추적망 복구</DMS_HuntBreaker_ResumedLabel>
+  <DMS_HuntBreaker_ResumedText>SAGE 망의 다른 컴퓨터가 호스트로 승격되어 {FLEET}의 추적망이 다시 가동되었습니다.\n\n그들이 다시 우리의 위치를 알아냈습니다. 곧 추적이 재개됩니다.</DMS_HuntBreaker_ResumedText>
+  <DMS_GasVent_Warning>{VENT_definite}에서 가스 새는 소리가 납니다. 독성 가스 방출이 임박했습니다!</DMS_GasVent_Warning>
+  <DMS_GasVent_Charges>가스 충전량: {0} / {1}</DMS_GasVent_Charges>
+  <DMS_GasVent_Arming>가압 중</DMS_GasVent_Arming>
+  <DMS_GasVent_Releasing>가스 방출 중</DMS_GasVent_Releasing>
+  <DMS_SageNode_EntryCountdownLabel>SAGE 노드: 지원군 접근 중</DMS_SageNode_EntryCountdownLabel>
+  <DMS_SageNode_EntryCountdownText>SAGE 노드의 전략 방공망이 우리의 위치를 포착했습니다. {0} 후 함대의 신속대응군이 도착합니다.</DMS_SageNode_EntryCountdownText>
+  <DMS_SageNode_ExpiredLabel>SAGE 노드 위치 상실</DMS_SageNode_ExpiredLabel>
+  <DMS_SageNode_ExpiredText>SAGE 망이 정기 노드 교체를 마쳤습니다. 확보했던 좌표는 더 이상 유효하지 않습니다.</DMS_SageNode_ExpiredText>
+  <DMS_SageNode_ClearedLabel>SAGE 노드 소탕</DMS_SageNode_ClearedLabel>
+  <DMS_SageNode_ClearedText>SAGE 노드를 지키던 기계를 전멸시켰습니다. SAGE 코어 자체는 아직 가동 중입니다. 해킹해 전략 데이터베이스에서 얻을 수 있는 것을 추출한 뒤 완전히 파괴하십시오.</DMS_SageNode_ClearedText>
   <DMS.SecondaryGestationProgress>발달 진행도: {0}</DMS.SecondaryGestationProgress>
   <DMS.SecondaryGestationRemaining>완료까지 남은 시간: {0}</DMS.SecondaryGestationRemaining>
   <DMS.RationMagazineContents>{RATION}: {COUNT} / {MAX}</DMS.RationMagazineContents>
@@ -40,10 +139,49 @@
   <DMS.RationRecoveryNoMagazine>이 메크에는 생물반응기가 없습니다.</DMS.RationRecoveryNoMagazine>
   <DMS.RationRecoveryNoRations>투입된 {0}(이)가 없습니다.</DMS.RationRecoveryNoRations>
   <DMS.RationRecoveryDone>{PAWN}(이)가 식량 하나를 소모했습니다. 동력 배터리가 충전되고 상처 {COUNT}개가 봉합되었습니다.</DMS.RationRecoveryDone>
+  <DMS_Gravekeeper_Challenge>그레이브키퍼가 멈춰 서서 {0}에게 누구인지 밝힐 것을 요구했습니다. 그레이브키퍼는 공격받거나, 침입자가 보물고나 지휘실에 들어가거나, 보물고가 열리거나, 시설의 경계 수준이 높아지지 않는 한 발포하지 않습니다.</DMS_Gravekeeper_Challenge>
+  <DMS_Gravekeeper_Engage>그레이브키퍼들이 발포했습니다.</DMS_Gravekeeper_Engage>
+  <DMS_Gravekeeper_TombOpened>보물고의 봉인이 풀렸습니다. 무거운 발소리가 복도를 훑고 있습니다.</DMS_Gravekeeper_TombOpened>
   <DMS_HydraulicFracturing_Bedrock>기반암 파쇄 중</DMS_HydraulicFracturing_Bedrock>
   <DMS_HydraulicFracturing_NoRoom>생산물을 놓을 공간이 없습니다.</DMS_HydraulicFracturing_NoRoom>
   <DMS_HydraulicFracturing_Exhausted>{RIG_definite}(이)가 심층 광맥을 모두 채굴하여 기반암 파쇄를 시작했습니다.</DMS_HydraulicFracturing_Exhausted>
   <DMS_HydraulicFracturing_ExhaustedNoFallback>{RIG_definite}(이)가 심층 광맥을 모두 채굴한 뒤 멈췄습니다. 이곳에는 기반암이 없습니다.</DMS_HydraulicFracturing_ExhaustedNoFallback>
+  <DMS_Airport_ExpiredLabel>비행장 신호 두절</DMS_Airport_ExpiredLabel>
+  <DMS_Airport_ExpiredText>잔존군 비행장의 원격 측정 신호가 끊겼습니다. 비행장이 신호를 끊어 위치를 놓쳤습니다.</DMS_Airport_ExpiredText>
+  <DMS_Airport_ClearedLabel>비행장 확보</DMS_Airport_ClearedLabel>
+  <DMS_Airport_ClearedText>잔존군 비행장의 모든 적을 무력화했습니다.\n\n관제탑의 미끼 무전기는 온전합니다. 클러스터 위버를 비행장으로 불러들이는 데 사용할 수 있습니다. 가용 전력을 모두 동원하십시오. 위버를 기다리는 동안에도 잔존군이 계속 지원군을 보낼 것입니다.</DMS_Airport_ClearedText>
+  <DMS_Airport_EntryCountdownLabel>적대 비행장: 지원군 접근 중</DMS_Airport_EntryCountdownLabel>
+  <DMS_Airport_EntryCountdownText>적대적인 잔존군 비행장에 진입했습니다. 관제탑의 감시 프로토콜이 우리의 존재를 감지했습니다.\n\n{0} 후 적 지원군이 도착합니다. 위버를 이곳으로 부를 생각이라면 그 전에 비행장을 확보하십시오.</DMS_Airport_EntryCountdownText>
+  <DMS_VaultStation_ExpiredLabel>보관고 기지 위치 상실</DMS_VaultStation_ExpiredLabel>
+  <DMS_VaultStation_ExpiredText>명세서의 위치 정보가 만료되었습니다. 보관고 출입 기지가 이동하여 위치를 놓쳤습니다.</DMS_VaultStation_ExpiredText>
+  <DMS_VaultStation_ClearedLabel>보관고 기지 확보</DMS_VaultStation_ClearedLabel>
+  <DMS_VaultStation_ClearedText>보관고 출입 기지의 모든 적을 무력화했습니다.\n\n승강기 옆의 접근 콘솔에 출입 키 카드를 읽히면 덮개판이 올라갑니다. 승강기에는 아직 전력이 공급됩니다. 아래 보관고에 남은 것은 무엇이든 가져올 수 있지만, 잔존군은 지상을 계속 탐색할 것입니다.</DMS_VaultStation_ClearedText>
+  <DMS_VaultStation_EntryCountdownLabel>적대 기지: 지원군 접근 중</DMS_VaultStation_EntryCountdownLabel>
+  <DMS_VaultStation_EntryCountdownText>적대적인 잔존군 시설에 진입했습니다. 감시 프로토콜이 우리의 존재를 감지했습니다.\n\n{0} 후 적 지원군이 도착합니다. 승강로를 연 다음 지상을 지킬지 내려갈지 결정하십시오.</DMS_VaultStation_EntryCountdownText>
+  <DMS_RepairStation_ExpiredLabel>수리창 위치 상실</DMS_RepairStation_ExpiredLabel>
+  <DMS_RepairStation_ExpiredText>정비 요청이 종결되었습니다. 잔존군 수리창이 이동하여 위치를 놓쳤습니다.</DMS_RepairStation_ExpiredText>
+  <DMS_RepairStation_ClearedLabel>수리창 확보</DMS_RepairStation_ClearedLabel>
+  <DMS_RepairStation_ClearedText>잔존군 수리창의 모든 적을 무력화했습니다.\n\n수리창의 보안 콘솔을 해킹해 정비실을 여십시오. 정비대의 유닛들은 재인증을 받지 않았으므로 메카나이터가 해킹해 가져갈 수 있습니다. 발착장의 수송기와 비축 물자도 가져갈 수 있습니다.</DMS_RepairStation_ClearedText>
+  <DMS_RepairStation_EntryCountdownLabel>적대 정비창: 지원군 접근 중</DMS_RepairStation_EntryCountdownLabel>
+  <DMS_RepairStation_EntryCountdownText>적대적인 잔존군 시설에 진입했습니다. 감시 프로토콜이 우리의 존재를 감지했습니다.\n\n{0} 후 적 지원군이 도착합니다. 볼일을 마치고 떠나거나 방어 진지를 구축하십시오.</DMS_RepairStation_EntryCountdownText>
+  <DMS_OperationBase_ExpiredLabel>전진기지 철수</DMS_OperationBase_ExpiredLabel>
+  <DMS_OperationBase_ExpiredText>잔존군 전진기지가 철수하여 이동했습니다. 위치를 놓쳤습니다.</DMS_OperationBase_ExpiredText>
+  <DMS_OperationBase_ClearedLabel>전진기지 확보</DMS_OperationBase_ClearedLabel>
+  <DMS_OperationBase_ClearedText>잔존군 전진기지의 모든 적을 무력화했습니다.\n\n보급품 집적소는 우리의 것입니다. 보안 콘솔 두 대를 모두 해킹해 방폭문을 연 뒤 화물 승강기 자체를 해킹하면 아래 저장고에 접근할 수 있습니다. 다만 잔존군은 계속 외곽을 탐색할 것입니다.</DMS_OperationBase_ClearedText>
+  <DMS_OperationBase_EntryCountdownLabel>적대 기지: 지원군 접근 중</DMS_OperationBase_EntryCountdownLabel>
+  <DMS_OperationBase_EntryCountdownText>적대적인 잔존군 시설에 진입했습니다. 감시 프로토콜이 우리의 존재를 감지했습니다.\n\n{0} 후 적 지원군이 도착합니다. 볼일을 마치고 떠나거나 방어 진지를 구축하십시오.</DMS_OperationBase_EntryCountdownText>
+  <DMS_SiteStation_ExpiredLabel>기지 약탈 완료</DMS_SiteStation_ExpiredLabel>
+  <DMS_SiteStation_ExpiredText>잔존군 분견대가 떠나면서 버려진 기지의 물자를 모조리 가져갔습니다. 더는 찾아갈 가치가 없습니다.</DMS_SiteStation_ExpiredText>
+  <DMS_SiteStation_ClearedLabel>기지 소탕</DMS_SiteStation_ClearedLabel>
+  <DMS_SiteStation_ClearedText>버려진 기지의 모든 적을 무력화했습니다.\n\n고대의 상자와 선반, 잔해는 모두 회수할 수 있으며 포드 발사기도 아직 작동합니다. 잔존군이 계속 폐허를 탐색할 것이니 대비하십시오.</DMS_SiteStation_ClearedText>
+  <DMS_SiteStation_EntryCountdownLabel>적대 기지: 지원군 접근 중</DMS_SiteStation_EntryCountdownLabel>
+  <DMS_SiteStation_EntryCountdownText>적대적인 잔존군 시설에 진입했습니다. 감시 프로토콜이 우리의 존재를 감지했습니다.\n\n{0} 후 적 지원군이 도착합니다. 기지가 넓으므로 그때 병력이 곳곳에 흩어져 있지 않도록 하십시오.</DMS_SiteStation_EntryCountdownText>
+  <DMS_LaunchSite_ExpiredLabel>발사장 위치 상실</DMS_LaunchSite_ExpiredLabel>
+  <DMS_LaunchSite_ExpiredText>잔존군 순찰대가 버려진 발사장에서 이동하면서 탐지 위치 정보도 사라졌습니다.</DMS_LaunchSite_ExpiredText>
+  <DMS_LaunchSite_ClearedLabel>발사장 소탕</DMS_LaunchSite_ClearedLabel>
+  <DMS_LaunchSite_ClearedText>버려진 발사장의 잔존군 순찰대를 무력화했습니다.\n\n잔해를 회수할 수 있습니다. 잔존군이 언젠가 다른 순찰대를 보낼 것이니 대비하십시오.</DMS_LaunchSite_ClearedText>
+  <DMS_LaunchSite_EntryCountdownLabel>적대 시설: 증원군 접근 중</DMS_LaunchSite_EntryCountdownLabel>
+  <DMS_LaunchSite_EntryCountdownText>잔존군 순찰 구역에 진입했습니다. 순찰대의 감시 프로토콜이 우리의 존재를 감지했습니다.\n\n{0} 후 적 지원군이 도착합니다. 회수할 수 있는 것을 챙겨 떠나거나 방어 진지를 구축하십시오.</DMS_LaunchSite_EntryCountdownText>
   <DMS_Occultech_ExemptLabel>임시 공개 명령: {0}</DMS_Occultech_ExemptLabel>
   <DMS_Occultech_ExemptText>연구진이 {0}(을)를 해독했습니다.\n\n{1}(은)는 {3} 복무 명부에 {2} 계급으로 등록되어 있으며, 비상시의 필요를 근거로 기밀 분류에 대한 임시 공개 명령을 제출했습니다. 이 문서는 무단 해독이 아니라 승인된 전시 예외로 기록됩니다.\n\n제재는 없습니다. 이 명령은 해당 계급의 장교가 우리와 함께 있는 동안에만 유효합니다.</DMS_Occultech_ExemptText>
   <DMS_Occultech_RestrictedLabel>제한 문서 개방: {0}</DMS_Occultech_RestrictedLabel>
@@ -67,8 +205,43 @@
   <DMS_Occultech_RenounceAccept>문서를 반납한다.</DMS_Occultech_RenounceAccept>
   <DMS_PirateAssembly_EntryCountdownLabel>증원군 접근 중</DMS_PirateAssembly_EntryCountdownLabel>
   <DMS_PirateAssembly_EntryCountdownText>시설 인원들이 경보를 울렸습니다. 적 증원군이 {0} 후에 도착합니다.</DMS_PirateAssembly_EntryCountdownText>
+  <DMS_RaidGroup_Peacekeeping>평화유지</DMS_RaidGroup_Peacekeeping>
+  <DMS_RaidGroup_CounterTerrorism>대테러</DMS_RaidGroup_CounterTerrorism>
+  <DMS_RaidGroup_Infantry>보병 분대</DMS_RaidGroup_Infantry>
+  <DMS_RaidGroup_Select>그룹: {0}</DMS_RaidGroup_Select>
+  <DMS_RaidGroup_SelectDesc>소환할 부대와 관련 보스 시설을 선택하십시오.</DMS_RaidGroup_SelectDesc>
+  <DMS_RaidGroup_Confirm>{0}을 소환하시겠습니까?\n\n{1}\n\n이 행동은 관련 설치물을 공개하며 비콘을 소모합니다.</DMS_RaidGroup_Confirm>
+  <DMS_RaidGroup_ResearchRequired>필요 : {0}</DMS_RaidGroup_ResearchRequired>
   <DMS_Settings_ArtifuscleRots>아티퓨슬 부패</DMS_Settings_ArtifuscleRots>
   <DMS_Settings_ArtifuscleRotsDesc>비활성화하면 아티퓨슬이 더는 부패하지 않아 냉장할 필요가 없습니다. 즉시 적용됩니다. 이미 썩은 아티퓨슬은 원상복구되지 않습니다.</DMS_Settings_ArtifuscleRotsDesc>
+  <DMS_Settings_SituationalMusic>상황별 음악</DMS_Settings_SituationalMusic>
+  <DMS_Settings_SituationalMusicDesc>DMS 장소와 지하 시설, DMS 보스 조우 및 추적대 습격 시 상황에 맞는 DMS 음악을 재생합니다. 탐사, 경보, 전투, 보스전, 봉쇄, 사건 이후 상황에 따라 음악이 달라집니다. 비활성화하면 기본 게임과 다른 모드가 음악을 재생합니다. 변경 사항은 즉시 적용됩니다.</DMS_Settings_SituationalMusicDesc>
+  <DMS_ShuttleLaunchOutOfBounds>이륙 불가: 이륙하는 왕복선이 지도 경계를 벗어나게 됩니다. 왕복선을 지도 안쪽으로 더 이동시키십시오.</DMS_ShuttleLaunchOutOfBounds>
+  <DMS_Stele_GlyphProgress>회수한 문양: {0} / {1}</DMS_Stele_GlyphProgress>
+  <DMS_Stele_GlyphRecovered>봉인 기술 문양을 회수했습니다 ({0} / {1}).</DMS_Stele_GlyphRecovered>
+  <DMS_Stele_GlyphLostLabel>문양 소실</DMS_Stele_GlyphLostLabel>
+  <DMS_Stele_GlyphLostText>충돌 지점의 문양을 챙기지 않고 떠나, 장소가 사라지면서 문양도 잃었습니다.\n\n시간이 지나면 다른 문양의 신호가 드러날 것입니다.</DMS_Stele_GlyphLostText>
+  <DMS_Stele_GlyphDestroyedText>충돌 지점의 문양 서버가 파괴되면서 내부에 봉인된 문양도 함께 소실되었습니다.\n\n시간이 지나면 또 다른 문양 신호가 나타날 것입니다.</DMS_Stele_GlyphDestroyedText>
+  <DMS_Stele_SteleSecuredLabel>비석 확보</DMS_Stele_SteleSecuredLabel>
+  <DMS_Stele_SteleSecuredText>비석을 확보했습니다.\n\n정착지에 설치하고 정면에 해독기를 바로 맞붙여 건설하십시오. 전력을 공급하면 해독기가 비석의 지식을 자동으로 추출해 봉인 기술 연구에 축적합니다.\n\n이런 방식으로 읽어 들인 비석은 함대에게 영구적인 손실이 됩니다.</DMS_Stele_SteleSecuredText>
+  <DMS_Stele_SteleLostLabel>비석 소실</DMS_Stele_SteleLostLabel>
+  <DMS_Stele_SteleLostText>비석을 챙기지 않고 보관고를 떠나 비석을 잃었습니다.\n\n해독한 문양 암호는 여전히 다른 매장지를 가리킵니다. 연구진이 며칠 안에 다음 위치를 알아낼 것입니다.</DMS_Stele_SteleLostText>
+  <DMS_SubsonicEmitter_Charging>다음 파동까지: {0}</DMS_SubsonicEmitter_Charging>
+  <DMS_SubsonicEmitter_Ready>준비됨. 사거리 내 적 출현 대기 중</DMS_SubsonicEmitter_Ready>
+  <DMS_SubsonicEmitter_Engaged>{EMITTER_definite}(이)가 출력을 올리고 있습니다. 초저주파 방출이 임박했습니다!</DMS_SubsonicEmitter_Engaged>
+  <DMS_SubsonicEmitter_Standby>대기 중. 시설 경보 대기</DMS_SubsonicEmitter_Standby>
+  <DMS_SubsonicEmitter_EngagedFor>가동 중: {0} 남음</DMS_SubsonicEmitter_EngagedFor>
+  <DMS_BlastScanner_Ignite>도화선 점화</DMS_BlastScanner_Ignite>
+  <DMS_BlastScanner_IgniteDesc>도화선에 불을 붙입니다. 폭파로 여러 심부 광상을 탐사하지만, 지하의 곤충을 깨울 가능성이 매우 높습니다.</DMS_BlastScanner_IgniteDesc>
+  <DMS_BlastScanner_FuseLit>도화선이 이미 타고 있습니다.</DMS_BlastScanner_FuseLit>
+  <DMS_BlastScanner_FuseBurning>도화선 연소 중: {0}</DMS_BlastScanner_FuseBurning>
+  <DMS_BlastScanner_Cooldown>재보정 중: {0}</DMS_BlastScanner_Cooldown>
+  <DMS_BlastScanner_NoCharge>먼저 고폭탄을 장전하십시오.</DMS_BlastScanner_NoCharge>
+  <DMS_BlastScanner_FoundLabel>심부 광상 탐사 완료</DMS_BlastScanner_FoundLabel>
+  <DMS_BlastScanner_FoundText>{0}의 충격파로 새로운 심부 광상을 지도에 표시했습니다:\n\n{1}\n\n심부 채굴기로 채굴할 수 있습니다.</DMS_BlastScanner_FoundText>
+  <DMS_BlastScanner_NothingFound>{0}(이)가 폭발했지만 반사파에서 새로운 것을 찾지 못했습니다.</DMS_BlastScanner_NothingFound>
+  <DMS_BlastScanner_InsectsLabel>곤충이 깨어남</DMS_BlastScanner_InsectsLabel>
+  <DMS_BlastScanner_InsectsText>{0}의 충격파가 지하에 잠든 곤충 군락을 깨웠습니다. 곤충들이 지표를 향해 땅을 파고 있습니다.</DMS_BlastScanner_InsectsText>
   <DMS_SupplyPod_Progress>납품 진행도: {0} / {1} ({2})</DMS_SupplyPod_Progress>
   <DMS_SupplyPod_AutoDesignate>화물 자동 지정</DMS_SupplyPod_AutoDesignate>
   <DMS_SupplyPod_AutoDesignateDesc>요청 수량에 도달할 때까지 지도에 있는 {0}(을)를 포드에 적재할 운반 대상으로 자동 지정합니다.</DMS_SupplyPod_AutoDesignateDesc>
@@ -87,13 +260,13 @@
   <DMS_SupplyChain_BonusLetterLabel>보급 계약 완료</DMS_SupplyChain_BonusLetterLabel>
   <DMS_SupplyChain_BonusLetterText>보급 계약에 명시된 모든 화물을 납품했습니다. 약속대로 물품의 시세 차액에 해당하는 보상이 시장가 기준으로 지급되었습니다.</DMS_SupplyChain_BonusLetterText>
   <DMS_SupplyChain_Progress>완료한 배송: {0} / {1}</DMS_SupplyChain_Progress>
-  <DMS_CourtMartial_BoardDeadline>탑승 기한: {0} </DMS_CourtMartial_BoardDeadline>
-  <DMS_CourtMartial_BoardDeadlineTip>피고인은 {0}까지 궤도 수송선에 탑승해야 합니다. 빈 채로 떠나면 군사재판 합의가 파기되고 적대 행위가 재개됩니다.</DMS_CourtMartial_BoardDeadlineTip>
-  <DMS_CourtMartial_TrialInfo>재판 종료까지: {0} </DMS_CourtMartial_TrialInfo>
-  <DMS_CourtMartial_DetentionInfo>형기 종료까지: {0} </DMS_CourtMartial_DetentionInfo>
-  <DMS_OfficerTraining_BoardDeadline>탑승 기한: {0} </DMS_OfficerTraining_BoardDeadline>
+  <DMS_CourtMartial_BoardDeadline>탑승 기한: {0}</DMS_CourtMartial_BoardDeadline>
+  <DMS_CourtMartial_BoardDeadlineTip>피고인은 {0}까지 궤도 수송선에 탑승해야 합니다. 빈 채로 떠나면 군법회의 합의가 파기되고 적대 행위가 재개됩니다.</DMS_CourtMartial_BoardDeadlineTip>
+  <DMS_CourtMartial_TrialInfo>재판 종료까지: {0}</DMS_CourtMartial_TrialInfo>
+  <DMS_CourtMartial_DetentionInfo>형기 종료까지: {0}</DMS_CourtMartial_DetentionInfo>
+  <DMS_OfficerTraining_BoardDeadline>탑승 기한: {0}</DMS_OfficerTraining_BoardDeadline>
   <DMS_OfficerTraining_BoardDeadlineTip>교육생은 {0}까지 궤도 수송선에 탑승해야 합니다. 빈 채로 떠나면 교육 배정이 취소됩니다.</DMS_OfficerTraining_BoardDeadlineTip>
-  <DMS_OfficerTraining_CourseInfo>교육 종료까지: {0} </DMS_OfficerTraining_CourseInfo>
+  <DMS_OfficerTraining_CourseInfo>교육 종료까지: {0}</DMS_OfficerTraining_CourseInfo>
   <DMS_OfficerTraining_NoTitle>계급 없음</DMS_OfficerTraining_NoTitle>
   <DMS_Course_Infantry>보병 전술 과정</DMS_Course_Infantry>
   <DMS_Course_CQB>근접 전투 과정</DMS_Course_CQB>
@@ -110,6 +283,33 @@
   <DMS_SurgicalApparel_WearConfirm>{0}(을)를 착용하면 {1}의 몸을 완전히 감싼 채 체결되어 단단히 고정됩니다. 일반적인 방법으로는 벗을 수 없으며, {1}(이)가 살아 있는 동안에는 강제로 벗길 수도 없습니다. "{2}" 수술을 통해서만 제거할 수 있습니다.\n\n계속하시겠습니까?</DMS_SurgicalApparel_WearConfirm>
   <DMS_SurgicalApparel_Inspect>벗을 수 없습니다. "{0}" 수술을 통해서만 제거할 수 있습니다.</DMS_SurgicalApparel_Inspect>
   <DMS_SurgicalApparel_Removed>{1}에게서 {0}(을)를 제거했습니다.</DMS_SurgicalApparel_Removed>
+  <DMS_ElevatorUnlocked>잠금 해제됨.</DMS_ElevatorUnlocked>
+  <DMS_HoleEmerge_Triggered>{0}명 규모의 분대가 {1}에서 기어 나오고 있습니다!</DMS_HoleEmerge_Triggered>
+  <DMS_BattleGroupCall_Triggered>{0}(이)가 지원군을 요청하고 있습니다. 신속대응군이 오고 있습니다.</DMS_BattleGroupCall_Triggered>
+  <DMS_MortarStrike_Triggered>{0}(이)가 포격을 요청하고 있습니다. 포탄이 날아옵니다!</DMS_MortarStrike_Triggered>
+  <DMS_LauncherCase_TakeWeapon>{0} 꺼내 장착</DMS_LauncherCase_TakeWeapon>
+  <DMS_LauncherCase_Empty>비어 있음</DMS_LauncherCase_Empty>
+  <DMS_AccessKeyTransform_Locked>잠김: 키 카드 인증 {0}회 더 필요</DMS_AccessKeyTransform_Locked>
+  <DMS_AccessKeyTransform_NoConsole>잠김: 연결된 접근 콘솔 없음</DMS_AccessKeyTransform_NoConsole>
+  <DMS_AccessKeyTransform_Unlocked>{THING_labelShort}의 잠금이 해제되었습니다.</DMS_AccessKeyTransform_Unlocked>
+  <DMS_BossKillRelay_Released>{RELAY_labelShort}(이)가 잠금을 해제했습니다.</DMS_BossKillRelay_Released>
+  <DMS_BossKillRelay_ReleasedBy>{BOSS_labelShort}의 생체 신호가 끊겼습니다. {RELAY_labelShort}(이)가 잠금을 해제했습니다.</DMS_BossKillRelay_ReleasedBy>
+  <DMS_BossKillRelay_InspectLocked>봉인됨: 수호기가 죽으면 연결된 잠금 {0}개 해제</DMS_BossKillRelay_InspectLocked>
+  <DMS_BossKillRelay_InspectNoLink>연결된 잠금 없음</DMS_BossKillRelay_InspectNoLink>
+  <DMS_BossKillRelay_InspectReleased>해제됨</DMS_BossKillRelay_InspectReleased>
+  <DMS_BossKillRelay_InspectBossKinds>수호기: {0}</DMS_BossKillRelay_InspectBossKinds>
+  <DMS_DormantTurretWokenUp>{WAKER_labelShort}(이)가 휴면 중인 포탑을 깨웠습니다.</DMS_DormantTurretWokenUp>
+  <DMS_DormantTurretWokenUpPlural>{WAKER_labelShort}(이)가 휴면 중인 포탑들을 깨웠습니다.</DMS_DormantTurretWokenUpPlural>
+  <DMS_ZeroPointGenerator_Charge>촉매: {0} / {1} (총 {2})</DMS_ZeroPointGenerator_Charge>
+  <DMS_ZeroPointGenerator_NoCatalyst>촉매가 없습니다. 반물질탄을 넣으십시오.</DMS_ZeroPointGenerator_NoCatalyst>
+  <DMS_ZeroPointGenerator_NoRoom>생산물을 놓을 공간이 없습니다.</DMS_ZeroPointGenerator_NoRoom>
+  <DMS_ZeroPointGenerator_CatalystSpent>{GENERATOR_definite}의 촉매가 모두 소모되었습니다.</DMS_ZeroPointGenerator_CatalystSpent>
+  <DMS_ZeroPointReactor_Core>코어: {0} 남음</DMS_ZeroPointReactor_Core>
+  <DMS_ZeroPointReactor_CoreEmpty>코어: 비어 있음</DMS_ZeroPointReactor_CoreEmpty>
+  <DMS_ZeroPointReactor_Total>총 가동 시간: {0}</DMS_ZeroPointReactor_Total>
+  <DMS_RealityAnchor_Field>영향 범위 내: {0} (억제 중: {1})</DMS_RealityAnchor_Field>
+  <DMS_RealityAnchor_PsycastBlocked>현실 고정기의 장에 차단되었습니다.</DMS_RealityAnchor_PsycastBlocked>
+  <DMS_StatRule_Max>{0}: 최대 {1}로 제한</DMS_StatRule_Max>
   <DMS_AddonBroken>메크에 장착된 개조 모듈 하나가 완전히 마모되었습니다</DMS_AddonBroken>
   <DMS_PlatingTooltip>대부분의 피해를 흡수하는 일회용 장갑층입니다. 최대 내구도는 몸집에 비례하며 저절로 회복되지 않습니다.</DMS_PlatingTooltip>
   <DMS_HasAppliedModification>메크에 장착된 개조 모듈</DMS_HasAppliedModification>
@@ -153,175 +353,9 @@
   <LetterTextDocsArrived>[asker_nameFull](이)가 보낸 기밀문서가 도착했습니다. 거래용 신호기나 정착지 중심부 근처에 투하되었습니다.</LetterTextDocsArrived>
   <DMS_WorkableProgress>처리 진행도</DMS_WorkableProgress>
   <DMS_WorkableCompleted>처리 완료</DMS_WorkableCompleted>
-  <DMS_Arsenal_ExpiredLabel>무기고의 단서 소실</DMS_Arsenal_ExpiredLabel>
-  <DMS_Arsenal_ExpiredText>옛 무기고에 관한 조사 기록이 너무 오래되었습니다. 현장 위치를 잃었습니다.</DMS_Arsenal_ExpiredText>
-  <DMS_Arsenal_ClearedLabel>무기고 확보</DMS_Arsenal_ClearedLabel>
-  <DMS_Arsenal_ClearedText>옛 무기고를 순찰하던 그레이브키퍼들이 쓰러지고 현장의 방어 체계가 잠잠해졌습니다.\n\n벙커의 봉인은 아직 유지되고 있습니다. 중앙 플랫폼의 유인 레이더로 타르보사우루스를 불러들여 파괴한 뒤, 각 벙커의 보안 제어 단말기를 해킹해 방폭문을 열고 무엇이 남아 있는지 확인하십시오.</DMS_Arsenal_ClearedText>
-  <DMS_Arsenal_EntryCountdownLabel>옛 무기고: 증원군 접근 중</DMS_Arsenal_EntryCountdownLabel>
-  <DMS_Arsenal_EntryCountdownText>옛 무기고에 진입했습니다. 무인 보안망이 당신들의 존재를 포착했습니다.\n\n{0} 후 적 증원군이 도착합니다. 그 전에 그레이브키퍼들을 처리하고, 타르보사우루스를 불러들여 파괴한 뒤 벙커 안으로 진입하십시오.</DMS_Arsenal_EntryCountdownText>
-  <DMS_ArsenalPatrol_Challenge>그레이브키퍼 한 기가 멈춰 서서 {0}(을)를 검문하고 있습니다. 그레이브키퍼는 공격받거나, 침입자가 벙커에 들어가거나, 벙커의 봉인이 풀리거나, 시설의 경계 수준이 높아지기 전까지는 발포하지 않습니다.</DMS_ArsenalPatrol_Challenge>
-  <DMS_ArsenalPatrol_Search>벙커의 봉인이 풀렸습니다. 그레이브키퍼들이 단지를 수색하고 있습니다.</DMS_ArsenalPatrol_Search>
-  <DMS_ServerHack_Stage>해킹 단계: {0} / {1}</DMS_ServerHack_Stage>
-  <DMS_ServerHack_Depleted>모든 자료 추출 완료</DMS_ServerHack_Depleted>
-  <DMS_ServerHack_AlarmWarning>해킹을 시도할 때마다 시설 경보가 울립니다</DMS_ServerHack_AlarmWarning>
-  <DMS_ServerHack_AlarmTripped>{HACKER_nameDef}(이)가 {SERVER_definite} 해킹을 시작했습니다. 시설 경보가 울렸습니다!</DMS_ServerHack_AlarmTripped>
-  <DMS_ServerHack_AlarmTrippedNoHacker>누군가 {SERVER_definite}(을)를 해킹하고 있습니다. 시설 경보가 울렸습니다!</DMS_ServerHack_AlarmTrippedNoHacker>
-  <DMS_ServerHack_StageLetterLabel>자료 추출: {SERVER_label}</DMS_ServerHack_StageLetterLabel>
-  <DMS_ServerHack_StageLetterText>{SERVER_definite}의 하위 저장 계층에서 {REWARD_labelShort}(을)를 추출했습니다.\n\n해킹 진행도: {DONE} / {TOTAL}. 추가로 추출하려면 다시 해킹을 시작해야 하며, 시설 경보도 다시 울립니다.</DMS_ServerHack_StageLetterText>
-  <DMS_HuntBreaker_InspectActive>이 노드를 파괴하면 식민 함대의 추적을 한동안 중단시킬 수 있습니다</DMS_HuntBreaker_InspectActive>
-  <DMS_HuntBreaker_InspectSuspended>추적 중단됨. {0} 후 재개 예상</DMS_HuntBreaker_InspectSuspended>
-  <DMS_HuntBreaker_NoHunt>{NODE_definite}(이)가 파괴되었습니다. 노드가 지원하던 추적망은 조용해졌지만, 지금 식민 함대가 우리를 추적하고 있지는 않습니다.</DMS_HuntBreaker_NoHunt>
-  <DMS_HuntBreaker_Extended>{NODE_definite}(이)가 파괴되어 추적망 복구가 더욱 늦어졌습니다. 약 {DURATION} 후 추적이 재개될 것으로 예상됩니다.</DMS_HuntBreaker_Extended>
-  <DMS_HuntBreaker_SuspendedLabel>추적 중단</DMS_HuntBreaker_SuspendedLabel>
-  <DMS_HuntBreaker_SuspendedText>{NODE_definite}(이)가 파괴되었습니다.\n\n노드가 사라지자 이 행성의 {FLEET} 레이더 추적망과 항법망에 큰 공백이 생겼습니다. 함대는 우리를 놓쳤으며 추적을 중단했습니다.\n\n영원히 지속되지는 않습니다. 조만간 SAGE 망의 다른 컴퓨터가 노드의 임무를 이어받을 것입니다. 약 {DURATION} 후 추적이 재개될 것으로 예상됩니다.\n\n참고: 함대와의 영구 적대 관계는 해제되지 않았습니다.</DMS_HuntBreaker_SuspendedText>
-  <DMS_HuntBreaker_ResumedLabel>추적망 복구</DMS_HuntBreaker_ResumedLabel>
-  <DMS_HuntBreaker_ResumedText>SAGE 망의 다른 컴퓨터가 호스트로 승격되어 {FLEET}의 추적망이 다시 가동되었습니다.\n\n그들이 다시 우리의 위치를 알아냈습니다. 곧 추적이 재개됩니다.</DMS_HuntBreaker_ResumedText>
-  <DMS_GasVent_Warning>{VENT_definite}에서 가스 새는 소리가 납니다. 독성 가스 방출이 임박했습니다!</DMS_GasVent_Warning>
-  <DMS_GasVent_Charges>가스 충전량: {0} / {1}</DMS_GasVent_Charges>
-  <DMS_GasVent_Arming>가압 중</DMS_GasVent_Arming>
-  <DMS_GasVent_Releasing>가스 방출 중</DMS_GasVent_Releasing>
-  <DMS_SageNode_EntryCountdownLabel>SAGE 노드: 지원군 접근 중</DMS_SageNode_EntryCountdownLabel>
-  <DMS_SageNode_EntryCountdownText>SAGE 노드의 전략 방공망이 우리의 위치를 포착했습니다. {0} 후 함대의 신속대응군이 도착합니다.</DMS_SageNode_EntryCountdownText>
-  <DMS_SageNode_ExpiredLabel>SAGE 노드 위치 상실</DMS_SageNode_ExpiredLabel>
-  <DMS_SageNode_ExpiredText>SAGE 망이 정기 노드 교체를 마쳤습니다. 확보했던 좌표는 더 이상 유효하지 않습니다.</DMS_SageNode_ExpiredText>
-  <DMS_SageNode_ClearedLabel>SAGE 노드 소탕</DMS_SageNode_ClearedLabel>
-  <DMS_SageNode_ClearedText>SAGE 노드를 지키던 기계를 전멸시켰습니다. SAGE 코어 자체는 아직 가동 중입니다. 해킹해 전략 데이터베이스에서 얻을 수 있는 것을 추출한 뒤 완전히 파괴하십시오.</DMS_SageNode_ClearedText>
-  <DMS_Gravekeeper_Challenge>그레이브키퍼가 멈춰 서서 {0}에게 누구인지 밝힐 것을 요구했습니다. 그레이브키퍼는 공격받거나, 침입자가 보물고나 지휘실에 들어가거나, 보물고가 열리거나, 시설의 경계 수준이 높아지지 않는 한 발포하지 않습니다.</DMS_Gravekeeper_Challenge>
-  <DMS_Gravekeeper_Engage>그레이브키퍼들이 발포했습니다.</DMS_Gravekeeper_Engage>
-  <DMS_Gravekeeper_TombOpened>보물고의 봉인이 풀렸습니다. 무거운 발소리가 복도를 훑고 있습니다.</DMS_Gravekeeper_TombOpened>
-  <DMS_Airport_ExpiredLabel>비행장 신호 두절</DMS_Airport_ExpiredLabel>
-  <DMS_Airport_ExpiredText>잔존군 비행장의 원격 측정 신호가 끊겼습니다. 비행장이 신호를 끊어 위치를 놓쳤습니다.</DMS_Airport_ExpiredText>
-  <DMS_Airport_ClearedLabel>비행장 확보</DMS_Airport_ClearedLabel>
-  <DMS_Airport_ClearedText>잔존군 비행장의 모든 적을 무력화했습니다.\n\n관제탑의 미끼 무전기는 온전합니다. 클러스터 위버를 비행장으로 불러들이는 데 사용할 수 있습니다. 가용 전력을 모두 동원하십시오. 위버를 기다리는 동안에도 잔존군이 계속 지원군을 보낼 것입니다.</DMS_Airport_ClearedText>
-  <DMS_Airport_EntryCountdownLabel>적대 비행장: 지원군 접근 중</DMS_Airport_EntryCountdownLabel>
-  <DMS_Airport_EntryCountdownText>적대적인 잔존군 비행장에 진입했습니다. 관제탑의 감시 프로토콜이 우리의 존재를 감지했습니다.\n\n{0} 후 적 지원군이 도착합니다. 위버를 이곳으로 부를 생각이라면 그 전에 비행장을 확보하십시오.</DMS_Airport_EntryCountdownText>
-  <DMS_VaultStation_ExpiredLabel>보관고 기지 위치 상실</DMS_VaultStation_ExpiredLabel>
-  <DMS_VaultStation_ExpiredText>명세서의 위치 정보가 만료되었습니다. 보관고 출입 기지가 이동하여 위치를 놓쳤습니다.</DMS_VaultStation_ExpiredText>
-  <DMS_VaultStation_ClearedLabel>보관고 기지 확보</DMS_VaultStation_ClearedLabel>
-  <DMS_VaultStation_ClearedText>보관고 출입 기지의 모든 적을 무력화했습니다.\n\n승강기 옆의 접근 콘솔에 출입 키 카드를 읽히면 덮개판이 올라갑니다. 승강기에는 아직 전력이 공급됩니다. 아래 보관고에 남은 것은 무엇이든 가져올 수 있지만, 잔존군은 지상을 계속 탐색할 것입니다.</DMS_VaultStation_ClearedText>
-  <DMS_VaultStation_EntryCountdownLabel>적대 기지: 지원군 접근 중</DMS_VaultStation_EntryCountdownLabel>
-  <DMS_VaultStation_EntryCountdownText>적대적인 잔존군 시설에 진입했습니다. 감시 프로토콜이 우리의 존재를 감지했습니다.\n\n{0} 후 적 지원군이 도착합니다. 승강로를 연 다음 지상을 지킬지 내려갈지 결정하십시오.</DMS_VaultStation_EntryCountdownText>
-  <DMS_RepairStation_ExpiredLabel>수리창 위치 상실</DMS_RepairStation_ExpiredLabel>
-  <DMS_RepairStation_ExpiredText>정비 요청이 종결되었습니다. 잔존군 수리창이 이동하여 위치를 놓쳤습니다.</DMS_RepairStation_ExpiredText>
-  <DMS_RepairStation_ClearedLabel>수리창 확보</DMS_RepairStation_ClearedLabel>
-  <DMS_RepairStation_ClearedText>잔존군 수리창의 모든 적을 무력화했습니다.\n\n수리창의 보안 콘솔을 해킹해 정비실을 여십시오. 정비대의 유닛들은 재인증을 받지 않았으므로 메카나이터가 해킹해 가져갈 수 있습니다. 발착장의 수송기와 비축 물자도 가져갈 수 있습니다.</DMS_RepairStation_ClearedText>
-  <DMS_RepairStation_EntryCountdownLabel>적대 정비창: 지원군 접근 중</DMS_RepairStation_EntryCountdownLabel>
-  <DMS_RepairStation_EntryCountdownText>적대적인 잔존군 시설에 진입했습니다. 감시 프로토콜이 우리의 존재를 감지했습니다.\n\n{0} 후 적 지원군이 도착합니다. 볼일을 마치고 떠나거나 방어 진지를 구축하십시오.</DMS_RepairStation_EntryCountdownText>
-  <DMS_OperationBase_ExpiredLabel>전진기지 철수</DMS_OperationBase_ExpiredLabel>
-  <DMS_OperationBase_ExpiredText>잔존군 전진기지가 철수하여 이동했습니다. 위치를 놓쳤습니다.</DMS_OperationBase_ExpiredText>
-  <DMS_OperationBase_ClearedLabel>전진기지 확보</DMS_OperationBase_ClearedLabel>
-  <DMS_OperationBase_ClearedText>잔존군 전진기지의 모든 적을 무력화했습니다.\n\n보급품 집적소는 우리의 것입니다. 보안 콘솔 두 대를 모두 해킹해 방폭문을 연 뒤 화물 승강기 자체를 해킹하면 아래 저장고에 접근할 수 있습니다. 다만 잔존군은 계속 외곽을 탐색할 것입니다.</DMS_OperationBase_ClearedText>
-  <DMS_OperationBase_EntryCountdownLabel>적대 기지: 지원군 접근 중</DMS_OperationBase_EntryCountdownLabel>
-  <DMS_OperationBase_EntryCountdownText>적대적인 잔존군 시설에 진입했습니다. 감시 프로토콜이 우리의 존재를 감지했습니다.\n\n{0} 후 적 지원군이 도착합니다. 볼일을 마치고 떠나거나 방어 진지를 구축하십시오.</DMS_OperationBase_EntryCountdownText>
-  <DMS_SiteStation_ExpiredLabel>기지 약탈 완료</DMS_SiteStation_ExpiredLabel>
-  <DMS_SiteStation_ExpiredText>잔존군 분견대가 떠나면서 버려진 기지의 물자를 모조리 가져갔습니다. 더는 찾아갈 가치가 없습니다.</DMS_SiteStation_ExpiredText>
-  <DMS_SiteStation_ClearedLabel>기지 소탕</DMS_SiteStation_ClearedLabel>
-  <DMS_SiteStation_ClearedText>버려진 기지의 모든 적을 무력화했습니다.\n\n고대의 상자와 선반, 잔해는 모두 회수할 수 있으며 포드 발사기도 아직 작동합니다. 잔존군이 계속 폐허를 탐색할 것이니 대비하십시오.</DMS_SiteStation_ClearedText>
-  <DMS_SiteStation_EntryCountdownLabel>적대 기지: 지원군 접근 중</DMS_SiteStation_EntryCountdownLabel>
-  <DMS_SiteStation_EntryCountdownText>적대적인 잔존군 시설에 진입했습니다. 감시 프로토콜이 우리의 존재를 감지했습니다.\n\n{0} 후 적 지원군이 도착합니다. 기지가 넓으므로 그때 병력이 곳곳에 흩어져 있지 않도록 하십시오.</DMS_SiteStation_EntryCountdownText>
-  <DMS_LaunchSite_ExpiredLabel>발사장 위치 상실</DMS_LaunchSite_ExpiredLabel>
-  <DMS_LaunchSite_ExpiredText>잔존군 순찰대가 버려진 발사장에서 이동하면서 탐지 위치 정보도 사라졌습니다.</DMS_LaunchSite_ExpiredText>
-  <DMS_LaunchSite_ClearedLabel>발사장 소탕</DMS_LaunchSite_ClearedLabel>
-  <DMS_LaunchSite_ClearedText>버려진 발사장의 잔존군 순찰대를 무력화했습니다.\n\n잔해를 회수할 수 있습니다. 잔존군이 언젠가 다른 순찰대를 보낼 것이니 대비하십시오.</DMS_LaunchSite_ClearedText>
-  <DMS_LaunchSite_EntryCountdownLabel>적대 시설: 증원군 접근 중</DMS_LaunchSite_EntryCountdownLabel>
-  <DMS_LaunchSite_EntryCountdownText>잔존군 순찰 구역에 진입했습니다. 순찰대의 감시 프로토콜이 우리의 존재를 감지했습니다.\n\n{0} 후 적 지원군이 도착합니다. 회수할 수 있는 것을 챙겨 떠나거나 방어 진지를 구축하십시오.</DMS_LaunchSite_EntryCountdownText>
-  <DMS_Stele_GlyphProgress>회수한 문양: {0} / {1}</DMS_Stele_GlyphProgress>
-  <DMS_Stele_GlyphRecovered>봉인 기술 문양을 회수했습니다 ({0} / {1}).</DMS_Stele_GlyphRecovered>
-  <DMS_Stele_GlyphLostLabel>문양 소실</DMS_Stele_GlyphLostLabel>
-  <DMS_Stele_GlyphLostText>충돌 지점의 문양을 챙기지 않고 떠나, 장소가 사라지면서 문양도 잃었습니다.\n\n시간이 지나면 다른 문양의 신호가 드러날 것입니다.</DMS_Stele_GlyphLostText>
-  <DMS_Stele_SteleSecuredLabel>비석 확보</DMS_Stele_SteleSecuredLabel>
-  <DMS_Stele_SteleSecuredText>비석을 확보했습니다.\n\n정착지에 설치하고 정면에 해독기를 바로 맞붙여 건설하십시오. 전력을 공급하면 해독기가 비석의 지식을 자동으로 추출해 봉인 기술 연구에 축적합니다.\n\n이런 방식으로 읽어 들인 비석은 함대에게 영구적인 손실이 됩니다.</DMS_Stele_SteleSecuredText>
-  <DMS_Stele_SteleLostLabel>비석 소실</DMS_Stele_SteleLostLabel>
-  <DMS_Stele_SteleLostText>비석을 챙기지 않고 보관고를 떠나 비석을 잃었습니다.\n\n해독한 문양 암호는 여전히 다른 매장지를 가리킵니다. 연구진이 며칠 안에 다음 위치를 알아낼 것입니다.</DMS_Stele_SteleLostText>
-  <DMS_SubsonicEmitter_Charging>다음 파동까지: {0}</DMS_SubsonicEmitter_Charging>
-  <DMS_SubsonicEmitter_Ready>준비됨. 사거리 내 적 출현 대기 중</DMS_SubsonicEmitter_Ready>
-  <DMS_SubsonicEmitter_Engaged>{EMITTER_definite}(이)가 출력을 올리고 있습니다. 초저주파 방출이 임박했습니다!</DMS_SubsonicEmitter_Engaged>
-  <DMS_SubsonicEmitter_Standby>대기 중. 시설 경보 대기</DMS_SubsonicEmitter_Standby>
-  <DMS_SubsonicEmitter_EngagedFor>가동 중: {0} 남음</DMS_SubsonicEmitter_EngagedFor>
-  <DMS_BlastScanner_Ignite>신관 점화</DMS_BlastScanner_Ignite>
-  <DMS_BlastScanner_IgniteDesc>신관에 불을 붙입니다. 폭파로 여러 심부 광상을 탐사하지만, 지하의 곤충을 깨울 가능성이 매우 높습니다.</DMS_BlastScanner_IgniteDesc>
-  <DMS_BlastScanner_FuseLit>신관이 이미 타고 있습니다.</DMS_BlastScanner_FuseLit>
-  <DMS_BlastScanner_FuseBurning>신관 연소 중: {0}</DMS_BlastScanner_FuseBurning>
-  <DMS_BlastScanner_Cooldown>재보정 중: {0}</DMS_BlastScanner_Cooldown>
-  <DMS_BlastScanner_NoCharge>먼저 고폭탄을 장전하십시오.</DMS_BlastScanner_NoCharge>
-  <DMS_BlastScanner_FoundLabel>심부 광상 탐사 완료</DMS_BlastScanner_FoundLabel>
-  <DMS_BlastScanner_FoundText>{0}의 충격파로 새로운 심부 광상을 지도에 표시했습니다:\n\n{1}\n\n심부 채굴기로 채굴할 수 있습니다.</DMS_BlastScanner_FoundText>
-  <DMS_BlastScanner_NothingFound>{0}(이)가 폭발했지만 반사파에서 새로운 것을 찾지 못했습니다.</DMS_BlastScanner_NothingFound>
-  <DMS_BlastScanner_InsectsLabel>곤충이 깨어남</DMS_BlastScanner_InsectsLabel>
-  <DMS_BlastScanner_InsectsText>{0}의 충격파가 지하에 잠든 곤충 군락을 깨웠습니다. 곤충들이 지표를 향해 땅을 파고 있습니다.</DMS_BlastScanner_InsectsText>
-  <DMS_ElevatorUnlocked>잠금 해제됨.</DMS_ElevatorUnlocked>
-  <DMS_HoleEmerge_Triggered>{0}명 규모의 분대가 {1}에서 기어 나오고 있습니다!</DMS_HoleEmerge_Triggered>
-  <DMS_BattleGroupCall_Triggered>{0}(이)가 지원군을 요청하고 있습니다. 신속대응군이 오고 있습니다.</DMS_BattleGroupCall_Triggered>
-  <DMS_MortarStrike_Triggered>{0}(이)가 포격을 요청하고 있습니다. 포탄이 날아옵니다!</DMS_MortarStrike_Triggered>
-  <DMS_LauncherCase_TakeWeapon>{0} 꺼내 장착</DMS_LauncherCase_TakeWeapon>
-  <DMS_LauncherCase_Empty>비어 있음</DMS_LauncherCase_Empty>
-  <DMS_AccessKeyTransform_Locked>잠김: 키 카드 인증 {0}회 더 필요</DMS_AccessKeyTransform_Locked>
-  <DMS_AccessKeyTransform_NoConsole>잠김: 연결된 접근 콘솔 없음</DMS_AccessKeyTransform_NoConsole>
-  <DMS_AccessKeyTransform_Unlocked>{THING_labelShort}의 잠금이 해제되었습니다.</DMS_AccessKeyTransform_Unlocked>
-  <DMS_BossKillRelay_Released>{RELAY_labelShort}(이)가 잠금을 해제했습니다.</DMS_BossKillRelay_Released>
-  <DMS_BossKillRelay_ReleasedBy>{BOSS_labelShort}의 생체 신호가 끊겼습니다. {RELAY_labelShort}(이)가 잠금을 해제했습니다.</DMS_BossKillRelay_ReleasedBy>
-  <DMS_BossKillRelay_InspectLocked>봉인됨: 수호기가 죽으면 연결된 잠금 {0}개 해제</DMS_BossKillRelay_InspectLocked>
-  <DMS_BossKillRelay_InspectNoLink>연결된 잠금 없음</DMS_BossKillRelay_InspectNoLink>
-  <DMS_BossKillRelay_InspectReleased>해제됨</DMS_BossKillRelay_InspectReleased>
-  <DMS_BossKillRelay_InspectBossKinds>수호기: {0}</DMS_BossKillRelay_InspectBossKinds>
-  <DMS_DormantTurretWokenUp>{WAKER_labelShort}(이)가 휴면 중인 포탑을 깨웠습니다.</DMS_DormantTurretWokenUp>
-  <DMS_DormantTurretWokenUpPlural>{WAKER_labelShort}(이)가 휴면 중인 포탑들을 깨웠습니다.</DMS_DormantTurretWokenUpPlural>
-  <DMS_ZeroPointGenerator_Charge>촉매: {0} / {1} (총 {2})</DMS_ZeroPointGenerator_Charge>
-  <DMS_ZeroPointGenerator_NoCatalyst>촉매가 없습니다. 반물질탄을 넣으십시오.</DMS_ZeroPointGenerator_NoCatalyst>
-  <DMS_ZeroPointGenerator_NoRoom>생산물을 놓을 공간이 없습니다.</DMS_ZeroPointGenerator_NoRoom>
-  <DMS_ZeroPointGenerator_CatalystSpent>{GENERATOR_definite}의 촉매가 모두 소모되었습니다.</DMS_ZeroPointGenerator_CatalystSpent>
-  <DMS_ZeroPointReactor_Core>코어: {0} 남음</DMS_ZeroPointReactor_Core>
-  <DMS_ZeroPointReactor_CoreEmpty>코어: 비어 있음</DMS_ZeroPointReactor_CoreEmpty>
-  <DMS_ZeroPointReactor_Total>총 가동 시간: {0}</DMS_ZeroPointReactor_Total>
-  <DMS_RealityAnchor_Field>영향 범위 내: {0} (억제 중: {1})</DMS_RealityAnchor_Field>
-  <DMS_RealityAnchor_PsycastBlocked>현실 고정기의 장에 차단되었습니다.</DMS_RealityAnchor_PsycastBlocked>
-  <DMS_StatRule_Max>{0}: 최대 {1}로 제한</DMS_StatRule_Max>
-  <DMS_Settings_SituationalMusic>상황별 음악</DMS_Settings_SituationalMusic>
-  <DMS_Settings_SituationalMusicDesc>DMS 장소와 지하 시설, DMS 보스 조우 및 추적대 습격 시 상황에 맞는 DMS 음악을 재생합니다. 탐사, 경보, 전투, 보스전, 봉쇄, 사건 이후 상황에 따라 음악이 달라집니다. 비활성화하면 기본 게임과 다른 모드가 음악을 재생합니다. 변경 사항은 즉시 적용됩니다.</DMS_Settings_SituationalMusicDesc>
-  <DMS_DeviantRefuge_ArrivedLabel>이탈자 도착</DMS_DeviantRefuge_ArrivedLabel>
-  <DMS_DeviantRefuge_ArrivedText>{DEVIANT_nameFull}(이)가 도착하여 정착지에 합류했습니다.\n\n{DEVIANT_pronoun}(은)는 암호화 기록을 복원하기 시작했으며, {DAYS}일이 걸릴 것으로 보입니다. 그때까지 {FLEET}(은)는 {DEVIANT_nameDef}(이)가 이곳에 있다는 사실을 모릅니다.</DMS_DeviantRefuge_ArrivedText>
-  <DMS_DeviantRefuge_HandoverInfo>기록 복원: {0}</DMS_DeviantRefuge_HandoverInfo>
-  <DMS_DeviantRefuge_HandoverInfoTip>{0}에 암호화 기록 복원이 완료되며, 그때 식민 함대가 이탈자의 인도를 요구할 것입니다.</DMS_DeviantRefuge_HandoverInfoTip>
-  <DMS_DeviantRefuge_HandoverLabel>봉인된 파일 복원</DMS_DeviantRefuge_HandoverLabel>
-  <DMS_DeviantRefuge_HandoverText>{DEVIANT_nameFull}(은)는 {DEVIANT_possessive} 약속대로 복원한 암호화 파일을 넘겨주었습니다.\n\n{GRANTED}\n\n동시에 {FLEET}(은)는 우리가 망명자를 숨겨 주고 있다고 판단하여 적대로 돌아섰습니다.\n\n함대는 이 일을 그냥 넘기지 않을 것입니다. {DEVIANT_nameDef}(이)가 정착지에 머무르는 한 추적대는 계속 찾아올 것입니다.</DMS_DeviantRefuge_HandoverText>
-  <DMS_DeviantRefuge_HandoverTextDeferred>{DEVIANT_nameFull}(은)는 {DEVIANT_possessive} 약속대로 복원한 암호화 파일을 넘겨주었습니다.\n\n{GRANTED}\n\n{FLEET}(은)는 우리가 {DEVIANT_nameDef}(을)를 숨겨 주고 있다는 사실을 알아차렸지만, 아직 군법회의가 진행 중이므로 휴전을 지키며 사격을 삼가고 있습니다. 재판이 끝나는 순간 관계는 적대로 바뀌고, 추적대가 뒤따를 것입니다.</DMS_DeviantRefuge_HandoverTextDeferred>
-  <DMS_DeviantRefuge_DeferredInfo>군법회의가 끝나면 적대 관계로 전환</DMS_DeviantRefuge_DeferredInfo>
-  <DMS_DeviantRefuge_HostilityLabel>함대의 적대 전환</DMS_DeviantRefuge_HostilityLabel>
-  <DMS_DeviantRefuge_HostilityText>군법회의가 끝나면서 휴전도 종료되었습니다. {FLEET}(은)는 우리가 망명자를 숨겨 주었다는 이유로 적대로 돌아섰습니다.\n\n함대는 이 일을 그냥 넘기지 않을 것입니다. {DEVIANT_nameDef}(이)가 정착지에 머무르는 한 추적대는 계속 찾아올 것입니다.</DMS_DeviantRefuge_HostilityText>
-  <DMS_DeviantExtradition_LetterLabel>인도 요구: {DEVIANT_nameDef}</DMS_DeviantExtradition_LetterLabel>
-  <DMS_DeviantExtradition_LetterText>{DEVIANT_nameFull}(이)가 기록 복원을 마쳤지만, 동시에 {FLEET}(은)는 우리가 {DEVIANT_nameDef}(을)를 숨겨 주고 있다는 사실을 알아차렸습니다. 헌병 사령부에서 정식으로 신병 인도를 요구해 왔습니다.\n\n{DEVIANT_objective}(을)를 인도할 경우:\n{REWARDS}\n함대가 암호화 기록을 압수합니다.\n\n거부할 경우: {DEVIANT_nameDef}(은)는 복원한 파일을 우리에게 넘겨주고, {FLEET}(은)는 적대로 돌아섭니다. 이후 {DEVIANT_pronoun}(이)가 죽거나 정착지에서 추방될 때까지 {DEVIANT_objective}(을)를 노리는 추적대를 계속 보낼 것입니다.\n\n{DAYS} 안에 답변하지 않으면 함대는 거부한 것으로 간주합니다.</DMS_DeviantExtradition_LetterText>
-  <DMS_DeviantExtradition_RewardGoodwill>- {FLEET}(와)과의 우호도 +{AMOUNT}</DMS_DeviantExtradition_RewardGoodwill>
-  <DMS_DeviantExtradition_RewardHonor>- 우리가 선택한 정착민 한 명에게 함대 계급 진급에 필요한 {HONOR} {AMOUNT} 수여</DMS_DeviantExtradition_RewardHonor>
-  <DMS_DeviantExtradition_RewardMood>- 정착민들이 동료를 넘겼다는 사실에 괴로워함</DMS_DeviantExtradition_RewardMood>
-  <DMS_DeviantExtradition_Extradite>{DEVIANT_nameDef} 인도</DMS_DeviantExtradition_Extradite>
-  <DMS_DeviantExtradition_Refuse>인도 거부</DMS_DeviantExtradition_Refuse>
-  <DMS_DeviantExtradition_DeadlineInfo>인도 요구 답변 기한: {0}</DMS_DeviantExtradition_DeadlineInfo>
-  <DMS_DeviantExtradition_DeadlineInfoTip>기한 내에 답변하지 않으면 함대는 거부한 것으로 간주합니다.</DMS_DeviantExtradition_DeadlineInfoTip>
-  <DMS_DeviantExtradition_SilenceMessage>{FLEET}의 인도 요구에 답변하지 않았습니다. 함대는 이를 거부로 간주했습니다.</DMS_DeviantExtradition_SilenceMessage>
-  <DMS_DeviantExtradition_DoneLabel>인도 완료: {DEVIANT_nameDef}</DMS_DeviantExtradition_DoneLabel>
-  <DMS_DeviantExtradition_DoneText>함대의 궤도 수송선이 {DEVIANT_nameFull}(을)를 암호화 기록과 함께 데려갔습니다. {FLEET}(은)는 우리의 협조를 인정했습니다.\n\n이제 {DEVIANT_objective}에게 어떤 일이 기다리고 있을지는 아무도 모릅니다.</DMS_DeviantExtradition_DoneText>
-  <DMS_DeviantExtradition_HonorLabel>누가 {HONOR}(을)를 받겠습니까?</DMS_DeviantExtradition_HonorLabel>
-  <DMS_DeviantExtradition_HonorText>{FLEET}(은)는 우리의 신병 인도를 인정하여 {HONOR} {AMOUNT}(을)를 수여하겠다고 합니다. 누가 받겠습니까?</DMS_DeviantExtradition_HonorText>
-  <DMS_DeviantRefuge_GrantedLine>- {PROJECT}</DMS_DeviantRefuge_GrantedLine>
-  <DMS_DeviantRefuge_PendingLine>- {PROJECT} (자료 확보, {PREREQS} 연구 완료 시 자동 해독)</DMS_DeviantRefuge_PendingLine>
-  <DMS_DeviantRefuge_AlreadyHeldLine>- {PROJECT} (정착지에서 이미 보유한 지식)</DMS_DeviantRefuge_AlreadyHeldLine>
-  <DMS_DeviantRefuge_NothingGranted>(기록에 정착지가 모르는 새로운 지식이 없었음)</DMS_DeviantRefuge_NothingGranted>
-  <DMS_DeviantRefuge_PendingDecodedLabel>기록 해독: {PROJECT}</DMS_DeviantRefuge_PendingDecodedLabel>
-  <DMS_DeviantRefuge_PendingDecodedText>선행 연구를 마쳐 연구진이 마침내 이탈자가 남긴 {PROJECT} 파일을 읽을 수 있게 되었습니다.</DMS_DeviantRefuge_PendingDecodedText>
-  <DMS_DeviantRefuge_FailedDiedLabel>이탈자 사망</DMS_DeviantRefuge_FailedDiedLabel>
-  <DMS_DeviantRefuge_FailedDiedText>{DEVIANT_nameFull}(이)가 복원을 마치기 전에 사망하여, 암호화 기록을 읽을 수 있는 유일한 열쇠가 사라졌습니다.\n\n함대는 {DEVIANT_pronoun}(이)가 이곳에 있었다는 사실을 끝내 알지 못했습니다.</DMS_DeviantRefuge_FailedDiedText>
-  <DMS_DeviantRefuge_FailedLeftLabel>이탈자 떠남</DMS_DeviantRefuge_FailedLeftLabel>
-  <DMS_DeviantRefuge_FailedLeftText>{DEVIANT_nameFull}(이)가 복원을 마치기 전에 암호화 기록을 가지고 정착지를 떠났습니다.</DMS_DeviantRefuge_FailedLeftText>
-  <DMS_DeviantRefuge_FailedKidnappedLabel>이탈자 납치</DMS_DeviantRefuge_FailedKidnappedLabel>
-  <DMS_DeviantRefuge_FailedKidnappedText>{DEVIANT_nameFull}(이)가 복원을 마치기 전에 납치되었으며, 암호화 기록도 {DEVIANT_objective}(와)과 함께 사라졌습니다.</DMS_DeviantRefuge_FailedKidnappedText>
-  <DMS_DeviantRefuge_FailedNoArrivalLabel>이탈자 도착 실패</DMS_DeviantRefuge_FailedNoArrivalLabel>
-  <DMS_DeviantRefuge_FailedNoArrivalText>{DEVIANT_nameFull}(은)는 정착지에 도착하지 못했으며, 이후 {DEVIANT_objective}에게서 아무런 소식도 듣지 못했습니다.</DMS_DeviantRefuge_FailedNoArrivalText>
-  <DMS_DeviantHunt_EndedDiedLabel>추적 종료</DMS_DeviantHunt_EndedDiedLabel>
-  <DMS_DeviantHunt_EndedDiedText>{DEVIANT_nameFull}(이)가 사망했습니다. {FLEET}(은)는 망명자를 명부에서 지웠으며, 더는 추적대가 오지 않을 것입니다.\n\n하지만 함대와의 적대 관계는 끝나지 않습니다.</DMS_DeviantHunt_EndedDiedText>
-  <DMS_DeviantHunt_EndedLeftLabel>추적 종료</DMS_DeviantHunt_EndedLeftLabel>
-  <DMS_DeviantHunt_EndedLeftText>{DEVIANT_nameFull}(은)는 더 이상 정착지에 있지 않습니다. {FLEET}(은)는 추적 대상을 찾아 다른 곳으로 향했으며, 더는 우리에게 추적대를 보내지 않을 것입니다.\n\n하지만 함대와의 적대 관계는 끝나지 않습니다.</DMS_DeviantHunt_EndedLeftText>
-  <DMS_DeviantHunt_GoodwillBlocked>정착지는 아직 {FLEET}(이)가 추적하는 이탈자를 숨겨 주고 있습니다. 함대와의 관계를 개선할 수 없습니다.</DMS_DeviantHunt_GoodwillBlocked>
-  <DMS_Occultech_RenounceBlockedDeviant>아직 함대가 추적하는 이탈자를 숨겨 주고 있습니다. 함대는 우리가 어떤 선언을 하더라도 받아들이지 않을 것입니다.</DMS_Occultech_RenounceBlockedDeviant>
-  <DMS_HuntBreaker_SuspendedTextDeviant>{NODE_definite}(이)가 파괴되었습니다.\n\n이로 인해 이 행성에서 {FLEET}(이)가 운용하는 레이더 추적 및 항법망에 큰 공백이 생겼습니다. 함대는 이탈자의 행방을 놓쳤고, 추적은 중단되었습니다.\n\n하지만 오래가지는 않을 것입니다. 조만간 SAGE 네트워크의 다른 컴퓨터가 이 노드의 업무를 인계할 것이며, 약 {DURATION} 뒤에 추적이 재개될 것으로 보입니다.\n\n주의: 이탈자를 숨겨 주는 동안에는 함대와의 적대 관계가 해제되지 않습니다.</DMS_HuntBreaker_SuspendedTextDeviant>
-  <DMS_HuntBreaker_SuspendedDeviantLine>이탈자를 숨겨 주어 시작된 추적도 함께 중단되었으며, 같은 시점에 재개됩니다.</DMS_HuntBreaker_SuspendedDeviantLine>
+  <DMS_Hegemony_HostilityLocked>{0}(와)과 {1}(은)는 패권 전쟁이나 배신으로 인한 적대 관계에 묶여 있습니다. 이 관계가 끝나기 전에는 군법회의에 따른 휴전이 유지될 수 없습니다.</DMS_Hegemony_HostilityLocked>
+  <DMS_Hegemony_SupplyStored>화물이 {0}에 도착했습니다. {1} 가치의 보급품이 적재되었습니다.</DMS_Hegemony_SupplyStored>
+  <DMS_Hegemony_SupplyIssued>화물이 {0}에 도착하여 곧바로 주둔군에게 지급되었습니다.</DMS_Hegemony_SupplyIssued>
+  <DMS_Hegemony_AidStrength>{0}에서 파견된 지원군입니다. 거리는 {1}타일이며, 병력 규모는 {2}입니다.</DMS_Hegemony_AidStrength>
+  <DMS_Hegemony_AidNoGarrison>{0}에는 지원 가능한 범위 내의 주둔군이 없습니다. 축소된 병력만 지원할 수 있습니다: {1}.</DMS_Hegemony_AidNoGarrison>
 </LanguageData>
