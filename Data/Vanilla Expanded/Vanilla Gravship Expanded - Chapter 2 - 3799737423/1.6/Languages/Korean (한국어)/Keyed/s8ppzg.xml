@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_GenerateEmptyOrbit>빈 궤도 맵 만들기</VGE_GenerateEmptyOrbit>
+  <VGE_GenerateEmptyOrbitDesc>구조물을 건설해 내보낼 수 있도록 비어있는 궤도 맵을 생성합니다.</VGE_GenerateEmptyOrbitDesc>
+  <VGE_FireBombardmentTargeter>{0} 발사</VGE_FireBombardmentTargeter>
+  <VGE_FireBombardmentTargeterDesc>{0}(을)를 목표 위치에 발사합니다. 발사 후 중력부양선 폭격 조준기는 짧은 재사용 대기시간에 들어갑니다.</VGE_FireBombardmentTargeterDesc>
+  <VGE_TargeterOnCooldown>재사용 대기 중: {0}</VGE_TargeterOnCooldown>
+  <VGE_TargeterNoAmmo>사격 불가: 포탄이 없습니다.</VGE_TargeterNoAmmo>
+  <VGE_NeedsLinkedTargetingTerminal>사격 불가: 연결된 제어 단말기가 필요합니다.</VGE_NeedsLinkedTargetingTerminal>
+  <VGE_TargeterOutOfRange>사격 불가: 범위 밖에 있습니다.</VGE_TargeterOutOfRange>
+  <VGE_TargetingConsoleOnlyGravshipArtillery>제어 콘솔은 중력부양선 함포와만 연결할 수 있습니다.</VGE_TargetingConsoleOnlyGravshipArtillery>
+  <VGE_LinkWithTurretConsoleDesc>연결할 포탑을 선택합니다. 연결 시 이 제어 콘솔로 해당 포탑을 조작하게 됩니다.</VGE_LinkWithTurretConsoleDesc>
+  <VGE_UnlinkWithTurretConsoleDesc>현재 연결된 포탑와의 연결을 끊어 다른 포탑과 연결할 수 있게 합니다.</VGE_UnlinkWithTurretConsoleDesc>
+  <VGE_SelectLinkedTurretConsoleDesc>연결된 포탑으로 이동합니다.</VGE_SelectLinkedTurretConsoleDesc>
+  <VGE_LinkWithTurretTargeterDesc>연결할 포탑을 선택합니다. 연결 시 이 궤도 조준기로 해당 포탑을 조작하게 됩니다.</VGE_LinkWithTurretTargeterDesc>
+  <VGE_UnlinkWithTurretTargeterDesc>현재 연결된 포탑와의 연결을 끊어 다른 포탑과 연결할 수 있게 합니다.</VGE_UnlinkWithTurretTargeterDesc>
+  <VGE_SelectLinkedTurretTargeterDesc>연결된 포탑으로 이동합니다.</VGE_SelectLinkedTurretTargeterDesc>
+  <VGE_LaunchWarpod>전투 포드 발사</VGE_LaunchWarpod>
+  <VGE_LaunchWarpodDesc>정확한 목표 지점을 지정해 이 준궤도 전투 포드를 발사합니다.</VGE_LaunchWarpodDesc>
+  <VGE_WarpodLocationNeedRevealed>이곳에 전투 포드 발사 불가: 도착지가 미발견 지역입니다.</VGE_WarpodLocationNeedRevealed>
+  <VGE_MustBePlacedInSpace>우주 공간에 설치해야 합니다.</VGE_MustBePlacedInSpace>
+  <VGE_ShieldOverheated>모든 방열판이 차올라 중력부양선 보호막 생성기가 과열되었습니다. 방열판을 추가로 건설하세요.</VGE_ShieldOverheated>
+  <VGE_ShieldOverheatedGizmo>과열</VGE_ShieldOverheatedGizmo>
+  <VGE_ShieldInternalHeat>내부 열 (HU): {0}/{1}</VGE_ShieldInternalHeat>
+  <VGE_EscapePod_Enter>탈출 포드에 들어가기</VGE_EscapePod_Enter>
+  <VGE_EscapePod_InsertPawn>탈출 포드로 옮기기</VGE_EscapePod_InsertPawn>
+  <VGE_EscapePod_InsertCarriedPawn>{PAWN}(을)를 탈출 포드에 넣기</VGE_EscapePod_InsertCarriedPawn>
+  <VGE_EscapePod_Occupied>탈출 포드에 이미 탑승한 인원이 있음</VGE_EscapePod_Occupied>
+  <VGE_CommandAutoRebuild_EscapePod>켜져 있으면 {BUILDING_definite}(이)가 사용된 후 자동으로 교체됩니다.</VGE_CommandAutoRebuild_EscapePod>
+  <VGE_EscapePod_CancelEvacuation>탈출 취소</VGE_EscapePod_CancelEvacuation>
+  <VGE_EscapePod_Evacuation>중력부양선 비상 탈출</VGE_EscapePod_Evacuation>
+  <VGE_EscapePod_EvacuationDesc>중력부양선 전체를 대상으로 탈출 프로토콜을 실행합니다. 실행 즉시 모든 정착민은 가장 가까운 탈출 포드를 찾아 탑승하게 됩니다. 실행 중에는 모든 탈출 포드가 발사되지 전까지 함선에 경보음이 울립니다. 탈출 포드의 수가 부족하다면 일부 정착민이 탈출에 실패할 수 있습니다.</VGE_EscapePod_EvacuationDesc>
+  <VGE_EscapePod_EvacuationConfirmation>정말로 비상 탈출 명령을 내릴까요?\n\n모든 행동 가능한 정착민은 즉시 하던 일을 멈추고 탑승할 수 있는 탈출 포드를 찾아갈 것입니다. 탈출 포드를 바로 찾지 못한 정착민은 소집된 상태이거나 탈출 과정이 중단되지 않는 이상 계속해서 탈출 포드를 찾아다닐 것입니다.\n\n탈출을 중단하면 정착민들은 가능한 한 바로 직전에 하던 일을 다시 이어하려 할 것입니다.</VGE_EscapePod_EvacuationConfirmation>
+  <VGE_VacuumEmergencyLight_UnsafeVacuumLevel>위험 수준 설정</VGE_VacuumEmergencyLight_UnsafeVacuumLevel>
+  <VGE_VacuumEmergencyLight_UnsafeVacuumLevelDesc>진공도가 설정한 위험 수준에 도달하면 경고등이 점멸하며, 미소집 상태의 진공 방호구를 착용하지 않은 인원은 즉시 대피합니다.</VGE_VacuumEmergencyLight_UnsafeVacuumLevelDesc>
+  <VGE_VacuumEmergencyLight_UnsafeVacuumSlider>위험 진공도: {0_percentage}</VGE_VacuumEmergencyLight_UnsafeVacuumSlider>
+  <VGE_VacuumEmergencyLight_EvacuatePawns>진공도가 위험 수준 도달 시 대피</VGE_VacuumEmergencyLight_EvacuatePawns>
+  <VGE_FuelTab_ElectricThrusters>전기 추진기</VGE_FuelTab_ElectricThrusters>
+  <VGE_FuelTab_ChargedThrusters>충전된 추진기</VGE_FuelTab_ChargedThrusters>
+  <VGE_UsedCharge>충전</VGE_UsedCharge>
+  <VGE_HackWarcomputer>적 워컴퓨터를 해킹해 중력데이터 얻기</VGE_HackWarcomputer>
+  <VGE_GravdataWillBeLostWarning>선택한 중력기술 연구 과제가 없다면 획득한 중력데이터는 사라지게 됩니다.</VGE_GravdataWillBeLostWarning>
+  <VGE_WarcomputerHackedBlackBox>적대적 워컴퓨터를 해킹했습니다. 중력부양선 블랙박스에 {0} 중력데이터를 저장했습니다.</VGE_WarcomputerHackedBlackBox>
+  <VGE_WarcomputerHackedResearch>적대적 워컴퓨터를 해킹했습니다. {1} 연구에 {0} 중력데이터를 적용했습니다.</VGE_WarcomputerHackedResearch>
+  <VGE_DestinationJammed>착륙 불가: 목적지가 적 신호 교란기의 영향을 받고 있습니다.</VGE_DestinationJammed>
+  <VGE_DestinationJammedDropPod>목적지가 신호 교란기로 보호받고 있어 수송 포드를 발사할 수 없습니다.</VGE_DestinationJammedDropPod>
+  <VGE_DestinationJammedWarpod>목적지가 신호 교란기로 보호받고 있어 전투 포드를 발사할 수 없습니다.</VGE_DestinationJammedWarpod>
+  <VGE_Visibility400k>다른 세력에서 우리 중력부양선의 존재를 알아차리고 있습니다. 당분간 조용히 지내거나, 신호 교란기를 짓는 것을 고려해 보세요.</VGE_Visibility400k>
+  <VGE_Visibility600k>중력부양선 주목도</VGE_Visibility600k>
+  <VGE_Visibility600kDesc>우리 중력부양선 {0}(이)가 다른 이들의 주목을 끌었습니다. 계속해서 주목도를 올리면 중력부양선급 위협에 직면하게 될 것입니다.\n\n주목도는 중력부양선이 이동할 때뿐만 아니라 중력부양선 무기를 사용하거나 중력부양선에서 궤도 스캔을 수행할 때도 올라갑니다. 시간이 지나면 저절로 감소합니다.\n\n중력부양선급 위협에는 궤도 폭격 플랫폼, 해적 거점, 심지어 적 중력부양선까지 포함될 수 있습니다. 이들은 먼 거리에서부터 강력한 포격으로 적극적으로 공격해올 것입니다. 위협에 대비되어 있지 않다면 우리 함선은 흔적도 없이 산산조각 날 것입니다.\n\n현재 우리 중력부양선은 다음 무기로 무장하고 있습니다:\n\n{1}</VGE_Visibility600kDesc>
+  <VGE_NoArmamentsPresent>중력부양선이 무장되지 않았습니다. 근접 방어 포탑, 방어막 생성기, 그리고 함포를 마련하는 것을 고려해 보세요.</VGE_NoArmamentsPresent>
+  <VGE_Warpods>전투 포드</VGE_Warpods>
+  <VGE_SignalJammerCooldown>신호 교란기 재사용 대기시간: {0}</VGE_SignalJammerCooldown>
+  <VGE_SignalJammerStunnedArtillery>신호 교란기 활성화됨: 적 포탑이 12시간 동안 작동할 수 없습니다.</VGE_SignalJammerStunnedArtillery>
+  <VGE_LocationDestabilizing>붕괴 임박</VGE_LocationDestabilizing>
+  <VGE_LocationDestabilizingDesc>우리가 위치한 궤도상 장소가 불안정해지고 있습니다. 이곳은 곧 완전히 붕괴할 것이며, 여기 남아있는 물건이나 정착민은 모두 사라질 것입니다.\n\n남은 시간: {0}\n\n이 장소가 불타 없어지기 전에 탈출하세요.</VGE_LocationDestabilizingDesc>
+  <VGE_DestabilizesIn>붕괴까지 남은 시간: {0}</VGE_DestabilizesIn>
+  <VGE_JammerScrambledSignal>신호 교란기가 신호 고정을 방해해 워플랫폼이 우리 위치를 찾아내는 것을 {0}시간 지연시켰습니다.</VGE_JammerScrambledSignal>
+  <VGE_AncientSignalJammerLaunchBlocked>발진 불가: 고대 신호 교란기가 발진을 막고 있습니다. 이륙 과정을 시작하려면 신호 교란기를 찾아서 부수세요.</VGE_AncientSignalJammerLaunchBlocked>
+  <VGE_AncientSignalJammerShuttleBlocked>발사 불가: 고대 신호 교란기가 발사를 막고 있습니다. 왕복선을 발사하려면 신호 교란기를 찾아서 부수세요.</VGE_AncientSignalJammerShuttleBlocked>
+  <VGE_AncientSignalJammerWarpodBlocked>발사 불가: 고대 신호 교란기가 발사를 막고 있습니다. 전투 포드를 발사하려면 신호 교란기를 찾아서 부수세요.</VGE_AncientSignalJammerWarpodBlocked>
+  <VGE_AncientSignalJammerCommsBlocked>작동 중인 신호 교란기가 통신을 막고 있습니다.</VGE_AncientSignalJammerCommsBlocked>
+  <VGE_AncientSignalJammerBlockedGeneric>발사 불가: 고대 신호 교란기가 발사를 막고 있습니다. {0}(을)를 발사하려면 신호 교란기를 찾아서 부수세요.</VGE_AncientSignalJammerBlockedGeneric>
+  <VGE_ThreatDescription_Exoinsectoids>위험한 외계 곤충들이 들끓고 있어</VGE_ThreatDescription_Exoinsectoids>
+  <VGE_ThreatDescription_Mechanoids>적대적 메카노이드들에게 점거되어 있어</VGE_ThreatDescription_Mechanoids>
+  <VGE_ThreatDescription_Drones>현재도 활동 중이며 공격성을 보이는 고대 자동 드론들에게 점령되어 있어</VGE_ThreatDescription_Drones>
+  <VGE_ThreatDescription_Pirates>적대적 해적 세력이 약탈하고 있어</VGE_ThreatDescription_Pirates>
+  <VGE_GravshipGraveyardLetterLabel>중력 코어 감지됨: 배들의 무덤</VGE_GravshipGraveyardLetterLabel>
+  <VGE_GravshipGraveyardLetterText>배들의 무덤인 거대한 잔해 지대에서 중력 코어 특유의 에너지 반응을 감지했습니다. 잔해 지대에서 가동 중인 고대 신호 교란기가 중력부양선의 발진을 방해하고 있기에, 진입하게 되면 항법 시스템이 잠길 것입니다. 탈출을 위해서는 불안정한 고대 중력기뢰 지대를 돌파하고 교란기의 위치를 찾아 무력화해야 합니다.\n\n조심하세요. 궤도 지역은 매우 위험합니다. 정착민들이 진공 방호복을 착용했는지 확인하세요. 귀환 계획을 세우세요. 오랜 시간 궤도에서 생활하는 것은 매우 어렵습니다.</VGE_GravshipGraveyardLetterText>
+  <VGE_InfestedInstallationLetterLabel>중력 코어 감지됨: 감염된 기지</VGE_InfestedInstallationLetterLabel>
+  <VGE_InfestedInstallationLetterText>중력 코어 에너지 반응을 감지했습니다. 신호는 외계 곤충들에게 점거된 폐쇄된 궤도 기지에서 흘러나오고 있습니다. 스캔 결과 기지 내부에서 수많은 군락이 존재하는 것이 확인되었습니다. 감염된 폐허를 수색해 외계 곤충 방어자들을 처치하고, 워플랫폼에서 외계 곤충을 지속적으로 탄생시키는 감염된 중력 계류기를 파괴해야 합니다. 계류기를 파괴하면 중력 코어를 회수할 수 있습니다.\n\n조심하세요. 궤도 지역은 매우 위험합니다. 정착민들이 진공 방호복을 착용했는지 확인하세요. 귀환 계획을 세우세요. 오랜 시간 궤도에서 생활하는 것은 매우 어렵습니다.</VGE_InfestedInstallationLetterText>
+  <VGE_PayTribute>{0}에게 공물 바치기: {1} 은</VGE_PayTribute>
+  <VGE_PaySilver>{0} 은 지불하기</VGE_PaySilver>
+  <VGE_PostponeTribute>{0}일의 지불 기한 연장 요청하기</VGE_PostponeTribute>
+  <VGE_RefuseTribute>지불 거절하기</VGE_RefuseTribute>
+  <VGE_TributePaidReply>{0}(은)는 우리의 "자발적 공헌"에 깊은 감사를 표합니다. 공격은 취소되었습니다.</VGE_TributePaidReply>
+  <VGE_PostponeReply>{0}(은)는 기한 연장 요청을 받아들이며 {1}일 후에 다시 연락하겠다고 합니다.</VGE_PostponeReply>
+  <VGE_RefuseReply>{0}(은)는 이 상황에 오히려 만족한 듯 보입니다. {1}(이)가 우리 함선에 무기를 조준하고 공격을 시작했습니다.</VGE_RefuseReply>
+  <VGE_CallSalvagerStation>{0} 연락 (공물 바치기)</VGE_CallSalvagerStation>
+  <VGE_CallSalvagerStationDialog>{1}의 함장 {0}(은)는 공물로 {2} 은을 요구하며, 금액을 지불하면 목숨은 살려주겠다고 약속했습니다.</VGE_CallSalvagerStationDialog>
+  <VGE_SalvagerDropshipRaid>인양단 상륙정</VGE_SalvagerDropshipRaid>
+  <VGE_SalvagerDropshipRaidDesc>인양단 상륙정이 도착했습니다! 인양단은 공물을 강제로라도 거두기 위해 강습대를 보냈습니다.</VGE_SalvagerDropshipRaidDesc>
+  <VGE_TributeDemandPopup>{1}의 함장 {0}(은)는 공물로 {2} 은을 요구하며, 금액을 지불하면 목숨은 살려주겠다고 약속했습니다.\n\n지불 기한을 {3}일 연장해 달라고 부탁한다면 받아들여 줄 수도 있겠지만, 그 경우 우리 중력구동기에 원격으로 잠금을 걸어 떠나지 못하도록 할 것입니다. 중력구동기의 잠금을 풀기 위해서는 공물을 바치거나 인양단 기지를 물리쳐야만 합니다.</VGE_TributeDemandPopup>
+  <VGE_PostponedTributeDemandPopup>{1}의 함장 {0}(은)는 다시 한 번 공물로 {2} 은을 요구하며, 금액을 지불하면 목숨은 살려주겠다고 약속했습니다.\n\n지불을 거절하면 공격이 시작될 것입니다.</VGE_PostponedTributeDemandPopup>
+  <VGE_TributeDemand>공물 요구</VGE_TributeDemand>
+  <VGE_TributeDemandHover>인양단 기지가 공물로 {0} 은을 요구하며, 바치지 않는다면 발포하겠다고 하고 있습니다.\n\n지불 기한: {1}\n\n기한을 연장해 달라고 요청할 수는 있지만, 공물을 바치거나 기지를 물리칠 때까지 중력구동기에 잠금이 걸릴 것입니다. 돈이 충분하다면 금액을 바로 지불할 수도 있습니다. 도망친다면 인양단에서 우리를 뒤쫓는 수색대를 보낼 것이 확실합니다.</VGE_TributeDemandHover>
+  <VGE_JammerScrambledSalvager>신호 교란기가 인양단 기지의 조준 시스템을 교란해 공물을 바칠지 아니면 맞서 싸울지 결정할 수 있는 6시간의 추가 시간을 확보했습니다.</VGE_JammerScrambledSalvager>
+  <VGE_EngineLockedRemotelyInspect>작동 불가: 원격으로 잠김</VGE_EngineLockedRemotelyInspect>
+  <VGE_EngineLockedRemotely>발진 불가: 인양단 기지에 의해 원격 잠금이 걸렸습니다.</VGE_EngineLockedRemotely>
+  <VGE_JammerScrambledGravjumper>신호 교란기가 상대의 스캔 작업을 방해해 {0}(와)과의 교전을 24시간 지연시켰습니다.</VGE_JammerScrambledGravjumper>
+  <VGE_GravjumperAttacks>중력도약선 습격</VGE_GravjumperAttacks>
+  <VGE_GravjumperAttacksDesc>추격을 따돌리려는 시도에도 불구하고, 적 중력도약선 {0}(이)가 우리가 새로 착륙한 곳의 좌표를 성공적으로 추적했습니다. 궤도에 도착한 적함이 즉시 우리 중력부양선을 공격하기 시작했습니다. 즉각적인 전투를 준비하세요.\n\n우리 함선은 적 함선으로부터 지속적인 포격을 받을 것입니다. 살아남으려면 적의 중력도약선 구동기를 파괴하고, 모든 함포를 제거해야 합니다.\n\n우리 측 중력부양선의 함포, 보호막 발생기, 근접 방어 체계를 활용해 포격에 맞서 싸울 수 있습니다. 또는 왕복선이나 수송 포드를 보내 적 함선에 침투한 후 내부에서부터 파괴할 수도 있습니다. 스스로를 방어할 수 없다면, 즉시 적의 사정거리 밖으로 탈출해야 합니다.</VGE_GravjumperAttacksDesc>
+  <VGE_GravjumperLaunched>{0}(이)가 발진했으며 우리가 있는 지역에 곧 도착할 것입니다.</VGE_GravjumperLaunched>
+  <VGE_GravjumperDefeated>중력도약선 격파</VGE_GravjumperDefeated>
+  <VGE_GravjumperDefeatedDesc>적 중력도약선의 위협은 물리쳤으나, 이 지역에는 여전히 가치 있는 전리품이 남아 있습니다. 중력도약선의 잔해를 회수하면 귀중한 자원을 얻을 수 있습니다.</VGE_GravjumperDefeatedDesc>
+  <VGE_EmergencyGenerator_RemainingPowerOutput>남은 전력 출력량: {0} Wd ({1})</VGE_EmergencyGenerator_RemainingPowerOutput>
+  <VGE_EmergencyGenerator_Inactive>꺼짐</VGE_EmergencyGenerator_Inactive>
+  <VGE_EmergencyGenerator_AnotherActive>다른 발전기가 작동 중</VGE_EmergencyGenerator_AnotherActive>
+  <VGE_EmergencyGenerator_MustBeFullyMaintained>최대 정비도 필요</VGE_EmergencyGenerator_MustBeFullyMaintained>
+  <VGE_EmergencyGenerator_MustBeConnectedToGravEngine>중력구동기에 연결되어야 함</VGE_EmergencyGenerator_MustBeConnectedToGravEngine>
+  <VGE_JammerScrambledCluster>신호 교란기가 신호 고정을 방해해 워플랫폼이 우리 위치를 찾아내는 것을 {0}일 지연시켰습니다.</VGE_JammerScrambledCluster>
+  <VGE_OrbitalClusterRelayed>메카노이드 궤도 전초기지가 우리 좌표를 근처의 다른 전초기지에게 전송했습니다. 좌표를 받은 전초기지가 공격을 위해 다가오고 있습니다.</VGE_OrbitalClusterRelayed>
+  <VGE_JammerScrambledGravship>신호 교란기가 상대의 스캔 작업을 방해해 {0}(와)과의 교전을 24시간 지연시켰습니다.</VGE_JammerScrambledGravship>
+  <VGE_GravshipAttacks>중력부양선 습격</VGE_GravshipAttacks>
+  <VGE_GravshipAttacksDesc>추격을 따돌리려는 시도에도 불구하고, 적 중력부양선 {0}(이)가 우리가 새로 착륙한 곳의 좌표를 성공적으로 추적했습니다. 궤도에 도착한 적함이 즉시 우리 중력부양선을 공격하기 시작했습니다. 즉각적인 전투를 준비하세요.\n\n우리 함선은 적 함선으로부터 지속적인 포격을 받을 것입니다. 살아남으려면 적의 중력부양선 구동기를 파괴하고, 모든 함포를 제거해야 합니다.\n\n우리 측 중력부양선의 함포, 보호막 발생기, 근접 방어 체계를 활용해 포격에 맞서 싸울 수 있습니다. 또는 왕복선이나 수송 포드를 보내 적 함선에 침투한 후 내부에서부터 파괴할 수도 있습니다. 스스로를 방어할 수 없다면, 즉시 적의 사정거리 밖으로 탈출해야 합니다.</VGE_GravshipAttacksDesc>
+  <VGE_GravshipGeneric>우리 중력부양선</VGE_GravshipGeneric>
+  <VGE_RaidEnemyGravship>습격: 적 중력부양선</VGE_RaidEnemyGravship>
+  <VGE_RaidEnemyGravshipDesc>적 중력부양선 {0}(이)가 마침내 이곳까지 추격해 왔습니다. 적함은 우리가 있는 곳에 진입한 후 강습 절차를 개시했습니다. 상대를 무찌르려면 적 측 인원뿐만 아니라 중력부양선 구동기와 모든 함포까지 파괴해야 합니다.\n\n적은 좋은 무장을 갖추고 준비가 잘 되어 있으므로, 중력부양선 구동기가 다시 발진할 수 있을 때까지 방어에 집중하다 탈출하는 것이 최선의 선택일 수 있습니다.\n\n적을 처치하는 데 성공하면 적함의 잔해에서 중력 코어를 포함한 가치 있는 전리품을 얻을 수 있습니다.</VGE_RaidEnemyGravshipDesc>
+  <VGE_GravshipEngineReady>중력구동기 준비됨!</VGE_GravshipEngineReady>
+  <VGE_GravshipEngineReadyDesc>중력구동기를 다시 사용할 수 있게 되었습니다. 이제 중력부양선을 발진시킬 수 있습니다.</VGE_GravshipEngineReadyDesc>
+  <VGE_SalvagerStrongholdLetter>중력 코어 감지됨: 인양단 요새</VGE_SalvagerStrongholdLetter>
+  <VGE_SalvagerStrongholdLetterDesc>거대 소행성으로부터 중력 코어 특유의 에너지 반응을 감지했습니다. 스캔 결과 잘 무장된 인양단 세력이 이 소행성의 소유권을 주장하며 그 위에 삼엄한 요새를 구축한 것으로 밝혀졌습니다. 시설 내부에서 작동 중인 적의 신호 교란기로 인해 중력부양선이 가까운 곳에 착륙할 수 없으므로, 소행성의 위험한 외곽 지역에 착륙해야 합니다.\n\n기지를 습격하여 방어선을 뚫고 단지 중앙에 위치한 중력 계류기를 파괴해야 중력 코어를 얻을 수 있습니다.\n\n조심하세요. 궤도 지역은 매우 위험합니다. 정착민들이 진공 방호복을 착용했는지 확인하세요. 귀환 계획을 세우세요. 오랜 시간 궤도에서 생활하는 것은 매우 어렵습니다.</VGE_SalvagerStrongholdLetterDesc>
+  <VGE_NullipedeThumperNeedsSpace>널리피드 호출기는 행성 표면에서 사용할 수 없습니다.</VGE_NullipedeThumperNeedsSpace>
+  <VGE_NeedsHiveOrSubcreeper>외계 군락 또는 하부점막 생성기의 범위 밖에 하부점막을 건설할 수 없습니다.</VGE_NeedsHiveOrSubcreeper>
+  <VGE_IncomingEnemyGravship>중력부양선 접근 중</VGE_IncomingEnemyGravship>
+  <VGE_IncomingEnemyGravshipDesc>적 중력부양선이 빠른 속도로 접근 중입니다.\n\n도착까지 남은 시간: {0}\n\n적이 도착하기 전에 이곳을 벗어나는 건 불가능합니다. 포격에 맞을 것을 대비하고 가능한 한 빨리 도망치세요.</VGE_IncomingEnemyGravshipDesc>
+</LanguageData>

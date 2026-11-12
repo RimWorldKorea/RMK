@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MI_Info_BloodRecovery>출혈 회복</MI_Info_BloodRecovery>
+  <MI_Info_BloodRecovery_Value>×150%</MI_Info_BloodRecovery_Value>
+  <MI_Info_BloodRecovery_Desc>출혈이 모두 멎은 뒤 잃은 피를 회복하는 속도입니다.</MI_Info_BloodRecovery_Desc>
+  <MI_Info_ScarRepair>영구 부상 복구</MI_Info_ScarRepair>
+  <MI_Info_ScarRepair_Value>0.25/일</MI_Info_ScarRepair_Value>
+  <MI_Info_ScarRepair_Desc>하루마다 대상이 되는 영구 부상 하나에서 줄어드는 심각도입니다.</MI_Info_ScarRepair_Desc>
+  <MI_Info_NuclearHunger>핵분열 위 사용 시 허기 속도</MI_Info_NuclearHunger>
+  <MI_Info_NuclearHunger_Value>×15%</MI_Info_NuclearHunger_Value>
+  <MI_Info_NuclearHunger_Desc>핵분열 위와 이 보정기가 함께 작동할 때의 최종 허기 속도입니다.</MI_Info_NuclearHunger_Desc>
+  <MI_Info_NuclearCancer>핵분열 위로 인한 암</MI_Info_NuclearCancer>
+  <MI_Info_NuclearCancer_Value>방지됨</MI_Info_NuclearCancer_Value>
+  <MI_Info_NuclearCancer_Desc>핵분열 위 때문에 생기는 암만 막습니다. 다른 원인으로 생기는 암은 막지 못합니다.</MI_Info_NuclearCancer_Desc>
+  <MI_Info_SubjectiveOpinion>주관적 호감도</MI_Info_SubjectiveOpinion>
+  <MI_Info_SubjectiveOpinion_Value>0으로 고정</MI_Info_SubjectiveOpinion_Value>
+  <MI_Info_SubjectiveOpinion_Desc>사용자가 다른 모든 사람에게 느끼는 개인적 호감도가 0으로 유지됩니다.</MI_Info_SubjectiveOpinion_Desc>
+  <MI_Info_MoodState>기분</MI_Info_MoodState>
+  <MI_Info_MoodState_Value>중립</MI_Info_MoodState_Value>
+  <MI_Info_MoodState_Desc>일반적인 긍정·부정 생각으로는 사용자의 기분이 중립에서 움직이지 않습니다.</MI_Info_MoodState_Desc>
+  <MI_Info_MoodBreak>기분으로 인한 정신 붕괴</MI_Info_MoodBreak>
+  <MI_Info_MoodBreak_Value>방지됨</MI_Info_MoodBreak_Value>
+  <MI_Info_MoodBreak_Desc>낮은 기분 때문에 자연히 일어나는 정신 붕괴를 막습니다. 강제로 걸리는 정신 상태는 그대로 일어납니다.</MI_Info_MoodBreak_Desc>
+  <MI_Info_TerrainPenalty>지형 이동 페널티</MI_Info_TerrainPenalty>
+  <MI_Info_TerrainPenalty_Value>−50%</MI_Info_TerrainPenalty_Value>
+  <MI_Info_TerrainPenalty_Desc>이식한 다리 하나마다, 통과 가능한 지형과 눈 때문에 늘어나는 이동 비용이 줄어드는 양입니다.</MI_Info_TerrainPenalty_Desc>
+  <MI_Info_HandheldWeapons>휴대 무기</MI_Info_HandheldWeapons>
+  <MI_Info_Disabled>사용 불가</MI_Info_Disabled>
+  <MI_Info_HandheldWeapons_Desc>충격형 생체공학 팔을 단 사람은 휴대 무기를 장비할 수 없습니다.</MI_Info_HandheldWeapons_Desc>
+  <MI_Info_PrecisionWork>정밀 작업</MI_Info_PrecisionWork>
+  <MI_Info_PrecisionWork_Desc>의료, 조리, 연구, 대장 작업, 재봉, 수공예, 예술을 할 수 없게 됩니다.</MI_Info_PrecisionWork_Desc>
+  <MI_DetonateAbdominalBomb>복부 폭탄 기폭</MI_DetonateAbdominalBomb>
+  <MI_DetonateAbdominalBombDesc>지닌 사람을 죽이고 이식된 폭탄을 터뜨립니다.</MI_DetonateAbdominalBombDesc>
+  <MI_ConfirmAbdominalBomb>{PAWN_nameDef}의 복부 폭탄을 터뜨릴까요? {PAWN_objective} 죽이고 강력한 폭발을 일으킵니다.</MI_ConfirmAbdominalBomb>
+  <MI_LifeOverloaderActiveLabel>작동 중: {0}</MI_LifeOverloaderActiveLabel>
+  <MI_LifeOverloaderRecoveringLabel>회복 중: {0}</MI_LifeOverloaderRecoveringLabel>
+  <MI_LifeOverloaderReadyLabel>준비됨</MI_LifeOverloaderReadyLabel>
+  <MI_Info_BombDamage>폭발 피해</MI_Info_BombDamage>
+  <MI_Info_BombDamage_Value>60 (폭탄)</MI_Info_BombDamage_Value>
+  <MI_Info_BombDamage_Desc>복부 폭탄이 터질 때 주는 피해입니다.</MI_Info_BombDamage_Desc>
+  <MI_Info_BombRadius>폭발 범위</MI_Info_BombRadius>
+  <MI_Info_BombRadius_Value>3.9칸</MI_Info_BombRadius_Value>
+  <MI_Info_BombRadius_Desc>직접 터뜨릴 수도 있고, 사망 시에도 터집니다.</MI_Info_BombRadius_Desc>
+  <MI_Info_HemogenCapacity>혈액정수 용량</MI_Info_HemogenCapacity>
+  <MI_Info_HemogenCapacity_Value>+50</MI_Info_HemogenCapacity_Value>
+  <MI_Info_HemogenCapacity_Desc>혈액정수 최대 저장량이 늘어납니다. 혈액정수를 쓰는 사람에게만 효과가 있습니다.</MI_Info_HemogenCapacity_Desc>
+  <MI_Info_AnestheticDuration>마취 지속 시간</MI_Info_AnestheticDuration>
+  <MI_Info_AnestheticDuration_Value>×50%</MI_Info_AnestheticDuration_Value>
+  <MI_Info_AnestheticDuration_Desc>마취와 그에 따른 일반적인 후유증의 지속 시간입니다.</MI_Info_AnestheticDuration_Desc>
+  <MI_Info_DrugDuration>약물 긍정 효과 지속 시간</MI_Info_DrugDuration>
+  <MI_Info_DrugDuration_Value>×70%</MI_Info_DrugDuration_Value>
+  <MI_Info_DrugDuration_Desc>일반적인 약물 긍정 효과의 지속 시간입니다.</MI_Info_DrugDuration_Desc>
+  <MI_Info_OverdoseRecovery>약물 과다 복용 회복</MI_Info_OverdoseRecovery>
+  <MI_Info_OverdoseRecovery_Desc>약물 과다 복용에서 회복하는 속도입니다.</MI_Info_OverdoseRecovery_Desc>
+  <MI_Info_WithdrawalRecovery>약물 금단 회복</MI_Info_WithdrawalRecovery>
+  <MI_Info_WithdrawalRecovery_Desc>유전자로 강제된 것이 아닌 약물 금단에서 회복하는 속도입니다.</MI_Info_WithdrawalRecovery_Desc>
+  <MI_Info_Recovery150_Value>×150%</MI_Info_Recovery150_Value>
+  <MI_Info_OverloaderDuration>과부하 지속 시간</MI_Info_OverloaderDuration>
+  <MI_Info_OverloaderDuration_Value>6시간</MI_Info_OverloaderDuration_Value>
+  <MI_Info_OverloaderDuration_Desc>아직 기능하는 몸이 전투 부상으로 쓰러질 상황이 되면 자동으로 작동합니다. 작동 중에는 의식 +40%, 조작 +30%, 이동 +30%, 허기 속도 ×200%, 받는 피해 ×85%, 응급 처치 50%가 적용되며 고통으로 실신하지 않습니다.</MI_Info_OverloaderDuration_Desc>
+  <MI_Info_OverloaderCooldown>회복 시간</MI_Info_OverloaderCooldown>
+  <MI_Info_OverloaderCooldown_Value>6일</MI_Info_OverloaderCooldown_Value>
+  <MI_Info_OverloaderCooldown_Desc>의식 −10%, 조작 −15%가 적용되며, 회복하는 동안에는 이식물이 작동하지 않습니다.</MI_Info_OverloaderCooldown_Desc>
+  <MI_Info_OverloaderHealing>출혈 부상 복구</MI_Info_OverloaderHealing>
+  <MI_Info_OverloaderHealing_Value>시간당 0.25</MI_Info_OverloaderHealing_Value>
+  <MI_Info_OverloaderHealing_Desc>과부하 중에는 출혈 부상이 하나씩 천천히 아뭅니다. 잃은 부위와 파괴된 장기는 되돌아오지 않습니다.</MI_Info_OverloaderHealing_Desc>
+  <MI_CannotEquipImpactArm>충격형 생체공학 팔로는 휴대 무기를 쓸 수 없습니다.</MI_CannotEquipImpactArm>
+  <MI_ImpactArmDisablesWork>충격형 생체공학 팔로는 정밀 작업을 할 수 없습니다.</MI_ImpactArmDisablesWork>
+  <MI_Info_Pain>고통</MI_Info_Pain>
+  <MI_Info_Pain8>+8%</MI_Info_Pain8>
+  <MI_Info_Pain10>+10%</MI_Info_Pain10>
+  <MI_Info_Pain12>+12%</MI_Info_Pain12>
+  <MI_Info_Pain_Desc>이 이식물이 주는 지속적인 고통입니다.</MI_Info_Pain_Desc>
+  <MI_PartArmorCoverage>{0} 방어구</MI_PartArmorCoverage>
+  <MI_PartArmorValues>관통 {0}, 둔기 {1}, 열 {2}</MI_PartArmorValues>
+  <MI_PartArmorExplanation>{0} 부위에 직접 맞았을 때만 적용되는 선천 방어력입니다. 하위 부위와 부착된 부위는 보호받지 못합니다.</MI_PartArmorExplanation>
+  <MI_PartArmorHealthSummary>방어 - 관통: +{0}\n방어 - 둔기: +{1}\n방어 - 열: +{2}</MI_PartArmorHealthSummary>
+  <MI_PartArmorProtectedParts>보호되는 신체 부위</MI_PartArmorProtectedParts>
+  <MI_PartArmorProtectedParts_Value>몸통, 목, 머리</MI_PartArmorProtectedParts_Value>
+  <MI_PartArmorProtectedParts_Desc>몸통, 목, 머리에 직접 맞은 공격에만 이 방어력이 적용됩니다. 어깨와 팔다리, 얼굴에 붙은 기관은 보호받지 못합니다. 표시된 방어 수치는 가장 강하게 보호되는 부위 기준이며, 부위마다 실제 값은 다릅니다.</MI_PartArmorProtectedParts_Desc>
+  <MI_BoneArmorProtectedParts_Value>코, 눈, 손, 발을 제외한 전신</MI_BoneArmorProtectedParts_Value>
+  <MI_BoneArmorProtectedParts_Desc>코, 눈, 손, 발, 그리고 손발에 붙은 손가락과 발가락은 보호받지 못합니다. 팔과 다리는 그대로 보호됩니다.</MI_BoneArmorProtectedParts_Desc>
+</LanguageData>

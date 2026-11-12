@@ -1,0 +1,1063 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MainButtonDef.TSA_WD_WorldDomination.label>WD</MainButtonDef.TSA_WD_WorldDomination.label>
+  <MainButtonDef.TSA_WD_WorldDomination.description>세계 정복: 외교 매트릭스, 전초기지, 세계 통계, 행동 기록.</MainButtonDef.TSA_WD_WorldDomination.description>
+  <TSA_WD_BtnClear>지우기</TSA_WD_BtnClear>
+  <TSA_WD_BtnDailyActions>세계 행동</TSA_WD_BtnDailyActions>
+  <TSA_WD_BtnDiplomacy>외교, 버프 및 디버프</TSA_WD_BtnDiplomacy>
+  <TSA_WD_BtnDisinformation>역정보</TSA_WD_BtnDisinformation>
+  <TSA_WD_BtnGarrisonSettings>주둔군 규모 조절</TSA_WD_BtnGarrisonSettings>
+  <TSA_WD_BtnBaseGeneration>기지 생성</TSA_WD_BtnBaseGeneration>
+  <TSA_WD_BtnGrowthExpand>성장 및 확장</TSA_WD_BtnGrowthExpand>
+  <TSA_WD_BtnMiningBaselines>채굴 기본 생산량</TSA_WD_BtnMiningBaselines>
+  <TSA_WD_BtnNotifications>알림</TSA_WD_BtnNotifications>
+  <TSA_WD_BtnOutpostFood>전초기지</TSA_WD_BtnOutpostFood>
+  <TSA_WD_BtnOutpostSettings>전초기지 설정</TSA_WD_BtnOutpostSettings>
+  <TSA_WD_BtnOutpostSkillScaling>전초기지 기술 비례 배율</TSA_WD_BtnOutpostSkillScaling>
+  <TSA_WD_DescOutpostSkillScaling>기술 점수 증가(예: 농경 전초기지의 재배 기술) 시 생산량이 무한정 증가할지, 특정 임계값을 넘어서면 점감 효과(수확 체감)가 적용될지 결정합니다.</TSA_WD_DescOutpostSkillScaling>
+  <TSA_WD_BtnUpdateNotes>업데이트 내역 표시</TSA_WD_BtnUpdateNotes>
+  <TSA_WD_BtnRaidMult>플레이어 대상 습격</TSA_WD_BtnRaidMult>
+  <TSA_WD_BtnLateGame>게임 중반 및 후반</TSA_WD_BtnLateGame>
+  <TSA_WD_BtnT4Mortar>NPC 포병 (T4)</TSA_WD_BtnT4Mortar>
+  <TSA_WD_BtnCombatDifficulty>전투 난이도</TSA_WD_BtnCombatDifficulty>
+  <TSA_WD_DescCombatDifficulty>중반/후반 게임 난이도, 위협 발생 시기 조건, 플레이어 대상 습격 압박, 단계별 전투 보너스, 도착 방식, 주둔군 규모 조절, NPC T4 박격포/대공 장비 관련 설정입니다.</TSA_WD_DescCombatDifficulty>
+  <TSA_WD_BtnEconomicDifficulty>경제 난이도</TSA_WD_BtnEconomicDifficulty>
+  <TSA_WD_DescEconomicDifficulty>단계별 전초기지 유지비, 기술 점감 효과, 우호도 감소, 뇌물 은 비율 관련 설정입니다.</TSA_WD_DescEconomicDifficulty>
+  <TSA_WD_Settings_Search>검색</TSA_WD_Settings_Search>
+  <TSA_WD_Settings_SearchTip>이 페이지의 항목을 이름이나 툴팁 내용으로 검색하여 필터링합니다. 섹션 제목과 일치하면 해당 섹션 전체가 표시됩니다. 검색창을 비우면 모든 항목이 다시 표시됩니다.</TSA_WD_Settings_SearchTip>
+  <TSA_WD_ThreatGate_Never>사용 안 함</TSA_WD_ThreatGate_Never>
+  <TSA_WD_ThreatGate_FromMid>중반부터</TSA_WD_ThreatGate_FromMid>
+  <TSA_WD_ThreatGate_FromLate>후반부터</TSA_WD_ThreatGate_FromLate>
+  <TSA_WD_ThreatGate_Always>항상</TSA_WD_ThreatGate_Always>
+  <TSA_WD_Combat_HeaderEscalation>중반/후반 게임 난이도</TSA_WD_Combat_HeaderEscalation>
+  <TSA_WD_Combat_HeaderEscalationTip>정착지가 충분히 번영했을 때 중반 및 후반 난이도가 활성화되는 시점입니다.</TSA_WD_Combat_HeaderEscalationTip>
+  <TSA_WD_Combat_HeaderThreatTiming>위협 발생 시기</TSA_WD_Combat_HeaderThreatTiming>
+  <TSA_WD_Combat_HeaderThreatTimingTip>중반/후반 게임 난이도에 따라 각 특수 위협이 발생할 수 있는 시기입니다. 침공과 결사항전은 일반 습격/일일 행동 대기시간을 무시하며, 침공은 최소 습격 비율도 무시합니다.</TSA_WD_Combat_HeaderThreatTimingTip>
+  <TSA_WD_Combat_HeaderOpportunityFeatures>기회 위협 기능 (기회주의 표적 / 약탈 / 매복)</TSA_WD_Combat_HeaderOpportunityFeatures>
+  <TSA_WD_Combat_HeaderTargetOfOpportunityTip>이동 중인 습격대가 경로 상에 있는 더 약한 목표로 대상을 변경할 수 있습니다.</TSA_WD_Combat_HeaderTargetOfOpportunityTip>
+  <TSA_WD_Combat_HeaderMaraudingTip>전투가 끝난 후, 생존한 습격대가 다른 목표로 진격을 계속할 수 있습니다.</TSA_WD_Combat_HeaderMaraudingTip>
+  <TSA_WD_Combat_HeaderSettlementAmbushTip>적 정착지 근처를 통과할 때 적이 상단을 매복 공격할 수 있습니다.</TSA_WD_Combat_HeaderSettlementAmbushTip>
+  <TSA_WD_Combat_HeaderVanguard>선봉대</TSA_WD_Combat_HeaderVanguard>
+  <TSA_WD_Combat_HeaderInvasion>침공</TSA_WD_Combat_HeaderInvasion>
+  <TSA_WD_Combat_HeaderVanguardAndInvasion>선봉대 및 침공</TSA_WD_Combat_HeaderVanguardAndInvasion>
+  <TSA_WD_Combat_HeaderVanguardAndInvasionTip>강력한 세력은 먼 정착지(플레이어와의 최소 거리 초과)에서 작전을 개시합니다. 선봉대는 먼 정착지 5~7곳을 짐을 싸서 플레이어 근처로 이전 정착시킵니다. 철수 후에도 공격측 본토에 최소 8곳의 정착지가 남아 있어야 합니다. 침공은 본토를 포기하지 않고 먼 거점들에서 5~7회의 조직적인 합동 습격을 감행합니다.</TSA_WD_Combat_HeaderVanguardAndInvasionTip>
+  <TSA_WD_Combat_VanguardVsInvasionPickChance>선봉대 선택 확률</TSA_WD_Combat_VanguardVsInvasionPickChance>
+  <TSA_WD_Combat_VanguardVsInvasionPickChanceTip>선봉대와 침공이 둘 다 발생할 수 있을 때, 선봉대를 먼저 시도할 확률입니다. 나머지는 침공을 대신 시도합니다.</TSA_WD_Combat_VanguardVsInvasionPickChanceTip>
+  <TSA_WD_Combat_HeaderDesperationTip>압박을 받던 세력 밀집 지역에서 정착지가 함락된 후, 전략 발동 확률에 따라 농성 또는 결사항전이 시작될 수 있습니다. 쉬움/보통/어려움 프리셋의 영향을 받지 않습니다.</TSA_WD_Combat_HeaderDesperationTip>
+  <TSA_WD_Combat_HeaderStrongFactionWarTip>강력한 NPC 세력들이 서로에게 선전포고를 할 수 있습니다.</TSA_WD_Combat_HeaderStrongFactionWarTip>
+  <TSA_WD_Combat_HeaderPlayerRaidsTip>플레이어가 개시하는 습격의 한도 및 대기시간입니다.</TSA_WD_Combat_HeaderPlayerRaidsTip>
+  <TSA_WD_Combat_HeaderRaidClampTip>이야기꾼 점수 예산 대비 WD 습격 점수의 상한/하한 제한 방식입니다.</TSA_WD_Combat_HeaderRaidClampTip>
+  <TSA_WD_Combat_HeaderStageBonuses>단계별 전투 보너스</TSA_WD_Combat_HeaderStageBonuses>
+  <TSA_WD_Combat_HeaderStageBonusesTip>중반 또는 후반 단계가 활성화되었을 때 추가되는 습격 압박, 성장 및 작전 사거리 보너스입니다.</TSA_WD_Combat_HeaderStageBonusesTip>
+  <TSA_WD_Combat_StageBonusesNeedEscalation>단계별 전투 보너스를 수정하려면 위에서 중반/후반 게임 난이도를 활성화하세요.</TSA_WD_Combat_StageBonusesNeedEscalation>
+  <TSA_WD_Combat_HeaderArrivalStylesTip>정착지 습격 시 수송 포드 및 포위 공격 형태가 나타날 확률입니다.</TSA_WD_Combat_HeaderArrivalStylesTip>
+  <TSA_WD_Combat_HeaderAdvancedWorld>고급 세계 전투</TSA_WD_Combat_HeaderAdvancedWorld>
+  <TSA_WD_Combat_HeaderAdvancedWorldTip>플레이어 이동단/상단을 향한 AT 조준 및 실험적 T4 반중력선 습격 설정입니다.</TSA_WD_Combat_HeaderAdvancedWorldTip>
+  <TSA_WD_Combat_HeaderGarrisonTip>NPC 정착지가 본진에 주둔시키는 전력의 비율입니다.</TSA_WD_Combat_HeaderGarrisonTip>
+  <TSA_WD_Combat_HeaderT4MortarTip>적 정착지의 박격포 사격 설정입니다.</TSA_WD_Combat_HeaderT4MortarTip>
+  <TSA_WD_Combat_HeaderAntiAirTip>플레이어의 수송 포드와 비행체를 요격하는 적 대공망 설정입니다.</TSA_WD_Combat_HeaderAntiAirTip>
+  <TSA_WD_Combat_HeaderT4Hardware>T4 박격포 / 대공 장비</TSA_WD_Combat_HeaderT4Hardware>
+  <TSA_WD_Combat_HeaderT4HardwareTip>시스템을 활성화하고 사거리, 피해량, 명중률을 조절합니다. 플레이어 대상 사격 가능 시기는 '위협 발생 시기'에서 설정합니다.</TSA_WD_Combat_HeaderT4HardwareTip>
+  <TSA_WD_Combat_HeaderT4Requirements>기술 요구사항</TSA_WD_Combat_HeaderT4Requirements>
+  <TSA_WD_Combat_T4TimingNote>플레이어 조준 시기는 위의 위협 발생 시기 조건에서 제어됩니다 (개별 중반/후반 체크박스가 아님).</TSA_WD_Combat_T4TimingNote>
+  <TSA_WD_Combat_HeaderGoodwillDrain>우호도 자연 감소</TSA_WD_Combat_HeaderGoodwillDrain>
+  <TSA_WD_Combat_GateWhen>활성화 조건</TSA_WD_Combat_GateWhen>
+  <TSA_WD_Combat_GateOpportunity>기회 위협 (기회주의 표적 / 약탈 / 매복)</TSA_WD_Combat_GateOpportunity>
+  <TSA_WD_Combat_GateOpportunityTip>기회주의 표적 변경, 정복 후 약탈, 정착지 매복의 단계별 발동 조건입니다.</TSA_WD_Combat_GateOpportunityTip>
+  <TSA_WD_Combat_GateToOTip>기회주의 표적으로 목표 재지정의 단계별 발동 조건입니다.</TSA_WD_Combat_GateToOTip>
+  <TSA_WD_Combat_GateMaraudTip>승리 후 추가 약탈의 단계별 발동 조건입니다.</TSA_WD_Combat_GateMaraudTip>
+  <TSA_WD_Combat_GateAmbushTip>정착지 매복 공격 개시의 단계별 발동 조건입니다.</TSA_WD_Combat_GateAmbushTip>
+  <TSA_WD_Combat_GateT4Mortar>플레이어 대상 T4 박격포</TSA_WD_Combat_GateT4Mortar>
+  <TSA_WD_Combat_GateT4MortarTip>적 T4 정착지 박격포가 플레이어를 표적으로 삼을 수 있는 시점입니다.</TSA_WD_Combat_GateT4MortarTip>
+  <TSA_WD_Combat_GateT4AntiAir>플레이어 대상 T4 대공망</TSA_WD_Combat_GateT4AntiAir>
+  <TSA_WD_Combat_GateT4AntiAirTip>적 T4 정착지 대공망이 플레이어를 표적으로 삼을 수 있는 시점입니다.</TSA_WD_Combat_GateT4AntiAirTip>
+  <TSA_WD_Combat_GateVanguard>선봉대</TSA_WD_Combat_GateVanguard>
+  <TSA_WD_Combat_GateVanguardTip>전방 돌격 선봉대의 단계별 발동 조건: 먼 정착지들을 결집하여 소수의 강력한 상단으로 만든 뒤 전선에 참호를 구축합니다(정착지 바로 위는 아님).</TSA_WD_Combat_GateVanguardTip>
+  <TSA_WD_Combat_GateInvasion>침공</TSA_WD_Combat_GateInvasion>
+  <TSA_WD_Combat_GateInvasionTip>전방 돌격 침공의 단계별 발동 조건(본토는 유지한 채 먼 거점들에서 5~7회의 합동 습격 감행). 일반 습격 대기시간과 최소 습격 비율을 무시합니다.</TSA_WD_Combat_GateInvasionTip>
+  <TSA_WD_Combat_FallBackToInvasion>선봉대 거점 구축 실패 시 침공으로 전환</TSA_WD_Combat_FallBackToInvasion>
+  <TSA_WD_Combat_FallBackToInvasionTip>선봉대가 정착지 거점 군집을 확보하지 못할 경우, 대신 침공을 시도합니다(침공 조건도 충족할 경우).</TSA_WD_Combat_FallBackToInvasionTip>
+  <TSA_WD_Combat_VanguardClusterMinDist>정착지와의 선봉대 최소 거리</TSA_WD_Combat_VanguardClusterMinDist>
+  <TSA_WD_Combat_VanguardClusterMinDistTip>선봉대 참호 구축 타일은 플레이어 정착지에서 최소 이 거리만큼 떨어져 있어야 합니다. 이 거리 너머의 최전방 전초기지가 군집의 중심점이 될 수 있습니다.</TSA_WD_Combat_VanguardClusterMinDistTip>
+  <TSA_WD_Combat_VanguardClusterMaxDist>정착지와의 선봉대 최대 거리</TSA_WD_Combat_VanguardClusterMaxDist>
+  <TSA_WD_Combat_VanguardClusterMaxDistTip>사용 가능한 전방 전초기지가 없어 정착지 주변 고리 영역에서 지정할 때, 정착지에서 이 거리 이내이며 적 집결지 방향의 타일을 선택합니다.</TSA_WD_Combat_VanguardClusterMaxDistTip>
+  <TSA_WD_Combat_VanguardFoundSitesMin>선봉대 요새 수 (최소)</TSA_WD_Combat_VanguardFoundSitesMin>
+  <TSA_WD_Combat_VanguardFoundSitesMinTip>선봉대 이벤트당 최소 참호 구축 지점(및 합병된 상단) 수입니다. 여전히 5~7개의 본거지를 비우지만, 그 전력은 이 소수의 정예 거점에 응집됩니다.</TSA_WD_Combat_VanguardFoundSitesMinTip>
+  <TSA_WD_Combat_VanguardFoundSitesMax>선봉대 요새 수 (최대)</TSA_WD_Combat_VanguardFoundSitesMax>
+  <TSA_WD_Combat_VanguardFoundSitesMaxTip>선봉대 이벤트당 최대 참호 구축 지점 수입니다. 각 지점 사이에는 빈 타일이 하나씩 배치됩니다.</TSA_WD_Combat_VanguardFoundSitesMaxTip>
+  <TSA_WD_Combat_VanguardMergeRadius>선봉대 합병 반경</TSA_WD_Combat_VanguardMergeRadius>
+  <TSA_WD_Combat_VanguardMergeRadiusTip>이전 버전 설정입니다. 이제 부대는 현지 집결지(동일 타일)에서만 합병됩니다. 부대 발진 시 전력이 순간이동하지 않습니다.</TSA_WD_Combat_VanguardMergeRadiusTip>
+  <TSA_WD_Combat_InvasionIgnoresCooldownHint>참고: 침공은 일반 습격 및 일일 행동 대기시간을 무시합니다.</TSA_WD_Combat_InvasionIgnoresCooldownHint>
+  <TSA_WD_Combat_InvasionIgnoresMinRatioHint>참고: 침공은 아래의 최소 습격 비율을 무시합니다.</TSA_WD_Combat_InvasionIgnoresMinRatioHint>
+  <TSA_WD_Combat_GateDesperation>정착지 함락 시 전략</TSA_WD_Combat_GateDesperation>
+  <TSA_WD_Combat_GateDesperationTip>정착지 함락 시 전략의 단계별 발동 조건(정복으로 정착지를 잃은 후 농성 또는 결사항전). 항상 = 게임 시작 시부터. 사용 안 함 = 비활성화. 난이도 프리셋은 이 설정을 변경하지 않습니다.</TSA_WD_Combat_GateDesperationTip>
+  <TSA_WD_Combat_TurtleHeader>농성 집결 (일일)</TSA_WD_Combat_TurtleHeader>
+  <TSA_WD_Combat_HeaderTurtleTip>일일 발생: 위협받는 군집이 취약한 T1/T2 거점을 철수시켜 T4 중심지로 결집(수용량 초과 시 인근 T3로 이전)시키고 전력에 따라 등급을 올리며 요새화합니다. 정착지 함락 시 전략과는 별개입니다.</TSA_WD_Combat_HeaderTurtleTip>
+  <TSA_WD_Combat_GateTurtleTip>일일 농성 집결의 단계별 발동 조건입니다. 항상 = 게임 시작 시부터. 사용 안 함 = 비활성화.</TSA_WD_Combat_GateTurtleTip>
+  <TSA_WD_Combat_IsolationPressureHeader>고립 압박</TSA_WD_Combat_IsolationPressureHeader>
+  <TSA_WD_Combat_IsolationPressureHeaderTip>플레이어 정착지에 도달할 수 있는 적대 세력이 3개 미만일 때, 자격을 갖춘 적대 세력 중 하나가 플레이어 주변에 1~2개의 정착지를 강제로 건설할 수 있습니다. 세력별 대기시간이 적용됩니다.</TSA_WD_Combat_IsolationPressureHeaderTip>
+  <TSA_WD_Combat_GateIsolationPressureTip>고립 압박의 단계별 발동 조건입니다. 항상 = 게임 시작 시부터. 사용 안 함 = 비활성화. 난이도 프리셋은 이 설정을 변경하지 않습니다.</TSA_WD_Combat_GateIsolationPressureTip>
+  <TSA_WD_Combat_IsolationPressureCooldown>세력별 대기시간</TSA_WD_Combat_IsolationPressureCooldown>
+  <TSA_WD_Combat_IsolationPressureCooldownTip>고립 압박에 의해 동일 세력이 다시 강제 확장을 개시하기까지 필요한 일수입니다.</TSA_WD_Combat_IsolationPressureCooldownTip>
+  <TSA_WD_Combat_TurtleEnable>농성 집결 활성화</TSA_WD_Combat_TurtleEnable>
+  <TSA_WD_Combat_TurtleEnableTooltip>세력의 연결된 군집이 압박을 받을 때, 취약한 외곽 T1/T2 거점들이 T4 중심지로 집결합니다(T4가 가득 차면 인근 T3로 분산). 누적된 전력에 따라 중심지 등급이 상승합니다. 세력별 전용 대기시간을 사용하며, 하루에 최대 1개의 군집만 발동합니다.</TSA_WD_Combat_TurtleEnableTooltip>
+  <TSA_WD_Combat_TurtleChance>일일 확률</TSA_WD_Combat_TurtleChance>
+  <TSA_WD_Combat_TurtleChanceTooltip>가장 위협도가 높은 단일 군집에 대해 농성 집결을 평가하고 발동할 일일 확률입니다.</TSA_WD_Combat_TurtleChanceTooltip>
+  <TSA_WD_Combat_TurtleCooldown>세력별 대기시간</TSA_WD_Combat_TurtleCooldown>
+  <TSA_WD_Combat_TurtleCooldownTooltip>동일 세력이 다시 농성 집결을 진행하기까지 필요한 일수입니다.</TSA_WD_Combat_TurtleCooldownTooltip>
+  <TSA_WD_Combat_TurtleMinCluster>최소 군집 크기</TSA_WD_Combat_TurtleMinCluster>
+  <TSA_WD_Combat_TurtleMinClusterTooltip>농성 집결을 하려면 연결된 군집에 최소 이 수 이상의 정착지가 있어야 합니다. 서로 20타일 이내에 위치한 거점들이 연결됩니다.</TSA_WD_Combat_TurtleMinClusterTooltip>
+  <TSA_WD_Combat_TurtleMaxPack>최대 철수 외곽 거점 수</TSA_WD_Combat_TurtleMaxPack>
+  <TSA_WD_Combat_TurtleMaxPackTooltip>철수하여 중심지에 전력을 보태는 최대 외곽 정착지 수입니다.</TSA_WD_Combat_TurtleMaxPackTooltip>
+  <TSA_WD_Combat_TurtlePressure>필요 적대 압박 수</TSA_WD_Combat_TurtlePressure>
+  <TSA_WD_Combat_TurtlePressureTooltip>집결이 발동하기 위해 군집 내 임의의 거점으로부터 15타일 이내에 존재해야 하는 적대 정착지 또는 플레이어 정착지/전초기지의 수입니다. 동맹 군집 거점은 20타일 이내일 때 서로 연결됩니다.</TSA_WD_Combat_TurtlePressureTooltip>
+  <TSA_WD_Combat_TurtlePressureRatio>지역 압박 비율</TSA_WD_Combat_TurtlePressureRatio>
+  <TSA_WD_Combat_TurtlePressureRatioTooltip>군집 내 임의 거점 기준 15타일 이내의 적대적 공격 전력을 해당 군집의 자체 공격 전력으로 나눈 비율입니다. 동맹 거점은 20타일 이내에 연결될 때 하나의 군집을 이룹니다. 일일 농성 집결과 정착지 함락 시 전략 모두 이 비율 조건을 요구합니다(예: 400% = 적대 세력 전력이 해당 군집의 4배).</TSA_WD_Combat_TurtlePressureRatioTooltip>
+  <TSA_WD_Combat_TurtleNotify>농성 집결 발동 시 알림</TSA_WD_Combat_TurtleNotify>
+  <TSA_WD_Combat_TurtleNotifyTooltip>근처 세력이 중심지로 집결하여 요새화할 때 편지를 보냅니다.</TSA_WD_Combat_TurtleNotifyTooltip>
+  <TSA_WD_Combat_GateStrongWar>강력한 세력 간 전쟁</TSA_WD_Combat_GateStrongWar>
+  <TSA_WD_Combat_GateStrongWarTip>강력한 세력 간 전쟁 이벤트의 단계별 발동 조건입니다.</TSA_WD_Combat_GateStrongWarTip>
+  <TSA_WD_BtnResetAll>모든 설정 초기화</TSA_WD_BtnResetAll>
+  <TSA_WD_ResetPageToDefaults>이 페이지 기본값으로 초기화</TSA_WD_ResetPageToDefaults>
+  <TSA_WD_BtnSabotage>공작</TSA_WD_BtnSabotage>
+  <TSA_WD_BtnWorldGen>초기 세계 생성</TSA_WD_BtnWorldGen>
+  <TSA_WD_BtnWorldRaids>세계 지도 습격</TSA_WD_BtnWorldRaids>
+  <TSA_WD_BtnCaravans>상단 및 무역</TSA_WD_BtnCaravans>
+  <TSA_WD_BtnExperimental>실험적 기능</TSA_WD_BtnExperimental>
+  <TSA_WD_BtnPlayerArtillery>플레이어 포병</TSA_WD_BtnPlayerArtillery>
+  <TSA_WD_Category>세계 정복</TSA_WD_Category>
+  <TSA_WD_Settings_DefaultValue>기본값: {0}</TSA_WD_Settings_DefaultValue>
+  <TSA_WD_Settings_DefaultOn>켜짐</TSA_WD_Settings_DefaultOn>
+  <TSA_WD_Settings_DefaultOff>꺼짐</TSA_WD_Settings_DefaultOff>
+  <TSA_WD_Daily_CapTip>이 정착지가 하루에 개시할 수 있는 서로 다른 행동(습격, 도로 건설, 성장 등)의 최대 횟수입니다.</TSA_WD_Daily_CapTip>
+  <TSA_WD_Daily_CdBeingRaided>방어 보호막</TSA_WD_Daily_CdBeingRaided>
+  <TSA_WD_Daily_CdBeingRaidedTip>정착지가 습격을 받은 후 적용되는 습격 면역 기간(일)입니다. 이 정착지가 공격자로서 행동하는 것은 막지 않습니다.</TSA_WD_Daily_CdBeingRaidedTip>
+  <TSA_WD_Daily_CdExpand>확장 후 대기시간</TSA_WD_Daily_CdExpand>
+  <TSA_WD_Daily_CdExpandTip>이 정착지가 다른 정착지를 건설하기까지 필요한 대기 일수입니다. 다른 행동 유형은 차단하지 않습니다.</TSA_WD_Daily_CdExpandTip>
+  <TSA_WD_Daily_CdGrow>도로 건설 후 대기시간</TSA_WD_Daily_CdGrow>
+  <TSA_WD_Daily_CdGrowTip>이 정착지가 다른 도로 건설 계획을 시작하기까지 필요한 대기 일수입니다. 다른 행동 유형은 차단하지 않습니다. 정착지 성장에는 대기시간이 없습니다.</TSA_WD_Daily_CdGrowTip>
+  <TSA_WD_Daily_CdIncident>사건 발생 대기시간</TSA_WD_Daily_CdIncident>
+  <TSA_WD_Daily_CdIncidentTip>이 정착지가 다른 소규모 또는 대규모 세계 사건을 유발하기까지 필요한 대기 일수입니다. 다른 행동 유형은 차단하지 않습니다.</TSA_WD_Daily_CdIncidentTip>
+  <TSA_WD_Daily_CdRaid>습격 후 대기시간</TSA_WD_Daily_CdRaid>
+  <TSA_WD_Daily_CdRaidTip>이 정착지가 다른 습격을 개시하기까지 필요한 대기 일수입니다. 성장, 확장, 도로, 무역 상단, 사건 발생은 차단하지 않습니다.</TSA_WD_Daily_CdRaidTip>
+  <TSA_WD_Daily_HeaderActionCaps>정착지 행동 용량</TSA_WD_Daily_HeaderActionCaps>
+  <TSA_WD_Daily_HeaderCooldowns>행동별 대기시간</TSA_WD_Daily_HeaderCooldowns>
+  <TSA_WD_Daily_HeaderTiers>정착지 등급별 일일 행동</TSA_WD_Daily_HeaderTiers>
+  <TSA_WD_Daily_HeaderWeights>행동 발생 확률</TSA_WD_Daily_HeaderWeights>
+  <TSA_WD_Daily_MaxRoadRange>최대 도로 건설 거리</TSA_WD_Daily_MaxRoadRange>
+  <TSA_WD_Daily_MaxRoadRangeTip>정착지는 이 타일 수보다 멀리 떨어진 목표를 향해 도로 건설을 시도하지 않습니다.</TSA_WD_Daily_MaxRoadRangeTip>
+  <TSA_WD_Daily_Reset>이 페이지 기본값으로 초기화</TSA_WD_Daily_Reset>
+  <TSA_WD_Daily_Tier1Tip>각 T1 정착지마다 추가되는 하루 행동 횟수입니다.</TSA_WD_Daily_Tier1Tip>
+  <TSA_WD_Daily_Tier2Tip>각 T2 정착지마다 추가되는 하루 행동 횟수입니다.</TSA_WD_Daily_Tier2Tip>
+  <TSA_WD_Daily_Tier3Tip>각 T3 정착지마다 추가되는 하루 행동 횟수입니다.</TSA_WD_Daily_Tier3Tip>
+  <TSA_WD_Daily_Tier4Tip>각 T4 정착지마다 추가되는 하루 행동 횟수입니다.</TSA_WD_Daily_Tier4Tip>
+  <TSA_WD_Daily_WeightGrow>발전 발생 확률</TSA_WD_Daily_WeightGrow>
+  <TSA_WD_Daily_WeightGrowTip>상한선에 근접한 정착지가 등급을 올리거나 새 정착지를 건설할 확률입니다. 전력이 해당 등급 최대치의 95% 이상일 때만 추첨됩니다.</TSA_WD_Daily_WeightGrowTip>
+  <TSA_WD_Daily_HeaderNearCapActions>등급 최대 전력의 95~100% 도달 시 행동</TSA_WD_Daily_HeaderNearCapActions>
+  <TSA_WD_Daily_IncludeDevelopInPercent>위 백분율에 발전 포함</TSA_WD_Daily_IncludeDevelopInPercent>
+  <TSA_WD_Daily_IncludeDevelopInPercentTip>설정 메뉴에만 적용됩니다. 활성화하면 일반 행동 슬라이더 옆의 백분율에 발전이 포함되어 계산됩니다. 게임 내 추첨 방식은 동일하며, 정착지가 등급 최대치에 근접했을 때만 발전이 경쟁합니다.</TSA_WD_Daily_IncludeDevelopInPercentTip>
+  <TSA_WD_Daily_WeightMajor>대규모 사건 발생 확률</TSA_WD_Daily_WeightMajor>
+  <TSA_WD_Daily_WeightMajorTip>정착지가 대규모 사건의 피해를 입을 확률입니다.</TSA_WD_Daily_WeightMajorTip>
+  <TSA_WD_Daily_WeightMinor>소규모 사건 발생 확률</TSA_WD_Daily_WeightMinor>
+  <TSA_WD_Daily_WeightMinorTip>정착지가 소규모 사건의 피해를 입을 확률입니다.</TSA_WD_Daily_WeightMinorTip>
+  <TSA_WD_Daily_WeightRaid>습격 발생 확률</TSA_WD_Daily_WeightRaid>
+  <TSA_WD_Daily_WeightRaidTip>정착지가 인근 정착지나 플레이어 전초기지를 습격할 확률입니다.</TSA_WD_Daily_WeightRaidTip>
+  <TSA_WD_Daily_WeightTrader>무역 상단 파견 확률</TSA_WD_Daily_WeightTrader>
+  <TSA_WD_Daily_WeightTraderTip>정착지가 사거리 내의 중립 또는 동맹 목표로 무역 상단을 파견할 확률입니다.</TSA_WD_Daily_WeightTraderTip>
+  <TSA_WD_Daily_WeightFortify>요새화 발생 확률</TSA_WD_Daily_WeightFortify>
+  <TSA_WD_Daily_WeightFortifyTip>위협받는 정착지가 농성 장비 배치로 현지를 요새화할 확률입니다. 도로 함정(도로 탈출로 확보)을 먼저 설치한 뒤 바리케이드(도로 장애물), AT 포탑 순으로 설치합니다. 높은 등급의 정착지는 한 번의 행동으로 여러 조의 함정 또는 장애물 작업대를 보낼 수 있습니다. 배치가 완료되었거나 요새화 대기시간 중일 때는 추첨되지 않습니다. 요새화가 선택되었으나 개시할 수 없는 경우, 가능한 다른 일일 행동이 대신 실행됩니다.</TSA_WD_Daily_WeightFortifyTip>
+  <TSA_WD_Daily_CdFortify>요새화 후 대기시간</TSA_WD_Daily_CdFortify>
+  <TSA_WD_Daily_CdFortifyTip>이 정착지가 다시 요새화를 시도하기까지 필요한 대기 일수입니다. 다른 행동 유형은 차단하지 않습니다.</TSA_WD_Daily_CdFortifyTip>
+  <TSA_WD_Daily_CdTrader>무역 상단 파견 후 대기시간</TSA_WD_Daily_CdTrader>
+  <TSA_WD_Daily_CdTraderTip>이 정착지가 다른 무역 상단을 파견하기까지 필요한 대기 일수입니다. 다른 행동 유형은 차단하지 않습니다.</TSA_WD_Daily_CdTraderTip>
+  <TSA_WD_DescDailyActions>행동 발생 가중치, NPC 요새화, 행동별 대기시간 설정입니다. 일일 행동 횟수 및 용량은 '성장 및 확장'에서 설정합니다.</TSA_WD_DescDailyActions>
+  <TSA_WD_DescGrowthExpand>정착지가 얼마나 빠르게 성장할지 결정합니다. 등급별 일일 행동 배분 및 용량, 확장 거리와 포화도 상한선 설정입니다.</TSA_WD_DescGrowthExpand>
+  <TSA_WD_DescDiplomacy>무작위 외교, 반란 확률, 우호도 상한선 및 바닐라 우호도 조정, 동맹 습격 요청, 도로 건설 요청, 정착지 구매, 세력 투자, 지도자/약자/열의/연합 버프 설정입니다. 강력한 세력 간 전쟁, 전방 돌격, 결사항전은 '전투 난이도'에 있습니다.</TSA_WD_DescDiplomacy>
+  <TSA_WD_DescDisinformation>역정보 임무의 성공 및 실패 확률, 대기시간, 기술 영향 설정입니다.</TSA_WD_DescDisinformation>
+  <TSA_WD_DescGarrison>등급별 정착지 주둔군의 전투력과 정착지 자원이 고갈되었을 때 얼마나 약화될지 설정합니다.</TSA_WD_DescGarrison>
+  <TSA_WD_DescBaseGeneration>WD가 정착지 강습 및 전초기지 방어 지도를 생성할 때 KCSG 배치 조정 설정입니다. 세력별 강습 자격은 세계 설정 → 소속 관계에서 설정합니다.</TSA_WD_DescBaseGeneration>
+  <TSA_WD_DescMiningBaselines>채굴 기술 수준에 따라 채굴 전초기지가 석재/광석당 획득할 수 있는 기본 생산량을 설정합니다.</TSA_WD_DescMiningBaselines>
+  <TSA_WD_DescNotifications>세계 정복 모드의 어떤 이벤트가 알림을 생성할지 설정합니다.</TSA_WD_DescNotifications>
+  <TSA_WD_DescOutpostFood>전초기지의 식량 소비, 생산, 보급 사거리 및 효율 설정입니다.</TSA_WD_DescOutpostFood>
+  <TSA_WD_DescOutpostSettings>전초기지 설립, 생산, 사관학교/전문가, 식량 보급, 정복 후 설립 설정입니다. 플레이어 박격포/대공망은 '플레이어 포병'에 있습니다.</TSA_WD_DescOutpostSettings>
+  <TSA_WD_DescUpdateNotes>World Domination 모드의 업데이트 내역 및 변경 사항을 확인합니다.</TSA_WD_DescUpdateNotes>
+  <TSA_WD_DescRaidMult>습격 점수 배율, 플레이어 전초기지 피격 여부, 이야기꾼 습격 유지 여부를 설정합니다.</TSA_WD_DescRaidMult>
+  <TSA_WD_DescLateGame>플레이어가 번영했을 때의 게임 중반 및 후반 반격 설정: 임계값, 편향된 습격, 가속 성장, 확장 압박, 우호도 자연 감소, T4 박격포, 전초기지 사건 등입니다.</TSA_WD_DescLateGame>
+  <TSA_WD_DescT4Mortar>적 4등급(T4) 정착지의 박격포 및 대공망 설정: 발사 여부, 플레이어 조준 여부, 사거리, 대기시간, 피해량, 명중률 등을 설정합니다.</TSA_WD_DescT4Mortar>
+  <TSA_WD_DescPlayerArtillery>플레이어 전초기지 박격포, 대공망, 신속 대응 요격 설정입니다.</TSA_WD_DescPlayerArtillery>
+  <TSA_WD_DescResetAll>모든 모드 설정을 기본값으로 복원합니다.</TSA_WD_DescResetAll>
+  <TSA_WD_DescSabotage>공작 임무의 성공 및 실패 확률, 대기시간, 기술 영향 설정입니다.</TSA_WD_DescSabotage>
+  <TSA_WD_DescWorldGen>초기 세계 생성 시 T1, T2, T3, T4 정착지가 생성될 확률을 설정합니다.</TSA_WD_DescWorldGen>
+  <TSA_WD_DescWorldRaids>모의 습격 결과 설정: 승률 곡선, 손실률, 공격에 필요한 최소 전력비 등입니다. 기본 곡선은 방어자에게 유리합니다(동일 전력 시 공격자 승률 약 35%). 이동 중 전력 손실은 '상단 및 무역'에 있습니다.</TSA_WD_DescWorldRaids>
+  <TSA_WD_DescCaravans>이동 소모, WD 상단의 수로 이동 경로, 무역 상단, 플레이어 정착지 방문 상인 간격, 전초기지 배송 비용, 이야기꾼 상인 차단 설정입니다. 수로 이동 경로는 '설정 프리셋 → 성능'에서도 지정됩니다.</TSA_WD_DescCaravans>
+  <TSA_WD_DescExperimental>세계 행동 및 습격 논리 실험, 세계 지도 아이콘 줌 동작, 오버레이 고정 키, NPC 요새화 이동단, 여행자 오염 피해, 오염 회피 경로 전환 설정입니다.</TSA_WD_DescExperimental>
+  <TSA_WD_HeaderImportant>설정 프리셋</TSA_WD_HeaderImportant>
+  <TSA_WD_HeaderSettingPresets>설정 프리셋</TSA_WD_HeaderSettingPresets>
+  <TSA_WD_SettingsPreset_Warning>난이도 및 성능 프리셋을 적용합니다. 다른 설정은 변경되지 않고 유지됩니다.</TSA_WD_SettingsPreset_Warning>
+  <TSA_WD_Important_TemplateWarning>난이도 및 성능 프리셋을 적용합니다. 다른 설정은 변경되지 않고 유지됩니다.</TSA_WD_Important_TemplateWarning>
+  <TSA_WD_SettingsPreset_HeaderTip>현재 적용됨:
+성능: {0}
+난이도: {1}</TSA_WD_SettingsPreset_HeaderTip>
+  <TSA_WD_SettingsPreset_Custom>사용자 지정</TSA_WD_SettingsPreset_Custom>
+  <TSA_WD_SettingsPreset_CurrentlyApplied>현재 적용됨: {0}</TSA_WD_SettingsPreset_CurrentlyApplied>
+  <TSA_WD_Important_Performance>성능</TSA_WD_Important_Performance>
+  <TSA_WD_Important_PerformanceTip>경로 탐색 비용, 수로 이동, 적 T4 포병, 요격 스캔 주기, 행성 최대 정착지 수, NPC 매복 요격 상한에 대한 프리셋입니다. '적용'을 누르면 이 값들만 반영됩니다.</TSA_WD_Important_PerformanceTip>
+  <TSA_WD_Important_Difficulty>난이도</TSA_WD_Important_Difficulty>
+  <TSA_WD_Important_DifficultyTip>플레이어 대상 습격 압박, 이야기꾼 전력 제한, 일일 습격 가중치, 전투 난이도 위협 조건, 중반/후반 게임 격화에 대한 프리셋입니다. '적용'을 누르면 이 값들만 반영됩니다. 세부 항목은 전투 난이도 및 경제 난이도에서 편집하세요.</TSA_WD_Important_DifficultyTip>
+  <TSA_WD_SettingsPreset_Apply>적용</TSA_WD_SettingsPreset_Apply>
+  <TSA_WD_SettingsPreset_Applied>적용된 프리셋: {0}</TSA_WD_SettingsPreset_Applied>
+  <TSA_WD_Settings_ExpandAll>모두 펼치기</TSA_WD_Settings_ExpandAll>
+  <TSA_WD_Settings_CollapseAll>모두 접기</TSA_WD_Settings_CollapseAll>
+  <TSA_WD_Important_Perf_Low>최고 성능</TSA_WD_Important_Perf_Low>
+  <TSA_WD_Important_Perf_Medium>보통 성능</TSA_WD_Important_Perf_Medium>
+  <TSA_WD_Important_Perf_High>성능 감소</TSA_WD_Important_Perf_High>
+  <TSA_WD_Important_Perf_LowDesc>최소 연산 경로 탐색(직선 거리 기준), 수로 경로 비활성화, 적 T4 포병 비활성화, 대공 스캔 주기 감소, 세계 검색 범위 축소, 최대 정착지 200개, NPC 매복 요격기 최대 4대.</TSA_WD_Important_Perf_LowDesc>
+  <TSA_WD_Important_Perf_MediumDesc>경로 정확도, 수로 이동, 요격 스캔 주기, 최대 정착지 400개, NPC 매복 요격기 최대 8대의 기본 균형 설정입니다.</TSA_WD_Important_Perf_MediumDesc>
+  <TSA_WD_Important_Perf_HighDesc>더 정밀한 상단 경로 사전 계산(80%), 더 빠른 요격 스캔, 수로 이동 활성화, 최대 정착지 800개, NPC 매복 요격기 제한 없음.</TSA_WD_Important_Perf_HighDesc>
+  <TSA_WD_Important_Diff_Easy>쉬움 난이도</TSA_WD_Important_Diff_Easy>
+  <TSA_WD_Important_Diff_Medium>보통 난이도</TSA_WD_Important_Diff_Medium>
+  <TSA_WD_Important_Diff_Hard>어려움 난이도</TSA_WD_Important_Diff_Hard>
+  <TSA_WD_Important_Diff_EasyDesc>습격 대기시간 연장, 습격 빈도 감소, 완화된 이야기꾼 전력 제한(50~150%), 습격 가중치 100. 위협 단계 조건 '사용 안 함'(기회주의 표적, 플레이어 대상 T4, 선봉대/침공, 결사항전, 강대 세력 전쟁). 중반/후반 격화 비활성화. 전초기지 기술 점감 비활성화. 수송 포드 이동 부품 소모 비활성화.</TSA_WD_Important_Diff_EasyDesc>
+  <TSA_WD_Important_Diff_MediumDesc>기본 습격 압박 및 습격 가중치 200. 위협 단계 조건 '중반부터'. 중반 게임은 점유율 8% 또는 전초기지 전력 4,000에서 시작, 후반 게임은 14% 또는 7,500에서 시작. 전초기지 기술 점감 기본 구간 적용. 수송 포드 이동 부품 소모 활성화.</TSA_WD_Important_Diff_MediumDesc>
+  <TSA_WD_Important_Diff_HardDesc>습격 대기시간 단축, 습격 허용치 증가, 강화된 이야기꾼 전력 제한(100~300%), 습격 가중치 200(보통과 동일). 위협 단계 조건 '항상'. 중반/후반 돌입 시기는 보통과 동일하지만 후반 타격이 더 강력함. 전초기지 기술 점감 기본 구간 적용. 수송 포드 이동 부품 소모 활성화.</TSA_WD_Important_Diff_HardDesc>
+  <TSA_WD_PlayerArtillery_Reset>이 페이지 기본값으로 초기화</TSA_WD_PlayerArtillery_Reset>
+  <TSA_WD_FacDet_BtnView>보기</TSA_WD_FacDet_BtnView>
+  <TSA_WD_FacDet_HeaderName>정착지 이름</TSA_WD_FacDet_HeaderName>
+  <TSA_WD_FacDet_HeaderStrength>전력</TSA_WD_FacDet_HeaderStrength>
+  <TSA_WD_FacDet_StrengthTip>현지 방어 총합(공격 + 방어)으로, 세계 통계의 순위 점수와 동일합니다. 습격 개시나 사건 발생 풀이 아닙니다.</TSA_WD_FacDet_StrengthTip>
+  <TSA_WD_FacDet_HeaderTier>등급</TSA_WD_FacDet_HeaderTier>
+  <TSA_WD_FacDet_HeaderSettlementType>정착지 유형</TSA_WD_FacDet_HeaderSettlementType>
+  <TSA_WD_FacDet_HeaderDistance>거리</TSA_WD_FacDet_HeaderDistance>
+  <TSA_WD_FacDet_DistanceTip>플레이어 정착지까지의 타일 거리</TSA_WD_FacDet_DistanceTip>
+  <TSA_WD_FacDet_TypeSettlement>정착지</TSA_WD_FacDet_TypeSettlement>
+  <TSA_WD_FacDet_HeaderBeingPurchased>구매 진행 중</TSA_WD_FacDet_HeaderBeingPurchased>
+  <TSA_WD_FacDet_BeingPurchasedYes>예</TSA_WD_FacDet_BeingPurchasedYes>
+  <TSA_WD_FacDet_Title>세력 정착지 개요: {0}</TSA_WD_FacDet_Title>
+  <TSA_WD_Garrison_T1>1등급 (야영지) 배율</TSA_WD_Garrison_T1>
+  <TSA_WD_Garrison_T2>2등급 (마을) 배율</TSA_WD_Garrison_T2>
+  <TSA_WD_Garrison_T3>3등급 (도시) 배율</TSA_WD_Garrison_T3>
+  <TSA_WD_Garrison_T4>4등급 (요새) 배율</TSA_WD_Garrison_T4>
+  <TSA_WD_BaseGen_Intro>WD/KCSG 생성이 실행될 때 적용되는 세부 설정입니다. 전초기지 방어 지도는 항상 WD 배치를 사용합니다. NPC 정착지 강습 지도는 '세계 설정 → 소속 관계'에서 MapGen이 활성화된 세력에 대해서만 WD를 사용합니다.</TSA_WD_BaseGen_Intro>
+  <TSA_WD_BaseGen_HeaderTerrainPrep>지형 정비</TSA_WD_BaseGen_HeaderTerrainPrep>
+  <TSA_WD_BaseGen_AdaptiveTerrainPrep>적응형 지형 정비 (습지 / 암석)</TSA_WD_BaseGen_AdaptiveTerrainPrep>
+  <TSA_WD_BaseGen_AdaptiveTerrainPrepTip>정착지 강습 및 전초기지 방어 지도에서 배치를 검사합니다. 건설 불가능한 타일(진흙, 늪, 물, 암석)이 너무 많으면 해당 장애 타일만 지도의 가장 흔한 건설 가능 지형으로 변환합니다. 나무는 유지됩니다. 대부분 문제가 없으면 자연 상태 그대로 둡니다.</TSA_WD_BaseGen_AdaptiveTerrainPrepTip>
+  <TSA_WD_BaseGen_AlwaysClearRect>항상 배치 영역 평탄화</TSA_WD_BaseGen_AlwaysClearRect>
+  <TSA_WD_BaseGen_AlwaysClearRectTip>활성화하면 장애 타일 비율이 슬라이더 설정값 미만이더라도 배치 내 장애 타일을 평탄화합니다. 비활성화하면 장애 타일이 슬라이더 설정값을 초과할 때만 평탄화합니다.</TSA_WD_BaseGen_AlwaysClearRectTip>
+  <TSA_WD_BaseGen_BlockedFlattenThreshold>장애 타일 비율 초과 시 평탄화</TSA_WD_BaseGen_BlockedFlattenThreshold>
+  <TSA_WD_BaseGen_BlockedFlattenThresholdTip>배치 영역 중 건설 불가능한 비율이 이 값보다 높으면 배치 내 장애 타일을 평탄화합니다. 이 값 이하이면 생성된 지형을 유지합니다. '항상 배치 영역 평탄화'가 켜져 있으면 무시됩니다.</TSA_WD_BaseGen_BlockedFlattenThresholdTip>
+  <TSA_WD_BaseGen_RectBlend>영역 주변 자연스러운 경계 혼합</TSA_WD_BaseGen_RectBlend>
+  <TSA_WD_BaseGen_RectBlendTip>평탄화가 실행될 때 배치 영역 바깥쪽의 장애 타일도 자연스럽게 변환(노이즈 감쇠)하고 해당 구역의 오물과 암석 덩어리를 제거합니다. 나무는 유지됩니다. 비활성화하면 배치 사각형 영역만 변경됩니다.</TSA_WD_BaseGen_RectBlendTip>
+  <TSA_WD_BaseGen_HeaderRockAndSoil>암석 및 토양</TSA_WD_BaseGen_HeaderRockAndSoil>
+  <TSA_WD_BaseGen_RemapRock>배치 석재를 지도의 암석으로 변환</TSA_WD_BaseGen_RemapRock>
+  <TSA_WD_BaseGen_RemapRockTip>정착지 강습 및 전초기지 방어 지도에서 배치에 고정된 석재(벽, 암석 덩어리, 바닥)를 지도의 대표적인 자연 암석 종류로 교체합니다.</TSA_WD_BaseGen_RemapRockTip>
+  <TSA_WD_BaseGen_RemapFarmSoil>농경지 흙을 지도의 지면으로 변환</TSA_WD_BaseGen_RemapFarmSoil>
+  <TSA_WD_BaseGen_RemapFarmSoilTip>정착지 강습 및 전초기지 방어 지도에서 배치의 흙(Soil) 및 비옥한 토양(SoilRich)을 지도의 대표적인 통행 가능한 비옥한 지형으로 교체합니다.</TSA_WD_BaseGen_RemapFarmSoilTip>
+  <TSA_WD_BaseGen_FertileUnderCrops>작물 아래 비옥한 토양 배치</TSA_WD_BaseGen_FertileUnderCrops>
+  <TSA_WD_BaseGen_FertileUnderCropsTip>정착지 강습 및 전초기지 방어 지도에서 식물이 생성되기 전에 작물 위치를 지도의 대표적인 비옥한 지형 위에 배치합니다.</TSA_WD_BaseGen_FertileUnderCropsTip>
+  <TSA_WD_BaseGen_HeaderLayoutExtras>배치 부가 요소</TSA_WD_BaseGen_HeaderLayoutExtras>
+  <TSA_WD_BaseGen_SpawnPenLivestock>우리 가축 생성</TSA_WD_BaseGen_SpawnPenLivestock>
+  <TSA_WD_BaseGen_RemapTrees>배치 나무를 생태계 나무로 변환</TSA_WD_BaseGen_RemapTrees>
+  <TSA_WD_BaseGen_RemapTreesTip>정착지 강습 및 전초기지 방어 지도에서 배치의 참나무/자작나무/단풍나무 플레이스홀더를 해당 생태계의 1/2/3번째 주요 나무로 교체합니다.</TSA_WD_BaseGen_RemapTreesTip>
+  <TSA_WD_BaseGen_SpawnPenLivestockTip>정착지 강습 및 전초기지 방어 지도에서 배치 내 우리 표식 주변에 소규모 가축/동물 무리를 생성합니다.</TSA_WD_BaseGen_SpawnPenLivestockTip>
+  <TSA_WD_BaseGen_HeaderAfterGeneration>생성 후 처리</TSA_WD_BaseGen_HeaderAfterGeneration>
+  <TSA_WD_BaseGen_UnfogRect>정착지 영역 안개 해제</TSA_WD_BaseGen_UnfogRect>
+  <TSA_WD_BaseGen_UnfogRectTip>정착지 강습 및 전초기지 방어 지도에서 지도 생성 후 KCSG 배치 사각형 전체 영역의 안개를 해제합니다(건물 윤곽선뿐만 아니라 전체).</TSA_WD_BaseGen_UnfogRectTip>
+  <TSA_WD_BaseGen_FogInteriorMineables>내부 암석 및 광석 안개 처리</TSA_WD_BaseGen_FogInteriorMineables>
+  <TSA_WD_BaseGen_FogInteriorMineablesTip>정착지 강습 및 전초기지 방어 지도에서 정착지 영역 내 8방향 인접 타일이 모두 암석이나 광석으로 둘러싸인 천연 암석 및 광석 타일(기존 산 또는 배치 암석)을 다시 안개로 덮습니다. 암석 덩어리는 포함되지 않습니다. 정착지 영역 안개 해제 후에 실행됩니다.</TSA_WD_BaseGen_FogInteriorMineablesTip>
+  <TSA_WD_BaseGen_ForcePower>정착지 강제 전력 공급 (강습 전용)</TSA_WD_BaseGen_ForcePower>
+  <TSA_WD_BaseGen_ForcePowerTip>NPC 정착지 강습 지도에서 실제 전력망 없이도 조명과 포탑에 전력을 공급하고 연료 포탑을 재보급합니다. 전초기지 방어 지도에는 적용되지 않습니다.</TSA_WD_BaseGen_ForcePowerTip>
+  <TSA_WD_BaseGen_SilenceTurrets>격파된 포탑 파괴 (강습 전용)</TSA_WD_BaseGen_SilenceTurrets>
+  <TSA_WD_BaseGen_SilenceTurretsTip>NPC 정착지 공격 맵에서 모든 적대적 인간형 개체가 쓰러지거나 도망치거나 떠나면, 상단을 재편성할 수 있도록 조종자가 없는 잔여 세력 포탑을 파괴합니다. 전초기지 방어 맵에는 적용되지 않습니다.</TSA_WD_BaseGen_SilenceTurretsTip>
+  <TSA_WD_Garrison_Tooltip>수비대를 생성하는 데 사용되는 점수를 조절합니다. 값이 높을수록 인원수와 장비 품질이 증가합니다.</TSA_WD_Garrison_Tooltip>
+  <TSA_WD_HeaderDynamicGarrison>동적 스케일링 (현재 공격력 기준)</TSA_WD_HeaderDynamicGarrison>
+  <TSA_WD_Garrison_MinScale>공격력 고갈 시 최소 주둔군 비율</TSA_WD_Garrison_MinScale>
+  <TSA_WD_Garrison_MinScaleTooltip>맵 주둔군은 공격받은 정착지의 현재 공격력이 해당 티어 최대치에 비례하여 동적으로 조절됩니다. 전력을 갖춘 정착지는 설정된 티어 배율의 100%를 배치하며, 고갈된 정착지는 그보다 적게 배치합니다. 이 설정은 하한선으로, 공격력이 완전히 바닥난 정착지라도 최소한 설정된 주둔군의 이 비율만큼은 배치합니다. 맵 구조와 배치는 공격력과 무관하게 해당 티어에 맞게 유지됩니다.</TSA_WD_Garrison_MinScaleTooltip>
+  <TSA_WD_Gen_HeaderWeights>초기 세계 생성 가중치</TSA_WD_Gen_HeaderWeights>
+  <TSA_WD_Gen_RerollAll>지금 정착지 티어 다시 굴리기</TSA_WD_Gen_RerollAll>
+  <TSA_WD_Gen_Reset>기본값으로 초기화</TSA_WD_Gen_Reset>
+  <TSA_WD_Gen_Tier1Tip>정착지가 1티어 전초기지로 시작할 확률입니다.</TSA_WD_Gen_Tier1Tip>
+  <TSA_WD_Gen_Tier2Tip>정착지가 2티어 마을로 시작할 확률입니다.</TSA_WD_Gen_Tier2Tip>
+  <TSA_WD_Gen_Tier3Tip>정착지가 3티어 요새로 시작할 확률입니다.</TSA_WD_Gen_Tier3Tip>
+  <TSA_WD_Gen_Tier4Tip>정착지가 4티어 성채로 시작할 확률입니다.</TSA_WD_Gen_Tier4Tip>
+  <TSA_WD_WorldSetup_Title>WD: 세계 설정</TSA_WD_WorldSetup_Title>
+  <TSA_WD_WorldSetup_Subtitle>정착하기 전에 정착지, 도로, 세력 관계를 조정합니다.</TSA_WD_WorldSetup_Subtitle>
+  <TSA_WD_WorldSetup_ButtonTooltip>World Domination 세계 설정을 엽니다. 드래그하여 이 아이콘을 이동할 수 있습니다.</TSA_WD_WorldSetup_ButtonTooltip>
+  <TSA_WD_WorldSetup_Recreate>정착지 재생성</TSA_WD_WorldSetup_Recreate>
+  <TSA_WD_WorldSetup_RecreateTooltip>모든 NPC 정착지를 파괴하고 이 항목의 수량, 간격, 세력 밀도, 타 세력과의 거리를 바탕으로 다시 배치합니다. 정착지 최소 거리 설정을 사용합니다. 방어 시설은 재생성 시 파괴 여부 토글 설정을 따릅니다.</TSA_WD_WorldSetup_RecreateTooltip>
+  <TSA_WD_WorldSetup_RecreateConfirmHeader>모든 NPC 정착지를 재생성하시겠습니까?\n\n배치 예정:</TSA_WD_WorldSetup_RecreateConfirmHeader>
+  <TSA_WD_WorldSetup_RecreateConfirmLine>{0}: {1}</TSA_WD_WorldSetup_RecreateConfirmLine>
+  <TSA_WD_WorldSetup_RecreateConfirmTotal>총합: {0} (세계 생성 시 {1}개)</TSA_WD_WorldSetup_RecreateConfirmTotal>
+  <TSA_WD_WorldSetup_RecreateConfirmFooter>NPC 바리케이드, 함정, 대전차(AT) 포탑이 제거됩니다. 플레이어 시설은 유지됩니다.</TSA_WD_WorldSetup_RecreateConfirmFooter>
+  <TSA_WD_WorldSetup_RecreateConfirmFooterKeepForts>NPC 바리케이드, 함정, 대전차(AT) 포탑이 유지됩니다. 플레이어 시설은 변경되지 않습니다.</TSA_WD_WorldSetup_RecreateConfirmFooterKeepForts>
+  <TSA_WD_WorldSetup_RecreateConfirmEmpty>세계 생성에서 재생성할 NPC 정착지가 없습니다.</TSA_WD_WorldSetup_RecreateConfirmEmpty>
+  <TSA_WD_WorldSetup_RecreateDone>{0}개의 정착지를 재생성했습니다.</TSA_WD_WorldSetup_RecreateDone>
+  <TSA_WD_WorldSetup_RecreatePartial>{0}개의 정착지를 재생성했습니다. {1}개는 건너뛰었습니다 (유효한 타일 없음).</TSA_WD_WorldSetup_RecreatePartial>
+  <TSA_WD_WorldSetup_RecreateResultTitle>정착지 재생성 완료</TSA_WD_WorldSetup_RecreateResultTitle>
+  <TSA_WD_WorldSetup_RecreateResultFull>정착지 {0}개를 모두 배치했습니다.</TSA_WD_WorldSetup_RecreateResultFull>
+  <TSA_WD_WorldSetup_RecreateResultPartial>설정에 따라 정착지 {0}개 배치를 시도했습니다. {1}개를 배치했습니다. 현재 간격 및 세력 규칙에 유효한 타일이 없어 {2}개를 배치하지 못했습니다.</TSA_WD_WorldSetup_RecreateResultPartial>
+  <TSA_WD_WorldSetup_RecreateResultFactionAbort>{0}: {1}회 연속 실패(유효한 타일 없음) 후 중단되었습니다.</TSA_WD_WorldSetup_RecreateResultFactionAbort>
+  <TSA_WD_WorldSetup_RecreateResultError>정착지 재생성에 실패했습니다. 자세한 내용은 Player.log를 확인하세요.</TSA_WD_WorldSetup_RecreateResultError>
+  <TSA_WD_WorldSetup_Coherence>군집화 확률</TSA_WD_WorldSetup_Coherence>
+  <TSA_WD_WorldSetup_CoherenceTooltip>재생성 시 기존의 동일 세력 군집에 합류할 확률입니다. 낮음 = 간격 설정만 적용하여 새 정착지 형성, 높음 = 군집으로 뭉침(군집당 최대치까지).</TSA_WD_WorldSetup_CoherenceTooltip>
+  <TSA_WD_WorldSetup_CoherenceRandom>무작위</TSA_WD_WorldSetup_CoherenceRandom>
+  <TSA_WD_WorldSetup_CoherenceClustered>응집</TSA_WD_WorldSetup_CoherenceClustered>
+  <TSA_WD_WorldSetup_Spacing>간격</TSA_WD_WorldSetup_Spacing>
+  <TSA_WD_WorldSetup_SpacingTooltip>정착지(동일 또는 타 세력) 간의 최소 간격입니다. 슬라이더에 따라 조절되며 100%일 때 설립 최소 거리의 최대 4배까지 늘어납니다.</TSA_WD_WorldSetup_SpacingTooltip>
+  <TSA_WD_WorldSetup_SpacingClose>조밀</TSA_WD_WorldSetup_SpacingClose>
+  <TSA_WD_WorldSetup_SpacingSpread>분산</TSA_WD_WorldSetup_SpacingSpread>
+  <TSA_WD_WorldSetup_OtherFactionDistance>타 세력과의 거리</TSA_WD_WorldSetup_OtherFactionDistance>
+  <TSA_WD_WorldSetup_OtherFactionDistanceTooltip>이웃 정착지가 다른 세력일 때 기본 간격 외에 추가되는 여유 거리입니다. 0일 때는 기본 간격만 적용되며, 100일 때는 기본 간격에 설립 최소 거리의 3배가 추가됩니다.</TSA_WD_WorldSetup_OtherFactionDistanceTooltip>
+  <TSA_WD_WorldSetup_MaxPerCluster>군집당 최대 정착지 수</TSA_WD_WorldSetup_MaxPerCluster>
+  <TSA_WD_WorldSetup_MaxPerClusterTooltip>재생성 시 동일 세력 정착지가 한 군집에 모일 때 이 수량을 초과할 수 없습니다. 초과하는 정착지는 새 군집을 형성합니다.</TSA_WD_WorldSetup_MaxPerClusterTooltip>
+  <TSA_WD_WorldSetup_MinClusterDistance>군집 간 최소 거리</TSA_WD_WorldSetup_MinClusterDistance>
+  <TSA_WD_WorldSetup_MinClusterDistanceTooltip>이전 군집이 가득 찼거나 합류에 실패하여 동일 세력의 새 군집을 형성할 때 적용되는 추가 이격 거리입니다. 단순히 군집화 확률에 의해 합류하지 않은 경우에는 적용되지 않습니다. 0이면 비활성화됩니다. 기본값은 20입니다.</TSA_WD_WorldSetup_MinClusterDistanceTooltip>
+  <TSA_WD_WorldSetup_BiomePenalty>열악한 생물군계 페널티</TSA_WD_WorldSetup_BiomePenalty>
+  <TSA_WD_WorldSetup_BiomePenaltyTooltip>재생성 시 얼음이나 척박한 사막에 정착지가 배치되는 빈도를 줄입니다. 0이면 다른 타일과 동일하게 취급되며, 100이면 전혀 배치되지 않습니다. 중간값은 확률을 비례하여 감소시킵니다(50은 절반 수준).</TSA_WD_WorldSetup_BiomePenaltyTooltip>
+  <TSA_WD_WorldSetup_FactionShares>세력 점유율</TSA_WD_WorldSetup_FactionShares>
+  <TSA_WD_WorldSetup_FactionSharesTooltip>재생성 시 각 세력이 보유할 정착지 수를 조정합니다. 세계 생성 시점의 비율에서 시작합니다.</TSA_WD_WorldSetup_FactionSharesTooltip>
+  <TSA_WD_WorldSetup_FactionSharesTitle>세력별 정착지 점유율</TSA_WD_WorldSetup_FactionSharesTitle>
+  <TSA_WD_WorldSetup_FactionSharesTip>각 세력의 점유율을 드래그하여 조절하세요. 백분율과 정착지 수는 전체 점유율 풀 및 '정착지 수' 슬라이더를 바탕으로 갱신됩니다.</TSA_WD_WorldSetup_FactionSharesTip>
+  <TSA_WD_WorldSetup_FactionShares_H_Faction>세력</TSA_WD_WorldSetup_FactionShares_H_Faction>
+  <TSA_WD_WorldSetup_FactionShares_H_Share>점유율</TSA_WD_WorldSetup_FactionShares_H_Share>
+  <TSA_WD_WorldSetup_FactionShares_H_Pct>%</TSA_WD_WorldSetup_FactionShares_H_Pct>
+  <TSA_WD_WorldSetup_FactionShares_H_Count>정착지</TSA_WD_WorldSetup_FactionShares_H_Count>
+  <TSA_WD_WorldSetup_FactionShares_Equal>균등 배분</TSA_WD_WorldSetup_FactionShares_Equal>
+  <TSA_WD_WorldSetup_FactionShares_EqualTip>해당하는 모든 세력의 점유율 가중치를 동일하게 설정하여 전체 정착지를 균등하게 나눕니다.</TSA_WD_WorldSetup_FactionShares_EqualTip>
+  <TSA_WD_WorldSetup_FactionShares_Reset>세계 생성값으로 초기화</TSA_WD_WorldSetup_FactionShares_Reset>
+  <TSA_WD_WorldSetup_FactionShares_Empty>이 세계에는 해당하는 NPC 세력이 없습니다.</TSA_WD_WorldSetup_FactionShares_Empty>
+  <TSA_WD_WorldSetup_SettlementCount>정착지 수</TSA_WD_WorldSetup_SettlementCount>
+  <TSA_WD_WorldSetup_SettlementCountTooltip>재생성 시 배치할 NPC 정착지 수입니다. 기본값은 바닐라 세계 생성의 수량입니다. 세력 점유율('세력 점유율' 버튼)을 통해 총합을 어떻게 나눌지 결정합니다.</TSA_WD_WorldSetup_SettlementCountTooltip>
+  <TSA_WD_WorldSetup_TierLikelihood>정착지 티어</TSA_WD_WorldSetup_TierLikelihood>
+  <TSA_WD_WorldSetup_TierLikelihoodTooltip>새 정착지가 각 티어로 생성될 빈도를 편집합니다. 다음 재생성 시 이 가중치를 사용합니다.</TSA_WD_WorldSetup_TierLikelihoodTooltip>
+  <TSA_WD_WorldSetup_Allegiances>WD 세력 범위 및 관계</TSA_WD_WorldSetup_Allegiances>
+  <TSA_WD_WorldSetup_AllegiancesTooltip>세력 참여 여부(WD 행동, 맵 생성, 이야기꾼) 및 세력 쌍별 관계 설정을 엽니다.</TSA_WD_WorldSetup_AllegiancesTooltip>
+  <TSA_WD_WorldSetup_AllegiancesTitle>세계 세력 관계</TSA_WD_WorldSetup_AllegiancesTitle>
+  <TSA_WD_WorldSetup_AllegiancesSubtitle>이 세계의 NPC 관계를 편집합니다. 선택 사항인 동결 기간은 {0}일 동안 지속됩니다(무작위 외교와 동일).</TSA_WD_WorldSetup_AllegiancesSubtitle>
+  <TSA_WD_WorldSetup_AllegiancesSubtitleNoFreeze>세력 참여 여부 및 세력 쌍 간의 관계를 편집합니다. 무작위 WD 외교를 차단하려면 NPC 쌍을 잠그세요.</TSA_WD_WorldSetup_AllegiancesSubtitleNoFreeze>
+  <TSA_WD_WorldSetup_FreezeOnApply>{0}일간 동결</TSA_WD_WorldSetup_FreezeOnApply>
+  <TSA_WD_WorldSetup_FreezeOnApplyTooltip>선택 시 중립 / 동맹 / 적대 설정 시 {0}일간의 동결도 함께 적용되어, 동결 기간 동안 무작위 WD 외교로 해당 쌍의 관계가 변경되지 않습니다.</TSA_WD_WorldSetup_FreezeOnApplyTooltip>
+  <TSA_WD_WorldSetup_GoodwillFieldTooltip>우호도(-100 ~ {0})를 입력하고 Enter를 누르세요. 동맹은 +75, 적대는 -75, 중립은 0으로 설정됩니다. 상한선은 모드 설정의 최대 우호도와 일치합니다.</TSA_WD_WorldSetup_GoodwillFieldTooltip>
+  <TSA_WD_WorldSetup_PermanentlyHostile>영구 적대</TSA_WD_WorldSetup_PermanentlyHostile>
+  <TSA_WD_WorldSetup_ResetAllegiancesDefault>세력 관계를 기본값으로 초기화</TSA_WD_WorldSetup_ResetAllegiancesDefault>
+  <TSA_WD_WorldSetup_ResetAllegiancesDefaultTooltip>목록의 모든 세력 쌍을 해당 세력 쌍의 본래 기본 우호도로 되돌립니다.</TSA_WD_WorldSetup_ResetAllegiancesDefaultTooltip>
+  <TSA_WD_WorldSetup_ResetAllegiancesDone>세력 관계가 기본값으로 복원되었습니다.</TSA_WD_WorldSetup_ResetAllegiancesDone>
+  <TSA_WD_WorldSetup_RelNeutral>중립</TSA_WD_WorldSetup_RelNeutral>
+  <TSA_WD_WorldSetup_RelAllied>동맹</TSA_WD_WorldSetup_RelAllied>
+  <TSA_WD_WorldSetup_RelHostile>적대</TSA_WD_WorldSetup_RelHostile>
+  <TSA_WD_WorldSetup_RelationFailed>해당 관계를 변경할 수 없습니다 (관계 데이터 누락).</TSA_WD_WorldSetup_RelationFailed>
+  <TSA_WD_WorldSetup_ToolsHeader>배치 도구</TSA_WD_WorldSetup_ToolsHeader>
+  <TSA_WD_WorldSetup_SectionGeneral>일반 설정</TSA_WD_WorldSetup_SectionGeneral>
+  <TSA_WD_WorldSetup_SectionDistribution>정착지 분포</TSA_WD_WorldSetup_SectionDistribution>
+  <TSA_WD_WorldSetup_SectionLayout>정착지 수동 조정</TSA_WD_WorldSetup_SectionLayout>
+  <TSA_WD_WorldSetup_DestroyFortsOnRecreate>재생성 시 방어 시설 파괴</TSA_WD_WorldSetup_DestroyFortsOnRecreate>
+  <TSA_WD_WorldSetup_DestroyFortsOnRecreateTip>활성화 시 정착지를 재생성할 때 NPC 바리케이드, 가시 함정, 대전차(AT) 포탑도 함께 제거됩니다. 플레이어 시설은 영향을 받지 않습니다.</TSA_WD_WorldSetup_DestroyFortsOnRecreateTip>
+  <TSA_WD_WorldSetup_SectionDiplomacy>외교</TSA_WD_WorldSetup_SectionDiplomacy>
+  <TSA_WD_WorldSetup_SectionTools>배치 도구</TSA_WD_WorldSetup_SectionTools>
+  <TSA_WD_WorldSetup_SectionRoadsFortify>도로 및 방어 시설</TSA_WD_WorldSetup_SectionRoadsFortify>
+  <TSA_WD_WorldSetup_ToolPlaceSettlement>정착지 배치</TSA_WD_WorldSetup_ToolPlaceSettlement>
+  <TSA_WD_WorldSetup_ToolRemoveSettlement>정착지 제거</TSA_WD_WorldSetup_ToolRemoveSettlement>
+  <TSA_WD_WorldSetup_ToolStrengthPlus>전투력 증가 +100</TSA_WD_WorldSetup_ToolStrengthPlus>
+  <TSA_WD_WorldSetup_ToolStrengthMinus>전투력 감소 -100</TSA_WD_WorldSetup_ToolStrengthMinus>
+  <TSA_WD_WorldSetup_ToolTierUp>티어 상승</TSA_WD_WorldSetup_ToolTierUp>
+  <TSA_WD_WorldSetup_ToolTierDown>티어 하강</TSA_WD_WorldSetup_ToolTierDown>
+  <TSA_WD_WorldSetup_ToolTurret>대전차(AT) 포탑 배치</TSA_WD_WorldSetup_ToolTurret>
+  <TSA_WD_WorldSetup_ToolRoadBlock>바리케이드 배치</TSA_WD_WorldSetup_ToolRoadBlock>
+  <TSA_WD_WorldSetup_ToolTrap>함정 배치</TSA_WD_WorldSetup_ToolTrap>
+  <TSA_WD_WorldSetup_ToolPlaceRoad>도로 건설</TSA_WD_WorldSetup_ToolPlaceRoad>
+  <TSA_WD_WorldSetup_ToolPlaceBridge>다리 건설</TSA_WD_WorldSetup_ToolPlaceBridge>
+  <TSA_WD_WorldSetup_ToolRemoveFortify>이곳의 방어 시설 제거</TSA_WD_WorldSetup_ToolRemoveFortify>
+  <TSA_WD_WorldSetup_ToolRemoveRoad>도로 제거</TSA_WD_WorldSetup_ToolRemoveRoad>
+  <TSA_WD_WorldSetup_ToolDestroyBridge>다리 철거</TSA_WD_WorldSetup_ToolDestroyBridge>
+  <TSA_WD_WorldSetup_InvalidTile>유효하지 않은 타일입니다.</TSA_WD_WorldSetup_InvalidTile>
+  <TSA_WD_WorldSetup_TileOccupied>타일 {0}에 이미 세계 객체가 있습니다.</TSA_WD_WorldSetup_TileOccupied>
+  <TSA_WD_WorldSetup_TileInvalidSettlement>타일 {0}에는 정착지를 건설할 수 없습니다.</TSA_WD_WorldSetup_TileInvalidSettlement>
+  <TSA_WD_WorldSetup_TooClose>다른 정착지나 전초기지에 너무 가깝습니다.</TSA_WD_WorldSetup_TooClose>
+  <TSA_WD_WorldSetup_FactionMissing>세력이 없습니다.</TSA_WD_WorldSetup_FactionMissing>
+  <TSA_WD_WorldSetup_WorldMissing>세계가 아직 준비되지 않았습니다.</TSA_WD_WorldSetup_WorldMissing>
+  <TSA_WD_WorldSetup_NoFactions>배치 가능한 세력을 찾을 수 없습니다.</TSA_WD_WorldSetup_NoFactions>
+  <TSA_WD_WorldSetup_PlaceSettlementHint>타일을 클릭하여 {1}의 {0} 정착지를 배치하세요. 우클릭 또는 Esc를 누르면 중단합니다.</TSA_WD_WorldSetup_PlaceSettlementHint>
+  <TSA_WD_WorldSetup_PlacedSettlement>타일 {2}에 {1}의 {0} 정착지를 배치했습니다.</TSA_WD_WorldSetup_PlacedSettlement>
+  <TSA_WD_WorldSetup_SpawnFailed>정착지를 배치할 수 없습니다.</TSA_WD_WorldSetup_SpawnFailed>
+  <TSA_WD_WorldSetup_ClickSettlementHint>세계 지도에서 정착지를 클릭하세요.</TSA_WD_WorldSetup_ClickSettlementHint>
+  <TSA_WD_WorldSetup_NeedSettlement>정착지 또는 WD 전초기지를 클릭하세요.</TSA_WD_WorldSetup_NeedSettlement>
+  <TSA_WD_WorldSetup_TierChanged>{0}(이)가 이제 {1}이(가) 되었습니다.</TSA_WD_WorldSetup_TierChanged>
+  <TSA_WD_WorldSetup_StrengthChanged>{0}의 전투력이 이제 {1} ({2})(이)가 되었습니다.</TSA_WD_WorldSetup_StrengthChanged>
+  <TSA_WD_WorldSetup_NoRoadBlockKinds>배치 가능한 바리케이드 종류가 없습니다.</TSA_WD_WorldSetup_NoRoadBlockKinds>
+  <TSA_WD_WorldSetup_PlaceFortifyHint>배치할 타일을 클릭하세요. 우클릭 또는 Esc를 누르면 중단합니다.</TSA_WD_WorldSetup_PlaceFortifyHint>
+  <TSA_WD_WorldSetup_PlaceFortifyFailed>그곳에는 배치할 수 없습니다.</TSA_WD_WorldSetup_PlaceFortifyFailed>
+  <TSA_WD_WorldSetup_PlaceFortifyDone>배치되었습니다.</TSA_WD_WorldSetup_PlaceFortifyDone>
+  <TSA_WD_WorldSetup_RemoveFortifyHint>바리케이드, 함정 또는 대전차(AT) 포탑을 클릭하여 제거하세요.</TSA_WD_WorldSetup_RemoveFortifyHint>
+  <TSA_WD_WorldSetup_RemoveFortifyNone>해당 타일에 제거할 대상이 없습니다.</TSA_WD_WorldSetup_RemoveFortifyNone>
+  <TSA_WD_WorldSetup_RemoveFortifyDone>방어 시설을 제거했습니다.</TSA_WD_WorldSetup_RemoveFortifyDone>
+  <TSA_WD_WorldSetup_RoadDirt>흙길</TSA_WD_WorldSetup_RoadDirt>
+  <TSA_WD_WorldSetup_RoadStone>돌길</TSA_WD_WorldSetup_RoadStone>
+  <TSA_WD_WorldSetup_RoadAsphalt>아스팔트 도로</TSA_WD_WorldSetup_RoadAsphalt>
+  <TSA_WD_WorldSetup_RoadDefMissing>도로 정의를 찾을 수 없습니다.</TSA_WD_WorldSetup_RoadDefMissing>
+  <TSA_WD_WorldSetup_RoadNeedTwoTiles>서로 다른 두 타일을 선택하세요.</TSA_WD_WorldSetup_RoadNeedTwoTiles>
+  <TSA_WD_WorldSetup_RoadNoPath>해당 타일 사이에 경로가 없습니다.</TSA_WD_WorldSetup_RoadNoPath>
+  <TSA_WD_WorldSetup_PlaceRoadHint>시작 타일을 클릭한 다음, 끝 타일을 클릭하세요.</TSA_WD_WorldSetup_PlaceRoadHint>
+  <TSA_WD_WorldSetup_PlaceRoadPickEnd>이제 끝 타일을 클릭하세요.</TSA_WD_WorldSetup_PlaceRoadPickEnd>
+  <TSA_WD_WorldSetup_PlaceRoadDone>경로를 따라 도로가 건설되었습니다.</TSA_WD_WorldSetup_PlaceRoadDone>
+  <TSA_WD_WorldSetup_RemoveRoadHint>도로가 있는 타일을 클릭하여 육상 도로 연결을 제거합니다 (다리는 유지됩니다).</TSA_WD_WorldSetup_RemoveRoadHint>
+  <TSA_WD_WorldSetup_RemoveRoadNone>해당 타일에 도로가 없습니다.</TSA_WD_WorldSetup_RemoveRoadNone>
+  <TSA_WD_WorldSetup_RemoveRoadDone>{0}개의 도로 연결을 제거했습니다.</TSA_WD_WorldSetup_RemoveRoadDone>
+  <TSA_WD_WorldSetup_PlaceBridgeHint>이쪽 기슭을 클릭한 다음, 건너편 기슭을 클릭하세요.</TSA_WD_WorldSetup_PlaceBridgeHint>
+  <TSA_WD_WorldSetup_PlaceBridgePickEnd>이제 건너편 기슭을 클릭하세요.</TSA_WD_WorldSetup_PlaceBridgePickEnd>
+  <TSA_WD_WorldSetup_PlaceBridgeDone>다리가 건설되었습니다.</TSA_WD_WorldSetup_PlaceBridgeDone>
+  <TSA_WD_WorldSetup_PlaceBridgeFailed>그곳에는 다리를 건설할 수 없습니다.</TSA_WD_WorldSetup_PlaceBridgeFailed>
+  <TSA_WD_WorldSetup_DestroyBridgeHint>다리를 철거하려면 다리 기슭이나 다리가 놓인 수역 타일을 클릭하세요.</TSA_WD_WorldSetup_DestroyBridgeHint>
+  <TSA_WD_WorldSetup_DestroyBridgeNone>해당 타일에 WD 다리가 없습니다.</TSA_WD_WorldSetup_DestroyBridgeNone>
+  <TSA_WD_WorldSetup_DestroyBridgeDone>다리가 철거되었습니다.</TSA_WD_WorldSetup_DestroyBridgeDone>
+  <TSA_WD_WorldSetup_RemoveSettlementHint>제거할 NPC 정착지를 클릭하세요. 우클릭 또는 Esc를 누르면 중단합니다.</TSA_WD_WorldSetup_RemoveSettlementHint>
+  <TSA_WD_WorldSetup_RemoveSettlementDone>{0}을(를) 제거했습니다.</TSA_WD_WorldSetup_RemoveSettlementDone>
+  <TSA_WD_WorldSetup_RemoveSettlementPlayer>플레이어 시설은 여기서 제거할 수 없습니다.</TSA_WD_WorldSetup_RemoveSettlementPlayer>
+  <TSA_WD_Growth_BaseGrowth>수동적 전투력 획득</TSA_WD_Growth_BaseGrowth>
+  <TSA_WD_Growth_BaseGrowthTooltip>NPC 정착지가 매일 자동으로 획득하는 공격력 수치입니다 (규모 스케일링 및 중/후반 배율 적용 전).</TSA_WD_Growth_BaseGrowthTooltip>
+  <TSA_WD_Growth_PassiveT1>T1 일일 수동 획득</TSA_WD_Growth_PassiveT1>
+  <TSA_WD_Growth_PassiveT2>T2 일일 수동 획득</TSA_WD_Growth_PassiveT2>
+  <TSA_WD_Growth_PassiveT3>T3 일일 수동 획득</TSA_WD_Growth_PassiveT3>
+  <TSA_WD_Growth_PassiveT4>T4 일일 수동 획득</TSA_WD_Growth_PassiveT4>
+  <TSA_WD_Growth_PassiveTierTip>이 티어가 매일 자동으로 획득하는 공격력 수치입니다 (중/후반 및 언더독 배율 적용 전). 티어별 고정값이며 규모 곡선은 적용되지 않습니다.</TSA_WD_Growth_PassiveTierTip>
+  <TSA_WD_Growth_ExpandChance>확장 성공 확률</TSA_WD_Growth_ExpandChance>
+  <TSA_WD_Growth_ExpandChanceTooltip>최대 전투력에 도달한 정착지가 새 정착지를 성공적으로 설립할 확률입니다.</TSA_WD_Growth_ExpandChanceTooltip>
+  <TSA_WD_Growth_GoodwillFromTrade>세력과 거래 시 우호도 부여</TSA_WD_Growth_GoodwillFromTrade>
+  <TSA_WD_Growth_GoodwillFromTradeTooltip>활성화 시 은 기반 거래를 완료하면 거래한 세력과의 우호도를 획득합니다. 은혜 기반 거래는 무시됩니다.</TSA_WD_Growth_GoodwillFromTradeTooltip>
+  <TSA_WD_Growth_GoodwillPer1000Silver>1000은 상당 거래당 우호도</TSA_WD_Growth_GoodwillPer1000Silver>
+  <TSA_WD_Growth_GoodwillPer1000SilverTooltip>총 거래 가치(교환된 물품의 시장 가치) 1000은당 획득하는 우호도 수치입니다.</TSA_WD_Growth_GoodwillPer1000SilverTooltip>
+  <TSA_WD_Growth_HeaderExpansion>확장 및 지역 밀도 제한</TSA_WD_Growth_HeaderExpansion>
+  <TSA_WD_Growth_HeaderGoodwillFromTrade>거래를 통한 우호도</TSA_WD_Growth_HeaderGoodwillFromTrade>
+  <TSA_WD_Growth_HeaderActionEconomy>일일 행동 및 정착지 수용량</TSA_WD_Growth_HeaderActionEconomy>
+  <TSA_WD_Growth_HeaderGrowth>일반 성장 설정</TSA_WD_Growth_HeaderGrowth>
+  <TSA_WD_Growth_HeaderSameTierUpgradeReq>동일 티어 업그레이드 조건</TSA_WD_Growth_HeaderSameTierUpgradeReq>
+  <TSA_WD_Growth_HeaderDefensiveBaselines>방어력 기준치</TSA_WD_Growth_HeaderDefensiveBaselines>
+  <TSA_WD_Growth_T1DefensiveStrength>T1 방어력</TSA_WD_Growth_T1DefensiveStrength>
+  <TSA_WD_Growth_T1DefensiveStrengthTooltip>1티어 정착지의 기본 지역 방어력입니다.</TSA_WD_Growth_T1DefensiveStrengthTooltip>
+  <TSA_WD_Growth_T2DefensiveStrength>T2 방어력</TSA_WD_Growth_T2DefensiveStrength>
+  <TSA_WD_Growth_T2DefensiveStrengthTooltip>2티어 정착지의 기본 지역 방어력입니다.</TSA_WD_Growth_T2DefensiveStrengthTooltip>
+  <TSA_WD_Growth_T3DefensiveStrength>T3 방어력</TSA_WD_Growth_T3DefensiveStrength>
+  <TSA_WD_Growth_T3DefensiveStrengthTooltip>3티어 정착지의 기본 지역 방어력입니다.</TSA_WD_Growth_T3DefensiveStrengthTooltip>
+  <TSA_WD_Growth_T4DefensiveStrength>T4 방어력</TSA_WD_Growth_T4DefensiveStrength>
+  <TSA_WD_Growth_T4DefensiveStrengthTooltip>4티어 정착지의 기본 지역 방어력입니다.</TSA_WD_Growth_T4DefensiveStrengthTooltip>
+  <TSA_WD_Growth_PlayerOutpostDefensiveStrength>플레이어 전초기지 방어력</TSA_WD_Growth_PlayerOutpostDefensiveStrength>
+  <TSA_WD_Growth_PlayerOutpostDefensiveStrengthTooltip>플레이어 전초기지의 기본 지역 방어력입니다 (업그레이드 적용 전).</TSA_WD_Growth_PlayerOutpostDefensiveStrengthTooltip>
+  <TSA_WD_Growth_HeaderIncidents>사건 심각도</TSA_WD_Growth_HeaderIncidents>
+  <TSA_WD_Growth_LocalMaxT1>지역 내 최대 T1 전초기지 수</TSA_WD_Growth_LocalMaxT1>
+  <TSA_WD_Growth_LocalMaxT1Tooltip>추가 확장이 차단되기 전까지 최대 확장 반경 내에 허용되는 T1 정착지의 최대 수량입니다.</TSA_WD_Growth_LocalMaxT1Tooltip>
+  <TSA_WD_Growth_LocalMaxT2>지역 내 최대 T2 마을 수</TSA_WD_Growth_LocalMaxT2>
+  <TSA_WD_Growth_LocalMaxT2Tooltip>최대 확장 반경 내에 허용되는 T2 정착지의 최대 수량입니다.</TSA_WD_Growth_LocalMaxT2Tooltip>
+  <TSA_WD_Growth_LocalMaxT3>지역 내 최대 T3 도시 수</TSA_WD_Growth_LocalMaxT3>
+  <TSA_WD_Growth_LocalMaxT3Tooltip>최대 확장 반경 내에 허용되는 T3 정착지의 최대 수량입니다.</TSA_WD_Growth_LocalMaxT3Tooltip>
+  <TSA_WD_Growth_LocalMaxT4>지역 내 최대 T4 성채 수</TSA_WD_Growth_LocalMaxT4>
+  <TSA_WD_Growth_LocalMaxT4Tooltip>최대 확장 반경 내에 허용되는 T4 정착지의 최대 수량입니다.</TSA_WD_Growth_LocalMaxT4Tooltip>
+  <TSA_WD_Growth_SameTierUpgradeT1>업그레이드에 필요한 T1 이웃 정착지 수</TSA_WD_Growth_SameTierUpgradeT1>
+  <TSA_WD_Growth_SameTierUpgradeT1Tooltip>T1 정착지가 T2로 업그레이드되기 위해 근처에 필요한 동일 세력 T1 정착지의 수입니다.</TSA_WD_Growth_SameTierUpgradeT1Tooltip>
+  <TSA_WD_Growth_SameTierUpgradeT2>업그레이드에 필요한 T2 이웃 정착지 수</TSA_WD_Growth_SameTierUpgradeT2>
+  <TSA_WD_Growth_SameTierUpgradeT2Tooltip>T2 정착지가 T3로 업그레이드되기 위해 근처에 필요한 동일 세력 T2 정착지의 수입니다.</TSA_WD_Growth_SameTierUpgradeT2Tooltip>
+  <TSA_WD_Growth_SameTierUpgradeT3>업그레이드에 필요한 T3 이웃 정착지 수</TSA_WD_Growth_SameTierUpgradeT3>
+  <TSA_WD_Growth_SameTierUpgradeT3Tooltip>T3 정착지가 T4로 업그레이드되기 위해 근처에 필요한 동일 세력 T3 정착지의 수입니다.</TSA_WD_Growth_SameTierUpgradeT3Tooltip>
+  <TSA_WD_Growth_MajorInc>주요 사건 전투력 손실</TSA_WD_Growth_MajorInc>
+  <TSA_WD_Growth_MajorIncTooltip>대재앙 발생 시 손실되는 전투력 수치입니다.</TSA_WD_Growth_MajorIncTooltip>
+  <TSA_WD_Growth_MaxRadius>최대 확장 반경</TSA_WD_Growth_MaxRadius>
+  <TSA_WD_Growth_MaxRadiusTooltip>확장에 허용되는 최대 타일 거리이자 지역 밀도를 계산하는 데 사용되는 반경입니다.</TSA_WD_Growth_MaxRadiusTooltip>
+  <TSA_WD_Growth_MaxSettlements>행성 최대 정착지 수</TSA_WD_Growth_MaxSettlements>
+  <TSA_WD_Growth_MaxSettlementsTooltip>확장이 제한되기 전까지 전 세계에 허용되는 정착지 총합의 최대치입니다. 설정 프리셋 → 성능(200 / 400 / 800)으로도 설정됩니다.</TSA_WD_Growth_MaxSettlementsTooltip>
+  <TSA_WD_Growth_MinRadius>최소 확장 반경</TSA_WD_Growth_MinRadius>
+  <TSA_WD_Growth_MinRadiusTooltip>새 확장 위치를 찾는 데 필요한 최소 타일 거리입니다.</TSA_WD_Growth_MinRadiusTooltip>
+  <TSA_WD_Growth_MinorInc>경미한 사건 전투력 손실</TSA_WD_Growth_MinorInc>
+  <TSA_WD_Growth_MinorIncTooltip>경미한 내부 문제 발생 시 손실되는 전투력 수치입니다.</TSA_WD_Growth_MinorIncTooltip>
+  <TSA_WD_Growth_Reset>이 페이지를 기본값으로 초기화</TSA_WD_Growth_Reset>
+  <TSA_WD_Growth_Roads>도로 설정</TSA_WD_Growth_Roads>
+  <TSA_WD_Growth_Scaling>정착지 규모에 따른 스케일링</TSA_WD_Growth_Scaling>
+  <TSA_WD_Growth_ScalingTooltip>100%일 때 작은 정착지는 매일 더 많은 수동적 전투력을 얻고, 큰 정착지는 더 적게 얻습니다 (규모 곡선만 적용).</TSA_WD_Growth_ScalingTooltip>
+  <TSA_WD_HeaderGeneral>일반 설정</TSA_WD_HeaderGeneral>
+  <TSA_WD_HeaderGenericGarrisons>산업/외지인 세력</TSA_WD_HeaderGenericGarrisons>
+  <TSA_WD_HeaderMisc>기타</TSA_WD_HeaderMisc>
+  <TSA_WD_HeaderInGameOnlySettings>게임 내에서만 사용 가능한 설정 (메인 메뉴 불가)</TSA_WD_HeaderInGameOnlySettings>
+  <TSA_WD_HeaderOutposts>WD 전초기지 및 상단/여행자</TSA_WD_HeaderOutposts>
+  <TSA_WD_HeaderPlayerInteractions>플레이어 수동 상호작용</TSA_WD_HeaderPlayerInteractions>
+  <TSA_WD_HeaderSystem>시스템 동작</TSA_WD_HeaderSystem>
+  <TSA_WD_HeaderTribalGarrisons>부족 세력</TSA_WD_HeaderTribalGarrisons>
+  <TSA_WD_HeaderWorldActions>세계 행동</TSA_WD_HeaderWorldActions>
+  <TSA_WD_OpenAllegianceMatrix>WD 세력 범위 및 관계</TSA_WD_OpenAllegianceMatrix>
+  <TSA_WD_DescAllegianceMatrix>게임 내 전용: 세력 참여 여부(WD 행동, 맵 생성, 이야기꾼) 및 세력 쌍별 관계 설정.</TSA_WD_DescAllegianceMatrix>
+  <TSA_WD_Allegiances_LiveEditWarning>진행 중인 게임의 세력 관계를 실시간으로 편집하고 있습니다. 주의하여 진행하세요!</TSA_WD_Allegiances_LiveEditWarning>
+  <TSA_WD_Allegiances_ResetConfirm>이 항목을 초기화하시겠습니까? 수동 참여 설정과 이야기꾼 오버라이드가 지워집니다.</TSA_WD_Allegiances_ResetConfirm>
+  <TSA_WD_Allegiances_SectionParticipation>WD 관리 세력</TSA_WD_Allegiances_SectionParticipation>
+  <TSA_WD_Allegiances_SectionParticipation_Tooltip>WD 행동을 수행하고, 공격받을 때 WD 정착지 맵 생성을 사용하며, 이야기꾼 습격 규칙을 따를 세력을 선택합니다. 궤도 전용 세력은 활성화할 수 없습니다.</TSA_WD_Allegiances_SectionParticipation_Tooltip>
+  <TSA_WD_Allegiances_SectionDiplomacy>세력 관계</TSA_WD_Allegiances_SectionDiplomacy>
+  <TSA_WD_Allegiances_SectionDiplomacy_Tooltip>세력 쌍 간의 우호도와 관계를 편집합니다. 무작위 WD 외교를 차단하려면 NPC 쌍을 잠그세요.</TSA_WD_Allegiances_SectionDiplomacy_Tooltip>
+  <TSA_WD_FactionCol_Name>세력</TSA_WD_FactionCol_Name>
+  <TSA_WD_FactionCol_WdActions>WD 행동</TSA_WD_FactionCol_WdActions>
+  <TSA_WD_FactionCol_WdActions_Tooltip>이 세력이 습격, 확장, 거래, 방어 시설 구축을 위해 상단을 파견하는 등의 WD 행동을 수행하도록 허용합니다.</TSA_WD_FactionCol_WdActions_Tooltip>
+  <TSA_WD_FactionCol_BaseGen>맵 생성</TSA_WD_FactionCol_BaseGen>
+  <TSA_WD_FactionCol_BaseGen_Tooltip>해당 세력의 정착지를 공격할 때 WD가 맵 생성을 제어하도록 허용합니다. T1 정착지는 작은 마을이 되고, T4 성채는 진정한 요새가 됩니다.</TSA_WD_FactionCol_BaseGen_Tooltip>
+  <TSA_WD_FactionCol_BaseGen_RequiresWdActions>이 세력의 WD 행동이 필요합니다.</TSA_WD_FactionCol_BaseGen_RequiresWdActions>
+  <TSA_WD_FactionCol_NA>해당 없음</TSA_WD_FactionCol_NA>
+  <TSA_WD_FactionCol_StorytellerRaids>이야기꾼</TSA_WD_FactionCol_StorytellerRaids>
+  <TSA_WD_FactionCol_StorytellerRaids_Tooltip>이 세력이 이야기꾼 습격을 발생시킬 수 있는지 여부입니다. 기본값은 비활성화입니다. WD 행동과 이야기꾼 습격을 모두 활성화하여 두 가지 방식 모두로 습격을 받을 수도 있습니다.</TSA_WD_FactionCol_StorytellerRaids_Tooltip>
+  <TSA_WD_StorytellerBlockedRaid_Drop>유효하지 않은 이야기꾼 습격 취소</TSA_WD_StorytellerBlockedRaid_Drop>
+  <TSA_WD_StorytellerBlockedRaid_Swap>이야기꾼 습격을 유효한 세력으로 교체</TSA_WD_StorytellerBlockedRaid_Swap>
+  <TSA_WD_StorytellerBlockedRaid_Tooltip>이야기꾼이 이 목록에서 이야기꾼 습격이 꺼진 세력을 선택했을 때의 동작입니다. 습격을 취소하거나, 이야기꾼 습격이 켜져 있고 바닐라 습격이 가능한 목록 내 다른 세력으로 변경합니다. 여기에 표시되지 않는 숨겨진 세력(메카노이드, 곤충 군체)은 일반적인 이야기꾼 동작을 유지하며 교체 대상으로 사용되지 않습니다. 유효한 목록 내 세력이 없으면 습격은 취소됩니다.</TSA_WD_StorytellerBlockedRaid_Tooltip>
+  <TSA_WD_FactionExclude_Hidden>숨겨진 세력입니다. WD에 참여할 수 없습니다.</TSA_WD_FactionExclude_Hidden>
+  <TSA_WD_FactionExclude_NonHumanlike>기본적으로 꺼져 있습니다. 이 비인간형 세력을 포함하려면 WD 행동을 활성화하세요 (고급).</TSA_WD_FactionExclude_NonHumanlike>
+  <TSA_WD_FactionExclude_NoSettlementWeight>정착지 생성 가중치가 없습니다. 기본적으로 꺼져 있으며, 수동으로 포함하려면 WD 행동을 활성화하세요.</TSA_WD_FactionExclude_NoSettlementWeight>
+  <TSA_WD_FactionExclude_NonSurface>궤도 전용 세력은 World Domination 지표면 시뮬레이션을 사용할 수 없습니다.</TSA_WD_FactionExclude_NonSurface>
+  <TSA_WD_FactionExclude_TradersGuild>상인 길드는 궤도 전용 세력이므로 World Domination 지표면 시뮬레이션을 사용할 수 없습니다.</TSA_WD_FactionExclude_TradersGuild>
+  <TSA_WD_Faction_Defeated>패배함</TSA_WD_Faction_Defeated>
+  <TSA_WD_BtnResetSection>섹션 초기화</TSA_WD_BtnResetSection>
+  <TSA_WD_BtnResetFactionParticipation>참여 설정 초기화</TSA_WD_BtnResetFactionParticipation>
+  <TSA_WD_BtnResetFactionParticipation_Tooltip>수동 WD 행동, 맵 생성, 이야기꾼 오버라이드 및 임의 참여 설정을 지웁니다. 완전히 제외된 세력은 변경되지 않습니다.</TSA_WD_BtnResetFactionParticipation_Tooltip>
+  <TSA_WD_Threat_StorytellerMovedHint>세력별 이야기꾼 습격 규칙이 'WD 세력 범위 및 관계'로 이동했습니다.</TSA_WD_Threat_StorytellerMovedHint>
+  <TSA_WD_AllegianceMatrixInGameOnly>허용된 외교 변경은 게임 플레이 중에만 열 수 있습니다 (메인 메뉴 불가).</TSA_WD_AllegianceMatrixInGameOnly>
+  <TSA_WD_Outpost_MaxTravelStrengthLoss>최대 이동 전투력 손실</TSA_WD_Outpost_MaxTravelStrengthLoss>
+  <TSA_WD_Outpost_MaxTravelStrengthLossTooltip>이동자(습격, 확장, 도로 건설자)가 이동 중에 잃을 수 있는 출발 전투력의 최대 백분율입니다. 초기 전투력의 나머지 비율을 유지하며 소모만으로 소멸하지는 않습니다.</TSA_WD_Outpost_MaxTravelStrengthLossTooltip>
+  <TSA_WD_Caravans_AttritionRestGate>중/후반 이동 소모 휴식</TSA_WD_Caravans_AttritionRestGate>
+  <TSA_WD_Caravans_AttritionRestGateTooltip>중반 또는 후반 고조가 활성화되어 있을 때(또는 항상), 도보 이동자가 소모로 인해 휴식 하한선에 도달하면 정지하여 재개 비율까지 회복한 후 이동을 재개합니다. 예측 및 습격 판정은 최소한 이 하한선을 기준으로 합니다. 쉬움 난이도 프리셋에서는 '안 함'으로 설정됩니다.</TSA_WD_Caravans_AttritionRestGateTooltip>
+  <TSA_WD_Caravans_AttritionRestMinRatio>소모 휴식 전투력 하한선</TSA_WD_Caravans_AttritionRestMinRatio>
+  <TSA_WD_Caravans_AttritionRestMinRatioTooltip>휴식을 유발하고 소모 예측의 하한선이 되는 출발 전투력의 비율입니다 (기본값 75%). 전투, 함정, 오염으로 인해 실제 전투력이 이보다 더 낮아질 수는 있습니다.</TSA_WD_Caravans_AttritionRestMinRatioTooltip>
+  <TSA_WD_Caravans_AttritionRestResumeRatio>휴식 후 이동 재개 전투력</TSA_WD_Caravans_AttritionRestResumeRatio>
+  <TSA_WD_Caravans_AttritionRestResumeRatioTooltip>휴식 중인 이동자가 이동을 재개하는 출발 전투력의 비율입니다 (기본값 95%). 휴식 하한선 이상이어야 합니다.</TSA_WD_Caravans_AttritionRestResumeRatioTooltip>
+  <TSA_WD_Caravans_AttritionRestRegen>휴식 시 시간당 회복량</TSA_WD_Caravans_AttritionRestRegen>
+  <TSA_WD_Caravans_AttritionRestRegenTooltip>휴식 중 매시간 회복되는 출발 전투력의 비율입니다 (기본값 2% → 75%에서 95%까지 약 10시간 소요).</TSA_WD_Caravans_AttritionRestRegenTooltip>
+  <TSA_WD_Caravans_AttritionRestFireGrace>피격 후 휴식 쿨다운 (일)</TSA_WD_Caravans_AttritionRestFireGrace>
+  <TSA_WD_Caravans_AttritionRestFireGraceTooltip>박격포, 대전차(AT), 대공포에 피격된 후, 이동자는 이 일수 동안 휴식을 시작하지 않습니다 (기본값 0.5일). 휴식 중 피격당하면 휴식이 즉시 취소됩니다.</TSA_WD_Caravans_AttritionRestFireGraceTooltip>
+  <TSA_WD_Caravans_AttritionRestNearDest>목적지 근처 휴식 건너뛰기 (일)</TSA_WD_Caravans_AttritionRestNearDest>
+  <TSA_WD_Caravans_AttritionRestNearDestTooltip>남은 이동 시간이 이 일수 이하이면 휴식을 시작하지 않습니다 (기본값 0.1일). 소모는 여전히 휴식 비율 하한선에서 멈춥니다.</TSA_WD_Caravans_AttritionRestNearDestTooltip>
+  <TSA_WD_Caravans_OnlyWaterIfNoLandPath>이동자: 육로가 없을 때만 수역 건너기</TSA_WD_Caravans_OnlyWaterIfNoLandPath>
+  <TSA_WD_Caravans_OnlyWaterIfNoLandPathTip>활성화 시, WD 이동자는 일반 세계 경로를 먼저 이용하고 실패할 경우에만 수역 이동 경로를 이용합니다. 비활성화 시 두 경로를 모두 비교하여 더 빠른 경로를 이용합니다 (아래와 동일한 비용 단위 사용).</TSA_WD_Caravans_OnlyWaterIfNoLandPathTip>
+  <TSA_WD_Caravans_WaterMovementDifficulty>이동자: 수역 타일 이동 비용</TSA_WD_Caravans_WaterMovementDifficulty>
+  <TSA_WD_Caravans_WaterMovementDifficultyTip>이동자가 물로 덮인 세계 타일에 진입할 때 적용되는 경로 비용 단위입니다 (바닐라 세계 이동 척도). 경로 비용, 이동 시간, 소모 추정에 사용됩니다. 낮을수록 빠릅니다.</TSA_WD_Caravans_WaterMovementDifficultyTip>
+  <TSA_WD_Caravans_WaterPathThreshold>수역 경로: 육로가 다음보다 짧으면 건너뛰기 (일)</TSA_WD_Caravans_WaterPathThreshold>
+  <TSA_WD_Caravans_WaterPathThresholdTip>육로 전용 경로가 존재하고 소요 일수가 이 기준값 미만이면, 연산 비용이 큰 수역 경로 탐색을 완전히 건너뜁니다. 항상 수역 경로를 계산하려면 0으로 설정하세요. 값이 높을수록 성능이 향상되지만 가끔 더 빠른 수역 지름길을 놓칠 수 있습니다.</TSA_WD_Caravans_WaterPathThresholdTip>
+  <TSA_WD_ModUpdated>World Domination 모드가 {0} 버전으로 업데이트되었습니다.\n변경 내역을 확인하려면 "열기"를 클릭하세요.</TSA_WD_ModUpdated>
+  <TSA_WD_ShowUpdatePopups>모드 업데이트 팝업 표시</TSA_WD_ShowUpdatePopups>
+  <TSA_WD_ShowUpdatePopups_Tooltip>활성화 시, 이 모드가 새 버전으로 업데이트된 후 맵을 불러올 때 작은 알림창이 한 번 나타납니다.</TSA_WD_ShowUpdatePopups_Tooltip>
+  <TSA_WD_WorldMapOverlayHoldKey>세계 지도 오버레이 고정 키</TSA_WD_WorldMapOverlayHoldKey>
+  <TSA_WD_WorldMapOverlayHoldKey_Tooltip>이 키를 누른 상태에서 A를 누르면 아군 폰, X는 WD 메인 탭, S는 세계 현황 통계, D는 외교, Y는 수감자, F는 전초기지 개요, G는 활동 중인 여행자, V는 모든 장비 창을 엽니다. 세계 지도에서는 1–7을 눌러 WD 오버레이(건설 제한 타일, 비옥도, 야생동물, 어류, 채굴, 이동, 오염도)를 전환하거나, Q/W/E/R/T를 눌러 관계 강조, 플레이어 강조, 정착지 등급 라벨, 도로 차단물 및 함정, 전초기지 라벨을 전환할 수 있습니다.</TSA_WD_WorldMapOverlayHoldKey_Tooltip>
+  <TSA_WD_VerboseLogging>상세 로그 기록</TSA_WD_VerboseLogging>
+  <TSA_WD_VerboseLogging_Tooltip>활성화하면 로그에 추가 상관관계 진단 내역([WD] 및 [WD Perf])을 기록합니다(예: 식량 정산, 경로 탐색, 위협 갱신, 세계 생성 시 정착지 재배치 등). 버벅임이나 배치 문제를 진단할 때 사용하세요.</TSA_WD_VerboseLogging_Tooltip>
+  <TSA_WD_UpdatePopup_Open>열기</TSA_WD_UpdatePopup_Open>
+  <TSA_WD_UpdatePopup_Close>닫기</TSA_WD_UpdatePopup_Close>
+  <TSA_WD_UpdatePopup_Disable>다시 보지 않기</TSA_WD_UpdatePopup_Disable>
+  <TSA_WD_UpdatePopup_ViewLog>업데이트 내역 보기</TSA_WD_UpdatePopup_ViewLog>
+  <TSA_WD_UpdateLog_Title>World Domination {0}: {1}</TSA_WD_UpdateLog_Title>
+  <TSA_WD_UpdateLog_Prev>&lt; 이전 버전</TSA_WD_UpdateLog_Prev>
+  <TSA_WD_UpdateLog_Next>다음 버전 &gt;</TSA_WD_UpdateLog_Next>
+  <TSA_WD_UpdateLog_Current>현재 버전</TSA_WD_UpdateLog_Current>
+  <TSA_WD_UpdateLog_Older>이전 버전</TSA_WD_UpdateLog_Older>
+  <TSA_WD_UpdateLog_Newer>최신 버전</TSA_WD_UpdateLog_Newer>
+  <TSA_WD_UpdateLog_Oldest>최초 버전</TSA_WD_UpdateLog_Oldest>
+  <TSA_WD_UpdateLog_EntryListHeader>모든 업데이트</TSA_WD_UpdateLog_EntryListHeader>
+  <TSA_WD_UpdateLog_ReleaseDate>출시일: {0}</TSA_WD_UpdateLog_ReleaseDate>
+  <TSA_WD_Outpost_ReqBiome>전초기지 유형별 적합 생태계 필요</TSA_WD_Outpost_ReqBiome>
+  <TSA_WD_Outpost_ReqBiome_Tooltip>비활성화하면 전초기지 유형에 일반적으로 생태계 제한이 있더라도 모든 생태계에 건설할 수 있습니다.</TSA_WD_Outpost_ReqBiome_Tooltip>
+  <TSA_WD_Outpost_ReqFertility>농업 전초기지에 비옥한 타일 필요</TSA_WD_Outpost_ReqFertility>
+  <TSA_WD_Outpost_ReqFertility_Tooltip>비활성화하면 비옥도가 낮거나 물로 덮인 타일에도 농업/벌목 전초기지를 건설할 수 있습니다.</TSA_WD_Outpost_ReqFertility_Tooltip>
+  <TSA_WD_Outpost_PollutionEcologyPenalty>오염도로 인한 비옥도, 야생동물, 어류 감소</TSA_WD_Outpost_PollutionEcologyPenalty>
+  <TSA_WD_Outpost_PollutionEcologyPenaltyTooltip>활성화하면 세계 타일의 농업 비옥도, 야생동물 개체수, 어류 자원량에 (1 - 오염도)가 곱해집니다. 예: 오염도 20% 시 해당 수치가 20% 감소합니다. 채굴은 영향을 받지 않습니다.</TSA_WD_Outpost_PollutionEcologyPenaltyTooltip>
+  <TSA_WD_Outpost_ReqAnimals>사냥 전초기지에 풍부한 야생동물 필요</TSA_WD_Outpost_ReqAnimals>
+  <TSA_WD_Outpost_ReqAnimals_Tooltip>비활성화하면 야생동물이 극히 적거나 물로 덮인 타일에도 사냥 전초기지를 건설할 수 있습니다.</TSA_WD_Outpost_ReqAnimals_Tooltip>
+  <TSA_WD_Outpost_ReqFish>어업 전초기지에 풍부한 어류 자원 필요</TSA_WD_Outpost_ReqFish>
+  <TSA_WD_Outpost_ReqFish_Tooltip>비활성화하면 어류 자원이 적은 해안 타일에도 어업 전초기지를 건설할 수 있습니다(해안 조건은 유지됨).</TSA_WD_Outpost_ReqFish_Tooltip>
+  <TSA_WD_Outpost_ReqMining>채굴 전초기지에 언덕/산지 지형 필요</TSA_WD_Outpost_ReqMining>
+  <TSA_WD_Outpost_ReqMining_Tooltip>비활성화하면 언덕이 없는 평지 타일에도 채굴 전초기지를 건설할 수 있습니다.</TSA_WD_Outpost_ReqMining_Tooltip>
+  <TSA_WD_Outpost_ReqResearch>고급 전초기지에 선행 연구 필요</TSA_WD_Outpost_ReqResearch>
+  <TSA_WD_Outpost_ReqResearch_Tooltip>비활성화하면 완료된 연구 프로젝트가 필요한 전초기지도 연구 없이 건설할 수 있습니다.</TSA_WD_Outpost_ReqResearch_Tooltip>
+  <TSA_WD_Outpost_ReqNearby>근처 중립/동맹 정착지 필요</TSA_WD_Outpost_ReqNearby>
+  <TSA_WD_Outpost_ReqNearby_Tooltip>비활성화하면 주변 정착지 요구 조건이 있는 전초기지도 고립된 지역에 건설할 수 있습니다.</TSA_WD_Outpost_ReqNearby_Tooltip>
+  <TSA_WD_Outpost_ReqMinPawns>전초기지 건설에 필요한 최소 폰 수 요구</TSA_WD_Outpost_ReqMinPawns>
+  <TSA_WD_Outpost_ReqMinPawns_Tooltip>비활성화하면 상단에 소속된 폰 수가 전초기지 유형의 기본 요구치보다 적어도 전초기지를 건설할 수 있습니다.</TSA_WD_Outpost_ReqMinPawns_Tooltip>
+  <TSA_WD_Outpost_ReqMinSkill>최소 누적 능력치 요구</TSA_WD_Outpost_ReqMinSkill>
+  <TSA_WD_Outpost_ReqMinSkill_Tooltip>비활성화하면 상단과 전초기지가 건설 및 지속 생산 시의 최소 누적 능력치 요구 조건을 무시합니다.</TSA_WD_Outpost_ReqMinSkill_Tooltip>
+  <TSA_WD_Outpost_ReqCost>건설 자원 비용 필요</TSA_WD_Outpost_ReqCost>
+  <TSA_WD_Outpost_ReqCost_Tooltip>비활성화하면 상단이 전초기지를 건설할 때 목재나 지정된 자원 비용을 지불하지 않아도 됩니다.</TSA_WD_Outpost_ReqCost_Tooltip>
+  <TSA_WD_Caravans_HeaderTravel>이동 및 소모율</TSA_WD_Caravans_HeaderTravel>
+  <TSA_WD_Caravans_HeaderWaterTravel>수상 이동</TSA_WD_Caravans_HeaderWaterTravel>
+  <TSA_WD_Caravans_AllowTravelOverWater>상단의 수상 이동 허용</TSA_WD_Caravans_AllowTravelOverWater>
+  <TSA_WD_Caravans_AllowTravelOverWaterTip>활성화하면 WD 여행자가 물로 덮인 타일을 건너는 특수 경로 탐색을 사용할 수 있습니다(아래 옵션 참조). 비활성화하면 기본 세계 경로만 사용하며 수상 경로 탐색을 실행하지 않습니다. 설정 사전 설정 → 성능에서도 관리할 수 있습니다.</TSA_WD_Caravans_AllowTravelOverWaterTip>
+  <TSA_WD_Caravans_T3T4DropPodsOverWater>3단계 및 4단계는 수역 통과 시 항상 수송 포드 사용</TSA_WD_Caravans_T3T4DropPodsOverWater>
+  <TSA_WD_Caravans_T3T4DropPodsOverWaterTip>3단계/4단계 습격 부대에 육로가 없을 경우, 수상 경로 탐색 대신 수송 포드 습격으로 발사합니다(일반 수송 포드 소모율 및 대공 사격 적용). 비활성화하면 1단계/2단계처럼 물 위를 걸어서 이동합니다. 육로로 연결된 습격이나 비습격 여행자에게는 영향을 주지 않습니다. 기본값은 켜짐입니다.</TSA_WD_Caravans_T3T4DropPodsOverWaterTip>
+  <TSA_WD_Caravans_HeaderTrader>무역 상단</TSA_WD_Caravans_HeaderTrader>
+  <TSA_WD_Caravans_HeaderOutpostDelivery>전초기지 보급 상단</TSA_WD_Caravans_HeaderOutpostDelivery>
+  <TSA_WD_Caravans_HeaderStoryteller>이야기꾼 무역 상단</TSA_WD_Caravans_HeaderStoryteller>
+  <TSA_WD_Caravans_Cost>무역 상단 파견 전투력 비용</TSA_WD_Caravans_Cost>
+  <TSA_WD_Caravans_CostTip>무역 상단을 파견할 때 출발 정착지가 소모하는 전투력입니다.</TSA_WD_Caravans_CostTip>
+  <TSA_WD_Caravans_SenderReward>도착 시 출발 정착지 보상</TSA_WD_Caravans_SenderReward>
+  <TSA_WD_Caravans_SenderRewardTip>무역 상단이 성공적으로 도착했을 때 출발 정착지에 지급되는 전투력입니다.</TSA_WD_Caravans_SenderRewardTip>
+  <TSA_WD_Caravans_ReceiverReward>도착 시 도착 정착지 보상</TSA_WD_Caravans_ReceiverReward>
+  <TSA_WD_Caravans_ReceiverRewardTip>WD 무역 상단이 도착했을 때 도착 정착지에 지급되는 전투력입니다. 플레이어 전초기지는 대상이 될 수 없습니다.</TSA_WD_Caravans_ReceiverRewardTip>
+  <TSA_WD_Caravans_Goodwill>도착 시 상호 우호도</TSA_WD_Caravans_Goodwill>
+  <TSA_WD_Caravans_GoodwillTip>무역 상단이 성공적으로 도착했을 때 양 세력이 획득하는 우호도입니다.</TSA_WD_Caravans_GoodwillTip>
+  <TSA_WD_Caravans_HeaderTraderTierUps>무역 상단을 통한 등급 상승 (최대치 도달 시)</TSA_WD_Caravans_HeaderTraderTierUps>
+  <TSA_WD_Caravans_TierUpT1ToT2>1단계에서 2단계 승급 확률</TSA_WD_Caravans_TierUpT1ToT2>
+  <TSA_WD_Caravans_TierUpT1ToT2Tip>WD 무역 성공 후 보상 전투력이 정착지의 현재 단계 최대치에 도달했을 경우, 이 확률에 따라 즉시 2단계로 승급합니다. 일반적인 등급 성장에 필요한 동일 등급 이웃 정착지 조건은 적용되지 않습니다.</TSA_WD_Caravans_TierUpT1ToT2Tip>
+  <TSA_WD_Caravans_TierUpT2ToT3>2단계에서 3단계 승급 확률</TSA_WD_Caravans_TierUpT2ToT3>
+  <TSA_WD_Caravans_TierUpT2ToT3Tip>1단계→2단계와 동일하게 작동하며, 2단계 전투력 상한에 도달했을 때 3단계로 승급할 확률입니다.</TSA_WD_Caravans_TierUpT2ToT3Tip>
+  <TSA_WD_Caravans_TierUpT3ToT4>3단계에서 4단계 승급 확률</TSA_WD_Caravans_TierUpT3ToT4>
+  <TSA_WD_Caravans_TierUpT3ToT4Tip>1단계→2단계와 동일하게 작동하며, 3단계 전투력 상한에 도달했을 때 4단계로 승급할 확률입니다.</TSA_WD_Caravans_TierUpT3ToT4Tip>
+  <TSA_WD_Caravans_HeaderTraderEscort>무역 상단 호위 전투력</TSA_WD_Caravans_HeaderTraderEscort>
+  <TSA_WD_Caravans_EscortFloorT1>호위 전투력 최저치 (1단계 출발지)</TSA_WD_Caravans_EscortFloorT1>
+  <TSA_WD_Caravans_EscortFloorT1Tip>1단계 정착지에서 파견한 무역 상단이 전투/요격 시 갖는 최소 전투력입니다(출발 시 차감된 고정 전투력 비용과 무관). 매복 및 요격 시 무역 상단이 일방적인 공짜 목표가 되지 않고 의미 있는 표적이 되도록 보장합니다.</TSA_WD_Caravans_EscortFloorT1Tip>
+  <TSA_WD_Caravans_EscortFloorT2>호위 전투력 최저치 (2단계 출발지)</TSA_WD_Caravans_EscortFloorT2>
+  <TSA_WD_Caravans_EscortFloorT2Tip>1단계 최저치와 동일하며, 2단계 정착지에서 파견한 무역 상단에 적용됩니다.</TSA_WD_Caravans_EscortFloorT2Tip>
+  <TSA_WD_Caravans_EscortFloorT3>호위 전투력 최저치 (3단계 출발지)</TSA_WD_Caravans_EscortFloorT3>
+  <TSA_WD_Caravans_EscortFloorT3Tip>1단계 최저치와 동일하며, 3단계 정착지에서 파견한 무역 상단에 적용됩니다.</TSA_WD_Caravans_EscortFloorT3Tip>
+  <TSA_WD_Caravans_EscortFloorT4>호위 전투력 최저치 (4단계 출발지)</TSA_WD_Caravans_EscortFloorT4>
+  <TSA_WD_Caravans_EscortFloorT4Tip>1단계 최저치와 동일하며, 4단계 정착지에서 파견한 무역 상단에 적용됩니다.</TSA_WD_Caravans_EscortFloorT4Tip>
+  <TSA_WD_Caravans_EscortRecentInterceptWindow>상단 손실 후 전력 호위 지속 기간 (일)</TSA_WD_Caravans_EscortRecentInterceptWindow>
+  <TSA_WD_Caravans_EscortRecentInterceptWindowTip>정착지의 무역 상단 중 하나가 매복, 신속 대응군 또는 박격포 사격으로 파괴되었을 때, 해당 정착지가 지정된 게임 일수 동안 이후 파견하는 무역 상단에 고정 최저치 대신 해당 정착지의 공격 등급 최대 전투력을 부여하여 동일 보급로의 반복 약탈을 방지합니다. 0으로 설정하면 비활성화됩니다.</TSA_WD_Caravans_EscortRecentInterceptWindowTip>
+  <TSA_WD_Caravans_PlayerColonyTraderCooldown>플레이어 정착지행 WD 무역 상단 최소 간격 (일)</TSA_WD_Caravans_PlayerColonyTraderCooldown>
+  <TSA_WD_Caravans_PlayerColonyTraderCooldownTip>지도에 있는 각 플레이어 정착지는 직전 상단이 출발한 시점(도착 시점이 아님)으로부터 지정된 게임 일수가 지난 후에야 다시 WD 무역 상단의 목적지로 선택될 수 있습니다. 정착지별로 계산됩니다. 제한을 두지 않으려면 0으로 설정하세요.</TSA_WD_Caravans_PlayerColonyTraderCooldownTip>
+  <TSA_WD_Caravans_WindowSubtitle>고급: 이동, WD 무역 상단, 보급 비용</TSA_WD_Caravans_WindowSubtitle>
+  <TSA_WD_Caravans_BlockStorytellerTraders>이야기꾼 무역 상단 비활성화</TSA_WD_Caravans_BlockStorytellerTraders>
+  <TSA_WD_Caravans_BlockStorytellerTradersTip>활성화하면 이야기꾼이 생성하는 무역 상단이 차단됩니다. WD 무역 상단은 정상적으로 허용됩니다.</TSA_WD_Caravans_BlockStorytellerTradersTip>
+  <TSA_WD_Caravans_Reset>이 페이지 설정을 기본값으로 초기화</TSA_WD_Caravans_Reset>
+  <TSA_WD_ShowAdvanced>고급 설정 표시</TSA_WD_ShowAdvanced>
+  <TSA_WD_ShowAdvanced_Tooltip>추가 메뉴(NPC 포병, 건설 프로젝트, 채굴 기준치, 공작, 기만 정보, 세계 생성, 주둔군) 및 각 설정 창의 상세 옵션을 표시합니다.</TSA_WD_ShowAdvanced_Tooltip>
+  <TSA_WD_Stats_H_Faction>세력명</TSA_WD_Stats_H_Faction>
+  <TSA_WD_Stats_FactionDefeated>멸망함</TSA_WD_Stats_FactionDefeated>
+  <TSA_WD_Stats_FactionDefeatedTip>이 세력은 '외교, 버프 및 디버프' 모드 설정 메뉴의 일일 반란 확률에 따라 재기할 수 있습니다.</TSA_WD_Stats_FactionDefeatedTip>
+  <TSA_WD_Stats_H_Influence>총합</TSA_WD_Stats_H_Influence>
+  <TSA_WD_Stats_H_Status>버프 및 디버프</TSA_WD_Stats_H_Status>
+  <TSA_WD_Stats_H_T1>1단계</TSA_WD_Stats_H_T1>
+  <TSA_WD_Stats_H_T2>2단계</TSA_WD_Stats_H_T2>
+  <TSA_WD_Stats_H_T3>3단계</TSA_WD_Stats_H_T3>
+  <TSA_WD_Stats_H_T4>4단계</TSA_WD_Stats_H_T4>
+  <TSA_WD_Stats_TierHeaderTip_Npc>이 열의 NPC 정착지는 실제 {0}단계 거점입니다.</TSA_WD_Stats_TierHeaderTip_Npc>
+  <TSA_WD_Stats_TierHeaderTip_Player>플레이어 세력의 전초기지는 전투력(공격력 + 방어력 합산)에 따라 이 열들로 분류됩니다. 고정된 정착지 단계를 갖지 않습니다.</TSA_WD_Stats_TierHeaderTip_Player>
+  <TSA_WD_Stats_TierHeaderTip_Bands>전초기지 전투력 구간:\n1단계: {0} 미만\n2단계: {1}–{2}\n3단계: {3}–{4}\n4단계: {5}+</TSA_WD_Stats_TierHeaderTip_Bands>
+  <TSA_WD_Stats_TierHeaderTip_ThisColumn>현재 열: {0}단계 ({1})</TSA_WD_Stats_TierHeaderTip_ThisColumn>
+  <TSA_WD_Stats_TierHeader_BandUnder>{0} 미만</TSA_WD_Stats_TierHeader_BandUnder>
+  <TSA_WD_Stats_TierHeader_BandRange>{0}–{1}</TSA_WD_Stats_TierHeader_BandRange>
+  <TSA_WD_Stats_TierHeader_BandAtLeast>{0}+</TSA_WD_Stats_TierHeader_BandAtLeast>
+  <TSA_WD_Stats_H_Threat>공격 가능 공격력</TSA_WD_Stats_H_Threat>
+  <TSA_WD_Stats_Title>세계 세력 통계</TSA_WD_Stats_Title>
+  <TSA_WD_Stats_WorldTotals>총합</TSA_WD_Stats_WorldTotals>
+  <TSA_WD_Stats_RowTierTip>이 세력의 {0}단계 현황입니다.\n\n정착지: {1}\n전투력: {2}\n전 세계 {0}단계 전투력 점유율: {3}</TSA_WD_Stats_RowTierTip>
+  <TSA_WD_Stats_RowTotalsTip>이 세력의 총합입니다.\n\n정착지: {0}\n전투력: {1}\n전 세계 전투력 점유율: {2}</TSA_WD_Stats_RowTotalsTip>
+  <TSA_WD_Stats_FooterTierTip>전 세계 {0}단계 총합입니다.\n\n정착지: {1}\n전투력: {2}</TSA_WD_Stats_FooterTierTip>
+  <TSA_WD_Stats_FooterTotalsTip>모든 단계의 전 세계 총합입니다.\n\n정착지: {0}\n전투력: {1}</TSA_WD_Stats_FooterTotalsTip>
+  <TSA_WD_WorldDominationWindows>World Domination 창</TSA_WD_WorldDominationWindows>
+  <TSA_WD_WorldMap_MenuTooltip>World Domination 지도 도구</TSA_WD_WorldMap_MenuTooltip>
+  <TSA_WD_WorldMap_HotkeyLine>단축키: {0}</TSA_WD_WorldMap_HotkeyLine>
+  <TSA_WD_WorldMap_ToggleTierTexts>정착지 등급 라벨</TSA_WD_WorldMap_ToggleTierTexts>
+  <TSA_WD_WorldMap_ToggleTierTextsTip>NPC 정착지 위에 표시되는 T1–T4 라벨을 켜거나 끕니다.</TSA_WD_WorldMap_ToggleTierTextsTip>
+  <TSA_WD_WorldMap_ToggleRoadBlocksAndTraps>도로 차단물, 함정 및 대전차</TSA_WD_WorldMap_ToggleRoadBlocksAndTraps>
+  <TSA_WD_WorldMap_ToggleRoadBlocksAndTrapsTip>세계 지도에 표시되는 도로 차단물, 덫/마름쇠 및 대전차 포탑 아이콘을 켜거나 끕니다. 시야를 너무 멀리 축소하면 오버레이 아이콘이 숨겨집니다.</TSA_WD_WorldMap_ToggleRoadBlocksAndTrapsTip>
+  <TSA_WD_WorldMap_ToggleFortifyBlacklist>NPC 요새화 금지 타일</TSA_WD_WorldMap_ToggleFortifyBlacklist>
+  <TSA_WD_WorldMap_ToggleFortifyBlacklistTip>동맹(활성화된 경우 중립 포함)이 새 도로 차단물이나 함정을 설치할 수 없도록 지정된 타일을 표시합니다. 기존 요새는 '요새 철거'를 사용할 때까지 유지됩니다. 지정/해제 도구를 사용할 때도 표시됩니다.</TSA_WD_WorldMap_ToggleFortifyBlacklistTip>
+  <TSA_WD_WorldMap_NoFortifyMarks>요새화 금지 표시</TSA_WD_WorldMap_NoFortifyMarks>
+  <TSA_WD_WorldMap_NoFortifyMarksTip>표시를 확인하거나 클릭하여 차단 타일을 하나씩 추가 및 제거합니다.</TSA_WD_WorldMap_NoFortifyMarksTip>
+  <TSA_WD_WorldMap_AddBlockedTiles>NPC 요새화 금지 타일 지정</TSA_WD_WorldMap_AddBlockedTiles>
+  <TSA_WD_WorldMap_AddBlockedTilesTip>타일을 하나씩 클릭하여 지정합니다. 동맹(활성화된 경우 중립 포함)은 해당 위치에 새 요새를 건설할 수 없습니다. 우클릭이나 Esc 키를 눌러 종료합니다.</TSA_WD_WorldMap_AddBlockedTilesTip>
+  <TSA_WD_WorldMap_RemoveBlockedTiles>NPC 요새화 금지 타일 해제</TSA_WD_WorldMap_RemoveBlockedTiles>
+  <TSA_WD_WorldMap_RemoveBlockedTilesTip>지정된 타일을 하나씩 클릭하여 해제합니다. 우클릭이나 Esc 키를 눌러 종료합니다.</TSA_WD_WorldMap_RemoveBlockedTilesTip>
+  <TSA_WD_WorldMap_BlockedTilesDisabledTip>세계 행동 → NPC 요새화에서 '동맹의 요새 건설 금지 타일 지정'을 활성화하세요.</TSA_WD_WorldMap_BlockedTilesDisabledTip>
+  <TSA_WD_WorldMap_ToggleRelationUnderlays>관계 강조</TSA_WD_WorldMap_ToggleRelationUnderlays>
+  <TSA_WD_WorldMap_ToggleRelationUnderlaysTip>정착지와 여행자 아래에 반투명 원판을 표시합니다(적대: 빨간색, 중립: 회색, 동맹: 초록색). 보라색은 플레이어 정착지나 전초기지를 노리는 적 습격 상단입니다. 크기는 줌에 따라 조절되며, 정착지 등급 라벨과 동일하게 멀리 축소하면 숨겨집니다.\n\n별 표시는 WD 퀘스트 목표를 나타냅니다.</TSA_WD_WorldMap_ToggleRelationUnderlaysTip>
+  <TSA_WD_WorldMap_ToggleRelationUnderlaysRelative>선택 대상 기준 관계 표시</TSA_WD_WorldMap_ToggleRelationUnderlaysRelative>
+  <TSA_WD_WorldMap_ToggleRelationUnderlaysRelativeTip>활성화 시(관계 강조가 켜져 있을 때), 선택한 NPC 정착지나 여행자를 기준으로 적대/중립/동맹 원판을 표시합니다. 유효한 선택 대상이 없으면 평소처럼 플레이어 정착지를 기준으로 표시합니다. 보라색 습격 경고는 플레이어를 향한 위협을 기준으로 유지됩니다.</TSA_WD_WorldMap_ToggleRelationUnderlaysRelativeTip>
+  <TSA_WD_WorldMap_TogglePlayerUnderlays>플레이어 강조</TSA_WD_WorldMap_TogglePlayerUnderlays>
+  <TSA_WD_WorldMap_TogglePlayerUnderlaysTip>플레이어의 정착지, 전초기지, 상단 및 여행자 아래에 반투명 청록색 원판을 표시합니다. 크기는 줌에 따라 조절되며, 정착지 등급 라벨과 동일하게 멀리 축소하면 숨겨집니다. 별 표시는 해당 전초기지나 정착지가 적 습격 상단의 표적이 되었음을 의미합니다.</TSA_WD_WorldMap_TogglePlayerUnderlaysTip>
+  <TSA_WD_WorldMap_OutpostLabels>전초기지 라벨</TSA_WD_WorldMap_OutpostLabels>
+  <TSA_WD_WorldMap_OutpostLabelsTip>플레이어 전초기지 위에 현재 식량, 현재 전투력, 전초기지 이름, 습격 대기시간을 표시하거나 표시하지 않습니다.</TSA_WD_WorldMap_OutpostLabelsTip>
+  <TSA_WD_OutpostWorldMapLabel_Off>끄기</TSA_WD_OutpostWorldMapLabel_Off>
+  <TSA_WD_OutpostWorldMapLabel_Name>이름</TSA_WD_OutpostWorldMapLabel_Name>
+  <TSA_WD_OutpostWorldMapLabel_NameTip>전초기지 이름을 표시합니다.</TSA_WD_OutpostWorldMapLabel_NameTip>
+  <TSA_WD_OutpostWorldMapLabel_Food>식량</TSA_WD_OutpostWorldMapLabel_Food>
+  <TSA_WD_OutpostWorldMapLabel_FoodTip>현재/최대 식량 및 일일 순 변화량을 표시합니다.</TSA_WD_OutpostWorldMapLabel_FoodTip>
+  <TSA_WD_OutpostWorldMapLabel_Strength>전투력</TSA_WD_OutpostWorldMapLabel_Strength>
+  <TSA_WD_OutpostWorldMapLabel_StrengthTip>현재/최대 전투력 및 일일 순 변화량을 표시합니다.</TSA_WD_OutpostWorldMapLabel_StrengthTip>
+  <TSA_WD_OutpostWorldMapLabel_RaidCooldown>습격 대기시간</TSA_WD_OutpostWorldMapLabel_RaidCooldown>
+  <TSA_WD_OutpostWorldMapLabel_RaidCooldownTip>전초기지가 습격을 받을 수 있는지 여부 또는 대기시간이 얼마나 남았는지 표시합니다.</TSA_WD_OutpostWorldMapLabel_RaidCooldownTip>
+  <TSA_WD_WorldMap_Raidable>습격 가능</TSA_WD_WorldMap_Raidable>
+  <TSA_WD_WorldMap_RaidProtectionDays>{0}일</TSA_WD_WorldMap_RaidProtectionDays>
+  <TSA_WD_WorldMap_OutpostSimulation>전초기지 건설 시뮬레이션</TSA_WD_WorldMap_OutpostSimulation>
+  <TSA_WD_WorldMap_OutpostSimulationTip>세계 타일을 클릭하여 해당 위치에 전초기지를 건설할 때의 조건을 미리 확인합니다(예: 농업 전초기지에 충분한 비옥도인지 여부). 전초기지별 자원 비용도 표시되므로 자원이 부족해 상단이 헛걸음하는 일을 방지합니다.</TSA_WD_WorldMap_OutpostSimulationTip>
+  <TSA_WD_WorldMap_SectionProductivityOverlays>-- 세계 타일 오버레이 --</TSA_WD_WorldMap_SectionProductivityOverlays>
+  <TSA_WD_WorldMap_ToggleActivated>{0} 활성화됨</TSA_WD_WorldMap_ToggleActivated>
+  <TSA_WD_WorldMap_ToggleDeactivated>{0} 비활성화됨</TSA_WD_WorldMap_ToggleDeactivated>
+  <TSA_WD_WorldMap_ProductivityOverlayNotifyLabel>{0} 오버레이</TSA_WD_WorldMap_ProductivityOverlayNotifyLabel>
+  <TSA_WD_WorldMap_OutpostLabelsNotify>전초기지 라벨: {0}</TSA_WD_WorldMap_OutpostLabelsNotify>
+  <TSA_WD_WorldMap_OverlayFertility>비옥도</TSA_WD_WorldMap_OverlayFertility>
+  <TSA_WD_WorldMap_OverlayFertilityTip>커서 주변의 타일 비옥도를 표시합니다. 농장 및 목축에 유용합니다.\n\n색상 (마우스 올림 %):\n• 빨간색: 0–35% (낮음)\n• 주황/노란색: 36–70%\n• 초록색: 71–100%\n• 보라색: 100% 초과 (최상, 변형 요인으로 더 높아질 수 있음)\n\n타일 오버레이는 한 번에 하나만 활성화할 수 있습니다. 다시 클릭하면 꺼집니다.</TSA_WD_WorldMap_OverlayFertilityTip>
+  <TSA_WD_WorldMap_OverlayAnimalAbundance>야생동물 개체수</TSA_WD_WorldMap_OverlayAnimalAbundance>
+  <TSA_WD_WorldMap_OverlayAnimalAbundanceTip>커서 주변의 야생동물 개체수를 표시합니다. 사냥 전초기지에 유용합니다.\n\n색상 (마우스 올림 %):\n• 빨간색: 0–35% (낮음)\n• 주황/노란색: 36–70%\n• 초록색: 71–100%\n• 보라색: 100% 초과 (최상, 변형 요인으로 더 높아질 수 있음)\n\n타일 오버레이는 한 번에 하나만 활성화할 수 있습니다. 다시 클릭하면 꺼집니다.</TSA_WD_WorldMap_OverlayAnimalAbundanceTip>
+  <TSA_WD_WorldMap_OverlayFishAbundance>어류 자원량</TSA_WD_WorldMap_OverlayFishAbundance>
+  <TSA_WD_WorldMap_OverlayFishAbundanceTip>커서 주변의 어류 자원량을 표시합니다. 어업 전초기지에 유용합니다(해안가 전용).\n\n색상 (마우스 올림 %):\n• 빨간색: 0–35% (낮음)\n• 주황/노란색: 36–70%\n• 초록색: 71–100%\n• 보라색: 100% 초과 (최상, 변형 요인으로 더 높아질 수 있음)\n\n타일 오버레이는 한 번에 하나만 활성화할 수 있습니다. 다시 클릭하면 꺼집니다.</TSA_WD_WorldMap_OverlayFishAbundanceTip>
+  <TSA_WD_WorldMap_OverlayMiningEfficiency>채굴 효율</TSA_WD_WorldMap_OverlayMiningEfficiency>
+  <TSA_WD_WorldMap_OverlayMiningEfficiencyTip>커서 주변의 채굴 효율을 표시합니다. 채굴 전초기지에 유용합니다.\n\n색상 (마우스 올림 %):\n• 빨간색: 0–35% (낮음)\n• 주황/노란색: 36–70%\n• 초록색: 71–100%\n• 보라색: 100% 초과 (최상, 변형 요인으로 더 높아질 수 있음)\n\n타일 오버레이는 한 번에 하나만 활성화할 수 있습니다. 다시 클릭하면 꺼집니다.</TSA_WD_WorldMap_OverlayMiningEfficiencyTip>
+  <TSA_WD_WorldMap_OverlayIgnoresOutpostUpgrades>오버레이는 전초기지 업그레이드를 고려하지 않으며 순수한 세계 타일 상태만을 반영합니다.</TSA_WD_WorldMap_OverlayIgnoresOutpostUpgrades>
+  <TSA_WD_WorldMap_OverlayMovementDifficulty>이동 비용</TSA_WD_WorldMap_OverlayMovementDifficulty>
+  <TSA_WD_WorldMap_OverlayMovementDifficultyTip>커서 주변의 세계 이동 비용을 표시합니다(지형 × 도로 배율 계산 후 도로 차단물 페널티 추가). 바닐라 세계 이동 척도와 동일하며, 낮을수록 빠릅니다.\n\n색상:\n• 보라색: 0–0.59 (가장 빠름)\n• 초록색: 0.6–1.49\n• 노란색: 1.5–2.49\n• 빨간색: 2.5–3.49\n• 암적색: 3.5+\n• 검은색: 통행 불가\n\n타일 오버레이는 한 번에 하나만 활성화할 수 있습니다. 다시 클릭하면 꺼집니다.</TSA_WD_WorldMap_OverlayMovementDifficultyTip>
+  <TSA_WD_WorldMap_OverlayMovementDifficulty_Hover>이동 비용: {0}</TSA_WD_WorldMap_OverlayMovementDifficulty_Hover>
+  <TSA_WD_WorldMap_OverlayMovementDifficulty_Impassable>통행 불가</TSA_WD_WorldMap_OverlayMovementDifficulty_Impassable>
+  <TSA_WD_WorldMap_OverlayPollution>오염도</TSA_WD_WorldMap_OverlayPollution>
+  <TSA_WD_WorldMap_OverlayPollutionTip>커서 주변의 바이오테크 타일 오염도를 표시합니다. 오염 정화대 임무를 계획할 때 유용합니다.\n\n색상 (마우스 올림 %):\n• 초록색: 0%\n• 연두색: 1–20%\n• 노란색: 21–40%\n• 주황색: 41–69%\n• 빨간색: 70–100%\n\n타일 오버레이는 한 번에 하나만 활성화할 수 있습니다. 다시 클릭하면 꺼집니다. 바이오테크 DLC가 필요합니다.</TSA_WD_WorldMap_OverlayPollutionTip>
+  <TSA_WD_WorldMap_OverlayPollution_Hover>오염도: {0}%</TSA_WD_WorldMap_OverlayPollution_Hover>
+  <TSA_WD_WorldMap_SectionOutpostLabels>-- 전초기지 라벨 --</TSA_WD_WorldMap_SectionOutpostLabels>
+  <TSA_WD_WorldMap_ToggleCaravanBlockedTiles>건설 제한 타일 오버레이</TSA_WD_WorldMap_ToggleCaravanBlockedTiles>
+  <TSA_WD_WorldMap_ToggleCaravanBlockedTilesTip>기본적으로 전초기지는 정착지 및 다른 전초기지로부터 일정 타일 이상의 빈 공간이 필요합니다. 이 오버레이를 켜면 커서 주변의 건설 제한 타일에 해당 방해 세력의 색상으로 빗금이 표시됩니다(특정 세력이 없으면 짙은 회색). 여러 세력의 영역이 겹치는 경우 일관되게 한 세력의 색상을 선택합니다.</TSA_WD_WorldMap_ToggleCaravanBlockedTilesTip>
+  <TSA_WD_WorldMap_ChangeNotes>패치 내역</TSA_WD_WorldMap_ChangeNotes>
+  <TSA_WD_WorldMap_ChangeNotesTip>World Domination 업데이트 및 변경 내역을 엽니다.</TSA_WD_WorldMap_ChangeNotesTip>
+  <TSA_WD_WorldStats>세계 현황 통계</TSA_WD_WorldStats>
+  <TSA_WD_Diplo_VanillaGoodwillHeader>바닐라 우호도</TSA_WD_Diplo_VanillaGoodwillHeader>
+  <TSA_WD_Diplo_MaxGoodwill>최대 우호도</TSA_WD_Diplo_MaxGoodwill>
+  <TSA_WD_Diplo_MaxGoodwillTooltip>세력과의 최대 우호도 상한을 설정합니다(바닐라 기본값은 보통 100). WD에서는 이 수치를 늘려 거액의 선물이나 투자가 상한에 걸려 낭비되는 것을 방지할 수 있습니다.</TSA_WD_Diplo_MaxGoodwillTooltip>
+  <TSA_WD_DisableSettlementProximityGoodwill>인접 정착지로 인한 우호도 감소 비활성화</TSA_WD_DisableSettlementProximityGoodwill>
+  <TSA_WD_DisableSettlementProximityGoodwillTooltip>활성화하면 다른 세력 기지와 너무 가깝게 기지를 건설했을 때 발생하는 림월드의 주기적 우호도 감소 체크와 인접 경고 서신이 비활성화됩니다. 이후 다른 세력이 플레이어 근처로 확장하더라도 불이익을 받지 않습니다. 정착할 타일을 선택할 때의 경고는 그대로 유지됩니다.</TSA_WD_DisableSettlementProximityGoodwillTooltip>
+  <TSA_WD_Diplo_LaunchPodGiftStrengthPer100>시장 가치 100당 수송 포드 선물 전투력</TSA_WD_Diplo_LaunchPodGiftStrengthPer100>
+  <TSA_WD_Diplo_LaunchPodGiftStrengthPer100Tooltip>수송 포드로 선물을 보낼 때 시장 가치 100당 부여되는 정착지 전투력입니다(다른 세력 투자와 동일한 비율). 바닐라 우호도는 변경되지 않습니다. 상한을 채우고 남은 가치는 주변 같은 세력 마을을 채우거나 등급 승급을 구매하는 데 사용할 수 있습니다.</TSA_WD_Diplo_LaunchPodGiftStrengthPer100Tooltip>
+  <TSA_WD_Raid_Col0>상대 전투력</TSA_WD_Raid_Col0>
+  <TSA_WD_Raid_Col1>승리 확률</TSA_WD_Raid_Col1>
+  <TSA_WD_Raid_Section1_WinChance>상대 전투력 비율에 따른 공격측 승리 확률</TSA_WD_Raid_Section1_WinChance>
+  <TSA_WD_Raid_Section2_Desc>공격측이 승리했을 때 얼마나 결정적인 승리인가?</TSA_WD_Raid_Section2_Desc>
+  <TSA_WD_Raid_Section3_Desc>공격측이 패배했을 때 피해가 얼마나 심각한가?</TSA_WD_Raid_Section3_Desc>
+  <TSA_WD_Raid_Section4_Desc>방어측이 패배했을 때 피해가 얼마나 심각한가?</TSA_WD_Raid_Section4_Desc>
+  <TSA_WD_Raid_Section5_Desc>방어측이 승리했을 때 얼마나 결정적인 승리인가?</TSA_WD_Raid_Section5_Desc>
+  <TSA_WD_Raid_Section6_LossTables>결과별 전투력 손실 (전역)</TSA_WD_Raid_Section6_LossTables>
+  <TSA_WD_Raid_Section6_Tip>각 측이 잃는 전투력입니다. 접전 = 치열한 승부, 압승/완패 = 일방적인 전투. 결정적 승리일수록 승자의 손실이 적고, 궤멸당할수록 패자의 손실이 커집니다.</TSA_WD_Raid_Section6_Tip>
+  <TSA_WD_Raid_Section6_AttWin>공격측 승리</TSA_WD_Raid_Section6_AttWin>
+  <TSA_WD_Raid_Section6_AttLoss>공격측 패배</TSA_WD_Raid_Section6_AttLoss>
+  <TSA_WD_Raid_Section6_DefWin>방어측 승리</TSA_WD_Raid_Section6_DefWin>
+  <TSA_WD_Raid_Section6_DefLoss>방어측 패배</TSA_WD_Raid_Section6_DefLoss>
+  <TSA_WD_Raid_LossRow_Close>접전</TSA_WD_Raid_LossRow_Close>
+  <TSA_WD_Raid_LossRow_Normal>일반</TSA_WD_Raid_LossRow_Normal>
+  <TSA_WD_Raid_LossRow_Decisive>압승/완패</TSA_WD_Raid_LossRow_Decisive>
+  <TSA_WD_Raid_CloseAttackerWin>공격측 신승 (치열한 승리)</TSA_WD_Raid_CloseAttackerWin>
+  <TSA_WD_Raid_NormalAttackerWin>공격측 일반 승리</TSA_WD_Raid_NormalAttackerWin>
+  <TSA_WD_Raid_DecisiveAttackerWin>공격측 압승</TSA_WD_Raid_DecisiveAttackerWin>
+  <TSA_WD_Raid_CloseAttackerLoss>공격측 석패 (아쉬운 패배)</TSA_WD_Raid_CloseAttackerLoss>
+  <TSA_WD_Raid_NormalAttackerLoss>공격측 일반 패배</TSA_WD_Raid_NormalAttackerLoss>
+  <TSA_WD_Raid_DecisiveAttackerLoss>공격측 완패</TSA_WD_Raid_DecisiveAttackerLoss>
+  <TSA_WD_Raid_CloseDefenderWin>방어측 신승 (치열한 승리)</TSA_WD_Raid_CloseDefenderWin>
+  <TSA_WD_Raid_NormalDefenderWin>방어측 일반 승리</TSA_WD_Raid_NormalDefenderWin>
+  <TSA_WD_Raid_DecisiveDefenderWin>방어측 압승</TSA_WD_Raid_DecisiveDefenderWin>
+  <TSA_WD_Raid_CloseDefenderLoss>방어측 석패 (아쉬운 패배)</TSA_WD_Raid_CloseDefenderLoss>
+  <TSA_WD_Raid_NormalDefenderLoss>방어측 일반 패배</TSA_WD_Raid_NormalDefenderLoss>
+  <TSA_WD_Raid_DecisiveDefenderLoss>방어측 완패</TSA_WD_Raid_DecisiveDefenderLoss>
+  <TSA_WD_Raid_CloseAttackerVictory>공격측 신승</TSA_WD_Raid_CloseAttackerVictory>
+  <TSA_WD_Raid_NormalAttackerVictory>공격측 일반 승리</TSA_WD_Raid_NormalAttackerVictory>
+  <TSA_WD_Raid_DecisiveAttackerVictory>공격측 압승</TSA_WD_Raid_DecisiveAttackerVictory>
+  <TSA_WD_Raid_CloseDefenderVictory>방어측 신승</TSA_WD_Raid_CloseDefenderVictory>
+  <TSA_WD_Raid_NormalDefenderVictory>방어측 일반 승리</TSA_WD_Raid_NormalDefenderVictory>
+  <TSA_WD_Raid_DecisiveDefenderVictory>방어측 압승</TSA_WD_Raid_DecisiveDefenderVictory>
+  <TSA_WD_Notify_HeaderDiplomacyBuffs>WD 외교 및 세력 균형 서신</TSA_WD_Notify_HeaderDiplomacyBuffs>
+  <TSA_WD_Notify_LeaderHandicap>알림: 세계 패권국 페널티</TSA_WD_Notify_LeaderHandicap>
+  <TSA_WD_Notify_LeaderHandicapTooltip>가장 지배적인 세력이 일시적인 패권국 페널티를 받을 때 서신을 보냅니다.</TSA_WD_Notify_LeaderHandicapTooltip>
+  <TSA_WD_Notify_UnderdogBuff>알림: 약소 세력 버프</TSA_WD_Notify_UnderdogBuff>
+  <TSA_WD_Notify_UnderdogBuffTooltip>약소 세력이 일시적인 약자 지원 버프를 받을 때 서신을 보냅니다.</TSA_WD_Notify_UnderdogBuffTooltip>
+  <TSA_WD_Notify_ExpansionistZeal>알림: 팽창주의 열망</TSA_WD_Notify_ExpansionistZeal>
+  <TSA_WD_Notify_ExpansionistZealTooltip>세력이 팽창주의 열망 상태에 돌입했을 때(습격 사거리 증가 등) 서신을 보냅니다.</TSA_WD_Notify_ExpansionistZealTooltip>
+  <TSA_WD_Notify_AntiLeaderCoalition>알림: 패권국 대항 연합</TSA_WD_Notify_AntiLeaderCoalition>
+  <TSA_WD_Notify_AntiLeaderCoalitionTooltip>약소 세력들이 지나치게 지배적인 패권국에 대항하여 연합을 형성할 때 서신을 보냅니다.</TSA_WD_Notify_AntiLeaderCoalitionTooltip>
+  <TSA_WD_Notify_RandomDiplomacy>알림: 무작위 외교 관계 변화</TSA_WD_Notify_RandomDiplomacy>
+  <TSA_WD_Notify_RandomDiplomacyTooltip>World Domination이 두 NPC 세력의 관계(전쟁, 평화, 동맹)를 무작위로 변경할 때 서신을 보냅니다.</TSA_WD_Notify_RandomDiplomacyTooltip>
+  <TSA_WD_Notify_TradeAllyDiplomacy>알림: 무역을 통한 동맹</TSA_WD_Notify_TradeAllyDiplomacy>
+  <TSA_WD_Notify_TradeAllyDiplomacyTooltip>WD 무역 상단의 우호도가 동맹 기준치를 넘어 두 NPC 세력이 동맹이 되었을 때 서신을 보냅니다.</TSA_WD_Notify_TradeAllyDiplomacyTooltip>
+  <TSA_WD_Notify_StrongFactionWar>알림: 강력한 세력 간 전쟁</TSA_WD_Notify_StrongFactionWar>
+  <TSA_WD_Notify_StrongFactionWarTooltip>강력한 NPC 세력 간에 동맹 관계가 중립으로 식거나, 중립에서 전쟁으로 격화될 때 서신을 보냅니다.</TSA_WD_Notify_StrongFactionWarTooltip>
+  <TSA_WD_BtnRoadBuilding>건설 프로젝트</TSA_WD_BtnRoadBuilding>
+  <TSA_WD_DescRoadBuilding>전초기지 및 NPC의 도로, 도로 차단물, 함정 건설을 설정합니다(사거리, 작업량, 원정 전투력 및 Roads of the Rim 모드 미사용 시의 도로 대체 설정).</TSA_WD_DescRoadBuilding>
+  <TSA_WD_RoadBuilding_Note>도로 이동 / 작업량 / 최소 건설 기술 요구치는 Roads of the Rim 모드가 비활성화되어 있을 때만 적용됩니다. 겨울철 이동 페널티 감소는 항상 적용됩니다(해당 모드가 있을 경우 RotR의 winterFactor에 기록됨).</TSA_WD_RoadBuilding_Note>
+  <TSA_WD_RoadBuilding_RoadsHeader>도로</TSA_WD_RoadBuilding_RoadsHeader>
+  <TSA_WD_RoadBuilding_RoadRange>도로 건설 사거리</TSA_WD_RoadBuilding_RoadRange>
+  <TSA_WD_RoadBuilding_RoadRangeTip>전초기지에서 도로 건설을 계획할 수 있는 최대 세계 타일 사거리입니다(NPC의 도로 건설 시도에도 적용).</TSA_WD_RoadBuilding_RoadRangeTip>
+  <TSA_WD_RoadBuilding_RoadRangePlayer>플레이어 전초기지 도로 건설 사거리</TSA_WD_RoadBuilding_RoadRangePlayer>
+  <TSA_WD_RoadBuilding_RoadRangePlayerTip>플레이어 전초기지에서 도로 건설을 계획할 수 있는 최대 세계 타일 사거리입니다.</TSA_WD_RoadBuilding_RoadRangePlayerTip>
+  <TSA_WD_RoadBuilding_RoadRangeNpc>NPC 도로 건설 사거리</TSA_WD_RoadBuilding_RoadRangeNpc>
+  <TSA_WD_RoadBuilding_RoadRangeNpcTip>NPC 정착지가 동맹 정착지로 도로 건설을 시도할 수 있는 최대 세계 타일 사거리입니다.</TSA_WD_RoadBuilding_RoadRangeNpcTip>
+  <TSA_WD_RoadBuilding_DirtRoad>흙길</TSA_WD_RoadBuilding_DirtRoad>
+  <TSA_WD_RoadBuilding_StoneRoad>돌길</TSA_WD_RoadBuilding_StoneRoad>
+  <TSA_WD_RoadBuilding_AsphaltRoad>아스팔트 도로</TSA_WD_RoadBuilding_AsphaltRoad>
+  <TSA_WD_RoadBuilding_Movement>이동 비용 배율</TSA_WD_RoadBuilding_Movement>
+  <TSA_WD_RoadBuilding_MovementTip>Roads of the Rim 모드가 비활성화되어 있을 때 이 도로 유형의 세계 경로 이동 비용 배율입니다(바닐라 도로 정의에 기록됨). 낮을수록 빠르게 이동합니다.</TSA_WD_RoadBuilding_MovementTip>
+  <TSA_WD_RoadBuilding_WinterReductionHeader>겨울철 이동 페널티 감소</TSA_WD_RoadBuilding_WinterReductionHeader>
+  <TSA_WD_RoadBuilding_WinterReduction>겨울철 이동 페널티 감소</TSA_WD_RoadBuilding_WinterReduction>
+  <TSA_WD_RoadBuilding_WinterReductionTip>이 도로 유형이 상쇄하는 겨울철 이동 비용 페널티 비율입니다. 항상 적용됩니다(Roads of the Rim이 꺼져 있으면 자체 겨울 패치로 적용, 켜져 있으면 RotR의 winterFactor에 기록됨). 세계 타일 지형 탭의 이동 툴팁에 표시되며 이동 비용 오버레이에도 반영됩니다.</TSA_WD_RoadBuilding_WinterReductionTip>
+  <TSA_WD_RoadBuilding_WinterReductionExplanation>{0}: 겨울철 페널티 {1}% 감소 (이동 배율 ×{2})</TSA_WD_RoadBuilding_WinterReductionExplanation>
+  <TSA_WD_RoadBuilding_WinterReductionTerrainTip>{0}: 겨울철 페널티 {1}% 감소 (Roads of the Rim을 통해 적용됨)</TSA_WD_RoadBuilding_WinterReductionTerrainTip>
+  <TSA_WD_RoadBuilding_WinterReductionTerrainTipInactive>{0}: 겨울철 페널티 {1}% 감소 (현재 이 타일에 겨울이 적용되지 않음)</TSA_WD_RoadBuilding_WinterReductionTerrainTipInactive>
+  <TSA_WD_RoadBuilding_Work>건설에 필요한 작업량</TSA_WD_RoadBuilding_Work>
+  <TSA_WD_RoadBuilding_WorkTip>도로 1개 구간의 추상 작업 비용입니다(바닐라 건설 작업이 아닌 WD 자체 진행도). 진행 속도는 전초기지의 총 건설 기술 합산과 같습니다. 예: 흙길 작업량이 250일 때 건설 기술 1당 하루에 25의 작업을 진행하므로, 기술 1이면 약 10일, 기술 10이면 약 1일이 걸립니다. 돌길이나 아스팔트처럼 작업량이 높을수록 비례하여 더 오래 걸립니다.</TSA_WD_RoadBuilding_WorkTip>
+  <TSA_WD_RoadBuilding_RoadStrength>상단 파견 시 차감되는 공격 전투력</TSA_WD_RoadBuilding_RoadStrength>
+  <TSA_WD_RoadBuilding_RoadStrengthTip>도로 1구간 건설을 위해 도로 건설 상단을 파견할 때 전초기지에서 차감되는 공격 전투력입니다. 즉시 출발에 실패하면 환급됩니다.</TSA_WD_RoadBuilding_RoadStrengthTip>
+  <TSA_WD_RoadBuilding_MinConstruction>건설에 필요한 최소 건설 기술</TSA_WD_RoadBuilding_MinConstruction>
+  <TSA_WD_RoadBuilding_MinConstructionTip>Roads of the Rim 모드가 비활성화되어 있을 때 이 도로 유형을 선택하기 위해 전초기지에 요구되는 총 건설 기술 합산치입니다.</TSA_WD_RoadBuilding_MinConstructionTip>
+  <TSA_WD_RoadBuilding_Reset>전초기지 건설 프로젝트를 기본값으로 초기화</TSA_WD_RoadBuilding_Reset>
+  <TSA_WD_RoadBuilding_RoadBlocksHeader>도로 차단물</TSA_WD_RoadBuilding_RoadBlocksHeader>
+  <TSA_WD_RoadBuilding_RoadBlockRange>도로 차단물 건설 사거리</TSA_WD_RoadBuilding_RoadBlockRange>
+  <TSA_WD_RoadBuilding_RoadBlockRangeTip>전초기지에서 도로 차단물 건설/철거 경로를 계획할 수 있는 최대 세계 타일 사거리입니다.</TSA_WD_RoadBuilding_RoadBlockRangeTip>
+  <TSA_WD_RoadBuilding_RoadBlockWorkTip>도로 차단물 1타일당 추상 작업 비용입니다(건설 또는 철거). 도로와 동일한 건설 진행도 규칙이 적용됩니다: 진행 속도 = 총 건설 기술, 흙길 작업량 대비 상대적 작업량으로 소요 기간이 결정됩니다.</TSA_WD_RoadBuilding_RoadBlockWorkTip>
+  <TSA_WD_RoadBuilding_RoadBlockPenalty>이동 비용 페널티</TSA_WD_RoadBuilding_RoadBlockPenalty>
+  <TSA_WD_RoadBuilding_RoadBlockPenaltyTip>해당 등급의 도로 차단물 타일에 진입할 때 도로 배율 계산 후 고정으로 추가되는 이동 비용입니다(모든 세력 적용, 탄도 비행 이동 시 무시됨).</TSA_WD_RoadBuilding_RoadBlockPenaltyTip>
+  <TSA_WD_RoadBuilding_RoadBlockStrength>상단 파견 시 차감되는 공격 전투력</TSA_WD_RoadBuilding_RoadBlockStrength>
+  <TSA_WD_RoadBuilding_RoadBlockStrengthTip>도로 차단물 1타일 작업을 위해 상단을 파견할 때 전초기지에서 차감되는 공격 전투력입니다. 즉시 출발에 실패하면 환급됩니다.</TSA_WD_RoadBuilding_RoadBlockStrengthTip>
+  <TSA_WD_RoadBuilding_MaxHealth>최대 내구도</TSA_WD_RoadBuilding_MaxHealth>
+  <TSA_WD_RoadBuilding_MaxHealthTip>설치하거나 업그레이드했을 때의 내구도입니다. 적대적 여행자가 해당 타일을 벗어날 때 자신의 전투력에 비례하여 내구도를 깎아냅니다.</TSA_WD_RoadBuilding_MaxHealthTip>
+  <TSA_WD_RoadBuilding_SpikeTrapsHeader>함정</TSA_WD_RoadBuilding_SpikeTrapsHeader>
+  <TSA_WD_RoadBuilding_SpikeTrapRange>함정 건설 사거리</TSA_WD_RoadBuilding_SpikeTrapRange>
+  <TSA_WD_RoadBuilding_SpikeTrapRangeTip>전초기지에서 함정 설치/제거 경로를 계획할 수 있는 최대 세계 타일 범위입니다.</TSA_WD_RoadBuilding_SpikeTrapRangeTip>
+  <TSA_WD_RoadBuilding_SpikeTrapWorkTip>함정 타일 1칸당 추상적 작업량입니다(설치 또는 제거). 도로와 동일한 건설 진행 규칙이 적용됩니다. 속도 = 총 건설 기술이며, 흙길 작업량 대비 상대적 작업량으로 소요 시간이 결정됩니다.</TSA_WD_RoadBuilding_SpikeTrapWorkTip>
+  <TSA_WD_RoadBuilding_SpikeTrapStrength>상단 파견 시 차감되는 공격 전투력</TSA_WD_RoadBuilding_SpikeTrapStrength>
+  <TSA_WD_RoadBuilding_SpikeTrapStrengthTip>타일 1칸의 함정 작업을 위해 상단이 파견될 때 전초기지에서 차감되는 공격 전투력입니다. 출발이 즉시 실패하면 반환됩니다.</TSA_WD_RoadBuilding_SpikeTrapStrengthTip>
+  <TSA_WD_RoadBuilding_SpikeTrapDamage>함정 피해량</TSA_WD_RoadBuilding_SpikeTrapDamage>
+  <TSA_WD_RoadBuilding_SpikeTrapDamageTip>적대적 지상 이동단이 함정 타일을 벗어날 때 차감되는 전투력입니다. 함정 역시 이동단의 전투력에 비례해 마모됩니다.</TSA_WD_RoadBuilding_SpikeTrapDamageTip>
+  <TSA_WD_RoadBuilding_SpikeTrapMaxTriggers>이동단당 최대 격발 함정 수</TSA_WD_RoadBuilding_SpikeTrapMaxTriggers>
+  <TSA_WD_RoadBuilding_SpikeTrapMaxTriggersTip>단일 이동단이 격발시킬 수 있는 최대 함정 수입니다. 경로 상의 추가 함정은 무시됩니다(피해 없음, 마모 없음).</TSA_WD_RoadBuilding_SpikeTrapMaxTriggersTip>
+  <TSA_WD_RoadBuilding_AT_TurretsHeader>AT 포탑</TSA_WD_RoadBuilding_AT_TurretsHeader>
+  <TSA_WD_RoadBuilding_AT_TurretsNote>경형, 중형, 대형 포탑을 건설할 수 있습니다. 정착지는 등급별로 건설합니다(1~2등급 경형, 3등급 중형, 4등급 대형). 작업량은 건설 시간 비용입니다(기본값은 이전 도로 기준 비용의 약 2배). 원정 전투력은 운용팀 비용이며 포탑 체력이 아닙니다.</TSA_WD_RoadBuilding_AT_TurretsNote>
+  <TSA_WD_RoadBuilding_AT_TurretWorkTip>AT 포탑 1기당 추상적 작업량입니다. 도로와 동일한 건설 진행 규칙이 적용됩니다. 기본값은 이전 도로 기준 비용보다 약 2배 더 오래 걸립니다.</TSA_WD_RoadBuilding_AT_TurretWorkTip>
+  <TSA_WD_RoadBuilding_AT_TurretStrength>상단 파견 시 차감되는 공격 전투력</TSA_WD_RoadBuilding_AT_TurretStrength>
+  <TSA_WD_RoadBuilding_AT_TurretStrengthTip>AT 포탑 운용팀이 파견될 때 차감되는 공격 전투력입니다. 중형 포탑 기본값은 아스팔트 도로와 일치합니다.</TSA_WD_RoadBuilding_AT_TurretStrengthTip>
+  <TSA_WD_RoadBuilding_DecontaminationHeader>오염 정화</TSA_WD_RoadBuilding_DecontaminationHeader>
+  <TSA_WD_RoadBuilding_DecontaminationRange>오염 정화 범위</TSA_WD_RoadBuilding_DecontaminationRange>
+  <TSA_WD_RoadBuilding_DecontaminationRangeTip>전초기지에서 오염 정화 경로를 계획할 수 있는 최대 세계 타일 범위입니다.</TSA_WD_RoadBuilding_DecontaminationRangeTip>
+  <TSA_WD_RoadBuilding_DecontaminationWorkTip>오염된 타일 1칸을 정화하는 추상적 작업량입니다. 도로와 동일한 건설 진행 규칙이 적용됩니다. 속도 = 총 건설 기술이며, 아스팔트 도로 작업량 대비 상대적 작업량으로 소요 시간이 결정됩니다.</TSA_WD_RoadBuilding_DecontaminationWorkTip>
+  <TSA_WD_RoadBuilding_DecontaminationStrength>전투력 소모 (오염 정화)</TSA_WD_RoadBuilding_DecontaminationStrength>
+  <TSA_WD_RoadBuilding_DecontaminationStrengthTip>타일 1칸을 정화하기 위해 오염 정화 상단이 파견될 때 전초기지에서 차감되는 공격 전투력입니다. 출발이 즉시 실패하면 반환됩니다.</TSA_WD_RoadBuilding_DecontaminationStrengthTip>
+  <TSA_WD_RoadBuilding_DecontaminationReduction>오염도 감소 (%p)</TSA_WD_RoadBuilding_DecontaminationReduction>
+  <TSA_WD_RoadBuilding_DecontaminationReductionTip>1회 정화 방문당 제거되는 세계 타일 오염도의 백분율 포인트입니다(20 = -20%p).</TSA_WD_RoadBuilding_DecontaminationReductionTip>
+  <TSA_WD_RoadBlockLight>경형 도로 바리케이드</TSA_WD_RoadBlockLight>
+  <TSA_WD_RoadBlockNormal>중형 도로 바리케이드</TSA_WD_RoadBlockNormal>
+  <TSA_WD_RoadBlockHeavy>대형 도로 바리케이드</TSA_WD_RoadBlockHeavy>
+  <TSA_WD_RoadBlockGate>관문</TSA_WD_RoadBlockGate>
+  <TSA_WD_RoadBlockKind_Disabled>{0} (건설 {1}/{2})</TSA_WD_RoadBlockKind_Disabled>
+  <TSA_WD_RoadBlockKindTooltip>작업량: {0}
+비용 페널티: +{1}
+예상 소요 일수/타일: {2}
+전투력 소모: {3}
+최대 내구도: {4}</TSA_WD_RoadBlockKindTooltip>
+  <TSA_WD_SpikeTrapSpike>쐐기 함정</TSA_WD_SpikeTrapSpike>
+  <TSA_WD_SpikeTrapCaltrops>마름쇠</TSA_WD_SpikeTrapCaltrops>
+  <TSA_WD_SpikeTrapKind_Disabled>{0} (건설 {1}/{2})</TSA_WD_SpikeTrapKind_Disabled>
+  <TSA_WD_SpikeTrapKindTooltip>작업량: {0}
+피해량: {1}
+예상 소요 일수/타일: {2}
+전투력 소모: {3}
+최대 내구도: {4}</TSA_WD_SpikeTrapKindTooltip>
+  <TSA_WD_RoadKindTooltip>작업량: {0}
+비용 배율: {1}
+예상 소요 일수/구간: {2}
+전투력 소모: {3}</TSA_WD_RoadKindTooltip>
+  <TSA_WD_BuildReq_Header>요구 조건</TSA_WD_BuildReq_Header>
+  <TSA_WD_BuildReq_Construction>건설: {0} ({1})</TSA_WD_BuildReq_Construction>
+  <TSA_WD_BuildReq_ResearchNone>연구: 없음</TSA_WD_BuildReq_ResearchNone>
+  <TSA_WD_BuildReq_ResearchDone>연구: {0} (완료)</TSA_WD_BuildReq_ResearchDone>
+  <TSA_WD_BuildReq_ResearchMissing>연구: {0} (미완료)</TSA_WD_BuildReq_ResearchMissing>
+  <TSA_WD_BuildReq_MaterialsNone>재료: 없음</TSA_WD_BuildReq_MaterialsNone>
+  <TSA_WD_BuildReq_MaterialsHeader>재료:</TSA_WD_BuildReq_MaterialsHeader>
+  <TSA_WD_BuildReq_MaterialLine>  - {0} x{1}</TSA_WD_BuildReq_MaterialLine>
+  <TSA_WD_BuildReq_Unmet>건설 기술 또는 연구 요구 조건을 충족하지 못했습니다.</TSA_WD_BuildReq_Unmet>
+  <TSA_WD_SkillScaling_Reset>기술 스케일링 초기화</TSA_WD_SkillScaling_Reset>
+  <TSA_WD_SkillScaling_Intro>농업 전초기지의 재배처럼 기술 점수를 추가할 때 생산량이 무제한 증가할지, 특정 임계점 이후 점차 감소(한계효용 체감)할지 결정합니다. 기지 설립 요구 조건은 여전히 순수 기술 점수를 사용합니다.</TSA_WD_SkillScaling_Intro>
+  <TSA_WD_SkillScaling_Enable>한계효용 체감 활성화</TSA_WD_SkillScaling_Enable>
+  <TSA_WD_SkillScaling_EnableTip>활성화하면 첫 번째 임계점을 넘어 총 기술을 더 누적할수록 추가 생산량이 점차 줄어듭니다.</TSA_WD_SkillScaling_EnableTip>
+  <TSA_WD_SkillScaling_HardCap>최대 한도 (순수 기술)</TSA_WD_SkillScaling_HardCap>
+  <TSA_WD_SkillScaling_HardCapTip>이 총 순수 기술 점수를 초과하면 기술을 추가해도 생산 능력이 더 이상 증가하지 않습니다.</TSA_WD_SkillScaling_HardCapTip>
+  <TSA_WD_SkillScaling_SocialFirstBand>사교 전초기지 최대 효율 한계치</TSA_WD_SkillScaling_SocialFirstBand>
+  <TSA_WD_SkillScaling_SocialFirstBandTip>포섭, 무역, 대사관 전초기지에만 적용됩니다. 누적 사교 기술이 이 총합까지는 온전히 반영되며, 이후에는 아래의 공유 효율 구간을 따릅니다.</TSA_WD_SkillScaling_SocialFirstBandTip>
+  <TSA_WD_SkillScaling_BandsHeader>기술 구간</TSA_WD_SkillScaling_BandsHeader>
+  <TSA_WD_SkillScaling_BandsTip />
+  <TSA_WD_SkillScaling_BandRange>{0}부터 {1}까지의 누적 기술에 설정이 적용됩니다</TSA_WD_SkillScaling_BandRange>
+  <TSA_WD_SkillScaling_BandEnd>구간 {0} 종료 지점</TSA_WD_SkillScaling_BandEnd>
+  <TSA_WD_SkillScaling_BandEndTip>드래그하여 이 기술 범위가 끝나고 다음 범위가 시작되는 지점을 설정합니다.</TSA_WD_SkillScaling_BandEndTip>
+  <TSA_WD_SkillScaling_BandEfficiency>이 구간 기술 점수의 효율: {0}%</TSA_WD_SkillScaling_BandEfficiency>
+  <TSA_WD_SkillScaling_BandWeight>구간 {0} 가중치 %</TSA_WD_SkillScaling_BandWeight>
+  <TSA_WD_SkillScaling_BandWeightTip>이 범위의 각 기술 점수가 생산량에 반영되는 비율입니다. 이전 구간보다 높을 수 없습니다.</TSA_WD_SkillScaling_BandWeightTip>
+  <TSA_WD_SkillScaling_PreviewHeader>미리보기</TSA_WD_SkillScaling_PreviewHeader>
+  <TSA_WD_SkillScaling_PreviewRaw>예시 순수 기술</TSA_WD_SkillScaling_PreviewRaw>
+  <TSA_WD_SkillScaling_PreviewResult>유효 기술: {0}</TSA_WD_SkillScaling_PreviewResult>
+  <TSA_WD_SkillScaling_PreviewResultSocial>사교 전초기지 유효 기술: {0}</TSA_WD_SkillScaling_PreviewResultSocial>
+  <TSA_WD_SkillScaling_RawToEffective>{0} → {1}</TSA_WD_SkillScaling_RawToEffective>
+  <TSA_WD_SkillScaling_DisabledTip>기술 한계효용 체감이 비활성화되었습니다.</TSA_WD_SkillScaling_DisabledTip>
+  <TSA_WD_SkillScaling_BreakdownHeader>기술 스케일링: 순수 {0} → 유효 {1}</TSA_WD_SkillScaling_BreakdownHeader>
+  <TSA_WD_SkillScaling_BandLine>기술 점수 {0}–{1} = {2}% 효율</TSA_WD_SkillScaling_BandLine>
+  <TSA_WD_SkillScaling_HardCapLine>최대 한도: 순수 {0}</TSA_WD_SkillScaling_HardCapLine>
+  <TSA_WD_SkillScaling_BannerSoft>높은 기술 점수로 인해 한계효용이 체감됩니다. 순수: {0}, 유효: {1}</TSA_WD_SkillScaling_BannerSoft>
+  <TSA_WD_SkillScaling_BannerHardCap>최대 한도에 도달했습니다. 추가 기술 점수는 반영되지 않습니다. 순수: {0}, 유효: {1}</TSA_WD_SkillScaling_BannerHardCap>
+  <TSA_WD_SkillScaling_OverviewLabel>한계효용 체감</TSA_WD_SkillScaling_OverviewLabel>
+  <TSA_WD_Pollution_EnableTravelerDamage>오염으로 인한 전투력 피해</TSA_WD_Pollution_EnableTravelerDamage>
+  <TSA_WD_Pollution_EnableTravelerDamageTip>활성화하면 대상 지상 WD 이동단이 오염된 타일을 벗어날 때 전투력을 잃으며, NPC 정착지와 WD 전초기지는 주변 평균 오염도에 따라 매일 전투력 피해를 입습니다. 정화팀, 공중 포탄 및 수송 포드는 영향을 받지 않습니다. 아래 유형별 체크박스를 사용하여 어떤 상단이 이탈 피해를 입을지 선택하세요. 또한 NPC 정착지는 12시간마다 저비용 정화팀을 파견합니다.</TSA_WD_Pollution_EnableTravelerDamageTip>
+  <TSA_WD_Pollution_WasterImmunity>웨이스터 해적 오염 면역</TSA_WD_Pollution_WasterImmunity>
+  <TSA_WD_Pollution_WasterImmunityTip>활성화하면 웨이스터 해적(PirateWaster) 세력은 이동단 이탈 피해, 기지 일일 오염 피해 및 NPC 자동 정화를 건너뜁니다.</TSA_WD_Pollution_WasterImmunityTip>
+  <TSA_WD_Pollution_DamageRaiders>습격 상단</TSA_WD_Pollution_DamageRaiders>
+  <TSA_WD_Pollution_DamageRaidersTip>지상 습격 및 신속 대응 상단이 오염 이탈 피해를 입습니다. 수송 포드 습격은 여전히 면제됩니다.</TSA_WD_Pollution_DamageRaidersTip>
+  <TSA_WD_Pollution_DamageExpansion>확장 상단</TSA_WD_Pollution_DamageExpansion>
+  <TSA_WD_Pollution_DamageExpansionTip>확장 상단이 오염 이탈 피해를 입습니다.</TSA_WD_Pollution_DamageExpansionTip>
+  <TSA_WD_Pollution_DamageConstruction>건설 상단</TSA_WD_Pollution_DamageConstruction>
+  <TSA_WD_Pollution_DamageConstructionTip>도로 건설, 도로 바리케이드, 쐐기 함정 및 NPC 요새화 작업팀이 오염 이탈 피해를 입습니다.</TSA_WD_Pollution_DamageConstructionTip>
+  <TSA_WD_Pollution_DamageTraders>상인 및 보급</TSA_WD_Pollution_DamageTraders>
+  <TSA_WD_Pollution_DamageTradersTip>무역, 배달, 업그레이드, 구매 및 선물 상단이 오염 이탈 피해를 입습니다(지상 이동 한정).</TSA_WD_Pollution_DamageTradersTip>
+  <TSA_WD_Pollution_DamagePlayer>플레이어 WD 이동단</TSA_WD_Pollution_DamagePlayer>
+  <TSA_WD_Pollution_DamagePlayerTip>비활성화하면 유형별 체크박스가 켜져 있더라도 플레이어 세력의 WD 이동단은 오염 이탈 피해를 입지 않습니다.</TSA_WD_Pollution_DamagePlayerTip>
+  <TSA_WD_Pollution_BannerDamage>오염으로 인해 피해를 입게 됩니다</TSA_WD_Pollution_BannerDamage>
+  <TSA_WD_Pollution_BannerRouteAltered>오염을 회피하도록 경로가 변경되었습니다</TSA_WD_Pollution_BannerRouteAltered>
+  <TSA_WD_Msg_RaidCancelledPollution>습격 취소됨: 경로상 오염으로 인해 약 {0}의 전투력을 잃게 됩니다.</TSA_WD_Msg_RaidCancelledPollution>
+  <TSA_WD_Experimental_HeaderWorldActionsRaidLogic>세계 행동 및 습격 로직</TSA_WD_Experimental_HeaderWorldActionsRaidLogic>
+  <TSA_WD_Experimental_ColonyWorldBuild>실험적 기능: 정착지 세계 건설 (도로 / 바리케이드 / 함정)</TSA_WD_Experimental_ColonyWorldBuild>
+  <TSA_WD_Experimental_ColonyWorldBuildTip>활성화하면 플레이어 정착지에 청록색 '건설' 버튼(도로, 도로 바리케이드, 쐐기 함정)이 생깁니다. 속도와 해금은 정착지 지도에 있는 정착민들의 건설 기술 총합을 사용합니다. 공병 보너스 및 WD 전투력 소모는 없습니다. 이 설정을 끄면 진행 중인 정착지 건설 프로젝트가 취소됩니다.</TSA_WD_Experimental_ColonyWorldBuildTip>
+  <TSA_WD_Experimental_PlayerConquestRaze>실험적 기능: 플레이어 정복 시 초토화 가능</TSA_WD_Experimental_PlayerConquestRaze>
+  <TSA_WD_Experimental_PlayerConquestRazeTip>활성화하면 플레이어가 직접 NPC 정착지를 전멸시키거나(또는 정복 메뉴가 열리는 시뮬레이션 정복 시) 자동 NPC 습격과 동일한 초토화 확률을 굴립니다. 초토화 시 포섭/선물/전초기지 설립 기회가 사라지며, 일정 시간 동안 유지되는 폐허만 남습니다. 기본값은 비활성화입니다.</TSA_WD_Experimental_PlayerConquestRazeTip>
+  <TSA_WD_Experimental_AT_TargetPlayerTravelers>NPC AT 포탑이 플레이어 WD 이동단을 조준</TSA_WD_Experimental_AT_TargetPlayerTravelers>
+  <TSA_WD_Experimental_AT_TargetPlayerTravelersTip>활성화하면 적대적 NPC AT 포탑이 플레이어의 지상 WD 이동단(습격, 업그레이드, 배달, 무역 등 비공중 임무)을 향해 사격할 수 있습니다. 비활성화하면 새로운 교전이 중단되며, 이미 날아가고 있는 포탄은 정상 착탄합니다.</TSA_WD_Experimental_AT_TargetPlayerTravelersTip>
+  <TSA_WD_Experimental_AT_TargetPlayerCaravans>적 방어 체계가 플레이어 상단을 조준 (AT / 박격포 / 매복)</TSA_WD_Experimental_AT_TargetPlayerCaravans>
+  <TSA_WD_Experimental_AT_TargetPlayerCaravansTip>활성화하면 적대적 NPC AT 포탑, 4등급 정착지 박격포, 정착지 매복 요격팀이 탐지 가시성 기준치를 충족하는 플레이어의 실제 폰 상단을 공격할 수 있습니다. AT 포탑 및 박격포에 피격되면 상단 인원이 부상을 입거나 사망합니다. 비활성화하면 새로운 교전이 중단되며, 이미 날아가고 있는 포탄은 정상 착탄합니다.</TSA_WD_Experimental_AT_TargetPlayerCaravansTip>
+  <TSA_WD_Experimental_MinPlayerCaravanVisibility>조준에 필요한 최소 가시성</TSA_WD_Experimental_MinPlayerCaravanVisibility>
+  <TSA_WD_Experimental_MinPlayerCaravanVisibilityTip>바닐라 상단 가시성(체구 총합 + 이동 여부)을 사용합니다. 정차 중이거나 휴식 중인 상단은 가시성이 크게 낮아집니다(×30%). 기본값 80%: 이동 중인 인간 약 5명이면 조건을 충족하고, 4명 이하면 충족하지 못합니다.</TSA_WD_Experimental_MinPlayerCaravanVisibilityTip>
+  <TSA_WD_Experimental_HeaderTargetOfOpportunity>우발 표적 재지정</TSA_WD_Experimental_HeaderTargetOfOpportunity>
+  <TSA_WD_Experimental_TargetOfOpportunity>실험적 기능: 우발 표적 재지정</TSA_WD_Experimental_TargetOfOpportunity>
+  <TSA_WD_Experimental_TargetOfOpportunityTip>활성화하면 이동 중인 습격대(NPC 대 NPC, NPC 대 플레이어, 플레이어 대 NPC)가 근처의 더 약한 정착지나 전초기지를 지나갈 때 원래 목표 대신 그곳으로 방향을 바꿀 수 있습니다. 지나가는 다른 상단이나 이동단으로는 절대 전환되지 않으며, 고정된 정착지/전초기지로만 전환됩니다. 기본적으로 중반 또는 후반 고조 단계 이후에만 동작합니다. 아래의 '게임 시작부터 우발 표적, 약탈 및 매복 허용'을 켜면 이 제한을 건너뛸 수 있습니다. 기본값은 비활성화입니다.</TSA_WD_Experimental_TargetOfOpportunityTip>
+  <TSA_WD_Experimental_ToORollPct>조건 충족 판정 확률</TSA_WD_Experimental_ToORollPct>
+  <TSA_WD_Experimental_ToORollPctTip>습격대가 적격 감시자 근처를 지나갈 때마다 전투력 연산을 수행하기 전에 가볍게 확률을 굴립니다. 대부분의 통과 상황이 여기서 처리 없이 걸러집니다(습격대가 목표를 변경할 자격이 주어지는 확률이자 주요 성능 조절 장치입니다).</TSA_WD_Experimental_ToORollPctTip>
+  <TSA_WD_Experimental_ToOMinRatioAdvantage>목표 변경에 필요한 전력비 우위</TSA_WD_Experimental_ToOMinRatioAdvantage>
+  <TSA_WD_Experimental_ToOMinRatioAdvantageTip>전력비는 습격대 전투력을 목표 방어력으로 나눈 값입니다. 근처 정착지의 전력비가 현재 목표의 전력비보다 최소 이 수치만큼 더 높을 때만 새 목표로 지정됩니다. 예: 현재 전력비가 1.10이고 설정값이 0.25라면, 새 목표는 1.35 이상이어야 합니다.</TSA_WD_Experimental_ToOMinRatioAdvantageTip>
+  <TSA_WD_Experimental_ToOMaxRetargets>습격당 최대 재지정 횟수</TSA_WD_Experimental_ToOMaxRetargets>
+  <TSA_WD_Experimental_ToOMaxRetargetsTip>단일 습격대가 현재 목표에 완전히 전념하기 전까지 새로운 우발 표적을 선택할 수 있는 최대 횟수를 제한합니다.</TSA_WD_Experimental_ToOMaxRetargetsTip>
+  <TSA_WD_Experimental_TargetChangesMaxLifetime>습격당 최대 목표 변경 횟수 (우발 표적 + 약탈)</TSA_WD_Experimental_TargetChangesMaxLifetime>
+  <TSA_WD_Experimental_TargetChangesMaxLifetimeTip>한 습격대가 전체 여정 동안 목표를 변경할 수 있는 총 횟수 한도입니다. 이동 중 우발 표적 전환과 승리 후 새 목표 선택이 모두 포함됩니다. 위의 별도 최대 재지정 / 최대 연쇄 목표 한도 역시 함께 적용됩니다.</TSA_WD_Experimental_TargetChangesMaxLifetimeTip>
+  <TSA_WD_Experimental_HeaderMarauding>승리 후 약탈</TSA_WD_Experimental_HeaderMarauding>
+  <TSA_WD_Experimental_ContinueAfterConquest>실험적 기능: 정복 후 습격 지속</TSA_WD_Experimental_ContinueAfterConquest>
+  <TSA_WD_Experimental_ContinueAfterConquestTip>활성화하면 승리한 습격대가 첫 승리 후 항상 해산하는 대신 계속 진격하여 근처의 다른 약한 정착지를 공격할 수 있습니다. 자동 해결된 NPC/시뮬레이션 승리에만 적용되며, 플레이어 정착지의 수동 방어 대화 상자를 통해 해결된 습격에는 절대 적용되지 않습니다. 기본적으로 중반 또는 후반 고조 단계 이후에만 동작합니다. 아래의 '게임 시작부터 우발 표적, 약탈 및 매복 허용'을 켜면 이 제한을 건너뛸 수 있습니다. 기본값은 비활성화입니다.</TSA_WD_Experimental_ContinueAfterConquestTip>
+  <TSA_WD_Experimental_MaraudChancePct>승리 후 습격 지속 확률</TSA_WD_Experimental_MaraudChancePct>
+  <TSA_WD_Experimental_MaraudChancePctTip>승리 직후 다른 약탈 판정보다 먼저 1회 굴립니다.</TSA_WD_Experimental_MaraudChancePctTip>
+  <TSA_WD_Experimental_MaraudMinStrength>습격 지속에 필요한 최소 잔존 전투력</TSA_WD_Experimental_MaraudMinStrength>
+  <TSA_WD_Experimental_MaraudMinStrengthTip>승리 후 습격대의 잔존 전투력이 최소 이 수치 이상이어야 다음 목표로 진격할 가치가 있다고 판단합니다.</TSA_WD_Experimental_MaraudMinStrengthTip>
+  <TSA_WD_Experimental_MaraudMaxChain>최대 연쇄 목표 수</TSA_WD_Experimental_MaraudMaxChain>
+  <TSA_WD_Experimental_MaraudMaxChainTip>단일 습격대가 정지 및 해산하기 전까지 연속으로 승리하며 연쇄 공격할 수 있는 새 목표의 수를 제한합니다.</TSA_WD_Experimental_MaraudMaxChainTip>
+  <TSA_WD_Experimental_HeaderSettlementAmbush>정착지 발발 매복</TSA_WD_Experimental_HeaderSettlementAmbush>
+  <TSA_WD_Experimental_SettlementAmbush>실험적 기능: 통과하는 이동단에 대한 정착지 매복</TSA_WD_Experimental_SettlementAmbush>
+  <TSA_WD_Experimental_SettlementAmbushTip>활성화하면 최소 매복 등급(기본값 2등급) 이상의 NPC 정착지가 감시 범위 내를 지나가는 적대적 무역 상단, 선물/뇌물 상단, 무관한 습격대 또는 실제 플레이어 상단을 요격하기 위해 요격대를 출격시킬 수 있습니다. 플레이어 신속 대응 및 박격포 전초기지는 이 기능이 아니며, 자체 방어 범위를 통해 요격합니다. 기본적으로 중반 또는 후반 고조 단계 이후에만 동작합니다. 아래의 '게임 시작부터 우발 표적, 약탈 및 매복 허용'을 켜면 이 제한을 건너뛸 수 있습니다.</TSA_WD_Experimental_SettlementAmbushTip>
+  <TSA_WD_Experimental_AmbushChancePct>매복 확률 (확률 판정)</TSA_WD_Experimental_AmbushChancePct>
+  <TSA_WD_Experimental_AmbushChancePctTip>고조 단계 조건을 통과한 후, 복잡한 전투력 연산 전에 판정하므로 실패하더라도 비용이 큰 전력비 계산을 낭비하지 않습니다.</TSA_WD_Experimental_AmbushChancePctTip>
+  <TSA_WD_Experimental_AmbushMinRatio>출격에 필요한 최소 전력비</TSA_WD_Experimental_AmbushMinRatio>
+  <TSA_WD_Experimental_AmbushMinRatioTip>적격 정착지의 가용 습격 전투력이 지나가는 목표 전투력의 최소 이 배수 이상이어야 합니다. 이보다 낮다면 본진에서 공격자가 도착하기를 기다리는 편이 더 낫습니다.</TSA_WD_Experimental_AmbushMinRatioTip>
+  <TSA_WD_Experimental_AmbushMaxRatio>파견할 최대 상대 전력비</TSA_WD_Experimental_AmbushMaxRatio>
+  <TSA_WD_Experimental_AmbushMaxRatioTip>적격 정착지가 출격하기에 충분히 강할 때, 목표 전투력의 최대 이 배수까지만 파견하고 나머지는 본진에 남겨둡니다.</TSA_WD_Experimental_AmbushMaxRatioTip>
+  <TSA_WD_Experimental_AmbushMinTier>매복 가능한 최소 정착지 등급</TSA_WD_Experimental_AmbushMinTier>
+  <TSA_WD_Experimental_AmbushMinTierTip>이 등급 이상의 NPC 정착지만 감시를 수행하고 매복 요격대를 출격시킵니다. 더 낮은 등급의 촌락은 출격하지 않습니다. 박격포 및 신속 대응 기지는 변경되지 않으며 자체 방어 사거리를 사용합니다.</TSA_WD_Experimental_AmbushMinTierTip>
+  <TSA_WD_Experimental_AmbushMaxConcurrent>이동 중인 최대 동시 매복 요격대 수</TSA_WD_Experimental_AmbushMaxConcurrent>
+  <TSA_WD_Experimental_AmbushMaxConcurrentTip>세계 지도 전체에 동시에 존재할 수 있는 NPC 매복 요격대의 총 한도입니다. 0은 제한 없음을 의미합니다. 플레이어 신속 대응은 포함되지 않습니다. 성능 사전 설정을 적용하면 이 값이 덮어씌워집니다.</TSA_WD_Experimental_AmbushMaxConcurrentTip>
+  <TSA_WD_Experimental_AmbushMaxConcurrentUnlimited>제한 없음</TSA_WD_Experimental_AmbushMaxConcurrentUnlimited>
+  <TSA_WD_Experimental_AmbushWatchRange>일반 정착지 매복 감시 범위 (타일)</TSA_WD_Experimental_AmbushWatchRange>
+  <TSA_WD_Experimental_AmbushWatchRangeTip>적격 등급의 일반 NPC 정착지가 매복 목표를 감시하는 거리입니다. 정착지 주변의 내부 통행 차단 타일 반경과 일치하도록 설계되었습니다. 박격포 및 신속 대응 기지는 이 매복 감시 범위가 아닌 자체 방어 사거리를 통해 요격합니다.</TSA_WD_Experimental_AmbushWatchRangeTip>
+  <TSA_WD_Experimental_OpportunityIgnoreEscalationGate>게임 시작부터 우발 표적, 약탈 및 매복 허용</TSA_WD_Experimental_OpportunityIgnoreEscalationGate>
+  <TSA_WD_Experimental_OpportunityIgnoreEscalationGateTip>활성화하면 우발 표적 재지정, 승리 후 약탈, 정착지 매복(위 항목에서 활성화된 것들)이 중반 또는 후반 고조 단계에 도달할 때까지 기다리지 않고 게임 극초반부터 발생할 수 있습니다. 위 세 가지 중 최소 하나라도 켜져 있지 않으면 아무 효과도 없습니다.</TSA_WD_Experimental_OpportunityIgnoreEscalationGateTip>
+  <TSA_WD_Experimental_EnableWorldMapSounds>WD 세계 지도 전투 음향</TSA_WD_Experimental_EnableWorldMapSounds>
+  <TSA_WD_Experimental_EnableWorldMapSoundsTip>활성화하면 AT 포탑, 박격포, 대공포 사격 시 세계 지도에서 짧은 일회성 효과음이 재생됩니다. 끄면 모든 WD 전투 효과음이 음소거됩니다. UI 클릭음은 변경되지 않습니다.</TSA_WD_Experimental_EnableWorldMapSoundsTip>
+  <TSA_WD_Experimental_UnlimitedAssaultMortarSupport>정착지 강습 시 무제한 박격포 지원</TSA_WD_Experimental_UnlimitedAssaultMortarSupport>
+  <TSA_WD_Experimental_UnlimitedAssaultMortarSupportTip>활성화하면 사거리 내에 박격포 전초기지가 없어도, 전초기지를 재사용 대기시간에 빠뜨리지 않고도 강습 지도 포격 플로팅 버튼으로 사격할 수 있습니다. 기본값은 비활성화입니다.</TSA_WD_Experimental_UnlimitedAssaultMortarSupportTip>
+  <TSA_WD_Experimental_OutpostCePassiveAmmo>전초기지 Combat Extended 탄약 비축</TSA_WD_Experimental_OutpostCePassiveAmmo>
+  <TSA_WD_Experimental_OutpostCePassiveAmmoTip>Combat Extended 모드가 활성화된 경우, 원거리 주무기를 장비한 전초기지 정착민이 해당 무기의 기본 탄약(FMJ, 돌 화살, 간이 로켓)을 하루에 {0}탄창씩, 소지품 내 최대 {1}탄창까지 서서히 비축합니다. 비용이 들지 않으며 다소 사기적일 수 있습니다. 비활성화하려면 끄세요. 기본값은 활성화입니다.</TSA_WD_Experimental_OutpostCePassiveAmmoTip>
+  <TSA_WD_Experimental_OutpostArmory>전초기지 무기고</TSA_WD_Experimental_OutpostArmory>
+  <TSA_WD_Experimental_OutpostArmoryTip>활성화하면 모든 전초기지에 무기, 방어구, 의약품, 약물, 음식 및 탄약을 보관할 수 있는 임시 저장소가 유지됩니다. 상단이나 수송 포드로 도착한 장비는 파괴되지 않고 저장되며, 정착민 탭의 '무기고' 버튼을 통해 주둔 인원에게 지급할 수 있습니다. 끄면 도착 장비를 다시 폐기합니다. 이미 저장된 물품은 세이브 파일에 유지됩니다. 기본값은 활성화입니다.</TSA_WD_Experimental_OutpostArmoryTip>
+  <TSA_WD_Experimental_T4GravshipRaids>실험적 기능: 4등급 중력선 습격</TSA_WD_Experimental_T4GravshipRaids>
+  <TSA_WD_Experimental_T4GravshipRaidsTip>활성화하면 4등급 정착지가 플레이어에게 탄도 중력선 습격 이동단을 출격시킬 수 있습니다. Odyssey 모드 및 Gravship Raids 창작마당 모드(sk.gravshipraids)가 필요합니다. 해당 모드가 없으면 아무 효과가 없습니다. 기본값은 비활성화입니다.</TSA_WD_Experimental_T4GravshipRaidsTip>
+  <TSA_WD_Experimental_GravshipRaidChanceT4>4등급 중력선 습격 확률</TSA_WD_Experimental_GravshipRaidChanceT4>
+  <TSA_WD_Experimental_GravshipRaidChanceT4Tip>4등급 정착지가 습격을 시작하고 중력선 습격이 활성화되어 있을 때, 수송 포드나 도보 상단 대신 중력선 이동단을 사용할 확률입니다. 일반 수송 포드 확률보다 먼저 굴립니다.</TSA_WD_Experimental_GravshipRaidChanceT4Tip>
+  <TSA_WD_Experimental_OutpostWithdrawStrengthBudget>실험적 기능: 전초기지 철수 병력 예산</TSA_WD_Experimental_OutpostWithdrawStrengthBudget>
+  <TSA_WD_Experimental_OutpostWithdrawStrengthBudgetTip>활성화하면 인원 철수 시 상한 없는 현재 공격 전투력에 5%의 확인 여유분을 적용합니다. 선택한 폰이 해당 예산을 초과하면 선택창이 열립니다: 상단 구성, 전초기지 잔류, 또는 실종 처리. 비활성화하면 이 확인 없이 항상 이동이 진행됩니다.</TSA_WD_Experimental_OutpostWithdrawStrengthBudgetTip>
+  <TSA_WD_Experimental_OutpostDefenseDeployBudget>실험적 기능: 전초기지 수동 방어 배치 병력 예산</TSA_WD_Experimental_OutpostDefenseDeployBudget>
+  <TSA_WD_Experimental_OutpostDefenseDeployBudgetTip>활성화하면 '직접 전투' 시 현재 공격 전투력에 따라 배치할 수 있는 전초기지 폰 수가 제한됩니다. 비활성화하면 예산 한도 없이 자유롭게 조합하여 선택할 수 있습니다.</TSA_WD_Experimental_OutpostDefenseDeployBudgetTip>
+  <TSA_WD_Experimental_HeaderAtTurrets>AT 포탑</TSA_WD_Experimental_HeaderAtTurrets>
+  <TSA_WD_Experimental_HeaderPlayerAtTurretCaps>플레이어 AT 포탑 보유 한도</TSA_WD_Experimental_HeaderPlayerAtTurretCaps>
+  <TSA_WD_Experimental_AT_TurretPlayerGlobalMax>플레이어 전체 AT 포탑 보유 한도</TSA_WD_Experimental_AT_TurretPlayerGlobalMax>
+  <TSA_WD_Experimental_AT_TurretPlayerGlobalMaxTip>플레이어 세력이 정착지와 모든 전초기지를 통틀어 동시에 보유할 수 있는 최대 AT 포탑 수입니다. NPC 정착지는 대신 요새화 등급 한도를 따릅니다.</TSA_WD_Experimental_AT_TurretPlayerGlobalMaxTip>
+  <TSA_WD_Experimental_AT_TurretPlayerPerSiteMax>정착지 또는 전초기지당 AT 포탑 한도</TSA_WD_Experimental_AT_TurretPlayerPerSiteMax>
+  <TSA_WD_Experimental_AT_TurretPlayerPerSiteMaxTip>플레이어 정착지 1곳 또는 WD 전초기지 1곳에 귀속될 수 있는 최대 AT 포탑 수입니다. 각 기지별로 이 한도에 맞춰 개별 계산됩니다.</TSA_WD_Experimental_AT_TurretPlayerPerSiteMaxTip>
+  <TSA_WD_Experimental_AT_TurretMaxStrength>AT 포탑 전투력 (내구도)</TSA_WD_Experimental_AT_TurretMaxStrength>
+  <TSA_WD_Experimental_AT_TurretMaxStrengthTip>이 유형의 새 AT 포탑이 건설될 때 주어지는 내구도입니다. 이미 지도에 배치된 포탑은 변경되지 않습니다. 도로 건설의 원정 전투력과는 별개입니다.</TSA_WD_Experimental_AT_TurretMaxStrengthTip>
+  <TSA_WD_Experimental_AT_TurretDamage>AT 포탑 포탄 피해량</TSA_WD_Experimental_AT_TurretDamage>
+  <TSA_WD_Experimental_AT_TurretDamageTip>AT 포탑 포탄이 명중했을 때 입히는 전투력 피해량입니다.</TSA_WD_Experimental_AT_TurretDamageTip>
+  <TSA_WD_Experimental_AT_TurretCooldown>AT 포탑 재사용 대기시간 (일)</TSA_WD_Experimental_AT_TurretCooldown>
+  <TSA_WD_Experimental_AT_TurretCooldownTip>AT 포탑이 사격 후 다시 발사할 수 있을 때까지 걸리는 일수입니다. 매우 낮은 값은 테스트용입니다.</TSA_WD_Experimental_AT_TurretCooldownTip>
+  <TSA_WD_Experimental_AT_TurretRange>AT 포탑 사거리 (타일)</TSA_WD_Experimental_AT_TurretRange>
+  <TSA_WD_Experimental_AT_TurretRangeTip>이 유형 AT 포탑의 사거리 및 근접 유인 반경입니다. 설정 변경 시 즉시 적용됩니다.</TSA_WD_Experimental_AT_TurretRangeTip>
+  <TSA_WD_Experimental_AT_TurretHitBand0To50>최대 사거리의 0~50% 구간 AT 포탑 명중률</TSA_WD_Experimental_AT_TurretHitBand0To50>
+  <TSA_WD_Experimental_AT_TurretHitBand0To50Tip>내부 근거리 구간 사격의 기본 명중률입니다. 기술 보정치(레벨당 +1%p, 현재 8)가 추가로 가산됩니다.</TSA_WD_Experimental_AT_TurretHitBand0To50Tip>
+  <TSA_WD_Experimental_AT_TurretHitBand51To75>최대 사거리의 51~75% 구간 AT 포탑 명중률</TSA_WD_Experimental_AT_TurretHitBand51To75>
+  <TSA_WD_Experimental_AT_TurretHitBand51To75Tip>중간 거리 구간 사격의 기본 명중률입니다. 박격포 / 4등급 정착지 명중률과는 무관합니다.</TSA_WD_Experimental_AT_TurretHitBand51To75Tip>
+  <TSA_WD_Experimental_AT_TurretHitBand76To100>최대 사거리의 76~100% 구간 AT 포탑 명중률</TSA_WD_Experimental_AT_TurretHitBand76To100>
+  <TSA_WD_Experimental_AT_TurretHitBand76To100Tip>AT 포탑 최대 사거리 외곽 가장자리 구간의 기본 명중률입니다. 박격포 / 4등급 정착지 명중률과는 무관합니다.</TSA_WD_Experimental_AT_TurretHitBand76To100Tip>
+  <TSA_WD_Experimental_HeaderControls>세계 지도 제어</TSA_WD_Experimental_HeaderControls>
+  <TSA_WD_AutoAdd_DefaultOn>도착자 자동 편입 기본 활성화</TSA_WD_AutoAdd_DefaultOn>
+  <TSA_WD_AutoAdd_DefaultOnTip>활성화하면 새로 설립된 WD 전초기지에서 '도착자 자동 편입' 버튼(해당 전초기지가 목적지인 상단 대상)이 기본적으로 켜진 채 시작합니다. 기존 전초기지는 변경되지 않으며, 전초기지별로 개별 설정할 수도 있습니다.</TSA_WD_AutoAdd_DefaultOnTip>
+  <TSA_WD_TravelFood_PrisonerRecruit>포섭 후 이송되는 죄수에게 식량 지급</TSA_WD_TravelFood_PrisonerRecruit>
+  <TSA_WD_TravelFood_PrisonerRecruitTip>활성화하면 포섭된 후 지정된 정착지나 전초기지로 보내지는 죄수가 각자 페미컨 150개를 지닌 채 출발합니다. 정착지에서 출발할 때는 동일한 열량의 지도 내 식량(부패가 빠른 식량 우선)으로 충당하며, 전초기지에서는 가상 식량에서 차감합니다. 식량이 부족하면 해당 페미컨 팩 없이 이동합니다.</TSA_WD_TravelFood_PrisonerRecruitTip>
+  <TSA_WD_TravelFood_AllPlayerPawns>모든 플레이어 폰 창을 통해 이동하는 폰에게 식량 지급</TSA_WD_TravelFood_AllPlayerPawns>
+  <TSA_WD_TravelFood_AllPlayerPawnsTip>활성화하면 '모든 플레이어 폰' 창을 통해 이동하는 폰이 각자 페미컨 150개를 지닌 채 출발합니다. 정착지에서 출발할 때는 동일한 열량의 지도 내 식량(부패가 빠른 식량 우선)으로 충당하며, 전초기지에서는 가상 식량에서 차감합니다. 식량이 부족하면 해당 페미컨 팩 없이 이동합니다.</TSA_WD_TravelFood_AllPlayerPawnsTip>
+  <TSA_WD_OutpostSim_ShowInWdMenu>WD 세계 지도 메뉴에 전초기지 설립 시뮬레이션 표시</TSA_WD_OutpostSim_ShowInWdMenu>
+  <TSA_WD_OutpostSim_ShowInWdMenuTip>활성화하면 WD 세계 지도 메뉴에 '전초기지 설립 시뮬레이션'이 포함되어 상단을 파견하지 않고도 타일을 클릭해 요구 조건과 재료 비용을 미리 확인할 수 있습니다.</TSA_WD_OutpostSim_ShowInWdMenuTip>
+  <TSA_WD_Experimental_HeaderFortify>NPC 요새화</TSA_WD_Experimental_HeaderFortify>
+  <TSA_WD_Fortify_MinFromSelf>정착지로부터의 최소 거리</TSA_WD_Fortify_MinFromSelf>
+  <TSA_WD_Fortify_MinFromSelfTip>레거시(미사용). NPC 요새화는 이제 거북이 키트 동심원(반경 1: AT 포탑, 반경 2: 함정 및 바리케이드)에 배치됩니다.</TSA_WD_Fortify_MinFromSelfTip>
+  <TSA_WD_Fortify_MinFromOther>다른 정착지와의 최소 거리</TSA_WD_Fortify_MinFromOther>
+  <TSA_WD_Fortify_MinFromOtherTip>레거시(미사용). NPC 요새화는 이제 다른 정착지와의 최소 거리 규칙을 사용하지 않습니다.</TSA_WD_Fortify_MinFromOtherTip>
+  <TSA_WD_Fortify_MaxFromSelf>정착지로부터의 최대 거리</TSA_WD_Fortify_MaxFromSelf>
+  <TSA_WD_Fortify_MaxFromSelfTip>레거시(미사용). NPC 요새화는 최대 거리 범위 대신 고정된 거북이 키트 반경을 사용합니다.</TSA_WD_Fortify_MaxFromSelfTip>
+  <TSA_WD_Fortify_MaxTravel>요새화 설치 최대 이동 거리</TSA_WD_Fortify_MaxTravel>
+  <TSA_WD_Fortify_MaxTravelTip>레거시(미사용). NPC 요새화는 항상 위협받는 정착지 자체에 건설됩니다(원거리 개척지 위임 없음).</TSA_WD_Fortify_MaxTravelTip>
+  <TSA_WD_Fortify_TerritoryLink>영토 연결 범위</TSA_WD_Fortify_TerritoryLink>
+  <TSA_WD_Fortify_TerritoryLinkTip>레거시(미사용). 영토 및 개척지 감지 기능이 NPC 요새화에서 제거되었습니다. 세이브 호환성을 위해 항목만 남아 있습니다.</TSA_WD_Fortify_TerritoryLinkTip>
+  <TSA_WD_Fortify_TravelerStrength>요새화 이동단 전투력</TSA_WD_Fortify_TravelerStrength>
+  <TSA_WD_Fortify_TravelerStrengthTip>요새화 작업팀당 정착지에서 차감되는 공격 전투력입니다. 함정 및 도로 바리케이드 단계에서는 여러 팀을 동시에 출격시킬 수 있으며, AT 포탑은 항상 단일 팀입니다.</TSA_WD_Fortify_TravelerStrengthTip>
+  <TSA_WD_Fortify_ClearOnBuilderLoss>건설 세력 함락 시 요새화 철거</TSA_WD_Fortify_ClearOnBuilderLoss>
+  <TSA_WD_Fortify_ClearOnBuilderLossTip>활성화하면 해당 정착지가 파괴되거나 세력이 변경될 경우, 그 정착지가 설치했던 도로 바리케이드와 함정이 제거됩니다.</TSA_WD_Fortify_ClearOnBuilderLossTip>
+  <TSA_WD_Fortify_EnableBlacklist>동맹 요새화 건설 금지 타일 지정 활성화</TSA_WD_Fortify_EnableBlacklist>
+  <TSA_WD_Fortify_EnableBlacklistTip>WD 세계 지도 메뉴에서 '차단 타일 추가/제거'(요새화 금지 표시)를 해금합니다. 표시된 타일에는 동맹이 새로운 도로 바리케이드나 함정을 설치하지 못하게 차단합니다. 기존 요새화는 '요새화 제거' 명령을 내릴 때까지 유지됩니다. 적대 세력은 이 표시를 무시합니다.</TSA_WD_Fortify_EnableBlacklistTip>
+  <TSA_WD_Fortify_BlacklistApplyNeutral>중립 세력에도 적용</TSA_WD_Fortify_BlacklistApplyNeutral>
+  <TSA_WD_Fortify_BlacklistApplyNeutralTip>활성화하면 중립 세력도 표시된 타일에 새 요새화를 설치할 수 없습니다. 동맹 세력은 항상 표시의 제한을 받습니다. 적대 세력은 표시를 무시합니다.</TSA_WD_Fortify_BlacklistApplyNeutralTip>
+  <TSA_WD_Daily_HeaderFortify>NPC 요새화</TSA_WD_Daily_HeaderFortify>
+  <TSA_WD_Fortify_HeaderTypeChances>설치 대상</TSA_WD_Fortify_HeaderTypeChances>
+  <TSA_WD_Fortify_ChanceRoadBlock>도로 바리케이드 확률</TSA_WD_Fortify_ChanceRoadBlock>
+  <TSA_WD_Fortify_ChanceRoadBlockTip>레거시(미사용). NPC 요새화는 고정된 순서(함정 -&gt; 도로 바리케이드 -&gt; AT 포탑)로 설치됩니다(무작위 유형 추첨 없음).</TSA_WD_Fortify_ChanceRoadBlockTip>
+  <TSA_WD_Fortify_ChanceTrap>함정 확률</TSA_WD_Fortify_ChanceTrap>
+  <TSA_WD_Fortify_ChanceTrapTip>레거시(미사용). 바깥 고리에 여전히 도로나 함정이 필요할 때 함정 배치가 첫 번째 요새화 단계가 됩니다.</TSA_WD_Fortify_ChanceTrapTip>
+  <TSA_WD_Fortify_ChanceTurret>AT 포탑 확률</TSA_WD_Fortify_ChanceTurret>
+  <TSA_WD_Fortify_ChanceTurretTip>레거시(미사용). AT 포탑은 요새화의 마지막 단계입니다(반경 1, 분산 배치, 키트 등급 한도).</TSA_WD_Fortify_ChanceTurretTip>
+  <TSA_WD_Fortify_HeaderMultiCaravan>다중 상단 출격</TSA_WD_Fortify_HeaderMultiCaravan>
+  <TSA_WD_Fortify_MultiT1ChanceOf2>1등급 상단 2팀 출격 확률</TSA_WD_Fortify_MultiT1ChanceOf2>
+  <TSA_WD_Fortify_MultiT1ChanceOf2Tip>요새화가 함정 또는 도로 바리케이드 단계일 때: 1등급 정착지가 1팀 대신 2팀을 출격시킬 확률입니다. NPC 도로 다중 출격에도 사용됩니다.</TSA_WD_Fortify_MultiT1ChanceOf2Tip>
+  <TSA_WD_Fortify_MultiT2ChanceOf2>2등급 상단 2팀 출격 확률</TSA_WD_Fortify_MultiT2ChanceOf2>
+  <TSA_WD_Fortify_MultiT2ChanceOf2Tip>요새화가 함정 또는 도로 바리케이드 단계일 때: 2등급 정착지가 1팀 대신 2팀을 출격시킬 확률입니다.</TSA_WD_Fortify_MultiT2ChanceOf2Tip>
+  <TSA_WD_Fortify_MultiT3ChanceOf2>3등급 상단 2팀 출격 확률</TSA_WD_Fortify_MultiT3ChanceOf2>
+  <TSA_WD_Fortify_MultiT3ChanceOf2Tip>요새화가 함정 또는 도로 바리케이드 단계일 때: 3등급 정착지가 1팀 대신 2팀을 출격시킬 확률입니다.</TSA_WD_Fortify_MultiT3ChanceOf2Tip>
+  <TSA_WD_Fortify_MultiT4ChanceOf3>4등급 상단 3팀 출격 확률</TSA_WD_Fortify_MultiT4ChanceOf3>
+  <TSA_WD_Fortify_MultiT4ChanceOf3Tip>요새화가 함정 또는 도로 바리케이드 단계일 때: 4등급 정착지가 2팀 대신 3팀을 출격시킬 확률입니다.</TSA_WD_Fortify_MultiT4ChanceOf3Tip>
+  <TSA_WD_Fortify_HeaderAtTurrets>AT 포탑 한도</TSA_WD_Fortify_HeaderAtTurrets>
+  <TSA_WD_Fortify_AtTurretMaxT1>1등급 최대 AT 포탑 수</TSA_WD_Fortify_AtTurretMaxT1>
+  <TSA_WD_Fortify_AtTurretMaxT2>2등급 최대 AT 포탑 수</TSA_WD_Fortify_AtTurretMaxT2>
+  <TSA_WD_Fortify_AtTurretMaxT3>3등급 최대 AT 포탑 수</TSA_WD_Fortify_AtTurretMaxT3>
+  <TSA_WD_Fortify_AtTurretMaxT4>4등급 최대 AT 포탑 수</TSA_WD_Fortify_AtTurretMaxT4>
+  <TSA_WD_Fortify_AtTurretMaxTip>해당 등급의 NPC 정착지가 동시에 보유할 수 있는 최대 AT 포탑 수입니다. 플레이어 정착지 및 전초기지 한도는 '실험적 기능' 설정에 있습니다.</TSA_WD_Fortify_AtTurretMaxTip>
+  <TSA_WD_Experimental_HeaderPollution>오염</TSA_WD_Experimental_HeaderPollution>
+  <TSA_WD_Experimental_HeaderUpkeep>전초기지 은 유지비</TSA_WD_Experimental_HeaderUpkeep>
+  <TSA_WD_Upkeep_Enable>전초기지 은 유지비 활성화 (중반/후반)</TSA_WD_Upkeep_Enable>
+  <TSA_WD_Upkeep_EnableTip>중반 또는 후반 고조 단계가 활성화된 동안, 전초기지 정착민에게 유지비 주기마다 은이 소모됩니다. 은을 지불하지 못하면 정착민이 떠납니다. 실험적 기능이며 기본값은 비활성화입니다.</TSA_WD_Upkeep_EnableTip>
+  <TSA_WD_DropPodTransportCostComponents>수송 포드 이동 부품 비용</TSA_WD_DropPodTransportCostComponents>
+  <TSA_WD_DropPodTransportCostComponentsTip>활성화하면 플레이어 수송 포드 발사 시 부품이 소모됩니다(이동 폰 1명당 1개, 화물 이동단당 1개). 비활성화하면 표시 및 청구 비용이 0이 됩니다. 쉬움 난이도 사전 설정에서는 비활성화되며 보통 및 어려움에서는 활성화됩니다.</TSA_WD_DropPodTransportCostComponentsTip>
+  <TSA_WD_Upkeep_SilverPerOccupant>전초기지 정착민당 은 비용</TSA_WD_Upkeep_SilverPerOccupant>
+  <TSA_WD_Upkeep_SilverPerOccupantTip>플레이어 WD 전초기지의 주둔 인원 1명마다 이만큼의 은 비용이 청구서에 추가됩니다. 메카노이드, 죄수, 동물 및 탑승물은 무료입니다.</TSA_WD_Upkeep_SilverPerOccupantTip>
+  <TSA_WD_Upkeep_IntervalDays>유지비 납부 주기 (일)</TSA_WD_Upkeep_IntervalDays>
+  <TSA_WD_Upkeep_IntervalDaysTip>중반 또는 후반 단계가 활성화된 동안 유지비 마감일 사이의 일수입니다.</TSA_WD_Upkeep_IntervalDaysTip>
+  <TSA_WD_Pollution_IgnoreBelow>무시할 오염도 상한</TSA_WD_Pollution_IgnoreBelow>
+  <TSA_WD_Pollution_IgnoreBelowTip>이 오염도 미만의 타일은 이동단 이탈 피해를 주지 않습니다. 기지 일일 피해 역시 반경 내 평균 오염도에 대해 동일한 곡선을 적용합니다. 이 임계값에서 피해량은 임계값 피해 수치와 동일해집니다.</TSA_WD_Pollution_IgnoreBelowTip>
+  <TSA_WD_Pollution_DamageAtThreshold>임계값 피해량</TSA_WD_Pollution_DamageAtThreshold>
+  <TSA_WD_Pollution_DamageAtThresholdTip>무시 상한 오염도 수준의 타일을 벗어날 때 손실되는 전투력입니다(해당 평균 오염도에서의 기지 일일 피해도 동일).</TSA_WD_Pollution_DamageAtThresholdTip>
+  <TSA_WD_Pollution_DamageAtFull>100% 오염 피해량</TSA_WD_Pollution_DamageAtFull>
+  <TSA_WD_Pollution_DamageAtFullTip>완전 오염 상태에서 손실되는 전투력입니다. 임계값과 100% 사이의 값은 선형으로 보간됩니다.</TSA_WD_Pollution_DamageAtFullTip>
+  <TSA_WD_Pollution_DamageRadius>기지 오염 피해 반경</TSA_WD_Pollution_DamageRadius>
+  <TSA_WD_Pollution_DamageRadiusTip>일일 평균 오염 피해 및 NPC 자동 정화 탐색에 사용되는 정착지와 전초기지 주변의 세계 타일 반경입니다. 기지 타일이 포함됩니다.</TSA_WD_Pollution_DamageRadiusTip>
+  <TSA_WD_Pollution_NpcDecontamCost>NPC 정화 전투력 소모</TSA_WD_Pollution_NpcDecontamCost>
+  <TSA_WD_Pollution_NpcDecontamCostTip>NPC 정착지가 자동 정화팀을 파견할 때 소모하려는 공격 전투력입니다. 공격 전투력이 10 미만으로 내려가지 않습니다. 정착지가 이를 지불할 수 없더라도 팀은 여전히 출격합니다.</TSA_WD_Pollution_NpcDecontamCostTip>
+  <TSA_WD_Pollution_PathCost>오염 경로 비용</TSA_WD_Pollution_PathCost>
+  <TSA_WD_Pollution_PathCostTip>활성화하면 WD 경로 탐색 시 오염된 타일의 이동 비용을 더 높게 처리하여 이동단이 더 깨끗한 경로를 선호하도록 만듭니다. 성능 사전 설정을 적용하면 이 설정이 덮어씌워집니다.</TSA_WD_Pollution_PathCostTip>
+  <TSA_WD_Pollution_PathRepath>이동 중 오염에 따른 경로 재설정</TSA_WD_Pollution_PathRepath>
+  <TSA_WD_Pollution_PathRepathTip>활성화하면 이동 중에 오염 비용이 변할 경우 이동단이 경로를 재계산할 수 있습니다. 성능 사전 설정을 적용하면 이 설정이 덮어씌워집니다.</TSA_WD_Pollution_PathRepathTip>
+  <TSA_WD_Pollution_PathPreCommitCancel>오염 차단 시 출발 취소</TSA_WD_Pollution_PathPreCommitCancel>
+  <TSA_WD_Pollution_PathPreCommitCancelTip>활성화하면 계획된 경로가 오염 비용 규칙에 의해 막힐 경우 임무 출발을 거부할 수 있습니다. 성능 사전 설정을 적용하면 이 설정이 덮어씌워집니다.</TSA_WD_Pollution_PathPreCommitCancelTip>
+  <TSA_WD_LateGame_OnlyFireT4MortarsAtPlayer>후반 게임 활성화 중에만 플레이어에게 4등급 박격포 사격</TSA_WD_LateGame_OnlyFireT4MortarsAtPlayer>
+  <TSA_WD_LateGame_OnlyFireT4AntiAirAtPlayer>후반 게임 활성화 중에만 플레이어에게 4등급 대공포 사격</TSA_WD_LateGame_OnlyFireT4AntiAirAtPlayer>
+  <TSA_WD_MidGame_OnlyFireT4MortarsAtPlayer>중반 게임 활성화 중에만 플레이어에게 4등급 박격포 사격</TSA_WD_MidGame_OnlyFireT4MortarsAtPlayer>
+  <TSA_WD_MidGame_OnlyFireT4AntiAirAtPlayer>중반 게임 활성화 중에만 플레이어에게 4등급 대공포 사격</TSA_WD_MidGame_OnlyFireT4AntiAirAtPlayer>
+</LanguageData>

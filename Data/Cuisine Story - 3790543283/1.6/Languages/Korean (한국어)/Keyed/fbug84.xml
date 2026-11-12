@@ -1,0 +1,1354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CuisineStory_SettingsCategory>Cuisine Story</CuisineStory_SettingsCategory>
+  <CuisineStory_Common_Cancel>취소</CuisineStory_Common_Cancel>
+  <CuisineStory_Common_Confirm>확인</CuisineStory_Common_Confirm>
+  <CuisineStory_Common_Prev>이전</CuisineStory_Common_Prev>
+  <CuisineStory_Common_Next>다음</CuisineStory_Common_Next>
+  <CuisineStory_Menu_BookView>책 메뉴로 전환</CuisineStory_Menu_BookView>
+  <CuisineStory_Menu_CompactView>간단한 목록으로 전환</CuisineStory_Menu_CompactView>
+  <CuisineStory_Workbench_Uncraftable>지금은 만들 수 없음</CuisineStory_Workbench_Uncraftable>
+  <CuisineStory_Common_Close>닫기</CuisineStory_Common_Close>
+  <CuisineStory_Common_Save>저장</CuisineStory_Common_Save>
+  <CuisineStory_Common_Reset>기본값으로 되돌리기</CuisineStory_Common_Reset>
+  <CuisineStory_Common_None>없음</CuisineStory_Common_None>
+  <CuisineStory_Common_Any>같은 종류의 아무 재료</CuisineStory_Common_Any>
+  <CuisineStory_Common_Unrecorded>기록 없음</CuisineStory_Common_Unrecorded>
+  <CuisineStory_Common_ClassicRecipe>정통 레시피</CuisineStory_Common_ClassicRecipe>
+  <CuisineStory_Common_Cuisine>요리</CuisineStory_Common_Cuisine>
+  <CuisineStory_Common_DefaultDish>요리</CuisineStory_Common_DefaultDish>
+  <CuisineStory_Common_CombinedDish>조합 요리</CuisineStory_Common_CombinedDish>
+  <CuisineStory_Common_General>일반</CuisineStory_Common_General>
+  <CuisineStory_Common_Ingredient>재료</CuisineStory_Common_Ingredient>
+  <CuisineStory_Common_ListSeparator>,</CuisineStory_Common_ListSeparator>
+  <CuisineStory_Bill_Job>{DISH} 만들기</CuisineStory_Bill_Job>
+  <CuisineStory_Bill_Description>{TYPE}, {COOKWARE}, {STARS}</CuisineStory_Bill_Description>
+  <CuisineStory_Record_InvalidIngredients>이 레시피에 쓸 수 없는 재료(건물, 설치되지 않은 건물, 장비)가 들어 있습니다. 다시 개발하세요.</CuisineStory_Record_InvalidIngredients>
+  <CuisineStory_Rule_NeedMain>주재료를 하나 이상 넣으세요.</CuisineStory_Rule_NeedMain>
+  <CuisineStory_Rule_CakeBatterNeedsOven>케이크 반죽은 오븐으로만 구울 수 있습니다.</CuisineStory_Rule_CakeBatterNeedsOven>
+  <CuisineStory_Rule_SoupBaseNeedsPot>국물 베이스는 육수 냄비로만 끓일 수 있습니다.</CuisineStory_Rule_SoupBaseNeedsPot>
+  <CuisineStory_Rule_DirectFlour>밀가루는 요리에 바로 쓸 수 없습니다. 먼저 면, 납작빵, 만두피, 반죽 중 하나로 가공하세요.</CuisineStory_Rule_DirectFlour>
+  <CuisineStory_Rule_OilInPot>육수 냄비에는 기름진 부재료가 어울리지 않아 요리 능력치가 떨어졌습니다.</CuisineStory_Rule_OilInPot>
+  <CuisineStory_Rule_OilInSteamer>찜기에는 기름진 부재료가 어울리지 않아 요리 능력치가 떨어졌습니다.</CuisineStory_Rule_OilInSteamer>
+  <CuisineStory_Record_DefaultChef>요리사</CuisineStory_Record_DefaultChef>
+  <CuisineStory_Record_Unlock>새 요리 해금: "{DISH}"</CuisineStory_Record_Unlock>
+  <CuisineStory_Record_UnlockFamous>{CHEF}(이)가 명요리 "{DISH}" 요리를 개발해 냈습니다!</CuisineStory_Record_UnlockFamous>
+  <CuisineStory_Record_Upgrade>{CHEF}의 노력으로 "{DISH}"의 {DIMENSIONS}(이)가 향상되었습니다.</CuisineStory_Record_Upgrade>
+  <CuisineStory_Dimension_Unknown>능력치</CuisineStory_Dimension_Unknown>
+  <CuisineStory_Menu_Nutrition>열량: {VALUE}</CuisineStory_Menu_Nutrition>
+  <CuisineStory_Menu_Breakthrough>돌파: {VALUE}회</CuisineStory_Menu_Breakthrough>
+  <CuisineStory_Restaurant_OrderBill>식당 주문 · {DISH}</CuisineStory_Restaurant_OrderBill>
+  <CuisineStory_IngredientFilter_Title>재료 선택</CuisineStory_IngredientFilter_Title>
+  <CuisineStory_Meal_RatingInspect>요리 등급: {STARS}</CuisineStory_Meal_RatingInspect>
+  <CuisineStory_ClassicImport_ResearchUnlocked>연구로 정통 레시피 {COUNT}개를 해금해 메뉴에 추가했습니다.</CuisineStory_ClassicImport_ResearchUnlocked>
+  <CuisineStory_Research_ModRecipes>{MOD} 레시피</CuisineStory_Research_ModRecipes>
+  <CuisineStory_Research_ModRecipesDescription>출처: {MOD}</CuisineStory_Research_ModRecipesDescription>
+  <CuisineStory_Research_SourceDescription>출처: {MOD}</CuisineStory_Research_SourceDescription>
+  <CuisineStory_Research_StagedDescription>레시피 {COUNT}개가 들어 있습니다.\n진행도는 현재 기술 수준에 맞춰 환산되며, 단계를 하나 마칠 때마다 레시피 하나가 해금됩니다.</CuisineStory_Research_StagedDescription>
+  <CuisineStory_Common_Unknown>알 수 없음</CuisineStory_Common_Unknown>
+  <CuisineStory_Research_RecipeUnlocked>요리 연구 돌파: "{RECIPE}" 레시피 해금 ({CURRENT}/{TOTAL})</CuisineStory_Research_RecipeUnlocked>
+  <CuisineStory_InitialRecipes_LetterTitle>떠오른 레시피</CuisineStory_InitialRecipes_LetterTitle>
+  <CuisineStory_InitialRecipes_LetterText>정착민들이 정착지에 도움이 될 만한 레시피 몇 가지를 떠올렸습니다. 요리 개발 메뉴에서 확인하세요.</CuisineStory_InitialRecipes_LetterText>
+  <CuisineStory_Classic_Hardtack>건빵</CuisineStory_Classic_Hardtack>
+  <CuisineStory_RecipeBook_UnknownDish>알 수 없는 정통 요리</CuisineStory_RecipeBook_UnknownDish>
+  <CuisineStory_RecipeBook_StatusUnlocked>이 정통 레시피는 이미 요리 메뉴에 추가되었습니다.</CuisineStory_RecipeBook_StatusUnlocked>
+  <CuisineStory_RecipeBook_StatusUnread>끝까지 읽으면 이 정통 레시피가 요리 메뉴에 추가됩니다.</CuisineStory_RecipeBook_StatusUnread>
+  <CuisineStory_RecipeBook_Description>변방계 곳곳의 정통 요리를 담은 요리책입니다.</CuisineStory_RecipeBook_Description>
+  <CuisineStory_RecipeBook_Unlocked>정통 레시피 "{DISH}" 책을 다 읽어 요리 메뉴에 추가했습니다.</CuisineStory_RecipeBook_Unlocked>
+  <CuisineStory_RecipeBook_Benefit> - 다 읽으면 정통 요리 {DISH} 해금</CuisineStory_RecipeBook_Benefit>
+  <CuisineStory_DrugDish_Psychotic>너무 셌다! 요리에 든 약물 때문에 먹은 사람이 정신을 놓고 헤매기 시작했습니다.</CuisineStory_DrugDish_Psychotic>
+  <CuisineStory_DrugDish_Berserk>너무 셌다! 요리에 든 약물 때문에 먹은 사람이 광란에 빠졌습니다.</CuisineStory_DrugDish_Berserk>
+  <CuisineStory_DrugDish_InspirationReason>약물을 넣은 요리에서 얻은 영감</CuisineStory_DrugDish_InspirationReason>
+  <CuisineStory_DrugDish_Inspired>너무 셌다! 이 요리 덕분에 갑자기 영감이 떠올랐습니다.</CuisineStory_DrugDish_Inspired>
+  <CuisineStory_DrugDish_PsychoticFallback>너무 셌다! 이 요리를 먹고 멍하니 헤매기 시작했습니다.</CuisineStory_DrugDish_PsychoticFallback>
+  <CuisineStory_MarketValue_Crafted>조리 시 가치: {VALUE}</CuisineStory_MarketValue_Crafted>
+  <CuisineStory_MarketValue_Explanation>요리 가치: 재료 {COST} × 별 {STARFACTOR} × 품질 {QUALITYFACTOR}{FAMOUS}</CuisineStory_MarketValue_Explanation>
+  <CuisineStory_MarketValue_FamousBonus> (명요리 보너스 포함)</CuisineStory_MarketValue_FamousBonus>
+  <CuisineStory_Trade_SettlementLimit>이 정착지는 재입고 전까지 요리를 {COUNT}개만 더 살 수 있습니다.</CuisineStory_Trade_SettlementLimit>
+  <CuisineStory_Trade_CaravanLimit>이 상단은 요리를 {COUNT}개만 더 살 수 있습니다 (구성원 1명당 3개).</CuisineStory_Trade_CaravanLimit>
+  <CuisineStory_Trade_SettlementInspect>요리 구매: {CATEGORIES} / 최소 {STARS}성 / 남은 수량 {REMAINING}/{CAPACITY} (교역 인구 {POPULATION})</CuisineStory_Trade_SettlementInspect>
+  <CuisineStory_TradeCategory_SavoryCooked>익힌 식사 요리</CuisineStory_TradeCategory_SavoryCooked>
+  <CuisineStory_TradeCategory_RiceDish>밥 요리</CuisineStory_TradeCategory_RiceDish>
+  <CuisineStory_TradeCategory_NoodleDish>면 요리</CuisineStory_TradeCategory_NoodleDish>
+  <CuisineStory_TradeCategory_StuffedBread>소를 넣은 빵</CuisineStory_TradeCategory_StuffedBread>
+  <CuisineStory_TradeCategory_Bakery>구운 요리</CuisineStory_TradeCategory_Bakery>
+  <CuisineStory_TradeCategory_ColdDish>차가운 요리</CuisineStory_TradeCategory_ColdDish>
+  <CuisineStory_TradeCategory_Dessert>디저트</CuisineStory_TradeCategory_Dessert>
+  <CuisineStory_TradeCategory_Preserved>보존 요리</CuisineStory_TradeCategory_Preserved>
+  <CuisineStory_ProcessingRecipe_Description>조리대에서 기본 재료를 손질합니다.</CuisineStory_ProcessingRecipe_Description>
+  <CuisineStory_ProcessingRecipe_FermentationDescription>조리대에서 재료를 발효시키고 손질합니다.</CuisineStory_ProcessingRecipe_FermentationDescription>
+  <CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeCookingOil>식용유 만들기</CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeCookingOil>
+  <CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeSugarFromCane>설탕 정제</CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeSugarFromCane>
+  <CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeCheese>치즈 굳히기</CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeCheese>
+  <CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeGoldLeaf>금박 두드려 펴기</CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeGoldLeaf>
+  <CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeCream>크림 휘핑</CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeCream>
+  <CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeFlour>밀가루 빻기</CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeFlour>
+  <CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeNoodles>면 뽑기</CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeNoodles>
+  <CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeFlatbread>납작빵 만들기</CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeFlatbread>
+  <CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeWrapper>만두피 만들기</CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeWrapper>
+  <CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeDough>반죽 발효</CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeDough>
+  <CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeRice>밥 짓기</CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeRice>
+  <CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeMarinatedMeat>고기 재우기</CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeMarinatedMeat>
+  <CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeSoySauce>간장 담그기</CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeSoySauce>
+  <CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeSpiceBlend>향신료 섞기</CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeSpiceBlend>
+  <CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeVinegar>식초 빚기</CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeVinegar>
+  <CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeCookingWine>맛술 빚기</CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeCookingWine>
+  <CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeButter>버터 만들기</CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeButter>
+  <CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeStock>육수 우리기</CuisineStory_ProcessingRecipe_RimDreamCuisine_MakeStock>
+  <CuisineStory_Gizmo_CuisineDevelopment>요리 개발</CuisineStory_Gizmo_CuisineDevelopment>
+  <CuisineStory_Gizmo_CuisineDevelopmentTip>이 조리대의 작업 목록은 그대로 둔 채 요리 개발 화면을 엽니다.</CuisineStory_Gizmo_CuisineDevelopmentTip>
+  <CuisineStory_Penalty_DrugOverdose>너무 셈: 약물 양이 많아 먹으면 멍해지거나 폭력적인 정신이상이 올 수 있음</CuisineStory_Penalty_DrugOverdose>
+  <CuisineStory_Penalty_DryHeating>물이나 기름 없이 가열: 난이도 +2</CuisineStory_Penalty_DryHeating>
+  <CuisineStory_Penalty_MissingOil>기름 없이 조리: 난이도 +2</CuisineStory_Penalty_MissingOil>
+  <CuisineStory_Penalty_MissingWater>물 없이 조리: 난이도 +2</CuisineStory_Penalty_MissingWater>
+  <CuisineStory_Penalty_WaterySoup>멀겋고 싱거움: 난이도, 식감, 외관 각각 -1</CuisineStory_Penalty_WaterySoup>
+  <CuisineStory_FoodPriority_Title>요리 우선순위</CuisineStory_FoodPriority_Title>
+  <CuisineStory_FoodPriority_Search>요리 검색...</CuisineStory_FoodPriority_Search>
+  <CuisineStory_FoodPriority_ConfiguredOnly>설정한 것만 보기</CuisineStory_FoodPriority_ConfiguredOnly>
+  <CuisineStory_FoodPriority_Reset>초기화</CuisineStory_FoodPriority_Reset>
+  <CuisineStory_FoodPriority_NoPolicy>먼저 음식 정책을 고르세요.</CuisineStory_FoodPriority_NoPolicy>
+  <CuisineStory_FoodPriority_Highest>최우선</CuisineStory_FoodPriority_Highest>
+  <CuisineStory_FoodPriority_Preferred>선호</CuisineStory_FoodPriority_Preferred>
+  <CuisineStory_FoodPriority_Normal>보통</CuisineStory_FoodPriority_Normal>
+  <CuisineStory_FoodPriority_Reserve>비축</CuisineStory_FoodPriority_Reserve>
+  <CuisineStory_FoodPriority_Forbidden>금지</CuisineStory_FoodPriority_Forbidden>
+  <CuisineStory_Penalty_CookwareMismatch>조리 도구가 심하게 안 맞음: 최종 능력치 ×0.7, 향 -4</CuisineStory_Penalty_CookwareMismatch>
+  <CuisineStory_Penalty_MainConflict>주재료끼리 충돌: 핵심 풍미 ×0.75, 난이도 +1</CuisineStory_Penalty_MainConflict>
+  <CuisineStory_Penalty_SeasoningOverload>양념 과다: 식감과 건강 ×0.9, 식감 -4, 난이도 +1</CuisineStory_Penalty_SeasoningOverload>
+  <CuisineStory_Penalty_MissingBinder>모양을 잡아 줄 재료 없음: 식감과 외관 ×0.8, 난이도 +2</CuisineStory_Penalty_MissingBinder>
+  <CuisineStory_Penalty_DessertHeretic>디저트 이단: 신맛, 쓴맛, 짠맛 재료나 고기가 디저트 궁합을 망침</CuisineStory_Penalty_DessertHeretic>
+  <CuisineStory_Penalty_CakeBatterMeat>이단 조합: 케이크 반죽과 고기 때문에 궁합이 한 단계 떨어짐</CuisineStory_Penalty_CakeBatterMeat>
+  <CuisineStory_Penalty_CakeBatterStock>단짠 섞임: 케이크 반죽과 육수 때문에 궁합이 한 단계 떨어짐</CuisineStory_Penalty_CakeBatterStock>
+  <CuisineStory_Penalty_SoupBaseChocolate>국물 균형 붕괴: 국물 베이스와 초콜릿 때문에 궁합이 한 단계 떨어짐</CuisineStory_Penalty_SoupBaseChocolate>
+  <CuisineStory_Penalty_SpicyIceCream>매운 아이스크림 충돌: 식감 ×0.72, 건강 ×0.85, 난이도 +2</CuisineStory_Penalty_SpicyIceCream>
+  <CuisineStory_Penalty_BitterIceCream>쓴 아이스크림 충돌: 식감 ×0.78, 건강 ×0.9, 난이도 +2</CuisineStory_Penalty_BitterIceCream>
+  <CuisineStory_Penalty_MeatIceCream>고기 아이스크림 충돌: 식감 ×0.6, 건강 ×0.7, 외관 ×0.8, 난이도 +3</CuisineStory_Penalty_MeatIceCream>
+  <CuisineStory_Penalty_RawDanger>위험한 날것: 건강이 떨어지고 식중독에 걸릴 수 있음</CuisineStory_Penalty_RawDanger>
+  <CuisineStory_Penalty_InsectMeat>껍질 씹히는 식감: 식감 -2</CuisineStory_Penalty_InsectMeat>
+  <CuisineStory_Penalty_HumanMeat>인육 금기: 외관 -2 (사교 효과 감소)</CuisineStory_Penalty_HumanMeat>
+  <CuisineStory_Penalty_TwistedMeat>뒤틀린 오염: 건강 -2</CuisineStory_Penalty_TwistedMeat>
+  <CuisineStory_Penalty_AlienMeat>이종족 고기: 향 -2</CuisineStory_Penalty_AlienMeat>
+  <CuisineStory_Penalty_Fungus>환각 위험: 건강 -2</CuisineStory_Penalty_Fungus>
+  <CuisineStory_Settings_UnifiedCuisine>요리 통합</CuisineStory_Settings_UnifiedCuisine>
+  <CuisineStory_Settings_TakeoverDedicated>전용 호환 모드의 레시피 통합</CuisineStory_Settings_TakeoverDedicated>
+  <CuisineStory_Settings_TakeoverDedicatedTip>레시피가 해당 모드 고유 재료와 맞아떨어지면, 그 모드의 음식 이름과 텍스처를 씁니다. 끄면 텍스처 풀 호환만 남습니다.</CuisineStory_Settings_TakeoverDedicatedTip>
+  <CuisineStory_Settings_TakeoverOther>다른 호환 모드의 레시피 통합</CuisineStory_Settings_TakeoverOther>
+  <CuisineStory_Settings_TakeoverOtherTip>다른 모드 음식 레시피의 이름과 텍스처를 맞춰 씁니다. 끄면 그 텍스처만 낮은 비중으로 씁니다.</CuisineStory_Settings_TakeoverOtherTip>
+  <CuisineStory_Settings_DisableTakenOver>통합한 뒤 원래 레시피 끄기</CuisineStory_Settings_DisableTakenOver>
+  <CuisineStory_Settings_DisableTakenOverTip>요리 통합에 이미 흡수된 다른 모드 음식 레시피를 숨겨, 작업 목록이 중복되지 않게 합니다.</CuisineStory_Settings_DisableTakenOverTip>
+  <CuisineStory_Settings_DisableVanilla>바닐라 간단한 식사, 좋은 식사, 호화로운 식사 레시피 끄기</CuisineStory_Settings_DisableVanilla>
+  <CuisineStory_Settings_DisableVanillaTip>바닐라 간단한 식사, 좋은 식사, 호화로운 식사 작업을 숨깁니다. 기본은 꺼짐이며 언제든 되돌릴 수 있습니다.</CuisineStory_Settings_DisableVanillaTip>
+  <CuisineStory_Settings_AttachedMealSystem>곁들임 요리 사용</CuisineStory_Settings_AttachedMealSystem>
+  <CuisineStory_Settings_AttachedMealSystemTip>켜면 요리마다 음료나 디저트를 곁들일 수 있고, 먹는 사람이 함께 먹으려고 합니다.</CuisineStory_Settings_AttachedMealSystemTip>
+  <CuisineStory_Settings_ContextualGuides>상황별 안내 사용</CuisineStory_Settings_ContextualGuides>
+  <CuisineStory_Settings_ContextualGuidesTip>기능 창을 처음 열 때 주요 조작 부분을 강조하고 설명합니다.</CuisineStory_Settings_ContextualGuidesTip>
+  <CuisineStory_Settings_PortableAlwaysAvailable>휴대용 조리 도구 항상 허용</CuisineStory_Settings_PortableAlwaysAvailable>
+  <CuisineStory_Settings_PortableAlwaysAvailableTip>쓸 수 있는 실제 조리 설비가 연결되어 있어도 휴대용 조리 도구를 설치할 수 있게 합니다. 설치 비용은 그대로입니다.</CuisineStory_Settings_PortableAlwaysAvailableTip>
+  <CuisineStory_Settings_ResetGuides>안내 전부 다시 보기</CuisineStory_Settings_ResetGuides>
+  <CuisineStory_Settings_GuidesReset>요리 기능 안내를 초기화했습니다.</CuisineStory_Settings_GuidesReset>
+  <CuisineStory_Guide_Skip>안내 건너뛰기</CuisineStory_Guide_Skip>
+  <CuisineStory_Guide_Next>다음</CuisineStory_Guide_Next>
+  <CuisineStory_Guide_Done>완료</CuisineStory_Guide_Done>
+  <CuisineStory_Guide_WorkbenchWelcomeTitle>Cuisine Story에 오신 것을 환영합니다</CuisineStory_Guide_WorkbenchWelcomeTitle>
+  <CuisineStory_Guide_WorkbenchWelcomeBody>요리 연구 화면으로 창의적인 조리 시스템을 소개합니다. 조리 도구와 재료를 고르고, 그 결과로 나온 요리를 이해한 뒤, 조리 작업을 만들어 봅니다.</CuisineStory_Guide_WorkbenchWelcomeBody>
+  <CuisineStory_Guide_CookwareTitle>조리 설비 설정</CuisineStory_Guide_CookwareTitle>
+  <CuisineStory_Guide_CookwareBody>조리 설비가 조리법, 쓸 수 있는 재료, 요리 종류, 설비 특징을 결정합니다.\n빈칸을 누르면 호환되는 건물이 보입니다. 연결하려면 20칸 안에 지어져 있어야 합니다. 휴대용 조리 도구는 언제든 쓸 수 있고 자리를 차지하지 않지만 조리 보너스가 없습니다. 고정 설비는 에너지와 구조 특징을 줄 수 있습니다.\n연결한 설비가 실제 작업 장소이며, 그 설비의 요리 개발 버튼을 누르면 이 화면으로 돌아옵니다. 실제 설비를 우클릭하면 연결을 끊고, 휴대용 조리 도구를 우클릭하면 제거합니다.</CuisineStory_Guide_CookwareBody>
+  <CuisineStory_Guide_MainTitle>주재료 고르기</CuisineStory_Guide_MainTitle>
+  <CuisineStory_Guide_MainBody>주재료가 요리의 중심, 기본 분량, 주된 이름을 정합니다. 같은 것을 여러 번 고르면 양이 늘어납니다. 전통 요리는 재료가 고정되고, 자유 요리는 알맞은 재료로 바꿔 넣을 수 있습니다.</CuisineStory_Guide_MainBody>
+  <CuisineStory_Guide_SupplementTitle>부재료 넣기</CuisineStory_Guide_SupplementTitle>
+  <CuisineStory_Guide_SupplementBody>부재료는 물, 기름, 소금, 향신료, 단맛 같은 조리 조건을 채웁니다. 요리 능력치와 조리 특징도 바꾸지만, 모든 레시피에 꼭 필요한 것은 아닙니다.</CuisineStory_Guide_SupplementBody>
+  <CuisineStory_Guide_PreviewTitle>결과 확인</CuisineStory_Guide_PreviewTitle>
+  <CuisineStory_Guide_PreviewBody>조리 도구, 재료, 조리 조건에 따라 이름, 종류, 별, 능력치, 평가가 여기에 만들어집니다. 물이나 기름이 부족하거나 먹을 때 위험이 있으면 이곳에 함께 표시됩니다.</CuisineStory_Guide_PreviewBody>
+  <CuisineStory_Guide_ServingTitle>1인분 크기와 요리 정보</CuisineStory_Guide_ServingTitle>
+  <CuisineStory_Guide_ServingBody>소, 중, 대에 따라 전체 레시피를 몇 인분으로 나눌지 정합니다. 1인분의 분량, 열량, 보존 기간, 작업 산출량이 이 선택에 따라 바뀝니다.</CuisineStory_Guide_ServingBody>
+  <CuisineStory_Guide_StartTitle>조리 작업 만들기</CuisineStory_Guide_StartTitle>
+  <CuisineStory_Guide_StartBody>조리 도구, 레시피, 1인분 크기, 수량을 확인한 뒤 조리 시작을 누르세요. 레시피가 저장되고 이 조리대에 맞는 작업이 추가됩니다.</CuisineStory_Guide_StartBody>
+  <CuisineStory_Guide_FollowPrompt>강조된 부분을 사용하세요</CuisineStory_Guide_FollowPrompt>
+  <CuisineStory_Guide_MenuWelcomeTitle>Cuisine Story에 오신 것을 환영합니다</CuisineStory_Guide_MenuWelcomeTitle>
+  <CuisineStory_Guide_MenuWelcomeBody>요리 메뉴를 소개합니다. 요리 방식, 즐겨찾기, 레시피 상세, 곁들임을 알아보고, 레시피를 적용하거나 바로 조리를 시작해 봅니다.</CuisineStory_Guide_MenuWelcomeBody>
+  <CuisineStory_Guide_MenuStyleTitle>요리 방식</CuisineStory_Guide_MenuStyleTitle>
+  <CuisineStory_Guide_MenuStyleBody>삼각형은 재료가 고정되고 고유한 이름이 붙는 전통 요리입니다. 동그라미는 자유 요리로, 유연한 칸에 같은 등급과 같은 분류의 재료를 재고에서 가져와 씁니다.</CuisineStory_Guide_MenuStyleBody>
+  <CuisineStory_Guide_MenuFavoriteTitle>즐겨찾는 레시피</CuisineStory_Guide_MenuFavoriteTitle>
+  <CuisineStory_Guide_MenuFavoriteBody>별을 눌러 레시피를 즐겨찾기에 넣거나 뺍니다. 즐겨찾기가 맨 앞에 정렬되어 자주 쓰는 메뉴와 생산 계획을 관리하기 편해집니다.</CuisineStory_Guide_MenuFavoriteBody>
+  <CuisineStory_Guide_MenuDetailsTitle>레시피 상세 열기</CuisineStory_Guide_MenuDetailsTitle>
+  <CuisineStory_Guide_MenuDetailsBody>책 보기에서는 오른쪽 쪽에 레시피 전체가 나옵니다. 간단한 목록에서는 요리 그림 왼쪽 아래의 정보 버튼을 눌러 여세요.</CuisineStory_Guide_MenuDetailsBody>
+  <CuisineStory_Guide_DetailCustomizeTitle>레시피 꾸미기</CuisineStory_Guide_DetailCustomizeTitle>
+  <CuisineStory_Guide_DetailCustomizeBody>그림을 누르면 새 그림을, 요리 이름을 누르면 이름을, 설명란을 누르면 설명을 직접 바꿀 수 있습니다. 이 변경은 이 레시피의 표시에만 영향을 줍니다.</CuisineStory_Guide_DetailCustomizeBody>
+  <CuisineStory_Guide_DetailPairingTitle>곁들임 고르기</CuisineStory_Guide_DetailPairingTitle>
+  <CuisineStory_Guide_DetailPairingBody>곁들임 칸에는 음료나 디저트 하나를 묶을 수 있고, 없음으로 둘 수도 있습니다. 주요리에 합쳐지지 않으며, 식당은 둘을 함께 내오려 하고 정착민은 주요리를 먹은 뒤 근처에서 가져다 먹습니다. 재고가 떨어져도 주요리는 그대로 먹을 수 있습니다.</CuisineStory_Guide_DetailPairingBody>
+  <CuisineStory_Guide_MenuPairingTitle>곁들임 켜고 끄기</CuisineStory_Guide_MenuPairingTitle>
+  <CuisineStory_Guide_MenuPairingBody>책 보기에서 곁들임 칸을 우클릭하면, 연결은 지우지 않은 채 곁들임을 잠시 끄거나 다시 켤 수 있습니다. 꺼 두면 주요리만 나갑니다.</CuisineStory_Guide_MenuPairingBody>
+  <CuisineStory_Guide_MenuActionsTitle>적용 또는 조리 시작</CuisineStory_Guide_MenuActionsTitle>
+  <CuisineStory_Guide_MenuActionsBody>적용은 이 레시피를 요리 연구 화면으로 다시 불러와 고치거나 새 요리를 파생시킬 수 있게 합니다. 조리 시작은 고른 1인분 크기와 수량으로 바로 생산 작업을 만듭니다.</CuisineStory_Guide_MenuActionsBody>
+  <CuisineStory_Settings_TextureWeights>요리 텍스처 풀 비중 (재시작 필요)</CuisineStory_Settings_TextureWeights>
+  <CuisineStory_Settings_TextureWeightsInfo>앞으로 해금되는 요리의 텍스처 선택에만 영향을 줍니다.</CuisineStory_Settings_TextureWeightsInfo>
+  <CuisineStory_Settings_TextureWeightsTip>뜻이 맞지 않는 텍스처는 비중이 높아도 후보가 되지 않습니다. 정통 요리는 원래 텍스처로 고정됩니다.</CuisineStory_Settings_TextureWeightsTip>
+  <CuisineStory_Settings_InternalPool>내장 요리 텍스처 풀</CuisineStory_Settings_InternalPool>
+  <CuisineStory_Settings_InternalPoolTip>Cuisine Story에 들어 있는 요리 텍스처입니다.</CuisineStory_Settings_InternalPoolTip>
+  <CuisineStory_Settings_DedicatedPoolTip>불러온 전용 텍스처 출처: {PACKAGEID}</CuisineStory_Settings_DedicatedPoolTip>
+  <CuisineStory_Settings_OtherPool>다른 모드 텍스처 풀 (전용 호환 없음)</CuisineStory_Settings_OtherPool>
+  <CuisineStory_Settings_OtherPoolTip>전용 텍스처 호환이 없는 불러온 모드들의 쓸 만한 음식 텍스처입니다.</CuisineStory_Settings_OtherPoolTip>
+  <CuisineStory_Rename_Title>요리 이름 짓기</CuisineStory_Rename_Title>
+  <CuisineStory_Rename_DuplicateTitle>요리 이름 중복</CuisineStory_Rename_DuplicateTitle>
+  <CuisineStory_Rename_DuplicateDescription>이미 다른 요리가 이 이름을 쓰고 있습니다. 새 요리에 다른 이름을 지어 주세요.</CuisineStory_Rename_DuplicateDescription>
+  <CuisineStory_Rename_Empty>요리 이름은 비워 둘 수 없습니다.</CuisineStory_Rename_Empty>
+  <CuisineStory_Rename_AlreadyUsed>이미 쓰이고 있는 요리 이름입니다.</CuisineStory_Rename_AlreadyUsed>
+  <CuisineStory_Description_Title>요리 설명 수정</CuisineStory_Description_Title>
+  <CuisineStory_Description_Empty>요리 설명은 비워 둘 수 없습니다.</CuisineStory_Description_Empty>
+  <CuisineStory_Texture_Title>요리 텍스처 선택</CuisineStory_Texture_Title>
+  <CuisineStory_DishInfo_FallbackTitle>요리 정보</CuisineStory_DishInfo_FallbackTitle>
+  <CuisineStory_DishInfo_ChangeTexture>눌러서 요리 텍스처 바꾸기</CuisineStory_DishInfo_ChangeTexture>
+  <CuisineStory_DishInfo_ChangeName>눌러서 요리 이름 바꾸기</CuisineStory_DishInfo_ChangeName>
+  <CuisineStory_DishInfo_Chef>개발자: {CHEF}</CuisineStory_DishInfo_Chef>
+  <CuisineStory_DishInfo_Type>종류: {VALUE}</CuisineStory_DishInfo_Type>
+  <CuisineStory_DishInfo_Cookware>조리 도구: {VALUE}</CuisineStory_DishInfo_Cookware>
+  <CuisineStory_DishInfo_Compatibility>궁합: {VALUE}</CuisineStory_DishInfo_Compatibility>
+  <CuisineStory_DishInfo_Breakthrough>돌파: {VALUE}회</CuisineStory_DishInfo_Breakthrough>
+  <CuisineStory_DishInfo_Description>요리 설명</CuisineStory_DishInfo_Description>
+  <CuisineStory_DishInfo_ChangeDescription>눌러서 요리 설명 수정</CuisineStory_DishInfo_ChangeDescription>
+  <CuisineStory_DishInfo_Ingredients>재료</CuisineStory_DishInfo_Ingredients>
+  <CuisineStory_DishInfo_Pairing>곁들임:</CuisineStory_DishInfo_Pairing>
+  <CuisineStory_Workbench_AdjustPairing>곁들임 조정</CuisineStory_Workbench_AdjustPairing>
+  <CuisineStory_Workbench_ConvertStyle>방식 전환</CuisineStory_Workbench_ConvertStyle>
+  <CuisineStory_Workbench_ContextFavorite>즐겨찾기 추가</CuisineStory_Workbench_ContextFavorite>
+  <CuisineStory_Workbench_ContextUnfavorite>즐겨찾기 해제</CuisineStory_Workbench_ContextUnfavorite>
+  <CuisineStory_Workbench_ContextOpenDetails>상세 열기</CuisineStory_Workbench_ContextOpenDetails>
+  <CuisineStory_Workbench_ContextDelete>레시피 삭제</CuisineStory_Workbench_ContextDelete>
+  <CuisineStory_Equipment_SelectTitle>{COOKWARE} 설비 선택</CuisineStory_Equipment_SelectTitle>
+  <CuisineStory_Equipment_LinkableList>연결 가능: {LIST}</CuisineStory_Equipment_LinkableList>
+  <CuisineStory_Equipment_Uninstall>제거</CuisineStory_Equipment_Uninstall>
+  <CuisineStory_Equipment_Uninstalled>{COOKWARE}(을)를 제거하고 재료를 돌려받았습니다. 관련 작업은 설비를 다시 설치하거나 연결하면 이어서 진행됩니다.</CuisineStory_Equipment_Uninstalled>
+  <CuisineStory_Equipment_CancelLink>연결 끊기</CuisineStory_Equipment_CancelLink>
+  <CuisineStory_Equipment_LinkCancelled>{COOKWARE} 연결을 끊었습니다. 설비에 있던 기존 작업은 그대로입니다.</CuisineStory_Equipment_LinkCancelled>
+  <CuisineStory_Equipment_NoTrait>없음</CuisineStory_Equipment_NoTrait>
+  <CuisineStory_Equipment_PortableTrait>휴대용</CuisineStory_Equipment_PortableTrait>
+  <CuisineStory_Equipment_PortableTrait_Description>자리를 차지하지 않지만 조리 보너스도 없습니다.</CuisineStory_Equipment_PortableTrait_Description>
+  <CuisineStory_Equipment_EmptySlot>{COOKWARE} 칸이 비어 있습니다. 눌러서 설비를 고르거나 설치하세요.</CuisineStory_Equipment_EmptySlot>
+  <CuisineStory_Equipment_PortableName>휴대용 {COOKWARE}</CuisineStory_Equipment_PortableName>
+  <CuisineStory_Equipment_Portable_pan>휴대용 프라이팬</CuisineStory_Equipment_Portable_pan>
+  <CuisineStory_Equipment_Portable_pot>휴대용 육수 냄비</CuisineStory_Equipment_Portable_pot>
+  <CuisineStory_Equipment_Portable_steamer>휴대용 찜기</CuisineStory_Equipment_Portable_steamer>
+  <CuisineStory_Equipment_Portable_grill>휴대용 그릴</CuisineStory_Equipment_Portable_grill>
+  <CuisineStory_Equipment_Portable_oven>휴대용 오븐</CuisineStory_Equipment_Portable_oven>
+  <CuisineStory_Equipment_Portable_board>휴대용 믹싱 볼</CuisineStory_Equipment_Portable_board>
+  <CuisineStory_Equipment_PortableUnavailable>지금은 휴대용 조리 도구를 설치할 수 없습니다.</CuisineStory_Equipment_PortableUnavailable>
+  <CuisineStory_Equipment_MissingMaterial>설치 재료 부족: {MATERIAL} {COUNT}개 필요</CuisineStory_Equipment_MissingMaterial>
+  <CuisineStory_Equipment_NoNearby>이 단말기에서 {DISTANCE}칸 안에 연결할 수 있는 {COOKWARE}(이)가 없습니다. 먼저 해당 설비를 지으세요.</CuisineStory_Equipment_NoNearby>
+  <CuisineStory_Equipment_Install>설치</CuisineStory_Equipment_Install>
+  <CuisineStory_Equipment_Distance>거리: {DISTANCE}칸</CuisineStory_Equipment_Distance>
+  <CuisineStory_Equipment_Available>사용 가능</CuisineStory_Equipment_Available>
+  <CuisineStory_Equipment_TemporarilyUnavailable>일시적으로 사용 불가</CuisineStory_Equipment_TemporarilyUnavailable>
+  <CuisineStory_Equipment_Linked>연결됨</CuisineStory_Equipment_Linked>
+  <CuisineStory_Equipment_Link>연결</CuisineStory_Equipment_Link>
+  <CuisineStory_Equipment_NoLinked>쓸 수 있는 {COOKWARE}(이)가 연결되어 있지 않습니다. 조리 도구 칸에 설비를 설치하거나 연결하세요.</CuisineStory_Equipment_NoLinked>
+  <CuisineStory_Pairing_ClickDisable>눌러서 곁들임 끄기. 현재 선택은 유지됩니다.</CuisineStory_Pairing_ClickDisable>
+  <CuisineStory_Pairing_ClickEnable>눌러서 곁들임 다시 켜기.</CuisineStory_Pairing_ClickEnable>
+  <CuisineStory_DishInfo_PairingTip>좌클릭으로 곁들일 음료나 디저트를 고릅니다. 책 보기에서는 우클릭으로 현재 곁들임을 잠시 끄거나 다시 켤 수 있습니다.</CuisineStory_DishInfo_PairingTip>
+  <CuisineStory_DishIdentity_SpecialTip>△ 전통 요리: 원래 재료만 엄격하게 씁니다. 누르면 자유 요리로 바꿉니다.</CuisineStory_DishIdentity_SpecialTip>
+  <CuisineStory_DishIdentity_ChangeStyleTip>요리 방식 바꾸기</CuisineStory_DishIdentity_ChangeStyleTip>
+  <CuisineStory_DishIdentity_GeneralTip>○ 자유 요리: 같은 분류, 같은 등급의 재료로 자동으로 바꿔 넣을 수 있습니다. 다시 전통 요리로 되돌릴 수 없습니다.</CuisineStory_DishIdentity_GeneralTip>
+  <CuisineStory_DishIdentity_SpecialStyle>전통 요리</CuisineStory_DishIdentity_SpecialStyle>
+  <CuisineStory_DishIdentity_GeneralStyle>자유 요리</CuisineStory_DishIdentity_GeneralStyle>
+  <CuisineStory_GeneralDish_AutoSubstitute>같은 분류, 같은 등급 재료를 자동 선택</CuisineStory_GeneralDish_AutoSubstitute>
+  <CuisineStory_GeneralDish_Fallback>{GROUP} {FORM}</CuisineStory_GeneralDish_Fallback>
+  <CuisineStory_DishIdentity_ConvertConfirm>"{DISH}" 요리를 자유 요리로 바꿀까요? 조건에 맞는 칸은 같은 분류, 같은 등급의 재료로 자동으로 바꿔 넣을 수 있게 되고, 직접 정하지 않은 이름과 설명은 재료 분류 이름으로 바뀝니다. 되돌릴 수 없습니다. 자유 요리는 전통 요리로 돌아갈 수 없습니다.</CuisineStory_DishIdentity_ConvertConfirm>
+  <CuisineStory_DishIdentity_ConvertTitle>요리 방식 전환</CuisineStory_DishIdentity_ConvertTitle>
+  <CuisineStory_Description_GeneralIngredients>바꿔 넣을 수 있는 재료: {GROUPS}.</CuisineStory_Description_GeneralIngredients>
+  <CuisineStory_MaterialGroup_Other>비슷한 재료</CuisineStory_MaterialGroup_Other>
+  <CuisineStory_MaterialGroup_Poultry_0>가금류</CuisineStory_MaterialGroup_Poultry_0>
+  <CuisineStory_MaterialGroup_Poultry_1>닭고기</CuisineStory_MaterialGroup_Poultry_1>
+  <CuisineStory_MaterialGroup_Poultry_2>연한 가금류</CuisineStory_MaterialGroup_Poultry_2>
+  <CuisineStory_MaterialGroup_RedMeat_0>붉은 고기</CuisineStory_MaterialGroup_RedMeat_0>
+  <CuisineStory_MaterialGroup_RedMeat_1>다진 고기</CuisineStory_MaterialGroup_RedMeat_1>
+  <CuisineStory_MaterialGroup_RedMeat_2>생고기</CuisineStory_MaterialGroup_RedMeat_2>
+  <CuisineStory_MaterialGroup_Fish_0>생선</CuisineStory_MaterialGroup_Fish_0>
+  <CuisineStory_MaterialGroup_Fish_1>싱싱한 생선</CuisineStory_MaterialGroup_Fish_1>
+  <CuisineStory_MaterialGroup_Fish_2>어획물</CuisineStory_MaterialGroup_Fish_2>
+  <CuisineStory_MaterialGroup_Shellfish_0>갑각류와 조개</CuisineStory_MaterialGroup_Shellfish_0>
+  <CuisineStory_MaterialGroup_Shellfish_1>해산물</CuisineStory_MaterialGroup_Shellfish_1>
+  <CuisineStory_MaterialGroup_Shellfish_2>수산물</CuisineStory_MaterialGroup_Shellfish_2>
+  <CuisineStory_MaterialGroup_Game_0>사냥 고기</CuisineStory_MaterialGroup_Game_0>
+  <CuisineStory_MaterialGroup_Game_1>산짐승 고기</CuisineStory_MaterialGroup_Game_1>
+  <CuisineStory_MaterialGroup_Game_2>진귀한 사냥 고기</CuisineStory_MaterialGroup_Game_2>
+  <CuisineStory_MaterialGroup_Exotic_0>신화의 고기</CuisineStory_MaterialGroup_Exotic_0>
+  <CuisineStory_MaterialGroup_Exotic_1>전설의 고기</CuisineStory_MaterialGroup_Exotic_1>
+  <CuisineStory_MaterialGroup_Exotic_2>진귀한 고기</CuisineStory_MaterialGroup_Exotic_2>
+  <CuisineStory_MaterialGroup_Egg_0>달걀</CuisineStory_MaterialGroup_Egg_0>
+  <CuisineStory_MaterialGroup_Egg_1>신선한 달걀</CuisineStory_MaterialGroup_Egg_1>
+  <CuisineStory_MaterialGroup_Egg_2>알</CuisineStory_MaterialGroup_Egg_2>
+  <CuisineStory_MaterialGroup_Milk_0>유제품</CuisineStory_MaterialGroup_Milk_0>
+  <CuisineStory_MaterialGroup_Milk_1>신선한 유제품</CuisineStory_MaterialGroup_Milk_1>
+  <CuisineStory_MaterialGroup_Milk_2>크림</CuisineStory_MaterialGroup_Milk_2>
+  <CuisineStory_MaterialGroup_Fruit_0>과일</CuisineStory_MaterialGroup_Fruit_0>
+  <CuisineStory_MaterialGroup_Fruit_1>신선한 과일</CuisineStory_MaterialGroup_Fruit_1>
+  <CuisineStory_MaterialGroup_Fruit_2>과수원 과일</CuisineStory_MaterialGroup_Fruit_2>
+  <CuisineStory_MaterialGroup_Leafy_0>잎채소</CuisineStory_MaterialGroup_Leafy_0>
+  <CuisineStory_MaterialGroup_Leafy_1>제철 채소</CuisineStory_MaterialGroup_Leafy_1>
+  <CuisineStory_MaterialGroup_Leafy_2>푸성귀</CuisineStory_MaterialGroup_Leafy_2>
+  <CuisineStory_MaterialGroup_Root_0>뿌리채소</CuisineStory_MaterialGroup_Root_0>
+  <CuisineStory_MaterialGroup_Root_1>뿌리</CuisineStory_MaterialGroup_Root_1>
+  <CuisineStory_MaterialGroup_Root_2>알뿌리</CuisineStory_MaterialGroup_Root_2>
+  <CuisineStory_MaterialGroup_Gourd_0>박과 채소</CuisineStory_MaterialGroup_Gourd_0>
+  <CuisineStory_MaterialGroup_Gourd_1>텃밭 박과 채소</CuisineStory_MaterialGroup_Gourd_1>
+  <CuisineStory_MaterialGroup_Gourd_2>싱싱한 박과 채소</CuisineStory_MaterialGroup_Gourd_2>
+  <CuisineStory_MaterialGroup_Grain_0>곡물</CuisineStory_MaterialGroup_Grain_0>
+  <CuisineStory_MaterialGroup_Grain_1>잡곡</CuisineStory_MaterialGroup_Grain_1>
+  <CuisineStory_MaterialGroup_Grain_2>통곡물</CuisineStory_MaterialGroup_Grain_2>
+  <CuisineStory_MaterialGroup_Legume_0>콩류</CuisineStory_MaterialGroup_Legume_0>
+  <CuisineStory_MaterialGroup_Legume_1>콩</CuisineStory_MaterialGroup_Legume_1>
+  <CuisineStory_MaterialGroup_Legume_2>두류</CuisineStory_MaterialGroup_Legume_2>
+  <CuisineStory_MaterialGroup_Aromatic_0>향신 채소</CuisineStory_MaterialGroup_Aromatic_0>
+  <CuisineStory_MaterialGroup_Aromatic_1>향초</CuisineStory_MaterialGroup_Aromatic_1>
+  <CuisineStory_MaterialGroup_Aromatic_2>향긋한 향신 채소</CuisineStory_MaterialGroup_Aromatic_2>
+  <CuisineStory_MaterialGroup_Fungus_0>버섯</CuisineStory_MaterialGroup_Fungus_0>
+  <CuisineStory_MaterialGroup_Fungus_1>야생 버섯</CuisineStory_MaterialGroup_Fungus_1>
+  <CuisineStory_MaterialGroup_Fungus_2>숲 버섯</CuisineStory_MaterialGroup_Fungus_2>
+  <CuisineStory_DishInfo_Profile>8대 능력치</CuisineStory_DishInfo_Profile>
+  <CuisineStory_DishInfo_ProfileServing>8대 능력치 ({SIZE} ×{COUNT})</CuisineStory_DishInfo_ProfileServing>
+  <CuisineStory_DishInfo_Benefits>요리 효과: {VALUE}</CuisineStory_DishInfo_Benefits>
+  <CuisineStory_DishInfo_DimensionFormat>{NAME}: {GRADE} ({EFFECT})</CuisineStory_DishInfo_DimensionFormat>
+  <CuisineStory_DishInfo_DimensionTip>먹었을 때 효과\n• 건강: 언제나 열량 효율에 영향을 줍니다.\n• 핵심 능력치: 보통 가장 높은 두 개가 요리의 특징이 됩니다.\n• SSS: 특징 칸을 쓰지 않고 언제나 발동합니다.\n• G: 불이익이 생깁니다. F: 추가 효과가 없습니다.\n\n조리\n• 분량: 레시피 규모와 작업량을 정합니다.\n• 희귀도: 가격에 영향을 줍니다.\n• 난이도: 작업량과 성공 확률에 영향을 줍니다.</CuisineStory_DishInfo_DimensionTip>
+  <CuisineStory_Dimension_Health>건강</CuisineStory_Dimension_Health>
+  <CuisineStory_Dimension_Ingenuity>창의</CuisineStory_Dimension_Ingenuity>
+  <CuisineStory_Dimension_Taste>식감</CuisineStory_Dimension_Taste>
+  <CuisineStory_Dimension_Aroma>향</CuisineStory_Dimension_Aroma>
+  <CuisineStory_Dimension_Beauty>외관</CuisineStory_Dimension_Beauty>
+  <CuisineStory_Dimension_Portion>분량</CuisineStory_Dimension_Portion>
+  <CuisineStory_Dimension_Rarity>희귀도</CuisineStory_Dimension_Rarity>
+  <CuisineStory_Dimension_Difficulty>난이도</CuisineStory_Dimension_Difficulty>
+  <CuisineStory_CookingMethod_Modifier>{DIMENSION}: {DIRECTION}</CuisineStory_CookingMethod_Modifier>
+  <CuisineStory_CookingMethod_Increased>증가</CuisineStory_CookingMethod_Increased>
+  <CuisineStory_CookingMethod_Decreased>감소</CuisineStory_CookingMethod_Decreased>
+  <CuisineStory_CookingMethod_NoModifier>추가 보정 없음</CuisineStory_CookingMethod_NoModifier>
+  <CuisineStory_DimensionEffect_Health>열량 고정 / 수면 ±</CuisineStory_DimensionEffect_Health>
+  <CuisineStory_DimensionEffect_Ingenuity>작업 속도 ±</CuisineStory_DimensionEffect_Ingenuity>
+  <CuisineStory_DimensionEffect_Taste>재미 욕구 ±</CuisineStory_DimensionEffect_Taste>
+  <CuisineStory_DimensionEffect_Aroma>편안 욕구 ±</CuisineStory_DimensionEffect_Aroma>
+  <CuisineStory_DimensionEffect_Beauty>사교 영향력 ±</CuisineStory_DimensionEffect_Beauty>
+  <CuisineStory_DimensionEffect_Portion>작업량</CuisineStory_DimensionEffect_Portion>
+  <CuisineStory_DimensionEffect_Rarity>판매 가격</CuisineStory_DimensionEffect_Rarity>
+  <CuisineStory_DimensionEffect_Difficulty>작업량 / 성공 확률</CuisineStory_DimensionEffect_Difficulty>
+  <CuisineStory_Workbench_TabDevelopment>요리 개발</CuisineStory_Workbench_TabDevelopment>
+  <CuisineStory_Workbench_TabProcessing>재료 손질</CuisineStory_Workbench_TabProcessing>
+  <CuisineStory_Workbench_TabMenu>요리 메뉴</CuisineStory_Workbench_TabMenu>
+  <CuisineStory_Workbench_Cookware>조리 설비</CuisineStory_Workbench_Cookware>
+  <CuisineStory_Workbench_AddMainFirst>먼저 주재료를 넣으세요</CuisineStory_Workbench_AddMainFirst>
+  <CuisineStory_Workbench_Type>종류: {VALUE}</CuisineStory_Workbench_Type>
+  <CuisineStory_Workbench_Breakthrough>돌파: {VALUE}회</CuisineStory_Workbench_Breakthrough>
+  <CuisineStory_Workbench_Stars>별: {VALUE}</CuisineStory_Workbench_Stars>
+  <CuisineStory_Workbench_Compatibility>궁합: {VALUE}</CuisineStory_Workbench_Compatibility>
+  <CuisineStory_Workbench_Evaluation>요리 평가</CuisineStory_Workbench_Evaluation>
+  <CuisineStory_Workbench_RaceFeature>종족 특징: {VALUE}</CuisineStory_Workbench_RaceFeature>
+  <CuisineStory_Feature_Fairy>요정</CuisineStory_Feature_Fairy>
+  <CuisineStory_Feature_FairyTip>조리 특징 [요정]: 식감 +1, 희귀도 +1.</CuisineStory_Feature_FairyTip>
+  <CuisineStory_Workbench_BabyFeature>조리 특징 [아기 음식]: 아기도 먹을 수 있습니다.</CuisineStory_Workbench_BabyFeature>
+  <CuisineStory_Workbench_IceChillFeature>조리 특징 [이가 시림]: 보존 기간 +60%, 식감 -1, 외관 +1.</CuisineStory_Workbench_IceChillFeature>
+  <CuisineStory_Workbench_DimensionFeature>특징 [{NAME}]: {EFFECT}</CuisineStory_Workbench_DimensionFeature>
+  <CuisineStory_Workbench_Attribute>능력치</CuisineStory_Workbench_Attribute>
+  <CuisineStory_Workbench_NoPreview>아직 요리 레시피가 만들어지지 않았습니다.</CuisineStory_Workbench_NoPreview>
+  <CuisineStory_Workbench_LowNutrition>열량이 0.1 미만입니다.\n이 요리는 요리의 여운도 디저트의 여운도 주지 않습니다.</CuisineStory_Workbench_LowNutrition>
+  <CuisineStory_Workbench_ActiveBenefits>발동 중인 이점</CuisineStory_Workbench_ActiveBenefits>
+  <CuisineStory_Workbench_ActivePenalties>발동 중인 불이익</CuisineStory_Workbench_ActivePenalties>
+  <CuisineStory_Workbench_MainIngredient>주재료</CuisineStory_Workbench_MainIngredient>
+  <CuisineStory_Workbench_Supplement>부재료</CuisineStory_Workbench_Supplement>
+  <CuisineStory_Workbench_Clear>비우기</CuisineStory_Workbench_Clear>
+  <CuisineStory_Workbench_IngredientInventoryRefreshed>재료 재고를 새로 고쳤습니다.</CuisineStory_Workbench_IngredientInventoryRefreshed>
+  <CuisineStory_Workbench_Portion>분량:</CuisineStory_Workbench_Portion>
+  <CuisineStory_Workbench_Nutrition>열량:</CuisineStory_Workbench_Nutrition>
+  <CuisineStory_Workbench_ShelfLife>보존 기간:</CuisineStory_Workbench_ShelfLife>
+  <CuisineStory_Workbench_StartCooking>조리 시작</CuisineStory_Workbench_StartCooking>
+  <CuisineStory_Workbench_SuccessChance>예상 성공 확률: {VALUE}</CuisineStory_Workbench_SuccessChance>
+  <CuisineStory_Workbench_UnlockedDishes>해금한 요리</CuisineStory_Workbench_UnlockedDishes>
+  <CuisineStory_Workbench_ClickRename>눌러서 이름 바꾸기</CuisineStory_Workbench_ClickRename>
+  <CuisineStory_Workbench_DeleteConfirm>"{DISH}" 요리를 삭제할까요? 이 요리의 기존 생산 작업도 함께 사라집니다.</CuisineStory_Workbench_DeleteConfirm>
+  <CuisineStory_Workbench_DeleteTitle>요리 삭제</CuisineStory_Workbench_DeleteTitle>
+  <CuisineStory_Workbench_DeleteMenu>메뉴에서 삭제</CuisineStory_Workbench_DeleteMenu>
+  <CuisineStory_Workbench_Favorite>즐겨찾기</CuisineStory_Workbench_Favorite>
+  <CuisineStory_Workbench_Unfavorite>즐겨찾기 해제</CuisineStory_Workbench_Unfavorite>
+  <CuisineStory_Workbench_ViewDetails>요리 상세 보기</CuisineStory_Workbench_ViewDetails>
+  <CuisineStory_Workbench_Craftable>만들 수 있음</CuisineStory_Workbench_Craftable>
+  <CuisineStory_Workbench_Dangerous>위험</CuisineStory_Workbench_Dangerous>
+  <CuisineStory_Workbench_Apply>적용</CuisineStory_Workbench_Apply>
+  <CuisineStory_Workbench_AddToMenu>메뉴에 추가</CuisineStory_Workbench_AddToMenu>
+  <CuisineStory_Restaurant_ExpandMenu>식당 메뉴 펼치기</CuisineStory_Restaurant_ExpandMenu>
+  <CuisineStory_Restaurant_CollapseMenu>식당 메뉴 접기</CuisineStory_Restaurant_CollapseMenu>
+  <CuisineStory_Restaurant_Entry>식당</CuisineStory_Restaurant_Entry>
+  <CuisineStory_Workbench_NoUnlockedDishes>해금한 요리 없음</CuisineStory_Workbench_NoUnlockedDishes>
+  <CuisineStory_Workbench_ProcessingTitle>재료 가공</CuisineStory_Workbench_ProcessingTitle>
+  <CuisineStory_Workbench_ProcessingEquipmentLinks>설비 연결</CuisineStory_Workbench_ProcessingEquipmentLinks>
+  <CuisineStory_Workbench_ProcessingHiddenUnlinked>레시피 {COUNT}개는 설비를 연결해야 보입니다</CuisineStory_Workbench_ProcessingHiddenUnlinked>
+  <CuisineStory_Workbench_StatusNeedsEquipment>설비 필요</CuisineStory_Workbench_StatusNeedsEquipment>
+  <CuisineStory_Workbench_StatusReady>만들 수 있음</CuisineStory_Workbench_StatusReady>
+  <CuisineStory_Workbench_StatusMaterialsShort>설비 준비됨 · 재료 부족</CuisineStory_Workbench_StatusMaterialsShort>
+  <CuisineStory_Workbench_StatusNeedsEquipmentTip>필요한 설비: {STATION}</CuisineStory_Workbench_StatusNeedsEquipmentTip>
+  <CuisineStory_Workbench_StatusReadyTip>설비와 필요한 재료가 모두 있습니다.</CuisineStory_Workbench_StatusReadyTip>
+  <CuisineStory_Workbench_StatusMaterialsShortTip>설비는 쓸 수 있지만 지금 재료가 부족합니다.</CuisineStory_Workbench_StatusMaterialsShortTip>
+  <CuisineStory_ProcessingEquipment_Title>가공 설비 연결</CuisineStory_ProcessingEquipment_Title>
+  <CuisineStory_ProcessingEquipment_Explanation>이 입구에서 {DISTANCE}칸 안에 있는 가공 설비를 연결합니다. 연결해야 그 설비의 모드 가공 레시피가 보입니다.</CuisineStory_ProcessingEquipment_Explanation>
+  <CuisineStory_ProcessingEquipment_Recipes>레시피: {RECIPES}</CuisineStory_ProcessingEquipment_Recipes>
+  <CuisineStory_ProcessingEquipment_None>근처에 지원되는 가공 레시피를 가진 설비가 없습니다.</CuisineStory_ProcessingEquipment_None>
+  <CuisineStory_ProcessingEquipment_Unlink>연결 끊기</CuisineStory_ProcessingEquipment_Unlink>
+  <CuisineStory_ProcessingEquipment_LinkedRecipes>연결됨 · 레시피 {COUNT}개</CuisineStory_ProcessingEquipment_LinkedRecipes>
+  <CuisineStory_ProcessingEquipment_RecipeCount>가공 레시피 {COUNT}개 제공</CuisineStory_ProcessingEquipment_RecipeCount>
+  <CuisineStory_Workbench_ProcessingInventoryRefreshed>가공 재료 재고를 새로 고쳤습니다.</CuisineStory_Workbench_ProcessingInventoryRefreshed>
+  <CuisineStory_Workbench_Process>가공</CuisineStory_Workbench_Process>
+  <CuisineStory_Workbench_ProcessingAlreadyQueued>이 가공 레시피는 이미 작업 목록에 있습니다.</CuisineStory_Workbench_ProcessingAlreadyQueued>
+  <CuisineStory_Workbench_ProcessingAdded>1회 추가함. 현재 작업: {TOTAL}</CuisineStory_Workbench_ProcessingAdded>
+  <CuisineStory_Workbench_ProcessingInventoryChanged>재고가 바뀌었습니다. 먼저 가공 재료를 새로 고치세요.</CuisineStory_Workbench_ProcessingInventoryChanged>
+  <CuisineStory_Workbench_ProcessingNoStation>근처에 이 레시피를 할 수 있는 설비가 없습니다: {STATION}. 20칸 안에 설치하거나 연결하세요.</CuisineStory_Workbench_ProcessingNoStation>
+  <CuisineStory_Workbench_ExternalBatchUnsupported>이 외부 레시피는 특수한 가공 방식을 써서 기본 ×4 버전이 없습니다.</CuisineStory_Workbench_ExternalBatchUnsupported>
+  <CuisineStory_Workbench_NoProcessingRecipes>쓸 수 있는 가공 레시피 없음</CuisineStory_Workbench_NoProcessingRecipes>
+  <CuisineStory_Workbench_Requires>필요:</CuisineStory_Workbench_Requires>
+  <CuisineStory_Workbench_BatchX1>한 번에 ×1 생산</CuisineStory_Workbench_BatchX1>
+  <CuisineStory_Workbench_BatchX4>한 번에 ×4 생산</CuisineStory_Workbench_BatchX4>
+  <CuisineStory_Workbench_ProductionMode>생산 방식:</CuisineStory_Workbench_ProductionMode>
+  <CuisineStory_Workbench_ServingSize>1인분 크기:</CuisineStory_Workbench_ServingSize>
+  <CuisineStory_Menu_ServingSuffix>인분</CuisineStory_Menu_ServingSuffix>
+  <CuisineStory_Workbench_ServingYield>산출: ({SIZE}) ×{COUNT}</CuisineStory_Workbench_ServingYield>
+  <CuisineStory_ServingSize_Small>소</CuisineStory_ServingSize_Small>
+  <CuisineStory_ServingSize_Medium>중</CuisineStory_ServingSize_Medium>
+  <CuisineStory_ServingSize_Large>대</CuisineStory_ServingSize_Large>
+  <CuisineStory_ServingSize_Tooltip>1인분 목표 분량: {PORTION}</CuisineStory_ServingSize_Tooltip>
+  <CuisineStory_Bill_ServingLabel>{DISH} ({SIZE}) ×{COUNT}</CuisineStory_Bill_ServingLabel>
+  <CuisineStory_Workbench_YieldSuffix>({SIZE}) ×{COUNT}</CuisineStory_Workbench_YieldSuffix>
+  <CuisineStory_Meal_ServingSize>1인분 크기</CuisineStory_Meal_ServingSize>
+  <CuisineStory_Meal_ServingValue>{SIZE} (요리 하나당 {COUNT}인분)</CuisineStory_Meal_ServingValue>
+  <CuisineStory_Meal_ServingTip>열량, 가치, 분량은 인분 수만큼 나뉘고, 다른 요리 특징은 그대로입니다.</CuisineStory_Meal_ServingTip>
+  <CuisineStory_Meal_PairingTip>이 요리를 먹을 때, 고른 음료나 디저트가 있으면 곁들여 나옵니다.</CuisineStory_Meal_PairingTip>
+  <CuisineStory_Pairing_CandidateTip>{NAME}\n재고: {COUNT}\n시장 가치: {VALUE}</CuisineStory_Pairing_CandidateTip>
+  <CuisineStory_Workbench_BillAdded>"{DISH}"{BATCH} 작업을 추가했습니다 (1회).</CuisineStory_Workbench_BillAdded>
+  <CuisineStory_Workbench_BillIncremented>"{DISH}"{BATCH} 작업을 1회 더 추가했습니다. 남은 횟수 {COUNT}회.</CuisineStory_Workbench_BillIncremented>
+  <CuisineStory_Workbench_BillAlreadyExists>"{DISH}" 요리는 이미 "{MODE}" 방식으로 작업 목록에 있습니다.</CuisineStory_Workbench_BillAlreadyExists>
+  <CuisineStory_Workbench_Search>검색</CuisineStory_Workbench_Search>
+  <CuisineStory_Workbench_ClearSearch>검색 지우기</CuisineStory_Workbench_ClearSearch>
+  <CuisineStory_Workbench_RefreshCraftability>제작 가능 여부 새로 고침</CuisineStory_Workbench_RefreshCraftability>
+  <CuisineStory_Workbench_FilterCategories>재료 분류 필터</CuisineStory_Workbench_FilterCategories>
+  <CuisineStory_Workbench_NoAvailable>쓸 수 있는 {TYPE} 없음</CuisineStory_Workbench_NoAvailable>
+  <CuisineStory_Workbench_SelectedFirst>고른 재료를 맨 앞에</CuisineStory_Workbench_SelectedFirst>
+  <CuisineStory_Workbench_Unlimited>무제한</CuisineStory_Workbench_Unlimited>
+  <CuisineStory_Workbench_IngredientTip>레시피 사용량: {AMOUNT}\n재고: {COUNT}</CuisineStory_Workbench_IngredientTip>
+  <CuisineStory_Workbench_OneItem>1개</CuisineStory_Workbench_OneItem>
+  <CuisineStory_Workbench_OneServing>1인분 ×{COUNT}</CuisineStory_Workbench_OneServing>
+  <CuisineStory_Workbench_InsufficientServing>1인분에 모자랍니다</CuisineStory_Workbench_InsufficientServing>
+  <CuisineStory_Workbench_PortionLimit>요리가 분량 한계인 7에 도달했습니다</CuisineStory_Workbench_PortionLimit>
+  <CuisineStory_Workbench_SelectionCleared>주재료와 부재료를 모두 비웠습니다.</CuisineStory_Workbench_SelectionCleared>
+  <CuisineStory_Category_RedMeat>붉은 고기</CuisineStory_Category_RedMeat>
+  <CuisineStory_Category_Poultry>가금류</CuisineStory_Category_Poultry>
+  <CuisineStory_Category_Vegetable>채소</CuisineStory_Category_Vegetable>
+  <CuisineStory_Category_Fruit>과일</CuisineStory_Category_Fruit>
+  <CuisineStory_Category_Fish>수산물</CuisineStory_Category_Fish>
+  <CuisineStory_Category_AnimalProduct>달걀과 유제품</CuisineStory_Category_AnimalProduct>
+  <CuisineStory_Category_Processed>가공품</CuisineStory_Category_Processed>
+  <CuisineStory_Category_Seasoning>조미료</CuisineStory_Category_Seasoning>
+  <CuisineStory_Category_Floral>꽃 재료</CuisineStory_Category_Floral>
+  <CuisineStory_Category_Medicinal>약초</CuisineStory_Category_Medicinal>
+  <CuisineStory_Category_Drug>약물</CuisineStory_Category_Drug>
+  <CuisineStory_Category_Liquid>액체</CuisineStory_Category_Liquid>
+  <CuisineStory_Category_Other>기타</CuisineStory_Category_Other>
+  <CuisineStory_DimensionTip_Health>건강\n언제나 열량 효율을 결정합니다. 특징이 되면 수면을 채워 주고, 위험 등급 G면 수면을 깎습니다. 음수면 식중독 위험도 올라갑니다.</CuisineStory_DimensionTip_Health>
+  <CuisineStory_DimensionTip_Ingenuity>창의\n특징이 되면 작업 속도가 오르고, 위험 등급 G면 작업 속도가 떨어집니다.</CuisineStory_DimensionTip_Ingenuity>
+  <CuisineStory_DimensionTip_Taste>식감\n특징이 되면 재미를 채워 주고, 위험 등급 G면 재미를 깎습니다.</CuisineStory_DimensionTip_Taste>
+  <CuisineStory_DimensionTip_Aroma>향\n특징이 되면 편안을 채워 주고, 위험 등급 G면 편안을 깎습니다.</CuisineStory_DimensionTip_Aroma>
+  <CuisineStory_DimensionTip_Beauty>외관\n특징이 되면 사교 매력이 오르고, 위험 등급 G면 사교 영향력이 떨어집니다.</CuisineStory_DimensionTip_Beauty>
+  <CuisineStory_DimensionTip_Portion>분량\n레시피 크기와 작업량을 정합니다.</CuisineStory_DimensionTip_Portion>
+  <CuisineStory_DimensionTip_Rarity>희귀도\n판매 가격을 올립니다.</CuisineStory_DimensionTip_Rarity>
+  <CuisineStory_DimensionTip_Difficulty>난이도\n작업량이 늘고 성공 확률이 떨어집니다.</CuisineStory_DimensionTip_Difficulty>
+  <CuisineStory_Meal_FallbackDescription>불과 재료가 딱 알맞은 순간에 만났습니다.</CuisineStory_Meal_FallbackDescription>
+  <CuisineStory_Meal_Stars>요리 등급</CuisineStory_Meal_Stars>
+  <CuisineStory_Meal_StarsTip>요리 등급은 바닐라 식사 단계를 정하고, 요리로 얻는 기분 효과에도 더해집니다.</CuisineStory_Meal_StarsTip>
+  <CuisineStory_Meal_Type>요리 종류</CuisineStory_Meal_Type>
+  <CuisineStory_Meal_TypeTip>조리 도구, 주재료, 부재료, 조리법이 함께 결정합니다.</CuisineStory_Meal_TypeTip>
+  <CuisineStory_Meal_Chef>요리사</CuisineStory_Meal_Chef>
+  <CuisineStory_Meal_ChefTip>이 요리를 완성한 요리사입니다. 같은 레시피라면 요리사가 달라도 한 칸에 쌓입니다.</CuisineStory_Meal_ChefTip>
+  <CuisineStory_Meal_MultipleChefs>여러 요리사</CuisineStory_Meal_MultipleChefs>
+  <CuisineStory_Meal_ShelfLife>기본 보존 기간</CuisineStory_Meal_ShelfLife>
+  <CuisineStory_Meal_ShelfStableTip>바싹 말려 단단하게 구운 요리는 썩지 않고 영원히 보존됩니다.</CuisineStory_Meal_ShelfStableTip>
+  <CuisineStory_Meal_ShelfLifeTip>조리법과 보존 기술로 정해지는 상온 보존 기간입니다. 낮은 온도에서는 바닐라 규칙대로 부패가 느려지거나 멈춥니다.</CuisineStory_Meal_ShelfLifeTip>
+  <CuisineStory_Meal_Preservation>보존 기술</CuisineStory_Meal_Preservation>
+  <CuisineStory_Meal_NoPreservation>추가 보존 기술 없음.</CuisineStory_Meal_NoPreservation>
+  <CuisineStory_Meal_Aftertaste>요리의 여운</CuisineStory_Meal_Aftertaste>
+  <CuisineStory_Meal_AftertasteNamed>요리의 여운 · {NAME}</CuisineStory_Meal_AftertasteNamed>
+  <CuisineStory_Meal_NoAftertaste>이 요리는 추가 여운 효과를 주지 않습니다.</CuisineStory_Meal_NoAftertaste>
+  <CuisineStory_Meal_LowNutritionAftertaste>열량이 0.1 미만이라 이 요리는 요리의 여운도 디저트의 여운도 주지 않습니다.</CuisineStory_Meal_LowNutritionAftertaste>
+  <CuisineStory_Meal_AftertasteTip>먹은 뒤 하루 동안 지속됩니다. 다른 주요리를 먹으면 요리의 여운이 새로 고쳐지고, 디저트의 여운은 함께 쌓일 수 있습니다.</CuisineStory_Meal_AftertasteTip>
+  <CuisineStory_Meal_NutritionSurplus>요리의 여운 · 영양 과잉</CuisineStory_Meal_NutritionSurplus>
+  <CuisineStory_Meal_NutritionSurplusTip>재료 열량이 {THRESHOLD}(을)를 넘으면 얻는 추가 여운입니다.</CuisineStory_Meal_NutritionSurplusTip>
+  <CuisineStory_Buff_NutritionSurplus>영양 과잉: 치료 속도 +10%</CuisineStory_Buff_NutritionSurplus>
+  <CuisineStory_Buff_HealthPositive>건강: 수면 욕구 {VALUE} 감소</CuisineStory_Buff_HealthPositive>
+  <CuisineStory_Buff_HealthNegative>건강: 수면 욕구 {VALUE} 증가</CuisineStory_Buff_HealthNegative>
+  <CuisineStory_Buff_IngenuityPositive>창의: 작업 속도 {VALUE} 증가</CuisineStory_Buff_IngenuityPositive>
+  <CuisineStory_Buff_IngenuityNegative>창의: 작업 속도 {VALUE} 감소</CuisineStory_Buff_IngenuityNegative>
+  <CuisineStory_Buff_TastePositive>식감: 재미 {VALUE} 회복</CuisineStory_Buff_TastePositive>
+  <CuisineStory_Buff_TasteNegative>식감: 재미 {VALUE} 감소</CuisineStory_Buff_TasteNegative>
+  <CuisineStory_Buff_AromaPositive>향: 편안 {VALUE} 증가</CuisineStory_Buff_AromaPositive>
+  <CuisineStory_Buff_AromaNegative>향: 편안 {VALUE} 감소</CuisineStory_Buff_AromaNegative>
+  <CuisineStory_Buff_BeautyPositive>외관: 사교 영향력 {VALUE} 증가</CuisineStory_Buff_BeautyPositive>
+  <CuisineStory_Buff_BeautyNegative>외관: 사교 영향력 {VALUE} 감소</CuisineStory_Buff_BeautyNegative>
+  <CuisineStory_QuickEffect_RestPositive>수면 +{VALUE}</CuisineStory_QuickEffect_RestPositive>
+  <CuisineStory_QuickEffect_RestNegative>수면 -{VALUE}</CuisineStory_QuickEffect_RestNegative>
+  <CuisineStory_QuickEffect_WorkPositive>작업 효율 +{VALUE}</CuisineStory_QuickEffect_WorkPositive>
+  <CuisineStory_QuickEffect_WorkNegative>작업 효율 -{VALUE}</CuisineStory_QuickEffect_WorkNegative>
+  <CuisineStory_QuickEffect_JoyPositive>재미 +{VALUE}</CuisineStory_QuickEffect_JoyPositive>
+  <CuisineStory_QuickEffect_JoyNegative>재미 -{VALUE}</CuisineStory_QuickEffect_JoyNegative>
+  <CuisineStory_QuickEffect_ComfortPositive>편안 +{VALUE}</CuisineStory_QuickEffect_ComfortPositive>
+  <CuisineStory_QuickEffect_ComfortNegative>편안 -{VALUE}</CuisineStory_QuickEffect_ComfortNegative>
+  <CuisineStory_QuickEffect_SocialPositive>사교 영향력 +{VALUE}</CuisineStory_QuickEffect_SocialPositive>
+  <CuisineStory_QuickEffect_SocialNegative>사교 영향력 -{VALUE}</CuisineStory_QuickEffect_SocialNegative>
+  <CuisineStory_QuickEffect_Permanent>영구 보존</CuisineStory_QuickEffect_Permanent>
+  <CuisineStory_QuickEffect_BabyFood>아기도 먹을 수 있음</CuisineStory_QuickEffect_BabyFood>
+  <CuisineStory_QuickEffect_ShelfLife>상온 보존 기간: {VALUE}</CuisineStory_QuickEffect_ShelfLife>
+  <CuisineStory_Buff_CuisineAftertaste>요리의 여운</CuisineStory_Buff_CuisineAftertaste>
+  <CuisineStory_Buff_DessertAftertaste>디저트의 여운</CuisineStory_Buff_DessertAftertaste>
+  <CuisineStory_Buff_ThisDish>이 요리</CuisineStory_Buff_ThisDish>
+  <CuisineStory_Buff_DishQuoted>"{DISH}"</CuisineStory_Buff_DishQuoted>
+  <CuisineStory_Buff_Introduction>이번 식사가 남긴 여운: {DISH}</CuisineStory_Buff_Introduction>
+  <CuisineStory_Buff_NoEffects>이 요리는 추가 여운 효과가 없습니다.</CuisineStory_Buff_NoEffects>
+  <CuisineStory_Buff_Remaining>남은 시간: {TIME}</CuisineStory_Buff_Remaining>
+  <CuisineStory_Failure_DefaultChef>요리사</CuisineStory_Failure_DefaultChef>
+  <CuisineStory_Failure_DefaultDish>이 요리</CuisineStory_Failure_DefaultDish>
+  <CuisineStory_Failure_High>{CHEF}(이)가 보기 좋은 숯 한 접시를 내놓았습니다. "{DISH}" 요리 실패.</CuisineStory_Failure_High>
+  <CuisineStory_Failure_Medium>{CHEF}(이)가 뚜껑을 열자 매캐한 연기만 피어올랐습니다. "{DISH}" 요리 실패.</CuisineStory_Failure_Medium>
+  <CuisineStory_Failure_Low>{CHEF}의 손에서 "{DISH}" 요리가 작은 주방 사고가 되었습니다.</CuisineStory_Failure_Low>
+  <CuisineStory_Failure_Fire> 게다가 화로 옆에서 작은 불길까지 치솟았습니다!</CuisineStory_Failure_Fire>
+  <CuisineStory_Cookware_Pan>프라이팬</CuisineStory_Cookware_Pan>
+  <CuisineStory_Cookware_PanTip>빠르게 지지고 볶는 데 알맞으며, 기름과 향신료의 향을 살려 줍니다.</CuisineStory_Cookware_PanTip>
+  <CuisineStory_Cookware_Pot>육수 냄비</CuisineStory_Cookware_Pot>
+  <CuisineStory_Cookware_PotTip>맛있는 국물에 재료를 넣고 함께 뭉근히 끓이는 데 알맞습니다.</CuisineStory_Cookware_PotTip>
+  <CuisineStory_Cookware_Steamer>찜기</CuisineStory_Cookware_Steamer>
+  <CuisineStory_Cookware_SteamerTip>증기로 수분과 재료 본연의 맛을 지켜 줍니다.</CuisineStory_Cookware_SteamerTip>
+  <CuisineStory_Cookware_Grill>그릴</CuisineStory_Cookware_Grill>
+  <CuisineStory_Cookware_GrillTip>센 불에 직접 구워 노릇하고 향긋한 겉면을 만듭니다.</CuisineStory_Cookware_GrillTip>
+  <CuisineStory_Cookware_Oven>오븐</CuisineStory_Cookware_Oven>
+  <CuisineStory_Cookware_OvenTip>베이킹, 그라탱, 오래 고르게 익히는 요리에 알맞습니다.</CuisineStory_Cookware_OvenTip>
+  <CuisineStory_Cookware_Board>믹싱 볼</CuisineStory_Cookware_Board>
+  <CuisineStory_Cookware_BoardTip>샐러드, 회, 차가운 요리, 아이스크림, 과일 소르베에 씁니다.</CuisineStory_Cookware_BoardTip>
+  <CuisineStory_Preservation_StandardBake>일반 굽기</CuisineStory_Preservation_StandardBake>
+  <CuisineStory_Preservation_Smoking>훈연</CuisineStory_Preservation_Smoking>
+  <CuisineStory_Preservation_SaltSmoking>소금 훈연</CuisineStory_Preservation_SaltSmoking>
+  <CuisineStory_Preservation_DrySmoking>건조 훈연</CuisineStory_Preservation_DrySmoking>
+  <CuisineStory_Preservation_Dehydrating>과일·채소 건조</CuisineStory_Preservation_Dehydrating>
+  <CuisineStory_Preservation_HardBaking>단단히 굽기</CuisineStory_Preservation_HardBaking>
+  <CuisineStory_Preservation_ShelfStable>완전 건조 굽기</CuisineStory_Preservation_ShelfStable>
+  <CuisineStory_Preservation_SmokingEffects>향 증가, 건강 약간 감소, 작업량 ×1.2</CuisineStory_Preservation_SmokingEffects>
+  <CuisineStory_Preservation_SaltSmokingEffects>향 증가, 식감과 건강 약간 감소, 작업량 ×1.35</CuisineStory_Preservation_SaltSmokingEffects>
+  <CuisineStory_Preservation_DrySmokingEffects>향 증가, 식감과 건강 감소, 작업량 ×1.5</CuisineStory_Preservation_DrySmokingEffects>
+  <CuisineStory_Preservation_DehydratingEffects>식감과 향 증가, 건강 약간 감소, 작업량 ×1.4</CuisineStory_Preservation_DehydratingEffects>
+  <CuisineStory_Preservation_HardBakingEffects>창의 증가, 식감 약간 감소, 작업량 ×1.35</CuisineStory_Preservation_HardBakingEffects>
+  <CuisineStory_Preservation_ShelfStableEffects>창의 증가, 식감과 향 감소, 작업량 ×1.6</CuisineStory_Preservation_ShelfStableEffects>
+  <CuisineStory_Preservation_NoEffects>추가 능력치 보정 없음</CuisineStory_Preservation_NoEffects>
+  <CuisineStory_Preservation_Tooltip>기술 [{NAME}]: {EFFECTS} / 상온 보존 기간: {DAYS}</CuisineStory_Preservation_Tooltip>
+  <CuisineStory_ShelfLife_Forever>무기한</CuisineStory_ShelfLife_Forever>
+  <CuisineStory_ShelfLife_Days>{DAYS}일</CuisineStory_ShelfLife_Days>
+  <CuisineStory_Description_ClassicFallback>이 정통 레시피는 본래의 맛을 그대로 간직하고 있습니다.</CuisineStory_Description_ClassicFallback>
+  <CuisineStory_Description_Sentence>{OPENING}. {FEATURE}.</CuisineStory_Description_Sentence>
+  <CuisineStory_Description_SorbetOpening>얼음물이 과일의 단맛을 끌어올려 입안이 깔끔하고 시원합니다</CuisineStory_Description_SorbetOpening>
+  <CuisineStory_Description_BabyFood>아기 음식으로 먹일 수 있습니다.</CuisineStory_Description_BabyFood>
+  <CuisineStory_Description_Append>{DESCRIPTION} {SUFFIX}</CuisineStory_Description_Append>
+  <CuisineStory_Description_Preservation_Smoking>연기가 수분을 빼 주어 더 오래 보관할 수 있습니다.</CuisineStory_Description_Preservation_Smoking>
+  <CuisineStory_Description_Preservation_SaltSmoking>소금과 연기가 함께 작용해 오래 보관할 수 있습니다.</CuisineStory_Description_Preservation_SaltSmoking>
+  <CuisineStory_Description_Preservation_DrySmoking>바람에 말리고 연기를 쐬어 수분이 거의 남지 않아 아주 오래갑니다.</CuisineStory_Description_Preservation_DrySmoking>
+  <CuisineStory_Description_Preservation_Dehydrating>천천히 말리면서 과일과 채소의 맛이 진해지고 보존 기간도 늘어났습니다.</CuisineStory_Description_Preservation_Dehydrating>
+  <CuisineStory_Description_Preservation_HardBaking>수분이 적고 단단하게 구워져 오래 보관할 수 있습니다.</CuisineStory_Description_Preservation_HardBaking>
+  <CuisineStory_Description_Preservation_ShelfStable>여러 번 단단히 구워 수분을 거의 없앤 덕분에 영원히 보존됩니다.</CuisineStory_Description_Preservation_ShelfStable>
+  <CuisineStory_Description_Method_0_0>안정된 불 조절로 재료 본연의 맛을 붙잡았습니다</CuisineStory_Description_Method_0_0>
+  <CuisineStory_Description_Method_0_1>단순한 손질 덕분에 여러 맛이 자연스럽게 어우러졌습니다</CuisineStory_Description_Method_0_1>
+  <CuisineStory_Description_Method_0_2>튀지 않는 조리법 덕분에 맛이 든든하게 자리 잡았습니다</CuisineStory_Description_Method_0_2>
+  <CuisineStory_Description_Method_1_0>마른 팬에서 천천히 고소한 향을 끌어냈습니다</CuisineStory_Description_Method_1_0>
+  <CuisineStory_Description_Method_1_1>물도 기름도 없이 불만으로 겉면을 살짝 그을렸습니다</CuisineStory_Description_Method_1_1>
+  <CuisineStory_Description_Method_1_2>불에 바로 닿아 깔끔하고 확실하게 지져졌습니다</CuisineStory_Description_Method_1_2>
+  <CuisineStory_Description_Method_2_0>센 불에 재빨리 볶아 육즙을 가두었습니다</CuisineStory_Description_Method_2_0>
+  <CuisineStory_Description_Method_2_1>불맛이 확 올라오며 맛이 한데 모였습니다</CuisineStory_Description_Method_2_1>
+  <CuisineStory_Description_Method_2_2>짧고 강한 불에 선명한 향이 피어올랐습니다</CuisineStory_Description_Method_2_2>
+  <CuisineStory_Description_Method_3_0>뜨거운 기름이 겉면을 바삭하고 고소하게 만들었습니다</CuisineStory_Description_Method_3_0>
+  <CuisineStory_Description_Method_3_1>세심한 기름 온도 조절로 또렷한 고소한 향이 살아났습니다</CuisineStory_Description_Method_3_1>
+  <CuisineStory_Description_Method_3_2>튀겨 내어 겉은 가볍게 바삭하고 속에는 여운이 남았습니다</CuisineStory_Description_Method_3_2>
+  <CuisineStory_Description_Method_4_0>약한 불이 모든 맛을 천천히 국물에 녹여 냈습니다</CuisineStory_Description_Method_4_0>
+  <CuisineStory_Description_Method_4_1>끈기 있게 끓여 따뜻하고 둥근 바탕 맛을 만들었습니다</CuisineStory_Description_Method_4_1>
+  <CuisineStory_Description_Method_4_2>은근한 불에서 국물이 점점 진해졌습니다</CuisineStory_Description_Method_4_2>
+  <CuisineStory_Description_Method_5_0>부드러운 증기가 신선한 감칠맛을 지켜 주었습니다</CuisineStory_Description_Method_5_0>
+  <CuisineStory_Description_Method_5_1>쪄 낸 덕분에 식감이 부드럽고 깔끔합니다</CuisineStory_Description_Method_5_1>
+  <CuisineStory_Description_Method_5_2>증기가 재료에 천천히 스며들면서도 각자의 맛은 또렷하게 남았습니다</CuisineStory_Description_Method_5_2>
+  <CuisineStory_Description_Method_6_0>직화로 선명한 불향을 입혔습니다</CuisineStory_Description_Method_6_0>
+  <CuisineStory_Description_Method_6_1>센 불에 직접 구워 가장자리가 살짝 그을렸습니다</CuisineStory_Description_Method_6_1>
+  <CuisineStory_Description_Method_6_2>불길이 대담하고 만족스러운 훈연 풍미를 더했습니다</CuisineStory_Description_Method_6_2>
+  <CuisineStory_Description_Method_7_0>고른 열로 따뜻한 향을 구워 냈습니다</CuisineStory_Description_Method_7_0>
+  <CuisineStory_Description_Method_7_1>겉은 노릇하게 구워지고 속은 부드럽게 남았습니다</CuisineStory_Description_Method_7_1>
+  <CuisineStory_Description_Method_7_2>오븐이 천천히 뚜렷한 맛의 층을 쌓아 올렸습니다</CuisineStory_Description_Method_7_2>
+  <CuisineStory_Description_Method_8_0>산뜻한 손질로 살아 있는 식감을 지켰습니다</CuisineStory_Description_Method_8_0>
+  <CuisineStory_Description_Method_8_1>가볍게 버무려 모든 맛이 산뜻하게 살아났습니다</CuisineStory_Description_Method_8_1>
+  <CuisineStory_Description_Method_8_2>불을 쓰지 않아 재료의 신선함이 더 또렷해졌습니다</CuisineStory_Description_Method_8_2>
+  <CuisineStory_Description_Method_9_0>끈기 있게 절여 맛이 천천히 속까지 배어들었습니다</CuisineStory_Description_Method_9_0>
+  <CuisineStory_Description_Method_9_1>시간이 향과 감칠맛을 재료 속에 스며들게 했습니다</CuisineStory_Description_Method_9_1>
+  <CuisineStory_Description_Method_9_2>절이면서 맛이 응축되어 긴 여운이 남습니다</CuisineStory_Description_Method_9_2>
+  <CuisineStory_Description_Feature_0_0>맛이 순해서 편하게 먹을 수 있습니다</CuisineStory_Description_Feature_0_0>
+  <CuisineStory_Description_Feature_0_1>조합에 정성이 담겨 가볍고 알맞게 느껴집니다</CuisineStory_Description_Feature_0_1>
+  <CuisineStory_Description_Feature_0_2>먹기 편하면서도 곳곳에 재치가 숨어 있습니다</CuisineStory_Description_Feature_0_2>
+  <CuisineStory_Description_Feature_0_3>은은한 향이 차분한 여운을 남깁니다</CuisineStory_Description_Feature_0_3>
+  <CuisineStory_Description_Feature_0_4>깔끔하고 부담 없으며 보기에도 단정합니다</CuisineStory_Description_Feature_0_4>
+  <CuisineStory_Description_Feature_1_0>자연스러운 조합이라 먹고 나서 부담이 없습니다</CuisineStory_Description_Feature_1_0>
+  <CuisineStory_Description_Feature_1_1>맛의 층이 제법 재치 있게 짜여 있습니다</CuisineStory_Description_Feature_1_1>
+  <CuisineStory_Description_Feature_1_2>또렷한 식감에서 조리법에 쏟은 고민이 보입니다</CuisineStory_Description_Feature_1_2>
+  <CuisineStory_Description_Feature_1_3>향이 단계적으로 피어올라 음미할수록 즐겁습니다</CuisineStory_Description_Feature_1_3>
+  <CuisineStory_Description_Feature_1_4>구상과 담음새 모두 정성이 느껴집니다</CuisineStory_Description_Feature_1_4>
+  <CuisineStory_Description_Feature_2_0>부드러운 한입이 특히 먹음직스럽습니다</CuisineStory_Description_Feature_2_0>
+  <CuisineStory_Description_Feature_2_1>세심한 손질로 식감에 깊이가 생겼습니다</CuisineStory_Description_Feature_2_1>
+  <CuisineStory_Description_Feature_2_2>꽉 찬 식감이라 씹을수록 맛이 납니다</CuisineStory_Description_Feature_2_2>
+  <CuisineStory_Description_Feature_2_3>향과 식감이 서로를 받쳐 줍니다</CuisineStory_Description_Feature_2_3>
+  <CuisineStory_Description_Feature_2_4>훌륭한 식감에 빛깔까지 먹음직스럽습니다</CuisineStory_Description_Feature_2_4>
+  <CuisineStory_Description_Feature_3_0>편안한 향 덕분에 순하고 즐기기 쉽습니다</CuisineStory_Description_Feature_3_0>
+  <CuisineStory_Description_Feature_3_1>향이 짜임새 있게 퍼져 나갑니다</CuisineStory_Description_Feature_3_1>
+  <CuisineStory_Description_Feature_3_2>향이 먼저 오고, 뒤이어 든든한 식감이 따라옵니다</CuisineStory_Description_Feature_3_2>
+  <CuisineStory_Description_Feature_3_3>여운이 선명하면서도 어지럽지 않습니다</CuisineStory_Description_Feature_3_3>
+  <CuisineStory_Description_Feature_3_4>산뜻한 향에 눈길을 끄는 담음새까지 갖췄습니다</CuisineStory_Description_Feature_3_4>
+  <CuisineStory_Description_Feature_4_0>산뜻한 빛깔에 먹기도 편합니다</CuisineStory_Description_Feature_4_0>
+  <CuisineStory_Description_Feature_4_1>깔끔한 담음새에 재치가 조금 묻어납니다</CuisineStory_Description_Feature_4_1>
+  <CuisineStory_Description_Feature_4_2>먹음직스러운 겉모습을 식감이 제대로 받쳐 줍니다</CuisineStory_Description_Feature_4_2>
+  <CuisineStory_Description_Feature_4_3>빛깔과 향이 서로를 살려 입맛을 돋웁니다</CuisineStory_Description_Feature_4_3>
+  <CuisineStory_Description_Feature_4_4>빛깔과 모양 모두 돋보입니다</CuisineStory_Description_Feature_4_4>
+  <CuisineStory_Compatibility_General>보통</CuisineStory_Compatibility_General>
+  <CuisineStory_Compatibility_Subtle>애매함</CuisineStory_Compatibility_Subtle>
+  <CuisineStory_Compatibility_Good>좋음</CuisineStory_Compatibility_Good>
+  <CuisineStory_Compatibility_Excellent>훌륭함</CuisineStory_Compatibility_Excellent>
+  <CuisineStory_Compatibility_Exceptional>환상적</CuisineStory_Compatibility_Exceptional>
+  <CuisineStory_Quality_Simple>간단한 식사</CuisineStory_Quality_Simple>
+  <CuisineStory_Quality_Fine>좋은 식사</CuisineStory_Quality_Fine>
+  <CuisineStory_Quality_Lavish>호화로운 식사</CuisineStory_Quality_Lavish>
+  <CuisineStory_Type_Cuisine>요리</CuisineStory_Type_Cuisine>
+  <CuisineStory_Type_IceCream>아이스크림</CuisineStory_Type_IceCream>
+  <CuisineStory_Type_Sorbet>소르베</CuisineStory_Type_Sorbet>
+  <CuisineStory_Type_Dessert>디저트</CuisineStory_Type_Dessert>
+  <CuisineStory_Type_SashimiPlatter>모둠회</CuisineStory_Type_SashimiPlatter>
+  <CuisineStory_Type_Sashimi>회</CuisineStory_Type_Sashimi>
+  <CuisineStory_Type_RawFish>생선회</CuisineStory_Type_RawFish>
+  <CuisineStory_Type_Salad>샐러드</CuisineStory_Type_Salad>
+  <CuisineStory_Type_ColdDish>냉채</CuisineStory_Type_ColdDish>
+  <CuisineStory_Type_Drink>음료</CuisineStory_Type_Drink>
+  <CuisineStory_Type_NoodlesDumplings>면/만두</CuisineStory_Type_NoodlesDumplings>
+  <CuisineStory_Type_Dumplings>만두</CuisineStory_Type_Dumplings>
+  <CuisineStory_Type_Steamed>찜</CuisineStory_Type_Steamed>
+  <CuisineStory_Type_Gratin>그라탱</CuisineStory_Type_Gratin>
+  <CuisineStory_Type_Grilled>구이</CuisineStory_Type_Grilled>
+  <CuisineStory_Type_Staple>주식</CuisineStory_Type_Staple>
+  <CuisineStory_Type_Soup>국</CuisineStory_Type_Soup>
+  <CuisineStory_Type_PizzaFlatbread>피자/납작빵</CuisineStory_Type_PizzaFlatbread>
+  <CuisineStory_Type_PanFried>부침</CuisineStory_Type_PanFried>
+  <CuisineStory_Type_Bun>소빵</CuisineStory_Type_Bun>
+  <CuisineStory_Type_Bread>빵</CuisineStory_Type_Bread>
+  <CuisineStory_Type_DeepFried>튀김</CuisineStory_Type_DeepFried>
+  <CuisineStory_Type_RedBraised>간장 조림</CuisineStory_Type_RedBraised>
+  <CuisineStory_Type_Braised>조림</CuisineStory_Type_Braised>
+  <CuisineStory_Type_CoveredBraise>뚜껑 찜</CuisineStory_Type_CoveredBraise>
+  <CuisineStory_Type_SlowBraise>뭉근 조림</CuisineStory_Type_SlowBraise>
+  <CuisineStory_Type_StirFried>볶음</CuisineStory_Type_StirFried>
+  <CuisineStory_Type_DrySeared>지짐</CuisineStory_Type_DrySeared>
+  <CuisineStory_Type_DryFried>마른 볶음</CuisineStory_Type_DryFried>
+  <CuisineStory_Type_WetRoasted>촉촉한 구이</CuisineStory_Type_WetRoasted>
+  <CuisineStory_Type_DryGrilled>마른 구이</CuisineStory_Type_DryGrilled>
+  <CuisineStory_Type_Liquid>액체 요리</CuisineStory_Type_Liquid>
+  <CuisineStory_Type_Baked>베이킹</CuisineStory_Type_Baked>
+  <CuisineStory_Type_Cured>절임</CuisineStory_Type_Cured>
+  <CuisineStory_Type_ShelfStableBaked>완전 건조 구이</CuisineStory_Type_ShelfStableBaked>
+  <CuisineStory_Type_Porridge>죽</CuisineStory_Type_Porridge>
+  <CuisineStory_Type_Stew>스튜</CuisineStory_Type_Stew>
+  <CuisineStory_Type_Platter>모둠 요리</CuisineStory_Type_Platter>
+  <CuisineStory_Type_AfterMealDessert>식후 디저트</CuisineStory_Type_AfterMealDessert>
+  <CuisineStory_Comment_Empty>재료를 몇 가지 골라서 어떤 불꽃이 튀는지 봅시다.</CuisineStory_Comment_Empty>
+  <CuisineStory_Comment_MainFallback>이 주재료들</CuisineStory_Comment_MainFallback>
+  <CuisineStory_Comment_SupplementFallback>다른 재료들</CuisineStory_Comment_SupplementFallback>
+  <CuisineStory_Comment_Pair>{MAIN} + {SUPPLEMENT}</CuisineStory_Comment_Pair>
+  <CuisineStory_Ingredient_Water>물</CuisineStory_Ingredient_Water>
+  <CuisineStory_Comment_Danger_0>{PAIR} 조합은 좀 위험해 보입니다. 뒷수습을 위장에 맡기지 않는 게 좋겠습니다.</CuisineStory_Comment_Danger_0>
+  <CuisineStory_Comment_Danger_1>이 {PAIR} 조합은 먹는 사람을 즐겁게 하기보다 시험하려는 것 같습니다.</CuisineStory_Comment_Danger_1>
+  <CuisineStory_Comment_Danger_2>{PAIR} 조합에서 위험한 자신감이 풍깁니다. 한입 먹기 전에 다시 생각해 보세요.</CuisineStory_Comment_Danger_2>
+  <CuisineStory_Comment_Danger_3>{PAIR} 조합은 "먹을 수 있다"와 "먹어야 한다"가 다른 문제라는 걸 알려 줍니다.</CuisineStory_Comment_Danger_3>
+  <CuisineStory_Comment_Danger_4>요리사는 이 실험에 자원했습니다. 위장은 자원하지 않았습니다.</CuisineStory_Comment_Danger_4>
+  <CuisineStory_Comment_PortionOnly_0>양만 많고, 그게 전부네요...</CuisineStory_Comment_PortionOnly_0>
+  <CuisineStory_Comment_PortionOnly_1>배는 채워 줍니다. 장점은 거기서 끝입니다.</CuisineStory_Comment_PortionOnly_1>
+  <CuisineStory_Comment_PortionOnly_2>양은 산더미인데 맛은 아직 산 아래에 있습니다.</CuisineStory_Comment_PortionOnly_2>
+  <CuisineStory_Comment_PortionOnly_3>적어도 양이 적다는 소리는 못 듣겠네요. 딱 그뿐입니다.</CuisineStory_Comment_PortionOnly_3>
+  <CuisineStory_Comment_PortionOnly_4>상단 하나를 먹일 만큼 넉넉합니다. 그 상단이 입맛이 까다롭지만 않다면요.</CuisineStory_Comment_PortionOnly_4>
+  <CuisineStory_Comment_PortionOnly_5>양은 주연급, 맛은 조연급입니다.</CuisineStory_Comment_PortionOnly_5>
+  <CuisineStory_Comment_Salt_0>소금을 잔뜩 넣었는데, 어째선지 맛있네요!</CuisineStory_Comment_Salt_0>
+  <CuisineStory_Comment_Salt_1>{MAIN}, 소금에 거의 파묻혔는데도 맛은 살아남았습니다.</CuisineStory_Comment_Salt_1>
+  <CuisineStory_Comment_Salt_2>소금이 무대를 거의 다 차지했지만, {MAIN}, 끝까지 버텨 냈습니다.</CuisineStory_Comment_Salt_2>
+  <CuisineStory_Comment_Salt_3>이건 간이 아니라 {MAIN} 위에 내린 함박눈입니다.</CuisineStory_Comment_Salt_3>
+  <CuisineStory_Comment_Salt_4>소금통이 빠지더니 아예 눌러살기로 한 것 같습니다.</CuisineStory_Comment_Salt_4>
+  <CuisineStory_Comment_Salt_5>{PAIR} 한입이면 가장 가까운 물가가 곧바로 퀘스트 목표가 됩니다.</CuisineStory_Comment_Salt_5>
+  <CuisineStory_Comment_Difficult_0>{PAIR} 조합에 공은 많이 들였지만, 결과가 야심을 따라가지 못했습니다.</CuisineStory_Comment_Difficult_0>
+  <CuisineStory_Comment_Difficult_1>조리법은 시험 문제 수준인데, 맛은 평범한 답안지를 냈습니다.</CuisineStory_Comment_Difficult_1>
+  <CuisineStory_Comment_Difficult_2>{PAIR} 조합은 요리사에게 많은 걸 요구하는데, 돌아오는 건 소박합니다.</CuisineStory_Comment_Difficult_2>
+  <CuisineStory_Comment_Difficult_3>조리법은 논문인데, 맛은 초록만 제출했습니다.</CuisineStory_Comment_Difficult_3>
+  <CuisineStory_Comment_Difficult_4>요리사는 기적을 일으켰는데, 요리는 그걸 평범한 서류로 처리했습니다.</CuisineStory_Comment_Difficult_4>
+  <CuisineStory_Comment_Exceptional_0>{PAIR}, 원래부터 한 냄비에 들어가야 했던 것 같습니다!</CuisineStory_Comment_Exceptional_0>
+  <CuisineStory_Comment_Exceptional_1>{PAIR} 조합의 맛이 군더더기 없이 딱 맞물립니다.</CuisineStory_Comment_Exceptional_1>
+  <CuisineStory_Comment_Exceptional_2>{MAIN}, {SUPPLEMENT}의 향을 멋지게 받아 냅니다.</CuisineStory_Comment_Exceptional_2>
+  <CuisineStory_Comment_Exceptional_3>{PAIR}, 조합만 봐도 확실하다는 게 느껴집니다.</CuisineStory_Comment_Exceptional_3>
+  <CuisineStory_Comment_Exceptional_4>{MAIN}, {SUPPLEMENT}. 만난 지 5분 만에 서로의 맛을 완성해 줍니다.</CuisineStory_Comment_Exceptional_4>
+  <CuisineStory_Comment_Exceptional_5>평론가는 할 말이 있었지만, 씹느라 바빠졌습니다.</CuisineStory_Comment_Exceptional_5>
+  <CuisineStory_Comment_Excellent_0>{PAIR}, 궁합이 좋아 보입니다!</CuisineStory_Comment_Excellent_0>
+  <CuisineStory_Comment_Excellent_1>{PAIR} 조합이 서로를 끌어올립니다. 결과가 기대되네요.</CuisineStory_Comment_Excellent_1>
+  <CuisineStory_Comment_Excellent_2>{MAIN}, {SUPPLEMENT}. 개성은 제각각인데 신기할 만큼 잘 어울립니다.</CuisineStory_Comment_Excellent_2>
+  <CuisineStory_Comment_Excellent_3>과감한 조합이지만, 향이 이미 답을 내놓았습니다.</CuisineStory_Comment_Excellent_3>
+  <CuisineStory_Comment_Excellent_4>{MAIN} 쪽이 바탕을 잡고, {SUPPLEMENT} 쪽이 기억에 남는 대사를 맡았습니다.</CuisineStory_Comment_Excellent_4>
+  <CuisineStory_Comment_Excellent_5>자신감 있는 조합입니다. 뒤집개마저 전문가처럼 보입니다.</CuisineStory_Comment_Excellent_5>
+  <CuisineStory_Comment_Subtle_0>{PAIR} 조합은 방향이 좀 애매합니다. 불 조절로 살릴 수 있을지도요.</CuisineStory_Comment_Subtle_0>
+  <CuisineStory_Comment_Subtle_1>{PAIR} 조합이 영감인지 착각인지 판단하기 어렵습니다.</CuisineStory_Comment_Subtle_1>
+  <CuisineStory_Comment_Subtle_2>{MAIN} 쪽이 {SUPPLEMENT} 쪽과 어떻게 지낼지 아직 정하지 못한 것 같습니다.</CuisineStory_Comment_Subtle_2>
+  <CuisineStory_Comment_Subtle_3>호기심도 생기고, 걱정도 조금 되는 조합입니다.</CuisineStory_Comment_Subtle_3>
+  <CuisineStory_Comment_Subtle_4>{MAIN} 쪽과 {SUPPLEMENT} 쪽이 아직 협상 중이라, 먹는 사람이 중재자로 뽑혔습니다.</CuisineStory_Comment_Subtle_4>
+  <CuisineStory_Comment_Subtle_5>시대를 앞서갔거나, 길을 잃었거나 둘 중 하나입니다.</CuisineStory_Comment_Subtle_5>
+  <CuisineStory_Comment_FiveStar_0>{PAIR} 조합은 더 이상 실험이 아니라 간판 요리 같습니다.</CuisineStory_Comment_FiveStar_0>
+  <CuisineStory_Comment_FiveStar_1>불 조절도 재료도 가장 좋은 쪽에 섰습니다.</CuisineStory_Comment_FiveStar_1>
+  <CuisineStory_Comment_FiveStar_2>이게 식탁에 오르면, 이름 따위는 가장 덜 중요한 부분이 됩니다.</CuisineStory_Comment_FiveStar_2>
+  <CuisineStory_Comment_FiveStar_3>{PAIR} 조합이 가진 장점을 하나도 남김없이 살렸습니다.</CuisineStory_Comment_FiveStar_3>
+  <CuisineStory_Comment_FiveStar_4>여기서 별 다섯은 평가가 아니라 일기 예보입니다.</CuisineStory_Comment_FiveStar_4>
+  <CuisineStory_Comment_FiveStar_5>유일한 흠은, 다음 접시가 남의 차지가 될지도 모른다는 겁니다.</CuisineStory_Comment_FiveStar_5>
+  <CuisineStory_Comment_ThreeStar_0>{PAIR} 조합은 안정적이라 한 접시 더 찾는 사람이 있을 겁니다.</CuisineStory_Comment_ThreeStar_0>
+  <CuisineStory_Comment_ThreeStar_1>재료들이 서로 주목받으려 다투지 않습니다. 기대해 볼 만한 접시입니다.</CuisineStory_Comment_ThreeStar_1>
+  <CuisineStory_Comment_ThreeStar_2>{PAIR} 조합은 화려하진 않지만, 모든 과정이 맛을 향합니다.</CuisineStory_Comment_ThreeStar_2>
+  <CuisineStory_Comment_ThreeStar_3>이 조합이면 식탁에 올릴 준비가 됐습니다.</CuisineStory_Comment_ThreeStar_3>
+  <CuisineStory_Comment_ThreeStar_4>기적은 없지만 남는 음식도 없을 겁니다. 꽤 괜찮은 구성입니다.</CuisineStory_Comment_ThreeStar_4>
+  <CuisineStory_Comment_ThreeStar_5>박수는 안 쳐도 됩니다. 한 그릇 더 시키는 게 더 확실한 칭찬이니까요.</CuisineStory_Comment_ThreeStar_5>
+  <CuisineStory_Comment_ZeroStar_0>{PAIR} 조합은 아직 용감한 아이디어일 뿐입니다.</CuisineStory_Comment_ZeroStar_0>
+  <CuisineStory_Comment_ZeroStar_1>냄비에 뭐든 다 들어 있는데, 완성된 요리의 모양만 없습니다.</CuisineStory_Comment_ZeroStar_1>
+  <CuisineStory_Comment_ZeroStar_2>{PAIR}, 말로는 흥겨운데 먹는 건 또 다른 문제일 수 있습니다.</CuisineStory_Comment_ZeroStar_2>
+  <CuisineStory_Comment_ZeroStar_3>다른 조리 도구라면 이 재료들을 설득할 수 있을지도 모릅니다.</CuisineStory_Comment_ZeroStar_3>
+  <CuisineStory_Comment_ZeroStar_4>실패는 아닙니다. 재료들이 아직 팀워크를 다지는 중일 뿐.</CuisineStory_Comment_ZeroStar_4>
+  <CuisineStory_Comment_ZeroStar_5>추천 요리 이름: "다음엔 꼭."</CuisineStory_Comment_ZeroStar_5>
+  <CuisineStory_Comment_LowHealth_0>{PAIR} 조합은 맛은 통과일지 몰라도, 몸이 박수 칠 것 같진 않습니다.</CuisineStory_Comment_LowHealth_0>
+  <CuisineStory_Comment_LowHealth_1>접시에 아이디어는 있는데, 건강은 화로 옆에 두고 왔네요.</CuisineStory_Comment_LowHealth_1>
+  <CuisineStory_Comment_LowHealth_2>혀는 찬성표를 던졌고, 몸은 정식으로 이의를 제기했습니다.</CuisineStory_Comment_LowHealth_2>
+  <CuisineStory_Comment_LowHealth_3>내일 아무 일정 없는 날 먹는 게 좋겠습니다.</CuisineStory_Comment_LowHealth_3>
+  <CuisineStory_Comment_Dimension_0_0>{PAIR} 조합은 든든한 맛입니다. 몸이 좋아할 겁니다.</CuisineStory_Comment_Dimension_0_0>
+  <CuisineStory_Comment_Dimension_0_1>몸을 어찌나 배려하는지, 이불까지 덮어 줄 기세입니다.</CuisineStory_Comment_Dimension_0_1>
+  <CuisineStory_Comment_Dimension_1_0>{PAIR} 조합에는 재치 있는 발상과 보기보다 깊은 기술이 숨어 있습니다.</CuisineStory_Comment_Dimension_1_0>
+  <CuisineStory_Comment_Dimension_1_1>레시피는 머리가 빨리 돌아가는데, 뒤집개가 따라가느라 애쓰는 중입니다.</CuisineStory_Comment_Dimension_1_1>
+  <CuisineStory_Comment_Dimension_2_0>이 접시의 주인공은 맛입니다. {PAIR} 조합을 한데 모은 보람이 있네요.</CuisineStory_Comment_Dimension_2_0>
+  <CuisineStory_Comment_Dimension_2_1>{PAIR} 조합은 혀를 사로잡고 공손하게 놓아주지 않는 법을 압니다.</CuisineStory_Comment_Dimension_2_1>
+  <CuisineStory_Comment_Dimension_3_0>{SUPPLEMENT} 덕분에 {MAIN}의 향이 제대로 살아났습니다.</CuisineStory_Comment_Dimension_3_0>
+  <CuisineStory_Comment_Dimension_3_1>뚜껑은 아직 닫혀 있는데, 향은 벌써 식탁에 자리를 맡아 뒀습니다.</CuisineStory_Comment_Dimension_3_1>
+  <CuisineStory_Comment_Dimension_4_0>{PAIR} 조합은 한입 먹기도 전에 겉모습으로 먼저 이겼습니다.</CuisineStory_Comment_Dimension_4_0>
+  <CuisineStory_Comment_Dimension_4_1>잡지 표지감입니다. 아쉽게도 정착지에는 아직 잡지가 없습니다.</CuisineStory_Comment_Dimension_4_1>
+  <CuisineStory_Comment_Dimension_5_0>양이 넉넉합니다. 배고픈 사람이 좋아하겠네요.</CuisineStory_Comment_Dimension_5_0>
+  <CuisineStory_Comment_Dimension_5_1>이 양이면 허기가 그 자리에서 사표를 낼지도 모릅니다.</CuisineStory_Comment_Dimension_5_1>
+  <CuisineStory_Comment_Dimension_6_0>{PAIR} 조합에는 보기 드문 격조가 있어, 배 채우는 것 이상의 가치가 있습니다.</CuisineStory_Comment_Dimension_6_0>
+  <CuisineStory_Comment_Dimension_6_1>보기엔 저녁밥인데, 먹어 보면 괜찮은 투자입니다.</CuisineStory_Comment_Dimension_6_1>
+  <CuisineStory_Comment_Dimension_7_0>{PAIR} 조합은 손맛을 탑니다. 요리사가 바뀌면 완전히 다른 요리가 될지도요.</CuisineStory_Comment_Dimension_7_0>
+  <CuisineStory_Comment_Dimension_7_1>단계가 워낙 많아서, 저녁 한 끼 만들고 나면 요리사 레벨도 하나 오를 것 같습니다.</CuisineStory_Comment_Dimension_7_1>
+  <CuisineStory_Processing_DescriptionFallback>나중에 요리를 개발할 때 쓸 손질한 재료입니다.</CuisineStory_Processing_DescriptionFallback>
+  <CuisineStory_Processing_FeatureFallback>미리 손질해 두어 완성 요리에 더 다양한 가능성을 남겨 줍니다.</CuisineStory_Processing_FeatureFallback>
+  <CuisineStory_Processing_Feature_RimDreamCuisine_Cheese>진한 우유 향이 구우면 더 고소해집니다. 그라탱과 차가운 모둠 요리에 제격입니다.</CuisineStory_Processing_Feature_RimDreamCuisine_Cheese>
+  <CuisineStory_Processing_Feature_RimDreamCuisine_GoldLeaf>무게가 거의 없는데도 평범한 요리에 호화로운 윤기를 더해 줍니다.</CuisineStory_Processing_Feature_RimDreamCuisine_GoldLeaf>
+  <CuisineStory_Processing_Feature_RimDreamCuisine_Cream>가볍고 부드러워서, 단맛을 더하면 시원하고 매끄러운 디저트에 특히 잘 어울립니다.</CuisineStory_Processing_Feature_RimDreamCuisine_Cream>
+  <CuisineStory_Processing_Feature_RimDreamCuisine_SoySauce>짭짤하고 감칠맛 나는 발효 향. 볶음에도 고기 조림에도 한 숟갈씩 꼭 들어갑니다.</CuisineStory_Processing_Feature_RimDreamCuisine_SoySauce>
+  <CuisineStory_Processing_Feature_RimDreamCuisine_Intermediate_Noodles>탱글하고 매끄러우며, 맛있는 국물을 머금었을 때 가장 맛있습니다.</CuisineStory_Processing_Feature_RimDreamCuisine_Intermediate_Noodles>
+  <CuisineStory_Processing_Feature_RimDreamCuisine_Intermediate_Wrapper>얇고 부드러우면서 쫄깃해서, 소를 감싸면 한입 가득 만족스럽습니다.</CuisineStory_Processing_Feature_RimDreamCuisine_Intermediate_Wrapper>
+  <CuisineStory_Processing_Feature_RimDreamCuisine_Intermediate_Flatbread>겉은 고소하고 속은 쫄깃해서 고기 육즙과 소스를 담기에 딱입니다.</CuisineStory_Processing_Feature_RimDreamCuisine_Intermediate_Flatbread>
+  <CuisineStory_Processing_Feature_RimDreamCuisine_Intermediate_Dough>폭신하게 부풀어 은은한 밀 향으로 구워집니다.</CuisineStory_Processing_Feature_RimDreamCuisine_Intermediate_Dough>
+  <CuisineStory_Processing_Feature_RimDreamCuisine_Intermediate_Rice>알알이 살아 있어 볶거나 비비거나 소스를 끼얹기에 좋습니다.</CuisineStory_Processing_Feature_RimDreamCuisine_Intermediate_Rice>
+  <CuisineStory_Processing_Feature_RimDreamCuisine_Intermediate_MarinatedMeat>간이 속까지 배어 있어 팬에 재빨리 볶으면 향이 바로 올라옵니다.</CuisineStory_Processing_Feature_RimDreamCuisine_Intermediate_MarinatedMeat>
+  <CuisineStory_Processing_Feature_RimDreamCuisine_Flour>곱고 반죽하기 쉬워서 밀가루 음식의 든든한 바탕이 됩니다.</CuisineStory_Processing_Feature_RimDreamCuisine_Flour>
+  <CuisineStory_Processing_Feature_RimDreamCuisine_CookingOil>달군 팬에 기름을 조금 두르면 향도 노릇함도 함께 살아납니다.</CuisineStory_Processing_Feature_RimDreamCuisine_CookingOil>
+  <CuisineStory_Processing_Feature_RimDreamCuisine_SpiceBlend>한 꼬집만 넣어도 매콤한 맛이 확 살아납니다.</CuisineStory_Processing_Feature_RimDreamCuisine_SpiceBlend>
+  <CuisineStory_Processing_Feature_RimDreamCuisine_Vinegar>산뜻한 신맛이 차가운 요리의 느끼함을 잡고 국물 맛을 또렷하게 합니다.</CuisineStory_Processing_Feature_RimDreamCuisine_Vinegar>
+  <CuisineStory_Processing_Feature_RimDreamCuisine_CookingWine>고기가 팬에 닿는 순간 잡내를 없애고 향을 더합니다.</CuisineStory_Processing_Feature_RimDreamCuisine_CookingWine>
+  <CuisineStory_Processing_Feature_RimDreamCuisine_Butter>진한 버터 향에, 굽거나 지질 때 노릇하게 색이 잘 납니다.</CuisineStory_Processing_Feature_RimDreamCuisine_Butter>
+  <CuisineStory_Processing_Feature_RimDreamCuisine_Stock>꽉 찬 감칠맛 바탕으로 국과 스튜에 깊이를 더합니다.</CuisineStory_Processing_Feature_RimDreamCuisine_Stock>
+  <CuisineStory_Processing_Feature_RimDreamCuisine_Sugar>깔끔한 단맛이라 신맛이나 매운맛을 잡거나 베이킹에 쓰기 좋습니다.</CuisineStory_Processing_Feature_RimDreamCuisine_Sugar>
+  <CuisineStory_Processing_Profile_0>손질하고 나면 더 부드럽게 넘어갑니다</CuisineStory_Processing_Profile_0>
+  <CuisineStory_Processing_Profile_1>조합하기가 더 자유롭습니다</CuisineStory_Processing_Profile_1>
+  <CuisineStory_Processing_Profile_2>식감이 더 온전합니다</CuisineStory_Processing_Profile_2>
+  <CuisineStory_Processing_Profile_3>주재료의 향을 더 잘 끌어냅니다</CuisineStory_Processing_Profile_3>
+  <CuisineStory_Processing_Profile_4>완성 요리가 더 깔끔합니다</CuisineStory_Processing_Profile_4>
+  <CuisineStory_Processing_Profile_5>조금만 넣어도 효과가 좋습니다</CuisineStory_Processing_Profile_5>
+  <CuisineStory_Processing_Profile_6>평범한 요리에 포인트를 더해 줍니다</CuisineStory_Processing_Profile_6>
+  <CuisineStory_Processing_Profile_7>불 조절을 세심하게 해야 합니다</CuisineStory_Processing_Profile_7>
+  <CuisineStory_Processing_ProfilePair>{FIRST}, {SECOND}</CuisineStory_Processing_ProfilePair>
+  <CuisineStory_Processing_ProfileSentence>{FEATURES}.</CuisineStory_Processing_ProfileSentence>
+  <CuisineStory_ClassicKind_RaceSpecific>종족 정통 요리</CuisineStory_ClassicKind_RaceSpecific>
+  <CuisineStory_ClassicKind_Ordinary>정통 요리</CuisineStory_ClassicKind_Ordinary>
+  <CuisineStory_Water_PipeShortage>위생 관망에 물이 {LITERS}L 더 필요합니다.</CuisineStory_Water_PipeShortage>
+  <CuisineStory_Water_UnknownJob>조리 작업의 급수 요청을 확인할 수 없습니다.</CuisineStory_Water_UnknownJob>
+  <CuisineStory_Water_CannotArrange>이 요리를 위한 물 운반을 준비할 수 없습니다.</CuisineStory_Water_CannotArrange>
+  <CuisineStory_Water_FallbackReserved>예비 수원이 이미 예약되어 있습니다.</CuisineStory_Water_FallbackReserved>
+  <CuisineStory_Water_Unlimited>무제한</CuisineStory_Water_Unlimited>
+  <CuisineStory_Water_Inventory>{PORTIONS}인분 (쓸 수 있는 물 {LITERS}L, 1인분당 2L)</CuisineStory_Water_Inventory>
+  <CuisineStory_Water_NoDirectSupply>조리대에 쓸 수 있는 급수관이 없습니다. 물주머니나 물 용기를 가져와야 합니다.</CuisineStory_Water_NoDirectSupply>
+  <CuisineStory_Water_NoPortableSource>충분한 깨끗한 수원을 찾지 못했습니다. 물 {LITERS}L, 또는 중세 물주머니 {COUNT}개 이상이 필요합니다.</CuisineStory_Water_NoPortableSource>
+  <CuisineStory_Water_WaterskinShortage>물주머니가 부족합니다. {COUNT}개가 필요합니다.</CuisineStory_Water_WaterskinShortage>
+  <CuisineStory_Water_ApiUnavailable>위생 모드 급수 API를 쓸 수 없습니다. 물이 필요한 요리는 일시 중지됩니다.</CuisineStory_Water_ApiUnavailable>
+  <CuisineStory_Water_ApiInitFailed>위생 모드 급수 API 초기화에 실패했습니다. 물이 필요한 요리는 일시 중지됩니다.</CuisineStory_Water_ApiInitFailed>
+  <CuisineStory_Water_ReadFailed>위생 관망의 저수량을 읽을 수 없습니다.</CuisineStory_Water_ReadFailed>
+  <CuisineStory_Water_PipeContaminated>연결된 위생 관망의 물이 오염되었습니다.</CuisineStory_Water_PipeContaminated>
+  <CuisineStory_Water_PipeCannotProvide>위생 관망이 필요한 물 {LITERS}L를 공급하지 못했습니다.</CuisineStory_Water_PipeCannotProvide>
+  <CuisineStory_Water_ConsumeFailed>위생 관망에서 물을 끌어오지 못했습니다.</CuisineStory_Water_ConsumeFailed>
+  <CuisineStory_Water_NoPawn>물을 가져올 요리사가 없습니다.</CuisineStory_Water_NoPawn>
+  <CuisineStory_Water_NoFallback>관망에 물이 없고, 근처에 쓸 수 있는 우물이나 물이 {LITERS}L 이상 담긴 설비도 없습니다.</CuisineStory_Water_NoFallback>
+  <CuisineStory_Water_FallbackSearchFailed>위생 모드 예비 수원을 찾지 못했습니다.</CuisineStory_Water_FallbackSearchFailed>
+  <CuisineStory_Water_FallbackInvalid>예비 수원을 더 이상 쓸 수 없습니다.</CuisineStory_Water_FallbackInvalid>
+  <CuisineStory_Water_BucketShortage>물 용기에 깨끗한 물이 최소 {LITERS}L 있어야 합니다.</CuisineStory_Water_BucketShortage>
+  <CuisineStory_Water_FallbackContaminated>예비 수원이 오염되었습니다.</CuisineStory_Water_FallbackContaminated>
+  <CuisineStory_Water_NaturalUnsupported>이 환경에서는 실제 물 용기가 필요해서, 자연 수원에서 바로 물을 끌어다 조리할 수 없습니다.</CuisineStory_Water_NaturalUnsupported>
+  <CuisineStory_Water_NaturalContaminated>자연 수원이 오염되었습니다.</CuisineStory_Water_NaturalContaminated>
+  <CuisineStory_Water_FallbackConsumeFailed>위생 모드 예비 수원에서 물을 끌어오지 못했습니다.</CuisineStory_Water_FallbackConsumeFailed>
+  <CuisineStory_Water_FallbackShortage>예비 수원에 물이 {LITERS}L 더 필요합니다.</CuisineStory_Water_FallbackShortage>
+  <CuisineStory_Water_FallbackCannotProvide>예비 수원이 깨끗한 물 {LITERS}L를 공급하지 못했습니다.</CuisineStory_Water_FallbackCannotProvide>
+  <CuisineStory_Water_TableUnsupported>이 조리대는 위생 배관 연결을 지원하지 않습니다.</CuisineStory_Water_TableUnsupported>
+  <CuisineStory_Water_NoPipeInterface>이 조리대에는 위생 배관 연결부가 없습니다.</CuisineStory_Water_NoPipeInterface>
+  <CuisineStory_Water_NotConnected>이 조리대가 위생 관망에 연결되어 있지 않습니다.</CuisineStory_Water_NotConnected>
+  <CuisineStory_Water_MissingSafeSource>쓸 수 있는 안전한 수원 없음</CuisineStory_Water_MissingSafeSource>
+  <CuisineStory_ContractDiagnostics_Open>재료 규칙 진단 열기</CuisineStory_ContractDiagnostics_Open>
+  <CuisineStory_ContractDiagnostics_Title>{DISH}: 재료 규칙 진단</CuisineStory_ContractDiagnostics_Title>
+  <CuisineStory_ContractDiagnostics_Summary>구조 버전 {VERSION} · {MODE} · 칸 {SLOTS}개 · 후보 풀 {POOLS}개</CuisineStory_ContractDiagnostics_Summary>
+  <CuisineStory_ContractDiagnostics_General>자유 요리</CuisineStory_ContractDiagnostics_General>
+  <CuisineStory_ContractDiagnostics_Special>전통 요리</CuisineStory_ContractDiagnostics_Special>
+  <CuisineStory_ContractDiagnostics_Exact>후보가 겹침, 정확히 배분</CuisineStory_ContractDiagnostics_Exact>
+  <CuisineStory_ContractDiagnostics_Main>주재료</CuisineStory_ContractDiagnostics_Main>
+  <CuisineStory_ContractDiagnostics_Supplement>부재료</CuisineStory_ContractDiagnostics_Supplement>
+  <CuisineStory_ContractDiagnostics_Locked>고정</CuisineStory_ContractDiagnostics_Locked>
+  <CuisineStory_ContractDiagnostics_Flexible>같은 분류, 같은 등급으로 교체 가능</CuisineStory_ContractDiagnostics_Flexible>
+  <CuisineStory_ContractDiagnostics_Slot>칸 {INDEX} · {ROLE} · {POLICY} · 필요 ×{COUNT}</CuisineStory_ContractDiagnostics_Slot>
+  <CuisineStory_ContractDiagnostics_Group>분류: {GROUP} · 등급: {GRADE} · 후보: {CANDIDATES} · 재고: {AVAILABLE}</CuisineStory_ContractDiagnostics_Group>
+  <CuisineStory_Stat_CuisineNutrition>요리 열량: {VALUE}</CuisineStory_Stat_CuisineNutrition>
+  <CuisineStory_RimTalk_UpgradeFocus_0>이번 조정으로 {DISH}의 {DIMENSION}(이)가 어떻게 달라졌는지, 그리고 {TYPE} 요리로서 그 변화의 무엇이 기억에 남을 만한지 말하세요.</CuisineStory_RimTalk_UpgradeFocus_0>
+  <CuisineStory_RimTalk_UpgradeFocus_1>{DISH}(을)를 만들 때 내린 중요한 판단 하나를 떠올려 보세요. 그것이 왜 {DIMENSION}(을)를 높였는지, {TYPE} 요리의 성격과 어떻게 어울리는지 설명하세요.</CuisineStory_RimTalk_UpgradeFocus_1>
+  <CuisineStory_RimTalk_UpgradeFocus_2>{DISH}(을)를 만들고 막 화로에서 물러난 사람처럼 말하세요. {DIMENSION}에 대해 새로 알게 된 점과, 다음번에도 지키고 싶은 점에 집중하세요.</CuisineStory_RimTalk_UpgradeFocus_2>
+  <CuisineStory_RimTalk_UpgradeFocus_3>맛, 불 조절, 재료 균형 중 {DISH}의 {DIMENSION}(을)를 높인 구체적인 부분 하나를 골라, {TYPE} 요리를 만드는 요리사답게 자연스럽게 말하세요.</CuisineStory_RimTalk_UpgradeFocus_3>
+  <CuisineStory_RimTalk_UpgradeFocus_4>이번 {DISH}의 변화를 기억할 만한 요리의 돌파구로 여기고, 좋아진 {DIMENSION}에 대해 솔직한 평가를 들려주세요.</CuisineStory_RimTalk_UpgradeFocus_4>
+  <CuisineStory_RimTalk_UpgradePrompt>당신은 방금 자신의 요리 하나를 개선했습니다. {FOCUS} 요리사 본인으로서 한국어로 한두 문장만 자연스럽게 말하세요. 다음 대화는 이 개선에만 집중하세요. 일반적인 요리 이야기, 수치, 시스템 로그, JSON, 마크업, 설명을 출력하지 말고, 주어지지 않은 사건을 지어내지 마세요.</CuisineStory_RimTalk_UpgradePrompt>
+  <CuisineStory_Migration_Started>Cuisine Story 2.0이 이전 버전 요리 데이터를 옮기는 중입니다...</CuisineStory_Migration_Started>
+  <CuisineStory_Migration_Completed>Cuisine Story 2.0이 이전 버전 요리 데이터를 모두 옮겼습니다.</CuisineStory_Migration_Completed>
+  <CuisineStory_DuplicateResolver_Title>중복 재료 통합기</CuisineStory_DuplicateResolver_Title>
+  <CuisineStory_DuplicateResolver_SubTitle>{PAGE}/{TOTAL}번째 분류</CuisineStory_DuplicateResolver_SubTitle>
+  <CuisineStory_DuplicateResolver_Empty>통합할 중복 재료가 없습니다.</CuisineStory_DuplicateResolver_Empty>
+  <CuisineStory_DuplicateResolver_Source>출처:</CuisineStory_DuplicateResolver_Source>
+  <CuisineStory_DuplicateResolver_RecipeLine>생산 레시피: {RECIPES}</CuisineStory_DuplicateResolver_RecipeLine>
+  <CuisineStory_DuplicateResolver_ChoiceHint>고르면 {GROUP}에는 "{ITEM}" 재료가 쓰입니다. 같은 뜻의 다른 재료들은 Cuisine Story 안에서 이 재료로 연결됩니다.</CuisineStory_DuplicateResolver_ChoiceHint>
+  <CuisineStory_DuplicateResolver_Choose>이것으로 선택</CuisineStory_DuplicateResolver_Choose>
+  <CuisineStory_DuplicateResolver_OptionCounter>후보 {OPTION}/{TOTAL}</CuisineStory_DuplicateResolver_OptionCounter>
+  <CuisineStory_DuplicateResolver_MiningSource>채굴로 얻음</CuisineStory_DuplicateResolver_MiningSource>
+  <CuisineStory_DuplicateResolver_HarvestSource>작물에서 수확</CuisineStory_DuplicateResolver_HarvestSource>
+  <CuisineStory_DuplicateResolver_MeatCategory>고기류</CuisineStory_DuplicateResolver_MeatCategory>
+  <CuisineStory_DuplicateResolver_VegetableCategory>채소류</CuisineStory_DuplicateResolver_VegetableCategory>
+  <CuisineStory_DuplicateGroup_Salt>소금</CuisineStory_DuplicateGroup_Salt>
+  <CuisineStory_DuplicateGroup_Sugar>설탕</CuisineStory_DuplicateGroup_Sugar>
+  <CuisineStory_DuplicateGroup_SugarChain>사탕수수 / 설탕</CuisineStory_DuplicateGroup_SugarChain>
+  <CuisineStory_DuplicateGroup_Honey>꿀</CuisineStory_DuplicateGroup_Honey>
+  <CuisineStory_DuplicateGroup_Ketchup>케첩</CuisineStory_DuplicateGroup_Ketchup>
+  <CuisineStory_DuplicateGroup_HotSauce>핫소스</CuisineStory_DuplicateGroup_HotSauce>
+  <CuisineStory_DuplicateGroup_Mayonnaise>마요네즈</CuisineStory_DuplicateGroup_Mayonnaise>
+  <CuisineStory_DuplicateGroup_Mustard>머스터드</CuisineStory_DuplicateGroup_Mustard>
+  <CuisineStory_DuplicateGroup_FishSauce>피시 소스</CuisineStory_DuplicateGroup_FishSauce>
+  <CuisineStory_DuplicateGroup_OysterSauce>굴 소스</CuisineStory_DuplicateGroup_OysterSauce>
+  <CuisineStory_DuplicateGroup_Miso>된장</CuisineStory_DuplicateGroup_Miso>
+  <CuisineStory_DuplicateGroup_OliveOil>올리브유</CuisineStory_DuplicateGroup_OliveOil>
+  <CuisineStory_DuplicateGroup_SesameOil>참기름</CuisineStory_DuplicateGroup_SesameOil>
+  <CuisineStory_DuplicateGroup_Lard>라드</CuisineStory_DuplicateGroup_Lard>
+  <CuisineStory_DuplicateGroup_Syrup>시럽</CuisineStory_DuplicateGroup_Syrup>
+  <CuisineStory_DuplicateGroup_Jam>잼</CuisineStory_DuplicateGroup_Jam>
+  <CuisineStory_DuplicateGroup_Oil>식용유</CuisineStory_DuplicateGroup_Oil>
+  <CuisineStory_DuplicateGroup_Flour>밀가루</CuisineStory_DuplicateGroup_Flour>
+  <CuisineStory_DuplicateGroup_SoySauce>간장</CuisineStory_DuplicateGroup_SoySauce>
+  <CuisineStory_DuplicateGroup_Vinegar>식초</CuisineStory_DuplicateGroup_Vinegar>
+  <CuisineStory_DuplicateGroup_Cheese>치즈</CuisineStory_DuplicateGroup_Cheese>
+  <CuisineStory_DuplicateGroup_Stock>육수</CuisineStory_DuplicateGroup_Stock>
+  <CuisineStory_DuplicateGroup_Cream>크림</CuisineStory_DuplicateGroup_Cream>
+  <CuisineStory_DuplicateGroup_Butter>버터</CuisineStory_DuplicateGroup_Butter>
+  <CuisineStory_DuplicateGroup_Spice>혼합 향신료</CuisineStory_DuplicateGroup_Spice>
+  <CuisineStory_DuplicateGroup_Pepper>고추</CuisineStory_DuplicateGroup_Pepper>
+  <CuisineStory_DuplicateGroup_Wine>맛술</CuisineStory_DuplicateGroup_Wine>
+  <CuisineStory_DuplicateGroup_Milk>우유</CuisineStory_DuplicateGroup_Milk>
+  <CuisineStory_DuplicateGroup_MarinatedMeat>양념 고기</CuisineStory_DuplicateGroup_MarinatedMeat>
+  <CuisineStory_DevResourcesSpawned>식재료 {FOODS}종, 곁들임 후보 {PAIRINGS}종, 약물 {DRUGS}종, 전기 조리대 {TABLES}종을 생성했습니다.</CuisineStory_DevResourcesSpawned>
+  <CuisineStory_DevClassicNoneConverted>고급 이름 틀이나 외부 완성 음식 레시피 {CANDIDATES}개를 찾았지만 하나도 만들 수 없었습니다. 기존 정통 요리는 바뀌지 않았습니다.</CuisineStory_DevClassicNoneConverted>
+  <CuisineStory_DevClassicRebuilt>고급 이름과 외부 완성 음식 레시피를 정통 요리로 다시 만들었습니다: 후보 {CANDIDATES}, 변환 가능 {CONVERTED}, 중복 제거 후 {DEDUPLICATED}, 생성 {TOTAL}.</CuisineStory_DevClassicRebuilt>
+  <CuisineStory_DevSemanticReportWritten>가공 레시피 의미 기록 {COUNT}건을 로그에 남겼습니다.</CuisineStory_DevSemanticReportWritten>
+  <CuisineStory_Settings_OpenDuplicateResolver>중복 재료 통합기 열기</CuisineStory_Settings_OpenDuplicateResolver>
+  <CuisineStory_DuplicateResolver_Ignore>무시</CuisineStory_DuplicateResolver_Ignore>
+  <CuisineStory_DuplicateResolver_Reset>초기화</CuisineStory_DuplicateResolver_Reset>
+  <CuisineStory_RecipeDerivation_Unlocked>{CHEF}(이)가 요리하다가 영감을 얻어 "{DISH}" 요리를 만드는 법을 깨달았습니다.</CuisineStory_RecipeDerivation_Unlocked>
+  <CuisineStory_Facility_StatLabel>조리 특징</CuisineStory_Facility_StatLabel>
+  <CuisineStory_Facility_PreciseTemperature>정밀 온도 조절</CuisineStory_Facility_PreciseTemperature>
+  <CuisineStory_Facility_PreciseTemperature_Description>난이도 -1, 실패율 감소. 4성 이상 요리는 성공 확률이 2% 더 오릅니다.</CuisineStory_Facility_PreciseTemperature_Description>
+  <CuisineStory_Facility_OpenFlame>직화 구이</CuisineStory_Facility_OpenFlame>
+  <CuisineStory_Facility_OpenFlame_Description>그릴을 쓸 때 난이도 -0.5.</CuisineStory_Facility_OpenFlame_Description>
+  <CuisineStory_Facility_EnclosedBaking>밀폐 베이킹</CuisineStory_Facility_EnclosedBaking>
+  <CuisineStory_Facility_EnclosedBaking_Description>오븐을 쓸 때 난이도 -1.</CuisineStory_Facility_EnclosedBaking_Description>
+  <CuisineStory_Facility_SlowSimmer>뭉근히 끓이기</CuisineStory_Facility_SlowSimmer>
+  <CuisineStory_Facility_SlowSimmer_Description>냄비를 쓸 때 난이도 -1.</CuisineStory_Facility_SlowSimmer_Description>
+  <CuisineStory_Facility_SteamProcessing>증기 조리</CuisineStory_Facility_SteamProcessing>
+  <CuisineStory_Facility_SteamProcessing_Description>찜기를 쓸 때 난이도 -1.</CuisineStory_Facility_SteamProcessing_Description>
+  <CuisineStory_Facility_ColdPreparation>차가운 요리 손질</CuisineStory_Facility_ColdPreparation>
+  <CuisineStory_Facility_ColdPreparation_Description>차가운 요리를 만들 때 난이도 -1.</CuisineStory_Facility_ColdPreparation_Description>
+  <CuisineStory_Facility_BatchProduction>대량 생산</CuisineStory_Facility_BatchProduction>
+  <CuisineStory_Facility_BatchProduction_Description>×4 대량 생산 시 난이도 -0.5.</CuisineStory_Facility_BatchProduction_Description>
+  <CuisineStory_Facility_PrimitiveCooking>원시적 조리</CuisineStory_Facility_PrimitiveCooking>
+  <CuisineStory_Facility_PrimitiveCooking_Description>3성 이하 요리는 난이도 -0.5, 4성 이상 요리는 난이도 +0.5.</CuisineStory_Facility_PrimitiveCooking_Description>
+  <CuisineStory_Facility_CampfireCooking>모닥불 구이</CuisineStory_Facility_CampfireCooking>
+  <CuisineStory_Facility_CampfireCooking_Description>3성 이하 구이는 난이도 -0.75, 4성 이상은 +0.75. 조리에 실패했을 때 불이 날 확률이 75% 높아집니다. 모닥불의 기본 작업 속도 50%는 그대로입니다.</CuisineStory_Facility_CampfireCooking_Description>
+  <CuisineStory_Facility_WokHei>불맛</CuisineStory_Facility_WokHei>
+  <CuisineStory_Facility_WokHei_Description>연료 화력은 활기찬 팬 요리에 알맞습니다. 3성 이하 난이도 -0.75, 4성 이상 +0.25.</CuisineStory_Facility_WokHei_Description>
+  <CuisineStory_Facility_StableHeat>안정된 화력</CuisineStory_Facility_StableHeat>
+  <CuisineStory_Facility_StableHeat_Description>조절하기 쉬운 전기 화력: 난이도 -0.5, 성공 확률 +2%.</CuisineStory_Facility_StableHeat_Description>
+  <CuisineStory_Facility_EmberGrilling>숯불 보온</CuisineStory_Facility_EmberGrilling>
+  <CuisineStory_Facility_EmberGrilling_Description>고르게 남은 숯불로 안정적으로 굽습니다: 난이도 -0.75.</CuisineStory_Facility_EmberGrilling_Description>
+  <CuisineStory_Facility_FastSearing>센불 구이</CuisineStory_Facility_FastSearing>
+  <CuisineStory_Facility_FastSearing_Description>3성 이하 구이는 난이도 -1, 4성 이상은 +0.25.</CuisineStory_Facility_FastSearing_Description>
+  <CuisineStory_Facility_CoveredGrilling>뚜껑 덮어 굽기</CuisineStory_Facility_CoveredGrilling>
+  <CuisineStory_Facility_CoveredGrilling_Description>3성 이하 구이는 난이도 -0.25, 4성 이상은 난이도 -1에 성공 확률 +1%.</CuisineStory_Facility_CoveredGrilling_Description>
+  <CuisineStory_Name_HighStar>{PREFIX} {DISH}</CuisineStory_Name_HighStar>
+  <CuisineStory_Name_HighStarPrefix_0>왕실</CuisineStory_Name_HighStarPrefix_0>
+  <CuisineStory_Name_HighStarPrefix_1>황실</CuisineStory_Name_HighStarPrefix_1>
+  <CuisineStory_Name_HighStarPrefix_2>전통</CuisineStory_Name_HighStarPrefix_2>
+  <CuisineStory_Name_HighStarPrefix_3>황금빛</CuisineStory_Name_HighStarPrefix_3>
+  <CuisineStory_Name_HighStarPrefix_4>화롯가</CuisineStory_Name_HighStarPrefix_4>
+  <CuisineStory_Name_HighStarPrefix_5>특선</CuisineStory_Name_HighStarPrefix_5>
+  <CuisineStory_Name_HighStarPrefix_6>어선</CuisineStory_Name_HighStarPrefix_6>
+  <CuisineStory_Name_HighStarPrefix_7>전설의</CuisineStory_Name_HighStarPrefix_7>
+  <CuisineStory_RecipeCode_Import>레시피 가져오기</CuisineStory_RecipeCode_Import>
+  <CuisineStory_RecipeCode_Export>레시피 내보내기</CuisineStory_RecipeCode_Export>
+  <CuisineStory_RecipeCode_ImportTitle>레시피 코드 가져오기</CuisineStory_RecipeCode_ImportTitle>
+  <CuisineStory_RecipeCode_ExportTitle>레시피 코드 내보내기</CuisineStory_RecipeCode_ExportTitle>
+  <CuisineStory_RecipeCode_ImportHelp>CS2 레시피 코드를 붙여 넣으세요. 재료는 현재 모드 목록에 맞춰 찾고, 요리 능력치는 이 게임에서 다시 계산합니다.</CuisineStory_RecipeCode_ImportHelp>
+  <CuisineStory_RecipeCode_ExportHelp>이 짧은 코드에는 이름, 조리 도구, 재료, 텍스처, 설명이 담깁니다. 숙련도, 작업, 연구 상태는 들어가지 않습니다.</CuisineStory_RecipeCode_ExportHelp>
+  <CuisineStory_RecipeCode_Copy>코드 복사</CuisineStory_RecipeCode_Copy>
+  <CuisineStory_RecipeCode_Copied>레시피 코드를 복사했습니다.</CuisineStory_RecipeCode_Copied>
+  <CuisineStory_RecipeCode_ImportSuccess>"{DISH}" 요리를 가져왔습니다.</CuisineStory_RecipeCode_ImportSuccess>
+  <CuisineStory_RecipeCode_ImportFailed>가져오기 실패: {REASON}</CuisineStory_RecipeCode_ImportFailed>
+  <CuisineStory_RecipeCode_InvalidLength>코드가 비었거나 길이 제한을 넘었습니다.</CuisineStory_RecipeCode_InvalidLength>
+  <CuisineStory_RecipeCode_InvalidFormat>코드 형식이 올바르지 않습니다 ({DETAIL}).</CuisineStory_RecipeCode_InvalidFormat>
+  <CuisineStory_RecipeCode_InvalidCookware>이 버전은 조리 도구 "{COOKWARE}" 항목을 지원하지 않습니다.</CuisineStory_RecipeCode_InvalidCookware>
+  <CuisineStory_RecipeCode_MissingIngredient>현재 모드 목록으로는 재료 칸 "{INGREDIENT}" 항목을 채울 수 없습니다.</CuisineStory_RecipeCode_MissingIngredient>
+  <CuisineStory_RecipeCode_InvalidRecipe>이 재료들로는 올바른 요리를 만들 수 없습니다: {DETAIL}</CuisineStory_RecipeCode_InvalidRecipe>
+  <CuisineStory_RecipeCode_NoGame>현재 저장 파일이 레시피를 받을 준비가 되지 않았습니다.</CuisineStory_RecipeCode_NoGame>
+  <CuisineStory_Handbook_Title>Cuisine Story 요리 안내서</CuisineStory_Handbook_Title>
+  <CuisineStory_Handbook_Tip>Cuisine Story 요리 안내서 열기</CuisineStory_Handbook_Tip>
+  <CuisineStory_Handbook_Directory>목차</CuisineStory_Handbook_Directory>
+  <CuisineStory_Handbook_Overview_Title>능력치와 별</CuisineStory_Handbook_Overview_Title>
+  <CuisineStory_Handbook_Overview_Body>8대 능력치는 평균으로 계산하지 않습니다. 요리는 먼저 강점과 약점을 갖추고, 그다음 궁합, 조리법, 조리 도구가 별과 먹었을 때의 경험을 만듭니다.\n\n• 핵심 품질: 건강, 창의, 식감, 향, 외관이 요리를 결정합니다. 모든 능력치가 높기를 요구하기보다 두드러진 강점을 높이 삽니다.\n• 분량과 비용: 분량은 등급에 어느 정도까지만 도움이 됩니다. 희귀도와 난이도는 재료 조달과 조리의 수고를 나타낼 뿐, 그 자체로 맛있다는 뜻은 아닙니다.\n• 먹었을 때 효과: 평범한 요리는 가장 강한 긍정 능력치 몇 개만 발휘해, 한 끼로 모든 이점을 한꺼번에 얻지 못하게 합니다.\n• 극한 능력치: SSS 능력치는 일반 발동 개수 제한 밖에 있는 간판 이점입니다. 마찬가지로 심각한 G 등급 약점도 그 제한에 가려지지 않습니다.\n\n별 높은 요리를 만들려면 강점 한두 개를 먼저 세우고, 궁합과 알맞은 기술로 그 강점을 안정적으로 살리세요.</CuisineStory_Handbook_Overview_Body>
+  <CuisineStory_Handbook_Workflow_Title>재료와 겹쳐 넣기</CuisineStory_Handbook_Workflow_Title>
+  <CuisineStory_Handbook_Workflow_Body>재료의 양은 완성된 분량과 요리 능력치 모두에 영향을 주지만, 둘이 같은 속도로 늘지는 않습니다.\n\n• 주재료 환산: 열량이 낮은 재료는 온전한 주재료 1인분을 이루려면 실제 개수가 더 필요합니다. 부재료는 적은 양으로 맛과 구조를 잡습니다.\n• 겹쳐 넣기: 첫 번째 몫이 재료의 특성을 가장 강하게 드러냅니다. 더 넣어도 열량과 산출량은 늘지만, 능력치 기여는 급격히 줄어듭니다.\n• 레시피 균형: 같은 고기나 채소를 반복하기보다, 식감, 향, 건강, 외관을 맡을 재료를 따로 넣어야 품질이 오릅니다.\n• 주재료 충돌: 고기나 단백질 중심이 너무 많으면 요리의 정체성이 흐려지고, 핵심 풍미가 약해지며, 다루기 어려워집니다.\n• 양념 과다: 부재료가 너무 많으면 서로를 가립니다. 디저트는 넓은 단맛 구조를 받아 주지만, 짭짤한 요리는 절제할수록 좋습니다. 물과 식용유는 맛을 다투는 양념으로 치지 않습니다.\n\n같은 재료를 반복하는 건 산출량을 늘릴 때 쓰는 방법이지, 별을 높이는 지름길이 아닙니다.</CuisineStory_Handbook_Workflow_Body>
+  <CuisineStory_Handbook_Features_Title>조리법별 배율</CuisineStory_Handbook_Features_Title>
+  <CuisineStory_Handbook_Features_Body>조리법에 따라 같은 재료도 서로 다른 능력치 강점으로 이끌립니다. 장점, 대가, 재료 형태를 보고 고르세요.\n\n• 지짐과 볶음: 팬에서 조리하며 식감과 향을 살립니다. 지짐은 더 응축되고 까다롭고, 볶음은 더 균형 잡혀 있고 담음새를 좋게 합니다. 얇게 썬 고기, 채소, 밥, 면에 가장 알맞습니다.\n• 튀김: 기름이 바삭한 식감과 강한 향, 보기 좋은 겉면을 만들지만, 건강 부담이 가장 크고 더 정밀한 조절이 필요합니다. 튀김옷 입힌 고기, 전분 식품, 껍질이 생기는 재료에 가장 알맞습니다.\n• 끓이기: 냄비에서 천천히 맛을 합쳐 건강, 식감, 안정적인 조리에 유리하지만 담음새는 떨어집니다. 육수, 덩어리 고기, 뿌리채소, 부드럽게 익혀야 하는 재료에 가장 알맞습니다.\n• 찜: 찜기가 본연의 맛과 수분을 지켜 건강과 외관에 유리하고 향은 은은합니다. 생선, 채소, 달걀, 소빵, 만두에 가장 알맞습니다.\n• 구이: 그릴이나 직화가 탄 향과 식감을 살리지만, 건강과 안정성을 일부 내줍니다. 고기, 생선, 센 불에 강한 채소와 과일에 가장 알맞습니다.\n• 베이킹: 오븐이 음식을 고르게 모양 잡아 창의, 식감, 향, 외관을 받쳐 주지만 기술 요구가 높습니다. 반죽, 납작빵, 케이크 반죽, 치즈, 그라탱에 가장 알맞습니다.\n• 차가운 요리와 절임: 믹싱 볼은 과일, 유제품, 샐러드, 안전한 날음식의 신선함과 자연스러운 모습을 지킵니다. 절임은 고기와 생선의 향과 보존 기간에 유리하지만 건강 위주는 아닙니다.\n• 건강과 식중독: 건강 등급이 B부터 요리사 실수, 더러운 주방, 위험한 재료로 인한 식중독이 줄기 시작합니다. 등급이 오를수록 보호가 강해지고 SSS면 그 위험이 사라집니다. 이미 오염된 요리는 깨끗한 음식과 함께 쌓아도 희석되지 않습니다.\n\n조리 도구는 무엇을 할 수 있는지를, 실제 설비는 그 조리법을 얼마나 안정적으로 해낼지를 정합니다.</CuisineStory_Handbook_Features_Body>
+  <CuisineStory_Handbook_NamedDishes_Title>명요리</CuisineStory_Handbook_NamedDishes_Title>
+  <CuisineStory_Handbook_NamedDishes_Body>명요리는 이름의 일부가 아니라 주재료 구조, 부재료 칸, 조리법으로 알아봅니다.\n\n• 전통 요리는 구체적인 재료 구조를 고정합니다. 자유 요리는 의미 분류를 저장해 같은 분류 안에서 바꿔 넣을 수 있고, 핵심 칸은 고정할 수 있습니다.\n• 반죽, 만두피, 면, 케이크 반죽, 국물 베이스는 각자의 가공 형태를 유지합니다. 같은 전분이나 액체에서 왔다고 해서 서로 바꿔 쓸 수 있는 건 아닙니다.\n• 가공한 주재료는 추가로 창의를 드러냅니다. 서로 다른 손질 재료를 쓰면 복잡도가 오를 수 있지만, 효과에는 한계가 있고 궁합과 조리 도구 규칙도 그대로 적용됩니다.\n• 틀과 일치하면 요리의 정체만 정해집니다. 별은 언제나 현재 모드 환경의 실제 재료로 다시 분석합니다.\n\n명요리는 구조 규칙이지, 요리 분석기를 건너뛰는 고정 보너스가 아닙니다.</CuisineStory_Handbook_NamedDishes_Body>
+  <CuisineStory_Handbook_Equipment_Title>설비 연결망</CuisineStory_Handbook_Equipment_Title>
+  <CuisineStory_Handbook_Equipment_Body>조리 도구 칸은 조리 능력을 나타내고, 연결한 실제 건물은 요리사가 실제로 일하는 곳입니다. 둘이 함께 생산 라인을 이룹니다.\n\n• 전기 설비: 안정된 열로 전반적인 부담을 줄이고 신뢰도를 높여, 별 높은 요리를 꾸준히 만들기에 알맞습니다.\n• 연료 설비: 불맛 덕분에 평소의 팬 요리는 효율적이지만, 최고급 요리는 더 능숙한 불 조절을 요구합니다.\n• 전문 설비: 정밀 온도 조절, 밀폐 베이킹, 뭉근히 끓이기, 증기 조리, 차가운 요리 손질은 맞는 조리법에만 도움이 됩니다. 그래서 전용 오븐, 냄비, 찜기는 제 분야에서 만능 조리대보다 낫습니다.\n• 모닥불과 그릴: 모닥불은 쉽게 쓸 수 있지만 고급 요리에는 불안정하고 불이 날 위험도 큽니다. 전용 그릴은 숯불, 센불, 뚜껑 덮어 굽기 같은 개성을 가질 수 있습니다.\n• 대량 생산과 휴대용: 큰 설비는 대량 생산에 유리합니다. 휴대용 조리 도구는 자리를 차지하지 않고 부족한 능력을 채워 주지만, 실제 설비 보너스는 없습니다.\n\n설비가 레시피에 잘 맞을수록 고급 요리가 안정적입니다. 휴대용 조리 도구는 임시 대용입니다.</CuisineStory_Handbook_Equipment_Body>
+  <CuisineStory_Handbook_Duplicates_Title>중복 재료 통합기</CuisineStory_Handbook_Duplicates_Title>
+  <CuisineStory_Handbook_Duplicates_Body>중복 재료 통합기는 재료 출처를 하나로 모을 뿐, 다른 모드의 ThingDef를 지우지 않습니다.\n\n• 선택하면 레시피 필터가 다시 쓰여, 통합된 재료가 대체된 모든 정의 대신 실제 재료 찾기에 쓰입니다.\n• 이미 있는 대체 대상은 가치 비율에 따라 변환됩니다. 교역, 수확, 광석, 지하 자원, 레시피 산출물은 더 이상 새로 만들지 않습니다.\n• 확실한 식재료만 처리합니다. 무시는 잘못 잡힌 항목을 빼고, 초기화는 선택을 지우고 다시 검사합니다.\n• 불러온 뒤 작업 목록에 통합을 다시 적용해, 외부 레시피가 몰래 원래의 소금, 설탕, 밀가루로 돌아가지 않게 합니다.\n\n모드 목록을 크게 바꿨다면 설정에서 통합기를 한 번 초기화하세요.</CuisineStory_Handbook_Duplicates_Body>
+  <CuisineStory_Handbook_Pairing_Title>곁들임</CuisineStory_Handbook_Pairing_Title>
+  <CuisineStory_Handbook_Pairing_Body>곁들임은 레시피에 저장된 외부 소비 관계로, 주요리의 Def나 능력치를 바꾸지 않습니다.\n\n• 후보는 바로 먹을 수 있는 음료나 디저트여야 합니다. 찻잎, 가루, 날 혼합물은 이름이 맞는다는 이유만으로 들어갈 수 없습니다.\n• 식당은 주요리가 나올 때 곁들임 하나를 예약해 A→B 순서로 소비합니다. 곁들임의 시장 가치는 팁이 아니라 메뉴 가격에 들어갑니다.\n• 재고가 없으면 곁들임이 잠시 풀리고 기본 가격으로 돌아가며, 재고가 돌아오면 다시 켤 수 있습니다.\n• 손님은 주문할 때 주요리와 곁들임의 선호를 합산합니다. 싫어하는 곁들임을 받으면 팁을 전혀 주지 않습니다.\n• 정착민은 주요리를 먹은 뒤 식사 자리 근처에서만 곁들임을 찾아, 근처에서 가져오는 운반 과정을 유지합니다.\n\n책 보기에서 좌클릭으로 곁들임을 고르고, 우클릭으로 선택은 그대로 둔 채 잠시 끄거나 다시 켤 수 있습니다.</CuisineStory_Handbook_Pairing_Body>
+  <CuisineStory_Handbook_Derivation_Title>파생과 공유</CuisineStory_Handbook_Derivation_Title>
+  <CuisineStory_Handbook_Derivation_Body>파생과 공유는 레시피의 구조만 옮기고, 다른 저장 파일의 최종 수치는 절대 옮기지 않습니다.\n\n• 조리에 성공할 때마다 낮은 확률로 파생 레시피의 영감이 떠오릅니다. 조리 기술이 높을수록 확률이 오르며, 후보는 같은 조리법과 같은 주재료 분류를 공유해야 합니다.\n• 내장된 고급 명요리를 먼저 고르고, 그 분류의 내장 후보를 다 쓴 뒤에야 호환되는 외부 완성 레시피가 들어옵니다.\n• CS2 코드는 이름, 조리 도구, 의미 칸, 텍스처, 설명을 저장합니다. 정확한 Def 참조에는 다른 모드 목록을 위한 의미 기반 대체값이 들어갈 수 있습니다.\n• 가져오면 이 게임의 재료로 열량, 능력치, 궁합, 별을 다시 분석합니다. 요리사, 숙련도, 연구, 작업 상태는 가져오지 않습니다.\n\n같은 코드라도 모드 목록이 다르면 이 게임의 재료 정의가 달라 능력치가 다르게 나올 수 있습니다.</CuisineStory_Handbook_Derivation_Body>
+  <CuisineStory_Handbook_FoodPolicy_Title>식사 관리</CuisineStory_Handbook_FoodPolicy_Title>
+  <CuisineStory_Handbook_FoodPolicy_Body>요리 우선순위는 바닐라 음식 정책을 통과한 뒤에만 적용되는 선택 가중치이며, 바닐라 안전 규칙을 대신하지 않습니다.\n\n• 최우선과 선호는 고를 확률을 높이고, 비축은 다른 음식이 있을 때 이 요리를 아껴 두게 하며, 금지는 레시피를 아예 제외합니다.\n• 보너스는 거리에 따라 줄어서, 멀리 있는 최우선 요리가 가까이 있는 알맞은 음식을 늘 이기지는 않습니다.\n• 위험, 정책상 금지, 접근 가능 여부, 재고가 여전히 우선합니다. 선호 요리가 없으면 정상적으로 다른 음식을 먹습니다.\n• 우선순위는 공용 식사 Def가 아니라 레시피별로 저장되며, 음식 다양성 호환 기능도 이를 기준으로 요리를 구분합니다.\n\n비축은 잔치나 퀘스트용 재고에 알맞습니다. 금지가 절대 규칙입니다.</CuisineStory_Handbook_FoodPolicy_Body>
+  <CuisineStory_Handbook_Updates_Title>버전 업데이트</CuisineStory_Handbook_Updates_Title>
+  <CuisineStory_UpdateLog_Title>Cuisine Story 업데이트 기록</CuisineStory_UpdateLog_Title>
+  <CuisineStory_UpdateLog_Version>버전 2.4</CuisineStory_UpdateLog_Version>
+  <CuisineStory_UpdateLog_Tip>현재 Cuisine Story 업데이트 내용 보기</CuisineStory_UpdateLog_Tip>
+  <CuisineStory_UpdateLog_Body>Cuisine Story 2.4는 핵심 시스템, 편의성, UI와 그림, 고급 요리를 확장했습니다.\n\n1. 목록 보기를 유지하면서 책 보기를 추가했습니다. 요리 안내서, 더 명확한 곁들임 표시, 우클릭 임시 전환, 전용 기능 아이콘을 추가했습니다.\n\n2. 조리 특징 글리프를 20개가 넘는 비트맵 아이콘으로 바꾸고, 약선 효과 전용 그림을 추가했습니다.\n\n3. 고급 레시피 100여 개의 복잡도를 높여 손봤고, 정통 레시피 텍스처 배분을 개선해 중복 그림을 줄였습니다.\n\n4. 엄격한 재료 일치 방식의 짧은 코드 레시피 가져오기와 내보내기를 추가했습니다. 고정 조미료 위치 어긋남, 재료 중복, 능력치 차이를 고쳤습니다.\n\n5. 요리 전용 연구 트리를 추가했습니다. 레시피 풀은 단계별로 해금되고 조리 기술이 연구를 빠르게 하며, 주식과 조미료 가공은 고정 연구를 씁니다.\n\n6. 약선 요리를 추가했습니다. 약초는 약효 단계별로 해금되며 부상 관리, 회복, 면역을 제공하고, 총 기본 약효에 따라 맛에 대가가 붙습니다.\n\n7. Dubs Bad Hygiene 안전한 물, Alpha Bees 재료 역할, Neat Storage 배치와의 호환을 넓혔습니다. 물 용기와 책이 재료 목록에 들어가지 않게 했습니다.\n\n8. 요리 메뉴의 프레임당 작업을 줄이고, 분량 점수 3배 적용, 모닥불 작업 종류, 휴대용 팬, 중력부양선 맵 이동 후 조리 연결망 초기화 문제를 고쳤습니다.</CuisineStory_UpdateLog_Body>
+  <CuisineStory_Medicinal_ResearchRequired>"{RESEARCH}" 연구가 필요합니다.</CuisineStory_Medicinal_ResearchRequired>
+  <CuisineStory_Handbook_Medicinal_Title>약선 요리</CuisineStory_Handbook_Medicinal_Title>
+  <CuisineStory_Handbook_Medicinal_Body>약선 요리는 약초를 부재료로 써서, 맛이나 향이나 외관에 상당한 대가를 치르는 대신 몸을 돌봅니다. 또 다른 형태의 약이 아닙니다.\n\n• 약식동원 연구를 마치면 약초 전용 부재료 필터가 생기고 켜집니다. 더 강한 약초는 이후 요리 연구로 해금됩니다.\n• 약초는 회복, 면역, 통증 완화, 휴식, 식중독 완화를 돕습니다. 약선 국물 요리에는 탕제 이름이 붙고, 육수 냄비와 찜기는 약효를 높여 줍니다.\n• 맛의 불이익은 재료 개수가 아니라 총 기본 약효에 따라 붙습니다. 순한 꽃은 부드럽게 남고, 약효가 센 약초와 처방은 약초 향, 강한 약맛, 약과 음식의 불균형 순으로 나빠집니다.\n• 먹으면 현재 부상, 질병, 통증, 피로에 맞는 효과를 최대 두 개 고릅니다. 같은 요리를 또 먹으면 지속 시간만 새로 고쳐집니다.\n• 식중독 완화는 즉시 적용되어 이미 걸린 식중독을 한 단계 낮춥니다. 심각은 중간으로, 중간은 가벼움으로 바뀝니다. 가벼운 식중독을 없애지도, 그 요리 자체로 인한 식중독을 막지도 않습니다.\n\n약선 요리는 장기적인 몸 관리와 회복에 알맞습니다. 심각한 병은 여전히 의사와 약, 제대로 된 침대가 필요합니다.</CuisineStory_Handbook_Medicinal_Body>
+  <CuisineStory_Medicinal_FeatureTooltip>약선 요리: {EFFECTS}. {METHOD}</CuisineStory_Medicinal_FeatureTooltip>
+  <CuisineStory_Medicinal_Effect_Recovery>부상 회복</CuisineStory_Medicinal_Effect_Recovery>
+  <CuisineStory_Medicinal_Effect_Immunity>면역 보조</CuisineStory_Medicinal_Effect_Immunity>
+  <CuisineStory_Medicinal_Effect_Soothing>통증 완화</CuisineStory_Medicinal_Effect_Soothing>
+  <CuisineStory_Medicinal_Effect_Restorative>휴식 회복</CuisineStory_Medicinal_Effect_Restorative>
+  <CuisineStory_Medicinal_Effect_Digestive>식중독 완화</CuisineStory_Medicinal_Effect_Digestive>
+  <CuisineStory_Medicinal_Effect_Circulation>혈액순환 개선</CuisineStory_Medicinal_Effect_Circulation>
+  <CuisineStory_Medicinal_Effect_Respiratory>호흡 조절</CuisineStory_Medicinal_Effect_Respiratory>
+  <CuisineStory_Medicinal_Name_Decoction>{NAME} 탕제</CuisineStory_Medicinal_Name_Decoction>
+  <CuisineStory_Medicinal_Name_Generic>약선 {NAME}</CuisineStory_Medicinal_Name_Generic>
+  <CuisineStory_Medicinal_FoodPoisoningRelieved>{PAWN}의 식중독 증상이 누그러졌습니다.</CuisineStory_Medicinal_FoodPoisoningRelieved>
+  <CuisineStory_Meal_FoodPoisonFactor>식중독 계수</CuisineStory_Meal_FoodPoisonFactor>
+  <CuisineStory_Meal_FoodPoisonFactorTip>건강 등급이 B 이상이면 요리사 실수, 더러운 주방, 위험한 재료가 이 요리에 영향을 줄 확률이 줄어듭니다. B: 80%, A: 60%, S: 40%, SS: 20%, SSS: 0%. 오염 상태가 다른 요리는 서로 쌓이거나 희석되지 않습니다.</CuisineStory_Meal_FoodPoisonFactorTip>
+  <CuisineStory_Medicinal_Method_Pot>육수 냄비는 약효를 특히 잘 우려내고 보존합니다.</CuisineStory_Medicinal_Method_Pot>
+  <CuisineStory_Medicinal_Method_Steam>찜은 약효를 부드럽게 지키면서 쓴맛을 줄여 줍니다.</CuisineStory_Medicinal_Method_Steam>
+  <CuisineStory_Medicinal_Method_Grill>직화는 약효를 많이 잃게 하지만, 날 약초 냄새를 눌러 줍니다.</CuisineStory_Medicinal_Method_Grill>
+  <CuisineStory_Medicinal_Method_Oven>베이킹은 약효를 일부만 남기며, 약초 과자에 가장 알맞습니다.</CuisineStory_Medicinal_Method_Oven>
+  <CuisineStory_Medicinal_Method_Other>이 조리법은 재료의 약효를 일부 남깁니다.</CuisineStory_Medicinal_Method_Other>
+  <CuisineStory_Medicinal_HediffLabel>약선 조리</CuisineStory_Medicinal_HediffLabel>
+  <CuisineStory_Medicinal_HediffEffect>• {EFFECT}</CuisineStory_Medicinal_HediffEffect>
+  <CuisineStory_Medicinal_FeatureBadge>약선 요리: 몸을 돌보는 효과가 있는 약초가 들어 있습니다.</CuisineStory_Medicinal_FeatureBadge>
+  <CuisineStory_Medicinal_HediffRecoveryDetail>부상 회복: 상처 자연 치유 +{VALUE}</CuisineStory_Medicinal_HediffRecoveryDetail>
+  <CuisineStory_Medicinal_HediffImmunityDetail>면역 보조: 면역 획득 속도 +{VALUE}</CuisineStory_Medicinal_HediffImmunityDetail>
+  <CuisineStory_Medicinal_HediffSoothingDetail>통증 완화: 통증 -{VALUE}</CuisineStory_Medicinal_HediffSoothingDetail>
+  <CuisineStory_Medicinal_HediffRestorativeDetail>휴식 회복: 수면 감소 속도 -{VALUE}, 수면 효율 +{VALUE}</CuisineStory_Medicinal_HediffRestorativeDetail>
+  <CuisineStory_Medicinal_HediffDigestiveDetail>식중독 완화: 먹으면 식중독 심각도를 한 단계 낮춤</CuisineStory_Medicinal_HediffDigestiveDetail>
+  <CuisineStory_Medicinal_HediffCirculationDetail>혈액순환 개선: 혈액 순환 +{VALUE}</CuisineStory_Medicinal_HediffCirculationDetail>
+  <CuisineStory_Medicinal_HediffRespiratoryDetail>호흡 조절: 호흡 +{VALUE}</CuisineStory_Medicinal_HediffRespiratoryDetail>
+  <CuisineStory_Medicinal_HediffTip>출처: "{DISH}"\n{EFFECTS}\n남은 시간: {TIME}</CuisineStory_Medicinal_HediffTip>
+  <CuisineStory_Medicinal_StatLabel>약선 효과</CuisineStory_Medicinal_StatLabel>
+  <CuisineStory_Medicinal_StatDescription>약선 요리는 맛의 일부를 포기하는 대신, 중첩되지 않는 은은한 건강 보조 효과를 줍니다.</CuisineStory_Medicinal_StatDescription>
+  <CuisineStory_Penalty_MedicinalMild>약초 향이 남: 맛 -1, 향 -0.5</CuisineStory_Penalty_MedicinalMild>
+  <CuisineStory_Penalty_MedicinalTaste>강한 약맛: 맛 -3, 향 -1.5</CuisineStory_Penalty_MedicinalTaste>
+  <CuisineStory_Penalty_MedicinalImbalance>약과 음식의 불균형: 맛과 외관 -3, 궁합 한 단계 하락</CuisineStory_Penalty_MedicinalImbalance>
+  <CuisineStory_Medicinal_ResearchIngredients>현재 모드 환경의 {TIER}단계 약초: {INGREDIENTS}</CuisineStory_Medicinal_ResearchIngredients>
+  <CuisineStory_KnownDishDescription_酸菜鱼>부드러운 생선살과 아삭한 갓절임이 새콤하고 산뜻한 국물 속에서 은은한 매운맛과 어우러집니다.</CuisineStory_KnownDishDescription_酸菜鱼>
+  <CuisineStory_KnownDishDescription_糖醋排骨>윤기 도는 갈비에 진한 새콤달콤 양념이 배어, 돼지고기의 감칠맛과 깔끔한 과일 산미가 균형을 이룹니다.</CuisineStory_KnownDishDescription_糖醋排骨>
+  <CuisineStory_KnownDishDescription_番茄炒蛋>즙 많은 토마토와 폭신한 달걀이 만난, 순하고 편안한 집밥 메뉴입니다.</CuisineStory_KnownDishDescription_番茄炒蛋>
+  <CuisineStory_KnownDishDescription_蛋炒饭>고슬고슬한 밥알에 달걀을 입혀 센 불에 볶아 낸, 깔끔하고 짭짤한 맛입니다.</CuisineStory_KnownDishDescription_蛋炒饭>
+  <CuisineStory_KnownDishDescription_土豆炖牛肉>포크로 잘릴 만큼 부드러운 소고기와 육즙을 머금은 감자가 든든하고 따뜻한 스튜입니다.</CuisineStory_KnownDishDescription_土豆炖牛肉>
+  <CuisineStory_KnownDishDescription_小鸡炖蘑菇>부드러운 닭고기와 국물을 머금은 버섯이 소박한 숲 내음이 나는 깊은 스튜를 이룹니다.</CuisineStory_KnownDishDescription_小鸡炖蘑菇>
+  <CuisineStory_KnownDishDescription_红烧肉>윤기 흐르는 붉은 조림 속 부드러운 삼겹살이 은은한 단맛, 간장 감칠맛, 진한 고기 맛의 균형을 이룹니다.</CuisineStory_KnownDishDescription_红烧肉>
+  <CuisineStory_KnownDishDescription_红烧鱼>섬세한 생선살이 풍성한 달짭짤한 양념을 머금으면서도 부드러운 식감을 지킵니다.</CuisineStory_KnownDishDescription_红烧鱼>
+  <CuisineStory_KnownDishDescription_凉拌黄瓜>아삭하고 즙 많은 오이에 식초와 마늘을 더한, 상큼하고 시원한 냉채입니다.</CuisineStory_KnownDishDescription_凉拌黄瓜>
+  <CuisineStory_KnownDishDescription_牛肉面>탱글한 면, 부드러운 소고기, 깊은 감칠맛의 국물이 어우러져 아주 든든한 한 그릇입니다.</CuisineStory_KnownDishDescription_牛肉面>
+  <CuisineStory_KnownDishDescription_鸡汤>맑고 편안한 국물에 닭고기의 깔끔한 감칠맛이 모여 부드럽고 긴 여운을 남깁니다.</CuisineStory_KnownDishDescription_鸡汤>
+  <CuisineStory_KnownDishDescription_鱼汤>신선한 생선이 뽀얀 국물을 풍성하게 해, 순하고 살짝 달면서도 전혀 무겁지 않습니다.</CuisineStory_KnownDishDescription_鱼汤>
+  <CuisineStory_KnownDishDescription_清蒸鱼>은은한 증기가 생선의 섬세한 식감, 깨끗한 향, 본연의 신선함을 지켜 줍니다.</CuisineStory_KnownDishDescription_清蒸鱼>
+  <CuisineStory_KnownDishDescription_肉包>부드러운 밀가루 빵 속에 즙 많고 짭짤한 고기소가 들어 있어 따뜻한 김 냄새가 납니다.</CuisineStory_KnownDishDescription_肉包>
+  <CuisineStory_KnownDishDescription_烤鸡>바삭하고 향긋한 껍질 안에 따뜻한 향신료가 속까지 밴 촉촉한 통닭구이가 있습니다.</CuisineStory_KnownDishDescription_烤鸡>
+  <CuisineStory_KnownDishDescription_过油肉>매끄러운 돼지고기 편에 은은한 윤기, 깔끔한 불향, 산뜻한 식초 향이 더해집니다.</CuisineStory_KnownDishDescription_过油肉>
+  <CuisineStory_KnownDishDescription_扒全素>여러 채소와 버섯이 섬세한 소스 속에서 부드럽게 익어 신선한 향을 그대로 간직합니다.</CuisineStory_KnownDishDescription_扒全素>
+  <CuisineStory_KnownDishDescription_官烧鲤鱼>잉어를 촉촉해질 때까지 천천히 조려, 양념과 청주 향이 겹겹이 배어듭니다.</CuisineStory_KnownDishDescription_官烧鲤鱼>
+  <CuisineStory_KnownDishDescription_螺蛳粉>매끄러운 쌀국수가 강렬하고 새콤매콤한 국물에 담겨, 잊을 수 없는 발효 향을 풍깁니다.</CuisineStory_KnownDishDescription_螺蛳粉>
+  <CuisineStory_KnownDishDescription_桂乳荔芋扣肉>삭힌 두부가 녹아내리는 삼겹살에 간을 더하고, 크림처럼 부드러운 토란이 양념을 한 방울도 남김없이 머금습니다.</CuisineStory_KnownDishDescription_桂乳荔芋扣肉>
+  <CuisineStory_KnownDishDescription_阳朔啤酒鱼>맥주가 몰트 향과 깔끔한 끝맛을 더해, 부드러운 생선이 진하면서도 균형 잡힌 양념에 담깁니다.</CuisineStory_KnownDishDescription_阳朔啤酒鱼>
+  <CuisineStory_KnownDishDescription_羊肉手抓饭>밥이 양고기 기름, 채소의 단맛, 따뜻한 향신료를 머금어 밥알 하나하나가 진하게 향긋합니다.</CuisineStory_KnownDishDescription_羊肉手抓饭>
+  <CuisineStory_KnownDishDescription_馕包肉>부드러운 양고기 아래의 난이 진한 스튜를 흠뻑 머금어 밀 향과 고기 향이 하나로 어우러집니다.</CuisineStory_KnownDishDescription_馕包肉>
+  <CuisineStory_KnownDishDescription_大盘鸡>닭고기와 감자가 과감한 향신료가 살아 있는 짭짤하고 매콤한 양념을 듬뿍 뒤집어썼습니다.</CuisineStory_KnownDishDescription_大盘鸡>
+  <CuisineStory_KnownDishDescription_南翔小笼包>얇은 피 속에 짭짤한 소와 뜨겁고 향긋한 육즙이 가득 차 있습니다.</CuisineStory_KnownDishDescription_南翔小笼包>
+  <CuisineStory_KnownDishDescription_糖醋小排>부드러운 돼지 갈비에 과일 산미와 적당한 단맛이 어우러진 윤기 나는 끈적한 양념이 입혀져 있습니다.</CuisineStory_KnownDishDescription_糖醋小排>
+  <CuisineStory_KnownDishDescription_水晶虾仁>투명한 새우살이 탱글하고 달큼하며, 간을 가볍게 해 본연의 신선함을 살렸습니다.</CuisineStory_KnownDishDescription_水晶虾仁>
+  <CuisineStory_KnownDishDescription_牡丹燕菜>가늘게 채 썬 무가 우아한 모란꽃을 이루어, 맑고 은은하게 감칠맛 나는 고상한 국에 떠 있습니다.</CuisineStory_KnownDishDescription_牡丹燕菜>
+  <CuisineStory_KnownDishDescription_胡辣汤>후추의 직설적인 매운맛, 따뜻한 향신료, 든든한 감칠맛이 이끄는 걸쭉하고 층층이 깊은 국입니다.</CuisineStory_KnownDishDescription_胡辣汤>
+  <CuisineStory_KnownDishDescription_葱扒羊肉>부드러운 양고기에 대파를 조려 낸 은은한 단맛과 깊은 향이 더해져 맛이 둥글어집니다.</CuisineStory_KnownDishDescription_葱扒羊肉>
+  <CuisineStory_KnownDishDescription_锅包肉>깃털처럼 가볍고 바삭한 튀김옷 속에 부드러운 돼지고기가 있고, 선명하고 과일 향 나는 새콤달콤 소스가 입혀져 있습니다.</CuisineStory_KnownDishDescription_锅包肉>
+  <CuisineStory_KnownDishDescription_三杯鸡>참기름, 간장, 청주가 닭고기에 졸아들어 강렬한 달짭짤한 양념이 됩니다.</CuisineStory_KnownDishDescription_三杯鸡>
+  <CuisineStory_KnownDishDescription_井冈烟笋>훈연 향이 밴 쫄깃한 죽순이 돼지기름과 어우러져 깊고 뚜렷한 감칠맛을 냅니다.</CuisineStory_KnownDishDescription_井冈烟笋>
+  <CuisineStory_KnownDishDescription_臊子面>탱글한 면에 새콤짭짤한 다진 고기 고명과 국물이 더해져 대비되는 식감이 풍부합니다.</CuisineStory_KnownDishDescription_臊子面>
+  <CuisineStory_KnownDishDescription_肉夹馍>바삭하고 쫄깃한 납작빵 사이에 진하게 조린 다진 고기가 들어가 육즙이 겹겹이 스며듭니다.</CuisineStory_KnownDishDescription_肉夹馍>
+  <CuisineStory_KnownDishDescription_羊肉泡馍>잘게 뜯은 빵이 맑은 양고기 국물을 머금어, 무겁지 않으면서 부드럽고 깊은 감칠맛을 냅니다.</CuisineStory_KnownDishDescription_羊肉泡馍>
+  <CuisineStory_KnownDishDescription_腊干烧肉>숙성된 훈제 향과 응축된 돼지고기 감칠맛이 고추로 날을 세운 쫀득한 조림에서 만납니다.</CuisineStory_KnownDishDescription_腊干烧肉>
+  <CuisineStory_KnownDishDescription_酸辣藕带>아삭한 연근 줄기가 산뜻한 신맛과 짧고 강렬한 매운맛을 내는 경쾌한 볶음입니다.</CuisineStory_KnownDishDescription_酸辣藕带>
+  <CuisineStory_KnownDishDescription_排骨藕汤>달고 포슬포슬한 연근이 진한 갈비 국물에서 부드러워져, 따뜻하고 은은하게 단 여운을 남깁니다.</CuisineStory_KnownDishDescription_排骨藕汤>
+  <CuisineStory_KnownDishDescription_北京烤鸭>유리처럼 바삭한 껍질과 부드러운 오리고기가 달콤한 춘장과 만나는, 틀림없이 진한 구이 요리입니다.</CuisineStory_KnownDishDescription_北京烤鸭>
+  <CuisineStory_KnownDishDescription_京酱肉丝>부드럽게 채 썬 돼지고기에 진한 춘장 양념이 배고, 신선한 파가 맛을 살려 줍니다.</CuisineStory_KnownDishDescription_京酱肉丝>
+  <CuisineStory_KnownDishDescription_涮羊肉>종잇장처럼 얇은 양고기가 순식간에 익어 부드러움을 유지하고, 맑은 국물이 본연의 감칠맛을 살려 줍니다.</CuisineStory_KnownDishDescription_涮羊肉>
+  <CuisineStory_KnownDishDescription_蚵仔煎>달큼한 굴과 부드러운 달걀이 살짝 바삭한 가장자리와 대비되는, 촉촉하고 짭짤한 오믈렛입니다.</CuisineStory_KnownDishDescription_蚵仔煎>
+  <CuisineStory_KnownDishDescription_五柳鱼>가장자리는 바삭하고 속은 부드러운 생선에 향긋한 새콤달콤 오류 소스가 산뜻함을 더합니다.</CuisineStory_KnownDishDescription_五柳鱼>
+  <CuisineStory_KnownDishDescription_佛跳墙>산해진미가 천천히 맛을 내어 주어, 남다른 깊이를 지닌 국물이 됩니다.</CuisineStory_KnownDishDescription_佛跳墙>
+  <CuisineStory_KnownDishDescription_大理砂锅鱼>뚝배기가 생선과 버섯의 신선함을 진한 국물에 가두어 오래도록 뜨겁게 유지합니다.</CuisineStory_KnownDishDescription_大理砂锅鱼>
+  <CuisineStory_KnownDishDescription_菌菇宴>여러 버섯이 저마다 부드럽고, 아삭하고, 매끄러운 식감을 드러내는 숲 향 가득한 한 상입니다.</CuisineStory_KnownDishDescription_菌菇宴>
+  <CuisineStory_KnownDishDescription_霸王别姬>닭고기와 자라를 함께 고아, 윤기 나는 국물에 서로 다른 고기의 층이 생깁니다.</CuisineStory_KnownDishDescription_霸王别姬>
+  <CuisineStory_KnownDishDescription_宫保鸡丁>부드러운 닭고기와 바삭한 땅콩이 살아 있는 불향 위에서 단맛, 신맛, 짠맛, 매운맛의 균형을 이룹니다.</CuisineStory_KnownDishDescription_宫保鸡丁>
+  <CuisineStory_KnownDishDescription_翡翠白玉汤>싱싱한 푸른 채소와 연두부가 비취와 진주처럼 순하고 편안한 국물에 떠 있습니다.</CuisineStory_KnownDishDescription_翡翠白玉汤>
+  <CuisineStory_KnownDishDescription_灯影牛肉>등불이 비칠 만큼 얇게 저민 소고기로, 바싹 말라 바삭쫄깃하며 매운맛, 얼얼함, 단맛이 살아 있습니다.</CuisineStory_KnownDishDescription_灯影牛肉>
+  <CuisineStory_KnownDishDescription_东坡肉>반듯한 돼지고기 덩어리를 모양은 그대로 두고 부드러워질 때까지 조려, 술, 간장, 은은한 단맛이 풍부합니다.</CuisineStory_KnownDishDescription_东坡肉>
+  <CuisineStory_KnownDishDescription_惠灵顿牛排>결이 살아 있는 페이스트리가 촉촉한 소고기와 버섯 뒥셀을 감싸, 바삭함과 부드러움이 화려하게 대비됩니다.</CuisineStory_KnownDishDescription_惠灵顿牛排>
+  <CuisineStory_KnownDishDescription_法式多菲内焗土豆>얇게 썬 감자를 크림에 구워, 진하게 노릇하고 향긋한 표면 아래는 녹을 듯 부드럽습니다.</CuisineStory_KnownDishDescription_法式多菲内焗土豆>
+  <CuisineStory_KnownDishDescription_法式洋葱汤>천천히 캐러멜화한 양파가 진하고 여운 긴 국물에 깊은 단맛과 따뜻함을 더합니다.</CuisineStory_KnownDishDescription_法式洋葱汤>
+  <CuisineStory_KnownDishDescription_勃艮第炖牛肉>레드 와인이 소고기를 부드럽게 만들어, 버섯과 육즙으로 풍성해진 짙고 호화로운 스튜가 됩니다.</CuisineStory_KnownDishDescription_勃艮第炖牛肉>
+  <CuisineStory_KnownDishDescription_红酒炖鸡>닭고기가 와인과 졸인 소스 속에서 부드러워지고, 진한 맛 아래 은은한 산미가 깔립니다.</CuisineStory_KnownDishDescription_红酒炖鸡>
+  <CuisineStory_KnownDishDescription_洛林乳蛋饼>바삭한 페이스트리 틀이 베이컨의 짭짤한 향으로 풍성해진 매끄러운 달걀 커스터드를 받칩니다.</CuisineStory_KnownDishDescription_洛林乳蛋饼>
+  <CuisineStory_KnownDishDescription_意式肉酱面>오래 끓인 고기 소스가 파스타에 착 달라붙어, 깊은 소고기 감칠맛과 산뜻한 토마토 산미가 균형을 이룹니다.</CuisineStory_KnownDishDescription_意式肉酱面>
+  <CuisineStory_KnownDishDescription_奶油培根面>윤기 나는 소스가 면 가닥마다 감기고, 염장 돼지고기가 진하고 크리미한 식감에 짭짤한 깊이를 더합니다.</CuisineStory_KnownDishDescription_奶油培根面>
+  <CuisineStory_KnownDishDescription_意式千层面>파스타 면, 고기 소스, 치즈가 겹겹이 구워져 진하고 부드러운 층과 바삭하게 그을린 가장자리를 이룹니다.</CuisineStory_KnownDishDescription_意式千层面>
+  <CuisineStory_KnownDishDescription_意式蘑菇烩饭>버섯 감칠맛이 흠뻑 밴 흐르는 듯한 크림 소스 아래에서 쌀알이 섬세한 씹는 맛을 지킵니다.</CuisineStory_KnownDishDescription_意式蘑菇烩饭>
+  <CuisineStory_KnownDishDescription_西班牙海鲜饭>쌀이 사프란 향 해산물 육수를 머금어, 노릇하게 눌은 바닥 위로 선명한 바다의 감칠맛이 응축됩니다.</CuisineStory_KnownDishDescription_西班牙海鲜饭>
+  <CuisineStory_KnownDishDescription_西班牙土豆煎蛋>두툼한 오믈렛이 부드러운 감자를 감싸고, 살짝 노릇한 겉면이 마음까지 푸근하게 합니다.</CuisineStory_KnownDishDescription_西班牙土豆煎蛋>
+  <CuisineStory_KnownDishDescription_希腊穆萨卡>향신료 넣은 고기와 부드러운 채소를 겹겹이 쌓고, 매끄러운 황금빛 커스터드를 얹어 굽습니다.</CuisineStory_KnownDishDescription_希腊穆萨卡>
+  <CuisineStory_KnownDishDescription_奥地利炸猪排>얇은 돼지고기 커틀릿을 고르게 황금빛으로 바삭하게 튀기면서 속은 촉촉하게 지킵니다.</CuisineStory_KnownDishDescription_奥地利炸猪排>
+  <CuisineStory_KnownDishDescription_匈牙利牛肉汤>따뜻한 파프리카 국물 속에서 소고기가 부드러워지고, 은은한 단맛과 적당한 매운맛이 납니다.</CuisineStory_KnownDishDescription_匈牙利牛肉汤>
+  <CuisineStory_KnownDishDescription_瑞士拉克莱特土豆>녹인 라클렛 치즈가 뜨거운 감자를 덮어, 크리미함과 흙내음이 어우러진 아주 만족스러운 조합입니다.</CuisineStory_KnownDishDescription_瑞士拉克莱特土豆>
+  <CuisineStory_KnownDishDescription_波兰土豆饺子>말랑한 만두피가 부드러운 감자소를 감싸, 삶으면 촉촉하고 든든해집니다.</CuisineStory_KnownDishDescription_波兰土豆饺子>
+  <CuisineStory_KnownDishDescription_俄式罗宋汤>비트가 선명한 색과 흙내음 섞인 단맛을 더하고, 은은한 산미가 따뜻한 국물을 또렷하게 합니다.</CuisineStory_KnownDishDescription_俄式罗宋汤>
+  <CuisineStory_KnownDishDescription_俄式奶油牛肉>부드러운 소고기와 버섯이 매끄럽고 살짝 새콤한 크림 소스 속에서 어우러집니다.</CuisineStory_KnownDishDescription_俄式奶油牛肉>
+  <CuisineStory_KnownDishDescription_德式酸菜炖肉>자우어크라우트의 깔끔한 신맛이 진한 돼지고기를 가르며, 묵직하지만 균형 잡힌 스튜가 됩니다.</CuisineStory_KnownDishDescription_德式酸菜炖肉>
+  <CuisineStory_KnownDishDescription_日式照烧鸡>윤기 나는 달짭짤한 양념이 부드러운 닭고기 위에서 캐러멜화되고, 구운 향은 절제되어 있습니다.</CuisineStory_KnownDishDescription_日式照烧鸡>
+  <CuisineStory_KnownDishDescription_日式亲子丼>부드러운 닭고기와 살짝 익힌 달걀이 순한 달짭짤한 국물과 함께 밥 위에 얹힙니다.</CuisineStory_KnownDishDescription_日式亲子丼>
+  <CuisineStory_KnownDishDescription_日式拉面>탱글한 면이 깊은 감칠맛 국물에 담기고, 부드러운 차슈의 진한 맛이 전체를 감싸 줍니다.</CuisineStory_KnownDishDescription_日式拉面>
+  <CuisineStory_KnownDishDescription_日式咖喱饭>고기와 채소가 걸쭉하고 은은하게 매콤한 카레에 녹아들어 밥에 듬뿍 감깁니다.</CuisineStory_KnownDishDescription_日式咖喱饭>
+  <CuisineStory_KnownDishDescription_韩式烤肉>캐러멜화된 가장자리, 달짭짤한 양념, 직화의 훈연 향이 고기의 풍미를 끌어올립니다.</CuisineStory_KnownDishDescription_韩式烤肉>
+  <CuisineStory_KnownDishDescription_韩式拌饭>밥, 채소, 달걀을 고추장에 비벼, 아삭함과 부드러움과 고소하게 눌은 식감이 균형을 이룹니다.</CuisineStory_KnownDishDescription_韩式拌饭>
+  <CuisineStory_KnownDishDescription_韩式泡菜锅>발효된 신맛과 매운맛이 돼지고기로 풍성해진 든든한 국물 전체에 스며 있습니다.</CuisineStory_KnownDishDescription_韩式泡菜锅>
+  <CuisineStory_KnownDishDescription_印度黄油鸡>부드러운 닭고기가 매끄러운 토마토 버터 소스에 담겨, 강렬한 향신료가 따뜻하고 둥글게 남습니다.</CuisineStory_KnownDishDescription_印度黄油鸡>
+  <CuisineStory_KnownDishDescription_印度香料饭>고슬고슬한 쌀알이 육즙과 겹겹의 향신료를 머금은, 향이 강렬한 비리야니입니다.</CuisineStory_KnownDishDescription_印度香料饭>
+  <CuisineStory_KnownDishDescription_泰式冬阴功>신맛, 매운맛, 해산물의 단맛, 산뜻한 허브가 한꺼번에 터지는 생생한 향의 국물입니다.</CuisineStory_KnownDishDescription_泰式冬阴功>
+  <CuisineStory_KnownDishDescription_泰式炒河粉>쫄깃한 쌀국수가 살아 있는 불향 위에서 단맛, 신맛, 짠맛, 달걀, 해산물의 균형을 이룹니다.</CuisineStory_KnownDishDescription_泰式炒河粉>
+  <CuisineStory_KnownDishDescription_印尼炒饭>노릇하게 볶은 밥에 케찹 마니스와 향긋한 향신료의 깊고 살짝 단 감칠맛이 뱁니다.</CuisineStory_KnownDishDescription_印尼炒饭>
+  <CuisineStory_KnownDishDescription_印尼沙嗲>그을린 고기 꼬치에 따뜻한 향신료, 달짭짤한 맛, 땅콩의 고소함이 담겨 있습니다.</CuisineStory_KnownDishDescription_印尼沙嗲>
+  <CuisineStory_KnownDishDescription_越南牛肉粉>향신료 향이 밴 맑은 소고기 국물이 매끄러운 쌀국수와 부드러운 소고기 편을 감쌉니다.</CuisineStory_KnownDishDescription_越南牛肉粉>
+  <CuisineStory_KnownDishDescription_菲式醋烧鸡>식초와 간장이 부드러운 닭고기에 스며들어, 순한 산미와 응축된 달짭짤한 여운을 남깁니다.</CuisineStory_KnownDishDescription_菲式醋烧鸡>
+  <CuisineStory_KnownDishDescription_土耳其烤肉>따뜻한 향신료와 직화가 촉촉하고 감칠맛 강한 고기 겉에 향긋한 겉면을 만듭니다.</CuisineStory_KnownDishDescription_土耳其烤肉>
+  <CuisineStory_KnownDishDescription_摩洛哥塔吉锅>오래 익힌 고기, 과일, 향신료가 부드러운 타진을 이루어 길고 달짭짤한 깊이를 냅니다.</CuisineStory_KnownDishDescription_摩洛哥塔吉锅>
+  <CuisineStory_KnownDishDescription_埃塞俄比亚香辣炖鸡>닭고기가 응축된 향신료, 고추의 열기, 오래가는 감칠맛을 지닌 짙은 붉은 소스에 담겨 있습니다.</CuisineStory_KnownDishDescription_埃塞俄比亚香辣炖鸡>
+  <CuisineStory_KnownDishDescription_西非香料饭>밥이 토마토, 육수, 향신료를 머금어 붉고 향긋하며 진한 감칠맛을 냅니다.</CuisineStory_KnownDishDescription_西非香料饭>
+  <CuisineStory_KnownDishDescription_南非香料肉饼>은은하게 달고 향신료 넣은 고기를 부드러운 커스터드 아래서 구워, 따뜻한 과일 향이 납니다.</CuisineStory_KnownDishDescription_南非香料肉饼>
+  <CuisineStory_KnownDishDescription_阿根廷炭烤牛排>이글거리는 숯불이 촉촉한 소고기 겉에 두툼한 크러스트를 만들고, 신선한 허브 소스가 맛을 살립니다.</CuisineStory_KnownDishDescription_阿根廷炭烤牛排>
+  <CuisineStory_KnownDishDescription_巴西黑豆炖肉>검은콩과 여러 고기를 끓여 훈연 향, 흙내음, 깊은 감칠맛의 걸쭉한 스튜가 됩니다.</CuisineStory_KnownDishDescription_巴西黑豆炖肉>
+  <CuisineStory_KnownDishDescription_墨西哥辣肉卷>부드러운 토르티야가 즙 많은 매콤한 소고기와 토마토를 감싸, 푸짐하고 경쾌한 한 끼가 됩니다.</CuisineStory_KnownDishDescription_墨西哥辣肉卷>
+  <CuisineStory_KnownDishDescription_秘鲁酸橘鱼>시트러스가 신선한 생선을 깔끔하고 생생한 한입으로 단단하게 만들고, 고추가 본연의 단맛을 끌어올립니다.</CuisineStory_KnownDishDescription_秘鲁酸橘鱼>
+  <CuisineStory_KnownDishDescription_美式苹果派>결이 살아 있는 페이스트리가 따뜻한 사과를 감싸, 과일 산미, 설탕, 베이킹 향신료가 어우러집니다.</CuisineStory_KnownDishDescription_美式苹果派>
+  <CuisineStory_KnownDishDescription_美式炸鸡>울퉁불퉁하고 향신료 가득한 튀김옷 속에 유난히 촉촉한 닭고기가 있어, 뜨거워도 식어도 만족스럽습니다.</CuisineStory_KnownDishDescription_美式炸鸡>
+  <CuisineStory_KnownDishDescription_美式奶酪通心粉>마카로니가 걸쭉한 치즈 소스 아래로 사라져, 매끄럽고 마음까지 푸근한 진한 맛을 냅니다.</CuisineStory_KnownDishDescription_美式奶酪通心粉>
+  <CuisineStory_KnownDishDescription_葡式蛋挞>바스러지는 페이스트리가 캐러멜 반점 아래 부드러운 달걀 커스터드를 담고 있어 깊은 구운 향이 납니다.</CuisineStory_KnownDishDescription_葡式蛋挞>
+  <CuisineStory_KnownDishDescription_巴克拉瓦>종잇장 같은 페이스트리, 견과류, 시럽이 바삭한 층을 이루어 강렬하고 긴 단맛을 냅니다.</CuisineStory_KnownDishDescription_巴克拉瓦>
+  <CuisineStory_KnownDishDescription_以色列番茄炖蛋>달걀을 선명한 토마토 소스에 익혀, 산미와 따뜻함과 향긋한 향신료가 맛을 살립니다.</CuisineStory_KnownDishDescription_以色列番茄炖蛋>
+  <CuisineStory_KnownDishDescription_过桥米线>펄펄 끓는 국물이 매끄러운 쌀국수 주위의 섬세한 고명을 하나하나 익혀, 층층이 감칠맛 나는 한 그릇이 됩니다.</CuisineStory_KnownDishDescription_过桥米线>
+  <CuisineStory_KnownDish_酸菜鱼>쏸차이위</CuisineStory_KnownDish_酸菜鱼>
+  <CuisineStory_KnownDish_糖醋排骨>탕추갈비</CuisineStory_KnownDish_糖醋排骨>
+  <CuisineStory_KnownDish_番茄炒蛋>토마토 달걀볶음</CuisineStory_KnownDish_番茄炒蛋>
+  <CuisineStory_KnownDish_蛋炒饭>달걀볶음밥</CuisineStory_KnownDish_蛋炒饭>
+  <CuisineStory_KnownDish_土豆炖牛肉>소고기 감자 스튜</CuisineStory_KnownDish_土豆炖牛肉>
+  <CuisineStory_KnownDish_小鸡炖蘑菇>닭고기 버섯 스튜</CuisineStory_KnownDish_小鸡炖蘑菇>
+  <CuisineStory_KnownDish_红烧肉>훙사오러우</CuisineStory_KnownDish_红烧肉>
+  <CuisineStory_KnownDish_红烧鱼>생선 간장조림</CuisineStory_KnownDish_红烧鱼>
+  <CuisineStory_KnownDish_凉拌黄瓜>오이무침</CuisineStory_KnownDish_凉拌黄瓜>
+  <CuisineStory_KnownDish_牛肉面>우육면</CuisineStory_KnownDish_牛肉面>
+  <CuisineStory_KnownDish_鸡汤>닭고기 수프</CuisineStory_KnownDish_鸡汤>
+  <CuisineStory_KnownDish_鱼汤>생선 수프</CuisineStory_KnownDish_鱼汤>
+  <CuisineStory_KnownDish_清蒸鱼>생선찜</CuisineStory_KnownDish_清蒸鱼>
+  <CuisineStory_KnownDish_肉包>고기 찐빵</CuisineStory_KnownDish_肉包>
+  <CuisineStory_KnownDish_烤鸡>통닭구이</CuisineStory_KnownDish_烤鸡>
+  <CuisineStory_KnownDish_烤鱼>생선구이</CuisineStory_KnownDish_烤鱼>
+  <CuisineStory_KnownDish_过油肉>궈유러우</CuisineStory_KnownDish_过油肉>
+  <CuisineStory_KnownDish_扒全素>모둠 채소조림</CuisineStory_KnownDish_扒全素>
+  <CuisineStory_KnownDish_官烧鲤鱼>관사오 잉어조림</CuisineStory_KnownDish_官烧鲤鱼>
+  <CuisineStory_KnownDish_螺蛳粉>뤄쓰펀</CuisineStory_KnownDish_螺蛳粉>
+  <CuisineStory_KnownDish_桂乳荔芋扣肉>토란 삼겹살찜</CuisineStory_KnownDish_桂乳荔芋扣肉>
+  <CuisineStory_KnownDish_阳朔啤酒鱼>양숴 맥주 생선조림</CuisineStory_KnownDish_阳朔啤酒鱼>
+  <CuisineStory_KnownDish_羊肉手抓饭>양고기 필라프</CuisineStory_KnownDish_羊肉手抓饭>
+  <CuisineStory_KnownDish_馕包肉>난 양고기 스튜</CuisineStory_KnownDish_馕包肉>
+  <CuisineStory_KnownDish_大盘鸡>다판지</CuisineStory_KnownDish_大盘鸡>
+  <CuisineStory_KnownDish_南翔小笼包>난샹 샤오룽바오</CuisineStory_KnownDish_南翔小笼包>
+  <CuisineStory_KnownDish_糖醋小排>탕추 돼지갈비</CuisineStory_KnownDish_糖醋小排>
+  <CuisineStory_KnownDish_水晶虾仁>수정 새우</CuisineStory_KnownDish_水晶虾仁>
+  <CuisineStory_KnownDish_牡丹燕菜>뤄양 모란탕</CuisineStory_KnownDish_牡丹燕菜>
+  <CuisineStory_KnownDish_胡辣汤>후라탕</CuisineStory_KnownDish_胡辣汤>
+  <CuisineStory_KnownDish_葱扒羊肉>대파 양고기조림</CuisineStory_KnownDish_葱扒羊肉>
+  <CuisineStory_KnownDish_锅包肉>꿔바로우</CuisineStory_KnownDish_锅包肉>
+  <CuisineStory_KnownDish_三杯鸡>싼베이지</CuisineStory_KnownDish_三杯鸡>
+  <CuisineStory_KnownDish_井冈烟笋>징강 훈제 죽순</CuisineStory_KnownDish_井冈烟笋>
+  <CuisineStory_KnownDish_臊子面>사오쯔면</CuisineStory_KnownDish_臊子面>
+  <CuisineStory_KnownDish_肉夹馍>러우자모</CuisineStory_KnownDish_肉夹馍>
+  <CuisineStory_KnownDish_羊肉泡馍>양러우파오모</CuisineStory_KnownDish_羊肉泡馍>
+  <CuisineStory_KnownDish_腊干烧肉>라러우 조림</CuisineStory_KnownDish_腊干烧肉>
+  <CuisineStory_KnownDish_酸辣藕带>새콤매콤 연근줄기볶음</CuisineStory_KnownDish_酸辣藕带>
+  <CuisineStory_KnownDish_排骨藕汤>갈비 연근탕</CuisineStory_KnownDish_排骨藕汤>
+  <CuisineStory_KnownDish_北京烤鸭>베이징 카오야</CuisineStory_KnownDish_北京烤鸭>
+  <CuisineStory_KnownDish_京酱肉丝>징장러우쓰</CuisineStory_KnownDish_京酱肉丝>
+  <CuisineStory_KnownDish_涮羊肉>베이징 양고기 훠궈</CuisineStory_KnownDish_涮羊肉>
+  <CuisineStory_KnownDish_蚵仔煎>굴전</CuisineStory_KnownDish_蚵仔煎>
+  <CuisineStory_KnownDish_五柳鱼>우류위</CuisineStory_KnownDish_五柳鱼>
+  <CuisineStory_KnownDish_佛跳墙>불도장</CuisineStory_KnownDish_佛跳墙>
+  <CuisineStory_KnownDish_大理砂锅鱼>다리 뚝배기 생선탕</CuisineStory_KnownDish_大理砂锅鱼>
+  <CuisineStory_KnownDish_菌菇宴>야생 버섯 연회</CuisineStory_KnownDish_菌菇宴>
+  <CuisineStory_KnownDish_霸王别姬>패왕별희 탕</CuisineStory_KnownDish_霸王别姬>
+  <CuisineStory_KnownDish_宫保鸡丁>궁보계정</CuisineStory_KnownDish_宫保鸡丁>
+  <CuisineStory_KnownDish_翡翠白玉汤>비취백옥탕</CuisineStory_KnownDish_翡翠白玉汤>
+  <CuisineStory_KnownDish_灯影牛肉>등영우육</CuisineStory_KnownDish_灯影牛肉>
+  <CuisineStory_KnownDish_东坡肉>동파육</CuisineStory_KnownDish_东坡肉>
+  <CuisineStory_KnownDish_惠灵顿牛排>비프 웰링턴</CuisineStory_KnownDish_惠灵顿牛排>
+  <CuisineStory_KnownDish_法式多菲内焗土豆>그라탱 도피누아</CuisineStory_KnownDish_法式多菲内焗土豆>
+  <CuisineStory_KnownDish_法式洋葱汤>프렌치 어니언 수프</CuisineStory_KnownDish_法式洋葱汤>
+  <CuisineStory_KnownDish_勃艮第炖牛肉>뵈프 부르기뇽</CuisineStory_KnownDish_勃艮第炖牛肉>
+  <CuisineStory_KnownDish_红酒炖鸡>코코뱅</CuisineStory_KnownDish_红酒炖鸡>
+  <CuisineStory_KnownDish_洛林乳蛋饼>키슈 로렌</CuisineStory_KnownDish_洛林乳蛋饼>
+  <CuisineStory_KnownDish_意式肉酱面>스파게티 볼로네제</CuisineStory_KnownDish_意式肉酱面>
+  <CuisineStory_KnownDish_奶油培根面>카르보나라</CuisineStory_KnownDish_奶油培根面>
+  <CuisineStory_KnownDish_意式千层面>라자냐</CuisineStory_KnownDish_意式千层面>
+  <CuisineStory_KnownDish_意式蘑菇烩饭>버섯 리소토</CuisineStory_KnownDish_意式蘑菇烩饭>
+  <CuisineStory_KnownDish_西班牙海鲜饭>해산물 파에야</CuisineStory_KnownDish_西班牙海鲜饭>
+  <CuisineStory_KnownDish_西班牙土豆煎蛋>토르티야 에스파뇰라</CuisineStory_KnownDish_西班牙土豆煎蛋>
+  <CuisineStory_KnownDish_希腊穆萨卡>무사카</CuisineStory_KnownDish_希腊穆萨卡>
+  <CuisineStory_KnownDish_奥地利炸猪排>슈니첼</CuisineStory_KnownDish_奥地利炸猪排>
+  <CuisineStory_KnownDish_匈牙利牛肉汤>굴라시</CuisineStory_KnownDish_匈牙利牛肉汤>
+  <CuisineStory_KnownDish_瑞士拉克莱特土豆>라클렛 감자</CuisineStory_KnownDish_瑞士拉克莱特土豆>
+  <CuisineStory_KnownDish_波兰土豆饺子>감자 피에로기</CuisineStory_KnownDish_波兰土豆饺子>
+  <CuisineStory_KnownDish_俄式罗宋汤>보르시</CuisineStory_KnownDish_俄式罗宋汤>
+  <CuisineStory_KnownDish_俄式奶油牛肉>비프 스트로가노프</CuisineStory_KnownDish_俄式奶油牛肉>
+  <CuisineStory_KnownDish_德式酸菜炖肉>자우어크라우트 돼지고기 스튜</CuisineStory_KnownDish_德式酸菜炖肉>
+  <CuisineStory_KnownDish_日式照烧鸡>데리야키 치킨</CuisineStory_KnownDish_日式照烧鸡>
+  <CuisineStory_KnownDish_日式亲子丼>오야코동</CuisineStory_KnownDish_日式亲子丼>
+  <CuisineStory_KnownDish_日式拉面>차슈 라멘</CuisineStory_KnownDish_日式拉面>
+  <CuisineStory_KnownDish_日式咖喱饭>일본식 카레라이스</CuisineStory_KnownDish_日式咖喱饭>
+  <CuisineStory_KnownDish_韩式烤肉>한국식 고기구이</CuisineStory_KnownDish_韩式烤肉>
+  <CuisineStory_KnownDish_韩式拌饭>비빔밥</CuisineStory_KnownDish_韩式拌饭>
+  <CuisineStory_KnownDish_韩式泡菜锅>김치찌개</CuisineStory_KnownDish_韩式泡菜锅>
+  <CuisineStory_KnownDish_印度黄油鸡>버터 치킨</CuisineStory_KnownDish_印度黄油鸡>
+  <CuisineStory_KnownDish_印度香料饭>치킨 비리야니</CuisineStory_KnownDish_印度香料饭>
+  <CuisineStory_KnownDish_泰式冬阴功>똠얌꿍</CuisineStory_KnownDish_泰式冬阴功>
+  <CuisineStory_KnownDish_泰式炒河粉>팟타이</CuisineStory_KnownDish_泰式炒河粉>
+  <CuisineStory_KnownDish_印尼炒饭>나시고랭</CuisineStory_KnownDish_印尼炒饭>
+  <CuisineStory_KnownDish_印尼沙嗲>사테</CuisineStory_KnownDish_印尼沙嗲>
+  <CuisineStory_KnownDish_越南牛肉粉>퍼 보</CuisineStory_KnownDish_越南牛肉粉>
+  <CuisineStory_KnownDish_菲式醋烧鸡>치킨 아도보</CuisineStory_KnownDish_菲式醋烧鸡>
+  <CuisineStory_KnownDish_土耳其烤肉>튀르키예 케밥</CuisineStory_KnownDish_土耳其烤肉>
+  <CuisineStory_KnownDish_摩洛哥塔吉锅>모로코 타진</CuisineStory_KnownDish_摩洛哥塔吉锅>
+  <CuisineStory_KnownDish_埃塞俄比亚香辣炖鸡>도로 왓</CuisineStory_KnownDish_埃塞俄比亚香辣炖鸡>
+  <CuisineStory_KnownDish_西非香料饭>졸로프 라이스</CuisineStory_KnownDish_西非香料饭>
+  <CuisineStory_KnownDish_南非香料肉饼>보보티</CuisineStory_KnownDish_南非香料肉饼>
+  <CuisineStory_KnownDish_阿根廷炭烤牛排>아르헨티나 아사도 스테이크</CuisineStory_KnownDish_阿根廷炭烤牛排>
+  <CuisineStory_KnownDish_巴西黑豆炖肉>페이조아다</CuisineStory_KnownDish_巴西黑豆炖肉>
+  <CuisineStory_KnownDish_墨西哥辣肉卷>매콤한 소고기 부리토</CuisineStory_KnownDish_墨西哥辣肉卷>
+  <CuisineStory_KnownDish_秘鲁酸橘鱼>페루식 세비체</CuisineStory_KnownDish_秘鲁酸橘鱼>
+  <CuisineStory_KnownDish_美式苹果派>미국식 애플파이</CuisineStory_KnownDish_美式苹果派>
+  <CuisineStory_KnownDish_美式炸鸡>서던 프라이드 치킨</CuisineStory_KnownDish_美式炸鸡>
+  <CuisineStory_KnownDish_美式奶酪通心粉>맥앤치즈</CuisineStory_KnownDish_美式奶酪通心粉>
+  <CuisineStory_KnownDish_葡式蛋挞>파스테이스 드 나타</CuisineStory_KnownDish_葡式蛋挞>
+  <CuisineStory_KnownDish_巴克拉瓦>바클라바</CuisineStory_KnownDish_巴克拉瓦>
+  <CuisineStory_KnownDish_以色列番茄炖蛋>샥슈카</CuisineStory_KnownDish_以色列番茄炖蛋>
+  <CuisineStory_KnownDish_过桥米线>과교미선</CuisineStory_KnownDish_过桥米线>
+  <CuisineStory_Name_GenericIngredient>재료</CuisineStory_Name_GenericIngredient>
+  <CuisineStory_Name_Plain>담백</CuisineStory_Name_Plain>
+  <CuisineStory_Name_PlainCake>구운 케이크</CuisineStory_Name_PlainCake>
+  <CuisineStory_Name_FlavoredCake>{FLAVOR} 케이크</CuisineStory_Name_FlavoredCake>
+  <CuisineStory_Name_PlainSoup>진한 수프</CuisineStory_Name_PlainSoup>
+  <CuisineStory_Name_Vegetable>채소</CuisineStory_Name_Vegetable>
+  <CuisineStory_Name_Fruit>과일</CuisineStory_Name_Fruit>
+  <CuisineStory_Name_FruitMilk>{FRUIT} 우유</CuisineStory_Name_FruitMilk>
+  <CuisineStory_Name_FruitBowl>과일 크림 볼</CuisineStory_Name_FruitBowl>
+  <CuisineStory_Name_Rice>쌀밥</CuisineStory_Name_Rice>
+  <CuisineStory_Name_Bread>빵</CuisineStory_Name_Bread>
+  <CuisineStory_Name_IngredientPair>{FIRST}·{SECOND}</CuisineStory_Name_IngredientPair>
+  <CuisineStory_Name_DoublePair>{FIRST} {SECOND} 반반</CuisineStory_Name_DoublePair>
+  <CuisineStory_Name_CompactDoublePair>반반</CuisineStory_Name_CompactDoublePair>
+  <CuisineStory_Name_DrugInfused>[{DRUG}] {DISH}</CuisineStory_Name_DrugInfused>
+  <CuisineStory_Name_PrefixedDish>{PREFIX} {DISH}</CuisineStory_Name_PrefixedDish>
+  <CuisineStory_Name_GoldLeaf>금박 {DISH}</CuisineStory_Name_GoldLeaf>
+  <CuisineStory_Name_PlainIceCream>플레인 아이스크림</CuisineStory_Name_PlainIceCream>
+  <CuisineStory_Name_FlavoredIceCream>{FLAVOR} 아이스크림</CuisineStory_Name_FlavoredIceCream>
+  <CuisineStory_Name_Sorbet>{FLAVOR} 셔벗</CuisineStory_Name_Sorbet>
+  <CuisineStory_Name_Strawberry>딸기</CuisineStory_Name_Strawberry>
+  <CuisineStory_Name_Blueberry>블루베리</CuisineStory_Name_Blueberry>
+  <CuisineStory_Name_Berry>모둠 베리</CuisineStory_Name_Berry>
+  <CuisineStory_Name_Mango>망고</CuisineStory_Name_Mango>
+  <CuisineStory_Name_Apple>사과</CuisineStory_Name_Apple>
+  <CuisineStory_Name_Banana>바나나</CuisineStory_Name_Banana>
+  <CuisineStory_Name_Peach>복숭아</CuisineStory_Name_Peach>
+  <CuisineStory_Name_Orange>오렌지</CuisineStory_Name_Orange>
+  <CuisineStory_Name_DryFriedNoodles>{FILLING} 마른 볶음면</CuisineStory_Name_DryFriedNoodles>
+  <CuisineStory_Name_StirFriedNoodles>{FILLING} 볶음면</CuisineStory_Name_StirFriedNoodles>
+  <CuisineStory_Name_MixedNoodles>{FILLING} 비빔면</CuisineStory_Name_MixedNoodles>
+  <CuisineStory_Name_PlainMixedNoodles>비빔면</CuisineStory_Name_PlainMixedNoodles>
+  <CuisineStory_Name_SteamedNoodles>{FILLING} 찐면</CuisineStory_Name_SteamedNoodles>
+  <CuisineStory_Name_GrilledNoodles>{FILLING} 구운 면</CuisineStory_Name_GrilledNoodles>
+  <CuisineStory_Name_BakedNoodles>{FILLING} 오븐 면</CuisineStory_Name_BakedNoodles>
+  <CuisineStory_Name_NoodleSoup>{FILLING} 탕면</CuisineStory_Name_NoodleSoup>
+  <CuisineStory_Name_SteamedFlatbread>{FILLING} 찐 납작빵</CuisineStory_Name_SteamedFlatbread>
+  <CuisineStory_Name_BreadStew>{FILLING} 빵 국물 요리</CuisineStory_Name_BreadStew>
+  <CuisineStory_Name_BakedFlatbread>{FILLING} 오븐 납작빵</CuisineStory_Name_BakedFlatbread>
+  <CuisineStory_Name_GrilledFlatbread>{FILLING} 석쇠 납작빵</CuisineStory_Name_GrilledFlatbread>
+  <CuisineStory_Name_DryPanFlatbread>{FILLING} 마른 팬 납작빵</CuisineStory_Name_DryPanFlatbread>
+  <CuisineStory_Name_PanFriedFlatbread>{FILLING} 지진 납작빵</CuisineStory_Name_PanFriedFlatbread>
+  <CuisineStory_Name_MixedFlatbread>{FILLING} 무침 납작빵</CuisineStory_Name_MixedFlatbread>
+  <CuisineStory_Name_PlainMixedFlatbread>무침 납작빵</CuisineStory_Name_PlainMixedFlatbread>
+  <CuisineStory_Name_FlatbreadPizza>{FILLING} 피자</CuisineStory_Name_FlatbreadPizza>
+  <CuisineStory_Name_FlatbreadSandwich>{FILLING} 샌드위치</CuisineStory_Name_FlatbreadSandwich>
+  <CuisineStory_Name_SteamedBuns>{FILLING} 찐빵</CuisineStory_Name_SteamedBuns>
+  <CuisineStory_Name_Wontons>{FILLING} 완탕</CuisineStory_Name_Wontons>
+  <CuisineStory_Name_PanFriedDumplings>{FILLING} 군만두</CuisineStory_Name_PanFriedDumplings>
+  <CuisineStory_Name_BakedDumplings>{FILLING} 오븐 만두</CuisineStory_Name_BakedDumplings>
+  <CuisineStory_Name_SteamedDumplings>{FILLING} 찐만두</CuisineStory_Name_SteamedDumplings>
+  <CuisineStory_Name_PlainSteamedDumplings>찐만두</CuisineStory_Name_PlainSteamedDumplings>
+  <CuisineStory_Name_BoiledDumplings>{FILLING} 물만두</CuisineStory_Name_BoiledDumplings>
+  <CuisineStory_Name_PlainBoiledDumplings>물만두</CuisineStory_Name_PlainBoiledDumplings>
+  <CuisineStory_Name_SteamedBread>만터우</CuisineStory_Name_SteamedBread>
+  <CuisineStory_Name_SavoryPie>{FILLING} 고기 파이</CuisineStory_Name_SavoryPie>
+  <CuisineStory_Name_PlainFlatbread>플레인 납작빵</CuisineStory_Name_PlainFlatbread>
+  <CuisineStory_Name_DryPanDough>마른 팬 반죽구이</CuisineStory_Name_DryPanDough>
+  <CuisineStory_Name_PanFriedDough>반죽 지짐</CuisineStory_Name_PanFriedDough>
+  <CuisineStory_Name_DoughDish>반죽 요리</CuisineStory_Name_DoughDish>
+  <CuisineStory_Name_GrilledMantou>구운 만터우</CuisineStory_Name_GrilledMantou>
+  <CuisineStory_Name_Tangyuan>탕위안</CuisineStory_Name_Tangyuan>
+  <CuisineStory_Name_FilledTangyuan>{FILLING} 소 탕위안</CuisineStory_Name_FilledTangyuan>
+  <CuisineStory_Name_FriedRice>{FILLING} 볶음밥</CuisineStory_Name_FriedRice>
+  <CuisineStory_Name_DryFriedRice>{FILLING} 고슬 볶음밥</CuisineStory_Name_DryFriedRice>
+  <CuisineStory_Name_RiceSoup>{FILLING} 국밥</CuisineStory_Name_RiceSoup>
+  <CuisineStory_Name_MixedRice>{FILLING} 비빔밥</CuisineStory_Name_MixedRice>
+  <CuisineStory_Name_SteamedRice>{FILLING} 찐 밥</CuisineStory_Name_SteamedRice>
+  <CuisineStory_Name_RiceBowl>{FILLING} 덮밥</CuisineStory_Name_RiceBowl>
+  <CuisineStory_Name_StirFried>{MAIN} 볶음</CuisineStory_Name_StirFried>
+  <CuisineStory_Name_Braised>{MAIN} 조림</CuisineStory_Name_Braised>
+  <CuisineStory_Name_Soup>{MAIN} 수프</CuisineStory_Name_Soup>
+  <CuisineStory_Name_PanSeared>{MAIN} 시어링</CuisineStory_Name_PanSeared>
+  <CuisineStory_Name_PanFried>{MAIN} 지짐</CuisineStory_Name_PanFried>
+  <CuisineStory_Name_DryFried>{MAIN} 마른 볶음</CuisineStory_Name_DryFried>
+  <CuisineStory_Name_DryPan>{MAIN} 마른 팬구이</CuisineStory_Name_DryPan>
+  <CuisineStory_Name_Boiled>삶은 {MAIN}</CuisineStory_Name_Boiled>
+  <CuisineStory_Name_DeepFried>{MAIN} 튀김</CuisineStory_Name_DeepFried>
+  <CuisineStory_Name_SauceRoasted>{MAIN} 양념구이</CuisineStory_Name_SauceRoasted>
+  <CuisineStory_Name_Grilled>{MAIN} 구이</CuisineStory_Name_Grilled>
+  <CuisineStory_Name_Steamed>{MAIN} 찜</CuisineStory_Name_Steamed>
+  <CuisineStory_Name_Salad>{MAIN} 샐러드</CuisineStory_Name_Salad>
+  <CuisineStory_Name_ColdPlate>{MAIN} 냉채</CuisineStory_Name_ColdPlate>
+  <CuisineStory_Name_FishSlices>{MAIN} 편</CuisineStory_Name_FishSlices>
+  <CuisineStory_Name_Sashimi>{MAIN} 회</CuisineStory_Name_Sashimi>
+  <CuisineStory_Name_SashimiPlatter>{MAIN} 모둠회</CuisineStory_Name_SashimiPlatter>
+  <CuisineStory_Name_Baked>{MAIN} 오븐구이</CuisineStory_Name_Baked>
+  <CuisineStory_Name_AuGratin>{MAIN} 그라탱</CuisineStory_Name_AuGratin>
+  <CuisineStory_Name_RedBraised>{MAIN} 간장조림</CuisineStory_Name_RedBraised>
+  <CuisineStory_Name_Porridge>{MAIN} 죽</CuisineStory_Name_Porridge>
+  <CuisineStory_Name_MeatPorridge>고기죽</CuisineStory_Name_MeatPorridge>
+  <CuisineStory_Name_PlainPorridge>흰죽</CuisineStory_Name_PlainPorridge>
+  <CuisineStory_Name_Cured>{MAIN} 절임</CuisineStory_Name_Cured>
+  <CuisineStory_Name_Platter>{MAIN} 모둠 접시</CuisineStory_Name_Platter>
+  <CuisineStory_Name_Noodles>{MAIN} 국수</CuisineStory_Name_Noodles>
+  <CuisineStory_Name_Pizza>{MAIN} 피자</CuisineStory_Name_Pizza>
+  <CuisineStory_Name_BreadWith>{MAIN} 빵</CuisineStory_Name_BreadWith>
+  <CuisineStory_Name_Dish>{MAIN} 요리</CuisineStory_Name_Dish>
+  <CuisineStory_Name_CitrusCuredFish>{MAIN} 시트러스 절임</CuisineStory_Name_CitrusCuredFish>
+  <CuisineStory_Name_MixedVegetableSalad>텃밭 채소 샐러드</CuisineStory_Name_MixedVegetableSalad>
+  <CuisineStory_Name_SoySteamed>{MAIN} 간장찜</CuisineStory_Name_SoySteamed>
+  <CuisineStory_Name_PotatoesAuGratin>감자 그라탱</CuisineStory_Name_PotatoesAuGratin>
+  <CuisineStory_Name_VegetablesAuGratin>텃밭 채소 그라탱</CuisineStory_Name_VegetablesAuGratin>
+  <CuisineStory_Name_PotatoFrittata>감자 프리타타</CuisineStory_Name_PotatoFrittata>
+  <CuisineStory_Name_MushroomFrittata>버섯 프리타타</CuisineStory_Name_MushroomFrittata>
+  <CuisineStory_Name_VegetableFrittata>텃밭 채소 프리타타</CuisineStory_Name_VegetableFrittata>
+  <CuisineStory_Name_CreamyMushroomProtein>크림 버섯 {MAIN} 구이</CuisineStory_Name_CreamyMushroomProtein>
+  <CuisineStory_Name_WineMushroomBraised>버섯 {MAIN} 와인 조림</CuisineStory_Name_WineMushroomBraised>
+  <CuisineStory_Name_WineBraised>{MAIN} 와인 조림</CuisineStory_Name_WineBraised>
+  <CuisineStory_Name_ProteinBeanStew>{MAIN} 콩 스튜</CuisineStory_Name_ProteinBeanStew>
+  <CuisineStory_Name_CreamMushroomSoup>크림 버섯 수프</CuisineStory_Name_CreamMushroomSoup>
+  <CuisineStory_Name_CountryVegetableSoup>시골풍 채소 수프</CuisineStory_Name_CountryVegetableSoup>
+  <CuisineStory_Name_SoyGlazedGrilled>{MAIN} 간장 양념구이</CuisineStory_Name_SoyGlazedGrilled>
+  <CuisineStory_Name_SteamedEggCustard>달걀찜</CuisineStory_Name_SteamedEggCustard>
+  <CuisineStory_Name_DryGrilledEggs>마른 팬 달걀구이</CuisineStory_Name_DryGrilledEggs>
+  <CuisineStory_Name_BakedEggs>구운 달걀</CuisineStory_Name_BakedEggs>
+  <CuisineStory_Name_SoyBraisedEggs>간장 달걀조림</CuisineStory_Name_SoyBraisedEggs>
+  <CuisineStory_Name_CreamedEggs>크림 달걀조림</CuisineStory_Name_CreamedEggs>
+  <CuisineStory_Name_BoiledEggs>삶은 달걀</CuisineStory_Name_BoiledEggs>
+  <CuisineStory_Name_MixedMeatHotpot>모둠 고기 훠궈</CuisineStory_Name_MixedMeatHotpot>
+  <CuisineStory_Name_MixedMeatMedley>모둠 고기 잡탕</CuisineStory_Name_MixedMeatMedley>
+  <CuisineStory_Name_SweetSteamedBread>{FILLING} 달콤 만터우</CuisineStory_Name_SweetSteamedBread>
+  <CuisineStory_Name_SweetBread>{FILLING} 달콤 빵</CuisineStory_Name_SweetBread>
+  <CuisineStory_Name_SweetSteamedBuns>{FILLING} 달콤 찐빵</CuisineStory_Name_SweetSteamedBuns>
+  <CuisineStory_Name_SweetBuns>{FILLING} 달콤 구운 빵</CuisineStory_Name_SweetBuns>
+  <CuisineStory_Name_SteamedSweetCake>{FILLING} 달콤 찐떡</CuisineStory_Name_SteamedSweetCake>
+  <CuisineStory_Name_BakedSweetCake>{FILLING} 달콤 구운 떡</CuisineStory_Name_BakedSweetCake>
+  <CuisineStory_Name_SteamedRiceCake>{FILLING} 쌀 찐떡</CuisineStory_Name_SteamedRiceCake>
+  <CuisineStory_Name_BakedRiceCake>{FILLING} 쌀 구운 떡</CuisineStory_Name_BakedRiceCake>
+  <CuisineStory_Name_SteamedCake>{FILLING} 찐 케이크</CuisineStory_Name_SteamedCake>
+  <CuisineStory_Name_BakedCake>{FILLING} 구운 케이크</CuisineStory_Name_BakedCake>
+  <CuisineStory_Name_SteamedDessert>{FILLING} 찐 디저트</CuisineStory_Name_SteamedDessert>
+  <CuisineStory_Name_BakedDessert>{FILLING} 구운 디저트</CuisineStory_Name_BakedDessert>
+  <CuisineStory_Name_FlavoredDish>{FLAVOR} {DISH}</CuisineStory_Name_FlavoredDish>
+  <CuisineStory_Name_Flavor_Masala>마살라</CuisineStory_Name_Flavor_Masala>
+  <CuisineStory_Name_Flavor_Maple>메이플</CuisineStory_Name_Flavor_Maple>
+  <CuisineStory_Name_Flavor_SweetSour>새콤달콤</CuisineStory_Name_Flavor_SweetSour>
+  <CuisineStory_Name_Flavor_HotSour>새콤매콤</CuisineStory_Name_Flavor_HotSour>
+  <CuisineStory_Name_Flavor_SweetSpicy>달콤매콤</CuisineStory_Name_Flavor_SweetSpicy>
+  <CuisineStory_Name_Flavor_SaltySpicy>짭짤매콤</CuisineStory_Name_Flavor_SaltySpicy>
+  <CuisineStory_Name_Flavor_Bittersweet>쌉싸름달콤</CuisineStory_Name_Flavor_Bittersweet>
+  <CuisineStory_Name_Flavor_Fiery>불타는</CuisineStory_Name_Flavor_Fiery>
+  <CuisineStory_Name_Flavor_Spicy>매콤</CuisineStory_Name_Flavor_Spicy>
+  <CuisineStory_Name_Flavor_ExtraTangy>시큼한</CuisineStory_Name_Flavor_ExtraTangy>
+  <CuisineStory_Name_Flavor_Tangy>새콤</CuisineStory_Name_Flavor_Tangy>
+  <CuisineStory_Name_Flavor_ExtraSweet>달디단</CuisineStory_Name_Flavor_ExtraSweet>
+  <CuisineStory_Name_Flavor_Sweet>달콤</CuisineStory_Name_Flavor_Sweet>
+  <CuisineStory_Name_Flavor_HeavilySalted>짜디짠</CuisineStory_Name_Flavor_HeavilySalted>
+  <CuisineStory_Name_Flavor_Salted>짭짤</CuisineStory_Name_Flavor_Salted>
+  <CuisineStory_Name_Flavor_IntenselyBitter>쓰디쓴</CuisineStory_Name_Flavor_IntenselyBitter>
+  <CuisineStory_Name_Flavor_Bitter>쌉싸름</CuisineStory_Name_Flavor_Bitter>
+  <CuisineStory_Name_Flavor_SoyGlazed>간장</CuisineStory_Name_Flavor_SoyGlazed>
+  <CuisineStory_Name_Flavor_Creamy>크림</CuisineStory_Name_Flavor_Creamy>
+  <CuisineStory_Name_Flavor_Buttered>버터</CuisineStory_Name_Flavor_Buttered>
+  <CuisineStory_Name_Flavor_SyrupGlazed>시럽</CuisineStory_Name_Flavor_SyrupGlazed>
+  <CuisineStory_Name_Flavor_HoneyGlazed>허니</CuisineStory_Name_Flavor_HoneyGlazed>
+  <CuisineStory_Name_Signature_Masala>마살라</CuisineStory_Name_Signature_Masala>
+  <CuisineStory_Name_Signature_GoldLeaf>금박</CuisineStory_Name_Signature_GoldLeaf>
+  <CuisineStory_Name_Signature_CheeseBaked>치즈 구이</CuisineStory_Name_Signature_CheeseBaked>
+</LanguageData>

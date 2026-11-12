@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="SMR_SakuraMochi"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/name</xpath>
+    <value>
+      <name>몸 (남녀별)</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="SMR_SakuraMochi"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[2]/name</xpath>
+    <value>
+      <name>얼굴 (남녀별 7종, 눈동자색 고정)</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="SMR_SakuraMochi"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[3]/name</xpath>
+    <value>
+      <name>벚나무 잎 (보통/없음/오른쪽 톱니/오른쪽 칼집)</name>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="SMR_SakuraMochi"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[4]/name</xpath>
+    <value>
+      <name>머리 모양 (11종 + 없음)</name>
+    </value>
+  </Operation>
+</Patch>

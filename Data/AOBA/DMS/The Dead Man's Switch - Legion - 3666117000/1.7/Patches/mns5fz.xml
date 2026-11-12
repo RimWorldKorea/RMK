@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMSL_Weapon_AutomatroidAssaultRifle"]/tools/li[1]/label</xpath>
+          <value>
+            <label>개머리판</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMSL_Weapon_AutomatroidAssaultRifle"]/tools/li[2]/label</xpath>
+          <value>
+            <label>총열</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMSL_Weapon_AutomatroidAssaultRifle"]/tools/li[3]/label</xpath>
+          <value>
+            <label>총구</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMSL_Weapon_AutomatroidHeavyMachineGun"]/tools/li[1]/label</xpath>
+          <value>
+            <label>개머리판</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMSL_Weapon_AutomatroidHeavyMachineGun"]/tools/li[2]/label</xpath>
+          <value>
+            <label>총열</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMSL_Weapon_AutomatroidHeavyMachineGun"]/tools/li[3]/label</xpath>
+          <value>
+            <label>총구</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMSL_Weapon_AutomatroidHeavyShotgun"]/tools/li[1]/label</xpath>
+          <value>
+            <label>개머리판</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMSL_Weapon_AutomatroidHeavyShotgun"]/tools/li[2]/label</xpath>
+          <value>
+            <label>총열</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMSL_Weapon_AutomatroidHeavyShotgun"]/tools/li[3]/label</xpath>
+          <value>
+            <label>총구</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMSL_Weapon_CompetitiveRifle"]/tools/li[1]/label</xpath>
+          <value>
+            <label>개머리판</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMSL_Weapon_CompetitiveRifle"]/tools/li[2]/label</xpath>
+          <value>
+            <label>총열</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMSL_Weapon_CompetitiveRifle"]/tools/li[3]/label</xpath>
+          <value>
+            <label>총구</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="DMSL_Weapon_Lance"]/tools/li[1]/label</xpath>
+          <value>
+            <label>창끝</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

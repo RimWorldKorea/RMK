@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/CombatExtended.AmmoCategoryDef[defName="WA_ArtillerySignal"]/label</xpath>
+          <value>
+            <label>포격 신호</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/CombatExtended.AmmoCategoryDef[defName="WA_ArtillerySignal"]/description</xpath>
+          <value>
+            <description>울페인 궤도 포격의 목표 지점을 표시하는 신호탄입니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/CombatExtended.AmmoCategoryDef[defName="WA_RescueSignal"]/label</xpath>
+          <value>
+            <label>구조 신호</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/CombatExtended.AmmoCategoryDef[defName="WA_RescueSignal"]/description</xpath>
+          <value>
+            <description>표시된 구역으로 저항군 증원을 호출하는 신호탄입니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeWA_Shell_Flare"]/label</xpath>
+          <value>
+            <label>조명탄 x5 제작</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeWA_Shell_Flare"]/description</xpath>
+          <value>
+            <description>조명탄 5개를 제작합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeWA_Shell_Flare"]/jobString</xpath>
+          <value>
+            <jobString>조명탄 제작 중.</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeWA_Shell_ArtillerySignal"]/label</xpath>
+          <value>
+            <label>포격 신호탄 x1 제작</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeWA_Shell_ArtillerySignal"]/description</xpath>
+          <value>
+            <description>CE 탄약 주입을 위한 임시 제작법입니다. 포격 신호탄은 보상으로만 획득할 수 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeWA_Shell_ArtillerySignal"]/jobString</xpath>
+          <value>
+            <jobString>포격 신호탄 제작 중.</jobString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeWA_Shell_RescueSignal"]/label</xpath>
+          <value>
+            <label>구조 신호탄 1개 제작</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeWA_Shell_RescueSignal"]/description</xpath>
+          <value>
+            <description>CE 탄약 주입을 위한 임시 제작법입니다. 구조 신호탄은 보상으로만 획득할 수 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/RecipeDef[defName="MakeWA_Shell_RescueSignal"]/jobString</xpath>
+          <value>
+            <jobString>구조 신호탄 제작 중.</jobString>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/FactionDef[defName="Wolfein_Faction_MegaCorp"]/royalFavorLabel</xpath>
+    <value>
+      <royalFavorLabel>기업 공로</royalFavorLabel>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/FactionDef[defName="Wolfein_Faction_Rebel"]/royalFavorLabel</xpath>
+    <value>
+      <royalFavorLabel>저항군 명예</royalFavorLabel>
+    </value>
+  </Operation>
+</Patch>

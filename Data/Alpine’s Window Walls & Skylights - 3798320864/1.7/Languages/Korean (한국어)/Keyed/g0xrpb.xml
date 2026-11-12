@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Windows_AutomaticClimate>자동 온도 조절</Windows_AutomaticClimate>
+  <Windows_AutomaticClimateDesc>인접한 실내가 덥고 바깥 공기가 안전하게 더 시원할 때 이 창문을 자동으로 엽니다. 방이 쾌적해지거나 바깥 공기가 상황을 더 나쁘게 만들 때는 다시 닫습니다.</Windows_AutomaticClimateDesc>
+  <Windows_OpenWindow>창문 열기</Windows_OpenWindow>
+  <Windows_OpenWindowDesc>자동 제어를 끄고 이 창문을 엽니다. 열린 창문은 인접한 공간과 온도 및 기체를 주고받습니다.</Windows_OpenWindowDesc>
+  <Windows_CloseWindow>창문 닫기</Windows_CloseWindow>
+  <Windows_CloseWindowDesc>자동 제어를 끄고 이 창문을 닫아 방의 단열과 진공 밀폐를 유지합니다.</Windows_CloseWindowDesc>
+  <Windows_WindowStateAutomaticOpen>창문: 열림 (자동)</Windows_WindowStateAutomaticOpen>
+  <Windows_WindowStateAutomaticClosed>창문: 닫힘 (자동)</Windows_WindowStateAutomaticClosed>
+  <Windows_WindowStateManualOpen>창문: 열림 (수동)</Windows_WindowStateManualOpen>
+  <Windows_WindowStateManualClosed>창문: 닫힘 (수동)</Windows_WindowStateManualClosed>
+  <Windows_WindowTemperatureReport>실내 {0}, 실외 {1}</Windows_WindowTemperatureReport>
+  <Windows_DaylightTransmission>햇빛 투과율: {0}</Windows_DaylightTransmission>
+  <Windows_SkylightNeedsRoof>천창은 건설한 지붕 아래에 설치해야 합니다.</Windows_SkylightNeedsRoof>
+  <Windows_SkylightNoNaturalRoof>천창은 암석 지붕이나 산 아래에는 설치할 수 없습니다.</Windows_SkylightNoNaturalRoof>
+  <Windows_SkylightNoEdifice>천창은 벽, 문, 통행할 수 없는 건물과 같은 칸에 둘 수 없습니다.</Windows_SkylightNoEdifice>
+  <Windows_SkylightAlreadyHere>이 칸에는 이미 천창이나 천창 건설 계획이 있습니다.</Windows_SkylightAlreadyHere>
+  <Windows_ControlSettings>창문 설정</Windows_ControlSettings>
+  <Windows_ControlSettingsDesc>자동으로 열고 닫을 온도를 화씨로 정하고, 유독 가스가 있을 때 경고할지 자동으로 닫을지 고릅니다. 변경 사항은 선택한 창문에 적용됩니다.</Windows_ControlSettingsDesc>
+  <Windows_SettingsSelection>선택한 창문 {0}개에 이 설정을 적용합니다. 온도는 화씨로 표시됩니다.</Windows_SettingsSelection>
+  <Windows_OpenAbove>{0}에서 열기</Windows_OpenAbove>
+  <Windows_CloseBelow>{0}에서 닫기</Windows_CloseBelow>
+  <Windows_AutomaticThresholds>자동: {0}에서 열고 {1}에서 닫음</Windows_AutomaticThresholds>
+  <Windows_ResetSettings>기본값</Windows_ResetSettings>
+  <Windows_ApplySettings>적용</Windows_ApplySettings>
+  <Windows_ToxicGasControl>유독 가스 대응</Windows_ToxicGasControl>
+  <Windows_GasModeOff>끄기</Windows_GasModeOff>
+  <Windows_GasModeWarn>경고</Windows_GasModeWarn>
+  <Windows_GasModeAutoClose>자동 닫기</Windows_GasModeAutoClose>
+  <Windows_ToxicGasStatus>유독 가스 대응: {0}</Windows_ToxicGasStatus>
+  <Windows_GasControlDesc>환기하기 전에 이 창문과 인접한 네 칸을 확인합니다. 자동 닫기를 켜면 근처에 유독 가스가 있는 동안 수동 제어 중이라도 창문을 닫아 둡니다. 가스가 걷히면 자동 온도 조절이 창문을 다시 열 수 있습니다.</Windows_GasControlDesc>
+  <Windows_GasRequiresBiotech>유독 가스 기능은 바이오테크가 필요합니다. 온도 조절은 DLC 없이도 작동합니다.</Windows_GasRequiresBiotech>
+  <Windows_ToxicGasWarningMessage>감시 중인 창문 옆에 유독 가스가 있습니다.</Windows_ToxicGasWarningMessage>
+  <Windows_ToxicGasClosedMessage>근처의 유독 가스를 막으려고 창문이 닫혔습니다.</Windows_ToxicGasClosedMessage>
+  <Windows_ToxicGasBlockedOpening>유독 가스 자동 닫기가 켜져 있고 근처에 가스가 있어 이 창문을 열 수 없습니다.</Windows_ToxicGasBlockedOpening>
+  <Windows_GreenhouseModeActive>온실 유리: 녹색 햇빛, 작물에 빛이 충분히 닿으면 성장 +25%</Windows_GreenhouseModeActive>
+  <Windows_GreenhouseGrowthBonus>온실 유리: 성장 +25%</Windows_GreenhouseGrowthBonus>
+  <Windows_DaylightCoverage>빛 범위</Windows_DaylightCoverage>
+  <Windows_DaylightCoverageDesc>창문과 천창 근처 지붕 아래의 현재 빛을 조명까지 포함해 보여 줍니다. 빨간색은 51% 미만, 노란색은 51~99%, 초록색은 최대 밝기입니다. 일반적인 작물 빛 기준이며 식물마다 다를 수 있습니다. 비옥도와 온도도 여전히 중요합니다.</Windows_DaylightCoverageDesc>
+  <Windows_DaylightLegend>빨간색: 빛 51% 미만\n노란색: 빛 51~99%\n초록색: 최대 밝기\n현재 빛에는 조명도 포함됩니다.</Windows_DaylightLegend>
+  <Windows_HideOverlay>숨기기</Windows_HideOverlay>
+</LanguageData>

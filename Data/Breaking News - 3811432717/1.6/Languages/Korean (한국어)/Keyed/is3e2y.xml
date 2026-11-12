@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <BN_SettingsCategory>속보</BN_SettingsCategory>
+  <BN_Settings_Interval>이벤트 간격(일): {0}~{1}</BN_Settings_Interval>
+  <BN_Settings_Events>활성화된 이벤트:</BN_Settings_Events>
+  <BN_Letter_Label>속보!!!</BN_Letter_Label>
+  <BN_Assassination_Name>세력 지도자 암살 시도</BN_Assassination_Name>
+  <BN_Assassination_Intro>{FACTION_name}의 수도에서 열린 공개 연설 도중, 지도자를 노린 암살 시도가 있었습니다!</BN_Assassination_Intro>
+  <BN_Assassination_Survived>좋든 나쁘든, 세력 지도자는 살아남았습니다.</BN_Assassination_Survived>
+  <BN_Assassination_Dead>좋든 나쁘든, 암살은 성공했습니다. {LEADER_nameFull}(이)가 사망했습니다.</BN_Assassination_Dead>
+  <BN_FactoryShelling_Name>고대 공장 포격</BN_FactoryShelling_Name>
+  <BN_FactoryShelling_Intro>전쟁 중인 세력들의 포격전으로 고대 공장 하나가 피해를 입었습니다.</BN_FactoryShelling_Intro>
+  <BN_FactoryShelling_Shipyard>알고 보니 그 공장은 지하 터널망이 광범위하게 뻗어 있는, 반쯤 가동되는 조선소였습니다. 많은 정착지 지도자들이 자기 영토에 함선 파편이 떨어지고 있다고 보고하고 있습니다.</BN_FactoryShelling_Shipyard>
+  <BN_FactoryShelling_Ancients>알고 보니 그 공장은 버려진 군사 전초기지였습니다. 이번 "공격" 때문에, 동면관에 잠들어 있던 고대의 군인들에게 앞을 가로막는 모든 생명체를 제거하라는 명령이 내려졌습니다. 이미 많은 정착지가 새로 결성된 고대의 군인 무리에게 피해를 입었습니다.</BN_FactoryShelling_Ancients>
+  <BN_FactoryShelling_Mechs>알고 보니 그 공장은 위장한 메카노이드 전초기지였습니다. 다행히, 서로 싸우던 두 세력이 새로 발견된 전초기지에 "합심해서" 일방적인 공격을 퍼부었습니다. 그래도 아직 이 일대에서는 떠도는 야생 메카노이드를 볼 수 있습니다.</BN_FactoryShelling_Mechs>
+  <BN_Arrival_Ancients_Label>고대의 군인</BN_Arrival_Ancients_Label>
+  <BN_Arrival_Ancients_Text>무너진 공장에서 나온 고대의 군인 무리가 당신의 정착지에 도착해 공격하고 있습니다.</BN_Arrival_Ancients_Text>
+  <BN_Arrival_Mechs_Label>야생 메카노이드</BN_Arrival_Mechs_Label>
+  <BN_Arrival_Mechs_Text>무너진 전초기지에서 살아남은 메카노이드들이 당신의 정착지에 도착해 공격하고 있습니다.</BN_Arrival_Mechs_Text>
+  <BN_LeaderOppression_Name>세력 지도자의 탄압 정책</BN_LeaderOppression_Name>
+  <BN_LeaderOppression_Intro>{FACTION_name} 지도자의 탄압 정책 때문에, 많은 지지자가 등을 돌렸습니다.</BN_LeaderOppression_Intro>
+  <BN_LeaderOppression_Independence>그 결과, 많은 정착지가 옛 깃발을 내리고 독립을 선언하기로 했습니다.</BN_LeaderOppression_Independence>
+  <BN_LeaderOppression_Exodus>다른 많은 세력원들도 확고한 지지자들을 따라 떠나기로 했습니다. 지금은 자기 정착지를 세우거나 다른 곳에 합류하느라 바쁩니다.</BN_LeaderOppression_Exodus>
+  <BN_LeaderOppression_Loyalists>그래도 빈자리는 이름 없는 정착지 출신 충성파들이 금세 채웠습니다.</BN_LeaderOppression_Loyalists>
+  <BN_LeaderOppression_ListRemoved>다음 정착지가 세계 지도에서 사라졌습니다: {0}.</BN_LeaderOppression_ListRemoved>
+  <BN_LeaderOppression_ListCreated>세계 지도에 새 정착지가 나타났습니다: {0}.</BN_LeaderOppression_ListCreated>
+  <BN_CrimeWave_Name>범죄 급증</BN_CrimeWave_Name>
+  <BN_CrimeWave_Intro>행성 전역에서 새로운 범죄 세력이 급증하고 있습니다.</BN_CrimeWave_Intro>
+  <BN_CrimeWave_Dangerous>새로 생긴 갱단과 범죄 조직은 대형 해적 세력의 후원을 받는 것이 분명합니다. 당분간 길을 다니기가 훨씬 위험해질 것입니다.</BN_CrimeWave_Dangerous>
+  <BN_CrimeWave_Safe>강대 세력의 도로 순찰대가 신속히 대응했습니다. 당분간 길이 더 안전해졌습니다.</BN_CrimeWave_Safe>
+  <BN_TradeAlliance_Name>새로운 무역 동맹</BN_TradeAlliance_Name>
+  <BN_TradeAlliance_Intro>강대 세력 내 몇몇 인물의 노련한 외교 덕분에, 새로운 무역 동맹이 결성되었습니다.</BN_TradeAlliance_Intro>
+  <BN_TradeAlliance_Open>다행히 너그러운 동맹 회원들이 자기들끼리만 거래하지 않기로 합의했습니다. 이제 아주 작은 정착지도 무역 거점이 될 기회를 얻을지 모릅니다.</BN_TradeAlliance_Open>
+  <BN_TradeAlliance_Closed>하지만 행성 사정 때문에, 동맹 회원들은 자기들끼리만 거래하기로 합의했습니다.</BN_TradeAlliance_Closed>
+  <BN_TradeAlliance_Monopoly>안타깝게도 무역 동맹은 독점을 향해 나아가며 이기적인 목표를 좇기로 한 것이 분명합니다. 작은 정착지들은 전에 무역 상단이 실어다 주던 자원이 부족해졌다고 보고하고 있습니다.</BN_TradeAlliance_Monopoly>
+  <BN_FactionTalks_Name>세력 간 협상</BN_FactionTalks_Name>
+  <BN_FactionTalks_Intro>최근 일어난 사건 이후, {FACTION1_name}(이)가 {FACTION2_name}(와)과 협상에 들어갔습니다.</BN_FactionTalks_Intro>
+  <BN_FactionTalks_Agreement>외교관들이 필요한 합의에 이르는 데 성공했습니다. 두 세력의 관계가 더 단단해졌습니다.</BN_FactionTalks_Agreement>
+  <BN_FactionTalks_Shootout>협상은 총격전으로 끝났고, 양쪽 지도자가 모두 총에 맞았습니다. {LEADER1}(와)과 {LEADER2}(이)가 사망했습니다.</BN_FactionTalks_Shootout>
+  <BN_FactionTalks_Nothing>협상은 아무 성과 없이 끝났습니다. 두 세력 모두 입장을 굽히지 않았습니다.</BN_FactionTalks_Nothing>
+  <BN_UndergroundPheromone_Name>지하 연구소의 페로몬</BN_UndergroundPheromone_Name>
+  <BN_UndergroundPheromone_Intro>산속 동굴 어딘가에 있는 정체불명의 연구소가, 많은 지하 생물을 동면에서 깨우는 특수한 페로몬을 합성했습니다.</BN_UndergroundPheromone_Intro>
+  <BN_UndergroundPheromone_Harmless>다행히 지하 생물들의 기상은 그리 "순탄"하지 않았습니다. 녀석들이 잠들어 있다가 위로 파고 올라가려던 터널 상당수가 운 좋게도 화산 용암에 잠기거나, 곤충들이 잠든 고대인이나 메카노이드로 가득한 지하 유적 한복판으로 나와 버렸습니다.</BN_UndergroundPheromone_Harmless>
+  <BN_UndergroundPheromone_Awake>많은 지하 정착지가 통신에 응답하지 않고 있습니다.</BN_UndergroundPheromone_Awake>
+  <BN_EmpireSpeech_Name>제국 지도자의 성명</BN_EmpireSpeech_Name>
+  <BN_EmpireSpeech_Intro>행성 전역 방송에서 제국의 지도자 {LEADER_nameFull}(이)가 성명을 발표했습니다.</BN_EmpireSpeech_Intro>
+  <BN_EmpireSpeech_Ignored>하지만 변방에서는 아무도 관심이 없었습니다.</BN_EmpireSpeech_Ignored>
+  <BN_EmpireSpeech_Warning>지도자는 전 지구적 초온난화로 인한 생태 재앙이 행성에 닥쳐올 것이라고 모든 세력에 경고했습니다.</BN_EmpireSpeech_Warning>
+  <BN_EmpireSpeech_Peace>지도자는 메카노이드의 적극적인 진격에 함께 맞서기 위해 모든 세력에 일시적인 휴전을 촉구했습니다. 놀랍게도 세력들은 이 호소를 받아들였습니다.</BN_EmpireSpeech_Peace>
+  <BN_Superheat_Start>예고된 초온난화가 시작되었습니다. 행성 전역의 기온이 치솟고 하늘이 붉게 물들었습니다. 피신처와 냉방을 찾으세요.</BN_Superheat_Start>
+  <BN_Charity_Name>유명 인사의 자선 캠페인</BN_Charity_Name>
+  <BN_Charity_Intro>유토피아 세계에서 온 어마어마한 부자 유명 인사가 변방계를 대상으로 자선 캠페인을 열기로 했습니다.</BN_Charity_Intro>
+  <BN_Charity_Declined>안타깝게도 당신의 행성에 있는 강대 세력들은 이 캠페인을 그다지 반기지 않았고, 인도적 지원 물자를 싣고 오던 우주선들은 성계에 진입하다 격추당했습니다. 아니면 이들 세력의 대사들 주장대로, 당신의 행성이 그냥 눈에 띄지 않았던 것입니다.</BN_Charity_Declined>
+  <BN_Charity_Gift>운 좋게도 당신의 행성이 이번 캠페인 대상에 포함되었습니다!</BN_Charity_Gift>
+  <BN_Charity_Massacre>정말로 안타깝게도, 어떤 유토피아 세계에서는 "자선"이 죽음을 통해 고통에서 해방시켜 준다는 뜻이기도 합니다. 당신 행성의 주민들은 그걸 너무 늦게 알았습니다.</BN_Charity_Massacre>
+  <BN_Charity_GiftList>수송 포드로 배달됨: {0}.</BN_Charity_GiftList>
+  <BN_DrugCartel_Name>마약 카르텔 진출</BN_DrugCartel_Name>
+  <BN_DrugCartel_Intro>여러 행성에 걸친 마약 카르텔이 잊힌 세계에 지부를 세워 세력권을 넓히기로 했습니다.</BN_DrugCartel_Intro>
+  <BN_DrugCartel_PriceDrop>"국내" 공급자들 사이에서 마약 가격이 크게 떨어졌습니다.</BN_DrugCartel_PriceDrop>
+  <BN_DrugCartel_Blockade>당신 행성의 무자비한 갱단들은 경쟁자의 진출을 반기지 않았고, 대공 무기와 급조한 우주선으로 궤도 방어에 나섰습니다. 앞으로 며칠 동안 잔해와 화물 포드가 떨어질 것으로 보입니다.</BN_DrugCartel_Blockade>
+  <BN_DrugCartel_Nothing>좋든 나쁘든, 당신의 행성은 은하에서도 워낙 외딴 촌구석이라 카르텔조차 찾아오지 않기로 했습니다.</BN_DrugCartel_Nothing>
+  <BN_TvPremiere_Name>시리즈 첫 방송</BN_TvPremiere_Name>
+  <BN_TvPremiere_Intro>은하계 전체에서 가장 인기 있는 시리즈 중 하나인 TV 드라마 "은하 말썽꾼들"의 새 시즌 첫 방송이 발표되었습니다!</BN_TvPremiere_Intro>
+  <BN_TvPremiere_Sanctions>정말로 안타깝게도, 어째서인지 당신의 행성은 제재 대상이 되어 시리즈를 시청할 수 없습니다...</BN_TvPremiere_Sanctions>
+  <BN_TvPremiere_Watch>정착민들은 아무 텔레비전으로나 직접 볼 수 있다는 사실에 몹시 들떠 있습니다!</BN_TvPremiere_Watch>
+  <BN_DrugCartel_ChunkMsg>어딘가에 함선 파편이 떨어지고 있습니다!</BN_DrugCartel_ChunkMsg>
+  <BN_DrugCartel_PodMsg>어딘가에 수송 포드가 떨어지고 있습니다. 내용물: {0}.</BN_DrugCartel_PodMsg>
+  <BN_SolarPulses_Name>태양 자기 펄스</BN_SolarPulses_Name>
+  <BN_SolarPulses_Intro>당신 성계의 태양이 이상한 변칙 자기 펄스를 내뿜기 시작했습니다.</BN_SolarPulses_Intro>
+  <BN_SolarPulses_Benign>어찌된 일인지 이 펄스는 이로운 것으로 드러났습니다. 발전량이 25% 증가했습니다!</BN_SolarPulses_Benign>
+  <BN_SolarPulses_Harmful>흑점 폭발에 비할 바는 아니지만, 전자 장비가 여전히 영향을 받습니다. 발전량이 25% 감소했습니다.</BN_SolarPulses_Harmful>
+  <BN_JokeBats_Name>[농담] 박쥐 병원체</BN_JokeBats_Name>
+  <BN_JokeBats_Text>!!!속보!!!\n\n주민 대부분이 박쥐를 먹던 작은 정착지에서 치명적인 새 병원체가 발견되었습니다. {FACTION_name}의 영토에 본사를 둔 유명 제약 회사가 백신 개발에 나섰습니다. 초기 검사 결과, 반물질 박격포탄 한 발이 최고의 접종 수단으로 밝혀졌습니다. 질병은 성공적으로 퇴치되었습니다. 정착지도 함께.</BN_JokeBats_Text>
+  <BN_JokeOrbital_Name>[농담] 변방계를 다룬 인기 게임</BN_JokeOrbital_Name>
+  <BN_JokeOrbital_Text>!!!속보!!!\n\n최근 출시된 변방계 생활 게임이 유토피아 세계에서 인기를 끌고 있습니다. 이제 은하계 거의 전체가 우리 행성을 지배하는 온갖 폭력과 잔혹함과 불의를 알게 되었습니다. 잠깐의 애국심이 끓어오르고, 그만큼 잠깐 모두의 삶을 마침내 나아지게 하겠다는 의욕이 불타오른 뒤, 가장 큰 정착지 중 한 곳에 대규모 궤도 폭격이 가해졌습니다. 이유는 불분명하지만, 그 뒤로 모두 각자의 잔혹한 일상으로 돌아갔습니다.</BN_JokeOrbital_Text>
+  <BN_MegacorpWar_Name>거대 기업 전쟁</BN_MegacorpWar_Name>
+  <BN_MegacorpWar_Text>은하계에서 또다시 거대 기업 간 전쟁이 터졌습니다. 먼 세계의 주민들이 징집을 피하려고 극단적인 수단을 동원해, 변방계로 대거 도피하고 있습니다.</BN_MegacorpWar_Text>
+  <BN_LuciferiumShortage_Name>루시페륨 품귀</BN_LuciferiumShortage_Name>
+  <BN_LuciferiumShortage_Text>행성 마약 카르텔에 대한 은하계 차원의 소탕 작전 때문에 이 변방계는 극심한 루시페륨 부족에 시달리고 있습니다. 가장 평화로운 정착지에서도 "약"을 찾아 헤매는 절박한 습격자들이 보고되고 있습니다.</BN_LuciferiumShortage_Text>
+  <BN_DrugOversupply_Name>마약 공급 과잉</BN_DrugOversupply_Name>
+  <BN_DrugOversupply_Text>행성 시장에 "{0}"의 공급이 넘쳐나고 있습니다. 그 결과 가격이 크게 떨어졌습니다.</BN_DrugOversupply_Text>
+  <BN_UI_Header>최근 소식의 활성 효과</BN_UI_Header>
+  <BN_UI_None>지금은 활성화된 효과가 없습니다.</BN_UI_None>
+  <BN_UI_Period>{0}부터 {1}까지</BN_UI_Period>
+  <BN_UI_Remaining>남은 기간: {0}</BN_UI_Remaining>
+  <BN_Active_Travelers>여행자 유입</BN_Active_Travelers>
+  <BN_Active_Travelers_Desc>여행자, 방문객, 방랑자가 더 자주 찾아옵니다.</BN_Active_Travelers_Desc>
+  <BN_Active_AmbushUp>위험한 길</BN_Active_AmbushUp>
+  <BN_Active_AmbushUp_Desc>상단이 기습당할 확률이 두 배가 됩니다.</BN_Active_AmbushUp_Desc>
+  <BN_Active_AmbushDown>순찰 중인 길</BN_Active_AmbushDown>
+  <BN_Active_AmbushDown_Desc>상단이 기습당할 확률이 절반이 됩니다.</BN_Active_AmbushDown_Desc>
+  <BN_Active_TradeUp>개방 무역</BN_Active_TradeUp>
+  <BN_Active_TradeUp_Desc>무역 상단이 더 자주 찾아옵니다.</BN_Active_TradeUp_Desc>
+  <BN_Active_TradeDown>무역 독점</BN_Active_TradeDown>
+  <BN_Active_TradeDown_Desc>무역 상단이 절반만큼만 찾아옵니다.</BN_Active_TradeDown_Desc>
+  <BN_Active_Infestation>지하의 각성</BN_Active_Infestation>
+  <BN_Active_Infestation_Desc>곤충 군락이 생길 확률이 세 배가 됩니다.</BN_Active_Infestation_Desc>
+  <BN_Active_MechRaid>메카노이드 진격</BN_Active_MechRaid>
+  <BN_Active_MechRaid_Desc>다음 습격이 메카노이드 습격일 수 있습니다.</BN_Active_MechRaid_Desc>
+  <BN_Active_DrugPrice>값싼 마약</BN_Active_DrugPrice>
+  <BN_Active_DrugPrice_Desc>모든 마약 가격이 절반이 됩니다.</BN_Active_DrugPrice_Desc>
+  <BN_Active_DrugSale>공급 과잉: {0}</BN_Active_DrugSale>
+  <BN_Active_DrugSale_Desc>이 마약의 가격이 3분의 1로 떨어집니다.</BN_Active_DrugSale_Desc>
+  <BN_Active_TvPremiere>시리즈 첫 방송</BN_Active_TvPremiere>
+  <BN_Active_TvPremiere_Desc>텔레비전을 보면 기분 +5.</BN_Active_TvPremiere_Desc>
+  <BN_Active_PowerUp>발전량 급증</BN_Active_PowerUp>
+  <BN_Active_PowerUp_Desc>모든 발전기의 출력이 25% 증가합니다.</BN_Active_PowerUp_Desc>
+  <BN_Active_PowerDown>발전량 저하</BN_Active_PowerDown>
+  <BN_Active_PowerDown_Desc>모든 발전기의 출력이 25% 감소합니다.</BN_Active_PowerDown_Desc>
+  <BN_Active_Refugee>난민 행렬</BN_Active_Refugee>
+  <BN_Active_Refugee_Desc>방랑자와 난민 포드 추락 확률이 두 배가 됩니다.</BN_Active_Refugee_Desc>
+  <BN_Active_RaidHeat>루시페륨 금단</BN_Active_RaidHeat>
+  <BN_Active_RaidHeat_Desc>습격 확률이 두 배가 되고, 습격자들이 금단 증상을 겪고 있습니다.</BN_Active_RaidHeat_Desc>
+  <BN_Active_Superheat>전 지구적 초고온</BN_Active_Superheat>
+  <BN_Active_Superheat_Desc>행성이 불타오르고, 낮에는 화재가 발생합니다.</BN_Active_Superheat_Desc>
+  <BN_Active_SuperheatPending>초고온 임박</BN_Active_SuperheatPending>
+  <BN_Active_SuperheatPending_Desc>타이머가 끝나면 생태 재앙이 시작됩니다.</BN_Active_SuperheatPending_Desc>
+  <BN_Active_DrugBlockade>카르텔 봉쇄</BN_Active_DrugBlockade>
+  <BN_Active_DrugBlockade_Desc>이따금 하늘에서 잔해와 마약 포드가 떨어집니다.</BN_Active_DrugBlockade_Desc>
+  <BN_GravityFailure_Name>중력 엔진 고장</BN_GravityFailure_Name>
+  <BN_GravityFailure_Intro>행성에서 중력 엔진이 대량으로 고장 났습니다. 그 결과 많은 수송 왕복선과 포드가 추락했습니다.</BN_GravityFailure_Intro>
+  <BN_GravityFailure_Pod>당신의 영토에 추락 포드가 떨어졌습니다. 안에 생존자가 있습니다.</BN_GravityFailure_Pod>
+  <BN_GravityFailure_Shuttle>고장 난 왕복선이 당신의 영토에 비상 착륙했습니다.</BN_GravityFailure_Shuttle>
+  <BN_GravityFailure_Nothing>다행히 당신의 영토에는 아무것도 떨어지지 않았습니다.</BN_GravityFailure_Nothing>
+  <BN_GravityFailure_PodMsg>어딘가에 추락 포드가 떨어지고 있습니다!</BN_GravityFailure_PodMsg>
+  <BN_GravityFailure_ShuttleMsg>고장 난 왕복선이 당신의 영토로 떨어지고 있습니다!</BN_GravityFailure_ShuttleMsg>
+  <BN_CorpInfluence_Name>은하 기업의 영향력</BN_CorpInfluence_Name>
+  <BN_CorpInfluence_Intro>세계에 대한 은하 기업들의 영향력이 커졌습니다.</BN_CorpInfluence_Intro>
+  <BN_CorpInfluence_Down>다음 자원의 가격이 크게 떨어졌습니다: {0}.</BN_CorpInfluence_Down>
+  <BN_CorpInfluence_Up>다음 자원의 가격이 크게 올랐습니다: {0}.</BN_CorpInfluence_Up>
+  <BN_CorpInfluence_Nothing>하지만 당신의 변방계는 아무런 영향도 받지 않았습니다...</BN_CorpInfluence_Nothing>
+  <BN_WeaponDisarm_Name>민간인 무장 해제</BN_WeaponDisarm_Name>
+  <BN_WeaponDisarm_Text>행성 곳곳에서 일어난 대규모 테러와 폭동 이후, 은하 공동체가 소속 행성 민간인을 일시적으로 무장 해제하기로 했습니다. 암시장의 무기 수출 가격이 크게 올랐습니다.</BN_WeaponDisarm_Text>
+  <BN_Active_ResourceDown>값싼 자원</BN_Active_ResourceDown>
+  <BN_Active_ResourceDown_Desc>자원 세 가지의 가격이 3분의 1로 떨어집니다(편지 참고).</BN_Active_ResourceDown_Desc>
+  <BN_Active_ResourceUp>비싼 자원</BN_Active_ResourceUp>
+  <BN_Active_ResourceUp_Desc>자원 세 가지의 가격이 세 배로 오릅니다(편지 참고).</BN_Active_ResourceUp_Desc>
+  <BN_Active_WeaponPrice>비싼 무기</BN_Active_WeaponPrice>
+  <BN_Active_WeaponPrice_Desc>모든 무기의 가격이 세 배로 오릅니다.</BN_Active_WeaponPrice_Desc>
+  <BN_ObsoleteEquipment_Name>노후 장비 폐기</BN_ObsoleteEquipment_Name>
+  <BN_Obsolete_Intro>강대 세력 {FACTION_name}(이)가 노후 장비 폐기 절차를 진행하기로 했습니다.</BN_Obsolete_Intro>
+  <BN_Obsolete_Shelling>그런데 "노후" 장비에는 유통 기한이 다 되어 가는 박격포탄도 포함되어 있었습니다. 박격포 일제 사격이 당신의 영토를 강타했습니다.</BN_Obsolete_Shelling>
+  <BN_Obsolete_Pods>많은 정착지가 온갖 화물이 담긴 포드가 도착했다고 보고하고 있습니다. 당신의 영토에도 낡은 장비가 든 포드가 떨어졌습니다.</BN_Obsolete_Pods>
+  <BN_CommsGlitch_Name>속보 (전파 방해)</BN_CommsGlitch_Name>
+  <BN_CommsGlitch_Text>!!!속보!!! 정체불#% 보!&amp;...</BN_CommsGlitch_Text>
+  <BN_Active_CommsDown>통신기 먹통</BN_Active_CommsDown>
+  <BN_Active_CommsDown_Desc>전파 방해: 세력과 연락할 수 없습니다.</BN_Active_CommsDown_Desc>
+  <BN_AnomalyBreach_Name>격리 실패</BN_AnomalyBreach_Name>
+  <BN_AnomalyBreach_Text>한 연구 시설에서 격리 조건이 깨졌습니다. 즉시 현장에 반물질탄이 날아갔지만, 그래도 여러 정착지에서 변칙 개체의 공격이 보고되기 시작했습니다.</BN_AnomalyBreach_Text>
+  <BN_AlliedGifts_Name>동맹의 외교 사절</BN_AlliedGifts_Name>
+  <BN_AlliedGifts_Text>{FACTION_name}의 지도자가 이웃과의 관계를 개선하려고 외교 사절을 보내기로 했습니다. 동맹들은 수송 포드로 선물을 몇 가지 받았습니다.</BN_AlliedGifts_Text>
+  <BN_AlliedGifts_PodMsg>외교 선물이 든 포드가 떨어지고 있습니다!</BN_AlliedGifts_PodMsg>
+  <BN_MeteorSwarm_Name>유성군</BN_MeteorSwarm_Name>
+  <BN_MeteorSwarm_Intro>천문학자들이 유성군이 다가오고 있다고 보고합니다. 많은 정착지가 야외 활동에 주의해야 합니다.</BN_MeteorSwarm_Intro>
+  <BN_MeteorSwarm_Starfall>하지만 계산에 따르면 유성군 대부분이 대기권에서 타 버리면서 아름다운 별비가 될 것입니다.</BN_MeteorSwarm_Starfall>
+  <BN_MeteorSwarm_Meteors>유성 일부가 행성 표면에 도달할 것입니다.</BN_MeteorSwarm_Meteors>
+  <BN_MeteorSwarm_Nothing>다행히 유성군이 행성을 비껴갔습니다.</BN_MeteorSwarm_Nothing>
+  <BN_MeteorSwarm_StarfallStart>행성 위로 별비가 쏟아지기 시작했습니다! 밖에 있는 이들이 하늘을 감상하고 있습니다.</BN_MeteorSwarm_StarfallStart>
+  <BN_MeteorSwarm_MeteorsStart>유성군이 행성에 도달했습니다. 당신의 영토 곳곳에 운석이 떨어지고 있습니다!</BN_MeteorSwarm_MeteorsStart>
+  <BN_Meteor_Msg>어딘가에 운석이 떨어지고 있습니다!</BN_Meteor_Msg>
+  <BN_Active_AnomalyRaid>변칙 위협</BN_Active_AnomalyRaid>
+  <BN_Active_AnomalyRaid_Desc>다음 습격이 변칙 개체의 공격으로 바뀔 수 있습니다.</BN_Active_AnomalyRaid_Desc>
+  <BN_Active_StarfallPending>유성군 접근 중</BN_Active_StarfallPending>
+  <BN_Active_StarfallPending_Desc>타이머가 끝나면 유성군이 행성에 도달합니다.</BN_Active_StarfallPending_Desc>
+  <BN_Active_MeteorPending>유성군 접근 중</BN_Active_MeteorPending>
+  <BN_Active_MeteorPending_Desc>타이머가 끝나면 유성군이 행성에 도달합니다.</BN_Active_MeteorPending_Desc>
+  <BN_Active_Starfall>별비</BN_Active_Starfall>
+  <BN_Active_Starfall_Desc>밖에 있는 정착민이 하늘을 감상하며 기분 +5를 얻습니다.</BN_Active_Starfall_Desc>
+  <BN_Active_MeteorShower>유성우</BN_Active_MeteorShower>
+  <BN_Active_MeteorShower_Desc>당신의 영토 곳곳에 무작위로 운석이 떨어집니다.</BN_Active_MeteorShower_Desc>
+  <BN_NatureRitual_Name>고대 부족의 의식</BN_NatureRitual_Name>
+  <BN_NatureRitual_Intro>자연과 연결된 고대 부족들이 활동 중인 초월공학 존재와 관련된 이상한 의식을 거행했습니다.</BN_NatureRitual_Intro>
+  <BN_NatureRitual_Growth>놀랍게도 의식에 실제로 효과가 있었습니다. 이제 많은 정착지가 울창한 숲 한복판에 놓이게 되었습니다.</BN_NatureRitual_Growth>
+  <BN_NatureRitual_Nothing>하지만 다행히 그 뒤로 아무 일도 일어나지 않았습니다.</BN_NatureRitual_Nothing>
+  <BN_RodentSwarm_Name>설치류 창궐</BN_RodentSwarm_Name>
+  <BN_RodentSwarm_Intro>행성에서 설치류 창궐이 기록되었습니다. 누군가 끝없이 번식하기 딱 좋은 환경이던 고대 유적의 봉인을 푼 모양입니다.</BN_RodentSwarm_Intro>
+  <BN_RodentSwarm_Aggressive>정착지들은 풀려난 개체들이 극도로 공격적이라고 보고하고 있습니다.</BN_RodentSwarm_Aggressive>
+  <BN_RodentSwarm_Calm>정착지들은 풀려난 개체들이 그리 위험하지 않다고 보고하고 있습니다.</BN_RodentSwarm_Calm>
+  <BN_Rodents_ArriveHostile>설치류({0}) 떼가 당신의 정착지에 도착해 공격하고 있습니다!</BN_Rodents_ArriveHostile>
+  <BN_Rodents_ArriveCalm>설치류({0}) 떼가 당신의 영토로 흘러들어왔습니다. 공격적이지는 않습니다.</BN_Rodents_ArriveCalm>
+  <BN_SpaceBattle_Name>우주선 전투</BN_SpaceBattle_Name>
+  <BN_SpaceBattle_Intro>서로 우호적인 것처럼 보이던 우주선들 사이에 당신의 성계에서 뜻밖의 전투가 벌어졌습니다.</BN_SpaceBattle_Intro>
+  <BN_SpaceBattle_Chunks>대파된 우주선들의 잔해가 궤도에 흩어졌습니다. 앞으로 며칠 동안 행성에 떨어질 수 있습니다.</BN_SpaceBattle_Chunks>
+  <BN_SpaceBattle_Pods>대파된 우주선의 승무원들이 탈출 포드로 황급히 탈출하고 있습니다. 앞으로 며칠 동안 당신의 영토에 포드가 떨어질 수 있습니다.</BN_SpaceBattle_Pods>
+  <BN_SpaceBattle_Nothing>다행히 전투는 시작될 때만큼이나 갑작스럽게 끝났습니다.</BN_SpaceBattle_Nothing>
+  <BN_Active_RitualGrowth>고대 부족의 의식</BN_Active_RitualGrowth>
+  <BN_Active_RitualGrowth_Desc>식물이 믿을 수 없는 속도로 자라고, 곳곳에 새로운 식물이 돋아납니다.</BN_Active_RitualGrowth_Desc>
+  <BN_Active_RodentsPending>설치류 접근 중</BN_Active_RodentsPending>
+  <BN_Active_RodentsPending_Desc>타이머가 끝나면 설치류 떼가 당신의 영토에 도착합니다.</BN_Active_RodentsPending_Desc>
+  <BN_Active_ChunkBoost>궤도의 잔해</BN_Active_ChunkBoost>
+  <BN_Active_ChunkBoost_Desc>우주 잔해가 떨어질 확률이 네 배가 됩니다.</BN_Active_ChunkBoost_Desc>
+  <BN_Active_PodBoost>탈출 포드</BN_Active_PodBoost>
+  <BN_Active_PodBoost_Desc>탈출 포드가 추락할 확률이 네 배가 됩니다.</BN_Active_PodBoost_Desc>
+  <BN_NaturalSelection_Name>자연선택</BN_NaturalSelection_Name>
+  <BN_NaturalSelection_Text>행성이 자연선택의 단계를 거쳤습니다. 여러 이유로, 다음 정착지가 세계 지도에서 사라졌습니다: {0}.</BN_NaturalSelection_Text>
+  <BN_MissileBattle_Name>불법 미사일 공격</BN_MissileBattle_Name>
+  <BN_MissileBattle_Intro>{FACTION1_name}(와)과 {FACTION2_name} 사이에 또다시 전투가 벌어졌고, 그다지 합법적이지 않은 미사일이 사용되었습니다.</BN_MissileBattle_Intro>
+  <BN_MissileBattle_Toxic>정착지들은 독성 연기구름이 다가오고 있으며 곧 행성 전체를 뒤덮을 것이라고 보고하고 있습니다.</BN_MissileBattle_Toxic>
+  <BN_MissileBattle_Dust>대규모 공격으로 이상한 먼지구름이 일어나, 이미 일부 정착지의 하늘을 뒤덮었습니다.</BN_MissileBattle_Dust>
+  <BN_MissileBattle_ToxicStart>독성 구름이 당신의 영토에 도달했습니다. 밖에 있는 모든 생명체가 중독되고 있습니다.</BN_MissileBattle_ToxicStart>
+  <BN_MissileBattle_DustStart>먼지구름이 당신의 영토에 도달해 햇빛의 절반을 가렸습니다.</BN_MissileBattle_DustStart>
+  <BN_ForestFire_Name>산불</BN_ForestFire_Name>
+  <BN_ForestFire_Text>행성 전역에서 거대한 산불이 맹렬히 번지고 있습니다. 이미 많은 정착지가 피해를 입었습니다.</BN_ForestFire_Text>
+  <BN_ForestFire_Msg>지도 가장자리의 나무들에 불이 붙었습니다!</BN_ForestFire_Msg>
+  <BN_Active_FalloutPending>구름 접근 중</BN_Active_FalloutPending>
+  <BN_Active_FalloutPending_Desc>타이머가 끝나면 독성 구름이나 먼지구름이 당신의 영토에 도달합니다.</BN_Active_FalloutPending_Desc>
+  <BN_DrugFog_Name>연초 안개</BN_DrugFog_Name>
+  <BN_DrugFog_Text>범죄 세력 {FACTION_name}에게 최후통첩이 떨어졌습니다. 소속 기지의 연초 농장을 모두 불태우라는 것이었습니다. 농장이 어찌나 많았던지, 마약 연무가 행성 전체를 뒤덮었습니다.</BN_DrugFog_Text>
+  <BN_DrugFog_Start>연초 안개가 당신의 영토에 도달했습니다. 방독면 없이 밖에서 숨을 쉬면 누구든 취하게 됩니다.</BN_DrugFog_Start>
+  <BN_ChildrenCrusade_Name>소년 십자군</BN_ChildrenCrusade_Name>
+  <BN_Crusade_Text>!!!속보!!!\n\n이름 모를 설교자가 {FACTION1_name}의 아이들에게, 이 잔혹한 세상에 존재하는 것 자체가 위대한 사명이라고 설득했습니다. 그러고는 아이들을 {FACTION2_name}의 정착지로 이단과 싸우러 보냈습니다. 대부분의 아이들은 목적지에 닿지 못했습니다. 그 운명이 아무리 슬프더라도, 상당수의 아이들은 늦지 않게 정신을 차리고 부모와 스승에게 돌아갔습니다.</BN_Crusade_Text>
+  <BN_Children_Label>아이들이 쉼터를 청함</BN_Children_Label>
+  <BN_Children_Text>{1}에서 온 아이들 {0}명이 당신의 정착지에 도착했습니다. 아이들은 지쳐 있으며, 잠시 머물게 해 달라고 부탁합니다.</BN_Children_Text>
+  <BN_Children_Accept>아이들을 받아들인다</BN_Children_Accept>
+  <BN_Children_Refuse>거절한다</BN_Children_Refuse>
+  <BN_Children_Postpone>나중에 결정한다</BN_Children_Postpone>
+  <BN_Children_Refused>당신은 아이들을 돌려보냈습니다. 아이들은 다시 황야로 떠났습니다.</BN_Children_Refused>
+  <BN_Children_Accepted>아이들({0}명)이 당신의 정착지에 머물게 되었습니다. 먹이고 쉴 곳을 마련해 주세요.</BN_Children_Accepted>
+  <BN_Children_Shuttle>부모들이 아이들을 데려가려고 왕복선을 보냈습니다. {0}명은 스스로 떠나기로 했고, 나머지({1}명)는 탑승을 기다리고 있습니다. 2일 안에 남은 아이들을 모두 왕복선에 태우면 후한 보상을 받게 됩니다.</BN_Children_Shuttle>
+  <BN_Children_AllLeft>아이들은 부모와 스승에게 돌아갔습니다.</BN_Children_AllLeft>
+  <BN_Children_ShuttleOk>왕복선이 아이들을 모두 태우고 떠났습니다. 부모들은 하루 안에 보상하겠다고 약속했습니다.</BN_Children_ShuttleOk>
+  <BN_Children_ShuttleFail>왕복선이 아이들을 다 기다리지 않고 떠났습니다. 보상은 없습니다.</BN_Children_ShuttleFail>
+  <BN_Children_Reward>고마워하는 부모들이 보상이 담긴 포드를 떨어뜨려 주었습니다.</BN_Children_Reward>
+  <BN_Active_DrugFogPending>연초 안개 접근 중</BN_Active_DrugFogPending>
+  <BN_Active_DrugFogPending_Desc>타이머가 끝나면 안개가 당신의 영토에 도달합니다.</BN_Active_DrugFogPending_Desc>
+  <BN_Active_DrugFog>연초 안개</BN_Active_DrugFog>
+  <BN_Active_DrugFog_Desc>방독면 없이 밖에 있으면 취하게 됩니다.</BN_Active_DrugFog_Desc>
+  <BN_Active_ChildrenStay>정착지에 머무는 아이들</BN_Active_ChildrenStay>
+  <BN_Active_ChildrenStay_Desc>곧 아이들이 떠날지 왕복선을 기다릴지 결정합니다.</BN_Active_ChildrenStay_Desc>
+  <BN_Active_ChildrenShuttle>아이들을 기다리는 왕복선</BN_Active_ChildrenShuttle>
+  <BN_Active_ChildrenShuttle_Desc>타이머가 끝나기 전에 남은 아이들을 모두 왕복선에 태우면 보상을 받습니다.</BN_Active_ChildrenShuttle_Desc>
+  <BN_UndergroundComplexes_Name>지하 유적</BN_UndergroundComplexes_Name>
+  <BN_UndergroundComplexes_Intro>알 수 없는 이유로 많은 지하 유적이 위장을 벗고 땅 위로 솟아올랐습니다.</BN_UndergroundComplexes_Intro>
+  <BN_UndergroundComplexes_Found>당신의 정착지 근처에서 유적 두어 곳이 발견되었습니다. 당신의 땅 근처에 모두 {0}곳의 정체불명 유적이 나타났습니다.</BN_UndergroundComplexes_Found>
+  <BN_TravelerSettlements_Name>여행자 야영지의 성장</BN_TravelerSettlements_Name>
+  <BN_TravelerSettlements_Text>무역과 외교 덕분에 작은 여행자 야영지 상당수가 어엿한 정착지로 성장했습니다. 다음 정착지가 세계에 나타났습니다: {0}.</BN_TravelerSettlements_Text>
+  <BN_VampireRefugees_Name>가면무도회의 몰락</BN_VampireRefugees_Name>
+  <BN_VampireRefugees_Intro>가면무도회가 무너졌습니다. 생귀오파지 사냥꾼들이 흡혈귀들의 거대한 공동체를 와해시켰습니다. 하지만 상당수가 도망쳐 새로운 은신처를 찾고 있습니다.</BN_VampireRefugees_Intro>
+  <BN_VampireRefugees_Incoming>와해된 생귀오파지 공동체의 잔당이 당신의 정착지로 향하고 있습니다. 하루이틀 안에 도착해 피난처를 청할 것입니다.</BN_VampireRefugees_Incoming>
+  <BN_VampireRefugees_Title>생귀오파지가 피난처를 청함</BN_VampireRefugees_Title>
+  <BN_VampireRefugees_Text>생귀오파지 둘과 그 하인 몇 명이 당신의 정착지에 다가왔습니다. 그들은 지쳐 있으며 잠시 머물 곳을 청합니다. 거절하면 정착지를 무력으로 빼앗으려 할지도 모릅니다.</BN_VampireRefugees_Text>
+  <BN_VampireRefugees_Accept>생귀오파지를 받아들인다</BN_VampireRefugees_Accept>
+  <BN_VampireRefugees_Refuse>거절한다</BN_VampireRefugees_Refuse>
+  <BN_VampireRefugees_Postpone>결정을 미룬다</BN_VampireRefugees_Postpone>
+  <BN_VampireRefugees_Accepted>생귀오파지와 하인들이 당신의 정착지에 합류했습니다. 먹일 수만 있다면 쓸모가 있을 것입니다.</BN_VampireRefugees_Accepted>
+  <BN_VampireRefugees_Attacked>거절당한 생귀오파지들이 무력으로 정착지를 빼앗으려 합니다. 무기를 들어라!</BN_VampireRefugees_Attacked>
+  <BN_VampireRefugees_Left>생귀오파지들은 거절을 받아들이고 말없이 황무지로 떠났습니다.</BN_VampireRefugees_Left>
+  <BN_Active_VampireRefugeesPending>생귀오파지 접근 중</BN_Active_VampireRefugeesPending>
+  <BN_Active_VampireRefugeesPending_Desc>와해된 흡혈귀들이 새 보금자리를 찾고 있으며 곧 도착합니다.</BN_Active_VampireRefugeesPending_Desc>
+  <BN_HemophageHunters_Title>생귀오파지 사냥꾼</BN_HemophageHunters_Title>
+  <BN_HemophageHunters_Text>당신이 생귀오파지에게 피난처를 내줬다는 사실을 알게 된 사냥꾼들이 정착지에 도착했습니다. 총기로 무장했고 장비도 잘 갖추었습니다. 무기를 들어라!</BN_HemophageHunters_Text>
+  <BN_Active_HemophageHuntersIncoming>사냥꾼 접근 중</BN_Active_HemophageHuntersIncoming>
+  <BN_Active_HemophageHuntersIncoming_Desc>생귀오파지 사냥꾼들이 당신이 그들을 숨겨 주고 있다는 걸 알고 쳐들어오고 있습니다.</BN_Active_HemophageHuntersIncoming_Desc>
+  <BN_PlantVirus_Name>정체불명의 식물 바이러스</BN_PlantVirus_Name>
+  <BN_PlantVirus_Intro>정체불명의 바이러스가 행성 전역에 퍼지며 특정 식물 종을 감염시키고 있습니다. 공동체가 치료법을 찾아 보급하기까지는 시간이 걸릴 것입니다.</BN_PlantVirus_Intro>
+  <BN_PlantVirus_Affected>이제 다음 식물 종은 재배가 거의 불가능합니다: {0}.</BN_PlantVirus_Affected>
+  <BN_Active_PlantVirus>식물 바이러스</BN_Active_PlantVirus>
+  <BN_Active_PlantVirus_Desc>일반 토양에 심은 감염 식물 종은 서서히 시들어 죽습니다. 수경 재배는 영향을 받지 않습니다.</BN_Active_PlantVirus_Desc>
+  <BN_Settings_Category_Core>기본 게임</BN_Settings_Category_Core>
+  <BN_Settings_DlcToggle>"{0}"(이)가 필요한 이벤트 활성화</BN_Settings_DlcToggle>
+  <BN_Settings_DlcMissing>"{0}" 확장팩이 설치되지 않았거나 모드 목록에서 활성화되지 않았습니다. 이 분류의 이벤트는 사용할 수 없습니다.</BN_Settings_DlcMissing>
+  <BN_Settings_RequiresDlc>필요: {0}</BN_Settings_RequiresDlc>
+  <BN_Update_Label>속보: 모드 업데이트</BN_Update_Label>
+  <BN_Update_Header>2026.10.10 속보 모드가 업데이트되었습니다.</BN_Update_Header>
+  <BN_Update_Added>추가된 내용:</BN_Update_Added>
+  <BN_Update_1_update>여러 사건을 수정했습니다.</BN_Update_1_update>
+  <BN_Update_2_update>새 사건을 추가했습니다.</BN_Update_2_update>
+  <BN_Update_3_update>철인 모드나 우주에서 플레이할 때 경고 편지가 뜨도록 했습니다.</BN_Update_3_update>
+  <BN_Update_4_update>모드를 제거한 뒤 저장 파일에 생기던 치명적인 버그를 고쳤습니다.</BN_Update_4_update>
+  <BN_Update_Footer>이 메시지를 더는 받고 싶지 않다면 모드 설정에서 끌 수 있습니다.</BN_Update_Footer>
+  <BN_Settings_ShowUpdates>모드 업데이트 메시지 표시</BN_Settings_ShowUpdates>
+  <BN_Settings_ShowUpdates_Tip>모드가 업데이트된 뒤 게임을 시작하면, 변경 사항 목록이 담긴 안내 편지가 도착합니다.</BN_Settings_ShowUpdates_Tip>
+  <BN_TotalDarkness_Name>완전한 암흑</BN_TotalDarkness_Name>
+  <BN_TotalDarkness_Text>어둠이 행성을 집어삼킨 건지, 모든 별이 같은 순간에 꺼지기로 한 건지. 어느 쪽이든 묘한 우연으로 당신의 행성은 한 치 앞도 보이지 않는 어둠에 잠겼습니다. 당신이 아직 살아 있는 걸 보면, 아마 어떤 변칙 현상이나 초월공학의 소행일 것입니다. 곧 지나가겠죠...\n\n그렇죠...?</BN_TotalDarkness_Text>
+  <BN_Darkness_Blocked>한 치 앞도 안 보이는 어둠... 길을 찾을 수가 없습니다.</BN_Darkness_Blocked>
+  <BN_Active_TotalDarkness>한 치 앞도 안 보이는 어둠...</BN_Active_TotalDarkness>
+  <BN_Active_TotalDarkness_Desc>길을 찾을 수가 없습니다.</BN_Active_TotalDarkness_Desc>
+  <BN_Comms_Broken>작동하지 않습니다... 이상하네요.</BN_Comms_Broken>
+  <BN_Comms_UseLabel>통신기 사용</BN_Comms_UseLabel>
+  <BN_BlackMarketShip_Name>암시장 우주선</BN_BlackMarketShip_Name>
+  <BN_BlackMarketShip_Text>문명 세계에서 거래가 금지된 온갖 물건을 취급하는 우주 무역선이 당신의 행성 궤도에 진입했습니다. 이 우주선이 머무는 동안 마약, 장기, 포로를 비싼 값에 팔 수 있습니다.\n\n통신기로 우주선에 연락하세요.</BN_BlackMarketShip_Text>
+  <BN_Active_BlackMarketShip>암시장 우주선</BN_Active_BlackMarketShip>
+  <BN_Active_BlackMarketShip_Desc>궤도에 있음: 마약, 장기, 포로를 두 배 값에 삽니다.</BN_Active_BlackMarketShip_Desc>
+  <BN_MechaniteSwarm_Name>기계입자 떼</BN_MechaniteSwarm_Name>
+  <BN_MechSwarm_Text>거대한 기계입자 떼가 갑자기 행성 전체를 뒤덮었습니다. 보통은 소규모로 "깨어나" 잠시 사람 몸에 영향을 미치는 정도지만, 이번에는 구름을 이룰 만큼 거대합니다. 얼마 뒤, 이 기계입자들이 말 그대로 모든 것을 수리하는 프로그램을 실행 중이라는 사실이 밝혀졌습니다. 밖에 있는 손상된 물건과 건물은 모두 강제로 수리됩니다. 좋든 나쁘든, 사람의 몸도 이 프로그램의 대상입니다.</BN_MechSwarm_Text>
+  <BN_MechSwarm_End>기계입자 떼가 흩어졌습니다. 수리가 멈추고 병세도 가라앉았습니다.</BN_MechSwarm_End>
+  <BN_Active_MechaniteSwarm>기계입자 떼</BN_Active_MechaniteSwarm>
+  <BN_Active_MechaniteSwarm_Desc>밖에 있는 물건이 수리되고, 모든 생명체가 기계입자 병에 걸립니다.</BN_Active_MechaniteSwarm_Desc>
+  <BN_Earthquake_Name>지진</BN_Earthquake_Name>
+  <BN_Earthquake_Text>행성에서 갑자기 강력한 지진이 일어났습니다. 많은 건물이 피해를 입었고, 사람들은 제대로 서 있을 수가 없습니다.</BN_Earthquake_Text>
+  <BN_Earthquake_End>지진이 잦아들었습니다. 모두 다시 일어서고 있습니다.</BN_Earthquake_End>
+  <BN_CasinoShip_Name>카지노 우주선</BN_CasinoShip_Name>
+  <BN_CasinoShip_Text>행성 궤도에서 정체불명의 우주선이 발견되었습니다. 외관을 잠깐 살펴보니, 수많은 번쩍이는 간판으로 보아 떠돌이 카지노라는 게 분명했습니다. 짧게 교신해 보니 변방계 뜨내기들을 태울 생각은 전혀 없지만, 그래도 제안 하나를 들고 왔다고 합니다. 당신을 포함해 어느 세력이든 이들에게서 깜짝 포드를 살 수 있습니다. 최대 3개까지 살 수 있지만, 무엇이 나올지는 정말 알 수 없다는 걸 명심하세요. 정착지를 부유하게 만들 수도, 당신을 죽일 수도 있습니다.\n\n깜짝 포드를 사려면 통신기를 사용하세요.</BN_CasinoShip_Text>
+  <BN_Casino_ShipName>떠돌이 카지노</BN_Casino_ShipName>
+  <BN_Casino_Prompt>포드를 사기로 하셨습니까? 위험은 충분히 이해하셨길 바랍니다.</BN_Casino_Prompt>
+  <BN_Casino_Buy>포드를 산다. (은 {0})</BN_Casino_Buy>
+  <BN_Casino_Cancel>교신을 끝낸다.</BN_Casino_Cancel>
+  <BN_Casino_LimitReached>이미 포드를 최대 개수만큼 샀습니다.</BN_Casino_LimitReached>
+  <BN_Casino_NoSilver>무역 송신기 근처에 은이 부족합니다({0} 필요).</BN_Casino_NoSilver>
+  <BN_Casino_O1>포드를 사고 나서, 정착지 위에서 그 포드를 발견합니다. 이상하게도 너무 일찍 감속하기 시작했습니다. 잠시 뒤, 포드가 공중에서 폭발하면서 정착지 위로 무언가 구름 같은 것을 퍼뜨립니다.</BN_Casino_O1>
+  <BN_Casino_PlagueDone>나중에야 이 현상 이후 정착민들이 무언가에 걸렸다는 걸 깨닫습니다: {0}.</BN_Casino_PlagueDone>
+  <BN_Casino_O2>운이 좋았나 봅니다. 착륙한 포드가 화물을 드러냈습니다. {0}입니다.</BN_Casino_O2>
+  <BN_Casino_O3>이 화물로 뭘 할지는 모르겠지만, 확실히 신나는 밤이 될 겁니다. 당신의 "상품"은 {0}입니다.</BN_Casino_O3>
+  <BN_Casino_O4>누군가 포드가 특히 부드럽게 착륙하도록 신경 써 줬습니다. 당신의 상품은 길들여진 동물입니다: {0}.</BN_Casino_O4>
+  <BN_Casino_O5>포드가 긁힌 자국투성이입니다. 고약한 무언가가 정착지 근처에 내려앉았습니다. 바로 {0}입니다.</BN_Casino_O5>
+  <BN_Casino_O6>아는 것이 힘이다! 당신의 "상품"은 {0}입니다.</BN_Casino_O6>
+  <BN_Casino_O7>불태울 도시가 있다... 포드에는 임플란트 세트가 들어 있었습니다: {0}.</BN_Casino_O7>
+  <BN_Casino_O8>불운의 패를 아홉 장이나 뽑은 모양입니다. 카지노 승무원들이 포드에 불안정한 폭발물이 들어 있다고 알려 왔습니다. 고객을 살려 보려고 경고를 보내 준 것입니다. 3시간 안에 가장 귀중한 물건들을 숨기세요. 그 뒤에는 떨어지는 포드가 정착지의 상당한 구역을 날려 버릴 것입니다. 행운을 빕니다!</BN_Casino_O8>
+  <BN_Casino_BombMsg>폭발물이 가득 든 포드가 정착지로 떨어지고 있습니다!</BN_Casino_BombMsg>
+  <BN_Casino_O9>정착민들은 안에서 무언가 깜빡이는, 잠긴 작은 포드가 정착지 근처에 나타난 것도 알아채지 못했습니다. 열어 보니 안에는 신호기가 들어 있었습니다. 그게 정확히 무슨 뜻인지는 모르겠지만, 신호가 꽤 강했으니 손님이 올 것은 분명합니다.</BN_Casino_O9>
+  <BN_Casino_Fail>포드를 배달하지 못했습니다. 카지노가 돈을 돌려주었습니다.</BN_Casino_Fail>
+  <BN_Active_CasinoShip>궤도의 카지노 우주선</BN_Active_CasinoShip>
+  <BN_Active_CasinoShip_Desc>깜짝 포드를 팝니다. 통신기로 연락하세요.</BN_Active_CasinoShip_Desc>
+  <BN_Active_CasinoBomb>폭탄 포드 접근 중</BN_Active_CasinoBomb>
+  <BN_Active_CasinoBomb_Desc>타이머가 끝나기 전에 가장 귀중한 물건들을 숨기세요.</BN_Active_CasinoBomb_Desc>
+  <BN_Active_CasinoBeacon>손님 기다리는 중</BN_Active_CasinoBeacon>
+  <BN_Active_CasinoBeacon_Desc>신호기의 신호가 꽤 강했습니다.</BN_Active_CasinoBeacon_Desc>
+  <BN_ResortShip_Name>휴양선</BN_ResortShip_Name>
+  <BN_Resort_ShipName>휴양 여객선 "오로라"</BN_Resort_ShipName>
+  <BN_Resort_Arrived>휴양 우주선이 당신의 행성 궤도에 진입했습니다. 스파, 영화관, 술집, 유곽까지, 여가를 보낼 온갖 방법이 다 있습니다! 은 7,500을 내면 왕복선을 보내 주며, 정착민 누구든 일주일 휴가를 보낼 수 있습니다. 통신기로 우주선에 연락하세요.</BN_Resort_Arrived>
+  <BN_Resort_Prompt>제대로 쉬기로 하셨군요? 좋은 생각이에요! 병만 옮아 오지 마시길...</BN_Resort_Prompt>
+  <BN_Resort_Yes>좋아. (은 {0} 지불)</BN_Resort_Yes>
+  <BN_Resort_No>마음이 바뀌었어.</BN_Resort_No>
+  <BN_Resort_NoSilver>은이 부족합니다. {0} 필요.</BN_Resort_NoSilver>
+  <BN_Resort_AlreadyUsed>이미 휴가를 보낸 무리가 있습니다.</BN_Resort_AlreadyUsed>
+  <BN_Resort_ShuttleLabel>휴양 왕복선 도착</BN_Resort_ShuttleLabel>
+  <BN_Resort_ShuttleText>휴양 왕복선이 정착지 근처에 착륙했습니다. 정착민을 태우고 출발시키면 일주일 휴가를 보낼 수 있습니다.</BN_Resort_ShuttleText>
+  <BN_Resort_Departed>정착민 {0}명이 일주일 휴가를 떠났습니다.</BN_Resort_Departed>
+  <BN_Resort_NoPawns>왕복선에 탄 사람이 없습니다. 휴가 보낼 사람이 없습니다.</BN_Resort_NoPawns>
+  <BN_Resort_ReturnLabel>휴가객 귀환</BN_Resort_ReturnLabel>
+  <BN_Resort_ReturnText>정착민({0}명)이 휴양선에서 푹 쉬고 기운을 가득 채워 돌아왔습니다!</BN_Resort_ReturnText>
+  <BN_ResortVacation.stages.0.label>휴양선에서 쉬었음</BN_ResortVacation.stages.0.label>
+  <BN_ResortVacation.stages.0.description>휴양선에서 정말 푹 쉬었어! 아, 또 가고 싶다.</BN_ResortVacation.stages.0.description>
+  <BN_HungerGames_Name>헝거 게임</BN_HungerGames_Name>
+  <BN_HungerGames_Intro>{FACTION_name}(이)가 목숨을 건 국제 헝거 게임을 발표했습니다. 늘 그렇듯 승자는 단 한 명입니다. 당신도 참가가 허락되었습니다. 승리의 열쇠는 근접 전투와 사격 기술입니다. 상금은 은 20,000입니다. 전설적인 실력이라도 승리를 보장하지는 않습니다. 정착민을 보내려면 통신기로 우주선에 연락하세요.</BN_HungerGames_Intro>
+  <BN_HungerGames_ShipName>헝거 게임 우주선</BN_HungerGames_ShipName>
+  <BN_HungerGames_Prompt>헝거 게임에 투사를 보내시겠습니까? 돌아오지 못할 수도 있다는 걸 알아 두세요. 병만 옮아 오지 마시길...</BN_HungerGames_Prompt>
+  <BN_HungerGames_SendOption>정착민을 보낸다</BN_HungerGames_SendOption>
+  <BN_HungerGames_Cancel>마음이 바뀌었어.</BN_HungerGames_Cancel>
+  <BN_HungerGames_NoPawns>알맞은 정착민이 없습니다.</BN_HungerGames_NoPawns>
+  <BN_HungerGames_OfferExpired>제안이 더 이상 유효하지 않습니다.</BN_HungerGames_OfferExpired>
+  <BN_HungerGames_DepartLabel>정착민 출전</BN_HungerGames_DepartLabel>
+  <BN_HungerGames_DepartText>{PAWN_nameFull}(이)가 헝거 게임에 출전했습니다. 살아남는다면 일주일 뒤에 돌아올 것입니다.</BN_HungerGames_DepartText>
+  <BN_HungerGames_WinLabel>헝거 게임 우승</BN_HungerGames_WinLabel>
+  <BN_HungerGames_WinText>{PAWN_nameFull}(이)가 헝거 게임에서 우승해 상금 은 20,000을 들고 돌아왔습니다!</BN_HungerGames_WinText>
+  <BN_HungerGames_LoseLabel>헝거 게임에서 사망</BN_HungerGames_LoseLabel>
+  <BN_HungerGames_LoseText>{PAWN_nameFull}(이)가 헝거 게임에서 사망했습니다. 시신은 캡슐에 담겨 돌아왔습니다.</BN_HungerGames_LoseText>
+  <BN_HungerGames_CancelledDraft>참가 취소: 정착민이 징집되었습니다.</BN_HungerGames_CancelledDraft>
+  <BN_MercenaryShip_Name>용병선</BN_MercenaryShip_Name>
+  <BN_Mercenary_ShipName>용병 순양함 "피의 계약"</BN_Mercenary_ShipName>
+  <BN_Mercenary_Intro>궤도에서 거대한 우주선이 발견되었습니다. 곧 자신들이 용병 회사라고 밝혔습니다. 이 성계에 온 정확한 목적은 알 수 없지만, 소문으로는 행성에서 또 다른 임무를 수행 중이라고 합니다. 이들이 머무는 동안, 상징적인 비용만 받고 어느 정착지든 일시적으로 보호해 줄 의향이 있다고 합니다. 통신기로 연락하세요.</BN_Mercenary_Intro>
+  <BN_Mercenary_Prompt>우리 보호를 사기로 했나?</BN_Mercenary_Prompt>
+  <BN_Mercenary_BuyProtection>그래. ({0}일간 습격 방어 활성화)</BN_Mercenary_BuyProtection>
+  <BN_Mercenary_ProtectionSold>이 행성에서는 이미 보호를 팔았다.</BN_Mercenary_ProtectionSold>
+  <BN_Mercenary_NotYet>아직은 아니야.</BN_Mercenary_NotYet>
+  <BN_Mercenary_AskStrike>당신들 함포로 에너지 빔 공격을 살 수 있을까?</BN_Mercenary_AskStrike>
+  <BN_Mercenary_StrikePrompt>흠... 충분히 가능하지. 위험은 그쪽 몫이다. 신병들이 쏠 거라, 빗나갈 수도 있거든.</BN_Mercenary_StrikePrompt>
+  <BN_Mercenary_OtherTargetAnswer>안 돼. 우리 고객일 수도 있잖나.</BN_Mercenary_OtherTargetAnswer>
+  <BN_Mercenary_BuyBasicStrike>에너지 공격을 산다. (은 {0})</BN_Mercenary_BuyBasicStrike>
+  <BN_Mercenary_BuyPremiumStrike>웃돈을 주고 정밀 사격을 맡긴다. (은 {0})</BN_Mercenary_BuyPremiumStrike>
+  <BN_Mercenary_Cancel>마음이 바뀌었어.</BN_Mercenary_Cancel>
+  <BN_Mercenary_AskOtherTarget>다른 정착지를 쏴 줄 수 있어?</BN_Mercenary_AskOtherTarget>
+  <BN_Mercenary_NoSilver>은이 부족합니다. {0} 필요.</BN_Mercenary_NoSilver>
+  <BN_Mercenary_ProtectionLabel>용병 보호 활성화</BN_Mercenary_ProtectionLabel>
+  <BN_Mercenary_ProtectionText>용병들이 {0}일 동안 당신의 정착지를 보호합니다. 당신을 노린 적대 습격은 경계에 닿기도 전에 모두 섬멸됩니다.</BN_Mercenary_ProtectionText>
+  <BN_Mercenary_RaidBlockedLabel>용병이 습격을 격퇴함</BN_Mercenary_RaidBlockedLabel>
+  <BN_Mercenary_RaidBlockedText>용병 순양함의 궤도 함포가 다가오던 습격대를 경계에 접근하기도 전에 섬멸했습니다.</BN_Mercenary_RaidBlockedText>
+  <BN_Mercenary_StrikeLabel>궤도 공격</BN_Mercenary_StrikeLabel>
+  <BN_Mercenary_StrikeText>용병들이 당신이 지정한 구역에 에너지 빔을 발사했습니다.</BN_Mercenary_StrikeText>
+  <BN_Mercenary_Deviation>신병들이 빗나갔습니다. 빔이 목표에서 벗어났습니다.</BN_Mercenary_Deviation>
+  <BN_Active_MercenaryProtection>용병 보호</BN_Active_MercenaryProtection>
+  <BN_Active_MercenaryProtection_Desc>습격대가 경계에 닿기 전에 섬멸됩니다.</BN_Active_MercenaryProtection_Desc>
+  <BN_AllyAttackQuest_Name>동맹과의 합동 공격</BN_AllyAttackQuest_Name>
+  <BN_AllyDefenseQuest_Name>동맹 정착지 방어</BN_AllyDefenseQuest_Name>
+  <BN_AllyAttack_Label>합동 공격</BN_AllyAttack_Label>
+  <BN_AllyAttack_WinLabel>합동 공격 성공</BN_AllyAttack_WinLabel>
+  <BN_AllyAttack_WinText>{ALLY_name}(이)가 공세를 이어 가 적 정착지 {COUNT}곳을 추가로 점령했습니다.</BN_AllyAttack_WinText>
+  <BN_AllyAttack_TimeoutLabel>당신 없이 진행된 공격</BN_AllyAttack_TimeoutLabel>
+  <BN_AllyAttack_TimeoutText>당신이 망설이는 동안 {ALLY_name}(이)가 단독으로 공격해 적 정착지 1곳을 점령했습니다.</BN_AllyAttack_TimeoutText>
+  <BN_AllyAttack_TimeoutFail>당신이 망설이는 동안 {ALLY_name}(이)가 단독으로 공격했지만 실패했습니다. 점령한 곳은 없습니다.</BN_AllyAttack_TimeoutFail>
+  <BN_AllyDefense_Label>동맹 방어</BN_AllyDefense_Label>
+  <BN_AllyDefense_WinLabel>방어 성공</BN_AllyDefense_WinLabel>
+  <BN_AllyDefense_WinText>당신의 도움 덕분에 {ALLY_name}(이)가 정착지를 지켜 냈습니다. 감사의 표시로 포드에 은 2,000을 담아 보냈습니다.</BN_AllyDefense_WinText>
+  <BN_AllyDefense_LoseLabel>동맹이 정착지를 잃음</BN_AllyDefense_LoseLabel>
+  <BN_AllyDefense_LoseText>당신이 망설이는 동안 {ALLY_name}(이)가 정착지 하나를 잃었습니다.</BN_AllyDefense_LoseText>
+  <BN_AllyAttack_Intro>당신의 동맹 {ALLY_name}(이)가 적의 정착지를 향해 공세를 시작했습니다. 당신의 도움이 있으면 좋겠다고 합니다. 돌격대가 {SITE}에 대한 합동 공격을 제안합니다. 그 대가로 야영지의 전리품 외에 은 2,000을 받게 됩니다. 돌격대는 3일 동안 당신의 결정을 기다린 뒤, 직접 공격을 시도할 것입니다. 표시된 정착지로 상단을 보내면 동맹 부대가 당신의 공격에 합류합니다.</BN_AllyAttack_Intro>
+  <BN_AllyDefense_Intro>당신의 동맹 {ALLY_name}(이)가 {ENEMY_name}에게 공격당했습니다. 방어 부대가 {SITE} 방어를 도와 달라고 요청합니다. 3일 동안 당신의 결정을 기다릴 것입니다. 표시된 정착지로 상단을 보내면 동맹 수비대가 당신의 방어를 지원합니다.</BN_AllyDefense_Intro>
+  <BN_AllyDefense_ProtectButton>정착지 방어</BN_AllyDefense_ProtectButton>
+  <BN_AllyDefense_ProtectButtonDesc>동맹 정착지를 적으로부터 지키러 갑니다.</BN_AllyDefense_ProtectButtonDesc>
+  <BN_AllyAttack_RewardLabel>동맹의 보상</BN_AllyAttack_RewardLabel>
+  <BN_AllyAttack_Reward>동맹이 약속을 지켰습니다. 은 {0}의 보상이 담긴 포드가 당신의 영토에 떨어졌습니다.</BN_AllyAttack_Reward>
+  <BN_Update_2_Events>대부분 우주선과 관련된 새 이벤트 여러 개. 새 이벤트는 모드 설정에서 볼 수 있습니다.</BN_Update_2_Events>
+  <BN_WhisperingVoice_Name>모닥불의 목소리</BN_WhisperingVoice_Name>
+  <BN_Voice_Text>기묘한 내면의 목소리가 정착민들의 정신을 뒤흔듭니다. 안식을 얻지 못한 영혼들의 절박한 울부짖음을 배경으로, 지옥의 목소리 같은 정체불명의 존재가 여러 가지 힘을 내건 거래를 제안합니다. 어떤 초월공학도 넘어서는 진정한 신이 될 수도 있지만, 그 대가로 무언가를 내놓아야 합니다.\n\n이 존재와 교류하려면 모닥불을 사용하세요.</BN_Voice_Text>
+  <BN_Voice_Option>목소리에 귀 기울이기</BN_Voice_Option>
+  <BN_Voice_NoFire>불이 꺼져 있음</BN_Voice_NoFire>
+  <BN_Voice_Title>목소리</BN_Voice_Title>
+  <BN_Voice_Dialog>나의 길과 운명의 실타래는 너희가 알 수 없으리라. 그 목적은 결코 너희에게 드러나지 않을 테니. 거래는 할 수 있다. 하지만 그 대가로 너희가 내줄 것 또한 때가 오기 전까지는 알 수 없으리라.</BN_Voice_Dialog>
+  <BN_Voice_O1>부.</BN_Voice_O1>
+  <BN_Voice_O2>지식.</BN_Voice_O2>
+  <BN_Voice_O3>힘.</BN_Voice_O3>
+  <BN_Voice_O4>풍요.</BN_Voice_O4>
+  <BN_Voice_O5>영원.</BN_Voice_O5>
+  <BN_Voice_Leave>떠난다.</BN_Voice_Leave>
+  <BN_Voice_Confirm>거절할 수 없는 것을 바라는군. 되돌릴 수 없다. 정말인가?</BN_Voice_Confirm>
+  <BN_Voice_Yes>그래. 영원을.</BN_Voice_Yes>
+  <BN_Voice_Back>아니, 마음이 바뀌었어.</BN_Voice_Back>
+  <BN_Voice_Silence>머릿속의 목소리가 잠잠해졌습니다. 거래는 이루어지지 않았습니다.</BN_Voice_Silence>
+  <BN_Voice_R1>거래가 성립되었습니다. 은으로 가득 찬 포드가 하늘에서 쏟아지고, 목소리가 머릿속에서 나지막이 웃습니다. "셀 수 있을 때 세어 두어라."</BN_Voice_R1>
+  <BN_Voice_R2>거래가 성립되었습니다. 지식이 머릿속으로 밀려들고, 그 누구도 이해하지 못한 것이 갑자기 이해됩니다. 목소리는 말이 없습니다.</BN_Voice_R2>
+  <BN_Voice_R3>거래가 성립되었습니다. 검은 갑옷을 입은 그림자 셋이 하늘에서 떨어졌습니다. 그 눈에는 인간다운 것이 하나도 없습니다.</BN_Voice_R3>
+  <BN_Voice_R4>거래가 성립되었습니다. 식량이 가득 든 포드가 주변에 떨어집니다. 먹을 수 있는 만큼 먹으세요.</BN_Voice_R4>
+  <BN_Voice_R5>거래가 성립되었습니다. 세상이 멈췄습니다. 정착지들이 있던 자리는 이제 텅 비었고, 주변의 살아 있는 모든 것이 빠르게 죽어 갑니다. 이제 아무도 오지 않을 것입니다.</BN_Voice_R5>
+  <BN_Voice_RevealWealth>대가가 드러났습니다. 부자를 노리는 자들에게 당신의 재산이 두 배로 보이게 됩니다. 그들은 더 큰 병력으로 쳐들어올 것입니다.</BN_Voice_RevealWealth>
+  <BN_Voice_RevealMadness>대가가 드러났습니다. 지식이 정신을 갉아먹습니다. 정착민들이 광기에 빠질 것이며, 앞으로 몇 주 동안 멈추지 않을 것입니다.</BN_Voice_RevealMadness>
+  <BN_Voice_MadnessReason>지나친 지식</BN_Voice_MadnessReason>
+  <BN_Voice_RevealBinge>대가가 드러났습니다. 결코 채워지지 않는 허기. 모든 정착민이 음식에 달려들었습니다.</BN_Voice_RevealBinge>
+  <BN_Voice_Betrayal>대가가 드러났습니다. 그림자들은 더 이상 당신을 섬기지 않습니다. 등을 돌려 정착지로 향하고 있습니다.</BN_Voice_Betrayal>
+  <BN_Voice_Alone>대가가 드러났습니다. "나는 완전히 혼자야..." 이 생각은 영영 떠나지 않을 것입니다.</BN_Voice_Alone>
+  <BN_Voice_ShadowName>그림자 {0}</BN_Voice_ShadowName>
+  <BN_Active_Voice>모닥불의 목소리</BN_Active_Voice>
+  <BN_Active_Voice_Desc>모닥불로 가서 거래를 맺으세요.</BN_Active_Voice_Desc>
+  <BN_Active_VoiceMadness>지식의 짐</BN_Active_VoiceMadness>
+  <BN_Active_VoiceMadness_Desc>정착민들이 이따금 광기에 빠집니다.</BN_Active_VoiceMadness_Desc>
+  <BN_Active_Eternity>영원</BN_Active_Eternity>
+  <BN_Active_Eternity_Desc>세상이 멈췄습니다. 당신은 혼자입니다.</BN_Active_Eternity_Desc>
+  <BN_RebelAllies_Name>반란을 일으킨 동맹 분대</BN_RebelAllies_Name>
+  <BN_RebelAllies_Text>영토 가장자리에서 동맹 세력 {FACTION_name}의 분대가 눈에 띄었습니다. 반가운 얼굴을 기대했지만 돌아온 건 비웃음 섞인 미소뿐이었습니다. 무슨 일인지는 몰라도, 이 분대는 분명히 적대적입니다.</BN_RebelAllies_Text>
+  <BN_Rebels_Reward>얼마 전 분대를 보내 당신을 공격했던 {FACTION_name}에게서 연락이 왔습니다. 대표의 말로는 지금 세력 안에 소요가 있었지만 상황이 점차 나아지고 있다고 합니다. 그들은 보상으로 은 {SILVER}개를 보냈습니다.</BN_Rebels_Reward>
+  <BN_Active_RebelCompensation>동맹의 보상</BN_Active_RebelCompensation>
+  <BN_Active_RebelCompensation_Desc>동맹이 곧 사과의 뜻으로 은을 보낼 것입니다.</BN_Active_RebelCompensation_Desc>
+  <BN_Update_3_Text>문장 수정.</BN_Update_3_Text>
+  <BN_Update_3_Nerf>전 지구적 초고온과 완전한 암흑 하향.</BN_Update_3_Nerf>
+  <BN_Update_3_Events>새 사건 추가.</BN_Update_3_Events>
+  <BN_Resort_GizmoLabel>휴양지로 보내기</BN_Resort_GizmoLabel>
+  <BN_Resort_GizmoDesc>왕복선 안의 정착민들을 휴양지로 보냅니다. 일주일 뒤에 돌아옵니다.</BN_Resort_GizmoDesc>
+  <BN_Safety_Title>속보</BN_Safety_Title>
+  <BN_Safety_SpaceText>속보 사건 모드는 우주에서 사건이 일어나는 상황을 고려해 만들어지지 않았습니다. 이 모드의 사건을 켜 둔 채 예상치 못한 일에 맞서거나, 행성에 도착할 때까지 꺼 둘 수 있습니다.</BN_Safety_SpaceText>
+  <BN_Safety_RpText>사건을 추가하는 속보 모드는 철인 모드로 플레이하는 사람을 위해 제대로 균형이 맞춰져 있지 않습니다. 이 모드의 사건을 끄거나, 모든 위험을 알고서 켜 둘 수 있습니다.</BN_Safety_RpText>
+  <BN_Safety_Disable>사건을 끈다.</BN_Safety_Disable>
+  <BN_Safety_Keep>사건을 유지한다. 위험은 감수하겠다.</BN_Safety_Keep>
+  <BN_FashionShow_Name>패션쇼</BN_FashionShow_Name>
+  <BN_FashionShow_Text>{FACTION_name} 세력이 자기네 정착지 {SETTLEMENT}에서 패션쇼를 열기로 했습니다. 혼돈의 변방계에선 흔한 행사가 아니지만, 그래도 많은 세력이 참가하기로 했습니다.\n\n당신도 정착민에게 가장 좋은 옷을 입혀 행사에 보내 참가할 수 있습니다.\n\n패션쇼라는 걸 잊지 마세요. 갑옷을 입은 정착민을 보내면 참가할 수 없습니다.\n\n참가하려면 정착민을 해당 정착지로 보내세요. 우승하면 은 5000개를 상금으로 가져옵니다.\n\n팁: 호화롭고 염색한 옷일수록 높은 평가를 받습니다.</BN_FashionShow_Text>
+  <BN_Fashion_Option>패션쇼에 참가하기 ({0})</BN_Fashion_Option>
+  <BN_Fashion_Report>{0}의 패션쇼로 가는 중</BN_Fashion_Report>
+  <BN_Fashion_Ended>패션쇼가 이미 끝났습니다.</BN_Fashion_Ended>
+  <BN_Fashion_AlreadyEntered>이미 이 패션쇼에 참가했습니다.</BN_Fashion_AlreadyEntered>
+  <BN_Fashion_NoColonist>원정대에 참가할 수 있는 정착민이 없습니다.</BN_Fashion_NoColonist>
+  <BN_Fashion_Over>패션쇼가 끝났습니다.</BN_Fashion_Over>
+  <BN_Fashion_PickTitle>패션쇼</BN_Fashion_PickTitle>
+  <BN_Fashion_PickText>누구를 런웨이에 세울까요?</BN_Fashion_PickText>
+  <BN_Fashion_Armor>갑옷 금지: {0}</BN_Fashion_Armor>
+  <BN_Fashion_Cancel>그만두기.</BN_Fashion_Cancel>
+  <BN_Fashion_R1>{NAME}의 패션이 센세이션을 일으켰습니다. 1위! 상금: 은 {SILVER}개. 점수 {SCORE}% / 난이도 {NEED}%.</BN_Fashion_R1>
+  <BN_Fashion_R2>{NAME}(이)가 2위를 차지했습니다. 상금: 은 {SILVER}개. 점수 {SCORE}% / 난이도 {NEED}%.</BN_Fashion_R2>
+  <BN_Fashion_R3>{NAME}(이)가 3위를 차지했습니다. 상금: 은 {SILVER}개. 점수 {SCORE}% / 난이도 {NEED}%.</BN_Fashion_R3>
+  <BN_Fashion_R0>{NAME}(은)는 3위 안에 들지 못했습니다. 점수 {SCORE}% / 난이도 {NEED}%. 심사위원들은 시큰둥했습니다.</BN_Fashion_R0>
+  <BN_Active_FashionShow>패션쇼</BN_Active_FashionShow>
+  <BN_Active_FashionShow_Desc>갑옷을 입지 않은 정착민을 가장 가까운 중립 세력 정착지로 보내세요.</BN_Active_FashionShow_Desc>
+  <BN_SaveWarning_Title>경고</BN_SaveWarning_Title>
+  <BN_SaveWarning_Text>속보 모드는 새로운 게임 사건을 추가하기 때문에, 모드 없이 저장 파일을 불러오면 저장이 망가질 수 있습니다. 제작자는 아직 이 문제를 해결할 방법을 찾지 못했습니다. 그래도 모드 없이 계속 플레이하고 싶다면, 모드 설정에 '모든 사건 끄기' 옵션이 추가되어 있습니다. 이 옵션을 켜면 속보 탭이 사라지고 사건이 더 이상 시작되지 않습니다.\n\n이 메시지는 저장 파일이 망가지는 것을 막기 위한 경고일 뿐입니다.</BN_SaveWarning_Text>
+  <BN_SaveWarning_Ok>확인.</BN_SaveWarning_Ok>
+  <BN_Settings_DisableAllEvents>모든 사건 끄기</BN_Settings_DisableAllEvents>
+  <BN_Settings_DisableAllEvents_Tip>속보 사건이 시작되지 않게 하고 속보 탭을 숨깁니다.</BN_Settings_DisableAllEvents_Tip>
+</LanguageData>

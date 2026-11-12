@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WR_ColonistsTab>정착민</WR_ColonistsTab>
+  <WR_RecommendationsTab>추천</WR_RecommendationsTab>
+  <WR_OptionsTab>설정</WR_OptionsTab>
+  <WR_CompatSection>호환성 설정</WR_CompatSection>
+  <WR_OptNumeric>작업 우선순위를 숫자로 표시</WR_OptNumeric>
+  <WR_TipOff>끔</WR_TipOff>
+  <WR_TipOn>켬</WR_TipOn>
+  <WR_OptNumericTipWhat>세이브별로 바닐라의 ‘수동 우선순위’ 설정을 제어합니다.</WR_OptNumericTipWhat>
+  <WR_OptNumericTipOff>Numbers 같은 모드를 포함해 우선순위 표에 체크 표시를 그립니다.</WR_OptNumericTipOff>
+  <WR_OptNumericTipOn>우선순위 표에 숫자를 표시합니다.</WR_OptNumericTipOn>
+  <WR_OptNumericTipWhy>WorkRoles가 바닐라 작업 탭을 대체하므로 이곳에 설정을 마련했습니다.</WR_OptNumericTipWhy>
+  <WR_OptVanillaRange>다른 모드에 바닐라식 0~4 우선순위로 전달</WR_OptVanillaRange>
+  <WR_OptVanillaRangeTipWhat>WorkRoles는 작업에 고유한 우선순위(1부터 시작하는 연속 번호)를 매깁니다.</WR_OptVanillaRangeTipWhat>
+  <WR_OptVanillaRangeTipOff>다른 모드가 해당 우선순위를 그대로 읽습니다.</WR_OptVanillaRangeTipOff>
+  <WR_OptVanillaRangeTipOn>우선순위를 바닐라의 0~4 범위에 맞춰 전달합니다.</WR_OptVanillaRangeTipOn>
+  <WR_OptEmergencyRule>처음 5개 역할만 긴급 작업에 우선 대응</WR_OptEmergencyRule>
+  <WR_OptEmergencyRuleTipWhat>세이브별로 화재 진압, 긴급 치료, 응급 치료를 위한 취침 등 긴급 작업이 수면·식사·다른 작업을 중단시킬 수 있는 범위를 정합니다.</WR_OptEmergencyRuleTipWhat>
+  <WR_OptEmergencyRuleTipOff>활성화된 역할에 포함된 모든 긴급 작업이 현재 작업을 중단합니다.</WR_OptEmergencyRuleTipOff>
+  <WR_OptEmergencyRuleTipOn>정착민이 활성화한 처음 5개 역할의 긴급 작업만 중단을 일으킵니다. 그 이후 역할의 긴급 작업은 평소 우선순위에 따라 처리됩니다.</WR_OptEmergencyRuleTipOn>
+  <WR_OptEmergencyRuleTipWhy>기본값인 켬 상태에서는 행 끝의 예비 역할이 차례를 기다립니다. 예를 들어 의사가 여섯 번째 역할인 정착민은 전담 의사가 긴급 환자를 치료하는 동안 요리를 계속합니다. 모든 정착민이 가능한 모든 긴급 상황에 대응하게 하려면 끄세요.</WR_OptEmergencyRuleTipWhy>
+  <WR_AutomationSection>자동화 설정</WR_AutomationSection>
+  <WR_OptAutoOptimize>게임 내 매시간 정착지 역할 자동 최적화</WR_OptAutoOptimize>
+  <WR_OptAutoOptimizeTipWhat>세이브별로 각 정착지의 ‘정착지 정리’를 자동 실행하고 변경 사항을 적용합니다.</WR_OptAutoOptimizeTipWhat>
+  <WR_OptAutoOptimizeTipOff>역할 배정은 직접 편집할 때만 바뀝니다.</WR_OptAutoOptimizeTipOff>
+  <WR_OptAutoOptimizeTipOn>추천 배정을 게임 내 매시간 맨 앞에 적용합니다.</WR_OptAutoOptimizeTipOn>
+  <WR_OptAutoOptimizeTipWhy>고정한 배정은 바뀌지 않으며, 정착민이 이미 추천과 일치하면 아무것도 기록하지 않습니다.</WR_OptAutoOptimizeTipWhy>
+  <WR_AutoOptimizeConfirmApply>적용을 누르면 아래 변경 사항을 지금 반영하고 매시간 자동 최적화를 켭니다. 자동 최적화 중에는 ‘정착지 정리’와 ‘그대로 적용’ 버튼이 숨겨지지만, 역할 배정·순서 변경·고정은 평소처럼 할 수 있습니다.</WR_AutoOptimizeConfirmApply>
+  <WR_AutoOptimizeGlobalWarning>정착지가 여러 곳 있습니다. 자동 최적화는 전역 설정으로, 매시간 모든 정착지의 역할 배정을 변경합니다. 아래 미리보기에는 현재 정착지의 변경 사항만 표시됩니다.</WR_AutoOptimizeGlobalWarning>
+  <WR_DisplaySection>표시 설정</WR_DisplaySection>
+  <WR_OptSkillCaptions>정착민 이름 아래 주요 기술 표시</WR_OptSkillCaptions>
+  <WR_OptSkillCaptionsTip>표의 각 정착민 행에서 이름 아래에 주요 작업 기술과 숙련도를 적합도 색상과 함께 표시합니다. 끄면 이름만 한 줄로 표시합니다.</WR_OptSkillCaptionsTip>
+  <WR_OptVerdictsColonists>정착민 역할 칩에 적합도 표시</WR_OptVerdictsColonists>
+  <WR_OptVerdictsColonistsTip>정착민 표의 각 역할 칩에 해당 정착민의 적합도를 별로 표시합니다. 추천 시스템의 판정과 같으며, 긍정은 흰색 별(적합 1개, 매우 적합 2개, 탁월 금색), 부정은 빨간 별(부적합 1개, 매우 부적합 2개), 중립은 회색으로 나타납니다.</WR_OptVerdictsColonistsTip>
+  <WR_OptVerdictsPalette>역할 팔레트에서 선택한 정착민의 적합도 표시</WR_OptVerdictsPalette>
+  <WR_OptVerdictsPaletteTip>팔레트의 역할 칩에 현재 선택한 정착민의 역할 적합도를 표시합니다.</WR_OptVerdictsPaletteTip>
+  <WR_OptVerdictsRecommendations>추천 역할 칩에 적합도 표시</WR_OptVerdictsRecommendations>
+  <WR_OptPaletteGrouping>역할 팔레트 그룹화</WR_OptPaletteGrouping>
+  <WR_OptVerdictsRecommendationsTip>정착민에게 추천된 역할 칩(능력치 창 및 변경 미리보기)에 해당 정착민의 적합도를 표시합니다.</WR_OptVerdictsRecommendationsTip>
+  <WR_RecGlobalPanel>전체 설정</WR_RecGlobalPanel>
+  <WR_RecGlobalPanelHelp>추천 시스템이 후보자의 점수와 순위를 매기는 방식, 그리고 최종 추천 목록에 역할을 배치하는 위치를 조정합니다. 변경을 되돌리려면 초기화 버튼을 누르세요.</WR_RecGlobalPanelHelp>
+  <WR_RecRolePanel>역할별 설정</WR_RecRolePanel>
+  <WR_RecRolePanelHelp>위의 기본 추천 순서에 포함된 역할을 표시합니다. 역할이 없다면 먼저 추천 순서에 추가하세요.</WR_RecRolePanelHelp>
+  <WR_RecOrderHeader>추천 역할</WR_RecOrderHeader>
+  <WR_RecOrderHelp>추천 시스템이 고려할 역할을 지정합니다. 육성 역할은 각 역할의 육성 경로 설정에 따라 포함됩니다. 목록 순서는 정착민의 최종 추천 순서를 정할 때 동점 순위 기준으로 사용됩니다.</WR_RecOrderHelp>
+  <WR_OptRecOrder>추천 순서</WR_OptRecOrder>
+  <WR_OptRecOrderTipWhat>바닐라 우선순위 표를 바탕으로 역할을 나열하는 순서입니다. 자동 배정 역할도 포함됩니다.</WR_OptRecOrderTipWhat>
+  <WR_ActRecDrag>칩을 끌어 순서 변경</WR_ActRecDrag>
+  <WR_ActRecX>역할 고정을 해제해 자동 배치로 되돌리기</WR_ActRecX>
+  <WR_RecOrderChipTip>끌어서 순서를 바꾸세요. 이는 참고용이지 고정된 추천 순서는 아닙니다. 목록에 없는 역할도 추천될 수 있습니다.</WR_RecOrderChipTip>
+  <WR_RecOrderAddTip>배치 순서를 지정하거나 아래 역할 설정을 사용하려면 역할을 추가하세요.</WR_RecOrderAddTip>
+  <WR_OptRecOrderTipAuto>목록에 없는 역할은 자동 배치됩니다. 육성 역할은 목표 역할 뒤에, 하위 역할은 해당 작업을 포괄하는 역할 뒤에, 사냥꾼은 간수·육아 역할 뒤에 놓입니다.</WR_OptRecOrderTipAuto>
+  <WR_OptLockedTip>사냥꾼 역할이 이제 추천 목록의 고정 위치를 사용합니다. 이 칩을 제거하면 사격 기술에 따라 동적으로 배치됩니다.</WR_OptLockedTip>
+  <WR_RecTuneReset>초기화</WR_RecTuneReset>
+  <WR_RecTuneResetTip>이 구역의 설정을 기본값으로 되돌립니다.</WR_RecTuneResetTip>
+  <WR_RecTuneCellHint>값을 클릭하면 올리고, 우클릭하면 내립니다.</WR_RecTuneCellHint>
+  <WR_StepModifiersTip>클릭: 1단계\nShift: 5단계\nCtrl: 10단계\nCtrl+Shift: 최댓값 또는 최솟값으로 이동</WR_StepModifiersTip>
+  <WR_SignalLetterAwful>최악</WR_SignalLetterAwful>
+  <WR_SignalLetterPoor>나쁨</WR_SignalLetterPoor>
+  <WR_SignalLetterNeutral>보통</WR_SignalLetterNeutral>
+  <WR_SignalLetterStrong>좋음</WR_SignalLetterStrong>
+  <WR_SignalLetterGreat>매우 좋음</WR_SignalLetterGreat>
+  <WR_SignalLetterExceptional>탁월</WR_SignalLetterExceptional>
+  <WR_RecTuneChampionSection>주 담당자 선정 설정</WR_RecTuneChampionSection>
+  <WR_RecTuneChampionSectionIntro>각 역할을 맡길 정착민 중 가장 잘 맞는 사람을 먼저 주 담당자로 뽑습니다. 누가 후보가 될지, 기술과 역할 적합도를 어떤 비중으로 볼지 정합니다.</WR_RecTuneChampionSectionIntro>
+  <WR_RecTuneOrderingSection>최종 역할 순서 설정</WR_RecTuneOrderingSection>
+  <WR_RecTuneOrderingSectionIntro>정착민의 역할이 정해진 뒤, 작업 우선순위가 될 역할 표시 순서를 정합니다.</WR_RecTuneOrderingSectionIntro>
+  <WR_RecTuneOptionalSection>육성 경로 및 선택 역할 설정</WR_RecTuneOptionalSection>
+  <WR_RecTuneOptionalSectionIntro>육성 경로를 언제 적용할지, 여러 기술이 필요한 선택 역할을 추천할지 정합니다.</WR_RecTuneOptionalSectionIntro>
+  <WR_RecTuneLeadSection>육성 경로 시작 역할 분산 설정</WR_RecTuneLeadSection>
+  <WR_RecTuneLeadSectionIntro>여러 육성 경로가 같은 역할로 이어질 때, 각 경로의 첫 역할이 한 정착민에게 몰리지 않도록 나눠 배정합니다.</WR_RecTuneLeadSectionIntro>
+  <WR_RecTuneHunterSection>사냥꾼 배치 설정</WR_RecTuneHunterSection>
+  <WR_RecTuneHunterSectionIntro>고정되지 않은 사냥꾼 역할은 사격 기술에 따라 동적으로 배치됩니다. 사격을 잘하는 정착민일수록 다른 작업에 쓸 시간이 더 가치 있으므로 사냥 우선순위가 낮아집니다.</WR_RecTuneHunterSectionIntro>
+  <WR_RecTuneCandidateMinimumSignal>후보로 인정할 최소 적합도</WR_RecTuneCandidateMinimumSignal>
+  <WR_RecTuneCandidateMinimumSignalDesc>일반 역할을 맡길 후보가 갖춰야 할 최소 적합도입니다. 값을 높이면 주 담당자와 최소 인원을 정하기 전에 적합도가 낮은 정착민을 후보에서 제외합니다.</WR_RecTuneCandidateMinimumSignalDesc>
+  <WR_RecTuneChampionSkillDivisor>주 담당자 선정 시 기술 반영 정도</WR_RecTuneChampionSkillDivisor>
+  <WR_RecTuneChampionSkillDivisorDesc>주 담당자를 고를 때 기술 수준을 이 값으로 나눈 점수를 사용합니다(소수점은 올림). 값을 높이면 기술 수준이 선정에 미치는 영향이 줄어듭니다.</WR_RecTuneChampionSkillDivisorDesc>
+  <WR_RecTuneChampionMultiSkillMinimumCount>여러 기술을 함께 평가할 최소 개수</WR_RecTuneChampionMultiSkillMinimumCount>
+  <WR_RecTuneChampionMultiSkillMinimumCountDesc>주 담당자 점수를 계산할 때 함께 평가할 기술의 최소 개수입니다. 이보다 적으면 해당 역할에서 가장 중요한 기술 하나만 평가합니다.</WR_RecTuneChampionMultiSkillMinimumCountDesc>
+  <WR_RecTuneChampionMultiplierRow>적합도 배율</WR_RecTuneChampionMultiplierRow>
+  <WR_RecTuneChampionMultiplierRowDesc>주 담당자를 정할 때 각 적합도 단계에서 계산한 기술 점수에 곱합니다.</WR_RecTuneChampionMultiplierRowDesc>
+  <WR_RecTuneMultiplierAwfulTip>최악 적합도입니다. 후보 최소 적합도에서 최악 후보를 허용할 때만 이 열이 적용됩니다.</WR_RecTuneMultiplierAwfulTip>
+  <WR_RecTuneChampionTieBreakRow>동점 판정 점수</WR_RecTuneChampionTieBreakRow>
+  <WR_RecTuneChampionTieBreakRowDesc>주 담당자 점수가 같을 때 우열을 가리는 추가 점수입니다. 여러 기술을 쓰는 역할은 기준을 충족한 기술의 점수를 더합니다.</WR_RecTuneChampionTieBreakRowDesc>
+  <WR_RecTuneRankedCandidatePrioritySignal>높은 적합도 후보 우선 기준</WR_RecTuneRankedCandidatePrioritySignal>
+  <WR_RecTuneRankedCandidatePrioritySignalDesc>주 담당자가 아닌 후보 중 이 적합도 이상인 정착민을 필요한 인원을 채우기 전에 우선 배정합니다.</WR_RecTuneRankedCandidatePrioritySignalDesc>
+  <WR_RecTuneSurplusMinimumSignal>추가 배정 최소 적합도</WR_RecTuneSurplusMinimumSignal>
+  <WR_RecTuneSurplusMinimumSignalDesc>필요한 인원을 채운 뒤에도 이 적합도 이상인 정착민에게 역할을 더 배정할 수 있습니다. 기술 하나를 쓰는 역할은 설정된 육성 구간과 기술 수준을 고려하고, 여러 기술이 필요한 선택 역할은 별도의 적성 기준을 따릅니다.</WR_RecTuneSurplusMinimumSignalDesc>
+  <WR_RecTuneOrderingSkillDivisor>역할 순서에 반영할 기술 비율</WR_RecTuneOrderingSkillDivisor>
+  <WR_RecTuneOrderingSkillDivisorDesc>역할 순서를 정할 때 기술 수준을 이 값으로 나눠 점수에 반영합니다(소수점은 올림). 값을 높이면 기술 수준의 영향이 줄어듭니다.</WR_RecTuneOrderingSkillDivisorDesc>
+  <WR_RecTuneOrderingPointsRow>적합도 점수</WR_RecTuneOrderingPointsRow>
+  <WR_RecTuneOrderingPointsRowDesc>최종 추천 역할 순서를 정할 때 각 적합도 단계가 더하는 점수입니다.</WR_RecTuneOrderingPointsRowDesc>
+  <WR_RecTuneMinimumPickRow>최소 인원 보정 점수</WR_RecTuneMinimumPickRow>
+  <WR_RecTuneMinimumPickRowDesc>역할에 필요한 최소 인원을 채우려고 정착민을 첫 번째, 두 번째, 세 번째 및 그 이후로 선택할 때 부여하는 순서 점수입니다.</WR_RecTuneMinimumPickRowDesc>
+  <WR_RecTuneCategoryPointsRow>중요도 점수</WR_RecTuneCategoryPointsRow>
+  <WR_RecTuneCategoryPointsRowDesc>정착지 중요도에 따른 순서 점수입니다. 중요 역할은 같은 적합도의 생산 작업보다 앞서고, 선택 역할은 목록 뒤로 밀립니다.</WR_RecTuneCategoryPointsRowDesc>
+  <WR_RecTuneTimePointsRow>시간 수요 점수</WR_RecTuneTimePointsRow>
+  <WR_RecTuneTimePointsRowDesc>작업에 필요한 시간에 따른 순서 점수입니다. 시간제 작업은 같은 적합도의 전일제 작업보다 앞서고, 틈틈이 하는 작업은 목록 뒤로 밀립니다.</WR_RecTuneTimePointsRowDesc>
+  <WR_RecTunePathMinimumSignal>육성 역할 최소 적합도</WR_RecTunePathMinimumSignal>
+  <WR_RecTunePathMinimumSignalDesc>활성화된 육성 경로에 참여할 때 역할이 가질 수 있는 최저 적합도입니다.</WR_RecTunePathMinimumSignalDesc>
+  <WR_RecTuneOptionalTargetMinimumSkillCount>선택 역할에 필요한 기술 수</WR_RecTuneOptionalTargetMinimumSkillCount>
+  <WR_RecTuneOptionalTargetMinimumSkillCountDesc>선택 역할의 적성 점수를 계산하기 전에 필요한 기술 수입니다. 기준을 충족하는 기술이 이보다 적으면 적성 점수를 계산하지 않습니다.</WR_RecTuneOptionalTargetMinimumSkillCountDesc>
+  <WR_RecTuneOptionalTargetMinimumSignal>선택 역할 최소 적합도</WR_RecTuneOptionalTargetMinimumSignal>
+  <WR_RecTuneOptionalTargetMinimumSignalDesc>기술 하나를 쓰는 역할의 추가 배정이나 선택 역할의 점수 계산에 기술 수준을 반영하려면, 해당 기술이 이 적합도 이상이어야 합니다.</WR_RecTuneOptionalTargetMinimumSignalDesc>
+  <WR_RecTuneOptionalTargetStrongLevel>중간 적합도 보정에 필요한 기술 수준</WR_RecTuneOptionalTargetStrongLevel>
+  <WR_RecTuneOptionalTargetStrongLevelDesc>이 기술 수준에 도달하면 적합도가 낮은 정착민도 설정된 중간 적합도로 평가합니다. 이 평가는 기술 하나를 쓰는 역할의 추가 배정 여부와 선택 역할 점수에 반영됩니다.</WR_RecTuneOptionalTargetStrongLevelDesc>
+  <WR_RecTuneOptionalTargetStrongPromotedSignal>보정 후 중간 적합도</WR_RecTuneOptionalTargetStrongPromotedSignal>
+  <WR_RecTuneOptionalTargetStrongPromotedSignalDesc>기술 수준이 중간 기준 이상일 때 기술 하나를 쓰는 역할의 추가 배정과 선택 역할 평가에 사용할 적합도입니다.</WR_RecTuneOptionalTargetStrongPromotedSignalDesc>
+  <WR_RecTuneOptionalTargetGreatLevel>높은 적합도 보정에 필요한 기술 수준</WR_RecTuneOptionalTargetGreatLevel>
+  <WR_RecTuneOptionalTargetGreatLevelDesc>이 기술 수준에 도달하면 적합도가 낮은 정착민도 설정된 높은 적합도로 평가합니다. 이 평가는 기술 하나를 쓰는 역할의 추가 배정 여부와 선택 역할 점수에 반영됩니다.</WR_RecTuneOptionalTargetGreatLevelDesc>
+  <WR_RecTuneOptionalTargetGreatPromotedSignal>보정 후 높은 적합도</WR_RecTuneOptionalTargetGreatPromotedSignal>
+  <WR_RecTuneOptionalTargetGreatPromotedSignalDesc>기술 수준이 높은 기준 이상일 때 기술 하나를 쓰는 역할의 추가 배정과 선택 역할 평가에 사용할 적합도입니다.</WR_RecTuneOptionalTargetGreatPromotedSignalDesc>
+  <WR_RecTuneOptionalTargetMinimumPoints>선택 역할 최소 점수</WR_RecTuneOptionalTargetMinimumPoints>
+  <WR_RecTuneOptionalTargetMinimumPointsDesc>선택 역할을 추천하려면 정착민의 적합도 점수가 설정한 최소값을 넘어야 합니다.</WR_RecTuneOptionalTargetMinimumPointsDesc>
+  <WR_RecTuneLeadMinimumConnectedTargets>분산 대상 최소 개수</WR_RecTuneLeadMinimumConnectedTargets>
+  <WR_RecTuneLeadMinimumConnectedTargetsDesc>육성 경로의 첫 역할을 여러 정착민에게 나눠 배정하기 전에 필요한 연결된 목표 역할의 최소 개수입니다.</WR_RecTuneLeadMinimumConnectedTargetsDesc>
+  <WR_RecTuneLeadMinimumSignal>경로 시작 역할 최소 적합도</WR_RecTuneLeadMinimumSignal>
+  <WR_RecTuneLeadMinimumSignalDesc>육성 경로의 첫 역할을 나눠 맡길 정착민이 갖춰야 하는 최소 적합도입니다.</WR_RecTuneLeadMinimumSignalDesc>
+  <WR_RecTuneHunterTiersRow>사격 단계별 최고 수준</WR_RecTuneHunterTiersRow>
+  <WR_RecTuneHunterTiersRowDesc>사냥꾼 동적 배치에 사용할 사격 기술 구간입니다. 1단계는 기본 작업 바로 뒤, 2·3단계는 중간 및 마지막 작업 역할 뒤에 배치하며, 4단계를 넘는 수준은 사냥꾼을 맨 뒤에 둡니다.</WR_RecTuneHunterTiersRowDesc>
+  <WR_TrainingSection>육성 경로</WR_TrainingSection>
+  <WR_TrainingHelp>정착민이 이 역할을 향해 기술을 어떻게 익히고 발전할지 설정합니다. 역할이 서로 겹칠 수 있도록 육성 경로에 여러 구간을 둘 수 있습니다. 경로가 추천되면 현재 기술 수준에 해당하는 모든 역할을 추천합니다.</WR_TrainingHelp>
+  <WR_TrainingTipWhat>역할 자체의 성장 과정입니다. 경로에 포함된 각 역할은 추천될 기술 구간을 가집니다. 기준 역할은 항상 경로에 남습니다.</WR_TrainingTipWhat>
+  <WR_TrainingTipBands>겹치는 구간은 함께 유지되고, 겹치지 않는 구간에서는 뒤의 역할이 앞의 역할을 대체합니다.</WR_TrainingTipBands>
+  <WR_TrainingTipOrder>배정 시 구간의 최소 기술 수준이 높은 역할을 우선합니다. 구간이 같으면 해당 역할의 가장 낮은 기술 수준, 그다음 저장된 경로 순서를 따릅니다.</WR_TrainingTipOrder>
+  <WR_AddNew>새 항목 추가</WR_AddNew>
+  <WR_WhenPanelCaption>역할 성장: 표시된 역할을 어떤 기술 수준에서 추천할지 정합니다. 기술 구간이 겹치면 역할이 서로 보완됩니다.</WR_WhenPanelCaption>
+  <WR_AddRole>역할 추가</WR_AddRole>
+  <WR_NoContributionRoleTip>이 역할에 필요한 기술을 전혀 훈련하지 않으므로 육성 단계로 사용할 수 없습니다. 모드에 따라 경험치를 얻는 방식이 달라질 수 있으니, 그래도 추가할 수는 있습니다.</WR_NoContributionRoleTip>
+  <WR_ContributesTip>이 역할을 향해 훈련: {0}.</WR_ContributesTip>
+  <WR_RecClassificationSection>분류</WR_RecClassificationSection>
+  <WR_RecSkillsSection>기술</WR_RecSkillsSection>
+  <WR_RecScalingSection>배정 규모</WR_RecScalingSection>
+  <WR_RoleColonyMinLabel>정착지 최소 인원:</WR_RoleColonyMinLabel>
+  <WR_RoleColonyMinTip>이 역할에 배정할 최소 인원입니다.</WR_RoleColonyMinTip>
+  <WR_RoleCoverageLabel>배정 비율:</WR_RoleCoverageLabel>
+  <WR_RoleCoverageTip>정착민 중 이 역할을 맡기 원하는 비율입니다.</WR_RoleCoverageTip>
+  <WR_RoleCategoryLabel>정착지 중요도:</WR_RoleCategoryLabel>
+  <WR_RoleCategoryTip>정착지의 역할을 계획할 때 이 역할이 얼마나 중요한지 정합니다. ‘미설정’이면 분류하지 않습니다.</WR_RoleCategoryTip>
+  <WR_RoleCategoryNone>미설정</WR_RoleCategoryNone>
+  <WR_RoleCategoryImportant>중요</WR_RoleCategoryImportant>
+  <WR_RoleCategoryNormal>보통</WR_RoleCategoryNormal>
+  <WR_RoleCategoryOptional>선택</WR_RoleCategoryOptional>
+  <WR_RoleTimeLabel>시간 수요:</WR_RoleTimeLabel>
+  <WR_RoleTimeTip>정착민의 하루 중 이 역할의 작업에 드는 시간입니다.</WR_RoleTimeTip>
+  <WR_RoleTimeNone>미설정</WR_RoleTimeNone>
+  <WR_RoleTimePartTime>시간제</WR_RoleTimePartTime>
+  <WR_RoleTimeFullTime>전일제</WR_RoleTimeFullTime>
+  <WR_RoleTimeOpportunistic>틈틈이</WR_RoleTimeOpportunistic>
+  <WR_ChampionPenalty>같은 정착민 반복 추천 불이익</WR_ChampionPenalty>
+  <WR_ChampionPenaltyTip>켜면 이미 다른 역할의 주 담당자로 뽑힌 정착민이 이 역할의 주 담당자로도 뽑힐 가능성이 낮아집니다. 가끔 하는 작업처럼 한 정착민이 여러 역할을 맡아도 괜찮다면 끄세요.</WR_ChampionPenaltyTip>
+  <WR_PartialCapability>일부 작업만 가능해도 허용</WR_PartialCapability>
+  <WR_PartialCapabilityTip>역할의 작업 중 일부만 할 수 있는 정착민도 추천합니다. 아무 작업도 할 수 없으면 추천하지 않습니다. 모든 정착민이 맡아야 하는 공통 유휴 작업처럼 범위가 넓은 역할에 유용합니다.</WR_PartialCapabilityTip>
+  <WR_PartialCapabilityLockedTip>일부 작업만 가능한 정착민에게 이미 이 역할을 추천하고 있습니다. 숙련 작업이 없는 역할과 사냥 역할은 항상 부분 수행을 허용합니다.</WR_PartialCapabilityLockedTip>
+  <WR_RoleAgeBandsLabel>이 역할을 맡을 수 있는 연령대:</WR_RoleAgeBandsLabel>
+  <WR_RoleAgeBandsTip>선택한 연령대 밖의 정착민은 이 역할을 배정받거나 추천받지 않습니다. 선택 밖의 구간을 누르면 그 나이까지 모두 포함하고, 선택된 첫째·마지막 구간을 누르면 해당 구간을 제거하며, 가운데 구간을 누르면 그 구간만 선택합니다. 구간 경계는 게임에서 작업이 해금되는 나이를 따릅니다. 이 역할의 모든 작업은 {0}세부터 가능합니다.</WR_RoleAgeBandsTip>
+  <WR_WorkTypesLabel>작업 유형</WR_WorkTypesLabel>
+  <WR_WorkTypesTip>지정한 유형의 작업을 수행할 수 있는 정착민만 이 역할의 대상이 됩니다.\n\n선택된 작업에서 계산한 참고 정보입니다.</WR_WorkTypesTip>
+  <WR_UsedSkillsLabel>사용 기술</WR_UsedSkillsLabel>
+  <WR_UsedSkillsTip>이 역할의 작업에 영향을 주는 기술입니다. 기술에 마우스를 올리면 효과를 확인할 수 있습니다.\n\n선택된 작업에서 계산한 참고 정보입니다.</WR_UsedSkillsTip>
+  <WR_TrainedSkillsLabel>훈련 기술</WR_TrainedSkillsLabel>
+  <WR_TrainedSkillsTip>이 역할의 작업으로 경험치를 얻는 기술입니다.\n\n선택된 작업에서 계산한 참고 정보입니다.</WR_TrainedSkillsTip>
+  <WR_GatedSkillsLabel>기술 제한</WR_GatedSkillsLabel>
+  <WR_GatedSkillsTip>이 역할의 특정 작업을 수행하는 데 필요한 기술입니다. 필요한 최소 수준은 관련 제조법·식물·건물에 따라 달라집니다. 기술에 마우스를 올려 자세한 내용을 확인하세요.\n\n선택된 작업에서 계산한 참고 정보입니다.</WR_GatedSkillsTip>
+  <WR_RecMoreContentGates>{0}개 더</WR_RecMoreContentGates>
+  <WR_EffectSpeed>작업 속도 증가</WR_EffectSpeed>
+  <WR_EffectQuality>품질 향상</WR_EffectQuality>
+  <WR_EffectYield>수확량 증가</WR_EffectYield>
+  <WR_EffectSuccess>성공 확률 향상</WR_EffectSuccess>
+  <WR_RequiredSkillsLabel>필수 기술</WR_RequiredSkillsLabel>
+  <WR_RequiredSkillsTip>이 역할에 필요한 기술을 선택해 필수 조건으로 지정합니다. 필수 기술 중 하나라도 비활성화된 정착민은 추천할 수 없습니다. 기술 수준은 조건에 영향을 주지 않으며, ‘기술 제한’에 표시되는 작업별 최소 기술과는 별개입니다.</WR_RequiredSkillsTip>
+  <WR_AddSkill>기술 추가</WR_AddSkill>
+  <WR_AddSkillTip>기술을 필수 조건으로 추가합니다. 역할에서 계산된 사용 기술이나 훈련 기술은 바뀌지 않습니다.</WR_AddSkillTip>
+  <WR_RemoveSkillTip>이 기술 필수 조건을 제거합니다.</WR_RemoveSkillTip>
+  <WR_RoleMissingRequiredSkills>{0}의 필수 기술이 비활성화됨: {1}.</WR_RoleMissingRequiredSkills>
+  <WR_PathAddRoleTip>이 육성 경로에 역할을 추가합니다.</WR_PathAddRoleTip>
+  <WR_BandChipTip>양 끝을 끌어 기술 구간을 조절하고, 가운데를 끌어 이동합니다.</WR_BandChipTip>
+  <WR_PriorityGridTitle>우선순위 표</WR_PriorityGridTitle>
+  <WR_ShowPriorityGridTip>현재 역할 및 위치 필터를 반영해 목록의 모든 정착민 우선순위 표를 표시합니다. 대화창에서 원래 순위 또는 바닐라식 0~4 표시를 선택할 수 있습니다.</WR_ShowPriorityGridTip>
+  <WR_GridModeRaw>WorkRoles 우선순위</WR_GridModeRaw>
+  <WR_GridModeVanilla>바닐라 우선순위</WR_GridModeVanilla>
+  <WR_ResizeGripTip>끌어서 창 크기를 조정합니다. 내용에 맞춘 크기보다 커지기만 합니다. 두 번 클릭하면 자동 크기로 돌아갑니다.</WR_ResizeGripTip>
+  <WR_RolesTab>역할</WR_RolesTab>
+  <WR_HelpTab>도움말</WR_HelpTab>
+  <WR_HelpChapterStart>시작하기</WR_HelpChapterStart>
+  <WR_HelpChapterBasics>기본 사용법</WR_HelpChapterBasics>
+  <WR_HelpChapterEditing>역할 편집</WR_HelpChapterEditing>
+  <WR_HelpChapterOrganizing>정리하기</WR_HelpChapterOrganizing>
+  <WR_HelpChapterRecommendations>추천</WR_HelpChapterRecommendations>
+  <WR_HelpChapterAdvanced>고급 설정</WR_HelpChapterAdvanced>
+  <WR_HelpReload>다시 불러오기</WR_HelpReload>
+  <WR_HelpDemoChipA>의사</WR_HelpDemoChipA>
+  <WR_HelpDemoChipB>농부</WR_HelpDemoChipB>
+  <WR_HelpDemoChipC>운반 담당자</WR_HelpDemoChipC>
+  <WR_HelpTourHeader>단계별 안내</WR_HelpTourHeader>
+  <WR_HelpTourProgress>{1}개 중 {0}개 항목 읽음</WR_HelpTourProgress>
+  <WR_HelpTourComplete>준비 완료!</WR_HelpTourComplete>
+  <WR_HelpTourCompleteHint>기본 내용을 모두 익혔습니다. 다른 기능은 위의 장에서 확인하세요.</WR_HelpTourCompleteHint>
+  <WR_ClusterEveryone>전체</WR_ClusterEveryone>
+  <WR_ClusterUnskilled>비숙련</WR_ClusterUnskilled>
+  <WR_OddJobsRole>잡무</WR_OddJobsRole>
+  <WR_BlockerRole>차단 역할</WR_BlockerRole>
+  <WR_BlockerRoleTipWhat>차단 역할에 포함된 작업은 절대 수행하지 않습니다. 뒤의 역할(예: 기초)에 포함되어도 ‘하지 않음’으로 차단됩니다.</WR_BlockerRoleTipWhat>
+  <WR_BlockerRoleTipWhy>차단 역할보다 위에 있는 역할은 우선 적용되므로, 예외를 허용하려면 해당 역할을 더 위에 배치하세요.</WR_BlockerRoleTipWhy>
+  <WR_ReasonFireFear>유전적으로 불을 두려워함: 화재 진압 차단</WR_ReasonFireFear>
+  <WR_RoleTipEnabled>활성화</WR_RoleTipEnabled>
+  <WR_RoleTipDisabled>전역 비활성화</WR_RoleTipDisabled>
+  <WR_RoleTipDisabledHere>이 정착민에게 비활성화</WR_RoleTipDisabledHere>
+  <WR_RoleTipDisabledBoth>전역 및 이 정착민에게 비활성화</WR_RoleTipDisabledBoth>
+  <WR_RoleTipForcedOn>이 정착민에게 강제 활성화</WR_RoleTipForcedOn>
+  <WR_RoleTipForcedOnGlobalOff>이 정착민에게 강제 활성화(역할은 전역 비활성화)</WR_RoleTipForcedOnGlobalOff>
+  <WR_BadgeBlocker>차단</WR_BadgeBlocker>
+  <WR_BadgeHours>시간 제한</WR_BadgeHours>
+  <WR_BadgeLocation>위치 제한</WR_BadgeLocation>
+  <WR_TipJobsLabel>작업</WR_TipJobsLabel>
+  <WR_TipSkillsLabel>기술</WR_TipSkillsLabel>
+  <WR_TipTrainingHeader>육성</WR_TipTrainingHeader>
+  <WR_TipTrainingRecommend>기술 {0}인 정착민에게 추천</WR_TipTrainingRecommend>
+  <WR_TipTrainingPath>{0} 역할로 성장하는 경로</WR_TipTrainingPath>
+  <WR_TipBestFitsLabel>가장 적합</WR_TipBestFitsLabel>
+  <WR_TipWholeType>{0}(모든 작업)</WR_TipWholeType>
+  <WR_TipMore>외 {0}개</WR_TipMore>
+  <WR_RoleCapNeverDo>{0}: {1} 작업을 전혀 하지 않음</WR_RoleCapNeverDo>
+  <WR_RoleCapAllJobs>이 역할의 모든 작업</WR_RoleCapAllJobs>
+  <WR_RoleCapSomeJobs>이 역할의 {1}개 작업 중 {0}개</WR_RoleCapSomeJobs>
+  <WR_RoleJobIncapable>이 작업을 할 수 없음</WR_RoleJobIncapable>
+  <WR_RoleJobNoRangedWeapon>원거리 무기 없음</WR_RoleJobNoRangedWeapon>
+  <WR_RoleJobTooYoung>너무 어려서 불가능함({0}세부터 가능)</WR_RoleJobTooYoung>
+  <WR_RoleTooYoung>{0}: 이 역할을 맡기엔 너무 어림(최소 {1}세).</WR_RoleTooYoung>
+  <WR_RoleTooOld>{0}: 이 역할을 맡기엔 나이가 많음(최대 {1}세).</WR_RoleTooOld>
+  <WR_MtcHatedWorkSignalLabel>{0}을(를) 싫어함</WR_MtcHatedWorkSignalLabel>
+  <WR_MtcHatedWorkSignalDescription>More Than Capable이 작업은 허용하지만, 심각하고 점점 커지는 불이익을 줍니다.</WR_MtcHatedWorkSignalDescription>
+  <WR_RoleAwfulSignal>{0}의 이 역할 적합도가 최악임: {1}.</WR_RoleAwfulSignal>
+  <WR_ActClick>클릭</WR_ActClick>
+  <WR_ActShiftClick>Shift+클릭</WR_ActShiftClick>
+  <WR_ActCtrlShiftClick>Ctrl+Shift+클릭</WR_ActCtrlShiftClick>
+  <WR_ActAltClick>Alt+클릭</WR_ActAltClick>
+  <WR_ActDrag>끌기</WR_ActDrag>
+  <WR_ActRightClick>우클릭</WR_ActRightClick>
+  <WR_ActX>X 클릭</WR_ActX>
+  <WR_ActPaletteClick>역할을 전역으로 켜거나 끄기</WR_ActPaletteClick>
+  <WR_ActPaletteShiftClick>선택한 정착민의 행 끝에 역할 배정</WR_ActPaletteShiftClick>
+  <WR_ActPaletteCtrlShiftClick>선택한 정착민의 ‘기본 담당’ 역할 바로 뒤에 배정</WR_ActPaletteCtrlShiftClick>
+  <WR_ActPaletteAltClick>추천 시스템이 정한 순위에 맞춰 선택한 정착민에게 배정</WR_ActPaletteAltClick>
+  <WR_ActPaletteDrag>정착민에게 역할 배정</WR_ActPaletteDrag>
+  <WR_ActTreeClick>편집할 역할 선택</WR_ActTreeClick>
+  <WR_ActTreeDrag>끌어서 순서 변경 또는 그룹 이동</WR_ActTreeDrag>
+  <WR_ActTreeRightClick>역할에 작업을 넣거나 빼기</WR_ActTreeRightClick>
+  <WR_ActChipClick>이 정착민에게 역할을 켜거나 끄기(또는 강제로 켜기)</WR_ActChipClick>
+  <WR_ActChipRightClick>고정 설정</WR_ActChipRightClick>
+  <WR_ActChipDrag>끌어서 순서를 바꾸거나 다른 정착민에게 이동</WR_ActChipDrag>
+  <WR_ActChipX>제거</WR_ActChipX>
+  <WR_ColonistNameCaption>정착민 이름</WR_ColonistNameCaption>
+  <WR_AssignedRoleCaption>배정된 역할</WR_AssignedRoleCaption>
+  <WR_CoveredJobCaption>포함된 작업</WR_CoveredJobCaption>
+  <WR_LocationCaption>위치</WR_LocationCaption>
+  <WR_GroupByCaption>그룹 기준</WR_GroupByCaption>
+  <WR_SkillColumnsCaption>기술 열</WR_SkillColumnsCaption>
+  <WR_RoleDisplayCaption>역할 표시</WR_RoleDisplayCaption>
+  <WR_ColonistSearchTip>정착민 이름을 검색합니다. 공백으로 검색어를 구분하며 모든 검색어가 일치해야 합니다. r: 또는 role:을 붙이면 배정된 역할 이름을, j: 또는 job:을 붙이면 배정된 역할의 작업을 검색합니다. 예: br r:의사</WR_ColonistSearchTip>
+  <WR_ColonistRoleFilterTip>선택한 역할이 배정된 정착민을 표시합니다. 차단 역할이 아닌 역할은 작업이 선택한 역할 전체를 포함해도 일치합니다. 검색·작업·위치 필터와 함께 적용됩니다.</WR_ColonistRoleFilterTip>
+  <WR_ColonistJobFilterTip>선택됨: {0}
+선택한 작업이 들어 있는 일반 역할을 맡은 정착민만 표시합니다. 실제로 지금 그 작업을 하는지, 바닐라 우선순위가 얼마인지는 따지지 않고 역할에 작업이 포함되어 있는지만 확인합니다.</WR_ColonistJobFilterTip>
+  <WR_ColonistScopeTip>표에 표시할 정착민의 위치를 정합니다. 현재 위치는 활성화된 맵을 따르며, 전체 위치에는 정착지·캐러밴·이동 중인 중력선이 포함됩니다.</WR_ColonistScopeTip>
+  <WR_ColonistGroupTip>선택한 특성에 따라 표시된 정착민을 구역별로 나눕니다. 그룹화해도 필터에 맞는 정착민은 달라지지 않으며, 구역 제목을 눌러 접을 수 있습니다.</WR_ColonistGroupTip>
+  <WR_ColonistSkillColumnsTip>표에 표시할 기술 열을 최대 3개까지 선택합니다. 기술 제목을 눌러 정렬하거나 X를 눌러 열을 제거하세요.</WR_ColonistSkillColumnsTip>
+  <WR_ColonistRoleDisplayTip>정착민 표의 역할 칩 표시 방식을 정합니다. 전체 이름·약칭·아이콘 중에서 고를 수 있습니다. 옆 버튼은 칩을 세로로 쌓거나 격자 열로 정렬합니다. 플레이어별 표시 설정입니다.</WR_ColonistRoleDisplayTip>
+  <WR_ChipLayoutGridTip>칩을 같은 너비의 격자 열에 정렬합니다. 긴 이름은 칩 가장자리에서 흐려지며, 비슷한 역할 이름이 있을 때만 더 많은 공간을 씁니다. 마우스를 올리면 전체 이름이 표시됩니다. 클릭하면 자연스러운 너비로 쌓습니다. 우클릭하면 열에 표시할 이름 길이를 정합니다.</WR_ChipLayoutGridTip>
+  <WR_ChipLayoutStackTip>칩을 각 이름의 자연스러운 너비로 쌓습니다. 클릭하면 같은 너비의 격자 열로 정렬합니다. 우클릭하면 격자 열에 표시할 이름 길이를 정합니다.</WR_ChipLayoutStackTip>
+  <WR_GridNamesAutomatic>자동</WR_GridNamesAutomatic>
+  <WR_GridNamesShort>짧게</WR_GridNamesShort>
+  <WR_GridNamesMedium>중간</WR_GridNamesMedium>
+  <WR_GridNamesLong>길게</WR_GridNamesLong>
+  <WR_GridNamesFull>전체</WR_GridNamesFull>
+  <WR_ColonistClearFiltersTip>정착민 이름 검색, 역할 필터, 포함 작업 필터를 지웁니다. 위치 범위·그룹화·기술 열·역할 표시는 유지됩니다.</WR_ColonistClearFiltersTip>
+  <WR_FilterAllRoles>모든 역할</WR_FilterAllRoles>
+  <WR_ScopeAll>모든 위치</WR_ScopeAll>
+  <WR_ScopeCurrent>현재 위치</WR_ScopeCurrent>
+  <WR_ScopeCurrentNamed>{0}(현재 위치)</WR_ScopeCurrentNamed>
+  <WR_ShipFallback>중력선</WR_ShipFallback>
+  <WR_ShipTip>정착지에 착륙하지 않은 중력선입니다. 정착지 타일이 있으면 그 위치를 우선합니다.</WR_ShipTip>
+  <WR_GroupNone>그룹화 안 함</WR_GroupNone>
+  <WR_GroupFaction>세력</WR_GroupFaction>
+  <WR_GroupRace>종족</WR_GroupRace>
+  <WR_GroupGender>성별</WR_GroupGender>
+  <WR_GroupAge>나이</WR_GroupAge>
+  <WR_GroupXenotype>이종족</WR_GroupXenotype>
+  <WR_GroupIdeo>이념</WR_GroupIdeo>
+  <WR_GroupSlaves>노예 여부</WR_GroupSlaves>
+  <WR_GroupTitleColonists>정착민</WR_GroupTitleColonists>
+  <WR_GroupTitleSlaves>노예</WR_GroupTitleSlaves>
+  <WR_GroupColonyGroups>정착민 그룹</WR_GroupColonyGroups>
+  <WR_GroupTitleUngrouped>그룹 없음</WR_GroupTitleUngrouped>
+  <WR_ChipsNormal>칩: 전체 이름</WR_ChipsNormal>
+  <WR_ChipsCompact>칩: 약칭</WR_ChipsCompact>
+  <WR_ChipsIcons>칩: 아이콘</WR_ChipsIcons>
+  <WR_OrderSuffixBar>(탭 순서)</WR_OrderSuffixBar>
+  <WR_OrderSuffixAZ>(가나다순)</WR_OrderSuffixAZ>
+  <WR_DisplayButton>표시 방식</WR_DisplayButton>
+  <WR_DisplayOptions>표시 설정</WR_DisplayOptions>
+  <WR_CopyRolesTip>이 정착민의 역할을 복사합니다.</WR_CopyRolesTip>
+  <WR_PasteRolesTip>복사한 역할을 이 정착민에게 붙여 넣습니다.</WR_PasteRolesTip>
+  <WR_AddRoleTip>역할을 배정합니다.</WR_AddRoleTip>
+  <WR_SkillsButton>기술</WR_SkillsButton>
+  <WR_SkillsButtonCount>기술({0}/{1})</WR_SkillsButtonCount>
+  <WR_ColColonist>정착민</WR_ColColonist>
+  <WR_NoFilterMatches>필터에 맞는 정착민이 없습니다.</WR_NoFilterMatches>
+  <WR_FixMyColony>정착지 정리</WR_FixMyColony>
+  <WR_FixMyColonyTip>모든 정착민의 역할을 각자 추천된 역할로 바꿉니다.</WR_FixMyColonyTip>
+  <WR_FixNeedsSingleLocation>추천은 위치별로 계산됩니다. ‘정착지 정리’를 사용하려면 범위를 정착지나 함선 하나로 좁히세요.</WR_FixNeedsSingleLocation>
+  <WR_AutoManaged>자동 관리 중</WR_AutoManaged>
+  <WR_AutoManagedTip>WorkRoles가 게임 내 매시간 시작할 때 모든 정착지의 역할 배정을 자동으로 갱신합니다.
+
+고정한 배정은 유지됩니다.
+
+자동으로 변경되는 것을 막고 ‘정착지 정리’를 사용하려면 설정 탭에서 ‘게임 내 매시간 정착지 역할 자동 최적화’를 끄세요.</WR_AutoManagedTip>
+  <WR_SetPriorityBlockedTitle>Work Roles가 우선순위를 관리 중</WR_SetPriorityBlockedTitle>
+  <WR_SetPriorityBlockedBody>{0}이(가) 작업 우선순위를 설정하려 했습니다({1}).
+
+이전 알림 또는 이번 게임 세션 시작 후 Work Roles가 우선순위 변경 {2}회를 차단했습니다.
+
+Work Roles가 역할을 관리하는 정착민의 우선순위를 맡고 있어 변경을 무시했습니다. 이 모드의 다른 기능에는 영향이 없습니다.
+
+역할로 비슷한 효과를 내려면 역할 탭에서 해당 작업을 포함하는 역할을 만들거나 편집한 뒤 각 정착민의 역할 목록에서 원하는 위치에 두세요. 해당 작업을 완전히 금지하려면 차단 역할을 사용할 수도 있습니다.
+
+이 알림은 세이브마다 모드별로 한 번 표시됩니다.</WR_SetPriorityBlockedBody>
+  <WR_AllWork>모든 작업</WR_AllWork>
+  <WR_GiverBypassTitle>작업이 역할 목록을 우회함</WR_GiverBypassTitle>
+  <WR_GiverBypassBody>{0}이(가) ‘{1}’ 작업을 시작했지만, 배정된 역할 중 이 작업을 포함한 역할이 없습니다.
+
+Work Roles는 게임의 표준 방식으로 관리 대상 정착민의 작업 목록을 정합니다. 다른 모드가 별도의 작업 목록으로 일을 시켜 역할 제한을 우회하는 것 같습니다. 해당 모드가 켜져 있으면 정착민이 역할에 없는 작업도 할 수 있습니다.
+
+작업은 중단하지 않았습니다. 이 알림은 세이브마다 한 번 표시됩니다.</WR_GiverBypassBody>
+  <WR_Apply>적용</WR_Apply>
+  <WR_SelectAll>모두 선택</WR_SelectAll>
+  <WR_PreviewNoChanges>변경 사항 없음.</WR_PreviewNoChanges>
+  <WR_PreviewStale>미리보기를 여는 동안 정착지 상태가 바뀌어 아무것도 적용하지 않았습니다.</WR_PreviewStale>
+  <WR_ReasonEveryone>모두에게 자동 배정됨.</WR_ReasonEveryone>
+  <WR_ReasonHunter>원거리 무기를 들고 있으며 사냥 가능. 사냥은 사격도 훈련합니다.</WR_ReasonHunter>
+  <WR_ReasonSignal>추천 평가에서 {0} 역할의 점수가 더 높습니다.</WR_ReasonSignal>
+  <WR_ReasonCoverage>정착지에 필요한 인원을 채우기 위해, 이 일을 할 수 있는 후보 중 가장 잘 맞는 정착민을 골랐습니다.</WR_ReasonCoverage>
+  <WR_ReasonRemoved>추천 목록에 없습니다. 적용 전에 유지할 역할을 고정하세요.</WR_ReasonRemoved>
+  <WR_SignalColSignal>적합도</WR_SignalColSignal>
+  <WR_SignalColEffects>효과</WR_SignalColEffects>
+  <WR_SignalCondition>조건</WR_SignalCondition>
+  <WR_SignalSource>출처</WR_SignalSource>
+  <WR_SignalVerdict>판정</WR_SignalVerdict>
+  <WR_SignalSkillPromotion>기술 숙련도 상승</WR_SignalSkillPromotion>
+  <WR_SignalSkillPromotionEffect>{0} → {1}</WR_SignalSkillPromotionEffect>
+  <WR_SignalSkillPromotionCondition>기술 {0}이(가) 기준 {1} 충족</WR_SignalSkillPromotionCondition>
+  <WR_SignalFromSkill>({0} 기술 기준)</WR_SignalFromSkill>
+  <WR_SignalAlreadyReflected>표시된 기술 수준에 이미 반영됨</WR_SignalAlreadyReflected>
+  <WR_SignalDisabled>비활성화</WR_SignalDisabled>
+  <WR_SignalCapabilityOff>{0} 비활성화됨</WR_SignalCapabilityOff>
+  <WR_SignalCapabilityAwful>{0}을(를) 최악으로 처리</WR_SignalCapabilityAwful>
+  <WR_SignalDescriptive>설명용</WR_SignalDescriptive>
+  <WR_SignalExpertiseScale>기본 {0}, 숙련 수준 {1}, 현재 {2}</WR_SignalExpertiseScale>
+  <WR_VerdictAwful>최악</WR_VerdictAwful>
+  <WR_VerdictPoor>나쁨</WR_VerdictPoor>
+  <WR_VerdictNeutral>보통</WR_VerdictNeutral>
+  <WR_VerdictStrong>좋음</WR_VerdictStrong>
+  <WR_VerdictGreat>매우 좋음</WR_VerdictGreat>
+  <WR_VerdictExceptional>탁월</WR_VerdictExceptional>
+  <WR_PinAssignment>고정</WR_PinAssignment>
+  <WR_UnpinAssignment>고정 해제</WR_UnpinAssignment>
+  <WR_PinnedTip>고정됨: ‘정착지 정리’와 ‘그대로 적용’은 이 배정을 변경하지 않습니다.</WR_PinnedTip>
+  <WR_CopiedRoles>{0}의 역할을 복사했습니다.</WR_CopiedRoles>
+  <WR_RecommendedRoles>추천 역할</WR_RecommendedRoles>
+  <WR_AlreadyAssigned>이미 배정됨</WR_AlreadyAssigned>
+  <WR_WillBeRemoved>추천 목록에 없습니다. 적용 전에 유지할 역할을 고정하세요.</WR_WillBeRemoved>
+  <WR_RecTipColonyNeed>정착지의 필요</WR_RecTipColonyNeed>
+  <WR_RecTipSkills>고려한 기술</WR_RecTipSkills>
+  <WR_RecTipSignalVerdict>적합도 판정</WR_RecTipSignalVerdict>
+  <WR_RecTipSelection>선정 결과</WR_RecTipSelection>
+  <WR_RecTipAssignmentsOne>1명 배정 요청</WR_RecTipAssignmentsOne>
+  <WR_RecTipAssignmentsMany>{0}명 배정 요청</WR_RecTipAssignmentsMany>
+  <WR_RecTipWithWaiverOne>{0}(다른 육성 경로 역할로 인원 충족 1명)</WR_RecTipWithWaiverOne>
+  <WR_RecTipWithWaiversMany>{0}(다른 육성 경로 역할로 인원 충족 {1}명)</WR_RecTipWithWaiversMany>
+  <WR_RecTipEveryoneCapable>가능한 모든 정착민에게 배정</WR_RecTipEveryoneCapable>
+  <WR_RecDecisionAuto>이 역할의 작업을 할 수 있는 모든 정착민에게 자동 배정됩니다.</WR_RecDecisionAuto>
+  <WR_RecDecisionSignals>설정한 적합도 기준을 충족함.</WR_RecDecisionSignals>
+  <WR_RecDecisionCoverageDraft>필요 인원을 채우기 위해 남은 후보 중 가장 적합한 정착민을 선택함.</WR_RecDecisionCoverageDraft>
+  <WR_RecDecisionTraining>{0}으로 이어지는 육성 경로에 따라 배정합니다.</WR_RecDecisionTraining>
+  <WR_RecDecisionTrainingUnknown>육성 경로에 따라 배정합니다.</WR_RecDecisionTrainingUnknown>
+  <WR_RecDecisionDirectSlot>{2} 역할의 {1}명 중 {0}번째 자리를 직접 채우도록 선택됨.</WR_RecDecisionDirectSlot>
+  <WR_RecDecisionTrainingSlot>{2} 역할에 필요한 {1}명 중 {0}번째 담당자로 선택되었습니다. 육성 경로에 따라 {2} 대신 {3} 역할을 맡깁니다({4}; {2} 역할의 필요 수준: {5}).</WR_RecDecisionTrainingSlot>
+  <WR_RecDecisionTrainingSlotSimple>{2} 역할에 필요한 {1}명 중 {0}번째 담당자로 선택되었습니다. 육성 경로에 따라 {2} 대신 {3} 역할을 맡깁니다.</WR_RecDecisionTrainingSlotSimple>
+  <WR_RecDecisionTrainingSlotUnknown>육성 경로에 따라 {1}명 중 {0}번째 담당자로 선택되어 {2} 역할을 맡습니다.</WR_RecDecisionTrainingSlotUnknown>
+  <WR_RecTrainingSkill>{0} {1}</WR_RecTrainingSkill>
+  <WR_RecDecisionDirectFallbackSlot>해당 자리를 대신 맡을 육성 경로 역할의 적격자가 없어, {2} 역할에 필요한 {1}명 중 {0}번째 담당자로 직접 선택되었습니다.</WR_RecDecisionDirectFallbackSlot>
+  <WR_RecDecisionCoverageRepairSlot>필요 인원의 남은 자리 {1}명 중 {0}번째 자리를 {2} 역할로 직접 채우도록 선택됨.</WR_RecDecisionCoverageRepairSlot>
+  <WR_RecDecisionSignalSurplus>역할 적합도가 높아 필요한 인원 외에 추가로 추천됩니다.</WR_RecDecisionSignalSurplus>
+  <WR_RecDecisionAptitudeSurplus>여러 기술을 종합한 적성이 기준 이상이라 필요한 인원 외에 추가로 추천됩니다.</WR_RecDecisionAptitudeSurplus>
+  <WR_RecDecisionHunter>원거리 무기를 들고 있으며 사냥할 수 있음.</WR_RecDecisionHunter>
+  <WR_RecDecisionFire>불을 두려워하므로 화재 진압 차단 역할이 필요함.</WR_RecDecisionFire>
+  <WR_RecDecisionRetained>기존 비숙련 역할을 유지함.</WR_RecDecisionRetained>
+  <WR_RecDecisionProtected>기존에 보호된 배정을 유지함.</WR_RecDecisionProtected>
+  <WR_RecDecisionIncapacitated>이 정착민은 쓰러져 있습니다. 회복할 때까지 역할은 그대로 둡니다. 필요한 인원을 계산할 때는 제외합니다.</WR_RecDecisionIncapacitated>
+  <WR_RecDecisionNever>이 역할은 추천되지 않도록 설정되어 있습니다.</WR_RecDecisionNever>
+  <WR_RecDecisionControlledByTraining>{0}의 육성 경로에서 관리하는 역할입니다. 이 역할만 따로 배정하지 않습니다.</WR_RecDecisionControlledByTraining>
+  <WR_RecDecisionDisabled>이 역할은 비활성화되어 있습니다.</WR_RecDecisionDisabled>
+  <WR_RecDecisionUnavailable>연구가 완료될 때까지 이 역할의 작업을 할 수 없습니다.</WR_RecDecisionUnavailable>
+  <WR_RecDecisionExcluded>이 역할은 규칙으로 관리되므로 일반 추천에서 제외됩니다.</WR_RecDecisionExcluded>
+  <WR_RecDecisionIncapable>이 정착민은 이 역할에 포함된 작업을 할 수 없습니다.</WR_RecDecisionIncapable>
+  <WR_RecDecisionNotMechanitor>메카링크가 없어 메카노이드 관련 역할을 맡을 수 없습니다.</WR_RecDecisionNotMechanitor>
+  <WR_RecDecisionHunterRequirements>원거리 무기를 들고 있지 않아 사냥 역할의 추천 조건을 충족하지 않습니다.</WR_RecDecisionHunterRequirements>
+  <WR_RecDecisionAwful>역할 적합도가 가장 낮아 추천 대상에서 제외됩니다.</WR_RecDecisionAwful>
+  <WR_RecDecisionCovered>추천된 다른 역할에 포함됨: {0}.</WR_RecDecisionCovered>
+  <WR_RecDecisionCoveredUnknown>추천된 다른 역할에 포함됨.</WR_RecDecisionCoveredUnknown>
+  <WR_RecDecisionCoverageFilled>순위가 높은 후보들이 필요한 인원을 이미 채웠습니다.</WR_RecDecisionCoverageFilled>
+  <WR_RecDecisionWeakSignal>적합도가 설정 기준보다 낮고, 필요한 인원을 채우기 위한 선택에도 포함되지 않았습니다.</WR_RecDecisionWeakSignal>
+  <WR_RecDecisionNotSelected>어떤 추천 규칙에도 선택되지 않았습니다.</WR_RecDecisionNotSelected>
+  <WR_RecDecisionOutOfBand>기술 수준이 육성 경로의 다른 구간에 해당합니다.</WR_RecDecisionOutOfBand>
+  <WR_RecDecisionOutqualified>자리가 한정되어 더 적합한 후보들이 선택되었습니다.</WR_RecDecisionOutqualified>
+  <WR_RecDecisionRecommended>추천 시스템이 선택함.</WR_RecDecisionRecommended>
+  <WR_MakeItSo>그대로 적용</WR_MakeItSo>
+  <WR_AllRolesAssigned>모든 역할 배정 완료</WR_AllRolesAssigned>
+  <WR_NowDrafted>징집됨</WR_NowDrafted>
+  <WR_NowMental>정신 상태 이상</WR_NowMental>
+  <WR_NowIdle>대기 중</WR_NowIdle>
+  <WR_NowForced>플레이어 지시</WR_NowForced>
+  <WR_NowSleeping>수면 중</WR_NowSleeping>
+  <WR_NowRecreation>여가 활동 중</WR_NowRecreation>
+  <WR_NowNeeds>개인 욕구</WR_NowNeeds>
+  <WR_NowBusy>작업 중</WR_NowBusy>
+  <WR_NowTip>{0}: {1}</WR_NowTip>
+  <WR_TipActivityLabel>현재 활동</WR_TipActivityLabel>
+  <WR_TipActivityValue>{0}: {1}</WR_TipActivityValue>
+  <WR_RestoreDefaults>기본값 복원</WR_RestoreDefaults>
+  <WR_RestoreDefaultsTip>누락된 기본 역할과 육성 경로를 다시 만들고, 기본 역할의 그룹·색상·인원 설정을 복구하며 추천 순서를 초기화합니다. 미리보기에서 복원할 항목을 선택할 수 있습니다.</WR_RestoreDefaultsTip>
+  <WR_RestoreDefaultsTitle>기본값 복원</WR_RestoreDefaultsTitle>
+  <WR_Export>내보내기</WR_Export>
+  <WR_Import>가져오기</WR_Import>
+  <WR_ExportTip>역할 정의(배정 정보 제외)를 다음 위치에 저장합니다:\n{0}</WR_ExportTip>
+  <WR_ImportTip>다음 위치에서 역할 정의를 추가합니다:\n{0}</WR_ImportTip>
+  <WR_ExportTitle>역할 내보내기</WR_ExportTitle>
+  <WR_CopyClipboard>클립보드에 복사</WR_CopyClipboard>
+  <WR_CopyPath>경로 복사</WR_CopyPath>
+  <WR_Save>저장</WR_Save>
+  <WR_ExportLocationLabel>내보낼 위치</WR_ExportLocationLabel>
+  <WR_LocGameData>게임 데이터 폴더</WR_LocGameData>
+  <WR_LocDesktop>바탕 화면</WR_LocDesktop>
+  <WR_LocUserHome>사용자 홈 폴더</WR_LocUserHome>
+  <WR_LocCustom>직접 지정...</WR_LocCustom>
+  <WR_EnterPath>경로 입력</WR_EnterPath>
+  <WR_BadFileName>올바른 파일 이름을 입력하세요.</WR_BadFileName>
+  <WR_BadDirectory>올바른 폴더 경로를 입력하세요.</WR_BadDirectory>
+  <WR_ImportTitle>역할 가져오기</WR_ImportTitle>
+  <WR_ImportFromClipboard>클립보드에서</WR_ImportFromClipboard>
+  <WR_ImportLocationLabel>가져올 위치</WR_ImportLocationLabel>
+  <WR_ImportClipboardInvalid>클립보드에 WorkRoles 내보내기 데이터가 없습니다.</WR_ImportClipboardInvalid>
+  <WR_ImportFileMissing>{0}에서 파일을 찾을 수 없습니다.</WR_ImportFileMissing>
+  <WR_ImportParseFailed>역할을 읽지 못했습니다: {0}</WR_ImportParseFailed>
+  <WR_SectionPalette>팔레트</WR_SectionPalette>
+  <WR_SectionRoles>역할</WR_SectionRoles>
+  <WR_ModeMerge>병합</WR_ModeMerge>
+  <WR_ModeOverwrite>덮어쓰기</WR_ModeOverwrite>
+  <WR_RowNew>{0}(신규)</WR_RowNew>
+  <WR_RowUpdate>{0}(업데이트)</WR_RowUpdate>
+  <WR_RowRecolors>{0} → {1}(색상 변경: {2})</WR_RowRecolors>
+  <WR_RowNewColor>{0} {1}(새 색상)</WR_RowNewColor>
+  <WR_NothingToMerge>모두 일치합니다. 병합할 내용이 없습니다.</WR_NothingToMerge>
+  <WR_PaletteOverwriteInfo>파일의 팔레트 색상 {0}개로 모든 사용자 지정 색상을 교체합니다.</WR_PaletteOverwriteInfo>
+  <WR_OverwriteReplaces>파일의 역할 {0}개를 모두 적용합니다. 일치하는 역할(기본 역할 우선, 아니면 이름 기준)의 정착민 배정은 유지됩니다.</WR_OverwriteReplaces>
+  <WR_OverwriteDeletes>파일에 없는 역할을 삭제합니다: {0}(정착민의 해당 역할 배정도 사라집니다).</WR_OverwriteDeletes>
+  <WR_PathsOverwriteInfo>기존 육성 경로를 파일의 경로 {0}개로 교체합니다.</WR_PathsOverwriteInfo>
+  <WR_RecOrderReplaceInfo>추천 순서를 파일의 순서({0}개 역할)로 교체합니다.</WR_RecOrderReplaceInfo>
+  <WR_ImportSummary>가져오기 완료: {0}개 추가, {1}개 갱신, {2}개 삭제, 팔레트 {3}개 변경, 육성 경로 {4}개.</WR_ImportSummary>
+  <WR_CopiedToClipboard>클립보드에 복사했습니다.</WR_CopiedToClipboard>
+  <WR_ExportSaved>{0}에 저장했습니다.</WR_ExportSaved>
+  <WR_ExportFailed>저장하지 못했습니다: {0}</WR_ExportFailed>
+  <WR_ExportOverwriteConfirm>{0}이(가) 이미 있습니다. 교체할까요?</WR_ExportOverwriteConfirm>
+  <WR_RestoreMovedJobs>{0}(이동된 작업 {1}개 복구)</WR_RestoreMovedJobs>
+  <WR_RestorePathItem>{0}(육성 경로)</WR_RestorePathItem>
+  <WR_RestoreGroupItem>{0}(‘{1}’ 그룹으로 이동)</WR_RestoreGroupItem>
+  <WR_RestoreColorItem>{0}(기본 색상 복원)</WR_RestoreColorItem>
+  <WR_RestoreJobsItem>{0}(작업을 기본값으로 복구)</WR_RestoreJobsItem>
+  <WR_RestoreSnapColorItem>{0}(팔레트 색상에 맞춤)</WR_RestoreSnapColorItem>
+  <WR_RestoreHoldersItem>{0}(인원 설정 기본값 복원)</WR_RestoreHoldersItem>
+  <WR_RestoreRecOrder>추천 순서(기본값으로 초기화)</WR_RestoreRecOrder>
+  <WR_RestoreOverwriteWarning>⚠ 강조된 항목은 직접 변경한 내용을 덮어씁니다.</WR_RestoreOverwriteWarning>
+  <WR_RestoreDuplicateHint>(같은 이름의 역할이 이미 있음)</WR_RestoreDuplicateHint>
+  <WR_RestoreExplainRole>모드의 기본 서식에서 역할을 만듭니다.</WR_RestoreExplainRole>
+  <WR_RestoreExplainCoverage>이 작업 유형을 포함하는 역할을 생성합니다.</WR_RestoreExplainCoverage>
+  <WR_RestoreExplainBackfill>모드가 옮긴 작업 {0}개를 다시 추가합니다.</WR_RestoreExplainBackfill>
+  <WR_RestoreExplainGroup>역할을 ‘{0}’ 그룹으로 되돌립니다.</WR_RestoreExplainGroup>
+  <WR_RestoreExplainColor>색상을 서식의 기본값으로 되돌립니다.</WR_RestoreExplainColor>
+  <WR_RestoreExplainJobs>역할의 작업 목록을 현재 모드 기본값으로 되돌립니다. 정착민의 전체 작업 설정은 유지되며, 제거된 작업을 포함하는 역할이 자동 배정됩니다.</WR_RestoreExplainJobs>
+  <WR_RestoreExplainSnapColor>생성된 색상을 가장 가까운 팔레트 색상으로 바꿔 색상 선택기에서 강조되게 합니다.</WR_RestoreExplainSnapColor>
+  <WR_RestoreExplainHolders>인원 설정을 서식의 기본값으로 되돌립니다.</WR_RestoreExplainHolders>
+  <WR_RestoreExplainRecOrder>사용자 지정 순서를 지웁니다.</WR_RestoreExplainRecOrder>
+  <WR_RestoreExplainPath>육성 경로를 만듭니다.</WR_RestoreExplainPath>
+  <WR_NothingToRestore>복원할 항목이 없습니다. 기본 역할과 육성 경로, 기본 그룹·색상·인원 설정이 모두 있으며 추천 순서도 기본값이고 이동된 작업도 없습니다.</WR_NothingToRestore>
+  <WR_RolesRestored>복원됨: {0}</WR_RolesRestored>
+  <WR_FilterAnyJob>모든 작업</WR_FilterAnyJob>
+  <WR_RoleLabelOff>{0}(끔)</WR_RoleLabelOff>
+  <WR_SelectOrCreateRole>역할을 선택하거나 만드세요.</WR_SelectOrCreateRole>
+  <WR_New>새로 만들기</WR_New>
+  <WR_Copy>복사</WR_Copy>
+  <WR_Delete>삭제</WR_Delete>
+  <WR_NewRoleTitle>새 역할</WR_NewRoleTitle>
+  <WR_CopyRoleTitle>역할 복사</WR_CopyRoleTitle>
+  <WR_CopySource>{0} 복사 중</WR_CopySource>
+  <WR_NameTaken>같은 이름의 역할이 이미 있습니다.</WR_NameTaken>
+  <WR_DeleteConfirm>‘{0}’ 역할을 삭제할까요? 모든 정착민에게서 제거됩니다.</WR_DeleteConfirm>
+  <WR_AssignedTo>배정 대상</WR_AssignedTo>
+  <WR_Nobody>없음</WR_Nobody>
+  <WR_PlusOthers>외 {0}명</WR_PlusOthers>
+  <WR_AvailableJobs>가능한 작업</WR_AvailableJobs>
+  <WR_Search>검색</WR_Search>
+  <WR_WarningPrefix>경고:</WR_WarningPrefix>
+  <WR_UnusedJobsWarning>어떤 역할에도 포함되지 않은 작업이 있습니다.</WR_UnusedJobsWarning>
+  <WR_SelectedJobs>선택한 작업(순서 적용)</WR_SelectedJobs>
+  <WR_TypeColumn>유형</WR_TypeColumn>
+  <WR_JobColumn>작업</WR_JobColumn>
+  <WR_AllJobs>모든 작업</WR_AllJobs>
+  <WR_CoveredByTypeTip>작업 유형에 포함됩니다. 클릭하면 이 작업을 별도로 추가해 순서를 지정할 수 있습니다.</WR_CoveredByTypeTip>
+  <WR_AddAllJobs>모든 작업을 각각 추가(순서 지정 가능)</WR_AddAllJobs>
+  <WR_SelectedRows>{0}개 선택됨</WR_SelectedRows>
+  <WR_MoveSelectedUpTip>선택한 행을 한 단계 위로 옮깁니다. 행을 클릭해 선택하고, Shift+클릭으로 범위를 선택하거나 Ctrl+클릭으로 개별 행을 추가·제거할 수 있습니다.</WR_MoveSelectedUpTip>
+  <WR_MoveSelectedDownTip>선택한 행을 한 단계 아래로 옮깁니다.</WR_MoveSelectedDownTip>
+  <WR_RemoveSelectedTip>선택한 행을 제거합니다.</WR_RemoveSelectedTip>
+  <WR_MissingDef>현재 모드 목록에 {0}이(가) 없습니다. 해당 모드를 다시 설치할 때까지 비활성 상태입니다.</WR_MissingDef>
+  <WR_DeadEntryTip>효과 없음: 이 항목이 포함하는 작업이 모두 위쪽 항목에도 포함되어 있습니다. 우선하려면 위로 옮기거나 제거하세요.</WR_DeadEntryTip>
+  <WR_CompositeRole>복합 역할</WR_CompositeRole>
+  <WR_CompositeRoleTip>복합 역할은 다른 역할을 묶습니다. 보유자는 구성 역할을 표시된 순서대로 수행합니다. 복합 역할 자체에는 작업 목록이 없습니다.</WR_CompositeRoleTip>
+  <WR_CompositeConfirm>‘{0}’을(를) 복합 역할로 바꿀까요? 선택된 작업이 제거됩니다.</WR_CompositeConfirm>
+  <WR_CompositeRevertConfirm>‘{0}’을(를) 일반 역할로 되돌릴까요? 구성 역할이 제거됩니다.</WR_CompositeRevertConfirm>
+  <WR_MemberRoles>구성 역할(순서 적용)</WR_MemberRoles>
+  <WR_AvailableRoles>사용 가능한 역할</WR_AvailableRoles>
+  <WR_NoMembersHint>왼쪽 목록에서 역할을 추가하세요. 이 역할의 보유자는 여기에 표시된 순서대로 구성 역할의 작업을 수행합니다.</WR_NoMembersHint>
+  <WR_NoCandidatesHint>추가할 역할이 없습니다. 구성 역할은 시간·위치 규칙이 없는 일반 역할이어야 하며, 복합 역할 안에 다른 복합 역할을 넣을 수 없습니다.</WR_NoCandidatesHint>
+  <WR_MemberLockTip>잠김: 이 역할은 복합 역할의 구성원입니다. 설정을 바꾸려면 모든 복합 역할에서 제거하세요.</WR_MemberLockTip>
+  <WR_ScaleRenameTip>이 배정 기준의 이름을 바꿉니다. 이 기준을 참조하는 역할에도 반영됩니다.</WR_ScaleRenameTip>
+  <WR_ScaleRenameTitle>배정 기준 이름 변경</WR_ScaleRenameTitle>
+  <WR_ScaleNewTitle>새 배정 기준(현재 설정 복사)</WR_ScaleNewTitle>
+  <WR_ScaleUsedBy>{0}에서 사용 중</WR_ScaleUsedBy>
+  <WR_ScaleReset>초기화</WR_ScaleReset>
+  <WR_ScaleResetTip>이 역할 또는 기준을 선택한 뒤 변경한 값을 되돌립니다.</WR_ScaleResetTip>
+  <WR_ScaleSaveAs>다른 이름으로 저장</WR_ScaleSaveAs>
+  <WR_ScaleDeleteConfirm>‘{0}’ 기준을 삭제할까요?\n\n{1}. 이 기준을 사용하는 역할은 ‘안 함’으로 바뀝니다.</WR_ScaleDeleteConfirm>
+  <WR_ScaleSaveAsTitle>변경 내용을 새 배정 기준으로 저장(현재 기준은 저장된 값으로 복원)</WR_ScaleSaveAsTitle>
+  <WR_ScaleDirectTip>이 구간에서 역할을 직접 맡을 정착민의 최소 인원입니다. 나머지는 육성 경로의 다른 역할로 채울 수 있습니다. 최소 인원을 총인원보다 높이면 총인원도 함께 올라갑니다. 클릭하면 1 증가(8 다음은 0), 우클릭하면 1 감소합니다. 왼쪽으로 끌면 구간 사이에 값을 복사하고, 끄는 동안 우클릭하면 이동 방향에 따라 값을 조정합니다. 오른쪽으로 끌면 구간마다 1씩 증가하거나 감소합니다.</WR_ScaleDirectTip>
+  <WR_ScaleTotalsCaption>필요한 전체 인원(육성 경로 역할 포함)</WR_ScaleTotalsCaption>
+  <WR_ScaleMinsCaption>{0} 직접 배정 최소 인원</WR_ScaleMinsCaption>
+  <WR_ScaleTrainingHelp>이 역할은 {0}으로 성장하는 과정에서 맡는 역할이므로, ‘안 함’으로 설정해도 {0}의 추천 설정을 따릅니다. 다만 여기서 {1} 역할을 맡을 최소 인원은 별도로 지정할 수 있습니다.</WR_ScaleTrainingHelp>
+  <WR_ScaleControlledBy>{0}에서 관리</WR_ScaleControlledBy>
+  <WR_ScaleTotalTip>이 구간에서 필요한 전체 인원입니다. 육성 경로를 통해 다른 역할을 맡는 정착민도 포함됩니다. 값을 올리면 다른 경로 역할로 인원을 채울 수 있고, 값을 내리면 직접 배정 인원을 줄이기 전에 경로 역할 인원부터 줄입니다. 클릭하면 1 증가하고 우클릭하면 1 감소합니다. 왼쪽으로 끌면 구간 사이에 값을 복사하고, 끄는 동안 우클릭하면 이동 방향에 따라 값을 조정합니다. 오른쪽으로 끌면 구간마다 1씩 증가하거나 감소합니다.</WR_ScaleTotalTip>
+  <WR_SkillsUsedLabel>사용 기술:</WR_SkillsUsedLabel>
+  <WR_VirtualRoleTip>이 역할의 작업이 상위 역할에 포함되어 여기에 표시됩니다. ‘{0}’ 그룹 소속입니다.</WR_VirtualRoleTip>
+  <WR_TipTrainsLabel>훈련 기술</WR_TipTrainsLabel>
+  <WR_TipTrainsNothing>없음(기술 경험치 없음)</WR_TipTrainsNothing>
+  <WR_TipRequiresLabel>요구 사항</WR_TipRequiresLabel>
+  <WR_TipReqBills>{0} {1}(기술 제한 제조법 {2}/{3}개)</WR_TipReqBills>
+  <WR_TipReqItems>{0} {1}(기술 제한 물품 {2}개)</WR_TipReqItems>
+  <WR_TipReqJobs>{0} {1}(기술 제한 작업 {2}개)</WR_TipReqJobs>
+  <WR_TipLevelN>{0}레벨</WR_TipLevelN>
+  <WR_TipXpLabel>경험치 획득</WR_TipXpLabel>
+  <WR_TipXpValue>작업 {1}개 중 {0}개</WR_TipXpValue>
+  <WR_TipUnlockAgeLabel>최소 나이</WR_TipUnlockAgeLabel>
+  <WR_TipUnlockAgeValue>{0}(더 어린 정착민은 이 작업을 할 수 없음)</WR_TipUnlockAgeValue>
+  <WR_SkillTipGiverSource>작업 부여자: {0}({1})</WR_SkillTipGiverSource>
+  <WR_SkillTipTypeSource>작업 유형: {0}({1})</WR_SkillTipTypeSource>
+  <WR_SkillTipUnknownMod>알 수 없는 모드</WR_SkillTipUnknownMod>
+  <WR_EmergencySuffix>(긴급)</WR_EmergencySuffix>
+  <WR_ConditionalRole>조건부 역할</WR_ConditionalRole>
+  <WR_ConditionalRoleTip>조건부 역할은 시간대나 위치 규칙에 따라 자동으로 켜지고 꺼집니다. 규칙을 하나라도 설정하면 조건부 역할이 됩니다.</WR_ConditionalRoleTip>
+  <WR_AutoAssign>자동 배정</WR_AutoAssign>
+  <WR_AutoAssignTip>신규 정착민(영입된 인원, 방랑자)이 역할의 연령 조건에 맞으면 자동으로 배정합니다.</WR_AutoAssignTip>
+  <WR_CustomSwatchEmpty>빈 칸: 클릭해 사용자 지정 색상을 고릅니다. 사용자 지정 색상은 모든 역할이 공유합니다.</WR_CustomSwatchEmpty>
+  <WR_CustomSwatchTip>클릭해 이 색상을 사용합니다. 우클릭해 칸의 색상을 다시 지정합니다.</WR_CustomSwatchTip>
+  <WR_ClearRulesConfirm>‘{0}’의 모든 규칙을 제거할까요? 다시 수동 역할이 됩니다.</WR_ClearRulesConfirm>
+  <WR_ActiveHours>활성 시간</WR_ActiveHours>
+  <WR_HoursActive>활성</WR_HoursActive>
+  <WR_HoursInactive>비활성</WR_HoursInactive>
+  <WR_LocationAny>어디서나</WR_LocationAny>
+  <WR_LocationNowhere>어디에도 없음</WR_LocationNowhere>
+  <WR_LocationNowhereTip>이 역할은 더 이상 존재하지 않는 위치에 제한되어 있습니다. 다른 위치를 선택할 때까지 비활성 상태입니다.</WR_LocationNowhereTip>
+  <WR_LocationSettlements>정착지</WR_LocationSettlements>
+  <WR_LocationCaravans>캐러밴</WR_LocationCaravans>
+  <WR_LocationShipItem>함선: {0}</WR_LocationShipItem>
+  <WR_LocationSettlementItem>정착지: {0}</WR_LocationSettlementItem>
+  <WR_LocationCount>위치 {0}곳</WR_LocationCount>
+  <WR_LocationGone>(없어짐)</WR_LocationGone>
+  <WR_InvalidRoleTip>적용할 수 없는 역할입니다. 작업이 없거나 지정한 위치가 모두 사라졌습니다.</WR_InvalidRoleTip>
+  <WR_GroupDefault>기본</WR_GroupDefault>
+  <WR_GroupConditionalRoles>조건부 역할</WR_GroupConditionalRoles>
+  <WR_GroupComposites>복합 역할</WR_GroupComposites>
+  <WR_GroupLabel>그룹</WR_GroupLabel>
+  <WR_GroupButton>그룹: {0}</WR_GroupButton>
+  <WR_GroupNewOption>새 그룹...</WR_GroupNewOption>
+  <WR_NewGroupTitle>새 그룹</WR_NewGroupTitle>
+  <WR_RenameGroup>그룹 이름 변경</WR_RenameGroup>
+  <WR_RenameGroupTitle>그룹 이름 변경</WR_RenameGroupTitle>
+  <WR_GroupOverlayTip>규칙이 있는 역할은 ‘조건부 역할’ 아래에 표시됩니다. 규칙을 지우면 저장된 그룹으로 돌아갑니다.</WR_GroupOverlayTip>
+  <WR_GroupCompositeTip>복합 역할은 ‘복합 역할’ 아래에 표시됩니다.</WR_GroupCompositeTip>
+  <WR_TreeNested>중첩 표시</WR_TreeNested>
+  <WR_TreeFlat>목록 표시</WR_TreeFlat>
+  <WR_TreeToggleTip>포괄 역할에 포함된 역할을 그 아래에 중첩해 표시합니다.</WR_TreeToggleTip>
+  <WR_DisplayModeLabel>표시 방식</WR_DisplayModeLabel>
+  <WR_JobFilterLabel>작업 필터</WR_JobFilterLabel>
+  <WR_PaletteBySkills>기술</WR_PaletteBySkills>
+  <WR_PaletteByGroups>그룹</WR_PaletteByGroups>
+  <WR_PaletteModeTip>관련 기술 또는 역할 그룹을 기준으로 역할 팔레트를 정렬합니다.</WR_PaletteModeTip>
+  <WR_SuppressedHours>끔: 활성 시간이 아님</WR_SuppressedHours>
+  <WR_SuppressedLocation>끔: 역할 지정 위치가 아님</WR_SuppressedLocation>
+  <WR_BillRoleOption>역할: {0}</WR_BillRoleOption>
+  <WR_BillWorkerRoleTip>이 역할을 실제로 맡은 정착민만 이 제조 작업을 합니다. 조건부 역할이면 시간대 같은 규칙도 적용됩니다. 작업자를 선택하면 역할 제한이 해제되며, 반대도 마찬가지입니다.</WR_BillWorkerRoleTip>
+  <WR_SurgeryWorkerRoleTip>이 수술을 수행할 사람을 정합니다. ‘모든 작업자’는 역할 제한이 없습니다. 역할을 지정하면 해당 역할을 맡은 정착민만 수술할 수 있으며, 조건부 역할에는 시간대 등의 규칙이 적용됩니다.</WR_SurgeryWorkerRoleTip>
+  <WR_SelectRoleIcon>역할 아이콘 선택</WR_SelectRoleIcon>
+  <WR_RenameRoleTitle>역할 이름 변경</WR_RenameRoleTitle>
+  <WR_NewWorkDetected>새 작업 유형을 찾았습니다. 역할을 만들거나 확장함: {0}</WR_NewWorkDetected>
+  <WR_SeedReportTitle>Work Roles 설정 완료</WR_SeedReportTitle>
+  <WR_SeedReportBody>역할 {0}개를 만들고 기존 작업 우선순위에 따라 정착민 {1}명에게 역할 묶음을 배정했습니다.</WR_SeedReportBody>
+  <WR_SeedReportGenerated>모드 작업에 맞춰 생성됨: {0}.</WR_SeedReportGenerated>
+  <WR_SeedReportFailures>일부 작업을 옮기지 못했습니다:</WR_SeedReportFailures>
+  <WR_SeedDropFailure>{0}: {1} 작업을 잃음(기존 우선순위 {2})</WR_SeedDropFailure>
+  <WR_SeedPawnFailure>{0}: 역할 변환 실패({1})</WR_SeedPawnFailure>
+  <WR_WelcomeTitle>Work Roles</WR_WelcomeTitle>
+  <WR_WelcomeBody>Work Roles에서는 의사·대장장이·농부처럼 이름이 있는 역할을 정착민에게 배정해 작업 순서를 정합니다.</WR_WelcomeBody>
+  <WR_WelcomeFind>화면 아래의 ‘작업’ 버튼을 눌러 Work Roles를 여세요. 도움말 탭에서 사용법을 확인할 수 있습니다.</WR_WelcomeFind>
+  <WR_WelcomeTakeMeThere>지금 열기</WR_WelcomeTakeMeThere>
+  <WR_WelcomeSmallScreen>현재 게임 화면은 {0}×{1}입니다(UI 배율을 반영한 해상도). WorkRoles는 {2}×{3} 이상, 예를 들어 UI 배율 1.25에서 1920×1080 화면에 맞게 설계되었습니다. 더 작은 화면에서도 작동하지만 일부 이름이 짧게 표시되고 탭을 더 많이 스크롤해야 합니다. 게임 설정에서 UI 배율을 낮추면 창 공간이 넓어집니다.</WR_WelcomeSmallScreen>
+</LanguageData>

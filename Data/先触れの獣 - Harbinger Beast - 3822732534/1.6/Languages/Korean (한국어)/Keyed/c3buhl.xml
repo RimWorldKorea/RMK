@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HB_RitualOfferingSettings>초정신 의식: 전조짐승의 탄생</HB_RitualOfferingSettings>
+  <HB_RitualSeedCount>필요한 전조씨앗 수</HB_RitualSeedCount>
+  <HB_BindingAutoTitle>섬멸 모드: 촉수 속박</HB_BindingAutoTitle>
+  <HB_BindingAutoToggle>자동 사용</HB_BindingAutoToggle>
+  <HB_BindingAutoRange>자동 발동 거리 (칸)</HB_BindingAutoRange>
+  <HB_BindingAutoCooldown>재사용 대기시간 (초)</HB_BindingAutoCooldown>
+  <HB_BindingAutoCost>섬멸 모드 자동 사용 영양 소모</HB_BindingAutoCost>
+  <HB_AutoSpearToggle>자동 사용</HB_AutoSpearToggle>
+  <HB_AutoThornToggle>자동 소환</HB_AutoThornToggle>
+  <HB_AutoCocoonAlliesToggle>아군 자동 치료 (자신과 권속의 무료 치료는 그대로 유지)</HB_AutoCocoonAlliesToggle>
+  <HB_AwakenFreeTitle>각성 후 영양 소모</HB_AwakenFreeTitle>
+  <HB_AwakenFreeToggle>각성 후 능력 사용에 영양을 소모하지 않음 (종말 폭격 제외)</HB_AwakenFreeToggle>
+  <HB_InfiniteGrowth>각성 성장</HB_InfiniteGrowth>
+  <HB_InfiniteGrowthDesc>각 능력치의 첫 소모는 영양 100입니다. 강화할 때마다 기본값의 10%가 오르고 다음 소모가 1.2배가 됩니다. 강화 횟수에 제한이 없습니다.</HB_InfiniteGrowthDesc>
+  <HB_GrowthAttack>공격력 (근접 / 뼈 창)</HB_GrowthAttack>
+  <HB_GrowthHealth>최대 체력</HB_GrowthHealth>
+  <HB_GrowthRecovery>재생 / 부상 회복</HB_GrowthRecovery>
+  <HB_GrowthUpgrade>강화 ({0})</HB_GrowthUpgrade>
+  <HB_AppearanceOpen>외형 변경</HB_AppearanceOpen>
+  <HB_SkinOriginal>기본</HB_SkinOriginal>
+  <HB_SkinClothed>옷 입은 모습</HB_SkinClothed>
+  <HB_SkinSelected>선택됨</HB_SkinSelected>
+  <HB_SkinSelect>이 외형 사용</HB_SkinSelect>
+  <HB_SkinUltimate>궁극 형태</HB_SkinUltimate>
+  <HB_SkinSwimsuit>수영복</HB_SkinSwimsuit>
+  <HB_GolemName>수정 경비병 소환</HB_GolemName>
+  <HB_GolemUnitName>수정 경비병</HB_GolemUnitName>
+  <HB_GolemLearned>수정 경비병 소환 (습득함)</HB_GolemLearned>
+  <HB_GolemDescription>시체로 수정 경비병을 소환합니다. 소환자 곁에서 대기하다가 범위 안의 적을 근접 공격으로 요격합니다.</HB_GolemDescription>
+  <HB_GolemInvalid>사거리 안의 사람이나 동물 시체를 고르세요. 영양과 빈 공간도 확인하세요.</HB_GolemInvalid>
+  <HB_GolemDefendRange>요격 범위 (칸)</HB_GolemDefendRange>
+  <HB_GolemHeal>자동 회복 (체력/3초)</HB_GolemHeal>
+  <HB_GuardDestroy>자폭</HB_GuardDestroy>
+  <HB_GuardDestroyDesc>이 수정 경비병을 부숴 없앱니다.</HB_GuardDestroyDesc>
+  <HB_GuardChargeTitle>수정 경비병: 돌진 태클</HB_GuardChargeTitle>
+  <HB_GuardChargeAuto>자동 사용</HB_GuardChargeAuto>
+  <HB_guardChargeRange>사거리 (칸)</HB_guardChargeRange>
+  <HB_guardChargeMinRange>최소 거리 (칸)</HB_guardChargeMinRange>
+  <HB_guardChargeDamageMultiplier>피해 배율</HB_guardChargeDamageMultiplier>
+  <HB_guardChargeStunSeconds>기절 시간 (초)</HB_guardChargeStunSeconds>
+  <HB_guardChargeCooldown>재사용 대기시간 (초)</HB_guardChargeCooldown>
+  <HB_guardChargeWarmupSeconds>준비 시간 (초)</HB_guardChargeWarmupSeconds>
+  <HB_BeastArmorBase>초기 방어력 (%)</HB_BeastArmorBase>
+  <HB_BeastArmorStage>진화당 추가 방어력 (%)</HB_BeastArmorStage>
+  <HB_GuardCombat>수정 경비병 전투 능력</HB_GuardCombat>
+  <HB_GuardDamage>피해 (몸 크기 1 기준)</HB_GuardDamage>
+  <HB_GuardAP>방어 관통 (%)</HB_GuardAP>
+  <HB_GuardCooldown>공격 간격 (초)</HB_GuardCooldown>
+  <HB_GuardSharp>날카로움 방어력 (%)</HB_GuardSharp>
+  <HB_GuardBlunt>둔탁함 방어력 (%)</HB_GuardBlunt>
+  <HB_GuardMove>기본 이동 속도 배율 (%)</HB_GuardMove>
+  <HB_GuardScale>피해와 공격 간격을 몸 크기에 맞춰 조정</HB_GuardScale>
+  <HB_CombatDamage>피해</HB_CombatDamage>
+  <HB_CombatMove>이동 속도 (칸/초)</HB_CombatMove>
+  <HB_CombatDodge>회피율 (%)</HB_CombatDodge>
+  <HB_BeastInitialSharp>초기 날카로움 방어력 (%)</HB_BeastInitialSharp>
+  <HB_BeastInitialBlunt>초기 둔탁함 방어력 (%)</HB_BeastInitialBlunt>
+  <HB_BeastEvolutionSharp>진화당 추가 날카로움 방어력 (%)</HB_BeastEvolutionSharp>
+  <HB_BeastEvolutionBlunt>진화당 추가 둔탁함 방어력 (%)</HB_BeastEvolutionBlunt>
+  <HB_FirstEggQuestName>하늘에서 온 심장 소리</HB_FirstEggQuestName>
+  <HB_FirstEggQuestDescription>밤하늘을 올려다볼 때마다 별 너머에서 심장 소리가 느껴집니다. 잠들기 직전이면 진홍빛 껍질에 감싸인 무언가가 눈꺼풀 뒤에 떠오릅니다.\n\n그것은 말이 없습니다. 그러나 당신을 찾고 있습니다. 조금만 마음을 모으면 이곳으로 이끌 수 있다는 확신이 듭니다.\n\n이 부름을 받아들이면 전조짐승 알 하나가 운석처럼 정착지 지도에 떨어집니다. 떨어질 위치는 자동으로 정해집니다. 알은 근처의 시체를 먹어 치우며, 영양이 충분해지면 부화합니다.</HB_FirstEggQuestDescription>
+  <HB_FirstEggArrivalLabel>하늘에서 온 손님</HB_FirstEggArrivalLabel>
+  <HB_FirstEggArrivalText>진홍빛 줄기가 하늘을 가르더니 땅이 울렸습니다. 먼지가 가라앉은 자리에는 뜨거운 돌이 아니라 천천히 고동치는 알 하나가 있었습니다.\n\n껍질 아래에서 무언가가 꿈틀거립니다. 다가가자 멀리서 들리던 부름이 잠잠해지고, 허기와 닮은 감각만이 남았습니다.\n\n전조짐승 알이 도착했습니다. 근처에 시체를 두어 먹이고 자라게 하세요.</HB_FirstEggArrivalText>
+  <HB_Text_001>먹이로 삼기: </HB_Text_001>
+  <HB_Text_002>여기로 이동</HB_Text_002>
+  <HB_Text_003>근접 공격: </HB_Text_003>
+  <HB_Text_004>알을 불러낼 빈칸이 없습니다.</HB_Text_004>
+  <HB_Text_005>초정신 의식으로 전조짐승 알이 생겨났습니다.</HB_Text_005>
+  <HB_Text_006>개체 기록</HB_Text_006>
+  <HB_Text_007>전조가시와 같은 형식으로 개체 기록을 봅니다.</HB_Text_007>
+  <HB_Text_008>능력</HB_Text_008>
+  <HB_Text_009>특수 능력, 능력 습득, 개체 기록, 진화를 봅니다.</HB_Text_009>
+  <HB_Text_010>알</HB_Text_010>
+  <HB_Text_011>유체</HB_Text_011>
+  <HB_Text_012>성체</HB_Text_012>
+  <HB_Text_013>완전체</HB_Text_013>
+  <HB_Text_014>알 수 없음</HB_Text_014>
+  <HB_Text_015>기록을 볼 수 없습니다.</HB_Text_015>
+  <HB_Text_016> - 기록</HB_Text_016>
+  <HB_Text_017>현재 상태</HB_Text_017>
+  <HB_Text_018>형태: </HB_Text_018>
+  <HB_Text_019>현재 영양: </HB_Text_019>
+  <HB_Text_020>누적 영양: </HB_Text_020>
+  <HB_Text_021>탄생일: </HB_Text_021>
+  <HB_Text_022>기록 없음</HB_Text_022>
+  <HB_Text_023>누적 가한 피해: </HB_Text_023>
+  <HB_Text_024>누적 받은 피해: </HB_Text_024>
+  <HB_Text_025>휴면 횟수: </HB_Text_025>
+  <HB_Text_026>영양 정보를 볼 수 없습니다.</HB_Text_026>
+  <HB_Text_027> - 능력</HB_Text_027>
+  <HB_Text_028>사용 가능한 영양: </HB_Text_028>
+  <HB_Text_029>누적 획득 영양: </HB_Text_029>
+  <HB_Text_030>특수 능력</HB_Text_030>
+  <HB_Text_031>능력 습득</HB_Text_031>
+  <HB_Text_032>전조짐승 고기 생성 / 영양 소모: 4 (기본값)</HB_Text_032>
+  <HB_Text_033>고기 생성 (영양 4)</HB_Text_033>
+  <HB_Text_034>습득형 능력은 이후 업데이트에서 추가될 예정입니다.</HB_Text_034>
+  <HB_Text_035>현재 형태: 완전체</HB_Text_035>
+  <HB_Text_036>진화</HB_Text_036>
+  <HB_Text_037>영양 소모: </HB_Text_037>
+  <HB_Text_038>현재 형태: </HB_Text_038>
+  <HB_Text_039>진화에 필요한 영양이 부족합니다.</HB_Text_039>
+  <HB_Text_040>영양 </HB_Text_040>
+  <HB_Text_041> 소모해서 </HB_Text_041>
+  <HB_Text_042> 형태로 진화할까요?</HB_Text_042>
+  <HB_Text_043>취소</HB_Text_043>
+  <HB_Text_044>년 </HB_Text_044>
+  <HB_Text_045>일</HB_Text_045>
+  <HB_Text_046>부화 영양: </HB_Text_046>
+  <HB_Text_047>시체를 옮길 수 있는 정착민이 없습니다.</HB_Text_047>
+  <HB_Text_048>전조짐승이 부화했습니다.</HB_Text_048>
+  <HB_Text_049>성장 영양: </HB_Text_049>
+  <HB_Text_050>지금은 고기를 만들 수 없습니다.</HB_Text_050>
+  <HB_Text_051>고기를 만들 영양이 부족합니다.</HB_Text_051>
+  <HB_Text_052>도축 고기 정의를 찾을 수 없습니다.</HB_Text_052>
+  <HB_Text_053>고기를 놓을 자리가 없습니다.</HB_Text_053>
+  <HB_Text_054>전조짐승 고기를 {0}개 만들었습니다.</HB_Text_054>
+  <HB_Text_055>고기 생성 실패: </HB_Text_055>
+  <HB_Text_056>지금은 진화할 수 없습니다.</HB_Text_056>
+  <HB_Text_057>현재 형태에서는 진화할 수 없습니다.</HB_Text_057>
+  <HB_Text_058>영양이 부족합니다.</HB_Text_058>
+  <HB_Text_059>진화 형태 정의를 찾을 수 없습니다.</HB_Text_059>
+  <HB_Text_060>그래픽 전환 실패: </HB_Text_060>
+  <HB_Text_061>전조짐승이 </HB_Text_061>
+  <HB_Text_062> 형태로 진화했습니다.</HB_Text_062>
+  <HB_Text_063>전조짐승이 그곳으로 이동할 수 없습니다.</HB_Text_063>
+  <HB_Text_064>전조짐승이 먹이를 먹기 시작할 수 없습니다.</HB_Text_064>
+  <HB_Text_065>전조짐승이 근접 공격을 시작할 수 없습니다.</HB_Text_065>
+  <HB_Text_066>짐승 소집</HB_Text_066>
+  <HB_Text_067>이 짐승을 소집합니다. 소집 중에는 우클릭으로 이동하거나 적에게 근접 공격을 명령합니다.</HB_Text_067>
+  <HB_Text_068>쓰러진 짐승은 소집할 수 없습니다.</HB_Text_068>
+  <HB_Text_069>전조짐승이 시체를 먹어 영양을 </HB_Text_069>
+  <HB_Text_070>만큼 얻었습니다.</HB_Text_070>
+  <HB_DormancyStarted>전조짐승이 휴면에 들어갔습니다.</HB_DormancyStarted>
+  <HB_DormancyEnded>전조짐승이 휴면에서 깨어났습니다.</HB_DormancyEnded>
+  <HB_DormantStatus>휴면 중: 깨어나기까지 {0}일</HB_DormantStatus>
+  <HB_EggDormantAbilities>휴면 중에는 특수 능력을 쓸 수 없습니다.</HB_EggDormantAbilities>
+  <HB_EggGrowingAbilities>부화하기 전에는 특수 능력을 쓸 수 없습니다.</HB_EggGrowingAbilities>
+  <HB_CombatMeleeDamage>근접 피해: </HB_CombatMeleeDamage>
+  <HB_CombatMeleeAP>근접 방어 관통: </HB_CombatMeleeAP>
+  <HB_CombatCooldown>근접 공격 간격: </HB_CombatCooldown>
+  <HB_CombatRangedDodge>회피율: </HB_CombatRangedDodge>
+  <HB_CombatMoveSpeed>이동 속도: </HB_CombatMoveSpeed>
+  <HB_PredationModeLabel>포식 모드</HB_PredationModeLabel>
+  <HB_PredationModeDesc>포식 모드에서는 근처의 적을 근접 공격으로 자동 공격합니다. 적이 없으면 시체를 먹습니다.\n소집을 해제하면 자동으로 꺼집니다.</HB_PredationModeDesc>
+  <HB_WallAbilityDetail>살덩이 벽 형성 / 영양: 3 (기본값) / 사거리: 15칸 (기본값)</HB_WallAbilityDetail>
+  <HB_WallPlaceButton>살덩이 벽 (영양 3)</HB_WallPlaceButton>
+  <HB_WallNoNutrition>영양이 부족합니다.</HB_WallNoNutrition>
+  <HB_WallAbilityHelp>지정한 위치에 너비 {0}칸의 지나갈 수 없는 살덩이 벽을 만듭니다. {1} &lt;color=#80FFFF&gt;{2}&lt;/color&gt; 키로 방향을 바꿉니다.</HB_WallAbilityHelp>
+  <HB_LearningEgg>부화한 뒤에 능력을 습득할 수 있습니다.</HB_LearningEgg>
+  <HB_LearningJuvenile>유체 능력</HB_LearningJuvenile>
+  <HB_WallName>살덩이 벽 형성</HB_WallName>
+  <HB_WallLearningHelp>지정한 위치에 너비 {0}칸의 지나갈 수 없는 살덩이 벽을 만듭니다. {1} &lt;color=#80FFFF&gt;{2}&lt;/color&gt; 키로 방향을 바꿉니다.</HB_WallLearningHelp>
+  <HB_WallLearned>살덩이 벽 형성 (습득함)</HB_WallLearned>
+  <HB_WallLearnButton>습득 (영양 10)</HB_WallLearnButton>
+  <HB_WallLearnSuccess>살덩이 벽 형성을 습득했습니다.</HB_WallLearnSuccess>
+  <HB_LearningAdult>성체 능력</HB_LearningAdult>
+  <HB_LearningFuture>이후 업데이트에서 추가 예정</HB_LearningFuture>
+  <HB_LearningFinal>완전체 능력</HB_LearningFinal>
+  <HB_CocoonName>살덩이 고치 치료</HB_CocoonName>
+  <HB_CocoonDescription>지정한 아군을 응급 처치합니다. 완전체부터는 잃은 부위를 체력 1로 재생합니다.</HB_CocoonDescription>
+  <HB_CocoonLearned>살덩이 고치 치료 (습득함)</HB_CocoonLearned>
+  <HB_CocoonLearn>습득 (영양 15)</HB_CocoonLearn>
+  <HB_CocoonUse>고치 치료 (영양 5)</HB_CocoonUse>
+  <HB_CocoonLearnSuccess>살덩이 고치 치료를 습득했습니다.</HB_CocoonLearnSuccess>
+  <HB_CocoonHealSuccess>살덩이 고치 치료를 마쳤습니다.</HB_CocoonHealSuccess>
+  <HB_BoneSpearName>뼈 창</HB_BoneSpearName>
+  <HB_BoneSpearDescription>지정한 적에게 방어구를 꿰뚫는 뼈 창을 쏩니다. 뼈 창은 살덩이 벽을 뚫고 지나갑니다.</HB_BoneSpearDescription>
+  <HB_BoneSpearLearned>뼈 창 (습득함)</HB_BoneSpearLearned>
+  <HB_BoneSpearLearn>습득 (영양 35)</HB_BoneSpearLearn>
+  <HB_BoneSpearLearnSuccess>뼈 창을 습득했습니다.</HB_BoneSpearLearnSuccess>
+  <HB_BoneSpearCostLabel>뼈 창 (영양 8)</HB_BoneSpearCostLabel>
+  <HB_BoneSpearIconToggle>뼈 창 명령 아이콘 표시</HB_BoneSpearIconToggle>
+  <HB_BoneSpearCommandDesc>적에게 뼈 창을 쏘아 피해를 줍니다. 뼈 창은 살덩이 벽을 뚫고 지나갑니다.</HB_BoneSpearCommandDesc>
+  <HB_BoneSpearToggleOn>뼈 창 켜짐 (영양 8)</HB_BoneSpearToggleOn>
+  <HB_BoneSpearToggleOff>뼈 창 꺼짐 (영양 8)</HB_BoneSpearToggleOff>
+  <HB_MeatTooltip>현재 위치에 먹을 수 있는 고기를 {0}개 만듭니다.</HB_MeatTooltip>
+  <HB_FleshWallTooltip>지정한 위치에 너비 {0}칸의 지나갈 수 없는 살덩이 벽을 만듭니다. {1} &lt;color=#80FFFF&gt;{2}&lt;/color&gt; 키로 방향을 바꿉니다.</HB_FleshWallTooltip>
+  <HB_CocoonTooltip>아군을 치료합니다. 완전체부터는 잃은 부위를 체력 1로 재생합니다.</HB_CocoonTooltip>
+  <HB_KinName>권속 소환</HB_KinName>
+  <HB_KinLearned>권속 소환 (습득함)</HB_KinLearned>
+  <HB_KinDescription>적을 자동으로 쫓아가 공격하는 권속을 {0}기 불러냅니다.\n권속은 죽을 때 폭발해 주변에 피해와 기절을 줍니다.\n불이 붙으면 넓은 범위에 소방거품을 뿌립니다.</HB_KinDescription>
+  <HB_KinLearn>습득 (영양 80)</HB_KinLearn>
+  <HB_KinLearnSuccess>권속 소환을 습득했습니다.</HB_KinLearnSuccess>
+  <HB_KinUse>권속 소환 (영양 40)</HB_KinUse>
+  <HB_KinTooltip>적을 쫓아가 공격하는 자율 권속을 {0}기 불러냅니다. 죽을 때 폭발해 주변에 피해와 기절을 주며, 불이 붙으면 넓은 범위에 소방거품을 뿌립니다.</HB_KinTooltip>
+  <HB_FleshFloorName>살덩이 바닥 깔기</HB_FleshFloorName>
+  <HB_FleshFloorLearned>살덩이 바닥 깔기 (습득함)</HB_FleshFloorLearned>
+  <HB_FleshFloorDescription>이동 속도를 늦추는 살덩이 바닥을 깝니다. 짐승은 그 위를 빠르게 움직입니다. {0}</HB_FleshFloorDescription>
+  <HB_FleshFloorUse>살덩이 바닥 (영양 10)</HB_FleshFloorUse>
+  <HB_FleshFloorLearn>습득 (영양 50)</HB_FleshFloorLearn>
+  <HB_BoneSpearTooltip>적에게 뼈 창을 쏘아 피해를 줍니다. 뼈 창은 살덩이 벽을 뚫고 지나갑니다.</HB_BoneSpearTooltip>
+  <HB_AwakeningModeLabel>각성 모드</HB_AwakeningModeLabel>
+  <HB_AwakeningModeDesc>각성 모드에서는 자리에 멈춰 서서 습득한 뼈 창과 살덩이 고치 치료를 자동으로 씁니다.\n\n종말 폭격 자동 발사가 켜져 있으면 시야와 최대 사거리에 상관없이 멀리 있는 적을 폭격합니다.\n• 한 발에 영양 {0} 소모\n• 떨어진 자리에 살덩이 바닥과 벽, 종말 권속 생성\n• 보호 구역에는 떨어뜨리지 않음</HB_AwakeningModeDesc>
+  <HB_AnnihilationModeLabel>섬멸 모드</HB_AnnihilationModeLabel>
+  <HB_AnnihilationModeDesc>섬멸 모드에서는 적과 거리를 유지하며 습득한 능력을 자동으로 씁니다.\n일부 능력이 강화되고 영양 소모가 줄어듭니다.</HB_AnnihilationModeDesc>
+  <HB_FinalEvolutionUnlockAnnihilation>뼈 창을 습득했으므로, 완전체가 되면 섬멸 모드를 쓸 수 있습니다.</HB_FinalEvolutionUnlockAnnihilation>
+  <HB_FinalEvolutionLearnBoneSpear>뼈 창을 습득하면 완전체에서 섬멸 모드를 쓸 수 있습니다.</HB_FinalEvolutionLearnBoneSpear>
+  <HB_AwakeningButton>각성</HB_AwakeningButton>
+  <HB_AwakeningTooltip>금기의 힘에 눈뜹니다</HB_AwakeningTooltip>
+  <HB_AwakeningConfirm>전조짐승을 각성시킬까요?\n각성하면 종말짐승이 됩니다.\n\n종말 폭격\n각성하면 종말 폭격을 쓸 수 있습니다.\n\n영구 강화\n능력 습득 화면에서 공격력, 최대 체력, 회복력을 따로 영구 강화할 수 있습니다.\n\n영혼 결속\n각성과 삼키기 능력이 필요합니다.\n영혼의 일부가 몸에 깃들고, 영혼 본체는 짐승이 보호합니다.</HB_AwakeningConfirm>
+  <HB_AwakeningUnavailable>각성 조건을 충족하지 못했습니다.</HB_AwakeningUnavailable>
+  <HB_AwakeningSuccess>전조짐승이 각성했습니다.</HB_AwakeningSuccess>
+  <HB_AwakeningReadyNotice>전조짐승이 진정한 모습을 드러내려 하고 있습니다...</HB_AwakeningReadyNotice>
+  <HB_AwakenedBeastName>종말짐승</HB_AwakenedBeastName>
+  <HB_RecordSelfDamageDealt>  └ 본체가 가한 피해: </HB_RecordSelfDamageDealt>
+  <HB_RecordKinDamageDealt>  └ 권속이 가한 피해: </HB_RecordKinDamageDealt>
+  <HB_RecordSelfDamageTaken>  └ 본체가 받은 피해: </HB_RecordSelfDamageTaken>
+  <HB_RecordKinDamageTaken>  └ 권속이 받은 피해: </HB_RecordKinDamageTaken>
+  <HB_Settings_001>전조짐승</HB_Settings_001>
+  <HB_Settings_002>전조짐승 - 모드 설정</HB_Settings_002>
+  <HB_Settings_003>초기화</HB_Settings_003>
+  <HB_Settings_004>전조짐승 설정을 모두 기본값으로 되돌릴까요?</HB_Settings_004>
+  <HB_Settings_005>기본 설정에서는 진화할 때마다 본체의 전투 능력이 두 배가 됩니다 (완전체는 유체의 4배).</HB_Settings_005>
+  <HB_Settings_007>이 설정은 모든 세이브에 적용됩니다. 설정을 바꾼 뒤에는 게임을 다시 시작하세요.</HB_Settings_007>
+  <HB_Settings_008>성장</HB_Settings_008>
+  <HB_Settings_009>능력</HB_Settings_009>
+  <HB_Settings_010>권속</HB_Settings_010>
+  <HB_Settings_011>기타</HB_Settings_011>
+  <HB_Settings_012>부화와 진화</HB_Settings_012>
+  <HB_Settings_013>부화에 필요한 영양</HB_Settings_013>
+  <HB_Settings_014>진화에 필요한 영양: 유체 → 성체</HB_Settings_014>
+  <HB_Settings_015>진화에 필요한 영양: 성체 → 완전체</HB_Settings_015>
+  <HB_Settings_016>본체 전투 능력 (유체 기준)</HB_Settings_016>
+  <HB_Settings_017>근접 피해</HB_Settings_017>
+  <HB_Settings_018>이동 속도 (칸/초)</HB_Settings_018>
+  <HB_Settings_019>회피율 (%)</HB_Settings_019>
+  <HB_Settings_020>근접 방어 관통 (%)</HB_Settings_020>
+  <HB_Settings_021>근접 공격 간격 (초)</HB_Settings_021>
+  <HB_Settings_022>진화 단계별 전투 능력 배율</HB_Settings_022>
+  <HB_Settings_023>최대 체력 배율</HB_Settings_023>
+  <HB_Settings_024>완전체 자동 회복 (체력/3초)</HB_Settings_024>
+  <HB_Settings_025>권속도 같은 회복량을 받습니다.</HB_Settings_025>
+  <HB_Settings_026>각성</HB_Settings_026>
+  <HB_Settings_027>각성에 필요한 누적 영양</HB_Settings_027>
+  <HB_Settings_028>각성에 필요한 누적 가한 피해</HB_Settings_028>
+  <HB_Settings_029>고기 생성</HB_Settings_029>
+  <HB_Settings_030>일반 사용 영양 소모</HB_Settings_030>
+  <HB_Settings_031>고기 개수</HB_Settings_031>
+  <HB_Settings_032>살덩이 벽 형성</HB_Settings_032>
+  <HB_Settings_033>습득 비용</HB_Settings_033>
+  <HB_Settings_034>일반 사용 영양 소모</HB_Settings_034>
+  <HB_Settings_035>사거리 (칸)</HB_Settings_035>
+  <HB_Settings_036>너비 (칸)</HB_Settings_036>
+  <HB_Settings_037>살덩이 고치 치료</HB_Settings_037>
+  <HB_Settings_038>습득 비용</HB_Settings_038>
+  <HB_Settings_039>일반 사용 영양 소모</HB_Settings_039>
+  <HB_Settings_040>사거리 (칸)</HB_Settings_040>
+  <HB_Settings_041>뼈 창</HB_Settings_041>
+  <HB_Settings_042>습득 비용</HB_Settings_042>
+  <HB_Settings_043>일반 사용 영양 소모</HB_Settings_043>
+  <HB_Settings_044>섬멸 모드 자동 사용 영양 소모</HB_Settings_044>
+  <HB_Settings_045>사거리 (칸)</HB_Settings_045>
+  <HB_Settings_046>피해</HB_Settings_046>
+  <HB_Settings_047>방어 관통 (%)</HB_Settings_047>
+  <HB_Settings_048>섬멸 모드 방어 관통 배율</HB_Settings_048>
+  <HB_Settings_114>건물 피해 배율 (기본값 5배)</HB_Settings_114>
+  <HB_Settings_049>살덩이 바닥 깔기</HB_Settings_049>
+  <HB_Settings_050>습득 비용</HB_Settings_050>
+  <HB_Settings_051>일반 사용 영양 소모</HB_Settings_051>
+  <HB_Settings_052>섬멸 모드 자동 사용 영양 소모</HB_Settings_052>
+  <HB_Settings_053>사거리 (칸)</HB_Settings_053>
+  <HB_Settings_054>반경 (칸)</HB_Settings_054>
+  <HB_Settings_055>권속 소환</HB_Settings_055>
+  <HB_Settings_056>습득 비용</HB_Settings_056>
+  <HB_Settings_057>일반 사용 영양 소모</HB_Settings_057>
+  <HB_Settings_058>섬멸 모드 자동 사용 영양 소모</HB_Settings_058>
+  <HB_Settings_059>권속 전투 능력</HB_Settings_059>
+  <HB_Settings_060>일반 이동 속도 (칸/초)</HB_Settings_060>
+  <HB_Settings_061>소환자가 완전체일 때 이동 속도 (칸/초)</HB_Settings_061>
+  <HB_Settings_062>최대 체력 배율</HB_Settings_062>
+  <HB_Settings_063>성장 탭에서 설정한 완전체 회복량을 똑같이 씁니다.</HB_Settings_063>
+  <HB_Settings_064>죽을 때 폭발</HB_Settings_064>
+  <HB_Settings_065>폭발 반경 (칸)</HB_Settings_065>
+  <HB_Settings_066>폭발 피해</HB_Settings_066>
+  <HB_Settings_067>기절 시간 (초)</HB_Settings_067>
+  <HB_Settings_068>불붙으면 소방거품 자폭</HB_Settings_068>
+  <HB_Settings_069>소방거품 살포 반경 (칸)</HB_Settings_069>
+  <HB_Settings_070>섬멸 모드: 교전 거리</HB_Settings_070>
+  <HB_Settings_071>적과 유지할 거리 (중심, 칸, 허용 폭 ±3)</HB_Settings_071>
+  <HB_Settings_072>뼈 창 사거리보다 짧게 설정하세요. 기본값: 30칸 (27~33칸).</HB_Settings_072>
+  <HB_Settings_073>섬멸 모드: 뼈 창</HB_Settings_073>
+  <HB_Settings_074>뼈 창 자동 기본 발사 간격 (초 / 적 1명)</HB_Settings_074>
+  <HB_Settings_075>적이 1명 늘 때마다 연사 배율</HB_Settings_075>
+  <HB_Settings_076>기본 배율: 2. 적이 1/2/3명이면 발사 속도는 각각 1/2/3배입니다. 사거리와 시야 안의 적만 셉니다.</HB_Settings_076>
+  <HB_Settings_077>섬멸 모드: 살덩이 벽과 토치카</HB_Settings_077>
+  <HB_Settings_078>토치카 자동 전개</HB_Settings_078>
+  <HB_Settings_080>토치카 전개까지 정지 시간 (초)</HB_Settings_080>
+  <HB_Settings_081>토치카 전개 후 재사용 대기시간 (초)</HB_Settings_081>
+  <HB_Settings_084>섬멸 모드: 살덩이 바닥 깔기</HB_Settings_084>
+  <HB_Settings_085>살덩이 바닥 자동 깔기</HB_Settings_085>
+  <HB_Settings_086>살덩이 바닥 자동 깔기 후 재사용 대기시간 (초)</HB_Settings_086>
+  <HB_Settings_087>능력 탭에서 설정한 사거리 안에 적이 들어오면 살덩이 바닥을 자동으로 깝니다. 꺼도 직접 깔 수는 있습니다.</HB_Settings_087>
+  <HB_Settings_088>섬멸 모드: 살덩이 고치 치료</HB_Settings_088>
+  <HB_Settings_089>권속 자동 소환 재사용 대기시간 (초)</HB_Settings_089>
+  <HB_Settings_090>살덩이 고치 자동 치료 재사용 대기시간 (초)</HB_Settings_090>
+  <HB_Settings_091>재사용 대기시간은 성공한 뒤에 적용됩니다. 실패했을 때의 짧은 재시도 간격은 그대로입니다.</HB_Settings_091>
+  <HB_Settings_092>알림</HB_Settings_092>
+  <HB_Settings_093>시체를 먹어 얻은 영양 알림 표시</HB_Settings_093>
+  <HB_Settings_094>본체와 권속 모두에 적용됩니다. 알림을 꺼도 얻는 영양은 같습니다.</HB_Settings_094>
+  <HB_Settings_095>한 번에 소환하는 수 (직접, 자동 공통)</HB_Settings_095>
+  <HB_Settings_096>섬멸 모드: 권속 소환</HB_Settings_096>
+  <HB_Settings_097>권속 자동 소환</HB_Settings_097>
+  <HB_Settings_098>권속 자동 소환: 적 감지 거리 (칸)</HB_Settings_098>
+  <HB_Settings_099>보유 권속이 이 수보다 적으면 자동 소환</HB_Settings_099>
+  <HB_Settings_101>지속 시간 (게임 시간, 0 = 무너지지 않음)</HB_Settings_101>
+  <HB_Settings_102>지속 시간 (게임 시간, 0 = 무너지지 않음)</HB_Settings_102>
+  <HB_LifetimeForever>저절로 무너지지 않습니다.</HB_LifetimeForever>
+  <HB_LifetimeHours>&lt;color=#80FFFF&gt;{0}시간&lt;/color&gt; 뒤에 무너집니다.</HB_LifetimeHours>
+  <HB_LifetimeInspectForever>자연 붕괴: 없음</HB_LifetimeInspectForever>
+  <HB_LifetimeInspectHours>붕괴까지: {0}시간</HB_LifetimeInspectHours>
+  <HB_EndBombardmentSettingsTitle>종말 폭격과 종말 권속 (각성 모드)</HB_EndBombardmentSettingsTitle>
+  <HB_EndSetting_endBombardCost>일반 사용 영양 소모</HB_EndSetting_endBombardCost>
+  <HB_EndSetting_endBombardCooldownSeconds>자동 폭격 간격 (초)</HB_EndSetting_endBombardCooldownSeconds>
+  <HB_EndSetting_endBombardShellSpeed>탄속</HB_EndSetting_endBombardShellSpeed>
+  <HB_EndSetting_endBombardMinRange>최소 폭격 거리 (칸)</HB_EndSetting_endBombardMinRange>
+  <HB_EndSetting_endBombardBlastRadius>폭발 반경 (칸)</HB_EndSetting_endBombardBlastRadius>
+  <HB_EndSetting_endBombardDamage>폭발 피해</HB_EndSetting_endBombardDamage>
+  <HB_EndSetting_endBombardStunSeconds>기절 시간 (초)</HB_EndSetting_endBombardStunSeconds>
+  <HB_EndSetting_endBombardFloorRadius>살덩이 바닥 반경 (칸)</HB_EndSetting_endBombardFloorRadius>
+  <HB_EndSetting_endBombardWallRadius>외곽 살덩이 벽 반경 (칸)</HB_EndSetting_endBombardWallRadius>
+  <HB_EndSetting_endBombardWallThickness>외곽 살덩이 벽 두께 (칸)</HB_EndSetting_endBombardWallThickness>
+  <HB_EndSetting_endBombardKinCount>종말 권속 소환 수</HB_EndSetting_endBombardKinCount>
+  <HB_EndSetting_endKinLifetimeHours>수명 (시간, 0 = 영구)</HB_EndSetting_endKinLifetimeHours>
+  <HB_EndSetting_endKinSpearIntervalSeconds>뼈 창 자동 발사 간격 (초)</HB_EndSetting_endKinSpearIntervalSeconds>
+  <HB_EndSetting_endKinExplosionDamageMultiplier>죽을 때 폭발 피해 배율</HB_EndSetting_endKinExplosionDamageMultiplier>
+  <HB_EndSetting_endKinExplosionStunMultiplier>죽을 때 폭발 기절 배율</HB_EndSetting_endKinExplosionStunMultiplier>
+  <HB_EndBombardName>종말 폭격</HB_EndBombardName>
+  <HB_EndBombardAutoOn>폭격 켜짐 (영양 {0})</HB_EndBombardAutoOn>
+  <HB_EndBombardAutoOff>폭격 꺼짐 (영양 {0})</HB_EndBombardAutoOff>
+  <HB_EndBombardAutoToggleTooltip>켜면 각성 모드에서 적에게 종말 폭격을 자동으로 쏩니다. 꺼도 폭격 명령으로 직접 쏠 수는 있습니다.</HB_EndBombardAutoToggleTooltip>
+  <HB_EndBombardManualTooltip>종말 폭격.\n지정한 위치에 종말을 불러옵니다.\n우클릭으로 자동 발사를 켜거나 끕니다.</HB_EndBombardManualTooltip>
+  <HB_EndBombardCooldown>종말 폭격 재사용까지 {0}초 남았습니다.</HB_EndBombardCooldown>
+  <HB_EndBombardTooClose>종말 폭격은 {0}칸 이상 떨어진 위치를 지정하세요.</HB_EndBombardTooClose>
+  <HB_EndBombardColonyProtected>이곳에는 폭격할 수 없습니다. 폭발이나 살덩이 확산이 보호 구역과 겹칩니다.</HB_EndBombardColonyProtected>
+  <HB_EndBombardInvalidTarget>지정한 위치가 지도 밖입니다.</HB_EndBombardInvalidTarget>
+  <HB_EndBombardUnavailable>지금은 종말 폭격을 쓸 수 없습니다.</HB_EndBombardUnavailable>
+  <HB_AwakeningDismissLabel>권속 모두 소멸</HB_AwakeningDismissLabel>
+  <HB_AwakeningDismissDesc>이 지도의 일반 권속과 종말 권속을 모두 없앱니다. 이렇게 없애면 죽을 때 폭발이 일어나지 않습니다.</HB_AwakeningDismissDesc>
+  <HB_AwakeningDismissConfirm>이 지도의 권속 {0}기를 모두 없앨까요? 죽을 때 폭발은 일어나지 않습니다.</HB_AwakeningDismissConfirm>
+  <HB_AwakeningDismissNoKin>이 지도에는 없앨 권속이 없습니다.</HB_AwakeningDismissNoKin>
+  <HB_AwakeningDismissDone>이 지도에서 권속 {0}기를 없앴습니다.</HB_AwakeningDismissDone>
+  <HB_RespectForbiddenCorpses>자동으로 먹을 때 금지한 시체는 먹지 않음 (알, 짐승, 권속)</HB_RespectForbiddenCorpses>
+  <HB_FleshWallDismiss>살덩이 벽 해체</HB_FleshWallDismiss>
+  <HB_FleshWallDismissDesc>이 살덩이 벽을 즉시 없앱니다. 자원은 돌려받지 못합니다.</HB_FleshWallDismissDesc>
+  <HB_WallOutOfRange>사거리 밖입니다.</HB_WallOutOfRange>
+  <HB_WallKeyPrompt>키를 누르세요 (Esc로 취소)</HB_WallKeyPrompt>
+  <HB_WallRotateKeySetting>벽 방향 전환 키: {0} (클릭해서 변경)</HB_WallRotateKeySetting>
+  <HB_WearClothes>옷 입은 모습</HB_WearClothes>
+  <HB_EndBombardAutomaticUse>자동 사용</HB_EndBombardAutomaticUse>
+  <HB_EndBombardAutoState>자동 {0}</HB_EndBombardAutoState>
+  <HB_EndBombardAbilityTooltip>지정한 위치에 종말을 불러옵니다</HB_EndBombardAbilityTooltip>
+  <HB_HealingBaseSetting>기본 부상 회복 속도 (%)</HB_HealingBaseSetting>
+  <HB_HealingEvolutionSetting>진화할 때마다 더하는 회복 속도 (%)</HB_HealingEvolutionSetting>
+  <HB_ReturnLabel>지하에서의 귀환</HB_ReturnLabel>
+  <HB_ReturnText>땅이 흔들리더니 진홍빛 뿌리가 흙을 뚫고 올라옵니다. 낯익은 모습이 아래에서 천천히 솟아오릅니다.\n\n실종되었던 {0}(이)가 정착지로 돌아왔습니다.</HB_ReturnText>
+  <HB_SoulName>영혼 결속</HB_SoulName>
+  <HB_SoulDescription>정착민을 삼켜 하루에 걸쳐 건강한 몸을 다시 만듭니다. 영혼을 보존해 두면 죽은 뒤에 새 몸을 만들 수 있습니다.</HB_SoulDescription>
+  <HB_SoulUnavailable>각성과 삼키기 능력이 필요합니다.</HB_SoulUnavailable>
+  <HB_SoulFull>영혼 보호 슬롯이 모두 찼습니다.</HB_SoulFull>
+  <HB_SoulBindConfirm>{0}의 영혼을 결속할까요? 영양을 {1} 소모하고 하루에 걸쳐 몸을 다시 만듭니다. 장비와 소지품은 바로 떨어뜨리며, 이식물과 보철은 완료할 때 돌려받습니다.</HB_SoulBindConfirm>
+  <HB_SoulStarted>{0}의 영혼 결속을 시작했습니다.</HB_SoulStarted>
+  <HB_SoulReturned>{0}의 영혼이 짐승에게 돌아왔습니다.</HB_SoulReturned>
+  <HB_SoulBorn>{0}의 새 몸을 만들었습니다.</HB_SoulBorn>
+  <HB_SoulSummary>보호 중인 영혼: {0} / {1}    영양: {2}</HB_SoulSummary>
+  <HB_SoulBindNew>새 영혼 결속 (영양 {0})</HB_SoulBindNew>
+  <HB_SoulActive>활동 중</HB_SoulActive>
+  <HB_SoulWaiting>영혼 귀환</HB_SoulWaiting>
+  <HB_SoulGrowing>재구성 중</HB_SoulGrowing>
+  <HB_SoulHours>남은 시간: {0}시간</HB_SoulHours>
+  <HB_SoulGeneration>만든 몸: {0}</HB_SoulGeneration>
+  <HB_SoulCreate>복제체 생성 (영양 {0})</HB_SoulCreate>
+  <HB_SoulRelease>영혼 해방</HB_SoulRelease>
+  <HB_SoulReleaseAlive>{0}(을)를 해방할까요? 영혼이 살아 있는 몸으로 온전히 돌아가며 부작용은 없습니다. 죽은 뒤에는 더 이상 짐승에게 돌아오지 않습니다.</HB_SoulReleaseAlive>
+  <HB_SoulReleaseDead>{0}의 영혼을 떠나보낼까요? 보호가 끝나며 이 영혼으로는 더 이상 복제체를 만들 수 없습니다.</HB_SoulReleaseDead>
+  <HB_SoulSlots>영혼 보호 슬롯: {0}</HB_SoulSlots>
+  <HB_SoulSettingBind>첫 영혼 결속에 드는 영양</HB_SoulSettingBind>
+  <HB_SoulSettingRebuild>사후 몸 생성에 드는 영양</HB_SoulSettingRebuild>
+  <HB_SoulSettingSlot>첫 슬롯 확장 비용 (구매할 때마다 두 배)</HB_SoulSettingSlot>
+  <HB_SoulSettingMood>몸 생성 후 기분 페널티</HB_SoulSettingMood>
+  <HB_SoulSettingDays>기분 페널티 지속 시간 (일)</HB_SoulSettingDays>
+  <HB_SwallowName>삼키기</HB_SwallowName>
+  <HB_SwallowDescription>살아 있는 대상을 삼켜, 선택한 모드에 따라 소화하거나 치료합니다.\n삼키기 아이콘을 우클릭해 전환합니다. 빨간색은 소화, 초록색은 치료입니다.\n소화 중에 일찍 토해 내면 진행도에 비례한 피해를 주고 그만큼 영양을 얻습니다.</HB_SwallowDescription>
+  <HB_SwallowLearned>삼키기 (습득함)</HB_SwallowLearned>
+  <HB_SwallowLearnButton>삼키기 습득 (영양 {0})</HB_SwallowLearnButton>
+  <HB_SwallowLearnSuccess>삼키기를 습득했습니다.</HB_SwallowLearnSuccess>
+  <HB_SwallowReady>삼키기 (사용 가능)</HB_SwallowReady>
+  <HB_SwallowCooling>삼키기 (재사용 대기: {0}시간)</HB_SwallowCooling>
+  <HB_SwallowUnavailable>행동할 수 있는 완전체 전조짐승만 이 능력을 습득하거나 쓸 수 있습니다.</HB_SwallowUnavailable>
+  <HB_SwallowInvalidTarget>전조짐승이나 권속이 아닌, 살아 있는 사람이나 동물을 지정하세요.</HB_SwallowInvalidTarget>
+  <HB_SwallowUnreachable>대상 옆으로 이동할 수 없습니다.</HB_SwallowUnreachable>
+  <HB_SwallowSuccess>{0}(을)를 삼켜 영양을 {1} 얻었습니다. 재사용 대기: {2}시간.</HB_SwallowSuccess>
+  <HB_SwallowSettingLearn>습득 비용</HB_SwallowSettingLearn>
+  <HB_SwallowSettingNutrition>소화로 얻는 영양 (몸 크기 1 = 5.2)</HB_SwallowSettingNutrition>
+  <HB_SwallowSettingCooldown>몸 크기당 소화·치료 시간 (0 = 즉시)</HB_SwallowSettingCooldown>
+  <HB_SwallowToggleOn>삼키기 켜짐</HB_SwallowToggleOn>
+  <HB_SwallowToggleOff>삼키기 꺼짐</HB_SwallowToggleOff>
+  <HB_RegurgitateName>토해내기</HB_RegurgitateName>
+  <HB_RegurgitateDescription>삼킨 대상을 토해 냅니다. 소화 진행도에 비례한 피해를 줍니다.</HB_RegurgitateDescription>
+  <HB_SwallowHeld>{0}(을)를 산 채로 삼켰습니다.</HB_SwallowHeld>
+  <HB_SwallowDigested>소화를 마쳤습니다. 영양을 {0} 얻었습니다.</HB_SwallowDigested>
+  <HB_SwallowOccupied>이미 대상을 소화하고 있습니다.</HB_SwallowOccupied>
+  <HB_SwallowProgress>소화 중: {0} ({1}%, {2}시간 남음)</HB_SwallowProgress>
+  <HB_DigestionRemaining>소화 완료까지: {0}시간</HB_DigestionRemaining>
+  <HB_RegurgitateNutrition>토해 내기 전까지의 소화로 영양을 {0} 얻었습니다.</HB_RegurgitateNutrition>
+  <HB_TreatmentReleaseDescription>치료는 진행도 10%마다 대상의 몸 크기만큼 영양을 소모합니다. 영양이 모자라면 치료가 끝나고 환자를 내보내며, 그때까지 얻은 회복과 면역은 유지됩니다.\n100%에 이르면 흉터, 중독, 만성 질환을 치료합니다. 부상과 질병은 이번에 삼킨 동안의 진행도에 비례해서만 회복됩니다.</HB_TreatmentReleaseDescription>
+  <HB_TreatmentRemaining>치료 완료까지: {0}시간</HB_TreatmentRemaining>
+  <HB_TreatmentProgress>치료 중: {0} ({1}%, {2}시간 남음)</HB_TreatmentProgress>
+  <HB_TreatmentHeld>{0}의 체내 치료를 시작했습니다.</HB_TreatmentHeld>
+  <HB_TreatmentComplete>{0}의 체내 치료를 모두 마쳤습니다.</HB_TreatmentComplete>
+  <HB_SwallowModeLabel>삼키기 ({0})</HB_SwallowModeLabel>
+  <HB_SwallowTreatmentMode>치료</HB_SwallowTreatmentMode>
+  <HB_SwallowDigestMode>소화</HB_SwallowDigestMode>
+  <HB_SwallowModeHint>우클릭으로 삼키기(소화)와 삼키기(치료)를 전환합니다.</HB_SwallowModeHint>
+  <HB_SwallowModeOccupied>모드를 바꾸기 전에 지금 대상을 토해 내세요.</HB_SwallowModeOccupied>
+  <HB_SwallowModeHeldHint>현재 모드: {0}\n모드를 바꾸려면 대상을 토해 내세요.</HB_SwallowModeHeldHint>
+  <HB_SwallowCommandDescription>살아 있는 대상을 삼켜, 선택한 모드에 따라 소화하거나 치료합니다.\n소화 중에 일찍 토해 내면 진행도에 비례한 피해를 주고 그만큼 영양을 얻습니다.</HB_SwallowCommandDescription>
+  <HB_BindingName>촉수 속박</HB_BindingName>
+  <HB_BindingDescription>살덩이 촉수로 대상을 옭아매어 {0}시간 동안 움직이거나 공격할 수 없게 합니다.\n이미 속박된 대상에게 다시 쓰면 영양 소모 없이 풀어 줍니다.</HB_BindingDescription>
+  <HB_BindingFailed>이 대상을 속박할 수 없습니다. 대상과 사거리, 영양을 확인하세요.</HB_BindingFailed>
+  <HB_BindingRemaining>속박 해제까지: {0}시간</HB_BindingRemaining>
+  <HB_BindingUse>촉수 속박 (영양 {0})</HB_BindingUse>
+  <HB_BindingLearned>촉수 속박 (습득함)</HB_BindingLearned>
+  <HB_BindingLearn>습득 (영양 {0})</HB_BindingLearn>
+  <HB_BindingLearnSuccess>촉수 속박을 습득했습니다.</HB_BindingLearnSuccess>
+  <HB_BindingSettingLearn>습득 비용</HB_BindingSettingLearn>
+  <HB_BindingSettingUse>일반 사용 영양 소모</HB_BindingSettingUse>
+  <HB_BindingSettingRange>사거리 (칸)</HB_BindingSettingRange>
+  <HB_BindingSettingHours>지속 시간 (게임 시간)</HB_BindingSettingHours>
+  <HB_ThornName>가시 소환</HB_ThornName>
+  <HB_ThornDescription>전조가시를 권속으로 불러냅니다. {0}</HB_ThornDescription>
+  <HB_ThornLearned>가시 소환 (습득함)</HB_ThornLearned>
+  <HB_ThornLearn>습득 (영양 {0})</HB_ThornLearn>
+  <HB_ThornUse>가시 소환 (영양 {0})</HB_ThornUse>
+  <HB_ThornInvalid>영양이 부족하거나 위치가 알맞지 않습니다. 사거리와 시야 안의 알맞은 지형에 있는 빈칸을 고르세요.</HB_ThornInvalid>
+  <HB_ThornDismiss>가시 해체</HB_ThornDismiss>
+  <HB_ThornDismissDesc>소환한 가시를 즉시 없앱니다. 영양은 돌려받지 못합니다.</HB_ThornDismissDesc>
+  <HB_ThornSettingLearn>습득 비용</HB_ThornSettingLearn>
+  <HB_ThornSettingUse>일반 사용 영양 소모</HB_ThornSettingUse>
+  <HB_ThornSettingRange>사거리 (칸)</HB_ThornSettingRange>
+  <HB_ThornSettingLifetime>지속 시간 (게임 시간, 0 = 만료 없음)</HB_ThornSettingLifetime>
+  <HB_ThornLearnSuccess>가시 소환을 습득했습니다.</HB_ThornLearnSuccess>
+  <HB_DormancySetting>휴면 시간 (게임 시간, 최소 1)</HB_DormancySetting>
+  <HB_ThornAutoSettings>섬멸 모드: 가시 소환</HB_ThornAutoSettings>
+  <HB_ThornAutoRange>자동 배치를 시작하는 적 감지 거리 (칸)</HB_ThornAutoRange>
+  <HB_ThornAutoCooldown>자동 배치 재사용 대기시간 (초, 0 = 없음)</HB_ThornAutoCooldown>
+  <HB_ThornUnitName>가시 권속</HB_ThornUnitName>
+  <HB_ThornSettingAutoUse>섬멸 모드 자동 사용 영양 소모</HB_ThornSettingAutoUse>
+  <HB_EndThornUnitName>종말 가시 권속</HB_EndThornUnitName>
+  <HB_EmergencyBunkerTitle>각성 모드: 긴급 토치카</HB_EmergencyBunkerTitle>
+  <HB_EmergencyBunkerToggle>자동 발동</HB_EmergencyBunkerToggle>
+  <HB_EmergencyBunkerDesc>적이 10칸 안으로 다가오거나, 짐승이 피해를 입거나, 적이 원거리 공격으로 짐승을 노리면 전개합니다. 재사용 대기시간: 30초.</HB_EmergencyBunkerDesc>
+  <HB_ManualSleep>휴면 들어가기</HB_ManualSleep>
+  <HB_ManualWake>깨어나기</HB_ManualWake>
+  <HB_ManualWakeWait>깨어날 수 있을 때까지: {0}시간</HB_ManualWakeWait>
+  <HB_ManualSleepConfirm>스스로 휴면에 들어갈까요?\n게임 시간으로 24시간 동안 돌아올 수 없습니다. 그 뒤 알의 개체 기록에서 깨어나기를 고르면 건강 상태가 초기화된 채 돌아옵니다. 흉터, 질병, 잃은 부위, 이식물, 이로운 효과를 포함한 모든 건강 상태가 사라집니다. 정체성, 영양, 습득한 능력, 기록은 유지됩니다.</HB_ManualSleepConfirm>
+</LanguageData>

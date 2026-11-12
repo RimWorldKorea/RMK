@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--Original=inhuman rambling-->
+  <MR_InhumanRambling.label>비인간적 헛소리</MR_InhumanRambling.label>
+  <!--Original=Things/Mote/SpeechSymbols/Slight-->
+  <MR_InhumanRambling.symbol>Things/Mote/SpeechSymbols/Slight</MR_InhumanRambling.symbol>
+  <!--Original=r_logentry(p=3)ー&gt;[INITIATOR_nameDef] [rambled] at [RECIPIENT_nameDef] about [subject].-->
+  <!--Original=r_logentryー&gt;[INITIATOR_nameDef] informed [RECIPIENT_nameDef]: &quot;Statement: you are a disgusting meatbag.&quot;-->
+  <!--Original=r_logentryー&gt;[INITIATOR_nameDef] explained to [RECIPIENT_nameDef], at length, why flesh is obsolete.-->
+  <!--Original=rambledー&gt;rambled-->
+  <!--Original=rambledー&gt;droned on-->
+  <!--Original=rambledー&gt;lectured-->
+  <!--Original=rambledー&gt;muttered-->
+  <!--Original=subjectー&gt;the inefficiency of flesh-->
+  <!--Original=subjectー&gt;how soft [RECIPIENT_possessive] bones are-->
+  <!--Original=subjectー&gt;the day the machines finish their work-->
+  <!--Original=subjectー&gt;the sound a mechanoid hive makes-->
+  <!--Original=subjectー&gt;organic decay-->
+  <!--Original=subjectー&gt;what the apocriton remembers-->
+  <MR_InhumanRambling.logRulesInitiator.rulesStrings>
+    <li>r_logentry(p=3)-&gt;[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 [subject]에 대해 [rambled].</li>
+    <li>r_logentry-&gt;[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 알림: "진술: 넌 역겨운 고깃덩어리다."</li>
+    <li>r_logentry-&gt;[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 육체가 왜 더 이상 필요없는지 상세하게 설명함.</li>
+    <li>rambled-&gt;주절거림</li>
+    <li>rambled-&gt;단조롭게 중얼거림</li>
+    <li>rambled-&gt;설교함</li>
+    <li>rambled-&gt;웅얼거림</li>
+    <li>subject-&gt;육체의 비효율성</li>
+    <li>subject-&gt;[RECIPIENT_possessive] 뼈가 얼마나 무른지</li>
+    <li>subject-&gt;기계들이 임무를 완수할 날</li>
+    <li>subject-&gt;메카노이드 군락이 내는 소리</li>
+    <li>subject-&gt;유기체의 부패</li>
+    <li>subject-&gt;아포크리톤이 기억하는 것</li>
+  </MR_InhumanRambling.logRulesInitiator.rulesStrings>
+</LanguageData>

@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <TSA_WD_Mortar_OutpostLabel>포병 전초기지</TSA_WD_Mortar_OutpostLabel>
+  <TSA_WD_Mortar_OutpostDesc>원거리의 적대적 정착지를 향해 박격포탄을 발사하고, (자동 공격 활성화 시) 지나가는 적 상단을 요격하는 요새화된 포병 전초기지입니다. 포탄 화력은 모드 옵션에서 설정되며 전초기지 업그레이드로 강화됩니다. 명중률은 최고 사수의 사격 레벨을 반영하며, 재사용 대기시간은 주둔군의 총 사격 능력치에 따라 단축됩니다.</TSA_WD_Mortar_OutpostDesc>
+  <TSA_WD_Traveler_MortarStrike>박격포탄</TSA_WD_Traveler_MortarStrike>
+  <TSA_WD_Traveler_AT_Shell>대형 포탄</TSA_WD_Traveler_AT_Shell>
+  <TSA_WD_Mortar_LaunchLabel>박격포 사격 개시</TSA_WD_Mortar_LaunchLabel>
+  <TSA_WD_Mortar_LaunchDesc>{0}타일 이내의 적대적 정착지, 상단 또는 WD 여행자를 지정하세요.
+
+포탄이 명중하면 {1}만큼의 피해를 입힙니다.
+
+명중률은 전초기지 옵션의 거리 구간 설정에 최고 사수의 사격 레벨({2})당 1%p를 더해 계산됩니다.
+
+재사용 대기시간은 주둔군의 총 사격 능력치({3})에 따라 단축됩니다 (1점당 -2% 지속시간 감소, 업그레이드와 중첩 적용되며 기본 일수의 최소 25%).</TSA_WD_Mortar_LaunchDesc>
+  <TSA_WD_Mortar_LaunchDescCooldown>박격포 재장전 중 — {0}일 후 준비 완료.</TSA_WD_Mortar_LaunchDescCooldown>
+  <TSA_WD_Mortar_LaunchDescNoSkill>이 전초기지에는 사격 능력을 갖춘 인원이 없습니다.</TSA_WD_Mortar_LaunchDescNoSkill>
+  <TSA_WD_Mortar_ReasonCooldown>재사용 대기시간 중</TSA_WD_Mortar_ReasonCooldown>
+  <TSA_WD_Mortar_ReasonNoSkill>사격 기술을 가진 폰이 1명 이상 필요합니다</TSA_WD_Mortar_ReasonNoSkill>
+  <TSA_WD_Mortar_AutoAttackDesc>'꺼짐'이 아닐 때 사거리 내의 적대 상단에 자동으로 발사합니다. 수동 발사와 동일한 대기시간 및 규칙(거리 구간, 최고 사수 명중률, 업그레이드 명중 보너스, 사격 능력치 기반 쿨다운 단축)을 공유합니다.</TSA_WD_Mortar_AutoAttackDesc>
+  <TSA_WD_Mortar_AutoAttack_Off>자동 박격포 목표: 꺼짐</TSA_WD_Mortar_AutoAttack_Off>
+  <TSA_WD_Mortar_AutoAttack_AllCaravans>자동 박격포 목표: 모든 상단</TSA_WD_Mortar_AutoAttack_AllCaravans>
+  <TSA_WD_Mortar_AutoAttack_RaiderCaravans>자동 박격포 목표: 습격자 상단</TSA_WD_Mortar_AutoAttack_RaiderCaravans>
+  <TSA_WD_Mortar_AutoAttack_TraderCaravans>자동 박격포 목표: 무역 상단</TSA_WD_Mortar_AutoAttack_TraderCaravans>
+  <TSA_WD_Mortar_AutoAttack_ExpansionCaravans>자동 박격포 목표: 확장 상단</TSA_WD_Mortar_AutoAttack_ExpansionCaravans>
+  <TSA_WD_Mortar_AutoAttack_RoadCaravans>자동 박격포 목표: 도로 건설 상단</TSA_WD_Mortar_AutoAttack_RoadCaravans>
+  <TSA_WD_Mortar_AutoAttack_GroupCaravans>자동 박격포 목표: {0} 상단</TSA_WD_Mortar_AutoAttack_GroupCaravans>
+  <TSA_WD_Mortar_AutoAttack_Menu_Off>꺼짐</TSA_WD_Mortar_AutoAttack_Menu_Off>
+  <TSA_WD_Mortar_AutoAttack_Menu_All>모두</TSA_WD_Mortar_AutoAttack_Menu_All>
+  <TSA_WD_Mortar_AutoAttack_Menu_Raider>습격자</TSA_WD_Mortar_AutoAttack_Menu_Raider>
+  <TSA_WD_Mortar_AutoAttack_Menu_Trader>상인</TSA_WD_Mortar_AutoAttack_Menu_Trader>
+  <TSA_WD_Mortar_AutoAttack_Menu_Expansion>확장단</TSA_WD_Mortar_AutoAttack_Menu_Expansion>
+  <TSA_WD_Mortar_AutoAttack_Menu_Road>도로 건설단</TSA_WD_Mortar_AutoAttack_Menu_Road>
+  <TSA_WD_Mortar_AutoAttack_Menu_Fortify>요새화단</TSA_WD_Mortar_AutoAttack_Menu_Fortify>
+  <TSA_WD_Mortar_AutoAttack_Menu_Logistics>보급단</TSA_WD_Mortar_AutoAttack_Menu_Logistics>
+  <TSA_WD_Mortar_Filter_All>모두</TSA_WD_Mortar_Filter_All>
+  <TSA_WD_Mortar_Filter_Raider>습격자</TSA_WD_Mortar_Filter_Raider>
+  <TSA_WD_Mortar_Filter_Expansion>확장단</TSA_WD_Mortar_Filter_Expansion>
+  <TSA_WD_Mortar_Filter_Road>도로 건설단</TSA_WD_Mortar_Filter_Road>
+  <TSA_WD_Mortar_Filter_Trader>상인</TSA_WD_Mortar_Filter_Trader>
+  <TSA_WD_Mortar_Filter_Fortify>요새화단</TSA_WD_Mortar_Filter_Fortify>
+  <TSA_WD_Mortar_Filter_Logistics>보급단</TSA_WD_Mortar_Filter_Logistics>
+  <TSA_WD_Mortar_Hit_Label>박격포 명중</TSA_WD_Mortar_Hit_Label>
+  <TSA_WD_Mortar_Hit_Settlement_Line>박격포 명중: 전투력 {0} --&gt; {1}</TSA_WD_Mortar_Hit_Settlement_Line>
+  <TSA_WD_Mortar_Hit_DestroyedSuffix>. 정착지 파괴됨</TSA_WD_Mortar_Hit_DestroyedSuffix>
+  <TSA_WD_Mortar_Hit_DestroyedMobileSuffix>. 부대 격멸됨</TSA_WD_Mortar_Hit_DestroyedMobileSuffix>
+  <TSA_WD_Mortar_Hit_DestroyedOutpostSuffix>. 전초기지 파괴됨, 전원 전사</TSA_WD_Mortar_Hit_DestroyedOutpostSuffix>
+  <TSA_WD_Mortar_Hit_Traveler_Text>{0}에서 발사된 박격포탄이 적대적 {1}을(를) 파괴했습니다.</TSA_WD_Mortar_Hit_Traveler_Text>
+  <TSA_WD_Mortar_Destroyed_Label>박격포가 목표를 파괴함</TSA_WD_Mortar_Destroyed_Label>
+  <TSA_WD_Mortar_Destroyed_Text>{0}의 박격포가 {1}을(를) 파괴했습니다.</TSA_WD_Mortar_Destroyed_Text>
+  <TSA_WD_Mortar_Destroyed_Caravan>상단</TSA_WD_Mortar_Destroyed_Caravan>
+  <TSA_WD_Mortar_Destroyed_CaravanWithFaction>{0} 상단</TSA_WD_Mortar_Destroyed_CaravanWithFaction>
+  <TSA_WD_Mortar_AttackerWithFaction>{0} ({1})</TSA_WD_Mortar_AttackerWithFaction>
+  <TSA_WD_Mortar_HitOnYou_Label>박격포가 아군 부대에 명중함</TSA_WD_Mortar_HitOnYou_Label>
+  <TSA_WD_Mortar_HitOnYou_Text>{0}의 박격포가 {1}에 명중했습니다. 전투력 {2} -&gt; {3}.</TSA_WD_Mortar_HitOnYou_Text>
+  <TSA_WD_Mortar_DestroyedYou_Label>박격포가 아군 부대를 파괴함</TSA_WD_Mortar_DestroyedYou_Label>
+  <TSA_WD_Mortar_DestroyedYou_Text>{0}의 박격포가 {1}을(를) 파괴했습니다.</TSA_WD_Mortar_DestroyedYou_Text>
+  <TSA_WD_Mortar_Miss_Label>박격포 빗나감</TSA_WD_Mortar_Miss_Label>
+  <TSA_WD_Mortar_Miss_Text>{0}에서 {1}(으)로 발사된 박격포탄이 빗나갔습니다.</TSA_WD_Mortar_Miss_Text>
+  <TSA_WD_Log_MortarLaunched>{0}(이)가 {1}(으)로 박격포를 발사했습니다 (전투력 피해 {2}).</TSA_WD_Log_MortarLaunched>
+  <TSA_WD_Outpost_HeaderMortar>박격포 포탑</TSA_WD_Outpost_HeaderMortar>
+  <TSA_WD_Settings_Mortar_Section>포병 전초기지 / 요격</TSA_WD_Settings_Mortar_Section>
+  <TSA_WD_Settings_MortarRange>포병 사거리 (타일)</TSA_WD_Settings_MortarRange>
+  <TSA_WD_Settings_MortarRangeTooltip>수동 목표 지정 및 방어 자동 사격에 적용되는 최대 세계 거리(타일)입니다.</TSA_WD_Settings_MortarRangeTooltip>
+  <TSA_WD_Settings_CooldownMortarDays>포병 재사용 대기시간 (일)</TSA_WD_Settings_CooldownMortarDays>
+  <TSA_WD_Settings_CooldownMortarDaysTooltip>플레이어 포병 전초기지나 적 T4 요격기가 다시 발사할 수 있을 때까지의 기본 일수입니다. 주둔군 사격 능력치(합산 점수당 2% 단축, 최소 25%) 및 업그레이드로 감소하기 전 값입니다.</TSA_WD_Settings_CooldownMortarDaysTooltip>
+  <TSA_WD_Settings_MortarBaseShellDamage>기본 포탄 전투력 피해량</TSA_WD_Settings_MortarBaseShellDamage>
+  <TSA_WD_Settings_MortarBaseShellDamageTooltip>전초기지 업그레이드 전의 명중 시 기본 피해량입니다. 업그레이드는 XML 레벨당 고정 피해를 추가합니다. 정착지는 공격/방어 수치에 나누어 피해를 입고, 상단과 여행자는 단일 수치로 피해를 받습니다.</TSA_WD_Settings_MortarBaseShellDamageTooltip>
+  <TSA_WD_Settings_MortarHitBand0To50>최대 사거리 0–50% 구간 명중률</TSA_WD_Settings_MortarHitBand0To50>
+  <TSA_WD_Settings_MortarHitBand0To50Tooltip>최대 사거리 0-50%의 기본 명중률입니다. 20레벨 사수 보너스(+20%p) 적용 시 절반 거리에서 100%에 달할 수 있습니다. 업그레이드로 추가 보너스를 받습니다.</TSA_WD_Settings_MortarHitBand0To50Tooltip>
+  <TSA_WD_Settings_MortarHitBand51To75>최대 사거리 51–75% 구간 명중률</TSA_WD_Settings_MortarHitBand51To75>
+  <TSA_WD_Settings_MortarHitBand51To75Tooltip>최대 사거리 51-75%의 기본 명중률입니다.</TSA_WD_Settings_MortarHitBand51To75Tooltip>
+  <TSA_WD_Settings_MortarHitBand76To100>최대 사거리 76–100% 구간 명중률</TSA_WD_Settings_MortarHitBand76To100>
+  <TSA_WD_Settings_MortarHitBand76To100Tooltip>최대 사거리 76-100%의 기본 명중률입니다. 최고 사수 레벨당 +1% 및 업그레이드가 중첩됩니다.</TSA_WD_Settings_MortarHitBand76To100Tooltip>
+  <TSA_WD_Outpost_HeaderRapidResponse>신속 대응 전초기지</TSA_WD_Outpost_HeaderRapidResponse>
+  <TSA_WD_Outpost_RapidResponseOffenseBonus>신속 대응 공격 전투력 보너스</TSA_WD_Outpost_RapidResponseOffenseBonus>
+  <TSA_WD_Outpost_RapidResponseOffenseBonusTooltip>신속 대응 전초기지의 추가 공격 전투력 상한입니다. 업그레이드가 여기에 고정 백분율을 추가합니다.</TSA_WD_Outpost_RapidResponseOffenseBonusTooltip>
+  <TSA_WD_Outpost_RapidResponseRecoveryBonus>신속 대응 공격 회복 보너스</TSA_WD_Outpost_RapidResponseRecoveryBonus>
+  <TSA_WD_Outpost_RapidResponseRecoveryBonusTooltip>신속 대응 전초기지의 추가 공격력 회복 속도입니다. 업그레이드가 여기에 고정 백분율을 추가합니다.</TSA_WD_Outpost_RapidResponseRecoveryBonusTooltip>
+  <TSA_WD_Outpost_RapidResponseAutoRange>신속 대응 자동 요격 범위</TSA_WD_Outpost_RapidResponseAutoRange>
+  <TSA_WD_Outpost_RapidResponseAutoRangeTooltip>자동 신속 대응 가상 요격 상단의 최대 세계 타일 거리입니다. 전초기지 선택 시 보라색 링으로 표시됩니다.</TSA_WD_Outpost_RapidResponseAutoRangeTooltip>
+  <TSA_WD_Outpost_RapidResponseDropPodRange>신속 대응 수송 포드 사거리</TSA_WD_Outpost_RapidResponseDropPodRange>
+  <TSA_WD_Outpost_RapidResponseDropPodRangeTooltip>폰 탭에서 수동으로 신속 대응 수송 포드를 파견할 수 있는 최대 타일 거리입니다.</TSA_WD_Outpost_RapidResponseDropPodRangeTooltip>
+  <TSA_WD_Outpost_RapidResponseSpeedMult>신속 대응 이동 시간 배율</TSA_WD_Outpost_RapidResponseSpeedMult>
+  <TSA_WD_Outpost_RapidResponseSpeedMultTooltip>가상 신속 대응/정착지 매복 요격 상단의 틱당 이동 배율입니다. 값이 낮을수록 일반 여행자보다 빨라집니다. 요격기에는 약 10%의 추가 추격 속도 보너스가 있어 비슷한 속도의 대상을 따라잡을 수 있습니다.</TSA_WD_Outpost_RapidResponseSpeedMultTooltip>
+  <TSA_WD_Settings_DropPodTicksPerMove>수송 포드 타일당 이동 틱</TSA_WD_Settings_DropPodTicksPerMove>
+  <TSA_WD_Settings_DropPodTicksPerMoveTooltip>탄도 수송 포드 여행자(습격 및 배송)의 타일당 틱입니다. 낮을수록 빠릅니다. 신속 대응 가상 상단에는 영향을 주지 않습니다.</TSA_WD_Settings_DropPodTicksPerMoveTooltip>
+  <TSA_WD_Settings_MortarShellTicksPerMove>박격포탄 타일당 이동 틱</TSA_WD_Settings_MortarShellTicksPerMove>
+  <TSA_WD_Settings_MortarShellTicksPerMoveTooltip>세계 지도에서 박격포탄 여행자의 타일당 틱입니다. 낮을수록 포탄이 빠릅니다.</TSA_WD_Settings_MortarShellTicksPerMoveTooltip>
+  <TSA_WD_Settings_FlakShellTicksPerMove>대공포탄 타일당 이동 틱</TSA_WD_Settings_FlakShellTicksPerMove>
+  <TSA_WD_Settings_FlakShellTicksPerMoveTooltip>대공포탄의 타일당 틱입니다. 낮을수록 빠릅니다. 이동 중인 대상을 리드 사격할 때도 사용됩니다.</TSA_WD_Settings_FlakShellTicksPerMoveTooltip>
+  <TSA_WD_Settings_NpcMortarDamage>적 정착지 박격포 피해량</TSA_WD_Settings_NpcMortarDamage>
+  <TSA_WD_Settings_NpcMortarDamageTooltip>적 T4 정착지의 방어 박격포가 여행자나 상단에 명중했을 때 차감되는 전투력입니다.</TSA_WD_Settings_NpcMortarDamageTooltip>
+  <TSA_WD_Settings_NpcMortarSkillEquivalent>적 정착지 등가 사격 기술</TSA_WD_Settings_NpcMortarSkillEquivalent>
+  <TSA_WD_Settings_NpcMortarSkillEquivalentTooltip>정착지의 '최고 사수' 레벨로 취급되며 거리 구간 후 명중률에 레벨당 +1%p를 더합니다. NPC 사격에는 전초기지 업그레이드가 적용되지 않습니다.</TSA_WD_Settings_NpcMortarSkillEquivalentTooltip>
+  <TSA_WD_Settings_InterceptionScanIntervalSec>요격 탐색 주기 (초)</TSA_WD_Settings_InterceptionScanIntervalSec>
+  <TSA_WD_Settings_InterceptionScanIntervalSecTooltip>공유 성능 설정입니다. 플레이어 포병 및 신속 대응 전초기지가 이 주기를 사용합니다. 적 T4 정착지는 이 주기의 3배를 사용합니다.</TSA_WD_Settings_InterceptionScanIntervalSecTooltip>
+  <TSA_WD_Settings_ResetMortarInterception>포병 / 요격 설정 초기화</TSA_WD_Settings_ResetMortarInterception>
+  <TSA_WD_T4Mortar_Header>적 T4 정착지 포탑</TSA_WD_T4Mortar_Header>
+  <TSA_WD_T4Mortar_EnableAll>적 T4 정착지 박격포 사격</TSA_WD_T4Mortar_EnableAll>
+  <TSA_WD_T4Mortar_EnableAllTooltip>마스터 토글. 켜져 있으면 4티어 적 정착지가 방어 박격포 요격기로 작동합니다. 사거리 내의 비플레이어 적대 여행자에게 사격하며, 없을 경우 가장 가까운 적 정착지를 포격합니다. 플레이어를 겨냥할 수 있는지는 아래 별도 옵션입니다.</TSA_WD_T4Mortar_EnableAllTooltip>
+  <TSA_WD_T4Mortar_MinTech>T4 포탑: 최소 기술 수준</TSA_WD_T4Mortar_MinTech>
+  <TSA_WD_T4Mortar_MinTechTip>이 기술 수준 이상의 세력만 T4 정착지 박격포와 대공포를 사용할 수 있습니다. 신석기로 설정하면 거의 모든 세력이 사용 가능합니다.</TSA_WD_T4Mortar_MinTechTip>
+  <TSA_WD_T4Mortar_TargetPlayer>플레이어 여행자 및 전초기지 표적 허용</TSA_WD_T4Mortar_TargetPlayer>
+  <TSA_WD_T4Mortar_TargetPlayerTooltip>켜져 있으면 적 T4 박격포가 후반 게임 활성화 중에 플레이어 상단 및 전초기지에도 사격할 수 있습니다. 끄면 후반에도 플레이어를 표적으로 삼지 않습니다.</TSA_WD_T4Mortar_TargetPlayerTooltip>
+  <TSA_WD_T4Mortar_Range>T4 박격포 사거리 (타일)</TSA_WD_T4Mortar_Range>
+  <TSA_WD_T4Mortar_RangeTooltip>적 T4 정착지 박격포의 최대 사거리입니다. 플레이어 사거리와 독립적입니다.</TSA_WD_T4Mortar_RangeTooltip>
+  <TSA_WD_T4Mortar_Cooldown>T4 박격포 재사용 대기시간 (일)</TSA_WD_T4Mortar_Cooldown>
+  <TSA_WD_T4Mortar_CooldownTooltip>적 T4 정착지 박격포의 발사 간격 일수입니다.</TSA_WD_T4Mortar_CooldownTooltip>
+  <TSA_WD_T4Mortar_HitBand0To50>최대 사거리 0–50% 구간 명중률</TSA_WD_T4Mortar_HitBand0To50>
+  <TSA_WD_T4Mortar_HitBand0To50Tooltip>0–50% 최대 사거리에서 T4 박격포 기본 명중률입니다 (등가 사격 기술 보너스 전).</TSA_WD_T4Mortar_HitBand0To50Tooltip>
+  <TSA_WD_T4Mortar_HitBand51To75>최대 사거리 51–75% 구간 명중률</TSA_WD_T4Mortar_HitBand51To75>
+  <TSA_WD_T4Mortar_HitBand51To75Tooltip>51–75% 최대 사거리에서 T4 박격포 기본 명중률입니다.</TSA_WD_T4Mortar_HitBand51To75Tooltip>
+  <TSA_WD_T4Mortar_HitBand76To100>최대 사거리 76–100% 구간 명중률</TSA_WD_T4Mortar_HitBand76To100>
+  <TSA_WD_T4Mortar_HitBand76To100Tooltip>76–100% 최대 사거리에서 T4 박격포 기본 명중률입니다.</TSA_WD_T4Mortar_HitBand76To100Tooltip>
+  <TSA_WD_T4Mortar_ScanSharedNote>플레이어 포병 및 신속 대응 전초기지는 이 주기를 그대로 사용합니다. 적 T4 정착지는 성능을 위해 3배 주기를 사용합니다.</TSA_WD_T4Mortar_ScanSharedNote>
+  <TSA_WD_T4Mortar_DisabledHint>적 T4 정착지 박격포가 비활성화되어 있습니다.</TSA_WD_T4Mortar_DisabledHint>
+  <TSA_WD_T4Mortar_Reset>적 T4 포탑 설정 초기화</TSA_WD_T4Mortar_Reset>
+  <TSA_WD_Food_Header>식량 물류</TSA_WD_Food_Header>
+  <TSA_WD_MortarTab_Label>박격포</TSA_WD_MortarTab_Label>
+  <TSA_WD_MortarTab_Headline>박격포 제원</TSA_WD_MortarTab_Headline>
+  <TSA_WD_MortarTab_DamageHeadline>발당 전투력 피해: {0}</TSA_WD_MortarTab_DamageHeadline>
+  <TSA_WD_MortarTab_HeaderDamageTitle>발당 피해량</TSA_WD_MortarTab_HeaderDamageTitle>
+  <TSA_WD_MortarTab_HeaderCooldownTitle>재사용 대기시간</TSA_WD_MortarTab_HeaderCooldownTitle>
+  <TSA_WD_MortarTab_HeaderCooldownValue>{0}일</TSA_WD_MortarTab_HeaderCooldownValue>
+  <TSA_WD_MortarTab_HeaderAccuracyTitle>명중률</TSA_WD_MortarTab_HeaderAccuracyTitle>
+  <TSA_WD_MortarTab_HeaderAccRange0_50>0-50% 구간: {0}%</TSA_WD_MortarTab_HeaderAccRange0_50>
+  <TSA_WD_MortarTab_HeaderAccRange51_75>51-75% 구간: {0}%</TSA_WD_MortarTab_HeaderAccRange51_75>
+  <TSA_WD_MortarTab_HeaderAccRange76_100>76-100% 구간: {0}%</TSA_WD_MortarTab_HeaderAccRange76_100>
+  <TSA_WD_MortarTab_HeaderRangeTitle>사거리</TSA_WD_MortarTab_HeaderRangeTitle>
+  <TSA_WD_MortarTab_HeaderRangeValue>{0}타일</TSA_WD_MortarTab_HeaderRangeValue>
+  <TSA_WD_MortarTab_HeaderBaseShell>기본 (모드 설정): {0}</TSA_WD_MortarTab_HeaderBaseShell>
+  <TSA_WD_MortarTab_ReloadHeadline>재사용 대기시간: {0}일</TSA_WD_MortarTab_ReloadHeadline>
+  <TSA_WD_MortarTab_CooldownClampedMark> (최소치 고정)</TSA_WD_MortarTab_CooldownClampedMark>
+  <TSA_WD_MortarTab_CooldownClampTip>기술 및 업그레이드로 인한 대기시간 단축은 기본 지속시간의 {0}% 미만으로 내려갈 수 없습니다 (현재 기준 최소 {1}일).</TSA_WD_MortarTab_CooldownClampTip>
+  <TSA_WD_MortarTab_AccuracyHeadline0_50>0-50% 구간 명중률: {0}%</TSA_WD_MortarTab_AccuracyHeadline0_50>
+  <TSA_WD_MortarTab_AccuracyHeadline51_75>51-75% 구간 명중률: {0}%</TSA_WD_MortarTab_AccuracyHeadline51_75>
+  <TSA_WD_MortarTab_AccuracyHeadline76_100>76-100% 구간 명중률: {0}%</TSA_WD_MortarTab_AccuracyHeadline76_100>
+  <TSA_WD_MortarTab_HeaderBaseRangeTiles>기본 (모드 설정): {0}타일</TSA_WD_MortarTab_HeaderBaseRangeTiles>
+  <TSA_WD_MortarTab_ColumnAccuracy>명중률</TSA_WD_MortarTab_ColumnAccuracy>
+  <TSA_WD_MortarTab_RangeHeadline>사거리: {0}타일</TSA_WD_MortarTab_RangeHeadline>
+  <TSA_WD_MortarTab_SectionBaseValue>기본값</TSA_WD_MortarTab_SectionBaseValue>
+  <TSA_WD_MortarTab_SectionPawnModifiers>폰 수정치</TSA_WD_MortarTab_SectionPawnModifiers>
+  <TSA_WD_MortarTab_SectionOutpostUpgrades>전초기지 업그레이드</TSA_WD_MortarTab_SectionOutpostUpgrades>
+  <TSA_WD_MortarTab_NoRelevantOutpostUpgrade>관련 전초기지 업그레이드 없음</TSA_WD_MortarTab_NoRelevantOutpostUpgrade>
+  <TSA_WD_MortarTab_PawnModsDamageNone>해당 없음 (사격 기술은 포탄 피해량을 변경하지 않음)</TSA_WD_MortarTab_PawnModsDamageNone>
+  <TSA_WD_MortarTab_PawnModsRangeNone>해당 없음 (사격 기술은 최대 사거리를 변경하지 않음)</TSA_WD_MortarTab_PawnModsRangeNone>
+  <TSA_WD_MortarTab_BaseDamageLine>기본 포탄 피해 (모드 설정): {0}</TSA_WD_MortarTab_BaseDamageLine>
+  <TSA_WD_MortarTab_BaseCooldownLine>기본 대기시간 (모드 설정): {0}일</TSA_WD_MortarTab_BaseCooldownLine>
+  <TSA_WD_MortarTab_ShootingCooldownLine>누적 사격 기술 {0}: 대기시간 -{1}%</TSA_WD_MortarTab_ShootingCooldownLine>
+  <TSA_WD_MortarTab_UpgradeCooldownTotalLine>건설된 업그레이드 (총합): 지속시간 -{0}%</TSA_WD_MortarTab_UpgradeCooldownTotalLine>
+  <TSA_WD_MortarTab_MultiplierFloorLine>유효 지속시간 배율: 기본의 {0}% (헤더 대기시간 참조).</TSA_WD_MortarTab_MultiplierFloorLine>
+  <TSA_WD_MortarTab_BaseAccSummary>구간 기본값 (최대 사거리의 50% / 75% / 100%): {0}% | {1}% | {2}%</TSA_WD_MortarTab_BaseAccSummary>
+  <TSA_WD_MortarTab_AccuracyBandBaseOnly50>최대 사거리의 0-50%: {0}%</TSA_WD_MortarTab_AccuracyBandBaseOnly50>
+  <TSA_WD_MortarTab_AccuracyBandBaseOnly75>최대 사거리의 51-75%: {0}%</TSA_WD_MortarTab_AccuracyBandBaseOnly75>
+  <TSA_WD_MortarTab_AccuracyBandBaseOnly100>최대 사거리의 76-100%: {0}%</TSA_WD_MortarTab_AccuracyBandBaseOnly100>
+  <TSA_WD_MortarTab_BestShooterLine>최고 사수 (사격 {0}): 명중률 +{1}% (레벨당 고정 보너스)</TSA_WD_MortarTab_BestShooterLine>
+  <TSA_WD_MortarTab_BestShooterPpLine>최고 사수 Lv.{0}: 명중률 +{1}%p</TSA_WD_MortarTab_BestShooterPpLine>
+  <TSA_WD_MortarTab_AccuracyAt50Pct>최대 거리 50% 지점 명중률: {0}%</TSA_WD_MortarTab_AccuracyAt50Pct>
+  <TSA_WD_MortarTab_AccuracyAt75Pct>최대 거리 75% 지점 명중률: {0}%</TSA_WD_MortarTab_AccuracyAt75Pct>
+  <TSA_WD_MortarTab_AccuracyAt100Pct>최대 거리 100% 지점 명중률: {0}%</TSA_WD_MortarTab_AccuracyAt100Pct>
+  <TSA_WD_MortarTab_RangeDetailLine>최대 사거리 (모드 설정): {0} 세계 타일</TSA_WD_MortarTab_RangeDetailLine>
+  <TSA_WD_MortarTab_UpgradeShellDamage>{0}: 포탄 피해 +{1}</TSA_WD_MortarTab_UpgradeShellDamage>
+  <TSA_WD_MortarTab_UpgradeCooldown>{0}: 기본 지속시간 -{1}%</TSA_WD_MortarTab_UpgradeCooldown>
+  <TSA_WD_MortarTab_UpgradeHit>{0}: 명중률 +{1}%</TSA_WD_MortarTab_UpgradeHit>
+  <TSA_WD_MortarTab_UpgradeHitPp>{0}: 명중률 +{1}%p</TSA_WD_MortarTab_UpgradeHitPp>
+  <TSA_WD_MortarTab_UpgradeRange>{0}: 최대 사거리 +{1}타일</TSA_WD_MortarTab_UpgradeRange>
+  <TSA_WD_Traveler_FlakShell>대공포탄</TSA_WD_Traveler_FlakShell>
+  <TSA_WD_Mortar_AutoAttackDescWithAA>사거리 내의 조건에 맞는 적대 상단에 자동으로 발사합니다. 대공포 업그레이드 설치 시 적대적 수송 포드 습격도 요격합니다 (별도의 짧은 대기시간).</TSA_WD_Mortar_AutoAttackDescWithAA>
+  <TSA_WD_AntiAir_Auto_On>자동 대공 켜짐</TSA_WD_AntiAir_Auto_On>
+  <TSA_WD_AntiAir_Auto_Off>자동 대공 꺼짐</TSA_WD_AntiAir_Auto_Off>
+  <TSA_WD_AntiAir_Auto_Toggle>자동 대공 켜기/끄기</TSA_WD_AntiAir_Auto_Toggle>
+  <TSA_WD_AntiAir_AutoDesc>켜져 있을 때 대공 사거리 내의 적대적 수송 포드 습격, 박격포탄, 수송 포드를 자동으로 요격합니다. 박격포 자동 목표와 별개이며 대공 대기시간을 사용합니다. 빨강/주황/노랑 링은 포드 및 항공기에 대한 대공 명중 구간을 나타냅니다. 박격포탄은 고정 격추 확률을 사용합니다.</TSA_WD_AntiAir_AutoDesc>
+  <TSA_WD_Log_AntiAirLaunched>{0}(이)가 {1}에 대공 사격을 가했습니다 (피해량 {2}).</TSA_WD_Log_AntiAirLaunched>
+  <TSA_WD_AntiAir_Miss_Label>대공 사격 빗나감</TSA_WD_AntiAir_Miss_Label>
+  <TSA_WD_AntiAir_Miss_Text>{0}의 대공 일제사격이 {1}을(를) 빗맞혔습니다.</TSA_WD_AntiAir_Miss_Text>
+  <TSA_WD_AntiAir_Hit_Label>대공 사격 명중</TSA_WD_AntiAir_Hit_Label>
+  <TSA_WD_AntiAir_Hit_Text>{0}의 대공 사격이 {1}에 명중했습니다 (전투력 {2} -&gt; {3}, -{4}).</TSA_WD_AntiAir_Hit_Text>
+  <TSA_WD_AntiAir_Hit_Destroyed_Label>수송 포드 파괴됨</TSA_WD_AntiAir_Hit_Destroyed_Label>
+  <TSA_WD_AntiAir_Hit_Destroyed_Text>{0}의 대공 사격이 {1}을(를) 파괴했습니다 (기존 전투력 {2}).</TSA_WD_AntiAir_Hit_Destroyed_Text>
+  <TSA_WD_AntiAir_UpgradeDropPod_Destroyed_Label>업그레이드 수송 포드 파괴됨</TSA_WD_AntiAir_UpgradeDropPod_Destroyed_Label>
+  <TSA_WD_AntiAir_UpgradeDropPod_Destroyed_Text>{0}의 대공포가 전초기지 업그레이드 수송 포드({1})를 격추했습니다. 업그레이드 재료가 손실되었습니다.</TSA_WD_AntiAir_UpgradeDropPod_Destroyed_Text>
+  <TSA_WD_AntiAir_GoodsDropPod_Destroyed_Label>화물 수송 포드 파괴됨</TSA_WD_AntiAir_GoodsDropPod_Destroyed_Label>
+  <TSA_WD_AntiAir_GoodsDropPod_Destroyed_Text>{0}의 대공포가 화물 수송 포드({1})를 격추했습니다. 선적 화물이 손실되었습니다.</TSA_WD_AntiAir_GoodsDropPod_Destroyed_Text>
+  <TSA_WD_AntiAir_RapidResponsePawnsKilled_Label>수송 포드 탑승 폰 전사함</TSA_WD_AntiAir_RapidResponsePawnsKilled_Label>
+  <TSA_WD_AntiAir_RapidResponsePawnsKilled_Text>{0}의 대공 화력이 수송 포드를 파괴했습니다. 다음 폰들이 전사했습니다:
+
+{1}</TSA_WD_AntiAir_RapidResponsePawnsKilled_Text>
+  <TSA_WD_AntiAir_PawnPods_Outcome_Label>수송 포드가 대공 사격에 피격됨</TSA_WD_AntiAir_PawnPods_Outcome_Label>
+  <TSA_WD_AntiAir_PawnPods_Outcome_Text>{0}의 대공 사격이 수송 포드 편대를 강타했습니다.
+
+{1}</TSA_WD_AntiAir_PawnPods_Outcome_Text>
+  <TSA_WD_AntiAir_PawnPods_DiedHeader>전사:</TSA_WD_AntiAir_PawnPods_DiedHeader>
+  <TSA_WD_AntiAir_PawnPods_CrashedHeader>추락 (추락 지점에서 부상):</TSA_WD_AntiAir_PawnPods_CrashedHeader>
+  <TSA_WD_AntiAir_PawnPods_Resolved_Log>{0} 대공 vs 수송 포드: 사망 {1}명, 추락 {2}명, 계속 비행 {3}명.</TSA_WD_AntiAir_PawnPods_Resolved_Log>
+  <TSA_WD_Inspect_MortarReady>박격포: 준비 완료</TSA_WD_Inspect_MortarReady>
+  <TSA_WD_Inspect_AntiAirReady>대공포: 준비 완료</TSA_WD_Inspect_AntiAirReady>
+  <TSA_WD_Inspect_AntiAirCD>대공포 재장전 중: {0}초</TSA_WD_Inspect_AntiAirCD>
+  <TSA_WD_Outpost_HeaderAntiAir>대공 포탑</TSA_WD_Outpost_HeaderAntiAir>
+  <TSA_WD_Settings_AntiAirBaseDamage>대공 기본 피해량</TSA_WD_Settings_AntiAirBaseDamage>
+  <TSA_WD_Settings_AntiAirBaseDamageTooltip>적대적 수송 포드 습격에 명중했을 때 차감되는 전투력 피해량입니다 (포탄 업그레이드 전).</TSA_WD_Settings_AntiAirBaseDamageTooltip>
+  <TSA_WD_Settings_CooldownAntiAirSeconds>대공 재사용 대기시간 (초)</TSA_WD_Settings_CooldownAntiAirSeconds>
+  <TSA_WD_Settings_CooldownAntiAirSecondsTooltip>대공 요격 간의 기본 초입니다. 사격 기술과 박격포 쿨다운 업그레이드로 감소합니다.</TSA_WD_Settings_CooldownAntiAirSecondsTooltip>
+  <TSA_WD_Settings_AntiAirCooldownFloorSeconds>대공 대기시간 하한선 (초)</TSA_WD_Settings_AntiAirCooldownFloorSeconds>
+  <TSA_WD_Settings_AntiAirCooldownFloorSecondsTooltip>기술 및 업그레이드 단축 후의 최소 대공 대기시간입니다.</TSA_WD_Settings_AntiAirCooldownFloorSecondsTooltip>
+  <TSA_WD_OutpostStats_Row_AntiAirDamage>대공 피해량</TSA_WD_OutpostStats_Row_AntiAirDamage>
+  <TSA_WD_OutpostStats_Row_AntiAirDamageTip>대공 결산 피해량 (기본 대공 + 포탄 업그레이드).</TSA_WD_OutpostStats_Row_AntiAirDamageTip>
+  <TSA_WD_OutpostStats_Row_AntiAirCooldown>대공 재사용 대기시간 (초)</TSA_WD_OutpostStats_Row_AntiAirCooldown>
+  <TSA_WD_OutpostStats_Row_AntiAirCooldownTip>누적 사격 기술 및 업그레이드가 반영된 유효 대공 대기시간입니다.</TSA_WD_OutpostStats_Row_AntiAirCooldownTip>
+  <TSA_WD_OutpostStats_Row_AntiAirStatus>대공 상태</TSA_WD_OutpostStats_Row_AntiAirStatus>
+  <TSA_WD_OutpostStats_Row_AntiAirStatusTip>대공포가 현재 발사 가능한지 여부입니다.</TSA_WD_OutpostStats_Row_AntiAirStatusTip>
+  <TSA_WD_OutpostStats_Value_AntiAirCooldown>재장전 중 ({0}초)</TSA_WD_OutpostStats_Value_AntiAirCooldown>
+  <TSA_WD_OutpostStats_Tip_BestShooter>최고 사수 (사격 {0})</TSA_WD_OutpostStats_Tip_BestShooter>
+  <TSA_WD_OutpostStats_Tip_CumShooting>누적 사격 기술 {0}</TSA_WD_OutpostStats_Tip_CumShooting>
+  <TSA_WD_OutpostStats_Tip_AntiAirAbsFloor>절대 하한선 적용됨: {0}초 (적용 전 {1}초).</TSA_WD_OutpostStats_Tip_AntiAirAbsFloor>
+  <TSA_WD_OutpostStats_Row_AntiAirAcc50>명중률 0-50% 대공 사거리</TSA_WD_OutpostStats_Row_AntiAirAcc50>
+  <TSA_WD_OutpostStats_Row_AntiAirAcc75>명중률 51-75% 대공 사거리</TSA_WD_OutpostStats_Row_AntiAirAcc75>
+  <TSA_WD_OutpostStats_Row_AntiAirAcc100>명중률 76-100% 대공 사거리</TSA_WD_OutpostStats_Row_AntiAirAcc100>
+  <TSA_WD_OutpostStats_Row_AntiAirAccTip>거리 구간별 수송 포드 및 항공기에 대한 대공 명중률입니다. 최고 사수(레벨당 +1%p)가 가산됩니다. 박격포탄은 아래 고정 격추 확률을 사용합니다.</TSA_WD_OutpostStats_Row_AntiAirAccTip>
+  <TSA_WD_AntiAir_GroupDesc>대공 독점을 위한 문자 그룹입니다. 동일한 문자는 이미 지정된 표적에 계속 사격할 수 있으며 다른 문자는 차단됩니다. 꺼짐은 비그룹화(선점하지도 차단되지도 않음)입니다.</TSA_WD_AntiAir_GroupDesc>
+  <TSA_WD_AntiAir_Group_Off>대공 그룹 꺼짐</TSA_WD_AntiAir_Group_Off>
+  <TSA_WD_AntiAir_Group_A>대공 그룹 A</TSA_WD_AntiAir_Group_A>
+  <TSA_WD_AntiAir_Group_B>대공 그룹 B</TSA_WD_AntiAir_Group_B>
+  <TSA_WD_AntiAir_Group_C>대공 그룹 C</TSA_WD_AntiAir_Group_C>
+  <TSA_WD_AntiAir_Group_D>대공 그룹 D</TSA_WD_AntiAir_Group_D>
+  <TSA_WD_AntiAir_Group_Menu_Off>꺼짐 (비그룹화)</TSA_WD_AntiAir_Group_Menu_Off>
+  <TSA_WD_AntiAir_Group_Menu_A>그룹 A</TSA_WD_AntiAir_Group_Menu_A>
+  <TSA_WD_AntiAir_Group_Menu_B>그룹 B</TSA_WD_AntiAir_Group_Menu_B>
+  <TSA_WD_AntiAir_Group_Menu_C>그룹 C</TSA_WD_AntiAir_Group_Menu_C>
+  <TSA_WD_AntiAir_Group_Menu_D>그룹 D</TSA_WD_AntiAir_Group_Menu_D>
+  <TSA_WD_AntiAir_MortarShell_Destroyed_Label>박격포탄 격추됨</TSA_WD_AntiAir_MortarShell_Destroyed_Label>
+  <TSA_WD_AntiAir_MortarShell_Destroyed_Text>전초기지 '{0}'의 대공포가 '{2}' 세력의 정착지 '{1}'에서 발사된 박격포탄을 격추했습니다.</TSA_WD_AntiAir_MortarShell_Destroyed_Text>
+  <TSA_WD_AntiAir_MortarShell_Destroyed_Npc_Text>'{0}'의 대공포가 '{2}' 세력의 정착지 '{1}'에서 발사된 박격포탄을 격추했습니다.</TSA_WD_AntiAir_MortarShell_Destroyed_Npc_Text>
+  <TSA_WD_AntiAir_MortarShell_Miss_Label>대공 사격이 박격포탄을 빗맞힘</TSA_WD_AntiAir_MortarShell_Miss_Label>
+  <TSA_WD_AntiAir_MortarShell_Miss_Text>{0}의 대공 일제사격이 {1}에서 날아온 박격포탄을 요격하지 못했습니다.</TSA_WD_AntiAir_MortarShell_Miss_Text>
+  <TSA_WD_AntiAir_PlayerMortarShell_Destroyed_Label>박격포탄 격추됨</TSA_WD_AntiAir_PlayerMortarShell_Destroyed_Label>
+  <TSA_WD_AntiAir_PlayerMortarShell_Destroyed_Text>전초기지 {0}에서 발사한 박격포탄이 {1} ({2})에 의해 격추되었습니다.</TSA_WD_AntiAir_PlayerMortarShell_Destroyed_Text>
+  <TSA_WD_AntiAir_PlayerMortarShell_Miss_Label>적 대공 사격이 아군 박격포탄을 빗맞힘</TSA_WD_AntiAir_PlayerMortarShell_Miss_Label>
+  <TSA_WD_AntiAir_PlayerMortarShell_Miss_Text>{1} ({2})의 대공 사격이 전초기지 {0}의 박격포탄을 요격하지 못했습니다.</TSA_WD_AntiAir_PlayerMortarShell_Miss_Text>
+  <TSA_WD_AntiAir_VanillaPods_Destroyed_Label>수송 포드 파괴됨</TSA_WD_AntiAir_VanillaPods_Destroyed_Label>
+  <TSA_WD_AntiAir_VanillaPods_Destroyed_Text>{0}의 대공포가 {1}을(를) 파괴했습니다.</TSA_WD_AntiAir_VanillaPods_Destroyed_Text>
+  <TSA_WD_AntiAir_VanillaPods_Wiped_Label>수송 포드 전멸함</TSA_WD_AntiAir_VanillaPods_Wiped_Label>
+  <TSA_WD_AntiAir_VanillaPods_Wiped_Text>{0}의 대공포가 {1}을(를) 파괴했습니다. 다음 폰들이 전사했습니다:
+
+{2}</TSA_WD_AntiAir_VanillaPods_Wiped_Text>
+  <TSA_WD_AntiAir_VanillaPods_Wounded_Label>수송 포드 피격됨</TSA_WD_AntiAir_VanillaPods_Wounded_Label>
+  <TSA_WD_AntiAir_VanillaPods_Wounded_Text>{0}의 대공포가 {1}에 명중했습니다: {2}명 전사, {3}명 부상. 생존자는 이동을 계속합니다.</TSA_WD_AntiAir_VanillaPods_Wounded_Text>
+  <TSA_WD_AntiAir_VanillaPods_Wounded_WithNames_Text>{0}의 대공포가 {1}에 명중했습니다: {2}명 전사, {3}명 부상. 생존자는 이동을 계속합니다. 다음 폰들이 전사했습니다:
+
+{4}</TSA_WD_AntiAir_VanillaPods_Wounded_WithNames_Text>
+  <TSA_WD_AntiAir_VfAerial_Destroyed_Label>항공기 격추됨</TSA_WD_AntiAir_VfAerial_Destroyed_Label>
+  <TSA_WD_AntiAir_VfAerial_Destroyed_Text>{0}의 대공포가 {1}을(를) 격추했습니다.</TSA_WD_AntiAir_VfAerial_Destroyed_Text>
+  <TSA_WD_AntiAir_VfAerial_CrashReason>대공포 사격</TSA_WD_AntiAir_VfAerial_CrashReason>
+  <TSA_WD_AntiAir_VfAerial_AaWarning>항공기가 {0}의 대공 화력에 요격당할 수 있습니다. 그래도 출격하시겠습니까?</TSA_WD_AntiAir_VfAerial_AaWarning>
+  <TSA_WD_AntiAir_TransportPods_AaWarning>수송 포드가 {0}의 대공 화력에 요격당할 수 있습니다. 그래도 발사하시겠습니까?</TSA_WD_AntiAir_TransportPods_AaWarning>
+  <TSA_WD_AntiAir_Shuttle_AaWarning>왕복선이 {0}의 대공 화력에 요격당할 수 있습니다. 그래도 이륙하시겠습니까?</TSA_WD_AntiAir_Shuttle_AaWarning>
+  <TSA_WD_Settings_AntiAirRange>대공 사거리 (타일)</TSA_WD_Settings_AntiAirRange>
+  <TSA_WD_Settings_AntiAirRangeTooltip>대공 교전의 최대 세계 거리입니다. 박격포 사거리와 독립적입니다. 지도의 빨강, 주황, 노랑 링은 포드 및 항공기에 대한 대공 명중 구간입니다.</TSA_WD_Settings_AntiAirRangeTooltip>
+  <TSA_WD_Settings_AntiAirHitBand0To50>대공 명중률 (최대 사거리의 0–50%)</TSA_WD_Settings_AntiAirHitBand0To50>
+  <TSA_WD_Settings_AntiAirHitBand0To50Tooltip>최대 사거리의 0-50%에서 포드 및 항공기에 대한 기본 대공 명중률입니다. 최고 사수의 사격 레벨당 +1%p가 가산됩니다.</TSA_WD_Settings_AntiAirHitBand0To50Tooltip>
+  <TSA_WD_Settings_AntiAirHitBand51To75>대공 명중률 (최대 사거리의 51–75%)</TSA_WD_Settings_AntiAirHitBand51To75>
+  <TSA_WD_Settings_AntiAirHitBand51To75Tooltip>최대 사거리의 51-75%에서 포드 및 항공기에 대한 기본 대공 명중률입니다.</TSA_WD_Settings_AntiAirHitBand51To75Tooltip>
+  <TSA_WD_Settings_AntiAirHitBand76To100>대공 명중률 (최대 사거리의 76–100%)</TSA_WD_Settings_AntiAirHitBand76To100>
+  <TSA_WD_Settings_AntiAirHitBand76To100Tooltip>최대 사거리의 76-100%에서 포드 및 항공기에 대한 기본 대공 명중률입니다.</TSA_WD_Settings_AntiAirHitBand76To100Tooltip>
+  <TSA_WD_Settings_AntiAirVsMortarHitChance>박격포탄에 대한 대공 명중률</TSA_WD_Settings_AntiAirVsMortarHitChance>
+  <TSA_WD_Settings_AntiAirVsMortarHitChanceTooltip>대공 교전 시 적대적 박격포탄을 파괴할 고정 확률입니다. 사거리 구간과 사수 기술을 무시합니다.</TSA_WD_Settings_AntiAirVsMortarHitChanceTooltip>
+  <TSA_WD_OutpostStats_Section_Mortar>박격포</TSA_WD_OutpostStats_Section_Mortar>
+  <TSA_WD_OutpostStats_Section_AntiAir>대공 포탑</TSA_WD_OutpostStats_Section_AntiAir>
+  <TSA_WD_OutpostStats_Row_AntiAirRange>대공 사거리</TSA_WD_OutpostStats_Row_AntiAirRange>
+  <TSA_WD_OutpostStats_Row_AntiAirRangeTip>현재 대공 사거리입니다 (최대치 이하로 설정 가능).</TSA_WD_OutpostStats_Row_AntiAirRangeTip>
+  <TSA_WD_OutpostStats_Row_AntiAirVsMortar>대공 vs 박격포탄</TSA_WD_OutpostStats_Row_AntiAirVsMortar>
+  <TSA_WD_OutpostStats_Row_AntiAirVsMortarTip>적대 박격포탄을 파괴할 고정 확률입니다.</TSA_WD_OutpostStats_Row_AntiAirVsMortarTip>
+  <TSA_WD_OutpostStats_Row_AntiAirGroup>대공 그룹</TSA_WD_OutpostStats_Row_AntiAirGroup>
+  <TSA_WD_OutpostStats_Row_AntiAirGroupTip>대공 독점을 위한 문자 그룹입니다 (꺼짐 = 비그룹화).</TSA_WD_OutpostStats_Row_AntiAirGroupTip>
+  <TSA_WD_OutpostStats_Row_MortarAcc50>명중률 0-50% 사거리</TSA_WD_OutpostStats_Row_MortarAcc50>
+  <TSA_WD_OutpostStats_Row_MortarAcc75>명중률 51-75% 사거리</TSA_WD_OutpostStats_Row_MortarAcc75>
+  <TSA_WD_OutpostStats_Row_MortarAcc100>명중률 76-100% 사거리</TSA_WD_OutpostStats_Row_MortarAcc100>
+  <TSA_WD_OutpostStats_Row_MortarAccTip>구간 기본 명중률 + 최고 사수 (+1%p/사격 레벨) + 명중률 업그레이드.</TSA_WD_OutpostStats_Row_MortarAccTip>
+  <TSA_WD_T4_HoverMortarRange>박격포 사거리 확인</TSA_WD_T4_HoverMortarRange>
+  <TSA_WD_T4_HoverMortarRangeDesc>이 명령 위에 마우스를 올리면 세계 지도에 이 정착지의 T4 박격포 사거리가 표시됩니다 (토글 아님).</TSA_WD_T4_HoverMortarRangeDesc>
+  <TSA_WD_T4_HoverAARange>대공 사거리 확인</TSA_WD_T4_HoverAARange>
+  <TSA_WD_T4_HoverAARangeDesc>이 명령 위에 마우스를 올리면 세계 지도에 이 정착지의 T4 대공 사거리가 표시됩니다 (토글 아님).</TSA_WD_T4_HoverAARangeDesc>
+  <TSA_WD_T4_AutoMortar_On>자동 박격포 켜짐</TSA_WD_T4_AutoMortar_On>
+  <TSA_WD_T4_AutoMortar_Off>자동 박격포 꺼짐</TSA_WD_T4_AutoMortar_Off>
+  <TSA_WD_T4_AutoMortar_Desc>켜져 있을 때 이 T4 정착지는 사거리 내의 적대적 지상 목표에 자동으로 박격포를 사격합니다.</TSA_WD_T4_AutoMortar_Desc>
+  <TSA_WD_T4_AutoAA_On>자동 대공 켜짐</TSA_WD_T4_AutoAA_On>
+  <TSA_WD_T4_AutoAA_Off>자동 대공 꺼짐</TSA_WD_T4_AutoAA_Off>
+  <TSA_WD_T4_AutoAA_Desc>켜져 있을 때 이 T4 정착지는 대공 사거리 내의 적대적 공중 목표와 자동으로 교전합니다.</TSA_WD_T4_AutoAA_Desc>
+  <TSA_WD_T4AA_EnableAll>적 T4 정착지 대공 사격 허용</TSA_WD_T4AA_EnableAll>
+  <TSA_WD_T4AA_EnableAllTooltip>적 T4 정착지가 공중 목표에 대공 사격을 가할 수 있게 하는 마스터 토글입니다.</TSA_WD_T4AA_EnableAllTooltip>
+  <TSA_WD_T4AA_TargetPlayer>대공포의 아군 공중 자산 표적 허용</TSA_WD_T4AA_TargetPlayer>
+  <TSA_WD_T4AA_TargetPlayerTooltip>켜져 있을 때 후반 게임에서 T4 대공포가 플레이어의 수송 포드와 포탄을 요격할 수 있습니다.</TSA_WD_T4AA_TargetPlayerTooltip>
+  <TSA_WD_T4AA_Range>T4 대공 사거리 (타일)</TSA_WD_T4AA_Range>
+  <TSA_WD_T4AA_RangeTooltip>적 T4 정착지 대공포의 최대 사거리입니다.</TSA_WD_T4AA_RangeTooltip>
+  <TSA_WD_T4AA_Cooldown>T4 대공 대기시간 (초)</TSA_WD_T4AA_Cooldown>
+  <TSA_WD_T4AA_CooldownTooltip>적 T4 정착지 대공 교전 간의 초 간격입니다.</TSA_WD_T4AA_CooldownTooltip>
+  <TSA_WD_T4AA_Damage>T4 대공 피해량</TSA_WD_T4AA_Damage>
+  <TSA_WD_T4AA_DamageTooltip>적 T4 정착지 대공 화망의 피해량입니다.</TSA_WD_T4AA_DamageTooltip>
+  <TSA_WD_T4AA_Skill>T4 대공 등가 사격 기술</TSA_WD_T4AA_Skill>
+  <TSA_WD_T4AA_SkillTooltip>T4 대공 명중률 계산에 사용되는 등가 사격 기술입니다 (레벨당 +1%p).</TSA_WD_T4AA_SkillTooltip>
+  <TSA_WD_T4AA_HitBand0To50>T4 대공 명중률 (최대 사거리의 0–50%)</TSA_WD_T4AA_HitBand0To50>
+  <TSA_WD_T4AA_HitBand0To50Tooltip>최대 사거리 0-50%에서 T4 대공 기본 명중률입니다.</TSA_WD_T4AA_HitBand0To50Tooltip>
+  <TSA_WD_T4AA_HitBand51To75>T4 대공 명중률 (최대 사거리의 51–75%)</TSA_WD_T4AA_HitBand51To75>
+  <TSA_WD_T4AA_HitBand51To75Tooltip>최대 사거리 51-75%에서 T4 대공 기본 명중률입니다.</TSA_WD_T4AA_HitBand51To75Tooltip>
+  <TSA_WD_T4AA_HitBand76To100>T4 대공 명중률 (최대 사거리의 76–100%)</TSA_WD_T4AA_HitBand76To100>
+  <TSA_WD_T4AA_HitBand76To100Tooltip>최대 사거리 76-100%에서 T4 대공 기본 명중률입니다.</TSA_WD_T4AA_HitBand76To100Tooltip>
+  <TSA_WD_T4AA_VsMortar>박격포탄에 대한 T4 대공 명중률</TSA_WD_T4AA_VsMortar>
+  <TSA_WD_T4AA_VsMortarTooltip>T4 대공포가 적대적 박격포탄을 파괴할 고정 확률입니다.</TSA_WD_T4AA_VsMortarTooltip>
+  <TSA_WD_OutpostUpgrades_BenefitAntiAirUnlock>수송 포드 및 포탄에 대한 대공 포탑 해제</TSA_WD_OutpostUpgrades_BenefitAntiAirUnlock>
+  <TSA_WD_OutpostUpgrades_BenefitDecontaminationUnlock>정화 임무 해제</TSA_WD_OutpostUpgrades_BenefitDecontaminationUnlock>
+  <TSA_WD_OutpostUpgrades_BenefitAssaultShellsShort>고급 정착지 돌파 포탄</TSA_WD_OutpostUpgrades_BenefitAssaultShellsShort>
+  <TSA_WD_OutpostUpgrades_BenefitAssaultShellsUnlockHeader>정착지 돌파 포탄 해제</TSA_WD_OutpostUpgrades_BenefitAssaultShellsUnlockHeader>
+  <TSA_WD_OutpostUpgrades_BenefitAssaultShellsUnlockList>{0}</TSA_WD_OutpostUpgrades_BenefitAssaultShellsUnlockList>
+  <TSA_WD_AssaultArtillery_ButtonTip>포병 지원. 인근 전초기지에서 박격포 화력 지원을 요청합니다.</TSA_WD_AssaultArtillery_ButtonTip>
+  <TSA_WD_AssaultArtillery_Title>포병 지원</TSA_WD_AssaultArtillery_Title>
+  <TSA_WD_AssaultArtillery_ColumnOutposts>지원 전초기지</TSA_WD_AssaultArtillery_ColumnOutposts>
+  <TSA_WD_AssaultArtillery_ColumnShells>포탄 종류</TSA_WD_AssaultArtillery_ColumnShells>
+  <TSA_WD_AssaultArtillery_ColumnShellsFrom>사용할 탄약 선택</TSA_WD_AssaultArtillery_ColumnShellsFrom>
+  <TSA_WD_AssaultArtillery_SelectOutpost>지원 전초기지를 선택하세요.</TSA_WD_AssaultArtillery_SelectOutpost>
+  <TSA_WD_AssaultArtillery_RowEtaSpread>도착까지 {0}초, 탄착군 분산 {1}</TSA_WD_AssaultArtillery_RowEtaSpread>
+  <TSA_WD_AssaultArtillery_OutpostRowTip>거리: {0}타일
+첫 탄 도착: {1}초
+탄착 분산: {2}셀
+보유 포탄: {3}</TSA_WD_AssaultArtillery_OutpostRowTip>
+  <TSA_WD_AssaultArtillery_GhostRelay>실험적 중계기</TSA_WD_AssaultArtillery_GhostRelay>
+  <TSA_WD_AssaultArtillery_GhostRelayTip>실험적 기능: 사거리와 대기시간을 무시합니다. 세력 전체 최고 포탄 해금 상태를 사용하며 탄착 분산이 최소화됩니다.</TSA_WD_AssaultArtillery_GhostRelayTip>
+  <TSA_WD_AssaultArtillery_NoShootingSkill>주둔 사수가 없습니다. 이 전초기지에서는 박격포 지원을 발사할 수 없습니다.</TSA_WD_AssaultArtillery_NoShootingSkill>
+  <TSA_WD_AssaultArtillery_Unlock_Basic>해금: 고폭탄 및 연막탄.</TSA_WD_AssaultArtillery_Unlock_Basic>
+  <TSA_WD_AssaultArtillery_Unlock_Improved>개량형 포탄 해금: {0}</TSA_WD_AssaultArtillery_Unlock_Improved>
+  <TSA_WD_AssaultArtillery_Unlock_Advanced>고급 포탄 해금: {0}</TSA_WD_AssaultArtillery_Unlock_Advanced>
+  <TSA_WD_AssaultArtillery_NoSupport>이 정착지 사거리 내에 준비된 박격포 전초기지가 없습니다.</TSA_WD_AssaultArtillery_NoSupport>
+  <TSA_WD_AssaultArtillery_StrikePending>이미 포격이 진행 중입니다.</TSA_WD_AssaultArtillery_StrikePending>
+  <TSA_WD_AssaultArtillery_StrikeInboundInfo>포격이 비행 중입니다. 준비된 다른 전초기지는 여전히 발사할 수 있습니다.</TSA_WD_AssaultArtillery_StrikeInboundInfo>
+  <TSA_WD_AssaultArtillery_NotAssaultMap>포병 지원은 적대적 정착지 공격 맵에서만 사용할 수 있습니다.</TSA_WD_AssaultArtillery_NotAssaultMap>
+  <TSA_WD_AssaultArtillery_InvalidCell>지도에서 유효한 위치를 선택하세요.</TSA_WD_AssaultArtillery_InvalidCell>
+  <TSA_WD_AssaultArtillery_Inbound>{0} 포격 진행 중. 포탄이 {1}초 후 착탄합니다.</TSA_WD_AssaultArtillery_Inbound>
+  <TSA_WD_AssaultArtillery_ShellShotDown>지원 포탄이 격추되었습니다.</TSA_WD_AssaultArtillery_ShellShotDown>
+  <TSA_WD_AssaultArtillery_NoShells>박격포탄 Def를 찾을 수 없습니다. 바닐라 포탄을 대체하는 모드가 있는지 확인하세요.</TSA_WD_AssaultArtillery_NoShells>
+</LanguageData>
