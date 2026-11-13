@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AS_DodgeChance.label>회피 확률 (원거리)</AS_DodgeChance.label>
+  <AS_DodgeChance.description>추가 전투 확률입니다. 수치는 합산되며 최대 100%입니다.</AS_DodgeChance.description>
+  <AS_DodgeChance_MeleeRanged.label>회피 확률 (근접, 원거리)</AS_DodgeChance_MeleeRanged.label>
+  <AS_DodgeChance_MeleeRanged.description>추가 전투 확률입니다. 수치는 합산되며 최대 100%입니다.</AS_DodgeChance_MeleeRanged.description>
+  <AS_DodgeChance_RangedExplosive.label>회피 확률 (원거리, 폭발)</AS_DodgeChance_RangedExplosive.label>
+  <AS_DodgeChance_RangedExplosive.description>원거리 회피 확률과 폭발 감소 확률을 추가합니다. 수치는 합산되며 최대 100%입니다. 폭발 피해는 성공 시 기본 50% 줄어들며, 감소량은 출처별로 설정됩니다. 완전히 감소하면 회피로, 일부 감소하면 감소로 표시됩니다.</AS_DodgeChance_RangedExplosive.description>
+  <AS_DodgeChance_All.label>회피 확률 (근접, 원거리, 폭발)</AS_DodgeChance_All.label>
+  <AS_DodgeChance_All.description>근접 및 원거리 회피 확률과 폭발 감소 확률을 추가합니다. 수치는 합산되며 최대 100%입니다. 폭발 피해는 성공 시 기본 50% 줄어들며, 감소량은 출처별로 설정됩니다. 완전히 감소하면 회피로, 일부 감소하면 감소로 표시됩니다.</AS_DodgeChance_All.description>
+  <AS_MeleeHitChanceOffset.label>추가 근접 명중률</AS_MeleeHitChanceOffset.label>
+  <AS_MeleeHitChanceOffset.description>추가 전투 확률입니다. 수치는 합산되며 최대 100%입니다.</AS_MeleeHitChanceOffset.description>
+  <AS_RangedDodgeChance.label>원거리 회피 확률</AS_RangedDodgeChance.label>
+  <AS_RangedDodgeChance.description>추가 전투 확률입니다. 수치는 합산되며 최대 100%입니다.</AS_RangedDodgeChance.description>
+  <AS_AdditionalMeleeDodgeChance.label>추가 근접 회피 확률</AS_AdditionalMeleeDodgeChance.label>
+  <AS_AdditionalMeleeDodgeChance.description>추가 전투 확률입니다. 수치는 합산되며 최대 100%입니다.</AS_AdditionalMeleeDodgeChance.description>
+  <AS_ExplosionDodgeChance.label>폭발 회피 확률</AS_ExplosionDodgeChance.label>
+  <AS_ExplosionDodgeChance.description>폭발 피해를 줄일 총 확률입니다. 성공하면 기여도에 비례해 출처 하나를 골라 그 감소량을 적용합니다. 기본 감소량은 50%입니다. 완전히 감소하면 회피로, 일부 감소하면 감소로 표시됩니다.</AS_ExplosionDodgeChance.description>
+  <AS_EnemyDodgeReduction.label>적 회피 감소</AS_EnemyDodgeReduction.label>
+  <AS_EnemyDodgeReduction.description>이 대상이 공격할 때 대상의 근접, 원거리, 폭발 회피 확률에서 빼는 퍼센트포인트입니다. 대상이 받는 회피 확률 감소에 더한 뒤 회피 확률에서 바로 빼며, 최솟값은 0%입니다.</AS_EnemyDodgeReduction.description>
+  <AS_DodgeReductionTaken.label>받는 회피 감소</AS_DodgeReductionTaken.label>
+  <AS_DodgeReductionTaken.description>이 대상의 근접, 원거리, 폭발 회피 확률에서 빼는 퍼센트포인트입니다. 공격자의 적 회피 확률 감소에 더한 뒤 회피 확률에서 바로 빼며, 최솟값은 0%입니다.</AS_DodgeReductionTaken.description>
+  <AS_ExplosiveDamageReduction.label>폭발 피해 감소</AS_ExplosiveDamageReduction.label>
+  <AS_ExplosiveDamageReduction.description>폭발 피해를 항상 이 비율만큼 줄입니다. 여러 장비의 수치가 합산되며 합계 최대 75%입니다.</AS_ExplosiveDamageReduction.description>
+  <AS_MeleeReach.label>근접 사거리</AS_MeleeReach.label>
+  <AS_MeleeReach.description>이 무기가 근접 공격으로 닿는 거리입니다. 사거리가 긴 양손 무기는 사이에 단단한 장애물이 없고 사용자가 걸어갈 수 있다면 인접하지 않은 적도 공격할 수 있습니다.</AS_MeleeReach.description>
+  <AS_ShieldParryChance.label>받아넘기기 확률</AS_ShieldParryChance.label>
+  <AS_ShieldParryChance.description>정면 공격을 피해와 지구력 소모 없이 흘려보내는 기본 확률입니다. 화살과 총탄에는 투사체가 빠를수록 떨어지고, 근접전에서는 착용자의 기량이 더 뛰어나면 오릅니다.</AS_ShieldParryChance.description>
+  <AS_ShieldBlockChance.label>막기 확률</AS_ShieldBlockChance.label>
+  <AS_ShieldBlockChance.description>받아넘기지 못한 정면 공격을 받아 내는 기본 확률입니다. 막은 공격은 방패가 바깥층 방어구처럼 저항한 뒤 착용자의 다른 방호로 이어집니다. 막으면 공격이 뚫려도 항상 지구력을 소모합니다.</AS_ShieldBlockChance.description>
+  <AS_ShieldStaminaMax.label>방패 지구력</AS_ShieldStaminaMax.label>
+  <AS_ShieldStaminaMax.description>착용자의 방어가 무너지기 전까지 방패가 버틸 수 있는 양입니다. 방어가 무너지면 지구력이 30%까지 회복될 때까지 받아넘기거나 막지 못합니다.</AS_ShieldStaminaMax.description>
+  <AS_ShieldStaminaRegen.label>지구력 회복</AS_ShieldStaminaRegen.label>
+  <AS_ShieldStaminaRegen.description>초당 회복하는 방패 지구력입니다. 착용하지 않고 놓아두어도 항상 회복합니다.</AS_ShieldStaminaRegen.description>
+  <AS_ShieldStaminaRegen.formatString>{0}/초</AS_ShieldStaminaRegen.formatString>
+  <AS_ShieldCoverRate.label>엄폐</AS_ShieldCoverRate.label>
+  <AS_ShieldCoverRate.description>방패를 들었을 때 착용자 뒤에 선 아군에게 주는 엄폐량입니다. 모래주머니는 55%입니다.</AS_ShieldCoverRate.description>
+  <AS_ShieldGuardAngle.label>방어 범위</AS_ShieldGuardAngle.label>
+  <AS_ShieldGuardAngle.description>방패가 보호하는 착용자 앞쪽 부채꼴의 폭입니다. 범위 밖의 공격은 받아넘기거나 막지 못합니다. 착용자가 있는 칸에서 일어난 폭발은 어느 방향이든 막을 수 있습니다.</AS_ShieldGuardAngle.description>
+  <AS_ShieldGuardAngle.formatString>{0}°</AS_ShieldGuardAngle.formatString>
+  <AS_ArmorRating_Aura.label>방어력 - 오라</AS_ArmorRating_Aura.label>
+  <AS_ArmorRating_Aura.description>응축된 오드 오라의 피해를 줄입니다.\n\n방어력 1포인트마다 공격을 완전히 튕겨 내거나 절반으로 줄일 확률이 생깁니다.</AS_ArmorRating_Aura.description>
+  <AS_Stat_MaxManaFactor.label>최대 마나 배율</AS_Stat_MaxManaFactor.label>
+  <AS_Stat_MaxManaFactor.description>기관 등급, 마나리아 레벨, 설정으로 계산한 최대 마나에 고정 최대 마나 보정을 더하기 전에 곱합니다. 기본값 1.0은 계산된 최대치를 바꾸지 않습니다.</AS_Stat_MaxManaFactor.description>
+  <AS_Stat_MaxManaOffset.label>최대 마나 보정</AS_Stat_MaxManaOffset.label>
+  <AS_Stat_MaxManaOffset.description>기관, 마나리아 레벨, 설정의 기존 계산 후 최대 마나에 더하는 양입니다. +1은 마나 용량을 1 늘립니다. 기본값 0은 기존 최대치를 바꾸지 않습니다.</AS_Stat_MaxManaOffset.description>
+  <AS_Stat_ManaAbilityCost.label>마나 능력 비용</AS_Stat_ManaAbilityCost.label>
+  <AS_Stat_ManaAbilityCost.description>사용 시 마나를 소모하는 능력의 실제 비용을 평소 비용과 비교한 수치입니다.</AS_Stat_ManaAbilityCost.description>
+  <AS_Stat_ManaAbsorption.label>마나 흡수</AS_Stat_ManaAbsorption.label>
+  <AS_Stat_ManaAbsorption.description>마나리아가 주변 대기에서 마나를 끌어들이는 속도입니다. 마나는 저절로도 꽤 빨리 차므로 주로 마나원에서 멀리 있을 때 중요합니다. 장비의 수치는 장비 품질에 따라 달라집니다.</AS_Stat_ManaAbsorption.description>
+  <AS_Stat_OdConversion.label>오드 변환</AS_Stat_OdConversion.label>
+  <AS_Stat_OdConversion.description>마나리아가 저장된 마나를 오드로 정제하는 속도입니다. 오드는 능력을 쓰는 데 소모되므로 변환이 빠를수록 능력을 더 자주 쓸 수 있습니다. 장비의 수치는 장비 품질에 따라 달라집니다.</AS_Stat_OdConversion.description>
+  <AS_Stat_ManaShieldAbsorption.label>마나 보호막 흡수량</AS_Stat_ManaShieldAbsorption.label>
+  <AS_Stat_ManaShieldAbsorption.description>마나 보호막이 공격 하나당 완전히 흡수하는 피해량입니다. 이 값 이하의 피해는 완전히 무효가 되고, 초과분은 이 값만큼 줄어들어 통과합니다. 피해를 흡수하면 마나가 소모되므로 보호막이 영원히 버티지는 못합니다. 장비의 수치는 장비 품질에 따라 달라집니다.</AS_Stat_ManaShieldAbsorption.description>
+  <AS_Stat_AuraAffinity.label>오라 친화력</AS_Stat_AuraAffinity.label>
+  <AS_Stat_AuraAffinity.description>무기나 아이템이 오라 무기 능력과 공명하는 정도입니다. 오라가 공격마다 더하는 추가 피해에 이 값을 곱합니다.\n\n단독으로는 효과가 없으며, 오라 무기 능력을 활성화한 마나리아 소지자만 혜택을 받습니다.</AS_Stat_AuraAffinity.description>
+</LanguageData>

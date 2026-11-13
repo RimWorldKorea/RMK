@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AS_Quest_ChaliceRecapture.questDescriptionRules.rulesStrings>
+    <li>questDescription-&gt;[map_definite] 근처 야영지에서 [siteFaction_name](이)가 성배를 [underArmedGuard]보관하고 있습니다.[reassigned][motive]\n\n성배를 되찾아 받침대로 돌려놓으세요. 힘이 복구되면 축성의 의식을 다시 거행할 수 있습니다. 시간 제한은 없습니다.</li>
+    <li>underArmedGuard(allowViolentQuests==true,priority=1)-&gt;무장 경비 아래 </li>
+    <li>underArmedGuard-&gt;</li>
+    <li>reassigned(chaliceReassigned==true,priority=1)-&gt; 성배를 가져간 자들은 사라지고 성배는 다른 이의 손에 넘어갔습니다.</li>
+    <li>reassigned-&gt;</li>
+    <li>motive(thiefIsHolyKingdom==true,priority=1)-&gt;\n\n신성 왕국은 성배를 자신들의 세계수에 바칠 생각입니다.</li>
+    <li>motive-&gt;\n\n이들에게 성배는 값나가는 물건일 뿐입니다.</li>
+  </AS_Quest_ChaliceRecapture.questDescriptionRules.rulesStrings>
+</LanguageData>
