@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CEO_ExactValue>정확한 값:</CEO_ExactValue>
+  <CEO_Intro>제작과 예술에 프로필을 따로 둡니다. 보상은 제작 속도가 아니라 제조법의 작업량에 따라 달라집니다.</CEO_Intro>
+  <CEO_CraftTab>프로필: 제작 (클릭해 전환)</CEO_CraftTab>
+  <CEO_ArtTab>프로필: 예술 (클릭해 전환)</CEO_ArtTab>
+  <CEO_Enabled>이 기술 프로필 활성화</CEO_Enabled>
+  <CEO_EnabledTip>비활성화하면 이 기술은 바닐라의 제조법 학습을 따릅니다. 다른 프로필은 따로 적용됩니다.</CEO_EnabledTip>
+  <CEO_Preset>프리셋</CEO_Preset>
+  <CEO_Balanced>균형</CEO_Balanced>
+  <CEO_Fast>빠른 학습</CEO_Fast>
+  <CEO_Quality>품질 중시</CEO_Quality>
+  <CEO_Custom>사용자 지정</CEO_Custom>
+  <CEO_BalancedDesc>작업량당 경험치 0.1. 품질: ×1 / 1 / 1 / 1.15 / 1.3 / 1.6 / 2. 낮은 품질 페널티 없음. 장기 작업 완화 켜짐.</CEO_BalancedDesc>
+  <CEO_FastDesc>품질 배율은 균형과 같지만 작업량당 경험치가 0.2입니다(기본 경험치 두 배).</CEO_FastDesc>
+  <CEO_QualityDesc>작업량당 경험치 0.1. 품질: ×0.5 / 0.75 / 1 / 1.5 / 2 / 3 / 5. 초보자 보호 켜짐. 숙련 페널티 꺼짐.</CEO_QualityDesc>
+  <CEO_Rate>작업 단위당 기본 경험치</CEO_Rate>
+  <CEO_RateTip>원본 작업 단위 기준입니다(표시되는 작업량 1당 60). 0이면 이 프로필의 제조법 경험치가 꺼집니다. 열정과 학습 계수는 그 뒤에 적용됩니다.</CEO_RateTip>
+  <CEO_NoQuality>품질 없는 제품의 배율</CEO_NoQuality>
+  <CEO_NoQualityTip>품질이 없는 제품을 만드는 제조법을 완료할 때마다 한 번 적용됩니다. 묶음 수량은 보상에 곱해지지 않습니다.</CEO_NoQualityTip>
+  <CEO_Protection>초보자의 낮은 품질 페널티 완화</CEO_Protection>
+  <CEO_ProtectionTip>레벨 10 미만에서는 1보다 작은 배율이 1 쪽으로 옮겨집니다: q + (1−q) × (10−레벨)/10 × 0.8. 품질 없는 제품의 배율에도 적용됩니다.</CEO_ProtectionTip>
+  <CEO_Routine>숙련 페널티 활성화</CEO_Routine>
+  <CEO_RoutineTip>기술이 제조법 요구치보다 8을 넘게 높으면: 배율 = max(0.25, 1 − (차이−8) × 0.07). 요구치가 없으면 0으로 계산합니다. 기본으로 꺼져 있습니다.</CEO_RoutineTip>
+  <CEO_SoftCap>아주 긴 작업의 보상 완화</CEO_SoftCap>
+  <CEO_SoftCapTip>작업량 × 제조법 학습 계수가 15,000을 넘으면 15,000 + (초과분)^0.85를 씁니다. 거대한 제조법이 학습을 독차지하지 않게 합니다.</CEO_SoftCapTip>
+  <CEO_SpeedNote>작업 속도는 제조법당 경험치를 바꾸지 않습니다. 프리셋은 비율, 품질 배율, 선택 규칙 세 가지를 초기화하며, 기술을 켜거나 끄지는 않습니다.</CEO_SpeedNote>
+  <CEO_Letters>경험치 내역이 담긴 완료 편지 보내기</CEO_Letters>
+  <CEO_LettersTip>플레이어 대상에게 적용됩니다. 편지를 열면 제조법 계산과 실제 경험치를 볼 수 있습니다. 조건을 충족하는 제조법마다 편지를 따로 보내며, 하루 요약은 없습니다.</CEO_LettersTip>
+  <CEO_MinQuality>편지를 보낼 최소 품질</CEO_MinQuality>
+  <CEO_NotifyNoQuality>품질 없는 제조법도 편지 보내기</CEO_NotifyNoQuality>
+  <CEO_Reset>이 프로필을 균형으로 초기화</CEO_Reset>
+  <CEO_OpenPreview>제조법 경험치 미리 보기</CEO_OpenPreview>
+  <CEO_PreviewAccess>제조법과 제품 정보 카드에서도 경험치 항목으로 볼 수 있습니다. 인터페이스 모드가 정보 카드를 바꿔도 이 별도 미리 보기 창은 작동합니다.</CEO_PreviewAccess>
+  <CEO_PreviewStat>제조법 경험치</CEO_PreviewStat>
+  <CEO_PreviewContext>기술: {0}. 예시 기술 레벨: {1}. 재료: {2}.</CEO_PreviewContext>
+  <CEO_PreviewNote>값은 열정, 학습 속도, 하루 학습 한도를 적용하기 전의 제조법당 원본 경험치입니다. 기술 최대치에서는 실제 경험치가 더 낮을 수 있고, 다른 모드가 바꿀 수도 있습니다. 정보 카드는 예시 레벨 10을 씁니다. 바꾸려면 이 창을 쓰세요. 속도는 보상에 영향을 주지 않습니다.</CEO_PreviewNote>
+  <CEO_SpecialPreview>특수 결과물은 재료에 따라 달라지므로 미리 보기가 품질을 모를 수 있습니다. 제련은 실제 투입물에 따라 다른 작업량을 쓸 수 있습니다.</CEO_SpecialPreview>
+  <CEO_DisabledPreview>이 프로필은 비활성화되어 바닐라 학습이 적용됩니다.</CEO_DisabledPreview>
+  <CEO_UnknownWork>실제 재료 없이는 작업량을 추정할 수 없습니다.</CEO_UnknownWork>
+  <CEO_WithoutQuality>품질 없음</CEO_WithoutQuality>
+  <CEO_Search>제조법 검색</CEO_Search>
+  <CEO_SelectRecipe>제조법 선택</CEO_SelectRecipe>
+  <CEO_NoMatches>일치하는 제조법 없음</CEO_NoMatches>
+  <CEO_Material>재료</CEO_Material>
+  <CEO_NotApplicable>해당 없음</CEO_NotApplicable>
+  <CEO_PreviewLevel>예시 기술 레벨: {0}</CEO_PreviewLevel>
+  <CEO_Completion>{0}: {1} ({2}) 완료, 경험치 {3} 획득.</CEO_Completion>
+  <CEO_LetterTitle>{0}: 제작 경험치 +{1}</CEO_LetterTitle>
+  <CEO_WorkLine>작업량: {0} × 제조법 학습 계수 {1}.</CEO_WorkLine>
+  <CEO_EffectiveLine>장기 작업 규칙 적용 후 유효 작업량: {0}.</CEO_EffectiveLine>
+  <CEO_RawLine>원본 경험치 = 작업량 {0} × 기본 비율 {1} × 품질 {2} × 숙련 {3} = {4}.</CEO_RawLine>
+  <CEO_CapFormula>장기 작업 공식: 15,000 + (작업량 × 제조법 계수 − 15,000)^0.85.</CEO_CapFormula>
+  <CEO_SafetyCap>안전 한도 적용: 제조법당 원본 경험치 최대 1,000,000.</CEO_SafetyCap>
+  <CEO_LearningLine>학습 구간: 원본 경험치 {0} × 현재 학습 계수 {1}.</CEO_LearningLine>
+  <CEO_FinalLine>실제 획득 ({0}): 경험치 {1}.</CEO_FinalLine>
+  <CEO_LearningNote>학습 계수에는 열정, 전역 학습 속도, 하루 학습 한도가 포함됩니다. 필요하면 보상은 바닐라 하루 기준치에서 나뉘어 적용됩니다. 실제 획득량은 레벨 안의 진행도를 포함해 학습 전후의 기술 값으로 측정하며, 기술 한계와 다른 모드가 영향을 줄 수 있습니다.</CEO_LearningNote>
+</LanguageData>
