@@ -61,6 +61,10 @@
   <DMS_WeaponInprint.stages.3.label>숙련</DMS_WeaponInprint.stages.3.label>
   <DMS_WeaponInprint.stages.4.label>전문화</DMS_WeaponInprint.stages.4.label>
   <DMS_WeaponInprint.stages.5.label>극대화</DMS_WeaponInprint.stages.5.label>
+  <DMS_RealityAnchored.label>현실 고정</DMS_RealityAnchored.label>
+  <DMS_RealityAnchored.description>이 생물은 현실 고정기의 안정화장 안에 있습니다. 이곳에서는 차원 너머와 연결할 수 없습니다. 능력치와 신체적 한계는 정상 수준의 120%를 넘을 수 없고, 초능력을 시전할 수 없으며 투명 상태를 유지할 수도 없습니다.\n\n영향 범위를 벗어나면 곧 효과가 사라집니다.</DMS_RealityAnchored.description>
+  <DMS_RealitySuppressed.label>현실 억제</DMS_RealitySuppressed.label>
+  <DMS_RealitySuppressed.description>현실 고정기의 장이 이 생물을 일반적인 물리 법칙에 얽매이게 하고 있습니다. 이 생물을 지탱하는 초월적 특성이 벗겨져 나갑니다. 이동과 행동이 굼떠지고 공격력이 절반으로 줄며, 훨씬 쉽게 격리 상태로 유지할 수 있습니다.\n\n영향 범위를 벗어나면 곧 효과가 사라집니다.</DMS_RealitySuppressed.description>
   <DMS_ProstheticEye.label>기계신경식 시각 감지기</DMS_ProstheticEye.label>
   <DMS_ProstheticEye.labelNoun>기계신경식 감지기</DMS_ProstheticEye.labelNoun>
   <DMS_ProstheticEye.description>눈을 대체하는 기계신경식 시각 감지기가 이식되어 있습니다.</DMS_ProstheticEye.description>
@@ -114,6 +118,22 @@
   <DMS_CombatRegenHigh.description>전투 재생 혈청의 줄기세포가 잃어버린 신체 부위를 다시 만들고 있습니다. 재생 과정은 막대한 에너지를 소모하며 통증을 일으킵니다.</DMS_CombatRegenHigh.description>
   <DMS_SensibilityBlockerHigh.label>감성 차단</DMS_SensibilityBlockerHigh.label>
   <DMS_SensibilityBlockerHigh.description>감성 차단제가 감정적 사고를 억제하고 있습니다. 주변 환경에 신경 쓰지 않게 됩니다. 부차적 욕구가 중단되며, 환경과 관련된 부정적 생각이 무드에 영향을 미치지 않습니다.</DMS_SensibilityBlockerHigh.description>
+  <DMS_SubsonicTrauma.label>초저주파 외상</DMS_SubsonicTrauma.label>
+  <DMS_SubsonicTrauma.description>정밀 조율된 초저주파가 이 생물의 내이와 내장을 공명시켰습니다. 구역질과 방향 감각 상실, 상처로는 설명할 수 없는 깊고 광범위한 통증을 일으킵니다. 청각이 예민할수록 더 큰 영향을 받으며, 귀가 들리지 않는 생물은 영향을 받지 않습니다. 반복 노출되면 효과가 빠르게 누적되고, 가장 심할 때는 통증만으로도 쇼크가 발생합니다.\n\n효과는 두어 시간 안에 저절로 사라집니다.</DMS_SubsonicTrauma.description>
+  <DMS_SubsonicTrauma.stages.0.label>불쾌감</DMS_SubsonicTrauma.stages.0.label>
+  <DMS_SubsonicTrauma.stages.1.label>방향 감각 상실</DMS_SubsonicTrauma.stages.1.label>
+  <DMS_SubsonicTrauma.stages.2.label>극심한 고통</DMS_SubsonicTrauma.stages.2.label>
+  <DMS_InfrasoundRupture.labelNounPretty>{1} 내 {0}</DMS_InfrasoundRupture.labelNounPretty>
+  <DMS_InfrasoundRupture.label>초저주파 파열</DMS_InfrasoundRupture.label>
+  <DMS_InfrasoundRupture.labelNoun>초저주파 파열</DMS_InfrasoundRupture.labelNoun>
+  <DMS_InfrasoundRupture.description>초저주파 공명으로 안쪽부터 찢어진 조직입니다. 치료하지 않으면 흉터가 남아 영구적인 청력 손실로 이어질 수 있습니다.</DMS_InfrasoundRupture.description>
+  <DMS_InfrasoundRupture.injuryProps.destroyedLabel>파열됨</DMS_InfrasoundRupture.injuryProps.destroyedLabel>
+  <DMS_InfrasoundRupture.comps.0.labelTendedWell>치료됨</DMS_InfrasoundRupture.comps.0.labelTendedWell>
+  <DMS_InfrasoundRupture.comps.0.labelTendedWellInner>치료됨</DMS_InfrasoundRupture.comps.0.labelTendedWellInner>
+  <DMS_InfrasoundRupture.comps.0.labelSolidTendedWell>수리됨</DMS_InfrasoundRupture.comps.0.labelSolidTendedWell>
+  <DMS_InfrasoundRupture.comps.2.permanentLabel>초저주파 흉터</DMS_InfrasoundRupture.comps.2.permanentLabel>
+  <DMS_SubsonicModule.label>초저주파 모듈</DMS_SubsonicModule.label>
+  <DMS_SubsonicModule.description>차체에 장착한 정밀 조율 초저주파 방출기 배열입니다. 메크가 초저주파를 방출해 주변 적대 생물에게 통증과 공황을 일으킬 수 있게 합니다.</DMS_SubsonicModule.description>
   <DMS_CeramicsPlating.label>세라믹 플레이트</DMS_CeramicsPlating.label>
   <DMS_CeramicsPlating.description>착용자를 소화기 사격과 파편으로부터 효과적으로 보호하는 소모성 세라믹 장갑판입니다.\n\n우수한 방호 성능을 지니지만, 한 번 손상되면 통째로 교체해야 합니다.</DMS_CeramicsPlating.description>
   <DMS_ReinforcedFrame.label>강화 프레임</DMS_ReinforcedFrame.label>
@@ -146,24 +166,4 @@
   <DMS_OrbitalService.stages.9.label>준장</DMS_OrbitalService.stages.9.label>
   <DMS_BandNode.label>대역폭 확장기 (N.A.C.S.)</DMS_BandNode.label>
   <DMS_BandNode.description>N.A.C.S. 프로토콜에 따라, 보조 연산 어레이가 이 메카나이터의 대역폭을 증가시켰습니다.</DMS_BandNode.description>
-  <DMS_RealityAnchored.label>현실 고정</DMS_RealityAnchored.label>
-  <DMS_RealityAnchored.description>이 생물은 현실 고정기의 안정화장 안에 있습니다. 이곳에서는 차원 너머와 연결할 수 없습니다. 능력치와 신체적 한계는 정상 수준의 120%를 넘을 수 없고, 초능력을 시전할 수 없으며 투명 상태를 유지할 수도 없습니다.\n\n영향 범위를 벗어나면 곧 효과가 사라집니다.</DMS_RealityAnchored.description>
-  <DMS_RealitySuppressed.label>현실 억제</DMS_RealitySuppressed.label>
-  <DMS_RealitySuppressed.description>현실 고정기의 장이 이 생물을 일반적인 물리 법칙에 얽매이게 하고 있습니다. 이 생물을 지탱하는 초월적 특성이 벗겨져 나갑니다. 이동과 행동이 굼떠지고 공격력이 절반으로 줄며, 훨씬 쉽게 격리 상태로 유지할 수 있습니다.\n\n영향 범위를 벗어나면 곧 효과가 사라집니다.</DMS_RealitySuppressed.description>
-  <DMS_SubsonicTrauma.label>초저주파 외상</DMS_SubsonicTrauma.label>
-  <DMS_SubsonicTrauma.description>정밀 조율된 초저주파가 이 생물의 내이와 내장을 공명시켰습니다. 구역질과 방향 감각 상실, 상처로는 설명할 수 없는 깊고 광범위한 통증을 일으킵니다. 청각이 예민할수록 더 큰 영향을 받으며, 귀가 들리지 않는 생물은 영향을 받지 않습니다. 반복 노출되면 효과가 빠르게 누적되고, 가장 심할 때는 통증만으로도 쇼크가 발생합니다.\n\n효과는 두어 시간 안에 저절로 사라집니다.</DMS_SubsonicTrauma.description>
-  <DMS_SubsonicTrauma.stages.0.label>불쾌감</DMS_SubsonicTrauma.stages.0.label>
-  <DMS_SubsonicTrauma.stages.1.label>방향 감각 상실</DMS_SubsonicTrauma.stages.1.label>
-  <DMS_SubsonicTrauma.stages.2.label>극심한 고통</DMS_SubsonicTrauma.stages.2.label>
-  <DMS_InfrasoundRupture.labelNounPretty>{1} 내 {0}</DMS_InfrasoundRupture.labelNounPretty>
-  <DMS_InfrasoundRupture.label>초저주파 파열</DMS_InfrasoundRupture.label>
-  <DMS_InfrasoundRupture.labelNoun>초저주파 파열</DMS_InfrasoundRupture.labelNoun>
-  <DMS_InfrasoundRupture.description>초저주파 공명으로 안쪽부터 찢어진 조직입니다. 치료하지 않으면 흉터가 남아 영구적인 청력 손실로 이어질 수 있습니다.</DMS_InfrasoundRupture.description>
-  <DMS_InfrasoundRupture.injuryProps.destroyedLabel>파열됨</DMS_InfrasoundRupture.injuryProps.destroyedLabel>
-  <DMS_InfrasoundRupture.comps.0.labelTendedWell>치료됨</DMS_InfrasoundRupture.comps.0.labelTendedWell>
-  <DMS_InfrasoundRupture.comps.0.labelTendedWellInner>치료됨</DMS_InfrasoundRupture.comps.0.labelTendedWellInner>
-  <DMS_InfrasoundRupture.comps.0.labelSolidTendedWell>수리됨</DMS_InfrasoundRupture.comps.0.labelSolidTendedWell>
-  <DMS_InfrasoundRupture.comps.2.permanentLabel>초저주파 흉터</DMS_InfrasoundRupture.comps.2.permanentLabel>
-  <DMS_SubsonicModule.label>초저주파 모듈</DMS_SubsonicModule.label>
-  <DMS_SubsonicModule.description>차체에 장착한 정밀 조율 초저주파 방출기 배열입니다. 메크가 초저주파를 방출해 주변 적대 생물에게 통증과 공황을 일으킬 수 있게 합니다.</DMS_SubsonicModule.description>
 </LanguageData>
