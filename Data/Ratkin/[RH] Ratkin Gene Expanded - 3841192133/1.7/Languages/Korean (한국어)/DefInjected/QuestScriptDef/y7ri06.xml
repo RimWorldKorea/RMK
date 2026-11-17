@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RH_Quest_SandyWanderers.questDescriptionRules.rulesStrings>
+    <li>lodgersPronoun(lodgerCount==1)-&gt;[asker_pronoun]</li>
+    <li>lodgersPronoun(lodgerCount&gt;=2)-&gt;그들</li>
+    <li>lodgersObjective(lodgerCount==1)-&gt;[asker_objective]</li>
+    <li>lodgersObjective(lodgerCount&gt;=2)-&gt;그들을</li>
+    <li>lodgersPossessive(lodgerCount==1)-&gt;[asker_possessive]</li>
+    <li>lodgersPossessive(lodgerCount&gt;=2)-&gt;그들의</li>
+    <li>lodgersSingularOrPluralDef(lodgerCount==1)-&gt;[asker_nameDef]</li>
+    <li>lodgersSingularOrPluralDef(lodgerCount&gt;=2)-&gt;이 [lodgersLabelPlural]</li>
+    <li>questDescription(lodgerCount==1)-&gt;[approachInfo][claimInfo][asker_nameDef](이)가 [map_definite]에서 [questDurationTicks_duration] 동안 머물게 해 달라고 청합니다. 기운을 차리고 보급을 넉넉히 갖추면 모래마을로 돌아가겠다고 합니다.\n\n그 대가로 머무는 동안 무보수로 당신을 위해 일하고 싸우겠다고 합니다.\n\n나중에 이 신세를 기억할지도 모르지만, 진짜 속셈은 알 길이 없습니다.\n\n[travelerInfo] 모래마을에서 왔다고 자칭하지만 신원은 확인할 수 없습니다. 원한다면 죽이거나, 체포하거나, 팔거나, 장기를 적출해도 외교적 결과는 없습니다.</li>
+    <li>questDescription(lodgerCount&gt;=2)-&gt;[approachInfo][claimInfo][asker_nameDef](이)가 [map_definite]에서 [questDurationTicks_duration] 동안 머물게 해 달라고 청합니다. 기운을 차리고 보급을 넉넉히 갖추면 모래마을로 돌아가겠다고 합니다.\n\n그 대가로 그들은 머무는 동안 무보수로 당신을 위해 일하고 싸우겠다고 합니다.\n\n그들은 나중에 이 신세를 기억할지도 모르지만, 그들의 진짜 속셈은 알 길이 없습니다.\n\n[travelerInfo] 모래마을에서 왔다고 자칭하지만 신원은 확인할 수 없습니다. 원한다면 그들을 죽이거나, 체포하거나, 팔거나, 장기를 적출해도 외교적 결과는 없습니다.</li>
+    <li>approachInfo(lodgerCount==1)-&gt;먼지투성이 모래마을 랫킨 [asker_nameDef](이)가 다가오고 있습니다.</li>
+    <li>approachInfo(lodgerCount==2)-&gt;[asker_nameDef](와)과 먼지투성이 모래마을 랫킨 하나가 더 다가오고 있습니다.</li>
+    <li>approachInfo(lodgerCount&gt;=3)-&gt;먼지투성이 모래마을 랫킨 [lodgerCount]명이 다가오고 있습니다. 앞장선 이의 이름은 [asker_nameDef]입니다.</li>
+    <li>claimInfo(lodgerCount==1)-&gt;[asker_nameDef](은)는 모래마을 상단을 위해 앞길을 살피던 중, 모래 폭풍에 낙타 행렬과 함께 휩쓸려 흩어졌다고 합니다. 일단 쉬면서 다음 상단 편에 돌아가고 싶다고 합니다.</li>
+    <li>claimInfo(lodgerCount==1)-&gt;[asker_nameDef](은)는 모래마을 특별 구역에서 도박 빚을 졌다고 털어놓았습니다. 몇 달 동안 몸을 숨겼다가, 빚쟁이가 잊어버리면 돌아가겠다고 합니다.</li>
+    <li>claimInfo(lodgerCount==1)-&gt;[asker_nameDef](은)는 고향 우물이 바닥나 먼 친척에게 의탁하러 가는 길이라며, 며칠 묵으며 쉬고 싶다고 합니다.</li>
+    <li>claimInfo(lodgerCount&gt;=2)-&gt;그들은 모래마을 상단원인데, 가는 길에 뛰는쥐 갱단에게 물건을 털려 마을에서 마중 올 사람을 기다리고 있다고 합니다.</li>
+    <li>claimInfo(lodgerCount&gt;=2)-&gt;그들은 모래마을이 올해 미친 듯이 징병하고 있어서 잠시 몸을 피하고 싶다고 합니다.</li>
+    <li>claimInfo(lodgerCount&gt;=2)-&gt;그들은 마을을 위해 새 수원을 조사하러 나왔다가 도중에 식량이 떨어져, 보급하고 쉴 곳을 빌리고 싶다고 합니다.</li>
+    <li>travelerInfo(lodgerCount==1)-&gt;이 랫킨은</li>
+    <li>travelerInfo(lodgerCount&gt;=2)-&gt;이 무리는</li>
+  </RH_Quest_SandyWanderers.questDescriptionRules.rulesStrings>
+</LanguageData>

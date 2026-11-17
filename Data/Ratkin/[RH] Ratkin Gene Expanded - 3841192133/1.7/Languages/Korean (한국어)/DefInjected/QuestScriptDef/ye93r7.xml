@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RH_Quest_NakedMoleRefugees.questContentRules.rulesStrings>
+    <li>lastOrNot(lodgerCount==1)-&gt;</li>
+    <li>lastOrNot(lodgerCount&gt;=2)-&gt;마지막</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount==1)-&gt;[lodgersLabel]</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount&gt;=2)-&gt;[lodgersLabelPlural]</li>
+    <li>whoAskedToStay-&gt;당신에게 머물기를 청한 사람</li>
+    <li>oneOfThe-&gt;머물기를 청한 [faction_pawnsPlural] 중 하나</li>
+    <li>questOver-&gt;&quot;[resolvedQuestName]&quot; 임무가 끝났습니다.</li>
+    <li>appalledButNoAction-&gt;{PAWNSALIVECOUNT_multiple ? 다른 난민들은 : 마지막 [lodgersLabel](은)는} 이에 분노한 듯하지만, {PAWNSALIVECOUNT_multiple ? 당신에게 행동을 취하지는 않을 것입니다 : 당신에게 행동을 취하지는 않을 것입니다}.</li>
+    <li>othersWillNotAccept-&gt;{PAWNSALIVECOUNT_multiple ? 다른 난민들은 : 마지막 [lodgersLabel](은)는} 이를 받아들이지 않을 것입니다</li>
+    <li>turnedViolent-&gt;[othersWillNotAccept]. 그리고 {PAWNSALIVECOUNT_multiple ? 이미 : 이미} 당신에게 폭력으로 맞서기 시작했습니다.</li>
+    <li>decidedToLeave-&gt;[othersWillNotAccept]. 그리고 {PAWNSALIVECOUNT_multiple ? 이미 : 이미} 떠나기로 했습니다.</li>
+    <li>lodgersArriveLetterLabel-&gt;[lodgersLabelSingularOrPlural] 도착</li>
+    <li>lodgersArriveLetterText-&gt;[lodgersSingularOrPluralDef](이)가 도착했습니다. 쉬면서 회복하기 위해 [questDurationTicks_duration] 동안 당신에게 머물 예정입니다.</li>
+    <li>letterIntroDeath-&gt;{SUBJECT_definite}, [oneOfThe](이)가 죽었습니다.</li>
+    <li>lodgerDiedMemoryThoughtLetterLabel-&gt;[lodgersLabel] 사망: 분노</li>
+    <li>lodgerDiedMemoryThoughtLetterText-&gt;[letterIntroDeath]\n\n[appalledButNoAction]</li>
+    <li>lodgerDiedAttackPlayerLetterLabel-&gt;[lodgersLabel] 사망: 복수</li>
+    <li>lodgerDiedAttackPlayerLetterText-&gt;[letterIntroDeath]\n\n[turnedViolent]</li>
+    <li>lodgerDiedLeaveMapLetterLabel-&gt;[lodgersLabel] 사망: 떠남</li>
+    <li>lodgerDiedLeaveMapLetterText-&gt;[letterIntroDeath]\n\n[decidedToLeave]</li>
+    <li>lodgersAllDiedLetterLabel-&gt;임무 실패</li>
+    <li>lodgersAllDiedLetterText-&gt;{SUBJECT_definite}, [lastOrNot] 절박한 [faction_pawnSingular] [whoAskedToStay](이)가 죽었습니다.\n\n[questOver]</li>
+    <li>letterIntroArrested-&gt;당신은 {SUBJECT_definite}, [oneOfThe](을)를 체포했습니다.</li>
+    <li>lodgerArrestedMemoryThoughtLetterLabel-&gt;[lodgersLabel] 체포: 분노</li>
+    <li>lodgerArrestedMemoryThoughtLetterText-&gt;[letterIntroArrested]\n\n[appalledButNoAction]</li>
+    <li>lodgerArrestedAttackPlayerLetterLabel-&gt;[lodgersLabel] 체포: 복수</li>
+    <li>lodgerArrestedAttackPlayerLetterText-&gt;[letterIntroArrested]\n\n[turnedViolent]</li>
+    <li>lodgerArrestedLeaveMapLetterLabel-&gt;[lodgersLabel] 체포: 떠남</li>
+    <li>lodgerArrestedLeaveMapLetterText-&gt;[letterIntroArrested]\n\n[decidedToLeave]</li>
+    <li>lodgersAllArrestedLetterLabel-&gt;임무 실패</li>
+    <li>lodgersAllArrestedLetterText-&gt;당신은 {SUBJECT_definite}, [lastOrNot] 절박한 [faction_pawnSingular] [whoAskedToStay](을)를 체포했습니다.\n\n[questOver]</li>
+    <li>letterIntroLeftBehind-&gt;{SUBJECT_definite}, [oneOfThe](이)가 버려졌습니다.</li>
+    <li>lodgerLeftBehindMemoryThoughtLetterLabel-&gt;[lodgersLabel] 버려짐: 분노</li>
+    <li>lodgerLeftBehindMemoryThoughtLetterText-&gt;[letterIntroLeftBehind]\n\n[appalledButNoAction]</li>
+    <li>lodgerLeftBehindLeaveMapLetterLabel-&gt;[lodgersLabel] 버려짐: 떠남</li>
+    <li>lodgerLeftBehindLeaveMapLetterText-&gt;[letterIntroLeftBehind]\n\n[decidedToLeave]</li>
+    <li>letterIntroViolated-&gt;{SUBJECT_definite}, [oneOfThe](이)가 수술로 몸을 침해당했습니다.</li>
+    <li>lodgerViolatedMemoryThoughtLetterLabel-&gt;[lodgersLabel] 침해: 분노</li>
+    <li>lodgerViolatedMemoryThoughtLetterText-&gt;[letterIntroViolated]\n\n[appalledButNoAction]</li>
+    <li>lodgerViolatedAttackPlayerLetterLabel-&gt;[lodgersLabel] 침해: 복수</li>
+    <li>lodgerViolatedAttackPlayerLetterText-&gt;[letterIntroViolated]\n\n[turnedViolent]</li>
+    <li>lodgerViolatedLeaveMapLetterLabel-&gt;[lodgersLabel] 침해: 떠남</li>
+    <li>lodgerViolatedLeaveMapLetterText-&gt;[letterIntroViolated]\n\n[decidedToLeave]</li>
+    <li>letterIntroPsychicRitualTarget-&gt;{SUBJECT_definite}, [oneOfThe](이)가 초정신 의식의 대상이 됐습니다.</li>
+    <li>lodgerPsychicRitualTargetMemoryThoughtLetterLabel-&gt;[lodgersLabel] 침해: 분노</li>
+    <li>lodgerPsychicRitualTargetMemoryThoughtLetterText-&gt;[letterIntroPsychicRitualTarget]\n\n[appalledButNoAction]</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterLabel-&gt;[lodgersLabel] 침해: 복수</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterText-&gt;[letterIntroPsychicRitualTarget]\n\n[turnedViolent]</li>
+    <li>lodgerPsychicRitualTargetLeaveMapLetterLabel-&gt;[lodgersLabel] 침해: 떠남</li>
+    <li>lodgerPsychicRitualTargetLeaveMapLetterText-&gt;[letterIntroPsychicRitualTarget]\n\n[decidedToLeave]</li>
+    <li>lodgersLeavingLetterLabel-&gt;[lodgersLabelSingularOrPlural] 떠남</li>
+    <li>lodgersLeavingLetterText-&gt;{FACTION_leaderNameDef}(은)는 [map_definite]에서 [questDurationTicks_duration] 동안 머물게 해 줘서 고맙다고 합니다. 이제 자기 사람들을 데리고 다시 길을 떠납니다.\n\n{FACTION_leaderNameDef}(은)는 이 은혜를 절대 잊지 않겠다고 말합니다.</li>
+  </RH_Quest_NakedMoleRefugees.questContentRules.rulesStrings>
+</LanguageData>
