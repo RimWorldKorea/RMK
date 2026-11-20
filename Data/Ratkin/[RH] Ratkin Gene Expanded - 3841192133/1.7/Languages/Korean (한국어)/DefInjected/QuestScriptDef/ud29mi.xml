@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RH_Quest_SandyWanderers.questContentRules.rulesStrings>
+    <li>lastOrNot(lodgerCount==1)-&gt;</li>
+    <li>lastOrNot(lodgerCount&gt;=2)-&gt;마지막</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount==1)-&gt;[lodgersLabel]</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount&gt;=2)-&gt;[lodgersLabelPlural]</li>
+    <li>whoAskedToStay-&gt;머물던 모래마을 나그네</li>
+    <li>oneOfThe-&gt;머물던 모래마을 나그네 중 하나</li>
+    <li>questOver-&gt;&quot;[resolvedQuestName]&quot; 임무가 끝났습니다.</li>
+    <li>appalledButNoAction(royaltyActive==true)-&gt;{PAWNSALIVECOUNT_multiple ? 다른 사람들은 : 마지막 [lodgersLabel](은)는} 이에 충격을 받은 듯하지만, 당신에게 행동을 취하지는 않았습니다.</li>
+    <li>appalledButNoAction(noRoyalty==true)-&gt;{PAWNSALIVECOUNT_multiple ? 다른 나그네들은 : 마지막 [lodgersLabel](은)는} 이에 분노한 듯하지만, 당신에게 행동을 취하지는 않았습니다.</li>
+    <li>othersWillNotAccept(royaltyActive==true)-&gt;{PAWNSALIVECOUNT_multiple ? 다른 사람들은 : 마지막 [lodgersLabel](은)는} 이를 받아들이려 하지 않습니다</li>
+    <li>othersWillNotAccept(noRoyalty==true)-&gt;{PAWNSALIVECOUNT_multiple ? 다른 나그네들은 : 마지막 [lodgersLabel](은)는} 이를 받아들이지 않습니다</li>
+    <li>turnedViolent(royaltyActive==true)-&gt;[othersWillNotAccept]. 그리고 이미 폭력으로 맞서기 시작했습니다.</li>
+    <li>turnedViolent(noRoyalty==true)-&gt;[othersWillNotAccept]. 그리고 이미 폭력으로 맞서기 시작했습니다.</li>
+    <li>decidedToLeave(royaltyActive==true)-&gt;[othersWillNotAccept]. 그리고 이미 떠나기로 했습니다.</li>
+    <li>decidedToLeave(noRoyalty==true)-&gt;[othersWillNotAccept]. 그리고 이미 떠나기로 했습니다.</li>
+    <li>lodgersArriveLetterLabel(royaltyActive==true)-&gt;[lodgersLabelSingularOrPlural] 도착</li>
+    <li>lodgersArriveLetterLabel(noRoyalty==true)-&gt;모래마을 나그네 도착</li>
+    <li>lodgersArriveLetterText(royaltyActive==true)-&gt;[lodgersSingularOrPluralDef](이)가 도착했습니다. 이곳에서 [questDurationTicks_duration] 동안 머물며 쉬고 재정비합니다.</li>
+    <li>lodgersArriveLetterText(noRoyalty==true)-&gt;모래마을에서 왔다고 자칭하는 [lodgersSingularOrPluralDef](이)가 정착지에 들어섰습니다. 이곳에서 [questDurationTicks_duration] 동안 머물며 쉬고 보급한 뒤 모래마을로 돌아갑니다.</li>
+    <li>letterIntroDeath-&gt;{SUBJECT_definite}, [oneOfThe](이)가 죽었습니다.</li>
+    <li>lodgerDiedMemoryThoughtLetterLabel-&gt;[lodgersLabel] 사망: 분노</li>
+    <li>lodgerDiedMemoryThoughtLetterText-&gt;[letterIntroDeath]\n\n[appalledButNoAction]</li>
+    <li>lodgerDiedAttackPlayerLetterLabel-&gt;[lodgersLabel] 사망: 복수</li>
+    <li>lodgerDiedAttackPlayerLetterText-&gt;[letterIntroDeath]\n\n[turnedViolent]</li>
+    <li>lodgerDiedLeaveMapLetterLabel-&gt;[lodgersLabel] 사망: 떠남</li>
+    <li>lodgerDiedLeaveMapLetterText-&gt;[letterIntroDeath]\n\n[decidedToLeave]</li>
+    <li>lodgersAllDiedLetterLabel-&gt;임무 실패</li>
+    <li>lodgersAllDiedLetterText(royaltyActive==true)-&gt;머물기를 청했던 [lastOrNot] [faction_pawnSingular], {SUBJECT_definite}(이)가 죽었습니다.\n\n[questOver]</li>
+    <li>lodgersAllDiedLetterText(noRoyalty==true)-&gt;모래마을 나그네라고 자칭하던 [lastOrNot] 손님, {SUBJECT_definite}(이)가 죽었습니다.\n\n[questOver]</li>
+    <li>letterIntroArrested-&gt;당신은 [oneOfThe]인 {SUBJECT_definite}(을)를 체포했습니다.</li>
+    <li>lodgerArrestedMemoryThoughtLetterLabel-&gt;[lodgersLabel] 체포: 분노</li>
+    <li>lodgerArrestedMemoryThoughtLetterText-&gt;[letterIntroArrested]\n\n[appalledButNoAction]</li>
+    <li>lodgerArrestedAttackPlayerLetterLabel-&gt;[lodgersLabel] 체포: 복수</li>
+    <li>lodgerArrestedAttackPlayerLetterText-&gt;[letterIntroArrested]\n\n[turnedViolent]</li>
+    <li>lodgerArrestedLeaveMapLetterLabel-&gt;[lodgersLabel] 체포: 떠남</li>
+    <li>lodgerArrestedLeaveMapLetterText-&gt;[letterIntroArrested]\n\n[decidedToLeave]</li>
+    <li>lodgersAllArrestedLetterLabel-&gt;임무 실패</li>
+    <li>lodgersAllArrestedLetterText(royaltyActive==true)-&gt;머물기를 청했던 [lastOrNot] [faction_pawnSingular], {SUBJECT_definite}(이)가 체포됐습니다.\n\n[questOver]</li>
+    <li>lodgersAllArrestedLetterText(noRoyalty==true)-&gt;당신은 모래마을 나그네라고 자칭하던 [lastOrNot] 손님, {SUBJECT_definite}(을)를 체포했습니다.\n\n[questOver]</li>
+    <li>letterIntroLeftBehind-&gt;[oneOfThe]인 {SUBJECT_definite}(이)가 버려졌습니다.</li>
+    <li>lodgerLeftBehindMemoryThoughtLetterLabel-&gt;[lodgersLabel] 유기: 분노</li>
+    <li>lodgerLeftBehindMemoryThoughtLetterText-&gt;[letterIntroLeftBehind]\n\n[appalledButNoAction]</li>
+    <li>lodgerLeftBehindLeaveMapLetterLabel-&gt;[lodgersLabel] 유기: 떠남</li>
+    <li>lodgerLeftBehindLeaveMapLetterText-&gt;[letterIntroLeftBehind]\n\n[decidedToLeave]</li>
+    <li>letterIntroViolated-&gt;[oneOfThe]인 {SUBJECT_definite}(이)가 수술로 몸을 침해당했습니다.</li>
+    <li>lodgerViolatedMemoryThoughtLetterLabel-&gt;[lodgersLabel] 침해: 분노</li>
+    <li>lodgerViolatedMemoryThoughtLetterText-&gt;[letterIntroViolated]\n\n[appalledButNoAction]</li>
+    <li>lodgerViolatedAttackPlayerLetterLabel-&gt;[lodgersLabel] 침해: 복수</li>
+    <li>lodgerViolatedAttackPlayerLetterText-&gt;[letterIntroViolated]\n\n[turnedViolent]</li>
+    <li>lodgerViolatedLeaveMapLetterLabel-&gt;[lodgersLabel] 침해: 떠남</li>
+    <li>lodgerViolatedLeaveMapLetterText-&gt;[letterIntroViolated]\n\n[decidedToLeave]</li>
+    <li>letterIntroPsychicRitualTarget-&gt;[oneOfThe]인 {SUBJECT_definite}(이)가 초정신 의식의 표적이 됐습니다.</li>
+    <li>lodgerPsychicRitualTargetMemoryThoughtLetterLabel-&gt;[lodgersLabel] 침해: 분노</li>
+    <li>lodgerPsychicRitualTargetMemoryThoughtLetterText-&gt;[letterIntroPsychicRitualTarget]\n\n[appalledButNoAction]</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterLabel-&gt;[lodgersLabel] 침해: 복수</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterText-&gt;[letterIntroPsychicRitualTarget]\n\n[turnedViolent]</li>
+    <li>lodgerPsychicRitualTargetLeaveMapLetterLabel-&gt;[lodgersLabel] 침해: 떠남</li>
+    <li>lodgerPsychicRitualTargetLeaveMapLetterText-&gt;[letterIntroPsychicRitualTarget]\n\n[decidedToLeave]</li>
+    <li>mutinyLetterLabel(royaltyActive==true)-&gt;배신</li>
+    <li>mutinyLetterLabel(noRoyalty==true)-&gt;모래마을 나그네: 배신</li>
+    <li>mutinyLetterText(royaltyActive==true)-&gt;[lodgersSingularOrPluralDef](이)가 등을 돌렸습니다!\n\n처음부터 이 배신을 꾸민 모양입니다. 모래마을 나그네가 아니라 뛰는쥐 갱단이 보낸 첩자였습니다.</li>
+    <li>mutinyLetterText(noRoyalty==true)-&gt;[lodgersSingularOrPluralDef](이)가 갑자기 가면을 벗었습니다. 모래마을 나그네 따위가 아니라 뛰는쥐 갱단이 정찰하러 보낸 첩자였습니다! &quot;피난&quot;은 핑계였고, 이제 짐 속에 숨겨 둔 무기를 꺼내 들었습니다.</li>
+    <li>gangReinforceLetterLabel-&gt;뛰는쥐 갱단 증원</li>
+    <li>gangReinforceLetterText-&gt;첩자의 움직임을 알아챈 뛰는쥐 갱단이 증원을 보냈습니다. 갱단원 한 무리가 [map_definite](으)로 오고 있으니 대비하세요.</li>
+    <li>lodgersLeavingLetterLabel(royaltyActive==true)-&gt;[lodgersLabelSingularOrPlural] 출발</li>
+    <li>lodgersLeavingLetterLabel(noRoyalty==true)-&gt;모래마을 나그네 출발</li>
+    <li>lodgersLeavingLetterText(royaltyActive==true)-&gt;{FACTION_leaderNameDef}(은)는 [map_definite]에서 [questDurationTicks_duration] 동안 머물게 해 준 데 고마워하며, 이제 일행을 이끌고 다시 길을 떠납니다.\n\n{FACTION_leaderNameDef}(은)는 당신이 해 준 일을 잊지 않겠다고 했습니다.</li>
+    <li>lodgersLeavingLetterText(noRoyalty==true)-&gt;푹 쉰 [lodgersSingularOrPluralDef](이)가 작별 인사를 하고, 해가 지기 전에 모래마을로 돌아가려 길을 나섰습니다. 떠나기 전, [asker_nameDef](은)는 이 은혜를 꼭 기억하겠다고 진지하게 말했습니다. 언젠가 당신의 선행을 기억하는 이가 있을 것입니다.</li>
+    <li>hasHave(lodgerCount==1)-&gt;</li>
+    <li>hasHave(lodgerCount&gt;=2)-&gt;</li>
+  </RH_Quest_SandyWanderers.questContentRules.rulesStrings>
+</LanguageData>

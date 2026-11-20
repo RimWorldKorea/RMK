@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MGSP_SubDroneDock.label>미니 메카 조립기</MGSP_SubDroneDock.label>
+  <MGSP_SubDroneDock.description>같은 맵의 트리뷴에게서 건설 주문을 받는 메카노이드 조립기입니다. 지휘기의 미니 메카 슬롯이 비면 이곳에 주문을 보내며, 전력과 재료가 있으면 조립기가 미니 메카를 하나씩 만들고, 완성된 미니 메카는 걸어가서 지휘기에 합류합니다.\n\n지휘기를 잃은 미니 메카는 이곳으로 돌아와 분해되며, 재료를 모두 돌려줍니다. 파괴된 미니 메카는 분쇄만 할 수 있는 시체를 남깁니다.</MGSP_SubDroneDock.description>
+  <MGSP_SubDroneDockEnemy.label>고대 미니 메카 조립기</MGSP_SubDroneDockEnemy.label>
+  <MGSP_SubDroneDockEnemy.description>근처 고대 트리뷴의 미니 메카를 다시 만드는 메카노이드 조립기입니다. 깨어나면 잃은 미니 메카를 하나씩 만들어 지휘기에게 보냅니다.\n\n파괴하면 미니 메카가 더 이상 보충되지 않습니다.</MGSP_SubDroneDockEnemy.description>
+  <MGSP_FieldFrame.label>현장 구조물 부지</MGSP_FieldFrame.label>
+  <MGSP_FieldFrame.description>트리뷴이 배치한 임시 구조물입니다. 트리뷴의 수리 미니 메카가 건설하고 있습니다.</MGSP_FieldFrame.description>
+  <MGSP_FieldFrameLarge.label>현장 구조물 부지</MGSP_FieldFrameLarge.label>
+  <MGSP_FieldFrameLarge.description>트리뷴이 배치한 임시 구조물입니다. 트리뷴의 수리 미니 메카가 건설하고 있습니다.</MGSP_FieldFrameLarge.description>
+  <MGSP_FieldFrameLinked.label>현장 구조물 부지</MGSP_FieldFrameLinked.label>
+  <MGSP_FieldFrameLinked.description>트리뷴이 배치한 임시 구조물입니다. 트리뷴의 수리 미니 메카가 건설하고 있습니다.</MGSP_FieldFrameLinked.description>
+  <MGSP_FieldCover.label>메카노이드 엄폐물</MGSP_FieldCover.label>
+  <MGSP_FieldCover.description>미니 메카가 세운 낮은 장갑판입니다. 모래주머니처럼 엄폐를 제공하며, 하루가 지나면 스스로 해체됩니다.</MGSP_FieldCover.description>
+  <MGSP_FieldBarrierNode.label>방벽 노드</MGSP_FieldBarrierNode.label>
+  <MGSP_FieldBarrierNode.description>낮은 각도의 보호막을 세우는 소형 투사기입니다. 적의 총알은 들어올 수 없지만 아군의 사격은 나갈 수 있습니다. EMP를 맞으면 한동안 꺼집니다. 몇 시간 뒤 타 버립니다.</MGSP_FieldBarrierNode.description>
+  <MGSP_FieldRepairTower.label>수리탑</MGSP_FieldRepairTower.label>
+  <MGSP_FieldRepairTower.description>근처의 아군 메카노이드에게 수리용 메카나이트를 흘려보내 상처를 천천히 아물게 하는 높은 기둥입니다. 없어진 부위는 복구하지 못합니다.</MGSP_FieldRepairTower.description>
+  <MGSP_FieldSensorTower.label>감지탑</MGSP_FieldSensorTower.label>
+  <MGSP_FieldSensorTower.description>주변 지역을 탐지하는 감지 기둥입니다. 근처의 보이지 않는 적을 드러내며, 범위 안의 적을 표시해 아군 메카노이드가 그 적에게 피해를 더 주게 합니다.</MGSP_FieldSensorTower.description>
+  <MGSP_FieldTurret.label>메카노이드 포대</MGSP_FieldTurret.label>
+  <MGSP_FieldTurret.description>미니 메카가 조립한, 자체 동력식 타격포 포대입니다. 약하지만 사거리가 깁니다. 몇 시간 뒤 스스로 해체됩니다.</MGSP_FieldTurret.description>
+  <MGSP_Gun_FieldTurret.label>현장 타격포</MGSP_Gun_FieldTurret.label>
+  <MGSP_Gun_FieldTurret.description>포탑에 설치된 자동 탄환 발사기입니다.</MGSP_Gun_FieldTurret.description>
+  <MGSP_Gun_FieldTurret.verbs.Verb_Shoot.label>현장 타격포</MGSP_Gun_FieldTurret.verbs.Verb_Shoot.label>
+  <MGSP_MechHullWall.label>메카노이드 선체 벽</MGSP_MechHullWall.label>
+  <MGSP_MechHullWall.description>메카노이드 중계 필라멘트를 엮어 넣은 기밀 중력부양선 벽입니다. 벽이 모두 메카노이드 선체 벽이고(문은 종류와 상관없음) 바닥이 중력부양선 하부구조인 방은 지휘망 선실이 됩니다. 이어진 선실은 하나의 지휘망을 이룹니다. 메카나이터가 맵에 있는 동안 지휘망 안의 어디든 메카나이터의 지휘 범위 안에 들어갑니다. 메카나이터가 맵에 없을 때도 지휘망 안의 트리뷴은 지휘망 안에서 자기 메카노이드를 지휘할 수 있습니다.\n\n중력부양선 하부구조 위에만 건설할 수 있습니다.</MGSP_MechHullWall.description>
+  <MGSP_WallCharger.label>벽걸이 메카노이드 충전기</MGSP_WallCharger.label>
+  <MGSP_WallCharger.description>메카노이드 선체 벽에 붙박은 메카노이드 충전기입니다. 기밀을 유지하고, 지붕을 받치며, 바닥 공간을 차지하지 않고, 앞 칸에서 경량이나 중형 메카노이드 1기를 충전합니다. 다른 충전기처럼 독성 폐기물이 쌓이며, 아래에 폐기물 도관을 깔면 곧장 폐기물 처리기로 보냅니다.\n\n기존 메카노이드 선체 벽 위에 건설해야 하며, 건설하는 동안에도 벽은 밀폐된 상태로 유지됩니다.</MGSP_WallCharger.description>
+  <MGSP_WallChargerLarge.label>대형 벽걸이 메카노이드 충전기</MGSP_WallChargerLarge.label>
+  <MGSP_WallChargerLarge.description>메카노이드 선체 벽 세 칸에 붙박은 긴 메카노이드 충전기입니다. 기밀을 유지하고, 지붕을 받치며, 바닥 공간을 차지하지 않고, 가운데 앞 칸에서 중형보다 무거운 메카노이드 1기를 충전합니다. 다른 충전기처럼 독성 폐기물이 쌓이며, 아래에 폐기물 도관을 깔면 곧장 폐기물 처리기로 보냅니다.\n\n기존 메카노이드 선체 벽 위에 건설해야 하며, 건설하는 동안에도 벽은 밀폐된 상태로 유지됩니다.</MGSP_WallChargerLarge.description>
+  <MGSP_SignalLine.label>신호선</MGSP_SignalLine.label>
+  <MGSP_SignalLine.description>지휘 단말기와 사전 생산 시설을 잇는 차폐 데이터선입니다. 벽과 다른 건물 아래에 깔 수 있습니다.</MGSP_SignalLine.description>
+  <MGSP_HiddenSignalLine.label>숨겨진 신호선</MGSP_HiddenSignalLine.label>
+  <MGSP_HiddenSignalLine.description>지휘 단말기와 사전 생산 시설을 잇는 매설 데이터선입니다. 일반 신호선보다 튼튼하지만, 건설이 느리고 더 비쌉니다.</MGSP_HiddenSignalLine.description>
+  <MGSP_PrefabTerminal.label>지휘 단말기</MGSP_PrefabTerminal.label>
+  <MGSP_PrefabTerminal.description>신호선으로 같은 네트워크의 모든 사전 생산 시설과 이어진 콘솔입니다. 여기서 각 시설이 무엇을 키울지 지정하면, 배양에는 메카나이터의 정신 유도가 필요하므로 메카나이터가 직접 단말기에 와서 승인해야 합니다. 재료 운반은 운반하는 사람이 맡습니다.</MGSP_PrefabTerminal.description>
+  <MGSP_PrefabFacility.label>사전 생산 시설</MGSP_PrefabFacility.label>
+  <MGSP_PrefabFacility.description>메카노이드 보관 포드 3개가 달린 메카나이트 배양 탱크로, 지휘 단말기에서 제어합니다. 메카나이터가 단말기에서 주문을 승인하면, 운반하는 사람이 재료와 메카나이트 용액을 가져오고 메카노이드가 스스로 자랍니다. 완성된 메카노이드는 대역폭을 쓰지 않고 보관 포드에서 기다리므로, 탱크는 곧바로 다음 메카노이드를 시작할 수 있습니다. 보관된 메카노이드는 대역폭이 남으면 메카나이터에게 합류하고, 그렇지 않으면 자리가 있는 연결된 트리뷴의 중계 지휘 슬롯으로, 그것도 없으면 자리가 있는 정지 격납고로 들어갑니다.\n\n이 과정에서 독성 폐기물이 나옵니다.</MGSP_PrefabFacility.description>
+  <MGSP_MechRepairBay.label>메카노이드 수리 격납고</MGSP_MechRepairBay.label>
+  <MGSP_MechRepairBay.description>메카나이터 없이 손상된 메카노이드를 수리하는 전동식 거치대입니다. 자동 수리가 켜져 있고 작업이나 호위 모드인 손상된 메카노이드는 스스로 올라타며, 정착민이 쓰러진 메카노이드를 이곳으로 옮겨 옵니다. 완전히 수리되면 메카노이드가 내려옵니다. 전력만 있으면 되며, 메카노이드 수리 화합물을 넣으면 수리 속도가 두 배가 됩니다.</MGSP_MechRepairBay.description>
+  <MGSP_MechRepairBay.comps.3.fuelLabel>메카노이드 수리 화합물</MGSP_MechRepairBay.comps.3.fuelLabel>
+  <MGSP_MechRepairBay.comps.3.fuelGizmoLabel>메카노이드 수리 화합물</MGSP_MechRepairBay.comps.3.fuelGizmoLabel>
+  <MGSP_StasisBay.label>메카노이드 정지 격납고</MGSP_StasisBay.label>
+  <MGSP_StasisBay.description>메카노이드가 걸어 들어가 서브코어를 깊은 휴면에 들게 하는 밀폐 격납고입니다. 보관한 메카노이드는 메카나이터와의 결속을 유지하지만 대역폭을 쓰지 않습니다. 메카나이터에게 대역폭이 충분히 남아 있을 때만 풀어 줄 수 있습니다. 전력 소모량은 보관한 메카노이드의 대역폭에 따라 늘어납니다. 전력이 없으면 새로 보관할 수 없고 풀어 주는 속도가 느려지지만, 보관한 메카노이드가 저절로 풀려나는 일은 없습니다.</MGSP_StasisBay.description>
+  <MGSP_StasisModule_Capacity.label>정지 수용량 모듈</MGSP_StasisModule_Capacity.label>
+  <MGSP_StasisModule_Capacity.description>근처의 정지 격납고에 냉동 칸을 더해, 연결된 격납고가 메카노이드를 더 많이 보관하게 합니다. 자세한 내용은 정보 카드를 보세요.</MGSP_StasisModule_Capacity.description>
+  <MGSP_StasisModule_Repair.label>정지 수리 모듈</MGSP_StasisModule_Repair.label>
+  <MGSP_StasisModule_Repair.description>연결된 정지 격납고에서 잠든 손상된 메카노이드를 천천히 수리하는 메카나이트 분사기입니다. 전력만 있으면 되며, 메카노이드 수리 화합물을 넣으면 속도가 두 배가 됩니다. 자세한 내용은 정보 카드를 보세요.</MGSP_StasisModule_Repair.description>
+  <MGSP_StasisModule_Repair.comps.3.fuelLabel>메카노이드 수리 화합물</MGSP_StasisModule_Repair.comps.3.fuelLabel>
+  <MGSP_StasisModule_Repair.comps.3.fuelGizmoLabel>메카노이드 수리 화합물</MGSP_StasisModule_Repair.comps.3.fuelGizmoLabel>
+  <MGSP_CommandTower.label>지휘 중계탑</MGSP_CommandTower.label>
+  <MGSP_CommandTower.description>메카노이드 위성망이 통제를 넘겨줄 때 고대 트리뷴이 세우는 신호탑입니다. 지휘 체계를 따라 명령을 아래로 전달합니다. 이 탑이 서 있는 동안 탑이 담당하는 메카노이드는 지휘 중계 버프를 유지합니다.\n\n업링크를 잃으면 트리뷴이 그 다운링크를 장악할 수 있습니다. 장악하면 주변의 아군 메카노이드를 강화하거나, 적의 지휘 중계 버프를 방해할 수 있습니다. 장악은 이 맵에서만 유지됩니다.</MGSP_CommandTower.description>
+  <MGSP_AncientPrefab.label>고대 사전 생산 시설</MGSP_AncientPrefab.label>
+  <MGSP_AncientPrefab.description>주변의 전초기지를 위해 아직도 메카노이드를 생산하는 고대 메카나이트 배양 탱크입니다. 깨어나면 새 메카노이드를 천천히 키웁니다.\n\n장악하면 영영 멈춥니다. 30% 이상 자란 메카노이드는 분석할 수 있는 잔해로 남습니다. 아군을 위해 메카노이드를 생산하지는 않습니다.</MGSP_AncientPrefab.description>
+  <MGSP_WasteConduit.label>폐기물 도관</MGSP_WasteConduit.label>
+  <MGSP_WasteConduit.description>메카노이드 충전기, 메카노이드 배양기, 사전 생산 시설, 독성 발전기에서 나온 독성 폐기물을 폐기물 처리기로 곧장 나르는 밀폐 도관으로, 독성 폐기물이 땅에 닿을 일이 없습니다. 처리기가 받지 못하는 폐기물은 같은 네트워크의 폐기물 저장 탱크로 갑니다. 벽과 다른 건물 아래에 깔 수 있습니다.</MGSP_WasteConduit.description>
+  <MGSP_HiddenWasteConduit.label>숨겨진 폐기물 도관</MGSP_HiddenWasteConduit.label>
+  <MGSP_HiddenWasteConduit.description>일반 폐기물 도관처럼 독성 폐기물을 폐기물 처리기로 나르는 매설 밀폐 도관입니다. 더 튼튼하지만, 건설이 느리고 더 비쌉니다.</MGSP_HiddenWasteConduit.description>
+  <MGSP_WasteProcessor.label>폐기물 처리기</MGSP_WasteProcessor.label>
+  <MGSP_WasteProcessor.description>독성 폐기물을 쓸모 있는 생산물로 분해합니다. 메카나이트 용액, 정지 냉각제, 메카노이드 수리 화합물, 그리고 연구하면 메카노이드 합금도 만듭니다. 운반하는 사람이 독성 폐기물을 넣거나, 폐기물 도관이 곧장 전달합니다. 한 번에 한 묶음씩 처리하며, 작동하는 동안 전력을 많이 씁니다.</MGSP_WasteProcessor.description>
+  <MGSP_ToxicGenerator.label>독성 발전기</MGSP_ToxicGenerator.label>
+  <MGSP_ToxicGenerator.description>연료가 필요 없는 중력부양선 발전기입니다. 땅을 오염시키는 대신 유독한 부산물을 압축해 독성 폐기물로 만들며, 그 양은 독소 발전기와 오염물질 펌프가 만드는 것보다 많습니다. 독성 폐기물은 운반하는 사람이 꺼낼 때까지 안에 보관되거나, 폐기물 도관을 통해 폐기물 처리기로 곧장 흘러갑니다. 저장 공간이 가득 차면 발전을 멈춥니다.\n\n중력부양선 하부구조 위에만 건설할 수 있습니다.</MGSP_ToxicGenerator.description>
+  <MGSP_WasteStorage.label>폐기물 저장 탱크</MGSP_WasteStorage.label>
+  <MGSP_WasteStorage.description>폐기물 도관 네트워크의 독성 폐기물을 담는 밀폐 탱크입니다. 처리기가 곧바로 받지 못하는 폐기물은 이곳에 보관되며, 나중에 처리기와 폐기물 배출구가 꺼내 씁니다. 해체하거나 파괴되면 내용물이 독성 폐기물로 쏟아져 나옵니다.</MGSP_WasteStorage.description>
+  <MGSP_WasteInput.label>폐기물 투입구</MGSP_WasteInput.label>
+  <MGSP_WasteInput.description>독성 폐기물을 폐기물 도관 네트워크로 넣는 투입 호퍼입니다. 운반하는 사람이 독성 폐기물을 가져오면 투입구가 저장 폐기물로 바꿉니다. 같은 네트워크에 빈 공간이 있는 폐기물 저장 탱크가 필요합니다.</MGSP_WasteInput.description>
+  <MGSP_WasteOutput.label>폐기물 배출구</MGSP_WasteOutput.label>
+  <MGSP_WasteOutput.description>폐기물 도관 네트워크에 저장된 폐기물을 다시 독성 폐기물로 포장해, 운반하는 사람이 처리구역이나 왕복선 등으로 가져갈 수 있게 보관합니다. 준비해 둘 독성 폐기물 개수를 정할 수 있습니다.</MGSP_WasteOutput.description>
+  <MGSP_UplinkStation.label>위성 신호 감시기</MGSP_UplinkStation.label>
+  <MGSP_UplinkStation.description>메카노이드 위성망의 다운링크에 맞춘 안테나 배열입니다. 전력이 공급되는 동안 습격 편지에 가로챈 인계 기록(체계 종류, 보호 등급, 주 노드)이 나오고, 위성이 메시 체계에 통제를 넘기기 약 3시간 전에 감시기가 경고하며, 가로챌 때마다 궤도의 위성 노드 하나의 위치를 알아냅니다.</MGSP_UplinkStation.description>
+  <MGSP_ClusterModule.label>메카노이드 구조물 모듈</MGSP_ClusterModule.label>
+  <MGSP_ClusterModule.description>메카노이드 구조물을 원재료로 뜯어내는 대신 통째로 빼낸 온전한 기능 모듈입니다. 연구해서 메카노이드 전초기지의 구조를 이해하거나, 기계 작업대에서 재료나 메카노이드 합금으로 분해할 수 있습니다.\n\n그냥 파괴한 고대 트리뷴이나 적 헤럴드의 잔해를 분쇄해도 얻을 수 있으며, 적 지휘 중계탑에서 하나를 추출할 수도 있습니다.</MGSP_ClusterModule.description>
+  <MGSP_ClusterModule.comps.0.completedLetterLabel>메카노이드 구조물 모듈 연구 완료: {RESEARCH} 해금</MGSP_ClusterModule.comps.0.completedLetterLabel>
+  <MGSP_ClusterModule.comps.0.completedLetter>{PAWN_labelShort}(은)는 메카노이드 구조물 모듈을 연구해 {RESEARCH} 연구에 필요한 통찰을 얻었습니다.</MGSP_ClusterModule.comps.0.completedLetter>
+  <MGSP_ClusterModule.comps.0.activateLabelString>분석...</MGSP_ClusterModule.comps.0.activateLabelString>
+  <MGSP_ClusterModule.comps.0.activateDescString>메카노이드 구조물 모듈을 분석합니다.</MGSP_ClusterModule.comps.0.activateDescString>
+  <MGSP_ClusterModule.comps.0.jobString>메카노이드 구조물 모듈 분석</MGSP_ClusterModule.comps.0.jobString>
+  <MGSP_ClusterModule.comps.0.guiLabelString>분석할 사람을 고르세요</MGSP_ClusterModule.comps.0.guiLabelString>
+  <MGSP_ClusterModule.comps.0.inspectString>정착민이 분석할 수 있습니다.</MGSP_ClusterModule.comps.0.inspectString>
+  <MGSP_HackData.label>메카노이드 지휘 데이터</MGSP_HackData.label>
+  <MGSP_HackData.description>메카노이드 구조물에서 복사해 낸 암호화된 지휘 조각입니다. 연구하면 메카노이드 제어 링크를 여러 지휘기가 나눠 쓰는 방법을 알 수 있습니다.</MGSP_HackData.description>
+  <MGSP_HackData.comps.0.completedLetterLabel>지휘 데이터 연구 완료: {RESEARCH} 해금</MGSP_HackData.comps.0.completedLetterLabel>
+  <MGSP_HackData.comps.0.completedLetter>{PAWN_labelShort}(은)는 메카노이드 지휘 데이터를 연구해 {RESEARCH} 연구에 필요한 통찰을 얻었습니다.</MGSP_HackData.comps.0.completedLetter>
+  <MGSP_HackData.comps.0.activateLabelString>분석...</MGSP_HackData.comps.0.activateLabelString>
+  <MGSP_HackData.comps.0.activateDescString>메카노이드 지휘 데이터를 분석합니다.</MGSP_HackData.comps.0.activateDescString>
+  <MGSP_HackData.comps.0.jobString>메카노이드 지휘 데이터 분석</MGSP_HackData.comps.0.jobString>
+  <MGSP_HackData.comps.0.guiLabelString>분석할 사람을 고르세요</MGSP_HackData.comps.0.guiLabelString>
+  <MGSP_HackData.comps.0.inspectString>정착민이 분석할 수 있습니다.</MGSP_HackData.comps.0.inspectString>
+  <MGSP_OrbitalMaterial.label>궤도 메카노이드 소재</MGSP_OrbitalMaterial.label>
+  <MGSP_OrbitalMaterial.description>궤도의 메카노이드 구조물에서 회수한, 진공에 단련된 부품입니다. 연구하면 메카노이드가 우주용으로 무엇을 어떻게 짓는지 알 수 있습니다. 기계 작업대에서 분해할 수도 있습니다.</MGSP_OrbitalMaterial.description>
+  <MGSP_OrbitalMaterial.comps.0.completedLetterLabel>궤도 소재 연구 완료: {RESEARCH} 해금</MGSP_OrbitalMaterial.comps.0.completedLetterLabel>
+  <MGSP_OrbitalMaterial.comps.0.completedLetter>{PAWN_labelShort}(은)는 궤도 메카노이드 소재를 연구해 {RESEARCH} 연구에 필요한 통찰을 얻었습니다.</MGSP_OrbitalMaterial.comps.0.completedLetter>
+  <MGSP_OrbitalMaterial.comps.0.activateLabelString>분석...</MGSP_OrbitalMaterial.comps.0.activateLabelString>
+  <MGSP_OrbitalMaterial.comps.0.activateDescString>궤도 메카노이드 소재를 분석합니다.</MGSP_OrbitalMaterial.comps.0.activateDescString>
+  <MGSP_OrbitalMaterial.comps.0.jobString>궤도 메카노이드 소재 분석</MGSP_OrbitalMaterial.comps.0.jobString>
+  <MGSP_OrbitalMaterial.comps.0.guiLabelString>분석할 사람을 고르세요</MGSP_OrbitalMaterial.comps.0.guiLabelString>
+  <MGSP_OrbitalMaterial.comps.0.inspectString>정착민이 분석할 수 있습니다.</MGSP_OrbitalMaterial.comps.0.inspectString>
+  <MGSP_CombatData.label>메카노이드 전투 데이터</MGSP_CombatData.label>
+  <MGSP_CombatData.description>트리뷴이 파괴된 적 메카노이드에게서 읽어 낸 전투 기록과 조준 기록입니다. 메카나이터가 연구해 지휘 프로토콜을 발전시킬 수 있습니다.</MGSP_CombatData.description>
+  <MGSP_CombatData.comps.0.completedLetterLabel>전투 데이터 연구 완료: {RESEARCH} 해금</MGSP_CombatData.comps.0.completedLetterLabel>
+  <MGSP_CombatData.comps.0.completedLetter>{PAWN_labelShort}(은)는 메카노이드 전투 데이터를 연구해 {RESEARCH} 연구에 필요한 통찰을 얻었습니다.</MGSP_CombatData.comps.0.completedLetter>
+  <MGSP_CombatData.comps.0.activateLabelString>분석...</MGSP_CombatData.comps.0.activateLabelString>
+  <MGSP_CombatData.comps.0.activateDescString>메카노이드 전투 데이터를 분석합니다.</MGSP_CombatData.comps.0.activateDescString>
+  <MGSP_CombatData.comps.0.jobString>메카노이드 전투 데이터 분석</MGSP_CombatData.comps.0.jobString>
+  <MGSP_CombatData.comps.0.guiLabelString>분석할 사람을 고르세요</MGSP_CombatData.comps.0.guiLabelString>
+  <MGSP_CombatData.comps.0.inspectString>메카나이터가 분석할 수 있습니다.</MGSP_CombatData.comps.0.inspectString>
+  <MGSP_StasisCoolant.label>정지 냉각제</MGSP_StasisCoolant.label>
+  <MGSP_StasisCoolant.description>독성 폐기물에서 정제한 진한 냉각제입니다. 정지 격납고 모듈을 건설하고 강화하는 데 씁니다.</MGSP_StasisCoolant.description>
+  <MGSP_RepairMaterial.label>메카노이드 수리 화합물</MGSP_RepairMaterial.label>
+  <MGSP_RepairMaterial.description>독성 폐기물에서 정제한, 메카나이트가 섞인 반죽입니다. 수리 격납고는 이것 없이도 작동하지만, 넣어 두면 두 배로 빨리 수리합니다.</MGSP_RepairMaterial.description>
+  <MGSP_MechaniteSolution.label>메카나이트 용액</MGSP_MechaniteSolution.label>
+  <MGSP_MechaniteSolution.description>독성 폐기물에서 정제한, 메카나이트가 진하게 떠 있는 현탁액입니다. 사전 생산 시설은 이 안에서 메카노이드를 키웁니다.</MGSP_MechaniteSolution.description>
+  <MGSP_MechAlloy.label>메카노이드 합금</MGSP_MechAlloy.label>
+  <MGSP_MechAlloy.description>압축한 독성 폐기물이나 메카노이드 구조물 모듈에서 얻는, 단단하고 스스로 아무는 합금입니다. 폐기물 처리기는 독성 폐기물 여러 개로 1개를 만들며, 기계 작업대에서는 메카노이드 구조물 모듈로 정제할 수 있습니다. 고급 메카노이드 중력부양선 부품에 씁니다.</MGSP_MechAlloy.description>
+  <MGSP_CryoShell.label>냉동 셸</MGSP_CryoShell.label>
+  <MGSP_CryoShell.description>심하게 손상된 메카노이드가 든 밀폐 냉동 셸입니다. 안의 메카노이드는 정지 상태라 더 이상 피해를 받지 않고 대역폭도 쓰지 않습니다. 메카나이터의 대역폭이 충분하면 운반하는 사람이 빈 메카노이드 수리 격납고로, 그렇지 않으면 정지 격납고로 옮깁니다. 메카나이터의 대역폭이 충분하면 그 자리에서 해동할 수도 있습니다.</MGSP_CryoShell.description>
+  <MGSP_ShellTractorFlight.label>날아가는 냉동 셸</MGSP_ShellTractorFlight.label>
+  <MGSP_RelayCore.label>중계 대역폭 모듈</MGSP_RelayCore.label>
+  <MGSP_RelayCore.description>중계 전용 확장 모듈입니다. 운반하는 사람이 트리뷴에 설치하면 중계 지휘 대역폭이 10 늘어납니다. 지휘기 하나에 최대 2개까지 넣을 수 있습니다. 다시 꺼낼 수 있으며, 지휘기가 파괴되면 떨어집니다.</MGSP_RelayCore.description>
+  <MGSP_Mech_Commander.label>트리뷴</MGSP_Mech_Commander.label>
+  <MGSP_Mech_Commander.description>중계 서브코어를 중심으로 만든 중량 메카노이드입니다. 차지 랜스를 들고 다니며 노동은 하지 않습니다. 대신 메카나이터의 지휘 부담을 나눠 집니다. 중계 지휘 슬롯에 넣은 메카노이드는 대역폭을 아주 적게 쓰며, 미니 메카 무리를 이끕니다.\n\n파괴되거나 연결이 끊기면, 그 밑의 메카노이드는 다른 지휘기가 맡을 때까지 꺼집니다.\n\n고대 트리뷴은 지금도 메카노이드 전초기지에서 움직이고 있습니다.</MGSP_Mech_Commander.description>
+  <MGSP_Mech_Commander.tools.0.label>왼쪽 동력 발톱</MGSP_Mech_Commander.tools.0.label>
+  <MGSP_Mech_Commander.tools.1.label>오른쪽 동력 발톱</MGSP_Mech_Commander.tools.1.label>
+  <MGSP_Mech_Relay.label>헤럴드</MGSP_Mech_Relay.label>
+  <MGSP_Mech_Relay.description>지휘 체계를 따라 명령을 아래로 전달하는 중형 메카노이드입니다. 트리뷴의 중계 지휘 슬롯 안에서만 작동하며, 자기 밑에도 메카노이드를 거느릴 수 있습니다.\n\n지휘기를 잃으면 헤럴드와 그 메카노이드는 다른 지휘기에 배정될 때까지 꺼집니다.\n\n고대 헤럴드는 지금도 메카노이드 지휘 체계를 따라 명령을 전달하고 있습니다.</MGSP_Mech_Relay.description>
+  <MGSP_Drone_Repair.label>수리 미니 메카</MGSP_Drone_Repair.label>
+  <MGSP_Drone_Repair.description>트리뷴에 종속된 미니 메카입니다. 지휘기 근처의 다친 메카노이드를 고치고, 근처의 불을 끄며, 전투가 끝나면 손상된 구조물을 수리합니다. 없어진 부위는 복구하지 못합니다.\n\n미니 메카는 대역폭을 쓰지 않으며 메카나이터가 장악할 수 없습니다. 기본적으로 스스로 행동하지만, 지휘기 25칸 안에서는 수동으로 제어할 수 있습니다. 늘 지휘기와 함께 밖에 머물며, 에너지가 떨어지면 알아서 메카노이드 충전기로 갑니다.\n\n이 미니 메카의 고대형은 메카노이드 전초기지에 있는 고대 트리뷴을 섬깁니다.</MGSP_Drone_Repair.description>
+  <MGSP_Drone_PointDefense.label>요격 미니 메카</MGSP_Drone_PointDefense.label>
+  <MGSP_Drone_PointDefense.description>트리뷴에 종속된 미니 메카입니다. 지휘기 가까이 머물며, 과부하될 때까지 날아오는 포탄과 총알을 막는 약한 요격장을 펼칩니다.\n\n미니 메카는 대역폭을 쓰지 않으며 메카나이터가 장악할 수 없습니다. 기본적으로 스스로 행동하지만, 지휘기 25칸 안에서는 수동으로 제어할 수 있습니다. 늘 지휘기와 함께 밖에 머물며, 에너지가 떨어지면 알아서 메카노이드 충전기로 갑니다.\n\n이 미니 메카의 고대형은 메카노이드 전초기지에 있는 고대 트리뷴을 섬깁니다.</MGSP_Drone_PointDefense.description>
+  <MGSP_Drone_Recon.label>정찰 미니 메카</MGSP_Drone_Recon.label>
+  <MGSP_Drone_Recon.description>트리뷴에 종속된 연약한 미니 메카입니다. 근처의 적에게 날아가 표시하여, 플레이어의 메카노이드가 그 적에게 피해를 더 주게 합니다.\n\n지휘 체계 정찰:\n- 트리뷴에 붙어 있는 동안, 지휘기는 메카노이드 지휘 체계 신호를 12칸 대신 20칸 안에서 가로챕니다.\n- 지휘기의 해킹 범위가 3칸 늘어납니다(링크 빼앗기, 단일 해킹, 완전 장악, 제압).\n- 수동 제어하는 정찰 미니 메카는 자기 주변 10칸 안의 신호를 가로챕니다.\n\n미니 메카는 대역폭을 쓰지 않으며 메카나이터가 장악할 수 없습니다. 기본적으로 스스로 행동하지만, 지휘기 25칸 안에서는 수동으로 제어할 수 있습니다. 늘 지휘기와 함께 밖에 머물며, 에너지가 떨어지면 알아서 메카노이드 충전기로 갑니다.</MGSP_Drone_Recon.description>
+  <MGSP_Drone_Guard.label>경호 미니 메카</MGSP_Drone_Guard.label>
+  <MGSP_Drone_Guard.description>트리뷴에 종속된 더 튼튼한 미니 메카입니다. 지휘기 곁에 머물며 몇 칸 안으로 다가오는 적을 몸으로 막고, 약한 타격으로 기절시킵니다. 절대 쫓아가지 않습니다.\n\n미니 메카는 대역폭을 쓰지 않으며 메카나이터가 장악할 수 없습니다. 기본적으로 스스로 행동하지만, 지휘기 25칸 안에서는 수동으로 제어할 수 있습니다. 늘 지휘기와 함께 밖에 머물며, 에너지가 떨어지면 알아서 메카노이드 충전기로 갑니다.\n\n이 미니 메카의 고대형은 메카노이드 전초기지에 있는 고대 트리뷴을 섬깁니다.</MGSP_Drone_Guard.description>
+  <MGSP_Drone_Guard.tools.0.label>들이받기</MGSP_Drone_Guard.tools.0.label>
+  <MGSP_AncientMechRelay.label>고대 메카노이드 중계기</MGSP_AncientMechRelay.label>
+  <MGSP_AncientMechRelay.description>메카노이드 위성망이 휴면 중인 메카노이드를 붙잡아 두는 데 쓰는 지상 안테나입니다. 담당하는 휴면 집단 하나하나가 그 링크입니다.\n\n트리뷴이 집단을 깨우지 않고 링크를 하나씩 빼앗을 수 있습니다. 체력이 30%로 떨어지거나 파괴되면 아직 연결된 모든 집단이 한꺼번에 깨어납니다. 링크를 모두 처리하면 트리뷴이 완전 장악할 수 있습니다.</MGSP_AncientMechRelay.description>
+  <MGSP_SatNodeCore.label>위성 지휘 시설</MGSP_SatNodeCore.label>
+  <MGSP_SatNodeCore.description>메카노이드 위성의 지휘 시설입니다. 위성 안의 승인 안정장치 하나하나가 그 링크이며, 각각 트리뷴 구역 하나를 승인합니다.\n\n모든 안정장치의 링크를 빼앗은 뒤 트리뷴이 시설을 완전 장악하면 위성을 동화합니다. 파괴하면 동력 코어를 파괴했을 때처럼 위성의 붕괴가 시작됩니다.</MGSP_SatNodeCore.description>
+  <MGSP_SatRelayArray.label>승인 안정장치</MGSP_SatRelayArray.label>
+  <MGSP_SatRelayArray.description>메카노이드 위성의 승인 안정장치입니다. 지휘 시설의 링크 하나를 맡으며, 자기 구역의 고대 트리뷴을 승인합니다. 링크를 빼앗기면 그 구역은 승인을 잃습니다. 보호 등급이 한 단계 내려가고, 더 이상 재승인할 수 없으며, 그 구역의 트리뷴을 제압할 수 있게 됩니다.</MGSP_SatRelayArray.description>
+  <MGSP_SatUplinkTerminal.label>업링크 단말기</MGSP_SatUplinkTerminal.label>
+  <MGSP_SatUplinkTerminal.description>메카노이드 업링크 접속점의 통신 단말기입니다. 해킹하면 이 접속점이 담당하는 위성의 보안이 재작성되어, 그 위성이 15일 동안 저보안 상태로 움직입니다.\n\n단말기는 위성의 생산 명령도 중계합니다. 해킹하기 전까지 접속점의 배양기와 미니 메카 조립기가 훨씬 빠르게 작동합니다.\n\n군락은 침입을 알아챕니다. 단말기를 해킹하는 동안, 위성이 고립되지 않았다면 반나절마다 증원이 떨어집니다.</MGSP_SatUplinkTerminal.description>
+  <MGSP_SatDataTerminal.label>위성 데이터 단말기</MGSP_SatDataTerminal.label>
+  <MGSP_SatDataTerminal.description>메카노이드 위성의 데이터 단말기입니다. 해킹해 위성을 판독하거나(약 2시간), 전환해서 먼저 트로이 목마를 심을 수 있습니다(약 4시간).\n\n보초가 경보를 울리면 트로이 목마는 더 이상 심을 수 없지만, 판독은 여전히 됩니다. 한 번 방문할 때 목표는 하나만 완료할 수 있습니다.</MGSP_SatDataTerminal.description>
+  <MGSP_SatPowerCore.label>위성 동력 코어</MGSP_SatPowerCore.label>
+  <MGSP_SatPowerCore.description>메카노이드 위성의 동력 코어입니다. 파괴하면 위성의 붕괴가 시작됩니다. 카운트다운이 끝나기 전에 모두 중력부양선에 다시 타야 합니다. 제때 떠나면 위성이 파괴되고 회수품을 얻으며, 카운트다운이 지나도록 머물면 회수품을 잃습니다.</MGSP_SatPowerCore.description>
+  <MGSP_SatSensorArray.label>위성 감지 배열</MGSP_SatSensorArray.label>
+  <MGSP_SatSensorArray.description>감시 위성의 감지 배열입니다. 이것이 서 있는 동안에는 트로이 목마를 심을 때 더 큰 증원 파도가 옵니다.</MGSP_SatSensorArray.description>
+</LanguageData>

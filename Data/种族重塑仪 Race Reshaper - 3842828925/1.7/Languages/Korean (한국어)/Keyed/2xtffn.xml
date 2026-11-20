@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RRS_CommandDesign>재구성 설계...</RRS_CommandDesign>
+  <RRS_CommandDesignDesc>재구성 설계대를 엽니다. 대상과 목표 종족을 고르고 실시간 미리 보기로 외모를 다듬은 뒤, 확정하면 대상이 기계에 들어갑니다.</RRS_CommandDesignDesc>
+  <RRS_CommandCancel>재구성 중단</RRS_CommandCancel>
+  <RRS_CommandCancelDesc>안에 있는 사람을 지금 내보냅니다. 끝나지 않은 재구성은 적용되지 않으며, 뉴트로아민도 소모하지 않습니다.</RRS_CommandCancelDesc>
+  <RRS_CommandClear>계획 취소</RRS_CommandClear>
+  <RRS_CommandClearDesc>설정한 계획을 버리고, 더는 대상이 들어오기를 기다리지 않습니다.</RRS_CommandClearDesc>
+  <RRS_NoRaces>Humanoid Alien Races 종족을 하나도 찾지 못했습니다.</RRS_NoRaces>
+  <RRS_NoOrderForPawn>먼저 설계대에서 이 사람의 계획을 세워야 합니다</RRS_NoOrderForPawn>
+  <RRS_Occupied>이미 사람이 들어가 있음</RRS_Occupied>
+  <RRS_NeedFuel>필요: {1} {0}</RRS_NeedFuel>
+  <RRS_Enter>{0} 들어가기</RRS_Enter>
+  <RRS_CannotEnter>{0} 들어갈 수 없음</RRS_CannotEnter>
+  <RRS_FloatDesignFor>{PAWN_labelShort}의 재구성 설계...</RRS_FloatDesignFor>
+  <RRS_InspectWaiting>{PAWN_labelShort} 기다리는 중 (목표: {1})</RRS_InspectWaiting>
+  <RRS_InspectSaved>저장된 계획: {PAWN_labelShort} → {1} (대기 중 아님. 설계대에서 다시 확정해야 시작합니다)</RRS_InspectSaved>
+  <RRS_WaitingStopped>{PAWN_labelShort}(이)가 더는 종족 재구성기를 기다리지 않습니다: {1}. 계획은 남아 있으니, 문제가 해결되면 설계대에서 다시 확정하십시오.</RRS_WaitingStopped>
+  <RRS_NotEligible>이 사람은 더 이상 조건에 맞지 않음</RRS_NotEligible>
+  <RRS_MachineNotReady>재구성기가 준비되지 않아 아직 계획을 확정할 수 없습니다: {0}</RRS_MachineNotReady>
+  <RRS_InspectWorking>{PAWN_labelShort} 재구성 중 (목표: {1})</RRS_InspectWorking>
+  <RRS_InspectNoPower>전력이 없어 일시 정지. {0} 뒤 안에 있는 사람을 내보냄</RRS_InspectNoPower>
+  <RRS_NoPowerEjected>종족 재구성기에 전력이 너무 오래 끊겼습니다. {PAWN_labelShort}(은)는 바뀌지 않은 채 풀려났습니다.</RRS_NoPowerEjected>
+  <RRS_Completed>{PAWN_labelShort}의 재구성이 끝났습니다. 이제 종족은 {1}입니다.</RRS_Completed>
+  <RRS_Failed>{PAWN_labelShort}의 재구성 실패: {1}</RRS_Failed>
+  <RRS_DropFailed>빼낸 물품을 놓을 수 없어 파괴했습니다: {0}</RRS_DropFailed>
+  <RRS_ApparelStuck>{PAWN_labelShort}의 의복을 벗길 수 없어 그대로 입고 있습니다: {1}</RRS_ApparelStuck>
+  <RRS_OrderSet>계획 설정: {PAWN_labelShort} → {1}. 대상이 기계에 들어오기를 기다립니다.</RRS_OrderSet>
+  <RRS_RejectInvalid>잘못된 대상</RRS_RejectInvalid>
+  <RRS_RejectInternals>게임 또는 HAR의 내부 구조가 이 버전과 맞지 않음</RRS_RejectInternals>
+  <RRS_RejectNotHumanlike>인간형이 아님</RRS_RejectNotHumanlike>
+  <RRS_RejectMutant>변이체는 재구성할 수 없음</RRS_RejectMutant>
+  <RRS_RejectNoMemory>재구성 기록 요소가 없음. 게임을 다시 시작하고 불러오십시오</RRS_RejectNoMemory>
+  <RRS_RejectFaulted>이전 재구성에 오류가 생김. 그 전의 저장 파일을 불러오십시오</RRS_RejectFaulted>
+  <RRS_RejectTargetNotHar>HAR 인간형 종족이 아님</RRS_RejectTargetNotHar>
+  <RRS_RejectPawnClass>종족이 다른 폰 클래스를 씀 ({0})</RRS_RejectPawnClass>
+  <RRS_RejectBaby>아기는 재구성할 수 없음</RRS_RejectBaby>
+  <RRS_RejectAge>이 종족에서는 나이 {0}세가 다른 생애 단계에 해당함</RRS_RejectAge>
+  <RRS_RejectNoHeads>종족에 쓸 수 있는 머리 형태가 없음</RRS_RejectNoHeads>
+  <RRS_RejectNoKind>종족에 쓸 수 있는 폰 종류가 없음</RRS_RejectNoKind>
+  <RRS_RejectPreview>이 종족의 미리 보기를 만들 수 없음</RRS_RejectPreview>
+  <RRS_FailException>오류가 생겼습니다. 뉴트로아민은 소모되지 않았습니다. 재구성 전의 저장 파일을 불러오고 로그를 공유해 주십시오</RRS_FailException>
+  <RRS_WindowTitle>종족 재구성기 · 설계대</RRS_WindowTitle>
+  <RRS_WindowSubtitle>RACE RESHAPER</RRS_WindowSubtitle>
+  <RRS_NoCandidates>이 지도에 정착민, 노예, 죄수가 없습니다</RRS_NoCandidates>
+  <RRS_ChangeSubject>대상 바꾸기</RRS_ChangeSubject>
+  <RRS_SearchRaces>종족이나 모드 검색...</RRS_SearchRaces>
+  <RRS_CurrentTag>(현재)</RRS_CurrentTag>
+  <RRS_PickRace>왼쪽에서 종족을 고르십시오</RRS_PickRace>
+  <RRS_Before>재구성 전</RRS_Before>
+  <RRS_ShowClothes>의복 표시</RRS_ShowClothes>
+  <RRS_ShowHeadgear>머리 장비 표시</RRS_ShowHeadgear>
+  <RRS_Tab_Shape>외형</RRS_Tab_Shape>
+  <RRS_Tab_Style>스타일</RRS_Tab_Style>
+  <RRS_Tab_Colors>색상</RRS_Tab_Colors>
+  <RRS_Tab_Addons>특징</RRS_Tab_Addons>
+  <RRS_Tab_Lineage>계통</RRS_Tab_Lineage>
+  <RRS_Tab_Report>보고서</RRS_Tab_Report>
+  <RRS_LineageTitle>{0} · 계통</RRS_LineageTitle>
+  <RRS_LineageHint>재구성 뒤의 인종형을 고르십시오. 새 계통을 고르면 지금의 계통을 대체합니다. 그 유전자는 원래 종족과 함께 떠나고, 돌아올 때를 위해 기억됩니다. 피부색이나 머리색 같은 타고난 생식유전자는 남습니다. 유전자로 정해지는 특징은 미리 보기에 표시됩니다.</RRS_LineageHint>
+  <RRS_LineageRestore>지난번 계통으로 복원: {0}</RRS_LineageRestore>
+  <RRS_LineageKeep>현재 인종형 유지: {0}</RRS_LineageKeep>
+  <RRS_LineageTagMemory>기억됨</RRS_LineageTagMemory>
+  <RRS_LineageTagGermline>생식유전자 (유전됨)</RRS_LineageTagGermline>
+  <RRS_LineageTagXeno>변형인자</RRS_LineageTagXeno>
+  <RRS_LineageTagRace>종족 계통</RRS_LineageTagRace>
+  <RRS_LineageTagKeep>계통 유전자 그대로</RRS_LineageTagKeep>
+  <RRS_LineageTagBaseliner>계통 유전자 없음</RRS_LineageTagBaseliner>
+  <RRS_LineageNoGenes>(계통 유전자 없음)</RRS_LineageNoGenes>
+  <RRS_XenoNoMemory>이 종족에 기억된 계통이 없음</RRS_XenoNoMemory>
+  <RRS_XenoForbidden>이 종족은 &quot;{0}&quot; 인종형을 허용하지 않음</RRS_XenoForbidden>
+  <RRS_PreviewError>미리 보기를 갱신하지 못했습니다. 로그를 확인하십시오. 설계는 바뀌지 않았습니다.</RRS_PreviewError>
+  <RRS_SettingsCategory>종족 재구성기</RRS_SettingsCategory>
+  <RRS_SettingOfferXenogene>변형인자로만 이루어진 종족 계통도 제시</RRS_SettingOfferXenogene>
+  <RRS_SettingOfferXenogeneDesc>기본값은 꺼짐입니다. 종족의 유전되지 않는 인종형(유전자가 전부 변형인자이고 생식유전자가 없는 것)은 계통 화면에 나오지 않으며, 기본값이 되지도 않습니다. 켜면 유전되는 계통과 함께 목록에 나옵니다.</RRS_SettingOfferXenogeneDesc>
+  <RRS_SettingOfferXenogeneNote>종족 계통 카드에만 영향을 줍니다. &quot;현재 인종형 유지&quot;와 &quot;지난번 계통으로 복원&quot;에는 영향이 없으므로, 폰이 원래 가진 인종형(예: 후사르)은 그대로 유지하거나 복원할 수 있습니다.</RRS_SettingOfferXenogeneNote>
+  <RRS_Gender>성별</RRS_Gender>
+  <RRS_Gender_Male>남성</RRS_Gender_Male>
+  <RRS_Gender_Female>여성</RRS_Gender_Female>
+  <RRS_Gender_None>성별 없음</RRS_Gender_None>
+  <RRS_GenderPregnant>임신이나 출산 중에는 성별을 바꿀 수 없음</RRS_GenderPregnant>
+  <RRS_GenderRaceNone>이 종족은 성별이 없음</RRS_GenderRaceNone>
+  <RRS_GenderNoHeads>이 종족에는 이 성별에 쓸 머리 형태가 없음</RRS_GenderNoHeads>
+  <RRS_BodyType>체형</RRS_BodyType>
+  <RRS_HeadType>머리 형태</RRS_HeadType>
+  <RRS_Style_Hair>머리 모양</RRS_Style_Hair>
+  <RRS_Style_Beard>수염</RRS_Style_Beard>
+  <RRS_Style_FaceTattoo>얼굴 문신</RRS_Style_FaceTattoo>
+  <RRS_Style_BodyTattoo>몸 문신</RRS_Style_BodyTattoo>
+  <RRS_NoStyles>이 종족은 고를 수 있는 스타일이 없습니다</RRS_NoStyles>
+  <RRS_HairColor>머리색</RRS_HairColor>
+  <RRS_Channel_skin>피부</RRS_Channel_skin>
+  <RRS_Channel_hair>머리카락</RRS_Channel_hair>
+  <RRS_PrimaryColor>주 색상</RRS_PrimaryColor>
+  <RRS_SecondaryColor>보조 색상</RRS_SecondaryColor>
+  <RRS_RandomColor>무작위</RRS_RandomColor>
+  <RRS_RacePalette>종족 색상표</RRS_RacePalette>
+  <RRS_FreeColor>자유 색상</RRS_FreeColor>
+  <RRS_Brightness>밝기</RRS_Brightness>
+  <RRS_NoAddons>이 종족은 조정할 수 있는 특징이 없습니다</RRS_NoAddons>
+  <RRS_AddonVariants>{0} · 형태</RRS_AddonVariants>
+  <RRS_Variant>형태 {0}</RRS_Variant>
+  <RRS_AddonColor>특징 색상 (채널 덮어쓰기)</RRS_AddonColor>
+  <RRS_FollowChannel>채널 따르기</RRS_FollowChannel>
+  <RRS_ReportStatus>상태</RRS_ReportStatus>
+  <RRS_ReportReady>{PAWN_labelShort}(은)는 {1} 종족으로 재구성할 수 있습니다.</RRS_ReportReady>
+  <RRS_ReportSameRace>종족은 그대로, 외모만 바뀝니다.</RRS_ReportSameRace>
+  <RRS_ReportKept>유지: 같은 폰 객체, 이름, 나이, 기술, 배경, 특성, 관계, 이념, 세력</RRS_ReportKept>
+  <RRS_ReportGender>성별: {0} → {1}</RRS_ReportGender>
+  <RRS_ReportGenderNote>특성(성적 지향 포함)과 기존 연인 관계는 바뀌지 않습니다. 다른 모드가 성별에 따라 만드는 요소(전용 신체 부위 등)는 조정되지 않습니다.</RRS_ReportGenderNote>
+  <RRS_ReportBody>몸</RRS_ReportBody>
+  <RRS_ReportBodySame>신체 구조가 같아서, 모든 부상과 이식물이 그대로 남습니다.</RRS_ReportBodySame>
+  <RRS_ReportLostParts>잃는 부위: {0}</RRS_ReportLostParts>
+  <RRS_ReportGainedParts>새로 생기는 부위: {0}</RRS_ReportGainedParts>
+  <RRS_ReportRemovedHediffs>그 부위와 함께 사라지는 건강 상태: {0}</RRS_ReportRemovedHediffs>
+  <RRS_ReportLifespan>나이 {0}세는 {1}의 기대 수명 {2}세를 넘습니다. 나이는 환산되지 않으므로, {1} 종족으로서 평소대로 늙어 가며 곧 노화 관련 질환이 생길 수 있습니다.</RRS_ReportLifespan>
+  <RRS_ReportDrops>물품으로 빠져나옴: {0}</RRS_ReportDrops>
+  <RRS_ReportGenes>유전자</RRS_ReportGenes>
+  <RRS_ReportGenesSame>유전자는 그대로입니다.</RRS_ReportGenesSame>
+  <RRS_ReportGenesRemoved>원래 종족과 함께 떠나는 종족 유전자: {0}</RRS_ReportGenesRemoved>
+  <RRS_ReportGenesStashed>목표 종족이 허용하지 않아, {1} 종족으로 돌아갈 때까지 보관: {0}</RRS_ReportGenesStashed>
+  <RRS_ReportGenesAdded>얻는 목표 종족 유전자: {0}</RRS_ReportGenesAdded>
+  <RRS_ReportGenesRestored>전에 보관해 둔 유전자 복원: {0}</RRS_ReportGenesRestored>
+  <RRS_ReportLineage>계통: {0} → {1}</RRS_ReportLineage>
+  <RRS_ReportLineageLeaves>원래 계통과 함께 떠남 ({1} 종족으로 돌아가면 복원 가능): {0}</RRS_ReportLineageLeaves>
+  <RRS_ReportLineageGermline>계통에서 얻는 생식유전자: {0}</RRS_ReportLineageGermline>
+  <RRS_ReportLineageXeno>계통에서 얻는 변형인자: {0}</RRS_ReportLineageXeno>
+  <RRS_ReportGear>장비</RRS_ReportGear>
+  <RRS_ReportApparelDrop>더 이상 입을 수 없어 나올 때 내려놓음: {0}</RRS_ReportApparelDrop>
+  <RRS_ReportEquipmentDrop>더 이상 쓸 수 없어 나올 때 내려놓음: {0}</RRS_ReportEquipmentDrop>
+  <RRS_ReportApparelLocked>잠겨 있어서 나올 때 가능하면 벗김: {0}. 일부 모드의 잠금은 이를 허용하지 않아, 그대로 입고 있게 됩니다.</RRS_ReportApparelLocked>
+  <RRS_ReportCost>비용</RRS_ReportCost>
+  <RRS_ReportAdaptation>기계에서 나온 뒤 몸에 적응: 기분 {0}, {1}일 동안</RRS_ReportAdaptation>
+  <RRS_CostLine>재구성 1회: {1} {0} · 전력 공급 상태로 {2} 작동 · {3}W · 그동안 대상은 정지 상태</RRS_CostLine>
+  <RRS_Confirm>계획 확정</RRS_Confirm>
+  <RRS_RandomLook>무작위 외모</RRS_RandomLook>
+  <RRS_RestoreCurrent>현재 외모</RRS_RestoreCurrent>
+  <RRS_RestoreRemembered>지난번 외모</RRS_RestoreRemembered>
+  <RRS_RestoreDefault>초기화</RRS_RestoreDefault>
+  <RRS_ConfirmDestructive>{PAWN_labelShort}(을)를 {1} 종족으로 재구성하면 성별, 신체 부위, 유전자, 장비, 노화 중 일부가 바뀝니다(보고서 참고). 이 계획을 쓰시겠습니까?</RRS_ConfirmDestructive>
+  <RRS_Body_Male>남성</RRS_Body_Male>
+  <RRS_Body_Female>여성</RRS_Body_Female>
+  <RRS_Body_Thin>마른 체형</RRS_Body_Thin>
+  <RRS_Body_Fat>통통한 체형</RRS_Body_Fat>
+  <RRS_Body_Hulk>거구</RRS_Body_Hulk>
+  <RRS_Body_Child>어린이</RRS_Body_Child>
+  <RRS_Body_Baby>아기</RRS_Body_Baby>
+  <RRS_Channel_tattoo>문신 색</RRS_Channel_tattoo>
+  <RRS_Channel_eye>눈</RRS_Channel_eye>
+  <RRS_Channel_eyes>눈</RRS_Channel_eyes>
+  <RRS_Channel_fur>털</RRS_Channel_fur>
+  <RRS_Channel_tail>꼬리</RRS_Channel_tail>
+  <RRS_Channel_ears>귀</RRS_Channel_ears>
+  <RRS_Channel_horn>뿔</RRS_Channel_horn>
+  <RRS_Channel_horns>뿔</RRS_Channel_horns>
+</LanguageData>

@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <IAM_ExtractionModeRecovery>회복</IAM_ExtractionModeRecovery>
+  <IAM_ExtractionModeBurnout>소진</IAM_ExtractionModeBurnout>
+  <IAM_BurnoutOutcomeKill>사망</IAM_BurnoutOutcomeKill>
+  <IAM_BurnoutOutcomeSterility>영구 불임</IAM_BurnoutOutcomeSterility>
+  <IAM_BurnoutOutcomeUnset>선택 안 됨</IAM_BurnoutOutcomeUnset>
+  <IAM_BurnoutOutcomeRandom>{0} 확률로 사망, 그렇지 않으면 영구 불임과 심각한 부상</IAM_BurnoutOutcomeRandom>
+  <IAM_ExtractorModeCommand>주기: {0}</IAM_ExtractorModeCommand>
+  <IAM_ExtractorModeCommandDesc>회복 주기와 소진 주기를 전환합니다. 회복 주기에서는 탑승자가 살아남아 회복할 수 있고, 소진 주기에서는 모든 것을 한 번에 가져갑니다. 소진 주기를 거친 탑승자는 죽거나, 영구 불임과 심한 부상을 입은 채로 나옵니다. 신장 하나를 잃고, 간이 손상되며, 몸통 아래로 출혈하는 베인 상처와 흉터가 남고, 때로는 다리도 잃습니다.</IAM_ExtractorModeCommandDesc>
+  <IAM_ExtractorOutcomeCommand>소진 결과: {0}</IAM_ExtractorOutcomeCommand>
+  <IAM_ExtractorOutcomeCommandDesc>소진 주기가 끝났을 때 탑승자에게 어떤 결과가 생길지 고릅니다. 탑승자가 안에 봉인되는 순간 선택이 주기에 고정되므로, 나중에 바꿔도 이미 진행 중인 주기에는 영향이 없습니다.</IAM_ExtractorOutcomeCommandDesc>
+  <IAM_ExtractorLoadCommand>사람 넣기</IAM_ExtractorLoadCommand>
+  <IAM_ExtractorLoadCommandDesc>선택한 주기를 위해 추출기로 데려올 사람을 고릅니다.</IAM_ExtractorLoadCommandDesc>
+  <IAM_ExtractorEjectCommand>탑승자 꺼내기</IAM_ExtractorEjectCommand>
+  <IAM_ExtractorEjectCommandDesc>주기를 중단하고 탑승자를 다치지 않은 상태로 내보냅니다. 난자는 나오지 않으며 탑승자에게도 아무 효과가 적용되지 않습니다.</IAM_ExtractorEjectCommandDesc>
+  <IAM_ExtractorNoEligiblePawns>이 맵에는 선택한 주기에 쓸 수 있는 사람이 없습니다.</IAM_ExtractorNoEligiblePawns>
+  <IAM_ExtractorNotConfigured>이 모드의 밸런스 설정을 불러오지 못해 추출기를 작동할 수 없습니다.</IAM_ExtractorNotConfigured>
+  <IAM_ExtractorModeLabel>주기</IAM_ExtractorModeLabel>
+  <IAM_ExtractorOutcomeLabel>소진 결과</IAM_ExtractorOutcomeLabel>
+  <IAM_ExtractorOccupant>탑승자</IAM_ExtractorOccupant>
+  <IAM_ExtractorProgress>추출</IAM_ExtractorProgress>
+  <IAM_ExtractorReleasing>주기 완료. 탑승자를 내보내는 중입니다.</IAM_ExtractorReleasing>
+  <IAM_ExtractorPausedNoPower>일시 정지: 전력 없음.</IAM_ExtractorPausedNoPower>
+  <IAM_ExtractorPausedBrokenDown>일시 정지: 고장.</IAM_ExtractorPausedBrokenDown>
+  <IAM_ExtractorPausedNotConfigured>일시 정지: 밸런스 설정 없음.</IAM_ExtractorPausedNotConfigured>
+  <IAM_RejectNotConfigured>이 모드의 밸런스 설정을 불러오지 못함</IAM_RejectNotConfigured>
+  <IAM_RejectNotHumanlike>사람이 아님</IAM_RejectNotHumanlike>
+  <IAM_RejectDead>사망함</IAM_RejectDead>
+  <IAM_RejectNoOvaries>난자를 만들 수 없음</IAM_RejectNoOvaries>
+  <IAM_RejectNotReproductive>가임 연령이 아님</IAM_RejectNotReproductive>
+  <IAM_RejectQuestLodger>손님에게는 이렇게 할 수 없음</IAM_RejectQuestLodger>
+  <IAM_RejectColonistForbidden>죄수와 노예에게서만 추출할 수 있음</IAM_RejectColonistForbidden>
+  <IAM_RejectRequiresPrisonerOrSlave>정착민은 수감되거나 노예가 된 상태에서만 추출할 수 있음</IAM_RejectRequiresPrisonerOrSlave>
+  <IAM_RejectPregnantBurnout>임신한 사람에게는 소진 주기를 진행할 수 없음</IAM_RejectPregnantBurnout>
+  <IAM_RejectSterileRecovery>회복 주기에는 생식 능력이 있는 사람이 필요함</IAM_RejectSterileRecovery>
+  <IAM_RejectInfertile>생식 불능</IAM_RejectInfertile>
+  <IAM_RejectOnCooldown>이전 추출에서 아직 회복 중</IAM_RejectOnCooldown>
+  <IAM_RejectDifferentMap>이 맵에 없음</IAM_RejectDifferentMap>
+  <IAM_RejectExtractorNotSpawned>추출기가 설치되지 않음</IAM_RejectExtractorNotSpawned>
+  <IAM_RejectExtractorBrokenDown>추출기가 고장 남</IAM_RejectExtractorBrokenDown>
+  <IAM_RejectBurnoutOutcomeUnset>소진 결과를 선택하지 않음</IAM_RejectBurnoutOutcomeUnset>
+  <IAM_ExtractorEjectBlocked>{0}에서 탑승자를 내보낼 수 없습니다. 내보낼 자리가 없습니다. 근처에 공간을 비워 주세요. 계속 다시 시도합니다.</IAM_ExtractorEjectBlocked>
+  <IAM_FacilityStacking_Linear>누적 곡선 (선형): 작동 중인 연결 시설 {COUNT}개가 {SHAPED}만큼 온전히 기여합니다.</IAM_FacilityStacking_Linear>
+  <IAM_FacilityStacking_Geometric>누적 곡선 (시설이 하나 늘 때마다 기하 감소 {FALLOFF}): 작동 중인 연결 시설 {COUNT}개가 {LINEAR} 대신 {SHAPED}만큼 기여합니다.</IAM_FacilityStacking_Geometric>
+  <IAM_FacilityStacking_Capped>누적 곡선 (최대 {CEILING}): 작동 중인 연결 시설 {COUNT}개가 {LINEAR} 대신 {SHAPED}만큼 기여합니다.</IAM_FacilityStacking_Capped>
+  <IAM_FacilityStacking_Unconfigured>이 빌드의 밸런스 설정에 누적 곡선이 지정되지 않아, 연결된 시설이 아무것도 기여하지 않습니다.</IAM_FacilityStacking_Unconfigured>
+  <IAM_FacilityStacking_FamilyCapIgnored>전체 시설 상한: 추가로 연결된 시설 {IGNORED}개는 무시됩니다.</IAM_FacilityStacking_FamilyCapIgnored>
+  <IAM_MatrixTakeNewInputs>새 투입물 받기</IAM_MatrixTakeNewInputs>
+  <IAM_MatrixTakeNewInputsDesc>켜면 운반하는 사람이 보통 또는 우선으로 지정된 난자와 배아를 이 작업대로 가져옵니다. 끄면 아무도 새로 가져오지 않으며, 이미 가져오던 사람도 멈춥니다. 이미 자라는 캡슐은 어느 쪽이든 끝까지 진행됩니다. 작업대가 여러 대일 때 어느 작업대를 채울지 고를 때 쓰세요.</IAM_MatrixTakeNewInputsDesc>
+  <IAM_MatrixNotTakingInputs>새 투입물을 받지 않음.</IAM_MatrixNotTakingInputs>
+  <IAM_MatrixNotTakingInputsReason>새 투입물 받기가 꺼져 있음</IAM_MatrixNotTakingInputsReason>
+  <IAM_MatrixEjectContents>내용물 꺼내기</IAM_MatrixEjectContents>
+  <IAM_MatrixEjectContentsDesc>모든 캡슐을 비웁니다. 아직 자라는 투입물과 바닥에 놓일 자리를 기다리는 완성품은 근처에 떨어집니다. 놓을 수 없는 것은 안에 남아 다시 시도합니다.</IAM_MatrixEjectContentsDesc>
+  <IAM_MatrixEjectNothingHeld>넣어 둔 것이 없습니다.</IAM_MatrixEjectNothingHeld>
+  <IAM_MatrixEjectBlocked>일부 내용물을 놓을 수 없어 아직 안에 있습니다. 근처에 공간을 비우고 다시 시도하세요.</IAM_MatrixEjectBlocked>
+  <IAM_MatrixNutrients>영양분: {0} / {1}</IAM_MatrixNutrients>
+  <IAM_MatrixCapsulesInUse>사용 중인 캡슐: {0} / {1}</IAM_MatrixCapsulesInUse>
+  <IAM_MatrixLeadProgress>가장 많이 진행됨 {0}</IAM_MatrixLeadProgress>
+  <IAM_MatrixAwaitingCollection>수거 대기: {0}</IAM_MatrixAwaitingCollection>
+  <IAM_MatrixCompletedCycles>완료한 주기: {0}</IAM_MatrixCompletedCycles>
+  <IAM_MatrixPausedUnpowered>일시 정지: 전력 없음.</IAM_MatrixPausedUnpowered>
+  <IAM_MatrixPausedBrokenDown>일시 정지: 고장.</IAM_MatrixPausedBrokenDown>
+  <IAM_MatrixPausedNoInputs>대기: 넣은 투입물 없음.</IAM_MatrixPausedNoInputs>
+  <IAM_MatrixPausedStarved>일시 정지: 영양분 없음. 작동하는 영양 응축기를 연결하세요.</IAM_MatrixPausedStarved>
+  <IAM_MatrixPausedOutputBlocked>일시 정지: 완성품을 놓을 자리 없음.</IAM_MatrixPausedOutputBlocked>
+  <IAM_MatrixPausedConcurrencyLimited>대기: 동시 처리 제한 때문에 캡슐이 멈춰 있음.</IAM_MatrixPausedConcurrencyLimited>
+  <IAM_MatrixPausedNotConfigured>비활성: 이 빌드에 승인된 밸런스 설정이 없음.</IAM_MatrixPausedNotConfigured>
+  <IAM_MatrixNoFreeCapsule>빈 캡슐 없음</IAM_MatrixNoFreeCapsule>
+  <IAM_MatrixNoInput>쓸 수 있는 난자나 배아 없음</IAM_MatrixNoInput>
+  <IAM_SettingsCategory>I Am Mother</IAM_SettingsCategory>
+  <IAM_SettingsBalanceMissing>밸런스 데이터를 불러오지 못했습니다. 기계를 건설할 수는 있지만 작동하지 않습니다. 이 모드는 IAM_BalanceConfig라는 이름의 밸런스 Def가 필요합니다.</IAM_SettingsBalanceMissing>
+  <IAM_SettingsBalanceSchemaMismatch>불러온 밸런스 데이터({0})는 이 모드의 다른 버전용이라 전혀 쓰이지 않습니다. 기계가 작동하지 않습니다.</IAM_SettingsBalanceSchemaMismatch>
+  <IAM_SettingsOutputsHeader>작업대 산출물</IAM_SettingsOutputsHeader>
+  <IAM_SettingsOutputsSubtitle>캡슐 하나가 완료될 때마다 여기서 켜 둔 산출물이 나옵니다.</IAM_SettingsOutputsSubtitle>
+  <IAM_SettingsOutputMeat>인간 고기</IAM_SettingsOutputMeat>
+  <IAM_SettingsOutputOrgans>무작위 장기</IAM_SettingsOutputOrgans>
+  <IAM_SettingsOutputHemogen>혈액팩</IAM_SettingsOutputHemogen>
+  <IAM_SettingsOutputSlag>석회화된 골재 찌꺼기</IAM_SettingsOutputSlag>
+  <IAM_SettingsOutputLeather>인간 가죽</IAM_SettingsOutputLeather>
+  <IAM_SettingsYieldLabel>산출량: {0}</IAM_SettingsYieldLabel>
+  <IAM_SettingsYieldUnavailable>산출량을 조절할 수 없습니다. 밸런스 데이터에 슬라이더 범위가 정해져 있지 않습니다.</IAM_SettingsYieldUnavailable>
+  <IAM_SettingsTierRange>캡슐당 1단계: {0}, 2단계: {1}</IAM_SettingsTierRange>
+  <IAM_SettingsCountRange>{0}~{1}</IAM_SettingsCountRange>
+  <IAM_SettingsRangeUnavailable>캡슐당: 밸런스 데이터에 아직 이 산출량이 정해져 있지 않아 표시하지 않습니다.</IAM_SettingsRangeUnavailable>
+  <IAM_SettingsAllOutputsDisabled>모든 산출물이 꺼져 있습니다. 작업대는 여전히 투입물과 영양분을 소모하지만 아무것도 만들지 않습니다.</IAM_SettingsAllOutputsDisabled>
+  <IAM_SettingsBurnoutHeader>소진 결과</IAM_SettingsBurnoutHeader>
+  <IAM_SettingsBurnoutKill>대상이 사망</IAM_SettingsBurnoutKill>
+  <IAM_SettingsBurnoutSterility>대상이 영구 불임 상태로 생존</IAM_SettingsBurnoutSterility>
+  <IAM_SettingsBurnoutNotChosen>결과를 고르지 않았습니다. 여기서 하나를 고르기 전까지 소진 주기를 쓸 수 없습니다.</IAM_SettingsBurnoutNotChosen>
+  <IAM_SettingsBurnoutModeFixed>소진 결과: {0}. 밸런스 데이터로 정해져 있어 여기서 고를 수 없습니다.</IAM_SettingsBurnoutModeFixed>
+  <IAM_SettingsBurnoutModePerCycle>주기를 시작하기 전에 추출기마다 선택</IAM_SettingsBurnoutModePerCycle>
+  <IAM_SettingsBurnoutModeAlwaysKill>대상이 항상 사망</IAM_SettingsBurnoutModeAlwaysKill>
+  <IAM_SettingsBurnoutModeAlwaysSterility>대상이 항상 영구 불임 상태가 됨</IAM_SettingsBurnoutModeAlwaysSterility>
+  <IAM_SettingsBurnoutModeRandom>주기마다 확률로 결정, {0} 확률로 사망하고 그렇지 않으면 영구 불임과 심각한 부상을 입은 채 생존</IAM_SettingsBurnoutModeRandom>
+  <IAM_SettingsBurnoutModeUnset>밸런스 데이터에 소진 결과를 정하는 방식이 없어 소진 주기를 쓸 수 없습니다.</IAM_SettingsBurnoutModeUnset>
+  <IAM_SettingsReset>불러온 밸런스 값으로 초기화</IAM_SettingsReset>
+  <IAM_AlertOutputsAllDisabledLabel>모든 작업대 산출물 꺼짐</IAM_AlertOutputsAllDisabledLabel>
+  <IAM_AlertOutputsAllDisabledDesc>이 모드의 설정에서 모든 작업대 산출물이 꺼져 있습니다.\n\n생체 작업대는 계속 투입물과 영양분을 소모하지만 아무것도 만들지 않습니다.\n\n옵션, 모드 설정, I Am Mother에서 산출물을 하나 이상 다시 켜세요.</IAM_AlertOutputsAllDisabledDesc>
+  <IAM_MatrixPolicy_Normal>보통</IAM_MatrixPolicy_Normal>
+  <IAM_MatrixPolicy_Preferred>우선</IAM_MatrixPolicy_Preferred>
+  <IAM_MatrixPolicy_Never>안 함</IAM_MatrixPolicy_Never>
+  <IAM_MatrixPolicy_GizmoLabel>매트릭스 정책...</IAM_MatrixPolicy_GizmoLabel>
+  <IAM_MatrixPolicy_GizmoDesc>생체 작업대가 다음에 처리할 것을 고를 때 이 아이템을 어떻게 다룰지 정합니다.\n\n현재: {0}\n\n우선 아이템은 보통 아이템보다 먼저 가져갑니다. 안 함 아이템은 전혀 가져가지 않습니다. 바꾸면 선택한 모든 아이템에 적용됩니다.</IAM_MatrixPolicy_GizmoDesc>
+  <IAM_MatrixPolicy_ScopeMatrixOnly>안 함은 이 아이템을 작업대 투입물 탐색에서만 뺍니다. 운반, 수정, 이식에는 영향이 없습니다.</IAM_MatrixPolicy_ScopeMatrixOnly>
+  <IAM_MatrixPolicy_ScopeMatrixAndHauling>안 함은 이 아이템을 작업대 투입물 탐색에서 빼고 금지 상태로도 만들어, 일반 운반에서도 무시됩니다.</IAM_MatrixPolicy_ScopeMatrixAndHauling>
+  <IAM_MatrixPolicy_ScopeUnresolved>작업대 투입물 외의 상황에서 안 함이 어떤 뜻인지 아직 설정되지 않았습니다. 선택은 저장되지만 금지는 적용되지 않습니다.</IAM_MatrixPolicy_ScopeUnresolved>
+  <IAM_MatrixPolicy_Inspect>매트릭스 정책: {0}</IAM_MatrixPolicy_Inspect>
+  <IAM_MatrixPolicy_ScopeMatrixOnlyShort>작업대 투입물에만</IAM_MatrixPolicy_ScopeMatrixOnlyShort>
+  <IAM_MatrixPolicy_ScopeMatrixAndHaulingShort>금지도 함께</IAM_MatrixPolicy_ScopeMatrixAndHaulingShort>
+  <IAM_MatrixPolicy_ScopeUnresolvedShort>범위 설정 안 됨</IAM_MatrixPolicy_ScopeUnresolvedShort>
+  <IAM_Rack_DisplayOnline>정책 콘솔: 작동 중</IAM_Rack_DisplayOnline>
+  <IAM_Rack_DisplayOffline>정책 콘솔: 꺼짐</IAM_Rack_DisplayOffline>
+  <IAM_Rack_ContentsSummary>난자 {0}개와 배아 {1}개 보관 중.</IAM_Rack_ContentsSummary>
+  <IAM_Rack_ContentsSummaryShort>난자 {0}개, 배아 {1}개</IAM_Rack_ContentsSummaryShort>
+  <IAM_Rack_ExcludedSummary>{0}개가 안 함으로 지정됨.</IAM_Rack_ExcludedSummary>
+  <IAM_Rack_TabLabel>내용물</IAM_Rack_TabLabel>
+  <IAM_Rack_Header_Display>콘솔</IAM_Rack_Header_Display>
+  <IAM_Rack_Header_Contents>내용물</IAM_Rack_Header_Contents>
+  <IAM_Rack_Header_InputPolicy>작업대가 받는 것</IAM_Rack_Header_InputPolicy>
+  <IAM_Rack_DisplayOfflineNote>전력이 없으면 이 콘솔만 멈춥니다. 보관 중인 난자와 배아에는 영향이 없으며, 어느 쪽이든 상하지 않습니다. 정책을 바꾸려면 아이템을 직접 선택하세요.</IAM_Rack_DisplayOfflineNote>
+  <IAM_Rack_InputPolicy_OvumsOnly>난자만</IAM_Rack_InputPolicy_OvumsOnly>
+  <IAM_Rack_InputPolicy_OvumsAndEmbryos>난자와 배아</IAM_Rack_InputPolicy_OvumsAndEmbryos>
+  <IAM_Rack_InputPolicy_Unresolved>설정 안 됨</IAM_Rack_InputPolicy_Unresolved>
+  <IAM_Rack_Col_Type>아이템</IAM_Rack_Col_Type>
+  <IAM_Rack_Col_Parents>부모</IAM_Rack_Col_Parents>
+  <IAM_Rack_Col_Genetics>유전 정보</IAM_Rack_Col_Genetics>
+  <IAM_Rack_Col_Status>상태</IAM_Rack_Col_Status>
+  <IAM_Rack_Col_Policy>정책</IAM_Rack_Col_Policy>
+  <IAM_Rack_Empty>비어 있음</IAM_Rack_Empty>
+  <IAM_Rack_TypeWithCount>{0} x{1}</IAM_Rack_TypeWithCount>
+  <IAM_Rack_NoPolicy>사용 불가</IAM_Rack_NoPolicy>
+  <IAM_Rack_SetAll>모두 지정...</IAM_Rack_SetAll>
+  <IAM_Rack_Legend>난자에는 채취한 부모와 그 부모의 유전 정보가 표시되며, 난자 자체의 정보가 아닙니다.</IAM_Rack_Legend>
+  <IAM_Rack_ViewGenesTip>이 배아가 물려받은 유전자를 봅니다.</IAM_Rack_ViewGenesTip>
+  <IAM_Rack_Unknown>알 수 없음</IAM_Rack_Unknown>
+  <IAM_Rack_Parents>모 {0}, 부 {1}</IAM_Rack_Parents>
+  <IAM_Rack_ParentsKey>모 = 어머니, 부 = 아버지</IAM_Rack_ParentsKey>
+  <IAM_Rack_ParentsTip>어머니 {0}, 아버지 {1}.</IAM_Rack_ParentsTip>
+  <IAM_Rack_SourceParentTip>출처 부모 {0}: 이 난자를 채취한 정착민입니다. 난자는 수정되기 전까지 아버지가 없습니다.</IAM_Rack_SourceParentTip>
+  <IAM_Rack_SourceParent>{0}</IAM_Rack_SourceParent>
+  <IAM_Rack_EmbryoGenes>물려받은 유전자 {0}개</IAM_Rack_EmbryoGenes>
+  <IAM_Rack_EmbryoGenesTip>양쪽 부모에게서 합쳐진, 배아 자체가 물려받은 유전자 구성입니다.</IAM_Rack_EmbryoGenesTip>
+  <IAM_Rack_EmbryoGenesUnknown>유전자 구성 없음</IAM_Rack_EmbryoGenesUnknown>
+  <IAM_Rack_EmbryoGenesUnknownTip>이 배아에는 표시할 유전자 구성이 없습니다.</IAM_Rack_EmbryoGenesUnknownTip>
+  <IAM_Rack_SourceParentGenetics>{0}, 생식 계열 유전자 {1}개</IAM_Rack_SourceParentGenetics>
+  <IAM_Rack_SourceParentGeneticsUnknown>출처 부모의 유전 정보 알 수 없음</IAM_Rack_SourceParentGeneticsUnknown>
+  <IAM_Rack_SourceParentGeneticsTip>수정되지 않은 난자에는 자체 유전자 구성이 없습니다. 이 열은 난자를 채취한 출처 부모를 보여 줍니다. 그 난자로 생기는 배아의 유전자는 수정될 때 비로소 정해집니다.</IAM_Rack_SourceParentGeneticsTip>
+  <IAM_Rack_Status_Selectable>사용 가능</IAM_Rack_Status_Selectable>
+  <IAM_Rack_Status_ExcludedByItemPolicy>안 함</IAM_Rack_Status_ExcludedByItemPolicy>
+  <IAM_Rack_Status_ExcludedByInputPolicy>투입물 아님</IAM_Rack_Status_ExcludedByInputPolicy>
+  <IAM_Rack_Status_Unresolved>설정 안 됨</IAM_Rack_Status_Unresolved>
+  <IAM_Rack_GeneticsNotApplicable>해당 없음</IAM_Rack_GeneticsNotApplicable>
+</LanguageData>

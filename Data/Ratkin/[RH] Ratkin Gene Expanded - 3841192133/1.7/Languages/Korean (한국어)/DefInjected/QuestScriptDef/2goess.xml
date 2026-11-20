@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RH_Quest_NakedMoleRefugees.questDescriptionRules.rulesStrings>
+    <li>lodgersPronoun(lodgerCount==1)-&gt;[asker_pronoun]</li>
+    <li>lodgersPronoun(lodgerCount&gt;=2)-&gt;그들</li>
+    <li>lodgersPreposition(lodgerCount==1)-&gt;[asker_objective] 자신</li>
+    <li>lodgersPreposition(lodgerCount&gt;=2)-&gt;그들 자신</li>
+    <li>lodgersObjective(lodgerCount==1)-&gt;[asker_objective]</li>
+    <li>lodgersObjective(lodgerCount&gt;=2)-&gt;그들을</li>
+    <li>lodgersPossessive(lodgerCount==1)-&gt;[asker_possessive]</li>
+    <li>lodgersPossessive(lodgerCount&gt;=2)-&gt;그들의</li>
+    <li>lodgersSingularOrPluralDef(lodgerCount==1)-&gt;[asker_nameDef]</li>
+    <li>lodgersSingularOrPluralDef(lodgerCount&gt;=2)-&gt;이 [lodgersLabelPlural]</li>
+    <li>questDescription-&gt;[approachInfo] [claimInfo] [asker_nameDef](이)가 쉬면서 회복할 수 있도록 [map_definite]에서 [questDurationTicks_duration] 동안 머물게 해 달라고 청합니다.\n\n그 대가로 머무는 동안 무보수로 당신을 위해 일하고 싸우겠다고 합니다.\n\n[joinInfo] 나중에 도움을 받은 보답을 할 수도 있지만, 진짜 속셈은 알 길이 없습니다.\n\n[travelerInfo] 어느 세력에도 속하지 않습니다. 원한다면 죽이거나, 체포하거나, 팔거나, 장기를 적출해도 외교적 결과는 없습니다.</li>
+    <li>approachInfo(lodgerCount==1)-&gt;절박한 [faction_pawnSingular] [asker_nameDef](이)가 다가오고 있습니다.</li>
+    <li>approachInfo(lodgerCount==2)-&gt;[asker_nameDef](와)과 절박한 [faction_pawnSingular] 하나가 더 다가오고 있습니다.</li>
+    <li>approachInfo(lodgerCount==2,childCount==1,priority=1)-&gt;[asker_nameDef](이)가 아이 하나를 데리고 다가오고 있습니다.</li>
+    <li>approachInfo(lodgerCount&gt;=3)-&gt;절박한 [faction_pawnsPlural] [lodgerCount]명이 다가오고 있습니다. 그들의 지도자는 [asker_nameDef]입니다.</li>
+    <li>approachInfo(lodgerCount&gt;=3,childCount==1,priority=1)-&gt;아이 하나를 포함한 절박한 [faction_pawnsPlural] [lodgerCount]명이 다가오고 있습니다. 그들의 지도자는 [asker_nameDef]입니다.</li>
+    <li>approachInfo(lodgerCount&gt;=3,childCount&gt;=2,priority=1)-&gt;아이 몇 명을 포함한 절박한 [faction_pawnsPlural] [lodgerCount]명이 다가오고 있습니다. 그들의 지도자는 [asker_nameDef]입니다.</li>
+    <li>approachInfo(lodgerCount&gt;=3,allButOneChildren==true,priority=2)-&gt;[asker_nameDef](와)과 그가 돌보는 아이 [lodgersCountMinusOne]명으로 이루어진, 절박한 [faction_pawnsPlural] [lodgerCount]명의 무리가 다가오고 있습니다.</li>
+    <li>claimInfo(lodgerCount==1)-&gt;[asker_nameDef](은)는 최근 습격으로 집을 잃었다고 합니다.</li>
+    <li>claimInfo(lodgerCount==1)-&gt;[asker_nameDef](은)는 마을에서 집단으로 쫓겨났다고 합니다.</li>
+    <li>claimInfo(lodgerCount==1)-&gt;[asker_nameDef](은)는 노예상의 손에서 도망쳤다고 합니다.</li>
+    <li>claimInfo(lodgerCount==1)-&gt;[asker_nameDef](은)는 마을 우두머리와 다투다 쫓겨났다고 합니다.</li>
+    <li>claimInfo(lodgerCount&gt;=2)-&gt;그들은 최근 습격으로 집을 잃었다고 합니다.</li>
+    <li>claimInfo(lodgerCount&gt;=2)-&gt;그들은 장기 적출 조직의 손에서 도망쳤다고 합니다.</li>
+    <li>claimInfo(lodgerCount&gt;=2)-&gt;그들은 노예 상단에서 도망쳐 나왔다고 합니다.</li>
+    <li>claimInfo(lodgerCount&gt;=2)-&gt;그들은 작물 마름병으로 마을 전체의 식량이 끊겼다고 합니다.</li>
+    <li>claimInfo(lodgerCount&gt;=2)-&gt;그들은 큰불이 나서 집을 잃었다고 합니다.</li>
+    <li>claimInfo(lodgerCount&gt;=2)-&gt;그들은 매복 공격을 당해 재산을 몽땅 털렸다고 합니다.</li>
+    <li>claimInfo(lodgerCount&gt;=2)-&gt;그들은 생각이 달라 마을에서 쫓겨났다고 합니다.</li>
+    <li>joinInfo(lodgerCount==1)-&gt;만족시켜 주면 스스로 합류하겠다고 청할지도 모릅니다.</li>
+    <li>joinInfo(lodgerCount&gt;=2)-&gt;만족시켜 주면 그중 몇몇은 스스로 합류하겠다고 청할지도 모릅니다.</li>
+    <li>travelerInfo(lodgerCount==1)-&gt;이 [faction_pawnSingular](은)는</li>
+    <li>travelerInfo(lodgerCount&gt;=2)-&gt;이 [faction_pawnsPlural](은)는</li>
+  </RH_Quest_NakedMoleRefugees.questDescriptionRules.rulesStrings>
+</LanguageData>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RH_Quest_SunsetRefugees.questContentRules.rulesStrings>
+    <li>lastOrNot(lodgerCount==1)-&gt;</li>
+    <li>lastOrNot(lodgerCount&gt;=2)-&gt;마지막</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount==1)-&gt;[lodgersLabel]</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount&gt;=2)-&gt;[lodgersLabelPlural]</li>
+    <li>whoAskedToStay-&gt;머물던 랫킨 노인</li>
+    <li>oneOfThe-&gt;머물던 [faction_pawnsPlural] 중 하나</li>
+    <li>questOver-&gt;&quot;[resolvedQuestName]&quot; 임무가 끝났습니다.</li>
+    <li>lodgersArriveLetterLabel-&gt;정체불명의 망명자 도착</li>
+    <li>lodgersArriveLetterText-&gt;비틀거리는 [lodgersSingularOrPluralDef](이)가 정착지에 들어섰습니다. 그들은 스스로를 &quot;노을빛 랫킨 무리&quot;라고 부르며, 다시 길을 떠나기 전에 잠시 쉬어 가고 싶다고 합니다. 다만 그들에게 시간이 얼마나 남았는지는 아무도 모릅니다.</li>
+    <li>letterIntroDeath-&gt;{SUBJECT_definite}, [oneOfThe](이)가 평온하게 세상을 떠났습니다.</li>
+    <li>lodgerDiedNaturalLetterLabel-&gt;늙은 랫킨 난민: 천수를 다함</li>
+    <li>lodgerDiedNaturalLetterText-&gt;[letterIntroDeath]\n\n비정상 노화가 끝에 이르렀지만, 평온하게 떠났습니다. 그들은 오래전부터 이날을 기다려 왔습니다. 나머지는 남아서 이 마지막 길을 끝까지 지킵니다.</li>
+    <li>lodgersFledLetterLabel-&gt;말없이 떠남</li>
+    <li>lodgersFledLetterText-&gt;남은 [faction_pawnsPlural](은)는 동료의 유품을 챙겨 밤사이 [map_definite]에서 떠났습니다. 떠나기 전 그들은 대문을 살며시 닫았습니다. 아무도 뒤돌아보지 않았습니다.</li>
+    <li>lodgerCuredLetterLabel-&gt;늙은 랫킨 난민: 회복</li>
+    <li>lodgerCuredLetterText-&gt;{SUBJECT_definite}의 비정상 노화가 치료됐습니다. 며칠 쉰 뒤 작별 인사를 건넸습니다. 남은 날들을 그저 흘려보내지 않고, 끝까지 살아 내기로 했다고 합니다.</li>
+    <li>lodgersAllDiedLetterLabel-&gt;해가 지다</li>
+    <li>lodgersAllDiedLetterText-&gt;노을빛 랫킨 무리의 마지막 등불이 꺼졌습니다. [lastOrNot] [whoAskedToStay]의 숨이 멎었습니다. 당신은 그들의 시신을 수습해 주었습니다. 죽음을 앞둔 랫킨에게는 이것이 이미 가장 좋은 결말입니다.\n\n[questOver]</li>
+    <li>lodgersMixedEndLetterLabel-&gt;저마다의 자리로</li>
+    <li>lodgersMixedEndLetterText-&gt;노을빛 랫킨 무리의 이야기는 여기서 끝납니다. 누군가는 당신 곁에서 잠들었고, 누군가는 치료받고 [map_definite]에서 떠났습니다.\n\n[questOver]</li>
+    <li>lodgersAllCuredLetterLabel-&gt;새 삶</li>
+    <li>lodgersAllCuredLetterText-&gt;기적이 일어났습니다. 노을빛 랫킨 무리 모든 구성원의 비정상 노화가 치료됐습니다. 휴식을 마친 뒤, 다시 생기를 되찾은 랫킨 노인들은 정중히 작별 인사를 하고 귀로에 올랐습니다.\n\n그들은 이 은혜를 영원히 잊지 않겠다고 약속했습니다.</li>
+  </RH_Quest_SunsetRefugees.questContentRules.rulesStrings>
+</LanguageData>
