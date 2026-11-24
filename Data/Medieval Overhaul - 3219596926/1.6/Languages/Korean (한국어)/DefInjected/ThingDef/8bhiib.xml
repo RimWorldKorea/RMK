@@ -124,7 +124,6 @@
   <DankPyon_HornetHoney.ingestible.ingestReportString>{0} 섭취하는 중.</DankPyon_HornetHoney.ingestible.ingestReportString>
   <DankPyon_KnowledgePotion.label>지식의 포션</DankPyon_KnowledgePotion.label>
   <DankPyon_KnowledgePotion.description>괴물의 야수적인 부분, 숲의 정수, 그리고 깨어있는 악몽의 단편이 결합된 혼합물. 이 음료는 인간의 내면 깊숙한 곳에서든, 혹은 초자연적인 차원에서든 지식을 끌어내어, 특정 기술에서 더욱 뛰어난 능력을 발휘할 수 있도록 해줍니다.</DankPyon_KnowledgePotion.description>
-  <DankPyon_KnowledgePotion.comps.2.useLabel>{0_label} 사용</DankPyon_KnowledgePotion.comps.2.useLabel>
   <DankPyon_Luhix.label>루힉스</DankPyon_Luhix.label>
   <DankPyon_Luhix.description>기억력과 학습 능력을 향상시키는 희귀하고 강력한 물질로, 초기에 초집중을 약간 높여주어, 정신적 선명함과 빠른 기술 습득을 추구하는 이들에게 매우 인기가 있습니다.</DankPyon_Luhix.description>
   <DankPyon_Luhix.ingestible.ingestCommandString>{0} 마시기</DankPyon_Luhix.ingestible.ingestCommandString>
@@ -724,11 +723,11 @@
   <DankPyon_Gun_BallistaTurret.label>발리스타</DankPyon_Gun_BallistaTurret.label>
   <DankPyon_Gun_BallistaTurret.description>목재 구조물 위에 쇠뇌를 올린 형태의 고대 공성 기구입니다.</DankPyon_Gun_BallistaTurret.description>
   <DankPyon_Gun_BallistaTurret.verbs.Verb_Shoot.label>발리스타</DankPyon_Gun_BallistaTurret.verbs.Verb_Shoot.label>
-  <DankPyon_Turret_Trebuchet.label>투석기</DankPyon_Turret_Trebuchet.label>
-  <DankPyon_Turret_Trebuchet.description>투석기는 강하게 비트는 힘을 이용해 벽을 파괴할 만한 힘으로 돌을 굉장히 멀리 발사합니다. 따라서 투석기는 방어를 파괴할 수 있는 무서운 공성 병기입니다. 원래 공성 측은 적의 투사체를 맞으며 방어용 울타리를 올라타야 했지만, 이제 전투를 시작하기 전에 돌파구를 만들 수 있습니다. 전장에 투석기를 배치하는 것을 본다면, 방어자들은 빨리 파괴하려고 시도해야 합니다.</DankPyon_Turret_Trebuchet.description>
-  <DankPyon_Artillery_Trebuchet.label>투석기</DankPyon_Artillery_Trebuchet.label>
+  <DankPyon_Turret_Trebuchet.label>트레뷰셋</DankPyon_Turret_Trebuchet.label>
+  <DankPyon_Turret_Trebuchet.description>트레뷰셋은 강하게 비트는 힘을 이용해 벽을 파괴할 만한 힘으로 돌을 굉장히 멀리 발사합니다. 따라서 트레뷰셋은 방어를 파괴할 수 있는 무서운 공성 병기입니다. 원래 공성 측은 적의 투사체를 맞으며 방어용 울타리를 올라타야 했지만, 이제 전투를 시작하기 전에 돌파구를 만들 수 있습니다. 전장에 트레뷰셋을 배치하는 것을 본다면, 방어자들은 빨리 파괴하려고 시도해야 합니다.</DankPyon_Turret_Trebuchet.description>
+  <DankPyon_Artillery_Trebuchet.label>트레뷰셋</DankPyon_Artillery_Trebuchet.label>
   <DankPyon_Artillery_Trebuchet.description>박격포 발사기. 벽에 폭탄을 투척합니다. 매우 부정확하지만 사거리가 깁니다.</DankPyon_Artillery_Trebuchet.description>
-  <DankPyon_Artillery_Trebuchet.verbs.Verb_Shoot.label>투석기</DankPyon_Artillery_Trebuchet.verbs.Verb_Shoot.label>
+  <DankPyon_Artillery_Trebuchet.verbs.Verb_Shoot.label>트레뷰셋</DankPyon_Artillery_Trebuchet.verbs.Verb_Shoot.label>
   <DankPyon_Turret_RepeaterBallista.label>연발 발리스타</DankPyon_Turret_RepeaterBallista.label>
   <DankPyon_Turret_RepeaterBallista.description>고대에 개발된 연발 발리스타는 중세 공학의 정점으로, 여러 개의 대형 화살을 연속으로 발사할 수 있는 강력한 투사 무기입니다. 공성과 방어에 모두 효율적으로, 이 정밀한 무기는 적을 공포에 떨게 하지만, 매번 화살을 발사한 후 재장전해야 합니다.</DankPyon_Turret_RepeaterBallista.description>
   <DankPyon_Turret_RepeaterBallista.comps.1.fuelLabel>발리스타 볼트</DankPyon_Turret_RepeaterBallista.comps.1.fuelLabel>
@@ -1793,19 +1792,15 @@
   <DankPyon_Apparel_Quiver.description>화살을 담아둘 수 있는, 착용할 수 있는 가죽 용기입니다. 화살통을 착용하면 활과 쇠뇌를 쏘는 데 걸리는 시간이 줄어듭니다.</DankPyon_Apparel_Quiver.description>
   <DankPyon_Apparel_FlashPotBelt.label>섬광병 벨트</DankPyon_Apparel_FlashPotBelt.label>
   <DankPyon_Apparel_FlashPotBelt.description>적의 방향을 잃게 하고 시야를 가릴 수 있는 섬광병을 휴대할 수 있는 다용도 벨트입니다.</DankPyon_Apparel_FlashPotBelt.description>
-  <DankPyon_Apparel_FlashPotBelt.comps.0.chargeNoun>섬광</DankPyon_Apparel_FlashPotBelt.comps.0.chargeNoun>
   <DankPyon_Apparel_FlashPotBelt.verbs.Verb_LaunchProjectileStatic.label>섬광병 던지기</DankPyon_Apparel_FlashPotBelt.verbs.Verb_LaunchProjectileStatic.label>
   <DankPyon_Apparel_FirePotBelt.label>화염병 벨트</DankPyon_Apparel_FirePotBelt.label>
   <DankPyon_Apparel_FirePotBelt.description>던질 수 있는 화염병을 휴대할 수 있는 다용도 벨트로, 착용자가 멀리 떨어진 지역이나 적에게 불을 붙일 수 있습니다.</DankPyon_Apparel_FirePotBelt.description>
-  <DankPyon_Apparel_FirePotBelt.comps.0.chargeNoun>화염</DankPyon_Apparel_FirePotBelt.comps.0.chargeNoun>
   <DankPyon_Apparel_FirePotBelt.verbs.Verb_LaunchProjectileStatic.label>화염병 던지기</DankPyon_Apparel_FirePotBelt.verbs.Verb_LaunchProjectileStatic.label>
   <DankPyon_Apparel_SmokePotBelt.label>연막병 벨트</DankPyon_Apparel_SmokePotBelt.label>
   <DankPyon_Apparel_SmokePotBelt.description>던질 수 있는 연막병을 휴대할 수 있는 다용도 벨트로, 던져 적의 방향을 잃게 하고 시야를 가릴 수 있습니다.</DankPyon_Apparel_SmokePotBelt.description>
-  <DankPyon_Apparel_SmokePotBelt.comps.0.chargeNoun>연막</DankPyon_Apparel_SmokePotBelt.comps.0.chargeNoun>
   <DankPyon_Apparel_SmokePotBelt.verbs.Verb_LaunchProjectileStatic.label>연막병 던지기</DankPyon_Apparel_SmokePotBelt.verbs.Verb_LaunchProjectileStatic.label>
   <DankPyon_Apparel_AcidFlaskBelt.label>산성 플라스크 벨트</DankPyon_Apparel_AcidFlaskBelt.label>
   <DankPyon_Apparel_AcidFlaskBelt.description>던질 수 있는 산성 플라스크를 휴대할 수 있는 다용도 벨트로, 던지면 갑옷을 녹여 적에게 지속적으로 피해를 입히는 강력한 산성 공격을 가할 수 있습니다.</DankPyon_Apparel_AcidFlaskBelt.description>
-  <DankPyon_Apparel_AcidFlaskBelt.comps.0.chargeNoun>파편</DankPyon_Apparel_AcidFlaskBelt.comps.0.chargeNoun>
   <DankPyon_Apparel_AcidFlaskBelt.verbs.Verb_LaunchProjectileStatic.label>산성 플라스크 던지기</DankPyon_Apparel_AcidFlaskBelt.verbs.Verb_LaunchProjectileStatic.label>
   <DankPyon_BalloonIncoming.label>열기구 (도착)</DankPyon_BalloonIncoming.label>
   <DankPyon_BalloonLeaving.label>열기구 (떠남)</DankPyon_BalloonLeaving.label>
@@ -1973,6 +1968,7 @@
   <DankPyon_Alp.tools.0.label>왼쪽 발톱</DankPyon_Alp.tools.0.label>
   <DankPyon_Alp.tools.1.label>오른쪽 발톱</DankPyon_Alp.tools.1.label>
   <DankPyon_Alp.tools.3.label>머리</DankPyon_Alp.tools.3.label>
+  <DankPyon_Alp.comps.Comp_VerbProps.verbProps.0.visualLabel>알프 수면</DankPyon_Alp.comps.Comp_VerbProps.verbProps.0.visualLabel>
   <DankPyon_Alp.comps.Comp_VerbProps.verbProps.0.description>대상을 환각과 악몽을 경험하도록 강제합니다</DankPyon_Alp.comps.Comp_VerbProps.verbProps.0.description>
   <DankPyon_Hampshire.label>햄프셔 돼지</DankPyon_Hampshire.label>
   <DankPyon_Hampshire.description>햄프셔는 튼튼한 품종의 돼지이며 일반적으로 살코기와 맛을 위해 사육됩니다. 햄프셔는 효율적인 육류 공급원이며 거의 모든 것을 먹기 때문에 먹이기 쉽습니다.</DankPyon_Hampshire.description>
@@ -2569,26 +2565,26 @@
   <DankPyon_Paregoric.ingestible.ingestReportString>{0} 복용 중.</DankPyon_Paregoric.ingestible.ingestReportString>
   <DankPyon_VigorPill.ingestible.ingestCommandString>{0} 복용</DankPyon_VigorPill.ingestible.ingestCommandString>
   <DankPyon_VigorPill.ingestible.ingestReportString>{0} 복용 중.</DankPyon_VigorPill.ingestible.ingestReportString>
-  <DankPyon_DummyLeather.description>무두질하고 말린 뒤 긁어낸 가죽입니다. 옷과 가방을 만드는 데 쓰이는 훌륭한 전통 소재입니다.</DankPyon_DummyLeather.description>
-  <DankPyon_MinifiedIceThing.label>소형화된 물건</DankPyon_MinifiedIceThing.label>
-  <DankPyon_LogTable1x2c.description>의자를 테이블 쪽으로 향하게 배치하면 사람들이 이곳에서 식사합니다.</DankPyon_LogTable1x2c.description>
-  <DankPyon_LogTable1x3c.description>의자를 테이블 쪽으로 향하게 배치하면 사람들이 이곳에서 식사합니다.</DankPyon_LogTable1x3c.description>
-  <DankPyon_LogTable1x4c.description>의자를 테이블 쪽으로 향하게 배치하면 사람들이 이곳에서 식사합니다.</DankPyon_LogTable1x4c.description>
-  <DankPyon_LogTable2x4c.description>의자를 테이블 쪽으로 향하게 배치하면 사람들이 이곳에서 식사합니다.</DankPyon_LogTable2x4c.description>
-  <DankPyon_RusticTable1x1c.description>의자를 테이블 쪽으로 향하게 배치하면 사람들이 이곳에서 식사합니다.</DankPyon_RusticTable1x1c.description>
-  <DankPyon_ReinforcedRusticTable1x1c.description>의자를 테이블 쪽으로 향하게 배치하면 사람들이 이곳에서 식사합니다.</DankPyon_ReinforcedRusticTable1x1c.description>
-  <DankPyon_RusticTable1x2c.description>의자를 테이블 쪽으로 향하게 배치하면 사람들이 이곳에서 식사합니다.</DankPyon_RusticTable1x2c.description>
-  <DankPyon_RusticTable1x3c.description>의자를 테이블 쪽으로 향하게 배치하면 사람들이 이곳에서 식사합니다.</DankPyon_RusticTable1x3c.description>
-  <DankPyon_ReinforcedRusticTable1x2c.description>의자를 테이블 쪽으로 향하게 배치하면 사람들이 이곳에서 식사합니다.</DankPyon_ReinforcedRusticTable1x2c.description>
-  <DankPyon_RusticTable2x2c.description>의자를 테이블 쪽으로 향하게 배치하면 사람들이 이곳에서 식사합니다.</DankPyon_RusticTable2x2c.description>
-  <DankPyon_ReinforcedRusticTable2x2c.description>의자를 테이블 쪽으로 향하게 배치하면 사람들이 이곳에서 식사합니다.</DankPyon_ReinforcedRusticTable2x2c.description>
-  <DankPyon_RusticRoundTable2x2c.description>의자를 테이블 쪽으로 향하게 배치하면 사람들이 이곳에서 식사합니다.</DankPyon_RusticRoundTable2x2c.description>
-  <DankPyon_Table2x4c.description>의자를 테이블 쪽으로 향하게 배치하면 사람들이 이곳에서 식사합니다.</DankPyon_Table2x4c.description>
-  <DankPyon_ReinforcedTable2x4c.description>의자를 테이블 쪽으로 향하게 배치하면 사람들이 이곳에서 식사합니다.</DankPyon_ReinforcedTable2x4c.description>
-  <DankPyon_RusticCounter1x3c.description>의자를 테이블 쪽으로 향하게 배치하면 사람들이 이곳에서 식사합니다.</DankPyon_RusticCounter1x3c.description>
-  <DankPyon_RoyalThrone.comps.CompAssignableToPawn_Throne.noAssignablePawnsDesc>왕좌를 소유하려면 왕족 작위를 지닌 사람이 필요합니다.</DankPyon_RoyalThrone.comps.CompAssignableToPawn_Throne.noAssignablePawnsDesc>
-  <DankPyon_RoyalTable2x2c.description>의자를 테이블 쪽으로 향하게 배치하면 사람들이 이곳에서 식사합니다.</DankPyon_RoyalTable2x2c.description>
-  <DankPyon_RoyalTable2x4c.description>의자를 테이블 쪽으로 향하게 배치하면 사람들이 이곳에서 식사합니다.</DankPyon_RoyalTable2x4c.description>
+  <DankPyon_DummyLeather.description>무두질되고 건조된 가죽입니다. 옷과 가방을 만들기 좋은 전통적인 소재입니다.</DankPyon_DummyLeather.description>
+  <DankPyon_MinifiedIceThing.label>포장됨</DankPyon_MinifiedIceThing.label>
+  <DankPyon_LogTable1x2c.description>의자가 있으면 여기서 밥을 먹습니다.</DankPyon_LogTable1x2c.description>
+  <DankPyon_LogTable1x3c.description>의자가 있으면 여기서 밥을 먹습니다.</DankPyon_LogTable1x3c.description>
+  <DankPyon_LogTable1x4c.description>의자가 있으면 여기서 밥을 먹습니다.</DankPyon_LogTable1x4c.description>
+  <DankPyon_LogTable2x4c.description>의자가 있으면 여기서 밥을 먹습니다.</DankPyon_LogTable2x4c.description>
+  <DankPyon_RusticTable1x1c.description>의자가 있으면 여기서 밥을 먹습니다.</DankPyon_RusticTable1x1c.description>
+  <DankPyon_ReinforcedRusticTable1x1c.description>의자가 있으면 여기서 밥을 먹습니다.</DankPyon_ReinforcedRusticTable1x1c.description>
+  <DankPyon_RusticTable1x2c.description>의자가 있으면 여기서 밥을 먹습니다.</DankPyon_RusticTable1x2c.description>
+  <DankPyon_RusticTable1x3c.description>의자가 있으면 여기서 밥을 먹습니다.</DankPyon_RusticTable1x3c.description>
+  <DankPyon_ReinforcedRusticTable1x2c.description>의자가 있으면 여기서 밥을 먹습니다.</DankPyon_ReinforcedRusticTable1x2c.description>
+  <DankPyon_RusticTable2x2c.description>의자가 있으면 여기서 밥을 먹습니다.</DankPyon_RusticTable2x2c.description>
+  <DankPyon_ReinforcedRusticTable2x2c.description>의자가 있으면 여기서 밥을 먹습니다.</DankPyon_ReinforcedRusticTable2x2c.description>
+  <DankPyon_RusticRoundTable2x2c.description>의자가 있으면 여기서 밥을 먹습니다.</DankPyon_RusticRoundTable2x2c.description>
+  <DankPyon_Table2x4c.description>의자가 있으면 여기서 밥을 먹습니다.</DankPyon_Table2x4c.description>
+  <DankPyon_ReinforcedTable2x4c.description>의자가 있으면 여기서 밥을 먹습니다.</DankPyon_ReinforcedTable2x4c.description>
+  <DankPyon_RusticCounter1x3c.description>의자가 있으면 여기서 밥을 먹습니다.</DankPyon_RusticCounter1x3c.description>
+  <DankPyon_RoyalThrone.comps.CompAssignableToPawn_Throne.noAssignablePawnsDesc>작위를 가진 사람만 왕좌를 소유할 수 있습니다.</DankPyon_RoyalThrone.comps.CompAssignableToPawn_Throne.noAssignablePawnsDesc>
+  <DankPyon_RoyalTable2x2c.description>의자가 있으면 여기서 밥을 먹습니다.</DankPyon_RoyalTable2x2c.description>
+  <DankPyon_RoyalTable2x4c.description>의자가 있으면 여기서 밥을 먹습니다.</DankPyon_RoyalTable2x4c.description>
   <DankPyon_GolemRock_Iron_MapGen.comps.Comp_PawnSpawnerOnDestroy.letterDescription>거대한 철 골렘이 땅에서 솟아올랐습니다. 반드시 엄폐하십시오!</DankPyon_GolemRock_Iron_MapGen.comps.Comp_PawnSpawnerOnDestroy.letterDescription>
   <DankPyon_GolemRock_Silver_MapGen.comps.Comp_PawnSpawnerOnDestroy.letterDescription>거대한 은 골렘이 땅에서 솟아올랐습니다. 반드시 엄폐하십시오!</DankPyon_GolemRock_Silver_MapGen.comps.Comp_PawnSpawnerOnDestroy.letterDescription>
   <DankPyon_Apparel_FlashPotBelt.comps.CompApparelReloadable.chargeNoun>섬광</DankPyon_Apparel_FlashPotBelt.comps.CompApparelReloadable.chargeNoun>
@@ -2599,14 +2595,12 @@
   <DankPyon_Apparel_SmokePotBelt.comps.CompApparelReloadable.cooldownGerund>재사용 대기 중</DankPyon_Apparel_SmokePotBelt.comps.CompApparelReloadable.cooldownGerund>
   <DankPyon_Apparel_AcidFlaskBelt.comps.CompApparelReloadable.chargeNoun>파편</DankPyon_Apparel_AcidFlaskBelt.comps.CompApparelReloadable.chargeNoun>
   <DankPyon_Apparel_AcidFlaskBelt.comps.CompApparelReloadable.cooldownGerund>재사용 대기 중</DankPyon_Apparel_AcidFlaskBelt.comps.CompApparelReloadable.cooldownGerund>
-  <DankPyon_ActiveBalloon.label>수송 포드</DankPyon_ActiveBalloon.label>
-  <DankPyon_InvisPod.label>수송 포드</DankPyon_InvisPod.label>
-  <DankPyon_ChunkClay.description>암석 덩어리입니다. 잘라서 사용할 수 있는 석재 블록으로 만들 수 있습니다.</DankPyon_ChunkClay.description>
+  <DankPyon_ActiveBalloon.label>낙하기</DankPyon_ActiveBalloon.label>
+  <DankPyon_InvisPod.label>낙하기</DankPyon_InvisPod.label>
+  <DankPyon_ChunkClay.description>바위 덩어리입니다. 사용 가능한 석재로 잘라낼 수 있습니다.</DankPyon_ChunkClay.description>
   <DankPyon_GreatOak.comps.Comp_PawnSpawnerOnDestroy.letterDescription>거목을 베는 바람에 고대 쉬라트가 분노했습니다. 더 이상 자극하지 마십시오!</DankPyon_GreatOak.comps.Comp_PawnSpawnerOnDestroy.letterDescription>
   <DankPyon_GreatIter.comps.Comp_PawnSpawnerOnDestroy.letterDescription>거목을 베는 바람에 고대 쉬라트가 분노했습니다. 더 이상 자극하지 마십시오!</DankPyon_GreatIter.comps.Comp_PawnSpawnerOnDestroy.letterDescription>
   <DankPyon_GreatWillow.comps.Comp_PawnSpawnerOnDestroy.letterDescription>거목을 베는 바람에 고대 쉬라트가 분노했습니다. 더 이상 자극하지 마십시오!</DankPyon_GreatWillow.comps.Comp_PawnSpawnerOnDestroy.letterDescription>
-  <DankPyon_Alp.comps.Comp_VerbProps.verbProps.0.visualLabel>알프 수면</DankPyon_Alp.comps.Comp_VerbProps.verbProps.0.visualLabel>
-  <DankPyon_Alp.comps.Comp_VerbProps.verbProps.0.description>대상을 환각과 악몽을 경험하도록 강제합니다</DankPyon_Alp.comps.Comp_VerbProps.verbProps.0.description>
   <DankPyon_RusticMimic.tools.left_side.labelNoLocation>발톱</DankPyon_RusticMimic.tools.left_side.labelNoLocation>
   <DankPyon_RusticMimic.tools.right_side.labelNoLocation>발톱</DankPyon_RusticMimic.tools.right_side.labelNoLocation>
   <DankPyon_RoyalMimic.tools.left_side.labelNoLocation>발톱</DankPyon_RoyalMimic.tools.left_side.labelNoLocation>
