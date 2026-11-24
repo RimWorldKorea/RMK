@@ -3,7 +3,7 @@
   <SC_MoleroachNest.label>몰로치 땅굴</SC_MoleroachNest.label>
   <SC_MoleroachNest.description>몰로치가 파놓은 작은 땅굴입니다. 암컷 몰로치는 가능하면 땅굴 안에 알을 낳습니다. 시간을 절약하기 위해, 운반 작업을 담당하는 정착민들은 가득 찬 땅굴의 알만 운반합니다. 몰로치 땅굴은 야외에서도 알이 손상되지 않도록 보호하지만 온도 피해는 막지 못합니다.</SC_MoleroachNest.description>
   <SC_HotGrill.label>뜨거운 그릴</SC_HotGrill.label>
-  <SC_HotGrill.description>아래에 모닥불이 있는 금속 그릴로, 음식을 굽는 데 사용됩니다.</SC_HotGrill.description>
+  <SC_HotGrill.description>아래에 모닥불이 있는 금속 그릴로, 음식을 굽는 데 사용됩니다. 조리 도구를 올려 스토브처럼 사용할 수도 있습니다.</SC_HotGrill.description>
   <SC_ArtificialHive.label>곤충 사육장</SC_ArtificialHive.label>
   <SC_ArtificialHive.description>여왕 유체가 들어있는 인공 군락입니다. 계속해서 느린 속도로 곤충 젤리를 생산합니다.</SC_ArtificialHive.description>
   <SC_DwarvenOven.label>드워프 가마</SC_DwarvenOven.label>
@@ -14,7 +14,7 @@
   <SC_CuringRack.description>고기나 생선을 걸어두고 말리며 숙성시키는 나무 건조대입니다.</SC_CuringRack.description>
   <SC_PrepTable.label>재료 준비대</SC_PrepTable.label>
   <SC_PrepTable.description>반죽과 같은 식재료를 준비하기 위한 요리 도구가 들어있는 서랍이 달린 단순한 나무 탁자입니다.</SC_PrepTable.description>
-  <SC_ArchotechMicrowave.label>양자 마이크로발생기</SC_ArchotechMicrowave.label>
+  <SC_ArchotechMicrowave.label>양자레인지</SC_ArchotechMicrowave.label>
   <SC_ArchotechMicrowave.description>내부에 있는 물질의 분자를 격렬하게 진동시키는 강력한 방사성 마이크로파를 생성하는 휴대용 초월공학 기계입니다.</SC_ArchotechMicrowave.description>
   <SC_FoodSpot.label>음식 배치 장소</SC_FoodSpot.label>
   <SC_FoodSpot.description>식사나 식품을 배치할 수 있는 장소로, 주로 큰 식탁이나 만찬을 위해 사용됩니다.</SC_FoodSpot.description>
@@ -101,13 +101,11 @@
   <SC_Raw_Dough.label>반죽</SC_Raw_Dough.label>
   <SC_Raw_Dough.description>가루와 동물의 젖으로 만든 걸쭉하고 거친 반죽입니다. 생으로 먹기엔 좋지 않습니다.</SC_Raw_Dough.description>
   <SC_Raw_PastryDough.label>페이스트리 반죽</SC_Raw_PastryDough.label>
-  <SC_Raw_PastryDough.description>가루와 동물의 젖, 그리고 곤충 젤리로 만든 부드러운 반죽입니다. 여러 번 겹쳐 접어 층을 만들었습니다. 생으로 먹기엔 좋지 않습니다.</SC_Raw_PastryDough.description>
+  <SC_Raw_PastryDough.description>가루와 동물의 젖에 다른 재료를 더해 만든 부드러운 반죽입니다. 여러 번 겹쳐 접어 층을 만들었습니다. 생으로 먹기엔 좋지 않습니다.</SC_Raw_PastryDough.description>
   <SC_JuvenileQueen.label>여왕 유체</SC_JuvenileQueen.label>
   <SC_JuvenileQueen.description>작고 어린 곤충 여왕의 유체입니다. 활동을 시작하려면 인공적인 거처를 지어줘야 합니다.</SC_JuvenileQueen.description>
   <SC_UnstableMatter.label>불안정한 물질</SC_UnstableMatter.label>
   <SC_UnstableMatter.description>매우 작고 불안정하며 관측 불가능한 원소입니다. 젭토초 정도의 찰나의 순간 동안만 물질적 존재를 유지하다 폭발하며 사라집니다.</SC_UnstableMatter.description>
-  <DV_Thermalite_CustomMeat.label>서멀라이트 고기</DV_Thermalite_CustomMeat.label>
-  <DV_Thermalite_CustomMeat.description>서멀라이트의 날고기입니다.\n\n일반적인 곤충 고기와 다르게 연하고 맛이 좋습니다.</DV_Thermalite_CustomMeat.description>
   <SC_Rockhide.label>바위가죽</SC_Rockhide.label>
   <SC_Rockhide.description>매우 두껍고 단단하며 무거운 가죽입니다. 바느질과 가공이 어렵지만 강력한 방어력을 제공합니다.</SC_Rockhide.description>
   <SC_Creamsilk.label>크림실크</SC_Creamsilk.label>
@@ -149,12 +147,103 @@
   <SC_Insect_MoleroachBlue.description>새끼 양만한 크기의 비사회성 유전자 조작 곤충입니다. 고기와 알을 모두 얻을 수 있다는 이점이 있어 스톤본들이 자주 사육합니다. 이들의 알은 크고 영양가가 풍부하며, 암컷 몰로치는 군락을 유지할 수 있을 만큼 알을 자주 낳습니다. 알을 낳기 위해 땅굴을 파는 습성이 있습니다.</SC_Insect_MoleroachBlue.description>
   <SC_Insect_MoleroachBlue.tools.0.label>턱</SC_Insect_MoleroachBlue.tools.0.label>
   <SC_Insect_MoleroachBlue.tools.1.label>머리</SC_Insect_MoleroachBlue.tools.1.label>
+  <SC_BrickloafWall.label>벽돌빵 벽</SC_BrickloafWall.label>
+  <SC_BrickloafWall.description>벽돌빵으로 세운 지나갈 수 없는 벽입니다. 내구성이 좋지는 않지만 쉽게 건설할 수 있습니다. 지붕을 지탱할 수 있습니다.</SC_BrickloafWall.description>
+  <SC_KitchenCabinet.label>주방 캐비닛</SC_KitchenCabinet.label>
+  <SC_KitchenIsland2x2c.label>주방 아일랜드 식탁 (2x2)</SC_KitchenIsland2x2c.label>
+  <SC_KitchenIsland2x3c.label>주방 아일랜드 식탁 (2x3)</SC_KitchenIsland2x3c.label>
+  <SC_KitchenClutter.label>주방용품</SC_KitchenClutter.label>
+  <SC_KitchenClutter.description>냄비, 병, 조미료 등 다양한 주방용품입니다.</SC_KitchenClutter.description>
+  <SC_KitchenHearth.label>주방 화덕</SC_KitchenHearth.label>
+  <SC_KitchenHearth.description>불을 담아두는 대형 석제 가구입니다. 주위를 밝혀주고 열을 발생시킵니다.</SC_KitchenHearth.description>
+  <SC_RoastingSpit.label>구이용 꼬챙이</SC_RoastingSpit.label>
+  <SC_Bitterstrug.label>비터스트럭</SC_Bitterstrug.label>
+  <SC_Bitterstrug.description>농축된 비터팟 꿀을 우려내 만든 기분 좋은 산미가 감도는 음료입니다. "드워프의 커피"라고도 불리는 비터스트럭은 이른 아침에 광산이나 대장간으로 일하러 가기 전 활력을 얻기 위해 즐겨 마십니다. 과일 향이 어우러진 쌉싸름한 맛이 일품이라 굳이 설탕을 넣을 필요가 없습니다.</SC_Bitterstrug.description>
+  <SC_Bitterstrug.ingestible.ingestCommandString>{0} 마시기</SC_Bitterstrug.ingestible.ingestCommandString>
+  <SC_Bitterstrug.ingestible.ingestReportString>{0} 마시는 중</SC_Bitterstrug.ingestible.ingestReportString>
+  <SC_Spongecake.label>스펀지케이크</SC_Spongecake.label>
+  <SC_Spongecake.description>시트 사이에 붉은 비터팟 꿀이 듬뿍 발린 폭신한 스펀지케이크입니다. 영혼과 마음을 따뜻하게 해 줍니다.</SC_Spongecake.description>
+  <SC_ButterTarts.label>버터 타르트</SC_ButterTarts.label>
+  <SC_ButterTarts.description>쫀득한 버터 필링이 채워져 특유의 버터 향이 나는 잘 구워진 바삭한 타르트입니다. 훌륭한 디저트이자 판매 가치가 높은 상품입니다.</SC_ButterTarts.description>
+  <SC_Pancakes.label>팬케이크</SC_Pancakes.label>
+  <SC_Pancakes.description>가루, 동물의 젖, 버터를 섞어 만든 반죽을 팬에 노릇하게 구워내고 달콤한 시럽을 곁들였습니다.</SC_Pancakes.description>
+  <SC_Feast_CrustedFillet.label>크러스트 필레</SC_Feast_CrustedFillet.label>
+  <SC_Feast_CrustedFillet.description>최상급 필레의 겉면을 살짝 시어링한 뒤, 먼저 향긋한 버섯 두욱셀로 감싸고 페이스트리 반죽을 덧씌웁니다. 그 후 반죽에 녹인 버터를 바르고 오븐에 구우면 완성됩니다.\n\n&lt;color=#6e6e6eff&gt;고어스톤 램지의 시그니처 요리 중 하나로, 그는 레시피 홀로비디오에서 이런 말을 남긴 바 있습니다: "이거 좀 봐... 당장 죽어서 천국에 가도 여한이 없겠어."&lt;/color&gt;</SC_Feast_CrustedFillet.description>
+  <SC_FrozenFeast_CrustedFillet.label>식은 크러스트 필레</SC_FrozenFeast_CrustedFillet.label>
+  <SC_FrozenFeast_CrustedFillet.description>최상급 필레의 겉면을 살짝 시어링한 뒤, 먼저 향긋한 버섯 두욱셀로 감싸고 페이스트리 반죽을 덧씌웁니다. 그 후 반죽에 녹인 버터를 바르고 오븐에 구우면 완성됩니다.\n\n이 요리는 냉장 또는 냉동 보관되어 풍미가 예전만 못합니다.</SC_FrozenFeast_CrustedFillet.description>
+  <SC_Feast_IceCream.label>아이스크림</SC_Feast_IceCream.label>
+  <SC_Feast_IceCream.description>반들거리고 달콤한 차가운 아이스크림입니다. 영혼의 양식입니다.</SC_Feast_IceCream.description>
+  <SC_MeltedFeast_IceCream.label>얼지 않은 아이스크림</SC_MeltedFeast_IceCream.label>
+  <SC_MeltedFeast_IceCream.description>반들거리고 달콤한 차가운 아이스크림입니다. 영혼의 양식입니다.\n\n이 요리는 열에 너무 오랫동안 노출되어 녹아버렸지만, 다시 얼릴 수 있습니다.</SC_MeltedFeast_IceCream.description>
+  <SC_Sandwich_MeatSandwich.label>고기 바위샌드</SC_Sandwich_MeatSandwich.label>
+  <SC_Sandwich_MeatSandwich.description>얇게 썬 생고기를 바위빵 두 조각 사이에 넣어 만든 먹을거리입니다.</SC_Sandwich_MeatSandwich.description>
+  <SC_Sandwich_VeggieSandwich.label>채소 바위샌드</SC_Sandwich_VeggieSandwich.label>
+  <SC_Sandwich_VeggieSandwich.description>양념한 채소를 바위빵 두 조각 사이에 넣어 만든 먹을거리입니다.</SC_Sandwich_VeggieSandwich.description>
+  <SC_Sandwich_CheeseSandwich.label>구운 치즈 바위샌드</SC_Sandwich_CheeseSandwich.label>
+  <SC_Sandwich_CheeseSandwich.description>드워프 치즈를 바위빵 두 조각 사이에 넣은 뒤 구워 만든 먹을거리입니다.</SC_Sandwich_CheeseSandwich.description>
+  <SC_Brickloaf.label>벽돌빵</SC_Brickloaf.label>
+  <SC_Brickloaf.description>큼직하고 단단한 포카치아를 먹기 좋은 크기로 썰어 놓은 것입니다. 엄청나게 오랫동안 보관할 수 있습니다.</SC_Brickloaf.description>
+  <SC_Brickloaf.tools.0.label>덩이</SC_Brickloaf.tools.0.label>
+  <SC_Omelette.label>오믈렛</SC_Omelette.label>
+  <SC_Omelette.description>동물의 젖과 알, 다진 채소를 잘 섞은 뒤 팬에 넣고 익힌 요리입니다.</SC_Omelette.description>
+  <SC_DwarvenButter.label>드워프 버터</SC_DwarvenButter.label>
+  <SC_DwarvenButter.description>드워프유로 만든 버터입니다. 일반 버터보다 고소하고 약간 달콤합니다.</SC_DwarvenButter.description>
+  <SC_Plant_Bitterpot.label>비터팟</SC_Plant_Bitterpot.label>
+  <SC_Plant_Bitterpot.description>덩굴처럼 자라며 달콤쌉싸름한 "꿀"을 미끼로 포자를 퍼뜨리는 균류입니다. 배고픈 동굴 동물들이 자실체로 이끌려 와 맛을 보는 과정에서 온몸에 포자를 뒤집어쓰게 됩니다.\n\n&lt;color=#6e6e6eff&gt;전설에 따르면, 길을 잃은 수많은 스톤본 탐험가들이 오로지 비터팟의 꿀만 먹으며 몇 주 동안을 버텨냈다고 합니다.&lt;/color&gt;</SC_Plant_Bitterpot.description>
+  <SC_BitterNectar.label>비터팟 꿀</SC_BitterNectar.label>
+  <SC_BitterNectar.description>비터팟의 자실체에서 만들어지는 쓴 맛의 걸쭉한 꿀입니다.</SC_BitterNectar.description>
+  <SC_Molemutt.label>두더개</SC_Molemutt.label>
+  <SC_Molemutt.description>스톤본의 최고의 친구라고 여겨지는 두더개는 앞을 전혀 보지 못하지만, 자유자재로 움직이는 코와 감도 높은 수염을 이용해 어두운 동굴 안을 누빕니다. 짧고 억센 다리 덕에 날렵한 생김새를 갖춰 곤충의 굴속으로 빠르게 파고드는 것을 잘합니다. 다른 개과 동물에 비해 턱 힘은 약한 편이지만, 대신 강력한 앞발톱을 지니고 있습니다.\n\n&lt;color=#6e6e6eff&gt;전설에 따르면, 최초로 터를 잡았던 스톤본 정착민들은 커다란 두더개를 타고 그루그니의 이끼 평원을 내달리며, 고기와 가죽을 얻으려 대형 야수들을 떼지어 사냥했다고 합니다.</SC_Molemutt.description>
+  <SC_Molemutt.race.meatLabel>두더개 고기</SC_Molemutt.race.meatLabel>
+  <SC_Molemutt.tools.0.label>왼쪽 발톱</SC_Molemutt.tools.0.label>
+  <SC_Molemutt.tools.1.label>오른쪽 발톱</SC_Molemutt.tools.1.label>
+  <SC_Molemutt.tools.3.label>머리</SC_Molemutt.tools.3.label>
   <SC_Mote_FoodBitBread.label>Mote</SC_Mote_FoodBitBread.label>
   <SC_Mote_HotGrillLogs.label>Mote</SC_Mote_HotGrillLogs.label>
   <Mote_FeastSparkles.label>Mote</Mote_FeastSparkles.label>
   <SC_Mote_PotFlames.label>Mote</SC_Mote_PotFlames.label>
   <SC_Mote_HiveFlyers.label>Mote</SC_Mote_HiveFlyers.label>
+  <SC_CarvingTable.label>정형 작업대</SC_CarvingTable.label>
+  <SC_CarvingTable.description>특정 동물의 고급 부위를 정교하게 발라내는 데 사용하는 단순하고 튼튼한 나무 작업대입니다.</SC_CarvingTable.description>
   <SC_Table3x8c.description>의자가 있으면 여기서 밥을 먹습니다.</SC_Table3x8c.description>
   <SC_Counter1x5c.description>의자가 있으면 여기서 밥을 먹습니다.</SC_Counter1x5c.description>
   <SC_Counter1x3c.description>의자가 있으면 여기서 밥을 먹습니다.</SC_Counter1x3c.description>
+  <SC_KitchenCabinet.description>서랍과 찬장이 있는 수납장입니다. 재료 준비대, 뜨거운 그릴, 정형 작업대 근처에 두면 작업 속도가 증가합니다.</SC_KitchenCabinet.description>
+  <SC_KitchenIsland2x2c.description>주방 일을 하기에 알맞게 타일이 깔린 작업대입니다. 식탁으로도 사용할 수 있습니다.</SC_KitchenIsland2x2c.description>
+  <SC_KitchenIsland2x3c.description>주방 일을 하기에 알맞게 타일이 깔린 작업대입니다. 식탁으로도 사용할 수 있습니다.</SC_KitchenIsland2x3c.description>
+  <SC_HerbPot.label>허브 화분</SC_HerbPot.label>
+  <SC_HerbPot.description>허브를 기르기 위한 각진 모양의 화분입니다.</SC_HerbPot.description>
+  <SC_RoastingSpit.description>받침과 회전 손잡이가 달린 금속 꼬챙이입니다. 장식 외의 용도는 없습니다.</SC_RoastingSpit.description>
+  <SC_KitchenSink.label>주방 싱크대</SC_KitchenSink.label>
+  <SC_KitchenSink.description>개수대와 수도꼭지, 배수구가 있는 설비입니다. 방의 청결도를 높여줍니다.</SC_KitchenSink.description>
+  <SC_GrilledSteak.label>구운 스테이크</SC_GrilledSteak.label>
+  <SC_GrilledSteak.description>두툼한 고기를 미디엄 레어로 완벽하게 구워낸 요리입니다.</SC_GrilledSteak.description>
+  <SC_EggsNBacon.label>에그 앤 베이컨</SC_EggsNBacon.label>
+  <SC_EggsNBacon.description>서니 사이드 업 프라이에 짭짤하고 기름진 베이컨을 곁들인 요리입니다.</SC_EggsNBacon.description>
+  <SC_Poutine.label>푸틴</SC_Poutine.label>
+  <SC_Poutine.description>부드러운 감자튀김에 그레이비소스를 듬뿍 뿌리고 치즈 커드를 올린 요리입니다.\n\n&lt;color=#6e6e6eff&gt;스톤본들이 발을 디딘 곳마다 여러 문화권의 음식이 셰프들의 손을 거쳐 스톤본 식문화의 일부로 받아들여졌으며, 여기에는 옛 지구의 오래된 레시피들도 포함되어 있었습니다.&lt;/color&gt;</SC_Poutine.description>
+  <SC_Cheesesteak.label>치즈스테이크</SC_Cheesesteak.label>
+  <SC_Cheesesteak.description>따뜻한 바위빵을 갈라 뜨겁게 구운 고기와 녹아내린 치즈를 가득 채운 요리입니다.</SC_Cheesesteak.description>
+  <SC_RockbullRoast.label>바위소 로스트</SC_RockbullRoast.label>
+  <SC_RockbullRoast.description>허브를 발라 구운 부드럽고 풍미가 깊은 로스트입니다. 입안에서 살살 녹습니다.</SC_RockbullRoast.description>
+  <SC_CountryFriedMuffalo.label>컨트리 프라이드 머팔로</SC_CountryFriedMuffalo.label>
+  <SC_CountryFriedMuffalo.description>바삭하게 튀긴 스테이크에 으깬 감자와 부드러운 그레이비소스를 곁들인 요리입니다.</SC_CountryFriedMuffalo.description>
+  <SC_CrispyMegasloth.label>바삭한 거대늘보 뱃살</SC_CrispyMegasloth.label>
+  <SC_CrispyMegasloth.description>지방이 풍부한 거대늘보 뱃살을 오븐에서 오랫동안 바삭하게 굽고 매콤달콤한 소스를 곁들인 요리입니다.</SC_CrispyMegasloth.description>
+  <SC_ThrumboChop.label>트럼보 토마호크</SC_ThrumboChop.label>
+  <SC_ThrumboChop.description>커다란 갈비에 달콤하고 향긋한 민트 소스를 바르고 볶은 채소를 곁들인 요리입니다.</SC_ThrumboChop.description>
+  <SC_RockbullTenderloin.label>바위소 안심</SC_RockbullTenderloin.label>
+  <SC_RockbullTenderloin.description>바위소의 가장 부드러운 부위에서 잘라낸 두꺼운 고기입니다. 바위소의 다른 부위는 대체로 질기고 씹기 어렵기 때문에 안심은 상당히 귀하게 여겨집니다.\n\n&lt;color=#6e6e6eff&gt;스톤본 상류층의 식사 예법은 바위소 안심을 언더로드에게 대접하기에 가장 훌륭한 부위로 규정합니다. 하지만 정작 많은 언더로드는 크레스텔이나 바스카르처럼 더욱 이국적인 사냥감의 고기를 선호합니다.&lt;/color&gt;</SC_RockbullTenderloin.description>
+  <SC_MuffaloT-bone.label>머팔로 T본</SC_MuffaloT-bone.label>
+  <SC_MuffaloT-bone.description>머팔로의 등심 부위에서 얻은 고기로, 이름처럼 T자 모양의 뼈가 붙어 있습니다.\n\n&lt;color=#6e6e6eff&gt;변방의 개척민들이 즐겨 먹는 T본의 한쪽에는 부드러운 살코기가, 다른 한쪽에는 육향이 진한 고기가 붙어 있습니다. 이러한 양면성은 변경계에서의 삶, 즉 부드러우면서도 거친 생활을 상징한다고 여겨집니다.&lt;/color&gt;</SC_MuffaloT-bone.description>
+  <SC_MegaslothBelly.label>거대늘보 뱃살</SC_MegaslothBelly.label>
+  <SC_MegaslothBelly.description>거대늘보의 부드러운 배에서 얻은 고기입니다. 두껍게 형성된 지방층이 특징입니다.\n\n&lt;color=#6e6e6eff&gt;주로 초식을 하는 거대늘보의 고기는 진하고 향긋한 풍미를 지니며, 나이든 거대늘보의 고기일수록 그 맛이 더욱 강합니다. 일부 베나토르들은 거대늘보 뱃살을 구할 수 있는 가장 맛있는 생고기로 꼽습니다.&lt;/color&gt;</SC_MegaslothBelly.description>
+  <SC_ThrumboRib.label>트럼보 갈비</SC_ThrumboRib.label>
+  <SC_ThrumboRib.description>우아한 트럼보의 커다란 갈비를 하나씩 잘라냈습니다.\n\n&lt;color=#6e6e6eff&gt;부족 사회에서는 예로부터 트럼보에 관한 여러 민간 설화와 신화가 전해 내려왔기에, 트럼보의 고기는 자연사한 개체의 것만 먹었습니다. 트럼보가 죽으면 그 고기를 남김없이 발라내 먹는 연회 의식이 최대 일주일간 이어지며, 부족민들은 성대한 춤과 축제를 벌인 뒤 뼈를 정중히 매장합니다.&lt;/color&gt;</SC_ThrumboRib.description>
+  <SC_Plant_HerbGuild.label>허브 모둠</SC_Plant_HerbGuild.label>
+  <SC_Plant_HerbGuild.description>서로에게 이로운 영향을 주도록 함께 길러지는 여러 허브입니다. 성장 속도가 꽤 빠르고, 병충해에 걸리지 않으며, 수확에 실패하는 일도 없습니다.\n\n&lt;color=#6e6e6eff&gt;수염초, 갈고리풀, 스파이럴민트는 스톤본 요리 문화의 근간으로 여겨지는 세 가지 허브입니다. 다만 이 중에선 스파이럴민트만이 그루그니의 토착종입니다.&lt;/color&gt;</SC_Plant_HerbGuild.description>
+  <SC_AssortedHerbs.label>허브</SC_AssortedHerbs.label>
+  <SC_AssortedHerbs.description>요리에 쓰일 수 있도록 여러 허브를 모아둔 묶음입니다.</SC_AssortedHerbs.description>
+  <SC_Plant_WildWhiskerwort.label>야생 수염초</SC_Plant_WildWhiskerwort.label>
+  <SC_Plant_WildWhiskerwort.description>향긋한 잎이 식용으로 쓰이는 빠르게 자라는 허브입니다.\n\n&lt;color=#6e6e6eff&gt;수염초는 인류가 장거리 우주 여행에 나설 때 처음으로 가져간 향이 나는 식물로, 당시 우주선의 취사 담당자들에게 큰 사랑과 극찬을 받았습니다.&lt;/color&gt;</SC_Plant_WildWhiskerwort.description>
 </LanguageData>
