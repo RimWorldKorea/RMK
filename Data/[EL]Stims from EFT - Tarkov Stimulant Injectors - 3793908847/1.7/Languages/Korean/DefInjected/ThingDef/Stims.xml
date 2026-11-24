@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EL_Stim_Storage -->
+  <EL_Stim_Storage.label>주사기 보관함</EL_Stim_Storage.label>
+  <EL_Stim_Storage.description>다양한 각성제 주사기와 뉴트로아민을 종류별로 보관할 수 있도록 칸이 나뉜 키 큰 금속제 보관함입니다.</EL_Stim_Storage.description>
+
+  <!-- EL_Cartridge -->
+  <EL_Cartridge.label>주사기 카트리지</EL_Cartridge.label>
+  <EL_Cartridge.description>엔지니어링 플라스틱 외피, 강철 손잡이 피스톤, 투명한 유리 바이알, 스테인리스 주사바늘로 구성된 빈 카트리지입니다. 각성제 주사기 제작에 공통으로 쓰이는 전구체입니다.</EL_Cartridge.description>
+
+  <!-- 2A2-(b-TG) -->
+  <EL_Stim_2A2_bTG.label>2A2-(b-TG) 각성제 주사기</EL_Stim_2A2_bTG.label>
+  <EL_Stim_2A2_bTG.description>정찰이나 전술 기동을 돕는 전투 보조 약물입니다. 중추신경계를 안정시키고 주변 환경 적응을 도우며 운반 능력을 크게 향상시키지만 탈수를 가속합니다.
+
+[적용 효과]
+운반 능력 ×130%, 지연 0초/지속 900초;
+조작 +20%, 지연 0초/지속 900초;
+시력 +20%, 지연 0초/지속 900초;
+청력 +20%, 지연 0초/지속 900초;
+초당 열량 0.001 소모, 지연 0초/지속 900초.
+
+[자동 투여 조건]
+소집 상태일 때 투여.
+[자동 투여 우선순위]
+조건 충족 시 자동 주사 우선순위: 2 (중간).</EL_Stim_2A2_bTG.description>
+  <EL_Stim_2A2_bTG.comps.CompUsable.useLabel>{0} 투여</EL_Stim_2A2_bTG.comps.CompUsable.useLabel>
+
+  <!-- 3-(b-TG) -->
+  <EL_Stim_3_bTG.label>3-(b-TG) 각성제 주사기</EL_Stim_3_bTG.label>
+  <EL_Stim_3_bTG.description>3-(b-페닐아이소프로필) 활성 물질을 함유한 중추신경계 각성제입니다. 지각력과 집중력을 높이고 근전도 신호를 강화하여 근력을 증진시킵니다.
+
+[적용 효과]
+조작 +60%, 지연 0초/지속 240초;
+시력 +60%, 지연 0초/지속 240초;
+청력 +60%, 지연 0초/지속 240초;
+전역 작업 속도 ×120%, 지연 0초/지속 240초;
+초당 피로 0.01 회복, 지연 0초/지속 240초;
+초당 열량 0.0025 소모, 지연 120초/지속 120초;
+의식 -15%, 지연 120초/지속 45초.
+
+[자동 투여 조건]
+소집 상태이며 수면(활력)이 40% 미만일 때 투여.
+[자동 투여 우선순위]
+조건 충족 시 자동 주사 우선순위: 2 (중간).</EL_Stim_3_bTG.description>
+  <EL_Stim_3_bTG.comps.CompUsable.useLabel>{0} 투여</EL_Stim_3_bTG.comps.CompUsable.useLabel>
+
+  <!-- Adrenaline -->
+  <EL_Stim_Adrenaline.label>아드레날린 주사기</EL_Stim_Adrenaline.label>
+  <EL_Stim_Adrenaline.description>정량의 아드레날린이 들어있는 펜 형태의 주사기로, 신체 반응을 높이고 근육이 격렬한 활동을 할 수 있도록 준비시킵니다. 일시적으로 신체 능력을 증폭하고 통증을 억제합니다.
+
+[적용 효과]
+통증 ×10%, 지연 0초/지속 65초;
+조작 +20%, 지연 0초/지속 65초;
+전역 작업 속도 ×120%, 지연 0초/지속 65초;
+이동 속도 ×120%, 지연 0초/지속 65초;
+사격 명중률 ×120%, 지연 0초/지속 65초;
+무작위 비골격 부위 체력 초당 4 회복, 지연 0초/지속 15초;
+초당 열량 0.018 소모, 지연 30초/지속 30초.
+
+[자동 투여 조건]
+소집 상태이며 비골격 부위의 총 부상 피해량이 45에 도달했을 때 투여.
+[자동 투여 우선순위]
+조건 충족 시 자동 주사 우선순위: 1 (낮음).</EL_Stim_Adrenaline.description>
+  <EL_Stim_Adrenaline.comps.CompUsable.useLabel>{0} 투여</EL_Stim_Adrenaline.comps.CompUsable.useLabel>
+
+  <!-- AHF1-M -->
+  <EL_Stim_AHF1M.label>AHF1-M 지혈 주사기</EL_Stim_AHF1M.label>
+  <EL_Stim_AHF1M.description>혈우병 인자를 기반으로 개발된 강력한 지혈제입니다. 투여 시 모든 상처의 출혈을 즉시 멈추고 60초 동안 출혈 저항을 대폭 증가시켜 새로운 상처가 생겨도 출혈을 방지하며, 신체의 자가 치유 능력을 약간 향상시킵니다. 대사 스트레스가 증가하여 가벼운 탈수를 유발할 수 있습니다.
+
+[적용 효과]
+총 출혈 계수 ×0%, 지연 0초/지속 60초;
+부상 치유 계수 +10%, 지연 0초/지속 60초;
+초당 열량 0.003 소모, 지연 0초/지속 120초.
+
+[자동 투여 조건]
+실혈사까지 남은 시간이 8시간 이하일 때 투여.
+[자동 투여 우선순위]
+조건 충족 시 자동 주사 우선순위: 2 (중간).</EL_Stim_AHF1M.description>
+  <EL_Stim_AHF1M.comps.CompUsable.useLabel>{0} 투여</EL_Stim_AHF1M.comps.CompUsable.useLabel>
+
+  <!-- eTG-change -->
+  <EL_Stim_eTGchange.label>eTG-change 재생 주사기</EL_Stim_eTGchange.label>
+  <EL_Stim_eTGchange.description>극단적인 효능을 지닌 조직 재생 촉진제입니다. 중증 외상 치료나 후송 중인 부상자의 신속한 회복을 위해 사용됩니다. 부작용이 매우 강력하므로 전문 의료 인력에 한해서만 사용이 엄격히 제한됩니다.
+
+[적용 효과]
+신진대사 +20%, 지연 0초/지속 60초;
+면역력 획득 속도 +20%, 지연 0초/지속 60초;
+무작위 신체 부위 체력 초당 7 회복(흉터 치료 가능), 지연 0초/지속 60초;
+초당 실혈 0.005 감소, 지연 0초/지속 60초;
+초당 열량 0.05 회복, 지연 0초/지속 60초;
+초당 열량 0.03 소모, 지연 40초/지속 40초;
+이동 능력 -10%, 지연 60초/지속 60초;
+부상 치유 계수 ×90%, 지연 60초/지속 60초.
+
+[자동 투여 조건]
+소집 상태이며 총 부상 피해량이 180을 초과하거나 실혈사까지 남은 시간이 4시간 이하일 때 투여.
+[자동 투여 우선순위]
+조건 충족 시 자동 주사 우선순위: 5 (최상).</EL_Stim_eTGchange.description>
+  <EL_Stim_eTGchange.comps.CompUsable.useLabel>{0} 투여</EL_Stim_eTGchange.comps.CompUsable.useLabel>
+
+  <!-- L1 (Norepinephrine) -->
+  <EL_Stim_L1_Norepinephrine.label>L1(노르에피네프린) 주사기</EL_Stim_L1_Norepinephrine.label>
+  <EL_Stim_L1_Norepinephrine.description>노르에피네프린을 함유한 일회용 펜 형태 주사기로, 단기적으로 신체 능력을 높이고 통증의 영향을 줄여줍니다. 투쟁-도피 반응과 같은 생리적 대처 능력을 끌어올리지만 대사 소비량 또한 증가합니다.
+
+[적용 효과]
+통증 ×10%, 지연 0초/지속 120초;
+전역 작업 속도 ×140%, 지연 0초/지속 120초;
+이동 속도 ×120%, 지연 0초/지속 120초;
+수면 감소율 ×70%, 지연 0초/지속 120초;
+초당 열량 0.009 소모, 지연 0초/지속 60초.
+
+[자동 투여 조건]
+소집 상태이며 영양(음식)이 54% 이상일 때 투여.
+[자동 투여 우선순위]
+조건 충족 시 자동 주사 우선순위: 1 (낮음).</EL_Stim_L1_Norepinephrine.description>
+  <EL_Stim_L1_Norepinephrine.comps.CompUsable.useLabel>{0} 투여</EL_Stim_L1_Norepinephrine.comps.CompUsable.useLabel>
+
+  <!-- M.U.L.E -->
+  <EL_Stim_MULE.label>M.U.L.E. 각성제 주사기</EL_Stim_MULE.label>
+  <EL_Stim_MULE.description>극단적인 근육 자극제로, 장거리 행군 전 신체의 적재 능력을 끌어올리기 위해 사용됩니다. 보급 상황이 열악한 전장에서 그 이름(노새)처럼 병사들이 더 많은 짐을 오랫동안 운반할 수 있게 해줌이 입증되었습니다.
+
+[적용 효과]
+운반 능력 ×200%, 지연 0초/지속 900초;
+10초마다 무작위 비골격 부위에 1점의 대사 손상, 지연 0초/지속 900초.
+
+[자동 투여 조건]
+소집 상태이며 소지 무게가 운반 능력을 초과했을 때 투여.
+[자동 투여 우선순위]
+조건 충족 시 자동 주사 우선순위: 3 (높음).</EL_Stim_MULE.description>
+  <EL_Stim_MULE.comps.CompUsable.useLabel>{0} 투여</EL_Stim_MULE.comps.CompUsable.useLabel>
+
+  <!-- Meldonin -->
+  <EL_Stim_Meldonin.label>멜도닌 주사기</EL_Stim_Meldonin.label>
+  <EL_Stim_Meldonin.description>운동 능력 향상 각성제로, 활력을 빠르게 회복하고 근력과 지구력을 증진하여 피로를 잊게 해줍니다. 대사 스트레스가 증가하는 부작용이 있습니다. 또한 체내 근육 긴장도를 높여 물리적 충격에 대한 저항력을 키워주는 숨겨진 특성이 있어 군용 전투 각성제로 채택되었습니다.
+
+[적용 효과]
+전역 작업 속도 ×120%, 지연 0초/지속 900초;
+이동 속도 ×140%, 지연 0초/지속 900초;
+초당 피로 0.005 회복, 지연 0초/지속 900초;
+초당 열량 0.002 소모, 지연 30초/지속 870초.
+
+[자동 투여 조건]
+소집 상태이며 영양이 80% 이상일 때 투여.
+[자동 투여 우선순위]
+조건 충족 시 자동 주사 우선순위: 3 (높음).</EL_Stim_Meldonin.description>
+  <EL_Stim_Meldonin.comps.CompUsable.useLabel>{0} 투여</EL_Stim_Meldonin.comps.CompUsable.useLabel>
+
+  <!-- Morphine -->
+  <EL_Stim_Morphine.label>모르핀 주사기</EL_Stim_Morphine.label>
+  <EL_Stim_Morphine.description>고용량의 모르핀이 들어있는 일회용 펜 형태 주사기입니다. 사용 즉시 통증을 획기적으로 억제하지만 대사 소비량이 늘어납니다.
+
+[적용 효과]
+통증 ×5%, 지연 0초/지속 305초;
+사용 즉시 열량 15% 소모.
+
+[자동 투여 조건]
+소집 상태이며 통증이 30% 이상일 때 투여.
+[자동 투여 우선순위]
+조건 충족 시 자동 주사 우선순위: 2 (중간).</EL_Stim_Morphine.description>
+  <EL_Stim_Morphine.comps.CompUsable.useLabel>{0} 투여</EL_Stim_Morphine.comps.CompUsable.useLabel>
+
+  <!-- Obd2 -->
+  <EL_Stim_Obd2_cocktail.label>옵돌보스 2 칵테일 각성제 주사기</EL_Stim_Obd2_cocktail.label>
+  <EL_Stim_Obd2_cocktail.description>테라그룹 출신 의료 전문가의 또 다른 결과물로, 기존 옵돌보스의 개량형 버전입니다. 테라그룹 연구소가 폐쇄되었음에도 그의 광기 어린 실험은 멈추지 않은 모양입니다.
+
+[적용 효과]
+조작 +40%, 지연 0초/지속 1800초;
+시력 +40%, 지연 0초/지속 1800초;
+청력 +40%, 지연 0초/지속 1800초;
+전역 작업 속도 ×140%, 지연 0초/지속 1800초;
+이동 속도 ×140%, 지연 0초/지속 1800초;
+운반 능력 ×190%, 지연 0초/지속 1800초;
+수면 감소율 ×120%, 지연 0초/지속 1800초;
+1초마다 무작위 비골격 부위에 1점의 대사 손상, 지연 0초/지속 1800초;
+초당 피로 0.01 소모, 지연 0초/지속 1800초.
+
+[자동 투여 조건]
+소집 상태이며 총 부상 피해량이 90 이하이고 수면(활력)이 90% 이상일 때 투여.
+[자동 투여 우선순위]
+조건 충족 시 자동 주사 우선순위: 1 (낮음).</EL_Stim_Obd2_cocktail.description>
+  <EL_Stim_Obd2_cocktail.comps.CompUsable.useLabel>{0} 투여</EL_Stim_Obd2_cocktail.comps.CompUsable.useLabel>
+
+  <!-- Obdolbos -->
+  <EL_Stim_Obdolbos.label>옵돌보스 칵테일 각성제 주사기</EL_Stim_Obdolbos.label>
+  <EL_Stim_Obdolbos.description>전직 테라그룹 의료 전문가가 제조한 출처 불명의 사제 약물이 담긴 주사기입니다. 투여할 때마다 매번 다른 부작용이 일어납니다. 더 이상 잃을 것이 없다고 느껴진다면 한 번쯤 운에 몸을 맡겨보는 것도 좋을 것입니다. 적어도 이 주사기의 개발자 자신은 그렇게 했습니다.
+
+[적용 효과]
+총 15가지 효과 중 무작위로 독립 확률 25%를 적용하여 600초 동안 발현.
+
+[자동 투여 조건]
+절대 자동으로 사용되지 않음.
+[자동 투여 우선순위]
+조건 충족 시 자동 주사 우선순위: 1 (낮음).</EL_Stim_Obdolbos.description>
+  <EL_Stim_Obdolbos.comps.CompUsable.useLabel>{0} 투여</EL_Stim_Obdolbos.comps.CompUsable.useLabel>
+
+  <!-- P22 -->
+  <EL_Stim_P22_22cpd.label>P22(화합물 22) 각성제 주사기</EL_Stim_P22_22cpd.label>
+  <EL_Stim_P22_22cpd.description>군용 근육 강화 약물로, 전투 전 신체 역량을 확장하고 피격 피해를 줄이며 회복을 앞당기기 위해 사용됩니다. 약효가 끝나면 극심한 피로가 몰려옵니다.
+
+[적용 효과]
+부상 치유 계수 +30%, 지연 0초/지속 60초;
+혈액 여과 +30%, 지연 0초/지속 60초;
+정신 붕괴 한계치 ×70%, 지연 0초/지속 60초;
+통증 한계치 ×130%, 지연 0초/지속 60초;
+이동 속도 ×80%, 지연 60초/지속 65초;
+초당 피로 0.008 소모, 지연 60초/지속 65초.
+
+[자동 투여 조건]
+소집 상태이며 면역이 필요한 질병에 걸렸을 때 / 소집 상태이며 붕대를 감은 상처 피해 합계가 60 이상이거나 감긴 상처가 5개 이상일 때 투여.
+[자동 투여 우선순위]
+조건 충족 시 자동 주사 우선순위: 3 (높음).</EL_Stim_P22_22cpd.description>
+  <EL_Stim_P22_22cpd.comps.CompUsable.useLabel>{0} 투여</EL_Stim_P22_22cpd.comps.CompUsable.useLabel>
+
+  <!-- Perfotoran -->
+  <EL_Stim_Perfotoran.label>페르포토란 인공혈액 주사기</EL_Stim_Perfotoran.label>
+  <EL_Stim_Perfotoran.description>산소를 운반할 수 있는 과불화탄소(PFO) 유화액 기반의 인공 혈액 제재입니다. 혈관에 주입되면 혈장 대체재 역할을 하여 신진대사를 촉진하고 조직 재생을 돕습니다. 중독, 방사능 피폭, 대량 출혈에 대항하는 만능 해독제로 사용되지만, 과도하게 사용할 경우 심각한 부작용을 초래합니다.
+
+[적용 효과]
+독소 축적, 식중독, 스카리아 감염, 폐 부패증을 즉시 제거하고 지속 시간 동안 면역 부여, 지연 0초/지속 120초;
+총 출혈 계수 ×0%, 지연 0초/지속 120초;
+초당 실혈 0.015 감소, 지연 0초/지속 120초;
+무작위 비골격 부위 체력 초당 2 회복(흉터 치료 가능), 지연 0초/지속 120초;
+신진대사 +10%, 지연 0초/지속 120초;
+부상 치유 계수 ×85%, 지연 60초/지속 60초;
+초당 열량 0.011 소모, 지연 60초/지속 60초.
+
+[자동 투여 조건]
+실혈사까지 남은 시간이 6시간 이하일 때 투여.
+[자동 투여 우선순위]
+조건 충족 시 자동 주사 우선순위: 3 (높음).</EL_Stim_Perfotoran.description>
+  <EL_Stim_Perfotoran.comps.CompUsable.useLabel>{0} 투여</EL_Stim_Perfotoran.comps.CompUsable.useLabel>
+
+  <!-- PNB -->
+  <EL_Stim_PNB.label>PNB 주사기</EL_Stim_PNB.label>
+  <EL_Stim_PNB.description>체내 심층 근육을 일시적으로 활성화하여 근육 조직의 투과성을 높임으로써 받는 피해를 줄여주는 군용 자극제입니다. 또한 단백질 합성을 촉진하여 상처 회복 속도를 비약적으로 끌어올리지만 면역계에 부작용을 남깁니다.
+
+[적용 효과]
+의식 +20%, 지연 0초/지속 40초;
+전역 작업 속도 ×140%, 지연 0초/지속 40초;
+무작위 비골격 부위 체력 초당 3 회복, 지연 0초/지속 40초;
+의식 -15%, 지연 40초/지속 20초;
+부상 치유 계수 ×80%, 지연 40초/지속 181초;
+혈액 여과 -20%, 지연 40초/지속 181초.
+
+[자동 투여 조건]
+소집 상태이며 비골격 부위 총 피해량이 80을 초과했을 때 투여.
+[자동 투여 우선순위]
+조건 충족 시 자동 주사 우선순위: 2 (중간).</EL_Stim_PNB.description>
+  <EL_Stim_PNB.comps.CompUsable.useLabel>{0} 투여</EL_Stim_PNB.comps.CompUsable.useLabel>
+
+  <!-- Propital -->
+  <EL_Stim_Propital.label>프로피탈 주사기</EL_Stim_Propital.label>
+  <EL_Stim_Propital.description>퓨린 및 피리미딘 염기, RNA, 기능성 효소의 생합성을 촉진하여 신체 재생 과정을 자극하는 군용 신체 증진제입니다. 신진대사를 촉진하고 통증을 억제하지만 후반부 부작용이 심해 일반적으로 전문 의료 인력에 한해서만 사용됩니다.
+
+[적용 효과]
+통증 ×10%, 지연 0초/지속 245초;
+신진대사 +20%, 지연 0초/지속 300초;
+혈액 여과 +20%, 지연 0초/지속 300초;
+부상 치유 계수 ×120%, 지연 0초/지속 300초;
+무작위 신체 부위 체력 초당 1 회복, 지연 0초/지속 300초;
+시력 -15%, 지연 270초/지속 30초;
+의식 -15%, 지연 270초/지속 30초.
+
+[자동 투여 조건]
+소집 상태이며 통증이 30% 이상일 때 / 무작위 부위 피해를 유발하는 각성제 효과가 활성화되어 있을 때 투여.
+[자동 투여 우선순위]
+조건 충족 시 자동 주사 우선순위: 4 (매우 높음).</EL_Stim_Propital.description>
+  <EL_Stim_Propital.comps.CompUsable.useLabel>{0} 투여</EL_Stim_Propital.comps.CompUsable.useLabel>
+
+  <!-- SJ1-TGLabs -->
+  <EL_Stim_SJ1_TGLabs.label>SJ1-TGLabs 전투 각성제 주사기</EL_Stim_SJ1_TGLabs.label>
+  <EL_Stim_SJ1_TGLabs.description>교전 전 신체 능력을 높이고 통증 민감도를 낮추기 위해 주사하는 군용 전투 각성제입니다. 심각한 대사 부작용이 있습니다. 다른 약물 합성의 전구체로도 활용됩니다.
+
+[적용 효과]
+이동 속도 ×120%, 지연 0초/지속 180초;
+전역 작업 속도 ×120%, 지연 0초/지속 180초;
+정신 붕괴 한계치 ×80%, 지연 0초/지속 180초;
+통증 한계치 ×120%, 지연 0초/지속 180초;
+초당 열량 0.005 소모, 지연 100초/지속 200초.
+
+[자동 투여 조건]
+소집 상태이며 영양이 50% 이상일 때 투여.
+[자동 투여 우선순위]
+조건 충족 시 자동 주사 우선순위: 1 (낮음).</EL_Stim_SJ1_TGLabs.description>
+  <EL_Stim_SJ1_TGLabs.comps.CompUsable.useLabel>{0} 투여</EL_Stim_SJ1_TGLabs.comps.CompUsable.useLabel>
+
+  <!-- SJ12-TGLabs -->
+  <EL_Stim_SJ12_TGLabs.label>SJ12-TGLabs 전투 각성제 주사기</EL_Stim_SJ12_TGLabs.label>
+  <EL_Stim_SJ12_TGLabs.description>신체 특정 기능을 의도적으로 늦춰 회복에 집중할 수 있도록 고안된 특수 전투 각성제입니다. 시상하부를 자극해 바소프레신을 분비시켜 부신 기능을 조절하고, 체온을 낮춰 지각력을 극대화합니다. 약효가 끝나면 장기 기능 이상으로 인해 체온이 급격히 상승합니다.
+
+[적용 효과]
+시력 +30%, 지연 0초/지속 600초;
+청력 +30%, 지연 0초/지속 600초;
+최저 적정 온도 -8°C, 지연 0초/지속 600초;
+초당 열량 0.01 회복, 지연 0초/지속 600초;
+최고 적정 온도 -12°C, 지연 600초/지속 300초.
+
+[자동 투여 조건]
+소집 상태이며 열량을 소모하는 각성제 효과가 켜져 있고 영양이 80% 이하일 때 투여.
+[자동 투여 우선순위]
+조건 충족 시 자동 주사 우선순위: 3 (높음).</EL_Stim_SJ12_TGLabs.description>
+  <EL_Stim_SJ12_TGLabs.comps.CompUsable.useLabel>{0} 투여</EL_Stim_SJ12_TGLabs.comps.CompUsable.useLabel>
+
+  <!-- SJ6-TGLabs -->
+  <EL_Stim_SJ6_TGLabs.label>SJ6-TGLabs 전투 각성제 주사기</EL_Stim_SJ6_TGLabs.label>
+  <EL_Stim_SJ6_TGLabs.description>교전 전 신체 능력을 대폭 끌어올리고 피로를 완전히 해소해 주는 고효율 군용 운동 각성제입니다. 다만 약효 종료 시점에 중추신경 억제 부작용이 뚜렷하게 나타납니다.
+
+[적용 효과]
+수면 감소율 ×70%, 지연 0초/지속 200초;
+초당 피로 0.02 회복, 지연 0초/지속 200초;
+의식 -15%, 지연 200초/지속 40초;
+시력 -15%, 지연 200초/지속 40초.
+
+[자동 투여 조건]
+소집 상태이며 수면(활력)이 60% 미만이고 피로 유발 각성제 효과가 켜져 있을 때 / 소집 상태이며 수면이 40% 미만일 때 투여.
+[자동 투여 우선순위]
+조건 충족 시 자동 주사 우선순위: 4 (매우 높음).</EL_Stim_SJ6_TGLabs.description>
+  <EL_Stim_SJ6_TGLabs.comps.CompUsable.useLabel>{0} 투여</EL_Stim_SJ6_TGLabs.comps.CompUsable.useLabel>
+
+  <!-- SJ9-TGLabs -->
+  <EL_Stim_SJ9_TGLabs.label>SJ9-TGLabs 전투 각성제 주사기</EL_Stim_SJ9_TGLabs.label>
+  <EL_Stim_SJ9_TGLabs.description>신진대사를 대폭 둔화시켜 극한 환경에 대한 저항력을 높여주는 특수 환경 적응 약물입니다. 체열 발산을 억제하여 열화상 장비에 감지되는 신호 크기를 줄여주지만 신체 조직에 지속적인 대사 손상을 입힙니다.
+
+[적용 효과]
+최저 적정 온도 -21°C, 지연 0초/지속 300초;
+최고 적정 온도 +14°C, 지연 0초/지속 300초;
+신진대사 -20%, 지연 0초/지속 300초;
+10초마다 무작위 비골격 부위에 1점의 대사 손상, 지연 0초/지속 420초;
+통증 ×115%, 지연 300초/지속 120초.
+
+[자동 투여 조건]
+소집 상태이며 기온이 불쾌한 상태이고 부상이 없을 때 투여.
+[자동 투여 우선순위]
+조건 충족 시 자동 주사 우선순위: 2 (중간).</EL_Stim_SJ9_TGLabs.description>
+  <EL_Stim_SJ9_TGLabs.comps.CompUsable.useLabel>{0} 투여</EL_Stim_SJ9_TGLabs.comps.CompUsable.useLabel>
+
+  <!-- Trimadol -->
+  <EL_Stim_Trimadol.label>트리마돌 주사기</EL_Stim_Trimadol.label>
+  <EL_Stim_Trimadol.description>특수 작전 대원을 위해 설계된 오피오이드 기반의 종합 신체 강화제입니다. 중추 및 척수 신경 세포막을 과분극화하여 통증을 강력히 억제하지만 신체에 막대한 대사 스트레스를 가합니다.
+
+[적용 효과]
+통증 ×5%, 지연 0초/지속 180초;
+조작 +10%, 지연 0초/지속 180초;
+전역 작업 속도 ×110%, 지연 0초/지속 180초;
+이동 속도 ×110%, 지연 0초/지속 180초;
+정신 붕괴 한계치 ×90%, 지연 0초/지속 180초;
+통증 한계치 ×110%, 지연 0초/지속 180초;
+수면 감소율 ×90%, 지연 0초/지속 180초;
+초당 피로 0.03 회복, 지연 0초/지속 180초;
+초당 열량 0.01 소모, 지연 0초/지속 180초.
+
+[자동 투여 조건]
+소집 상태이며 피로 유발 각성제 효과가 켜져 있을 때 / 소집 상태이며 수면이 20% 미만일 때 투여.
+[자동 투여 우선순위]
+조건 충족 시 자동 주사 우선순위: 3 (높음).</EL_Stim_Trimadol.description>
+  <EL_Stim_Trimadol.comps.CompUsable.useLabel>{0} 투여</EL_Stim_Trimadol.comps.CompUsable.useLabel>
+
+  <!-- xTG-12 -->
+  <EL_Stim_xTG12_Antidote.label>xTG-12 해독 주사기</EL_Stim_xTG12_Antidote.label>
+  <EL_Stim_xTG12_Antidote.description>인공적이거나 자연적으로 발생한 대부분의 독소를 중화할 수 있는 광범위 해독제입니다. 혈류를 타고 성분이 순환하는 동안 체내 독소에 면역을 부여하지만 약효 종료 후 자가 치유 능력이 일시적으로 저하됩니다.
+
+[적용 효과]
+독소 축적, 식중독, 붉은 포자 감염, 폐 부패증을 즉시 제거하고 지속 시간 동안 면역 부여, 지연 0초/지속 240초;
+부상 치유 계수 -10%, 지연 180초/지속 60초.
+
+[자동 투여 조건]
+소집 상태이며 해독 가능한 상태 이상에 걸렸을 때 투여.
+[자동 투여 우선순위]
+조건 충족 시 자동 주사 우선순위: 3 (높음).</EL_Stim_xTG12_Antidote.description>
+  <EL_Stim_xTG12_Antidote.comps.CompUsable.useLabel>{0} 투여</EL_Stim_xTG12_Antidote.comps.CompUsable.useLabel>
+
+  <!-- Zagustin -->
+  <EL_Stim_Zagustin.label>자구스틴 주사기</EL_Stim_Zagustin.label>
+  <EL_Stim_Zagustin.description>피브린 분해 효소의 전환을 억제하는 강력한 군용 지혈제입니다. 투여 즉시 전신의 출혈을 멈추고 출혈 저항을 대폭 높여줍니다을 대폭 높여줍니다. 약효 후반부에는 대사 손실과 탈수를 유발하며 가벼운 혼란 증세를 보일 수 있습니다.
+
+[적용 효과]
+즉시 완전 지혈, 지연 0초/지속 180초;
+혈액 여과 +40%, 지연 0초/지속 180초;
+신진대사 -10%, 지연 0초/지속 180초;
+의식 -15%, 지연 170초/지속 40초;
+초당 열량 0.014 소모, 지연 170초/지속 40초.
+
+[자동 투여 조건]
+실혈사까지 남은 시간이 6시간 이하일 때 투여.
+[자동 투여 우선순위]
+조건 충족 시 자동 주사 우선순위: 2 (중간).</EL_Stim_Zagustin.description>
+  <EL_Stim_Zagustin.comps.CompUsable.useLabel>{0} 투여</EL_Stim_Zagustin.comps.CompUsable.useLabel>
+
+  <!-- 투여 상호작용 및 약물 정책 문구 -->
+  <EL_Stim_2A2_bTG.ingestible.ingestCommandString>{0} 투여</EL_Stim_2A2_bTG.ingestible.ingestCommandString>
+  <EL_Stim_2A2_bTG.ingestible.ingestReportString>{0} 투여 중.</EL_Stim_2A2_bTG.ingestible.ingestReportString>
+  <EL_Stim_3_bTG.ingestible.ingestCommandString>{0} 투여</EL_Stim_3_bTG.ingestible.ingestCommandString>
+  <EL_Stim_3_bTG.ingestible.ingestReportString>{0} 투여 중.</EL_Stim_3_bTG.ingestible.ingestReportString>
+  <EL_Stim_Adrenaline.ingestible.ingestCommandString>{0} 투여</EL_Stim_Adrenaline.ingestible.ingestCommandString>
+  <EL_Stim_Adrenaline.ingestible.ingestReportString>{0} 투여 중.</EL_Stim_Adrenaline.ingestible.ingestReportString>
+  <EL_Stim_AHF1M.ingestible.ingestCommandString>{0} 투여</EL_Stim_AHF1M.ingestible.ingestCommandString>
+  <EL_Stim_AHF1M.ingestible.ingestReportString>{0} 투여 중.</EL_Stim_AHF1M.ingestible.ingestReportString>
+  <EL_Stim_eTGchange.ingestible.ingestCommandString>{0} 투여</EL_Stim_eTGchange.ingestible.ingestCommandString>
+  <EL_Stim_eTGchange.ingestible.ingestReportString>{0} 투여 중.</EL_Stim_eTGchange.ingestible.ingestReportString>
+  <EL_Stim_L1_Norepinephrine.ingestible.ingestCommandString>{0} 투여</EL_Stim_L1_Norepinephrine.ingestible.ingestCommandString>
+  <EL_Stim_L1_Norepinephrine.ingestible.ingestReportString>{0} 투여 중.</EL_Stim_L1_Norepinephrine.ingestible.ingestReportString>
+  <EL_Stim_MULE.ingestible.ingestCommandString>{0} 투여</EL_Stim_MULE.ingestible.ingestCommandString>
+  <EL_Stim_MULE.ingestible.ingestReportString>{0} 투여 중.</EL_Stim_MULE.ingestible.ingestReportString>
+  <EL_Stim_Meldonin.ingestible.ingestCommandString>{0} 투여</EL_Stim_Meldonin.ingestible.ingestCommandString>
+  <EL_Stim_Meldonin.ingestible.ingestReportString>{0} 투여 중.</EL_Stim_Meldonin.ingestible.ingestReportString>
+  <EL_Stim_Morphine.ingestible.ingestCommandString>{0} 투여</EL_Stim_Morphine.ingestible.ingestCommandString>
+  <EL_Stim_Morphine.ingestible.ingestReportString>{0} 투여 중.</EL_Stim_Morphine.ingestible.ingestReportString>
+  <EL_Stim_Obd2_cocktail.ingestible.ingestCommandString>{0} 투여</EL_Stim_Obd2_cocktail.ingestible.ingestCommandString>
+  <EL_Stim_Obd2_cocktail.ingestible.ingestReportString>{0} 투여 중.</EL_Stim_Obd2_cocktail.ingestible.ingestReportString>
+  <EL_Stim_Obdolbos.ingestible.ingestCommandString>{0} 투여</EL_Stim_Obdolbos.ingestible.ingestCommandString>
+  <EL_Stim_Obdolbos.ingestible.ingestReportString>{0} 투여 중.</EL_Stim_Obdolbos.ingestible.ingestReportString>
+  <EL_Stim_P22_22cpd.ingestible.ingestCommandString>{0} 투여</EL_Stim_P22_22cpd.ingestible.ingestCommandString>
+  <EL_Stim_P22_22cpd.ingestible.ingestReportString>{0} 투여 중.</EL_Stim_P22_22cpd.ingestible.ingestReportString>
+  <EL_Stim_Perfotoran.ingestible.ingestCommandString>{0} 투여</EL_Stim_Perfotoran.ingestible.ingestCommandString>
+  <EL_Stim_Perfotoran.ingestible.ingestReportString>{0} 투여 중.</EL_Stim_Perfotoran.ingestible.ingestReportString>
+  <EL_Stim_PNB.ingestible.ingestCommandString>{0} 투여</EL_Stim_PNB.ingestible.ingestCommandString>
+  <EL_Stim_PNB.ingestible.ingestReportString>{0} 투여 중.</EL_Stim_PNB.ingestible.ingestReportString>
+  <EL_Stim_Propital.ingestible.ingestCommandString>{0} 투여</EL_Stim_Propital.ingestible.ingestCommandString>
+  <EL_Stim_Propital.ingestible.ingestReportString>{0} 투여 중.</EL_Stim_Propital.ingestible.ingestReportString>
+  <EL_Stim_SJ1_TGLabs.ingestible.ingestCommandString>{0} 투여</EL_Stim_SJ1_TGLabs.ingestible.ingestCommandString>
+  <EL_Stim_SJ1_TGLabs.ingestible.ingestReportString>{0} 투여 중.</EL_Stim_SJ1_TGLabs.ingestible.ingestReportString>
+  <EL_Stim_SJ12_TGLabs.ingestible.ingestCommandString>{0} 투여</EL_Stim_SJ12_TGLabs.ingestible.ingestCommandString>
+  <EL_Stim_SJ12_TGLabs.ingestible.ingestReportString>{0} 투여 중.</EL_Stim_SJ12_TGLabs.ingestible.ingestReportString>
+  <EL_Stim_SJ6_TGLabs.ingestible.ingestCommandString>{0} 투여</EL_Stim_SJ6_TGLabs.ingestible.ingestCommandString>
+  <EL_Stim_SJ6_TGLabs.ingestible.ingestReportString>{0} 투여 중.</EL_Stim_SJ6_TGLabs.ingestible.ingestReportString>
+  <EL_Stim_SJ9_TGLabs.ingestible.ingestCommandString>{0} 투여</EL_Stim_SJ9_TGLabs.ingestible.ingestCommandString>
+  <EL_Stim_SJ9_TGLabs.ingestible.ingestReportString>{0} 투여 중.</EL_Stim_SJ9_TGLabs.ingestible.ingestReportString>
+  <EL_Stim_Trimadol.ingestible.ingestCommandString>{0} 투여</EL_Stim_Trimadol.ingestible.ingestCommandString>
+  <EL_Stim_Trimadol.ingestible.ingestReportString>{0} 투여 중.</EL_Stim_Trimadol.ingestible.ingestReportString>
+  <EL_Stim_xTG12_Antidote.ingestible.ingestCommandString>{0} 투여</EL_Stim_xTG12_Antidote.ingestible.ingestCommandString>
+  <EL_Stim_xTG12_Antidote.ingestible.ingestReportString>{0} 투여 중.</EL_Stim_xTG12_Antidote.ingestible.ingestReportString>
+  <EL_Stim_Zagustin.ingestible.ingestCommandString>{0} 투여</EL_Stim_Zagustin.ingestible.ingestCommandString>
+  <EL_Stim_Zagustin.ingestible.ingestReportString>{0} 투여 중.</EL_Stim_Zagustin.ingestible.ingestReportString>
+</LanguageData>
