@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MGSP_Term_Cerebrex.label>세레브렉스 코어</MGSP_Term_Cerebrex.label>
+  <MGSP_Term_Cerebrex.description>행성의 모든 메카노이드를 지배하는, 메카노이드 군락 안의 주 두뇌입니다. 그 명령은 메카노이드 위성망을 통해 내려가며, 군락 안에서는 트리뷴을 직접 승인합니다.</MGSP_Term_Cerebrex.description>
+  <MGSP_Term_Satellite.label>메카노이드 위성망</MGSP_Term_Satellite.label>
+  <MGSP_Term_Satellite.description>지휘 체계가 없는 메카노이드를 직접 지휘하는 궤도의 위성들입니다. 지상에 뚫을 노드가 없으므로 그런 메카노이드는 해킹할 수 없습니다.</MGSP_Term_Satellite.description>
+  <MGSP_Term_Hive.label>메카노이드 군락</MGSP_Term_Hive.label>
+  <MGSP_Term_Hive.description>세레브렉스 코어가 있는 궤도 기지입니다.</MGSP_Term_Hive.description>
+  <MGSP_Term_Chain.label>지휘 체계</MGSP_Term_Chain.label>
+  <MGSP_Term_Chain.description>위성망이 고대 트리뷴을 승인한 뒤 명령을 계층별로 중계하는 구조입니다. 지상에서 뚫을 수 있는 유일한 틈입니다.</MGSP_Term_Chain.description>
+  <MGSP_Term_AncientCommander.label>고대 트리뷴</MGSP_Term_AncientCommander.label>
+  <MGSP_Term_AncientCommander.description>지휘 체계의 주 노드입니다. 업링크가 절대 끊기지 않으며, 파괴하거나 제압할 수만 있습니다.</MGSP_Term_AncientCommander.description>
+  <MGSP_Term_MasterNode.label>주 노드</MGSP_Term_MasterNode.label>
+  <MGSP_Term_MasterNode.description>지휘 체계의 꼭대기로, 보통 고대 트리뷴입니다. 파괴하면 체계의 카운트다운이 3시간만 남습니다.</MGSP_Term_MasterNode.description>
+  <MGSP_Term_RelayNode.label>중계 노드</MGSP_Term_RelayNode.label>
+  <MGSP_Term_RelayNode.description>명령을 아래로 전달하는 중간 계층입니다. 헤럴드, 지휘 중계탑, 메카노이드 중계기 등이 있습니다.</MGSP_Term_RelayNode.description>
+  <MGSP_Term_Mesh.label>메시 체계</MGSP_Term_Mesh.label>
+  <MGSP_Term_Mesh.description>지휘기가 없는 메카노이드끼리 신호를 중계하는 체계입니다. 벽이나 자연 암석에 막히지 않으면 6칸 안의 메카노이드끼리 이어집니다. 고립된 구성원은 직접 해킹할 수 있습니다.</MGSP_Term_Mesh.description>
+  <MGSP_Term_Link.label>링크</MGSP_Term_Link.label>
+  <MGSP_Term_Link.description>노드에서 아래로 뻗어 메카노이드 집단이나 건물로 이어지는 연결 하나입니다. 빼앗으면 그 아래의 유닛을 처리할 수 있습니다.</MGSP_Term_Link.description>
+  <MGSP_Term_Uplink.label>업링크</MGSP_Term_Uplink.label>
+  <MGSP_Term_Uplink.description>노드가 위쪽과 이어진 연결입니다. 노드를 체력 기준치(건물 노드는 30%) 아래로 떨어뜨리거나 위쪽을 파괴하면 끊을 수 있으며, 그 뒤 링크를 빼앗을 수 있습니다.</MGSP_Term_Uplink.description>
+  <MGSP_Term_Tower.label>지휘 중계탑</MGSP_Term_Tower.label>
+  <MGSP_Term_Tower.description>적의 중계 노드 건물입니다. 빼앗으면 12칸 안에서 아군 메카노이드를 강화할지, 적의 오라를 없앨지 고를 수 있습니다.</MGSP_Term_Tower.description>
+  <MGSP_Term_MechRelay.label>메카노이드 중계기</MGSP_Term_MechRelay.label>
+  <MGSP_Term_MechRelay.description>Odyssey의 메카노이드 중계기입니다. 지휘 체계가 있는 임무 맵에서는 노드가 됩니다. 안정장치가 그 링크이며, 각 안정장치 아래의 고대 헤럴드가 경비병을 지휘합니다.</MGSP_Term_MechRelay.description>
+  <MGSP_Term_Stabilizer.label>안정장치</MGSP_Term_Stabilizer.label>
+  <MGSP_Term_Stabilizer.description>메카노이드 중계기나 세레브렉스 코어 주위의 건물입니다. 하나하나가 그 링크이며, 메카노이드 군락에서는 각각 하위 체계 하나를 승인하기도 합니다.</MGSP_Term_Stabilizer.description>
+  <MGSP_Term_Domain.label>영역</MGSP_Term_Domain.label>
+  <MGSP_Term_Domain.description>메카노이드 군락의 세레브렉스 코어와 안정장치 3개입니다. 각 안정장치가 하위 체계 하나를 승인합니다. NP4입니다.</MGSP_Term_Domain.description>
+  <MGSP_Term_Authority.label>권한</MGSP_Term_Authority.label>
+  <MGSP_Term_Authority.description>트리뷴의 통제력이 나오는 곳입니다. 메카노이드 군락 밖에서는 위성망이 승인하며, 안에서는 세레브렉스 코어가 안정장치를 통해 부여합니다. 그 안정장치를 빼앗으면 사라집니다.</MGSP_Term_Authority.description>
+  <MGSP_Term_Assembler.label>메카노이드 배양기</MGSP_Term_Assembler.label>
+  <MGSP_Term_Assembler.description>메카노이드 전초기지 건물입니다. 장악하면 만들던 메카노이드를 임시 아군으로 완성한 뒤(최대 4시간) 꺼집니다.</MGSP_Term_Assembler.description>
+  <MGSP_Term_CommandMech.label>트리뷴</MGSP_Term_CommandMech.label>
+  <MGSP_Term_CommandMech.description>아군 트리뷴입니다. 신호를 가로채고, 링크를 빼앗고, 단일 해킹을 합니다. 미니 메카도 이끕니다. 레벨 1에서 4기, 레벨 2에서 8기, 레벨 3에서 12기입니다. 자리가 비면 맵의 미니 메카 조립기에 새로 주문합니다. 왕복선, 수송 포드, 이동대로 떠나거나 구덩이 관문이나 주머니 맵 출구 같은 맵 포털을 지나면, 15칸 안의 미니 메카가 트리뷴에 실려 함께 이동하며 그 무게가 더해집니다. 다른 맵에 남겨진 미니 메카는 트리뷴을 잃습니다.</MGSP_Term_CommandMech.description>
+  <MGSP_Term_Mechanitor.label>메카나이터</MGSP_Term_Mechanitor.label>
+  <MGSP_Term_Mechanitor.description>메크링크를 가진 아군 정착민입니다. 침공 단계에서는 메카노이드 습격이 메카나이터를 노립니다.</MGSP_Term_Mechanitor.description>
+  <MGSP_Term_RelayMech.label>헤럴드</MGSP_Term_RelayMech.label>
+  <MGSP_Term_RelayMech.description>아군 트리뷴 밑의 중계 지휘기입니다. 12칸 안을 가로채며, 근처의 장악한 메카노이드는 간섭 부하를 절반만 차지합니다.</MGSP_Term_RelayMech.description>
+  <MGSP_Term_ReconDrone.label>정찰 미니 메카</MGSP_Term_ReconDrone.label>
+  <MGSP_Term_ReconDrone.description>트리뷴의 가로채기를 20칸으로, 해킹 범위를 3칸 늘려 주는 미니 메카입니다.</MGSP_Term_ReconDrone.description>
+  <MGSP_Term_NetBay.label>지휘망 격납 구역</MGSP_Term_NetBay.label>
+  <MGSP_Term_NetBay.description>이 안에서는 장악한 메카노이드가 간섭 부하를 절반만 차지하며, 아군 메카노이드가 일시 해킹당하지 않습니다.</MGSP_Term_NetBay.description>
+  <MGSP_Term_Stasis.label>정지 격납고</MGSP_Term_Stasis.label>
+  <MGSP_Term_Stasis.description>안에 든 메카노이드는 간섭 부하에 계산되지 않고 되찾기지도 않지만, 링크가 자연 감소하지도 않습니다.</MGSP_Term_Stasis.description>
+  <MGSP_Term_TempAlly.label>임시 아군</MGSP_Term_TempAlly.label>
+  <MGSP_Term_TempAlly.description>장악한 배양기가 만든 메카노이드입니다. 스스로 메카노이드를 공격하며, 조종할 수 없고 1일 뒤 타 버립니다.</MGSP_Term_TempAlly.description>
+  <MGSP_Term_NetView.label>지휘 네트워크 보기</MGSP_Term_NetView.label>
+  <MGSP_Term_NetView.description>지휘 체계, 계층, 카운트다운, 해킹할 수 있는 것을 보여 주는 오버레이입니다.</MGSP_Term_NetView.description>
+  <MGSP_Term_Intercept.label>가로채기</MGSP_Term_Intercept.label>
+  <MGSP_Term_Intercept.description>트리뷴을 가까이 데려가 적의 링크, 계층, 노드 역할을 봅니다.</MGSP_Term_Intercept.description>
+  <MGSP_Term_Take.label>링크 빼앗기</MGSP_Term_Take.label>
+  <MGSP_Term_Take.description>트리뷴이 해킹 범위 안에서 15초 동안 집중해 링크 하나를 빼앗습니다. 빼앗으면 끊기기만 하며, 그 아래의 메카노이드는 연락 두절됩니다.</MGSP_Term_Take.description>
+  <MGSP_Term_SingleHack.label>단일 해킹</MGSP_Term_SingleHack.label>
+  <MGSP_Term_SingleHack.description>메카노이드 하나를 직접 해킹합니다. 경량/중형/중량/초중량: 10/15/25/40초. 쥐고 있는 링크 아래에서 연락 두절된 메카노이드는 체력과 상관없이 해킹할 수 있습니다.</MGSP_Term_SingleHack.description>
+  <MGSP_Term_NetHack.label>네트워크 해킹</MGSP_Term_NetHack.label>
+  <MGSP_Term_NetHack.description>링크를 쥐고 있는 동안 18칸 안의 트리뷴이 그 아래에서 연락 두절된 메카노이드를 원격으로 해킹할 수 있습니다. 노드에 아군 트로이 목마가 올라타 있으면 거리 제한이 없으며, 대상 18칸 안의 헤럴드가 중계할 수도 있습니다. 시간은 두 배입니다.</MGSP_Term_NetHack.description>
+  <MGSP_Term_HackRange.label>해킹 범위</MGSP_Term_HackRange.label>
+  <MGSP_Term_HackRange.description>트리뷴이 해킹을 시작하려면 얼마나 가까이 있어야 하는지이며, 대상이 보여야 합니다. 레벨 1/2/3에서 5/7/9칸, 정찰 미니 메카가 있으면 +3칸입니다. 네트워크 해킹은 시야 없이 18칸까지 닿습니다.</MGSP_Term_HackRange.description>
+  <MGSP_Term_DownloadData.label>지휘 데이터 내려받기</MGSP_Term_DownloadData.label>
+  <MGSP_Term_DownloadData.description>메카노이드 전초기지 건물에서 하는 정착민의 작업입니다. 연구 데이터를 복사할 뿐 아무것도 장악하지 않습니다. 해킹과는 다릅니다.</MGSP_Term_DownloadData.description>
+  <MGSP_Term_Assimilate.label>동화</MGSP_Term_Assimilate.label>
+  <MGSP_Term_Assimilate.description>연결 끊긴 메카노이드가 불안정한 링크를 지닌 채 영구히 아군이 됩니다.</MGSP_Term_Assimilate.description>
+  <MGSP_Term_Turncoat.label>변절</MGSP_Term_Turncoat.label>
+  <MGSP_Term_Turncoat.description>연결 끊긴 메카노이드가 곧바로 옛 편(항상 메카노이드인 것은 아님)을 공격하고 약 1시간 뒤 타 버립니다. 타 버리거나 폭주하면 옛 편으로 돌아갑니다.</MGSP_Term_Turncoat.description>
+  <MGSP_Term_Harvest.label>수확</MGSP_Term_Harvest.label>
+  <MGSP_Term_Harvest.description>연결 끊긴 메카노이드가 꺼져서 온전한 잔해가 됩니다. 분석이 두 번으로 계산됩니다.</MGSP_Term_Harvest.description>
+  <MGSP_Term_Trojan.label>트로이 목마</MGSP_Term_Trojan.label>
+  <MGSP_Term_Trojan.description>연결 끊긴 메카노이드를 몰래 돌려보냅니다. 위쪽을 모두 드러내고, 체계를 타고 올라가며, 원격 장악을 열어 주고, 거짓 명령을 내릴 수 있습니다.</MGSP_Term_Trojan.description>
+  <MGSP_Term_FullTakeover.label>완전 장악</MGSP_Term_FullTakeover.label>
+  <MGSP_Term_FullTakeover.description>링크를 모두 처리한 뒤 메카노이드 중계기나 고대 메카노이드 중계기에서 하는 60초짜리 마지막 단계입니다. 맵을 드러내고 궤도 메카노이드 소재를 줍니다(메카노이드 중계기에서 10개, 고대 중계기에서 4개).</MGSP_Term_FullTakeover.description>
+  <MGSP_Term_Capture.label>제압</MGSP_Term_Capture.label>
+  <MGSP_Term_Capture.description>고대 트리뷴을 체력 기준치 아래로 떨어뜨리고(또는 쓰러뜨리고) 해킹 범위 안에서, 또는 대상 18칸 안의 헤럴드를 통해 60초 동안 집중합니다. 그 뒤로는 아무도 그 체계를 되찾을 수 없습니다.</MGSP_Term_Capture.description>
+  <MGSP_Term_Retake.label>되찾기</MGSP_Term_Retake.label>
+  <MGSP_Term_Retake.description>위쪽과 아직 연결된 적 지휘 유닛이 범위 안에서 집중해 링크를 되찾습니다. 보호 등급에 따라 10~20초, 12~15칸입니다.</MGSP_Term_Retake.description>
+  <MGSP_Term_NP.label>네트워크 보호 등급</MGSP_Term_NP.label>
+  <MGSP_Term_NP.description>줄여서 NP라고 합니다. 적 체계마다 등급이 하나씩 있습니다. NP1 낮음, NP2 보통, NP3 높음, NP4 극도. 등급이 높을수록 더 빨리 되찾고, 아군이 장악한 메카노이드를 더 자주 방해하며, 중계 노드를 스스로 재건합니다.</MGSP_Term_NP.description>
+  <MGSP_Term_NPShort.label>보호 등급</MGSP_Term_NPShort.label>
+  <MGSP_Term_NPShort.description>줄여서 NP라고 합니다. 적 체계마다 등급이 하나씩 있습니다. NP1 낮음, NP2 보통, NP3 높음, NP4 극도. 등급이 높을수록 더 빨리 되찾고, 아군이 장악한 메카노이드를 더 자주 방해하며, 중계 노드를 스스로 재건합니다.</MGSP_Term_NPShort.description>
+  <MGSP_Term_NP1.label>NP1</MGSP_Term_NP1.label>
+  <MGSP_Term_NP1.description>네트워크 보호: 낮음. 링크 되찾기와 다시 연결만 합니다. 집중 20초, 12칸, 재사용 대기시간 60초, 체계 전체에서 동시 행동 1회. 트로이 목마 의심도가 절반 속도로 쌓입니다.</MGSP_Term_NP1.description>
+  <MGSP_Term_NP2.label>NP2</MGSP_Term_NP2.label>
+  <MGSP_Term_NP2.description>네트워크 보호: 보통. 네 가지 되찾기 행동을 모두 하며, 현장 진급도 합니다. 집중 15초, 15칸, 재사용 대기시간 30초, 동시 2회.</MGSP_Term_NP2.description>
+  <MGSP_Term_NP3.label>NP3</MGSP_Term_NP3.label>
+  <MGSP_Term_NP3.description>네트워크 보호: 높음. NP2가 하는 모든 것에 더해 중계기 생산과 위성 메카노이드 흡수도 합니다. 집중 10초, 15칸, 재사용 대기시간 15초, 동시 3회.</MGSP_Term_NP3.description>
+  <MGSP_Term_NP4.label>NP4</MGSP_Term_NP4.label>
+  <MGSP_Term_NP4.description>네트워크 보호: 극도. 메카노이드 군락에서만 나옵니다. NP3처럼 행동하지만, 트로이 목마의 의심도가 세 배 빨리 쌓이고, 2시간마다 탐지를 받으며, 제거가 6초 만에 끝납니다. 권한을 잃은 하위 체계는 NP3로 내려갑니다.</MGSP_Term_NP4.description>
+  <MGSP_Term_Promote.label>현장 진급</MGSP_Term_Promote.label>
+  <MGSP_Term_Promote.description>NP2 이상 체계가 중계 노드를 모두 잃고 연락 두절된 메카노이드가 3기 이상이면, 주 노드가 근처의 메카노이드 하나를 임시 중계기로 진급시켜(60초 집중) 다시 연결합니다. 체계마다 1회, NP3에서는 2회입니다.</MGSP_Term_Promote.description>
+  <MGSP_Term_Disconnected.label>연결 끊김</MGSP_Term_Disconnected.label>
+  <MGSP_Term_Disconnected.description>해킹당한 메카노이드는 꺼진 채 선택을 기다립니다. 4시간 안에 고르지 않으면 폭주합니다.</MGSP_Term_Disconnected.description>
+  <MGSP_Term_LostContact.label>연락 두절</MGSP_Term_LostContact.label>
+  <MGSP_Term_LostContact.description>링크를 빼앗겼거나, 노드가 파괴됐거나, 위쪽이 죽은 메카노이드입니다. 10초 동안 꺼졌다가 느려지며, 카운트다운이 끝나면 폭주합니다. 해킹할 수 있으며, 적이 다시 연결할 수도 있습니다.</MGSP_Term_LostContact.description>
+  <MGSP_Term_Berserk.label>폭주</MGSP_Term_Berserk.label>
+  <MGSP_Term_Berserk.description>너무 오래 연락 두절된 메카노이드입니다. 근처의 메카노이드가 아닌 모든 것을 공격합니다. 체력 기준치 미만이면 해킹할 수 있습니다.</MGSP_Term_Berserk.description>
+  <MGSP_Term_Unstable.label>불안정한 링크</MGSP_Term_Unstable.label>
+  <MGSP_Term_Unstable.description>장악한 메카노이드는 모두 하나씩 지닙니다. 간섭 부하를 늘리며 가끔 이상 현상을 일으킵니다.</MGSP_Term_Unstable.description>
+  <MGSP_Term_Extreme.label>극도로 불안정한 링크</MGSP_Term_Extreme.label>
+  <MGSP_Term_Extreme.description>기종을 아직 연구하지 않은 장악 메카노이드입니다. 간섭 부하 3, 재작성 불가. 기종을 연구하거나 정착민이 세레브렉스 노드를 착용하면 불안정한 링크로 낮아집니다.</MGSP_Term_Extreme.description>
+  <MGSP_Term_Load.label>간섭 부하</MGSP_Term_Load.label>
+  <MGSP_Term_Load.description>정착지 전체의 수치 하나입니다. 높을수록 이상 현상이 자주 일어납니다. 잡음, 간섭, 침투, 침공의 네 단계가 있습니다.</MGSP_Term_Load.description>
+  <MGSP_Term_Anomaly.label>이상 현상</MGSP_Term_Anomaly.label>
+  <MGSP_Term_Anomaly.description>장악한 메카노이드의 오작동입니다. 명령 지연부터 피아식별 혼란까지 있습니다.</MGSP_Term_Anomaly.description>
+  <MGSP_Term_NoRevive.label>부활 불가</MGSP_Term_NoRevive.label>
+  <MGSP_Term_NoRevive.description>임시 아군은 타 버리면 어떤 부활도 통하지 않는 적 시체가 됩니다.</MGSP_Term_NoRevive.description>
+  <MGSP_Term_AncientRelay.label>고대 메카노이드 중계기</MGSP_Term_AncientRelay.label>
+  <MGSP_Term_AncientRelay.description>트리뷴이 없는 일부 맵에서 위성망이 잠든 메카노이드를 붙잡아 두는 데 쓰는 지상 안테나입니다. 휴면 집단 하나하나가 그 링크이며 NP1입니다. 링크를 빼앗아도 집단은 깨어나지 않지만, 체력을 30%로 떨어뜨리면 아직 연결된 모든 집단이 깨어납니다.</MGSP_Term_AncientRelay.description>
+</LanguageData>

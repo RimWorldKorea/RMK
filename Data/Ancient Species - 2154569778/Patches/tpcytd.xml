@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/AncientSpecies.AS_WikiArticleDef[defName="AS_Wiki_EssenceAndOrb"]/sections/li[5]/text</xpath>
+          <value>
+            <text>마나리아 기관을 지닌 성인이면 성장 유형을 고르지 않았어도 수련의 물방울을 쓸 수 있습니다. 마나리아 레벨이나 명상 진행도를 올리지 않고 사용자의 능력 포인트를 늘립니다. 어린이는 쓸 수 없습니다.\n\n물방울로 평생 받을 수 있는 양은 사용자의 마나리아 레벨로 제한됩니다. 레벨이 높을수록 한도가 늘어납니다. 한도에 가까우면 남은 만큼만 주고 소모됩니다. 재특화, 기관 제거와 재이식, 영입으로 총량은 초기화되지 않습니다. 기관이 없으면 총량은 남지만 물방울을 쓸 수 없습니다.\n\n물방울은 은둔자 상단의 물품, 은둔자 구호 보상, 고대 엘프 유물 은닉처에서 얻을 수 있습니다. 제작할 수 없고 희귀품 상인도 팔지 않습니다.</text>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/AncientSpecies.AS_WikiArticleDef[defName="AS_Wiki_HolyKingdomRaids"]/sections/li[3]/text</xpath>
+          <value>
+            <text>방패 소지자가 방어를 이루며 벽을 돌파하고 귀중품이나 주민을 가져가려 합니다.</text>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/AncientSpecies.AS_WikiArticleDef[defName="AS_Wiki_Shields"]/sections/li[8]/text</xpath>
+          <value>
+            <text>오드 게이지가 있는 방패 소지 정착민을 선택하면 '방패에 오드 공급' 토글이 나타납니다.
+켜면 방패 지구력이 떨어지고 발동 조건이 맞을 때 오드를 소모해 한동안 지구력 회복을 빠르게 합니다.
+다만 오드가 너무 적거나 이전 발동의 재사용 대기시간이 끝나지 않았으면 발동하지 않습니다.
+
+오드 자동 소모를 막으려면 '방패에 오드 공급'을 끄세요.
+발동 조건, 비용, 지속 시간, 재사용 대기시간은 설명에서 확인하세요.</text>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/AncientSpecies.AS_WikiArticleDef[defName="AS_Wiki_Shields"]/sections/li[8]/flow/li[1]/label</xpath>
+          <value>
+            <label>방패에 오드 공급 켜기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/AncientSpecies.AS_WikiArticleDef[defName="AS_Wiki_Shields"]/sections/li[8]/flow/li[2]/label</xpath>
+          <value>
+            <label>지구력이 떨어지면 조건 확인</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/AncientSpecies.AS_WikiArticleDef[defName="AS_Wiki_Shields"]/sections/li[8]/flow/li[3]/label</xpath>
+          <value>
+            <label>오드 소모</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/AncientSpecies.AS_WikiArticleDef[defName="AS_Wiki_Shields"]/sections/li[8]/flow/li[4]/label</xpath>
+          <value>
+            <label>지구력 회복 가속</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/AncientSpecies.AS_WikiArticleDef[defName="AS_Wiki_Shields"]/sections/li[8]/flow/li[5]/label</xpath>
+          <value>
+            <label>재사용 대기</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ideology</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AS_Plant_Yggdrasil"]/comps/li[14]/message</xpath>
+          <value>
+            <message>AS_Message_YggdrasilDestroyed</message>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AS_Plant_Yggdrasil"]/description</xpath>
+          <value>
+            <description>엘프 신앙에서 가장 성스러운 존재인 신성한 세계수입니다. 세계수는 필멸의 세상과 신성을 잇습니다. 다 자란 모습을 본 이들은 영원한 축복을 받습니다.\n\n신성 왕국은 세계수가 여신 에필리아스의 축복이 세상에 형체를 얻은 것이라 믿습니다. 세계수를 해치는 것은 궁극의 신성모독입니다.\n\n자랄수록 신성한 광채가 강해져 마침내 주변의 모든 신도를 축복하는 성스러운 빛의 등대가 됩니다.\n\n뿌리에는 맨땅이 필요합니다. 나무가 선 땅에 바닥을 깔면 나무와 주변의 성스러운 풀, 에이르블룸이 죽습니다.\n\n특정 정착민이 이 나무에서 명상하게 하려면 근처에 신성한 기도 장소를 짓고 소유자로 지정하세요. 지정된 장소가 없는 정착민은 점수만으로 명상 대상을 고르므로 다른 집중 대상으로 걸어갈 수 있습니다.\n\n마나 영역 색상:\n- 녹색(안쪽): 고밀도 구역, 식물 성장 보너스 최대\n- 노란색(중간): 중밀도 구역, 보통 보너스\n- 파란색(바깥쪽): 저밀도 구역, 효과 미미\n- 빨간색(배제): 이 범위에는 다른 세계수를 심을 수 없음</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="AS_Seed_Yggdrasil"]/description</xpath>
+          <value>
+            <description>세계수의 귀중한 씨앗입니다. 이 신성한 씨앗을 심는 것은 헌신의 행위입니다. 시간이 지나면 믿는 모든 이를 축복하는 거대한 세계수로 자랍니다.\n\n이 씨앗은 극히 희귀하며 은화로 거래되지 않습니다. 오직 신성 왕국 신도들 사이에 신성한 위탁물로만 전해집니다.</description>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AncientSpecies.AS_WikiArticleDef[defName="AS_Wiki_ModSettings"]/sections/li[9]/text</xpath>
+    <value>
+      <text>기습 능력 버튼을 우클릭하면 기습을 지닌 선택 대상 모두의 개별 효과를 고를 수 있습니다.
+개별 선택이 있는 대상은 버튼 오른쪽 위에 별표가 표시됩니다.
+'공용 설정 사용'을 고르면 개별 선택이 지워지고 '기습 효과 (기본값)'을 따릅니다.</text>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AncientSpecies.AS_WikiArticleDef[defName="AS_Wiki_ModSettings"]/sections/li[9]/flow/li[1]/label</xpath>
+    <value>
+      <label>기습 우클릭</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AncientSpecies.AS_WikiArticleDef[defName="AS_Wiki_ModSettings"]/sections/li[9]/flow/li[2]/label</xpath>
+    <value>
+      <label>개별 효과 선택</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AncientSpecies.AS_WikiArticleDef[defName="AS_Wiki_ModSettings"]/sections/li[9]/flow/li[3]/label</xpath>
+    <value>
+      <label>공용 설정 사용</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AncientSpecies.AS_WikiArticleDef[defName="AS_Wiki_ModSettings"]/sections/li[18]/text</xpath>
+    <value>
+      <text>'외형'의 '정령 그릇 애니메이션'은 그릇의 귀, 꼬리, 눈 깜빡임, 자세 변화 움직임을 켜고 끕니다.
+다만 꺼도 그릇은 의식 중 앉은 자세와 평소의 누운 자세 사이를 오갑니다.
+의식과 계약 효과는 바뀌지 않습니다.</text>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/AncientSpecies.AS_WikiArticleDef[defName="AS_Wiki_Races"]/sections/li[5]/text</xpath>
+    <value>
+      <text>고대 엘프와 하프엘프의 체질 유전자는 마나리아 기관과 결합하면 '마나리아 공명'으로 신체 이점을 줍니다.
+다만 이는 앞 항목에서 설명한 질병 저항과는 별개입니다.
+공명 조건과 건강 탭에서 확인하는 법은 '능력 사용 조건'을 참고하세요.</text>
+    </value>
+  </Operation>
+</Patch>

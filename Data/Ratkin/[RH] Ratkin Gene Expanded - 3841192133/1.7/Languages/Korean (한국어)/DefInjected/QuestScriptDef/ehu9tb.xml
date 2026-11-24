@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RH_Quest_SunsetRefugees.questDescriptionRules.rulesStrings>
+    <li>lodgersPronoun(lodgerCount==1)-&gt;[asker_pronoun]</li>
+    <li>lodgersPronoun(lodgerCount&gt;=2)-&gt;그들</li>
+    <li>lodgersObjective(lodgerCount==1)-&gt;[asker_objective]</li>
+    <li>lodgersObjective(lodgerCount&gt;=2)-&gt;그들을</li>
+    <li>lodgersPossessive(lodgerCount==1)-&gt;[asker_possessive]</li>
+    <li>lodgersPossessive(lodgerCount&gt;=2)-&gt;그들의</li>
+    <li>lodgersSingularOrPluralDef(lodgerCount==1)-&gt;[asker_nameDef]</li>
+    <li>lodgersSingularOrPluralDef(lodgerCount&gt;=2)-&gt;이 [lodgersLabelPlural]</li>
+    <li>questDescription(lodgerCount==1)-&gt;[approachInfo] [claimInfo][asker_nameDef](이)가 &quot;좀 더 품위 있게 떠날 수 있도록&quot; [map_definite]에서 얼마 동안 머물게 해 달라고 청합니다.\n\n비정상 노화에 걸려 몸이 눈에 보이는 속도로 늙어 가고 있으며, 며칠이나 더 버틸 수 있을지 자신도 모릅니다. 그 대가로 머무는 동안 무보수로 당신을 위해 일하고 싸우겠다고 하며, 짐 속에는 평생 모은 저축과 몸에 지니고 다니는 정제 몇 알이 들어 있습니다.\n\n충분히 뛰어난 의술과 번화계 약품이 있다면 비정상 노화를 고칠 수 있을지도 모릅니다. 하지만 시도해 본 사람은 없습니다.\n\n[travelerInfo] 어느 세력에도 속하지 않습니다. 원한다면 죽이거나, 체포하거나, 팔거나, 장기를 적출할 수 있지만, 순순히 받아들이지는 않을 것입니다.</li>
+    <li>questDescription(lodgerCount&gt;=2)-&gt;[approachInfo] [claimInfo]앞장선 [asker_nameDef](이)가 동료들이 &quot;좀 더 품위 있게 떠날 수 있도록&quot; [map_definite]에서 얼마 동안 머물게 해 달라고 청합니다.\n\n그들은 모두 비정상 노화에 걸려 몸이 눈에 보이는 속도로 늙어 가고 있으며, 며칠이나 더 버틸 수 있을지 자신들도 모릅니다. 그 대가로 머무는 동안 무보수로 당신을 위해 일하고 싸우겠다고 하며, 짐 속에는 평생 모은 저축과 몸에 지니고 다니는 정제 몇 알이 들어 있습니다.\n\n충분히 뛰어난 의술과 번화계 약품이 있다면 비정상 노화를 고칠 수 있을지도 모릅니다. 하지만 시도해 본 사람은 없습니다.\n\n[travelerInfo] 어느 세력에도 속하지 않습니다. 원한다면 그들을 죽이거나, 체포하거나, 팔거나, 장기를 적출할 수 있지만, 남은 사람들이 가만히 보고만 있지는 않을 것입니다.</li>
+    <li>approachInfo(lodgerCount==1)-&gt;죽음을 앞둔 [faction_pawnSingular] [asker_nameDef](이)가 다가오고 있습니다.</li>
+    <li>approachInfo(lodgerCount==2)-&gt;[asker_nameDef](와)과 죽음을 앞둔 [faction_pawnSingular] 하나가 더 다가오고 있습니다.</li>
+    <li>approachInfo(lodgerCount&gt;=3)-&gt;죽음을 앞둔 [faction_pawnsPlural] [lodgerCount]명이 다가오고 있습니다. 그들의 단장은 [asker_nameDef]입니다.</li>
+    <li>claimInfo(lodgerCount==1)-&gt;[asker_nameDef](은)는 랫킨 민주 연합의 광산에서 평생 노예로 살다가, 늙어서 더는 일할 수 없게 되자 &quot;지상 인재 송출&quot; 전출 명령 한 장으로 정중하게 쫓겨났다고 합니다.</li>
+    <li>claimInfo(lodgerCount==1)-&gt;[asker_nameDef](은)는 연합이 노예들에게 정체 모를 특수 약을 먹여 시궁쥐가 들끓는 역병 구덩이에서 계속 일하게 한다고 합니다. 그 대가로 엄청나게 빨리 늙는데, 이제 약을 먹여도 일을 못 하게 되자 지상으로 &quot;송출&quot;됐다고 합니다.</li>
+    <li>claimInfo(lodgerCount==1)-&gt;[asker_nameDef](은)는 연합에서 도망쳐 나왔습니다. 갱도가 무너진 혼란을 틈타 하수관으로 기어들어, 노예 사냥대를 피해 가며 지상까지 왔다고 합니다.</li>
+    <li>claimInfo(lodgerCount&gt;=2)-&gt;그들은 연합에서 쫓겨난 늙은 노예들이라고 합니다. 시궁쥐의 공식 문서에서는 이것을 &quot;지상 인재 송출&quot;이라고 부르지만, 쉽게 말해 진이 빠진 사람을 집 밖으로 쓸어 내는 것입니다.</li>
+    <li>claimInfo(lodgerCount&gt;=2)-&gt;그들은 연합에서 도망친 뒤 모래마을에 몸 둘 곳을 얻으려 했지만, 마을 사람들은 비정상 노화로 텅 빈 그들의 모습도, 그들에게 묻어 있을지 모를 시궁쥐의 전염병도 두려워했습니다. 동정보다 두려움이 커서, 가는 곳마다 정착지에서 쫓겨났다고 합니다.</li>
+    <li>claimInfo(lodgerCount&gt;=2)-&gt;그들은 연합 깊숙한 곳으로 가던 노예 상단에서 도망쳐 나와 내내 노예 사냥대를 피해 왔지만, 가는 길의 어느 정착지도 그들을 받아 주지 않았다고 합니다. 시궁쥐 땅에서 나온 사람을 건드리려는 이는 아무도 없었던 것입니다.</li>
+    <li>travelerInfo(lodgerCount==1)-&gt;이 [faction_pawnSingular](은)는</li>
+    <li>travelerInfo(lodgerCount&gt;=2)-&gt;이 [faction_pawnsPlural](은)는</li>
+  </RH_Quest_SunsetRefugees.questDescriptionRules.rulesStrings>
+</LanguageData>

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AS_Ability_PhysicalBoost.label>신체 강화</AS_Ability_PhysicalBoost.label>
+  <AS_Ability_PhysicalBoost.description>생명 에너지를 태워 온몸을 한계 너머로 밀어붙입니다. 근접 명중률과 근접 및 원거리 공격 회피율이 오르고, 폭발도 같은 확률로 피해가 50% 줄어들며, 시전자의 공격은 대상의 회피 확률을 낮춥니다. 또한 이동, 의식, 작업 속도, 추위 및 독성 저항이 크게 오르고, 고통이 무뎌지며, 받는 피해가 줄고, 상처가 빨리 아물며, 오드 정제 속도가 평소의 두 배가 됩니다.
+
+활성화된 동안 시전자는 기절하지 않으며, 발동 시 이미 걸린 기절도 떨쳐 냅니다.
+
+이 능력은 일상적인 강화가 아니라 비장의 수단입니다. 효과가 끝나면 몸이 탈진하여 한동안 작업이 느려지고, 근접 명중률과 회피율이 떨어지며, 마나와 오드를 끌어들이는 속도도 줄어듭니다.
+
+마나리아 유전자 보유 시(Biotech): 발동할 때 오드 50%를 소모합니다. 지속 시간은 기관 등급에 따라 다릅니다(상급: 120초, 중급: 90초, 하급: 60초). 재사용 대기시간은 10분입니다.
+마나리아 유전자 미보유 시: 지속 시간 90초 고정, 재사용 대기시간 10분, 오드 소모 없음.</AS_Ability_PhysicalBoost.description>
+  <AS_Ability_PulseLaser.label>펄스 레이저</AS_Ability_PulseLaser.label>
+  <AS_Ability_PulseLaser.description>무기의 축전기를 전부 쏟아부어 약 0.3초 동안 펄스 레이저 6발을 대상이나 지면의 한 지점에 발사합니다. 펄스마다 무기 자체의 조준 성능으로 조준하므로 빗나갈 수 있고, 엄폐도 그대로 적용됩니다. 저장된 충전량을 1회 소모합니다. 이후 방사기가 1분 동안 열을 배출하며, 그동안은 충전량이 남아 있어도 다시 방출할 수 없습니다.</AS_Ability_PulseLaser.description>
+  <AS_Ability_HighvelocityRailgun.label>전자기 레일건</AS_Ability_HighvelocityRailgun.label>
+  <AS_Ability_HighvelocityRailgun.description>무기의 레일을 2.5초 동안 충전한 뒤 축전기 전체를 한 번에 방출하여 단단한 탄체 하나를 극초음속으로 쏘아 보냅니다. 무기 자체의 조준 성능으로 조준하므로 빗나갈 수 있고, 엄폐도 그대로 적용됩니다. 탄체는 사선 위의 최대 5명을 꿰뚫고 계속 날아가며, 몸을 통과할 때마다 위력이 줄어듭니다. 벽, 닫힌 문, 에너지 보호막에는 막힙니다. 탄체가 맞힌 층마다, 즉 착용한 방어구부터 몸 자체까지 날카로움 및 둔탁함 방어력이 한동안 파쇄되며, 마지막 피격 후 약 5시간에 걸쳐 회복됩니다. 사선에서 2칸 이내에 있는 자는 아군과 적을 가리지 않고 충격파에 휘말려 비틀거리며 소량의 충격파 피해를 입습니다. 저장된 충전량을 1회 소모합니다. 이후 레일이 45초 동안 열을 배출하며, 그동안은 충전량이 남아 있어도 다시 방출할 수 없습니다.</AS_Ability_HighvelocityRailgun.description>
+  <AS_Ability_AetherEquity.label>에테르 균등화</AS_Ability_AetherEquity.label>
+  <AS_Ability_AetherEquity.description>선택한 지점 주위에 역장을 펼쳐 유지합니다. 유지하는 동안 역장 안의 모든 적은 근접과 원거리 공격을 회피할 수 없고, 폭발 피해 감소도 발동하지 않으며, 타고난 저항, 피해 상한, 부상 감소에 기댈 수 없습니다. 또한 본래보다 25% 더 큰 피해를 받습니다. 저항이 0이면 0으로 남습니다. 이 능력은 이미 피해를 덜어 주던 부분만 깎아 낼 뿐입니다.\n\n역장을 유지하는 동안 시전자는 그 자리에 묶입니다. 다시 클릭하면 언제든 끝낼 수 있으며, 어떤 이유로 끝나든(직접, 시간 경과, 자동) 잠시 행동할 수 없습니다.\n\n시전 중 피해를 입으면 시전이 중단됩니다.</AS_Ability_AetherEquity.description>
+  <AS_Ability_AncientTreeWard.label>고대 나무의 가호</AS_Ability_AncientTreeWard.label>
+  <AS_Ability_AncientTreeWard.description>아군 주위에 고대 나무의 깊은 고요를 드리웁니다. 효과가 지속되는 동안 적대적인 질환은 약하게만 뿌리내리고, 이미 몸속에서 곪고 있는 것은 중독과 독가스 후유증을 포함해 조금씩 뽑혀 나갑니다.\n\n상처, 의약품, 질병, 이식물은 영향을 받지 않습니다. 이 가호는 외부에서 몸에 가해진 것에만 반응합니다. 또한 광란에 빠진 정신도 되돌리지만 즉시 되돌리지는 못합니다.\n\n자신이나 아군에게 시전할 수 있습니다. 대상이 마나리아일 필요는 없습니다.</AS_Ability_AncientTreeWard.description>
+  <AS_Ability_CriticalStrike.label>급소 공격</AS_Ability_CriticalStrike.label>
+  <AS_Ability_CriticalStrike.description>적대 대상에게 근접 일격을 명령합니다. 사거리까지 걸어간 뒤 짧은 준비 동작 후 공격합니다. 접근을 시작하면 은신이 풀립니다. 공격이 성공하면 심장을, 심장이 없으면 몸통을 노릴 수 있습니다. 그렇지 않으면 일반 무기 피해를 줍니다. 일반 명중률, 회피, 방어구, 방패는 그대로 적용됩니다. 근접 무기를 장착해야 합니다. 공격을 시도하면 빗나가거나 막혀도 오드를 소모하고 재사용 대기시간이 시작되며, 공격 전에 취소하면 소모되지 않습니다.</AS_Ability_CriticalStrike.description>
+  <AS_Ability_CriticalStrike.verbProperties.label>급소 공격</AS_Ability_CriticalStrike.verbProperties.label>
+  <AS_Ability_CrossSlash.label>십자 베기</AS_Ability_CrossSlash.label>
+  <AS_Ability_CrossSlash.description>인접한 적대 대상에게 2연격을 명령합니다. 시전자는 사거리까지 걸어간 뒤 십자로 두 번 베며, 둘째 공격은 첫째 공격 직후에 더 강하게 들어갑니다. 공격마다 장착한 근접 무기의 일반 피해 중 일부만 적용하며, 일반 명중률, 회피, 방어구, 방패는 공격마다 그대로 적용됩니다.\n\n근접 무기를 장착해야 합니다. 오드와 재사용 대기시간은 첫 공격을 할 때 소모되며 빗나가도 돌려받지 못합니다. 공격 전에 취소하면 소모되지 않습니다.</AS_Ability_CrossSlash.description>
+  <AS_Ability_CrossSlash.verbProperties.label>십자 베기</AS_Ability_CrossSlash.verbProperties.label>
+  <AS_Ability_EagleShot.label>독수리 사격</AS_Ability_EagleShot.label>
+  <AS_Ability_EagleShot.description>눈 뒤에 오드를 모아 들이마신 숨처럼 붙듭니다. 기술이 지속되는 동안 능력 레벨 1/2/3/4/5에서 10/9/8/7/5초마다 충전이 쌓이며, 원거리 무기로 쏠 때마다 충전 1개를 소모해 평소보다 더 멀리, 더 정확하게 날아갑니다. 충전이 다 차지 않은 상태로 쏘면 쌓인 만큼만 효과를 받으며, 그 진행도는 다음 충전으로 이어집니다.\n\n투사체를 발사하는 원거리 무기를 장착해야 합니다(광선과 분사는 늘일 수 없습니다).</AS_Ability_EagleShot.description>
+  <AS_Ability_Enervation.label>쇠약의 저주</AS_Ability_Enervation.label>
+  <AS_Ability_Enervation.description>선택한 지점에 집중한 뒤 주변 원 안의 모든 적대적인 사람이나 동물에게 저주를 내립니다. 저주는 몸의 기력을 서서히 빼앗아 시간이 지날수록 이동과 조작을 약화시키고, 쇠약이 깊어지면 자연 치유도 느려집니다. 시간이 지나면 저주는 저절로 사라집니다.\n\n이미 저주받은 대상에게 다시 시전하면 현재 쇠약 수준을 유지하며 회복만 늦춥니다. 지점과 대상 사이에 벽이 있으면 저주가 막힙니다.\n\n시전 중 피해를 입으면 시전이 중단됩니다. 중단된 시전은 소모가 없으며 바로 다시 시도할 수 있습니다.</AS_Ability_Enervation.description>
+  <AS_Ability_Enervation.verbProperties.label>쇠약의 저주</AS_Ability_Enervation.verbProperties.label>
+  <AS_Ability_ExceedBreak.label>한계 돌파</AS_Ability_ExceedBreak.label>
+  <AS_Ability_ExceedBreak.description>마나와 오드를 마지막 한 방울까지 일격에 쏟아붓습니다. 잠시 집중한 뒤 순식간에 거리를 좁혀 2초 동안 대상의 몸에 방어구를 무시하는 5연격을 퍼붓고 기절시킵니다. 아무리 강인한 적이라도 멀쩡히 버티기는 어렵습니다.\n\n이 기술은 마나와 오드를 전부 소모하고, 마나리아 기관에 큰 손상을 입히며, 시전자도 이후 기절합니다. 기관이 회복될 때까지 다시 사용할 수 없습니다.\n\n근접 무기를 장착해야 합니다.</AS_Ability_ExceedBreak.description>
+  <AS_Ability_FlashStep.label>섬광 걸음</AS_Ability_FlashStep.label>
+  <AS_Ability_FlashStep.description>녹색 빛의 잔상과 함께 보이는 위치로 돌진합니다. 낮은 장애물은 넘어갈 수 있지만 벽이나 닫힌 문은 통과하지 못합니다. 무언가를 운반 중일 때는 사용할 수 없습니다. 자동 사용은 오드가 70% 이상 남았을 때 가장 가까운 적대 대상에게 접근합니다.</AS_Ability_FlashStep.description>
+  <AS_Ability_FlashStep.verbProperties.label>섬광 걸음</AS_Ability_FlashStep.verbProperties.label>
+  <AS_Ability_Fortress.label>철벽</AS_Ability_Fortress.label>
+  <AS_Ability_Fortress.description>오드를 온몸에 흘려 성벽처럼 단단하게 만듭니다. 기술을 유지하는 동안 받는 피해가 줄어드는 대신 이동이 느려집니다. 오드가 자리 잡는 동안 시전자는 잠시 그 자리에 묶입니다. 다시 발동하면 언제든 해제할 수 있으며, 소모한 오드는 돌아오지 않습니다.\n\n재사용 대기시간은 발동 시점부터 150초입니다. 발동 후 5초 동안은 해제할 수 없고, 해제 후 최소 5초 동안은 사용할 수 없습니다.</AS_Ability_Fortress.description>
+  <AS_Ability_FreezingArrow.label>빙결 화살</AS_Ability_FreezingArrow.label>
+  <AS_Ability_FreezingArrow.description>마나를 응축해 얼음 화살 하나를 만든 뒤, 경로 위의 모든 대상에게 거대한 수정 가시 줄기를 꿰뚫어 보냅니다. 폭발은 아군과 적을 구분하지 않으며, 맞은 대상은 부상을 입고 그 자리에 얼어붙고, 얼음이 깨진 뒤에도 느려진 상태가 유지됩니다.\n\n이 기술은 시전자의 마나를 대량 소모하고, 활을 든 팔에 서리가 남아 이동이 느려지며 이후 사격의 정확도와 조준 속도가 떨어집니다. 활을 장착해야 합니다.</AS_Ability_FreezingArrow.description>
+  <AS_Ability_Hide.label>은신</AS_Ability_Hide.label>
+  <AS_Ability_Hide.description>2초 동안 집중해 적의 인지에서 사라진 뒤, 보이지 않게 이동합니다. 깨어 있고 볼 수 있는 적이 50칸 이내에서 시전자를 시야에 두고 있지 않을 때만 작동합니다. 이 조건은 집중을 시작할 때와 끝낼 때 모두 적용됩니다. 집중 중 공격을 맞으면 완전히 막았더라도 중단됩니다.\n\n은신 중에는 마나가 서서히 빠져나가고(자연 회복은 계속됩니다), 레벨에 따라 이동 속도가 달라지며, 레벨에 따른 시간 제한까지 은신이 지속됩니다. 다시 클릭하거나, 공격을 맞거나, 공격하거나, 다른 능력을 쓰거나, 기습하거나, 쓰러지거나, 불이 붙거나, 운반되면 은신이 끝납니다. 진실의 시야(레벨 3 이상), 교란용 조명탄, 소방거품은 잠깐만 시전자를 드러내며, 지나가면 다시 모습을 감춥니다.\n\n버튼은 클릭할 때마다 3초 동안 잠깁니다.</AS_Ability_Hide.description>
+  <AS_Ability_Hide.verbProperties.label>은신</AS_Ability_Hide.verbProperties.label>
+  <AS_Ability_Ambush.label>기습</AS_Ability_Ambush.label>
+  <AS_Ability_Ambush.description>들키지 않고 은신한 상태에서 인접한 적을 근접 무기로 공격합니다. 절대 빗나가지 않고 방패로 받아넘기거나 막을 수 없지만 방어구는 그대로 적용됩니다. 근접 무기가 필요합니다.\n\n기절시키기: 대상에게 상처를 입히지 않고 240초 동안 의식을 잃게 합니다. 메카노이드, 실체, 변이체, 몸 크기 2를 넘는 대상은 대신 강타를 받습니다.\n강타: 무기 일반 피해의 두 배로 한 번 공격합니다.\n\n우클릭하면 이 대상의 효과를 선택하거나 모드 옵션의 공용 설정을 따르도록 고를 수 있습니다. 사용하면 은신이 끝납니다.</AS_Ability_Ambush.description>
+  <AS_Ability_Ambush.verbProperties.label>기습</AS_Ability_Ambush.verbProperties.label>
+  <AS_Ability_HomingArrow.label>유도 화살</AS_Ability_HomingArrow.label>
+  <AS_Ability_HomingArrow.description>활 앞에 문양의 돔을 펼치고, 벽과 엄폐물을 돌아 목표를 찾아가는 마나 유도 화살을 쏩니다. 적 하나를 클릭해 주 대상으로 지정하면, 아군과 싸우는 주변 적도 가까운 순서로 고정되고 화살이 하나씩 분배됩니다.\n\n화살은 장착한 활의 일반 사격 피해 중 일부(1레벨 40%, 레벨당 10%씩 올라 5레벨 80%)를 주며, 화살 자체의 방어구 관통력을 사용합니다. 조준 정확도나 엄폐로 피할 수 없지만 방어구, 방패, 요격기는 평소처럼 작동합니다. 벽이나 발사 후 닫힌 문에 닿은 화살은 그곳을 맞히고 부서집니다. 화살은 활 사거리의 두 배까지 날아갑니다.\n\n마나와 오드를 모두 소모하며, 화살을 쏠 때 지불합니다. 활을 장착해야 합니다.</AS_Ability_HomingArrow.description>
+  <AS_Ability_HomingArrow.verbProperties.label>유도 화살</AS_Ability_HomingArrow.verbProperties.label>
+  <AS_Ability_MagicTrap.label>마나 함정</AS_Ability_MagicTrap.label>
+  <AS_Ability_MagicTrap.description>시야 안의 비어 있고 걸어갈 수 있는 칸에 임시 마나 함정을 설치합니다. 시전하면 은신이 풀립니다. 함정은 자기 칸에 있는 적대 지상 대상을 한 번 공격한 뒤 사라집니다. 아군과 중립 대상은 안전합니다. 사용되지 않은 함정을 선택해 해제할 수 있지만 마나는 돌려받지 못합니다. 함정은 시전자가 떠나거나 죽어도 시간이 다할 때까지 남습니다. 마나와 재사용 대기시간은 설치에 성공했을 때만 소모됩니다.</AS_Ability_MagicTrap.description>
+  <AS_Ability_MagicTrap.verbProperties.label>마나 함정</AS_Ability_MagicTrap.verbProperties.label>
+  <AS_Ability_ManaBolt.label>마나탄</AS_Ability_ManaBolt.label>
+  <AS_Ability_ManaBolt.description>작은 마나 문양을 충전해 보이는 적들에게 청록색 탄환을 연속으로 발사합니다. 작은 단일/다중 버튼으로 모든 탄환을 한 대상에게 집중할지, 아군과 싸우는 주변 적에게 분배할지 전환합니다.\n\n탄환은 명중 판정 없이 움직이는 대상을 추적합니다. 벽이나 닫힌 문은 통과하지 못하며 시전 사거리의 두 배까지 날아갑니다. 피해는 보호막 벨트와 마나 보호막만 흡수할 수 있습니다.\n\n마나는 일제 사격을 발사할 때 지불하고 재사용 대기시간도 이때 시작됩니다. 이동하거나 기절하면 마나를 쓰거나 재사용 대기시간을 시작하지 않고 충전이 중단됩니다.</AS_Ability_ManaBolt.description>
+  <AS_Ability_ManaBolt.verbProperties.label>마나탄</AS_Ability_ManaBolt.verbProperties.label>
+  <AS_Ability_ManaCharge.label>마나 충전</AS_Ability_ManaCharge.label>
+  <AS_Ability_ManaCharge.description>가만히 서서 주변의 마나를 끌어들여, 자연 회복보다 훨씬 빠르게 마나를 채웁니다. 오드 변환은 평소대로 진행되며 마나만 회복됩니다.\n\n충전 중에는 움직일 수 없습니다. 마나가 가득 차거나, 30초가 지나거나, 다시 클릭하거나, 공격에 맞거나(방패나 방벽이 막아도 포함), 다른 명령을 받으면 끝납니다. 소집이나 소집 해제로는 끝나지 않습니다. 마나가 이미 가득 차 있으면 사용할 수 없습니다.\n\n재사용 대기시간은 충전을 아무리 일찍 끝내도 시작한 순간부터 계산합니다. 레벨 5에서는 마나를 끝까지 채우면 마나 충족을 얻어 60초 동안 사용 시 마나를 소모하는 능력의 비용이 25% 줄어듭니다.</AS_Ability_ManaCharge.description>
+  <AS_Ability_ManaShield.label>마나 보호막</AS_Ability_ManaShield.label>
+  <AS_Ability_ManaShield.description>마나로 된 보호 방벽을 발동합니다. 각 공격을 일정량까지 완전히 흡수하며, 초과분은 같은 양만큼 줄어들어 통과합니다. 피해를 흡수하면 마나가 소모되고, 방벽을 유지하는 데도 소량이 소모됩니다.\n\n1회 흡수량: &quot;마나 보호막 흡수량&quot; 능력치 참고\n유지 비용: 고정 소모량이므로 저장량이 클수록 방벽을 더 오래 유지합니다.</AS_Ability_ManaShield.description>
+  <AS_Ability_PhaseWalk.label>벽 통과</AS_Ability_PhaseWalk.label>
+  <AS_Ability_PhaseWalk.description>0.5초 시전 후 30초 동안 준비 상태가 되어, 작업 이동을 포함해 평소처럼 움직이면서 이어진 벽 하나를 통과할 수 있습니다. 준비를 시작하면 은신이 풀리고, 마나를 소모하며, 60초의 재사용 대기시간이 시작됩니다. 사용하지 않은 준비 상태는 소모분을 돌려받지 못하고 만료됩니다. 통과에는 약 3초가 걸리며, 도착 예상 시간이 더 빠르거나 일반 경로가 없을 때만 사용합니다. 레벨이 오르면 통과할 수 있는 벽 두께가 늘어납니다. 벽과 천연 암석, 광맥만 통과할 수 있으며 문과 가구는 일반 이동 규칙을 따릅니다.</AS_Ability_PhaseWalk.description>
+  <AS_Ability_PhaseWalk.verbProperties.label>벽 통과</AS_Ability_PhaseWalk.verbProperties.label>
+  <AS_Ability_PowerCharge.label>강력 돌진</AS_Ability_PowerCharge.label>
+  <AS_Ability_PowerCharge.description>오드를 온몸에 흘린 뒤 대상에게 돌진해 들이받습니다. 맞은 대상은 잠시 기절합니다. 건물에는 피해가 22.5배로 적용됩니다. 습격자뿐 아니라 정착민에게도 적용됩니다.
+
+집중 중 피해를 입으면 돌진이 중단됩니다(레벨 3부터는 중단되지 않습니다). 집중 중 대상이 사거리 밖으로 나가면 시전자는 사거리가 허용하는 데까지 돌진하지만 빗나갑니다.</AS_Ability_PowerCharge.description>
+  <AS_Ability_PowerCharge.verbProperties.label>강력 돌진</AS_Ability_PowerCharge.verbProperties.label>
+  <AS_Ability_ResonanceBlast.label>공명 폭발</AS_Ability_ResonanceBlast.label>
+  <AS_Ability_ResonanceBlast.description>마나와 오드를 함께 엮은 탄을 선택한 지점에 쏘아 폭발시켜, 범위 안의 모두에게 아군과 적을 가리지 않고 피해를 줍니다.\n\n둘의 균형이 성질을 결정합니다. 마나가 많을수록 폭발이 넓고 약해지며, 오드가 많을수록 좁고 강해집니다. 비율은 현재 두 저장량이 얼마나 차 있는지를 따르며, 마나리아 레벨이 오를수록 시전자 자신의 유형 쪽으로 더 기웁니다.\n\n비용도 같은 비율로 마나와 오드에 나뉩니다. 하급 기관은 오드가 거의 바닥나면 마나 몫만으로 저장량을 넘어 시전할 수 없을 수 있습니다.</AS_Ability_ResonanceBlast.description>
+  <AS_Ability_SpeedBoost.label>속도 증강</AS_Ability_SpeedBoost.label>
+  <AS_Ability_SpeedBoost.description>오드를 즉시 소모해 이동이나 작업을 끊지 않고 20초 동안 이동 속도를 높입니다. 레벨이 오르면 속도가 더 빨라집니다. 발동하면 은신이 풀립니다. 자동 사용에는 이동 중일 것과 일반적인 주변 적 및 자원 조건이 필요합니다. 활성화된 동안에는 갱신할 수 없습니다.</AS_Ability_SpeedBoost.description>
+  <AS_Ability_SpiritSummon.label>정령 소환</AS_Ability_SpiritSummon.label>
+  <AS_Ability_SpiritSummon.description>계약한 정령을 지원 형태나 독립 형태로 부릅니다. 지원 형태는 10초마다 주변 적을 공격합니다. 형태를 바꿔도 부상은 유지되며 지속 시간은 갱신됩니다.</AS_Ability_SpiritSummon.description>
+  <AS_Ability_Sweep.label>휩쓸기</AS_Ability_Sweep.label>
+  <AS_Ability_Sweep.description>몸과 칼날에 오드를 쏟아 무기에 황금빛을 모은 뒤, 크게 한 바퀴 휩쓸어 벱니다. 사거리 안의 모든 적대 생물이 동시에 맞으며, 이미 죽음에 가까운 자는 그대로 베어 넘어집니다.\n\n벽과 닫힌 문은 공격을 막습니다. 아군과 중립은 절대 맞지 않지만 주변 구조물은 맞습니다.\n\n양손 근접 무기를 장착해야 합니다.</AS_Ability_Sweep.description>
+  <AS_Ability_Sweep.verbProperties.label>휩쓸기</AS_Ability_Sweep.verbProperties.label>
+  <AS_Ability_Teleport.label>순간이동</AS_Ability_Teleport.label>
+  <AS_Ability_Teleport.description>아군이나 자신을 사거리 안의 선택한 지점으로 보냅니다. 벽과 닫힌 문을 통과할 수 있습니다. 아군만 대상으로 지정할 수 있으며 적, 중립, 방문자, 임시 정착민은 지정할 수 없습니다. 착지 효과는 없습니다. 자동 사용은 마나가 50% 이상 남았을 때 쓰러진 아군의 침대 근처로 접근하거나 자신의 작업 이동 거리를 줄입니다.</AS_Ability_Teleport.description>
+  <AS_Ability_Teleport.verbProperties.label>순간이동</AS_Ability_Teleport.verbProperties.label>
+  <AS_Ability_TormentBrand.label>고통의 낙인</AS_Ability_TormentBrand.label>
+  <AS_Ability_TormentBrand.description>선택한 지점에 집중한 뒤 주변 작은 원 안의 모든 적대적인 사람이나 동물에게 저주받은 문양을 낙인찍습니다. 낙인 자체도 약간의 고통을 주며, 대상이 새 상처를 입을 때마다 상처 본래의 고통에 고통이 더해집니다. 추가 고통은 마지막 상처 후 몇 초 뒤에 사라집니다. 낙인은 30초 동안 지속됩니다.\n\n낙인은 강인함이나 고통 저항을 넘어서지 못하며, 고통을 느끼지 않는 생물에게는 효과가 없습니다. 이미 낙인찍힌 대상에게 다시 쓰면 지속 시간만 갱신됩니다. 지점과 대상 사이에 벽이 있으면 낙인이 막힙니다.\n\n시전 중 피해를 입으면 시전이 중단됩니다. 마나는 최소 한 대상에게 낙인을 찍었을 때만 소모됩니다.</AS_Ability_TormentBrand.description>
+  <AS_Ability_TormentBrand.verbProperties.label>고통의 낙인</AS_Ability_TormentBrand.verbProperties.label>
+  <AS_Ability_VitalBreath.label>활력의 숨결</AS_Ability_VitalBreath.label>
+  <AS_Ability_VitalBreath.description>살아 있는 아군의 휴식을 일부 즉시 회복시킵니다. 자신에게도 쓸 수 있습니다. 같은 대상은 다른 시전자에게서라도 게임 내 1일이 지나야 다시 받을 수 있습니다. 부상을 치료하거나 강제로 깨우지는 않습니다.</AS_Ability_VitalBreath.description>
+  <AS_LifeCocoon.label>생명의 고치</AS_LifeCocoon.label>
+  <AS_LifeCocoon.description>살아 있는 다른 아군을 일정 시간 치유의 잠에 가둡니다. 자연 면역으로 낫는 질병의 자연 악화, 출혈로 인한 혈액 손실, 일상 욕구 감소가 멈춥니다. 치유와 간호는 계속됩니다. 레벨 3부터는 적극적으로 치료 중인 각 질병에 면역이 생길 수 있습니다. 일반 상한 전에 수술 성공률을 높입니다. 환자는 스스로 행동할 수 없지만 운반하고 치료할 수 있습니다. 자신에게는 쓸 수 없습니다. 시전자마다 보호 가능한 슬롯 수가 제한됩니다.</AS_LifeCocoon.description>
+  <AS_Ability_AuraWeapon.label>오라 무기</AS_Ability_AuraWeapon.label>
+  <AS_Ability_AuraWeapon.description>장착한 무기나 주먹을 응축한 오드로 감싸, 공격마다 고정 방어구 관통 피해를 더합니다. 오라는 공격 속도가 느린 무기를 더 많이 보정하며, 피해와 지속 시간은 능력 레벨에 따라 늘어납니다. 방패는 오라를 막지만, 마지막 레벨에서는 방패를 관통합니다.</AS_Ability_AuraWeapon.description>
+  <AS_Ability_TrueSight.label>진실의 시야</AS_Ability_TrueSight.label>
+  <AS_Ability_TrueSight.description>오드를 눈에 집중해 전장을 초자연적으로 선명하게 인지합니다. 원거리 사격 정확도가 오르고, 조준 시간이 줄며, 시야 안에 숨은 적을 드러냅니다.</AS_Ability_TrueSight.description>
+  <AS_Ability_ManaBurst.label>마나 폭발</AS_Ability_ManaBurst.label>
+  <AS_Ability_ManaBurst.description>저장한 마나를 격렬한 충격파로 방출합니다. 범위 안의 모든 적이 기절하고 밀려납니다. 포위당했을 때 시전자가 꺼낼 수 있는 답입니다.\n\n마나 충만이 활성화된 동안 재사용 대기시간이 줄어듭니다.</AS_Ability_ManaBurst.description>
+  <AS_Ability_Regeneration.label>재생</AS_Ability_Regeneration.label>
+  <AS_Ability_Regeneration.description>마나를 살에 엮어 회복을 재촉합니다. 상처가 눈에 띄게 빨리 아물고, 출혈이 줄어들며, 질병 회복도 조금 도와줍니다.\n\n지속되는 동안 계속 치유하므로 전투 전에 미리 걸어 둘 수 있습니다. 활성화된 동안 입은 상처는 생기는 대로 아뭅니다.\n\n자신이나 사거리 안의 아군에게 시전할 수 있습니다. 대상이 마나리아일 필요는 없습니다.</AS_Ability_Regeneration.description>
+  <AS_Ability_GreatTreeGuardianWave.label>오라 폭발</AS_Ability_GreatTreeGuardianWave.label>
+  <AS_Ability_GreatTreeGuardianWave.description>파수의 지기가 3초 동안 힘을 모은 뒤 자신을 중심으로 반경 4.9칸에 오라 폭발을 방출합니다. 폭발 피해 30을 주며, 바깥쪽 가장자리에서는 15로 줄어듭니다. 지기의 세력에 적대적인 대상만 피해를 입고 최대 4.9칸 밀려나며 0.5초 동안 기절합니다. 대상은 즉시 이동하며 벽 앞에서 멈춥니다. 지기, 아군, 중립 대상은 영향을 받지 않습니다. 벽, 건물, 지면의 물체는 세력과 무관하게 피해를 입습니다. 시전 중 범위 밖으로 나가면 폭발을 피할 수 있습니다. 재사용 대기시간: 20초.</AS_Ability_GreatTreeGuardianWave.description>
+  <AS_Ability_GreatTreeSigns_ViewSigns.label>대세계수의 징조 보기</AS_Ability_GreatTreeSigns_ViewSigns.label>
+  <AS_Ability_GreatTreeSigns_ViewSigns.description>대세계수로 향하는 여섯 갈래 길과 각각의 진행도를 보여 주는 창을 엽니다.</AS_Ability_GreatTreeSigns_ViewSigns.description>
+  <AS_Ability_GreatTreeSigns_GoToRevelation.label>계시 명상하러 가기</AS_Ability_GreatTreeSigns_GoToRevelation.label>
+  <AS_Ability_GreatTreeSigns_GoToRevelation.description>가장 가까운 신성한 기도 장소로 걸어가 곧바로 명상을 시작합니다.</AS_Ability_GreatTreeSigns_GoToRevelation.description>
+  <AS_Ability_FrostWave.label>서리 파동</AS_Ability_FrostWave.label>
+  <AS_Ability_FrostWave.description>시전을 시작할 때 고른 방향으로 서리 파동 세 줄기를 보냅니다. 각 파동은 아군을 포함해 경로 위의 모든 대상에게 피해를 주고, 기절시키고, 느려지게 합니다. 겹치는 파동은 따로 적중합니다. 벽과 닫힌 문은 파동을 막습니다. 피해와 기절은 5초 시전을 멈추지 못하지만, 쓰러지거나 죽으면 멈춥니다.</AS_Ability_FrostWave.description>
+  <AS_Ability_GuardianLordManaBolt.label>수호자의 마나탄</AS_Ability_GuardianLordManaBolt.label>
+  <AS_Ability_GuardianLordManaBolt.description>수호자의 장이 마나탄 12발을 충전해 보이는 적에게 분배합니다. 이 능력은 마나를 소모하지 않습니다. 충전에 3초가 걸리고, 방출 후 재사용 대기시간은 20초입니다.</AS_Ability_GuardianLordManaBolt.description>
+  <AS_Ability_GuardianLordManaBolt.verbProperties.label>수호자의 마나탄</AS_Ability_GuardianLordManaBolt.verbProperties.label>
+</LanguageData>
