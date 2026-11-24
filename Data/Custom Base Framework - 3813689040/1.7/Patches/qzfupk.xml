@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/CustomBaseFramework.PieceDef[defName="CBF_Vanilla_GiantTurret_Balistarium_A"]/legend/li[11]/symbol</xpath>
+    <value>
+      <symbol>!</symbol>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/CustomBaseFramework.PieceDef[defName="CBF_Vanilla_GiantTurret_Pilum_A"]/legend/li[11]/symbol</xpath>
+    <value>
+      <symbol>?</symbol>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/CustomBaseFramework.PieceDef[defName="CBF_Vanilla_GiantTurret_Double_A"]/legend/li[15]/symbol</xpath>
+    <value>
+      <symbol>!</symbol>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/CustomBaseFramework.PieceDef[defName="CBF_Vanilla_GiantTurret_Double_A"]/legend/li[16]/symbol</xpath>
+    <value>
+      <symbol>?</symbol>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/CustomBaseFramework.PieceDef[defName="CBF_Vanilla_GiantTurret_Mixed_A"]/legend/li[16]/symbol</xpath>
+    <value>
+      <symbol>!</symbol>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/CustomBaseFramework.PieceDef[defName="CBF_Vanilla_GiantTurret_Mixed_A"]/legend/li[17]/symbol</xpath>
+    <value>
+      <symbol>?</symbol>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/CustomBaseFramework.PieceDef[defName="CBF_Western_Palisade_A"]/legend/li[3]/symbol</xpath>
+    <value>
+      <symbol>x</symbol>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/CustomBaseFramework.PieceDef[defName="CBF_Western_PalisadeTower_A"]/legend/li[4]/symbol</xpath>
+    <value>
+      <symbol>O</symbol>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/CustomBaseFramework.PieceDef[defName="CBF_Western_PalisadeTower_A"]/legend/li[9]/symbol</xpath>
+    <value>
+      <symbol>x</symbol>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/CustomBaseFramework.PieceDef[defName="CBF_Western_PalisadeTower_B"]/legend/li[3]/symbol</xpath>
+    <value>
+      <symbol>O</symbol>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/CustomBaseFramework.PieceDef[defName="CBF_Western_PalisadeTower_B"]/legend/li[9]/symbol</xpath>
+    <value>
+      <symbol>x</symbol>
+    </value>
+  </Operation>
+</Patch>

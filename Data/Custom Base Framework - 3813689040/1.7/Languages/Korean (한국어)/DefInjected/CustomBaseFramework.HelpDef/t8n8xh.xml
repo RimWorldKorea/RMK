@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CBF_Help_Wards.label>구역</CBF_Help_Wards.label>
+  <CBF_Help_Wards.description>구역은 정착지의 여러 겹 중 하나입니다. 시장 도시에는 높은 성벽 안쪽의 구시가지, 낮은 성벽 안쪽의 교외, 그 둘을 둘러싼 탁 트인 농촌까지 세 구역이 있습니다.
+
+다른 요소는 모두 구역에 속합니다. 성벽과 망루, 성문채, 내부에 지을 것을 정하는 지구가 해당됩니다.
+
+목록 순서는 중심에서 바깥으로 향하는 순서입니다. 생성기는 가장 안쪽 구역을 가장 잘 보호하고 먼저 채우므로 중요한 것을 그곳에 두세요.</CBF_Help_Wards.description>
+  <CBF_Help_Districts.label>지구</CBF_Help_Districts.label>
+  <CBF_Help_Districts.description>지구는 구역 안에 있는 건물의 집합입니다. 시장 지구나 줄지어 있는 농가 단지가 이에 해당합니다.
+
+각 행에는 분류 또는 특정 부품과 개수가 들어갑니다. 우선순위는 어느 행에 공간을 먼저 배정할지 결정합니다. 공간이 다 차면 낮음 우선순위 행의 개수가 최솟값에 못 미칠 수 있습니다. 채움 행은 마지막에 남은 공간을 채웁니다. 가중치는 개별 부품에만 적용되며 같은 분류의 다른 부품과 비교합니다.
+
+밭과 우리도 지구에 속합니다. 이를 통해 생성기는 농가 단지에 밭을 붙이고 선술집에는 붙이지 않습니다.
+
+지구 위치는 중심 근처, 성문 근처, 성벽 근처, 대로 위 중 시작점을 정합니다. 아무것도 선택하지 않으면 다른 지구에서 떨어진 임의 위치를 사용합니다.</CBF_Help_Districts.description>
+  <CBF_Help_Walls.label>성벽</CBF_Help_Walls.label>
+  <CBF_Help_Walls.description>이 구역을 구성할 성벽 부품입니다. 생성기는 성벽 구간이 필요할 때마다 목록에서 하나를 고릅니다. 항목이 여러 개면 성벽의 모습이 구간마다 달라집니다.
+
+깊이는 성벽 고리의 두께입니다. 1이면 목책이고, 3이면 위에 순찰로가 있는 도시 성벽입니다.
+
+성벽을 놓을 선이 산과 만나면 산 자체가 성벽이 되며 그 앞에는 아무것도 짓지 않습니다.</CBF_Help_Walls.description>
+  <CBF_Help_Emplacements.label>야전 진지</CBF_Help_Emplacements.label>
+  <CBF_Help_Emplacements.description>성벽 고리에 배치하는 망루와 다른 방어 시설입니다.
+
+생성기는 먼저 모퉁이에 배치한 뒤 긴 직선 구간에 알아서 간격을 두고 배치합니다. 들어갈 수 있는 수는 여기서 지정하는 수치가 아니라 성벽 길이에 따라 정해집니다.
+
+목록에서 가장 큰 망루의 크기에 따라 배치기가 각 모퉁이에 확보할 공간도 정해집니다. 너무 큰 망루는 정착지 전체 윤곽을 각지게 만듭니다.</CBF_Help_Emplacements.description>
+  <CBF_Help_Gatehouses.label>성문채</CBF_Help_Gatehouses.label>
+  <CBF_Help_Gatehouses.description>도로가 성벽을 가로지르는 곳에 성문채를 짓습니다.
+
+개수는 설정값이 아니라 도로 배치에 따라 정해집니다. 배치기는 진입로를 먼저 놓고, 도로가 성벽 고리를 통과하는 곳마다 성문을 놓은 뒤 외부에서 모든 성문으로 갈 수 있는지 확인합니다.
+
+이곳에 쓰는 부품에는 통과할 수 있는 입구가 필요합니다. 없으면 구역이 봉쇄되어 전체 배치가 폐기됩니다.</CBF_Help_Gatehouses.description>
+  <CBF_Help_Anchors.label>기준점</CBF_Help_Anchors.label>
+  <CBF_Help_Anchors.description>기준점은 부품이 배치되었을 때 특정 동작이 일어나는 영역입니다.
+
+연결 기준점은 부품을 주변과 연결합니다. Wall은 도시 성벽이 붙는 곳이며, Outside는 바깥을 향할 면, Annex는 별채가 붙는 곳입니다.
+
+전리품 기준점은 물체 목록에서 물체를 배치하고 전리품 표의 내용물로 채웁니다. 물체 기준점은 일정 확률로 목록의 물체만 배치합니다. 폰 기준점은 폰 목록에서 사람이나 동물을 불러오며, 역할에 따라 남아 싸울지 도망칠지 정합니다.
+
+존재하지 않는 목록을 참조하는 기준점이 있으면 편집기에서 그 부품이 빨간색으로 표시됩니다.</CBF_Help_Anchors.description>
+  <CBF_Help_Rural.label>농경지</CBF_Help_Rural.label>
+  <CBF_Help_Rural.description>탁 트인 농촌을 위한 경작지와 가축 우리입니다.
+
+경작지는 지도에 무작위로 놓지 않고 농촌 건물 주변에 만듭니다. 어느 건물에 밭이 생길지는 경작지가 등록된 지구가 정합니다. 최솟값과 최댓값은 건물당 경작지 수의 범위를 정합니다.
+
+우리 하나에는 개체 목록에서 뽑은 동물 한 종류가 들어갑니다. 가축 수는 우리 아래에 들여쓴 두 번째 행에 있습니다.
+
+밭과 우리에는 출입문이 하나 달린 울타리를 둘러칩니다. 바위나 물이 이미 경계를 막은 곳에는 울타리를 설치하지 않습니다.</CBF_Help_Rural.description>
+  <CBF_Help_Factions.label>세력별 정착지 설계</CBF_Help_Factions.label>
+  <CBF_Help_Factions.description>플레이어가 이 세력의 기지에 들어갔을 때 사용할 정착지 설계입니다.
+
+배정은 세력 정의에 저장되지 않습니다. 설계 안의 factionTags에 저장되며 생성기는 세력과 태그가 일치하는 모든 설계를 모읍니다. 따라서 두 모드가 서로 덮어쓰지 않고도 같은 세력을 지원할 수 있습니다.
+
+세력을 지정하지 않은 설계는 모든 세력에 적용됩니다. 새 설계를 배정하기 전까지 모든 곳에 나타나는 이유입니다.
+
+제거는 세력 이름으로 연결한 설계에만 적용됩니다. 세력 분류로 연결한 설계는 설계 자체에서 연결을 해제해야 합니다.</CBF_Help_Factions.description>
+  <CBF_Help_Takeover.label>생성기 전환</CBF_Help_Takeover.label>
+  <CBF_Help_Takeover.description>림월드가 이 생성기에 세력 기지를 맡기기 전까지는 여기서 배정한 내용이 나타나지 않습니다. 생성기 전환 스위치를 켜서 맡길 수 있습니다.
+
+현재 모드의 Patches 폴더에 패치 파일 하나를 작성합니다. 생성 단계 Settlement를 CBF_Settlement로 바꾸고 나머지는 유지하므로 세력 기지의 바위와 전선은 그대로 남습니다.
+
+패치 파일이 이미 있으면 해당 작업만 추가하고 나머지 내용은 보존합니다. 전환을 끄면 해당 작업만 제거합니다. 파일에 다른 내용이 하나도 없으면 파일도 제거합니다.
+
+일치하는 설계가 없는 세력에는 림월드 기본 정착지를 생성하므로 빈 지도가 나오지 않습니다.</CBF_Help_Takeover.description>
+  <CBF_Help_Annexes.label>별채</CBF_Help_Annexes.label>
+  <CBF_Help_Annexes.description>별채는 마구간, 장작 창고, 야외 주점처럼 집에 붙는 작은 부품입니다. 모든 내용은 분류와 부품 데이터에서 정합니다.
+
+집의 분류에 있는 별채 분류는 어떤 별채를 붙일 수 있는지 정합니다. 목록이 비어 있으면 상위 분류의 목록을 사용합니다.
+
+기준점당 확률은 집의 별채 기준점 하나에 별채를 지을 확률입니다. 기본값은 0.6입니다. 최대 개수는 집 한 채에 붙일 별채 수의 한도이며 기본값은 2입니다.
+
+반복 가능 설정은 별채 자체의 분류에 있습니다. 예를 선택하면 같은 별채를 집 한 채에 여러 번 붙일 수 있습니다.
+
+맞는 별채가 여러 개이면 가중치로 고릅니다. 별채의 가중치가 1 미만이면 해당 별채를 시도할 확률에도 사용합니다.
+
+기준점은 Annex라는 이름의 연결 기준점입니다. 집에서는 외벽에 놓습니다. 별채에서는 집과 외벽을 공유할 때 외벽에, 집에 닿기만 할 때는 별채 윤곽에서 한 칸 밖에 놓습니다.</CBF_Help_Annexes.description>
+  <CBF_Help_WallContact.label>성벽 주변</CBF_Help_WallContact.label>
+  <CBF_Help_WallContact.description>부품이 도시 성벽에 붙어 서기를 얼마나 선호하는지 정합니다. 배치기는 건물을 놓을 때 이 값을 읽습니다.
+
+금지는 부품을 성벽에서 떨어뜨립니다. 회피, 허용, 선호, 강한 선호는 성벽을 따라 있는 위치의 가중치를 낮추거나 높입니다. 필수는 부품이 성벽에 닿는 위치에만 배치되도록 합니다.
+
+부품 자체에 값이 없으면 분류의 성벽 접촉 설정을 따릅니다. 분류의 값이 예이면 선호로 처리합니다.</CBF_Help_WallContact.description>
+  <CBF_Help_WardGate.label>구역 출입문</CBF_Help_WardGate.label>
+  <CBF_Help_WardGate.description>목책에 달린 목제 문처럼 이 구역 성벽의 통로를 막는 문입니다.
+
+비워 두면 정착지 유형의 재료 목록에 있는 문을 씁니다. 대부분의 구역은 이 기본 설정을 사용합니다. 성문채는 별개로 방어 시설에서 설정합니다.</CBF_Help_WardGate.description>
+  <CBF_Help_Placement.label>배치</CBF_Help_Placement.label>
+  <CBF_Help_Placement.description>이 분류의 건물이 들어설 수 있는 곳입니다. 여기서 직접 설정하기 전까지는 상위 분류의 값을 물려받습니다.
+
+도로 접근: 이 분류의 건물은 도로망에서 접근할 수 있어야 합니다.
+
+도로 불필요는 도로 접근이 아니요일 때만 적용됩니다. 이때 건물은 도로가 필요하지 않으며 농장이나 시장처럼 어느 쪽에서도 들어갈 수 있습니다.
+
+성벽 접촉: 이 분류의 부품은 도시 성벽에 붙는 것을 선호합니다. 부품의 성벽 주변 필드에서 더 세밀하게 제어할 수 있으며 그 값이 우선합니다.
+
+가중치: 맞는 부품이 여러 개일 때 이 분류의 부품을 뽑는 빈도입니다. 1이 일반값입니다. 별채의 경우 1 미만의 값은 배치를 시도할 확률로도 사용합니다.
+
+정착지에 분류별로 건물이 몇 채 들어갈지는 정착지 탭의 항목에서 정합니다.</CBF_Help_Placement.description>
+  <CBF_Help_Blocks.label>블록</CBF_Help_Blocks.label>
+  <CBF_Help_Blocks.description>블록은 벽을 맞대고 선 건물들의 줄입니다.
+
+블록 한도: 이 분류에서 블록 하나를 이루는 건물의 최대 개수입니다. 비워 두면 3입니다.
+
+병합: 이 분류의 건물이 이웃 건물과 합쳐져 블록을 이루는지 정합니다. 예는 강제하고 아니요는 금지합니다.
+
+생성기는 상위 분류가 아닌 해당 건물의 첫 번째 분류에서만 두 값을 읽습니다.</CBF_Help_Blocks.description>
+  <CBF_Help_CategoryUsedIn.label>사용처</CBF_Help_CategoryUsedIn.label>
+  <CBF_Help_CategoryUsedIn.description>설계에서 이 분류를 참조하는 모든 정착지 유형과 던전입니다.
+
+각 행에는 참조 위치가 표시됩니다. 구역의 지구, 방어 시설, 던전 층이나 그 구획, 복도, 계단, 장식 등이 해당합니다. 지구는 요청 수량도 표시합니다.
+
+행을 클릭하면 설계가 열립니다. 어떤 설계도 직접 참조하지 않는 분류라도 설계가 요청하는 하위 또는 상위 분류를 통해 지을 수 있습니다.</CBF_Help_CategoryUsedIn.description>
+  <CBF_Help_LootAffects.label>영향</CBF_Help_LootAffects.label>
+  <CBF_Help_LootAffects.description>이 전리품 표가 게임에서 쓰이는 곳입니다.
+
+직접 포함: 이 표를 뽑는 상위 표와 그 가중치를 표시합니다. 항상 포함 아래에 있으면 항상 사용됩니다. 클릭하면 상위 표가 열립니다.
+
+정착지의 부품을 통한 사용: 부품을 통해 이 표를 사용하는 정착지 유형과 부품 이름을 표시합니다.
+
+아래 타일에는 기준점이나 물체 목록을 통해 이 표를 사용하는 모든 부품이 나옵니다. 해당 기준점은 강조 표시됩니다. 타일을 클릭하면 부품이 열립니다.</CBF_Help_LootAffects.description>
+  <CBF_Help_PawnGear.label>장비</CBF_Help_PawnGear.label>
+  <CBF_Help_PawnGear.description>이 폰 유형이 항상 착용하는 의류입니다.
+
+격자의 행은 바깥쪽부터 안쪽 순서의 의류 층이며, 열은 신체 부위입니다. 빈 칸을 클릭하면 그 자리에 맞는 것만 고를 수 있습니다. 빗금 친 칸은 같은 색의 장비가 차지합니다. 빈 칸 숨기기는 사용하지 않는 행과 열을 숨깁니다.
+
+격자 아래 목록에는 각 의류의 층, 재질, 품질, 색이 표시됩니다. 교체를 사용하면 같은 층에 맞는 의류로 바뀌며 가능한 경우 재질, 품질, 색이 유지됩니다.
+
+가장 앞선 기술의 장비가 폰 유형의 기술 수준을 정하고, 그 수준에 따라 등장할 정착지가 정해집니다.</CBF_Help_PawnGear.description>
+  <CBF_Help_PawnWeapon.label>무기</CBF_Help_PawnWeapon.label>
+  <CBF_Help_PawnWeapon.description>폰이 받을 무기입니다.
+
+태그는 활 무리처럼 림월드가 무기를 뽑을 때 사용하는 무기 태그입니다. 예산은 무기에 쓸 수 있는 은 가치를 범위로 정합니다. 품질과 무기 재질로 결과를 더 좁힐 수 있습니다. 비워 두면 제한이 없습니다.
+
+무기도 폰 유형의 기술 수준에 반영됩니다.</CBF_Help_PawnWeapon.description>
+  <CBF_Help_PawnSkills.label>기술</CBF_Help_PawnSkills.label>
+  <CBF_Help_PawnSkills.description>폰이 처음에 갖는 기술 수준입니다.
+
+각 행은 기술 하나의 범위를 정합니다. 최고 수준 최솟값은 가장 높은 기술이 도달해야 할 최소 수준입니다. 합계 최솟값은 모든 기술 수준을 더한 값의 하한입니다. 추가 수준은 그 위에 무작위로 배분됩니다.
+
+여기에 없는 기술은 림월드가 평소처럼 무작위로 정합니다.</CBF_Help_PawnSkills.description>
+  <CBF_Help_PawnNature.label>자연</CBF_Help_PawnNature.label>
+  <CBF_Help_PawnNature.description>폰이 가질 수 없거나 항상 받는 특성입니다.
+
+금지 특성은 뽑히지 않습니다. 강제 특성은 항상 부여되며, 특성에 정도가 있으면 설정한 정도를 적용합니다. 나머지는 림월드에서 평소처럼 정합니다.</CBF_Help_PawnNature.description>
+  <CBF_Help_PawnImplants.label>이식물</CBF_Help_PawnImplants.label>
+  <CBF_Help_PawnImplants.description>폰이 생성될 때 장착하는 생체공학 부위와 기타 이식물입니다.
+
+고정 이식물은 항상 장착합니다. 태그와 예산을 사용하면 림월드가 해당 태그가 있는 추가 이식물을 은 가치 한도 안에서 지정한 확률과 최대 수량에 맞게 고릅니다.
+
+빨간색 이식물은 이 종족에 장착할 수 없으며 생성할 때 건너뜁니다.</CBF_Help_PawnImplants.description>
+  <CBF_Help_PawnAllFields.label>모든 필드</CBF_Help_PawnAllFields.label>
+  <CBF_Help_PawnAllFields.description>위의 구분에서 다루지 않은 폰 유형의 모든 필드입니다. 종류별로 묶어 표시합니다.
+
+여기서 변경한 내용은 나머지와 같은 파일에 저장됩니다. 필드를 비워 두면 림월드나 상위 폰 유형의 값을 유지합니다.</CBF_Help_PawnAllFields.description>
+  <CBF_Help_PieceCheck.label>검사 결과</CBF_Help_PieceCheck.label>
+  <CBF_Help_PieceCheck.description>마지막 검사에서 발견한 부품 문제입니다.
+
+빨간색 행은 오류입니다. 오류가 있는 동안은 부품을 내보낼 수 없습니다. 나머지 행은 알림일 뿐이며 내보내기를 막지 않습니다. 예를 들어 성문채에 Wall 기준점이 없는 경우가 해당합니다.
+
+아래의 검사를 누르면 다시 확인합니다. 부품이 지도에 있으면 실제로 지은 것을 검사하고, 그렇지 않으면 저장된 파일을 검사합니다.</CBF_Help_PieceCheck.description>
+  <CBF_Help_PieceBasics.label>기본</CBF_Help_PieceBasics.label>
+  <CBF_Help_PieceBasics.description>부품이 무엇이며 어디에서 쓰이는지 정합니다.
+
+크기와 분류: 첫 번째 분류가 주 분류입니다. 정착지는 분류를 요청하므로 분류 없는 부품은 건설되지 않습니다.
+
+회전 허용은 생성기가 부품을 돌릴 수 있게 합니다. 배치 영역 비우기는 부품을 건설하기 전에 아래에 있는 것을 제거합니다. 성벽 주변과 가중치는 건물에만 적용됩니다. 각각 성벽에 붙기를 얼마나 선호하는지와 분류 안에서 얼마나 자주 뽑히는지를 정합니다.
+
+특정 모드에서만과 특정 모드에서 끄기는 부품을 다른 모드와 연결합니다. 특정 세력에서만과 특정 세력 제외는 세력에 같은 방식으로 적용됩니다.</CBF_Help_PieceBasics.description>
+  <CBF_Help_PieceDerived.label>파생 항목</CBF_Help_PieceDerived.label>
+  <CBF_Help_PieceDerived.description>편집기가 자동으로 계산하는 값입니다. 여기서 설정할 수 없습니다.
+
+유형은 Building, WallPart, DungeonRoom 중 하나입니다. 부품을 내보낼 때 주 분류에 따라 정해집니다. 건물은 지구에, 성벽 부품은 성벽 고리에, 던전 방은 던전 층에 들어갑니다.</CBF_Help_PieceDerived.description>
+  <CBF_Help_Fortification.label>방어 시설</CBF_Help_Fortification.label>
+  <CBF_Help_Fortification.description>이 구역을 둘러싸는 성벽 고리입니다.
+
+성벽: 성벽 고리를 구성하는 부품입니다. 항목이 여러 개면 구간마다 모습이 달라집니다. 슬라이더로 각 항목의 비중을 정합니다.
+
+진지: 성벽 고리의 망루와 기타 시설입니다. 생성기는 모퉁이부터 알아서 간격을 두고 놓습니다.
+
+성문채: 도로가 성벽을 지나는 곳마다 건설합니다.
+
+문: 성벽을 통과하는 통로를 막습니다. 비워 두면 재료 목록의 문을 사용합니다.
+
+농촌에는 성벽 고리가 없습니다. 현대식 도시에는 모래주머니나 바리케이드를 쓰며 성문채는 없습니다.</CBF_Help_Fortification.description>
+  <CBF_Help_WardGarrison.label>수비대</CBF_Help_WardGarrison.label>
+  <CBF_Help_WardGarrison.description>구역이나 던전 층의 수비 병력입니다.
+
+각 행은 폰 목록과 최소·최대 수, 배치 위치인 내부, 성벽, 성문 중 하나를 지정합니다. 위에는 수비대 전체의 점수가 표시됩니다.
+
+일반 설정에서 수비대 배율을 정하면 각 행에 활성화 선택란과 가중치가 생깁니다. 활성화한 행에만 지정 폰을 배치합니다. 먼저 최소 수를 놓고 점수가 남으면 가중치에 따라 최대 수까지 채웁니다. 나머지는 세력에서 충원합니다.
+
+행이 없는 구역은 정착지 전체 점수 중 자기 몫을 사용합니다. 부품의 폰 기준점에서 나오는 폰이 그 위에 더해집니다.
+
+구역은 각자 방어합니다. 성벽과 성문의 경비병은 자리를 지키고 포병은 포 옆에 머뭅니다.</CBF_Help_WardGarrison.description>
+  <CBF_Help_RoadsGround.label>도로와 지면</CBF_Help_RoadsGround.label>
+  <CBF_Help_RoadsGround.description>이 구역에 쓰이는 바닥입니다.
+
+지면: 집 사이의 지면입니다. 비워 두면 지도 본래의 지면을 유지합니다.
+
+길: 골목과 광장, 성문 통로의 바닥입니다. 비워 두면 재료 목록의 도로를 사용합니다.
+
+경계석: 골목과 광장, 성문 통로에서 가장 바깥 칸의 바닥입니다. 비워 두면 길 바닥을 전체 너비에 사용합니다.</CBF_Help_RoadsGround.description>
+  <CBF_Help_SwapOtherRules.label>다른 모드의 규칙</CBF_Help_SwapOtherRules.label>
+  <CBF_Help_SwapOtherRules.description>다른 모드가 이 세력에 제공하는 교체 규칙입니다. 여기서 확인할 수 있으며 변경되지는 않습니다.
+
+각 개체나 물품에는 우선순위가 가장 높은 규칙이 적용됩니다. 우선순위가 같은 규칙은 합친 뒤 가중치에 따라 뽑습니다.
+
+특정 개체에서 다른 모드의 규칙보다 우선하려면 자체 규칙의 우선순위를 높이세요.</CBF_Help_SwapOtherRules.description>
+  <CBF_Help_PlanBasics.label>기본</CBF_Help_PlanBasics.label>
+  <CBF_Help_PlanBasics.description>장소의 모습을 정합니다.
+
+표시 이름은 플레이어에게 보이는 이름입니다. 장소 유형으로 중세 도시, 현대식 도시, 야영지, 산악 도시를 고릅니다. 재료 목록은 생성기가 자동으로 짓는 벽, 문, 성문, 울타리, 도로를 정합니다. 목록이 없으면 이 유형을 사용하지 않습니다.
+
+지도 크기, 중심부 크기, 나무 비중은 장소가 차지할 공간과 남는 야생 나무의 양을 정합니다. 암반 외피는 산악 도시를 둘러싸는 산입니다.
+
+폐허로 건설, 이념 양식, 교외 설정과 세계 지도 아이콘으로 모습을 마무리합니다.</CBF_Help_PlanBasics.description>
+  <CBF_Help_PlanPlacement.label>배치</CBF_Help_PlanPlacement.label>
+  <CBF_Help_PlanPlacement.description>어느 세력이 이 정착지 유형을 사용하며 어디에 나타날지 정합니다.
+
+기술 수준은 설계가 어느 시대에 맞는지 정합니다. 지정한 수준의 모든 세력에 적용은 선택한 수준에 속하면서 자체 설계가 없는 모든 세력에 적용합니다. 세력은 이름으로 세력을 추가하고, 제외 세력은 적용하지 않을 세력을 정합니다.
+
+가중치는 세력이 사용할 수 있는 모든 유형 중 이 유형이 뽑힐 빈도입니다.
+
+필요 이념, 제외 이념, 생물군계, 지형 기복, 지형 형태는 지정한 모든 조건을 충족하는 세력과 타일로 유형을 제한합니다. 비워 두면 어디에나 적용할 수 있습니다.</CBF_Help_PlanPlacement.description>
+  <CBF_Help_PlanGarrison.label>수비대</CBF_Help_PlanGarrison.label>
+  <CBF_Help_PlanGarrison.description>장소 전체에 배치할 수비대 규모를 정합니다.
+
+최소 점수는 언제나 수비대에 사용합니다. 수비대 배율은 정착지의 습격 점수에 곱합니다. 그만큼 수비대에 쓰되 최소 점수 아래로는 내려가지 않습니다. 0을 설정하면 구역의 수비대 행은 고정 수량으로 작동합니다.
+
+폰 기준점이 예산에 반영되는 정도는 기준점에서 나오는 폰 점수 중 얼마를 예산에서 차감할지 정합니다. 구역별 비중은 구매한 수비대를 크기나 직접 설정한 비율에 따라 구역에 분배합니다.
+
+수비대 계산을 사용하면 지정한 습격 점수에 대해 선택한 세력의 구역별 수비대를 확인할 수 있습니다.</CBF_Help_PlanGarrison.description>
+  <CBF_Help_PlanMods.label>모드</CBF_Help_PlanMods.label>
+  <CBF_Help_PlanMods.description>이 정착지 유형을 다른 모드와 연결하는 설정입니다.
+
+WD 단계, WD 유형, RIAF 영지는 World Domination 또는 A Rim of Ice and Fire가 활성화될 때만 표시됩니다. 해당 모드의 정착지에 이 설계를 적용합니다. 야영지 유형은 야영지에만 나오며 이 설계로 지을 임무 장소를 지정합니다.
+
+생성기 전환은 세력 기지를 CBF에 맡깁니다. 모드 목록은 설계에 필요한 모드를 보여 줍니다. 대부분 자동으로 찾으며 직접 추가로 더 넣을 수 있습니다.</CBF_Help_PlanMods.description>
+  <CBF_Help_DungeonSections.label>구획</CBF_Help_DungeonSections.label>
+  <CBF_Help_DungeonSections.description>층은 앞쪽과 뒤쪽처럼 연속된 구획으로 나눌 수 있습니다. 생성기는 목록 순서대로 구획을 짓습니다.
+
+첫 구획은 입구로 표시됩니다. 첫 층에서는 지상에서 들어오는 입구가, 그 아래에서는 올라가는 계단이 여기에 놓입니다. 마지막 구획에는 내려가는 계단이 표시됩니다. 다음 층으로 향하는 계단이 그곳에 놓입니다. 사용할 부품은 입구와 계단에서 지정합니다. 화살표로 순서를 바꾸면 입구와 계단이 놓일 구획도 바뀝니다.
+
+각 구획에는 자체 공간이 있습니다. 복도 구간과 복도 장식도 별도로 지정할 수 있습니다. 비워 두면 해당 층의 값을 사용합니다.
+
+구획이 없는 층은 층 자체의 공간을 사용합니다.</CBF_Help_DungeonSections.description>
+  <CBF_Help_DungeonAccess.label>입구와 계단</CBF_Help_DungeonAccess.label>
+  <CBF_Help_DungeonAccess.description>이 층을 외부 및 다음 층과 연결하는 방입니다.
+
+입구는 첫 층에만 있으며 지상에서 들어오는 통로가 있는 방입니다. 비워 두면 생성기가 산에 단순한 터널을 뚫습니다. 아래층의 올라가는 계단은 위층에서 내려가는 계단이 있는 곳과 정확히 같은 위치에 놓입니다.
+
+내려가는 계단은 다음 층으로 내려가는 방입니다. 맨 아래를 제외한 모든 층에 필요합니다. 내려가는 계단 부품에는 StairsDown, 올라가는 계단 부품에는 StairsUp이라는 연결 기준점이 필요합니다. 이 기준점이 지도 간 통로의 위치를 정합니다.
+
+구획이 있으면 입구는 첫 구획에, 내려가는 계단은 마지막 구획에 놓입니다.</CBF_Help_DungeonAccess.description>
+  <CBF_Help_DungeonPassages.label>통로</CBF_Help_DungeonPassages.label>
+  <CBF_Help_DungeonPassages.description>이 층의 방을 연결하는 방식을 정합니다.
+
+배치는 복도, 방, 동굴, 신전 등의 구조를 정합니다. 여러 개를 선택하면 층을 생성할 때마다 하나를 뽑습니다.
+
+복도 구간은 복도에 사용하는 부품과 비중입니다. 미리보기에는 복도가 순서대로 표시되고 그 위에 장식이 보입니다.
+
+동굴 너비와 동굴 비중은 동굴 통로의 너비와 인공 복도를 자연 동굴로 대체할 연결부의 비율을 정합니다. 비밀 통로는 벽돌로 막을 문이 숨겨진 통로가 될 확률입니다.</CBF_Help_DungeonPassages.description>
+  <CBF_Help_DungeonDeco.label>복도 장식</CBF_Help_DungeonDeco.label>
+  <CBF_Help_DungeonDeco.description>복도를 따라 놓는 횃불, 양초, 뼈, 깔개 같은 물체입니다.
+
+복도의 양쪽 벽에 붙여 무작위로 배치합니다. 횃불처럼 벽에 붙는 물체는 벽을 향하고 나머지는 복도 안쪽을 향합니다. 여기서는 가장자리와 도로 설정의 차이가 없습니다.
+
+각 행에는 물체 목록, 부품 또는 분류와 배치 사이의 간격, 층별 최대 수가 들어갑니다. 템플릿을 사용하면 알맞은 값으로 행을 추가합니다. 위의 복도 구간 미리보기에서 결과를 확인할 수 있습니다.
+
+자체 장식이 없는 구획은 해당 층의 장식을 사용합니다.</CBF_Help_DungeonDeco.description>
+  <CBF_Help_DungeonAreas.label>공간</CBF_Help_DungeonAreas.label>
+  <CBF_Help_DungeonAreas.description>이 층의 방입니다. 구역의 지구처럼 묶어서 표시합니다.
+
+각 행은 분류나 특정 부품과 개수를 지정합니다. 우선순위는 어느 행에 공간을 먼저 배정할지 정합니다. 공간이 다 차면 낮음 우선순위 행의 개수가 최솟값에 못 미칠 수 있습니다. 공간에 자체 배치를 지정할 수도 있습니다.
+
+구획이 있으면 각 구획에 자체 공간이 있습니다.</CBF_Help_DungeonAreas.description>
+  <CBF_Help_AncientDangerSite.label>고대의 위험 장소</CBF_Help_AncientDangerSite.label>
+  <CBF_Help_AncientDangerSite.description>림월드는 정착할 지도를 생성할 때 바위 옆에 밀봉된 고대의 위험을 배치합니다. 내부에는 고대 동면관과, 때로 잠든 메카노이드나 곤충이 있습니다. CBF는 그곳에 자체 부품을 배치할 수 있습니다.
+
+고대의 위험은 CBF_AncientDanger 아래의 분류에 속한 일반 부품입니다. 이 분류는 모든 시나리오에 적용됩니다. CBF_AncientDangerScenario 아래의 부품은 해당 분류를 지정한 시나리오에만 적용됩니다. 별도 설계 없이 부품을 그대로 배치합니다.
+
+림월드는 각 장소의 한 변을 15~20칸 중 무작위로 정합니다. 부품은 가운데에 놓입니다. 최대 15 × 15인 부품은 모든 장소에 맞고, 더 큰 부품은 공간이 충분한 장소에만 맞습니다. 20 × 20보다 큰 부품은 쓰이지 않습니다. 부품이 회전할 수 있으면 더 잘 들어맞는 방향을 사용합니다.
+
+부품의 고대 동면관은 림월드 기본 방식으로 채웁니다. 생성 기준점은 폰 목록에서 폰을 생성합니다. 정착민이 가까이 올 때까지 잠들게 하려면 목록의 역할을 Sleeper로 설정하세요. 채우기 기준점은 평소처럼 전리품을 가져옵니다. 경고 편지는 림월드 기본 편지입니다.</CBF_Help_AncientDangerSite.description>
+  <CBF_Help_SleeperRole.label>휴면 개체 역할</CBF_Help_SleeperRole.label>
+  <CBF_Help_SleeperRole.description>Sleeper 역할을 사용하는 폰 목록은 생성 기준점에 잠든 폰을 생성합니다. 정착민이 가까이 오거나 주변에서 소음이 나면 깨어나 함께 정착지를 공격합니다.
+
+폐허 시작의 휴면 개체와 같은 방식입니다. 메카노이드는 메카노이드 세력, 곤충은 곤충 세력, 사람은 기술 수준에 맞는 적대 세력에 배정됩니다.
+
+정착지에서도 Sleeper 목록은 잠들어 있습니다. 깨어 있는 경비병을 원하면 Guard, Post, Gunner를 사용하세요.</CBF_Help_SleeperRole.description>
+  <CBF_Help_ScenarioDangers.label>시나리오별 고대의 위험</CBF_Help_ScenarioDangers.label>
+  <CBF_Help_ScenarioDangers.description>정착할 지도의 고대의 위험 장소에 무엇이 생길지 시나리오마다 정합니다.
+
+기본 게임 + 자체: 림월드 기본 고대의 위험과 CBF 부품을 함께 뽑습니다. 기본 게임 가중치는 각 부품에 비해 기본 고대의 위험이 얼마나 자주 뽑힐지 정합니다.
+자체만: CBF 부품만 씁니다. 뽑힌 장소에 맞는 부품이 없으면 맞는 부품이 없을 때 설정을 따릅니다. 켜면 림월드 기본 고대의 위험을 짓고 끄면 그 장소를 비워 둡니다.
+없음: 고대의 위험을 배치하지 않습니다.
+
+CBF_AncientDanger 아래의 부품은 모든 시나리오에 적용됩니다. 추가 분류에서 CBF_AncientDangerScenario 아래의 분류를 이 시나리오에만 추가할 수 있습니다.
+
+이 항목이 없는 시나리오는 기본 게임 가중치 1의 기본 게임 + 자체와 같이 동작합니다. 림월드 또는 다른 모드의 시나리오에 저장하면 현재 모드에 패치를 작성합니다. 게임에서 만든 시나리오는 림월드 시나리오 편집기의 고대의 위험 (CBF) 항목에서 설정합니다.</CBF_Help_ScenarioDangers.description>
+</LanguageData>
