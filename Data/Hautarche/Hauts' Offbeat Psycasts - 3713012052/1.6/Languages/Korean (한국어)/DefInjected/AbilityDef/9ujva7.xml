@@ -70,7 +70,7 @@
   <HVP_Tremorzone.description>연속된 관문들을 사용하여 대상 지점 주변의 지반을 주기적으로 뒤흔듭니다. 구역 안에 있는 모든 대상(부유하거나 비행하는 대상 제외)은 반복적으로 비틀거리게 되고, 포탑은 기절합니다.</HVP_Tremorzone.description>
   <!--Original=vault skip-->
   <HVP_VaultSkip.label>금고 공간도약</HVP_VaultSkip.label>
-  <!--Original=Skips all nearby unattended items into a distant vault unreachable by regular means. The caster may later retrieve all items from the vault at once. Every 10 objects (or stacks of objects) stored in this way consume 1% psyfocus per day.\n\nIf the caster dies with items stored in the vault, the vault’s contents will be returned to the caster’s location, but roughly oneーthird of the items may be lost.-->
+  <!--Original=Skip all nearby unattended items into a distant vault unreachable by regular means. The caster may later retrieve all items from the vault at once. Every 10 objects (or stacks of objects) stored in this way consume 1% psyfocus per day.\n\nIf the caster dies with items stored in the vault, the vault’s contents will be returned to the caster’s location, but roughly oneーthird of the items may be lost.-->
   <HVP_VaultSkip.description>근처에 있는 방치된 모든 물품을 일반적인 방법으로는 도달할 수 없는 먼 곳의 금고로 순간이동시킵니다. 시전자는 나중에 금고에 있는 모든 물품을 한 번에 꺼낼 수 있습니다. 이런 방식으로 보관된 물품(또는 물품 스택) 10개마다 하루에 1%의 초집중을 소모합니다.\n\n만약 시전자가 금고에 물품을 보관한 상태에서 사망하면, 금고의 물품들은 시전자가 사망한 위치로 돌아오지만 대략 3분의 1에 달하는 물품이 소실될 수 있습니다.</HVP_VaultSkip.description>
   <!--Original=booster link-->
   <HVP_BoosterLink.label>강화 연결</HVP_BoosterLink.label>
@@ -78,20 +78,20 @@
   <HVP_BoosterLink.description>대상을 정신을 예리하게 만드는 정신적 주파수에 노출시켜 이동 및 조작 능력을 향상시킵니다. 이 과정은 지속적으로 신경열을 발생시킵니다. 시전자가 원할 때, 대상이 4초 이상 쓰러져 있을 때, 시전자가 초능력을 사용할 수 없는 상태가 됐을 때, 또는 대상과의 거리가 60칸을 넘어가면 즉시 종료됩니다.\n\n초당 신경열이 2.5 상승합니다.</HVP_BoosterLink.description>
   <!--Original=flare-->
   <HVP_Flare.label>섬광</HVP_Flare.label>
-  <!--Original=Briefly swell with psychic power. The next psycast within 2 hours will not incur neural heat and will have 80% of its psyfocus cost refunded; if it is a skip psycast, its range will also be extended.-->
-  <HVP_Flare.description>정신력을 순간적으로 크게 증폭시킵니다. 2시간 이내에 시전하는 다음 초능력은 신경열을 발생시키지 않으며, 소모한 초칩중의 80%가 환불됩니다. 만약 시전하는 초능력이 공간도약 계열일 경우 사거리 역시 확장됩니다.</HVP_Flare.description>
+  <!--Original=Briefly swell with psychic power. The next psycast within 2 hours will not incur neural heat and will have a portion of its psyfocus cost refunded (100% if it&apos;s a firstーlevel psycast; 80% otherwise). If it is a skip psycast, its range will also be extended.-->
+  <HVP_Flare.description>정신력을 순간적으로 크게 증폭시킵니다. 2시간 이내에 시전하는 다음 초능력은 신경열을 발생시키지 않으며, 소모한 초칩중의 일부가 환불됩니다. (1단계 초능력은 100% 환불, 그 외에는 80%) 만약 시전하는 초능력이 공간도약 계열일 경우 사거리 역시 확장됩니다.</HVP_Flare.description>
   <!--Original=mountain skip-->
   <HVP_MountainSkip.label>산 소환</HVP_MountainSkip.label>
   <!--Original=Teleport a large mass of rock. This can turn a targeted thin rock roof into overhead mountain. It can also turn overhead mountain, other roof types, or empty spaces that could support a roof into thin rock roof.-->
   <HVP_MountainSkip.description>거대한 암석 덩어리를 순간이동시킵니다. 대상 위치의 얇은 암석 지붕을 산 지붕으로 변화시킬 수 있습니다. 또한 산 지붕이나 다른 형태의 지붕, 또는 지붕을 지탱할 수 있는 빈 공간을 얇은 암석 지붕으로 바꿀 수도 있습니다.</HVP_MountainSkip.description>
   <!--Original=replicate-->
   <HVP_Replicate.label>복제</HVP_Replicate.label>
-  <!--Original=Teleports in a copy of the targeted resource item from somewhere else in the cosmos.\n\nItems worth more than 350 silver can&apos;t be replicated. If the target is an item stack exceeding 500 silver in value, the replica will be smaller in order to be at or under 500 silver in value.-->
+  <!--Original=Teleport in a copy of the targeted resource item from somewhere else in the cosmos.\n\nItems worth more than 350 silver apiece can&apos;t be replicated. If the target is an item stack exceeding 500 silver in value, the replica will be smaller in order to be at or under 500 silver in value.-->
   <HVP_Replicate.description>우주 어딘가에 존재하는 대상 자원 물품의 복제품을 이쪽으로 순간이동시킵니다.\n\n시장 가치가 350을 초과하는 물품은 복제할 수 없습니다. 만약 대상 물품 스택의 총 가치가 500을 초과하는 경우, 복제품의 수량은 총 가치가 500 이하가 되도록 줄어듭니다.</HVP_Replicate.description>
   <!--Original=skiptheft-->
   <HVP_Skiptheft.label>절도 공간도약</HVP_Skiptheft.label>
-  <!--Original=Skip a random item carried or worn by the target into the caster&apos;s possession, slightly damaging it. If the target is hostile, this will preferentially steal their weapon, then their apparel, then things in their inventory; otherwise, the priority of items to steal is reversed. Stealing worn apparel, wielded weapons, or from a member of an ultratech faction will worsen relations with the target&apos;s faction.\n\nAlso raises the target&apos;s alert level by 5, making it more difficult to pickpocket them.-->
-  <HVP_Skiptheft.description>대상이 소지하거나 착용한 무작위 물품을 시전자의 소지품으로 순간이동시킵니다. 이 과정에서 물품에 약간의 피해를 입힙니다. 대상이 적대적일 경우 무기, 의류, 소지한 물품 순으로 우선하여 훔치며, 적대적이지 않다면 우선순위가 반대로 적용됩니다. 착용 중인 의류 또는 무기를 훔치거나, 번화계 세력의 구성원을 대상으로 물품을 훔치면 해당 세력의 우호도가 감소합니다.\n\n또한 대상의 경계 수준이 5만큼 상승하여 다음 소매치기 시도가 더 어려워집니다.</HVP_Skiptheft.description>
+  <!--Original=Skip a random item carried or worn by the target into the caster&apos;s possession, slightly damaging it. If the target is hostile, this will preferentially steal their weapon, then their apparel, then things in their inventory; otherwise, the priority of items to steal is reversed. Stealing worn apparel, wielded weapons, or from a member of an ultratech faction will worsen relations with the target&apos;s faction.\n\nAlso raises the target&apos;s alert level by +200%, making it more difficult to pickpocket them.-->
+  <HVP_Skiptheft.description>대상이 소지하거나 착용한 무작위 물품을 시전자의 소지품으로 순간이동시킵니다. 이 과정에서 물품에 약간의 피해를 입힙니다. 대상이 적대적일 경우 무기, 의류, 소지한 물품 순으로 우선하여 훔치며, 적대적이지 않다면 우선순위가 반대로 적용됩니다. 착용 중인 의류 또는 무기를 훔치거나, 번화계 세력의 구성원을 대상으로 물품을 훔치면 해당 세력의 우호도가 감소합니다.\n\n또한 대상의 경계 수준이 200% 상승하여 다음 소매치기 시도가 더 어려워집니다.</HVP_Skiptheft.description>
   <!--Original=turret skip-->
   <HVP_TurretSkip.label>포탑 소환</HVP_TurretSkip.label>
   <!--Original=Skip a miniーslugger turret from the storage of a mechanoid fleet to the target location, and psychically reprogram it to only target the caster&apos;s enemies. After 2 hours, a skipgate will teleport the turret back ー unless it is about to explode.\n\nUnlike a conventionally deployed miniーslugger, this turret is oddly more accurate.-->
@@ -102,8 +102,8 @@
   <HVP_FluxPulse.description>미세 관문들을 사용하여 대상 지점 주변에 극도로 뜨거운 입자와 차가운 입자를 혼합하여 퍼뜨립니다. 이 과정에서 전자기파가 방출되며, 열사병, 저체온증, 그리고 화상을 입힐 수 있습니다.</HVP_FluxPulse.description>
   <!--Original=meteoroid skip-->
   <HVP_MeteoroidSkip.label>유성체 소환</HVP_MeteoroidSkip.label>
-  <!--Original=Teleport the target chunk into the gravity well of a distant neutron star to vastly accelerate it, then quickly teleport it back to a position far above the target point. It will land with explosive force shortly thereafter. Chunks of more durable materials will cause more damage.\n\nShields that block mortar fire also block meteoroids.-->
-  <HVP_MeteoroidSkip.description>대상 덩어리를 멀리 떨어진 중성자별의 중력 우물로 순간이동시켜 엄청난 속도로 가속한 뒤, 대상 지점의 상공으로 빠르게 다시 순간이동시킵니다. 가속된 덩어리는 잠시 후 폭발적인 힘과 함께 지상으로 낙하합니다. 더 단단한 재질의 덩어리를 사용할수록 더 큰 피해를 입힙니다.\n\n박격포탄을 방어하는 보호막은 이 유성체도 방어할 수 있습니다.</HVP_MeteoroidSkip.description>
+  <!--Original=Teleport the target chunk into the gravity well of a distant neutron star to vastly accelerate it, then quickly teleport it back to a position far above the target point. It will land with explosive force shortly thereafter. Chunks of more durable materials and/or greater stack size will cause more damage.\n\nShields that block mortar fire also block meteoroids.-->
+  <HVP_MeteoroidSkip.description>대상 덩어리를 멀리 떨어진 중성자별의 중력 우물로 순간이동시켜 엄청난 속도로 가속한 뒤, 대상 지점의 상공으로 빠르게 다시 순간이동시킵니다. 가속된 덩어리는 잠시 후 폭발적인 힘과 함께 지상으로 낙하합니다. 더 단단한 재질의 덩어리, 여러 개가 스택된 덩어리를 사용할수록 더 큰 피해를 입힙니다.\n\n박격포탄을 방어하는 보호막은 이 유성체도 방어할 수 있습니다.</HVP_MeteoroidSkip.description>
   <!--Original=reave-->
   <HVP_ReavingSkip.label>강탈</HVP_ReavingSkip.label>
   <!--Original=Skip a portion of the target away from the rest of its body. Deals quadruple damage to buildings, and ignores any level of incoming damage factor other than total invulnerability.-->
