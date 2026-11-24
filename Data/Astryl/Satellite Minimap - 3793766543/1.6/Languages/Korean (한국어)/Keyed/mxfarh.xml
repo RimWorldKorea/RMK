@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SM_ModTitle>- Satellite Minimap -</SM_ModTitle>
+  <SM_LayersTip>표시 항목을 열어 위성이 추적할 대상과 카메라 시야 사각형 표시 여부를 선택합니다.</SM_LayersTip>
+  <SM_GearTip>빠른 설정에서 불투명도, 표식 크기, 깊이에 따른 어둡기를 즉시 바꿀 수 있습니다.</SM_GearTip>
+  <SM_WidgetTip>위성 미니맵을 켜거나 끕니다.</SM_WidgetTip>
+  <SM_LockOnTip>잠김: 미니맵 창을 옮기거나 크기를 바꿀 수 없습니다. 클릭하여 잠금을 풉니다.</SM_LockOnTip>
+  <SM_LockOffTip>잠금 해제됨: 상단 막대를 끌어 옮기고 모서리를 끌어 크기를 바꿉니다. 클릭하여 창을 잠급니다.</SM_LockOffTip>
+  <SM_GripLinkedTip>끌어서 크기를 바꿉니다. 지도와 같은 가로세로 비율을 유지합니다.</SM_GripLinkedTip>
+  <SM_GripFreeTip>끌어서 크기를 바꿉니다. Shift를 누른 채 끌면 창의 현재 비율을 유지합니다.</SM_GripFreeTip>
+  <SM_HideTip>미니맵을 닫습니다. 모드 설정에서 복원할 수 있습니다.</SM_HideTip>
+  <SM_TglViewRect>카메라 시야 사각형</SM_TglViewRect>
+  <SM_TglSelected>선택 대상 강조</SM_TglSelected>
+  <SM_TglFindKind>선택한 종류 모두 찾기</SM_TglFindKind>
+  <SM_TglColonists>정착민</SM_TglColonists>
+  <SM_TglHostiles>적대적</SM_TglHostiles>
+  <SM_TglWildlife>야생 동물과 가축</SM_TglWildlife>
+  <SM_TglFriendlies>방문객과 아군</SM_TglFriendlies>
+  <SM_TglFires>화재</SM_TglFires>
+  <SM_TglFog>전장의 안개</SM_TglFog>
+  <SM_TglPrisoners>수감자</SM_TglPrisoners>
+  <SM_TglPredators>포식동물</SM_TglPredators>
+  <SM_TglCorpses>시체</SM_TglCorpses>
+  <SM_TglProjectiles>발사체</SM_TglProjectiles>
+  <SM_TglDeepRes>지하 자원</SM_TglDeepRes>
+  <SM_TglFactionCol>세력 색상</SM_TglFactionCol>
+  <SM_TglAttackAlerts>공격 경보 표식</SM_TglAttackAlerts>
+  <SM_TglThreatWarn>위협 경고</SM_TglThreatWarn>
+  <SM_ThreatChipTip>지도상의 위협: {0}</SM_ThreatChipTip>
+  <SM_ThreatLine>{0} × {1}</SM_ThreatLine>
+  <SM_ThreatChipTipJump>클릭하면 카메라가 가장 큰 무리로 이동합니다. 다시 클릭하면 나머지 무리로 차례로 이동합니다.</SM_ThreatChipTipJump>
+  <SM_SetThreatLife>위협 경고 표시 시간: {0}초</SM_SetThreatLife>
+  <SM_BandChipTip>{0}층. 클릭하면 미니맵을 이 층에 고정합니다. 고정된 층 표시를 클릭하면 다시 카메라를 따라갑니다.</SM_BandChipTip>
+  <SM_BandCurTip>현재 {0}층을 보고 있습니다. 클릭하면 다시 카메라를 따라갑니다.</SM_BandCurTip>
+  <SM_BandUpTip>미니맵을 한 층 위에 고정합니다.</SM_BandUpTip>
+  <SM_BandDownTip>미니맵을 한 층 아래에 고정합니다.</SM_BandDownTip>
+  <SM_SetEnabled>미니맵 활성화</SM_SetEnabled>
+  <SM_SetEnabledTip>지도 화면에 위성 미니맵 창을 표시합니다.</SM_SetEnabledTip>
+  <SM_SetRequireComms>통신기 필요</SM_SetRequireComms>
+  <SM_SetRequireCommsTip>위성 통신에는 전력이 공급되고 작동하는 통신기가 필요합니다. 소형 통신기나 Vanilla Gravship Expanded의 통신 단말기 같은 모드 통신기도 사용할 수 있습니다. 태양 플레어가 발생하면 통신이 끊깁니다.</SM_SetRequireCommsTip>
+  <SM_SetLocked>창 잠금</SM_SetLocked>
+  <SM_SetLockedTip>창을 옮기거나 크기를 바꿀 수 없게 합니다. 미니맵 창에서도 이 설정을 바꿀 수 있습니다.</SM_SetLockedTip>
+  <SM_SetAlpha>창 불투명도: {0}%</SM_SetAlpha>
+  <SM_SetMarkerScale>표식 크기: ×{0}</SM_SetMarkerScale>
+  <SM_SetAasbDim>층마다 적용할 어둡기 (As Above, So Below): {0}%</SM_SetAasbDim>
+  <SM_SetCamRectAlpha>카메라 사각형 밝기: {0}%</SM_SetCamRectAlpha>
+  <SM_SetMarkerHz>표식 갱신: 초당 {0}회</SM_SetMarkerHz>
+  <SM_SetBakeSpeed>지도 이미지 갱신 속도: ×{0}</SM_SetBakeSpeed>
+  <SM_SetPingLife>표식 표시 시간: {0}초</SM_SetPingLife>
+  <SM_SetCrisp>선명한 픽셀</SM_SetCrisp>
+  <SM_SetCrispTip>부드럽게 보정하지 않고 지도 이미지의 픽셀을 선명하게 표시합니다.</SM_SetCrispTip>
+  <SM_SetKeepAspect>창을 지도 비율에 맞춤</SM_SetKeepAspect>
+  <SM_SetKeepAspectTip>모서리를 끌어도 창의 가로세로 비율이 지도와 동일하게 유지됩니다. 넓은 지도는 넓은 창에 표시됩니다. 끄면 창 크기를 자유롭게 바꿀 수 있으며, Shift를 누른 채 끌면 현재 비율을 유지합니다. 창과 지도의 비율이 다르면 빈 여백이 생깁니다.</SM_SetKeepAspectTip>
+  <SM_SetWorldPing>기본 지도에도 위치 표식 표시</SM_SetWorldPing>
+  <SM_SetWorldPingTip>미니맵에서 우클릭으로 위치를 표시하면 기본 지도에도 같은 위치에 표식이 뜹니다.</SM_SetWorldPingTip>
+  <SM_SetPSJump>Authentic 방식에서 클릭으로 카메라 이동</SM_SetPSJump>
+  <SM_SetPSJumpTip>Perspective Shift의 Authentic 방식은 특정 캐릭터의 시점에서 플레이하므로 기본적으로 미니맵을 클릭해도 카메라가 이동하지 않습니다. 이 옵션을 켜면 미니맵을 클릭해 시점을 이동할 수 있습니다. 다른 플레이 방식에는 영향이 없습니다.</SM_SetPSJumpTip>
+  <SM_AuthenticNoJump>캐릭터의 눈으로만 볼 수 있어 미니맵으로 카메라를 이동할 수 없습니다.</SM_AuthenticNoJump>
+  <SM_SetReset>창 위치와 크기 초기화</SM_SetReset>
+  <SM_SetColors>표식 색상…</SM_SetColors>
+  <SM_ColorsTitle>표식 색상</SM_ColorsTitle>
+  <SM_ColorsReset>기본값으로 재설정</SM_ColorsReset>
+  <SM_ColColonist>정착민</SM_ColColonist>
+  <SM_ColHostile>적대적</SM_ColHostile>
+  <SM_ColPrisoner>수감자</SM_ColPrisoner>
+  <SM_ColWildlife>야생동물</SM_ColWildlife>
+  <SM_ColColonyAnimal>정착지 동물</SM_ColColonyAnimal>
+  <SM_ColFire>화재</SM_ColFire>
+  <SM_ColPredator>포식동물</SM_ColPredator>
+  <SM_ColCorpse>시체</SM_ColCorpse>
+  <SM_ColProjectile>발사체</SM_ColProjectile>
+  <SM_ColFriendly>방문객과 아군</SM_ColFriendly>
+  <SM_ColSelected>선택 대상 강조</SM_ColSelected>
+  <SM_ColLocator>선택한 종류 모두 찾기</SM_ColLocator>
+  <SM_SetLayersNote>정착민, 적, 야생 동물, 화재, 안개 등 표시 항목은 미니맵 창의 상단 막대에서 변경할 수 있습니다.</SM_SetLayersNote>
+  <SM_SetStandDown>다른 미니맵 모드(Dubs Mint Minimap 또는 Mission Control)가 활성화되어 이 미니맵은 기본적으로 숨겨집니다.</SM_SetStandDown>
+  <SM_SetForce>이 미니맵도 표시</SM_SetForce>
+  <SM_SetForceTip>다른 미니맵 모드가 불러와졌어도 이 미니맵을 실행합니다. 미니맵 두 개는 보통 너무 많습니다.</SM_SetForceTip>
+  <SM_SetRestore>닫은 미니맵 복원</SM_SetRestore>
+</LanguageData>

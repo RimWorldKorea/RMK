@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="DankPyon_RusticEmptyShelf"]/label</xpath>
+    <value>
+      <label>선반</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="DankPyon_RusticEmptyShelf1x2c"]/label</xpath>
+    <value>
+      <label>큰 선반</label>
+    </value>
+  </Operation>
+</Patch>

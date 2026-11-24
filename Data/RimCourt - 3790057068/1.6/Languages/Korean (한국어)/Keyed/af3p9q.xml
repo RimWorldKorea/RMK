@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RimCourt.HoldCourtLabel>재판 열기</RimCourt.HoldCourtLabel>
+  <RimCourt.GuideGizmoLabel>재판 안내서</RimCourt.GuideGizmoLabel>
+  <RimCourt.GuideGizmoDesc>재판에서 사건이 어떻게 생기고 어떻게 판결하며 영주의 평판에 어떤 영향을 주는지 설명합니다.</RimCourt.GuideGizmoDesc>
+  <RimCourt.Settings.OpenGuide>재판 안내서 열기</RimCourt.Settings.OpenGuide>
+  <RimCourt.HoldCourtDesc>재판을 엽니다. 영주가 자리에 앉고 정착민이 모이면 청원인들이 한 사람씩 사건을 탄원합니다. 각각의 판결을 내리세요. 수감자에게는 별도의 심리가 열립니다.</RimCourt.HoldCourtDesc>
+  <RimCourt.HearCaptivesLabel>수감자 심리</RimCourt.HearCaptivesLabel>
+  <RimCourt.HearCaptivesDesc>수감자만 대상으로 심리를 엽니다. 영주가 자리에 앉으면 수감자들이 감옥에서 한 명씩 끌려옵니다. 정식 재판과 별도로 열리며 시작 전이나 종료 후 대기 시간이 없습니다.</RimCourt.HearCaptivesDesc>
+  <RimCourt.ShowMarkerLabel>표지 표시</RimCourt.ShowMarkerLabel>
+  <RimCourt.ShowMarkerDesc>표지를 표시하거나 숨깁니다. 표시 여부와 관계없이 재판을 열 수 있습니다.</RimCourt.ShowMarkerDesc>
+  <RimCourt.MarkerHidden>표지를 숨겼습니다.</RimCourt.MarkerHidden>
+  <RimCourt.HonourSeatLabel>귀빈석</RimCourt.HonourSeatLabel>
+  <RimCourt.HonourSeatTaken>귀빈석: {0}</RimCourt.HonourSeatTaken>
+  <RimCourt.HonourSeatDesc>재판이 열릴 때 정착민 한 명에게 이 의자를 배정합니다. 군중에 합류하는 대신 이 자리에 앉으며, 의자가 영주 옆에 있으면 영주 곁에 앉습니다. 정착민이 지도에 없을 때는 누구나 앉을 수 있습니다.</RimCourt.HonourSeatDesc>
+  <RimCourt.HonourSeatNobody>아무도 없음</RimCourt.HonourSeatNobody>
+  <RimCourt.HonourSeatElsewhere>{0} (다른 자리에서 이동)</RimCourt.HonourSeatElsewhere>
+  <RimCourt.HonourSeatInspect>귀빈석: {0}.</RimCourt.HonourSeatInspect>
+  <RimCourt.NameLordLabel>영주 지정</RimCourt.NameLordLabel>
+  <RimCourt.NameLordDesc>누가 재판을 열지 정합니다. 별도로 지정하지 않으면 왕좌의 주인이 재판석에 앉고, 주인이 없다면 정착지에서 가장 영향력 있는 사람이 앉습니다.</RimCourt.NameLordDesc>
+  <RimCourt.NameLordOnThrone>재판석이 {0}의 왕좌 위에 있으므로 영주가 정해져 있습니다. 다른 사람을 앉히려면 왕좌를 재배정하거나, 공개 재판에서 누군가가 {0_objective}에게서 자리를 빼앗게 하세요.</RimCourt.NameLordOnThrone>
+  <RimCourt.PickLordTitle>재판 주재자</RimCourt.PickLordTitle>
+  <RimCourt.PickLordDesc>재판석이 왕좌에 놓여 있지 않아 정착지에서 가장 영향력 있는 사람이 앉습니다. 왕좌를 배정하면 그 주인이 알아서 앉습니다. 그전까지는 여기서 영주를 지정하세요.</RimCourt.PickLordDesc>
+  <RimCourt.PickLordRow>{0}  ·  사교 {1}</RimCourt.PickLordRow>
+  <RimCourt.PickLordNoTitle>작위 없음</RimCourt.PickLordNoTitle>
+  <RimCourt.PickLordThroneDesc>재판석이 {0}의 왕좌 위에 있으므로 별도로 지정하지 않으면 {0}(이)가 앉습니다. 다른 사람이 앉은 것은 직접 지정했거나 도전으로 자리를 차지했기 때문입니다. 자동으로 두면 왕좌의 주인이 다시 앉습니다.</RimCourt.PickLordThroneDesc>
+  <RimCourt.PickLordSeatOwner>이 왕좌의 주인</RimCourt.PickLordSeatOwner>
+  <RimCourt.LordByThrone>{0}(이)가 왕좌의 주인으로서 재판을 주재합니다.</RimCourt.LordByThrone>
+  <RimCourt.PickLordAuto>자동으로 결정 (현재는 {0})</RimCourt.PickLordAuto>
+  <RimCourt.LordNamed>지정한 대로 {0}(이)가 재판을 주재합니다.</RimCourt.LordNamed>
+  <RimCourt.LordByPrestige>{0}(이)가 재판을 주재하게 됩니다.</RimCourt.LordByPrestige>
+  <RimCourt.NameHandLabel>대리인 지정</RimCourt.NameHandLabel>
+  <RimCourt.NameHandDesc>영주가 누워 있거나 아프거나, 누구에게도 서약을 받을 수 없을 만큼 어릴 때 대신 재판을 주재할 정착민을 지정합니다. 대리인이 없으면 기존처럼 지위에 따라 주재자가 정해집니다.</RimCourt.NameHandDesc>
+  <RimCourt.PickHandTitle>영주의 대리인</RimCourt.PickHandTitle>
+  <RimCourt.PickHandDesc>영주가 재판을 주재할 수 없으면 대리인이 그날 재판석에 앉고, 영주가 의자까지 걸어갈 수 있게 되는 즉시 자리를 돌려줍니다. 판결은 대리인이 내리지만 평판은 재판 전체에 쌓입니다.</RimCourt.PickHandDesc>
+  <RimCourt.PickHandNone>대리인 없이 운영</RimCourt.PickHandNone>
+  <RimCourt.LordByHand>영주가 재판을 열 수 없어 {0}(이)가 대리인으로 재판을 주재합니다.</RimCourt.LordByHand>
+  <RimCourt.StandingByHand>영주가 재판을 열 수 없어 대리인으로 재판을 주재함</RimCourt.StandingByHand>
+  <RimCourt.StandingHandTag>대리인</RimCourt.StandingHandTag>
+  <RimCourt.SeatInheritedLabel>{0}(이)가 영주의 자리를 물려받음</RimCourt.SeatInheritedLabel>
+  <RimCourt.SeatInheritedText>{0}(이)가 사망했습니다. 생전에 {1}(을)를 후계자로 지명했습니다. 작위와 함께 재판석도 넘어갑니다. 이제 {1}(이)가 지위가 아니라 상속권으로 재판석에 앉습니다.
+
+다른 사람에게 재판을 맡기려면 표지에서 영주를 지정하세요.</RimCourt.SeatInheritedText>
+  <RimCourt.ShapedLabel>재판석이 {0}(을)를 바꿈</RimCourt.ShapedLabel>
+  <RimCourt.Shaped1>{0}(은)는 재판석에서 너무 많은 고통을 명한 끝에 더 이상 개의치 않게 되었습니다. 이제 {0_pronoun}(은)는 {1}(이)며, 이 변화는 영구적입니다.
+
+이전에는 가혹한 판결 때문에 마음이 무거웠지만 이제 {0_pronoun}(은)는 태연합니다. 그래도 {0_pronoun}(이)가 더 나은 영주가 된 것은 아닙니다.</RimCourt.Shaped1>
+  <RimCourt.Shaped2>{0}(은)는 재판석에서 돈을 너무 자주 받아, 이제는 결정이 아닌 습관처럼 돈을 받습니다. 이제 {0_pronoun}(은)는 {1}(이)며, 이 변화는 영구적입니다.
+
+이전에는 돈을 받고 내린 판결 때문에 마음이 무거웠지만 이제 {0_pronoun}(은)는 태연합니다. 그래도 {0_pronoun}(이)가 더 나은 영주가 된 것은 아닙니다.</RimCourt.Shaped2>
+  <RimCourt.Shaped3>{0}(은)는 재판석에서 판결을 너무 자주 피한 끝에 더 이상 사람들이 따를 것을 기대하지 않습니다. 이제 {0_pronoun}(은)는 {1}(이)며, 이 변화는 영구적입니다.
+
+이전에는 나약한 판결 때문에 마음이 무거웠지만 이제 {0_pronoun}(은)는 태연합니다. 그래도 {0_pronoun}(이)가 더 나은 영주가 된 것은 아닙니다.</RimCourt.Shaped3>
+  <RimCourt.ShapedLostKind>{0}에게 남아 있던 다정다감함은 사라졌습니다.</RimCourt.ShapedLostKind>
+  <RimCourt.Settings.ShapeLord>재판석이 사람을 바꿈</RimCourt.Settings.ShapeLord>
+  <RimCourt.Settings.ShapeLordHint>오랫동안 가혹하거나 사익을 추구하거나 나약한 판결을 내리면 영주에게 그에 맞는 특성이 영구적으로 생깁니다. 평판이 굳고 점수가 30점에 이르며 같은 영주가 판결을 열두 번 내려야 하므로 드물게 일어나며, 일어나면 알림이 뜹니다. 좋은 특성은 얻지 못합니다. 재판석은 사람을 타락시키는 자리입니다. 다정다감한 영주도 피의 갈망을 얻으면 더는 다정다감하지 않습니다.</RimCourt.Settings.ShapeLordHint>
+  <RimCourt.Settings.NoDecay>한번 생긴 명성은 잊히지 않음</RimCourt.Settings.NoDecay>
+  <RimCourt.Settings.NoDecayHint>평판은 보통 재판과 재판 사이에 하루 약 3%씩 줄어듭니다. 재판을 열지 않으면 서서히 잊힙니다. 이 옵션을 켜면 평판이 줄지 않아 영주에 대한 평가가 유지됩니다. 치트 기능이며 원할 때 사용할 수 있습니다.</RimCourt.Settings.NoDecayHint>
+  <RimCourt.Epithet0>정의로운 자</RimCourt.Epithet0>
+  <RimCourt.Epithet1>잔혹한 자</RimCourt.Epithet1>
+  <RimCourt.Epithet2>탐욕스러운 자</RimCourt.Epithet2>
+  <RimCourt.Epithet3>나약한 자</RimCourt.Epithet3>
+  <RimCourt.EpithetF0>정의로운 자</RimCourt.EpithetF0>
+  <RimCourt.EpithetF1>잔혹한 자</RimCourt.EpithetF1>
+  <RimCourt.EpithetF2>탐욕스러운 자</RimCourt.EpithetF2>
+  <RimCourt.EpithetF3>나약한 자</RimCourt.EpithetF3>
+  <RimCourt.EpithetLine>오늘부터 정착민은 {1_objective}(을)를 부를 호칭을 정했고, {1_possessive} 이름에 그 호칭이 붙습니다: {0}.</RimCourt.EpithetLine>
+  <RimCourt.EpithetDropped>{0}(은)는 더 이상 {1}(이)라고 불리지 않습니다. 그 호칭을 얻게 한 판결이 잊히면서 호칭도 사라졌습니다.</RimCourt.EpithetDropped>
+  <RimCourt.Settings.Epithets>영주의 이름에 평판 호칭 붙이기</RimCourt.Settings.Epithets>
+  <RimCourt.Settings.EpithetsHint>재판의 평판이 굳으면 영주의 별명에 호칭이 붙습니다. 정의로운 제이미, 잔혹한 제이미, 탐욕스러운 제이미, 나약한 제이미처럼요. 평판이 변하면 호칭도 바뀌고 평판이 사라지면 호칭도 사라집니다. 죽은 영주는 사망할 때의 이름을 유지합니다. 이름을 그대로 두려면 끄세요.</RimCourt.Settings.EpithetsHint>
+  <RimCourt.PutInStocks>{0}(이)가 정착민 모두가 보는 앞에서 {1}시간 동안 형틀에 묶입니다.</RimCourt.PutInStocks>
+  <RimCourt.NoStocksLash>설치된 형틀 기둥이 없어 {0}에게 대신 태형을 내립니다.</RimCourt.NoStocksLash>
+  <RimCourt.StocksReleased>{0}(이)가 형틀에서 형기를 마쳤습니다.</RimCourt.StocksReleased>
+  <RimCourt.StocksFreed>{0}(이)가 형틀에서 일찍 풀려났습니다.</RimCourt.StocksFreed>
+  <RimCourt.StocksReleaseLabel>풀어 주기</RimCourt.StocksReleaseLabel>
+  <RimCourt.StocksReleaseDesc>형기가 끝나기 전에 {0}(을)를 형틀에서 풀어 줍니다. 재판에서는 이 일을 언급하지 않습니다.</RimCourt.StocksReleaseDesc>
+  <RimCourt.StocksInspect>{0}(이)가 형틀에 묶여 있습니다. {1} 남음.</RimCourt.StocksInspect>
+  <RimCourt.Settings.StocksHours>형틀에 묶어 둘 시간</RimCourt.Settings.StocksHours>
+  <RimCourt.EscortDialogTitle>형틀로 보냄</RimCourt.EscortDialogTitle>
+  <RimCourt.EscortDialogDesc>{0}(을)를 모두가 보는 앞에서 형틀에 묶습니다. 누군가 {0}(을)를 데려가 매듭을 묶으면 정착민은 누가 했는지 기억할 것입니다. 사람을 고르거나 {0}(이)가 혼자 걸어가게 하세요.</RimCourt.EscortDialogDesc>
+  <RimCourt.EscortNoOne>혼자 걸어가게 함</RimCourt.EscortNoOne>
+  <RimCourt.EscortNoOneCaptive>가장 가까운 사람이 데려감</RimCourt.EscortNoOneCaptive>
+  <RimCourt.StocksUnreachableLash>{0}(을)를 형틀로 데려갈 수 없어 대신 태형을 내립니다.</RimCourt.StocksUnreachableLash>
+  <RimCourt.CaptiveCantReachPost>아무도 {0}(을)를 형틀로 데려갈 수 없었습니다. {0}(은)는 감옥으로 돌아갑니다.</RimCourt.CaptiveCantReachPost>
+  <RimCourt.EscortRowInfo>{0}  ·  판결을 받은 사람에 대한 의견 {1}</RimCourt.EscortRowInfo>
+  <RimCourt.StocksTaken>{1}(이)가 {0}(을)를 형틀로 데려갑니다. 정착민 모두가 보는 앞에서 {2}시간 동안 묶어 둡니다.</RimCourt.StocksTaken>
+  <RimCourt.StocksInspectTaking>{1}(이)가 {0}(을)를 형틀로 데려가는 중입니다.</RimCourt.StocksInspectTaking>
+  <RimCourt.CaptiveBlood>{0}(이)가 {1}(을)를 죽였습니다. 홀에 있는 모두가 그 일을 알고 있으며 절반은 직접 지켜봤습니다.</RimCourt.CaptiveBlood>
+  <RimCourt.CaptiveHurt>{0}(이)가 {1}(을)를 쓰러뜨렸습니다. {1}(이)가 다시 일어났지만 그게 {0}의 공은 아닙니다.</RimCourt.CaptiveHurt>
+  <RimCourt.CaptiveRaids>{0}의 세력인 {1}(은)는 올해 {2}번이나 이 성벽을 공격했습니다. 처음 보는 이들이 아닙니다. 상습적으로 공격합니다.</RimCourt.CaptiveRaids>
+  <RimCourt.CaptiveNobody>{0}(이)가 누구에게 손을 대는 것을 본 사람은 없습니다. {0}(은)는 다른 사람들과 함께 왔다가 함께 쓰러졌으며, 혐의는 그것이 전부입니다.</RimCourt.CaptiveNobody>
+  <RimCourt.CaptiveBrought>{0}(이)가 감옥에서 {1}(을)를 데리러 갑니다.</RimCourt.CaptiveBrought>
+  <RimCourt.CaptiveNoGuard>{0}(을)를 데려올 사람이 없어 불러냈습니다. {0}(이)가 혼자 옵니다.</RimCourt.CaptiveNoGuard>
+  <RimCourt.CaptiveReleased>{0}에게 경고하고 {1}(으)로 돌려보냅니다.</RimCourt.CaptiveReleased>
+  <RimCourt.CaptiveRansomed>{1}에서 {0}의 몸값으로 은 {2}개를 지불했습니다. {0}(이)가 집으로 돌아갑니다.</RimCourt.CaptiveRansomed>
+  <RimCourt.CaptiveExecuted>{0}(이)가 재판석 앞에서 {1}(을)를 칼로 처형합니다.</RimCourt.CaptiveExecuted>
+  <RimCourt.CaptiveNoExecutioner>홀에 있는 누구도 칼을 들려 하지 않습니다. {0}(은)는 처형 대상으로 지정되어 감옥으로 돌아갑니다.</RimCourt.CaptiveNoExecutioner>
+  <RimCourt.CaptiveNoStocks>설치된 형틀 기둥이 없습니다. {0}(은)는 감옥으로 돌아갑니다.</RimCourt.CaptiveNoStocks>
+  <RimCourt.CaptiveKept>{0}(은)는 감옥으로 돌아갑니다.</RimCourt.CaptiveKept>
+  <RimCourt.ExecutionerDialogTitle>칼로 처형</RimCourt.ExecutionerDialogTitle>
+  <RimCourt.ExecutionerDialogDesc>{0}(은)는 이 자리에서 재판에 모인 이들 앞에서 죽습니다. 누군가 칼을 들면 정착민은 누가 그 일을 했는지 기억할 것입니다. 사람을 고르거나 가장 가까운 사람에게 별다른 의식 없이 집행하게 하세요.</RimCourt.ExecutionerDialogDesc>
+  <RimCourt.ExecutionerNoOne>가장 가까운 사람이 의식 없이 집행</RimCourt.ExecutionerNoOne>
+  <RimCourt.CancelCourtLabel>재판 해산</RimCourt.CancelCourtLabel>
+  <RimCourt.CancelCourtDesc>진행 중인 재판을 끝냅니다. 아직 심리하지 않은 사건은 취소됩니다.</RimCourt.CancelCourtDesc>
+  <RimCourt.CancelCourtConfirm>재판을 해산하시겠습니까? 아직 심리하지 않은 사건은 취소됩니다.</RimCourt.CancelCourtConfirm>
+  <RimCourt.CourtCooldownGizmo>{0}일 후에 재판이 다시 열립니다.</RimCourt.CourtCooldownGizmo>
+  <RimCourt.CourtCooldownGizmoOne>내일 재판이 다시 열립니다.</RimCourt.CourtCooldownGizmoOne>
+  <RimCourt.CourtAlreadyRunning>이미 재판이 열려 있습니다.</RimCourt.CourtAlreadyRunning>
+  <RimCourt.CourtOnCooldown>지금 열리는 재판은 끝났습니다. {0}일 후에 다시 열립니다.</RimCourt.CourtOnCooldown>
+  <RimCourt.CourtOnCooldownOne>지금 열리는 재판은 끝났습니다. 내일 다시 열립니다.</RimCourt.CourtOnCooldownOne>
+  <RimCourt.NeedSeat>청원인 자리 근처에 영주의 자리가 없습니다. 15칸 이내에 하나를 설치하세요.</RimCourt.NeedSeat>
+  <RimCourt.NoAudienceRoom>재판석 앞에 청원인이 설 공간이 없습니다. 재판석을 돌리거나 앞을 비우거나 청원인 자리를 설치하세요.</RimCourt.NoAudienceRoom>
+  <RimCourt.PetitionersStandHere>청원인은 {0}칸 앞에 섭니다.</RimCourt.PetitionersStandHere>
+  <RimCourt.NeedLord>지금 정착지에는 재판을 열 수 있는 사람이 없습니다.</RimCourt.NeedLord>
+  <RimCourt.NoPetitions>오늘은 영주에게 재판을 청하는 사람이 없습니다. 들을 만한 분쟁이 없습니다.</RimCourt.NoPetitions>
+  <RimCourt.CourtConvened>{0}(이)가 재판을 엽니다. 사건 {1}건을 심리합니다.</RimCourt.CourtConvened>
+  <RimCourt.CourtConvenedOne>{0}(이)가 재판을 엽니다. 사건 한 건을 심리합니다.</RimCourt.CourtConvenedOne>
+  <RimCourt.HearingConvened>{0}(이)가 재판석에 앉습니다. 수감자 {1}명이 끌려옵니다.</RimCourt.HearingConvened>
+  <RimCourt.HearingConvenedOne>{0}(이)가 재판석에 앉습니다. 수감자 한 명이 끌려옵니다.</RimCourt.HearingConvenedOne>
+  <RimCourt.NoCaptives>지금은 재판할 수 있는 수감자가 없습니다. 수감자마다 한 번만 심리하며 걸을 수 있는 적군 포로만 데려옵니다.</RimCourt.NoCaptives>
+  <RimCourt.CaseCalled>{0}(이)가 앞으로 나와 탄원합니다.</RimCourt.CaseCalled>
+  <RimCourt.CaseSkipped>{0}의 사건을 심리할 수 없었습니다.</RimCourt.CaseSkipped>
+  <RimCourt.CourtCancelled>재판이 해산되었습니다.</RimCourt.CourtCancelled>
+  <RimCourt.CourtLordGone>영주가 재판을 열 수 있는 상태가 아닙니다. 재판이 해산되었습니다.</RimCourt.CourtLordGone>
+  <RimCourt.CourtScattered>재판에 모인 이들이 흩어집니다. 정착지가 공격받는 동안에는 아무도 사건을 탄원하지 않습니다.</RimCourt.CourtScattered>
+  <RimCourt.VerdictLetterLabel>청원: {0}</RimCourt.VerdictLetterLabel>
+  <RimCourt.VerdictRendered>{0}(이)가 판결을 내렸습니다. {1}.</RimCourt.VerdictRendered>
+  <RimCourt.VerdictRefused>{0}(은)는 판결을 받아들이지 않고 {1}(이)가 여전히 말하는 동안 홀을 나갑니다. 판결은 종이에만 남습니다.</RimCourt.VerdictRefused>
+  <RimCourt.BanishedByCourt>영주의 명으로 {0}(이)가 정착지에서 추방됩니다.</RimCourt.BanishedByCourt>
+  <RimCourt.ExileReturnsLabel>{0}(이)가 돌아옴</RimCourt.ExileReturnsLabel>
+  <RimCourt.ExileReturnsText>재판에서 {0}(을)를 내쫓았고 사건은 끝났습니다. {0}에게는 끝난 일이 아니었습니다.\n\n이제 {0_pronoun}(은)는 {1}(와)과 함께하며, 그들 중 {2}명을 데려왔습니다. {0_pronoun}(은)는 출입문의 위치와 누가 싸울 수 있는지 알며, 재판석 앞에서 {0_pronoun}(이)가 무슨 말을 들었는지도 똑똑히 기억합니다.</RimCourt.ExileReturnsText>
+  <RimCourt.ExileWarlordLabel>이제 상석에 앉은 {0}</RimCourt.ExileWarlordLabel>
+  <RimCourt.ExileWarlordText>먼 곳에서 소식이 전해졌습니다. 이 재판에서 추방한 {0}(이)가 {1}(을)를 이끕니다.\n\n그 홀에서 나눈 말은 이제 한 세력의 방침이 되었으며, 그 세력은 정착지와 국경을 맞대고 있습니다. {0}(은)는 누구에게도 원한의 내막을 설명할 필요가 없었습니다. 그들은 그 자리에 있었던 사람의 말을 믿었습니다.</RimCourt.ExileWarlordText>
+  <RimCourt.FlogMote>매를 쳐라!</RimCourt.FlogMote>
+  <RimCourt.DuelStarted>영주의 허락을 받아 {0}(와)과 {1}(이)가 재판에 모인 이들 앞에서 결판을 냅니다.</RimCourt.DuelStarted>
+  <RimCourt.DuelWon>{0}(이)가 끝까지 버텼습니다. {1}(이)가 잘못한 것으로 판결합니다.</RimCourt.DuelWon>
+  <RimCourt.FloggerDialogTitle>핏값</RimCourt.FloggerDialogTitle>
+  <RimCourt.FloggerDialogDesc>{0}(이)가 재판에 모인 이들 앞에서 죄에 대한 대가를 치릅니다. 누군가 매를 들어야 하며 정착민은 누가 매를 들었는지 기억할 것입니다. 사람을 선택하거나 별다른 의식 없이 집행하세요.</RimCourt.FloggerDialogDesc>
+  <RimCourt.FloggerNoOne>의식 없이 집행함</RimCourt.FloggerNoOne>
+  <RimCourt.FloggerRowInfo>{0}  ·  격투 {1}  ·  판결을 받은 사람에 대한 의견 {2}</RimCourt.FloggerRowInfo>
+  <RimCourt.NoFlogger>정착민 중 매를 들 사람이 없어 {0}(이)가 경비병에게 매를 맞습니다.</RimCourt.NoFlogger>
+  <RimCourt.FloggerLord>{0} (영주가 판결하고 직접 매를 듦)</RimCourt.FloggerLord>
+  <RimCourt.FloggerWronged>{0} (피해를 입은 사람)</RimCourt.FloggerWronged>
+  <RimCourt.FloggerAny>{0}</RimCourt.FloggerAny>
+  <RimCourt.NoAnswerLabel>응답 없음</RimCourt.NoAnswerLabel>
+  <RimCourt.NoAnswerMessage>{0}(이)가 {1}의 사건에 답을 내리지 않았습니다. 침묵은 기각으로 간주합니다.</RimCourt.NoAnswerMessage>
+  <RimCourt.LogVerdict>{0} 대 {1}: {2}</RimCourt.LogVerdict>
+  <RimCourt.LogVerdictSolo>{0}: {1}</RimCourt.LogVerdictSolo>
+  <RimCourt.AdjournLetterLabel>재판 종료</RimCourt.AdjournLetterLabel>
+  <RimCourt.AdjournLetterText>{0}(이)가 오늘의 청원을 들었습니다. 사건 {1}건을 처리했습니다.</RimCourt.AdjournLetterText>
+  <RimCourt.AdjournLetterTextOne>{0}(이)가 오늘의 청원을 들었습니다. 사건 한 건을 처리했습니다.</RimCourt.AdjournLetterTextOne>
+  <RimCourt.AdjournHearingText>{0}(이)가 수감자를 심리했습니다. {1}명이 재판석 앞에 섰습니다.</RimCourt.AdjournHearingText>
+  <RimCourt.AdjournHearingTextOne>{0}(이)가 수감자를 심리했습니다. 한 명이 재판석 앞에 섰습니다.</RimCourt.AdjournHearingTextOne>
+  <RimCourt.PetitionerArrivesLabel>청원인: {0}</RimCourt.PetitionerArrivesLabel>
+  <RimCourt.OutsiderGaveUp>{0}(이)가 심리를 기다렸지만 끝내 열리지 않아 떠났습니다.</RimCourt.OutsiderGaveUp>
+  <RimCourt.OutsiderJoined>{0}(이)가 정착지에 받아들여졌습니다.</RimCourt.OutsiderJoined>
+  <RimCourt.SlaveFreed>{0}(이)가 자유를 얻었습니다. 영주가 선언했고 홀에 있던 모두가 들었습니다.</RimCourt.SlaveFreed>
+  <RimCourt.OutsiderBoughtIn>{0}(이)가 정착지에 들어오려고 은 {1}개를 지불했습니다.</RimCourt.OutsiderBoughtIn>
+  <RimCourt.OutsiderPaid>{0}(이)가 배상금으로 은 {1}개를 받았습니다.</RimCourt.OutsiderPaid>
+  <RimCourt.OutsiderNoSilver>정착지에 영주가 약속한 은 {0}개가 없습니다. 청원인은 모욕을 느끼고 떠납니다.</RimCourt.OutsiderNoSilver>
+  <RimCourt.OutsiderFeeTaken>{0}(이)가 재판 비용으로 은 {1}개를 냈지만 얻은 것은 없었습니다.</RimCourt.OutsiderFeeTaken>
+  <RimCourt.EnvoyArmsGiven>무기 {1}개가 {0}에게 갑니다. 그들이 앞으로 하는 일에 정착지에서 준 무기가 쓰입니다.</RimCourt.EnvoyArmsGiven>
+  <RimCourt.EnvoyArmsSold>{0}(이)가 살아남는 데 필요한 무기를 사려고 은 {1}개를 지불했습니다.</RimCourt.EnvoyArmsSold>
+  <RimCourt.EnvoyNoArms>정착지 비축분에서 무기 {0}개를 내줄 수 없습니다.</RimCourt.EnvoyNoArms>
+  <RimCourt.EnvoyFoodGiven>식량 {1}개가 {0}에게 갑니다. 굶주릴 때 먹여 준 일은 가문이 기억합니다.</RimCourt.EnvoyFoodGiven>
+  <RimCourt.EnvoyFoodSold>{0}(이)가 간절히 청하던 식량을 사려고 은 {1}개를 지불했습니다.</RimCourt.EnvoyFoodSold>
+  <RimCourt.EnvoyNoFood>정착지에 영주가 약속한 식량 {0}개를 내줄 여유가 없습니다.</RimCourt.EnvoyNoFood>
+  <RimCourt.EnvoyRefused>{0}의 사절이 빈손으로 떠납니다.</RimCourt.EnvoyRefused>
+  <RimCourt.ArbitrationArrivesLabel>성문 앞에 선 이웃 두 세력</RimCourt.ArbitrationArrivesLabel>
+  <RimCourt.Quarrel0>어느 쪽도 농사지을 수 없지만 양보하지 않는 국경의 땅 한 조각</RimCourt.Quarrel0>
+  <RimCourt.Quarrel1>어느 누구의 소유도 아닌 길에서 죽은 사람</RimCourt.Quarrel1>
+  <RimCourt.Quarrel2>한쪽은 갚았다고 하고 다른 쪽은 받은 적이 없다는 빚</RimCourt.Quarrel2>
+  <RimCourt.ArbitrationRuled>재판에서 {0}의 손을 들어 줍니다. {1}(은)는 받아들이고 받아들였다는 사실을 기억할 것입니다.</RimCourt.ArbitrationRuled>
+  <RimCourt.ArbitrationBought>{0}(이)가 은 {1}개를 내자 재판에서 {0}의 손을 들어 주었습니다. {2}(이)가 지켜봤습니다.</RimCourt.ArbitrationBought>
+  <RimCourt.ArbitrationRefused>{0}(와)과 {1}(은)는 스스로 해결하라는 말을 듣고 돌아갑니다. 해결은 하겠지만 말로 하지는 않을 것입니다.</RimCourt.ArbitrationRefused>
+  <RimCourt.MatchBlessed>{0}(와)과 {1}(이)가 영주의 축복을 받았습니다.</RimCourt.MatchBlessed>
+  <RimCourt.MatchPledged>{0}(와)과 {1}(이)가 영주의 축복을 받았습니다. 두 사람이 편한 때를 기다리는 대신 결혼식을 내일로 잡았습니다. 정착민에게 다른 일이 생겨도 예정대로 거행합니다.</RimCourt.MatchPledged>
+  <RimCourt.WeddingKeptLabel>한번 한 말은 지켜야 한다</RimCourt.WeddingKeptLabel>
+  <RimCourt.WeddingKeptText>며칠 전에 재판에서 두 사람의 혼인을 축복했지만 정착지에 연회를 열 만큼 한가한 오후는 없었습니다. 그래도 {0}(와)과 {1}(은)는 마침 곁에 있던 사람들 앞에서 결혼했습니다. 영주가 허락했고, 아무도 오지 않은 것은 두 사람의 탓이 아닙니다.</RimCourt.WeddingKeptText>
+  <RimCourt.WorkExcused>영주의 명으로 {0}(이)가 {1} 작업을 면제받습니다.</RimCourt.WorkExcused>
+  <RimCourt.Apprenticed>{0}(이)가 {1} 작업을 제대로 배우고 {2}(이)가 가르칩니다. 일을 싫어한다는 말에 영주는 일을 잘하게 되면 된다고 답했습니다.</RimCourt.Apprenticed>
+  <RimCourt.ApprenticedAlone>{0}(이)가 {1} 작업을 제대로 배워야 하지만 정착지에 가르칠 사람이 없습니다. 영주의 명령이 알아서 가르쳐야겠습니다.</RimCourt.ApprenticedAlone>
+  <RimCourt.PromiseBroken>재판에서 {0}에게 면제한 {1} 작업을 {0}(이)가 다시 맡았습니다. 정착민은 이전 판결도 봤고 이 일도 지켜봅니다.</RimCourt.PromiseBroken>
+  <RimCourt.LeaveGranted>{0}(이)가 허락을 받고 떠납니다.</RimCourt.LeaveGranted>
+  <RimCourt.Honoured>{0}(이)가 재판에 모인 모두 앞에서 공을 인정받습니다.</RimCourt.Honoured>
+  <RimCourt.HonourPaid>{0}(이)가 재판에 모인 이들 앞에서 은 {1}개를 받았으며 {0_objective}(이)가 그 돈을 가지고 떠납니다.</RimCourt.HonourPaid>
+  <RimCourt.HonourNoSilver>정착지에 영주가 약속한 은 {0}개가 없습니다. 모두가 그 약속을 들었으며, 말뿐이었다는 사실도 알게 되었습니다.</RimCourt.HonourNoSilver>
+  <RimCourt.PesteredOrdered>재판에 모인 이들 앞에서 {0}에게 {1}(을)를 내버려 두라고 했으며 모두가 들었습니다. 마음은 마음대로지만 구애는 오늘로 끝입니다.</RimCourt.PesteredOrdered>
+  <RimCourt.RivalOrderedOff>{0}(이)가 구애를 포기하라는 명령을 받았습니다. {1}에게는 묻지 않았고 {2}에게는 물을 필요도 없었습니다.</RimCourt.RivalOrderedOff>
+  <RimCourt.RivalsBothOff>재판에서 누구도 {0}에게 구애할 수 없다고 판결했습니다. {0}에게 아주 잘 맞거나 아주 불쾌할 판결입니다.</RimCourt.RivalsBothOff>
+  <RimCourt.RivalDuelWon>{0}(이)가 {0_possessive} 발로 끝까지 버텨 {0_possessive} 구애를 이어갑니다. 재판의 명으로 {1}(은)는 {2}에게 구애하지 못합니다.</RimCourt.RivalDuelWon>
+  <RimCourt.ForgivenessOrdered>{0}에게 지난 일을 더는 문제 삼지 말라는 명령이 내려졌습니다. {1}(이)가 용서받은 건지, 그저 더는 책임을 묻지 않는 건지는 재판에 모인 이들도 굳이 따지지 않습니다.</RimCourt.ForgivenessOrdered>
+  <RimCourt.GrudgeDeserved>재판에서는 {1}(이)가 {0_objective}에게 품은 원망이 모두 {0}의 자업자득이라고 판결했습니다. {0_pronoun}(이)가 어떤 대가를 치러야 하느냐고 물었으니, 그 원망을 안고 살아가는 것이 대가입니다.</RimCourt.GrudgeDeserved>
+  <RimCourt.RescuerHonoured>살아남은 {1}의 청에 따라 {0}(이)가 재판에 모인 이들 앞에서 공을 인정받습니다.</RimCourt.RescuerHonoured>
+  <RimCourt.ExilePardonLabel>성문 앞의 {0}</RimCourt.ExilePardonLabel>
+  <RimCourt.ExilePardoned>재판에 모인 이들 앞에서 {0}(이)가 사면받았습니다. 이번에는 정문으로 걸어 들어옵니다.</RimCourt.ExilePardoned>
+  <RimCourt.ExileSpurned>{0}(이)가 영영 돌아오지 말라는 말을 서서 들었습니다. 다음에 무엇이 돌아오든 혼자 오지는 않을 것입니다.</RimCourt.ExileSpurned>
+  <RimCourt.ExileTurnedAway>{0}(이)가 성문에서 기다렸지만 아무런 답도 듣지 못했습니다. 이에 {0_pronoun}(이)가 어떻게 대응할지는 {0_possessive} 몫입니다.</RimCourt.ExileTurnedAway>
+  <RimCourt.EstateRuled>영주의 명에 따라 {1}(이)가 남긴 유산이 {0}에게 갑니다. {2}(은)는 그 유산이 넘어가는 모습을 지켜봤고 앞으로도 눈을 떼지 않을 것입니다.</RimCourt.EstateRuled>
+  <RimCourt.EstateNobody>재판에서 {0}(이)가 다툴 가치가 있는 것을 남기지 않았다고 판결했습니다. 두 상속인은 같은 몫을 받고 돌아갑니다.</RimCourt.EstateNobody>
+  <RimCourt.AdulteryDivorced>{0}(이)가 재판에 모인 이들 앞에서 혼인 관계에서 풀려났습니다. {1}(은)는 애인을 지켰지만 애인 외에 모든 것을 잃었습니다.</RimCourt.AdulteryDivorced>
+  <RimCourt.AdulteryOrdered>{0}(이)가 {1}(와)과 헤어지고 서약을 지키라는 명령을 받았습니다. 재판에 모인 이들은 실제로 그리하는 것을 보아야 믿을 것입니다.</RimCourt.AdulteryOrdered>
+  <RimCourt.SomeoneElse>다른 사람</RimCourt.SomeoneElse>
+  <RimCourt.LordAdmitted>{0}(이)가 재판에 모인 모두 앞에서 재판이 {1}에게 부당했다고 인정합니다. 누구든 들고 갈 만한 물건 하나 {0_objective}에게서 나간 것이 없지만, 오늘 {0_pronoun}(이)가 한 말 중 가장 값비싼 말입니다.</RimCourt.LordAdmitted>
+  <RimCourt.LordCleared>{0}(이)가 {0_objective} 자신을 상대로 한 사건을 심리하고 {0_objective} 자신에게 잘못이 없다고 판결했습니다. 홀에 모인 이들은 선택의 여지가 없어 받아들입니다.</RimCourt.LordCleared>
+  <RimCourt.ThroneTakenLabel>영주의 자리가 바뀜</RimCourt.ThroneTakenLabel>
+  <RimCourt.ThroneTakenText>이제 영주의 자리는 {1}의 것이 아니라 {0}의 것입니다. 이전 영주가 어떤 평판을 쌓았든 정착민은 새 영주에게 새 장을 엽니다. 다음 재판은 {0}(이)가 주재합니다.</RimCourt.ThroneTakenText>
+  <RimCourt.ThroneDefended>{0}(이)가 자리를 지켰습니다. 자리를 요구한 {1}(이)가 재판에 모인 모두 앞에서 바닥에 나뒹굴었습니다.</RimCourt.ThroneDefended>
+  <RimCourt.RepLine>정착민이 보는 영주: {0}</RimCourt.RepLine>
+  <RimCourt.RepDetail>지금까지의 판결: 공정 {0}, 가혹 {1}, 사익 추구 {2}, 나약 {3}.</RimCourt.RepDetail>
+  <RimCourt.RepUntested>아직 평가받지 않음</RimCourt.RepUntested>
+  <RimCourt.RepJust>공정함</RimCourt.RepJust>
+  <RimCourt.RepHarsh>가혹함</RimCourt.RepHarsh>
+  <RimCourt.RepVenal>사익 추구</RimCourt.RepVenal>
+  <RimCourt.RepWeak>나약함</RimCourt.RepWeak>
+  <RimCourt.InspectHearing>재판 진행 중: {1}건 중 {0}번째 사건 심리.</RimCourt.InspectHearing>
+  <RimCourt.RepLetterLabel>영주를 {0}(이)라고 부름</RimCourt.RepLetterLabel>
+  <RimCourt.RepEarnedText>충분한 판결이 내려져 정착민이 {0}에 대한 평가를 내렸습니다. 사람들은 {0_pronoun}(이)가 {1}(이)라고 합니다.</RimCourt.RepEarnedText>
+  <RimCourt.RepShiftedText>정착민이 {0}에 대한 평가를 바꿨습니다. 이제 사람들은 {0_pronoun}(이)가 {1}(이)라고 합니다.</RimCourt.RepShiftedText>
+  <RimCourt.RepEffect0>공정한 판결은 충성을 얻고, 충성스러운 이들은 영주의 문을 두드립니다. 일을 해결해 줄 거라 믿어 더 많은 문제를 가져옵니다.</RimCourt.RepEffect0>
+  <RimCourt.RepEffect1>두려움이 사람들을 조용하게 합니다. 사소한 일로 영주 앞에 서는 위험을 감수할 사람이 거의 없어 이제 깊은 원한만 재판에 이릅니다. 그들은 따르지만 사랑하지 않습니다.</RimCourt.RepEffect1>
+  <RimCourt.RepEffect2>이곳의 정의에 값이 붙는다는 사실을 모두가 압니다. 그들은 돈을 내고 속으로 분노하며 그 일을 기억합니다.</RimCourt.RepEffect2>
+  <RimCourt.RepEffect3>아무것도 해결하지 못하는 영주는 시험에 듭니다. 단호한 재판이었다면 오지도 않았을 사소한 앙금이 영주에게 향합니다.</RimCourt.RepEffect3>
+  <RimCourt.Plead1>제 말을 들어 주십시오, 영주님!</RimCourt.Plead1>
+  <RimCourt.Plead2>정의를 요구합니다!</RimCourt.Plead2>
+  <RimCourt.Plead3>제가 한 일이 아닙니다!</RimCourt.Plead3>
+  <RimCourt.Plead4>정착민 모두가 진실을 알고 있습니다!</RimCourt.Plead4>
+  <RimCourt.ReactHappy1>정의가 실현됐다!</RimCourt.ReactHappy1>
+  <RimCourt.ReactHappy2>영주님은 현명하십니다!</RimCourt.ReactHappy2>
+  <RimCourt.ReactAngry1>이것은 정의가 아닙니다!</RimCourt.ReactAngry1>
+  <RimCourt.ReactAngry2>이 일을 잊지 않겠습니다.</RimCourt.ReactAngry2>
+  <RimCourt.SheetTitle>재판에 회부됨</RimCourt.SheetTitle>
+  <RimCourt.SheetPetitioner>청원인</RimCourt.SheetPetitioner>
+  <RimCourt.SheetDefendant>피청원인</RimCourt.SheetDefendant>
+  <RimCourt.SheetVerdicts>영주가 내릴 수 있는 판결:</RimCourt.SheetVerdicts>
+  <RimCourt.SheetPrecedent>지난번에 이런 사건은 {0} 처리했습니다.</RimCourt.SheetPrecedent>
+  <RimCourt.SheetKin>{0}(은)는 영주의 {1}입니다.</RimCourt.SheetKin>
+  <RimCourt.SheetKinBoth>{0}(은)는 영주의 {1}입니다. {2}(은)는 영주의 {3}입니다.</RimCourt.SheetKinBoth>
+  <RimCourt.Nepotism>{0}(이)가 {0_possessive} {2}인 {1}의 손을 들어 주었습니다. 다른 사람이 내린 판결이었다면 홀의 이들은 공정하다고 했을 것입니다.</RimCourt.Nepotism>
+  <RimCourt.Precedent0>공정하게</RimCourt.Precedent0>
+  <RimCourt.Precedent1>가혹하게</RimCourt.Precedent1>
+  <RimCourt.Precedent2>돈을 낸 쪽에 유리하게</RimCourt.Precedent2>
+  <RimCourt.Precedent3>판결을 내리지 않고</RimCourt.Precedent3>
+  <RimCourt.PrecedentHeld>{0}(이)가 {0_pronoun}(이)가 이전에 내린 판결과 같은 판결을 내립니다. 재판의 기준이 뚜렷하고 모두가 알아볼 수 있습니다.</RimCourt.PrecedentHeld>
+  <RimCourt.PrecedentBroken>{0}(이)가 같은 종류의 사건에 대해 지난번과 반대되는 판결을 내립니다. 입장이 바뀌는 재판이라면 한 번쯤 따져 볼 만합니다.</RimCourt.PrecedentBroken>
+  <RimCourt.SheetPronounce>판결 선고</RimCourt.SheetPronounce>
+  <RimCourt.ReopenSheetLabel>청원서 읽기</RimCourt.ReopenSheetLabel>
+  <RimCourt.ReopenSheetDesc>영주의 응답을 기다리는 청원서를 엽니다.</RimCourt.ReopenSheetDesc>
+  <RimCourt.SheetAwait>영주의 판결을 기다리는 중 ({0}시간 남음)</RimCourt.SheetAwait>
+  <RimCourt.SheetFooter>{0}의 재판 서기가 기록함.</RimCourt.SheetFooter>
+  <RimCourt.StampTip>영주의 인장입니다. 집어 든 뒤 원하는 판결에 찍으세요. 판결을 선고하기 전까지는 결정을 바꿀 수 있습니다.</RimCourt.StampTip>
+  <RimCourt.StampSealed>날인됨</RimCourt.StampSealed>
+  <RimCourt.Settings.Intro>재판은 표지에 맞춰 열립니다. 나머지는 슬라이더로 조절합니다.</RimCourt.Settings.Intro>
+  <RimCourt.Settings.VerdictHours>판결을 내릴 수 있는 시간</RimCourt.Settings.VerdictHours>
+  <RimCourt.Settings.CasesPerSession>재판 한 번당 사건 수</RimCourt.Settings.CasesPerSession>
+  <RimCourt.Settings.CooldownDays>재판 간격 (일)</RimCourt.Settings.CooldownDays>
+  <RimCourt.Settings.AutoOpenSheet>청원서를 자동으로 열기</RimCourt.Settings.AutoOpenSheet>
+  <RimCourt.Settings.AutoOpenSheetHint>청원인이 탄원을 끝내면 청원서가 자동으로 열립니다. 이 옵션을 끄면 편지를 클릭하여 여세요.</RimCourt.Settings.AutoOpenSheetHint>
+  <RimCourt.Settings.Reset>기본값으로 재설정</RimCourt.Settings.Reset>
+  <RimCourt.Settings.Advanced>고급</RimCourt.Settings.Advanced>
+  <RimCourt.Settings.AdvancedIntro>추방된 정착민이 이끌고 돌아올 수 있는 세력을 지정합니다. 선택하지 않은 세력도 추방자가 합류한 습격대를 보낼 수 있지만 지도자 자리를 내주지는 않습니다. 고유한 직책이 있는 세력, 왕실 작위를 수여하는 세력, 습격을 하지 않는 세력은 기본적으로 선택되어 있지 않습니다.</RimCourt.Settings.AdvancedIntro>
+  <RimCourt.Settings.LeaderReset>기본 선택으로 복원</RimCourt.Settings.LeaderReset>
+  <RimCourt.StandingLabel>영주의 평판과 지위</RimCourt.StandingLabel>
+  <RimCourt.StandingDesc>지금까지의 판결을 바탕으로 정착민이 영주를 어떻게 평가하는지, 그리고 누가 그 자리를 노릴 만한지 확인합니다.</RimCourt.StandingDesc>
+  <RimCourt.StandingTitle>영주의 평판과 지위</RimCourt.StandingTitle>
+  <RimCourt.StandingNoLord>지금 정착지에는 재판을 열 수 있는 사람이 없습니다.</RimCourt.StandingNoLord>
+  <RimCourt.StandingByWord>플레이어의 지정으로 재판을 주재함</RimCourt.StandingByWord>
+  <RimCourt.StandingByThrone>왕좌의 주인으로서 재판을 주재함</RimCourt.StandingByThrone>
+  <RimCourt.StandingByPrestige>더 영향력 있는 사람이 없어 재판을 주재함</RimCourt.StandingByPrestige>
+  <RimCourt.StandingCredentials>{0}  ·  사교 {1}  ·  {2}세</RimCourt.StandingCredentials>
+  <RimCourt.StandingNameSection>평판</RimCourt.StandingNameSection>
+  <RimCourt.StandingThroneSection>재판석</RimCourt.StandingThroneSection>
+  <RimCourt.StandingUntested>지금까지 심리한 사건이 너무 적어 영주를 평가할 수 없습니다. 평판 호칭은 {1}점에서 굳어지며, 영주는 현재 {0}점입니다. 판결당 2~3점이므로 사건 서너 건이면 정해집니다.</RimCourt.StandingUntested>
+  <RimCourt.StandingSwitch>기준은 최고 점수가 아니라 앞선 점수 차이입니다. {1}(이)가 호칭을 차지하려면 {0}점이 더 필요합니다.</RimCourt.StandingSwitch>
+  <RimCourt.StandingDecay>판결은 거부할 수 있습니다. 불리한 판결을 받은 정착민은 홀을 그대로 나갈 수 있습니다. 그러면 영주는 나약함 2점을 얻고, 이를 지켜본 사람들의 영주에 대한 평가가 모두 20점 낮아집니다. 사건이 해결되지 않았으므로 선례는 남지 않습니다. 거부 여부는 주로 영주의 평판에 달렸습니다. 가혹한 영주에게는 거의 대들지 않지만 나약한 영주에게는 자주 대듭니다. 자존심도 작용합니다. 직설적, 탐욕, 시샘, 유리정신, 철의 의지 특성이 있는 정착민은 다정다감이나 엄살쟁이 특성이 있는 정착민보다 거부할 가능성이 높습니다. 영주에게 없는 왕실 작위를 가진 정착민은 그보다 더 거부하기 쉽습니다. 태형, 추방, 결투는 동의를 기다리지 않으므로 아무도 판결을 거부하고 나갈 수 없습니다.\n\n영주는 사건의 당사자가 될 수 없지만, 배우자, 형제자매, 자녀는 당사자가 될 수 있습니다. 가족이 재판에 서면 청원서에 붉은 글씨로 표시됩니다. 그들에게 유리한 판결은 공정함이 아니라 사익 추구 판결로 집계되며, 다른 정착민도 보이는 그대로 받아들입니다. 가까운 가족의 범위는 배우자, 연인, 부모, 자녀, 형제자매, 조부모까지입니다. 사촌은 홀에서 뒷말이 나올 만큼 가깝지 않습니다.\n\n재판에서는 이전 판결도 기억합니다. 판결 전에 같은 종류의 사건을 지난번에 어떻게 처리했는지 청원서에 표시되며, 이 기록은 20일간 유지됩니다. 같은 판결을 내리면 영주가 공정함 1점을 얻습니다. 누구나 재판의 기준을 알 수 있기 때문입니다. 반대 판결을 내리면 영주가 나약함 2점을 얻습니다. 입장을 바꾸는 재판에는 이의를 제기할 만하다고 여기기 때문입니다. 사건을 기한 만료로 끝내면 선례를 만들지도 어기지도 않습니다.\n\n오래된 판결은 하루 3%씩 잊힙니다. 재판을 열지 않으면 평판은 서서히 사라집니다.</RimCourt.StandingDecay>
+  <RimCourt.StandingNoDecay>오래된 판결은 잊히지 않습니다. 한번 생긴 명성은 잊히지 않도록 설정했습니다. 반대 방향의 판결을 충분히 내리기까지 현재 평판이 유지됩니다.</RimCourt.StandingNoDecay>
+  <RimCourt.StandingEffect0>재판마다 사건이 한 건 더 들어옵니다. 먼 길을 갈 가치가 있는 재판이라는 소문이 퍼졌습니다.</RimCourt.StandingEffect0>
+  <RimCourt.StandingEffect1>재판마다 사건이 한 건 줄고 깊은 원한만 법정에 이릅니다. 사소한 앙금은 막사에 남아 계속 쌓입니다.</RimCourt.StandingEffect1>
+  <RimCourt.StandingEffect2>사건은 이전과 같이 들어오지만 영주의 자리가 안전하지 않습니다. 판결을 파는 영주에게 또 무엇을 팔 수 있냐고 묻는 사람이 생길 수 있습니다.</RimCourt.StandingEffect2>
+  <RimCourt.StandingEffect3>재판마다 사건이 한 건 더 들어오며 더 사소한 문제도 재판석에 이릅니다. 거절하지 못하는 영주에게는 더 자주 부탁합니다. 영주의 자리도 안전하지 않습니다.</RimCourt.StandingEffect3>
+  <RimCourt.StandingThroneOpen>영주의 자리에 도전할 수 있습니다. 영주를 경멸하는 사람이 공개 재판에서 일어나 무슨 권리로 그 자리에 앉았는지 물을 수 있습니다.</RimCourt.StandingThroneOpen>
+  <RimCourt.StandingThroneShut>영주의 자리에 도전할 수 없습니다. 영주가 공정하거나 가혹하다고 여겨지면 속으로 어떤 생각을 하든 그 자리에 앉을 권리를 묻지 않습니다.</RimCourt.StandingThroneShut>
+  <RimCourt.StandingNoRival>나설 자격이 있는 사람이 없습니다. 영주에 대한 의견이 {0} 이하여야 하고 사교 기술이 {1} 이상이어야 합니다. 그중 명성이 가장 높은 사람이 나섭니다.</RimCourt.StandingNoRival>
+  <RimCourt.StandingRival>{0}  ·  사교 {1}  ·  영주에 대한 의견 {2}</RimCourt.StandingRival>
+  <RimCourt.StandingWouldRise>영주에게 도전할 수 있음</RimCourt.StandingWouldRise>
+  <RimCourt.StandingHallSection>재판정</RimCourt.StandingHallSection>
+  <RimCourt.StandingHallScore>인상 {0}</RimCourt.StandingHallScore>
+  <RimCourt.StandingHallHow>재판석이 놓인 방은 정착지의 다른 방처럼 넓이, 바닥, 벽, 예술품, 청결도를 평가합니다. 방을 개선하면 재판의 위신도 높아집니다.</RimCourt.StandingHallHow>
+  <RimCourt.HallNumbers>외부인 {0}  ·  판결 거부 {1}</RimCourt.HallNumbers>
+  <RimCourt.HallNoChange>평소와 같음</RimCourt.HallNoChange>
+  <RimCourt.HallPoints>{0}점</RimCourt.HallPoints>
+  <RimCourt.HallInspect>재판이 열리는 곳: {0}.</RimCourt.HallInspect>
+  <RimCourt.Hall0>야외</RimCourt.Hall0>
+  <RimCourt.Hall1>텅 빈 방</RimCourt.Hall1>
+  <RimCourt.Hall2>소박한 홀</RimCourt.Hall2>
+  <RimCourt.Hall3>그럭저럭 쓸 만한 홀</RimCourt.Hall3>
+  <RimCourt.Hall4>훌륭한 홀</RimCourt.Hall4>
+  <RimCourt.Hall5>웅장한 홀</RimCourt.Hall5>
+  <RimCourt.HallNote0>재판석이 하늘 아래 놓여 있습니다. 들판에서 판결을 받으러 오는 외부인은 적으며, 그곳에서 은을 내라는 명령을 받은 정착민은 명령을 덜 진지하게 받아들입니다.</RimCourt.HallNote0>
+  <RimCourt.HallNote1>벽 네 개와 지붕 외에는 볼 만한 게 없습니다. 이런 방에 대한 소문은 멀리 퍼지지 않으며, 그곳에서 내린 판결도 마찬가지입니다.</RimCourt.HallNote1>
+  <RimCourt.HallNote2>간신히 홀이라 부를 만합니다. 외부인이 평소보다 조금 덜 찾아오고, 여기서 내린 판결은 조금 더 쉽게 거부할 수 있습니다.</RimCourt.HallNote2>
+  <RimCourt.HallNote3>재판석을 놓기에 충분하지만 위엄을 더해 주지는 않는 방입니다. 달라지는 점은 없습니다.</RimCourt.HallNote3>
+  <RimCourt.HallNote4>사람들이 들어올 때부터 감탄할 만큼 훌륭합니다. 소문이 퍼져 더 많은 외부인이 찾아오고, 이곳에 서서 따지려는 사람은 줄어듭니다.</RimCourt.HallNote4>
+  <RimCourt.HallNote5>웅장한 홀입니다. 외부인이 소문을 듣고 찾아오며, 판결을 거부할 생각으로 들어온 사람도 한 번 더 생각합니다.</RimCourt.HallNote5>
+  <RimCourt.HonourConferredLabel>{0}(이)가 협상가로 불리게 됨</RimCourt.HonourConferredLabel>
+  <RimCourt.HonourConferred>{2}에서 온 {1}(이)가 심리를 기대했고 실제로 심리를 받았습니다. {1}(이)가 들어오기 전부터 이 재판에는 공정하다는 평판이 있었고, 그래서 이 방문이 보고할 만한 일이 되었습니다. 제국은 병사를 보내지 않고 일을 해결하는 사람들의 명단을 관리합니다.\n\n{0}(이)가 협상가라는 명예 칭호를 받았습니다. 누군가 칭호를 빼앗을 때까지 유지되며, 보유 중에는 사교 기술이 떨어지지 않습니다.</RimCourt.HonourConferred>
+  <RimCourt.DeserterStrikesLabel>{0}(은)는 청원인이 아니었음</RimCourt.DeserterStrikesLabel>
+  <RimCourt.DeserterStrikes>판결이 내려지자 {0}(이)가 출입문 대신 {1}에게 달려들었습니다. 사건은 실제였고 사연에도 거짓이 없었지만, 그게 {0}(이)가 온 이유는 아니었습니다. 탈영병은 제국의 작위를 지닌 사람을 용서하지 않으며, 영주에게는 제국 작위가 있습니다.\n\n{0_pronoun}(은)는 무장한 채 들어왔고 아무도 무기를 확인하지 않았습니다.</RimCourt.DeserterStrikes>
+  <RimCourt.ImperialStrikes>판결이 내려지자 {0}(이)가 출입문 대신 {1}에게 달려들었습니다. 사건은 실제였고 사연에도 거짓이 없었지만, 그게 {0}(이)가 온 이유는 아니었습니다. 제국은 탈영병 편에 선 영주를 잊지 않으며 영주 한 명을 위해 군대를 보내지는 않습니다.\n\n{0_pronoun}(은)는 무장한 채 들어왔고 아무도 무기를 확인하지 않았습니다.</RimCourt.ImperialStrikes>
+  <RimCourt.LocateTip>클릭하여 지도에서 찾습니다.</RimCourt.LocateTip>
+  <RimCourt.StandingTabRank>평판과 지위</RimCourt.StandingTabRank>
+  <RimCourt.StandingTabRecord>재판 기록</RimCourt.StandingTabRecord>
+  <RimCourt.StandingTabBlood>혈족</RimCourt.StandingTabBlood>
+  <RimCourt.BloodHeirSection>영주의 후계자</RimCourt.BloodHeirSection>
+  <RimCourt.BloodHeirTag>지명된 후계자</RimCourt.BloodHeirTag>
+  <RimCourt.BloodHeirNote>영주가 죽으면 {0}(이)가 영주의 자리를 물려받습니다. 왕좌, 대리인, 당시 가장 영향력 있는 사람은 고려하지 않습니다.</RimCourt.BloodHeirNote>
+  <RimCourt.BloodNoHeir>후계자가 없습니다. 영주에게 왕실 작위가 없거나, 작위는 있으나 후계자를 지명하지 않았습니다. 영주의 작위 탭에서 후계자를 지명하면 작위와 영주의 자리가 함께 넘어갑니다. 지명하지 않으면 왕좌의 주인이나 대리인, 또는 당시 가장 영향력 있는 사람이 재판을 주재합니다.</RimCourt.BloodNoHeir>
+  <RimCourt.BloodKinSection>{0}의 혈족</RimCourt.BloodKinSection>
+  <RimCourt.BloodNoKin>{0}에게는 이 정착지에 혈족이 없습니다. 이곳에 가족이 없는 영주는 편들 사람도 계승할 사람도 없습니다. 재판은 깨끗해질지 몰라도 가문은 오래가지 못할 수 있습니다.</RimCourt.BloodNoKin>
+  <RimCourt.BloodYears>{0}세</RimCourt.BloodYears>
+  <RimCourt.RecordCasesSection>이전 판결</RimCourt.RecordCasesSection>
+  <RimCourt.RecordGrievancesSection>앙심을 품은 사람</RimCourt.RecordGrievancesSection>
+  <RimCourt.RecordEmpty>아직 재판이 열리지 않았거나, 처리한 사건이 모두 잊혔습니다. 기록은 20일간 유지됩니다.</RimCourt.RecordEmpty>
+  <RimCourt.RecordRow>{0}  ·  {1} 처리함</RimCourt.RecordRow>
+  <RimCourt.RecordPair>{0} 대 {1}</RimCourt.RecordPair>
+  <RimCourt.RecordNoAnswer>응답 없이</RimCourt.RecordNoAnswer>
+  <RimCourt.RecordToday>오늘</RimCourt.RecordToday>
+  <RimCourt.RecordDaysAgo>{0}일 전</RimCourt.RecordDaysAgo>
+  <RimCourt.RecordNoGrievance>영주에게 원한을 쌓은 사람이 없습니다. 같은 정착민에게 불리한 판결이 계속되면 원한이 쌓입니다.</RimCourt.RecordNoGrievance>
+  <RimCourt.RecordGrievance>고충 {0}건 / {1}건</RimCourt.RecordGrievance>
+  <RimCourt.RecordWillAccuse>영주를 고발할 예정</RimCourt.RecordWillAccuse>
+  <RimCourt.Guide.Title>재판 열기</RimCourt.Guide.Title>
+  <RimCourt.Guide.StartTitle>재판 시작하기</RimCourt.Guide.StartTitle>
+  <RimCourt.Guide.StartBody>건축 메뉴의 기타에서 영주의 자리를 선택해 왕좌나 좋은 의자 위에 놓으세요. 표지는 가구 아래에 들어가 왕좌를 가리지 않습니다. 이것으로 준비가 끝납니다.\n\n표지를 선택하면 청원인이 서는 칸에 윤곽선이 표시됩니다. 청원인은 의자가 바라보는 방향으로 몇 칸 앞에 섭니다. 맨땅에 놓을 때는 표지를 회전해 영주가 볼 방향을 고르세요.\n\n왕좌 위에 표지를 설치하면 왕좌의 주인이 재판을 엽니다. 왕좌로 영주가 정해지므로 "영주 지정"을 사용할 수 없습니다. 다른 사람에게 재판을 맡기려면 왕좌를 재배정하세요.\n\n대부분의 정착지에는 왕좌가 없습니다. 그때는 사교적 지위와 나이를 바탕으로 가장 영향력 있는 사람에게 재판석이 돌아갑니다. 점수는 숨겨져 있으므로 직접 정하려면 "영주 지정"을 사용하세요. 공개 재판에서 자리를 빼앗겼을 때도 이 기능으로 되찾을 수 있습니다.\n\n이제 "재판 열기"를 사용하세요. 영주가 재판석에 앉고 자유민인 정착민들이 구경하러 모이면 사건을 하나씩 심리합니다. 영주는 판결을 내리는 사람이므로 사건의 당사자가 될 수 없습니다.\n\n청원인 자리는 선택 사항입니다. 청원인을 더 멀리 세우고 싶거나, 넓은 홀의 끝에 세우거나, 재판석이 벽을 바라볼 때 설치하세요.\n\n군중은 청원인 주변의 의자에 앉습니다. 저장구역처럼 재판석에서 군중 구역을 그려 사용할 의자를 고르세요.\n\n군중 구역 안의 의자는 그 의자에서 특정 정착민을 위한 귀빈석으로 설정할 수 있습니다. 지정된 정착민은 재판 때마다 군중과 섞이지 않고 그 자리에 앉습니다. 배우자나 고문을 영주 곁에 앉힐 수 있습니다. 홀을 지은 후에는 두 종류의 표지를 숨길 수 있습니다.</RimCourt.Guide.StartBody>
+  <RimCourt.Guide.CasesTitle>사건이 생기는 방식</RimCourt.Guide.CasesTitle>
+  <RimCourt.Guide.CasesBody>사건은 지어낸 것이 아닙니다. 재판은 정착민의 실제 기억을 읽기 때문에 정착지에서 겪은 일을 심리합니다. 사건 수를 맞추기 위해 다른 일을 더하지 않습니다.\n\n조용한 정착지에는 재판할 사건이 거의 없으므로 오늘은 영주에게 재판을 청하는 사람이 없다고 표시됩니다. 무슨 일이 생긴 후에 다시 오세요.\n\n기억은 사라지지만 중대한 사건일수록 더 오랫동안 심리할 수 있습니다. 중대한 사건은 언제나 사소한 사건보다 먼저 부릅니다.\n\n같은 두 당사자의 사건은 10일 동안 다시 심리하지 않습니다. 해결한 사건은 종결됩니다.\n\n여행자와 이웃도 소문을 듣고 찾아옵니다. 그들은 성문에서 3일간 심리를 기다리다가 포기하고 떠나며, 소속 세력은 이를 기억합니다. 찾아오는 빈도는 영주의 평판에 달렸습니다.</RimCourt.Guide.CasesBody>
+  <RimCourt.Guide.SheetTitle>청원서</RimCourt.Guide.SheetTitle>
+  <RimCourt.Guide.SheetBody>청원인이 말을 마치면 서기가 사건을 기록하고 청원서를 엽니다. 당사자, 청구 내용, 영주가 내릴 수 있는 판결이 담깁니다.\n\n청원서 아래에서 영주의 인장을 집어 원하는 판결에 찍으세요. 다른 줄에 찍으면 처음 인장이 지워지므로 양피지에는 판결 하나만 표시됩니다. 이후 "판결 선고"를 누르세요.\n\n다른 내용을 먼저 확인하려면 청원서를 끌어서 옮기거나 X로 닫을 수 있습니다. 재판 표지의 "청원서 읽기"를 누르거나 편지를 클릭하면 다시 열립니다.\n\n판결 위 여백의 메모는 재판에서 이미 알고 있는 내용입니다. 지난번에 같은 종류의 사건을 어떻게 처리했는지, 한쪽 당사자가 영주의 혈족인지 알려 줍니다. 인장을 찍기 전에 읽으세요.\n\n침묵도 하나의 응답입니다. 기한이 지나면 사건을 기각하고 응답하지 않은 것으로 기록하며, 영주의 나약함 점수에 반영합니다.</RimCourt.Guide.SheetBody>
+  <RimCourt.Guide.VerdictsTitle>판결 내리기</RimCourt.Guide.VerdictsTitle>
+  <RimCourt.Guide.VerdictsBody>모든 판결은 양쪽 당사자가 서로와 영주를 어떻게 생각하는지 바꾸며 그 의견은 며칠간 지속됩니다. 어떤 판결은 실제로 돈을 넘기거나 작업 지정을 바꾸거나 사람을 정착지에서 떠나게 합니다. 판결별 효과는 청원서에 표시됩니다.\n\n판결은 거부할 수 있습니다. 불리한 판결을 받은 정착민은 홀을 그대로 나갈 수 있습니다. 영주는 나약함 2점을 얻고, 이를 지켜본 사람들의 영주에 대한 평가가 모두 20점 낮아집니다. 사건이 해결되지 않아 선례는 남지 않습니다. 거부 여부는 주로 영주의 평판에 달렸습니다. 가혹한 영주에게는 거의 대들지 않지만 나약한 영주에게는 자주 대듭니다. 자존심도 작용합니다. 직설적, 탐욕, 시샘, 유리정신, 철의 의지 특성이 있는 정착민은 다정다감이나 엄살쟁이 특성이 있는 정착민보다 거부할 가능성이 높습니다. 영주에게 없는 왕실 작위를 가진 정착민은 그보다 더 거부하기 쉽습니다. 동의를 기다리지 않는 판결도 있으므로 그런 판결은 거부할 수 없습니다.\n\n영주는 사건의 당사자가 될 수 없지만 배우자, 형제자매, 자녀는 당사자가 될 수 있습니다. 가족이 재판에 서면 청원서에 붉은 글씨로 표시됩니다. 그들에게 유리한 판결은 공정함이 아니라 사익 추구 판결로 집계되며, 다른 정착민도 보이는 그대로 받아들입니다. 가까운 가족의 범위는 배우자, 연인, 부모, 자녀, 형제자매, 조부모까지입니다. 사촌은 홀에서 뒷말이 나올 만큼 가깝지 않습니다.\n\n재판에서는 이전 판결도 기억합니다. 같은 종류의 사건을 지난번에 어떻게 처리했는지 판결 전에 청원서에 표시되며, 이 기록은 20일간 유지됩니다. 같은 판결을 내리면 영주가 공정함 1점을 얻습니다. 누구나 재판의 기준을 알 수 있기 때문입니다. 반대 판결을 내리면 영주가 나약함 2점을 얻습니다. 입장을 바꾸는 재판에는 이의를 제기할 만하다고 여기기 때문입니다. 사건을 기한 만료로 끝내면 선례를 만들지도 어기지도 않습니다.\n\n추방은 내리기 가장 쉬운 판결이지만, 그 판결을 받은 이가 다시 돌아올 수 있습니다. 대부분의 추방자에게서는 다시 소식이 오지 않습니다. 일부는 돌아오며, 누가 돌아올지는 추방하는 날 정해집니다. 앙심을 품은 전투원은 친절하거나 나이 든 사람보다 돌아올 가능성이 높지만, 어떤 결과가 나왔는지 알려 주지는 않습니다.\n\n판단을 내리지 않는 영주는 나약한 영주입니다.</RimCourt.Guide.VerdictsBody>
+  <RimCourt.Guide.PunishTitle>현장에서 집행하는 판결</RimCourt.Guide.PunishTitle>
+  <RimCourt.Guide.PunishBody>일부 판결은 서류로 남기는 대신 홀에서 집행하며 그 모습을 지켜볼 수 있습니다.\n\n태형을 명하면 누가 매를 들지 고릅니다. 각 후보의 기술과 판결을 받은 사람에 대한 의견이 목록에 표시됩니다. 그 사람의 친구에게 채찍을 맡기는 것과 적에게 맡기는 것은 다른 장면을 만들기 때문입니다. 아무도 고르지 않고 별다른 의식 없이 집행할 수도 있습니다. 아이, 수감자, 노예는 후보로 제시되지 않습니다.\n\n태형은 고통스럽고 이후 치료가 필요합니다. 목숨을 앗아가지는 않습니다.\n\n영주가 두 당사자에게 주먹으로 해결하라고 하면 실제로는 판결을 내리지 않은 것이며, 정착민도 이를 알아차립니다. 마지막까지 서 있는 쪽이 옳다고 간주합니다.\n\n신체에 가해지는 일은 화면 밖에서 벌어지지 않습니다. 지켜볼 수 없는 일은 이 모드에서 일어나지 않습니다.\n\n건축 메뉴의 기타에서 형틀 기둥을 설치하세요. 어떤 판결은 태형 대신 패소자를 형틀로 보낼 수 있습니다. 태형과 마찬가지로 누가 판결을 받은 사람을 데려가 묶을지 고르거나, 혼자 가게 할 수 있습니다. 그는 설정에서 정한 시간 동안 마당에 묶여 서 있고, 지나가는 정착민은 멈춰서 한마디 하거나 물건을 던집니다. 일부는 여가 시간에 일부러 찾아와 한동안 서 있습니다. 오락으로 간주되며, 판결을 받은 사람의 친구는 다가오지 않습니다. 다치는 것은 자존심과 자신을 비웃은 사람에 대한 의견뿐입니다. 형틀을 명했는데 설치되어 있지 않으면 대신 태형을 집행합니다.</RimCourt.Guide.PunishBody>
+  <RimCourt.Guide.ReputationTitle>영주의 평판</RimCourt.Guide.ReputationTitle>
+  <RimCourt.Guide.ReputationBody>각 판결은 공정함, 가혹함, 사익 추구, 나약함 중 한 항목에 2점을 부여합니다. 피해를 입은 쪽의 손을 들어 주면 공정함, 처벌하면 가혹함, 사건을 기각하면 나약함, 돈을 받으면 사익 추구 점수를 얻습니다.\n\n정착민은 8점에서 평가를 내리므로 영향력 있는 판결 네 건 정도가 필요합니다. 점수가 앞선 항목으로 평판 호칭을 받으며, 호칭을 바꾸려면 다른 항목이 3점 앞서야 합니다. 평소와 다른 판결 한 번으로 평판이 사라지지는 않습니다.\n\n표지의 "영주의 평판과 지위"에는 세 탭이 있습니다. 첫째 탭에는 네 항목의 점수 막대, 현재 평판이 재판에 주는 영향, 평판을 바꾸는 데 필요한 점수, 영주의 자리를 노릴 만한 정착민이 나옵니다. 둘째 탭은 재판 기록입니다. 최근 20일간 무엇을 어떻게 판결했는지 확인해 재판 기준을 돌아볼 수 있습니다. 영주에게 원한을 쌓고 있는 정착민과 그들이 청원하기까지 얼마나 남았는지도 표시됩니다. 얼굴을 클릭하면 위치를 찾습니다. 셋째 탭에는 후계자와 혈족이 표시됩니다.\n\n호칭에는 실제 효과가 있습니다. 정착민의 영주에 대한 평가는 계속 유지되며, 누구에게서 얼마나 자주 어떤 사건이 들어오는지 정합니다. 성벽 너머에도 영향을 줍니다. 공정하다는 재판을 받으러 외부인은 먼 길을 오지만 나약하다고 알려진 재판에는 찾아오지 않습니다.\n\n재판 사이에 평판은 하루 약 3%씩 줄어듭니다. 자주 열면 명성이 유지됩니다. 재판을 멈추면 서서히 잊히므로 다시 다른 평판을 만들 수 있습니다.\n\n나약하거나 사익을 추구한다고 알려진 영주는 평판 외에도 잃을 것이 있습니다. 그런 명성으로 충분히 오래 재판을 열면 알게 될 것입니다. 정착민은 영주의 이름에 호칭도 붙입니다. 평판이 굳으면 판결로 평가가 바뀌기까지 영주의 이름이 표시되는 곳마다 정의로운 자, 잔혹한 자, 탐욕스러운 자, 나약한 자라는 호칭이 붙습니다.</RimCourt.Guide.ReputationBody>
+  <RimCourt.Guide.SeatTitle>재판석</RimCourt.Guide.SeatTitle>
+  <RimCourt.Guide.SeatBody>왕좌 위에 표지를 놓으면 왕좌의 주인이 재판을 엽니다. 왕좌로 영주가 정해지므로 "영주 지정"을 사용할 수 없습니다. 다른 사람에게 맡기려면 왕좌를 재배정하세요.\n\n대부분의 정착지에는 왕좌가 없습니다. 그때는 사교적 지위와 나이를 바탕으로 가장 영향력 있는 사람에게 재판석이 돌아갑니다. 점수는 숨겨져 있으므로 직접 정하려면 "영주 지정"을 사용하세요.\n\n영주의 자리는 넘어갈 수 있으며, 항상 플레이어의 동의를 구하는 것은 아닙니다. "영주 지정"으로 되찾을 수 있습니다.
+
+Royalty DLC가 설치되어 있고 영주에게 작위가 있으면 재판석도 작위를 따라갑니다. 영주의 작위 탭에서 후계자를 지명해 두면, 영주가 죽었을 때 그날 가장 영향력 있는 사람 대신 그 후계자가 영주의 자리를 물려받습니다. 모드에 있는 유일한 상속이며 게임이 이미 추적합니다.
+
+재판석이 놓인 방도 정착지의 다른 방과 마찬가지로 평가합니다. 하늘 아래나 텅 빈 방에서 재판을 열면 외부인은 굳이 찾아오지 않고, 정착민은 쉽게 판결을 거부하고 나갑니다. 넓은 공간, 바닥, 벽, 좋은 조각품 몇 점으로 둘 다 바뀝니다. 표지에서는 홀의 등급을 알려 주며 "영주의 평판과 지위"에서는 수치를 볼 수 있습니다.
+
+재판석에 누가 앉는지는 명성 외에도 중요합니다. 영주는 성향에 따라 판단하며, 성향에 거스르는 판결을 내리면 마음이 무겁습니다. 다정다감한 영주가 태형을 명하고, 검소한 영주가 돈을 받고, 철의 의지를 가진 영주가 사건을 응답 없이 만료시키면 그 판단을 며칠 동안 마음에 담아 둡니다. 소신에 맞는 판결은 기분을 좋게 합니다. 사이코패스는 어느 쪽도 느끼지 않으며, 그 역시 재판석에 맞는 자질일 수 있습니다.\n\n영주는 걸을 수 있고 정신이 온전하며 열병을 견딜 수 있는 성인인 동안 재판석을 지킵니다. 그럴 수 없으면 지명한 대리인이 그날 자리를 맡았다가 회복하면 돌려줍니다. 대리인이 없으면 기존처럼 지위에 따라 주재자가 정해집니다. 표지에서 대리인을 지정하세요.</RimCourt.Guide.SeatBody>
+  <RimCourt.Guide.TipsTitle>알아둘 점</RimCourt.Guide.TipsTitle>
+  <RimCourt.Guide.TipsBody>정착지가 공격당하거나, 영주가 쓰러지거나 정신이 붕괴하거나, 직접 해산하면 재판이 해산됩니다. 이 경우 대기 시간이 적용되지 않으므로 상황이 진정되면 다시 여세요.\n\n당사자 중 하나가 쓰러졌거나, 감옥에 있거나, 정신이 붕괴했거나, 소집 상태라면 사건을 심리할 수 없습니다. 재판을 열기 전에 정착민의 소집을 해제하세요.\n\n재판은 판결 결과도 지켜봅니다. 직접 되돌릴 수 있는 판결을 2주 안에 되돌리면 문서에 뭐라고 적혔든 정착민은 영주가 말을 어겼다고 여깁니다.\n\n판결 기한, 한 번에 심리할 사건 수, 재판 간격, 청원서 자동 열기 여부는 모두 모드 설정에서 바꿀 수 있습니다.\n\n적군 포로는 따로 심리합니다. 재판석에서 "수감자 심리"를 선택하면 포로만을 위한 심리를 열며 시작 전이나 종료 후 대기 시간은 없습니다. 경비병이 포로를 감옥에서 한 명씩 데려와 청원인이 서는 곳에 세웁니다. 청원서에는 포로가 한 일과 소속 세력이 돌려받는 대가로 낼 금액이 표시됩니다. 영주는 석방, 몸값, 형틀, 처형 중 한 번만 판결합니다. 공정한 판결인지는 선택 자체보다 포로의 행동에 달렸습니다. 정착민을 죽인 포로를 처형하면 정의로 보지만 아무도 해치지 않은 포로를 처형하면 잔혹함으로 봅니다. 각 포로는 한 번만 심리합니다. 그 심리를 제외하면 RimCourt는 수감자나 간수에게 영향을 주지 않습니다.</RimCourt.Guide.TipsBody>
+  <RimCourt.AreaPaint>군중 구역 그리기</RimCourt.AreaPaint>
+  <RimCourt.AreaPaintDesc>저장구역처럼 끌어서 군중이 앉을 곳을 선택합니다. 직접 그리면 청원인 주변의 원형 구역이 지정한 모양으로 바뀝니다. 귀빈석도 구역 안에 있어야 합니다.</RimCourt.AreaPaintDesc>
+  <RimCourt.AreaErase>군중 구역 지우기</RimCourt.AreaErase>
+  <RimCourt.AreaEraseDesc>끌어서 군중 구역에서 칸을 제거합니다. 모두 지우면 원형 구역으로 돌아갑니다.</RimCourt.AreaEraseDesc>
+  <RimCourt.AreaTooFar>너무 멉니다. 군중 구역은 재판석에서 최대 {0}칸까지입니다.</RimCourt.AreaTooFar>
+  <RimCourt.CrowdAreaPainted>군중은 직접 지정한 {0}칸에 앉습니다.</RimCourt.CrowdAreaPainted>
+  <RimCourt.CrowdAreaRadius>군중은 청원인으로부터 {0}칸 이내에 앉습니다.</RimCourt.CrowdAreaRadius>
+  <RimCourt.CrowdAreaRoom>군중은 홀 안의 어디에나 앉습니다.</RimCourt.CrowdAreaRoom>
+</LanguageData>
