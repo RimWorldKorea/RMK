@@ -1,0 +1,960 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>XML Extensions</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="FSFStoneTrapSpike"]/description</xpath>
+          <value>
+            <description>팽팽하게 고정한 가시 다섯 개를 접촉식 방아쇠에 연결한 함정입니다. 피해자가 방아쇠를 건드리면 가시가 튀어나와 피해자를 찌릅니다. 침착한 동물은 이 함정을 감지할 수 있습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/JobDef[defName="FSF_ChatOnComms"]/reportString</xpath>
+          <value>
+            <reportString>통신기로 채팅 중</reportString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="FSFAmbrosiaResearch"]/generalRules/rulesStrings/li[1]</xpath>
+          <value>
+            <li>subject-&gt;암브로시아 재배</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="FSFAmbrosiaResearch"]/generalRules/rulesStrings/li[2]</xpath>
+          <value>
+            <li>subject_story-&gt;부족 사회 행성에서 비밀 암브로시아 재배지를 관리함</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="FSFAmbrosiaResearch"]/generalRules/rulesStrings/li[3]</xpath>
+          <value>
+            <li>subject_story-&gt;암브로시아에 중독된 동물 떼를 물리침</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="FSFAmbrosiaResearch"]/generalRules/rulesStrings/li[4]</xpath>
+          <value>
+            <li>subject_story-&gt;전문 재배 기법을 개발함</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ResearchProjectDef[defName="FSFAmbrosiaResearch"]/generalRules/rulesStrings/li[5]</xpath>
+          <value>
+            <li>subject_gerund-&gt;암브로시아 재배</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingCategoryDef[defName="FSFDrugsHard"]/label</xpath>
+          <value>
+            <label>강력한 약물</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingCategoryDef[defName="FSFDrugsMedical"]/label</xpath>
+          <value>
+            <label>의학</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingCategoryDef[defName="FSFDrugsSocial"]/label</xpath>
+          <value>
+            <label>사교</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingCategoryDef[defName="FSFRawTasty"]/label</xpath>
+          <value>
+            <label>맛있는 날음식</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingCategoryDef[defName="FSFJelly"]/label</xpath>
+          <value>
+            <label>젤리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingCategoryDef[defName="FSFMilk"]/label</xpath>
+          <value>
+            <label>우유</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingCategoryDef[defName="FSFMealAwful"]/label</xpath>
+          <value>
+            <label>끔찍함 (1/10)</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingCategoryDef[defName="FSFMealSimple"]/label</xpath>
+          <value>
+            <label>간단한 식사</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingCategoryDef[defName="FSFMealFine"]/label</xpath>
+          <value>
+            <label>좋은 식사</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingCategoryDef[defName="FSFMealLavish"]/label</xpath>
+          <value>
+            <label>호화로운 식사</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingCategoryDef[defName="FSFMealLongTerm"]/label</xpath>
+          <value>
+            <label>장기 보존식</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingCategoryDef[defName="FSFMealBaby"]/label</xpath>
+          <value>
+            <label>이유식</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingCategoryDef[defName="FSFMealAnimal"]/label</xpath>
+          <value>
+            <label>동물 사료</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/ThingCategoryDef[defName="FSFGluttonous"]/label</xpath>
+          <value>
+            <label>폭식용 음식</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>XML Extensions</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Cooking Expanded</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingCategoryDef[defName="FSFMealGourmet"]/label</xpath>
+            <value>
+              <label>고급 요리</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingCategoryDef[defName="FSFConfectionery"]/label</xpath>
+            <value>
+              <label>과자류</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>XML Extensions</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Biotech</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingCategoryDef[defName="FSFBlood"]/label</xpath>
+            <value>
+              <label>피</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/XenotypeDef[defName="FSFVenerated"]/label</xpath>
+            <value>
+              <label>숭배받는 인종형</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/XenotypeDef[defName="FSFVenerated"]/description</xpath>
+            <value>
+              <description>Venerated Xenotype Flexibility 모드와 함께 사용하도록 만들어진 기본 인종형입니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/XenotypeDef[defName="FSFVenerated"]/descriptionShort</xpath>
+            <value>
+              <descriptionShort>Venerated Xenotype Flexibility 모드와 함께 사용하도록 만들어진 기본 인종형입니다.</descriptionShort>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="FSFNeolithicFertilityProcedures"]/label</xpath>
+            <value>
+              <label>원시 생식 의학</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="FSFNeolithicFertilityProcedures"]/description</xpath>
+            <value>
+              <description>기초 시술로 생식력과 모유 분비를 조절하고 불임 수술을 할 수 있습니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="FSFNeolithicFertilityProcedures"]/generalRules/rulesStrings/li[1]</xpath>
+            <value>
+              <li>subject-&gt;원시 생식 의학</li>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="FSFNeolithicFertilityProcedures"]/generalRules/rulesStrings/li[2]</xpath>
+            <value>
+              <li>subject_story-&gt;신석기 수준의 행성에서 부족들에게 인구를 조절하는 시술을 가르침</li>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="FSFNeolithicFertilityProcedures"]/generalRules/rulesStrings/li[3]</xpath>
+            <value>
+              <li>subject_story-&gt;생식력이 낮은 부부가 아이를 갖는 소망을 이루도록 도움</li>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="FSFNeolithicFertilityProcedures"]/generalRules/rulesStrings/li[4]</xpath>
+            <value>
+              <li>subject_story-&gt;육아에 지친 어머니들이 쉴 수 있도록 돌봄 인력이 대신 젖을 먹이는 공동체 사업을 조직함</li>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="FSFNeolithicFertilityProcedures"]/generalRules/rulesStrings/li[5]</xpath>
+            <value>
+              <li>subject_gerund-&gt;인간의 생식력 조절</li>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ResearchProjectDef[defName="FSFNeolithicFertilityProcedures"]/generalRules/rulesStrings/li[6]</xpath>
+            <value>
+              <li>subject_gerund-&gt;인간의 생식력을 높이거나 억제</li>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="FSFBoostFertility"]/label</xpath>
+            <value>
+              <label>생식 촉진제 투여</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="FSFBoostFertility"]/description</xpath>
+            <value>
+              <description>약초를 사용해 대상의 생식력을 7일간 높입니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="FSFBoostFertility"]/jobString</xpath>
+            <value>
+              <jobString>TargetA에게 생식 촉진제 투여 중.</jobString>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="FSFRemoveBoostFertility"]/label</xpath>
+            <value>
+              <label>생식 촉진 효과 제거</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="FSFRemoveBoostFertility"]/description</xpath>
+            <value>
+              <description>약초를 사용해 대상의 생식 촉진 효과를 제거합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="FSFRemoveBoostFertility"]/jobString</xpath>
+            <value>
+              <jobString>TargetA의 생식 촉진 효과를 없애는 약물을 투여 중.</jobString>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="FSFRemoveBoostFertility"]/successfullyRemovedHediffMessage</xpath>
+            <value>
+              <successfullyRemovedHediffMessage>{0}(이)가 약초를 이용해 {1}의 생식 촉진 효과를 제거했습니다.</successfullyRemovedHediffMessage>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="FSFBoostFertility"]/label</xpath>
+            <value>
+              <label>생식 촉진제</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="FSFBoostFertility"]/description</xpath>
+            <value>
+              <description>약초를 사용해 일시적으로 생식력이 높아진 상태입니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="FSFInhibitFertility"]/label</xpath>
+            <value>
+              <label>생식 억제제 투여</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="FSFInhibitFertility"]/description</xpath>
+            <value>
+              <description>약초를 사용해 대상의 생식력을 7일간 낮춥니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="FSFInhibitFertility"]/jobString</xpath>
+            <value>
+              <jobString>TargetA에게 생식 억제제 투여 중.</jobString>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="FSFInhibitFertility"]/successfullyRemovedHediffMessage</xpath>
+            <value>
+              <successfullyRemovedHediffMessage>{0}(이)가 약초를 이용해 {1}의 생식력을 7일간 억제했습니다.</successfullyRemovedHediffMessage>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="FSFRemoveInhibitFertility"]/label</xpath>
+            <value>
+              <label>생식 억제 효과 제거</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="FSFRemoveInhibitFertility"]/description</xpath>
+            <value>
+              <description>약초를 사용해 대상의 생식 억제 효과를 제거합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="FSFRemoveInhibitFertility"]/jobString</xpath>
+            <value>
+              <jobString>TargetA의 생식 억제 효과를 없애는 약물을 투여 중.</jobString>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="FSFRemoveInhibitFertility"]/successfullyRemovedHediffMessage</xpath>
+            <value>
+              <successfullyRemovedHediffMessage>{0}(이)가 약초를 이용해 {1}의 생식 억제 효과를 제거했습니다.</successfullyRemovedHediffMessage>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="FSFInhibitFertility"]/label</xpath>
+            <value>
+              <label>생식 억제제</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/HediffDef[defName="FSFInhibitFertility"]/description</xpath>
+            <value>
+              <description>약초를 사용해 일시적으로 생식력을 잃은 상태입니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="FSFInduceLactation"]/label</xpath>
+            <value>
+              <label>모유 분비 유도</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="FSFInduceLactation"]/description</xpath>
+            <value>
+              <description>약초를 사용해 대상에게 모유가 나오도록 합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="FSFInduceLactation"]/jobString</xpath>
+            <value>
+              <jobString>TargetA의 모유 분비를 유도하는 중.</jobString>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="FSFRemoveLactation"]/label</xpath>
+            <value>
+              <label>모유 분비 중단</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="FSFRemoveLactation"]/description</xpath>
+            <value>
+              <description>약초를 사용해 대상의 모유 분비를 멈춥니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="FSFRemoveLactation"]/jobString</xpath>
+            <value>
+              <jobString>TargetA의 모유 분비를 중단시키는 중.</jobString>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="FSFRemoveLactation"]/successfullyRemovedHediffMessage</xpath>
+            <value>
+              <successfullyRemovedHediffMessage>{0}(이)가 약초를 이용해 {1}의 모유 분비를 멈췄습니다.</successfullyRemovedHediffMessage>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="FSFSterilizeHumanNonReversible"]/label</xpath>
+            <value>
+              <label>불임 시술</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="FSFSterilizeHumanNonReversible"]/description</xpath>
+            <value>
+              <description>되돌릴 수 없는 수술로 환자가 영구적으로 생식력을 잃게 합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="FSFSterilizeHumanNonReversible"]/jobString</xpath>
+            <value>
+              <jobString>TargetA에게 불임 수술을 하는 중.</jobString>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/RecipeDef[defName="FSFSterilizeHumanNonReversible"]/successfullyRemovedHediffMessage</xpath>
+            <value>
+              <successfullyRemovedHediffMessage>{0}(이)가 {1}의 불임 수술을 성공적으로 마쳤습니다.</successfullyRemovedHediffMessage>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>XML Extensions</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Brewing Expanded</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingCategoryDef[defName="FSFDrinksCocktails"]/label</xpath>
+            <value>
+              <label>칵테일</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>XML Extensions</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Royalty</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="FSFMeditationFocus"]/label</xpath>
+            <value>
+              <label>명상 집중물</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="FSFMeditationFocus"]/description</xpath>
+            <value>
+              <description>명상할 때 주의를 집중할 지점을 지정합니다.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>XML Extensions</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Ideology</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ColorDef[defName="FSFIdeoArchotech"]/label</xpath>
+            <value>
+              <label>초월공학품</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ColorDef[defName="FSFIdeoLimestone"]/label</xpath>
+            <value>
+              <label>석회암</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ColorDef[defName="FSFIdeoMarble"]/label</xpath>
+            <value>
+              <label>대리석</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ColorDef[defName="FSFIdeoSandstone"]/label</xpath>
+            <value>
+              <label>사암</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ColorDef[defName="FSFIdeoGranite"]/label</xpath>
+            <value>
+              <label>화강암</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ColorDef[defName="FSFIdeoSlate"]/label</xpath>
+            <value>
+              <label>점판암</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ColorDef[defName="FSFIdeoSynthread"]/label</xpath>
+            <value>
+              <label>합성원단</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ColorDef[defName="FSFIdeoMuffaloLeather"]/label</xpath>
+            <value>
+              <label>머팔로 가죽</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ColorDef[defName="FSFIdeoHyperweave"]/label</xpath>
+            <value>
+              <label>초경조직 천</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ColorDef[defName="FSFIdeoAlpaca"]/label</xpath>
+            <value>
+              <label>알파카</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ColorDef[defName="FSFIdeoDevilstrand"]/label</xpath>
+            <value>
+              <label>악마가닥</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ColorDef[defName="FSFIdeoViolet"]/label</xpath>
+            <value>
+              <label>보라색</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ColorDef[defName="FSFIdeoDarkViolet"]/label</xpath>
+            <value>
+              <label>짙은 보라색</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ColorDef[defName="FSFIdeoDarkScarlet"]/label</xpath>
+            <value>
+              <label>짙은 주홍색</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ColorDef[defName="FSFIdeoPitchBlack"]/label</xpath>
+            <value>
+              <label>칠흑색</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ColorDef[defName="FSFIdeoBluishBlack"]/label</xpath>
+            <value>
+              <label>푸른빛 검은색</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ColorDef[defName="FSFIdeoBluishPitchBlack"]/label</xpath>
+            <value>
+              <label>푸른빛 칠흑색</label>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>XML Extensions</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Biotech</li>
+      </mods>
+      <match Class="PatchOperationFindMod">
+        <mods>
+          <li>Big and Small - Genes &amp; More</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/GeneDef[defName="FSF_MultipleBirth"]/label</xpath>
+              <value>
+                <label>다태 출산</label>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/GeneDef[defName="FSF_MultipleBirth"]/description</xpath>
+              <value>
+                <description>이 유전자를 가진 사람은 보통 아이 한 명을 낳으나, 아주 드물게 쌍둥이, 세쌍둥이, 네쌍둥이를 낳습니다.</description>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/GeneDef[defName="FSF_TwinsBirth"]/label</xpath>
+              <value>
+                <label>쌍둥이 출산</label>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/GeneDef[defName="FSF_TwinsBirth"]/description</xpath>
+              <value>
+                <description>이 유전자를 가진 사람은 항상 쌍둥이를 낳습니다.</description>
+              </value>
+            </li>
+          </operations>
+        </match>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>XML Extensions</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Simple Utilities Ceiling</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/ThingDef[defName="FSFBiodomeSunlamp"]/comps/li[4]/offMessage</xpath>
+            <value>
+              <offMessage>작물 휴식기에 꺼짐</offMessage>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>XML Extensions</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Ushankas Necroa Archovirus</li>
+      </mods>
+      <match Class="PatchOperationFindMod">
+        <mods>
+          <li>Anomaly</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/HediffDef[defName="FSF_PermanentNecroa"]/label</xpath>
+              <value>
+                <label>영구 네크로아 감염</label>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/HediffDef[defName="FSF_PermanentNecroa"]/description</xpath>
+              <value>
+                <description>네크로아 아코바이러스의 잠복 변종입니다. 숙주가 죽으면 휘청이는 자로 변합니다.</description>
+              </value>
+            </li>
+          </operations>
+        </match>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>XML Extensions</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Races Expanded - Highmate</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/GeneDef[defName="FSFInitiateLovin"]/label</xpath>
+            <value>
+              <label>성관계 시작 가능</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/GeneDef[defName="FSFInitiateLovin"]/description</xpath>
+            <value>
+              <description>이 유전자를 가진 사람은 언제 어디서든 성관계를 시작할 수 있습니다.</description>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>XML Extensions</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Expanded Framework</li>
+      </mods>
+      <match Class="PatchOperationFindMod">
+        <mods>
+          <li>Vanilla Factions Expanded - Classical</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/PipeSystem.ProcessDef[defName="VFEC_PressConcrete"]/description</xpath>
+              <value>
+                <description>암석 덩어리 10개를 콘크리트 750개로 가공합니다.</description>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/PipeSystem.ProcessDef[defName="VFEC_PressConcrete"]/labelOverride</xpath>
+              <value>
+                <labelOverride>암석 덩어리 10개를 콘크리트 750개로 압축</labelOverride>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/PipeSystem.ProcessDef[defName="VFEC_DryMeat"]/description</xpath>
+              <value>
+                <description>고기 750개를 육포 750개로 가공합니다.</description>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/PipeSystem.ProcessDef[defName="VFEC_DryMeat"]/labelOverride</xpath>
+              <value>
+                <labelOverride>고기 750개를 육포 750개로 건조</labelOverride>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/PipeSystem.ProcessDef[defName="VFEC_ProcessCloth"]/description</xpath>
+              <value>
+                <description>천 750개를 티리언 750개로 가공합니다.</description>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/PipeSystem.ProcessDef[defName="VFEC_ProcessCloth"]/labelOverride</xpath>
+              <value>
+                <labelOverride>천 750개를 티리언 750개로 가공</labelOverride>
+              </value>
+            </li>
+          </operations>
+        </match>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>XML Extensions</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Factions Expanded - Empire</li>
+      </mods>
+      <match Class="PatchOperationFindMod">
+        <mods>
+          <li>Vanilla Psycasts Expanded</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/PawnKindDef[defName="VFEE_Deserter_Protector"]/label</xpath>
+              <value>
+                <label>군인</label>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/PawnKindDef[defName="VFEE_Deserter_Harmonist"]/label</xpath>
+              <value>
+                <label>군인</label>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/PawnKindDef[defName="VFEE_Deserter_Conflagator"]/label</xpath>
+              <value>
+                <label>군인</label>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/PawnKindDef[defName="VFEE_Deserter_Warlord"]/label</xpath>
+              <value>
+                <label>군인</label>
+              </value>
+            </li>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/PawnKindDef[defName="VFEE_Deserter_Nightstalker"]/label</xpath>
+              <value>
+                <label>군인</label>
+              </value>
+            </li>
+          </operations>
+        </match>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>XML Extensions</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Psycasts Expanded</li>
+      </mods>
+      <match Class="PatchOperationFindMod">
+        <mods>
+          <li>Vanilla Races Expanded - Archon</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationReplace">
+              <success>Always</success>
+              <xpath>/Defs/VanillaPsycastsExpanded.PsycasterPathDef[defName="VREA_Transcendent"]/description</xpath>
+              <value>
+                <description>초월자 계열에서는 다양한 방식으로 고통을 가하는 공격용 초능력을 배웁니다. 초능력자는 정신 에너지를 여러 형태의 발사체로 빚어 적에게 죽음을 퍼붓는 대신, 신경열을 쌓습니다.</description>
+              </value>
+            </li>
+          </operations>
+        </match>
+      </match>
+    </match>
+  </Operation>
+</Patch>

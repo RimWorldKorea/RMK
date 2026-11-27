@@ -1,0 +1,1138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Dubs Bad Hygiene</li>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFwashChild"]/label</xpath>
+          <value>
+            <label>아이 씻기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFwashChild"]/verb</xpath>
+          <value>
+            <verb>씻기</verb>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFwashChild"]/gerund</xpath>
+          <value>
+            <gerund>씻기</gerund>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Dubs Bad Hygiene</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFClearBlockage"]/label</xpath>
+          <value>
+            <label>막힘 제거</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFClearBlockage"]/verb</xpath>
+          <value>
+            <verb>막힘 제거</verb>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFClearBlockage"]/gerund</xpath>
+          <value>
+            <gerund>막힘 제거</gerund>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Zombieland</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFDoubleTap"]/label</xpath>
+          <value>
+            <label>시체에 확인사살 두 번 하기</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFDoubleTap"]/verb</xpath>
+          <value>
+            <verb>두 번의 확인 사살</verb>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFDoubleTap"]/gerund</xpath>
+          <value>
+            <gerund>확인 사살 </gerund>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>The Dead Man's Switch</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFDMS_Furnace"]/label</xpath>
+          <value>
+            <label>소결로 작업</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFDMS_Furnace"]/verb</xpath>
+          <value>
+            <verb>작업</verb>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFDMS_Furnace"]/gerund</xpath>
+          <value>
+            <gerund>에서 작업</gerund>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFDMS_LabFurnace"]/label</xpath>
+          <value>
+            <label>실험용 소결로 작업</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFDMS_LabFurnace"]/verb</xpath>
+          <value>
+            <verb>작업</verb>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFDMS_LabFurnace"]/gerund</xpath>
+          <value>
+            <gerund>에서 작업</gerund>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFDMS_ReactionChamber"]/label</xpath>
+          <value>
+            <label>압력챔버 작업</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFDMS_ReactionChamber"]/verb</xpath>
+          <value>
+            <verb>작업</verb>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFDMS_ReactionChamber"]/gerund</xpath>
+          <value>
+            <gerund>에서 작업</gerund>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFDMS_LabReactor"]/label</xpath>
+          <value>
+            <label>실험용 반응로 작업</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFDMS_LabReactor"]/verb</xpath>
+          <value>
+            <verb>작업</verb>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFDMS_LabReactor"]/gerund</xpath>
+          <value>
+            <gerund>에서 작업</gerund>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Plants Expanded - More Plants</li>
+      <li>Vanilla Cooking Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFVCE_DoBillsVegMilkExtractor"]/label</xpath>
+          <value>
+            <label>식물성 우유 추출</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFVCE_DoBillsVegMilkExtractor"]/verb</xpath>
+          <value>
+            <verb>식물성 우유 추출</verb>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFVCE_DoBillsVegMilkExtractor"]/gerund</xpath>
+          <value>
+            <gerund>에서 식물성 우유 추출 </gerund>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Cooking Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFVCE_DoBillsCanning"]/label</xpath>
+          <value>
+            <label>통조림 기계에서 작업</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFVCE_DoBillsCanning"]/verb</xpath>
+          <value>
+            <verb>음식을 통조림으로 만들기</verb>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFVCE_DoBillsCanning"]/gerund</xpath>
+          <value>
+            <gerund>에서 음식을 통조림으로 만들기</gerund>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFVCE_DoBillsPrep"]/label</xpath>
+          <value>
+            <label>준비 테이블에서 조미료 작업</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFVCE_DoBillsPrep"]/verb</xpath>
+          <value>
+            <verb>조미료 준비</verb>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFVCE_DoBillsPrep"]/gerund</xpath>
+          <value>
+            <gerund>에서 조미료 준비</gerund>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded Pack</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFFFE_DoBillsMeatMincer"]/label</xpath>
+          <value>
+            <label>고기 분쇄기에서 요리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFFFE_DoBillsMeatMincer"]/verb</xpath>
+          <value>
+            <verb>조리</verb>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFFFE_DoBillsMeatMincer"]/gerund</xpath>
+          <value>
+            <gerund>에서 조리</gerund>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Brewing Expanded - Coffees and Teas</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFVBE_DoBillsEspressoMachine"]/label</xpath>
+          <value>
+            <label>에스프레소 머신에서 양조</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFVBE_DoBillsEspressoMachine"]/verb</xpath>
+          <value>
+            <verb>양조</verb>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFVBE_DoBillsEspressoMachine"]/gerund</xpath>
+          <value>
+            <gerund>에서 양조</gerund>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Ancients</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFVFEA_DoBillsAncientCookingStation"]/label</xpath>
+          <value>
+            <label>고대 조리대 작업</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFVFEA_DoBillsAncientCookingStation"]/verb</xpath>
+          <value>
+            <verb>작업</verb>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFVFEA_DoBillsAncientCookingStation"]/gerund</xpath>
+          <value>
+            <gerund>에서 작업</gerund>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>XML Extensions</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFTaming"]/labelShort</xpath>
+          <value>
+            <labelShort>길들이기</labelShort>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFTaming"]/pawnLabel</xpath>
+          <value>
+            <pawnLabel>길들이기 담당자</pawnLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFTaming"]/gerundLabel</xpath>
+          <value>
+            <gerundLabel>길들이기</gerundLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFTaming"]/description</xpath>
+          <value>
+            <description>야생 동물을 길들입니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFTaming"]/verb</xpath>
+          <value>
+            <verb>길들이기</verb>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFSlaughter"]/labelShort</xpath>
+          <value>
+            <labelShort>도살</labelShort>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFSlaughter"]/pawnLabel</xpath>
+          <value>
+            <pawnLabel>도살 담당자</pawnLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFSlaughter"]/gerundLabel</xpath>
+          <value>
+            <gerundLabel>도살</gerundLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFSlaughter"]/description</xpath>
+          <value>
+            <description>지정된 동물을 도살합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFSlaughter"]/verb</xpath>
+          <value>
+            <verb>도살</verb>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFPrisonCare"]/labelShort</xpath>
+          <value>
+            <labelShort>수감자 돌봄</labelShort>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFPrisonCare"]/pawnLabel</xpath>
+          <value>
+            <pawnLabel>수감자 간호사</pawnLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFPrisonCare"]/gerundLabel</xpath>
+          <value>
+            <gerundLabel>수감자 돌봄</gerundLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFPrisonCare"]/description</xpath>
+          <value>
+            <description>수감자를 돌보고, 음식을 가져다주며, 할당된 임무를 수행합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFPrisonCare"]/verb</xpath>
+          <value>
+            <verb>돌봄</verb>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFHack"]/labelShort</xpath>
+          <value>
+            <labelShort>해킹</labelShort>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFHack"]/pawnLabel</xpath>
+          <value>
+            <pawnLabel>해커</pawnLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFHack"]/gerundLabel</xpath>
+          <value>
+            <gerundLabel>해킹</gerundLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFHack"]/description</xpath>
+          <value>
+            <description>해킹 작업을 수행합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFHack"]/verb</xpath>
+          <value>
+            <verb>해킹</verb>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFSelfTend"]/labelShort</xpath>
+          <value>
+            <labelShort>자가 치료</labelShort>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFSelfTend"]/pawnLabel</xpath>
+          <value>
+            <pawnLabel>자가 치료</pawnLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFSelfTend"]/gerundLabel</xpath>
+          <value>
+            <gerundLabel>치료</gerundLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFSelfTend"]/description</xpath>
+          <value>
+            <description>스스로 응급 처치를 합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFSelfTend"]/verb</xpath>
+          <value>
+            <verb>치료</verb>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFRescue"]/labelShort</xpath>
+          <value>
+            <labelShort>구조</labelShort>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFRescue"]/pawnLabel</xpath>
+          <value>
+            <pawnLabel>구조자</pawnLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFRescue"]/gerundLabel</xpath>
+          <value>
+            <gerundLabel>구조</gerundLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFRescue"]/description</xpath>
+          <value>
+            <description>쓰러진 아군이 치료받을 수 있도록 침대로 옮깁니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFRescue"]/verb</xpath>
+          <value>
+            <verb>구조</verb>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFDoctorRescue"]/label</xpath>
+          <value>
+            <label>쓰러진 아군 구조</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFDoctorRescue"]/verb</xpath>
+          <value>
+            <verb>구조</verb>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFDoctorRescue"]/gerund</xpath>
+          <value>
+            <gerund> 구조</gerund>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFSnow"]/labelShort</xpath>
+          <value>
+            <labelShort>제설</labelShort>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFSnow"]/pawnLabel</xpath>
+          <value>
+            <pawnLabel>제설 담당자</pawnLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFSnow"]/gerundLabel</xpath>
+          <value>
+            <gerundLabel>제설</gerundLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFSnow"]/description</xpath>
+          <value>
+            <description>주거구역의 눈을 치웁니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFSnow"]/verb</xpath>
+          <value>
+            <verb>제설</verb>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFMerge"]/labelShort</xpath>
+          <value>
+            <labelShort>정리</labelShort>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFMerge"]/pawnLabel</xpath>
+          <value>
+            <pawnLabel>정리 담당자</pawnLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFMerge"]/gerundLabel</xpath>
+          <value>
+            <gerundLabel>정리</gerundLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFMerge"]/description</xpath>
+          <value>
+            <description>자원 더미를 하나로 합쳐 어지러워지지 않게 합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFMerge"]/verb</xpath>
+          <value>
+            <verb>정리</verb>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFHaulMerge"]/label</xpath>
+          <value>
+            <label>정리</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFHaulMerge"]/verb</xpath>
+          <value>
+            <verb>정리</verb>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFHaulMerge"]/gerund</xpath>
+          <value>
+            <gerund> 정리</gerund>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFPaint"]/labelShort</xpath>
+          <value>
+            <labelShort>색칠</labelShort>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFPaint"]/pawnLabel</xpath>
+          <value>
+            <pawnLabel>색칠 담당자</pawnLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFPaint"]/gerundLabel</xpath>
+          <value>
+            <gerundLabel>색칠</gerundLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFPaint"]/description</xpath>
+          <value>
+            <description>바닥, 벽, 물건을 색칠합니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFPaint"]/verb</xpath>
+          <value>
+            <verb>색칠</verb>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFSmoothing"]/labelShort</xpath>
+          <value>
+            <labelShort>다듬기</labelShort>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFSmoothing"]/pawnLabel</xpath>
+          <value>
+            <pawnLabel>다듬기 담당자</pawnLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFSmoothing"]/gerundLabel</xpath>
+          <value>
+            <gerundLabel>다듬기</gerundLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFSmoothing"]/description</xpath>
+          <value>
+            <description>돌 바닥과 벽을 다듬습니다.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkTypeDef[defName="FSFSmoothing"]/verb</xpath>
+          <value>
+            <verb>다듬기</verb>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFFirefighterRescue"]/label</xpath>
+          <value>
+            <label>쓰러진 아군 구조</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFFirefighterRescue"]/verb</xpath>
+          <value>
+            <verb>구조</verb>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>/Defs/WorkGiverDef[defName="FSFFirefighterRescue"]/gerund</xpath>
+          <value>
+            <gerund> 구조</gerund>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>XML Extensions</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Ideology</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WorkTypeDef[defName="FSFConvert"]/labelShort</xpath>
+            <value>
+              <labelShort>교화</labelShort>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WorkTypeDef[defName="FSFConvert"]/pawnLabel</xpath>
+            <value>
+              <pawnLabel>간수</pawnLabel>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WorkTypeDef[defName="FSFConvert"]/gerundLabel</xpath>
+            <value>
+              <gerundLabel>교화</gerundLabel>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WorkTypeDef[defName="FSFConvert"]/description</xpath>
+            <value>
+              <description>수감자를 당신의 사상으로 교화합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WorkTypeDef[defName="FSFConvert"]/verb</xpath>
+            <value>
+              <verb>교화</verb>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WorkTypeDef[defName="FSFPruning"]/labelShort</xpath>
+            <value>
+              <labelShort>가지치기</labelShort>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WorkTypeDef[defName="FSFPruning"]/pawnLabel</xpath>
+            <value>
+              <pawnLabel>가지치기 담당자</pawnLabel>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WorkTypeDef[defName="FSFPruning"]/gerundLabel</xpath>
+            <value>
+              <gerundLabel>가지치기</gerundLabel>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WorkTypeDef[defName="FSFPruning"]/description</xpath>
+            <value>
+              <description>나무를 가지치기합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WorkTypeDef[defName="FSFPruning"]/verb</xpath>
+            <value>
+              <verb>가지치기</verb>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>XML Extensions</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Biotech</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WorkTypeDef[defName="FSFTeach"]/labelShort</xpath>
+            <value>
+              <labelShort>교육</labelShort>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WorkTypeDef[defName="FSFTeach"]/pawnLabel</xpath>
+            <value>
+              <pawnLabel>교사</pawnLabel>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WorkTypeDef[defName="FSFTeach"]/gerundLabel</xpath>
+            <value>
+              <gerundLabel>교육</gerundLabel>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WorkTypeDef[defName="FSFTeach"]/description</xpath>
+            <value>
+              <description>정착지의 아이들을 가르칩니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WorkTypeDef[defName="FSFTeach"]/verb</xpath>
+            <value>
+              <verb>교육</verb>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WorkTypeDef[defName="FSFPollution"]/labelShort</xpath>
+            <value>
+              <labelShort>오염 정화</labelShort>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WorkTypeDef[defName="FSFPollution"]/pawnLabel</xpath>
+            <value>
+              <pawnLabel>정화 담당자</pawnLabel>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WorkTypeDef[defName="FSFPollution"]/gerundLabel</xpath>
+            <value>
+              <gerundLabel>정화</gerundLabel>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WorkTypeDef[defName="FSFPollution"]/description</xpath>
+            <value>
+              <description>정화구역의 오염을 정화합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WorkTypeDef[defName="FSFPollution"]/verb</xpath>
+            <value>
+              <verb>정화</verb>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WorkTypeDef[defName="FSFMechanoids"]/labelShort</xpath>
+            <value>
+              <labelShort>메카노이드</labelShort>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WorkTypeDef[defName="FSFMechanoids"]/pawnLabel</xpath>
+            <value>
+              <pawnLabel>메카나이터</pawnLabel>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WorkTypeDef[defName="FSFMechanoids"]/gerundLabel</xpath>
+            <value>
+              <gerundLabel>메카노이드 작업</gerundLabel>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WorkTypeDef[defName="FSFMechanoids"]/description</xpath>
+            <value>
+              <description>새 메카노이드 배양, 기존 메카노이드 수리, 서브코어 제작 등 메카노이드와 관련된 작업을 수행합니다.</description>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WorkTypeDef[defName="FSFMechanoids"]/verb</xpath>
+            <value>
+              <verb>작업</verb>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>XML Extensions</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>MultiFloors</li>
+        <li>MultiFloors-Dev ))</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WorkGiverDef[defName="FSFMF_RescueDownedAcrossLevel"]/label</xpath>
+            <value>
+              <label>다른 층의 쓰러진 아군 구조</label>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WorkGiverDef[defName="FSFMF_RescueDownedAcrossLevel"]/verb</xpath>
+            <value>
+              <verb>구조</verb>
+            </value>
+          </li>
+          <li Class="PatchOperationReplace">
+            <success>Always</success>
+            <xpath>/Defs/WorkGiverDef[defName="FSFMF_RescueDownedAcrossLevel"]/gerund</xpath>
+            <value>
+              <gerund> 구조</gerund>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/WorkGiverDef[defName="FSFTakeToBedToOperate"]/label</xpath>
+    <value>
+      <label>수술하기 위해 침대로 환자 이송</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/WorkGiverDef[defName="FSFTakeToBedToOperate"]/verb</xpath>
+    <value>
+      <verb>이송</verb>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/WorkGiverDef[defName="FSFTakeToBedToOperate"]/gerund</xpath>
+    <value>
+      <gerund> 이송</gerund>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/WorkGiverDef[defName="FSFMF_DeliverResourcesAcrossLevel"]/label</xpath>
+    <value>
+      <label>자원 운반</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/WorkGiverDef[defName="FSFMF_DeliverResourcesAcrossLevel"]/verb</xpath>
+    <value>
+      <verb>운반</verb>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/WorkGiverDef[defName="FSFMF_DeliverResourcesAcrossLevel"]/gerund</xpath>
+    <value>
+      <gerund>운반</gerund>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/WorkGiverDef[defName="FSFDeliverResourcesToFrames"]/label</xpath>
+    <value>
+      <label>건물 틀로 자원 운반</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/WorkGiverDef[defName="FSFDeliverResourcesToFrames"]/verb</xpath>
+    <value>
+      <verb>운반</verb>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/WorkGiverDef[defName="FSFDeliverResourcesToFrames"]/gerund</xpath>
+    <value>
+      <gerund> 운반</gerund>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/WorkGiverDef[defName="FSFDeliverResourcesToBlueprints"]/label</xpath>
+    <value>
+      <label>청사진으로 자원 운반</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/WorkGiverDef[defName="FSFDeliverResourcesToBlueprints"]/verb</xpath>
+    <value>
+      <verb>운반</verb>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/WorkGiverDef[defName="FSFDeliverResourcesToBlueprints"]/gerund</xpath>
+    <value>
+      <gerund> 운반</gerund>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/WorkGiverDef[defName="FSFProcessSeeds"]/label</xpath>
+    <value>
+      <label>씨앗을 처리</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/WorkGiverDef[defName="FSFProcessSeeds"]/verb</xpath>
+    <value>
+      <verb>처리</verb>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>/Defs/WorkGiverDef[defName="FSFProcessSeeds"]/gerund</xpath>
+    <value>
+      <gerund>에서 처리</gerund>
+    </value>
+  </Operation>
+</Patch>
