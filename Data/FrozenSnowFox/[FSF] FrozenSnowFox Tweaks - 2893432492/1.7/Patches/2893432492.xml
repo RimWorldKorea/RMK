@@ -1,0 +1,757 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationFindMod">
+        <success>Always</success>
+        <mods>
+          <li>XML Extensions</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationFindMod">
+              <success>Always</success>
+              <mods>
+                <li>Biotech</li>
+              </mods>
+              <match Class="PatchOperationSequence">
+                <success>Always</success>
+                <operations>
+                  <li Class="PatchOperationFindMod">
+                    <success>Always</success>
+                    <mods>
+                      <li>Alpha Genes</li>
+                    </mods>
+                    <match Class="PatchOperationSequence">
+                      <success>Always</success>
+                      <operations>
+                        <li Class="PatchOperationReplace">
+                          <!--검수용 원본 1.7/Ludeon/Biotech/Patches/No_RNG_Gene_Tools.xml-->
+                          <success>Always</success>
+                          <xpath>/Defs/ThingDef[defName = "AG_GeneRemover"]/comps/li[@Class='CompProperties_Usable']/useLabel[normalize-space(.)=normalize-space('Use gene remover')]</xpath>
+                          <value>
+                            <useLabel>유전자 제거기 사용</useLabel>
+                          </value>
+                        </li>
+                      </operations>
+                    </match>
+                  </li>
+                </operations>
+              </match>
+            </li>
+          </operations>
+        </match>
+      </li>
+      <li Class="PatchOperationFindMod">
+        <success>Always</success>
+        <mods>
+          <li>XML Extensions</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationFindMod">
+              <success>Always</success>
+              <mods>
+                <li>Biotech</li>
+              </mods>
+              <match Class="PatchOperationSequence">
+                <success>Always</success>
+                <operations>
+                  <li Class="PatchOperationFindMod">
+                    <success>Always</success>
+                    <mods>
+                      <li>Alpha Genes</li>
+                    </mods>
+                    <match Class="PatchOperationSequence">
+                      <success>Always</success>
+                      <operations>
+                        <li Class="PatchOperationReplace">
+                          <!--검수용 원본 1.7/Ludeon/Biotech/Patches/No_RNG_Gene_Tools.xml-->
+                          <success>Always</success>
+                          <xpath>/Defs/ThingDef[defName = "AG_Endogenefier"]/comps/li[@Class='CompProperties_Usable']/useLabel[normalize-space(.)=normalize-space('Use endogenefier')]</xpath>
+                          <value>
+                            <useLabel>유전자 생식화기 사용</useLabel>
+                          </value>
+                        </li>
+                      </operations>
+                    </match>
+                  </li>
+                </operations>
+              </match>
+            </li>
+          </operations>
+        </match>
+      </li>
+      <li Class="PatchOperationFindMod">
+        <success>Always</success>
+        <mods>
+          <li>XML Extensions</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationFindMod">
+              <success>Always</success>
+              <mods>
+                <li>Biotech</li>
+              </mods>
+              <match Class="PatchOperationSequence">
+                <success>Always</success>
+                <operations>
+                  <li Class="PatchOperationFindMod">
+                    <success>Always</success>
+                    <mods>
+                      <li>Alpha Genes</li>
+                    </mods>
+                    <match Class="PatchOperationSequence">
+                      <success>Always</success>
+                      <operations>
+                        <li Class="PatchOperationReplace">
+                          <!--검수용 원본 1.7/Ludeon/Biotech/Patches/No_RNG_Gene_Tools.xml-->
+                          <success>Always</success>
+                          <xpath>/Defs/ThingDef[defName = "AG_Xenogenefier"]/comps/li[@Class='CompProperties_Usable']/useLabel[normalize-space(.)=normalize-space('Use xenogenefier')]</xpath>
+                          <value>
+                            <useLabel>유전자 변형화기 사용</useLabel>
+                          </value>
+                        </li>
+                      </operations>
+                    </match>
+                  </li>
+                </operations>
+              </match>
+            </li>
+          </operations>
+        </match>
+      </li>
+      <li Class="PatchOperationFindMod">
+        <success>Always</success>
+        <mods>
+          <li>XML Extensions</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationFindMod">
+              <success>Always</success>
+              <mods>
+                <li>Biotech</li>
+              </mods>
+              <match Class="PatchOperationSequence">
+                <success>Always</success>
+                <operations>
+                  <li Class="XmlExtensions.UseSetting">
+                    <modId>FrozenSnowFox.FrozenSnowFoxTweaks</modId>
+                    <key>FSFLactationDuration</key>
+                    <defaultValue>10</defaultValue>
+                    <apply>
+                      <Operation Class="PatchOperationReplace">
+                        <!--검수용 원본 1.7/Ludeon/Biotech/Patches/Human_Lactation_Settings.xml-->
+                        <success>Always</success>
+                        <xpath>/Defs/HediffDef[defName="Lactating"]/comps/li[@Class = "HediffCompProperties_MessageOnRemoval"]/message[normalize-space(.)=normalize-space('{0} is no longer lactating due to not breastfeeding for {FSFLactationDuration} days.')]</xpath>
+                        <value>
+                          <message>{0}(은)는 {FSFLactationDuration}일 동안 모유를 먹이지 않아 더 이상 모유를 분비하지 않습니다.</message>
+                        </value>
+                      </Operation>
+                    </apply>
+                  </li>
+                </operations>
+              </match>
+            </li>
+          </operations>
+        </match>
+      </li>
+      <li Class="PatchOperationFindMod">
+        <success>Always</success>
+        <mods>
+          <li>XML Extensions</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationFindMod">
+              <success>Always</success>
+              <mods>
+                <li>Biotech</li>
+              </mods>
+              <match Class="PatchOperationSequence">
+                <success>Always</success>
+                <operations>
+                  <li Class="XmlExtensions.UseSetting">
+                    <modId>FrozenSnowFox.FrozenSnowFoxTweaks</modId>
+                    <key>FSFLactationDuration</key>
+                    <defaultValue>10</defaultValue>
+                    <apply>
+                      <Operation Class="PatchOperationReplace">
+                        <!--검수용 원본 1.7/Ludeon/Biotech/Patches/Human_Lactation_Settings.xml-->
+                        <success>Always</success>
+                        <xpath>/Defs/HediffDef[defName="Lactating"]/comps/li[@Class = "HediffCompProperties_MessageOnRemoval"]/message[normalize-space(.)=normalize-space('{0} is no longer lactating due to not breastfeeding for {FSFLactationDuration} day.')]</xpath>
+                        <value>
+                          <message>{0}(은)는 {FSFLactationDuration}일 동안 모유를 먹이지 않아 더 이상 모유를 분비하지 않습니다.</message>
+                        </value>
+                      </Operation>
+                    </apply>
+                  </li>
+                </operations>
+              </match>
+            </li>
+          </operations>
+        </match>
+      </li>
+      <li Class="PatchOperationFindMod">
+        <success>Always</success>
+        <mods>
+          <li>XML Extensions</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationFindMod">
+              <success>Always</success>
+              <mods>
+                <li>Big and Small - Genes &amp; More</li>
+              </mods>
+              <match Class="PatchOperationSequence">
+                <success>Always</success>
+                <operations>
+                  <li Class="PatchOperationReplace">
+                    <!--검수용 원본 1.7/Mods/Big and Small Framework/Patches/BSF_No_Size_Trait_Changes.xml-->
+                    <success>Always</success>
+                    <xpath>/Defs/TraitDef[defName = "Gigantism"]/degreeDatas/li/description[normalize-space(.)=normalize-space('{PAWN_nameDef} is truly gigantic by the standards of their kind and as a result they are sturdier than usual.')]</xpath>
+                    <value>
+                      <description>{PAWN_nameDef}(은)는 같은 인종의 기준에서 아주 거대하고, 그만큼 몸도 튼튼합니다.</description>
+                    </value>
+                  </li>
+                </operations>
+              </match>
+            </li>
+          </operations>
+        </match>
+      </li>
+      <li Class="PatchOperationFindMod">
+        <success>Always</success>
+        <mods>
+          <li>XML Extensions</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationFindMod">
+              <success>Always</success>
+              <mods>
+                <li>Big and Small - Genes &amp; More</li>
+              </mods>
+              <match Class="PatchOperationSequence">
+                <success>Always</success>
+                <operations>
+                  <li Class="PatchOperationReplace">
+                    <!--검수용 원본 1.7/Mods/Big and Small Framework/Patches/BSF_No_Size_Trait_Changes.xml-->
+                    <success>Always</success>
+                    <xpath>/Defs/TraitDef[defName = "Large"]/degreeDatas/li/description[normalize-space(.)=normalize-space('{PAWN_nameDef} is both taller and bulkier than usual for their kind which makes also makes them somewhat sturdier.')]</xpath>
+                    <value>
+                      <description>{PAWN_nameDef}(은)는 같은 인종의 평균보다 키가 크고 체격도 커서 몸이 조금 더 튼튼합니다.</description>
+                    </value>
+                  </li>
+                </operations>
+              </match>
+            </li>
+          </operations>
+        </match>
+      </li>
+      <li Class="PatchOperationFindMod">
+        <success>Always</success>
+        <mods>
+          <li>XML Extensions</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationFindMod">
+              <success>Always</success>
+              <mods>
+                <li>Hauts' Added Traits</li>
+              </mods>
+              <match Class="PatchOperationSequence">
+                <success>Always</success>
+                <operations>
+                  <li Class="PatchOperationFindMod">
+                    <success>Always</success>
+                    <mods>
+                      <li>Royalty</li>
+                    </mods>
+                    <match Class="PatchOperationSequence">
+                      <success>Always</success>
+                      <operations>
+                        <li Class="PatchOperationReplace">
+                          <!--검수용 원본 1.7/Mods/Hauts Added Traits/Patches/Latent_Psychics_Revealed.xml-->
+                          <success>Always</success>
+                          <xpath>/Defs/TraitDef[defName = "HVT_LatentPsychic"]/degreeDatas/li[degree = "1"]/label[normalize-space(.)=normalize-space('latent psychic (mastery)')]</xpath>
+                          <value>
+                            <label>잠재 초능력자 (숙련)</label>
+                          </value>
+                        </li>
+                      </operations>
+                    </match>
+                  </li>
+                </operations>
+              </match>
+            </li>
+          </operations>
+        </match>
+      </li>
+      <li Class="PatchOperationFindMod">
+        <success>Always</success>
+        <mods>
+          <li>XML Extensions</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationFindMod">
+              <success>Always</success>
+              <mods>
+                <li>Hauts' Added Traits</li>
+              </mods>
+              <match Class="PatchOperationSequence">
+                <success>Always</success>
+                <operations>
+                  <li Class="PatchOperationFindMod">
+                    <success>Always</success>
+                    <mods>
+                      <li>Royalty</li>
+                    </mods>
+                    <match Class="PatchOperationSequence">
+                      <success>Always</success>
+                      <operations>
+                        <li Class="PatchOperationReplace">
+                          <!--검수용 원본 1.7/Mods/Hauts Added Traits/Patches/Latent_Psychics_Revealed.xml-->
+                          <success>Always</success>
+                          <xpath>/Defs/TraitDef[defName = "HVT_LatentPsychic"]/degreeDatas/li[degree = "1"]/description[normalize-space(.)=normalize-space('[PAWN_nameDef] has an innate connection to the archotechs. This connection might awaken if [PAWN_pronoun] experiences something related to Mastery, permanently transforming [PAWN_objective] into a powerful psycaster.\n\nMastery can be achieved by reaching 15 in a skill, reaching psylink level 4 or higher, or creating a legendary item.')]</xpath>
+                          <value>
+                            <description>[PAWN_nameDef]에게는 초월공학 지성체와 타고난 연결이 있습니다. [PAWN_pronoun](이)가 숙련과 관련된 일을 겪으면 연결이 깨어나 [PAWN_objective] 영구히 강력한 초능력자로 바꿀 수 있습니다.\n\n기술 레벨 15나 정신력 증폭 4단계 이상에 도달하거나 전설적인 물건을 만들면 숙련을 경험할 수 있습니다.</description>
+                          </value>
+                        </li>
+                      </operations>
+                    </match>
+                  </li>
+                </operations>
+              </match>
+            </li>
+          </operations>
+        </match>
+      </li>
+      <li Class="PatchOperationFindMod">
+        <success>Always</success>
+        <mods>
+          <li>XML Extensions</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationFindMod">
+              <success>Always</success>
+              <mods>
+                <li>Hauts' Added Traits</li>
+              </mods>
+              <match Class="PatchOperationSequence">
+                <success>Always</success>
+                <operations>
+                  <li Class="PatchOperationFindMod">
+                    <success>Always</success>
+                    <mods>
+                      <li>Royalty</li>
+                    </mods>
+                    <match Class="PatchOperationSequence">
+                      <success>Always</success>
+                      <operations>
+                        <li Class="PatchOperationReplace">
+                          <!--검수용 원본 1.7/Mods/Hauts Added Traits/Patches/Latent_Psychics_Revealed.xml-->
+                          <success>Always</success>
+                          <xpath>/Defs/TraitDef[defName = "HVT_LatentPsychic"]/degreeDatas/li[degree = "2"]/label[normalize-space(.)=normalize-space('latent psychic (misery)')]</xpath>
+                          <value>
+                            <label>잠재 초능력자 (불행)</label>
+                          </value>
+                        </li>
+                      </operations>
+                    </match>
+                  </li>
+                </operations>
+              </match>
+            </li>
+          </operations>
+        </match>
+      </li>
+      <li Class="PatchOperationFindMod">
+        <success>Always</success>
+        <mods>
+          <li>XML Extensions</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationFindMod">
+              <success>Always</success>
+              <mods>
+                <li>Hauts' Added Traits</li>
+              </mods>
+              <match Class="PatchOperationSequence">
+                <success>Always</success>
+                <operations>
+                  <li Class="PatchOperationFindMod">
+                    <success>Always</success>
+                    <mods>
+                      <li>Royalty</li>
+                    </mods>
+                    <match Class="PatchOperationSequence">
+                      <success>Always</success>
+                      <operations>
+                        <li Class="PatchOperationReplace">
+                          <!--검수용 원본 1.7/Mods/Hauts Added Traits/Patches/Latent_Psychics_Revealed.xml-->
+                          <success>Always</success>
+                          <xpath>/Defs/TraitDef[defName = "HVT_LatentPsychic"]/degreeDatas/li[degree = "2"]/description[normalize-space(.)=normalize-space('[PAWN_nameDef] has an innate connection to the archotechs. This connection might awaken if [PAWN_pronoun] experiences something related to Misery, permanently transforming [PAWN_objective] into a powerful psycaster.\n\nMisery can be achieved by experiencing a mental break 2% chance, an extreme mental break 50% chance, or gaining an inspiration during catharsis.')]</xpath>
+                          <value>
+                            <description>[PAWN_nameDef]에게는 초월공학 지성체와 타고난 연결이 있습니다. [PAWN_pronoun](이)가 불행과 관련된 일을 겪으면 연결이 깨어나 [PAWN_objective] 영구히 강력한 초능력자로 바꿀 수 있습니다.\n\n정신이상 시 2%, 극심한 정신이상 시 50% 확률로 불행을 경험할 수 있습니다. 카타르시스 중 영감을 얻는 경우에도 해당합니다.</description>
+                          </value>
+                        </li>
+                      </operations>
+                    </match>
+                  </li>
+                </operations>
+              </match>
+            </li>
+          </operations>
+        </match>
+      </li>
+      <li Class="PatchOperationFindMod">
+        <success>Always</success>
+        <mods>
+          <li>XML Extensions</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationFindMod">
+              <success>Always</success>
+              <mods>
+                <li>Hauts' Added Traits</li>
+              </mods>
+              <match Class="PatchOperationSequence">
+                <success>Always</success>
+                <operations>
+                  <li Class="PatchOperationFindMod">
+                    <success>Always</success>
+                    <mods>
+                      <li>Royalty</li>
+                    </mods>
+                    <match Class="PatchOperationSequence">
+                      <success>Always</success>
+                      <operations>
+                        <li Class="PatchOperationReplace">
+                          <!--검수용 원본 1.7/Mods/Hauts Added Traits/Patches/Latent_Psychics_Revealed.xml-->
+                          <success>Always</success>
+                          <xpath>/Defs/TraitDef[defName = "HVT_LatentPsychic"]/degreeDatas/li[degree = "3"]/label[normalize-space(.)=normalize-space('latent psychic (love)')]</xpath>
+                          <value>
+                            <label>잠재 초능력자 (사랑)</label>
+                          </value>
+                        </li>
+                      </operations>
+                    </match>
+                  </li>
+                </operations>
+              </match>
+            </li>
+          </operations>
+        </match>
+      </li>
+      <li Class="PatchOperationFindMod">
+        <success>Always</success>
+        <mods>
+          <li>XML Extensions</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationFindMod">
+              <success>Always</success>
+              <mods>
+                <li>Hauts' Added Traits</li>
+              </mods>
+              <match Class="PatchOperationSequence">
+                <success>Always</success>
+                <operations>
+                  <li Class="PatchOperationFindMod">
+                    <success>Always</success>
+                    <mods>
+                      <li>Royalty</li>
+                    </mods>
+                    <match Class="PatchOperationSequence">
+                      <success>Always</success>
+                      <operations>
+                        <li Class="PatchOperationReplace">
+                          <!--검수용 원본 1.7/Mods/Hauts Added Traits/Patches/Latent_Psychics_Revealed.xml-->
+                          <success>Always</success>
+                          <xpath>/Defs/TraitDef[defName = "HVT_LatentPsychic"]/degreeDatas/li[degree = "3"]/description[normalize-space(.)=normalize-space('[PAWN_nameDef] has an innate connection to the archotechs. This connection might awaken if [PAWN_pronoun] experiences something related to Love, permanently transforming [PAWN_objective] into a powerful psycaster.\n\nLove can be achieved by bonding with an animal 50% chance, entering a romantic relationship 50% chance, getting engaged 75% chance, getting married 100% chance, having 500 positive opinion of other people, or if a child they are related to reaches maturity.')]</xpath>
+                          <value>
+                            <description>[PAWN_nameDef]에게는 초월공학 지성체와 타고난 연결이 있습니다. [PAWN_pronoun](이)가 사랑과 관련된 일을 겪으면 연결이 깨어나 [PAWN_objective] 영구히 강력한 초능력자로 바꿀 수 있습니다.\n\n동물과 유대를 맺거나 연애를 시작하면 50%, 약혼하면 75%, 결혼하면 100% 확률로 사랑을 경험합니다. 다른 사람에 대한 긍정적 평판 합계가 500이 되거나 친족인 아이가 성인이 되는 경우에도 해당합니다.</description>
+                          </value>
+                        </li>
+                      </operations>
+                    </match>
+                  </li>
+                </operations>
+              </match>
+            </li>
+          </operations>
+        </match>
+      </li>
+      <li Class="PatchOperationFindMod">
+        <success>Always</success>
+        <mods>
+          <li>XML Extensions</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationFindMod">
+              <success>Always</success>
+              <mods>
+                <li>Hauts' Added Traits</li>
+              </mods>
+              <match Class="PatchOperationSequence">
+                <success>Always</success>
+                <operations>
+                  <li Class="PatchOperationFindMod">
+                    <success>Always</success>
+                    <mods>
+                      <li>Royalty</li>
+                    </mods>
+                    <match Class="PatchOperationSequence">
+                      <success>Always</success>
+                      <operations>
+                        <li Class="PatchOperationReplace">
+                          <!--검수용 원본 1.7/Mods/Hauts Added Traits/Patches/Latent_Psychics_Revealed.xml-->
+                          <success>Always</success>
+                          <xpath>/Defs/TraitDef[defName = "HVT_LatentPsychic"]/degreeDatas/li[degree = "4"]/label[normalize-space(.)=normalize-space('latent psychic (loss)')]</xpath>
+                          <value>
+                            <label>잠재 초능력자 (상실)</label>
+                          </value>
+                        </li>
+                      </operations>
+                    </match>
+                  </li>
+                </operations>
+              </match>
+            </li>
+          </operations>
+        </match>
+      </li>
+      <li Class="PatchOperationFindMod">
+        <success>Always</success>
+        <mods>
+          <li>XML Extensions</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationFindMod">
+              <success>Always</success>
+              <mods>
+                <li>Hauts' Added Traits</li>
+              </mods>
+              <match Class="PatchOperationSequence">
+                <success>Always</success>
+                <operations>
+                  <li Class="PatchOperationFindMod">
+                    <success>Always</success>
+                    <mods>
+                      <li>Royalty</li>
+                    </mods>
+                    <match Class="PatchOperationSequence">
+                      <success>Always</success>
+                      <operations>
+                        <li Class="PatchOperationReplace">
+                          <!--검수용 원본 1.7/Mods/Hauts Added Traits/Patches/Latent_Psychics_Revealed.xml-->
+                          <success>Always</success>
+                          <xpath>/Defs/TraitDef[defName = "HVT_LatentPsychic"]/degreeDatas/li[degree = "4"]/description[normalize-space(.)=normalize-space('[PAWN_nameDef] has an innate connection to the archotechs. This connection might awaken if [PAWN_pronoun] experiences something related to Loss, permanently transforming [PAWN_objective] into a powerful psycaster.\n\nLoss can be achieved by having kin or a romantic related individual with 60+ positive or negative opinion die 50-100% chance based on opinion score, a bonded animal dies 50% chance, a person they have a 100 opinion of dies on the map or in a caravan 50% chance, or if kin or a romantic related individual with 60+ positive or negative opinion is banished 2% chance.')]</xpath>
+                          <value>
+                            <description>[PAWN_nameDef]에게는 초월공학 지성체와 타고난 연결이 있습니다. [PAWN_pronoun](이)가 상실과 관련된 일을 겪으면 연결이 깨어나 [PAWN_objective] 영구히 강력한 초능력자로 바꿀 수 있습니다.\n\n평판의 절댓값이 60 이상인 친족이나 연인이 죽으면 평판에 따라 50~100%, 유대를 맺은 동물이 죽으면 50% 확률로 상실을 경험합니다. 평판이 100인 사람이 지도나 상단에서 죽으면 50%, 평판의 절댓값이 60 이상인 친족이나 연인이 추방되면 2% 확률입니다.</description>
+                          </value>
+                        </li>
+                      </operations>
+                    </match>
+                  </li>
+                </operations>
+              </match>
+            </li>
+          </operations>
+        </match>
+      </li>
+      <li Class="PatchOperationFindMod">
+        <success>Always</success>
+        <mods>
+          <li>XML Extensions</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationFindMod">
+              <success>Always</success>
+              <mods>
+                <li>Hauts' Added Traits</li>
+              </mods>
+              <match Class="PatchOperationSequence">
+                <success>Always</success>
+                <operations>
+                  <li Class="PatchOperationFindMod">
+                    <success>Always</success>
+                    <mods>
+                      <li>Royalty</li>
+                    </mods>
+                    <match Class="PatchOperationSequence">
+                      <success>Always</success>
+                      <operations>
+                        <li Class="PatchOperationReplace">
+                          <!--검수용 원본 1.7/Mods/Hauts Added Traits/Patches/Latent_Psychics_Revealed.xml-->
+                          <success>Always</success>
+                          <xpath>/Defs/TraitDef[defName = "HVT_LatentPsychic"]/degreeDatas/li[degree = "5"]/label[normalize-space(.)=normalize-space('latent psychic (Life)')]</xpath>
+                          <value>
+                            <label>잠재 초능력자 (생명)</label>
+                          </value>
+                        </li>
+                      </operations>
+                    </match>
+                  </li>
+                </operations>
+              </match>
+            </li>
+          </operations>
+        </match>
+      </li>
+      <li Class="PatchOperationFindMod">
+        <success>Always</success>
+        <mods>
+          <li>XML Extensions</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationFindMod">
+              <success>Always</success>
+              <mods>
+                <li>Hauts' Added Traits</li>
+              </mods>
+              <match Class="PatchOperationSequence">
+                <success>Always</success>
+                <operations>
+                  <li Class="PatchOperationFindMod">
+                    <success>Always</success>
+                    <mods>
+                      <li>Royalty</li>
+                    </mods>
+                    <match Class="PatchOperationSequence">
+                      <success>Always</success>
+                      <operations>
+                        <li Class="PatchOperationReplace">
+                          <!--검수용 원본 1.7/Mods/Hauts Added Traits/Patches/Latent_Psychics_Revealed.xml-->
+                          <success>Always</success>
+                          <xpath>/Defs/TraitDef[defName = "HVT_LatentPsychic"]/degreeDatas/li[degree = "5"]/description[normalize-space(.)=normalize-space("[PAWN_nameDef] has an innate connection to the archotechs. This connection might awaken if [PAWN_pronoun] experiences something related to Life, permanently transforming [PAWN_objective] into a powerful psycaster.\n\nLife can be achieved by aging 1% chance on birthday, becoming immune to a illness that's progressed to life-threatening stage 20% chance, being resurrected, or giving birth 33% chance.")]</xpath>
+                          <value>
+                            <description>[PAWN_nameDef]에게는 초월공학 지성체와 타고난 연결이 있습니다. [PAWN_pronoun](이)가 생명과 관련된 일을 겪으면 연결이 깨어나 [PAWN_objective] 영구히 강력한 초능력자로 바꿀 수 있습니다.\n\n생일을 맞으면 1%, 목숨을 위협하는 단계까지 진행된 질병에 면역을 얻으면 20%, 출산하면 33% 확률로 생명을 경험합니다. 부활하는 경우에도 해당합니다.</description>
+                          </value>
+                        </li>
+                      </operations>
+                    </match>
+                  </li>
+                </operations>
+              </match>
+            </li>
+          </operations>
+        </match>
+      </li>
+      <li Class="PatchOperationFindMod">
+        <success>Always</success>
+        <mods>
+          <li>XML Extensions</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationFindMod">
+              <success>Always</success>
+              <mods>
+                <li>Hauts' Added Traits</li>
+              </mods>
+              <match Class="PatchOperationSequence">
+                <success>Always</success>
+                <operations>
+                  <li Class="PatchOperationFindMod">
+                    <success>Always</success>
+                    <mods>
+                      <li>Royalty</li>
+                    </mods>
+                    <match Class="PatchOperationSequence">
+                      <success>Always</success>
+                      <operations>
+                        <li Class="PatchOperationReplace">
+                          <!--검수용 원본 1.7/Mods/Hauts Added Traits/Patches/Latent_Psychics_Revealed.xml-->
+                          <success>Always</success>
+                          <xpath>/Defs/TraitDef[defName = "HVT_LatentPsychic"]/degreeDatas/li[degree = "6"]/label[normalize-space(.)=normalize-space('latent psychic (Death)')]</xpath>
+                          <value>
+                            <label>잠재 초능력자 (죽음)</label>
+                          </value>
+                        </li>
+                      </operations>
+                    </match>
+                  </li>
+                </operations>
+              </match>
+            </li>
+          </operations>
+        </match>
+      </li>
+      <li Class="PatchOperationFindMod">
+        <success>Always</success>
+        <mods>
+          <li>XML Extensions</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationFindMod">
+              <success>Always</success>
+              <mods>
+                <li>Hauts' Added Traits</li>
+              </mods>
+              <match Class="PatchOperationSequence">
+                <success>Always</success>
+                <operations>
+                  <li Class="PatchOperationFindMod">
+                    <success>Always</success>
+                    <mods>
+                      <li>Royalty</li>
+                    </mods>
+                    <match Class="PatchOperationSequence">
+                      <success>Always</success>
+                      <operations>
+                        <li Class="PatchOperationReplace">
+                          <!--검수용 원본 1.7/Mods/Hauts Added Traits/Patches/Latent_Psychics_Revealed.xml-->
+                          <success>Always</success>
+                          <xpath>/Defs/TraitDef[defName = "HVT_LatentPsychic"]/degreeDatas/li[degree = "6"]/description[normalize-space(.)=normalize-space('[PAWN_nameDef] has an innate connection to the archotechs. This connection might awaken if [PAWN_pronoun] experiences something related to Death, permanently transforming [PAWN_objective] into a powerful psycaster.\n\nDeath can be achieved by dying (they will immediately resurrect upon death).')]</xpath>
+                          <value>
+                            <description>[PAWN_nameDef]에게는 초월공학 지성체와 타고난 연결이 있습니다. [PAWN_pronoun](이)가 죽음과 관련된 일을 겪으면 연결이 깨어나 [PAWN_objective] 영구히 강력한 초능력자로 바꿀 수 있습니다.\n\n죽음은 직접 죽어야 경험할 수 있습니다. 죽는 순간 즉시 부활합니다.</description>
+                          </value>
+                        </li>
+                      </operations>
+                    </match>
+                  </li>
+                </operations>
+              </match>
+            </li>
+          </operations>
+        </match>
+      </li>
+    </operations>
+  </Operation>
+</Patch>
