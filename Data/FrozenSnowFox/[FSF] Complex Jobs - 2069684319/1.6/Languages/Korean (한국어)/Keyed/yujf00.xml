@@ -8,8 +8,8 @@
   <FSFComplexJobsDraftedWorkTasksDesc>모든 작업 임무를 소집 중에도 수행할 수 있도록 변경합니다.  작업을 수행하기 위해 더 이상 폰을 소집 취소했다가 다시 소집할 필요가 없도록 변경합니다.\n참고: 일부 작업은 여전히 소집 중에도 사용할 수 없으며, 일부 작업은 폰을 강제로 소집 취소하여 작업을 수행할 수 있습니다.</FSFComplexJobsDraftedWorkTasksDesc>
   <FSFComplexJobsRescueInFirefightingTitle>소방에 포함된 구조</FSFComplexJobsRescueInFirefightingTitle>
   <FSFComplexJobsRescueInFirefightingDesc>소방에 구조라는 중복된 임무를 추가합니다.  이렇게 하면 소방 작업 유형에 속한 사람이 화재 진압을 시도하기 전에 쓰러진 아군을 먼저 구조하게 됩니다.\n참고: 이 옵션은 구조 작업 유형의 대안이지만 두 옵션 모두 문제 없이 활성화할 수 있습니다.</FSFComplexJobsRescueInFirefightingDesc>
-  <FSFComplexJobsIdeoRolesAreCapableTitle>작업 할 수 있는 전문가들</FSFComplexJobsIdeoRolesAreCapableTitle>
-  <FSFComplexJobsIdeoRolesAreCapableDesc>전문가의 비활성화 된 작업 유형을 전부 제거합니다.</FSFComplexJobsIdeoRolesAreCapableDesc>
+  <FSFComplexJobsIdeoRolesAreCapableTitle>사상 역할도 작업 가능</FSFComplexJobsIdeoRolesAreCapableTitle>
+  <FSFComplexJobsIdeoRolesAreCapableDesc>모든 사상 지위에서 작업 유형과 무기 사용 제한을 없앱니다.</FSFComplexJobsIdeoRolesAreCapableDesc>
   <FSFComplexJobsMechanoidsAreCapableTitle>유능한 메카노이드</FSFComplexJobsMechanoidsAreCapableTitle>
   <FSFComplexJobsMechanoidsAreCapableDesc>모든 작업 유형 작업의 canBeDoneByMechs 필드를 false에서 true로 변경합니다.\n참고: 일부 작업들은 추가적인 코드로 수정하지 않으면 게임이 깨집니다. 이러한 작업들은 명백한 이유로 제외됩니다.</FSFComplexJobsMechanoidsAreCapableDesc>
   <FSFComplexJobsSlavesAreCapableTitle>유능한 노예</FSFComplexJobsSlavesAreCapableTitle>
@@ -21,7 +21,7 @@
   <FSFComplexJobsClearSnowWorktypeTitle>제설 작업 유형</FSFComplexJobsClearSnowWorktypeTitle>
   <FSFComplexJobsClearSnowWorktypeDesc>제설 작업 유형을 활성화하여 제설 작업 유형을 별도의 작업 유형으로 이동시킵니다</FSFComplexJobsClearSnowWorktypeDesc>
   <FSFComplexJobsConvertWorktypeTitle>교화 작업 유형</FSFComplexJobsConvertWorktypeTitle>
-  <FSFComplexJobsConvertWorktypeDesc>포로의 이념을 교화하는 데 중점을 둔 작업 유형을 활성화합니다.</FSFComplexJobsConvertWorktypeDesc>
+  <FSFComplexJobsConvertWorktypeDesc>교화 작업을 독립된 작업 유형으로 분리합니다.</FSFComplexJobsConvertWorktypeDesc>
   <FSFComplexJobsHackWorktypeTitle>해킹 작업 유형</FSFComplexJobsHackWorktypeTitle>
   <FSFComplexJobsHackWorktypeDesc>해킹 작업 유형을 활성화하여 모든 해킹 관련 작업을 별도의 작업 유형으로 이동합니다.</FSFComplexJobsHackWorktypeDesc>
   <FSFComplexJobsMechanoidsWorktypeTitle>메카노이드 작업 유형</FSFComplexJobsMechanoidsWorktypeTitle>
@@ -36,6 +36,8 @@
   <FSFComplexJobsPruningWorktypeDesc>나무 가지치기에 중점을 둔 가지치기 작업 유형을 활성화합니다.</FSFComplexJobsPruningWorktypeDesc>
   <FSFComplexJobsRescueWorktypeTitle>구조 작업 유형</FSFComplexJobsRescueWorktypeTitle>
   <FSFComplexJobsRescueWorktypeDesc>쓰러진 아군을 구출하는 데 중점을 둔 구조 작업 유형을 활성화합니다.</FSFComplexJobsRescueWorktypeDesc>
+  <FSFComplexJobsSelfTendWorktypeTitle>자가 치료 작업 유형</FSFComplexJobsSelfTendWorktypeTitle>
+  <FSFComplexJobsSelfTendWorktypeDesc>자가 치료 관련 작업을 별도의 작업 유형으로 옮깁니다. 폰이 자가 치료를 하려면 자가 치료 설정도 켜야 합니다. 다른 폰을 치료하는 작업을 맡지 않고 스스로 치료할 수 있도록 만든 작업 유형입니다.</FSFComplexJobsSelfTendWorktypeDesc>
   <FSFComplexJobsSlaughterWorktypeTitle>도축 작업 유형</FSFComplexJobsSlaughterWorktypeTitle>
   <FSFComplexJobsSlaughterWorktypeDesc>지정된 동물을 도축하는 데 중점을 둔 도축 작업 유형을 활성화합니다.</FSFComplexJobsSlaughterWorktypeDesc>
   <FSFComplexJobsSmoothingWorktypeTitle>다듬기 작업 유형</FSFComplexJobsSmoothingWorktypeTitle>
